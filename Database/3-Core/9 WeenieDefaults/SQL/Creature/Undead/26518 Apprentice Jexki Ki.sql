@@ -122,21 +122,21 @@ VALUES (26518,  0,  4,  0,    0,  450,  450,  450,  450,  450,  450,  450,  540,
      , (26518,  8,  4, 250,  0.5,  450,  450,  450,  450,  450,  450,  450,  540,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26518,  3055,   2.02)  /* Asphyxiation */
-     , (26518,  3057,   2.02)  /* Enervation */
-     , (26518,  3069,   2.02)  /* Poison Blood */
-     , (26518,  3070,   2.02)  /* Taint Mana */
-     , (26518,  3085,   2.01)  /* Bruised Flesh */
+VALUES (26518,  3085,   2.01)  /* Bruised Flesh */
+     , (26518,  3118,   2.02)  /* Liquefy Flesh */
      , (26518,  3086,   2.01)  /* Flesh of Cloth */
+     , (26518,  3119,   2.02)  /* Sear Flesh */
      , (26518,  3087,   2.01)  /* Exposed Flesh */
      , (26518,  3088,   2.01)  /* Flesh of Flint */
      , (26518,  3089,   2.01)  /* Weaken Flesh */
      , (26518,  3090,   2.01)  /* Thin Skin */
      , (26518,  3107,   2.02)  /* Flay Soul */
-     , (26518,  3118,   2.02)  /* Liquefy Flesh */
-     , (26518,  3119,   2.02)  /* Sear Flesh */
+     , (26518,  3055,   2.02)  /* Asphyxiation */
+     , (26518,  3069,   2.02)  /* Poison Blood */
      , (26518,  3120,   2.02)  /* Soul Hammer */
-     , (26518,  3121,   2.02)  /* Soul Spike */;
+     , (26518,  3121,   2.02)  /* Soul Spike */
+     , (26518,  3057,   2.02)  /* Enervation */
+     , (26518,  3070,   2.02)  /* Taint Mana */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (26518,  94) /* ATTACK_NOTIFICATION_EVENT */

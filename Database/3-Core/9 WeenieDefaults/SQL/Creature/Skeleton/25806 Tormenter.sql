@@ -124,13 +124,13 @@ VALUES (25806,  0,  4,  0,    0,  500,  500,  500,  500,  500,  500,  500,  500,
      , (25806,  8,  4, 135, 0.75,  500,  500,  500,  500,  500,  500,  500,  500,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25806,  2122,    2.1)  /* Disintegration */
-     , (25806,  2128,    2.1)  /* Ilservian's Flame */
-     , (25806,  2132,    2.1)  /* The Spike */
-     , (25806,  2136,    2.1)  /* Icy Torment */
-     , (25806,  2140,    2.1)  /* Alset's Coil */
+VALUES (25806,  2146,    2.1)  /* Evisceration */
+     , (25806,  2122,    2.1)  /* Disintegration */
      , (25806,  2144,    2.1)  /* Crushing Shame */
-     , (25806,  2146,    2.1)  /* Evisceration */;
+     , (25806,  2136,    2.1)  /* Icy Torment */
+     , (25806,  2128,    2.1)  /* Ilservian's Flame */
+     , (25806,  2140,    2.1)  /* Alset's Coil */
+     , (25806,  2132,    2.1)  /* The Spike */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (25806,  94) /* ATTACK_NOTIFICATION_EVENT */

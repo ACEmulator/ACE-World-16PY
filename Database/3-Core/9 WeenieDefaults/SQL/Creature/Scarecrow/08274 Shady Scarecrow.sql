@@ -116,16 +116,16 @@ VALUES (8274,  0,  4,  0,    0,  120,   84,   38,   38,   38,   84,   38,   84, 
      , (8274,  8,  4, 10, 0.75,  120,   84,   38,   38,   38,   84,   38,   84,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8274,   172,  2.009)  /* Fester Other II */
-     , (8274,   195,  2.009)  /* Exhaustion Other II */
-     , (8274,   245,  2.008)  /* Invulnerability Self II */
+VALUES (8274,   195,  2.009)  /* Exhaustion Other II */
+     , (8274,  1308,  2.008)  /* Armor Self II */
      , (8274,  1091,  2.008)  /* Fire Protection Self III */
-     , (8274,  1157,  2.019)  /* Heal Self II */
-     , (8274,  1172,  2.053)  /* Harm Other II */
-     , (8274,  1196,  2.009)  /* Enfeeble Other II */
-     , (8274,  1238,      2)  /* Drain Health Other II */
      , (8274,  1261,  2.009)  /* Drain Mana Other II */
-     , (8274,  1308,  2.008)  /* Armor Self II */;
+     , (8274,  1157,  2.019)  /* Heal Self II */
+     , (8274,  1196,  2.009)  /* Enfeeble Other II */
+     , (8274,  1172,  2.053)  /* Harm Other II */
+     , (8274,  1238,      2)  /* Drain Health Other II */
+     , (8274,   172,  2.009)  /* Fester Other II */
+     , (8274,   245,  2.008)  /* Invulnerability Self II */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (8274,  94) /* ATTACK_NOTIFICATION_EVENT */

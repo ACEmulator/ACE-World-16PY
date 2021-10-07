@@ -103,17 +103,17 @@ VALUES (7126,  0,  8, 50,  0.5,   50,   50,   42,   42,  500,  128,  128,   42, 
      , (7126, 21, 16,  0,    0,   40,   40,   34,   34,  400,  102,  102,   34,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7126,    72,   2.15)  /* Frost Bolt IV */
-     , (7126,    78,   2.15)  /* Lightning Bolt IV */
-     , (7126,   174,   2.17)  /* Fester Other IV */
-     , (7126,   197,   2.17)  /* Exhaustion Other IV */
-     , (7126,   222,   2.17)  /* Mana Depletion Other V */
-     , (7126,  1159,    2.1)  /* Heal Self IV */
+VALUES (7126,   197,   2.17)  /* Exhaustion Other IV */
      , (7126,  1174,   2.17)  /* Harm Other IV */
-     , (7126,  1198,   2.17)  /* Enfeeble Other IV */
      , (7126,  1222,   2.17)  /* Mana Drain Other IV */
-     , (7126,  1240,   2.67)  /* Drain Health Other IV */
+     , (7126,  1159,    2.1)  /* Heal Self IV */
+     , (7126,    72,   2.15)  /* Frost Bolt IV */
      , (7126,  1252,   2.67)  /* Drain Stamina Other IV */
+     , (7126,   222,   2.17)  /* Mana Depletion Other V */
+     , (7126,    78,   2.15)  /* Lightning Bolt IV */
+     , (7126,  1240,   2.67)  /* Drain Health Other IV */
+     , (7126,  1198,   2.17)  /* Enfeeble Other IV */
+     , (7126,   174,   2.17)  /* Fester Other IV */
      , (7126,  1263,   2.67)  /* Drain Mana Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

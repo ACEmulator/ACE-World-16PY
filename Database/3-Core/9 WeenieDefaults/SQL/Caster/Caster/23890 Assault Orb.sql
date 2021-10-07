@@ -52,7 +52,7 @@ VALUES (23890,   1,   33558211) /* Setup */
      , (23890,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23890,   215,      2)  /* Mana Renewal Self IV */
-     , (23890,   656,      2)  /* Mana Conversion Mastery Self IV */
+VALUES (23890,   656,      2)  /* Mana Conversion Mastery Self IV */
      , (23890,  1425,      2)  /* Focus Self V */
+     , (23890,   215,      2)  /* Mana Renewal Self IV */
      , (23890,  2013,      2)  /* Wizard's Greater Intellect */;

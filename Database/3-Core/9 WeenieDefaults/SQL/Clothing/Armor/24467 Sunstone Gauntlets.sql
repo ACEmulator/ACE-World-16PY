@@ -53,5 +53,5 @@ VALUES (24467,   1,   33554648) /* Setup */
      , (24467,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24467,  1383,      2)  /* Coordination Other V */
-     , (24467,  1485,      2)  /* Impenetrability V */;
+VALUES (24467,  1485,      2)  /* Impenetrability V */
+     , (24467,  1383,      2)  /* Coordination Other V */;

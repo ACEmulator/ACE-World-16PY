@@ -59,8 +59,8 @@ VALUES (20039,   1,   33557802) /* Setup */
      , (20039,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20039,  1071,      2)  /* Lightning Protection Self VI */
-     , (20039,  1401,      2)  /* Quickness Self V */
-     , (20039,  1603,      2)  /* Aura of Defender Self IV */
+VALUES (20039,  1603,      2)  /* Aura of Defender Self IV */
      , (20039,  1614,      2)  /* Aura of Blood Drinker Self IV */
-     , (20039,  2684,      2)  /* Feeble Missile Weapon Aptitude */;
+     , (20039,  1071,      2)  /* Lightning Protection Self VI */
+     , (20039,  2684,      2)  /* Feeble Missile Weapon Aptitude */
+     , (20039,  1401,      2)  /* Quickness Self V */;

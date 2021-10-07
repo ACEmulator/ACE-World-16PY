@@ -40,7 +40,8 @@ VALUES (29946,   1,   33554683) /* Setup */
      , (29946,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29946,  2653,      2)  /* Feeble Willpower */
+VALUES (29946,  2677,      2)  /* Feeble Missile Weapon Aptitude */
+     , (29946,  2653,      2)  /* Feeble Willpower */
      , (29946,  2654,      2)  /* Feeble Endurance */
      , (29946,  2655,      2)  /* Feeble Focus */
      , (29946,  2656,      2)  /* Feeble Quickness */
@@ -48,7 +49,6 @@ VALUES (29946,  2653,      2)  /* Feeble Willpower */
      , (29946,  2658,      2)  /* Feeble Coordination */
      , (29946,  2675,      2)  /* Feeble Light Weapon Aptitude */
      , (29946,  2676,      2)  /* Feeble Missile Weapon Aptitude */
-     , (29946,  2677,      2)  /* Feeble Missile Weapon Aptitude */
      , (29946,  2678,      2)  /* Feeble Finesse Weapon Aptitude */
      , (29946,  2679,      2)  /* Feeble Light Weapon Aptitude */
      , (29946,  2680,      2)  /* Feeble Mana Conversion Prowess */

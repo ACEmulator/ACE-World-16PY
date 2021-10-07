@@ -54,9 +54,9 @@ VALUES (6216,   1,   33556311) /* Setup */
      , (6216,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6216,   517,      2)  /* Acid Protection Self III */
-     , (6216,  1375,      2)  /* Coordination Self III */
-     , (6216,  1589,      2)  /* Aura of Heart Seeker Self III */
+VALUES (6216,  1375,      2)  /* Coordination Self III */
      , (6216,  1602,      2)  /* Aura of Defender Self III */
+     , (6216,   517,      2)  /* Acid Protection Self III */
+     , (6216,  1589,      2)  /* Aura of Heart Seeker Self III */
      , (6216,  1613,      2)  /* Aura of Blood Drinker Self III */
      , (6216,  1624,      2)  /* Aura of Swift Killer Self III */;

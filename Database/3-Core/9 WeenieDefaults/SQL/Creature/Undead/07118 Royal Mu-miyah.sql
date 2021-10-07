@@ -122,33 +122,33 @@ VALUES (7118,  0,  4,  0,    0,  280,  165,  123,  165,    8,  112,  280,   90, 
      , (7118,  8,  4, 40, 0.75,  280,  165,  123,  165,    8,  112,  280,   90,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7118,    62,  2.017)  /* Acid Stream V */
-     , (7118,    63,  2.014)  /* Acid Stream VI */
-     , (7118,    68,  2.017)  /* Shock Wave V */
-     , (7118,    69,  2.014)  /* Shock Wave VI */
+VALUES (7118,  1253,  2.025)  /* Drain Stamina Other V */
+     , (7118,   137,  2.017)  /* Frost Volley V */
      , (7118,    73,  2.017)  /* Frost Bolt V */
+     , (7118,   129,  2.017)  /* Acid Volley V */
+     , (7118,    68,  2.017)  /* Shock Wave V */
+     , (7118,   141,  2.017)  /* Lightning Volley V */
+     , (7118,    69,  2.014)  /* Shock Wave VI */
+     , (7118,   198,   2.02)  /* Exhaustion Other V */
+     , (7118,  1223,   2.02)  /* Mana Drain Other V */
      , (7118,    74,  2.014)  /* Frost Bolt VI */
      , (7118,    79,  2.017)  /* Lightning Bolt V */
      , (7118,    80,  2.014)  /* Lightning Bolt VI */
+     , (7118,   145,  2.017)  /* Flame Volley V */
      , (7118,    84,  2.017)  /* Flame Bolt V */
      , (7118,    85,  2.014)  /* Flame Bolt VI */
+     , (7118,  1175,   2.02)  /* Harm Other V */
+     , (7118,  1241,  2.025)  /* Drain Health Other V */
      , (7118,    90,  2.017)  /* Force Bolt V */
      , (7118,    91,  2.014)  /* Force Bolt VI */
      , (7118,    96,  2.017)  /* Whirling Blade V */
      , (7118,    97,  2.014)  /* Whirling Blade VI */
-     , (7118,   129,  2.017)  /* Acid Volley V */
-     , (7118,   137,  2.017)  /* Frost Volley V */
-     , (7118,   141,  2.017)  /* Lightning Volley V */
-     , (7118,   145,  2.017)  /* Flame Volley V */
      , (7118,   169,  2.025)  /* Regeneration Self V */
-     , (7118,   175,   2.02)  /* Fester Other V */
-     , (7118,   198,   2.02)  /* Exhaustion Other V */
-     , (7118,  1175,   2.02)  /* Harm Other V */
      , (7118,  1199,   2.02)  /* Enfeeble Other V */
-     , (7118,  1223,   2.02)  /* Mana Drain Other V */
-     , (7118,  1241,  2.025)  /* Drain Health Other V */
-     , (7118,  1253,  2.025)  /* Drain Stamina Other V */
-     , (7118,  1264,  2.025)  /* Drain Mana Other V */;
+     , (7118,   175,   2.02)  /* Fester Other V */
+     , (7118,  1264,  2.025)  /* Drain Mana Other V */
+     , (7118,    62,  2.017)  /* Acid Stream V */
+     , (7118,    63,  2.014)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (7118,  94) /* ATTACK_NOTIFICATION_EVENT */

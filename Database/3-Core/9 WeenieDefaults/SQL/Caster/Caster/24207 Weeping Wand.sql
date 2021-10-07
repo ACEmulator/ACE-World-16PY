@@ -59,7 +59,7 @@ VALUES (24207,   1,   33558300) /* Setup */
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24207,   616,      2)  /* Life Magic Mastery Other VI */
      , (24207,   640,      2)  /* War Magic Mastery Other VI */
-     , (24207,  1426,      2)  /* Focus Self VI */
      , (24207,  1450,      2)  /* Willpower Self VI */
+     , (24207,  1426,      2)  /* Focus Self VI */
      , (24207,  2691,      2)  /* Moderate Mana Conversion Prowess */
      , (24207,  2965,      2)  /* Aura of Murderous Intent */;

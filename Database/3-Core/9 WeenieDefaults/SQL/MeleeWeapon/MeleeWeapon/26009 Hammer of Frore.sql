@@ -55,5 +55,5 @@ VALUES (26009,   1,   33558574) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (26009,  1035,      2)  /* Cold Protection Self VI */
-     , (26009,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (26009,  2675,      2)  /* Feeble Light Weapon Aptitude */;
+     , (26009,  2675,      2)  /* Feeble Light Weapon Aptitude */
+     , (26009,  1615,      2)  /* Aura of Blood Drinker Self V */;

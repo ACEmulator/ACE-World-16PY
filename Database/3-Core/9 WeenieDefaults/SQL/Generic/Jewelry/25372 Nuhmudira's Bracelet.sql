@@ -43,6 +43,6 @@ VALUES (25372,   1,   33554683) /* Setup */
      , (25372,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25372,  1426,      2)  /* Focus Self VI */
+VALUES (25372,  2624,      2)  /* Major Mana Gain */
      , (25372,  1450,      2)  /* Willpower Self VI */
-     , (25372,  2624,      2)  /* Major Mana Gain */;
+     , (25372,  1426,      2)  /* Focus Self VI */;

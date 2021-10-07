@@ -46,6 +46,6 @@ VALUES (9064,   1,   33556965) /* Setup */
      , (9064,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9064,   634,      2)  /* War Magic Mastery Self VI */
+VALUES (9064,  1450,      2)  /* Willpower Self VI */
      , (9064,  1426,      2)  /* Focus Self VI */
-     , (9064,  1450,      2)  /* Willpower Self VI */;
+     , (9064,   634,      2)  /* War Magic Mastery Self VI */;

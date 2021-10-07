@@ -109,11 +109,11 @@ VALUES (196,  0,  4,  0,    0,   50,   40,   40,   20, 5000,    5,   40,   12,  
      , (196,  8,  4, 40, 0.75,   50,   40,   40,   20, 5000,    5,   40,   12,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (196,    70,   2.06)  /* Frost Bolt II */
+VALUES (196,  1250,   2.02)  /* Drain Stamina Other II */
+     , (196,    70,   2.06)  /* Frost Bolt II */
      , (196,    87,   2.06)  /* Force Bolt II */
      , (196,    93,   2.06)  /* Whirling Blade II */
-     , (196,  1061,   2.02)  /* Cold Vulnerability Other II */
-     , (196,  1250,   2.02)  /* Drain Stamina Other II */;
+     , (196,  1061,   2.02)  /* Cold Vulnerability Other II */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (196,  94) /* ATTACK_NOTIFICATION_EVENT */

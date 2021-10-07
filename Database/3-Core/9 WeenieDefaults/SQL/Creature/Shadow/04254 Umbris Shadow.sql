@@ -125,27 +125,27 @@ VALUES (4254,  0,  4,  0,    0,  230,  230,  198,  209,  175,  230,  179,  198, 
      , (4254,  8,  4, 45, 0.75,  230,  230,  198,  209,  175,  230,  179,  198,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (4254,    72,  2.032)  /* Frost Bolt IV */
-     , (4254,    78,  2.032)  /* Lightning Bolt IV */
+VALUES (4254,  1159,   2.02)  /* Heal Self IV */
      , (4254,    83,  2.032)  /* Flame Bolt IV */
-     , (4254,    89,  2.032)  /* Force Bolt IV */
-     , (4254,    95,  2.032)  /* Whirling Blade IV */
-     , (4254,   136,  2.003)  /* Frost Volley IV */
-     , (4254,   140,  2.003)  /* Lightning Volley IV */
      , (4254,   144,  2.003)  /* Flame Volley IV */
-     , (4254,   148,  2.003)  /* Force Volley IV */
-     , (4254,   152,  2.003)  /* Blade Volley IV */
-     , (4254,   232,  2.023)  /* Vulnerability Other IV */
-     , (4254,   277,  2.006)  /* Magic Resistance Self IV */
-     , (4254,   283,  2.023)  /* Magic Yield Other IV */
-     , (4254,   608,  2.006)  /* Life Magic Mastery Self IV */
-     , (4254,   626,  2.023)  /* Life Magic Ineptitude Other IV */
+     , (4254,   136,  2.003)  /* Frost Volley IV */
+     , (4254,    72,  2.032)  /* Frost Bolt IV */
+     , (4254,  1418,  2.023)  /* Slowness Other IV */
+     , (4254,   140,  2.003)  /* Lightning Volley IV */
+     , (4254,    78,  2.032)  /* Lightning Bolt IV */
      , (4254,   656,  2.006)  /* Mana Conversion Mastery Self IV */
-     , (4254,  1159,   2.02)  /* Heal Self IV */
+     , (4254,   148,  2.003)  /* Force Volley IV */
+     , (4254,   277,  2.006)  /* Magic Resistance Self IV */
      , (4254,  1174,  2.023)  /* Harm Other IV */
      , (4254,  1240,  2.023)  /* Drain Health Other IV */
+     , (4254,   152,  2.003)  /* Blade Volley IV */
+     , (4254,    89,  2.032)  /* Force Bolt IV */
+     , (4254,   283,  2.023)  /* Magic Yield Other IV */
      , (4254,  1310,  2.006)  /* Armor Self IV */
-     , (4254,  1418,  2.023)  /* Slowness Other IV */
+     , (4254,    95,  2.032)  /* Whirling Blade IV */
+     , (4254,   608,  2.006)  /* Life Magic Mastery Self IV */
+     , (4254,   626,  2.023)  /* Life Magic Ineptitude Other IV */
+     , (4254,   232,  2.023)  /* Vulnerability Other IV */
      , (4254,  1466,  2.023)  /* Feeblemind Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

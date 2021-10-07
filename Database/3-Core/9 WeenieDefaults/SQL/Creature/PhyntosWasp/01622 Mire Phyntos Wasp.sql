@@ -104,8 +104,8 @@ VALUES (1622,  0,  2,  5,  0.5,   20,   16,   16,   10,    4,    9,    4,    4, 
      , (1622, 21,  4,  0,    0,   10,    8,    8,    5,    2,    5,    2,    2,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1622,    59,   2.25)  /* Acid Stream II */
-     , (1622,    81,   2.25)  /* Flame Bolt II */;
+VALUES (1622,    81,   2.25)  /* Flame Bolt II */
+     , (1622,    59,   2.25)  /* Acid Stream II */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (1622, 414) /* PLAYER_DEATH_EVENT */;

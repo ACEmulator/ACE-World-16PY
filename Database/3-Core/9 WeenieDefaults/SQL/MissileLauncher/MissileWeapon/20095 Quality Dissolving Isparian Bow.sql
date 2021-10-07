@@ -61,7 +61,7 @@ VALUES (20095,   1,   33557754) /* Setup */
      , (20095,  37,          2) /* ItemSkillLimit - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20095,   520,      2)  /* Acid Protection Self VI */
+VALUES (20095,  1602,      2)  /* Aura of Defender Self III */
+     , (20095,   520,      2)  /* Acid Protection Self VI */
      , (20095,  1353,      2)  /* Endurance Self V */
-     , (20095,  1602,      2)  /* Aura of Defender Self III */
      , (20095,  1613,      2)  /* Aura of Blood Drinker Self III */;

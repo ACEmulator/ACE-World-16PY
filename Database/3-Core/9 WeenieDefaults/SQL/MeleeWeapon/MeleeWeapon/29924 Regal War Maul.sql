@@ -54,9 +54,9 @@ VALUES (29924,   1,   33559057) /* Setup */
      , (29924,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29924,   243,      2)  /* Invulnerability Other V */
+VALUES (29924,  1604,      2)  /* Aura of Defender Self V */
      , (29924,  1359,      2)  /* Endurance Other V */
-     , (29924,  1591,      2)  /* Aura of Heart Seeker Self V */
-     , (29924,  1604,      2)  /* Aura of Defender Self V */
      , (29924,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (29924,  1625,      2)  /* Aura of Swift Killer Self IV */;
+     , (29924,   243,      2)  /* Invulnerability Other V */
+     , (29924,  1625,      2)  /* Aura of Swift Killer Self IV */
+     , (29924,  1591,      2)  /* Aura of Heart Seeker Self V */;

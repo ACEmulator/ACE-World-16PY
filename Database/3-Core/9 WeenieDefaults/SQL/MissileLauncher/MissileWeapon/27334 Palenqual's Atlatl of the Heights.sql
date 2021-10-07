@@ -59,12 +59,12 @@ VALUES (27334,   1,   33558660) /* Setup */
      , (27334,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27334,  2439,      2)  /* Rockslide */
-     , (27334,  2442,      2)  /* Stone Cliffs */
-     , (27334,  2445,      2)  /* Strength of Earth */
+VALUES (27334,  2471,      2)  /* Lesser Still Water */
      , (27334,  2447,      2)  /* Lesser Growth */
-     , (27334,  2450,      2)  /* Lesser Hunter's Acumen */
-     , (27334,  2453,      2)  /* Lesser Thorns */
-     , (27334,  2471,      2)  /* Lesser Still Water */
+     , (27334,  2439,      2)  /* Rockslide */
      , (27334,  2474,      2)  /* Lesser Torrent */
+     , (27334,  2450,      2)  /* Lesser Hunter's Acumen */
+     , (27334,  2442,      2)  /* Stone Cliffs */
+     , (27334,  2453,      2)  /* Lesser Thorns */
+     , (27334,  2445,      2)  /* Strength of Earth */
      , (27334,  3219,      2)  /* Lesser Cascade */;

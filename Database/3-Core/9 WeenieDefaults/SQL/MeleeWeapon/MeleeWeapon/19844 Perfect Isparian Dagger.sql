@@ -57,6 +57,6 @@ VALUES (19844,   1,   33557746) /* Setup */
      , (19844,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19844,  1592,      2)  /* Aura of Heart Seeker Self VI */
-     , (19844,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (19844,  2689,      2)  /* Moderate Finesse Weapon Aptitude */;
+VALUES (19844,  2689,      2)  /* Moderate Finesse Weapon Aptitude */
+     , (19844,  1592,      2)  /* Aura of Heart Seeker Self VI */
+     , (19844,  1616,      2)  /* Aura of Blood Drinker Self VI */;

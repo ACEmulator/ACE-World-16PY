@@ -52,11 +52,11 @@ VALUES (28577,   1,   33554854) /* Setup */
      , (28577,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28577,  2092,      2)  /* Olthoi's Bane */
+VALUES (28577,  2113,      2)  /* Archer's Bane */
+     , (28577,  2108,      2)  /* Brogard's Defiance */
+     , (28577,  2092,      2)  /* Olthoi's Bane */
+     , (28577,  2110,      2)  /* Astyrrian's Bane */
+     , (28577,  2102,      2)  /* Inferno's Bane */
      , (28577,  2094,      2)  /* Swordsman's Bane */
      , (28577,  2098,      2)  /* Tusker's Bane */
-     , (28577,  2102,      2)  /* Inferno's Bane */
-     , (28577,  2104,      2)  /* Gelidite's Bane */
-     , (28577,  2108,      2)  /* Brogard's Defiance */
-     , (28577,  2110,      2)  /* Astyrrian's Bane */
-     , (28577,  2113,      2)  /* Archer's Bane */;
+     , (28577,  2104,      2)  /* Gelidite's Bane */;

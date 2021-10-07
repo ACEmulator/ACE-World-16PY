@@ -52,5 +52,5 @@ VALUES (24371,   1,   33554854) /* Setup */
      , (24371,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24371,  1142,      2)  /* Piercing Protection Other IV */
-     , (24371,  1359,      2)  /* Endurance Other V */;
+VALUES (24371,  1359,      2)  /* Endurance Other V */
+     , (24371,  1142,      2)  /* Piercing Protection Other IV */;

@@ -52,5 +52,5 @@ VALUES (29815,   1,   33554854) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29815,   905,      2)  /* Leadership Mastery Other II */
-     , (29815,   954,      2)  /* Fealty Other III */
-     , (29815,  2011,      2)  /* Wizard's Lesser Intellect */;
+     , (29815,  2011,      2)  /* Wizard's Lesser Intellect */
+     , (29815,   954,      2)  /* Fealty Other III */;

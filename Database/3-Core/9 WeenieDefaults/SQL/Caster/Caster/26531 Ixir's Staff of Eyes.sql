@@ -53,8 +53,8 @@ VALUES (26531,   1,   33558596) /* Setup */
      , (26531,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26531,   211,      2)  /* Mana Renewal Other VI */
-     , (26531,  1360,      2)  /* Endurance Other VI */
+VALUES (26531,  1456,      2)  /* Willpower Other VI */
      , (26531,  1432,      2)  /* Focus Other VI */
-     , (26531,  1456,      2)  /* Willpower Other VI */
+     , (26531,   211,      2)  /* Mana Renewal Other VI */
+     , (26531,  1360,      2)  /* Endurance Other VI */
      , (26531,  2551,      2)  /* Minor Item Enchantment Aptitude */;

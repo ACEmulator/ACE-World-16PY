@@ -128,18 +128,18 @@ VALUES (19306,  0,  4,  0,    0,  110,  132,  132,  143,  132,  132,   88,  110,
      , (19306,  8,  4, 70, 0.75,  110,  132,  132,  143,  132,  132,   88,  110,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19306,    60,   2.05)  /* Acid Stream III */
-     , (19306,    78,   2.05)  /* Lightning Bolt IV */
-     , (19306,    82,   2.05)  /* Flame Bolt III */
-     , (19306,   140,   2.02)  /* Lightning Volley IV */
-     , (19306,   197,   2.01)  /* Exhaustion Other IV */
-     , (19306,   246,   2.01)  /* Invulnerability Self III */
+VALUES (19306,  1173,   2.01)  /* Harm Other III */
      , (19306,   258,   2.01)  /* Impregnability Self III */
+     , (19306,   197,   2.01)  /* Exhaustion Other IV */
      , (19306,   276,   2.01)  /* Magic Resistance Self III */
      , (19306,  1159,   2.04)  /* Heal Self IV */
-     , (19306,  1173,   2.01)  /* Harm Other III */
+     , (19306,   140,   2.02)  /* Lightning Volley IV */
+     , (19306,    78,   2.05)  /* Lightning Bolt IV */
+     , (19306,    82,   2.05)  /* Flame Bolt III */
      , (19306,  1198,   2.01)  /* Enfeeble Other IV */
-     , (19306,  1263,   2.01)  /* Drain Mana Other IV */;
+     , (19306,  1263,   2.01)  /* Drain Mana Other IV */
+     , (19306,   246,   2.01)  /* Invulnerability Self III */
+     , (19306,    60,   2.05)  /* Acid Stream III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (19306,  94) /* ATTACK_NOTIFICATION_EVENT */

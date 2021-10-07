@@ -126,30 +126,30 @@ VALUES (22905,  0,  4,  0,    0,  500,  400,  275,  350,  125,  300,  350,  375,
      , (22905,  8,  4, 80, 0.75,  500,  400,  275,  350,  125,  300,  350,  375,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22905,    63,  2.037)  /* Acid Stream VI */
+VALUES (22905,  2054,  2.037)  /* Synaptic Misfire */
+     , (22905,  2074,  2.037)  /* Gossamer Flesh */
+     , (22905,  2138,  2.037)  /* Blizzard */
+     , (22905,  2130,  2.037)  /* Infernae */
+     , (22905,  2162,  2.037)  /* Olthoi's Gift */
+     , (22905,  1254,  2.037)  /* Drain Stamina Other VI */
      , (22905,    74,  2.037)  /* Frost Bolt VI */
+     , (22905,  2123,  2.037)  /* Celdiseth's Searing */
+     , (22905,  1783,  2.037)  /* Searing Disc */
      , (22905,    85,  2.037)  /* Flame Bolt VI */
-     , (22905,   176,  2.037)  /* Fester Other VI */
+     , (22905,  2318,  2.037)  /* Gravity Well */
+     , (22905,  2064,  2.037)  /* Self Loathing */
      , (22905,  1176,  2.038)  /* Harm Other VI */
      , (22905,  1242,  2.037)  /* Drain Health Other VI */
-     , (22905,  1254,  2.037)  /* Drain Stamina Other VI */
-     , (22905,  1783,  2.037)  /* Searing Disc */
-     , (22905,  1785,  2.037)  /* Cassius' Ring of Fire */
-     , (22905,  1787,  2.037)  /* Halo of Frost */
-     , (22905,  2054,  2.037)  /* Synaptic Misfire */
-     , (22905,  2064,  2.037)  /* Self Loathing */
-     , (22905,  2074,  2.037)  /* Gossamer Flesh */
-     , (22905,  2123,  2.037)  /* Celdiseth's Searing */
-     , (22905,  2130,  2.037)  /* Infernae */
-     , (22905,  2138,  2.037)  /* Blizzard */
-     , (22905,  2162,  2.037)  /* Olthoi's Gift */
+     , (22905,   176,  2.037)  /* Fester Other VI */
      , (22905,  2164,  2.037)  /* Swordsman's Gift */
+     , (22905,  2228,  2.037)  /* Broadside of a Barn */
      , (22905,  2166,  2.037)  /* Tusker's Gift */
      , (22905,  2168,  2.037)  /* Gelidite's Gift */
+     , (22905,  1785,  2.037)  /* Cassius' Ring of Fire */
      , (22905,  2170,  2.037)  /* Inferno's Gift */
+     , (22905,  1787,  2.037)  /* Halo of Frost */
      , (22905,  2174,  2.037)  /* Archer's Gift */
-     , (22905,  2228,  2.037)  /* Broadside of a Barn */
-     , (22905,  2318,  2.037)  /* Gravity Well */;
+     , (22905,    63,  2.037)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (22905,  94) /* ATTACK_NOTIFICATION_EVENT */

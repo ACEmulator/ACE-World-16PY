@@ -118,15 +118,15 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20190,    74,  2.138)  /* Frost Bolt VI */
      , (20190,   170,  2.008)  /* Regeneration Self VI */
      , (20190,   234,  2.017)  /* Vulnerability Other VI */
-     , (20190,   276,  2.008)  /* Magic Resistance Self III */
-     , (20190,  1065,  2.017)  /* Cold Vulnerability Other VI */
      , (20190,  1094,  2.008)  /* Fire Protection Self VI */
+     , (20190,  1065,  2.017)  /* Cold Vulnerability Other VI */
      , (20190,  1161,  2.013)  /* Heal Self VI */
-     , (20190,  1242,  2.008)  /* Drain Health Other VI */
-     , (20190,  1312,  2.008)  /* Armor Self VI */
-     , (20190,  1327,  2.017)  /* Imperil Other VI */
      , (20190,  1420,  2.017)  /* Slowness Other VI */
-     , (20190,  1813,  2.004)  /* Frost Streak VI */;
+     , (20190,  1312,  2.008)  /* Armor Self VI */
+     , (20190,   276,  2.008)  /* Magic Resistance Self III */
+     , (20190,  1813,  2.004)  /* Frost Streak VI */
+     , (20190,  1242,  2.008)  /* Drain Health Other VI */
+     , (20190,  1327,  2.017)  /* Imperil Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (20190,  94) /* ATTACK_NOTIFICATION_EVENT */

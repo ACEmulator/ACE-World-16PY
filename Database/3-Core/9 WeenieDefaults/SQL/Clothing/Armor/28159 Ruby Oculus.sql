@@ -53,5 +53,5 @@ VALUES (28159,   1,   33554809) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28159,  1096,      2)  /* Fire Protection Other VI */
-     , (28159,  1997,      2)  /* Life Giver */
-     , (28159,  2618,      2)  /* Minor Flame Ward */;
+     , (28159,  2618,      2)  /* Minor Flame Ward */
+     , (28159,  1997,      2)  /* Life Giver */;

@@ -104,11 +104,11 @@ VALUES (28255,  0,  2, 160,  0.5,  300,  360,  300,  360,  360,  360,  360,  270
      , (28255, 21,  4,  0,    0,  300,  360,  300,  360,  360,  360,  360,  270,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28255,    62,   2.15)  /* Acid Stream V */
-     , (28255,   102,   2.07)  /* Acid Blast VI */
+VALUES (28255,  1794,   2.07)  /* Acid Streak V */
      , (28255,   130,   2.15)  /* Acid Volley VI */
-     , (28255,  1794,   2.07)  /* Acid Streak V */
-     , (28255,  2715,   2.07)  /* Acid Arc V */;
+     , (28255,  2715,   2.07)  /* Acid Arc V */
+     , (28255,    62,   2.15)  /* Acid Stream V */
+     , (28255,   102,   2.07)  /* Acid Blast VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (28255,  94) /* ATTACK_NOTIFICATION_EVENT */

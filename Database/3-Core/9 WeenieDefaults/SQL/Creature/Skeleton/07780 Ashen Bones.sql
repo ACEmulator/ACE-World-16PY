@@ -117,12 +117,12 @@ VALUES (7780,  0,  4,  0,    0,  170,   92,   78,   85,   56,   36,   68,   97, 
      , (7780,  8,  4, 15, 0.75,  170,   92,   78,   85,   56,   36,   68,   97,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7780,    83,   2.05)  /* Flame Bolt IV */
+VALUES (7780,  1159,      2)  /* Heal Self IV */
+     , (7780,    83,   2.05)  /* Flame Bolt IV */
      , (7780,   626,  2.075)  /* Life Magic Ineptitude Other IV */
      , (7780,   650,  2.075)  /* War Magic Ineptitude Other IV */
-     , (7780,  1021,      2)  /* Bludgeoning Protection Self IV */
      , (7780,  1106,  2.075)  /* Fire Vulnerability Other IV */
-     , (7780,  1159,      2)  /* Heal Self IV */
+     , (7780,  1021,      2)  /* Bludgeoning Protection Self IV */
      , (7780,  1240,      2)  /* Drain Health Other IV */
      , (7780,  1310,      2)  /* Armor Self IV */
      , (7780,  1325,  2.075)  /* Imperil Other IV */;

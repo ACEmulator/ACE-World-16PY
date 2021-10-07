@@ -109,30 +109,30 @@ VALUES (10824,  0,  1,  0,    0,  420,  420,  420,  420,  302,  420,  420,  302,
      , (10824, 17,  1,  0,    0,  420,  420,  420,  420,  302,  420,  420,  302,    0, 3,    0,    0,  0.1,    0,    0,  0.1,    0, 0.13, 0.45,    0, 0.13, 0.45) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10824,    69,  2.105)  /* Shock Wave VI */
-     , (10824,    85,  2.105)  /* Flame Bolt VI */
-     , (10824,    97,  2.105)  /* Whirling Blade VI */
-     , (10824,   279,      2)  /* Magic Resistance Self VI */
-     , (10824,   285,   2.04)  /* Magic Yield Other VI */
-     , (10824,   520,      2)  /* Acid Protection Self VI */
-     , (10824,  1023,      2)  /* Bludgeoning Protection Self VI */
-     , (10824,  1035,      2)  /* Cold Protection Self VI */
-     , (10824,  1053,   2.04)  /* Bludgeoning Vulnerability Other VI */
-     , (10824,  1071,      2)  /* Lightning Protection Self VI */
-     , (10824,  1094,      2)  /* Fire Protection Self VI */
-     , (10824,  1108,   2.04)  /* Fire Vulnerability Other VI */
-     , (10824,  1114,      2)  /* Blade Protection Self VI */
-     , (10824,  1138,      2)  /* Piercing Protection Self VI */
+VALUES (10824,    85,  2.105)  /* Flame Bolt VI */
      , (10824,  1161,      2)  /* Heal Self VI */
-     , (10824,  1242,      2)  /* Drain Health Other VI */
-     , (10824,  1312,      2)  /* Armor Self VI */
-     , (10824,  1327,   2.04)  /* Imperil Other VI */
-     , (10824,  1343,   2.04)  /* Weakness Other VI */
-     , (10824,  1444,   2.04)  /* Bafflement Other VI */
-     , (10824,  1468,   2.04)  /* Feeblemind Other VI */
+     , (10824,    69,  2.105)  /* Shock Wave VI */
+     , (10824,   520,      2)  /* Acid Protection Self VI */
+     , (10824,  1094,      2)  /* Fire Protection Self VI */
+     , (10824,  1035,      2)  /* Cold Protection Self VI */
      , (10824,  2129,  2.105)  /* Sizzling Fury */
+     , (10824,   279,      2)  /* Magic Resistance Self VI */
+     , (10824,  1108,   2.04)  /* Fire Vulnerability Other VI */
+     , (10824,   285,   2.04)  /* Magic Yield Other VI */
+     , (10824,  1242,      2)  /* Drain Health Other VI */
+     , (10824,  1114,      2)  /* Blade Protection Self VI */
+     , (10824,  1053,   2.04)  /* Bludgeoning Vulnerability Other VI */
+     , (10824,  1312,      2)  /* Armor Self VI */
+     , (10824,    97,  2.105)  /* Whirling Blade VI */
      , (10824,  2145,  2.105)  /* Cameron's Curse */
-     , (10824,  2147,  2.105)  /* Rending Wind */;
+     , (10824,  1071,      2)  /* Lightning Protection Self VI */
+     , (10824,  2147,  2.105)  /* Rending Wind */
+     , (10824,  1444,   2.04)  /* Bafflement Other VI */
+     , (10824,  1327,   2.04)  /* Imperil Other VI */
+     , (10824,  1138,      2)  /* Piercing Protection Self VI */
+     , (10824,  1468,   2.04)  /* Feeblemind Other VI */
+     , (10824,  1343,   2.04)  /* Weakness Other VI */
+     , (10824,  1023,      2)  /* Bludgeoning Protection Self VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (10824,  94) /* ATTACK_NOTIFICATION_EVENT */

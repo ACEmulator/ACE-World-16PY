@@ -141,23 +141,23 @@ VALUES (4127,  0,  4,  0,    0,   70,   56,   21,   39,   13,   35,   39,   47, 
      , (4127,  8,  4,  5, 0.75,   45,   36,   14,   25,    8,   23,   25,   30,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (4127,    60,  2.013)  /* Acid Stream III */
+VALUES (4127,    82,  2.013)  /* Flame Bolt III */
      , (4127,    66,  2.013)  /* Shock Wave III */
      , (4127,    71,  2.013)  /* Frost Bolt III */
-     , (4127,    82,  2.013)  /* Flame Bolt III */
      , (4127,    88,  2.013)  /* Force Bolt III */
-     , (4127,    94,  2.013)  /* Whirling Blade III */
-     , (4127,   136,  2.014)  /* Frost Volley IV */
      , (4127,   144,  2.014)  /* Flame Volley IV */
-     , (4127,   173,  2.009)  /* Fester Other III */
+     , (4127,   136,  2.014)  /* Frost Volley IV */
+     , (4127,  1417,  2.009)  /* Slowness Other III */
      , (4127,  1173,   2.02)  /* Harm Other III */
      , (4127,  1239,   2.02)  /* Drain Health Other III */
-     , (4127,  1340,  2.009)  /* Weakness Other III */
      , (4127,  1369,  2.009)  /* Frailty Other III */
-     , (4127,  1393,  2.009)  /* Clumsiness Other III */
-     , (4127,  1417,  2.009)  /* Slowness Other III */
+     , (4127,    94,  2.013)  /* Whirling Blade III */
      , (4127,  1441,  2.009)  /* Bafflement Other III */
-     , (4127,  1465,  2.009)  /* Feeblemind Other III */;
+     , (4127,   173,  2.009)  /* Fester Other III */
+     , (4127,  1393,  2.009)  /* Clumsiness Other III */
+     , (4127,  1465,  2.009)  /* Feeblemind Other III */
+     , (4127,  1340,  2.009)  /* Weakness Other III */
+     , (4127,    60,  2.013)  /* Acid Stream III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (4127,  94) /* ATTACK_NOTIFICATION_EVENT */

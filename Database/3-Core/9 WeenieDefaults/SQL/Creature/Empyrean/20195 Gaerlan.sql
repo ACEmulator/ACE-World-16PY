@@ -136,45 +136,45 @@ VALUES (20195,  0,  4,  0,    0,  900,  810,  900,  990,  360,  360,  900,  540,
      , (20195,  8,  4, 25, 0.75,  900,  810,  900,  990,  360,  360,  900,  540,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20195,  1237,   2.04)  /* Drain Health Other I */
+VALUES (20195,  2699,      2)  /* Auroric Whip */
+     , (20195,  2053,      2)  /* Executor's Blessing */
+     , (20195,  1237,   2.04)  /* Drain Health Other I */
+     , (20195,  2129,   2.04)  /* Sizzling Fury */
+     , (20195,  2703,      2)  /* Elemental Fury */
+     , (20195,  2185,      2)  /* Robustify */
+     , (20195,  2074,   2.04)  /* Gossamer Flesh */
+     , (20195,  2704,      2)  /* Elemental Fury */
+     , (20195,  2122,   2.04)  /* Disintegration */
+     , (20195,  2700,      2)  /* Corrosive Cloud */
+     , (20195,  2701,      2)  /* Elemental Fury */
+     , (20195,  1841,   2.04)  /* Slithering Flames */
+     , (20195,  2702,      2)  /* Elemental Fury */
+     , (20195,  2128,   2.04)  /* Ilservian's Flame */
+     , (20195,  2705,      2)  /* Aerfalle's Enforcement */
+     , (20195,  2706,      2)  /* Aerfalle's Gaze */
+     , (20195,  2708,      2)  /* Stasis Field */
+     , (20195,  2710,      2)  /* Volcanic Blast */
+     , (20195,  2136,   2.04)  /* Icy Torment */
+     , (20195,  1882,      2)  /* Nullify All Magic Self */
+     , (20195,  2140,   2.04)  /* Alset's Coil */
+     , (20195,  2144,   2.04)  /* Crushing Shame */
+     , (20195,  2149,      2)  /* Caustic Blessing */
      , (20195,  1249,   2.04)  /* Drain Stamina Other I */
+     , (20195,  2146,   2.04)  /* Evisceration */
+     , (20195,  2151,      2)  /* Blessing of the Blade Turner */
+     , (20195,  2281,      2)  /* Aura of Resistance */
+     , (20195,  2153,      2)  /* Blessing of the Mace Turner */
+     , (20195,  2155,      2)  /* Icy Blessing */
      , (20195,  1260,  2.004)  /* Drain Mana Other I */
      , (20195,  1783,   2.04)  /* Searing Disc */
+     , (20195,  2157,      2)  /* Fiery Blessing */
+     , (20195,  2159,      2)  /* Storm's Blessing */
+     , (20195,  2161,      2)  /* Blessing of the Arrow Turner */
      , (20195,  1784,   2.04)  /* Horizon's Blades */
      , (20195,  1785,   2.04)  /* Cassius' Ring of Fire */
      , (20195,  1786,   2.04)  /* Nuhmudira's Spines */
      , (20195,  1788,   2.04)  /* Eye of the Storm */
-     , (20195,  1789,   2.04)  /* Tectonic Rifts */
-     , (20195,  1841,   2.04)  /* Slithering Flames */
-     , (20195,  1882,      2)  /* Nullify All Magic Self */
-     , (20195,  2053,      2)  /* Executor's Blessing */
-     , (20195,  2074,   2.04)  /* Gossamer Flesh */
-     , (20195,  2122,   2.04)  /* Disintegration */
-     , (20195,  2128,   2.04)  /* Ilservian's Flame */
-     , (20195,  2129,   2.04)  /* Sizzling Fury */
-     , (20195,  2136,   2.04)  /* Icy Torment */
-     , (20195,  2140,   2.04)  /* Alset's Coil */
-     , (20195,  2144,   2.04)  /* Crushing Shame */
-     , (20195,  2146,   2.04)  /* Evisceration */
-     , (20195,  2149,      2)  /* Caustic Blessing */
-     , (20195,  2151,      2)  /* Blessing of the Blade Turner */
-     , (20195,  2153,      2)  /* Blessing of the Mace Turner */
-     , (20195,  2155,      2)  /* Icy Blessing */
-     , (20195,  2157,      2)  /* Fiery Blessing */
-     , (20195,  2159,      2)  /* Storm's Blessing */
-     , (20195,  2161,      2)  /* Blessing of the Arrow Turner */
-     , (20195,  2185,      2)  /* Robustify */
-     , (20195,  2281,      2)  /* Aura of Resistance */
-     , (20195,  2699,      2)  /* Auroric Whip */
-     , (20195,  2700,      2)  /* Corrosive Cloud */
-     , (20195,  2701,      2)  /* Elemental Fury */
-     , (20195,  2702,      2)  /* Elemental Fury */
-     , (20195,  2703,      2)  /* Elemental Fury */
-     , (20195,  2704,      2)  /* Elemental Fury */
-     , (20195,  2705,      2)  /* Aerfalle's Enforcement */
-     , (20195,  2706,      2)  /* Aerfalle's Gaze */
-     , (20195,  2708,      2)  /* Stasis Field */
-     , (20195,  2710,      2)  /* Volcanic Blast */;
+     , (20195,  1789,   2.04)  /* Tectonic Rifts */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (20195, 414) /* PLAYER_DEATH_EVENT */;

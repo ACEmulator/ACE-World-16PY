@@ -104,10 +104,10 @@ VALUES (28253,  0,  2, 150,  0.5,  250,  300,  250,  300,  300,  300,  300,  225
      , (28253, 21,  4,  0,    0,  250,  300,  250,  300,  300,  300,  300,  225,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28253,    62,    2.2)  /* Acid Stream V */
+VALUES (28253,  1794,    2.1)  /* Acid Streak V */
      , (28253,   130,    2.2)  /* Acid Volley VI */
-     , (28253,  1794,    2.1)  /* Acid Streak V */
-     , (28253,  2715,    2.1)  /* Acid Arc V */;
+     , (28253,  2715,    2.1)  /* Acid Arc V */
+     , (28253,    62,    2.2)  /* Acid Stream V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (28253, 414) /* PLAYER_DEATH_EVENT */;

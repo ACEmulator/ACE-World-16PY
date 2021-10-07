@@ -122,23 +122,23 @@ VALUES (27920,  0,  4,  0,    0,  350,  367,  455,  350,  455,  350,  367,  420,
      , (27920,  8,  4, 200,  0.5,  350,  367,  455,  350,  455,  350,  367,  420,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27920,    62,   2.01)  /* Acid Stream V */
-     , (27920,    68,   2.01)  /* Shock Wave V */
-     , (27920,    73,   2.01)  /* Frost Bolt V */
-     , (27920,    79,   2.01)  /* Lightning Bolt V */
-     , (27920,    84,   2.01)  /* Flame Bolt V */
-     , (27920,    90,   2.01)  /* Force Bolt V */
-     , (27920,    96,   2.01)  /* Whirling Blade V */
-     , (27920,   175,  2.011)  /* Fester Other V */
-     , (27920,   525,  2.011)  /* Acid Vulnerability Other V */
-     , (27920,  1052,  2.011)  /* Bludgeoning Vulnerability Other V */
+VALUES (27920,    84,   2.01)  /* Flame Bolt V */
      , (27920,  1064,  2.011)  /* Cold Vulnerability Other V */
+     , (27920,    68,   2.01)  /* Shock Wave V */
      , (27920,  1088,  2.011)  /* Lightning Vulnerability Other V */
      , (27920,  1107,  2.011)  /* Fire Vulnerability Other V */
-     , (27920,  1131,  2.011)  /* Blade Vulnerability Other V */
+     , (27920,    79,   2.01)  /* Lightning Bolt V */
      , (27920,  1155,  2.011)  /* Piercing Vulnerability Other V */
+     , (27920,    73,   2.01)  /* Frost Bolt V */
+     , (27920,   525,  2.011)  /* Acid Vulnerability Other V */
+     , (27920,    90,   2.01)  /* Force Bolt V */
+     , (27920,  1052,  2.011)  /* Bludgeoning Vulnerability Other V */
+     , (27920,    96,   2.01)  /* Whirling Blade V */
+     , (27920,  1131,  2.011)  /* Blade Vulnerability Other V */
+     , (27920,   175,  2.011)  /* Fester Other V */
      , (27920,  1840,   2.01)  /* Bed of Blades */
-     , (27920,  1842,   2.01)  /* Spike Strafe */;
+     , (27920,  1842,   2.01)  /* Spike Strafe */
+     , (27920,    62,   2.01)  /* Acid Stream V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (27920,  94) /* ATTACK_NOTIFICATION_EVENT */

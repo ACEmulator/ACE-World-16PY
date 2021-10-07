@@ -54,6 +54,6 @@ VALUES (8025,   1,   33556767) /* Setup */
      , (8025,  37,         32) /* ItemSkillLimit - ItemEnchantment */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8025,   560,      2)  /* Creature Enchantment Mastery Self IV */
-     , (8025,   585,      2)  /* Item Enchantment Mastery Self V */
-     , (8025,  2013,      2)  /* Wizard's Greater Intellect */;
+VALUES (8025,   585,      2)  /* Item Enchantment Mastery Self V */
+     , (8025,  2013,      2)  /* Wizard's Greater Intellect */
+     , (8025,   560,      2)  /* Creature Enchantment Mastery Self IV */;

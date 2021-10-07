@@ -110,20 +110,20 @@ VALUES (19540,  0, 32,  0,    0,  280,  280,  280,  280,  280,  280,  308,  308,
      , (19540,  8, 16, 45, 0.75,  280,  280,  280,  280,  280,  280,  308,  308,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19540,    63,  2.004)  /* Acid Stream VI */
-     , (19540,    85,  2.004)  /* Flame Bolt VI */
-     , (19540,   176,  2.017)  /* Fester Other VI */
-     , (19540,   234,  2.017)  /* Vulnerability Other VI */
+VALUES (19540,   526,  2.017)  /* Acid Vulnerability Other VI */
      , (19540,   267,  2.017)  /* Defenselessness Other VI */
-     , (19540,   276,  2.008)  /* Magic Resistance Self III */
-     , (19540,   526,  2.017)  /* Acid Vulnerability Other VI */
-     , (19540,  1035,  2.008)  /* Cold Protection Self VI */
-     , (19540,  1071,  2.008)  /* Lightning Protection Self VI */
-     , (19540,  1108,  2.017)  /* Fire Vulnerability Other VI */
      , (19540,  1160,  2.013)  /* Heal Self V */
+     , (19540,    63,  2.004)  /* Acid Stream VI */
+     , (19540,  1035,  2.008)  /* Cold Protection Self VI */
+     , (19540,  1108,  2.017)  /* Fire Vulnerability Other VI */
+     , (19540,   276,  2.008)  /* Magic Resistance Self III */
      , (19540,  1237,  2.008)  /* Drain Health Other I */
-     , (19540,  1327,  2.017)  /* Imperil Other VI */
      , (19540,  1783,  2.004)  /* Searing Disc */
+     , (19540,    85,  2.004)  /* Flame Bolt VI */
+     , (19540,   234,  2.017)  /* Vulnerability Other VI */
+     , (19540,  1327,  2.017)  /* Imperil Other VI */
+     , (19540,  1071,  2.008)  /* Lightning Protection Self VI */
+     , (19540,   176,  2.017)  /* Fester Other VI */
      , (19540,  1785,  2.004)  /* Cassius' Ring of Fire */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

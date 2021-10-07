@@ -112,16 +112,16 @@ VALUES (30712,  0,  1,  0,    0,  420,  420,  420,  420,  336,  420,  420,  336,
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30712,   897,   2.02)  /* Healing Ineptitude Other VI */
      , (30712,  1132,   2.04)  /* Blade Vulnerability Other VI */
+     , (30712,  2124,   2.05)  /* Sau Kolin's Sword */
+     , (30712,  2758,   2.05)  /* Blade Arc VI */
+     , (30712,  2125,   2.05)  /* Flensing Wings */
      , (30712,  1161,      2)  /* Heal Self VI */
-     , (30712,  1327,   2.04)  /* Imperil Other VI */
-     , (30712,  1343,   2.03)  /* Weakness Other VI */
+     , (30712,  2146,   2.05)  /* Evisceration */
      , (30712,  1444,   2.03)  /* Bafflement Other VI */
      , (30712,  1831,   2.05)  /* Whirling Blade Streak VI */
+     , (30712,  1327,   2.04)  /* Imperil Other VI */
      , (30712,  1840,   2.05)  /* Bed of Blades */
-     , (30712,  2124,   2.05)  /* Sau Kolin's Sword */
-     , (30712,  2125,   2.05)  /* Flensing Wings */
-     , (30712,  2146,   2.05)  /* Evisceration */
-     , (30712,  2758,   2.05)  /* Blade Arc VI */;
+     , (30712,  1343,   2.03)  /* Weakness Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (30712,  94) /* ATTACK_NOTIFICATION_EVENT */

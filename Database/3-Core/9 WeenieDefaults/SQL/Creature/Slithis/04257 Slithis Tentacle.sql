@@ -108,9 +108,9 @@ VALUES (4257,  0,  1, 15, 0.75,  130,   92,   47,   47,   22,   92,   47,   22, 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (4257,     6,   2.01)  /* Heal Self I */
      , (4257,     7,   2.05)  /* Harm Other I */
+     , (4257,  1260,   2.01)  /* Drain Mana Other I */
      , (4257,    24,   2.01)  /* Armor Self I */
      , (4257,   171,   2.01)  /* Fester Other I */
-     , (4257,  1260,   2.01)  /* Drain Mana Other I */
      , (4257,  1463,   2.01)  /* Feeblemind Other I */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

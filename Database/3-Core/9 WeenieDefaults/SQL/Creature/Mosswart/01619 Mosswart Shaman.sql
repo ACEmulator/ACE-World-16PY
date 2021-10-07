@@ -130,18 +130,18 @@ VALUES (1619,  0,  4,  0,    0,   50,   12,   17,   17,   33,   20,   14,   35, 
      , (1619,  8,  4,  6, 0.75,   40,    9,   13,   13,   26,   16,   11,   28,    0, 30,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1619,    59,  2.069)  /* Acid Stream II */
+VALUES (1619,   281,   2.06)  /* Magic Yield Other II */
+     , (1619,   257,  2.027)  /* Impregnability Self II */
+     , (1619,    81,  2.069)  /* Flame Bolt II */
+     , (1619,  1157,   2.08)  /* Heal Self II */
      , (1619,    65,  2.069)  /* Shock Wave II */
      , (1619,    70,  2.069)  /* Frost Bolt II */
+     , (1619,   275,  2.027)  /* Magic Resistance Self II */
      , (1619,    76,  2.069)  /* Lightning Bolt II */
-     , (1619,    81,  2.069)  /* Flame Bolt II */
      , (1619,    93,  2.069)  /* Whirling Blade II */
      , (1619,   230,   2.06)  /* Vulnerability Other II */
      , (1619,   245,  2.027)  /* Invulnerability Self II */
-     , (1619,   257,  2.027)  /* Impregnability Self II */
-     , (1619,   275,  2.027)  /* Magic Resistance Self II */
-     , (1619,   281,   2.06)  /* Magic Yield Other II */
-     , (1619,  1157,   2.08)  /* Heal Self II */;
+     , (1619,    59,  2.069)  /* Acid Stream II */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (1619,  94) /* ATTACK_NOTIFICATION_EVENT */

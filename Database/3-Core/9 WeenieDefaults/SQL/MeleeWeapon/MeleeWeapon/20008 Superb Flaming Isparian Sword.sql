@@ -61,7 +61,7 @@ VALUES (20008,   1,   33556377) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20008,  1094,      2)  /* Fire Protection Self VI */
-     , (20008,  1331,      2)  /* Strength Self V */
+     , (20008,  2566,      2)  /* Minor Heavy Weapon Aptitude */
      , (20008,  1591,      2)  /* Aura of Heart Seeker Self V */
      , (20008,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (20008,  2566,      2)  /* Minor Heavy Weapon Aptitude */;
+     , (20008,  1331,      2)  /* Strength Self V */;

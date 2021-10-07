@@ -111,9 +111,9 @@ VALUES (21795,  0, 64, 30, 0.75,  190,  143,  143,  143, 3800, 3800, 3800, 3800,
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21795,    80,   2.35)  /* Lightning Bolt VI */
      , (21795,   234,    2.1)  /* Vulnerability Other VI */
-     , (21795,  1327,    2.1)  /* Imperil Other VI */
      , (21795,  1819,   2.35)  /* Lightning Streak VI */
-     , (21795,  2172,    2.1)  /* Astyrrian's Gift */;
+     , (21795,  2172,    2.1)  /* Astyrrian's Gift */
+     , (21795,  1327,    2.1)  /* Imperil Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (21795,  94) /* ATTACK_NOTIFICATION_EVENT */

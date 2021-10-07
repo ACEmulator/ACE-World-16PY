@@ -113,13 +113,13 @@ VALUES (27432,  0,  4,  0,    0,  400,  640,  640,  640,  560,  560,  400,  560,
      , (27432,  8,  4, 180, 0.75,  400,  640,  640,  640,  560,  560,  400,  560,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27432,  2054,   2.05)  /* Synaptic Misfire */
-     , (27432,  2056,   2.05)  /* Ataxia */
-     , (27432,  2064,   2.05)  /* Self Loathing */
-     , (27432,  2074,   2.05)  /* Gossamer Flesh */
-     , (27432,  2084,   2.05)  /* Belly of Lead */
+VALUES (27432,  2166,   2.05)  /* Tusker's Gift */
+     , (27432,  2054,   2.05)  /* Synaptic Misfire */
      , (27432,  2088,   2.05)  /* Senescence */
-     , (27432,  2166,   2.05)  /* Tusker's Gift */;
+     , (27432,  2064,   2.05)  /* Self Loathing */
+     , (27432,  2056,   2.05)  /* Ataxia */
+     , (27432,  2074,   2.05)  /* Gossamer Flesh */
+     , (27432,  2084,   2.05)  /* Belly of Lead */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (27432,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -52,14 +52,14 @@ VALUES (9039,   1,   33554856) /* Setup */
      , (9039,  41,         34) /* ItemSpecializedOnly - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9039,   992,      2)  /* Sprint Other V */
+VALUES (9039,  2354,      2)  /* Lesser Piercing Durance */
+     , (9039,   992,      2)  /* Sprint Other V */
+     , (9039,  2378,      2)  /* Beast Murmur */
      , (9039,  1337,      2)  /* Strength Other VI */
      , (9039,  2349,      2)  /* Hieromancer's Ward */
      , (9039,  2350,      2)  /* Greater Decay Durance */
      , (9039,  2351,      2)  /* Greater Consumption Durance */
      , (9039,  2352,      2)  /* Greater Stasis Durance */
      , (9039,  2353,      2)  /* Greater Stimulation Durance */
-     , (9039,  2354,      2)  /* Lesser Piercing Durance */
      , (9039,  2355,      2)  /* Lesser Slashing Durance */
-     , (9039,  2356,      2)  /* Lesser Bludgeoning Durance */
-     , (9039,  2378,      2)  /* Beast Murmur */;
+     , (9039,  2356,      2)  /* Lesser Bludgeoning Durance */;

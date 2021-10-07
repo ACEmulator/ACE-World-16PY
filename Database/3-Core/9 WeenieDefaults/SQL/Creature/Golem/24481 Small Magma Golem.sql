@@ -113,18 +113,18 @@ VALUES (24481,  0,  4,  0,    0,  400,  708,  316,  316,  280, 40000,  300,  316
      , (24481,  8,  4, 155, 0.75,  400,  708,  316,  316,  280, 40000,  300,  316,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24481,    69,   2.07)  /* Shock Wave VI */
-     , (24481,    85,   2.07)  /* Flame Bolt VI */
-     , (24481,   146,  2.008)  /* Flame Volley VI */
-     , (24481,   170,   2.03)  /* Regeneration Self VI */
+VALUES (24481,    85,   2.07)  /* Flame Bolt VI */
+     , (24481,  2318,   2.01)  /* Gravity Well */
      , (24481,  1161,   2.01)  /* Heal Self VI */
+     , (24481,    69,   2.07)  /* Shock Wave VI */
+     , (24481,  2056,   2.01)  /* Ataxia */
+     , (24481,   146,  2.008)  /* Flame Volley VI */
+     , (24481,  2084,   2.01)  /* Belly of Lead */
      , (24481,  1176,   2.03)  /* Harm Other VI */
      , (24481,  1242,   2.03)  /* Drain Health Other VI */
-     , (24481,  1402,   2.03)  /* Quickness Self VI */
-     , (24481,  2056,   2.01)  /* Ataxia */
-     , (24481,  2084,   2.01)  /* Belly of Lead */
+     , (24481,   170,   2.03)  /* Regeneration Self VI */
      , (24481,  2170,   2.01)  /* Inferno's Gift */
-     , (24481,  2318,   2.01)  /* Gravity Well */;
+     , (24481,  1402,   2.03)  /* Quickness Self VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (24481,  94) /* ATTACK_NOTIFICATION_EVENT */

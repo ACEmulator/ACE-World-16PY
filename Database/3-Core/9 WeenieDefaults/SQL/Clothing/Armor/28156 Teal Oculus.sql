@@ -53,5 +53,5 @@ VALUES (28156,   1,   33554809) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28156,  2148,      2)  /* Caustic Boon */
-     , (28156,  2616,      2)  /* Minor Acid Ward */
-     , (28156,  3371,      2)  /* Greater Life Giver */;
+     , (28156,  3371,      2)  /* Greater Life Giver */
+     , (28156,  2616,      2)  /* Minor Acid Ward */;

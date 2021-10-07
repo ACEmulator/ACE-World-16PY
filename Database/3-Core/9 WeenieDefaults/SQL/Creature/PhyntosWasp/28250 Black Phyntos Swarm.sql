@@ -104,10 +104,10 @@ VALUES (28250,  0,  2, 140,  0.5,  250,  300,  300,  225,  275,  275,  275,  425
      , (28250, 21,  4,  0,    0,  250,  300,  300,  225,  275,  275,  275,  425,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28250,    79,   2.05)  /* Lightning Bolt V */
-     , (28250,   113,    2.2)  /* Lightning Blast V */
+VALUES (28250,  1817,   2.05)  /* Lightning Streak IV */
      , (28250,   140,    2.2)  /* Lightning Volley IV */
-     , (28250,  1817,   2.05)  /* Lightning Streak IV */
+     , (28250,    79,   2.05)  /* Lightning Bolt V */
+     , (28250,   113,    2.2)  /* Lightning Blast V */
      , (28250,  2735,   2.05)  /* Lightning Arc IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

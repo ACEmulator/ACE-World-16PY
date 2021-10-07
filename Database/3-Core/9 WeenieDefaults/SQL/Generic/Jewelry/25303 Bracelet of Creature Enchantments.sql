@@ -41,37 +41,37 @@ VALUES (25303,   1,   33554683) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25303,   241,      2)  /* Invulnerability Other III */
-     , (25303,   252,      2)  /* Impregnability Other III */
+     , (25303,   832,      2)  /* Person Attunement Other III */
      , (25303,   270,      2)  /* Magic Resistance Other III */
-     , (25303,   294,      2)  /* Light Weapon Mastery Other III */
      , (25303,   318,      2)  /* Finesse Weapon Mastery Other III */
-     , (25303,   342,      2)  /* Light Weapon Mastery Other III */
-     , (25303,   366,      2)  /* Light Weapon Mastery Other III */
+     , (25303,  1735,      2)  /* Fletching Mastery Other III */
      , (25303,   390,      2)  /* Light Weapon Mastery Other III */
-     , (25303,   414,      2)  /* Heavy Weapon Mastery Other III */
-     , (25303,   439,      2)  /* Light Weapon Mastery Other III */
-     , (25303,   463,      2)  /* Missile Weapon Mastery Other III */
-     , (25303,   487,      2)  /* Missile Weapon Mastery Other III */
-     , (25303,   535,      2)  /* Missile Weapon Mastery Other III */
-     , (25303,   565,      2)  /* Creature Enchantment Mastery Other III */
-     , (25303,   589,      2)  /* Item Enchantment Mastery Other III */
-     , (25303,   613,      2)  /* Life Magic Mastery Other III */
-     , (25303,   637,      2)  /* War Magic Mastery Other III */
-     , (25303,   661,      2)  /* Mana Conversion Mastery Other III */
-     , (25303,   686,      2)  /* Arcane Enlightenment Other III */
+     , (25303,   252,      2)  /* Impregnability Other III */
      , (25303,   710,      2)  /* Armor Tinkering Expertise Other III */
-     , (25303,   734,      2)  /* Item Tinkering Expertise Other III */
-     , (25303,   758,      2)  /* Magic Item Tinkering Expertise Other III */
+     , (25303,   906,      2)  /* Leadership Mastery Other III */
+     , (25303,   565,      2)  /* Creature Enchantment Mastery Other III */
      , (25303,   782,      2)  /* Weapon Tinkering Expertise Other III */
      , (25303,   806,      2)  /* Monster Attunement Other III */
-     , (25303,   832,      2)  /* Person Attunement Other III */
-     , (25303,   858,      2)  /* Deception Mastery Other III */
-     , (25303,   882,      2)  /* Healing Mastery Other III */
-     , (25303,   906,      2)  /* Leadership Mastery Other III */
-     , (25303,   930,      2)  /* Lockpick Mastery Other III */
-     , (25303,   954,      2)  /* Fealty Other III */
+     , (25303,   589,      2)  /* Item Enchantment Mastery Other III */
+     , (25303,   463,      2)  /* Missile Weapon Mastery Other III */
      , (25303,   978,      2)  /* Jumping Mastery Other III */
+     , (25303,   661,      2)  /* Mana Conversion Mastery Other III */
+     , (25303,  1759,      2)  /* Alchemy Mastery Other III */
+     , (25303,   342,      2)  /* Light Weapon Mastery Other III */
+     , (25303,   535,      2)  /* Missile Weapon Mastery Other III */
+     , (25303,   858,      2)  /* Deception Mastery Other III */
+     , (25303,   414,      2)  /* Heavy Weapon Mastery Other III */
      , (25303,   990,      2)  /* Sprint Other III */
+     , (25303,   734,      2)  /* Item Tinkering Expertise Other III */
+     , (25303,   930,      2)  /* Lockpick Mastery Other III */
+     , (25303,   613,      2)  /* Life Magic Mastery Other III */
      , (25303,  1711,      2)  /* Cooking Mastery Other III */
-     , (25303,  1735,      2)  /* Fletching Mastery Other III */
-     , (25303,  1759,      2)  /* Alchemy Mastery Other III */;
+     , (25303,   294,      2)  /* Light Weapon Mastery Other III */
+     , (25303,   487,      2)  /* Missile Weapon Mastery Other III */
+     , (25303,   366,      2)  /* Light Weapon Mastery Other III */
+     , (25303,   686,      2)  /* Arcane Enlightenment Other III */
+     , (25303,   882,      2)  /* Healing Mastery Other III */
+     , (25303,   758,      2)  /* Magic Item Tinkering Expertise Other III */
+     , (25303,   439,      2)  /* Light Weapon Mastery Other III */
+     , (25303,   954,      2)  /* Fealty Other III */
+     , (25303,   637,      2)  /* War Magic Mastery Other III */;

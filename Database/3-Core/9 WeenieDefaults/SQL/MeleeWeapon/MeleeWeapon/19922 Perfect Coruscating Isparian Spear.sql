@@ -58,8 +58,8 @@ VALUES (19922,   1,   33556334) /* Setup */
      , (19922,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19922,  1069,      2)  /* Lightning Protection Self IV */
-     , (19922,  1399,      2)  /* Quickness Self III */
-     , (19922,  1592,      2)  /* Aura of Heart Seeker Self VI */
+VALUES (19922,  1592,      2)  /* Aura of Heart Seeker Self VI */
      , (19922,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (19922,  2692,      2)  /* Moderate Light Weapon Aptitude */;
+     , (19922,  2692,      2)  /* Moderate Light Weapon Aptitude */
+     , (19922,  1069,      2)  /* Lightning Protection Self IV */
+     , (19922,  1399,      2)  /* Quickness Self III */;

@@ -102,11 +102,11 @@ VALUES (23561,  0,  4, 80,  0.3,  260,  127,  164,   70,  127,  208,  208,  182,
      , (23561, 16,  4,  0,    0,  260,  127,  164,   70,  127,  208,  208,  182,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23561,  1241,   2.01)  /* Drain Health Other V */
+VALUES (23561,  2759,   2.25)  /* Blade Arc VII */
+     , (23561,  1241,   2.01)  /* Drain Health Other V */
      , (23561,  2125,   2.25)  /* Flensing Wings */
      , (23561,  2146,   2.25)  /* Evisceration */
-     , (23561,  2147,   2.24)  /* Rending Wind */
-     , (23561,  2759,   2.25)  /* Blade Arc VII */;
+     , (23561,  2147,   2.24)  /* Rending Wind */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (23561,  94) /* ATTACK_NOTIFICATION_EVENT */

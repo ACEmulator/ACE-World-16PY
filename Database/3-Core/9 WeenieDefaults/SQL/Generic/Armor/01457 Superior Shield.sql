@@ -55,5 +55,5 @@ VALUES (1457,   1,   33558413) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (1457,   247,      2)  /* Invulnerability Self IV */
-     , (1457,   421,      2)  /* Heavy Weapon Mastery Self IV */
-     , (1457,  1484,      2)  /* Impenetrability IV */;
+     , (1457,  1484,      2)  /* Impenetrability IV */
+     , (1457,   421,      2)  /* Heavy Weapon Mastery Self IV */;

@@ -119,27 +119,27 @@ VALUES (25963,  0,  4,  0,    0,  250,  225,  250,  275,  100,  100,  250,  150,
      , (25963,  8,  4,  8, 0.75,  250,  225,  250,  275,  100,  100,  250,  150,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25963,    61,   2.05)  /* Acid Stream IV */
-     , (25963,    67,   2.05)  /* Shock Wave IV */
-     , (25963,    72,   2.05)  /* Frost Bolt IV */
-     , (25963,    78,   2.05)  /* Lightning Bolt IV */
-     , (25963,    83,   2.05)  /* Flame Bolt IV */
-     , (25963,    89,   2.05)  /* Force Bolt IV */
-     , (25963,    95,   2.05)  /* Whirling Blade IV */
-     , (25963,   232,   2.05)  /* Vulnerability Other IV */
-     , (25963,   283,   2.05)  /* Magic Yield Other IV */
-     , (25963,   524,   2.05)  /* Acid Vulnerability Other IV */
-     , (25963,  1052,   2.05)  /* Bludgeoning Vulnerability Other V */
-     , (25963,  1161,   2.05)  /* Heal Self VI */
-     , (25963,  1239,   2.05)  /* Drain Health Other III */
-     , (25963,  1251,   2.05)  /* Drain Stamina Other III */
-     , (25963,  1262,   2.05)  /* Drain Mana Other III */
+VALUES (25963,    67,   2.05)  /* Shock Wave IV */
      , (25963,  1280,   2.05)  /* Health to Mana Self III */
-     , (25963,  1292,   2.05)  /* Mana to Health Self III */
-     , (25963,  1312,   2.05)  /* Armor Self VI */
-     , (25963,  1326,   2.05)  /* Imperil Other V */
      , (25963,  1666,   2.05)  /* Stamina to Health Self III */
-     , (25963,  1678,   2.05)  /* Stamina to Mana Self III */;
+     , (25963,   232,   2.05)  /* Vulnerability Other IV */
+     , (25963,  1678,   2.05)  /* Stamina to Mana Self III */
+     , (25963,    72,   2.05)  /* Frost Bolt IV */
+     , (25963,  1161,   2.05)  /* Heal Self VI */
+     , (25963,    78,   2.05)  /* Lightning Bolt IV */
+     , (25963,   524,   2.05)  /* Acid Vulnerability Other IV */
+     , (25963,    95,   2.05)  /* Whirling Blade IV */
+     , (25963,  1292,   2.05)  /* Mana to Health Self III */
+     , (25963,    83,   2.05)  /* Flame Bolt IV */
+     , (25963,  1239,   2.05)  /* Drain Health Other III */
+     , (25963,    89,   2.05)  /* Force Bolt IV */
+     , (25963,   283,   2.05)  /* Magic Yield Other IV */
+     , (25963,  1052,   2.05)  /* Bludgeoning Vulnerability Other V */
+     , (25963,  1312,   2.05)  /* Armor Self VI */
+     , (25963,  1251,   2.05)  /* Drain Stamina Other III */
+     , (25963,  1326,   2.05)  /* Imperil Other V */
+     , (25963,  1262,   2.05)  /* Drain Mana Other III */
+     , (25963,    61,   2.05)  /* Acid Stream IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (25963,  94) /* ATTACK_NOTIFICATION_EVENT */

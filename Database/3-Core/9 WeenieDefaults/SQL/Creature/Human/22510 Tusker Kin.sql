@@ -121,15 +121,15 @@ VALUES (22510,  0,  4,  0,    0,  140,  126,  140,  154,   56,   56,  140,   84,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22510,    24,      2)  /* Armor Self I */
-     , (22510,    25,   2.12)  /* Imperil Other I */
-     , (22510,    27,   2.12)  /* Flame Bolt I */
-     , (22510,    28,   2.12)  /* Frost Bolt I */
-     , (22510,    58,   2.12)  /* Acid Stream I */
      , (22510,    64,   2.12)  /* Shock Wave I */
+     , (22510,    27,   2.12)  /* Flame Bolt I */
      , (22510,    75,   2.12)  /* Lightning Bolt I */
      , (22510,    86,   2.12)  /* Force Bolt I */
+     , (22510,    28,   2.12)  /* Frost Bolt I */
      , (22510,    92,   2.12)  /* Whirling Blade I */
-     , (22510,  1048,   2.04)  /* Bludgeoning Vulnerability Other I */;
+     , (22510,  1048,   2.04)  /* Bludgeoning Vulnerability Other I */
+     , (22510,    25,   2.12)  /* Imperil Other I */
+     , (22510,    58,   2.12)  /* Acid Stream I */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (22510,  94) /* ATTACK_NOTIFICATION_EVENT */

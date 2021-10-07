@@ -112,18 +112,18 @@ VALUES (28042,  0,  4,  0,    0,  200,  354,  158,  158,  140, 20000,  150,  158
      , (28042,  8,  4, 75, 0.75,  200,  354,  158,  158,  140, 20000,  150,  158,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28042,    67,   2.07)  /* Shock Wave IV */
+VALUES (28042,  1159,   2.01)  /* Heal Self IV */
      , (28042,    83,   2.07)  /* Flame Bolt IV */
-     , (28042,   144,  2.008)  /* Flame Volley IV */
+     , (28042,    67,   2.07)  /* Shock Wave IV */
+     , (28042,  1418,   2.01)  /* Slowness Other IV */
      , (28042,   168,   2.03)  /* Regeneration Self IV */
      , (28042,   232,   2.01)  /* Vulnerability Other IV */
+     , (28042,   144,  2.008)  /* Flame Volley IV */
      , (28042,  1106,   2.01)  /* Fire Vulnerability Other IV */
-     , (28042,  1159,   2.01)  /* Heal Self IV */
      , (28042,  1174,   2.03)  /* Harm Other IV */
      , (28042,  1240,   2.03)  /* Drain Health Other IV */
      , (28042,  1394,   2.01)  /* Clumsiness Other IV */
-     , (28042,  1400,   2.03)  /* Quickness Self IV */
-     , (28042,  1418,   2.01)  /* Slowness Other IV */;
+     , (28042,  1400,   2.03)  /* Quickness Self IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (28042,  94) /* ATTACK_NOTIFICATION_EVENT */

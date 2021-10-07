@@ -119,14 +119,14 @@ VALUES (21383,  0,  4,  0,    0,  600,  600,  600,  600, 12000, 12000, 12000, 12
      , (21383,  8,  4, 25, 0.75,  600,  600,  600,  600, 12000, 12000, 12000, 12000,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21383,    63,   2.02)  /* Acid Stream VI */
-     , (21383,   234,   2.01)  /* Vulnerability Other VI */
-     , (21383,   285,   2.01)  /* Magic Yield Other VI */
-     , (21383,   526,   2.01)  /* Acid Vulnerability Other VI */
+VALUES (21383,   234,   2.01)  /* Vulnerability Other VI */
+     , (21383,  1795,   2.02)  /* Acid Streak VI */
      , (21383,  1327,   2.01)  /* Imperil Other VI */
-     , (21383,  1370,   2.01)  /* Frailty Other IV */
+     , (21383,   526,   2.01)  /* Acid Vulnerability Other VI */
      , (21383,  1783,   2.02)  /* Searing Disc */
-     , (21383,  1795,   2.02)  /* Acid Streak VI */;
+     , (21383,  1370,   2.01)  /* Frailty Other IV */
+     , (21383,   285,   2.01)  /* Magic Yield Other VI */
+     , (21383,    63,   2.02)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (21383, 414) /* PLAYER_DEATH_EVENT */;

@@ -163,26 +163,26 @@ VALUES (6537,  0,  4,  0,    0,   80,   80,   49,   59,   24,   80,   30,   49, 
      , (6537,  8,  4, 20, 0.75,   80,   80,   49,   59,   24,   80,   30,   49,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6537,    71,   2.06)  /* Frost Bolt III */
-     , (6537,    77,   2.06)  /* Lightning Bolt III */
-     , (6537,    82,   2.06)  /* Flame Bolt III */
-     , (6537,    88,   2.06)  /* Force Bolt III */
-     , (6537,    94,   2.06)  /* Whirling Blade III */
-     , (6537,   135,   2.01)  /* Frost Volley III */
-     , (6537,   139,   2.01)  /* Lightning Volley III */
-     , (6537,   143,   2.01)  /* Flame Volley III */
-     , (6537,   147,   2.01)  /* Force Volley III */
-     , (6537,   151,   2.01)  /* Blade Volley III */
-     , (6537,   231,  2.017)  /* Vulnerability Other III */
+VALUES (6537,   139,   2.01)  /* Lightning Volley III */
+     , (6537,  1280,  2.014)  /* Health to Mana Self III */
+     , (6537,  1666,  2.014)  /* Stamina to Health Self III */
+     , (6537,  1292,  2.014)  /* Mana to Health Self III */
      , (6537,   264,  2.017)  /* Defenselessness Other III */
-     , (6537,   282,  2.017)  /* Magic Yield Other III */
+     , (6537,   135,   2.01)  /* Frost Volley III */
+     , (6537,    71,   2.06)  /* Frost Bolt III */
+     , (6537,    77,   2.06)  /* Lightning Bolt III */
+     , (6537,  1678,  2.014)  /* Stamina to Mana Self III */
+     , (6537,   143,   2.01)  /* Flame Volley III */
+     , (6537,  1262,  2.014)  /* Drain Mana Other III */
+     , (6537,    82,   2.06)  /* Flame Bolt III */
+     , (6537,   147,   2.01)  /* Force Volley III */
      , (6537,  1239,  2.014)  /* Drain Health Other III */
      , (6537,  1251,  2.014)  /* Drain Stamina Other III */
-     , (6537,  1262,  2.014)  /* Drain Mana Other III */
-     , (6537,  1280,  2.014)  /* Health to Mana Self III */
-     , (6537,  1292,  2.014)  /* Mana to Health Self III */
-     , (6537,  1666,  2.014)  /* Stamina to Health Self III */
-     , (6537,  1678,  2.014)  /* Stamina to Mana Self III */;
+     , (6537,   151,   2.01)  /* Blade Volley III */
+     , (6537,    88,   2.06)  /* Force Bolt III */
+     , (6537,   282,  2.017)  /* Magic Yield Other III */
+     , (6537,    94,   2.06)  /* Whirling Blade III */
+     , (6537,   231,  2.017)  /* Vulnerability Other III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (6537,  94) /* ATTACK_NOTIFICATION_EVENT */

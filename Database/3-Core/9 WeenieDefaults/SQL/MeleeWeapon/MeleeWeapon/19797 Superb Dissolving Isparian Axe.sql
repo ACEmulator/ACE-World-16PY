@@ -58,8 +58,8 @@ VALUES (19797,   1,   33556304) /* Setup */
      , (19797,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19797,   518,      2)  /* Acid Protection Self IV */
+VALUES (19797,  2539,      2)  /* Minor Light Weapon Aptitude */
      , (19797,  1351,      2)  /* Endurance Self III */
+     , (19797,   518,      2)  /* Acid Protection Self IV */
      , (19797,  1591,      2)  /* Aura of Heart Seeker Self V */
-     , (19797,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (19797,  2539,      2)  /* Minor Light Weapon Aptitude */;
+     , (19797,  1615,      2)  /* Aura of Blood Drinker Self V */;

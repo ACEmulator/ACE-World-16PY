@@ -116,10 +116,10 @@ VALUES (25754,  0,  4,  0,    0,  180,  319,  142,  142,  126, 18000,  135,  142
      , (25754,  8,  4, 75, 0.75,  180,  319,  142,  142,  126, 18000,  135,  142,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25754,    68,   2.07)  /* Shock Wave V */
-     , (25754,    84,   2.07)  /* Flame Bolt V */
-     , (25754,   144,   2.01)  /* Flame Volley IV */
+VALUES (25754,    84,   2.07)  /* Flame Bolt V */
+     , (25754,    68,   2.07)  /* Shock Wave V */
      , (25754,   232,   2.01)  /* Vulnerability Other IV */
+     , (25754,   144,   2.01)  /* Flame Volley IV */
      , (25754,  1107,   2.01)  /* Fire Vulnerability Other V */
      , (25754,  1241,   2.01)  /* Drain Health Other V */;
 

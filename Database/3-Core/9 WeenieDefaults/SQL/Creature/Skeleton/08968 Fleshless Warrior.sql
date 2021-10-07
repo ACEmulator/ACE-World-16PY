@@ -126,13 +126,13 @@ VALUES (8968,  0,  4,  0,    0,  180,   86,   65,   90,   43,  153,   58,   88, 
      , (8968,  8,  4,  5, 0.75,  180,   86,   65,   90,   43,  153,   58,   88,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8968,    61,   2.05)  /* Acid Stream IV */
-     , (8968,   524,   2.05)  /* Acid Vulnerability Other IV */
-     , (8968,   626,   2.05)  /* Life Magic Ineptitude Other IV */
+VALUES (8968,   626,   2.05)  /* Life Magic Ineptitude Other IV */
      , (8968,   650,   2.05)  /* War Magic Ineptitude Other IV */
+     , (8968,   524,   2.05)  /* Acid Vulnerability Other IV */
      , (8968,  1240,   2.08)  /* Drain Health Other IV */
-     , (8968,  1325,   2.05)  /* Imperil Other IV */
      , (8968,  1341,   2.05)  /* Weakness Other IV */
+     , (8968,  1325,   2.05)  /* Imperil Other IV */
+     , (8968,    61,   2.05)  /* Acid Stream IV */
      , (8968,  1466,   2.03)  /* Feeblemind Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

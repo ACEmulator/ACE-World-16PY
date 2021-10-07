@@ -110,19 +110,19 @@ VALUES (30391,  0,  4, 70, 0.75,  300,  300,  264,  264,  294,  264,  294,  264,
      , (30391, 25,  4, 75, 0.75,  300,  300,  264,  264,  294,  264,  294,  264,    0, 3,    0,    0,  0.3,    0,  0.1,  0.3,    0,    0,  0.3,    0,  0.1, 0.28) /* LowerTentacle */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30391,   519,  2.005)  /* Acid Protection Self V */
-     , (30391,  1034,  2.005)  /* Cold Protection Self V */
-     , (30391,  1052,   2.01)  /* Bludgeoning Vulnerability Other V */
-     , (30391,  1241,  2.007)  /* Drain Health Other V */
+VALUES (30391,  1342,  2.028)  /* Weakness Other V */
+     , (30391,   519,  2.005)  /* Acid Protection Self V */
      , (30391,  1253,  2.007)  /* Drain Stamina Other V */
+     , (30391,  1034,  2.005)  /* Cold Protection Self V */
+     , (30391,  1443,  2.028)  /* Bafflement Other V */
+     , (30391,  1467,  2.028)  /* Feeblemind Other V */
+     , (30391,  1052,   2.01)  /* Bludgeoning Vulnerability Other V */
+     , (30391,  1371,  2.028)  /* Frailty Other V */
+     , (30391,  1419,  2.028)  /* Slowness Other V */
+     , (30391,  1241,  2.007)  /* Drain Health Other V */
      , (30391,  1264,  2.007)  /* Drain Mana Other V */
      , (30391,  1311,  2.005)  /* Armor Self V */
-     , (30391,  1342,  2.028)  /* Weakness Other V */
-     , (30391,  1371,  2.028)  /* Frailty Other V */
-     , (30391,  1395,  2.028)  /* Clumsiness Other V */
-     , (30391,  1419,  2.028)  /* Slowness Other V */
-     , (30391,  1443,  2.028)  /* Bafflement Other V */
-     , (30391,  1467,  2.028)  /* Feeblemind Other V */;
+     , (30391,  1395,  2.028)  /* Clumsiness Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (30391,  94) /* ATTACK_NOTIFICATION_EVENT */

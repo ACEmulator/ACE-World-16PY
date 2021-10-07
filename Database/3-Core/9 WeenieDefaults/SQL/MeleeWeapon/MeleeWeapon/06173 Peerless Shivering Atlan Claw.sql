@@ -54,9 +54,9 @@ VALUES (6173,   1,   33556317) /* Setup */
      , (6173,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6173,  1032,      2)  /* Cold Protection Self III */
-     , (6173,  1399,      2)  /* Quickness Self III */
-     , (6173,  1589,      2)  /* Aura of Heart Seeker Self III */
+VALUES (6173,  1399,      2)  /* Quickness Self III */
+     , (6173,  1032,      2)  /* Cold Protection Self III */
      , (6173,  1602,      2)  /* Aura of Defender Self III */
+     , (6173,  1589,      2)  /* Aura of Heart Seeker Self III */
      , (6173,  1613,      2)  /* Aura of Blood Drinker Self III */
      , (6173,  1624,      2)  /* Aura of Swift Killer Self III */;

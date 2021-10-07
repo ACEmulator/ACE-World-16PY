@@ -116,11 +116,11 @@ VALUES (11992,  0,  4,  0,    0,   50,   40,   28,   28,   36,   15,   20,   29,
      , (11992,  8,  4, 15, 0.75,   50,   40,   28,   28,   36,   15,   20,   29,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11992,    65,   2.08)  /* Shock Wave II */
+VALUES (11992,  1157,   2.02)  /* Heal Self II */
+     , (11992,    65,   2.08)  /* Shock Wave II */
      , (11992,    66,   2.02)  /* Shock Wave III */
      , (11992,    87,   2.08)  /* Force Bolt II */
-     , (11992,  1091,    2.1)  /* Fire Protection Self III */
-     , (11992,  1157,   2.02)  /* Heal Self II */;
+     , (11992,  1091,    2.1)  /* Fire Protection Self III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (11992,  94) /* ATTACK_NOTIFICATION_EVENT */

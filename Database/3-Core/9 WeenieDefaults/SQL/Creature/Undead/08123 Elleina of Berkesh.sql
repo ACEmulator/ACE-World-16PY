@@ -119,34 +119,34 @@ VALUES (8123,  0,  4,  0,    0,  200,  280,  280,  220,  300,  200,  240,  240, 
      , (8123,  8,  4, 80, 0.75,  220,  308,  308,  242,  330,  220,  264,  264,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8123,    62,  2.028)  /* Acid Stream V */
-     , (8123,    68,  2.028)  /* Shock Wave V */
-     , (8123,    69,   2.01)  /* Shock Wave VI */
-     , (8123,    73,  2.028)  /* Frost Bolt V */
-     , (8123,    79,  2.028)  /* Lightning Bolt V */
-     , (8123,    80,   2.01)  /* Lightning Bolt VI */
-     , (8123,    84,  2.028)  /* Flame Bolt V */
-     , (8123,    90,  2.028)  /* Force Bolt V */
-     , (8123,    96,  2.028)  /* Whirling Blade V */
-     , (8123,   129,  2.028)  /* Acid Volley V */
-     , (8123,   130,   2.01)  /* Acid Volley VI */
+VALUES (8123,  1342,  2.013)  /* Weakness Other V */
+     , (8123,  1253,   2.03)  /* Drain Stamina Other V */
      , (8123,   137,  2.028)  /* Frost Volley V */
+     , (8123,    73,  2.028)  /* Frost Bolt V */
+     , (8123,   129,  2.028)  /* Acid Volley V */
      , (8123,   138,   2.01)  /* Frost Volley VI */
+     , (8123,   130,   2.01)  /* Acid Volley VI */
+     , (8123,    68,  2.028)  /* Shock Wave V */
      , (8123,   141,  2.028)  /* Lightning Volley V */
+     , (8123,    69,   2.01)  /* Shock Wave VI */
+     , (8123,    80,   2.01)  /* Lightning Bolt VI */
+     , (8123,  1419,  2.013)  /* Slowness Other V */
      , (8123,   142,   2.01)  /* Lightning Volley VI */
+     , (8123,    79,  2.028)  /* Lightning Bolt V */
      , (8123,   145,  2.028)  /* Flame Volley V */
      , (8123,   146,   2.01)  /* Flame Volley VI */
+     , (8123,    84,  2.028)  /* Flame Bolt V */
+     , (8123,  1241,   2.03)  /* Drain Health Other V */
+     , (8123,    90,  2.028)  /* Force Bolt V */
+     , (8123,    96,  2.028)  /* Whirling Blade V */
+     , (8123,  1371,  2.013)  /* Frailty Other V */
+     , (8123,  1443,  2.013)  /* Bafflement Other V */
      , (8123,   169,   2.03)  /* Regeneration Self V */
      , (8123,   175,  2.013)  /* Fester Other V */
-     , (8123,  1241,   2.03)  /* Drain Health Other V */
-     , (8123,  1253,   2.03)  /* Drain Stamina Other V */
      , (8123,  1264,   2.03)  /* Drain Mana Other V */
-     , (8123,  1342,  2.013)  /* Weakness Other V */
-     , (8123,  1371,  2.013)  /* Frailty Other V */
      , (8123,  1395,  2.013)  /* Clumsiness Other V */
-     , (8123,  1419,  2.013)  /* Slowness Other V */
-     , (8123,  1443,  2.013)  /* Bafflement Other V */
-     , (8123,  1467,  2.013)  /* Feeblemind Other V */;
+     , (8123,  1467,  2.013)  /* Feeblemind Other V */
+     , (8123,    62,  2.028)  /* Acid Stream V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (8123,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -391,16 +391,16 @@ VALUES (10943,  0,  4,  0,    0,  225,  203,  225,  248,   90,   90,  225,  135,
      , (10943,  8,  4,  2, 0.75,  225,  203,  225,  248,   90,   90,  225,  135,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10943,  1242,   2.05)  /* Drain Health Other VI */
-     , (10943,  2073,   2.05)  /* Adja's Intervention */
-     , (10943,  2122,   2.12)  /* Disintegration */
-     , (10943,  2128,   2.12)  /* Ilservian's Flame */
-     , (10943,  2132,   2.12)  /* The Spike */
-     , (10943,  2136,   2.12)  /* Icy Torment */
-     , (10943,  2140,   2.12)  /* Alset's Coil */
+VALUES (10943,  2122,   2.12)  /* Disintegration */
+     , (10943,  2765,   2.06)  /* Martyr's Hecatomb VI */
      , (10943,  2144,   2.12)  /* Crushing Shame */
-     , (10943,  2146,   2.12)  /* Evisceration */
-     , (10943,  2765,   2.06)  /* Martyr's Hecatomb VI */;
+     , (10943,  2136,   2.12)  /* Icy Torment */
+     , (10943,  2128,   2.12)  /* Ilservian's Flame */
+     , (10943,  2140,   2.12)  /* Alset's Coil */
+     , (10943,  2132,   2.12)  /* The Spike */
+     , (10943,  2073,   2.05)  /* Adja's Intervention */
+     , (10943,  1242,   2.05)  /* Drain Health Other VI */
+     , (10943,  2146,   2.12)  /* Evisceration */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (10943,  94) /* ATTACK_NOTIFICATION_EVENT */

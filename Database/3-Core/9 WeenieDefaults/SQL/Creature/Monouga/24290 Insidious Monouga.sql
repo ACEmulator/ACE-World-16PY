@@ -122,13 +122,13 @@ VALUES (24290,  0,  4,  0,    0,  340,  102,  252,   14,  204,   14,  122,   24,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24290,   198,  2.011)  /* Exhaustion Other V */
+     , (24290,  1371,  2.011)  /* Frailty Other V */
+     , (24290,  1419,  2.011)  /* Slowness Other V */
+     , (24290,  1342,  2.011)  /* Weakness Other V */
+     , (24290,  1326,  2.011)  /* Imperil Other V */
      , (24290,   233,  2.011)  /* Vulnerability Other V */
      , (24290,  1004,  2.011)  /* Leaden Feet Other V */
-     , (24290,  1199,  2.011)  /* Enfeeble Other V */
-     , (24290,  1326,  2.011)  /* Imperil Other V */
-     , (24290,  1342,  2.011)  /* Weakness Other V */
-     , (24290,  1371,  2.011)  /* Frailty Other V */
-     , (24290,  1419,  2.011)  /* Slowness Other V */;
+     , (24290,  1199,  2.011)  /* Enfeeble Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (24290,  94) /* ATTACK_NOTIFICATION_EVENT */

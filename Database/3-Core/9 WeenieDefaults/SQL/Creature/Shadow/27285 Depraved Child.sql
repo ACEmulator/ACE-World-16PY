@@ -126,23 +126,23 @@ VALUES (27285,  0,  4,  0,    0,  480,  480,  384,  408,  288,  528,  336,  360,
      , (27285,  8,  4, 70, 0.75,  480,  480,  384,  408,  288,  528,  336,  360,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27285,    74,   2.02)  /* Frost Bolt VI */
+VALUES (27285,    85,   2.02)  /* Flame Bolt VI */
+     , (27285,  1161,   2.02)  /* Heal Self VI */
+     , (27285,  1089,   2.02)  /* Lightning Vulnerability Other VI */
+     , (27285,  2053,  2.005)  /* Executor's Blessing */
+     , (27285,  1132,   2.02)  /* Blade Vulnerability Other VI */
      , (27285,    80,   2.02)  /* Lightning Bolt VI */
-     , (27285,    85,   2.02)  /* Flame Bolt VI */
+     , (27285,  1156,   2.02)  /* Piercing Vulnerability Other VI */
+     , (27285,  3210,   2.01)  /* Agitate */
+     , (27285,  1254,   2.02)  /* Drain Stamina Other VI */
+     , (27285,    74,   2.02)  /* Frost Bolt VI */
+     , (27285,  3215,   2.01)  /* Underfoot */
+     , (27285,   285,   2.02)  /* Magic Yield Other VI */
+     , (27285,  1242,   2.02)  /* Drain Health Other VI */
      , (27285,    91,   2.02)  /* Force Bolt VI */
      , (27285,    97,   2.02)  /* Whirling Blade VI */
-     , (27285,   285,   2.02)  /* Magic Yield Other VI */
      , (27285,  1065,   2.02)  /* Cold Vulnerability Other VI */
-     , (27285,  1089,   2.02)  /* Lightning Vulnerability Other VI */
-     , (27285,  1132,   2.02)  /* Blade Vulnerability Other VI */
-     , (27285,  1156,   2.02)  /* Piercing Vulnerability Other VI */
-     , (27285,  1161,   2.02)  /* Heal Self VI */
-     , (27285,  1242,   2.02)  /* Drain Health Other VI */
-     , (27285,  1254,   2.02)  /* Drain Stamina Other VI */
-     , (27285,  1265,   2.02)  /* Drain Mana Other VI */
-     , (27285,  2053,  2.005)  /* Executor's Blessing */
-     , (27285,  3210,   2.01)  /* Agitate */
-     , (27285,  3215,   2.01)  /* Underfoot */;
+     , (27285,  1265,   2.02)  /* Drain Mana Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (27285,  94) /* ATTACK_NOTIFICATION_EVENT */

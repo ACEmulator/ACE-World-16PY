@@ -112,17 +112,17 @@ VALUES (22900,  0,  4,  0,    0,  540,  540,  432,  459,  324,  594,  378,  405,
      , (22900, 22, 32, 100,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22900,    63,   2.03)  /* Acid Stream VI */
-     , (22900,    80,   2.03)  /* Lightning Bolt VI */
-     , (22900,   234,   2.02)  /* Vulnerability Other VI */
-     , (22900,   526,   2.02)  /* Acid Vulnerability Other VI */
+VALUES (22900,  1161,   2.01)  /* Heal Self VI */
      , (22900,  1089,   2.02)  /* Lightning Vulnerability Other VI */
-     , (22900,  1161,   2.01)  /* Heal Self VI */
-     , (22900,  1242,   2.01)  /* Drain Health Other VI */
-     , (22900,  1343,   2.02)  /* Weakness Other VI */
+     , (22900,  1444,   2.02)  /* Bafflement Other VI */
      , (22900,  1372,   2.02)  /* Frailty Other VI */
      , (22900,  1420,   2.02)  /* Slowness Other VI */
-     , (22900,  1444,   2.02)  /* Bafflement Other VI */;
+     , (22900,   526,   2.02)  /* Acid Vulnerability Other VI */
+     , (22900,    80,   2.03)  /* Lightning Bolt VI */
+     , (22900,  1242,   2.01)  /* Drain Health Other VI */
+     , (22900,   234,   2.02)  /* Vulnerability Other VI */
+     , (22900,  1343,   2.02)  /* Weakness Other VI */
+     , (22900,    63,   2.03)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (22900,  94) /* ATTACK_NOTIFICATION_EVENT */

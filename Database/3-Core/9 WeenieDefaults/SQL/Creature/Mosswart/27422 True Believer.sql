@@ -122,16 +122,16 @@ VALUES (27422,  0,  4,  0,    0,  300,  390,  450,  420,  300,  210,  390,  270,
      , (27422,  8,  4, 70,  0.5,  300,  390,  450,  420,  300,  210,  390,  270,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27422,    80,   2.15)  /* Lightning Bolt VI */
-     , (27422,    85,   2.15)  /* Flame Bolt VI */
-     , (27422,   525,   2.01)  /* Acid Vulnerability Other V */
-     , (27422,   969,    2.1)  /* Faithlessness Other VI */
-     , (27422,  1064,   2.01)  /* Cold Vulnerability Other V */
-     , (27422,  1070,   2.01)  /* Lightning Protection Self V */
+VALUES (27422,  1326,   2.01)  /* Imperil Other V */
      , (27422,  1093,   2.01)  /* Fire Protection Self V */
+     , (27422,    80,   2.15)  /* Lightning Bolt VI */
+     , (27422,   969,    2.1)  /* Faithlessness Other VI */
+     , (27422,    85,   2.15)  /* Flame Bolt VI */
      , (27422,  1161,   2.04)  /* Heal Self VI */
+     , (27422,   525,   2.01)  /* Acid Vulnerability Other V */
+     , (27422,  1064,   2.01)  /* Cold Vulnerability Other V */
      , (27422,  1311,   2.01)  /* Armor Self V */
-     , (27422,  1326,   2.01)  /* Imperil Other V */;
+     , (27422,  1070,   2.01)  /* Lightning Protection Self V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (27422,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -113,12 +113,12 @@ VALUES (14563,  0, 64, 95, 0.75,  200,  200,  200,  200,  238, 20000,  556,  200
      , (14563, 22, 64, 95, 0.75,  200,  200,  200,  200,  238, 20000,  556,  200,    0, 2,    0,    0,    0,    0,    0,    0,  0.1,  0.1,    0,  0.1,  0.1,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (14563,    63,  2.115)  /* Acid Stream VI */
-     , (14563,   278,  2.032)  /* Magic Resistance Self V */
-     , (14563,   284,  2.044)  /* Magic Yield Other V */
+VALUES (14563,  1088,  2.044)  /* Lightning Vulnerability Other V */
+     , (14563,    63,  2.115)  /* Acid Stream VI */
      , (14563,   609,  2.032)  /* Life Magic Mastery Self V */
      , (14563,   657,  2.032)  /* Mana Conversion Mastery Self V */
-     , (14563,  1088,  2.044)  /* Lightning Vulnerability Other V */
+     , (14563,   278,  2.032)  /* Magic Resistance Self V */
+     , (14563,   284,  2.044)  /* Magic Yield Other V */
      , (14563,  1175,  2.044)  /* Harm Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

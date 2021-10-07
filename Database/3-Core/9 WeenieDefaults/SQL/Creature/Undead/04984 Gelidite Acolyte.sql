@@ -133,17 +133,17 @@ VALUES (4984,  0,  4,  0,    0,  360,  360,  360,  360,  360,  360,  360,  360, 
      , (4984,  8,  4, 80, 0.75,  360,  360,  360,  360,  360,  360,  360,  360,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (4984,    73,    2.1)  /* Frost Bolt V */
+VALUES (4984,  1092,  2.009)  /* Fire Protection Self IV */
+     , (4984,    73,    2.1)  /* Frost Bolt V */
+     , (4984,  1394,  2.009)  /* Clumsiness Other IV */
+     , (4984,  1442,  2.009)  /* Bafflement Other IV */
+     , (4984,  1418,  2.009)  /* Slowness Other IV */
      , (4984,  1063,  2.009)  /* Cold Vulnerability Other IV */
-     , (4984,  1092,  2.009)  /* Fire Protection Self IV */
      , (4984,  1239,   2.02)  /* Drain Health Other III */
      , (4984,  1251,   2.02)  /* Drain Stamina Other III */
      , (4984,  1262,   2.02)  /* Drain Mana Other III */
-     , (4984,  1341,  2.009)  /* Weakness Other IV */
-     , (4984,  1394,  2.009)  /* Clumsiness Other IV */
-     , (4984,  1418,  2.009)  /* Slowness Other IV */
-     , (4984,  1442,  2.009)  /* Bafflement Other IV */
-     , (4984,  1466,  2.009)  /* Feeblemind Other IV */;
+     , (4984,  1466,  2.009)  /* Feeblemind Other IV */
+     , (4984,  1341,  2.009)  /* Weakness Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (4984,  94) /* ATTACK_NOTIFICATION_EVENT */

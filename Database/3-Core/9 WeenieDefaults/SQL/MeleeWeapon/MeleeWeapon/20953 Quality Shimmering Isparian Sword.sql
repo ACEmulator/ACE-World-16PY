@@ -60,6 +60,6 @@ VALUES (20953,   1,   33556262) /* Setup */
      , (20953,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20953,  1312,      2)  /* Armor Self VI */
-     , (20953,  1589,      2)  /* Aura of Heart Seeker Self III */
-     , (20953,  1613,      2)  /* Aura of Blood Drinker Self III */;
+VALUES (20953,  1589,      2)  /* Aura of Heart Seeker Self III */
+     , (20953,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (20953,  1312,      2)  /* Armor Self VI */;

@@ -58,6 +58,6 @@ VALUES (25956,   1,   33556861) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25956,   248,      2)  /* Invulnerability Self V */
-     , (25956,   471,      2)  /* Missile Weapon Mastery Self V */
      , (25956,   495,      2)  /* Missile Weapon Mastery Self V */
+     , (25956,   471,      2)  /* Missile Weapon Mastery Self V */
      , (25956,   543,      2)  /* Missile Weapon Mastery Self V */;

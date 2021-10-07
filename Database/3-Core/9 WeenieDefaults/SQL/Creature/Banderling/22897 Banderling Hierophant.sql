@@ -121,18 +121,18 @@ VALUES (22897,  0,  4,  0,    0,  750,  375,  263,  413,  375,  638,  263,  825,
      , (22897,  8,  4, 130, 0.75,  750,  375,  263,  413,  375,  638,  263,  825,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22897,    74,  2.071)  /* Frost Bolt VI */
+VALUES (22897,  2056,  2.071)  /* Ataxia */
+     , (22897,  1241,   2.05)  /* Drain Health Other V */
      , (22897,    85,  2.071)  /* Flame Bolt VI */
-     , (22897,   234,  2.071)  /* Vulnerability Other VI */
+     , (22897,  1161,   2.05)  /* Heal Self VI */
+     , (22897,  2074,  2.071)  /* Gossamer Flesh */
+     , (22897,    74,  2.071)  /* Frost Bolt VI */
+     , (22897,  1176,   2.05)  /* Harm Other VI */
      , (22897,   267,  2.071)  /* Defenselessness Other VI */
      , (22897,   285,  2.071)  /* Magic Yield Other VI */
-     , (22897,  1161,   2.05)  /* Heal Self VI */
-     , (22897,  1176,   2.05)  /* Harm Other VI */
-     , (22897,  1241,   2.05)  /* Drain Health Other V */
-     , (22897,  2056,  2.071)  /* Ataxia */
-     , (22897,  2074,  2.071)  /* Gossamer Flesh */
      , (22897,  2084,  2.071)  /* Belly of Lead */
      , (22897,  2088,  2.071)  /* Senescence */
+     , (22897,   234,  2.071)  /* Vulnerability Other VI */
      , (22897,  2168,  2.071)  /* Gelidite's Gift */
      , (22897,  2170,  2.071)  /* Inferno's Gift */;
 

@@ -53,8 +53,8 @@ VALUES (23615,   1,   33557043) /* Setup */
      , (23615,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23615,   249,      2)  /* Invulnerability Self VI */
-     , (23615,  1023,      2)  /* Bludgeoning Protection Self VI */
-     , (23615,  1114,      2)  /* Blade Protection Self VI */
+VALUES (23615,  1023,      2)  /* Bludgeoning Protection Self VI */
+     , (23615,  1485,      2)  /* Impenetrability V */
      , (23615,  1138,      2)  /* Piercing Protection Self VI */
-     , (23615,  1485,      2)  /* Impenetrability V */;
+     , (23615,  1114,      2)  /* Blade Protection Self VI */
+     , (23615,   249,      2)  /* Invulnerability Self VI */;

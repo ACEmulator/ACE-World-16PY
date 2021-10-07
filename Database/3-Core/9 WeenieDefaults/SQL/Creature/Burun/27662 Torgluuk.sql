@@ -118,27 +118,27 @@ VALUES (27662,  0,  4,  0,    0,  675,  709,  709,  709,  709,  709,  844,  709,
      , (27662,  8,  4, 160,  0.5,  675,  709,  709,  709,  709,  709,  844,  709,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27662,  2122,   2.07)  /* Disintegration */
+VALUES (27662,  3110,   2.02)  /* Sear Flesh */
+     , (27662,  2122,   2.07)  /* Disintegration */
+     , (27662,  2178,   2.02)  /* Decrepitude's Grasp */
      , (27662,  2132,   2.07)  /* The Spike */
+     , (27662,  3080,   2.01)  /* Bruised Flesh */
+     , (27662,  3060,   2.02)  /* Poison Blood */
+     , (27662,  3081,   2.01)  /* Flesh of Cloth */
+     , (27662,  3082,   2.01)  /* Exposed Flesh */
+     , (27662,  3091,   2.01)  /* Thin Skin */
+     , (27662,  3083,   2.01)  /* Flesh of Flint */
+     , (27662,  3084,   2.01)  /* Weaken Flesh */
      , (27662,  2140,   2.07)  /* Alset's Coil */
      , (27662,  2144,   2.07)  /* Crushing Shame */
      , (27662,  2146,   2.07)  /* Evisceration */
-     , (27662,  2178,   2.02)  /* Decrepitude's Grasp */
-     , (27662,  3058,   2.02)  /* Asphyiaxtion */
-     , (27662,  3059,   2.02)  /* Enervation */
-     , (27662,  3060,   2.02)  /* Poison Blood */
-     , (27662,  3061,   2.02)  /* Taint Mana */
-     , (27662,  3080,   2.01)  /* Bruised Flesh */
-     , (27662,  3081,   2.01)  /* Flesh of Cloth */
-     , (27662,  3082,   2.01)  /* Exposed Flesh */
-     , (27662,  3083,   2.01)  /* Flesh of Flint */
-     , (27662,  3084,   2.01)  /* Weaken Flesh */
-     , (27662,  3091,   2.01)  /* Thin Skin */
      , (27662,  3108,   2.02)  /* Flay Soul */
      , (27662,  3109,   2.02)  /* Liquefy Flesh */
-     , (27662,  3110,   2.02)  /* Sear Flesh */
      , (27662,  3111,   2.02)  /* Soul Hammer */
-     , (27662,  3112,   2.02)  /* Soul Spike */;
+     , (27662,  3061,   2.02)  /* Taint Mana */
+     , (27662,  3112,   2.02)  /* Soul Spike */
+     , (27662,  3058,   2.02)  /* Asphyiaxtion */
+     , (27662,  3059,   2.02)  /* Enervation */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (27662,  94) /* ATTACK_NOTIFICATION_EVENT */

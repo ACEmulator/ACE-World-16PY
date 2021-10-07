@@ -55,8 +55,8 @@ VALUES (29825,   1,   33557288) /* Setup */
      , (29825,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29825,   713,      2)  /* Armor Tinkering Expertise Other VI */
+VALUES (29825,   761,      2)  /* Magic Item Tinkering Expertise Other VI */
      , (29825,   737,      2)  /* Item Tinkering Expertise Other VI */
-     , (29825,   761,      2)  /* Magic Item Tinkering Expertise Other VI */
+     , (29825,   713,      2)  /* Armor Tinkering Expertise Other VI */
      , (29825,   785,      2)  /* Weapon Tinkering Expertise Other VI */
      , (29825,  3511,      2)  /* Arcanum Enlightenment VI */;

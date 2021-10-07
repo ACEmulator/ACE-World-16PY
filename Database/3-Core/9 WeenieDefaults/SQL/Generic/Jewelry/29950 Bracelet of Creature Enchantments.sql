@@ -40,7 +40,8 @@ VALUES (29950,   1,   33554683) /* Setup */
      , (29950,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29950,  2675,      2)  /* Feeble Light Weapon Aptitude */
+VALUES (29950,  2683,      2)  /* Feeble Heavy Weapon Aptitude */
+     , (29950,  2675,      2)  /* Feeble Light Weapon Aptitude */
      , (29950,  2676,      2)  /* Feeble Missile Weapon Aptitude */
      , (29950,  2677,      2)  /* Feeble Missile Weapon Aptitude */
      , (29950,  2678,      2)  /* Feeble Finesse Weapon Aptitude */
@@ -48,6 +49,5 @@ VALUES (29950,  2675,      2)  /* Feeble Light Weapon Aptitude */
      , (29950,  2680,      2)  /* Feeble Mana Conversion Prowess */
      , (29950,  2681,      2)  /* Feeble Light Weapon Aptitude */
      , (29950,  2682,      2)  /* Feeble Light Weapon Aptitude */
-     , (29950,  2683,      2)  /* Feeble Heavy Weapon Aptitude */
      , (29950,  2684,      2)  /* Feeble Missile Weapon Aptitude */
      , (29950,  2685,      2)  /* Feeble Light Weapon Aptitude */;

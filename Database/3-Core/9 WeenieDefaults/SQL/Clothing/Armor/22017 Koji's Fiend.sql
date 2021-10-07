@@ -56,9 +56,9 @@ VALUES (22017,   1,   33558083) /* Setup */
      , (22017,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22017,   249,      2)  /* Invulnerability Self VI */
-     , (22017,   277,      2)  /* Magic Resistance Self IV */
+VALUES (22017,  1484,      2)  /* Impenetrability IV */
      , (22017,   448,      2)  /* Light Weapon Mastery Self VI */
+     , (22017,  2568,      2)  /* Minor Light Weapon Aptitude */
+     , (22017,   277,      2)  /* Magic Resistance Self IV */
      , (22017,  1312,      2)  /* Armor Self VI */
-     , (22017,  1484,      2)  /* Impenetrability IV */
-     , (22017,  2568,      2)  /* Minor Light Weapon Aptitude */;
+     , (22017,   249,      2)  /* Invulnerability Self VI */;

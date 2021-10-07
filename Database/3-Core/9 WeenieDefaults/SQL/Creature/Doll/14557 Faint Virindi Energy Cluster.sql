@@ -108,26 +108,26 @@ VALUES (14557,  0,  1,  0,    0,  240,   12,   12,   12,   14,   12,   12,   14,
      , (14557, 22, 64, 25, 0.75,  220,   11,   11,   11,   13,   11,   11,   13,    0, 3,    0,    0,  0.1,    0,    0,  0.1,    0, 0.13, 0.45,    0, 0.13, 0.45) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (14557,    62,  2.105)  /* Acid Stream V */
+VALUES (14557,  1160,      2)  /* Heal Self V */
      , (14557,    68,  2.105)  /* Shock Wave V */
-     , (14557,   278,      2)  /* Magic Resistance Self V */
-     , (14557,   284,   2.04)  /* Magic Yield Other V */
-     , (14557,   519,      2)  /* Acid Protection Self V */
-     , (14557,   525,   2.04)  /* Acid Vulnerability Other V */
-     , (14557,  1022,      2)  /* Bludgeoning Protection Self V */
-     , (14557,  1034,      2)  /* Cold Protection Self V */
-     , (14557,  1052,   2.04)  /* Bludgeoning Vulnerability Other V */
-     , (14557,  1070,      2)  /* Lightning Protection Self V */
-     , (14557,  1093,      2)  /* Fire Protection Self V */
-     , (14557,  1113,      2)  /* Blade Protection Self V */
-     , (14557,  1137,      2)  /* Piercing Protection Self V */
-     , (14557,  1160,      2)  /* Heal Self V */
-     , (14557,  1241,      2)  /* Drain Health Other V */
-     , (14557,  1311,      2)  /* Armor Self V */
-     , (14557,  1326,   2.04)  /* Imperil Other V */
      , (14557,  1342,   2.04)  /* Weakness Other V */
+     , (14557,   519,      2)  /* Acid Protection Self V */
+     , (14557,  1093,      2)  /* Fire Protection Self V */
+     , (14557,  1034,      2)  /* Cold Protection Self V */
+     , (14557,   284,   2.04)  /* Magic Yield Other V */
+     , (14557,   525,   2.04)  /* Acid Vulnerability Other V */
+     , (14557,  1113,      2)  /* Blade Protection Self V */
+     , (14557,  1241,      2)  /* Drain Health Other V */
+     , (14557,   278,      2)  /* Magic Resistance Self V */
+     , (14557,  1467,   2.04)  /* Feeblemind Other V */
+     , (14557,  1052,   2.04)  /* Bludgeoning Vulnerability Other V */
+     , (14557,  1311,      2)  /* Armor Self V */
      , (14557,  1443,   2.04)  /* Bafflement Other V */
-     , (14557,  1467,   2.04)  /* Feeblemind Other V */;
+     , (14557,  1070,      2)  /* Lightning Protection Self V */
+     , (14557,  1326,   2.04)  /* Imperil Other V */
+     , (14557,  1137,      2)  /* Piercing Protection Self V */
+     , (14557,  1022,      2)  /* Bludgeoning Protection Self V */
+     , (14557,    62,  2.105)  /* Acid Stream V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (14557,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -50,6 +50,6 @@ VALUES (8552,   1,   33556909) /* Setup */
      , (8552,  37,         33) /* ItemSkillLimit - LifeMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8552,   170,      2)  /* Regeneration Self VI */
+VALUES (8552,  1997,      2)  /* Life Giver */
      , (8552,   879,      2)  /* Healing Mastery Self VI */
-     , (8552,  1997,      2)  /* Life Giver */;
+     , (8552,   170,      2)  /* Regeneration Self VI */;

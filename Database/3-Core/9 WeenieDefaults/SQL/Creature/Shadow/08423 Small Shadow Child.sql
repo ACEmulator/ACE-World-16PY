@@ -126,21 +126,21 @@ VALUES (8423,  0,  4,  0,    0,   80,   80,   49,   59,   24,   80,   30,   49, 
      , (8423,  8,  4, 20, 0.75,   80,   80,   49,   59,   24,   80,   30,   49,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8423,    15,  2.008)  /* Vulnerability Other I */
-     , (8423,    27,   2.03)  /* Flame Bolt I */
-     , (8423,    28,   2.03)  /* Frost Bolt I */
-     , (8423,    75,   2.03)  /* Lightning Bolt I */
-     , (8423,    86,   2.03)  /* Force Bolt I */
-     , (8423,    92,   2.03)  /* Whirling Blade I */
-     , (8423,   262,  2.008)  /* Defenselessness Other I */
-     , (8423,   280,  2.008)  /* Magic Yield Other I */
-     , (8423,  1237,  2.011)  /* Drain Health Other I */
-     , (8423,  1249,  2.011)  /* Drain Stamina Other I */
-     , (8423,  1260,  2.011)  /* Drain Mana Other I */
+VALUES (8423,   280,  2.008)  /* Magic Yield Other I */
+     , (8423,    15,  2.008)  /* Vulnerability Other I */
      , (8423,  1284,  2.011)  /* Mana to Health Other I */
-     , (8423,  1658,  2.011)  /* Stamina to Health Other I */
+     , (8423,   262,  2.008)  /* Defenselessness Other I */
      , (8423,  1670,  2.011)  /* Stamina to Mana Other I */
-     , (8423,  1705,  2.011)  /* Health to Mana Other I */;
+     , (8423,    27,   2.03)  /* Flame Bolt I */
+     , (8423,    75,   2.03)  /* Lightning Bolt I */
+     , (8423,  1237,  2.011)  /* Drain Health Other I */
+     , (8423,    86,   2.03)  /* Force Bolt I */
+     , (8423,    28,   2.03)  /* Frost Bolt I */
+     , (8423,    92,   2.03)  /* Whirling Blade I */
+     , (8423,  1249,  2.011)  /* Drain Stamina Other I */
+     , (8423,  1705,  2.011)  /* Health to Mana Other I */
+     , (8423,  1260,  2.011)  /* Drain Mana Other I */
+     , (8423,  1658,  2.011)  /* Stamina to Health Other I */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (8423,  94) /* ATTACK_NOTIFICATION_EVENT */

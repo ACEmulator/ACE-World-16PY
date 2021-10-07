@@ -109,13 +109,13 @@ VALUES (7619,  0,  4,  0,    0,  100,  131,  174,  120,   44,  163,   58,  163, 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7619,    66,   2.06)  /* Shock Wave III */
      , (7619,    67,  2.013)  /* Shock Wave IV */
+     , (7619,  1394,  2.005)  /* Clumsiness Other IV */
+     , (7619,  1418,  2.005)  /* Slowness Other IV */
      , (7619,    94,   2.06)  /* Whirling Blade III */
      , (7619,    95,  2.013)  /* Whirling Blade IV */
-     , (7619,   104,  2.013)  /* Shock Blast IV */
      , (7619,   232,  2.005)  /* Vulnerability Other IV */
-     , (7619,  1252,   2.02)  /* Drain Stamina Other IV */
-     , (7619,  1394,  2.005)  /* Clumsiness Other IV */
-     , (7619,  1418,  2.005)  /* Slowness Other IV */;
+     , (7619,   104,  2.013)  /* Shock Blast IV */
+     , (7619,  1252,   2.02)  /* Drain Stamina Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (7619,  94) /* ATTACK_NOTIFICATION_EVENT */

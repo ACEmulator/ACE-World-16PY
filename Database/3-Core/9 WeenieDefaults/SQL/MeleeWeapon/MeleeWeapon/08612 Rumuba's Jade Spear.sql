@@ -54,5 +54,5 @@ VALUES (8612,   1,   33556901) /* Setup */
      , (8612,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8612,   367,      2)  /* Light Weapon Mastery Other IV */
-     , (8612,  1615,      2)  /* Aura of Blood Drinker Self V */;
+VALUES (8612,  1615,      2)  /* Aura of Blood Drinker Self V */
+     , (8612,   367,      2)  /* Light Weapon Mastery Other IV */;

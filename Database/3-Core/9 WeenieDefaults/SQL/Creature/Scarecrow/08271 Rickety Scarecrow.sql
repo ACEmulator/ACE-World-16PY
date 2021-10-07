@@ -116,15 +116,15 @@ VALUES (8271,  0,  4,  0,    0,   20,   18,    4,   30,    4,   14,    4,   18, 
      , (8271,  8,  4,  5, 0.75,   20,   18,    4,   30,    4,   14,    4,   18,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8271,     6,  2.025)  /* Heal Self I */
+VALUES (8271,    18,  2.008)  /* Invulnerability Self I */
+     , (8271,   194,  2.009)  /* Exhaustion Other I */
+     , (8271,     6,  2.025)  /* Heal Self I */
+     , (8271,  1195,  2.009)  /* Enfeeble Other I */
      , (8271,     7,  2.053)  /* Harm Other I */
-     , (8271,    18,  2.008)  /* Invulnerability Self I */
      , (8271,    20,  2.008)  /* Fire Protection Self I */
+     , (8271,  1237,      2)  /* Drain Health Other I */
      , (8271,    24,  2.008)  /* Armor Self I */
      , (8271,   171,  2.009)  /* Fester Other I */
-     , (8271,   194,  2.009)  /* Exhaustion Other I */
-     , (8271,  1195,  2.009)  /* Enfeeble Other I */
-     , (8271,  1237,      2)  /* Drain Health Other I */
      , (8271,  1260,  2.009)  /* Drain Mana Other I */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

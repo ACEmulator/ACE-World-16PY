@@ -110,16 +110,16 @@ VALUES (24133,  0,  4, 50, 0.75,  275,  275,  275,  275,  275,  330,  297, 27500
      , (24133, 17,  4, 80, 0.75,  275,  275,  275,  275,  275,  330,  297, 27500,    0, 2,    0,    0,    0,    0,    0,    0,  0.1,  0.1,    0,  0.1,  0.1,    0) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24133,   170,  2.083)  /* Regeneration Self VI */
-     , (24133,  1108,  2.083)  /* Fire Vulnerability Other VI */
-     , (24133,  1161,  2.083)  /* Heal Self VI */
-     , (24133,  1242,  2.084)  /* Drain Health Other VI */
-     , (24133,  1327,  2.083)  /* Imperil Other VI */
-     , (24133,  1396,  2.083)  /* Clumsiness Other VI */
-     , (24133,  1468,  2.083)  /* Feeblemind Other VI */
+VALUES (24133,  1161,  2.083)  /* Heal Self VI */
      , (24133,  2128,    2.1)  /* Ilservian's Flame */
+     , (24133,  1108,  2.083)  /* Fire Vulnerability Other VI */
      , (24133,  2129,    2.1)  /* Sizzling Fury */
-     , (24133,  2745,    2.1)  /* Flame Arc VII */;
+     , (24133,  1242,  2.084)  /* Drain Health Other VI */
+     , (24133,   170,  2.083)  /* Regeneration Self VI */
+     , (24133,  1327,  2.083)  /* Imperil Other VI */
+     , (24133,  1468,  2.083)  /* Feeblemind Other VI */
+     , (24133,  2745,    2.1)  /* Flame Arc VII */
+     , (24133,  1396,  2.083)  /* Clumsiness Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (24133,  94) /* ATTACK_NOTIFICATION_EVENT */

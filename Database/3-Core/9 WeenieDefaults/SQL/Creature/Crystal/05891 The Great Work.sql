@@ -110,20 +110,20 @@ VALUES (5891,  0,  4, 50, 0.75,  200,  200,  200,  200,  238, 20000,  556,  200,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (5891,    84,  2.067)  /* Flame Bolt V */
-     , (5891,    85,  2.066)  /* Flame Bolt VI */
-     , (5891,   146,  2.066)  /* Flame Volley VI */
-     , (5891,   170,  2.066)  /* Regeneration Self VI */
-     , (5891,   278,  2.066)  /* Magic Resistance Self V */
-     , (5891,   284,  2.066)  /* Magic Yield Other V */
-     , (5891,   609,  2.066)  /* Life Magic Mastery Self V */
-     , (5891,   628,  2.066)  /* Life Magic Ineptitude Other VI */
-     , (5891,   657,  2.066)  /* Mana Conversion Mastery Self V */
-     , (5891,  1108,  2.066)  /* Fire Vulnerability Other VI */
      , (5891,  1160,  2.066)  /* Heal Self V */
+     , (5891,   657,  2.066)  /* Mana Conversion Mastery Self V */
+     , (5891,   609,  2.066)  /* Life Magic Mastery Self V */
+     , (5891,  1420,  2.066)  /* Slowness Other VI */
+     , (5891,   146,  2.066)  /* Flame Volley VI */
+     , (5891,  1108,  2.066)  /* Fire Vulnerability Other VI */
+     , (5891,   278,  2.066)  /* Magic Resistance Self V */
+     , (5891,    85,  2.066)  /* Flame Bolt VI */
      , (5891,  1175,  2.066)  /* Harm Other V */
      , (5891,  1241,  2.066)  /* Drain Health Other V */
+     , (5891,   284,  2.066)  /* Magic Yield Other V */
      , (5891,  1312,  2.066)  /* Armor Self VI */
-     , (5891,  1420,  2.066)  /* Slowness Other VI */;
+     , (5891,   170,  2.066)  /* Regeneration Self VI */
+     , (5891,   628,  2.066)  /* Life Magic Ineptitude Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (5891,  94) /* ATTACK_NOTIFICATION_EVENT */

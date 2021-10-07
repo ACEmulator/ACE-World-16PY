@@ -44,6 +44,6 @@ VALUES (25947,   1,   33554691) /* Setup */
      , (25947,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25947,   255,      2)  /* Impregnability Other VI */
+VALUES (25947,  2060,      2)  /* Temeritous Touch */
      , (25947,  1337,      2)  /* Strength Other VI */
-     , (25947,  2060,      2)  /* Temeritous Touch */;
+     , (25947,   255,      2)  /* Impregnability Other VI */;

@@ -110,26 +110,26 @@ VALUES (22914,  0,  1,  0,    0,  500,  500,  500,  500,  500,  500,  500,  500,
      , (22914, 17,  1,  0,    0,  500,  500,  500,  500,  500,  500,  500,  500,    0, 3,    0,    0,  0.1,    0,    0,  0.1,    0, 0.13, 0.45,    0, 0.13, 0.45) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22914,    79,   2.07)  /* Lightning Bolt V */
-     , (22914,    84,   2.07)  /* Flame Bolt V */
-     , (22914,    96,   2.07)  /* Whirling Blade V */
-     , (22914,   141,   2.05)  /* Lightning Volley V */
-     , (22914,   145,   2.05)  /* Flame Volley V */
-     , (22914,   153,   2.05)  /* Blade Volley V */
-     , (22914,   233,   2.05)  /* Vulnerability Other V */
-     , (22914,   284,   2.05)  /* Magic Yield Other V */
-     , (22914,  1088,   2.05)  /* Lightning Vulnerability Other V */
-     , (22914,  1107,   2.05)  /* Fire Vulnerability Other V */
-     , (22914,  1131,   2.05)  /* Blade Vulnerability Other V */
+VALUES (22914,    84,   2.07)  /* Flame Bolt V */
      , (22914,  1160,      2)  /* Heal Self V */
-     , (22914,  1175,   2.05)  /* Harm Other V */
+     , (22914,  1088,   2.05)  /* Lightning Vulnerability Other V */
      , (22914,  1241,   2.05)  /* Drain Health Other V */
-     , (22914,  1326,   2.05)  /* Imperil Other V */
+     , (22914,   141,   2.05)  /* Lightning Volley V */
+     , (22914,  1107,   2.05)  /* Fire Vulnerability Other V */
+     , (22914,    79,   2.07)  /* Lightning Bolt V */
+     , (22914,   145,   2.05)  /* Flame Volley V */
+     , (22914,  1175,   2.05)  /* Harm Other V */
+     , (22914,   153,   2.05)  /* Blade Volley V */
+     , (22914,    96,   2.07)  /* Whirling Blade V */
      , (22914,  1371,   2.05)  /* Frailty Other V */
+     , (22914,   284,   2.05)  /* Magic Yield Other V */
+     , (22914,   233,   2.05)  /* Vulnerability Other V */
+     , (22914,  1131,   2.05)  /* Blade Vulnerability Other V */
+     , (22914,  1326,   2.05)  /* Imperil Other V */
      , (22914,  1395,   2.05)  /* Clumsiness Other V */
-     , (22914,  1467,   2.05)  /* Feeblemind Other V */
      , (22914,  1784,   2.02)  /* Horizon's Blades */
      , (22914,  1785,   2.02)  /* Cassius' Ring of Fire */
+     , (22914,  1467,   2.05)  /* Feeblemind Other V */
      , (22914,  1788,    2.2)  /* Eye of the Storm */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

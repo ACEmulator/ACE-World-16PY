@@ -116,18 +116,18 @@ VALUES (28043,  0,  4,  0,    0,  300,  240,  240,  240,  300,  300,  300,  300,
      , (28043,  8,  4, 130, 0.75,  300,  240,  240,  240,  300,  300,  300,  300,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28043,    69,  2.055)  /* Shock Wave VI */
+VALUES (28043,  1265,   2.01)  /* Drain Mana Other VI */
+     , (28043,    69,  2.055)  /* Shock Wave VI */
+     , (28043,  2763,   2.01)  /* Martyr's Hecatomb IV */
+     , (28043,  1242,   2.01)  /* Drain Health Other VI */
      , (28043,    91,  2.008)  /* Force Bolt VI */
      , (28043,    97,  2.055)  /* Whirling Blade VI */
-     , (28043,   170,      2)  /* Regeneration Self VI */
      , (28043,   234,    2.1)  /* Vulnerability Other VI */
-     , (28043,  1242,   2.01)  /* Drain Health Other VI */
+     , (28043,   170,      2)  /* Regeneration Self VI */
      , (28043,  1254,   2.01)  /* Drain Stamina Other VI */
-     , (28043,  1265,   2.01)  /* Drain Mana Other VI */
      , (28043,  2164,   2.08)  /* Swordsman's Gift */
      , (28043,  2166,   2.08)  /* Tusker's Gift */
-     , (28043,  2174,   2.08)  /* Archer's Gift */
-     , (28043,  2763,   2.01)  /* Martyr's Hecatomb IV */;
+     , (28043,  2174,   2.08)  /* Archer's Gift */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (28043,  94) /* ATTACK_NOTIFICATION_EVENT */

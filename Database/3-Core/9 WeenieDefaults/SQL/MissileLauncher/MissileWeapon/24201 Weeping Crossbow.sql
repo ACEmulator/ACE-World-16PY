@@ -62,8 +62,8 @@ VALUES (24201,   1,   33558299) /* Setup */
      , (24201,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24201,  2688,      2)  /* Moderate Missile Weapon Aptitude */
+VALUES (24201,  2967,      2)  /* Aura of The Speedy Hunter */
+     , (24201,  2688,      2)  /* Moderate Missile Weapon Aptitude */
      , (24201,  2964,      2)  /* Aura of Hunter's Mark */
      , (24201,  2966,      2)  /* Aura of Murderous Thirst */
-     , (24201,  2967,      2)  /* Aura of The Speedy Hunter */
      , (24201,  2968,      2)  /* Vision of the Hunter */;

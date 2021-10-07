@@ -45,5 +45,5 @@ VALUES (27448,   1,   33554691) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27448,   273,      2)  /* Magic Resistance Other VI */
-     , (27448,  1384,      2)  /* Coordination Other VI */
-     , (27448,  2080,      2)  /* Ogfoot */;
+     , (27448,  2080,      2)  /* Ogfoot */
+     , (27448,  1384,      2)  /* Coordination Other VI */;

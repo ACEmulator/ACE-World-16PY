@@ -61,6 +61,6 @@ VALUES (27342,   1,   33558662) /* Setup */
      , (27342,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27342,  2470,      2)  /* Greater Still Water */
-     , (27342,  2473,      2)  /* Greater Torrent */
-     , (27342,  3221,      2)  /* Greater Cascade */;
+VALUES (27342,  3221,      2)  /* Greater Cascade */
+     , (27342,  2470,      2)  /* Greater Still Water */
+     , (27342,  2473,      2)  /* Greater Torrent */;

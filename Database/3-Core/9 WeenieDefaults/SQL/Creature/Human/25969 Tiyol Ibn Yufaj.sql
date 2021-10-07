@@ -108,8 +108,8 @@ VALUES (25969,  0,  4,  0,    0,  225,  203,  225,  248,   90,   90,  225,  135,
      , (25969,  8,  4,  8, 0.75,  225,  203,  225,  248,   90,   90,  225,  135,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25969,  1161,   2.05)  /* Heal Self VI */
-     , (25969,  1666,   2.05)  /* Stamina to Health Self III */;
+VALUES (25969,  1666,   2.05)  /* Stamina to Health Self III */
+     , (25969,  1161,   2.05)  /* Heal Self VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (25969,  94) /* ATTACK_NOTIFICATION_EVENT */

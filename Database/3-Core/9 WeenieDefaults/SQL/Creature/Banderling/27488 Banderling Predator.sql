@@ -117,12 +117,12 @@ VALUES (27488,  0,  4,  0,    0,  360,  360,  360,  540,  360,  360,  288,  216,
      , (27488,  8,  4, 150, 0.75,  360,  360,  360,  540,  360,  360,  288,  216,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27488,    74,  2.008)  /* Frost Bolt VI */
-     , (27488,  1065,  2.008)  /* Cold Vulnerability Other VI */
+VALUES (27488,  1065,  2.008)  /* Cold Vulnerability Other VI */
      , (27488,  1161,  2.008)  /* Heal Self VI */
-     , (27488,  1444,   2.08)  /* Bafflement Other VI */
+     , (27488,    74,  2.008)  /* Frost Bolt VI */
+     , (27488,  1813,  2.008)  /* Frost Streak VI */
      , (27488,  1468,   2.08)  /* Feeblemind Other VI */
-     , (27488,  1813,  2.008)  /* Frost Streak VI */;
+     , (27488,  1444,   2.08)  /* Bafflement Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (27488,  94) /* ATTACK_NOTIFICATION_EVENT */

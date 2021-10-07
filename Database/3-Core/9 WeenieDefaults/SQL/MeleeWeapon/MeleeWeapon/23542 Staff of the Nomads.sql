@@ -57,11 +57,11 @@ VALUES (23542,   1,   33558224) /* Setup */
      , (23542,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23542,   273,      2)  /* Magic Resistance Other VI */
+VALUES (23542,  1317,      2)  /* Armor Other VI */
+     , (23542,   273,      2)  /* Magic Resistance Other VI */
      , (23542,   393,      2)  /* Light Weapon Mastery Other VI */
-     , (23542,   993,      2)  /* Sprint Other VI */
-     , (23542,  1317,      2)  /* Armor Other VI */
-     , (23542,  1360,      2)  /* Endurance Other VI */
      , (23542,  1384,      2)  /* Coordination Other VI */
+     , (23542,  1360,      2)  /* Endurance Other VI */
      , (23542,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (23542,  2009,      2)  /* Warrior's Greater Vigor */;
+     , (23542,  2009,      2)  /* Warrior's Greater Vigor */
+     , (23542,   993,      2)  /* Sprint Other VI */;

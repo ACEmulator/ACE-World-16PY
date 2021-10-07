@@ -116,15 +116,15 @@ VALUES (28878,  0,  4,  0,    0,  130,   87,   13,   13,   13,   91,   13,   87,
      , (28878,  8,  4, 25, 0.75,  130,   87,   13,   13,   13,   91,   13,   87,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28878,   173,  2.009)  /* Fester Other III */
+VALUES (28878,  1091,  2.008)  /* Fire Protection Self III */
      , (28878,   196,  2.009)  /* Exhaustion Other III */
-     , (28878,   246,  2.008)  /* Invulnerability Self III */
-     , (28878,  1091,  2.008)  /* Fire Protection Self III */
-     , (28878,  1173,  2.053)  /* Harm Other III */
      , (28878,  1197,  2.009)  /* Enfeeble Other III */
+     , (28878,  1173,  2.053)  /* Harm Other III */
      , (28878,  1239,      2)  /* Drain Health Other III */
      , (28878,  1262,  2.009)  /* Drain Mana Other III */
-     , (28878,  1309,  2.008)  /* Armor Self III */;
+     , (28878,  1309,  2.008)  /* Armor Self III */
+     , (28878,   173,  2.009)  /* Fester Other III */
+     , (28878,   246,  2.008)  /* Invulnerability Self III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (28878,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -109,25 +109,25 @@ VALUES (30447,  0,  1,  0,    0,  420,  420,  420,  420,  302,  420,  420,  302,
      , (30447, 17,  1,  0,    0,  420,  420,  420,  420,  302,  420,  420,  302,    0, 3,    0,    0,  0.1,    0,    0,  0.1,    0, 0.13, 0.45,    0, 0.13, 0.45) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30447,    85,   2.05)  /* Flame Bolt VI */
-     , (30447,    97,   2.05)  /* Whirling Blade VI */
-     , (30447,   279,   2.05)  /* Magic Resistance Self VI */
-     , (30447,   520,   2.05)  /* Acid Protection Self VI */
-     , (30447,  1023,   2.05)  /* Bludgeoning Protection Self VI */
+VALUES (30447,   520,   2.05)  /* Acid Protection Self VI */
      , (30447,  1094,   2.05)  /* Fire Protection Self VI */
+     , (30447,    85,   2.05)  /* Flame Bolt VI */
+     , (30447,  1161,   2.05)  /* Heal Self VI */
+     , (30447,   279,   2.05)  /* Magic Resistance Self VI */
+     , (30447,  2128,   2.05)  /* Ilservian's Flame */
      , (30447,  1108,   2.05)  /* Fire Vulnerability Other VI */
      , (30447,  1114,   2.05)  /* Blade Protection Self VI */
-     , (30447,  1132,   2.05)  /* Blade Vulnerability Other VI */
-     , (30447,  1138,   2.05)  /* Piercing Protection Self VI */
-     , (30447,  1161,   2.05)  /* Heal Self VI */
      , (30447,  1242,   2.05)  /* Drain Health Other VI */
-     , (30447,  1312,   2.05)  /* Armor Self VI */
-     , (30447,  1327,   2.05)  /* Imperil Other VI */
-     , (30447,  1343,   2.05)  /* Weakness Other VI */
      , (30447,  1372,   2.05)  /* Frailty Other VI */
+     , (30447,  1312,   2.05)  /* Armor Self VI */
+     , (30447,    97,   2.05)  /* Whirling Blade VI */
+     , (30447,  2146,   2.05)  /* Evisceration */
      , (30447,  1444,   2.05)  /* Bafflement Other VI */
-     , (30447,  2128,   2.05)  /* Ilservian's Flame */
-     , (30447,  2146,   2.05)  /* Evisceration */;
+     , (30447,  1132,   2.05)  /* Blade Vulnerability Other VI */
+     , (30447,  1327,   2.05)  /* Imperil Other VI */
+     , (30447,  1138,   2.05)  /* Piercing Protection Self VI */
+     , (30447,  1343,   2.05)  /* Weakness Other VI */
+     , (30447,  1023,   2.05)  /* Bludgeoning Protection Self VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (30447,  94) /* ATTACK_NOTIFICATION_EVENT */

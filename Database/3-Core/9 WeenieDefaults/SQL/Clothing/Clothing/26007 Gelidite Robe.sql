@@ -56,5 +56,5 @@ VALUES (26007,   1,   33554854) /* Setup */
      , (26007,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26007,  1527,      2)  /* Frost Bane V */
-     , (26007,  1551,      2)  /* Flame Bane V */;
+VALUES (26007,  1551,      2)  /* Flame Bane V */
+     , (26007,  1527,      2)  /* Frost Bane V */;

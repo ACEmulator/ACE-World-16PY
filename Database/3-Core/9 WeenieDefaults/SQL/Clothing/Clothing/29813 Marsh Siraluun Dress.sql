@@ -51,5 +51,5 @@ VALUES (29813,   1,   33554854) /* Setup */
      , (29813,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29813,   905,      2)  /* Leadership Mastery Other II */
-     , (29813,   953,      2)  /* Fealty Other II */;
+VALUES (29813,   953,      2)  /* Fealty Other II */
+     , (29813,   905,      2)  /* Leadership Mastery Other II */;

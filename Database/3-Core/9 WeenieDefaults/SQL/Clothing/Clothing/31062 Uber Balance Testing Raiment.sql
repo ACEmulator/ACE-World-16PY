@@ -49,11 +49,11 @@ VALUES (31062,   1,   33554854) /* Setup */
      , (31062,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31062,  2092,      2)  /* Olthoi's Bane */
+VALUES (31062,  2113,      2)  /* Archer's Bane */
+     , (31062,  2108,      2)  /* Brogard's Defiance */
+     , (31062,  2092,      2)  /* Olthoi's Bane */
+     , (31062,  2110,      2)  /* Astyrrian's Bane */
+     , (31062,  2102,      2)  /* Inferno's Bane */
      , (31062,  2094,      2)  /* Swordsman's Bane */
      , (31062,  2098,      2)  /* Tusker's Bane */
-     , (31062,  2102,      2)  /* Inferno's Bane */
-     , (31062,  2104,      2)  /* Gelidite's Bane */
-     , (31062,  2108,      2)  /* Brogard's Defiance */
-     , (31062,  2110,      2)  /* Astyrrian's Bane */
-     , (31062,  2113,      2)  /* Archer's Bane */;
+     , (31062,  2104,      2)  /* Gelidite's Bane */;

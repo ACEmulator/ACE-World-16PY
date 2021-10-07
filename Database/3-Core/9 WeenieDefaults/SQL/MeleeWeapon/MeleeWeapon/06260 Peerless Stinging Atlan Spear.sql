@@ -54,9 +54,9 @@ VALUES (6260,   1,   33556367) /* Setup */
      , (6260,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6260,   518,      2)  /* Acid Protection Self IV */
-     , (6260,  1376,      2)  /* Coordination Self IV */
+VALUES (6260,  1603,      2)  /* Aura of Defender Self IV */
+     , (6260,   518,      2)  /* Acid Protection Self IV */
      , (6260,  1590,      2)  /* Aura of Heart Seeker Self IV */
-     , (6260,  1603,      2)  /* Aura of Defender Self IV */
      , (6260,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (6260,  1376,      2)  /* Coordination Self IV */
      , (6260,  1625,      2)  /* Aura of Swift Killer Self IV */;

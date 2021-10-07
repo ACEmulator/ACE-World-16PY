@@ -56,8 +56,8 @@ VALUES (27300,   1,   33558676) /* Setup */
      , (27300,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27300,  1592,      2)  /* Aura of Heart Seeker Self VI */
-     , (27300,  1605,      2)  /* Aura of Defender Self VI */
+VALUES (27300,  1605,      2)  /* Aura of Defender Self VI */
+     , (27300,  1592,      2)  /* Aura of Heart Seeker Self VI */
      , (27300,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (27300,  1626,      2)  /* Aura of Swift Killer Self V */
-     , (27300,  2598,      2)  /* Minor Blood Thirst */;
+     , (27300,  2598,      2)  /* Minor Blood Thirst */
+     , (27300,  1626,      2)  /* Aura of Swift Killer Self V */;

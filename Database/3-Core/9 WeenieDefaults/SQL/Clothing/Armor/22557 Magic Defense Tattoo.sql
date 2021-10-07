@@ -56,9 +56,9 @@ VALUES (22557,   1,   33554641) /* Setup */
      , (22557,  50,  100673775) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22557,   273,      2)  /* Magic Resistance Other VI */
-     , (22557,  1317,      2)  /* Armor Other VI */
-     , (22557,  1432,      2)  /* Focus Other VI */
-     , (22557,  1456,      2)  /* Willpower Other VI */
+VALUES (22557,  1317,      2)  /* Armor Other VI */
+     , (22557,   273,      2)  /* Magic Resistance Other VI */
      , (22557,  1485,      2)  /* Impenetrability V */
+     , (22557,  1456,      2)  /* Willpower Other VI */
+     , (22557,  1432,      2)  /* Focus Other VI */
      , (22557,  2811,      2)  /* Moderate Magic Resistance */;

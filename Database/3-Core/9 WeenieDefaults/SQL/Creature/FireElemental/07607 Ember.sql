@@ -110,16 +110,16 @@ VALUES (7607,  0, 16,  0,    0,  140,  116,  116,  116,  140, 14000,  120,  104,
      , (7607,  8, 16, 25, 0.75,  140,  116,  116,  116,  140, 14000,  120,  104,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7607,    83,   2.08)  /* Flame Bolt IV */
-     , (7607,   277,      2)  /* Magic Resistance Self IV */
+VALUES (7607,  1159,      2)  /* Heal Self IV */
+     , (7607,    83,   2.08)  /* Flame Bolt IV */
      , (7607,  1033,      2)  /* Cold Protection Self IV */
+     , (7607,  1442,   2.03)  /* Bafflement Other IV */
+     , (7607,  1418,   2.03)  /* Slowness Other IV */
      , (7607,  1106,   2.03)  /* Fire Vulnerability Other IV */
-     , (7607,  1159,      2)  /* Heal Self IV */
+     , (7607,   277,      2)  /* Magic Resistance Self IV */
      , (7607,  1240,      2)  /* Drain Health Other IV */
      , (7607,  1310,      2)  /* Armor Self IV */
-     , (7607,  1325,   2.03)  /* Imperil Other IV */
-     , (7607,  1418,   2.03)  /* Slowness Other IV */
-     , (7607,  1442,   2.03)  /* Bafflement Other IV */;
+     , (7607,  1325,   2.03)  /* Imperil Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (7607,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -56,6 +56,6 @@ VALUES (27652,   1,   33558742) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27652,  2086,      2)  /* Might of the 5 Mules */
-     , (27652,  2280,      2)  /* Web of Resistance */
      , (27652,  2663,      2)  /* Moderate Strength */
+     , (27652,  2280,      2)  /* Web of Resistance */
      , (27652,  2811,      2)  /* Moderate Magic Resistance */;

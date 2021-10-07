@@ -53,13 +53,13 @@ VALUES (9090,   1,   33554856) /* Setup */
      , (9090,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9090,  1337,      2)  /* Strength Other VI */
+VALUES (9090,  2355,      2)  /* Lesser Slashing Durance */
+     , (9090,  2379,      2)  /* Beast Whisper */
+     , (9090,  1337,      2)  /* Strength Other VI */
      , (9090,  2349,      2)  /* Hieromancer's Ward */
      , (9090,  2350,      2)  /* Greater Decay Durance */
      , (9090,  2351,      2)  /* Greater Consumption Durance */
      , (9090,  2352,      2)  /* Greater Stasis Durance */
      , (9090,  2353,      2)  /* Greater Stimulation Durance */
      , (9090,  2354,      2)  /* Lesser Piercing Durance */
-     , (9090,  2355,      2)  /* Lesser Slashing Durance */
-     , (9090,  2356,      2)  /* Lesser Bludgeoning Durance */
-     , (9090,  2379,      2)  /* Beast Whisper */;
+     , (9090,  2356,      2)  /* Lesser Bludgeoning Durance */;

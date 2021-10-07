@@ -128,26 +128,26 @@ VALUES (30688,  0,  4,  0,    0,  200,  200,  200,  200,  200,  200,  200,  200,
      , (30688,  8,  4, 55, 0.75,  200,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30688,    63,  2.015)  /* Acid Stream VI */
+VALUES (30688,    85,  2.015)  /* Flame Bolt VI */
+     , (30688,  1161,  2.009)  /* Heal Self VI */
      , (30688,    69,  2.015)  /* Shock Wave VI */
+     , (30688,   146,  2.015)  /* Flame Volley VI */
+     , (30688,   138,  2.015)  /* Frost Volley VI */
      , (30688,    74,  2.015)  /* Frost Bolt VI */
+     , (30688,   267,  2.012)  /* Defenselessness Other VI */
+     , (30688,   142,  2.015)  /* Lightning Volley VI */
      , (30688,    80,  2.015)  /* Lightning Bolt VI */
-     , (30688,    85,  2.015)  /* Flame Bolt VI */
+     , (30688,  1176,  2.012)  /* Harm Other VI */
+     , (30688,   154,  2.015)  /* Blade Volley VI */
      , (30688,    91,  2.015)  /* Force Bolt VI */
+     , (30688,   285,  2.012)  /* Magic Yield Other VI */
      , (30688,    97,  2.015)  /* Whirling Blade VI */
      , (30688,   106,  2.015)  /* Shock Blast VI */
-     , (30688,   138,  2.015)  /* Frost Volley VI */
-     , (30688,   142,  2.015)  /* Lightning Volley VI */
-     , (30688,   146,  2.015)  /* Flame Volley VI */
-     , (30688,   154,  2.015)  /* Blade Volley VI */
      , (30688,   234,  2.012)  /* Vulnerability Other VI */
-     , (30688,   267,  2.012)  /* Defenselessness Other VI */
-     , (30688,   285,  2.012)  /* Magic Yield Other VI */
-     , (30688,  1161,  2.009)  /* Heal Self VI */
-     , (30688,  1176,  2.012)  /* Harm Other VI */
      , (30688,  1200,  2.012)  /* Enfeeble Other VI */
      , (30688,  1265,  2.012)  /* Drain Mana Other VI */
-     , (30688,  1468,  2.012)  /* Feeblemind Other VI */;
+     , (30688,  1468,  2.012)  /* Feeblemind Other VI */
+     , (30688,    63,  2.015)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (30688,  94) /* ATTACK_NOTIFICATION_EVENT */

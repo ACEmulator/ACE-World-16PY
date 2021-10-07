@@ -52,5 +52,5 @@ VALUES (6063,   1,   33554854) /* Setup */
      , (6063,  37,         31) /* ItemSkillLimit - CreatureEnchantment */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6063,   563,      2)  /* Creature Enchantment Mastery Other I */
-     , (6063,  1451,      2)  /* Willpower Other I */;
+VALUES (6063,  1451,      2)  /* Willpower Other I */
+     , (6063,   563,      2)  /* Creature Enchantment Mastery Other I */;

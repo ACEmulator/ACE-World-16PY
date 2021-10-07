@@ -117,34 +117,34 @@ VALUES (24856,  0,  4,  0,    0,  450,  450,  450,  450, 45000, 45000, 45000, 45
      , (24856,  8,  4, 190, 0.75,  450,  450,  450,  450, 45000, 45000, 45000, 45000,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24856,  1783,   2.02)  /* Searing Disc */
-     , (24856,  1785,   2.02)  /* Cassius' Ring of Fire */
-     , (24856,  1787,   2.02)  /* Halo of Frost */
-     , (24856,  1788,   2.02)  /* Eye of the Storm */
+VALUES (24856,  2700,   2.02)  /* Corrosive Cloud */
      , (24856,  2054,   2.02)  /* Synaptic Misfire */
      , (24856,  2056,   2.02)  /* Ataxia */
-     , (24856,  2064,   2.02)  /* Self Loathing */
-     , (24856,  2088,   2.02)  /* Senescence */
      , (24856,  2122,   2.02)  /* Disintegration */
-     , (24856,  2128,   2.02)  /* Ilservian's Flame */
-     , (24856,  2136,   2.02)  /* Icy Torment */
-     , (24856,  2140,   2.02)  /* Alset's Coil */
-     , (24856,  2162,   2.02)  /* Olthoi's Gift */
-     , (24856,  2168,   2.02)  /* Gelidite's Gift */
-     , (24856,  2170,   2.02)  /* Inferno's Gift */
-     , (24856,  2172,   2.02)  /* Astyrrian's Gift */
-     , (24856,  2282,   2.02)  /* Futility */
      , (24856,  2318,   2.02)  /* Gravity Well */
      , (24856,  2699,   2.02)  /* Auroric Whip */
-     , (24856,  2700,   2.02)  /* Corrosive Cloud */
      , (24856,  2701,   2.02)  /* Elemental Fury */
      , (24856,  2702,   2.02)  /* Elemental Fury */
      , (24856,  2703,   2.02)  /* Elemental Fury */
      , (24856,  2704,   2.02)  /* Elemental Fury */
+     , (24856,  2128,   2.02)  /* Ilservian's Flame */
+     , (24856,  2064,   2.02)  /* Self Loathing */
      , (24856,  2708,   2.02)  /* Stasis Field */
      , (24856,  2710,   2.02)  /* Volcanic Blast */
+     , (24856,  2136,   2.02)  /* Icy Torment */
+     , (24856,  2790,   2.02)  /* Weight of the World */
+     , (24856,  2140,   2.02)  /* Alset's Coil */
      , (24856,  2788,   2.01)  /* Essence Blight */
-     , (24856,  2790,   2.02)  /* Weight of the World */;
+     , (24856,  2088,   2.02)  /* Senescence */
+     , (24856,  2282,   2.02)  /* Futility */
+     , (24856,  2162,   2.02)  /* Olthoi's Gift */
+     , (24856,  1783,   2.02)  /* Searing Disc */
+     , (24856,  2168,   2.02)  /* Gelidite's Gift */
+     , (24856,  1785,   2.02)  /* Cassius' Ring of Fire */
+     , (24856,  2170,   2.02)  /* Inferno's Gift */
+     , (24856,  1787,   2.02)  /* Halo of Frost */
+     , (24856,  1788,   2.02)  /* Eye of the Storm */
+     , (24856,  2172,   2.02)  /* Astyrrian's Gift */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (24856,  94) /* ATTACK_NOTIFICATION_EVENT */

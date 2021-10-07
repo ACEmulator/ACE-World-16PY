@@ -40,9 +40,8 @@ VALUES (29953,   1,   33554683) /* Setup */
      , (29953,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29953,  2686,      2)  /* Moderate Light Weapon Aptitude */
-     , (29953,  2687,      2)  /* Moderate Missile Weapon Aptitude */
-     , (29953,  2688,      2)  /* Moderate Missile Weapon Aptitude */
+VALUES (29953,  2688,      2)  /* Moderate Missile Weapon Aptitude */
+     , (29953,  2946,      2)  /* Moderate Creature Magic Aptitude */
      , (29953,  2689,      2)  /* Moderate Finesse Weapon Aptitude */
      , (29953,  2690,      2)  /* Moderate Light Weapon Aptitude */
      , (29953,  2691,      2)  /* Moderate Mana Conversion Prowess */
@@ -51,11 +50,12 @@ VALUES (29953,  2686,      2)  /* Moderate Light Weapon Aptitude */
      , (29953,  2694,      2)  /* Moderate Heavy Weapon Aptitude */
      , (29953,  2695,      2)  /* Moderate Missile Weapon Aptitude */
      , (29953,  2696,      2)  /* Moderate Light Weapon Aptitude */
+     , (29953,  2975,      2)  /* Moderate Item Enchantment Aptitude */
+     , (29953,  2937,      2)  /* Moderate Impregnability */
      , (29953,  2809,      2)  /* Moderate Arcane Prowess */
      , (29953,  2810,      2)  /* Moderate Life Magic Aptitude */
+     , (29953,  2938,      2)  /* Moderate Invulnerability */
      , (29953,  2811,      2)  /* Moderate Magic Resistance */
      , (29953,  2812,      2)  /* Moderate War Magic Aptitude */
-     , (29953,  2937,      2)  /* Moderate Impregnability */
-     , (29953,  2938,      2)  /* Moderate Invulnerability */
-     , (29953,  2946,      2)  /* Moderate Creature Magic Aptitude */
-     , (29953,  2975,      2)  /* Moderate Item Enchantment Aptitude */;
+     , (29953,  2686,      2)  /* Moderate Light Weapon Aptitude */
+     , (29953,  2687,      2)  /* Moderate Missile Weapon Aptitude */;

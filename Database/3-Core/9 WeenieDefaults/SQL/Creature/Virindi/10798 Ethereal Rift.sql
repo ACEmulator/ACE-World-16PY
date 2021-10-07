@@ -113,12 +113,12 @@ VALUES (10798,  0, 64, 25, 0.75,  400,  400,  400,  400,  476,  400, 1112,  400,
      , (10798, 22, 64, 25, 0.75,  400,  400,  400,  400,  476,  400, 1112,  400,    0, 2,    0,    0,    0,    0,    0,    0,  0.1,  0.1,    0,  0.1,  0.1,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10798,    78,  2.115)  /* Lightning Bolt IV */
-     , (10798,   518,  2.115)  /* Acid Protection Self IV */
+VALUES (10798,  1092,  2.115)  /* Fire Protection Self IV */
      , (10798,  1021,  2.115)  /* Bludgeoning Protection Self IV */
-     , (10798,  1092,  2.115)  /* Fire Protection Self IV */
+     , (10798,  1136,  2.115)  /* Piercing Protection Self IV */
      , (10798,  1112,  2.115)  /* Blade Protection Self IV */
-     , (10798,  1136,  2.115)  /* Piercing Protection Self IV */;
+     , (10798,   518,  2.115)  /* Acid Protection Self IV */
+     , (10798,    78,  2.115)  /* Lightning Bolt IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (10798,  94) /* ATTACK_NOTIFICATION_EVENT */

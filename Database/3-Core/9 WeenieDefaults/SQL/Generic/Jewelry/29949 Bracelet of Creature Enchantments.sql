@@ -40,15 +40,8 @@ VALUES (29949,   1,   33554683) /* Setup */
      , (29949,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29949,  2659,      2)  /* Moderate Coordination */
-     , (29949,  2660,      2)  /* Moderate Endurance */
-     , (29949,  2661,      2)  /* Moderate Focus */
-     , (29949,  2662,      2)  /* Moderate Quickness */
-     , (29949,  2663,      2)  /* Moderate Strength */
-     , (29949,  2664,      2)  /* Moderate Willpower */
-     , (29949,  2686,      2)  /* Moderate Light Weapon Aptitude */
-     , (29949,  2687,      2)  /* Moderate Missile Weapon Aptitude */
-     , (29949,  2688,      2)  /* Moderate Missile Weapon Aptitude */
+VALUES (29949,  2688,      2)  /* Moderate Missile Weapon Aptitude */
+     , (29949,  2946,      2)  /* Moderate Creature Magic Aptitude */
      , (29949,  2689,      2)  /* Moderate Finesse Weapon Aptitude */
      , (29949,  2690,      2)  /* Moderate Light Weapon Aptitude */
      , (29949,  2691,      2)  /* Moderate Mana Conversion Prowess */
@@ -57,11 +50,18 @@ VALUES (29949,  2659,      2)  /* Moderate Coordination */
      , (29949,  2694,      2)  /* Moderate Heavy Weapon Aptitude */
      , (29949,  2695,      2)  /* Moderate Missile Weapon Aptitude */
      , (29949,  2696,      2)  /* Moderate Light Weapon Aptitude */
+     , (29949,  2975,      2)  /* Moderate Item Enchantment Aptitude */
+     , (29949,  2659,      2)  /* Moderate Coordination */
+     , (29949,  2660,      2)  /* Moderate Endurance */
+     , (29949,  2661,      2)  /* Moderate Focus */
+     , (29949,  2662,      2)  /* Moderate Quickness */
+     , (29949,  2663,      2)  /* Moderate Strength */
+     , (29949,  2664,      2)  /* Moderate Willpower */
+     , (29949,  2937,      2)  /* Moderate Impregnability */
      , (29949,  2809,      2)  /* Moderate Arcane Prowess */
      , (29949,  2810,      2)  /* Moderate Life Magic Aptitude */
+     , (29949,  2938,      2)  /* Moderate Invulnerability */
      , (29949,  2811,      2)  /* Moderate Magic Resistance */
      , (29949,  2812,      2)  /* Moderate War Magic Aptitude */
-     , (29949,  2937,      2)  /* Moderate Impregnability */
-     , (29949,  2938,      2)  /* Moderate Invulnerability */
-     , (29949,  2946,      2)  /* Moderate Creature Magic Aptitude */
-     , (29949,  2975,      2)  /* Moderate Item Enchantment Aptitude */;
+     , (29949,  2686,      2)  /* Moderate Light Weapon Aptitude */
+     , (29949,  2687,      2)  /* Moderate Missile Weapon Aptitude */;

@@ -59,8 +59,8 @@ VALUES (27181,   1,   33558636) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27181,  1028,      2)  /* Bludgeoning Protection Other V */
-     , (27181,  1383,      2)  /* Coordination Other V */
      , (27181,  1604,      2)  /* Aura of Defender Self V */
+     , (27181,  2565,      2)  /* Minor Light Weapon Aptitude */
      , (27181,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (27181,  1626,      2)  /* Aura of Swift Killer Self V */
-     , (27181,  2565,      2)  /* Minor Light Weapon Aptitude */;
+     , (27181,  1383,      2)  /* Coordination Other V */
+     , (27181,  1626,      2)  /* Aura of Swift Killer Self V */;

@@ -110,15 +110,15 @@ VALUES (23616,  0,  4, 50, 0.75,  250,  250,  250,  250,  250,  300,  270, 25000
      , (23616, 17,  4, 50, 0.75,  250,  250,  250,  250,  250,  300,  270, 25000,    0, 2,    0,    0,    0,    0,    0,    0,  0.1,  0.1,    0,  0.1,  0.1,    0) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23616,   169,  2.083)  /* Regeneration Self V */
-     , (23616,   525,  2.083)  /* Acid Vulnerability Other V */
-     , (23616,  1064,  2.083)  /* Cold Vulnerability Other V */
-     , (23616,  1088,  2.083)  /* Lightning Vulnerability Other V */
-     , (23616,  1107,  2.083)  /* Fire Vulnerability Other V */
+VALUES (23616,  1064,  2.083)  /* Cold Vulnerability Other V */
      , (23616,  1160,  2.083)  /* Heal Self V */
+     , (23616,  1088,  2.083)  /* Lightning Vulnerability Other V */
+     , (23616,   525,  2.083)  /* Acid Vulnerability Other V */
+     , (23616,  1107,  2.083)  /* Fire Vulnerability Other V */
      , (23616,  1241,  2.083)  /* Drain Health Other V */
-     , (23616,  1395,  2.083)  /* Clumsiness Other V */
-     , (23616,  1467,  2.083)  /* Feeblemind Other V */;
+     , (23616,   169,  2.083)  /* Regeneration Self V */
+     , (23616,  1467,  2.083)  /* Feeblemind Other V */
+     , (23616,  1395,  2.083)  /* Clumsiness Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (23616,  94) /* ATTACK_NOTIFICATION_EVENT */

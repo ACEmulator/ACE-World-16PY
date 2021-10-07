@@ -54,9 +54,9 @@ VALUES (7461,   1,   33557395) /* Setup */
      , (7461,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7461,   375,      2)  /* Light Weapon Mastery Self VI */
-     , (7461,  1592,      2)  /* Aura of Heart Seeker Self VI */
+VALUES (7461,  1846,      2)  /* Curse of Black Fire */
      , (7461,  1605,      2)  /* Aura of Defender Self VI */
+     , (7461,  1592,      2)  /* Aura of Heart Seeker Self VI */
      , (7461,  1616,      2)  /* Aura of Blood Drinker Self VI */
      , (7461,  1627,      2)  /* Aura of Swift Killer Self VI */
-     , (7461,  1846,      2)  /* Curse of Black Fire */;
+     , (7461,   375,      2)  /* Light Weapon Mastery Self VI */;

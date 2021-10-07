@@ -107,17 +107,17 @@ VALUES (25888,  0,  2, 140,  0.5,  450,  630,  360,  675,  270,  428,  338,  293
      , (25888, 21,  4,  0,    0,  450,  630,  360,  675,  270,  428,  338,  293,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25888,    69,   2.03)  /* Shock Wave VI */
-     , (25888,    85,   2.03)  /* Flame Bolt VI */
-     , (25888,    91,   2.03)  /* Force Bolt VI */
-     , (25888,    97,   2.03)  /* Whirling Blade VI */
-     , (25888,   285,   2.02)  /* Magic Yield Other VI */
+VALUES (25888,    85,   2.03)  /* Flame Bolt VI */
      , (25888,  1161,   2.03)  /* Heal Self VI */
+     , (25888,    69,   2.03)  /* Shock Wave VI */
+     , (25888,  1372,   2.02)  /* Frailty Other VI */
+     , (25888,  1420,   2.02)  /* Slowness Other VI */
      , (25888,  1176,   2.01)  /* Harm Other VI */
      , (25888,  1242,      2)  /* Drain Health Other VI */
-     , (25888,  1265,   2.01)  /* Drain Mana Other VI */
-     , (25888,  1372,   2.02)  /* Frailty Other VI */
-     , (25888,  1420,   2.02)  /* Slowness Other VI */;
+     , (25888,   285,   2.02)  /* Magic Yield Other VI */
+     , (25888,    91,   2.03)  /* Force Bolt VI */
+     , (25888,    97,   2.03)  /* Whirling Blade VI */
+     , (25888,  1265,   2.01)  /* Drain Mana Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (25888,  94) /* ATTACK_NOTIFICATION_EVENT */

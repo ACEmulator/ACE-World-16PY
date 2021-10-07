@@ -109,24 +109,24 @@ VALUES (4991,  0,  4,  0,    0,  110,   88,   46,   68, 11000,   55,   68,   77,
      , (4991,  8,  4,  3, 0.75,  130,  104,   55,   81, 13000,   65,   81,   91,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (4991,    71,  2.005)  /* Frost Bolt III */
+VALUES (4991,   136,  2.005)  /* Frost Volley IV */
      , (4991,    72,  2.005)  /* Frost Bolt IV */
+     , (4991,  1092,   2.01)  /* Fire Protection Self IV */
+     , (4991,  1239,   2.01)  /* Drain Health Other III */
+     , (4991,  1352,   2.01)  /* Endurance Self IV */
+     , (4991,  1159,   2.02)  /* Heal Self IV */
+     , (4991,  1051,   2.02)  /* Bludgeoning Vulnerability Other IV */
+     , (4991,   135,  2.005)  /* Frost Volley III */
+     , (4991,    71,  2.005)  /* Frost Bolt III */
+     , (4991,  1180,   2.01)  /* Revitalize Self IV */
+     , (4991,  1310,   2.01)  /* Armor Self IV */
+     , (4991,  1376,   2.01)  /* Coordination Self IV */
+     , (4991,  1251,   2.01)  /* Drain Stamina Other III */
      , (4991,   107,  2.005)  /* Frost Blast III */
      , (4991,   108,  2.005)  /* Frost Blast IV */
-     , (4991,   135,  2.005)  /* Frost Volley III */
-     , (4991,   136,  2.005)  /* Frost Volley IV */
      , (4991,   301,   2.02)  /* Light Weapon Mastery Self IV */
-     , (4991,  1051,   2.02)  /* Bludgeoning Vulnerability Other IV */
-     , (4991,  1092,   2.01)  /* Fire Protection Self IV */
-     , (4991,  1159,   2.02)  /* Heal Self IV */
-     , (4991,  1180,   2.01)  /* Revitalize Self IV */
-     , (4991,  1239,   2.01)  /* Drain Health Other III */
-     , (4991,  1251,   2.01)  /* Drain Stamina Other III */
      , (4991,  1262,   2.01)  /* Drain Mana Other III */
-     , (4991,  1310,   2.01)  /* Armor Self IV */
      , (4991,  1330,   2.01)  /* Strength Self IV */
-     , (4991,  1352,   2.01)  /* Endurance Self IV */
-     , (4991,  1376,   2.01)  /* Coordination Self IV */
      , (4991,  1400,   2.01)  /* Quickness Self IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

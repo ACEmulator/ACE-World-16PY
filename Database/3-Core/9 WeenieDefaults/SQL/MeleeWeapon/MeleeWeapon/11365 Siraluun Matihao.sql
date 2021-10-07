@@ -55,6 +55,6 @@ VALUES (11365,   1,   33557229) /* Setup */
      , (11365,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11365,   440,      2)  /* Light Weapon Mastery Other IV */
-     , (11365,  1405,      2)  /* Quickness Other III */
-     , (11365,  1614,      2)  /* Aura of Blood Drinker Self IV */;
+VALUES (11365,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (11365,   440,      2)  /* Light Weapon Mastery Other IV */
+     , (11365,  1405,      2)  /* Quickness Other III */;

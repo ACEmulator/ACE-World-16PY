@@ -61,12 +61,12 @@ VALUES (11440,   1,   33557237) /* Setup */
      , (11440,  36,  234881044) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11440,  2438,      2)  /* Lesser Rockslide */
+VALUES (11440,  2454,      2)  /* Thorns */
+     , (11440,  2438,      2)  /* Lesser Rockslide */
      , (11440,  2441,      2)  /* Lesser Stone Cliffs */
+     , (11440,  2468,      2)  /* Lesser Cascade */
      , (11440,  2444,      2)  /* Lesser Strength of Earth */
      , (11440,  2448,      2)  /* Growth */
      , (11440,  2451,      2)  /* Hunter's Acumen */
-     , (11440,  2454,      2)  /* Thorns */
-     , (11440,  2468,      2)  /* Lesser Cascade */
      , (11440,  2471,      2)  /* Lesser Still Water */
      , (11440,  2474,      2)  /* Lesser Torrent */;

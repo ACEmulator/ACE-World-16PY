@@ -53,6 +53,6 @@ VALUES (7441,   1,   33555927) /* Setup */
      , (7441,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7441,  1406,      2)  /* Quickness Other IV */
-     , (7441,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (7441,  1625,      2)  /* Aura of Swift Killer Self IV */;
+VALUES (7441,  1615,      2)  /* Aura of Blood Drinker Self V */
+     , (7441,  1625,      2)  /* Aura of Swift Killer Self IV */
+     , (7441,  1406,      2)  /* Quickness Other IV */;

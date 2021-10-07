@@ -116,20 +116,20 @@ VALUES (30897,  0,  2, 30, 0.75,  700,  735,  700,  665,  665,  840,  840,  665,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30897,  1556,  2.005)  /* Blade Lure V */
-     , (30897,  1610,  2.005)  /* Lure Blade V */
      , (30897,  1620,  2.005)  /* Blood Loather V */
-     , (30897,  1632,  2.005)  /* Leaden Weapon V */
      , (30897,  2074,   2.03)  /* Gossamer Flesh */
      , (30897,  2122,   2.04)  /* Disintegration */
-     , (30897,  2128,   2.04)  /* Ilservian's Flame */
-     , (30897,  2162,   2.02)  /* Olthoi's Gift */
-     , (30897,  2170,   2.02)  /* Inferno's Gift */
-     , (30897,  2212,   2.01)  /* Wrath of Adja */
-     , (30897,  2264,   2.01)  /* Wrath of Harlune */
+     , (30897,  1610,  2.005)  /* Lure Blade V */
      , (30897,  2318,   2.02)  /* Gravity Well */
      , (30897,  2320,   2.01)  /* Wrath of the Hieromancer */
+     , (30897,  2264,   2.01)  /* Wrath of Harlune */
+     , (30897,  2128,   2.04)  /* Ilservian's Flame */
      , (30897,  2717,   2.04)  /* Acid Arc VII */
-     , (30897,  2745,   2.04)  /* Flame Arc VII */;
+     , (30897,  1632,  2.005)  /* Leaden Weapon V */
+     , (30897,  2212,   2.01)  /* Wrath of Adja */
+     , (30897,  2162,   2.02)  /* Olthoi's Gift */
+     , (30897,  2745,   2.04)  /* Flame Arc VII */
+     , (30897,  2170,   2.02)  /* Inferno's Gift */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (30897,  94) /* ATTACK_NOTIFICATION_EVENT */

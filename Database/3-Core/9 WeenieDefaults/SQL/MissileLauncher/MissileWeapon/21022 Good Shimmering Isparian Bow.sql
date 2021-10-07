@@ -61,7 +61,7 @@ VALUES (21022,   1,   33557729) /* Setup */
      , (21022,  37,          2) /* ItemSkillLimit - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21022,  1312,      2)  /* Armor Self VI */
-     , (21022,  1603,      2)  /* Aura of Defender Self IV */
+VALUES (21022,  1603,      2)  /* Aura of Defender Self IV */
      , (21022,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (21022,  1312,      2)  /* Armor Self VI */
      , (21022,  2676,      2)  /* Feeble Missile Weapon Aptitude */;

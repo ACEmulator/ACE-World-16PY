@@ -53,8 +53,8 @@ VALUES (30705,   1,   33554641) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30705,   209,      2)  /* Mana Renewal Other IV */
-     , (30705,  1137,      2)  /* Piercing Protection Self V */
      , (30705,  1425,      2)  /* Focus Self V */
      , (30705,  1448,      2)  /* Willpower Self IV */
      , (30705,  2581,      2)  /* Minor Focus */
-     , (30705,  2584,      2)  /* Minor Willpower */;
+     , (30705,  2584,      2)  /* Minor Willpower */
+     , (30705,  1137,      2)  /* Piercing Protection Self V */;

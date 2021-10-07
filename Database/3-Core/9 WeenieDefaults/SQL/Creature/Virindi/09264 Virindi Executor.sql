@@ -109,23 +109,23 @@ VALUES (9264,  0,  1,  0,    0,  800,  800,  800,  800,  576,  800,  800,  576, 
      , (9264, 17,  1,  0,    0,  800,  800,  800,  800,  576,  800,  800,  576,    0, 3,    0,    0,  0.1,    0,    0,  0.1,    0, 0.13, 0.45,    0, 0.13, 0.45) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9264,    84,  2.055)  /* Flame Bolt V */
-     , (9264,    96,  2.055)  /* Whirling Blade V */
-     , (9264,   278,      2)  /* Magic Resistance Self V */
+VALUES (9264,  1342,   2.04)  /* Weakness Other V */
      , (9264,   519,      2)  /* Acid Protection Self V */
-     , (9264,  1022,      2)  /* Bludgeoning Protection Self V */
      , (9264,  1093,      2)  /* Fire Protection Self V */
+     , (9264,    84,  2.055)  /* Flame Bolt V */
+     , (9264,  1160,      2)  /* Heal Self V */
      , (9264,  1107,   2.04)  /* Fire Vulnerability Other V */
      , (9264,  1113,      2)  /* Blade Protection Self V */
-     , (9264,  1131,   2.04)  /* Blade Vulnerability Other V */
-     , (9264,  1137,      2)  /* Piercing Protection Self V */
-     , (9264,  1160,      2)  /* Heal Self V */
      , (9264,  1241,      2)  /* Drain Health Other V */
-     , (9264,  1311,      2)  /* Armor Self V */
-     , (9264,  1326,   2.04)  /* Imperil Other V */
-     , (9264,  1342,   2.04)  /* Weakness Other V */
+     , (9264,   278,      2)  /* Magic Resistance Self V */
+     , (9264,    96,  2.055)  /* Whirling Blade V */
      , (9264,  1371,   2.04)  /* Frailty Other V */
-     , (9264,  1443,   2.04)  /* Bafflement Other V */;
+     , (9264,  1311,      2)  /* Armor Self V */
+     , (9264,  1443,   2.04)  /* Bafflement Other V */
+     , (9264,  1131,   2.04)  /* Blade Vulnerability Other V */
+     , (9264,  1326,   2.04)  /* Imperil Other V */
+     , (9264,  1137,      2)  /* Piercing Protection Self V */
+     , (9264,  1022,      2)  /* Bludgeoning Protection Self V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (9264,  94) /* ATTACK_NOTIFICATION_EVENT */

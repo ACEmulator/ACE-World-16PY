@@ -140,42 +140,42 @@ VALUES (8503,  0,  4,  0,    0, 9000, 18000, 18000, 18000, 18000, 18000, 18000, 
      , (8503,  8,  4, 45, 0.75, 9000, 18000, 18000, 18000, 18000, 18000, 18000, 18000,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8503,   170,      2)  /* Regeneration Self VI */
-     , (8503,   176,      2)  /* Fester Other VI */
-     , (8503,   199,      2)  /* Exhaustion Other VI */
+VALUES (8503,  2037,      2)  /* Flaming Irruption */
+     , (8503,  2048,      2)  /* Boon of the Demon */
      , (8503,   279,      2)  /* Magic Resistance Self VI */
-     , (8503,   520,      2)  /* Acid Protection Self VI */
-     , (8503,  1023,      2)  /* Bludgeoning Protection Self VI */
-     , (8503,  1035,      2)  /* Cold Protection Self VI */
-     , (8503,  1071,      2)  /* Lightning Protection Self VI */
-     , (8503,  1094,      2)  /* Fire Protection Self VI */
-     , (8503,  1114,      2)  /* Blade Protection Self VI */
-     , (8503,  1138,      2)  /* Piercing Protection Self VI */
-     , (8503,  1242,      2)  /* Drain Health Other VI */
-     , (8503,  1254,      2)  /* Drain Stamina Other VI */
-     , (8503,  1265,      2)  /* Drain Mana Other VI */
-     , (8503,  1312,      2)  /* Armor Self VI */
-     , (8503,  1819,      2)  /* Lightning Streak VI */
      , (8503,  1877,      2)  /* Nullify All Magic Other */
+     , (8503,  2049,      2)  /* Bile of the Hopeslayer */
+     , (8503,   520,      2)  /* Acid Protection Self VI */
+     , (8503,   170,      2)  /* Regeneration Self VI */
+     , (8503,  1819,      2)  /* Lightning Streak VI */
+     , (8503,  1094,      2)  /* Fire Protection Self VI */
      , (8503,  1878,      2)  /* Nullify All Magic Other */
+     , (8503,  1035,      2)  /* Cold Protection Self VI */
+     , (8503,  2046,      2)  /* Portal to Teth */
+     , (8503,   199,      2)  /* Exhaustion Other VI */
      , (8503,  1882,      2)  /* Nullify All Magic Self */
+     , (8503,  2047,      2)  /* Demonskin */
+     , (8503,  1242,      2)  /* Drain Health Other VI */
+     , (8503,  1114,      2)  /* Blade Protection Self VI */
+     , (8503,  1312,      2)  /* Armor Self VI */
      , (8503,  2018,      2)  /* Tormenter of Flesh */
+     , (8503,  2043,      2)  /* Weight of Eternity */
+     , (8503,  1254,      2)  /* Drain Stamina Other VI */
      , (8503,  2030,      2)  /* Flaming Blaze */
+     , (8503,  1071,      2)  /* Lightning Protection Self VI */
      , (8503,  2031,      2)  /* Steel Thorns */
+     , (8503,  2045,      2)  /* Demon Fists */
+     , (8503,   176,      2)  /* Fester Other VI */
      , (8503,  2032,      2)  /* Electric Blaze */
+     , (8503,  1265,      2)  /* Drain Mana Other VI */
      , (8503,  2033,      2)  /* Acidic Spray */
+     , (8503,  1138,      2)  /* Piercing Protection Self VI */
      , (8503,  2035,      2)  /* Electric Discharge */
      , (8503,  2036,      2)  /* Fuming Acid */
-     , (8503,  2037,      2)  /* Flaming Irruption */
      , (8503,  2039,      2)  /* Sparking Fury */
      , (8503,  2042,      2)  /* Demon's Tongues */
-     , (8503,  2043,      2)  /* Weight of Eternity */
      , (8503,  2044,      2)  /* Item Befoulment */
-     , (8503,  2045,      2)  /* Demon Fists */
-     , (8503,  2046,      2)  /* Portal to Teth */
-     , (8503,  2047,      2)  /* Demonskin */
-     , (8503,  2048,      2)  /* Boon of the Demon */
-     , (8503,  2049,      2)  /* Bile of the Hopeslayer */;
+     , (8503,  1023,      2)  /* Bludgeoning Protection Self VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (8503, 414) /* PLAYER_DEATH_EVENT */;

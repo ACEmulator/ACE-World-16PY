@@ -113,10 +113,10 @@ VALUES (198,  0,  4,  0,    0,   75,   34,   34,   60,   25,   69,   38,   34,  
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (198,    65,   2.06)  /* Shock Wave II */
-     , (198,    93,   2.06)  /* Whirling Blade II */
-     , (198,   230,  2.013)  /* Vulnerability Other II */
      , (198,  1392,  2.013)  /* Clumsiness Other II */
-     , (198,  1416,  2.013)  /* Slowness Other II */;
+     , (198,  1416,  2.013)  /* Slowness Other II */
+     , (198,    93,   2.06)  /* Whirling Blade II */
+     , (198,   230,  2.013)  /* Vulnerability Other II */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (198,  94) /* ATTACK_NOTIFICATION_EVENT */

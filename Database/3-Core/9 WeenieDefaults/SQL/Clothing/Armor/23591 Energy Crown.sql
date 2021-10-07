@@ -54,6 +54,6 @@ VALUES (23591,   1,   33557336) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23591,   191,      2)  /* Rejuvenation Self IV */
+     , (23591,  1484,      2)  /* Impenetrability IV */
      , (23591,   277,      2)  /* Magic Resistance Self IV */
-     , (23591,  1069,      2)  /* Lightning Protection Self IV */
-     , (23591,  1484,      2)  /* Impenetrability IV */;
+     , (23591,  1069,      2)  /* Lightning Protection Self IV */;

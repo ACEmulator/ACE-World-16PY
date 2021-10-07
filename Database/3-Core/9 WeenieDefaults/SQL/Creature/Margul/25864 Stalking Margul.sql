@@ -110,17 +110,17 @@ VALUES (25864,  0,  2, 120, 0.75,  500,  525,  500,  475,  475,  600,  600,  475
      , (25864, 22, 64, 100,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25864,    72,   2.04)  /* Frost Bolt IV */
-     , (25864,   572,   2.01)  /* Creature Enchantment Ineptitude Other IV */
-     , (25864,   626,   2.01)  /* Life Magic Ineptitude Other IV */
+VALUES (25864,   626,   2.01)  /* Life Magic Ineptitude Other IV */
+     , (25864,  1630,  2.005)  /* Leaden Weapon III */
      , (25864,   650,   2.01)  /* War Magic Ineptitude Other IV */
+     , (25864,    72,   2.04)  /* Frost Bolt IV */
+     , (25864,  1608,  2.005)  /* Lure Blade III */
      , (25864,  1327,   2.03)  /* Imperil Other VI */
      , (25864,  1554,  2.005)  /* Blade Lure III */
-     , (25864,  1608,  2.005)  /* Lure Blade III */
      , (25864,  1618,  2.005)  /* Blood Loather III */
-     , (25864,  1630,  2.005)  /* Leaden Weapon III */
+     , (25864,  2728,   2.04)  /* Frost Arc IV */
      , (25864,  2168,   2.02)  /* Gelidite's Gift */
-     , (25864,  2728,   2.04)  /* Frost Arc IV */;
+     , (25864,   572,   2.01)  /* Creature Enchantment Ineptitude Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (25864,  94) /* ATTACK_NOTIFICATION_EVENT */

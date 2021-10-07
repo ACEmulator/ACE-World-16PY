@@ -57,9 +57,9 @@ VALUES (9675,   1,   33556972) /* Setup */
      , (9675,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9675,  1329,      2)  /* Strength Self III */
-     , (9675,  1375,      2)  /* Coordination Self III */
-     , (9675,  1433,      2)  /* Bafflement Self I */
+VALUES (9675,  1996,      2)  /* Aura of Soul Hunter */
      , (9675,  1612,      2)  /* Aura of Blood Drinker Self II */
      , (9675,  1623,      2)  /* Aura of Swift Killer Self II */
-     , (9675,  1996,      2)  /* Aura of Soul Hunter */;
+     , (9675,  1329,      2)  /* Strength Self III */
+     , (9675,  1433,      2)  /* Bafflement Self I */
+     , (9675,  1375,      2)  /* Coordination Self III */;

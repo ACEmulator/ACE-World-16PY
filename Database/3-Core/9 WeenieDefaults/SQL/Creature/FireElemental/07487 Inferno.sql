@@ -109,19 +109,19 @@ VALUES (7487,  0, 16,  0,    0,  220,  183,  183,  183,  220, 22000,  189,  163,
      , (7487,  8, 16, 50, 0.75,  220,  183,  183,  183,  220, 22000,  189,  163,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7487,    83,  2.138)  /* Flame Bolt IV */
-     , (7487,    84,  2.004)  /* Flame Bolt V */
-     , (7487,    85,  2.004)  /* Flame Bolt VI */
-     , (7487,   145,  2.004)  /* Flame Volley V */
-     , (7487,   169,  2.008)  /* Regeneration Self V */
-     , (7487,   232,  2.017)  /* Vulnerability Other IV */
-     , (7487,   265,  2.017)  /* Defenselessness Other IV */
-     , (7487,   276,  2.008)  /* Magic Resistance Self III */
-     , (7487,  1034,  2.008)  /* Cold Protection Self V */
-     , (7487,  1107,  2.017)  /* Fire Vulnerability Other V */
+VALUES (7487,    84,  2.004)  /* Flame Bolt V */
      , (7487,  1160,  2.013)  /* Heal Self V */
+     , (7487,   265,  2.017)  /* Defenselessness Other IV */
+     , (7487,  1034,  2.008)  /* Cold Protection Self V */
+     , (7487,   145,  2.004)  /* Flame Volley V */
+     , (7487,  1107,  2.017)  /* Fire Vulnerability Other V */
+     , (7487,   276,  2.008)  /* Magic Resistance Self III */
+     , (7487,    83,  2.138)  /* Flame Bolt IV */
+     , (7487,    85,  2.004)  /* Flame Bolt VI */
      , (7487,  1240,  2.008)  /* Drain Health Other IV */
-     , (7487,  1311,  2.008)  /* Armor Self V */;
+     , (7487,  1311,  2.008)  /* Armor Self V */
+     , (7487,   232,  2.017)  /* Vulnerability Other IV */
+     , (7487,   169,  2.008)  /* Regeneration Self V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (7487,  94) /* ATTACK_NOTIFICATION_EVENT */

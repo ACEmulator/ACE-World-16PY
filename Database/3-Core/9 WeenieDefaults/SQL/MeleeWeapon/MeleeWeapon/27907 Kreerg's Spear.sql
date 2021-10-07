@@ -51,5 +51,5 @@ VALUES (27907,   1,   33558800) /* Setup */
      , (27907,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27907,   365,      2)  /* Light Weapon Mastery Other II */
-     , (27907,  1612,      2)  /* Aura of Blood Drinker Self II */;
+VALUES (27907,  1612,      2)  /* Aura of Blood Drinker Self II */
+     , (27907,   365,      2)  /* Light Weapon Mastery Other II */;

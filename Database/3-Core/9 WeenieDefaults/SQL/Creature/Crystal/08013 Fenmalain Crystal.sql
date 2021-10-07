@@ -111,21 +111,21 @@ VALUES (8013,  0,  4, 50, 0.75,  200,  280,  220,  200,  300,  400,  280,  200, 
      , (8013, 17,  4, 50, 0.75,  200,  280,  220,  200,  300,  400,  280,  200,    0, 2,    0,    0,    0,    0,    0,    0,  0.1,  0.1,    0,  0.1,  0.1,    0) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8013,    76,   2.11)  /* Lightning Bolt II */
-     , (8013,    77,   2.03)  /* Lightning Bolt III */
-     , (8013,   139,   2.04)  /* Lightning Volley III */
-     , (8013,   167,   2.03)  /* Regeneration Self III */
-     , (8013,   276,   2.03)  /* Magic Resistance Self III */
-     , (8013,   282,   2.04)  /* Magic Yield Other III */
-     , (8013,   607,   2.03)  /* Life Magic Mastery Self III */
-     , (8013,   625,   2.04)  /* Life Magic Ineptitude Other III */
-     , (8013,   655,   2.03)  /* Mana Conversion Mastery Self III */
-     , (8013,  1086,   2.04)  /* Lightning Vulnerability Other III */
-     , (8013,  1158,   2.04)  /* Heal Self III */
-     , (8013,  1173,   2.04)  /* Harm Other III */
+VALUES (8013,  1158,   2.04)  /* Heal Self III */
+     , (8013,  1417,   2.04)  /* Slowness Other III */
      , (8013,  1239,   2.04)  /* Drain Health Other III */
+     , (8013,   276,   2.03)  /* Magic Resistance Self III */
+     , (8013,   139,   2.04)  /* Lightning Volley III */
+     , (8013,    76,   2.11)  /* Lightning Bolt II */
+     , (8013,    77,   2.03)  /* Lightning Bolt III */
+     , (8013,  1173,   2.04)  /* Harm Other III */
+     , (8013,   655,   2.03)  /* Mana Conversion Mastery Self III */
+     , (8013,   282,   2.04)  /* Magic Yield Other III */
      , (8013,  1309,   2.04)  /* Armor Self III */
-     , (8013,  1417,   2.04)  /* Slowness Other III */;
+     , (8013,   607,   2.03)  /* Life Magic Mastery Self III */
+     , (8013,   167,   2.03)  /* Regeneration Self III */
+     , (8013,   625,   2.04)  /* Life Magic Ineptitude Other III */
+     , (8013,  1086,   2.04)  /* Lightning Vulnerability Other III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (8013,  94) /* ATTACK_NOTIFICATION_EVENT */

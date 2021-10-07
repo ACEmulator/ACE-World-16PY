@@ -110,16 +110,16 @@ VALUES (23571,  0,  1,  0,    0,  500,  500,  500,  500,  360,  500,  500,  360,
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23571,  2053,      2)  /* Executor's Blessing */
      , (23571,  2054,   2.04)  /* Synaptic Misfire */
-     , (23571,  2068,   2.04)  /* Brittle Bones */
-     , (23571,  2073,      2)  /* Adja's Intervention */
-     , (23571,  2074,   2.04)  /* Gossamer Flesh */
      , (23571,  2088,   2.04)  /* Senescence */
      , (23571,  2128,  2.055)  /* Ilservian's Flame */
+     , (23571,  2068,   2.04)  /* Brittle Bones */
+     , (23571,  2328,      2)  /* Vitality Siphon */
+     , (23571,  2073,      2)  /* Adja's Intervention */
      , (23571,  2146,  2.055)  /* Evisceration */
-     , (23571,  2164,   2.04)  /* Swordsman's Gift */
-     , (23571,  2170,   2.04)  /* Inferno's Gift */
+     , (23571,  2074,   2.04)  /* Gossamer Flesh */
      , (23571,  2281,      2)  /* Aura of Resistance */
-     , (23571,  2328,      2)  /* Vitality Siphon */;
+     , (23571,  2164,   2.04)  /* Swordsman's Gift */
+     , (23571,  2170,   2.04)  /* Inferno's Gift */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (23571,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -54,6 +54,6 @@ VALUES (1518,   1,   33554650) /* Setup */
      , (1518,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1518,   241,      2)  /* Invulnerability Other III */
-     , (1518,  1483,      2)  /* Impenetrability III */
-     , (1518,  1549,      2)  /* Flame Bane III */;
+VALUES (1518,  1483,      2)  /* Impenetrability III */
+     , (1518,  1549,      2)  /* Flame Bane III */
+     , (1518,   241,      2)  /* Invulnerability Other III */;

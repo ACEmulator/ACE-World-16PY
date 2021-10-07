@@ -58,8 +58,8 @@ VALUES (19984,   1,   33556348) /* Setup */
      , (19984,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19984,  1069,      2)  /* Lightning Protection Self IV */
-     , (19984,  1399,      2)  /* Quickness Self III */
-     , (19984,  1590,      2)  /* Aura of Heart Seeker Self IV */
+VALUES (19984,  1590,      2)  /* Aura of Heart Seeker Self IV */
      , (19984,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (19984,  1069,      2)  /* Lightning Protection Self IV */
+     , (19984,  1399,      2)  /* Quickness Self III */
      , (19984,  2683,      2)  /* Feeble Heavy Weapon Aptitude */;

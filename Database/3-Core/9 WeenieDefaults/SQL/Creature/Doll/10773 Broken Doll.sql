@@ -108,15 +108,15 @@ VALUES (10773,  0,  1,  0,    0,   65,   65,   65,   65,   51,   65,   65,   51,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10773,     6,      2)  /* Heal Self I */
-     , (10773,     7,   2.02)  /* Harm Other I */
-     , (10773,    27,  2.025)  /* Flame Bolt I */
-     , (10773,    28,  2.025)  /* Frost Bolt I */
-     , (10773,    75,  2.025)  /* Lightning Bolt I */
-     , (10773,  1084,   2.06)  /* Lightning Vulnerability Other I */
      , (10773,  1195,   2.02)  /* Enfeeble Other I */
-     , (10773,  1260,   2.02)  /* Drain Mana Other I */
+     , (10773,     7,   2.02)  /* Harm Other I */
+     , (10773,    28,  2.025)  /* Frost Bolt I */
      , (10773,  1367,   2.02)  /* Frailty Other I */
-     , (10773,  1415,   2.02)  /* Slowness Other I */;
+     , (10773,  1415,   2.02)  /* Slowness Other I */
+     , (10773,    27,  2.025)  /* Flame Bolt I */
+     , (10773,    75,  2.025)  /* Lightning Bolt I */
+     , (10773,  1260,   2.02)  /* Drain Mana Other I */
+     , (10773,  1084,   2.06)  /* Lightning Vulnerability Other I */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (10773,  94) /* ATTACK_NOTIFICATION_EVENT */

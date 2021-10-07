@@ -112,10 +112,10 @@ VALUES (25755,  0,  4,  0,    0,  150,  266,  119,  119,  105, 15000,  113,  119
      , (25755,  8,  4, 75, 0.75,  150,  266,  119,  119,  105, 15000,  113,  119,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25755,    67,   2.05)  /* Shock Wave IV */
+VALUES (25755,  1834,   2.07)  /* Firestorm */
      , (25755,    83,   2.05)  /* Flame Bolt IV */
-     , (25755,  1241,   2.01)  /* Drain Health Other V */
-     , (25755,  1834,   2.07)  /* Firestorm */;
+     , (25755,    67,   2.05)  /* Shock Wave IV */
+     , (25755,  1241,   2.01)  /* Drain Health Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (25755,  94) /* ATTACK_NOTIFICATION_EVENT */

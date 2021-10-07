@@ -111,20 +111,20 @@ VALUES (6040,  0,  4, 10, 0.75,  100,  100,  100,  100,  119, 10000,  278,  100,
      , (6040, 17,  4, 10, 0.75,  100,  100,  100,  100,  119, 10000,  278,  100,    0, 2,    0,    0,    0,    0,    0,    0,  0.1,  0.1,    0,  0.1,  0.1,    0) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6040,    81,  2.115)  /* Flame Bolt II */
-     , (6040,    82,  2.031)  /* Flame Bolt III */
-     , (6040,   167,  2.032)  /* Regeneration Self III */
-     , (6040,   276,  2.032)  /* Magic Resistance Self III */
-     , (6040,   281,  2.044)  /* Magic Yield Other II */
-     , (6040,   606,  2.032)  /* Life Magic Mastery Self II */
-     , (6040,   624,  2.044)  /* Life Magic Ineptitude Other II */
-     , (6040,   655,  2.032)  /* Mana Conversion Mastery Self III */
-     , (6040,  1104,  2.044)  /* Fire Vulnerability Other II */
-     , (6040,  1158,   2.04)  /* Heal Self III */
-     , (6040,  1172,  2.044)  /* Harm Other II */
+VALUES (6040,   624,  2.044)  /* Life Magic Ineptitude Other II */
      , (6040,  1238,  2.044)  /* Drain Health Other II */
+     , (6040,    82,  2.031)  /* Flame Bolt III */
+     , (6040,  1158,   2.04)  /* Heal Self III */
+     , (6040,   276,  2.032)  /* Magic Resistance Self III */
+     , (6040,  1416,  2.044)  /* Slowness Other II */
+     , (6040,   655,  2.032)  /* Mana Conversion Mastery Self III */
+     , (6040,    81,  2.115)  /* Flame Bolt II */
+     , (6040,  1104,  2.044)  /* Fire Vulnerability Other II */
+     , (6040,  1172,  2.044)  /* Harm Other II */
+     , (6040,   281,  2.044)  /* Magic Yield Other II */
      , (6040,  1308,   2.04)  /* Armor Self II */
-     , (6040,  1416,  2.044)  /* Slowness Other II */;
+     , (6040,   606,  2.032)  /* Life Magic Mastery Self II */
+     , (6040,   167,  2.032)  /* Regeneration Self III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (6040,  94) /* ATTACK_NOTIFICATION_EVENT */

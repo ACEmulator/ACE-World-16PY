@@ -42,8 +42,8 @@ VALUES (23611,   1,   33557338) /* Setup */
      , (23611,  37,         33) /* ItemSkillLimit - LifeMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23611,   585,      2)  /* Item Enchantment Mastery Self V */
-     , (23611,   609,      2)  /* Life Magic Mastery Self V */
-     , (23611,   658,      2)  /* Mana Conversion Mastery Self VI */
+VALUES (23611,   609,      2)  /* Life Magic Mastery Self V */
      , (23611,  2014,      2)  /* Wizard's Ultimate Intellect */
+     , (23611,   585,      2)  /* Item Enchantment Mastery Self V */
+     , (23611,   658,      2)  /* Mana Conversion Mastery Self VI */
      , (23611,  2584,      2)  /* Minor Willpower */;

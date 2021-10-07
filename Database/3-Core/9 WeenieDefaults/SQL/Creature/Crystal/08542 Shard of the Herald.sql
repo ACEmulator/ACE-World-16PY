@@ -110,17 +110,17 @@ VALUES (8542,  0,  4, 50, 0.75,  200,  200,  200,  200,  200,  240,  216, 20000,
      , (8542, 17,  4, 50, 0.75,  200,  200,  200,  200,  200,  240,  216, 20000,    0, 2,    0,    0,    0,    0,    0,    0,  0.1,  0.1,    0,  0.1,  0.1,    0) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8542,    80,  2.083)  /* Lightning Bolt VI */
-     , (8542,   170,  2.083)  /* Regeneration Self VI */
-     , (8542,   279,  2.083)  /* Magic Resistance Self VI */
-     , (8542,   628,  2.083)  /* Life Magic Ineptitude Other VI */
-     , (8542,   652,  2.083)  /* War Magic Ineptitude Other VI */
+VALUES (8542,  1161,  2.083)  /* Heal Self VI */
      , (8542,  1089,  2.083)  /* Lightning Vulnerability Other VI */
-     , (8542,  1161,  2.083)  /* Heal Self VI */
-     , (8542,  1176,  2.083)  /* Harm Other VI */
+     , (8542,  1420,  2.083)  /* Slowness Other VI */
      , (8542,  1242,  2.083)  /* Drain Health Other VI */
+     , (8542,   652,  2.083)  /* War Magic Ineptitude Other VI */
+     , (8542,   279,  2.083)  /* Magic Resistance Self VI */
+     , (8542,    80,  2.083)  /* Lightning Bolt VI */
+     , (8542,  1176,  2.083)  /* Harm Other VI */
      , (8542,  1312,  2.083)  /* Armor Self VI */
-     , (8542,  1420,  2.083)  /* Slowness Other VI */;
+     , (8542,   170,  2.083)  /* Regeneration Self VI */
+     , (8542,   628,  2.083)  /* Life Magic Ineptitude Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (8542,  94) /* ATTACK_NOTIFICATION_EVENT */

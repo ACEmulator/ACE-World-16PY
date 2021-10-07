@@ -110,16 +110,16 @@ VALUES (20186,  0, 32,  0,    0,  200,  200,  200,  200,  200,  200,  200,  220,
      , (20186,  8, 32, 30, 0.75,  200,  200,  200,  200,  200,  200,  200,  220,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20186,    61,  2.014)  /* Acid Stream IV */
-     , (20186,   232,  2.017)  /* Vulnerability Other IV */
+VALUES (20186,  1240,  2.008)  /* Drain Health Other IV */
+     , (20186,  1793,  2.002)  /* Acid Streak IV */
+     , (20186,  1159,  2.013)  /* Heal Self IV */
+     , (20186,  1325,  2.017)  /* Imperil Other IV */
+     , (20186,  1309,  2.008)  /* Armor Self III */
      , (20186,   265,  2.017)  /* Defenselessness Other IV */
      , (20186,   524,  2.017)  /* Acid Vulnerability Other IV */
      , (20186,  1068,  2.017)  /* Lightning Protection Self III */
-     , (20186,  1159,  2.013)  /* Heal Self IV */
-     , (20186,  1240,  2.008)  /* Drain Health Other IV */
-     , (20186,  1309,  2.008)  /* Armor Self III */
-     , (20186,  1325,  2.017)  /* Imperil Other IV */
-     , (20186,  1793,  2.002)  /* Acid Streak IV */;
+     , (20186,   232,  2.017)  /* Vulnerability Other IV */
+     , (20186,    61,  2.014)  /* Acid Stream IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (20186,  94) /* ATTACK_NOTIFICATION_EVENT */

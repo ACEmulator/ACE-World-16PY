@@ -51,8 +51,8 @@ VALUES (20173,   1,   33557789) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20173,   632,      2)  /* War Magic Mastery Self IV */
-     , (20173,   657,      2)  /* Mana Conversion Mastery Self V */
+     , (20173,  2560,      2)  /* Minor Mana Conversion Prowess */
      , (20173,  1092,      2)  /* Fire Protection Self IV */
-     , (20173,  1425,      2)  /* Focus Self V */
+     , (20173,   657,      2)  /* Mana Conversion Mastery Self V */
      , (20173,  1449,      2)  /* Willpower Self V */
-     , (20173,  2560,      2)  /* Minor Mana Conversion Prowess */;
+     , (20173,  1425,      2)  /* Focus Self V */;

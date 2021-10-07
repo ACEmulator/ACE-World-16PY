@@ -58,9 +58,9 @@ VALUES (27594,   1,   33557228) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27594,  1384,      2)  /* Coordination Other VI */
+     , (27594,  2629,      2)  /* Huntress' Boon */
      , (27594,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (27594,  2488,      2)  /* Weapon Familiarity */
      , (27594,  2416,      2)  /* High Tension String */
      , (27594,  2423,      2)  /* Precise */
-     , (27594,  2426,      2)  /* Strong Pull */
-     , (27594,  2488,      2)  /* Weapon Familiarity */
-     , (27594,  2629,      2)  /* Huntress' Boon */;
+     , (27594,  2426,      2)  /* Strong Pull */;

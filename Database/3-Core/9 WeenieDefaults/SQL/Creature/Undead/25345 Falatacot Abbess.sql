@@ -122,23 +122,23 @@ VALUES (25345,  0,  4,  0,    0,  650,  682,  845,  650,  845,  650,  682,  780,
      , (25345,  8,  4, 250,  0.5,  650,  682,  845,  650,  845,  650,  682,  780,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25345,   176,  2.011)  /* Fester Other VI */
-     , (25345,   526,  2.011)  /* Acid Vulnerability Other VI */
-     , (25345,  1053,  2.011)  /* Bludgeoning Vulnerability Other VI */
-     , (25345,  1065,  2.011)  /* Cold Vulnerability Other VI */
-     , (25345,  1089,  2.011)  /* Lightning Vulnerability Other VI */
-     , (25345,  1108,  2.011)  /* Fire Vulnerability Other VI */
-     , (25345,  1132,  2.011)  /* Blade Vulnerability Other VI */
-     , (25345,  1156,  2.011)  /* Piercing Vulnerability Other VI */
-     , (25345,  1840,   2.01)  /* Bed of Blades */
-     , (25345,  1842,   2.01)  /* Spike Strafe */
-     , (25345,  2122,   2.01)  /* Disintegration */
-     , (25345,  2128,   2.01)  /* Ilservian's Flame */
-     , (25345,  2132,   2.01)  /* The Spike */
+VALUES (25345,  1089,  2.011)  /* Lightning Vulnerability Other VI */
+     , (25345,   176,  2.011)  /* Fester Other VI */
      , (25345,  2136,   2.01)  /* Icy Torment */
+     , (25345,  2128,   2.01)  /* Ilservian's Flame */
+     , (25345,  1108,  2.011)  /* Fire Vulnerability Other VI */
+     , (25345,  1156,  2.011)  /* Piercing Vulnerability Other VI */
+     , (25345,  2122,   2.01)  /* Disintegration */
+     , (25345,   526,  2.011)  /* Acid Vulnerability Other VI */
      , (25345,  2140,   2.01)  /* Alset's Coil */
+     , (25345,  2132,   2.01)  /* The Spike */
+     , (25345,  1053,  2.011)  /* Bludgeoning Vulnerability Other VI */
      , (25345,  2144,   2.01)  /* Crushing Shame */
-     , (25345,  2146,   2.01)  /* Evisceration */;
+     , (25345,  2146,   2.01)  /* Evisceration */
+     , (25345,  1065,  2.011)  /* Cold Vulnerability Other VI */
+     , (25345,  1132,  2.011)  /* Blade Vulnerability Other VI */
+     , (25345,  1840,   2.01)  /* Bed of Blades */
+     , (25345,  1842,   2.01)  /* Spike Strafe */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (25345,  94) /* ATTACK_NOTIFICATION_EVENT */

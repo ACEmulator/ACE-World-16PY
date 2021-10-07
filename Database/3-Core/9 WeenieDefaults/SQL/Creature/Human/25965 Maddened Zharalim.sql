@@ -119,14 +119,14 @@ VALUES (25965,  0,  4,  0,    0,  250,  225,  250,  275,  100,  100,  250,  150,
      , (25965,  8,  4,  8, 0.75,  250,  225,  250,  275,  100,  100,  250,  150,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25965,  1161,   2.05)  /* Heal Self VI */
-     , (25965,  1239,   2.05)  /* Drain Health Other III */
-     , (25965,  1251,   2.05)  /* Drain Stamina Other III */
-     , (25965,  1262,   2.05)  /* Drain Mana Other III */
+VALUES (25965,  1239,   2.05)  /* Drain Health Other III */
      , (25965,  1280,   2.05)  /* Health to Mana Self III */
-     , (25965,  1292,   2.05)  /* Mana to Health Self III */
      , (25965,  1666,   2.05)  /* Stamina to Health Self III */
-     , (25965,  1678,   2.05)  /* Stamina to Mana Self III */;
+     , (25965,  1161,   2.05)  /* Heal Self VI */
+     , (25965,  1251,   2.05)  /* Drain Stamina Other III */
+     , (25965,  1292,   2.05)  /* Mana to Health Self III */
+     , (25965,  1678,   2.05)  /* Stamina to Mana Self III */
+     , (25965,  1262,   2.05)  /* Drain Mana Other III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (25965,  94) /* ATTACK_NOTIFICATION_EVENT */

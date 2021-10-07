@@ -56,9 +56,9 @@ VALUES (22558,   1,   33554641) /* Setup */
      , (22558,  50,  100673777) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22558,   664,      2)  /* Mana Conversion Mastery Other VI */
+VALUES (22558,  2691,      2)  /* Moderate Mana Conversion Prowess */
      , (22558,  1317,      2)  /* Armor Other VI */
-     , (22558,  1432,      2)  /* Focus Other VI */
-     , (22558,  1456,      2)  /* Willpower Other VI */
+     , (22558,   664,      2)  /* Mana Conversion Mastery Other VI */
      , (22558,  1485,      2)  /* Impenetrability V */
-     , (22558,  2691,      2)  /* Moderate Mana Conversion Prowess */;
+     , (22558,  1456,      2)  /* Willpower Other VI */
+     , (22558,  1432,      2)  /* Focus Other VI */;

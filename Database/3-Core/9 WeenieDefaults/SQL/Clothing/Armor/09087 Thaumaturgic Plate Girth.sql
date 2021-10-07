@@ -53,13 +53,13 @@ VALUES (9087,   1,   33554647) /* Setup */
      , (9087,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9087,   273,      2)  /* Magic Resistance Other VI */
-     , (9087,  2349,      2)  /* Hieromancer's Ward */
+VALUES (9087,  2349,      2)  /* Hieromancer's Ward */
+     , (9087,  2381,      2)  /* Touch of Instrumentality */
+     , (9087,  2353,      2)  /* Greater Stimulation Durance */
+     , (9087,   273,      2)  /* Magic Resistance Other VI */
      , (9087,  2350,      2)  /* Greater Decay Durance */
      , (9087,  2351,      2)  /* Greater Consumption Durance */
      , (9087,  2352,      2)  /* Greater Stasis Durance */
-     , (9087,  2353,      2)  /* Greater Stimulation Durance */
      , (9087,  2354,      2)  /* Lesser Piercing Durance */
      , (9087,  2355,      2)  /* Lesser Slashing Durance */
-     , (9087,  2356,      2)  /* Lesser Bludgeoning Durance */
-     , (9087,  2381,      2)  /* Touch of Instrumentality */;
+     , (9087,  2356,      2)  /* Lesser Bludgeoning Durance */;

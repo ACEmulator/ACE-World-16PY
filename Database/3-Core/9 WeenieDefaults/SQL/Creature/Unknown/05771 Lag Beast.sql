@@ -103,17 +103,17 @@ VALUES (5771,  0,  8,  3,  0.5,   20,   20,   20,   20,  200,   16,   16,    4, 
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (5771,   196,   2.08)  /* Exhaustion Other III */
-     , (5771,   197,   2.08)  /* Exhaustion Other IV */
-     , (5771,   818,   2.08)  /* Monster Unfamiliarity Other II */
-     , (5771,  1002,   2.08)  /* Leaden Feet Other III */
      , (5771,  1004,   2.08)  /* Leaden Feet Other V */
-     , (5771,  1014,   2.08)  /* Jumping Ineptitude Other III */
-     , (5771,  1340,   2.08)  /* Weakness Other III */
+     , (5771,  1679,   2.08)  /* Stamina to Mana Self IV */
+     , (5771,   197,   2.08)  /* Exhaustion Other IV */
      , (5771,  1393,   2.08)  /* Clumsiness Other III */
      , (5771,  1417,   2.08)  /* Slowness Other III */
+     , (5771,  1340,   2.08)  /* Weakness Other III */
+     , (5771,  1002,   2.08)  /* Leaden Feet Other III */
      , (5771,  1420,   2.08)  /* Slowness Other VI */
      , (5771,  1443,   2.08)  /* Bafflement Other V */
-     , (5771,  1679,   2.08)  /* Stamina to Mana Self IV */;
+     , (5771,   818,   2.08)  /* Monster Unfamiliarity Other II */
+     , (5771,  1014,   2.08)  /* Jumping Ineptitude Other III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (5771,  94) /* ATTACK_NOTIFICATION_EVENT */

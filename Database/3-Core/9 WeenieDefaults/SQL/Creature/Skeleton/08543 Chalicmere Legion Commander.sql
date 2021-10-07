@@ -124,8 +124,8 @@ VALUES (8543,  0,  4,  0,    0,   90,   43,   32,   45,   22,   77,   29,   44, 
      , (8543,  8,  4,  5, 0.75,   75,   36,   27,   38,   18,   64,   24,   37,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8543,  1240,   2.08)  /* Drain Health Other IV */
-     , (8543,  1343,  2.067)  /* Weakness Other VI */
+VALUES (8543,  1343,  2.067)  /* Weakness Other VI */
+     , (8543,  1240,   2.08)  /* Drain Health Other IV */
      , (8543,  1396,  2.067)  /* Clumsiness Other VI */
      , (8543,  1444,  2.067)  /* Bafflement Other VI */;
 

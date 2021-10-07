@@ -49,5 +49,5 @@ VALUES (8700,   1,   33554856) /* Setup */
      , (8700,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8700,  1117,      2)  /* Blade Protection Other III */
-     , (8700,  1483,      2)  /* Impenetrability III */;
+VALUES (8700,  1483,      2)  /* Impenetrability III */
+     , (8700,  1117,      2)  /* Blade Protection Other III */;

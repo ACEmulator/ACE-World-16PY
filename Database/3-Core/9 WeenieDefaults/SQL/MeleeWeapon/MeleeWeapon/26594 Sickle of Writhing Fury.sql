@@ -54,9 +54,9 @@ VALUES (26594,   1,   33558593) /* Setup */
      , (26594,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26594,   188,      2)  /* Rejuvenation Other VI */
+VALUES (26594,  1605,      2)  /* Aura of Defender Self VI */
      , (26594,  1337,      2)  /* Strength Other VI */
-     , (26594,  1605,      2)  /* Aura of Defender Self VI */
      , (26594,  1616,      2)  /* Aura of Blood Drinker Self VI */
      , (26594,  1627,      2)  /* Aura of Swift Killer Self VI */
-     , (26594,  2686,      2)  /* Moderate Light Weapon Aptitude */;
+     , (26594,  2686,      2)  /* Moderate Light Weapon Aptitude */
+     , (26594,   188,      2)  /* Rejuvenation Other VI */;

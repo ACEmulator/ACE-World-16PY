@@ -119,20 +119,20 @@ VALUES (24281,  0,  4,  0,    0,  230,  189,  101,  191,  166,  191,  166,  207,
      , (24281,  8,  4, 25, 0.75,  240,  197,  106,  199,  173,  199,  173,  216,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24281,    73,   2.05)  /* Frost Bolt V */
-     , (24281,    79,   2.05)  /* Lightning Bolt V */
-     , (24281,    84,   2.05)  /* Flame Bolt V */
-     , (24281,    96,   2.05)  /* Whirling Blade V */
-     , (24281,  1064,   2.05)  /* Cold Vulnerability Other V */
-     , (24281,  1088,   2.05)  /* Lightning Vulnerability Other V */
-     , (24281,  1107,   2.05)  /* Fire Vulnerability Other V */
-     , (24281,  1131,   2.05)  /* Blade Vulnerability Other V */
+VALUES (24281,    84,   2.05)  /* Flame Bolt V */
      , (24281,  1160,   2.05)  /* Heal Self V */
-     , (24281,  1241,   2.05)  /* Drain Health Other V */
-     , (24281,  1326,   2.05)  /* Imperil Other V */
+     , (24281,  1088,   2.05)  /* Lightning Vulnerability Other V */
      , (24281,  1342,   2.05)  /* Weakness Other V */
-     , (24281,  1395,   2.05)  /* Clumsiness Other V */
-     , (24281,  1419,   2.05)  /* Slowness Other V */;
+     , (24281,    73,   2.05)  /* Frost Bolt V */
+     , (24281,    96,   2.05)  /* Whirling Blade V */
+     , (24281,  1419,   2.05)  /* Slowness Other V */
+     , (24281,  1107,   2.05)  /* Fire Vulnerability Other V */
+     , (24281,    79,   2.05)  /* Lightning Bolt V */
+     , (24281,  1241,   2.05)  /* Drain Health Other V */
+     , (24281,  1064,   2.05)  /* Cold Vulnerability Other V */
+     , (24281,  1131,   2.05)  /* Blade Vulnerability Other V */
+     , (24281,  1326,   2.05)  /* Imperil Other V */
+     , (24281,  1395,   2.05)  /* Clumsiness Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (24281,  94) /* ATTACK_NOTIFICATION_EVENT */

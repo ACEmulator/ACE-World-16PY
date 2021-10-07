@@ -135,18 +135,18 @@ VALUES (23488,  0,  4,  0,    0,  290,  232,  189,  128,  203,  189,   61,   61,
      , (23488,  8,  4, 65, 0.75,  290,  232,  189,  128,  203,  189,   61,   61,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23488,    62,  2.093)  /* Acid Stream V */
-     , (23488,    79,  2.093)  /* Lightning Bolt V */
+VALUES (23488,   198,   2.01)  /* Exhaustion Other V */
      , (23488,    84,  2.093)  /* Flame Bolt V */
-     , (23488,   141,   2.02)  /* Lightning Volley V */
-     , (23488,   198,   2.01)  /* Exhaustion Other V */
+     , (23488,  1160,   2.04)  /* Heal Self V */
      , (23488,   233,  2.007)  /* Vulnerability Other V */
      , (23488,   266,  2.007)  /* Defenselessness Other V */
-     , (23488,   284,  2.007)  /* Magic Yield Other V */
-     , (23488,  1160,   2.04)  /* Heal Self V */
-     , (23488,  1175,   2.01)  /* Harm Other V */
+     , (23488,   141,   2.02)  /* Lightning Volley V */
+     , (23488,    79,  2.093)  /* Lightning Bolt V */
      , (23488,  1199,   2.01)  /* Enfeeble Other V */
-     , (23488,  1264,   2.01)  /* Drain Mana Other V */;
+     , (23488,   284,  2.007)  /* Magic Yield Other V */
+     , (23488,  1175,   2.01)  /* Harm Other V */
+     , (23488,  1264,   2.01)  /* Drain Mana Other V */
+     , (23488,    62,  2.093)  /* Acid Stream V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (23488,  94) /* ATTACK_NOTIFICATION_EVENT */

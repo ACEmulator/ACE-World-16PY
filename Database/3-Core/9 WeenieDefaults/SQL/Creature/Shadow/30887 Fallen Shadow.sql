@@ -133,21 +133,21 @@ VALUES (30887,  0,  4,  0,    0,  430,  430,  430,  430,  430,  430,  430,  430,
      , (30887,  8,  4, 30, 0.75,  430,  430,  430,  430,  430,  430,  430,  430,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30887,    74,  2.036)  /* Frost Bolt VI */
+VALUES (30887,  1265,  2.009)  /* Drain Mana Other VI */
+     , (30887,  2318,   2.01)  /* Gravity Well */
+     , (30887,  1161,  2.009)  /* Heal Self VI */
+     , (30887,   154,  2.005)  /* Blade Volley VI */
+     , (30887,   146,  2.005)  /* Flame Volley VI */
+     , (30887,  1254,  2.009)  /* Drain Stamina Other VI */
+     , (30887,   138,  2.005)  /* Frost Volley VI */
+     , (30887,    74,  2.036)  /* Frost Bolt VI */
+     , (30887,   285,   2.01)  /* Magic Yield Other VI */
+     , (30887,  1242,  2.009)  /* Drain Health Other VI */
+     , (30887,   142,  2.005)  /* Lightning Volley VI */
      , (30887,    80,  2.036)  /* Lightning Bolt VI */
      , (30887,    91,  2.036)  /* Force Bolt VI */
      , (30887,    97,  2.036)  /* Whirling Blade VI */
-     , (30887,   138,  2.005)  /* Frost Volley VI */
-     , (30887,   142,  2.005)  /* Lightning Volley VI */
-     , (30887,   146,  2.005)  /* Flame Volley VI */
-     , (30887,   154,  2.005)  /* Blade Volley VI */
-     , (30887,   285,   2.01)  /* Magic Yield Other VI */
-     , (30887,  1161,  2.009)  /* Heal Self VI */
-     , (30887,  1242,  2.009)  /* Drain Health Other VI */
-     , (30887,  1254,  2.009)  /* Drain Stamina Other VI */
-     , (30887,  1265,  2.009)  /* Drain Mana Other VI */
-     , (30887,  2228,   2.01)  /* Broadside of a Barn */
-     , (30887,  2318,   2.01)  /* Gravity Well */;
+     , (30887,  2228,   2.01)  /* Broadside of a Barn */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (30887,  94) /* ATTACK_NOTIFICATION_EVENT */

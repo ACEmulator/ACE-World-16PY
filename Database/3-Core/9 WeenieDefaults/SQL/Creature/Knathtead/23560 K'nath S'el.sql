@@ -100,9 +100,9 @@ VALUES (23560,  0,  4, 80,  0.3,  260,  127,  164,   70,  127,  208,  208,  182,
      , (23560, 16,  4,  0,    0,  260,  127,  164,   70,  127,  208,  208,  182,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23560,  2126,   2.33)  /* Thousand Fists */
-     , (23560,  2145,   2.33)  /* Cameron's Curse */
-     , (23560,  2752,   2.34)  /* Shock Arc VII */;
+VALUES (23560,  2752,   2.34)  /* Shock Arc VII */
+     , (23560,  2126,   2.33)  /* Thousand Fists */
+     , (23560,  2145,   2.33)  /* Cameron's Curse */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (23560,  94) /* ATTACK_NOTIFICATION_EVENT */

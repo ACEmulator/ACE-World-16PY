@@ -58,8 +58,8 @@ VALUES (19852,   1,   33557739) /* Setup */
      , (19852,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19852,   518,      2)  /* Acid Protection Self IV */
+VALUES (19852,  2689,      2)  /* Moderate Finesse Weapon Aptitude */
      , (19852,  1351,      2)  /* Endurance Self III */
+     , (19852,   518,      2)  /* Acid Protection Self IV */
      , (19852,  1592,      2)  /* Aura of Heart Seeker Self VI */
-     , (19852,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (19852,  2689,      2)  /* Moderate Finesse Weapon Aptitude */;
+     , (19852,  1616,      2)  /* Aura of Blood Drinker Self VI */;

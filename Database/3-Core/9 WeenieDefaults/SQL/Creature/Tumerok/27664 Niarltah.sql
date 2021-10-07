@@ -129,32 +129,32 @@ VALUES (27664,  0,  4,  0,    0,  720,  720,  720,  720,  720,  720,  720,  720,
      , (27664,  8,  4, 185, 0.75,  750,  750,  750,  750,  750,  750,  750,  750,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27664,  1176,  2.012)  /* Harm Other VI */
+VALUES (27664,  2062,  2.012)  /* Anemia */
      , (27664,  1473,  2.002)  /* Hermetic Void V */
-     , (27664,  1620,  2.002)  /* Blood Loather V */
+     , (27664,  2318,  2.012)  /* Gravity Well */
      , (27664,  2053,   2.01)  /* Executor's Blessing */
-     , (27664,  2062,  2.012)  /* Anemia */
-     , (27664,  2064,  2.012)  /* Self Loathing */
-     , (27664,  2073,  2.009)  /* Adja's Intervention */
+     , (27664,  2759,  2.015)  /* Blade Arc VII */
+     , (27664,  1620,  2.002)  /* Blood Loather V */
      , (27664,  2122,  2.015)  /* Disintegration */
+     , (27664,  2064,  2.012)  /* Self Loathing */
      , (27664,  2128,  2.015)  /* Ilservian's Flame */
      , (27664,  2132,  2.015)  /* The Spike */
+     , (27664,  1176,  2.012)  /* Harm Other VI */
      , (27664,  2136,  2.015)  /* Icy Torment */
+     , (27664,  2329,  2.012)  /* Essence Void */
+     , (27664,  2073,  2.009)  /* Adja's Intervention */
      , (27664,  2140,  2.015)  /* Alset's Coil */
      , (27664,  2143,  2.015)  /* Pummeling Storm */
      , (27664,  2144,  2.015)  /* Crushing Shame */
      , (27664,  2146,  2.015)  /* Evisceration */
-     , (27664,  2164,  2.012)  /* Swordsman's Gift */
-     , (27664,  2166,  2.012)  /* Tusker's Gift */
-     , (27664,  2174,  2.012)  /* Archer's Gift */
-     , (27664,  2228,  2.012)  /* Broadside of a Barn */
      , (27664,  2282,  2.012)  /* Futility */
-     , (27664,  2318,  2.012)  /* Gravity Well */
-     , (27664,  2329,  2.012)  /* Essence Void */
      , (27664,  2731,  2.015)  /* Frost Arc VII */
      , (27664,  2738,  2.015)  /* Lightning Arc VII */
+     , (27664,  2228,  2.012)  /* Broadside of a Barn */
+     , (27664,  2164,  2.012)  /* Swordsman's Gift */
+     , (27664,  2166,  2.012)  /* Tusker's Gift */
      , (27664,  2745,  2.015)  /* Flame Arc VII */
-     , (27664,  2759,  2.015)  /* Blade Arc VII */;
+     , (27664,  2174,  2.012)  /* Archer's Gift */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (27664,  94) /* ATTACK_NOTIFICATION_EVENT */

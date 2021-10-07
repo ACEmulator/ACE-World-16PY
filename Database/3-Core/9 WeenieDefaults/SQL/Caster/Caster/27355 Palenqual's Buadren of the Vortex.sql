@@ -53,9 +53,9 @@ VALUES (27355,   1,   33558670) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27355,  2441,      2)  /* Lesser Stone Cliffs */
+     , (27355,  3223,      2)  /* Cascade */
      , (27355,  2444,      2)  /* Lesser Strength of Earth */
      , (27355,  2447,      2)  /* Lesser Growth */
      , (27355,  2450,      2)  /* Lesser Hunter's Acumen */
      , (27355,  2472,      2)  /* Still Water */
-     , (27355,  2475,      2)  /* Torrent */
-     , (27355,  3223,      2)  /* Cascade */;
+     , (27355,  2475,      2)  /* Torrent */;

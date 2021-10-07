@@ -59,7 +59,7 @@ VALUES (19836,   1,   33557740) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19836,  1033,      2)  /* Cold Protection Self IV */
-     , (19836,  1375,      2)  /* Coordination Self III */
      , (19836,  1590,      2)  /* Aura of Heart Seeker Self IV */
      , (19836,  1614,      2)  /* Aura of Blood Drinker Self IV */
-     , (19836,  2678,      2)  /* Feeble Finesse Weapon Aptitude */;
+     , (19836,  2678,      2)  /* Feeble Finesse Weapon Aptitude */
+     , (19836,  1375,      2)  /* Coordination Self III */;

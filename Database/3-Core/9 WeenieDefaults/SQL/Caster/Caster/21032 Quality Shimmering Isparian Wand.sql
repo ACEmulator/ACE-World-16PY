@@ -51,6 +51,6 @@ VALUES (21032,   1,   33557731) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21032,   655,      2)  /* Mana Conversion Mastery Self III */
-     , (21032,  1312,      2)  /* Armor Self VI */
+     , (21032,  1447,      2)  /* Willpower Self III */
      , (21032,  1423,      2)  /* Focus Self III */
-     , (21032,  1447,      2)  /* Willpower Self III */;
+     , (21032,  1312,      2)  /* Armor Self VI */;

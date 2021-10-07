@@ -110,37 +110,37 @@ VALUES (22077,  0,  1,  0,    0, 6000, 6000, 6000, 6000, 4320, 6000, 6000, 4320,
      , (22077, 17,  1,  0,    0, 6000, 6000, 6000, 6000, 4320, 6000, 6000, 4320,    0, 3,    0,    0,  0.1,    0,    0,  0.1,    0, 0.13, 0.45,    0, 0.13, 0.45) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22077,    84,  2.055)  /* Flame Bolt V */
-     , (22077,    96,  2.055)  /* Whirling Blade V */
-     , (22077,   309,      2)  /* Light Weapon Ineptitude Other VI */
-     , (22077,   333,      2)  /* Finesse Weapon Ineptitude Other VI */
-     , (22077,   357,      2)  /* Light Weapon Ineptitude Other VI */
-     , (22077,   405,      2)  /* Light Weapon Ineptitude Other VI */
-     , (22077,   429,      2)  /* Heavy Weapon Ineptitude Other VI */
-     , (22077,   454,      2)  /* Light Weapon Ineptitude Other VI */
-     , (22077,   478,      2)  /* Missile Weapon Ineptitude Other VI */
-     , (22077,   502,      2)  /* Missile Weapon Ineptitude Other VI */
-     , (22077,   897,      2)  /* Healing Ineptitude Other VI */
-     , (22077,  1053,      2)  /* Bludgeoning Vulnerability Other VI */
-     , (22077,  1089,      2)  /* Lightning Vulnerability Other VI */
-     , (22077,  1108,   2.04)  /* Fire Vulnerability Other VI */
+VALUES (22077,  1108,   2.04)  /* Fire Vulnerability Other VI */
      , (22077,  1132,   2.04)  /* Blade Vulnerability Other VI */
+     , (22077,  2407,      2)  /* Collector Cold Protection */
+     , (22077,   897,      2)  /* Healing Ineptitude Other VI */
      , (22077,  1161,      2)  /* Heal Self VI */
-     , (22077,  1242,      2)  /* Drain Health Other VI */
-     , (22077,  1327,   2.04)  /* Imperil Other VI */
-     , (22077,  1343,      2)  /* Weakness Other VI */
-     , (22077,  1372,   2.04)  /* Frailty Other VI */
-     , (22077,  1396,      2)  /* Clumsiness Other VI */
-     , (22077,  1444,   2.04)  /* Bafflement Other VI */
+     , (22077,   454,      2)  /* Light Weapon Ineptitude Other VI */
+     , (22077,   502,      2)  /* Missile Weapon Ineptitude Other VI */
+     , (22077,  1089,      2)  /* Lightning Vulnerability Other VI */
      , (22077,  2053,      2)  /* Executor's Blessing */
+     , (22077,   405,      2)  /* Light Weapon Ineptitude Other VI */
+     , (22077,   333,      2)  /* Finesse Weapon Ineptitude Other VI */
+     , (22077,    84,  2.055)  /* Flame Bolt V */
+     , (22077,  1242,      2)  /* Drain Health Other VI */
+     , (22077,  2408,      2)  /* Collector Fire Protection */
+     , (22077,  1372,   2.04)  /* Frailty Other VI */
      , (22077,  2281,      2)  /* Aura of Resistance */
+     , (22077,  1053,      2)  /* Bludgeoning Vulnerability Other VI */
+     , (22077,   478,      2)  /* Missile Weapon Ineptitude Other VI */
+     , (22077,    96,  2.055)  /* Whirling Blade V */
+     , (22077,  1444,   2.04)  /* Bafflement Other VI */
      , (22077,  2404,      2)  /* Collector Acid Protection */
+     , (22077,   357,      2)  /* Light Weapon Ineptitude Other VI */
      , (22077,  2405,      2)  /* Collector Blade Protection */
      , (22077,  2406,      2)  /* Collector Bludgeoning Protection */
-     , (22077,  2407,      2)  /* Collector Cold Protection */
-     , (22077,  2408,      2)  /* Collector Fire Protection */
      , (22077,  2409,      2)  /* Collector Lightning Protection */
-     , (22077,  2410,      2)  /* Collector Piercing Protection */;
+     , (22077,  2410,      2)  /* Collector Piercing Protection */
+     , (22077,   429,      2)  /* Heavy Weapon Ineptitude Other VI */
+     , (22077,  1327,   2.04)  /* Imperil Other VI */
+     , (22077,  1396,      2)  /* Clumsiness Other VI */
+     , (22077,   309,      2)  /* Light Weapon Ineptitude Other VI */
+     , (22077,  1343,      2)  /* Weakness Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (22077,  94) /* ATTACK_NOTIFICATION_EVENT */

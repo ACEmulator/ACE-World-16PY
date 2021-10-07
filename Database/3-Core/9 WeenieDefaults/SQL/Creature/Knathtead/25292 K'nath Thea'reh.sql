@@ -102,11 +102,11 @@ VALUES (25292,  0,  4, 80,  0.3,  260,  127,  164,   70,  127,  208,  208,  182,
      , (25292, 16,  4,  0,    0,  260,  127,  164,   70,  127,  208,  208,  182,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25292,  1241,   2.01)  /* Drain Health Other V */
-     , (25292,  2136,   2.25)  /* Icy Torment */
+VALUES (25292,  2136,   2.25)  /* Icy Torment */
+     , (25292,  2731,   2.25)  /* Frost Arc VII */
+     , (25292,  1241,   2.01)  /* Drain Health Other V */
      , (25292,  2137,   2.24)  /* Sudden Frost */
-     , (25292,  2138,   2.25)  /* Blizzard */
-     , (25292,  2731,   2.25)  /* Frost Arc VII */;
+     , (25292,  2138,   2.25)  /* Blizzard */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (25292,  94) /* ATTACK_NOTIFICATION_EVENT */

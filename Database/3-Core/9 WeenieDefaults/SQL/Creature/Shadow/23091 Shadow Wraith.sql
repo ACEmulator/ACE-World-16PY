@@ -123,30 +123,30 @@ VALUES (23091,  0,  4,  0,    0,  480,  480,  384,  408,  288,  528,  336,  360,
      , (23091,  8,  4, 70, 0.75,  480,  480,  384,  408,  288,  528,  336,  360,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23091,    74,  2.032)  /* Frost Bolt VI */
-     , (23091,    80,  2.032)  /* Lightning Bolt VI */
-     , (23091,    85,  2.032)  /* Flame Bolt VI */
-     , (23091,    91,  2.032)  /* Force Bolt VI */
-     , (23091,    97,  2.032)  /* Whirling Blade VI */
-     , (23091,   138,  2.003)  /* Frost Volley VI */
-     , (23091,   142,  2.003)  /* Lightning Volley VI */
-     , (23091,   146,  2.003)  /* Flame Volley VI */
-     , (23091,   154,  2.003)  /* Blade Volley VI */
-     , (23091,   234,  2.023)  /* Vulnerability Other VI */
-     , (23091,   267,  2.023)  /* Defenselessness Other VI */
-     , (23091,   285,  2.023)  /* Magic Yield Other VI */
-     , (23091,   628,  2.023)  /* Life Magic Ineptitude Other VI */
-     , (23091,  1065,  2.023)  /* Cold Vulnerability Other VI */
+VALUES (23091,  1161,   2.02)  /* Heal Self VI */
      , (23091,  1089,  2.023)  /* Lightning Vulnerability Other VI */
-     , (23091,  1132,  2.023)  /* Blade Vulnerability Other VI */
-     , (23091,  1156,  2.023)  /* Piercing Vulnerability Other VI */
-     , (23091,  1161,   2.02)  /* Heal Self VI */
-     , (23091,  1242,  2.011)  /* Drain Health Other VI */
-     , (23091,  1254,  2.011)  /* Drain Stamina Other VI */
-     , (23091,  1265,  2.011)  /* Drain Mana Other VI */
      , (23091,  2053,  2.006)  /* Executor's Blessing */
      , (23091,  2056,  2.023)  /* Ataxia */
-     , (23091,  2084,  2.023)  /* Belly of Lead */;
+     , (23091,  1156,  2.023)  /* Piercing Vulnerability Other VI */
+     , (23091,  1254,  2.011)  /* Drain Stamina Other VI */
+     , (23091,   138,  2.003)  /* Frost Volley VI */
+     , (23091,    74,  2.032)  /* Frost Bolt VI */
+     , (23091,   267,  2.023)  /* Defenselessness Other VI */
+     , (23091,   142,  2.003)  /* Lightning Volley VI */
+     , (23091,  1132,  2.023)  /* Blade Vulnerability Other VI */
+     , (23091,    80,  2.032)  /* Lightning Bolt VI */
+     , (23091,   146,  2.003)  /* Flame Volley VI */
+     , (23091,    85,  2.032)  /* Flame Bolt VI */
+     , (23091,   285,  2.023)  /* Magic Yield Other VI */
+     , (23091,  1242,  2.011)  /* Drain Health Other VI */
+     , (23091,   154,  2.003)  /* Blade Volley VI */
+     , (23091,    91,  2.032)  /* Force Bolt VI */
+     , (23091,    97,  2.032)  /* Whirling Blade VI */
+     , (23091,  2084,  2.023)  /* Belly of Lead */
+     , (23091,  1065,  2.023)  /* Cold Vulnerability Other VI */
+     , (23091,   234,  2.023)  /* Vulnerability Other VI */
+     , (23091,  1265,  2.011)  /* Drain Mana Other VI */
+     , (23091,   628,  2.023)  /* Life Magic Ineptitude Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (23091,  94) /* ATTACK_NOTIFICATION_EVENT */

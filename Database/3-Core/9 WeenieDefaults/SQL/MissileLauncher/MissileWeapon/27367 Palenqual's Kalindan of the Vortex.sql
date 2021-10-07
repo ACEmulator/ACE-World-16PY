@@ -68,6 +68,6 @@ VALUES (27367,  2438,      2)  /* Lesser Rockslide */
      , (27367,  2447,      2)  /* Lesser Growth */
      , (27367,  2450,      2)  /* Lesser Hunter's Acumen */
      , (27367,  2453,      2)  /* Lesser Thorns */
-     , (27367,  2472,      2)  /* Still Water */
      , (27367,  2475,      2)  /* Torrent */
-     , (27367,  3232,      2)  /* Cascade */;
+     , (27367,  3232,      2)  /* Cascade */
+     , (27367,  2472,      2)  /* Still Water */;

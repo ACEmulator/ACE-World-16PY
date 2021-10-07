@@ -57,8 +57,8 @@ VALUES (20069,   1,   33557799) /* Setup */
      , (20069,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20069,   518,      2)  /* Acid Protection Self IV */
+VALUES (20069,  1604,      2)  /* Aura of Defender Self V */
      , (20069,  1351,      2)  /* Endurance Self III */
-     , (20069,  1604,      2)  /* Aura of Defender Self V */
-     , (20069,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (20069,  2567,      2)  /* Minor Missile Weapon Aptitude */;
+     , (20069,   518,      2)  /* Acid Protection Self IV */
+     , (20069,  2567,      2)  /* Minor Missile Weapon Aptitude */
+     , (20069,  1615,      2)  /* Aura of Blood Drinker Self V */;

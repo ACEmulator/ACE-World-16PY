@@ -53,8 +53,8 @@ VALUES (26530,   1,   33558596) /* Setup */
      , (26530,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26530,   187,      2)  /* Rejuvenation Other V */
-     , (26530,  1359,      2)  /* Endurance Other V */
+VALUES (26530,  1455,      2)  /* Willpower Other V */
+     , (26530,  2654,      2)  /* Feeble Endurance */
      , (26530,  1431,      2)  /* Focus Other V */
-     , (26530,  1455,      2)  /* Willpower Other V */
-     , (26530,  2654,      2)  /* Feeble Endurance */;
+     , (26530,  1359,      2)  /* Endurance Other V */
+     , (26530,   187,      2)  /* Rejuvenation Other V */;

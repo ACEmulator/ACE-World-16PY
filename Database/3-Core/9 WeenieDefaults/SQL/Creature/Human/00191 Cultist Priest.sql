@@ -412,22 +412,22 @@ VALUES (191,  0,  4,  0,    0,  270,  243,  270,  297,  108,  108,  270,  162,  
      , (191,  8,  4,  2, 0.75,  250,  225,  250,  275,  100,  100,  250,  150,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (191,    62,   2.09)  /* Acid Stream V */
+VALUES (191,    84,   2.09)  /* Flame Bolt V */
+     , (191,  1160,   2.04)  /* Heal Self V */
      , (191,    68,   2.08)  /* Shock Wave V */
      , (191,    73,   2.09)  /* Frost Bolt V */
-     , (191,    79,   2.09)  /* Lightning Bolt V */
-     , (191,    84,   2.09)  /* Flame Bolt V */
-     , (191,    90,   2.09)  /* Force Bolt V */
-     , (191,    96,   2.09)  /* Whirling Blade V */
-     , (191,   233,   2.04)  /* Vulnerability Other V */
+     , (191,  1175,   2.04)  /* Harm Other V */
      , (191,   284,   2.04)  /* Magic Yield Other V */
      , (191,   525,   2.04)  /* Acid Vulnerability Other V */
-     , (191,  1052,   2.04)  /* Bludgeoning Vulnerability Other V */
-     , (191,  1160,   2.04)  /* Heal Self V */
-     , (191,  1175,   2.04)  /* Harm Other V */
+     , (191,    79,   2.09)  /* Lightning Bolt V */
      , (191,  1241,   2.04)  /* Drain Health Other V */
+     , (191,    90,   2.09)  /* Force Bolt V */
+     , (191,  1052,   2.04)  /* Bludgeoning Vulnerability Other V */
      , (191,  1311,      2)  /* Armor Self V */
-     , (191,  1326,    2.1)  /* Imperil Other V */;
+     , (191,    96,   2.09)  /* Whirling Blade V */
+     , (191,   233,   2.04)  /* Vulnerability Other V */
+     , (191,  1326,    2.1)  /* Imperil Other V */
+     , (191,    62,   2.09)  /* Acid Stream V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (191,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -130,14 +130,14 @@ VALUES (2586,  0,  4,  0,    0,  150,  120,   95,   58,  105,   95,   21,   21, 
      , (2586,  8,  4, 25, 0.75,  150,  120,   95,   58,  105,   95,   21,   21,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2586,    60,   2.02)  /* Acid Stream III */
+VALUES (2586,   231,  2.013)  /* Vulnerability Other III */
+     , (2586,   264,  2.013)  /* Defenselessness Other III */
      , (2586,    71,   2.02)  /* Frost Bolt III */
      , (2586,    88,   2.02)  /* Force Bolt III */
-     , (2586,   231,  2.013)  /* Vulnerability Other III */
-     , (2586,   264,  2.013)  /* Defenselessness Other III */
-     , (2586,  1329,   2.05)  /* Strength Self III */
+     , (2586,    60,   2.02)  /* Acid Stream III */
+     , (2586,  1399,   2.05)  /* Quickness Self III */
      , (2586,  1375,   2.05)  /* Coordination Self III */
-     , (2586,  1399,   2.05)  /* Quickness Self III */;
+     , (2586,  1329,   2.05)  /* Strength Self III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (2586,  94) /* ATTACK_NOTIFICATION_EVENT */

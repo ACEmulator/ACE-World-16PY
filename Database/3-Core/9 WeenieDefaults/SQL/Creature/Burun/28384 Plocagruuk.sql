@@ -128,25 +128,25 @@ VALUES (28384,  0,  4,  0,    0,  600,  630,  780,  600,  780,  600,  630,  720,
      , (28384,  8,  4, 190,  0.5,  600,  630,  780,  600,  780,  600,  630,  720,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28384,   176,  2.011)  /* Fester Other VI */
-     , (28384,   526,  2.011)  /* Acid Vulnerability Other VI */
-     , (28384,  1053,  2.011)  /* Bludgeoning Vulnerability Other VI */
-     , (28384,  1132,  2.011)  /* Blade Vulnerability Other VI */
+VALUES (28384,  2144,   2.04)  /* Crushing Shame */
      , (28384,  1156,  2.011)  /* Piercing Vulnerability Other VI */
-     , (28384,  1241,   2.01)  /* Drain Health Other V */
-     , (28384,  1327,  2.011)  /* Imperil Other VI */
+     , (28384,  2146,   2.04)  /* Evisceration */
      , (28384,  2122,   2.04)  /* Disintegration */
      , (28384,  2132,   2.04)  /* The Spike */
-     , (28384,  2144,   2.04)  /* Crushing Shame */
-     , (28384,  2146,   2.04)  /* Evisceration */
-     , (28384,  3372,   2.05)  /* Debilitating Spore */
-     , (28384,  3373,   2.05)  /* Diseased Air */
      , (28384,  3375,  2.005)  /* Fungal Bloom */
+     , (28384,   526,  2.011)  /* Acid Vulnerability Other VI */
+     , (28384,  3426,   2.05)  /* Greater Withering */
+     , (28384,  1241,   2.01)  /* Drain Health Other V */
+     , (28384,  1053,  2.011)  /* Bludgeoning Vulnerability Other VI */
+     , (28384,  3435,   2.05)  /* Greater Mucor Blight */
+     , (28384,  3372,   2.05)  /* Debilitating Spore */
+     , (28384,  1132,  2.011)  /* Blade Vulnerability Other VI */
+     , (28384,  3373,   2.05)  /* Diseased Air */
+     , (28384,  1327,  2.011)  /* Imperil Other VI */
+     , (28384,   176,  2.011)  /* Fester Other VI */
      , (28384,  3381,   2.05)  /* Debilitating Spore */
      , (28384,  3382,   2.05)  /* Diseased Air */
-     , (28384,  3383,   2.05)  /* Fungal Bloom */
-     , (28384,  3426,   2.05)  /* Greater Withering */
-     , (28384,  3435,   2.05)  /* Greater Mucor Blight */;
+     , (28384,  3383,   2.05)  /* Fungal Bloom */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (28384,  94) /* ATTACK_NOTIFICATION_EVENT */

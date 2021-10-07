@@ -130,35 +130,35 @@ VALUES (2486,  0,  4,  0,    0,  120,  120,  120,  120,  120,  120,  120,  120, 
      , (2486,  8,  4,  5, 0.75,  125,  125,  125,  125,  125,  125,  125,  125,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2486,    62,   2.04)  /* Acid Stream V */
-     , (2486,    63,  2.014)  /* Acid Stream VI */
-     , (2486,    68,   2.04)  /* Shock Wave V */
-     , (2486,    69,  2.014)  /* Shock Wave VI */
-     , (2486,    73,   2.04)  /* Frost Bolt V */
-     , (2486,    74,  2.014)  /* Frost Bolt VI */
-     , (2486,    79,   2.04)  /* Lightning Bolt V */
-     , (2486,    80,  2.014)  /* Lightning Bolt VI */
-     , (2486,    84,   2.04)  /* Flame Bolt V */
-     , (2486,    85,  2.014)  /* Flame Bolt VI */
-     , (2486,    90,   2.04)  /* Force Bolt V */
-     , (2486,    91,  2.014)  /* Force Bolt VI */
-     , (2486,    96,   2.04)  /* Whirling Blade V */
-     , (2486,    97,  2.014)  /* Whirling Blade VI */
-     , (2486,   137,   2.04)  /* Frost Volley V */
-     , (2486,   141,   2.04)  /* Lightning Volley V */
-     , (2486,   145,   2.04)  /* Flame Volley V */
-     , (2486,   153,   2.04)  /* Blade Volley V */
-     , (2486,   233,  2.032)  /* Vulnerability Other V */
-     , (2486,   248,  2.032)  /* Invulnerability Self V */
-     , (2486,   260,  2.032)  /* Impregnability Self V */
-     , (2486,   266,  2.032)  /* Defenselessness Other V */
-     , (2486,   278,  2.032)  /* Magic Resistance Self V */
-     , (2486,   284,  2.032)  /* Magic Yield Other V */
-     , (2486,  1158,  2.048)  /* Heal Self III */
+VALUES (2486,  1223,  2.023)  /* Mana Drain Other V */
      , (2486,  1159,  2.048)  /* Heal Self IV */
      , (2486,  1175,  2.023)  /* Harm Other V */
+     , (2486,   260,  2.032)  /* Impregnability Self V */
+     , (2486,    68,   2.04)  /* Shock Wave V */
+     , (2486,    69,  2.014)  /* Shock Wave VI */
+     , (2486,  1158,  2.048)  /* Heal Self III */
+     , (2486,   266,  2.032)  /* Defenselessness Other V */
+     , (2486,   137,   2.04)  /* Frost Volley V */
+     , (2486,    73,   2.04)  /* Frost Bolt V */
+     , (2486,    74,  2.014)  /* Frost Bolt VI */
+     , (2486,   141,   2.04)  /* Lightning Volley V */
+     , (2486,    79,   2.04)  /* Lightning Bolt V */
+     , (2486,    80,  2.014)  /* Lightning Bolt VI */
+     , (2486,   145,   2.04)  /* Flame Volley V */
+     , (2486,    84,   2.04)  /* Flame Bolt V */
+     , (2486,    85,  2.014)  /* Flame Bolt VI */
+     , (2486,   278,  2.032)  /* Magic Resistance Self V */
+     , (2486,   153,   2.04)  /* Blade Volley V */
+     , (2486,    90,   2.04)  /* Force Bolt V */
+     , (2486,    91,  2.014)  /* Force Bolt VI */
      , (2486,  1199,  2.023)  /* Enfeeble Other V */
-     , (2486,  1223,  2.023)  /* Mana Drain Other V */;
+     , (2486,   284,  2.032)  /* Magic Yield Other V */
+     , (2486,    96,   2.04)  /* Whirling Blade V */
+     , (2486,    97,  2.014)  /* Whirling Blade VI */
+     , (2486,   233,  2.032)  /* Vulnerability Other V */
+     , (2486,   248,  2.032)  /* Invulnerability Self V */
+     , (2486,    62,   2.04)  /* Acid Stream V */
+     , (2486,    63,  2.014)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (2486,  94) /* ATTACK_NOTIFICATION_EVENT */

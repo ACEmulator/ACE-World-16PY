@@ -111,19 +111,19 @@ VALUES (201,  0,  4,  0,    0,  150,  212,  264,  180,   95,  263,  101,  263,  
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (201,    66,  2.016)  /* Shock Wave III */
+     , (201,  1251,   2.01)  /* Drain Stamina Other III */
      , (201,    71,  2.016)  /* Frost Bolt III */
+     , (201,    94,  2.016)  /* Whirling Blade III */
+     , (201,  1417,  2.007)  /* Slowness Other III */
+     , (201,  1239,   2.01)  /* Drain Health Other III */
+     , (201,   139,  2.009)  /* Lightning Volley III */
      , (201,    77,  2.016)  /* Lightning Bolt III */
      , (201,    88,  2.016)  /* Force Bolt III */
-     , (201,    94,  2.016)  /* Whirling Blade III */
      , (201,   103,  2.009)  /* Shock Blast III */
-     , (201,   139,  2.009)  /* Lightning Volley III */
      , (201,   167,   2.01)  /* Regeneration Self III */
      , (201,   231,  2.007)  /* Vulnerability Other III */
-     , (201,  1239,   2.01)  /* Drain Health Other III */
-     , (201,  1251,   2.01)  /* Drain Stamina Other III */
      , (201,  1262,   2.01)  /* Drain Mana Other III */
-     , (201,  1393,  2.007)  /* Clumsiness Other III */
-     , (201,  1417,  2.007)  /* Slowness Other III */;
+     , (201,  1393,  2.007)  /* Clumsiness Other III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (201,  94) /* ATTACK_NOTIFICATION_EVENT */

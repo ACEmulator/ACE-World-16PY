@@ -119,14 +119,14 @@ VALUES (24280,  0,  4,  0,    0,  230,  189,  101,  191,  166,  191,  166,  207,
      , (24280,  8,  4, 25, 0.75,  240,  197,  106,  199,  173,  199,  173,  216,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24280,    79,  2.075)  /* Lightning Bolt V */
+VALUES (24280,  1160,  2.008)  /* Heal Self V */
      , (24280,  1088,   2.03)  /* Lightning Vulnerability Other V */
-     , (24280,  1160,  2.008)  /* Heal Self V */
-     , (24280,  1241,  2.008)  /* Drain Health Other V */
-     , (24280,  1326,   2.03)  /* Imperil Other V */
-     , (24280,  1342,   2.03)  /* Weakness Other V */
      , (24280,  1395,   2.03)  /* Clumsiness Other V */
-     , (24280,  1419,   2.03)  /* Slowness Other V */;
+     , (24280,  1419,   2.03)  /* Slowness Other V */
+     , (24280,    79,  2.075)  /* Lightning Bolt V */
+     , (24280,  1241,  2.008)  /* Drain Health Other V */
+     , (24280,  1342,   2.03)  /* Weakness Other V */
+     , (24280,  1326,   2.03)  /* Imperil Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (24280,  94) /* ATTACK_NOTIFICATION_EVENT */

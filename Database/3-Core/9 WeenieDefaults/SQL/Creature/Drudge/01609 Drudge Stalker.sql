@@ -127,16 +127,16 @@ VALUES (1609,  0,  4,  0,    0,  150,  129,  104,  135,  129,  135,  129,   54, 
      , (1609,  8,  4, 25, 0.75,  140,  120,   97,  126,  120,  126,  120,   50,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1609,    60,  2.025)  /* Acid Stream III */
-     , (1609,    88,  2.025)  /* Force Bolt III */
-     , (1609,    94,  2.025)  /* Whirling Blade III */
-     , (1609,   231,  2.008)  /* Vulnerability Other III */
+VALUES (1609,   231,  2.008)  /* Vulnerability Other III */
      , (1609,   264,  2.008)  /* Defenselessness Other III */
-     , (1609,  1329,   2.01)  /* Strength Self III */
-     , (1609,  1375,   2.01)  /* Coordination Self III */
      , (1609,  1393,  2.008)  /* Clumsiness Other III */
+     , (1609,  1329,   2.01)  /* Strength Self III */
+     , (1609,    94,  2.025)  /* Whirling Blade III */
+     , (1609,  1417,  2.008)  /* Slowness Other III */
+     , (1609,    88,  2.025)  /* Force Bolt III */
      , (1609,  1399,   2.01)  /* Quickness Self III */
-     , (1609,  1417,  2.008)  /* Slowness Other III */;
+     , (1609,  1375,   2.01)  /* Coordination Self III */
+     , (1609,    60,  2.025)  /* Acid Stream III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (1609,  94) /* ATTACK_NOTIFICATION_EVENT */

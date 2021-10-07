@@ -60,6 +60,6 @@ VALUES (8029,   1,   33554786) /* Setup */
      , (8029,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8029,   246,      2)  /* Invulnerability Self III */
-     , (8029,  2003,      2)  /* Warrior's Lesser Vitality */
+VALUES (8029,  2003,      2)  /* Warrior's Lesser Vitality */
+     , (8029,   246,      2)  /* Invulnerability Self III */
      , (8029,  2007,      2)  /* Warrior's Lesser Vigor */;

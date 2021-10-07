@@ -126,28 +126,28 @@ VALUES (12023,  0,  4,  0,    0,  800,  800,  688,  728,  608,  800,  624,  688,
      , (12023,  8,  4, 45, 0.75,  800,  800,  688,  728,  608,  800,  624,  688,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12023,    73,  2.032)  /* Frost Bolt V */
-     , (12023,    79,  2.032)  /* Lightning Bolt V */
-     , (12023,    84,  2.032)  /* Flame Bolt V */
-     , (12023,    90,  2.032)  /* Force Bolt V */
-     , (12023,    96,  2.032)  /* Whirling Blade V */
-     , (12023,   137,  2.003)  /* Frost Volley V */
-     , (12023,   141,  2.003)  /* Lightning Volley V */
+VALUES (12023,  1159,   2.02)  /* Heal Self IV */
      , (12023,   145,  2.003)  /* Flame Volley V */
-     , (12023,   149,  2.003)  /* Force Volley V */
-     , (12023,   153,  2.003)  /* Blade Volley V */
-     , (12023,   233,  2.023)  /* Vulnerability Other V */
-     , (12023,   278,  2.006)  /* Magic Resistance Self V */
-     , (12023,   285,  2.023)  /* Magic Yield Other VI */
-     , (12023,   609,  2.006)  /* Life Magic Mastery Self V */
-     , (12023,   627,  2.023)  /* Life Magic Ineptitude Other V */
+     , (12023,   137,  2.003)  /* Frost Volley V */
+     , (12023,    73,  2.032)  /* Frost Bolt V */
+     , (12023,  1419,  2.023)  /* Slowness Other V */
+     , (12023,   141,  2.003)  /* Lightning Volley V */
+     , (12023,    79,  2.032)  /* Lightning Bolt V */
      , (12023,   657,  2.006)  /* Mana Conversion Mastery Self V */
-     , (12023,  1159,   2.02)  /* Heal Self IV */
+     , (12023,    84,  2.032)  /* Flame Bolt V */
+     , (12023,   149,  2.003)  /* Force Volley V */
+     , (12023,   278,  2.006)  /* Magic Resistance Self V */
      , (12023,  1175,  2.023)  /* Harm Other V */
      , (12023,  1240,  2.011)  /* Drain Health Other IV */
      , (12023,  1241,  2.023)  /* Drain Health Other V */
+     , (12023,   153,  2.003)  /* Blade Volley V */
+     , (12023,    90,  2.032)  /* Force Bolt V */
+     , (12023,   285,  2.023)  /* Magic Yield Other VI */
      , (12023,  1311,  2.006)  /* Armor Self V */
-     , (12023,  1419,  2.023)  /* Slowness Other V */
+     , (12023,    96,  2.032)  /* Whirling Blade V */
+     , (12023,   609,  2.006)  /* Life Magic Mastery Self V */
+     , (12023,   233,  2.023)  /* Vulnerability Other V */
+     , (12023,   627,  2.023)  /* Life Magic Ineptitude Other V */
      , (12023,  1467,  2.023)  /* Feeblemind Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

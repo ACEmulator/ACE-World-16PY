@@ -55,8 +55,8 @@ VALUES (21374,   1,   33554854) /* Setup */
      , (21374,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21374,  1316,      2)  /* Armor Other V */
-     , (21374,  1486,      2)  /* Impenetrability VI */
+VALUES (21374,  1486,      2)  /* Impenetrability VI */
+     , (21374,  1316,      2)  /* Armor Other V */
      , (21374,  2616,      2)  /* Minor Acid Ward */
      , (21374,  2618,      2)  /* Minor Flame Ward */
      , (21374,  2619,      2)  /* Minor Frost Ward */

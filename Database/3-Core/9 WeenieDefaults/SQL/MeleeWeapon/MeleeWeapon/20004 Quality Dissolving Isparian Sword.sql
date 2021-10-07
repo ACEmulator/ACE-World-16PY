@@ -58,7 +58,7 @@ VALUES (20004,   1,   33556346) /* Setup */
      , (20004,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20004,   518,      2)  /* Acid Protection Self IV */
-     , (20004,  1351,      2)  /* Endurance Self III */
+VALUES (20004,  1351,      2)  /* Endurance Self III */
+     , (20004,   518,      2)  /* Acid Protection Self IV */
      , (20004,  1589,      2)  /* Aura of Heart Seeker Self III */
      , (20004,  1613,      2)  /* Aura of Blood Drinker Self III */;

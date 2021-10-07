@@ -111,16 +111,16 @@ VALUES (8872,  0,  2, 150, 0.75,  300,  600,  600,  600,  600,  498,  600,  600,
      , (8872, 22, 64, 150,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8872,   279,      2)  /* Magic Resistance Self VI */
-     , (8872,   520,      2)  /* Acid Protection Self VI */
-     , (8872,  1023,      2)  /* Bludgeoning Protection Self VI */
-     , (8872,  1035,      2)  /* Cold Protection Self VI */
-     , (8872,  1071,      2)  /* Lightning Protection Self VI */
+VALUES (8872,   520,      2)  /* Acid Protection Self VI */
      , (8872,  1094,      2)  /* Fire Protection Self VI */
-     , (8872,  1114,      2)  /* Blade Protection Self VI */
+     , (8872,  1035,      2)  /* Cold Protection Self VI */
+     , (8872,   279,      2)  /* Magic Resistance Self VI */
      , (8872,  1138,      2)  /* Piercing Protection Self VI */
+     , (8872,  1114,      2)  /* Blade Protection Self VI */
+     , (8872,  1071,      2)  /* Lightning Protection Self VI */
      , (8872,  1312,      2)  /* Armor Self VI */
-     , (8872,  2017,   2.01)  /* Bunny Smite */;
+     , (8872,  2017,   2.01)  /* Bunny Smite */
+     , (8872,  1023,      2)  /* Bludgeoning Protection Self VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (8872, 414) /* PLAYER_DEATH_EVENT */;

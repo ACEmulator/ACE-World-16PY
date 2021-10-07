@@ -111,20 +111,20 @@ VALUES (19537,  0, 32,  0,    0,  260,  260,  260,  260,  286,  286,  260,  260,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19537,    74,  2.004)  /* Frost Bolt VI */
-     , (19537,    80,  2.004)  /* Lightning Bolt VI */
-     , (19537,   234,  2.017)  /* Vulnerability Other VI */
-     , (19537,   267,  2.017)  /* Defenselessness Other VI */
-     , (19537,   278,  2.008)  /* Magic Resistance Self V */
      , (19537,   520,  2.008)  /* Acid Protection Self VI */
-     , (19537,  1065,  2.017)  /* Cold Vulnerability Other VI */
+     , (19537,  1788,  2.004)  /* Eye of the Storm */
+     , (19537,   234,  2.017)  /* Vulnerability Other VI */
      , (19537,  1094,  2.008)  /* Fire Protection Self VI */
-     , (19537,  1108,  2.017)  /* Fire Vulnerability Other VI */
+     , (19537,   278,  2.008)  /* Magic Resistance Self V */
      , (19537,  1161,  2.013)  /* Heal Self VI */
-     , (19537,  1242,  2.008)  /* Drain Health Other VI */
-     , (19537,  1327,  2.017)  /* Imperil Other VI */
      , (19537,  1343,  2.017)  /* Weakness Other VI */
-     , (19537,  1787,  2.004)  /* Halo of Frost */
-     , (19537,  1788,  2.004)  /* Eye of the Storm */;
+     , (19537,   267,  2.017)  /* Defenselessness Other VI */
+     , (19537,  1108,  2.017)  /* Fire Vulnerability Other VI */
+     , (19537,    80,  2.004)  /* Lightning Bolt VI */
+     , (19537,  1242,  2.008)  /* Drain Health Other VI */
+     , (19537,  1065,  2.017)  /* Cold Vulnerability Other VI */
+     , (19537,  1327,  2.017)  /* Imperil Other VI */
+     , (19537,  1787,  2.004)  /* Halo of Frost */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (19537,  94) /* ATTACK_NOTIFICATION_EVENT */

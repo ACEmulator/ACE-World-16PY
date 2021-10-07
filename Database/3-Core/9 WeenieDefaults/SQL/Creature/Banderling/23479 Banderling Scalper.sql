@@ -117,17 +117,17 @@ VALUES (23479,  0,  4,  0,    0,  350,  161,  109,  182,  161,  291,  109,  382,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23479,    68,   2.08)  /* Shock Wave V */
+     , (23479,  1161,  2.008)  /* Heal Self VI */
      , (23479,    69,   2.08)  /* Shock Wave VI */
+     , (23479,  1420,   2.08)  /* Slowness Other VI */
      , (23479,    97,   2.08)  /* Whirling Blade VI */
      , (23479,  1053,   2.08)  /* Bludgeoning Vulnerability Other VI */
-     , (23479,  1132,   2.08)  /* Blade Vulnerability Other VI */
-     , (23479,  1161,  2.008)  /* Heal Self VI */
      , (23479,  1237,  2.008)  /* Drain Health Other I */
      , (23479,  1242,  2.008)  /* Drain Health Other VI */
+     , (23479,  1132,   2.08)  /* Blade Vulnerability Other VI */
      , (23479,  1327,   2.08)  /* Imperil Other VI */
-     , (23479,  1343,   2.08)  /* Weakness Other VI */
      , (23479,  1396,   2.08)  /* Clumsiness Other VI */
-     , (23479,  1420,   2.08)  /* Slowness Other VI */;
+     , (23479,  1343,   2.08)  /* Weakness Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (23479,  94) /* ATTACK_NOTIFICATION_EVENT */

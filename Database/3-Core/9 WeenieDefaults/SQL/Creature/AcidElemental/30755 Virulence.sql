@@ -110,17 +110,17 @@ VALUES (30755,  0, 32,  0,    0,  435,  435,  435,  435,  435,  435,  435,  479,
      , (30755,  8, 32, 120, 0.75,  435,  435,  435,  435,  435,  435,  435,  479,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30755,   176,  2.017)  /* Fester Other VI */
-     , (30755,   233,  2.017)  /* Vulnerability Other V */
+VALUES (30755,  1241,  2.008)  /* Drain Health Other V */
      , (30755,   278,  2.008)  /* Magic Resistance Self V */
-     , (30755,   526,  2.017)  /* Acid Vulnerability Other VI */
      , (30755,  1161,  2.013)  /* Heal Self VI */
-     , (30755,  1241,  2.008)  /* Drain Health Other V */
-     , (30755,  1327,  2.017)  /* Imperil Other VI */
-     , (30755,  1783,  2.004)  /* Searing Disc */
+     , (30755,   233,  2.017)  /* Vulnerability Other V */
      , (30755,  2121,  2.004)  /* Corrosive Flash */
      , (30755,  2122,  2.004)  /* Disintegration */
-     , (30755,  2159,  2.008)  /* Storm's Blessing */;
+     , (30755,  1327,  2.017)  /* Imperil Other VI */
+     , (30755,   526,  2.017)  /* Acid Vulnerability Other VI */
+     , (30755,  2159,  2.008)  /* Storm's Blessing */
+     , (30755,   176,  2.017)  /* Fester Other VI */
+     , (30755,  1783,  2.004)  /* Searing Disc */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (30755,  94) /* ATTACK_NOTIFICATION_EVENT */

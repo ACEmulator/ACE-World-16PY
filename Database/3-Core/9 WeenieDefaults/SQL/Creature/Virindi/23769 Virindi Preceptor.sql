@@ -109,23 +109,23 @@ VALUES (23769,  0,  1,  0,    0,  300,  300,  300,  300,  216,  300,  300,  216,
      , (23769, 17,  1,  0,    0,  300,  300,  300,  300,  216,  300,  300,  216,    0, 3,    0,    0,  0.1,    0,    0,  0.1,    0, 0.13, 0.45,    0, 0.13, 0.45) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23769,    84,  2.055)  /* Flame Bolt V */
-     , (23769,    96,  2.055)  /* Whirling Blade V */
-     , (23769,   278,      2)  /* Magic Resistance Self V */
+VALUES (23769,  1342,   2.04)  /* Weakness Other V */
      , (23769,   519,      2)  /* Acid Protection Self V */
-     , (23769,  1022,      2)  /* Bludgeoning Protection Self V */
      , (23769,  1093,      2)  /* Fire Protection Self V */
+     , (23769,    84,  2.055)  /* Flame Bolt V */
+     , (23769,  1160,      2)  /* Heal Self V */
      , (23769,  1107,   2.04)  /* Fire Vulnerability Other V */
      , (23769,  1113,      2)  /* Blade Protection Self V */
-     , (23769,  1131,   2.04)  /* Blade Vulnerability Other V */
-     , (23769,  1137,      2)  /* Piercing Protection Self V */
-     , (23769,  1160,      2)  /* Heal Self V */
      , (23769,  1241,      2)  /* Drain Health Other V */
-     , (23769,  1311,      2)  /* Armor Self V */
-     , (23769,  1326,   2.04)  /* Imperil Other V */
-     , (23769,  1342,   2.04)  /* Weakness Other V */
+     , (23769,   278,      2)  /* Magic Resistance Self V */
+     , (23769,    96,  2.055)  /* Whirling Blade V */
      , (23769,  1371,   2.04)  /* Frailty Other V */
-     , (23769,  1443,   2.04)  /* Bafflement Other V */;
+     , (23769,  1311,      2)  /* Armor Self V */
+     , (23769,  1443,   2.04)  /* Bafflement Other V */
+     , (23769,  1131,   2.04)  /* Blade Vulnerability Other V */
+     , (23769,  1326,   2.04)  /* Imperil Other V */
+     , (23769,  1137,      2)  /* Piercing Protection Self V */
+     , (23769,  1022,      2)  /* Bludgeoning Protection Self V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (23769,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -49,8 +49,8 @@ VALUES (21911,   1,   33557963) /* Setup */
      , (21911,  28,       2782) /* Spell - Lesser Elemental Fury */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21911,   640,      2)  /* War Magic Mastery Other VI */
-     , (21911,   664,      2)  /* Mana Conversion Mastery Other VI */
-     , (21911,  2581,      2)  /* Minor Focus */
+VALUES (21911,   664,      2)  /* Mana Conversion Mastery Other VI */
      , (21911,  2584,      2)  /* Minor Willpower */
+     , (21911,   640,      2)  /* War Magic Mastery Other VI */
+     , (21911,  2581,      2)  /* Minor Focus */
      , (21911,  2812,      2)  /* Moderate War Magic Aptitude */;

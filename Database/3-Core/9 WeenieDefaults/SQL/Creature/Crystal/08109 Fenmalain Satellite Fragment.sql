@@ -112,19 +112,19 @@ VALUES (8109,  0,  4, 25, 0.75,   50,   55,   50,   45,   55,  100,  100,   50, 
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8109,     6,   2.04)  /* Heal Self I */
-     , (8109,     7,  2.044)  /* Harm Other I */
-     , (8109,    24,   2.04)  /* Armor Self I */
-     , (8109,    75,  2.115)  /* Lightning Bolt I */
-     , (8109,    76,  2.031)  /* Lightning Bolt II */
-     , (8109,   165,  2.032)  /* Regeneration Self I */
+     , (8109,  1415,  2.044)  /* Slowness Other I */
      , (8109,   275,  2.032)  /* Magic Resistance Self II */
-     , (8109,   280,  2.044)  /* Magic Yield Other I */
-     , (8109,   606,  2.032)  /* Life Magic Mastery Self II */
-     , (8109,   623,  2.044)  /* Life Magic Ineptitude Other I */
      , (8109,   654,  2.032)  /* Mana Conversion Mastery Self II */
-     , (8109,  1084,  2.044)  /* Lightning Vulnerability Other I */
+     , (8109,    76,  2.031)  /* Lightning Bolt II */
+     , (8109,     7,  2.044)  /* Harm Other I */
+     , (8109,   280,  2.044)  /* Magic Yield Other I */
+     , (8109,    75,  2.115)  /* Lightning Bolt I */
      , (8109,  1237,  2.044)  /* Drain Health Other I */
-     , (8109,  1415,  2.044)  /* Slowness Other I */;
+     , (8109,    24,   2.04)  /* Armor Self I */
+     , (8109,   606,  2.032)  /* Life Magic Mastery Self II */
+     , (8109,   165,  2.032)  /* Regeneration Self I */
+     , (8109,   623,  2.044)  /* Life Magic Ineptitude Other I */
+     , (8109,  1084,  2.044)  /* Lightning Vulnerability Other I */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (8109,  94) /* ATTACK_NOTIFICATION_EVENT */

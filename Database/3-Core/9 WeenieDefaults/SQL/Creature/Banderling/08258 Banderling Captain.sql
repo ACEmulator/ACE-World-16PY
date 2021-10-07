@@ -131,14 +131,14 @@ VALUES (8258,  0,  4,  0,    0,   90,   45,   34,   55,   45,   63,   34,   54, 
      , (8258,  8,  4, 12, 0.75,   70,   35,   27,   43,   35,   49,   27,   42,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8258,     6,   2.01)  /* Heal Self I */
+VALUES (8258,    64,  2.005)  /* Shock Wave I */
+     , (8258,    81,   2.02)  /* Flame Bolt II */
+     , (8258,    65,   2.02)  /* Shock Wave II */
+     , (8258,    94,  2.005)  /* Whirling Blade III */
+     , (8258,     6,   2.01)  /* Heal Self I */
      , (8258,    15,   2.01)  /* Vulnerability Other I */
      , (8258,    18,   2.01)  /* Invulnerability Self I */
-     , (8258,    64,  2.005)  /* Shock Wave I */
-     , (8258,    65,   2.02)  /* Shock Wave II */
-     , (8258,    81,   2.02)  /* Flame Bolt II */
-     , (8258,    93,   2.02)  /* Whirling Blade II */
-     , (8258,    94,  2.005)  /* Whirling Blade III */;
+     , (8258,    93,   2.02)  /* Whirling Blade II */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (8258,  94) /* ATTACK_NOTIFICATION_EVENT */

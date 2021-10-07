@@ -49,7 +49,7 @@ VALUES (14504,   1,   33554683) /* Setup */
      , (14504,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (14504,   272,      2)  /* Magic Resistance Other V */
+VALUES (14504,  2642,      2)  /* Consumption */
      , (14504,   514,      2)  /* Acid Protection Other VI */
-     , (14504,  2580,      2)  /* Minor Endurance */
-     , (14504,  2642,      2)  /* Consumption */;
+     , (14504,   272,      2)  /* Magic Resistance Other V */
+     , (14504,  2580,      2)  /* Minor Endurance */;

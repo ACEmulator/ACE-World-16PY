@@ -52,6 +52,6 @@ VALUES (28158,   1,   33554809) /* Setup */
      , (28158,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28158,  2156,      2)  /* Fiery Boon */
-     , (28158,  2618,      2)  /* Minor Flame Ward */
-     , (28158,  3371,      2)  /* Greater Life Giver */;
+VALUES (28158,  2618,      2)  /* Minor Flame Ward */
+     , (28158,  3371,      2)  /* Greater Life Giver */
+     , (28158,  2156,      2)  /* Fiery Boon */;

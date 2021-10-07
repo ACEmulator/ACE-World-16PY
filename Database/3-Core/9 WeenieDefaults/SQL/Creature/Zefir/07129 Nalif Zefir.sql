@@ -105,19 +105,19 @@ VALUES (7129,  0,  2, 15,  0.5,  100,   80,   59,   69,   59,   32,   59,    3, 
      , (7129, 21,  4,  0,    0,   95,   76,   56,   66,   56,   30,   56,    3,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7129,    67,  2.034)  /* Shock Wave IV */
+VALUES (7129,  1159,  2.015)  /* Heal Self IV */
      , (7129,    83,  2.034)  /* Flame Bolt IV */
+     , (7129,    67,  2.034)  /* Shock Wave IV */
+     , (7129,  1370,  2.005)  /* Frailty Other IV */
+     , (7129,  1418,  2.005)  /* Slowness Other IV */
+     , (7129,  1174,  2.005)  /* Harm Other IV */
+     , (7129,   283,  2.005)  /* Magic Yield Other IV */
+     , (7129,  1240,   2.01)  /* Drain Health Other IV */
      , (7129,    89,  2.034)  /* Force Bolt IV */
      , (7129,    95,  2.034)  /* Whirling Blade IV */
-     , (7129,   283,  2.005)  /* Magic Yield Other IV */
-     , (7129,  1159,  2.015)  /* Heal Self IV */
-     , (7129,  1174,  2.005)  /* Harm Other IV */
-     , (7129,  1198,  2.005)  /* Enfeeble Other IV */
-     , (7129,  1240,   2.01)  /* Drain Health Other IV */
      , (7129,  1252,   2.01)  /* Drain Stamina Other IV */
-     , (7129,  1263,   2.01)  /* Drain Mana Other IV */
-     , (7129,  1370,  2.005)  /* Frailty Other IV */
-     , (7129,  1418,  2.005)  /* Slowness Other IV */;
+     , (7129,  1198,  2.005)  /* Enfeeble Other IV */
+     , (7129,  1263,   2.01)  /* Drain Mana Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (7129,  94) /* ATTACK_NOTIFICATION_EVENT */

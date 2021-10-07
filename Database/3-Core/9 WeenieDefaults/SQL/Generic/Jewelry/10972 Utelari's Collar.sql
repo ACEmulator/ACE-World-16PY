@@ -39,5 +39,5 @@ VALUES (10972,   1,   33554810) /* Setup */
      , (10972,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10972,   957,      2)  /* Fealty Other VI */
-     , (10972,  1384,      2)  /* Coordination Other VI */;
+VALUES (10972,  1384,      2)  /* Coordination Other VI */
+     , (10972,   957,      2)  /* Fealty Other VI */;

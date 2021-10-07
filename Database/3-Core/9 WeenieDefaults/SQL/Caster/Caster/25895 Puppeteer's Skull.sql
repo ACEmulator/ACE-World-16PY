@@ -48,5 +48,5 @@ VALUES (25895,   1,   33558558) /* Setup */
      , (25895,  28,       2998) /* Spell - Wrath of the Puppeteer */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25895,  1478,      2)  /* Aura of Hermetic Link Self IV */
-     , (25895,  2624,      2)  /* Major Mana Gain */;
+VALUES (25895,  2624,      2)  /* Major Mana Gain */
+     , (25895,  1478,      2)  /* Aura of Hermetic Link Self IV */;

@@ -109,11 +109,11 @@ VALUES (21779,  0, 16, 30, 0.75,  190,  143,  143,  143, 3800, 3800, 3800, 3800,
      , (21779, 25, 16, 10, 0.75,  200,  150,  150,  150, 4000, 4000, 4000, 4000,    0, 3,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* LowerTentacle */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21779,    85,   2.35)  /* Flame Bolt VI */
-     , (21779,   234,    2.1)  /* Vulnerability Other VI */
-     , (21779,  1327,    2.1)  /* Imperil Other VI */
+VALUES (21779,  1327,    2.1)  /* Imperil Other VI */
      , (21779,  1801,   2.35)  /* Flame Streak VI */
-     , (21779,  2170,    2.1)  /* Inferno's Gift */;
+     , (21779,    85,   2.35)  /* Flame Bolt VI */
+     , (21779,  2170,    2.1)  /* Inferno's Gift */
+     , (21779,   234,    2.1)  /* Vulnerability Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (21779,  94) /* ATTACK_NOTIFICATION_EVENT */

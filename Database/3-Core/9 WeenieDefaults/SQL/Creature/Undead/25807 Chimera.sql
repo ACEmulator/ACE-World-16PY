@@ -126,13 +126,13 @@ VALUES (25807,  0,  4,  0,    0,  450,  450,  450,  450,  450,  450,  450,  450,
      , (25807,  8,  4, 130, 0.75,  450,  450,  450,  450,  450,  450,  450,  450,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25807,  2162,    2.1)  /* Olthoi's Gift */
-     , (25807,  2164,    2.1)  /* Swordsman's Gift */
-     , (25807,  2166,    2.1)  /* Tusker's Gift */
-     , (25807,  2168,    2.1)  /* Gelidite's Gift */
-     , (25807,  2170,    2.1)  /* Inferno's Gift */
+VALUES (25807,  2170,    2.1)  /* Inferno's Gift */
+     , (25807,  2162,    2.1)  /* Olthoi's Gift */
      , (25807,  2172,    2.1)  /* Astyrrian's Gift */
-     , (25807,  2174,    2.1)  /* Archer's Gift */;
+     , (25807,  2164,    2.1)  /* Swordsman's Gift */
+     , (25807,  2174,    2.1)  /* Archer's Gift */
+     , (25807,  2166,    2.1)  /* Tusker's Gift */
+     , (25807,  2168,    2.1)  /* Gelidite's Gift */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (25807,  94) /* ATTACK_NOTIFICATION_EVENT */

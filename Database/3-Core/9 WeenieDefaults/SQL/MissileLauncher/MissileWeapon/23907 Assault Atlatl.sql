@@ -62,6 +62,6 @@ VALUES (23907,   1,   33558205) /* Setup */
      , (23907,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23907,  1377,      2)  /* Coordination Self V */
-     , (23907,  1614,      2)  /* Aura of Blood Drinker Self IV */
-     , (23907,  2004,      2)  /* Warrior's Vitality */;
+VALUES (23907,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (23907,  2004,      2)  /* Warrior's Vitality */
+     , (23907,  1377,      2)  /* Coordination Self V */;

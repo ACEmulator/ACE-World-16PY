@@ -130,16 +130,16 @@ VALUES (8428,  0,  4,  0,    0,  130,   43,   70,   70,   21,   52,  143,   91, 
      , (8428,  8,  4, 10, 0.75,  120,   40,   65,   65,   19,   48,  132,   84,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8428,  1067,  2.013)  /* Lightning Protection Self II */
-     , (8428,  1085,  2.125)  /* Lightning Vulnerability Other II */
-     , (8428,  1090,  2.013)  /* Fire Protection Self II */
-     , (8428,  1104,  2.125)  /* Fire Vulnerability Other II */
+VALUES (8428,  1104,  2.125)  /* Fire Vulnerability Other II */
      , (8428,  1152,  2.125)  /* Piercing Vulnerability Other II */
+     , (8428,  1815,  2.029)  /* Lightning Streak II */
+     , (8428,  1090,  2.013)  /* Fire Protection Self II */
      , (8428,  1157,   2.04)  /* Heal Self II */
-     , (8428,  1308,  2.013)  /* Armor Self II */
      , (8428,  1323,  2.125)  /* Imperil Other II */
      , (8428,  1797,  2.029)  /* Flame Streak II */
-     , (8428,  1815,  2.029)  /* Lightning Streak II */;
+     , (8428,  1067,  2.013)  /* Lightning Protection Self II */
+     , (8428,  1308,  2.013)  /* Armor Self II */
+     , (8428,  1085,  2.125)  /* Lightning Vulnerability Other II */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (8428,  94) /* ATTACK_NOTIFICATION_EVENT */

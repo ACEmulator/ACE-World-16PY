@@ -52,14 +52,14 @@ VALUES (9037,   1,   33554647) /* Setup */
      , (9037,  41,         34) /* ItemSpecializedOnly - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9037,   211,      2)  /* Mana Renewal Other VI */
+VALUES (9037,  2380,      2)  /* Grip of Instrumentality */
+     , (9037,   211,      2)  /* Mana Renewal Other VI */
+     , (9037,  2353,      2)  /* Greater Stimulation Durance */
      , (9037,   273,      2)  /* Magic Resistance Other VI */
      , (9037,  2349,      2)  /* Hieromancer's Ward */
      , (9037,  2350,      2)  /* Greater Decay Durance */
      , (9037,  2351,      2)  /* Greater Consumption Durance */
      , (9037,  2352,      2)  /* Greater Stasis Durance */
-     , (9037,  2353,      2)  /* Greater Stimulation Durance */
      , (9037,  2354,      2)  /* Lesser Piercing Durance */
      , (9037,  2355,      2)  /* Lesser Slashing Durance */
-     , (9037,  2356,      2)  /* Lesser Bludgeoning Durance */
-     , (9037,  2380,      2)  /* Grip of Instrumentality */;
+     , (9037,  2356,      2)  /* Lesser Bludgeoning Durance */;

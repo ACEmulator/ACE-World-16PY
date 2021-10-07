@@ -47,5 +47,5 @@ VALUES (27123,   1,   33558584) /* Setup */
      , (27123,  36,  234881044) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27123,  2096,      2)  /* Aura of Infected Caress */
-     , (27123,  2116,      2)  /* Aura of Atlan's Alacrity */;
+VALUES (27123,  2116,      2)  /* Aura of Atlan's Alacrity */
+     , (27123,  2096,      2)  /* Aura of Infected Caress */;

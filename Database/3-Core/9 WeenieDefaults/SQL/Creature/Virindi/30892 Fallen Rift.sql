@@ -114,12 +114,12 @@ VALUES (30892,  0,  5, 75, 0.75,  750,  750,  750,  750,  750,  750,  750,  750,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30892,  2122,  2.115)  /* Disintegration */
-     , (30892,  2151,  2.115)  /* Blessing of the Blade Turner */
-     , (30892,  2153,  2.115)  /* Blessing of the Mace Turner */
      , (30892,  2155,  2.115)  /* Icy Blessing */
+     , (30892,  2717,  2.115)  /* Acid Arc VII */
      , (30892,  2159,  2.115)  /* Storm's Blessing */
+     , (30892,  2151,  2.115)  /* Blessing of the Blade Turner */
      , (30892,  2161,  2.115)  /* Blessing of the Arrow Turner */
-     , (30892,  2717,  2.115)  /* Acid Arc VII */;
+     , (30892,  2153,  2.115)  /* Blessing of the Mace Turner */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (30892,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -128,21 +128,21 @@ VALUES (28382,  0,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,
      , (28382,  8,  4, 180,  0.5,  500,  525,  650,  500,  650,  500,  525,  600,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28382,    62,   2.01)  /* Acid Stream V */
-     , (28382,    90,   2.01)  /* Force Bolt V */
+VALUES (28382,  1132,   2.01)  /* Blade Vulnerability Other VI */
      , (28382,    96,   2.01)  /* Whirling Blade V */
-     , (28382,   176,   2.01)  /* Fester Other VI */
-     , (28382,   526,   2.01)  /* Acid Vulnerability Other VI */
-     , (28382,  1053,   2.01)  /* Bludgeoning Vulnerability Other VI */
-     , (28382,  1132,   2.01)  /* Blade Vulnerability Other VI */
      , (28382,  1156,   2.01)  /* Piercing Vulnerability Other VI */
+     , (28382,  3375,  2.005)  /* Fungal Bloom */
+     , (28382,  3439,  2.005)  /* Mucor Blight */
+     , (28382,   526,   2.01)  /* Acid Vulnerability Other VI */
      , (28382,  1241,   2.01)  /* Drain Health Other V */
      , (28382,  3373,  2.005)  /* Diseased Air */
-     , (28382,  3375,  2.005)  /* Fungal Bloom */
+     , (28382,    90,   2.01)  /* Force Bolt V */
+     , (28382,  1053,   2.01)  /* Bludgeoning Vulnerability Other VI */
+     , (28382,  3428,  2.005)  /* Withering */
+     , (28382,   176,   2.01)  /* Fester Other VI */
      , (28382,  3382,  2.005)  /* Diseased Air */
      , (28382,  3383,  2.005)  /* Fungal Bloom */
-     , (28382,  3428,  2.005)  /* Withering */
-     , (28382,  3439,  2.005)  /* Mucor Blight */;
+     , (28382,    62,   2.01)  /* Acid Stream V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (28382,  94) /* ATTACK_NOTIFICATION_EVENT */

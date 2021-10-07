@@ -44,6 +44,6 @@ VALUES (25946,   1,   33554691) /* Setup */
      , (25946,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25946,   244,      2)  /* Invulnerability Other VI */
-     , (25946,  1432,      2)  /* Focus Other VI */
-     , (25946,  2090,      2)  /* Bolstered Will */;
+VALUES (25946,  1432,      2)  /* Focus Other VI */
+     , (25946,  2090,      2)  /* Bolstered Will */
+     , (25946,   244,      2)  /* Invulnerability Other VI */;

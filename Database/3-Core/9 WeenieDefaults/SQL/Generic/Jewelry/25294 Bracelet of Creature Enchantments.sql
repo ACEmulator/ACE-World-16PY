@@ -41,8 +41,8 @@ VALUES (25294,   1,   33554683) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25294,     1,      2)  /* Strength Other I */
-     , (25294,  1355,      2)  /* Endurance Other I */
-     , (25294,  1379,      2)  /* Coordination Other I */
      , (25294,  1403,      2)  /* Quickness Other I */
+     , (25294,  1451,      2)  /* Willpower Other I */
+     , (25294,  1379,      2)  /* Coordination Other I */
      , (25294,  1427,      2)  /* Focus Other I */
-     , (25294,  1451,      2)  /* Willpower Other I */;
+     , (25294,  1355,      2)  /* Endurance Other I */;

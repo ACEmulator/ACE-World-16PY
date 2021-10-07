@@ -116,16 +116,16 @@ VALUES (28882,  0,  4,  0,    0,  220,  147,   22,   22,   22,  154,   22,  147,
      , (28882,  8,  4, 60, 0.75,  220,  147,   22,   22,   22,  154,   22,  147,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28882,   174,  2.009)  /* Fester Other IV */
+VALUES (28882,  1092,  2.008)  /* Fire Protection Self IV */
      , (28882,   197,  2.009)  /* Exhaustion Other IV */
-     , (28882,   247,  2.008)  /* Invulnerability Self IV */
-     , (28882,  1092,  2.008)  /* Fire Protection Self IV */
-     , (28882,  1158,  2.019)  /* Heal Self III */
-     , (28882,  1174,  2.053)  /* Harm Other IV */
      , (28882,  1198,  2.009)  /* Enfeeble Other IV */
+     , (28882,  1174,  2.053)  /* Harm Other IV */
+     , (28882,  1158,  2.019)  /* Heal Self III */
      , (28882,  1240,      2)  /* Drain Health Other IV */
+     , (28882,  1310,  2.008)  /* Armor Self IV */
+     , (28882,   174,  2.009)  /* Fester Other IV */
      , (28882,  1263,  2.009)  /* Drain Mana Other IV */
-     , (28882,  1310,  2.008)  /* Armor Self IV */;
+     , (28882,   247,  2.008)  /* Invulnerability Self IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (28882,  94) /* ATTACK_NOTIFICATION_EVENT */

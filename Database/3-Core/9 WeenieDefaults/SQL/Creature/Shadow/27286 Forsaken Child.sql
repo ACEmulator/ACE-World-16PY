@@ -126,26 +126,26 @@ VALUES (27286,  0,  4,  0,    0,  500,  500,  500,  500,  500,  500,  500,  500,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27286,  2053,  2.005)  /* Executor's Blessing */
-     , (27286,  2073,   2.02)  /* Adja's Intervention */
+     , (27286,  3210,   2.01)  /* Agitate */
+     , (27286,  3211,   2.01)  /* Annoyance */
      , (27286,  2128,   2.02)  /* Ilservian's Flame */
+     , (27286,  3212,   2.01)  /* Guilt Trip */
+     , (27286,  3213,   2.01)  /* Heart Ache */
+     , (27286,  2329,   2.02)  /* Essence Void */
+     , (27286,  3214,   2.01)  /* Sorrow */
+     , (27286,  3215,   2.01)  /* Underfoot */
      , (27286,  2132,   2.02)  /* The Spike */
+     , (27286,  2328,   2.02)  /* Vitality Siphon */
      , (27286,  2136,   2.02)  /* Icy Torment */
+     , (27286,  2073,   2.02)  /* Adja's Intervention */
+     , (27286,  2330,   2.02)  /* Vigor Siphon */
      , (27286,  2140,   2.02)  /* Alset's Coil */
      , (27286,  2146,   2.02)  /* Evisceration */
+     , (27286,  2282,   2.02)  /* Futility */
      , (27286,  2164,   2.02)  /* Swordsman's Gift */
      , (27286,  2168,   2.02)  /* Gelidite's Gift */
      , (27286,  2172,   2.02)  /* Astyrrian's Gift */
-     , (27286,  2174,   2.02)  /* Archer's Gift */
-     , (27286,  2282,   2.02)  /* Futility */
-     , (27286,  2328,   2.02)  /* Vitality Siphon */
-     , (27286,  2329,   2.02)  /* Essence Void */
-     , (27286,  2330,   2.02)  /* Vigor Siphon */
-     , (27286,  3210,   2.01)  /* Agitate */
-     , (27286,  3211,   2.01)  /* Annoyance */
-     , (27286,  3212,   2.01)  /* Guilt Trip */
-     , (27286,  3213,   2.01)  /* Heart Ache */
-     , (27286,  3214,   2.01)  /* Sorrow */
-     , (27286,  3215,   2.01)  /* Underfoot */;
+     , (27286,  2174,   2.02)  /* Archer's Gift */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (27286,  94) /* ATTACK_NOTIFICATION_EVENT */

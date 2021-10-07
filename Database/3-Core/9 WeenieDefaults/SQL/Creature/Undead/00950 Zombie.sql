@@ -158,23 +158,23 @@ VALUES (950,  0,  4,  0,    0,   30,   24,    9,    7,   11,   15,    7,   15,  
      , (950,  8,  4,  3, 0.75,   45,   36,   13,   10,   16,   23,   10,   22,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (950,    27,  2.004)  /* Flame Bolt I */
-     , (950,    28,  2.004)  /* Frost Bolt I */
-     , (950,    58,  2.004)  /* Acid Stream I */
-     , (950,    59,  2.026)  /* Acid Stream II */
+VALUES (950,  1220,   2.06)  /* Mana Drain Other II */
+     , (950,  1339,  2.015)  /* Weakness Other II */
      , (950,    64,  2.004)  /* Shock Wave I */
+     , (950,    81,  2.026)  /* Flame Bolt II */
      , (950,    65,  2.026)  /* Shock Wave II */
+     , (950,    86,  2.004)  /* Force Bolt I */
      , (950,    70,  2.026)  /* Frost Bolt II */
      , (950,    75,  2.004)  /* Lightning Bolt I */
      , (950,    76,  2.026)  /* Lightning Bolt II */
-     , (950,    81,  2.026)  /* Flame Bolt II */
-     , (950,    86,  2.004)  /* Force Bolt I */
      , (950,    87,  2.026)  /* Force Bolt II */
+     , (950,    27,  2.004)  /* Flame Bolt I */
+     , (950,    28,  2.004)  /* Frost Bolt I */
      , (950,    92,  2.004)  /* Whirling Blade I */
      , (950,    93,  2.026)  /* Whirling Blade II */
      , (950,   172,  2.015)  /* Fester Other II */
-     , (950,  1220,   2.06)  /* Mana Drain Other II */
-     , (950,  1339,  2.015)  /* Weakness Other II */;
+     , (950,    58,  2.004)  /* Acid Stream I */
+     , (950,    59,  2.026)  /* Acid Stream II */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (950,  94) /* ATTACK_NOTIFICATION_EVENT */

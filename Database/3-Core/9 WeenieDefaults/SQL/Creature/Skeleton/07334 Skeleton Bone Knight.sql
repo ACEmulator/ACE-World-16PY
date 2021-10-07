@@ -122,10 +122,10 @@ VALUES (7334,  0,  4,  0,    0,  120,   44,   19,   60,    6,   98,   20,   40, 
      , (7334,  8,  4,  5, 0.75,  130,   48,   21,   65,    7,  107,   22,   43,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7334,   523,  2.067)  /* Acid Vulnerability Other III */
+VALUES (7334,  1417,  2.067)  /* Slowness Other III */
+     , (7334,   523,  2.067)  /* Acid Vulnerability Other III */
      , (7334,  1239,   2.08)  /* Drain Health Other III */
-     , (7334,  1324,  2.067)  /* Imperil Other III */
-     , (7334,  1417,  2.067)  /* Slowness Other III */;
+     , (7334,  1324,  2.067)  /* Imperil Other III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (7334,  94) /* ATTACK_NOTIFICATION_EVENT */

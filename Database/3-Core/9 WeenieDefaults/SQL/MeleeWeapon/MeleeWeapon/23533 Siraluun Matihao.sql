@@ -52,7 +52,7 @@ VALUES (23533,   1,   33557229) /* Setup */
      , (23533,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23533,   441,      2)  /* Light Weapon Mastery Other V */
-     , (23533,  1407,      2)  /* Quickness Other V */
+VALUES (23533,  1615,      2)  /* Aura of Blood Drinker Self V */
      , (23533,  1590,      2)  /* Aura of Heart Seeker Self IV */
-     , (23533,  1615,      2)  /* Aura of Blood Drinker Self V */;
+     , (23533,   441,      2)  /* Light Weapon Mastery Other V */
+     , (23533,  1407,      2)  /* Quickness Other V */;

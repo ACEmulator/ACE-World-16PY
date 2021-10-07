@@ -60,8 +60,8 @@ VALUES (19811,   1,   33556361) /* Setup */
      , (19811,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19811,  1094,      2)  /* Fire Protection Self VI */
-     , (19811,  1331,      2)  /* Strength Self V */
+VALUES (19811,  2696,      2)  /* Moderate Light Weapon Aptitude */
+     , (19811,  1094,      2)  /* Fire Protection Self VI */
      , (19811,  1592,      2)  /* Aura of Heart Seeker Self VI */
      , (19811,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (19811,  2696,      2)  /* Moderate Light Weapon Aptitude */;
+     , (19811,  1331,      2)  /* Strength Self V */;

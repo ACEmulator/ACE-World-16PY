@@ -131,20 +131,20 @@ VALUES (23089,  0,  4,  0,    0,  500,  500,  400,  425,  300,  550,  350,  375,
      , (23089,  8,  4, 60, 0.75,   60,   60,   48,   51,   36,   66,   42,   45,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23089,    74,  2.036)  /* Frost Bolt VI */
+VALUES (23089,  1161,  2.009)  /* Heal Self VI */
+     , (23089,   154,  2.005)  /* Blade Volley VI */
+     , (23089,   146,  2.005)  /* Flame Volley VI */
+     , (23089,  1254,  2.009)  /* Drain Stamina Other VI */
+     , (23089,   138,  2.005)  /* Frost Volley VI */
+     , (23089,    74,  2.036)  /* Frost Bolt VI */
+     , (23089,   267,   2.01)  /* Defenselessness Other VI */
+     , (23089,   285,   2.01)  /* Magic Yield Other VI */
+     , (23089,  1242,  2.009)  /* Drain Health Other VI */
+     , (23089,   142,  2.005)  /* Lightning Volley VI */
      , (23089,    80,  2.036)  /* Lightning Bolt VI */
      , (23089,    91,  2.036)  /* Force Bolt VI */
      , (23089,    97,  2.036)  /* Whirling Blade VI */
-     , (23089,   138,  2.005)  /* Frost Volley VI */
-     , (23089,   142,  2.005)  /* Lightning Volley VI */
-     , (23089,   146,  2.005)  /* Flame Volley VI */
-     , (23089,   154,  2.005)  /* Blade Volley VI */
      , (23089,   234,   2.01)  /* Vulnerability Other VI */
-     , (23089,   267,   2.01)  /* Defenselessness Other VI */
-     , (23089,   285,   2.01)  /* Magic Yield Other VI */
-     , (23089,  1161,  2.009)  /* Heal Self VI */
-     , (23089,  1242,  2.009)  /* Drain Health Other VI */
-     , (23089,  1254,  2.009)  /* Drain Stamina Other VI */
      , (23089,  1265,  2.009)  /* Drain Mana Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

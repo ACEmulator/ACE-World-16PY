@@ -107,21 +107,21 @@ VALUES (25849,  0,  2, 175,  0.5,  500,  700,  400,  750,  300,  475,  375,  325
      , (25849, 21,  4,  0,    0,  500,  700,  400,  750,  300,  475,  375,  325,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25849,    97,   2.03)  /* Whirling Blade VI */
-     , (25849,   285,   2.02)  /* Magic Yield Other VI */
-     , (25849,  1240,      2)  /* Drain Health Other IV */
-     , (25849,  1264,   2.01)  /* Drain Mana Other V */
-     , (25849,  1492,  2.005)  /* Brittlemail VI */
-     , (25849,  1557,  2.005)  /* Blade Lure VI */
-     , (25849,  1611,  2.005)  /* Lure Blade VI */
-     , (25849,  1621,  2.005)  /* Blood Loather VI */
-     , (25849,  1633,  2.005)  /* Leaden Weapon VI */
-     , (25849,  2073,   2.03)  /* Adja's Intervention */
-     , (25849,  2074,   2.02)  /* Gossamer Flesh */
-     , (25849,  2174,   2.02)  /* Archer's Gift */
-     , (25849,  2318,   2.02)  /* Gravity Well */
+VALUES (25849,  2073,   2.03)  /* Adja's Intervention */
      , (25849,  3000,  2.015)  /* Ire of the Dark Prince */
-     , (25849,  3003,  2.015)  /* Dark Wave */;
+     , (25849,  1611,  2.005)  /* Lure Blade VI */
+     , (25849,  2318,   2.02)  /* Gravity Well */
+     , (25849,  1557,  2.005)  /* Blade Lure VI */
+     , (25849,  1621,  2.005)  /* Blood Loather VI */
+     , (25849,  1492,  2.005)  /* Brittlemail VI */
+     , (25849,  1240,      2)  /* Drain Health Other IV */
+     , (25849,  2074,   2.02)  /* Gossamer Flesh */
+     , (25849,   285,   2.02)  /* Magic Yield Other VI */
+     , (25849,    97,   2.03)  /* Whirling Blade VI */
+     , (25849,  1633,  2.005)  /* Leaden Weapon VI */
+     , (25849,  1264,   2.01)  /* Drain Mana Other V */
+     , (25849,  3003,  2.015)  /* Dark Wave */
+     , (25849,  2174,   2.02)  /* Archer's Gift */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (25849,  94) /* ATTACK_NOTIFICATION_EVENT */

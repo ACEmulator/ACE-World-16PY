@@ -60,8 +60,8 @@ VALUES (20108,   1,   33557767) /* Setup */
      , (20108,  37,          3) /* ItemSkillLimit - Crossbow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20108,  1033,      2)  /* Cold Protection Self IV */
-     , (20108,  1375,      2)  /* Coordination Self III */
-     , (20108,  1603,      2)  /* Aura of Defender Self IV */
+VALUES (20108,  1603,      2)  /* Aura of Defender Self IV */
+     , (20108,  1033,      2)  /* Cold Protection Self IV */
      , (20108,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (20108,  1375,      2)  /* Coordination Self III */
      , (20108,  2677,      2)  /* Feeble Missile Weapon Aptitude */;

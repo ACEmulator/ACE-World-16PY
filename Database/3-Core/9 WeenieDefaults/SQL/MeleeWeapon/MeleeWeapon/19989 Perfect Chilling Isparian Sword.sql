@@ -60,8 +60,8 @@ VALUES (19989,   1,   33556385) /* Setup */
      , (19989,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19989,  1035,      2)  /* Cold Protection Self VI */
-     , (19989,  1377,      2)  /* Coordination Self V */
+VALUES (19989,  2694,      2)  /* Moderate Heavy Weapon Aptitude */
+     , (19989,  1035,      2)  /* Cold Protection Self VI */
      , (19989,  1592,      2)  /* Aura of Heart Seeker Self VI */
-     , (19989,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (19989,  2694,      2)  /* Moderate Heavy Weapon Aptitude */;
+     , (19989,  1377,      2)  /* Coordination Self V */
+     , (19989,  1616,      2)  /* Aura of Blood Drinker Self VI */;

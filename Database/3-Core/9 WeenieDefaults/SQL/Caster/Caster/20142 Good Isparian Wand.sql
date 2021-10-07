@@ -46,7 +46,7 @@ VALUES (20142,   1,   33557731) /* Setup */
      , (20142,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20142,   656,      2)  /* Mana Conversion Mastery Self IV */
-     , (20142,  1424,      2)  /* Focus Self IV */
+VALUES (20142,  2680,      2)  /* Feeble Mana Conversion Prowess */
+     , (20142,   656,      2)  /* Mana Conversion Mastery Self IV */
      , (20142,  1448,      2)  /* Willpower Self IV */
-     , (20142,  2680,      2)  /* Feeble Mana Conversion Prowess */;
+     , (20142,  1424,      2)  /* Focus Self IV */;

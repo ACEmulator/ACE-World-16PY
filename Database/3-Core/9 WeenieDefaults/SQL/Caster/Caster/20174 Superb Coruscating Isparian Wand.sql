@@ -52,12 +52,12 @@ VALUES (20174,   1,   33557786) /* Setup */
      , (20174,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20174,   560,      2)  /* Creature Enchantment Mastery Self IV */
-     , (20174,   586,      2)  /* Item Enchantment Mastery Self VI */
+VALUES (20174,   632,      2)  /* War Magic Mastery Self IV */
+     , (20174,   560,      2)  /* Creature Enchantment Mastery Self IV */
      , (20174,   608,      2)  /* Life Magic Mastery Self IV */
-     , (20174,   632,      2)  /* War Magic Mastery Self IV */
+     , (20174,  2560,      2)  /* Minor Mana Conversion Prowess */
+     , (20174,   586,      2)  /* Item Enchantment Mastery Self VI */
      , (20174,   657,      2)  /* Mana Conversion Mastery Self V */
-     , (20174,  1071,      2)  /* Lightning Protection Self VI */
-     , (20174,  1425,      2)  /* Focus Self V */
      , (20174,  1449,      2)  /* Willpower Self V */
-     , (20174,  2560,      2)  /* Minor Mana Conversion Prowess */;
+     , (20174,  1425,      2)  /* Focus Self V */
+     , (20174,  1071,      2)  /* Lightning Protection Self VI */;

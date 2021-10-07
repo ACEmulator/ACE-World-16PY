@@ -134,11 +134,11 @@ VALUES (4986,  0,  4,  0,    0,  360,  360,  360,  360,  360,  360,  360,  360, 
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (4986,    72,  2.147)  /* Frost Bolt IV */
-     , (4986,   174,  2.025)  /* Fester Other IV */
-     , (4986,  1063,  2.004)  /* Cold Vulnerability Other IV */
      , (4986,  1092,  2.004)  /* Fire Protection Self IV */
      , (4986,  1221,   2.05)  /* Mana Drain Other III */
-     , (4986,  1239,   2.02)  /* Drain Health Other III */;
+     , (4986,  1063,  2.004)  /* Cold Vulnerability Other IV */
+     , (4986,  1239,   2.02)  /* Drain Health Other III */
+     , (4986,   174,  2.025)  /* Fester Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (4986,  94) /* ATTACK_NOTIFICATION_EVENT */

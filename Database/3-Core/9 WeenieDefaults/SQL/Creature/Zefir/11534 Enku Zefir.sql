@@ -104,15 +104,15 @@ VALUES (11534,  0,  2, 60,  0.5,  250,  200,  148,  173,  148,   80,  148,  125,
      , (11534, 21,  4,  0,    0,  250,  200,  148,  173,  148,   80,  148,  125,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11534,    68,  2.014)  /* Shock Wave V */
+VALUES (11534,  1264,   2.01)  /* Drain Mana Other V */
      , (11534,    84,  2.014)  /* Flame Bolt V */
-     , (11534,    90,  2.014)  /* Force Bolt V */
-     , (11534,    96,  2.014)  /* Whirling Blade V */
      , (11534,  1160,  2.015)  /* Heal Self V */
+     , (11534,    68,  2.014)  /* Shock Wave V */
      , (11534,  1175,  2.005)  /* Harm Other V */
      , (11534,  1241,   2.01)  /* Drain Health Other V */
-     , (11534,  1253,   2.01)  /* Drain Stamina Other V */
-     , (11534,  1264,   2.01)  /* Drain Mana Other V */;
+     , (11534,    90,  2.014)  /* Force Bolt V */
+     , (11534,    96,  2.014)  /* Whirling Blade V */
+     , (11534,  1253,   2.01)  /* Drain Stamina Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (11534,  94) /* ATTACK_NOTIFICATION_EVENT */

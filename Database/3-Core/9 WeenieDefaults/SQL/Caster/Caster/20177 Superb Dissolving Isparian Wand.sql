@@ -50,9 +50,9 @@ VALUES (20177,   1,   33557784) /* Setup */
      , (20177,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20177,   518,      2)  /* Acid Protection Self IV */
-     , (20177,   608,      2)  /* Life Magic Mastery Self IV */
+VALUES (20177,   608,      2)  /* Life Magic Mastery Self IV */
+     , (20177,  2560,      2)  /* Minor Mana Conversion Prowess */
+     , (20177,   518,      2)  /* Acid Protection Self IV */
      , (20177,   657,      2)  /* Mana Conversion Mastery Self V */
-     , (20177,  1425,      2)  /* Focus Self V */
      , (20177,  1449,      2)  /* Willpower Self V */
-     , (20177,  2560,      2)  /* Minor Mana Conversion Prowess */;
+     , (20177,  1425,      2)  /* Focus Self V */;

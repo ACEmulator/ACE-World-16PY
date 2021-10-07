@@ -127,21 +127,21 @@ VALUES (27288,  0,  4,  0,    0,  480,  480,  384,  408,  288,  528,  336,  360,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27288,  2053,  2.005)  /* Executor's Blessing */
-     , (27288,  2073,   2.02)  /* Adja's Intervention */
+     , (27288,  3214,   2.01)  /* Sorrow */
+     , (27288,  2329,   2.02)  /* Essence Void */
+     , (27288,  2136,   2.02)  /* Icy Torment */
      , (27288,  2128,   2.02)  /* Ilservian's Flame */
      , (27288,  2132,   2.02)  /* The Spike */
-     , (27288,  2136,   2.02)  /* Icy Torment */
+     , (27288,  2328,   2.02)  /* Vitality Siphon */
+     , (27288,  2330,   2.02)  /* Vigor Siphon */
+     , (27288,  2073,   2.02)  /* Adja's Intervention */
      , (27288,  2140,   2.02)  /* Alset's Coil */
      , (27288,  2146,   2.02)  /* Evisceration */
+     , (27288,  2282,   2.02)  /* Futility */
      , (27288,  2164,   2.02)  /* Swordsman's Gift */
      , (27288,  2168,   2.02)  /* Gelidite's Gift */
      , (27288,  2172,   2.02)  /* Astyrrian's Gift */
-     , (27288,  2174,   2.02)  /* Archer's Gift */
-     , (27288,  2282,   2.02)  /* Futility */
-     , (27288,  2328,   2.02)  /* Vitality Siphon */
-     , (27288,  2329,   2.02)  /* Essence Void */
-     , (27288,  2330,   2.02)  /* Vigor Siphon */
-     , (27288,  3214,   2.01)  /* Sorrow */;
+     , (27288,  2174,   2.02)  /* Archer's Gift */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (27288,  94) /* ATTACK_NOTIFICATION_EVENT */

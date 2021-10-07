@@ -121,33 +121,33 @@ VALUES (7120,  0,  4,  0,    0,  100,   59,   44,   59,    3,   40,  100,   32, 
      , (7120,  8,  4, 40, 0.75,  110,   65,   48,   65,    3,   44,  110,   35,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7120,    61,  2.014)  /* Acid Stream IV */
-     , (7120,    62,  2.017)  /* Acid Stream V */
+VALUES (7120,  1253,  2.025)  /* Drain Stamina Other V */
+     , (7120,   137,  2.017)  /* Frost Volley V */
+     , (7120,    73,  2.017)  /* Frost Bolt V */
+     , (7120,   129,  2.017)  /* Acid Volley V */
      , (7120,    67,  2.014)  /* Shock Wave IV */
      , (7120,    68,  2.017)  /* Shock Wave V */
+     , (7120,  1222,   2.02)  /* Mana Drain Other IV */
+     , (7120,   198,   2.02)  /* Exhaustion Other V */
      , (7120,    72,  2.014)  /* Frost Bolt IV */
-     , (7120,    73,  2.017)  /* Frost Bolt V */
+     , (7120,   141,  2.017)  /* Lightning Volley V */
      , (7120,    78,  2.014)  /* Lightning Bolt IV */
      , (7120,    79,  2.017)  /* Lightning Bolt V */
+     , (7120,   145,  2.017)  /* Flame Volley V */
      , (7120,    83,  2.014)  /* Flame Bolt IV */
      , (7120,    84,  2.017)  /* Flame Bolt V */
+     , (7120,  1175,   2.02)  /* Harm Other V */
+     , (7120,  1241,  2.025)  /* Drain Health Other V */
      , (7120,    89,  2.014)  /* Force Bolt IV */
      , (7120,    90,  2.017)  /* Force Bolt V */
      , (7120,    95,  2.014)  /* Whirling Blade IV */
      , (7120,    96,  2.017)  /* Whirling Blade V */
-     , (7120,   129,  2.017)  /* Acid Volley V */
-     , (7120,   137,  2.017)  /* Frost Volley V */
-     , (7120,   141,  2.017)  /* Lightning Volley V */
-     , (7120,   145,  2.017)  /* Flame Volley V */
      , (7120,   169,  2.025)  /* Regeneration Self V */
-     , (7120,   175,   2.02)  /* Fester Other V */
-     , (7120,   198,   2.02)  /* Exhaustion Other V */
-     , (7120,  1175,   2.02)  /* Harm Other V */
      , (7120,  1198,   2.02)  /* Enfeeble Other IV */
-     , (7120,  1222,   2.02)  /* Mana Drain Other IV */
-     , (7120,  1241,  2.025)  /* Drain Health Other V */
-     , (7120,  1253,  2.025)  /* Drain Stamina Other V */
-     , (7120,  1264,  2.025)  /* Drain Mana Other V */;
+     , (7120,   175,   2.02)  /* Fester Other V */
+     , (7120,  1264,  2.025)  /* Drain Mana Other V */
+     , (7120,    61,  2.014)  /* Acid Stream IV */
+     , (7120,    62,  2.017)  /* Acid Stream V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (7120, 414) /* PLAYER_DEATH_EVENT */;

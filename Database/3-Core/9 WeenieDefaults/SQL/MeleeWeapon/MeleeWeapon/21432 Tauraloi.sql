@@ -56,8 +56,8 @@ VALUES (21432,   1,   33557965) /* Setup */
      , (21432,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21432,   368,      2)  /* Light Weapon Mastery Other V */
+VALUES (21432,  1604,      2)  /* Aura of Defender Self V */
      , (21432,  1591,      2)  /* Aura of Heart Seeker Self V */
-     , (21432,  1604,      2)  /* Aura of Defender Self V */
      , (21432,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (21432,  1624,      2)  /* Aura of Swift Killer Self III */;
+     , (21432,  1624,      2)  /* Aura of Swift Killer Self III */
+     , (21432,   368,      2)  /* Light Weapon Mastery Other V */;

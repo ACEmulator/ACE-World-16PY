@@ -140,26 +140,26 @@ VALUES (8267,  0,  4,  0,    0,   90,   90,   58,   69,   34,   90,   40,   58, 
      , (8267,  8,  4, 25, 0.75,   90,   90,   58,   69,   34,   90,   40,   58,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8267,    70,  2.048)  /* Frost Bolt II */
-     , (8267,    76,  2.048)  /* Lightning Bolt II */
-     , (8267,    81,  2.048)  /* Flame Bolt II */
-     , (8267,    87,  2.048)  /* Force Bolt II */
-     , (8267,    93,  2.048)  /* Whirling Blade II */
-     , (8267,   135,  2.008)  /* Frost Volley III */
-     , (8267,   139,  2.008)  /* Lightning Volley III */
-     , (8267,   143,  2.008)  /* Flame Volley III */
-     , (8267,   147,  2.008)  /* Force Volley III */
-     , (8267,   151,  2.008)  /* Blade Volley III */
-     , (8267,   230,  2.013)  /* Vulnerability Other II */
-     , (8267,   263,  2.013)  /* Defenselessness Other II */
-     , (8267,   281,  2.013)  /* Magic Yield Other II */
-     , (8267,  1238,  2.011)  /* Drain Health Other II */
-     , (8267,  1250,  2.011)  /* Drain Stamina Other II */
-     , (8267,  1261,  2.011)  /* Drain Mana Other II */
-     , (8267,  1279,  2.011)  /* Health to Mana Self II */
-     , (8267,  1291,  2.011)  /* Mana to Health Self II */
+VALUES (8267,  1279,  2.011)  /* Health to Mana Self II */
      , (8267,  1665,  2.011)  /* Stamina to Health Self II */
-     , (8267,  1677,  2.011)  /* Stamina to Mana Self II */;
+     , (8267,   139,  2.008)  /* Lightning Volley III */
+     , (8267,    70,  2.048)  /* Frost Bolt II */
+     , (8267,  1291,  2.011)  /* Mana to Health Self II */
+     , (8267,   263,  2.013)  /* Defenselessness Other II */
+     , (8267,   143,  2.008)  /* Flame Volley III */
+     , (8267,  1677,  2.011)  /* Stamina to Mana Self II */
+     , (8267,   135,  2.008)  /* Frost Volley III */
+     , (8267,    76,  2.048)  /* Lightning Bolt II */
+     , (8267,  1261,  2.011)  /* Drain Mana Other II */
+     , (8267,    81,  2.048)  /* Flame Bolt II */
+     , (8267,   147,  2.008)  /* Force Volley III */
+     , (8267,  1238,  2.011)  /* Drain Health Other II */
+     , (8267,    87,  2.048)  /* Force Bolt II */
+     , (8267,   151,  2.008)  /* Blade Volley III */
+     , (8267,   281,  2.013)  /* Magic Yield Other II */
+     , (8267,    93,  2.048)  /* Whirling Blade II */
+     , (8267,  1250,  2.011)  /* Drain Stamina Other II */
+     , (8267,   230,  2.013)  /* Vulnerability Other II */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (8267,  94) /* ATTACK_NOTIFICATION_EVENT */

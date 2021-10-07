@@ -53,13 +53,13 @@ VALUES (9082,   1,   33554644) /* Setup */
      , (9082,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9082,   664,      2)  /* Mana Conversion Mastery Other VI */
+VALUES (9082,  2352,      2)  /* Greater Stasis Durance */
+     , (9082,  2376,      2)  /* Glimpse of Annihilation */
+     , (9082,  2353,      2)  /* Greater Stimulation Durance */
+     , (9082,   664,      2)  /* Mana Conversion Mastery Other VI */
      , (9082,  2349,      2)  /* Hieromancer's Ward */
      , (9082,  2350,      2)  /* Greater Decay Durance */
      , (9082,  2351,      2)  /* Greater Consumption Durance */
-     , (9082,  2352,      2)  /* Greater Stasis Durance */
-     , (9082,  2353,      2)  /* Greater Stimulation Durance */
      , (9082,  2354,      2)  /* Lesser Piercing Durance */
      , (9082,  2355,      2)  /* Lesser Slashing Durance */
-     , (9082,  2356,      2)  /* Lesser Bludgeoning Durance */
-     , (9082,  2376,      2)  /* Glimpse of Annihilation */;
+     , (9082,  2356,      2)  /* Lesser Bludgeoning Durance */;

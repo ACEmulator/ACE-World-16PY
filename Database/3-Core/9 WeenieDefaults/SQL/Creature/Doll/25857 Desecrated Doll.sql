@@ -107,16 +107,16 @@ VALUES (25857,  0,  1,  0,    0,  475,  475,  570,  475,  380,  475,  475,  404,
      , (25857, 22, 64, 100,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25857,    69,   2.02)  /* Shock Wave VI */
-     , (25857,    97,   2.02)  /* Whirling Blade VI */
-     , (25857,  1053,   2.04)  /* Bludgeoning Vulnerability Other VI */
-     , (25857,  1132,   2.04)  /* Blade Vulnerability Other VI */
+VALUES (25857,  1132,   2.04)  /* Blade Vulnerability Other VI */
      , (25857,  2176,   2.02)  /* Enervation */
      , (25857,  2178,   2.02)  /* Decrepitude's Grasp */
+     , (25857,  2758,   2.02)  /* Blade Arc VI */
      , (25857,  2180,   2.02)  /* Energy Flux */
      , (25857,  2318,   2.02)  /* Gravity Well */
-     , (25857,  2751,   2.02)  /* Shock Arc VI */
-     , (25857,  2758,   2.02)  /* Blade Arc VI */;
+     , (25857,    69,   2.02)  /* Shock Wave VI */
+     , (25857,    97,   2.02)  /* Whirling Blade VI */
+     , (25857,  1053,   2.04)  /* Bludgeoning Vulnerability Other VI */
+     , (25857,  2751,   2.02)  /* Shock Arc VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (25857,  94) /* ATTACK_NOTIFICATION_EVENT */

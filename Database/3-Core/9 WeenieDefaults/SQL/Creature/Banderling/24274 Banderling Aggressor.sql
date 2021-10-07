@@ -117,17 +117,17 @@ VALUES (24274,  0,  4,  0,    0,  350,  161,  109,  182,  161,  291,  109,  382,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24274,    69,   2.08)  /* Shock Wave VI */
-     , (24274,    97,   2.08)  /* Whirling Blade VI */
-     , (24274,  1242,  2.008)  /* Drain Health Other VI */
+     , (24274,  2144,   2.08)  /* Crushing Shame */
      , (24274,  2056,   2.08)  /* Ataxia */
+     , (24274,  2328,  2.008)  /* Vitality Siphon */
+     , (24274,    97,   2.08)  /* Whirling Blade VI */
      , (24274,  2073,  2.008)  /* Adja's Intervention */
      , (24274,  2074,   2.08)  /* Gossamer Flesh */
+     , (24274,  1242,  2.008)  /* Drain Health Other VI */
      , (24274,  2084,   2.08)  /* Belly of Lead */
      , (24274,  2088,   2.08)  /* Senescence */
-     , (24274,  2144,   2.08)  /* Crushing Shame */
      , (24274,  2164,   2.08)  /* Swordsman's Gift */
-     , (24274,  2166,   2.08)  /* Tusker's Gift */
-     , (24274,  2328,  2.008)  /* Vitality Siphon */;
+     , (24274,  2166,   2.08)  /* Tusker's Gift */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (24274,  94) /* ATTACK_NOTIFICATION_EVENT */

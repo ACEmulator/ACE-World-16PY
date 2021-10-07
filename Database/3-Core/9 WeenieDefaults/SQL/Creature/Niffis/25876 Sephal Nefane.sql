@@ -108,14 +108,14 @@ VALUES (25876,  0,  4, 130, 0.75,  600,  600,  510,  510,  570,  510,  570,  510
      , (25876, 25,  4, 130,  0.5,  600,  600,  510,  510,  570,  510,  570,  510,    0, 3,    0,    0,  0.3,    0,  0.1,  0.3,    0,    0,  0.3,    0,  0.1, 0.28) /* LowerTentacle */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25876,   102,   2.04)  /* Acid Blast VI */
+VALUES (25876,  2064,   2.03)  /* Self Loathing */
      , (25876,  2056,   2.03)  /* Ataxia */
+     , (25876,   102,   2.04)  /* Acid Blast VI */
+     , (25876,  2716,   2.04)  /* Acid Arc VI */
      , (25876,  2062,   2.03)  /* Anemia */
-     , (25876,  2064,   2.03)  /* Self Loathing */
-     , (25876,  2074,   2.02)  /* Gossamer Flesh */
-     , (25876,  2162,   2.02)  /* Olthoi's Gift */
      , (25876,  2318,   2.02)  /* Gravity Well */
-     , (25876,  2716,   2.04)  /* Acid Arc VI */;
+     , (25876,  2162,   2.02)  /* Olthoi's Gift */
+     , (25876,  2074,   2.02)  /* Gossamer Flesh */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (25876,  94) /* ATTACK_NOTIFICATION_EVENT */

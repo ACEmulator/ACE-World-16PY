@@ -104,12 +104,12 @@ VALUES (7818,  0,  8,  3,  0.5,   20,   20,   20,   20,  200,   16,   16,    4, 
      , (7818, 21, 64,  0,    0,   10,   10,   10,   10,  100,    8,    8,    2,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7818,   174,   2.17)  /* Fester Other IV */
+VALUES (7818,   221,   2.17)  /* Mana Depletion Other IV */
      , (7818,   197,   2.17)  /* Exhaustion Other IV */
-     , (7818,   221,   2.17)  /* Mana Depletion Other IV */
-     , (7818,  1174,   2.17)  /* Harm Other IV */
      , (7818,  1198,   2.17)  /* Enfeeble Other IV */
+     , (7818,  1174,   2.17)  /* Harm Other IV */
      , (7818,  1222,   2.17)  /* Mana Drain Other IV */
+     , (7818,   174,   2.17)  /* Fester Other IV */
      , (7818,  1263,   2.67)  /* Drain Mana Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

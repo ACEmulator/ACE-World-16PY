@@ -111,9 +111,9 @@ VALUES (24482,  0,  4,  0,    0,  250,  198,  198,  198,  200,  175,   43,  198,
      , (24482,  8,  4, 95, 0.75,  250,  198,  198,  198,  200,  175,   43,  198,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24482,    62,   2.06)  /* Acid Stream V */
-     , (24482,    68,   2.06)  /* Shock Wave V */
-     , (24482,  1241,   2.06)  /* Drain Health Other V */;
+VALUES (24482,    68,   2.06)  /* Shock Wave V */
+     , (24482,  1241,   2.06)  /* Drain Health Other V */
+     , (24482,    62,   2.06)  /* Acid Stream V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (24482,  94) /* ATTACK_NOTIFICATION_EVENT */

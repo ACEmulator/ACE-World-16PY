@@ -127,19 +127,19 @@ VALUES (10710,  0,  4,  0,    0,  150,  129,  104,  135,  129,  135,  129,   54,
      , (10710,  8,  4, 25, 0.75,  140,  120,   97,  126,  120,  126,  120,   50,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10710,    60,  2.025)  /* Acid Stream III */
-     , (10710,    61,  2.005)  /* Acid Stream IV */
-     , (10710,    88,  2.025)  /* Force Bolt III */
-     , (10710,    89,  2.005)  /* Force Bolt IV */
-     , (10710,    94,  2.025)  /* Whirling Blade III */
+VALUES (10710,   231,  2.008)  /* Vulnerability Other III */
      , (10710,    95,  2.005)  /* Whirling Blade IV */
-     , (10710,   231,  2.008)  /* Vulnerability Other III */
      , (10710,   264,  2.008)  /* Defenselessness Other III */
      , (10710,  1329,   2.01)  /* Strength Self III */
-     , (10710,  1375,   2.01)  /* Coordination Self III */
      , (10710,  1393,  2.008)  /* Clumsiness Other III */
+     , (10710,    94,  2.025)  /* Whirling Blade III */
+     , (10710,  1417,  2.008)  /* Slowness Other III */
+     , (10710,    88,  2.025)  /* Force Bolt III */
+     , (10710,    89,  2.005)  /* Force Bolt IV */
+     , (10710,  1375,   2.01)  /* Coordination Self III */
      , (10710,  1399,   2.01)  /* Quickness Self III */
-     , (10710,  1417,  2.008)  /* Slowness Other III */;
+     , (10710,    60,  2.025)  /* Acid Stream III */
+     , (10710,    61,  2.005)  /* Acid Stream IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (10710,  94) /* ATTACK_NOTIFICATION_EVENT */

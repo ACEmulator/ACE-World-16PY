@@ -56,5 +56,5 @@ VALUES (8204,   1,   33556860) /* Setup */
      , (8204,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8204,   247,      2)  /* Invulnerability Self IV */
-     , (8204,   325,      2)  /* Finesse Weapon Mastery Self IV */;
+VALUES (8204,   325,      2)  /* Finesse Weapon Mastery Self IV */
+     , (8204,   247,      2)  /* Invulnerability Self IV */;

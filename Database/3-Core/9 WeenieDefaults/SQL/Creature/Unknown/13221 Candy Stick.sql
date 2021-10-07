@@ -106,20 +106,20 @@ VALUES (13221,  0,  8,  3,  0.5,   20,   20,   20,   20,  200,   16,   16,    4,
      , (13221, 21, 64,  3,  0.5,   10,   10,   10,   10,  100,    8,    8,    2,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (13221,   184,   2.08)  /* Rejuvenation Other II */
-     , (13221,   240,   2.08)  /* Invulnerability Other II */
-     , (13221,   251,   2.08)  /* Impregnability Other II */
-     , (13221,   269,   2.08)  /* Magic Resistance Other II */
-     , (13221,   510,   2.08)  /* Acid Protection Other II */
-     , (13221,   810,   2.08)  /* Fire Protection Other II */
-     , (13221,   989,   2.08)  /* Sprint Other II */
-     , (13221,  1025,   2.08)  /* Bludgeoning Protection Other II */
-     , (13221,  1037,   2.08)  /* Cold Protection Other II */
-     , (13221,  1073,   2.08)  /* Lightning Protection Other II */
-     , (13221,  1116,   2.08)  /* Blade Protection Other II */
-     , (13221,  1140,   2.08)  /* Piercing Protection Other II */
+VALUES (13221,  1025,   2.08)  /* Bludgeoning Protection Other II */
+     , (13221,  1313,   2.08)  /* Armor Other II */
      , (13221,  1162,   2.08)  /* Heal Other II */
-     , (13221,  1313,   2.08)  /* Armor Other II */;
+     , (13221,   269,   2.08)  /* Magic Resistance Other II */
+     , (13221,  1037,   2.08)  /* Cold Protection Other II */
+     , (13221,   240,   2.08)  /* Invulnerability Other II */
+     , (13221,  1116,   2.08)  /* Blade Protection Other II */
+     , (13221,   989,   2.08)  /* Sprint Other II */
+     , (13221,   810,   2.08)  /* Fire Protection Other II */
+     , (13221,  1073,   2.08)  /* Lightning Protection Other II */
+     , (13221,  1140,   2.08)  /* Piercing Protection Other II */
+     , (13221,   184,   2.08)  /* Rejuvenation Other II */
+     , (13221,   251,   2.08)  /* Impregnability Other II */
+     , (13221,   510,   2.08)  /* Acid Protection Other II */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (13221,  94) /* ATTACK_NOTIFICATION_EVENT */

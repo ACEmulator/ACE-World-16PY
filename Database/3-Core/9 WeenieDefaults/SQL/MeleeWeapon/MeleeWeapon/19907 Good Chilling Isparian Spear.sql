@@ -60,8 +60,8 @@ VALUES (19907,   1,   33556383) /* Setup */
      , (19907,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19907,  1035,      2)  /* Cold Protection Self VI */
-     , (19907,  1377,      2)  /* Coordination Self V */
+VALUES (19907,  2681,      2)  /* Feeble Light Weapon Aptitude */
+     , (19907,  1035,      2)  /* Cold Protection Self VI */
      , (19907,  1590,      2)  /* Aura of Heart Seeker Self IV */
      , (19907,  1614,      2)  /* Aura of Blood Drinker Self IV */
-     , (19907,  2681,      2)  /* Feeble Light Weapon Aptitude */;
+     , (19907,  1377,      2)  /* Coordination Self V */;

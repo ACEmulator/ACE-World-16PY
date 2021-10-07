@@ -109,31 +109,31 @@ VALUES (4992,  0,  4,  0,    0,  110,   88,   46,   68, 11000,   55,   68,   77,
      , (4992,  8,  4,  3, 0.75,  130,  104,   55,   81, 13000,   65,   81,   91,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (4992,    71,  2.005)  /* Frost Bolt III */
-     , (4992,    72,  2.005)  /* Frost Bolt IV */
-     , (4992,   107,  2.005)  /* Frost Blast III */
-     , (4992,   108,  2.005)  /* Frost Blast IV */
-     , (4992,   135,  2.005)  /* Frost Volley III */
-     , (4992,   136,  2.005)  /* Frost Volley IV */
-     , (4992,   174,   2.01)  /* Fester Other IV */
-     , (4992,   232,   2.02)  /* Vulnerability Other IV */
-     , (4992,   355,   2.02)  /* Light Weapon Ineptitude Other IV */
-     , (4992,   650,   2.02)  /* War Magic Ineptitude Other IV */
-     , (4992,  1051,   2.02)  /* Bludgeoning Vulnerability Other IV */
+VALUES (4992,  1310,   2.01)  /* Armor Self IV */
      , (4992,  1093,   2.01)  /* Fire Protection Self V */
+     , (4992,   135,  2.005)  /* Frost Volley III */
+     , (4992,    71,  2.005)  /* Frost Bolt III */
+     , (4992,  1352,   2.01)  /* Endurance Self IV */
      , (4992,  1160,   2.02)  /* Heal Self V */
      , (4992,  1180,   2.01)  /* Revitalize Self IV */
-     , (4992,  1240,   2.01)  /* Drain Health Other IV */
+     , (4992,   650,   2.02)  /* War Magic Ineptitude Other IV */
      , (4992,  1252,   2.01)  /* Drain Stamina Other IV */
-     , (4992,  1263,   2.01)  /* Drain Mana Other IV */
-     , (4992,  1310,   2.01)  /* Armor Self IV */
-     , (4992,  1341,   2.01)  /* Weakness Other IV */
-     , (4992,  1352,   2.01)  /* Endurance Self IV */
-     , (4992,  1370,   2.01)  /* Frailty Other IV */
-     , (4992,  1394,   2.01)  /* Clumsiness Other IV */
+     , (4992,   136,  2.005)  /* Frost Volley IV */
+     , (4992,    72,  2.005)  /* Frost Bolt IV */
      , (4992,  1418,   2.01)  /* Slowness Other IV */
+     , (4992,  1240,   2.01)  /* Drain Health Other IV */
+     , (4992,  1370,   2.01)  /* Frailty Other IV */
+     , (4992,  1051,   2.02)  /* Bludgeoning Vulnerability Other IV */
      , (4992,  1442,   2.01)  /* Bafflement Other IV */
-     , (4992,  1466,   2.01)  /* Feeblemind Other IV */;
+     , (4992,   355,   2.02)  /* Light Weapon Ineptitude Other IV */
+     , (4992,   232,   2.02)  /* Vulnerability Other IV */
+     , (4992,   107,  2.005)  /* Frost Blast III */
+     , (4992,   108,  2.005)  /* Frost Blast IV */
+     , (4992,   174,   2.01)  /* Fester Other IV */
+     , (4992,  1263,   2.01)  /* Drain Mana Other IV */
+     , (4992,  1394,   2.01)  /* Clumsiness Other IV */
+     , (4992,  1466,   2.01)  /* Feeblemind Other IV */
+     , (4992,  1341,   2.01)  /* Weakness Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (4992,  94) /* ATTACK_NOTIFICATION_EVENT */

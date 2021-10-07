@@ -108,26 +108,26 @@ VALUES (14556,  0,  1,  0,    0,  220,   11,   11,   11,   13,   11,   11,   13,
      , (14556, 22, 64, 25, 0.75,  200,   10,   10,   10,   12,   10,   10,   12,    0, 3,    0,    0,  0.1,    0,    0,  0.1,    0, 0.13, 0.45,    0, 0.13, 0.45) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (14556,    68,  2.105)  /* Shock Wave V */
-     , (14556,    73,  2.105)  /* Frost Bolt V */
-     , (14556,   278,      2)  /* Magic Resistance Self V */
-     , (14556,   284,   2.04)  /* Magic Yield Other V */
-     , (14556,   519,      2)  /* Acid Protection Self V */
-     , (14556,  1022,      2)  /* Bludgeoning Protection Self V */
-     , (14556,  1034,      2)  /* Cold Protection Self V */
-     , (14556,  1052,   2.04)  /* Bludgeoning Vulnerability Other V */
+VALUES (14556,  1160,      2)  /* Heal Self V */
      , (14556,  1064,   2.04)  /* Cold Vulnerability Other V */
-     , (14556,  1070,      2)  /* Lightning Protection Self V */
-     , (14556,  1093,      2)  /* Fire Protection Self V */
-     , (14556,  1113,      2)  /* Blade Protection Self V */
-     , (14556,  1137,      2)  /* Piercing Protection Self V */
-     , (14556,  1160,      2)  /* Heal Self V */
-     , (14556,  1241,      2)  /* Drain Health Other V */
-     , (14556,  1311,      2)  /* Armor Self V */
-     , (14556,  1326,   2.04)  /* Imperil Other V */
+     , (14556,    68,  2.105)  /* Shock Wave V */
      , (14556,  1342,   2.04)  /* Weakness Other V */
+     , (14556,   519,      2)  /* Acid Protection Self V */
+     , (14556,    73,  2.105)  /* Frost Bolt V */
+     , (14556,  1093,      2)  /* Fire Protection Self V */
+     , (14556,  1034,      2)  /* Cold Protection Self V */
+     , (14556,  1113,      2)  /* Blade Protection Self V */
+     , (14556,  1241,      2)  /* Drain Health Other V */
+     , (14556,   278,      2)  /* Magic Resistance Self V */
+     , (14556,  1467,   2.04)  /* Feeblemind Other V */
+     , (14556,  1052,   2.04)  /* Bludgeoning Vulnerability Other V */
+     , (14556,   284,   2.04)  /* Magic Yield Other V */
+     , (14556,  1311,      2)  /* Armor Self V */
      , (14556,  1443,   2.04)  /* Bafflement Other V */
-     , (14556,  1467,   2.04)  /* Feeblemind Other V */;
+     , (14556,  1070,      2)  /* Lightning Protection Self V */
+     , (14556,  1326,   2.04)  /* Imperil Other V */
+     , (14556,  1137,      2)  /* Piercing Protection Self V */
+     , (14556,  1022,      2)  /* Bludgeoning Protection Self V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (14556,  94) /* ATTACK_NOTIFICATION_EVENT */

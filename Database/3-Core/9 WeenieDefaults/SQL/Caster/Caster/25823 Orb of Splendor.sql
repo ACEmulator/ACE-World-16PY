@@ -44,6 +44,6 @@ VALUES (25823,   1,   33558566) /* Setup */
      , (25823,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25823,   663,      2)  /* Mana Conversion Mastery Other V */
+VALUES (25823,  2581,      2)  /* Minor Focus */
      , (25823,  1431,      2)  /* Focus Other V */
-     , (25823,  2581,      2)  /* Minor Focus */;
+     , (25823,   663,      2)  /* Mana Conversion Mastery Other V */;

@@ -121,21 +121,21 @@ VALUES (1763,  0,  4,  0,    0,   50,   22,    9,   22,    3,   20,   50,    4, 
      , (1763,  8,  4,  5, 0.75,   60,   26,   11,   26,    3,   24,   60,    5,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1763,    27,  2.023)  /* Flame Bolt I */
-     , (1763,    28,  2.023)  /* Frost Bolt I */
-     , (1763,    58,  2.023)  /* Acid Stream I */
-     , (1763,    64,  2.023)  /* Shock Wave I */
+VALUES (1763,    64,  2.023)  /* Shock Wave I */
+     , (1763,   194,  2.016)  /* Exhaustion Other I */
+     , (1763,  1219,  2.016)  /* Mana Drain Other I */
+     , (1763,    27,  2.023)  /* Flame Bolt I */
      , (1763,    75,  2.023)  /* Lightning Bolt I */
+     , (1763,  1237,   2.02)  /* Drain Health Other I */
      , (1763,    86,  2.011)  /* Force Bolt I */
      , (1763,    92,  2.023)  /* Whirling Blade I */
-     , (1763,   165,   2.02)  /* Regeneration Self I */
-     , (1763,   171,  2.016)  /* Fester Other I */
-     , (1763,   194,  2.016)  /* Exhaustion Other I */
-     , (1763,  1195,  2.016)  /* Enfeeble Other I */
-     , (1763,  1219,  2.016)  /* Mana Drain Other I */
-     , (1763,  1237,   2.02)  /* Drain Health Other I */
+     , (1763,    28,  2.023)  /* Frost Bolt I */
      , (1763,  1249,   2.02)  /* Drain Stamina Other I */
-     , (1763,  1260,   2.02)  /* Drain Mana Other I */;
+     , (1763,   165,   2.02)  /* Regeneration Self I */
+     , (1763,  1195,  2.016)  /* Enfeeble Other I */
+     , (1763,   171,  2.016)  /* Fester Other I */
+     , (1763,  1260,   2.02)  /* Drain Mana Other I */
+     , (1763,    58,  2.023)  /* Acid Stream I */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (1763,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -54,5 +54,5 @@ VALUES (2032,   1,   33558287) /* Setup */
      , (2032,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2032,  1033,      2)  /* Cold Protection Self IV */
-     , (2032,  1092,      2)  /* Fire Protection Self IV */;
+VALUES (2032,  1092,      2)  /* Fire Protection Self IV */
+     , (2032,  1033,      2)  /* Cold Protection Self IV */;

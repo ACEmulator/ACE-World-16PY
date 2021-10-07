@@ -117,15 +117,15 @@ VALUES (27709,  0,  4,  0,    0,  400,  440,  440,  560,  560,  360,  480,  480,
      , (27709,  8,  4, 100, 0.75,  400,  440,  440,  560,  560,  360,  480,  480,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27709,    91,   2.08)  /* Force Bolt VI */
-     , (27709,   475,   2.01)  /* Missile Weapon Ineptitude Other III */
-     , (27709,   499,   2.01)  /* Missile Weapon Ineptitude Other III */
+VALUES (27709,  1156,  2.048)  /* Piercing Vulnerability Other VI */
      , (27709,   547,   2.01)  /* Missile Weapon Ineptitude Other III */
-     , (27709,  1156,  2.048)  /* Piercing Vulnerability Other VI */
      , (27709,  1161,   2.01)  /* Heal Self VI */
-     , (27709,  1240,   2.01)  /* Drain Health Other IV */
+     , (27709,  1420,  2.048)  /* Slowness Other VI */
+     , (27709,   499,   2.01)  /* Missile Weapon Ineptitude Other III */
      , (27709,  1327,  2.048)  /* Imperil Other VI */
-     , (27709,  1420,  2.048)  /* Slowness Other VI */;
+     , (27709,   475,   2.01)  /* Missile Weapon Ineptitude Other III */
+     , (27709,  1240,   2.01)  /* Drain Health Other IV */
+     , (27709,    91,   2.08)  /* Force Bolt VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (27709,  94) /* ATTACK_NOTIFICATION_EVENT */

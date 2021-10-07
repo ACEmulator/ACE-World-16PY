@@ -54,9 +54,9 @@ VALUES (7454,   1,   33557400) /* Setup */
      , (7454,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7454,   327,      2)  /* Finesse Weapon Mastery Self VI */
-     , (7454,  1592,      2)  /* Aura of Heart Seeker Self VI */
+VALUES (7454,  1846,      2)  /* Curse of Black Fire */
      , (7454,  1605,      2)  /* Aura of Defender Self VI */
+     , (7454,   327,      2)  /* Finesse Weapon Mastery Self VI */
+     , (7454,  1592,      2)  /* Aura of Heart Seeker Self VI */
      , (7454,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (7454,  1627,      2)  /* Aura of Swift Killer Self VI */
-     , (7454,  1846,      2)  /* Curse of Black Fire */;
+     , (7454,  1627,      2)  /* Aura of Swift Killer Self VI */;

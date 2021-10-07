@@ -111,20 +111,20 @@ VALUES (30900,  0,  4,  0,    0,  250,  150,  175,  230,   78,   78,   78,   78,
      , (30900, 22, 64, 50,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30900,    61,  2.023)  /* Acid Stream IV */
-     , (30900,    78,  2.023)  /* Lightning Bolt IV */
+VALUES (30900,  1159,  2.008)  /* Heal Self IV */
+     , (30900,  1442,  2.015)  /* Bafflement Other IV */
+     , (30900,  1370,  2.015)  /* Frailty Other IV */
+     , (30900,  1418,  2.015)  /* Slowness Other IV */
      , (30900,   277,      2)  /* Magic Resistance Self IV */
+     , (30900,    78,  2.023)  /* Lightning Bolt IV */
      , (30900,  1112,      2)  /* Blade Protection Self IV */
-     , (30900,  1136,      2)  /* Piercing Protection Self IV */
-     , (30900,  1159,  2.008)  /* Heal Self IV */
      , (30900,  1240,  2.008)  /* Drain Health Other IV */
      , (30900,  1310,      2)  /* Armor Self IV */
-     , (30900,  1341,  2.015)  /* Weakness Other IV */
-     , (30900,  1370,  2.015)  /* Frailty Other IV */
+     , (30900,  1136,      2)  /* Piercing Protection Self IV */
      , (30900,  1394,  2.015)  /* Clumsiness Other IV */
-     , (30900,  1418,  2.015)  /* Slowness Other IV */
-     , (30900,  1442,  2.015)  /* Bafflement Other IV */
-     , (30900,  1466,  2.015)  /* Feeblemind Other IV */;
+     , (30900,    61,  2.023)  /* Acid Stream IV */
+     , (30900,  1466,  2.015)  /* Feeblemind Other IV */
+     , (30900,  1341,  2.015)  /* Weakness Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (30900,  94) /* ATTACK_NOTIFICATION_EVENT */

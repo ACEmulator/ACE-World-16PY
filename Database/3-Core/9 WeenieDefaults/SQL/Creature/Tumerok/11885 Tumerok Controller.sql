@@ -122,26 +122,26 @@ VALUES (11885,  0,  4,  0,    0,   90,   90,   90,   90,   90,   90,   90,   90,
      , (11885,  8,  4, 10, 0.75,   80,   80,   80,   80,   80,   80,   80,   80,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11885,    60,  2.013)  /* Acid Stream III */
-     , (11885,    61,  2.002)  /* Acid Stream IV */
+VALUES (11885,   258,  2.005)  /* Impregnability Self III */
+     , (11885,    82,  2.013)  /* Flame Bolt III */
+     , (11885,  1158,  2.015)  /* Heal Self III */
      , (11885,    66,  2.013)  /* Shock Wave III */
      , (11885,    67,  2.002)  /* Shock Wave IV */
      , (11885,    71,  2.013)  /* Frost Bolt III */
      , (11885,    72,  2.002)  /* Frost Bolt IV */
      , (11885,    77,  2.013)  /* Lightning Bolt III */
      , (11885,    78,  2.002)  /* Lightning Bolt IV */
-     , (11885,    82,  2.013)  /* Flame Bolt III */
      , (11885,    83,  2.002)  /* Flame Bolt IV */
+     , (11885,   276,  2.005)  /* Magic Resistance Self III */
+     , (11885,  1173,  2.008)  /* Harm Other III */
      , (11885,    88,  2.013)  /* Force Bolt III */
      , (11885,    89,  2.002)  /* Force Bolt IV */
      , (11885,    94,  2.013)  /* Whirling Blade III */
      , (11885,    95,  2.002)  /* Whirling Blade IV */
+     , (11885,  1197,  2.008)  /* Enfeeble Other III */
      , (11885,   246,  2.005)  /* Invulnerability Self III */
-     , (11885,   258,  2.005)  /* Impregnability Self III */
-     , (11885,   276,  2.005)  /* Magic Resistance Self III */
-     , (11885,  1158,  2.015)  /* Heal Self III */
-     , (11885,  1173,  2.008)  /* Harm Other III */
-     , (11885,  1197,  2.008)  /* Enfeeble Other III */;
+     , (11885,    60,  2.013)  /* Acid Stream III */
+     , (11885,    61,  2.002)  /* Acid Stream IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (11885,  94) /* ATTACK_NOTIFICATION_EVENT */

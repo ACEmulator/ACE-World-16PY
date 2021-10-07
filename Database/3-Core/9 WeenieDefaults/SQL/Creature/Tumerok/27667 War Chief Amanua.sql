@@ -128,29 +128,29 @@ VALUES (27667,  0,  4,  0,    0,  750,  750,  750,  750,  750,  750,  750,  750,
      , (27667,  8,  4, 135, 0.75,  750,  750,  750,  750,  750,  750,  750,  750,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27667,   234,  2.012)  /* Vulnerability Other VI */
-     , (27667,   247,   2.01)  /* Invulnerability Self IV */
-     , (27667,   259,   2.01)  /* Impregnability Self IV */
-     , (27667,   267,  2.012)  /* Defenselessness Other VI */
-     , (27667,   277,   2.01)  /* Magic Resistance Self IV */
-     , (27667,   285,  2.012)  /* Magic Yield Other VI */
-     , (27667,  1200,  2.012)  /* Enfeeble Other VI */
-     , (27667,  1224,  2.012)  /* Mana Drain Other VI */
-     , (27667,  1472,  2.002)  /* Hermetic Void IV */
-     , (27667,  1619,  2.002)  /* Blood Loather IV */
-     , (27667,  2073,  2.009)  /* Adja's Intervention */
+VALUES (27667,  1472,  2.002)  /* Hermetic Void IV */
+     , (27667,  2752,  2.015)  /* Shock Arc VII */
      , (27667,  2122,  2.015)  /* Disintegration */
-     , (27667,  2128,  2.015)  /* Ilservian's Flame */
      , (27667,  2132,  2.015)  /* The Spike */
+     , (27667,   267,  2.012)  /* Defenselessness Other VI */
+     , (27667,   259,   2.01)  /* Impregnability Self IV */
+     , (27667,  1224,  2.012)  /* Mana Drain Other VI */
+     , (27667,  1619,  2.002)  /* Blood Loather IV */
+     , (27667,  2759,  2.015)  /* Blade Arc VII */
+     , (27667,  2128,  2.015)  /* Ilservian's Flame */
+     , (27667,   277,   2.01)  /* Magic Resistance Self IV */
      , (27667,  2136,  2.015)  /* Icy Torment */
+     , (27667,  2073,  2.009)  /* Adja's Intervention */
      , (27667,  2140,  2.015)  /* Alset's Coil */
+     , (27667,   285,  2.012)  /* Magic Yield Other VI */
      , (27667,  2144,  2.015)  /* Crushing Shame */
      , (27667,  2146,  2.015)  /* Evisceration */
+     , (27667,   234,  2.012)  /* Vulnerability Other VI */
      , (27667,  2731,  2.015)  /* Frost Arc VII */
+     , (27667,  1200,  2.012)  /* Enfeeble Other VI */
      , (27667,  2738,  2.015)  /* Lightning Arc VII */
-     , (27667,  2745,  2.015)  /* Flame Arc VII */
-     , (27667,  2752,  2.015)  /* Shock Arc VII */
-     , (27667,  2759,  2.015)  /* Blade Arc VII */;
+     , (27667,   247,   2.01)  /* Invulnerability Self IV */
+     , (27667,  2745,  2.015)  /* Flame Arc VII */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (27667,  94) /* ATTACK_NOTIFICATION_EVENT */

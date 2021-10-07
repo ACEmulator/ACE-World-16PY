@@ -41,14 +41,14 @@ VALUES (29954,   1,   33554691) /* Setup */
      , (29954,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29954,  2571,      2)  /* Major Armor */
+VALUES (29954,  2624,      2)  /* Major Mana Gain */
      , (29954,  2609,      2)  /* Major Acid Ward */
-     , (29954,  2610,      2)  /* Major Bludgeoning Ward */
+     , (29954,  2625,      2)  /* Major Stamina Gain */
      , (29954,  2611,      2)  /* Major Flame Ward */
+     , (29954,  2571,      2)  /* Major Armor */
+     , (29954,  2610,      2)  /* Major Bludgeoning Ward */
      , (29954,  2612,      2)  /* Major Frost Ward */
      , (29954,  2613,      2)  /* Major Piercing Ward */
      , (29954,  2614,      2)  /* Major Slashing Ward */
      , (29954,  2615,      2)  /* Major Storm Ward */
-     , (29954,  2623,      2)  /* Major Health Gain */
-     , (29954,  2624,      2)  /* Major Mana Gain */
-     , (29954,  2625,      2)  /* Major Stamina Gain */;
+     , (29954,  2623,      2)  /* Major Health Gain */;

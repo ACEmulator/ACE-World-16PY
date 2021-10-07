@@ -58,8 +58,8 @@ VALUES (19954,   1,   33556338) /* Setup */
      , (19954,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19954,  1033,      2)  /* Cold Protection Self IV */
-     , (19954,  1375,      2)  /* Coordination Self III */
+VALUES (19954,  2693,      2)  /* Moderate Light Weapon Aptitude */
+     , (19954,  1033,      2)  /* Cold Protection Self IV */
      , (19954,  1592,      2)  /* Aura of Heart Seeker Self VI */
      , (19954,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (19954,  2693,      2)  /* Moderate Light Weapon Aptitude */;
+     , (19954,  1375,      2)  /* Coordination Self III */;

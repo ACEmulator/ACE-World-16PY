@@ -109,11 +109,11 @@ VALUES (21771,  0, 32, 30, 0.75,  190,  143,  143,  143, 3800, 3800, 3800, 3800,
      , (21771, 25, 32, 10, 0.75,  200,  150,  150,  150, 4000, 4000, 4000, 4000,    0, 3,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* LowerTentacle */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21771,    63,   2.35)  /* Acid Stream VI */
+VALUES (21771,  2162,    2.1)  /* Olthoi's Gift */
      , (21771,   234,    2.1)  /* Vulnerability Other VI */
-     , (21771,  1327,    2.1)  /* Imperil Other VI */
      , (21771,  1795,   2.35)  /* Acid Streak VI */
-     , (21771,  2162,    2.1)  /* Olthoi's Gift */;
+     , (21771,  1327,    2.1)  /* Imperil Other VI */
+     , (21771,    63,   2.35)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (21771,  94) /* ATTACK_NOTIFICATION_EVENT */

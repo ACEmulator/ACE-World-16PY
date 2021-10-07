@@ -57,8 +57,8 @@ VALUES (24028,   1,   33558267) /* Setup */
      , (24028,  36,  234881044) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24028,  1337,      2)  /* Strength Other VI */
-     , (24028,  1591,      2)  /* Aura of Heart Seeker Self V */
-     , (24028,  1605,      2)  /* Aura of Defender Self VI */
+VALUES (24028,  1605,      2)  /* Aura of Defender Self VI */
+     , (24028,  2949,      2)  /* Lightbringer's Way */
+     , (24028,  1337,      2)  /* Strength Other VI */
      , (24028,  1624,      2)  /* Aura of Swift Killer Self III */
-     , (24028,  2949,      2)  /* Lightbringer's Way */;
+     , (24028,  1591,      2)  /* Aura of Heart Seeker Self V */;

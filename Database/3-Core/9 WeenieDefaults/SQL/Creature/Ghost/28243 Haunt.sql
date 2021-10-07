@@ -110,18 +110,18 @@ VALUES (28243,  0,  1,  0,    0,  350,  350,  350,  350,  280,  350,  350,  280,
      , (28243, 17,  1,  0,    0,  350,  350,  350,  350,  280,  350,  350,  280,    0, 3,    0,    0,  0.1,    0,    0,  0.1,    0, 0.13, 0.45,    0, 0.13, 0.45) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28243,    96,   2.05)  /* Whirling Blade V */
-     , (28243,   125,   2.05)  /* Blade Blast V */
+VALUES (28243,  1326,   2.04)  /* Imperil Other V */
      , (28243,   153,   2.05)  /* Blade Volley V */
      , (28243,   896,   2.02)  /* Healing Ineptitude Other V */
-     , (28243,  1131,   2.04)  /* Blade Vulnerability Other V */
+     , (28243,  2757,   2.05)  /* Blade Arc V */
      , (28243,  1160,      2)  /* Heal Self V */
-     , (28243,  1326,   2.04)  /* Imperil Other V */
-     , (28243,  1342,   2.03)  /* Weakness Other V */
      , (28243,  1443,   2.03)  /* Bafflement Other V */
+     , (28243,    96,   2.05)  /* Whirling Blade V */
+     , (28243,  1131,   2.04)  /* Blade Vulnerability Other V */
      , (28243,  1830,   2.05)  /* Whirling Blade Streak V */
+     , (28243,   125,   2.05)  /* Blade Blast V */
      , (28243,  1840,   2.05)  /* Bed of Blades */
-     , (28243,  2757,   2.05)  /* Blade Arc V */;
+     , (28243,  1342,   2.03)  /* Weakness Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (28243,  94) /* ATTACK_NOTIFICATION_EVENT */

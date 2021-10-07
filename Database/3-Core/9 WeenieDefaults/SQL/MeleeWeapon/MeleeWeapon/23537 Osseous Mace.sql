@@ -52,9 +52,9 @@ VALUES (23537,   1,   33557329) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23537,  1035,      2)  /* Cold Protection Self VI */
-     , (23537,  1311,      2)  /* Armor Self V */
-     , (23537,  1592,      2)  /* Aura of Heart Seeker Self VI */
      , (23537,  1605,      2)  /* Aura of Defender Self VI */
+     , (23537,  1592,      2)  /* Aura of Heart Seeker Self VI */
      , (23537,  1616,      2)  /* Aura of Blood Drinker Self VI */
      , (23537,  1625,      2)  /* Aura of Swift Killer Self IV */
+     , (23537,  1311,      2)  /* Armor Self V */
      , (23537,  2486,      2)  /* Blood Thirst */;

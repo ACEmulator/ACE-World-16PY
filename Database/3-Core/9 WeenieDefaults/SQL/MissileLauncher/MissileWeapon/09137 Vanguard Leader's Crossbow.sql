@@ -58,7 +58,7 @@ VALUES (9137,   1,   33554732) /* Setup */
      , (9137,  37,          3) /* ItemSkillLimit - Crossbow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9137,  1381,      2)  /* Coordination Other III */
+VALUES (9137,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (9137,  1625,      2)  /* Aura of Swift Killer Self IV */
      , (9137,  1588,      2)  /* Aura of Heart Seeker Self II */
-     , (9137,  1613,      2)  /* Aura of Blood Drinker Self III */
-     , (9137,  1625,      2)  /* Aura of Swift Killer Self IV */;
+     , (9137,  1381,      2)  /* Coordination Other III */;

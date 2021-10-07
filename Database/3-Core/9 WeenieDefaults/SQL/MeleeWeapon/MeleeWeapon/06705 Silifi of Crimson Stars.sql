@@ -59,5 +59,5 @@ VALUES (6705,   1,   33556553) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6705,  1096,      2)  /* Fire Protection Other VI */
-     , (6705,  1384,      2)  /* Coordination Other VI */
-     , (6705,  1616,      2)  /* Aura of Blood Drinker Self VI */;
+     , (6705,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (6705,  1384,      2)  /* Coordination Other VI */;

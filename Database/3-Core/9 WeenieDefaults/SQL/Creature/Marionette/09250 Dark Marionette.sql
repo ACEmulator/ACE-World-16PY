@@ -110,18 +110,18 @@ VALUES (9250,  0,  4, 20, 0.75,  240,  216,  170,  194,  127,  180,  194,  178, 
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9250,    71,  2.028)  /* Frost Bolt III */
-     , (9250,    77,  2.028)  /* Lightning Bolt III */
      , (9250,  1091,      2)  /* Fire Protection Self III */
-     , (9250,  1111,      2)  /* Blade Protection Self III */
      , (9250,  1158,   2.01)  /* Heal Self III */
-     , (9250,  1309,      2)  /* Armor Self III */
-     , (9250,  1340,  2.028)  /* Weakness Other III */
      , (9250,  1369,  2.028)  /* Frailty Other III */
      , (9250,  1417,  2.028)  /* Slowness Other III */
+     , (9250,  1816,  2.028)  /* Lightning Streak III */
+     , (9250,    77,  2.028)  /* Lightning Bolt III */
+     , (9250,  1111,      2)  /* Blade Protection Self III */
+     , (9250,  1810,  2.028)  /* Frost Streak III */
+     , (9250,  1309,      2)  /* Armor Self III */
      , (9250,  1441,  2.028)  /* Bafflement Other III */
      , (9250,  1465,  2.028)  /* Feeblemind Other III */
-     , (9250,  1810,  2.028)  /* Frost Streak III */
-     , (9250,  1816,  2.028)  /* Lightning Streak III */;
+     , (9250,  1340,  2.028)  /* Weakness Other III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (9250,  94) /* ATTACK_NOTIFICATION_EVENT */

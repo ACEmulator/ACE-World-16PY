@@ -120,30 +120,30 @@ VALUES (11513,  0,  4,  0,    0,   95,   95,   95,   95,   95,   95,   95,   95,
      , (11513,  8,  4,  5, 0.75,   95,   95,   95,   95,   95,   95,   95,   95,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11513,    59,   2.04)  /* Acid Stream II */
-     , (11513,    61,  2.014)  /* Acid Stream IV */
+VALUES (11513,   258,  2.032)  /* Impregnability Self III */
+     , (11513,  1221,  2.023)  /* Mana Drain Other III */
+     , (11513,  1158,  2.048)  /* Heal Self III */
      , (11513,    66,   2.04)  /* Shock Wave III */
      , (11513,    67,  2.014)  /* Shock Wave IV */
+     , (11513,   264,  2.032)  /* Defenselessness Other III */
      , (11513,    71,   2.04)  /* Frost Bolt III */
      , (11513,    72,  2.014)  /* Frost Bolt IV */
      , (11513,    77,   2.04)  /* Lightning Bolt III */
      , (11513,    78,  2.014)  /* Lightning Bolt IV */
+     , (11513,  1197,  2.023)  /* Enfeeble Other III */
      , (11513,    81,   2.04)  /* Flame Bolt II */
      , (11513,    82,  2.014)  /* Flame Bolt III */
+     , (11513,   276,  2.032)  /* Magic Resistance Self III */
+     , (11513,  1174,  2.023)  /* Harm Other IV */
      , (11513,    88,   2.04)  /* Force Bolt III */
      , (11513,    89,  2.014)  /* Force Bolt IV */
+     , (11513,   282,  2.032)  /* Magic Yield Other III */
      , (11513,    94,   2.04)  /* Whirling Blade III */
      , (11513,    95,  2.014)  /* Whirling Blade IV */
      , (11513,   231,  2.032)  /* Vulnerability Other III */
      , (11513,   246,  2.032)  /* Invulnerability Self III */
-     , (11513,   258,  2.032)  /* Impregnability Self III */
-     , (11513,   264,  2.032)  /* Defenselessness Other III */
-     , (11513,   276,  2.032)  /* Magic Resistance Self III */
-     , (11513,   282,  2.032)  /* Magic Yield Other III */
-     , (11513,  1158,  2.048)  /* Heal Self III */
-     , (11513,  1174,  2.023)  /* Harm Other IV */
-     , (11513,  1197,  2.023)  /* Enfeeble Other III */
-     , (11513,  1221,  2.023)  /* Mana Drain Other III */;
+     , (11513,    59,   2.04)  /* Acid Stream II */
+     , (11513,    61,  2.014)  /* Acid Stream IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (11513,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -40,44 +40,44 @@ VALUES (23140,   1,   33554683) /* Setup */
      , (23140,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23140,   244,      2)  /* Invulnerability Other VI */
-     , (23140,   255,      2)  /* Impregnability Other VI */
-     , (23140,   273,      2)  /* Magic Resistance Other VI */
-     , (23140,   297,      2)  /* Light Weapon Mastery Other VI */
-     , (23140,   321,      2)  /* Finesse Weapon Mastery Other VI */
-     , (23140,   345,      2)  /* Light Weapon Mastery Other VI */
-     , (23140,   369,      2)  /* Light Weapon Mastery Other VI */
-     , (23140,   393,      2)  /* Light Weapon Mastery Other VI */
-     , (23140,   417,      2)  /* Heavy Weapon Mastery Other VI */
-     , (23140,   442,      2)  /* Light Weapon Mastery Other VI */
-     , (23140,   466,      2)  /* Missile Weapon Mastery Other VI */
-     , (23140,   490,      2)  /* Missile Weapon Mastery Other VI */
-     , (23140,   538,      2)  /* Missile Weapon Mastery Other VI */
-     , (23140,   568,      2)  /* Creature Enchantment Mastery Other VI */
+VALUES (23140,   321,      2)  /* Finesse Weapon Mastery Other VI */
      , (23140,   592,      2)  /* Item Enchantment Mastery Other VI */
-     , (23140,   616,      2)  /* Life Magic Mastery Other VI */
-     , (23140,   640,      2)  /* War Magic Mastery Other VI */
      , (23140,   664,      2)  /* Mana Conversion Mastery Other VI */
-     , (23140,   689,      2)  /* Arcane Enlightenment Other VI */
-     , (23140,   713,      2)  /* Armor Tinkering Expertise Other VI */
-     , (23140,   737,      2)  /* Item Tinkering Expertise Other VI */
-     , (23140,   761,      2)  /* Magic Item Tinkering Expertise Other VI */
-     , (23140,   785,      2)  /* Weapon Tinkering Expertise Other VI */
-     , (23140,   809,      2)  /* Monster Attunement Other VI */
-     , (23140,   835,      2)  /* Person Attunement Other VI */
-     , (23140,   861,      2)  /* Deception Mastery Other VI */
-     , (23140,   885,      2)  /* Healing Mastery Other VI */
-     , (23140,   909,      2)  /* Leadership Mastery Other VI */
-     , (23140,   933,      2)  /* Lockpick Mastery Other VI */
-     , (23140,   957,      2)  /* Fealty Other VI */
-     , (23140,   981,      2)  /* Jumping Mastery Other VI */
-     , (23140,   993,      2)  /* Sprint Other VI */
-     , (23140,  1337,      2)  /* Strength Other VI */
-     , (23140,  1360,      2)  /* Endurance Other VI */
-     , (23140,  1384,      2)  /* Coordination Other VI */
+     , (23140,   393,      2)  /* Light Weapon Mastery Other VI */
+     , (23140,   369,      2)  /* Light Weapon Mastery Other VI */
+     , (23140,   640,      2)  /* War Magic Mastery Other VI */
      , (23140,  1408,      2)  /* Quickness Other VI */
-     , (23140,  1432,      2)  /* Focus Other VI */
-     , (23140,  1456,      2)  /* Willpower Other VI */
-     , (23140,  1714,      2)  /* Cooking Mastery Other VI */
+     , (23140,  1337,      2)  /* Strength Other VI */
+     , (23140,   835,      2)  /* Person Attunement Other VI */
+     , (23140,   713,      2)  /* Armor Tinkering Expertise Other VI */
      , (23140,  1738,      2)  /* Fletching Mastery Other VI */
-     , (23140,  1762,      2)  /* Alchemy Mastery Other VI */;
+     , (23140,   909,      2)  /* Leadership Mastery Other VI */
+     , (23140,  1360,      2)  /* Endurance Other VI */
+     , (23140,   785,      2)  /* Weapon Tinkering Expertise Other VI */
+     , (23140,   273,      2)  /* Magic Resistance Other VI */
+     , (23140,   466,      2)  /* Missile Weapon Mastery Other VI */
+     , (23140,   981,      2)  /* Jumping Mastery Other VI */
+     , (23140,  1432,      2)  /* Focus Other VI */
+     , (23140,   616,      2)  /* Life Magic Mastery Other VI */
+     , (23140,   345,      2)  /* Light Weapon Mastery Other VI */
+     , (23140,   538,      2)  /* Missile Weapon Mastery Other VI */
+     , (23140,   861,      2)  /* Deception Mastery Other VI */
+     , (23140,   417,      2)  /* Heavy Weapon Mastery Other VI */
+     , (23140,   993,      2)  /* Sprint Other VI */
+     , (23140,   737,      2)  /* Item Tinkering Expertise Other VI */
+     , (23140,   244,      2)  /* Invulnerability Other VI */
+     , (23140,   933,      2)  /* Lockpick Mastery Other VI */
+     , (23140,  1762,      2)  /* Alchemy Mastery Other VI */
+     , (23140,  1384,      2)  /* Coordination Other VI */
+     , (23140,   809,      2)  /* Monster Attunement Other VI */
+     , (23140,   568,      2)  /* Creature Enchantment Mastery Other VI */
+     , (23140,   297,      2)  /* Light Weapon Mastery Other VI */
+     , (23140,   490,      2)  /* Missile Weapon Mastery Other VI */
+     , (23140,  1456,      2)  /* Willpower Other VI */
+     , (23140,   689,      2)  /* Arcane Enlightenment Other VI */
+     , (23140,   885,      2)  /* Healing Mastery Other VI */
+     , (23140,  1714,      2)  /* Cooking Mastery Other VI */
+     , (23140,   761,      2)  /* Magic Item Tinkering Expertise Other VI */
+     , (23140,   442,      2)  /* Light Weapon Mastery Other VI */
+     , (23140,   957,      2)  /* Fealty Other VI */
+     , (23140,   255,      2)  /* Impregnability Other VI */;

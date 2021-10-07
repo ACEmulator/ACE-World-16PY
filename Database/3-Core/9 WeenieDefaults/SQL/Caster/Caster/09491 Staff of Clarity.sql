@@ -43,6 +43,6 @@ VALUES (9491,   1,   33557010) /* Setup */
      , (9491,  41,         16) /* ItemSpecializedOnly - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9491,   211,      2)  /* Mana Renewal Other VI */
+VALUES (9491,   664,      2)  /* Mana Conversion Mastery Other VI */
      , (9491,   640,      2)  /* War Magic Mastery Other VI */
-     , (9491,   664,      2)  /* Mana Conversion Mastery Other VI */;
+     , (9491,   211,      2)  /* Mana Renewal Other VI */;

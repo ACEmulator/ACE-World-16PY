@@ -115,17 +115,17 @@ VALUES (7985,  0,  4, 15, 0.75,  190,  190,  158,  158,  184,  158,  184,  158, 
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7985,     3,  2.028)  /* Weakness Other I */
-     , (7985,     6,   2.01)  /* Heal Self I */
-     , (7985,    24,      2)  /* Armor Self I */
      , (7985,   515,      2)  /* Acid Protection Self I */
      , (7985,  1030,      2)  /* Cold Protection Self I */
+     , (7985,     6,   2.01)  /* Heal Self I */
+     , (7985,  1439,  2.028)  /* Bafflement Other I */
+     , (7985,  1367,  2.028)  /* Frailty Other I */
+     , (7985,  1415,  2.028)  /* Slowness Other I */
      , (7985,  1237,  2.007)  /* Drain Health Other I */
+     , (7985,    24,      2)  /* Armor Self I */
      , (7985,  1249,  2.007)  /* Drain Stamina Other I */
      , (7985,  1260,  2.007)  /* Drain Mana Other I */
-     , (7985,  1367,  2.028)  /* Frailty Other I */
      , (7985,  1391,  2.028)  /* Clumsiness Other I */
-     , (7985,  1415,  2.028)  /* Slowness Other I */
-     , (7985,  1439,  2.028)  /* Bafflement Other I */
      , (7985,  1463,  2.028)  /* Feeblemind Other I */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

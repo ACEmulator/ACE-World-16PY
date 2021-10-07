@@ -101,8 +101,8 @@ VALUES (23557,  0,  4, 80,  0.3,  260,  127,  164,   70,  127,  208,  208,  182,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23557,  2121,   2.33)  /* Corrosive Flash */
-     , (23557,  2123,   2.33)  /* Celdiseth's Searing */
-     , (23557,  2717,   2.34)  /* Acid Arc VII */;
+     , (23557,  2717,   2.34)  /* Acid Arc VII */
+     , (23557,  2123,   2.33)  /* Celdiseth's Searing */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (23557,  94) /* ATTACK_NOTIFICATION_EVENT */

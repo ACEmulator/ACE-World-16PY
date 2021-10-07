@@ -59,8 +59,8 @@ VALUES (20082,   1,   33557752) /* Setup */
      , (20082,  37,          2) /* ItemSkillLimit - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20082,  1033,      2)  /* Cold Protection Self IV */
-     , (20082,  1375,      2)  /* Coordination Self III */
-     , (20082,  1605,      2)  /* Aura of Defender Self VI */
+VALUES (20082,  1605,      2)  /* Aura of Defender Self VI */
+     , (20082,  1033,      2)  /* Cold Protection Self IV */
      , (20082,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (20082,  1375,      2)  /* Coordination Self III */
      , (20082,  2687,      2)  /* Moderate Missile Weapon Aptitude */;

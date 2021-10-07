@@ -109,17 +109,17 @@ VALUES (21170,  0, 64,  0,    0,  140,  102,  102,  102,  109,   84,  140, 14000
      , (21170,  8, 64, 25, 0.75,  140,  102,  102,  102,  109,   84,  140, 14000,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21170,    78,  2.005)  /* Lightning Bolt IV */
+VALUES (21170,  1240,  2.006)  /* Drain Health Other IV */
      , (21170,   140,  2.005)  /* Lightning Volley IV */
-     , (21170,   168,  2.006)  /* Regeneration Self IV */
-     , (21170,   232,  2.013)  /* Vulnerability Other IV */
-     , (21170,   277,  2.006)  /* Magic Resistance Self IV */
      , (21170,   518,  2.006)  /* Acid Protection Self IV */
-     , (21170,  1087,  2.013)  /* Lightning Vulnerability Other IV */
      , (21170,  1159,   2.01)  /* Heal Self IV */
-     , (21170,  1240,  2.006)  /* Drain Health Other IV */
+     , (21170,   277,  2.006)  /* Magic Resistance Self IV */
+     , (21170,    78,  2.005)  /* Lightning Bolt IV */
      , (21170,  1310,  2.006)  /* Armor Self IV */
-     , (21170,  1325,  2.013)  /* Imperil Other IV */;
+     , (21170,   232,  2.013)  /* Vulnerability Other IV */
+     , (21170,   168,  2.006)  /* Regeneration Self IV */
+     , (21170,  1325,  2.013)  /* Imperil Other IV */
+     , (21170,  1087,  2.013)  /* Lightning Vulnerability Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (21170,  94) /* ATTACK_NOTIFICATION_EVENT */

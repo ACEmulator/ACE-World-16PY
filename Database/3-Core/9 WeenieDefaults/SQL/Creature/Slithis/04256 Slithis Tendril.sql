@@ -106,11 +106,11 @@ VALUES (4256,  0,  1, 10, 0.75,  120,   85,   41,   41,   17,   85,   41,   17, 
      , (4256, 25,  4, 10, 0.75,  130,   92,   44,   44,   18,   92,   44,   18,    0, 3,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* LowerTentacle */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (4256,     7,   2.05)  /* Harm Other I */
-     , (4256,   172,   2.01)  /* Fester Other II */
+VALUES (4256,  1261,   2.01)  /* Drain Mana Other II */
      , (4256,  1157,   2.01)  /* Heal Self II */
-     , (4256,  1261,   2.01)  /* Drain Mana Other II */
      , (4256,  1308,   2.01)  /* Armor Self II */
+     , (4256,     7,   2.05)  /* Harm Other I */
+     , (4256,   172,   2.01)  /* Fester Other II */
      , (4256,  1464,   2.01)  /* Feeblemind Other II */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

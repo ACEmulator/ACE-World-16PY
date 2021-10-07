@@ -128,11 +128,11 @@ VALUES (22904,  0,  4,  0,    0,  500,  400,  275,  350,  125,  300,  350,  375,
      , (22904,  8,  4, 80, 0.75,  500,  400,  275,  350,  125,  300,  350,  375,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22904,   176,   2.04)  /* Fester Other VI */
-     , (22904,  1161,   2.04)  /* Heal Self VI */
+VALUES (22904,  1161,   2.04)  /* Heal Self VI */
      , (22904,  1242,   2.04)  /* Drain Health Other VI */
-     , (22904,  1254,   2.04)  /* Drain Stamina Other VI */
      , (22904,  2084,   2.04)  /* Belly of Lead */
+     , (22904,  1254,   2.04)  /* Drain Stamina Other VI */
+     , (22904,   176,   2.04)  /* Fester Other VI */
      , (22904,  2088,   2.04)  /* Senescence */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

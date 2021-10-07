@@ -109,18 +109,18 @@ VALUES (11618,  0,  1,  0,    0,  135,  135,  135,  135,  107,  135,  135,  107,
      , (11618, 22, 64, 25,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11618,    71,  2.025)  /* Frost Bolt III */
+VALUES (11618,  1174,   2.02)  /* Harm Other IV */
+     , (11618,  1198,   2.02)  /* Enfeeble Other IV */
+     , (11618,    82,  2.025)  /* Flame Bolt III */
+     , (11618,  1158,      2)  /* Heal Self III */
+     , (11618,    71,  2.025)  /* Frost Bolt III */
      , (11618,    72,  2.013)  /* Frost Bolt IV */
+     , (11618,  1370,   2.02)  /* Frailty Other IV */
+     , (11618,  1418,   2.02)  /* Slowness Other IV */
      , (11618,    77,  2.025)  /* Lightning Bolt III */
      , (11618,    78,  2.013)  /* Lightning Bolt IV */
-     , (11618,    82,  2.025)  /* Flame Bolt III */
-     , (11618,  1086,   2.06)  /* Lightning Vulnerability Other III */
-     , (11618,  1158,      2)  /* Heal Self III */
-     , (11618,  1174,   2.02)  /* Harm Other IV */
-     , (11618,  1198,   2.02)  /* Enfeeble Other IV */
      , (11618,  1263,   2.02)  /* Drain Mana Other IV */
-     , (11618,  1370,   2.02)  /* Frailty Other IV */
-     , (11618,  1418,   2.02)  /* Slowness Other IV */;
+     , (11618,  1086,   2.06)  /* Lightning Vulnerability Other III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (11618,  94) /* ATTACK_NOTIFICATION_EVENT */

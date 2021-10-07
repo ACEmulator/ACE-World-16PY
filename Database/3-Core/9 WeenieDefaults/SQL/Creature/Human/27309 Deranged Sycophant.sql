@@ -118,22 +118,22 @@ VALUES (27309,  0,  4,  0,    0,  350,  525,  700,  350,  490,  700,  263,  420,
      , (27309,  8,  4, 100, 0.75,  350,  525,  700,  350,  490,  700,  263,  420,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27309,  2073,   2.08)  /* Adja's Intervention */
+VALUES (27309,  2752,   2.06)  /* Shock Arc VII */
      , (27309,  2122,   2.06)  /* Disintegration */
-     , (27309,  2128,   2.06)  /* Ilservian's Flame */
-     , (27309,  2132,   2.06)  /* The Spike */
+     , (27309,  2073,   2.08)  /* Adja's Intervention */
+     , (27309,  2759,   2.06)  /* Blade Arc VII */
      , (27309,  2136,   2.06)  /* Icy Torment */
+     , (27309,  2128,   2.06)  /* Ilservian's Flame */
      , (27309,  2140,   2.06)  /* Alset's Coil */
+     , (27309,  2132,   2.06)  /* The Spike */
+     , (27309,  2717,   2.06)  /* Acid Arc VII */
      , (27309,  2144,   2.06)  /* Crushing Shame */
      , (27309,  2146,   2.06)  /* Evisceration */
-     , (27309,  2717,   2.06)  /* Acid Arc VII */
      , (27309,  2724,   2.06)  /* Force Arc VII */
      , (27309,  2731,   2.06)  /* Frost Arc VII */
+     , (27309,  3185,   2.08)  /* Eradicate Creature Magic Self */
      , (27309,  2738,   2.06)  /* Lightning Arc VII */
-     , (27309,  2745,   2.06)  /* Flame Arc VII */
-     , (27309,  2752,   2.06)  /* Shock Arc VII */
-     , (27309,  2759,   2.06)  /* Blade Arc VII */
-     , (27309,  3185,   2.08)  /* Eradicate Creature Magic Self */;
+     , (27309,  2745,   2.06)  /* Flame Arc VII */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (27309,  94) /* ATTACK_NOTIFICATION_EVENT */

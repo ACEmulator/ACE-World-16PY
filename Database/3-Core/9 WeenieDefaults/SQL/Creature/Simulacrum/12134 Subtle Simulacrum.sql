@@ -125,42 +125,42 @@ VALUES (12134,  0,  4,  0,    0,  270,  270,  270,  270,  270,  270,  270,  270,
      , (12134,  8,  4,  2, 0.75,  250,  250,  250,  250,  250,  250,  250,  250,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12134,    60,  2.011)  /* Acid Stream III */
-     , (12134,    61,  2.017)  /* Acid Stream IV */
-     , (12134,    66,  2.011)  /* Shock Wave III */
-     , (12134,    67,  2.017)  /* Shock Wave IV */
-     , (12134,    71,  2.011)  /* Frost Bolt III */
+VALUES (12134,   136,  2.011)  /* Frost Volley IV */
      , (12134,    72,  2.017)  /* Frost Bolt IV */
-     , (12134,    77,  2.011)  /* Lightning Bolt III */
-     , (12134,    78,  2.017)  /* Lightning Bolt IV */
-     , (12134,    82,  2.011)  /* Flame Bolt III */
-     , (12134,    83,  2.017)  /* Flame Bolt IV */
-     , (12134,    88,  2.011)  /* Force Bolt III */
-     , (12134,    89,  2.017)  /* Force Bolt IV */
-     , (12134,    94,  2.011)  /* Whirling Blade III */
-     , (12134,    95,  2.017)  /* Whirling Blade IV */
      , (12134,   128,  2.011)  /* Acid Volley IV */
+     , (12134,  1666,  2.032)  /* Stamina to Health Self III */
+     , (12134,    66,  2.011)  /* Shock Wave III */
+     , (12134,    83,  2.017)  /* Flame Bolt IV */
+     , (12134,  1159,   2.09)  /* Heal Self IV */
      , (12134,   131,  2.017)  /* Bludgeoning Volley III */
+     , (12134,    67,  2.017)  /* Shock Wave IV */
      , (12134,   135,  2.017)  /* Frost Volley III */
-     , (12134,   136,  2.011)  /* Frost Volley IV */
+     , (12134,    71,  2.011)  /* Frost Bolt III */
+     , (12134,  1417,  2.023)  /* Slowness Other III */
      , (12134,   139,  2.017)  /* Lightning Volley III */
+     , (12134,    95,  2.017)  /* Whirling Blade IV */
+     , (12134,  1292,  2.032)  /* Mana to Health Self III */
      , (12134,   140,  2.011)  /* Lightning Volley IV */
+     , (12134,    77,  2.011)  /* Lightning Bolt III */
+     , (12134,  1678,  2.032)  /* Stamina to Mana Self III */
+     , (12134,  1369,  2.023)  /* Frailty Other III */
+     , (12134,    78,  2.017)  /* Lightning Bolt IV */
      , (12134,   143,  2.017)  /* Flame Volley III */
      , (12134,   144,  2.011)  /* Flame Volley IV */
-     , (12134,   151,  2.017)  /* Blade Volley III */
-     , (12134,   246,  2.032)  /* Invulnerability Self III */
-     , (12134,   282,  2.023)  /* Magic Yield Other III */
-     , (12134,  1050,   2.09)  /* Bludgeoning Vulnerability Other III */
-     , (12134,  1159,   2.09)  /* Heal Self IV */
-     , (12134,  1173,  2.023)  /* Harm Other III */
-     , (12134,  1197,  2.023)  /* Enfeeble Other III */
-     , (12134,  1239,  2.032)  /* Drain Health Other III */
      , (12134,  1262,  2.023)  /* Drain Mana Other III */
-     , (12134,  1292,  2.032)  /* Mana to Health Self III */
-     , (12134,  1369,  2.023)  /* Frailty Other III */
-     , (12134,  1417,  2.023)  /* Slowness Other III */
-     , (12134,  1666,  2.032)  /* Stamina to Health Self III */
-     , (12134,  1678,  2.032)  /* Stamina to Mana Self III */;
+     , (12134,    82,  2.011)  /* Flame Bolt III */
+     , (12134,  1173,  2.023)  /* Harm Other III */
+     , (12134,  1239,  2.032)  /* Drain Health Other III */
+     , (12134,   151,  2.017)  /* Blade Volley III */
+     , (12134,    88,  2.011)  /* Force Bolt III */
+     , (12134,    89,  2.017)  /* Force Bolt IV */
+     , (12134,   282,  2.023)  /* Magic Yield Other III */
+     , (12134,   246,  2.032)  /* Invulnerability Self III */
+     , (12134,  1050,   2.09)  /* Bludgeoning Vulnerability Other III */
+     , (12134,    94,  2.011)  /* Whirling Blade III */
+     , (12134,  1197,  2.023)  /* Enfeeble Other III */
+     , (12134,    60,  2.011)  /* Acid Stream III */
+     , (12134,    61,  2.017)  /* Acid Stream IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (12134,  94) /* ATTACK_NOTIFICATION_EVENT */

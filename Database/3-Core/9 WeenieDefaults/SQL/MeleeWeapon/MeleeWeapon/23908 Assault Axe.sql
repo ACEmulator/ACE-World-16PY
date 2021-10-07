@@ -61,7 +61,7 @@ VALUES (23908,   1,   33557200) /* Setup */
      , (23908,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23908,  1331,      2)  /* Strength Self V */
-     , (23908,  1590,      2)  /* Aura of Heart Seeker Self IV */
+VALUES (23908,  1590,      2)  /* Aura of Heart Seeker Self IV */
+     , (23908,  1331,      2)  /* Strength Self V */
      , (23908,  1614,      2)  /* Aura of Blood Drinker Self IV */
      , (23908,  2004,      2)  /* Warrior's Vitality */;

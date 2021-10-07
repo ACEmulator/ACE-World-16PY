@@ -46,5 +46,5 @@ VALUES (24884,   1,   33554726) /* Setup */
      , (24884,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24884,  2096,      2)  /* Aura of Infected Caress */
-     , (24884,  2116,      2)  /* Aura of Atlan's Alacrity */;
+VALUES (24884,  2116,      2)  /* Aura of Atlan's Alacrity */
+     , (24884,  2096,      2)  /* Aura of Infected Caress */;

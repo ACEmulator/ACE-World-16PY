@@ -58,8 +58,8 @@ VALUES (19804,   1,   33556320) /* Setup */
      , (19804,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19804,  1069,      2)  /* Lightning Protection Self IV */
-     , (19804,  1399,      2)  /* Quickness Self III */
-     , (19804,  1590,      2)  /* Aura of Heart Seeker Self IV */
+VALUES (19804,  1590,      2)  /* Aura of Heart Seeker Self IV */
      , (19804,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (19804,  1069,      2)  /* Lightning Protection Self IV */
+     , (19804,  1399,      2)  /* Quickness Self III */
      , (19804,  2685,      2)  /* Feeble Light Weapon Aptitude */;

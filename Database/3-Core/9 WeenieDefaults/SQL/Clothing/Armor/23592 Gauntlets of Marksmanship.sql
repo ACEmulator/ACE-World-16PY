@@ -54,7 +54,7 @@ VALUES (23592,   1,   33554648) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23592,   248,      2)  /* Invulnerability Self V */
-     , (23592,   471,      2)  /* Missile Weapon Mastery Self V */
      , (23592,   495,      2)  /* Missile Weapon Mastery Self V */
+     , (23592,   471,      2)  /* Missile Weapon Mastery Self V */
      , (23592,   543,      2)  /* Missile Weapon Mastery Self V */
      , (23592,  1377,      2)  /* Coordination Self V */;

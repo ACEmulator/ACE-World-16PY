@@ -111,17 +111,17 @@ VALUES (25867,  0,  4, 145, 0.75,  650,  585,  520,  488,  488,  618,  618,  520
      , (25867, 25,  4, 145, 0.75,  650,  585,  520,  488,  488,  618,  618,  520,    0, 3,    0,    0,  0.3,    0,  0.1,  0.3,    0,    0,  0.3,    0,  0.1, 0.28) /* LowerTentacle */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25867,    63,   2.04)  /* Acid Stream VI */
-     , (25867,    85,   2.04)  /* Flame Bolt VI */
-     , (25867,   176,   2.02)  /* Fester Other VI */
-     , (25867,   199,   2.02)  /* Exhaustion Other VI */
-     , (25867,   526,   2.02)  /* Acid Vulnerability Other VI */
-     , (25867,  1108,   2.02)  /* Fire Vulnerability Other VI */
-     , (25867,  1327,   2.03)  /* Imperil Other VI */
-     , (25867,  1343,   2.02)  /* Weakness Other VI */
+VALUES (25867,   199,   2.02)  /* Exhaustion Other VI */
      , (25867,  1396,   2.02)  /* Clumsiness Other VI */
+     , (25867,  1327,   2.03)  /* Imperil Other VI */
+     , (25867,   526,   2.02)  /* Acid Vulnerability Other VI */
+     , (25867,   176,   2.02)  /* Fester Other VI */
+     , (25867,  1108,   2.02)  /* Fire Vulnerability Other VI */
+     , (25867,    85,   2.04)  /* Flame Bolt VI */
      , (25867,  2716,   2.04)  /* Acid Arc VI */
-     , (25867,  2744,   2.04)  /* Flame Arc VI */;
+     , (25867,  2744,   2.04)  /* Flame Arc VI */
+     , (25867,    63,   2.04)  /* Acid Stream VI */
+     , (25867,  1343,   2.02)  /* Weakness Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (25867,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -53,8 +53,8 @@ VALUES (26597,   1,   33558594) /* Setup */
      , (26597,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26597,  1384,      2)  /* Coordination Other VI */
+VALUES (26597,  2563,      2)  /* Minor Light Weapon Aptitude */
      , (26597,  1604,      2)  /* Aura of Defender Self V */
      , (26597,  1616,      2)  /* Aura of Blood Drinker Self VI */
      , (26597,  1626,      2)  /* Aura of Swift Killer Self V */
-     , (26597,  2563,      2)  /* Minor Light Weapon Aptitude */;
+     , (26597,  1384,      2)  /* Coordination Other VI */;

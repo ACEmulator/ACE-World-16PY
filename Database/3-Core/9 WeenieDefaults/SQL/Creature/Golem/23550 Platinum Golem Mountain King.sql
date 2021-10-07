@@ -119,22 +119,22 @@ VALUES (23550,  0,  4,  0,    0,  350,  350,  350,  350,  350,  350,  350,  350,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23550,  2053,      2)  /* Executor's Blessing */
-     , (23550,  2070,   2.02)  /* Heart Rend */
-     , (23550,  2122,   2.02)  /* Disintegration */
-     , (23550,  2128,   2.02)  /* Ilservian's Flame */
-     , (23550,  2132,   2.02)  /* The Spike */
-     , (23550,  2136,   2.02)  /* Icy Torment */
-     , (23550,  2140,   2.02)  /* Alset's Coil */
-     , (23550,  2144,   2.02)  /* Crushing Shame */
      , (23550,  2146,   2.02)  /* Evisceration */
+     , (23550,  2122,   2.02)  /* Disintegration */
+     , (23550,  2144,   2.02)  /* Crushing Shame */
+     , (23550,  2136,   2.02)  /* Icy Torment */
+     , (23550,  2128,   2.02)  /* Ilservian's Flame */
+     , (23550,  2140,   2.02)  /* Alset's Coil */
+     , (23550,  2132,   2.02)  /* The Spike */
+     , (23550,  2070,   2.02)  /* Heart Rend */
      , (23550,  2149,      2)  /* Caustic Blessing */
      , (23550,  2151,      2)  /* Blessing of the Blade Turner */
+     , (23550,  2281,      2)  /* Aura of Resistance */
      , (23550,  2153,      2)  /* Blessing of the Mace Turner */
      , (23550,  2155,      2)  /* Icy Blessing */
      , (23550,  2157,      2)  /* Fiery Blessing */
      , (23550,  2159,      2)  /* Storm's Blessing */
-     , (23550,  2161,      2)  /* Blessing of the Arrow Turner */
-     , (23550,  2281,      2)  /* Aura of Resistance */;
+     , (23550,  2161,      2)  /* Blessing of the Arrow Turner */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (23550,  94) /* ATTACK_NOTIFICATION_EVENT */

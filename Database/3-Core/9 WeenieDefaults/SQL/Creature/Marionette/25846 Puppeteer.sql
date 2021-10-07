@@ -116,22 +116,22 @@ VALUES (25846,  0,  4, 175, 0.75,  725,  653,  580,  544,  544,  689,  689,  580
      , (25846, 25,  4, 20, 0.75,  725,  653,  580,  544,  544,  689,  689,  580,    0, 3,    0,    0,  0.3,    0,  0.1,  0.3,    0,    0,  0.3,    0,  0.1, 0.28) /* LowerTentacle */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25846,    69,   2.04)  /* Shock Wave VI */
-     , (25846,    91,   2.04)  /* Force Bolt VI */
-     , (25846,    97,   2.04)  /* Whirling Blade VI */
-     , (25846,   627,   2.01)  /* Life Magic Ineptitude Other V */
+VALUES (25846,  2318,   2.02)  /* Gravity Well */
+     , (25846,  2723,   2.04)  /* Force Arc VI */
      , (25846,   651,   2.01)  /* War Magic Ineptitude Other V */
+     , (25846,   627,   2.01)  /* Life Magic Ineptitude Other V */
+     , (25846,    69,   2.04)  /* Shock Wave VI */
+     , (25846,  2758,   2.04)  /* Blade Arc VI */
      , (25846,  1491,  2.005)  /* Brittlemail V */
      , (25846,  1620,  2.005)  /* Blood Loather V */
+     , (25846,    91,   2.04)  /* Force Bolt VI */
+     , (25846,    97,   2.04)  /* Whirling Blade VI */
      , (25846,  2164,   2.02)  /* Swordsman's Gift */
      , (25846,  2166,   2.02)  /* Tusker's Gift */
-     , (25846,  2174,   2.02)  /* Archer's Gift */
-     , (25846,  2318,   2.02)  /* Gravity Well */
-     , (25846,  2723,   2.04)  /* Force Arc VI */
-     , (25846,  2751,   2.04)  /* Shock Arc VI */
-     , (25846,  2758,   2.04)  /* Blade Arc VI */
      , (25846,  3001,   2.03)  /* Puppet String */
-     , (25846,  3004,   2.03)  /* Puppet Strings */;
+     , (25846,  3004,   2.03)  /* Puppet Strings */
+     , (25846,  2174,   2.02)  /* Archer's Gift */
+     , (25846,  2751,   2.04)  /* Shock Arc VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (25846,  94) /* ATTACK_NOTIFICATION_EVENT */

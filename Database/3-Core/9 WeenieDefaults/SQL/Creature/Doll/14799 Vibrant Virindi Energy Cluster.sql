@@ -107,27 +107,27 @@ VALUES (14799,  0,  1,  0,    0,  120,  120,  120,  120,   86,  120,  120,   86,
      , (14799, 17,  1,  0, 0.75,  100,  100,  100,  100,   72,  100,  100,   72,    0, 3,    0,    0,  0.1,    0,    0,  0.1,    0, 0.13, 0.45,    0, 0.13, 0.45) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (14799,   175,  2.011)  /* Fester Other V */
-     , (14799,   198,  2.011)  /* Exhaustion Other V */
-     , (14799,   222,  2.011)  /* Mana Depletion Other V */
-     , (14799,   233,  2.011)  /* Vulnerability Other V */
-     , (14799,   248,  2.032)  /* Invulnerability Self V */
-     , (14799,   278,  2.011)  /* Magic Resistance Self V */
-     , (14799,   284,  2.023)  /* Magic Yield Other V */
-     , (14799,   676,  2.011)  /* Mana Conversion Ineptitude Other V */
+VALUES (14799,  1668,  2.032)  /* Stamina to Health Self V */
+     , (14799,  1680,  2.032)  /* Stamina to Mana Self V */
      , (14799,   700,  2.011)  /* Arcane Benightedness Other V */
-     , (14799,  1052,   2.09)  /* Bludgeoning Vulnerability Other V */
-     , (14799,  1175,  2.023)  /* Harm Other V */
-     , (14799,  1199,  2.023)  /* Enfeeble Other V */
-     , (14799,  1241,  2.032)  /* Drain Health Other V */
-     , (14799,  1264,  2.023)  /* Drain Mana Other V */
-     , (14799,  1294,  2.032)  /* Mana to Health Self V */
-     , (14799,  1326,  2.011)  /* Imperil Other V */
-     , (14799,  1342,  2.011)  /* Weakness Other V */
+     , (14799,   198,  2.011)  /* Exhaustion Other V */
      , (14799,  1371,  2.023)  /* Frailty Other V */
      , (14799,  1419,  2.023)  /* Slowness Other V */
-     , (14799,  1668,  2.032)  /* Stamina to Health Self V */
-     , (14799,  1680,  2.032)  /* Stamina to Mana Self V */;
+     , (14799,  1294,  2.032)  /* Mana to Health Self V */
+     , (14799,  1241,  2.032)  /* Drain Health Other V */
+     , (14799,   278,  2.011)  /* Magic Resistance Self V */
+     , (14799,  1175,  2.023)  /* Harm Other V */
+     , (14799,  1199,  2.023)  /* Enfeeble Other V */
+     , (14799,   284,  2.023)  /* Magic Yield Other V */
+     , (14799,  1052,   2.09)  /* Bludgeoning Vulnerability Other V */
+     , (14799,   222,  2.011)  /* Mana Depletion Other V */
+     , (14799,   676,  2.011)  /* Mana Conversion Ineptitude Other V */
+     , (14799,   233,  2.011)  /* Vulnerability Other V */
+     , (14799,  1326,  2.011)  /* Imperil Other V */
+     , (14799,   175,  2.011)  /* Fester Other V */
+     , (14799,  1264,  2.023)  /* Drain Mana Other V */
+     , (14799,   248,  2.032)  /* Invulnerability Self V */
+     , (14799,  1342,  2.011)  /* Weakness Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (14799,  94) /* ATTACK_NOTIFICATION_EVENT */

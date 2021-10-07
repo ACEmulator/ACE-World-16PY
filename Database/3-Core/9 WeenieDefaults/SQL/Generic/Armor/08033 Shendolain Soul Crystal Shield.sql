@@ -61,6 +61,6 @@ VALUES (8033,   1,   33554786) /* Setup */
      , (8033,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8033,   249,      2)  /* Invulnerability Self VI */
-     , (8033,  2006,      2)  /* Warrior's Ultimate Vitality */
-     , (8033,  2010,      2)  /* Warrior's Ultimate Vigor */;
+VALUES (8033,  2006,      2)  /* Warrior's Ultimate Vitality */
+     , (8033,  2010,      2)  /* Warrior's Ultimate Vigor */
+     , (8033,   249,      2)  /* Invulnerability Self VI */;

@@ -56,7 +56,7 @@ VALUES (12213,   1,   33557385) /* Setup */
      , (12213,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12213,   248,      2)  /* Invulnerability Self V */
+VALUES (12213,   876,      2)  /* Healing Mastery Self III */
      , (12213,   398,      2)  /* Light Weapon Mastery Self V */
-     , (12213,   876,      2)  /* Healing Mastery Self III */
-     , (12213,  1311,      2)  /* Armor Self V */;
+     , (12213,  1311,      2)  /* Armor Self V */
+     , (12213,   248,      2)  /* Invulnerability Self V */;

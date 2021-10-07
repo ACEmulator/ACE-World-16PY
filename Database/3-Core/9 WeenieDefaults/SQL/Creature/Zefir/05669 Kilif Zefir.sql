@@ -105,22 +105,22 @@ VALUES (5669,  0,  2,  5,  0.5,   20,   16,    4,   18,    4,   11,    8,    4, 
      , (5669, 21,  4,  0,    0,   10,    8,    2,    9,    2,    6,    4,    2,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5669,    66,  2.034)  /* Shock Wave III */
+VALUES (5669,  1262,   2.01)  /* Drain Mana Other III */
      , (5669,    82,  2.034)  /* Flame Bolt III */
+     , (5669,    66,  2.034)  /* Shock Wave III */
+     , (5669,  1415,  2.005)  /* Slowness Other I */
+     , (5669,  1239,   2.01)  /* Drain Health Other III */
+     , (5669,  1159,  2.015)  /* Heal Self IV */
      , (5669,    83,  2.045)  /* Flame Bolt IV */
      , (5669,    88,  2.034)  /* Force Bolt III */
-     , (5669,    94,  2.034)  /* Whirling Blade III */
-     , (5669,    95,  2.045)  /* Whirling Blade IV */
-     , (5669,   283,  2.005)  /* Magic Yield Other IV */
-     , (5669,  1159,  2.015)  /* Heal Self IV */
      , (5669,  1172,  2.005)  /* Harm Other II */
-     , (5669,  1195,  2.005)  /* Enfeeble Other I */
-     , (5669,  1239,   2.01)  /* Drain Health Other III */
-     , (5669,  1251,   2.01)  /* Drain Stamina Other III */
-     , (5669,  1260,  2.005)  /* Drain Mana Other I */
-     , (5669,  1262,   2.01)  /* Drain Mana Other III */
      , (5669,  1369,  2.005)  /* Frailty Other III */
-     , (5669,  1415,  2.005)  /* Slowness Other I */;
+     , (5669,   283,  2.005)  /* Magic Yield Other IV */
+     , (5669,    94,  2.034)  /* Whirling Blade III */
+     , (5669,  1195,  2.005)  /* Enfeeble Other I */
+     , (5669,    95,  2.045)  /* Whirling Blade IV */
+     , (5669,  1251,   2.01)  /* Drain Stamina Other III */
+     , (5669,  1260,  2.005)  /* Drain Mana Other I */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (5669,  94) /* ATTACK_NOTIFICATION_EVENT */

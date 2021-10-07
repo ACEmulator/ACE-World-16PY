@@ -126,39 +126,39 @@ VALUES (1463,  0,  4,  0,    0,  150,  120,   71,   98,    5,   75,   98,  108, 
      , (1463,  8,  4,  3, 0.75,  160,  128,   75,  104,    5,   80,  104,  115,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1463,    61,  2.028)  /* Acid Stream IV */
-     , (1463,    63,   2.01)  /* Acid Stream VI */
-     , (1463,    66,   2.01)  /* Shock Wave III */
-     , (1463,    67,  2.028)  /* Shock Wave IV */
-     , (1463,    71,   2.01)  /* Frost Bolt III */
-     , (1463,    72,  2.028)  /* Frost Bolt IV */
-     , (1463,    77,   2.01)  /* Lightning Bolt III */
-     , (1463,    78,  2.028)  /* Lightning Bolt IV */
-     , (1463,    82,   2.01)  /* Flame Bolt III */
-     , (1463,    83,  2.028)  /* Flame Bolt IV */
-     , (1463,    88,   2.01)  /* Force Bolt III */
-     , (1463,    89,  2.028)  /* Force Bolt IV */
-     , (1463,    94,   2.01)  /* Whirling Blade III */
-     , (1463,    95,  2.028)  /* Whirling Blade IV */
-     , (1463,   127,   2.01)  /* Acid Volley III */
-     , (1463,   128,  2.028)  /* Acid Volley IV */
-     , (1463,   135,   2.01)  /* Frost Volley III */
+VALUES (1463,  1252,   2.03)  /* Drain Stamina Other IV */
      , (1463,   136,  2.028)  /* Frost Volley IV */
+     , (1463,    72,  2.028)  /* Frost Bolt IV */
+     , (1463,   128,  2.028)  /* Acid Volley IV */
+     , (1463,    66,   2.01)  /* Shock Wave III */
      , (1463,   139,   2.01)  /* Lightning Volley III */
+     , (1463,    67,  2.028)  /* Shock Wave IV */
+     , (1463,   135,   2.01)  /* Frost Volley III */
+     , (1463,    71,   2.01)  /* Frost Bolt III */
+     , (1463,    77,   2.01)  /* Lightning Bolt III */
+     , (1463,  1418,  2.013)  /* Slowness Other IV */
      , (1463,   140,  2.028)  /* Lightning Volley IV */
+     , (1463,    78,  2.028)  /* Lightning Bolt IV */
      , (1463,   143,   2.01)  /* Flame Volley III */
      , (1463,   144,  2.028)  /* Flame Volley IV */
+     , (1463,    82,   2.01)  /* Flame Bolt III */
+     , (1463,    83,  2.028)  /* Flame Bolt IV */
+     , (1463,  1240,   2.03)  /* Drain Health Other IV */
+     , (1463,    88,   2.01)  /* Force Bolt III */
+     , (1463,    89,  2.028)  /* Force Bolt IV */
+     , (1463,  1370,  2.013)  /* Frailty Other IV */
+     , (1463,    94,   2.01)  /* Whirling Blade III */
+     , (1463,    95,  2.028)  /* Whirling Blade IV */
+     , (1463,  1442,  2.013)  /* Bafflement Other IV */
      , (1463,   168,   2.03)  /* Regeneration Self IV */
      , (1463,   174,  2.013)  /* Fester Other IV */
-     , (1463,  1240,   2.03)  /* Drain Health Other IV */
-     , (1463,  1252,   2.03)  /* Drain Stamina Other IV */
      , (1463,  1263,   2.03)  /* Drain Mana Other IV */
-     , (1463,  1341,  2.013)  /* Weakness Other IV */
-     , (1463,  1370,  2.013)  /* Frailty Other IV */
      , (1463,  1394,  2.013)  /* Clumsiness Other IV */
-     , (1463,  1418,  2.013)  /* Slowness Other IV */
-     , (1463,  1442,  2.013)  /* Bafflement Other IV */
-     , (1463,  1466,  2.013)  /* Feeblemind Other IV */;
+     , (1463,    61,  2.028)  /* Acid Stream IV */
+     , (1463,  1466,  2.013)  /* Feeblemind Other IV */
+     , (1463,  1341,  2.013)  /* Weakness Other IV */
+     , (1463,    63,   2.01)  /* Acid Stream VI */
+     , (1463,   127,   2.01)  /* Acid Volley III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (1463,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -58,6 +58,6 @@ VALUES (23527,   1,   33554740) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23527,   345,      2)  /* Light Weapon Mastery Other VI */
-     , (23527,  1591,      2)  /* Aura of Heart Seeker Self V */
      , (23527,  1604,      2)  /* Aura of Defender Self V */
+     , (23527,  1591,      2)  /* Aura of Heart Seeker Self V */
      , (23527,  1615,      2)  /* Aura of Blood Drinker Self V */;

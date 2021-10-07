@@ -131,28 +131,28 @@ VALUES (24319,  0,  4,  0,    0,  410,  410,  410,  410,  410,  410,  410,  410,
      , (24319,  8,  4, 80, 0.75,  420,  420,  420,  420,  420,  420,  420,  420,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24319,    62,   2.01)  /* Acid Stream V */
-     , (24319,    68,   2.01)  /* Shock Wave V */
+VALUES (24319,   145,   2.01)  /* Flame Volley V */
+     , (24319,  1342,  2.011)  /* Weakness Other V */
+     , (24319,  1253,  2.025)  /* Drain Stamina Other V */
+     , (24319,   137,   2.01)  /* Frost Volley V */
      , (24319,    73,   2.01)  /* Frost Bolt V */
-     , (24319,    79,   2.01)  /* Lightning Bolt V */
+     , (24319,   129,   2.01)  /* Acid Volley V */
      , (24319,    84,   2.01)  /* Flame Bolt V */
+     , (24319,    68,   2.01)  /* Shock Wave V */
+     , (24319,  1419,  2.011)  /* Slowness Other V */
+     , (24319,   141,   2.01)  /* Lightning Volley V */
+     , (24319,    79,   2.01)  /* Lightning Bolt V */
+     , (24319,  1241,  2.025)  /* Drain Health Other V */
      , (24319,    90,   2.01)  /* Force Bolt V */
      , (24319,    96,   2.01)  /* Whirling Blade V */
-     , (24319,   129,   2.01)  /* Acid Volley V */
-     , (24319,   137,   2.01)  /* Frost Volley V */
-     , (24319,   141,   2.01)  /* Lightning Volley V */
-     , (24319,   145,   2.01)  /* Flame Volley V */
+     , (24319,  1371,  2.011)  /* Frailty Other V */
+     , (24319,  1443,  2.011)  /* Bafflement Other V */
      , (24319,   169,  2.025)  /* Regeneration Self V */
      , (24319,   175,  2.011)  /* Fester Other V */
-     , (24319,  1241,  2.025)  /* Drain Health Other V */
-     , (24319,  1253,  2.025)  /* Drain Stamina Other V */
      , (24319,  1264,  2.025)  /* Drain Mana Other V */
-     , (24319,  1342,  2.011)  /* Weakness Other V */
-     , (24319,  1371,  2.011)  /* Frailty Other V */
      , (24319,  1395,  2.011)  /* Clumsiness Other V */
-     , (24319,  1419,  2.011)  /* Slowness Other V */
-     , (24319,  1443,  2.011)  /* Bafflement Other V */
-     , (24319,  1467,  2.011)  /* Feeblemind Other V */;
+     , (24319,  1467,  2.011)  /* Feeblemind Other V */
+     , (24319,    62,   2.01)  /* Acid Stream V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (24319,  94) /* ATTACK_NOTIFICATION_EVENT */

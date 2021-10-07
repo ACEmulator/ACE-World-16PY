@@ -54,6 +54,6 @@ VALUES (28147,   1,   33554854) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28147,  1486,      2)  /* Impenetrability VI */
-     , (28147,  2548,      2)  /* Minor Healing Prowess */
      , (28147,  2579,      2)  /* Minor Coordination */
+     , (28147,  2548,      2)  /* Minor Healing Prowess */
      , (28147,  2622,      2)  /* Minor Storm Ward */;

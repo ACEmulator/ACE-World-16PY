@@ -107,16 +107,16 @@ VALUES (25855,  0,  1,  0,    0,  450,  450,  540,  450,  360,  450,  450,  383,
      , (25855, 22, 64, 80,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25855,    63,   2.02)  /* Acid Stream VI */
+VALUES (25855,   234,   2.02)  /* Vulnerability Other VI */
      , (25855,    74,   2.02)  /* Frost Bolt VI */
-     , (25855,   234,   2.02)  /* Vulnerability Other VI */
-     , (25855,   526,   2.04)  /* Acid Vulnerability Other VI */
-     , (25855,  1065,   2.04)  /* Cold Vulnerability Other VI */
      , (25855,  1200,   2.02)  /* Enfeeble Other VI */
-     , (25855,  1396,   2.02)  /* Clumsiness Other VI */
-     , (25855,  1468,   2.02)  /* Feeblemind Other VI */
+     , (25855,   526,   2.04)  /* Acid Vulnerability Other VI */
      , (25855,  2716,   2.02)  /* Acid Arc VI */
-     , (25855,  2730,   2.02)  /* Frost Arc VI */;
+     , (25855,  1065,   2.04)  /* Cold Vulnerability Other VI */
+     , (25855,  2730,   2.02)  /* Frost Arc VI */
+     , (25855,  1468,   2.02)  /* Feeblemind Other VI */
+     , (25855,  1396,   2.02)  /* Clumsiness Other VI */
+     , (25855,    63,   2.02)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (25855,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -127,23 +127,23 @@ VALUES (25579,  0,  4,  0,    0,  350,  367,  455,  350,  455,  350,  367,  420,
      , (25579,  8,  4, 200,  0.5,  350,  367,  455,  350,  455,  350,  367,  420,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25579,    62,   2.01)  /* Acid Stream V */
+VALUES (25579,  1089,  2.011)  /* Lightning Vulnerability Other VI */
+     , (25579,  1108,  2.011)  /* Fire Vulnerability Other VI */
+     , (25579,  1156,  2.011)  /* Piercing Vulnerability Other VI */
+     , (25579,    84,   2.01)  /* Flame Bolt V */
      , (25579,    68,   2.01)  /* Shock Wave V */
+     , (25579,   526,  2.011)  /* Acid Vulnerability Other VI */
      , (25579,    73,   2.01)  /* Frost Bolt V */
      , (25579,    79,   2.01)  /* Lightning Bolt V */
-     , (25579,    84,   2.01)  /* Flame Bolt V */
      , (25579,    90,   2.01)  /* Force Bolt V */
-     , (25579,    96,   2.01)  /* Whirling Blade V */
-     , (25579,   176,  2.011)  /* Fester Other VI */
-     , (25579,   526,  2.011)  /* Acid Vulnerability Other VI */
      , (25579,  1053,  2.011)  /* Bludgeoning Vulnerability Other VI */
+     , (25579,    96,   2.01)  /* Whirling Blade V */
      , (25579,  1065,  2.011)  /* Cold Vulnerability Other VI */
-     , (25579,  1089,  2.011)  /* Lightning Vulnerability Other VI */
-     , (25579,  1108,  2.011)  /* Fire Vulnerability Other VI */
      , (25579,  1132,  2.011)  /* Blade Vulnerability Other VI */
-     , (25579,  1156,  2.011)  /* Piercing Vulnerability Other VI */
+     , (25579,   176,  2.011)  /* Fester Other VI */
      , (25579,  1840,   2.01)  /* Bed of Blades */
-     , (25579,  1842,   2.01)  /* Spike Strafe */;
+     , (25579,  1842,   2.01)  /* Spike Strafe */
+     , (25579,    62,   2.01)  /* Acid Stream V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (25579,  94) /* ATTACK_NOTIFICATION_EVENT */

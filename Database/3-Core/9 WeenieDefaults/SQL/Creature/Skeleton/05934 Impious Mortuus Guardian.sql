@@ -123,15 +123,15 @@ VALUES (5934,  0,  4,  0,    0,  150,  165,  165,  135,  225,  225,  105,  225, 
      , (5934,  8,  4, 75, 0.75,  150,  165,  165,  135,  225,  225,  105,  225,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5934,    77,   2.15)  /* Lightning Bolt III */
-     , (5934,   111,   2.15)  /* Lightning Blast III */
-     , (5934,   139,   2.15)  /* Lightning Volley III */
-     , (5934,  1340,   2.02)  /* Weakness Other III */
-     , (5934,  1369,   2.02)  /* Frailty Other III */
+VALUES (5934,  1465,   2.02)  /* Feeblemind Other III */
      , (5934,  1393,   2.02)  /* Clumsiness Other III */
-     , (5934,  1417,   2.02)  /* Slowness Other III */
      , (5934,  1441,   2.02)  /* Bafflement Other III */
-     , (5934,  1465,   2.02)  /* Feeblemind Other III */;
+     , (5934,  1369,   2.02)  /* Frailty Other III */
+     , (5934,  1417,   2.02)  /* Slowness Other III */
+     , (5934,   139,   2.15)  /* Lightning Volley III */
+     , (5934,    77,   2.15)  /* Lightning Bolt III */
+     , (5934,  1340,   2.02)  /* Weakness Other III */
+     , (5934,   111,   2.15)  /* Lightning Blast III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (5934,  94) /* ATTACK_NOTIFICATION_EVENT */

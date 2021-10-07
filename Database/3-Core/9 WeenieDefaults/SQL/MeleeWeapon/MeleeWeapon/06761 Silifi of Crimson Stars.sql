@@ -60,6 +60,6 @@ VALUES (6761,   1,   33556553) /* Setup */
      , (6761,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6761,  1096,      2)  /* Fire Protection Other VI */
-     , (6761,  1384,      2)  /* Coordination Other VI */
-     , (6761,  1605,      2)  /* Aura of Defender Self VI */;
+VALUES (6761,  1605,      2)  /* Aura of Defender Self VI */
+     , (6761,  1096,      2)  /* Fire Protection Other VI */
+     , (6761,  1384,      2)  /* Coordination Other VI */;

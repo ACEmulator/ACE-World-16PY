@@ -44,11 +44,11 @@ VALUES (27648,   1,   33558744) /* Setup */
      , (27648,  27, 1073742049) /* UseUserAnimation - UseMagicWand */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27648,   591,      2)  /* Item Enchantment Mastery Other V */
-     , (27648,   615,      2)  /* Life Magic Mastery Other V */
+VALUES (27648,   615,      2)  /* Life Magic Mastery Other V */
      , (27648,   663,      2)  /* Mana Conversion Mastery Other V */
-     , (27648,  1431,      2)  /* Focus Other V */
-     , (27648,  2581,      2)  /* Minor Focus */;
+     , (27648,   591,      2)  /* Item Enchantment Mastery Other V */
+     , (27648,  2581,      2)  /* Minor Focus */
+     , (27648,  1431,      2)  /* Focus Other V */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (27648, 25 /* Wield */,   0.05, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

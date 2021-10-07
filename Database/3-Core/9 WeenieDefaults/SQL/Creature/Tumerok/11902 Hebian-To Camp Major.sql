@@ -143,27 +143,27 @@ VALUES (11902,  0,  4,  0,    0,  180,  180,  180,  180,  180,  180,  180,  180,
      , (11902,  8,  4, 20, 0.75,  180,  180,  180,  180,  180,  180,  180,  180,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11902,    61,  2.014)  /* Acid Stream IV */
-     , (11902,    62,  2.003)  /* Acid Stream V */
+VALUES (11902,    68,  2.003)  /* Shock Wave V */
+     , (11902,   259,  2.007)  /* Impregnability Self IV */
+     , (11902,    83,  2.014)  /* Flame Bolt IV */
+     , (11902,  1159,   2.01)  /* Heal Self IV */
      , (11902,    67,  2.014)  /* Shock Wave IV */
-     , (11902,    68,  2.003)  /* Shock Wave V */
+     , (11902,  1158,   2.01)  /* Heal Self III */
      , (11902,    72,  2.014)  /* Frost Bolt IV */
      , (11902,    73,  2.003)  /* Frost Bolt V */
      , (11902,    78,  2.014)  /* Lightning Bolt IV */
      , (11902,    79,  2.003)  /* Lightning Bolt V */
-     , (11902,    83,  2.014)  /* Flame Bolt IV */
      , (11902,    84,  2.003)  /* Flame Bolt V */
+     , (11902,  1173,   2.02)  /* Harm Other III */
+     , (11902,   277,  2.007)  /* Magic Resistance Self IV */
      , (11902,    89,  2.014)  /* Force Bolt IV */
      , (11902,    90,  2.003)  /* Force Bolt V */
      , (11902,    95,  2.014)  /* Whirling Blade IV */
      , (11902,    96,  2.003)  /* Whirling Blade V */
+     , (11902,  1197,   2.02)  /* Enfeeble Other III */
      , (11902,   247,  2.007)  /* Invulnerability Self IV */
-     , (11902,   259,  2.007)  /* Impregnability Self IV */
-     , (11902,   277,  2.007)  /* Magic Resistance Self IV */
-     , (11902,  1158,   2.01)  /* Heal Self III */
-     , (11902,  1159,   2.01)  /* Heal Self IV */
-     , (11902,  1173,   2.02)  /* Harm Other III */
-     , (11902,  1197,   2.02)  /* Enfeeble Other III */;
+     , (11902,    61,  2.014)  /* Acid Stream IV */
+     , (11902,    62,  2.003)  /* Acid Stream V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (11902,  94) /* ATTACK_NOTIFICATION_EVENT */

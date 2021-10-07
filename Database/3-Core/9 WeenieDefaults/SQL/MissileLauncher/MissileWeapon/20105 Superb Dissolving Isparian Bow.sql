@@ -59,8 +59,8 @@ VALUES (20105,   1,   33557754) /* Setup */
      , (20105,  37,          2) /* ItemSkillLimit - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20105,   518,      2)  /* Acid Protection Self IV */
+VALUES (20105,  1604,      2)  /* Aura of Defender Self V */
      , (20105,  1351,      2)  /* Endurance Self III */
-     , (20105,  1604,      2)  /* Aura of Defender Self V */
+     , (20105,   518,      2)  /* Acid Protection Self IV */
      , (20105,  1615,      2)  /* Aura of Blood Drinker Self V */
      , (20105,  2540,      2)  /* Minor Missile Weapon Aptitude */;

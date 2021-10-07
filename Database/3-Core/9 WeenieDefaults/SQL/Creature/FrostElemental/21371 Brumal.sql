@@ -109,18 +109,18 @@ VALUES (21371,  0,  8,  0,    0,  220,  187,  187,  187,  220,  220,  187,  187,
      , (21371,  8,  8, 60, 0.75,  220,  187,  187,  187,  220,  220,  187,  187,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21371,    73,  2.138)  /* Frost Bolt V */
+VALUES (21371,  1326,  2.017)  /* Imperil Other V */
+     , (21371,  1237,  2.008)  /* Drain Health Other I */
+     , (21371,  1093,  2.008)  /* Fire Protection Self V */
+     , (21371,  1812,  2.004)  /* Frost Streak V */
+     , (21371,    73,  2.138)  /* Frost Bolt V */
+     , (21371,   276,  2.008)  /* Magic Resistance Self III */
+     , (21371,  1159,  2.013)  /* Heal Self IV */
+     , (21371,  1419,  2.017)  /* Slowness Other V */
+     , (21371,  1311,  2.008)  /* Armor Self V */
      , (21371,   167,  2.008)  /* Regeneration Self III */
      , (21371,   231,  2.017)  /* Vulnerability Other III */
-     , (21371,   276,  2.008)  /* Magic Resistance Self III */
-     , (21371,  1064,  2.017)  /* Cold Vulnerability Other V */
-     , (21371,  1093,  2.008)  /* Fire Protection Self V */
-     , (21371,  1159,  2.013)  /* Heal Self IV */
-     , (21371,  1237,  2.008)  /* Drain Health Other I */
-     , (21371,  1311,  2.008)  /* Armor Self V */
-     , (21371,  1326,  2.017)  /* Imperil Other V */
-     , (21371,  1419,  2.017)  /* Slowness Other V */
-     , (21371,  1812,  2.004)  /* Frost Streak V */;
+     , (21371,  1064,  2.017)  /* Cold Vulnerability Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (21371,  94) /* ATTACK_NOTIFICATION_EVENT */

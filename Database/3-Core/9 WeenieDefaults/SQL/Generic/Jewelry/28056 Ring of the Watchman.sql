@@ -44,5 +44,5 @@ VALUES (28056,   1,   33554691) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28056,   567,      2)  /* Creature Enchantment Mastery Other V */
-     , (28056,   591,      2)  /* Item Enchantment Mastery Other V */
-     , (28056,   663,      2)  /* Mana Conversion Mastery Other V */;
+     , (28056,   663,      2)  /* Mana Conversion Mastery Other V */
+     , (28056,   591,      2)  /* Item Enchantment Mastery Other V */;

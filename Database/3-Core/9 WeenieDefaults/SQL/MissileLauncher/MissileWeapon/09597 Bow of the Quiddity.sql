@@ -54,7 +54,7 @@ VALUES (9597,   1,   33557111) /* Setup */
      , (9597,  37,          2) /* ItemSkillLimit - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9597,  1590,      2)  /* Aura of Heart Seeker Self IV */
-     , (9597,  1603,      2)  /* Aura of Defender Self IV */
+VALUES (9597,  1603,      2)  /* Aura of Defender Self IV */
      , (9597,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (9597,  1625,      2)  /* Aura of Swift Killer Self IV */;
+     , (9597,  1625,      2)  /* Aura of Swift Killer Self IV */
+     , (9597,  1590,      2)  /* Aura of Heart Seeker Self IV */;

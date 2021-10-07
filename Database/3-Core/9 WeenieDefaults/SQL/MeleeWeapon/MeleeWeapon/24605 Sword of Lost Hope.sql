@@ -60,9 +60,9 @@ VALUES (24605,   1,   33558420) /* Setup */
      , (24605,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24605,  1311,      2)  /* Armor Self V */
-     , (24605,  1377,      2)  /* Coordination Self V */
+VALUES (24605,  1604,      2)  /* Aura of Defender Self V */
      , (24605,  1591,      2)  /* Aura of Heart Seeker Self V */
-     , (24605,  1604,      2)  /* Aura of Defender Self V */
      , (24605,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (24605,  1624,      2)  /* Aura of Swift Killer Self III */;
+     , (24605,  1377,      2)  /* Coordination Self V */
+     , (24605,  1624,      2)  /* Aura of Swift Killer Self III */
+     , (24605,  1311,      2)  /* Armor Self V */;

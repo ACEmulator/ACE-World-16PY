@@ -55,7 +55,7 @@ VALUES (27838,   1,   33558796) /* Setup */
      , (27838,  27, 1073742049) /* UseUserAnimation - UseMagicWand */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27838,   211,      2)  /* Mana Renewal Other VI */
-     , (27838,   664,      2)  /* Mana Conversion Mastery Other VI */
-     , (27838,  1432,      2)  /* Focus Other VI */
-     , (27838,  2581,      2)  /* Minor Focus */;
+VALUES (27838,  1432,      2)  /* Focus Other VI */
+     , (27838,  2581,      2)  /* Minor Focus */
+     , (27838,   211,      2)  /* Mana Renewal Other VI */
+     , (27838,   664,      2)  /* Mana Conversion Mastery Other VI */;

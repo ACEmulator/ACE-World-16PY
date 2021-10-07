@@ -52,6 +52,6 @@ VALUES (27906,   1,   33558801) /* Setup */
      , (27906,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27906,   341,      2)  /* Light Weapon Mastery Other II */
-     , (27906,  1588,      2)  /* Aura of Heart Seeker Self II */
-     , (27906,  1612,      2)  /* Aura of Blood Drinker Self II */;
+VALUES (27906,  1588,      2)  /* Aura of Heart Seeker Self II */
+     , (27906,  1612,      2)  /* Aura of Blood Drinker Self II */
+     , (27906,   341,      2)  /* Light Weapon Mastery Other II */;

@@ -55,13 +55,13 @@ VALUES (23948,   1,   33558266) /* Setup */
      , (23948,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23948,  1360,      2)  /* Endurance Other VI */
-     , (23948,  2350,      2)  /* Greater Decay Durance */
-     , (23948,  2351,      2)  /* Greater Consumption Durance */
-     , (23948,  2352,      2)  /* Greater Stasis Durance */
-     , (23948,  2353,      2)  /* Greater Stimulation Durance */
+VALUES (23948,  2350,      2)  /* Greater Decay Durance */
      , (23948,  2948,      2)  /* Hieromancer's Great Ward */
+     , (23948,  1360,      2)  /* Endurance Other VI */
      , (23948,  2958,      2)  /* Blessing of the Priestess */
      , (23948,  2960,      2)  /* Greater Bludgeoning Durance */
+     , (23948,  2351,      2)  /* Greater Consumption Durance */
      , (23948,  2961,      2)  /* Greater Piercing Durance */
-     , (23948,  2962,      2)  /* Greater Slashing Durance */;
+     , (23948,  2352,      2)  /* Greater Stasis Durance */
+     , (23948,  2962,      2)  /* Greater Slashing Durance */
+     , (23948,  2353,      2)  /* Greater Stimulation Durance */;

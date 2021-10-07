@@ -43,6 +43,6 @@ VALUES (25540,   1,   33554683) /* Setup */
      , (25540,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25540,  2012,      2)  /* Wizard's Intellect */
-     , (25540,  2581,      2)  /* Minor Focus */
-     , (25540,  2584,      2)  /* Minor Willpower */;
+VALUES (25540,  2581,      2)  /* Minor Focus */
+     , (25540,  2584,      2)  /* Minor Willpower */
+     , (25540,  2012,      2)  /* Wizard's Intellect */;

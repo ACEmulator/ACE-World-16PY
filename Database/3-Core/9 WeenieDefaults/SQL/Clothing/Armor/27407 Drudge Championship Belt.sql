@@ -54,7 +54,7 @@ VALUES (27407,   1,   33558679) /* Setup */
      , (27407,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27407,  1334,      2)  /* Strength Other III */
+VALUES (27407,  1997,      2)  /* Life Giver */
      , (27407,  1483,      2)  /* Impenetrability III */
-     , (27407,  1997,      2)  /* Life Giver */
+     , (27407,  1334,      2)  /* Strength Other III */
      , (27407,  2550,      2)  /* Minor Invulnerability */;

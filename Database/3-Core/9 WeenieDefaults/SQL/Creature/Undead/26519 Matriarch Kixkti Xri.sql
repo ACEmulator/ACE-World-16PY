@@ -122,21 +122,21 @@ VALUES (26519,  0,  4,  0,    0,  650,  650,  650,  650,  650,  650,  650,  650,
      , (26519,  8,  4, 250,  0.5,  650,  650,  650,  650,  650,  650,  650,  650,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26519,  3058,   2.02)  /* Asphyiaxtion */
-     , (26519,  3059,   2.02)  /* Enervation */
+VALUES (26519,  3080,   2.01)  /* Bruised Flesh */
      , (26519,  3060,   2.02)  /* Poison Blood */
-     , (26519,  3061,   2.02)  /* Taint Mana */
-     , (26519,  3080,   2.01)  /* Bruised Flesh */
      , (26519,  3081,   2.01)  /* Flesh of Cloth */
      , (26519,  3082,   2.01)  /* Exposed Flesh */
-     , (26519,  3083,   2.01)  /* Flesh of Flint */
-     , (26519,  3084,   2.01)  /* Weaken Flesh */
      , (26519,  3091,   2.01)  /* Thin Skin */
+     , (26519,  3083,   2.01)  /* Flesh of Flint */
      , (26519,  3108,   2.02)  /* Flay Soul */
+     , (26519,  3084,   2.01)  /* Weaken Flesh */
      , (26519,  3109,   2.02)  /* Liquefy Flesh */
      , (26519,  3110,   2.02)  /* Sear Flesh */
      , (26519,  3111,   2.02)  /* Soul Hammer */
-     , (26519,  3112,   2.02)  /* Soul Spike */;
+     , (26519,  3061,   2.02)  /* Taint Mana */
+     , (26519,  3112,   2.02)  /* Soul Spike */
+     , (26519,  3058,   2.02)  /* Asphyiaxtion */
+     , (26519,  3059,   2.02)  /* Enervation */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (26519,  94) /* ATTACK_NOTIFICATION_EVENT */

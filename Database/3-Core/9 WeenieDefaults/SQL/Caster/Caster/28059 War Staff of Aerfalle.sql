@@ -57,6 +57,6 @@ VALUES (28059,   1,   33556630) /* Setup */
      , (28059,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28059,   616,      2)  /* Life Magic Mastery Other VI */
-     , (28059,   909,      2)  /* Leadership Mastery Other VI */
-     , (28059,  2322,      2)  /* Hieromancer's Boon */;
+VALUES (28059,   909,      2)  /* Leadership Mastery Other VI */
+     , (28059,  2322,      2)  /* Hieromancer's Boon */
+     , (28059,   616,      2)  /* Life Magic Mastery Other VI */;

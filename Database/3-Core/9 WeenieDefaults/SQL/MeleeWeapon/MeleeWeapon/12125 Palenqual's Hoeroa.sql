@@ -55,12 +55,12 @@ VALUES (12125,   1,   33557237) /* Setup */
      , (12125,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12125,  2438,      2)  /* Lesser Rockslide */
+VALUES (12125,  2454,      2)  /* Thorns */
+     , (12125,  2438,      2)  /* Lesser Rockslide */
      , (12125,  2441,      2)  /* Lesser Stone Cliffs */
+     , (12125,  2468,      2)  /* Lesser Cascade */
      , (12125,  2444,      2)  /* Lesser Strength of Earth */
      , (12125,  2448,      2)  /* Growth */
      , (12125,  2451,      2)  /* Hunter's Acumen */
-     , (12125,  2454,      2)  /* Thorns */
-     , (12125,  2468,      2)  /* Lesser Cascade */
      , (12125,  2471,      2)  /* Lesser Still Water */
      , (12125,  2474,      2)  /* Lesser Torrent */;

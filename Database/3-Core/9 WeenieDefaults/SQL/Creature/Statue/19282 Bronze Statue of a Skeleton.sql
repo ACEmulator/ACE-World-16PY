@@ -131,14 +131,14 @@ VALUES (19282,  0,  4,  0,    0,  120,   36,   36,   60,   72,   72,   72,   72,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19282,    61,   2.05)  /* Acid Stream IV */
-     , (19282,    62,   2.05)  /* Acid Stream V */
-     , (19282,   525,   2.05)  /* Acid Vulnerability Other V */
      , (19282,   627,   2.05)  /* Life Magic Ineptitude Other V */
      , (19282,   651,   2.05)  /* War Magic Ineptitude Other V */
+     , (19282,   525,   2.05)  /* Acid Vulnerability Other V */
      , (19282,  1240,   2.08)  /* Drain Health Other IV */
-     , (19282,  1326,   2.05)  /* Imperil Other V */
      , (19282,  1342,   2.05)  /* Weakness Other V */
-     , (19282,  1468,   2.03)  /* Feeblemind Other VI */;
+     , (19282,  1326,   2.05)  /* Imperil Other V */
+     , (19282,  1468,   2.03)  /* Feeblemind Other VI */
+     , (19282,    62,   2.05)  /* Acid Stream V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (19282,  94) /* ATTACK_NOTIFICATION_EVENT */

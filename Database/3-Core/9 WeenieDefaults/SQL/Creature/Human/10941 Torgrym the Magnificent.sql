@@ -390,30 +390,30 @@ VALUES (10941,  0,  4,  0,    0,  225,  203,  225,  248,   90,   90,  225,  135,
      , (10941,  8,  4,  2, 0.75,  225,  203,  225,  248,   90,   90,  225,  135,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10941,    63,   2.12)  /* Acid Stream VI */
-     , (10941,   176,   2.05)  /* Fester Other VI */
-     , (10941,   234,   2.05)  /* Vulnerability Other VI */
-     , (10941,   267,   2.05)  /* Defenselessness Other VI */
-     , (10941,   284,   2.05)  /* Magic Yield Other V */
-     , (10941,   526,   2.05)  /* Acid Vulnerability Other VI */
-     , (10941,  1053,   2.05)  /* Bludgeoning Vulnerability Other VI */
-     , (10941,  1065,   2.05)  /* Cold Vulnerability Other VI */
-     , (10941,  1089,   2.05)  /* Lightning Vulnerability Other VI */
+VALUES (10941,  1089,   2.05)  /* Lightning Vulnerability Other VI */
+     , (10941,  2128,   2.05)  /* Ilservian's Flame */
      , (10941,  1108,   2.05)  /* Fire Vulnerability Other VI */
-     , (10941,  1132,   2.05)  /* Blade Vulnerability Other VI */
      , (10941,  1156,   2.05)  /* Piercing Vulnerability Other VI */
      , (10941,  1176,   2.05)  /* Harm Other VI */
-     , (10941,  1241,   2.05)  /* Drain Health Other V */
-     , (10941,  1327,   2.05)  /* Imperil Other VI */
      , (10941,  1343,   2.05)  /* Weakness Other VI */
-     , (10941,  2073,   2.05)  /* Adja's Intervention */
-     , (10941,  2128,   2.05)  /* Ilservian's Flame */
+     , (10941,   267,   2.05)  /* Defenselessness Other VI */
      , (10941,  2132,   2.05)  /* The Spike */
-     , (10941,  2136,   2.05)  /* Icy Torment */
      , (10941,  2140,   2.05)  /* Alset's Coil */
+     , (10941,   526,   2.05)  /* Acid Vulnerability Other VI */
+     , (10941,  2765,   2.05)  /* Martyr's Hecatomb VI */
+     , (10941,   176,   2.05)  /* Fester Other VI */
+     , (10941,  2136,   2.05)  /* Icy Torment */
+     , (10941,  1241,   2.05)  /* Drain Health Other V */
+     , (10941,  2073,   2.05)  /* Adja's Intervention */
+     , (10941,   284,   2.05)  /* Magic Yield Other V */
+     , (10941,  1053,   2.05)  /* Bludgeoning Vulnerability Other VI */
      , (10941,  2144,   2.05)  /* Crushing Shame */
      , (10941,  2146,   2.05)  /* Evisceration */
-     , (10941,  2765,   2.05)  /* Martyr's Hecatomb VI */;
+     , (10941,  1065,   2.05)  /* Cold Vulnerability Other VI */
+     , (10941,   234,   2.05)  /* Vulnerability Other VI */
+     , (10941,  1132,   2.05)  /* Blade Vulnerability Other VI */
+     , (10941,  1327,   2.05)  /* Imperil Other VI */
+     , (10941,    63,   2.12)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (10941,  94) /* ATTACK_NOTIFICATION_EVENT */

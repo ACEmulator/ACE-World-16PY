@@ -53,10 +53,10 @@ VALUES (27095,   1,   33557008) /* Setup */
      , (27095,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27095,  1614,      2)  /* Aura of Blood Drinker Self IV */
+VALUES (27095,  2391,      2)  /* Prowess */
+     , (27095,  1614,      2)  /* Aura of Blood Drinker Self IV */
      , (27095,  2387,      2)  /* Determination */
      , (27095,  2388,      2)  /* Caution */
      , (27095,  2389,      2)  /* Vigor */
      , (27095,  2390,      2)  /* Haste */
-     , (27095,  2391,      2)  /* Prowess */
      , (27095,  2392,      2)  /* Serenity */;

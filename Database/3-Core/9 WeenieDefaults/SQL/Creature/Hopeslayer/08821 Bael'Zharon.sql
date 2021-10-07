@@ -114,28 +114,28 @@ VALUES (8821,  0,  4,  0,    0,  900, 1800, 1800, 1800, 1800, 1494, 1800, 1800, 
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8821,   170,      2)  /* Regeneration Self VI */
-     , (8821,   279,      2)  /* Magic Resistance Self VI */
-     , (8821,   520,      2)  /* Acid Protection Self VI */
-     , (8821,  1023,      2)  /* Bludgeoning Protection Self VI */
-     , (8821,  1035,      2)  /* Cold Protection Self VI */
-     , (8821,  1071,      2)  /* Lightning Protection Self VI */
      , (8821,  1094,      2)  /* Fire Protection Self VI */
+     , (8821,  1819,   2.04)  /* Lightning Streak VI */
+     , (8821,   520,      2)  /* Acid Protection Self VI */
+     , (8821,  1035,      2)  /* Cold Protection Self VI */
+     , (8821,  2037,   2.04)  /* Flaming Irruption */
+     , (8821,   279,      2)  /* Magic Resistance Self VI */
+     , (8821,  1312,      2)  /* Armor Self VI */
+     , (8821,  1882,      2)  /* Nullify All Magic Self */
      , (8821,  1114,      2)  /* Blade Protection Self VI */
-     , (8821,  1138,      2)  /* Piercing Protection Self VI */
      , (8821,  1242,   2.04)  /* Drain Health Other VI */
      , (8821,  1254,   2.04)  /* Drain Stamina Other VI */
-     , (8821,  1265,  2.004)  /* Drain Mana Other VI */
-     , (8821,  1312,      2)  /* Armor Self VI */
-     , (8821,  1819,   2.04)  /* Lightning Streak VI */
-     , (8821,  1882,      2)  /* Nullify All Magic Self */
      , (8821,  2030,   2.04)  /* Flaming Blaze */
+     , (8821,  1071,      2)  /* Lightning Protection Self VI */
      , (8821,  2031,   2.04)  /* Steel Thorns */
      , (8821,  2032,   2.04)  /* Electric Blaze */
+     , (8821,  1265,  2.004)  /* Drain Mana Other VI */
      , (8821,  2033,   2.04)  /* Acidic Spray */
+     , (8821,  1138,      2)  /* Piercing Protection Self VI */
      , (8821,  2035,   2.04)  /* Electric Discharge */
      , (8821,  2036,   2.04)  /* Fuming Acid */
-     , (8821,  2037,   2.04)  /* Flaming Irruption */
-     , (8821,  2039,   2.04)  /* Sparking Fury */;
+     , (8821,  2039,   2.04)  /* Sparking Fury */
+     , (8821,  1023,      2)  /* Bludgeoning Protection Self VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (8821, 414) /* PLAYER_DEATH_EVENT */;

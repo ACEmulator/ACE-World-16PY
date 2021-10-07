@@ -53,11 +53,11 @@ VALUES (28591,   1,   33554648) /* Setup */
      , (28591,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28591,  1483,      2)  /* Impenetrability III */
-     , (28591,  1495,      2)  /* Acid Bane III */
-     , (28591,  1513,      2)  /* Bludgeon Bane III */
-     , (28591,  1525,      2)  /* Frost Bane III */
-     , (28591,  1537,      2)  /* Lightning Bane III */
+VALUES (28591,  1537,      2)  /* Lightning Bane III */
+     , (28591,  1483,      2)  /* Impenetrability III */
      , (28591,  1549,      2)  /* Flame Bane III */
      , (28591,  1559,      2)  /* Blade Bane III */
-     , (28591,  1571,      2)  /* Piercing Bane III */;
+     , (28591,  1495,      2)  /* Acid Bane III */
+     , (28591,  1571,      2)  /* Piercing Bane III */
+     , (28591,  1513,      2)  /* Bludgeon Bane III */
+     , (28591,  1525,      2)  /* Frost Bane III */;

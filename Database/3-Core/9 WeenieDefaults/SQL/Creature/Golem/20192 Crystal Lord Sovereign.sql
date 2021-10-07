@@ -119,14 +119,14 @@ VALUES (20192,  0,  4,  0,    0, -250, -250, -250, -250, -250, -250, -250, -250,
      , (20192,  8,  4, 100,  0.5, -250, -250, -250, -250, -250, -250, -250, -250,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20192,   279,      2)  /* Magic Resistance Self VI */
+VALUES (20192,  1023,      2)  /* Bludgeoning Protection Self VI */
      , (20192,   520,      2)  /* Acid Protection Self VI */
-     , (20192,  1023,      2)  /* Bludgeoning Protection Self VI */
-     , (20192,  1035,      2)  /* Cold Protection Self VI */
-     , (20192,  1071,      2)  /* Lightning Protection Self VI */
      , (20192,  1094,      2)  /* Fire Protection Self VI */
-     , (20192,  1114,      2)  /* Blade Protection Self VI */
+     , (20192,  1035,      2)  /* Cold Protection Self VI */
+     , (20192,   279,      2)  /* Magic Resistance Self VI */
      , (20192,  1138,      2)  /* Piercing Protection Self VI */
+     , (20192,  1114,      2)  /* Blade Protection Self VI */
+     , (20192,  1071,      2)  /* Lightning Protection Self VI */
      , (20192,  1312,      2)  /* Armor Self VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

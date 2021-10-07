@@ -57,6 +57,6 @@ VALUES (24461,   1,   33554648) /* Setup */
      , (24461,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24461,  1456,      2)  /* Willpower Other VI */
-     , (24461,  1485,      2)  /* Impenetrability V */
+VALUES (24461,  1485,      2)  /* Impenetrability V */
+     , (24461,  1456,      2)  /* Willpower Other VI */
      , (24461,  2810,      2)  /* Moderate Life Magic Aptitude */;

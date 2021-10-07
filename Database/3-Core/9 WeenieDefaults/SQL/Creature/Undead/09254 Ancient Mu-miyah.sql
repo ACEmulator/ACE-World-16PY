@@ -123,23 +123,23 @@ VALUES (9254,  0,  4,  0,    0,  100,   59,   44,   59,    3,   40,  100,   32, 
      , (9254,  8,  4, 30, 0.75,  110,   65,   48,   65,    3,   44,  110,   35,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9254,    60,  2.011)  /* Acid Stream III */
-     , (9254,    66,  2.011)  /* Shock Wave III */
-     , (9254,    71,  2.011)  /* Frost Bolt III */
+VALUES (9254,  1262,      2)  /* Drain Mana Other III */
      , (9254,    82,  2.011)  /* Flame Bolt III */
-     , (9254,   127,  2.011)  /* Acid Volley III */
-     , (9254,   131,  2.014)  /* Bludgeoning Volley III */
-     , (9254,   135,  2.011)  /* Frost Volley III */
-     , (9254,   143,  2.011)  /* Flame Volley III */
-     , (9254,   173,   2.02)  /* Fester Other III */
-     , (9254,   196,   2.02)  /* Exhaustion Other III */
-     , (9254,  1050,  2.011)  /* Bludgeoning Vulnerability Other III */
-     , (9254,  1158,      2)  /* Heal Self III */
-     , (9254,  1173,   2.02)  /* Harm Other III */
-     , (9254,  1197,   2.02)  /* Enfeeble Other III */
      , (9254,  1222,   2.02)  /* Mana Drain Other IV */
+     , (9254,  1158,      2)  /* Heal Self III */
+     , (9254,    66,  2.011)  /* Shock Wave III */
+     , (9254,   131,  2.014)  /* Bludgeoning Volley III */
+     , (9254,   196,   2.02)  /* Exhaustion Other III */
+     , (9254,   143,  2.011)  /* Flame Volley III */
+     , (9254,   135,  2.011)  /* Frost Volley III */
+     , (9254,    71,  2.011)  /* Frost Bolt III */
+     , (9254,  1173,   2.02)  /* Harm Other III */
+     , (9254,  1050,  2.011)  /* Bludgeoning Vulnerability Other III */
      , (9254,  1251,      2)  /* Drain Stamina Other III */
-     , (9254,  1262,      2)  /* Drain Mana Other III */;
+     , (9254,  1197,   2.02)  /* Enfeeble Other III */
+     , (9254,   173,   2.02)  /* Fester Other III */
+     , (9254,    60,  2.011)  /* Acid Stream III */
+     , (9254,   127,  2.011)  /* Acid Volley III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (9254,  94) /* ATTACK_NOTIFICATION_EVENT */

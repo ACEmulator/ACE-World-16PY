@@ -111,20 +111,20 @@ VALUES (8012,  0,  4, 25, 0.75,  150,  150,  150,  150,  179, 15000,  417,  150,
      , (8012, 17,  4, 25, 0.75,  150,  150,  150,  150,  179, 15000,  417,  150,    0, 2,    0,    0,    0,    0,    0,    0,  0.1,  0.1,    0,  0.1,  0.1,    0) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8012,    83,  2.115)  /* Flame Bolt IV */
-     , (8012,    84,  2.031)  /* Flame Bolt V */
-     , (8012,   168,  2.032)  /* Regeneration Self IV */
-     , (8012,   277,  2.032)  /* Magic Resistance Self IV */
-     , (8012,   283,  2.042)  /* Magic Yield Other IV */
-     , (8012,   608,  2.032)  /* Life Magic Mastery Self IV */
-     , (8012,   626,  2.042)  /* Life Magic Ineptitude Other IV */
-     , (8012,   656,  2.032)  /* Mana Conversion Mastery Self IV */
-     , (8012,  1106,  2.042)  /* Fire Vulnerability Other IV */
-     , (8012,  1158,   2.04)  /* Heal Self III */
-     , (8012,  1174,  2.042)  /* Harm Other IV */
-     , (8012,  1240,  2.042)  /* Drain Health Other IV */
+VALUES (8012,  1174,  2.042)  /* Harm Other IV */
      , (8012,  1309,   2.04)  /* Armor Self III */
-     , (8012,  1419,  2.042)  /* Slowness Other V */;
+     , (8012,   656,  2.032)  /* Mana Conversion Mastery Self IV */
+     , (8012,   608,  2.032)  /* Life Magic Mastery Self IV */
+     , (8012,  1158,   2.04)  /* Heal Self III */
+     , (8012,  1419,  2.042)  /* Slowness Other V */
+     , (8012,  1106,  2.042)  /* Fire Vulnerability Other IV */
+     , (8012,   277,  2.032)  /* Magic Resistance Self IV */
+     , (8012,    83,  2.115)  /* Flame Bolt IV */
+     , (8012,  1240,  2.042)  /* Drain Health Other IV */
+     , (8012,    84,  2.031)  /* Flame Bolt V */
+     , (8012,   283,  2.042)  /* Magic Yield Other IV */
+     , (8012,   626,  2.042)  /* Life Magic Ineptitude Other IV */
+     , (8012,   168,  2.032)  /* Regeneration Self IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (8012,  94) /* ATTACK_NOTIFICATION_EVENT */

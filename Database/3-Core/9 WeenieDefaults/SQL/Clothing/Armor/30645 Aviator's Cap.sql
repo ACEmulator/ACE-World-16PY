@@ -58,8 +58,8 @@ VALUES (30645,   1,   33559211) /* Setup */
      , (30645,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30645,   217,      2)  /* Mana Renewal Self VI */
-     , (30645,  1023,      2)  /* Bludgeoning Protection Self VI */
-     , (30645,  1035,      2)  /* Cold Protection Self VI */
+VALUES (30645,  1035,      2)  /* Cold Protection Self VI */
+     , (30645,  2067,      2)  /* Inner Calm */
      , (30645,  1069,      2)  /* Lightning Protection Self IV */
-     , (30645,  2067,      2)  /* Inner Calm */;
+     , (30645,   217,      2)  /* Mana Renewal Self VI */
+     , (30645,  1023,      2)  /* Bludgeoning Protection Self VI */;

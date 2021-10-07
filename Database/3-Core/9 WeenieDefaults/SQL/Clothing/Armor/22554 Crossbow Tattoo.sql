@@ -56,8 +56,8 @@ VALUES (22554,   1,   33554641) /* Setup */
      , (22554,  50,  100673762) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22554,   490,      2)  /* Missile Weapon Mastery Other VI */
-     , (22554,  1144,      2)  /* Piercing Protection Other VI */
+VALUES (22554,  1485,      2)  /* Impenetrability V */
+     , (22554,  2688,      2)  /* Moderate Missile Weapon Aptitude */
      , (22554,  1384,      2)  /* Coordination Other VI */
-     , (22554,  1485,      2)  /* Impenetrability V */
-     , (22554,  2688,      2)  /* Moderate Missile Weapon Aptitude */;
+     , (22554,   490,      2)  /* Missile Weapon Mastery Other VI */
+     , (22554,  1144,      2)  /* Piercing Protection Other VI */;

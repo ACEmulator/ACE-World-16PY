@@ -53,8 +53,8 @@ VALUES (25949,   1,   33558568) /* Setup */
      , (25949,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25949,   297,      2)  /* Light Weapon Mastery Other VI */
-     , (25949,  1592,      2)  /* Aura of Heart Seeker Self VI */
+VALUES (25949,  1592,      2)  /* Aura of Heart Seeker Self VI */
      , (25949,  1616,      2)  /* Aura of Blood Drinker Self VI */
      , (25949,  1625,      2)  /* Aura of Swift Killer Self IV */
-     , (25949,  2598,      2)  /* Minor Blood Thirst */;
+     , (25949,  2598,      2)  /* Minor Blood Thirst */
+     , (25949,   297,      2)  /* Light Weapon Mastery Other VI */;

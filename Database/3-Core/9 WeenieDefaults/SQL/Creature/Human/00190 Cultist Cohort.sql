@@ -441,22 +441,22 @@ VALUES (190,  0,  4,  0,    0,  270,  243,  270,  297,  108,  108,  270,  162,  
      , (190,  8,  4,  2, 0.75,  250,  225,  250,  275,  100,  100,  250,  150,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (190,    61,   2.09)  /* Acid Stream IV */
+VALUES (190,  1159,   2.04)  /* Heal Self IV */
+     , (190,    83,   2.09)  /* Flame Bolt IV */
      , (190,    67,   2.08)  /* Shock Wave IV */
      , (190,    72,   2.09)  /* Frost Bolt IV */
      , (190,    78,   2.09)  /* Lightning Bolt IV */
-     , (190,    83,   2.09)  /* Flame Bolt IV */
-     , (190,    89,   2.09)  /* Force Bolt IV */
-     , (190,    95,   2.09)  /* Whirling Blade IV */
-     , (190,   232,   2.04)  /* Vulnerability Other IV */
-     , (190,   283,   2.04)  /* Magic Yield Other IV */
      , (190,   524,   2.04)  /* Acid Vulnerability Other IV */
-     , (190,  1051,   2.04)  /* Bludgeoning Vulnerability Other IV */
-     , (190,  1159,   2.04)  /* Heal Self IV */
      , (190,  1174,   2.04)  /* Harm Other IV */
      , (190,  1240,   2.04)  /* Drain Health Other IV */
+     , (190,    89,   2.09)  /* Force Bolt IV */
+     , (190,   283,   2.04)  /* Magic Yield Other IV */
+     , (190,  1051,   2.04)  /* Bludgeoning Vulnerability Other IV */
      , (190,  1310,      2)  /* Armor Self IV */
-     , (190,  1324,    2.1)  /* Imperil Other III */;
+     , (190,    95,   2.09)  /* Whirling Blade IV */
+     , (190,   232,   2.04)  /* Vulnerability Other IV */
+     , (190,  1324,    2.1)  /* Imperil Other III */
+     , (190,    61,   2.09)  /* Acid Stream IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (190,  94) /* ATTACK_NOTIFICATION_EVENT */

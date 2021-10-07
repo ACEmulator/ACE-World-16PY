@@ -58,6 +58,6 @@ VALUES (6702,   1,   33556553) /* Setup */
      , (6702,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6702,  1096,      2)  /* Fire Protection Other VI */
-     , (6702,  1605,      2)  /* Aura of Defender Self VI */
+VALUES (6702,  1605,      2)  /* Aura of Defender Self VI */
+     , (6702,  1096,      2)  /* Fire Protection Other VI */
      , (6702,  1616,      2)  /* Aura of Blood Drinker Self VI */;

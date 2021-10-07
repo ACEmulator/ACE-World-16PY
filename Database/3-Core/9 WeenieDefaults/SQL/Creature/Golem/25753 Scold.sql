@@ -117,15 +117,15 @@ VALUES (25753,  0,  4,  0,    0,  200,  354,  158,  158,  140, 20000,  150,  158
      , (25753,  8,  4, 75, 0.75,  200,  354,  158,  158,  140, 20000,  150,  158,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25753,    69,   2.07)  /* Shock Wave VI */
+VALUES (25753,  1241,   2.03)  /* Drain Health Other V */
      , (25753,    85,   2.07)  /* Flame Bolt VI */
+     , (25753,    69,   2.07)  /* Shock Wave VI */
+     , (25753,   233,   2.01)  /* Vulnerability Other V */
      , (25753,   145,  2.005)  /* Flame Volley V */
      , (25753,   168,   2.03)  /* Regeneration Self IV */
-     , (25753,   233,   2.01)  /* Vulnerability Other V */
      , (25753,  1108,   2.01)  /* Fire Vulnerability Other VI */
-     , (25753,  1241,   2.03)  /* Drain Health Other V */
-     , (25753,  1785,  2.005)  /* Cassius' Ring of Fire */
-     , (25753,  1841,  2.005)  /* Slithering Flames */;
+     , (25753,  1841,  2.005)  /* Slithering Flames */
+     , (25753,  1785,  2.005)  /* Cassius' Ring of Fire */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (25753,  94) /* ATTACK_NOTIFICATION_EVENT */

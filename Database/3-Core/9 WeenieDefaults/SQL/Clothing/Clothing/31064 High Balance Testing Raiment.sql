@@ -49,11 +49,11 @@ VALUES (31064,   1,   33554854) /* Setup */
      , (31064,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31064,  1486,      2)  /* Impenetrability VI */
-     , (31064,  1498,      2)  /* Acid Bane VI */
-     , (31064,  1516,      2)  /* Bludgeon Bane VI */
-     , (31064,  1528,      2)  /* Frost Bane VI */
-     , (31064,  1540,      2)  /* Lightning Bane VI */
+VALUES (31064,  1540,      2)  /* Lightning Bane VI */
+     , (31064,  1486,      2)  /* Impenetrability VI */
      , (31064,  1552,      2)  /* Flame Bane VI */
      , (31064,  1562,      2)  /* Blade Bane VI */
-     , (31064,  1574,      2)  /* Piercing Bane VI */;
+     , (31064,  1498,      2)  /* Acid Bane VI */
+     , (31064,  1574,      2)  /* Piercing Bane VI */
+     , (31064,  1516,      2)  /* Bludgeon Bane VI */
+     , (31064,  1528,      2)  /* Frost Bane VI */;

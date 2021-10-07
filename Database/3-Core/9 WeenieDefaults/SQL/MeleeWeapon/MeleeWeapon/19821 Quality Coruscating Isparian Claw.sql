@@ -60,7 +60,7 @@ VALUES (19821,   1,   33556360) /* Setup */
      , (19821,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19821,  1071,      2)  /* Lightning Protection Self VI */
-     , (19821,  1401,      2)  /* Quickness Self V */
-     , (19821,  1589,      2)  /* Aura of Heart Seeker Self III */
-     , (19821,  1613,      2)  /* Aura of Blood Drinker Self III */;
+VALUES (19821,  1589,      2)  /* Aura of Heart Seeker Self III */
+     , (19821,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (19821,  1071,      2)  /* Lightning Protection Self VI */
+     , (19821,  1401,      2)  /* Quickness Self V */;

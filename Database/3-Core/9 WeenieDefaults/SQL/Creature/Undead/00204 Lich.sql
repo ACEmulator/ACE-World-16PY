@@ -145,23 +145,23 @@ VALUES (204,  0,  4,  0,    0,   70,   56,   21,   39,   13,   35,   39,   47,  
      , (204,  8,  4,  3, 0.75,   90,   72,   27,   50,   16,   45,   50,   60,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (204,    59,  2.029)  /* Acid Stream II */
+VALUES (204,  1261,   2.02)  /* Drain Mana Other II */
+     , (204,    81,  2.029)  /* Flame Bolt II */
      , (204,    65,  2.029)  /* Shock Wave II */
      , (204,    70,  2.029)  /* Frost Bolt II */
+     , (204,  1368,  2.009)  /* Frailty Other II */
+     , (204,  1416,  2.009)  /* Slowness Other II */
      , (204,    76,  2.029)  /* Lightning Bolt II */
-     , (204,    81,  2.029)  /* Flame Bolt II */
+     , (204,  1238,   2.02)  /* Drain Health Other II */
      , (204,    87,  2.029)  /* Force Bolt II */
      , (204,    93,  2.029)  /* Whirling Blade II */
-     , (204,   172,  2.009)  /* Fester Other II */
-     , (204,  1238,   2.02)  /* Drain Health Other II */
-     , (204,  1250,   2.02)  /* Drain Stamina Other II */
-     , (204,  1261,   2.02)  /* Drain Mana Other II */
-     , (204,  1339,  2.009)  /* Weakness Other II */
-     , (204,  1368,  2.009)  /* Frailty Other II */
-     , (204,  1392,  2.009)  /* Clumsiness Other II */
-     , (204,  1416,  2.009)  /* Slowness Other II */
      , (204,  1440,  2.009)  /* Bafflement Other II */
-     , (204,  1464,  2.009)  /* Feeblemind Other II */;
+     , (204,  1250,   2.02)  /* Drain Stamina Other II */
+     , (204,   172,  2.009)  /* Fester Other II */
+     , (204,  1392,  2.009)  /* Clumsiness Other II */
+     , (204,  1464,  2.009)  /* Feeblemind Other II */
+     , (204,  1339,  2.009)  /* Weakness Other II */
+     , (204,    59,  2.029)  /* Acid Stream II */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (204,  94) /* ATTACK_NOTIFICATION_EVENT */

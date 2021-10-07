@@ -53,5 +53,5 @@ VALUES (28160,   1,   33554809) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28160,  2154,      2)  /* Icy Boon */
-     , (28160,  2619,      2)  /* Minor Frost Ward */
-     , (28160,  3371,      2)  /* Greater Life Giver */;
+     , (28160,  3371,      2)  /* Greater Life Giver */
+     , (28160,  2619,      2)  /* Minor Frost Ward */;

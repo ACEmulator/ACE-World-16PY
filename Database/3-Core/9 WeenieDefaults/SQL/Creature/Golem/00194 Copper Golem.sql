@@ -114,9 +114,9 @@ VALUES (194,  0,  4,  0,    0,   75,   33,   44,   65,   25,   25,   60,   75,  
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (194,    66,   2.05)  /* Shock Wave III */
-     , (194,    77,   2.05)  /* Lightning Bolt III */
      , (194,   139,   2.02)  /* Lightning Volley III */
-     , (194,  1292,   2.02)  /* Mana to Health Self III */;
+     , (194,  1292,   2.02)  /* Mana to Health Self III */
+     , (194,    77,   2.05)  /* Lightning Bolt III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (194,  94) /* ATTACK_NOTIFICATION_EVENT */

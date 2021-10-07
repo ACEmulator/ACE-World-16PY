@@ -127,14 +127,14 @@ VALUES (29006,  0,  4,  0,    0,  585,  585,  585,  585,  585,  585,  585,  585,
      , (29006, 20,  1, 180,  0.5,  585,  585,  585,  585,  585,  585,  585,  585,    0, 2,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0) /* Claw */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29006,  2149,      2)  /* Caustic Blessing */
-     , (29006,  2151,      2)  /* Blessing of the Blade Turner */
-     , (29006,  2153,      2)  /* Blessing of the Mace Turner */
-     , (29006,  2155,      2)  /* Icy Blessing */
-     , (29006,  2157,      2)  /* Fiery Blessing */
+VALUES (29006,  2157,      2)  /* Fiery Blessing */
+     , (29006,  2149,      2)  /* Caustic Blessing */
      , (29006,  2159,      2)  /* Storm's Blessing */
+     , (29006,  2151,      2)  /* Blessing of the Blade Turner */
      , (29006,  2161,      2)  /* Blessing of the Arrow Turner */
-     , (29006,  2281,      2)  /* Aura of Resistance */;
+     , (29006,  2281,      2)  /* Aura of Resistance */
+     , (29006,  2153,      2)  /* Blessing of the Mace Turner */
+     , (29006,  2155,      2)  /* Icy Blessing */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (29006,  94) /* ATTACK_NOTIFICATION_EVENT */

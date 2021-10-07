@@ -56,6 +56,6 @@ VALUES (23531,   1,   33557433) /* Setup */
      , (23531,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23531,   537,      2)  /* Missile Weapon Mastery Other V */
-     , (23531,  1615,      2)  /* Aura of Blood Drinker Self V */
+VALUES (23531,  1615,      2)  /* Aura of Blood Drinker Self V */
+     , (23531,   537,      2)  /* Missile Weapon Mastery Other V */
      , (23531,  1626,      2)  /* Aura of Swift Killer Self V */;

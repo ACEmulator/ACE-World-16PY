@@ -48,8 +48,8 @@ VALUES (11305,   1,   33557232) /* Setup */
      , (11305,  28,       1836) /* Spell - Avalanche */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11305,   217,      2)  /* Mana Renewal Self VI */
+VALUES (11305,  2581,      2)  /* Minor Focus */
+     , (11305,  1480,      2)  /* Aura of Hermetic Link Self VI */
      , (11305,   634,      2)  /* War Magic Mastery Self VI */
      , (11305,   658,      2)  /* Mana Conversion Mastery Self VI */
-     , (11305,  1480,      2)  /* Aura of Hermetic Link Self VI */
-     , (11305,  2581,      2)  /* Minor Focus */;
+     , (11305,   217,      2)  /* Mana Renewal Self VI */;

@@ -146,19 +146,19 @@ VALUES (229,  0,  4,  0,    0,  180,  180,  180,  180,  180,  180,  180,  180,  
      , (229,  8,  4, 20, 0.75,  180,  180,  180,  180,  180,  180,  180,  180,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (229,    60,  2.014)  /* Acid Stream III */
+VALUES (229,  1173,   2.02)  /* Harm Other III */
+     , (229,   258,  2.007)  /* Impregnability Self III */
+     , (229,    82,  2.014)  /* Flame Bolt III */
+     , (229,  1158,   2.01)  /* Heal Self III */
      , (229,    66,  2.014)  /* Shock Wave III */
      , (229,    71,  2.014)  /* Frost Bolt III */
      , (229,    77,  2.014)  /* Lightning Bolt III */
-     , (229,    82,  2.014)  /* Flame Bolt III */
+     , (229,   276,  2.007)  /* Magic Resistance Self III */
      , (229,    88,  2.014)  /* Force Bolt III */
      , (229,    94,  2.014)  /* Whirling Blade III */
+     , (229,  1197,   2.02)  /* Enfeeble Other III */
      , (229,   246,  2.007)  /* Invulnerability Self III */
-     , (229,   258,  2.007)  /* Impregnability Self III */
-     , (229,   276,  2.007)  /* Magic Resistance Self III */
-     , (229,  1158,   2.01)  /* Heal Self III */
-     , (229,  1173,   2.02)  /* Harm Other III */
-     , (229,  1197,   2.02)  /* Enfeeble Other III */;
+     , (229,    60,  2.014)  /* Acid Stream III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (229,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -114,20 +114,20 @@ VALUES (14522,  0,  4,  0,    0,  200,  150,  150,  100, 20000,   66,  150,  150
      , (14522,  8,  4, 80, 0.75,  200,  150,  150,  100, 20000,   66,  150,  150,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (14522,    67,   2.07)  /* Shock Wave IV */
+VALUES (14522,  1175,   2.03)  /* Harm Other V */
+     , (14522,  1159,   2.01)  /* Heal Self IV */
+     , (14522,    67,   2.07)  /* Shock Wave IV */
+     , (14522,  1419,   2.01)  /* Slowness Other V */
      , (14522,    72,   2.07)  /* Frost Bolt IV */
+     , (14522,  1326,    2.1)  /* Imperil Other V */
+     , (14522,  1237,   2.03)  /* Drain Health Other I */
+     , (14522,   137,  2.008)  /* Frost Volley V */
      , (14522,    73,  2.008)  /* Frost Bolt V */
      , (14522,    74,  2.008)  /* Frost Bolt VI */
-     , (14522,   137,  2.008)  /* Frost Volley V */
-     , (14522,   233,   2.01)  /* Vulnerability Other V */
      , (14522,  1064,   2.01)  /* Cold Vulnerability Other V */
-     , (14522,  1159,   2.01)  /* Heal Self IV */
-     , (14522,  1175,   2.03)  /* Harm Other V */
-     , (14522,  1237,   2.03)  /* Drain Health Other I */
-     , (14522,  1326,    2.1)  /* Imperil Other V */
+     , (14522,   233,   2.01)  /* Vulnerability Other V */
      , (14522,  1395,   2.01)  /* Clumsiness Other V */
-     , (14522,  1401,   2.03)  /* Quickness Self V */
-     , (14522,  1419,   2.01)  /* Slowness Other V */;
+     , (14522,  1401,   2.03)  /* Quickness Self V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (14522,  94) /* ATTACK_NOTIFICATION_EVENT */

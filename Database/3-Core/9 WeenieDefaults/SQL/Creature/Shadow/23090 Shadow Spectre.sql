@@ -123,25 +123,25 @@ VALUES (23090,  0,  4,  0,    0,  460,  460,  368,  391,  276,  506,  322,  345,
      , (23090,  8,  4, 60, 0.75,  460,  460,  368,  391,  276,  506,  322,  345,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23090,    74,  2.032)  /* Frost Bolt VI */
+VALUES (23090,    85,  2.032)  /* Flame Bolt VI */
+     , (23090,  1161,   2.02)  /* Heal Self VI */
+     , (23090,   146,  2.003)  /* Flame Volley VI */
+     , (23090,  1254,  2.011)  /* Drain Stamina Other VI */
+     , (23090,   138,  2.003)  /* Frost Volley VI */
+     , (23090,    74,  2.032)  /* Frost Bolt VI */
+     , (23090,   267,  2.023)  /* Defenselessness Other VI */
+     , (23090,  1420,  2.023)  /* Slowness Other VI */
+     , (23090,   142,  2.003)  /* Lightning Volley VI */
      , (23090,    80,  2.032)  /* Lightning Bolt VI */
-     , (23090,    85,  2.032)  /* Flame Bolt VI */
+     , (23090,   285,  2.023)  /* Magic Yield Other VI */
+     , (23090,  1242,  2.011)  /* Drain Health Other VI */
+     , (23090,   154,  2.003)  /* Blade Volley VI */
+     , (23090,  1312,  2.006)  /* Armor Self VI */
      , (23090,    91,  2.032)  /* Force Bolt VI */
      , (23090,    97,  2.032)  /* Whirling Blade VI */
-     , (23090,   138,  2.003)  /* Frost Volley VI */
-     , (23090,   142,  2.003)  /* Lightning Volley VI */
-     , (23090,   146,  2.003)  /* Flame Volley VI */
-     , (23090,   154,  2.003)  /* Blade Volley VI */
      , (23090,   234,  2.023)  /* Vulnerability Other VI */
-     , (23090,   267,  2.023)  /* Defenselessness Other VI */
-     , (23090,   285,  2.023)  /* Magic Yield Other VI */
-     , (23090,   628,  2.023)  /* Life Magic Ineptitude Other VI */
-     , (23090,  1161,   2.02)  /* Heal Self VI */
-     , (23090,  1242,  2.011)  /* Drain Health Other VI */
-     , (23090,  1254,  2.011)  /* Drain Stamina Other VI */
      , (23090,  1265,  2.011)  /* Drain Mana Other VI */
-     , (23090,  1312,  2.006)  /* Armor Self VI */
-     , (23090,  1420,  2.023)  /* Slowness Other VI */
+     , (23090,   628,  2.023)  /* Life Magic Ineptitude Other VI */
      , (23090,  1468,  2.023)  /* Feeblemind Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

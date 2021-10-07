@@ -56,7 +56,7 @@ VALUES (28143,   1,   33554654) /* Setup */
      , (28143,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28143,  1486,      2)  /* Impenetrability VI */
-     , (28143,  2564,      2)  /* Minor Sprint */
+VALUES (28143,  2564,      2)  /* Minor Sprint */
+     , (28143,  1486,      2)  /* Impenetrability VI */
      , (28143,  2582,      2)  /* Minor Quickness */
      , (28143,  2619,      2)  /* Minor Frost Ward */;

@@ -56,11 +56,11 @@ VALUES (24611,   1,   33558416) /* Setup */
      , (24611,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24611,   423,      2)  /* Heavy Weapon Mastery Self VI */
-     , (24611,  1332,      2)  /* Strength Self VI */
-     , (24611,  1378,      2)  /* Coordination Self VI */
-     , (24611,  1592,      2)  /* Aura of Heart Seeker Self VI */
+VALUES (24611,  1332,      2)  /* Strength Self VI */
      , (24611,  1605,      2)  /* Aura of Defender Self VI */
-     , (24611,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (24611,  2566,      2)  /* Minor Heavy Weapon Aptitude */
+     , (24611,  1592,      2)  /* Aura of Heart Seeker Self VI */
      , (24611,  1624,      2)  /* Aura of Swift Killer Self III */
-     , (24611,  2566,      2)  /* Minor Heavy Weapon Aptitude */;
+     , (24611,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (24611,  1378,      2)  /* Coordination Self VI */
+     , (24611,   423,      2)  /* Heavy Weapon Mastery Self VI */;

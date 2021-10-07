@@ -119,39 +119,39 @@ VALUES (5659,  0,  4,  0,    0,  210,  168,  273,  210,   84,  105,  210,  189, 
      , (5659,  8,  4,  3, 0.75,  220,  176,  286,  220,   88,  110,  220,  198,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5659,    62,  2.028)  /* Acid Stream V */
-     , (5659,    63,   2.01)  /* Acid Stream VI */
+VALUES (5659,  1342,  2.013)  /* Weakness Other V */
+     , (5659,  1253,   2.03)  /* Drain Stamina Other V */
+     , (5659,   137,  2.028)  /* Frost Volley V */
+     , (5659,    73,  2.028)  /* Frost Bolt V */
+     , (5659,   129,  2.028)  /* Acid Volley V */
+     , (5659,   138,   2.01)  /* Frost Volley VI */
+     , (5659,    74,   2.01)  /* Frost Bolt VI */
+     , (5659,   130,   2.01)  /* Acid Volley VI */
      , (5659,    68,  2.028)  /* Shock Wave V */
      , (5659,    69,   2.01)  /* Shock Wave VI */
-     , (5659,    73,  2.028)  /* Frost Bolt V */
-     , (5659,    74,   2.01)  /* Frost Bolt VI */
-     , (5659,    79,  2.028)  /* Lightning Bolt V */
      , (5659,    80,   2.01)  /* Lightning Bolt VI */
-     , (5659,    84,  2.028)  /* Flame Bolt V */
-     , (5659,    85,   2.01)  /* Flame Bolt VI */
-     , (5659,    90,  2.028)  /* Force Bolt V */
-     , (5659,    91,   2.01)  /* Force Bolt VI */
-     , (5659,    96,  2.028)  /* Whirling Blade V */
-     , (5659,    97,   2.01)  /* Whirling Blade VI */
-     , (5659,   129,  2.028)  /* Acid Volley V */
-     , (5659,   130,   2.01)  /* Acid Volley VI */
-     , (5659,   137,  2.028)  /* Frost Volley V */
-     , (5659,   138,   2.01)  /* Frost Volley VI */
+     , (5659,  1419,  2.013)  /* Slowness Other V */
      , (5659,   141,  2.028)  /* Lightning Volley V */
      , (5659,   142,   2.01)  /* Lightning Volley VI */
+     , (5659,    79,  2.028)  /* Lightning Bolt V */
      , (5659,   145,  2.028)  /* Flame Volley V */
      , (5659,   146,   2.01)  /* Flame Volley VI */
+     , (5659,    84,  2.028)  /* Flame Bolt V */
+     , (5659,    85,   2.01)  /* Flame Bolt VI */
+     , (5659,  1241,   2.03)  /* Drain Health Other V */
+     , (5659,    90,  2.028)  /* Force Bolt V */
+     , (5659,    96,  2.028)  /* Whirling Blade V */
+     , (5659,  1371,  2.013)  /* Frailty Other V */
+     , (5659,    91,   2.01)  /* Force Bolt VI */
+     , (5659,    97,   2.01)  /* Whirling Blade VI */
+     , (5659,  1443,  2.013)  /* Bafflement Other V */
      , (5659,   169,   2.03)  /* Regeneration Self V */
      , (5659,   175,  2.013)  /* Fester Other V */
-     , (5659,  1241,   2.03)  /* Drain Health Other V */
-     , (5659,  1253,   2.03)  /* Drain Stamina Other V */
      , (5659,  1264,   2.03)  /* Drain Mana Other V */
-     , (5659,  1342,  2.013)  /* Weakness Other V */
-     , (5659,  1371,  2.013)  /* Frailty Other V */
      , (5659,  1395,  2.013)  /* Clumsiness Other V */
-     , (5659,  1419,  2.013)  /* Slowness Other V */
-     , (5659,  1443,  2.013)  /* Bafflement Other V */
-     , (5659,  1467,  2.013)  /* Feeblemind Other V */;
+     , (5659,  1467,  2.013)  /* Feeblemind Other V */
+     , (5659,    62,  2.028)  /* Acid Stream V */
+     , (5659,    63,   2.01)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (5659,  94) /* ATTACK_NOTIFICATION_EVENT */

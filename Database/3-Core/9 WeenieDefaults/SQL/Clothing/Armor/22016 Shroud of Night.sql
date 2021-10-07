@@ -56,9 +56,9 @@ VALUES (22016,   1,   33558082) /* Setup */
      , (22016,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22016,   249,      2)  /* Invulnerability Self VI */
+VALUES (22016,  1312,      2)  /* Armor Self VI */
+     , (22016,  2565,      2)  /* Minor Light Weapon Aptitude */
+     , (22016,  1484,      2)  /* Impenetrability IV */
      , (22016,   399,      2)  /* Light Weapon Mastery Self VI */
      , (22016,   877,      2)  /* Healing Mastery Self IV */
-     , (22016,  1312,      2)  /* Armor Self VI */
-     , (22016,  1484,      2)  /* Impenetrability IV */
-     , (22016,  2565,      2)  /* Minor Light Weapon Aptitude */;
+     , (22016,   249,      2)  /* Invulnerability Self VI */;

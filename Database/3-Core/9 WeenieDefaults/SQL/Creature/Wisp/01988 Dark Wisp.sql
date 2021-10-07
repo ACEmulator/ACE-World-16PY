@@ -104,17 +104,17 @@ VALUES (1988,  0,  8, 10,  0.5,   20,   20,   20,   20,  200,   16,   16,    4, 
      , (1988, 21, 64,  0,    0,   10,   10,   10,   10,  100,    8,    8,    2,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1988,    70,    2.3)  /* Frost Bolt II */
-     , (1988,    76,    2.3)  /* Lightning Bolt II */
-     , (1988,   172,   2.17)  /* Fester Other II */
+VALUES (1988,   219,   2.17)  /* Mana Depletion Other II */
      , (1988,   195,   2.17)  /* Exhaustion Other II */
-     , (1988,   219,   2.17)  /* Mana Depletion Other II */
-     , (1988,  1157,    2.1)  /* Heal Self II */
      , (1988,  1172,   2.17)  /* Harm Other II */
-     , (1988,  1196,   2.17)  /* Enfeeble Other II */
      , (1988,  1220,   2.17)  /* Mana Drain Other II */
-     , (1988,  1238,   2.67)  /* Drain Health Other II */
+     , (1988,  1157,    2.1)  /* Heal Self II */
      , (1988,  1250,   2.67)  /* Drain Stamina Other II */
+     , (1988,    70,    2.3)  /* Frost Bolt II */
+     , (1988,    76,    2.3)  /* Lightning Bolt II */
+     , (1988,  1238,   2.67)  /* Drain Health Other II */
+     , (1988,  1196,   2.17)  /* Enfeeble Other II */
+     , (1988,   172,   2.17)  /* Fester Other II */
      , (1988,  1261,   2.67)  /* Drain Mana Other II */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

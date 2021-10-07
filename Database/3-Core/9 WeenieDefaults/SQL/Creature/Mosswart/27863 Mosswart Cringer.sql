@@ -122,22 +122,22 @@ VALUES (27863,  0,  4,  0,    0,  280,  364,  420,  392,  280,  196,  364,  252,
      , (27863,  8,  4, 60, 0.75,  280,  364,  420,  392,  280,  196,  364,  252,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27863,    61,   2.01)  /* Acid Stream IV */
+VALUES (27863,  1159,   2.04)  /* Heal Self IV */
+     , (27863,    83,   2.01)  /* Flame Bolt IV */
      , (27863,    67,   2.01)  /* Shock Wave IV */
      , (27863,    72,   2.01)  /* Frost Bolt IV */
+     , (27863,  1418,   2.01)  /* Slowness Other IV */
+     , (27863,   277,   2.01)  /* Magic Resistance Self IV */
      , (27863,    78,   2.01)  /* Lightning Bolt IV */
-     , (27863,    83,   2.01)  /* Flame Bolt IV */
+     , (27863,  1310,   2.01)  /* Armor Self IV */
      , (27863,    89,   2.01)  /* Force Bolt IV */
      , (27863,    95,   2.01)  /* Whirling Blade IV */
      , (27863,   232,   2.01)  /* Vulnerability Other IV */
-     , (27863,   247,   2.01)  /* Invulnerability Self IV */
-     , (27863,   277,   2.01)  /* Magic Resistance Self IV */
-     , (27863,  1159,   2.04)  /* Heal Self IV */
-     , (27863,  1310,   2.01)  /* Armor Self IV */
      , (27863,  1325,   2.04)  /* Imperil Other IV */
-     , (27863,  1341,   2.01)  /* Weakness Other IV */
      , (27863,  1394,   2.01)  /* Clumsiness Other IV */
-     , (27863,  1418,   2.01)  /* Slowness Other IV */;
+     , (27863,   247,   2.01)  /* Invulnerability Self IV */
+     , (27863,  1341,   2.01)  /* Weakness Other IV */
+     , (27863,    61,   2.01)  /* Acid Stream IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (27863,  94) /* ATTACK_NOTIFICATION_EVENT */

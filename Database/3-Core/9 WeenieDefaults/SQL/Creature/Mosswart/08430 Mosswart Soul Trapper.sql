@@ -127,20 +127,20 @@ VALUES (8430,  0,  4,  0,    0,  180,   70,  103,  103,   45,   72,  203,  126, 
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8430,   196,  2.029)  /* Exhaustion Other III */
-     , (8430,   246,  2.013)  /* Invulnerability Self III */
+     , (8430,  1309,  2.013)  /* Armor Self III */
+     , (8430,  1158,   2.04)  /* Heal Self III */
+     , (8430,  1340,  2.125)  /* Weakness Other III */
+     , (8430,  1798,  2.029)  /* Flame Streak III */
+     , (8430,  1002,   2.04)  /* Leaden Feet Other III */
+     , (8430,  1816,  2.029)  /* Lightning Streak III */
+     , (8430,  1105,  2.125)  /* Fire Vulnerability Other III */
      , (8430,   276,  2.013)  /* Magic Resistance Self III */
      , (8430,   282,  2.029)  /* Magic Yield Other III */
-     , (8430,  1002,   2.04)  /* Leaden Feet Other III */
-     , (8430,  1086,  2.125)  /* Lightning Vulnerability Other III */
-     , (8430,  1105,  2.125)  /* Fire Vulnerability Other III */
-     , (8430,  1158,   2.04)  /* Heal Self III */
-     , (8430,  1197,  2.029)  /* Enfeeble Other III */
-     , (8430,  1309,  2.013)  /* Armor Self III */
      , (8430,  1324,  2.125)  /* Imperil Other III */
-     , (8430,  1340,  2.125)  /* Weakness Other III */
+     , (8430,  1197,  2.029)  /* Enfeeble Other III */
      , (8430,  1393,  2.125)  /* Clumsiness Other III */
-     , (8430,  1798,  2.029)  /* Flame Streak III */
-     , (8430,  1816,  2.029)  /* Lightning Streak III */;
+     , (8430,   246,  2.013)  /* Invulnerability Self III */
+     , (8430,  1086,  2.125)  /* Lightning Vulnerability Other III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (8430,  94) /* ATTACK_NOTIFICATION_EVENT */

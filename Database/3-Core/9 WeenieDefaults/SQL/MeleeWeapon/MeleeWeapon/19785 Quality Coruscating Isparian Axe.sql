@@ -60,7 +60,7 @@ VALUES (19785,   1,   33556352) /* Setup */
      , (19785,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19785,  1071,      2)  /* Lightning Protection Self VI */
-     , (19785,  1401,      2)  /* Quickness Self V */
-     , (19785,  1589,      2)  /* Aura of Heart Seeker Self III */
-     , (19785,  1613,      2)  /* Aura of Blood Drinker Self III */;
+VALUES (19785,  1589,      2)  /* Aura of Heart Seeker Self III */
+     , (19785,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (19785,  1071,      2)  /* Lightning Protection Self VI */
+     , (19785,  1401,      2)  /* Quickness Self V */;

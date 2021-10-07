@@ -52,11 +52,11 @@ VALUES (20161,   1,   33557781) /* Setup */
      , (20161,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20161,   562,      2)  /* Creature Enchantment Mastery Self VI */
-     , (20161,   584,      2)  /* Item Enchantment Mastery Self IV */
+VALUES (20161,   632,      2)  /* War Magic Mastery Self IV */
      , (20161,   608,      2)  /* Life Magic Mastery Self IV */
-     , (20161,   632,      2)  /* War Magic Mastery Self IV */
-     , (20161,   655,      2)  /* Mana Conversion Mastery Self III */
+     , (20161,   584,      2)  /* Item Enchantment Mastery Self IV */
      , (20161,  1035,      2)  /* Cold Protection Self VI */
+     , (20161,   655,      2)  /* Mana Conversion Mastery Self III */
+     , (20161,  1447,      2)  /* Willpower Self III */
      , (20161,  1423,      2)  /* Focus Self III */
-     , (20161,  1447,      2)  /* Willpower Self III */;
+     , (20161,   562,      2)  /* Creature Enchantment Mastery Self VI */;

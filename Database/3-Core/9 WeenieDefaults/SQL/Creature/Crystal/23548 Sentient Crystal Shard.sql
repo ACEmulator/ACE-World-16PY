@@ -115,15 +115,15 @@ VALUES (23548,  0,  4, 50, 0.75,  350,  350,  350,  350,  350,  420,  378, 35000
      , (23548, 17,  4, 50, 0.75,  350,  350,  350,  350,  350,  420,  378, 35000,    0, 2,    0,    0,    0,    0,    0,    0,  0.1,  0.1,    0,  0.1,  0.1,    0) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23548,  2056,  2.083)  /* Ataxia */
+VALUES (23548,  2168,  2.083)  /* Gelidite's Gift */
      , (23548,  2064,  2.083)  /* Self Loathing */
+     , (23548,  2056,  2.083)  /* Ataxia */
      , (23548,  2073,  2.083)  /* Adja's Intervention */
-     , (23548,  2162,  2.083)  /* Olthoi's Gift */
-     , (23548,  2168,  2.083)  /* Gelidite's Gift */
-     , (23548,  2170,  2.083)  /* Inferno's Gift */
-     , (23548,  2172,  2.083)  /* Astyrrian's Gift */
      , (23548,  2185,  2.083)  /* Robustify */
-     , (23548,  2328,  2.083)  /* Vitality Siphon */;
+     , (23548,  2328,  2.083)  /* Vitality Siphon */
+     , (23548,  2170,  2.083)  /* Inferno's Gift */
+     , (23548,  2162,  2.083)  /* Olthoi's Gift */
+     , (23548,  2172,  2.083)  /* Astyrrian's Gift */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (23548,  94) /* ATTACK_NOTIFICATION_EVENT */

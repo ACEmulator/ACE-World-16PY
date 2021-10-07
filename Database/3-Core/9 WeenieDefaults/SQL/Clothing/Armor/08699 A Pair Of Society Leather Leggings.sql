@@ -50,5 +50,5 @@ VALUES (8699,   1,   33554856) /* Setup */
      , (8699,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8699,  1116,      2)  /* Blade Protection Other II */
-     , (8699,  1482,      2)  /* Impenetrability II */;
+VALUES (8699,  1482,      2)  /* Impenetrability II */
+     , (8699,  1116,      2)  /* Blade Protection Other II */;

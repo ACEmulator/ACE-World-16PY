@@ -53,6 +53,6 @@ VALUES (29231,   1,   33559119) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29231,  1605,      2)  /* Aura of Defender Self VI */
-     , (29231,  2096,      2)  /* Aura of Infected Caress */
      , (29231,  2598,      2)  /* Minor Blood Thirst */
-     , (29231,  2600,      2)  /* Minor Defender */;
+     , (29231,  2600,      2)  /* Minor Defender */
+     , (29231,  2096,      2)  /* Aura of Infected Caress */;

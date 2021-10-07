@@ -64,8 +64,8 @@ VALUES (11433,  2438,      2)  /* Lesser Rockslide */
      , (11433,  2441,      2)  /* Lesser Stone Cliffs */
      , (11433,  2444,      2)  /* Lesser Strength of Earth */
      , (11433,  2447,      2)  /* Lesser Growth */
+     , (11433,  2466,      2)  /* Cascade */
      , (11433,  2450,      2)  /* Lesser Hunter's Acumen */
      , (11433,  2453,      2)  /* Lesser Thorns */
-     , (11433,  2466,      2)  /* Cascade */
      , (11433,  2472,      2)  /* Still Water */
      , (11433,  2475,      2)  /* Torrent */;

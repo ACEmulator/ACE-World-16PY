@@ -55,7 +55,7 @@ VALUES (27090,   1,   33554655) /* Setup */
      , (27090,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27090,   296,      2)  /* Light Weapon Mastery Other V */
-     , (27090,  1360,      2)  /* Endurance Other VI */
+VALUES (27090,  1360,      2)  /* Endurance Other VI */
      , (27090,  2385,      2)  /* Vigilance */
-     , (27090,  2386,      2)  /* Indomitability */;
+     , (27090,  2386,      2)  /* Indomitability */
+     , (27090,   296,      2)  /* Light Weapon Mastery Other V */;

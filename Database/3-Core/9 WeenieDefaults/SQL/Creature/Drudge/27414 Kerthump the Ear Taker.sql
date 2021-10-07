@@ -120,16 +120,16 @@ VALUES (27414,  0,  4,  0,    0,  180,  155,  126,  162,  155,  162,  155,   68,
      , (27414,  8,  4, 25, 0.75,  170,  146,  119,  153,  146,  153,  146,   65,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27414,    78,  2.033)  /* Lightning Bolt IV */
+VALUES (27414,   265,   2.01)  /* Defenselessness Other IV */
+     , (27414,  1394,   2.01)  /* Clumsiness Other IV */
+     , (27414,  1330,  2.015)  /* Strength Self IV */
+     , (27414,  1418,   2.01)  /* Slowness Other IV */
+     , (27414,    78,  2.033)  /* Lightning Bolt IV */
      , (27414,    89,  2.033)  /* Force Bolt IV */
      , (27414,    95,  2.033)  /* Whirling Blade IV */
-     , (27414,   232,   2.01)  /* Vulnerability Other IV */
-     , (27414,   265,   2.01)  /* Defenselessness Other IV */
-     , (27414,  1330,  2.015)  /* Strength Self IV */
      , (27414,  1376,  2.015)  /* Coordination Self IV */
-     , (27414,  1394,   2.01)  /* Clumsiness Other IV */
-     , (27414,  1400,  2.015)  /* Quickness Self IV */
-     , (27414,  1418,   2.01)  /* Slowness Other IV */;
+     , (27414,   232,   2.01)  /* Vulnerability Other IV */
+     , (27414,  1400,  2.015)  /* Quickness Self IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (27414,  94) /* ATTACK_NOTIFICATION_EVENT */

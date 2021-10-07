@@ -103,19 +103,19 @@ VALUES (7125,  0,  8, 60,  0.5,  140,  140,  118,  118, 1400,  358,  358,  118, 
      , (7125, 21, 16,  0,    0,  110,  110,   92,   92, 1100,  282,  282,   92,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7125,    80,   2.15)  /* Lightning Bolt VI */
-     , (7125,    85,   2.15)  /* Flame Bolt VI */
-     , (7125,   176,   2.17)  /* Fester Other VI */
+VALUES (7125,   223,   2.17)  /* Mana Depletion Other VI */
      , (7125,   199,   2.17)  /* Exhaustion Other VI */
-     , (7125,   223,   2.17)  /* Mana Depletion Other VI */
-     , (7125,  1161,    2.1)  /* Heal Self VI */
      , (7125,  1176,   2.17)  /* Harm Other VI */
-     , (7125,  1200,   2.17)  /* Enfeeble Other VI */
      , (7125,  1224,   2.17)  /* Mana Drain Other VI */
+     , (7125,    85,   2.15)  /* Flame Bolt VI */
+     , (7125,  1161,    2.1)  /* Heal Self VI */
+     , (7125,    80,   2.15)  /* Lightning Bolt VI */
+     , (7125,  2762,   2.17)  /* Martyr's Hecatomb III */
      , (7125,  1242,   2.67)  /* Drain Health Other VI */
      , (7125,  1254,   2.67)  /* Drain Stamina Other VI */
-     , (7125,  1265,   2.67)  /* Drain Mana Other VI */
-     , (7125,  2762,   2.17)  /* Martyr's Hecatomb III */;
+     , (7125,  1200,   2.17)  /* Enfeeble Other VI */
+     , (7125,   176,   2.17)  /* Fester Other VI */
+     , (7125,  1265,   2.67)  /* Drain Mana Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (7125,  94) /* ATTACK_NOTIFICATION_EVENT */

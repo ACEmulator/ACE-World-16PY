@@ -102,16 +102,16 @@ VALUES (21549,  0, 32, 50,  0.5,   50,   50,   42,   42,   42,   42,  100,   42,
      , (21549, 21, 32,  0,    0,   40,   40,   34,   34,   34,   34,   80,   34,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21549,    62,   2.15)  /* Acid Stream V */
-     , (21549,   222,   2.17)  /* Mana Depletion Other V */
-     , (21549,  1160,    2.1)  /* Heal Self V */
+VALUES (21549,  1199,   2.17)  /* Enfeeble Other V */
      , (21549,  1175,   2.17)  /* Harm Other V */
-     , (21549,  1199,   2.17)  /* Enfeeble Other V */
      , (21549,  1223,   2.17)  /* Mana Drain Other V */
-     , (21549,  1241,   2.67)  /* Drain Health Other V */
-     , (21549,  1253,   2.67)  /* Drain Stamina Other V */
      , (21549,  1264,   2.67)  /* Drain Mana Other V */
-     , (21549,  1371,   2.67)  /* Frailty Other V */;
+     , (21549,  1160,    2.1)  /* Heal Self V */
+     , (21549,  1241,   2.67)  /* Drain Health Other V */
+     , (21549,  1371,   2.67)  /* Frailty Other V */
+     , (21549,   222,   2.17)  /* Mana Depletion Other V */
+     , (21549,  1253,   2.67)  /* Drain Stamina Other V */
+     , (21549,    62,   2.15)  /* Acid Stream V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (21549,  94) /* ATTACK_NOTIFICATION_EVENT */

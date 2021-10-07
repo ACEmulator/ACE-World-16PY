@@ -119,14 +119,14 @@ VALUES (21390,  0,  4,  0,    0,  900,  900,  900,  900, 18000, 18000, 18000, 18
      , (21390,  8,  4, 25, 0.75,  900,  900,  900,  900, 18000, 18000, 18000, 18000,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21390,  1788,   2.02)  /* Eye of the Storm */
-     , (21390,  2074,   2.01)  /* Gossamer Flesh */
-     , (21390,  2084,   2.01)  /* Belly of Lead */
-     , (21390,  2140,   2.02)  /* Alset's Coil */
-     , (21390,  2141,   2.02)  /* Lhen's Flare */
-     , (21390,  2172,   2.01)  /* Astyrrian's Gift */
+VALUES (21390,  2141,   2.02)  /* Lhen's Flare */
+     , (21390,  2318,   2.01)  /* Gravity Well */
+     , (21390,  1788,   2.02)  /* Eye of the Storm */
      , (21390,  2282,   2.01)  /* Futility */
-     , (21390,  2318,   2.01)  /* Gravity Well */;
+     , (21390,  2074,   2.01)  /* Gossamer Flesh */
+     , (21390,  2172,   2.01)  /* Astyrrian's Gift */
+     , (21390,  2084,   2.01)  /* Belly of Lead */
+     , (21390,  2140,   2.02)  /* Alset's Coil */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (21390, 414) /* PLAYER_DEATH_EVENT */;

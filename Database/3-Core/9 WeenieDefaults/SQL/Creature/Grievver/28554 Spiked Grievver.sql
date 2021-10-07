@@ -108,20 +108,20 @@ VALUES (28554,  0,  4,  0,    0,  180,  162,  216,  198,  216,  216,  216,  198,
      , (28554, 22, 32, 80,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28554,    60,  2.023)  /* Acid Stream III */
-     , (28554,    77,  2.023)  /* Lightning Bolt III */
-     , (28554,   276,      2)  /* Magic Resistance Self III */
-     , (28554,  1111,      2)  /* Blade Protection Self III */
-     , (28554,  1135,      2)  /* Piercing Protection Self III */
+VALUES (28554,  1309,      2)  /* Armor Self III */
      , (28554,  1158,  2.008)  /* Heal Self III */
-     , (28554,  1239,  2.008)  /* Drain Health Other III */
-     , (28554,  1309,      2)  /* Armor Self III */
-     , (28554,  1340,  2.015)  /* Weakness Other III */
-     , (28554,  1369,  2.015)  /* Frailty Other III */
-     , (28554,  1393,  2.015)  /* Clumsiness Other III */
-     , (28554,  1417,  2.015)  /* Slowness Other III */
      , (28554,  1441,  2.015)  /* Bafflement Other III */
-     , (28554,  1465,  2.015)  /* Feeblemind Other III */;
+     , (28554,  1369,  2.015)  /* Frailty Other III */
+     , (28554,  1417,  2.015)  /* Slowness Other III */
+     , (28554,    77,  2.023)  /* Lightning Bolt III */
+     , (28554,  1111,      2)  /* Blade Protection Self III */
+     , (28554,  1239,  2.008)  /* Drain Health Other III */
+     , (28554,   276,      2)  /* Magic Resistance Self III */
+     , (28554,  1135,      2)  /* Piercing Protection Self III */
+     , (28554,  1393,  2.015)  /* Clumsiness Other III */
+     , (28554,  1465,  2.015)  /* Feeblemind Other III */
+     , (28554,  1340,  2.015)  /* Weakness Other III */
+     , (28554,    60,  2.023)  /* Acid Stream III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (28554,  94) /* ATTACK_NOTIFICATION_EVENT */

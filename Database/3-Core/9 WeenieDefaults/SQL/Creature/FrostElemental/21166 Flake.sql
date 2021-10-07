@@ -109,16 +109,16 @@ VALUES (21166,  0,  8,  0,    0,   30,   20,   27,   27, 3000,   23,   30,   30,
      , (21166,  8,  8,  5, 0.75,   30,   20,   27,   27, 3000,   23,   30,   30,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21166,     6,  2.015)  /* Heal Self I */
+VALUES (21166,   262,  2.013)  /* Defenselessness Other I */
+     , (21166,     6,  2.015)  /* Heal Self I */
      , (21166,    15,  2.013)  /* Vulnerability Other I */
-     , (21166,    20,  2.008)  /* Fire Protection Self I */
-     , (21166,    24,  2.008)  /* Armor Self I */
-     , (21166,    28,   2.06)  /* Frost Bolt I */
-     , (21166,   165,  2.008)  /* Regeneration Self I */
-     , (21166,   262,  2.013)  /* Defenselessness Other I */
      , (21166,   274,  2.008)  /* Magic Resistance Self I */
+     , (21166,  1237,  2.008)  /* Drain Health Other I */
+     , (21166,    28,   2.06)  /* Frost Bolt I */
+     , (21166,    20,  2.008)  /* Fire Protection Self I */
      , (21166,  1060,  2.013)  /* Cold Vulnerability Other I */
-     , (21166,  1237,  2.008)  /* Drain Health Other I */;
+     , (21166,    24,  2.008)  /* Armor Self I */
+     , (21166,   165,  2.008)  /* Regeneration Self I */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (21166,  94) /* ATTACK_NOTIFICATION_EVENT */

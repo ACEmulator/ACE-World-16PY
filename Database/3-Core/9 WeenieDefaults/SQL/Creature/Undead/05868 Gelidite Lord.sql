@@ -134,28 +134,28 @@ VALUES (5868,  0,  4,  0,    0,  310,  310,  310,  310,  310,  310,  310,  310, 
      , (5868,  8,  4, 80, 0.75,  310,  310,  310,  310,  310,  310,  310,  310,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5868,    62,   2.01)  /* Acid Stream V */
-     , (5868,    68,   2.01)  /* Shock Wave V */
+VALUES (5868,   145,   2.01)  /* Flame Volley V */
+     , (5868,  1342,  2.011)  /* Weakness Other V */
+     , (5868,  1253,  2.025)  /* Drain Stamina Other V */
+     , (5868,   137,   2.01)  /* Frost Volley V */
      , (5868,    73,   2.01)  /* Frost Bolt V */
-     , (5868,    79,   2.01)  /* Lightning Bolt V */
+     , (5868,   129,   2.01)  /* Acid Volley V */
      , (5868,    84,   2.01)  /* Flame Bolt V */
+     , (5868,    68,   2.01)  /* Shock Wave V */
+     , (5868,  1419,  2.011)  /* Slowness Other V */
+     , (5868,   141,   2.01)  /* Lightning Volley V */
+     , (5868,    79,   2.01)  /* Lightning Bolt V */
+     , (5868,  1241,  2.025)  /* Drain Health Other V */
      , (5868,    90,   2.01)  /* Force Bolt V */
      , (5868,    96,   2.01)  /* Whirling Blade V */
-     , (5868,   129,   2.01)  /* Acid Volley V */
-     , (5868,   137,   2.01)  /* Frost Volley V */
-     , (5868,   141,   2.01)  /* Lightning Volley V */
-     , (5868,   145,   2.01)  /* Flame Volley V */
+     , (5868,  1371,  2.011)  /* Frailty Other V */
+     , (5868,  1443,  2.011)  /* Bafflement Other V */
      , (5868,   169,  2.025)  /* Regeneration Self V */
      , (5868,   175,  2.011)  /* Fester Other V */
-     , (5868,  1241,  2.025)  /* Drain Health Other V */
-     , (5868,  1253,  2.025)  /* Drain Stamina Other V */
      , (5868,  1264,  2.025)  /* Drain Mana Other V */
-     , (5868,  1342,  2.011)  /* Weakness Other V */
-     , (5868,  1371,  2.011)  /* Frailty Other V */
      , (5868,  1395,  2.011)  /* Clumsiness Other V */
-     , (5868,  1419,  2.011)  /* Slowness Other V */
-     , (5868,  1443,  2.011)  /* Bafflement Other V */
-     , (5868,  1467,  2.011)  /* Feeblemind Other V */;
+     , (5868,  1467,  2.011)  /* Feeblemind Other V */
+     , (5868,    62,   2.01)  /* Acid Stream V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (5868,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -55,14 +55,14 @@ VALUES (23930,   1,   33554644) /* Setup */
      , (23930,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23930,   664,      2)  /* Mana Conversion Mastery Other VI */
+VALUES (23930,  2350,      2)  /* Greater Decay Durance */
      , (23930,   908,      2)  /* Leadership Mastery Other V */
-     , (23930,  2350,      2)  /* Greater Decay Durance */
-     , (23930,  2351,      2)  /* Greater Consumption Durance */
-     , (23930,  2352,      2)  /* Greater Stasis Durance */
-     , (23930,  2353,      2)  /* Greater Stimulation Durance */
-     , (23930,  2377,      2)  /* Vision of Annihilation */
      , (23930,  2948,      2)  /* Hieromancer's Great Ward */
+     , (23930,   664,      2)  /* Mana Conversion Mastery Other VI */
+     , (23930,  2377,      2)  /* Vision of Annihilation */
      , (23930,  2960,      2)  /* Greater Bludgeoning Durance */
+     , (23930,  2351,      2)  /* Greater Consumption Durance */
      , (23930,  2961,      2)  /* Greater Piercing Durance */
-     , (23930,  2962,      2)  /* Greater Slashing Durance */;
+     , (23930,  2962,      2)  /* Greater Slashing Durance */
+     , (23930,  2352,      2)  /* Greater Stasis Durance */
+     , (23930,  2353,      2)  /* Greater Stimulation Durance */;

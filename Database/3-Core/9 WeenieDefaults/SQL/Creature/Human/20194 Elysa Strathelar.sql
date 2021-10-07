@@ -138,8 +138,8 @@ VALUES (20194,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (20194,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20194,  1635,   2.04)  /* Lifestone Recall */
-     , (20194,  2645,   2.04)  /* Portal Recall */;
+VALUES (20194,  2645,   2.04)  /* Portal Recall */
+     , (20194,  1635,   2.04)  /* Lifestone Recall */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (20194, 414) /* PLAYER_DEATH_EVENT */;

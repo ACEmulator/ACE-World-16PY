@@ -113,17 +113,17 @@ VALUES (7392,  0,  4,  0,    0,  350,  595,  595,  490,  350,  700,  420,  420, 
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7392,    85,    2.1)  /* Flame Bolt VI */
-     , (7392,   146,    2.1)  /* Flame Volley VI */
-     , (7392,   279,      2)  /* Magic Resistance Self VI */
-     , (7392,  1023,      2)  /* Bludgeoning Protection Self VI */
-     , (7392,  1035,      2)  /* Cold Protection Self VI */
-     , (7392,  1052,   2.03)  /* Bludgeoning Vulnerability Other V */
-     , (7392,  1108,   2.05)  /* Fire Vulnerability Other VI */
      , (7392,  1161,      2)  /* Heal Self VI */
+     , (7392,  1035,      2)  /* Cold Protection Self VI */
+     , (7392,   146,    2.1)  /* Flame Volley VI */
+     , (7392,  1052,   2.03)  /* Bludgeoning Vulnerability Other V */
+     , (7392,   279,      2)  /* Magic Resistance Self VI */
+     , (7392,  1108,   2.05)  /* Fire Vulnerability Other VI */
      , (7392,  1242,      2)  /* Drain Health Other VI */
      , (7392,  1312,      2)  /* Armor Self VI */
      , (7392,  1326,   2.04)  /* Imperil Other V */
-     , (7392,  1343,   2.03)  /* Weakness Other VI */;
+     , (7392,  1343,   2.03)  /* Weakness Other VI */
+     , (7392,  1023,      2)  /* Bludgeoning Protection Self VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (7392,  94) /* ATTACK_NOTIFICATION_EVENT */

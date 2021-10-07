@@ -56,9 +56,9 @@ VALUES (22015,   1,   33558081) /* Setup */
      , (22015,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22015,   249,      2)  /* Invulnerability Self VI */
-     , (22015,   327,      2)  /* Finesse Weapon Mastery Self VI */
+VALUES (22015,   327,      2)  /* Finesse Weapon Mastery Self VI */
+     , (22015,  2544,      2)  /* Minor Finesse Weapon Aptitude */
      , (22015,   681,      2)  /* Arcane Enlightenment Self IV */
-     , (22015,  1312,      2)  /* Armor Self VI */
      , (22015,  1484,      2)  /* Impenetrability IV */
-     , (22015,  2544,      2)  /* Minor Finesse Weapon Aptitude */;
+     , (22015,  1312,      2)  /* Armor Self VI */
+     , (22015,   249,      2)  /* Invulnerability Self VI */;

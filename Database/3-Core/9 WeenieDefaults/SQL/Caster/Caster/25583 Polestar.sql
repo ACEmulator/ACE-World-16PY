@@ -48,6 +48,6 @@ VALUES (25583,   1,   33558500) /* Setup */
      , (25583,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25583,   211,      2)  /* Mana Renewal Other VI */
+VALUES (25583,  2627,      2)  /* Minor Mana Gain */
      , (25583,  2569,      2)  /* Minor War Magic Aptitude */
-     , (25583,  2627,      2)  /* Minor Mana Gain */;
+     , (25583,   211,      2)  /* Mana Renewal Other VI */;

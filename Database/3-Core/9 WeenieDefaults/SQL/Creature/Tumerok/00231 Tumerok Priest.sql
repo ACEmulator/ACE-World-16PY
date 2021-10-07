@@ -123,25 +123,25 @@ VALUES (231,  0,  4,  0,    0,  110,  110,  110,  110,  110,  110,  110,  110,  
      , (231,  8,  4,  5, 0.75,  110,  110,  110,  110,  110,  110,  110,  110,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (231,    61,  2.033)  /* Acid Stream IV */
+VALUES (231,   140,  2.033)  /* Lightning Volley IV */
+     , (231,   259,  2.027)  /* Impregnability Self IV */
+     , (231,    83,  2.033)  /* Flame Bolt IV */
+     , (231,  1159,   2.04)  /* Heal Self IV */
      , (231,    67,  2.033)  /* Shock Wave IV */
+     , (231,  1222,  2.053)  /* Mana Drain Other IV */
+     , (231,   144,  2.033)  /* Flame Volley IV */
+     , (231,   136,  2.033)  /* Frost Volley IV */
      , (231,    72,  2.033)  /* Frost Bolt IV */
      , (231,    78,  2.033)  /* Lightning Bolt IV */
-     , (231,    83,  2.033)  /* Flame Bolt IV */
-     , (231,    89,  2.033)  /* Force Bolt IV */
-     , (231,    95,  2.033)  /* Whirling Blade IV */
-     , (231,   136,  2.033)  /* Frost Volley IV */
-     , (231,   140,  2.033)  /* Lightning Volley IV */
-     , (231,   144,  2.033)  /* Flame Volley IV */
-     , (231,   152,  2.033)  /* Blade Volley IV */
-     , (231,   247,  2.027)  /* Invulnerability Self IV */
-     , (231,   259,  2.027)  /* Impregnability Self IV */
      , (231,   277,  2.027)  /* Magic Resistance Self IV */
-     , (231,   283,  2.053)  /* Magic Yield Other IV */
-     , (231,  1159,   2.04)  /* Heal Self IV */
      , (231,  1174,  2.053)  /* Harm Other IV */
+     , (231,   152,  2.033)  /* Blade Volley IV */
+     , (231,    89,  2.033)  /* Force Bolt IV */
+     , (231,   283,  2.053)  /* Magic Yield Other IV */
+     , (231,    95,  2.033)  /* Whirling Blade IV */
      , (231,  1198,  2.053)  /* Enfeeble Other IV */
-     , (231,  1222,  2.053)  /* Mana Drain Other IV */;
+     , (231,   247,  2.027)  /* Invulnerability Self IV */
+     , (231,    61,  2.033)  /* Acid Stream IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (231,  94) /* ATTACK_NOTIFICATION_EVENT */

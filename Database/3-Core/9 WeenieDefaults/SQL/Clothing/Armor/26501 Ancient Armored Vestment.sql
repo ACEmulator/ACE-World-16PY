@@ -52,5 +52,5 @@ VALUES (26501,   1,   33554642) /* Setup */
      , (26501,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26501,  3046,      2)  /* Lesser Mists of Bur */
-     , (26501,  3092,      2)  /* Lesser Skin of the Fiazhat */;
+VALUES (26501,  3092,      2)  /* Lesser Skin of the Fiazhat */
+     , (26501,  3046,      2)  /* Lesser Mists of Bur */;

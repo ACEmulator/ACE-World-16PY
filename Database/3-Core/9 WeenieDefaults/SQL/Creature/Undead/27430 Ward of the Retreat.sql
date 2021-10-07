@@ -147,28 +147,28 @@ VALUES (27430,  0,  4,  0,    0,  400,  480,  480,  400,  480,  360,  520,  560,
      , (27430,  8,  4, 90, 0.75,  400,  480,  480,  400,  480,  360,  520,  560,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27430,    63,   2.02)  /* Acid Stream VI */
-     , (27430,    69,   2.02)  /* Shock Wave VI */
-     , (27430,    74,   2.02)  /* Frost Bolt VI */
-     , (27430,    80,   2.02)  /* Lightning Bolt VI */
-     , (27430,    85,   2.02)  /* Flame Bolt VI */
-     , (27430,    91,   2.02)  /* Force Bolt VI */
-     , (27430,    97,   2.02)  /* Whirling Blade VI */
-     , (27430,   130,   2.02)  /* Acid Volley VI */
+VALUES (27430,   146,   2.02)  /* Flame Volley VI */
+     , (27430,  1254,   2.03)  /* Drain Stamina Other VI */
      , (27430,   138,   2.02)  /* Frost Volley VI */
+     , (27430,    74,   2.02)  /* Frost Bolt VI */
+     , (27430,   130,   2.02)  /* Acid Volley VI */
+     , (27430,    85,   2.02)  /* Flame Bolt VI */
+     , (27430,    69,   2.02)  /* Shock Wave VI */
+     , (27430,  1420,   2.01)  /* Slowness Other VI */
      , (27430,   142,   2.02)  /* Lightning Volley VI */
-     , (27430,   146,   2.02)  /* Flame Volley VI */
+     , (27430,    80,   2.02)  /* Lightning Bolt VI */
+     , (27430,  1242,   2.03)  /* Drain Health Other VI */
+     , (27430,    91,   2.02)  /* Force Bolt VI */
+     , (27430,  1372,   2.01)  /* Frailty Other VI */
+     , (27430,    97,   2.02)  /* Whirling Blade VI */
+     , (27430,  1444,   2.01)  /* Bafflement Other VI */
      , (27430,   170,   2.03)  /* Regeneration Self VI */
      , (27430,   176,   2.01)  /* Fester Other VI */
-     , (27430,  1242,   2.03)  /* Drain Health Other VI */
-     , (27430,  1254,   2.03)  /* Drain Stamina Other VI */
      , (27430,  1265,   2.03)  /* Drain Mana Other VI */
-     , (27430,  1343,   2.01)  /* Weakness Other VI */
-     , (27430,  1372,   2.01)  /* Frailty Other VI */
      , (27430,  1396,   2.01)  /* Clumsiness Other VI */
-     , (27430,  1420,   2.01)  /* Slowness Other VI */
-     , (27430,  1444,   2.01)  /* Bafflement Other VI */
-     , (27430,  1468,   2.01)  /* Feeblemind Other VI */;
+     , (27430,  1468,   2.01)  /* Feeblemind Other VI */
+     , (27430,  1343,   2.01)  /* Weakness Other VI */
+     , (27430,    63,   2.02)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (27430,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -40,38 +40,38 @@ VALUES (25302,   1,   33554683) /* Setup */
      , (25302,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25302,   240,      2)  /* Invulnerability Other II */
-     , (25302,   251,      2)  /* Impregnability Other II */
-     , (25302,   269,      2)  /* Magic Resistance Other II */
-     , (25302,   293,      2)  /* Light Weapon Mastery Other II */
+VALUES (25302,   269,      2)  /* Magic Resistance Other II */
      , (25302,   317,      2)  /* Finesse Weapon Mastery Other II */
-     , (25302,   341,      2)  /* Light Weapon Mastery Other II */
-     , (25302,   365,      2)  /* Light Weapon Mastery Other II */
-     , (25302,   389,      2)  /* Light Weapon Mastery Other II */
-     , (25302,   413,      2)  /* Heavy Weapon Mastery Other II */
-     , (25302,   438,      2)  /* Light Weapon Mastery Other II */
-     , (25302,   462,      2)  /* Missile Weapon Mastery Other II */
-     , (25302,   486,      2)  /* Missile Weapon Mastery Other II */
-     , (25302,   534,      2)  /* Missile Weapon Mastery Other II */
-     , (25302,   564,      2)  /* Creature Enchantment Mastery Other II */
      , (25302,   588,      2)  /* Item Enchantment Mastery Other II */
-     , (25302,   612,      2)  /* Life Magic Mastery Other II */
-     , (25302,   636,      2)  /* War Magic Mastery Other II */
      , (25302,   660,      2)  /* Mana Conversion Mastery Other II */
-     , (25302,   685,      2)  /* Arcane Enlightenment Other II */
+     , (25302,   389,      2)  /* Light Weapon Mastery Other II */
      , (25302,   709,      2)  /* Armor Tinkering Expertise Other II */
-     , (25302,   733,      2)  /* Item Tinkering Expertise Other II */
-     , (25302,   757,      2)  /* Magic Item Tinkering Expertise Other II */
-     , (25302,   781,      2)  /* Weapon Tinkering Expertise Other II */
-     , (25302,   805,      2)  /* Monster Attunement Other II */
-     , (25302,   831,      2)  /* Person Attunement Other II */
-     , (25302,   857,      2)  /* Deception Mastery Other II */
-     , (25302,   881,      2)  /* Healing Mastery Other II */
-     , (25302,   905,      2)  /* Leadership Mastery Other II */
-     , (25302,   929,      2)  /* Lockpick Mastery Other II */
-     , (25302,   953,      2)  /* Fealty Other II */
-     , (25302,   977,      2)  /* Jumping Mastery Other II */
-     , (25302,   989,      2)  /* Sprint Other II */
-     , (25302,  1710,      2)  /* Cooking Mastery Other II */
      , (25302,  1734,      2)  /* Fletching Mastery Other II */
-     , (25302,  1758,      2)  /* Alchemy Mastery Other II */;
+     , (25302,   977,      2)  /* Jumping Mastery Other II */
+     , (25302,   905,      2)  /* Leadership Mastery Other II */
+     , (25302,   781,      2)  /* Weapon Tinkering Expertise Other II */
+     , (25302,   462,      2)  /* Missile Weapon Mastery Other II */
+     , (25302,   612,      2)  /* Life Magic Mastery Other II */
+     , (25302,   341,      2)  /* Light Weapon Mastery Other II */
+     , (25302,   534,      2)  /* Missile Weapon Mastery Other II */
+     , (25302,   857,      2)  /* Deception Mastery Other II */
+     , (25302,   413,      2)  /* Heavy Weapon Mastery Other II */
+     , (25302,   989,      2)  /* Sprint Other II */
+     , (25302,   733,      2)  /* Item Tinkering Expertise Other II */
+     , (25302,  1758,      2)  /* Alchemy Mastery Other II */
+     , (25302,   240,      2)  /* Invulnerability Other II */
+     , (25302,   929,      2)  /* Lockpick Mastery Other II */
+     , (25302,   805,      2)  /* Monster Attunement Other II */
+     , (25302,   564,      2)  /* Creature Enchantment Mastery Other II */
+     , (25302,   293,      2)  /* Light Weapon Mastery Other II */
+     , (25302,   486,      2)  /* Missile Weapon Mastery Other II */
+     , (25302,   636,      2)  /* War Magic Mastery Other II */
+     , (25302,   365,      2)  /* Light Weapon Mastery Other II */
+     , (25302,   685,      2)  /* Arcane Enlightenment Other II */
+     , (25302,   953,      2)  /* Fealty Other II */
+     , (25302,  1710,      2)  /* Cooking Mastery Other II */
+     , (25302,   881,      2)  /* Healing Mastery Other II */
+     , (25302,   757,      2)  /* Magic Item Tinkering Expertise Other II */
+     , (25302,   438,      2)  /* Light Weapon Mastery Other II */
+     , (25302,   251,      2)  /* Impregnability Other II */
+     , (25302,   831,      2)  /* Person Attunement Other II */;

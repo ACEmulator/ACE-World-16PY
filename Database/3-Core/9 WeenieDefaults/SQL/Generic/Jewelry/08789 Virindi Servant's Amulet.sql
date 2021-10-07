@@ -40,7 +40,7 @@ VALUES (8789,   1,   33554680) /* Setup */
      , (8789,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8789,   592,      2)  /* Item Enchantment Mastery Other VI */
+VALUES (8789,  2975,      2)  /* Moderate Item Enchantment Aptitude */
      , (8789,   664,      2)  /* Mana Conversion Mastery Other VI */
-     , (8789,  2560,      2)  /* Minor Mana Conversion Prowess */
-     , (8789,  2975,      2)  /* Moderate Item Enchantment Aptitude */;
+     , (8789,   592,      2)  /* Item Enchantment Mastery Other VI */
+     , (8789,  2560,      2)  /* Minor Mana Conversion Prowess */;

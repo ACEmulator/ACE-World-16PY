@@ -103,12 +103,12 @@ VALUES (24868,  0,  1, 140, 0.75,  310,  264,  264,  310,  279,  310,  295,  155
      , (24868, 25,  4, 140, 0.75,  320,  272,  272,  320,  288,  320,  304,  160,    0, 3,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* LowerTentacle */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24868,   174,   2.02)  /* Fester Other IV */
+VALUES (24868,  1263,   2.02)  /* Drain Mana Other IV */
      , (24868,  1159,   2.02)  /* Heal Self IV */
+     , (24868,  2761,   2.02)  /* Martyr's Hecatomb II */
      , (24868,  1174,    2.1)  /* Harm Other IV */
-     , (24868,  1263,   2.02)  /* Drain Mana Other IV */
      , (24868,  1310,   2.02)  /* Armor Self IV */
-     , (24868,  2761,   2.02)  /* Martyr's Hecatomb II */;
+     , (24868,   174,   2.02)  /* Fester Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (24868,  94) /* ATTACK_NOTIFICATION_EVENT */

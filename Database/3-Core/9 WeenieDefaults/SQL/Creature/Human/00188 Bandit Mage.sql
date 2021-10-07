@@ -391,30 +391,30 @@ VALUES (188,  0,  4,  0,    0,  225,  203,  225,  248,   90,   90,  225,  135,  
      , (188,  8,  4,  2, 0.75,  225,  203,  225,  248,   90,   90,  225,  135,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (188,    63,   2.12)  /* Acid Stream VI */
-     , (188,   176,   2.05)  /* Fester Other VI */
-     , (188,   234,   2.05)  /* Vulnerability Other VI */
-     , (188,   267,   2.05)  /* Defenselessness Other VI */
-     , (188,   284,   2.05)  /* Magic Yield Other V */
-     , (188,   526,   2.05)  /* Acid Vulnerability Other VI */
-     , (188,  1053,   2.05)  /* Bludgeoning Vulnerability Other VI */
-     , (188,  1065,   2.05)  /* Cold Vulnerability Other VI */
-     , (188,  1089,   2.05)  /* Lightning Vulnerability Other VI */
+VALUES (188,  1089,   2.05)  /* Lightning Vulnerability Other VI */
+     , (188,  2128,   2.05)  /* Ilservian's Flame */
      , (188,  1108,   2.05)  /* Fire Vulnerability Other VI */
-     , (188,  1132,   2.05)  /* Blade Vulnerability Other VI */
      , (188,  1156,   2.05)  /* Piercing Vulnerability Other VI */
      , (188,  1176,   2.05)  /* Harm Other VI */
-     , (188,  1241,   2.05)  /* Drain Health Other V */
-     , (188,  1327,   2.05)  /* Imperil Other VI */
      , (188,  1343,   2.05)  /* Weakness Other VI */
-     , (188,  2073,   2.05)  /* Adja's Intervention */
-     , (188,  2128,   2.05)  /* Ilservian's Flame */
+     , (188,   267,   2.05)  /* Defenselessness Other VI */
      , (188,  2132,   2.05)  /* The Spike */
-     , (188,  2136,   2.05)  /* Icy Torment */
      , (188,  2140,   2.05)  /* Alset's Coil */
+     , (188,   526,   2.05)  /* Acid Vulnerability Other VI */
+     , (188,  2765,   2.05)  /* Martyr's Hecatomb VI */
+     , (188,   176,   2.05)  /* Fester Other VI */
+     , (188,  2136,   2.05)  /* Icy Torment */
+     , (188,  1241,   2.05)  /* Drain Health Other V */
+     , (188,  2073,   2.05)  /* Adja's Intervention */
+     , (188,   284,   2.05)  /* Magic Yield Other V */
+     , (188,  1053,   2.05)  /* Bludgeoning Vulnerability Other VI */
      , (188,  2144,   2.05)  /* Crushing Shame */
      , (188,  2146,   2.05)  /* Evisceration */
-     , (188,  2765,   2.05)  /* Martyr's Hecatomb VI */;
+     , (188,  1065,   2.05)  /* Cold Vulnerability Other VI */
+     , (188,   234,   2.05)  /* Vulnerability Other VI */
+     , (188,  1132,   2.05)  /* Blade Vulnerability Other VI */
+     , (188,  1327,   2.05)  /* Imperil Other VI */
+     , (188,    63,   2.12)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (188,  94) /* ATTACK_NOTIFICATION_EVENT */

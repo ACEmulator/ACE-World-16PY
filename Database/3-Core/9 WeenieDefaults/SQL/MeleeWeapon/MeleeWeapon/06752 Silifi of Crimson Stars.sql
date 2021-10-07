@@ -57,5 +57,5 @@ VALUES (6752,   1,   33556553) /* Setup */
      , (6752,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6752,  1077,      2)  /* Lightning Protection Other VI */
-     , (6752,  1384,      2)  /* Coordination Other VI */;
+VALUES (6752,  1384,      2)  /* Coordination Other VI */
+     , (6752,  1077,      2)  /* Lightning Protection Other VI */;

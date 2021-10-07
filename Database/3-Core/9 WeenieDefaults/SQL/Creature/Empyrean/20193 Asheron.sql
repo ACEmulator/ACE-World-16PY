@@ -135,35 +135,35 @@ VALUES (20193,  0,  4,  0,    0,  900,  810,  900,  990,  360,  360,  900,  540,
      , (20193,  8,  4, 25, 0.75,  900,  810,  900,  990,  360,  360,  900,  540,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20193,  1237,   2.04)  /* Drain Health Other I */
+VALUES (20193,  2053,      2)  /* Executor's Blessing */
+     , (20193,  2129,   2.04)  /* Sizzling Fury */
+     , (20193,  1237,   2.04)  /* Drain Health Other I */
+     , (20193,  2185,      2)  /* Robustify */
+     , (20193,  2074,   2.04)  /* Gossamer Flesh */
+     , (20193,  2122,   2.04)  /* Disintegration */
+     , (20193,  2136,   2.04)  /* Icy Torment */
+     , (20193,  2128,   2.04)  /* Ilservian's Flame */
+     , (20193,  1882,      2)  /* Nullify All Magic Self */
+     , (20193,  2140,   2.04)  /* Alset's Coil */
+     , (20193,  2144,   2.04)  /* Crushing Shame */
+     , (20193,  2149,      2)  /* Caustic Blessing */
      , (20193,  1249,   2.04)  /* Drain Stamina Other I */
+     , (20193,  2146,   2.04)  /* Evisceration */
+     , (20193,  2151,      2)  /* Blessing of the Blade Turner */
+     , (20193,  2281,      2)  /* Aura of Resistance */
+     , (20193,  2153,      2)  /* Blessing of the Mace Turner */
+     , (20193,  2155,      2)  /* Icy Blessing */
      , (20193,  1260,  2.004)  /* Drain Mana Other I */
      , (20193,  1783,   2.04)  /* Searing Disc */
+     , (20193,  2157,      2)  /* Fiery Blessing */
+     , (20193,  2159,      2)  /* Storm's Blessing */
+     , (20193,  2161,      2)  /* Blessing of the Arrow Turner */
+     , (20193,  1841,   2.04)  /* Slithering Flames */
      , (20193,  1784,   2.04)  /* Horizon's Blades */
      , (20193,  1785,   2.04)  /* Cassius' Ring of Fire */
      , (20193,  1786,   2.04)  /* Nuhmudira's Spines */
      , (20193,  1788,   2.04)  /* Eye of the Storm */
-     , (20193,  1789,   2.04)  /* Tectonic Rifts */
-     , (20193,  1841,   2.04)  /* Slithering Flames */
-     , (20193,  1882,      2)  /* Nullify All Magic Self */
-     , (20193,  2053,      2)  /* Executor's Blessing */
-     , (20193,  2074,   2.04)  /* Gossamer Flesh */
-     , (20193,  2122,   2.04)  /* Disintegration */
-     , (20193,  2128,   2.04)  /* Ilservian's Flame */
-     , (20193,  2129,   2.04)  /* Sizzling Fury */
-     , (20193,  2136,   2.04)  /* Icy Torment */
-     , (20193,  2140,   2.04)  /* Alset's Coil */
-     , (20193,  2144,   2.04)  /* Crushing Shame */
-     , (20193,  2146,   2.04)  /* Evisceration */
-     , (20193,  2149,      2)  /* Caustic Blessing */
-     , (20193,  2151,      2)  /* Blessing of the Blade Turner */
-     , (20193,  2153,      2)  /* Blessing of the Mace Turner */
-     , (20193,  2155,      2)  /* Icy Blessing */
-     , (20193,  2157,      2)  /* Fiery Blessing */
-     , (20193,  2159,      2)  /* Storm's Blessing */
-     , (20193,  2161,      2)  /* Blessing of the Arrow Turner */
-     , (20193,  2185,      2)  /* Robustify */
-     , (20193,  2281,      2)  /* Aura of Resistance */;
+     , (20193,  1789,   2.04)  /* Tectonic Rifts */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (20193, 414) /* PLAYER_DEATH_EVENT */;

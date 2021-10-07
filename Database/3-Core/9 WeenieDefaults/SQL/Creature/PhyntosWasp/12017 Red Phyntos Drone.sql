@@ -109,8 +109,8 @@ VALUES (12017,  0,  2,  3,  0.5,   20,   16,   16,   10,    7,    6,    6,    6,
      , (12017, 21,  4,  0,    0,   20,   16,   16,   10,    7,    6,    6,    6,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12017,    28,   2.03)  /* Frost Bolt I */
-     , (12017,    70,   2.01)  /* Frost Bolt II */;
+VALUES (12017,    70,   2.01)  /* Frost Bolt II */
+     , (12017,    28,   2.03)  /* Frost Bolt I */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (12017, 414) /* PLAYER_DEATH_EVENT */;

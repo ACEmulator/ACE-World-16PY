@@ -128,17 +128,17 @@ VALUES (5767,  0,  4,  0,    0,  230,  173,  136,  173,   23,   69,  173,  173, 
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (5767,    67,   2.09)  /* Shock Wave IV */
-     , (5767,    68,  2.005)  /* Shock Wave V */
      , (5767,    72,   2.09)  /* Frost Bolt IV */
-     , (5767,    73,  2.005)  /* Frost Bolt V */
      , (5767,   168,  2.012)  /* Regeneration Self IV */
-     , (5767,   233,  2.012)  /* Vulnerability Other V */
+     , (5767,  1092,  2.012)  /* Fire Protection Self IV */
+     , (5767,  1311,  2.012)  /* Armor Self V */
+     , (5767,  1240,  2.012)  /* Drain Health Other IV */
+     , (5767,    68,  2.005)  /* Shock Wave V */
      , (5767,   266,  2.012)  /* Defenselessness Other V */
+     , (5767,    73,  2.005)  /* Frost Bolt V */
      , (5767,   277,  2.012)  /* Magic Resistance Self IV */
      , (5767,  1063,  2.012)  /* Cold Vulnerability Other IV */
-     , (5767,  1092,  2.012)  /* Fire Protection Self IV */
-     , (5767,  1240,  2.012)  /* Drain Health Other IV */
-     , (5767,  1311,  2.012)  /* Armor Self V */;
+     , (5767,   233,  2.012)  /* Vulnerability Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (5767,  94) /* ATTACK_NOTIFICATION_EVENT */

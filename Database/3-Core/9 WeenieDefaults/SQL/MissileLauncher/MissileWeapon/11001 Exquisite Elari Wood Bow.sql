@@ -54,9 +54,9 @@ VALUES (11001,   1,   33557228) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11001,  1384,      2)  /* Coordination Other VI */
+     , (11001,  2629,      2)  /* Huntress' Boon */
+     , (11001,  2630,      2)  /* Prey's Reflex */
+     , (11001,  2488,      2)  /* Weapon Familiarity */
      , (11001,  2416,      2)  /* High Tension String */
      , (11001,  2423,      2)  /* Precise */
-     , (11001,  2426,      2)  /* Strong Pull */
-     , (11001,  2488,      2)  /* Weapon Familiarity */
-     , (11001,  2629,      2)  /* Huntress' Boon */
-     , (11001,  2630,      2)  /* Prey's Reflex */;
+     , (11001,  2426,      2)  /* Strong Pull */;

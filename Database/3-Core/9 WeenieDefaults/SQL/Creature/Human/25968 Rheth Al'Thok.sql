@@ -119,30 +119,30 @@ VALUES (25968,  0,  4,  0,    0,  280,  252,  280,  308,  112,  112,  280,  168,
      , (25968,  8,  4,  2, 0.75,  265,  239,  265,  292,  106,  106,  265,  159,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25968,    63,   2.12)  /* Acid Stream VI */
-     , (25968,    69,   2.05)  /* Shock Wave VI */
-     , (25968,    74,   2.05)  /* Frost Bolt VI */
-     , (25968,    80,   2.05)  /* Lightning Bolt VI */
-     , (25968,    85,   2.05)  /* Flame Bolt VI */
-     , (25968,    91,   2.05)  /* Force Bolt VI */
-     , (25968,    97,   2.05)  /* Whirling Blade VI */
-     , (25968,   175,   2.05)  /* Fester Other V */
-     , (25968,   233,   2.05)  /* Vulnerability Other V */
-     , (25968,   266,   2.05)  /* Defenselessness Other V */
-     , (25968,   283,   2.05)  /* Magic Yield Other IV */
-     , (25968,   525,   2.05)  /* Acid Vulnerability Other V */
-     , (25968,  1052,   2.05)  /* Bludgeoning Vulnerability Other V */
-     , (25968,  1064,   2.05)  /* Cold Vulnerability Other V */
-     , (25968,  1088,   2.05)  /* Lightning Vulnerability Other V */
-     , (25968,  1107,   2.05)  /* Fire Vulnerability Other V */
-     , (25968,  1131,   2.05)  /* Blade Vulnerability Other V */
+VALUES (25968,  1088,   2.05)  /* Lightning Vulnerability Other V */
      , (25968,  1155,   2.05)  /* Piercing Vulnerability Other V */
      , (25968,  1161,   2.05)  /* Heal Self VI */
+     , (25968,    69,   2.05)  /* Shock Wave VI */
+     , (25968,   266,   2.05)  /* Defenselessness Other V */
+     , (25968,    74,   2.05)  /* Frost Bolt VI */
+     , (25968,  2764,   2.05)  /* Martyr's Hecatomb V */
+     , (25968,   525,   2.05)  /* Acid Vulnerability Other V */
+     , (25968,    80,   2.05)  /* Lightning Bolt VI */
+     , (25968,  1107,   2.05)  /* Fire Vulnerability Other V */
+     , (25968,    85,   2.05)  /* Flame Bolt VI */
      , (25968,  1175,   2.05)  /* Harm Other V */
      , (25968,  1240,   2.05)  /* Drain Health Other IV */
+     , (25968,    91,   2.05)  /* Force Bolt VI */
+     , (25968,   283,   2.05)  /* Magic Yield Other IV */
+     , (25968,  1052,   2.05)  /* Bludgeoning Vulnerability Other V */
+     , (25968,    97,   2.05)  /* Whirling Blade VI */
+     , (25968,  1064,   2.05)  /* Cold Vulnerability Other V */
+     , (25968,   233,   2.05)  /* Vulnerability Other V */
+     , (25968,  1131,   2.05)  /* Blade Vulnerability Other V */
      , (25968,  1326,   2.05)  /* Imperil Other V */
+     , (25968,   175,   2.05)  /* Fester Other V */
      , (25968,  1342,   2.05)  /* Weakness Other V */
-     , (25968,  2764,   2.05)  /* Martyr's Hecatomb V */;
+     , (25968,    63,   2.12)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (25968,  94) /* ATTACK_NOTIFICATION_EVENT */

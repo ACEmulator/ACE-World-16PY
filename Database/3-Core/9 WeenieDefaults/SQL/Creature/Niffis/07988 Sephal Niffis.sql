@@ -109,19 +109,19 @@ VALUES (7988,  0,  4, 40, 0.75,  270,  270,  238,  238,  265,  238,  265,  238, 
      , (7988, 25,  4, 40, 0.75,  230,  230,  202,  202,  225,  202,  225,  202,    0, 3,    0,    0,  0.3,    0,  0.1,  0.3,    0,    0,  0.3,    0,  0.1, 0.28) /* LowerTentacle */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7988,   517,      2)  /* Acid Protection Self III */
-     , (7988,  1032,      2)  /* Cold Protection Self III */
+VALUES (7988,  1239,  2.008)  /* Drain Health Other III */
+     , (7988,   517,      2)  /* Acid Protection Self III */
+     , (7988,  1309,      2)  /* Armor Self III */
      , (7988,  1158,  2.013)  /* Heal Self III */
-     , (7988,  1239,  2.008)  /* Drain Health Other III */
+     , (7988,  1032,      2)  /* Cold Protection Self III */
+     , (7988,  1441,  2.035)  /* Bafflement Other III */
+     , (7988,  1369,  2.035)  /* Frailty Other III */
+     , (7988,  1417,  2.035)  /* Slowness Other III */
      , (7988,  1251,  2.008)  /* Drain Stamina Other III */
      , (7988,  1262,  2.008)  /* Drain Mana Other III */
-     , (7988,  1309,      2)  /* Armor Self III */
-     , (7988,  1340,  2.035)  /* Weakness Other III */
-     , (7988,  1369,  2.035)  /* Frailty Other III */
      , (7988,  1393,  2.035)  /* Clumsiness Other III */
-     , (7988,  1417,  2.035)  /* Slowness Other III */
-     , (7988,  1441,  2.035)  /* Bafflement Other III */
-     , (7988,  1465,  2.035)  /* Feeblemind Other III */;
+     , (7988,  1465,  2.035)  /* Feeblemind Other III */
+     , (7988,  1340,  2.035)  /* Weakness Other III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (7988,  94) /* ATTACK_NOTIFICATION_EVENT */

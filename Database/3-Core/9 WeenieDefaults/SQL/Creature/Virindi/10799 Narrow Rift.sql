@@ -114,12 +114,12 @@ VALUES (10799,  0, 64,  5, 0.75,  250,  250,  250,  250,  298, 25000,  695,  250
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10799,    77,  2.115)  /* Lightning Bolt III */
-     , (10799,   276,  2.032)  /* Magic Resistance Self III */
-     , (10799,   282,  2.044)  /* Magic Yield Other III */
      , (10799,   607,  2.032)  /* Life Magic Mastery Self III */
+     , (10799,   282,  2.044)  /* Magic Yield Other III */
+     , (10799,  1173,  2.044)  /* Harm Other III */
      , (10799,   655,  2.032)  /* Mana Conversion Mastery Self III */
-     , (10799,  1086,  2.044)  /* Lightning Vulnerability Other III */
-     , (10799,  1173,  2.044)  /* Harm Other III */;
+     , (10799,   276,  2.032)  /* Magic Resistance Self III */
+     , (10799,  1086,  2.044)  /* Lightning Vulnerability Other III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (10799,  94) /* ATTACK_NOTIFICATION_EVENT */

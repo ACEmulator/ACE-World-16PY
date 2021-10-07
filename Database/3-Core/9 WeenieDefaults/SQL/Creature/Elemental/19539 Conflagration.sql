@@ -110,20 +110,20 @@ VALUES (19539,  0, 32,  0,    0,  260,  260,  260,  260,  260,  260,  286,  286,
      , (19539,  8, 32, 45, 0.75,  260,  260,  260,  260,  260,  260,  286,  286,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19539,    63,  2.004)  /* Acid Stream VI */
-     , (19539,    85,  2.004)  /* Flame Bolt VI */
-     , (19539,   176,  2.017)  /* Fester Other VI */
-     , (19539,   234,  2.017)  /* Vulnerability Other VI */
-     , (19539,   267,  2.017)  /* Defenselessness Other VI */
-     , (19539,   278,  2.008)  /* Magic Resistance Self V */
-     , (19539,   526,  2.017)  /* Acid Vulnerability Other VI */
-     , (19539,  1035,  2.008)  /* Cold Protection Self VI */
-     , (19539,  1071,  2.008)  /* Lightning Protection Self VI */
-     , (19539,  1089,  2.017)  /* Lightning Vulnerability Other VI */
-     , (19539,  1161,  2.013)  /* Heal Self VI */
-     , (19539,  1242,  2.008)  /* Drain Health Other VI */
-     , (19539,  1327,  2.017)  /* Imperil Other VI */
+VALUES (19539,   278,  2.008)  /* Magic Resistance Self V */
      , (19539,  1783,  2.004)  /* Searing Disc */
+     , (19539,    85,  2.004)  /* Flame Bolt VI */
+     , (19539,  1161,  2.013)  /* Heal Self VI */
+     , (19539,  1089,  2.017)  /* Lightning Vulnerability Other VI */
+     , (19539,   526,  2.017)  /* Acid Vulnerability Other VI */
+     , (19539,   267,  2.017)  /* Defenselessness Other VI */
+     , (19539,    63,  2.004)  /* Acid Stream VI */
+     , (19539,  1035,  2.008)  /* Cold Protection Self VI */
+     , (19539,  1242,  2.008)  /* Drain Health Other VI */
+     , (19539,   234,  2.017)  /* Vulnerability Other VI */
+     , (19539,  1327,  2.017)  /* Imperil Other VI */
+     , (19539,  1071,  2.008)  /* Lightning Protection Self VI */
+     , (19539,   176,  2.017)  /* Fester Other VI */
      , (19539,  1785,  2.004)  /* Cassius' Ring of Fire */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

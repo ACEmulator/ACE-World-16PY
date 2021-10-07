@@ -51,5 +51,5 @@ VALUES (19647,   1,   33554687) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19647,   513,      2)  /* Acid Protection Other V */
-     , (19647,  1455,      2)  /* Willpower Other V */
-     , (19647,  2669,      2)  /* Nuhmudiras Bestowment */;
+     , (19647,  2669,      2)  /* Nuhmudiras Bestowment */
+     , (19647,  1455,      2)  /* Willpower Other V */;

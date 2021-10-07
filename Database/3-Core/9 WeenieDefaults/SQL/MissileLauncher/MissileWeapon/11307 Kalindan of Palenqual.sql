@@ -54,9 +54,9 @@ VALUES (11307,   1,   33557238) /* Setup */
      , (11307,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11307,   170,      2)  /* Regeneration Self VI */
-     , (11307,  1378,      2)  /* Coordination Self VI */
-     , (11307,  1605,      2)  /* Aura of Defender Self VI */
+VALUES (11307,  1605,      2)  /* Aura of Defender Self VI */
      , (11307,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (11307,  2415,      2)  /* Eye of the Hunter */
-     , (11307,  2430,      2)  /* Timaru's Shelter */;
+     , (11307,  2430,      2)  /* Timaru's Shelter */
+     , (11307,  1378,      2)  /* Coordination Self VI */
+     , (11307,   170,      2)  /* Regeneration Self VI */
+     , (11307,  2415,      2)  /* Eye of the Hunter */;

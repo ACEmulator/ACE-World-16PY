@@ -106,22 +106,22 @@ VALUES (9051,  0,  4,  0,    0, 6000, 4320, 4320, 4320, 3000, 5040, 4440, 3780, 
      , (9051,  8,  4, 90, 0.75, 6000, 4320, 4320, 4320, 3000, 5040, 4440, 3780,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9051,    68,   2.08)  /* Shock Wave V */
+VALUES (9051,  1160,      2)  /* Heal Self V */
+     , (9051,    68,   2.08)  /* Shock Wave V */
+     , (9051,   141,   2.08)  /* Lightning Volley V */
+     , (9051,   133,   2.08)  /* Bludgeoning Volley V */
      , (9051,    69,   2.08)  /* Shock Wave VI */
-     , (9051,    79,   2.08)  /* Lightning Bolt V */
+     , (9051,  1419,   2.06)  /* Slowness Other V */
      , (9051,    80,   2.08)  /* Lightning Bolt VI */
+     , (9051,    79,   2.08)  /* Lightning Bolt V */
+     , (9051,   145,   2.08)  /* Flame Volley V */
+     , (9051,  1107,   2.06)  /* Fire Vulnerability Other V */
+     , (9051,   276,   2.02)  /* Magic Resistance Self III */
      , (9051,    84,   2.08)  /* Flame Bolt V */
      , (9051,    85,   2.08)  /* Flame Bolt VI */
-     , (9051,   133,   2.08)  /* Bludgeoning Volley V */
-     , (9051,   141,   2.08)  /* Lightning Volley V */
-     , (9051,   145,   2.08)  /* Flame Volley V */
-     , (9051,   276,   2.02)  /* Magic Resistance Self III */
-     , (9051,  1107,   2.06)  /* Fire Vulnerability Other V */
-     , (9051,  1160,      2)  /* Heal Self V */
      , (9051,  1241,      2)  /* Drain Health Other V */
      , (9051,  1326,   2.06)  /* Imperil Other V */
-     , (9051,  1342,   2.06)  /* Weakness Other V */
-     , (9051,  1419,   2.06)  /* Slowness Other V */;
+     , (9051,  1342,   2.06)  /* Weakness Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (9051,  94) /* ATTACK_NOTIFICATION_EVENT */

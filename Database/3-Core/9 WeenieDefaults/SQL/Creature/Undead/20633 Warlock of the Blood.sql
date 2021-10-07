@@ -131,33 +131,33 @@ VALUES (20633,  0,  4,  0,    0,  180,  144,   95,  122,   23,   90,  122,  131,
      , (20633,  8,  4,  3, 0.75,  220,  176,  117,  150,   29,  110,  150,  161,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20633,    61,   2.04)  /* Acid Stream IV */
-     , (20633,    67,   2.04)  /* Shock Wave IV */
-     , (20633,    72,   2.04)  /* Frost Bolt IV */
-     , (20633,    78,   2.04)  /* Lightning Bolt IV */
-     , (20633,    83,   2.04)  /* Flame Bolt IV */
-     , (20633,    89,   2.04)  /* Force Bolt IV */
-     , (20633,    95,   2.04)  /* Whirling Blade IV */
-     , (20633,   128,   2.01)  /* Acid Volley IV */
-     , (20633,   136,   2.04)  /* Frost Volley IV */
-     , (20633,   140,   2.04)  /* Lightning Volley IV */
-     , (20633,   144,   2.04)  /* Flame Volley IV */
-     , (20633,   152,   2.04)  /* Blade Volley IV */
-     , (20633,   168,  2.025)  /* Regeneration Self IV */
-     , (20633,   174,  2.011)  /* Fester Other IV */
-     , (20633,   524,  2.011)  /* Acid Vulnerability Other IV */
-     , (20633,  1063,  2.011)  /* Cold Vulnerability Other IV */
-     , (20633,  1087,  2.011)  /* Lightning Vulnerability Other IV */
-     , (20633,  1106,  2.011)  /* Fire Vulnerability Other IV */
-     , (20633,  1240,  2.025)  /* Drain Health Other IV */
+VALUES (20633,   144,   2.04)  /* Flame Volley IV */
      , (20633,  1252,  2.025)  /* Drain Stamina Other IV */
-     , (20633,  1263,  2.025)  /* Drain Mana Other IV */
-     , (20633,  1341,  2.011)  /* Weakness Other IV */
-     , (20633,  1370,  2.011)  /* Frailty Other IV */
-     , (20633,  1394,  2.011)  /* Clumsiness Other IV */
+     , (20633,   136,   2.04)  /* Frost Volley IV */
+     , (20633,    72,   2.04)  /* Frost Bolt IV */
+     , (20633,   128,   2.01)  /* Acid Volley IV */
+     , (20633,    67,   2.04)  /* Shock Wave IV */
      , (20633,  1418,  2.011)  /* Slowness Other IV */
+     , (20633,    78,   2.04)  /* Lightning Bolt IV */
+     , (20633,   524,  2.011)  /* Acid Vulnerability Other IV */
+     , (20633,   140,   2.04)  /* Lightning Volley IV */
+     , (20633,   174,  2.011)  /* Fester Other IV */
+     , (20633,  1106,  2.011)  /* Fire Vulnerability Other IV */
+     , (20633,    83,   2.04)  /* Flame Bolt IV */
+     , (20633,  1240,  2.025)  /* Drain Health Other IV */
+     , (20633,   152,   2.04)  /* Blade Volley IV */
+     , (20633,    89,   2.04)  /* Force Bolt IV */
+     , (20633,  1370,  2.011)  /* Frailty Other IV */
+     , (20633,    95,   2.04)  /* Whirling Blade IV */
      , (20633,  1442,  2.011)  /* Bafflement Other IV */
-     , (20633,  1466,  2.011)  /* Feeblemind Other IV */;
+     , (20633,  1063,  2.011)  /* Cold Vulnerability Other IV */
+     , (20633,   168,  2.025)  /* Regeneration Self IV */
+     , (20633,  1263,  2.025)  /* Drain Mana Other IV */
+     , (20633,  1394,  2.011)  /* Clumsiness Other IV */
+     , (20633,    61,   2.04)  /* Acid Stream IV */
+     , (20633,  1466,  2.011)  /* Feeblemind Other IV */
+     , (20633,  1341,  2.011)  /* Weakness Other IV */
+     , (20633,  1087,  2.011)  /* Lightning Vulnerability Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (20633,  94) /* ATTACK_NOTIFICATION_EVENT */

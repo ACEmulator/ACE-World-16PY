@@ -41,14 +41,14 @@ VALUES (25308,   1,   33554691) /* Setup */
      , (25308,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25308,    20,      2)  /* Fire Protection Self I */
-     , (25308,    23,      2)  /* Armor Other I */
-     , (25308,    54,      2)  /* Rejuvenation Self I */
-     , (25308,   165,      2)  /* Regeneration Self I */
-     , (25308,   212,      2)  /* Mana Renewal Self I */
-     , (25308,   509,      2)  /* Acid Protection Other I */
+VALUES (25308,   212,      2)  /* Mana Renewal Self I */
+     , (25308,    20,      2)  /* Fire Protection Self I */
      , (25308,  1024,      2)  /* Bludgeoning Protection Other I */
      , (25308,  1030,      2)  /* Cold Protection Self I */
-     , (25308,  1066,      2)  /* Lightning Protection Self I */
+     , (25308,  1139,      2)  /* Piercing Protection Other I */
      , (25308,  1115,      2)  /* Blade Protection Other I */
-     , (25308,  1139,      2)  /* Piercing Protection Other I */;
+     , (25308,    23,      2)  /* Armor Other I */
+     , (25308,   165,      2)  /* Regeneration Self I */
+     , (25308,  1066,      2)  /* Lightning Protection Self I */
+     , (25308,    54,      2)  /* Rejuvenation Self I */
+     , (25308,   509,      2)  /* Acid Protection Other I */;

@@ -132,22 +132,22 @@ VALUES (9165,  0,  4,  0,    0,  310,  341,  372,  434,  310,  279,  558,  372, 
      , (9165,  8,  4, 85, 0.75,  310,  341,  372,  434,  310,  279,  558,  372,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9165,    62,  2.023)  /* Acid Stream V */
-     , (9165,    68,  2.023)  /* Shock Wave V */
-     , (9165,    73,  2.023)  /* Frost Bolt V */
-     , (9165,    79,  2.023)  /* Lightning Bolt V */
+VALUES (9165,  1311,  2.007)  /* Armor Self V */
      , (9165,    84,  2.023)  /* Flame Bolt V */
+     , (9165,  1160,   2.02)  /* Heal Self V */
+     , (9165,    68,  2.023)  /* Shock Wave V */
+     , (9165,  1342,  2.036)  /* Weakness Other V */
+     , (9165,    73,  2.023)  /* Frost Bolt V */
+     , (9165,  1419,  2.036)  /* Slowness Other V */
+     , (9165,    79,  2.023)  /* Lightning Bolt V */
+     , (9165,   278,  2.007)  /* Magic Resistance Self V */
      , (9165,    90,  2.023)  /* Force Bolt V */
      , (9165,    96,  2.023)  /* Whirling Blade V */
      , (9165,   232,  2.036)  /* Vulnerability Other IV */
-     , (9165,   248,  2.007)  /* Invulnerability Self V */
-     , (9165,   278,  2.007)  /* Magic Resistance Self V */
-     , (9165,  1160,   2.02)  /* Heal Self V */
-     , (9165,  1311,  2.007)  /* Armor Self V */
      , (9165,  1325,  2.036)  /* Imperil Other IV */
-     , (9165,  1342,  2.036)  /* Weakness Other V */
+     , (9165,   248,  2.007)  /* Invulnerability Self V */
      , (9165,  1395,  2.036)  /* Clumsiness Other V */
-     , (9165,  1419,  2.036)  /* Slowness Other V */;
+     , (9165,    62,  2.023)  /* Acid Stream V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (9165,  94) /* ATTACK_NOTIFICATION_EVENT */

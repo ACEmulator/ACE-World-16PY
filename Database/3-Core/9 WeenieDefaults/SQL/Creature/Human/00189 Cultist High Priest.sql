@@ -412,30 +412,30 @@ VALUES (189,  0,  4,  0,    0,  270,  243,  270,  297,  108,  108,  270,  162,  
      , (189,  8,  4,  2, 0.75,  250,  225,  250,  275,  100,  100,  250,  150,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (189,    63,   2.12)  /* Acid Stream VI */
-     , (189,    69,   2.05)  /* Shock Wave VI */
-     , (189,    74,   2.05)  /* Frost Bolt VI */
-     , (189,    80,   2.05)  /* Lightning Bolt VI */
-     , (189,    85,   2.05)  /* Flame Bolt VI */
-     , (189,    91,   2.05)  /* Force Bolt VI */
-     , (189,    97,   2.05)  /* Whirling Blade VI */
-     , (189,   175,   2.05)  /* Fester Other V */
-     , (189,   233,   2.05)  /* Vulnerability Other V */
-     , (189,   266,   2.05)  /* Defenselessness Other V */
-     , (189,   283,   2.05)  /* Magic Yield Other IV */
-     , (189,   525,   2.05)  /* Acid Vulnerability Other V */
-     , (189,  1052,   2.05)  /* Bludgeoning Vulnerability Other V */
-     , (189,  1064,   2.05)  /* Cold Vulnerability Other V */
-     , (189,  1088,   2.05)  /* Lightning Vulnerability Other V */
-     , (189,  1107,   2.05)  /* Fire Vulnerability Other V */
-     , (189,  1131,   2.05)  /* Blade Vulnerability Other V */
+VALUES (189,  1088,   2.05)  /* Lightning Vulnerability Other V */
      , (189,  1155,   2.05)  /* Piercing Vulnerability Other V */
      , (189,  1161,   2.05)  /* Heal Self VI */
+     , (189,    69,   2.05)  /* Shock Wave VI */
+     , (189,   266,   2.05)  /* Defenselessness Other V */
+     , (189,    74,   2.05)  /* Frost Bolt VI */
+     , (189,  2764,   2.05)  /* Martyr's Hecatomb V */
+     , (189,   525,   2.05)  /* Acid Vulnerability Other V */
+     , (189,    80,   2.05)  /* Lightning Bolt VI */
+     , (189,  1107,   2.05)  /* Fire Vulnerability Other V */
+     , (189,    85,   2.05)  /* Flame Bolt VI */
      , (189,  1175,   2.05)  /* Harm Other V */
      , (189,  1240,   2.05)  /* Drain Health Other IV */
+     , (189,    91,   2.05)  /* Force Bolt VI */
+     , (189,   283,   2.05)  /* Magic Yield Other IV */
+     , (189,  1052,   2.05)  /* Bludgeoning Vulnerability Other V */
+     , (189,    97,   2.05)  /* Whirling Blade VI */
+     , (189,  1064,   2.05)  /* Cold Vulnerability Other V */
+     , (189,   233,   2.05)  /* Vulnerability Other V */
+     , (189,  1131,   2.05)  /* Blade Vulnerability Other V */
      , (189,  1326,   2.05)  /* Imperil Other V */
+     , (189,   175,   2.05)  /* Fester Other V */
      , (189,  1342,   2.05)  /* Weakness Other V */
-     , (189,  2764,   2.05)  /* Martyr's Hecatomb V */;
+     , (189,    63,   2.12)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (189,  94) /* ATTACK_NOTIFICATION_EVENT */

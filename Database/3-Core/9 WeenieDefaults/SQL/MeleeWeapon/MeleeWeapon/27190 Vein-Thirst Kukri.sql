@@ -57,9 +57,9 @@ VALUES (27190,   1,   33558634) /* Setup */
      , (27190,  36,  234881044) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27190,  1120,      2)  /* Blade Protection Other VI */
-     , (27190,  1408,      2)  /* Quickness Other VI */
+VALUES (27190,  1408,      2)  /* Quickness Other VI */
+     , (27190,  2689,      2)  /* Moderate Finesse Weapon Aptitude */
      , (27190,  1604,      2)  /* Aura of Defender Self V */
      , (27190,  1616,      2)  /* Aura of Blood Drinker Self VI */
      , (27190,  1627,      2)  /* Aura of Swift Killer Self VI */
-     , (27190,  2689,      2)  /* Moderate Finesse Weapon Aptitude */;
+     , (27190,  1120,      2)  /* Blade Protection Other VI */;

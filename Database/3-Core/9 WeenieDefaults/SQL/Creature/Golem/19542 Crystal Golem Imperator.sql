@@ -118,23 +118,23 @@ VALUES (19542,  0,  4,  0,    0,  450,  450,  450,  450,  450,  450,  450,  450,
      , (19542,  8,  4, 150, 0.25,  450,  450,  450,  450,  450,  450,  450,  450,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19542,    63,   2.01)  /* Acid Stream VI */
+VALUES (19542,    85,   2.01)  /* Flame Bolt VI */
      , (19542,    69,   2.01)  /* Shock Wave VI */
      , (19542,    74,   2.01)  /* Frost Bolt VI */
+     , (19542,   520,      2)  /* Acid Protection Self VI */
+     , (19542,  1094,      2)  /* Fire Protection Self VI */
+     , (19542,    63,   2.01)  /* Acid Stream VI */
+     , (19542,  1035,      2)  /* Cold Protection Self VI */
+     , (19542,   279,      2)  /* Magic Resistance Self VI */
      , (19542,    80,   2.01)  /* Lightning Bolt VI */
-     , (19542,    85,   2.01)  /* Flame Bolt VI */
+     , (19542,  1176,   2.01)  /* Harm Other VI */
+     , (19542,  1114,      2)  /* Blade Protection Self VI */
+     , (19542,  1312,      2)  /* Armor Self VI */
      , (19542,    91,   2.01)  /* Force Bolt VI */
      , (19542,    97,   2.01)  /* Whirling Blade VI */
-     , (19542,   279,      2)  /* Magic Resistance Self VI */
-     , (19542,   520,      2)  /* Acid Protection Self VI */
-     , (19542,  1023,      2)  /* Bludgeoning Protection Self VI */
-     , (19542,  1035,      2)  /* Cold Protection Self VI */
      , (19542,  1071,      2)  /* Lightning Protection Self VI */
-     , (19542,  1094,      2)  /* Fire Protection Self VI */
-     , (19542,  1114,      2)  /* Blade Protection Self VI */
      , (19542,  1138,      2)  /* Piercing Protection Self VI */
-     , (19542,  1176,   2.01)  /* Harm Other VI */
-     , (19542,  1312,      2)  /* Armor Self VI */;
+     , (19542,  1023,      2)  /* Bludgeoning Protection Self VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (19542,  94) /* ATTACK_NOTIFICATION_EVENT */

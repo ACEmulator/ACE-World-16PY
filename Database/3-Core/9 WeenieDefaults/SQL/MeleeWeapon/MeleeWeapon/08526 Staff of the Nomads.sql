@@ -56,10 +56,10 @@ VALUES (8526,   1,   33555022) /* Setup */
      , (8526,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8526,   270,      2)  /* Magic Resistance Other III */
-     , (8526,   391,      2)  /* Light Weapon Mastery Other IV */
-     , (8526,   992,      2)  /* Sprint Other V */
+VALUES (8526,   391,      2)  /* Light Weapon Mastery Other IV */
      , (8526,  1314,      2)  /* Armor Other III */
-     , (8526,  1358,      2)  /* Endurance Other IV */
+     , (8526,   270,      2)  /* Magic Resistance Other III */
      , (8526,  1382,      2)  /* Coordination Other IV */
+     , (8526,   992,      2)  /* Sprint Other V */
+     , (8526,  1358,      2)  /* Endurance Other IV */
      , (8526,  2009,      2)  /* Warrior's Greater Vigor */;

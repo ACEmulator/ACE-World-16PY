@@ -108,14 +108,14 @@ VALUES (25874,  0,  4, 120, 0.75,  550,  550,  468,  468,  523,  468,  523,  468
      , (25874, 25,  4, 120,  0.5,  550,  550,  468,  468,  523,  468,  523,  468,    0, 3,    0,    0,  0.3,    0,  0.1,  0.3,    0,    0,  0.3,    0,  0.1, 0.28) /* LowerTentacle */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25874,    74,   2.04)  /* Frost Bolt VI */
-     , (25874,   234,   2.02)  /* Vulnerability Other VI */
+VALUES (25874,   234,   2.02)  /* Vulnerability Other VI */
+     , (25874,    74,   2.04)  /* Frost Bolt VI */
      , (25874,  1065,   2.02)  /* Cold Vulnerability Other VI */
+     , (25874,  2730,   2.04)  /* Frost Arc VI */
      , (25874,  1200,   2.03)  /* Enfeeble Other VI */
      , (25874,  1327,   2.02)  /* Imperil Other VI */
-     , (25874,  1396,   2.03)  /* Clumsiness Other VI */
      , (25874,  1468,   2.03)  /* Feeblemind Other VI */
-     , (25874,  2730,   2.04)  /* Frost Arc VI */;
+     , (25874,  1396,   2.03)  /* Clumsiness Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (25874,  94) /* ATTACK_NOTIFICATION_EVENT */

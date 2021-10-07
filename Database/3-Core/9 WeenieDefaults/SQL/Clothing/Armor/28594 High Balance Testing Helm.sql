@@ -51,11 +51,11 @@ VALUES (28594,   1,   33558266) /* Setup */
      , (28594,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28594,  1486,      2)  /* Impenetrability VI */
-     , (28594,  1498,      2)  /* Acid Bane VI */
-     , (28594,  1516,      2)  /* Bludgeon Bane VI */
-     , (28594,  1528,      2)  /* Frost Bane VI */
-     , (28594,  1540,      2)  /* Lightning Bane VI */
+VALUES (28594,  1540,      2)  /* Lightning Bane VI */
+     , (28594,  1486,      2)  /* Impenetrability VI */
      , (28594,  1552,      2)  /* Flame Bane VI */
      , (28594,  1562,      2)  /* Blade Bane VI */
-     , (28594,  1574,      2)  /* Piercing Bane VI */;
+     , (28594,  1498,      2)  /* Acid Bane VI */
+     , (28594,  1574,      2)  /* Piercing Bane VI */
+     , (28594,  1516,      2)  /* Bludgeon Bane VI */
+     , (28594,  1528,      2)  /* Frost Bane VI */;

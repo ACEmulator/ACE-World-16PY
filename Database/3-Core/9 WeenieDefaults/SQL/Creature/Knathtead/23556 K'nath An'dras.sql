@@ -102,10 +102,10 @@ VALUES (23556,  0,  4, 80,  0.3,  260,  127,  164,   70,  127,  208,  208,  182,
      , (23556, 16,  4,  0,    0,  260,  127,  164,   70,  127,  208,  208,  182,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23556,  1241,   2.01)  /* Drain Health Other V */
-     , (23556,  2128,   2.25)  /* Ilservian's Flame */
+VALUES (23556,  2128,   2.25)  /* Ilservian's Flame */
      , (23556,  2129,   2.24)  /* Sizzling Fury */
      , (23556,  2130,   2.25)  /* Infernae */
+     , (23556,  1241,   2.01)  /* Drain Health Other V */
      , (23556,  2745,   2.25)  /* Flame Arc VII */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

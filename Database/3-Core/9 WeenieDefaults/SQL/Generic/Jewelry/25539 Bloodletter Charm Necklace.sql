@@ -43,6 +43,6 @@ VALUES (25539,   1,   33554683) /* Setup */
      , (25539,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25539,  2004,      2)  /* Warrior's Vitality */
-     , (25539,  2580,      2)  /* Minor Endurance */
-     , (25539,  2583,      2)  /* Minor Strength */;
+VALUES (25539,  2583,      2)  /* Minor Strength */
+     , (25539,  2004,      2)  /* Warrior's Vitality */
+     , (25539,  2580,      2)  /* Minor Endurance */;

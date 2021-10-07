@@ -121,12 +121,12 @@ VALUES (19543,  0,  4,  0,    0,  350,  277,  315,  350,  294,  294,  294,  294,
      , (19543,  8,  4, 140, 0.75,  350,  277,  315,  350,  294,  294,  294,  294,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19543,  1053,  2.048)  /* Bludgeoning Vulnerability Other VI */
-     , (19543,  1327,  2.048)  /* Imperil Other VI */
-     , (19543,  1343,  2.048)  /* Weakness Other VI */
+VALUES (19543,  2328,   2.01)  /* Vitality Siphon */
+     , (19543,  1053,  2.048)  /* Bludgeoning Vulnerability Other VI */
      , (19543,  2073,   2.01)  /* Adja's Intervention */
      , (19543,  2144,    2.1)  /* Crushing Shame */
-     , (19543,  2328,   2.01)  /* Vitality Siphon */;
+     , (19543,  1343,  2.048)  /* Weakness Other VI */
+     , (19543,  1327,  2.048)  /* Imperil Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (19543,  94) /* ATTACK_NOTIFICATION_EVENT */

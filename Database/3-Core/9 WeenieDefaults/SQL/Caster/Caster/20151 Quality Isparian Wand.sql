@@ -47,5 +47,5 @@ VALUES (20151,   1,   33557731) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20151,   655,      2)  /* Mana Conversion Mastery Self III */
-     , (20151,  1423,      2)  /* Focus Self III */
-     , (20151,  1447,      2)  /* Willpower Self III */;
+     , (20151,  1447,      2)  /* Willpower Self III */
+     , (20151,  1423,      2)  /* Focus Self III */;

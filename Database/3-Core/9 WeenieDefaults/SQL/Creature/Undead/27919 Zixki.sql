@@ -126,32 +126,32 @@ VALUES (27919,  0,  4,  0,    0,  600,  630,  780,  600,  780,  600,  630,  720,
      , (27919,  8,  4, 190,  0.5,  600,  630,  780,  600,  780,  600,  630,  720,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27919,   176,  2.011)  /* Fester Other VI */
+VALUES (27919,  1241,   2.01)  /* Drain Health Other V */
+     , (27919,  3305,   2.01)  /* Prison */
+     , (27919,  1089,  2.011)  /* Lightning Vulnerability Other VI */
+     , (27919,   176,  2.011)  /* Fester Other VI */
+     , (27919,  2136,   2.04)  /* Icy Torment */
+     , (27919,  2128,   2.04)  /* Ilservian's Flame */
+     , (27919,  1108,  2.011)  /* Fire Vulnerability Other VI */
+     , (27919,  1156,  2.011)  /* Piercing Vulnerability Other VI */
+     , (27919,  3302,   2.01)  /* Prison */
+     , (27919,  2122,   2.04)  /* Disintegration */
+     , (27919,  2132,   2.04)  /* The Spike */
+     , (27919,  2140,   2.04)  /* Alset's Coil */
      , (27919,   526,  2.011)  /* Acid Vulnerability Other VI */
      , (27919,  1053,  2.011)  /* Bludgeoning Vulnerability Other VI */
-     , (27919,  1065,  2.011)  /* Cold Vulnerability Other VI */
-     , (27919,  1089,  2.011)  /* Lightning Vulnerability Other VI */
-     , (27919,  1108,  2.011)  /* Fire Vulnerability Other VI */
-     , (27919,  1132,  2.011)  /* Blade Vulnerability Other VI */
-     , (27919,  1156,  2.011)  /* Piercing Vulnerability Other VI */
-     , (27919,  1241,   2.01)  /* Drain Health Other V */
-     , (27919,  1327,  2.011)  /* Imperil Other VI */
-     , (27919,  2122,   2.04)  /* Disintegration */
-     , (27919,  2128,   2.04)  /* Ilservian's Flame */
-     , (27919,  2132,   2.04)  /* The Spike */
-     , (27919,  2136,   2.04)  /* Icy Torment */
-     , (27919,  2140,   2.04)  /* Alset's Coil */
      , (27919,  2144,   2.04)  /* Crushing Shame */
      , (27919,  2146,   2.04)  /* Evisceration */
      , (27919,  3299,   2.01)  /* Zixk's Safety */
      , (27919,  3300,   2.01)  /* Zixk's Safety */
      , (27919,  3301,   2.01)  /* Zixk's Safety */
-     , (27919,  3302,   2.01)  /* Prison */
      , (27919,  3303,   2.01)  /* Prison */
+     , (27919,  1327,  2.011)  /* Imperil Other VI */
      , (27919,  3304,   2.01)  /* Prison */
-     , (27919,  3305,   2.01)  /* Prison */
+     , (27919,  1065,  2.011)  /* Cold Vulnerability Other VI */
      , (27919,  3306,   2.01)  /* Prison */
-     , (27919,  3307,   2.01)  /* Prison */;
+     , (27919,  3307,   2.01)  /* Prison */
+     , (27919,  1132,  2.011)  /* Blade Vulnerability Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (27919,  94) /* ATTACK_NOTIFICATION_EVENT */

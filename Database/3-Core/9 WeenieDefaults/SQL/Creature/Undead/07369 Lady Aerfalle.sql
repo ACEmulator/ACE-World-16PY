@@ -123,46 +123,46 @@ VALUES (7369,  0,  4,  0,    0,  250,  375,  375,  375,  375,  225,  250,  250, 
      , (7369,  8,  4, 160, 0.75,  250,  375,  375,  375,  375,  225,  250,  250,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7369,    62,   2.04)  /* Acid Stream V */
-     , (7369,    68,   2.04)  /* Shock Wave V */
-     , (7369,    84,   2.04)  /* Flame Bolt V */
-     , (7369,    90,   2.04)  /* Force Bolt V */
-     , (7369,    96,   2.04)  /* Whirling Blade V */
-     , (7369,   279,      2)  /* Magic Resistance Self VI */
-     , (7369,   677,   2.01)  /* Mana Conversion Ineptitude Other VI */
+VALUES (7369,  1094,      2)  /* Fire Protection Self VI */
+     , (7369,  1795,   2.04)  /* Acid Streak VI */
+     , (7369,  2369,   2.03)  /* Expulsion */
      , (7369,   897,   2.01)  /* Healing Ineptitude Other VI */
-     , (7369,  1094,      2)  /* Fire Protection Self VI */
+     , (7369,  1882,      2)  /* Nullify All Magic Self */
+     , (7369,  2757,   2.04)  /* Blade Arc V */
+     , (7369,  2372,   2.03)  /* Price of Immortality */
+     , (7369,    68,   2.04)  /* Shock Wave V */
      , (7369,  1114,      2)  /* Blade Protection Self VI */
      , (7369,  1242,   2.02)  /* Drain Health Other VI */
-     , (7369,  1265,   2.02)  /* Drain Mana Other VI */
-     , (7369,  1312,      2)  /* Armor Self VI */
-     , (7369,  1372,   2.01)  /* Frailty Other VI */
-     , (7369,  1396,   2.01)  /* Clumsiness Other VI */
-     , (7369,  1420,   2.01)  /* Slowness Other VI */
-     , (7369,  1468,   2.01)  /* Feeblemind Other VI */
-     , (7369,  1795,   2.04)  /* Acid Streak VI */
-     , (7369,  1801,   2.04)  /* Flame Streak VI */
-     , (7369,  1807,   2.04)  /* Force Streak VI */
-     , (7369,  1825,   2.04)  /* Shock Wave Streak VI */
-     , (7369,  1831,   2.03)  /* Whirling Blade Streak VI */
-     , (7369,  1882,      2)  /* Nullify All Magic Self */
-     , (7369,  2029,   2.01)  /* Stamina Blight */
-     , (7369,  2043,   2.03)  /* Weight of Eternity */
-     , (7369,  2369,   2.03)  /* Expulsion */
-     , (7369,  2372,   2.03)  /* Price of Immortality */
      , (7369,  2373,   2.03)  /* Enervation of the Heart */
-     , (7369,  2374,   2.03)  /* Enervation of the Limb */
-     , (7369,  2375,   2.03)  /* Enervation of the Mind */
      , (7369,  2715,   2.04)  /* Acid Arc V */
+     , (7369,  2374,   2.03)  /* Enervation of the Limb */
      , (7369,  2722,   2.04)  /* Force Arc V */
-     , (7369,  2743,   2.04)  /* Flame Arc V */
-     , (7369,  2750,   2.04)  /* Shock Arc V */
-     , (7369,  2757,   2.04)  /* Blade Arc V */
+     , (7369,  2375,   2.03)  /* Enervation of the Mind */
      , (7369,  3080,   2.03)  /* Bruised Flesh */
      , (7369,  3081,   2.03)  /* Flesh of Cloth */
+     , (7369,  1801,   2.04)  /* Flame Streak VI */
      , (7369,  3082,   2.03)  /* Exposed Flesh */
      , (7369,  3083,   2.03)  /* Flesh of Flint */
-     , (7369,  3084,   2.03)  /* Weaken Flesh */;
+     , (7369,  3084,   2.03)  /* Weaken Flesh */
+     , (7369,  1420,   2.01)  /* Slowness Other VI */
+     , (7369,  1807,   2.04)  /* Force Streak VI */
+     , (7369,    84,   2.04)  /* Flame Bolt V */
+     , (7369,   279,      2)  /* Magic Resistance Self VI */
+     , (7369,    90,   2.04)  /* Force Bolt V */
+     , (7369,  1372,   2.01)  /* Frailty Other VI */
+     , (7369,  2029,   2.01)  /* Stamina Blight */
+     , (7369,    96,   2.04)  /* Whirling Blade V */
+     , (7369,  1312,      2)  /* Armor Self VI */
+     , (7369,  2750,   2.04)  /* Shock Arc V */
+     , (7369,  1825,   2.04)  /* Shock Wave Streak VI */
+     , (7369,   677,   2.01)  /* Mana Conversion Ineptitude Other VI */
+     , (7369,  1831,   2.03)  /* Whirling Blade Streak VI */
+     , (7369,  1265,   2.02)  /* Drain Mana Other VI */
+     , (7369,  1396,   2.01)  /* Clumsiness Other VI */
+     , (7369,  2743,   2.04)  /* Flame Arc V */
+     , (7369,  2043,   2.03)  /* Weight of Eternity */
+     , (7369,  1468,   2.01)  /* Feeblemind Other VI */
+     , (7369,    62,   2.04)  /* Acid Stream V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (7369,  94) /* ATTACK_NOTIFICATION_EVENT */

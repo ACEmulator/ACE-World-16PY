@@ -140,12 +140,12 @@ VALUES (1762,  0,  4,  0,    0,   90,   33,   14,   45,    5,   74,   15,   30, 
      , (1762,  8,  4,  5, 0.75,   75,   28,   12,   38,    4,   62,   13,   25,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1762,    88,  2.105)  /* Force Bolt III */
+VALUES (1762,  1393,  2.023)  /* Clumsiness Other III */
      , (1762,    94,  2.105)  /* Whirling Blade III */
-     , (1762,  1340,  2.023)  /* Weakness Other III */
      , (1762,  1369,  2.023)  /* Frailty Other III */
-     , (1762,  1393,  2.023)  /* Clumsiness Other III */
-     , (1762,  1417,  2.023)  /* Slowness Other III */;
+     , (1762,  1417,  2.023)  /* Slowness Other III */
+     , (1762,    88,  2.105)  /* Force Bolt III */
+     , (1762,  1340,  2.023)  /* Weakness Other III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (1762,  94) /* ATTACK_NOTIFICATION_EVENT */

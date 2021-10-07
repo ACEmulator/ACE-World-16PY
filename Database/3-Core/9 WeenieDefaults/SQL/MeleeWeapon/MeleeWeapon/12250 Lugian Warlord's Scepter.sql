@@ -56,5 +56,5 @@ VALUES (12250,   1,   33557377) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12250,   902,      2)  /* Leadership Mastery Self V */
-     , (12250,  1330,      2)  /* Strength Self IV */
-     , (12250,  1614,      2)  /* Aura of Blood Drinker Self IV */;
+     , (12250,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (12250,  1330,      2)  /* Strength Self IV */;

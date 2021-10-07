@@ -119,22 +119,22 @@ VALUES (22516,  0,  4,  0,    0,  260,  234,  260,  286,  104,  104,  260,  156,
      , (22516,  8,  4,  2, 0.75,  260,  234,  260,  286,  104,  104,  260,  156,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22516,    62,   2.09)  /* Acid Stream V */
+VALUES (22516,    84,   2.09)  /* Flame Bolt V */
      , (22516,    68,   2.08)  /* Shock Wave V */
+     , (22516,   526,   2.04)  /* Acid Vulnerability Other VI */
+     , (22516,  1160,   2.04)  /* Heal Self V */
      , (22516,    73,   2.09)  /* Frost Bolt V */
      , (22516,    79,   2.09)  /* Lightning Bolt V */
-     , (22516,    84,   2.09)  /* Flame Bolt V */
-     , (22516,    90,   2.09)  /* Force Bolt V */
-     , (22516,    96,   2.09)  /* Whirling Blade V */
-     , (22516,   233,   2.04)  /* Vulnerability Other V */
-     , (22516,   284,   2.04)  /* Magic Yield Other V */
-     , (22516,   526,   2.04)  /* Acid Vulnerability Other VI */
-     , (22516,  1053,   2.04)  /* Bludgeoning Vulnerability Other VI */
-     , (22516,  1160,   2.04)  /* Heal Self V */
      , (22516,  1175,   2.04)  /* Harm Other V */
      , (22516,  1241,   2.04)  /* Drain Health Other V */
+     , (22516,    90,   2.09)  /* Force Bolt V */
+     , (22516,   284,   2.04)  /* Magic Yield Other V */
+     , (22516,  1053,   2.04)  /* Bludgeoning Vulnerability Other VI */
+     , (22516,    96,   2.09)  /* Whirling Blade V */
      , (22516,  1312,      2)  /* Armor Self VI */
-     , (22516,  1327,    2.1)  /* Imperil Other VI */;
+     , (22516,   233,   2.04)  /* Vulnerability Other V */
+     , (22516,  1327,    2.1)  /* Imperil Other VI */
+     , (22516,    62,   2.09)  /* Acid Stream V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (22516,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -53,6 +53,6 @@ VALUES (28145,   1,   33554854) /* Setup */
      , (28145,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28145,  1076,      2)  /* Lightning Protection Other V */
+VALUES (28145,  1540,      2)  /* Lightning Bane VI */
      , (28145,  1486,      2)  /* Impenetrability VI */
-     , (28145,  1540,      2)  /* Lightning Bane VI */;
+     , (28145,  1076,      2)  /* Lightning Protection Other V */;

@@ -142,21 +142,21 @@ VALUES (1756,  0,  4,  0,    0,   80,   80,   49,   59,   24,   80,   30,   49, 
      , (1756,  8,  4, 20, 0.75,   80,   80,   49,   59,   24,   80,   30,   49,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1756,    15,  2.017)  /* Vulnerability Other I */
+VALUES (1756,  1279,  2.014)  /* Health to Mana Self II */
+     , (1756,  1665,  2.014)  /* Stamina to Health Self II */
+     , (1756,   262,  2.017)  /* Defenselessness Other I */
      , (1756,    70,   2.06)  /* Frost Bolt II */
+     , (1756,  1260,  2.014)  /* Drain Mana Other I */
+     , (1756,  1291,  2.014)  /* Mana to Health Self II */
      , (1756,    76,   2.06)  /* Lightning Bolt II */
+     , (1756,    15,  2.017)  /* Vulnerability Other I */
+     , (1756,  1677,  2.014)  /* Stamina to Mana Self II */
+     , (1756,  1237,  2.014)  /* Drain Health Other I */
      , (1756,    81,   2.06)  /* Flame Bolt II */
      , (1756,    87,   2.06)  /* Force Bolt II */
-     , (1756,    93,   2.06)  /* Whirling Blade II */
-     , (1756,   262,  2.017)  /* Defenselessness Other I */
      , (1756,   280,  2.017)  /* Magic Yield Other I */
-     , (1756,  1237,  2.014)  /* Drain Health Other I */
-     , (1756,  1249,  2.014)  /* Drain Stamina Other I */
-     , (1756,  1260,  2.014)  /* Drain Mana Other I */
-     , (1756,  1279,  2.014)  /* Health to Mana Self II */
-     , (1756,  1291,  2.014)  /* Mana to Health Self II */
-     , (1756,  1665,  2.014)  /* Stamina to Health Self II */
-     , (1756,  1677,  2.014)  /* Stamina to Mana Self II */;
+     , (1756,    93,   2.06)  /* Whirling Blade II */
+     , (1756,  1249,  2.014)  /* Drain Stamina Other I */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (1756,  94) /* ATTACK_NOTIFICATION_EVENT */

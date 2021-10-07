@@ -123,15 +123,15 @@ VALUES (5932,  0,  4,  0,    0,  150,  165,  165,  135,  225,  225,  225,  105, 
      , (5932,  8,  4, 75, 0.75,  150,  165,  165,  135,  225,  225,  225,  105,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5932,    60,   2.15)  /* Acid Stream III */
+VALUES (5932,  1465,   2.02)  /* Feeblemind Other III */
+     , (5932,  1393,   2.02)  /* Clumsiness Other III */
+     , (5932,  1441,   2.02)  /* Bafflement Other III */
+     , (5932,  1369,   2.02)  /* Frailty Other III */
+     , (5932,  1417,   2.02)  /* Slowness Other III */
      , (5932,    99,   2.15)  /* Acid Blast III */
      , (5932,   127,   2.15)  /* Acid Volley III */
      , (5932,  1340,   2.02)  /* Weakness Other III */
-     , (5932,  1369,   2.02)  /* Frailty Other III */
-     , (5932,  1393,   2.02)  /* Clumsiness Other III */
-     , (5932,  1417,   2.02)  /* Slowness Other III */
-     , (5932,  1441,   2.02)  /* Bafflement Other III */
-     , (5932,  1465,   2.02)  /* Feeblemind Other III */;
+     , (5932,    60,   2.15)  /* Acid Stream III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (5932,  94) /* ATTACK_NOTIFICATION_EVENT */

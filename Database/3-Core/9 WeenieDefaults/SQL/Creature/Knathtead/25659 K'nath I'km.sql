@@ -102,11 +102,11 @@ VALUES (25659,  0,  4, 80,  0.3,  260,  127,  164,   70,  127,  208,  208,  182,
      , (25659, 16,  4,  0,    0,  260,  127,  164,   70,  127,  208,  208,  182,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25659,  1241,   2.01)  /* Drain Health Other V */
-     , (25659,  2132,  2.025)  /* The Spike */
+VALUES (25659,  2132,  2.025)  /* The Spike */
+     , (25659,  1241,   2.01)  /* Drain Health Other V */
      , (25659,  2133,   2.24)  /* Outlander's Insolence */
-     , (25659,  2134,   2.25)  /* Fusillade */
-     , (25659,  2724,   2.25)  /* Force Arc VII */;
+     , (25659,  2724,   2.25)  /* Force Arc VII */
+     , (25659,  2134,   2.25)  /* Fusillade */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (25659,  94) /* ATTACK_NOTIFICATION_EVENT */

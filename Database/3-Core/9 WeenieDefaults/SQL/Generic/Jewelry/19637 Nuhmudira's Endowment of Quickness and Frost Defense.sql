@@ -51,5 +51,5 @@ VALUES (19637,   1,   33554687) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19637,  1039,      2)  /* Cold Protection Other IV */
-     , (19637,  1406,      2)  /* Quickness Other IV */
-     , (19637,  2670,      2)  /* Nuhmudiras Endowment */;
+     , (19637,  2670,      2)  /* Nuhmudiras Endowment */
+     , (19637,  1406,      2)  /* Quickness Other IV */;

@@ -40,38 +40,38 @@ VALUES (29952,   1,   33554683) /* Setup */
      , (29952,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29952,  2536,      2)  /* Minor Alchemical Prowess */
+VALUES (29952,  2553,      2)  /* Minor Jumping Prowess */
+     , (29952,  2568,      2)  /* Minor Light Weapon Aptitude */
+     , (29952,  2545,      2)  /* Minor Deception Prowess */
+     , (29952,  2560,      2)  /* Minor Mana Conversion Prowess */
+     , (29952,  2561,      2)  /* Minor Monster Attunement */
+     , (29952,  2562,      2)  /* Minor Person Attunement */
+     , (29952,  2542,      2)  /* Minor Creature Enchantment Aptitude */
+     , (29952,  2563,      2)  /* Minor Light Weapon Aptitude */
+     , (29952,  2549,      2)  /* Minor Impregnability */
+     , (29952,  2564,      2)  /* Minor Sprint */
+     , (29952,  2565,      2)  /* Minor Light Weapon Aptitude */
+     , (29952,  2566,      2)  /* Minor Heavy Weapon Aptitude */
+     , (29952,  2567,      2)  /* Minor Missile Weapon Aptitude */
+     , (29952,  2569,      2)  /* Minor War Magic Aptitude */
+     , (29952,  2543,      2)  /* Minor Missile Weapon Aptitude */
+     , (29952,  2570,      2)  /* Minor Weapon Tinkering Expertise */
+     , (29952,  2536,      2)  /* Minor Alchemical Prowess */
      , (29952,  2537,      2)  /* Minor Arcane Prowess */
      , (29952,  2538,      2)  /* Minor Armor Tinkering Expertise */
      , (29952,  2539,      2)  /* Minor Light Weapon Aptitude */
      , (29952,  2540,      2)  /* Minor Missile Weapon Aptitude */
      , (29952,  2541,      2)  /* Minor Cooking Prowess */
-     , (29952,  2542,      2)  /* Minor Creature Enchantment Aptitude */
-     , (29952,  2543,      2)  /* Minor Missile Weapon Aptitude */
      , (29952,  2544,      2)  /* Minor Finesse Weapon Aptitude */
-     , (29952,  2545,      2)  /* Minor Deception Prowess */
      , (29952,  2546,      2)  /* Minor Fealty */
      , (29952,  2547,      2)  /* Minor Fletching Prowess */
      , (29952,  2548,      2)  /* Minor Healing Prowess */
-     , (29952,  2549,      2)  /* Minor Impregnability */
      , (29952,  2550,      2)  /* Minor Invulnerability */
      , (29952,  2551,      2)  /* Minor Item Enchantment Aptitude */
      , (29952,  2552,      2)  /* Minor Item Tinkering Expertise */
-     , (29952,  2553,      2)  /* Minor Jumping Prowess */
      , (29952,  2554,      2)  /* Minor Leadership */
      , (29952,  2555,      2)  /* Minor Life Magic Aptitude */
      , (29952,  2556,      2)  /* Minor Lockpick Prowess */
      , (29952,  2557,      2)  /* Minor Light Weapon Aptitude */
      , (29952,  2558,      2)  /* Minor Magic Item Tinkering Expertise */
-     , (29952,  2559,      2)  /* Minor Magic Resistance */
-     , (29952,  2560,      2)  /* Minor Mana Conversion Prowess */
-     , (29952,  2561,      2)  /* Minor Monster Attunement */
-     , (29952,  2562,      2)  /* Minor Person Attunement */
-     , (29952,  2563,      2)  /* Minor Light Weapon Aptitude */
-     , (29952,  2564,      2)  /* Minor Sprint */
-     , (29952,  2565,      2)  /* Minor Light Weapon Aptitude */
-     , (29952,  2566,      2)  /* Minor Heavy Weapon Aptitude */
-     , (29952,  2567,      2)  /* Minor Missile Weapon Aptitude */
-     , (29952,  2568,      2)  /* Minor Light Weapon Aptitude */
-     , (29952,  2569,      2)  /* Minor War Magic Aptitude */
-     , (29952,  2570,      2)  /* Minor Weapon Tinkering Expertise */;
+     , (29952,  2559,      2)  /* Minor Magic Resistance */;

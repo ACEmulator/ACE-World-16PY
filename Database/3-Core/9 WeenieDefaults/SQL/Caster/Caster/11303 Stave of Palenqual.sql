@@ -46,9 +46,9 @@ VALUES (11303,   1,   33557232) /* Setup */
      , (11303,  27, 1073742049) /* UseUserAnimation - UseMagicWand */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11303,   217,      2)  /* Mana Renewal Self VI */
+VALUES (11303,  2581,      2)  /* Minor Focus */
+     , (11303,  1480,      2)  /* Aura of Hermetic Link Self VI */
+     , (11303,  1426,      2)  /* Focus Self VI */
      , (11303,   634,      2)  /* War Magic Mastery Self VI */
      , (11303,   658,      2)  /* Mana Conversion Mastery Self VI */
-     , (11303,  1426,      2)  /* Focus Self VI */
-     , (11303,  1480,      2)  /* Aura of Hermetic Link Self VI */
-     , (11303,  2581,      2)  /* Minor Focus */;
+     , (11303,   217,      2)  /* Mana Renewal Self VI */;

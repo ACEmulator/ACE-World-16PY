@@ -51,5 +51,5 @@ VALUES (23546,   1,   33557433) /* Setup */
      , (23546,  50,  100675462) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23546,   535,      2)  /* Missile Weapon Mastery Other III */
-     , (23546,  1613,      2)  /* Aura of Blood Drinker Self III */;
+VALUES (23546,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (23546,   535,      2)  /* Missile Weapon Mastery Other III */;

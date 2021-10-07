@@ -118,14 +118,14 @@ VALUES (7335,  0,  4,  0,    0,  230,  189,  101,  191,  166,  191,  166,  207, 
      , (7335,  8,  4, 25, 0.75,  240,  197,  106,  199,  173,  199,  173,  216,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7335,    78,  2.075)  /* Lightning Bolt IV */
-     , (7335,    79,  2.075)  /* Lightning Bolt V */
+VALUES (7335,  1159,  2.008)  /* Heal Self IV */
      , (7335,   627,   2.03)  /* Life Magic Ineptitude Other V */
      , (7335,   651,   2.03)  /* War Magic Ineptitude Other V */
-     , (7335,  1159,  2.008)  /* Heal Self IV */
+     , (7335,    78,  2.075)  /* Lightning Bolt IV */
+     , (7335,    79,  2.075)  /* Lightning Bolt V */
      , (7335,  1240,  2.008)  /* Drain Health Other IV */
-     , (7335,  1443,   2.03)  /* Bafflement Other V */
-     , (7335,  1467,   2.03)  /* Feeblemind Other V */;
+     , (7335,  1467,   2.03)  /* Feeblemind Other V */
+     , (7335,  1443,   2.03)  /* Bafflement Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (7335,  94) /* ATTACK_NOTIFICATION_EVENT */

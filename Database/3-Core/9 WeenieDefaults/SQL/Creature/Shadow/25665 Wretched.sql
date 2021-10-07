@@ -124,25 +124,25 @@ VALUES (25665,  0,  4,  0,    0,  500,  500,  500,  500,  500,  500,  500,  500,
      , (25665,  8,  4, 105,  0.5,  500,  500,  500,  500,  500,  500,  500,  500,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25665,  1241,  2.009)  /* Drain Health Other V */
-     , (25665,  1253,  2.009)  /* Drain Stamina Other V */
-     , (25665,  1264,  2.009)  /* Drain Mana Other V */
-     , (25665,  2056,    2.1)  /* Ataxia */
+VALUES (25665,  2136,  2.036)  /* Icy Torment */
      , (25665,  2064,    2.1)  /* Self Loathing */
-     , (25665,  2074,    2.1)  /* Gossamer Flesh */
-     , (25665,  2125,  2.005)  /* Flensing Wings */
      , (25665,  2128,  2.036)  /* Ilservian's Flame */
+     , (25665,  2056,    2.1)  /* Ataxia */
+     , (25665,  2318,   2.01)  /* Gravity Well */
+     , (25665,  1241,  2.009)  /* Drain Health Other V */
+     , (25665,  2125,  2.005)  /* Flensing Wings */
      , (25665,  2130,  2.005)  /* Infernae */
      , (25665,  2132,  2.036)  /* The Spike */
      , (25665,  2134,  2.005)  /* Fusillade */
-     , (25665,  2136,  2.036)  /* Icy Torment */
      , (25665,  2138,  2.005)  /* Blizzard */
+     , (25665,  2074,    2.1)  /* Gossamer Flesh */
      , (25665,  2140,  2.036)  /* Alset's Coil */
      , (25665,  2142,  2.005)  /* Tempest */
      , (25665,  2146,  2.036)  /* Evisceration */
-     , (25665,  2228,   2.01)  /* Broadside of a Barn */
+     , (25665,  1253,  2.009)  /* Drain Stamina Other V */
      , (25665,  2282,   2.01)  /* Futility */
-     , (25665,  2318,   2.01)  /* Gravity Well */;
+     , (25665,  2228,   2.01)  /* Broadside of a Barn */
+     , (25665,  1264,  2.009)  /* Drain Mana Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (25665,  94) /* ATTACK_NOTIFICATION_EVENT */

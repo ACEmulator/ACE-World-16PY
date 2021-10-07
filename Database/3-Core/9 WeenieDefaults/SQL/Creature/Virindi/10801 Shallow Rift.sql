@@ -113,12 +113,12 @@ VALUES (10801,  0, 64, 25, 0.75,  100,  100,  100,  100,  119, 10000,  278,  100
      , (10801, 22, 64, 25, 0.75,  100,  100,  100,  100,  119, 10000,  278,  100,    0, 2,    0,    0,    0,    0,    0,    0,  0.1,  0.1,    0,  0.1,  0.1,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10801,     7,  2.044)  /* Harm Other I */
-     , (10801,    76,  2.115)  /* Lightning Bolt II */
-     , (10801,   275,  2.032)  /* Magic Resistance Self II */
-     , (10801,   280,  2.044)  /* Magic Yield Other I */
+VALUES (10801,   280,  2.044)  /* Magic Yield Other I */
+     , (10801,     7,  2.044)  /* Harm Other I */
      , (10801,   606,  2.032)  /* Life Magic Mastery Self II */
+     , (10801,   275,  2.032)  /* Magic Resistance Self II */
      , (10801,   654,  2.032)  /* Mana Conversion Mastery Self II */
+     , (10801,    76,  2.115)  /* Lightning Bolt II */
      , (10801,  1084,  2.044)  /* Lightning Vulnerability Other I */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

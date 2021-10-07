@@ -126,18 +126,18 @@ VALUES (26012,  0,  4,  0,    0,   65,   55,   68,   65,   65,   39,   81,   59,
      , (26012,  8,  4, 30, 0.75,   55,   47,   58,   55,   55,   33,   69,   50,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26012,    60,   2.07)  /* Acid Stream III */
+VALUES (26012,  1128,   2.02)  /* Blade Vulnerability Other II */
+     , (26012,  1152,   2.02)  /* Piercing Vulnerability Other II */
+     , (26012,  1158,   2.08)  /* Heal Self III */
      , (26012,    66,   2.07)  /* Shock Wave III */
-     , (26012,    77,   2.07)  /* Lightning Bolt III */
      , (26012,    88,   2.07)  /* Force Bolt III */
-     , (26012,    94,   2.07)  /* Whirling Blade III */
-     , (26012,   173,   2.02)  /* Fester Other III */
      , (26012,   522,   2.02)  /* Acid Vulnerability Other II */
      , (26012,  1049,   2.02)  /* Bludgeoning Vulnerability Other II */
-     , (26012,  1085,   2.02)  /* Lightning Vulnerability Other II */
-     , (26012,  1128,   2.02)  /* Blade Vulnerability Other II */
-     , (26012,  1152,   2.02)  /* Piercing Vulnerability Other II */
-     , (26012,  1158,   2.08)  /* Heal Self III */;
+     , (26012,    77,   2.07)  /* Lightning Bolt III */
+     , (26012,    94,   2.07)  /* Whirling Blade III */
+     , (26012,   173,   2.02)  /* Fester Other III */
+     , (26012,    60,   2.07)  /* Acid Stream III */
+     , (26012,  1085,   2.02)  /* Lightning Vulnerability Other II */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (26012,  94) /* ATTACK_NOTIFICATION_EVENT */

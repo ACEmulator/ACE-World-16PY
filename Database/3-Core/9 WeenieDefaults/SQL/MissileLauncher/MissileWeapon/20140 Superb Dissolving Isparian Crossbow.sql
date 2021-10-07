@@ -63,7 +63,7 @@ VALUES (20140,   1,   33557769) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20140,   520,      2)  /* Acid Protection Self VI */
-     , (20140,  1353,      2)  /* Endurance Self V */
      , (20140,  1604,      2)  /* Aura of Defender Self V */
+     , (20140,  1353,      2)  /* Endurance Self V */
      , (20140,  1615,      2)  /* Aura of Blood Drinker Self V */
      , (20140,  2543,      2)  /* Minor Missile Weapon Aptitude */;

@@ -116,15 +116,15 @@ VALUES (10936,  0,  4,  0,    0,  350,  277,  315,  350,  294,  294,  294,  294,
      , (10936,  8,  4, 90, 0.75,  350,  277,  315,  350,  294,  294,  294,  294,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10936,    68,   2.08)  /* Shock Wave V */
+VALUES (10936,  1343,  2.048)  /* Weakness Other VI */
+     , (10936,  1327,  2.048)  /* Imperil Other VI */
+     , (10936,  1160,   2.01)  /* Heal Self V */
+     , (10936,    68,   2.08)  /* Shock Wave V */
+     , (10936,  1241,   2.01)  /* Drain Health Other V */
      , (10936,    69,   2.08)  /* Shock Wave VI */
      , (10936,   628,  2.048)  /* Life Magic Ineptitude Other VI */
      , (10936,   652,  2.048)  /* War Magic Ineptitude Other VI */
-     , (10936,  1053,  2.048)  /* Bludgeoning Vulnerability Other VI */
-     , (10936,  1160,   2.01)  /* Heal Self V */
-     , (10936,  1241,   2.01)  /* Drain Health Other V */
-     , (10936,  1327,  2.048)  /* Imperil Other VI */
-     , (10936,  1343,  2.048)  /* Weakness Other VI */;
+     , (10936,  1053,  2.048)  /* Bludgeoning Vulnerability Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (10936,  94) /* ATTACK_NOTIFICATION_EVENT */

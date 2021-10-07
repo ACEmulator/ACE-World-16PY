@@ -114,24 +114,24 @@ VALUES (10814,  0,  1,  0,    0, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000,
      , (10814, 17,  1,  0,    0, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000,    0, 3,    0,    0,  0.1,    0,    0,  0.1,    0, 0.13, 0.45,    0, 0.13, 0.45) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10814,   278,      2)  /* Magic Resistance Self V */
+VALUES (10814,  1342,   2.04)  /* Weakness Other V */
      , (10814,   519,      2)  /* Acid Protection Self V */
-     , (10814,  1022,      2)  /* Bludgeoning Protection Self V */
      , (10814,  1093,      2)  /* Fire Protection Self V */
-     , (10814,  1107,   2.04)  /* Fire Vulnerability Other V */
      , (10814,  1113,      2)  /* Blade Protection Self V */
-     , (10814,  1131,   2.04)  /* Blade Vulnerability Other V */
-     , (10814,  1137,      2)  /* Piercing Protection Self V */
      , (10814,  1241,      2)  /* Drain Health Other V */
-     , (10814,  1311,      2)  /* Armor Self V */
-     , (10814,  1326,   2.04)  /* Imperil Other V */
-     , (10814,  1342,   2.04)  /* Weakness Other V */
+     , (10814,   278,      2)  /* Magic Resistance Self V */
+     , (10814,  1800,  2.055)  /* Flame Streak V */
+     , (10814,  1107,   2.04)  /* Fire Vulnerability Other V */
      , (10814,  1371,   2.04)  /* Frailty Other V */
+     , (10814,  1311,      2)  /* Armor Self V */
      , (10814,  1443,   2.04)  /* Bafflement Other V */
+     , (10814,  1830,  2.055)  /* Whirling Blade Streak V */
+     , (10814,  1131,   2.04)  /* Blade Vulnerability Other V */
+     , (10814,  1326,   2.04)  /* Imperil Other V */
+     , (10814,  1137,      2)  /* Piercing Protection Self V */
      , (10814,  1784,   2.04)  /* Horizon's Blades */
      , (10814,  1785,   2.04)  /* Cassius' Ring of Fire */
-     , (10814,  1800,  2.055)  /* Flame Streak V */
-     , (10814,  1830,  2.055)  /* Whirling Blade Streak V */;
+     , (10814,  1022,      2)  /* Bludgeoning Protection Self V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (10814,  94) /* ATTACK_NOTIFICATION_EVENT */

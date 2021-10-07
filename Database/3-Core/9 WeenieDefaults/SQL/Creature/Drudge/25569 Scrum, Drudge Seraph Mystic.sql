@@ -128,10 +128,10 @@ VALUES (25569,  0,  4,  0,    0,  550,  578,  550,  578,  523,  578,  413,  550,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25569,  2064,   2.05)  /* Self Loathing */
-     , (25569,  2074,   2.05)  /* Gossamer Flesh */
-     , (25569,  2084,   2.05)  /* Belly of Lead */
      , (25569,  2162,   2.05)  /* Olthoi's Gift */
-     , (25569,  2172,   2.05)  /* Astyrrian's Gift */;
+     , (25569,  2074,   2.05)  /* Gossamer Flesh */
+     , (25569,  2172,   2.05)  /* Astyrrian's Gift */
+     , (25569,  2084,   2.05)  /* Belly of Lead */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (25569,  5 /* HeartBeat */,  0.025, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);

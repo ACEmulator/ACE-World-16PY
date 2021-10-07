@@ -51,10 +51,10 @@ VALUES (6385,   1,   33555927) /* Setup */
      , (6385,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6385,  2096,      2)  /* Aura of Infected Caress */
+VALUES (6385,  2116,      2)  /* Aura of Atlan's Alacrity */
+     , (6385,  2096,      2)  /* Aura of Infected Caress */
      , (6385,  2101,      2)  /* Aura of Cragstone's Will */
-     , (6385,  2106,      2)  /* Aura of Elysa's Sight */
-     , (6385,  2116,      2)  /* Aura of Atlan's Alacrity */;
+     , (6385,  2106,      2)  /* Aura of Elysa's Sight */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (6385, 10 /* PickUp */,    0.5, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

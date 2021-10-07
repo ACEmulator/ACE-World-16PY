@@ -124,40 +124,40 @@ VALUES (28054,  0,  4,  0,    0,  440,  440,  440,  440,  440,  484,  484,  440,
      , (28054,  8,  4, 200,  0.4,  480,  480,  480,  480,  480,  528,  528,  480,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28054,  2053,      2)  /* Executor's Blessing */
+VALUES (28054,  3109,   2.05)  /* Liquefy Flesh */
      , (28054,  2121,   2.08)  /* Corrosive Flash */
-     , (28054,  2122,   2.08)  /* Disintegration */
-     , (28054,  2128,   2.08)  /* Ilservian's Flame */
-     , (28054,  2129,   2.08)  /* Sizzling Fury */
-     , (28054,  2149,      2)  /* Caustic Blessing */
-     , (28054,  2151,      2)  /* Blessing of the Blade Turner */
-     , (28054,  2153,      2)  /* Blessing of the Mace Turner */
-     , (28054,  2155,      2)  /* Icy Blessing */
-     , (28054,  2157,      2)  /* Fiery Blessing */
-     , (28054,  2159,      2)  /* Storm's Blessing */
-     , (28054,  2161,      2)  /* Blessing of the Arrow Turner */
      , (28054,  2281,      2)  /* Aura of Resistance */
-     , (28054,  2328,   2.01)  /* Vitality Siphon */
-     , (28054,  2329,   2.01)  /* Essence Void */
+     , (28054,  2153,      2)  /* Blessing of the Mace Turner */
      , (28054,  2370,   2.02)  /* Gift of Rotting Flesh */
      , (28054,  2371,   2.02)  /* Curse of Mortal Flesh */
      , (28054,  2372,   2.02)  /* Price of Immortality */
+     , (28054,  2053,      2)  /* Executor's Blessing */
+     , (28054,  2328,   2.01)  /* Vitality Siphon */
+     , (28054,  3091,   2.02)  /* Thin Skin */
      , (28054,  2697,   2.02)  /* Aerfalle's Touch */
+     , (28054,  3110,   2.05)  /* Sear Flesh */
+     , (28054,  2122,   2.08)  /* Disintegration */
+     , (28054,  3180,      2)  /* Eradicate All Magic Self */
+     , (28054,  2128,   2.08)  /* Ilservian's Flame */
      , (28054,  2698,   2.02)  /* Aerfalle's Embrace */
+     , (28054,  2129,   2.08)  /* Sizzling Fury */
      , (28054,  2705,   2.02)  /* Aerfalle's Enforcement */
      , (28054,  2706,   2.02)  /* Aerfalle's Gaze */
+     , (28054,  2329,   2.01)  /* Essence Void */
      , (28054,  2717,   2.08)  /* Acid Arc VII */
-     , (28054,  2745,   2.08)  /* Flame Arc VII */
      , (28054,  3043,   2.02)  /* Kiss of the Grave */
-     , (28054,  3056,   2.02)  /* Death's Vice */
-     , (28054,  3059,   2.02)  /* Enervation */
      , (28054,  3060,   2.02)  /* Poison Blood */
+     , (28054,  2149,      2)  /* Caustic Blessing */
+     , (28054,  2151,      2)  /* Blessing of the Blade Turner */
+     , (28054,  2155,      2)  /* Icy Blessing */
+     , (28054,  2157,      2)  /* Fiery Blessing */
+     , (28054,  2159,      2)  /* Storm's Blessing */
+     , (28054,  3056,   2.02)  /* Death's Vice */
+     , (28054,  2161,      2)  /* Blessing of the Arrow Turner */
+     , (28054,  3059,   2.02)  /* Enervation */
      , (28054,  3061,   2.02)  /* Taint Mana */
-     , (28054,  3067,   2.02)  /* Matron's Curse */
-     , (28054,  3091,   2.02)  /* Thin Skin */
-     , (28054,  3109,   2.05)  /* Liquefy Flesh */
-     , (28054,  3110,   2.05)  /* Sear Flesh */
-     , (28054,  3180,      2)  /* Eradicate All Magic Self */;
+     , (28054,  2745,   2.08)  /* Flame Arc VII */
+     , (28054,  3067,   2.02)  /* Matron's Curse */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (28054,  94) /* ATTACK_NOTIFICATION_EVENT */

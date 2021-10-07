@@ -112,16 +112,16 @@ VALUES (28040,  0,  4,  0,    0,  350,  277,  315,  350,  294,  294,  294,  294,
      , (28040,  8,  4, 90, 0.75,  350,  277,  315,  350,  294,  294,  294,  294,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28040,    61,   2.08)  /* Acid Stream IV */
-     , (28040,    62,   2.08)  /* Acid Stream V */
+VALUES (28040,  1159,      2)  /* Heal Self IV */
      , (28040,   277,      2)  /* Magic Resistance Self IV */
-     , (28040,   283,      2)  /* Magic Yield Other IV */
      , (28040,   524,      2)  /* Acid Vulnerability Other IV */
-     , (28040,  1159,      2)  /* Heal Self IV */
+     , (28040,   283,      2)  /* Magic Yield Other IV */
      , (28040,  1240,      2)  /* Drain Health Other IV */
      , (28040,  1310,      2)  /* Armor Self IV */
+     , (28040,  1341,      2)  /* Weakness Other IV */
      , (28040,  1325,      2)  /* Imperil Other IV */
-     , (28040,  1341,      2)  /* Weakness Other IV */;
+     , (28040,    61,   2.08)  /* Acid Stream IV */
+     , (28040,    62,   2.08)  /* Acid Stream V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (28040,  94) /* ATTACK_NOTIFICATION_EVENT */

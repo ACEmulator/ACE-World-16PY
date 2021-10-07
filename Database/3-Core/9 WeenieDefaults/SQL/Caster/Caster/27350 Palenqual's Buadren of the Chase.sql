@@ -56,6 +56,6 @@ VALUES (27350,  2441,      2)  /* Lesser Stone Cliffs */
      , (27350,  2444,      2)  /* Lesser Strength of Earth */
      , (27350,  2448,      2)  /* Growth */
      , (27350,  2451,      2)  /* Hunter's Acumen */
+     , (27350,  3225,      2)  /* Lesser Cascade */
      , (27350,  2471,      2)  /* Lesser Still Water */
-     , (27350,  2474,      2)  /* Lesser Torrent */
-     , (27350,  3225,      2)  /* Lesser Cascade */;
+     , (27350,  2474,      2)  /* Lesser Torrent */;

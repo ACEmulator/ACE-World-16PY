@@ -111,20 +111,20 @@ VALUES (8108,  0,  4, 50, 0.75,  120,  132,  120,  108,  132,  240,  240,  120, 
      , (8108, 17,  4, 50, 0.75,  120,  132,  120,  108,  132,  240,  240,  120,    0, 2,    0,    0,    0,    0,    0,    0,  0.1,  0.1,    0,  0.1,  0.1,    0) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8108,    76,  2.115)  /* Lightning Bolt II */
-     , (8108,    77,  2.031)  /* Lightning Bolt III */
-     , (8108,   167,  2.032)  /* Regeneration Self III */
-     , (8108,   276,  2.032)  /* Magic Resistance Self III */
-     , (8108,   281,  2.044)  /* Magic Yield Other II */
-     , (8108,   606,  2.032)  /* Life Magic Mastery Self II */
+VALUES (8108,   281,  2.044)  /* Magic Yield Other II */
      , (8108,   624,  2.044)  /* Life Magic Ineptitude Other II */
-     , (8108,   655,  2.032)  /* Mana Conversion Mastery Self III */
-     , (8108,  1085,  2.044)  /* Lightning Vulnerability Other II */
-     , (8108,  1158,   2.04)  /* Heal Self III */
-     , (8108,  1173,  2.044)  /* Harm Other III */
      , (8108,  1238,  2.044)  /* Drain Health Other II */
+     , (8108,  1158,   2.04)  /* Heal Self III */
+     , (8108,  1417,  2.044)  /* Slowness Other III */
+     , (8108,    76,  2.115)  /* Lightning Bolt II */
+     , (8108,    77,  2.031)  /* Lightning Bolt III */
+     , (8108,  1173,  2.044)  /* Harm Other III */
+     , (8108,   655,  2.032)  /* Mana Conversion Mastery Self III */
+     , (8108,   276,  2.032)  /* Magic Resistance Self III */
      , (8108,  1309,   2.04)  /* Armor Self III */
-     , (8108,  1417,  2.044)  /* Slowness Other III */;
+     , (8108,   606,  2.032)  /* Life Magic Mastery Self II */
+     , (8108,   167,  2.032)  /* Regeneration Self III */
+     , (8108,  1085,  2.044)  /* Lightning Vulnerability Other II */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (8108,  94) /* ATTACK_NOTIFICATION_EVENT */

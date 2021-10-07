@@ -57,5 +57,5 @@ VALUES (20044,   1,   33557745) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20044,  1605,      2)  /* Aura of Defender Self VI */
-     , (20044,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (20044,  2695,      2)  /* Moderate Missile Weapon Aptitude */;
+     , (20044,  2695,      2)  /* Moderate Missile Weapon Aptitude */
+     , (20044,  1616,      2)  /* Aura of Blood Drinker Self VI */;

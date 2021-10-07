@@ -56,5 +56,5 @@ VALUES (8205,   1,   33556861) /* Setup */
      , (8205,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8205,   247,      2)  /* Invulnerability Self IV */
-     , (8205,   397,      2)  /* Light Weapon Mastery Self IV */;
+VALUES (8205,   397,      2)  /* Light Weapon Mastery Self IV */
+     , (8205,   247,      2)  /* Invulnerability Self IV */;

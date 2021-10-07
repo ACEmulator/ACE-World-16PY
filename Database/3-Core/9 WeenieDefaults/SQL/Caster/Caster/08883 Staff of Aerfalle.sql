@@ -52,6 +52,6 @@ VALUES (8883,   1,   33555649) /* Setup */
      , (8883,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8883,   615,      2)  /* Life Magic Mastery Other V */
+VALUES (8883,   908,      2)  /* Leadership Mastery Other V */
      , (8883,   639,      2)  /* War Magic Mastery Other V */
-     , (8883,   908,      2)  /* Leadership Mastery Other V */;
+     , (8883,   615,      2)  /* Life Magic Mastery Other V */;

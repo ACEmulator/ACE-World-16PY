@@ -51,5 +51,5 @@ VALUES (19623,   1,   33554687) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19623,   513,      2)  /* Acid Protection Other V */
-     , (19623,  1407,      2)  /* Quickness Other V */
-     , (19623,  2669,      2)  /* Nuhmudiras Bestowment */;
+     , (19623,  2669,      2)  /* Nuhmudiras Bestowment */
+     , (19623,  1407,      2)  /* Quickness Other V */;

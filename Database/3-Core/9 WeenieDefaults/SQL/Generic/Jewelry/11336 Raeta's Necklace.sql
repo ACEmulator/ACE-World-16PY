@@ -45,6 +45,6 @@ VALUES (11336,   1,   33557216) /* Setup */
      , (11336,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11336,   160,      2)  /* Regeneration Other II */
+VALUES (11336,  2436,      2)  /* Laying on of Hands */
      , (11336,   184,      2)  /* Rejuvenation Other II */
-     , (11336,  2436,      2)  /* Laying on of Hands */;
+     , (11336,   160,      2)  /* Regeneration Other II */;

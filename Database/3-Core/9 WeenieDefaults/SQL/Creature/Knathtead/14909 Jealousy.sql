@@ -102,10 +102,10 @@ VALUES (14909,  0,  4,  2,  0.3,   60,   29,   38,   16,   29,   48,   48,   42,
      , (14909, 16,  4,  0,    0,   60,   29,   38,   16,   29,   48,   48,   42,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (14909,   171,   2.25)  /* Fester Other I */
+VALUES (14909,   218,   2.25)  /* Mana Depletion Other I */
      , (14909,   194,   2.25)  /* Exhaustion Other I */
-     , (14909,   218,   2.25)  /* Mana Depletion Other I */
-     , (14909,  1237,   2.25)  /* Drain Health Other I */;
+     , (14909,  1237,   2.25)  /* Drain Health Other I */
+     , (14909,   171,   2.25)  /* Fester Other I */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (14909,  94) /* ATTACK_NOTIFICATION_EVENT */

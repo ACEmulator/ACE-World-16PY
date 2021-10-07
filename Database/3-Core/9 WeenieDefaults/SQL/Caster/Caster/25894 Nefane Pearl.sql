@@ -51,5 +51,5 @@ VALUES (25894,   1,   33558259) /* Setup */
      , (25894,  27, 1073742049) /* UseUserAnimation - UseMagicWand */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25894,  1478,      2)  /* Aura of Hermetic Link Self IV */
-     , (25894,  2624,      2)  /* Major Mana Gain */;
+VALUES (25894,  2624,      2)  /* Major Mana Gain */
+     , (25894,  1478,      2)  /* Aura of Hermetic Link Self IV */;

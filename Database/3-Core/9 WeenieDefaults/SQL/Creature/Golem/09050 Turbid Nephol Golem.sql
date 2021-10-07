@@ -107,19 +107,19 @@ VALUES (9050,  0,  4,  0,    0, 6000, 4320, 4320, 4320, 3000, 5040, 4440, 3780, 
      , (9050,  8,  4, 90, 0.75, 6000, 4320, 4320, 4320, 3000, 5040, 4440, 3780,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9050,    69,   2.08)  /* Shock Wave VI */
-     , (9050,    80,   2.08)  /* Lightning Bolt VI */
-     , (9050,    85,   2.08)  /* Flame Bolt VI */
-     , (9050,   134,   2.08)  /* Bludgeoning Volley VI */
+VALUES (9050,    85,   2.08)  /* Flame Bolt VI */
+     , (9050,  1161,      2)  /* Heal Self VI */
+     , (9050,    69,   2.08)  /* Shock Wave VI */
      , (9050,   142,   2.08)  /* Lightning Volley VI */
+     , (9050,   134,   2.08)  /* Bludgeoning Volley VI */
+     , (9050,  1420,   2.06)  /* Slowness Other VI */
+     , (9050,  1108,   2.06)  /* Fire Vulnerability Other VI */
+     , (9050,    80,   2.08)  /* Lightning Bolt VI */
      , (9050,   146,   2.08)  /* Flame Volley VI */
      , (9050,   279,   2.02)  /* Magic Resistance Self VI */
-     , (9050,  1108,   2.06)  /* Fire Vulnerability Other VI */
-     , (9050,  1161,      2)  /* Heal Self VI */
      , (9050,  1242,      2)  /* Drain Health Other VI */
      , (9050,  1327,   2.06)  /* Imperil Other VI */
-     , (9050,  1343,   2.06)  /* Weakness Other VI */
-     , (9050,  1420,   2.06)  /* Slowness Other VI */;
+     , (9050,  1343,   2.06)  /* Weakness Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (9050,  94) /* ATTACK_NOTIFICATION_EVENT */

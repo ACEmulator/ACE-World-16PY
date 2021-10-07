@@ -54,9 +54,9 @@ VALUES (6221,   1,   33556314) /* Setup */
      , (6221,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6221,  1091,      2)  /* Fire Protection Self III */
-     , (6221,  1329,      2)  /* Strength Self III */
+VALUES (6221,  1602,      2)  /* Aura of Defender Self III */
      , (6221,  1589,      2)  /* Aura of Heart Seeker Self III */
-     , (6221,  1602,      2)  /* Aura of Defender Self III */
      , (6221,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (6221,  1091,      2)  /* Fire Protection Self III */
+     , (6221,  1329,      2)  /* Strength Self III */
      , (6221,  1624,      2)  /* Aura of Swift Killer Self III */;

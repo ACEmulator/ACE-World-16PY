@@ -110,20 +110,20 @@ VALUES (14879,  0, 32,  0,    0,  200,  200,  200,  200,  220,  220,  200,  200,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (14879,    74,  2.004)  /* Frost Bolt VI */
-     , (14879,   234,  2.017)  /* Vulnerability Other VI */
-     , (14879,   267,  2.017)  /* Defenselessness Other VI */
-     , (14879,   276,  2.008)  /* Magic Resistance Self III */
      , (14879,   520,  2.008)  /* Acid Protection Self VI */
-     , (14879,  1065,  2.017)  /* Cold Vulnerability Other VI */
-     , (14879,  1071,  2.008)  /* Lightning Protection Self VI */
-     , (14879,  1108,  2.017)  /* Fire Vulnerability Other VI */
-     , (14879,  1160,  2.013)  /* Heal Self V */
-     , (14879,  1237,  2.008)  /* Drain Health Other I */
-     , (14879,  1327,  2.017)  /* Imperil Other VI */
      , (14879,  1343,  2.017)  /* Weakness Other VI */
+     , (14879,   267,  2.017)  /* Defenselessness Other VI */
+     , (14879,  1160,  2.013)  /* Heal Self V */
+     , (14879,  2128,  2.004)  /* Ilservian's Flame */
+     , (14879,  1108,  2.017)  /* Fire Vulnerability Other VI */
+     , (14879,   276,  2.008)  /* Magic Resistance Self III */
+     , (14879,  1237,  2.008)  /* Drain Health Other I */
+     , (14879,  1065,  2.017)  /* Cold Vulnerability Other VI */
+     , (14879,   234,  2.017)  /* Vulnerability Other VI */
+     , (14879,  1327,  2.017)  /* Imperil Other VI */
+     , (14879,  1071,  2.008)  /* Lightning Protection Self VI */
      , (14879,  1785,  2.004)  /* Cassius' Ring of Fire */
-     , (14879,  1787,  2.004)  /* Halo of Frost */
-     , (14879,  2128,  2.004)  /* Ilservian's Flame */;
+     , (14879,  1787,  2.004)  /* Halo of Frost */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (14879,  94) /* ATTACK_NOTIFICATION_EVENT */

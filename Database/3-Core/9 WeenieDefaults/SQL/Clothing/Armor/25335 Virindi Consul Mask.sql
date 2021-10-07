@@ -54,6 +54,6 @@ VALUES (25335,   1,   33558445) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25335,   249,      2)  /* Invulnerability Self VI */
-     , (25335,  1312,      2)  /* Armor Self VI */
      , (25335,  1486,      2)  /* Impenetrability VI */
+     , (25335,  1312,      2)  /* Armor Self VI */
      , (25335,  2550,      2)  /* Minor Invulnerability */;

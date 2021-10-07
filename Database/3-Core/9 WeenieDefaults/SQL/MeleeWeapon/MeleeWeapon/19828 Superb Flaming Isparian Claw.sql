@@ -60,8 +60,8 @@ VALUES (19828,   1,   33556361) /* Setup */
      , (19828,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19828,  1094,      2)  /* Fire Protection Self VI */
-     , (19828,  1331,      2)  /* Strength Self V */
+VALUES (19828,  2568,      2)  /* Minor Light Weapon Aptitude */
+     , (19828,  1094,      2)  /* Fire Protection Self VI */
      , (19828,  1591,      2)  /* Aura of Heart Seeker Self V */
      , (19828,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (19828,  2568,      2)  /* Minor Light Weapon Aptitude */;
+     , (19828,  1331,      2)  /* Strength Self V */;

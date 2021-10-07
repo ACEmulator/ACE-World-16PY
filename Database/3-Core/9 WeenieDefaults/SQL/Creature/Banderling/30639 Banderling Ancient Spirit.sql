@@ -121,11 +121,11 @@ VALUES (30639,  0,  4,  0,    0,  350,  161,  109,  182,  161,  245,  109,  210,
      , (30639,  8,  4, 15, 0.75,  350,  161,  109,  182,  161,  245,  109,  210,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30639,    90,   2.03)  /* Force Bolt V */
+VALUES (30639,  1155,   2.01)  /* Piercing Vulnerability Other V */
      , (30639,   109,   2.03)  /* Frost Blast V */
-     , (30639,  1064,   2.03)  /* Cold Vulnerability Other V */
-     , (30639,  1155,   2.01)  /* Piercing Vulnerability Other V */
      , (30639,  1241,   2.01)  /* Drain Health Other V */
+     , (30639,    90,   2.03)  /* Force Bolt V */
+     , (30639,  1064,   2.03)  /* Cold Vulnerability Other V */
      , (30639,  1326,   2.03)  /* Imperil Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

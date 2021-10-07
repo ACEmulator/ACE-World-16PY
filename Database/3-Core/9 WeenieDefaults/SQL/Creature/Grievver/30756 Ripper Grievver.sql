@@ -112,20 +112,20 @@ VALUES (30756,  0,  4,  0,    0,  425,  255,  298,  400,  153,  153,  153,  153,
      , (30756, 22, 32, 125,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30756,   279,      2)  /* Magic Resistance Self VI */
-     , (30756,  1161,   2.01)  /* Heal Self VI */
-     , (30756,  1343,   2.02)  /* Weakness Other VI */
-     , (30756,  1372,   2.02)  /* Frailty Other VI */
-     , (30756,  1396,   2.02)  /* Clumsiness Other VI */
-     , (30756,  1420,   2.02)  /* Slowness Other VI */
-     , (30756,  1444,   2.02)  /* Bafflement Other VI */
-     , (30756,  1468,   2.02)  /* Feeblemind Other VI */
+VALUES (30756,  1161,   2.01)  /* Heal Self VI */
      , (30756,  2053,      2)  /* Executor's Blessing */
      , (30756,  2122,   2.03)  /* Disintegration */
+     , (30756,  1444,   2.02)  /* Bafflement Other VI */
+     , (30756,  1372,   2.02)  /* Frailty Other VI */
+     , (30756,  1420,   2.02)  /* Slowness Other VI */
+     , (30756,  2328,   2.01)  /* Vitality Siphon */
+     , (30756,   279,      2)  /* Magic Resistance Self VI */
      , (30756,  2140,   2.03)  /* Alset's Coil */
      , (30756,  2151,      2)  /* Blessing of the Blade Turner */
      , (30756,  2161,      2)  /* Blessing of the Arrow Turner */
-     , (30756,  2328,   2.01)  /* Vitality Siphon */;
+     , (30756,  1396,   2.02)  /* Clumsiness Other VI */
+     , (30756,  1468,   2.02)  /* Feeblemind Other VI */
+     , (30756,  1343,   2.02)  /* Weakness Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (30756,  94) /* ATTACK_NOTIFICATION_EVENT */

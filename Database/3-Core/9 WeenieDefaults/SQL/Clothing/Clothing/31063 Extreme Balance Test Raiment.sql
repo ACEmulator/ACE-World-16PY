@@ -55,13 +55,13 @@ VALUES (31063,   1,   33554854) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31063,  1317,      2)  /* Armor Other VI */
-     , (31063,  1486,      2)  /* Impenetrability VI */
-     , (31063,  1498,      2)  /* Acid Bane VI */
-     , (31063,  1516,      2)  /* Bludgeon Bane VI */
-     , (31063,  1528,      2)  /* Frost Bane VI */
      , (31063,  1540,      2)  /* Lightning Bane VI */
+     , (31063,  2663,      2)  /* Moderate Strength */
+     , (31063,  1486,      2)  /* Impenetrability VI */
      , (31063,  1552,      2)  /* Flame Bane VI */
-     , (31063,  1562,      2)  /* Blade Bane VI */
      , (31063,  1574,      2)  /* Piercing Bane VI */
      , (31063,  2578,      2)  /* Minor Armor */
-     , (31063,  2663,      2)  /* Moderate Strength */;
+     , (31063,  1562,      2)  /* Blade Bane VI */
+     , (31063,  1498,      2)  /* Acid Bane VI */
+     , (31063,  1516,      2)  /* Bludgeon Bane VI */
+     , (31063,  1528,      2)  /* Frost Bane VI */;

@@ -112,15 +112,15 @@ VALUES (25756,  0,  4,  0,    0,  130,   92,   65,   92,   13,   39,   92,   92,
      , (25756,  8,  4, 45, 0.75,  150,  107,   75,  107,   15,   45,  107,  107,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25756,    66,   2.09)  /* Shock Wave III */
-     , (25756,    67,  2.017)  /* Shock Wave IV */
-     , (25756,    71,   2.09)  /* Frost Bolt III */
-     , (25756,    72,  2.017)  /* Frost Bolt IV */
-     , (25756,   136,  2.005)  /* Frost Volley IV */
-     , (25756,   231,   2.02)  /* Vulnerability Other III */
-     , (25756,  1062,   2.02)  /* Cold Vulnerability Other III */
-     , (25756,  1091,   2.02)  /* Fire Protection Self III */
+VALUES (25756,  1062,   2.02)  /* Cold Vulnerability Other III */
      , (25756,  1309,   2.02)  /* Armor Self III */
+     , (25756,    66,   2.09)  /* Shock Wave III */
+     , (25756,   231,   2.02)  /* Vulnerability Other III */
+     , (25756,    71,   2.09)  /* Frost Bolt III */
+     , (25756,  1091,   2.02)  /* Fire Protection Self III */
+     , (25756,    67,  2.017)  /* Shock Wave IV */
+     , (25756,   136,  2.005)  /* Frost Volley IV */
+     , (25756,    72,  2.017)  /* Frost Bolt IV */
      , (25756,  1836,  2.005)  /* Avalanche */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

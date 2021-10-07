@@ -56,8 +56,8 @@ VALUES (21435,   1,   33557958) /* Setup */
      , (21435,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21435,   296,      2)  /* Light Weapon Mastery Other V */
+VALUES (21435,  1604,      2)  /* Aura of Defender Self V */
      , (21435,  1591,      2)  /* Aura of Heart Seeker Self V */
-     , (21435,  1604,      2)  /* Aura of Defender Self V */
      , (21435,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (21435,  1624,      2)  /* Aura of Swift Killer Self III */;
+     , (21435,  1624,      2)  /* Aura of Swift Killer Self III */
+     , (21435,   296,      2)  /* Light Weapon Mastery Other V */;

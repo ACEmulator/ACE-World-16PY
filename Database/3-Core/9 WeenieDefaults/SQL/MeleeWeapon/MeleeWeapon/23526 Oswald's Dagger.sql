@@ -55,8 +55,8 @@ VALUES (23526,   1,   33555707) /* Setup */
      , (23526,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23526,   854,      2)  /* Deception Mastery Self V */
-     , (23526,  1591,      2)  /* Aura of Heart Seeker Self V */
+VALUES (23526,  1591,      2)  /* Aura of Heart Seeker Self V */
      , (23526,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (23526,  1782,      2)  /* Gertarh's Curse */
-     , (23526,  2582,      2)  /* Minor Quickness */;
+     , (23526,   854,      2)  /* Deception Mastery Self V */
+     , (23526,  2582,      2)  /* Minor Quickness */
+     , (23526,  1782,      2)  /* Gertarh's Curse */;

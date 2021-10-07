@@ -104,8 +104,8 @@ VALUES (7183,  0,  2, 10,  0.5,  140,  112,  112,   70,   90,   90,   90,   24, 
      , (7183, 21,  4,  0,    0,  120,   96,   96,   60,   77,   77,   77,   20,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7183,    77,   2.07)  /* Lightning Bolt III */
-     , (7183,   139,   2.07)  /* Lightning Volley III */;
+VALUES (7183,   139,   2.07)  /* Lightning Volley III */
+     , (7183,    77,   2.07)  /* Lightning Bolt III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (7183, 414) /* PLAYER_DEATH_EVENT */;

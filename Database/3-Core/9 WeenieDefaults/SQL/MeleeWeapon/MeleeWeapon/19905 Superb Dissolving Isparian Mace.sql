@@ -58,8 +58,8 @@ VALUES (19905,   1,   33556325) /* Setup */
      , (19905,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19905,   518,      2)  /* Acid Protection Self IV */
-     , (19905,  1351,      2)  /* Endurance Self III */
+VALUES (19905,  1351,      2)  /* Endurance Self III */
+     , (19905,   518,      2)  /* Acid Protection Self IV */
      , (19905,  1591,      2)  /* Aura of Heart Seeker Self V */
      , (19905,  1615,      2)  /* Aura of Blood Drinker Self V */
      , (19905,  2557,      2)  /* Minor Light Weapon Aptitude */;

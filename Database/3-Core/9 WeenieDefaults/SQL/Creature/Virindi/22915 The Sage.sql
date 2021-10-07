@@ -109,27 +109,27 @@ VALUES (22915,  0,  1,  0,    0,  500,  500,  500,  500,  500,  500,  500,  500,
      , (22915, 17,  1,  0,    0,  500,  500,  500,  500,  500,  500,  500,  500,    0, 3,    0,    0,  0.1,    0,    0,  0.1,    0, 0.13, 0.45,    0, 0.13, 0.45) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22915,    80,   2.07)  /* Lightning Bolt VI */
-     , (22915,    85,   2.07)  /* Flame Bolt VI */
-     , (22915,    97,   2.07)  /* Whirling Blade VI */
-     , (22915,   142,   2.05)  /* Lightning Volley VI */
-     , (22915,   146,   2.05)  /* Flame Volley VI */
-     , (22915,   154,   2.05)  /* Blade Volley VI */
-     , (22915,   234,   2.05)  /* Vulnerability Other VI */
-     , (22915,   285,   2.05)  /* Magic Yield Other VI */
+VALUES (22915,    85,   2.07)  /* Flame Bolt VI */
+     , (22915,  1161,      2)  /* Heal Self VI */
      , (22915,  1089,   2.05)  /* Lightning Vulnerability Other VI */
+     , (22915,   285,   2.05)  /* Magic Yield Other VI */
+     , (22915,  1242,   2.05)  /* Drain Health Other VI */
+     , (22915,   142,   2.05)  /* Lightning Volley VI */
      , (22915,  1108,   2.05)  /* Fire Vulnerability Other VI */
      , (22915,  1132,   2.05)  /* Blade Vulnerability Other VI */
-     , (22915,  1161,      2)  /* Heal Self VI */
+     , (22915,    80,   2.07)  /* Lightning Bolt VI */
+     , (22915,   146,   2.05)  /* Flame Volley VI */
      , (22915,  1176,   2.05)  /* Harm Other VI */
-     , (22915,  1242,   2.05)  /* Drain Health Other VI */
-     , (22915,  1327,   2.05)  /* Imperil Other VI */
+     , (22915,   154,   2.05)  /* Blade Volley VI */
      , (22915,  1372,   2.05)  /* Frailty Other VI */
+     , (22915,    97,   2.07)  /* Whirling Blade VI */
+     , (22915,  1788,    2.2)  /* Eye of the Storm */
+     , (22915,   234,   2.05)  /* Vulnerability Other VI */
+     , (22915,  1327,   2.05)  /* Imperil Other VI */
      , (22915,  1396,   2.05)  /* Clumsiness Other VI */
-     , (22915,  1468,   2.05)  /* Feeblemind Other VI */
      , (22915,  1784,   2.02)  /* Horizon's Blades */
      , (22915,  1785,   2.02)  /* Cassius' Ring of Fire */
-     , (22915,  1788,    2.2)  /* Eye of the Storm */;
+     , (22915,  1468,   2.05)  /* Feeblemind Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (22915,  94) /* ATTACK_NOTIFICATION_EVENT */

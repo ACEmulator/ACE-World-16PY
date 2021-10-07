@@ -108,16 +108,16 @@ VALUES (23570,  0,  1,  0,    0,  600,  600,  600,  600,  600,  600,  600,  600,
      , (23570, 17,  1,  0,    0,  600,  600,  600,  600,  600,  600,  600,  600,    0, 3,    0,    0,  0.1,    0,    0,  0.1,    0, 0.13, 0.45,    0, 0.13, 0.45) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23570,   279,      2)  /* Magic Resistance Self VI */
-     , (23570,  1784,   2.04)  /* Horizon's Blades */
-     , (23570,  1785,   2.04)  /* Cassius' Ring of Fire */
-     , (23570,  2053,      2)  /* Executor's Blessing */
-     , (23570,  2074,   2.04)  /* Gossamer Flesh */
+VALUES (23570,  2053,      2)  /* Executor's Blessing */
      , (23570,  2129,  2.055)  /* Sizzling Fury */
+     , (23570,   279,      2)  /* Magic Resistance Self VI */
+     , (23570,  2328,      2)  /* Vitality Siphon */
+     , (23570,  2074,   2.04)  /* Gossamer Flesh */
+     , (23570,  1785,   2.04)  /* Cassius' Ring of Fire */
      , (23570,  2147,  2.055)  /* Rending Wind */
      , (23570,  2164,   2.04)  /* Swordsman's Gift */
-     , (23570,  2170,   2.04)  /* Inferno's Gift */
-     , (23570,  2328,      2)  /* Vitality Siphon */;
+     , (23570,  1784,   2.04)  /* Horizon's Blades */
+     , (23570,  2170,   2.04)  /* Inferno's Gift */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (23570,  94) /* ATTACK_NOTIFICATION_EVENT */

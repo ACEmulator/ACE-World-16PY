@@ -107,19 +107,19 @@ VALUES (25856,  0,  1,  0,    0,  525,  525,  630,  525,  420,  525,  525,  446,
      , (25856, 22, 64, 120,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25856,    63,   2.02)  /* Acid Stream VI */
-     , (25856,    74,   2.02)  /* Frost Bolt VI */
-     , (25856,    80,   2.02)  /* Lightning Bolt VI */
-     , (25856,    85,   2.02)  /* Flame Bolt VI */
-     , (25856,  2074,   2.02)  /* Gossamer Flesh */
+VALUES (25856,    74,   2.02)  /* Frost Bolt VI */
      , (25856,  2162,   2.02)  /* Olthoi's Gift */
+     , (25856,  2074,   2.02)  /* Gossamer Flesh */
+     , (25856,    80,   2.02)  /* Lightning Bolt VI */
      , (25856,  2168,   2.02)  /* Gelidite's Gift */
+     , (25856,  2730,   2.02)  /* Frost Arc VI */
+     , (25856,    85,   2.02)  /* Flame Bolt VI */
+     , (25856,  2716,   2.02)  /* Acid Arc VI */
+     , (25856,  2737,   2.02)  /* Lightning Arc VI */
+     , (25856,  2744,   2.02)  /* Flame Arc VI */
      , (25856,  2170,   2.04)  /* Inferno's Gift */
      , (25856,  2172,   2.04)  /* Astyrrian's Gift */
-     , (25856,  2716,   2.02)  /* Acid Arc VI */
-     , (25856,  2730,   2.02)  /* Frost Arc VI */
-     , (25856,  2737,   2.02)  /* Lightning Arc VI */
-     , (25856,  2744,   2.02)  /* Flame Arc VI */;
+     , (25856,    63,   2.02)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (25856,  94) /* ATTACK_NOTIFICATION_EVENT */

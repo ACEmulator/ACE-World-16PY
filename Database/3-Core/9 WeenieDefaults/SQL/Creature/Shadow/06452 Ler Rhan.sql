@@ -143,26 +143,26 @@ VALUES (6452,  0,  4,  0,    0,   90,   90,   58,   69,   34,   90,   40,   58, 
      , (6452,  8,  4, 25, 0.75,   90,   90,   58,   69,   34,   90,   40,   58,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6452,    72,  2.048)  /* Frost Bolt IV */
-     , (6452,    78,  2.048)  /* Lightning Bolt IV */
-     , (6452,    83,  2.048)  /* Flame Bolt IV */
-     , (6452,    89,  2.048)  /* Force Bolt IV */
-     , (6452,    95,  2.048)  /* Whirling Blade IV */
-     , (6452,   136,  2.008)  /* Frost Volley IV */
-     , (6452,   140,  2.008)  /* Lightning Volley IV */
+VALUES (6452,  1667,  2.011)  /* Stamina to Health Self IV */
      , (6452,   144,  2.008)  /* Flame Volley IV */
-     , (6452,   148,  2.008)  /* Force Volley IV */
-     , (6452,   152,  2.008)  /* Blade Volley IV */
-     , (6452,   232,  2.013)  /* Vulnerability Other IV */
-     , (6452,   265,  2.013)  /* Defenselessness Other IV */
-     , (6452,   283,  2.013)  /* Magic Yield Other IV */
-     , (6452,  1240,  2.011)  /* Drain Health Other IV */
      , (6452,  1252,  2.011)  /* Drain Stamina Other IV */
-     , (6452,  1263,  2.011)  /* Drain Mana Other IV */
+     , (6452,   136,  2.008)  /* Frost Volley IV */
+     , (6452,    72,  2.048)  /* Frost Bolt IV */
      , (6452,  1293,  2.011)  /* Mana to Health Self IV */
-     , (6452,  1667,  2.011)  /* Stamina to Health Self IV */
+     , (6452,   265,  2.013)  /* Defenselessness Other IV */
+     , (6452,   140,  2.008)  /* Lightning Volley IV */
+     , (6452,    78,  2.048)  /* Lightning Bolt IV */
      , (6452,  1679,  2.011)  /* Stamina to Mana Self IV */
-     , (6452,  1702,  2.011)  /* Health to Mana Self IV */;
+     , (6452,    83,  2.048)  /* Flame Bolt IV */
+     , (6452,   148,  2.008)  /* Force Volley IV */
+     , (6452,  1240,  2.011)  /* Drain Health Other IV */
+     , (6452,   152,  2.008)  /* Blade Volley IV */
+     , (6452,    89,  2.048)  /* Force Bolt IV */
+     , (6452,   283,  2.013)  /* Magic Yield Other IV */
+     , (6452,    95,  2.048)  /* Whirling Blade IV */
+     , (6452,  1702,  2.011)  /* Health to Mana Self IV */
+     , (6452,   232,  2.013)  /* Vulnerability Other IV */
+     , (6452,  1263,  2.011)  /* Drain Mana Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (6452,  94) /* ATTACK_NOTIFICATION_EVENT */

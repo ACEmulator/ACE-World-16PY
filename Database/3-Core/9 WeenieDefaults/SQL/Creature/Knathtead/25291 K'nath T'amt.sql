@@ -102,15 +102,15 @@ VALUES (25291,  0,  4, 180,  0.3,  260,  127,  164,   70,  127,  208,  208,  182
      , (25291, 16,  4,  0,    0,  260,  127,  164,   70,  127,  208,  208,  182,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25291,  1242,   2.11)  /* Drain Health Other VI */
-     , (25291,  2074,   2.12)  /* Gossamer Flesh */
-     , (25291,  2162,   2.11)  /* Olthoi's Gift */
-     , (25291,  2164,   2.11)  /* Swordsman's Gift */
+VALUES (25291,  2174,   2.11)  /* Archer's Gift */
      , (25291,  2166,   2.11)  /* Tusker's Gift */
-     , (25291,  2168,   2.11)  /* Gelidite's Gift */
+     , (25291,  1242,   2.11)  /* Drain Health Other VI */
      , (25291,  2170,   2.11)  /* Inferno's Gift */
+     , (25291,  2162,   2.11)  /* Olthoi's Gift */
+     , (25291,  2074,   2.12)  /* Gossamer Flesh */
      , (25291,  2172,   2.11)  /* Astyrrian's Gift */
-     , (25291,  2174,   2.11)  /* Archer's Gift */;
+     , (25291,  2164,   2.11)  /* Swordsman's Gift */
+     , (25291,  2168,   2.11)  /* Gelidite's Gift */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (25291,  94) /* ATTACK_NOTIFICATION_EVENT */

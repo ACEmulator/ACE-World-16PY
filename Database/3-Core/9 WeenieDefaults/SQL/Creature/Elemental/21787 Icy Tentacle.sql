@@ -109,11 +109,11 @@ VALUES (21787,  0,  8, 30, 0.75,  190,  143,  143,  143, 3800, 3800, 3800, 3800,
      , (21787, 25,  8, 10, 0.75,  200,  150,  150,  150, 4000, 4000, 4000, 4000,    0, 3,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* LowerTentacle */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21787,    74,   2.35)  /* Frost Bolt VI */
-     , (21787,   234,    2.1)  /* Vulnerability Other VI */
-     , (21787,  1327,    2.1)  /* Imperil Other VI */
+VALUES (21787,   234,    2.1)  /* Vulnerability Other VI */
+     , (21787,    74,   2.35)  /* Frost Bolt VI */
+     , (21787,  2168,    2.1)  /* Gelidite's Gift */
      , (21787,  1813,   2.35)  /* Frost Streak VI */
-     , (21787,  2168,    2.1)  /* Gelidite's Gift */;
+     , (21787,  1327,    2.1)  /* Imperil Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (21787,  94) /* ATTACK_NOTIFICATION_EVENT */

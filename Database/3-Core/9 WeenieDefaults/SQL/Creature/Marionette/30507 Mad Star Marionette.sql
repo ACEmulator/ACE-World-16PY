@@ -108,19 +108,19 @@ VALUES (30507,  0,  4,  5, 0.75,  220,  176,   35,   29,   22,  110,   29,   95,
      , (30507, 25,  4,  5, 0.75,  180,  144,   29,   23,   18,   90,   23,   77,    0, 3,    0,    0,  0.3,    0,  0.1,  0.3,    0,    0,  0.3,    0,  0.1, 0.28) /* LowerTentacle */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30507,     3,  2.028)  /* Weakness Other I */
+VALUES (30507,    75,  2.028)  /* Lightning Bolt I */
+     , (30507,     3,  2.028)  /* Weakness Other I */
      , (30507,     6,   2.05)  /* Heal Self I */
+     , (30507,  1367,  2.028)  /* Frailty Other I */
      , (30507,    20,      2)  /* Fire Protection Self I */
+     , (30507,  1415,  2.028)  /* Slowness Other I */
+     , (30507,  1808,  2.028)  /* Frost Streak I */
+     , (30507,  1109,      2)  /* Blade Protection Self I */
+     , (30507,  1814,  2.028)  /* Lightning Streak I */
      , (30507,    24,      2)  /* Armor Self I */
      , (30507,    28,  2.028)  /* Frost Bolt I */
-     , (30507,    75,  2.028)  /* Lightning Bolt I */
-     , (30507,  1109,      2)  /* Blade Protection Self I */
-     , (30507,  1367,  2.028)  /* Frailty Other I */
-     , (30507,  1415,  2.028)  /* Slowness Other I */
      , (30507,  1439,  2.028)  /* Bafflement Other I */
-     , (30507,  1463,  2.028)  /* Feeblemind Other I */
-     , (30507,  1808,  2.028)  /* Frost Streak I */
-     , (30507,  1814,  2.028)  /* Lightning Streak I */;
+     , (30507,  1463,  2.028)  /* Feeblemind Other I */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (30507,  94) /* ATTACK_NOTIFICATION_EVENT */

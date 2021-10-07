@@ -110,28 +110,28 @@ VALUES (9326,  0,  1,  0,    0,  170,  170,  170,  170,  122,  170,  170,  122, 
      , (9326, 17,  1,  0,    0,  150,  150,  150,  150,  108,  150,  150,  108,    0, 3,    0,    0,  0.1,    0,    0,  0.1,    0, 0.13, 0.45,    0, 0.13, 0.45) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9326,    68,  2.105)  /* Shock Wave V */
-     , (9326,    69,  2.105)  /* Shock Wave VI */
-     , (9326,    84,  2.105)  /* Flame Bolt V */
+VALUES (9326,    84,  2.105)  /* Flame Bolt V */
+     , (9326,    68,  2.105)  /* Shock Wave V */
      , (9326,    85,  2.105)  /* Flame Bolt VI */
+     , (9326,  1161,      2)  /* Heal Self VI */
+     , (9326,    69,  2.105)  /* Shock Wave VI */
+     , (9326,   520,      2)  /* Acid Protection Self VI */
+     , (9326,  1094,      2)  /* Fire Protection Self VI */
+     , (9326,  1035,      2)  /* Cold Protection Self VI */
+     , (9326,  1108,   2.04)  /* Fire Vulnerability Other VI */
      , (9326,   279,      2)  /* Magic Resistance Self VI */
      , (9326,   285,   2.04)  /* Magic Yield Other VI */
-     , (9326,   520,      2)  /* Acid Protection Self VI */
-     , (9326,  1023,      2)  /* Bludgeoning Protection Self VI */
-     , (9326,  1035,      2)  /* Cold Protection Self VI */
-     , (9326,  1053,   2.04)  /* Bludgeoning Vulnerability Other VI */
-     , (9326,  1071,      2)  /* Lightning Protection Self VI */
-     , (9326,  1094,      2)  /* Fire Protection Self VI */
-     , (9326,  1108,   2.04)  /* Fire Vulnerability Other VI */
-     , (9326,  1114,      2)  /* Blade Protection Self VI */
-     , (9326,  1138,      2)  /* Piercing Protection Self VI */
-     , (9326,  1161,      2)  /* Heal Self VI */
      , (9326,  1242,      2)  /* Drain Health Other VI */
+     , (9326,  1114,      2)  /* Blade Protection Self VI */
+     , (9326,  1053,   2.04)  /* Bludgeoning Vulnerability Other VI */
      , (9326,  1312,      2)  /* Armor Self VI */
-     , (9326,  1327,   2.04)  /* Imperil Other VI */
-     , (9326,  1343,   2.04)  /* Weakness Other VI */
      , (9326,  1444,   2.04)  /* Bafflement Other VI */
-     , (9326,  1468,   2.04)  /* Feeblemind Other VI */;
+     , (9326,  1327,   2.04)  /* Imperil Other VI */
+     , (9326,  1071,      2)  /* Lightning Protection Self VI */
+     , (9326,  1138,      2)  /* Piercing Protection Self VI */
+     , (9326,  1468,   2.04)  /* Feeblemind Other VI */
+     , (9326,  1343,   2.04)  /* Weakness Other VI */
+     , (9326,  1023,      2)  /* Bludgeoning Protection Self VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (9326,  94) /* ATTACK_NOTIFICATION_EVENT */

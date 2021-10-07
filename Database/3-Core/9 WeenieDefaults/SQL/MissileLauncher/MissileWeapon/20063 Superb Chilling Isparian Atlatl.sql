@@ -57,8 +57,8 @@ VALUES (20063,   1,   33557797) /* Setup */
      , (20063,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20063,  1033,      2)  /* Cold Protection Self IV */
-     , (20063,  1375,      2)  /* Coordination Self III */
-     , (20063,  1604,      2)  /* Aura of Defender Self V */
+VALUES (20063,  1604,      2)  /* Aura of Defender Self V */
+     , (20063,  2567,      2)  /* Minor Missile Weapon Aptitude */
      , (20063,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (20063,  2567,      2)  /* Minor Missile Weapon Aptitude */;
+     , (20063,  1033,      2)  /* Cold Protection Self IV */
+     , (20063,  1375,      2)  /* Coordination Self III */;

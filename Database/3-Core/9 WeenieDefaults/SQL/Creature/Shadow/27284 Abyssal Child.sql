@@ -126,22 +126,22 @@ VALUES (27284,  0,  4,  0,    0,  480,  480,  384,  408,  288,  528,  336,  360,
      , (27284,  8,  4, 70, 0.75,  480,  480,  384,  408,  288,  528,  336,  360,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27284,    74,   2.02)  /* Frost Bolt VI */
+VALUES (27284,    85,   2.02)  /* Flame Bolt VI */
+     , (27284,  1161,   2.02)  /* Heal Self VI */
+     , (27284,  1089,   2.02)  /* Lightning Vulnerability Other VI */
+     , (27284,  2053,  2.005)  /* Executor's Blessing */
+     , (27284,  1132,   2.02)  /* Blade Vulnerability Other VI */
      , (27284,    80,   2.02)  /* Lightning Bolt VI */
-     , (27284,    85,   2.02)  /* Flame Bolt VI */
+     , (27284,  3212,   2.01)  /* Guilt Trip */
+     , (27284,  1156,   2.02)  /* Piercing Vulnerability Other VI */
+     , (27284,  1254,   2.02)  /* Drain Stamina Other VI */
+     , (27284,    74,   2.02)  /* Frost Bolt VI */
+     , (27284,   285,   2.02)  /* Magic Yield Other VI */
+     , (27284,  1242,   2.02)  /* Drain Health Other VI */
      , (27284,    91,   2.02)  /* Force Bolt VI */
      , (27284,    97,   2.02)  /* Whirling Blade VI */
-     , (27284,   285,   2.02)  /* Magic Yield Other VI */
      , (27284,  1065,   2.02)  /* Cold Vulnerability Other VI */
-     , (27284,  1089,   2.02)  /* Lightning Vulnerability Other VI */
-     , (27284,  1132,   2.02)  /* Blade Vulnerability Other VI */
-     , (27284,  1156,   2.02)  /* Piercing Vulnerability Other VI */
-     , (27284,  1161,   2.02)  /* Heal Self VI */
-     , (27284,  1242,   2.02)  /* Drain Health Other VI */
-     , (27284,  1254,   2.02)  /* Drain Stamina Other VI */
-     , (27284,  1265,   2.02)  /* Drain Mana Other VI */
-     , (27284,  2053,  2.005)  /* Executor's Blessing */
-     , (27284,  3212,   2.01)  /* Guilt Trip */;
+     , (27284,  1265,   2.02)  /* Drain Mana Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (27284,  94) /* ATTACK_NOTIFICATION_EVENT */

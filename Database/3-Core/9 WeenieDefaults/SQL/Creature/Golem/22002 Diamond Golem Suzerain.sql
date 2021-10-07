@@ -122,13 +122,13 @@ VALUES (22002,  0,  4,  0,    0,  350,  277,  315,  350,  294,  294,  294,  294,
      , (22002,  8,  4, 140, 0.75,  350,  277,  315,  350,  294,  294,  294,  294,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22002,    68,   2.08)  /* Shock Wave V */
+VALUES (22002,  1343,  2.048)  /* Weakness Other VI */
+     , (22002,  1327,  2.048)  /* Imperil Other VI */
+     , (22002,  1160,   2.01)  /* Heal Self V */
+     , (22002,    68,   2.08)  /* Shock Wave V */
+     , (22002,  1241,   2.01)  /* Drain Health Other V */
      , (22002,    69,   2.08)  /* Shock Wave VI */
      , (22002,  1053,  2.048)  /* Bludgeoning Vulnerability Other VI */
-     , (22002,  1160,   2.01)  /* Heal Self V */
-     , (22002,  1241,   2.01)  /* Drain Health Other V */
-     , (22002,  1327,  2.048)  /* Imperil Other VI */
-     , (22002,  1343,  2.048)  /* Weakness Other VI */
      , (22002,  2144,   2.02)  /* Crushing Shame */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

@@ -48,6 +48,6 @@ VALUES (9601,   1,   33557115) /* Setup */
      , (9601,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9601,   586,      2)  /* Item Enchantment Mastery Self VI */
-     , (9601,   608,      2)  /* Life Magic Mastery Self IV */
-     , (9601,   658,      2)  /* Mana Conversion Mastery Self VI */;
+VALUES (9601,   658,      2)  /* Mana Conversion Mastery Self VI */
+     , (9601,   586,      2)  /* Item Enchantment Mastery Self VI */
+     , (9601,   608,      2)  /* Life Magic Mastery Self IV */;

@@ -110,18 +110,18 @@ VALUES (25866,  0,  4, 160, 0.75,  700,  630,  560,  525,  525,  665,  665,  560
      , (25866, 25,  4, 160, 0.75,  700,  630,  560,  525,  525,  665,  665,  560,    0, 3,    0,    0,  0.3,    0,  0.1,  0.3,    0,    0,  0.3,    0,  0.1, 0.28) /* LowerTentacle */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25866,    69,   2.04)  /* Shock Wave VI */
-     , (25866,    80,   2.04)  /* Lightning Bolt VI */
-     , (25866,    91,   2.04)  /* Force Bolt VI */
-     , (25866,  2166,   2.02)  /* Tusker's Gift */
-     , (25866,  2172,   2.02)  /* Astyrrian's Gift */
-     , (25866,  2174,   2.02)  /* Archer's Gift */
+VALUES (25866,    80,   2.04)  /* Lightning Bolt VI */
      , (25866,  2176,   2.02)  /* Enervation */
      , (25866,  2178,   2.02)  /* Decrepitude's Grasp */
      , (25866,  2180,   2.02)  /* Energy Flux */
      , (25866,  2318,   2.02)  /* Gravity Well */
      , (25866,  2723,   2.04)  /* Force Arc VI */
+     , (25866,    69,   2.04)  /* Shock Wave VI */
+     , (25866,    91,   2.04)  /* Force Bolt VI */
      , (25866,  2737,   2.04)  /* Lightning Arc VI */
+     , (25866,  2166,   2.02)  /* Tusker's Gift */
+     , (25866,  2172,   2.02)  /* Astyrrian's Gift */
+     , (25866,  2174,   2.02)  /* Archer's Gift */
      , (25866,  2751,   2.04)  /* Shock Arc VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

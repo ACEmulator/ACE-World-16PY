@@ -51,5 +51,5 @@ VALUES (30870,   1,   33559270) /* Setup */
      , (30870,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30870,  2096,      2)  /* Aura of Infected Caress */
-     , (30870,  2696,      2)  /* Moderate Light Weapon Aptitude */;
+VALUES (30870,  2696,      2)  /* Moderate Light Weapon Aptitude */
+     , (30870,  2096,      2)  /* Aura of Infected Caress */;

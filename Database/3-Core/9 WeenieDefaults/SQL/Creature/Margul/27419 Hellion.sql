@@ -109,21 +109,21 @@ VALUES (27419,  0,  2, 160, 0.75,  600,  630,  600,  570,  570,  720,  720,  570
      , (27419, 22, 16, 145,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27419,    63,   2.04)  /* Acid Stream VI */
-     , (27419,    85,   2.04)  /* Flame Bolt VI */
-     , (27419,   574,   2.01)  /* Creature Enchantment Ineptitude Other VI */
-     , (27419,   628,   2.01)  /* Life Magic Ineptitude Other VI */
+VALUES (27419,  1609,  2.005)  /* Lure Blade IV */
+     , (27419,  2716,   2.04)  /* Acid Arc VI */
      , (27419,   652,   2.01)  /* War Magic Ineptitude Other VI */
-     , (27419,  1555,  2.005)  /* Blade Lure IV */
-     , (27419,  1609,  2.005)  /* Lure Blade IV */
-     , (27419,  1619,  2.005)  /* Blood Loather IV */
      , (27419,  1631,  2.005)  /* Leaden Weapon IV */
+     , (27419,    85,   2.04)  /* Flame Bolt VI */
+     , (27419,  2318,   2.02)  /* Gravity Well */
+     , (27419,  1555,  2.005)  /* Blade Lure IV */
+     , (27419,  1619,  2.005)  /* Blood Loather IV */
      , (27419,  2074,   2.03)  /* Gossamer Flesh */
      , (27419,  2162,   2.02)  /* Olthoi's Gift */
+     , (27419,   628,   2.01)  /* Life Magic Ineptitude Other VI */
+     , (27419,  2744,   2.04)  /* Flame Arc VI */
      , (27419,  2170,   2.02)  /* Inferno's Gift */
-     , (27419,  2318,   2.02)  /* Gravity Well */
-     , (27419,  2716,   2.04)  /* Acid Arc VI */
-     , (27419,  2744,   2.04)  /* Flame Arc VI */;
+     , (27419,   574,   2.01)  /* Creature Enchantment Ineptitude Other VI */
+     , (27419,    63,   2.04)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (27419,  94) /* ATTACK_NOTIFICATION_EVENT */

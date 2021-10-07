@@ -42,6 +42,6 @@ VALUES (28393,   1,   33558878) /* Setup */
      , (28393,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28393,   272,      2)  /* Magic Resistance Other V */
-     , (28393,  3376,      2)  /* Lesser Vision Beyond the Grave */
-     , (28393,  3407,      2)  /* Lesser Evil Thirst */;
+VALUES (28393,  3407,      2)  /* Lesser Evil Thirst */
+     , (28393,   272,      2)  /* Magic Resistance Other V */
+     , (28393,  3376,      2)  /* Lesser Vision Beyond the Grave */;

@@ -101,8 +101,8 @@ VALUES (2570,  0,  4,  2,  0.3,   60,   29,   38,   16,   29,   48,   48,   42, 
      , (2570, 16,  4,  0,    0,   60,   29,   38,   16,   29,   48,   48,   42,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2570,  1097,    2.5)  /* Flaming Missile */
-     , (2570,  1481,    2.5)  /* Flaming Missile Volley */;
+VALUES (2570,  1481,    2.5)  /* Flaming Missile Volley */
+     , (2570,  1097,    2.5)  /* Flaming Missile */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (2570,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -105,13 +105,13 @@ VALUES (6534,  0,  2,  5,  0.5,   10,   10,    4,    5,    5,   10,    1,    4, 
      , (6534, 21,  4,  0,    0,    5,    5,    2,    2,    3,    5,    1,    2,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6534,    28,  2.015)  /* Frost Bolt I */
-     , (6534,    75,  2.015)  /* Lightning Bolt I */
-     , (6534,  1237,   2.01)  /* Drain Health Other I */
-     , (6534,  1249,   2.01)  /* Drain Stamina Other I */
-     , (6534,  1260,   2.01)  /* Drain Mana Other I */
+VALUES (6534,    75,  2.015)  /* Lightning Bolt I */
      , (6534,  1302,   2.01)  /* Mana to Stamina Other I */
-     , (6534,  1658,   2.01)  /* Stamina to Health Other I */;
+     , (6534,  1237,   2.01)  /* Drain Health Other I */
+     , (6534,  1658,   2.01)  /* Stamina to Health Other I */
+     , (6534,    28,  2.015)  /* Frost Bolt I */
+     , (6534,  1249,   2.01)  /* Drain Stamina Other I */
+     , (6534,  1260,   2.01)  /* Drain Mana Other I */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (6534,  94) /* ATTACK_NOTIFICATION_EVENT */

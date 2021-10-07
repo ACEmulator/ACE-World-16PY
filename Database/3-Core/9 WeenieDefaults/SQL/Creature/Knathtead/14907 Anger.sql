@@ -102,12 +102,12 @@ VALUES (14907,  0,  4,  2,  0.3,   60,   29,   38,   16,   29,   48,   48,   42,
      , (14907, 16,  4,  0,    0,   60,   29,   38,   16,   29,   48,   48,   42,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (14907,     7,   2.15)  /* Harm Other I */
+VALUES (14907,    64,   2.15)  /* Shock Wave I */
+     , (14907,     7,   2.15)  /* Harm Other I */
      , (14907,    27,    2.2)  /* Flame Bolt I */
-     , (14907,    28,    2.2)  /* Frost Bolt I */
-     , (14907,    64,   2.15)  /* Shock Wave I */
      , (14907,    75,   2.15)  /* Lightning Bolt I */
-     , (14907,    86,   2.15)  /* Force Bolt I */;
+     , (14907,    86,   2.15)  /* Force Bolt I */
+     , (14907,    28,    2.2)  /* Frost Bolt I */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (14907,  94) /* ATTACK_NOTIFICATION_EVENT */

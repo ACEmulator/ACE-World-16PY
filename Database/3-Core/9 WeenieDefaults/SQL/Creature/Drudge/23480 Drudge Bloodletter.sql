@@ -124,14 +124,14 @@ VALUES (23480,  0,  4,  0,    0,  350,  294,  224,  315,  294,  315,  294,   91,
      , (23480,  8,  4, 25, 0.75,  350,  294,  224,  315,  294,  315,  294,   91,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23480,    63,   2.02)  /* Acid Stream VI */
-     , (23480,    74,   2.02)  /* Frost Bolt VI */
-     , (23480,    91,   2.02)  /* Force Bolt VI */
+VALUES (23480,  1156,  2.005)  /* Piercing Vulnerability Other VI */
      , (23480,   234,  2.013)  /* Vulnerability Other VI */
-     , (23480,   267,  2.013)  /* Defenselessness Other VI */
+     , (23480,    74,   2.02)  /* Frost Bolt VI */
      , (23480,   526,  2.005)  /* Acid Vulnerability Other VI */
+     , (23480,   267,  2.013)  /* Defenselessness Other VI */
+     , (23480,    91,   2.02)  /* Force Bolt VI */
      , (23480,  1065,  2.005)  /* Cold Vulnerability Other VI */
-     , (23480,  1156,  2.005)  /* Piercing Vulnerability Other VI */;
+     , (23480,    63,   2.02)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (23480,  94) /* ATTACK_NOTIFICATION_EVENT */

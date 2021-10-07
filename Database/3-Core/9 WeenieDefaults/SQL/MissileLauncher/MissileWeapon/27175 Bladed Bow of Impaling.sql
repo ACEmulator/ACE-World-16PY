@@ -62,7 +62,7 @@ VALUES (27175,   1,   33558633) /* Setup */
      , (27175,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27175,  1381,      2)  /* Coordination Other III */
-     , (27175,  1603,      2)  /* Aura of Defender Self IV */
+VALUES (27175,  1603,      2)  /* Aura of Defender Self IV */
      , (27175,  1614,      2)  /* Aura of Blood Drinker Self IV */
-     , (27175,  1625,      2)  /* Aura of Swift Killer Self IV */;
+     , (27175,  1625,      2)  /* Aura of Swift Killer Self IV */
+     , (27175,  1381,      2)  /* Coordination Other III */;

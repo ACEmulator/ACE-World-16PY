@@ -54,9 +54,9 @@ VALUES (6232,   1,   33556327) /* Setup */
      , (6232,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6232,  1068,      2)  /* Lightning Protection Self III */
-     , (6232,  1351,      2)  /* Endurance Self III */
-     , (6232,  1589,      2)  /* Aura of Heart Seeker Self III */
+VALUES (6232,  1351,      2)  /* Endurance Self III */
      , (6232,  1602,      2)  /* Aura of Defender Self III */
+     , (6232,  1589,      2)  /* Aura of Heart Seeker Self III */
      , (6232,  1613,      2)  /* Aura of Blood Drinker Self III */
-     , (6232,  1624,      2)  /* Aura of Swift Killer Self III */;
+     , (6232,  1624,      2)  /* Aura of Swift Killer Self III */
+     , (6232,  1068,      2)  /* Lightning Protection Self III */;

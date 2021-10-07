@@ -102,11 +102,11 @@ VALUES (23558,  0,  4, 80,  0.3,  260,  127,  164,   70,  127,  208,  208,  182,
      , (23558, 16,  4,  0,    0,  260,  127,  164,   70,  127,  208,  208,  182,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23558,  1241,   2.01)  /* Drain Health Other V */
-     , (23558,  2121,   2.24)  /* Corrosive Flash */
+VALUES (23558,  2121,   2.24)  /* Corrosive Flash */
      , (23558,  2122,   2.25)  /* Disintegration */
+     , (23558,  2717,   2.25)  /* Acid Arc VII */
      , (23558,  2123,   2.25)  /* Celdiseth's Searing */
-     , (23558,  2717,   2.25)  /* Acid Arc VII */;
+     , (23558,  1241,   2.01)  /* Drain Health Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (23558,  94) /* ATTACK_NOTIFICATION_EVENT */

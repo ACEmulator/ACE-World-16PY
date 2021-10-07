@@ -50,9 +50,9 @@ VALUES (24056,   1,   33556933) /* Setup */
      , (24056,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24056,   170,      2)  /* Regeneration Self VI */
-     , (24056,   193,      2)  /* Rejuvenation Self VI */
+VALUES (24056,  2012,      2)  /* Wizard's Intellect */
      , (24056,   217,      2)  /* Mana Renewal Self VI */
      , (24056,  2004,      2)  /* Warrior's Vitality */
+     , (24056,   193,      2)  /* Rejuvenation Self VI */
      , (24056,  2008,      2)  /* Warrior's Vigor */
-     , (24056,  2012,      2)  /* Wizard's Intellect */;
+     , (24056,   170,      2)  /* Regeneration Self VI */;

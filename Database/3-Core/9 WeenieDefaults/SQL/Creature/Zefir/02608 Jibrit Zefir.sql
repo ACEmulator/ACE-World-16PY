@@ -105,19 +105,19 @@ VALUES (2608,  0,  2,  5,  0.5,   20,   16,    4,   18,    4,   11,    8,    4, 
      , (2608, 21,  4,  0,    0,   10,    8,    2,    9,    2,    6,    4,    2,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2608,     6,  2.015)  /* Heal Self I */
-     , (2608,     7,  2.005)  /* Harm Other I */
-     , (2608,    27,  2.034)  /* Flame Bolt I */
-     , (2608,    64,  2.034)  /* Shock Wave I */
+VALUES (2608,    64,  2.034)  /* Shock Wave I */
      , (2608,    86,  2.034)  /* Force Bolt I */
-     , (2608,    92,  2.034)  /* Whirling Blade I */
-     , (2608,    93,  2.045)  /* Whirling Blade II */
+     , (2608,     6,  2.015)  /* Heal Self I */
+     , (2608,     7,  2.005)  /* Harm Other I */
      , (2608,   280,   2.01)  /* Magic Yield Other I */
-     , (2608,  1195,  2.005)  /* Enfeeble Other I */
+     , (2608,    92,  2.034)  /* Whirling Blade I */
+     , (2608,  1415,  2.005)  /* Slowness Other I */
      , (2608,  1237,   2.01)  /* Drain Health Other I */
+     , (2608,    27,  2.034)  /* Flame Bolt I */
+     , (2608,    93,  2.045)  /* Whirling Blade II */
      , (2608,  1249,   2.01)  /* Drain Stamina Other I */
-     , (2608,  1260,   2.01)  /* Drain Mana Other I */
-     , (2608,  1415,  2.005)  /* Slowness Other I */;
+     , (2608,  1195,  2.005)  /* Enfeeble Other I */
+     , (2608,  1260,   2.01)  /* Drain Mana Other I */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (2608,  94) /* ATTACK_NOTIFICATION_EVENT */

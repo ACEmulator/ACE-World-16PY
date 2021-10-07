@@ -108,14 +108,14 @@ VALUES (25873,  0,  4, 110, 0.75,  500,  500,  425,  425,  475,  425,  475,  425
      , (25873, 25,  4, 110,  0.5,  500,  500,  425,  425,  475,  425,  475,  425,    0, 3,    0,    0,  0.3,    0,  0.1,  0.3,    0,    0,  0.3,    0,  0.1, 0.28) /* LowerTentacle */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25873,    80,   2.04)  /* Lightning Bolt VI */
-     , (25873,   234,   2.02)  /* Vulnerability Other VI */
-     , (25873,  1089,   2.02)  /* Lightning Vulnerability Other VI */
-     , (25873,  1327,   2.02)  /* Imperil Other VI */
-     , (25873,  1343,   2.03)  /* Weakness Other VI */
-     , (25873,  1420,   2.03)  /* Slowness Other VI */
+VALUES (25873,  1089,   2.02)  /* Lightning Vulnerability Other VI */
+     , (25873,  2737,   2.04)  /* Lightning Arc VI */
      , (25873,  1444,   2.03)  /* Bafflement Other VI */
-     , (25873,  2737,   2.04)  /* Lightning Arc VI */;
+     , (25873,  1420,   2.03)  /* Slowness Other VI */
+     , (25873,    80,   2.04)  /* Lightning Bolt VI */
+     , (25873,   234,   2.02)  /* Vulnerability Other VI */
+     , (25873,  1343,   2.03)  /* Weakness Other VI */
+     , (25873,  1327,   2.02)  /* Imperil Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (25873,  94) /* ATTACK_NOTIFICATION_EVENT */

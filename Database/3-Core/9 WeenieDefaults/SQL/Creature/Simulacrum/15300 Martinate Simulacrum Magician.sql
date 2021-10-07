@@ -125,26 +125,26 @@ VALUES (15300,  0,  4,  0,    0,  120,  120,  120,  120,  120,  120,  120,  120,
      , (15300,  8,  4,  2, 0.75,  120,  120,  120,  120,  120,  120,  120,  120,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (15300,    62,  2.011)  /* Acid Stream V */
-     , (15300,    68,  2.011)  /* Shock Wave V */
+VALUES (15300,   137,  2.011)  /* Frost Volley V */
      , (15300,    73,  2.011)  /* Frost Bolt V */
-     , (15300,    79,  2.011)  /* Lightning Bolt V */
-     , (15300,    84,  2.011)  /* Flame Bolt V */
-     , (15300,    90,  2.011)  /* Force Bolt V */
-     , (15300,    96,  2.011)  /* Whirling Blade V */
      , (15300,   129,  2.011)  /* Acid Volley V */
-     , (15300,   133,  2.017)  /* Bludgeoning Volley V */
-     , (15300,   137,  2.011)  /* Frost Volley V */
-     , (15300,   141,  2.011)  /* Lightning Volley V */
-     , (15300,   145,  2.011)  /* Flame Volley V */
-     , (15300,   153,  2.017)  /* Blade Volley V */
-     , (15300,   284,  2.023)  /* Magic Yield Other V */
      , (15300,  1155,   2.09)  /* Piercing Vulnerability Other V */
-     , (15300,  1160,   2.09)  /* Heal Self V */
-     , (15300,  1240,  2.032)  /* Drain Health Other IV */
-     , (15300,  1294,  2.032)  /* Mana to Health Self V */
      , (15300,  1668,  2.032)  /* Stamina to Health Self V */
-     , (15300,  1680,  2.032)  /* Stamina to Mana Self V */;
+     , (15300,  1160,   2.09)  /* Heal Self V */
+     , (15300,    68,  2.011)  /* Shock Wave V */
+     , (15300,   141,  2.011)  /* Lightning Volley V */
+     , (15300,   133,  2.017)  /* Bludgeoning Volley V */
+     , (15300,   153,  2.017)  /* Blade Volley V */
+     , (15300,  1294,  2.032)  /* Mana to Health Self V */
+     , (15300,    79,  2.011)  /* Lightning Bolt V */
+     , (15300,  1680,  2.032)  /* Stamina to Mana Self V */
+     , (15300,   145,  2.011)  /* Flame Volley V */
+     , (15300,    84,  2.011)  /* Flame Bolt V */
+     , (15300,  1240,  2.032)  /* Drain Health Other IV */
+     , (15300,    90,  2.011)  /* Force Bolt V */
+     , (15300,   284,  2.023)  /* Magic Yield Other V */
+     , (15300,    96,  2.011)  /* Whirling Blade V */
+     , (15300,    62,  2.011)  /* Acid Stream V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (15300,  94) /* ATTACK_NOTIFICATION_EVENT */

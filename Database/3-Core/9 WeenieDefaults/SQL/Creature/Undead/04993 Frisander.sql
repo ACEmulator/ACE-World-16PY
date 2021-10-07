@@ -109,26 +109,26 @@ VALUES (4993,  0,  4,  0,    0,  110,   88,   46,   68, 11000,   55,   68,   77,
      , (4993,  8,  4,  3, 0.75,  130,  104,   55,   81, 13000,   65,   81,   91,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (4993,    72,  2.005)  /* Frost Bolt IV */
+VALUES (4993,  1253,   2.01)  /* Drain Stamina Other V */
+     , (4993,   137,  2.005)  /* Frost Volley V */
      , (4993,    73,  2.005)  /* Frost Bolt V */
+     , (4993,  1310,   2.01)  /* Armor Self IV */
+     , (4993,  1093,   2.01)  /* Fire Protection Self V */
+     , (4993,  1352,   2.01)  /* Endurance Self IV */
+     , (4993,   148,  2.005)  /* Force Volley IV */
+     , (4993,  1160,   2.02)  /* Heal Self V */
+     , (4993,   136,  2.005)  /* Frost Volley IV */
+     , (4993,    72,  2.005)  /* Frost Bolt IV */
+     , (4993,   149,  2.005)  /* Force Volley V */
+     , (4993,  1241,   2.01)  /* Drain Health Other V */
      , (4993,    89,  2.005)  /* Force Bolt IV */
      , (4993,    90,  2.005)  /* Force Bolt V */
+     , (4993,  1180,   2.01)  /* Revitalize Self IV */
      , (4993,   108,  2.005)  /* Frost Blast IV */
      , (4993,   109,  2.005)  /* Frost Blast V */
-     , (4993,   120,  2.005)  /* Force Blast IV */
-     , (4993,   121,  2.005)  /* Force Blast V */
-     , (4993,   136,  2.005)  /* Frost Volley IV */
-     , (4993,   137,  2.005)  /* Frost Volley V */
-     , (4993,   148,  2.005)  /* Force Volley IV */
-     , (4993,   149,  2.005)  /* Force Volley V */
-     , (4993,  1093,   2.01)  /* Fire Protection Self V */
-     , (4993,  1160,   2.02)  /* Heal Self V */
-     , (4993,  1180,   2.01)  /* Revitalize Self IV */
-     , (4993,  1241,   2.01)  /* Drain Health Other V */
-     , (4993,  1253,   2.01)  /* Drain Stamina Other V */
      , (4993,  1264,   2.01)  /* Drain Mana Other V */
-     , (4993,  1310,   2.01)  /* Armor Self IV */
-     , (4993,  1352,   2.01)  /* Endurance Self IV */;
+     , (4993,   120,  2.005)  /* Force Blast IV */
+     , (4993,   121,  2.005)  /* Force Blast V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (4993,  94) /* ATTACK_NOTIFICATION_EVENT */

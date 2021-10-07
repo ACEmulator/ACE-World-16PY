@@ -52,5 +52,5 @@ VALUES (27592,   1,   33557227) /* Setup */
      , (27592,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27592,  1041,      2)  /* Cold Protection Other VI */
-     , (27592,  1616,      2)  /* Aura of Blood Drinker Self VI */;
+VALUES (27592,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (27592,  1041,      2)  /* Cold Protection Other VI */;

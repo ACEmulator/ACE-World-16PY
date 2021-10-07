@@ -124,25 +124,25 @@ VALUES (22911,  0,  4,  0,    0,  250,  250,  225,  225,  188,  300,  200,  213,
      , (22911,  8,  4, 65, 0.75,  250,  250,  225,  225,  188,  300,  200,  213,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22911,    72,  2.032)  /* Frost Bolt IV */
-     , (22911,    78,  2.032)  /* Lightning Bolt IV */
+VALUES (22911,  1159,   2.02)  /* Heal Self IV */
      , (22911,    83,  2.032)  /* Flame Bolt IV */
-     , (22911,    89,  2.032)  /* Force Bolt IV */
-     , (22911,    95,  2.032)  /* Whirling Blade IV */
-     , (22911,   136,  2.003)  /* Frost Volley IV */
-     , (22911,   140,  2.003)  /* Lightning Volley IV */
      , (22911,   144,  2.003)  /* Flame Volley IV */
+     , (22911,   136,  2.003)  /* Frost Volley IV */
+     , (22911,    72,  2.032)  /* Frost Bolt IV */
      , (22911,   148,  2.003)  /* Force Volley IV */
-     , (22911,   152,  2.003)  /* Blade Volley IV */
-     , (22911,   232,  2.023)  /* Vulnerability Other IV */
-     , (22911,   283,  2.023)  /* Magic Yield Other IV */
-     , (22911,  1087,   2.02)  /* Lightning Vulnerability Other IV */
-     , (22911,  1159,   2.02)  /* Heal Self IV */
+     , (22911,   140,  2.003)  /* Lightning Volley IV */
+     , (22911,    78,  2.032)  /* Lightning Bolt IV */
      , (22911,  1174,  2.023)  /* Harm Other IV */
      , (22911,  1240,  2.011)  /* Drain Health Other IV */
+     , (22911,   152,  2.003)  /* Blade Volley IV */
+     , (22911,    89,  2.032)  /* Force Bolt IV */
+     , (22911,   283,  2.023)  /* Magic Yield Other IV */
+     , (22911,    95,  2.032)  /* Whirling Blade IV */
+     , (22911,   232,  2.023)  /* Vulnerability Other IV */
      , (22911,  1325,    2.2)  /* Imperil Other IV */
      , (22911,  1394,  2.023)  /* Clumsiness Other IV */
-     , (22911,  1466,  2.023)  /* Feeblemind Other IV */;
+     , (22911,  1466,  2.023)  /* Feeblemind Other IV */
+     , (22911,  1087,   2.02)  /* Lightning Vulnerability Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (22911,  94) /* ATTACK_NOTIFICATION_EVENT */

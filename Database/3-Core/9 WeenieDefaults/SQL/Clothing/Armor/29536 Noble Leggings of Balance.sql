@@ -55,8 +55,8 @@ VALUES (29536,   1,   33554856) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29536,   568,      2)  /* Creature Enchantment Mastery Other VI */
-     , (29536,   592,      2)  /* Item Enchantment Mastery Other VI */
      , (29536,   616,      2)  /* Life Magic Mastery Other VI */
+     , (29536,   592,      2)  /* Item Enchantment Mastery Other VI */
      , (29536,   640,      2)  /* War Magic Mastery Other VI */
      , (29536,  2108,      2)  /* Brogard's Defiance */
      , (29536,  3575,      2)  /* Perfect Balance */;

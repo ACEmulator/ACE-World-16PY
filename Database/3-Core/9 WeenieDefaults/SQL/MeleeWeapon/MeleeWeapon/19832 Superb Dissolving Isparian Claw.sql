@@ -60,8 +60,8 @@ VALUES (19832,   1,   33556359) /* Setup */
      , (19832,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19832,   520,      2)  /* Acid Protection Self VI */
+VALUES (19832,  2568,      2)  /* Minor Light Weapon Aptitude */
+     , (19832,   520,      2)  /* Acid Protection Self VI */
      , (19832,  1353,      2)  /* Endurance Self V */
      , (19832,  1591,      2)  /* Aura of Heart Seeker Self V */
-     , (19832,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (19832,  2568,      2)  /* Minor Light Weapon Aptitude */;
+     , (19832,  1615,      2)  /* Aura of Blood Drinker Self V */;

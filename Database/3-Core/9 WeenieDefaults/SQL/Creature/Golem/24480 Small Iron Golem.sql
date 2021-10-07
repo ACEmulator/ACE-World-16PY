@@ -113,11 +113,11 @@ VALUES (24480,  0,  4,  0,    0,  360,  209,  248,  324,  180,  158,  108,  216,
      , (24480,  8,  4, 110, 0.75,  360,  209,  248,  324,  180,  158,  108,  216,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24480,    69,   2.04)  /* Shock Wave VI */
+VALUES (24480,    85,   2.04)  /* Flame Bolt VI */
+     , (24480,    69,   2.04)  /* Shock Wave VI */
      , (24480,    74,   2.04)  /* Frost Bolt VI */
-     , (24480,    85,   2.04)  /* Flame Bolt VI */
-     , (24480,  1242,   2.02)  /* Drain Health Other VI */
-     , (24480,  1295,   2.02)  /* Mana to Health Self VI */;
+     , (24480,  1295,   2.02)  /* Mana to Health Self VI */
+     , (24480,  1242,   2.02)  /* Drain Health Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (24480,  94) /* ATTACK_NOTIFICATION_EVENT */

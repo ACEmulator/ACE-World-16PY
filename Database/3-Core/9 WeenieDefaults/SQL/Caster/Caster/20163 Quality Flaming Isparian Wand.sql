@@ -53,10 +53,10 @@ VALUES (20163,   1,   33557788) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20163,   560,      2)  /* Creature Enchantment Mastery Self IV */
-     , (20163,   584,      2)  /* Item Enchantment Mastery Self IV */
      , (20163,   608,      2)  /* Life Magic Mastery Self IV */
-     , (20163,   634,      2)  /* War Magic Mastery Self VI */
-     , (20163,   655,      2)  /* Mana Conversion Mastery Self III */
+     , (20163,   584,      2)  /* Item Enchantment Mastery Self IV */
      , (20163,  1094,      2)  /* Fire Protection Self VI */
+     , (20163,   655,      2)  /* Mana Conversion Mastery Self III */
+     , (20163,  1447,      2)  /* Willpower Self III */
      , (20163,  1423,      2)  /* Focus Self III */
-     , (20163,  1447,      2)  /* Willpower Self III */;
+     , (20163,   634,      2)  /* War Magic Mastery Self VI */;

@@ -109,28 +109,28 @@ VALUES (8869,  0,  1,  0,    0,  120,  120,  120,  120,   86,  120,  120,   86, 
      , (8869, 17,  1,  0,    0,  100,  100,  100,  100,   72,  100,  100,   72,    0, 3,    0,    0,  0.1,    0,    0,  0.1,    0, 0.13, 0.45,    0, 0.13, 0.45) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8869,   176,  2.011)  /* Fester Other VI */
+VALUES (8869,   223,  2.011)  /* Mana Depletion Other VI */
+     , (8869,  1420,  2.023)  /* Slowness Other VI */
      , (8869,   199,  2.011)  /* Exhaustion Other VI */
-     , (8869,   223,  2.011)  /* Mana Depletion Other VI */
-     , (8869,   234,  2.011)  /* Vulnerability Other VI */
-     , (8869,   249,  2.032)  /* Invulnerability Self VI */
+     , (8869,  1669,  2.032)  /* Stamina to Health Self VI */
+     , (8869,  1176,  2.023)  /* Harm Other VI */
+     , (8869,  1295,  2.032)  /* Mana to Health Self VI */
+     , (8869,  1160,   2.09)  /* Heal Self V */
+     , (8869,  1681,  2.032)  /* Stamina to Mana Self VI */
      , (8869,   279,  2.011)  /* Magic Resistance Self VI */
      , (8869,   285,  2.023)  /* Magic Yield Other VI */
-     , (8869,   677,  2.011)  /* Mana Conversion Ineptitude Other VI */
-     , (8869,   701,  2.011)  /* Arcane Benightedness Other VI */
-     , (8869,  1053,   2.09)  /* Bludgeoning Vulnerability Other VI */
-     , (8869,  1160,   2.09)  /* Heal Self V */
-     , (8869,  1176,  2.023)  /* Harm Other VI */
-     , (8869,  1200,  2.023)  /* Enfeeble Other VI */
      , (8869,  1242,  2.032)  /* Drain Health Other VI */
-     , (8869,  1265,  2.023)  /* Drain Mana Other VI */
-     , (8869,  1295,  2.032)  /* Mana to Health Self VI */
-     , (8869,  1327,  2.011)  /* Imperil Other VI */
-     , (8869,  1343,  2.011)  /* Weakness Other VI */
      , (8869,  1372,  2.023)  /* Frailty Other VI */
-     , (8869,  1420,  2.023)  /* Slowness Other VI */
-     , (8869,  1669,  2.032)  /* Stamina to Health Self VI */
-     , (8869,  1681,  2.032)  /* Stamina to Mana Self VI */;
+     , (8869,  1053,   2.09)  /* Bludgeoning Vulnerability Other VI */
+     , (8869,   677,  2.011)  /* Mana Conversion Ineptitude Other VI */
+     , (8869,   234,  2.011)  /* Vulnerability Other VI */
+     , (8869,  1327,  2.011)  /* Imperil Other VI */
+     , (8869,  1200,  2.023)  /* Enfeeble Other VI */
+     , (8869,   176,  2.011)  /* Fester Other VI */
+     , (8869,  1265,  2.023)  /* Drain Mana Other VI */
+     , (8869,   249,  2.032)  /* Invulnerability Self VI */
+     , (8869,   701,  2.011)  /* Arcane Benightedness Other VI */
+     , (8869,  1343,  2.011)  /* Weakness Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (8869,  94) /* ATTACK_NOTIFICATION_EVENT */

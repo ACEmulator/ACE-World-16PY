@@ -54,9 +54,9 @@ VALUES (6147,   1,   33556353) /* Setup */
      , (6147,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6147,  1092,      2)  /* Fire Protection Self IV */
-     , (6147,  1330,      2)  /* Strength Self IV */
+VALUES (6147,  1603,      2)  /* Aura of Defender Self IV */
      , (6147,  1590,      2)  /* Aura of Heart Seeker Self IV */
-     , (6147,  1603,      2)  /* Aura of Defender Self IV */
      , (6147,  1614,      2)  /* Aura of Blood Drinker Self IV */
-     , (6147,  1625,      2)  /* Aura of Swift Killer Self IV */;
+     , (6147,  1092,      2)  /* Fire Protection Self IV */
+     , (6147,  1625,      2)  /* Aura of Swift Killer Self IV */
+     , (6147,  1330,      2)  /* Strength Self IV */;

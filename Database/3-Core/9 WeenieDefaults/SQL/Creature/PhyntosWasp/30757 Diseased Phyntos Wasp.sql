@@ -104,14 +104,14 @@ VALUES (30757,  0,  2, 165,  0.5,  350,  420,  350,  420,  420,  420,  420,  315
      , (30757, 21,  4,  0,    0,  350,  420,  350,  420,  420,  420,  420,  315,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30757,    63,    2.2)  /* Acid Stream VI */
-     , (30757,   130,    2.2)  /* Acid Volley VI */
+VALUES (30757,  2122,   2.05)  /* Disintegration */
      , (30757,  1795,    2.2)  /* Acid Streak VI */
+     , (30757,   130,    2.2)  /* Acid Volley VI */
      , (30757,  2121,   2.05)  /* Corrosive Flash */
-     , (30757,  2122,   2.05)  /* Disintegration */
+     , (30757,  2717,   2.05)  /* Acid Arc VII */
      , (30757,  2123,   2.05)  /* Celdiseth's Searing */
      , (30757,  2716,    2.2)  /* Acid Arc VI */
-     , (30757,  2717,   2.05)  /* Acid Arc VII */;
+     , (30757,    63,    2.2)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (30757, 414) /* PLAYER_DEATH_EVENT */;

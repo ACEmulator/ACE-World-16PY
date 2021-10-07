@@ -104,10 +104,10 @@ VALUES (11537,  0,  1,  0,    0,   25,   25,   25,   25,   20,   25,   25,   20,
      , (11537, 22, 64, 10,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11537,    27,  2.005)  /* Flame Bolt I */
-     , (11537,    28,  2.005)  /* Frost Bolt I */
-     , (11537,    70, 2.0025)  /* Frost Bolt II */
+VALUES (11537,    70, 2.0025)  /* Frost Bolt II */
+     , (11537,    27,  2.005)  /* Flame Bolt I */
      , (11537,    75,  2.005)  /* Lightning Bolt I */
+     , (11537,    28,  2.005)  /* Frost Bolt I */
      , (11537,    76, 2.0025)  /* Lightning Bolt II */
      , (11537,    81, 2.0025)  /* Flame Bolt II */;
 

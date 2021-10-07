@@ -123,12 +123,12 @@ VALUES (30754,  0,  4,  0,    0,  350,  161,  109,  182,  161,  245,  109,  210,
      , (30754,  8,  4, 15, 0.75,  350,  161,  109,  182,  161,  245,  109,  210,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30754,  1160,  2.008)  /* Heal Self V */
-     , (30754,  1311,   2.01)  /* Armor Self V */
-     , (30754,  1331,   2.01)  /* Strength Self V */
-     , (30754,  1353,   2.01)  /* Endurance Self V */
+VALUES (30754,  1311,   2.01)  /* Armor Self V */
+     , (30754,  1160,  2.008)  /* Heal Self V */
+     , (30754,  1401,   2.01)  /* Quickness Self V */
      , (30754,  1377,    2.1)  /* Coordination Self V */
-     , (30754,  1401,   2.01)  /* Quickness Self V */;
+     , (30754,  1353,   2.01)  /* Endurance Self V */
+     , (30754,  1331,   2.01)  /* Strength Self V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (30754,  94) /* ATTACK_NOTIFICATION_EVENT */

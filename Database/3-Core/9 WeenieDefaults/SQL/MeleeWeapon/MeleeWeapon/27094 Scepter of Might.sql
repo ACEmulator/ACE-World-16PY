@@ -57,7 +57,7 @@ VALUES (27094,   1,   33557013) /* Setup */
      , (27094,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27094,  1093,      2)  /* Fire Protection Self V */
-     , (27094,  1310,      2)  /* Armor Self IV */
-     , (27094,  1330,      2)  /* Strength Self IV */
-     , (27094,  1614,      2)  /* Aura of Blood Drinker Self IV */;
+VALUES (27094,  1310,      2)  /* Armor Self IV */
+     , (27094,  1093,      2)  /* Fire Protection Self V */
+     , (27094,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (27094,  1330,      2)  /* Strength Self IV */;

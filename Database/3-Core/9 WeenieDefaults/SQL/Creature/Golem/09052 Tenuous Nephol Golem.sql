@@ -104,16 +104,16 @@ VALUES (9052,  0,  4,  0,    0, 6000, 4320, 4320, 4320, 3000, 5040, 4440, 3780, 
      , (9052,  8,  4, 90, 0.75, 6000, 4320, 4320, 4320, 3000, 5040, 4440, 3780,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9052,    82,   2.28)  /* Flame Bolt III */
-     , (9052,    83,   2.28)  /* Flame Bolt IV */
-     , (9052,   232,  2.005)  /* Vulnerability Other IV */
-     , (9052,   276,   2.02)  /* Magic Resistance Self III */
-     , (9052,  1105,   2.06)  /* Fire Vulnerability Other III */
-     , (9052,  1252,      2)  /* Drain Stamina Other IV */
-     , (9052,  1418,  2.005)  /* Slowness Other IV */
+VALUES (9052,  1798,    2.1)  /* Flame Streak III */
+     , (9052,  1799,    2.1)  /* Flame Streak IV */
      , (9052,  1442,  2.005)  /* Bafflement Other IV */
-     , (9052,  1798,    2.1)  /* Flame Streak III */
-     , (9052,  1799,    2.1)  /* Flame Streak IV */;
+     , (9052,  1105,   2.06)  /* Fire Vulnerability Other III */
+     , (9052,  1418,  2.005)  /* Slowness Other IV */
+     , (9052,    82,   2.28)  /* Flame Bolt III */
+     , (9052,   276,   2.02)  /* Magic Resistance Self III */
+     , (9052,    83,   2.28)  /* Flame Bolt IV */
+     , (9052,  1252,      2)  /* Drain Stamina Other IV */
+     , (9052,   232,  2.005)  /* Vulnerability Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (9052,  94) /* ATTACK_NOTIFICATION_EVENT */

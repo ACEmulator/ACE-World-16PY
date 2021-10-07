@@ -111,19 +111,19 @@ VALUES (8015,  0,  4, 120, 0.75,  375,  525,  413,  375,  563,  750,  525,  375,
      , (8015, 17,  4, 120, 0.75,  375,  525,  413,  375,  563,  750,  525,  375,    0, 2,    0,    0,    0,    0,    0,    0,  0.1,  0.1,    0,  0.1,  0.1,    0) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8015,    79,   2.08)  /* Lightning Bolt V */
+VALUES (8015,  1088,   2.07)  /* Lightning Vulnerability Other V */
+     , (8015,   651,   2.05)  /* War Magic Ineptitude Other V */
+     , (8015,  1161,   2.05)  /* Heal Self VI */
+     , (8015,   279,   2.05)  /* Magic Resistance Self VI */
+     , (8015,  1419,   2.05)  /* Slowness Other V */
      , (8015,    80,   2.06)  /* Lightning Bolt VI */
      , (8015,   142,   2.06)  /* Lightning Volley VI */
-     , (8015,   170,   2.05)  /* Regeneration Self VI */
-     , (8015,   279,   2.05)  /* Magic Resistance Self VI */
-     , (8015,   627,   2.05)  /* Life Magic Ineptitude Other V */
-     , (8015,   651,   2.05)  /* War Magic Ineptitude Other V */
-     , (8015,  1088,   2.07)  /* Lightning Vulnerability Other V */
-     , (8015,  1161,   2.05)  /* Heal Self VI */
+     , (8015,    79,   2.08)  /* Lightning Bolt V */
      , (8015,  1175,   2.06)  /* Harm Other V */
      , (8015,  1242,   2.05)  /* Drain Health Other VI */
      , (8015,  1312,   2.05)  /* Armor Self VI */
-     , (8015,  1419,   2.05)  /* Slowness Other V */;
+     , (8015,   170,   2.05)  /* Regeneration Self VI */
+     , (8015,   627,   2.05)  /* Life Magic Ineptitude Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (8015,  94) /* ATTACK_NOTIFICATION_EVENT */

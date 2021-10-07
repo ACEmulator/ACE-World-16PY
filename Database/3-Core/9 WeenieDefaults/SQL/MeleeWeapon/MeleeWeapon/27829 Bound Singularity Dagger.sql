@@ -59,6 +59,6 @@ VALUES (27829,   1,   33558791) /* Setup */
      , (27829,  36,  234881044) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27829,  1384,      2)  /* Coordination Other VI */
-     , (27829,  1592,      2)  /* Aura of Heart Seeker Self VI */
-     , (27829,  1616,      2)  /* Aura of Blood Drinker Self VI */;
+VALUES (27829,  1592,      2)  /* Aura of Heart Seeker Self VI */
+     , (27829,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (27829,  1384,      2)  /* Coordination Other VI */;

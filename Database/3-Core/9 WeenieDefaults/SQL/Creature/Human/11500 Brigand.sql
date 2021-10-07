@@ -440,13 +440,13 @@ VALUES (11500,  0,  4,  0,    0,   90,   81,   90,   99,   36,   36,   90,   54,
      , (11500,  8,  4,  2, 0.75,   95,   86,   95,  105,   38,   38,   95,   57,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11500,    27,  2.011)  /* Flame Bolt I */
-     , (11500,    28,  2.011)  /* Frost Bolt I */
-     , (11500,    58,  2.011)  /* Acid Stream I */
-     , (11500,    64,  2.011)  /* Shock Wave I */
+VALUES (11500,    64,  2.011)  /* Shock Wave I */
+     , (11500,    27,  2.011)  /* Flame Bolt I */
      , (11500,    75,  2.011)  /* Lightning Bolt I */
      , (11500,    86,  2.011)  /* Force Bolt I */
-     , (11500,    92,  2.011)  /* Whirling Blade I */;
+     , (11500,    92,  2.011)  /* Whirling Blade I */
+     , (11500,    28,  2.011)  /* Frost Bolt I */
+     , (11500,    58,  2.011)  /* Acid Stream I */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (11500,  94) /* ATTACK_NOTIFICATION_EVENT */

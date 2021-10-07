@@ -119,14 +119,14 @@ VALUES (21386,  0,  4,  0,    0,  400,  400,  400,  400, 8000, 8000, 8000, 8000,
      , (21386,  8,  4, 25, 0.75,  400,  400,  400,  400, 8000, 8000, 8000, 8000,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21386,    84,   2.02)  /* Flame Bolt V */
-     , (21386,   233,   2.01)  /* Vulnerability Other V */
-     , (21386,   284,   2.01)  /* Magic Yield Other V */
+VALUES (21386,  1800,   2.02)  /* Flame Streak V */
      , (21386,  1107,   2.01)  /* Fire Vulnerability Other V */
-     , (21386,  1326,   2.01)  /* Imperil Other V */
-     , (21386,  1342,   2.01)  /* Weakness Other V */
+     , (21386,    84,   2.02)  /* Flame Bolt V */
      , (21386,  1785,   2.02)  /* Cassius' Ring of Fire */
-     , (21386,  1800,   2.02)  /* Flame Streak V */;
+     , (21386,   284,   2.01)  /* Magic Yield Other V */
+     , (21386,  1342,   2.01)  /* Weakness Other V */
+     , (21386,  1326,   2.01)  /* Imperil Other V */
+     , (21386,   233,   2.01)  /* Vulnerability Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (21386, 414) /* PLAYER_DEATH_EVENT */;

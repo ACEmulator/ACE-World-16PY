@@ -137,9 +137,9 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24317,    80,  2.067)  /* Lightning Bolt VI */
      , (24317,    85,  2.067)  /* Flame Bolt VI */
      , (24317,  1242,   2.08)  /* Drain Health Other VI */
-     , (24317,  1343,  2.067)  /* Weakness Other VI */
      , (24317,  1396,  2.067)  /* Clumsiness Other VI */
-     , (24317,  1444,  2.067)  /* Bafflement Other VI */;
+     , (24317,  1444,  2.067)  /* Bafflement Other VI */
+     , (24317,  1343,  2.067)  /* Weakness Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (24317,  94) /* ATTACK_NOTIFICATION_EVENT */

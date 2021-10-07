@@ -56,9 +56,9 @@ VALUES (22556,   1,   33554641) /* Setup */
      , (22556,  50,  100673774) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22556,   345,      2)  /* Light Weapon Mastery Other VI */
+VALUES (22556,  2690,      2)  /* Moderate Light Weapon Aptitude */
      , (22556,  1029,      2)  /* Bludgeoning Protection Other VI */
-     , (22556,  1337,      2)  /* Strength Other VI */
-     , (22556,  1384,      2)  /* Coordination Other VI */
+     , (22556,   345,      2)  /* Light Weapon Mastery Other VI */
      , (22556,  1485,      2)  /* Impenetrability V */
-     , (22556,  2690,      2)  /* Moderate Light Weapon Aptitude */;
+     , (22556,  1384,      2)  /* Coordination Other VI */
+     , (22556,  1337,      2)  /* Strength Other VI */;

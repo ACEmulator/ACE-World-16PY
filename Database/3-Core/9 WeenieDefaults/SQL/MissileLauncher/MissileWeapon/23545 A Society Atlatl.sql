@@ -51,5 +51,5 @@ VALUES (23545,   1,   33557433) /* Setup */
      , (23545,  50,  100675463) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23545,   534,      2)  /* Missile Weapon Mastery Other II */
-     , (23545,  1612,      2)  /* Aura of Blood Drinker Self II */;
+VALUES (23545,  1612,      2)  /* Aura of Blood Drinker Self II */
+     , (23545,   534,      2)  /* Missile Weapon Mastery Other II */;

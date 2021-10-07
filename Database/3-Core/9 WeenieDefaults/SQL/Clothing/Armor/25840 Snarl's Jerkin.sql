@@ -55,7 +55,7 @@ VALUES (25840,   1,   33554854) /* Setup */
      , (25840,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25840,  1485,      2)  /* Impenetrability V */
+VALUES (25840,  3007,      2)  /* Uncanny Dodge */
+     , (25840,  1485,      2)  /* Impenetrability V */
      , (25840,  3005,      2)  /* Dispersion */
-     , (25840,  3006,      2)  /* Foresight */
-     , (25840,  3007,      2)  /* Uncanny Dodge */;
+     , (25840,  3006,      2)  /* Foresight */;

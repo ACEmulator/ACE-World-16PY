@@ -118,10 +118,10 @@ VALUES (27565,  0,  4,  0,    0,  100,   55,   90,   50,  180,   30,   80,   80,
      , (27565,  8,  4, 60, 0.75,  100,   55,   90,   50,  180,   30,   80,   80,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27565,    67,   2.02)  /* Shock Wave IV */
-     , (27565,    72,   2.02)  /* Frost Bolt IV */
-     , (27565,  1063,   2.02)  /* Cold Vulnerability Other IV */
+VALUES (27565,  1063,   2.02)  /* Cold Vulnerability Other IV */
      , (27565,  1159,   2.02)  /* Heal Self IV */
+     , (27565,    67,   2.02)  /* Shock Wave IV */
+     , (27565,    72,   2.02)  /* Frost Bolt IV */
      , (27565,  1325,   2.02)  /* Imperil Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

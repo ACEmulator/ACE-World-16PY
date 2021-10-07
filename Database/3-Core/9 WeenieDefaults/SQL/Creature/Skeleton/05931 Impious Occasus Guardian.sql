@@ -123,15 +123,15 @@ VALUES (5931,  0,  4,  0,    0,  150,  165,  165,  135,  225,  105,  225,  225, 
      , (5931,  8,  4, 75, 0.75,  150,  165,  165,  135,  225,  105,  225,  225,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5931,    71,   2.15)  /* Frost Bolt III */
-     , (5931,   107,   2.15)  /* Frost Blast III */
+VALUES (5931,  1340,   2.02)  /* Weakness Other III */
      , (5931,   135,   2.15)  /* Frost Volley III */
-     , (5931,  1340,   2.02)  /* Weakness Other III */
-     , (5931,  1369,   2.02)  /* Frailty Other III */
+     , (5931,    71,   2.15)  /* Frost Bolt III */
+     , (5931,  1465,   2.02)  /* Feeblemind Other III */
      , (5931,  1393,   2.02)  /* Clumsiness Other III */
-     , (5931,  1417,   2.02)  /* Slowness Other III */
      , (5931,  1441,   2.02)  /* Bafflement Other III */
-     , (5931,  1465,   2.02)  /* Feeblemind Other III */;
+     , (5931,  1369,   2.02)  /* Frailty Other III */
+     , (5931,  1417,   2.02)  /* Slowness Other III */
+     , (5931,   107,   2.15)  /* Frost Blast III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (5931,  94) /* ATTACK_NOTIFICATION_EVENT */

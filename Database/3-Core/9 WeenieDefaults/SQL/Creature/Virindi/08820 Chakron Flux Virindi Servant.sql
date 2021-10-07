@@ -108,24 +108,24 @@ VALUES (8820,  0,  1,  0,    0,  300,  300,  300,  300,  300,  300,  300,  300, 
      , (8820, 17,  1,  0,    0,  300,  300,  300,  300,  300,  300,  300,  300,    0, 3,    0,    0,  0.1,    0,    0,  0.1,    0, 0.13, 0.45,    0, 0.13, 0.45) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8820,   279,      2)  /* Magic Resistance Self VI */
-     , (8820,   520,      2)  /* Acid Protection Self VI */
-     , (8820,  1023,      2)  /* Bludgeoning Protection Self VI */
+VALUES (8820,   520,      2)  /* Acid Protection Self VI */
      , (8820,  1094,      2)  /* Fire Protection Self VI */
+     , (8820,  1801,  2.055)  /* Flame Streak VI */
+     , (8820,   279,      2)  /* Magic Resistance Self VI */
      , (8820,  1108,   2.04)  /* Fire Vulnerability Other VI */
      , (8820,  1114,      2)  /* Blade Protection Self VI */
-     , (8820,  1132,   2.04)  /* Blade Vulnerability Other VI */
-     , (8820,  1138,      2)  /* Piercing Protection Self VI */
      , (8820,  1242,      2)  /* Drain Health Other VI */
-     , (8820,  1312,      2)  /* Armor Self VI */
-     , (8820,  1327,   2.04)  /* Imperil Other VI */
-     , (8820,  1343,   2.04)  /* Weakness Other VI */
      , (8820,  1372,   2.04)  /* Frailty Other VI */
+     , (8820,  1312,      2)  /* Armor Self VI */
      , (8820,  1444,   2.04)  /* Bafflement Other VI */
      , (8820,  1784,   2.04)  /* Horizon's Blades */
+     , (8820,  1831,  2.055)  /* Whirling Blade Streak VI */
+     , (8820,  1132,   2.04)  /* Blade Vulnerability Other VI */
+     , (8820,  1327,   2.04)  /* Imperil Other VI */
+     , (8820,  1138,      2)  /* Piercing Protection Self VI */
      , (8820,  1785,   2.04)  /* Cassius' Ring of Fire */
-     , (8820,  1801,  2.055)  /* Flame Streak VI */
-     , (8820,  1831,  2.055)  /* Whirling Blade Streak VI */;
+     , (8820,  1343,   2.04)  /* Weakness Other VI */
+     , (8820,  1023,      2)  /* Bludgeoning Protection Self VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (8820,  94) /* ATTACK_NOTIFICATION_EVENT */

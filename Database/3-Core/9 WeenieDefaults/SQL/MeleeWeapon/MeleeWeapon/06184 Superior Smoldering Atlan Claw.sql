@@ -54,9 +54,9 @@ VALUES (6184,   1,   33556321) /* Setup */
      , (6184,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6184,  1091,      2)  /* Fire Protection Self III */
-     , (6184,  1329,      2)  /* Strength Self III */
+VALUES (6184,  1602,      2)  /* Aura of Defender Self III */
      , (6184,  1589,      2)  /* Aura of Heart Seeker Self III */
-     , (6184,  1602,      2)  /* Aura of Defender Self III */
      , (6184,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (6184,  1091,      2)  /* Fire Protection Self III */
+     , (6184,  1329,      2)  /* Strength Self III */
      , (6184,  1624,      2)  /* Aura of Swift Killer Self III */;

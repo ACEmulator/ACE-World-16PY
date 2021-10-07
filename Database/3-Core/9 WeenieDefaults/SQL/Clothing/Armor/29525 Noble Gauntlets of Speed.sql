@@ -55,8 +55,8 @@ VALUES (29525,   1,   33554648) /* Setup */
      , (29525,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29525,   321,      2)  /* Finesse Weapon Mastery Other VI */
-     , (29525,   369,      2)  /* Light Weapon Mastery Other VI */
+VALUES (29525,   369,      2)  /* Light Weapon Mastery Other VI */
+     , (29525,   321,      2)  /* Finesse Weapon Mastery Other VI */
+     , (29525,  3577,      2)  /* Perfect Speed */
      , (29525,   442,      2)  /* Light Weapon Mastery Other VI */
-     , (29525,  2108,      2)  /* Brogard's Defiance */
-     , (29525,  3577,      2)  /* Perfect Speed */;
+     , (29525,  2108,      2)  /* Brogard's Defiance */;

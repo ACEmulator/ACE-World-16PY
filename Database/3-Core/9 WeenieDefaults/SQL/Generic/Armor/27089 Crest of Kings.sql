@@ -53,6 +53,6 @@ VALUES (27089,   1,   33557014) /* Setup */
      , (27089,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27089,   512,      2)  /* Acid Protection Other IV */
-     , (27089,   849,      2)  /* Fire Protection Other IV */
-     , (27089,  1142,      2)  /* Piercing Protection Other IV */;
+VALUES (27089,  1142,      2)  /* Piercing Protection Other IV */
+     , (27089,   512,      2)  /* Acid Protection Other IV */
+     , (27089,   849,      2)  /* Fire Protection Other IV */;

@@ -52,5 +52,5 @@ VALUES (6071,   1,   33554854) /* Setup */
      , (6071,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6071,   635,      2)  /* War Magic Mastery Other I */
-     , (6071,  1451,      2)  /* Willpower Other I */;
+VALUES (6071,  1451,      2)  /* Willpower Other I */
+     , (6071,   635,      2)  /* War Magic Mastery Other I */;

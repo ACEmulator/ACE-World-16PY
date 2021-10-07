@@ -53,6 +53,6 @@ VALUES (9395,   1,   33557014) /* Setup */
      , (9395,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9395,   517,      2)  /* Acid Protection Self III */
-     , (9395,  1091,      2)  /* Fire Protection Self III */
-     , (9395,  1135,      2)  /* Piercing Protection Self III */;
+VALUES (9395,  1091,      2)  /* Fire Protection Self III */
+     , (9395,  1135,      2)  /* Piercing Protection Self III */
+     , (9395,   517,      2)  /* Acid Protection Self III */;

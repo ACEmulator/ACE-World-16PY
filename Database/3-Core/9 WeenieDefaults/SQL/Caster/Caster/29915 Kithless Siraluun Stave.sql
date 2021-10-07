@@ -47,6 +47,6 @@ VALUES (29915,   1,   33559111) /* Setup */
      , (29915,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29915,   210,      2)  /* Mana Renewal Other V */
-     , (29915,   663,      2)  /* Mana Conversion Mastery Other V */
-     , (29915,  1997,      2)  /* Life Giver */;
+VALUES (29915,  1997,      2)  /* Life Giver */
+     , (29915,   210,      2)  /* Mana Renewal Other V */
+     , (29915,   663,      2)  /* Mana Conversion Mastery Other V */;

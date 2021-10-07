@@ -40,9 +40,9 @@ VALUES (25300,   1,   33554683) /* Setup */
      , (25300,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25300,  2058,      2)  /* Boon of Refinement */
-     , (25300,  2060,      2)  /* Temeritous Touch */
+VALUES (25300,  2090,      2)  /* Bolstered Will */
      , (25300,  2066,      2)  /* Calming Gaze */
+     , (25300,  2058,      2)  /* Boon of Refinement */
+     , (25300,  2060,      2)  /* Temeritous Touch */
      , (25300,  2080,      2)  /* Ogfoot */
-     , (25300,  2086,      2)  /* Might of the 5 Mules */
-     , (25300,  2090,      2)  /* Bolstered Will */;
+     , (25300,  2086,      2)  /* Might of the 5 Mules */;

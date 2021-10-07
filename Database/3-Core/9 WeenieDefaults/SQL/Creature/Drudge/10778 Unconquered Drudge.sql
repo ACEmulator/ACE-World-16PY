@@ -121,17 +121,17 @@ VALUES (10778,  0,  4,  0,    0,  380,  312,  167,  315,  274,  315,  274,   19,
      , (10778,  8,  4, 25, 0.75,  340,  279,  150,  282,  245,  282,  245,   17,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10778,    84,   2.06)  /* Flame Bolt V */
-     , (10778,    85,   2.06)  /* Flame Bolt VI */
-     , (10778,  1022,      2)  /* Bludgeoning Protection Self V */
-     , (10778,  1093,      2)  /* Fire Protection Self V */
-     , (10778,  1107,  2.045)  /* Fire Vulnerability Other V */
-     , (10778,  1160,      2)  /* Heal Self V */
-     , (10778,  1240,      2)  /* Drain Health Other IV */
+VALUES (10778,  1093,      2)  /* Fire Protection Self V */
      , (10778,  1311,      2)  /* Armor Self V */
-     , (10778,  1342,  2.045)  /* Weakness Other V */
+     , (10778,  1240,      2)  /* Drain Health Other IV */
+     , (10778,    84,   2.06)  /* Flame Bolt V */
+     , (10778,  1160,      2)  /* Heal Self V */
      , (10778,  1395,  2.045)  /* Clumsiness Other V */
-     , (10778,  1419,  2.045)  /* Slowness Other V */;
+     , (10778,  1419,  2.045)  /* Slowness Other V */
+     , (10778,  1107,  2.045)  /* Fire Vulnerability Other V */
+     , (10778,    85,   2.06)  /* Flame Bolt VI */
+     , (10778,  1342,  2.045)  /* Weakness Other V */
+     , (10778,  1022,      2)  /* Bludgeoning Protection Self V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (10778,  94) /* ATTACK_NOTIFICATION_EVENT */

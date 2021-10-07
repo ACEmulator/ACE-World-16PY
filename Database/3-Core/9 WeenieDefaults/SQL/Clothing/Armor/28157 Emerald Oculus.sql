@@ -52,6 +52,6 @@ VALUES (28157,   1,   33554809) /* Setup */
      , (28157,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28157,   514,      2)  /* Acid Protection Other VI */
-     , (28157,  1997,      2)  /* Life Giver */
+VALUES (28157,  1997,      2)  /* Life Giver */
+     , (28157,   514,      2)  /* Acid Protection Other VI */
      , (28157,  2616,      2)  /* Minor Acid Ward */;

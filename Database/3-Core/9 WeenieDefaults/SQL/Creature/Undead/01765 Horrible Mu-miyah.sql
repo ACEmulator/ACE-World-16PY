@@ -122,26 +122,26 @@ VALUES (1765,  0,  4,  0,    0,  100,   59,   44,   59,    3,   40,  100,   32, 
      , (1765,  8,  4, 40, 0.75,  110,   65,   48,   65,    3,   44,  110,   35,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1765,    60,  2.014)  /* Acid Stream III */
-     , (1765,    66,  2.014)  /* Shock Wave III */
-     , (1765,    71,  2.014)  /* Frost Bolt III */
-     , (1765,    77,  2.014)  /* Lightning Bolt III */
+VALUES (1765,  1262,  2.025)  /* Drain Mana Other III */
      , (1765,    82,  2.014)  /* Flame Bolt III */
+     , (1765,    66,  2.014)  /* Shock Wave III */
+     , (1765,   196,   2.02)  /* Exhaustion Other III */
+     , (1765,  1221,   2.02)  /* Mana Drain Other III */
+     , (1765,   143,  2.017)  /* Flame Volley III */
+     , (1765,   135,  2.017)  /* Frost Volley III */
+     , (1765,    71,  2.014)  /* Frost Bolt III */
+     , (1765,   139,  2.017)  /* Lightning Volley III */
+     , (1765,    77,  2.014)  /* Lightning Bolt III */
+     , (1765,  1173,   2.02)  /* Harm Other III */
+     , (1765,  1239,  2.025)  /* Drain Health Other III */
      , (1765,    88,  2.014)  /* Force Bolt III */
      , (1765,    94,  2.014)  /* Whirling Blade III */
-     , (1765,   127,  2.017)  /* Acid Volley III */
-     , (1765,   135,  2.017)  /* Frost Volley III */
-     , (1765,   139,  2.017)  /* Lightning Volley III */
-     , (1765,   143,  2.017)  /* Flame Volley III */
-     , (1765,   167,  2.025)  /* Regeneration Self III */
-     , (1765,   173,   2.02)  /* Fester Other III */
-     , (1765,   196,   2.02)  /* Exhaustion Other III */
-     , (1765,  1173,   2.02)  /* Harm Other III */
-     , (1765,  1197,   2.02)  /* Enfeeble Other III */
-     , (1765,  1221,   2.02)  /* Mana Drain Other III */
-     , (1765,  1239,  2.025)  /* Drain Health Other III */
      , (1765,  1251,  2.025)  /* Drain Stamina Other III */
-     , (1765,  1262,  2.025)  /* Drain Mana Other III */;
+     , (1765,   167,  2.025)  /* Regeneration Self III */
+     , (1765,  1197,   2.02)  /* Enfeeble Other III */
+     , (1765,   173,   2.02)  /* Fester Other III */
+     , (1765,    60,  2.014)  /* Acid Stream III */
+     , (1765,   127,  2.017)  /* Acid Volley III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (1765,  94) /* ATTACK_NOTIFICATION_EVENT */

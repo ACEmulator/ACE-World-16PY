@@ -53,10 +53,10 @@ VALUES (29543,   1,   33554854) /* Setup */
      , (29543,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29543,  3636,      2)  /* Kern's Boon */
-     , (29543,  3642,      2)  /* Fencer's Boon */
+VALUES (29543,  3648,      2)  /* Soldier's Boon */
      , (29543,  3644,      2)  /* Kern's Boon */
+     , (29543,  3636,      2)  /* Kern's Boon */
+     , (29543,  3642,      2)  /* Fencer's Boon */
      , (29543,  3645,      2)  /* Kern's Boon */
      , (29543,  3646,      2)  /* Kern's Boon */
-     , (29543,  3647,      2)  /* Kern's Boon */
-     , (29543,  3648,      2)  /* Soldier's Boon */;
+     , (29543,  3647,      2)  /* Kern's Boon */;

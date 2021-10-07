@@ -64,9 +64,9 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11427,  2438,      2)  /* Lesser Rockslide */
      , (11427,  2441,      2)  /* Lesser Stone Cliffs */
      , (11427,  2444,      2)  /* Lesser Strength of Earth */
+     , (11427,  2463,      2)  /* Cascade */
      , (11427,  2447,      2)  /* Lesser Growth */
      , (11427,  2450,      2)  /* Lesser Hunter's Acumen */
      , (11427,  2453,      2)  /* Lesser Thorns */
-     , (11427,  2463,      2)  /* Cascade */
      , (11427,  2472,      2)  /* Still Water */
      , (11427,  2475,      2)  /* Torrent */;

@@ -54,7 +54,7 @@ VALUES (9489,   1,   33554655) /* Setup */
      , (9489,  41,          1) /* ItemSpecializedOnly - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9489,   295,      2)  /* Light Weapon Mastery Other IV */
-     , (9489,  1360,      2)  /* Endurance Other VI */
+VALUES (9489,  1360,      2)  /* Endurance Other VI */
      , (9489,  2385,      2)  /* Vigilance */
-     , (9489,  2386,      2)  /* Indomitability */;
+     , (9489,  2386,      2)  /* Indomitability */
+     , (9489,   295,      2)  /* Light Weapon Mastery Other IV */;

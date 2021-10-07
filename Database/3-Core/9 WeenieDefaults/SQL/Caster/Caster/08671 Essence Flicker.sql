@@ -49,6 +49,6 @@ VALUES (8671,   1,   33556934) /* Setup */
      , (8671,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8671,   168,      2)  /* Regeneration Self IV */
-     , (8671,   191,      2)  /* Rejuvenation Self IV */
-     , (8671,   215,      2)  /* Mana Renewal Self IV */;
+VALUES (8671,   191,      2)  /* Rejuvenation Self IV */
+     , (8671,   215,      2)  /* Mana Renewal Self IV */
+     , (8671,   168,      2)  /* Regeneration Self IV */;

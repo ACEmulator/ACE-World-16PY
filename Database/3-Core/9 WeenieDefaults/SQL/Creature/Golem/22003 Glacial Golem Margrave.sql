@@ -121,9 +121,9 @@ VALUES (22003,  0,  4,  0,    0,  200,  150,  150,  200, 20000,  200,  160,  180
      , (22003,  8,  4, 60, 0.75,  200,  150,  150,  200, 20000,  200,  160,  180,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22003,   108,   2.02)  /* Frost Blast IV */
+VALUES (22003,  1310,   2.02)  /* Armor Self IV */
      , (22003,   232,   2.02)  /* Vulnerability Other IV */
-     , (22003,  1310,   2.02)  /* Armor Self IV */
+     , (22003,   108,   2.02)  /* Frost Blast IV */
      , (22003,  1325,   2.02)  /* Imperil Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

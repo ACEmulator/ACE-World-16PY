@@ -56,6 +56,6 @@ VALUES (12138,   1,   33556883) /* Setup */
      , (12138,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12138,   247,      2)  /* Invulnerability Self IV */
-     , (12138,   259,      2)  /* Impregnability Self IV */
+VALUES (12138,   259,      2)  /* Impregnability Self IV */
+     , (12138,   247,      2)  /* Invulnerability Self IV */
      , (12138,  1484,      2)  /* Impenetrability IV */;

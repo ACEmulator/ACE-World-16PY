@@ -53,7 +53,7 @@ VALUES (31117,   1,   33555786) /* Setup */
      , (31117,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31117,  1591,      2)  /* Aura of Heart Seeker Self V */
-     , (31117,  1604,      2)  /* Aura of Defender Self V */
+VALUES (31117,  1604,      2)  /* Aura of Defender Self V */
+     , (31117,  1591,      2)  /* Aura of Heart Seeker Self V */
      , (31117,  1615,      2)  /* Aura of Blood Drinker Self V */
      , (31117,  1626,      2)  /* Aura of Swift Killer Self V */;

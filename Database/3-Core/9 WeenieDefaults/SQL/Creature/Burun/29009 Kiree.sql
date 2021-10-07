@@ -127,53 +127,53 @@ VALUES (29009,  0,  4,  0,    0,  600,  720,  600,  960,  600,  660,  960,  600,
      , (29009, 20,  1, 40,  0.5,  600,  720,  600,  960,  600,  660,  960,  600,    0, 2,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0) /* Claw */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29009,  2073,      2)  /* Adja's Intervention */
-     , (29009,  2404,      2)  /* Collector Acid Protection */
-     , (29009,  2405,      2)  /* Collector Blade Protection */
-     , (29009,  2406,      2)  /* Collector Bludgeoning Protection */
-     , (29009,  2407,      2)  /* Collector Cold Protection */
-     , (29009,  2408,      2)  /* Collector Fire Protection */
-     , (29009,  2409,      2)  /* Collector Lightning Protection */
-     , (29009,  2410,      2)  /* Collector Piercing Protection */
-     , (29009,  3042,  2.005)  /* Grip of Death */
-     , (29009,  3043,  2.005)  /* Kiss of the Grave */
-     , (29009,  3051,  2.005)  /* Mire Foot */
-     , (29009,  3053, 2.0001)  /* Paralyzing Touch */
-     , (29009,  3108,   2.02)  /* Flay Soul */
-     , (29009,  3109,   2.02)  /* Liquefy Flesh */
-     , (29009,  3110,   2.02)  /* Sear Flesh */
-     , (29009,  3111,   2.02)  /* Soul Hammer */
-     , (29009,  3112,   2.02)  /* Soul Spike */
-     , (29009,  3124,  2.005)  /* Blight Mana */
-     , (29009,  3125,  2.005)  /* EnervateBeing */
-     , (29009,  3126,  2.005)  /* Poison Health */
-     , (29009,  3180,      2)  /* Eradicate All Magic Self */
-     , (29009,  3372,  2.005)  /* Debilitating Spore */
-     , (29009,  3373,  2.005)  /* Diseased Air */
-     , (29009,  3375,   2.02)  /* Fungal Bloom */
-     , (29009,  3381,  2.005)  /* Debilitating Spore */
-     , (29009,  3382,  2.005)  /* Diseased Air */
-     , (29009,  3383,   2.01)  /* Fungal Bloom */
-     , (29009,  3426,   2.02)  /* Greater Withering */
-     , (29009,  3439,   2.02)  /* Mucor Blight */
-     , (29009,  3443,   2.02)  /* Blight of the Swamp */
-     , (29009,  3444,  2.005)  /* Justice of The Sleeping One */
-     , (29009,  3445,  2.005)  /* The Sleeping One's Purge */
-     , (29009,  3446,   2.01)  /* Wrath of the Swamp */
-     , (29009,  3450,   2.01)  /* Cloud of Mold Spores */
-     , (29009,  3451,   2.03)  /* Concussive Belch */
-     , (29009,  3452,   2.01)  /* Concussive Wail */
-     , (29009,  3455,   2.01)  /* Koruu Cloud */
+VALUES (29009,  2404,      2)  /* Collector Acid Protection */
+     , (29009,  3464,   2.02)  /* Numb Flesh */
      , (29009,  3456,   2.03)  /* Koruu's Wrath */
      , (29009,  3457,   2.03)  /* Mana Bolt */
      , (29009,  3458,   2.01)  /* Mana Purge */
+     , (29009,  3108,   2.02)  /* Flay Soul */
      , (29009,  3459,   2.01)  /* Mucor Cloud */
+     , (29009,  2408,      2)  /* Collector Fire Protection */
      , (29009,  3460,   2.03)  /* Dissolving Vortex */
+     , (29009,  2409,      2)  /* Collector Lightning Protection */
      , (29009,  3461,   2.02)  /* Batter Flesh */
+     , (29009,  2410,      2)  /* Collector Piercing Protection */
      , (29009,  3462,   2.02)  /* Canker Flesh */
      , (29009,  3463,   2.02)  /* Char Flesh */
-     , (29009,  3464,   2.02)  /* Numb Flesh */
-     , (29009,  3468,   2.03)  /* Mold Spores */;
+     , (29009,  3468,   2.03)  /* Mold Spores */
+     , (29009,  3125,  2.005)  /* EnervateBeing */
+     , (29009,  2073,      2)  /* Adja's Intervention */
+     , (29009,  3444,  2.005)  /* Justice of The Sleeping One */
+     , (29009,  3042,  2.005)  /* Grip of Death */
+     , (29009,  3426,   2.02)  /* Greater Withering */
+     , (29009,  3043,  2.005)  /* Kiss of the Grave */
+     , (29009,  3109,   2.02)  /* Liquefy Flesh */
+     , (29009,  2405,      2)  /* Collector Blade Protection */
+     , (29009,  3110,   2.02)  /* Sear Flesh */
+     , (29009,  2406,      2)  /* Collector Bludgeoning Protection */
+     , (29009,  3111,   2.02)  /* Soul Hammer */
+     , (29009,  3443,   2.02)  /* Blight of the Swamp */
+     , (29009,  2407,      2)  /* Collector Cold Protection */
+     , (29009,  3112,   2.02)  /* Soul Spike */
+     , (29009,  3051,  2.005)  /* Mire Foot */
+     , (29009,  3372,  2.005)  /* Debilitating Spore */
+     , (29009,  3180,      2)  /* Eradicate All Magic Self */
+     , (29009,  3053, 2.0001)  /* Paralyzing Touch */
+     , (29009,  3373,  2.005)  /* Diseased Air */
+     , (29009,  3375,   2.02)  /* Fungal Bloom */
+     , (29009,  3439,   2.02)  /* Mucor Blight */
+     , (29009,  3124,  2.005)  /* Blight Mana */
+     , (29009,  3445,  2.005)  /* The Sleeping One's Purge */
+     , (29009,  3381,  2.005)  /* Debilitating Spore */
+     , (29009,  3126,  2.005)  /* Poison Health */
+     , (29009,  3382,  2.005)  /* Diseased Air */
+     , (29009,  3446,   2.01)  /* Wrath of the Swamp */
+     , (29009,  3383,   2.01)  /* Fungal Bloom */
+     , (29009,  3450,   2.01)  /* Cloud of Mold Spores */
+     , (29009,  3451,   2.03)  /* Concussive Belch */
+     , (29009,  3452,   2.01)  /* Concussive Wail */
+     , (29009,  3455,   2.01)  /* Koruu Cloud */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (29009,  94) /* ATTACK_NOTIFICATION_EVENT */

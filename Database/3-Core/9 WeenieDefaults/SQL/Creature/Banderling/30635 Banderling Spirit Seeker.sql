@@ -123,15 +123,15 @@ VALUES (30635,  0,  4,  0,    0,  350,  161,  109,  182,  161,  245,  109,  210,
      , (30635,  8,  4, 15, 0.75,  350,  161,  109,  182,  161,  245,  109,  210,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30635,    73,   2.03)  /* Frost Bolt V */
+VALUES (30635,  1223,  2.008)  /* Mana Drain Other V */
      , (30635,  1064,   2.01)  /* Cold Vulnerability Other V */
      , (30635,  1160,  2.008)  /* Heal Self V */
-     , (30635,  1193,  2.008)  /* Enfeeble Self V */
-     , (30635,  1223,  2.008)  /* Mana Drain Other V */
-     , (30635,  1326,   2.12)  /* Imperil Other V */
+     , (30635,    73,   2.03)  /* Frost Bolt V */
      , (30635,  1342,  2.008)  /* Weakness Other V */
+     , (30635,  1326,   2.12)  /* Imperil Other V */
      , (30635,  1371,  2.008)  /* Frailty Other V */
-     , (30635,  1419,  2.008)  /* Slowness Other V */;
+     , (30635,  1419,  2.008)  /* Slowness Other V */
+     , (30635,  1193,  2.008)  /* Enfeeble Self V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (30635,  94) /* ATTACK_NOTIFICATION_EVENT */

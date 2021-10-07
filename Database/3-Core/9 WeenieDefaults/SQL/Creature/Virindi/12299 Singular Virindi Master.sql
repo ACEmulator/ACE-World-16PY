@@ -108,42 +108,42 @@ VALUES (12299,  0,  1,  0,    0,  120,  120,  120,  120,   86,  120,  120,   86,
      , (12299, 17,  1,  0,    0,  100,  100,  100,  100,   72,  100,  100,   72,    0, 3,    0,    0,  0.1,    0,    0,  0.1,    0, 0.13, 0.45,    0, 0.13, 0.45) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12299,    62,  2.011)  /* Acid Stream V */
-     , (12299,    63,  2.017)  /* Acid Stream VI */
-     , (12299,    68,  2.011)  /* Shock Wave V */
-     , (12299,    69,  2.017)  /* Shock Wave VI */
+VALUES (12299,   137,  2.011)  /* Frost Volley V */
      , (12299,    73,  2.011)  /* Frost Bolt V */
-     , (12299,    74,  2.017)  /* Frost Bolt VI */
-     , (12299,    79,  2.011)  /* Lightning Bolt V */
-     , (12299,    80,  2.017)  /* Lightning Bolt VI */
-     , (12299,    84,  2.011)  /* Flame Bolt V */
-     , (12299,    85,  2.017)  /* Flame Bolt VI */
-     , (12299,    90,  2.011)  /* Force Bolt V */
-     , (12299,    91,  2.017)  /* Force Bolt VI */
-     , (12299,    96,  2.011)  /* Whirling Blade V */
-     , (12299,    97,  2.017)  /* Whirling Blade VI */
+     , (12299,  1053,   2.09)  /* Bludgeoning Vulnerability Other VI */
      , (12299,   129,  2.011)  /* Acid Volley V */
+     , (12299,  1160,   2.09)  /* Heal Self V */
+     , (12299,    68,  2.011)  /* Shock Wave V */
+     , (12299,  1669,  2.032)  /* Stamina to Health Self VI */
+     , (12299,    69,  2.017)  /* Shock Wave VI */
      , (12299,   134,  2.017)  /* Bludgeoning Volley VI */
-     , (12299,   137,  2.011)  /* Frost Volley V */
+     , (12299,    74,  2.017)  /* Frost Bolt VI */
      , (12299,   138,  2.017)  /* Frost Volley VI */
+     , (12299,  1420,  2.023)  /* Slowness Other VI */
+     , (12299,  1265,  2.023)  /* Drain Mana Other VI */
      , (12299,   141,  2.011)  /* Lightning Volley V */
      , (12299,   142,  2.017)  /* Lightning Volley VI */
+     , (12299,  1295,  2.032)  /* Mana to Health Self VI */
+     , (12299,    79,  2.011)  /* Lightning Bolt V */
+     , (12299,    80,  2.017)  /* Lightning Bolt VI */
+     , (12299,    91,  2.017)  /* Force Bolt VI */
+     , (12299,  1681,  2.032)  /* Stamina to Mana Self VI */
      , (12299,   145,  2.011)  /* Flame Volley V */
      , (12299,   146,  2.017)  /* Flame Volley VI */
-     , (12299,   154,  2.017)  /* Blade Volley VI */
-     , (12299,   249,  2.032)  /* Invulnerability Self VI */
-     , (12299,   285,  2.023)  /* Magic Yield Other VI */
-     , (12299,  1053,   2.09)  /* Bludgeoning Vulnerability Other VI */
-     , (12299,  1160,   2.09)  /* Heal Self V */
+     , (12299,    84,  2.011)  /* Flame Bolt V */
+     , (12299,    85,  2.017)  /* Flame Bolt VI */
      , (12299,  1176,  2.023)  /* Harm Other VI */
-     , (12299,  1200,  2.023)  /* Enfeeble Other VI */
+     , (12299,   285,  2.023)  /* Magic Yield Other VI */
      , (12299,  1242,  2.032)  /* Drain Health Other VI */
-     , (12299,  1265,  2.023)  /* Drain Mana Other VI */
-     , (12299,  1295,  2.032)  /* Mana to Health Self VI */
+     , (12299,    90,  2.011)  /* Force Bolt V */
+     , (12299,   154,  2.017)  /* Blade Volley VI */
      , (12299,  1372,  2.023)  /* Frailty Other VI */
-     , (12299,  1420,  2.023)  /* Slowness Other VI */
-     , (12299,  1669,  2.032)  /* Stamina to Health Self VI */
-     , (12299,  1681,  2.032)  /* Stamina to Mana Self VI */;
+     , (12299,    96,  2.011)  /* Whirling Blade V */
+     , (12299,    97,  2.017)  /* Whirling Blade VI */
+     , (12299,  1200,  2.023)  /* Enfeeble Other VI */
+     , (12299,   249,  2.032)  /* Invulnerability Self VI */
+     , (12299,    62,  2.011)  /* Acid Stream V */
+     , (12299,    63,  2.017)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (12299,  94) /* ATTACK_NOTIFICATION_EVENT */

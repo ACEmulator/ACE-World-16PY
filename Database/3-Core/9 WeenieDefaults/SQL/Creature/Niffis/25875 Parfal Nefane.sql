@@ -109,21 +109,21 @@ VALUES (25875,  0,  4, 140, 0.75,  650,  650,  553,  553,  618,  553,  618,  553
      , (25875, 25,  4, 140,  0.5,  650,  650,  553,  553,  618,  553,  618,  553,    0, 3,    0,    0,  0.3,    0,  0.1,  0.3,    0,    0,  0.3,    0,  0.1, 0.28) /* LowerTentacle */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25875,    85,   2.04)  /* Flame Bolt VI */
-     , (25875,    97,   2.04)  /* Whirling Blade VI */
+VALUES (25875,  2758,   2.04)  /* Blade Arc VI */
      , (25875,  1491,  2.005)  /* Brittlemail V */
-     , (25875,  1556,  2.005)  /* Blade Lure V */
-     , (25875,  1596,  2.005)  /* Turn Blade IV */
-     , (25875,  1609,  2.005)  /* Lure Blade IV */
-     , (25875,  2056,   2.02)  /* Ataxia */
-     , (25875,  2062,   2.02)  /* Anemia */
      , (25875,  2064,   2.02)  /* Self Loathing */
-     , (25875,  2074,   2.02)  /* Gossamer Flesh */
-     , (25875,  2164,   2.02)  /* Swordsman's Gift */
-     , (25875,  2170,   2.02)  /* Inferno's Gift */
+     , (25875,  2056,   2.02)  /* Ataxia */
+     , (25875,  1609,  2.005)  /* Lure Blade IV */
+     , (25875,  2062,   2.02)  /* Anemia */
+     , (25875,    85,   2.04)  /* Flame Bolt VI */
      , (25875,  2318,   2.02)  /* Gravity Well */
+     , (25875,  2074,   2.02)  /* Gossamer Flesh */
+     , (25875,  1556,  2.005)  /* Blade Lure V */
+     , (25875,    97,   2.04)  /* Whirling Blade VI */
+     , (25875,  2164,   2.02)  /* Swordsman's Gift */
      , (25875,  2744,   2.04)  /* Flame Arc VI */
-     , (25875,  2758,   2.04)  /* Blade Arc VI */;
+     , (25875,  2170,   2.02)  /* Inferno's Gift */
+     , (25875,  1596,  2.005)  /* Turn Blade IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (25875,  94) /* ATTACK_NOTIFICATION_EVENT */

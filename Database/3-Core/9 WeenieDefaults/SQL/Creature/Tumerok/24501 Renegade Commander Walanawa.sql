@@ -121,29 +121,29 @@ VALUES (24501,  0,  4,  0,    0,  420,  420,  420,  420,  420,  420,  420,  420,
      , (24501,  8,  4,  5, 0.75,  420,  420,  420,  420,  420,  420,  420,  420,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24501,   234,  2.012)  /* Vulnerability Other VI */
-     , (24501,   267,  2.012)  /* Defenselessness Other VI */
-     , (24501,   285,  2.012)  /* Magic Yield Other VI */
-     , (24501,  1053,  2.012)  /* Bludgeoning Vulnerability Other VI */
-     , (24501,  1132,  2.012)  /* Blade Vulnerability Other VI */
+VALUES (24501,  2128,  2.015)  /* Ilservian's Flame */
      , (24501,  1156,  2.012)  /* Piercing Vulnerability Other VI */
-     , (24501,  1161,  2.009)  /* Heal Self VI */
-     , (24501,  1176,  2.012)  /* Harm Other VI */
-     , (24501,  1200,  2.012)  /* Enfeeble Other VI */
-     , (24501,  1265,  2.012)  /* Drain Mana Other VI */
-     , (24501,  1468,  2.012)  /* Feeblemind Other VI */
-     , (24501,  2122,  2.015)  /* Disintegration */
      , (24501,  2125,  2.015)  /* Flensing Wings */
-     , (24501,  2128,  2.015)  /* Ilservian's Flame */
+     , (24501,  1161,  2.009)  /* Heal Self VI */
+     , (24501,   234,  2.012)  /* Vulnerability Other VI */
      , (24501,  2130,  2.015)  /* Infernae */
+     , (24501,  2122,  2.015)  /* Disintegration */
+     , (24501,  1176,  2.012)  /* Harm Other VI */
+     , (24501,   267,  2.012)  /* Defenselessness Other VI */
      , (24501,  2132,  2.015)  /* The Spike */
      , (24501,  2136,  2.015)  /* Icy Torment */
      , (24501,  2138,  2.015)  /* Blizzard */
      , (24501,  2140,  2.015)  /* Alset's Coil */
+     , (24501,  1053,  2.012)  /* Bludgeoning Vulnerability Other VI */
      , (24501,  2142,  2.015)  /* Tempest */
+     , (24501,   285,  2.012)  /* Magic Yield Other VI */
      , (24501,  2143,  2.015)  /* Pummeling Storm */
      , (24501,  2144,  2.015)  /* Crushing Shame */
-     , (24501,  2146,  2.015)  /* Evisceration */;
+     , (24501,  2146,  2.015)  /* Evisceration */
+     , (24501,  1132,  2.012)  /* Blade Vulnerability Other VI */
+     , (24501,  1200,  2.012)  /* Enfeeble Other VI */
+     , (24501,  1265,  2.012)  /* Drain Mana Other VI */
+     , (24501,  1468,  2.012)  /* Feeblemind Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (24501,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -104,16 +104,16 @@ VALUES (9053,  0,  4,  0,    0, 6000, 4320, 4320, 4320, 3000, 5040, 4440, 3780, 
      , (9053,  8,  4, 90, 0.75, 6000, 4320, 4320, 4320, 3000, 5040, 4440, 3780,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9053,    82,   2.28)  /* Flame Bolt III */
+VALUES (9053,  1798,    2.1)  /* Flame Streak III */
+     , (9053,  1799,    2.1)  /* Flame Streak IV */
+     , (9053,  1105,   2.06)  /* Fire Vulnerability Other III */
+     , (9053,  1418,  2.005)  /* Slowness Other IV */
+     , (9053,    82,   2.28)  /* Flame Bolt III */
+     , (9053,   276,   2.02)  /* Magic Resistance Self III */
      , (9053,    83,   2.28)  /* Flame Bolt IV */
      , (9053,   232,  2.005)  /* Vulnerability Other IV */
-     , (9053,   276,   2.02)  /* Magic Resistance Self III */
-     , (9053,  1105,   2.06)  /* Fire Vulnerability Other III */
      , (9053,  1252,      2)  /* Drain Stamina Other IV */
-     , (9053,  1394,  2.005)  /* Clumsiness Other IV */
-     , (9053,  1418,  2.005)  /* Slowness Other IV */
-     , (9053,  1798,    2.1)  /* Flame Streak III */
-     , (9053,  1799,    2.1)  /* Flame Streak IV */;
+     , (9053,  1394,  2.005)  /* Clumsiness Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (9053,  94) /* ATTACK_NOTIFICATION_EVENT */

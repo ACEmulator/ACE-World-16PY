@@ -60,7 +60,7 @@ VALUES (19893,   1,   33556364) /* Setup */
      , (19893,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19893,  1071,      2)  /* Lightning Protection Self VI */
-     , (19893,  1401,      2)  /* Quickness Self V */
-     , (19893,  1589,      2)  /* Aura of Heart Seeker Self III */
-     , (19893,  1613,      2)  /* Aura of Blood Drinker Self III */;
+VALUES (19893,  1589,      2)  /* Aura of Heart Seeker Self III */
+     , (19893,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (19893,  1071,      2)  /* Lightning Protection Self VI */
+     , (19893,  1401,      2)  /* Quickness Self V */;

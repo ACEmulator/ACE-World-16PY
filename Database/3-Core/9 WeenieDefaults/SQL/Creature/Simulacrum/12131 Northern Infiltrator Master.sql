@@ -144,19 +144,19 @@ VALUES (12131,  0,  4,  0,    0,  370,  370,  370,  370,  370,  370,  370,  370,
      , (12131,  8,  4,  2, 0.75,  350,  350,  350,  350,  350,  350,  350,  350,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12131,   234,   2.02)  /* Vulnerability Other VI */
-     , (12131,   249,   2.02)  /* Invulnerability Self VI */
-     , (12131,  1161,   2.02)  /* Heal Self VI */
-     , (12131,  1176,   2.02)  /* Harm Other VI */
-     , (12131,  1200,   2.02)  /* Enfeeble Other VI */
-     , (12131,  1242,   2.02)  /* Drain Health Other VI */
-     , (12131,  1265,   2.02)  /* Drain Mana Other VI */
-     , (12131,  1327,   2.02)  /* Imperil Other VI */
-     , (12131,  1332,   2.02)  /* Strength Self VI */
-     , (12131,  1372,   2.02)  /* Frailty Other VI */
+VALUES (12131,  1161,   2.02)  /* Heal Self VI */
      , (12131,  1378,   2.02)  /* Coordination Self VI */
-     , (12131,  1402,   2.02)  /* Quickness Self VI */
-     , (12131,  1420,   2.02)  /* Slowness Other VI */;
+     , (12131,  1372,   2.02)  /* Frailty Other VI */
+     , (12131,  1420,   2.02)  /* Slowness Other VI */
+     , (12131,  1200,   2.02)  /* Enfeeble Other VI */
+     , (12131,  1327,   2.02)  /* Imperil Other VI */
+     , (12131,  1176,   2.02)  /* Harm Other VI */
+     , (12131,  1242,   2.02)  /* Drain Health Other VI */
+     , (12131,   234,   2.02)  /* Vulnerability Other VI */
+     , (12131,  1265,   2.02)  /* Drain Mana Other VI */
+     , (12131,  1332,   2.02)  /* Strength Self VI */
+     , (12131,   249,   2.02)  /* Invulnerability Self VI */
+     , (12131,  1402,   2.02)  /* Quickness Self VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (12131,  94) /* ATTACK_NOTIFICATION_EVENT */

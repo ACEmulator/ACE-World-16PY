@@ -54,8 +54,8 @@ VALUES (29548,   1,   33554654) /* Setup */
      , (29548,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29548,   244,      2)  /* Invulnerability Other VI */
+VALUES (29548,   273,      2)  /* Magic Resistance Other VI */
      , (29548,   255,      2)  /* Impregnability Other VI */
-     , (29548,   273,      2)  /* Magic Resistance Other VI */
+     , (29548,  3572,      2)  /* Inner Brilliance */
      , (29548,  2108,      2)  /* Brogard's Defiance */
-     , (29548,  3572,      2)  /* Inner Brilliance */;
+     , (29548,   244,      2)  /* Invulnerability Other VI */;

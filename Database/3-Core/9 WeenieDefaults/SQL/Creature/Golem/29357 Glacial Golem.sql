@@ -113,11 +113,11 @@ VALUES (29357,  0,  4,  0,    0,  100,   55,   90,   50,  180,   30,   80,   80,
      , (29357,  8,  4, 60, 0.75,  100,   55,   90,   50,  180,   30,   80,   80,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29357,    66,   2.02)  /* Shock Wave III */
-     , (29357,    71,   2.02)  /* Frost Bolt III */
-     , (29357,  1062,   2.02)  /* Cold Vulnerability Other III */
+VALUES (29357,  1062,   2.02)  /* Cold Vulnerability Other III */
      , (29357,  1158,   2.02)  /* Heal Self III */
-     , (29357,  1324,   2.02)  /* Imperil Other III */;
+     , (29357,    66,   2.02)  /* Shock Wave III */
+     , (29357,  1324,   2.02)  /* Imperil Other III */
+     , (29357,    71,   2.02)  /* Frost Bolt III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (29357,  94) /* ATTACK_NOTIFICATION_EVENT */

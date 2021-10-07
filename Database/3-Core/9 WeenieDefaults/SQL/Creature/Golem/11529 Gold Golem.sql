@@ -111,8 +111,8 @@ VALUES (11529,  0,  4,  0,    0,  400,  400,  280,  440,  400,  280,  280,  400,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11529,  2122,   2.01)  /* Disintegration */
-     , (11529,  2128,   2.01)  /* Ilservian's Flame */
      , (11529,  2136,   2.01)  /* Icy Torment */
+     , (11529,  2128,   2.01)  /* Ilservian's Flame */
      , (11529,  2140,   2.01)  /* Alset's Coil */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

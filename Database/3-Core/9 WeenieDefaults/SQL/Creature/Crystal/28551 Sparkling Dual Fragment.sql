@@ -111,20 +111,20 @@ VALUES (28551,  0,  4, 50, 0.75,  170,  170,  170,  170,  202, 17000,  473,  170
      , (28551, 17,  4, 50, 0.75,  170,  170,  170,  170,  202, 17000,  473,  170,    0, 2,    0,    0,    0,    0,    0,    0,  0.1,  0.1,    0,  0.1,  0.1,    0) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28551,    83,  2.115)  /* Flame Bolt IV */
-     , (28551,    84,  2.031)  /* Flame Bolt V */
-     , (28551,   168,  2.032)  /* Regeneration Self IV */
-     , (28551,   277,  2.032)  /* Magic Resistance Self IV */
-     , (28551,   283,  2.042)  /* Magic Yield Other IV */
-     , (28551,   608,  2.032)  /* Life Magic Mastery Self IV */
-     , (28551,   626,  2.042)  /* Life Magic Ineptitude Other IV */
+VALUES (28551,  1174,  2.042)  /* Harm Other IV */
      , (28551,   656,  2.032)  /* Mana Conversion Mastery Self IV */
-     , (28551,  1106,  2.042)  /* Fire Vulnerability Other IV */
+     , (28551,   608,  2.032)  /* Life Magic Mastery Self IV */
      , (28551,  1158,   2.04)  /* Heal Self III */
-     , (28551,  1174,  2.042)  /* Harm Other IV */
+     , (28551,  1419,  2.042)  /* Slowness Other V */
+     , (28551,  1106,  2.042)  /* Fire Vulnerability Other IV */
+     , (28551,   277,  2.032)  /* Magic Resistance Self IV */
+     , (28551,    83,  2.115)  /* Flame Bolt IV */
      , (28551,  1240,  2.042)  /* Drain Health Other IV */
+     , (28551,    84,  2.031)  /* Flame Bolt V */
+     , (28551,   283,  2.042)  /* Magic Yield Other IV */
      , (28551,  1310,   2.04)  /* Armor Self IV */
-     , (28551,  1419,  2.042)  /* Slowness Other V */;
+     , (28551,   626,  2.042)  /* Life Magic Ineptitude Other IV */
+     , (28551,   168,  2.032)  /* Regeneration Self IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (28551,  94) /* ATTACK_NOTIFICATION_EVENT */

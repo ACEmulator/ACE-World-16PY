@@ -119,14 +119,14 @@ VALUES (21388,  0,  4,  0,    0,  300,  300,  300,  300, 6000, 6000, 6000, 6000,
      , (21388,  8,  4, 25, 0.75,  300,  300,  300,  300, 6000, 6000, 6000, 6000,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21388,    72,   2.02)  /* Frost Bolt IV */
-     , (21388,   232,   2.01)  /* Vulnerability Other IV */
+VALUES (21388,   232,   2.01)  /* Vulnerability Other IV */
+     , (21388,    72,   2.02)  /* Frost Bolt IV */
+     , (21388,  1325,   2.01)  /* Imperil Other IV */
+     , (21388,  1811,   2.02)  /* Frost Streak IV */
      , (21388,   283,   2.01)  /* Magic Yield Other IV */
      , (21388,  1063,   2.01)  /* Cold Vulnerability Other IV */
-     , (21388,  1325,   2.01)  /* Imperil Other IV */
      , (21388,  1394,   2.01)  /* Clumsiness Other IV */
-     , (21388,  1787,   2.02)  /* Halo of Frost */
-     , (21388,  1811,   2.02)  /* Frost Streak IV */;
+     , (21388,  1787,   2.02)  /* Halo of Frost */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (21388, 414) /* PLAYER_DEATH_EVENT */;

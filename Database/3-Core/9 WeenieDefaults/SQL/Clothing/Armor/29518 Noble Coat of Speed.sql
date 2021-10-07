@@ -55,8 +55,8 @@ VALUES (29518,   1,   33554642) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29518,   297,      2)  /* Light Weapon Mastery Other VI */
+     , (29518,   417,      2)  /* Heavy Weapon Mastery Other VI */
      , (29518,   345,      2)  /* Light Weapon Mastery Other VI */
      , (29518,   393,      2)  /* Light Weapon Mastery Other VI */
-     , (29518,   417,      2)  /* Heavy Weapon Mastery Other VI */
-     , (29518,  2108,      2)  /* Brogard's Defiance */
-     , (29518,  3577,      2)  /* Perfect Speed */;
+     , (29518,  3577,      2)  /* Perfect Speed */
+     , (29518,  2108,      2)  /* Brogard's Defiance */;

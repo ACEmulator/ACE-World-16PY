@@ -48,5 +48,5 @@ VALUES (27582,   1,   33554691) /* Setup */
      , (27582,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27582,   244,      2)  /* Invulnerability Other VI */
-     , (27582,  2160,      2)  /* Boon of the Arrow Turner */;
+VALUES (27582,  2160,      2)  /* Boon of the Arrow Turner */
+     , (27582,   244,      2)  /* Invulnerability Other VI */;

@@ -111,16 +111,16 @@ VALUES (25865,  0,  4, 150, 0.75,  675,  608,  540,  506,  506,  641,  641,  540
      , (25865, 25,  4, 150, 0.75,  675,  608,  540,  506,  506,  641,  641,  540,    0, 3,    0,    0,  0.3,    0,  0.1,  0.3,    0,    0,  0.3,    0,  0.1, 0.28) /* LowerTentacle */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25865,    74,   2.04)  /* Frost Bolt VI */
-     , (25865,    97,   2.04)  /* Whirling Blade VI */
-     , (25865,   223,   2.03)  /* Mana Depletion Other VI */
+VALUES (25865,  1200,   2.02)  /* Enfeeble Other VI */
+     , (25865,  2758,   2.04)  /* Blade Arc VI */
      , (25865,   234,   2.03)  /* Vulnerability Other VI */
-     , (25865,  1065,   2.03)  /* Cold Vulnerability Other VI */
+     , (25865,    74,   2.04)  /* Frost Bolt VI */
+     , (25865,   223,   2.03)  /* Mana Depletion Other VI */
      , (25865,  1131,   2.03)  /* Blade Vulnerability Other V */
-     , (25865,  1200,   2.02)  /* Enfeeble Other VI */
-     , (25865,  1468,   2.02)  /* Feeblemind Other VI */
+     , (25865,    97,   2.04)  /* Whirling Blade VI */
+     , (25865,  1065,   2.03)  /* Cold Vulnerability Other VI */
      , (25865,  2730,   2.04)  /* Frost Arc VI */
-     , (25865,  2758,   2.04)  /* Blade Arc VI */;
+     , (25865,  1468,   2.02)  /* Feeblemind Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (25865,  94) /* ATTACK_NOTIFICATION_EVENT */

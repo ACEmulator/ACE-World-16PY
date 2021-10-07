@@ -112,19 +112,19 @@ VALUES (6039,  0,  4,  5, 0.75,   30,   30,   30,   30,   36, 3000,   83,   30, 
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6039,     6,   2.04)  /* Heal Self I */
+     , (6039,  1415,  2.044)  /* Slowness Other I */
+     , (6039,   275,  2.032)  /* Magic Resistance Self II */
+     , (6039,   654,  2.032)  /* Mana Conversion Mastery Self II */
      , (6039,     7,  2.044)  /* Harm Other I */
+     , (6039,   280,  2.044)  /* Magic Yield Other I */
+     , (6039,  1237,  2.044)  /* Drain Health Other I */
+     , (6039,    81,  2.031)  /* Flame Bolt II */
      , (6039,    21,  2.044)  /* Fire Vulnerability Other I */
      , (6039,    24,   2.04)  /* Armor Self I */
      , (6039,    27,  2.115)  /* Flame Bolt I */
-     , (6039,    81,  2.031)  /* Flame Bolt II */
-     , (6039,   165,  2.032)  /* Regeneration Self I */
-     , (6039,   275,  2.032)  /* Magic Resistance Self II */
-     , (6039,   280,  2.044)  /* Magic Yield Other I */
      , (6039,   606,  2.032)  /* Life Magic Mastery Self II */
-     , (6039,   623,  2.044)  /* Life Magic Ineptitude Other I */
-     , (6039,   654,  2.032)  /* Mana Conversion Mastery Self II */
-     , (6039,  1237,  2.044)  /* Drain Health Other I */
-     , (6039,  1415,  2.044)  /* Slowness Other I */;
+     , (6039,   165,  2.032)  /* Regeneration Self I */
+     , (6039,   623,  2.044)  /* Life Magic Ineptitude Other I */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (6039,  94) /* ATTACK_NOTIFICATION_EVENT */

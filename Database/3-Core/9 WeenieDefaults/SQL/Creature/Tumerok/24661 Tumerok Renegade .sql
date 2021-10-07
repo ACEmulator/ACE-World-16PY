@@ -137,55 +137,55 @@ VALUES (24661,  0,  4,  0,    0,  420,  420,  420,  420,  420,  420,  420,  420,
      , (24661,  8,  4,  5, 0.75,  420,  420,  420,  420,  420,  420,  420,  420,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24661,   234,  2.012)  /* Vulnerability Other VI */
-     , (24661,   267,  2.012)  /* Defenselessness Other VI */
-     , (24661,   285,  2.012)  /* Magic Yield Other VI */
-     , (24661,  1053,  2.012)  /* Bludgeoning Vulnerability Other VI */
-     , (24661,  1132,  2.012)  /* Blade Vulnerability Other VI */
-     , (24661,  1156,  2.012)  /* Piercing Vulnerability Other VI */
-     , (24661,  1237,   2.04)  /* Drain Health Other I */
-     , (24661,  1249,   2.04)  /* Drain Stamina Other I */
-     , (24661,  1260,  2.004)  /* Drain Mana Other I */
-     , (24661,  1468,  2.012)  /* Feeblemind Other VI */
-     , (24661,  1783,  2.015)  /* Searing Disc */
-     , (24661,  1784,  2.015)  /* Horizon's Blades */
-     , (24661,  1785,  2.015)  /* Cassius' Ring of Fire */
-     , (24661,  1786,  2.015)  /* Nuhmudira's Spines */
-     , (24661,  1788,  2.015)  /* Eye of the Storm */
-     , (24661,  1789,  2.015)  /* Tectonic Rifts */
-     , (24661,  1841,   2.04)  /* Slithering Flames */
-     , (24661,  1882,      2)  /* Nullify All Magic Self */
-     , (24661,  2053,      2)  /* Executor's Blessing */
-     , (24661,  2074,   2.04)  /* Gossamer Flesh */
-     , (24661,  2122,  2.015)  /* Disintegration */
+VALUES (24661,  1156,  2.012)  /* Piercing Vulnerability Other VI */
      , (24661,  2125,  2.015)  /* Flensing Wings */
-     , (24661,  2128,  2.015)  /* Ilservian's Flame */
+     , (24661,  2699,      2)  /* Auroric Whip */
+     , (24661,  2053,      2)  /* Executor's Blessing */
+     , (24661,  2185,      2)  /* Robustify */
+     , (24661,  2122,  2.015)  /* Disintegration */
+     , (24661,   267,  2.012)  /* Defenselessness Other VI */
+     , (24661,  2700,      2)  /* Corrosive Cloud */
+     , (24661,  2701,      2)  /* Elemental Fury */
+     , (24661,  1841,   2.04)  /* Slithering Flames */
+     , (24661,  2702,      2)  /* Elemental Fury */
+     , (24661,  1237,   2.04)  /* Drain Health Other I */
      , (24661,  2129,  2.015)  /* Sizzling Fury */
-     , (24661,  2130,  2.015)  /* Infernae */
-     , (24661,  2136,  2.015)  /* Icy Torment */
+     , (24661,  2703,      2)  /* Elemental Fury */
+     , (24661,  2074,   2.04)  /* Gossamer Flesh */
      , (24661,  2138,  2.015)  /* Blizzard */
+     , (24661,  2704,      2)  /* Elemental Fury */
+     , (24661,  2128,  2.015)  /* Ilservian's Flame */
+     , (24661,  2705,      2)  /* Aerfalle's Enforcement */
+     , (24661,  1788,  2.015)  /* Eye of the Storm */
+     , (24661,   234,  2.012)  /* Vulnerability Other VI */
+     , (24661,  2130,  2.015)  /* Infernae */
+     , (24661,  2706,      2)  /* Aerfalle's Gaze */
+     , (24661,   285,  2.012)  /* Magic Yield Other VI */
+     , (24661,  2708,      2)  /* Stasis Field */
+     , (24661,  2710,      2)  /* Volcanic Blast */
+     , (24661,  2136,  2.015)  /* Icy Torment */
+     , (24661,  1882,      2)  /* Nullify All Magic Self */
      , (24661,  2140,  2.015)  /* Alset's Coil */
-     , (24661,  2144,  2.015)  /* Crushing Shame */
-     , (24661,  2146,  2.015)  /* Evisceration */
-     , (24661,  2149,      2)  /* Caustic Blessing */
-     , (24661,  2151,      2)  /* Blessing of the Blade Turner */
+     , (24661,  2281,      2)  /* Aura of Resistance */
      , (24661,  2153,      2)  /* Blessing of the Mace Turner */
+     , (24661,  1053,  2.012)  /* Bludgeoning Vulnerability Other VI */
+     , (24661,  2144,  2.015)  /* Crushing Shame */
+     , (24661,  2149,      2)  /* Caustic Blessing */
+     , (24661,  1249,   2.04)  /* Drain Stamina Other I */
+     , (24661,  2146,  2.015)  /* Evisceration */
+     , (24661,  2151,      2)  /* Blessing of the Blade Turner */
      , (24661,  2155,      2)  /* Icy Blessing */
+     , (24661,  1260,  2.004)  /* Drain Mana Other I */
+     , (24661,  1132,  2.012)  /* Blade Vulnerability Other VI */
+     , (24661,  1783,  2.015)  /* Searing Disc */
      , (24661,  2157,      2)  /* Fiery Blessing */
      , (24661,  2159,      2)  /* Storm's Blessing */
      , (24661,  2161,      2)  /* Blessing of the Arrow Turner */
-     , (24661,  2185,      2)  /* Robustify */
-     , (24661,  2281,      2)  /* Aura of Resistance */
-     , (24661,  2699,      2)  /* Auroric Whip */
-     , (24661,  2700,      2)  /* Corrosive Cloud */
-     , (24661,  2701,      2)  /* Elemental Fury */
-     , (24661,  2702,      2)  /* Elemental Fury */
-     , (24661,  2703,      2)  /* Elemental Fury */
-     , (24661,  2704,      2)  /* Elemental Fury */
-     , (24661,  2705,      2)  /* Aerfalle's Enforcement */
-     , (24661,  2706,      2)  /* Aerfalle's Gaze */
-     , (24661,  2708,      2)  /* Stasis Field */
-     , (24661,  2710,      2)  /* Volcanic Blast */;
+     , (24661,  1784,  2.015)  /* Horizon's Blades */
+     , (24661,  1785,  2.015)  /* Cassius' Ring of Fire */
+     , (24661,  1786,  2.015)  /* Nuhmudira's Spines */
+     , (24661,  1468,  2.012)  /* Feeblemind Other VI */
+     , (24661,  1789,  2.015)  /* Tectonic Rifts */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (24661,  94) /* ATTACK_NOTIFICATION_EVENT */

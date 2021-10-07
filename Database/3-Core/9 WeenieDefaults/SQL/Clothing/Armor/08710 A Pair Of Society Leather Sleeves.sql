@@ -49,5 +49,5 @@ VALUES (8710,   1,   33554655) /* Setup */
      , (8710,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8710,   685,      2)  /* Arcane Enlightenment Other II */
-     , (8710,  1482,      2)  /* Impenetrability II */;
+VALUES (8710,  1482,      2)  /* Impenetrability II */
+     , (8710,   685,      2)  /* Arcane Enlightenment Other II */;

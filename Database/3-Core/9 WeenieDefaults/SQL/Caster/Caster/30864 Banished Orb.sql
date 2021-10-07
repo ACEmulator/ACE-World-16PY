@@ -40,5 +40,5 @@ VALUES (30864,   1,   33559253) /* Setup */
      , (30864,  27, 1073741873) /* UseUserAnimation - MagicHeal */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30864,   658,      2)  /* Mana Conversion Mastery Self VI */
-     , (30864,  2569,      2)  /* Minor War Magic Aptitude */;
+VALUES (30864,  2569,      2)  /* Minor War Magic Aptitude */
+     , (30864,   658,      2)  /* Mana Conversion Mastery Self VI */;

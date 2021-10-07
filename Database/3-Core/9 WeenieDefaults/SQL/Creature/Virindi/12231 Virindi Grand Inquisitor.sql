@@ -114,25 +114,25 @@ VALUES (12231,  0,  1,  0,    0, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000,
      , (12231, 17,  1,  0,    0, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000,    0, 3,    0,    0,  0.1,    0,    0,  0.1,    0, 0.13, 0.45,    0, 0.13, 0.45) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12231,   279,      2)  /* Magic Resistance Self VI */
+VALUES (12231,  2074,   2.04)  /* Gossamer Flesh */
      , (12231,   520,      2)  /* Acid Protection Self VI */
-     , (12231,  1023,      2)  /* Bludgeoning Protection Self VI */
      , (12231,  1094,      2)  /* Fire Protection Self VI */
+     , (12231,  2129,  2.055)  /* Sizzling Fury */
+     , (12231,  2068,   2.04)  /* Brittle Bones */
+     , (12231,   279,      2)  /* Magic Resistance Self VI */
      , (12231,  1108,   2.04)  /* Fire Vulnerability Other VI */
      , (12231,  1114,      2)  /* Blade Protection Self VI */
-     , (12231,  1132,   2.04)  /* Blade Vulnerability Other VI */
-     , (12231,  1138,      2)  /* Piercing Protection Self VI */
      , (12231,  1242,      2)  /* Drain Health Other VI */
      , (12231,  1312,      2)  /* Armor Self VI */
+     , (12231,  2147,  2.055)  /* Rending Wind */
      , (12231,  1444,   2.04)  /* Bafflement Other VI */
-     , (12231,  1784,   2.04)  /* Horizon's Blades */
-     , (12231,  1785,   2.04)  /* Cassius' Ring of Fire */
-     , (12231,  1913,   2.04)  /* Nullify Creature Magic Other */
-     , (12231,  2068,   2.04)  /* Brittle Bones */
-     , (12231,  2074,   2.04)  /* Gossamer Flesh */
      , (12231,  2088,   2.04)  /* Senescence */
-     , (12231,  2129,  2.055)  /* Sizzling Fury */
-     , (12231,  2147,  2.055)  /* Rending Wind */;
+     , (12231,  1132,   2.04)  /* Blade Vulnerability Other VI */
+     , (12231,  1138,      2)  /* Piercing Protection Self VI */
+     , (12231,  1784,   2.04)  /* Horizon's Blades */
+     , (12231,  1913,   2.04)  /* Nullify Creature Magic Other */
+     , (12231,  1785,   2.04)  /* Cassius' Ring of Fire */
+     , (12231,  1023,      2)  /* Bludgeoning Protection Self VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (12231,  94) /* ATTACK_NOTIFICATION_EVENT */

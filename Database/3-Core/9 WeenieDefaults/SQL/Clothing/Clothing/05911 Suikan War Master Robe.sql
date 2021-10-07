@@ -52,9 +52,9 @@ VALUES (5911,   1,   33554854) /* Setup */
      , (5911,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5911,   571,      2)  /* Creature Enchantment Ineptitude Other III */
+VALUES (5911,   625,      2)  /* Life Magic Ineptitude Other III */
+     , (5911,  1484,      2)  /* Impenetrability IV */
+     , (5911,   571,      2)  /* Creature Enchantment Ineptitude Other III */
      , (5911,   595,      2)  /* Item Enchantment Ineptitude Other III */
-     , (5911,   625,      2)  /* Life Magic Ineptitude Other III */
-     , (5911,   638,      2)  /* War Magic Mastery Other IV */
      , (5911,  1453,      2)  /* Willpower Other III */
-     , (5911,  1484,      2)  /* Impenetrability IV */;
+     , (5911,   638,      2)  /* War Magic Mastery Other IV */;

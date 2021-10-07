@@ -54,7 +54,7 @@ VALUES (12024,   1,   33557043) /* Setup */
      , (12024,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12024,   248,      2)  /* Invulnerability Self V */
-     , (12024,  1022,      2)  /* Bludgeoning Protection Self V */
-     , (12024,  1114,      2)  /* Blade Protection Self VI */
-     , (12024,  1137,      2)  /* Piercing Protection Self V */;
+VALUES (12024,  1114,      2)  /* Blade Protection Self VI */
+     , (12024,  1137,      2)  /* Piercing Protection Self V */
+     , (12024,   248,      2)  /* Invulnerability Self V */
+     , (12024,  1022,      2)  /* Bludgeoning Protection Self V */;

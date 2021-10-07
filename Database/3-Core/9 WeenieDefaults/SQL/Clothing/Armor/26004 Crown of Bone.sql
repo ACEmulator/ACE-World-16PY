@@ -60,5 +60,5 @@ VALUES (26004,   1,   33558577) /* Setup */
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (26004,   512,      2)  /* Acid Protection Other IV */
      , (26004,   849,      2)  /* Fire Protection Other IV */
-     , (26004,  1039,      2)  /* Cold Protection Other IV */
-     , (26004,  1483,      2)  /* Impenetrability III */;
+     , (26004,  1483,      2)  /* Impenetrability III */
+     , (26004,  1039,      2)  /* Cold Protection Other IV */;

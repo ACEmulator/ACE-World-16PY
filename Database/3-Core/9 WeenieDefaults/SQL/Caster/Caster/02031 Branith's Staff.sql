@@ -44,6 +44,6 @@ VALUES (2031,   1,   33558283) /* Setup */
      , (2031,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2031,   215,      2)  /* Mana Renewal Self IV */
-     , (2031,   632,      2)  /* War Magic Mastery Self IV */
-     , (2031,   656,      2)  /* Mana Conversion Mastery Self IV */;
+VALUES (2031,   632,      2)  /* War Magic Mastery Self IV */
+     , (2031,   656,      2)  /* Mana Conversion Mastery Self IV */
+     , (2031,   215,      2)  /* Mana Renewal Self IV */;

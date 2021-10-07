@@ -121,17 +121,17 @@ VALUES (5922,  0,  4,  0,    0,  170,  170,  204,  204,  221,  170,  272,  255, 
      , (5922,  8,  4, 80, 0.75,  170,  170,  204,  204,  221,  170,  272,  255,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5922,   174,   2.02)  /* Fester Other IV */
-     , (5922,  1239,   2.04)  /* Drain Health Other III */
-     , (5922,  1252,   2.04)  /* Drain Stamina Other IV */
-     , (5922,  1263,   2.04)  /* Drain Mana Other IV */
-     , (5922,  1323,    2.1)  /* Imperil Other II */
-     , (5922,  1341,   2.02)  /* Weakness Other IV */
-     , (5922,  1370,   2.02)  /* Frailty Other IV */
-     , (5922,  1394,   2.02)  /* Clumsiness Other IV */
-     , (5922,  1418,   2.02)  /* Slowness Other IV */
+VALUES (5922,  1394,   2.02)  /* Clumsiness Other IV */
      , (5922,  1442,   2.02)  /* Bafflement Other IV */
-     , (5922,  1466,   2.02)  /* Feeblemind Other IV */;
+     , (5922,  1370,   2.02)  /* Frailty Other IV */
+     , (5922,  1418,   2.02)  /* Slowness Other IV */
+     , (5922,  1263,   2.04)  /* Drain Mana Other IV */
+     , (5922,  1239,   2.04)  /* Drain Health Other III */
+     , (5922,  1323,    2.1)  /* Imperil Other II */
+     , (5922,  1252,   2.04)  /* Drain Stamina Other IV */
+     , (5922,   174,   2.02)  /* Fester Other IV */
+     , (5922,  1466,   2.02)  /* Feeblemind Other IV */
+     , (5922,  1341,   2.02)  /* Weakness Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (5922,  94) /* ATTACK_NOTIFICATION_EVENT */

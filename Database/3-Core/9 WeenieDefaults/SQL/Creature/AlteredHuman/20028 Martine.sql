@@ -139,42 +139,42 @@ VALUES (20028,  0,  4,  0,    0,  900, 1800, 1800, 1800, 1800, 1800, 1800, 1800,
      , (20028,  8,  4, 45, 0.75,  900, 1800, 1800, 1800, 1800, 1800, 1800, 1800,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20028,  1882,      2)  /* Nullify All Magic Self */
-     , (20028,  2053,      2)  /* Executor's Blessing */
+VALUES (20028,  2128,      2)  /* Ilservian's Flame */
+     , (20028,  2176,      2)  /* Enervation */
+     , (20028,  2698,      2)  /* Aerfalle's Embrace */
      , (20028,  2056,      2)  /* Ataxia */
-     , (20028,  2084,      2)  /* Belly of Lead */
-     , (20028,  2088,      2)  /* Senescence */
      , (20028,  2120,      2)  /* Dissolving Vortex */
-     , (20028,  2128,      2)  /* Ilservian's Flame */
+     , (20028,  2178,      2)  /* Decrepitude's Grasp */
+     , (20028,  2053,      2)  /* Executor's Blessing */
+     , (20028,  2328,      2)  /* Vitality Siphon */
+     , (20028,  2697,      2)  /* Aerfalle's Touch */
      , (20028,  2132,      2)  /* The Spike */
      , (20028,  2136,      2)  /* Icy Torment */
+     , (20028,  2162,      2)  /* Olthoi's Gift */
+     , (20028,  2329,      2)  /* Essence Void */
+     , (20028,  2330,      2)  /* Vigor Siphon */
+     , (20028,  1882,      2)  /* Nullify All Magic Self */
      , (20028,  2140,      2)  /* Alset's Coil */
      , (20028,  2144,      2)  /* Crushing Shame */
      , (20028,  2146,      2)  /* Evisceration */
+     , (20028,  2084,      2)  /* Belly of Lead */
      , (20028,  2149,      2)  /* Caustic Blessing */
      , (20028,  2151,      2)  /* Blessing of the Blade Turner */
+     , (20028,  2674,      2)  /* Vicious Rebuke */
+     , (20028,  2088,      2)  /* Senescence */
      , (20028,  2153,      2)  /* Blessing of the Mace Turner */
      , (20028,  2155,      2)  /* Icy Blessing */
      , (20028,  2157,      2)  /* Fiery Blessing */
+     , (20028,  2673,      2)  /* Ring of Unspeakable Agony */
      , (20028,  2159,      2)  /* Storm's Blessing */
+     , (20028,  2170,      2)  /* Inferno's Gift */
+     , (20028,  2672,      2)  /* Ring of True Pain */
      , (20028,  2161,      2)  /* Blessing of the Arrow Turner */
-     , (20028,  2162,      2)  /* Olthoi's Gift */
      , (20028,  2164,      2)  /* Swordsman's Gift */
      , (20028,  2166,      2)  /* Tusker's Gift */
      , (20028,  2168,      2)  /* Gelidite's Gift */
-     , (20028,  2170,      2)  /* Inferno's Gift */
      , (20028,  2172,      2)  /* Astyrrian's Gift */
-     , (20028,  2174,      2)  /* Archer's Gift */
-     , (20028,  2176,      2)  /* Enervation */
-     , (20028,  2178,      2)  /* Decrepitude's Grasp */
-     , (20028,  2328,      2)  /* Vitality Siphon */
-     , (20028,  2329,      2)  /* Essence Void */
-     , (20028,  2330,      2)  /* Vigor Siphon */
-     , (20028,  2672,      2)  /* Ring of True Pain */
-     , (20028,  2673,      2)  /* Ring of Unspeakable Agony */
-     , (20028,  2674,      2)  /* Vicious Rebuke */
-     , (20028,  2697,      2)  /* Aerfalle's Touch */
-     , (20028,  2698,      2)  /* Aerfalle's Embrace */;
+     , (20028,  2174,      2)  /* Archer's Gift */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (20028, 414) /* PLAYER_DEATH_EVENT */;

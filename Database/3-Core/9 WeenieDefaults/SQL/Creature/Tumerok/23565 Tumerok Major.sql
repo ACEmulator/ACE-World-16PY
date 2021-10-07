@@ -126,29 +126,29 @@ VALUES (23565,  0,  4,  0,    0,  220,  220,  220,  220,  220,  220,  220,  220,
      , (23565,  8,  4, 50, 0.75,  100,  100,  100,  100,  100,  100,  100,  100,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23565,    61,  2.014)  /* Acid Stream IV */
+VALUES (23565,   140,  2.004)  /* Lightning Volley IV */
+     , (23565,   259,  2.004)  /* Impregnability Self IV */
+     , (23565,    83,  2.014)  /* Flame Bolt IV */
+     , (23565,  1159,   2.02)  /* Heal Self IV */
      , (23565,    67,  2.014)  /* Shock Wave IV */
+     , (23565,   265,  2.007)  /* Defenselessness Other IV */
+     , (23565,  1222,  2.007)  /* Mana Drain Other IV */
+     , (23565,   136,  2.004)  /* Frost Volley IV */
      , (23565,    72,  2.014)  /* Frost Bolt IV */
      , (23565,    78,  2.014)  /* Lightning Bolt IV */
-     , (23565,    83,  2.014)  /* Flame Bolt IV */
-     , (23565,    89,  2.014)  /* Force Bolt IV */
-     , (23565,    95,  2.014)  /* Whirling Blade IV */
-     , (23565,   136,  2.004)  /* Frost Volley IV */
-     , (23565,   140,  2.004)  /* Lightning Volley IV */
      , (23565,   144,  2.004)  /* Flame Volley IV */
-     , (23565,   152,  2.004)  /* Blade Volley IV */
-     , (23565,   232,  2.007)  /* Vulnerability Other IV */
-     , (23565,   247,  2.004)  /* Invulnerability Self IV */
-     , (23565,   259,  2.004)  /* Impregnability Self IV */
-     , (23565,   265,  2.007)  /* Defenselessness Other IV */
      , (23565,   277,  2.004)  /* Magic Resistance Self IV */
-     , (23565,   283,  2.007)  /* Magic Yield Other IV */
-     , (23565,  1159,   2.02)  /* Heal Self IV */
      , (23565,  1174,  2.007)  /* Harm Other IV */
+     , (23565,   152,  2.004)  /* Blade Volley IV */
+     , (23565,    89,  2.014)  /* Force Bolt IV */
+     , (23565,   283,  2.007)  /* Magic Yield Other IV */
+     , (23565,    95,  2.014)  /* Whirling Blade IV */
+     , (23565,   232,  2.007)  /* Vulnerability Other IV */
      , (23565,  1198,  2.007)  /* Enfeeble Other IV */
-     , (23565,  1222,  2.007)  /* Mana Drain Other IV */
      , (23565,  1330,  2.004)  /* Strength Self IV */
-     , (23565,  1400,  2.004)  /* Quickness Self IV */;
+     , (23565,   247,  2.004)  /* Invulnerability Self IV */
+     , (23565,  1400,  2.004)  /* Quickness Self IV */
+     , (23565,    61,  2.014)  /* Acid Stream IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (23565,  94) /* ATTACK_NOTIFICATION_EVENT */

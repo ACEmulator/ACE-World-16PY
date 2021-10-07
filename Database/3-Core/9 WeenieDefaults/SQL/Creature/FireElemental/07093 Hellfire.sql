@@ -111,15 +111,15 @@ VALUES (7093,  0, 16,  0,    0,  220,  183,  183,  183,  220, 22000,  189,  163,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7093,    85,   2.04)  /* Flame Bolt VI */
-     , (7093,   279,      2)  /* Magic Resistance Self VI */
-     , (7093,  1035,      2)  /* Cold Protection Self VI */
-     , (7093,  1108,   2.03)  /* Fire Vulnerability Other VI */
      , (7093,  1161,      2)  /* Heal Self VI */
+     , (7093,  1468,   2.03)  /* Feeblemind Other VI */
+     , (7093,  1035,      2)  /* Cold Protection Self VI */
+     , (7093,   279,      2)  /* Magic Resistance Self VI */
+     , (7093,  1108,   2.03)  /* Fire Vulnerability Other VI */
      , (7093,  1242,      2)  /* Drain Health Other VI */
      , (7093,  1312,      2)  /* Armor Self VI */
      , (7093,  1327,   2.03)  /* Imperil Other VI */
-     , (7093,  1343,   2.03)  /* Weakness Other VI */
-     , (7093,  1468,   2.03)  /* Feeblemind Other VI */;
+     , (7093,  1343,   2.03)  /* Weakness Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (7093,  94) /* ATTACK_NOTIFICATION_EVENT */

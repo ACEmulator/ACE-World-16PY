@@ -111,17 +111,17 @@ VALUES (30834,  0,  2,  0, 0.75,  150,  150,  150,  150,  150,  150,  150,  150,
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30834,  1198,   2.02)  /* Enfeeble Other IV */
      , (30834,  1222,   2.02)  /* Mana Drain Other IV */
-     , (30834,  1341,   2.02)  /* Weakness Other IV */
-     , (30834,  1370,   2.03)  /* Frailty Other IV */
      , (30834,  1394,   2.02)  /* Clumsiness Other IV */
-     , (30834,  1418,   2.02)  /* Slowness Other IV */
      , (30834,  1442,   2.03)  /* Bafflement Other IV */
-     , (30834,  1466,   2.02)  /* Feeblemind Other IV */
-     , (30834,  1839,    2.2)  /* Blistering Creeper */
+     , (30834,  1370,   2.03)  /* Frailty Other IV */
+     , (30834,  1418,   2.02)  /* Slowness Other IV */
      , (30834,  1841,    2.2)  /* Slithering Flames */
+     , (30834,  2188,   2.02)  /* Bottle Breaker */
+     , (30834,  1839,    2.2)  /* Blistering Creeper */
      , (30834,  1843,    2.2)  /* Foon-Ki's Glacial Floe */
      , (30834,  1844,    2.2)  /* Os' Wall */
-     , (30834,  2188,   2.02)  /* Bottle Breaker */;
+     , (30834,  1466,   2.02)  /* Feeblemind Other IV */
+     , (30834,  1341,   2.02)  /* Weakness Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (30834,  94) /* ATTACK_NOTIFICATION_EVENT */

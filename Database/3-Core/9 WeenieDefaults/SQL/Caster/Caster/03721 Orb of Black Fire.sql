@@ -47,5 +47,5 @@ VALUES (3721,   1,   33558249) /* Setup */
      , (3721,  37,         33) /* ItemSkillLimit - LifeMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3721,   518,      2)  /* Acid Protection Self IV */
-     , (3721,  1092,      2)  /* Fire Protection Self IV */;
+VALUES (3721,  1092,      2)  /* Fire Protection Self IV */
+     , (3721,   518,      2)  /* Acid Protection Self IV */;

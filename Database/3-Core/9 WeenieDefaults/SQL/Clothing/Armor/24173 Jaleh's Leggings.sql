@@ -53,5 +53,5 @@ VALUES (24173,   1,   33554856) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24173,   909,      2)  /* Leadership Mastery Other VI */
-     , (24173,   993,      2)  /* Sprint Other VI */
-     , (24173,  1485,      2)  /* Impenetrability V */;
+     , (24173,  1485,      2)  /* Impenetrability V */
+     , (24173,   993,      2)  /* Sprint Other VI */;

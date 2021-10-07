@@ -110,21 +110,21 @@ VALUES (19538,  0, 32,  0,    0,  260,  260,  260,  260,  286,  286,  260,  260,
      , (19538,  8, 64, 45, 0.75,  260,  260,  260,  260,  286,  286,  260,  260,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19538,    80,  2.004)  /* Lightning Bolt VI */
-     , (19538,   234,  2.017)  /* Vulnerability Other VI */
-     , (19538,   267,  2.017)  /* Defenselessness Other VI */
-     , (19538,   276,  2.008)  /* Magic Resistance Self III */
-     , (19538,   520,  2.008)  /* Acid Protection Self VI */
-     , (19538,  1065,  2.017)  /* Cold Vulnerability Other VI */
-     , (19538,  1094,  2.008)  /* Fire Protection Self VI */
-     , (19538,  1108,  2.017)  /* Fire Vulnerability Other VI */
-     , (19538,  1160,  2.013)  /* Heal Self V */
-     , (19538,  1237,  2.008)  /* Drain Health Other I */
-     , (19538,  1327,  2.017)  /* Imperil Other VI */
-     , (19538,  1343,  2.017)  /* Weakness Other VI */
-     , (19538,  1787,  2.004)  /* Halo of Frost */
+VALUES (19538,   520,  2.008)  /* Acid Protection Self VI */
      , (19538,  1788,  2.004)  /* Eye of the Storm */
-     , (19538,  2136,  2.004)  /* Icy Torment */;
+     , (19538,   234,  2.017)  /* Vulnerability Other VI */
+     , (19538,  1094,  2.008)  /* Fire Protection Self VI */
+     , (19538,  1343,  2.017)  /* Weakness Other VI */
+     , (19538,   267,  2.017)  /* Defenselessness Other VI */
+     , (19538,  1160,  2.013)  /* Heal Self V */
+     , (19538,  2136,  2.004)  /* Icy Torment */
+     , (19538,  1108,  2.017)  /* Fire Vulnerability Other VI */
+     , (19538,    80,  2.004)  /* Lightning Bolt VI */
+     , (19538,   276,  2.008)  /* Magic Resistance Self III */
+     , (19538,  1237,  2.008)  /* Drain Health Other I */
+     , (19538,  1065,  2.017)  /* Cold Vulnerability Other VI */
+     , (19538,  1327,  2.017)  /* Imperil Other VI */
+     , (19538,  1787,  2.004)  /* Halo of Frost */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (19538,  94) /* ATTACK_NOTIFICATION_EVENT */

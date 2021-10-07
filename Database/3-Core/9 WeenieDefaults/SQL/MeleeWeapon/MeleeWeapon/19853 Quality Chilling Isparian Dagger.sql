@@ -60,7 +60,7 @@ VALUES (19853,   1,   33557734) /* Setup */
      , (19853,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19853,  1035,      2)  /* Cold Protection Self VI */
-     , (19853,  1377,      2)  /* Coordination Self V */
-     , (19853,  1589,      2)  /* Aura of Heart Seeker Self III */
-     , (19853,  1613,      2)  /* Aura of Blood Drinker Self III */;
+VALUES (19853,  1589,      2)  /* Aura of Heart Seeker Self III */
+     , (19853,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (19853,  1035,      2)  /* Cold Protection Self VI */
+     , (19853,  1377,      2)  /* Coordination Self V */;

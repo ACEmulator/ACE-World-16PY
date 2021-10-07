@@ -53,11 +53,11 @@ VALUES (28578,   1,   33554648) /* Setup */
      , (28578,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28578,  2092,      2)  /* Olthoi's Bane */
+VALUES (28578,  2113,      2)  /* Archer's Bane */
+     , (28578,  2108,      2)  /* Brogard's Defiance */
+     , (28578,  2092,      2)  /* Olthoi's Bane */
+     , (28578,  2110,      2)  /* Astyrrian's Bane */
+     , (28578,  2102,      2)  /* Inferno's Bane */
      , (28578,  2094,      2)  /* Swordsman's Bane */
      , (28578,  2098,      2)  /* Tusker's Bane */
-     , (28578,  2102,      2)  /* Inferno's Bane */
-     , (28578,  2104,      2)  /* Gelidite's Bane */
-     , (28578,  2108,      2)  /* Brogard's Defiance */
-     , (28578,  2110,      2)  /* Astyrrian's Bane */
-     , (28578,  2113,      2)  /* Archer's Bane */;
+     , (28578,  2104,      2)  /* Gelidite's Bane */;

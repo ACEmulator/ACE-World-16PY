@@ -62,6 +62,6 @@ VALUES (19949,   1,   33556371) /* Setup */
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19949,   520,      2)  /* Acid Protection Self VI */
      , (19949,  1353,      2)  /* Endurance Self V */
+     , (19949,  2682,      2)  /* Feeble Light Weapon Aptitude */
      , (19949,  1590,      2)  /* Aura of Heart Seeker Self IV */
-     , (19949,  1614,      2)  /* Aura of Blood Drinker Self IV */
-     , (19949,  2682,      2)  /* Feeble Light Weapon Aptitude */;
+     , (19949,  1614,      2)  /* Aura of Blood Drinker Self IV */;

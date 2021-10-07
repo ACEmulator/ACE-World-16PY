@@ -120,14 +120,14 @@ VALUES (27799,  0,  4,  0,    0,  350,  420,  525,  350,  420,  350,  490,  490,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27799,    85,   2.07)  /* Flame Bolt VI */
+     , (27799,  1161,   2.01)  /* Heal Self VI */
+     , (27799,  1326,  2.048)  /* Imperil Other V */
      , (27799,   233,   2.03)  /* Vulnerability Other V */
      , (27799,   266,   2.03)  /* Defenselessness Other V */
      , (27799,  1107,  2.048)  /* Fire Vulnerability Other V */
-     , (27799,  1161,   2.01)  /* Heal Self VI */
      , (27799,  1242,   2.01)  /* Drain Health Other VI */
-     , (27799,  1326,  2.048)  /* Imperil Other V */
-     , (27799,  1443,   2.03)  /* Bafflement Other V */
-     , (27799,  1467,   2.03)  /* Feeblemind Other V */;
+     , (27799,  1467,   2.03)  /* Feeblemind Other V */
+     , (27799,  1443,   2.03)  /* Bafflement Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (27799,  94) /* ATTACK_NOTIFICATION_EVENT */

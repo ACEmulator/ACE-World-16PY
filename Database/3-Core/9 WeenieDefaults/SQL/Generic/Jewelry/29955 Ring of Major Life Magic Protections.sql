@@ -41,14 +41,14 @@ VALUES (29955,   1,   33554691) /* Setup */
      , (29955,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29955,  2578,      2)  /* Minor Armor */
+VALUES (29955,  2618,      2)  /* Minor Flame Ward */
+     , (29955,  2578,      2)  /* Minor Armor */
+     , (29955,  2626,      2)  /* Minor Health Gain */
+     , (29955,  2619,      2)  /* Minor Frost Ward */
+     , (29955,  2627,      2)  /* Minor Mana Gain */
+     , (29955,  2620,      2)  /* Minor Piercing Ward */
+     , (29955,  2628,      2)  /* Minor Stamina Gain */
      , (29955,  2616,      2)  /* Minor Acid Ward */
      , (29955,  2617,      2)  /* Minor Bludgeoning Ward */
-     , (29955,  2618,      2)  /* Minor Flame Ward */
-     , (29955,  2619,      2)  /* Minor Frost Ward */
-     , (29955,  2620,      2)  /* Minor Piercing Ward */
      , (29955,  2621,      2)  /* Minor Slashing Ward */
-     , (29955,  2622,      2)  /* Minor Storm Ward */
-     , (29955,  2626,      2)  /* Minor Health Gain */
-     , (29955,  2627,      2)  /* Minor Mana Gain */
-     , (29955,  2628,      2)  /* Minor Stamina Gain */;
+     , (29955,  2622,      2)  /* Minor Storm Ward */;

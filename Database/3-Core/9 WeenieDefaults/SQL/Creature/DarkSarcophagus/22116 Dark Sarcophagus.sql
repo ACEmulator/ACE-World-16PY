@@ -101,12 +101,12 @@ VALUES (22116,  0,  8,  3,  0.5,   20, 2000, 2000, 2000, 2000,  200, 2000, 2000,
      , (22116, 21, 64,  3,  0.5,   10, 1000, 1000, 1000, 1000,  100, 1000, 1000,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22116,   174,    2.1)  /* Fester Other IV */
+VALUES (22116,   221,    2.1)  /* Mana Depletion Other IV */
      , (22116,   197,   2.08)  /* Exhaustion Other IV */
-     , (22116,   221,    2.1)  /* Mana Depletion Other IV */
      , (22116,  1240,   2.15)  /* Drain Health Other IV */
      , (22116,  1251,   2.08)  /* Drain Stamina Other III */
-     , (22116,  1262,   2.15)  /* Drain Mana Other III */;
+     , (22116,  1262,   2.15)  /* Drain Mana Other III */
+     , (22116,   174,    2.1)  /* Fester Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (22116,  94) /* ATTACK_NOTIFICATION_EVENT */;

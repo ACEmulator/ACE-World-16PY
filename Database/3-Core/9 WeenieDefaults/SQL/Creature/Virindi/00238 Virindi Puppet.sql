@@ -105,35 +105,35 @@ VALUES (238,  0,  1,  0,    0,  150,  150,  150,  150,  119,  150,  150,  119,  
      , (238, 17,  1,  0,    0,  150,  150,  150,  150,  119,  150,  150,  119,    0, 3,    0,    0,  0.1,    0,    0,  0.1,    0, 0.13, 0.45,    0, 0.13, 0.45) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (238,    59,  2.025)  /* Acid Stream II */
-     , (238,    60,  2.013)  /* Acid Stream III */
+VALUES (238,  1665,  2.012)  /* Stamina to Health Self II */
+     , (238,   139,  2.025)  /* Lightning Volley III */
+     , (238,  1416,   2.02)  /* Slowness Other II */
+     , (238,  1157,   2.03)  /* Heal Self II */
      , (238,    65,  2.025)  /* Shock Wave II */
      , (238,    66,  2.013)  /* Shock Wave III */
      , (238,    70,  2.025)  /* Frost Bolt II */
+     , (238,   135,  2.025)  /* Frost Volley III */
      , (238,    71,  2.013)  /* Frost Bolt III */
+     , (238,  1196,   2.02)  /* Enfeeble Other II */
+     , (238,  1291,  2.012)  /* Mana to Health Self II */
      , (238,    76,  2.025)  /* Lightning Bolt II */
      , (238,    77,  2.013)  /* Lightning Bolt III */
+     , (238,  1677,  2.012)  /* Stamina to Mana Self II */
+     , (238,   143,  2.025)  /* Flame Volley III */
+     , (238,  1261,   2.02)  /* Drain Mana Other II */
      , (238,    81,  2.025)  /* Flame Bolt II */
      , (238,    82,  2.013)  /* Flame Bolt III */
+     , (238,  1172,   2.02)  /* Harm Other II */
+     , (238,  1238,  2.012)  /* Drain Health Other II */
      , (238,    87,  2.025)  /* Force Bolt II */
      , (238,    88,  2.013)  /* Force Bolt III */
+     , (238,  1368,   2.02)  /* Frailty Other II */
+     , (238,   281,   2.02)  /* Magic Yield Other II */
      , (238,    93,  2.025)  /* Whirling Blade II */
      , (238,    94,  2.013)  /* Whirling Blade III */
-     , (238,   127,  2.025)  /* Acid Volley III */
-     , (238,   135,  2.025)  /* Frost Volley III */
-     , (238,   139,  2.025)  /* Lightning Volley III */
-     , (238,   143,  2.025)  /* Flame Volley III */
-     , (238,   281,   2.02)  /* Magic Yield Other II */
-     , (238,  1157,   2.03)  /* Heal Self II */
-     , (238,  1172,   2.02)  /* Harm Other II */
-     , (238,  1196,   2.02)  /* Enfeeble Other II */
-     , (238,  1238,  2.012)  /* Drain Health Other II */
-     , (238,  1261,   2.02)  /* Drain Mana Other II */
-     , (238,  1291,  2.012)  /* Mana to Health Self II */
-     , (238,  1368,   2.02)  /* Frailty Other II */
-     , (238,  1416,   2.02)  /* Slowness Other II */
-     , (238,  1665,  2.012)  /* Stamina to Health Self II */
-     , (238,  1677,  2.012)  /* Stamina to Mana Self II */;
+     , (238,    59,  2.025)  /* Acid Stream II */
+     , (238,    60,  2.013)  /* Acid Stream III */
+     , (238,   127,  2.025)  /* Acid Volley III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (238,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -109,18 +109,18 @@ VALUES (20884,  0, 16,  0,    0,  200,  200,  200,  200,  200,  200,  220,  220,
      , (20884,  8, 16, 75, 0.75,  200,  200,  200,  200,  200,  200,  220,  220,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20884,   276,  2.008)  /* Magic Resistance Self III */
+VALUES (20884,  1160,  2.013)  /* Heal Self V */
+     , (20884,  2318,  2.017)  /* Gravity Well */
      , (20884,  1033,  2.008)  /* Cold Protection Self IV */
-     , (20884,  1160,  2.013)  /* Heal Self V */
-     , (20884,  1237,  2.008)  /* Drain Health Other I */
-     , (20884,  1785,  2.004)  /* Cassius' Ring of Fire */
-     , (20884,  2074,  2.017)  /* Gossamer Flesh */
      , (20884,  2088,  2.017)  /* Senescence */
      , (20884,  2128,  2.004)  /* Ilservian's Flame */
      , (20884,  2129,  2.004)  /* Sizzling Fury */
-     , (20884,  2170,  2.017)  /* Inferno's Gift */
+     , (20884,  1237,  2.008)  /* Drain Health Other I */
+     , (20884,   276,  2.008)  /* Magic Resistance Self III */
+     , (20884,  2074,  2.017)  /* Gossamer Flesh */
      , (20884,  2228,  2.017)  /* Broadside of a Barn */
-     , (20884,  2318,  2.017)  /* Gravity Well */;
+     , (20884,  1785,  2.004)  /* Cassius' Ring of Fire */
+     , (20884,  2170,  2.017)  /* Inferno's Gift */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (20884,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -117,28 +117,28 @@ VALUES (6772,  0,  4,  0,    0,   70,   37,   23,   37,   18,   28,   70,   12, 
      , (6772,  8,  4, 20, 0.75,   80,   42,   26,   42,   21,   32,   80,   14,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6772,    60,  2.011)  /* Acid Stream III */
-     , (6772,    61,  2.023)  /* Acid Stream IV */
+VALUES (6772,  1198,  2.016)  /* Enfeeble Other IV */
+     , (6772,    82,  2.011)  /* Flame Bolt III */
+     , (6772,  1222,  2.016)  /* Mana Drain Other IV */
      , (6772,    66,  2.011)  /* Shock Wave III */
      , (6772,    67,  2.023)  /* Shock Wave IV */
-     , (6772,    71,  2.011)  /* Frost Bolt III */
-     , (6772,    72,  2.023)  /* Frost Bolt IV */
      , (6772,    77,  2.011)  /* Lightning Bolt III */
+     , (6772,   197,  2.016)  /* Exhaustion Other IV */
+     , (6772,    71,  2.011)  /* Frost Bolt III */
+     , (6772,  1252,   2.02)  /* Drain Stamina Other IV */
+     , (6772,    72,  2.023)  /* Frost Bolt IV */
      , (6772,    78,  2.023)  /* Lightning Bolt IV */
-     , (6772,    82,  2.011)  /* Flame Bolt III */
      , (6772,    83,  2.023)  /* Flame Bolt IV */
+     , (6772,  1240,   2.02)  /* Drain Health Other IV */
      , (6772,    88,  2.011)  /* Force Bolt III */
      , (6772,    89,  2.023)  /* Force Bolt IV */
      , (6772,    94,  2.011)  /* Whirling Blade III */
      , (6772,    95,  2.023)  /* Whirling Blade IV */
      , (6772,   168,   2.02)  /* Regeneration Self IV */
      , (6772,   174,  2.016)  /* Fester Other IV */
-     , (6772,   197,  2.016)  /* Exhaustion Other IV */
-     , (6772,  1198,  2.016)  /* Enfeeble Other IV */
-     , (6772,  1222,  2.016)  /* Mana Drain Other IV */
-     , (6772,  1240,   2.02)  /* Drain Health Other IV */
-     , (6772,  1252,   2.02)  /* Drain Stamina Other IV */
-     , (6772,  1263,   2.02)  /* Drain Mana Other IV */;
+     , (6772,  1263,   2.02)  /* Drain Mana Other IV */
+     , (6772,    60,  2.011)  /* Acid Stream III */
+     , (6772,    61,  2.023)  /* Acid Stream IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (6772, 414) /* PLAYER_DEATH_EVENT */;

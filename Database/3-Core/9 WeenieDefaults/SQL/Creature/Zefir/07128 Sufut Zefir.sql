@@ -105,19 +105,19 @@ VALUES (7128,  0,  2, 10,  0.5,   80,   64,   44,   54,   44,   38,   44,    7, 
      , (7128, 21,  4,  0,    0,   70,   56,   39,   47,   39,   33,   39,    6,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7128,    66,  2.034)  /* Shock Wave III */
+VALUES (7128,  1262,   2.01)  /* Drain Mana Other III */
      , (7128,    82,  2.034)  /* Flame Bolt III */
+     , (7128,  1158,  2.015)  /* Heal Self III */
+     , (7128,    66,  2.034)  /* Shock Wave III */
+     , (7128,  1369,  2.005)  /* Frailty Other III */
+     , (7128,  1417,  2.005)  /* Slowness Other III */
+     , (7128,   282,  2.005)  /* Magic Yield Other III */
+     , (7128,  1173,  2.005)  /* Harm Other III */
+     , (7128,  1239,   2.01)  /* Drain Health Other III */
      , (7128,    88,  2.034)  /* Force Bolt III */
      , (7128,    94,  2.034)  /* Whirling Blade III */
-     , (7128,   282,  2.005)  /* Magic Yield Other III */
-     , (7128,  1158,  2.015)  /* Heal Self III */
-     , (7128,  1173,  2.005)  /* Harm Other III */
-     , (7128,  1197,  2.005)  /* Enfeeble Other III */
-     , (7128,  1239,   2.01)  /* Drain Health Other III */
      , (7128,  1251,   2.01)  /* Drain Stamina Other III */
-     , (7128,  1262,   2.01)  /* Drain Mana Other III */
-     , (7128,  1369,  2.005)  /* Frailty Other III */
-     , (7128,  1417,  2.005)  /* Slowness Other III */;
+     , (7128,  1197,  2.005)  /* Enfeeble Other III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (7128,  94) /* ATTACK_NOTIFICATION_EVENT */

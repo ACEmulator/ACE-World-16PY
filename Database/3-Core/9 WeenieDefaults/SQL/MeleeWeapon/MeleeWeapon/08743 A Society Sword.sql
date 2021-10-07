@@ -52,5 +52,5 @@ VALUES (8743,   1,   33554759) /* Setup */
      , (8743,  50,  100675463) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8743,   413,      2)  /* Heavy Weapon Mastery Other II */
-     , (8743,  1612,      2)  /* Aura of Blood Drinker Self II */;
+VALUES (8743,  1612,      2)  /* Aura of Blood Drinker Self II */
+     , (8743,   413,      2)  /* Heavy Weapon Mastery Other II */;

@@ -102,11 +102,11 @@ VALUES (8466,  0,  4, 15, 0.75,  900,  270,  270,  270,  270,  270,  270,  270, 
      , (8466, 22, 16, 20, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8466,     7,    2.2)  /* Harm Other I */
+VALUES (8466,  1157,   2.02)  /* Heal Self II */
+     , (8466,     7,    2.2)  /* Harm Other I */
      , (8466,   275,   2.04)  /* Magic Resistance Self II */
-     , (8466,   281,   2.06)  /* Magic Yield Other II */
-     , (8466,  1157,   2.02)  /* Heal Self II */
      , (8466,  1172,   2.06)  /* Harm Other II */
+     , (8466,   281,   2.06)  /* Magic Yield Other II */
      , (8466,  1238,   2.02)  /* Drain Health Other II */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

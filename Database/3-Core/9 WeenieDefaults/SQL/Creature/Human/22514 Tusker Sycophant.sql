@@ -119,25 +119,25 @@ VALUES (22514,  0,  4,  0,    0,  320,  288,  320,  352,  128,  128,  320,  192,
      , (22514,  8,  4,  2, 0.75,  320,  288,  320,  352,  128,  128,  320,  192,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22514,    63,   2.08)  /* Acid Stream VI */
-     , (22514,    69,   2.08)  /* Shock Wave VI */
-     , (22514,    74,   2.06)  /* Frost Bolt VI */
-     , (22514,    80,   2.06)  /* Lightning Bolt VI */
-     , (22514,    85,   2.06)  /* Flame Bolt VI */
-     , (22514,    91,   2.08)  /* Force Bolt VI */
-     , (22514,    97,   2.06)  /* Whirling Blade VI */
-     , (22514,   285,   2.04)  /* Magic Yield Other VI */
+VALUES (22514,    85,   2.06)  /* Flame Bolt VI */
      , (22514,  1161,   2.04)  /* Heal Self VI */
+     , (22514,  2053,      2)  /* Executor's Blessing */
+     , (22514,    69,   2.08)  /* Shock Wave VI */
+     , (22514,  2162,   2.04)  /* Olthoi's Gift */
+     , (22514,    74,   2.06)  /* Frost Bolt VI */
+     , (22514,  2765,   2.04)  /* Martyr's Hecatomb VI */
+     , (22514,    80,   2.06)  /* Lightning Bolt VI */
+     , (22514,   285,   2.04)  /* Magic Yield Other VI */
+     , (22514,  2772,   2.04)  /* Martyr's Tenacity VI */
      , (22514,  1176,   2.04)  /* Harm Other VI */
      , (22514,  1241,   2.04)  /* Drain Health Other V */
+     , (22514,  2074,   2.08)  /* Gossamer Flesh */
+     , (22514,    91,   2.08)  /* Force Bolt VI */
+     , (22514,    97,   2.06)  /* Whirling Blade VI */
      , (22514,  1253,   2.04)  /* Drain Stamina Other V */
      , (22514,  1264,   2.04)  /* Drain Mana Other V */
-     , (22514,  2053,      2)  /* Executor's Blessing */
-     , (22514,  2074,   2.08)  /* Gossamer Flesh */
-     , (22514,  2162,   2.04)  /* Olthoi's Gift */
      , (22514,  2166,   2.04)  /* Tusker's Gift */
-     , (22514,  2765,   2.04)  /* Martyr's Hecatomb VI */
-     , (22514,  2772,   2.04)  /* Martyr's Tenacity VI */;
+     , (22514,    63,   2.08)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (22514,  94) /* ATTACK_NOTIFICATION_EVENT */

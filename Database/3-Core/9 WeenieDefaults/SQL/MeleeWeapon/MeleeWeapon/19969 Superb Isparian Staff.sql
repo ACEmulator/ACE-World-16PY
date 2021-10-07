@@ -57,6 +57,6 @@ VALUES (19969,   1,   33556261) /* Setup */
      , (19969,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19969,  1591,      2)  /* Aura of Heart Seeker Self V */
-     , (19969,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (19969,  2565,      2)  /* Minor Light Weapon Aptitude */;
+VALUES (19969,  2565,      2)  /* Minor Light Weapon Aptitude */
+     , (19969,  1591,      2)  /* Aura of Heart Seeker Self V */
+     , (19969,  1615,      2)  /* Aura of Blood Drinker Self V */;

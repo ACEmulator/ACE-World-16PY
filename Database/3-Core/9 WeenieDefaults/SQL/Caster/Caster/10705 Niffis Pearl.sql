@@ -46,6 +46,6 @@ VALUES (10705,   1,   33558259) /* Setup */
      , (10705,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10705,  1310,      2)  /* Armor Self IV */
+VALUES (10705,  1448,      2)  /* Willpower Self IV */
      , (10705,  1424,      2)  /* Focus Self IV */
-     , (10705,  1448,      2)  /* Willpower Self IV */;
+     , (10705,  1310,      2)  /* Armor Self IV */;

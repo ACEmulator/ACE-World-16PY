@@ -53,8 +53,8 @@ VALUES (11260,   1,   33557232) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11260,   193,      2)  /* Rejuvenation Self VI */
+     , (11260,  2444,      2)  /* Lesser Strength of Earth */
      , (11260,   399,      2)  /* Light Weapon Mastery Self VI */
-     , (11260,  1592,      2)  /* Aura of Heart Seeker Self VI */
-     , (11260,  1616,      2)  /* Aura of Blood Drinker Self VI */
      , (11260,  2429,      2)  /* Timaru's Shelter */
-     , (11260,  2444,      2)  /* Lesser Strength of Earth */;
+     , (11260,  1592,      2)  /* Aura of Heart Seeker Self VI */
+     , (11260,  1616,      2)  /* Aura of Blood Drinker Self VI */;

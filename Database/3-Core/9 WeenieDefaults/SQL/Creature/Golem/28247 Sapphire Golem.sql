@@ -116,17 +116,17 @@ VALUES (28247,  0,  4,  0,    0,  300,  450,  270,  450,  360,  360,  300,  540,
      , (28247,  8,  4, 150, 0.55,  300,  450,  270,  450,  360,  360,  300,  540,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28247,    74,   2.07)  /* Frost Bolt VI */
-     , (28247,    80,   2.07)  /* Lightning Bolt VI */
-     , (28247,   627,   2.03)  /* Life Magic Ineptitude Other V */
+VALUES (28247,   627,   2.03)  /* Life Magic Ineptitude Other V */
      , (28247,  1065,   2.03)  /* Cold Vulnerability Other VI */
-     , (28247,  1089,   2.03)  /* Lightning Vulnerability Other VI */
      , (28247,  1161,      2)  /* Heal Self VI */
+     , (28247,  1089,   2.03)  /* Lightning Vulnerability Other VI */
+     , (28247,    74,   2.07)  /* Frost Bolt VI */
+     , (28247,  2730,   2.07)  /* Frost Arc VI */
+     , (28247,    80,   2.07)  /* Lightning Bolt VI */
      , (28247,  1242,   2.02)  /* Drain Health Other VI */
      , (28247,  1327,   2.03)  /* Imperil Other VI */
-     , (28247,  1343,   2.03)  /* Weakness Other VI */
-     , (28247,  2730,   2.07)  /* Frost Arc VI */
-     , (28247,  2737,   2.07)  /* Lightning Arc VI */;
+     , (28247,  2737,   2.07)  /* Lightning Arc VI */
+     , (28247,  1343,   2.03)  /* Weakness Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (28247,  94) /* ATTACK_NOTIFICATION_EVENT */

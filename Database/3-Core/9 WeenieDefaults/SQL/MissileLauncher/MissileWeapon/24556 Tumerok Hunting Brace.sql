@@ -52,6 +52,6 @@ VALUES (24556,   1,   33558380) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24556,  1604,      2)  /* Aura of Defender Self V */
-     , (24556,  1616,      2)  /* Aura of Blood Drinker Self VI */
      , (24556,  2567,      2)  /* Minor Missile Weapon Aptitude */
+     , (24556,  1616,      2)  /* Aura of Blood Drinker Self VI */
      , (24556,  2579,      2)  /* Minor Coordination */;

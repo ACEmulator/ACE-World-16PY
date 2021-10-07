@@ -104,17 +104,17 @@ VALUES (25667,  0, 45, 60,  0.5,  300,  300,  300,  150,  150, 3000,  192,  150,
      , (25667, 21, 16,  0,    0,  300,  300,  300,  150,  150, 3000,  192,  150,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25667,    80,    2.3)  /* Lightning Bolt VI */
-     , (25667,    85,    2.3)  /* Flame Bolt VI */
-     , (25667,   176,  2.067)  /* Fester Other VI */
+VALUES (25667,   223,  2.067)  /* Mana Depletion Other VI */
      , (25667,   199,  2.067)  /* Exhaustion Other VI */
-     , (25667,   223,  2.067)  /* Mana Depletion Other VI */
-     , (25667,  1161,      2)  /* Heal Self VI */
      , (25667,  1176,  2.067)  /* Harm Other VI */
-     , (25667,  1200,  2.067)  /* Enfeeble Other VI */
      , (25667,  1224,  2.067)  /* Mana Drain Other VI */
+     , (25667,    85,    2.3)  /* Flame Bolt VI */
+     , (25667,  1161,      2)  /* Heal Self VI */
+     , (25667,    80,    2.3)  /* Lightning Bolt VI */
      , (25667,  1242,      2)  /* Drain Health Other VI */
      , (25667,  1254,      2)  /* Drain Stamina Other VI */
+     , (25667,  1200,  2.067)  /* Enfeeble Other VI */
+     , (25667,   176,  2.067)  /* Fester Other VI */
      , (25667,  1265,      2)  /* Drain Mana Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

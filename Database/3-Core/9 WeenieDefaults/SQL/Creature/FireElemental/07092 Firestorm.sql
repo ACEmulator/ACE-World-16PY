@@ -109,15 +109,15 @@ VALUES (7092,  0, 16,  0,    0,  220,  183,  183,  183,  220, 22000,  189,  163,
      , (7092,  8, 16, 55, 0.75,  220,  183,  183,  183,  220, 22000,  189,  163,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7092,    84,  2.083)  /* Flame Bolt V */
-     , (7092,   278,      2)  /* Magic Resistance Self V */
+VALUES (7092,  1311,      2)  /* Armor Self V */
+     , (7092,    84,  2.083)  /* Flame Bolt V */
+     , (7092,  1160,      2)  /* Heal Self V */
      , (7092,  1034,      2)  /* Cold Protection Self V */
      , (7092,  1107,   2.03)  /* Fire Vulnerability Other V */
-     , (7092,  1160,      2)  /* Heal Self V */
      , (7092,  1241,      2)  /* Drain Health Other V */
-     , (7092,  1311,      2)  /* Armor Self V */
-     , (7092,  1326,   2.03)  /* Imperil Other V */
+     , (7092,   278,      2)  /* Magic Resistance Self V */
      , (7092,  1371,   2.03)  /* Frailty Other V */
+     , (7092,  1326,   2.03)  /* Imperil Other V */
      , (7092,  1395,   2.03)  /* Clumsiness Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

@@ -106,22 +106,22 @@ VALUES (9054,  0,  4,  0,    0, 6000, 4320, 4320, 4320, 3000, 5040, 4440, 3780, 
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9054,    78,    2.1)  /* Lightning Bolt IV */
+     , (9054,  1799,    2.1)  /* Flame Streak IV */
+     , (9054,   140,  2.009)  /* Lightning Volley IV */
+     , (9054,  1160,      2)  /* Heal Self V */
+     , (9054,  1800,    2.1)  /* Flame Streak V */
+     , (9054,  1419,  2.016)  /* Slowness Other V */
+     , (9054,   144,  2.009)  /* Flame Volley IV */
+     , (9054,  1107,   2.06)  /* Fire Vulnerability Other V */
      , (9054,    79,    2.1)  /* Lightning Bolt V */
      , (9054,    83,    2.1)  /* Flame Bolt IV */
-     , (9054,    84,    2.1)  /* Flame Bolt V */
-     , (9054,   140,  2.009)  /* Lightning Volley IV */
-     , (9054,   144,  2.009)  /* Flame Volley IV */
      , (9054,   276,   2.02)  /* Magic Resistance Self III */
-     , (9054,  1107,   2.06)  /* Fire Vulnerability Other V */
-     , (9054,  1160,      2)  /* Heal Self V */
+     , (9054,    84,    2.1)  /* Flame Bolt V */
      , (9054,  1241,      2)  /* Drain Health Other V */
-     , (9054,  1326,  2.016)  /* Imperil Other V */
-     , (9054,  1342,  2.016)  /* Weakness Other V */
-     , (9054,  1419,  2.016)  /* Slowness Other V */
-     , (9054,  1799,    2.1)  /* Flame Streak IV */
-     , (9054,  1800,    2.1)  /* Flame Streak V */
      , (9054,  1817,    2.1)  /* Lightning Streak IV */
-     , (9054,  1818,    2.1)  /* Lightning Streak V */;
+     , (9054,  1818,    2.1)  /* Lightning Streak V */
+     , (9054,  1326,  2.016)  /* Imperil Other V */
+     , (9054,  1342,  2.016)  /* Weakness Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (9054,  94) /* ATTACK_NOTIFICATION_EVENT */

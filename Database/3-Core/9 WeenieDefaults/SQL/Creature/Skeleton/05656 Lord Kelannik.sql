@@ -114,12 +114,12 @@ VALUES (5656,  0,  4,  0,    0,   90,   99,   90,   72,   99,   72,   99,   99, 
      , (5656,  8,  4, 50, 0.75,   90,   99,   90,   72,   99,   72,   99,   99,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5656,    89,    2.1)  /* Force Bolt IV */
-     , (5656,    95,    2.1)  /* Whirling Blade IV */
-     , (5656,  1341,   2.02)  /* Weakness Other IV */
+VALUES (5656,  1394,   2.02)  /* Clumsiness Other IV */
      , (5656,  1370,   2.03)  /* Frailty Other IV */
-     , (5656,  1394,   2.02)  /* Clumsiness Other IV */
-     , (5656,  1418,   2.02)  /* Slowness Other IV */;
+     , (5656,  1418,   2.02)  /* Slowness Other IV */
+     , (5656,    89,    2.1)  /* Force Bolt IV */
+     , (5656,    95,    2.1)  /* Whirling Blade IV */
+     , (5656,  1341,   2.02)  /* Weakness Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (5656,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -108,15 +108,15 @@ VALUES (5751,  0,  4,  0,    0,   50,   40,   40,   20, 5000,    5,   40,   12, 
      , (5751,  8,  4, 40, 0.75,   50,   40,   40,   20, 5000,    5,   40,   12,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5751,    70,  2.053)  /* Frost Bolt II */
-     , (5751,    71,  2.004)  /* Frost Bolt III */
+VALUES (5751,  1250,   2.02)  /* Drain Stamina Other II */
+     , (5751,    94,  2.004)  /* Whirling Blade III */
+     , (5751,    70,  2.053)  /* Frost Bolt II */
      , (5751,    87,  2.053)  /* Force Bolt II */
+     , (5751,   135,  2.004)  /* Frost Volley III */
+     , (5751,    71,  2.004)  /* Frost Bolt III */
      , (5751,    88,  2.004)  /* Force Bolt III */
      , (5751,    93,  2.053)  /* Whirling Blade II */
-     , (5751,    94,  2.004)  /* Whirling Blade III */
-     , (5751,   135,  2.004)  /* Frost Volley III */
-     , (5751,  1061,   2.02)  /* Cold Vulnerability Other II */
-     , (5751,  1250,   2.02)  /* Drain Stamina Other II */;
+     , (5751,  1061,   2.02)  /* Cold Vulnerability Other II */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (5751,  94) /* ATTACK_NOTIFICATION_EVENT */

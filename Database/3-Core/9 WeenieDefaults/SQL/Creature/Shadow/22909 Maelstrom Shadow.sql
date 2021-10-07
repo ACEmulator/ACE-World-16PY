@@ -125,22 +125,22 @@ VALUES (22909,  0,  4,  0,    0,  260,  260,  234,  234,  195,  312,  208,  221,
      , (22909,  8,  4, 65, 0.75,  260,  260,  234,  234,  195,  312,  208,  221,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22909,    73,  2.032)  /* Frost Bolt V */
-     , (22909,    79,  2.032)  /* Lightning Bolt V */
-     , (22909,    84,  2.032)  /* Flame Bolt V */
-     , (22909,    90,  2.032)  /* Force Bolt V */
-     , (22909,    96,  2.032)  /* Whirling Blade V */
-     , (22909,   137,  2.003)  /* Frost Volley V */
-     , (22909,   141,  2.003)  /* Lightning Volley V */
-     , (22909,   145,  2.003)  /* Flame Volley V */
-     , (22909,   149,  2.003)  /* Force Volley V */
-     , (22909,   153,  2.003)  /* Blade Volley V */
-     , (22909,   233,  2.023)  /* Vulnerability Other V */
-     , (22909,   284,  2.023)  /* Magic Yield Other V */
-     , (22909,  1088,  2.023)  /* Lightning Vulnerability Other V */
+VALUES (22909,    84,  2.032)  /* Flame Bolt V */
      , (22909,  1160,   2.02)  /* Heal Self V */
+     , (22909,  1088,  2.023)  /* Lightning Vulnerability Other V */
+     , (22909,   145,  2.003)  /* Flame Volley V */
+     , (22909,   137,  2.003)  /* Frost Volley V */
+     , (22909,    73,  2.032)  /* Frost Bolt V */
+     , (22909,   149,  2.003)  /* Force Volley V */
+     , (22909,   141,  2.003)  /* Lightning Volley V */
+     , (22909,    79,  2.032)  /* Lightning Bolt V */
      , (22909,  1175,  2.023)  /* Harm Other V */
      , (22909,  1241,  2.023)  /* Drain Health Other V */
+     , (22909,   153,  2.003)  /* Blade Volley V */
+     , (22909,    90,  2.032)  /* Force Bolt V */
+     , (22909,   284,  2.023)  /* Magic Yield Other V */
+     , (22909,    96,  2.032)  /* Whirling Blade V */
+     , (22909,   233,  2.023)  /* Vulnerability Other V */
      , (22909,  1326,    2.2)  /* Imperil Other V */
      , (22909,  1395,  2.023)  /* Clumsiness Other V */
      , (22909,  1467,  2.023)  /* Feeblemind Other V */;

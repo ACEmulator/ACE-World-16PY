@@ -102,9 +102,9 @@ VALUES (23559,  0,  4, 80,  0.3,  260,  127,  164,   70,  127,  208,  208,  182,
      , (23559, 16,  4,  0,    0,  260,  127,  164,   70,  127,  208,  208,  182,    0, 2,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4,  0.4) /* Torso */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23559,  1241,   2.01)  /* Drain Health Other V */
+VALUES (23559,  2141,   2.24)  /* Lhen's Flare */
+     , (23559,  1241,   2.01)  /* Drain Health Other V */
      , (23559,  2140,   2.25)  /* Alset's Coil */
-     , (23559,  2141,   2.24)  /* Lhen's Flare */
      , (23559,  2142,   2.25)  /* Tempest */
      , (23559,  2738,   2.25)  /* Lightning Arc VII */;
 

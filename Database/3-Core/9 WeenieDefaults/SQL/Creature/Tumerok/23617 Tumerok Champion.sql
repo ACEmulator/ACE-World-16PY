@@ -135,30 +135,30 @@ VALUES (23617,  0,  4,  0,    0,  250,  250,  250,  250,  250,  250,  250,  250,
      , (23617,  8,  4, 55, 0.75,  250,  250,  250,  250,  250,  250,  250,  250,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23617,    62,  2.015)  /* Acid Stream V */
+VALUES (23617,  1223,  2.012)  /* Mana Drain Other V */
+     , (23617,  1175,  2.012)  /* Harm Other V */
+     , (23617,   260,  2.011)  /* Impregnability Self V */
+     , (23617,  1160,  2.009)  /* Heal Self V */
      , (23617,    68,  2.015)  /* Shock Wave V */
+     , (23617,   266,  2.012)  /* Defenselessness Other V */
+     , (23617,   137,  2.015)  /* Frost Volley V */
      , (23617,    73,  2.015)  /* Frost Bolt V */
+     , (23617,   141,  2.015)  /* Lightning Volley V */
      , (23617,    79,  2.015)  /* Lightning Bolt V */
+     , (23617,   145,  2.015)  /* Flame Volley V */
      , (23617,    84,  2.015)  /* Flame Bolt V */
+     , (23617,   278,  2.011)  /* Magic Resistance Self V */
+     , (23617,   153,  2.015)  /* Blade Volley V */
      , (23617,    90,  2.015)  /* Force Bolt V */
+     , (23617,  1199,  2.012)  /* Enfeeble Other V */
+     , (23617,   284,  2.012)  /* Magic Yield Other V */
      , (23617,    96,  2.015)  /* Whirling Blade V */
      , (23617,   105,  2.015)  /* Shock Blast V */
-     , (23617,   137,  2.015)  /* Frost Volley V */
-     , (23617,   141,  2.015)  /* Lightning Volley V */
-     , (23617,   145,  2.015)  /* Flame Volley V */
-     , (23617,   153,  2.015)  /* Blade Volley V */
      , (23617,   233,  2.012)  /* Vulnerability Other V */
      , (23617,   248,  2.011)  /* Invulnerability Self V */
-     , (23617,   260,  2.011)  /* Impregnability Self V */
-     , (23617,   266,  2.012)  /* Defenselessness Other V */
-     , (23617,   278,  2.011)  /* Magic Resistance Self V */
-     , (23617,   284,  2.012)  /* Magic Yield Other V */
-     , (23617,  1160,  2.009)  /* Heal Self V */
-     , (23617,  1175,  2.012)  /* Harm Other V */
-     , (23617,  1199,  2.012)  /* Enfeeble Other V */
-     , (23617,  1223,  2.012)  /* Mana Drain Other V */
      , (23617,  1331,  2.011)  /* Strength Self V */
-     , (23617,  1401,  2.011)  /* Quickness Self V */;
+     , (23617,  1401,  2.011)  /* Quickness Self V */
+     , (23617,    62,  2.015)  /* Acid Stream V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (23617,  94) /* ATTACK_NOTIFICATION_EVENT */

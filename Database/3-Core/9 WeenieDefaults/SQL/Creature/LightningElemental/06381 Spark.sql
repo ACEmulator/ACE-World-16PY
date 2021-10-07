@@ -108,16 +108,16 @@ VALUES (6381,  0, 64,  0,    0,   90,   52,   52,   52,   58,   34,   90, 9000, 
      , (6381,  8, 64,  8, 0.75,   90,   52,   52,   52,   58,   34,   90, 9000,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6381,    15,   2.01)  /* Vulnerability Other I */
-     , (6381,    24,  2.006)  /* Armor Self I */
-     , (6381,    25,   2.01)  /* Imperil Other I */
-     , (6381,    75,  2.083)  /* Lightning Bolt I */
-     , (6381,   165,  2.006)  /* Regeneration Self I */
-     , (6381,   274,  2.006)  /* Magic Resistance Self I */
+VALUES (6381,   165,  2.006)  /* Regeneration Self I */
      , (6381,   515,  2.006)  /* Acid Protection Self I */
-     , (6381,  1085,   2.01)  /* Lightning Vulnerability Other II */
+     , (6381,    25,   2.01)  /* Imperil Other I */
+     , (6381,   274,  2.006)  /* Magic Resistance Self I */
+     , (6381,  1237,  2.006)  /* Drain Health Other I */
      , (6381,  1157,  2.008)  /* Heal Self II */
-     , (6381,  1237,  2.006)  /* Drain Health Other I */;
+     , (6381,    75,  2.083)  /* Lightning Bolt I */
+     , (6381,    15,   2.01)  /* Vulnerability Other I */
+     , (6381,    24,  2.006)  /* Armor Self I */
+     , (6381,  1085,   2.01)  /* Lightning Vulnerability Other II */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (6381,  94) /* ATTACK_NOTIFICATION_EVENT */

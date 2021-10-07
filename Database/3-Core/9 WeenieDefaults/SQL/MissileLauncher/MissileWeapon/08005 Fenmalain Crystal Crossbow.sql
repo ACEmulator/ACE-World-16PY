@@ -59,6 +59,6 @@ VALUES (8005,   1,   33554733) /* Setup */
      , (8005,  37,          3) /* ItemSkillLimit - Crossbow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8005,   487,      2)  /* Missile Weapon Mastery Other III */
-     , (8005,  1613,      2)  /* Aura of Blood Drinker Self III */
-     , (8005,  1624,      2)  /* Aura of Swift Killer Self III */;
+VALUES (8005,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (8005,  1624,      2)  /* Aura of Swift Killer Self III */
+     , (8005,   487,      2)  /* Missile Weapon Mastery Other III */;

@@ -115,16 +115,16 @@ VALUES (9048,  0,  4,  0,    0,  350,  277,  315,  350,  294,  294,  294,  294, 
      , (9048,  8,  4, 90, 0.75,  350,  277,  315,  350,  294,  294,  294,  294,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9048,    68,   2.08)  /* Shock Wave V */
-     , (9048,    69,   2.08)  /* Shock Wave VI */
-     , (9048,   234,  2.048)  /* Vulnerability Other VI */
-     , (9048,  1053,  2.048)  /* Bludgeoning Vulnerability Other VI */
+VALUES (9048,  1327,  2.048)  /* Imperil Other VI */
+     , (9048,    68,   2.08)  /* Shock Wave V */
      , (9048,  1161,   2.01)  /* Heal Self VI */
-     , (9048,  1327,  2.048)  /* Imperil Other VI */
-     , (9048,  1343,  2.048)  /* Weakness Other VI */
-     , (9048,  1396,  2.048)  /* Clumsiness Other VI */
+     , (9048,    69,   2.08)  /* Shock Wave VI */
      , (9048,  1787,   2.01)  /* Halo of Frost */
-     , (9048,  1876,      2)  /* Purge All Magic Self */;
+     , (9048,  1053,  2.048)  /* Bludgeoning Vulnerability Other VI */
+     , (9048,  1876,      2)  /* Purge All Magic Self */
+     , (9048,   234,  2.048)  /* Vulnerability Other VI */
+     , (9048,  1396,  2.048)  /* Clumsiness Other VI */
+     , (9048,  1343,  2.048)  /* Weakness Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (9048, 414) /* PLAYER_DEATH_EVENT */;

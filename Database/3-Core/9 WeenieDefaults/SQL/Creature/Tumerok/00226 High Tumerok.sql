@@ -131,26 +131,26 @@ VALUES (226,  0,  4,  0,    0,  220,  220,  220,  220,  220,  220,  220,  220,  
      , (226,  8,  4, 20, 0.75,  100,  100,  100,  100,  100,  100,  100,  100,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (226,    60,  2.014)  /* Acid Stream III */
-     , (226,    66,  2.014)  /* Shock Wave III */
-     , (226,    71,  2.014)  /* Frost Bolt III */
-     , (226,    77,  2.014)  /* Lightning Bolt III */
-     , (226,    82,  2.014)  /* Flame Bolt III */
-     , (226,    88,  2.014)  /* Force Bolt III */
-     , (226,    94,  2.014)  /* Whirling Blade III */
-     , (226,   139,  2.004)  /* Lightning Volley III */
-     , (226,   231,  2.007)  /* Vulnerability Other III */
-     , (226,   246,  2.004)  /* Invulnerability Self III */
-     , (226,   258,  2.004)  /* Impregnability Self III */
-     , (226,   264,  2.007)  /* Defenselessness Other III */
-     , (226,   276,  2.004)  /* Magic Resistance Self III */
-     , (226,   282,  2.007)  /* Magic Yield Other III */
-     , (226,  1158,   2.02)  /* Heal Self III */
-     , (226,  1173,  2.007)  /* Harm Other III */
-     , (226,  1197,  2.007)  /* Enfeeble Other III */
+VALUES (226,   258,  2.004)  /* Impregnability Self III */
      , (226,  1221,  2.007)  /* Mana Drain Other III */
+     , (226,    82,  2.014)  /* Flame Bolt III */
+     , (226,  1158,   2.02)  /* Heal Self III */
+     , (226,    66,  2.014)  /* Shock Wave III */
+     , (226,   264,  2.007)  /* Defenselessness Other III */
+     , (226,    71,  2.014)  /* Frost Bolt III */
+     , (226,   139,  2.004)  /* Lightning Volley III */
+     , (226,    77,  2.014)  /* Lightning Bolt III */
+     , (226,   276,  2.004)  /* Magic Resistance Self III */
+     , (226,  1173,  2.007)  /* Harm Other III */
+     , (226,    88,  2.014)  /* Force Bolt III */
+     , (226,   282,  2.007)  /* Magic Yield Other III */
+     , (226,    94,  2.014)  /* Whirling Blade III */
+     , (226,   231,  2.007)  /* Vulnerability Other III */
+     , (226,  1197,  2.007)  /* Enfeeble Other III */
      , (226,  1329,  2.004)  /* Strength Self III */
-     , (226,  1399,  2.004)  /* Quickness Self III */;
+     , (226,   246,  2.004)  /* Invulnerability Self III */
+     , (226,  1399,  2.004)  /* Quickness Self III */
+     , (226,    60,  2.014)  /* Acid Stream III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (226,  94) /* ATTACK_NOTIFICATION_EVENT */

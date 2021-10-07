@@ -114,12 +114,12 @@ VALUES (25884,  0,  5, 70, 0.75,  750,  750,  750,  750,  750,  750,  750,  750,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25884,  2128,  2.115)  /* Ilservian's Flame */
-     , (25884,  2151,  2.115)  /* Blessing of the Blade Turner */
-     , (25884,  2153,  2.115)  /* Blessing of the Mace Turner */
-     , (25884,  2155,  2.115)  /* Icy Blessing */
+     , (25884,  2745,  2.115)  /* Flame Arc VII */
      , (25884,  2159,  2.115)  /* Storm's Blessing */
+     , (25884,  2151,  2.115)  /* Blessing of the Blade Turner */
      , (25884,  2161,  2.115)  /* Blessing of the Arrow Turner */
-     , (25884,  2745,  2.115)  /* Flame Arc VII */;
+     , (25884,  2153,  2.115)  /* Blessing of the Mace Turner */
+     , (25884,  2155,  2.115)  /* Icy Blessing */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (25884,  94) /* ATTACK_NOTIFICATION_EVENT */

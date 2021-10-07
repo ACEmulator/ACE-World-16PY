@@ -119,11 +119,11 @@ VALUES (20632,  0,  4,  0,    0,  190,  106,   93,   95,   68,   46,   80,  112,
      , (20632,  8,  4, 15, 0.75,  190,  106,   93,   95,   68,   46,   80,  112,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20632,  1051,      2)  /* Bludgeoning Vulnerability Other IV */
-     , (20632,  1130,      2)  /* Blade Vulnerability Other IV */
+VALUES (20632,  1130,      2)  /* Blade Vulnerability Other IV */
      , (20632,  1154,      2)  /* Piercing Vulnerability Other IV */
      , (20632,  1159,      2)  /* Heal Self IV */
      , (20632,  1240,      2)  /* Drain Health Other IV */
+     , (20632,  1051,      2)  /* Bludgeoning Vulnerability Other IV */
      , (20632,  1325,      2)  /* Imperil Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

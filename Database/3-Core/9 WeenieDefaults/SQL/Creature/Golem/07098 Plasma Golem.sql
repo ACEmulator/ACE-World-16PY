@@ -109,13 +109,13 @@ VALUES (7098,  0,  4,  0,    0,  350,  252,  252,  252,  280, 35000,  259,  105,
      , (7098,  8,  4, 90, 0.75,  350,  252,  252,  252,  280, 35000,  259,  105,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7098,    80,   2.08)  /* Lightning Bolt VI */
-     , (7098,   279,      2)  /* Magic Resistance Self VI */
-     , (7098,   628,  2.048)  /* Life Magic Ineptitude Other VI */
-     , (7098,   652,  2.048)  /* War Magic Ineptitude Other VI */
+VALUES (7098,  1161,      2)  /* Heal Self VI */
      , (7098,  1089,  2.048)  /* Lightning Vulnerability Other VI */
-     , (7098,  1161,      2)  /* Heal Self VI */
+     , (7098,   628,  2.048)  /* Life Magic Ineptitude Other VI */
      , (7098,  1242,      2)  /* Drain Health Other VI */
+     , (7098,   652,  2.048)  /* War Magic Ineptitude Other VI */
+     , (7098,   279,      2)  /* Magic Resistance Self VI */
+     , (7098,    80,   2.08)  /* Lightning Bolt VI */
      , (7098,  1312,      2)  /* Armor Self VI */
      , (7098,  1327,  2.048)  /* Imperil Other VI */
      , (7098,  1343,  2.048)  /* Weakness Other VI */;

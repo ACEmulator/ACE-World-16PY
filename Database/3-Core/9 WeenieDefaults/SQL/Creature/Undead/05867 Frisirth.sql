@@ -130,20 +130,20 @@ VALUES (5867,  0,  4,  0,    0,  210,  168,  111,  143,   27,  105,  143,  153, 
      , (5867,  8,  4,  3, 0.75,  220,  176,  117,  150,   29,  110,  150,  161,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5867,    73,   2.14)  /* Frost Bolt V */
-     , (5867,    74,   2.07)  /* Frost Bolt VI */
+VALUES (5867,  1253,   2.03)  /* Drain Stamina Other V */
      , (5867,   137,   2.14)  /* Frost Volley V */
-     , (5867,   138,   2.04)  /* Frost Volley VI */
+     , (5867,    73,   2.14)  /* Frost Bolt V */
      , (5867,   169,   2.03)  /* Regeneration Self V */
-     , (5867,  1064,  2.013)  /* Cold Vulnerability Other V */
      , (5867,  1093,  2.013)  /* Fire Protection Self V */
-     , (5867,  1241,   2.03)  /* Drain Health Other V */
-     , (5867,  1253,   2.03)  /* Drain Stamina Other V */
-     , (5867,  1264,   2.03)  /* Drain Mana Other V */
-     , (5867,  1371,  2.013)  /* Frailty Other V */
-     , (5867,  1395,  2.013)  /* Clumsiness Other V */
-     , (5867,  1419,  2.013)  /* Slowness Other V */
+     , (5867,   138,   2.04)  /* Frost Volley VI */
+     , (5867,    74,   2.07)  /* Frost Bolt VI */
      , (5867,  1443,  2.013)  /* Bafflement Other V */
+     , (5867,  1371,  2.013)  /* Frailty Other V */
+     , (5867,  1419,  2.013)  /* Slowness Other V */
+     , (5867,  1241,   2.03)  /* Drain Health Other V */
+     , (5867,  1064,  2.013)  /* Cold Vulnerability Other V */
+     , (5867,  1264,   2.03)  /* Drain Mana Other V */
+     , (5867,  1395,  2.013)  /* Clumsiness Other V */
      , (5867,  1467,  2.013)  /* Feeblemind Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

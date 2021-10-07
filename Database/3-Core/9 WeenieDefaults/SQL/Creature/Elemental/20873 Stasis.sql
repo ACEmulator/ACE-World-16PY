@@ -109,18 +109,18 @@ VALUES (20873,  0,  8,  0,    0,  200,  200,  200,  200,  200,  200,  220,  220,
      , (20873,  8,  8, 75, 0.75,  200,  200,  200,  200,  200,  200,  220,  220,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20873,   276,  2.008)  /* Magic Resistance Self III */
+VALUES (20873,  2136,  2.004)  /* Icy Torment */
+     , (20873,  2056,  2.017)  /* Ataxia */
      , (20873,  1092,  2.008)  /* Fire Protection Self IV */
      , (20873,  1160,  2.013)  /* Heal Self V */
-     , (20873,  1237,  2.008)  /* Drain Health Other I */
+     , (20873,  2318,  2.017)  /* Gravity Well */
+     , (20873,   276,  2.008)  /* Magic Resistance Self III */
      , (20873,  1787,  2.004)  /* Halo of Frost */
-     , (20873,  2056,  2.017)  /* Ataxia */
-     , (20873,  2074,  2.017)  /* Gossamer Flesh */
-     , (20873,  2136,  2.004)  /* Icy Torment */
      , (20873,  2137,  2.004)  /* Sudden Frost */
-     , (20873,  2168,  2.017)  /* Gelidite's Gift */
+     , (20873,  1237,  2.008)  /* Drain Health Other I */
+     , (20873,  2074,  2.017)  /* Gossamer Flesh */
      , (20873,  2228,  2.017)  /* Broadside of a Barn */
-     , (20873,  2318,  2.017)  /* Gravity Well */;
+     , (20873,  2168,  2.017)  /* Gelidite's Gift */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (20873,  94) /* ATTACK_NOTIFICATION_EVENT */

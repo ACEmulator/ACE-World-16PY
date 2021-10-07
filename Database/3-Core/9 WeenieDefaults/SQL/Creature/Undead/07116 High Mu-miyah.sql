@@ -122,26 +122,26 @@ VALUES (7116,  0,  4,  0,    0,  210,  124,   92,  124,    6,   84,  210,   67, 
      , (7116,  8,  4, 40, 0.75,  210,  124,   92,  124,    6,   84,  210,   67,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7116,    61,  2.014)  /* Acid Stream IV */
-     , (7116,    67,  2.014)  /* Shock Wave IV */
+VALUES (7116,   144,  2.017)  /* Flame Volley IV */
+     , (7116,  1252,  2.025)  /* Drain Stamina Other IV */
+     , (7116,   136,  2.017)  /* Frost Volley IV */
      , (7116,    72,  2.014)  /* Frost Bolt IV */
+     , (7116,   128,  2.017)  /* Acid Volley IV */
+     , (7116,    67,  2.014)  /* Shock Wave IV */
+     , (7116,   197,   2.02)  /* Exhaustion Other IV */
+     , (7116,  1222,   2.02)  /* Mana Drain Other IV */
+     , (7116,   140,  2.017)  /* Lightning Volley IV */
      , (7116,    78,  2.014)  /* Lightning Bolt IV */
      , (7116,    83,  2.014)  /* Flame Bolt IV */
+     , (7116,  1174,   2.02)  /* Harm Other IV */
+     , (7116,  1240,  2.025)  /* Drain Health Other IV */
      , (7116,    89,  2.014)  /* Force Bolt IV */
      , (7116,    95,  2.014)  /* Whirling Blade IV */
-     , (7116,   128,  2.017)  /* Acid Volley IV */
-     , (7116,   136,  2.017)  /* Frost Volley IV */
-     , (7116,   140,  2.017)  /* Lightning Volley IV */
-     , (7116,   144,  2.017)  /* Flame Volley IV */
      , (7116,   168,  2.025)  /* Regeneration Self IV */
-     , (7116,   174,   2.02)  /* Fester Other IV */
-     , (7116,   197,   2.02)  /* Exhaustion Other IV */
-     , (7116,  1174,   2.02)  /* Harm Other IV */
      , (7116,  1198,   2.02)  /* Enfeeble Other IV */
-     , (7116,  1222,   2.02)  /* Mana Drain Other IV */
-     , (7116,  1240,  2.025)  /* Drain Health Other IV */
-     , (7116,  1252,  2.025)  /* Drain Stamina Other IV */
-     , (7116,  1263,  2.025)  /* Drain Mana Other IV */;
+     , (7116,   174,   2.02)  /* Fester Other IV */
+     , (7116,  1263,  2.025)  /* Drain Mana Other IV */
+     , (7116,    61,  2.014)  /* Acid Stream IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (7116,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -108,10 +108,10 @@ VALUES (24485,  0,  4,  0,    0,  250,   43,   95,   43,  250,  125,  198,   75,
      , (24485,  8,  4, 85, 0.75,  250,   43,   95,   43,  250,  125,  198,   75,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24485,    62,  2.075)  /* Acid Stream V */
+VALUES (24485,  1160,   2.01)  /* Heal Self V */
+     , (24485,  1253,   2.02)  /* Drain Stamina Other V */
      , (24485,    73,  2.075)  /* Frost Bolt V */
-     , (24485,  1160,   2.01)  /* Heal Self V */
-     , (24485,  1253,   2.02)  /* Drain Stamina Other V */;
+     , (24485,    62,  2.075)  /* Acid Stream V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (24485,  94) /* ATTACK_NOTIFICATION_EVENT */

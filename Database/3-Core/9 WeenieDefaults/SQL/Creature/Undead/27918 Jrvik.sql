@@ -126,33 +126,33 @@ VALUES (27918,  0,  4,  0,    0,  450,  472,  585,  450,  585,  450,  472,  540,
      , (27918,  8,  4, 160,  0.5,  450,  472,  585,  450,  585,  450,  472,  540,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27918,    62,   2.04)  /* Acid Stream V */
-     , (27918,    68,   2.04)  /* Shock Wave V */
-     , (27918,    73,   2.04)  /* Frost Bolt V */
-     , (27918,    79,   2.04)  /* Lightning Bolt V */
-     , (27918,    84,   2.04)  /* Flame Bolt V */
-     , (27918,    90,   2.04)  /* Force Bolt V */
-     , (27918,    96,   2.04)  /* Whirling Blade V */
-     , (27918,   176,  2.011)  /* Fester Other VI */
-     , (27918,   526,  2.011)  /* Acid Vulnerability Other VI */
-     , (27918,  1053,  2.011)  /* Bludgeoning Vulnerability Other VI */
-     , (27918,  1065,  2.011)  /* Cold Vulnerability Other VI */
+VALUES (27918,  1241,   2.01)  /* Drain Health Other V */
      , (27918,  1089,  2.011)  /* Lightning Vulnerability Other VI */
      , (27918,  1108,  2.011)  /* Fire Vulnerability Other VI */
-     , (27918,  1132,  2.011)  /* Blade Vulnerability Other VI */
-     , (27918,  1156,  2.011)  /* Piercing Vulnerability Other VI */
-     , (27918,  1241,   2.01)  /* Drain Health Other V */
-     , (27918,  1840,   2.04)  /* Bed of Blades */
-     , (27918,  1842,   2.04)  /* Spike Strafe */
-     , (27918,  3290,   2.01)  /* Jrvik's Safety */
-     , (27918,  3291,   2.01)  /* Jrvik's Safety */
      , (27918,  3292,   2.01)  /* Jrvik's Safety */
-     , (27918,  3293,   2.01)  /* Prison */
+     , (27918,  1156,  2.011)  /* Piercing Vulnerability Other VI */
+     , (27918,    84,   2.04)  /* Flame Bolt V */
+     , (27918,    68,   2.04)  /* Shock Wave V */
+     , (27918,   526,  2.011)  /* Acid Vulnerability Other VI */
+     , (27918,    73,   2.04)  /* Frost Bolt V */
+     , (27918,    79,   2.04)  /* Lightning Bolt V */
+     , (27918,  3290,   2.01)  /* Jrvik's Safety */
      , (27918,  3294,   2.01)  /* Prison */
+     , (27918,    90,   2.04)  /* Force Bolt V */
+     , (27918,  3291,   2.01)  /* Jrvik's Safety */
+     , (27918,  3293,   2.01)  /* Prison */
+     , (27918,  1053,  2.011)  /* Bludgeoning Vulnerability Other VI */
      , (27918,  3295,   2.01)  /* Prison */
      , (27918,  3296,   2.01)  /* Prison */
+     , (27918,    96,   2.04)  /* Whirling Blade V */
      , (27918,  3297,   2.01)  /* Prison */
-     , (27918,  3298,   2.01)  /* Prison */;
+     , (27918,  3298,   2.01)  /* Prison */
+     , (27918,  1065,  2.011)  /* Cold Vulnerability Other VI */
+     , (27918,  1132,  2.011)  /* Blade Vulnerability Other VI */
+     , (27918,   176,  2.011)  /* Fester Other VI */
+     , (27918,  1840,   2.04)  /* Bed of Blades */
+     , (27918,  1842,   2.04)  /* Spike Strafe */
+     , (27918,    62,   2.04)  /* Acid Stream V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (27918,  94) /* ATTACK_NOTIFICATION_EVENT */

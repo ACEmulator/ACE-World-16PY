@@ -129,27 +129,27 @@ VALUES (6014,  0,  4,  0,    0,  180,  180,  180,  180,  180,  180,  180,  180, 
      , (6014,  8,  4, 20, 0.75,  180,  180,  180,  180,  180,  180,  180,  180,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6014,    61,  2.014)  /* Acid Stream IV */
-     , (6014,    62,  2.003)  /* Acid Stream V */
+VALUES (6014,    68,  2.003)  /* Shock Wave V */
+     , (6014,   259,  2.007)  /* Impregnability Self IV */
+     , (6014,    83,  2.014)  /* Flame Bolt IV */
+     , (6014,  1159,   2.01)  /* Heal Self IV */
      , (6014,    67,  2.014)  /* Shock Wave IV */
-     , (6014,    68,  2.003)  /* Shock Wave V */
+     , (6014,  1158,   2.01)  /* Heal Self III */
      , (6014,    72,  2.014)  /* Frost Bolt IV */
      , (6014,    73,  2.003)  /* Frost Bolt V */
      , (6014,    78,  2.014)  /* Lightning Bolt IV */
      , (6014,    79,  2.003)  /* Lightning Bolt V */
-     , (6014,    83,  2.014)  /* Flame Bolt IV */
      , (6014,    84,  2.003)  /* Flame Bolt V */
+     , (6014,  1173,   2.02)  /* Harm Other III */
+     , (6014,   277,  2.007)  /* Magic Resistance Self IV */
      , (6014,    89,  2.014)  /* Force Bolt IV */
      , (6014,    90,  2.003)  /* Force Bolt V */
      , (6014,    95,  2.014)  /* Whirling Blade IV */
      , (6014,    96,  2.003)  /* Whirling Blade V */
+     , (6014,  1197,   2.02)  /* Enfeeble Other III */
      , (6014,   247,  2.007)  /* Invulnerability Self IV */
-     , (6014,   259,  2.007)  /* Impregnability Self IV */
-     , (6014,   277,  2.007)  /* Magic Resistance Self IV */
-     , (6014,  1158,   2.01)  /* Heal Self III */
-     , (6014,  1159,   2.01)  /* Heal Self IV */
-     , (6014,  1173,   2.02)  /* Harm Other III */
-     , (6014,  1197,   2.02)  /* Enfeeble Other III */;
+     , (6014,    61,  2.014)  /* Acid Stream IV */
+     , (6014,    62,  2.003)  /* Acid Stream V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (6014,  94) /* ATTACK_NOTIFICATION_EVENT */

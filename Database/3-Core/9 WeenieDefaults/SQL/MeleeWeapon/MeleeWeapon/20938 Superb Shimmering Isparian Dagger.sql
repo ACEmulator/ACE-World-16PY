@@ -60,7 +60,7 @@ VALUES (20938,   1,   33557746) /* Setup */
      , (20938,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20938,  1312,      2)  /* Armor Self VI */
-     , (20938,  1591,      2)  /* Aura of Heart Seeker Self V */
+VALUES (20938,  1591,      2)  /* Aura of Heart Seeker Self V */
      , (20938,  1615,      2)  /* Aura of Blood Drinker Self V */
+     , (20938,  1312,      2)  /* Armor Self VI */
      , (20938,  2544,      2)  /* Minor Finesse Weapon Aptitude */;

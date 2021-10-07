@@ -126,13 +126,13 @@ VALUES (9253,  0,  4,  0,    0,  110,   33,   81,    4,   66,    4,   40,    8, 
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9253,   196,  2.011)  /* Exhaustion Other III */
-     , (9253,   231,  2.011)  /* Vulnerability Other III */
-     , (9253,  1002,  2.011)  /* Leaden Feet Other III */
-     , (9253,  1197,  2.011)  /* Enfeeble Other III */
-     , (9253,  1324,  2.011)  /* Imperil Other III */
-     , (9253,  1340,  2.011)  /* Weakness Other III */
      , (9253,  1369,  2.011)  /* Frailty Other III */
-     , (9253,  1417,  2.011)  /* Slowness Other III */;
+     , (9253,  1417,  2.011)  /* Slowness Other III */
+     , (9253,  1340,  2.011)  /* Weakness Other III */
+     , (9253,  1324,  2.011)  /* Imperil Other III */
+     , (9253,  1002,  2.011)  /* Leaden Feet Other III */
+     , (9253,   231,  2.011)  /* Vulnerability Other III */
+     , (9253,  1197,  2.011)  /* Enfeeble Other III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (9253,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -53,6 +53,6 @@ VALUES (8022,   1,   33556767) /* Setup */
      , (8022,  37,         32) /* ItemSkillLimit - ItemEnchantment */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8022,   559,      2)  /* Creature Enchantment Mastery Self III */
-     , (8022,   584,      2)  /* Item Enchantment Mastery Self IV */
+VALUES (8022,   584,      2)  /* Item Enchantment Mastery Self IV */
+     , (8022,   559,      2)  /* Creature Enchantment Mastery Self III */
      , (8022,  2012,      2)  /* Wizard's Intellect */;

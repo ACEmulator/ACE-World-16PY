@@ -52,5 +52,5 @@ VALUES (25373,   1,   33558442) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25373,  2542,      2)  /* Minor Creature Enchantment Aptitude */
-     , (25373,  2551,      2)  /* Minor Item Enchantment Aptitude */
-     , (25373,  2627,      2)  /* Minor Mana Gain */;
+     , (25373,  2627,      2)  /* Minor Mana Gain */
+     , (25373,  2551,      2)  /* Minor Item Enchantment Aptitude */;

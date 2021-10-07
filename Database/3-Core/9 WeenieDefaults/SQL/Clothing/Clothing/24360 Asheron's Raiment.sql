@@ -52,5 +52,5 @@ VALUES (24360,   1,   33554854) /* Setup */
      , (24360,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24360,  1120,      2)  /* Blade Protection Other VI */
-     , (24360,  2580,      2)  /* Minor Endurance */;
+VALUES (24360,  2580,      2)  /* Minor Endurance */
+     , (24360,  1120,      2)  /* Blade Protection Other VI */;

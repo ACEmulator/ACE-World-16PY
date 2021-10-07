@@ -124,29 +124,29 @@ VALUES (27429,  0,  4,  0,    0,  480,  480,  384,  408,  288,  528,  336,  480,
      , (27429,  8,  4, 70, 0.75,  480,  480,  384,  408,  288,  528,  336,  480,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27429,   234,   2.02)  /* Vulnerability Other VI */
-     , (27429,   267,   2.02)  /* Defenselessness Other VI */
-     , (27429,   285,   2.02)  /* Magic Yield Other VI */
-     , (27429,   628,   2.01)  /* Life Magic Ineptitude Other VI */
-     , (27429,  1065,   2.02)  /* Cold Vulnerability Other VI */
+VALUES (27429,  2125,   2.04)  /* Flensing Wings */
      , (27429,  1089,   2.02)  /* Lightning Vulnerability Other VI */
-     , (27429,  1132,   2.02)  /* Blade Vulnerability Other VI */
+     , (27429,  2053,   2.01)  /* Executor's Blessing */
+     , (27429,  2056,   2.02)  /* Ataxia */
      , (27429,  1156,   2.02)  /* Piercing Vulnerability Other VI */
+     , (27429,   267,   2.02)  /* Defenselessness Other VI */
+     , (27429,  1788,   2.04)  /* Eye of the Storm */
+     , (27429,   234,   2.02)  /* Vulnerability Other VI */
+     , (27429,  2130,   2.04)  /* Infernae */
+     , (27429,   628,   2.01)  /* Life Magic Ineptitude Other VI */
+     , (27429,  2134,   2.04)  /* Fusillade */
+     , (27429,  2328,   2.01)  /* Vitality Siphon */
+     , (27429,  2329,   2.01)  /* Essence Void */
+     , (27429,  2138,   2.04)  /* Blizzard */
+     , (27429,  2142,   2.04)  /* Tempest */
+     , (27429,   285,   2.02)  /* Magic Yield Other VI */
+     , (27429,  2084,   2.01)  /* Belly of Lead */
+     , (27429,  1065,   2.02)  /* Cold Vulnerability Other VI */
+     , (27429,  1132,   2.02)  /* Blade Vulnerability Other VI */
      , (27429,  1784,   2.04)  /* Horizon's Blades */
      , (27429,  1785,   2.04)  /* Cassius' Ring of Fire */
      , (27429,  1786,   2.04)  /* Nuhmudira's Spines */
-     , (27429,  1787,   2.04)  /* Halo of Frost */
-     , (27429,  1788,   2.04)  /* Eye of the Storm */
-     , (27429,  2053,   2.01)  /* Executor's Blessing */
-     , (27429,  2056,   2.02)  /* Ataxia */
-     , (27429,  2084,   2.01)  /* Belly of Lead */
-     , (27429,  2125,   2.04)  /* Flensing Wings */
-     , (27429,  2130,   2.04)  /* Infernae */
-     , (27429,  2134,   2.04)  /* Fusillade */
-     , (27429,  2138,   2.04)  /* Blizzard */
-     , (27429,  2142,   2.04)  /* Tempest */
-     , (27429,  2328,   2.01)  /* Vitality Siphon */
-     , (27429,  2329,   2.01)  /* Essence Void */;
+     , (27429,  1787,   2.04)  /* Halo of Frost */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (27429,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -53,8 +53,8 @@ VALUES (26600,   1,   33558592) /* Setup */
      , (26600,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26600,  1360,      2)  /* Endurance Other VI */
-     , (26600,  1604,      2)  /* Aura of Defender Self V */
-     , (26600,  1616,      2)  /* Aura of Blood Drinker Self VI */
+VALUES (26600,  1604,      2)  /* Aura of Defender Self V */
      , (26600,  1626,      2)  /* Aura of Swift Killer Self V */
-     , (26600,  2566,      2)  /* Minor Heavy Weapon Aptitude */;
+     , (26600,  2566,      2)  /* Minor Heavy Weapon Aptitude */
+     , (26600,  1360,      2)  /* Endurance Other VI */
+     , (26600,  1616,      2)  /* Aura of Blood Drinker Self VI */;

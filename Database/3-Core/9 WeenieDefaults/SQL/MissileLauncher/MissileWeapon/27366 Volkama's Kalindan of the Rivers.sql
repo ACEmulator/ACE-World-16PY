@@ -63,5 +63,5 @@ VALUES (27366,   1,   33558668) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27366,  2470,      2)  /* Greater Still Water */
-     , (27366,  2473,      2)  /* Greater Torrent */
-     , (27366,  3233,      2)  /* Greater Cascade */;
+     , (27366,  3233,      2)  /* Greater Cascade */
+     , (27366,  2473,      2)  /* Greater Torrent */;

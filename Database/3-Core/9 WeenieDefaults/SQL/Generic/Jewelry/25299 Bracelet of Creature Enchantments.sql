@@ -40,9 +40,9 @@ VALUES (25299,   1,   33554683) /* Setup */
      , (25299,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25299,  1337,      2)  /* Strength Other VI */
-     , (25299,  1360,      2)  /* Endurance Other VI */
+VALUES (25299,  1456,      2)  /* Willpower Other VI */
      , (25299,  1384,      2)  /* Coordination Other VI */
-     , (25299,  1408,      2)  /* Quickness Other VI */
      , (25299,  1432,      2)  /* Focus Other VI */
-     , (25299,  1456,      2)  /* Willpower Other VI */;
+     , (25299,  1360,      2)  /* Endurance Other VI */
+     , (25299,  1408,      2)  /* Quickness Other VI */
+     , (25299,  1337,      2)  /* Strength Other VI */;

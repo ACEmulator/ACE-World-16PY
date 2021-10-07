@@ -140,26 +140,26 @@ VALUES (25662,  0,  4,  0,    0,  130,  130,   99,  109,   74,  130,   83,   65,
      , (25662,  8,  4, 30, 0.75,   60,   60,   46,   50,   34,   60,   38,   30,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25662,    73,  2.036)  /* Frost Bolt V */
-     , (25662,    79,  2.036)  /* Lightning Bolt V */
-     , (25662,    84,  2.036)  /* Flame Bolt V */
-     , (25662,    90,  2.036)  /* Force Bolt V */
-     , (25662,    96,  2.036)  /* Whirling Blade V */
-     , (25662,   137,  2.005)  /* Frost Volley V */
-     , (25662,   141,  2.005)  /* Lightning Volley V */
+VALUES (25662,  1668,  2.009)  /* Stamina to Health Self V */
      , (25662,   145,  2.005)  /* Flame Volley V */
-     , (25662,   149,  2.005)  /* Force Volley V */
      , (25662,   153,  2.005)  /* Blade Volley V */
-     , (25662,   233,   2.01)  /* Vulnerability Other V */
-     , (25662,   266,   2.01)  /* Defenselessness Other V */
-     , (25662,   284,   2.01)  /* Magic Yield Other V */
-     , (25662,  1241,  2.009)  /* Drain Health Other V */
-     , (25662,  1253,  2.009)  /* Drain Stamina Other V */
-     , (25662,  1264,  2.009)  /* Drain Mana Other V */
      , (25662,  1294,  2.009)  /* Mana to Health Self V */
-     , (25662,  1668,  2.009)  /* Stamina to Health Self V */
+     , (25662,   266,   2.01)  /* Defenselessness Other V */
+     , (25662,  1253,  2.009)  /* Drain Stamina Other V */
+     , (25662,   137,  2.005)  /* Frost Volley V */
+     , (25662,    73,  2.036)  /* Frost Bolt V */
+     , (25662,   141,  2.005)  /* Lightning Volley V */
+     , (25662,    79,  2.036)  /* Lightning Bolt V */
      , (25662,  1680,  2.009)  /* Stamina to Mana Self V */
-     , (25662,  1703,  2.009)  /* Health to Mana Self V */;
+     , (25662,    84,  2.036)  /* Flame Bolt V */
+     , (25662,   149,  2.005)  /* Force Volley V */
+     , (25662,  1241,  2.009)  /* Drain Health Other V */
+     , (25662,    90,  2.036)  /* Force Bolt V */
+     , (25662,   284,   2.01)  /* Magic Yield Other V */
+     , (25662,    96,  2.036)  /* Whirling Blade V */
+     , (25662,  1703,  2.009)  /* Health to Mana Self V */
+     , (25662,   233,   2.01)  /* Vulnerability Other V */
+     , (25662,  1264,  2.009)  /* Drain Mana Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (25662,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -126,33 +126,33 @@ VALUES (27917,  0,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,
      , (27917,  8,  4, 180,  0.5,  500,  525,  650,  500,  650,  500,  525,  600,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27917,    63,   2.04)  /* Acid Stream VI */
-     , (27917,    69,   2.04)  /* Shock Wave VI */
-     , (27917,    74,   2.04)  /* Frost Bolt VI */
-     , (27917,    80,   2.04)  /* Lightning Bolt VI */
-     , (27917,    85,   2.04)  /* Flame Bolt VI */
-     , (27917,    91,   2.04)  /* Force Bolt VI */
-     , (27917,    97,   2.04)  /* Whirling Blade VI */
-     , (27917,   176,  2.011)  /* Fester Other VI */
-     , (27917,   526,  2.011)  /* Acid Vulnerability Other VI */
-     , (27917,  1053,  2.011)  /* Bludgeoning Vulnerability Other VI */
+VALUES (27917,  1840,   2.01)  /* Bed of Blades */
+     , (27917,  3273,   2.01)  /* Prison */
      , (27917,  1065,  2.011)  /* Cold Vulnerability Other VI */
+     , (27917,    69,   2.04)  /* Shock Wave VI */
      , (27917,  1089,  2.011)  /* Lightning Vulnerability Other VI */
-     , (27917,  1108,  2.011)  /* Fire Vulnerability Other VI */
-     , (27917,  1132,  2.011)  /* Blade Vulnerability Other VI */
      , (27917,  1156,  2.011)  /* Piercing Vulnerability Other VI */
-     , (27917,  1241,   2.01)  /* Drain Health Other V */
-     , (27917,  1840,   2.01)  /* Bed of Blades */
-     , (27917,  1842,   2.01)  /* Spike Strafe */
+     , (27917,  3278,   2.01)  /* Prison */
+     , (27917,    74,   2.04)  /* Frost Bolt VI */
      , (27917,  3270,   2.01)  /* Hezhit's Safety */
      , (27917,  3271,   2.01)  /* Hezhit's Safety */
      , (27917,  3272,   2.01)  /* Hezhit's Safety */
-     , (27917,  3273,   2.01)  /* Prison */
      , (27917,  3274,   2.01)  /* Prison */
      , (27917,  3275,   2.01)  /* Prison */
      , (27917,  3276,   2.01)  /* Prison */
      , (27917,  3277,   2.01)  /* Prison */
-     , (27917,  3278,   2.01)  /* Prison */;
+     , (27917,   526,  2.011)  /* Acid Vulnerability Other VI */
+     , (27917,  1132,  2.011)  /* Blade Vulnerability Other VI */
+     , (27917,    80,   2.04)  /* Lightning Bolt VI */
+     , (27917,  1108,  2.011)  /* Fire Vulnerability Other VI */
+     , (27917,    85,   2.04)  /* Flame Bolt VI */
+     , (27917,  1241,   2.01)  /* Drain Health Other V */
+     , (27917,    91,   2.04)  /* Force Bolt VI */
+     , (27917,  1053,  2.011)  /* Bludgeoning Vulnerability Other VI */
+     , (27917,    97,   2.04)  /* Whirling Blade VI */
+     , (27917,   176,  2.011)  /* Fester Other VI */
+     , (27917,  1842,   2.01)  /* Spike Strafe */
+     , (27917,    63,   2.04)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (27917,  94) /* ATTACK_NOTIFICATION_EVENT */

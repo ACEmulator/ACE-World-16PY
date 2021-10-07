@@ -110,17 +110,17 @@ VALUES (25860,  0,  2, 140, 0.75,  525,  551,  525,  499,  499,  630,  630,  499
      , (25860, 22,  8, 125,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25860,   573,   2.01)  /* Creature Enchantment Ineptitude Other V */
-     , (25860,   627,   2.01)  /* Life Magic Ineptitude Other V */
-     , (25860,   651,   2.01)  /* War Magic Ineptitude Other V */
-     , (25860,  1554,  2.005)  /* Blade Lure III */
-     , (25860,  1608,  2.005)  /* Lure Blade III */
-     , (25860,  1618,  2.005)  /* Blood Loather III */
-     , (25860,  1630,  2.005)  /* Leaden Weapon III */
+VALUES (25860,  1608,  2.005)  /* Lure Blade III */
+     , (25860,  2162,   2.02)  /* Olthoi's Gift */
      , (25860,  2074,   2.03)  /* Gossamer Flesh */
      , (25860,  2122,   2.04)  /* Disintegration */
-     , (25860,  2162,   2.02)  /* Olthoi's Gift */
-     , (25860,  2717,   2.04)  /* Acid Arc VII */;
+     , (25860,   651,   2.01)  /* War Magic Ineptitude Other V */
+     , (25860,  1554,  2.005)  /* Blade Lure III */
+     , (25860,  1618,  2.005)  /* Blood Loather III */
+     , (25860,  2717,   2.04)  /* Acid Arc VII */
+     , (25860,  1630,  2.005)  /* Leaden Weapon III */
+     , (25860,   627,   2.01)  /* Life Magic Ineptitude Other V */
+     , (25860,   573,   2.01)  /* Creature Enchantment Ineptitude Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (25860,  94) /* ATTACK_NOTIFICATION_EVENT */

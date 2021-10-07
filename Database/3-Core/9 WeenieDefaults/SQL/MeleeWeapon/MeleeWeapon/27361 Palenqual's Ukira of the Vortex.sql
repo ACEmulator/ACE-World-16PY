@@ -65,7 +65,7 @@ VALUES (27361,  2438,      2)  /* Lesser Rockslide */
      , (27361,  2444,      2)  /* Lesser Strength of Earth */
      , (27361,  2447,      2)  /* Lesser Growth */
      , (27361,  2450,      2)  /* Lesser Hunter's Acumen */
+     , (27361,  3226,      2)  /* Cascade */
      , (27361,  2453,      2)  /* Lesser Thorns */
      , (27361,  2472,      2)  /* Still Water */
-     , (27361,  2475,      2)  /* Torrent */
-     , (27361,  3226,      2)  /* Cascade */;
+     , (27361,  2475,      2)  /* Torrent */;

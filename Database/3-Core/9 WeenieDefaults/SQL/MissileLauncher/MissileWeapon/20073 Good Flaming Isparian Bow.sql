@@ -61,8 +61,8 @@ VALUES (20073,   1,   33557759) /* Setup */
      , (20073,  37,          2) /* ItemSkillLimit - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20073,  1094,      2)  /* Fire Protection Self VI */
+VALUES (20073,  1603,      2)  /* Aura of Defender Self IV */
+     , (20073,  1094,      2)  /* Fire Protection Self VI */
      , (20073,  1331,      2)  /* Strength Self V */
-     , (20073,  1603,      2)  /* Aura of Defender Self IV */
      , (20073,  1614,      2)  /* Aura of Blood Drinker Self IV */
      , (20073,  2676,      2)  /* Feeble Missile Weapon Aptitude */;

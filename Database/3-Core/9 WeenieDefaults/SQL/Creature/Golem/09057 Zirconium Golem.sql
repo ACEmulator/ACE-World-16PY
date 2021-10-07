@@ -111,10 +111,10 @@ VALUES (9057,  0,  4,  0,    0,   50,   40,   40,   40,   40,   35,    9,   40, 
      , (9057,  8,  4, 15, 0.75,   50,   40,   40,   40,   40,   35,    9,   40,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9057,    58,   2.06)  /* Acid Stream I */
-     , (9057,    64,   2.06)  /* Shock Wave I */
+VALUES (9057,    64,   2.06)  /* Shock Wave I */
      , (9057,    65,   2.02)  /* Shock Wave II */
-     , (9057,  1249,   2.06)  /* Drain Stamina Other I */;
+     , (9057,  1249,   2.06)  /* Drain Stamina Other I */
+     , (9057,    58,   2.06)  /* Acid Stream I */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (9057,  94) /* ATTACK_NOTIFICATION_EVENT */

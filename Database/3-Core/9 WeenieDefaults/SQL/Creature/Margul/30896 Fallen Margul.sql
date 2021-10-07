@@ -109,21 +109,21 @@ VALUES (30896,  0,  2, 165, 0.75,  650,  682,  650,  618,  618,  780,  780,  618
      , (30896, 22,  8, 75,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30896,   574,   2.01)  /* Creature Enchantment Ineptitude Other VI */
-     , (30896,   628,   2.01)  /* Life Magic Ineptitude Other VI */
-     , (30896,   652,   2.01)  /* War Magic Ineptitude Other VI */
-     , (30896,  1555,  2.005)  /* Blade Lure IV */
+VALUES (30896,  2717,   2.04)  /* Acid Arc VII */
      , (30896,  1609,  2.005)  /* Lure Blade IV */
-     , (30896,  1619,  2.005)  /* Blood Loather IV */
-     , (30896,  1631,  2.005)  /* Leaden Weapon IV */
      , (30896,  2074,   2.03)  /* Gossamer Flesh */
      , (30896,  2122,   2.04)  /* Disintegration */
-     , (30896,  2128,   2.04)  /* Ilservian's Flame */
-     , (30896,  2162,   2.02)  /* Olthoi's Gift */
-     , (30896,  2170,   2.02)  /* Inferno's Gift */
+     , (30896,   652,   2.01)  /* War Magic Ineptitude Other VI */
      , (30896,  2318,   2.02)  /* Gravity Well */
-     , (30896,  2717,   2.04)  /* Acid Arc VII */
-     , (30896,  2745,   2.04)  /* Flame Arc VII */;
+     , (30896,  2128,   2.04)  /* Ilservian's Flame */
+     , (30896,  1555,  2.005)  /* Blade Lure IV */
+     , (30896,  1619,  2.005)  /* Blood Loather IV */
+     , (30896,  1631,  2.005)  /* Leaden Weapon IV */
+     , (30896,  2162,   2.02)  /* Olthoi's Gift */
+     , (30896,   628,   2.01)  /* Life Magic Ineptitude Other VI */
+     , (30896,  2745,   2.04)  /* Flame Arc VII */
+     , (30896,  2170,   2.02)  /* Inferno's Gift */
+     , (30896,   574,   2.01)  /* Creature Enchantment Ineptitude Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (30896,  94) /* ATTACK_NOTIFICATION_EVENT */

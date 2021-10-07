@@ -127,23 +127,23 @@ VALUES (11522,  0,  4,  0,    0,  195,  195,  195,  195,  195,  195,  195,  195,
      , (11522,  8,  4, 75, 0.75,  195,  195,  195,  195,  195,  195,  195,  195,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11522,    62,   2.04)  /* Acid Stream V */
+VALUES (11522,    84,   2.04)  /* Flame Bolt V */
      , (11522,    68,   2.04)  /* Shock Wave V */
+     , (11522,   259,  2.032)  /* Impregnability Self IV */
+     , (11522,  1222,  2.023)  /* Mana Drain Other IV */
+     , (11522,  1159,  2.048)  /* Heal Self IV */
+     , (11522,   266,  2.032)  /* Defenselessness Other V */
      , (11522,    73,   2.04)  /* Frost Bolt V */
      , (11522,    79,   2.04)  /* Lightning Bolt V */
-     , (11522,    84,   2.04)  /* Flame Bolt V */
+     , (11522,   277,  2.032)  /* Magic Resistance Self IV */
+     , (11522,  1174,  2.023)  /* Harm Other IV */
      , (11522,    90,   2.04)  /* Force Bolt V */
+     , (11522,  1199,  2.023)  /* Enfeeble Other V */
+     , (11522,   284,  2.032)  /* Magic Yield Other V */
      , (11522,    96,   2.04)  /* Whirling Blade V */
      , (11522,   233,  2.032)  /* Vulnerability Other V */
      , (11522,   247,  2.032)  /* Invulnerability Self IV */
-     , (11522,   259,  2.032)  /* Impregnability Self IV */
-     , (11522,   266,  2.032)  /* Defenselessness Other V */
-     , (11522,   277,  2.032)  /* Magic Resistance Self IV */
-     , (11522,   284,  2.032)  /* Magic Yield Other V */
-     , (11522,  1159,  2.048)  /* Heal Self IV */
-     , (11522,  1174,  2.023)  /* Harm Other IV */
-     , (11522,  1199,  2.023)  /* Enfeeble Other V */
-     , (11522,  1222,  2.023)  /* Mana Drain Other IV */;
+     , (11522,    62,   2.04)  /* Acid Stream V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (11522,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -49,8 +49,8 @@ VALUES (21396,   1,   33557968) /* Setup */
      , (21396,  28,       2785) /* Spell - Lesser Stasis Field */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21396,   616,      2)  /* Life Magic Mastery Other VI */
+VALUES (21396,  2581,      2)  /* Minor Focus */
+     , (21396,   616,      2)  /* Life Magic Mastery Other VI */
      , (21396,   664,      2)  /* Mana Conversion Mastery Other VI */
-     , (21396,  2581,      2)  /* Minor Focus */
      , (21396,  2584,      2)  /* Minor Willpower */
      , (21396,  2810,      2)  /* Moderate Life Magic Aptitude */;

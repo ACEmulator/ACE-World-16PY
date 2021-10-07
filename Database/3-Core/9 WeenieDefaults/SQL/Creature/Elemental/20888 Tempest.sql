@@ -109,18 +109,18 @@ VALUES (20888,  0, 64,  0,    0,  200,  200,  200,  200,  200,  200,  220,  200,
      , (20888,  8, 64, 75, 0.75,  200,  200,  200,  200,  200,  200,  220,  200,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20888,   276,  2.008)  /* Magic Resistance Self III */
-     , (20888,   518,  2.008)  /* Acid Protection Self IV */
-     , (20888,  1160,  2.013)  /* Heal Self V */
-     , (20888,  1237,  2.008)  /* Drain Health Other I */
-     , (20888,  1788,  2.008)  /* Eye of the Storm */
-     , (20888,  2074,  2.017)  /* Gossamer Flesh */
+VALUES (20888,   518,  2.008)  /* Acid Protection Self IV */
      , (20888,  2084,  2.017)  /* Belly of Lead */
      , (20888,  2140,  2.008)  /* Alset's Coil */
-     , (20888,  2141,  2.008)  /* Lhen's Flare */
      , (20888,  2172,  2.017)  /* Astyrrian's Gift */
+     , (20888,  1160,  2.013)  /* Heal Self V */
+     , (20888,  2141,  2.008)  /* Lhen's Flare */
+     , (20888,  2318,  2.017)  /* Gravity Well */
+     , (20888,   276,  2.008)  /* Magic Resistance Self III */
+     , (20888,  1237,  2.008)  /* Drain Health Other I */
+     , (20888,  2074,  2.017)  /* Gossamer Flesh */
      , (20888,  2228,  2.017)  /* Broadside of a Barn */
-     , (20888,  2318,  2.017)  /* Gravity Well */;
+     , (20888,  1788,  2.008)  /* Eye of the Storm */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (20888,  94) /* ATTACK_NOTIFICATION_EVENT */

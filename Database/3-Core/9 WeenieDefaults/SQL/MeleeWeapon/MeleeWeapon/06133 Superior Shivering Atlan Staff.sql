@@ -54,9 +54,9 @@ VALUES (6133,   1,   33556384) /* Setup */
      , (6133,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6133,  1033,      2)  /* Cold Protection Self IV */
-     , (6133,  1400,      2)  /* Quickness Self IV */
+VALUES (6133,  1603,      2)  /* Aura of Defender Self IV */
+     , (6133,  1033,      2)  /* Cold Protection Self IV */
      , (6133,  1590,      2)  /* Aura of Heart Seeker Self IV */
-     , (6133,  1603,      2)  /* Aura of Defender Self IV */
      , (6133,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (6133,  1400,      2)  /* Quickness Self IV */
      , (6133,  1625,      2)  /* Aura of Swift Killer Self IV */;

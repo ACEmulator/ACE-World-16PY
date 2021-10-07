@@ -111,13 +111,13 @@ VALUES (23345,  0,  4,  0,    0,  100,   58,   69,   90,   50,   44,   30,   60,
      , (23345,  8,  4, 60, 0.75,  100,   58,   69,   90,   50,   44,   30,   60,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23345,    66,   2.04)  /* Shock Wave III */
+VALUES (23345,    82,   2.04)  /* Flame Bolt III */
+     , (23345,  1293,   2.02)  /* Mana to Health Self IV */
+     , (23345,    66,   2.04)  /* Shock Wave III */
+     , (23345,    83,   2.02)  /* Flame Bolt IV */
      , (23345,    67,   2.02)  /* Shock Wave IV */
      , (23345,    71,   2.04)  /* Frost Bolt III */
-     , (23345,    72,   2.02)  /* Frost Bolt IV */
-     , (23345,    82,   2.04)  /* Flame Bolt III */
-     , (23345,    83,   2.02)  /* Flame Bolt IV */
-     , (23345,  1293,   2.02)  /* Mana to Health Self IV */;
+     , (23345,    72,   2.02)  /* Frost Bolt IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (23345,  94) /* ATTACK_NOTIFICATION_EVENT */

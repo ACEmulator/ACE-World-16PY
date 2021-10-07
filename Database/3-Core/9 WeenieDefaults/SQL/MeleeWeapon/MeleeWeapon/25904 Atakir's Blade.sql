@@ -54,8 +54,8 @@ VALUES (25904,   1,   33558560) /* Setup */
      , (25904,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25904,  1592,      2)  /* Aura of Heart Seeker Self VI */
-     , (25904,  1605,      2)  /* Aura of Defender Self VI */
+VALUES (25904,  1605,      2)  /* Aura of Defender Self VI */
+     , (25904,  1592,      2)  /* Aura of Heart Seeker Self VI */
      , (25904,  1616,      2)  /* Aura of Blood Drinker Self VI */
      , (25904,  1625,      2)  /* Aura of Swift Killer Self IV */
      , (25904,  2598,      2)  /* Minor Blood Thirst */

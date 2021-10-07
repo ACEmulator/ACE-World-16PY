@@ -111,15 +111,15 @@ VALUES (21164,  0, 16,  0,    0,  220,  187,  187,  187,  220, 22000,  187,  187
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21164,    82,  2.138)  /* Flame Bolt III */
-     , (21164,   167,  2.008)  /* Regeneration Self III */
+     , (21164,  1158,  2.013)  /* Heal Self III */
      , (21164,   231,  2.017)  /* Vulnerability Other III */
-     , (21164,   276,  2.008)  /* Magic Resistance Self III */
+     , (21164,   167,  2.008)  /* Regeneration Self III */
+     , (21164,  1798,  2.004)  /* Flame Streak III */
      , (21164,  1032,  2.008)  /* Cold Protection Self III */
      , (21164,  1105,  2.017)  /* Fire Vulnerability Other III */
-     , (21164,  1158,  2.013)  /* Heal Self III */
      , (21164,  1239,  2.008)  /* Drain Health Other III */
-     , (21164,  1324,  2.017)  /* Imperil Other III */
-     , (21164,  1798,  2.004)  /* Flame Streak III */;
+     , (21164,   276,  2.008)  /* Magic Resistance Self III */
+     , (21164,  1324,  2.017)  /* Imperil Other III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (21164,  94) /* ATTACK_NOTIFICATION_EVENT */

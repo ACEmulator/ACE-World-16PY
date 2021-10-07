@@ -122,23 +122,23 @@ VALUES (28017,  0,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,
      , (28017,  8,  4, 160,  0.5,  500,  525,  650,  500,  650,  500,  525,  600,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28017,    63,   2.01)  /* Acid Stream VI */
-     , (28017,    69,   2.01)  /* Shock Wave VI */
-     , (28017,    74,   2.01)  /* Frost Bolt VI */
-     , (28017,    80,   2.01)  /* Lightning Bolt VI */
-     , (28017,    85,   2.01)  /* Flame Bolt VI */
-     , (28017,    91,   2.01)  /* Force Bolt VI */
-     , (28017,    97,   2.01)  /* Whirling Blade VI */
-     , (28017,   176,  2.011)  /* Fester Other VI */
-     , (28017,   526,  2.011)  /* Acid Vulnerability Other VI */
-     , (28017,  1053,  2.011)  /* Bludgeoning Vulnerability Other VI */
+VALUES (28017,    85,   2.01)  /* Flame Bolt VI */
      , (28017,  1065,  2.011)  /* Cold Vulnerability Other VI */
+     , (28017,    69,   2.01)  /* Shock Wave VI */
      , (28017,  1089,  2.011)  /* Lightning Vulnerability Other VI */
      , (28017,  1108,  2.011)  /* Fire Vulnerability Other VI */
      , (28017,  1132,  2.011)  /* Blade Vulnerability Other VI */
+     , (28017,    80,   2.01)  /* Lightning Bolt VI */
      , (28017,  1156,  2.011)  /* Piercing Vulnerability Other VI */
+     , (28017,    74,   2.01)  /* Frost Bolt VI */
+     , (28017,   526,  2.011)  /* Acid Vulnerability Other VI */
+     , (28017,    91,   2.01)  /* Force Bolt VI */
+     , (28017,  1053,  2.011)  /* Bludgeoning Vulnerability Other VI */
+     , (28017,    97,   2.01)  /* Whirling Blade VI */
+     , (28017,   176,  2.011)  /* Fester Other VI */
      , (28017,  1840,   2.01)  /* Bed of Blades */
-     , (28017,  1842,   2.01)  /* Spike Strafe */;
+     , (28017,  1842,   2.01)  /* Spike Strafe */
+     , (28017,    63,   2.01)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (28017,  94) /* ATTACK_NOTIFICATION_EVENT */

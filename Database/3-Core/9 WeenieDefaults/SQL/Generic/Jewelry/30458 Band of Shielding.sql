@@ -40,7 +40,7 @@ VALUES (30458,   1,   33554691) /* Setup */
      , (30458,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30458,   279,      2)  /* Magic Resistance Self VI */
-     , (30458,  1094,      2)  /* Fire Protection Self VI */
+VALUES (30458,  1094,      2)  /* Fire Protection Self VI */
+     , (30458,   279,      2)  /* Magic Resistance Self VI */
      , (30458,  1114,      2)  /* Blade Protection Self VI */
      , (30458,  2811,      2)  /* Moderate Magic Resistance */;

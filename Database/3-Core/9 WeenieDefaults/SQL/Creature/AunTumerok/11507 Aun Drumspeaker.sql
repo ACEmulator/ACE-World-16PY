@@ -121,28 +121,28 @@ VALUES (11507,  0,  4,  0,    0,   60,   60,   60,   60,   60,   60,   60,   60,
      , (11507,  8,  4,  5, 0.75,   60,   60,   60,   60,   60,   60,   60,   60,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11507,     7,  2.003)  /* Harm Other I */
-     , (11507,    18,  2.027)  /* Invulnerability Self I */
-     , (11507,    27,  2.007)  /* Flame Bolt I */
-     , (11507,    28,  2.007)  /* Frost Bolt I */
-     , (11507,    58,  2.007)  /* Acid Stream I */
-     , (11507,    59,  2.003)  /* Acid Stream II */
+VALUES (11507,   280,  2.003)  /* Magic Yield Other I */
+     , (11507,     7,  2.003)  /* Harm Other I */
+     , (11507,  1219,  2.003)  /* Mana Drain Other I */
+     , (11507,   256,  2.027)  /* Impregnability Self I */
      , (11507,    64,  2.007)  /* Shock Wave I */
+     , (11507,  1157, 2.0004)  /* Heal Self II */
      , (11507,    65,  2.003)  /* Shock Wave II */
      , (11507,    70,  2.003)  /* Frost Bolt II */
      , (11507,    75,  2.007)  /* Lightning Bolt I */
      , (11507,    76,  2.033)  /* Lightning Bolt II */
      , (11507,    81,  2.003)  /* Flame Bolt II */
+     , (11507,   274,  2.027)  /* Magic Resistance Self I */
+     , (11507,    18,  2.027)  /* Invulnerability Self I */
      , (11507,    86,  2.007)  /* Force Bolt I */
      , (11507,    87,  2.003)  /* Force Bolt II */
+     , (11507,    27,  2.007)  /* Flame Bolt I */
+     , (11507,    28,  2.007)  /* Frost Bolt I */
      , (11507,    92,  2.007)  /* Whirling Blade I */
      , (11507,    93,  2.003)  /* Whirling Blade II */
-     , (11507,   256,  2.027)  /* Impregnability Self I */
-     , (11507,   274,  2.027)  /* Magic Resistance Self I */
-     , (11507,   280,  2.003)  /* Magic Yield Other I */
-     , (11507,  1157, 2.0004)  /* Heal Self II */
      , (11507,  1195,  2.003)  /* Enfeeble Other I */
-     , (11507,  1219,  2.003)  /* Mana Drain Other I */;
+     , (11507,    58,  2.007)  /* Acid Stream I */
+     , (11507,    59,  2.003)  /* Acid Stream II */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (11507,  94) /* ATTACK_NOTIFICATION_EVENT */

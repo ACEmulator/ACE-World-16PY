@@ -119,16 +119,16 @@ VALUES (24278,  0,  4,  0,    0,  230,  189,  101,  191,  166,  191,  166,  207,
      , (24278,  8,  4, 25, 0.75,  240,  197,  106,  199,  173,  199,  173,  216,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24278,  1242,   2.05)  /* Drain Health Other VI */
+VALUES (24278,  2136,   2.05)  /* Icy Torment */
+     , (24278,  2128,   2.05)  /* Ilservian's Flame */
      , (24278,  2056,   2.05)  /* Ataxia */
      , (24278,  2073,   2.05)  /* Adja's Intervention */
-     , (24278,  2074,   2.05)  /* Gossamer Flesh */
-     , (24278,  2084,   2.05)  /* Belly of Lead */
-     , (24278,  2088,   2.05)  /* Senescence */
-     , (24278,  2128,   2.05)  /* Ilservian's Flame */
-     , (24278,  2136,   2.05)  /* Icy Torment */
-     , (24278,  2140,   2.05)  /* Alset's Coil */
      , (24278,  2146,   2.05)  /* Evisceration */
+     , (24278,  2074,   2.05)  /* Gossamer Flesh */
+     , (24278,  1242,   2.05)  /* Drain Health Other VI */
+     , (24278,  2084,   2.05)  /* Belly of Lead */
+     , (24278,  2140,   2.05)  /* Alset's Coil */
+     , (24278,  2088,   2.05)  /* Senescence */
      , (24278,  2164,   2.05)  /* Swordsman's Gift */
      , (24278,  2168,   2.05)  /* Gelidite's Gift */
      , (24278,  2170,   2.05)  /* Inferno's Gift */

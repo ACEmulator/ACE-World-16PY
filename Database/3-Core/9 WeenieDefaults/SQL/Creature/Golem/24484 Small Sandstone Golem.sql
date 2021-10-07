@@ -115,12 +115,12 @@ VALUES (24484,  0,  4,  0,    0,  275,  121,  160,  275,   91,   91,  275,  237,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24484,    69,   2.06)  /* Shock Wave VI */
+     , (24484,  1396,   2.02)  /* Clumsiness Other VI */
+     , (24484,  1420,   2.02)  /* Slowness Other VI */
+     , (24484,  1242,   2.02)  /* Drain Health Other VI */
      , (24484,    97,   2.06)  /* Whirling Blade VI */
      , (24484,   106,  2.013)  /* Shock Blast VI */
-     , (24484,   234,   2.02)  /* Vulnerability Other VI */
-     , (24484,  1242,   2.02)  /* Drain Health Other VI */
-     , (24484,  1396,   2.02)  /* Clumsiness Other VI */
-     , (24484,  1420,   2.02)  /* Slowness Other VI */;
+     , (24484,   234,   2.02)  /* Vulnerability Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (24484,  94) /* ATTACK_NOTIFICATION_EVENT */

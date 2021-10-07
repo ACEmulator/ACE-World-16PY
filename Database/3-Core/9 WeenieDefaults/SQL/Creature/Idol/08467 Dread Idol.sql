@@ -105,20 +105,20 @@ VALUES (8467,  0,  4, 35, 0.75, 1500,  450,  450,  450,  450,  450,  450,  450, 
      , (8467, 22, 16, 40, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8467,    72,  2.032)  /* Frost Bolt IV */
+VALUES (8467,   144,  2.003)  /* Flame Volley IV */
      , (8467,   136,  2.003)  /* Frost Volley IV */
-     , (8467,   140,  2.003)  /* Lightning Volley IV */
-     , (8467,   144,  2.003)  /* Flame Volley IV */
+     , (8467,    72,  2.032)  /* Frost Bolt IV */
+     , (8467,  1418,  2.023)  /* Slowness Other IV */
+     , (8467,  1240,  2.023)  /* Drain Health Other IV */
      , (8467,   148,  2.003)  /* Force Volley IV */
-     , (8467,   152,  2.003)  /* Blade Volley IV */
-     , (8467,   232,  2.023)  /* Vulnerability Other IV */
+     , (8467,   140,  2.003)  /* Lightning Volley IV */
+     , (8467,   656,  2.006)  /* Mana Conversion Mastery Self IV */
      , (8467,   277,  2.006)  /* Magic Resistance Self IV */
+     , (8467,   152,  2.003)  /* Blade Volley IV */
      , (8467,   283,  2.023)  /* Magic Yield Other IV */
      , (8467,   608,  2.006)  /* Life Magic Mastery Self IV */
      , (8467,   626,  2.023)  /* Life Magic Ineptitude Other IV */
-     , (8467,   656,  2.006)  /* Mana Conversion Mastery Self IV */
-     , (8467,  1240,  2.023)  /* Drain Health Other IV */
-     , (8467,  1418,  2.023)  /* Slowness Other IV */
+     , (8467,   232,  2.023)  /* Vulnerability Other IV */
      , (8467,  1466,  2.023)  /* Feeblemind Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

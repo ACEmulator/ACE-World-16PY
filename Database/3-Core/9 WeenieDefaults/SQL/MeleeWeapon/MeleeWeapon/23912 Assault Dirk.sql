@@ -61,7 +61,7 @@ VALUES (23912,   1,   33558208) /* Setup */
      , (23912,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23912,  1377,      2)  /* Coordination Self V */
-     , (23912,  1590,      2)  /* Aura of Heart Seeker Self IV */
+VALUES (23912,  1590,      2)  /* Aura of Heart Seeker Self IV */
      , (23912,  1614,      2)  /* Aura of Blood Drinker Self IV */
-     , (23912,  2004,      2)  /* Warrior's Vitality */;
+     , (23912,  2004,      2)  /* Warrior's Vitality */
+     , (23912,  1377,      2)  /* Coordination Self V */;

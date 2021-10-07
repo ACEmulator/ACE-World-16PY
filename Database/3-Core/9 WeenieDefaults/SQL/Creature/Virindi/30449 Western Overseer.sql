@@ -109,26 +109,26 @@ VALUES (30449,  0,  1,  0,    0,  450,  450,  450,  450,  324,  450,  450,  324,
      , (30449, 17,  1,  0,    0,  450,  450,  450,  450,  324,  450,  450,  324,    0, 3,    0,    0,  0.1,    0,    0,  0.1,    0, 0.13, 0.45,    0, 0.13, 0.45) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30449,   279,   2.05)  /* Magic Resistance Self VI */
-     , (30449,   520,   2.05)  /* Acid Protection Self VI */
-     , (30449,  1023,   2.05)  /* Bludgeoning Protection Self VI */
-     , (30449,  1094,   2.05)  /* Fire Protection Self VI */
-     , (30449,  1108,   2.05)  /* Fire Vulnerability Other VI */
+VALUES (30449,  1242,   2.05)  /* Drain Health Other VI */
      , (30449,  1114,   2.05)  /* Blade Protection Self VI */
-     , (30449,  1132,   2.05)  /* Blade Vulnerability Other VI */
-     , (30449,  1138,   2.05)  /* Piercing Protection Self VI */
-     , (30449,  1242,   2.05)  /* Drain Health Other VI */
-     , (30449,  1312,   2.05)  /* Armor Self VI */
-     , (30449,  1327,   2.05)  /* Imperil Other VI */
+     , (30449,  2054,   2.05)  /* Synaptic Misfire */
+     , (30449,  1094,   2.05)  /* Fire Protection Self VI */
+     , (30449,  2130,   2.05)  /* Infernae */
+     , (30449,   520,   2.05)  /* Acid Protection Self VI */
+     , (30449,  2125,   2.05)  /* Flensing Wings */
+     , (30449,   279,   2.05)  /* Magic Resistance Self VI */
+     , (30449,  2128,   2.05)  /* Ilservian's Flame */
+     , (30449,  1108,   2.05)  /* Fire Vulnerability Other VI */
      , (30449,  1372,   2.05)  /* Frailty Other VI */
+     , (30449,  1312,   2.05)  /* Armor Self VI */
+     , (30449,  2146,   2.05)  /* Evisceration */
+     , (30449,  2088,   2.05)  /* Senescence */
+     , (30449,  1132,   2.05)  /* Blade Vulnerability Other VI */
+     , (30449,  1327,   2.05)  /* Imperil Other VI */
+     , (30449,  1138,   2.05)  /* Piercing Protection Self VI */
      , (30449,  1784,   2.02)  /* Horizon's Blades */
      , (30449,  1785,   2.05)  /* Cassius' Ring of Fire */
-     , (30449,  2054,   2.05)  /* Synaptic Misfire */
-     , (30449,  2088,   2.05)  /* Senescence */
-     , (30449,  2125,   2.05)  /* Flensing Wings */
-     , (30449,  2128,   2.05)  /* Ilservian's Flame */
-     , (30449,  2130,   2.05)  /* Infernae */
-     , (30449,  2146,   2.05)  /* Evisceration */;
+     , (30449,  1023,   2.05)  /* Bludgeoning Protection Self VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (30449,  94) /* ATTACK_NOTIFICATION_EVENT */

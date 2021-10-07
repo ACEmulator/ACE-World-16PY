@@ -109,26 +109,26 @@ VALUES (30448,  0,  1,  0,    0,  400,  400,  400,  400,  288,  400,  400,  288,
      , (30448, 17,  1,  0,    0,  400,  400,  400,  400,  288,  400,  400,  288,    0, 3,    0,    0,  0.1,    0,    0,  0.1,    0, 0.13, 0.45,    0, 0.13, 0.45) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30448,    85,   2.05)  /* Flame Bolt VI */
-     , (30448,    97,   2.05)  /* Whirling Blade VI */
-     , (30448,   146,   2.05)  /* Flame Volley VI */
-     , (30448,   154,   2.03)  /* Blade Volley VI */
-     , (30448,   278,   2.05)  /* Magic Resistance Self V */
-     , (30448,   519,   2.05)  /* Acid Protection Self V */
-     , (30448,  1022,   2.05)  /* Bludgeoning Protection Self V */
+VALUES (30448,   519,   2.05)  /* Acid Protection Self V */
      , (30448,  1093,   2.05)  /* Fire Protection Self V */
+     , (30448,   154,   2.03)  /* Blade Volley VI */
+     , (30448,   146,   2.05)  /* Flame Volley VI */
      , (30448,  1107,   2.05)  /* Fire Vulnerability Other V */
      , (30448,  1113,   2.05)  /* Blade Protection Self V */
-     , (30448,  1131,   2.05)  /* Blade Vulnerability Other V */
-     , (30448,  1137,   2.05)  /* Piercing Protection Self V */
+     , (30448,   278,   2.05)  /* Magic Resistance Self V */
+     , (30448,    85,   2.05)  /* Flame Bolt VI */
      , (30448,  1242,   2.05)  /* Drain Health Other VI */
-     , (30448,  1311,   2.05)  /* Armor Self V */
-     , (30448,  1326,   2.05)  /* Imperil Other V */
-     , (30448,  1343,   2.05)  /* Weakness Other VI */
      , (30448,  1371,   2.05)  /* Frailty Other V */
+     , (30448,  1311,   2.05)  /* Armor Self V */
+     , (30448,    97,   2.05)  /* Whirling Blade VI */
      , (30448,  1444,   2.05)  /* Bafflement Other VI */
+     , (30448,  1131,   2.05)  /* Blade Vulnerability Other V */
+     , (30448,  1326,   2.05)  /* Imperil Other V */
+     , (30448,  1137,   2.05)  /* Piercing Protection Self V */
      , (30448,  1784,   2.02)  /* Horizon's Blades */
-     , (30448,  1785,   2.05)  /* Cassius' Ring of Fire */;
+     , (30448,  1785,   2.05)  /* Cassius' Ring of Fire */
+     , (30448,  1022,   2.05)  /* Bludgeoning Protection Self V */
+     , (30448,  1343,   2.05)  /* Weakness Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (30448,  94) /* ATTACK_NOTIFICATION_EVENT */

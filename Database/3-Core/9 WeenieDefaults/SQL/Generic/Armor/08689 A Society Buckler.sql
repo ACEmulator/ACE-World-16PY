@@ -51,5 +51,5 @@ VALUES (8689,   1,   33554786) /* Setup */
      , (8689,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8689,   240,      2)  /* Invulnerability Other II */
-     , (8689,  1482,      2)  /* Impenetrability II */;
+VALUES (8689,  1482,      2)  /* Impenetrability II */
+     , (8689,   240,      2)  /* Invulnerability Other II */;

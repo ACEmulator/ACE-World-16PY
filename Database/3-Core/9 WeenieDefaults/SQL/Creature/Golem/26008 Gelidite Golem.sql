@@ -113,17 +113,17 @@ VALUES (26008,  0,  4,  0,    0,  350,  277,  315,  350,  294,  294,  294,  294,
      , (26008,  8,  4, 90, 0.75,  350,  277,  315,  350,  294,  294,  294,  294,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26008,   108,   2.08)  /* Frost Blast IV */
-     , (26008,   626,  2.048)  /* Life Magic Ineptitude Other IV */
-     , (26008,   651,  2.048)  /* War Magic Ineptitude Other V */
-     , (26008,  1064,  2.048)  /* Cold Vulnerability Other V */
+VALUES (26008,  1239,   2.01)  /* Drain Health Other III */
      , (26008,  1159,   2.01)  /* Heal Self IV */
-     , (26008,  1239,   2.01)  /* Drain Health Other III */
-     , (26008,  1326,  2.048)  /* Imperil Other V */
-     , (26008,  1342,  2.048)  /* Weakness Other V */
-     , (26008,  1595,  2.005)  /* Turn Blade III */
+     , (26008,   651,  2.048)  /* War Magic Ineptitude Other V */
+     , (26008,   108,   2.08)  /* Frost Blast IV */
+     , (26008,  1064,  2.048)  /* Cold Vulnerability Other V */
      , (26008,  1618,  2.005)  /* Blood Loather III */
-     , (26008,  2728,   2.08)  /* Frost Arc IV */;
+     , (26008,  2728,   2.08)  /* Frost Arc IV */
+     , (26008,  1326,  2.048)  /* Imperil Other V */
+     , (26008,   626,  2.048)  /* Life Magic Ineptitude Other IV */
+     , (26008,  1595,  2.005)  /* Turn Blade III */
+     , (26008,  1342,  2.048)  /* Weakness Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (26008,  94) /* ATTACK_NOTIFICATION_EVENT */

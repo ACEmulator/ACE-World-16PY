@@ -112,18 +112,18 @@ VALUES (20866,  0, 32,  0,    0,  200,  200,  200,  200,  200,  200,  220,  220,
      , (20866,  8, 32, 75, 0.75,  200,  200,  200,  200,  200,  200,  220,  220,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20866,   276,  2.008)  /* Magic Resistance Self III */
-     , (20866,  1069,  2.008)  /* Lightning Protection Self IV */
-     , (20866,  1783,  2.004)  /* Searing Disc */
-     , (20866,  2068,  2.017)  /* Brittle Bones */
-     , (20866,  2073,  2.013)  /* Adja's Intervention */
-     , (20866,  2074,  2.017)  /* Gossamer Flesh */
+VALUES (20866,  2074,  2.017)  /* Gossamer Flesh */
      , (20866,  2122,  2.004)  /* Disintegration */
-     , (20866,  2162,  2.017)  /* Olthoi's Gift */
      , (20866,  2178,  2.017)  /* Decrepitude's Grasp */
-     , (20866,  2228,  2.017)  /* Broadside of a Barn */
      , (20866,  2318,  2.017)  /* Gravity Well */
-     , (20866,  2328,  2.008)  /* Vitality Siphon */;
+     , (20866,  2068,  2.017)  /* Brittle Bones */
+     , (20866,   276,  2.008)  /* Magic Resistance Self III */
+     , (20866,  2328,  2.008)  /* Vitality Siphon */
+     , (20866,  1069,  2.008)  /* Lightning Protection Self IV */
+     , (20866,  2073,  2.013)  /* Adja's Intervention */
+     , (20866,  2162,  2.017)  /* Olthoi's Gift */
+     , (20866,  2228,  2.017)  /* Broadside of a Barn */
+     , (20866,  1783,  2.004)  /* Searing Disc */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (20866,  94) /* ATTACK_NOTIFICATION_EVENT */

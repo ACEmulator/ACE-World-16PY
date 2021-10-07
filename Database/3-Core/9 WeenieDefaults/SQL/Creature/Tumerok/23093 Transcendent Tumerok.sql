@@ -128,19 +128,19 @@ VALUES (23093,  0,  4,  0,    0,  450,  450,  450,  450,  450,  450,  450,  450,
      , (23093,  8,  4, 55, 0.75,  450,  450,  450,  450,  450,  450,  450,  450,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23093,    62,  2.015)  /* Acid Stream V */
-     , (23093,    68,  2.015)  /* Shock Wave V */
-     , (23093,    73,  2.015)  /* Frost Bolt V */
-     , (23093,    79,  2.015)  /* Lightning Bolt V */
-     , (23093,    84,  2.015)  /* Flame Bolt V */
-     , (23093,    90,  2.015)  /* Force Bolt V */
-     , (23093,    96,  2.015)  /* Whirling Blade V */
+VALUES (23093,    84,  2.015)  /* Flame Bolt V */
      , (23093,  1160,  2.009)  /* Heal Self V */
-     , (23093,  1241,  2.012)  /* Drain Health Other V */
+     , (23093,    68,  2.015)  /* Shock Wave V */
      , (23093,  1342,  2.012)  /* Weakness Other V */
-     , (23093,  1395,  2.012)  /* Clumsiness Other V */
+     , (23093,    73,  2.015)  /* Frost Bolt V */
+     , (23093,    96,  2.015)  /* Whirling Blade V */
      , (23093,  1419,  2.012)  /* Slowness Other V */
-     , (23093,  1443,  2.012)  /* Bafflement Other V */;
+     , (23093,    79,  2.015)  /* Lightning Bolt V */
+     , (23093,  1241,  2.012)  /* Drain Health Other V */
+     , (23093,    90,  2.015)  /* Force Bolt V */
+     , (23093,  1443,  2.012)  /* Bafflement Other V */
+     , (23093,  1395,  2.012)  /* Clumsiness Other V */
+     , (23093,    62,  2.015)  /* Acid Stream V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (23093,  94) /* ATTACK_NOTIFICATION_EVENT */

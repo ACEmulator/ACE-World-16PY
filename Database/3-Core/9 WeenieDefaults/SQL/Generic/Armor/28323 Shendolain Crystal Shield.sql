@@ -58,8 +58,8 @@ VALUES (28323,   1,   33554786) /* Setup */
      , (28323,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28323,   248,      2)  /* Invulnerability Self V */
-     , (28323,   260,      2)  /* Impregnability Self V */
+VALUES (28323,   260,      2)  /* Impregnability Self V */
      , (28323,  1485,      2)  /* Impenetrability V */
+     , (28323,   248,      2)  /* Invulnerability Self V */
      , (28323,  2005,      2)  /* Warrior's Greater Vitality */
      , (28323,  2009,      2)  /* Warrior's Greater Vigor */;

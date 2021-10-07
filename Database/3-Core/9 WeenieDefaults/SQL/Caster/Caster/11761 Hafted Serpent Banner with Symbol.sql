@@ -43,5 +43,5 @@ VALUES (11761,   1,   33557258) /* Setup */
      , (11761,  27, 1073742049) /* UseUserAnimation - UseMagicWand */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11761,   247,      2)  /* Invulnerability Self IV */
-     , (11761,   656,      2)  /* Mana Conversion Mastery Self IV */;
+VALUES (11761,   656,      2)  /* Mana Conversion Mastery Self IV */
+     , (11761,   247,      2)  /* Invulnerability Self IV */;

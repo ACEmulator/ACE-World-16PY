@@ -46,8 +46,8 @@ VALUES (28471,   1,   33558870) /* Setup */
      , (28471,  27, 1073742049) /* UseUserAnimation - UseMagicWand */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28471,   248,      2)  /* Invulnerability Self V */
-     , (28471,   616,      2)  /* Life Magic Mastery Other VI */
+VALUES (28471,   616,      2)  /* Life Magic Mastery Other VI */
      , (28471,   640,      2)  /* War Magic Mastery Other VI */
+     , (28471,  1479,      2)  /* Aura of Hermetic Link Self V */
      , (28471,  1354,      2)  /* Endurance Self VI */
-     , (28471,  1479,      2)  /* Aura of Hermetic Link Self V */;
+     , (28471,   248,      2)  /* Invulnerability Self V */;

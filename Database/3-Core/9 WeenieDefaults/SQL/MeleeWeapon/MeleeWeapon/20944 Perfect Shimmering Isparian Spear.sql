@@ -60,7 +60,7 @@ VALUES (20944,   1,   33556260) /* Setup */
      , (20944,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20944,  1312,      2)  /* Armor Self VI */
-     , (20944,  1592,      2)  /* Aura of Heart Seeker Self VI */
+VALUES (20944,  1592,      2)  /* Aura of Heart Seeker Self VI */
      , (20944,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (20944,  2692,      2)  /* Moderate Light Weapon Aptitude */;
+     , (20944,  2692,      2)  /* Moderate Light Weapon Aptitude */
+     , (20944,  1312,      2)  /* Armor Self VI */;

@@ -59,6 +59,6 @@ VALUES (21020,   1,   33557745) /* Setup */
      , (21020,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21020,  1312,      2)  /* Armor Self VI */
-     , (21020,  1602,      2)  /* Aura of Defender Self III */
-     , (21020,  1613,      2)  /* Aura of Blood Drinker Self III */;
+VALUES (21020,  1602,      2)  /* Aura of Defender Self III */
+     , (21020,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (21020,  1312,      2)  /* Armor Self VI */;

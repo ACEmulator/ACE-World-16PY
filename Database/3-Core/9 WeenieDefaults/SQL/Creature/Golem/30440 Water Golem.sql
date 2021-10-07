@@ -108,11 +108,11 @@ VALUES (30440,  0,  4,  0,    0,   50,    9,   19,    9,   50,   25,   40,   15,
      , (30440,  8,  4, 25, 0.75,   50,    9,   19,    9,   50,   25,   40,   15,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30440,     6,   2.01)  /* Heal Self I */
+VALUES (30440,    70,   2.02)  /* Frost Bolt II */
+     , (30440,     6,   2.01)  /* Heal Self I */
      , (30440,    28,  2.075)  /* Frost Bolt I */
-     , (30440,    58,  2.075)  /* Acid Stream I */
-     , (30440,    70,   2.02)  /* Frost Bolt II */
-     , (30440,  1249,   2.02)  /* Drain Stamina Other I */;
+     , (30440,  1249,   2.02)  /* Drain Stamina Other I */
+     , (30440,    58,  2.075)  /* Acid Stream I */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (30440,  94) /* ATTACK_NOTIFICATION_EVENT */

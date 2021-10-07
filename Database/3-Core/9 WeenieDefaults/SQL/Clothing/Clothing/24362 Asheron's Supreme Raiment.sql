@@ -52,6 +52,6 @@ VALUES (24362,   1,   33554854) /* Setup */
      , (24362,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24362,  1317,      2)  /* Armor Other VI */
-     , (24362,  2578,      2)  /* Minor Armor */
-     , (24362,  2660,      2)  /* Moderate Endurance */;
+VALUES (24362,  2578,      2)  /* Minor Armor */
+     , (24362,  2660,      2)  /* Moderate Endurance */
+     , (24362,  1317,      2)  /* Armor Other VI */;

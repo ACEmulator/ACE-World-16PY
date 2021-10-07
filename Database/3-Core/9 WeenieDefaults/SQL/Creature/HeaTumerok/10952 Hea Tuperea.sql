@@ -126,42 +126,42 @@ VALUES (10952,  0,  4,  0,    0,  250,  250,  250,  250,  250,  250,  250,  250,
      , (10952,  8,  4, 35, 0.75,  250,  250,  250,  250,  250,  250,  250,  250,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10952,    63,  2.003)  /* Acid Stream VI */
+VALUES (10952,  1155,  2.015)  /* Piercing Vulnerability Other V */
+     , (10952,  1223,  2.012)  /* Mana Drain Other V */
+     , (10952,  1159,  2.009)  /* Heal Self IV */
+     , (10952,  1175,  2.012)  /* Harm Other V */
+     , (10952,   260,  2.011)  /* Impregnability Self V */
      , (10952,    69,  2.003)  /* Shock Wave VI */
-     , (10952,    74,  2.003)  /* Frost Bolt VI */
-     , (10952,    80,  2.003)  /* Lightning Bolt VI */
-     , (10952,    85,  2.003)  /* Flame Bolt VI */
-     , (10952,    91,  2.003)  /* Force Bolt VI */
-     , (10952,    97,  2.003)  /* Whirling Blade VI */
-     , (10952,   105,  2.015)  /* Shock Blast V */
-     , (10952,   106,  2.003)  /* Shock Blast VI */
+     , (10952,  1160,  2.009)  /* Heal Self V */
+     , (10952,  1342,  2.015)  /* Weakness Other V */
      , (10952,   137,  2.015)  /* Frost Volley V */
      , (10952,   138,  2.003)  /* Frost Volley VI */
+     , (10952,    74,  2.003)  /* Frost Bolt VI */
+     , (10952,   266,  2.015)  /* Defenselessness Other V */
+     , (10952,   501,  2.015)  /* Missile Weapon Ineptitude Other V */
      , (10952,   142,  2.003)  /* Lightning Volley VI */
+     , (10952,    80,  2.003)  /* Lightning Bolt VI */
      , (10952,   146,  2.003)  /* Flame Volley VI */
+     , (10952,    85,  2.003)  /* Flame Bolt VI */
+     , (10952,   278,  2.011)  /* Magic Resistance Self V */
      , (10952,   153,  2.015)  /* Blade Volley V */
      , (10952,   154,  2.003)  /* Blade Volley VI */
-     , (10952,   233,  2.012)  /* Vulnerability Other V */
-     , (10952,   248,  2.011)  /* Invulnerability Self V */
-     , (10952,   260,  2.011)  /* Impregnability Self V */
-     , (10952,   266,  2.015)  /* Defenselessness Other V */
-     , (10952,   278,  2.011)  /* Magic Resistance Self V */
+     , (10952,    91,  2.003)  /* Force Bolt VI */
+     , (10952,  1371,  2.015)  /* Frailty Other V */
+     , (10952,  1199,  2.012)  /* Enfeeble Other V */
      , (10952,   284,  2.012)  /* Magic Yield Other V */
      , (10952,   477,  2.015)  /* Missile Weapon Ineptitude Other V */
-     , (10952,   501,  2.015)  /* Missile Weapon Ineptitude Other V */
-     , (10952,   700,  2.015)  /* Arcane Benightedness Other V */
-     , (10952,  1155,  2.015)  /* Piercing Vulnerability Other V */
-     , (10952,  1159,  2.009)  /* Heal Self IV */
-     , (10952,  1160,  2.009)  /* Heal Self V */
-     , (10952,  1175,  2.012)  /* Harm Other V */
-     , (10952,  1199,  2.012)  /* Enfeeble Other V */
-     , (10952,  1223,  2.012)  /* Mana Drain Other V */
+     , (10952,    97,  2.003)  /* Whirling Blade VI */
+     , (10952,   105,  2.015)  /* Shock Blast V */
+     , (10952,   233,  2.012)  /* Vulnerability Other V */
+     , (10952,   106,  2.003)  /* Shock Blast VI */
      , (10952,  1326,  2.015)  /* Imperil Other V */
+     , (10952,   248,  2.011)  /* Invulnerability Self V */
      , (10952,  1331,  2.011)  /* Strength Self V */
-     , (10952,  1342,  2.015)  /* Weakness Other V */
-     , (10952,  1371,  2.015)  /* Frailty Other V */
      , (10952,  1401,  2.011)  /* Quickness Self V */
-     , (10952,  2044,  2.015)  /* Item Befoulment */;
+     , (10952,  2044,  2.015)  /* Item Befoulment */
+     , (10952,   700,  2.015)  /* Arcane Benightedness Other V */
+     , (10952,    63,  2.003)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (10952,  94) /* ATTACK_NOTIFICATION_EVENT */

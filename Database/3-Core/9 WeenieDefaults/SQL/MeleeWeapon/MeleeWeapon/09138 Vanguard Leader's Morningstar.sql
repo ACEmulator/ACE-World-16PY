@@ -55,7 +55,7 @@ VALUES (9138,   1,   33554748) /* Setup */
      , (9138,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9138,  1334,      2)  /* Strength Other III */
-     , (9138,  1589,      2)  /* Aura of Heart Seeker Self III */
+VALUES (9138,  1589,      2)  /* Aura of Heart Seeker Self III */
      , (9138,  1613,      2)  /* Aura of Blood Drinker Self III */
-     , (9138,  1624,      2)  /* Aura of Swift Killer Self III */;
+     , (9138,  1624,      2)  /* Aura of Swift Killer Self III */
+     , (9138,  1334,      2)  /* Strength Other III */;

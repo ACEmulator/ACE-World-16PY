@@ -60,5 +60,5 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27188,  1118,      2)  /* Blade Protection Other IV */
      , (27188,  1604,      2)  /* Aura of Defender Self V */
      , (27188,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (27188,  1626,      2)  /* Aura of Swift Killer Self V */
-     , (27188,  2678,      2)  /* Feeble Finesse Weapon Aptitude */;
+     , (27188,  2678,      2)  /* Feeble Finesse Weapon Aptitude */
+     , (27188,  1626,      2)  /* Aura of Swift Killer Self V */;

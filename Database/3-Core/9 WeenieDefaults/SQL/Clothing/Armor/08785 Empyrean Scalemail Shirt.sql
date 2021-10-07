@@ -52,6 +52,6 @@ VALUES (8785,   1,   33554883) /* Setup */
      , (8785,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8785,  1310,      2)  /* Armor Self IV */
-     , (8785,  2579,      2)  /* Minor Coordination */
+VALUES (8785,  2579,      2)  /* Minor Coordination */
+     , (8785,  1310,      2)  /* Armor Self IV */
      , (8785,  2583,      2)  /* Minor Strength */;

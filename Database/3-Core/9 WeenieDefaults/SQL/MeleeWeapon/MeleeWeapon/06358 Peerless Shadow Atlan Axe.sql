@@ -54,8 +54,8 @@ VALUES (6358,   1,   33556302) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6358,   265,      2)  /* Defenselessness Other IV */
-     , (6358,   957,      2)  /* Fealty Other VI */
-     , (6358,  1468,      2)  /* Feeblemind Other VI */
-     , (6358,  1590,      2)  /* Aura of Heart Seeker Self IV */
      , (6358,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (6358,  1623,      2)  /* Aura of Swift Killer Self II */;
+     , (6358,  1623,      2)  /* Aura of Swift Killer Self II */
+     , (6358,  1590,      2)  /* Aura of Heart Seeker Self IV */
+     , (6358,  1468,      2)  /* Feeblemind Other VI */
+     , (6358,   957,      2)  /* Fealty Other VI */;

@@ -47,8 +47,8 @@ VALUES (1438,   1,   33555412) /* Setup */
      , (1438,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1438,  1095,      2)  /* Fire Protection Other V */
+VALUES (1438,  1604,      2)  /* Aura of Defender Self V */
+     , (1438,  1095,      2)  /* Fire Protection Other V */
      , (1438,  1591,      2)  /* Aura of Heart Seeker Self V */
-     , (1438,  1604,      2)  /* Aura of Defender Self V */
      , (1438,  1615,      2)  /* Aura of Blood Drinker Self V */
      , (1438,  1626,      2)  /* Aura of Swift Killer Self V */;

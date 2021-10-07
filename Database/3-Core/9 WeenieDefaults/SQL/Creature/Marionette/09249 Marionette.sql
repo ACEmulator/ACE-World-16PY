@@ -108,19 +108,19 @@ VALUES (9249,  0,  4, 15, 0.75,  220,  198,  156,  178,  117,  165,  178,  163, 
      , (9249, 25,  4, 15, 0.75,  180,  162,  128,  146,   95,  135,  146,  133,    0, 3,    0,    0,  0.3,    0,  0.1,  0.3,    0,    0,  0.3,    0,  0.1, 0.28) /* LowerTentacle */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9249,    71,  2.028)  /* Frost Bolt III */
-     , (9249,    77,  2.028)  /* Lightning Bolt III */
-     , (9249,  1090,      2)  /* Fire Protection Self II */
-     , (9249,  1110,      2)  /* Blade Protection Self II */
+VALUES (9249,  1090,      2)  /* Fire Protection Self II */
      , (9249,  1157,   2.05)  /* Heal Self II */
-     , (9249,  1308,      2)  /* Armor Self II */
-     , (9249,  1339,  2.028)  /* Weakness Other II */
+     , (9249,    71,  2.028)  /* Frost Bolt III */
      , (9249,  1368,  2.028)  /* Frailty Other II */
      , (9249,  1416,  2.028)  /* Slowness Other II */
+     , (9249,  1810,  2.028)  /* Frost Streak III */
+     , (9249,  1816,  2.028)  /* Lightning Streak III */
+     , (9249,    77,  2.028)  /* Lightning Bolt III */
+     , (9249,  1110,      2)  /* Blade Protection Self II */
+     , (9249,  1308,      2)  /* Armor Self II */
      , (9249,  1440,  2.028)  /* Bafflement Other II */
      , (9249,  1464,  2.028)  /* Feeblemind Other II */
-     , (9249,  1810,  2.028)  /* Frost Streak III */
-     , (9249,  1816,  2.028)  /* Lightning Streak III */;
+     , (9249,  1339,  2.028)  /* Weakness Other II */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (9249,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -56,7 +56,7 @@ VALUES (12214,   1,   33557386) /* Setup */
      , (12214,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12214,   248,      2)  /* Invulnerability Self V */
-     , (12214,   276,      2)  /* Magic Resistance Self III */
+VALUES (12214,   276,      2)  /* Magic Resistance Self III */
+     , (12214,  1311,      2)  /* Armor Self V */
      , (12214,   447,      2)  /* Light Weapon Mastery Self V */
-     , (12214,  1311,      2)  /* Armor Self V */;
+     , (12214,   248,      2)  /* Invulnerability Self V */;

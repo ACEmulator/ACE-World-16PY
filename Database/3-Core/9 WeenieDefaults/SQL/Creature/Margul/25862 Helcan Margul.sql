@@ -110,17 +110,17 @@ VALUES (25862,  0,  2, 125, 0.75,  525,  551,  525,  499,  499,  630,  630,  499
      , (25862, 22, 64, 105,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25862,   573,   2.01)  /* Creature Enchantment Ineptitude Other V */
+VALUES (25862,  1608,  2.005)  /* Lure Blade III */
      , (25862,   627,   2.01)  /* Life Magic Ineptitude Other V */
      , (25862,   651,   2.01)  /* War Magic Ineptitude Other V */
-     , (25862,  1554,  2.005)  /* Blade Lure III */
-     , (25862,  1608,  2.005)  /* Lure Blade III */
-     , (25862,  1618,  2.005)  /* Blood Loather III */
-     , (25862,  1630,  2.005)  /* Leaden Weapon III */
-     , (25862,  2074,   2.03)  /* Gossamer Flesh */
      , (25862,  2140,   2.04)  /* Alset's Coil */
      , (25862,  2172,   2.02)  /* Astyrrian's Gift */
-     , (25862,  2737,   2.04)  /* Lightning Arc VI */;
+     , (25862,  1554,  2.005)  /* Blade Lure III */
+     , (25862,  1618,  2.005)  /* Blood Loather III */
+     , (25862,  2074,   2.03)  /* Gossamer Flesh */
+     , (25862,  1630,  2.005)  /* Leaden Weapon III */
+     , (25862,  2737,   2.04)  /* Lightning Arc VI */
+     , (25862,   573,   2.01)  /* Creature Enchantment Ineptitude Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (25862,  94) /* ATTACK_NOTIFICATION_EVENT */

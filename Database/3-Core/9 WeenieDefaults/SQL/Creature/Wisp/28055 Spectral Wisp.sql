@@ -102,17 +102,17 @@ VALUES (28055,  0, 64, 130,  0.5,  300,  300,  300,  390,  540,  540,  600,  240
      , (28055, 21, 64,  0,    0,  300,  300,  300,  390,  540,  540,  600,  240,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28055,    79,    2.1)  /* Lightning Bolt V */
-     , (28055,    80,    2.1)  /* Lightning Bolt VI */
-     , (28055,   223,   2.05)  /* Mana Depletion Other VI */
-     , (28055,  1160,    2.1)  /* Heal Self V */
-     , (28055,  1175,   2.05)  /* Harm Other V */
-     , (28055,  1199,   2.05)  /* Enfeeble Other V */
+VALUES (28055,  1175,   2.05)  /* Harm Other V */
      , (28055,  1223,   2.05)  /* Mana Drain Other V */
+     , (28055,  1160,    2.1)  /* Heal Self V */
+     , (28055,   223,   2.05)  /* Mana Depletion Other VI */
+     , (28055,  1372,   2.06)  /* Frailty Other VI */
+     , (28055,    79,    2.1)  /* Lightning Bolt V */
+     , (28055,    80,    2.1)  /* Lightning Bolt VI */
      , (28055,  1241,   2.06)  /* Drain Health Other V */
      , (28055,  1253,   2.06)  /* Drain Stamina Other V */
+     , (28055,  1199,   2.05)  /* Enfeeble Other V */
      , (28055,  1264,   2.06)  /* Drain Mana Other V */
-     , (28055,  1372,   2.06)  /* Frailty Other VI */
      , (28055,  1788,    2.1)  /* Eye of the Storm */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

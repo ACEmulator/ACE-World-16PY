@@ -53,6 +53,6 @@ VALUES (25522,   1,   33558495) /* Setup */
      , (25522,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25522,   211,      2)  /* Mana Renewal Other VI */
+VALUES (25522,  2012,      2)  /* Wizard's Intellect */
      , (25522,  1486,      2)  /* Impenetrability VI */
-     , (25522,  2012,      2)  /* Wizard's Intellect */;
+     , (25522,   211,      2)  /* Mana Renewal Other VI */;

@@ -107,14 +107,14 @@ VALUES (25854,  0,  1,  0,    0,  500,  500,  600,  500,  400,  500,  500,  425,
      , (25854, 22, 64, 100,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25854,    91,   2.02)  /* Force Bolt VI */
-     , (25854,  1156,   2.04)  /* Piercing Vulnerability Other VI */
-     , (25854,  1175,   2.02)  /* Harm Other V */
+VALUES (25854,  1156,   2.04)  /* Piercing Vulnerability Other VI */
+     , (25854,  2723,   2.02)  /* Force Arc VI */
      , (25854,  1241,   2.02)  /* Drain Health Other V */
      , (25854,  1490,   2.01)  /* Brittlemail IV */
-     , (25854,  1596,   2.01)  /* Turn Blade IV */
      , (25854,  1619,   2.01)  /* Blood Loather IV */
-     , (25854,  2723,   2.02)  /* Force Arc VI */;
+     , (25854,    91,   2.02)  /* Force Bolt VI */
+     , (25854,  1175,   2.02)  /* Harm Other V */
+     , (25854,  1596,   2.01)  /* Turn Blade IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (25854,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -126,28 +126,28 @@ VALUES (8591,  0,  4,  0,    0,  210,  168,  111,  143,   27,  105,  143,  153, 
      , (8591,  8,  4,  3, 0.75,  220,  176,  117,  150,   29,  110,  150,  161,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8591,    61,  2.028)  /* Acid Stream IV */
-     , (8591,    67,  2.028)  /* Shock Wave IV */
-     , (8591,    72,  2.028)  /* Frost Bolt IV */
-     , (8591,    78,  2.028)  /* Lightning Bolt IV */
-     , (8591,    83,  2.028)  /* Flame Bolt IV */
-     , (8591,    89,  2.028)  /* Force Bolt IV */
-     , (8591,    95,  2.028)  /* Whirling Blade IV */
-     , (8591,   128,  2.028)  /* Acid Volley IV */
+VALUES (8591,   144,  2.028)  /* Flame Volley IV */
+     , (8591,  1252,   2.03)  /* Drain Stamina Other IV */
      , (8591,   136,  2.028)  /* Frost Volley IV */
+     , (8591,    72,  2.028)  /* Frost Bolt IV */
+     , (8591,   128,  2.028)  /* Acid Volley IV */
+     , (8591,    83,  2.028)  /* Flame Bolt IV */
+     , (8591,    67,  2.028)  /* Shock Wave IV */
+     , (8591,  1418,  2.013)  /* Slowness Other IV */
      , (8591,   140,  2.028)  /* Lightning Volley IV */
-     , (8591,   144,  2.028)  /* Flame Volley IV */
+     , (8591,    78,  2.028)  /* Lightning Bolt IV */
+     , (8591,  1240,   2.03)  /* Drain Health Other IV */
+     , (8591,    89,  2.028)  /* Force Bolt IV */
+     , (8591,  1370,  2.013)  /* Frailty Other IV */
+     , (8591,    95,  2.028)  /* Whirling Blade IV */
+     , (8591,  1442,  2.013)  /* Bafflement Other IV */
      , (8591,   168,   2.03)  /* Regeneration Self IV */
      , (8591,   174,  2.013)  /* Fester Other IV */
-     , (8591,  1240,   2.03)  /* Drain Health Other IV */
-     , (8591,  1252,   2.03)  /* Drain Stamina Other IV */
      , (8591,  1263,   2.03)  /* Drain Mana Other IV */
-     , (8591,  1341,  2.013)  /* Weakness Other IV */
-     , (8591,  1370,  2.013)  /* Frailty Other IV */
      , (8591,  1394,  2.013)  /* Clumsiness Other IV */
-     , (8591,  1418,  2.013)  /* Slowness Other IV */
-     , (8591,  1442,  2.013)  /* Bafflement Other IV */
-     , (8591,  1466,  2.013)  /* Feeblemind Other IV */;
+     , (8591,    61,  2.028)  /* Acid Stream IV */
+     , (8591,  1466,  2.013)  /* Feeblemind Other IV */
+     , (8591,  1341,  2.013)  /* Weakness Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (8591,  94) /* ATTACK_NOTIFICATION_EVENT */

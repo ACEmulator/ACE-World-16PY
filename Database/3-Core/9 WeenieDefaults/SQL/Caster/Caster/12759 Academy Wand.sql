@@ -48,6 +48,6 @@ VALUES (12759,   1,   33558231) /* Setup */
      , (12759,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12759,   659,      2)  /* Mana Conversion Mastery Other I */
+VALUES (12759,  1451,      2)  /* Willpower Other I */
      , (12759,  1427,      2)  /* Focus Other I */
-     , (12759,  1451,      2)  /* Willpower Other I */;
+     , (12759,   659,      2)  /* Mana Conversion Mastery Other I */;

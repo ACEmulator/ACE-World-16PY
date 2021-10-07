@@ -112,20 +112,20 @@ VALUES (7983,  0,  4,  0,    0,  340,  204,  238,  320,  122,  122,  122,  122, 
      , (7983, 22, 32, 90,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7983,    63,   2.03)  /* Acid Stream VI */
-     , (7983,    80,   2.03)  /* Lightning Bolt VI */
+VALUES (7983,  1161,   2.01)  /* Heal Self VI */
+     , (7983,  1444,   2.02)  /* Bafflement Other VI */
+     , (7983,  1372,   2.02)  /* Frailty Other VI */
+     , (7983,  1420,   2.02)  /* Slowness Other VI */
      , (7983,   279,      2)  /* Magic Resistance Self VI */
+     , (7983,    80,   2.03)  /* Lightning Bolt VI */
      , (7983,  1114,      2)  /* Blade Protection Self VI */
-     , (7983,  1138,      2)  /* Piercing Protection Self VI */
-     , (7983,  1161,   2.01)  /* Heal Self VI */
      , (7983,  1242,   2.01)  /* Drain Health Other VI */
      , (7983,  1312,      2)  /* Armor Self VI */
-     , (7983,  1343,   2.02)  /* Weakness Other VI */
-     , (7983,  1372,   2.02)  /* Frailty Other VI */
+     , (7983,  1138,      2)  /* Piercing Protection Self VI */
      , (7983,  1396,   2.02)  /* Clumsiness Other VI */
-     , (7983,  1420,   2.02)  /* Slowness Other VI */
-     , (7983,  1444,   2.02)  /* Bafflement Other VI */
-     , (7983,  1468,   2.02)  /* Feeblemind Other VI */;
+     , (7983,  1468,   2.02)  /* Feeblemind Other VI */
+     , (7983,  1343,   2.02)  /* Weakness Other VI */
+     , (7983,    63,   2.03)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (7983,  94) /* ATTACK_NOTIFICATION_EVENT */

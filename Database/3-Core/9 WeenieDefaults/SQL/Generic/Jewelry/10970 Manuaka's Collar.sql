@@ -42,5 +42,5 @@ VALUES (10970,   1,   33554810) /* Setup */
      , (10970,  37,         36) /* ItemSkillLimit - Loyalty */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10970,   957,      2)  /* Fealty Other VI */
-     , (10970,  1408,      2)  /* Quickness Other VI */;
+VALUES (10970,  1408,      2)  /* Quickness Other VI */
+     , (10970,   957,      2)  /* Fealty Other VI */;

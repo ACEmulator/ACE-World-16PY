@@ -58,5 +58,5 @@ VALUES (27910,   1,   33556683) /* Setup */
      , (27910,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27910,  3094,      2)  /* Skin of the Fiazhat */
-     , (27910,  3310,      2)  /* Inferior Lance Aegis */;
+VALUES (27910,  3310,      2)  /* Inferior Lance Aegis */
+     , (27910,  3094,      2)  /* Skin of the Fiazhat */;

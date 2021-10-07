@@ -130,8 +130,8 @@ VALUES (183,  0,  4,  0,    0,   30,    9,    3,    7,    9,   21,    3,   18,  
      , (183,  8,  4, 12, 0.75,   30,    9,    3,    7,    9,   21,    3,   18,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (183,     2,  2.035)  /* Strength Self I */
-     , (183,  1397,  2.035)  /* Quickness Self I */
+VALUES (183,  1397,  2.035)  /* Quickness Self I */
+     , (183,     2,  2.035)  /* Strength Self I */
      , (183,  1415,   2.03)  /* Slowness Other I */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

@@ -108,14 +108,14 @@ VALUES (23549,  0,  4, 25, 0.75,  250,  250,  250,  250,  298, 25000,  695,  250
      , (23549, 17,  4, 25, 0.75,  250,  250,  250,  250,  298, 25000,  695,  250,    0, 2,    0,    0,    0,    0,    0,    0,  0.1,  0.1,    0,  0.1,  0.1,    0) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23549,  2121,  2.125)  /* Corrosive Flash */
+VALUES (23549,  2137,  2.125)  /* Sudden Frost */
      , (23549,  2129,  2.125)  /* Sizzling Fury */
-     , (23549,  2137,  2.125)  /* Sudden Frost */
-     , (23549,  2141,  2.125)  /* Lhen's Flare */
+     , (23549,  2121,  2.125)  /* Corrosive Flash */
      , (23549,  2717,  2.125)  /* Acid Arc VII */
      , (23549,  2731,  2.125)  /* Frost Arc VII */
-     , (23549,  2737,  2.125)  /* Lightning Arc VI */
-     , (23549,  2745,  2.125)  /* Flame Arc VII */;
+     , (23549,  2141,  2.125)  /* Lhen's Flare */
+     , (23549,  2745,  2.125)  /* Flame Arc VII */
+     , (23549,  2737,  2.125)  /* Lightning Arc VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (23549,  94) /* ATTACK_NOTIFICATION_EVENT */

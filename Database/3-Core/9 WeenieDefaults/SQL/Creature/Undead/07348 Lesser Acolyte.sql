@@ -152,30 +152,30 @@ VALUES (7348,  0,  4,  0,    0,   70,   56,   21,   39,   13,   35,   39,   47, 
      , (7348,  8,  4,  3, 0.75,   90,   72,   27,   50,   16,   45,   50,   60,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7348,    60,  2.029)  /* Acid Stream III */
-     , (7348,    61,  2.011)  /* Acid Stream IV */
+VALUES (7348,  1262,   2.02)  /* Drain Mana Other III */
+     , (7348,    82,  2.029)  /* Flame Bolt III */
      , (7348,    66,  2.029)  /* Shock Wave III */
+     , (7348,    83,  2.011)  /* Flame Bolt IV */
      , (7348,    67,  2.011)  /* Shock Wave IV */
      , (7348,    71,  2.029)  /* Frost Bolt III */
      , (7348,    72,  2.011)  /* Frost Bolt IV */
-     , (7348,    77,  2.029)  /* Lightning Bolt III */
+     , (7348,  1369,  2.009)  /* Frailty Other III */
      , (7348,    78,  2.011)  /* Lightning Bolt IV */
-     , (7348,    82,  2.029)  /* Flame Bolt III */
-     , (7348,    83,  2.011)  /* Flame Bolt IV */
+     , (7348,  1417,  2.009)  /* Slowness Other III */
+     , (7348,    77,  2.029)  /* Lightning Bolt III */
+     , (7348,  1239,   2.02)  /* Drain Health Other III */
      , (7348,    88,  2.029)  /* Force Bolt III */
      , (7348,    89,  2.011)  /* Force Bolt IV */
      , (7348,    94,  2.029)  /* Whirling Blade III */
      , (7348,    95,  2.011)  /* Whirling Blade IV */
-     , (7348,   173,  2.009)  /* Fester Other III */
-     , (7348,  1239,   2.02)  /* Drain Health Other III */
-     , (7348,  1251,   2.02)  /* Drain Stamina Other III */
-     , (7348,  1262,   2.02)  /* Drain Mana Other III */
-     , (7348,  1340,  2.009)  /* Weakness Other III */
-     , (7348,  1369,  2.009)  /* Frailty Other III */
-     , (7348,  1393,  2.009)  /* Clumsiness Other III */
-     , (7348,  1417,  2.009)  /* Slowness Other III */
      , (7348,  1441,  2.009)  /* Bafflement Other III */
-     , (7348,  1466,  2.009)  /* Feeblemind Other IV */;
+     , (7348,  1251,   2.02)  /* Drain Stamina Other III */
+     , (7348,   173,  2.009)  /* Fester Other III */
+     , (7348,  1393,  2.009)  /* Clumsiness Other III */
+     , (7348,    61,  2.011)  /* Acid Stream IV */
+     , (7348,  1466,  2.009)  /* Feeblemind Other IV */
+     , (7348,  1340,  2.009)  /* Weakness Other III */
+     , (7348,    60,  2.029)  /* Acid Stream III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (7348, 414) /* PLAYER_DEATH_EVENT */;

@@ -105,14 +105,14 @@ VALUES (14802,  0,  2, 200, 0.75,  150,  120,   88,  104,   88,   48,   88,   75
      , (14802, 21,  4,  0,    0,  150,  120,   88,  104,   88,   48,   88,   75,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (14802,    63,   2.04)  /* Acid Stream VI */
+VALUES (14802,    85,   2.04)  /* Flame Bolt VI */
      , (14802,    69,   2.04)  /* Shock Wave VI */
      , (14802,    74,   2.04)  /* Frost Bolt VI */
      , (14802,    80,   2.04)  /* Lightning Bolt VI */
-     , (14802,    85,   2.04)  /* Flame Bolt VI */
+     , (14802,  1176,   2.04)  /* Harm Other VI */
      , (14802,    91,   2.04)  /* Force Bolt VI */
      , (14802,    97,   2.04)  /* Whirling Blade VI */
-     , (14802,  1176,   2.04)  /* Harm Other VI */;
+     , (14802,    63,   2.04)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (14802,  94) /* ATTACK_NOTIFICATION_EVENT */

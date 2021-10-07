@@ -110,16 +110,16 @@ VALUES (21160,  0, 32,  0,    0,  160,  136,  136,  136,  136,  136, 16000,  160
      , (21160,  8, 32, 20, 0.75,  160,  136,  136,  136,  136,  136, 16000,  160,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21160,    60,  2.138)  /* Acid Stream III */
-     , (21160,   167,  2.008)  /* Regeneration Self III */
-     , (21160,   231,  2.017)  /* Vulnerability Other III */
-     , (21160,   276,  2.008)  /* Magic Resistance Self III */
-     , (21160,   523,  2.017)  /* Acid Vulnerability Other III */
-     , (21160,  1068,  2.008)  /* Lightning Protection Self III */
+VALUES (21160,   523,  2.017)  /* Acid Vulnerability Other III */
+     , (21160,  1792,  2.004)  /* Acid Streak III */
      , (21160,  1158,  2.013)  /* Heal Self III */
      , (21160,  1239,  2.008)  /* Drain Health Other III */
+     , (21160,   276,  2.008)  /* Magic Resistance Self III */
      , (21160,  1324,  2.017)  /* Imperil Other III */
-     , (21160,  1792,  2.004)  /* Acid Streak III */;
+     , (21160,   231,  2.017)  /* Vulnerability Other III */
+     , (21160,   167,  2.008)  /* Regeneration Self III */
+     , (21160,  1068,  2.008)  /* Lightning Protection Self III */
+     , (21160,    60,  2.138)  /* Acid Stream III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (21160,  94) /* ATTACK_NOTIFICATION_EVENT */

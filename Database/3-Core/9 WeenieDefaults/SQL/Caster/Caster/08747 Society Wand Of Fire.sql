@@ -42,5 +42,5 @@ VALUES (8747,   1,   33558231) /* Setup */
      , (8747,  28,         81) /* Spell - Flame Bolt II */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8747,   582,      2)  /* Item Enchantment Mastery Self II */
-     , (8747,   654,      2)  /* Mana Conversion Mastery Self II */;
+VALUES (8747,   654,      2)  /* Mana Conversion Mastery Self II */
+     , (8747,   582,      2)  /* Item Enchantment Mastery Self II */;

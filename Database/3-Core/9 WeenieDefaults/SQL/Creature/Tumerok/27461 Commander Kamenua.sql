@@ -148,36 +148,36 @@ VALUES (27461,  0,  4,  0,    0,  350,  420,  420,  420,  350,  420,  350,  420,
      , (27461,  8,  4, 55, 0.75,  350,  420,  420,  420,  350,  420,  350,  420,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27461,    63,  2.015)  /* Acid Stream VI */
-     , (27461,    69,  2.015)  /* Shock Wave VI */
-     , (27461,    74,  2.015)  /* Frost Bolt VI */
-     , (27461,    80,  2.015)  /* Lightning Bolt VI */
-     , (27461,    85,  2.015)  /* Flame Bolt VI */
-     , (27461,    91,  2.015)  /* Force Bolt VI */
-     , (27461,    97,  2.015)  /* Whirling Blade VI */
-     , (27461,   106,  2.015)  /* Shock Blast VI */
-     , (27461,   138,  2.015)  /* Frost Volley VI */
-     , (27461,   142,  2.015)  /* Lightning Volley VI */
-     , (27461,   146,  2.015)  /* Flame Volley VI */
-     , (27461,   154,  2.015)  /* Blade Volley VI */
-     , (27461,   233,  2.012)  /* Vulnerability Other V */
-     , (27461,   248,  2.011)  /* Invulnerability Self V */
-     , (27461,   260,  2.011)  /* Impregnability Self V */
-     , (27461,   266,  2.012)  /* Defenselessness Other V */
-     , (27461,   278,  2.011)  /* Magic Resistance Self V */
-     , (27461,   284,  2.012)  /* Magic Yield Other V */
-     , (27461,  1052,  2.012)  /* Bludgeoning Vulnerability Other V */
-     , (27461,  1131,  2.012)  /* Blade Vulnerability Other V */
-     , (27461,  1155,  2.012)  /* Piercing Vulnerability Other V */
-     , (27461,  1160,  2.009)  /* Heal Self V */
-     , (27461,  1175,  2.012)  /* Harm Other V */
-     , (27461,  1199,  2.012)  /* Enfeeble Other V */
+VALUES (27461,  1155,  2.012)  /* Piercing Vulnerability Other V */
      , (27461,  1223,  2.012)  /* Mana Drain Other V */
+     , (27461,  1175,  2.012)  /* Harm Other V */
+     , (27461,   260,  2.011)  /* Impregnability Self V */
+     , (27461,    69,  2.015)  /* Shock Wave VI */
+     , (27461,  1554,  2.005)  /* Blade Lure III */
+     , (27461,  1618,  2.005)  /* Blood Loather III */
+     , (27461,  1160,  2.009)  /* Heal Self V */
+     , (27461,   266,  2.012)  /* Defenselessness Other V */
+     , (27461,   138,  2.015)  /* Frost Volley VI */
+     , (27461,    74,  2.015)  /* Frost Bolt VI */
+     , (27461,   142,  2.015)  /* Lightning Volley VI */
+     , (27461,    80,  2.015)  /* Lightning Bolt VI */
+     , (27461,  1489,  2.005)  /* Brittlemail III */
+     , (27461,   146,  2.015)  /* Flame Volley VI */
+     , (27461,    85,  2.015)  /* Flame Bolt VI */
+     , (27461,   278,  2.011)  /* Magic Resistance Self V */
+     , (27461,   154,  2.015)  /* Blade Volley VI */
+     , (27461,    91,  2.015)  /* Force Bolt VI */
+     , (27461,  1052,  2.012)  /* Bludgeoning Vulnerability Other V */
+     , (27461,  1199,  2.012)  /* Enfeeble Other V */
+     , (27461,   284,  2.012)  /* Magic Yield Other V */
+     , (27461,    97,  2.015)  /* Whirling Blade VI */
+     , (27461,   233,  2.012)  /* Vulnerability Other V */
+     , (27461,   106,  2.015)  /* Shock Blast VI */
+     , (27461,  1131,  2.012)  /* Blade Vulnerability Other V */
+     , (27461,   248,  2.011)  /* Invulnerability Self V */
      , (27461,  1331,  2.011)  /* Strength Self V */
      , (27461,  1401,  2.011)  /* Quickness Self V */
-     , (27461,  1489,  2.005)  /* Brittlemail III */
-     , (27461,  1554,  2.005)  /* Blade Lure III */
-     , (27461,  1618,  2.005)  /* Blood Loather III */;
+     , (27461,    63,  2.015)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (27461,  94) /* ATTACK_NOTIFICATION_EVENT */

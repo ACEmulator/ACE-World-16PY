@@ -54,8 +54,8 @@ VALUES (10766,   1,   33554641) /* Setup */
      , (10766,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10766,   951,      2)  /* Fealty Self VI */
-     , (10766,  1329,      2)  /* Strength Self III */
+VALUES (10766,  1460,      2)  /* Feeblemind Self IV */
      , (10766,  1436,      2)  /* Bafflement Self IV */
-     , (10766,  1460,      2)  /* Feeblemind Self IV */
-     , (10766,  1484,      2)  /* Impenetrability IV */;
+     , (10766,  1484,      2)  /* Impenetrability IV */
+     , (10766,  1329,      2)  /* Strength Self III */
+     , (10766,   951,      2)  /* Fealty Self VI */;

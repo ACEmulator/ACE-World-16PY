@@ -123,15 +123,15 @@ VALUES (5933,  0,  4,  0,    0,  150,  165,  165,  135,  105,  225,  225,  225, 
      , (5933,  8,  4, 75, 0.75,  150,  165,  165,  135,  105,  225,  225,  225,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5933,    82,   2.15)  /* Flame Bolt III */
-     , (5933,   115,   2.15)  /* Flame Blast III */
+VALUES (5933,  1465,   2.02)  /* Feeblemind Other III */
+     , (5933,  1393,   2.02)  /* Clumsiness Other III */
+     , (5933,  1441,   2.02)  /* Bafflement Other III */
+     , (5933,  1369,   2.02)  /* Frailty Other III */
+     , (5933,  1417,   2.02)  /* Slowness Other III */
      , (5933,   143,   2.15)  /* Flame Volley III */
      , (5933,  1340,   2.02)  /* Weakness Other III */
-     , (5933,  1369,   2.02)  /* Frailty Other III */
-     , (5933,  1393,   2.02)  /* Clumsiness Other III */
-     , (5933,  1417,   2.02)  /* Slowness Other III */
-     , (5933,  1441,   2.02)  /* Bafflement Other III */
-     , (5933,  1465,   2.02)  /* Feeblemind Other III */;
+     , (5933,    82,   2.15)  /* Flame Bolt III */
+     , (5933,   115,   2.15)  /* Flame Blast III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (5933,  94) /* ATTACK_NOTIFICATION_EVENT */

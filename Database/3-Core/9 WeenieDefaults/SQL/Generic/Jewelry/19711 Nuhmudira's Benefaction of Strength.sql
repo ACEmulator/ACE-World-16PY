@@ -48,5 +48,5 @@ VALUES (19711,   1,   33554687) /* Setup */
      , (19711,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19711,  1334,      2)  /* Strength Other III */
-     , (19711,  2668,      2)  /* Nuhmudiras Benefaction */;
+VALUES (19711,  2668,      2)  /* Nuhmudiras Benefaction */
+     , (19711,  1334,      2)  /* Strength Other III */;

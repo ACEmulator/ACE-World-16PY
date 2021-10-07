@@ -51,8 +51,8 @@ VALUES (20150,   1,   33557784) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20150,   518,      2)  /* Acid Protection Self IV */
+     , (20150,  2680,      2)  /* Feeble Mana Conversion Prowess */
      , (20150,   608,      2)  /* Life Magic Mastery Self IV */
      , (20150,   656,      2)  /* Mana Conversion Mastery Self IV */
-     , (20150,  1424,      2)  /* Focus Self IV */
      , (20150,  1448,      2)  /* Willpower Self IV */
-     , (20150,  2680,      2)  /* Feeble Mana Conversion Prowess */;
+     , (20150,  1424,      2)  /* Focus Self IV */;

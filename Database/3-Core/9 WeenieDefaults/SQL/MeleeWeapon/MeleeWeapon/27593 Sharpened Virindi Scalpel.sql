@@ -57,5 +57,5 @@ VALUES (27593,   1,   33557231) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27593,   321,      2)  /* Finesse Weapon Mastery Other VI */
-     , (27593,  1384,      2)  /* Coordination Other VI */
-     , (27593,  1616,      2)  /* Aura of Blood Drinker Self VI */;
+     , (27593,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (27593,  1384,      2)  /* Coordination Other VI */;

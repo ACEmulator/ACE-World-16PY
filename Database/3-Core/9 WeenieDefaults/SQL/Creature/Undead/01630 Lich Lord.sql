@@ -141,28 +141,28 @@ VALUES (1630,  0,  4,  0,    0,  110,   88,   46,   68,   42,   55,   68,   77, 
      , (1630,  8,  4,  3, 0.75,  130,  104,   55,   81,   49,   65,   81,   91,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1630,    60,  2.013)  /* Acid Stream III */
-     , (1630,    66,  2.013)  /* Shock Wave III */
-     , (1630,    71,  2.013)  /* Frost Bolt III */
-     , (1630,    77,  2.013)  /* Lightning Bolt III */
+VALUES (1630,  1262,   2.02)  /* Drain Mana Other III */
      , (1630,    82,  2.013)  /* Flame Bolt III */
-     , (1630,    88,  2.013)  /* Force Bolt III */
-     , (1630,    94,  2.013)  /* Whirling Blade III */
-     , (1630,   127,  2.013)  /* Acid Volley III */
-     , (1630,   135,  2.013)  /* Frost Volley III */
-     , (1630,   139,  2.013)  /* Lightning Volley III */
+     , (1630,    66,  2.013)  /* Shock Wave III */
+     , (1630,  1340,  2.009)  /* Weakness Other III */
      , (1630,   143,  2.013)  /* Flame Volley III */
+     , (1630,   135,  2.013)  /* Frost Volley III */
+     , (1630,    71,  2.013)  /* Frost Bolt III */
+     , (1630,  1417,  2.009)  /* Slowness Other III */
+     , (1630,  1239,   2.02)  /* Drain Health Other III */
+     , (1630,   139,  2.013)  /* Lightning Volley III */
+     , (1630,    77,  2.013)  /* Lightning Bolt III */
+     , (1630,    88,  2.013)  /* Force Bolt III */
+     , (1630,  1369,  2.009)  /* Frailty Other III */
+     , (1630,    94,  2.013)  /* Whirling Blade III */
+     , (1630,  1441,  2.009)  /* Bafflement Other III */
+     , (1630,  1251,   2.02)  /* Drain Stamina Other III */
      , (1630,   167,   2.02)  /* Regeneration Self III */
      , (1630,   173,  2.009)  /* Fester Other III */
-     , (1630,  1239,   2.02)  /* Drain Health Other III */
-     , (1630,  1251,   2.02)  /* Drain Stamina Other III */
-     , (1630,  1262,   2.02)  /* Drain Mana Other III */
-     , (1630,  1340,  2.009)  /* Weakness Other III */
-     , (1630,  1369,  2.009)  /* Frailty Other III */
      , (1630,  1393,  2.009)  /* Clumsiness Other III */
-     , (1630,  1417,  2.009)  /* Slowness Other III */
-     , (1630,  1441,  2.009)  /* Bafflement Other III */
-     , (1630,  1465,  2.009)  /* Feeblemind Other III */;
+     , (1630,  1465,  2.009)  /* Feeblemind Other III */
+     , (1630,    60,  2.013)  /* Acid Stream III */
+     , (1630,   127,  2.013)  /* Acid Volley III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (1630,  94) /* ATTACK_NOTIFICATION_EVENT */

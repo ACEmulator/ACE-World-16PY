@@ -120,18 +120,18 @@ VALUES (8539,  0,  4,  0,    0,  280,  185,  157,  185,   67,  112,  185,  129, 
      , (8539,  8,  4, 45, 0.75,  180,  119,  101,  119,   43,   72,  119,   83,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8539,    63,  2.017)  /* Acid Stream VI */
+VALUES (8539,    85,  2.017)  /* Flame Bolt VI */
      , (8539,    69,  2.017)  /* Shock Wave VI */
+     , (8539,  1176,   2.02)  /* Harm Other VI */
+     , (8539,  1224,   2.02)  /* Mana Drain Other VI */
      , (8539,    74,  2.017)  /* Frost Bolt VI */
      , (8539,    80,  2.017)  /* Lightning Bolt VI */
-     , (8539,    85,  2.017)  /* Flame Bolt VI */
+     , (8539,  1242,  2.025)  /* Drain Health Other VI */
      , (8539,    91,  2.017)  /* Force Bolt VI */
      , (8539,    97,  2.017)  /* Whirling Blade VI */
-     , (8539,  1176,   2.02)  /* Harm Other VI */
      , (8539,  1200,   2.02)  /* Enfeeble Other VI */
-     , (8539,  1224,   2.02)  /* Mana Drain Other VI */
-     , (8539,  1242,  2.025)  /* Drain Health Other VI */
-     , (8539,  1265,  2.025)  /* Drain Mana Other VI */;
+     , (8539,  1265,  2.025)  /* Drain Mana Other VI */
+     , (8539,    63,  2.017)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (8539, 414) /* PLAYER_DEATH_EVENT */;

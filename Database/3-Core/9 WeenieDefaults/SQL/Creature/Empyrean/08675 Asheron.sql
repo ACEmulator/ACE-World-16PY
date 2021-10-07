@@ -131,35 +131,35 @@ VALUES (8675,  0,  4,  0,    0,  900,  810,  900,  990,  360,  360,  900,  540, 
      , (8675,  8,  4, 25, 0.75,  900,  810,  900,  990,  360,  360,  900,  540,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8675,    63,   2.04)  /* Acid Stream VI */
-     , (8675,    69,   2.04)  /* Shock Wave VI */
-     , (8675,    74,   2.04)  /* Frost Bolt VI */
-     , (8675,    80,   2.04)  /* Lightning Bolt VI */
+VALUES (8675,  1783,   2.04)  /* Searing Disc */
      , (8675,    85,   2.04)  /* Flame Bolt VI */
-     , (8675,    97,   2.04)  /* Whirling Blade VI */
-     , (8675,   170,      2)  /* Regeneration Self VI */
-     , (8675,   279,      2)  /* Magic Resistance Self VI */
-     , (8675,   520,      2)  /* Acid Protection Self VI */
-     , (8675,  1023,      2)  /* Bludgeoning Protection Self VI */
-     , (8675,  1035,      2)  /* Cold Protection Self VI */
-     , (8675,  1071,      2)  /* Lightning Protection Self VI */
-     , (8675,  1094,      2)  /* Fire Protection Self VI */
-     , (8675,  1114,      2)  /* Blade Protection Self VI */
-     , (8675,  1138,      2)  /* Piercing Protection Self VI */
-     , (8675,  1242,   2.04)  /* Drain Health Other VI */
+     , (8675,    69,   2.04)  /* Shock Wave VI */
      , (8675,  1254,   2.04)  /* Drain Stamina Other VI */
-     , (8675,  1265,  2.004)  /* Drain Mana Other VI */
+     , (8675,    74,   2.04)  /* Frost Bolt VI */
+     , (8675,   520,      2)  /* Acid Protection Self VI */
+     , (8675,  1788,   2.04)  /* Eye of the Storm */
+     , (8675,   170,      2)  /* Regeneration Self VI */
+     , (8675,  1094,      2)  /* Fire Protection Self VI */
+     , (8675,  1801,   2.04)  /* Flame Streak VI */
+     , (8675,    63,   2.04)  /* Acid Stream VI */
+     , (8675,  1035,      2)  /* Cold Protection Self VI */
+     , (8675,   279,      2)  /* Magic Resistance Self VI */
+     , (8675,    80,   2.04)  /* Lightning Bolt VI */
+     , (8675,  1242,   2.04)  /* Drain Health Other VI */
+     , (8675,  1114,      2)  /* Blade Protection Self VI */
+     , (8675,  1882,      2)  /* Nullify All Magic Self */
      , (8675,  1312,      2)  /* Armor Self VI */
+     , (8675,    97,   2.04)  /* Whirling Blade VI */
+     , (8675,  1071,      2)  /* Lightning Protection Self VI */
+     , (8675,  1841,   2.04)  /* Slithering Flames */
      , (8675,  1327,   2.04)  /* Imperil Other VI */
-     , (8675,  1783,   2.04)  /* Searing Disc */
+     , (8675,  1265,  2.004)  /* Drain Mana Other VI */
+     , (8675,  1138,      2)  /* Piercing Protection Self VI */
      , (8675,  1784,   2.04)  /* Horizon's Blades */
      , (8675,  1785,   2.04)  /* Cassius' Ring of Fire */
      , (8675,  1786,   2.04)  /* Nuhmudira's Spines */
-     , (8675,  1788,   2.04)  /* Eye of the Storm */
      , (8675,  1789,   2.04)  /* Tectonic Rifts */
-     , (8675,  1801,   2.04)  /* Flame Streak VI */
-     , (8675,  1841,   2.04)  /* Slithering Flames */
-     , (8675,  1882,      2)  /* Nullify All Magic Self */;
+     , (8675,  1023,      2)  /* Bludgeoning Protection Self VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (8675, 414) /* PLAYER_DEATH_EVENT */;

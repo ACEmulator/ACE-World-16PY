@@ -108,18 +108,18 @@ VALUES (21169,  0, 64,  0,    0,  140,  102,  102,  102,  109,   84,  140, 14000
      , (21169,  8, 64, 25, 0.75,  140,  102,  102,  102,  109,   84,  140, 14000,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21169,    77,   2.11)  /* Lightning Bolt III */
-     , (21169,    78,  2.005)  /* Lightning Bolt IV */
+VALUES (21169,  1239,  2.006)  /* Drain Health Other III */
+     , (21169,  1159,   2.01)  /* Heal Self IV */
+     , (21169,   517,  2.006)  /* Acid Protection Self III */
+     , (21169,   275,  2.006)  /* Magic Resistance Self II */
      , (21169,   140,  2.005)  /* Lightning Volley IV */
+     , (21169,    77,   2.11)  /* Lightning Bolt III */
+     , (21169,    78,  2.005)  /* Lightning Bolt IV */
+     , (21169,  1309,  2.006)  /* Armor Self III */
      , (21169,   167,  2.006)  /* Regeneration Self III */
      , (21169,   231,  2.013)  /* Vulnerability Other III */
-     , (21169,   275,  2.006)  /* Magic Resistance Self II */
-     , (21169,   517,  2.006)  /* Acid Protection Self III */
-     , (21169,  1086,  2.013)  /* Lightning Vulnerability Other III */
-     , (21169,  1159,   2.01)  /* Heal Self IV */
-     , (21169,  1239,  2.006)  /* Drain Health Other III */
-     , (21169,  1309,  2.006)  /* Armor Self III */
-     , (21169,  1324,  2.013)  /* Imperil Other III */;
+     , (21169,  1324,  2.013)  /* Imperil Other III */
+     , (21169,  1086,  2.013)  /* Lightning Vulnerability Other III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (21169,  94) /* ATTACK_NOTIFICATION_EVENT */

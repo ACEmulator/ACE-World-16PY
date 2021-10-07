@@ -48,5 +48,5 @@ VALUES (19708,   1,   33554687) /* Setup */
      , (19708,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19708,  1453,      2)  /* Willpower Other III */
-     , (19708,  2668,      2)  /* Nuhmudiras Benefaction */;
+VALUES (19708,  2668,      2)  /* Nuhmudiras Benefaction */
+     , (19708,  1453,      2)  /* Willpower Other III */;

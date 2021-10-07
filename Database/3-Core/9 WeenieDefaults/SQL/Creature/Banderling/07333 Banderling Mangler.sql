@@ -124,11 +124,11 @@ VALUES (7333,  0,  4,  0,    0,  350,  161,  109,  182,  161,  245,  109,  210, 
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7333,    72,   2.03)  /* Frost Bolt IV */
-     , (7333,  1069,      2)  /* Lightning Protection Self IV */
      , (7333,  1092,      2)  /* Fire Protection Self IV */
-     , (7333,  1106,   2.12)  /* Fire Vulnerability Other IV */
      , (7333,  1159,      2)  /* Heal Self IV */
+     , (7333,  1106,   2.12)  /* Fire Vulnerability Other IV */
      , (7333,  1240,      2)  /* Drain Health Other IV */
+     , (7333,  1069,      2)  /* Lightning Protection Self IV */
      , (7333,  1310,      2)  /* Armor Self IV */
      , (7333,  1325,   2.12)  /* Imperil Other IV */;
 

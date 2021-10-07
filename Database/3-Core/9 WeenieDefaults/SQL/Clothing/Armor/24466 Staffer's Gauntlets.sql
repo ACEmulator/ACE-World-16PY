@@ -58,5 +58,5 @@ VALUES (24466,   1,   33554648) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24466,  1384,      2)  /* Coordination Other VI */
-     , (24466,  1485,      2)  /* Impenetrability V */
-     , (24466,  2693,      2)  /* Moderate Light Weapon Aptitude */;
+     , (24466,  2693,      2)  /* Moderate Light Weapon Aptitude */
+     , (24466,  1485,      2)  /* Impenetrability V */;

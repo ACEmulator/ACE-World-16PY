@@ -108,23 +108,23 @@ VALUES (11623,  0,  1,  0,    0, 6000, 6000, 6000, 6000, 4320, 6000, 6000, 4320,
      , (11623, 17,  1,  0,    0, 6000, 6000, 6000, 6000, 4320, 6000, 6000, 4320,    0, 3,    0,    0,  0.1,    0,    0,  0.1,    0, 0.13, 0.45,    0, 0.13, 0.45) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11623,    84,  2.055)  /* Flame Bolt V */
-     , (11623,    96,  2.055)  /* Whirling Blade V */
-     , (11623,   279,      2)  /* Magic Resistance Self VI */
-     , (11623,   520,      2)  /* Acid Protection Self VI */
-     , (11623,  1023,      2)  /* Bludgeoning Protection Self VI */
+VALUES (11623,   520,      2)  /* Acid Protection Self VI */
      , (11623,  1094,      2)  /* Fire Protection Self VI */
-     , (11623,  1108,   2.04)  /* Fire Vulnerability Other VI */
-     , (11623,  1114,      2)  /* Blade Protection Self VI */
-     , (11623,  1132,   2.04)  /* Blade Vulnerability Other VI */
-     , (11623,  1138,      2)  /* Piercing Protection Self VI */
      , (11623,  1161,      2)  /* Heal Self VI */
+     , (11623,   279,      2)  /* Magic Resistance Self VI */
+     , (11623,  1108,   2.04)  /* Fire Vulnerability Other VI */
+     , (11623,    84,  2.055)  /* Flame Bolt V */
+     , (11623,  1114,      2)  /* Blade Protection Self VI */
      , (11623,  1242,      2)  /* Drain Health Other VI */
-     , (11623,  1312,      2)  /* Armor Self VI */
-     , (11623,  1327,   2.04)  /* Imperil Other VI */
-     , (11623,  1343,   2.04)  /* Weakness Other VI */
      , (11623,  1372,   2.04)  /* Frailty Other VI */
-     , (11623,  1444,   2.04)  /* Bafflement Other VI */;
+     , (11623,  1312,      2)  /* Armor Self VI */
+     , (11623,    96,  2.055)  /* Whirling Blade V */
+     , (11623,  1444,   2.04)  /* Bafflement Other VI */
+     , (11623,  1132,   2.04)  /* Blade Vulnerability Other VI */
+     , (11623,  1327,   2.04)  /* Imperil Other VI */
+     , (11623,  1138,      2)  /* Piercing Protection Self VI */
+     , (11623,  1343,   2.04)  /* Weakness Other VI */
+     , (11623,  1023,      2)  /* Bludgeoning Protection Self VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (11623,  94) /* ATTACK_NOTIFICATION_EVENT */

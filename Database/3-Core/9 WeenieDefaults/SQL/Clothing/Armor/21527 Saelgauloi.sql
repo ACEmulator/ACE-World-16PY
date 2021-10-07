@@ -55,10 +55,10 @@ VALUES (21527,   1,   33554642) /* Setup */
      , (21527,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21527,   254,      2)  /* Impregnability Other V */
-     , (21527,  1317,      2)  /* Armor Other VI */
-     , (21527,  1485,      2)  /* Impenetrability V */
-     , (21527,  1496,      2)  /* Acid Bane IV */
-     , (21527,  1560,      2)  /* Blade Bane IV */
+VALUES (21527,  1317,      2)  /* Armor Other VI */
      , (21527,  1572,      2)  /* Piercing Bane IV */
-     , (21527,  2578,      2)  /* Minor Armor */;
+     , (21527,  1485,      2)  /* Impenetrability V */
+     , (21527,  2578,      2)  /* Minor Armor */
+     , (21527,   254,      2)  /* Impregnability Other V */
+     , (21527,  1560,      2)  /* Blade Bane IV */
+     , (21527,  1496,      2)  /* Acid Bane IV */;

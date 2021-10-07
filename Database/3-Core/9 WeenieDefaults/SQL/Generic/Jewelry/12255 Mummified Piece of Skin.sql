@@ -42,6 +42,6 @@ VALUES (12255,   1,   33554691) /* Setup */
      , (12255,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12255,   246,      2)  /* Invulnerability Self III */
+VALUES (12255,  1092,      2)  /* Fire Protection Self IV */
      , (12255,   276,      2)  /* Magic Resistance Self III */
-     , (12255,  1092,      2)  /* Fire Protection Self IV */;
+     , (12255,   246,      2)  /* Invulnerability Self III */;

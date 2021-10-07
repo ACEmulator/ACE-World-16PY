@@ -111,9 +111,13 @@ VALUES (23035,  0,  4,  0,    0,  150,  212,  264,  180,   95,  263,  101,  263,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23035,    67,  2.016)  /* Shock Wave IV */
+     , (23035,  1240,   2.01)  /* Drain Health Other IV */
      , (23035,    68,  2.009)  /* Shock Wave V */
+     , (23035,  1419,  2.007)  /* Slowness Other V */
+     , (23035,  1252,   2.01)  /* Drain Stamina Other IV */
      , (23035,    72,  2.016)  /* Frost Bolt IV */
      , (23035,    73,  2.009)  /* Frost Bolt V */
+     , (23035,   141,  2.009)  /* Lightning Volley V */
      , (23035,    78,  2.016)  /* Lightning Bolt IV */
      , (23035,    79,  2.009)  /* Lightning Bolt V */
      , (23035,    89,  2.016)  /* Force Bolt IV */
@@ -121,14 +125,10 @@ VALUES (23035,    67,  2.016)  /* Shock Wave IV */
      , (23035,    95,  2.016)  /* Whirling Blade IV */
      , (23035,    96,  2.009)  /* Whirling Blade V */
      , (23035,   105,  2.009)  /* Shock Blast V */
-     , (23035,   141,  2.009)  /* Lightning Volley V */
      , (23035,   169,   2.01)  /* Regeneration Self V */
      , (23035,   233,  2.007)  /* Vulnerability Other V */
-     , (23035,  1240,   2.01)  /* Drain Health Other IV */
-     , (23035,  1252,   2.01)  /* Drain Stamina Other IV */
      , (23035,  1263,   2.01)  /* Drain Mana Other IV */
-     , (23035,  1395,  2.007)  /* Clumsiness Other V */
-     , (23035,  1419,  2.007)  /* Slowness Other V */;
+     , (23035,  1395,  2.007)  /* Clumsiness Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (23035,  94) /* ATTACK_NOTIFICATION_EVENT */

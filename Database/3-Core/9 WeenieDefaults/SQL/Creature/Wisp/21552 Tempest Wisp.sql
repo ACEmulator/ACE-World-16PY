@@ -102,15 +102,15 @@ VALUES (21552,  0, 64, 50,  0.5,  250,  250,  210,  210,  210,  210,  210,  500,
      , (21552, 21, 64,  0,    0,  250,  250,  210,  210,  210,  210,  210,  500,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21552,    79,   2.15)  /* Lightning Bolt V */
-     , (21552,   222,   2.17)  /* Mana Depletion Other V */
-     , (21552,  1160,    2.1)  /* Heal Self V */
+VALUES (21552,  1199,   2.17)  /* Enfeeble Other V */
      , (21552,  1175,   2.17)  /* Harm Other V */
-     , (21552,  1199,   2.17)  /* Enfeeble Other V */
      , (21552,  1223,   2.17)  /* Mana Drain Other V */
-     , (21552,  1241,   2.67)  /* Drain Health Other V */
-     , (21552,  1253,   2.67)  /* Drain Stamina Other V */
      , (21552,  1264,   2.67)  /* Drain Mana Other V */
+     , (21552,  1160,    2.1)  /* Heal Self V */
+     , (21552,    79,   2.15)  /* Lightning Bolt V */
+     , (21552,  1241,   2.67)  /* Drain Health Other V */
+     , (21552,   222,   2.17)  /* Mana Depletion Other V */
+     , (21552,  1253,   2.67)  /* Drain Stamina Other V */
      , (21552,  1395,   2.17)  /* Clumsiness Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

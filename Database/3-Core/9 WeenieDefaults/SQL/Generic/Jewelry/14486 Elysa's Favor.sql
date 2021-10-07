@@ -45,5 +45,5 @@ VALUES (14486,   1,   33554691) /* Setup */
      , (14486,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (14486,  1997,      2)  /* Life Giver */
-     , (14486,  2578,      2)  /* Minor Armor */;
+VALUES (14486,  2578,      2)  /* Minor Armor */
+     , (14486,  1997,      2)  /* Life Giver */;

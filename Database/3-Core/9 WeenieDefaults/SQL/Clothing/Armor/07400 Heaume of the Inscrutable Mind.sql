@@ -55,6 +55,6 @@ VALUES (7400,   1,   33556856) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7400,   282,      2)  /* Magic Yield Other III */
+     , (7400,  1430,      2)  /* Focus Other IV */
      , (7400,   688,      2)  /* Arcane Enlightenment Other V */
-     , (7400,  1340,      2)  /* Weakness Other III */
-     , (7400,  1430,      2)  /* Focus Other IV */;
+     , (7400,  1340,      2)  /* Weakness Other III */;

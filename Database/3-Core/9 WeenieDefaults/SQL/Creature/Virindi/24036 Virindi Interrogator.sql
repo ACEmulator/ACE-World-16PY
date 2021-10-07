@@ -109,26 +109,26 @@ VALUES (24036,  0,  1,  0,    0,  170,  170,  170,  170,  122,  170,  170,  122,
      , (24036, 17,  1,  0,    0,  150,  150,  150,  150,  108,  150,  150,  108,    0, 3,    0,    0,  0.1,    0,    0,  0.1,    0, 0.13, 0.45,    0, 0.13, 0.45) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24036,    67,  2.105)  /* Shock Wave IV */
+VALUES (24036,  1159,      2)  /* Heal Self IV */
      , (24036,    83,  2.105)  /* Flame Bolt IV */
-     , (24036,   277,      2)  /* Magic Resistance Self IV */
+     , (24036,    67,  2.105)  /* Shock Wave IV */
+     , (24036,  1092,      2)  /* Fire Protection Self IV */
+     , (24036,  1240,      2)  /* Drain Health Other IV */
+     , (24036,  1112,      2)  /* Blade Protection Self IV */
      , (24036,   283,   2.04)  /* Magic Yield Other IV */
      , (24036,   518,      2)  /* Acid Protection Self IV */
-     , (24036,  1021,      2)  /* Bludgeoning Protection Self IV */
+     , (24036,  1442,   2.04)  /* Bafflement Other IV */
      , (24036,  1033,      2)  /* Cold Protection Self IV */
-     , (24036,  1051,   2.04)  /* Bludgeoning Vulnerability Other IV */
-     , (24036,  1069,      2)  /* Lightning Protection Self IV */
-     , (24036,  1092,      2)  /* Fire Protection Self IV */
      , (24036,  1106,   2.04)  /* Fire Vulnerability Other IV */
-     , (24036,  1112,      2)  /* Blade Protection Self IV */
-     , (24036,  1136,      2)  /* Piercing Protection Self IV */
-     , (24036,  1159,      2)  /* Heal Self IV */
-     , (24036,  1240,      2)  /* Drain Health Other IV */
+     , (24036,   277,      2)  /* Magic Resistance Self IV */
+     , (24036,  1051,   2.04)  /* Bludgeoning Vulnerability Other IV */
      , (24036,  1310,      2)  /* Armor Self IV */
      , (24036,  1325,   2.04)  /* Imperil Other IV */
-     , (24036,  1341,   2.04)  /* Weakness Other IV */
-     , (24036,  1442,   2.04)  /* Bafflement Other IV */
-     , (24036,  1466,   2.04)  /* Feeblemind Other IV */;
+     , (24036,  1069,      2)  /* Lightning Protection Self IV */
+     , (24036,  1021,      2)  /* Bludgeoning Protection Self IV */
+     , (24036,  1136,      2)  /* Piercing Protection Self IV */
+     , (24036,  1466,   2.04)  /* Feeblemind Other IV */
+     , (24036,  1341,   2.04)  /* Weakness Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (24036,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -58,7 +58,7 @@ VALUES (20040,   1,   33557802) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20040,  1069,      2)  /* Lightning Protection Self IV */
-     , (20040,  1399,      2)  /* Quickness Self III */
      , (20040,  1603,      2)  /* Aura of Defender Self IV */
      , (20040,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (20040,  1399,      2)  /* Quickness Self III */
      , (20040,  2684,      2)  /* Feeble Missile Weapon Aptitude */;

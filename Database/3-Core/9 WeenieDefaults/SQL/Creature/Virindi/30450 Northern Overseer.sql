@@ -109,25 +109,25 @@ VALUES (30450,  0,  1,  0,    0,  220,  220,  220,  220,  158,  220,  220,  158,
      , (30450, 17,  1,  0,    0,  220,  220,  220,  220,  158,  220,  220,  158,    0, 3,    0,    0,  0.1,    0,    0,  0.1,    0, 0.13, 0.45,    0, 0.13, 0.45) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30450,    84,   2.05)  /* Flame Bolt V */
-     , (30450,    85,   2.05)  /* Flame Bolt VI */
-     , (30450,    96,   2.05)  /* Whirling Blade V */
-     , (30450,   145,   2.05)  /* Flame Volley V */
-     , (30450,   153,   2.05)  /* Blade Volley V */
-     , (30450,   278,   2.05)  /* Magic Resistance Self V */
+VALUES (30450,   145,   2.05)  /* Flame Volley V */
+     , (30450,  1342,   2.05)  /* Weakness Other V */
      , (30450,   519,   2.05)  /* Acid Protection Self V */
-     , (30450,  1022,   2.05)  /* Bludgeoning Protection Self V */
      , (30450,  1093,   2.05)  /* Fire Protection Self V */
      , (30450,  1107,   2.05)  /* Fire Vulnerability Other V */
+     , (30450,    84,   2.05)  /* Flame Bolt V */
      , (30450,  1113,   2.05)  /* Blade Protection Self V */
-     , (30450,  1131,   2.05)  /* Blade Vulnerability Other V */
-     , (30450,  1137,   2.05)  /* Piercing Protection Self V */
      , (30450,  1241,   2.05)  /* Drain Health Other V */
-     , (30450,  1311,   2.05)  /* Armor Self V */
-     , (30450,  1326,   2.05)  /* Imperil Other V */
-     , (30450,  1342,   2.05)  /* Weakness Other V */
+     , (30450,   278,   2.05)  /* Magic Resistance Self V */
+     , (30450,    85,   2.05)  /* Flame Bolt VI */
+     , (30450,   153,   2.05)  /* Blade Volley V */
+     , (30450,    96,   2.05)  /* Whirling Blade V */
      , (30450,  1371,   2.05)  /* Frailty Other V */
-     , (30450,  1443,   2.05)  /* Bafflement Other V */;
+     , (30450,  1311,   2.05)  /* Armor Self V */
+     , (30450,  1443,   2.05)  /* Bafflement Other V */
+     , (30450,  1131,   2.05)  /* Blade Vulnerability Other V */
+     , (30450,  1326,   2.05)  /* Imperil Other V */
+     , (30450,  1137,   2.05)  /* Piercing Protection Self V */
+     , (30450,  1022,   2.05)  /* Bludgeoning Protection Self V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (30450,  94) /* ATTACK_NOTIFICATION_EVENT */

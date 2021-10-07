@@ -43,5 +43,5 @@ VALUES (31193,   1,   33554704) /* Setup */
      , (31193,  27, 1073742049) /* UseUserAnimation - UseMagicWand */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31193,  1477,      2)  /* Aura of Hermetic Link Self III */
-     , (31193,  1602,      2)  /* Aura of Defender Self III */;
+VALUES (31193,  1602,      2)  /* Aura of Defender Self III */
+     , (31193,  1477,      2)  /* Aura of Hermetic Link Self III */;

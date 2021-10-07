@@ -108,10 +108,10 @@ VALUES (21210,  0,  8,  3,  0.5,   20,   20,   20,   20,   16,   16,   16,    4,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21210,  2122,   2.23)  /* Disintegration */
-     , (21210,  2128,   2.23)  /* Ilservian's Flame */
+     , (21210,  2701,   2.08)  /* Elemental Fury */
      , (21210,  2136,   2.23)  /* Icy Torment */
-     , (21210,  2140,   2.23)  /* Alset's Coil */
-     , (21210,  2701,   2.08)  /* Elemental Fury */;
+     , (21210,  2128,   2.23)  /* Ilservian's Flame */
+     , (21210,  2140,   2.23)  /* Alset's Coil */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (21210,  94) /* ATTACK_NOTIFICATION_EVENT */

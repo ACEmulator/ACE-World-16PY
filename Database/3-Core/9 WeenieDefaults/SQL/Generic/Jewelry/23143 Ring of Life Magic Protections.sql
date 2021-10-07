@@ -41,14 +41,14 @@ VALUES (23143,   1,   33554691) /* Setup */
      , (23143,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23143,  2052,      2)  /* Executor's Boon */
-     , (23143,  2148,      2)  /* Caustic Boon */
-     , (23143,  2150,      2)  /* Boon of the Blade Turner */
-     , (23143,  2152,      2)  /* Boon of the Mace Turner */
-     , (23143,  2155,      2)  /* Icy Blessing */
-     , (23143,  2157,      2)  /* Fiery Blessing */
-     , (23143,  2159,      2)  /* Storm's Blessing */
-     , (23143,  2160,      2)  /* Boon of the Arrow Turner */
+VALUES (23143,  2148,      2)  /* Caustic Boon */
+     , (23143,  2052,      2)  /* Executor's Boon */
      , (23143,  2183,      2)  /* Battlemage's Blessing */
      , (23143,  2185,      2)  /* Robustify */
-     , (23143,  2187,      2)  /* Unflinching Persistence */;
+     , (23143,  2155,      2)  /* Icy Blessing */
+     , (23143,  2187,      2)  /* Unflinching Persistence */
+     , (23143,  2150,      2)  /* Boon of the Blade Turner */
+     , (23143,  2152,      2)  /* Boon of the Mace Turner */
+     , (23143,  2157,      2)  /* Fiery Blessing */
+     , (23143,  2159,      2)  /* Storm's Blessing */
+     , (23143,  2160,      2)  /* Boon of the Arrow Turner */;

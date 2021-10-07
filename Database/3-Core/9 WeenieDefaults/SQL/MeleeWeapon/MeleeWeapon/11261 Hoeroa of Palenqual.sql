@@ -55,6 +55,6 @@ VALUES (11261,   1,   33557232) /* Setup */
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11261,   193,      2)  /* Rejuvenation Self VI */
      , (11261,   399,      2)  /* Light Weapon Mastery Self VI */
+     , (11261,  2429,      2)  /* Timaru's Shelter */
      , (11261,  1592,      2)  /* Aura of Heart Seeker Self VI */
-     , (11261,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (11261,  2429,      2)  /* Timaru's Shelter */;
+     , (11261,  1616,      2)  /* Aura of Blood Drinker Self VI */;

@@ -127,9 +127,9 @@ VALUES (7122,  0,  4,  0,    0,   90,   43,   32,   45,   22,   77,   29,   44, 
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7122,  1241,   2.08)  /* Drain Health Other V */
-     , (7122,  1342,  2.067)  /* Weakness Other V */
      , (7122,  1395,  2.067)  /* Clumsiness Other V */
-     , (7122,  1443,  2.067)  /* Bafflement Other V */;
+     , (7122,  1443,  2.067)  /* Bafflement Other V */
+     , (7122,  1342,  2.067)  /* Weakness Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (7122,  94) /* ATTACK_NOTIFICATION_EVENT */

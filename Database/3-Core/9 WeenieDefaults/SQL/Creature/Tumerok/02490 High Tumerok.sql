@@ -127,29 +127,29 @@ VALUES (2490,  0,  4,  0,    0,  220,  220,  220,  220,  220,  220,  220,  220, 
      , (2490,  8,  4, 20, 0.75,  100,  100,  100,  100,  100,  100,  100,  100,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2490,    62,  2.014)  /* Acid Stream V */
-     , (2490,    68,  2.014)  /* Shock Wave V */
-     , (2490,    73,  2.014)  /* Frost Bolt V */
-     , (2490,    79,  2.014)  /* Lightning Bolt V */
-     , (2490,    84,  2.014)  /* Flame Bolt V */
-     , (2490,    90,  2.014)  /* Force Bolt V */
-     , (2490,    96,  2.014)  /* Whirling Blade V */
-     , (2490,   137,  2.004)  /* Frost Volley V */
-     , (2490,   141,  2.004)  /* Lightning Volley V */
-     , (2490,   145,  2.004)  /* Flame Volley V */
-     , (2490,   153,  2.004)  /* Blade Volley V */
-     , (2490,   232,  2.007)  /* Vulnerability Other IV */
-     , (2490,   247,  2.004)  /* Invulnerability Self IV */
+VALUES (2490,    68,  2.014)  /* Shock Wave V */
      , (2490,   259,  2.004)  /* Impregnability Self IV */
      , (2490,   265,  2.007)  /* Defenselessness Other IV */
-     , (2490,   277,  2.004)  /* Magic Resistance Self IV */
-     , (2490,   283,  2.007)  /* Magic Yield Other IV */
-     , (2490,  1159,   2.02)  /* Heal Self IV */
-     , (2490,  1174,  2.007)  /* Harm Other IV */
-     , (2490,  1198,  2.007)  /* Enfeeble Other IV */
      , (2490,  1222,  2.007)  /* Mana Drain Other IV */
+     , (2490,  1159,   2.02)  /* Heal Self IV */
+     , (2490,   137,  2.004)  /* Frost Volley V */
+     , (2490,    73,  2.014)  /* Frost Bolt V */
+     , (2490,   141,  2.004)  /* Lightning Volley V */
+     , (2490,    79,  2.014)  /* Lightning Bolt V */
+     , (2490,   145,  2.004)  /* Flame Volley V */
+     , (2490,    84,  2.014)  /* Flame Bolt V */
+     , (2490,   277,  2.004)  /* Magic Resistance Self IV */
+     , (2490,  1174,  2.007)  /* Harm Other IV */
+     , (2490,   153,  2.004)  /* Blade Volley V */
+     , (2490,    90,  2.014)  /* Force Bolt V */
+     , (2490,   283,  2.007)  /* Magic Yield Other IV */
+     , (2490,    96,  2.014)  /* Whirling Blade V */
+     , (2490,   232,  2.007)  /* Vulnerability Other IV */
+     , (2490,  1198,  2.007)  /* Enfeeble Other IV */
      , (2490,  1330,  2.004)  /* Strength Self IV */
-     , (2490,  1400,  2.004)  /* Quickness Self IV */;
+     , (2490,   247,  2.004)  /* Invulnerability Self IV */
+     , (2490,  1400,  2.004)  /* Quickness Self IV */
+     , (2490,    62,  2.014)  /* Acid Stream V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (2490,  94) /* ATTACK_NOTIFICATION_EVENT */

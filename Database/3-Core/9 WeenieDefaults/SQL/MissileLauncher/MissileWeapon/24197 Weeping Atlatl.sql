@@ -61,8 +61,8 @@ VALUES (24197,   1,   33558290) /* Setup */
      , (24197,  36,  234881044) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24197,  2695,      2)  /* Moderate Missile Weapon Aptitude */
+VALUES (24197,  2968,      2)  /* Vision of the Hunter */
+     , (24197,  2695,      2)  /* Moderate Missile Weapon Aptitude */
      , (24197,  2964,      2)  /* Aura of Hunter's Mark */
      , (24197,  2966,      2)  /* Aura of Murderous Thirst */
-     , (24197,  2967,      2)  /* Aura of The Speedy Hunter */
-     , (24197,  2968,      2)  /* Vision of the Hunter */;
+     , (24197,  2967,      2)  /* Aura of The Speedy Hunter */;

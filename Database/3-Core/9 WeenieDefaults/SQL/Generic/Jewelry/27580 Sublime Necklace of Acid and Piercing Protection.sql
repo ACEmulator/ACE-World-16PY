@@ -47,6 +47,6 @@ VALUES (27580,   1,   33554689) /* Setup */
      , (27580,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27580,   243,      2)  /* Invulnerability Other V */
-     , (27580,   514,      2)  /* Acid Protection Other VI */
+VALUES (27580,   514,      2)  /* Acid Protection Other VI */
+     , (27580,   243,      2)  /* Invulnerability Other V */
      , (27580,  1144,      2)  /* Piercing Protection Other VI */;

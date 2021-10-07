@@ -52,6 +52,6 @@ VALUES (28161,   1,   33554809) /* Setup */
      , (28161,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28161,  1041,      2)  /* Cold Protection Other VI */
-     , (28161,  1997,      2)  /* Life Giver */
-     , (28161,  2619,      2)  /* Minor Frost Ward */;
+VALUES (28161,  1997,      2)  /* Life Giver */
+     , (28161,  2619,      2)  /* Minor Frost Ward */
+     , (28161,  1041,      2)  /* Cold Protection Other VI */;

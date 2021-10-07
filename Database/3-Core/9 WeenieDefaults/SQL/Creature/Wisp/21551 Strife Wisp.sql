@@ -102,16 +102,16 @@ VALUES (21551,  0,  8, 50,  0.5,   50,   50,   42,   42,   42,  100,   42,   42,
      , (21551, 21, 16,  0,    0,   50,   50,   42,   42,   42,  100,   42,   42,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21551,    83,   2.15)  /* Flame Bolt IV */
-     , (21551,   221,   2.17)  /* Mana Depletion Other IV */
-     , (21551,  1159,    2.1)  /* Heal Self IV */
+VALUES (21551,  1198,   2.17)  /* Enfeeble Other IV */
+     , (21551,  1341,   2.17)  /* Weakness Other IV */
      , (21551,  1174,   2.17)  /* Harm Other IV */
-     , (21551,  1198,   2.17)  /* Enfeeble Other IV */
      , (21551,  1222,   2.17)  /* Mana Drain Other IV */
-     , (21551,  1240,   2.67)  /* Drain Health Other IV */
-     , (21551,  1252,   2.67)  /* Drain Stamina Other IV */
      , (21551,  1263,   2.67)  /* Drain Mana Other IV */
-     , (21551,  1341,   2.17)  /* Weakness Other IV */;
+     , (21551,  1159,    2.1)  /* Heal Self IV */
+     , (21551,    83,   2.15)  /* Flame Bolt IV */
+     , (21551,  1240,   2.67)  /* Drain Health Other IV */
+     , (21551,   221,   2.17)  /* Mana Depletion Other IV */
+     , (21551,  1252,   2.67)  /* Drain Stamina Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (21551,  94) /* ATTACK_NOTIFICATION_EVENT */

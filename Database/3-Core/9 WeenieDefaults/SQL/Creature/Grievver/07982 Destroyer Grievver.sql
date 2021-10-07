@@ -112,20 +112,20 @@ VALUES (7982,  0,  4,  0,    0,  320,  192,  224,  298,  112,  112,  112,  112, 
      , (7982, 22, 64, 80,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7982,    62,   2.03)  /* Acid Stream V */
-     , (7982,    79,   2.03)  /* Lightning Bolt V */
-     , (7982,   278,      2)  /* Magic Resistance Self V */
-     , (7982,  1113,      2)  /* Blade Protection Self V */
-     , (7982,  1137,      2)  /* Piercing Protection Self V */
+VALUES (7982,  1311,      2)  /* Armor Self V */
      , (7982,  1160,   2.01)  /* Heal Self V */
-     , (7982,  1241,   2.01)  /* Drain Health Other V */
-     , (7982,  1311,      2)  /* Armor Self V */
-     , (7982,  1342,   2.02)  /* Weakness Other V */
-     , (7982,  1371,   2.02)  /* Frailty Other V */
-     , (7982,  1395,   2.02)  /* Clumsiness Other V */
-     , (7982,  1419,   2.02)  /* Slowness Other V */
      , (7982,  1443,   2.02)  /* Bafflement Other V */
-     , (7982,  1467,   2.02)  /* Feeblemind Other V */;
+     , (7982,  1371,   2.02)  /* Frailty Other V */
+     , (7982,  1419,   2.02)  /* Slowness Other V */
+     , (7982,    79,   2.03)  /* Lightning Bolt V */
+     , (7982,  1113,      2)  /* Blade Protection Self V */
+     , (7982,  1241,   2.01)  /* Drain Health Other V */
+     , (7982,   278,      2)  /* Magic Resistance Self V */
+     , (7982,  1137,      2)  /* Piercing Protection Self V */
+     , (7982,  1395,   2.02)  /* Clumsiness Other V */
+     , (7982,  1467,   2.02)  /* Feeblemind Other V */
+     , (7982,  1342,   2.02)  /* Weakness Other V */
+     , (7982,    62,   2.03)  /* Acid Stream V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (7982,  94) /* ATTACK_NOTIFICATION_EVENT */

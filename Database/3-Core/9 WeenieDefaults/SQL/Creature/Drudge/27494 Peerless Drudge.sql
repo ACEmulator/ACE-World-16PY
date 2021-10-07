@@ -119,15 +119,15 @@ VALUES (27494,  0,  4,  0,    0,  330,  330,  330,  330,  330,  330,  330,  330,
      , (27494,  8,  4, 150, 0.75,  330,  330,  330,  330,  330,  330,  330,  330,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27494,    80,  2.075)  /* Lightning Bolt VI */
+VALUES (27494,  2088,   2.03)  /* Senescence */
+     , (27494,    80,  2.075)  /* Lightning Bolt VI */
      , (27494,  2056,   2.03)  /* Ataxia */
+     , (27494,  2764,   2.05)  /* Martyr's Hecatomb V */
+     , (27494,  2328,  2.008)  /* Vitality Siphon */
      , (27494,  2073,  2.008)  /* Adja's Intervention */
      , (27494,  2074,   2.03)  /* Gossamer Flesh */
-     , (27494,  2084,   2.03)  /* Belly of Lead */
-     , (27494,  2088,   2.03)  /* Senescence */
      , (27494,  2172,   2.03)  /* Astyrrian's Gift */
-     , (27494,  2328,  2.008)  /* Vitality Siphon */
-     , (27494,  2764,   2.05)  /* Martyr's Hecatomb V */;
+     , (27494,  2084,   2.03)  /* Belly of Lead */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (27494,  94) /* ATTACK_NOTIFICATION_EVENT */

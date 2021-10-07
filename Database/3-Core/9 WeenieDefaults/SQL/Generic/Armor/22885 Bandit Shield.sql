@@ -53,7 +53,7 @@ VALUES (22885,   1,   33554786) /* Setup */
      , (22885,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22885,   854,      2)  /* Deception Mastery Self V */
+VALUES (22885,  1093,      2)  /* Fire Protection Self V */
+     , (22885,  1485,      2)  /* Impenetrability V */
      , (22885,   926,      2)  /* Lockpick Mastery Self V */
-     , (22885,  1093,      2)  /* Fire Protection Self V */
-     , (22885,  1485,      2)  /* Impenetrability V */;
+     , (22885,   854,      2)  /* Deception Mastery Self V */;

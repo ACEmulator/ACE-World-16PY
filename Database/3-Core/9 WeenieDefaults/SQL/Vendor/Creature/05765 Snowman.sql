@@ -122,18 +122,18 @@ VALUES (5765,  0,  4,  0,    0,  130,   92,   65,   92,   13,   39,   92,   92, 
      , (5765,  8,  4, 45, 0.75,  150,  107,   75,  107,   15,   45,  107,  107,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5765,    67,   2.15)  /* Shock Wave IV */
-     , (5765,    68,  2.025)  /* Shock Wave V */
-     , (5765,    72,   2.15)  /* Frost Bolt IV */
-     , (5765,    73,  2.025)  /* Frost Bolt V */
-     , (5765,   167,   2.02)  /* Regeneration Self III */
-     , (5765,   232,  2.017)  /* Vulnerability Other IV */
-     , (5765,   265,  2.017)  /* Defenselessness Other IV */
+VALUES (5765,  1063,  2.017)  /* Cold Vulnerability Other IV */
      , (5765,   276,   2.02)  /* Magic Resistance Self III */
-     , (5765,  1063,  2.017)  /* Cold Vulnerability Other IV */
+     , (5765,    67,   2.15)  /* Shock Wave IV */
+     , (5765,    72,   2.15)  /* Frost Bolt IV */
+     , (5765,   232,  2.017)  /* Vulnerability Other IV */
      , (5765,  1092,   2.02)  /* Fire Protection Self IV */
      , (5765,  1240,   2.02)  /* Drain Health Other IV */
-     , (5765,  1309,   2.02)  /* Armor Self III */;
+     , (5765,    68,  2.025)  /* Shock Wave V */
+     , (5765,  1309,   2.02)  /* Armor Self III */
+     , (5765,   265,  2.017)  /* Defenselessness Other IV */
+     , (5765,    73,  2.025)  /* Frost Bolt V */
+     , (5765,   167,   2.02)  /* Regeneration Self III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (5765, 414) /* PLAYER_DEATH_EVENT */;

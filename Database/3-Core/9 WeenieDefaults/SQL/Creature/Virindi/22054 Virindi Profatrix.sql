@@ -114,22 +114,22 @@ VALUES (22054,  0,  1,  0,    0, 3000, 3000, 3000, 3000, 3000, 3000, 3000, 3000,
      , (22054, 17,  1,  0,    0, 3000, 3000, 3000, 3000, 3000, 3000, 3000, 3000,    0, 3,    0,    0,  0.1,    0,    0,  0.1,    0, 0.13, 0.45,    0, 0.13, 0.45) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22054,   278,      2)  /* Magic Resistance Self V */
-     , (22054,  1022,      2)  /* Bludgeoning Protection Self V */
-     , (22054,  1034,      2)  /* Cold Protection Self V */
-     , (22054,  1070,      2)  /* Lightning Protection Self V */
-     , (22054,  1107,   2.04)  /* Fire Vulnerability Other V */
-     , (22054,  1113,      2)  /* Blade Protection Self V */
-     , (22054,  1131,   2.04)  /* Blade Vulnerability Other V */
-     , (22054,  1137,      2)  /* Piercing Protection Self V */
+VALUES (22054,  1113,      2)  /* Blade Protection Self V */
      , (22054,  1241,      2)  /* Drain Health Other V */
+     , (22054,   278,      2)  /* Magic Resistance Self V */
+     , (22054,  1800,  2.055)  /* Flame Streak V */
+     , (22054,  1034,      2)  /* Cold Protection Self V */
+     , (22054,  2762,  2.001)  /* Martyr's Hecatomb III */
+     , (22054,  1830,  2.055)  /* Whirling Blade Streak V */
+     , (22054,  1107,   2.04)  /* Fire Vulnerability Other V */
      , (22054,  1311,      2)  /* Armor Self V */
+     , (22054,  1131,   2.04)  /* Blade Vulnerability Other V */
      , (22054,  1326,   2.04)  /* Imperil Other V */
+     , (22054,  1070,      2)  /* Lightning Protection Self V */
+     , (22054,  1137,      2)  /* Piercing Protection Self V */
      , (22054,  1784,   2.04)  /* Horizon's Blades */
      , (22054,  1785,   2.04)  /* Cassius' Ring of Fire */
-     , (22054,  1800,  2.055)  /* Flame Streak V */
-     , (22054,  1830,  2.055)  /* Whirling Blade Streak V */
-     , (22054,  2762,  2.001)  /* Martyr's Hecatomb III */;
+     , (22054,  1022,      2)  /* Bludgeoning Protection Self V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (22054,  94) /* ATTACK_NOTIFICATION_EVENT */

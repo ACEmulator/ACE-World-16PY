@@ -110,17 +110,17 @@ VALUES (14519,  0,  8,  0,    0,  220,  187,  187,  187,  220,  220,  187,  187,
      , (14519,  8,  8, 30, 0.75,  220,  187,  187,  187,  220,  220,  187,  187,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (14519,    72,  2.138)  /* Frost Bolt IV */
+VALUES (14519,  1237,  2.008)  /* Drain Health Other I */
      , (14519,   169,  2.008)  /* Regeneration Self V */
-     , (14519,   232,  2.017)  /* Vulnerability Other IV */
-     , (14519,   276,  2.008)  /* Magic Resistance Self III */
-     , (14519,  1064,  2.017)  /* Cold Vulnerability Other V */
      , (14519,  1093,  2.008)  /* Fire Protection Self V */
+     , (14519,   276,  2.008)  /* Magic Resistance Self III */
      , (14519,  1159,  2.013)  /* Heal Self IV */
-     , (14519,  1237,  2.008)  /* Drain Health Other I */
+     , (14519,   232,  2.017)  /* Vulnerability Other IV */
+     , (14519,    72,  2.138)  /* Frost Bolt IV */
+     , (14519,  1811,  2.004)  /* Frost Streak IV */
+     , (14519,  1064,  2.017)  /* Cold Vulnerability Other V */
      , (14519,  1311,  2.008)  /* Armor Self V */
-     , (14519,  1325,  2.017)  /* Imperil Other IV */
-     , (14519,  1811,  2.004)  /* Frost Streak IV */;
+     , (14519,  1325,  2.017)  /* Imperil Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (14519,  94) /* ATTACK_NOTIFICATION_EVENT */

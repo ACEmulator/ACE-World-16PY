@@ -110,20 +110,20 @@ VALUES (6806,  0,  4, 50, 0.75,  150,  150,  150,  150,  179,  180,  417, 15000,
      , (6806, 17,  4,  1, 0.75,  150,  150,  150,  150,  179,  180,  417, 15000,    0, 2,    0,    0,    0,    0,    0,    0,  0.1,  0.1,    0,  0.1,  0.1,    0) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6806,    78,  2.115)  /* Lightning Bolt IV */
-     , (6806,    79,  2.031)  /* Lightning Bolt V */
-     , (6806,   168,  2.032)  /* Regeneration Self IV */
-     , (6806,   277,  2.032)  /* Magic Resistance Self IV */
-     , (6806,   283,  2.042)  /* Magic Yield Other IV */
-     , (6806,   608,  2.032)  /* Life Magic Mastery Self IV */
-     , (6806,   626,  2.042)  /* Life Magic Ineptitude Other IV */
-     , (6806,   656,  2.032)  /* Mana Conversion Mastery Self IV */
-     , (6806,  1087,  2.042)  /* Lightning Vulnerability Other IV */
-     , (6806,  1158,   2.04)  /* Heal Self III */
-     , (6806,  1174,  2.042)  /* Harm Other IV */
-     , (6806,  1240,  2.042)  /* Drain Health Other IV */
+VALUES (6806,  1174,  2.042)  /* Harm Other IV */
      , (6806,  1309,   2.04)  /* Armor Self III */
-     , (6806,  1419,  2.042)  /* Slowness Other V */;
+     , (6806,   656,  2.032)  /* Mana Conversion Mastery Self IV */
+     , (6806,   608,  2.032)  /* Life Magic Mastery Self IV */
+     , (6806,  1158,   2.04)  /* Heal Self III */
+     , (6806,  1419,  2.042)  /* Slowness Other V */
+     , (6806,   277,  2.032)  /* Magic Resistance Self IV */
+     , (6806,    78,  2.115)  /* Lightning Bolt IV */
+     , (6806,    79,  2.031)  /* Lightning Bolt V */
+     , (6806,   283,  2.042)  /* Magic Yield Other IV */
+     , (6806,  1240,  2.042)  /* Drain Health Other IV */
+     , (6806,   626,  2.042)  /* Life Magic Ineptitude Other IV */
+     , (6806,   168,  2.032)  /* Regeneration Self IV */
+     , (6806,  1087,  2.042)  /* Lightning Vulnerability Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (6806,  94) /* ATTACK_NOTIFICATION_EVENT */

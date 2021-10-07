@@ -139,26 +139,26 @@ VALUES (8120,  0,  4,  0,    0,  180,  180,  234,  234,  270,  180,  252,  252, 
      , (8120,  8,  4, 60, 0.75,  180,  180,  234,  234,  270,  180,  252,  252,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8120,    72,  2.036)  /* Frost Bolt IV */
+VALUES (8120,  1668,  2.009)  /* Stamina to Health Self V */
+     , (8120,   144,  2.005)  /* Flame Volley IV */
+     , (8120,   136,  2.005)  /* Frost Volley IV */
+     , (8120,    72,  2.036)  /* Frost Bolt IV */
+     , (8120,    89,  2.036)  /* Force Bolt IV */
+     , (8120,  1294,  2.009)  /* Mana to Health Self V */
+     , (8120,   266,   2.01)  /* Defenselessness Other V */
+     , (8120,  1264,  2.009)  /* Drain Mana Other V */
+     , (8120,   140,  2.005)  /* Lightning Volley IV */
+     , (8120,  1680,  2.009)  /* Stamina to Mana Self V */
      , (8120,    78,  2.036)  /* Lightning Bolt IV */
      , (8120,    83,  2.036)  /* Flame Bolt IV */
-     , (8120,    89,  2.036)  /* Force Bolt IV */
-     , (8120,    95,  2.036)  /* Whirling Blade IV */
-     , (8120,   136,  2.005)  /* Frost Volley IV */
-     , (8120,   140,  2.005)  /* Lightning Volley IV */
-     , (8120,   144,  2.005)  /* Flame Volley IV */
      , (8120,   148,  2.005)  /* Force Volley IV */
-     , (8120,   152,  2.005)  /* Blade Volley IV */
-     , (8120,   233,   2.01)  /* Vulnerability Other V */
-     , (8120,   266,   2.01)  /* Defenselessness Other V */
-     , (8120,   284,   2.01)  /* Magic Yield Other V */
      , (8120,  1240,  2.009)  /* Drain Health Other IV */
+     , (8120,   152,  2.005)  /* Blade Volley IV */
+     , (8120,   284,   2.01)  /* Magic Yield Other V */
+     , (8120,    95,  2.036)  /* Whirling Blade IV */
      , (8120,  1253,  2.009)  /* Drain Stamina Other V */
-     , (8120,  1264,  2.009)  /* Drain Mana Other V */
-     , (8120,  1294,  2.009)  /* Mana to Health Self V */
-     , (8120,  1668,  2.009)  /* Stamina to Health Self V */
-     , (8120,  1680,  2.009)  /* Stamina to Mana Self V */
-     , (8120,  1703,  2.009)  /* Health to Mana Self V */;
+     , (8120,  1703,  2.009)  /* Health to Mana Self V */
+     , (8120,   233,   2.01)  /* Vulnerability Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (8120,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -56,6 +56,6 @@ VALUES (25812,   1,   33554654) /* Setup */
      , (25812,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25812,  1384,      2)  /* Coordination Other VI */
-     , (25812,  1485,      2)  /* Impenetrability V */
-     , (25812,  2579,      2)  /* Minor Coordination */;
+VALUES (25812,  1485,      2)  /* Impenetrability V */
+     , (25812,  2579,      2)  /* Minor Coordination */
+     , (25812,  1384,      2)  /* Coordination Other VI */;

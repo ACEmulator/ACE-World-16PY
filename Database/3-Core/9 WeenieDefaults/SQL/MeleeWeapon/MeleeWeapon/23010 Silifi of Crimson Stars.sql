@@ -60,5 +60,5 @@ VALUES (23010,   1,   33556553) /* Setup */
      , (23010,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23010,  1077,      2)  /* Lightning Protection Other VI */
-     , (23010,  1605,      2)  /* Aura of Defender Self VI */;
+VALUES (23010,  1605,      2)  /* Aura of Defender Self VI */
+     , (23010,  1077,      2)  /* Lightning Protection Other VI */;

@@ -103,18 +103,18 @@ VALUES (9099,  0, 16, 40,  0.5,  120,  120,  120,    0,    0, 1200,   74,    0, 
      , (9099, 21, 16,  0,    0,  110,  110,  110,    0,    0, 1100,   68,    0,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9099,    84,    2.3)  /* Flame Bolt V */
-     , (9099,   175,  2.067)  /* Fester Other V */
+VALUES (9099,  1222,  2.067)  /* Mana Drain Other IV */
      , (9099,   198,  2.067)  /* Exhaustion Other V */
+     , (9099,    84,    2.3)  /* Flame Bolt V */
+     , (9099,  1801,    2.3)  /* Flame Streak VI */
      , (9099,  1160,      2)  /* Heal Self V */
-     , (9099,  1175,  2.067)  /* Harm Other V */
+     , (9099,  1263,      2)  /* Drain Mana Other IV */
      , (9099,  1199,  2.067)  /* Enfeeble Other V */
-     , (9099,  1222,  2.067)  /* Mana Drain Other IV */
+     , (9099,  1175,  2.067)  /* Harm Other V */
      , (9099,  1241,      2)  /* Drain Health Other V */
      , (9099,  1253,      2)  /* Drain Stamina Other V */
-     , (9099,  1263,      2)  /* Drain Mana Other IV */
-     , (9099,  1785,  2.067)  /* Cassius' Ring of Fire */
-     , (9099,  1801,    2.3)  /* Flame Streak VI */;
+     , (9099,   175,  2.067)  /* Fester Other V */
+     , (9099,  1785,  2.067)  /* Cassius' Ring of Fire */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (9099,  94) /* ATTACK_NOTIFICATION_EVENT */

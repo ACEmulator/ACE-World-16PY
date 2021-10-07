@@ -116,20 +116,20 @@ VALUES (14520,  0,  4,  0,    0,  150,  120,  120,   98,  113,  113,   98,  120,
      , (14520,  8,  4, 100, 0.75,  150,  120,  120,   98,  113,  113,   98,  120,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (14520,    79,   2.08)  /* Lightning Bolt V */
-     , (14520,   278,      2)  /* Magic Resistance Self V */
-     , (14520,   519,      2)  /* Acid Protection Self V */
-     , (14520,   573,  2.048)  /* Creature Enchantment Ineptitude Other V */
-     , (14520,   627,  2.048)  /* Life Magic Ineptitude Other V */
-     , (14520,   651,  2.048)  /* War Magic Ineptitude Other V */
-     , (14520,  1022,      2)  /* Bludgeoning Protection Self V */
-     , (14520,  1052,  2.048)  /* Bludgeoning Vulnerability Other V */
+VALUES (14520,  1160,      2)  /* Heal Self V */
      , (14520,  1088,  2.048)  /* Lightning Vulnerability Other V */
-     , (14520,  1160,      2)  /* Heal Self V */
-     , (14520,  1241,      2)  /* Drain Health Other V */
+     , (14520,   519,      2)  /* Acid Protection Self V */
      , (14520,  1253,      2)  /* Drain Stamina Other V */
+     , (14520,  1241,      2)  /* Drain Health Other V */
+     , (14520,   278,      2)  /* Magic Resistance Self V */
+     , (14520,   651,  2.048)  /* War Magic Ineptitude Other V */
+     , (14520,    79,   2.08)  /* Lightning Bolt V */
+     , (14520,  1052,  2.048)  /* Bludgeoning Vulnerability Other V */
+     , (14520,  1326,  2.048)  /* Imperil Other V */
      , (14520,  1264,      2)  /* Drain Mana Other V */
-     , (14520,  1326,  2.048)  /* Imperil Other V */;
+     , (14520,   627,  2.048)  /* Life Magic Ineptitude Other V */
+     , (14520,   573,  2.048)  /* Creature Enchantment Ineptitude Other V */
+     , (14520,  1022,      2)  /* Bludgeoning Protection Self V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (14520,  94) /* ATTACK_NOTIFICATION_EVENT */

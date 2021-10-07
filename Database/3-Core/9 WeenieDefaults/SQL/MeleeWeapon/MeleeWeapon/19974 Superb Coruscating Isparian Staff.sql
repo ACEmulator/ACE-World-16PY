@@ -61,7 +61,7 @@ VALUES (19974,   1,   33556372) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19974,  1071,      2)  /* Lightning Protection Self VI */
-     , (19974,  1401,      2)  /* Quickness Self V */
+     , (19974,  2565,      2)  /* Minor Light Weapon Aptitude */
      , (19974,  1591,      2)  /* Aura of Heart Seeker Self V */
      , (19974,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (19974,  2565,      2)  /* Minor Light Weapon Aptitude */;
+     , (19974,  1401,      2)  /* Quickness Self V */;

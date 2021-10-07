@@ -41,8 +41,8 @@ VALUES (25479,   1,   33554690) /* Setup */
      , (25479,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25479,  1405,      2)  /* Quickness Other III */
-     , (25479,  2583,      2)  /* Minor Strength */;
+VALUES (25479,  2583,      2)  /* Minor Strength */
+     , (25479,  1405,      2)  /* Quickness Other III */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (25479, 25 /* Wield */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

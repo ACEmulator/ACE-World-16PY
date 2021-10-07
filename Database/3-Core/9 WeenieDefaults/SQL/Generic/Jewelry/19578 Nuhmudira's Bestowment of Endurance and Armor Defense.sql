@@ -50,6 +50,6 @@ VALUES (19578,   1,   33554687) /* Setup */
      , (19578,  36,  234881046) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19578,  1316,      2)  /* Armor Other V */
-     , (19578,  1359,      2)  /* Endurance Other V */
+VALUES (19578,  1359,      2)  /* Endurance Other V */
+     , (19578,  1316,      2)  /* Armor Other V */
      , (19578,  2669,      2)  /* Nuhmudiras Bestowment */;

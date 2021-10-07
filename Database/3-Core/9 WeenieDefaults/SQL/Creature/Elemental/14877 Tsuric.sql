@@ -110,21 +110,21 @@ VALUES (14877,  0, 32,  0,    0,  240,  240,  240,  240,  240,  240,  264,  264,
      , (14877,  8, 64, 45, 0.75,  240,  240,  240,  240,  240,  240,  264,  264,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (14877,    63,  2.004)  /* Acid Stream VI */
-     , (14877,    80,  2.004)  /* Lightning Bolt VI */
-     , (14877,   176,  2.017)  /* Fester Other VI */
-     , (14877,   234,  2.017)  /* Vulnerability Other VI */
-     , (14877,   267,  2.017)  /* Defenselessness Other VI */
-     , (14877,   279,  2.008)  /* Magic Resistance Self VI */
-     , (14877,   526,  2.017)  /* Acid Vulnerability Other VI */
-     , (14877,  1035,  2.008)  /* Cold Protection Self VI */
+VALUES (14877,  1161,  2.013)  /* Heal Self VI */
      , (14877,  1089,  2.017)  /* Lightning Vulnerability Other VI */
+     , (14877,  1788,  2.004)  /* Eye of the Storm */
+     , (14877,   234,  2.017)  /* Vulnerability Other VI */
      , (14877,  1094,  2.008)  /* Fire Protection Self VI */
-     , (14877,  1161,  2.013)  /* Heal Self VI */
+     , (14877,   526,  2.017)  /* Acid Vulnerability Other VI */
+     , (14877,   267,  2.017)  /* Defenselessness Other VI */
+     , (14877,    63,  2.004)  /* Acid Stream VI */
+     , (14877,  1035,  2.008)  /* Cold Protection Self VI */
+     , (14877,   279,  2.008)  /* Magic Resistance Self VI */
+     , (14877,    80,  2.004)  /* Lightning Bolt VI */
      , (14877,  1242,  2.008)  /* Drain Health Other VI */
      , (14877,  1327,  2.017)  /* Imperil Other VI */
-     , (14877,  1783,  2.004)  /* Searing Disc */
-     , (14877,  1788,  2.004)  /* Eye of the Storm */;
+     , (14877,   176,  2.017)  /* Fester Other VI */
+     , (14877,  1783,  2.004)  /* Searing Disc */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (14877,  94) /* ATTACK_NOTIFICATION_EVENT */

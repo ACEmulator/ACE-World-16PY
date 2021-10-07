@@ -116,23 +116,23 @@ VALUES (2186,  0,  4,  0,    0,   50,   12,   17,   17,   33,   20,   14,   35, 
      , (2186,  8,  4,  6, 0.75,   40,    9,   13,   13,   26,   16,   11,   28,    0, 30,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2186,    60,  2.069)  /* Acid Stream III */
-     , (2186,    65,  2.069)  /* Shock Wave II */
-     , (2186,    71,  2.069)  /* Frost Bolt III */
-     , (2186,    76,  2.069)  /* Lightning Bolt II */
+VALUES (2186,   257,  2.027)  /* Impregnability Self II */
      , (2186,    81,  2.069)  /* Flame Bolt II */
+     , (2186,  1157,   2.08)  /* Heal Self II */
+     , (2186,   282,  2.003)  /* Magic Yield Other III */
+     , (2186,    65,  2.069)  /* Shock Wave II */
+     , (2186,   263,  2.003)  /* Defenselessness Other II */
+     , (2186,   264,  2.013)  /* Defenselessness Other III */
+     , (2186,    71,  2.069)  /* Frost Bolt III */
+     , (2186,   275,  2.027)  /* Magic Resistance Self II */
+     , (2186,    76,  2.069)  /* Lightning Bolt II */
      , (2186,    87,  2.069)  /* Force Bolt II */
      , (2186,    93,  2.069)  /* Whirling Blade II */
+     , (2186,   288,  2.013)  /* Magic Yield Self III */
      , (2186,   230,  2.003)  /* Vulnerability Other II */
      , (2186,   231,  2.013)  /* Vulnerability Other III */
      , (2186,   245,  2.027)  /* Invulnerability Self II */
-     , (2186,   257,  2.027)  /* Impregnability Self II */
-     , (2186,   263,  2.003)  /* Defenselessness Other II */
-     , (2186,   264,  2.013)  /* Defenselessness Other III */
-     , (2186,   275,  2.027)  /* Magic Resistance Self II */
-     , (2186,   282,  2.003)  /* Magic Yield Other III */
-     , (2186,   288,  2.013)  /* Magic Yield Self III */
-     , (2186,  1157,   2.08)  /* Heal Self II */;
+     , (2186,    60,  2.069)  /* Acid Stream III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (2186,  94) /* ATTACK_NOTIFICATION_EVENT */

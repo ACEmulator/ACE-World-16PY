@@ -46,6 +46,6 @@ VALUES (27898,   1,   33558802) /* Setup */
      , (27898,  37,         33) /* ItemSkillLimit - LifeMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27898,   208,      2)  /* Mana Renewal Other III */
-     , (27898,   565,      2)  /* Creature Enchantment Mastery Other III */
-     , (27898,  1477,      2)  /* Aura of Hermetic Link Self III */;
+VALUES (27898,  1477,      2)  /* Aura of Hermetic Link Self III */
+     , (27898,   208,      2)  /* Mana Renewal Other III */
+     , (27898,   565,      2)  /* Creature Enchantment Mastery Other III */;

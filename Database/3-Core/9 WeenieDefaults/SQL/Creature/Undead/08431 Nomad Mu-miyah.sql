@@ -130,26 +130,26 @@ VALUES (8431,  0,  4,  0,    0,  240,  158,  134,  158,   58,   96,  158,  110, 
      , (8431,  8,  4, 45, 0.75,  240,  158,  134,  158,   58,   96,  158,  110,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8431,    62,  2.007)  /* Acid Stream V */
-     , (8431,    68,  2.007)  /* Shock Wave V */
+VALUES (8431,   145,   2.01)  /* Flame Volley V */
+     , (8431,  1253,  2.025)  /* Drain Stamina Other V */
+     , (8431,   137,   2.01)  /* Frost Volley V */
      , (8431,    73,  2.007)  /* Frost Bolt V */
+     , (8431,   129,   2.01)  /* Acid Volley V */
+     , (8431,    68,  2.007)  /* Shock Wave V */
+     , (8431,   198,   2.02)  /* Exhaustion Other V */
+     , (8431,  1223,   2.02)  /* Mana Drain Other V */
+     , (8431,   141,   2.01)  /* Lightning Volley V */
      , (8431,    79,   2.01)  /* Lightning Bolt V */
      , (8431,    84,  2.007)  /* Flame Bolt V */
+     , (8431,  1175,   2.02)  /* Harm Other V */
+     , (8431,  1241,  2.025)  /* Drain Health Other V */
      , (8431,    90,  2.007)  /* Force Bolt V */
      , (8431,    96,  2.007)  /* Whirling Blade V */
-     , (8431,   129,   2.01)  /* Acid Volley V */
-     , (8431,   137,   2.01)  /* Frost Volley V */
-     , (8431,   141,   2.01)  /* Lightning Volley V */
-     , (8431,   145,   2.01)  /* Flame Volley V */
      , (8431,   169,  2.025)  /* Regeneration Self V */
-     , (8431,   175,   2.02)  /* Fester Other V */
-     , (8431,   198,   2.02)  /* Exhaustion Other V */
-     , (8431,  1175,   2.02)  /* Harm Other V */
      , (8431,  1199,   2.02)  /* Enfeeble Other V */
-     , (8431,  1223,   2.02)  /* Mana Drain Other V */
-     , (8431,  1241,  2.025)  /* Drain Health Other V */
-     , (8431,  1253,  2.025)  /* Drain Stamina Other V */
-     , (8431,  1264,  2.025)  /* Drain Mana Other V */;
+     , (8431,   175,   2.02)  /* Fester Other V */
+     , (8431,  1264,  2.025)  /* Drain Mana Other V */
+     , (8431,    62,  2.007)  /* Acid Stream V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (8431,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -135,9 +135,9 @@ VALUES (24314,  0,  4,  0,    0,  260,  260,  260,  260,  260,  260,  260,  260,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24314,  1241,   2.08)  /* Drain Health Other V */
-     , (24314,  1342,  2.067)  /* Weakness Other V */
      , (24314,  1395,  2.067)  /* Clumsiness Other V */
-     , (24314,  1443,  2.067)  /* Bafflement Other V */;
+     , (24314,  1443,  2.067)  /* Bafflement Other V */
+     , (24314,  1342,  2.067)  /* Weakness Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (24314,  94) /* ATTACK_NOTIFICATION_EVENT */

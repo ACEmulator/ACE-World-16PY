@@ -59,5 +59,5 @@ VALUES (6901,   1,   33556600) /* Setup */
      , (6901,  37,          2) /* ItemSkillLimit - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6901,   464,      2)  /* Missile Weapon Mastery Other IV */
-     , (6901,  1614,      2)  /* Aura of Blood Drinker Self IV */;
+VALUES (6901,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (6901,   464,      2)  /* Missile Weapon Mastery Other IV */;

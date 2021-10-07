@@ -116,18 +116,18 @@ VALUES (14559,  0,  4,  0,    0,  250,  250,  250,  250,  158,  250,  168,  250,
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (14559,    67,  2.016)  /* Shock Wave IV */
      , (14559,    72,  2.016)  /* Frost Bolt IV */
+     , (14559,  1252,   2.01)  /* Drain Stamina Other IV */
+     , (14559,  1418,  2.007)  /* Slowness Other IV */
+     , (14559,  1240,   2.01)  /* Drain Health Other IV */
+     , (14559,   140,  2.009)  /* Lightning Volley IV */
      , (14559,    78,  2.016)  /* Lightning Bolt IV */
      , (14559,    89,  2.016)  /* Force Bolt IV */
      , (14559,    95,  2.016)  /* Whirling Blade IV */
      , (14559,   104,  2.009)  /* Shock Blast IV */
-     , (14559,   140,  2.009)  /* Lightning Volley IV */
      , (14559,   168,   2.01)  /* Regeneration Self IV */
      , (14559,   232,  2.007)  /* Vulnerability Other IV */
-     , (14559,  1240,   2.01)  /* Drain Health Other IV */
-     , (14559,  1252,   2.01)  /* Drain Stamina Other IV */
      , (14559,  1263,   2.01)  /* Drain Mana Other IV */
-     , (14559,  1394,  2.007)  /* Clumsiness Other IV */
-     , (14559,  1418,  2.007)  /* Slowness Other IV */;
+     , (14559,  1394,  2.007)  /* Clumsiness Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (14559,  94) /* ATTACK_NOTIFICATION_EVENT */
