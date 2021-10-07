@@ -6,7 +6,7 @@ VALUES (0x70174000, 29043, 0x0174012C, 60, 3.566, 1.5, 0, 0, 0, -1,  True, '2005
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70174001, 29015, 0x0174012F, 60, -34.2, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Izji Qo Sealed Door Generator */
-/* @teleloc 0x0174012F [60.000000 -34.200000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
+/* @teleloc 0x0174012F [60.000000 -34.200001 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70174002, 29014, 0x01740131, 60, -50, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Izji Qo Raid Generator */
@@ -14,11 +14,11 @@ VALUES (0x70174002, 29014, 0x01740131, 60, -50, 0.005, 1, 0, 0, 0, False, '2005-
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70174003, 29034, 0x01740138, 60, -94.883, 0.25, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Eye of Darkness */
-/* @teleloc 0x01740138 [60.000000 -94.883000 0.250000] 1.000000 0.000000 0.000000 0.000000 */
+/* @teleloc 0x01740138 [60.000000 -94.883003 0.250000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70174004, 29035, 0x01740141, 60, -139.8, 0.005, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Sealed Door */
-/* @teleloc 0x01740141 [60.000000 -139.800000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
+/* @teleloc 0x01740141 [60.000000 -139.800003 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70174005,  7924, 0x01740145, 60, -150, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */

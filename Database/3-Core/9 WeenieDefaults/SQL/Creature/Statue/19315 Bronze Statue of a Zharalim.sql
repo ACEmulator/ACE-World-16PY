@@ -79,7 +79,7 @@ VALUES (19315,   1,   33554433) /* Setup */
                                    Wield 20x Greater Arrow (5304) | Probability: 25%
                                    Wield 20x Greater Frost Arrow (5307) | Probability: 25%
                                    Wield 20x Greater Armor Piercing Arrow (5309) | Probability: 25%
-                                   Wield Bronze Atlatl (15870) | Probability: 60%
+                                   Wield Bronze Atlatl (15870) | Probability: 60.000004%
                                    Wield 20x Armor Piercing Atlatl Dart (15280) | Probability: 16%
                                    Wield 20x Greater Fire Atlatl Dart (15293) | Probability: 16%
                                    Wield 20x Greater Atlatl Dart (15287) | Probability: 17%
@@ -104,16 +104,16 @@ VALUES (19315,   1,   180, 0, 0, 255) /* MaxHealth */
      , (19315,   5,   100, 0, 0, 250) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (19315,  2, 0, 3, 0, 155, 0, 1115.64054133707) /* Bow                 Specialized */
-     , (19315,  4, 0, 3, 0, 142, 0, 1115.64054133707) /* Dagger              Specialized */
-     , (19315,  6, 0, 3, 0, 152, 0, 1115.64054133707) /* MeleeDefense        Specialized */
-     , (19315,  7, 0, 3, 0, 269, 0, 1115.64054133707) /* MissileDefense      Specialized */
-     , (19315, 11, 0, 3, 0, 140, 0, 1115.64054133707) /* Sword               Specialized */
-     , (19315, 15, 0, 3, 0, 140, 0, 1115.64054133707) /* MagicDefense        Specialized */
-     , (19315, 24, 0, 3, 0, 100, 0, 1115.64054133707) /* Run                 Specialized */
-     , (19315, 31, 0, 3, 0, 112, 0, 1115.64054133707) /* CreatureEnchantment Specialized */
-     , (19315, 33, 0, 3, 0, 112, 0, 1115.64054133707) /* LifeMagic           Specialized */
-     , (19315, 34, 0, 3, 0, 112, 0, 1115.64054133707) /* WarMagic            Specialized */;
+VALUES (19315,  2, 0, 3, 0, 155, 0, 1115.6405413370674) /* Bow                 Specialized */
+     , (19315,  4, 0, 3, 0, 142, 0, 1115.6405413370674) /* Dagger              Specialized */
+     , (19315,  6, 0, 3, 0, 152, 0, 1115.6405413370674) /* MeleeDefense        Specialized */
+     , (19315,  7, 0, 3, 0, 269, 0, 1115.6405413370674) /* MissileDefense      Specialized */
+     , (19315, 11, 0, 3, 0, 140, 0, 1115.6405413370674) /* Sword               Specialized */
+     , (19315, 15, 0, 3, 0, 140, 0, 1115.6405413370674) /* MagicDefense        Specialized */
+     , (19315, 24, 0, 3, 0, 100, 0, 1115.6405413370674) /* Run                 Specialized */
+     , (19315, 31, 0, 3, 0, 112, 0, 1115.6405413370674) /* CreatureEnchantment Specialized */
+     , (19315, 33, 0, 3, 0, 112, 0, 1115.6405413370674) /* LifeMagic           Specialized */
+     , (19315, 34, 0, 3, 0, 112, 0, 1115.6405413370674) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (19315,  0,  4,  0,    0,  140,  168,  168,  182,  168,  168,  112,  140,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

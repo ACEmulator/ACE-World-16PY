@@ -25,8 +25,8 @@ VALUES (4294,   1,   33555051) /* Setup */
      , (4294,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4294, 0.2, 4108, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 3, -1, 0, 0.9238795, 0, 0, -0.3826835) /* Generate Gnawer Shreth (4108) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (4294, 0.4, 4108, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -1.8, 2.8, 0, 0.9238795, 0, 0, -0.3826835) /* Generate Gnawer Shreth (4108) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (4294, 0.6, 4108, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 1.4, 2.2, 0, 0.7071068, 0, 0, -0.7071068) /* Generate Gnawer Shreth (4108) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (4294, 0.85, 4108, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 1, 2.4, 0, 0.7660444, 0, 0, -0.6427876) /* Generate Gnawer Shreth (4108) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+VALUES (4294, 0.2, 4108, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 3, -1, 0, 0.9238795, 0, 0, -0.38268346) /* Generate Gnawer Shreth (4108) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (4294, 0.4, 4108, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -1.8, 2.8, 0, 0.9238795, 0, 0, -0.38268346) /* Generate Gnawer Shreth (4108) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (4294, 0.6, 4108, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 1.4, 2.2, 0, 0.70710677, 0, 0, -0.70710677) /* Generate Gnawer Shreth (4108) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (4294, 0.85, 4108, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 1, 2.4, 0, 0.76604444, 0, 0, -0.6427876) /* Generate Gnawer Shreth (4108) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (4294, 1, 4382, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 1, 0, 0, 0.8660254, 0, 0, -0.5) /* Generate Corpse (4382) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

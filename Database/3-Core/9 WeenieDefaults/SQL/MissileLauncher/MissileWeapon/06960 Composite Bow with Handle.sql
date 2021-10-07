@@ -18,7 +18,7 @@ VALUES (6960,   1,        256) /* ItemType - MissileWeapon */
      , (6960,  48,          2) /* WeaponSkill - Bow */
      , (6960,  49,         40) /* WeaponTime */
      , (6960,  50,          1) /* AmmoType - Arrow */
-     , (6960,  51,          2) /* CombatUse - Missle */
+     , (6960,  51,          2) /* CombatUse - Missile */
      , (6960,  52,          2) /* ParentLocation - LeftHand */
      , (6960,  53,          3) /* PlacementPosition - LeftHand */
      , (6960,  60,        192) /* WeaponRange */

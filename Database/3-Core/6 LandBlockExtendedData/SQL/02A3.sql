@@ -33,19 +33,19 @@ VALUES (0x702A3003,  9167, 0x02A30107, 9.892, -31.153, 0.005, 0, 0, 0, -1, False
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702A3004,  9133, 0x02A30108, 23.8021, -4.86423, 0.029, -0.71854, 0, 0, -0.695486,  True, '2005-02-09 10:00:00'); /* Conquered Virindi */
-/* @teleloc 0x02A30108 [23.802100 -4.864230 0.029000] -0.718540 0.000000 0.000000 -0.695486 */
+/* @teleloc 0x02A30108 [23.802099 -4.864230 0.029000] -0.718540 0.000000 0.000000 -0.695486 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702A3005,  9134, 0x02A30109, 23.4952, -14.2743, 0.029, -0.71854, 0, 0, -0.695485,  True, '2005-02-09 10:00:00'); /* Leashed Virindi */
-/* @teleloc 0x02A30109 [23.495200 -14.274300 0.029000] -0.718540 0.000000 0.000000 -0.695485 */
+/* @teleloc 0x02A30109 [23.495199 -14.274300 0.029000] -0.718540 0.000000 0.000000 -0.695485 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702A3006,  9135, 0x02A3010A, 23.1918, -23.5756, 0.029, -0.71854, 0, 0, -0.695485,  True, '2005-02-09 10:00:00'); /* Tamed Virindi */
-/* @teleloc 0x02A3010A [23.191800 -23.575600 0.029000] -0.718540 0.000000 0.000000 -0.695485 */
+/* @teleloc 0x02A3010A [23.191799 -23.575600 0.029000] -0.718540 0.000000 0.000000 -0.695485 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702A3007,  9131, 0x02A3010B, 22.9768, -30.1671, 0.029, -0.71854, 0, 0, -0.695485,  True, '2005-02-09 10:00:00'); /* Beaten Virindi */
-/* @teleloc 0x02A3010B [22.976800 -30.167100 0.029000] -0.718540 0.000000 0.000000 -0.695485 */
+/* @teleloc 0x02A3010B [22.976801 -30.167101 0.029000] -0.718540 0.000000 0.000000 -0.695485 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702A3008, 14472, 0x02A30100, 3.85111, 3.14348, 0.005, 0.143283, 0, 0, -0.989682,  True, '2005-02-09 10:00:00'); /* Staff Minion */
@@ -77,4 +77,4 @@ VALUES (0x702A300E, 27812, 0x02A30102, -1.00818, -21.444, 0.005, 0.563807, 0, 0,
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702A300F, 27813, 0x02A30102, -1.54206, -24.3607, 0.005, 0.690656, 0, 0, -0.723183,  True, '2005-02-09 10:00:00'); /* War Magic Minion */
-/* @teleloc 0x02A30102 [-1.542060 -24.360700 0.005000] 0.690656 0.000000 0.000000 -0.723183 */
+/* @teleloc 0x02A30102 [-1.542060 -24.360701 0.005000] 0.690656 0.000000 0.000000 -0.723183 */

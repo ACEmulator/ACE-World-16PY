@@ -25,6 +25,6 @@ VALUES (4324,   1,   33555051) /* Setup */
      , (4324,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4324, 0.4, 2565, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, 1, 0, 0.9238795, 0, 0, -0.3826835) /* Generate Shore Armoredillo (2565) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (4324, 0.8, 2565, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0.4, -1.4, 0, 0.9238795, 0, 0, -0.3826835) /* Generate Shore Armoredillo (2565) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+VALUES (4324, 0.4, 2565, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, 1, 0, 0.9238795, 0, 0, -0.38268346) /* Generate Shore Armoredillo (2565) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (4324, 0.8, 2565, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0.4, -1.4, 0, 0.9238795, 0, 0, -0.38268346) /* Generate Shore Armoredillo (2565) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (4324, 1, 2565, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0.4, 3, 0, 0.8870108, 0, 0, -0.4617486) /* Generate Shore Armoredillo (2565) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

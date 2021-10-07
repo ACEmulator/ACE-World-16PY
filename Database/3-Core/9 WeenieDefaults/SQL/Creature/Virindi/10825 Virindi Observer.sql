@@ -87,16 +87,16 @@ VALUES (10825,   1,   225, 0, 0, 300) /* MaxHealth */
      , (10825,   5,   400, 0, 0, 750) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (10825,  6, 0, 3, 0, 300, 0, 697.46774308483) /* MeleeDefense        Specialized */
-     , (10825,  7, 0, 3, 0, 370, 0, 697.46774308483) /* MissileDefense      Specialized */
-     , (10825, 13, 0, 3, 0, 250, 0, 697.46774308483) /* UnarmedCombat       Specialized */
-     , (10825, 14, 0, 3, 0, 300, 0, 697.46774308483) /* ArcaneLore          Specialized */
-     , (10825, 15, 0, 3, 0, 230, 0, 697.46774308483) /* MagicDefense        Specialized */
-     , (10825, 20, 0, 3, 0, 250, 0, 697.46774308483) /* Deception           Specialized */
-     , (10825, 24, 0, 3, 0,  90, 0, 697.46774308483) /* Run                 Specialized */
-     , (10825, 31, 0, 3, 0, 100, 0, 697.46774308483) /* CreatureEnchantment Specialized */
-     , (10825, 33, 0, 3, 0, 100, 0, 697.46774308483) /* LifeMagic           Specialized */
-     , (10825, 34, 0, 3, 0, 100, 0, 697.46774308483) /* WarMagic            Specialized */;
+VALUES (10825,  6, 0, 3, 0, 300, 0, 697.4677430848295) /* MeleeDefense        Specialized */
+     , (10825,  7, 0, 3, 0, 370, 0, 697.4677430848295) /* MissileDefense      Specialized */
+     , (10825, 13, 0, 3, 0, 250, 0, 697.4677430848295) /* UnarmedCombat       Specialized */
+     , (10825, 14, 0, 3, 0, 300, 0, 697.4677430848295) /* ArcaneLore          Specialized */
+     , (10825, 15, 0, 3, 0, 230, 0, 697.4677430848295) /* MagicDefense        Specialized */
+     , (10825, 20, 0, 3, 0, 250, 0, 697.4677430848295) /* Deception           Specialized */
+     , (10825, 24, 0, 3, 0,  90, 0, 697.4677430848295) /* Run                 Specialized */
+     , (10825, 31, 0, 3, 0, 100, 0, 697.4677430848295) /* CreatureEnchantment Specialized */
+     , (10825, 33, 0, 3, 0, 100, 0, 697.4677430848295) /* LifeMagic           Specialized */
+     , (10825, 34, 0, 3, 0, 100, 0, 697.4677430848295) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (10825,  0,  1,  0,    0,  170,  170,  170,  170,  122,  170,  170,  122,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -152,7 +152,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'The Virindi''s cloak seems to boil, as if a thousand insects were seeking to escape before it collapses. The dying Virindi shares its final thoughts with you: "You flesh puppets are not entirely without virtue... Your persistence and success in the face of overwhelming odds speaks well of your determination, if not of your intelligence..."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (10825,  3 /* Death */,   0.09, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (10825,  3 /* Death */, 0.089999996, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

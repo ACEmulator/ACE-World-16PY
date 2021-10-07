@@ -92,25 +92,25 @@ VALUES (28054,   1,  4850, 0, 0, 5000) /* MaxHealth */
      , (28054,   5,  1700, 0, 0, 2000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (28054,  1, 0, 3, 0, 363, 0, 1983.21355336759) /* Axe                 Specialized */
-     , (28054,  2, 0, 3, 0, 120, 0, 1983.21355336759) /* Bow                 Specialized */
-     , (28054,  3, 0, 3, 0, 120, 0, 1983.21355336759) /* Crossbow            Specialized */
-     , (28054,  4, 0, 3, 0, 363, 0, 1983.21355336759) /* Dagger              Specialized */
-     , (28054,  5, 0, 3, 0, 363, 0, 1983.21355336759) /* Mace                Specialized */
-     , (28054,  6, 0, 3, 0, 371, 0, 1983.21355336759) /* MeleeDefense        Specialized */
-     , (28054,  7, 0, 3, 0, 441, 0, 1983.21355336759) /* MissileDefense      Specialized */
-     , (28054,  9, 0, 3, 0, 363, 0, 1983.21355336759) /* Spear               Specialized */
-     , (28054, 10, 0, 3, 0, 363, 0, 1983.21355336759) /* Staff               Specialized */
-     , (28054, 11, 0, 3, 0, 363, 0, 1983.21355336759) /* Sword               Specialized */
-     , (28054, 13, 0, 3, 0, 363, 0, 1983.21355336759) /* UnarmedCombat       Specialized */
-     , (28054, 14, 0, 3, 0, 230, 0, 1983.21355336759) /* ArcaneLore          Specialized */
-     , (28054, 15, 0, 3, 0, 288, 0, 1983.21355336759) /* MagicDefense        Specialized */
-     , (28054, 16, 0, 3, 0, 300, 0, 1983.21355336759) /* ManaConversion      Specialized */
-     , (28054, 20, 0, 3, 0, 300, 0, 1983.21355336759) /* Deception           Specialized */
-     , (28054, 31, 0, 3, 0, 300, 0, 1983.21355336759) /* CreatureEnchantment Specialized */
-     , (28054, 32, 0, 3, 0, 300, 0, 1983.21355336759) /* ItemEnchantment     Specialized */
-     , (28054, 33, 0, 3, 0, 300, 0, 1983.21355336759) /* LifeMagic           Specialized */
-     , (28054, 34, 0, 3, 0, 300, 0, 1983.21355336759) /* WarMagic            Specialized */;
+VALUES (28054,  1, 0, 3, 0, 363, 0, 1983.2135533675946) /* Axe                 Specialized */
+     , (28054,  2, 0, 3, 0, 120, 0, 1983.2135533675946) /* Bow                 Specialized */
+     , (28054,  3, 0, 3, 0, 120, 0, 1983.2135533675946) /* Crossbow            Specialized */
+     , (28054,  4, 0, 3, 0, 363, 0, 1983.2135533675946) /* Dagger              Specialized */
+     , (28054,  5, 0, 3, 0, 363, 0, 1983.2135533675946) /* Mace                Specialized */
+     , (28054,  6, 0, 3, 0, 371, 0, 1983.2135533675946) /* MeleeDefense        Specialized */
+     , (28054,  7, 0, 3, 0, 441, 0, 1983.2135533675946) /* MissileDefense      Specialized */
+     , (28054,  9, 0, 3, 0, 363, 0, 1983.2135533675946) /* Spear               Specialized */
+     , (28054, 10, 0, 3, 0, 363, 0, 1983.2135533675946) /* Staff               Specialized */
+     , (28054, 11, 0, 3, 0, 363, 0, 1983.2135533675946) /* Sword               Specialized */
+     , (28054, 13, 0, 3, 0, 363, 0, 1983.2135533675946) /* UnarmedCombat       Specialized */
+     , (28054, 14, 0, 3, 0, 230, 0, 1983.2135533675946) /* ArcaneLore          Specialized */
+     , (28054, 15, 0, 3, 0, 288, 0, 1983.2135533675946) /* MagicDefense        Specialized */
+     , (28054, 16, 0, 3, 0, 300, 0, 1983.2135533675946) /* ManaConversion      Specialized */
+     , (28054, 20, 0, 3, 0, 300, 0, 1983.2135533675946) /* Deception           Specialized */
+     , (28054, 31, 0, 3, 0, 300, 0, 1983.2135533675946) /* CreatureEnchantment Specialized */
+     , (28054, 32, 0, 3, 0, 300, 0, 1983.2135533675946) /* ItemEnchantment     Specialized */
+     , (28054, 33, 0, 3, 0, 300, 0, 1983.2135533675946) /* LifeMagic           Specialized */
+     , (28054, 34, 0, 3, 0, 300, 0, 1983.2135533675946) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (28054,  0,  4,  0,    0,  440,  440,  440,  440,  440,  484,  484,  440,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -327,7 +327,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'A coolly amused voice seeps across your mind, "Your spellcraft is feeble, %s! Are you sure your calling is that of a mage?"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (28054, 21 /* ResistSpell */,   0.45, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (28054, 21 /* ResistSpell */, 0.45000002, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

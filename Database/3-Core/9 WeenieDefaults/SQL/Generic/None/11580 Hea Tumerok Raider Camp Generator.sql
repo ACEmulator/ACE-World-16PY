@@ -26,5 +26,5 @@ VALUES (11580,   1,   33555051) /* Setup */
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11580, 0.4, 11520, 900, 2, 4, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Hea Nualuan (11520) (x2 up to max of 4) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (11580, 0.7, 11519, 900, 1, 4, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Hea Itealuan (11519) (x1 up to max of 4) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (11580, 0.70000005, 11519, 900, 1, 4, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Hea Itealuan (11519) (x1 up to max of 4) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (11580, 1, 11517, 900, 1, 4, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Hea Elder Shaman (11517) (x1 up to max of 4) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

@@ -76,8 +76,8 @@ VALUES (30626,   1,   33559204) /* Setup */
      , (30626,  31,      30643) /* LinkedPortalOne - Banderling Shrine */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30626, 12, 2010775566, 41.666, 133.841, 216.834, 0.1390782, 0, 0, -0.9902814) /* PortalSummonLoc */
-/* @teleloc 0x77DA000E [41.666000 133.841000 216.834000] 0.139078 0.000000 0.000000 -0.990281 */;
+VALUES (30626, 12, 2010775566, 41.666, 133.841, 216.834, 0.13907818, 0, 0, -0.9902814) /* PortalSummonLoc */
+/* @teleloc 0x77DA000E [41.666000 133.841003 216.834000] 0.139078 0.000000 0.000000 -0.990281 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30626,   1, 380, 0, 0) /* Strength */
@@ -93,7 +93,7 @@ VALUES (30626,   1,   200, 0, 0, 370) /* MaxHealth */
      , (30626,   5,   201, 0, 0, 486) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (30626, 32, 0, 3, 0, 400, 0, 2281.72737315162) /* ItemEnchantment     Specialized */;
+VALUES (30626, 32, 0, 3, 0, 400, 0, 2281.727373151617) /* ItemEnchantment     Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (30626,  0,  8,  3,  0.5,   20,   16,   16,   16,   20,   20,   20,   20,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */

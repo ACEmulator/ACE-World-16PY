@@ -87,12 +87,12 @@ VALUES (7418,   1,     0, 0, 0, 3) /* MaxHealth */
      , (7418,   5,     0, 0, 0, 5) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (7418,  6, 0, 2, 0,   0, 0, 530.057411933755) /* MeleeDefense        Trained */
-     , (7418,  7, 0, 2, 0,   0, 0, 530.057411933755) /* MissileDefense      Trained */
-     , (7418, 13, 0, 2, 0,   0, 0, 530.057411933755) /* UnarmedCombat       Trained */
-     , (7418, 15, 0, 2, 0,   0, 0, 530.057411933755) /* MagicDefense        Trained */
-     , (7418, 22, 0, 2, 0,  10, 0, 530.057411933755) /* Jump                Trained */
-     , (7418, 24, 0, 2, 0,  10, 0, 530.057411933755) /* Run                 Trained */;
+VALUES (7418,  6, 0, 2, 0,   0, 0, 530.0574119337551) /* MeleeDefense        Trained */
+     , (7418,  7, 0, 2, 0,   0, 0, 530.0574119337551) /* MissileDefense      Trained */
+     , (7418, 13, 0, 2, 0,   0, 0, 530.0574119337551) /* UnarmedCombat       Trained */
+     , (7418, 15, 0, 2, 0,   0, 0, 530.0574119337551) /* MagicDefense        Trained */
+     , (7418, 22, 0, 2, 0,  10, 0, 530.0574119337551) /* Jump                Trained */
+     , (7418, 24, 0, 2, 0,  10, 0, 530.0574119337551) /* Run                 Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (7418,  0,  2,  2, 0.75,    8,    8,    8,    8,    8,    8,    8,    8,    0, 1, 0.33,  0.4,    0, 0.33,  0.4,    0, 0.33,  0.4,    0, 0.33,  0.4,    0) /* Head */

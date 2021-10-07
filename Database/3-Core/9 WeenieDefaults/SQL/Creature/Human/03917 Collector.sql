@@ -84,9 +84,9 @@ VALUES (3917,   1,    75, 0, 0, 110) /* MaxHealth */
      , (3917,   5,    55, 0, 0, 105) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (3917,  6, 0, 2, 0,   1, 0, 372.797216483508) /* MeleeDefense        Trained */
-     , (3917,  7, 0, 2, 0,   1, 0, 372.797216483508) /* MissileDefense      Trained */
-     , (3917, 13, 0, 2, 0,   1, 0, 372.797216483508) /* UnarmedCombat       Trained */;
+VALUES (3917,  6, 0, 2, 0,   1, 0, 372.7972164835084) /* MeleeDefense        Trained */
+     , (3917,  7, 0, 2, 0,   1, 0, 372.7972164835084) /* MissileDefense      Trained */
+     , (3917, 13, 0, 2, 0,   1, 0, 372.7972164835084) /* UnarmedCombat       Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (3917,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -368,7 +368,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   8 /* Say */, 0, 20, NULL, 'I''m particularly interested in the spine of the sandy armoredillo.  Get that to me and I''ll give you a health potion.  I''ll also pay the same for swamp stones and the scalps of banderlings.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (3917,  5 /* HeartBeat */,  0.005, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (3917,  5 /* HeartBeat */, 0.0050000004, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

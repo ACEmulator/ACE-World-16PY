@@ -72,10 +72,10 @@ VALUES (1468,   1,   33556445) /* Setup */
      , (1468,   8,  100667445) /* Icon */
      , (1468,  22,  872415258) /* PhysicsEffectTable */
      , (1468,  32,         82) /* WieldedTreasureType - 
-                                   Wield Club (309) | Probability: 15%
+                                   Wield Club (309) | Probability: 15.000001%
                                    Wield Dabus (313) | Probability: 3%
                                    Wield Dagger (314) | Probability: 10%
-                                   Wield Kasrullah (325) | Probability: 15%
+                                   Wield Kasrullah (325) | Probability: 15.000001%
                                    Wield Khanjar (328) | Probability: 10%
                                    Wield Mace (331) | Probability: 4%
                                    Wield Short Sword (352) | Probability: 7%
@@ -104,20 +104,20 @@ VALUES (1468,   1,    10, 0, 0, 25) /* MaxHealth */
      , (1468,   5,     0, 0, 0, 15) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (1468,  1, 0, 3, 0,  10, 0, 306.444945932274) /* Axe                 Specialized */
-     , (1468,  2, 0, 3, 0,   0, 0, 306.444945932274) /* Bow                 Specialized */
-     , (1468,  3, 0, 3, 0,   0, 0, 306.444945932274) /* Crossbow            Specialized */
-     , (1468,  4, 0, 3, 0,  10, 0, 306.444945932274) /* Dagger              Specialized */
-     , (1468,  5, 0, 3, 0,  10, 0, 306.444945932274) /* Mace                Specialized */
-     , (1468,  6, 0, 3, 0,  10, 0, 306.444945932274) /* MeleeDefense        Specialized */
-     , (1468,  7, 0, 3, 0,  20, 0, 306.444945932274) /* MissileDefense      Specialized */
-     , (1468,  9, 0, 3, 0,  10, 0, 306.444945932274) /* Spear               Specialized */
-     , (1468, 10, 0, 3, 0,  10, 0, 306.444945932274) /* Staff               Specialized */
-     , (1468, 11, 0, 3, 0,  10, 0, 306.444945932274) /* Sword               Specialized */
-     , (1468, 13, 0, 3, 0,  10, 0, 306.444945932274) /* UnarmedCombat       Specialized */
-     , (1468, 15, 0, 3, 0,   9, 0, 306.444945932274) /* MagicDefense        Specialized */
-     , (1468, 20, 0, 2, 0,  15, 0, 306.444945932274) /* Deception           Trained */
-     , (1468, 24, 0, 2, 0,  40, 0, 306.444945932274) /* Run                 Trained */;
+VALUES (1468,  1, 0, 3, 0,  10, 0, 306.4449459322742) /* Axe                 Specialized */
+     , (1468,  2, 0, 3, 0,   0, 0, 306.4449459322742) /* Bow                 Specialized */
+     , (1468,  3, 0, 3, 0,   0, 0, 306.4449459322742) /* Crossbow            Specialized */
+     , (1468,  4, 0, 3, 0,  10, 0, 306.4449459322742) /* Dagger              Specialized */
+     , (1468,  5, 0, 3, 0,  10, 0, 306.4449459322742) /* Mace                Specialized */
+     , (1468,  6, 0, 3, 0,  10, 0, 306.4449459322742) /* MeleeDefense        Specialized */
+     , (1468,  7, 0, 3, 0,  20, 0, 306.4449459322742) /* MissileDefense      Specialized */
+     , (1468,  9, 0, 3, 0,  10, 0, 306.4449459322742) /* Spear               Specialized */
+     , (1468, 10, 0, 3, 0,  10, 0, 306.4449459322742) /* Staff               Specialized */
+     , (1468, 11, 0, 3, 0,  10, 0, 306.4449459322742) /* Sword               Specialized */
+     , (1468, 13, 0, 3, 0,  10, 0, 306.4449459322742) /* UnarmedCombat       Specialized */
+     , (1468, 15, 0, 3, 0,   9, 0, 306.4449459322742) /* MagicDefense        Specialized */
+     , (1468, 20, 0, 2, 0,  15, 0, 306.4449459322742) /* Deception           Trained */
+     , (1468, 24, 0, 2, 0,  40, 0, 306.4449459322742) /* Run                 Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (1468,  0,  4,  0,    0,    3,    3,    3,    3,    2,    2,    3,    2,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

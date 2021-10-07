@@ -25,6 +25,6 @@ VALUES (8063,   1,   33555051) /* Setup */
      , (8063,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8063, 0.4, 7985, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -4, -4, 0, 0.8191521, 0, 0, -0.5735765) /* Generate Listris Niffis (7985) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (8063, 0.7, 7985, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 3, 0.5, 0, 0.8660254, 0, 0, -0.5) /* Generate Listris Niffis (7985) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (8063, 1, 7985, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -1.4, 3.4, 0, 0.9063078, 0, 0, -0.4226183) /* Generate Listris Niffis (7985) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (8063, 0.4, 7985, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -4, -4, 0, 0.81915206, 0, 0, -0.57357645) /* Generate Listris Niffis (7985) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (8063, 0.70000005, 7985, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 3, 0.5, 0, 0.8660254, 0, 0, -0.5) /* Generate Listris Niffis (7985) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (8063, 1, 7985, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -1.4, 3.4, 0, 0.90630776, 0, 0, -0.42261827) /* Generate Listris Niffis (7985) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

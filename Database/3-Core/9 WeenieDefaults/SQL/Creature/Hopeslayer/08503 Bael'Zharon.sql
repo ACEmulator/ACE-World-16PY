@@ -92,41 +92,41 @@ VALUES (8503,   1,  7200, 0, 0, 7750) /* MaxHealth */
      , (8503,   5,     0, 0, 0, 1400) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (8503,  1, 0, 3, 0, 200, 0, 589.727706575369) /* Axe                 Specialized */
-     , (8503,  2, 0, 3, 0, 200, 0, 589.727706575369) /* Bow                 Specialized */
-     , (8503,  3, 0, 3, 0, 200, 0, 589.727706575369) /* Crossbow            Specialized */
-     , (8503,  4, 0, 3, 0, 200, 0, 589.727706575369) /* Dagger              Specialized */
-     , (8503,  5, 0, 3, 0, 200, 0, 589.727706575369) /* Mace                Specialized */
-     , (8503,  6, 0, 3, 0,   0, 0, 589.727706575369) /* MeleeDefense        Specialized */
-     , (8503,  7, 0, 3, 0, 200, 0, 589.727706575369) /* MissileDefense      Specialized */
-     , (8503,  9, 0, 3, 0, 200, 0, 589.727706575369) /* Spear               Specialized */
-     , (8503, 10, 0, 3, 0, 200, 0, 589.727706575369) /* Staff               Specialized */
-     , (8503, 11, 0, 3, 0, 200, 0, 589.727706575369) /* Sword               Specialized */
-     , (8503, 12, 0, 3, 0, 200, 0, 589.727706575369) /* ThrownWeapon        Specialized */
-     , (8503, 13, 0, 3, 0, 900, 0, 589.727706575369) /* UnarmedCombat       Specialized */
-     , (8503, 14, 0, 3, 0, 200, 0, 589.727706575369) /* ArcaneLore          Specialized */
-     , (8503, 15, 0, 3, 0, 220, 0, 589.727706575369) /* MagicDefense        Specialized */
-     , (8503, 16, 0, 3, 0, 200, 0, 589.727706575369) /* ManaConversion      Specialized */
-     , (8503, 18, 0, 3, 0, 200, 0, 589.727706575369) /* ItemTinkering       Specialized */
-     , (8503, 19, 0, 3, 0, 200, 0, 589.727706575369) /* AssessPerson        Specialized */
-     , (8503, 20, 0, 3, 0, 100, 0, 589.727706575369) /* Deception           Specialized */
-     , (8503, 21, 0, 3, 0, 200, 0, 589.727706575369) /* Healing             Specialized */
-     , (8503, 22, 0, 3, 0, 200, 0, 589.727706575369) /* Jump                Specialized */
-     , (8503, 23, 0, 3, 0, 200, 0, 589.727706575369) /* Lockpick            Specialized */
-     , (8503, 24, 0, 3, 0, 200, 0, 589.727706575369) /* Run                 Specialized */
-     , (8503, 27, 0, 3, 0, 200, 0, 589.727706575369) /* AssessCreature      Specialized */
-     , (8503, 28, 0, 3, 0, 200, 0, 589.727706575369) /* WeaponTinkering     Specialized */
-     , (8503, 29, 0, 3, 0,  20, 0, 589.727706575369) /* ArmorTinkering      Specialized */
-     , (8503, 30, 0, 3, 0, 200, 0, 589.727706575369) /* MagicItemTinkering  Specialized */
-     , (8503, 31, 0, 3, 0, 900, 0, 589.727706575369) /* CreatureEnchantment Specialized */
-     , (8503, 32, 0, 3, 0, 900, 0, 589.727706575369) /* ItemEnchantment     Specialized */
-     , (8503, 33, 0, 3, 0, 900, 0, 589.727706575369) /* LifeMagic           Specialized */
-     , (8503, 34, 0, 3, 0, 900, 0, 589.727706575369) /* WarMagic            Specialized */
-     , (8503, 35, 0, 3, 0, 900, 0, 589.727706575369) /* Leadership          Specialized */
-     , (8503, 36, 0, 3, 0, 900, 0, 589.727706575369) /* Loyalty             Specialized */
-     , (8503, 37, 0, 3, 0, 400, 0, 589.727706575369) /* Fletching           Specialized */
-     , (8503, 38, 0, 3, 0, 400, 0, 589.727706575369) /* Alchemy             Specialized */
-     , (8503, 39, 0, 3, 0, 900, 0, 589.727706575369) /* Cooking             Specialized */;
+VALUES (8503,  1, 0, 3, 0, 200, 0, 589.7277065753685) /* Axe                 Specialized */
+     , (8503,  2, 0, 3, 0, 200, 0, 589.7277065753685) /* Bow                 Specialized */
+     , (8503,  3, 0, 3, 0, 200, 0, 589.7277065753685) /* Crossbow            Specialized */
+     , (8503,  4, 0, 3, 0, 200, 0, 589.7277065753685) /* Dagger              Specialized */
+     , (8503,  5, 0, 3, 0, 200, 0, 589.7277065753685) /* Mace                Specialized */
+     , (8503,  6, 0, 3, 0,   0, 0, 589.7277065753685) /* MeleeDefense        Specialized */
+     , (8503,  7, 0, 3, 0, 200, 0, 589.7277065753685) /* MissileDefense      Specialized */
+     , (8503,  9, 0, 3, 0, 200, 0, 589.7277065753685) /* Spear               Specialized */
+     , (8503, 10, 0, 3, 0, 200, 0, 589.7277065753685) /* Staff               Specialized */
+     , (8503, 11, 0, 3, 0, 200, 0, 589.7277065753685) /* Sword               Specialized */
+     , (8503, 12, 0, 3, 0, 200, 0, 589.7277065753685) /* ThrownWeapon        Specialized */
+     , (8503, 13, 0, 3, 0, 900, 0, 589.7277065753685) /* UnarmedCombat       Specialized */
+     , (8503, 14, 0, 3, 0, 200, 0, 589.7277065753685) /* ArcaneLore          Specialized */
+     , (8503, 15, 0, 3, 0, 220, 0, 589.7277065753685) /* MagicDefense        Specialized */
+     , (8503, 16, 0, 3, 0, 200, 0, 589.7277065753685) /* ManaConversion      Specialized */
+     , (8503, 18, 0, 3, 0, 200, 0, 589.7277065753685) /* ItemTinkering       Specialized */
+     , (8503, 19, 0, 3, 0, 200, 0, 589.7277065753685) /* AssessPerson        Specialized */
+     , (8503, 20, 0, 3, 0, 100, 0, 589.7277065753685) /* Deception           Specialized */
+     , (8503, 21, 0, 3, 0, 200, 0, 589.7277065753685) /* Healing             Specialized */
+     , (8503, 22, 0, 3, 0, 200, 0, 589.7277065753685) /* Jump                Specialized */
+     , (8503, 23, 0, 3, 0, 200, 0, 589.7277065753685) /* Lockpick            Specialized */
+     , (8503, 24, 0, 3, 0, 200, 0, 589.7277065753685) /* Run                 Specialized */
+     , (8503, 27, 0, 3, 0, 200, 0, 589.7277065753685) /* AssessCreature      Specialized */
+     , (8503, 28, 0, 3, 0, 200, 0, 589.7277065753685) /* WeaponTinkering     Specialized */
+     , (8503, 29, 0, 3, 0,  20, 0, 589.7277065753685) /* ArmorTinkering      Specialized */
+     , (8503, 30, 0, 3, 0, 200, 0, 589.7277065753685) /* MagicItemTinkering  Specialized */
+     , (8503, 31, 0, 3, 0, 900, 0, 589.7277065753685) /* CreatureEnchantment Specialized */
+     , (8503, 32, 0, 3, 0, 900, 0, 589.7277065753685) /* ItemEnchantment     Specialized */
+     , (8503, 33, 0, 3, 0, 900, 0, 589.7277065753685) /* LifeMagic           Specialized */
+     , (8503, 34, 0, 3, 0, 900, 0, 589.7277065753685) /* WarMagic            Specialized */
+     , (8503, 35, 0, 3, 0, 900, 0, 589.7277065753685) /* Leadership          Specialized */
+     , (8503, 36, 0, 3, 0, 900, 0, 589.7277065753685) /* Loyalty             Specialized */
+     , (8503, 37, 0, 3, 0, 400, 0, 589.7277065753685) /* Fletching           Specialized */
+     , (8503, 38, 0, 3, 0, 400, 0, 589.7277065753685) /* Alchemy             Specialized */
+     , (8503, 39, 0, 3, 0, 900, 0, 589.7277065753685) /* Cooking             Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (8503,  0,  4,  0,    0, 9000, 18000, 18000, 18000, 18000, 18000, 18000, 18000,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

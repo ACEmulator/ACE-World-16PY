@@ -74,7 +74,7 @@ VALUES (7821,   1,   33555465) /* Setup */
                                    Wield 20x Arrow (300) | Probability: 100%
                                    Wield Yumi (363) | Probability: 10%
                                    Wield 14x Arrow (300) | Probability: 100%
-                                   Wield Heavy Crossbow (311) | Probability: 60%
+                                   Wield Heavy Crossbow (311) | Probability: 60.000004%
                                    Wield 15x Quarrel (305) | Probability: 100%
                                    Wield Battle Axe (301) | Probability: 14%
                                    Wield Broad Sword (350) | Probability: 7%
@@ -88,7 +88,7 @@ VALUES (7821,   1,   33555465) /* Setup */
                                    Wield Silifi (344) | Probability: 13%
                                    Wield Tachi (353) | Probability: 6%
                                    Wield Takuba (354) | Probability: 6%
-                                   Wield Large Kite Shield (92) | Probability: 30%
+                                   Wield Large Kite Shield (92) | Probability: 30.000002%
                                    Wield Kite Shield (91) | Probability: 20%
                                    Wield Large Round Shield (94) | Probability: 20% */
      , (7821,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
@@ -107,19 +107,19 @@ VALUES (7821,   1,    50, 0, 0, 100) /* MaxHealth */
      , (7821,   5,     0, 0, 0, 90) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (7821,  1, 0, 3, 0, 120, 0, 553.065698261768) /* Axe                 Specialized */
-     , (7821,  2, 0, 3, 0,  60, 0, 553.065698261768) /* Bow                 Specialized */
-     , (7821,  3, 0, 3, 0,  60, 0, 553.065698261768) /* Crossbow            Specialized */
-     , (7821,  4, 0, 3, 0, 120, 0, 553.065698261768) /* Dagger              Specialized */
-     , (7821,  5, 0, 3, 0, 120, 0, 553.065698261768) /* Mace                Specialized */
-     , (7821,  6, 0, 3, 0,  60, 0, 553.065698261768) /* MeleeDefense        Specialized */
-     , (7821,  7, 0, 3, 0, 110, 0, 553.065698261768) /* MissileDefense      Specialized */
-     , (7821,  9, 0, 3, 0, 120, 0, 553.065698261768) /* Spear               Specialized */
-     , (7821, 10, 0, 3, 0, 120, 0, 553.065698261768) /* Staff               Specialized */
-     , (7821, 11, 0, 3, 0, 120, 0, 553.065698261768) /* Sword               Specialized */
-     , (7821, 13, 0, 3, 0, 120, 0, 553.065698261768) /* UnarmedCombat       Specialized */
-     , (7821, 15, 0, 3, 0,  82, 0, 553.065698261768) /* MagicDefense        Specialized */
-     , (7821, 20, 0, 3, 0, 100, 0, 553.065698261768) /* Deception           Specialized */;
+VALUES (7821,  1, 0, 3, 0, 120, 0, 553.0656982617685) /* Axe                 Specialized */
+     , (7821,  2, 0, 3, 0,  60, 0, 553.0656982617685) /* Bow                 Specialized */
+     , (7821,  3, 0, 3, 0,  60, 0, 553.0656982617685) /* Crossbow            Specialized */
+     , (7821,  4, 0, 3, 0, 120, 0, 553.0656982617685) /* Dagger              Specialized */
+     , (7821,  5, 0, 3, 0, 120, 0, 553.0656982617685) /* Mace                Specialized */
+     , (7821,  6, 0, 3, 0,  60, 0, 553.0656982617685) /* MeleeDefense        Specialized */
+     , (7821,  7, 0, 3, 0, 110, 0, 553.0656982617685) /* MissileDefense      Specialized */
+     , (7821,  9, 0, 3, 0, 120, 0, 553.0656982617685) /* Spear               Specialized */
+     , (7821, 10, 0, 3, 0, 120, 0, 553.0656982617685) /* Staff               Specialized */
+     , (7821, 11, 0, 3, 0, 120, 0, 553.0656982617685) /* Sword               Specialized */
+     , (7821, 13, 0, 3, 0, 120, 0, 553.0656982617685) /* UnarmedCombat       Specialized */
+     , (7821, 15, 0, 3, 0,  82, 0, 553.0656982617685) /* MagicDefense        Specialized */
+     , (7821, 20, 0, 3, 0, 100, 0, 553.0656982617685) /* Deception           Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (7821,  0,  4,  0,    0,   70,   19,   12,   35,   13,   56,    1,   13,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

@@ -25,6 +25,6 @@ VALUES (4353,   1,   33555051) /* Setup */
      , (4353,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4353, 0.5, 2578, 2700, 1, 1, 1, 4, -1, 0, 0, 0, 5, 1, 0, 0.9537169, 0, 0, -0.3007058) /* Generate Shallows Lurker (2578) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (4353, 0.8, 2578, 2700, 1, 1, 1, 4, -1, 0, 0, 0, 0.4, 4.4, 0, 0.8191521, 0, 0, -0.5735765) /* Generate Shallows Lurker (2578) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (4353, 1, 2578, 2700, 1, 1, 1, 4, -1, 0, 0, 0, -3.4, 0.1, 0, -4.371139E-08, 0, 0, -1) /* Generate Shallows Lurker (2578) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (4353, 0.5, 2578, 2700, 1, 1, 1, 4, -1, 0, 0, 0, 5, 1, 0, 0.95371693, 0, 0, -0.3007058) /* Generate Shallows Lurker (2578) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (4353, 0.8, 2578, 2700, 1, 1, 1, 4, -1, 0, 0, 0, 0.4, 4.4, 0, 0.81915206, 0, 0, -0.57357645) /* Generate Shallows Lurker (2578) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (4353, 1, 2578, 2700, 1, 1, 1, 4, -1, 0, 0, 0, -3.4, 0.1, 0, -4.371139E-08, 0, -0, -1) /* Generate Shallows Lurker (2578) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

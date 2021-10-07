@@ -88,41 +88,41 @@ VALUES (22138,   1,   180, 0, 0, 280) /* MaxHealth */
      , (22138,   5,    80, 0, 0, 280) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (22138,  1, 0, 3, 0, 200, 0, 1332.84850978351) /* Axe                 Specialized */
-     , (22138,  2, 0, 3, 0, 255, 0, 1332.84850978351) /* Bow                 Specialized */
-     , (22138,  3, 0, 3, 0, 200, 0, 1332.84850978351) /* Crossbow            Specialized */
-     , (22138,  4, 0, 3, 0, 100, 0, 1332.84850978351) /* Dagger              Specialized */
-     , (22138,  5, 0, 3, 0, 200, 0, 1332.84850978351) /* Mace                Specialized */
-     , (22138,  6, 0, 3, 0, 180, 0, 1332.84850978351) /* MeleeDefense        Specialized */
-     , (22138,  7, 0, 3, 0, 180, 0, 1332.84850978351) /* MissileDefense      Specialized */
-     , (22138,  9, 0, 3, 0, 200, 0, 1332.84850978351) /* Spear               Specialized */
-     , (22138, 10, 0, 3, 0, 200, 0, 1332.84850978351) /* Staff               Specialized */
-     , (22138, 11, 0, 3, 0, 350, 0, 1332.84850978351) /* Sword               Specialized */
-     , (22138, 12, 0, 3, 0, 200, 0, 1332.84850978351) /* ThrownWeapon        Specialized */
-     , (22138, 13, 0, 3, 0, 200, 0, 1332.84850978351) /* UnarmedCombat       Specialized */
-     , (22138, 14, 0, 3, 0, 200, 0, 1332.84850978351) /* ArcaneLore          Specialized */
-     , (22138, 15, 0, 3, 0, 163, 0, 1332.84850978351) /* MagicDefense        Specialized */
-     , (22138, 16, 0, 3, 0, 200, 0, 1332.84850978351) /* ManaConversion      Specialized */
-     , (22138, 18, 0, 3, 0, 200, 0, 1332.84850978351) /* ItemTinkering       Specialized */
-     , (22138, 19, 0, 3, 0, 200, 0, 1332.84850978351) /* AssessPerson        Specialized */
-     , (22138, 20, 0, 3, 0, 100, 0, 1332.84850978351) /* Deception           Specialized */
-     , (22138, 21, 0, 3, 0, 200, 0, 1332.84850978351) /* Healing             Specialized */
-     , (22138, 22, 0, 3, 0, 200, 0, 1332.84850978351) /* Jump                Specialized */
-     , (22138, 23, 0, 3, 0, 200, 0, 1332.84850978351) /* Lockpick            Specialized */
-     , (22138, 24, 0, 3, 0, 200, 0, 1332.84850978351) /* Run                 Specialized */
-     , (22138, 27, 0, 3, 0, 200, 0, 1332.84850978351) /* AssessCreature      Specialized */
-     , (22138, 28, 0, 3, 0, 200, 0, 1332.84850978351) /* WeaponTinkering     Specialized */
-     , (22138, 29, 0, 3, 0,  20, 0, 1332.84850978351) /* ArmorTinkering      Specialized */
-     , (22138, 30, 0, 3, 0, 200, 0, 1332.84850978351) /* MagicItemTinkering  Specialized */
-     , (22138, 31, 0, 3, 0, 150, 0, 1332.84850978351) /* CreatureEnchantment Specialized */
-     , (22138, 32, 0, 3, 0, 200, 0, 1332.84850978351) /* ItemEnchantment     Specialized */
-     , (22138, 33, 0, 3, 0, 200, 0, 1332.84850978351) /* LifeMagic           Specialized */
-     , (22138, 34, 0, 3, 0, 700, 0, 1332.84850978351) /* WarMagic            Specialized */
-     , (22138, 35, 0, 3, 0, 450, 0, 1332.84850978351) /* Leadership          Specialized */
-     , (22138, 36, 0, 3, 0, 900, 0, 1332.84850978351) /* Loyalty             Specialized */
-     , (22138, 37, 0, 3, 0, 180, 0, 1332.84850978351) /* Fletching           Specialized */
-     , (22138, 38, 0, 3, 0, 400, 0, 1332.84850978351) /* Alchemy             Specialized */
-     , (22138, 39, 0, 3, 0, 900, 0, 1332.84850978351) /* Cooking             Specialized */;
+VALUES (22138,  1, 0, 3, 0, 200, 0, 1332.8485097835091) /* Axe                 Specialized */
+     , (22138,  2, 0, 3, 0, 255, 0, 1332.8485097835091) /* Bow                 Specialized */
+     , (22138,  3, 0, 3, 0, 200, 0, 1332.8485097835091) /* Crossbow            Specialized */
+     , (22138,  4, 0, 3, 0, 100, 0, 1332.8485097835091) /* Dagger              Specialized */
+     , (22138,  5, 0, 3, 0, 200, 0, 1332.8485097835091) /* Mace                Specialized */
+     , (22138,  6, 0, 3, 0, 180, 0, 1332.8485097835091) /* MeleeDefense        Specialized */
+     , (22138,  7, 0, 3, 0, 180, 0, 1332.8485097835091) /* MissileDefense      Specialized */
+     , (22138,  9, 0, 3, 0, 200, 0, 1332.8485097835091) /* Spear               Specialized */
+     , (22138, 10, 0, 3, 0, 200, 0, 1332.8485097835091) /* Staff               Specialized */
+     , (22138, 11, 0, 3, 0, 350, 0, 1332.8485097835091) /* Sword               Specialized */
+     , (22138, 12, 0, 3, 0, 200, 0, 1332.8485097835091) /* ThrownWeapon        Specialized */
+     , (22138, 13, 0, 3, 0, 200, 0, 1332.8485097835091) /* UnarmedCombat       Specialized */
+     , (22138, 14, 0, 3, 0, 200, 0, 1332.8485097835091) /* ArcaneLore          Specialized */
+     , (22138, 15, 0, 3, 0, 163, 0, 1332.8485097835091) /* MagicDefense        Specialized */
+     , (22138, 16, 0, 3, 0, 200, 0, 1332.8485097835091) /* ManaConversion      Specialized */
+     , (22138, 18, 0, 3, 0, 200, 0, 1332.8485097835091) /* ItemTinkering       Specialized */
+     , (22138, 19, 0, 3, 0, 200, 0, 1332.8485097835091) /* AssessPerson        Specialized */
+     , (22138, 20, 0, 3, 0, 100, 0, 1332.8485097835091) /* Deception           Specialized */
+     , (22138, 21, 0, 3, 0, 200, 0, 1332.8485097835091) /* Healing             Specialized */
+     , (22138, 22, 0, 3, 0, 200, 0, 1332.8485097835091) /* Jump                Specialized */
+     , (22138, 23, 0, 3, 0, 200, 0, 1332.8485097835091) /* Lockpick            Specialized */
+     , (22138, 24, 0, 3, 0, 200, 0, 1332.8485097835091) /* Run                 Specialized */
+     , (22138, 27, 0, 3, 0, 200, 0, 1332.8485097835091) /* AssessCreature      Specialized */
+     , (22138, 28, 0, 3, 0, 200, 0, 1332.8485097835091) /* WeaponTinkering     Specialized */
+     , (22138, 29, 0, 3, 0,  20, 0, 1332.8485097835091) /* ArmorTinkering      Specialized */
+     , (22138, 30, 0, 3, 0, 200, 0, 1332.8485097835091) /* MagicItemTinkering  Specialized */
+     , (22138, 31, 0, 3, 0, 150, 0, 1332.8485097835091) /* CreatureEnchantment Specialized */
+     , (22138, 32, 0, 3, 0, 200, 0, 1332.8485097835091) /* ItemEnchantment     Specialized */
+     , (22138, 33, 0, 3, 0, 200, 0, 1332.8485097835091) /* LifeMagic           Specialized */
+     , (22138, 34, 0, 3, 0, 700, 0, 1332.8485097835091) /* WarMagic            Specialized */
+     , (22138, 35, 0, 3, 0, 450, 0, 1332.8485097835091) /* Leadership          Specialized */
+     , (22138, 36, 0, 3, 0, 900, 0, 1332.8485097835091) /* Loyalty             Specialized */
+     , (22138, 37, 0, 3, 0, 180, 0, 1332.8485097835091) /* Fletching           Specialized */
+     , (22138, 38, 0, 3, 0, 400, 0, 1332.8485097835091) /* Alchemy             Specialized */
+     , (22138, 39, 0, 3, 0, 900, 0, 1332.8485097835091) /* Cooking             Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (22138,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -141,10 +141,10 @@ VALUES (22138,  5 /* HeartBeat */,      1, NULL, 2147483709 /* NonCombat */, 109
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   6 /* Move */, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 7, 0, 0, -4.371139E-08, 0, 0, -1)
-     , (@parent_id,  1,   6 /* Move */, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 14, 0, 0, -4.371139E-08, 0, 0, -1)
-     , (@parent_id,  2,   6 /* Move */, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 21, 0, 0, -4.371139E-08, 0, 0, -1)
-     , (@parent_id,  3,   6 /* Move */, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 28, 0, 0, -4.371139E-08, 0, 0, -1)
+VALUES (@parent_id,  0,   6 /* Move */, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 7, 0, 0, -4.371139E-08, 0, -0, -1)
+     , (@parent_id,  1,   6 /* Move */, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 14, 0, 0, -4.371139E-08, 0, -0, -1)
+     , (@parent_id,  2,   6 /* Move */, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 21, 0, 0, -4.371139E-08, 0, -0, -1)
+     , (@parent_id,  3,   6 /* Move */, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 28, 0, 0, -4.371139E-08, 0, -0, -1)
      , (@parent_id,  4,   5 /* Motion */, 220, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  5,   8 /* Say */, 0, 0, NULL, 'Through your efforts we have succeeded in defeating Gaerlan and holding the Harbinger at bay. But our fight is not yet done. We have earned this respite, and I truly hope that this time of peace continues to grow.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  6,   8 /* Say */, 5, 0, NULL, 'In the coming months I intend to see universities built so that future generations of our children born on this world can learn of the dangers that we faced and the sacrifices that were made to make this land ours.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)

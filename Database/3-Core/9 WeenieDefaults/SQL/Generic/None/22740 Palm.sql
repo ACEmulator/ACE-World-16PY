@@ -27,4 +27,4 @@ VALUES (22740,   1,   33554964) /* Setup */
      , (22740,   8,  100672531) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22740, -1, 22522, 120, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 6, 1, 0, 0, 0) /* Generate Tuskie Launcher (22522) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (22740, -1, 22522, 120, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 6, 1, 0, 0, -0) /* Generate Tuskie Launcher (22522) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

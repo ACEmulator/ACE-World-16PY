@@ -38,8 +38,8 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (22719,  16,          0) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (22719, 31, 0, 3, 0, 325, 0, 1373.21805180238) /* CreatureEnchantment Specialized */
-     , (22719, 33, 0, 3, 0, 325, 0, 1373.21805180238) /* LifeMagic           Specialized */;
+VALUES (22719, 31, 0, 3, 0, 325, 0, 1373.2180518023797) /* CreatureEnchantment Specialized */
+     , (22719, 33, 0, 3, 0, 325, 0, 1373.2180518023797) /* LifeMagic           Specialized */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (22719,  8 /* Activation */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

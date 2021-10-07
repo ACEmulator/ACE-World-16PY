@@ -81,7 +81,7 @@ VALUES (7104,   1,   33557327) /* Setup */
                                    Wield Acid Yari (23722) | Probability: 10%
                                    Wield Yari (23730) | Probability: 20%
                                    Wield Yaoji (23710) | Probability: 10%
-                                   Wield Fire Yaoji (23718) | Probability: 15%
+                                   Wield Fire Yaoji (23718) | Probability: 15.000001%
                                    Wield Acid Spear (23688) | Probability: 10%
                                    Wield Spear (23696) | Probability: 10%
                                    Wield Fire Tachi (23707) | Probability: 10%
@@ -102,24 +102,24 @@ VALUES (7104,   1,   100, 0, 0, 195) /* MaxHealth */
      , (7104,   5,    50, 0, 0, 260) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (7104,  1, 0, 3, 0, 225, 0, 519.714751728334) /* Axe                 Specialized */
-     , (7104,  2, 0, 3, 0, 190, 0, 519.714751728334) /* Bow                 Specialized */
-     , (7104,  3, 0, 3, 0, 190, 0, 519.714751728334) /* Crossbow            Specialized */
-     , (7104,  4, 0, 3, 0, 180, 0, 519.714751728334) /* Dagger              Specialized */
-     , (7104,  5, 0, 3, 0, 225, 0, 519.714751728334) /* Mace                Specialized */
-     , (7104,  6, 0, 3, 0, 250, 0, 519.714751728334) /* MeleeDefense        Specialized */
-     , (7104,  7, 0, 3, 0, 350, 0, 519.714751728334) /* MissileDefense      Specialized */
-     , (7104,  9, 0, 3, 0, 225, 0, 519.714751728334) /* Spear               Specialized */
-     , (7104, 10, 0, 3, 0, 225, 0, 519.714751728334) /* Staff               Specialized */
-     , (7104, 11, 0, 3, 0, 225, 0, 519.714751728334) /* Sword               Specialized */
-     , (7104, 13, 0, 3, 0, 225, 0, 519.714751728334) /* UnarmedCombat       Specialized */
-     , (7104, 14, 0, 3, 0, 275, 0, 519.714751728334) /* ArcaneLore          Specialized */
-     , (7104, 15, 0, 3, 0, 225, 0, 519.714751728334) /* MagicDefense        Specialized */
-     , (7104, 20, 0, 3, 0, 100, 0, 519.714751728334) /* Deception           Specialized */
-     , (7104, 24, 0, 3, 0,  40, 0, 519.714751728334) /* Run                 Specialized */
-     , (7104, 31, 0, 3, 0, 155, 0, 519.714751728334) /* CreatureEnchantment Specialized */
-     , (7104, 33, 0, 3, 0, 155, 0, 519.714751728334) /* LifeMagic           Specialized */
-     , (7104, 34, 0, 3, 0, 155, 0, 519.714751728334) /* WarMagic            Specialized */;
+VALUES (7104,  1, 0, 3, 0, 225, 0, 519.7147517283345) /* Axe                 Specialized */
+     , (7104,  2, 0, 3, 0, 190, 0, 519.7147517283345) /* Bow                 Specialized */
+     , (7104,  3, 0, 3, 0, 190, 0, 519.7147517283345) /* Crossbow            Specialized */
+     , (7104,  4, 0, 3, 0, 180, 0, 519.7147517283345) /* Dagger              Specialized */
+     , (7104,  5, 0, 3, 0, 225, 0, 519.7147517283345) /* Mace                Specialized */
+     , (7104,  6, 0, 3, 0, 250, 0, 519.7147517283345) /* MeleeDefense        Specialized */
+     , (7104,  7, 0, 3, 0, 350, 0, 519.7147517283345) /* MissileDefense      Specialized */
+     , (7104,  9, 0, 3, 0, 225, 0, 519.7147517283345) /* Spear               Specialized */
+     , (7104, 10, 0, 3, 0, 225, 0, 519.7147517283345) /* Staff               Specialized */
+     , (7104, 11, 0, 3, 0, 225, 0, 519.7147517283345) /* Sword               Specialized */
+     , (7104, 13, 0, 3, 0, 225, 0, 519.7147517283345) /* UnarmedCombat       Specialized */
+     , (7104, 14, 0, 3, 0, 275, 0, 519.7147517283345) /* ArcaneLore          Specialized */
+     , (7104, 15, 0, 3, 0, 225, 0, 519.7147517283345) /* MagicDefense        Specialized */
+     , (7104, 20, 0, 3, 0, 100, 0, 519.7147517283345) /* Deception           Specialized */
+     , (7104, 24, 0, 3, 0,  40, 0, 519.7147517283345) /* Run                 Specialized */
+     , (7104, 31, 0, 3, 0, 155, 0, 519.7147517283345) /* CreatureEnchantment Specialized */
+     , (7104, 33, 0, 3, 0, 155, 0, 519.7147517283345) /* LifeMagic           Specialized */
+     , (7104, 34, 0, 3, 0, 155, 0, 519.7147517283345) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (7104,  0,  4,  0,    0,  295,  133,  177,  177,   97,  118,  342,  207,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

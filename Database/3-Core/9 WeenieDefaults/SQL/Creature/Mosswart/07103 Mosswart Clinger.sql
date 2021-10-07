@@ -78,12 +78,12 @@ VALUES (7103,   1,   33557327) /* Setup */
      , (7103,  32,        280) /* WieldedTreasureType - 
                                    Wield 5x Fire Throwing Club (23659) | Probability: 25%
                                    Wield 4x Frost Throwing Club (23662) | Probability: 25%
-                                   Wield Acid Yari (23723) | Probability: 15%
+                                   Wield Acid Yari (23723) | Probability: 15.000001%
                                    Wield Yari (23731) | Probability: 25%
-                                   Wield Tachi (23701) | Probability: 15%
-                                   Wield Acid Spear (23689) | Probability: 15%
-                                   Wield Spear (23697) | Probability: 15%
-                                   Wield Fire Yaoji (23719) | Probability: 15% */
+                                   Wield Tachi (23701) | Probability: 15.000001%
+                                   Wield Acid Spear (23689) | Probability: 15.000001%
+                                   Wield Spear (23697) | Probability: 15.000001%
+                                   Wield Fire Yaoji (23719) | Probability: 15.000001% */
      , (7103,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

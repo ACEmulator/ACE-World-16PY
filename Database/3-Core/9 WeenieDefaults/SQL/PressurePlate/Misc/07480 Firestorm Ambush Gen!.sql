@@ -36,5 +36,5 @@ INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7480,  16,          0) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7480, -1, 7092, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, 3, 5, 0.7071068, 0, 0, -0.7071068) /* Generate Firestorm (7092) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (7480, -1, 7092, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, -3, 5, -0.7071068, 0, 0, -0.7071068) /* Generate Firestorm (7092) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (7480, -1, 7092, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, 3, 5, 0.70710677, 0, 0, -0.70710677) /* Generate Firestorm (7092) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (7480, -1, 7092, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, -3, 5, -0.70710677, 0, -0, -0.70710677) /* Generate Firestorm (7092) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

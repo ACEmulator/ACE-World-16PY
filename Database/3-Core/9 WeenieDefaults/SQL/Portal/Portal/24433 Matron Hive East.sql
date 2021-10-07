@@ -30,8 +30,8 @@ VALUES (24433,   1,   33556212) /* Setup */
      , (24433,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24433, 2, 1631978350, 140.042, -182.837, 0.005, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0x6146036E [140.042000 -182.837000 0.005000] 1.000000 0.000000 0.000000 0.000000 */;
+VALUES (24433, 2, 1631978350, 140.042, -182.837, 0.005, 1, 0, 0, -0) /* Destination */
+/* @teleloc 0x6146036E [140.042007 -182.837006 0.005000] 1.000000 0.000000 0.000000 -0.000000 */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (24433,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

@@ -34,7 +34,7 @@ VALUES (23127,  15, True ) /* LightsStatus */
      , (23127,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23127,   5,       0) /* ManaRate */
+VALUES (23127,   5,      -0) /* ManaRate */
      , (23127,  21,    0.68) /* WeaponLength */
      , (23127,  22,     0.4) /* DamageVariance */
      , (23127,  29,       1) /* WeaponDefense */

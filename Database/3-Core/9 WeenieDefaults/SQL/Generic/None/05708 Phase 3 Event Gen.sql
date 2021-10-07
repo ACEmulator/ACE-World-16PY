@@ -30,10 +30,10 @@ VALUES (5708,   1,   33555051) /* Setup */
      , (5708,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5708, -1, 260, 60, 1, 1, 1, 4, -1, 0, 0, 0, 0.1, -0.1, 15, 0.9990482, 0, 0, -0.04361939) /* Generate Cabbage (260) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (5708, -1, 260, 60, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 15, 1, 0, 0, 0) /* Generate Cabbage (260) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (5708, -1, 2566, 60, 1, 1, 1, 4, -1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0) /* Generate Black Rabbit (2566) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (5708, -1, 5429, 60, 1, 1, 1, 4, -1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0) /* Generate Desert Rabbit (5429) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (5708, -1, 5429, 60, 1, 1, 1, 4, -1, 0, 0, 0, 1, 3, 0, 1, 0, 0, 0) /* Generate Desert Rabbit (5429) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (5708, -1, 5429, 90, 1, 1, 1, 4, -1, 0, 0, 0, 1, 5, 0, 1, 0, 0, 0) /* Generate Desert Rabbit (5429) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (5708, -1, 5429, 90, 1, 1, 1, 4, -1, 0, 0, 0, 1, 6, 0, 1, 0, 0, 0) /* Generate Desert Rabbit (5429) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (5708, -1, 260, 60, 1, 1, 1, 4, -1, 0, 0, 0, 0.1, -0.1, 15, 0.99904823, 0, 0, -0.043619387) /* Generate Cabbage (260) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (5708, -1, 260, 60, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 15, 1, 0, 0, -0) /* Generate Cabbage (260) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (5708, -1, 2566, 60, 1, 1, 1, 4, -1, 0, 0, 0, 1, 0, 0, 1, 0, 0, -0) /* Generate Black Rabbit (2566) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (5708, -1, 5429, 60, 1, 1, 1, 4, -1, 0, 0, 0, 1, 1, 0, 1, 0, 0, -0) /* Generate Desert Rabbit (5429) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (5708, -1, 5429, 60, 1, 1, 1, 4, -1, 0, 0, 0, 1, 3, 0, 1, 0, 0, -0) /* Generate Desert Rabbit (5429) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (5708, -1, 5429, 90, 1, 1, 1, 4, -1, 0, 0, 0, 1, 5, 0, 1, 0, 0, -0) /* Generate Desert Rabbit (5429) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (5708, -1, 5429, 90, 1, 1, 1, 4, -1, 0, 0, 0, 1, 6, 0, 1, 0, 0, -0) /* Generate Desert Rabbit (5429) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

@@ -85,7 +85,7 @@ VALUES (12006,   1,   33557327) /* Setup */
                                    Wield Acid Yari (23722) | Probability: 10%
                                    Wield Yari (23730) | Probability: 20%
                                    Wield Yaoji (23710) | Probability: 10%
-                                   Wield Fire Yaoji (23718) | Probability: 15%
+                                   Wield Fire Yaoji (23718) | Probability: 15.000001%
                                    Wield Acid Spear (23688) | Probability: 10%
                                    Wield Spear (23696) | Probability: 10%
                                    Wield Fire Tachi (23707) | Probability: 10%

@@ -13,7 +13,7 @@ VALUES (25761,   1,        128) /* ItemType - Misc */
      , (25761,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25761, 150,        103) /* HookPlacement - Hook */
      , (25761, 151,          2) /* HookType - Wall */
-     , (25761, 197,          1) /* HookGroup */;
+     , (25761, 197,          1) /* HookGroup - NoisemakingItems */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25761,  22, True ) /* Inscribable */;

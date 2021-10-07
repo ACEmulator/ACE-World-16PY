@@ -17,7 +17,7 @@ VALUES (27332,   1,        256) /* ItemType - MissileWeapon */
      , (27332,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (27332,  49,         15) /* WeaponTime */
      , (27332,  50,          4) /* AmmoType - Atlatl */
-     , (27332,  51,          2) /* CombatUse - Missle */
+     , (27332,  51,          2) /* CombatUse - Missile */
      , (27332,  60,        120) /* WeaponRange */
      , (27332,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27332, 106,        250) /* ItemSpellcraft */

@@ -90,13 +90,13 @@ VALUES (11020,   1,   820, 0, 0, 1000) /* MaxHealth */
      , (11020,   5,    10, 0, 0, 170) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (11020,  6, 0, 3, 0, 320, 0, 711.908803178816) /* MeleeDefense        Specialized */
-     , (11020,  7, 0, 3, 0, 400, 0, 711.908803178816) /* MissileDefense      Specialized */
-     , (11020, 13, 0, 3, 0, 240, 0, 711.908803178816) /* UnarmedCombat       Specialized */
-     , (11020, 15, 0, 3, 0, 330, 0, 711.908803178816) /* MagicDefense        Specialized */
-     , (11020, 20, 0, 2, 0, 100, 0, 711.908803178816) /* Deception           Trained */
-     , (11020, 22, 0, 2, 0, 200, 0, 711.908803178816) /* Jump                Trained */
-     , (11020, 24, 0, 2, 0,  50, 0, 711.908803178816) /* Run                 Trained */;
+VALUES (11020,  6, 0, 3, 0, 320, 0, 711.9088031788157) /* MeleeDefense        Specialized */
+     , (11020,  7, 0, 3, 0, 400, 0, 711.9088031788157) /* MissileDefense      Specialized */
+     , (11020, 13, 0, 3, 0, 240, 0, 711.9088031788157) /* UnarmedCombat       Specialized */
+     , (11020, 15, 0, 3, 0, 330, 0, 711.9088031788157) /* MagicDefense        Specialized */
+     , (11020, 20, 0, 2, 0, 100, 0, 711.9088031788157) /* Deception           Trained */
+     , (11020, 22, 0, 2, 0, 200, 0, 711.9088031788157) /* Jump                Trained */
+     , (11020, 24, 0, 2, 0,  50, 0, 711.9088031788157) /* Run                 Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (11020,  0,  4,  5,    0,  600,  660,  480,  480,  600,  660,  660,  600,    0, 1,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0) /* Head */
@@ -174,5 +174,5 @@ VALUES (11020, 9, 11157,  0, 0, 0.03, False) /* Create Alchemy Tessera (11157) f
      , (11020, 9, 11191,  0, 0, 0.02, False) /* Create Weapon Tinkering Tessera (11191) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11020, -1, 11025, 60, 1, 1, 1, 4, -1, 0, 0, 0, -3, 5, 20, -4.371139E-08, 0, 0, -1) /* Generate Olthoi Brood Noble (11025) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (11020, -1, 11025, 60, 1, 1, 1, 4, -1, 0, 0, 0, 1, -5, 20, 1, 0, 0, 0) /* Generate Olthoi Brood Noble (11025) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (11020, -1, 11025, 60, 1, 1, 1, 4, -1, 0, 0, 0, -3, 5, 20, -4.371139E-08, 0, -0, -1) /* Generate Olthoi Brood Noble (11025) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (11020, -1, 11025, 60, 1, 1, 1, 4, -1, 0, 0, 0, 1, -5, 20, 1, 0, 0, -0) /* Generate Olthoi Brood Noble (11025) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

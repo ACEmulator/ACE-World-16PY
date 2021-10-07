@@ -88,12 +88,12 @@ VALUES (21139,   1,  8210, 0, 0, 8355) /* MaxHealth */
      , (21139,   5,  3500, 0, 0, 4000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (21139,  6, 0, 2, 0,   4, 0, 1289.97279033452) /* MeleeDefense        Trained */
-     , (21139,  7, 0, 2, 0,   5, 0, 1289.97279033452) /* MissileDefense      Trained */
-     , (21139, 13, 0, 2, 0,   5, 0, 1289.97279033452) /* UnarmedCombat       Trained */
-     , (21139, 31, 0, 3, 0, 200, 0, 1289.97279033452) /* CreatureEnchantment Specialized */
-     , (21139, 32, 0, 3, 0, 200, 0, 1289.97279033452) /* ItemEnchantment     Specialized */
-     , (21139, 33, 0, 3, 0, 200, 0, 1289.97279033452) /* LifeMagic           Specialized */;
+VALUES (21139,  6, 0, 2, 0,   4, 0, 1289.9727903345233) /* MeleeDefense        Trained */
+     , (21139,  7, 0, 2, 0,   5, 0, 1289.9727903345233) /* MissileDefense      Trained */
+     , (21139, 13, 0, 2, 0,   5, 0, 1289.9727903345233) /* UnarmedCombat       Trained */
+     , (21139, 31, 0, 3, 0, 200, 0, 1289.9727903345233) /* CreatureEnchantment Specialized */
+     , (21139, 32, 0, 3, 0, 200, 0, 1289.9727903345233) /* ItemEnchantment     Specialized */
+     , (21139, 33, 0, 3, 0, 200, 0, 1289.9727903345233) /* LifeMagic           Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (21139,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

@@ -79,8 +79,8 @@ VALUES (22003,   1,   33557484) /* Setup */
      , (22003,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22003, 12, 1464008980, 10.121, -32.81, -5.995, -4.371139E-08, 0, 0, -1) /* PortalSummonLoc */
-/* @teleloc 0x57430114 [10.121000 -32.810000 -5.995000] 0.000000 0.000000 0.000000 -1.000000 */;
+VALUES (22003, 12, 1464008980, 10.121, -32.81, -5.995, -4.371139E-08, 0, -0, -1) /* PortalSummonLoc */
+/* @teleloc 0x57430114 [10.121000 -32.810001 -5.995000] -0.000000 0.000000 -0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22003,   1, 150, 0, 0) /* Strength */
@@ -96,18 +96,18 @@ VALUES (22003,   1,  4900, 0, 0, 5000) /* MaxHealth */
      , (22003,   5,  2890, 0, 0, 3000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (22003,  6, 0, 3, 0, 272, 0, 1321.73028364479) /* MeleeDefense        Specialized */
-     , (22003,  7, 0, 3, 0, 340, 0, 1321.73028364479) /* MissileDefense      Specialized */
-     , (22003, 13, 0, 3, 0, 165, 0, 1321.73028364479) /* UnarmedCombat       Specialized */
-     , (22003, 14, 0, 2, 0, 180, 0, 1321.73028364479) /* ArcaneLore          Trained */
-     , (22003, 15, 0, 3, 0, 175, 0, 1321.73028364479) /* MagicDefense        Specialized */
-     , (22003, 20, 0, 2, 0, 100, 0, 1321.73028364479) /* Deception           Trained */
-     , (22003, 22, 0, 2, 0,  10, 0, 1321.73028364479) /* Jump                Trained */
-     , (22003, 24, 0, 2, 0,  10, 0, 1321.73028364479) /* Run                 Trained */
-     , (22003, 31, 0, 3, 0, 150, 0, 1321.73028364479) /* CreatureEnchantment Specialized */
-     , (22003, 32, 0, 3, 0, 150, 0, 1321.73028364479) /* ItemEnchantment     Specialized */
-     , (22003, 33, 0, 3, 0, 150, 0, 1321.73028364479) /* LifeMagic           Specialized */
-     , (22003, 34, 0, 3, 0, 150, 0, 1321.73028364479) /* WarMagic            Specialized */;
+VALUES (22003,  6, 0, 3, 0, 272, 0, 1321.730283644788) /* MeleeDefense        Specialized */
+     , (22003,  7, 0, 3, 0, 340, 0, 1321.730283644788) /* MissileDefense      Specialized */
+     , (22003, 13, 0, 3, 0, 165, 0, 1321.730283644788) /* UnarmedCombat       Specialized */
+     , (22003, 14, 0, 2, 0, 180, 0, 1321.730283644788) /* ArcaneLore          Trained */
+     , (22003, 15, 0, 3, 0, 175, 0, 1321.730283644788) /* MagicDefense        Specialized */
+     , (22003, 20, 0, 2, 0, 100, 0, 1321.730283644788) /* Deception           Trained */
+     , (22003, 22, 0, 2, 0,  10, 0, 1321.730283644788) /* Jump                Trained */
+     , (22003, 24, 0, 2, 0,  10, 0, 1321.730283644788) /* Run                 Trained */
+     , (22003, 31, 0, 3, 0, 150, 0, 1321.730283644788) /* CreatureEnchantment Specialized */
+     , (22003, 32, 0, 3, 0, 150, 0, 1321.730283644788) /* ItemEnchantment     Specialized */
+     , (22003, 33, 0, 3, 0, 150, 0, 1321.730283644788) /* LifeMagic           Specialized */
+     , (22003, 34, 0, 3, 0, 150, 0, 1321.730283644788) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (22003,  0,  4,  0,    0,  200,  150,  150,  200, 20000,  200,  160,  180,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

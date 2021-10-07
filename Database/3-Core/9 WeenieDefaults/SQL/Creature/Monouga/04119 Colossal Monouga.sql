@@ -90,15 +90,15 @@ VALUES (4119,   1,   200, 0, 0, 400) /* MaxHealth */
      , (4119,   5,     0, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (4119,  6, 0, 2, 0,  40, 0, 380.44385651342) /* MeleeDefense        Trained */
-     , (4119,  7, 0, 2, 0,  45, 0, 380.44385651342) /* MissileDefense      Trained */
-     , (4119, 13, 0, 2, 0, 120, 0, 380.44385651342) /* UnarmedCombat       Trained */
-     , (4119, 14, 0, 2, 0, 230, 0, 380.44385651342) /* ArcaneLore          Trained */
-     , (4119, 15, 0, 2, 0,  50, 0, 380.44385651342) /* MagicDefense        Trained */
-     , (4119, 20, 0, 2, 0,  70, 0, 380.44385651342) /* Deception           Trained */
-     , (4119, 31, 0, 2, 0, 230, 0, 380.44385651342) /* CreatureEnchantment Trained */
-     , (4119, 33, 0, 2, 0, 200, 0, 380.44385651342) /* LifeMagic           Trained */
-     , (4119, 34, 0, 2, 0, 250, 0, 380.44385651342) /* WarMagic            Trained */;
+VALUES (4119,  6, 0, 2, 0,  40, 0, 380.4438565134198) /* MeleeDefense        Trained */
+     , (4119,  7, 0, 2, 0,  45, 0, 380.4438565134198) /* MissileDefense      Trained */
+     , (4119, 13, 0, 2, 0, 120, 0, 380.4438565134198) /* UnarmedCombat       Trained */
+     , (4119, 14, 0, 2, 0, 230, 0, 380.4438565134198) /* ArcaneLore          Trained */
+     , (4119, 15, 0, 2, 0,  50, 0, 380.4438565134198) /* MagicDefense        Trained */
+     , (4119, 20, 0, 2, 0,  70, 0, 380.4438565134198) /* Deception           Trained */
+     , (4119, 31, 0, 2, 0, 230, 0, 380.4438565134198) /* CreatureEnchantment Trained */
+     , (4119, 33, 0, 2, 0, 200, 0, 380.4438565134198) /* LifeMagic           Trained */
+     , (4119, 34, 0, 2, 0, 250, 0, 380.4438565134198) /* WarMagic            Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (4119,  0,  4,  0,    0,  200,  260,  200,  400,  300,  400,  200,  200,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -124,9 +124,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'done exiting portal', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  1,  14 /* CastSpell */, 3, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 118 /* Flame Blast VI */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  2,   8 /* Say */, 0, 0, NULL, 'done casting flameblast6', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  3,  11 /* Turn */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0.9238795, 0, 0, -0.3826835)
+     , (@parent_id,  3,  11 /* Turn */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0.9238795, 0, 0, -0.38268346)
      , (@parent_id,  4,  14 /* CastSpell */, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 118 /* Flame Blast VI */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  5,  11 /* Turn */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0.7071068, 0, 0, -0.7071068)
+     , (@parent_id,  5,  11 /* Turn */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0.70710677, 0, 0, -0.70710677)
      , (@parent_id,  6,  14 /* CastSpell */, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 114 /* Lightning Blast VI */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  7,  11 /* Turn */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0.9999619, 0, 0, -0.008726535)
      , (@parent_id,  8,  14 /* CastSpell */, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 118 /* Flame Blast VI */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)

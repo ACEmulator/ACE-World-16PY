@@ -92,9 +92,9 @@ VALUES (28388,   1,  4999, 0, 0, 5000) /* MaxHealth */
      , (28388,   5,     0, 0, 0, 1) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (28388,  6, 0, 2, 0,   1, 0, 2018.37642720468) /* MeleeDefense        Trained */
-     , (28388,  7, 0, 2, 0,   1, 0, 2018.37642720468) /* MissileDefense      Trained */
-     , (28388, 15, 0, 3, 0,   1, 0, 2018.37642720468) /* MagicDefense        Specialized */;
+VALUES (28388,  6, 0, 2, 0,   1, 0, 2018.3764272046803) /* MeleeDefense        Trained */
+     , (28388,  7, 0, 2, 0,   1, 0, 2018.3764272046803) /* MissileDefense      Trained */
+     , (28388, 15, 0, 3, 0,   1, 0, 2018.3764272046803) /* MagicDefense        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (28388,  0,  4,  0,    0,  200,  200,  200,  200,  200,  200,  200,  200,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -112,16 +112,16 @@ VALUES (28388,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (28388, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28388, -1, 26019, 1, 1, 1, 1, 4, -1, 0, 0, 41353743, 28.7, -10.3, 6, -4.371139E-08, 0, 0, -1) /* Generate Burun Ruuk Seer (26019) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (28388, -1, 26019, 1, 1, 1, 1, 4, -1, 0, 0, 41353743, 31.2, -10.4, 6, -4.371139E-08, 0, 0, -1) /* Generate Burun Ruuk Seer (26019) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (28388, -1, 27984, 1, 1, 1, 1, 4, -1, 0, 0, 41353512, 30.1, -26.4, 0, -4.371139E-08, 0, 0, -1) /* Generate Guruk Crusher (27984) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (28388, -1, 27984, 1, 1, 1, 1, 4, -1, 0, 0, 41353534, 50, -40, 0.005, -4.371139E-08, 0, 0, -1) /* Generate Guruk Crusher (27984) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (28388, -1, 27984, 1, 1, 1, 1, 4, -1, 0, 0, 41353494, 10, -40, 0.005, -4.371139E-08, 0, 0, -1) /* Generate Guruk Crusher (27984) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (28388, -1, 27987, 1, 1, 1, 1, 4, -1, 0, 0, 41353536, 50, -50, 0.005, -0.7071068, 0, 0, -0.7071068) /* Generate Guruk Heavy (27987) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (28388, -1, 27987, 1, 1, 1, 1, 4, -1, 0, 0, 41353496, 10, -50, 0.005, 0.7071068, 0, 0, -0.7071068) /* Generate Guruk Heavy (27987) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (28388, -1, 27988, 1, 1, 1, 1, 4, -1, 0, 0, 41353503, 19.371, -40, 0.005, -4.371139E-08, 0, 0, -1) /* Generate Guruk Miscreant (27988) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (28388, -1, 27988, 1, 1, 1, 1, 4, -1, 0, 0, 41353503, 23.09, -40, 0.005, -4.371139E-08, 0, 0, -1) /* Generate Guruk Miscreant (27988) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (28388, -1, 27988, 1, 1, 1, 1, 4, -1, 0, 0, 41353519, 40.629, -40, 0.005, -4.371139E-08, 0, 0, -1) /* Generate Guruk Miscreant (27988) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (28388, -1, 27988, 1, 1, 1, 1, 4, -1, 0, 0, 41353519, 36.148, -40, 0.005, -4.371139E-08, 0, 0, -1) /* Generate Guruk Miscreant (27988) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (28388, -1, 26019, 1, 1, 1, 1, 4, -1, 0, 0, 41353513, 32.386, -40, 0.045, -4.371139E-08, 0, 0, -1) /* Generate Burun Ruuk Seer (26019) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (28388, -1, 26019, 1, 1, 1, 1, 4, -1, 0, 0, 41353513, 27.839, -40, 0.045, -4.371139E-08, 0, 0, -1) /* Generate Burun Ruuk Seer (26019) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (28388, -1, 26019, 1, 1, 1, 1, 4, -1, 0, 0, 41353743, 28.7, -10.3, 6, -4.371139E-08, 0, -0, -1) /* Generate Burun Ruuk Seer (26019) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (28388, -1, 26019, 1, 1, 1, 1, 4, -1, 0, 0, 41353743, 31.2, -10.4, 6, -4.371139E-08, 0, -0, -1) /* Generate Burun Ruuk Seer (26019) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (28388, -1, 27984, 1, 1, 1, 1, 4, -1, 0, 0, 41353512, 30.1, -26.4, 0, -4.371139E-08, 0, -0, -1) /* Generate Guruk Crusher (27984) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (28388, -1, 27984, 1, 1, 1, 1, 4, -1, 0, 0, 41353534, 50, -40, 0.005, -4.371139E-08, 0, -0, -1) /* Generate Guruk Crusher (27984) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (28388, -1, 27984, 1, 1, 1, 1, 4, -1, 0, 0, 41353494, 10, -40, 0.005, -4.371139E-08, 0, -0, -1) /* Generate Guruk Crusher (27984) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (28388, -1, 27987, 1, 1, 1, 1, 4, -1, 0, 0, 41353536, 50, -50, 0.005, -0.70710677, 0, -0, -0.70710677) /* Generate Guruk Heavy (27987) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (28388, -1, 27987, 1, 1, 1, 1, 4, -1, 0, 0, 41353496, 10, -50, 0.005, 0.70710677, 0, 0, -0.70710677) /* Generate Guruk Heavy (27987) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (28388, -1, 27988, 1, 1, 1, 1, 4, -1, 0, 0, 41353503, 19.371, -40, 0.005, -4.371139E-08, 0, -0, -1) /* Generate Guruk Miscreant (27988) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (28388, -1, 27988, 1, 1, 1, 1, 4, -1, 0, 0, 41353503, 23.09, -40, 0.005, -4.371139E-08, 0, -0, -1) /* Generate Guruk Miscreant (27988) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (28388, -1, 27988, 1, 1, 1, 1, 4, -1, 0, 0, 41353519, 40.629, -40, 0.005, -4.371139E-08, 0, -0, -1) /* Generate Guruk Miscreant (27988) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (28388, -1, 27988, 1, 1, 1, 1, 4, -1, 0, 0, 41353519, 36.148, -40, 0.005, -4.371139E-08, 0, -0, -1) /* Generate Guruk Miscreant (27988) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (28388, -1, 26019, 1, 1, 1, 1, 4, -1, 0, 0, 41353513, 32.386, -40, 0.045, -4.371139E-08, 0, -0, -1) /* Generate Burun Ruuk Seer (26019) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (28388, -1, 26019, 1, 1, 1, 1, 4, -1, 0, 0, 41353513, 27.839, -40, 0.045, -4.371139E-08, 0, -0, -1) /* Generate Burun Ruuk Seer (26019) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

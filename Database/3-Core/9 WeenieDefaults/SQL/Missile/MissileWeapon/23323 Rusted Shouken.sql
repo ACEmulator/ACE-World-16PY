@@ -20,7 +20,7 @@ VALUES (23323,   1,        256) /* ItemType - MissileWeapon */
      , (23323,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (23323,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (23323,  49,         10) /* WeaponTime */
-     , (23323,  51,          2) /* CombatUse - Missle */
+     , (23323,  51,          2) /* CombatUse - Missile */
      , (23323,  92,        100) /* Structure */
      , (23323,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (23323, 105,          3) /* ItemWorkmanship */

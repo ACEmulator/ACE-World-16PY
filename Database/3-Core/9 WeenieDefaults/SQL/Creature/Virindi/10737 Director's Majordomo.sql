@@ -74,8 +74,8 @@ VALUES (10737,   1,   33554497) /* Setup */
      , (10737,  31,      10732) /* LinkedPortalOne - Director's Chambers Portal */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10737, 12, 43516175, 200, -443, -18, -4.371139E-08, 0, 0, -1) /* PortalSummonLoc */
-/* @teleloc 0x0298010F [200.000000 -443.000000 -18.000000] 0.000000 0.000000 0.000000 -1.000000 */;
+VALUES (10737, 12, 43516175, 200, -443, -18, -4.371139E-08, 0, -0, -1) /* PortalSummonLoc */
+/* @teleloc 0x0298010F [200.000000 -443.000000 -18.000000] -0.000000 0.000000 -0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10737,   1,  30, 0, 0) /* Strength */
@@ -91,9 +91,9 @@ VALUES (10737,   1,    70, 0, 0, 145) /* MaxHealth */
      , (10737,   5,   300, 0, 0, 550) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (10737,  6, 0, 2, 0,   1, 0, 692.791107820209) /* MeleeDefense        Trained */
-     , (10737,  7, 0, 2, 0,   1, 0, 692.791107820209) /* MissileDefense      Trained */
-     , (10737, 13, 0, 2, 0,   1, 0, 692.791107820209) /* UnarmedCombat       Trained */;
+VALUES (10737,  6, 0, 2, 0,   1, 0, 692.7911078202093) /* MeleeDefense        Trained */
+     , (10737,  7, 0, 2, 0,   1, 0, 692.7911078202093) /* MissileDefense      Trained */
+     , (10737, 13, 0, 2, 0,   1, 0, 692.7911078202093) /* UnarmedCombat       Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (10737,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

@@ -13,7 +13,7 @@ VALUES (29611,   1,       2048) /* ItemType - Gem */
      , (29611,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29611, 150,        103) /* HookPlacement - Hook */
      , (29611, 151,          9) /* HookType - Floor, Yard */
-     , (29611, 197,          4) /* HookGroup */;
+     , (29611, 197,          4) /* HookGroup - PortalItems */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29611,  22, True ) /* Inscribable */;

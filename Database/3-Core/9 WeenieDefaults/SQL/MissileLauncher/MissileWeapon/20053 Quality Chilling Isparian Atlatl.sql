@@ -19,7 +19,7 @@ VALUES (20053,   1,        256) /* ItemType - MissileWeapon */
      , (20053,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (20053,  49,         15) /* WeaponTime */
      , (20053,  50,          4) /* AmmoType - Atlatl */
-     , (20053,  51,          2) /* CombatUse - Missle */
+     , (20053,  51,          2) /* CombatUse - Missile */
      , (20053,  60,        120) /* WeaponRange */
      , (20053,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (20053, 106,        300) /* ItemSpellcraft */

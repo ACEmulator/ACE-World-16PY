@@ -86,17 +86,17 @@ VALUES (14876,   1,   400, 0, 0, 570) /* MaxHealth */
      , (14876,   5,   300, 0, 0, 580) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (14876,  6, 0, 3, 0, 320, 0, 912.398571878918) /* MeleeDefense        Specialized */
-     , (14876,  7, 0, 3, 0, 418, 0, 912.398571878918) /* MissileDefense      Specialized */
-     , (14876, 12, 0, 3, 0,  70, 0, 912.398571878918) /* ThrownWeapon        Specialized */
-     , (14876, 13, 0, 3, 0, 290, 0, 912.398571878918) /* UnarmedCombat       Specialized */
-     , (14876, 14, 0, 3, 0, 170, 0, 912.398571878918) /* ArcaneLore          Specialized */
-     , (14876, 15, 0, 3, 0, 270, 0, 912.398571878918) /* MagicDefense        Specialized */
-     , (14876, 20, 0, 3, 0, 150, 0, 912.398571878918) /* Deception           Specialized */
-     , (14876, 24, 0, 3, 0, 100, 0, 912.398571878918) /* Run                 Specialized */
-     , (14876, 31, 0, 3, 0, 175, 0, 912.398571878918) /* CreatureEnchantment Specialized */
-     , (14876, 33, 0, 3, 0, 175, 0, 912.398571878918) /* LifeMagic           Specialized */
-     , (14876, 34, 0, 3, 0, 175, 0, 912.398571878918) /* WarMagic            Specialized */;
+VALUES (14876,  6, 0, 3, 0, 320, 0, 912.3985718789177) /* MeleeDefense        Specialized */
+     , (14876,  7, 0, 3, 0, 418, 0, 912.3985718789177) /* MissileDefense      Specialized */
+     , (14876, 12, 0, 3, 0,  70, 0, 912.3985718789177) /* ThrownWeapon        Specialized */
+     , (14876, 13, 0, 3, 0, 290, 0, 912.3985718789177) /* UnarmedCombat       Specialized */
+     , (14876, 14, 0, 3, 0, 170, 0, 912.3985718789177) /* ArcaneLore          Specialized */
+     , (14876, 15, 0, 3, 0, 270, 0, 912.3985718789177) /* MagicDefense        Specialized */
+     , (14876, 20, 0, 3, 0, 150, 0, 912.3985718789177) /* Deception           Specialized */
+     , (14876, 24, 0, 3, 0, 100, 0, 912.3985718789177) /* Run                 Specialized */
+     , (14876, 31, 0, 3, 0, 175, 0, 912.3985718789177) /* CreatureEnchantment Specialized */
+     , (14876, 33, 0, 3, 0, 175, 0, 912.3985718789177) /* LifeMagic           Specialized */
+     , (14876, 34, 0, 3, 0, 175, 0, 912.3985718789177) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (14876,  0, 32,  0,    0,  240,  240,  240,  240,  240,  240,  264,  264,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

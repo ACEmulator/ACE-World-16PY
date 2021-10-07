@@ -82,7 +82,7 @@ VALUES (29415,   1,   33556445) /* Setup */
                                    Wield Simi (345) | Probability: 10%
                                    Wield Tofun (356) | Probability: 10%
                                    Wield Yaoji (361) | Probability: 10%
-                                   Wield Drudge Board with Nail (7767) | Probability: 15%
+                                   Wield Drudge Board with Nail (7767) | Probability: 15.000001%
                                    Wield 10x Shouken (343) | Probability: 4%
                                    Wield 6x Throwing Dagger (315) | Probability: 5%
                                    Wield 4x Javelin (320) | Probability: 2%

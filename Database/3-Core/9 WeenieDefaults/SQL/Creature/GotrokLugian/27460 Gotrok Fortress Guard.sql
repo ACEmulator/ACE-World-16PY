@@ -79,8 +79,8 @@ VALUES (27460,   1,   33557003) /* Setup */
                                    Wield Lugian Club (23750) | Probability: 20%
                                    Wield Lugian Mace (23758) | Probability: 20%
                                    Wield Lugian Hammer (23754) | Probability: 20%
-                                   Wield Lugian Axe (23738) | Probability: 15%
-                                   Wield Lugian Morning Star (23762) | Probability: 15%
+                                   Wield Lugian Axe (23738) | Probability: 15.000001%
+                                   Wield Lugian Morning Star (23762) | Probability: 15.000001%
                                    Wield Lugian Axe (23739) | Probability: 5%
                                    Wield Lugian Morning Star (23763) | Probability: 5% */
      , (27460,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
@@ -198,7 +198,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Oh, you dropped some goods. Mind if I take my oick? Ha!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (27460, 16 /* KillTaunt */,   0.06, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (27460, 16 /* KillTaunt */, 0.060000002, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

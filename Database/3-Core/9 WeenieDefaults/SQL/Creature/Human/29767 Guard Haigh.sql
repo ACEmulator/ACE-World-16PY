@@ -84,9 +84,9 @@ VALUES (29767,   1,   125, 0, 0, 215) /* MaxHealth */
      , (29767,   5,    55, 0, 0, 275) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (29767,  6, 0, 2, 0,   1, 0, 2173.89587472416) /* MeleeDefense        Trained */
-     , (29767,  7, 0, 2, 0,   1, 0, 2173.89587472416) /* MissileDefense      Trained */
-     , (29767, 13, 0, 2, 0,   1, 0, 2173.89587472416) /* UnarmedCombat       Trained */;
+VALUES (29767,  6, 0, 2, 0,   1, 0, 2173.895874724163) /* MeleeDefense        Trained */
+     , (29767,  7, 0, 2, 0,   1, 0, 2173.895874724163) /* MissileDefense      Trained */
+     , (29767, 13, 0, 2, 0,   1, 0, 2173.895874724163) /* UnarmedCombat       Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (29767,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -207,7 +207,7 @@ VALUES (@parent_id,  0,  31 /* EraseQuest */, 0, 1, NULL, 'BrowerkBeaten', NULL,
      , (@parent_id,  5,  10 /* Tell */, 0, 1, NULL, 'This is for your efforts against the Burun Kukuur, King Browerk. You will need to wait three weeks before returning to me for another reward. If you wish to change your title and you have a scrap of Browerk''s hide I will accept the hide and give you a token that can be used to rename you to Browerk Killer!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (29767, 32 /* GotoSet */,   0.67, NULL, NULL, NULL, 'Rewards', NULL, NULL, NULL);
+VALUES (29767, 32 /* GotoSet */, 0.66999996, NULL, NULL, NULL, 'Rewards', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -233,7 +233,7 @@ VALUES (@parent_id,  0,  31 /* EraseQuest */, 0, 1, NULL, 'BrowerkBeaten', NULL,
      , (@parent_id,  5,  10 /* Tell */, 0, 1, NULL, 'This is for your efforts against the Burun Kukuur, King Browerk. You will need to wait three weeks before returning to me for another reward. If you wish to change your title and you have a scrap of Browerk''s hide I will accept the hide and give you a token that can be used to rename you to Browerk Killer!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (29767, 32 /* GotoSet */, 0.9999999, NULL, NULL, NULL, 'Rewards', NULL, NULL, NULL);
+VALUES (29767, 32 /* GotoSet */, 0.99999994, NULL, NULL, NULL, 'Rewards', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

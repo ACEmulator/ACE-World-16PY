@@ -93,16 +93,16 @@ VALUES (25285,   1,   290, 0, 0, 450) /* MaxHealth */
      , (25285,   5,     0, 0, 0, 220) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (25285,  1, 0, 3, 0, 280, 0, 1617.91290279539) /* Axe                 Specialized */
-     , (25285,  5, 0, 3, 0, 280, 0, 1617.91290279539) /* Mace                Specialized */
-     , (25285,  6, 0, 3, 0, 305, 0, 1617.91290279539) /* MeleeDefense        Specialized */
-     , (25285,  7, 0, 3, 0, 395, 0, 1617.91290279539) /* MissileDefense      Specialized */
-     , (25285, 12, 0, 3, 0, 180, 0, 1617.91290279539) /* ThrownWeapon        Specialized */
-     , (25285, 13, 0, 3, 0, 280, 0, 1617.91290279539) /* UnarmedCombat       Specialized */
-     , (25285, 15, 0, 3, 0, 275, 0, 1617.91290279539) /* MagicDefense        Specialized */
-     , (25285, 20, 0, 2, 0,  80, 0, 1617.91290279539) /* Deception           Trained */
-     , (25285, 22, 0, 2, 0,  80, 0, 1617.91290279539) /* Jump                Trained */
-     , (25285, 24, 0, 2, 0,  45, 0, 1617.91290279539) /* Run                 Trained */;
+VALUES (25285,  1, 0, 3, 0, 280, 0, 1617.9129027953932) /* Axe                 Specialized */
+     , (25285,  5, 0, 3, 0, 280, 0, 1617.9129027953932) /* Mace                Specialized */
+     , (25285,  6, 0, 3, 0, 305, 0, 1617.9129027953932) /* MeleeDefense        Specialized */
+     , (25285,  7, 0, 3, 0, 395, 0, 1617.9129027953932) /* MissileDefense      Specialized */
+     , (25285, 12, 0, 3, 0, 180, 0, 1617.9129027953932) /* ThrownWeapon        Specialized */
+     , (25285, 13, 0, 3, 0, 280, 0, 1617.9129027953932) /* UnarmedCombat       Specialized */
+     , (25285, 15, 0, 3, 0, 275, 0, 1617.9129027953932) /* MagicDefense        Specialized */
+     , (25285, 20, 0, 2, 0,  80, 0, 1617.9129027953932) /* Deception           Trained */
+     , (25285, 22, 0, 2, 0,  80, 0, 1617.9129027953932) /* Jump                Trained */
+     , (25285, 24, 0, 2, 0,  45, 0, 1617.9129027953932) /* Run                 Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (25285,  0,  4,  2,  0.3,  350,  200,  200,  200,  126,   60,  301,  280,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -142,7 +142,7 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'RenegadeRanForward', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  1,   6 /* Move */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 160, 0, 0.7071068, 0, 0, -0.7071068)
+     , (@parent_id,  1,   6 /* Move */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 160, 0, 0.70710677, 0, 0, -0.70710677)
      , (@parent_id,  2,  57 /* ResetHomePosition */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)

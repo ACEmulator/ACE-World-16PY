@@ -86,14 +86,14 @@ VALUES (24159,   1,   200, 0, 0, 201) /* MaxHealth */
      , (24159,   5, 20000, 0, 0, 20001) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (24159, 14, 0, 3, 0, 200, 0, 1526.49262904775) /* ArcaneLore          Specialized */
-     , (24159, 16, 0, 3, 0, 200, 0, 1526.49262904775) /* ManaConversion      Specialized */
-     , (24159, 20, 0, 3, 0, 900, 0, 1526.49262904775) /* Deception           Specialized */
-     , (24159, 22, 0, 3, 0, 200, 0, 1526.49262904775) /* Jump                Specialized */
-     , (24159, 24, 0, 3, 0, 200, 0, 1526.49262904775) /* Run                 Specialized */
-     , (24159, 31, 0, 3, 0, 900, 0, 1526.49262904775) /* CreatureEnchantment Specialized */
-     , (24159, 33, 0, 3, 0, 900, 0, 1526.49262904775) /* LifeMagic           Specialized */
-     , (24159, 34, 0, 3, 0, 900, 0, 1526.49262904775) /* WarMagic            Specialized */;
+VALUES (24159, 14, 0, 3, 0, 200, 0, 1526.4926290477483) /* ArcaneLore          Specialized */
+     , (24159, 16, 0, 3, 0, 200, 0, 1526.4926290477483) /* ManaConversion      Specialized */
+     , (24159, 20, 0, 3, 0, 900, 0, 1526.4926290477483) /* Deception           Specialized */
+     , (24159, 22, 0, 3, 0, 200, 0, 1526.4926290477483) /* Jump                Specialized */
+     , (24159, 24, 0, 3, 0, 200, 0, 1526.4926290477483) /* Run                 Specialized */
+     , (24159, 31, 0, 3, 0, 900, 0, 1526.4926290477483) /* CreatureEnchantment Specialized */
+     , (24159, 33, 0, 3, 0, 900, 0, 1526.4926290477483) /* LifeMagic           Specialized */
+     , (24159, 34, 0, 3, 0, 900, 0, 1526.4926290477483) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (24159,  0,  4,  0,    0,  200,  158,  158,  160,  200,  200,  200,  200,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -328,7 +328,7 @@ VALUES (@parent_id,  0,  19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL
      , (@parent_id,  1,  18 /* DirectBroadcast */, 0, 1, NULL, 'You''ve done well thus far--but now comes the test of cunning. There are two ways out of this next room: Death and out through the portal you can see across the length of this chamber. Good luck.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24159, 22 /* TestSuccess */,    0.6, NULL, NULL, NULL, 'lockpick_abysmal', NULL, NULL, NULL);
+VALUES (24159, 22 /* TestSuccess */, 0.59999996, NULL, NULL, NULL, 'lockpick_abysmal', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -342,7 +342,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  6,  18 /* DirectBroadcast */, 0, 1, NULL, 'This is actually painful to watch. Your struggling with the rudiments of what a lock is. Even the most unskilled and unlearned vagabond knows more than you. What were you thinking coming here?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24159, 22 /* TestSuccess */,    0.8, NULL, NULL, NULL, 'lockpick_abysmal', NULL, NULL, NULL);
+VALUES (24159, 22 /* TestSuccess */, 0.79999995, NULL, NULL, NULL, 'lockpick_abysmal', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -356,7 +356,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  6,  18 /* DirectBroadcast */, 0, 1, NULL, 'Another mistake like that and you could be in for quite the rude awakening. I hear that the lifestones actually scream when some people hit them as hard as you are going to.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24159, 22 /* TestSuccess */, 0.9999999, NULL, NULL, NULL, 'lockpick_abysmal', NULL, NULL, NULL);
+VALUES (24159, 22 /* TestSuccess */, 0.99999994, NULL, NULL, NULL, 'lockpick_abysmal', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

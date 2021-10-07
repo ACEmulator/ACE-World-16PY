@@ -84,9 +84,9 @@ VALUES (12737,   1,    70, 0, 0, 140) /* MaxHealth */
      , (12737,   5,    50, 0, 0, 165) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (12737,  6, 0, 2, 0,   1, 0, 816.368152020117) /* MeleeDefense        Trained */
-     , (12737,  7, 0, 2, 0,   1, 0, 816.368152020117) /* MissileDefense      Trained */
-     , (12737, 13, 0, 2, 0,   1, 0, 816.368152020117) /* UnarmedCombat       Trained */;
+VALUES (12737,  6, 0, 2, 0,   1, 0, 816.3681520201169) /* MeleeDefense        Trained */
+     , (12737,  7, 0, 2, 0,   1, 0, 816.3681520201169) /* MissileDefense      Trained */
+     , (12737, 13, 0, 2, 0,   1, 0, 816.3681520201169) /* UnarmedCombat       Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (12737,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -385,7 +385,7 @@ VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL
      , (@parent_id,  1,  67 /* Goto */, 0, 1, NULL, 'EndSpeechSet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12737, 32 /* GotoSet */,    0.7, NULL, NULL, NULL, 'GiveCoatSet', NULL, NULL, NULL);
+VALUES (12737, 32 /* GotoSet */, 0.70000005, NULL, NULL, NULL, 'GiveCoatSet', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -412,7 +412,7 @@ VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL
      , (@parent_id,  1,  67 /* Goto */, 0, 1, NULL, 'EndSpeechSet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12737, 32 /* GotoSet */,      1, NULL, NULL, NULL, 'GiveCoatSet', NULL, NULL, NULL);
+VALUES (12737, 32 /* GotoSet */, 1.0000001, NULL, NULL, NULL, 'GiveCoatSet', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

@@ -89,11 +89,11 @@ VALUES (26466,   1,   100, 0, 0, 160) /* MaxHealth */
      , (26466,   5,   100, 0, 0, 265) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (26466,  6, 0, 2, 0,   2, 0, 1779.14700879013) /* MeleeDefense        Trained */
-     , (26466,  7, 0, 2, 0,   2, 0, 1779.14700879013) /* MissileDefense      Trained */
-     , (26466, 13, 0, 2, 0,   2, 0, 1779.14700879013) /* UnarmedCombat       Trained */
-     , (26466, 31, 0, 2, 0,   2, 0, 1779.14700879013) /* CreatureEnchantment Trained */
-     , (26466, 32, 0, 3, 0, 400, 0, 1779.14700879013) /* ItemEnchantment     Specialized */;
+VALUES (26466,  6, 0, 2, 0,   2, 0, 1779.1470087901293) /* MeleeDefense        Trained */
+     , (26466,  7, 0, 2, 0,   2, 0, 1779.1470087901293) /* MissileDefense      Trained */
+     , (26466, 13, 0, 2, 0,   2, 0, 1779.1470087901293) /* UnarmedCombat       Trained */
+     , (26466, 31, 0, 2, 0,   2, 0, 1779.1470087901293) /* CreatureEnchantment Trained */
+     , (26466, 32, 0, 3, 0, 400, 0, 1779.1470087901293) /* ItemEnchantment     Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (26466,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -147,7 +147,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767440 /* ScanHorizon */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (26466,  5 /* HeartBeat */,   0.54, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (26466,  5 /* HeartBeat */, 0.53999996, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -155,7 +155,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767308 /* Teapot */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (26466,  5 /* HeartBeat */, 0.5599999, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (26466,  5 /* HeartBeat */, 0.55999994, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -300,7 +300,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 0, 1, NULL, 'Easy guys, I drink my stout just like the rest of you - one sip at a time. Except, once my mugs empty, I make gold gromnies.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (26466, 32 /* GotoSet */,    0.9, NULL, NULL, NULL, 'Drink', NULL, NULL, NULL);
+VALUES (26466, 32 /* GotoSet */, 0.90000004, NULL, NULL, NULL, 'Drink', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

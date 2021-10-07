@@ -133,7 +133,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'You rummage through the papers again. Amazing, you never realized that the Renegades were so organized.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (25484, 12 /* QuestSuccess */,    0.9, NULL, NULL, NULL, 'LetterGarsh', NULL, NULL, NULL);
+VALUES (25484, 12 /* QuestSuccess */, 0.90000004, NULL, NULL, NULL, 'LetterGarsh', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -141,7 +141,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'You find a little green lump of putty and drop it in disgust.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (25484, 12 /* QuestSuccess */,   0.95, NULL, NULL, NULL, 'LetterGarsh', NULL, NULL, NULL);
+VALUES (25484, 12 /* QuestSuccess */, 0.95000005, NULL, NULL, NULL, 'LetterGarsh', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

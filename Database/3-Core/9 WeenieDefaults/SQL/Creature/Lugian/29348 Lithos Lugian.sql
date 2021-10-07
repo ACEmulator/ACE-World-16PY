@@ -76,7 +76,7 @@ VALUES (29348,   1,   33557003) /* Setup */
      , (29348,  32,        110) /* WieldedTreasureType - 
                                    Wield Lugian Axe (23741) | Probability: 40%
                                    Wield Lugian Mace (23759) | Probability: 20%
-                                   Wield Lugian Hammer (23755) | Probability: 15%
+                                   Wield Lugian Hammer (23755) | Probability: 15.000001%
                                    Wield Lugian Morning Star (23767) | Probability: 20% */
      , (29348,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
@@ -273,7 +273,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'My brother, I will not let you dishonor the pact between our kingdoms.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (29348, 18 /* Scream */,    0.2, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (29348, 18 /* Scream */, 0.19999999, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

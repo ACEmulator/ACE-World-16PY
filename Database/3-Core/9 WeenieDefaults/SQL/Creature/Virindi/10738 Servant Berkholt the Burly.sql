@@ -83,17 +83,17 @@ VALUES (10738,   1,    50, 0, 0, 125) /* MaxHealth */
      , (10738,   5,   300, 0, 0, 550) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (10738,  4, 0, 2, 0, 100, 0, 692.866493258946) /* Dagger              Trained */
-     , (10738,  6, 0, 2, 0, 180, 0, 692.866493258946) /* MeleeDefense        Trained */
-     , (10738,  7, 0, 2, 0, 100, 0, 692.866493258946) /* MissileDefense      Trained */
-     , (10738, 13, 0, 2, 0, 150, 0, 692.866493258946) /* UnarmedCombat       Trained */
-     , (10738, 14, 0, 2, 0, 190, 0, 692.866493258946) /* ArcaneLore          Trained */
-     , (10738, 15, 0, 2, 0, 187, 0, 692.866493258946) /* MagicDefense        Trained */
-     , (10738, 20, 0, 2, 0, 250, 0, 692.866493258946) /* Deception           Trained */
-     , (10738, 24, 0, 2, 0,  80, 0, 692.866493258946) /* Run                 Trained */
-     , (10738, 31, 0, 2, 0, 125, 0, 692.866493258946) /* CreatureEnchantment Trained */
-     , (10738, 33, 0, 2, 0, 100, 0, 692.866493258946) /* LifeMagic           Trained */
-     , (10738, 34, 0, 2, 0, 150, 0, 692.866493258946) /* WarMagic            Trained */;
+VALUES (10738,  4, 0, 2, 0, 100, 0, 692.8664932589459) /* Dagger              Trained */
+     , (10738,  6, 0, 2, 0, 180, 0, 692.8664932589459) /* MeleeDefense        Trained */
+     , (10738,  7, 0, 2, 0, 100, 0, 692.8664932589459) /* MissileDefense      Trained */
+     , (10738, 13, 0, 2, 0, 150, 0, 692.8664932589459) /* UnarmedCombat       Trained */
+     , (10738, 14, 0, 2, 0, 190, 0, 692.8664932589459) /* ArcaneLore          Trained */
+     , (10738, 15, 0, 2, 0, 187, 0, 692.8664932589459) /* MagicDefense        Trained */
+     , (10738, 20, 0, 2, 0, 250, 0, 692.8664932589459) /* Deception           Trained */
+     , (10738, 24, 0, 2, 0,  80, 0, 692.8664932589459) /* Run                 Trained */
+     , (10738, 31, 0, 2, 0, 125, 0, 692.8664932589459) /* CreatureEnchantment Trained */
+     , (10738, 33, 0, 2, 0, 100, 0, 692.8664932589459) /* LifeMagic           Trained */
+     , (10738, 34, 0, 2, 0, 150, 0, 692.8664932589459) /* WarMagic            Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (10738,  0,  1,  0,    0,  120,  120,  120,  120,   86,  120,  120,   86,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

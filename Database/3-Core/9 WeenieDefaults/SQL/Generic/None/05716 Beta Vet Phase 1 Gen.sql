@@ -31,4 +31,4 @@ INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_C
 VALUES (5716, 0.45, 5742, 900, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Faded Parchment Scrap (5742) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (5716, 0.75, 5743, 900, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Faded Parchment Scrap (5743) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (5716, 0.8, 5744, 900, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Faded Parchment Scrap (5744) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (5716, 1, 5705, 900, 1, 1, 1, 4, -1, 0, 0, 0, 6, 3, 40, 0.6427876, 0, 0, -0.7660444) /* Generate Flicker (5705) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+     , (5716, 1, 5705, 900, 1, 1, 1, 4, -1, 0, 0, 0, 6, 3, 40, 0.64278764, 0, 0, -0.76604444) /* Generate Flicker (5705) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

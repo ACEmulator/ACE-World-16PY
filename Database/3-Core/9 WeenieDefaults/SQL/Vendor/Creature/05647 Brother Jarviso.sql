@@ -94,9 +94,9 @@ VALUES (5647,   1,     0, 0, 0, 63) /* MaxHealth */
      , (5647,   5,     0, 0, 0, 160) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (5647, 14, 0, 2, 0, 110, 0, 434.767193390175) /* ArcaneLore          Trained */
-     , (5647, 31, 0, 2, 0, 100, 0, 434.767193390175) /* CreatureEnchantment Trained */
-     , (5647, 33, 0, 2, 0, 100, 0, 434.767193390175) /* LifeMagic           Trained */;
+VALUES (5647, 14, 0, 2, 0, 110, 0, 434.7671933901747) /* ArcaneLore          Trained */
+     , (5647, 31, 0, 2, 0, 100, 0, 434.7671933901747) /* CreatureEnchantment Trained */
+     , (5647, 33, 0, 2, 0, 100, 0, 434.7671933901747) /* LifeMagic           Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (5647,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

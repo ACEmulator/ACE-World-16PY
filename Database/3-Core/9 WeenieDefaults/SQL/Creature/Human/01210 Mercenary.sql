@@ -375,8 +375,8 @@ VALUES (1210,   1,   33554433) /* Setup */
                                    Wield 50x Greater Armor Piercing Quarrel (5318) | Probability: 100%
                                    Wield Heavy Crossbow (23665) | Probability: 5%
                                    Wield 50x Greater Frost Quarrel (5315) | Probability: 100%
-                                   Wield Yaoji (23710) | Probability: 15%
-                                   Wield Fire Tachi (23707) | Probability: 15%
+                                   Wield Yaoji (23710) | Probability: 15.000001%
+                                   Wield Fire Tachi (23707) | Probability: 15.000001%
                                    Wield Dagger (23669) | Probability: 10%
                                    Wield Jambiya (22780) | Probability: 10%
                                    Wield Khanjar (22783) | Probability: 10%
@@ -397,15 +397,15 @@ VALUES (1210,   1,   150, 0, 0, 250) /* MaxHealth */
      , (1210,   5,     0, 0, 0, 80) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (1210,  2, 0, 3, 0, 160, 0, 298.956752857342) /* Bow                 Specialized */
-     , (1210,  3, 0, 3, 0, 160, 0, 298.956752857342) /* Crossbow            Specialized */
-     , (1210,  4, 0, 3, 0,   0, 0, 298.956752857342) /* Dagger              Specialized */
-     , (1210,  6, 0, 3, 0, 275, 0, 298.956752857342) /* MeleeDefense        Specialized */
-     , (1210,  7, 0, 3, 0, 400, 0, 298.956752857342) /* MissileDefense      Specialized */
-     , (1210, 11, 0, 3, 0, 270, 0, 298.956752857342) /* Sword               Specialized */
-     , (1210, 12, 0, 3, 0, 160, 0, 298.956752857342) /* ThrownWeapon        Specialized */
-     , (1210, 14, 0, 3, 0, 250, 0, 298.956752857342) /* ArcaneLore          Specialized */
-     , (1210, 15, 0, 3, 0, 300, 0, 298.956752857342) /* MagicDefense        Specialized */;
+VALUES (1210,  2, 0, 3, 0, 160, 0, 298.9567528573418) /* Bow                 Specialized */
+     , (1210,  3, 0, 3, 0, 160, 0, 298.9567528573418) /* Crossbow            Specialized */
+     , (1210,  4, 0, 3, 0,   0, 0, 298.9567528573418) /* Dagger              Specialized */
+     , (1210,  6, 0, 3, 0, 275, 0, 298.9567528573418) /* MeleeDefense        Specialized */
+     , (1210,  7, 0, 3, 0, 400, 0, 298.9567528573418) /* MissileDefense      Specialized */
+     , (1210, 11, 0, 3, 0, 270, 0, 298.9567528573418) /* Sword               Specialized */
+     , (1210, 12, 0, 3, 0, 160, 0, 298.9567528573418) /* ThrownWeapon        Specialized */
+     , (1210, 14, 0, 3, 0, 250, 0, 298.9567528573418) /* ArcaneLore          Specialized */
+     , (1210, 15, 0, 3, 0, 300, 0, 298.9567528573418) /* MagicDefense        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (1210,  0,  4,  0,    0,  225,  203,  225,  248,   90,   90,  225,  135,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

@@ -98,24 +98,24 @@ VALUES (4106,   1,   200, 0, 0, 325) /* MaxHealth */
      , (4106,   5,   120, 0, 0, 400) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (4106,  1, 0, 3, 0, 250, 0, 379.88318878617) /* Axe                 Specialized */
-     , (4106,  2, 0, 3, 0, 160, 0, 379.88318878617) /* Bow                 Specialized */
-     , (4106,  3, 0, 3, 0, 160, 0, 379.88318878617) /* Crossbow            Specialized */
-     , (4106,  4, 0, 3, 0,  95, 0, 379.88318878617) /* Dagger              Specialized */
-     , (4106,  5, 0, 3, 0, 250, 0, 379.88318878617) /* Mace                Specialized */
-     , (4106,  6, 0, 3, 0, 260, 0, 379.88318878617) /* MeleeDefense        Specialized */
-     , (4106,  7, 0, 3, 0, 380, 0, 379.88318878617) /* MissileDefense      Specialized */
-     , (4106,  9, 0, 3, 0, 250, 0, 379.88318878617) /* Spear               Specialized */
-     , (4106, 10, 0, 3, 0, 250, 0, 379.88318878617) /* Staff               Specialized */
-     , (4106, 11, 0, 3, 0, 250, 0, 379.88318878617) /* Sword               Specialized */
-     , (4106, 13, 0, 3, 0, 250, 0, 379.88318878617) /* UnarmedCombat       Specialized */
-     , (4106, 14, 0, 3, 0, 250, 0, 379.88318878617) /* ArcaneLore          Specialized */
-     , (4106, 15, 0, 3, 0, 205, 0, 379.88318878617) /* MagicDefense        Specialized */
-     , (4106, 20, 0, 3, 0,  70, 0, 379.88318878617) /* Deception           Specialized */
-     , (4106, 24, 0, 2, 0,  50, 0, 379.88318878617) /* Run                 Trained */
-     , (4106, 31, 0, 3, 0, 120, 0, 379.88318878617) /* CreatureEnchantment Specialized */
-     , (4106, 33, 0, 3, 0, 120, 0, 379.88318878617) /* LifeMagic           Specialized */
-     , (4106, 34, 0, 3, 0, 120, 0, 379.88318878617) /* WarMagic            Specialized */;
+VALUES (4106,  1, 0, 3, 0, 250, 0, 379.88318878617036) /* Axe                 Specialized */
+     , (4106,  2, 0, 3, 0, 160, 0, 379.88318878617036) /* Bow                 Specialized */
+     , (4106,  3, 0, 3, 0, 160, 0, 379.88318878617036) /* Crossbow            Specialized */
+     , (4106,  4, 0, 3, 0,  95, 0, 379.88318878617036) /* Dagger              Specialized */
+     , (4106,  5, 0, 3, 0, 250, 0, 379.88318878617036) /* Mace                Specialized */
+     , (4106,  6, 0, 3, 0, 260, 0, 379.88318878617036) /* MeleeDefense        Specialized */
+     , (4106,  7, 0, 3, 0, 380, 0, 379.88318878617036) /* MissileDefense      Specialized */
+     , (4106,  9, 0, 3, 0, 250, 0, 379.88318878617036) /* Spear               Specialized */
+     , (4106, 10, 0, 3, 0, 250, 0, 379.88318878617036) /* Staff               Specialized */
+     , (4106, 11, 0, 3, 0, 250, 0, 379.88318878617036) /* Sword               Specialized */
+     , (4106, 13, 0, 3, 0, 250, 0, 379.88318878617036) /* UnarmedCombat       Specialized */
+     , (4106, 14, 0, 3, 0, 250, 0, 379.88318878617036) /* ArcaneLore          Specialized */
+     , (4106, 15, 0, 3, 0, 205, 0, 379.88318878617036) /* MagicDefense        Specialized */
+     , (4106, 20, 0, 3, 0,  70, 0, 379.88318878617036) /* Deception           Specialized */
+     , (4106, 24, 0, 2, 0,  50, 0, 379.88318878617036) /* Run                 Trained */
+     , (4106, 31, 0, 3, 0, 120, 0, 379.88318878617036) /* CreatureEnchantment Specialized */
+     , (4106, 33, 0, 3, 0, 120, 0, 379.88318878617036) /* LifeMagic           Specialized */
+     , (4106, 34, 0, 3, 0, 120, 0, 379.88318878617036) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (4106,  0,  4,  0,    0,  220,  220,  220,  220,  220,  220,  220,  220,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

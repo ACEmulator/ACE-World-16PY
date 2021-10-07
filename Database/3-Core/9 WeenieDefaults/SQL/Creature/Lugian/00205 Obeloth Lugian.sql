@@ -77,7 +77,7 @@ VALUES (205,   1,   33557003) /* Setup */
                                    Wield Rock (23747) | Probability: 90%
                                    Wield Lugian Axe (23741) | Probability: 20%
                                    Wield Lugian Mace (23759) | Probability: 40%
-                                   Wield Lugian Hammer (23755) | Probability: 30% */
+                                   Wield Lugian Hammer (23755) | Probability: 30.000002% */
      , (205,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -94,16 +94,16 @@ VALUES (205,   1,    50, 0, 0, 150) /* MaxHealth */
      , (205,   5,     0, 0, 0, 85) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (205,  1, 0, 3, 0,  90, 0, 271.521029009626) /* Axe                 Specialized */
-     , (205,  5, 0, 3, 0,  90, 0, 271.521029009626) /* Mace                Specialized */
-     , (205,  6, 0, 3, 0,  72, 0, 271.521029009626) /* MeleeDefense        Specialized */
-     , (205,  7, 0, 3, 0, 118, 0, 271.521029009626) /* MissileDefense      Specialized */
-     , (205, 12, 0, 3, 0,  70, 0, 271.521029009626) /* ThrownWeapon        Specialized */
-     , (205, 13, 0, 3, 0,  90, 0, 271.521029009626) /* UnarmedCombat       Specialized */
-     , (205, 15, 0, 3, 0,  84, 0, 271.521029009626) /* MagicDefense        Specialized */
-     , (205, 20, 0, 3, 0,  40, 0, 271.521029009626) /* Deception           Specialized */
-     , (205, 22, 0, 3, 0, 140, 0, 271.521029009626) /* Jump                Specialized */
-     , (205, 24, 0, 3, 0,  50, 0, 271.521029009626) /* Run                 Specialized */;
+VALUES (205,  1, 0, 3, 0,  90, 0, 271.52102900962586) /* Axe                 Specialized */
+     , (205,  5, 0, 3, 0,  90, 0, 271.52102900962586) /* Mace                Specialized */
+     , (205,  6, 0, 3, 0,  72, 0, 271.52102900962586) /* MeleeDefense        Specialized */
+     , (205,  7, 0, 3, 0, 118, 0, 271.52102900962586) /* MissileDefense      Specialized */
+     , (205, 12, 0, 3, 0,  70, 0, 271.52102900962586) /* ThrownWeapon        Specialized */
+     , (205, 13, 0, 3, 0,  90, 0, 271.52102900962586) /* UnarmedCombat       Specialized */
+     , (205, 15, 0, 3, 0,  84, 0, 271.52102900962586) /* MagicDefense        Specialized */
+     , (205, 20, 0, 3, 0,  40, 0, 271.52102900962586) /* Deception           Specialized */
+     , (205, 22, 0, 3, 0, 140, 0, 271.52102900962586) /* Jump                Specialized */
+     , (205, 24, 0, 3, 0,  50, 0, 271.52102900962586) /* Run                 Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (205,  0,  4,  2,  0.3,  100,   51,   51,   51,   26,    3,   84,   80,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -273,7 +273,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'My brother, I will not let you dishonor the pact between our kingdoms.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (205, 18 /* Scream */,    0.2, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (205, 18 /* Scream */, 0.19999999, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

@@ -70,7 +70,7 @@ VALUES (1256,   1,   33557327) /* Setup */
      , (1256,   8,  100667449) /* Icon */
      , (1256,  22,  872415264) /* PhysicsEffectTable */
      , (1256,  32,        121) /* WieldedTreasureType - 
-                                   Wield Budiaq (308) | Probability: 15%
+                                   Wield Budiaq (308) | Probability: 15.000001%
                                    Wield Scimitar (339) | Probability: 12%
                                    Wield Shamshir (340) | Probability: 12%
                                    Wield Spear (348) | Probability: 25%

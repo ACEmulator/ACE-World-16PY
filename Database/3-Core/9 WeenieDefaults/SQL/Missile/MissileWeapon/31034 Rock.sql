@@ -22,7 +22,7 @@ VALUES (31034,   1,        256) /* ItemType - MissileWeapon */
      , (31034,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (31034,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (31034,  49,         20) /* WeaponTime */
-     , (31034,  51,          2) /* CombatUse - Missle */
+     , (31034,  51,          2) /* CombatUse - Missile */
      , (31034,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

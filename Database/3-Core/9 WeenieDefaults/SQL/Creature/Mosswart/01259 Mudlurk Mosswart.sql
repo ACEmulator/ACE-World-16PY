@@ -70,7 +70,7 @@ VALUES (1259,   1,   33557327) /* Setup */
      , (1259,   8,  100667449) /* Icon */
      , (1259,  22,  872415264) /* PhysicsEffectTable */
      , (1259,  32,        136) /* WieldedTreasureType - 
-                                   Wield Budiaq (308) | Probability: 15%
+                                   Wield Budiaq (308) | Probability: 15.000001%
                                    Wield Scimitar (339) | Probability: 12%
                                    Wield Shamshir (340) | Probability: 12%
                                    Wield Spear (348) | Probability: 25%
@@ -96,13 +96,13 @@ VALUES (1259,   1,    30, 0, 0, 75) /* MaxHealth */
      , (1259,   5,    25, 0, 0, 75) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (1259,  1, 0, 2, 0,  90, 0, 300.371805898697) /* Axe                 Trained */
-     , (1259,  6, 0, 2, 0,  60, 0, 300.371805898697) /* MeleeDefense        Trained */
-     , (1259,  7, 0, 2, 0,  40, 0, 300.371805898697) /* MissileDefense      Trained */
-     , (1259, 13, 0, 2, 0,  90, 0, 300.371805898697) /* UnarmedCombat       Trained */
-     , (1259, 15, 0, 2, 0,  60, 0, 300.371805898697) /* MagicDefense        Trained */
-     , (1259, 20, 0, 2, 0,  60, 0, 300.371805898697) /* Deception           Trained */
-     , (1259, 24, 0, 2, 0,  40, 0, 300.371805898697) /* Run                 Trained */;
+VALUES (1259,  1, 0, 2, 0,  90, 0, 300.37180589869723) /* Axe                 Trained */
+     , (1259,  6, 0, 2, 0,  60, 0, 300.37180589869723) /* MeleeDefense        Trained */
+     , (1259,  7, 0, 2, 0,  40, 0, 300.37180589869723) /* MissileDefense      Trained */
+     , (1259, 13, 0, 2, 0,  90, 0, 300.37180589869723) /* UnarmedCombat       Trained */
+     , (1259, 15, 0, 2, 0,  60, 0, 300.37180589869723) /* MagicDefense        Trained */
+     , (1259, 20, 0, 2, 0,  60, 0, 300.37180589869723) /* Deception           Trained */
+     , (1259, 24, 0, 2, 0,  40, 0, 300.37180589869723) /* Run                 Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (1259,  0,  4,  0,    0,   55,   15,   20,   20,   37,   22,    3,   39,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

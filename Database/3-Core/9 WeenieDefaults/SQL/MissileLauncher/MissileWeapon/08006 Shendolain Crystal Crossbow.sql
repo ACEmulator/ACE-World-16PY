@@ -18,7 +18,7 @@ VALUES (8006,   1,        256) /* ItemType - MissileWeapon */
      , (8006,  48,          3) /* WeaponSkill - Crossbow */
      , (8006,  49,        120) /* WeaponTime */
      , (8006,  50,         16) /* AmmoType - BoltCrystal */
-     , (8006,  51,          2) /* CombatUse - Missle */
+     , (8006,  51,          2) /* CombatUse - Missile */
      , (8006,  52,          2) /* ParentLocation - LeftHand */
      , (8006,  53,          3) /* PlacementPosition - LeftHand */
      , (8006,  60,        180) /* WeaponRange */

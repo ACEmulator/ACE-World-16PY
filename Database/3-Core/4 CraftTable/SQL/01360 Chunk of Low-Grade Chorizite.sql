@@ -1,7 +1,7 @@
 DELETE FROM `recipe` WHERE `id` = 1360;
 
 INSERT INTO `recipe` (`id`, `unknown_1`, `skill`, `difficulty`, `salvage_Type`, `success_W_C_I_D`, `success_Amount`, `success_Message`, `fail_W_C_I_D`, `fail_Amount`, `fail_Message`, `success_Destroy_Source_Chance`, `success_Destroy_Source_Amount`, `success_Destroy_Source_Message`, `success_Destroy_Target_Chance`, `success_Destroy_Target_Amount`, `success_Destroy_Target_Message`, `fail_Destroy_Source_Chance`, `fail_Destroy_Source_Amount`, `fail_Destroy_Source_Message`, `fail_Destroy_Target_Chance`, `fail_Destroy_Target_Amount`, `fail_Destroy_Target_Message`, `data_Id`, `last_Modified`)
-VALUES (1360, 0, 0, 0, 0, 7528 /* Chunk of Low-Grade Chorizite */, 1, 'You mine the low-grade chorizite from the vein.', 0, 0, 'You fail.', 0, 0, NULL, 0.0500000007450581, 1, NULL, 0, 0, NULL, 0.0500000007450581, 1, NULL, 0, '2005-02-09 10:00:00');
+VALUES (1360, 0, 0, 0, 0, 7528 /* Chunk of Low-Grade Chorizite */, 1, 'You mine the low-grade chorizite from the vein.', 0, 0, 'You fail.', 0, 0, NULL, 0.05000000074505806, 1, NULL, 0, 0, NULL, 0.05000000074505806, 1, NULL, 0, '2005-02-09 10:00:00');
 
 DELETE FROM `cook_book` WHERE `recipe_Id` = 1360;
 

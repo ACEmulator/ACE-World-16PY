@@ -84,11 +84,11 @@ VALUES (24327,   1,     0, 0, 0, 38) /* MaxHealth */
      , (24327,   5,     0, 0, 0, 180) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (24327,  6, 0, 2, 0,   4, 0, 1547.039777131) /* MeleeDefense        Trained */
-     , (24327,  7, 0, 2, 0,   5, 0, 1547.039777131) /* MissileDefense      Trained */
-     , (24327, 12, 0, 3, 0, 350, 0, 1547.039777131) /* ThrownWeapon        Specialized */
-     , (24327, 13, 0, 2, 0,   5, 0, 1547.039777131) /* UnarmedCombat       Trained */
-     , (24327, 32, 0, 2, 0, 200, 0, 1547.039777131) /* ItemEnchantment     Trained */;
+VALUES (24327,  6, 0, 2, 0,   4, 0, 1547.0397771310015) /* MeleeDefense        Trained */
+     , (24327,  7, 0, 2, 0,   5, 0, 1547.0397771310015) /* MissileDefense      Trained */
+     , (24327, 12, 0, 3, 0, 350, 0, 1547.0397771310015) /* ThrownWeapon        Specialized */
+     , (24327, 13, 0, 2, 0,   5, 0, 1547.0397771310015) /* UnarmedCombat       Trained */
+     , (24327, 32, 0, 2, 0, 200, 0, 1547.0397771310015) /* ItemEnchantment     Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (24327,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

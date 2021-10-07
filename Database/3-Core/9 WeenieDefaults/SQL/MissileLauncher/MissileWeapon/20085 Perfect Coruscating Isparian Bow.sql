@@ -19,7 +19,7 @@ VALUES (20085,   1,        256) /* ItemType - MissileWeapon */
      , (20085,  48,          2) /* WeaponSkill - Bow */
      , (20085,  49,         40) /* WeaponTime */
      , (20085,  50,          1) /* AmmoType - Arrow */
-     , (20085,  51,          2) /* CombatUse - Missle */
+     , (20085,  51,          2) /* CombatUse - Missile */
      , (20085,  52,          2) /* ParentLocation - LeftHand */
      , (20085,  53,          3) /* PlacementPosition - LeftHand */
      , (20085,  60,        175) /* WeaponRange */

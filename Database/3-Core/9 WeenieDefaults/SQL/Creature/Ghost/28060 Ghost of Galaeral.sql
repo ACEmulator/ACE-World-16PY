@@ -88,24 +88,24 @@ VALUES (28060,   1,   100, 0, 0, 200) /* MaxHealth */
      , (28060,   5,   150, 0, 0, 440) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (28060,  1, 0, 3, 0, 125, 0, 1984.09299414236) /* Axe                 Specialized */
-     , (28060,  2, 0, 2, 0, 110, 0, 1984.09299414236) /* Bow                 Trained */
-     , (28060,  3, 0, 2, 0, 110, 0, 1984.09299414236) /* Crossbow            Trained */
-     , (28060,  4, 0, 3, 0, 120, 0, 1984.09299414236) /* Dagger              Specialized */
-     , (28060,  5, 0, 3, 0, 120, 0, 1984.09299414236) /* Mace                Specialized */
-     , (28060,  6, 0, 2, 0, 130, 0, 1984.09299414236) /* MeleeDefense        Trained */
-     , (28060,  7, 0, 2, 0, 120, 0, 1984.09299414236) /* MissileDefense      Trained */
-     , (28060,  9, 0, 2, 0, 100, 0, 1984.09299414236) /* Spear               Trained */
-     , (28060, 10, 0, 2, 0, 100, 0, 1984.09299414236) /* Staff               Trained */
-     , (28060, 11, 0, 3, 0, 120, 0, 1984.09299414236) /* Sword               Specialized */
-     , (28060, 13, 0, 2, 0, 200, 0, 1984.09299414236) /* UnarmedCombat       Trained */
-     , (28060, 14, 0, 2, 0, 230, 0, 1984.09299414236) /* ArcaneLore          Trained */
-     , (28060, 15, 0, 2, 0, 182, 0, 1984.09299414236) /* MagicDefense        Trained */
-     , (28060, 20, 0, 2, 0,  90, 0, 1984.09299414236) /* Deception           Trained */
-     , (28060, 31, 0, 2, 0, 230, 0, 1984.09299414236) /* CreatureEnchantment Trained */
-     , (28060, 32, 0, 2, 0, 200, 0, 1984.09299414236) /* ItemEnchantment     Trained */
-     , (28060, 33, 0, 2, 0, 230, 0, 1984.09299414236) /* LifeMagic           Trained */
-     , (28060, 34, 0, 2, 0, 230, 0, 1984.09299414236) /* WarMagic            Trained */;
+VALUES (28060,  1, 0, 3, 0, 125, 0, 1984.0929941423576) /* Axe                 Specialized */
+     , (28060,  2, 0, 2, 0, 110, 0, 1984.0929941423576) /* Bow                 Trained */
+     , (28060,  3, 0, 2, 0, 110, 0, 1984.0929941423576) /* Crossbow            Trained */
+     , (28060,  4, 0, 3, 0, 120, 0, 1984.0929941423576) /* Dagger              Specialized */
+     , (28060,  5, 0, 3, 0, 120, 0, 1984.0929941423576) /* Mace                Specialized */
+     , (28060,  6, 0, 2, 0, 130, 0, 1984.0929941423576) /* MeleeDefense        Trained */
+     , (28060,  7, 0, 2, 0, 120, 0, 1984.0929941423576) /* MissileDefense      Trained */
+     , (28060,  9, 0, 2, 0, 100, 0, 1984.0929941423576) /* Spear               Trained */
+     , (28060, 10, 0, 2, 0, 100, 0, 1984.0929941423576) /* Staff               Trained */
+     , (28060, 11, 0, 3, 0, 120, 0, 1984.0929941423576) /* Sword               Specialized */
+     , (28060, 13, 0, 2, 0, 200, 0, 1984.0929941423576) /* UnarmedCombat       Trained */
+     , (28060, 14, 0, 2, 0, 230, 0, 1984.0929941423576) /* ArcaneLore          Trained */
+     , (28060, 15, 0, 2, 0, 182, 0, 1984.0929941423576) /* MagicDefense        Trained */
+     , (28060, 20, 0, 2, 0,  90, 0, 1984.0929941423576) /* Deception           Trained */
+     , (28060, 31, 0, 2, 0, 230, 0, 1984.0929941423576) /* CreatureEnchantment Trained */
+     , (28060, 32, 0, 2, 0, 200, 0, 1984.0929941423576) /* ItemEnchantment     Trained */
+     , (28060, 33, 0, 2, 0, 230, 0, 1984.0929941423576) /* LifeMagic           Trained */
+     , (28060, 34, 0, 2, 0, 230, 0, 1984.0929941423576) /* WarMagic            Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (28060,  0,  4,  0,    0,  150,  120,   71,   98,    5,   75,   98,  108,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

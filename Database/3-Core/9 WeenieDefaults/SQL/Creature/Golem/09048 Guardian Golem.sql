@@ -91,17 +91,17 @@ VALUES (9048,   1,   400, 0, 0, 575) /* MaxHealth */
      , (9048,   5,   201, 0, 0, 451) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (9048,  6, 0, 2, 0, 130, 0, 619.821020065541) /* MeleeDefense        Trained */
-     , (9048,  7, 0, 2, 0, 220, 0, 619.821020065541) /* MissileDefense      Trained */
-     , (9048, 13, 0, 2, 0, 170, 0, 619.821020065541) /* UnarmedCombat       Trained */
-     , (9048, 14, 0, 2, 0, 300, 0, 619.821020065541) /* ArcaneLore          Trained */
-     , (9048, 15, 0, 2, 0, 204, 0, 619.821020065541) /* MagicDefense        Trained */
-     , (9048, 20, 0, 2, 0, 100, 0, 619.821020065541) /* Deception           Trained */
-     , (9048, 22, 0, 2, 0,  10, 0, 619.821020065541) /* Jump                Trained */
-     , (9048, 24, 0, 2, 0,  10, 0, 619.821020065541) /* Run                 Trained */
-     , (9048, 31, 0, 2, 0, 300, 0, 619.821020065541) /* CreatureEnchantment Trained */
-     , (9048, 33, 0, 2, 0, 300, 0, 619.821020065541) /* LifeMagic           Trained */
-     , (9048, 34, 0, 2, 0, 300, 0, 619.821020065541) /* WarMagic            Trained */;
+VALUES (9048,  6, 0, 2, 0, 130, 0, 619.8210200655411) /* MeleeDefense        Trained */
+     , (9048,  7, 0, 2, 0, 220, 0, 619.8210200655411) /* MissileDefense      Trained */
+     , (9048, 13, 0, 2, 0, 170, 0, 619.8210200655411) /* UnarmedCombat       Trained */
+     , (9048, 14, 0, 2, 0, 300, 0, 619.8210200655411) /* ArcaneLore          Trained */
+     , (9048, 15, 0, 2, 0, 204, 0, 619.8210200655411) /* MagicDefense        Trained */
+     , (9048, 20, 0, 2, 0, 100, 0, 619.8210200655411) /* Deception           Trained */
+     , (9048, 22, 0, 2, 0,  10, 0, 619.8210200655411) /* Jump                Trained */
+     , (9048, 24, 0, 2, 0,  10, 0, 619.8210200655411) /* Run                 Trained */
+     , (9048, 31, 0, 2, 0, 300, 0, 619.8210200655411) /* CreatureEnchantment Trained */
+     , (9048, 33, 0, 2, 0, 300, 0, 619.8210200655411) /* LifeMagic           Trained */
+     , (9048, 34, 0, 2, 0, 300, 0, 619.8210200655411) /* WarMagic            Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (9048,  0,  4,  0,    0,  350,  277,  315,  350,  294,  294,  294,  294,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

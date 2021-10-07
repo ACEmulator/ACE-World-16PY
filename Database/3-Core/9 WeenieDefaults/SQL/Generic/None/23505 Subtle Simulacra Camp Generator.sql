@@ -25,7 +25,7 @@ VALUES (23505,   1,   33555051) /* Setup */
      , (23505,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23505, 0.3, 12134, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 6, 0, 0, 0.9238795, 0, 0, -0.3826835) /* Generate Subtle Simulacrum (12134) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (23505, 0.6, 12135, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 1.5, 1.5, 0, 0.9238795, 0, 0, -0.3826835) /* Generate Subtle Simulacrum (12135) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (23505, 0.8, 12134, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -4.4, 0, 0, 0.5, 0, 0, -0.8660254) /* Generate Subtle Simulacrum (12134) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (23505, 1, 12135, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, -4, 0, 0.7071068, 0, 0, -0.7071068) /* Generate Subtle Simulacrum (12135) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (23505, 0.3, 12134, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 6, 0, 0, 0.9238795, 0, 0, -0.38268346) /* Generate Subtle Simulacrum (12134) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (23505, 0.6, 12135, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 1.5, 1.5, 0, 0.9238795, 0, 0, -0.38268346) /* Generate Subtle Simulacrum (12135) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (23505, 0.8, 12134, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -4.4, 0, 0, 0.49999997, 0, 0, -0.86602545) /* Generate Subtle Simulacrum (12134) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (23505, 1, 12135, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, -4, 0, 0.70710677, 0, 0, -0.70710677) /* Generate Subtle Simulacrum (12135) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

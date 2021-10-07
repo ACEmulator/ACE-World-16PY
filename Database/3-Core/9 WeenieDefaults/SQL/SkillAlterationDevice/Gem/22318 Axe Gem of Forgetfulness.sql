@@ -13,7 +13,7 @@ VALUES (22318,   1,       2048) /* ItemType - Gem */
      , (22318,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22318, 114,          1) /* Attuned - Attuned */
      , (22318, 185,          2) /* TypeOfAlteration */
-     , (22318, 186,          1) /* SkillToBeAltered */;
+     , (22318, 186,          1) /* SkillToBeAltered - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22318,  22, True ) /* Inscribable */

@@ -25,6 +25,6 @@ VALUES (8060,   1,   33555051) /* Setup */
      , (8060,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8060, 0.4, 7980, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, 0, 0, 0.8191521, 0, 0, -0.5735765) /* Generate Venomous Grievver (7980) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+VALUES (8060, 0.4, 7980, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, 0, 0, 0.81915206, 0, 0, -0.57357645) /* Generate Venomous Grievver (7980) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (8060, 0.8, 7980, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 5, 0.5, 0, 0.8660254, 0, 0, -0.5) /* Generate Venomous Grievver (7980) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (8060, 1, 7980, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -3.4, 5.4, 0, 0.9063078, 0, 0, -0.4226183) /* Generate Venomous Grievver (7980) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+     , (8060, 1, 7980, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -3.4, 5.4, 0, 0.90630776, 0, 0, -0.42261827) /* Generate Venomous Grievver (7980) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

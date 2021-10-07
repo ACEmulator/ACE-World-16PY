@@ -13,7 +13,7 @@ VALUES (11019,   1,        128) /* ItemType - Misc */
      , (11019,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11019, 150,        103) /* HookPlacement - Hook */
      , (11019, 151,          4) /* HookType - Ceiling */
-     , (11019, 197,          1) /* HookGroup */;
+     , (11019, 197,          1) /* HookGroup - NoisemakingItems */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11019,  13, True ) /* Ethereal */

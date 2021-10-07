@@ -68,7 +68,7 @@ VALUES (11501,   1,   33554433) /* Setup */
      , (11501,  22,  872415236) /* PhysicsEffectTable */
      , (11501,  32,        364) /* WieldedTreasureType - 
                                    Wield Boots (2606) | Probability: 40%
-                                   Wield Leather Boots (115) | Probability: 30%
+                                   Wield Leather Boots (115) | Probability: 30.000002%
                                    Wield Studded Leather Boots (116) | Probability: 20%
                                    Wield Steel Toed Boots (7897) | Probability: 10%
                                    Wield Doublet (2596) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.641%
@@ -414,17 +414,17 @@ VALUES (11501,   1,   104, 0, 0, 154) /* MaxHealth */
      , (11501,   5,   112, 0, 0, 362) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (11501,  4, 0, 3, 0, 275, 0, 747.928725614539) /* Dagger              Specialized */
-     , (11501,  6, 0, 3, 0, 280, 0, 747.928725614539) /* MeleeDefense        Specialized */
-     , (11501,  7, 0, 3, 0, 320, 0, 747.928725614539) /* MissileDefense      Specialized */
-     , (11501, 10, 0, 3, 0, 190, 0, 747.928725614539) /* Staff               Specialized */
-     , (11501, 11, 0, 3, 0, 190, 0, 747.928725614539) /* Sword               Specialized */
-     , (11501, 13, 0, 3, 0, 190, 0, 747.928725614539) /* UnarmedCombat       Specialized */
-     , (11501, 15, 0, 3, 0, 180, 0, 747.928725614539) /* MagicDefense        Specialized */
-     , (11501, 24, 0, 3, 0, 100, 0, 747.928725614539) /* Run                 Specialized */
-     , (11501, 31, 0, 3, 0,  78, 0, 747.928725614539) /* CreatureEnchantment Specialized */
-     , (11501, 33, 0, 3, 0,  78, 0, 747.928725614539) /* LifeMagic           Specialized */
-     , (11501, 34, 0, 3, 0,  78, 0, 747.928725614539) /* WarMagic            Specialized */;
+VALUES (11501,  4, 0, 3, 0, 275, 0, 747.9287256145393) /* Dagger              Specialized */
+     , (11501,  6, 0, 3, 0, 280, 0, 747.9287256145393) /* MeleeDefense        Specialized */
+     , (11501,  7, 0, 3, 0, 320, 0, 747.9287256145393) /* MissileDefense      Specialized */
+     , (11501, 10, 0, 3, 0, 190, 0, 747.9287256145393) /* Staff               Specialized */
+     , (11501, 11, 0, 3, 0, 190, 0, 747.9287256145393) /* Sword               Specialized */
+     , (11501, 13, 0, 3, 0, 190, 0, 747.9287256145393) /* UnarmedCombat       Specialized */
+     , (11501, 15, 0, 3, 0, 180, 0, 747.9287256145393) /* MagicDefense        Specialized */
+     , (11501, 24, 0, 3, 0, 100, 0, 747.9287256145393) /* Run                 Specialized */
+     , (11501, 31, 0, 3, 0,  78, 0, 747.9287256145393) /* CreatureEnchantment Specialized */
+     , (11501, 33, 0, 3, 0,  78, 0, 747.9287256145393) /* LifeMagic           Specialized */
+     , (11501, 34, 0, 3, 0,  78, 0, 747.9287256145393) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (11501,  0,  4,  0,    0,  270,  243,  270,  297,  108,  108,  270,  162,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

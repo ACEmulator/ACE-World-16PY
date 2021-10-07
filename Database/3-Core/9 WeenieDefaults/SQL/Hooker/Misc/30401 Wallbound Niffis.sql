@@ -15,7 +15,7 @@ VALUES (30401,   1,        128) /* ItemType - Misc */
      , (30401,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30401, 150,        103) /* HookPlacement - Hook */
      , (30401, 151,          2) /* HookType - Wall */
-     , (30401, 197,         16) /* HookGroup */;
+     , (30401, 197,         16) /* HookGroup - SpellCastingItems */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30401,  13, True ) /* Ethereal */

@@ -21,7 +21,7 @@ VALUES (10997,   1,        256) /* ItemType - MissileWeapon */
      , (10997,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (10997,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (10997,  49,         40) /* WeaponTime */
-     , (10997,  51,          2) /* CombatUse - Missle */
+     , (10997,  51,          2) /* CombatUse - Missile */
      , (10997,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (10997, 150,        103) /* HookPlacement - Hook */
      , (10997, 151,          2) /* HookType - Wall */;

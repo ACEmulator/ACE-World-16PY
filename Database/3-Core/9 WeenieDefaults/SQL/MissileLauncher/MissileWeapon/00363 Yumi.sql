@@ -16,7 +16,7 @@ VALUES (363,   1,        256) /* ItemType - MissileWeapon */
      , (363,  48,          2) /* WeaponSkill - Bow */
      , (363,  49,         45) /* WeaponTime */
      , (363,  50,          1) /* AmmoType - Arrow */
-     , (363,  51,          2) /* CombatUse - Missle */
+     , (363,  51,          2) /* CombatUse - Missile */
      , (363,  52,          2) /* ParentLocation - LeftHand */
      , (363,  53,          3) /* PlacementPosition - LeftHand */
      , (363,  60,        192) /* WeaponRange */

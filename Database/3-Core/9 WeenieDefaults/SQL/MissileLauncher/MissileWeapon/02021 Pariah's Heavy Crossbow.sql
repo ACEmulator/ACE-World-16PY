@@ -15,7 +15,7 @@ VALUES (2021,   1,        256) /* ItemType - MissileWeapon */
      , (2021,  48,          3) /* WeaponSkill - Crossbow */
      , (2021,  49,         90) /* WeaponTime */
      , (2021,  50,          2) /* AmmoType - Bolt */
-     , (2021,  51,          2) /* CombatUse - Missle */
+     , (2021,  51,          2) /* CombatUse - Missile */
      , (2021,  52,          2) /* ParentLocation - LeftHand */
      , (2021,  53,          3) /* PlacementPosition - LeftHand */
      , (2021,  60,        250) /* WeaponRange */

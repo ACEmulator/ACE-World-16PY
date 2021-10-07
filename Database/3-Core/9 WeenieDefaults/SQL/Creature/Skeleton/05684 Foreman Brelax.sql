@@ -91,7 +91,7 @@ VALUES (5684,   1,   33555464) /* Setup */
                                    Wield 20x Arrow (300) | Probability: 100%
                                    Wield Heavy Crossbow (311) | Probability: 11%
                                    Wield 16x Quarrel (305) | Probability: 100%
-                                   Wield Large Kite Shield (92) | Probability: 30%
+                                   Wield Large Kite Shield (92) | Probability: 30.000002%
                                    Wield Kite Shield (91) | Probability: 20%
                                    Wield Large Round Shield (94) | Probability: 20% */
      , (5684,  35,        190) /* DeathTreasureType - Loot Tier: 4 */;
@@ -110,23 +110,23 @@ VALUES (5684,   1,    70, 0, 0, 143) /* MaxHealth */
      , (5684,   5,     0, 0, 0, 120) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (5684,  1, 0, 2, 0, 140, 0, 436.134404082022) /* Axe                 Trained */
-     , (5684,  2, 0, 3, 0, 140, 0, 436.134404082022) /* Bow                 Specialized */
-     , (5684,  3, 0, 2, 0,  80, 0, 436.134404082022) /* Crossbow            Trained */
-     , (5684,  4, 0, 2, 0,  50, 0, 436.134404082022) /* Dagger              Trained */
-     , (5684,  5, 0, 3, 0, 140, 0, 436.134404082022) /* Mace                Specialized */
-     , (5684,  6, 0, 2, 0,  80, 0, 436.134404082022) /* MeleeDefense        Trained */
-     , (5684,  7, 0, 2, 0, 120, 0, 436.134404082022) /* MissileDefense      Trained */
-     , (5684,  9, 0, 2, 0, 140, 0, 436.134404082022) /* Spear               Trained */
-     , (5684, 10, 0, 2, 0, 140, 0, 436.134404082022) /* Staff               Trained */
-     , (5684, 11, 0, 3, 0, 140, 0, 436.134404082022) /* Sword               Specialized */
-     , (5684, 13, 0, 2, 0, 140, 0, 436.134404082022) /* UnarmedCombat       Trained */
-     , (5684, 14, 0, 3, 0, 110, 0, 436.134404082022) /* ArcaneLore          Specialized */
-     , (5684, 15, 0, 2, 0, 110, 0, 436.134404082022) /* MagicDefense        Trained */
-     , (5684, 20, 0, 2, 0, 120, 0, 436.134404082022) /* Deception           Trained */
-     , (5684, 31, 0, 2, 0, 130, 0, 436.134404082022) /* CreatureEnchantment Trained */
-     , (5684, 33, 0, 2, 0, 100, 0, 436.134404082022) /* LifeMagic           Trained */
-     , (5684, 34, 0, 2, 0, 130, 0, 436.134404082022) /* WarMagic            Trained */;
+VALUES (5684,  1, 0, 2, 0, 140, 0, 436.13440408202166) /* Axe                 Trained */
+     , (5684,  2, 0, 3, 0, 140, 0, 436.13440408202166) /* Bow                 Specialized */
+     , (5684,  3, 0, 2, 0,  80, 0, 436.13440408202166) /* Crossbow            Trained */
+     , (5684,  4, 0, 2, 0,  50, 0, 436.13440408202166) /* Dagger              Trained */
+     , (5684,  5, 0, 3, 0, 140, 0, 436.13440408202166) /* Mace                Specialized */
+     , (5684,  6, 0, 2, 0,  80, 0, 436.13440408202166) /* MeleeDefense        Trained */
+     , (5684,  7, 0, 2, 0, 120, 0, 436.13440408202166) /* MissileDefense      Trained */
+     , (5684,  9, 0, 2, 0, 140, 0, 436.13440408202166) /* Spear               Trained */
+     , (5684, 10, 0, 2, 0, 140, 0, 436.13440408202166) /* Staff               Trained */
+     , (5684, 11, 0, 3, 0, 140, 0, 436.13440408202166) /* Sword               Specialized */
+     , (5684, 13, 0, 2, 0, 140, 0, 436.13440408202166) /* UnarmedCombat       Trained */
+     , (5684, 14, 0, 3, 0, 110, 0, 436.13440408202166) /* ArcaneLore          Specialized */
+     , (5684, 15, 0, 2, 0, 110, 0, 436.13440408202166) /* MagicDefense        Trained */
+     , (5684, 20, 0, 2, 0, 120, 0, 436.13440408202166) /* Deception           Trained */
+     , (5684, 31, 0, 2, 0, 130, 0, 436.13440408202166) /* CreatureEnchantment Trained */
+     , (5684, 33, 0, 2, 0, 100, 0, 436.13440408202166) /* LifeMagic           Trained */
+     , (5684, 34, 0, 2, 0, 130, 0, 436.13440408202166) /* WarMagic            Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (5684,  0,  4,  0,    0,   80,   30,   13,   40,    4,   66,   14,   26,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

@@ -18,7 +18,7 @@ VALUES (28226,   1,        256) /* ItemType - MissileWeapon */
      , (28226,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (28226,  49,         25) /* WeaponTime */
      , (28226,  50,          4) /* AmmoType - Atlatl */
-     , (28226,  51,          2) /* CombatUse - Missle */
+     , (28226,  51,          2) /* CombatUse - Missile */
      , (28226,  60,        120) /* WeaponRange */
      , (28226,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28226, 150,        103) /* HookPlacement - Hook */

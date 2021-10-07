@@ -96,23 +96,23 @@ VALUES (27285,   1,  1435, 0, 0, 1600) /* MaxHealth */
      , (27285,   5,   440, 0, 0, 820) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (27285,  1, 0, 3, 0, 333, 0, 1888.96800568902) /* Axe                 Specialized */
-     , (27285,  2, 0, 3, 0,   0, 0, 1888.96800568902) /* Bow                 Specialized */
-     , (27285,  3, 0, 3, 0,   0, 0, 1888.96800568902) /* Crossbow            Specialized */
-     , (27285,  4, 0, 3, 0, 303, 0, 1888.96800568902) /* Dagger              Specialized */
-     , (27285,  5, 0, 3, 0, 333, 0, 1888.96800568902) /* Mace                Specialized */
-     , (27285,  6, 0, 3, 0, 330, 0, 1888.96800568902) /* MeleeDefense        Specialized */
-     , (27285,  7, 0, 3, 0, 425, 0, 1888.96800568902) /* MissileDefense      Specialized */
-     , (27285,  9, 0, 3, 0, 333, 0, 1888.96800568902) /* Spear               Specialized */
-     , (27285, 10, 0, 3, 0, 333, 0, 1888.96800568902) /* Staff               Specialized */
-     , (27285, 11, 0, 3, 0, 333, 0, 1888.96800568902) /* Sword               Specialized */
-     , (27285, 13, 0, 3, 0, 333, 0, 1888.96800568902) /* UnarmedCombat       Specialized */
-     , (27285, 14, 0, 3, 0, 320, 0, 1888.96800568902) /* ArcaneLore          Specialized */
-     , (27285, 15, 0, 3, 0, 254, 0, 1888.96800568902) /* MagicDefense        Specialized */
-     , (27285, 20, 0, 3, 0, 150, 0, 1888.96800568902) /* Deception           Specialized */
-     , (27285, 31, 0, 3, 0, 235, 0, 1888.96800568902) /* CreatureEnchantment Specialized */
-     , (27285, 33, 0, 3, 0, 235, 0, 1888.96800568902) /* LifeMagic           Specialized */
-     , (27285, 34, 0, 3, 0, 235, 0, 1888.96800568902) /* WarMagic            Specialized */;
+VALUES (27285,  1, 0, 3, 0, 333, 0, 1888.9680056890245) /* Axe                 Specialized */
+     , (27285,  2, 0, 3, 0,   0, 0, 1888.9680056890245) /* Bow                 Specialized */
+     , (27285,  3, 0, 3, 0,   0, 0, 1888.9680056890245) /* Crossbow            Specialized */
+     , (27285,  4, 0, 3, 0, 303, 0, 1888.9680056890245) /* Dagger              Specialized */
+     , (27285,  5, 0, 3, 0, 333, 0, 1888.9680056890245) /* Mace                Specialized */
+     , (27285,  6, 0, 3, 0, 330, 0, 1888.9680056890245) /* MeleeDefense        Specialized */
+     , (27285,  7, 0, 3, 0, 425, 0, 1888.9680056890245) /* MissileDefense      Specialized */
+     , (27285,  9, 0, 3, 0, 333, 0, 1888.9680056890245) /* Spear               Specialized */
+     , (27285, 10, 0, 3, 0, 333, 0, 1888.9680056890245) /* Staff               Specialized */
+     , (27285, 11, 0, 3, 0, 333, 0, 1888.9680056890245) /* Sword               Specialized */
+     , (27285, 13, 0, 3, 0, 333, 0, 1888.9680056890245) /* UnarmedCombat       Specialized */
+     , (27285, 14, 0, 3, 0, 320, 0, 1888.9680056890245) /* ArcaneLore          Specialized */
+     , (27285, 15, 0, 3, 0, 254, 0, 1888.9680056890245) /* MagicDefense        Specialized */
+     , (27285, 20, 0, 3, 0, 150, 0, 1888.9680056890245) /* Deception           Specialized */
+     , (27285, 31, 0, 3, 0, 235, 0, 1888.9680056890245) /* CreatureEnchantment Specialized */
+     , (27285, 33, 0, 3, 0, 235, 0, 1888.9680056890245) /* LifeMagic           Specialized */
+     , (27285, 34, 0, 3, 0, 235, 0, 1888.9680056890245) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (27285,  0,  4,  0,    0,  480,  480,  384,  408,  288,  528,  336,  360,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -166,7 +166,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'You think you hear a little voice say "Mommy..."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (27285,  3 /* Death */,   0.12, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (27285,  3 /* Death */, 0.120000005, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -174,7 +174,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'You hear the distant echo of childish laughter, fading away.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (27285,  3 /* Death */,   0.13, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (27285,  3 /* Death */, 0.13000001, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

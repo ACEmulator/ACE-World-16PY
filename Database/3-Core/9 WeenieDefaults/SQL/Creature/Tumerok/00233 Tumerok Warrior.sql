@@ -109,7 +109,7 @@ VALUES (233,   1,   33554496) /* Setup */
                                    Wield Tofun (356) | Probability: 6%
                                    Wield War Hammer (359) | Probability: 10%
                                    Wield Yari (362) | Probability: 10%
-                                   Wield Large Kite Shield (92) | Probability: 30%
+                                   Wield Large Kite Shield (92) | Probability: 30.000002%
                                    Wield Kite Shield (91) | Probability: 20%
                                    Wield Large Round Shield (94) | Probability: 20% */
      , (233,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
@@ -128,23 +128,23 @@ VALUES (233,   1,    40, 0, 0, 103) /* MaxHealth */
      , (233,   5,     0, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (233,  1, 0, 3, 0,  90, 0, 273.435314765804) /* Axe                 Specialized */
-     , (233,  2, 0, 3, 0,  90, 0, 273.435314765804) /* Bow                 Specialized */
-     , (233,  3, 0, 3, 0,  90, 0, 273.435314765804) /* Crossbow            Specialized */
-     , (233,  4, 0, 3, 0,  90, 0, 273.435314765804) /* Dagger              Specialized */
-     , (233,  5, 0, 3, 0,  90, 0, 273.435314765804) /* Mace                Specialized */
-     , (233,  6, 0, 3, 0,  72, 0, 273.435314765804) /* MeleeDefense        Specialized */
-     , (233,  7, 0, 3, 0, 111, 0, 273.435314765804) /* MissileDefense      Specialized */
-     , (233,  9, 0, 3, 0,  90, 0, 273.435314765804) /* Spear               Specialized */
-     , (233, 11, 0, 3, 0,  90, 0, 273.435314765804) /* Sword               Specialized */
-     , (233, 13, 0, 3, 0,  90, 0, 273.435314765804) /* UnarmedCombat       Specialized */
-     , (233, 14, 0, 3, 0, 140, 0, 273.435314765804) /* ArcaneLore          Specialized */
-     , (233, 15, 0, 3, 0,  84, 0, 273.435314765804) /* MagicDefense        Specialized */
-     , (233, 20, 0, 3, 0,  30, 0, 273.435314765804) /* Deception           Specialized */
-     , (233, 24, 0, 3, 0,  50, 0, 273.435314765804) /* Run                 Specialized */
-     , (233, 31, 0, 3, 0,  66, 0, 273.435314765804) /* CreatureEnchantment Specialized */
-     , (233, 33, 0, 3, 0,  66, 0, 273.435314765804) /* LifeMagic           Specialized */
-     , (233, 34, 0, 3, 0,  66, 0, 273.435314765804) /* WarMagic            Specialized */;
+VALUES (233,  1, 0, 3, 0,  90, 0, 273.43531476580426) /* Axe                 Specialized */
+     , (233,  2, 0, 3, 0,  90, 0, 273.43531476580426) /* Bow                 Specialized */
+     , (233,  3, 0, 3, 0,  90, 0, 273.43531476580426) /* Crossbow            Specialized */
+     , (233,  4, 0, 3, 0,  90, 0, 273.43531476580426) /* Dagger              Specialized */
+     , (233,  5, 0, 3, 0,  90, 0, 273.43531476580426) /* Mace                Specialized */
+     , (233,  6, 0, 3, 0,  72, 0, 273.43531476580426) /* MeleeDefense        Specialized */
+     , (233,  7, 0, 3, 0, 111, 0, 273.43531476580426) /* MissileDefense      Specialized */
+     , (233,  9, 0, 3, 0,  90, 0, 273.43531476580426) /* Spear               Specialized */
+     , (233, 11, 0, 3, 0,  90, 0, 273.43531476580426) /* Sword               Specialized */
+     , (233, 13, 0, 3, 0,  90, 0, 273.43531476580426) /* UnarmedCombat       Specialized */
+     , (233, 14, 0, 3, 0, 140, 0, 273.43531476580426) /* ArcaneLore          Specialized */
+     , (233, 15, 0, 3, 0,  84, 0, 273.43531476580426) /* MagicDefense        Specialized */
+     , (233, 20, 0, 3, 0,  30, 0, 273.43531476580426) /* Deception           Specialized */
+     , (233, 24, 0, 3, 0,  50, 0, 273.43531476580426) /* Run                 Specialized */
+     , (233, 31, 0, 3, 0,  66, 0, 273.43531476580426) /* CreatureEnchantment Specialized */
+     , (233, 33, 0, 3, 0,  66, 0, 273.43531476580426) /* LifeMagic           Specialized */
+     , (233, 34, 0, 3, 0,  66, 0, 273.43531476580426) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (233,  0,  4,  0,    0,  120,  120,  120,  120,  120,  120,  120,  120,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

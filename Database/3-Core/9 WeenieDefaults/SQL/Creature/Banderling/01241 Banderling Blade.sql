@@ -74,13 +74,13 @@ VALUES (1241,   1,   33558024) /* Setup */
      , (1241,  32,        270) /* WieldedTreasureType - 
                                    Wield 3x Throwing Axe (304) | Probability: 1%
                                    Wield 3x Throwing Club (310) | Probability: 1%
-                                   Wield Battle Axe (301) | Probability: 15%
+                                   Wield Battle Axe (301) | Probability: 15.000001%
                                    Wield Club (309) | Probability: 5%
                                    Wield Dabus (313) | Probability: 10%
                                    Wield Jo (322) | Probability: 3%
                                    Wield Kasrullah (325) | Probability: 5%
                                    Wield Mace (331) | Probability: 10%
-                                   Wield Morning Star (332) | Probability: 15%
+                                   Wield Morning Star (332) | Probability: 15.000001%
                                    Wield Nabut (333) | Probability: 3%
                                    Wield Shou-ono (342) | Probability: 10%
                                    Wield Silifi (344) | Probability: 10%
@@ -101,18 +101,18 @@ VALUES (1241,   1,    70, 0, 0, 130) /* MaxHealth */
      , (1241,   5,    50, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (1241,  5, 0, 3, 0,  90, 0, 299.736303160488) /* Mace                Specialized */
-     , (1241,  6, 0, 3, 0,  66, 0, 299.736303160488) /* MeleeDefense        Specialized */
-     , (1241,  7, 0, 3, 0, 114, 0, 299.736303160488) /* MissileDefense      Specialized */
-     , (1241,  9, 0, 3, 0,  90, 0, 299.736303160488) /* Spear               Specialized */
-     , (1241, 10, 0, 3, 0,  90, 0, 299.736303160488) /* Staff               Specialized */
-     , (1241, 11, 0, 3, 0,  90, 0, 299.736303160488) /* Sword               Specialized */
-     , (1241, 12, 0, 3, 0,  85, 0, 299.736303160488) /* ThrownWeapon        Specialized */
-     , (1241, 13, 0, 3, 0,  90, 0, 299.736303160488) /* UnarmedCombat       Specialized */
-     , (1241, 15, 0, 3, 0,  66, 0, 299.736303160488) /* MagicDefense        Specialized */
-     , (1241, 20, 0, 3, 0,  40, 0, 299.736303160488) /* Deception           Specialized */
-     , (1241, 22, 0, 3, 0,  40, 0, 299.736303160488) /* Jump                Specialized */
-     , (1241, 24, 0, 3, 0,  40, 0, 299.736303160488) /* Run                 Specialized */;
+VALUES (1241,  5, 0, 3, 0,  90, 0, 299.7363031604877) /* Mace                Specialized */
+     , (1241,  6, 0, 3, 0,  66, 0, 299.7363031604877) /* MeleeDefense        Specialized */
+     , (1241,  7, 0, 3, 0, 114, 0, 299.7363031604877) /* MissileDefense      Specialized */
+     , (1241,  9, 0, 3, 0,  90, 0, 299.7363031604877) /* Spear               Specialized */
+     , (1241, 10, 0, 3, 0,  90, 0, 299.7363031604877) /* Staff               Specialized */
+     , (1241, 11, 0, 3, 0,  90, 0, 299.7363031604877) /* Sword               Specialized */
+     , (1241, 12, 0, 3, 0,  85, 0, 299.7363031604877) /* ThrownWeapon        Specialized */
+     , (1241, 13, 0, 3, 0,  90, 0, 299.7363031604877) /* UnarmedCombat       Specialized */
+     , (1241, 15, 0, 3, 0,  66, 0, 299.7363031604877) /* MagicDefense        Specialized */
+     , (1241, 20, 0, 3, 0,  40, 0, 299.7363031604877) /* Deception           Specialized */
+     , (1241, 22, 0, 3, 0,  40, 0, 299.7363031604877) /* Jump                Specialized */
+     , (1241, 24, 0, 3, 0,  40, 0, 299.7363031604877) /* Run                 Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (1241,  0,  4,  0,    0,  100,   46,   31,   52,   46,   83,   31,  109,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

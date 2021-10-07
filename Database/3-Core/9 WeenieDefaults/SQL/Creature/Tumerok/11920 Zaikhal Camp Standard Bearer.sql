@@ -107,7 +107,7 @@ VALUES (11920,   1,   33554496) /* Setup */
                                    Wield Tofun (356) | Probability: 6%
                                    Wield War Hammer (359) | Probability: 10%
                                    Wield Yari (362) | Probability: 10%
-                                   Wield Large Kite Shield (92) | Probability: 30%
+                                   Wield Large Kite Shield (92) | Probability: 30.000002%
                                    Wield Kite Shield (91) | Probability: 20%
                                    Wield Large Round Shield (94) | Probability: 20% */
      , (11920,  35,        197) /* DeathTreasureType - Loot Tier: 2 */;
@@ -126,19 +126,19 @@ VALUES (11920,   1,    35, 0, 0, 78) /* MaxHealth */
      , (11920,   5,     0, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (11920,  1, 0, 2, 0,  75, 0, 773.63394265522) /* Axe                 Trained */
-     , (11920,  2, 0, 2, 0,  65, 0, 773.63394265522) /* Bow                 Trained */
-     , (11920,  3, 0, 2, 0,  65, 0, 773.63394265522) /* Crossbow            Trained */
-     , (11920,  4, 0, 2, 0,  75, 0, 773.63394265522) /* Dagger              Trained */
-     , (11920,  5, 0, 2, 0,  75, 0, 773.63394265522) /* Mace                Trained */
-     , (11920,  6, 0, 2, 0,  70, 0, 773.63394265522) /* MeleeDefense        Trained */
-     , (11920,  7, 0, 2, 0,  65, 0, 773.63394265522) /* MissileDefense      Trained */
-     , (11920, 10, 0, 2, 0,  75, 0, 773.63394265522) /* Staff               Trained */
-     , (11920, 11, 0, 2, 0,  75, 0, 773.63394265522) /* Sword               Trained */
-     , (11920, 13, 0, 2, 0,  90, 0, 773.63394265522) /* UnarmedCombat       Trained */
-     , (11920, 15, 0, 2, 0,  46, 0, 773.63394265522) /* MagicDefense        Trained */
-     , (11920, 20, 0, 2, 0,  30, 0, 773.63394265522) /* Deception           Trained */
-     , (11920, 24, 0, 2, 0,  60, 0, 773.63394265522) /* Run                 Trained */;
+VALUES (11920,  1, 0, 2, 0,  75, 0, 773.6339426552202) /* Axe                 Trained */
+     , (11920,  2, 0, 2, 0,  65, 0, 773.6339426552202) /* Bow                 Trained */
+     , (11920,  3, 0, 2, 0,  65, 0, 773.6339426552202) /* Crossbow            Trained */
+     , (11920,  4, 0, 2, 0,  75, 0, 773.6339426552202) /* Dagger              Trained */
+     , (11920,  5, 0, 2, 0,  75, 0, 773.6339426552202) /* Mace                Trained */
+     , (11920,  6, 0, 2, 0,  70, 0, 773.6339426552202) /* MeleeDefense        Trained */
+     , (11920,  7, 0, 2, 0,  65, 0, 773.6339426552202) /* MissileDefense      Trained */
+     , (11920, 10, 0, 2, 0,  75, 0, 773.6339426552202) /* Staff               Trained */
+     , (11920, 11, 0, 2, 0,  75, 0, 773.6339426552202) /* Sword               Trained */
+     , (11920, 13, 0, 2, 0,  90, 0, 773.6339426552202) /* UnarmedCombat       Trained */
+     , (11920, 15, 0, 2, 0,  46, 0, 773.6339426552202) /* MagicDefense        Trained */
+     , (11920, 20, 0, 2, 0,  30, 0, 773.6339426552202) /* Deception           Trained */
+     , (11920, 24, 0, 2, 0,  60, 0, 773.6339426552202) /* Run                 Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (11920,  0,  4,  0,    0,   90,   90,   90,   90,   90,   90,   90,   90,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

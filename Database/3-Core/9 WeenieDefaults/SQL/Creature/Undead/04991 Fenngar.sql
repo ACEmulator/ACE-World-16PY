@@ -86,16 +86,16 @@ VALUES (4991,   1,   200, 0, 0, 263) /* MaxHealth */
      , (4991,   5,   200, 0, 0, 350) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (4991,  5, 0, 3, 0, 150, 0, 408.351500480195) /* Mace                Specialized */
-     , (4991,  6, 0, 2, 0, 150, 0, 408.351500480195) /* MeleeDefense        Trained */
-     , (4991,  7, 0, 2, 0, 120, 0, 408.351500480195) /* MissileDefense      Trained */
-     , (4991, 13, 0, 3, 0, 150, 0, 408.351500480195) /* UnarmedCombat       Specialized */
-     , (4991, 14, 0, 2, 0, 150, 0, 408.351500480195) /* ArcaneLore          Trained */
-     , (4991, 15, 0, 2, 0, 125, 0, 408.351500480195) /* MagicDefense        Trained */
-     , (4991, 20, 0, 2, 0,  50, 0, 408.351500480195) /* Deception           Trained */
-     , (4991, 31, 0, 2, 0, 150, 0, 408.351500480195) /* CreatureEnchantment Trained */
-     , (4991, 33, 0, 2, 0, 150, 0, 408.351500480195) /* LifeMagic           Trained */
-     , (4991, 34, 0, 2, 0, 150, 0, 408.351500480195) /* WarMagic            Trained */;
+VALUES (4991,  5, 0, 3, 0, 150, 0, 408.3515004801947) /* Mace                Specialized */
+     , (4991,  6, 0, 2, 0, 150, 0, 408.3515004801947) /* MeleeDefense        Trained */
+     , (4991,  7, 0, 2, 0, 120, 0, 408.3515004801947) /* MissileDefense      Trained */
+     , (4991, 13, 0, 3, 0, 150, 0, 408.3515004801947) /* UnarmedCombat       Specialized */
+     , (4991, 14, 0, 2, 0, 150, 0, 408.3515004801947) /* ArcaneLore          Trained */
+     , (4991, 15, 0, 2, 0, 125, 0, 408.3515004801947) /* MagicDefense        Trained */
+     , (4991, 20, 0, 2, 0,  50, 0, 408.3515004801947) /* Deception           Trained */
+     , (4991, 31, 0, 2, 0, 150, 0, 408.3515004801947) /* CreatureEnchantment Trained */
+     , (4991, 33, 0, 2, 0, 150, 0, 408.3515004801947) /* LifeMagic           Trained */
+     , (4991, 34, 0, 2, 0, 150, 0, 408.3515004801947) /* WarMagic            Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (4991,  0,  4,  0,    0,  110,   88,   46,   68, 11000,   55,   68,   77,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

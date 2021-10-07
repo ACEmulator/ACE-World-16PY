@@ -18,7 +18,7 @@ VALUES (21963,   1,        256) /* ItemType - MissileWeapon */
      , (21963,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (21963,  49,         30) /* WeaponTime */
      , (21963,  50,        256) /* AmmoType - AtlatlChorizite */
-     , (21963,  51,          2) /* CombatUse - Missle */
+     , (21963,  51,          2) /* CombatUse - Missile */
      , (21963,  60,        120) /* WeaponRange */
      , (21963,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (21963, 114,          1) /* Attuned - Attuned */

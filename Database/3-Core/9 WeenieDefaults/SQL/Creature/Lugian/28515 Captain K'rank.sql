@@ -85,9 +85,9 @@ VALUES (28515,   1,   200, 0, 0, 380) /* MaxHealth */
      , (28515,   5,    40, 0, 0, 310) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (28515,  6, 0, 2, 0,   2, 0, 2035.04446207195) /* MeleeDefense        Trained */
-     , (28515,  7, 0, 2, 0,   2, 0, 2035.04446207195) /* MissileDefense      Trained */
-     , (28515, 13, 0, 2, 0,   2, 0, 2035.04446207195) /* UnarmedCombat       Trained */;
+VALUES (28515,  6, 0, 2, 0,   2, 0, 2035.0444620719486) /* MeleeDefense        Trained */
+     , (28515,  7, 0, 2, 0,   2, 0, 2035.0444620719486) /* MissileDefense      Trained */
+     , (28515, 13, 0, 2, 0,   2, 0, 2035.0444620719486) /* UnarmedCombat       Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (28515,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -603,7 +603,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  21 /* InqQuest */, 0, 1, NULL, 'KrankCollectionGolem', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (28515, 32 /* GotoSet */,  0.429, NULL, NULL, NULL, 'KrankyQuests', NULL, NULL, NULL);
+VALUES (28515, 32 /* GotoSet */, 0.42900002, NULL, NULL, NULL, 'KrankyQuests', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -611,7 +611,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  21 /* InqQuest */, 0, 1, NULL, 'KrankCollectionSclavus', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (28515, 32 /* GotoSet */,  0.571, NULL, NULL, NULL, 'KrankyQuests', NULL, NULL, NULL);
+VALUES (28515, 32 /* GotoSet */, 0.57100004, NULL, NULL, NULL, 'KrankyQuests', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -619,7 +619,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  21 /* InqQuest */, 0, 1, NULL, 'KrankDeliveryMacNiall', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (28515, 32 /* GotoSet */,  0.714, NULL, NULL, NULL, 'KrankyQuests', NULL, NULL, NULL);
+VALUES (28515, 32 /* GotoSet */, 0.71400005, NULL, NULL, NULL, 'KrankyQuests', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -627,7 +627,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  21 /* InqQuest */, 0, 1, NULL, 'KrankDeliveryStonehold', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (28515, 32 /* GotoSet */, 0.8570001, NULL, NULL, NULL, 'KrankyQuests', NULL, NULL, NULL);
+VALUES (28515, 32 /* GotoSet */, 0.85700005, NULL, NULL, NULL, 'KrankyQuests', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

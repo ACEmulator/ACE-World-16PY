@@ -86,7 +86,7 @@ VALUES (12020,   1,   33555608) /* Setup */
                                    Wield Large Kite Shield (92) | Probability: 10%
                                    Wield Kite Shield (91) | Probability: 10%
                                    Wield Large Round Shield (94) | Probability: 20%
-                                   Wield Tower Shield (95) | Probability: 15% */
+                                   Wield Tower Shield (95) | Probability: 15.000001% */
      , (12020,  35,         19) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

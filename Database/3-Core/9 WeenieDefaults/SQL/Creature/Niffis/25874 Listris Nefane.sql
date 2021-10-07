@@ -90,15 +90,15 @@ VALUES (25874,   1,   870, 0, 0, 1000) /* MaxHealth */
      , (25874,   5,   670, 0, 0, 1000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (25874,  6, 0, 3, 0, 370, 0, 1677.51996715615) /* MeleeDefense        Specialized */
-     , (25874,  7, 0, 3, 0, 465, 0, 1677.51996715615) /* MissileDefense      Specialized */
-     , (25874, 13, 0, 3, 0, 350, 0, 1677.51996715615) /* UnarmedCombat       Specialized */
-     , (25874, 14, 0, 3, 0,  70, 0, 1677.51996715615) /* ArcaneLore          Specialized */
-     , (25874, 15, 0, 3, 0, 272, 0, 1677.51996715615) /* MagicDefense        Specialized */
-     , (25874, 20, 0, 3, 0,  50, 0, 1677.51996715615) /* Deception           Specialized */
-     , (25874, 31, 0, 3, 0, 175, 0, 1677.51996715615) /* CreatureEnchantment Specialized */
-     , (25874, 33, 0, 3, 0, 175, 0, 1677.51996715615) /* LifeMagic           Specialized */
-     , (25874, 34, 0, 3, 0, 175, 0, 1677.51996715615) /* WarMagic            Specialized */;
+VALUES (25874,  6, 0, 3, 0, 370, 0, 1677.5199671561477) /* MeleeDefense        Specialized */
+     , (25874,  7, 0, 3, 0, 465, 0, 1677.5199671561477) /* MissileDefense      Specialized */
+     , (25874, 13, 0, 3, 0, 350, 0, 1677.5199671561477) /* UnarmedCombat       Specialized */
+     , (25874, 14, 0, 3, 0,  70, 0, 1677.5199671561477) /* ArcaneLore          Specialized */
+     , (25874, 15, 0, 3, 0, 272, 0, 1677.5199671561477) /* MagicDefense        Specialized */
+     , (25874, 20, 0, 3, 0,  50, 0, 1677.5199671561477) /* Deception           Specialized */
+     , (25874, 31, 0, 3, 0, 175, 0, 1677.5199671561477) /* CreatureEnchantment Specialized */
+     , (25874, 33, 0, 3, 0, 175, 0, 1677.5199671561477) /* LifeMagic           Specialized */
+     , (25874, 34, 0, 3, 0, 175, 0, 1677.5199671561477) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (25874,  0,  4, 120, 0.75,  550,  550,  468,  468,  523,  468,  523,  468,    0, 1, 0.44,  0.3,    0,  0.4,  0.1,    0, 0.44,  0.3,    0,  0.4,  0.1,    0) /* Head */

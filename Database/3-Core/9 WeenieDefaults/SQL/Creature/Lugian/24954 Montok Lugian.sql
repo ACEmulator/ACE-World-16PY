@@ -95,16 +95,16 @@ VALUES (24954,   1,   180, 0, 0, 300) /* MaxHealth */
      , (24954,   5,     0, 0, 0, 145) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (24954,  1, 0, 3, 0, 165, 0, 1612.00539137702) /* Axe                 Specialized */
-     , (24954,  5, 0, 3, 0, 165, 0, 1612.00539137702) /* Mace                Specialized */
-     , (24954,  6, 0, 3, 0, 210, 0, 1612.00539137702) /* MeleeDefense        Specialized */
-     , (24954,  7, 0, 3, 0, 315, 0, 1612.00539137702) /* MissileDefense      Specialized */
-     , (24954, 12, 0, 3, 0, 185, 0, 1612.00539137702) /* ThrownWeapon        Specialized */
-     , (24954, 13, 0, 3, 0, 165, 0, 1612.00539137702) /* UnarmedCombat       Specialized */
-     , (24954, 15, 0, 3, 0, 205, 0, 1612.00539137702) /* MagicDefense        Specialized */
-     , (24954, 20, 0, 2, 0,  80, 0, 1612.00539137702) /* Deception           Trained */
-     , (24954, 22, 0, 2, 0,  80, 0, 1612.00539137702) /* Jump                Trained */
-     , (24954, 24, 0, 2, 0,  45, 0, 1612.00539137702) /* Run                 Trained */;
+VALUES (24954,  1, 0, 3, 0, 165, 0, 1612.0053913770225) /* Axe                 Specialized */
+     , (24954,  5, 0, 3, 0, 165, 0, 1612.0053913770225) /* Mace                Specialized */
+     , (24954,  6, 0, 3, 0, 210, 0, 1612.0053913770225) /* MeleeDefense        Specialized */
+     , (24954,  7, 0, 3, 0, 315, 0, 1612.0053913770225) /* MissileDefense      Specialized */
+     , (24954, 12, 0, 3, 0, 185, 0, 1612.0053913770225) /* ThrownWeapon        Specialized */
+     , (24954, 13, 0, 3, 0, 165, 0, 1612.0053913770225) /* UnarmedCombat       Specialized */
+     , (24954, 15, 0, 3, 0, 205, 0, 1612.0053913770225) /* MagicDefense        Specialized */
+     , (24954, 20, 0, 2, 0,  80, 0, 1612.0053913770225) /* Deception           Trained */
+     , (24954, 22, 0, 2, 0,  80, 0, 1612.0053913770225) /* Jump                Trained */
+     , (24954, 24, 0, 2, 0,  45, 0, 1612.0053913770225) /* Run                 Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (24954,  0,  4,  2,  0.3,  200,  114,  114,  114,   72,   34,  172,  160,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -274,7 +274,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'My brother, I will not let you dishonor the pact between our kingdoms.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24954, 18 /* Scream */,    0.2, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (24954, 18 /* Scream */, 0.19999999, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

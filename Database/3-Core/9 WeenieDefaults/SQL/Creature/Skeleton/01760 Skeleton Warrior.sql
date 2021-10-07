@@ -78,7 +78,7 @@ VALUES (1760,   1,   33554521) /* Setup */
                                    Wield 20x Arrow (300) | Probability: 100%
                                    Wield Yumi (363) | Probability: 10%
                                    Wield 14x Arrow (300) | Probability: 100%
-                                   Wield Heavy Crossbow (311) | Probability: 60%
+                                   Wield Heavy Crossbow (311) | Probability: 60.000004%
                                    Wield 15x Quarrel (305) | Probability: 100%
                                    Wield Battle Axe (301) | Probability: 14%
                                    Wield Broad Sword (350) | Probability: 7%
@@ -111,19 +111,19 @@ VALUES (1760,   1,    40, 0, 0, 73) /* MaxHealth */
      , (1760,   5,     0, 0, 0, 80) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (1760,  1, 0, 3, 0,  80, 0, 313.463548748928) /* Axe                 Specialized */
-     , (1760,  2, 0, 3, 0,  80, 0, 313.463548748928) /* Bow                 Specialized */
-     , (1760,  3, 0, 3, 0,  80, 0, 313.463548748928) /* Crossbow            Specialized */
-     , (1760,  4, 0, 3, 0,  80, 0, 313.463548748928) /* Dagger              Specialized */
-     , (1760,  5, 0, 3, 0,  80, 0, 313.463548748928) /* Mace                Specialized */
-     , (1760,  6, 0, 3, 0,  50, 0, 313.463548748928) /* MeleeDefense        Specialized */
-     , (1760,  7, 0, 3, 0,  80, 0, 313.463548748928) /* MissileDefense      Specialized */
-     , (1760,  9, 0, 3, 0,  80, 0, 313.463548748928) /* Spear               Specialized */
-     , (1760, 10, 0, 3, 0,  80, 0, 313.463548748928) /* Staff               Specialized */
-     , (1760, 11, 0, 3, 0,  80, 0, 313.463548748928) /* Sword               Specialized */
-     , (1760, 13, 0, 3, 0,  80, 0, 313.463548748928) /* UnarmedCombat       Specialized */
-     , (1760, 15, 0, 3, 0,  63, 0, 313.463548748928) /* MagicDefense        Specialized */
-     , (1760, 20, 0, 3, 0,  70, 0, 313.463548748928) /* Deception           Specialized */;
+VALUES (1760,  1, 0, 3, 0,  80, 0, 313.4635487489278) /* Axe                 Specialized */
+     , (1760,  2, 0, 3, 0,  80, 0, 313.4635487489278) /* Bow                 Specialized */
+     , (1760,  3, 0, 3, 0,  80, 0, 313.4635487489278) /* Crossbow            Specialized */
+     , (1760,  4, 0, 3, 0,  80, 0, 313.4635487489278) /* Dagger              Specialized */
+     , (1760,  5, 0, 3, 0,  80, 0, 313.4635487489278) /* Mace                Specialized */
+     , (1760,  6, 0, 3, 0,  50, 0, 313.4635487489278) /* MeleeDefense        Specialized */
+     , (1760,  7, 0, 3, 0,  80, 0, 313.4635487489278) /* MissileDefense      Specialized */
+     , (1760,  9, 0, 3, 0,  80, 0, 313.4635487489278) /* Spear               Specialized */
+     , (1760, 10, 0, 3, 0,  80, 0, 313.4635487489278) /* Staff               Specialized */
+     , (1760, 11, 0, 3, 0,  80, 0, 313.4635487489278) /* Sword               Specialized */
+     , (1760, 13, 0, 3, 0,  80, 0, 313.4635487489278) /* UnarmedCombat       Specialized */
+     , (1760, 15, 0, 3, 0,  63, 0, 313.4635487489278) /* MagicDefense        Specialized */
+     , (1760, 20, 0, 3, 0,  70, 0, 313.4635487489278) /* Deception           Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (1760,  0,  4,  0,    0,   50,    3,   13,   25,   11,   37,   14,   11,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

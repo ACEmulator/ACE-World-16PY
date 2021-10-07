@@ -19,7 +19,7 @@ VALUES (31074,   1,        256) /* ItemType - MissileWeapon */
      , (31074,  48,          2) /* WeaponSkill - Bow */
      , (31074,  49,         45) /* WeaponTime */
      , (31074,  50,          1) /* AmmoType - Arrow */
-     , (31074,  51,          2) /* CombatUse - Missle */
+     , (31074,  51,          2) /* CombatUse - Missile */
      , (31074,  52,          2) /* ParentLocation - LeftHand */
      , (31074,  53,          3) /* PlacementPosition - LeftHand */
      , (31074,  60,        192) /* WeaponRange */
@@ -39,7 +39,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31074,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31074,   5,       0) /* ManaRate */
+VALUES (31074,   5,      -0) /* ManaRate */
      , (31074,  26,    27.3) /* MaximumVelocity */
      , (31074,  29,    1.12) /* WeaponDefense */
      , (31074,  39,     1.1) /* DefaultScale */

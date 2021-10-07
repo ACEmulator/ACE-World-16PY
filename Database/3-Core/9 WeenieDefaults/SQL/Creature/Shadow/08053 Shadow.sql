@@ -107,23 +107,23 @@ VALUES (8053,   1,    70, 0, 0, 138) /* MaxHealth */
      , (8053,   5,   300, 0, 0, 360) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (8053,  1, 0, 2, 0, 110, 0, 567.901523866777) /* Axe                 Trained */
-     , (8053,  2, 0, 3, 0,  90, 0, 567.901523866777) /* Bow                 Specialized */
-     , (8053,  3, 0, 2, 0,  90, 0, 567.901523866777) /* Crossbow            Trained */
-     , (8053,  4, 0, 3, 0, 110, 0, 567.901523866777) /* Dagger              Specialized */
-     , (8053,  5, 0, 2, 0, 110, 0, 567.901523866777) /* Mace                Trained */
-     , (8053,  6, 0, 3, 0,  80, 0, 567.901523866777) /* MeleeDefense        Specialized */
-     , (8053,  7, 0, 3, 0,  90, 0, 567.901523866777) /* MissileDefense      Specialized */
-     , (8053,  9, 0, 3, 0, 110, 0, 567.901523866777) /* Spear               Specialized */
-     , (8053, 10, 0, 2, 0, 110, 0, 567.901523866777) /* Staff               Trained */
-     , (8053, 11, 0, 3, 0, 110, 0, 567.901523866777) /* Sword               Specialized */
-     , (8053, 13, 0, 2, 0, 110, 0, 567.901523866777) /* UnarmedCombat       Trained */
-     , (8053, 14, 0, 2, 0, 230, 0, 567.901523866777) /* ArcaneLore          Trained */
-     , (8053, 15, 0, 2, 0, 200, 0, 567.901523866777) /* MagicDefense        Trained */
-     , (8053, 20, 0, 3, 0, 150, 0, 567.901523866777) /* Deception           Specialized */
-     , (8053, 31, 0, 2, 0, 230, 0, 567.901523866777) /* CreatureEnchantment Trained */
-     , (8053, 33, 0, 2, 0, 230, 0, 567.901523866777) /* LifeMagic           Trained */
-     , (8053, 34, 0, 2, 0, 250, 0, 567.901523866777) /* WarMagic            Trained */;
+VALUES (8053,  1, 0, 2, 0, 110, 0, 567.9015238667771) /* Axe                 Trained */
+     , (8053,  2, 0, 3, 0,  90, 0, 567.9015238667771) /* Bow                 Specialized */
+     , (8053,  3, 0, 2, 0,  90, 0, 567.9015238667771) /* Crossbow            Trained */
+     , (8053,  4, 0, 3, 0, 110, 0, 567.9015238667771) /* Dagger              Specialized */
+     , (8053,  5, 0, 2, 0, 110, 0, 567.9015238667771) /* Mace                Trained */
+     , (8053,  6, 0, 3, 0,  80, 0, 567.9015238667771) /* MeleeDefense        Specialized */
+     , (8053,  7, 0, 3, 0,  90, 0, 567.9015238667771) /* MissileDefense      Specialized */
+     , (8053,  9, 0, 3, 0, 110, 0, 567.9015238667771) /* Spear               Specialized */
+     , (8053, 10, 0, 2, 0, 110, 0, 567.9015238667771) /* Staff               Trained */
+     , (8053, 11, 0, 3, 0, 110, 0, 567.9015238667771) /* Sword               Specialized */
+     , (8053, 13, 0, 2, 0, 110, 0, 567.9015238667771) /* UnarmedCombat       Trained */
+     , (8053, 14, 0, 2, 0, 230, 0, 567.9015238667771) /* ArcaneLore          Trained */
+     , (8053, 15, 0, 2, 0, 200, 0, 567.9015238667771) /* MagicDefense        Trained */
+     , (8053, 20, 0, 3, 0, 150, 0, 567.9015238667771) /* Deception           Specialized */
+     , (8053, 31, 0, 2, 0, 230, 0, 567.9015238667771) /* CreatureEnchantment Trained */
+     , (8053, 33, 0, 2, 0, 230, 0, 567.9015238667771) /* LifeMagic           Trained */
+     , (8053, 34, 0, 2, 0, 250, 0, 567.9015238667771) /* WarMagic            Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (8053,  0,  4,  0,    0,   90,   90,   58,   69,   34,   90,   40,   58,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -179,7 +179,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'You think you hear a voice say, "You can''t... stop... change..."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (8053,  3 /* Death */,   0.05, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (8053,  3 /* Death */, 0.049999997, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

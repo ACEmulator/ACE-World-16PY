@@ -92,7 +92,7 @@ VALUES (2487,   1,   33554496) /* Setup */
                                    Wield Simi (345) | Probability: 5%
                                    Wield Spear (348) | Probability: 5%
                                    Wield Tofun (356) | Probability: 10%
-                                   Wield Yaoji (361) | Probability: 15%
+                                   Wield Yaoji (361) | Probability: 15.000001%
                                    Wield Yari (362) | Probability: 5% */
      , (2487,  35,        230) /* DeathTreasureType - Loot Tier: 2 */;
 
@@ -110,23 +110,23 @@ VALUES (2487,   1,    10, 0, 0, 48) /* MaxHealth */
      , (2487,   5,     0, 0, 0, 30) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (2487,  1, 0, 2, 0,  50, 0, 333.013193258213) /* Axe                 Trained */
-     , (2487,  2, 0, 2, 0,  50, 0, 333.013193258213) /* Bow                 Trained */
-     , (2487,  3, 0, 2, 0,  50, 0, 333.013193258213) /* Crossbow            Trained */
-     , (2487,  4, 0, 2, 0,  50, 0, 333.013193258213) /* Dagger              Trained */
-     , (2487,  5, 0, 2, 0,  30, 0, 333.013193258213) /* Mace                Trained */
-     , (2487,  6, 0, 2, 0,  25, 0, 333.013193258213) /* MeleeDefense        Trained */
-     , (2487,  7, 0, 2, 0,  25, 0, 333.013193258213) /* MissileDefense      Trained */
-     , (2487, 10, 0, 2, 0,  45, 0, 333.013193258213) /* Staff               Trained */
-     , (2487, 11, 0, 2, 0,  45, 0, 333.013193258213) /* Sword               Trained */
-     , (2487, 13, 0, 2, 0,  90, 0, 333.013193258213) /* UnarmedCombat       Trained */
-     , (2487, 14, 0, 2, 0,  80, 0, 333.013193258213) /* ArcaneLore          Trained */
-     , (2487, 15, 0, 2, 0,  30, 0, 333.013193258213) /* MagicDefense        Trained */
-     , (2487, 20, 0, 2, 0,  10, 0, 333.013193258213) /* Deception           Trained */
-     , (2487, 24, 0, 2, 0,  60, 0, 333.013193258213) /* Run                 Trained */
-     , (2487, 31, 0, 2, 0,  80, 0, 333.013193258213) /* CreatureEnchantment Trained */
-     , (2487, 33, 0, 2, 0,  80, 0, 333.013193258213) /* LifeMagic           Trained */
-     , (2487, 34, 0, 2, 0,  80, 0, 333.013193258213) /* WarMagic            Trained */;
+VALUES (2487,  1, 0, 2, 0,  50, 0, 333.0131932582128) /* Axe                 Trained */
+     , (2487,  2, 0, 2, 0,  50, 0, 333.0131932582128) /* Bow                 Trained */
+     , (2487,  3, 0, 2, 0,  50, 0, 333.0131932582128) /* Crossbow            Trained */
+     , (2487,  4, 0, 2, 0,  50, 0, 333.0131932582128) /* Dagger              Trained */
+     , (2487,  5, 0, 2, 0,  30, 0, 333.0131932582128) /* Mace                Trained */
+     , (2487,  6, 0, 2, 0,  25, 0, 333.0131932582128) /* MeleeDefense        Trained */
+     , (2487,  7, 0, 2, 0,  25, 0, 333.0131932582128) /* MissileDefense      Trained */
+     , (2487, 10, 0, 2, 0,  45, 0, 333.0131932582128) /* Staff               Trained */
+     , (2487, 11, 0, 2, 0,  45, 0, 333.0131932582128) /* Sword               Trained */
+     , (2487, 13, 0, 2, 0,  90, 0, 333.0131932582128) /* UnarmedCombat       Trained */
+     , (2487, 14, 0, 2, 0,  80, 0, 333.0131932582128) /* ArcaneLore          Trained */
+     , (2487, 15, 0, 2, 0,  30, 0, 333.0131932582128) /* MagicDefense        Trained */
+     , (2487, 20, 0, 2, 0,  10, 0, 333.0131932582128) /* Deception           Trained */
+     , (2487, 24, 0, 2, 0,  60, 0, 333.0131932582128) /* Run                 Trained */
+     , (2487, 31, 0, 2, 0,  80, 0, 333.0131932582128) /* CreatureEnchantment Trained */
+     , (2487, 33, 0, 2, 0,  80, 0, 333.0131932582128) /* LifeMagic           Trained */
+     , (2487, 34, 0, 2, 0,  80, 0, 333.0131932582128) /* WarMagic            Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (2487,  0,  4,  0,    0,   20,   20,   20,   20,   20,   20,   20,   20,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

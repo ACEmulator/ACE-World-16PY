@@ -87,16 +87,16 @@ VALUES (11622,   1,    70, 0, 0, 145) /* MaxHealth */
      , (11622,   5,   300, 0, 0, 550) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (11622,  6, 0, 2, 0, 180, 0, 753.742675747601) /* MeleeDefense        Trained */
-     , (11622,  7, 0, 2, 0, 100, 0, 753.742675747601) /* MissileDefense      Trained */
-     , (11622, 13, 0, 2, 0, 150, 0, 753.742675747601) /* UnarmedCombat       Trained */
-     , (11622, 14, 0, 2, 0, 230, 0, 753.742675747601) /* ArcaneLore          Trained */
-     , (11622, 15, 0, 2, 0, 187, 0, 753.742675747601) /* MagicDefense        Trained */
-     , (11622, 20, 0, 2, 0, 130, 0, 753.742675747601) /* Deception           Trained */
-     , (11622, 24, 0, 2, 0,  80, 0, 753.742675747601) /* Run                 Trained */
-     , (11622, 31, 0, 2, 0, 230, 0, 753.742675747601) /* CreatureEnchantment Trained */
-     , (11622, 33, 0, 2, 0, 200, 0, 753.742675747601) /* LifeMagic           Trained */
-     , (11622, 34, 0, 2, 0, 250, 0, 753.742675747601) /* WarMagic            Trained */;
+VALUES (11622,  6, 0, 2, 0, 180, 0, 753.7426757476009) /* MeleeDefense        Trained */
+     , (11622,  7, 0, 2, 0, 100, 0, 753.7426757476009) /* MissileDefense      Trained */
+     , (11622, 13, 0, 2, 0, 150, 0, 753.7426757476009) /* UnarmedCombat       Trained */
+     , (11622, 14, 0, 2, 0, 230, 0, 753.7426757476009) /* ArcaneLore          Trained */
+     , (11622, 15, 0, 2, 0, 187, 0, 753.7426757476009) /* MagicDefense        Trained */
+     , (11622, 20, 0, 2, 0, 130, 0, 753.7426757476009) /* Deception           Trained */
+     , (11622, 24, 0, 2, 0,  80, 0, 753.7426757476009) /* Run                 Trained */
+     , (11622, 31, 0, 2, 0, 230, 0, 753.7426757476009) /* CreatureEnchantment Trained */
+     , (11622, 33, 0, 2, 0, 200, 0, 753.7426757476009) /* LifeMagic           Trained */
+     , (11622, 34, 0, 2, 0, 250, 0, 753.7426757476009) /* WarMagic            Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (11622,  0,  1,  0,    0,  120,  120,  120,  120,   86,  120,  120,   86,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -182,7 +182,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'As the folds of the Virindi''s cloak flutter to the ground, you hear an oddly-cadenced voice in your mind.  "The bonds are weak. The grand campaign, it begins! The Directors speak for the Directive!"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (11622,  3 /* Death */, 0.09999999, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (11622,  3 /* Death */, 0.099999994, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

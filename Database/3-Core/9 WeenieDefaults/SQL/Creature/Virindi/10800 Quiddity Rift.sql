@@ -93,15 +93,15 @@ VALUES (10800,   1,   300, 0, 0, 370) /* MaxHealth */
      , (10800,   5,   500, 0, 0, 720) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (10800,  6, 0, 3, 0, 370, 0, 695.8681724009) /* MeleeDefense        Specialized */
-     , (10800,  7, 0, 3, 0, 460, 0, 695.8681724009) /* MissileDefense      Specialized */
-     , (10800, 13, 0, 3, 0, 380, 0, 695.8681724009) /* UnarmedCombat       Specialized */
-     , (10800, 15, 0, 3, 0, 295, 0, 695.8681724009) /* MagicDefense        Specialized */
-     , (10800, 20, 0, 3, 0, 100, 0, 695.8681724009) /* Deception           Specialized */
-     , (10800, 24, 0, 3, 0,  10, 0, 695.8681724009) /* Run                 Specialized */
-     , (10800, 31, 0, 3, 0, 300, 0, 695.8681724009) /* CreatureEnchantment Specialized */
-     , (10800, 33, 0, 3, 0, 300, 0, 695.8681724009) /* LifeMagic           Specialized */
-     , (10800, 34, 0, 3, 0, 300, 0, 695.8681724009) /* WarMagic            Specialized */;
+VALUES (10800,  6, 0, 3, 0, 370, 0, 695.8681724009002) /* MeleeDefense        Specialized */
+     , (10800,  7, 0, 3, 0, 460, 0, 695.8681724009002) /* MissileDefense      Specialized */
+     , (10800, 13, 0, 3, 0, 380, 0, 695.8681724009002) /* UnarmedCombat       Specialized */
+     , (10800, 15, 0, 3, 0, 295, 0, 695.8681724009002) /* MagicDefense        Specialized */
+     , (10800, 20, 0, 3, 0, 100, 0, 695.8681724009002) /* Deception           Specialized */
+     , (10800, 24, 0, 3, 0,  10, 0, 695.8681724009002) /* Run                 Specialized */
+     , (10800, 31, 0, 3, 0, 300, 0, 695.8681724009002) /* CreatureEnchantment Specialized */
+     , (10800, 33, 0, 3, 0, 300, 0, 695.8681724009002) /* LifeMagic           Specialized */
+     , (10800, 34, 0, 3, 0, 300, 0, 695.8681724009002) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (10800,  0, 64, 95, 0.75,  600,  600,  600,  600,  714,  600, 1668,  600,    0, 1,  0.5,  0.2,    0,  0.5,  0.2,    0,    0,    0,    0,    0,    0,    0) /* Head */
@@ -125,7 +125,7 @@ VALUES (10800,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (10800, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10800, 0.5, 10818, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1, 9, 0.8191521, 0, 0, -0.5735765) /* Generate Virindi Executor (10818) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (10800, 0.75, 10825, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 3.4, 9, 0.9659258, 0, 0, -0.258819) /* Generate Virindi Observer (10825) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+VALUES (10800, 0.5, 10818, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1, 9, 0.81915206, 0, 0, -0.57357645) /* Generate Virindi Executor (10818) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (10800, 0.75, 10825, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 3.4, 9, 0.9659258, 0, 0, -0.25881904) /* Generate Virindi Observer (10825) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (10800, 0.85, 10811, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, -1.4, 9, 0.9961947, 0, 0, -0.08715574) /* Generate Rampager (10811) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (10800, 0.9, 10815, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -2, 9, 0.9961947, 0, 0, -0.08715574) /* Generate Virindi Inquisitor (10815) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+     , (10800, 0.90000004, 10815, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -2, 9, 0.9961947, 0, 0, -0.08715574) /* Generate Virindi Inquisitor (10815) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

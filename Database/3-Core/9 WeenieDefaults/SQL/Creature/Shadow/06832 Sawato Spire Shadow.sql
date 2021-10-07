@@ -109,23 +109,23 @@ VALUES (6832,   1,   150, 0, 0, 218) /* MaxHealth */
      , (6832,   5,   300, 0, 0, 360) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (6832,  1, 0, 2, 0, 110, 0, 497.70657478208) /* Axe                 Trained */
-     , (6832,  2, 0, 3, 0,  90, 0, 497.70657478208) /* Bow                 Specialized */
-     , (6832,  3, 0, 2, 0,  90, 0, 497.70657478208) /* Crossbow            Trained */
-     , (6832,  4, 0, 3, 0, 110, 0, 497.70657478208) /* Dagger              Specialized */
-     , (6832,  5, 0, 2, 0, 110, 0, 497.70657478208) /* Mace                Trained */
-     , (6832,  6, 0, 3, 0,  80, 0, 497.70657478208) /* MeleeDefense        Specialized */
-     , (6832,  7, 0, 3, 0, 160, 0, 497.70657478208) /* MissileDefense      Specialized */
-     , (6832,  9, 0, 3, 0, 110, 0, 497.70657478208) /* Spear               Specialized */
-     , (6832, 10, 0, 2, 0, 110, 0, 497.70657478208) /* Staff               Trained */
-     , (6832, 11, 0, 3, 0, 110, 0, 497.70657478208) /* Sword               Specialized */
-     , (6832, 13, 0, 2, 0, 110, 0, 497.70657478208) /* UnarmedCombat       Trained */
-     , (6832, 14, 0, 2, 0, 230, 0, 497.70657478208) /* ArcaneLore          Trained */
-     , (6832, 15, 0, 2, 0, 240, 0, 497.70657478208) /* MagicDefense        Trained */
-     , (6832, 20, 0, 3, 0, 150, 0, 497.70657478208) /* Deception           Specialized */
-     , (6832, 31, 0, 2, 0, 230, 0, 497.70657478208) /* CreatureEnchantment Trained */
-     , (6832, 33, 0, 2, 0, 230, 0, 497.70657478208) /* LifeMagic           Trained */
-     , (6832, 34, 0, 2, 0, 250, 0, 497.70657478208) /* WarMagic            Trained */;
+VALUES (6832,  1, 0, 2, 0, 110, 0, 497.7065747820796) /* Axe                 Trained */
+     , (6832,  2, 0, 3, 0,  90, 0, 497.7065747820796) /* Bow                 Specialized */
+     , (6832,  3, 0, 2, 0,  90, 0, 497.7065747820796) /* Crossbow            Trained */
+     , (6832,  4, 0, 3, 0, 110, 0, 497.7065747820796) /* Dagger              Specialized */
+     , (6832,  5, 0, 2, 0, 110, 0, 497.7065747820796) /* Mace                Trained */
+     , (6832,  6, 0, 3, 0,  80, 0, 497.7065747820796) /* MeleeDefense        Specialized */
+     , (6832,  7, 0, 3, 0, 160, 0, 497.7065747820796) /* MissileDefense      Specialized */
+     , (6832,  9, 0, 3, 0, 110, 0, 497.7065747820796) /* Spear               Specialized */
+     , (6832, 10, 0, 2, 0, 110, 0, 497.7065747820796) /* Staff               Trained */
+     , (6832, 11, 0, 3, 0, 110, 0, 497.7065747820796) /* Sword               Specialized */
+     , (6832, 13, 0, 2, 0, 110, 0, 497.7065747820796) /* UnarmedCombat       Trained */
+     , (6832, 14, 0, 2, 0, 230, 0, 497.7065747820796) /* ArcaneLore          Trained */
+     , (6832, 15, 0, 2, 0, 240, 0, 497.7065747820796) /* MagicDefense        Trained */
+     , (6832, 20, 0, 3, 0, 150, 0, 497.7065747820796) /* Deception           Specialized */
+     , (6832, 31, 0, 2, 0, 230, 0, 497.7065747820796) /* CreatureEnchantment Trained */
+     , (6832, 33, 0, 2, 0, 230, 0, 497.7065747820796) /* LifeMagic           Trained */
+     , (6832, 34, 0, 2, 0, 250, 0, 497.7065747820796) /* WarMagic            Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (6832,  0,  4,  0,    0,   90,   90,   58,   69,   34,   90,   40,   58,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

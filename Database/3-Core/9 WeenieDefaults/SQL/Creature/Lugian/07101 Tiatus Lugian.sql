@@ -96,15 +96,15 @@ VALUES (7101,   1,   290, 0, 0, 450) /* MaxHealth */
      , (7101,   5,     0, 0, 0, 220) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (7101,  1, 0, 3, 0, 260, 0, 519.462147313476) /* Axe                 Specialized */
-     , (7101,  6, 0, 3, 0, 300, 0, 519.462147313476) /* MeleeDefense        Specialized */
-     , (7101,  7, 0, 3, 0, 400, 0, 519.462147313476) /* MissileDefense      Specialized */
-     , (7101, 12, 0, 3, 0, 180, 0, 519.462147313476) /* ThrownWeapon        Specialized */
-     , (7101, 13, 0, 3, 0, 260, 0, 519.462147313476) /* UnarmedCombat       Specialized */
-     , (7101, 15, 0, 3, 0, 260, 0, 519.462147313476) /* MagicDefense        Specialized */
-     , (7101, 20, 0, 2, 0,  80, 0, 519.462147313476) /* Deception           Trained */
-     , (7101, 22, 0, 2, 0,  80, 0, 519.462147313476) /* Jump                Trained */
-     , (7101, 24, 0, 2, 0,  45, 0, 519.462147313476) /* Run                 Trained */;
+VALUES (7101,  1, 0, 3, 0, 260, 0, 519.4621473134755) /* Axe                 Specialized */
+     , (7101,  6, 0, 3, 0, 300, 0, 519.4621473134755) /* MeleeDefense        Specialized */
+     , (7101,  7, 0, 3, 0, 400, 0, 519.4621473134755) /* MissileDefense      Specialized */
+     , (7101, 12, 0, 3, 0, 180, 0, 519.4621473134755) /* ThrownWeapon        Specialized */
+     , (7101, 13, 0, 3, 0, 260, 0, 519.4621473134755) /* UnarmedCombat       Specialized */
+     , (7101, 15, 0, 3, 0, 260, 0, 519.4621473134755) /* MagicDefense        Specialized */
+     , (7101, 20, 0, 2, 0,  80, 0, 519.4621473134755) /* Deception           Trained */
+     , (7101, 22, 0, 2, 0,  80, 0, 519.4621473134755) /* Jump                Trained */
+     , (7101, 24, 0, 2, 0,  45, 0, 519.4621473134755) /* Run                 Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (7101,  0,  4,  2,  0.3,  260,  148,  148,  148,   94,   44,  224,  208,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -274,7 +274,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'My brother, I will not let you dishonor the pact between our kingdoms.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (7101, 18 /* Scream */,    0.2, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (7101, 18 /* Scream */, 0.19999999, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

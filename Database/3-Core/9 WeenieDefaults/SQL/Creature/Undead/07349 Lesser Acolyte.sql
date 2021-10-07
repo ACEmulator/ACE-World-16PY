@@ -85,7 +85,7 @@ VALUES (7349,   1,   33554839) /* Setup */
                                    Wield 20x Arrow (300) | Probability: 100%
                                    Wield Yumi (363) | Probability: 10%
                                    Wield 14x Arrow (300) | Probability: 100%
-                                   Wield Heavy Crossbow (311) | Probability: 60%
+                                   Wield Heavy Crossbow (311) | Probability: 60.000004%
                                    Wield 15x Quarrel (305) | Probability: 100%
                                    Wield Battle Axe (301) | Probability: 14%
                                    Wield Broad Sword (350) | Probability: 7%
@@ -99,14 +99,14 @@ VALUES (7349,   1,   33554839) /* Setup */
                                    Wield Silifi (344) | Probability: 13%
                                    Wield Tachi (353) | Probability: 6%
                                    Wield Takuba (354) | Probability: 6%
-                                   Wield Large Kite Shield (92) | Probability: 30%
+                                   Wield Large Kite Shield (92) | Probability: 30.000002%
                                    Wield Kite Shield (91) | Probability: 20%
                                    Wield Large Round Shield (94) | Probability: 20% */
      , (7349,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7349, 12, 49217806, 68, -113.3, -24, -4.371139E-08, 0, 0, -1) /* PortalSummonLoc */
-/* @teleloc 0x02EF010E [68.000000 -113.300000 -24.000000] 0.000000 0.000000 0.000000 -1.000000 */;
+VALUES (7349, 12, 49217806, 68, -113.3, -24, -4.371139E-08, 0, -0, -1) /* PortalSummonLoc */
+/* @teleloc 0x02EF010E [68.000000 -113.300003 -24.000000] -0.000000 0.000000 -0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7349,   1, 150, 0, 0) /* Strength */
@@ -122,23 +122,23 @@ VALUES (7349,   1,    90, 0, 0, 178) /* MaxHealth */
      , (7349,   5,   150, 0, 0, 305) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (7349,  1, 0, 3, 0, 125, 0, 527.091106207341) /* Axe                 Specialized */
-     , (7349,  2, 0, 3, 0, 100, 0, 527.091106207341) /* Bow                 Specialized */
-     , (7349,  3, 0, 3, 0, 100, 0, 527.091106207341) /* Crossbow            Specialized */
-     , (7349,  4, 0, 3, 0, 125, 0, 527.091106207341) /* Dagger              Specialized */
-     , (7349,  5, 0, 3, 0, 125, 0, 527.091106207341) /* Mace                Specialized */
-     , (7349,  6, 0, 3, 0, 125, 0, 527.091106207341) /* MeleeDefense        Specialized */
-     , (7349,  7, 0, 3, 0, 240, 0, 527.091106207341) /* MissileDefense      Specialized */
-     , (7349,  9, 0, 3, 0, 125, 0, 527.091106207341) /* Spear               Specialized */
-     , (7349, 10, 0, 3, 0, 125, 0, 527.091106207341) /* Staff               Specialized */
-     , (7349, 11, 0, 3, 0, 125, 0, 527.091106207341) /* Sword               Specialized */
-     , (7349, 13, 0, 3, 0, 125, 0, 527.091106207341) /* UnarmedCombat       Specialized */
-     , (7349, 14, 0, 2, 0, 150, 0, 527.091106207341) /* ArcaneLore          Trained */
-     , (7349, 15, 0, 3, 0, 136, 0, 527.091106207341) /* MagicDefense        Specialized */
-     , (7349, 20, 0, 2, 0,  50, 0, 527.091106207341) /* Deception           Trained */
-     , (7349, 31, 0, 3, 0,  80, 0, 527.091106207341) /* CreatureEnchantment Specialized */
-     , (7349, 33, 0, 3, 0,  80, 0, 527.091106207341) /* LifeMagic           Specialized */
-     , (7349, 34, 0, 3, 0,  80, 0, 527.091106207341) /* WarMagic            Specialized */;
+VALUES (7349,  1, 0, 3, 0, 125, 0, 527.0911062073415) /* Axe                 Specialized */
+     , (7349,  2, 0, 3, 0, 100, 0, 527.0911062073415) /* Bow                 Specialized */
+     , (7349,  3, 0, 3, 0, 100, 0, 527.0911062073415) /* Crossbow            Specialized */
+     , (7349,  4, 0, 3, 0, 125, 0, 527.0911062073415) /* Dagger              Specialized */
+     , (7349,  5, 0, 3, 0, 125, 0, 527.0911062073415) /* Mace                Specialized */
+     , (7349,  6, 0, 3, 0, 125, 0, 527.0911062073415) /* MeleeDefense        Specialized */
+     , (7349,  7, 0, 3, 0, 240, 0, 527.0911062073415) /* MissileDefense      Specialized */
+     , (7349,  9, 0, 3, 0, 125, 0, 527.0911062073415) /* Spear               Specialized */
+     , (7349, 10, 0, 3, 0, 125, 0, 527.0911062073415) /* Staff               Specialized */
+     , (7349, 11, 0, 3, 0, 125, 0, 527.0911062073415) /* Sword               Specialized */
+     , (7349, 13, 0, 3, 0, 125, 0, 527.0911062073415) /* UnarmedCombat       Specialized */
+     , (7349, 14, 0, 2, 0, 150, 0, 527.0911062073415) /* ArcaneLore          Trained */
+     , (7349, 15, 0, 3, 0, 136, 0, 527.0911062073415) /* MagicDefense        Specialized */
+     , (7349, 20, 0, 2, 0,  50, 0, 527.0911062073415) /* Deception           Trained */
+     , (7349, 31, 0, 3, 0,  80, 0, 527.0911062073415) /* CreatureEnchantment Specialized */
+     , (7349, 33, 0, 3, 0,  80, 0, 527.0911062073415) /* LifeMagic           Specialized */
+     , (7349, 34, 0, 3, 0,  80, 0, 527.0911062073415) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (7349,  0,  4,  0,    0,   70,   56,   21,   39,   13,   35,   39,   47,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

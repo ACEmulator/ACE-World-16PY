@@ -25,4 +25,4 @@ VALUES (10722,   1,   33555051) /* Setup */
      , (10722,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10722, -1, 21198, 180, 1, 1, 1, 4, -1, 0, 0, 288620575, 77.866, 146.642, 42.508, 0.9063078, 0, 0, -0.4226183) /* Generate Ulgrim's Sword (21198) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (10722, -1, 21198, 180, 1, 1, 1, 4, -1, 0, 0, 288620575, 77.866, 146.642, 42.508, 0.90630776, 0, 0, -0.42261827) /* Generate Ulgrim's Sword (21198) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

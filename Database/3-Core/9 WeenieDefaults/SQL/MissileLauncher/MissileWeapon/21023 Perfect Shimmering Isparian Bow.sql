@@ -19,7 +19,7 @@ VALUES (21023,   1,        256) /* ItemType - MissileWeapon */
      , (21023,  48,          2) /* WeaponSkill - Bow */
      , (21023,  49,         40) /* WeaponTime */
      , (21023,  50,          1) /* AmmoType - Arrow */
-     , (21023,  51,          2) /* CombatUse - Missle */
+     , (21023,  51,          2) /* CombatUse - Missile */
      , (21023,  52,          2) /* ParentLocation - LeftHand */
      , (21023,  53,          3) /* PlacementPosition - LeftHand */
      , (21023,  60,        175) /* WeaponRange */

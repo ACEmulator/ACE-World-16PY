@@ -85,10 +85,10 @@ VALUES (27317,   1,   140, 0, 0, 200) /* MaxHealth */
      , (27317,   5,   110, 0, 0, 300) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (27317,  6, 0, 2, 0,   2, 0, 1892.57611577458) /* MeleeDefense        Trained */
-     , (27317,  7, 0, 2, 0,   2, 0, 1892.57611577458) /* MissileDefense      Trained */
-     , (27317, 13, 0, 2, 0,   2, 0, 1892.57611577458) /* UnarmedCombat       Trained */
-     , (27317, 31, 0, 2, 0,   2, 0, 1892.57611577458) /* CreatureEnchantment Trained */;
+VALUES (27317,  6, 0, 2, 0,   2, 0, 1892.5761157745796) /* MeleeDefense        Trained */
+     , (27317,  7, 0, 2, 0,   2, 0, 1892.5761157745796) /* MissileDefense      Trained */
+     , (27317, 13, 0, 2, 0,   2, 0, 1892.5761157745796) /* UnarmedCombat       Trained */
+     , (27317, 31, 0, 2, 0,   2, 0, 1892.5761157745796) /* CreatureEnchantment Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (27317,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -218,7 +218,7 @@ VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'Broken and dull -- for you!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (27317, 32 /* GotoSet */,   0.05, NULL, NULL, NULL, 'JONASRANDOMREWARD', NULL, NULL, NULL);
+VALUES (27317, 32 /* GotoSet */, 0.049999997, NULL, NULL, NULL, 'JONASRANDOMREWARD', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -227,7 +227,7 @@ VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'Broken and dull -- for you!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (27317, 32 /* GotoSet */, 0.09999999, NULL, NULL, NULL, 'JONASRANDOMREWARD', NULL, NULL, NULL);
+VALUES (27317, 32 /* GotoSet */, 0.099999994, NULL, NULL, NULL, 'JONASRANDOMREWARD', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -236,7 +236,7 @@ VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'Too shiny!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (27317, 32 /* GotoSet */,   0.15, NULL, NULL, NULL, 'JONASRANDOMREWARD', NULL, NULL, NULL);
+VALUES (27317, 32 /* GotoSet */, 0.14999999, NULL, NULL, NULL, 'JONASRANDOMREWARD', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -245,7 +245,7 @@ VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'Bright!  Not shiny!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (27317, 32 /* GotoSet */,    0.2, NULL, NULL, NULL, 'JONASRANDOMREWARD', NULL, NULL, NULL);
+VALUES (27317, 32 /* GotoSet */, 0.19999999, NULL, NULL, NULL, 'JONASRANDOMREWARD', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -254,7 +254,7 @@ VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'Tusker friend...you!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (27317, 32 /* GotoSet */,   0.25, NULL, NULL, NULL, 'JONASRANDOMREWARD', NULL, NULL, NULL);
+VALUES (27317, 32 /* GotoSet */, 0.24999999, NULL, NULL, NULL, 'JONASRANDOMREWARD', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

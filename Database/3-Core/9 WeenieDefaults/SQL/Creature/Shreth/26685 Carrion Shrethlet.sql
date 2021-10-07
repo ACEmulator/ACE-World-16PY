@@ -86,12 +86,12 @@ VALUES (26685,   1,     5, 0, 0, 15) /* MaxHealth */
      , (26685,   5,     0, 0, 0, 30) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (26685,  6, 0, 3, 0,  16, 0, 1804.0862749353) /* MeleeDefense        Specialized */
-     , (26685,  7, 0, 3, 0,  46, 0, 1804.0862749353) /* MissileDefense      Specialized */
-     , (26685, 13, 0, 3, 0,  10, 0, 1804.0862749353) /* UnarmedCombat       Specialized */
-     , (26685, 15, 0, 3, 0,  12, 0, 1804.0862749353) /* MagicDefense        Specialized */
-     , (26685, 20, 0, 3, 0,   0, 0, 1804.0862749353) /* Deception           Specialized */
-     , (26685, 22, 0, 3, 0,  10, 0, 1804.0862749353) /* Jump                Specialized */;
+VALUES (26685,  6, 0, 3, 0,  16, 0, 1804.086274935302) /* MeleeDefense        Specialized */
+     , (26685,  7, 0, 3, 0,  46, 0, 1804.086274935302) /* MissileDefense      Specialized */
+     , (26685, 13, 0, 3, 0,  10, 0, 1804.086274935302) /* UnarmedCombat       Specialized */
+     , (26685, 15, 0, 3, 0,  12, 0, 1804.086274935302) /* MagicDefense        Specialized */
+     , (26685, 20, 0, 3, 0,   0, 0, 1804.086274935302) /* Deception           Specialized */
+     , (26685, 22, 0, 3, 0,  10, 0, 1804.086274935302) /* Jump                Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (26685,  0,  4,  5, 0.75,   15,    5,    3,   12,   32,   15,   12,   12,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

@@ -93,26 +93,26 @@ VALUES (29007,   1, 98000, 0, 0, 100000) /* MaxHealth */
      , (29007,   5, 92000, 0, 0, 93000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (29007,  1, 0, 3, 0,  33, 0, 2087.89328387206) /* Axe                 Specialized */
-     , (29007,  2, 0, 3, 0, 350, 0, 2087.89328387206) /* Bow                 Specialized */
-     , (29007,  3, 0, 3, 0, 350, 0, 2087.89328387206) /* Crossbow            Specialized */
-     , (29007,  4, 0, 3, 0,   0, 0, 2087.89328387206) /* Dagger              Specialized */
-     , (29007,  5, 0, 3, 0,  33, 0, 2087.89328387206) /* Mace                Specialized */
-     , (29007,  6, 0, 3, 0,  17, 0, 2087.89328387206) /* MeleeDefense        Specialized */
-     , (29007,  7, 0, 3, 0,  75, 0, 2087.89328387206) /* MissileDefense      Specialized */
-     , (29007,  9, 0, 3, 0,  33, 0, 2087.89328387206) /* Spear               Specialized */
-     , (29007, 10, 0, 3, 0,  33, 0, 2087.89328387206) /* Staff               Specialized */
-     , (29007, 11, 0, 3, 0,  33, 0, 2087.89328387206) /* Sword               Specialized */
-     , (29007, 12, 0, 3, 0, 350, 0, 2087.89328387206) /* ThrownWeapon        Specialized */
-     , (29007, 13, 0, 3, 0,  33, 0, 2087.89328387206) /* UnarmedCombat       Specialized */
-     , (29007, 15, 0, 3, 0, 135, 0, 2087.89328387206) /* MagicDefense        Specialized */
-     , (29007, 20, 0, 3, 0,   0, 0, 2087.89328387206) /* Deception           Specialized */
-     , (29007, 22, 0, 3, 0,   0, 0, 2087.89328387206) /* Jump                Specialized */
-     , (29007, 24, 0, 3, 0,   0, 0, 2087.89328387206) /* Run                 Specialized */
-     , (29007, 31, 0, 3, 0,  25, 0, 2087.89328387206) /* CreatureEnchantment Specialized */
-     , (29007, 32, 0, 3, 0,  25, 0, 2087.89328387206) /* ItemEnchantment     Specialized */
-     , (29007, 33, 0, 3, 0,  25, 0, 2087.89328387206) /* LifeMagic           Specialized */
-     , (29007, 34, 0, 3, 0,  25, 0, 2087.89328387206) /* WarMagic            Specialized */;
+VALUES (29007,  1, 0, 3, 0,  33, 0, 2087.8932838720557) /* Axe                 Specialized */
+     , (29007,  2, 0, 3, 0, 350, 0, 2087.8932838720557) /* Bow                 Specialized */
+     , (29007,  3, 0, 3, 0, 350, 0, 2087.8932838720557) /* Crossbow            Specialized */
+     , (29007,  4, 0, 3, 0,   0, 0, 2087.8932838720557) /* Dagger              Specialized */
+     , (29007,  5, 0, 3, 0,  33, 0, 2087.8932838720557) /* Mace                Specialized */
+     , (29007,  6, 0, 3, 0,  17, 0, 2087.8932838720557) /* MeleeDefense        Specialized */
+     , (29007,  7, 0, 3, 0,  75, 0, 2087.8932838720557) /* MissileDefense      Specialized */
+     , (29007,  9, 0, 3, 0,  33, 0, 2087.8932838720557) /* Spear               Specialized */
+     , (29007, 10, 0, 3, 0,  33, 0, 2087.8932838720557) /* Staff               Specialized */
+     , (29007, 11, 0, 3, 0,  33, 0, 2087.8932838720557) /* Sword               Specialized */
+     , (29007, 12, 0, 3, 0, 350, 0, 2087.8932838720557) /* ThrownWeapon        Specialized */
+     , (29007, 13, 0, 3, 0,  33, 0, 2087.8932838720557) /* UnarmedCombat       Specialized */
+     , (29007, 15, 0, 3, 0, 135, 0, 2087.8932838720557) /* MagicDefense        Specialized */
+     , (29007, 20, 0, 3, 0,   0, 0, 2087.8932838720557) /* Deception           Specialized */
+     , (29007, 22, 0, 3, 0,   0, 0, 2087.8932838720557) /* Jump                Specialized */
+     , (29007, 24, 0, 3, 0,   0, 0, 2087.8932838720557) /* Run                 Specialized */
+     , (29007, 31, 0, 3, 0,  25, 0, 2087.8932838720557) /* CreatureEnchantment Specialized */
+     , (29007, 32, 0, 3, 0,  25, 0, 2087.8932838720557) /* ItemEnchantment     Specialized */
+     , (29007, 33, 0, 3, 0,  25, 0, 2087.8932838720557) /* LifeMagic           Specialized */
+     , (29007, 34, 0, 3, 0,  25, 0, 2087.8932838720557) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (29007,  0,  4,  0,    0,  600,  720,  600,  960,  600,  660,  960,  600,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -282,7 +282,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Your blow tears 
      , (@parent_id,  1,  19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 3053 /* Paralyzing Touch */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (29007, 20 /* ReceiveCritical */,  0.151, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (29007, 20 /* ReceiveCritical */, 0.15100001, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -300,7 +300,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Your blow bites 
      , (@parent_id,  1,  19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 2097 /* Pacification */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (29007, 20 /* ReceiveCritical */,  0.251, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (29007, 20 /* ReceiveCritical */, 0.25100002, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -309,7 +309,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'You wound the gi
      , (@parent_id,  1,  19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 2074 /* Gossamer Flesh */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (29007, 20 /* ReceiveCritical */,  0.301, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (29007, 20 /* ReceiveCritical */, 0.30100003, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -318,7 +318,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Broodu curls his
      , (@parent_id,  1,  19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 2123 /* Celdiseth's Searing */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (29007, 20 /* ReceiveCritical */,  0.351, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (29007, 20 /* ReceiveCritical */, 0.35100004, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -327,7 +327,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'As you open a wo
      , (@parent_id,  1,  19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 3435 /* Greater Mucor Blight */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (29007, 20 /* ReceiveCritical */, 0.4010001, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (29007, 20 /* ReceiveCritical */, 0.40100005, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -336,7 +336,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'You wound Broodu
      , (@parent_id,  1,  19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 3372 /* Debilitating Spore */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (29007, 20 /* ReceiveCritical */, 0.4510001, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (29007, 20 /* ReceiveCritical */, 0.45100006, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -345,7 +345,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Your tear into B
      , (@parent_id,  1,  19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 3375 /* Fungal Bloom */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (29007, 20 /* ReceiveCritical */, 0.4710001, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (29007, 20 /* ReceiveCritical */, 0.47100008, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -381,7 +381,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Your magic disso
      , (@parent_id,  1,  19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 3053 /* Paralyzing Touch */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (29007, 21 /* ResistSpell */,  0.151, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (29007, 21 /* ResistSpell */, 0.15100001, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -399,7 +399,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'As your magic fa
      , (@parent_id,  1,  19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 2107 /* Cabalistic Ostracism */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (29007, 21 /* ResistSpell */,  0.251, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (29007, 21 /* ResistSpell */, 0.25100002, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -408,7 +408,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'As your spell tr
      , (@parent_id,  1,  19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 2070 /* Heart Rend */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (29007, 21 /* ResistSpell */,  0.301, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (29007, 21 /* ResistSpell */, 0.30100003, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -417,7 +417,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Finding a trickl
      , (@parent_id,  1,  19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 2123 /* Celdiseth's Searing */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (29007, 21 /* ResistSpell */,  0.351, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (29007, 21 /* ResistSpell */, 0.35100004, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -426,7 +426,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'A glimmer of rec
      , (@parent_id,  1,  19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 3435 /* Greater Mucor Blight */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (29007, 21 /* ResistSpell */, 0.4010001, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (29007, 21 /* ResistSpell */, 0.40100005, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -435,7 +435,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Laughing, Broodu
      , (@parent_id,  1,  19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 3372 /* Debilitating Spore */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (29007, 21 /* ResistSpell */, 0.4510001, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (29007, 21 /* ResistSpell */, 0.45100006, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -444,7 +444,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Your magic dissi
      , (@parent_id,  1,  19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 3375 /* Fungal Bloom */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (29007, 21 /* ResistSpell */, 0.4710001, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (29007, 21 /* ResistSpell */, 0.47100008, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

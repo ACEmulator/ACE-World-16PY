@@ -26,8 +26,8 @@ VALUES (4349,   1,   33555051) /* Setup */
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4349, 0.2, 945, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 6, 0, 0, 0.8870108, 0, 0, -0.4617486) /* Generate Mite Sentry (945) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (4349, 0.4, 945, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 4.4, 4, 0, 0.9588197, 0, 0, -0.2840154) /* Generate Mite Sentry (945) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (4349, 0.6, 945, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2, -5, 0, 0.6427876, 0, 0, -0.7660444) /* Generate Mite Sentry (945) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (4349, 0.8, 10, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, 0, 0, 0.7071068, 0, 0, -0.7071068) /* Generate Mite Scamp (10) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (4349, 0.95, 209, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1.2, 0, 0.9238795, 0, 0, -0.3826835) /* Generate Mite Squib (209) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (4349, 1, 6118, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 0, 0.9990482, 0, 0, -0.04361939) /* Generate Pile of Short Sticks (6118) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+     , (4349, 0.4, 945, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 4.4, 4, 0, 0.95881975, 0, 0, -0.28401536) /* Generate Mite Sentry (945) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (4349, 0.6, 945, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2, -5, 0, 0.64278764, 0, 0, -0.76604444) /* Generate Mite Sentry (945) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (4349, 0.8, 10, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, 0, 0, 0.70710677, 0, 0, -0.70710677) /* Generate Mite Scamp (10) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (4349, 0.95000005, 209, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1.2, 0, 0.9238795, 0, 0, -0.38268346) /* Generate Mite Squib (209) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (4349, 1, 6118, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 0, 0.99904823, 0, 0, -0.043619387) /* Generate Pile of Short Sticks (6118) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

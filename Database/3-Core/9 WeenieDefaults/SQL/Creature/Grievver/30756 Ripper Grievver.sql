@@ -93,15 +93,15 @@ VALUES (30756,   1,   435, 0, 0, 585) /* MaxHealth */
      , (30756,   5,   200, 0, 0, 510) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (30756,  6, 0, 3, 0, 310, 0, 2295.56125041238) /* MeleeDefense        Specialized */
-     , (30756,  7, 0, 3, 0, 420, 0, 2295.56125041238) /* MissileDefense      Specialized */
-     , (30756, 13, 0, 3, 0, 287, 0, 2295.56125041238) /* UnarmedCombat       Specialized */
-     , (30756, 14, 0, 3, 0, 220, 0, 2295.56125041238) /* ArcaneLore          Specialized */
-     , (30756, 15, 0, 3, 0, 320, 0, 2295.56125041238) /* MagicDefense        Specialized */
-     , (30756, 20, 0, 3, 0, 150, 0, 2295.56125041238) /* Deception           Specialized */
-     , (30756, 31, 0, 3, 0, 190, 0, 2295.56125041238) /* CreatureEnchantment Specialized */
-     , (30756, 33, 0, 3, 0, 190, 0, 2295.56125041238) /* LifeMagic           Specialized */
-     , (30756, 34, 0, 3, 0, 190, 0, 2295.56125041238) /* WarMagic            Specialized */;
+VALUES (30756,  6, 0, 3, 0, 310, 0, 2295.561250412381) /* MeleeDefense        Specialized */
+     , (30756,  7, 0, 3, 0, 420, 0, 2295.561250412381) /* MissileDefense      Specialized */
+     , (30756, 13, 0, 3, 0, 287, 0, 2295.561250412381) /* UnarmedCombat       Specialized */
+     , (30756, 14, 0, 3, 0, 220, 0, 2295.561250412381) /* ArcaneLore          Specialized */
+     , (30756, 15, 0, 3, 0, 320, 0, 2295.561250412381) /* MagicDefense        Specialized */
+     , (30756, 20, 0, 3, 0, 150, 0, 2295.561250412381) /* Deception           Specialized */
+     , (30756, 31, 0, 3, 0, 190, 0, 2295.561250412381) /* CreatureEnchantment Specialized */
+     , (30756, 33, 0, 3, 0, 190, 0, 2295.561250412381) /* LifeMagic           Specialized */
+     , (30756, 34, 0, 3, 0, 190, 0, 2295.561250412381) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (30756,  0,  4,  0,    0,  425,  255,  298,  400,  153,  153,  153,  153,    0, 1, 0.33, 0.23,  0.1,  0.1,  0.1,  0.1,  0.1,    0,    0,    0,  0.1,    0) /* Head */
@@ -140,7 +140,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (30756,  5 /* HeartBeat */,   0.03, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (30756,  5 /* HeartBeat */, 0.030000001, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -156,7 +156,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (30756,  5 /* HeartBeat */,   0.03, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (30756,  5 /* HeartBeat */, 0.030000001, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

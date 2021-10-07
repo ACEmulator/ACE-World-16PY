@@ -150,7 +150,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 3, 1, NULL, 'This is so peaceful.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (23318, 12 /* QuestSuccess */,    0.7, NULL, NULL, NULL, 'WieldingFishingPole', NULL, NULL, NULL);
+VALUES (23318, 12 /* QuestSuccess */, 0.70000005, NULL, NULL, NULL, 'WieldingFishingPole', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -176,7 +176,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 3, 1, NULL, 'You caught somet
      , (@parent_id,  1,  18 /* DirectBroadcast */, 1, 1, NULL, 'Give BootsLeather', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (23318, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'WieldingFishingPole', NULL, NULL, NULL);
+VALUES (23318, 12 /* QuestSuccess */, 1.0000001, NULL, NULL, NULL, 'WieldingFishingPole', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

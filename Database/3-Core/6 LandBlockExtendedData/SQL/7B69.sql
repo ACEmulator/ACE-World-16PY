@@ -10,7 +10,7 @@ VALUES (0x77B69001,  2439, 0x7B690000, 4.35997, 15.8294, 0.686384, -0.089506, 0,
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77B69002,  2439, 0x7B690000, 9.37157, 16.5766, 0.786464, 0.466539, 0, 0, 0.884501,  True, '2005-02-09 10:00:00'); /* Tumerok Fighter */
-/* @teleloc 0x7B690000 [9.371570 16.576600 0.786464] 0.466539 0.000000 0.000000 0.884501 */
+/* @teleloc 0x7B690000 [9.371570 16.576599 0.786464] 0.466539 0.000000 0.000000 0.884501 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77B69003,   233, 0x7B690000, 10.8921, 11.159, 1.14769, 0.833479, 0, 0, 0.552551,  True, '2005-02-09 10:00:00'); /* Tumerok Warrior */

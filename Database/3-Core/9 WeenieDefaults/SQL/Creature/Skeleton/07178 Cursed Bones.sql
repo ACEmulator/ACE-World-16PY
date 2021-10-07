@@ -87,19 +87,19 @@ VALUES (7178,   1,   180, 0, 0, 305) /* MaxHealth */
      , (7178,   5,   100, 0, 0, 360) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (7178,  1, 0, 3, 0, 200, 0, 522.116983350806) /* Axe                 Specialized */
-     , (7178,  2, 0, 3, 0, 230, 0, 522.116983350806) /* Bow                 Specialized */
-     , (7178,  3, 0, 3, 0, 230, 0, 522.116983350806) /* Crossbow            Specialized */
-     , (7178,  4, 0, 3, 0, 160, 0, 522.116983350806) /* Dagger              Specialized */
-     , (7178,  5, 0, 3, 0, 200, 0, 522.116983350806) /* Mace                Specialized */
-     , (7178,  6, 0, 3, 0, 175, 0, 522.116983350806) /* MeleeDefense        Specialized */
-     , (7178,  7, 0, 3, 0, 290, 0, 522.116983350806) /* MissileDefense      Specialized */
-     , (7178,  9, 0, 3, 0, 200, 0, 522.116983350806) /* Spear               Specialized */
-     , (7178, 10, 0, 3, 0, 200, 0, 522.116983350806) /* Staff               Specialized */
-     , (7178, 11, 0, 3, 0, 200, 0, 522.116983350806) /* Sword               Specialized */
-     , (7178, 13, 0, 3, 0, 200, 0, 522.116983350806) /* UnarmedCombat       Specialized */
-     , (7178, 15, 0, 3, 0, 200, 0, 522.116983350806) /* MagicDefense        Specialized */
-     , (7178, 20, 0, 3, 0, 120, 0, 522.116983350806) /* Deception           Specialized */;
+VALUES (7178,  1, 0, 3, 0, 200, 0, 522.1169833508061) /* Axe                 Specialized */
+     , (7178,  2, 0, 3, 0, 230, 0, 522.1169833508061) /* Bow                 Specialized */
+     , (7178,  3, 0, 3, 0, 230, 0, 522.1169833508061) /* Crossbow            Specialized */
+     , (7178,  4, 0, 3, 0, 160, 0, 522.1169833508061) /* Dagger              Specialized */
+     , (7178,  5, 0, 3, 0, 200, 0, 522.1169833508061) /* Mace                Specialized */
+     , (7178,  6, 0, 3, 0, 175, 0, 522.1169833508061) /* MeleeDefense        Specialized */
+     , (7178,  7, 0, 3, 0, 290, 0, 522.1169833508061) /* MissileDefense      Specialized */
+     , (7178,  9, 0, 3, 0, 200, 0, 522.1169833508061) /* Spear               Specialized */
+     , (7178, 10, 0, 3, 0, 200, 0, 522.1169833508061) /* Staff               Specialized */
+     , (7178, 11, 0, 3, 0, 200, 0, 522.1169833508061) /* Sword               Specialized */
+     , (7178, 13, 0, 3, 0, 200, 0, 522.1169833508061) /* UnarmedCombat       Specialized */
+     , (7178, 15, 0, 3, 0, 200, 0, 522.1169833508061) /* MagicDefense        Specialized */
+     , (7178, 20, 0, 3, 0, 120, 0, 522.1169833508061) /* Deception           Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (7178,  0,  4,  0,    0,  190,   97,   80,   95,   55,   32,   68,  101,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

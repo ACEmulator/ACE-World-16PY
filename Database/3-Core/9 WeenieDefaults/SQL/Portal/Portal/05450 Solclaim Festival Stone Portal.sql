@@ -33,4 +33,4 @@ VALUES (5450,   1,   33554867) /* Setup */
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5450, 2, 2488795192, 145.1, 187.7, 27.1, 0.4617486, 0, 0, -0.8870109) /* Destination */
-/* @teleloc 0x94580038 [145.100000 187.700000 27.100000] 0.461749 0.000000 0.000000 -0.887011 */;
+/* @teleloc 0x94580038 [145.100006 187.699997 27.100000] 0.461749 0.000000 0.000000 -0.887011 */;

@@ -83,8 +83,8 @@ VALUES (7372,   1,   33555465) /* Setup */
      , (7372,  35,         25) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7372, 12, 3102408716, 47, 95, 36, 0.9238795, 0, 0, -0.3826835) /* PortalSummonLoc */
-/* @teleloc 0xB8EB000C [47.000000 95.000000 36.000000] 0.923880 0.000000 0.000000 -0.382684 */;
+VALUES (7372, 12, 3102408716, 47, 95, 36, 0.9238795, 0, 0, -0.38268346) /* PortalSummonLoc */
+/* @teleloc 0xB8EB000C [47.000000 95.000000 36.000000] 0.923880 0.000000 0.000000 -0.382683 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7372,   1, 320, 0, 0) /* Strength */
@@ -100,20 +100,20 @@ VALUES (7372,   1,   410, 0, 0, 550) /* MaxHealth */
      , (7372,   5,   385, 0, 0, 650) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (7372,  1, 0, 3, 0, 223, 0, 527.818740936783) /* Axe                 Specialized */
-     , (7372,  2, 0, 3, 0, 215, 0, 527.818740936783) /* Bow                 Specialized */
-     , (7372,  3, 0, 3, 0, 215, 0, 527.818740936783) /* Crossbow            Specialized */
-     , (7372,  4, 0, 3, 0, 220, 0, 527.818740936783) /* Dagger              Specialized */
-     , (7372,  5, 0, 3, 0, 223, 0, 527.818740936783) /* Mace                Specialized */
-     , (7372,  6, 0, 3, 0, 193, 0, 527.818740936783) /* MeleeDefense        Specialized */
-     , (7372,  7, 0, 3, 0, 334, 0, 527.818740936783) /* MissileDefense      Specialized */
-     , (7372,  9, 0, 3, 0, 223, 0, 527.818740936783) /* Spear               Specialized */
-     , (7372, 10, 0, 3, 0, 223, 0, 527.818740936783) /* Staff               Specialized */
-     , (7372, 11, 0, 3, 0, 223, 0, 527.818740936783) /* Sword               Specialized */
-     , (7372, 13, 0, 3, 0, 223, 0, 527.818740936783) /* UnarmedCombat       Specialized */
-     , (7372, 15, 0, 3, 0, 208, 0, 527.818740936783) /* MagicDefense        Specialized */
-     , (7372, 20, 0, 3, 0, 100, 0, 527.818740936783) /* Deception           Specialized */
-     , (7372, 33, 0, 3, 0, 149, 0, 527.818740936783) /* LifeMagic           Specialized */;
+VALUES (7372,  1, 0, 3, 0, 223, 0, 527.8187409367829) /* Axe                 Specialized */
+     , (7372,  2, 0, 3, 0, 215, 0, 527.8187409367829) /* Bow                 Specialized */
+     , (7372,  3, 0, 3, 0, 215, 0, 527.8187409367829) /* Crossbow            Specialized */
+     , (7372,  4, 0, 3, 0, 220, 0, 527.8187409367829) /* Dagger              Specialized */
+     , (7372,  5, 0, 3, 0, 223, 0, 527.8187409367829) /* Mace                Specialized */
+     , (7372,  6, 0, 3, 0, 193, 0, 527.8187409367829) /* MeleeDefense        Specialized */
+     , (7372,  7, 0, 3, 0, 334, 0, 527.8187409367829) /* MissileDefense      Specialized */
+     , (7372,  9, 0, 3, 0, 223, 0, 527.8187409367829) /* Spear               Specialized */
+     , (7372, 10, 0, 3, 0, 223, 0, 527.8187409367829) /* Staff               Specialized */
+     , (7372, 11, 0, 3, 0, 223, 0, 527.8187409367829) /* Sword               Specialized */
+     , (7372, 13, 0, 3, 0, 223, 0, 527.8187409367829) /* UnarmedCombat       Specialized */
+     , (7372, 15, 0, 3, 0, 208, 0, 527.8187409367829) /* MagicDefense        Specialized */
+     , (7372, 20, 0, 3, 0, 100, 0, 527.8187409367829) /* Deception           Specialized */
+     , (7372, 33, 0, 3, 0, 149, 0, 527.8187409367829) /* LifeMagic           Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (7372,  0,  4,  0,    0,  250,  350,  350,  225,  300,  225,  300,  300,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

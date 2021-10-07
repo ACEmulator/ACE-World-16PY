@@ -89,11 +89,11 @@ VALUES (26462,   1,   100, 0, 0, 160) /* MaxHealth */
      , (26462,   5,   100, 0, 0, 265) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (26462,  6, 0, 2, 0,   2, 0, 1778.56991679069) /* MeleeDefense        Trained */
-     , (26462,  7, 0, 2, 0,   2, 0, 1778.56991679069) /* MissileDefense      Trained */
-     , (26462, 13, 0, 2, 0,   2, 0, 1778.56991679069) /* UnarmedCombat       Trained */
-     , (26462, 31, 0, 2, 0,   2, 0, 1778.56991679069) /* CreatureEnchantment Trained */
-     , (26462, 32, 0, 3, 0, 400, 0, 1778.56991679069) /* ItemEnchantment     Specialized */;
+VALUES (26462,  6, 0, 2, 0,   2, 0, 1778.5699167906864) /* MeleeDefense        Trained */
+     , (26462,  7, 0, 2, 0,   2, 0, 1778.5699167906864) /* MissileDefense      Trained */
+     , (26462, 13, 0, 2, 0,   2, 0, 1778.5699167906864) /* UnarmedCombat       Trained */
+     , (26462, 31, 0, 2, 0,   2, 0, 1778.5699167906864) /* CreatureEnchantment Trained */
+     , (26462, 32, 0, 3, 0, 400, 0, 1778.5699167906864) /* ItemEnchantment     Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (26462,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -147,7 +147,7 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  3,  10 /* Tell */, 0, 1, NULL, 'Shreth piss. Look kid, get me somethin'' else.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (26462,  6 /* Give */,    0.9, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (26462,  6 /* Give */, 0.90000004, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

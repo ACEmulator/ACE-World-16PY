@@ -92,13 +92,13 @@ VALUES (11048,   1, 14500, 0, 0, 15000) /* MaxHealth */
      , (11048,   5,    10, 0, 0, 1010) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (11048,  6, 0, 3, 0, 120, 0, 714.623883345674) /* MeleeDefense        Specialized */
-     , (11048,  7, 0, 3, 0, 280, 0, 714.623883345674) /* MissileDefense      Specialized */
-     , (11048, 13, 0, 3, 0,  50, 0, 714.623883345674) /* UnarmedCombat       Specialized */
-     , (11048, 15, 0, 3, 0, 120, 0, 714.623883345674) /* MagicDefense        Specialized */
-     , (11048, 20, 0, 3, 0,  20, 0, 714.623883345674) /* Deception           Specialized */
-     , (11048, 22, 0, 3, 0, 200, 0, 714.623883345674) /* Jump                Specialized */
-     , (11048, 24, 0, 3, 0,  50, 0, 714.623883345674) /* Run                 Specialized */;
+VALUES (11048,  6, 0, 3, 0, 120, 0, 714.6238833456742) /* MeleeDefense        Specialized */
+     , (11048,  7, 0, 3, 0, 280, 0, 714.6238833456742) /* MissileDefense      Specialized */
+     , (11048, 13, 0, 3, 0,  50, 0, 714.6238833456742) /* UnarmedCombat       Specialized */
+     , (11048, 15, 0, 3, 0, 120, 0, 714.6238833456742) /* MagicDefense        Specialized */
+     , (11048, 20, 0, 3, 0,  20, 0, 714.6238833456742) /* Deception           Specialized */
+     , (11048, 22, 0, 3, 0, 200, 0, 714.6238833456742) /* Jump                Specialized */
+     , (11048, 24, 0, 3, 0,  50, 0, 714.6238833456742) /* Run                 Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (11048,  0,  2, 300, 0.75,  700,  770,  560,  560,  700,  770,  770,  700,    0, 1,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0) /* Head */
@@ -206,4 +206,4 @@ VALUES (11048, 1, 11150,  1, 0, 0, False) /* Create The Queen's Head (11150) for
      , (11048, 8, 11140,  8, 0, 0.87, False) /* Create Olthoi Egg (11140) for Treasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11048, -1, 11156, 450, 1, 1, 1, 4, -1, 0, 0, 0, 0, -4, 0, -0.7071068, 0, 0, -0.7071068) /* Generate Olthoi Queen's Egg Sac (11156) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (11048, -1, 11156, 450, 1, 1, 1, 4, -1, 0, 0, 0, 0, -4, 0, -0.70710677, 0, -0, -0.70710677) /* Generate Olthoi Queen's Egg Sac (11156) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

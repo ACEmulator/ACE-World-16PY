@@ -83,9 +83,9 @@ VALUES (9219,   1,    85, 0, 0, 125) /* MaxHealth */
      , (9219,   5,    60, 0, 0, 61) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (9219,  6, 0, 2, 0,   1, 0, 630.13448003343) /* MeleeDefense        Trained */
-     , (9219,  7, 0, 2, 0,   1, 0, 630.13448003343) /* MissileDefense      Trained */
-     , (9219, 13, 0, 2, 0,   1, 0, 630.13448003343) /* UnarmedCombat       Trained */;
+VALUES (9219,  6, 0, 2, 0,   1, 0, 630.1344800334303) /* MeleeDefense        Trained */
+     , (9219,  7, 0, 2, 0,   1, 0, 630.1344800334303) /* MissileDefense      Trained */
+     , (9219, 13, 0, 2, 0,   1, 0, 630.1344800334303) /* UnarmedCombat       Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (9219,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

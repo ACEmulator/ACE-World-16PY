@@ -83,10 +83,10 @@ VALUES (25830,   1,   150, 0, 0, 250) /* MaxHealth */
      , (25830,   5,   150, 0, 0, 300) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (25830,  6, 0, 2, 0,   1, 0, 1670.98030923074) /* MeleeDefense        Trained */
-     , (25830,  7, 0, 2, 0,   1, 0, 1670.98030923074) /* MissileDefense      Trained */
-     , (25830, 13, 0, 2, 0,   1, 0, 1670.98030923074) /* UnarmedCombat       Trained */
-     , (25830, 20, 0, 3, 0, 9999, 0, 1670.98030923074) /* Deception           Specialized */;
+VALUES (25830,  6, 0, 2, 0,   1, 0, 1670.9803092307354) /* MeleeDefense        Trained */
+     , (25830,  7, 0, 2, 0,   1, 0, 1670.9803092307354) /* MissileDefense      Trained */
+     , (25830, 13, 0, 2, 0,   1, 0, 1670.9803092307354) /* UnarmedCombat       Trained */
+     , (25830, 20, 0, 3, 0, 9999, 0, 1670.9803092307354) /* Deception           Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (25830,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -156,7 +156,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'The greater the good, the more difficult the task.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (25830, 12 /* QuestSuccess */,   0.35, NULL, NULL, NULL, 'EmptySoulUnicorn', NULL, NULL, NULL);
+VALUES (25830, 12 /* QuestSuccess */, 0.35000002, NULL, NULL, NULL, 'EmptySoulUnicorn', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -164,7 +164,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Children listen to the wisdom of parents.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (25830, 12 /* QuestSuccess */,    0.4, NULL, NULL, NULL, 'EmptySoulUnicorn', NULL, NULL, NULL);
+VALUES (25830, 12 /* QuestSuccess */, 0.40000004, NULL, NULL, NULL, 'EmptySoulUnicorn', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -172,7 +172,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Children''s minds are parchments and ink-filled quills.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (25830, 12 /* QuestSuccess */,   0.45, NULL, NULL, NULL, 'EmptySoulUnicorn', NULL, NULL, NULL);
+VALUES (25830, 12 /* QuestSuccess */, 0.45000005, NULL, NULL, NULL, 'EmptySoulUnicorn', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -180,7 +180,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Want is not need.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (25830, 12 /* QuestSuccess */, 0.5000001, NULL, NULL, NULL, 'EmptySoulUnicorn', NULL, NULL, NULL);
+VALUES (25830, 12 /* QuestSuccess */, 0.50000006, NULL, NULL, NULL, 'EmptySoulUnicorn', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -228,7 +228,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'There is no gift so great as gratitude.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (25830, 12 /* QuestSuccess */, 0.8000001, NULL, NULL, NULL, 'EmptySoulUnicorn', NULL, NULL, NULL);
+VALUES (25830, 12 /* QuestSuccess */, 0.80000013, NULL, NULL, NULL, 'EmptySoulUnicorn', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -236,7 +236,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Steel is edged and sharp, but it cannot wound pride as can words.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (25830, 12 /* QuestSuccess */, 0.8500001, NULL, NULL, NULL, 'EmptySoulUnicorn', NULL, NULL, NULL);
+VALUES (25830, 12 /* QuestSuccess */, 0.85000014, NULL, NULL, NULL, 'EmptySoulUnicorn', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -244,7 +244,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Save today what you would spend tomorrow.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (25830, 12 /* QuestSuccess */, 0.9000002, NULL, NULL, NULL, 'EmptySoulUnicorn', NULL, NULL, NULL);
+VALUES (25830, 12 /* QuestSuccess */, 0.90000015, NULL, NULL, NULL, 'EmptySoulUnicorn', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -252,7 +252,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Refrain from dishonoring the source of your wealth.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (25830, 12 /* QuestSuccess */, 0.9500002, NULL, NULL, NULL, 'EmptySoulUnicorn', NULL, NULL, NULL);
+VALUES (25830, 12 /* QuestSuccess */, 0.95000017, NULL, NULL, NULL, 'EmptySoulUnicorn', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -260,7 +260,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Recall the teachings of the past in all that you do.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (25830, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'EmptySoulUnicorn', NULL, NULL, NULL);
+VALUES (25830, 12 /* QuestSuccess */, 1.0000001, NULL, NULL, NULL, 'EmptySoulUnicorn', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -335,7 +335,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'The greater the good, the more difficult the task.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (25830, 13 /* QuestFailure */,   0.35, NULL, NULL, NULL, 'EmptySoul', NULL, NULL, NULL);
+VALUES (25830, 13 /* QuestFailure */, 0.35000002, NULL, NULL, NULL, 'EmptySoul', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -343,7 +343,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Children listen to the wisdom of parents.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (25830, 13 /* QuestFailure */,    0.4, NULL, NULL, NULL, 'EmptySoul', NULL, NULL, NULL);
+VALUES (25830, 13 /* QuestFailure */, 0.40000004, NULL, NULL, NULL, 'EmptySoul', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -351,7 +351,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Children''s minds are parchments and ink-filled quills.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (25830, 13 /* QuestFailure */,   0.45, NULL, NULL, NULL, 'EmptySoul', NULL, NULL, NULL);
+VALUES (25830, 13 /* QuestFailure */, 0.45000005, NULL, NULL, NULL, 'EmptySoul', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -359,7 +359,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Want is not need.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (25830, 13 /* QuestFailure */, 0.5000001, NULL, NULL, NULL, 'EmptySoul', NULL, NULL, NULL);
+VALUES (25830, 13 /* QuestFailure */, 0.50000006, NULL, NULL, NULL, 'EmptySoul', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -407,7 +407,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'There is no gift so great as gratitude.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (25830, 13 /* QuestFailure */, 0.8000001, NULL, NULL, NULL, 'EmptySoul', NULL, NULL, NULL);
+VALUES (25830, 13 /* QuestFailure */, 0.80000013, NULL, NULL, NULL, 'EmptySoul', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -415,7 +415,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Steel is edged and sharp, but it cannot wound pride as can words.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (25830, 13 /* QuestFailure */, 0.8500001, NULL, NULL, NULL, 'EmptySoul', NULL, NULL, NULL);
+VALUES (25830, 13 /* QuestFailure */, 0.85000014, NULL, NULL, NULL, 'EmptySoul', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -423,7 +423,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Save today what you would spend tomorrow.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (25830, 13 /* QuestFailure */, 0.9000002, NULL, NULL, NULL, 'EmptySoul', NULL, NULL, NULL);
+VALUES (25830, 13 /* QuestFailure */, 0.90000015, NULL, NULL, NULL, 'EmptySoul', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -431,7 +431,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Refrain from dishonoring the source of your wealth.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (25830, 13 /* QuestFailure */, 0.9500002, NULL, NULL, NULL, 'EmptySoul', NULL, NULL, NULL);
+VALUES (25830, 13 /* QuestFailure */, 0.95000017, NULL, NULL, NULL, 'EmptySoul', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -439,7 +439,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Recall the teachings of the past in all that you do.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (25830, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'EmptySoul', NULL, NULL, NULL);
+VALUES (25830, 13 /* QuestFailure */, 1.0000001, NULL, NULL, NULL, 'EmptySoul', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

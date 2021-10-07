@@ -74,7 +74,7 @@ VALUES (8138,   1,   33557003) /* Setup */
      , (8138,  22,  872415262) /* PhysicsEffectTable */
      , (8138,  32,        326) /* WieldedTreasureType - 
                                    Wield Rock (23746) | Probability: 100%
-                                   Wield Lugian Axe (23740) | Probability: 60%
+                                   Wield Lugian Axe (23740) | Probability: 60.000004%
                                    Wield Lugian Morning Star (23764) | Probability: 40% */
      , (8138,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 

@@ -94,12 +94,12 @@ VALUES (24139,   1,   100, 0, 0, 200) /* MaxHealth */
      , (24139,   5,     0, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (24139,  2, 0, 3, 0, 160, 0, 1524.89477210912) /* Bow                 Specialized */
-     , (24139,  3, 0, 3, 0, 160, 0, 1524.89477210912) /* Crossbow            Specialized */
-     , (24139,  6, 0, 2, 0,   3, 0, 1524.89477210912) /* MeleeDefense        Trained */
-     , (24139,  7, 0, 2, 0,   1, 0, 1524.89477210912) /* MissileDefense      Trained */
-     , (24139, 12, 0, 3, 0, 160, 0, 1524.89477210912) /* ThrownWeapon        Specialized */
-     , (24139, 13, 0, 2, 0,   4, 0, 1524.89477210912) /* UnarmedCombat       Trained */;
+VALUES (24139,  2, 0, 3, 0, 160, 0, 1524.8947721091179) /* Bow                 Specialized */
+     , (24139,  3, 0, 3, 0, 160, 0, 1524.8947721091179) /* Crossbow            Specialized */
+     , (24139,  6, 0, 2, 0,   3, 0, 1524.8947721091179) /* MeleeDefense        Trained */
+     , (24139,  7, 0, 2, 0,   1, 0, 1524.8947721091179) /* MissileDefense      Trained */
+     , (24139, 12, 0, 3, 0, 160, 0, 1524.8947721091179) /* ThrownWeapon        Specialized */
+     , (24139, 13, 0, 2, 0,   4, 0, 1524.8947721091179) /* UnarmedCombat       Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (24139,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

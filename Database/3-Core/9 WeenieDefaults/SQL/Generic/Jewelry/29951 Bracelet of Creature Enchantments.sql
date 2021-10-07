@@ -25,7 +25,7 @@ VALUES (29951,  22, True ) /* Inscribable */
      , (29951,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29951,   5,       0) /* ManaRate */;
+VALUES (29951,   5,      -0) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29951,   1, 'Bracelet of Creature Enchantments') /* Name */;

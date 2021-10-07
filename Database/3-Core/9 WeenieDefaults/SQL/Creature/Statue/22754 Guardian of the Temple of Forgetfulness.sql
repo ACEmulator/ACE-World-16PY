@@ -578,7 +578,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I guard the Temple of Forge
      , (@parent_id, 17,  22 /* StampQuest */, 0, 1, NULL, 'TempleForgetfulnessComfrey', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (22754, 23 /* TestFailure */,   0.18, NULL, NULL, NULL, 'Test_Level_Too_Low', NULL, NULL, NULL);
+VALUES (22754, 23 /* TestFailure */, 0.17999999, NULL, NULL, NULL, 'Test_Level_Too_Low', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -628,7 +628,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I guard the Temple of Forge
      , (@parent_id, 17,  22 /* StampQuest */, 0, 1, NULL, 'TempleForgetfulnessDragonsblood', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (22754, 23 /* TestFailure */,    0.3, NULL, NULL, NULL, 'Test_Level_Too_Low', NULL, NULL, NULL);
+VALUES (22754, 23 /* TestFailure */, 0.29999998, NULL, NULL, NULL, 'Test_Level_Too_Low', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -653,7 +653,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I guard the Temple of Forge
      , (@parent_id, 17,  22 /* StampQuest */, 0, 1, NULL, 'TempleForgetfulnessEyebright', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (22754, 23 /* TestFailure */,   0.37, NULL, NULL, NULL, 'Test_Level_Too_Low', NULL, NULL, NULL);
+VALUES (22754, 23 /* TestFailure */, 0.36999997, NULL, NULL, NULL, 'Test_Level_Too_Low', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -678,7 +678,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I guard the Temple of Forge
      , (@parent_id, 17,  22 /* StampQuest */, 0, 1, NULL, 'TempleForgetfulnessGinseng', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (22754, 23 /* TestFailure */,   0.44, NULL, NULL, NULL, 'Test_Level_Too_Low', NULL, NULL, NULL);
+VALUES (22754, 23 /* TestFailure */, 0.43999997, NULL, NULL, NULL, 'Test_Level_Too_Low', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -778,7 +778,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I guard the Temple of Forge
      , (@parent_id, 17,  22 /* StampQuest */, 0, 1, NULL, 'TempleForgetfulnessMugwort', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (22754, 23 /* TestFailure */,   0.72, NULL, NULL, NULL, 'Test_Level_Too_Low', NULL, NULL, NULL);
+VALUES (22754, 23 /* TestFailure */, 0.71999997, NULL, NULL, NULL, 'Test_Level_Too_Low', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -803,7 +803,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I guard the Temple of Forge
      , (@parent_id, 17,  22 /* StampQuest */, 0, 1, NULL, 'TempleForgetfulnessMyrrh', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (22754, 23 /* TestFailure */,   0.79, NULL, NULL, NULL, 'Test_Level_Too_Low', NULL, NULL, NULL);
+VALUES (22754, 23 /* TestFailure */, 0.78999996, NULL, NULL, NULL, 'Test_Level_Too_Low', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -828,7 +828,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I guard the Temple of Forge
      , (@parent_id, 17,  22 /* StampQuest */, 0, 1, NULL, 'TempleForgetfulnessSaffron', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (22754, 23 /* TestFailure */,   0.86, NULL, NULL, NULL, 'Test_Level_Too_Low', NULL, NULL, NULL);
+VALUES (22754, 23 /* TestFailure */, 0.85999995, NULL, NULL, NULL, 'Test_Level_Too_Low', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -853,7 +853,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I guard the Temple of Forge
      , (@parent_id, 17,  22 /* StampQuest */, 0, 1, NULL, 'TempleForgetfulnessVervain', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (22754, 23 /* TestFailure */, 0.9299999, NULL, NULL, NULL, 'Test_Level_Too_Low', NULL, NULL, NULL);
+VALUES (22754, 23 /* TestFailure */, 0.92999995, NULL, NULL, NULL, 'Test_Level_Too_Low', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -878,7 +878,7 @@ VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'I guard the Temple of Forge
      , (@parent_id, 17,  22 /* StampQuest */, 0, 1, NULL, 'TempleForgetfulnessWormwood', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (22754, 23 /* TestFailure */, 0.9999999, NULL, NULL, NULL, 'Test_Level_Too_Low', NULL, NULL, NULL);
+VALUES (22754, 23 /* TestFailure */, 0.99999994, NULL, NULL, NULL, 'Test_Level_Too_Low', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

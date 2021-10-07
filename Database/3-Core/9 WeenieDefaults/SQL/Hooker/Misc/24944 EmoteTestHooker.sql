@@ -11,7 +11,7 @@ VALUES (24944,   1,        128) /* ItemType - Misc */
      , (24944,  19,       9800) /* Value */
      , (24944,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24944, 151,         31) /* HookType - Floor, Wall, Ceiling, Yard, Roof */
-     , (24944, 197,          2) /* HookGroup */;
+     , (24944, 197,          2) /* HookGroup - TestItems */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24944,  22, True ) /* Inscribable */;

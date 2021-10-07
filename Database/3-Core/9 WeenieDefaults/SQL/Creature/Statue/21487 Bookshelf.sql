@@ -84,13 +84,13 @@ VALUES (21487,   1,   200, 0, 0, 370) /* MaxHealth */
      , (21487,   5,   201, 0, 0, 486) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (21487, 14, 0, 3, 0, 200, 0, 1309.3179633879) /* ArcaneLore          Specialized */
-     , (21487, 16, 0, 3, 0, 200, 0, 1309.3179633879) /* ManaConversion      Specialized */
-     , (21487, 22, 0, 3, 0, 200, 0, 1309.3179633879) /* Jump                Specialized */
-     , (21487, 24, 0, 3, 0, 200, 0, 1309.3179633879) /* Run                 Specialized */
-     , (21487, 31, 0, 3, 0, 900, 0, 1309.3179633879) /* CreatureEnchantment Specialized */
-     , (21487, 33, 0, 3, 0, 900, 0, 1309.3179633879) /* LifeMagic           Specialized */
-     , (21487, 34, 0, 3, 0, 900, 0, 1309.3179633879) /* WarMagic            Specialized */;
+VALUES (21487, 14, 0, 3, 0, 200, 0, 1309.317963387902) /* ArcaneLore          Specialized */
+     , (21487, 16, 0, 3, 0, 200, 0, 1309.317963387902) /* ManaConversion      Specialized */
+     , (21487, 22, 0, 3, 0, 200, 0, 1309.317963387902) /* Jump                Specialized */
+     , (21487, 24, 0, 3, 0, 200, 0, 1309.317963387902) /* Run                 Specialized */
+     , (21487, 31, 0, 3, 0, 900, 0, 1309.317963387902) /* CreatureEnchantment Specialized */
+     , (21487, 33, 0, 3, 0, 900, 0, 1309.317963387902) /* LifeMagic           Specialized */
+     , (21487, 34, 0, 3, 0, 900, 0, 1309.317963387902) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (21487,  0,  4,  0,    0,  200,  158,  158,  160,  200,  200,  200,  200,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -144,7 +144,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'You are sitting at a table in this very room as a chill shakes you to your soul. You feel breath brush against your neck. You turn but there is no one to be seen. The candles flicker as a breeze fills the room. You gently close your book and call upon fire to form beside you. A minor elemental appears. A small prism within your robes turns to dust.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (21487, 12 /* QuestSuccess */,    0.7, NULL, NULL, NULL, 'YalainBookGiven', NULL, NULL, NULL);
+VALUES (21487, 12 /* QuestSuccess */, 0.70000005, NULL, NULL, NULL, 'YalainBookGiven', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -152,7 +152,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'You stumble as the staircase shifts beneath your feet. You maintain your balance as they slide to the far wall.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (21487, 12 /* QuestSuccess */,    0.9, NULL, NULL, NULL, 'YalainBookGiven', NULL, NULL, NULL);
+VALUES (21487, 12 /* QuestSuccess */, 0.90000004, NULL, NULL, NULL, 'YalainBookGiven', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

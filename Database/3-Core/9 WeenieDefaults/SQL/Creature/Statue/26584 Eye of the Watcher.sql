@@ -84,10 +84,10 @@ VALUES (26584,   1,   200, 0, 0, 370) /* MaxHealth */
      , (26584,   5,   201, 0, 0, 486) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (26584, 31, 0, 3, 0, 500, 0, 1792.04285624216) /* CreatureEnchantment Specialized */
-     , (26584, 32, 0, 3, 0, 500, 0, 1792.04285624216) /* ItemEnchantment     Specialized */
-     , (26584, 33, 0, 3, 0, 500, 0, 1792.04285624216) /* LifeMagic           Specialized */
-     , (26584, 34, 0, 3, 0, 500, 0, 1792.04285624216) /* WarMagic            Specialized */;
+VALUES (26584, 31, 0, 3, 0, 500, 0, 1792.0428562421648) /* CreatureEnchantment Specialized */
+     , (26584, 32, 0, 3, 0, 500, 0, 1792.0428562421648) /* ItemEnchantment     Specialized */
+     , (26584, 33, 0, 3, 0, 500, 0, 1792.0428562421648) /* LifeMagic           Specialized */
+     , (26584, 34, 0, 3, 0, 500, 0, 1792.0428562421648) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (26584,  0,  8,  3,  0.5,   20,   16,   16,   16,   20,   20,   20,   20,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */

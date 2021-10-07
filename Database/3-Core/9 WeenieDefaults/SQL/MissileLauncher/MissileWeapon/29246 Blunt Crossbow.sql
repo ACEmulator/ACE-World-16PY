@@ -18,7 +18,7 @@ VALUES (29246,   1,        256) /* ItemType - MissileWeapon */
      , (29246,  48,          3) /* WeaponSkill - Crossbow */
      , (29246,  49,        120) /* WeaponTime */
      , (29246,  50,          2) /* AmmoType - Bolt */
-     , (29246,  51,          2) /* CombatUse - Missle */
+     , (29246,  51,          2) /* CombatUse - Missile */
      , (29246,  52,          2) /* ParentLocation - LeftHand */
      , (29246,  53,          3) /* PlacementPosition - LeftHand */
      , (29246,  60,        192) /* WeaponRange */

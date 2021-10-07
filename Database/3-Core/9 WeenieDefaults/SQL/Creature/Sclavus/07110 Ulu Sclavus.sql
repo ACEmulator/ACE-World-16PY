@@ -75,7 +75,7 @@ VALUES (7110,   1,   33555608) /* Setup */
      , (7110,   8,  100669120) /* Icon */
      , (7110,  22,  872415280) /* PhysicsEffectTable */
      , (7110,  32,        285) /* WieldedTreasureType - 
-                                   Wield Yumi (23736) | Probability: 60%
+                                   Wield Yumi (23736) | Probability: 60.000004%
                                    Wield 14x Greater Arrow (5304) | Probability: 100%
                                    Wield Katar (23676) | Probability: 10%
                                    Wield Nekode (23682) | Probability: 10%
@@ -100,23 +100,23 @@ VALUES (7110,   1,   100, 0, 0, 198) /* MaxHealth */
      , (7110,   5,   150, 0, 0, 320) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (7110,  1, 0, 3, 0, 130, 0, 520.060776962384) /* Axe                 Specialized */
-     , (7110,  2, 0, 3, 0, 135, 0, 520.060776962384) /* Bow                 Specialized */
-     , (7110,  3, 0, 3, 0, 135, 0, 520.060776962384) /* Crossbow            Specialized */
-     , (7110,  4, 0, 3, 0, 130, 0, 520.060776962384) /* Dagger              Specialized */
-     , (7110,  5, 0, 3, 0, 130, 0, 520.060776962384) /* Mace                Specialized */
-     , (7110,  6, 0, 3, 0, 155, 0, 520.060776962384) /* MeleeDefense        Specialized */
-     , (7110,  7, 0, 3, 0, 180, 0, 520.060776962384) /* MissileDefense      Specialized */
-     , (7110, 10, 0, 3, 0, 130, 0, 520.060776962384) /* Staff               Specialized */
-     , (7110, 11, 0, 3, 0, 130, 0, 520.060776962384) /* Sword               Specialized */
-     , (7110, 13, 0, 3, 0, 130, 0, 520.060776962384) /* UnarmedCombat       Specialized */
-     , (7110, 14, 0, 3, 0, 150, 0, 520.060776962384) /* ArcaneLore          Specialized */
-     , (7110, 15, 0, 3, 0, 160, 0, 520.060776962384) /* MagicDefense        Specialized */
-     , (7110, 20, 0, 3, 0,  90, 0, 520.060776962384) /* Deception           Specialized */
-     , (7110, 24, 0, 3, 0,  40, 0, 520.060776962384) /* Run                 Specialized */
-     , (7110, 31, 0, 3, 0, 115, 0, 520.060776962384) /* CreatureEnchantment Specialized */
-     , (7110, 33, 0, 3, 0, 115, 0, 520.060776962384) /* LifeMagic           Specialized */
-     , (7110, 34, 0, 3, 0, 115, 0, 520.060776962384) /* WarMagic            Specialized */;
+VALUES (7110,  1, 0, 3, 0, 130, 0, 520.0607769623836) /* Axe                 Specialized */
+     , (7110,  2, 0, 3, 0, 135, 0, 520.0607769623836) /* Bow                 Specialized */
+     , (7110,  3, 0, 3, 0, 135, 0, 520.0607769623836) /* Crossbow            Specialized */
+     , (7110,  4, 0, 3, 0, 130, 0, 520.0607769623836) /* Dagger              Specialized */
+     , (7110,  5, 0, 3, 0, 130, 0, 520.0607769623836) /* Mace                Specialized */
+     , (7110,  6, 0, 3, 0, 155, 0, 520.0607769623836) /* MeleeDefense        Specialized */
+     , (7110,  7, 0, 3, 0, 180, 0, 520.0607769623836) /* MissileDefense      Specialized */
+     , (7110, 10, 0, 3, 0, 130, 0, 520.0607769623836) /* Staff               Specialized */
+     , (7110, 11, 0, 3, 0, 130, 0, 520.0607769623836) /* Sword               Specialized */
+     , (7110, 13, 0, 3, 0, 130, 0, 520.0607769623836) /* UnarmedCombat       Specialized */
+     , (7110, 14, 0, 3, 0, 150, 0, 520.0607769623836) /* ArcaneLore          Specialized */
+     , (7110, 15, 0, 3, 0, 160, 0, 520.0607769623836) /* MagicDefense        Specialized */
+     , (7110, 20, 0, 3, 0,  90, 0, 520.0607769623836) /* Deception           Specialized */
+     , (7110, 24, 0, 3, 0,  40, 0, 520.0607769623836) /* Run                 Specialized */
+     , (7110, 31, 0, 3, 0, 115, 0, 520.0607769623836) /* CreatureEnchantment Specialized */
+     , (7110, 33, 0, 3, 0, 115, 0, 520.0607769623836) /* LifeMagic           Specialized */
+     , (7110, 34, 0, 3, 0, 115, 0, 520.0607769623836) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (7110,  0,  4,  0,    0,  160,  128,  104,   70,  112,  104,   34,   34,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

@@ -91,17 +91,17 @@ VALUES (30854,   1,   220, 0, 0, 360) /* MaxHealth */
      , (30854,   5,     0, 0, 0, 70) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (30854,  1, 0, 3, 0, 225, 0, 2307.44056127798) /* Axe                 Specialized */
-     , (30854,  4, 0, 3, 0, 225, 0, 2307.44056127798) /* Dagger              Specialized */
-     , (30854,  5, 0, 3, 0, 225, 0, 2307.44056127798) /* Mace                Specialized */
-     , (30854,  6, 0, 3, 0, 195, 0, 2307.44056127798) /* MeleeDefense        Specialized */
-     , (30854,  7, 0, 3, 0, 320, 0, 2307.44056127798) /* MissileDefense      Specialized */
-     , (30854,  9, 0, 3, 0, 225, 0, 2307.44056127798) /* Spear               Specialized */
-     , (30854, 10, 0, 3, 0, 225, 0, 2307.44056127798) /* Staff               Specialized */
-     , (30854, 11, 0, 3, 0, 225, 0, 2307.44056127798) /* Sword               Specialized */
-     , (30854, 12, 0, 3, 0,  75, 0, 2307.44056127798) /* ThrownWeapon        Specialized */
-     , (30854, 13, 0, 3, 0, 190, 0, 2307.44056127798) /* UnarmedCombat       Specialized */
-     , (30854, 15, 0, 3, 0, 280, 0, 2307.44056127798) /* MagicDefense        Specialized */;
+VALUES (30854,  1, 0, 3, 0, 225, 0, 2307.440561277978) /* Axe                 Specialized */
+     , (30854,  4, 0, 3, 0, 225, 0, 2307.440561277978) /* Dagger              Specialized */
+     , (30854,  5, 0, 3, 0, 225, 0, 2307.440561277978) /* Mace                Specialized */
+     , (30854,  6, 0, 3, 0, 195, 0, 2307.440561277978) /* MeleeDefense        Specialized */
+     , (30854,  7, 0, 3, 0, 320, 0, 2307.440561277978) /* MissileDefense      Specialized */
+     , (30854,  9, 0, 3, 0, 225, 0, 2307.440561277978) /* Spear               Specialized */
+     , (30854, 10, 0, 3, 0, 225, 0, 2307.440561277978) /* Staff               Specialized */
+     , (30854, 11, 0, 3, 0, 225, 0, 2307.440561277978) /* Sword               Specialized */
+     , (30854, 12, 0, 3, 0,  75, 0, 2307.440561277978) /* ThrownWeapon        Specialized */
+     , (30854, 13, 0, 3, 0, 190, 0, 2307.440561277978) /* UnarmedCombat       Specialized */
+     , (30854, 15, 0, 3, 0, 280, 0, 2307.440561277978) /* MagicDefense        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (30854,  0,  4,  0,    0,  360,  432,  432,  360,  360,  288,  360,  288,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -127,7 +127,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (30854,  5 /* HeartBeat */,   0.03, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (30854,  5 /* HeartBeat */, 0.030000001, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -151,7 +151,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (30854,  5 /* HeartBeat */,   0.03, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (30854,  5 /* HeartBeat */, 0.030000001, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

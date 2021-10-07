@@ -92,21 +92,21 @@ VALUES (11513,   1,    60, 0, 0, 110) /* MaxHealth */
      , (11513,   5,    35, 0, 0, 185) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (11513,  1, 0, 3, 0, 230, 0, 748.984044339201) /* Axe                 Specialized */
-     , (11513,  4, 0, 3, 0,  50, 0, 748.984044339201) /* Dagger              Specialized */
-     , (11513,  5, 0, 3, 0, 230, 0, 748.984044339201) /* Mace                Specialized */
-     , (11513,  6, 0, 3, 0, 240, 0, 748.984044339201) /* MeleeDefense        Specialized */
-     , (11513,  7, 0, 3, 0, 325, 0, 748.984044339201) /* MissileDefense      Specialized */
-     , (11513,  9, 0, 3, 0, 230, 0, 748.984044339201) /* Spear               Specialized */
-     , (11513, 10, 0, 3, 0, 230, 0, 748.984044339201) /* Staff               Specialized */
-     , (11513, 11, 0, 3, 0, 230, 0, 748.984044339201) /* Sword               Specialized */
-     , (11513, 13, 0, 3, 0, 230, 0, 748.984044339201) /* UnarmedCombat       Specialized */
-     , (11513, 15, 0, 3, 0, 180, 0, 748.984044339201) /* MagicDefense        Specialized */
-     , (11513, 20, 0, 3, 0,  70, 0, 748.984044339201) /* Deception           Specialized */
-     , (11513, 24, 0, 2, 0,  40, 0, 748.984044339201) /* Run                 Trained */
-     , (11513, 31, 0, 3, 0, 140, 0, 748.984044339201) /* CreatureEnchantment Specialized */
-     , (11513, 33, 0, 3, 0, 140, 0, 748.984044339201) /* LifeMagic           Specialized */
-     , (11513, 34, 0, 3, 0, 140, 0, 748.984044339201) /* WarMagic            Specialized */;
+VALUES (11513,  1, 0, 3, 0, 230, 0, 748.9840443392008) /* Axe                 Specialized */
+     , (11513,  4, 0, 3, 0,  50, 0, 748.9840443392008) /* Dagger              Specialized */
+     , (11513,  5, 0, 3, 0, 230, 0, 748.9840443392008) /* Mace                Specialized */
+     , (11513,  6, 0, 3, 0, 240, 0, 748.9840443392008) /* MeleeDefense        Specialized */
+     , (11513,  7, 0, 3, 0, 325, 0, 748.9840443392008) /* MissileDefense      Specialized */
+     , (11513,  9, 0, 3, 0, 230, 0, 748.9840443392008) /* Spear               Specialized */
+     , (11513, 10, 0, 3, 0, 230, 0, 748.9840443392008) /* Staff               Specialized */
+     , (11513, 11, 0, 3, 0, 230, 0, 748.9840443392008) /* Sword               Specialized */
+     , (11513, 13, 0, 3, 0, 230, 0, 748.9840443392008) /* UnarmedCombat       Specialized */
+     , (11513, 15, 0, 3, 0, 180, 0, 748.9840443392008) /* MagicDefense        Specialized */
+     , (11513, 20, 0, 3, 0,  70, 0, 748.9840443392008) /* Deception           Specialized */
+     , (11513, 24, 0, 2, 0,  40, 0, 748.9840443392008) /* Run                 Trained */
+     , (11513, 31, 0, 3, 0, 140, 0, 748.9840443392008) /* CreatureEnchantment Specialized */
+     , (11513, 33, 0, 3, 0, 140, 0, 748.9840443392008) /* LifeMagic           Specialized */
+     , (11513, 34, 0, 3, 0, 140, 0, 748.9840443392008) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (11513,  0,  4,  0,    0,   95,   95,   95,   95,   95,   95,   95,   95,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -155,7 +155,7 @@ VALUES (11513,  5 /* HeartBeat */,    0.9, NULL, 2147483709 /* NonCombat */, 109
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   4 /* MoveHome */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 1, 0, 0, 0)
+VALUES (@parent_id,  0,   4 /* MoveHome */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 1, 0, 0, -0)
      , (@parent_id,  1,   5 /* Motion */, 0, 1, 301990043 /* YMCA */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  2,   5 /* Motion */, 0, 1, 1124073755 /* AFKState */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

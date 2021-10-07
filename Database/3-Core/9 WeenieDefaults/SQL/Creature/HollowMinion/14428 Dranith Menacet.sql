@@ -83,13 +83,13 @@ VALUES (14428,   1,   150, 0, 0, 230) /* MaxHealth */
      , (14428,   5,     0, 0, 0, 40) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (14428,  6, 0, 2, 0, 190, 0, 887.03436112109) /* MeleeDefense        Trained */
-     , (14428,  7, 0, 2, 0, 240, 0, 887.03436112109) /* MissileDefense      Trained */
-     , (14428, 13, 0, 2, 0, 200, 0, 887.03436112109) /* UnarmedCombat       Trained */
-     , (14428, 15, 0, 2, 0, 240, 0, 887.03436112109) /* MagicDefense        Trained */
-     , (14428, 20, 0, 2, 0, 150, 0, 887.03436112109) /* Deception           Trained */
-     , (14428, 22, 0, 2, 0,  80, 0, 887.03436112109) /* Jump                Trained */
-     , (14428, 24, 0, 2, 0, 150, 0, 887.03436112109) /* Run                 Trained */;
+VALUES (14428,  6, 0, 2, 0, 190, 0, 887.0343611210897) /* MeleeDefense        Trained */
+     , (14428,  7, 0, 2, 0, 240, 0, 887.0343611210897) /* MissileDefense      Trained */
+     , (14428, 13, 0, 2, 0, 200, 0, 887.0343611210897) /* UnarmedCombat       Trained */
+     , (14428, 15, 0, 2, 0, 240, 0, 887.0343611210897) /* MagicDefense        Trained */
+     , (14428, 20, 0, 2, 0, 150, 0, 887.0343611210897) /* Deception           Trained */
+     , (14428, 22, 0, 2, 0,  80, 0, 887.0343611210897) /* Jump                Trained */
+     , (14428, 24, 0, 2, 0, 150, 0, 887.0343611210897) /* Run                 Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (14428,  0,  4,  2,  0.3,  170,  129,  129,  116,  143,  109,  129,  109,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

@@ -76,10 +76,10 @@ VALUES (30686,   1,   33559217) /* Setup */
      , (30686,   8,  100667452) /* Icon */
      , (30686,  22,  872415270) /* PhysicsEffectTable */
      , (30686,  32,        490) /* WieldedTreasureType - 
-                                   Wield Tachi (23136) | Probability: 30%
-                                   Wield Yumi (23137) | Probability: 30%
+                                   Wield Tachi (23136) | Probability: 30.000002%
+                                   Wield Yumi (23137) | Probability: 30.000002%
                                    Wield 20x Deadly Arrow (15429) | Probability: 100%
-                                   Wield Heavy Crossbow (23131) | Probability: 30%
+                                   Wield Heavy Crossbow (23131) | Probability: 30.000002%
                                    Wield 50x Deadly Quarrel (15438) | Probability: 100% */
      , (30686,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
@@ -97,24 +97,24 @@ VALUES (30686,   1,  4850, 0, 0, 5000) /* MaxHealth */
      , (30686,   5,  4650, 0, 0, 4920) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (30686,  1, 0, 3, 0, 285, 0, 2288.70675161104) /* Axe                 Specialized */
-     , (30686,  2, 0, 3, 0, 250, 0, 2288.70675161104) /* Bow                 Specialized */
-     , (30686,  3, 0, 3, 0, 250, 0, 2288.70675161104) /* Crossbow            Specialized */
-     , (30686,  4, 0, 3, 0, 285, 0, 2288.70675161104) /* Dagger              Specialized */
-     , (30686,  5, 0, 3, 0, 285, 0, 2288.70675161104) /* Mace                Specialized */
-     , (30686,  6, 0, 3, 0, 310, 0, 2288.70675161104) /* MeleeDefense        Specialized */
-     , (30686,  7, 0, 3, 0, 430, 0, 2288.70675161104) /* MissileDefense      Specialized */
-     , (30686,  9, 0, 3, 0, 285, 0, 2288.70675161104) /* Spear               Specialized */
-     , (30686, 10, 0, 3, 0, 285, 0, 2288.70675161104) /* Staff               Specialized */
-     , (30686, 11, 0, 3, 0, 285, 0, 2288.70675161104) /* Sword               Specialized */
-     , (30686, 13, 0, 3, 0, 285, 0, 2288.70675161104) /* UnarmedCombat       Specialized */
-     , (30686, 14, 0, 3, 0, 300, 0, 2288.70675161104) /* ArcaneLore          Specialized */
-     , (30686, 15, 0, 3, 0, 310, 0, 2288.70675161104) /* MagicDefense        Specialized */
-     , (30686, 20, 0, 3, 0, 150, 0, 2288.70675161104) /* Deception           Specialized */
-     , (30686, 24, 0, 3, 0, 160, 0, 2288.70675161104) /* Run                 Specialized */
-     , (30686, 31, 0, 3, 0, 230, 0, 2288.70675161104) /* CreatureEnchantment Specialized */
-     , (30686, 33, 0, 3, 0, 230, 0, 2288.70675161104) /* LifeMagic           Specialized */
-     , (30686, 34, 0, 3, 0, 230, 0, 2288.70675161104) /* WarMagic            Specialized */;
+VALUES (30686,  1, 0, 3, 0, 285, 0, 2288.706751611035) /* Axe                 Specialized */
+     , (30686,  2, 0, 3, 0, 250, 0, 2288.706751611035) /* Bow                 Specialized */
+     , (30686,  3, 0, 3, 0, 250, 0, 2288.706751611035) /* Crossbow            Specialized */
+     , (30686,  4, 0, 3, 0, 285, 0, 2288.706751611035) /* Dagger              Specialized */
+     , (30686,  5, 0, 3, 0, 285, 0, 2288.706751611035) /* Mace                Specialized */
+     , (30686,  6, 0, 3, 0, 310, 0, 2288.706751611035) /* MeleeDefense        Specialized */
+     , (30686,  7, 0, 3, 0, 430, 0, 2288.706751611035) /* MissileDefense      Specialized */
+     , (30686,  9, 0, 3, 0, 285, 0, 2288.706751611035) /* Spear               Specialized */
+     , (30686, 10, 0, 3, 0, 285, 0, 2288.706751611035) /* Staff               Specialized */
+     , (30686, 11, 0, 3, 0, 285, 0, 2288.706751611035) /* Sword               Specialized */
+     , (30686, 13, 0, 3, 0, 285, 0, 2288.706751611035) /* UnarmedCombat       Specialized */
+     , (30686, 14, 0, 3, 0, 300, 0, 2288.706751611035) /* ArcaneLore          Specialized */
+     , (30686, 15, 0, 3, 0, 310, 0, 2288.706751611035) /* MagicDefense        Specialized */
+     , (30686, 20, 0, 3, 0, 150, 0, 2288.706751611035) /* Deception           Specialized */
+     , (30686, 24, 0, 3, 0, 160, 0, 2288.706751611035) /* Run                 Specialized */
+     , (30686, 31, 0, 3, 0, 230, 0, 2288.706751611035) /* CreatureEnchantment Specialized */
+     , (30686, 33, 0, 3, 0, 230, 0, 2288.706751611035) /* LifeMagic           Specialized */
+     , (30686, 34, 0, 3, 0, 230, 0, 2288.706751611035) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (30686,  0,  4,  0,    0,  300,  300,  300,  300,  300,  300,  300,  300,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

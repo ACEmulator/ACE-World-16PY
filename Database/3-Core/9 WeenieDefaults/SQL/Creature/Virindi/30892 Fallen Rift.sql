@@ -93,15 +93,15 @@ VALUES (30892,   1,  1510, 0, 0, 1600) /* MaxHealth */
      , (30892,   5,   780, 0, 0, 1100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (30892,  6, 0, 3, 0, 440, 0, 2314.77170502115) /* MeleeDefense        Specialized */
-     , (30892,  7, 0, 3, 0, 515, 0, 2314.77170502115) /* MissileDefense      Specialized */
-     , (30892, 13, 0, 3, 0, 415, 0, 2314.77170502115) /* UnarmedCombat       Specialized */
-     , (30892, 15, 0, 3, 0, 310, 0, 2314.77170502115) /* MagicDefense        Specialized */
-     , (30892, 20, 0, 3, 0, 100, 0, 2314.77170502115) /* Deception           Specialized */
-     , (30892, 24, 0, 3, 0,  10, 0, 2314.77170502115) /* Run                 Specialized */
-     , (30892, 31, 0, 3, 0, 315, 0, 2314.77170502115) /* CreatureEnchantment Specialized */
-     , (30892, 33, 0, 3, 0, 315, 0, 2314.77170502115) /* LifeMagic           Specialized */
-     , (30892, 34, 0, 3, 0, 315, 0, 2314.77170502115) /* WarMagic            Specialized */;
+VALUES (30892,  6, 0, 3, 0, 440, 0, 2314.7717050211504) /* MeleeDefense        Specialized */
+     , (30892,  7, 0, 3, 0, 515, 0, 2314.7717050211504) /* MissileDefense      Specialized */
+     , (30892, 13, 0, 3, 0, 415, 0, 2314.7717050211504) /* UnarmedCombat       Specialized */
+     , (30892, 15, 0, 3, 0, 310, 0, 2314.7717050211504) /* MagicDefense        Specialized */
+     , (30892, 20, 0, 3, 0, 100, 0, 2314.7717050211504) /* Deception           Specialized */
+     , (30892, 24, 0, 3, 0,  10, 0, 2314.7717050211504) /* Run                 Specialized */
+     , (30892, 31, 0, 3, 0, 315, 0, 2314.7717050211504) /* CreatureEnchantment Specialized */
+     , (30892, 33, 0, 3, 0, 315, 0, 2314.7717050211504) /* LifeMagic           Specialized */
+     , (30892, 34, 0, 3, 0, 315, 0, 2314.7717050211504) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (30892,  0,  5, 75, 0.75,  750,  750,  750,  750,  750,  750,  750,  750,    0, 1,  0.5,  0.2,    0,  0.5,  0.2,    0,    0,    0,    0,    0,    0,    0) /* Head */
@@ -131,7 +131,7 @@ VALUES (30892, 9, 30857,  0, 0, 0.5, False) /* Create Sezzherei's Lair (30857) f
      , (30892, 9, 30868,  0, 0, 1, False) /* Create Crossbow of the Fallen (30868) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30892, 0.25, 25852, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1, 9, 0.8191521, 0, 0, -0.5735765) /* Generate Ravager (25852) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (30892, 0.5, 25887, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 3.4, 9, 0.9659258, 0, 0, -0.258819) /* Generate Infernal Zefir (25887) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+VALUES (30892, 0.25, 25852, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1, 9, 0.81915206, 0, 0, -0.57357645) /* Generate Ravager (25852) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (30892, 0.5, 25887, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 3.4, 9, 0.9659258, 0, 0, -0.25881904) /* Generate Infernal Zefir (25887) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (30892, 0.75, 25866, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, -1.4, 9, 0.9961947, 0, 0, -0.08715574) /* Generate Damned Marionette (25866) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (30892, 1, 23570, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -2, 9, 0.9961947, 0, 0, -0.08715574) /* Generate Virindi Paradox (23570) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

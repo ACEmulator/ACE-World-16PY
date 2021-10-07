@@ -6,20 +6,20 @@ VALUES (0x766DD000,  8059, 0x66DD0000, 173.334, 182.737, 49.666, 0.672238, 0, 0,
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x766DD001,  8059, 0x66DD0000, 173.756, 125.291, 61.6416, 0.598024, 0, 0, 0.801478, False, '2005-02-09 10:00:00'); /* Scrawed Grievver Camp Generator */
-/* @teleloc 0x66DD0000 [173.756000 125.291000 61.641600] 0.598024 0.000000 0.000000 0.801478 */
+/* @teleloc 0x66DD0000 [173.755997 125.291000 61.641602] 0.598024 0.000000 0.000000 0.801478 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x766DD002,  8059, 0x66DD0000, 141.267, 50.4068, 84.975, 0.60842, 0, 0, 0.793615, False, '2005-02-09 10:00:00'); /* Scrawed Grievver Camp Generator */
-/* @teleloc 0x66DD0000 [141.267000 50.406800 84.975000] 0.608420 0.000000 0.000000 0.793615 */
+/* @teleloc 0x66DD0000 [141.266998 50.406799 84.974998] 0.608420 0.000000 0.000000 0.793615 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x766DD003,  8059, 0x66DD0000, 116.44, 11.3543, 88.1638, 0.727908, 0, 0, 0.685675, False, '2005-02-09 10:00:00'); /* Scrawed Grievver Camp Generator */
-/* @teleloc 0x66DD0000 [116.440000 11.354300 88.163800] 0.727908 0.000000 0.000000 0.685675 */
+/* @teleloc 0x66DD0000 [116.440002 11.354300 88.163803] 0.727908 0.000000 0.000000 0.685675 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x766DD004,  8059, 0x66DD0000, 41.3243, 105.839, 70.5613, 0.198378, 0, 0, 0.980126, False, '2005-02-09 10:00:00'); /* Scrawed Grievver Camp Generator */
-/* @teleloc 0x66DD0000 [41.324300 105.839000 70.561300] 0.198378 0.000000 0.000000 0.980126 */
+/* @teleloc 0x66DD0000 [41.324299 105.838997 70.561302] 0.198378 0.000000 0.000000 0.980126 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x766DD005,  8061, 0x66DD0000, 115.989, 145.494, 56.549, -0.411175, 0, 0, -0.911556, False, '2005-02-09 10:00:00'); /* Virulent Grievver Camp Generator */
-/* @teleloc 0x66DD0000 [115.989000 145.494000 56.549000] -0.411175 0.000000 0.000000 -0.911556 */
+/* @teleloc 0x66DD0000 [115.988998 145.494003 56.549000] -0.411175 0.000000 0.000000 -0.911556 */

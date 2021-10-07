@@ -66,7 +66,7 @@ VALUES (@parent_id,  0,  13 /* TextDirect */, 0, 1, NULL, 'It''s that thing you 
      , (@parent_id,  1,  22 /* StampQuest */, 0, 1, NULL, 'ColorPuzzleRedRiddle', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (29649, 32 /* GotoSet */,   0.42, NULL, NULL, NULL, 'pick_riddle', NULL, NULL, NULL);
+VALUES (29649, 32 /* GotoSet */, 0.42000002, NULL, NULL, NULL, 'pick_riddle', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -102,7 +102,7 @@ VALUES (@parent_id,  0,  13 /* TextDirect */, 0, 1, NULL, 'The answer is sad.', 
      , (@parent_id,  1,  22 /* StampQuest */, 0, 1, NULL, 'ColorPuzzleBlueRiddle', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (29649, 32 /* GotoSet */,   0.98, NULL, NULL, NULL, 'pick_riddle', NULL, NULL, NULL);
+VALUES (29649, 32 /* GotoSet */, 0.97999996, NULL, NULL, NULL, 'pick_riddle', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -111,7 +111,7 @@ VALUES (@parent_id,  0,  13 /* TextDirect */, 0, 1, NULL, 'It''s also a fruit.',
      , (@parent_id,  1,  22 /* StampQuest */, 0, 1, NULL, 'ColorPuzzleOrangeRiddle', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (29649, 32 /* GotoSet */, 0.9999999, NULL, NULL, NULL, 'pick_riddle', NULL, NULL, NULL);
+VALUES (29649, 32 /* GotoSet */, 0.99999994, NULL, NULL, NULL, 'pick_riddle', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

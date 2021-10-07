@@ -90,9 +90,9 @@ VALUES (14573,   1,     5, 0, 0, 310) /* MaxHealth */
      , (14573,   5,     5, 0, 0, 605) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (14573,  6, 0, 2, 0,   1, 0, 897.122960345447) /* MeleeDefense        Trained */
-     , (14573,  7, 0, 2, 0,   1, 0, 897.122960345447) /* MissileDefense      Trained */
-     , (14573, 13, 0, 2, 0,   1, 0, 897.122960345447) /* UnarmedCombat       Trained */;
+VALUES (14573,  6, 0, 2, 0,   1, 0, 897.1229603454469) /* MeleeDefense        Trained */
+     , (14573,  7, 0, 2, 0,   1, 0, 897.1229603454469) /* MissileDefense      Trained */
+     , (14573, 13, 0, 2, 0,   1, 0, 897.1229603454469) /* UnarmedCombat       Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (14573,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -124,7 +124,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Your vision swims. For a moment, you seem to stand in creaking jungle. You are running, swinging a sword wreathed in astral flames. A hundred men around you roar as one. There! At last, the ornate blue spires rise before you. Ridiculous lizard-men flap towards you, their eyes glowing. Women dressed in the skins of animals raise their hands, and the ground erupts. You swim forward, wading through a rain of earth and a razor wind of flying thorns. The noise of falling water becomes deafening.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (14573,  7 /* Use */,   0.36, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (14573,  7 /* Use */, 0.35999998, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

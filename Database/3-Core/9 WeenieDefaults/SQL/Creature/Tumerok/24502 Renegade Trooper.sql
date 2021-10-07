@@ -113,20 +113,20 @@ VALUES (24502,   1,   350, 0, 0, 500) /* MaxHealth */
      , (24502,   5,     0, 0, 0, 225) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (24502,  1, 0, 3, 0, 260, 0, 1557.98141184578) /* Axe                 Specialized */
-     , (24502,  2, 0, 3, 0, 150, 0, 1557.98141184578) /* Bow                 Specialized */
-     , (24502,  3, 0, 3, 0, 150, 0, 1557.98141184578) /* Crossbow            Specialized */
-     , (24502,  4, 0, 3, 0, 200, 0, 1557.98141184578) /* Dagger              Specialized */
-     , (24502,  5, 0, 3, 0, 260, 0, 1557.98141184578) /* Mace                Specialized */
-     , (24502,  6, 0, 3, 0, 300, 0, 1557.98141184578) /* MeleeDefense        Specialized */
-     , (24502,  7, 0, 3, 0, 385, 0, 1557.98141184578) /* MissileDefense      Specialized */
-     , (24502,  9, 0, 3, 0, 260, 0, 1557.98141184578) /* Spear               Specialized */
-     , (24502, 10, 0, 3, 0, 260, 0, 1557.98141184578) /* Staff               Specialized */
-     , (24502, 11, 0, 3, 0, 260, 0, 1557.98141184578) /* Sword               Specialized */
-     , (24502, 13, 0, 3, 0, 260, 0, 1557.98141184578) /* UnarmedCombat       Specialized */
-     , (24502, 15, 0, 3, 0, 265, 0, 1557.98141184578) /* MagicDefense        Specialized */
-     , (24502, 20, 0, 3, 0,  50, 0, 1557.98141184578) /* Deception           Specialized */
-     , (24502, 24, 0, 3, 0,  50, 0, 1557.98141184578) /* Run                 Specialized */;
+VALUES (24502,  1, 0, 3, 0, 260, 0, 1557.9814118457805) /* Axe                 Specialized */
+     , (24502,  2, 0, 3, 0, 150, 0, 1557.9814118457805) /* Bow                 Specialized */
+     , (24502,  3, 0, 3, 0, 150, 0, 1557.9814118457805) /* Crossbow            Specialized */
+     , (24502,  4, 0, 3, 0, 200, 0, 1557.9814118457805) /* Dagger              Specialized */
+     , (24502,  5, 0, 3, 0, 260, 0, 1557.9814118457805) /* Mace                Specialized */
+     , (24502,  6, 0, 3, 0, 300, 0, 1557.9814118457805) /* MeleeDefense        Specialized */
+     , (24502,  7, 0, 3, 0, 385, 0, 1557.9814118457805) /* MissileDefense      Specialized */
+     , (24502,  9, 0, 3, 0, 260, 0, 1557.9814118457805) /* Spear               Specialized */
+     , (24502, 10, 0, 3, 0, 260, 0, 1557.9814118457805) /* Staff               Specialized */
+     , (24502, 11, 0, 3, 0, 260, 0, 1557.9814118457805) /* Sword               Specialized */
+     , (24502, 13, 0, 3, 0, 260, 0, 1557.9814118457805) /* UnarmedCombat       Specialized */
+     , (24502, 15, 0, 3, 0, 265, 0, 1557.9814118457805) /* MagicDefense        Specialized */
+     , (24502, 20, 0, 3, 0,  50, 0, 1557.9814118457805) /* Deception           Specialized */
+     , (24502, 24, 0, 3, 0,  50, 0, 1557.9814118457805) /* Run                 Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (24502,  0,  4,  0,    0,  350,  350,  350,  350,  350,  350,  350,  350,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -166,7 +166,7 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'RenegadeRanForward', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  1,   6 /* Move */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 160, 0, 0.7071068, 0, 0, -0.7071068)
+     , (@parent_id,  1,   6 /* Move */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 160, 0, 0.70710677, 0, 0, -0.70710677)
      , (@parent_id,  2,  57 /* ResetHomePosition */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)

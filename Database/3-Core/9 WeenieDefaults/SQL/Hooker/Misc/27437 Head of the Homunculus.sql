@@ -13,7 +13,7 @@ VALUES (27437,   1,        128) /* ItemType - Misc */
      , (27437,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27437, 150,        103) /* HookPlacement - Hook */
      , (27437, 151,          9) /* HookType - Floor, Yard */
-     , (27437, 197,          4) /* HookGroup */;
+     , (27437, 197,          4) /* HookGroup - PortalItems */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27437,  13, True ) /* Ethereal */
