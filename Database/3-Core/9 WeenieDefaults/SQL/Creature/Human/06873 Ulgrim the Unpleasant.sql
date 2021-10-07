@@ -78,7 +78,7 @@ VALUES (6873,   1,   33554433) /* Setup */
      , (6873,  31,      23889) /* LinkedPortalOne - Tower of the Madman */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6873, 12, 2060058641, 60.244, 17.602, 210.005, 0.70710677, 0, 0, -0.70710677) /* PortalSummonLoc */
+VALUES (6873, 12, 0x7ACA0011, 60.244, 17.602, 210.005, 0.70710677, 0, 0, -0.70710677) /* PortalSummonLoc */
 /* @teleloc 0x7ACA0011 [60.243999 17.601999 210.005005] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

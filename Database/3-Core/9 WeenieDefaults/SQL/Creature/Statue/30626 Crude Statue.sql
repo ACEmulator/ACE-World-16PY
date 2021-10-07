@@ -76,7 +76,7 @@ VALUES (30626,   1,   33559204) /* Setup */
      , (30626,  31,      30643) /* LinkedPortalOne - Banderling Shrine */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30626, 12, 2010775566, 41.666, 133.841, 216.834, 0.13907818, 0, 0, -0.9902814) /* PortalSummonLoc */
+VALUES (30626, 12, 0x77DA000E, 41.666, 133.841, 216.834, 0.13907818, 0, 0, -0.9902814) /* PortalSummonLoc */
 /* @teleloc 0x77DA000E [41.666000 133.841003 216.834000] 0.139078 0.000000 0.000000 -0.990281 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
