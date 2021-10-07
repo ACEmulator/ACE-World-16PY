@@ -165,10 +165,10 @@ VALUES (8818,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (8818, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8818, 1,  8787,  0, 0, 1, False) /* Create Shadow Captain's Heaume (8787) for Contain */
-     , (8818, 9,  6059,  0, 0, 0.05, False) /* Create Dark Sliver (6059) for ContainTreasure */
+VALUES (8818, 9,  6059,  0, 0, 0.05, False) /* Create Dark Sliver (6059) for ContainTreasure */
      , (8818, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (8818, 9,  8019,  0, 0, 0.05, False) /* Create Caulnalain Key (8019) for ContainTreasure */
      , (8818, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (8818, 9, 23108,  0, 0, 0.01, False) /* Create Twisted Dark Key (23108) for ContainTreasure */
-     , (8818, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */;
+     , (8818, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (8818, 1,  8787,  0, 0, 1, False) /* Create Shadow Captain's Heaume (8787) for Contain */;

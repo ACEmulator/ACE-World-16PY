@@ -180,5 +180,5 @@ VALUES (5685,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (5685, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5685, 1,  5679,  0, 0, 0, False) /* Create Torn Journal (5679) for Contain */
-     , (5685, 2,  3752,  0, 0, 0, False) /* Create Flaming Battle Axe (3752) for Wield */;
+VALUES (5685, 2,  3752,  0, 0, 0, False) /* Create Flaming Battle Axe (3752) for Wield */
+     , (5685, 1,  5679,  0, 0, 0, False) /* Create Torn Journal (5679) for Contain */;

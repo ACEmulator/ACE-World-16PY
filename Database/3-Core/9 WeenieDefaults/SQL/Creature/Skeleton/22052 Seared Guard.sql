@@ -131,7 +131,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22052, 2,  7973,  0, 0, 0, False) /* Create Flaming Tachi (7973) for Wield */
-     , (22052, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
+VALUES (22052, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */
      , (22052, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (22052, 9,     0,  0, 0, 0.93, False) /* Create nothing for ContainTreasure */;
+     , (22052, 9,     0,  0, 0, 0.93, False) /* Create nothing for ContainTreasure */
+     , (22052, 2,  7973,  0, 0, 0, False) /* Create Flaming Tachi (7973) for Wield */;

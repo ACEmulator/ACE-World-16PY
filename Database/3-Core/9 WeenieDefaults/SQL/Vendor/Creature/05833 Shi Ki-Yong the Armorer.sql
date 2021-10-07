@@ -162,13 +162,13 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767235 /* Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5833, 1,   273, 1500, 0, 0, False) /* Create Pyreal (273) for Contain */
-     , (5833, 2,   130,  0, 14, 0.5, False) /* Create Shirt (130) for Wield */
+VALUES (5833, 2,   130,  0, 14, 0.5, False) /* Create Shirt (130) for Wield */
      , (5833, 2,   118,  0, 9, 0.5, False) /* Create Cap (118) for Wield */
      , (5833, 2,  2597,  0, 9, 1, False) /* Create Pants (2597) for Wield */
      , (5833, 2,   115,  0, 4, 0.2, False) /* Create Leather Boots (115) for Wield */
      , (5833, 2, 10696,  0, 9, 0, False) /* Create Apron (10696) for Wield */
      , (5833, 2,   352,  0, 0, 0, False) /* Create Short Sword (352) for Wield */
+     , (5833, 1,   273, 1500, 0, 0, False) /* Create Pyreal (273) for Contain */
      , (5833, 2,   130,  0, 8, 0.2, False) /* Create Shirt (130) for Wield */
      , (5833, 2,   127,  0, 8, 0.8, False) /* Create Pants (127) for Wield */
      , (5833, 2,   115,  0, 4, 0.8, False) /* Create Leather Boots (115) for Wield */

@@ -217,9 +217,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'How please I am, human, that I have been able to prove that my powers are not one bit diminished in this new form!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12129, 1, 12147,  0, 0, 0, False) /* Create Asteliary Orb (12147) for Contain */
-     , (12129, 1, 12157,  0, 0, 0, False) /* Create Asteliary Gem (12157) for Contain */
-     , (12129, 1, 12141,  0, 0, 0, False) /* Create Asteliary Crafter's Message Shard (12141) for Contain */
-     , (12129, 2,  6046,  0, 2, 0.5, False) /* Create Amuli Coat (6046) for Wield */
+VALUES (12129, 2,  6046,  0, 2, 0.5, False) /* Create Amuli Coat (6046) for Wield */
      , (12129, 2,  6047,  0, 2, 0.5, False) /* Create Amuli Leggings (6047) for Wield */
-     , (12129, 2,   132,  0, 9, 0, False) /* Create Shoes (132) for Wield */;
+     , (12129, 2,   132,  0, 9, 0, False) /* Create Shoes (132) for Wield */
+     , (12129, 1, 12147,  0, 0, 0, False) /* Create Asteliary Orb (12147) for Contain */
+     , (12129, 1, 12157,  0, 0, 0, False) /* Create Asteliary Gem (12157) for Contain */
+     , (12129, 1, 12141,  0, 0, 0, False) /* Create Asteliary Crafter's Message Shard (12141) for Contain */;

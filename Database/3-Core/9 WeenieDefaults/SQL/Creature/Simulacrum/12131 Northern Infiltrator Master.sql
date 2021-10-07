@@ -203,8 +203,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Do you think me to be as weak in magic as your own race?  Your magic is still too feeble to hurt me.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12131, 1, 12155,  0, 0, 0, False) /* Create Shield of the Simulacra (12155) for Contain */
-     , (12131, 1, 12143,  0, 0, 0, False) /* Create Northern Infiltrator Message Shard (12143) for Contain */
-     , (12131, 2,  6046,  0, 2, 0.6, False) /* Create Amuli Coat (6046) for Wield */
+VALUES (12131, 2,  6046,  0, 2, 0.6, False) /* Create Amuli Coat (6046) for Wield */
      , (12131, 2,  6047,  0, 2, 0.6, False) /* Create Amuli Leggings (6047) for Wield */
-     , (12131, 2,   132,  0, 9, 0, False) /* Create Shoes (132) for Wield */;
+     , (12131, 2,   132,  0, 9, 0, False) /* Create Shoes (132) for Wield */
+     , (12131, 1, 12155,  0, 0, 0, False) /* Create Shield of the Simulacra (12155) for Contain */
+     , (12131, 1, 12143,  0, 0, 0, False) /* Create Northern Infiltrator Message Shard (12143) for Contain */;

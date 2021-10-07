@@ -173,6 +173,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, '%s has slain the Tou-Tou Spire Shadow!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6831, 8,  6819,  0, 0, 1, False) /* Create Spire Key Chunk - Tou Tou (6819) for Treasure */
-     , (6831, 9,  6059,  0, 0, 0.03, False) /* Create Dark Sliver (6059) for ContainTreasure */
-     , (6831, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;
+VALUES (6831, 9,  6059,  0, 0, 0.03, False) /* Create Dark Sliver (6059) for ContainTreasure */
+     , (6831, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
+     , (6831, 8,  6819,  0, 0, 1, False) /* Create Spire Key Chunk - Tou Tou (6819) for Treasure */;

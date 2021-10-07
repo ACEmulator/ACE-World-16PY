@@ -151,8 +151,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5761, 1,  5758,  1, 0, 0, False) /* Create Carrot (5758) for Contain */
+VALUES (5761, 2,  5762,  9, 0, 0, False) /* Create Snowball (5762) for Wield */
+     , (5761, 1,  5758,  1, 0, 0, False) /* Create Carrot (5758) for Contain */
      , (5761, 1,  5768,  1, 0, 0, False) /* Create Poofy Snowball (5768) for Contain */
-     , (5761, 2,  5762,  9, 0, 0, False) /* Create Snowball (5762) for Wield */
      , (5761, 9, 22825,  0, 0, 0.1, False) /* Create A Lump of Coal (22825) for ContainTreasure */
      , (5761, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */;
