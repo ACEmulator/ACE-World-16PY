@@ -232,9 +232,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'As %s''s feeble spell is repulsed by Tuperea, he is heard to mutter, "Bah. A shaman. They always have such stringy meat..."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10952, 2, 10993,  1, 0, 1, False) /* Create Crop (10993) for Wield */
-     , (10952, 1, 10991,  1, 0, 1, False) /* Create Crop Handle (10991) for Contain */
+VALUES (10952, 1, 10991,  1, 0, 1, False) /* Create Crop Handle (10991) for Contain */
      , (10952, 1, 10992,  1, 0, 1, False) /* Create Crop End (10992) for Contain */
+     , (10952, 2, 10993,  1, 0, 1, False) /* Create Crop (10993) for Wield */
      , (10952, 9, 10958,  4, 0, 1, False) /* Create Pouch of Dried Meat (10958) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

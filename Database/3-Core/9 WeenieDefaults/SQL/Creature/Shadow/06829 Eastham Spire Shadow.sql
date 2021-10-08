@@ -175,6 +175,6 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, '%s has slain the Eastham Spire Shadow!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6829, 9,  6060,  0, 0, 0.03, False) /* Create Dark Speck (6060) for ContainTreasure */
-     , (6829, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (6829, 8,  6816,  0, 0, 1, False) /* Create Spire Key Chunk - Eastham (6816) for Treasure */;
+VALUES (6829, 8,  6816,  0, 0, 1, False) /* Create Spire Key Chunk - Eastham (6816) for Treasure */
+     , (6829, 9,  6060,  0, 0, 0.03, False) /* Create Dark Speck (6060) for ContainTreasure */
+     , (6829, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

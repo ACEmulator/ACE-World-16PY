@@ -153,6 +153,6 @@ VALUES (8123,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (8123, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8123, 10, 23708,  0, 0, 1, False) /* Create Fire Tachi (23708) for WieldTreasure */
-     , (8123, 9,  8089,  0, 0, 1, False) /* Create Petulantly Written Note (8089) for ContainTreasure */
-     , (8123, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;
+VALUES (8123, 9,  8089,  0, 0, 1, False) /* Create Petulantly Written Note (8089) for ContainTreasure */
+     , (8123, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+     , (8123, 10, 23708,  0, 0, 1, False) /* Create Fire Tachi (23708) for WieldTreasure */;

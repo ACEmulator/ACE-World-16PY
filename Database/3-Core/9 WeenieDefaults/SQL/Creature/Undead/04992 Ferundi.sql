@@ -140,5 +140,5 @@ VALUES (4992,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (4992, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4992, 2,   338,  0, 0, 0, False) /* Create Quarter Staff (338) for Wield */
-     , (4992, 1,  4990,  0, 0, 0, False) /* Create Key of Frore (4990) for Contain */;
+VALUES (4992, 1,  4990,  0, 0, 0, False) /* Create Key of Frore (4990) for Contain */
+     , (4992, 2,   338,  0, 0, 0, False) /* Create Quarter Staff (338) for Wield */;

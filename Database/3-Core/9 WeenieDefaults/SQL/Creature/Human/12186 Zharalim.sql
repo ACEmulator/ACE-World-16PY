@@ -125,6 +125,8 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1124073756 /* MeditateState */, 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12186, 2, 12192,  0, 0, 1, False) /* Create Shadow's Garb (12192) for Wield */
      , (12186, 2, 12193,  0, 0, 1, False) /* Create Dho Vest and Robe (12193) for Wield */
+     , (12186, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (12186, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (12186, 10, 12188,  0, 0, 0.1, False) /* Create Assassin's Jambiya (12188) for WieldTreasure */
      , (12186, 10, 12187,  0, 0, 0.1, False) /* Create Assassin's Acid Jambiya (12187) for WieldTreasure */
      , (12186, 10, 12189,  0, 0, 0.1, False) /* Create Assassin's Lightning Jambiya (12189) for WieldTreasure */
@@ -135,6 +137,4 @@ VALUES (12186, 2, 12192,  0, 0, 1, False) /* Create Shadow's Garb (12192) for Wi
      , (12186, 10, 12196,  0, 0, 0.1, False) /* Create Assassin's Lightning Simi (12196) for WieldTreasure */
      , (12186, 10, 12197,  0, 0, 0.1, False) /* Create Assassin's Flaming Simi (12197) for WieldTreasure */
      , (12186, 10, 12198,  0, 0, 0.1, False) /* Create Assassin's Frost Simi (12198) for WieldTreasure */
-     , (12186, 10,     0,  0, 0, 0, False) /* Create nothing for WieldTreasure */
-     , (12186, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (12186, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;
+     , (12186, 10,     0,  0, 0, 0, False) /* Create nothing for WieldTreasure */;

@@ -177,9 +177,9 @@ VALUES (10949,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (10949, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10949, 9, 10969,  0, 0, 1, False) /* Create Awakener (10969) for ContainTreasure */
-     , (10949, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */
+VALUES (10949, 1, 10968,  1, 0, 0, False) /* Create Karenua's Key (10968) for Contain */
      , (10949, 1, 10968,  1, 0, 0, False) /* Create Karenua's Key (10968) for Contain */
      , (10949, 1, 10968,  1, 0, 0, False) /* Create Karenua's Key (10968) for Contain */
      , (10949, 1, 10968,  1, 0, 0, False) /* Create Karenua's Key (10968) for Contain */
-     , (10949, 1, 10968,  1, 0, 0, False) /* Create Karenua's Key (10968) for Contain */;
+     , (10949, 9, 10969,  0, 0, 1, False) /* Create Awakener (10969) for ContainTreasure */
+     , (10949, 9,     0,  0, 0, 0, False) /* Create nothing for ContainTreasure */;

@@ -207,9 +207,9 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'The Director has charged me with defending our Obsidian, human.  Prepare for your destruction!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12264, 9,  3698,  0, 0, 0.05, False) /* Create White Jewel (3698) for ContainTreasure */
+VALUES (12264, 8, 12252,  1, 0, 0, False) /* Create Obsidian Director's Mask (12252) for Treasure */
+     , (12264, 8, 12280,  1, 0, 0, False) /* Create Singular Obsidian Message Shard (12280) for Treasure */
+     , (12264, 9,  3698,  0, 0, 0.05, False) /* Create White Jewel (3698) for ContainTreasure */
      , (12264, 9,     0,  0, 0, 0.95, False) /* Create nothing for ContainTreasure */
      , (12264, 9,  8154,  0, 0, 0.1, False) /* Create Broken Virindi Mask (8154) for ContainTreasure */
-     , (12264, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */
-     , (12264, 8, 12252,  1, 0, 0, False) /* Create Obsidian Director's Mask (12252) for Treasure */
-     , (12264, 8, 12280,  1, 0, 0, False) /* Create Singular Obsidian Message Shard (12280) for Treasure */;
+     , (12264, 9,     0,  0, 0, 0.9, False) /* Create nothing for ContainTreasure */;

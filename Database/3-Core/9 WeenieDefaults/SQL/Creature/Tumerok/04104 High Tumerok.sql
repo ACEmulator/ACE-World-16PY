@@ -160,13 +160,7 @@ VALUES (4104,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (4104, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4104, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
-     , (4104, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
-     , (4104, 9,  3695,  0, 0, 0.2, False) /* Create Gold Tumerok Insignia (3695) for ContainTreasure */
-     , (4104, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
-     , (4104, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
-     , (4104, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */
-     , (4104, 8,   301,  0, 0, 0.14, False) /* Create Battle Axe (301) for Treasure */
+VALUES (4104, 8,   301,  0, 0, 0.14, False) /* Create Battle Axe (301) for Treasure */
      , (4104, 8,   350,  0, 0, 0.07, False) /* Create Broad Sword (350) for Treasure */
      , (4104, 8,   324,  0, 0, 0.06, False) /* Create Kaskara (324) for Treasure */
      , (4104, 8,   327,  0, 0, 0.06, False) /* Create Ken (327) for Treasure */
@@ -177,4 +171,10 @@ VALUES (4104, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for
      , (4104, 8,   340,  0, 0, 0.06, False) /* Create Shamshir (340) for Treasure */
      , (4104, 8,   344,  0, 0, 0.13, False) /* Create Silifi (344) for Treasure */
      , (4104, 8,   353,  0, 0, 0.06, False) /* Create Tachi (353) for Treasure */
-     , (4104, 8,   354,  0, 0, 0.06, False) /* Create Takuba (354) for Treasure */;
+     , (4104, 8,   354,  0, 0, 0.06, False) /* Create Takuba (354) for Treasure */
+     , (4104, 9,  6876,  0, 0, 0.01, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (4104, 9,     0,  0, 0, 0.99, False) /* Create nothing for ContainTreasure */
+     , (4104, 9,  3695,  0, 0, 0.2, False) /* Create Gold Tumerok Insignia (3695) for ContainTreasure */
+     , (4104, 9,     0,  0, 0, 0.8, False) /* Create nothing for ContainTreasure */
+     , (4104, 9,  7825,  0, 0, 0.03, False) /* Create Brown Beans (7825) for ContainTreasure */
+     , (4104, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;

@@ -161,8 +161,8 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'I have failed my lord Ler Rahn... But our Dark Master triumphs even so!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6811, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+VALUES (6811, 8,  6809,  0, 0, 1, False) /* Create Nexus Note (6809) for Treasure */
+     , (6811, 9,  6876,  0, 0, 0.02, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (6811, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
      , (6811, 9,  6058,  0, 0, 0.02, False) /* Create Dark Shard (6058) for ContainTreasure */
-     , (6811, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */
-     , (6811, 8,  6809,  0, 0, 1, False) /* Create Nexus Note (6809) for Treasure */;
+     , (6811, 9,     0,  0, 0, 0.98, False) /* Create nothing for ContainTreasure */;
