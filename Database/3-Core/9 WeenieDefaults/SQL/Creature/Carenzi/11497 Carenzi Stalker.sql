@@ -60,12 +60,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11497,   1, 'Carenzi Stalker') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11497,   1,   33557141) /* Setup */
-     , (11497,   2,  150995133) /* MotionTable */
-     , (11497,   3,  536871035) /* SoundTable */
-     , (11497,   4,  805306375) /* CombatTable */
-     , (11497,   8,  100671754) /* Icon */
-     , (11497,  22,  872415377) /* PhysicsEffectTable */
+VALUES (11497,   1, 0x02000A95) /* Setup */
+     , (11497,   2, 0x090000BD) /* MotionTable */
+     , (11497,   3, 0x2000007B) /* SoundTable */
+     , (11497,   4, 0x30000007) /* CombatTable */
+     , (11497,   8, 0x0600210A) /* Icon */
+     , (11497,  22, 0x34000091) /* PhysicsEffectTable */
      , (11497,  35,        457) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

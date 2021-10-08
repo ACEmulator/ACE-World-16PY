@@ -42,12 +42,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8707,   1, 'A Pair Of Explorer Leather Pauldrons') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8707,   1,   33554641) /* Setup */
-     , (8707,   3,  536870932) /* SoundTable */
-     , (8707,   6,   67108990) /* PaletteBase */
-     , (8707,   7,  268436715) /* ClothingBase */
-     , (8707,   8,  100668171) /* Icon */
-     , (8707,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8707,   1, 0x020000D1) /* Setup */
+     , (8707,   3, 0x20000014) /* SoundTable */
+     , (8707,   6, 0x0400007E) /* PaletteBase */
+     , (8707,   7, 0x100004EB) /* ClothingBase */
+     , (8707,   8, 0x0600130B) /* Icon */
+     , (8707,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8707,  1483,      2)  /* Impenetrability III */

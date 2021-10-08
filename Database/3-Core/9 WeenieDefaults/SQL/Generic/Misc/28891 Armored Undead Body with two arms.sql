@@ -29,7 +29,7 @@ VALUES (28891,   1, 'Armored Undead Body with two arms') /* Name */
      , (28891,  15, 'An armored undead''s torso and head, with two arms attached.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28891,   1,   33559003) /* Setup */
-     , (28891,   3,  536870932) /* SoundTable */
-     , (28891,   8,  100677092) /* Icon */
-     , (28891,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28891,   1, 0x020011DB) /* Setup */
+     , (28891,   3, 0x20000014) /* SoundTable */
+     , (28891,   8, 0x060035E4) /* Icon */
+     , (28891,  22, 0x3400002B) /* PhysicsEffectTable */;

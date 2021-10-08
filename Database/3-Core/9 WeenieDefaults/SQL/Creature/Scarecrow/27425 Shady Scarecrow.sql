@@ -69,14 +69,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27425,   1, 'Shady Scarecrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27425,   1,   33556868) /* Setup */
-     , (27425,   2,  150995101) /* MotionTable */
-     , (27425,   3,  536871014) /* SoundTable */
-     , (27425,   4,  805306412) /* CombatTable */
-     , (27425,   6,   67112967) /* PaletteBase */
-     , (27425,   7,  268436084) /* ClothingBase */
-     , (27425,   8,  100671141) /* Icon */
-     , (27425,  22,  872415368) /* PhysicsEffectTable */
+VALUES (27425,   1, 0x02000984) /* Setup */
+     , (27425,   2, 0x0900009D) /* MotionTable */
+     , (27425,   3, 0x20000066) /* SoundTable */
+     , (27425,   4, 0x3000002C) /* CombatTable */
+     , (27425,   6, 0x04001007) /* PaletteBase */
+     , (27425,   7, 0x10000274) /* ClothingBase */
+     , (27425,   8, 0x06001EA5) /* Icon */
+     , (27425,  22, 0x34000088) /* PhysicsEffectTable */
      , (27425,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -22,5 +22,5 @@ VALUES (15217,   1, 'Direvale Villas') /* Name */
      , (15217,  16, 'Welcome to Direvale Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15217,   1,   33557463) /* Setup */
-     , (15217,   8,  100668115) /* Icon */;
+VALUES (15217,   1, 0x02000BD7) /* Setup */
+     , (15217,   8, 0x060012D3) /* Icon */;

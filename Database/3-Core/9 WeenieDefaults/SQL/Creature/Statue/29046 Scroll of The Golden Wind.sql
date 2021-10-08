@@ -63,12 +63,12 @@ VALUES (29046,   1, 'Scroll of The Golden Wind') /* Name */
      , (29046,  15, 'A scroll imbued with the power to enhance a fellowship''s ability to regenerate and replenish their vigor. There appear to be four scrolls laid  out on a small dais.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29046,   1,   33558637) /* Setup */
-     , (29046,   2,  150995273) /* MotionTable */
-     , (29046,   3,  536871052) /* SoundTable */
-     , (29046,   4,  805306398) /* CombatTable */
-     , (29046,   8,  100675919) /* Icon */
-     , (29046,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (29046,   1, 0x0200106D) /* Setup */
+     , (29046,   2, 0x09000149) /* MotionTable */
+     , (29046,   3, 0x2000008C) /* SoundTable */
+     , (29046,   4, 0x3000001E) /* CombatTable */
+     , (29046,   8, 0x0600314F) /* Icon */
+     , (29046,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29046,   1, 380, 0, 0) /* Strength */

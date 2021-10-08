@@ -22,5 +22,5 @@ VALUES (19166,   1, 'Amarand Villas') /* Name */
      , (19166,  16, 'Welcome to Amarand Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19166,   1,   33557463) /* Setup */
-     , (19166,   8,  100668115) /* Icon */;
+VALUES (19166,   1, 0x02000BD7) /* Setup */
+     , (19166,   8, 0x060012D3) /* Icon */;

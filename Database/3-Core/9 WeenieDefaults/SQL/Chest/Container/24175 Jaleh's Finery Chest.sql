@@ -41,11 +41,11 @@ VALUES (24175,   1, 'Jaleh''s Finery Chest') /* Name */
      , (24175,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24175,   1,   33558320) /* Setup */
-     , (24175,   2,  150995235) /* MotionTable */
-     , (24175,   3,  536870945) /* SoundTable */
-     , (24175,   8,  100674276) /* Icon */
-     , (24175,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24175,   1, 0x02000F30) /* Setup */
+     , (24175,   2, 0x09000123) /* MotionTable */
+     , (24175,   3, 0x20000021) /* SoundTable */
+     , (24175,   8, 0x06002AE4) /* Icon */
+     , (24175,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24175, -1, 24174, 30, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Jaleh's Chain Shirt (24174) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

@@ -30,9 +30,9 @@ VALUES (14552,   1, 'Leather Straps') /* Name */
      , (14552,  15, 'A coil of strong leather straps, suitable for binding a drumhead to a shell.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14552,   1,   33554817) /* Setup */
-     , (14552,   3,  536870932) /* SoundTable */
-     , (14552,   6,   67111919) /* PaletteBase */
-     , (14552,   7,  268435832) /* ClothingBase */
-     , (14552,   8,  100672528) /* Icon */
-     , (14552,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14552,   1, 0x02000181) /* Setup */
+     , (14552,   3, 0x20000014) /* SoundTable */
+     , (14552,   6, 0x04000BEF) /* PaletteBase */
+     , (14552,   7, 0x10000178) /* ClothingBase */
+     , (14552,   8, 0x06002410) /* Icon */
+     , (14552,  22, 0x3400002B) /* PhysicsEffectTable */;

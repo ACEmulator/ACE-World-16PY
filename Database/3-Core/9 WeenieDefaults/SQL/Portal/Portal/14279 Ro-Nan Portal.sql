@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14279,   1, 'Ro-Nan Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14279,   1,   33554867) /* Setup */
-     , (14279,   2,  150994947) /* MotionTable */
-     , (14279,   8,  100667499) /* Icon */;
+VALUES (14279,   1, 0x020001B3) /* Setup */
+     , (14279,   2, 0x09000003) /* MotionTable */
+     , (14279,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (14279, 2, 0xAB30002D, 123.744, 108.458, 70.731, -0.694219, 0, -0, -0.719764) /* Destination */

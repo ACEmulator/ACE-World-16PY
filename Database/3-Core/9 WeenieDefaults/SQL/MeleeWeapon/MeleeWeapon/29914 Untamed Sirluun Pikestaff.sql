@@ -48,10 +48,10 @@ VALUES (29914,   1, 'Untamed Sirluun Pikestaff') /* Name */
      , (29914,  16, 'A beautifully detailed pikestaff crafted from the claw of an Untamed Siraluun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29914,   1,   33559105) /* Setup */
-     , (29914,   3,  536870932) /* SoundTable */
-     , (29914,   8,  100677339) /* Icon */
-     , (29914,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29914,   1, 0x02001241) /* Setup */
+     , (29914,   3, 0x20000014) /* SoundTable */
+     , (29914,   8, 0x060036DB) /* Icon */
+     , (29914,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29914,  1604,      2)  /* Aura of Defender Self V */

@@ -34,9 +34,9 @@ VALUES (19409,   1, 'New Sword Glyph') /* Name */
      , (19409,  16, 'A glyph with the image of a sword emblazoned upon it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19409,   1,   33556438) /* Setup */
-     , (19409,   3,  536870932) /* SoundTable */
-     , (19409,   6,   67111092) /* PaletteBase */
-     , (19409,   7,  268436386) /* ClothingBase */
-     , (19409,   8,  100672879) /* Icon */
-     , (19409,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19409,   1, 0x020007D6) /* Setup */
+     , (19409,   3, 0x20000014) /* SoundTable */
+     , (19409,   6, 0x040008B4) /* PaletteBase */
+     , (19409,   7, 0x100003A2) /* ClothingBase */
+     , (19409,   8, 0x0600256F) /* Icon */
+     , (19409,  22, 0x3400002B) /* PhysicsEffectTable */;

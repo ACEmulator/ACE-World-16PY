@@ -45,13 +45,13 @@ VALUES (10889,   1, 'Singularity Staff') /* Name */
      , (10889,  15, 'A staff imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10889,   1,   33557320) /* Setup */
-     , (10889,   3,  536870932) /* SoundTable */
-     , (10889,   6,   67111919) /* PaletteBase */
-     , (10889,   7,  268436242) /* ClothingBase */
-     , (10889,   8,  100672603) /* Icon */
-     , (10889,  22,  872415275) /* PhysicsEffectTable */
-     , (10889,  36,  234881044) /* MutateFilter */
+VALUES (10889,   1, 0x02000B48) /* Setup */
+     , (10889,   3, 0x20000014) /* SoundTable */
+     , (10889,   6, 0x04000BEF) /* PaletteBase */
+     , (10889,   7, 0x10000312) /* ClothingBase */
+     , (10889,   8, 0x0600245B) /* Icon */
+     , (10889,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (10889,  36, 0x0E000014) /* MutateFilter */
      , (10889,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

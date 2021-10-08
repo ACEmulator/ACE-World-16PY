@@ -64,12 +64,12 @@ VALUES (29775,   1, 'Instructions') /* Name */
      , (29775,  16, 'A sign with instructions on how to complete the puzzle.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29775,   1,   33556014) /* Setup */
-     , (29775,   2,  150995147) /* MotionTable */
-     , (29775,   3,  536871052) /* SoundTable */
-     , (29775,   4,  805306398) /* CombatTable */
-     , (29775,   8,  100668115) /* Icon */
-     , (29775,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (29775,   1, 0x0200062E) /* Setup */
+     , (29775,   2, 0x090000CB) /* MotionTable */
+     , (29775,   3, 0x2000008C) /* SoundTable */
+     , (29775,   4, 0x3000001E) /* CombatTable */
+     , (29775,   8, 0x060012D3) /* Icon */
+     , (29775,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29775,   1, 380, 0, 0) /* Strength */

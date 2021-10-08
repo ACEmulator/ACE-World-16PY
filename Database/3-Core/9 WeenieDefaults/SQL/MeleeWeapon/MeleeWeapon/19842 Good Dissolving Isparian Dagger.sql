@@ -49,12 +49,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19842,   1, 'Good Dissolving Isparian Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19842,   1,   33557739) /* Setup */
-     , (19842,   3,  536870932) /* SoundTable */
-     , (19842,   6,   67111919) /* PaletteBase */
-     , (19842,   7,  268436378) /* ClothingBase */
-     , (19842,   8,  100673035) /* Icon */
-     , (19842,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19842,   1, 0x02000CEB) /* Setup */
+     , (19842,   3, 0x20000014) /* SoundTable */
+     , (19842,   6, 0x04000BEF) /* PaletteBase */
+     , (19842,   7, 0x1000039A) /* ClothingBase */
+     , (19842,   8, 0x0600260B) /* Icon */
+     , (19842,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19842,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

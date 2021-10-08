@@ -31,9 +31,9 @@ VALUES (19528,   1, 'Superb Isparian Sword Ingot') /* Name */
      , (19528,  16, 'An diamond infused ingot, enhanced and stamped with an sword glyph.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19528,   1,   33555677) /* Setup */
-     , (19528,   3,  536870932) /* SoundTable */
-     , (19528,   6,   67111919) /* PaletteBase */
-     , (19528,   7,  268435723) /* ClothingBase */
-     , (19528,   8,  100672974) /* Icon */
-     , (19528,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19528,   1, 0x020004DD) /* Setup */
+     , (19528,   3, 0x20000014) /* SoundTable */
+     , (19528,   6, 0x04000BEF) /* PaletteBase */
+     , (19528,   7, 0x1000010B) /* ClothingBase */
+     , (19528,   8, 0x060025CE) /* Icon */
+     , (19528,  22, 0x3400002B) /* PhysicsEffectTable */;

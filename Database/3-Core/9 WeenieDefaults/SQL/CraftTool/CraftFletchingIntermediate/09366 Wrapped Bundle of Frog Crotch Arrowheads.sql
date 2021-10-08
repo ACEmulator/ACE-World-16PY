@@ -28,7 +28,7 @@ VALUES (9366,   1, 'Wrapped Bundle of Frog Crotch Arrowheads') /* Name */
      , (9366,  20, 'Wrapped Bundles of Frog Crotch Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9366,   1,   33557030) /* Setup */
-     , (9366,   3,  536870932) /* SoundTable */
-     , (9366,   8,  100671597) /* Icon */
-     , (9366,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9366,   1, 0x02000A26) /* Setup */
+     , (9366,   3, 0x20000014) /* SoundTable */
+     , (9366,   8, 0x0600206D) /* Icon */
+     , (9366,  22, 0x3400002B) /* PhysicsEffectTable */;

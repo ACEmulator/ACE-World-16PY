@@ -36,6 +36,6 @@ VALUES (28025,   1, 'Virulent Air') /* Name */
      , (28025,  17, 'The virulent air burns your lungs for %i points of damage!') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28025,   1,   33556024) /* Setup */
-     , (28025,   3,  536870996) /* SoundTable */
-     , (28025,   8,  100667465) /* Icon */;
+VALUES (28025,   1, 0x02000638) /* Setup */
+     , (28025,   3, 0x20000054) /* SoundTable */
+     , (28025,   8, 0x06001049) /* Icon */;

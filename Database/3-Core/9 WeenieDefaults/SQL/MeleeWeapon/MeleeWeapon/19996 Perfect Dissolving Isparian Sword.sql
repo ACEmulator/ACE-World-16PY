@@ -49,12 +49,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19996,   1, 'Perfect Dissolving Isparian Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19996,   1,   33556346) /* Setup */
-     , (19996,   3,  536870932) /* SoundTable */
-     , (19996,   6,   67111919) /* PaletteBase */
-     , (19996,   7,  268436385) /* ClothingBase */
-     , (19996,   8,  100672950) /* Icon */
-     , (19996,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19996,   1, 0x0200077A) /* Setup */
+     , (19996,   3, 0x20000014) /* SoundTable */
+     , (19996,   6, 0x04000BEF) /* PaletteBase */
+     , (19996,   7, 0x100003A1) /* ClothingBase */
+     , (19996,   8, 0x060025B6) /* Icon */
+     , (19996,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19996,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

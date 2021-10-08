@@ -36,6 +36,6 @@ VALUES (7786,   1, 'Volcanic Vent') /* Name */
      , (7786,  17, 'The volcanic heat burns you for %i points of damage!') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7786,   1,   33556544) /* Setup */
-     , (7786,   3,  536870994) /* SoundTable */
-     , (7786,   8,  100669743) /* Icon */;
+VALUES (7786,   1, 0x02000840) /* Setup */
+     , (7786,   3, 0x20000052) /* SoundTable */
+     , (7786,   8, 0x0600192F) /* Icon */;

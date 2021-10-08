@@ -22,5 +22,5 @@ VALUES (19384,   1, 'Gajin Dwellings') /* Name */
      , (19384,  16, 'Gajin Dwellings') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19384,   1,   33557697) /* Setup */
-     , (19384,   8,  100667499) /* Icon */;
+VALUES (19384,   1, 0x02000CC1) /* Setup */
+     , (19384,   8, 0x0600106B) /* Icon */;

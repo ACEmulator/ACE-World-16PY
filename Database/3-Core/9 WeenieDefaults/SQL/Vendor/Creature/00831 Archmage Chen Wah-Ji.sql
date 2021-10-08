@@ -74,11 +74,11 @@ VALUES (831,   1, 'Archmage Chen Wah-Ji') /* Name */
      , (831,  24, 'Shoushi') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (831,   1,   33554510) /* Setup */
-     , (831,   2,  150994945) /* MotionTable */
-     , (831,   3,  536870914) /* SoundTable */
-     , (831,   4,  805306368) /* CombatTable */
-     , (831,   8,  100667446) /* Icon */;
+VALUES (831,   1, 0x0200004E) /* Setup */
+     , (831,   2, 0x09000001) /* MotionTable */
+     , (831,   3, 0x20000002) /* SoundTable */
+     , (831,   4, 0x30000000) /* CombatTable */
+     , (831,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (831,   1,  45, 0, 0) /* Strength */

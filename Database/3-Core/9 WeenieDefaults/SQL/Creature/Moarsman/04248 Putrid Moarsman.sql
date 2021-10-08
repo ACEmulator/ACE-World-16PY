@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4248,   1, 'Putrid Moarsman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4248,   1,   33556882) /* Setup */
-     , (4248,   2,  150995104) /* MotionTable */
-     , (4248,   3,  536871018) /* SoundTable */
-     , (4248,   4,  805306403) /* CombatTable */
-     , (4248,   6,   67112872) /* PaletteBase */
-     , (4248,   7,  268436086) /* ClothingBase */
-     , (4248,   8,  100671185) /* Icon */
-     , (4248,  22,  872415337) /* PhysicsEffectTable */
+VALUES (4248,   1, 0x02000992) /* Setup */
+     , (4248,   2, 0x090000A0) /* MotionTable */
+     , (4248,   3, 0x2000006A) /* SoundTable */
+     , (4248,   4, 0x30000023) /* CombatTable */
+     , (4248,   6, 0x04000FA8) /* PaletteBase */
+     , (4248,   7, 0x10000276) /* ClothingBase */
+     , (4248,   8, 0x06001ED1) /* Icon */
+     , (4248,  22, 0x34000069) /* PhysicsEffectTable */
      , (4248,  30,         84) /* PhysicsScript - BreatheFlame */
      , (4248,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 

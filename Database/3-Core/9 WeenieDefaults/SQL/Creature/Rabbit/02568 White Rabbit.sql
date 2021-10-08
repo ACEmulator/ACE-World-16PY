@@ -72,14 +72,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2568,   1, 'White Rabbit') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2568,   1,   33555579) /* Setup */
-     , (2568,   2,  150995042) /* MotionTable */
-     , (2568,   3,  536870973) /* SoundTable */
-     , (2568,   4,  805306397) /* CombatTable */
-     , (2568,   6,   67109300) /* PaletteBase */
-     , (2568,   7,  268435725) /* ClothingBase */
-     , (2568,   8,  100669116) /* Icon */
-     , (2568,  22,  872415277) /* PhysicsEffectTable */
+VALUES (2568,   1, 0x0200047B) /* Setup */
+     , (2568,   2, 0x09000062) /* MotionTable */
+     , (2568,   3, 0x2000003D) /* SoundTable */
+     , (2568,   4, 0x3000001D) /* CombatTable */
+     , (2568,   6, 0x040001B4) /* PaletteBase */
+     , (2568,   7, 0x1000010D) /* ClothingBase */
+     , (2568,   8, 0x060016BC) /* Icon */
+     , (2568,  22, 0x3400002D) /* PhysicsEffectTable */
      , (2568,  30,         87) /* PhysicsScript - BreatheLightning */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

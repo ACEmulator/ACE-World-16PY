@@ -31,9 +31,9 @@ VALUES (7066,   1, 'Crossbow Stock with Stave') /* Name */
      , (7066,  16, 'A composite stave mounted on a crossbow stock.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7066,   1,   33556597) /* Setup */
-     , (7066,   3,  536870932) /* SoundTable */
-     , (7066,   6,   67112869) /* PaletteBase */
-     , (7066,   7,  268436005) /* ClothingBase */
-     , (7066,   8,  100670695) /* Icon */
-     , (7066,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7066,   1, 0x02000875) /* Setup */
+     , (7066,   3, 0x20000014) /* SoundTable */
+     , (7066,   6, 0x04000FA5) /* PaletteBase */
+     , (7066,   7, 0x10000225) /* ClothingBase */
+     , (7066,   8, 0x06001CE7) /* Icon */
+     , (7066,  22, 0x3400002B) /* PhysicsEffectTable */;

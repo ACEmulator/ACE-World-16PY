@@ -21,7 +21,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9025,   1, 'Zairente''s Cooking Pot') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9025,   1,   33555972) /* Setup */
-     , (9025,   3,  536870932) /* SoundTable */
-     , (9025,   8,  100669994) /* Icon */
-     , (9025,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9025,   1, 0x02000604) /* Setup */
+     , (9025,   3, 0x20000014) /* SoundTable */
+     , (9025,   8, 0x06001A2A) /* Icon */
+     , (9025,  22, 0x3400002B) /* PhysicsEffectTable */;

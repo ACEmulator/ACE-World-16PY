@@ -22,5 +22,5 @@ VALUES (1062,   1, 'Qalabar: 3 miles') /* Name */
      , (1062,  16, 'Village of Qalabar: 3 miles.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1062,   1,   33555985) /* Setup */
-     , (1062,   8,  100668115) /* Icon */;
+VALUES (1062,   1, 0x02000611) /* Setup */
+     , (1062,   8, 0x060012D3) /* Icon */;

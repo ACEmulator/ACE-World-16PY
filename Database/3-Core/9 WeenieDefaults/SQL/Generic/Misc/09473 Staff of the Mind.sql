@@ -26,7 +26,7 @@ VALUES (9473,   1, 'Staff of the Mind') /* Name */
      , (9473,  15, 'A Lugian gift, traded in return for the Sceptre of the Mind') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9473,   1,   33557010) /* Setup */
-     , (9473,   3,  536870932) /* SoundTable */
-     , (9473,   8,  100671497) /* Icon */
-     , (9473,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9473,   1, 0x02000A12) /* Setup */
+     , (9473,   3, 0x20000014) /* SoundTable */
+     , (9473,   8, 0x06002009) /* Icon */
+     , (9473,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -49,10 +49,10 @@ VALUES (21358,   1, 'Phantom Spear') /* Name */
      , (21358,  16, 'A spear with a ghostly blade crafted from pure chorizite, resistant to any enchantment. (Note: This weapon is unenchantable.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21358,   1,   33556653) /* Setup */
-     , (21358,   3,  536870932) /* SoundTable */
-     , (21358,   6,   67111919) /* PaletteBase */
-     , (21358,   7,  268435768) /* ClothingBase */
-     , (21358,   8,  100669005) /* Icon */
-     , (21358,  22,  872415275) /* PhysicsEffectTable */
-     , (21358,  36,  234881044) /* MutateFilter */;
+VALUES (21358,   1, 0x020008AD) /* Setup */
+     , (21358,   3, 0x20000014) /* SoundTable */
+     , (21358,   6, 0x04000BEF) /* PaletteBase */
+     , (21358,   7, 0x10000138) /* ClothingBase */
+     , (21358,   8, 0x0600164D) /* Icon */
+     , (21358,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (21358,  36, 0x0E000014) /* MutateFilter */;

@@ -26,9 +26,9 @@ VALUES (9260,   1, 'Small Sclavus Hide') /* Name */
      , (9260,  16, 'A small Sclavus hide.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9260,   1,   33554817) /* Setup */
-     , (9260,   3,  536870932) /* SoundTable */
-     , (9260,   6,   67111919) /* PaletteBase */
-     , (9260,   7,  268435832) /* ClothingBase */
-     , (9260,   8,  100671415) /* Icon */
-     , (9260,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9260,   1, 0x02000181) /* Setup */
+     , (9260,   3, 0x20000014) /* SoundTable */
+     , (9260,   6, 0x04000BEF) /* PaletteBase */
+     , (9260,   7, 0x10000178) /* ClothingBase */
+     , (9260,   8, 0x06001FB7) /* Icon */
+     , (9260,  22, 0x3400002B) /* PhysicsEffectTable */;

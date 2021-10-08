@@ -31,9 +31,9 @@ VALUES (7075,   1, 'Twisted Drudge Ravener Guts') /* Name */
      , (7075,  16, 'A pair of Drudge Ravener guts twisted together.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7075,   1,   33554817) /* Setup */
-     , (7075,   3,  536870932) /* SoundTable */
-     , (7075,   6,   67111919) /* PaletteBase */
-     , (7075,   7,  268435832) /* ClothingBase */
-     , (7075,   8,  100670678) /* Icon */
-     , (7075,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7075,   1, 0x02000181) /* Setup */
+     , (7075,   3, 0x20000014) /* SoundTable */
+     , (7075,   6, 0x04000BEF) /* PaletteBase */
+     , (7075,   7, 0x10000178) /* ClothingBase */
+     , (7075,   8, 0x06001CD6) /* Icon */
+     , (7075,  22, 0x3400002B) /* PhysicsEffectTable */;

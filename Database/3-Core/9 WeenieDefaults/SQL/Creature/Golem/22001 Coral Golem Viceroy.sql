@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22001,   1, 'Coral Golem Viceroy') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22001,   1,   33556426) /* Setup */
-     , (22001,   2,  150995073) /* MotionTable */
-     , (22001,   3,  536870933) /* SoundTable */
-     , (22001,   4,  805306376) /* CombatTable */
-     , (22001,   6,   67112775) /* PaletteBase */
-     , (22001,   7,  268436009) /* ClothingBase */
-     , (22001,   8,  100667940) /* Icon */
-     , (22001,  22,  872415323) /* PhysicsEffectTable */
+VALUES (22001,   1, 0x020007CA) /* Setup */
+     , (22001,   2, 0x09000081) /* MotionTable */
+     , (22001,   3, 0x20000015) /* SoundTable */
+     , (22001,   4, 0x30000008) /* CombatTable */
+     , (22001,   6, 0x04000F47) /* PaletteBase */
+     , (22001,   7, 0x10000229) /* ClothingBase */
+     , (22001,   8, 0x06001224) /* Icon */
+     , (22001,  22, 0x3400005B) /* PhysicsEffectTable */
      , (22001,  31,      21403) /* LinkedPortalOne - Citadel Valley */
      , (22001,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 

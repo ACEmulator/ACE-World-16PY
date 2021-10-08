@@ -44,9 +44,9 @@ VALUES (22252,   1, 'Mangled Great Pumpkin') /* Name */
      , (22252,  15, 'A sad attempt to make something of a pumpkin.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22252,   1,   33556809) /* Setup */
-     , (22252,   3,  536870932) /* SoundTable */
-     , (22252,   6,   67112968) /* PaletteBase */
-     , (22252,   7,  268436045) /* ClothingBase */
-     , (22252,   8,  100671021) /* Icon */
-     , (22252,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22252,   1, 0x02000949) /* Setup */
+     , (22252,   3, 0x20000014) /* SoundTable */
+     , (22252,   6, 0x04001008) /* PaletteBase */
+     , (22252,   7, 0x1000024D) /* ClothingBase */
+     , (22252,   8, 0x06001E2D) /* Icon */
+     , (22252,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -29,5 +29,5 @@ VALUES (28906,   1, 'Cinnamon Dough') /* Name */
      , (28906,  20, 'Batches of Cinnamon Dough') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28906,   1,   33557505) /* Setup */
-     , (28906,   8,  100677046) /* Icon */;
+VALUES (28906,   1, 0x02000C01) /* Setup */
+     , (28906,   8, 0x060035B6) /* Icon */;

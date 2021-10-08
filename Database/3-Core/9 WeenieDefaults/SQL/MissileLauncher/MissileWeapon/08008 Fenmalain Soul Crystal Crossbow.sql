@@ -52,12 +52,12 @@ VALUES (8008,   1, 'Fenmalain Soul Crystal Crossbow') /* Name */
      , (8008,  16, 'A crossbow imbued with the essence of the Fenmalain Soul Crystal. Uses crystal-tipped quarrels.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8008,   1,   33554733) /* Setup */
-     , (8008,   3,  536870932) /* SoundTable */
-     , (8008,   6,   67111919) /* PaletteBase */
-     , (8008,   7,  268436042) /* ClothingBase */
-     , (8008,   8,  100671004) /* Icon */
-     , (8008,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8008,   1, 0x0200012D) /* Setup */
+     , (8008,   3, 0x20000014) /* SoundTable */
+     , (8008,   6, 0x04000BEF) /* PaletteBase */
+     , (8008,   7, 0x1000024A) /* ClothingBase */
+     , (8008,   8, 0x06001E1C) /* Icon */
+     , (8008,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8008,  37,          3) /* ItemSkillLimit - Crossbow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

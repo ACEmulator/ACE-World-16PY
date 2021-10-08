@@ -30,10 +30,10 @@ VALUES (20963,   1, 'Prismatic Pea') /* Name */
      , (20963,  16, 'A concentrated prismatic pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20963,   1,   33555445) /* Setup */
-     , (20963,   3,  536870932) /* SoundTable */
-     , (20963,   6,   67111410) /* PaletteBase */
-     , (20963,   7,  268436399) /* ClothingBase */
-     , (20963,   8,  100673067) /* Icon */
-     , (20963,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20963,   1, 0x020003F5) /* Setup */
+     , (20963,   3, 0x20000014) /* SoundTable */
+     , (20963,   6, 0x040009F2) /* PaletteBase */
+     , (20963,   7, 0x100003AF) /* ClothingBase */
+     , (20963,   8, 0x0600262B) /* Icon */
+     , (20963,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20963,  29,        189) /* SpellComponent */;

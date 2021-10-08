@@ -27,7 +27,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15069,   1, 'Cottage') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15069,   1,   33557058) /* Setup */
-     , (15069,   8,  100671873) /* Icon */
+VALUES (15069,   1, 0x02000A42) /* Setup */
+     , (15069,   8, 0x06002181) /* Icon */
      , (15069,  42,       2582) /* HouseId */
      , (15069,  44,        152) /* RestrictionEffect - RestrictionEffectBlue */;

@@ -65,13 +65,13 @@ VALUES (24574,   1, 'Pagrok the Stone Collector') /* Name */
      , (24574,   5, 'Trophy Collector') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24574,   1,   33557003) /* Setup */
-     , (24574,   2,  150994950) /* MotionTable */
-     , (24574,   3,  536870922) /* SoundTable */
-     , (24574,   4,  805306371) /* CombatTable */
-     , (24574,   6,   67113158) /* PaletteBase */
-     , (24574,   7,  268436602) /* ClothingBase */
-     , (24574,   8,  100667447) /* Icon */;
+VALUES (24574,   1, 0x02000A0B) /* Setup */
+     , (24574,   2, 0x09000006) /* MotionTable */
+     , (24574,   3, 0x2000000A) /* SoundTable */
+     , (24574,   4, 0x30000003) /* CombatTable */
+     , (24574,   6, 0x040010C6) /* PaletteBase */
+     , (24574,   7, 0x1000047A) /* ClothingBase */
+     , (24574,   8, 0x06001037) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24574,   1,  80, 0, 0) /* Strength */

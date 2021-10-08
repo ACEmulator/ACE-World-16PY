@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25345,   1, 'Falatacot Abbess') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25345,   1,   33558437) /* Setup */
-     , (25345,   2,  150994967) /* MotionTable */
-     , (25345,   3,  536870934) /* SoundTable */
-     , (25345,   4,  805306368) /* CombatTable */
-     , (25345,   6,   67114480) /* PaletteBase */
-     , (25345,   7,  268436672) /* ClothingBase */
-     , (25345,   8,  100674805) /* Icon */
-     , (25345,  22,  872415272) /* PhysicsEffectTable */
+VALUES (25345,   1, 0x02000FA5) /* Setup */
+     , (25345,   2, 0x09000017) /* MotionTable */
+     , (25345,   3, 0x20000016) /* SoundTable */
+     , (25345,   4, 0x30000000) /* CombatTable */
+     , (25345,   6, 0x040015F0) /* PaletteBase */
+     , (25345,   7, 0x100004C0) /* ClothingBase */
+     , (25345,   8, 0x06002CF5) /* Icon */
+     , (25345,  22, 0x34000028) /* PhysicsEffectTable */
      , (25345,  32,        447) /* WieldedTreasureType - 
                                    Wield Khopesh (25500) | Probability: 98% */
      , (25345,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;

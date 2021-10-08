@@ -64,12 +64,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14877,   1, 'Tsuric') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14877,   1,   33557588) /* Setup */
-     , (14877,   2,  150995087) /* MotionTable */
-     , (14877,   3,  536871002) /* SoundTable */
-     , (14877,   4,  805306368) /* CombatTable */
-     , (14877,   8,  100672513) /* Icon */
-     , (14877,  22,  872415349) /* PhysicsEffectTable */
+VALUES (14877,   1, 0x02000C54) /* Setup */
+     , (14877,   2, 0x0900008F) /* MotionTable */
+     , (14877,   3, 0x2000005A) /* SoundTable */
+     , (14877,   4, 0x30000000) /* CombatTable */
+     , (14877,   8, 0x06002401) /* Icon */
+     , (14877,  22, 0x34000075) /* PhysicsEffectTable */
      , (14877,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

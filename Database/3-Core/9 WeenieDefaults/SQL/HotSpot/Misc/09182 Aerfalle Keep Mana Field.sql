@@ -35,6 +35,6 @@ VALUES (9182,   1, 'Aerfalle Keep Mana Field') /* Name */
      , (9182,  17, 'You stagger as %i points of mana are drained by the mysterious crystal! You should leave this room at once!') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9182,   1,   33556024) /* Setup */
-     , (9182,   3,  536871008) /* SoundTable */
-     , (9182,   8,  100667465) /* Icon */;
+VALUES (9182,   1, 0x02000638) /* Setup */
+     , (9182,   3, 0x20000060) /* SoundTable */
+     , (9182,   8, 0x06001049) /* Icon */;

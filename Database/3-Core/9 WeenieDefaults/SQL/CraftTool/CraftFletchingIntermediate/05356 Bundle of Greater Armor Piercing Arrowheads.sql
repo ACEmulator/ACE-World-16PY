@@ -27,7 +27,7 @@ VALUES (5356,   1, 'Bundle of Greater Armor Piercing Arrowheads') /* Name */
      , (5356,  20, 'Bundles of Greater Armor Piercing Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5356,   1,   33555958) /* Setup */
-     , (5356,   3,  536870932) /* SoundTable */
-     , (5356,   8,  100670211) /* Icon */
-     , (5356,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5356,   1, 0x020005F6) /* Setup */
+     , (5356,   3, 0x20000014) /* SoundTable */
+     , (5356,   8, 0x06001B03) /* Icon */
+     , (5356,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27492,   1, 'Drudge Bloodletter') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27492,   1,   33556445) /* Setup */
-     , (27492,   2,  150994952) /* MotionTable */
-     , (27492,   3,  536870919) /* SoundTable */
-     , (27492,   4,  805306372) /* CombatTable */
-     , (27492,   6,   67112812) /* PaletteBase */
-     , (27492,   7,  268436614) /* ClothingBase */
-     , (27492,   8,  100667445) /* Icon */
-     , (27492,  22,  872415258) /* PhysicsEffectTable */
+VALUES (27492,   1, 0x020007DD) /* Setup */
+     , (27492,   2, 0x09000008) /* MotionTable */
+     , (27492,   3, 0x20000007) /* SoundTable */
+     , (27492,   4, 0x30000004) /* CombatTable */
+     , (27492,   6, 0x04000F6C) /* PaletteBase */
+     , (27492,   7, 0x10000486) /* ClothingBase */
+     , (27492,   8, 0x06001035) /* Icon */
+     , (27492,  22, 0x3400001A) /* PhysicsEffectTable */
      , (27492,  32,        297) /* WieldedTreasureType - 
                                    Wield Tachi (23699) | Probability: 33%
                                    Wield Yaoji (23709) | Probability: 33%

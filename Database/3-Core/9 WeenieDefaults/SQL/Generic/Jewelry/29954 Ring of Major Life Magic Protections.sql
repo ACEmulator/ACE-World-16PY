@@ -32,13 +32,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29954,   1, 'Ring of Major Life Magic Protections') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29954,   1,   33554691) /* Setup */
-     , (29954,   3,  536870932) /* SoundTable */
-     , (29954,   6,   67111919) /* PaletteBase */
-     , (29954,   7,  268436318) /* ClothingBase */
-     , (29954,   8,  100672480) /* Icon */
-     , (29954,  22,  872415275) /* PhysicsEffectTable */
-     , (29954,  36,  234881046) /* MutateFilter */;
+VALUES (29954,   1, 0x02000103) /* Setup */
+     , (29954,   3, 0x20000014) /* SoundTable */
+     , (29954,   6, 0x04000BEF) /* PaletteBase */
+     , (29954,   7, 0x1000035E) /* ClothingBase */
+     , (29954,   8, 0x060023E0) /* Icon */
+     , (29954,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29954,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29954,  2624,      2)  /* Major Mana Gain */

@@ -74,11 +74,11 @@ VALUES (12179,   1, 'Mu''maka the Appraiser') /* Name */
      , (12179,  24, 'Uziz') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12179,   1,   33554510) /* Setup */
-     , (12179,   2,  150994945) /* MotionTable */
-     , (12179,   3,  536870914) /* SoundTable */
-     , (12179,   4,  805306368) /* CombatTable */
-     , (12179,   8,  100667446) /* Icon */;
+VALUES (12179,   1, 0x0200004E) /* Setup */
+     , (12179,   2, 0x09000001) /* MotionTable */
+     , (12179,   3, 0x20000002) /* SoundTable */
+     , (12179,   4, 0x30000000) /* CombatTable */
+     , (12179,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12179,   1, 160, 0, 0) /* Strength */

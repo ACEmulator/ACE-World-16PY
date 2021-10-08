@@ -27,10 +27,10 @@ VALUES (29807,   1, 'Title Token ''Kiree Killer''') /* Name */
      , (29807,  15, 'You may turn this token in to Guard Fassel in Cragstone to change your title to ''Kiree Killer''.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29807,   1,   33557280) /* Setup */
-     , (29807,   3,  536870932) /* SoundTable */
-     , (29807,   6,   67111092) /* PaletteBase */
-     , (29807,   7,  268436298) /* ClothingBase */
-     , (29807,   8,  100677158) /* Icon */
-     , (29807,  22,  872415275) /* PhysicsEffectTable */
-     , (29807,  36,  234881046) /* MutateFilter */;
+VALUES (29807,   1, 0x02000B20) /* Setup */
+     , (29807,   3, 0x20000014) /* SoundTable */
+     , (29807,   6, 0x040008B4) /* PaletteBase */
+     , (29807,   7, 0x1000034A) /* ClothingBase */
+     , (29807,   8, 0x06003626) /* Icon */
+     , (29807,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29807,  36, 0x0E000016) /* MutateFilter */;

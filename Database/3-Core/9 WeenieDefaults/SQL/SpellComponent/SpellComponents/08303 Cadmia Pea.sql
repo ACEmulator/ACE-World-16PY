@@ -31,10 +31,10 @@ VALUES (8303,   1, 'Cadmia Pea') /* Name */
      , (8303,  16, 'A concentrated cadmia pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8303,   1,   33555209) /* Setup */
-     , (8303,   3,  536870932) /* SoundTable */
-     , (8303,   6,   67111919) /* PaletteBase */
-     , (8303,   7,  268435719) /* ClothingBase */
-     , (8303,   8,  100671064) /* Icon */
-     , (8303,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8303,   1, 0x02000309) /* Setup */
+     , (8303,   3, 0x20000014) /* SoundTable */
+     , (8303,   6, 0x04000BEF) /* PaletteBase */
+     , (8303,   7, 0x10000107) /* ClothingBase */
+     , (8303,   8, 0x06001E58) /* Icon */
+     , (8303,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8303,  29,        150) /* SpellComponent */;

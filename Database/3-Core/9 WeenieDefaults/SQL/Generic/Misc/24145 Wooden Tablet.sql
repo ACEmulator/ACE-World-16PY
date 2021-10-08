@@ -27,9 +27,9 @@ VALUES (24145,   1, 'Wooden Tablet') /* Name */
      , (24145,  15, 'A piece of wood with the following inscription: Wknuwd ftpsfvv zqnwv jfvw ti wkj ejffk ituw. Ituwd ftpsfvv zqnwv qtuwk ti wkfw vstw, wkjuj nq wkj euzvk, onjv wkj jfwjzfd.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24145,   1,   33554817) /* Setup */
-     , (24145,   3,  536870932) /* SoundTable */
-     , (24145,   6,   67111919) /* PaletteBase */
-     , (24145,   7,  268435832) /* ClothingBase */
-     , (24145,   8,  100676644) /* Icon */
-     , (24145,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24145,   1, 0x02000181) /* Setup */
+     , (24145,   3, 0x20000014) /* SoundTable */
+     , (24145,   6, 0x04000BEF) /* PaletteBase */
+     , (24145,   7, 0x10000178) /* ClothingBase */
+     , (24145,   8, 0x06003424) /* Icon */
+     , (24145,  22, 0x3400002B) /* PhysicsEffectTable */;

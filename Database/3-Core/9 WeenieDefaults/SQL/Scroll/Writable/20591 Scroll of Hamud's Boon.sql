@@ -24,7 +24,7 @@ VALUES (20591,   1, 'Scroll of Hamud''s Boon') /* Name */
      , (20591,  15, 'When learned, this spell increases the target''s Unarmed Combat skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20591,   1,   33554826) /* Setup */
-     , (20591,   8,  100676478) /* Icon */
-     , (20591,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20591,   1, 0x0200018A) /* Setup */
+     , (20591,   8, 0x0600337E) /* Icon */
+     , (20591,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20591,  28,       2315) /* Spell - Light Weapon Mastery Other VII */;

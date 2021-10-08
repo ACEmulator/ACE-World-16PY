@@ -35,7 +35,7 @@ VALUES (26514,   1, 'Satchel with Offerings') /* Name */
      , (26514,  16, 'A satchel with offerings enclosed.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26514,   1,   33554817) /* Setup */
-     , (26514,   3,  536870932) /* SoundTable */
-     , (26514,   8,  100675796) /* Icon */
-     , (26514,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (26514,   1, 0x02000181) /* Setup */
+     , (26514,   3, 0x20000014) /* SoundTable */
+     , (26514,   8, 0x060030D4) /* Icon */
+     , (26514,  22, 0x3400002B) /* PhysicsEffectTable */;

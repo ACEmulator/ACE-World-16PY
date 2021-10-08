@@ -65,10 +65,10 @@ VALUES (24067,   1, 'Sword of Frozen Fury') /* Name */
      , (24067,  16, 'A sword on a glowing dais.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24067,   1,   33558263) /* Setup */
-     , (24067,   2,  150995233) /* MotionTable */
-     , (24067,   3,  536870932) /* SoundTable */
-     , (24067,   8,  100674252) /* Icon */;
+VALUES (24067,   1, 0x02000EF7) /* Setup */
+     , (24067,   2, 0x09000121) /* MotionTable */
+     , (24067,   3, 0x20000014) /* SoundTable */
+     , (24067,   8, 0x06002ACC) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24067,   1, 200, 0, 0) /* Strength */

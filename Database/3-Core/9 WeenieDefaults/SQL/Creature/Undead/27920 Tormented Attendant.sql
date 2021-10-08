@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27920,   1, 'Tormented Attendant') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27920,   1,   33558814) /* Setup */
-     , (27920,   2,  150994967) /* MotionTable */
-     , (27920,   3,  536870934) /* SoundTable */
-     , (27920,   4,  805306368) /* CombatTable */
-     , (27920,   6,   67115246) /* PaletteBase */
-     , (27920,   7,  268436834) /* ClothingBase */
-     , (27920,   8,  100676639) /* Icon */
-     , (27920,  22,  872415272) /* PhysicsEffectTable */
+VALUES (27920,   1, 0x0200111E) /* Setup */
+     , (27920,   2, 0x09000017) /* MotionTable */
+     , (27920,   3, 0x20000016) /* SoundTable */
+     , (27920,   4, 0x30000000) /* CombatTable */
+     , (27920,   6, 0x040018EE) /* PaletteBase */
+     , (27920,   7, 0x10000562) /* ClothingBase */
+     , (27920,   8, 0x0600341F) /* Icon */
+     , (27920,  22, 0x34000028) /* PhysicsEffectTable */
      , (27920,  32,        446) /* WieldedTreasureType - 
                                    Wield Khopesh (25499) | Probability: 98% */
      , (27920,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;

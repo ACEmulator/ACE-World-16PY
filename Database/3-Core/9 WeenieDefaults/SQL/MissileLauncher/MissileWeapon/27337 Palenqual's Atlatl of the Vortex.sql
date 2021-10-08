@@ -51,12 +51,12 @@ VALUES (27337,   1, 'Palenqual''s Atlatl of the Vortex') /* Name */
      , (27337,  16, 'An atlatl fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27337,   1,   33558660) /* Setup */
-     , (27337,   3,  536870932) /* SoundTable */
-     , (27337,   6,   67113336) /* PaletteBase */
-     , (27337,   7,  268436253) /* ClothingBase */
-     , (27337,   8,  100676387) /* Icon */
-     , (27337,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27337,   1, 0x02001084) /* Setup */
+     , (27337,   3, 0x20000014) /* SoundTable */
+     , (27337,   6, 0x04001178) /* PaletteBase */
+     , (27337,   7, 0x1000031D) /* ClothingBase */
+     , (27337,   8, 0x06003323) /* Icon */
+     , (27337,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27337,  2438,      2)  /* Lesser Rockslide */

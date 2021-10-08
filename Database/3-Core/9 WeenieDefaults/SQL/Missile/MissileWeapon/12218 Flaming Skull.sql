@@ -43,7 +43,7 @@ VALUES (12218,   1, 'Flaming Skull') /* Name */
      , (12218,  16, 'It''s a skull, that burns within with a strange supernatural flame.  You can sense a strange, latent magic within it.  When it is thrown in combat, it will mystically replenish itself, tapping into the magic until it is exhausted.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12218,   1,   33557366) /* Setup */
-     , (12218,   3,  536870932) /* SoundTable */
-     , (12218,   8,  100672174) /* Icon */
-     , (12218,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12218,   1, 0x02000B76) /* Setup */
+     , (12218,   3, 0x20000014) /* SoundTable */
+     , (12218,   8, 0x060022AE) /* Icon */
+     , (12218,  22, 0x3400002B) /* PhysicsEffectTable */;

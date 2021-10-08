@@ -36,13 +36,13 @@ VALUES (27581,   1, 'Ring of Piercing Protection') /* Name */
      , (27581,  15, 'A ring of piercing protection, given by Behdo Yii for completing the Harvester quest.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27581,   1,   33554691) /* Setup */
-     , (27581,   3,  536870932) /* SoundTable */
-     , (27581,   6,   67111919) /* PaletteBase */
-     , (27581,   7,  268435753) /* ClothingBase */
-     , (27581,   8,  100668662) /* Icon */
-     , (27581,  22,  872415275) /* PhysicsEffectTable */
-     , (27581,  36,  234881046) /* MutateFilter */;
+VALUES (27581,   1, 0x02000103) /* Setup */
+     , (27581,   3, 0x20000014) /* SoundTable */
+     , (27581,   6, 0x04000BEF) /* PaletteBase */
+     , (27581,   7, 0x10000129) /* ClothingBase */
+     , (27581,   8, 0x060014F6) /* Icon */
+     , (27581,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27581,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27581,   240,      2)  /* Invulnerability Other II */

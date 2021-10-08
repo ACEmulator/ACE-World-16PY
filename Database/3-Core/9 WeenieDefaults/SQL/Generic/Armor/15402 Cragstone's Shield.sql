@@ -39,9 +39,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15402,   1, 'Cragstone''s Shield') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15402,   1,   33554788) /* Setup */
-     , (15402,   3,  536870932) /* SoundTable */
-     , (15402,   6,   67111919) /* PaletteBase */
-     , (15402,   7,  268436349) /* ClothingBase */
-     , (15402,   8,  100668151) /* Icon */
-     , (15402,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15402,   1, 0x02000164) /* Setup */
+     , (15402,   3, 0x20000014) /* SoundTable */
+     , (15402,   6, 0x04000BEF) /* PaletteBase */
+     , (15402,   7, 0x1000037D) /* ClothingBase */
+     , (15402,   8, 0x060012F7) /* Icon */
+     , (15402,  22, 0x3400002B) /* PhysicsEffectTable */;

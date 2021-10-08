@@ -28,10 +28,10 @@ VALUES (12280,   1, 'Singular Obsidian Message Shard') /* Name */
      , (12280,  16, 'A piece of obsidian etched with arcane symbols.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12280,   1,   33555391) /* Setup */
-     , (12280,   3,  536870932) /* SoundTable */
-     , (12280,   8,  100671183) /* Icon */
-     , (12280,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12280,   1, 0x020003BF) /* Setup */
+     , (12280,   3, 0x20000014) /* SoundTable */
+     , (12280,   8, 0x06001ECF) /* Icon */
+     , (12280,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (12280, 1, 1000);

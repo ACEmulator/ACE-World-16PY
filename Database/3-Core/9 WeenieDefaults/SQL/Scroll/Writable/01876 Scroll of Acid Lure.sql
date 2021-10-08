@@ -25,7 +25,7 @@ VALUES (1876,   1, 'Scroll of Acid Lure') /* Name */
      , (1876,  16, 'When learned, this spell decreases a shield or piece of armor''s resistance to acid damage by 10%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1876,   1,   33554826) /* Setup */
-     , (1876,   8,  100676663) /* Icon */
-     , (1876,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1876,   1, 0x0200018A) /* Setup */
+     , (1876,   8, 0x06003437) /* Icon */
+     , (1876,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1876,  28,       1499) /* Spell - Acid Lure I */;

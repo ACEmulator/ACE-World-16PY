@@ -27,10 +27,10 @@ VALUES (14444,   1, 'Dame Tsaya''s Letter to Sir Rylanan') /* Name */
      , (14444,  15, 'A letter from Dame Tsaya to Sir Rylanan, in Holtburg.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14444,   1,   33554773) /* Setup */
-     , (14444,   3,  536870932) /* SoundTable */
-     , (14444,   8,  100672451) /* Icon */
-     , (14444,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14444,   1, 0x02000155) /* Setup */
+     , (14444,   3, 0x20000014) /* SoundTable */
+     , (14444,   8, 0x060023C3) /* Icon */
+     , (14444,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (14444, 5, 1000);

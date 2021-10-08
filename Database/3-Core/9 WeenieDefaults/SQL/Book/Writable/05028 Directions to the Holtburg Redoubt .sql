@@ -23,10 +23,10 @@ VALUES (5028,   1, 'Directions to the Holtburg Redoubt ') /* Name */
      , (5028,  16, 'This is a good adventure for someone who is newly arrived in Dereth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5028,   1,   33554773) /* Setup */
-     , (5028,   3,  536870932) /* SoundTable */
-     , (5028,   8,  100675770) /* Icon */
-     , (5028,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5028,   1, 0x02000155) /* Setup */
+     , (5028,   3, 0x20000014) /* SoundTable */
+     , (5028,   8, 0x060030BA) /* Icon */
+     , (5028,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (5028, 1, 1000);

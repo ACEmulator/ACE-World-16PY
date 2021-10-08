@@ -24,7 +24,7 @@ VALUES (28083,   1, 'Scroll of Inferior Warden of the Clutch') /* Name */
      , (28083,  15, 'When learned, this spell enhances the Missile Defense of all Fellowship members by 30 points for 30 minutes.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28083,   1,   33554826) /* Setup */
-     , (28083,   8,  100676468) /* Icon */
-     , (28083,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28083,   1, 0x0200018A) /* Setup */
+     , (28083,   8, 0x06003374) /* Icon */
+     , (28083,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28083,  28,       3349) /* Spell - Inferior Warden of the Clutch */;

@@ -46,12 +46,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29546,   1, 'Noble Sollerets of Balance') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29546,   1,   33554654) /* Setup */
-     , (29546,   3,  536870932) /* SoundTable */
-     , (29546,   6,   67108990) /* PaletteBase */
-     , (29546,   7,  268436876) /* ClothingBase */
-     , (29546,   8,  100667309) /* Icon */
-     , (29546,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29546,   1, 0x020000DE) /* Setup */
+     , (29546,   3, 0x20000014) /* SoundTable */
+     , (29546,   6, 0x0400007E) /* PaletteBase */
+     , (29546,   7, 0x1000058C) /* ClothingBase */
+     , (29546,   8, 0x06000FAD) /* Icon */
+     , (29546,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29546,   273,      2)  /* Magic Resistance Other VI */

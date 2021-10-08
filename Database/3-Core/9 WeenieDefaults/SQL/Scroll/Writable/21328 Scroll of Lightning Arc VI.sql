@@ -24,7 +24,7 @@ VALUES (21328,   1, 'Scroll of Lightning Arc VI') /* Name */
      , (21328,  15, 'When learned, this spell shoots a bolt of lighting at the target. The bolt does 61-120 points of electrical damage to the first thing it hits.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21328,   1,   33554826) /* Setup */
-     , (21328,   8,  100677013) /* Icon */
-     , (21328,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21328,   1, 0x0200018A) /* Setup */
+     , (21328,   8, 0x06003595) /* Icon */
+     , (21328,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21328,  28,       2737) /* Spell - Lightning Arc VI */;

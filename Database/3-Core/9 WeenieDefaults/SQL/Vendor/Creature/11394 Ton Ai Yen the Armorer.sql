@@ -70,11 +70,11 @@ VALUES (11394,   1, 'Ton Ai Yen the Armorer') /* Name */
      , (11394,  24, 'Redspire') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11394,   1,   33554510) /* Setup */
-     , (11394,   2,  150994945) /* MotionTable */
-     , (11394,   3,  536870914) /* SoundTable */
-     , (11394,   4,  805306368) /* CombatTable */
-     , (11394,   8,  100667446) /* Icon */;
+VALUES (11394,   1, 0x0200004E) /* Setup */
+     , (11394,   2, 0x09000001) /* MotionTable */
+     , (11394,   3, 0x20000002) /* SoundTable */
+     , (11394,   4, 0x30000000) /* CombatTable */
+     , (11394,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11394,   1, 130, 0, 0) /* Strength */

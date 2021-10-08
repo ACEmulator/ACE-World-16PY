@@ -69,14 +69,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10814,   1, 'Virindi Inquisitor') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10814,   1,   33556982) /* Setup */
-     , (10814,   2,  150994984) /* MotionTable */
-     , (10814,   3,  536870930) /* SoundTable */
-     , (10814,   4,  805306381) /* CombatTable */
-     , (10814,   6,   67111346) /* PaletteBase */
-     , (10814,   7,  268435649) /* ClothingBase */
-     , (10814,   8,  100667943) /* Icon */
-     , (10814,  22,  872415273) /* PhysicsEffectTable */
+VALUES (10814,   1, 0x020009F6) /* Setup */
+     , (10814,   2, 0x09000028) /* MotionTable */
+     , (10814,   3, 0x20000012) /* SoundTable */
+     , (10814,   4, 0x3000000D) /* CombatTable */
+     , (10814,   6, 0x040009B2) /* PaletteBase */
+     , (10814,   7, 0x100000C1) /* ClothingBase */
+     , (10814,   8, 0x06001227) /* Icon */
+     , (10814,  22, 0x34000029) /* PhysicsEffectTable */
      , (10814,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

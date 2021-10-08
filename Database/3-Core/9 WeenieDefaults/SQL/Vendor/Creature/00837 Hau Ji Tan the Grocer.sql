@@ -70,11 +70,11 @@ VALUES (837,   1, 'Hau Ji Tan the Grocer') /* Name */
      , (837,  24, 'Shoushi') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (837,   1,   33554510) /* Setup */
-     , (837,   2,  150994945) /* MotionTable */
-     , (837,   3,  536870914) /* SoundTable */
-     , (837,   4,  805306368) /* CombatTable */
-     , (837,   8,  100667446) /* Icon */;
+VALUES (837,   1, 0x0200004E) /* Setup */
+     , (837,   2, 0x09000001) /* MotionTable */
+     , (837,   3, 0x20000002) /* SoundTable */
+     , (837,   4, 0x30000000) /* CombatTable */
+     , (837,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (837,   1,  75, 0, 0) /* Strength */

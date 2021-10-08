@@ -22,5 +22,5 @@ VALUES (5434,   1, 'Shikiru Nohon') /* Name */
      , (5434,  16, 'Shikiru Nohon') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5434,   1,   33555594) /* Setup */
-     , (5434,   8,  100668115) /* Icon */;
+VALUES (5434,   1, 0x0200048A) /* Setup */
+     , (5434,   8, 0x060012D3) /* Icon */;

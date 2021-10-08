@@ -22,7 +22,7 @@ VALUES (4415,   1, 'The Magic of Iiwah') /* Name */
      , (4415,  16, 'The Magic of Iiwah') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4415,   1,   33555088) /* Setup */
-     , (4415,   6,   67111092) /* PaletteBase */
-     , (4415,   7,  268435669) /* ClothingBase */
-     , (4415,   8,  100668115) /* Icon */;
+VALUES (4415,   1, 0x02000290) /* Setup */
+     , (4415,   6, 0x040008B4) /* PaletteBase */
+     , (4415,   7, 0x100000D5) /* ClothingBase */
+     , (4415,   8, 0x060012D3) /* Icon */;

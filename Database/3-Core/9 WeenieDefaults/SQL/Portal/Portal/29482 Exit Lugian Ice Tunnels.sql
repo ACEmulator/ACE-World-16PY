@@ -26,9 +26,9 @@ VALUES (29482,   1, 'Exit Lugian Ice Tunnels') /* Name */
      , (29482,  37, 'HeartofInnocence') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29482,   1,   33555925) /* Setup */
-     , (29482,   2,  150994947) /* MotionTable */
-     , (29482,   8,  100667499) /* Icon */;
+VALUES (29482,   1, 0x020005D5) /* Setup */
+     , (29482,   2, 0x09000003) /* MotionTable */
+     , (29482,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (29482, 2, 0x5F460189, 39.247, 0.038, 0, -0.02677, 0, -0, -0.999642) /* Destination */

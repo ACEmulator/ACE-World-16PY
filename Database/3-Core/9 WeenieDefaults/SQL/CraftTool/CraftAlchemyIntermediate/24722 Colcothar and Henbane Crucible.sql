@@ -31,8 +31,8 @@ VALUES (24722,   1, 'Colcothar and Henbane Crucible') /* Name */
      , (24722,  20, 'Colcothar and Henbane Crucibles') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24722,   1,   33555966) /* Setup */
-     , (24722,   3,  536870932) /* SoundTable */
-     , (24722,   8,  100674468) /* Icon */
-     , (24722,  22,  872415275) /* PhysicsEffectTable */
-     , (24722,  50,  100674414) /* IconOverlay */;
+VALUES (24722,   1, 0x020005FE) /* Setup */
+     , (24722,   3, 0x20000014) /* SoundTable */
+     , (24722,   8, 0x06002BA4) /* Icon */
+     , (24722,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24722,  50, 0x06002B6E) /* IconOverlay */;

@@ -39,11 +39,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (76,   1, 'Horned Helm') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (76,   1,   33554649) /* Setup */
-     , (76,   3,  536870932) /* SoundTable */
-     , (76,   6,   67108990) /* PaletteBase */
-     , (76,   7,  268435501) /* ClothingBase */
-     , (76,   8,  100667347) /* Icon */
-     , (76,  22,  872415275) /* PhysicsEffectTable */
-     , (76,  36,  234881042) /* MutateFilter */
-     , (76,  46,  939524146) /* TsysMutationFilter */;
+VALUES (76,   1, 0x020000D9) /* Setup */
+     , (76,   3, 0x20000014) /* SoundTable */
+     , (76,   6, 0x0400007E) /* PaletteBase */
+     , (76,   7, 0x1000002D) /* ClothingBase */
+     , (76,   8, 0x06000FD3) /* Icon */
+     , (76,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (76,  36, 0x0E000012) /* MutateFilter */
+     , (76,  46, 0x38000032) /* TsysMutationFilter */;

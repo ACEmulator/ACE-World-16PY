@@ -36,12 +36,12 @@ VALUES (12016,   1, 'Dark Sorcerer''s Phylactery') /* Name */
      , (12016,  16, 'An orb with some sort of dark figure within.  Gazing into its depths, you see the wretched face of a Dark Sorcerer, an undead from the Vesayen Isles.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12016,   1,   33557338) /* Setup */
-     , (12016,   3,  536870932) /* SoundTable */
-     , (12016,   8,  100672120) /* Icon */
-     , (12016,  22,  872415275) /* PhysicsEffectTable */
-     , (12016,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
-     , (12016,  36,  234881046) /* MutateFilter */
+VALUES (12016,   1, 0x02000B5A) /* Setup */
+     , (12016,   3, 0x20000014) /* SoundTable */
+     , (12016,   8, 0x06002278) /* Icon */
+     , (12016,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (12016,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
+     , (12016,  36, 0x0E000016) /* MutateFilter */
      , (12016,  37,         33) /* ItemSkillLimit - LifeMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

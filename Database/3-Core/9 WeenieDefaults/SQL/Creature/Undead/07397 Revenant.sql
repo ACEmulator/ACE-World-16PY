@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7397,   1, 'Revenant') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7397,   1,   33554839) /* Setup */
-     , (7397,   2,  150994967) /* MotionTable */
-     , (7397,   3,  536870934) /* SoundTable */
-     , (7397,   4,  805306368) /* CombatTable */
-     , (7397,   6,   67110722) /* PaletteBase */
-     , (7397,   7,  268435558) /* ClothingBase */
-     , (7397,   8,  100667942) /* Icon */
-     , (7397,  22,  872415272) /* PhysicsEffectTable */
+VALUES (7397,   1, 0x02000197) /* Setup */
+     , (7397,   2, 0x09000017) /* MotionTable */
+     , (7397,   3, 0x20000016) /* SoundTable */
+     , (7397,   4, 0x30000000) /* CombatTable */
+     , (7397,   6, 0x04000742) /* PaletteBase */
+     , (7397,   7, 0x10000066) /* ClothingBase */
+     , (7397,   8, 0x06001226) /* Icon */
+     , (7397,  22, 0x34000028) /* PhysicsEffectTable */
      , (7397,  32,        250) /* WieldedTreasureType - 
                                    Wield Katar (23675) | Probability: 25%
                                    Wield Nekode (23681) | Probability: 25%

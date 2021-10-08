@@ -41,9 +41,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5314,   1, 'Greater Acid Quarrel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5314,   1,   33555696) /* Setup */
-     , (5314,   3,  536870932) /* SoundTable */
-     , (5314,   6,   67111919) /* PaletteBase */
-     , (5314,   7,  268436306) /* ClothingBase */
-     , (5314,   8,  100670240) /* Icon */
-     , (5314,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5314,   1, 0x020004F0) /* Setup */
+     , (5314,   3, 0x20000014) /* SoundTable */
+     , (5314,   6, 0x04000BEF) /* PaletteBase */
+     , (5314,   7, 0x10000352) /* ClothingBase */
+     , (5314,   8, 0x06001B20) /* Icon */
+     , (5314,  22, 0x3400002B) /* PhysicsEffectTable */;

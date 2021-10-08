@@ -62,14 +62,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10810,   1, 'Rampager') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10810,   1,   33556836) /* Setup */
-     , (10810,   2,  150994956) /* MotionTable */
-     , (10810,   3,  536870929) /* SoundTable */
-     , (10810,   4,  805306379) /* CombatTable */
-     , (10810,   6,   67113007) /* PaletteBase */
-     , (10810,   7,  268436064) /* ClothingBase */
-     , (10810,   8,  100667443) /* Icon */
-     , (10810,  22,  872415271) /* PhysicsEffectTable */
+VALUES (10810,   1, 0x02000964) /* Setup */
+     , (10810,   2, 0x0900000C) /* MotionTable */
+     , (10810,   3, 0x20000011) /* SoundTable */
+     , (10810,   4, 0x3000000B) /* CombatTable */
+     , (10810,   6, 0x0400102F) /* PaletteBase */
+     , (10810,   7, 0x10000260) /* ClothingBase */
+     , (10810,   8, 0x06001033) /* Icon */
+     , (10810,  22, 0x34000027) /* PhysicsEffectTable */
      , (10810,  35,        454) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

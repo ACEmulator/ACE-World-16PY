@@ -36,11 +36,11 @@ VALUES (26082,   1, 'Asandra Cottages Portal Gem') /* Name */
      , (26082,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26082,   1,   33556769) /* Setup */
-     , (26082,   3,  536870932) /* SoundTable */
-     , (26082,   6,   67111919) /* PaletteBase */
-     , (26082,   7,  268435723) /* ClothingBase */
-     , (26082,   8,  100675760) /* Icon */
-     , (26082,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26082,   1, 0x02000921) /* Setup */
+     , (26082,   3, 0x20000014) /* SoundTable */
+     , (26082,   6, 0x04000BEF) /* PaletteBase */
+     , (26082,   7, 0x1000010B) /* ClothingBase */
+     , (26082,   8, 0x060030B0) /* Icon */
+     , (26082,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26082,  28,        157) /* Spell - Summon Primary Portal I */
      , (26082,  31,      15142) /* LinkedPortalOne - Asandra Cottages Portal */;

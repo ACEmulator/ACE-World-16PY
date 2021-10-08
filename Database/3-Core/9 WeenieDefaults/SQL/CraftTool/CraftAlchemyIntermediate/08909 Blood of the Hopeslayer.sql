@@ -37,9 +37,9 @@ VALUES (8909,   1, 'Blood of the Hopeslayer') /* Name */
      , (8909,  33, 'LostHopeInfusion') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8909,   1,   33554603) /* Setup */
-     , (8909,   3,  536870932) /* SoundTable */
-     , (8909,   6,   67111919) /* PaletteBase */
-     , (8909,   7,  268435816) /* ClothingBase */
-     , (8909,   8,  100671326) /* Icon */
-     , (8909,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8909,   1, 0x020000AB) /* Setup */
+     , (8909,   3, 0x20000014) /* SoundTable */
+     , (8909,   6, 0x04000BEF) /* PaletteBase */
+     , (8909,   7, 0x10000168) /* ClothingBase */
+     , (8909,   8, 0x06001F5E) /* Icon */
+     , (8909,  22, 0x3400002B) /* PhysicsEffectTable */;

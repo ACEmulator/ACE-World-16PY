@@ -32,9 +32,9 @@ VALUES (15853,   1, 'Empty Binding') /* Name */
      , (15853,  16, 'A binding that once contained several pages of text, the pages seem to have been removed, or dropped. Eight pages, appear to complete the tome, but none are within the binding at this time.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15853,   1,   33556929) /* Setup */
-     , (15853,   3,  536870932) /* SoundTable */
-     , (15853,   6,   67113005) /* PaletteBase */
-     , (15853,   7,  268436360) /* ClothingBase */
-     , (15853,   8,  100672802) /* Icon */
-     , (15853,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15853,   1, 0x020009C1) /* Setup */
+     , (15853,   3, 0x20000014) /* SoundTable */
+     , (15853,   6, 0x0400102D) /* PaletteBase */
+     , (15853,   7, 0x10000388) /* ClothingBase */
+     , (15853,   8, 0x06002522) /* Icon */
+     , (15853,  22, 0x3400002B) /* PhysicsEffectTable */;

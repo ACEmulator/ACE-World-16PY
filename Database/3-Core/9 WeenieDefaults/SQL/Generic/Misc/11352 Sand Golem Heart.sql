@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11352,   1, 'Sand Golem Heart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11352,   1,   33554817) /* Setup */
-     , (11352,   3,  536870932) /* SoundTable */
-     , (11352,   6,   67111919) /* PaletteBase */
-     , (11352,   7,  268435832) /* ClothingBase */
-     , (11352,   8,  100671842) /* Icon */
-     , (11352,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11352,   1, 0x02000181) /* Setup */
+     , (11352,   3, 0x20000014) /* SoundTable */
+     , (11352,   6, 0x04000BEF) /* PaletteBase */
+     , (11352,   7, 0x10000178) /* ClothingBase */
+     , (11352,   8, 0x06002162) /* Icon */
+     , (11352,  22, 0x3400002B) /* PhysicsEffectTable */;

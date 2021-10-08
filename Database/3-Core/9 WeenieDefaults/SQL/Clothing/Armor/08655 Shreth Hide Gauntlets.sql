@@ -40,9 +40,9 @@ VALUES (8655,   1, 'Shreth Hide Gauntlets') /* Name */
      , (8655,  16, 'Gauntlets made with the hide of a shreth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8655,   1,   33554648) /* Setup */
-     , (8655,   3,  536870932) /* SoundTable */
-     , (8655,   6,   67108990) /* PaletteBase */
-     , (8655,   7,  268436108) /* ClothingBase */
-     , (8655,   8,  100671302) /* Icon */
-     , (8655,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8655,   1, 0x020000D8) /* Setup */
+     , (8655,   3, 0x20000014) /* SoundTable */
+     , (8655,   6, 0x0400007E) /* PaletteBase */
+     , (8655,   7, 0x1000028C) /* ClothingBase */
+     , (8655,   8, 0x06001F46) /* Icon */
+     , (8655,  22, 0x3400002B) /* PhysicsEffectTable */;

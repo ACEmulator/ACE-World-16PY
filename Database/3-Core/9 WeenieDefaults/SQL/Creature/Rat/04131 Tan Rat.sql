@@ -62,14 +62,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4131,   1, 'Tan Rat') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4131,   1,   33554493) /* Setup */
-     , (4131,   2,  150994958) /* MotionTable */
-     , (4131,   3,  536870927) /* SoundTable */
-     , (4131,   4,  805306377) /* CombatTable */
-     , (4131,   6,   67109300) /* PaletteBase */
-     , (4131,   7,  268435555) /* ClothingBase */
-     , (4131,   8,  100667451) /* Icon */
-     , (4131,  22,  872415267) /* PhysicsEffectTable */
+VALUES (4131,   1, 0x0200003D) /* Setup */
+     , (4131,   2, 0x0900000E) /* MotionTable */
+     , (4131,   3, 0x2000000F) /* SoundTable */
+     , (4131,   4, 0x30000009) /* CombatTable */
+     , (4131,   6, 0x040001B4) /* PaletteBase */
+     , (4131,   7, 0x10000063) /* ClothingBase */
+     , (4131,   8, 0x0600103B) /* Icon */
+     , (4131,  22, 0x34000023) /* PhysicsEffectTable */
      , (4131,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

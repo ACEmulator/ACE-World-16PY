@@ -71,12 +71,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10801,   1, 'Shallow Rift') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10801,   1,   33557100) /* Setup */
-     , (10801,   2,  150995087) /* MotionTable */
-     , (10801,   3,  536871001) /* SoundTable */
-     , (10801,   4,  805306407) /* CombatTable */
-     , (10801,   8,  100671702) /* Icon */
-     , (10801,  22,  872415375) /* PhysicsEffectTable */
+VALUES (10801,   1, 0x02000A6C) /* Setup */
+     , (10801,   2, 0x0900008F) /* MotionTable */
+     , (10801,   3, 0x20000059) /* SoundTable */
+     , (10801,   4, 0x30000027) /* CombatTable */
+     , (10801,   8, 0x060020D6) /* Icon */
+     , (10801,  22, 0x3400008F) /* PhysicsEffectTable */
      , (10801,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

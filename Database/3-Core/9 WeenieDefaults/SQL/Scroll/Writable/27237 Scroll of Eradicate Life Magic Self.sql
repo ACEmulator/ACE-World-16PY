@@ -24,7 +24,7 @@ VALUES (27237,   1, 'Scroll of Eradicate Life Magic Self') /* Name */
      , (27237,  15, 'When learned, this spell dispels 3-6 negative Life Magic enchantments of level 6 or lower from the caster.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27237,   1,   33554826) /* Setup */
-     , (27237,   8,  100676935) /* Icon */
-     , (27237,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27237,   1, 0x0200018A) /* Setup */
+     , (27237,   8, 0x06003547) /* Icon */
+     , (27237,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27237,  28,       3194) /* Spell - Eradicate Life Magic Self */;

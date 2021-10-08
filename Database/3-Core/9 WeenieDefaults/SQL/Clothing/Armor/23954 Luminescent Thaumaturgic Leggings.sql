@@ -47,12 +47,12 @@ VALUES (23954,   1, 'Luminescent Thaumaturgic Leggings') /* Name */
      , (23954,  16, 'A richly enchanted and ornate pair of leggings once worn by the Sentinels of Perfect Light, an order dedicated to aiding Lord Asheron against the darkness.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23954,   1,   33554856) /* Setup */
-     , (23954,   3,  536870932) /* SoundTable */
-     , (23954,   6,   67108990) /* PaletteBase */
-     , (23954,   7,  268436559) /* ClothingBase */
-     , (23954,   8,  100674119) /* Icon */
-     , (23954,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23954,   1, 0x020001A8) /* Setup */
+     , (23954,   3, 0x20000014) /* SoundTable */
+     , (23954,   6, 0x0400007E) /* PaletteBase */
+     , (23954,   7, 0x1000044F) /* ClothingBase */
+     , (23954,   8, 0x06002A47) /* Icon */
+     , (23954,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23954,  2350,      2)  /* Greater Decay Durance */

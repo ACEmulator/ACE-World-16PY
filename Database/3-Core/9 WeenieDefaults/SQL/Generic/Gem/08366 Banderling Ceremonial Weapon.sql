@@ -25,8 +25,8 @@ VALUES (8366,   1, 'Banderling Ceremonial Weapon') /* Name */
      , (8366,  15, 'A large and heavy mace, seemingly too unstable to wield. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8366,   1,   33554746) /* Setup */
-     , (8366,   6,   67111919) /* PaletteBase */
-     , (8366,   7,  268436083) /* ClothingBase */
-     , (8366,   8,  100671138) /* Icon */
-     , (8366,  36,  234881046) /* MutateFilter */;
+VALUES (8366,   1, 0x0200013A) /* Setup */
+     , (8366,   6, 0x04000BEF) /* PaletteBase */
+     , (8366,   7, 0x10000273) /* ClothingBase */
+     , (8366,   8, 0x06001EA2) /* Icon */
+     , (8366,  36, 0x0E000016) /* MutateFilter */;

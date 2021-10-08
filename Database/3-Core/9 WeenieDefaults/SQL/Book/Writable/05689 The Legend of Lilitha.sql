@@ -24,10 +24,10 @@ VALUES (5689,   1, 'The Legend of Lilitha') /* Name */
      , (5689,  16, 'A copy of the Legend of Lilitha, bought from the Cragstone Library.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5689,   1,   33554771) /* Setup */
-     , (5689,   3,  536870932) /* SoundTable */
-     , (5689,   8,  100668117) /* Icon */
-     , (5689,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5689,   1, 0x02000153) /* Setup */
+     , (5689,   3, 0x20000014) /* SoundTable */
+     , (5689,   8, 0x060012D5) /* Icon */
+     , (5689,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (5689, 5, 1000);

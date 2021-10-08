@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1766,   1, 'Stony Armoredillo') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1766,   1,   33554436) /* Setup */
-     , (1766,   2,  150994972) /* MotionTable */
-     , (1766,   3,  536870915) /* SoundTable */
-     , (1766,   4,  805306382) /* CombatTable */
-     , (1766,   6,   67109301) /* PaletteBase */
-     , (1766,   7,  268435547) /* ClothingBase */
-     , (1766,   8,  100667935) /* Icon */
-     , (1766,  22,  872415253) /* PhysicsEffectTable */
+VALUES (1766,   1, 0x02000004) /* Setup */
+     , (1766,   2, 0x0900001C) /* MotionTable */
+     , (1766,   3, 0x20000003) /* SoundTable */
+     , (1766,   4, 0x3000000E) /* CombatTable */
+     , (1766,   6, 0x040001B5) /* PaletteBase */
+     , (1766,   7, 0x1000005B) /* ClothingBase */
+     , (1766,   8, 0x0600121F) /* Icon */
+     , (1766,  22, 0x34000015) /* PhysicsEffectTable */
      , (1766,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

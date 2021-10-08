@@ -24,7 +24,7 @@ VALUES (22845,   1, 'Log Table') /* Name */
      , (22845,  15, 'A big log that can be used as a table.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22845,   1,   33558141) /* Setup */
-     , (22845,   3,  536870932) /* SoundTable */
-     , (22845,   8,  100673881) /* Icon */
-     , (22845,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22845,   1, 0x02000E7D) /* Setup */
+     , (22845,   3, 0x20000014) /* SoundTable */
+     , (22845,   8, 0x06002959) /* Icon */
+     , (22845,  22, 0x3400002B) /* PhysicsEffectTable */;

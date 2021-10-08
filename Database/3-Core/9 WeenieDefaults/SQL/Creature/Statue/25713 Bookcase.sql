@@ -65,11 +65,11 @@ VALUES (25713,   1, 'Bookcase') /* Name */
      , (25713,  15, 'A bookcase, dusty tomes and all.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25713,   1,   33557590) /* Setup */
-     , (25713,   2,  150995157) /* MotionTable */
-     , (25713,   3,  536871051) /* SoundTable */
-     , (25713,   8,  100668246) /* Icon */
-     , (25713,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25713,   1, 0x02000C56) /* Setup */
+     , (25713,   2, 0x090000D5) /* MotionTable */
+     , (25713,   3, 0x2000008B) /* SoundTable */
+     , (25713,   8, 0x06001356) /* Icon */
+     , (25713,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25713,   1, 380, 0, 0) /* Strength */

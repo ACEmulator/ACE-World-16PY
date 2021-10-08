@@ -69,12 +69,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6379,   1, 'Astyrrian') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6379,   1,   33556140) /* Setup */
-     , (6379,   2,  150995087) /* MotionTable */
-     , (6379,   3,  536871002) /* SoundTable */
-     , (6379,   4,  805306368) /* CombatTable */
-     , (6379,   8,  100670581) /* Icon */
-     , (6379,  22,  872415349) /* PhysicsEffectTable */
+VALUES (6379,   1, 0x020006AC) /* Setup */
+     , (6379,   2, 0x0900008F) /* MotionTable */
+     , (6379,   3, 0x2000005A) /* SoundTable */
+     , (6379,   4, 0x30000000) /* CombatTable */
+     , (6379,   8, 0x06001C75) /* Icon */
+     , (6379,  22, 0x34000075) /* PhysicsEffectTable */
      , (6379,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

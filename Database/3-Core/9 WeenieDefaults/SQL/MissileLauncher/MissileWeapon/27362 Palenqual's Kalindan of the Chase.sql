@@ -54,12 +54,12 @@ VALUES (27362,   1, 'Palenqual''s Kalindan of the Chase') /* Name */
      , (27362,  16, 'A kalindan fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27362,   1,   33558668) /* Setup */
-     , (27362,   3,  536870932) /* SoundTable */
-     , (27362,   6,   67113336) /* PaletteBase */
-     , (27362,   7,  268436250) /* ClothingBase */
-     , (27362,   8,  100676347) /* Icon */
-     , (27362,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27362,   1, 0x0200108C) /* Setup */
+     , (27362,   3, 0x20000014) /* SoundTable */
+     , (27362,   6, 0x04001178) /* PaletteBase */
+     , (27362,   7, 0x1000031A) /* ClothingBase */
+     , (27362,   8, 0x060032FB) /* Icon */
+     , (27362,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27362,  2454,      2)  /* Thorns */

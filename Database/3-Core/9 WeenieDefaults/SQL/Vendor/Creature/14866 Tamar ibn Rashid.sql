@@ -69,11 +69,11 @@ VALUES (14866,   1, 'Tamar ibn Rashid') /* Name */
      , (14866,   5, 'Apprentice') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14866,   1,   33554510) /* Setup */
-     , (14866,   2,  150994945) /* MotionTable */
-     , (14866,   3,  536870914) /* SoundTable */
-     , (14866,   4,  805306368) /* CombatTable */
-     , (14866,   8,  100667446) /* Icon */;
+VALUES (14866,   1, 0x0200004E) /* Setup */
+     , (14866,   2, 0x09000001) /* MotionTable */
+     , (14866,   3, 0x20000002) /* SoundTable */
+     , (14866,   4, 0x30000000) /* CombatTable */
+     , (14866,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (14866,   1, 180, 0, 0) /* Strength */

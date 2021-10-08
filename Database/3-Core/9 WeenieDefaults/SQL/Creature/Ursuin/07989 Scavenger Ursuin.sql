@@ -66,12 +66,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7989,   1, 'Scavenger Ursuin') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7989,   1,   33556773) /* Setup */
-     , (7989,   2,  150995100) /* MotionTable */
-     , (7989,   3,  536871011) /* SoundTable */
-     , (7989,   4,  805306409) /* CombatTable */
-     , (7989,   8,  100670959) /* Icon */
-     , (7989,  22,  872415366) /* PhysicsEffectTable */
+VALUES (7989,   1, 0x02000925) /* Setup */
+     , (7989,   2, 0x0900009C) /* MotionTable */
+     , (7989,   3, 0x20000063) /* SoundTable */
+     , (7989,   4, 0x30000029) /* CombatTable */
+     , (7989,   8, 0x06001DEF) /* Icon */
+     , (7989,  22, 0x34000086) /* PhysicsEffectTable */
      , (7989,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

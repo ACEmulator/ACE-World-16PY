@@ -72,14 +72,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7986,   1, 'Glissnal Niffis') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7986,   1,   33556774) /* Setup */
-     , (7986,   2,  150995099) /* MotionTable */
-     , (7986,   3,  536871010) /* SoundTable */
-     , (7986,   4,  805306410) /* CombatTable */
-     , (7986,   6,   67112937) /* PaletteBase */
-     , (7986,   7,  268436039) /* ClothingBase */
-     , (7986,   8,  100670961) /* Icon */
-     , (7986,  22,  872415365) /* PhysicsEffectTable */
+VALUES (7986,   1, 0x02000926) /* Setup */
+     , (7986,   2, 0x0900009B) /* MotionTable */
+     , (7986,   3, 0x20000062) /* SoundTable */
+     , (7986,   4, 0x3000002A) /* CombatTable */
+     , (7986,   6, 0x04000FE9) /* PaletteBase */
+     , (7986,   7, 0x10000247) /* ClothingBase */
+     , (7986,   8, 0x06001DF1) /* Icon */
+     , (7986,  22, 0x34000085) /* PhysicsEffectTable */
      , (7986,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -46,15 +46,15 @@ VALUES (8904,   1, 'Focusing Stone') /* Name */
      , (8904,  33, 'FocusingStoneImbued') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8904,   1,   33556976) /* Setup */
-     , (8904,   3,  536870932) /* SoundTable */
-     , (8904,   6,   67111928) /* PaletteBase */
-     , (8904,   7,  268436041) /* ClothingBase */
-     , (8904,   8,  100671374) /* Icon */
-     , (8904,  22,  872415275) /* PhysicsEffectTable */
-     , (8904,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (8904,   1, 0x020009F0) /* Setup */
+     , (8904,   3, 0x20000014) /* SoundTable */
+     , (8904,   6, 0x04000BF8) /* PaletteBase */
+     , (8904,   7, 0x10000249) /* ClothingBase */
+     , (8904,   8, 0x06001F8E) /* Icon */
+     , (8904,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8904,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (8904,  28,       2348) /* Spell - Brilliance */
-     , (8904,  36,  234881046) /* MutateFilter */;
+     , (8904,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8904,  2346,      2)  /* Malediction */

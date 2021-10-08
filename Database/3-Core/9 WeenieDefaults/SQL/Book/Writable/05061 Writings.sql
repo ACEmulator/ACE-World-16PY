@@ -28,10 +28,10 @@ VALUES (5061,   1, 'Writings') /* Name */
      , (5061,  33, 'WritingJhongMiCQuest') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5061,   1,   33554773) /* Setup */
-     , (5061,   3,  536870932) /* SoundTable */
-     , (5061,   8,  100668176) /* Icon */
-     , (5061,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5061,   1, 0x02000155) /* Setup */
+     , (5061,   3, 0x20000014) /* SoundTable */
+     , (5061,   8, 0x06001310) /* Icon */
+     , (5061,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (5061, 1, 1000);

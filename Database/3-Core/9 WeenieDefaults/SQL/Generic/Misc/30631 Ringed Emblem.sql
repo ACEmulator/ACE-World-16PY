@@ -25,7 +25,7 @@ VALUES (30631,   1, 'Ringed Emblem') /* Name */
      , (30631,  16, 'A stone carving with a ring of vines around it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30631,   1,   33554769) /* Setup */
-     , (30631,   3,  536870932) /* SoundTable */
-     , (30631,   8,  100677388) /* Icon */
-     , (30631,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30631,   1, 0x02000151) /* Setup */
+     , (30631,   3, 0x20000014) /* SoundTable */
+     , (30631,   8, 0x0600370C) /* Icon */
+     , (30631,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -36,11 +36,11 @@ VALUES (26271,   1, 'Monument Sands Settlement Portal Gem') /* Name */
      , (26271,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26271,   1,   33556769) /* Setup */
-     , (26271,   3,  536870932) /* SoundTable */
-     , (26271,   6,   67111919) /* PaletteBase */
-     , (26271,   7,  268435723) /* ClothingBase */
-     , (26271,   8,  100675760) /* Icon */
-     , (26271,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26271,   1, 0x02000921) /* Setup */
+     , (26271,   3, 0x20000014) /* SoundTable */
+     , (26271,   6, 0x04000BEF) /* PaletteBase */
+     , (26271,   7, 0x1000010B) /* ClothingBase */
+     , (26271,   8, 0x060030B0) /* Icon */
+     , (26271,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26271,  28,        157) /* Spell - Summon Primary Portal I */
      , (26271,  31,      12521) /* LinkedPortalOne - Monument Sands Settlement Portal */;

@@ -61,12 +61,12 @@ VALUES (14426,   1, 'Martinate Simulacrum') /* Name */
      , (14426,   4, 'Sho') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14426,   1,   33554433) /* Setup */
-     , (14426,   2,  150995141) /* MotionTable */
-     , (14426,   3,  536871043) /* SoundTable */
-     , (14426,   4,  805306368) /* CombatTable */
-     , (14426,   8,  100667446) /* Icon */
-     , (14426,  22,  872415381) /* PhysicsEffectTable */
+VALUES (14426,   1, 0x02000001) /* Setup */
+     , (14426,   2, 0x090000C5) /* MotionTable */
+     , (14426,   3, 0x20000083) /* SoundTable */
+     , (14426,   4, 0x30000000) /* CombatTable */
+     , (14426,   8, 0x06001036) /* Icon */
+     , (14426,  22, 0x34000095) /* PhysicsEffectTable */
      , (14426,  32,        396) /* WieldedTreasureType - 
                                    Wield Bow of the Quiddity (9597) | Probability: 100%
                                    Wield 20x Arrow (300) | Probability: 100%

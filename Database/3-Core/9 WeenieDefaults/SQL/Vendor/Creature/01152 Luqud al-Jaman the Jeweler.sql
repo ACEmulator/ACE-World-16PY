@@ -70,11 +70,11 @@ VALUES (1152,   1, 'Luqud al-Jaman the Jeweler') /* Name */
      , (1152,  24, 'Cragstone') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1152,   1,   33554433) /* Setup */
-     , (1152,   2,  150994945) /* MotionTable */
-     , (1152,   3,  536870913) /* SoundTable */
-     , (1152,   4,  805306368) /* CombatTable */
-     , (1152,   8,  100667446) /* Icon */;
+VALUES (1152,   1, 0x02000001) /* Setup */
+     , (1152,   2, 0x09000001) /* MotionTable */
+     , (1152,   3, 0x20000001) /* SoundTable */
+     , (1152,   4, 0x30000000) /* CombatTable */
+     , (1152,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1152,   1,  80, 0, 0) /* Strength */

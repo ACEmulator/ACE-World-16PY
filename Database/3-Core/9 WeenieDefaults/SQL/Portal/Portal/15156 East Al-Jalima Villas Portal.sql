@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15156,   1, 'East Al-Jalima Villas Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15156,   1,   33554867) /* Setup */
-     , (15156,   2,  150994947) /* MotionTable */
-     , (15156,   8,  100667499) /* Icon */;
+VALUES (15156,   1, 0x020001B3) /* Setup */
+     , (15156,   2, 0x09000003) /* MotionTable */
+     , (15156,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (15156, 2, 0x95890021, 106.732, 14.528, 38.426, 0.999745, 0, 0, -0.022583) /* Destination */

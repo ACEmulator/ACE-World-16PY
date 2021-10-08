@@ -32,9 +32,9 @@ VALUES (9341,   1, 'Concentrated Acid Oil') /* Name */
      , (9341,  20, 'Vials of Concentrated Acid Oil') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9341,   1,   33555967) /* Setup */
-     , (9341,   3,  536870932) /* SoundTable */
-     , (9341,   6,   67111919) /* PaletteBase */
-     , (9341,   7,  268435815) /* ClothingBase */
-     , (9341,   8,  100671582) /* Icon */
-     , (9341,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9341,   1, 0x020005FF) /* Setup */
+     , (9341,   3, 0x20000014) /* SoundTable */
+     , (9341,   6, 0x04000BEF) /* PaletteBase */
+     , (9341,   7, 0x10000167) /* ClothingBase */
+     , (9341,   8, 0x0600205E) /* Icon */
+     , (9341,  22, 0x3400002B) /* PhysicsEffectTable */;

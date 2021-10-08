@@ -44,12 +44,12 @@ VALUES (26501,   1, 'Ancient Armored Vestment') /* Name */
      , (26501,  15, 'This armored vestment appears to have been an ornamental piece. Obviously this is only one part of a complete suit of armor.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26501,   1,   33554642) /* Setup */
-     , (26501,   3,  536870932) /* SoundTable */
-     , (26501,   6,   67108990) /* PaletteBase */
-     , (26501,   7,  268436790) /* ClothingBase */
-     , (26501,   8,  100675771) /* Icon */
-     , (26501,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (26501,   1, 0x020000D2) /* Setup */
+     , (26501,   3, 0x20000014) /* SoundTable */
+     , (26501,   6, 0x0400007E) /* PaletteBase */
+     , (26501,   7, 0x10000536) /* ClothingBase */
+     , (26501,   8, 0x060030BB) /* Icon */
+     , (26501,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (26501,  3092,      2)  /* Lesser Skin of the Fiazhat */

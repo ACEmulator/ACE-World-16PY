@@ -42,14 +42,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8743,   1, 'A Society Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8743,   1,   33554759) /* Setup */
-     , (8743,   3,  536870932) /* SoundTable */
-     , (8743,   6,   67111919) /* PaletteBase */
-     , (8743,   7,  268435771) /* ClothingBase */
-     , (8743,   8,  100669015) /* Icon */
-     , (8743,  22,  872415275) /* PhysicsEffectTable */
-     , (8743,  36,  234881044) /* MutateFilter */
-     , (8743,  50,  100675463) /* IconOverlay */;
+VALUES (8743,   1, 0x02000147) /* Setup */
+     , (8743,   3, 0x20000014) /* SoundTable */
+     , (8743,   6, 0x04000BEF) /* PaletteBase */
+     , (8743,   7, 0x1000013B) /* ClothingBase */
+     , (8743,   8, 0x06001657) /* Icon */
+     , (8743,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8743,  36, 0x0E000014) /* MutateFilter */
+     , (8743,  50, 0x06002F87) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8743,  1612,      2)  /* Aura of Blood Drinker Self II */

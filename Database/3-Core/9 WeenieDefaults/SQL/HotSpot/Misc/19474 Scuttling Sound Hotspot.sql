@@ -36,6 +36,6 @@ VALUES (19474,   1, 'Scuttling Sound Hotspot') /* Name */
      , (19474,  17, 'You feel a tug at your foot and see a thin strand of Grievver silk catch the light near the floor.') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19474,   1,   33556024) /* Setup */
-     , (19474,   3,  536871057) /* SoundTable */
-     , (19474,   8,  100667465) /* Icon */;
+VALUES (19474,   1, 0x02000638) /* Setup */
+     , (19474,   3, 0x20000091) /* SoundTable */
+     , (19474,   8, 0x06001049) /* Icon */;

@@ -43,11 +43,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24626,   1, 'Good Olthoi Brood Queen Helm') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24626,   1,   33558419) /* Setup */
-     , (24626,   3,  536870932) /* SoundTable */
-     , (24626,   6,   67108990) /* PaletteBase */
-     , (24626,   7,  268436650) /* ClothingBase */
-     , (24626,   8,  100674622) /* Icon */
-     , (24626,  22,  872415275) /* PhysicsEffectTable */
-     , (24626,  36,  234881046) /* MutateFilter */
-     , (24626,  46,  939524130) /* TsysMutationFilter */;
+VALUES (24626,   1, 0x02000F93) /* Setup */
+     , (24626,   3, 0x20000014) /* SoundTable */
+     , (24626,   6, 0x0400007E) /* PaletteBase */
+     , (24626,   7, 0x100004AA) /* ClothingBase */
+     , (24626,   8, 0x06002C3E) /* Icon */
+     , (24626,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24626,  36, 0x0E000016) /* MutateFilter */
+     , (24626,  46, 0x38000022) /* TsysMutationFilter */;

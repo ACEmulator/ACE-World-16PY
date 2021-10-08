@@ -22,5 +22,5 @@ VALUES (1072,   1, 'The Open Book') /* Name */
      , (1072,  16, 'The Open Book') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1072,   1,   33555088) /* Setup */
-     , (1072,   8,  100668115) /* Icon */;
+VALUES (1072,   1, 0x02000290) /* Setup */
+     , (1072,   8, 0x060012D3) /* Icon */;

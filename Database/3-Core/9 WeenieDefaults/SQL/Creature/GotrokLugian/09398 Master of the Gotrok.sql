@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9398,   1, 'Master of the Gotrok') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9398,   1,   33557003) /* Setup */
-     , (9398,   2,  150994950) /* MotionTable */
-     , (9398,   3,  536870922) /* SoundTable */
-     , (9398,   4,  805306371) /* CombatTable */
-     , (9398,   6,   67113158) /* PaletteBase */
-     , (9398,   7,  268436795) /* ClothingBase */
-     , (9398,   8,  100667447) /* Icon */
-     , (9398,  22,  872415262) /* PhysicsEffectTable */
+VALUES (9398,   1, 0x02000A0B) /* Setup */
+     , (9398,   2, 0x09000006) /* MotionTable */
+     , (9398,   3, 0x2000000A) /* SoundTable */
+     , (9398,   4, 0x30000003) /* CombatTable */
+     , (9398,   6, 0x040010C6) /* PaletteBase */
+     , (9398,   7, 0x1000053B) /* ClothingBase */
+     , (9398,   8, 0x06001037) /* Icon */
+     , (9398,  22, 0x3400001E) /* PhysicsEffectTable */
      , (9398,  32,        321) /* WieldedTreasureType - 
                                    Wield Rock (23745) | Probability: 100%
                                    Wield Lugian Axe (23739) | Probability: 50%

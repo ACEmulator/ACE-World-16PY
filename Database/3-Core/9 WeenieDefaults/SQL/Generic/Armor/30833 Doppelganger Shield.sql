@@ -46,10 +46,10 @@ VALUES (30833,   1, 'Doppelganger Shield') /* Name */
      , (30833,  33, 'InfiltrationShieldAcquired0205') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30833,   1,   33559252) /* Setup */
-     , (30833,   3,  536870932) /* SoundTable */
-     , (30833,   8,  100677465) /* Icon */
-     , (30833,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30833,   1, 0x020012D4) /* Setup */
+     , (30833,   3, 0x20000014) /* SoundTable */
+     , (30833,   8, 0x06003759) /* Icon */
+     , (30833,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30833,  3801,      2)  /* Shadow Touch */

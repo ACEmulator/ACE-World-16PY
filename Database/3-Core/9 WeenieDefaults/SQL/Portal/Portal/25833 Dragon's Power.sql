@@ -26,9 +26,9 @@ VALUES (25833,   1, 'Dragon''s Power') /* Name */
      , (25833,  37, 'EmptySoulDragon') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25833,   1,   33555926) /* Setup */
-     , (25833,   2,  150994947) /* MotionTable */
-     , (25833,   8,  100667499) /* Icon */;
+VALUES (25833,   1, 0x020005D6) /* Setup */
+     , (25833,   2, 0x09000003) /* MotionTable */
+     , (25833,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (25833, 2, 0x644901A3, 416.14, -70.4372, -5.995, 1, 0, 0, -0) /* Destination */

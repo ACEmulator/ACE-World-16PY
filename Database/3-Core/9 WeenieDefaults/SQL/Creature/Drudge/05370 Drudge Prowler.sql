@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5370,   1, 'Drudge Prowler') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5370,   1,   33556445) /* Setup */
-     , (5370,   2,  150994952) /* MotionTable */
-     , (5370,   3,  536870919) /* SoundTable */
-     , (5370,   4,  805306372) /* CombatTable */
-     , (5370,   6,   67112812) /* PaletteBase */
-     , (5370,   7,  268435970) /* ClothingBase */
-     , (5370,   8,  100667445) /* Icon */
-     , (5370,  22,  872415258) /* PhysicsEffectTable */
+VALUES (5370,   1, 0x020007DD) /* Setup */
+     , (5370,   2, 0x09000008) /* MotionTable */
+     , (5370,   3, 0x20000007) /* SoundTable */
+     , (5370,   4, 0x30000004) /* CombatTable */
+     , (5370,   6, 0x04000F6C) /* PaletteBase */
+     , (5370,   7, 0x10000202) /* ClothingBase */
+     , (5370,   8, 0x06001035) /* Icon */
+     , (5370,  22, 0x3400001A) /* PhysicsEffectTable */
      , (5370,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

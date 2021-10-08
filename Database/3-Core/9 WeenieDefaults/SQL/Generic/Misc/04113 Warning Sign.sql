@@ -22,5 +22,5 @@ VALUES (4113,   1, 'Warning Sign') /* Name */
      , (4113,  16, 'Adventurers take heed: Many rats infest this dungeon. Attacking low is the only way to defend against these vermin.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4113,   1,   33555088) /* Setup */
-     , (4113,   8,  100668115) /* Icon */;
+VALUES (4113,   1, 0x02000290) /* Setup */
+     , (4113,   8, 0x060012D3) /* Icon */;

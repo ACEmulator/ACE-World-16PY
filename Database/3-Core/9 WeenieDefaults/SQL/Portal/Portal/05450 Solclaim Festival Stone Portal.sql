@@ -25,11 +25,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5450,   1, 'Solclaim Festival Stone Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5450,   1,   33554867) /* Setup */
-     , (5450,   2,  150994947) /* MotionTable */
-     , (5450,   6,   67109370) /* PaletteBase */
-     , (5450,   7,  268435652) /* ClothingBase */
-     , (5450,   8,  100667499) /* Icon */;
+VALUES (5450,   1, 0x020001B3) /* Setup */
+     , (5450,   2, 0x09000003) /* MotionTable */
+     , (5450,   6, 0x040001FA) /* PaletteBase */
+     , (5450,   7, 0x100000C4) /* ClothingBase */
+     , (5450,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5450, 2, 0x94580038, 145.1, 187.7, 27.1, 0.461749, 0, 0, -0.887011) /* Destination */

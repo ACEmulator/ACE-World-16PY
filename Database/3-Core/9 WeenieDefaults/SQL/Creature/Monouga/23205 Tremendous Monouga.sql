@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23205,   1, 'Tremendous Monouga') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23205,   1,   33555199) /* Setup */
-     , (23205,   2,  150995230) /* MotionTable */
-     , (23205,   3,  536870992) /* SoundTable */
-     , (23205,   4,  805306401) /* CombatTable */
-     , (23205,   6,   67111302) /* PaletteBase */
-     , (23205,   7,  268435726) /* ClothingBase */
-     , (23205,   8,  100669117) /* Icon */
-     , (23205,  22,  872415257) /* PhysicsEffectTable */
+VALUES (23205,   1, 0x020002FF) /* Setup */
+     , (23205,   2, 0x0900011E) /* MotionTable */
+     , (23205,   3, 0x20000050) /* SoundTable */
+     , (23205,   4, 0x30000021) /* CombatTable */
+     , (23205,   6, 0x04000986) /* PaletteBase */
+     , (23205,   7, 0x1000010E) /* ClothingBase */
+     , (23205,   8, 0x060016BD) /* Icon */
+     , (23205,  22, 0x34000019) /* PhysicsEffectTable */
      , (23205,  35,        420) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12027,   1, 'Lord of Decay') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12027,   1,   33555465) /* Setup */
-     , (12027,   2,  150994981) /* MotionTable */
-     , (12027,   3,  536870942) /* SoundTable */
-     , (12027,   4,  805306368) /* CombatTable */
-     , (12027,   6,   67111266) /* PaletteBase */
-     , (12027,   7,  268435646) /* ClothingBase */
-     , (12027,   8,  100669124) /* Icon */
-     , (12027,  22,  872415269) /* PhysicsEffectTable */
+VALUES (12027,   1, 0x02000409) /* Setup */
+     , (12027,   2, 0x09000025) /* MotionTable */
+     , (12027,   3, 0x2000001E) /* SoundTable */
+     , (12027,   4, 0x30000000) /* CombatTable */
+     , (12027,   6, 0x04000962) /* PaletteBase */
+     , (12027,   7, 0x100000BE) /* ClothingBase */
+     , (12027,   8, 0x060016C4) /* Icon */
+     , (12027,  22, 0x34000025) /* PhysicsEffectTable */
      , (12027,  32,        185) /* WieldedTreasureType - 
                                    Wield 6x Throwing Axe (304) | Probability: 10%
                                    Wield Nayin (334) | Probability: 10%

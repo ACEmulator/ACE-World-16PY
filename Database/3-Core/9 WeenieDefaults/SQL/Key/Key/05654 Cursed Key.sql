@@ -28,7 +28,7 @@ VALUES (5654,   1, 'Cursed Key') /* Name */
      , (5654,  16, 'A heavy, blackened key from the Mage Academy.  It seems to weigh down upon your soul.  ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5654,   1,   33554784) /* Setup */
-     , (5654,   3,  536870932) /* SoundTable */
-     , (5654,   8,  100668441) /* Icon */
-     , (5654,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5654,   1, 0x02000160) /* Setup */
+     , (5654,   3, 0x20000014) /* SoundTable */
+     , (5654,   8, 0x06001419) /* Icon */
+     , (5654,  22, 0x3400002B) /* PhysicsEffectTable */;

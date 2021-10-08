@@ -48,10 +48,10 @@ VALUES (11329,   1, 'Aun Tanua''s War Taiaha') /* Name */
      , (11329,  16, 'A lovingly carved taiaha, fused to a living figurine. The creature slowly opens its eyes and glares at you.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11329,   1,   33557310) /* Setup */
-     , (11329,   3,  536870932) /* SoundTable */
-     , (11329,   8,  100672030) /* Icon */
-     , (11329,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11329,   1, 0x02000B3E) /* Setup */
+     , (11329,   3, 0x20000014) /* SoundTable */
+     , (11329,   8, 0x0600221E) /* Icon */
+     , (11329,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11329,  1613,      2)  /* Aura of Blood Drinker Self III */

@@ -22,7 +22,7 @@ VALUES (709,   1, 'Ecutha''s Raiments') /* Name */
      , (709,  16, 'Ecutha''s Raiments') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (709,   1,   33555088) /* Setup */
-     , (709,   6,   67111092) /* PaletteBase */
-     , (709,   7,  268435668) /* ClothingBase */
-     , (709,   8,  100668115) /* Icon */;
+VALUES (709,   1, 0x02000290) /* Setup */
+     , (709,   6, 0x040008B4) /* PaletteBase */
+     , (709,   7, 0x100000D4) /* ClothingBase */
+     , (709,   8, 0x060012D3) /* Icon */;

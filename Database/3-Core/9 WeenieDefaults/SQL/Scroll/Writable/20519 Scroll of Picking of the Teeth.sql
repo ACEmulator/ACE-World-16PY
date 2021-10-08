@@ -24,7 +24,7 @@ VALUES (20519,   1, 'Scroll of Picking of the Teeth') /* Name */
      , (20519,  15, 'When learned, this spell decreases the target''s Dagger skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20519,   1,   33554826) /* Setup */
-     , (20519,   8,  100676455) /* Icon */
-     , (20519,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20519,   1, 0x0200018A) /* Setup */
+     , (20519,   8, 0x06003367) /* Icon */
+     , (20519,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20519,  28,       2220) /* Spell - Finesse Weapon Ineptitude Other VII */;

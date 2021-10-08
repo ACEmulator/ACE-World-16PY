@@ -60,14 +60,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27311,   1, 'Enraged Male Tusker') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27311,   1,   33556836) /* Setup */
-     , (27311,   2,  150994956) /* MotionTable */
-     , (27311,   3,  536870929) /* SoundTable */
-     , (27311,   4,  805306379) /* CombatTable */
-     , (27311,   6,   67113007) /* PaletteBase */
-     , (27311,   7,  268436059) /* ClothingBase */
-     , (27311,   8,  100667443) /* Icon */
-     , (27311,  22,  872415271) /* PhysicsEffectTable */
+VALUES (27311,   1, 0x02000964) /* Setup */
+     , (27311,   2, 0x0900000C) /* MotionTable */
+     , (27311,   3, 0x20000011) /* SoundTable */
+     , (27311,   4, 0x3000000B) /* CombatTable */
+     , (27311,   6, 0x0400102F) /* PaletteBase */
+     , (27311,   7, 0x1000025B) /* ClothingBase */
+     , (27311,   8, 0x06001033) /* Icon */
+     , (27311,  22, 0x34000027) /* PhysicsEffectTable */
      , (27311,  35,        458) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

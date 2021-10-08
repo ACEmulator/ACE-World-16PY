@@ -28,10 +28,10 @@ VALUES (23113,   1, 'Corroding Message Shard') /* Name */
      , (23113,  16, 'A piece of obsidian etched with arcane symbols.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23113,   1,   33555391) /* Setup */
-     , (23113,   3,  536870932) /* SoundTable */
-     , (23113,   8,  100671183) /* Icon */
-     , (23113,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23113,   1, 0x020003BF) /* Setup */
+     , (23113,   3, 0x20000014) /* SoundTable */
+     , (23113,   8, 0x06001ECF) /* Icon */
+     , (23113,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (23113, 1, 1000);

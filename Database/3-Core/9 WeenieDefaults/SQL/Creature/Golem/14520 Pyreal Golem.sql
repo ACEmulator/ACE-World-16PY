@@ -68,14 +68,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14520,   1, 'Pyreal Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14520,   1,   33556426) /* Setup */
-     , (14520,   2,  150995073) /* MotionTable */
-     , (14520,   3,  536870933) /* SoundTable */
-     , (14520,   4,  805306376) /* CombatTable */
-     , (14520,   6,   67112775) /* PaletteBase */
-     , (14520,   7,  268435981) /* ClothingBase */
-     , (14520,   8,  100667940) /* Icon */
-     , (14520,  22,  872415322) /* PhysicsEffectTable */
+VALUES (14520,   1, 0x020007CA) /* Setup */
+     , (14520,   2, 0x09000081) /* MotionTable */
+     , (14520,   3, 0x20000015) /* SoundTable */
+     , (14520,   4, 0x30000008) /* CombatTable */
+     , (14520,   6, 0x04000F47) /* PaletteBase */
+     , (14520,   7, 0x1000020D) /* ClothingBase */
+     , (14520,   8, 0x06001224) /* Icon */
+     , (14520,  22, 0x3400005A) /* PhysicsEffectTable */
      , (14520,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

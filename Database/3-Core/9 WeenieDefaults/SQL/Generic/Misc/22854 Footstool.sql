@@ -23,5 +23,5 @@ VALUES (22854,   1, 'Footstool') /* Name */
      , (22854,  15, 'This item can be used on floor hooks.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22854,   1,   33555305) /* Setup */
-     , (22854,   8,  100673893) /* Icon */;
+VALUES (22854,   1, 0x02000369) /* Setup */
+     , (22854,   8, 0x06002965) /* Icon */;

@@ -22,7 +22,7 @@ VALUES (4399,   1, 'Rodega''s Provender') /* Name */
      , (4399,  16, 'Rodega''s Provender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4399,   1,   33555593) /* Setup */
-     , (4399,   6,   67111092) /* PaletteBase */
-     , (4399,   7,  268435672) /* ClothingBase */
-     , (4399,   8,  100668115) /* Icon */;
+VALUES (4399,   1, 0x02000489) /* Setup */
+     , (4399,   6, 0x040008B4) /* PaletteBase */
+     , (4399,   7, 0x100000D8) /* ClothingBase */
+     , (4399,   8, 0x060012D3) /* Icon */;

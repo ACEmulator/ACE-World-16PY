@@ -22,5 +22,5 @@ VALUES (12659,   1, 'South Victory Harbor') /* Name */
      , (12659,  16, 'Welcome to South Victory Harbor') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12659,   1,   33557463) /* Setup */
-     , (12659,   8,  100668115) /* Icon */;
+VALUES (12659,   1, 0x02000BD7) /* Setup */
+     , (12659,   8, 0x060012D3) /* Icon */;

@@ -62,14 +62,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26685,   1, 'Carrion Shrethlet') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26685,   1,   33555908) /* Setup */
-     , (26685,   2,  150995285) /* MotionTable */
-     , (26685,   3,  536870986) /* SoundTable */
-     , (26685,   4,  805306399) /* CombatTable */
-     , (26685,   6,   67112444) /* PaletteBase */
-     , (26685,   7,  268435840) /* ClothingBase */
-     , (26685,   8,  100669720) /* Icon */
-     , (26685,  22,  872415333) /* PhysicsEffectTable */
+VALUES (26685,   1, 0x020005C4) /* Setup */
+     , (26685,   2, 0x09000155) /* MotionTable */
+     , (26685,   3, 0x2000004A) /* SoundTable */
+     , (26685,   4, 0x3000001F) /* CombatTable */
+     , (26685,   6, 0x04000DFC) /* PaletteBase */
+     , (26685,   7, 0x10000180) /* ClothingBase */
+     , (26685,   8, 0x06001918) /* Icon */
+     , (26685,  22, 0x34000065) /* PhysicsEffectTable */
      , (26685,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

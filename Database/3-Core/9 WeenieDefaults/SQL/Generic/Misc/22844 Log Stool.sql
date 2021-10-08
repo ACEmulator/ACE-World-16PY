@@ -24,7 +24,7 @@ VALUES (22844,   1, 'Log Stool') /* Name */
      , (22844,  15, 'A log that can be used as a stool.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22844,   1,   33558150) /* Setup */
-     , (22844,   3,  536870932) /* SoundTable */
-     , (22844,   8,  100673892) /* Icon */
-     , (22844,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22844,   1, 0x02000E86) /* Setup */
+     , (22844,   3, 0x20000014) /* SoundTable */
+     , (22844,   8, 0x06002964) /* Icon */
+     , (22844,  22, 0x3400002B) /* PhysicsEffectTable */;

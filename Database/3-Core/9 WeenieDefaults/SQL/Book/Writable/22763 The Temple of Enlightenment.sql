@@ -24,10 +24,10 @@ VALUES (22763,   1, 'The Temple of Enlightenment') /* Name */
      , (22763,  16, 'A book originally written in Falatacot, but with an Roulean translation attached. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22763,   1,   33554771) /* Setup */
-     , (22763,   3,  536870932) /* SoundTable */
-     , (22763,   8,  100668117) /* Icon */
-     , (22763,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22763,   1, 0x02000153) /* Setup */
+     , (22763,   3, 0x20000014) /* SoundTable */
+     , (22763,   8, 0x060012D5) /* Icon */
+     , (22763,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (22763, 2, 1000);

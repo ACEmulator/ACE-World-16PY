@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28252,   1, 'White Phyntos Wasp Swarm') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28252,   1,   33558818) /* Setup */
-     , (28252,   2,  150995304) /* MotionTable */
-     , (28252,   3,  536870926) /* SoundTable */
-     , (28252,   4,  805306385) /* CombatTable */
-     , (28252,   6,   67115262) /* PaletteBase */
-     , (28252,   7,  268436836) /* ClothingBase */
-     , (28252,   8,  100667450) /* Icon */
-     , (28252,  22,  872415266) /* PhysicsEffectTable */
+VALUES (28252,   1, 0x02001122) /* Setup */
+     , (28252,   2, 0x09000168) /* MotionTable */
+     , (28252,   3, 0x2000000E) /* SoundTable */
+     , (28252,   4, 0x30000011) /* CombatTable */
+     , (28252,   6, 0x040018FE) /* PaletteBase */
+     , (28252,   7, 0x10000564) /* ClothingBase */
+     , (28252,   8, 0x0600103A) /* Icon */
+     , (28252,  22, 0x34000022) /* PhysicsEffectTable */
      , (28252,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

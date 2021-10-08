@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30490,   1, 'Drudge Robber Baron') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30490,   1,   33556445) /* Setup */
-     , (30490,   2,  150994952) /* MotionTable */
-     , (30490,   3,  536870919) /* SoundTable */
-     , (30490,   4,  805306372) /* CombatTable */
-     , (30490,   6,   67112812) /* PaletteBase */
-     , (30490,   7,  268435971) /* ClothingBase */
-     , (30490,   8,  100667445) /* Icon */
-     , (30490,  22,  872415258) /* PhysicsEffectTable */
+VALUES (30490,   1, 0x020007DD) /* Setup */
+     , (30490,   2, 0x09000008) /* MotionTable */
+     , (30490,   3, 0x20000007) /* SoundTable */
+     , (30490,   4, 0x30000004) /* CombatTable */
+     , (30490,   6, 0x04000F6C) /* PaletteBase */
+     , (30490,   7, 0x10000203) /* ClothingBase */
+     , (30490,   8, 0x06001035) /* Icon */
+     , (30490,  22, 0x3400001A) /* PhysicsEffectTable */
      , (30490,  32,         68) /* WieldedTreasureType - 
                                    Wield Budiaq (308) | Probability: 3%
                                    Wield Club (309) | Probability: 3%

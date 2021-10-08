@@ -22,5 +22,5 @@ VALUES (21471,   1, 'Ben Ten Lodge') /* Name */
      , (21471,  16, 'Ben Ten Lodge') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21471,   1,   33557905) /* Setup */
-     , (21471,   8,  100667499) /* Icon */;
+VALUES (21471,   1, 0x02000D91) /* Setup */
+     , (21471,   8, 0x0600106B) /* Icon */;

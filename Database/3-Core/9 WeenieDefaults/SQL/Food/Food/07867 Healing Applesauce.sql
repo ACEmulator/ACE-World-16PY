@@ -30,7 +30,7 @@ VALUES (7867,   1, 'Healing Applesauce') /* Name */
      , (7867,  20, 'Healing Jars of Applesauce') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7867,   1,   33555977) /* Setup */
-     , (7867,   3,  536870932) /* SoundTable */
-     , (7867,   8,  100670845) /* Icon */
-     , (7867,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7867,   1, 0x02000609) /* Setup */
+     , (7867,   3, 0x20000014) /* SoundTable */
+     , (7867,   8, 0x06001D7D) /* Icon */
+     , (7867,  22, 0x3400002B) /* PhysicsEffectTable */;

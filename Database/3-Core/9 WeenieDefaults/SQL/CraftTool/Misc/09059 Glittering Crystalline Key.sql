@@ -36,9 +36,9 @@ VALUES (9059,   1, 'Glittering Crystalline Key') /* Name */
      , (9059,  16, 'A clear crystal key. There is a symbol inscribed on its surface; an eight-pointed starburst shape overlaid on a swirling portal. In the heart of the starburst is a crashing wave. Within the folds of the portal swirl are four glass beads, red, blue, violet, and green.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9059,   1,   33556963) /* Setup */
-     , (9059,   3,  536870932) /* SoundTable */
-     , (9059,   6,   67111919) /* PaletteBase */
-     , (9059,   7,  268436119) /* ClothingBase */
-     , (9059,   8,  100671360) /* Icon */
-     , (9059,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9059,   1, 0x020009E3) /* Setup */
+     , (9059,   3, 0x20000014) /* SoundTable */
+     , (9059,   6, 0x04000BEF) /* PaletteBase */
+     , (9059,   7, 0x10000297) /* ClothingBase */
+     , (9059,   8, 0x06001F80) /* Icon */
+     , (9059,  22, 0x3400002B) /* PhysicsEffectTable */;

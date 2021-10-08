@@ -64,14 +64,14 @@ VALUES (24859,   1, 'Vincadi') /* Name */
      , (24859,   5, 'Inquisitive Creationist') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24859,   1,   33558343) /* Setup */
-     , (24859,   2,  150994984) /* MotionTable */
-     , (24859,   3,  536870930) /* SoundTable */
-     , (24859,   4,  805306381) /* CombatTable */
-     , (24859,   6,   67114250) /* PaletteBase */
-     , (24859,   7,  268436609) /* ClothingBase */
-     , (24859,   8,  100674323) /* Icon */
-     , (24859,  22,  872415273) /* PhysicsEffectTable */;
+VALUES (24859,   1, 0x02000F47) /* Setup */
+     , (24859,   2, 0x09000028) /* MotionTable */
+     , (24859,   3, 0x20000012) /* SoundTable */
+     , (24859,   4, 0x3000000D) /* CombatTable */
+     , (24859,   6, 0x0400150A) /* PaletteBase */
+     , (24859,   7, 0x10000481) /* ClothingBase */
+     , (24859,   8, 0x06002B13) /* Icon */
+     , (24859,  22, 0x34000029) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24859,   1, 340, 0, 0) /* Strength */

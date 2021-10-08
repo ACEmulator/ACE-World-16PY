@@ -52,12 +52,12 @@ VALUES (27346,   1, 'Palenqual''s Korua of the Heights') /* Name */
      , (27346,  16, 'A korua fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27346,   1,   33558664) /* Setup */
-     , (27346,   3,  536870932) /* SoundTable */
-     , (27346,   6,   67113336) /* PaletteBase */
-     , (27346,   7,  268436249) /* ClothingBase */
-     , (27346,   8,  100676368) /* Icon */
-     , (27346,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27346,   1, 0x02001088) /* Setup */
+     , (27346,   3, 0x20000014) /* SoundTable */
+     , (27346,   6, 0x04001178) /* PaletteBase */
+     , (27346,   7, 0x10000319) /* ClothingBase */
+     , (27346,   8, 0x06003310) /* Icon */
+     , (27346,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27346,  2471,      2)  /* Lesser Still Water */

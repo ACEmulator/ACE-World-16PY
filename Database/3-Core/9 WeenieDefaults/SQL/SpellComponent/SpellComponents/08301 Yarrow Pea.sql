@@ -30,10 +30,10 @@ VALUES (8301,   1, 'Yarrow Pea') /* Name */
      , (8301,  16, 'A concentrated yarrow pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8301,   1,   33554817) /* Setup */
-     , (8301,   3,  536870932) /* SoundTable */
-     , (8301,   6,   67111919) /* PaletteBase */
-     , (8301,   7,  268435720) /* ClothingBase */
-     , (8301,   8,  100671115) /* Icon */
-     , (8301,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8301,   1, 0x02000181) /* Setup */
+     , (8301,   3, 0x20000014) /* SoundTable */
+     , (8301,   6, 0x04000BEF) /* PaletteBase */
+     , (8301,   7, 0x10000108) /* ClothingBase */
+     , (8301,   8, 0x06001E8B) /* Icon */
+     , (8301,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8301,  29,        136) /* SpellComponent */;

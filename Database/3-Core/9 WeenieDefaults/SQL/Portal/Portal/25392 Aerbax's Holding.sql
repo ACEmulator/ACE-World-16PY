@@ -25,9 +25,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25392,   1, 'Aerbax''s Holding') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25392,   1,   33558570) /* Setup */
-     , (25392,   2,  150994947) /* MotionTable */
-     , (25392,   8,  100667499) /* Icon */;
+VALUES (25392,   1, 0x0200102A) /* Setup */
+     , (25392,   2, 0x09000003) /* MotionTable */
+     , (25392,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (25392, 2, 0x594B012B, 140, 0, 0.005, -0, 0, -0, -1) /* Destination */

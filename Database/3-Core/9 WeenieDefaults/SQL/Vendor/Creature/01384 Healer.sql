@@ -73,11 +73,11 @@ VALUES (1384,   1, 'Healer') /* Name */
      , (1384,   5, 'Healer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1384,   1,   33554433) /* Setup */
-     , (1384,   2,  150994945) /* MotionTable */
-     , (1384,   3,  536870913) /* SoundTable */
-     , (1384,   4,  805306368) /* CombatTable */
-     , (1384,   8,  100667446) /* Icon */;
+VALUES (1384,   1, 0x02000001) /* Setup */
+     , (1384,   2, 0x09000001) /* MotionTable */
+     , (1384,   3, 0x20000001) /* SoundTable */
+     , (1384,   4, 0x30000000) /* CombatTable */
+     , (1384,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1384,   1,  70, 0, 0) /* Strength */

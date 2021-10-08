@@ -30,9 +30,9 @@ VALUES (5643,   1, 'Portal to Arwic Mines Trap') /* Name */
      , (5643,  22, 'You hear a faint clicking sound.') /* ActivationFailure */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5643,   1,   33555193) /* Setup */
-     , (5643,   3,  536870932) /* SoundTable */
-     , (5643,   8,  100667494) /* Icon */
-     , (5643,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5643,   1, 0x020002F9) /* Setup */
+     , (5643,   3, 0x20000014) /* SoundTable */
+     , (5643,   8, 0x06001066) /* Icon */
+     , (5643,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5643,  28,        157) /* Spell - Summon Primary Portal I */
      , (5643,  31,       1088) /* LinkedPortalOne - Arwic Mines Portal */;

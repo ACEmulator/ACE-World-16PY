@@ -22,5 +22,5 @@ VALUES (15229,   1, 'Mirthless Dale') /* Name */
      , (15229,  16, 'Welcome to Mirthless Dale') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15229,   1,   33557463) /* Setup */
-     , (15229,   8,  100668115) /* Icon */;
+VALUES (15229,   1, 0x02000BD7) /* Setup */
+     , (15229,   8, 0x060012D3) /* Icon */;

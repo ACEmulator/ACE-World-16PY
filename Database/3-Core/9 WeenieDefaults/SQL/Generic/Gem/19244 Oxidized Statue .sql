@@ -27,10 +27,10 @@ VALUES (19244,   1, 'Oxidized Statue ') /* Name */
      , (19244,  16, 'A small oxidized statue of a Tumerok crafted by the Arcanum Tinker, in reward for keeping the statues that continue to threaten the cities of Dereth at bay.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19244,   1,   33554496) /* Setup */
-     , (19244,   2,  150995212) /* MotionTable */
-     , (19244,   6,   67109314) /* PaletteBase */
-     , (19244,   7,  268436373) /* ClothingBase */
-     , (19244,   8,  100667452) /* Icon */
-     , (19244,  22,  872415349) /* PhysicsEffectTable */
-     , (19244,  36,  234881046) /* MutateFilter */;
+VALUES (19244,   1, 0x02000040) /* Setup */
+     , (19244,   2, 0x0900010C) /* MotionTable */
+     , (19244,   6, 0x040001C2) /* PaletteBase */
+     , (19244,   7, 0x10000395) /* ClothingBase */
+     , (19244,   8, 0x0600103C) /* Icon */
+     , (19244,  22, 0x34000075) /* PhysicsEffectTable */
+     , (19244,  36, 0x0E000016) /* MutateFilter */;

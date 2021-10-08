@@ -60,14 +60,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24312,   1, 'Reedshark Stalker') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24312,   1,   33554489) /* Setup */
-     , (24312,   2,  150994970) /* MotionTable */
-     , (24312,   3,  536870928) /* SoundTable */
-     , (24312,   4,  805306378) /* CombatTable */
-     , (24312,   6,   67109313) /* PaletteBase */
-     , (24312,   7,  268436622) /* ClothingBase */
-     , (24312,   8,  100667939) /* Icon */
-     , (24312,  22,  872415268) /* PhysicsEffectTable */
+VALUES (24312,   1, 0x02000039) /* Setup */
+     , (24312,   2, 0x0900001A) /* MotionTable */
+     , (24312,   3, 0x20000010) /* SoundTable */
+     , (24312,   4, 0x3000000A) /* CombatTable */
+     , (24312,   6, 0x040001C1) /* PaletteBase */
+     , (24312,   7, 0x1000048E) /* ClothingBase */
+     , (24312,   8, 0x06001223) /* Icon */
+     , (24312,  22, 0x34000024) /* PhysicsEffectTable */
      , (24312,  35,        456) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

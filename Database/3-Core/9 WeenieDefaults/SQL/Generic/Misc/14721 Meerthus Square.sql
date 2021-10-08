@@ -22,5 +22,5 @@ VALUES (14721,   1, 'Meerthus Square') /* Name */
      , (14721,  16, 'Welcome to Meerthus Square') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14721,   1,   33557463) /* Setup */
-     , (14721,   8,  100668115) /* Icon */;
+VALUES (14721,   1, 0x02000BD7) /* Setup */
+     , (14721,   8, 0x060012D3) /* Icon */;

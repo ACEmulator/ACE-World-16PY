@@ -65,12 +65,12 @@ VALUES (29777,   1, 'Bag labeled "White"') /* Name */
      , (29777,  16, 'A bag that is tied shut and has a label on it that says: "White"') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29777,   1,   33559067) /* Setup */
-     , (29777,   2,  150995147) /* MotionTable */
-     , (29777,   3,  536871052) /* SoundTable */
-     , (29777,   4,  805306398) /* CombatTable */
-     , (29777,   8,  100677177) /* Icon */
-     , (29777,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (29777,   1, 0x0200121B) /* Setup */
+     , (29777,   2, 0x090000CB) /* MotionTable */
+     , (29777,   3, 0x2000008C) /* SoundTable */
+     , (29777,   4, 0x3000001E) /* CombatTable */
+     , (29777,   8, 0x06003639) /* Icon */
+     , (29777,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29777,   1, 380, 0, 0) /* Strength */

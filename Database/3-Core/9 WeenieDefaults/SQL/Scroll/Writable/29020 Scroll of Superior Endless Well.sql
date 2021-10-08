@@ -24,7 +24,7 @@ VALUES (29020,   1, 'Scroll of Superior Endless Well') /* Name */
      , (29020,  15, 'A scroll imbued with the power of the spell Superior Endless Well.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29020,   1,   33554826) /* Setup */
-     , (29020,   8,  100676939) /* Icon */
-     , (29020,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29020,   1, 0x0200018A) /* Setup */
+     , (29020,   8, 0x0600354B) /* Icon */
+     , (29020,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29020,  28,       3473) /* Spell - Superior Endless Well */;

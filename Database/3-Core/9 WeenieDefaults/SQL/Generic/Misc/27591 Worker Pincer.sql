@@ -28,7 +28,7 @@ VALUES (27591,   1, 'Worker Pincer') /* Name */
      , (27591,  33, 'OlthoiHunting6') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27591,   1,   33554817) /* Setup */
-     , (27591,   3,  536870932) /* SoundTable */
-     , (27591,   8,  100672037) /* Icon */
-     , (27591,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27591,   1, 0x02000181) /* Setup */
+     , (27591,   3, 0x20000014) /* SoundTable */
+     , (27591,   8, 0x06002225) /* Icon */
+     , (27591,  22, 0x3400002B) /* PhysicsEffectTable */;

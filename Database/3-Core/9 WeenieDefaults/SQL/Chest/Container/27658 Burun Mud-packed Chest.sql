@@ -41,11 +41,11 @@ VALUES (27658,   1, 'Burun Mud-packed Chest') /* Name */
      , (27658,  16, 'This chest looks to have been put together from several different organic materials. It seems to have its own life.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27658,   1,   33558743) /* Setup */
-     , (27658,   2,  150995247) /* MotionTable */
-     , (27658,   3,  536870991) /* SoundTable */
-     , (27658,   8,  100676528) /* Icon */
-     , (27658,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27658,   1, 0x020010D7) /* Setup */
+     , (27658,   2, 0x0900012F) /* MotionTable */
+     , (27658,   3, 0x2000004F) /* SoundTable */
+     , (27658,   8, 0x060033B0) /* Icon */
+     , (27658,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27658, -1, 27683, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Renegade Lugian Ring (27683) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

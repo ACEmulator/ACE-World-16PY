@@ -33,10 +33,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4381,   1, 'Corpse') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4381,   1,   33556618) /* Setup */
-     , (4381,   3,  536870932) /* SoundTable */
-     , (4381,   8,  100667504) /* Icon */
-     , (4381,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4381,   1, 0x0200088A) /* Setup */
+     , (4381,   3, 0x20000014) /* SoundTable */
+     , (4381,   8, 0x06001070) /* Icon */
+     , (4381,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4381, 0.1, 5339, 1000, 1, 1, 2, 8, 6, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Bundle of Quarrelshafts (5339) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

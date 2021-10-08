@@ -25,9 +25,9 @@ VALUES (25899,   1, 'Mite Leg Bone') /* Name */
      , (25899,  16, 'A bone taken from the corpse of a colossal mite.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25899,   1,   33554817) /* Setup */
-     , (25899,   3,  536870932) /* SoundTable */
-     , (25899,   6,   67111919) /* PaletteBase */
-     , (25899,   7,  268435832) /* ClothingBase */
-     , (25899,   8,  100675630) /* Icon */
-     , (25899,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25899,   1, 0x02000181) /* Setup */
+     , (25899,   3, 0x20000014) /* SoundTable */
+     , (25899,   6, 0x04000BEF) /* PaletteBase */
+     , (25899,   7, 0x10000178) /* ClothingBase */
+     , (25899,   8, 0x0600302E) /* Icon */
+     , (25899,  22, 0x3400002B) /* PhysicsEffectTable */;

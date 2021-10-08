@@ -36,10 +36,10 @@ VALUES (30340,   1, 'Bearded Axe of Souia Vey') /* Name */
      , (30340,  16, 'Describe me here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30340,   1,   33554725) /* Setup */
-     , (30340,   3,  536870932) /* SoundTable */
-     , (30340,   6,   67111919) /* PaletteBase */
-     , (30340,   7,  268435779) /* ClothingBase */
-     , (30340,   8,  100668985) /* Icon */
-     , (30340,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30340,   1, 0x02000125) /* Setup */
+     , (30340,   3, 0x20000014) /* SoundTable */
+     , (30340,   6, 0x04000BEF) /* PaletteBase */
+     , (30340,   7, 0x10000143) /* ClothingBase */
+     , (30340,   8, 0x06001639) /* Icon */
+     , (30340,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30340,  30,         88) /* PhysicsScript - Create */;

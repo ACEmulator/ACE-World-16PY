@@ -43,11 +43,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29254,   1, 'Electric Atlatl') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29254,   1,   33559245) /* Setup */
-     , (29254,   3,  536870932) /* SoundTable */
-     , (29254,   6,   67115373) /* PaletteBase */
-     , (29254,   7,  268436904) /* ClothingBase */
-     , (29254,   8,  100673250) /* Icon */
-     , (29254,  22,  872415275) /* PhysicsEffectTable */
-     , (29254,  36,  234881053) /* MutateFilter */
-     , (29254,  46,  939524169) /* TsysMutationFilter */;
+VALUES (29254,   1, 0x020012CD) /* Setup */
+     , (29254,   3, 0x20000014) /* SoundTable */
+     , (29254,   6, 0x0400196D) /* PaletteBase */
+     , (29254,   7, 0x100005A8) /* ClothingBase */
+     , (29254,   8, 0x060026E2) /* Icon */
+     , (29254,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29254,  36, 0x0E00001D) /* MutateFilter */
+     , (29254,  46, 0x38000049) /* TsysMutationFilter */;

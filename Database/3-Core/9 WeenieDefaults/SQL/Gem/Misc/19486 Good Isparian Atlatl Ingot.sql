@@ -31,9 +31,9 @@ VALUES (19486,   1, 'Good Isparian Atlatl Ingot') /* Name */
      , (19486,  16, 'An diamond infused ingot, enhanced and stamped with an atlatl glyph.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19486,   1,   33555677) /* Setup */
-     , (19486,   3,  536870932) /* SoundTable */
-     , (19486,   6,   67111919) /* PaletteBase */
-     , (19486,   7,  268435723) /* ClothingBase */
-     , (19486,   8,  100672971) /* Icon */
-     , (19486,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19486,   1, 0x020004DD) /* Setup */
+     , (19486,   3, 0x20000014) /* SoundTable */
+     , (19486,   6, 0x04000BEF) /* PaletteBase */
+     , (19486,   7, 0x1000010B) /* ClothingBase */
+     , (19486,   8, 0x060025CB) /* Icon */
+     , (19486,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -37,9 +37,9 @@ VALUES (30337,   1, 'Skullpuncher') /* Name */
      , (30337,  16, 'Describe me here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30337,   1,   33555997) /* Setup */
-     , (30337,   3,  536870932) /* SoundTable */
-     , (30337,   6,   67111919) /* PaletteBase */
-     , (30337,   7,  268435829) /* ClothingBase */
-     , (30337,   8,  100670016) /* Icon */
-     , (30337,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30337,   1, 0x0200061D) /* Setup */
+     , (30337,   3, 0x20000014) /* SoundTable */
+     , (30337,   6, 0x04000BEF) /* PaletteBase */
+     , (30337,   7, 0x10000175) /* ClothingBase */
+     , (30337,   8, 0x06001A40) /* Icon */
+     , (30337,  22, 0x3400002B) /* PhysicsEffectTable */;

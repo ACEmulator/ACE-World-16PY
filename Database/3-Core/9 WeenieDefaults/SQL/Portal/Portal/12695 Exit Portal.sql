@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12695,   1, 'Exit Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12695,   1,   33554867) /* Setup */
-     , (12695,   2,  150994947) /* MotionTable */
-     , (12695,   8,  100667499) /* Icon */;
+VALUES (12695,   1, 0x020001B3) /* Setup */
+     , (12695,   2, 0x09000003) /* MotionTable */
+     , (12695,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12695, 2, 0xA5B40033, 158.08, 66.886, 48.5, 0.863774, 0, 0, -0.50388) /* Destination */

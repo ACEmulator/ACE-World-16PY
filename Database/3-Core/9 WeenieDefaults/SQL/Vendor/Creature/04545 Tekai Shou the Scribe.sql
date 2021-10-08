@@ -70,11 +70,11 @@ VALUES (4545,   1, 'Tekai Shou the Scribe') /* Name */
      , (4545,  24, 'Lin') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4545,   1,   33554510) /* Setup */
-     , (4545,   2,  150994945) /* MotionTable */
-     , (4545,   3,  536870914) /* SoundTable */
-     , (4545,   4,  805306368) /* CombatTable */
-     , (4545,   8,  100667446) /* Icon */;
+VALUES (4545,   1, 0x0200004E) /* Setup */
+     , (4545,   2, 0x09000001) /* MotionTable */
+     , (4545,   3, 0x20000002) /* SoundTable */
+     , (4545,   4, 0x30000000) /* CombatTable */
+     , (4545,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4545,   1,  50, 0, 0) /* Strength */

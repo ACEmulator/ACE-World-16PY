@@ -22,5 +22,5 @@ VALUES (479,   1, 'Rithwic: 3 miles ') /* Name */
      , (479,  16, 'Hamlet of Rithwic: 3 miles.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (479,   1,   33555984) /* Setup */
-     , (479,   8,  100668115) /* Icon */;
+VALUES (479,   1, 0x02000610) /* Setup */
+     , (479,   8, 0x060012D3) /* Icon */;

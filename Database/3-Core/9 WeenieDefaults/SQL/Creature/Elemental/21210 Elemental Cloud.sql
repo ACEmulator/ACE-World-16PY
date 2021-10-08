@@ -68,12 +68,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21210,   1, 'Elemental Cloud') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21210,   1,   33557885) /* Setup */
-     , (21210,   2,  150994968) /* MotionTable */
-     , (21210,   3,  536870985) /* SoundTable */
-     , (21210,   4,  805306376) /* CombatTable */
-     , (21210,   8,  100673378) /* Icon */
-     , (21210,  22,  872415331) /* PhysicsEffectTable */;
+VALUES (21210,   1, 0x02000D7D) /* Setup */
+     , (21210,   2, 0x09000018) /* MotionTable */
+     , (21210,   3, 0x20000049) /* SoundTable */
+     , (21210,   4, 0x30000008) /* CombatTable */
+     , (21210,   8, 0x06002762) /* Icon */
+     , (21210,  22, 0x34000063) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (21210,   1,  10, 0, 0) /* Strength */

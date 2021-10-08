@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20633,   1, 'Warlock of the Blood') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20633,   1,   33554839) /* Setup */
-     , (20633,   2,  150994967) /* MotionTable */
-     , (20633,   3,  536870934) /* SoundTable */
-     , (20633,   4,  805306368) /* CombatTable */
-     , (20633,   6,   67110722) /* PaletteBase */
-     , (20633,   7,  268435558) /* ClothingBase */
-     , (20633,   8,  100667942) /* Icon */
-     , (20633,  22,  872415272) /* PhysicsEffectTable */
+VALUES (20633,   1, 0x02000197) /* Setup */
+     , (20633,   2, 0x09000017) /* MotionTable */
+     , (20633,   3, 0x20000016) /* SoundTable */
+     , (20633,   4, 0x30000000) /* CombatTable */
+     , (20633,   6, 0x04000742) /* PaletteBase */
+     , (20633,   7, 0x10000066) /* ClothingBase */
+     , (20633,   8, 0x06001226) /* Icon */
+     , (20633,  22, 0x34000028) /* PhysicsEffectTable */
      , (20633,  32,        291) /* WieldedTreasureType - 
                                    Wield 5x Frost Throwing Club (23663) | Probability: 40%
                                    Wield 5x Throwing Club (23655) | Probability: 30.000002%

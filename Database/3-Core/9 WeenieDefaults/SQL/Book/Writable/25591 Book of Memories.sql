@@ -27,10 +27,10 @@ VALUES (25591,   1, 'Book of Memories') /* Name */
      , (25591,  33, 'PickedUpJournalGarethDain') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25591,   1,   33558504) /* Setup */
-     , (25591,   3,  536870932) /* SoundTable */
-     , (25591,   8,  100675049) /* Icon */
-     , (25591,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25591,   1, 0x02000FE8) /* Setup */
+     , (25591,   3, 0x20000014) /* SoundTable */
+     , (25591,   8, 0x06002DE9) /* Icon */
+     , (25591,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (25591, 9, 1000);

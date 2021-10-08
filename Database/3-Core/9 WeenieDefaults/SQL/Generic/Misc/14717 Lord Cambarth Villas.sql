@@ -22,5 +22,5 @@ VALUES (14717,   1, 'Lord Cambarth Villas') /* Name */
      , (14717,  16, 'Welcome to Lord Cambarth Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14717,   1,   33557463) /* Setup */
-     , (14717,   8,  100668115) /* Icon */;
+VALUES (14717,   1, 0x02000BD7) /* Setup */
+     , (14717,   8, 0x060012D3) /* Icon */;

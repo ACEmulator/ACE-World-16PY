@@ -40,11 +40,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28852,   1, 'Fiun Spellcasting Gloves') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28852,   1,   33554648) /* Setup */
-     , (28852,   3,  536870932) /* SoundTable */
-     , (28852,   6,   67108990) /* PaletteBase */
-     , (28852,   7,  268435476) /* ClothingBase */
-     , (28852,   8,  100667339) /* Icon */
-     , (28852,  22,  872415275) /* PhysicsEffectTable */
-     , (28852,  36,  234881042) /* MutateFilter */
-     , (28852,  46,  939524146) /* TsysMutationFilter */;
+VALUES (28852,   1, 0x020000D8) /* Setup */
+     , (28852,   3, 0x20000014) /* SoundTable */
+     , (28852,   6, 0x0400007E) /* PaletteBase */
+     , (28852,   7, 0x10000014) /* ClothingBase */
+     , (28852,   8, 0x06000FCB) /* Icon */
+     , (28852,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (28852,  36, 0x0E000012) /* MutateFilter */
+     , (28852,  46, 0x38000032) /* TsysMutationFilter */;

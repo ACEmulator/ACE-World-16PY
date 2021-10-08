@@ -34,10 +34,10 @@ VALUES (12271,   1, 'Fragment of the New Singularity') /* Name */
      , (12271,  16, 'An item throbbing with unstable magic, the product of the combination of three Virindi artifacts.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12271,   1,   33557381) /* Setup */
-     , (12271,   3,  536870932) /* SoundTable */
-     , (12271,   6,   67113398) /* PaletteBase */
-     , (12271,   7,  268436282) /* ClothingBase */
-     , (12271,   8,  100672199) /* Icon */
-     , (12271,  22,  872415275) /* PhysicsEffectTable */
-     , (12271,  36,  234881046) /* MutateFilter */;
+VALUES (12271,   1, 0x02000B85) /* Setup */
+     , (12271,   3, 0x20000014) /* SoundTable */
+     , (12271,   6, 0x040011B6) /* PaletteBase */
+     , (12271,   7, 0x1000033A) /* ClothingBase */
+     , (12271,   8, 0x060022C7) /* Icon */
+     , (12271,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (12271,  36, 0x0E000016) /* MutateFilter */;

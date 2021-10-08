@@ -47,12 +47,12 @@ VALUES (12154,   1, 'Imbued Shield of the Simulacra') /* Name */
      , (12154,  16, 'A shield imbued with the power of the Asteliary Gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12154,   1,   33557348) /* Setup */
-     , (12154,   3,  536870932) /* SoundTable */
-     , (12154,   6,   67111919) /* PaletteBase */
-     , (12154,   7,  268435607) /* ClothingBase */
-     , (12154,   8,  100672135) /* Icon */
-     , (12154,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12154,   1, 0x02000B64) /* Setup */
+     , (12154,   3, 0x20000014) /* SoundTable */
+     , (12154,   6, 0x04000BEF) /* PaletteBase */
+     , (12154,   7, 0x10000097) /* ClothingBase */
+     , (12154,   8, 0x06002287) /* Icon */
+     , (12154,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12154,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

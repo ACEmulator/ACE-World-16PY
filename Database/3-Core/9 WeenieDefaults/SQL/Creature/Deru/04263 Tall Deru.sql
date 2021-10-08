@@ -60,12 +60,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4263,   1, 'Tall Deru') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4263,   1,   33555162) /* Setup */
-     , (4263,   2,  150995077) /* MotionTable */
-     , (4263,   3,  536870917) /* SoundTable */
-     , (4263,   4,  805306405) /* CombatTable */
-     , (4263,   8,  100667494) /* Icon */
-     , (4263,  22,  872415338) /* PhysicsEffectTable */
+VALUES (4263,   1, 0x020002DA) /* Setup */
+     , (4263,   2, 0x09000085) /* MotionTable */
+     , (4263,   3, 0x20000005) /* SoundTable */
+     , (4263,   4, 0x30000025) /* CombatTable */
+     , (4263,   8, 0x06001066) /* Icon */
+     , (4263,  22, 0x3400006A) /* PhysicsEffectTable */
      , (4263,  35,         65) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

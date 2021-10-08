@@ -29,7 +29,7 @@ VALUES (15424,   1, 'Wrapped Bundle of Deadly Broad Arrowheads') /* Name */
      , (15424,  20, 'Wrapped Bundles of Deadly Broad Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15424,   1,   33557030) /* Setup */
-     , (15424,   3,  536870932) /* SoundTable */
-     , (15424,   8,  100672690) /* Icon */
-     , (15424,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15424,   1, 0x02000A26) /* Setup */
+     , (15424,   3, 0x20000014) /* SoundTable */
+     , (15424,   8, 0x060024B2) /* Icon */
+     , (15424,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -25,9 +25,9 @@ VALUES (23512,   1, 'An Archive') /* Name */
      , (23512,  37, 'GotTamianJournal') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23512,   1,   33554867) /* Setup */
-     , (23512,   2,  150994947) /* MotionTable */
-     , (23512,   8,  100667499) /* Icon */;
+VALUES (23512,   1, 0x020001B3) /* Setup */
+     , (23512,   2, 0x09000003) /* MotionTable */
+     , (23512,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23512, 2, 0x564601DC, 29.8764, -251.507, 0.005, 1, 0, 0, -0) /* Destination */

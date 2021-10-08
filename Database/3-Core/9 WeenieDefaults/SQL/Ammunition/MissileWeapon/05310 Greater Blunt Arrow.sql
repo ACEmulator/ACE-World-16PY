@@ -40,9 +40,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5310,   1, 'Greater Blunt Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5310,   1,   33554724) /* Setup */
-     , (5310,   3,  536870932) /* SoundTable */
-     , (5310,   6,   67111919) /* PaletteBase */
-     , (5310,   7,  268436303) /* ClothingBase */
-     , (5310,   8,  100670197) /* Icon */
-     , (5310,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5310,   1, 0x02000124) /* Setup */
+     , (5310,   3, 0x20000014) /* SoundTable */
+     , (5310,   6, 0x04000BEF) /* PaletteBase */
+     , (5310,   7, 0x1000034F) /* ClothingBase */
+     , (5310,   8, 0x06001AF5) /* Icon */
+     , (5310,  22, 0x3400002B) /* PhysicsEffectTable */;

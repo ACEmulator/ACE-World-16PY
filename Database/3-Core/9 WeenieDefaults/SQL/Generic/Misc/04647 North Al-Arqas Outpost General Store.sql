@@ -23,7 +23,7 @@ VALUES (4647,   1, 'North Al-Arqas Outpost General Store') /* Name */
      , (4647,  16, 'North Al-Arqas Outpost General Store') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4647,   1,   33555909) /* Setup */
-     , (4647,   6,   67111860) /* PaletteBase */
-     , (4647,   7,  268435820) /* ClothingBase */
-     , (4647,   8,  100668115) /* Icon */;
+VALUES (4647,   1, 0x020005C5) /* Setup */
+     , (4647,   6, 0x04000BB4) /* PaletteBase */
+     , (4647,   7, 0x1000016C) /* ClothingBase */
+     , (4647,   8, 0x060012D3) /* Icon */;

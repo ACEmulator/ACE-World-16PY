@@ -25,9 +25,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24228,   1, 'Deeper Catacombs') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24228,   1,   33554867) /* Setup */
-     , (24228,   2,  150994947) /* MotionTable */
-     , (24228,   8,  100667499) /* Icon */;
+VALUES (24228,   1, 0x020001B3) /* Setup */
+     , (24228,   2, 0x09000003) /* MotionTable */
+     , (24228,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24228, 2, 0x57510251, 3.87091, -90.3084, 0.005, 1, 0, 0, -0) /* Destination */

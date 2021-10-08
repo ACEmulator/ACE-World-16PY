@@ -51,13 +51,13 @@ VALUES (11433,   1, 'Palenqual''s Taiaha of the Vortex') /* Name */
      , (11433,  16, 'A taiaha fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11433,   1,   33557236) /* Setup */
-     , (11433,   3,  536870932) /* SoundTable */
-     , (11433,   6,   67113336) /* PaletteBase */
-     , (11433,   7,  268436253) /* ClothingBase */
-     , (11433,   8,  100672092) /* Icon */
-     , (11433,  22,  872415275) /* PhysicsEffectTable */
-     , (11433,  36,  234881044) /* MutateFilter */;
+VALUES (11433,   1, 0x02000AF4) /* Setup */
+     , (11433,   3, 0x20000014) /* SoundTable */
+     , (11433,   6, 0x04001178) /* PaletteBase */
+     , (11433,   7, 0x1000031D) /* ClothingBase */
+     , (11433,   8, 0x0600225C) /* Icon */
+     , (11433,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11433,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11433,  2438,      2)  /* Lesser Rockslide */

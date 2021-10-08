@@ -63,12 +63,12 @@ VALUES (26541,   1, 'Ixir Zi''s, Staff of Eyes') /* Name */
      , (26541,  15, 'An ever watchful eye is atop this ornate staff. Power akin to the art of Item Magic seems to flow from it.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26541,   1,   33558601) /* Setup */
-     , (26541,   2,  150995273) /* MotionTable */
-     , (26541,   3,  536871052) /* SoundTable */
-     , (26541,   4,  805306398) /* CombatTable */
-     , (26541,   8,  100675776) /* Icon */
-     , (26541,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (26541,   1, 0x02001049) /* Setup */
+     , (26541,   2, 0x09000149) /* MotionTable */
+     , (26541,   3, 0x2000008C) /* SoundTable */
+     , (26541,   4, 0x3000001E) /* CombatTable */
+     , (26541,   8, 0x060030C0) /* Icon */
+     , (26541,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (26541,   1, 380, 0, 0) /* Strength */

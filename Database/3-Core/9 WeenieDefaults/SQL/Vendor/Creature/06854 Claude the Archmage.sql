@@ -77,13 +77,13 @@ VALUES (6854,   1, 'Claude the Archmage') /* Name */
      , (6854,  24, 'Ayan Baqur') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6854,   1,   33554497) /* Setup */
-     , (6854,   2,  150994984) /* MotionTable */
-     , (6854,   3,  536870930) /* SoundTable */
-     , (6854,   4,  805306381) /* CombatTable */
-     , (6854,   6,   67111346) /* PaletteBase */
-     , (6854,   7,  268435648) /* ClothingBase */
-     , (6854,   8,  100667943) /* Icon */;
+VALUES (6854,   1, 0x02000041) /* Setup */
+     , (6854,   2, 0x09000028) /* MotionTable */
+     , (6854,   3, 0x20000012) /* SoundTable */
+     , (6854,   4, 0x3000000D) /* CombatTable */
+     , (6854,   6, 0x040009B2) /* PaletteBase */
+     , (6854,   7, 0x100000C0) /* ClothingBase */
+     , (6854,   8, 0x06001227) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6854,   1, 140, 0, 0) /* Strength */

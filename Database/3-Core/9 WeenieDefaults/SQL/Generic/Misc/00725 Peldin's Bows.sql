@@ -22,7 +22,7 @@ VALUES (725,   1, 'Peldin''s Bows') /* Name */
      , (725,  16, 'Peldin''s Bows') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (725,   1,   33555088) /* Setup */
-     , (725,   6,   67111092) /* PaletteBase */
-     , (725,   7,  268435654) /* ClothingBase */
-     , (725,   8,  100668115) /* Icon */;
+VALUES (725,   1, 0x02000290) /* Setup */
+     , (725,   6, 0x040008B4) /* PaletteBase */
+     , (725,   7, 0x100000C6) /* ClothingBase */
+     , (725,   8, 0x060012D3) /* Icon */;

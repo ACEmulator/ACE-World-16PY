@@ -28,8 +28,8 @@ VALUES (5359,   1, 'Door to Brogord''s Quarters') /* Name */
      , (5359,  14, 'Use this item to open it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5359,   1,   33555023) /* Setup */
-     , (5359,   2,  150994966) /* MotionTable */
-     , (5359,   3,  536870946) /* SoundTable */
-     , (5359,   8,  100668183) /* Icon */
-     , (5359,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5359,   1, 0x0200024F) /* Setup */
+     , (5359,   2, 0x09000016) /* MotionTable */
+     , (5359,   3, 0x20000022) /* SoundTable */
+     , (5359,   8, 0x06001317) /* Icon */
+     , (5359,  22, 0x3400002B) /* PhysicsEffectTable */;

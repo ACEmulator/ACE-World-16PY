@@ -26,9 +26,9 @@ VALUES (25835,   1, 'Firebird''s Splendor') /* Name */
      , (25835,  37, 'EmptySoulFirebird') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25835,   1,   33555926) /* Setup */
-     , (25835,   2,  150994947) /* MotionTable */
-     , (25835,   8,  100667499) /* Icon */;
+VALUES (25835,   1, 0x020005D6) /* Setup */
+     , (25835,   2, 0x09000003) /* MotionTable */
+     , (25835,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (25835, 2, 0x644902D1, 290.074, -44.179, 0.005, -0, 0, -0, -1) /* Destination */

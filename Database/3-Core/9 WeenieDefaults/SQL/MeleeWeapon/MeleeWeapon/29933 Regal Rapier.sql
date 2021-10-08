@@ -48,10 +48,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29933,   1, 'Regal Rapier') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29933,   1,   33559054) /* Setup */
-     , (29933,   3,  536870932) /* SoundTable */
-     , (29933,   8,  100676973) /* Icon */
-     , (29933,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29933,   1, 0x0200120E) /* Setup */
+     , (29933,   3, 0x20000014) /* SoundTable */
+     , (29933,   8, 0x0600356D) /* Icon */
+     , (29933,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29933,  1604,      2)  /* Aura of Defender Self V */

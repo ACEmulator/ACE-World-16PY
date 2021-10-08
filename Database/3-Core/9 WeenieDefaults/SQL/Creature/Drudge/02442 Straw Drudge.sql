@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2442,   1, 'Straw Drudge') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2442,   1,   33554484) /* Setup */
-     , (2442,   2,  150995082) /* MotionTable */
-     , (2442,   3,  536870993) /* SoundTable */
-     , (2442,   4,  805306372) /* CombatTable */
-     , (2442,   6,   67109305) /* PaletteBase */
-     , (2442,   7,  268435834) /* ClothingBase */
-     , (2442,   8,  100667445) /* Icon */
-     , (2442,  22,  872415339) /* PhysicsEffectTable */
+VALUES (2442,   1, 0x02000034) /* Setup */
+     , (2442,   2, 0x0900008A) /* MotionTable */
+     , (2442,   3, 0x20000051) /* SoundTable */
+     , (2442,   4, 0x30000004) /* CombatTable */
+     , (2442,   6, 0x040001B9) /* PaletteBase */
+     , (2442,   7, 0x1000017A) /* ClothingBase */
+     , (2442,   8, 0x06001035) /* Icon */
+     , (2442,  22, 0x3400006B) /* PhysicsEffectTable */
      , (2442,  35,         73) /* DeathTreasureType */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

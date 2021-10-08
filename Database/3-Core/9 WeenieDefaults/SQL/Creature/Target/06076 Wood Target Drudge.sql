@@ -64,14 +64,14 @@ VALUES (6076,   1, 'Wood Target Drudge') /* Name */
      , (6076,  15, 'A simple dummy drudge made of a lightweight, soft wood.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6076,   1,   33554484) /* Setup */
-     , (6076,   2,  150995082) /* MotionTable */
-     , (6076,   3,  536870993) /* SoundTable */
-     , (6076,   4,  805306372) /* CombatTable */
-     , (6076,   6,   67109305) /* PaletteBase */
-     , (6076,   7,  268435834) /* ClothingBase */
-     , (6076,   8,  100667445) /* Icon */
-     , (6076,  22,  872415339) /* PhysicsEffectTable */;
+VALUES (6076,   1, 0x02000034) /* Setup */
+     , (6076,   2, 0x0900008A) /* MotionTable */
+     , (6076,   3, 0x20000051) /* SoundTable */
+     , (6076,   4, 0x30000004) /* CombatTable */
+     , (6076,   6, 0x040001B9) /* PaletteBase */
+     , (6076,   7, 0x1000017A) /* ClothingBase */
+     , (6076,   8, 0x06001035) /* Icon */
+     , (6076,  22, 0x3400006B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6076,   1,   1, 0, 0) /* Strength */

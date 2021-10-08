@@ -27,10 +27,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2401,   1, 'Zircon') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2401,   1,   33554809) /* Setup */
-     , (2401,   3,  536870932) /* SoundTable */
-     , (2401,   6,   67111919) /* PaletteBase */
-     , (2401,   7,  268435723) /* ClothingBase */
-     , (2401,   8,  100674726) /* Icon */
-     , (2401,  22,  872415275) /* PhysicsEffectTable */
-     , (2401,  36,  234881046) /* MutateFilter */;
+VALUES (2401,   1, 0x02000179) /* Setup */
+     , (2401,   3, 0x20000014) /* SoundTable */
+     , (2401,   6, 0x04000BEF) /* PaletteBase */
+     , (2401,   7, 0x1000010B) /* ClothingBase */
+     , (2401,   8, 0x06002CA6) /* Icon */
+     , (2401,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (2401,  36, 0x0E000016) /* MutateFilter */;

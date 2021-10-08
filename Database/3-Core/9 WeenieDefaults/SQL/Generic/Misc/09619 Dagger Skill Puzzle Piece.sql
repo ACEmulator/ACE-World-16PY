@@ -28,10 +28,10 @@ VALUES (9619,   1, 'Dagger Skill Puzzle Piece') /* Name */
      , (9619,  16, 'A Dagger skill puzzle piece.  Combine it with a Skill Puzzle Base Piece.  This item requires Dagger skill to assemble.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9619,   1,   33554669) /* Setup */
-     , (9619,   3,  536870932) /* SoundTable */
-     , (9619,   6,   67111928) /* PaletteBase */
-     , (9619,   7,  268436178) /* ClothingBase */
-     , (9619,   8,  100671542) /* Icon */
-     , (9619,  22,  872415275) /* PhysicsEffectTable */
-     , (9619,  36,  234881046) /* MutateFilter */;
+VALUES (9619,   1, 0x020000ED) /* Setup */
+     , (9619,   3, 0x20000014) /* SoundTable */
+     , (9619,   6, 0x04000BF8) /* PaletteBase */
+     , (9619,   7, 0x100002D2) /* ClothingBase */
+     , (9619,   8, 0x06002036) /* Icon */
+     , (9619,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (9619,  36, 0x0E000016) /* MutateFilter */;

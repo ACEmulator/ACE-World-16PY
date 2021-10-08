@@ -35,10 +35,10 @@ VALUES (15761,   1, 'Ruined Amulet of the Axe') /* Name */
      , (15761,  16, 'An amulet crafted in pyreal that bears the symbol of an axe. The amulet is damaged, seemingly beyond repair.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15761,   1,   33554680) /* Setup */
-     , (15761,   3,  536870932) /* SoundTable */
-     , (15761,   6,   67111919) /* PaletteBase */
-     , (15761,   7,  268436095) /* ClothingBase */
-     , (15761,   8,  100672806) /* Icon */
-     , (15761,  22,  872415275) /* PhysicsEffectTable */
-     , (15761,  36,  234881046) /* MutateFilter */;
+VALUES (15761,   1, 0x020000F8) /* Setup */
+     , (15761,   3, 0x20000014) /* SoundTable */
+     , (15761,   6, 0x04000BEF) /* PaletteBase */
+     , (15761,   7, 0x1000027F) /* ClothingBase */
+     , (15761,   8, 0x06002526) /* Icon */
+     , (15761,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (15761,  36, 0x0E000016) /* MutateFilter */;

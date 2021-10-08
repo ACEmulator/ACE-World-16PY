@@ -29,9 +29,9 @@ VALUES (24176,   1, 'Jaleh''s Wedding Ring') /* Name */
      , (24176,  33, 'RingJalehTaken') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24176,   1,   33554691) /* Setup */
-     , (24176,   3,  536870932) /* SoundTable */
-     , (24176,   6,   67111919) /* PaletteBase */
-     , (24176,   7,  268435753) /* ClothingBase */
-     , (24176,   8,  100674285) /* Icon */
-     , (24176,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24176,   1, 0x02000103) /* Setup */
+     , (24176,   3, 0x20000014) /* SoundTable */
+     , (24176,   6, 0x04000BEF) /* PaletteBase */
+     , (24176,   7, 0x10000129) /* ClothingBase */
+     , (24176,   8, 0x06002AED) /* Icon */
+     , (24176,  22, 0x3400002B) /* PhysicsEffectTable */;

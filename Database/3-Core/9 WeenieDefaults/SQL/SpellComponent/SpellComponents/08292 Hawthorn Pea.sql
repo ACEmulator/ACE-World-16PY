@@ -30,10 +30,10 @@ VALUES (8292,   1, 'Hawthorn Pea') /* Name */
      , (8292,  16, 'A concentrated hawthorn pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8292,   1,   33554817) /* Setup */
-     , (8292,   3,  536870932) /* SoundTable */
-     , (8292,   6,   67111919) /* PaletteBase */
-     , (8292,   7,  268435720) /* ClothingBase */
-     , (8292,   8,  100671050) /* Icon */
-     , (8292,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8292,   1, 0x02000181) /* Setup */
+     , (8292,   3, 0x20000014) /* SoundTable */
+     , (8292,   6, 0x04000BEF) /* PaletteBase */
+     , (8292,   7, 0x10000108) /* ClothingBase */
+     , (8292,   8, 0x06001E4A) /* Icon */
+     , (8292,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8292,  29,        127) /* SpellComponent */;

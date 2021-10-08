@@ -24,7 +24,7 @@ VALUES (20609,   1, 'Scroll of Gift of Vigor') /* Name */
      , (20609,  15, 'When learned, this spell drains one-quarter of the caster''s Stamina and gives 175% of that to the target.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20609,   1,   33554826) /* Setup */
-     , (20609,   8,  100676930) /* Icon */
-     , (20609,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20609,   1, 0x0200018A) /* Setup */
+     , (20609,   8, 0x06003542) /* Icon */
+     , (20609,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20609,  28,       2337) /* Spell - Gift of Vigor */;

@@ -37,7 +37,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4184,   1, 'Practice Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4184,   1,   33554724) /* Setup */
-     , (4184,   3,  536870932) /* SoundTable */
-     , (4184,   8,  100667622) /* Icon */
-     , (4184,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4184,   1, 0x02000124) /* Setup */
+     , (4184,   3, 0x20000014) /* SoundTable */
+     , (4184,   8, 0x060010E6) /* Icon */
+     , (4184,  22, 0x3400002B) /* PhysicsEffectTable */;

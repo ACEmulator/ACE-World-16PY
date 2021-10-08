@@ -64,12 +64,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8469,   1, 'Sulthis Tentacle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8469,   1,   33555670) /* Setup */
-     , (8469,   2,  150995067) /* MotionTable */
-     , (8469,   3,  536871015) /* SoundTable */
-     , (8469,   4,  805306404) /* CombatTable */
-     , (8469,   8,  100671186) /* Icon */
-     , (8469,  22,  872415332) /* PhysicsEffectTable */
+VALUES (8469,   1, 0x020004D6) /* Setup */
+     , (8469,   2, 0x0900007B) /* MotionTable */
+     , (8469,   3, 0x20000067) /* SoundTable */
+     , (8469,   4, 0x30000024) /* CombatTable */
+     , (8469,   8, 0x06001ED2) /* Icon */
+     , (8469,  22, 0x34000064) /* PhysicsEffectTable */
      , (8469,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

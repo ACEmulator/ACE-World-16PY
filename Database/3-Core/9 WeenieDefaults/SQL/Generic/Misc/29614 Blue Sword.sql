@@ -29,9 +29,9 @@ VALUES (29614,   1, 'Blue Sword') /* Name */
      , (29614,  16, 'A decorative blue sword.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29614,   1,   33559063) /* Setup */
-     , (29614,   3,  536870932) /* SoundTable */
-     , (29614,   6,   67111919) /* PaletteBase */
-     , (29614,   7,  268435770) /* ClothingBase */
-     , (29614,   8,  100669015) /* Icon */
-     , (29614,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29614,   1, 0x02001217) /* Setup */
+     , (29614,   3, 0x20000014) /* SoundTable */
+     , (29614,   6, 0x04000BEF) /* PaletteBase */
+     , (29614,   7, 0x1000013A) /* ClothingBase */
+     , (29614,   8, 0x06001657) /* Icon */
+     , (29614,  22, 0x3400002B) /* PhysicsEffectTable */;

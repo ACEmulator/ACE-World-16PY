@@ -38,11 +38,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (67,   1, 'Scalemail Greaves') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (67,   1,   33554641) /* Setup */
-     , (67,   3,  536870932) /* SoundTable */
-     , (67,   6,   67108990) /* PaletteBase */
-     , (67,   7,  268435530) /* ClothingBase */
-     , (67,   8,  100667334) /* Icon */
-     , (67,  22,  872415275) /* PhysicsEffectTable */
-     , (67,  36,  234881042) /* MutateFilter */
-     , (67,  46,  939524146) /* TsysMutationFilter */;
+VALUES (67,   1, 0x020000D1) /* Setup */
+     , (67,   3, 0x20000014) /* SoundTable */
+     , (67,   6, 0x0400007E) /* PaletteBase */
+     , (67,   7, 0x1000004A) /* ClothingBase */
+     , (67,   8, 0x06000FC6) /* Icon */
+     , (67,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (67,  36, 0x0E000012) /* MutateFilter */
+     , (67,  46, 0x38000032) /* TsysMutationFilter */;

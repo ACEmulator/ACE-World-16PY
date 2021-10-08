@@ -44,12 +44,12 @@ VALUES (11779,   1, 'Reinforced Mask Spear') /* Name */
      , (11779,  16, 'A reinforced, spear-tipped banner with a mask on it.  It is in almost perfect condition, and the colors are quite vibrant.  As you gaze at the mask, it almost seems to be gazing back.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11779,   1,   33557254) /* Setup */
-     , (11779,   3,  536870932) /* SoundTable */
-     , (11779,   6,   67113338) /* PaletteBase */
-     , (11779,   7,  268436211) /* ClothingBase */
-     , (11779,   8,  100671932) /* Icon */
-     , (11779,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11779,   1, 0x02000B06) /* Setup */
+     , (11779,   3, 0x20000014) /* SoundTable */
+     , (11779,   6, 0x0400117A) /* PaletteBase */
+     , (11779,   7, 0x100002F3) /* ClothingBase */
+     , (11779,   8, 0x060021BC) /* Icon */
+     , (11779,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11779,  2013,      2)  /* Wizard's Greater Intellect */;

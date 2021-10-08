@@ -25,7 +25,7 @@ VALUES (2864,   1, 'Scroll of Lure Blade IV') /* Name */
      , (2864,  16, 'When learned, this spell decreases a weapon''s Defense Skill modifier by 43%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2864,   1,   33554826) /* Setup */
-     , (2864,   8,  100676670) /* Icon */
-     , (2864,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2864,   1, 0x0200018A) /* Setup */
+     , (2864,   8, 0x0600343E) /* Icon */
+     , (2864,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2864,  28,       1609) /* Spell - Lure Blade IV */;

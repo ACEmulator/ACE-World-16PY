@@ -23,5 +23,5 @@ VALUES (4650,   1, 'Al-Jalima 1 mile Sign') /* Name */
      , (4650,  16, 'Village of Al-Jalima: 1 mile.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4650,   1,   33555985) /* Setup */
-     , (4650,   8,  100668115) /* Icon */;
+VALUES (4650,   1, 0x02000611) /* Setup */
+     , (4650,   8, 0x060012D3) /* Icon */;

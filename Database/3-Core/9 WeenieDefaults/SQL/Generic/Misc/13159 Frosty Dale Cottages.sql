@@ -22,5 +22,5 @@ VALUES (13159,   1, 'Frosty Dale Cottages') /* Name */
      , (13159,  16, 'Welcome to Frosty Dale Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13159,   1,   33557463) /* Setup */
-     , (13159,   8,  100668115) /* Icon */;
+VALUES (13159,   1, 0x02000BD7) /* Setup */
+     , (13159,   8, 0x060012D3) /* Icon */;

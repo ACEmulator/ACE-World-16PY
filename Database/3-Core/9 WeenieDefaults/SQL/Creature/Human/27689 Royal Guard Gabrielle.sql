@@ -64,11 +64,11 @@ VALUES (27689,   1, 'Royal Guard Gabrielle') /* Name */
      , (27689,   5, 'Guard') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27689,   1,   33554510) /* Setup */
-     , (27689,   2,  150994945) /* MotionTable */
-     , (27689,   3,  536870913) /* SoundTable */
-     , (27689,   4,  805306368) /* CombatTable */
-     , (27689,   8,  100667446) /* Icon */;
+VALUES (27689,   1, 0x0200004E) /* Setup */
+     , (27689,   2, 0x09000001) /* MotionTable */
+     , (27689,   3, 0x20000001) /* SoundTable */
+     , (27689,   4, 0x30000000) /* CombatTable */
+     , (27689,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27689,   1, 160, 0, 0) /* Strength */

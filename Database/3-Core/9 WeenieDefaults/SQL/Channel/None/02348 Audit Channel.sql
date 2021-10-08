@@ -15,5 +15,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2348,   1, 'Audit Channel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2348,   1,   33555321) /* Setup */
-     , (2348,   8,  100667494) /* Icon */;
+VALUES (2348,   1, 0x02000379) /* Setup */
+     , (2348,   8, 0x06001066) /* Icon */;

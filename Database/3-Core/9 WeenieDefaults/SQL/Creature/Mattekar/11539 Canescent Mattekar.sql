@@ -60,14 +60,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11539,   1, 'Canescent Mattekar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11539,   1,   33555590) /* Setup */
-     , (11539,   2,  150995047) /* MotionTable */
-     , (11539,   3,  536870974) /* SoundTable */
-     , (11539,   4,  805306391) /* CombatTable */
-     , (11539,   6,   67111893) /* PaletteBase */
-     , (11539,   7,  268435729) /* ClothingBase */
-     , (11539,   8,  100669121) /* Icon */
-     , (11539,  22,  872415278) /* PhysicsEffectTable */
+VALUES (11539,   1, 0x02000486) /* Setup */
+     , (11539,   2, 0x09000067) /* MotionTable */
+     , (11539,   3, 0x2000003E) /* SoundTable */
+     , (11539,   4, 0x30000017) /* CombatTable */
+     , (11539,   6, 0x04000BD5) /* PaletteBase */
+     , (11539,   7, 0x10000111) /* ClothingBase */
+     , (11539,   8, 0x060016C1) /* Icon */
+     , (11539,  22, 0x3400002E) /* PhysicsEffectTable */
      , (11539,  35,        456) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

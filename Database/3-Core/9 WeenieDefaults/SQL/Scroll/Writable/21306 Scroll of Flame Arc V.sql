@@ -24,7 +24,7 @@ VALUES (21306,   1, 'Scroll of Flame Arc V') /* Name */
      , (21306,  15, 'When learned, this spell shoots a bolt of flame at the target.  The bolt does 46-90 points of fire damage to the first thing it hits.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21306,   1,   33554826) /* Setup */
-     , (21306,   8,  100677022) /* Icon */
-     , (21306,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21306,   1, 0x0200018A) /* Setup */
+     , (21306,   8, 0x0600359E) /* Icon */
+     , (21306,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21306,  28,       2743) /* Spell - Flame Arc V */;

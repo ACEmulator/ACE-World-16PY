@@ -25,7 +25,7 @@ VALUES (1870,   1, 'Scroll of Mana to Stamina Self') /* Name */
      , (1870,  16, 'When learned, this spell drains one-half of the caster''s Mana and gives 30% of that to his/her Stamina.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1870,   1,   33554826) /* Setup */
-     , (1870,   8,  100676945) /* Icon */
-     , (1870,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1870,   1, 0x0200018A) /* Setup */
+     , (1870,   8, 0x06003551) /* Icon */
+     , (1870,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1870,  28,       1296) /* Spell - Mana to Stamina Self I */;

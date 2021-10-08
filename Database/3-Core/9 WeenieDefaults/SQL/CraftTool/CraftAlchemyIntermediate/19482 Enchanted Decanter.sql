@@ -32,9 +32,9 @@ VALUES (19482,   1, 'Enchanted Decanter') /* Name */
      , (19482,  16, 'An empty decanter, that shimmers in the light.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19482,   1,   33555965) /* Setup */
-     , (19482,   3,  536870932) /* SoundTable */
-     , (19482,   6,   67111919) /* PaletteBase */
-     , (19482,   7,  268435814) /* ClothingBase */
-     , (19482,   8,  100672969) /* Icon */
-     , (19482,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19482,   1, 0x020005FD) /* Setup */
+     , (19482,   3, 0x20000014) /* SoundTable */
+     , (19482,   6, 0x04000BEF) /* PaletteBase */
+     , (19482,   7, 0x10000166) /* ClothingBase */
+     , (19482,   8, 0x060025C9) /* Icon */
+     , (19482,  22, 0x3400002B) /* PhysicsEffectTable */;

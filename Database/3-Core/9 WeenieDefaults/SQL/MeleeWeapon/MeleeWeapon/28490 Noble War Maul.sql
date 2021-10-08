@@ -45,10 +45,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28490,   1, 'Noble War Maul') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28490,   1,   33558861) /* Setup */
-     , (28490,   3,  536870932) /* SoundTable */
-     , (28490,   8,  100676975) /* Icon */
-     , (28490,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28490,   1, 0x0200114D) /* Setup */
+     , (28490,   3, 0x20000014) /* SoundTable */
+     , (28490,   8, 0x0600356F) /* Icon */
+     , (28490,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28490,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

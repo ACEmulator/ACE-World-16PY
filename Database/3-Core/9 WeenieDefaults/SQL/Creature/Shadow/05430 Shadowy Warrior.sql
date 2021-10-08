@@ -68,14 +68,14 @@ VALUES (5430,   1, 'Shadowy Warrior') /* Name */
      , (5430,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5430,   1,   33554433) /* Setup */
-     , (5430,   2,  150995085) /* MotionTable */
-     , (5430,   3,  536870913) /* SoundTable */
-     , (5430,   4,  805306368) /* CombatTable */
-     , (5430,   6,   67111797) /* PaletteBase */
-     , (5430,   7,  268435632) /* ClothingBase */
-     , (5430,   8,  100670397) /* Icon */
-     , (5430,  22,  872415350) /* PhysicsEffectTable */
+VALUES (5430,   1, 0x02000001) /* Setup */
+     , (5430,   2, 0x0900008D) /* MotionTable */
+     , (5430,   3, 0x20000001) /* SoundTable */
+     , (5430,   4, 0x30000000) /* CombatTable */
+     , (5430,   6, 0x04000B75) /* PaletteBase */
+     , (5430,   7, 0x100000B0) /* ClothingBase */
+     , (5430,   8, 0x06001BBD) /* Icon */
+     , (5430,  22, 0x34000076) /* PhysicsEffectTable */
      , (5430,  35,        154) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

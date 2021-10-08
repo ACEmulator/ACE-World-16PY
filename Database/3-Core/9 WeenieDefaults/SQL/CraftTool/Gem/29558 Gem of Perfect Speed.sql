@@ -31,9 +31,9 @@ VALUES (29558,   1, 'Gem of Perfect Speed') /* Name */
      , (29558,  16, 'This gem can be placed into a piece of Noble Armor. If so, it will imbue the armor with a very potent Quickness Spell that will affect the wearer. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29558,   1,   33554809) /* Setup */
-     , (29558,   3,  536870932) /* SoundTable */
-     , (29558,   6,   67111919) /* PaletteBase */
-     , (29558,   7,  268435723) /* ClothingBase */
-     , (29558,   8,  100677135) /* Icon */
-     , (29558,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29558,   1, 0x02000179) /* Setup */
+     , (29558,   3, 0x20000014) /* SoundTable */
+     , (29558,   6, 0x04000BEF) /* PaletteBase */
+     , (29558,   7, 0x1000010B) /* ClothingBase */
+     , (29558,   8, 0x0600360F) /* Icon */
+     , (29558,  22, 0x3400002B) /* PhysicsEffectTable */;

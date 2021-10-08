@@ -22,7 +22,7 @@ VALUES (24586,   1, 'The Ravenous Mattekar Tavern') /* Name */
      , (24586,  16, 'Food and Lodging. No actual mattekars on premises, ravenous or otherwise.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24586,   1,   33555088) /* Setup */
-     , (24586,   6,   67111092) /* PaletteBase */
-     , (24586,   7,  268435662) /* ClothingBase */
-     , (24586,   8,  100668115) /* Icon */;
+VALUES (24586,   1, 0x02000290) /* Setup */
+     , (24586,   6, 0x040008B4) /* PaletteBase */
+     , (24586,   7, 0x100000CE) /* ClothingBase */
+     , (24586,   8, 0x060012D3) /* Icon */;

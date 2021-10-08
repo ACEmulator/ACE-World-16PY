@@ -22,5 +22,5 @@ VALUES (16898,   1, 'Sanctum Residential Halls') /* Name */
      , (16898,  16, 'Sanctum Residential Halls') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (16898,   1,   33557654) /* Setup */
-     , (16898,   8,  100672342) /* Icon */;
+VALUES (16898,   1, 0x02000C96) /* Setup */
+     , (16898,   8, 0x06002356) /* Icon */;

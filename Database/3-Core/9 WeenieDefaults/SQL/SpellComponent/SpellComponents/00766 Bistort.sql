@@ -26,10 +26,10 @@ VALUES (766,   1, 'Bistort') /* Name */
      , (766,  20, 'Sacks of Bistort') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (766,   1,   33554817) /* Setup */
-     , (766,   3,  536870932) /* SoundTable */
-     , (766,   6,   67111919) /* PaletteBase */
-     , (766,   7,  268435720) /* ClothingBase */
-     , (766,   8,  100667399) /* Icon */
-     , (766,  22,  872415275) /* PhysicsEffectTable */
+VALUES (766,   1, 0x02000181) /* Setup */
+     , (766,   3, 0x20000014) /* SoundTable */
+     , (766,   6, 0x04000BEF) /* PaletteBase */
+     , (766,   7, 0x10000108) /* ClothingBase */
+     , (766,   8, 0x06001007) /* Icon */
+     , (766,  22, 0x3400002B) /* PhysicsEffectTable */
      , (766,  29,         12) /* SpellComponent */;

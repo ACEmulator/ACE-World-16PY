@@ -41,11 +41,11 @@ VALUES (27455,   1, 'Sealed Lugian Chest') /* Name */
      , (27455,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27455,   1,   33558692) /* Setup */
-     , (27455,   2,  150995293) /* MotionTable */
-     , (27455,   3,  536870950) /* SoundTable */
-     , (27455,   8,  100676428) /* Icon */
-     , (27455,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27455,   1, 0x020010A4) /* Setup */
+     , (27455,   2, 0x0900015D) /* MotionTable */
+     , (27455,   3, 0x20000026) /* SoundTable */
+     , (27455,   8, 0x0600334C) /* Icon */
+     , (27455,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27455, -1, 27483, 10, 6, 6, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mutual Assistance Pact (27483) (x6 up to max of 6) - Regenerate upon PickUp - Location to (re)Generate: Contain */

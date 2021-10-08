@@ -67,12 +67,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27798,   1, 'Ancient Diamond Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27798,   1,   33558578) /* Setup */
-     , (27798,   2,  150995073) /* MotionTable */
-     , (27798,   3,  536870933) /* SoundTable */
-     , (27798,   4,  805306376) /* CombatTable */
-     , (27798,   8,  100667940) /* Icon */
-     , (27798,  22,  872415322) /* PhysicsEffectTable */
+VALUES (27798,   1, 0x02001032) /* Setup */
+     , (27798,   2, 0x09000081) /* MotionTable */
+     , (27798,   3, 0x20000015) /* SoundTable */
+     , (27798,   4, 0x30000008) /* CombatTable */
+     , (27798,   8, 0x06001224) /* Icon */
+     , (27798,  22, 0x3400005A) /* PhysicsEffectTable */
      , (27798,  35,         19) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

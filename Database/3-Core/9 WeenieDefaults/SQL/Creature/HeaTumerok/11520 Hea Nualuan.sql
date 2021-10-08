@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11520,   1, 'Hea Nualuan') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11520,   1,   33554496) /* Setup */
-     , (11520,   2,  150994954) /* MotionTable */
-     , (11520,   3,  536870931) /* SoundTable */
-     , (11520,   4,  805306380) /* CombatTable */
-     , (11520,   6,   67109314) /* PaletteBase */
-     , (11520,   7,  268436630) /* ClothingBase */
-     , (11520,   8,  100667452) /* Icon */
-     , (11520,  22,  872415270) /* PhysicsEffectTable */
+VALUES (11520,   1, 0x02000040) /* Setup */
+     , (11520,   2, 0x0900000A) /* MotionTable */
+     , (11520,   3, 0x20000013) /* SoundTable */
+     , (11520,   4, 0x3000000C) /* CombatTable */
+     , (11520,   6, 0x040001C2) /* PaletteBase */
+     , (11520,   7, 0x10000496) /* ClothingBase */
+     , (11520,   8, 0x0600103C) /* Icon */
+     , (11520,  22, 0x34000026) /* PhysicsEffectTable */
      , (11520,  32,        387) /* WieldedTreasureType - 
                                    Wield Blade of the Quiddity (11916) | Probability: 25%
                                    Wield Lance of the Quiddity (11913) | Probability: 25%

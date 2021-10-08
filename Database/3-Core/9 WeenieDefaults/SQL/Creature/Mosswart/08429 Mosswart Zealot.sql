@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8429,   1, 'Mosswart Zealot') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8429,   1,   33557327) /* Setup */
-     , (8429,   2,  150994953) /* MotionTable */
-     , (8429,   3,  536870959) /* SoundTable */
-     , (8429,   4,  805306373) /* CombatTable */
-     , (8429,   6,   67113400) /* PaletteBase */
-     , (8429,   7,  268436294) /* ClothingBase */
-     , (8429,   8,  100667449) /* Icon */
-     , (8429,  22,  872415264) /* PhysicsEffectTable */
+VALUES (8429,   1, 0x02000B4F) /* Setup */
+     , (8429,   2, 0x09000009) /* MotionTable */
+     , (8429,   3, 0x2000002F) /* SoundTable */
+     , (8429,   4, 0x30000005) /* CombatTable */
+     , (8429,   6, 0x040011B8) /* PaletteBase */
+     , (8429,   7, 0x10000346) /* ClothingBase */
+     , (8429,   8, 0x06001039) /* Icon */
+     , (8429,  22, 0x34000020) /* PhysicsEffectTable */
      , (8429,  32,        332) /* WieldedTreasureType - 
                                    Wield Fire Yaoji (23719) | Probability: 95%
                                    Wield Tachi (23701) | Probability: 5% */

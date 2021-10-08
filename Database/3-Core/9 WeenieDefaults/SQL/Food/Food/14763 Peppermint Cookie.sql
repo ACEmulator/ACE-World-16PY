@@ -29,7 +29,7 @@ VALUES (14763,   1, 'Peppermint Cookie') /* Name */
      , (14763,  20, 'Peppermint Cookies') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14763,   1,   33556032) /* Setup */
-     , (14763,   3,  536870932) /* SoundTable */
-     , (14763,   8,  100672542) /* Icon */
-     , (14763,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14763,   1, 0x02000640) /* Setup */
+     , (14763,   3, 0x20000014) /* SoundTable */
+     , (14763,   8, 0x0600241E) /* Icon */
+     , (14763,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -40,9 +40,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15873,   1, 'Bronze Longbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15873,   1,   33554728) /* Setup */
-     , (15873,   3,  536870932) /* SoundTable */
-     , (15873,   6,   67111919) /* PaletteBase */
-     , (15873,   7,  268435759) /* ClothingBase */
-     , (15873,   8,  100668815) /* Icon */
-     , (15873,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15873,   1, 0x02000128) /* Setup */
+     , (15873,   3, 0x20000014) /* SoundTable */
+     , (15873,   6, 0x04000BEF) /* PaletteBase */
+     , (15873,   7, 0x1000012F) /* ClothingBase */
+     , (15873,   8, 0x0600158F) /* Icon */
+     , (15873,  22, 0x3400002B) /* PhysicsEffectTable */;

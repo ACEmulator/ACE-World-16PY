@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (690,   1, 'Pyreal Scarab') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (690,   1,   33555211) /* Setup */
-     , (690,   3,  536870932) /* SoundTable */
-     , (690,   6,   67111919) /* PaletteBase */
-     , (690,   7,  268435721) /* ClothingBase */
-     , (690,   8,  100668392) /* Icon */
-     , (690,  22,  872415275) /* PhysicsEffectTable */
+VALUES (690,   1, 0x0200030B) /* Setup */
+     , (690,   3, 0x20000014) /* SoundTable */
+     , (690,   6, 0x04000BEF) /* PaletteBase */
+     , (690,   7, 0x10000109) /* ClothingBase */
+     , (690,   8, 0x060013E8) /* Icon */
+     , (690,  22, 0x3400002B) /* PhysicsEffectTable */
      , (690,  29,          6) /* SpellComponent */;

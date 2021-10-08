@@ -44,7 +44,7 @@ VALUES (11002,   1, 'Hollow Point Armor Piercing Arrow') /* Name */
      , (11002,  16, 'An arrow with an armor-piercing chorizite tip.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11002,   1,   33554724) /* Setup */
-     , (11002,   3,  536870932) /* SoundTable */
-     , (11002,   8,  100667622) /* Icon */
-     , (11002,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11002,   1, 0x02000124) /* Setup */
+     , (11002,   3, 0x20000014) /* SoundTable */
+     , (11002,   8, 0x060010E6) /* Icon */
+     , (11002,  22, 0x3400002B) /* PhysicsEffectTable */;

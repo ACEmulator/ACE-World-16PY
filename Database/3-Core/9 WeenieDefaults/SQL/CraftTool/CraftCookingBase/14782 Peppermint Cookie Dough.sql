@@ -27,9 +27,9 @@ VALUES (14782,   1, 'Peppermint Cookie Dough') /* Name */
      , (14782,  20, 'Batches of Peppermint Cookie Dough') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14782,   1,   33555968) /* Setup */
-     , (14782,   3,  536870932) /* SoundTable */
-     , (14782,   6,   67111928) /* PaletteBase */
-     , (14782,   7,  268436333) /* ClothingBase */
-     , (14782,   8,  100672544) /* Icon */
-     , (14782,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14782,   1, 0x02000600) /* Setup */
+     , (14782,   3, 0x20000014) /* SoundTable */
+     , (14782,   6, 0x04000BF8) /* PaletteBase */
+     , (14782,   7, 0x1000036D) /* ClothingBase */
+     , (14782,   8, 0x06002420) /* Icon */
+     , (14782,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -28,7 +28,7 @@ VALUES (7851,   1, 'Mocha Base') /* Name */
      , (7851,  20, 'Cups of Mocha Base') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7851,   1,   33555967) /* Setup */
-     , (7851,   6,   67111919) /* PaletteBase */
-     , (7851,   7,  268436028) /* ClothingBase */
-     , (7851,   8,  100670868) /* Icon */;
+VALUES (7851,   1, 0x020005FF) /* Setup */
+     , (7851,   6, 0x04000BEF) /* PaletteBase */
+     , (7851,   7, 0x1000023C) /* ClothingBase */
+     , (7851,   8, 0x06001D94) /* Icon */;

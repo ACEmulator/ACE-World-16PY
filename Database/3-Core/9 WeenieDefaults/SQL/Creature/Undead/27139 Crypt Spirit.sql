@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27139,   1, 'Crypt Spirit') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27139,   1,   33558436) /* Setup */
-     , (27139,   2,  150994967) /* MotionTable */
-     , (27139,   3,  536870934) /* SoundTable */
-     , (27139,   4,  805306368) /* CombatTable */
-     , (27139,   6,   67114480) /* PaletteBase */
-     , (27139,   7,  268436672) /* ClothingBase */
-     , (27139,   8,  100674805) /* Icon */
-     , (27139,  22,  872415272) /* PhysicsEffectTable */
+VALUES (27139,   1, 0x02000FA4) /* Setup */
+     , (27139,   2, 0x09000017) /* MotionTable */
+     , (27139,   3, 0x20000016) /* SoundTable */
+     , (27139,   4, 0x30000000) /* CombatTable */
+     , (27139,   6, 0x040015F0) /* PaletteBase */
+     , (27139,   7, 0x100004C0) /* ClothingBase */
+     , (27139,   8, 0x06002CF5) /* Icon */
+     , (27139,  22, 0x34000028) /* PhysicsEffectTable */
      , (27139,  32,        446) /* WieldedTreasureType - 
                                    Wield Khopesh (25499) | Probability: 98% */
      , (27139,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;

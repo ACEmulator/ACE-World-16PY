@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22913,   1, 'The Auditor') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22913,   1,   33558343) /* Setup */
-     , (22913,   2,  150994984) /* MotionTable */
-     , (22913,   3,  536870930) /* SoundTable */
-     , (22913,   4,  805306381) /* CombatTable */
-     , (22913,   6,   67114250) /* PaletteBase */
-     , (22913,   7,  268436609) /* ClothingBase */
-     , (22913,   8,  100674323) /* Icon */
-     , (22913,  22,  872415273) /* PhysicsEffectTable */
+VALUES (22913,   1, 0x02000F47) /* Setup */
+     , (22913,   2, 0x09000028) /* MotionTable */
+     , (22913,   3, 0x20000012) /* SoundTable */
+     , (22913,   4, 0x3000000D) /* CombatTable */
+     , (22913,   6, 0x0400150A) /* PaletteBase */
+     , (22913,   7, 0x10000481) /* ClothingBase */
+     , (22913,   8, 0x06002B13) /* Icon */
+     , (22913,  22, 0x34000029) /* PhysicsEffectTable */
      , (22913,  35,        355) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

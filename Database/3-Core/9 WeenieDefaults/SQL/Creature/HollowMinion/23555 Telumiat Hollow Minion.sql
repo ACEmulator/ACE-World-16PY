@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23555,   1, 'Telumiat Hollow Minion') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23555,   1,   33556792) /* Setup */
-     , (23555,   2,  150995101) /* MotionTable */
-     , (23555,   3,  536871013) /* SoundTable */
-     , (23555,   4,  805306413) /* CombatTable */
-     , (23555,   6,   67112967) /* PaletteBase */
-     , (23555,   7,  268436617) /* ClothingBase */
-     , (23555,   8,  100671140) /* Icon */
-     , (23555,  22,  872415367) /* PhysicsEffectTable */
+VALUES (23555,   1, 0x02000938) /* Setup */
+     , (23555,   2, 0x0900009D) /* MotionTable */
+     , (23555,   3, 0x20000065) /* SoundTable */
+     , (23555,   4, 0x3000002D) /* CombatTable */
+     , (23555,   6, 0x04001007) /* PaletteBase */
+     , (23555,   7, 0x10000489) /* ClothingBase */
+     , (23555,   8, 0x06001EA4) /* Icon */
+     , (23555,  22, 0x34000087) /* PhysicsEffectTable */
      , (23555,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

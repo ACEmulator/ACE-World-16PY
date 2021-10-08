@@ -43,9 +43,9 @@ VALUES (23003,   1, 'Silifi of Crimson Stars') /* Name */
      , (23003,  16, 'The Silifi of Crimson Stars, its blade repaired using the spine of a Island Armoredillo. There are three notches on the haft.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23003,   1,   33556553) /* Setup */
-     , (23003,   3,  536870932) /* SoundTable */
-     , (23003,   6,   67111919) /* PaletteBase */
-     , (23003,   7,  268435986) /* ClothingBase */
-     , (23003,   8,  100670611) /* Icon */
-     , (23003,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23003,   1, 0x02000849) /* Setup */
+     , (23003,   3, 0x20000014) /* SoundTable */
+     , (23003,   6, 0x04000BEF) /* PaletteBase */
+     , (23003,   7, 0x10000212) /* ClothingBase */
+     , (23003,   8, 0x06001C93) /* Icon */
+     , (23003,  22, 0x3400002B) /* PhysicsEffectTable */;

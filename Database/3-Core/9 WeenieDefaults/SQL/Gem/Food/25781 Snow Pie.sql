@@ -35,12 +35,12 @@ VALUES (25781,   1, 'Snow Pie') /* Name */
      , (25781,  16, 'A frozen pie that seems to be primarily made from snow. It looks oddly delicious.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25781,   1,   33558523) /* Setup */
-     , (25781,   3,  536870932) /* SoundTable */
-     , (25781,   6,   67111919) /* PaletteBase */
-     , (25781,   7,  268435996) /* ClothingBase */
-     , (25781,   8,  100675514) /* Icon */
-     , (25781,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25781,   1, 0x02000FFB) /* Setup */
+     , (25781,   3, 0x20000014) /* SoundTable */
+     , (25781,   6, 0x04000BEF) /* PaletteBase */
+     , (25781,   7, 0x1000021C) /* ClothingBase */
+     , (25781,   8, 0x06002FBA) /* Icon */
+     , (25781,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25781,  23,         64) /* UseSound - Eat1 */
-     , (25781,  27,  318767233) /* UseUserAnimation - MimeEat */
+     , (25781,  27, 0x13000081) /* UseUserAnimation - MimeEat */
      , (25781,  28,       2991) /* Spell - Winter's Kiss */;

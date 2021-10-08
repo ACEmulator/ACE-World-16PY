@@ -26,10 +26,10 @@ VALUES (30912,   1, 'Halaetan Magic Page 7') /* Name */
      , (30912,  33, 'CarloLoreViamontianMages007Acquired0205') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30912,   1,   33554773) /* Setup */
-     , (30912,   3,  536870932) /* SoundTable */
-     , (30912,   8,  100668176) /* Icon */
-     , (30912,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30912,   1, 0x02000155) /* Setup */
+     , (30912,   3, 0x20000014) /* SoundTable */
+     , (30912,   8, 0x06001310) /* Icon */
+     , (30912,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (30912, 1, 1000);

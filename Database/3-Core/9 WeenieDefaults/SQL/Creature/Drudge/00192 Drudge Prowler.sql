@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (192,   1, 'Drudge Prowler') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (192,   1,   33556445) /* Setup */
-     , (192,   2,  150994952) /* MotionTable */
-     , (192,   3,  536870919) /* SoundTable */
-     , (192,   4,  805306372) /* CombatTable */
-     , (192,   6,   67112812) /* PaletteBase */
-     , (192,   7,  268435972) /* ClothingBase */
-     , (192,   8,  100667445) /* Icon */
-     , (192,  22,  872415258) /* PhysicsEffectTable */
+VALUES (192,   1, 0x020007DD) /* Setup */
+     , (192,   2, 0x09000008) /* MotionTable */
+     , (192,   3, 0x20000007) /* SoundTable */
+     , (192,   4, 0x30000004) /* CombatTable */
+     , (192,   6, 0x04000F6C) /* PaletteBase */
+     , (192,   7, 0x10000204) /* ClothingBase */
+     , (192,   8, 0x06001035) /* Icon */
+     , (192,  22, 0x3400001A) /* PhysicsEffectTable */
      , (192,  32,         74) /* WieldedTreasureType - 
                                    Wield Club (309) | Probability: 5%
                                    Wield Dabus (313) | Probability: 10%

@@ -60,14 +60,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7082,   1, 'Island Armoredillo') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7082,   1,   33554436) /* Setup */
-     , (7082,   2,  150994972) /* MotionTable */
-     , (7082,   3,  536870915) /* SoundTable */
-     , (7082,   4,  805306382) /* CombatTable */
-     , (7082,   6,   67109301) /* PaletteBase */
-     , (7082,   7,  268435547) /* ClothingBase */
-     , (7082,   8,  100667935) /* Icon */
-     , (7082,  22,  872415253) /* PhysicsEffectTable */
+VALUES (7082,   1, 0x02000004) /* Setup */
+     , (7082,   2, 0x0900001C) /* MotionTable */
+     , (7082,   3, 0x20000003) /* SoundTable */
+     , (7082,   4, 0x3000000E) /* CombatTable */
+     , (7082,   6, 0x040001B5) /* PaletteBase */
+     , (7082,   7, 0x1000005B) /* ClothingBase */
+     , (7082,   8, 0x0600121F) /* Icon */
+     , (7082,  22, 0x34000015) /* PhysicsEffectTable */
      , (7082,  35,        457) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

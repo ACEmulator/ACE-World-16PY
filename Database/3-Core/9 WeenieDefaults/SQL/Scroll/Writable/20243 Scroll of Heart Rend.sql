@@ -24,7 +24,7 @@ VALUES (20243,   1, 'Scroll of Heart Rend') /* Name */
      , (20243,  15, 'When learned, this spell drains 40-75 points of the target''s Health.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20243,   1,   33554826) /* Setup */
-     , (20243,   8,  100676934) /* Icon */
-     , (20243,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20243,   1, 0x0200018A) /* Setup */
+     , (20243,   8, 0x06003546) /* Icon */
+     , (20243,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20243,  28,       2070) /* Spell - Heart Rend */;

@@ -24,7 +24,7 @@ VALUES (29651,   1, 'Center Shell') /* Name */
      , (29651,  37, 'ShellGamePlaying') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29651,   1,   33559071) /* Setup */
-     , (29651,   3,  536870932) /* SoundTable */
-     , (29651,   8,  100677181) /* Icon */
-     , (29651,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29651,   1, 0x0200121F) /* Setup */
+     , (29651,   3, 0x20000014) /* SoundTable */
+     , (29651,   8, 0x0600363D) /* Icon */
+     , (29651,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -74,11 +74,11 @@ VALUES (735,   1, 'Danifa Gondmad the Healer ') /* Name */
      , (735,  24, 'Glenden Wood') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (735,   1,   33554510) /* Setup */
-     , (735,   2,  150994945) /* MotionTable */
-     , (735,   3,  536870914) /* SoundTable */
-     , (735,   4,  805306368) /* CombatTable */
-     , (735,   8,  100667446) /* Icon */;
+VALUES (735,   1, 0x0200004E) /* Setup */
+     , (735,   2, 0x09000001) /* MotionTable */
+     , (735,   3, 0x20000002) /* SoundTable */
+     , (735,   4, 0x30000000) /* CombatTable */
+     , (735,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (735,   1,  20, 0, 0) /* Strength */

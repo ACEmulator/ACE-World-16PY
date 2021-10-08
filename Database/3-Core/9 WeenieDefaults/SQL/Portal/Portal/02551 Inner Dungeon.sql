@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2551,   1, 'Inner Dungeon') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2551,   1,   33555926) /* Setup */
-     , (2551,   2,  150994947) /* MotionTable */
-     , (2551,   8,  100667499) /* Icon */;
+VALUES (2551,   1, 0x020005D6) /* Setup */
+     , (2551,   2, 0x09000003) /* MotionTable */
+     , (2551,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2551, 2, 0x01A5019D, 20, 0, 6, 0.02923, 0, 0, -0.999573) /* Destination */

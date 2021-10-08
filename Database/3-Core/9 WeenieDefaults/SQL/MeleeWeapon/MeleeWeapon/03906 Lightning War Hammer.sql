@@ -37,11 +37,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3906,   1, 'Lightning War Hammer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3906,   1,   33555829) /* Setup */
-     , (3906,   3,  536870932) /* SoundTable */
-     , (3906,   6,   67111919) /* PaletteBase */
-     , (3906,   7,  268435776) /* ClothingBase */
-     , (3906,   8,  100667619) /* Icon */
-     , (3906,  22,  872415275) /* PhysicsEffectTable */
-     , (3906,  36,  234881053) /* MutateFilter */
-     , (3906,  46,  939524098) /* TsysMutationFilter */;
+VALUES (3906,   1, 0x02000575) /* Setup */
+     , (3906,   3, 0x20000014) /* SoundTable */
+     , (3906,   6, 0x04000BEF) /* PaletteBase */
+     , (3906,   7, 0x10000140) /* ClothingBase */
+     , (3906,   8, 0x060010E3) /* Icon */
+     , (3906,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3906,  36, 0x0E00001D) /* MutateFilter */
+     , (3906,  46, 0x38000002) /* TsysMutationFilter */;

@@ -23,7 +23,7 @@ VALUES (1000,   1, 'Town Bazaar') /* Name */
      , (1000,  16, 'Town Bazaar') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1000,   1,   33555909) /* Setup */
-     , (1000,   6,   67111860) /* PaletteBase */
-     , (1000,   7,  268435821) /* ClothingBase */
-     , (1000,   8,  100668115) /* Icon */;
+VALUES (1000,   1, 0x020005C5) /* Setup */
+     , (1000,   6, 0x04000BB4) /* PaletteBase */
+     , (1000,   7, 0x1000016D) /* ClothingBase */
+     , (1000,   8, 0x060012D3) /* Icon */;

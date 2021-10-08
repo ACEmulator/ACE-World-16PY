@@ -33,13 +33,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8748,   1, 'Explorer Wand Of Fire') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8748,   1,   33558231) /* Setup */
-     , (8748,   3,  536870932) /* SoundTable */
-     , (8748,   6,   67111919) /* PaletteBase */
-     , (8748,   7,  268436549) /* ClothingBase */
-     , (8748,   8,  100674107) /* Icon */
-     , (8748,  22,  872415275) /* PhysicsEffectTable */
-     , (8748,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (8748,   1, 0x02000ED7) /* Setup */
+     , (8748,   3, 0x20000014) /* SoundTable */
+     , (8748,   6, 0x04000BEF) /* PaletteBase */
+     , (8748,   7, 0x10000445) /* ClothingBase */
+     , (8748,   8, 0x06002A3B) /* Icon */
+     , (8748,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8748,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (8748,  28,         82) /* Spell - Flame Bolt III */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

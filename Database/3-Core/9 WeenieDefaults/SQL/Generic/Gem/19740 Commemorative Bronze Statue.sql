@@ -29,10 +29,10 @@ VALUES (19740,   1, 'Commemorative Bronze Statue') /* Name */
      , (19740,  15, 'A large commemorative statue of a Drudge crafted by the Arcanum Tinker, in reward for destroying the statues threatening the cities of Yaraq, Shoushi, and Holtburg.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19740,   1,   33556445) /* Setup */
-     , (19740,   2,  150995200) /* MotionTable */
-     , (19740,   6,   67112812) /* PaletteBase */
-     , (19740,   7,  268436133) /* ClothingBase */
-     , (19740,   8,  100667445) /* Icon */
-     , (19740,  22,  872415383) /* PhysicsEffectTable */
-     , (19740,  36,  234881046) /* MutateFilter */;
+VALUES (19740,   1, 0x020007DD) /* Setup */
+     , (19740,   2, 0x09000100) /* MotionTable */
+     , (19740,   6, 0x04000F6C) /* PaletteBase */
+     , (19740,   7, 0x100002A5) /* ClothingBase */
+     , (19740,   8, 0x06001035) /* Icon */
+     , (19740,  22, 0x34000097) /* PhysicsEffectTable */
+     , (19740,  36, 0x0E000016) /* MutateFilter */;

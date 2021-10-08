@@ -21,5 +21,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2128,   1, 'Tufa Clue Generator') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2128,   1,   33555051) /* Setup */
-     , (2128,   8,  100667494) /* Icon */;
+VALUES (2128,   1, 0x0200026B) /* Setup */
+     , (2128,   8, 0x06001066) /* Icon */;

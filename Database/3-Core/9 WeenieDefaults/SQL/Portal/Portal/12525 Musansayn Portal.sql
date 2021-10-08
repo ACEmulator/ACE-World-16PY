@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12525,   1, 'Musansayn Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12525,   1,   33554867) /* Setup */
-     , (12525,   2,  150994947) /* MotionTable */
-     , (12525,   8,  100667499) /* Icon */;
+VALUES (12525,   1, 0x020001B3) /* Setup */
+     , (12525,   2, 0x09000003) /* MotionTable */
+     , (12525,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12525, 2, 0x8E840037, 165.27, 165.96, 60.005, 0.118205, 0, 0, -0.992989) /* Destination */

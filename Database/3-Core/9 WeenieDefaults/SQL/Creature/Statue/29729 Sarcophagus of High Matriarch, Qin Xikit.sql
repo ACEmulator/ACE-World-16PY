@@ -63,12 +63,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29729,   1, 'Sarcophagus of High Matriarch, Qin Xikit') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29729,   1,   33558609) /* Setup */
-     , (29729,   2,  150995261) /* MotionTable */
-     , (29729,   3,  536870933) /* SoundTable */
-     , (29729,   4,  805306372) /* CombatTable */
-     , (29729,   8,  100675787) /* Icon */
-     , (29729,  22,  872415328) /* PhysicsEffectTable */;
+VALUES (29729,   1, 0x02001051) /* Setup */
+     , (29729,   2, 0x0900013D) /* MotionTable */
+     , (29729,   3, 0x20000015) /* SoundTable */
+     , (29729,   4, 0x30000004) /* CombatTable */
+     , (29729,   8, 0x060030CB) /* Icon */
+     , (29729,  22, 0x34000060) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29729,   1, 380, 0, 0) /* Strength */

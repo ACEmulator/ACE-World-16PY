@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28060,   1, 'Ghost of Galaeral') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28060,   1,   33558816) /* Setup */
-     , (28060,   2,  150995302) /* MotionTable */
-     , (28060,   3,  536871094) /* SoundTable */
-     , (28060,   4,  805306429) /* CombatTable */
-     , (28060,   6,   67115251) /* PaletteBase */
-     , (28060,   7,  268436835) /* ClothingBase */
-     , (28060,   8,  100676679) /* Icon */
-     , (28060,  22,  872415403) /* PhysicsEffectTable */;
+VALUES (28060,   1, 0x02001120) /* Setup */
+     , (28060,   2, 0x09000166) /* MotionTable */
+     , (28060,   3, 0x200000B6) /* SoundTable */
+     , (28060,   4, 0x3000003D) /* CombatTable */
+     , (28060,   6, 0x040018F3) /* PaletteBase */
+     , (28060,   7, 0x10000563) /* ClothingBase */
+     , (28060,   8, 0x06003447) /* Icon */
+     , (28060,  22, 0x340000AB) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28060,   1, 140, 0, 0) /* Strength */

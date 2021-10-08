@@ -45,12 +45,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6177,   1, 'Peerless Sparking Atlan Claw') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6177,   1,   33556320) /* Setup */
-     , (6177,   3,  536870932) /* SoundTable */
-     , (6177,   6,   67111919) /* PaletteBase */
-     , (6177,   7,  268435899) /* ClothingBase */
-     , (6177,   8,  100670531) /* Icon */
-     , (6177,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6177,   1, 0x02000760) /* Setup */
+     , (6177,   3, 0x20000014) /* SoundTable */
+     , (6177,   6, 0x04000BEF) /* PaletteBase */
+     , (6177,   7, 0x100001BB) /* ClothingBase */
+     , (6177,   8, 0x06001C43) /* Icon */
+     , (6177,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6177,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

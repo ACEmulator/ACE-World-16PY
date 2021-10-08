@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7110,   1, 'Ulu Sclavus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7110,   1,   33555608) /* Setup */
-     , (7110,   2,  150995048) /* MotionTable */
-     , (7110,   3,  536870977) /* SoundTable */
-     , (7110,   4,  805306393) /* CombatTable */
-     , (7110,   6,   67111936) /* PaletteBase */
-     , (7110,   7,  268435727) /* ClothingBase */
-     , (7110,   8,  100669120) /* Icon */
-     , (7110,  22,  872415280) /* PhysicsEffectTable */
+VALUES (7110,   1, 0x02000498) /* Setup */
+     , (7110,   2, 0x09000068) /* MotionTable */
+     , (7110,   3, 0x20000041) /* SoundTable */
+     , (7110,   4, 0x30000019) /* CombatTable */
+     , (7110,   6, 0x04000C00) /* PaletteBase */
+     , (7110,   7, 0x1000010F) /* ClothingBase */
+     , (7110,   8, 0x060016C0) /* Icon */
+     , (7110,  22, 0x34000030) /* PhysicsEffectTable */
      , (7110,  32,        285) /* WieldedTreasureType - 
                                    Wield Yumi (23736) | Probability: 60.000004%
                                    Wield 14x Greater Arrow (5304) | Probability: 100%

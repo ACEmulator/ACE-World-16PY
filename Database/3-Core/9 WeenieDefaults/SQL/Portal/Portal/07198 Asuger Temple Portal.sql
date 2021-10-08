@@ -26,9 +26,9 @@ VALUES (7198,   1, 'Asuger Temple Portal') /* Name */
      , (7198,  37, 'PortalAsugerTemplePermissionGiven') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7198,   1,   33555923) /* Setup */
-     , (7198,   2,  150994947) /* MotionTable */
-     , (7198,   8,  100667499) /* Icon */;
+VALUES (7198,   1, 0x020005D3) /* Setup */
+     , (7198,   2, 0x09000003) /* MotionTable */
+     , (7198,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7198, 2, 0x010B0101, 0, 0, 0, -0.087156, 0, -0, -0.996195) /* Destination */

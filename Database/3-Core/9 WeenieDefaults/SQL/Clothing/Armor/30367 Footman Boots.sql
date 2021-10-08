@@ -40,9 +40,9 @@ VALUES (30367,   1, 'Footman Boots') /* Name */
      , (30367,  16, 'Describe me here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30367,   1,   33556683) /* Setup */
-     , (30367,   3,  536870932) /* SoundTable */
-     , (30367,   6,   67108990) /* PaletteBase */
-     , (30367,   7,  268436710) /* ClothingBase */
-     , (30367,   8,  100667310) /* Icon */
-     , (30367,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30367,   1, 0x020008CB) /* Setup */
+     , (30367,   3, 0x20000014) /* SoundTable */
+     , (30367,   6, 0x0400007E) /* PaletteBase */
+     , (30367,   7, 0x100004E6) /* ClothingBase */
+     , (30367,   8, 0x06000FAE) /* Icon */
+     , (30367,  22, 0x3400002B) /* PhysicsEffectTable */;

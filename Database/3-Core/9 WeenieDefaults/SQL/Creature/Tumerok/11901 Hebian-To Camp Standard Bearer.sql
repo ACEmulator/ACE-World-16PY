@@ -62,14 +62,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11901,   1, 'Hebian-To Camp Standard Bearer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11901,   1,   33554496) /* Setup */
-     , (11901,   2,  150994954) /* MotionTable */
-     , (11901,   3,  536870931) /* SoundTable */
-     , (11901,   4,  805306380) /* CombatTable */
-     , (11901,   6,   67109314) /* PaletteBase */
-     , (11901,   7,  268435647) /* ClothingBase */
-     , (11901,   8,  100667452) /* Icon */
-     , (11901,  22,  872415270) /* PhysicsEffectTable */
+VALUES (11901,   1, 0x02000040) /* Setup */
+     , (11901,   2, 0x0900000A) /* MotionTable */
+     , (11901,   3, 0x20000013) /* SoundTable */
+     , (11901,   4, 0x3000000C) /* CombatTable */
+     , (11901,   6, 0x040001C2) /* PaletteBase */
+     , (11901,   7, 0x100000BF) /* ClothingBase */
+     , (11901,   8, 0x0600103C) /* Icon */
+     , (11901,  22, 0x34000026) /* PhysicsEffectTable */
      , (11901,  31,      11849) /* LinkedPortalOne - Hebian-To Advance Camp Portal */
      , (11901,  32,        226) /* WieldedTreasureType - 
                                    Wield 5x Javelin (320) | Probability: 10%

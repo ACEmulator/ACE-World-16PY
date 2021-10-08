@@ -23,7 +23,7 @@ VALUES (30920,   1, 'Severed Olthoi Head') /* Name */
      , (30920,  16, 'The severed head of an Olthoi. There are several teeth marks at the base of the neck.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30920,   1,   33554769) /* Setup */
-     , (30920,   3,  536870932) /* SoundTable */
-     , (30920,   8,  100677460) /* Icon */
-     , (30920,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30920,   1, 0x02000151) /* Setup */
+     , (30920,   3, 0x20000014) /* SoundTable */
+     , (30920,   8, 0x06003754) /* Icon */
+     , (30920,  22, 0x3400002B) /* PhysicsEffectTable */;

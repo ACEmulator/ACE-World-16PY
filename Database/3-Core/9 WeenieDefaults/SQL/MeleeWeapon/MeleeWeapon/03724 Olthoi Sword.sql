@@ -38,9 +38,9 @@ VALUES (3724,   1, 'Olthoi Sword') /* Name */
      , (3724,  16, 'A sword crafted from the claw of an Olthoi. Ichor drips from the blade.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3724,   1,   33556589) /* Setup */
-     , (3724,   3,  536870932) /* SoundTable */
-     , (3724,   6,   67109311) /* PaletteBase */
-     , (3724,   7,  268435998) /* ClothingBase */
-     , (3724,   8,  100670666) /* Icon */
-     , (3724,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3724,   1, 0x0200086D) /* Setup */
+     , (3724,   3, 0x20000014) /* SoundTable */
+     , (3724,   6, 0x040001BF) /* PaletteBase */
+     , (3724,   7, 0x1000021E) /* ClothingBase */
+     , (3724,   8, 0x06001CCA) /* Icon */
+     , (3724,  22, 0x3400002B) /* PhysicsEffectTable */;

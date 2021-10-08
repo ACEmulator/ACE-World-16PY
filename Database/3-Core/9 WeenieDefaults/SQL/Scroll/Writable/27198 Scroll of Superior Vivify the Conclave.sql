@@ -23,7 +23,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27198,   1, 'Scroll of Superior Vivify the Conclave') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27198,   1,   33554826) /* Setup */
-     , (27198,   8,  100676456) /* Icon */
-     , (27198,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27198,   1, 0x0200018A) /* Setup */
+     , (27198,   8, 0x06003368) /* Icon */
+     , (27198,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27198,  28,       3162) /* Spell - Superior Vivify the Conclave */;

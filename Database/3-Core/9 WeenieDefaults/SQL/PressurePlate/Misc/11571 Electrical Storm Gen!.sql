@@ -29,10 +29,10 @@ VALUES (11571,   1, 'Electrical Storm Gen!') /* Name */
      , (11571,  17, 'The skies rumble with impending wrath!') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11571,   1,   33555536) /* Setup */
-     , (11571,   2,  150994977) /* MotionTable */
-     , (11571,   8,  100668114) /* Icon */
-     , (11571,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11571,   1, 0x02000450) /* Setup */
+     , (11571,   2, 0x09000021) /* MotionTable */
+     , (11571,   8, 0x060012D2) /* Icon */
+     , (11571,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11571,  23,        152) /* UseSound - TriggerActivated1 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)

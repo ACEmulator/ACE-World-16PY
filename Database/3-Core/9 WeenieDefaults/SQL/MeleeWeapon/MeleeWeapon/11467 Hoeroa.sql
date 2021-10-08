@@ -38,9 +38,9 @@ VALUES (11467,   1, 'Hoeroa') /* Name */
      , (11467,  16, 'A beautifull carved staff. Fuse this with a triple totem to create one of Palenqual''s living weapons.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11467,   1,   33557237) /* Setup */
-     , (11467,   3,  536870932) /* SoundTable */
-     , (11467,   6,   67113336) /* PaletteBase */
-     , (11467,   7,  268436252) /* ClothingBase */
-     , (11467,   8,  100672098) /* Icon */
-     , (11467,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11467,   1, 0x02000AF5) /* Setup */
+     , (11467,   3, 0x20000014) /* SoundTable */
+     , (11467,   6, 0x04001178) /* PaletteBase */
+     , (11467,   7, 0x1000031C) /* ClothingBase */
+     , (11467,   8, 0x06002262) /* Icon */
+     , (11467,  22, 0x3400002B) /* PhysicsEffectTable */;

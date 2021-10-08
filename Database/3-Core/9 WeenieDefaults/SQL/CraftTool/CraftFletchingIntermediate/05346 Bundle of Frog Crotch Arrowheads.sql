@@ -27,7 +27,7 @@ VALUES (5346,   1, 'Bundle of Frog Crotch Arrowheads') /* Name */
      , (5346,  20, 'Bundles of Frog Crotch Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5346,   1,   33555958) /* Setup */
-     , (5346,   3,  536870932) /* SoundTable */
-     , (5346,   8,  100670173) /* Icon */
-     , (5346,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5346,   1, 0x020005F6) /* Setup */
+     , (5346,   3, 0x20000014) /* SoundTable */
+     , (5346,   8, 0x06001ADD) /* Icon */
+     , (5346,  22, 0x3400002B) /* PhysicsEffectTable */;

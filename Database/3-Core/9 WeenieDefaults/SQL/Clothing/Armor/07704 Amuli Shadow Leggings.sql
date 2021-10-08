@@ -39,9 +39,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7704,   1, 'Amuli Shadow Leggings') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7704,   1,   33554856) /* Setup */
-     , (7704,   3,  536870932) /* SoundTable */
-     , (7704,   6,   67108990) /* PaletteBase */
-     , (7704,   7,  268435872) /* ClothingBase */
-     , (7704,   8,  100670443) /* Icon */
-     , (7704,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7704,   1, 0x020001A8) /* Setup */
+     , (7704,   3, 0x20000014) /* SoundTable */
+     , (7704,   6, 0x0400007E) /* PaletteBase */
+     , (7704,   7, 0x100001A0) /* ClothingBase */
+     , (7704,   8, 0x06001BEB) /* Icon */
+     , (7704,  22, 0x3400002B) /* PhysicsEffectTable */;

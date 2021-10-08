@@ -43,12 +43,12 @@ VALUES (9039,   1, 'Exarch Plate Leggings') /* Name */
      , (9039,  16, 'A heavily enchanted set of crystalline leggings, of the type once worn into battle by the Exarchs of the Yalaini Order of Hieromancers') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9039,   1,   33554856) /* Setup */
-     , (9039,   3,  536870932) /* SoundTable */
-     , (9039,   6,   67108990) /* PaletteBase */
-     , (9039,   7,  268436118) /* ClothingBase */
-     , (9039,   8,  100670419) /* Icon */
-     , (9039,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9039,   1, 0x020001A8) /* Setup */
+     , (9039,   3, 0x20000014) /* SoundTable */
+     , (9039,   6, 0x0400007E) /* PaletteBase */
+     , (9039,   7, 0x10000296) /* ClothingBase */
+     , (9039,   8, 0x06001BD3) /* Icon */
+     , (9039,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9039,  41,         34) /* ItemSpecializedOnly - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

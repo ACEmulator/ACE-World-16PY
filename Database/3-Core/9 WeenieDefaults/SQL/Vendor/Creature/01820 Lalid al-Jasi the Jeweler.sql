@@ -70,11 +70,11 @@ VALUES (1820,   1, 'Lalid al-Jasi the Jeweler') /* Name */
      , (1820,  24, 'Tufa') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1820,   1,   33554433) /* Setup */
-     , (1820,   2,  150994945) /* MotionTable */
-     , (1820,   3,  536870913) /* SoundTable */
-     , (1820,   4,  805306368) /* CombatTable */
-     , (1820,   8,  100667446) /* Icon */;
+VALUES (1820,   1, 0x02000001) /* Setup */
+     , (1820,   2, 0x09000001) /* MotionTable */
+     , (1820,   3, 0x20000001) /* SoundTable */
+     , (1820,   4, 0x30000000) /* CombatTable */
+     , (1820,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1820,   1,  85, 0, 0) /* Strength */

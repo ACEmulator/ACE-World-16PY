@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24321,   1, 'Undead Captain') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24321,   1,   33554839) /* Setup */
-     , (24321,   2,  150994967) /* MotionTable */
-     , (24321,   3,  536870934) /* SoundTable */
-     , (24321,   4,  805306368) /* CombatTable */
-     , (24321,   6,   67110722) /* PaletteBase */
-     , (24321,   7,  268436626) /* ClothingBase */
-     , (24321,   8,  100667942) /* Icon */
-     , (24321,  22,  872415272) /* PhysicsEffectTable */
+VALUES (24321,   1, 0x02000197) /* Setup */
+     , (24321,   2, 0x09000017) /* MotionTable */
+     , (24321,   3, 0x20000016) /* SoundTable */
+     , (24321,   4, 0x30000000) /* CombatTable */
+     , (24321,   6, 0x04000742) /* PaletteBase */
+     , (24321,   7, 0x10000492) /* ClothingBase */
+     , (24321,   8, 0x06001226) /* Icon */
+     , (24321,  22, 0x34000028) /* PhysicsEffectTable */
      , (24321,  32,        199) /* WieldedTreasureType - 
                                    Wield Yumi (23733) | Probability: 6%
                                    Wield 20x Deadly Armor Piercing Arrow (15431) | Probability: 100%

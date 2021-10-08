@@ -62,11 +62,11 @@ VALUES (22827,   1, 'Emissary of Asheron') /* Name */
      , (22827,   5, 'Emissary') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22827,   1,   33556923) /* Setup */
-     , (22827,   2,  150995087) /* MotionTable */
-     , (22827,   3,  536870998) /* SoundTable */
-     , (22827,   4,  805306368) /* CombatTable */
-     , (22827,   8,  100670274) /* Icon */;
+VALUES (22827,   1, 0x020009BB) /* Setup */
+     , (22827,   2, 0x0900008F) /* MotionTable */
+     , (22827,   3, 0x20000056) /* SoundTable */
+     , (22827,   4, 0x30000000) /* CombatTable */
+     , (22827,   8, 0x06001B42) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22827,   1, 245, 0, 0) /* Strength */

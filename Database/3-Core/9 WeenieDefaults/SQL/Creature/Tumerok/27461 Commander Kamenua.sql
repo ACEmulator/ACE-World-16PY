@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27461,   1, 'Commander Kamenua') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27461,   1,   33554496) /* Setup */
-     , (27461,   2,  150994954) /* MotionTable */
-     , (27461,   3,  536870931) /* SoundTable */
-     , (27461,   4,  805306380) /* CombatTable */
-     , (27461,   6,   67109314) /* PaletteBase */
-     , (27461,   7,  268436645) /* ClothingBase */
-     , (27461,   8,  100667452) /* Icon */
-     , (27461,  22,  872415270) /* PhysicsEffectTable */
+VALUES (27461,   1, 0x02000040) /* Setup */
+     , (27461,   2, 0x0900000A) /* MotionTable */
+     , (27461,   3, 0x20000013) /* SoundTable */
+     , (27461,   4, 0x3000000C) /* CombatTable */
+     , (27461,   6, 0x040001C2) /* PaletteBase */
+     , (27461,   7, 0x100004A5) /* ClothingBase */
+     , (27461,   8, 0x0600103C) /* Icon */
+     , (27461,  22, 0x34000026) /* PhysicsEffectTable */
      , (27461,  32,        199) /* WieldedTreasureType - 
                                    Wield Yumi (23733) | Probability: 6%
                                    Wield 20x Deadly Armor Piercing Arrow (15431) | Probability: 100%

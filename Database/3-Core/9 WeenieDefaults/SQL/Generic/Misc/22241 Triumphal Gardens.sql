@@ -22,5 +22,5 @@ VALUES (22241,   1, 'Triumphal Gardens') /* Name */
      , (22241,  16, 'Triumphal Gardens') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22241,   1,   33558055) /* Setup */
-     , (22241,   8,  100667499) /* Icon */;
+VALUES (22241,   1, 0x02000E27) /* Setup */
+     , (22241,   8, 0x0600106B) /* Icon */;

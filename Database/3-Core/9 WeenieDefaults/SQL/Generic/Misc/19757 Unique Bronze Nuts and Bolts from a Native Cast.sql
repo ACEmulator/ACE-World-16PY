@@ -26,5 +26,5 @@ VALUES (19757,   1, 'Unique Bronze Nuts and Bolts from a Native Cast') /* Name *
      , (19757,  37, 'EventVirindiKiller') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19757,   1,   33557679) /* Setup */
-     , (19757,   8,  100672954) /* Icon */;
+VALUES (19757,   1, 0x02000CAF) /* Setup */
+     , (19757,   8, 0x060025BA) /* Icon */;

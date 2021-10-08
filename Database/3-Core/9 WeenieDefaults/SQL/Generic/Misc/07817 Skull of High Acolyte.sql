@@ -29,11 +29,11 @@ VALUES (7817,   1, 'Skull of High Acolyte') /* Name */
      , (7817,  33, 'SoulFearingVestrySkull') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7817,   1,   33556825) /* Setup */
-     , (7817,   3,  536870932) /* SoundTable */
-     , (7817,   8,  100671032) /* Icon */
-     , (7817,  22,  872415275) /* PhysicsEffectTable */
-     , (7817,  36,  234881046) /* MutateFilter */;
+VALUES (7817,   1, 0x02000959) /* Setup */
+     , (7817,   3, 0x20000014) /* SoundTable */
+     , (7817,   8, 0x06001E38) /* Icon */
+     , (7817,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (7817,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (7817, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'SoulFearingVestrySkull', NULL, NULL, NULL);

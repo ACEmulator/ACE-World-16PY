@@ -24,7 +24,7 @@ VALUES (20549,   1, 'Scroll of Kwipetian Vision') /* Name */
      , (20549,  15, 'When learned, this spell decreases the target''s Leadership skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20549,   1,   33554826) /* Setup */
-     , (20549,   8,  100676446) /* Icon */
-     , (20549,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20549,   1, 0x0200018A) /* Setup */
+     , (20549,   8, 0x0600335E) /* Icon */
+     , (20549,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20549,  28,       2260) /* Spell - Kwipetian Vision */;

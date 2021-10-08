@@ -22,5 +22,5 @@ VALUES (14702,   1, 'Firedew') /* Name */
      , (14702,  16, 'Welcome to Firedew') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14702,   1,   33557463) /* Setup */
-     , (14702,   8,  100668115) /* Icon */;
+VALUES (14702,   1, 0x02000BD7) /* Setup */
+     , (14702,   8, 0x060012D3) /* Icon */;

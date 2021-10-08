@@ -22,5 +22,5 @@ VALUES (1269,   1, 'Bandit Castle Prison Sign') /* Name */
      , (1269,  16, 'Bandit Castle Prison. Authorized Personnel Only. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1269,   1,   33555088) /* Setup */
-     , (1269,   8,  100668115) /* Icon */;
+VALUES (1269,   1, 0x02000290) /* Setup */
+     , (1269,   8, 0x060012D3) /* Icon */;

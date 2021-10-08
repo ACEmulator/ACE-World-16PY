@@ -49,10 +49,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30868,   1, 'Crossbow of the Fallen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30868,   1,   33559274) /* Setup */
-     , (30868,   3,  536870932) /* SoundTable */
-     , (30868,   8,  100677507) /* Icon */
-     , (30868,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30868,   1, 0x020012EA) /* Setup */
+     , (30868,   3, 0x20000014) /* SoundTable */
+     , (30868,   8, 0x06003783) /* Icon */
+     , (30868,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30868,  2688,      2)  /* Moderate Missile Weapon Aptitude */

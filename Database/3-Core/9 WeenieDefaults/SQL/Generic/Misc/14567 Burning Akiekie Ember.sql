@@ -23,5 +23,5 @@ VALUES (14567,   1, 'Burning Akiekie Ember') /* Name */
      , (14567,  15, 'Infused with Aun Tanua''s keh, this ember is now glowing brightly within the shelter of your pack.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14567,   1,   33557504) /* Setup */
-     , (14567,   8,  100672487) /* Icon */;
+VALUES (14567,   1, 0x02000C00) /* Setup */
+     , (14567,   8, 0x060023E7) /* Icon */;

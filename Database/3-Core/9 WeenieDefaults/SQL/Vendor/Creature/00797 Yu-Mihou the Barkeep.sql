@@ -70,11 +70,11 @@ VALUES (797,   1, 'Yu-Mihou the Barkeep') /* Name */
      , (797,  24, 'Mayoi') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (797,   1,   33554510) /* Setup */
-     , (797,   2,  150994945) /* MotionTable */
-     , (797,   3,  536870914) /* SoundTable */
-     , (797,   4,  805306368) /* CombatTable */
-     , (797,   8,  100667446) /* Icon */;
+VALUES (797,   1, 0x0200004E) /* Setup */
+     , (797,   2, 0x09000001) /* MotionTable */
+     , (797,   3, 0x20000002) /* SoundTable */
+     , (797,   4, 0x30000000) /* CombatTable */
+     , (797,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (797,   1,  45, 0, 0) /* Strength */

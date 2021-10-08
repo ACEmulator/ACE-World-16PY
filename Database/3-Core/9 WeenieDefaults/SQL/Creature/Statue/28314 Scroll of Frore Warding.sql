@@ -63,12 +63,12 @@ VALUES (28314,   1, 'Scroll of Frore Warding') /* Name */
      , (28314,  15, 'This scroll appears to have a spell to enhance the cold defense of all fellowship members. It appears as though there are four such items that can be given.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28314,   1,   33558637) /* Setup */
-     , (28314,   2,  150995273) /* MotionTable */
-     , (28314,   3,  536871052) /* SoundTable */
-     , (28314,   4,  805306398) /* CombatTable */
-     , (28314,   8,  100675919) /* Icon */
-     , (28314,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (28314,   1, 0x0200106D) /* Setup */
+     , (28314,   2, 0x09000149) /* MotionTable */
+     , (28314,   3, 0x2000008C) /* SoundTable */
+     , (28314,   4, 0x3000001E) /* CombatTable */
+     , (28314,   8, 0x0600314F) /* Icon */
+     , (28314,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28314,   1, 380, 0, 0) /* Strength */

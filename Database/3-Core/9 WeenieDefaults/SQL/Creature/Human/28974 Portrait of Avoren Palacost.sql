@@ -66,10 +66,10 @@ VALUES (28974,   1, 'Portrait of Avoren Palacost') /* Name */
      , (28974,  16, 'A portrait of Avoren Palacost. It is a masterpiece. Hevk Loz may know more about this.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28974,   1,   33558987) /* Setup */
-     , (28974,   2,  150995312) /* MotionTable */
-     , (28974,   3,  536870930) /* SoundTable */
-     , (28974,   8,  100677074) /* Icon */;
+VALUES (28974,   1, 0x020011CB) /* Setup */
+     , (28974,   2, 0x09000170) /* MotionTable */
+     , (28974,   3, 0x20000012) /* SoundTable */
+     , (28974,   8, 0x060035D2) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28974,   1, 340, 0, 0) /* Strength */

@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25748,   1, 'Olthoi Larvae') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25748,   1,   33558333) /* Setup */
-     , (25748,   2,  150995238) /* MotionTable */
-     , (25748,   3,  536871068) /* SoundTable */
-     , (25748,   4,  805306418) /* CombatTable */
-     , (25748,   6,   67114236) /* PaletteBase */
-     , (25748,   7,  268436600) /* ClothingBase */
-     , (25748,   8,  100674298) /* Icon */
-     , (25748,  22,  872415396) /* PhysicsEffectTable */
+VALUES (25748,   1, 0x02000F3D) /* Setup */
+     , (25748,   2, 0x09000126) /* MotionTable */
+     , (25748,   3, 0x2000009C) /* SoundTable */
+     , (25748,   4, 0x30000032) /* CombatTable */
+     , (25748,   6, 0x040014FC) /* PaletteBase */
+     , (25748,   7, 0x10000478) /* ClothingBase */
+     , (25748,   8, 0x06002AFA) /* Icon */
+     , (25748,  22, 0x340000A4) /* PhysicsEffectTable */
      , (25748,  30,         86) /* PhysicsScript - BreatheAcid */
      , (25748,  35,        145) /* DeathTreasureType - Loot Tier: 2 */;
 

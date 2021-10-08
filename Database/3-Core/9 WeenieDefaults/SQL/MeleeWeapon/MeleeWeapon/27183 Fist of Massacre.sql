@@ -49,13 +49,13 @@ VALUES (27183,   1, 'Fist of Massacre') /* Name */
      , (27183,  16, 'Crafted by the Faltacot, this stunning and sharp blade looks as though it could easily pierce flesh.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27183,   1,   33558635) /* Setup */
-     , (27183,   3,  536870932) /* SoundTable */
-     , (27183,   6,   67114956) /* PaletteBase */
-     , (27183,   7,  268436792) /* ClothingBase */
-     , (27183,   8,  100675920) /* Icon */
-     , (27183,  22,  872415275) /* PhysicsEffectTable */
-     , (27183,  36,  234881044) /* MutateFilter */;
+VALUES (27183,   1, 0x0200106B) /* Setup */
+     , (27183,   3, 0x20000014) /* SoundTable */
+     , (27183,   6, 0x040017CC) /* PaletteBase */
+     , (27183,   7, 0x10000538) /* ClothingBase */
+     , (27183,   8, 0x06003150) /* Icon */
+     , (27183,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27183,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27183,  1141,      2)  /* Piercing Protection Other III */

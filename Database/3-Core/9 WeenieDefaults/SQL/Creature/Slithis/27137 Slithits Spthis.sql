@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27137,   1, 'Slithits Spthis') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27137,   1,   33555670) /* Setup */
-     , (27137,   2,  150995067) /* MotionTable */
-     , (27137,   3,  536871015) /* SoundTable */
-     , (27137,   4,  805306404) /* CombatTable */
-     , (27137,   6,   67112864) /* PaletteBase */
-     , (27137,   7,  268436087) /* ClothingBase */
-     , (27137,   8,  100671186) /* Icon */
-     , (27137,  22,  872415332) /* PhysicsEffectTable */
+VALUES (27137,   1, 0x020004D6) /* Setup */
+     , (27137,   2, 0x0900007B) /* MotionTable */
+     , (27137,   3, 0x20000067) /* SoundTable */
+     , (27137,   4, 0x30000024) /* CombatTable */
+     , (27137,   6, 0x04000FA0) /* PaletteBase */
+     , (27137,   7, 0x10000277) /* ClothingBase */
+     , (27137,   8, 0x06001ED2) /* Icon */
+     , (27137,  22, 0x34000064) /* PhysicsEffectTable */
      , (27137,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

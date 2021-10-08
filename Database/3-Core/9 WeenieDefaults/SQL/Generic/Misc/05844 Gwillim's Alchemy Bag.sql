@@ -24,7 +24,7 @@ VALUES (5844,   1, 'Gwillim''s Alchemy Bag') /* Name */
      , (5844,  33, 'GwillimAlchemyBag') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5844,   1,   33554817) /* Setup */
-     , (5844,   3,  536870932) /* SoundTable */
-     , (5844,   8,  100669779) /* Icon */
-     , (5844,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5844,   1, 0x02000181) /* Setup */
+     , (5844,   3, 0x20000014) /* SoundTable */
+     , (5844,   8, 0x06001953) /* Icon */
+     , (5844,  22, 0x3400002B) /* PhysicsEffectTable */;

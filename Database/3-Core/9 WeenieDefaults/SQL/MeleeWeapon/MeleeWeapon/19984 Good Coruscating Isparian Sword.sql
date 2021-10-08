@@ -49,12 +49,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19984,   1, 'Good Coruscating Isparian Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19984,   1,   33556348) /* Setup */
-     , (19984,   3,  536870932) /* SoundTable */
-     , (19984,   6,   67111919) /* PaletteBase */
-     , (19984,   7,  268436385) /* ClothingBase */
-     , (19984,   8,  100672947) /* Icon */
-     , (19984,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19984,   1, 0x0200077C) /* Setup */
+     , (19984,   3, 0x20000014) /* SoundTable */
+     , (19984,   6, 0x04000BEF) /* PaletteBase */
+     , (19984,   7, 0x100003A1) /* ClothingBase */
+     , (19984,   8, 0x060025B3) /* Icon */
+     , (19984,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19984,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

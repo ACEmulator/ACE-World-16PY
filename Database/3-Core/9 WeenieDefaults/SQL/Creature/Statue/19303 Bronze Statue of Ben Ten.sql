@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19303,   1, 'Bronze Statue of Ben Ten') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19303,   1,   33554510) /* Setup */
-     , (19303,   2,  150995187) /* MotionTable */
-     , (19303,   3,  536871052) /* SoundTable */
-     , (19303,   4,  805306368) /* CombatTable */
-     , (19303,   6,   67108990) /* PaletteBase */
-     , (19303,   7,  268436345) /* ClothingBase */
-     , (19303,   8,  100667446) /* Icon */
-     , (19303,  22,  872415349) /* PhysicsEffectTable */
+VALUES (19303,   1, 0x0200004E) /* Setup */
+     , (19303,   2, 0x090000F3) /* MotionTable */
+     , (19303,   3, 0x2000008C) /* SoundTable */
+     , (19303,   4, 0x30000000) /* CombatTable */
+     , (19303,   6, 0x0400007E) /* PaletteBase */
+     , (19303,   7, 0x10000379) /* ClothingBase */
+     , (19303,   8, 0x06001036) /* Icon */
+     , (19303,  22, 0x34000075) /* PhysicsEffectTable */
      , (19303,  32,        398) /* WieldedTreasureType - 
                                    Wield Ben Ten's Tachi (15391) | Probability: 100% */
      , (19303,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;

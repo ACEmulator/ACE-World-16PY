@@ -32,9 +32,9 @@ VALUES (7534,   1, 'Ground Chorizite') /* Name */
      , (7534,  16, 'A roughly ground powder made from Refined Chorizite Ore.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7534,   1,   33555208) /* Setup */
-     , (7534,   3,  536870932) /* SoundTable */
-     , (7534,   6,   67111919) /* PaletteBase */
-     , (7534,   7,  268435778) /* ClothingBase */
-     , (7534,   8,  100670736) /* Icon */
-     , (7534,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7534,   1, 0x02000308) /* Setup */
+     , (7534,   3, 0x20000014) /* SoundTable */
+     , (7534,   6, 0x04000BEF) /* PaletteBase */
+     , (7534,   7, 0x10000142) /* ClothingBase */
+     , (7534,   8, 0x06001D10) /* Icon */
+     , (7534,  22, 0x3400002B) /* PhysicsEffectTable */;

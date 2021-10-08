@@ -31,10 +31,10 @@ VALUES (377,   1, 'Potion of Healing') /* Name */
      , (377,  20, 'Potions of Healing') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (377,   1,   33554603) /* Setup */
-     , (377,   3,  536870932) /* SoundTable */
-     , (377,   6,   67111919) /* PaletteBase */
-     , (377,   7,  268435816) /* ClothingBase */
-     , (377,   8,  100676310) /* Icon */
-     , (377,  22,  872415275) /* PhysicsEffectTable */
+VALUES (377,   1, 0x020000AB) /* Setup */
+     , (377,   3, 0x20000014) /* SoundTable */
+     , (377,   6, 0x04000BEF) /* PaletteBase */
+     , (377,   7, 0x10000168) /* ClothingBase */
+     , (377,   8, 0x060032D6) /* Icon */
+     , (377,  22, 0x3400002B) /* PhysicsEffectTable */
      , (377,  23,         65) /* UseSound - Drink1 */;

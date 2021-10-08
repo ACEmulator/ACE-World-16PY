@@ -69,12 +69,12 @@ VALUES (25484,   1, 'Renegade''s Pack') /* Name */
      , (25484,  16, 'A large backpack stuffed with paper.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25484,   1,   33558452) /* Setup */
-     , (25484,   2,  150995254) /* MotionTable */
-     , (25484,   3,  536870913) /* SoundTable */
-     , (25484,   6,   67111919) /* PaletteBase */
-     , (25484,   7,  268435867) /* ClothingBase */
-     , (25484,   8,  100670383) /* Icon */;
+VALUES (25484,   1, 0x02000FB4) /* Setup */
+     , (25484,   2, 0x09000136) /* MotionTable */
+     , (25484,   3, 0x20000001) /* SoundTable */
+     , (25484,   6, 0x04000BEF) /* PaletteBase */
+     , (25484,   7, 0x1000019B) /* ClothingBase */
+     , (25484,   8, 0x06001BAF) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25484,   1, 200, 0, 0) /* Strength */

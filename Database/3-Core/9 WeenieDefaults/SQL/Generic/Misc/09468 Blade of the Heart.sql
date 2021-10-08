@@ -27,7 +27,7 @@ VALUES (9468,   1, 'Blade of the Heart') /* Name */
      , (9468,  33, 'LugianBladeHeart') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9468,   1,   33557009) /* Setup */
-     , (9468,   3,  536870932) /* SoundTable */
-     , (9468,   8,  100671494) /* Icon */
-     , (9468,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9468,   1, 0x02000A11) /* Setup */
+     , (9468,   3, 0x20000014) /* SoundTable */
+     , (9468,   8, 0x06002006) /* Icon */
+     , (9468,  22, 0x3400002B) /* PhysicsEffectTable */;

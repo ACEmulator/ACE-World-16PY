@@ -72,13 +72,13 @@ VALUES (24220,   1, 'Pang Sin-Xiang the Weaponsmith') /* Name */
      , (24220,  24, 'WaiJhou') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24220,   1,   33554433) /* Setup */
-     , (24220,   2,  150994945) /* MotionTable */
-     , (24220,   3,  536870913) /* SoundTable */
-     , (24220,   4,  805306368) /* CombatTable */
-     , (24220,   6,   67108990) /* PaletteBase */
-     , (24220,   7,  268435545) /* ClothingBase */
-     , (24220,   8,  100667446) /* Icon */;
+VALUES (24220,   1, 0x02000001) /* Setup */
+     , (24220,   2, 0x09000001) /* MotionTable */
+     , (24220,   3, 0x20000001) /* SoundTable */
+     , (24220,   4, 0x30000000) /* CombatTable */
+     , (24220,   6, 0x0400007E) /* PaletteBase */
+     , (24220,   7, 0x10000059) /* ClothingBase */
+     , (24220,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24220,   1, 140, 0, 0) /* Strength */

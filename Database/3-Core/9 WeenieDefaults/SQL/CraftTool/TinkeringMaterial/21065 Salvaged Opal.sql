@@ -34,10 +34,10 @@ VALUES (21065,   1, 'Salvaged Opal') /* Name */
      , (21065,  15, 'Chips of opal material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21065,   1,   33554817) /* Setup */
-     , (21065,   3,  536870932) /* SoundTable */
-     , (21065,   6,   67111919) /* PaletteBase */
-     , (21065,   7,  268436430) /* ClothingBase */
-     , (21065,   8,  100667436) /* Icon */
-     , (21065,  22,  872415275) /* PhysicsEffectTable */
-     , (21065,  50,  100673288) /* IconOverlay */;
+VALUES (21065,   1, 0x02000181) /* Setup */
+     , (21065,   3, 0x20000014) /* SoundTable */
+     , (21065,   6, 0x04000BEF) /* PaletteBase */
+     , (21065,   7, 0x100003CE) /* ClothingBase */
+     , (21065,   8, 0x0600102C) /* Icon */
+     , (21065,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (21065,  50, 0x06002708) /* IconOverlay */;

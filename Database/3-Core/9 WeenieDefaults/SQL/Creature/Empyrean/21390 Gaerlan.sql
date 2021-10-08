@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21390,   1, 'Gaerlan') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21390,   1,   33557846) /* Setup */
-     , (21390,   2,  150995218) /* MotionTable */
-     , (21390,   3,  536870913) /* SoundTable */
-     , (21390,   4,  805306368) /* CombatTable */
-     , (21390,   6,   67112626) /* PaletteBase */
-     , (21390,   7,  268436453) /* ClothingBase */
-     , (21390,   8,  100673073) /* Icon */
-     , (21390,  22,  872415236) /* PhysicsEffectTable */
+VALUES (21390,   1, 0x02000D56) /* Setup */
+     , (21390,   2, 0x09000112) /* MotionTable */
+     , (21390,   3, 0x20000001) /* SoundTable */
+     , (21390,   4, 0x30000000) /* CombatTable */
+     , (21390,   6, 0x04000EB2) /* PaletteBase */
+     , (21390,   7, 0x100003E5) /* ClothingBase */
+     , (21390,   8, 0x06002631) /* Icon */
+     , (21390,  22, 0x34000004) /* PhysicsEffectTable */
      , (21390,  31,      21422) /* LinkedPortalOne - Gaerlan's Inner Sanctum */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

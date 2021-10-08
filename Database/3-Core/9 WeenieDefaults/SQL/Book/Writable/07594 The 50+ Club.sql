@@ -24,8 +24,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7594,   1, 'The 50+ Club') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7594,   1,   33555229) /* Setup */
-     , (7594,   8,  100667494) /* Icon */;
+VALUES (7594,   1, 0x0200031D) /* Setup */
+     , (7594,   8, 0x06001066) /* Icon */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (7594, 1, 1000);

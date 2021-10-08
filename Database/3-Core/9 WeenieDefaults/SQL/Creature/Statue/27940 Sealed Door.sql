@@ -65,11 +65,11 @@ VALUES (27940,   1, 'Sealed Door') /* Name */
      , (27940,  16, 'This door appears to have a soft red glimmer to the stone. Perhaps these halls are meant for those who can safely deal with the obsidian plains.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27940,   1,   33558614) /* Setup */
-     , (27940,   2,  150995277) /* MotionTable */
-     , (27940,   3,  536871053) /* SoundTable */
-     , (27940,   8,  100675780) /* Icon */
-     , (27940,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27940,   1, 0x02001056) /* Setup */
+     , (27940,   2, 0x0900014D) /* MotionTable */
+     , (27940,   3, 0x2000008D) /* SoundTable */
+     , (27940,   8, 0x060030C4) /* Icon */
+     , (27940,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27940,   1, 380, 0, 0) /* Strength */

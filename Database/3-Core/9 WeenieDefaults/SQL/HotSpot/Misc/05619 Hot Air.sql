@@ -36,6 +36,6 @@ VALUES (5619,   1, 'Hot Air') /* Name */
      , (5619,  17, 'Hot air burns you for %i points of damage!') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5619,   1,   33556024) /* Setup */
-     , (5619,   3,  536870996) /* SoundTable */
-     , (5619,   8,  100667465) /* Icon */;
+VALUES (5619,   1, 0x02000638) /* Setup */
+     , (5619,   3, 0x20000054) /* SoundTable */
+     , (5619,   8, 0x06001049) /* Icon */;

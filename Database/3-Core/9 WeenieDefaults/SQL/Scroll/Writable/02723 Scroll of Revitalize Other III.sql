@@ -25,7 +25,7 @@ VALUES (2723,   1, 'Scroll of Revitalize Other III') /* Name */
      , (2723,  16, 'When learned, this spell restores 26-50 points of the target''s Stamina.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2723,   1,   33554826) /* Setup */
-     , (2723,   8,  100676930) /* Icon */
-     , (2723,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2723,   1, 0x0200018A) /* Setup */
+     , (2723,   8, 0x06003542) /* Icon */
+     , (2723,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2723,  28,       1185) /* Spell - Revitalize Other III */;

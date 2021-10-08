@@ -60,14 +60,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2564,   1, 'Freshwater Armoredillo') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2564,   1,   33554436) /* Setup */
-     , (2564,   2,  150994972) /* MotionTable */
-     , (2564,   3,  536870915) /* SoundTable */
-     , (2564,   4,  805306382) /* CombatTable */
-     , (2564,   6,   67109301) /* PaletteBase */
-     , (2564,   7,  268435547) /* ClothingBase */
-     , (2564,   8,  100667935) /* Icon */
-     , (2564,  22,  872415253) /* PhysicsEffectTable */
+VALUES (2564,   1, 0x02000004) /* Setup */
+     , (2564,   2, 0x0900001C) /* MotionTable */
+     , (2564,   3, 0x20000003) /* SoundTable */
+     , (2564,   4, 0x3000000E) /* CombatTable */
+     , (2564,   6, 0x040001B5) /* PaletteBase */
+     , (2564,   7, 0x1000005B) /* ClothingBase */
+     , (2564,   8, 0x0600121F) /* Icon */
+     , (2564,  22, 0x34000015) /* PhysicsEffectTable */
      , (2564,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

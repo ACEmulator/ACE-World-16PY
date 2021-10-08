@@ -60,12 +60,12 @@ VALUES (27567,   1, 'Brute') /* Name */
      , (27567,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27567,   1,   33554433) /* Setup */
-     , (27567,   2,  150994945) /* MotionTable */
-     , (27567,   3,  536870913) /* SoundTable */
-     , (27567,   4,  805306368) /* CombatTable */
-     , (27567,   8,  100667446) /* Icon */
-     , (27567,  22,  872415236) /* PhysicsEffectTable */
+VALUES (27567,   1, 0x02000001) /* Setup */
+     , (27567,   2, 0x09000001) /* MotionTable */
+     , (27567,   3, 0x20000001) /* SoundTable */
+     , (27567,   4, 0x30000000) /* CombatTable */
+     , (27567,   8, 0x06001036) /* Icon */
+     , (27567,  22, 0x34000004) /* PhysicsEffectTable */
      , (27567,  32,        472) /* WieldedTreasureType - 
                                    Wield Doublet (2596) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.641%
                                    Wield Doublet (2596) | Palette: DeepBrown (6) | Shade: 0.67 | Probability: 0.641%

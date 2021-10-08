@@ -38,11 +38,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3895,   1, 'Flaming Takuba') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3895,   1,   33555803) /* Setup */
-     , (3895,   3,  536870932) /* SoundTable */
-     , (3895,   6,   67111919) /* PaletteBase */
-     , (3895,   7,  268435773) /* ClothingBase */
-     , (3895,   8,  100668165) /* Icon */
-     , (3895,  22,  872415275) /* PhysicsEffectTable */
-     , (3895,  36,  234881053) /* MutateFilter */
-     , (3895,  46,  939524101) /* TsysMutationFilter */;
+VALUES (3895,   1, 0x0200055B) /* Setup */
+     , (3895,   3, 0x20000014) /* SoundTable */
+     , (3895,   6, 0x04000BEF) /* PaletteBase */
+     , (3895,   7, 0x1000013D) /* ClothingBase */
+     , (3895,   8, 0x06001305) /* Icon */
+     , (3895,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3895,  36, 0x0E00001D) /* MutateFilter */
+     , (3895,  46, 0x38000005) /* TsysMutationFilter */;

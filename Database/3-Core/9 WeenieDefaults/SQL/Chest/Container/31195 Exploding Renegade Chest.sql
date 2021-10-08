@@ -34,9 +34,9 @@ VALUES (31195,   1, 'Exploding Renegade Chest') /* Name */
      , (31195,  16, 'This chest looks very unstable, as if it will explode at any moment.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31195,   1,   33558692) /* Setup */
-     , (31195,   2,  150995293) /* MotionTable */
-     , (31195,   3,  536870950) /* SoundTable */
-     , (31195,   8,  100676428) /* Icon */
-     , (31195,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31195,   1, 0x020010A4) /* Setup */
+     , (31195,   2, 0x0900015D) /* MotionTable */
+     , (31195,   3, 0x20000026) /* SoundTable */
+     , (31195,   8, 0x0600334C) /* Icon */
+     , (31195,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31195,  28,       3241) /* Spell - Flame Burst */;

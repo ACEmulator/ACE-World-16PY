@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8128,   1, 'Babe the Blue Auroch') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8128,   1,   33554478) /* Setup */
-     , (8128,   2,  150994969) /* MotionTable */
-     , (8128,   3,  536870916) /* SoundTable */
-     , (8128,   4,  805306375) /* CombatTable */
-     , (8128,   6,   67109302) /* PaletteBase */
-     , (8128,   7,  268435548) /* ClothingBase */
-     , (8128,   8,  100667936) /* Icon */
-     , (8128,  22,  872415254) /* PhysicsEffectTable */
+VALUES (8128,   1, 0x0200002E) /* Setup */
+     , (8128,   2, 0x09000019) /* MotionTable */
+     , (8128,   3, 0x20000004) /* SoundTable */
+     , (8128,   4, 0x30000007) /* CombatTable */
+     , (8128,   6, 0x040001B6) /* PaletteBase */
+     , (8128,   7, 0x1000005C) /* ClothingBase */
+     , (8128,   8, 0x06001220) /* Icon */
+     , (8128,  22, 0x34000016) /* PhysicsEffectTable */
      , (8128,  35,         38) /* DeathTreasureType */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

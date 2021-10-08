@@ -61,12 +61,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8270,   1, 'Sotiris Hollow Minion') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8270,   1,   33556792) /* Setup */
-     , (8270,   2,  150995101) /* MotionTable */
-     , (8270,   3,  536871013) /* SoundTable */
-     , (8270,   4,  805306413) /* CombatTable */
-     , (8270,   8,  100671140) /* Icon */
-     , (8270,  22,  872415367) /* PhysicsEffectTable */
+VALUES (8270,   1, 0x02000938) /* Setup */
+     , (8270,   2, 0x0900009D) /* MotionTable */
+     , (8270,   3, 0x20000065) /* SoundTable */
+     , (8270,   4, 0x3000002D) /* CombatTable */
+     , (8270,   8, 0x06001EA4) /* Icon */
+     , (8270,  22, 0x34000087) /* PhysicsEffectTable */
      , (8270,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

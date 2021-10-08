@@ -48,12 +48,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19789,   1, 'Superb Isparian Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19789,   1,   33556256) /* Setup */
-     , (19789,   3,  536870932) /* SoundTable */
-     , (19789,   6,   67111919) /* PaletteBase */
-     , (19789,   7,  268436377) /* ClothingBase */
-     , (19789,   8,  100672885) /* Icon */
-     , (19789,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19789,   1, 0x02000720) /* Setup */
+     , (19789,   3, 0x20000014) /* SoundTable */
+     , (19789,   6, 0x04000BEF) /* PaletteBase */
+     , (19789,   7, 0x10000399) /* ClothingBase */
+     , (19789,   8, 0x06002575) /* Icon */
+     , (19789,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19789,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

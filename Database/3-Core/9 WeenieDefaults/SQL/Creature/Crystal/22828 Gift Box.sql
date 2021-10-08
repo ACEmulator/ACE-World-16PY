@@ -63,12 +63,12 @@ VALUES (22828,   1, 'Gift Box') /* Name */
      , (22828,  15, 'A box containing gifts ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22828,   1,   33558132) /* Setup */
-     , (22828,   2,  150995228) /* MotionTable */
-     , (22828,   3,  536871001) /* SoundTable */
-     , (22828,   4,  805306407) /* CombatTable */
-     , (22828,   8,  100673909) /* Icon */
-     , (22828,  22,  872415348) /* PhysicsEffectTable */;
+VALUES (22828,   1, 0x02000E74) /* Setup */
+     , (22828,   2, 0x0900011C) /* MotionTable */
+     , (22828,   3, 0x20000059) /* SoundTable */
+     , (22828,   4, 0x30000027) /* CombatTable */
+     , (22828,   8, 0x06002975) /* Icon */
+     , (22828,  22, 0x34000074) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22828,   1, 100, 0, 0) /* Strength */

@@ -28,8 +28,8 @@ VALUES (11164,   1, 'Creature Enchantment Tessera') /* Name */
      , (11164,  16, 'A small, squarish piece of glass. This can be turned into the Tah of Timaru for a free one-point boost to your Creature Enchantment skill. There are tesserae available for each skill in the game. If you don''t want a point of Creature Enchantment, trade this tessera for another. You may only turn in five per characte - so choose carefully!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11164,   1,   33557218) /* Setup */
-     , (11164,   3,  536870932) /* SoundTable */
-     , (11164,   8,  100671794) /* Icon */
-     , (11164,  22,  872415275) /* PhysicsEffectTable */
-     , (11164,  36,  234881046) /* MutateFilter */;
+VALUES (11164,   1, 0x02000AE2) /* Setup */
+     , (11164,   3, 0x20000014) /* SoundTable */
+     , (11164,   8, 0x06002132) /* Icon */
+     , (11164,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11164,  36, 0x0E000016) /* MutateFilter */;

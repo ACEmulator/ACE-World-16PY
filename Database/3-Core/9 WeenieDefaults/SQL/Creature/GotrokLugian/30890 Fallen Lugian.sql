@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30890,   1, 'Fallen Lugian') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30890,   1,   33557003) /* Setup */
-     , (30890,   2,  150994950) /* MotionTable */
-     , (30890,   3,  536870922) /* SoundTable */
-     , (30890,   4,  805306371) /* CombatTable */
-     , (30890,   6,   67113158) /* PaletteBase */
-     , (30890,   7,  268436632) /* ClothingBase */
-     , (30890,   8,  100667447) /* Icon */
-     , (30890,  22,  872415262) /* PhysicsEffectTable */
+VALUES (30890,   1, 0x02000A0B) /* Setup */
+     , (30890,   2, 0x09000006) /* MotionTable */
+     , (30890,   3, 0x2000000A) /* SoundTable */
+     , (30890,   4, 0x30000003) /* CombatTable */
+     , (30890,   6, 0x040010C6) /* PaletteBase */
+     , (30890,   7, 0x10000498) /* ClothingBase */
+     , (30890,   8, 0x06001037) /* Icon */
+     , (30890,  22, 0x3400001E) /* PhysicsEffectTable */
      , (30890,  32,        424) /* WieldedTreasureType - 
                                    Wield 10x Rock (23133) | Probability: 20%
                                    Wield Lugian Morning Star (23134) | Probability: 40%

@@ -23,10 +23,10 @@ VALUES (8676,   1, 'A Book of Quests for New Explorers') /* Name */
      , (8676,  15, 'A book listing Agents of the Society across the land of Dereth') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8676,   1,   33554771) /* Setup */
-     , (8676,   3,  536870932) /* SoundTable */
-     , (8676,   8,  100668117) /* Icon */
-     , (8676,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8676,   1, 0x02000153) /* Setup */
+     , (8676,   3, 0x20000014) /* SoundTable */
+     , (8676,   8, 0x060012D5) /* Icon */
+     , (8676,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (8676, 9, 1000);

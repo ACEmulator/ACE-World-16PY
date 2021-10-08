@@ -23,7 +23,7 @@ VALUES (24127,   1, 'Minnow Title Token') /* Name */
      , (24127,  16, 'Hand this token to a Tackle Master to get the Title of ???????.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24127,   1,   33558276) /* Setup */
-     , (24127,   3,  536870932) /* SoundTable */
-     , (24127,   8,  100674183) /* Icon */
-     , (24127,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24127,   1, 0x02000F04) /* Setup */
+     , (24127,   3, 0x20000014) /* SoundTable */
+     , (24127,   8, 0x06002A87) /* Icon */
+     , (24127,  22, 0x3400002B) /* PhysicsEffectTable */;

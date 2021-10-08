@@ -24,8 +24,8 @@ VALUES (3722,   1, 'Potion of Black Fire') /* Name */
      , (3722,  14, 'Use this item to drink it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3722,   1,   33554603) /* Setup */
-     , (3722,   3,  536870932) /* SoundTable */
-     , (3722,   8,  100668234) /* Icon */
-     , (3722,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3722,   1, 0x020000AB) /* Setup */
+     , (3722,   3, 0x20000014) /* SoundTable */
+     , (3722,   8, 0x0600134A) /* Icon */
+     , (3722,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3722,  23,         65) /* UseSound - Drink1 */;

@@ -64,12 +64,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1535,   1, 'Ethereal Wisp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1535,   1,   33555866) /* Setup */
-     , (1535,   2,  150994993) /* MotionTable */
-     , (1535,   3,  536870985) /* SoundTable */
-     , (1535,   4,  805306398) /* CombatTable */
-     , (1535,   8,  100668442) /* Icon */
-     , (1535,  22,  872415274) /* PhysicsEffectTable */
+VALUES (1535,   1, 0x0200059A) /* Setup */
+     , (1535,   2, 0x09000031) /* MotionTable */
+     , (1535,   3, 0x20000049) /* SoundTable */
+     , (1535,   4, 0x3000001E) /* CombatTable */
+     , (1535,   8, 0x0600141A) /* Icon */
+     , (1535,  22, 0x3400002A) /* PhysicsEffectTable */
      , (1535,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

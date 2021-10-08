@@ -22,5 +22,5 @@ VALUES (12618,   1, 'Liang Chi Settlement') /* Name */
      , (12618,  16, 'Welcome to Liang Chi Settlement') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12618,   1,   33557463) /* Setup */
-     , (12618,   8,  100668115) /* Icon */;
+VALUES (12618,   1, 0x02000BD7) /* Setup */
+     , (12618,   8, 0x060012D3) /* Icon */;

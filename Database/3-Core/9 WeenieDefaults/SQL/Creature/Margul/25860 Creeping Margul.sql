@@ -68,14 +68,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25860,   1, 'Creeping Margul') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25860,   1,   33558554) /* Setup */
-     , (25860,   2,  150995263) /* MotionTable */
-     , (25860,   3,  536871080) /* SoundTable */
-     , (25860,   4,  805306426) /* CombatTable */
-     , (25860,   6,   67114728) /* PaletteBase */
-     , (25860,   7,  268436733) /* ClothingBase */
-     , (25860,   8,  100675661) /* Icon */
-     , (25860,  22,  872415401) /* PhysicsEffectTable */
+VALUES (25860,   1, 0x0200101A) /* Setup */
+     , (25860,   2, 0x0900013F) /* MotionTable */
+     , (25860,   3, 0x200000A8) /* SoundTable */
+     , (25860,   4, 0x3000003A) /* CombatTable */
+     , (25860,   6, 0x040016E8) /* PaletteBase */
+     , (25860,   7, 0x100004FD) /* ClothingBase */
+     , (25860,   8, 0x0600304D) /* Icon */
+     , (25860,  22, 0x340000A9) /* PhysicsEffectTable */
      , (25860,  30,         85) /* PhysicsScript - BreatheFrost */
      , (25860,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 

@@ -43,12 +43,12 @@ VALUES (6068,   1, 'Faran Life Apprentice Robe') /* Name */
      , (6068,  19, 'Aluvian') /* ItemHeritageGroupRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6068,   1,   33554854) /* Setup */
-     , (6068,   3,  536870932) /* SoundTable */
-     , (6068,   6,   67108990) /* PaletteBase */
-     , (6068,   7,  268435853) /* ClothingBase */
-     , (6068,   8,  100670360) /* Icon */
-     , (6068,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6068,   1, 0x020001A6) /* Setup */
+     , (6068,   3, 0x20000014) /* SoundTable */
+     , (6068,   6, 0x0400007E) /* PaletteBase */
+     , (6068,   7, 0x1000018D) /* ClothingBase */
+     , (6068,   8, 0x06001B98) /* Icon */
+     , (6068,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6068,  37,         33) /* ItemSkillLimit - LifeMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

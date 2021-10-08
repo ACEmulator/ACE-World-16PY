@@ -22,5 +22,5 @@ VALUES (12587,   1, 'Broken Sword Bethel Settlement') /* Name */
      , (12587,  16, 'Welcome to Broken Sword Bethel Settlement') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12587,   1,   33557463) /* Setup */
-     , (12587,   8,  100668115) /* Icon */;
+VALUES (12587,   1, 0x02000BD7) /* Setup */
+     , (12587,   8, 0x060012D3) /* Icon */;

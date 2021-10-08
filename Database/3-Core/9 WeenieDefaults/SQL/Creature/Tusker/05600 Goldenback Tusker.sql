@@ -60,14 +60,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5600,   1, 'Goldenback Tusker') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5600,   1,   33556836) /* Setup */
-     , (5600,   2,  150994956) /* MotionTable */
-     , (5600,   3,  536870929) /* SoundTable */
-     , (5600,   4,  805306379) /* CombatTable */
-     , (5600,   6,   67113007) /* PaletteBase */
-     , (5600,   7,  268436061) /* ClothingBase */
-     , (5600,   8,  100667443) /* Icon */
-     , (5600,  22,  872415271) /* PhysicsEffectTable */;
+VALUES (5600,   1, 0x02000964) /* Setup */
+     , (5600,   2, 0x0900000C) /* MotionTable */
+     , (5600,   3, 0x20000011) /* SoundTable */
+     , (5600,   4, 0x3000000B) /* CombatTable */
+     , (5600,   6, 0x0400102F) /* PaletteBase */
+     , (5600,   7, 0x1000025D) /* ClothingBase */
+     , (5600,   8, 0x06001033) /* Icon */
+     , (5600,  22, 0x34000027) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5600,   1, 220, 0, 0) /* Strength */

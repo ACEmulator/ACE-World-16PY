@@ -43,14 +43,14 @@ VALUES (8027,   1, 'Shendolain Soul Crystal Orb') /* Name */
      , (8027,  16, 'An orb imbued with the power of the Shendolain Soul Crystal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8027,   1,   33556767) /* Setup */
-     , (8027,   3,  536870932) /* SoundTable */
-     , (8027,   6,   67111928) /* PaletteBase */
-     , (8027,   7,  268436041) /* ClothingBase */
-     , (8027,   8,  100670985) /* Icon */
-     , (8027,  22,  872415275) /* PhysicsEffectTable */
-     , (8027,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
-     , (8027,  36,  234881046) /* MutateFilter */
+VALUES (8027,   1, 0x0200091F) /* Setup */
+     , (8027,   3, 0x20000014) /* SoundTable */
+     , (8027,   6, 0x04000BF8) /* PaletteBase */
+     , (8027,   7, 0x10000249) /* ClothingBase */
+     , (8027,   8, 0x06001E09) /* Icon */
+     , (8027,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8027,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
+     , (8027,  36, 0x0E000016) /* MutateFilter */
      , (8027,  37,         32) /* ItemSkillLimit - ItemEnchantment */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

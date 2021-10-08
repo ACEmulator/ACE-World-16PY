@@ -70,11 +70,11 @@ VALUES (2252,   1, 'Kiun Baicho the Barkeeper') /* Name */
      , (2252,  24, 'Baishi') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2252,   1,   33554510) /* Setup */
-     , (2252,   2,  150994945) /* MotionTable */
-     , (2252,   3,  536870914) /* SoundTable */
-     , (2252,   4,  805306368) /* CombatTable */
-     , (2252,   8,  100667446) /* Icon */;
+VALUES (2252,   1, 0x0200004E) /* Setup */
+     , (2252,   2, 0x09000001) /* MotionTable */
+     , (2252,   3, 0x20000002) /* SoundTable */
+     , (2252,   4, 0x30000000) /* CombatTable */
+     , (2252,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2252,   1,  85, 0, 0) /* Strength */

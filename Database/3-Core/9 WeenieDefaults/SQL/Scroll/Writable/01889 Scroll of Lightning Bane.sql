@@ -25,7 +25,7 @@ VALUES (1889,   1, 'Scroll of Lightning Bane') /* Name */
      , (1889,  16, 'When learned, this spell increases a shield or piece of armor''s resistance to electric damage by 10%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1889,   1,   33554826) /* Setup */
-     , (1889,   8,  100676653) /* Icon */
-     , (1889,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1889,   1, 0x0200018A) /* Setup */
+     , (1889,   8, 0x0600342D) /* Icon */
+     , (1889,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1889,  28,       1535) /* Spell - Lightning Bane I */;

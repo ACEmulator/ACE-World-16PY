@@ -32,13 +32,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23142,   1, 'Ring of Life Magic Protections') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23142,   1,   33554691) /* Setup */
-     , (23142,   3,  536870932) /* SoundTable */
-     , (23142,   6,   67111919) /* PaletteBase */
-     , (23142,   7,  268436318) /* ClothingBase */
-     , (23142,   8,  100672480) /* Icon */
-     , (23142,  22,  872415275) /* PhysicsEffectTable */
-     , (23142,  36,  234881046) /* MutateFilter */;
+VALUES (23142,   1, 0x02000103) /* Setup */
+     , (23142,   3, 0x20000014) /* SoundTable */
+     , (23142,   6, 0x04000BEF) /* PaletteBase */
+     , (23142,   7, 0x1000035E) /* ClothingBase */
+     , (23142,   8, 0x060023E0) /* Icon */
+     , (23142,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (23142,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23142,   217,      2)  /* Mana Renewal Self VI */

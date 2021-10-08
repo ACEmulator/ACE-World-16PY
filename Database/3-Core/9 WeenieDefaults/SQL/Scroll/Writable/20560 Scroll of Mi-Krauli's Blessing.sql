@@ -24,7 +24,7 @@ VALUES (20560,   1, 'Scroll of Mi-Krauli''s Blessing') /* Name */
      , (20560,  15, 'When learned, this spell increases the caster''s Mace skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20560,   1,   33554826) /* Setup */
-     , (20560,   8,  100676464) /* Icon */
-     , (20560,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20560,   1, 0x0200018A) /* Setup */
+     , (20560,   8, 0x06003370) /* Icon */
+     , (20560,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20560,  28,       2275) /* Spell - Light Weapon Mastery Self VII */;

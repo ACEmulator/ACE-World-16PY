@@ -25,7 +25,7 @@ VALUES (8941,   1, 'Scroll of Lightning Streak') /* Name */
      , (8941,  16, 'When learned, this spell sends a bolt of lighting streaking towards the target. The bolt does 4-8 points of electrical damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8941,   1,   33554826) /* Setup */
-     , (8941,   8,  100677013) /* Icon */
-     , (8941,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8941,   1, 0x0200018A) /* Setup */
+     , (8941,   8, 0x06003595) /* Icon */
+     , (8941,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8941,  28,       1814) /* Spell - Lightning Streak I */;

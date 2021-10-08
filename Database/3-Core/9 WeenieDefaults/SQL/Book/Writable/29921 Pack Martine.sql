@@ -32,12 +32,12 @@ VALUES (29921,   1, 'Pack Martine') /* Name */
      , (29921,  16, 'The enigmatic and powerful Martine, in his Virindi-modified form.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29921,   1,   33559087) /* Setup */
-     , (29921,   3,  536870932) /* SoundTable */
-     , (29921,   6,   67108990) /* PaletteBase */
-     , (29921,   7,  268436397) /* ClothingBase */
-     , (29921,   8,  100667446) /* Icon */
-     , (29921,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29921,   1, 0x0200122F) /* Setup */
+     , (29921,   3, 0x20000014) /* SoundTable */
+     , (29921,   6, 0x0400007E) /* PaletteBase */
+     , (29921,   7, 0x100003AD) /* ClothingBase */
+     , (29921,   8, 0x06001036) /* Icon */
+     , (29921,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (29921, 5, 1000);

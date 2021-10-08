@@ -47,10 +47,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29929,   1, 'Regal Morning Star') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29929,   1,   33559051) /* Setup */
-     , (29929,   3,  536870932) /* SoundTable */
-     , (29929,   8,  100676980) /* Icon */
-     , (29929,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29929,   1, 0x0200120B) /* Setup */
+     , (29929,   3, 0x20000014) /* SoundTable */
+     , (29929,   8, 0x06003574) /* Icon */
+     , (29929,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29929,  1604,      2)  /* Aura of Defender Self V */

@@ -22,5 +22,5 @@ VALUES (19185,   1, 'Sanam Batal Villas') /* Name */
      , (19185,  16, 'Welcome to Sanam Batal Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19185,   1,   33557463) /* Setup */
-     , (19185,   8,  100668115) /* Icon */;
+VALUES (19185,   1, 0x02000BD7) /* Setup */
+     , (19185,   8, 0x060012D3) /* Icon */;

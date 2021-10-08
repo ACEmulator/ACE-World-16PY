@@ -37,9 +37,9 @@ VALUES (22565,   1, 'Tusker Island Shirt') /* Name */
      , (22565,  16, 'A shirt purchased on Tusker Island.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22565,   1,   33554883) /* Setup */
-     , (22565,   3,  536870932) /* SoundTable */
-     , (22565,   6,   67108990) /* PaletteBase */
-     , (22565,   7,  268436531) /* ClothingBase */
-     , (22565,   8,  100673830) /* Icon */
-     , (22565,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22565,   1, 0x020001C3) /* Setup */
+     , (22565,   3, 0x20000014) /* SoundTable */
+     , (22565,   6, 0x0400007E) /* PaletteBase */
+     , (22565,   7, 0x10000433) /* ClothingBase */
+     , (22565,   8, 0x06002926) /* Icon */
+     , (22565,  22, 0x3400002B) /* PhysicsEffectTable */;

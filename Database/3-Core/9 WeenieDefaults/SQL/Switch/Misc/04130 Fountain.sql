@@ -27,8 +27,8 @@ VALUES (4130,   1, 'Fountain') /* Name */
      , (4130,  22, 'The fountain was used too recently!') /* ActivationFailure */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4130,   1,   33555071) /* Setup */
-     , (4130,   3,  536870932) /* SoundTable */
-     , (4130,   8,  100668104) /* Icon */
-     , (4130,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4130,   1, 0x0200027F) /* Setup */
+     , (4130,   3, 0x20000014) /* SoundTable */
+     , (4130,   8, 0x060012C8) /* Icon */
+     , (4130,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4130,  28,       1355) /* Spell - Endurance Other I */;

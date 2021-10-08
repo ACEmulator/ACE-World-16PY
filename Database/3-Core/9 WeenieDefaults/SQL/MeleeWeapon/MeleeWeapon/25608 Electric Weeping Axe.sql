@@ -54,13 +54,13 @@ VALUES (25608,   1, 'Electric Weeping Axe') /* Name */
      , (25608,  15, 'An axe infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25608,   1,   33558489) /* Setup */
-     , (25608,   3,  536870932) /* SoundTable */
-     , (25608,   6,   67114522) /* PaletteBase */
-     , (25608,   7,  268436698) /* ClothingBase */
-     , (25608,   8,  100674884) /* Icon */
-     , (25608,  22,  872415275) /* PhysicsEffectTable */
-     , (25608,  36,  234881044) /* MutateFilter */;
+VALUES (25608,   1, 0x02000FD9) /* Setup */
+     , (25608,   3, 0x20000014) /* SoundTable */
+     , (25608,   6, 0x0400161A) /* PaletteBase */
+     , (25608,   7, 0x100004DA) /* ClothingBase */
+     , (25608,   8, 0x06002D44) /* Icon */
+     , (25608,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (25608,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25608,  2963,      2)  /* Aura of Hunter's Cunning */

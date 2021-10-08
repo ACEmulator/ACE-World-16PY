@@ -60,14 +60,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10774,   1, 'Broken Doll') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10774,   1,   33557063) /* Setup */
-     , (10774,   2,  150994984) /* MotionTable */
-     , (10774,   3,  536871022) /* SoundTable */
-     , (10774,   4,  805306416) /* CombatTable */
-     , (10774,   6,   67113150) /* PaletteBase */
-     , (10774,   7,  268436148) /* ClothingBase */
-     , (10774,   8,  100671421) /* Icon */
-     , (10774,  22,  872415373) /* PhysicsEffectTable */
+VALUES (10774,   1, 0x02000A47) /* Setup */
+     , (10774,   2, 0x09000028) /* MotionTable */
+     , (10774,   3, 0x2000006E) /* SoundTable */
+     , (10774,   4, 0x30000030) /* CombatTable */
+     , (10774,   6, 0x040010BE) /* PaletteBase */
+     , (10774,   7, 0x100002B4) /* ClothingBase */
+     , (10774,   8, 0x06001FBD) /* Icon */
+     , (10774,  22, 0x3400008D) /* PhysicsEffectTable */
      , (10774,  30,         87) /* PhysicsScript - BreatheLightning */
      , (10774,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 

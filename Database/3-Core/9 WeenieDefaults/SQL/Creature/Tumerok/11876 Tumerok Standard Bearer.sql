@@ -61,12 +61,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11876,   1, 'Tumerok Standard Bearer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11876,   1,   33554496) /* Setup */
-     , (11876,   2,  150994954) /* MotionTable */
-     , (11876,   3,  536870931) /* SoundTable */
-     , (11876,   4,  805306380) /* CombatTable */
-     , (11876,   8,  100667452) /* Icon */
-     , (11876,  22,  872415270) /* PhysicsEffectTable */
+VALUES (11876,   1, 0x02000040) /* Setup */
+     , (11876,   2, 0x0900000A) /* MotionTable */
+     , (11876,   3, 0x20000013) /* SoundTable */
+     , (11876,   4, 0x3000000C) /* CombatTable */
+     , (11876,   8, 0x0600103C) /* Icon */
+     , (11876,  22, 0x34000026) /* PhysicsEffectTable */
      , (11876,  32,        367) /* WieldedTreasureType - 
                                    Wield Hafted Gromnie Spear (11752) | Probability: 80%
                                    Wield Reinforced Gromnie Spear (11778) | Probability: 20% */

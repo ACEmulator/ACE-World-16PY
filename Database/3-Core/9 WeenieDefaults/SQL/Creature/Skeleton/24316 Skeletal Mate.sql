@@ -62,14 +62,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24316,   1, 'Skeletal Mate') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24316,   1,   33555464) /* Setup */
-     , (24316,   2,  150994981) /* MotionTable */
-     , (24316,   3,  536870942) /* SoundTable */
-     , (24316,   4,  805306368) /* CombatTable */
-     , (24316,   6,   67111266) /* PaletteBase */
-     , (24316,   7,  268436625) /* ClothingBase */
-     , (24316,   8,  100669124) /* Icon */
-     , (24316,  22,  872415269) /* PhysicsEffectTable */
+VALUES (24316,   1, 0x02000408) /* Setup */
+     , (24316,   2, 0x09000025) /* MotionTable */
+     , (24316,   3, 0x2000001E) /* SoundTable */
+     , (24316,   4, 0x30000000) /* CombatTable */
+     , (24316,   6, 0x04000962) /* PaletteBase */
+     , (24316,   7, 0x10000491) /* ClothingBase */
+     , (24316,   8, 0x060016C4) /* Icon */
+     , (24316,  22, 0x34000025) /* PhysicsEffectTable */
      , (24316,  32,        199) /* WieldedTreasureType - 
                                    Wield Yumi (23733) | Probability: 6%
                                    Wield 20x Deadly Armor Piercing Arrow (15431) | Probability: 100%

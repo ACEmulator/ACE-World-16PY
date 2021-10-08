@@ -42,13 +42,13 @@ VALUES (25894,   1, 'Nefane Pearl') /* Name */
      , (25894,  16, 'A pearl carefully removed from the corpse of a nefane.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25894,   1,   33558259) /* Setup */
-     , (25894,   3,  536870932) /* SoundTable */
-     , (25894,   6,   67112870) /* PaletteBase */
-     , (25894,   7,  268436775) /* ClothingBase */
-     , (25894,   8,  100675628) /* Icon */
-     , (25894,  22,  872415275) /* PhysicsEffectTable */
-     , (25894,  27, 1073742049) /* UseUserAnimation - UseMagicWand */;
+VALUES (25894,   1, 0x02000EF3) /* Setup */
+     , (25894,   3, 0x20000014) /* SoundTable */
+     , (25894,   6, 0x04000FA6) /* PaletteBase */
+     , (25894,   7, 0x10000527) /* ClothingBase */
+     , (25894,   8, 0x0600302C) /* Icon */
+     , (25894,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (25894,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25894,  2624,      2)  /* Major Mana Gain */

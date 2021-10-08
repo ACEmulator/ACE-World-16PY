@@ -53,13 +53,13 @@ VALUES (11417,   1, 'Tanae''s Okane of the Forests') /* Name */
      , (11417,  16, 'An okane fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11417,   1,   33557234) /* Setup */
-     , (11417,   3,  536870932) /* SoundTable */
-     , (11417,   6,   67113336) /* PaletteBase */
-     , (11417,   7,  268436251) /* ClothingBase */
-     , (11417,   8,  100672076) /* Icon */
-     , (11417,  22,  872415275) /* PhysicsEffectTable */
-     , (11417,  36,  234881044) /* MutateFilter */;
+VALUES (11417,   1, 0x02000AF2) /* Setup */
+     , (11417,   3, 0x20000014) /* SoundTable */
+     , (11417,   6, 0x04001178) /* PaletteBase */
+     , (11417,   7, 0x1000031B) /* ClothingBase */
+     , (11417,   8, 0x0600224C) /* Icon */
+     , (11417,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11417,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11417,  2446,      2)  /* Greater Growth */

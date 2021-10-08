@@ -45,10 +45,10 @@ VALUES (1427,   1, 'Sword of Lost Light') /* Name */
      , (1427,  16, 'The Sword of Lost Light.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1427,   1,   33555927) /* Setup */
-     , (1427,   3,  536870932) /* SoundTable */
-     , (1427,   8,  100669772) /* Icon */
-     , (1427,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1427,   1, 0x020005D7) /* Setup */
+     , (1427,   3, 0x20000014) /* SoundTable */
+     , (1427,   8, 0x0600194C) /* Icon */
+     , (1427,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1427,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

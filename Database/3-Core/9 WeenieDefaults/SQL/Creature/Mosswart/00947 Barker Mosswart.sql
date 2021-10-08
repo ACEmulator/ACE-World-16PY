@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (947,   1, 'Barker Mosswart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (947,   1,   33557327) /* Setup */
-     , (947,   2,  150994953) /* MotionTable */
-     , (947,   3,  536870959) /* SoundTable */
-     , (947,   4,  805306373) /* CombatTable */
-     , (947,   6,   67113400) /* PaletteBase */
-     , (947,   7,  268436292) /* ClothingBase */
-     , (947,   8,  100667449) /* Icon */
-     , (947,  22,  872415264) /* PhysicsEffectTable */
+VALUES (947,   1, 0x02000B4F) /* Setup */
+     , (947,   2, 0x09000009) /* MotionTable */
+     , (947,   3, 0x2000002F) /* SoundTable */
+     , (947,   4, 0x30000005) /* CombatTable */
+     , (947,   6, 0x040011B8) /* PaletteBase */
+     , (947,   7, 0x10000344) /* ClothingBase */
+     , (947,   8, 0x06001039) /* Icon */
+     , (947,  22, 0x34000020) /* PhysicsEffectTable */
      , (947,  32,        121) /* WieldedTreasureType - 
                                    Wield Budiaq (308) | Probability: 15.000001%
                                    Wield Scimitar (339) | Probability: 12%

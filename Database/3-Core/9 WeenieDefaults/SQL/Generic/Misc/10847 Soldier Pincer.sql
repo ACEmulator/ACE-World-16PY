@@ -27,7 +27,7 @@ VALUES (10847,   1, 'Soldier Pincer') /* Name */
      , (10847,  33, 'OlthoiHunting3') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10847,   1,   33554817) /* Setup */
-     , (10847,   3,  536870932) /* SoundTable */
-     , (10847,   8,  100672037) /* Icon */
-     , (10847,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (10847,   1, 0x02000181) /* Setup */
+     , (10847,   3, 0x20000014) /* SoundTable */
+     , (10847,   8, 0x06002225) /* Icon */
+     , (10847,  22, 0x3400002B) /* PhysicsEffectTable */;

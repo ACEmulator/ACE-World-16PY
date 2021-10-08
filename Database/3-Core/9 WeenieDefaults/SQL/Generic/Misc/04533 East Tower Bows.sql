@@ -22,7 +22,7 @@ VALUES (4533,   1, 'East Tower Bows') /* Name */
      , (4533,  16, 'East Tower Bows') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4533,   1,   33555594) /* Setup */
-     , (4533,   6,   67111782) /* PaletteBase */
-     , (4533,   7,  268435687) /* ClothingBase */
-     , (4533,   8,  100668115) /* Icon */;
+VALUES (4533,   1, 0x0200048A) /* Setup */
+     , (4533,   6, 0x04000B66) /* PaletteBase */
+     , (4533,   7, 0x100000E7) /* ClothingBase */
+     , (4533,   8, 0x060012D3) /* Icon */;

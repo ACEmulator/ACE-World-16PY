@@ -71,14 +71,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12230,   1, 'Falatacot Missionary') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12230,   1,   33554839) /* Setup */
-     , (12230,   2,  150994967) /* MotionTable */
-     , (12230,   3,  536870934) /* SoundTable */
-     , (12230,   4,  805306368) /* CombatTable */
-     , (12230,   6,   67110722) /* PaletteBase */
-     , (12230,   7,  268435558) /* ClothingBase */
-     , (12230,   8,  100667942) /* Icon */
-     , (12230,  22,  872415272) /* PhysicsEffectTable */
+VALUES (12230,   1, 0x02000197) /* Setup */
+     , (12230,   2, 0x09000017) /* MotionTable */
+     , (12230,   3, 0x20000016) /* SoundTable */
+     , (12230,   4, 0x30000000) /* CombatTable */
+     , (12230,   6, 0x04000742) /* PaletteBase */
+     , (12230,   7, 0x10000066) /* ClothingBase */
+     , (12230,   8, 0x06001226) /* Icon */
+     , (12230,  22, 0x34000028) /* PhysicsEffectTable */
      , (12230,  32,        249) /* WieldedTreasureType - 
                                    Wield 4x Throwing Club (23654) | Probability: 10%
                                    Wield Yumi (23735) | Probability: 10%

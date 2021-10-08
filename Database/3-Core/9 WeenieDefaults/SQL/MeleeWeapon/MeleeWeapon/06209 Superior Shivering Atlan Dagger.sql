@@ -45,12 +45,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6209,   1, 'Superior Shivering Atlan Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6209,   1,   33556380) /* Setup */
-     , (6209,   3,  536870932) /* SoundTable */
-     , (6209,   6,   67111919) /* PaletteBase */
-     , (6209,   7,  268435959) /* ClothingBase */
-     , (6209,   8,  100670518) /* Icon */
-     , (6209,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6209,   1, 0x0200079C) /* Setup */
+     , (6209,   3, 0x20000014) /* SoundTable */
+     , (6209,   6, 0x04000BEF) /* PaletteBase */
+     , (6209,   7, 0x100001F7) /* ClothingBase */
+     , (6209,   8, 0x06001C36) /* Icon */
+     , (6209,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6209,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

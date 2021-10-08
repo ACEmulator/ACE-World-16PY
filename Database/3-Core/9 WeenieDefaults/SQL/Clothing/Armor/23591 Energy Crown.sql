@@ -45,12 +45,12 @@ VALUES (23591,   1, 'Energy Crown') /* Name */
      , (23591,  16, 'A crown made of some sort of solidified energy.  When you wear it, you feel revitalized and protected.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23591,   1,   33557336) /* Setup */
-     , (23591,   3,  536870932) /* SoundTable */
-     , (23591,   6,   67108990) /* PaletteBase */
-     , (23591,   7,  268436259) /* ClothingBase */
-     , (23591,   8,  100672117) /* Icon */
-     , (23591,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23591,   1, 0x02000B58) /* Setup */
+     , (23591,   3, 0x20000014) /* SoundTable */
+     , (23591,   6, 0x0400007E) /* PaletteBase */
+     , (23591,   7, 0x10000323) /* ClothingBase */
+     , (23591,   8, 0x06002275) /* Icon */
+     , (23591,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23591,   191,      2)  /* Rejuvenation Self IV */

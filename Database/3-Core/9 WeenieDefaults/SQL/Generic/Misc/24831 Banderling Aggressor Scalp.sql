@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24831,   1, 'Banderling Aggressor Scalp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24831,   1,   33554817) /* Setup */
-     , (24831,   3,  536870932) /* SoundTable */
-     , (24831,   6,   67111919) /* PaletteBase */
-     , (24831,   7,  268435832) /* ClothingBase */
-     , (24831,   8,  100674475) /* Icon */
-     , (24831,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24831,   1, 0x02000181) /* Setup */
+     , (24831,   3, 0x20000014) /* SoundTable */
+     , (24831,   6, 0x04000BEF) /* PaletteBase */
+     , (24831,   7, 0x10000178) /* ClothingBase */
+     , (24831,   8, 0x06002BAB) /* Icon */
+     , (24831,  22, 0x3400002B) /* PhysicsEffectTable */;

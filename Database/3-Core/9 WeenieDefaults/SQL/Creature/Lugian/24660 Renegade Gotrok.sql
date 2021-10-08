@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24660,   1, 'Renegade Gotrok') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24660,   1,   33557003) /* Setup */
-     , (24660,   2,  150994950) /* MotionTable */
-     , (24660,   3,  536870922) /* SoundTable */
-     , (24660,   4,  805306371) /* CombatTable */
-     , (24660,   6,   67113158) /* PaletteBase */
-     , (24660,   7,  268436632) /* ClothingBase */
-     , (24660,   8,  100667447) /* Icon */
-     , (24660,  22,  872415262) /* PhysicsEffectTable */
+VALUES (24660,   1, 0x02000A0B) /* Setup */
+     , (24660,   2, 0x09000006) /* MotionTable */
+     , (24660,   3, 0x2000000A) /* SoundTable */
+     , (24660,   4, 0x30000003) /* CombatTable */
+     , (24660,   6, 0x040010C6) /* PaletteBase */
+     , (24660,   7, 0x10000498) /* ClothingBase */
+     , (24660,   8, 0x06001037) /* Icon */
+     , (24660,  22, 0x3400001E) /* PhysicsEffectTable */
      , (24660,  35,        318) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -64,12 +64,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7094,   1, 'Synnast') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7094,   1,   33556140) /* Setup */
-     , (7094,   2,  150995087) /* MotionTable */
-     , (7094,   3,  536871002) /* SoundTable */
-     , (7094,   4,  805306368) /* CombatTable */
-     , (7094,   8,  100670581) /* Icon */
-     , (7094,  22,  872415349) /* PhysicsEffectTable */
+VALUES (7094,   1, 0x020006AC) /* Setup */
+     , (7094,   2, 0x0900008F) /* MotionTable */
+     , (7094,   3, 0x2000005A) /* SoundTable */
+     , (7094,   4, 0x30000000) /* CombatTable */
+     , (7094,   8, 0x06001C75) /* Icon */
+     , (7094,  22, 0x34000075) /* PhysicsEffectTable */
      , (7094,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

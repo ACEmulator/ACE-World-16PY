@@ -41,7 +41,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9230,   1, 'Bloodletter Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9230,   1,   33556988) /* Setup */
-     , (9230,   3,  536870932) /* SoundTable */
-     , (9230,   8,  100671396) /* Icon */
-     , (9230,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9230,   1, 0x020009FC) /* Setup */
+     , (9230,   3, 0x20000014) /* SoundTable */
+     , (9230,   8, 0x06001FA4) /* Icon */
+     , (9230,  22, 0x3400002B) /* PhysicsEffectTable */;

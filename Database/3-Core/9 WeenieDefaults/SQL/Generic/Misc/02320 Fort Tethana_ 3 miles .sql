@@ -22,5 +22,5 @@ VALUES (2320,   1, 'Fort Tethana: 3 miles ') /* Name */
      , (2320,  16, 'Fort Tethana: 3 miles.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2320,   1,   33555984) /* Setup */
-     , (2320,   8,  100668115) /* Icon */;
+VALUES (2320,   1, 0x02000610) /* Setup */
+     , (2320,   8, 0x060012D3) /* Icon */;

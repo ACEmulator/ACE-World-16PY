@@ -61,12 +61,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8466,   1, 'Idol') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8466,   1,   33556893) /* Setup */
-     , (8466,   2,  150995105) /* MotionTable */
-     , (8466,   3,  536871017) /* SoundTable */
-     , (8466,   4,  805306414) /* CombatTable */
-     , (8466,   8,  100671204) /* Icon */
-     , (8466,  22,  872415369) /* PhysicsEffectTable */
+VALUES (8466,   1, 0x0200099D) /* Setup */
+     , (8466,   2, 0x090000A1) /* MotionTable */
+     , (8466,   3, 0x20000069) /* SoundTable */
+     , (8466,   4, 0x3000002E) /* CombatTable */
+     , (8466,   8, 0x06001EE4) /* Icon */
+     , (8466,  22, 0x34000089) /* PhysicsEffectTable */
      , (8466,  30,         84) /* PhysicsScript - BreatheFlame */
      , (8466,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 

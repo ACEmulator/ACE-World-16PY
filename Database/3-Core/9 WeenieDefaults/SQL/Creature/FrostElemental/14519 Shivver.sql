@@ -64,12 +64,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14519,   1, 'Shivver') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14519,   1,   33557487) /* Setup */
-     , (14519,   2,  150995087) /* MotionTable */
-     , (14519,   3,  536871002) /* SoundTable */
-     , (14519,   4,  805306368) /* CombatTable */
-     , (14519,   8,  100672514) /* Icon */
-     , (14519,  22,  872415349) /* PhysicsEffectTable */
+VALUES (14519,   1, 0x02000BEF) /* Setup */
+     , (14519,   2, 0x0900008F) /* MotionTable */
+     , (14519,   3, 0x2000005A) /* SoundTable */
+     , (14519,   4, 0x30000000) /* CombatTable */
+     , (14519,   8, 0x06002402) /* Icon */
+     , (14519,  22, 0x34000075) /* PhysicsEffectTable */
      , (14519,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

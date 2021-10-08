@@ -29,7 +29,7 @@ VALUES (5248,   1, 'Mana Rabbit Pie') /* Name */
      , (5248,  20, 'Mana Rabbit Pies ') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5248,   1,   33555978) /* Setup */
-     , (5248,   3,  536870932) /* SoundTable */
-     , (5248,   8,  100670177) /* Icon */
-     , (5248,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5248,   1, 0x0200060A) /* Setup */
+     , (5248,   3, 0x20000014) /* SoundTable */
+     , (5248,   8, 0x06001AE1) /* Icon */
+     , (5248,  22, 0x3400002B) /* PhysicsEffectTable */;

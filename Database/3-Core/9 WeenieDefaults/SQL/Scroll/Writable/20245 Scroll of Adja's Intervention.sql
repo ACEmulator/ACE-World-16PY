@@ -24,7 +24,7 @@ VALUES (20245,   1, 'Scroll of Adja''s Intervention') /* Name */
      , (20245,  15, 'When learned, this spell restores 75-125 points of the caster''s Health.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20245,   1,   33554826) /* Setup */
-     , (20245,   8,  100676931) /* Icon */
-     , (20245,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20245,   1, 0x0200018A) /* Setup */
+     , (20245,   8, 0x06003543) /* Icon */
+     , (20245,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20245,  28,       2073) /* Spell - Adja's Intervention */;

@@ -33,9 +33,9 @@ VALUES (16920,   1, 'Flag') /* Name */
      , (16920,  16, 'A fine flag made from grievver silk.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (16920,   1,   33557723) /* Setup */
-     , (16920,   3,  536870932) /* SoundTable */
-     , (16920,   6,   67113849) /* PaletteBase */
-     , (16920,   7,  268436391) /* ClothingBase */
-     , (16920,   8,  100672424) /* Icon */
-     , (16920,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (16920,   1, 0x02000CDB) /* Setup */
+     , (16920,   3, 0x20000014) /* SoundTable */
+     , (16920,   6, 0x04001379) /* PaletteBase */
+     , (16920,   7, 0x100003A7) /* ClothingBase */
+     , (16920,   8, 0x060023A8) /* Icon */
+     , (16920,  22, 0x3400002B) /* PhysicsEffectTable */;

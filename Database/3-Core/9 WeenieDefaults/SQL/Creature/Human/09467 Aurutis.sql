@@ -65,13 +65,13 @@ VALUES (9467,   1, 'Aurutis') /* Name */
      , (9467,   5, 'Noble') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9467,   1,   33557003) /* Setup */
-     , (9467,   2,  150994950) /* MotionTable */
-     , (9467,   3,  536870922) /* SoundTable */
-     , (9467,   4,  805306371) /* CombatTable */
-     , (9467,   6,   67113158) /* PaletteBase */
-     , (9467,   7,  268436154) /* ClothingBase */
-     , (9467,   8,  100667447) /* Icon */;
+VALUES (9467,   1, 0x02000A0B) /* Setup */
+     , (9467,   2, 0x09000006) /* MotionTable */
+     , (9467,   3, 0x2000000A) /* SoundTable */
+     , (9467,   4, 0x30000003) /* CombatTable */
+     , (9467,   6, 0x040010C6) /* PaletteBase */
+     , (9467,   7, 0x100002BA) /* ClothingBase */
+     , (9467,   8, 0x06001037) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9467,   1, 200, 0, 0) /* Strength */

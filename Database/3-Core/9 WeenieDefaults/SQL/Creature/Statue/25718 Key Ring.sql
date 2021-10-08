@@ -64,12 +64,12 @@ VALUES (25718,   1, 'Key Ring') /* Name */
      , (25718,  15, 'A key ring.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25718,   1,   33554790) /* Setup */
-     , (25718,   2,  150995147) /* MotionTable */
-     , (25718,   3,  536871052) /* SoundTable */
-     , (25718,   4,  805306398) /* CombatTable */
-     , (25718,   8,  100670830) /* Icon */
-     , (25718,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (25718,   1, 0x02000166) /* Setup */
+     , (25718,   2, 0x090000CB) /* MotionTable */
+     , (25718,   3, 0x2000008C) /* SoundTable */
+     , (25718,   4, 0x3000001E) /* CombatTable */
+     , (25718,   8, 0x06001D6E) /* Icon */
+     , (25718,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25718,   1, 380, 0, 0) /* Strength */

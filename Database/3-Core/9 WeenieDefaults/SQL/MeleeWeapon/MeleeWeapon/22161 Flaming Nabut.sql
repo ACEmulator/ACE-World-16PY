@@ -38,11 +38,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22161,   1, 'Flaming Nabut') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22161,   1,   33558071) /* Setup */
-     , (22161,   3,  536870932) /* SoundTable */
-     , (22161,   6,   67111919) /* PaletteBase */
-     , (22161,   7,  268436487) /* ClothingBase */
-     , (22161,   8,  100667602) /* Icon */
-     , (22161,  22,  872415275) /* PhysicsEffectTable */
-     , (22161,  36,  234881053) /* MutateFilter */
-     , (22161,  46,  939524110) /* TsysMutationFilter */;
+VALUES (22161,   1, 0x02000E37) /* Setup */
+     , (22161,   3, 0x20000014) /* SoundTable */
+     , (22161,   6, 0x04000BEF) /* PaletteBase */
+     , (22161,   7, 0x10000407) /* ClothingBase */
+     , (22161,   8, 0x060010D2) /* Icon */
+     , (22161,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (22161,  36, 0x0E00001D) /* MutateFilter */
+     , (22161,  46, 0x3800000E) /* TsysMutationFilter */;

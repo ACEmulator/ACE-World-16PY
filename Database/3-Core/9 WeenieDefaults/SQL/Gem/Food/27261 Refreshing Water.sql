@@ -30,10 +30,10 @@ VALUES (27261,   1, 'Refreshing Water') /* Name */
      , (27261,  16, 'A flask refreshing, icy-cold water. It appears to have been made from the remains of a Glacial Golem Margrave.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27261,   1,   33556854) /* Setup */
-     , (27261,   3,  536870932) /* SoundTable */
-     , (27261,   8,  100676395) /* Icon */
-     , (27261,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27261,   1, 0x02000976) /* Setup */
+     , (27261,   3, 0x20000014) /* SoundTable */
+     , (27261,   8, 0x0600332B) /* Icon */
+     , (27261,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27261,  23,         64) /* UseSound - Eat1 */
-     , (27261,  27,  318767233) /* UseUserAnimation - MimeEat */
+     , (27261,  27, 0x13000081) /* UseUserAnimation - MimeEat */
      , (27261,  28,       3209) /* Spell - Refreshment */;

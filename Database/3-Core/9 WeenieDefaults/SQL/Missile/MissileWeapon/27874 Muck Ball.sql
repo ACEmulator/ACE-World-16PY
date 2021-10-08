@@ -44,7 +44,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27874,   1, 'Muck Ball') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27874,   1,   33558785) /* Setup */
-     , (27874,   3,  536870932) /* SoundTable */
-     , (27874,   8,  100676576) /* Icon */
-     , (27874,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27874,   1, 0x02001101) /* Setup */
+     , (27874,   3, 0x20000014) /* SoundTable */
+     , (27874,   8, 0x060033E0) /* Icon */
+     , (27874,  22, 0x3400002B) /* PhysicsEffectTable */;

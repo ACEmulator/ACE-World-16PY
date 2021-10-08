@@ -26,12 +26,12 @@ VALUES (10760,   1, 'Wet Towel') /* Name */
      , (10760,  16, 'An old and well-used towel, water-logged and stained with travel adventures.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10760,   1,   33554647) /* Setup */
-     , (10760,   3,  536870932) /* SoundTable */
-     , (10760,   6,   67108990) /* PaletteBase */
-     , (10760,   7,  268436188) /* ClothingBase */
-     , (10760,   8,  100671663) /* Icon */
-     , (10760,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (10760,   1, 0x020000D7) /* Setup */
+     , (10760,   3, 0x20000014) /* SoundTable */
+     , (10760,   6, 0x0400007E) /* PaletteBase */
+     , (10760,   7, 0x100002DC) /* ClothingBase */
+     , (10760,   8, 0x060020AF) /* Icon */
+     , (10760,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (10760, 2, 1000);

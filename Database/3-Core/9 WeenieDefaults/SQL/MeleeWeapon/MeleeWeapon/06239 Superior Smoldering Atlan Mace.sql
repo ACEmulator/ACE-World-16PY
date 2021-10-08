@@ -45,12 +45,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6239,   1, 'Superior Smoldering Atlan Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6239,   1,   33556328) /* Setup */
-     , (6239,   3,  536870932) /* SoundTable */
-     , (6239,   6,   67111919) /* PaletteBase */
-     , (6239,   7,  268435907) /* ClothingBase */
-     , (6239,   8,  100670545) /* Icon */
-     , (6239,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6239,   1, 0x02000768) /* Setup */
+     , (6239,   3, 0x20000014) /* SoundTable */
+     , (6239,   6, 0x04000BEF) /* PaletteBase */
+     , (6239,   7, 0x100001C3) /* ClothingBase */
+     , (6239,   8, 0x06001C51) /* Icon */
+     , (6239,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6239,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

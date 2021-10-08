@@ -25,7 +25,7 @@ VALUES (1872,   1, 'Scroll of Stamina to Health Self') /* Name */
      , (1872,  16, 'When learned, this spell drains one-half of the caster''s Stamina and gives 15% of that to his/her Health.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1872,   1,   33554826) /* Setup */
-     , (1872,   8,  100676946) /* Icon */
-     , (1872,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1872,   1, 0x0200018A) /* Setup */
+     , (1872,   8, 0x06003552) /* Icon */
+     , (1872,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1872,  28,       1664) /* Spell - Stamina to Health Self I */;

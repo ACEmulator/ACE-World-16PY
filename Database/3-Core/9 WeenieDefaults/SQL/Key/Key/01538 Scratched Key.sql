@@ -26,7 +26,7 @@ VALUES (1538,   1, 'Scratched Key') /* Name */
      , (1538,  16, 'This scratched key unlocks a chest in the Colier Mine.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1538,   1,   33554784) /* Setup */
-     , (1538,   3,  536870932) /* SoundTable */
-     , (1538,   8,  100667485) /* Icon */
-     , (1538,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1538,   1, 0x02000160) /* Setup */
+     , (1538,   3, 0x20000014) /* SoundTable */
+     , (1538,   8, 0x0600105D) /* Icon */
+     , (1538,  22, 0x3400002B) /* PhysicsEffectTable */;

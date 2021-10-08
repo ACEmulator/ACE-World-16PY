@@ -40,9 +40,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7702,   1, 'Amuli Leggings of Frost') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7702,   1,   33554856) /* Setup */
-     , (7702,   3,  536870932) /* SoundTable */
-     , (7702,   6,   67108990) /* PaletteBase */
-     , (7702,   7,  268435872) /* ClothingBase */
-     , (7702,   8,  100670440) /* Icon */
-     , (7702,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7702,   1, 0x020001A8) /* Setup */
+     , (7702,   3, 0x20000014) /* SoundTable */
+     , (7702,   6, 0x0400007E) /* PaletteBase */
+     , (7702,   7, 0x100001A0) /* ClothingBase */
+     , (7702,   8, 0x06001BE8) /* Icon */
+     , (7702,  22, 0x3400002B) /* PhysicsEffectTable */;

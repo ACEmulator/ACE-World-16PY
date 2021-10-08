@@ -26,7 +26,7 @@ VALUES (2505,   1, 'Inner Dungeon Key') /* Name */
      , (2505,  16, 'On the surface, a plain, non-descript key.  Closer examination reveals a faint, intricate geometric pattern nearly worn away.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2505,   1,   33554784) /* Setup */
-     , (2505,   3,  536870932) /* SoundTable */
-     , (2505,   8,  100667486) /* Icon */
-     , (2505,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (2505,   1, 0x02000160) /* Setup */
+     , (2505,   3, 0x20000014) /* SoundTable */
+     , (2505,   8, 0x0600105E) /* Icon */
+     , (2505,  22, 0x3400002B) /* PhysicsEffectTable */;

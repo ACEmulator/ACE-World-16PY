@@ -39,6 +39,6 @@ VALUES (28484,   1, 'Corrosive Cloud') /* Name */
      , (28484,  17, 'You lose %i health, as a corrosive cloud of filth devours your flesh.') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28484,   1,   33556024) /* Setup */
-     , (28484,   3,  536871007) /* SoundTable */
-     , (28484,   8,  100667465) /* Icon */;
+VALUES (28484,   1, 0x02000638) /* Setup */
+     , (28484,   3, 0x2000005F) /* SoundTable */
+     , (28484,   8, 0x06001049) /* Icon */;

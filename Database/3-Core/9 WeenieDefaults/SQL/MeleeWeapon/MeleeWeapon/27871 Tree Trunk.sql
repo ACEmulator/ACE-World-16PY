@@ -43,10 +43,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27871,   1, 'Tree Trunk') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27871,   1,   33558784) /* Setup */
-     , (27871,   3,  536870932) /* SoundTable */
-     , (27871,   8,  100676579) /* Icon */
-     , (27871,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27871,   1, 0x02001100) /* Setup */
+     , (27871,   3, 0x20000014) /* SoundTable */
+     , (27871,   8, 0x060033E3) /* Icon */
+     , (27871,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27871,  1616,      2)  /* Aura of Blood Drinker Self VI */

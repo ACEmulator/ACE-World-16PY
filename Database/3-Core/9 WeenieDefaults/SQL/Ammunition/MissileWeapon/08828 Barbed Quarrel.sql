@@ -41,9 +41,9 @@ VALUES (8828,   1, 'Barbed Quarrel') /* Name */
      , (8828,  16, 'A barbed quarrel.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8828,   1,   33554730) /* Setup */
-     , (8828,   3,  536870932) /* SoundTable */
-     , (8828,   6,   67111919) /* PaletteBase */
-     , (8828,   7,  268436306) /* ClothingBase */
-     , (8828,   8,  100671225) /* Icon */
-     , (8828,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8828,   1, 0x0200012A) /* Setup */
+     , (8828,   3, 0x20000014) /* SoundTable */
+     , (8828,   6, 0x04000BEF) /* PaletteBase */
+     , (8828,   7, 0x10000352) /* ClothingBase */
+     , (8828,   8, 0x06001EF9) /* Icon */
+     , (8828,  22, 0x3400002B) /* PhysicsEffectTable */;

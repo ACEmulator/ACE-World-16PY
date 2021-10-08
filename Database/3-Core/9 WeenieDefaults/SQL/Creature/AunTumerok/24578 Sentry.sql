@@ -66,13 +66,13 @@ VALUES (24578,   1, 'Sentry') /* Name */
      , (24578,   5, 'Candeth Keep Guard') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24578,   1,   33557117) /* Setup */
-     , (24578,   2,  150994945) /* MotionTable */
-     , (24578,   3,  536870931) /* SoundTable */
-     , (24578,   4,  805306380) /* CombatTable */
-     , (24578,   6,   67113280) /* PaletteBase */
-     , (24578,   7,  268436193) /* ClothingBase */
-     , (24578,   8,  100671756) /* Icon */;
+VALUES (24578,   1, 0x02000A7D) /* Setup */
+     , (24578,   2, 0x09000001) /* MotionTable */
+     , (24578,   3, 0x20000013) /* SoundTable */
+     , (24578,   4, 0x3000000C) /* CombatTable */
+     , (24578,   6, 0x04001140) /* PaletteBase */
+     , (24578,   7, 0x100002E1) /* ClothingBase */
+     , (24578,   8, 0x0600210C) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24578,   1,  95, 0, 0) /* Strength */

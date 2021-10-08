@@ -27,7 +27,7 @@ VALUES (14788,   1, 'Rice Flour') /* Name */
      , (14788,  20, 'Bags of Rice Flour') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14788,   1,   33555974) /* Setup */
-     , (14788,   3,  536870932) /* SoundTable */
-     , (14788,   8,  100672567) /* Icon */
-     , (14788,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14788,   1, 0x02000606) /* Setup */
+     , (14788,   3, 0x20000014) /* SoundTable */
+     , (14788,   8, 0x06002437) /* Icon */
+     , (14788,  22, 0x3400002B) /* PhysicsEffectTable */;

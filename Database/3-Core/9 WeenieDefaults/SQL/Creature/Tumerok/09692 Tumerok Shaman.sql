@@ -62,12 +62,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9692,   1, 'Tumerok Shaman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9692,   1,   33554496) /* Setup */
-     , (9692,   2,  150994954) /* MotionTable */
-     , (9692,   3,  536870931) /* SoundTable */
-     , (9692,   4,  805306380) /* CombatTable */
-     , (9692,   8,  100667452) /* Icon */
-     , (9692,  22,  872415270) /* PhysicsEffectTable */
+VALUES (9692,   1, 0x02000040) /* Setup */
+     , (9692,   2, 0x0900000A) /* MotionTable */
+     , (9692,   3, 0x20000013) /* SoundTable */
+     , (9692,   4, 0x3000000C) /* CombatTable */
+     , (9692,   8, 0x0600103C) /* Icon */
+     , (9692,  22, 0x34000026) /* PhysicsEffectTable */
      , (9692,  32,        203) /* WieldedTreasureType - 
                                    Wield Yumi (23734) | Probability: 20%
                                    Wield 20x Deadly Arrow (15429) | Probability: 100%

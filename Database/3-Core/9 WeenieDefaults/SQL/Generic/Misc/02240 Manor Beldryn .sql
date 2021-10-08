@@ -22,7 +22,7 @@ VALUES (2240,   1, 'Manor Beldryn ') /* Name */
      , (2240,  16, 'Manor Beldryn') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2240,   1,   33555088) /* Setup */
-     , (2240,   6,   67111092) /* PaletteBase */
-     , (2240,   7,  268435656) /* ClothingBase */
-     , (2240,   8,  100668115) /* Icon */;
+VALUES (2240,   1, 0x02000290) /* Setup */
+     , (2240,   6, 0x040008B4) /* PaletteBase */
+     , (2240,   7, 0x100000C8) /* ClothingBase */
+     , (2240,   8, 0x060012D3) /* Icon */;

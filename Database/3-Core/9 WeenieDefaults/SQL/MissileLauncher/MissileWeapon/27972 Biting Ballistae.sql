@@ -50,12 +50,12 @@ VALUES (27972,   1, 'Biting Ballistae') /* Name */
      , (27972,  16, 'A Crossbow crafted in Falatacot times. This weapon was crafted for the sole purpose of killing.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27972,   1,   33558750) /* Setup */
-     , (27972,   3,  536870932) /* SoundTable */
-     , (27972,   6,   67114956) /* PaletteBase */
-     , (27972,   7,  268436792) /* ClothingBase */
-     , (27972,   8,  100676552) /* Icon */
-     , (27972,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27972,   1, 0x020010DE) /* Setup */
+     , (27972,   3, 0x20000014) /* SoundTable */
+     , (27972,   6, 0x040017CC) /* PaletteBase */
+     , (27972,   7, 0x10000538) /* ClothingBase */
+     , (27972,   8, 0x060033C8) /* Icon */
+     , (27972,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27972,  1603,      2)  /* Aura of Defender Self IV */

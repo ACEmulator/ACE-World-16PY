@@ -70,11 +70,11 @@ VALUES (731,   1, 'Ystig Marson the Barkeeper') /* Name */
      , (731,  24, 'Glenden Wood') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (731,   1,   33554433) /* Setup */
-     , (731,   2,  150994945) /* MotionTable */
-     , (731,   3,  536870913) /* SoundTable */
-     , (731,   4,  805306368) /* CombatTable */
-     , (731,   8,  100667446) /* Icon */;
+VALUES (731,   1, 0x02000001) /* Setup */
+     , (731,   2, 0x09000001) /* MotionTable */
+     , (731,   3, 0x20000001) /* SoundTable */
+     , (731,   4, 0x30000000) /* CombatTable */
+     , (731,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (731,   1,  20, 0, 0) /* Strength */

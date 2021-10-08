@@ -29,9 +29,9 @@ VALUES (9102,   1, 'Another Boot') /* Name */
      , (9102,  33, 'Feb01CLQuest10') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9102,   1,   33556978) /* Setup */
-     , (9102,   3,  536870932) /* SoundTable */
-     , (9102,   6,   67108990) /* PaletteBase */
-     , (9102,   7,  268436141) /* ClothingBase */
-     , (9102,   8,  100671382) /* Icon */
-     , (9102,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9102,   1, 0x020009F2) /* Setup */
+     , (9102,   3, 0x20000014) /* SoundTable */
+     , (9102,   6, 0x0400007E) /* PaletteBase */
+     , (9102,   7, 0x100002AD) /* ClothingBase */
+     , (9102,   8, 0x06001F96) /* Icon */
+     , (9102,  22, 0x3400002B) /* PhysicsEffectTable */;

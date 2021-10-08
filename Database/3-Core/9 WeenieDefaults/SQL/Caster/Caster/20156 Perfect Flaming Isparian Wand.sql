@@ -41,12 +41,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20156,   1, 'Perfect Flaming Isparian Wand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20156,   1,   33557789) /* Setup */
-     , (20156,   3,  536870932) /* SoundTable */
-     , (20156,   6,   67111919) /* PaletteBase */
-     , (20156,   7,  268436395) /* ClothingBase */
-     , (20156,   8,  100672996) /* Icon */
-     , (20156,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20156,   1, 0x02000D1D) /* Setup */
+     , (20156,   3, 0x20000014) /* SoundTable */
+     , (20156,   6, 0x04000BEF) /* PaletteBase */
+     , (20156,   7, 0x100003AB) /* ClothingBase */
+     , (20156,   8, 0x060025E4) /* Icon */
+     , (20156,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20156,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

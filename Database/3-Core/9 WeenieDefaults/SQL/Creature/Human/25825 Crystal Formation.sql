@@ -64,11 +64,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25825,   1, 'Crystal Formation') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25825,   1,   33558563) /* Setup */
-     , (25825,   2,  150995264) /* MotionTable */
-     , (25825,   3,  536870913) /* SoundTable */
-     , (25825,   4,  805306368) /* CombatTable */
-     , (25825,   8,  100675644) /* Icon */;
+VALUES (25825,   1, 0x02001023) /* Setup */
+     , (25825,   2, 0x09000140) /* MotionTable */
+     , (25825,   3, 0x20000001) /* SoundTable */
+     , (25825,   4, 0x30000000) /* CombatTable */
+     , (25825,   8, 0x0600303C) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25825,   1, 220, 0, 0) /* Strength */

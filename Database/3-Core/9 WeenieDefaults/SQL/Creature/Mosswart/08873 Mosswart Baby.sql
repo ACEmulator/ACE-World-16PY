@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8873,   1, 'Mosswart Baby') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8873,   1,   33557327) /* Setup */
-     , (8873,   2,  150994953) /* MotionTable */
-     , (8873,   3,  536870959) /* SoundTable */
-     , (8873,   4,  805306373) /* CombatTable */
-     , (8873,   6,   67113400) /* PaletteBase */
-     , (8873,   7,  268436294) /* ClothingBase */
-     , (8873,   8,  100667449) /* Icon */
-     , (8873,  22,  872415264) /* PhysicsEffectTable */
+VALUES (8873,   1, 0x02000B4F) /* Setup */
+     , (8873,   2, 0x09000009) /* MotionTable */
+     , (8873,   3, 0x2000002F) /* SoundTable */
+     , (8873,   4, 0x30000005) /* CombatTable */
+     , (8873,   6, 0x040011B8) /* PaletteBase */
+     , (8873,   7, 0x10000346) /* ClothingBase */
+     , (8873,   8, 0x06001039) /* Icon */
+     , (8873,  22, 0x34000020) /* PhysicsEffectTable */
      , (8873,  35,        138) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

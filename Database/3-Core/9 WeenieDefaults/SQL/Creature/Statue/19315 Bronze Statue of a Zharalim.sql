@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19315,   1, 'Bronze Statue of a Zharalim') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19315,   1,   33554433) /* Setup */
-     , (19315,   2,  150995187) /* MotionTable */
-     , (19315,   3,  536871052) /* SoundTable */
-     , (19315,   4,  805306368) /* CombatTable */
-     , (19315,   6,   67108990) /* PaletteBase */
-     , (19315,   7,  268436405) /* ClothingBase */
-     , (19315,   8,  100667446) /* Icon */
-     , (19315,  22,  872415349) /* PhysicsEffectTable */
+VALUES (19315,   1, 0x02000001) /* Setup */
+     , (19315,   2, 0x090000F3) /* MotionTable */
+     , (19315,   3, 0x2000008C) /* SoundTable */
+     , (19315,   4, 0x30000000) /* CombatTable */
+     , (19315,   6, 0x0400007E) /* PaletteBase */
+     , (19315,   7, 0x100003B5) /* ClothingBase */
+     , (19315,   8, 0x06001036) /* Icon */
+     , (19315,  22, 0x34000075) /* PhysicsEffectTable */
      , (19315,  32,        404) /* WieldedTreasureType - 
                                    Wield Bronze Longbow (15873) | Probability: 40%
                                    Wield 20x Greater Fire Arrow (5305) | Probability: 25%

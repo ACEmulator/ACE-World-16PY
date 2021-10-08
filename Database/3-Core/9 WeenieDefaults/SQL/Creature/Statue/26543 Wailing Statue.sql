@@ -63,11 +63,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26543,   1, 'Wailing Statue') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26543,   1,   33558606) /* Setup */
-     , (26543,   2,  150995276) /* MotionTable */
-     , (26543,   3,  536871082) /* SoundTable */
-     , (26543,   8,  100667624) /* Icon */
-     , (26543,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (26543,   1, 0x0200104E) /* Setup */
+     , (26543,   2, 0x0900014C) /* MotionTable */
+     , (26543,   3, 0x200000AA) /* SoundTable */
+     , (26543,   8, 0x060010E8) /* Icon */
+     , (26543,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (26543,   1, 380, 0, 0) /* Strength */

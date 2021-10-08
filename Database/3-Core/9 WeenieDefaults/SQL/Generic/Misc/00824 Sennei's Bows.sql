@@ -22,7 +22,7 @@ VALUES (824,   1, 'Sennei''s Bows') /* Name */
      , (824,  16, 'Sennei''s Bows') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (824,   1,   33555088) /* Setup */
-     , (824,   6,   67111092) /* PaletteBase */
-     , (824,   7,  268435654) /* ClothingBase */
-     , (824,   8,  100668115) /* Icon */;
+VALUES (824,   1, 0x02000290) /* Setup */
+     , (824,   6, 0x040008B4) /* PaletteBase */
+     , (824,   7, 0x100000C6) /* ClothingBase */
+     , (824,   8, 0x060012D3) /* Icon */;

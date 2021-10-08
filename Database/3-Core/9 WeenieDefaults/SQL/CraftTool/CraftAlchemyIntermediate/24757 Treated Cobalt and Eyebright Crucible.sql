@@ -32,8 +32,8 @@ VALUES (24757,   1, 'Treated Cobalt and Eyebright Crucible') /* Name */
      , (24757,  20, 'Treated Cobalt and Eyebright Crucible') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24757,   1,   33555966) /* Setup */
-     , (24757,   3,  536870932) /* SoundTable */
-     , (24757,   8,  100674470) /* Icon */
-     , (24757,  22,  872415275) /* PhysicsEffectTable */
-     , (24757,  50,  100674413) /* IconOverlay */;
+VALUES (24757,   1, 0x020005FE) /* Setup */
+     , (24757,   3, 0x20000014) /* SoundTable */
+     , (24757,   8, 0x06002BA6) /* Icon */
+     , (24757,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24757,  50, 0x06002B6D) /* IconOverlay */;

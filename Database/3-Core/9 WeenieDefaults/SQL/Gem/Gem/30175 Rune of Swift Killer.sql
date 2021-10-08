@@ -30,10 +30,10 @@ VALUES (30175,   1, 'Rune of Swift Killer') /* Name */
      , (30175,  16, 'A lovely template for a rare magical gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30175,   1,   33554809) /* Setup */
-     , (30175,   3,  536870932) /* SoundTable */
-     , (30175,   6,   67111919) /* PaletteBase */
-     , (30175,   7,  268435723) /* ClothingBase */
-     , (30175,   8,  100674739) /* Icon */
-     , (30175,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30175,   1, 0x02000179) /* Setup */
+     , (30175,   3, 0x20000014) /* SoundTable */
+     , (30175,   6, 0x04000BEF) /* PaletteBase */
+     , (30175,   7, 0x1000010B) /* ClothingBase */
+     , (30175,   8, 0x06002CB3) /* Icon */
+     , (30175,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30175,  28,       2116) /* Spell - Aura of Atlan's Alacrity */;

@@ -30,8 +30,8 @@ VALUES (7385,   1, 'Empyrean magical defense battery') /* Name */
      , (7385,  22, 'You hear a rising hum, as if something were rapidly recharging.') /* ActivationFailure */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7385,   1,   33554667) /* Setup */
-     , (7385,   3,  536870932) /* SoundTable */
-     , (7385,   8,  100667494) /* Icon */
-     , (7385,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7385,   1, 0x020000EB) /* Setup */
+     , (7385,   3, 0x20000014) /* SoundTable */
+     , (7385,   8, 0x06001066) /* Icon */
+     , (7385,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7385,  28,       1819) /* Spell - Lightning Streak VI */;

@@ -31,10 +31,10 @@ VALUES (8333,   1, 'Ashwood Pea') /* Name */
      , (8333,  16, 'A concentrated ashwood pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8333,   1,   33555207) /* Setup */
-     , (8333,   3,  536870932) /* SoundTable */
-     , (8333,   6,   67111919) /* PaletteBase */
-     , (8333,   7,  268435722) /* ClothingBase */
-     , (8333,   8,  100671098) /* Icon */
-     , (8333,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8333,   1, 0x02000307) /* Setup */
+     , (8333,   3, 0x20000014) /* SoundTable */
+     , (8333,   6, 0x04000BEF) /* PaletteBase */
+     , (8333,   7, 0x1000010A) /* ClothingBase */
+     , (8333,   8, 0x06001E7A) /* Icon */
+     , (8333,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8333,  29,        169) /* SpellComponent */;

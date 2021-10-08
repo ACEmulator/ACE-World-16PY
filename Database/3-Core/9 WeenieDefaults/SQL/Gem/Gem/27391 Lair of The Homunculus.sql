@@ -37,12 +37,12 @@ VALUES (27391,   1, 'Lair of The Homunculus') /* Name */
      , (27391,  16, 'Join us in worship, mosswart brethren. Our God walks amongst, blessing us. The Homunculus will lead us to our rightful place as the rulers of this world. The Homunculus will bring low all who oppose us. Praise be The Homunculus!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27391,   1,   33556769) /* Setup */
-     , (27391,   3,  536870932) /* SoundTable */
-     , (27391,   6,   67111919) /* PaletteBase */
-     , (27391,   7,  268435723) /* ClothingBase */
-     , (27391,   8,  100676445) /* Icon */
-     , (27391,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27391,   1, 0x02000921) /* Setup */
+     , (27391,   3, 0x20000014) /* SoundTable */
+     , (27391,   6, 0x04000BEF) /* PaletteBase */
+     , (27391,   7, 0x1000010B) /* ClothingBase */
+     , (27391,   8, 0x0600335D) /* Icon */
+     , (27391,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27391,  28,        157) /* Spell - Summon Primary Portal I */
      , (27391,  31,      27402) /* LinkedPortalOne - Lair of The Homunculus */
-     , (27391,  50,  100676404) /* IconOverlay */;
+     , (27391,  50, 0x06003334) /* IconOverlay */;

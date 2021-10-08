@@ -22,5 +22,5 @@ VALUES (936,   1, 'Yanshi: 3 miles') /* Name */
      , (936,  16, 'Hamlet of Yanshi : 3 miles.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (936,   1,   33555986) /* Setup */
-     , (936,   8,  100668115) /* Icon */;
+VALUES (936,   1, 0x02000612) /* Setup */
+     , (936,   8, 0x060012D3) /* Icon */;

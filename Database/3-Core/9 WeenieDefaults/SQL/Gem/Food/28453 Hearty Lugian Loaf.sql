@@ -37,10 +37,10 @@ VALUES (28453,   1, 'Hearty Lugian Loaf') /* Name */
      , (28453,  16, 'A hefty loaf of hardtack bread.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28453,   1,   33554806) /* Setup */
-     , (28453,   3,  536870932) /* SoundTable */
-     , (28453,   8,  100676972) /* Icon */
-     , (28453,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28453,   1, 0x02000176) /* Setup */
+     , (28453,   3, 0x20000014) /* SoundTable */
+     , (28453,   8, 0x0600356C) /* Icon */
+     , (28453,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28453,  23,         64) /* UseSound - Eat1 */
-     , (28453,  27,  318767233) /* UseUserAnimation - MimeEat */
+     , (28453,  27, 0x13000081) /* UseUserAnimation - MimeEat */
      , (28453,  28,       3440) /* Spell - Health of the Lugian */;

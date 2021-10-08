@@ -30,9 +30,9 @@ VALUES (22923,   1, 'Asylum Chest Key') /* Name */
      , (22923,  33, 'AerbaxChestKey2Pickup') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22923,   1,   33557000) /* Setup */
-     , (22923,   3,  536870932) /* SoundTable */
-     , (22923,   6,   67111346) /* PaletteBase */
-     , (22923,   7,  268436150) /* ClothingBase */
-     , (22923,   8,  100672605) /* Icon */
-     , (22923,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22923,   1, 0x02000A08) /* Setup */
+     , (22923,   3, 0x20000014) /* SoundTable */
+     , (22923,   6, 0x040009B2) /* PaletteBase */
+     , (22923,   7, 0x100002B6) /* ClothingBase */
+     , (22923,   8, 0x0600245D) /* Icon */
+     , (22923,  22, 0x3400002B) /* PhysicsEffectTable */;

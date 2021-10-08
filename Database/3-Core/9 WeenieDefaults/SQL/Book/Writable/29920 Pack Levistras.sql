@@ -33,13 +33,13 @@ VALUES (29920,   1, 'Pack Levistras') /* Name */
      , (29920,  16, 'Levistras, Virindi Director, Speaker of the New Directive') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29920,   1,   33554497) /* Setup */
-     , (29920,   2,  150995118) /* MotionTable */
-     , (29920,   3,  536870932) /* SoundTable */
-     , (29920,   6,   67111346) /* PaletteBase */
-     , (29920,   7,  268436278) /* ClothingBase */
-     , (29920,   8,  100667943) /* Icon */
-     , (29920,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29920,   1, 0x02000041) /* Setup */
+     , (29920,   2, 0x090000AE) /* MotionTable */
+     , (29920,   3, 0x20000014) /* SoundTable */
+     , (29920,   6, 0x040009B2) /* PaletteBase */
+     , (29920,   7, 0x10000336) /* ClothingBase */
+     , (29920,   8, 0x06001227) /* Icon */
+     , (29920,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (29920, 3, 1000);

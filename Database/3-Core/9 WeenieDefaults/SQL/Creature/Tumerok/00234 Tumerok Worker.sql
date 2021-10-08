@@ -62,14 +62,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (234,   1, 'Tumerok Worker') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (234,   1,   33554496) /* Setup */
-     , (234,   2,  150994954) /* MotionTable */
-     , (234,   3,  536870931) /* SoundTable */
-     , (234,   4,  805306380) /* CombatTable */
-     , (234,   6,   67109314) /* PaletteBase */
-     , (234,   7,  268436629) /* ClothingBase */
-     , (234,   8,  100667452) /* Icon */
-     , (234,  22,  872415270) /* PhysicsEffectTable */
+VALUES (234,   1, 0x02000040) /* Setup */
+     , (234,   2, 0x0900000A) /* MotionTable */
+     , (234,   3, 0x20000013) /* SoundTable */
+     , (234,   4, 0x3000000C) /* CombatTable */
+     , (234,   6, 0x040001C2) /* PaletteBase */
+     , (234,   7, 0x10000495) /* ClothingBase */
+     , (234,   8, 0x0600103C) /* Icon */
+     , (234,  22, 0x34000026) /* PhysicsEffectTable */
      , (234,  32,        229) /* WieldedTreasureType - 
                                    Wield 10x Throwing Dart (316) | Probability: 10%
                                    Wield 10x Shouken (343) | Probability: 5%

@@ -28,9 +28,9 @@ VALUES (5323,   1, 'Frost Infusion') /* Name */
      , (5323,  20, 'Frost Infusions') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5323,   1,   33555965) /* Setup */
-     , (5323,   3,  536870932) /* SoundTable */
-     , (5323,   6,   67111919) /* PaletteBase */
-     , (5323,   7,  268435814) /* ClothingBase */
-     , (5323,   8,  100670264) /* Icon */
-     , (5323,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5323,   1, 0x020005FD) /* Setup */
+     , (5323,   3, 0x20000014) /* SoundTable */
+     , (5323,   6, 0x04000BEF) /* PaletteBase */
+     , (5323,   7, 0x10000166) /* ClothingBase */
+     , (5323,   8, 0x06001B38) /* Icon */
+     , (5323,  22, 0x3400002B) /* PhysicsEffectTable */;

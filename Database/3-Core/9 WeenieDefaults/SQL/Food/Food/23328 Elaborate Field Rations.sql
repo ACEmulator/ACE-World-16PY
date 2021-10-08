@@ -29,7 +29,7 @@ VALUES (23328,   1, 'Elaborate Field Rations') /* Name */
      , (23328,  20, 'Elaborate Field Rations') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23328,   1,   33554817) /* Setup */
-     , (23328,   3,  536870932) /* SoundTable */
-     , (23328,   8,  100674004) /* Icon */
-     , (23328,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23328,   1, 0x02000181) /* Setup */
+     , (23328,   3, 0x20000014) /* SoundTable */
+     , (23328,   8, 0x060029D4) /* Icon */
+     , (23328,  22, 0x3400002B) /* PhysicsEffectTable */;

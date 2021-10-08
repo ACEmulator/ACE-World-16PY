@@ -61,14 +61,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12700,   1, 'Grievver Spawn') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12700,   1,   33556698) /* Setup */
-     , (12700,   2,  150995098) /* MotionTable */
-     , (12700,   3,  536871009) /* SoundTable */
-     , (12700,   4,  805306411) /* CombatTable */
-     , (12700,   6,   67112927) /* PaletteBase */
-     , (12700,   7,  268436038) /* ClothingBase */
-     , (12700,   8,  100670960) /* Icon */
-     , (12700,  22,  872415364) /* PhysicsEffectTable */
+VALUES (12700,   1, 0x020008DA) /* Setup */
+     , (12700,   2, 0x0900009A) /* MotionTable */
+     , (12700,   3, 0x20000061) /* SoundTable */
+     , (12700,   4, 0x3000002B) /* CombatTable */
+     , (12700,   6, 0x04000FDF) /* PaletteBase */
+     , (12700,   7, 0x10000246) /* ClothingBase */
+     , (12700,   8, 0x06001DF0) /* Icon */
+     , (12700,  22, 0x34000084) /* PhysicsEffectTable */
      , (12700,  30,         87) /* PhysicsScript - BreatheLightning */
      , (12700,  35,        142) /* DeathTreasureType - Loot Tier: 1 */;
 

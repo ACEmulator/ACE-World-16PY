@@ -14,5 +14,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2352,   1, 'Help Channel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2352,   1,   33555515) /* Setup */
-     , (2352,   8,  100667388) /* Icon */;
+VALUES (2352,   1, 0x0200043B) /* Setup */
+     , (2352,   8, 0x06000FFC) /* Icon */;

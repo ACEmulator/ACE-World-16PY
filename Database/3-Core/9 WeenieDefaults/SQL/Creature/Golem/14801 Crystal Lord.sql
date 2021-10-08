@@ -72,14 +72,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14801,   1, 'Crystal Lord') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14801,   1,   33556439) /* Setup */
-     , (14801,   2,  150995073) /* MotionTable */
-     , (14801,   3,  536870933) /* SoundTable */
-     , (14801,   4,  805306376) /* CombatTable */
-     , (14801,   6,   67112808) /* PaletteBase */
-     , (14801,   7,  268435983) /* ClothingBase */
-     , (14801,   8,  100667940) /* Icon */
-     , (14801,  22,  872415322) /* PhysicsEffectTable */
+VALUES (14801,   1, 0x020007D7) /* Setup */
+     , (14801,   2, 0x09000081) /* MotionTable */
+     , (14801,   3, 0x20000015) /* SoundTable */
+     , (14801,   4, 0x30000008) /* CombatTable */
+     , (14801,   6, 0x04000F68) /* PaletteBase */
+     , (14801,   7, 0x1000020F) /* ClothingBase */
+     , (14801,   8, 0x06001224) /* Icon */
+     , (14801,  22, 0x3400005A) /* PhysicsEffectTable */
      , (14801,  35,         32) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

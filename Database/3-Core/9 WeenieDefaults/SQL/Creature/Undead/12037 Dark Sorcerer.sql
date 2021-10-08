@@ -70,14 +70,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12037,   1, 'Dark Sorcerer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12037,   1,   33554839) /* Setup */
-     , (12037,   2,  150994967) /* MotionTable */
-     , (12037,   3,  536870934) /* SoundTable */
-     , (12037,   4,  805306368) /* CombatTable */
-     , (12037,   6,   67110722) /* PaletteBase */
-     , (12037,   7,  268435558) /* ClothingBase */
-     , (12037,   8,  100667942) /* Icon */
-     , (12037,  22,  872415272) /* PhysicsEffectTable */
+VALUES (12037,   1, 0x02000197) /* Setup */
+     , (12037,   2, 0x09000017) /* MotionTable */
+     , (12037,   3, 0x20000016) /* SoundTable */
+     , (12037,   4, 0x30000000) /* CombatTable */
+     , (12037,   6, 0x04000742) /* PaletteBase */
+     , (12037,   7, 0x10000066) /* ClothingBase */
+     , (12037,   8, 0x06001226) /* Icon */
+     , (12037,  22, 0x34000028) /* PhysicsEffectTable */
      , (12037,  32,        291) /* WieldedTreasureType - 
                                    Wield 5x Frost Throwing Club (23663) | Probability: 40%
                                    Wield 5x Throwing Club (23655) | Probability: 30.000002%

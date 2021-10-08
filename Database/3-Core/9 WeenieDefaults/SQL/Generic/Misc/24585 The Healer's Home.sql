@@ -22,7 +22,7 @@ VALUES (24585,   1, 'The Healer''s Home') /* Name */
      , (24585,  16, 'We care to your needs. Bandages, Potions, and Healing Services.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24585,   1,   33555088) /* Setup */
-     , (24585,   6,   67111092) /* PaletteBase */
-     , (24585,   7,  268435657) /* ClothingBase */
-     , (24585,   8,  100668115) /* Icon */;
+VALUES (24585,   1, 0x02000290) /* Setup */
+     , (24585,   6, 0x040008B4) /* PaletteBase */
+     , (24585,   7, 0x100000C9) /* ClothingBase */
+     , (24585,   8, 0x060012D3) /* Icon */;

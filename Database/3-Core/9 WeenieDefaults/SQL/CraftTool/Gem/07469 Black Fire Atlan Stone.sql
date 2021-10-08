@@ -30,9 +30,9 @@ VALUES (7469,   1, 'Black Fire Atlan Stone') /* Name */
      , (7469,  14, 'Use this stone on an Empyrean weapon. ') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7469,   1,   33556407) /* Setup */
-     , (7469,   3,  536870932) /* SoundTable */
-     , (7469,   6,   67111919) /* PaletteBase */
-     , (7469,   7,  268435965) /* ClothingBase */
-     , (7469,   8,  100670494) /* Icon */
-     , (7469,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7469,   1, 0x020007B7) /* Setup */
+     , (7469,   3, 0x20000014) /* SoundTable */
+     , (7469,   6, 0x04000BEF) /* PaletteBase */
+     , (7469,   7, 0x100001FD) /* ClothingBase */
+     , (7469,   8, 0x06001C1E) /* Icon */
+     , (7469,  22, 0x3400002B) /* PhysicsEffectTable */;

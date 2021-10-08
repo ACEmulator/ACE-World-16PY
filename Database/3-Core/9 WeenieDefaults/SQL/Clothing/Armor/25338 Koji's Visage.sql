@@ -47,12 +47,12 @@ VALUES (25338,   1, 'Koji''s Visage') /* Name */
      , (25338,  19, 'Sho') /* ItemHeritageGroupRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25338,   1,   33558446) /* Setup */
-     , (25338,   3,  536870932) /* SoundTable */
-     , (25338,   6,   67108990) /* PaletteBase */
-     , (25338,   7,  268436676) /* ClothingBase */
-     , (25338,   8,  100674855) /* Icon */
-     , (25338,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25338,   1, 0x02000FAE) /* Setup */
+     , (25338,   3, 0x20000014) /* SoundTable */
+     , (25338,   6, 0x0400007E) /* PaletteBase */
+     , (25338,   7, 0x100004C4) /* ClothingBase */
+     , (25338,   8, 0x06002D27) /* Icon */
+     , (25338,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25338,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

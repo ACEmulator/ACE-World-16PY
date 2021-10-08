@@ -29,9 +29,9 @@ VALUES (10899,   1, 'Pressure Plate - Olthoi Soldier') /* Name */
      , (10899,  17, 'A large sickly looking Olthoi Soldier that was meandering about fitfully stares in your direction. It cocks it''s head as if it can''t quite figure you out.') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10899,   1,   33555536) /* Setup */
-     , (10899,   2,  150994977) /* MotionTable */
-     , (10899,   8,  100668114) /* Icon */;
+VALUES (10899,   1, 0x02000450) /* Setup */
+     , (10899,   2, 0x09000021) /* MotionTable */
+     , (10899,   8, 0x060012D2) /* Icon */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (10899,  16, 0x00000000) /* ActivationTarget */;

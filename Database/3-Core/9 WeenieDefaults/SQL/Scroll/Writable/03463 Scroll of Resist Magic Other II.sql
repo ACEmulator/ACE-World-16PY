@@ -25,7 +25,7 @@ VALUES (3463,   1, 'Scroll of Resist Magic Other II') /* Name */
      , (3463,  16, 'When learned, this spell increases the target''s Magic Defense skill by 25%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3463,   1,   33554826) /* Setup */
-     , (3463,   8,  100676465) /* Icon */
-     , (3463,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3463,   1, 0x0200018A) /* Setup */
+     , (3463,   8, 0x06003371) /* Icon */
+     , (3463,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3463,  28,        269) /* Spell - Magic Resistance Other II */;

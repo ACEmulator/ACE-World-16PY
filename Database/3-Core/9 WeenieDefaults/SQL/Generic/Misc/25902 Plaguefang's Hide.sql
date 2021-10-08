@@ -25,9 +25,9 @@ VALUES (25902,   1, 'Plaguefang''s Hide') /* Name */
      , (25902,  16, 'A hide carefully cut from the corpse of the reedshark pack leader, Plaguefang.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25902,   1,   33554817) /* Setup */
-     , (25902,   3,  536870932) /* SoundTable */
-     , (25902,   6,   67111919) /* PaletteBase */
-     , (25902,   7,  268435832) /* ClothingBase */
-     , (25902,   8,  100675631) /* Icon */
-     , (25902,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25902,   1, 0x02000181) /* Setup */
+     , (25902,   3, 0x20000014) /* SoundTable */
+     , (25902,   6, 0x04000BEF) /* PaletteBase */
+     , (25902,   7, 0x10000178) /* ClothingBase */
+     , (25902,   8, 0x0600302F) /* Icon */
+     , (25902,  22, 0x3400002B) /* PhysicsEffectTable */;

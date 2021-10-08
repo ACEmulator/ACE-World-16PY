@@ -28,8 +28,8 @@ VALUES (11157,   1, 'Alchemy Tessera') /* Name */
      , (11157,  16, 'A small, squarish piece of glass. This can be turned into the Tah of Timaru for a free one-point boost to your Alchemy skill. There are tesserae available for each skill in the game. If you don''t want a point of Alchemy, trade this tessera for another. You may only turn in five per character - so choose carefully!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11157,   1,   33557218) /* Setup */
-     , (11157,   3,  536870932) /* SoundTable */
-     , (11157,   8,  100671786) /* Icon */
-     , (11157,  22,  872415275) /* PhysicsEffectTable */
-     , (11157,  36,  234881046) /* MutateFilter */;
+VALUES (11157,   1, 0x02000AE2) /* Setup */
+     , (11157,   3, 0x20000014) /* SoundTable */
+     , (11157,   8, 0x0600212A) /* Icon */
+     , (11157,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11157,  36, 0x0E000016) /* MutateFilter */;

@@ -22,5 +22,5 @@ VALUES (8446,   1, 'The Magi''s Refuge') /* Name */
      , (8446,  16, 'The Magi''s Refuge') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8446,   1,   33555594) /* Setup */
-     , (8446,   8,  100668115) /* Icon */;
+VALUES (8446,   1, 0x0200048A) /* Setup */
+     , (8446,   8, 0x060012D3) /* Icon */;

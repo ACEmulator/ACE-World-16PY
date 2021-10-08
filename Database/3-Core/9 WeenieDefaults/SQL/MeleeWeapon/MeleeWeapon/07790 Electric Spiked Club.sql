@@ -37,11 +37,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7790,   1, 'Electric Spiked Club') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7790,   1,   33556659) /* Setup */
-     , (7790,   3,  536870932) /* SoundTable */
-     , (7790,   6,   67111919) /* PaletteBase */
-     , (7790,   7,  268436007) /* ClothingBase */
-     , (7790,   8,  100668965) /* Icon */
-     , (7790,  22,  872415275) /* PhysicsEffectTable */
-     , (7790,  36,  234881053) /* MutateFilter */
-     , (7790,  46,  939524099) /* TsysMutationFilter */;
+VALUES (7790,   1, 0x020008B3) /* Setup */
+     , (7790,   3, 0x20000014) /* SoundTable */
+     , (7790,   6, 0x04000BEF) /* PaletteBase */
+     , (7790,   7, 0x10000227) /* ClothingBase */
+     , (7790,   8, 0x06001625) /* Icon */
+     , (7790,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (7790,  36, 0x0E00001D) /* MutateFilter */
+     , (7790,  46, 0x38000003) /* TsysMutationFilter */;

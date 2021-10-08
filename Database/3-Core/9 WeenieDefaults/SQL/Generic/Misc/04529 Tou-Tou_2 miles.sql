@@ -22,5 +22,5 @@ VALUES (4529,   1, 'Tou-Tou:2 miles') /* Name */
      , (4529,  16, 'Village of Tou-Tou: 2 miles.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4529,   1,   33555986) /* Setup */
-     , (4529,   8,  100668115) /* Icon */;
+VALUES (4529,   1, 0x02000612) /* Setup */
+     , (4529,   8, 0x060012D3) /* Icon */;

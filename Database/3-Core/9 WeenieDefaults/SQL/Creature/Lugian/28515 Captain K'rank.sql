@@ -63,13 +63,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28515,   1, 'Captain K''rank') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28515,   1,   33557003) /* Setup */
-     , (28515,   2,  150994950) /* MotionTable */
-     , (28515,   3,  536870922) /* SoundTable */
-     , (28515,   4,  805306371) /* CombatTable */
-     , (28515,   6,   67113158) /* PaletteBase */
-     , (28515,   7,  268436632) /* ClothingBase */
-     , (28515,   8,  100667447) /* Icon */;
+VALUES (28515,   1, 0x02000A0B) /* Setup */
+     , (28515,   2, 0x09000006) /* MotionTable */
+     , (28515,   3, 0x2000000A) /* SoundTable */
+     , (28515,   4, 0x30000003) /* CombatTable */
+     , (28515,   6, 0x040010C6) /* PaletteBase */
+     , (28515,   7, 0x10000498) /* ClothingBase */
+     , (28515,   8, 0x06001037) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28515,   1, 400, 0, 0) /* Strength */

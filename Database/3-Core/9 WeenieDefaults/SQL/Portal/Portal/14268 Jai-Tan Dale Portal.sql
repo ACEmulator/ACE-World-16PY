@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14268,   1, 'Jai-Tan Dale Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14268,   1,   33554867) /* Setup */
-     , (14268,   2,  150994947) /* MotionTable */
-     , (14268,   8,  100667499) /* Icon */;
+VALUES (14268,   1, 0x020001B3) /* Setup */
+     , (14268,   2, 0x09000003) /* MotionTable */
+     , (14268,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (14268, 2, 0xC946001C, 76.901, 85.203, 140.123, 0.972307, 0, 0, -0.233709) /* Destination */

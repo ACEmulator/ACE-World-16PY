@@ -28,7 +28,7 @@ VALUES (4743,   1, 'Stuffed Grape Leaf') /* Name */
      , (4743,  20, 'Stuffed Grape Leaves') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4743,   1,   33555982) /* Setup */
-     , (4743,   3,  536870932) /* SoundTable */
-     , (4743,   8,  100669970) /* Icon */
-     , (4743,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4743,   1, 0x0200060E) /* Setup */
+     , (4743,   3, 0x20000014) /* SoundTable */
+     , (4743,   8, 0x06001A12) /* Icon */
+     , (4743,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -25,7 +25,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19441,   1, 'Auroch Horn') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19441,   1,   33556594) /* Setup */
-     , (19441,   6,   67112869) /* PaletteBase */
-     , (19441,   7,  268435999) /* ClothingBase */
-     , (19441,   8,  100668178) /* Icon */;
+VALUES (19441,   1, 0x02000872) /* Setup */
+     , (19441,   6, 0x04000FA5) /* PaletteBase */
+     , (19441,   7, 0x1000021F) /* ClothingBase */
+     , (19441,   8, 0x06001312) /* Icon */;

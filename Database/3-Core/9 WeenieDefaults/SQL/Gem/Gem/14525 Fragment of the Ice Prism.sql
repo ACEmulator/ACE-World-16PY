@@ -29,10 +29,10 @@ VALUES (14525,   1, 'Fragment of the Ice Prism') /* Name */
      , (14525,  33, 'PrismFragmentIcePickup') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14525,   1,   33557506) /* Setup */
-     , (14525,   3,  536870932) /* SoundTable */
-     , (14525,   6,   67112808) /* PaletteBase */
-     , (14525,   7,  268436323) /* ClothingBase */
-     , (14525,   8,  100672511) /* Icon */
-     , (14525,  22,  872415275) /* PhysicsEffectTable */
-     , (14525,  36,  234881046) /* MutateFilter */;
+VALUES (14525,   1, 0x02000C02) /* Setup */
+     , (14525,   3, 0x20000014) /* SoundTable */
+     , (14525,   6, 0x04000F68) /* PaletteBase */
+     , (14525,   7, 0x10000363) /* ClothingBase */
+     , (14525,   8, 0x060023FF) /* Icon */
+     , (14525,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (14525,  36, 0x0E000016) /* MutateFilter */;

@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8543,   1, 'Chalicmere Legion Commander') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8543,   1,   33555464) /* Setup */
-     , (8543,   2,  150994981) /* MotionTable */
-     , (8543,   3,  536870942) /* SoundTable */
-     , (8543,   4,  805306368) /* CombatTable */
-     , (8543,   6,   67111266) /* PaletteBase */
-     , (8543,   7,  268435646) /* ClothingBase */
-     , (8543,   8,  100669124) /* Icon */
-     , (8543,  22,  872415269) /* PhysicsEffectTable */
+VALUES (8543,   1, 0x02000408) /* Setup */
+     , (8543,   2, 0x09000025) /* MotionTable */
+     , (8543,   3, 0x2000001E) /* SoundTable */
+     , (8543,   4, 0x30000000) /* CombatTable */
+     , (8543,   6, 0x04000962) /* PaletteBase */
+     , (8543,   7, 0x100000BE) /* ClothingBase */
+     , (8543,   8, 0x060016C4) /* Icon */
+     , (8543,  22, 0x34000025) /* PhysicsEffectTable */
      , (8543,  32,        288) /* WieldedTreasureType - 
                                    Wield Yumi (23734) | Probability: 50%
                                    Wield 16x Deadly Acid Arrow (15430) | Probability: 100%

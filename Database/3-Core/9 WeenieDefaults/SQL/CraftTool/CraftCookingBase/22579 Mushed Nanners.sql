@@ -28,9 +28,9 @@ VALUES (22579,   1, 'Mushed Nanners') /* Name */
      , (22579,  20, 'Piles of Mushed Nanners') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22579,   1,   33554668) /* Setup */
-     , (22579,   3,  536870932) /* SoundTable */
-     , (22579,   6,   67111092) /* PaletteBase */
-     , (22579,   7,  268436504) /* ClothingBase */
-     , (22579,   8,  100673807) /* Icon */
-     , (22579,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22579,   1, 0x020000EC) /* Setup */
+     , (22579,   3, 0x20000014) /* SoundTable */
+     , (22579,   6, 0x040008B4) /* PaletteBase */
+     , (22579,   7, 0x10000418) /* ClothingBase */
+     , (22579,   8, 0x0600290F) /* Icon */
+     , (22579,  22, 0x3400002B) /* PhysicsEffectTable */;

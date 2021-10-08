@@ -42,13 +42,13 @@ VALUES (8882,   1, 'Staff of Aerfalle') /* Name */
      , (8882,  16, 'A staff made from the petrified wood of Aerlinthe, taken from the claws of the Dark Magus of that island. This artifact is several centuries old.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8882,   1,   33555649) /* Setup */
-     , (8882,   3,  536870932) /* SoundTable */
-     , (8882,   8,  100670752) /* Icon */
-     , (8882,  22,  872415275) /* PhysicsEffectTable */
-     , (8882,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (8882,   1, 0x020004C1) /* Setup */
+     , (8882,   3, 0x20000014) /* SoundTable */
+     , (8882,   8, 0x06001D20) /* Icon */
+     , (8882,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8882,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (8882,  28,       1794) /* Spell - Acid Streak V */
-     , (8882,  36,  234881046) /* MutateFilter */
+     , (8882,  36, 0x0E000016) /* MutateFilter */
      , (8882,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -31,7 +31,7 @@ VALUES (6127,   1, 'Stone Tool') /* Name */
      , (6127,  33, 'stonetool') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6127,   1,   33556408) /* Setup */
-     , (6127,   3,  536870932) /* SoundTable */
-     , (6127,   8,  100670475) /* Icon */
-     , (6127,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6127,   1, 0x020007B8) /* Setup */
+     , (6127,   3, 0x20000014) /* SoundTable */
+     , (6127,   8, 0x06001C0B) /* Icon */
+     , (6127,  22, 0x3400002B) /* PhysicsEffectTable */;

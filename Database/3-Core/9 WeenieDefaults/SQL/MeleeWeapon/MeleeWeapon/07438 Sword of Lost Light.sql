@@ -46,10 +46,10 @@ VALUES (7438,   1, 'Sword of Lost Light') /* Name */
      , (7438,  16, 'The Sword of Lost Light, infused with blue fire from Mount Lethe and white fire from Mount Esper.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7438,   1,   33555927) /* Setup */
-     , (7438,   3,  536870932) /* SoundTable */
-     , (7438,   8,  100669772) /* Icon */
-     , (7438,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7438,   1, 0x020005D7) /* Setup */
+     , (7438,   3, 0x20000014) /* SoundTable */
+     , (7438,   8, 0x0600194C) /* Icon */
+     , (7438,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7438,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

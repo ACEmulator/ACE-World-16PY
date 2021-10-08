@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24304,   1, 'Olthoi Swarm Nymph') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24304,   1,   33557163) /* Setup */
-     , (24304,   2,  150994946) /* MotionTable */
-     , (24304,   3,  536870925) /* SoundTable */
-     , (24304,   4,  805306369) /* CombatTable */
-     , (24304,   6,   67113236) /* PaletteBase */
-     , (24304,   7,  268436196) /* ClothingBase */
-     , (24304,   8,  100667623) /* Icon */
-     , (24304,  22,  872415265) /* PhysicsEffectTable */
+VALUES (24304,   1, 0x02000AAB) /* Setup */
+     , (24304,   2, 0x09000002) /* MotionTable */
+     , (24304,   3, 0x2000000D) /* SoundTable */
+     , (24304,   4, 0x30000001) /* CombatTable */
+     , (24304,   6, 0x04001114) /* PaletteBase */
+     , (24304,   7, 0x100002E4) /* ClothingBase */
+     , (24304,   8, 0x060010E7) /* Icon */
+     , (24304,  22, 0x34000021) /* PhysicsEffectTable */
      , (24304,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

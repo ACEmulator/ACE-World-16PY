@@ -31,13 +31,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25306,   1, 'Bracelet of Creature Enchantments') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25306,   1,   33554683) /* Setup */
-     , (25306,   3,  536870932) /* SoundTable */
-     , (25306,   6,   67111919) /* PaletteBase */
-     , (25306,   7,  268436286) /* ClothingBase */
-     , (25306,   8,  100672215) /* Icon */
-     , (25306,  22,  872415275) /* PhysicsEffectTable */
-     , (25306,  36,  234881046) /* MutateFilter */;
+VALUES (25306,   1, 0x020000FB) /* Setup */
+     , (25306,   3, 0x20000014) /* SoundTable */
+     , (25306,   6, 0x04000BEF) /* PaletteBase */
+     , (25306,   7, 0x1000033E) /* ClothingBase */
+     , (25306,   8, 0x060022D7) /* Icon */
+     , (25306,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (25306,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25306,   321,      2)  /* Finesse Weapon Mastery Other VI */

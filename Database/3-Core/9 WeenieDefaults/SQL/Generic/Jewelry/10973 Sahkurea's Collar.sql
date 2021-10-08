@@ -32,12 +32,12 @@ VALUES (10973,   1, 'Sahkurea''s Collar') /* Name */
      , (10973,  16, 'A spiked collar, smelling faintly of Reedshark.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10973,   1,   33554810) /* Setup */
-     , (10973,   3,  536870932) /* SoundTable */
-     , (10973,   6,   67111919) /* PaletteBase */
-     , (10973,   8,  100671855) /* Icon */
-     , (10973,  22,  872415275) /* PhysicsEffectTable */
-     , (10973,  36,  234881046) /* MutateFilter */;
+VALUES (10973,   1, 0x0200017A) /* Setup */
+     , (10973,   3, 0x20000014) /* SoundTable */
+     , (10973,   6, 0x04000BEF) /* PaletteBase */
+     , (10973,   8, 0x0600216F) /* Icon */
+     , (10973,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (10973,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10973,  1360,      2)  /* Endurance Other VI */

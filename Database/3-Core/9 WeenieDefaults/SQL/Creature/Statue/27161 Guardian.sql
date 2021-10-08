@@ -64,12 +64,12 @@ VALUES (27161,   1, 'Guardian') /* Name */
      , (27161,  16, 'A Guardian watching over the weakest grave spirits that guard the beloved, Liazk Itzi.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27161,   1,   33558613) /* Setup */
-     , (27161,   2,  150995147) /* MotionTable */
-     , (27161,   3,  536871052) /* SoundTable */
-     , (27161,   4,  805306398) /* CombatTable */
-     , (27161,   8,  100675780) /* Icon */
-     , (27161,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (27161,   1, 0x02001055) /* Setup */
+     , (27161,   2, 0x090000CB) /* MotionTable */
+     , (27161,   3, 0x2000008C) /* SoundTable */
+     , (27161,   4, 0x3000001E) /* CombatTable */
+     , (27161,   8, 0x060030C4) /* Icon */
+     , (27161,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27161,   1, 380, 0, 0) /* Strength */

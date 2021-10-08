@@ -74,11 +74,11 @@ VALUES (856,   1, 'Archmage Shikiru Nohon') /* Name */
      , (856,  24, 'Hebian-to') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (856,   1,   33554433) /* Setup */
-     , (856,   2,  150994945) /* MotionTable */
-     , (856,   3,  536870913) /* SoundTable */
-     , (856,   4,  805306368) /* CombatTable */
-     , (856,   8,  100667446) /* Icon */;
+VALUES (856,   1, 0x02000001) /* Setup */
+     , (856,   2, 0x09000001) /* MotionTable */
+     , (856,   3, 0x20000001) /* SoundTable */
+     , (856,   4, 0x30000000) /* CombatTable */
+     , (856,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (856,   1,  45, 0, 0) /* Strength */

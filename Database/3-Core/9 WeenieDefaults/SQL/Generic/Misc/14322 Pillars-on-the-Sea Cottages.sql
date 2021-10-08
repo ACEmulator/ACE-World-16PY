@@ -22,5 +22,5 @@ VALUES (14322,   1, 'Pillars-on-the-Sea Cottages') /* Name */
      , (14322,  16, 'Welcome to Pillars-on-the-Sea Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14322,   1,   33557463) /* Setup */
-     , (14322,   8,  100668115) /* Icon */;
+VALUES (14322,   1, 0x02000BD7) /* Setup */
+     , (14322,   8, 0x060012D3) /* Icon */;

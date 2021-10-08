@@ -27,10 +27,10 @@ VALUES (31000,   1, 'Gem Template') /* Name */
      , (31000,  16, 'A lovely template for a magical gem. Stacks to 25.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31000,   1,   33554809) /* Setup */
-     , (31000,   3,  536870932) /* SoundTable */
-     , (31000,   6,   67111919) /* PaletteBase */
-     , (31000,   7,  268435723) /* ClothingBase */
-     , (31000,   8,  100674739) /* Icon */
-     , (31000,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31000,   1, 0x02000179) /* Setup */
+     , (31000,   3, 0x20000014) /* SoundTable */
+     , (31000,   6, 0x04000BEF) /* PaletteBase */
+     , (31000,   7, 0x1000010B) /* ClothingBase */
+     , (31000,   8, 0x06002CB3) /* Icon */
+     , (31000,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31000,  28,        678) /* Spell - Arcane Enlightenment Self I */;

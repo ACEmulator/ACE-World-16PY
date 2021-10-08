@@ -31,7 +31,7 @@ VALUES (24739,   1, 'Crucible with Cinnabar Potion') /* Name */
      , (24739,  20, 'Crucibles with Cinnabar Potion') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24739,   1,   33555966) /* Setup */
-     , (24739,   3,  536870932) /* SoundTable */
-     , (24739,   8,  100674462) /* Icon */
-     , (24739,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24739,   1, 0x020005FE) /* Setup */
+     , (24739,   3, 0x20000014) /* SoundTable */
+     , (24739,   8, 0x06002B9E) /* Icon */
+     , (24739,  22, 0x3400002B) /* PhysicsEffectTable */;

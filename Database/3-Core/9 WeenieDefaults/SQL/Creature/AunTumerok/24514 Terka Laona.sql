@@ -65,13 +65,13 @@ VALUES (24514,   1, 'Terka Laona') /* Name */
      , (24514,   5, 'Surveyor') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24514,   1,   33557175) /* Setup */
-     , (24514,   2,  150995136) /* MotionTable */
-     , (24514,   3,  536871030) /* SoundTable */
-     , (24514,   4,  805306380) /* CombatTable */
-     , (24514,   6,   67113280) /* PaletteBase */
-     , (24514,   7,  268436193) /* ClothingBase */
-     , (24514,   8,  100671756) /* Icon */;
+VALUES (24514,   1, 0x02000AB7) /* Setup */
+     , (24514,   2, 0x090000C0) /* MotionTable */
+     , (24514,   3, 0x20000076) /* SoundTable */
+     , (24514,   4, 0x3000000C) /* CombatTable */
+     , (24514,   6, 0x04001140) /* PaletteBase */
+     , (24514,   7, 0x100002E1) /* ClothingBase */
+     , (24514,   8, 0x0600210C) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24514,   1, 100, 0, 0) /* Strength */

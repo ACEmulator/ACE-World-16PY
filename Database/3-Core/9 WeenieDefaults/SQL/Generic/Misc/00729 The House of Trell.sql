@@ -22,7 +22,7 @@ VALUES (729,   1, 'The House of Trell') /* Name */
      , (729,  16, 'The House of Trell') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (729,   1,   33555088) /* Setup */
-     , (729,   6,   67111092) /* PaletteBase */
-     , (729,   7,  268435656) /* ClothingBase */
-     , (729,   8,  100668115) /* Icon */;
+VALUES (729,   1, 0x02000290) /* Setup */
+     , (729,   6, 0x040008B4) /* PaletteBase */
+     , (729,   7, 0x100000C8) /* ClothingBase */
+     , (729,   8, 0x060012D3) /* Icon */;

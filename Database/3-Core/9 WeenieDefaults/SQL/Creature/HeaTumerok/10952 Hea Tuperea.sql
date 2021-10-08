@@ -71,14 +71,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10952,   1, 'Hea Tuperea') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10952,   1,   33554496) /* Setup */
-     , (10952,   2,  150994954) /* MotionTable */
-     , (10952,   3,  536870931) /* SoundTable */
-     , (10952,   4,  805306380) /* CombatTable */
-     , (10952,   6,   67109314) /* PaletteBase */
-     , (10952,   7,  268436628) /* ClothingBase */
-     , (10952,   8,  100667452) /* Icon */
-     , (10952,  22,  872415270) /* PhysicsEffectTable */
+VALUES (10952,   1, 0x02000040) /* Setup */
+     , (10952,   2, 0x0900000A) /* MotionTable */
+     , (10952,   3, 0x20000013) /* SoundTable */
+     , (10952,   4, 0x3000000C) /* CombatTable */
+     , (10952,   6, 0x040001C2) /* PaletteBase */
+     , (10952,   7, 0x10000494) /* ClothingBase */
+     , (10952,   8, 0x0600103C) /* Icon */
+     , (10952,  22, 0x34000026) /* PhysicsEffectTable */
      , (10952,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

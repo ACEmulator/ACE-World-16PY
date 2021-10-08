@@ -22,7 +22,7 @@ VALUES (496,   1, 'Miranda''s Miscellaneous') /* Name */
      , (496,  16, 'Mirinda''s Miscellaneous') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (496,   1,   33555593) /* Setup */
-     , (496,   6,   67111092) /* PaletteBase */
-     , (496,   7,  268435681) /* ClothingBase */
-     , (496,   8,  100668115) /* Icon */;
+VALUES (496,   1, 0x02000489) /* Setup */
+     , (496,   6, 0x040008B4) /* PaletteBase */
+     , (496,   7, 0x100000E1) /* ClothingBase */
+     , (496,   8, 0x060012D3) /* Icon */;

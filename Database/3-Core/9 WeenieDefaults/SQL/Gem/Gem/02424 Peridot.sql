@@ -27,10 +27,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2424,   1, 'Peridot') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2424,   1,   33554809) /* Setup */
-     , (2424,   3,  536870932) /* SoundTable */
-     , (2424,   6,   67111919) /* PaletteBase */
-     , (2424,   7,  268435723) /* ClothingBase */
-     , (2424,   8,  100674751) /* Icon */
-     , (2424,  22,  872415275) /* PhysicsEffectTable */
-     , (2424,  36,  234881046) /* MutateFilter */;
+VALUES (2424,   1, 0x02000179) /* Setup */
+     , (2424,   3, 0x20000014) /* SoundTable */
+     , (2424,   6, 0x04000BEF) /* PaletteBase */
+     , (2424,   7, 0x1000010B) /* ClothingBase */
+     , (2424,   8, 0x06002CBF) /* Icon */
+     , (2424,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (2424,  36, 0x0E000016) /* MutateFilter */;

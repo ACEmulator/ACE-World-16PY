@@ -46,10 +46,10 @@ VALUES (27653,   1, 'Chorizite Veined Shield') /* Name */
      , (27653,  15, 'Chorizite has been pounded into this shield. The shield cannot received further enchantment from spells and seems to hinder the access to mana while offering better defense to magical attacks.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27653,   1,   33558741) /* Setup */
-     , (27653,   3,  536870932) /* SoundTable */
-     , (27653,   8,  100676489) /* Icon */
-     , (27653,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27653,   1, 0x020010D5) /* Setup */
+     , (27653,   3, 0x20000014) /* SoundTable */
+     , (27653,   8, 0x06003389) /* Icon */
+     , (27653,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27653,  2641,      2)  /* Force to Arms */

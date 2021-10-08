@@ -22,5 +22,5 @@ VALUES (15263,   1, 'Tia-Leh Homestead') /* Name */
      , (15263,  16, 'Welcome to Tia-Leh Homestead') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15263,   1,   33557463) /* Setup */
-     , (15263,   8,  100668115) /* Icon */;
+VALUES (15263,   1, 0x02000BD7) /* Setup */
+     , (15263,   8, 0x060012D3) /* Icon */;

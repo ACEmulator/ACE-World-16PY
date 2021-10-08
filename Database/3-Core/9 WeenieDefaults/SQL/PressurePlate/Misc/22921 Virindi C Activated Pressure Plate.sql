@@ -27,10 +27,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22921,   1, 'Virindi C Activated Pressure Plate') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22921,   1,   33555536) /* Setup */
-     , (22921,   2,  150994977) /* MotionTable */
-     , (22921,   8,  100668114) /* Icon */
-     , (22921,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22921,   1, 0x02000450) /* Setup */
+     , (22921,   2, 0x09000021) /* MotionTable */
+     , (22921,   8, 0x060012D2) /* Icon */
+     , (22921,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (22921,  16, 0x00000000) /* ActivationTarget */;

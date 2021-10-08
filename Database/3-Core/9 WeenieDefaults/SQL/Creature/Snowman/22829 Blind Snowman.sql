@@ -62,11 +62,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22829,   1, 'Blind Snowman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22829,   1,   33558158) /* Setup */
-     , (22829,   2,  150995089) /* MotionTable */
-     , (22829,   3,  536871000) /* SoundTable */
-     , (22829,   4,  805306406) /* CombatTable */
-     , (22829,   8,  100669125) /* Icon */;
+VALUES (22829,   1, 0x02000E8E) /* Setup */
+     , (22829,   2, 0x09000091) /* MotionTable */
+     , (22829,   3, 0x20000058) /* SoundTable */
+     , (22829,   4, 0x30000026) /* CombatTable */
+     , (22829,   8, 0x060016C5) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22829,   1,  25, 0, 0) /* Strength */

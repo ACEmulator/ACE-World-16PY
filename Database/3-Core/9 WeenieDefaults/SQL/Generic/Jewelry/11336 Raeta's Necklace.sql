@@ -36,13 +36,13 @@ VALUES (11336,   1, 'Raeta''s Necklace') /* Name */
      , (11336,  16, 'A beautifully carved pendant in the shape of a butterfly.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11336,   1,   33557216) /* Setup */
-     , (11336,   3,  536870932) /* SoundTable */
-     , (11336,   6,   67111919) /* PaletteBase */
-     , (11336,   7,  268435749) /* ClothingBase */
-     , (11336,   8,  100671831) /* Icon */
-     , (11336,  22,  872415275) /* PhysicsEffectTable */
-     , (11336,  36,  234881046) /* MutateFilter */;
+VALUES (11336,   1, 0x02000AE0) /* Setup */
+     , (11336,   3, 0x20000014) /* SoundTable */
+     , (11336,   6, 0x04000BEF) /* PaletteBase */
+     , (11336,   7, 0x10000125) /* ClothingBase */
+     , (11336,   8, 0x06002157) /* Icon */
+     , (11336,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11336,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11336,  2436,      2)  /* Laying on of Hands */

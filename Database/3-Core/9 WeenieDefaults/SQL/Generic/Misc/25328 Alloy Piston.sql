@@ -25,8 +25,8 @@ VALUES (25328,   1, 'Alloy Piston') /* Name */
      , (25328,  33, 'UndeadMechanismPickup14') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25328,   1,   33558439) /* Setup */
-     , (25328,   3,  536870932) /* SoundTable */
-     , (25328,   6,   67111919) /* PaletteBase */
-     , (25328,   8,  100674830) /* Icon */
-     , (25328,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25328,   1, 0x02000FA7) /* Setup */
+     , (25328,   3, 0x20000014) /* SoundTable */
+     , (25328,   6, 0x04000BEF) /* PaletteBase */
+     , (25328,   8, 0x06002D0E) /* Icon */
+     , (25328,  22, 0x3400002B) /* PhysicsEffectTable */;

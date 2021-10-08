@@ -38,9 +38,9 @@ VALUES (15893,   1, 'Bronze Spear') /* Name */
      , (15893,  33, 'SpearStatuePickUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15893,   1,   33554756) /* Setup */
-     , (15893,   3,  536870932) /* SoundTable */
-     , (15893,   6,   67111919) /* PaletteBase */
-     , (15893,   7,  268435768) /* ClothingBase */
-     , (15893,   8,  100669005) /* Icon */
-     , (15893,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15893,   1, 0x02000144) /* Setup */
+     , (15893,   3, 0x20000014) /* SoundTable */
+     , (15893,   6, 0x04000BEF) /* PaletteBase */
+     , (15893,   7, 0x10000138) /* ClothingBase */
+     , (15893,   8, 0x0600164D) /* Icon */
+     , (15893,  22, 0x3400002B) /* PhysicsEffectTable */;

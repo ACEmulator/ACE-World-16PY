@@ -64,11 +64,11 @@ VALUES (22088,   1, 'Frest Greelving') /* Name */
      , (22088,   5, 'Arcanum Functionary') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22088,   1,   33554433) /* Setup */
-     , (22088,   2,  150994945) /* MotionTable */
-     , (22088,   3,  536870913) /* SoundTable */
-     , (22088,   4,  805306368) /* CombatTable */
-     , (22088,   8,  100667446) /* Icon */;
+VALUES (22088,   1, 0x02000001) /* Setup */
+     , (22088,   2, 0x09000001) /* MotionTable */
+     , (22088,   3, 0x20000001) /* SoundTable */
+     , (22088,   4, 0x30000000) /* CombatTable */
+     , (22088,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22088,   1,  50, 0, 0) /* Strength */

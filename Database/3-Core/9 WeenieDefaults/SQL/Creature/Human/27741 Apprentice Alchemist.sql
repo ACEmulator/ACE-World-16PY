@@ -66,13 +66,13 @@ VALUES (27741,   1, 'Apprentice Alchemist') /* Name */
      , (27741,   5, 'Apprentice Alchemist') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27741,   1,   33554510) /* Setup */
-     , (27741,   2,  150994945) /* MotionTable */
-     , (27741,   3,  536870914) /* SoundTable */
-     , (27741,   4,  805306368) /* CombatTable */
-     , (27741,   6,   67108990) /* PaletteBase */
-     , (27741,   7,  268435545) /* ClothingBase */
-     , (27741,   8,  100667446) /* Icon */;
+VALUES (27741,   1, 0x0200004E) /* Setup */
+     , (27741,   2, 0x09000001) /* MotionTable */
+     , (27741,   3, 0x20000002) /* SoundTable */
+     , (27741,   4, 0x30000000) /* CombatTable */
+     , (27741,   6, 0x0400007E) /* PaletteBase */
+     , (27741,   7, 0x10000059) /* ClothingBase */
+     , (27741,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27741,   1,  80, 0, 0) /* Strength */

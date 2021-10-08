@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25804,   1, 'Armored Skeleton Lord') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25804,   1,   33558396) /* Setup */
-     , (25804,   2,  150994981) /* MotionTable */
-     , (25804,   3,  536870942) /* SoundTable */
-     , (25804,   4,  805306368) /* CombatTable */
-     , (25804,   6,   67114697) /* PaletteBase */
-     , (25804,   7,  268436644) /* ClothingBase */
-     , (25804,   8,  100669124) /* Icon */
-     , (25804,  22,  872415269) /* PhysicsEffectTable */
+VALUES (25804,   1, 0x02000F7C) /* Setup */
+     , (25804,   2, 0x09000025) /* MotionTable */
+     , (25804,   3, 0x2000001E) /* SoundTable */
+     , (25804,   4, 0x30000000) /* CombatTable */
+     , (25804,   6, 0x040016C9) /* PaletteBase */
+     , (25804,   7, 0x100004A4) /* ClothingBase */
+     , (25804,   8, 0x060016C4) /* Icon */
+     , (25804,  22, 0x34000025) /* PhysicsEffectTable */
      , (25804,  32,        199) /* WieldedTreasureType - 
                                    Wield Yumi (23733) | Probability: 6%
                                    Wield 20x Deadly Armor Piercing Arrow (15431) | Probability: 100%

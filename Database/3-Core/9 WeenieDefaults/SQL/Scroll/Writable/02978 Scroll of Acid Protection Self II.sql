@@ -25,7 +25,7 @@ VALUES (2978,   1, 'Scroll of Acid Protection Self II') /* Name */
      , (2978,  16, 'When learned, this spell reduces damage the caster takes from Acid by 20%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2978,   1,   33554826) /* Setup */
-     , (2978,   8,  100676951) /* Icon */
-     , (2978,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2978,   1, 0x0200018A) /* Setup */
+     , (2978,   8, 0x06003557) /* Icon */
+     , (2978,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2978,  28,        516) /* Spell - Acid Protection Self II */;

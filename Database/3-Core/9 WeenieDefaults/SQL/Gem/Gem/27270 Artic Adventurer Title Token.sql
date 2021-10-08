@@ -27,8 +27,8 @@ VALUES (27270,   1, 'Artic Adventurer Title Token') /* Name */
      , (27270,  15, 'An ornate Aun token given by Aun Maerirea in recognition of your hunting prowess. Return this token to him for the title - Arctic Adventurer.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27270,   1,   33557280) /* Setup */
-     , (27270,   3,  536870932) /* SoundTable */
-     , (27270,   8,  100671832) /* Icon */
-     , (27270,  22,  872415275) /* PhysicsEffectTable */
-     , (27270,  36,  234881046) /* MutateFilter */;
+VALUES (27270,   1, 0x02000B20) /* Setup */
+     , (27270,   3, 0x20000014) /* SoundTable */
+     , (27270,   8, 0x06002158) /* Icon */
+     , (27270,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27270,  36, 0x0E000016) /* MutateFilter */;

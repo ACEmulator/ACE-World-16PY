@@ -62,14 +62,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25868,   1, 'Colossal Mite') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25868,   1,   33558656) /* Setup */
-     , (25868,   2,  150995268) /* MotionTable */
-     , (25868,   3,  536871081) /* SoundTable */
-     , (25868,   4,  805306384) /* CombatTable */
-     , (25868,   6,   67115137) /* PaletteBase */
-     , (25868,   7,  268436816) /* ClothingBase */
-     , (25868,   8,  100667448) /* Icon */
-     , (25868,  22,  872415263) /* PhysicsEffectTable */
+VALUES (25868,   1, 0x02001080) /* Setup */
+     , (25868,   2, 0x09000144) /* MotionTable */
+     , (25868,   3, 0x200000A9) /* SoundTable */
+     , (25868,   4, 0x30000010) /* CombatTable */
+     , (25868,   6, 0x04001881) /* PaletteBase */
+     , (25868,   7, 0x10000550) /* ClothingBase */
+     , (25868,   8, 0x06001038) /* Icon */
+     , (25868,  22, 0x3400001F) /* PhysicsEffectTable */
      , (25868,  35,         26) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

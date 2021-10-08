@@ -27,9 +27,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13089,   1, 'Carpenter Wasp Wing') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13089,   1,   33558524) /* Setup */
-     , (13089,   3,  536870932) /* SoundTable */
-     , (13089,   6,   67109312) /* PaletteBase */
-     , (13089,   7,  268435546) /* ClothingBase */
-     , (13089,   8,  100672374) /* Icon */
-     , (13089,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (13089,   1, 0x02000FFC) /* Setup */
+     , (13089,   3, 0x20000014) /* SoundTable */
+     , (13089,   6, 0x040001C0) /* PaletteBase */
+     , (13089,   7, 0x1000005A) /* ClothingBase */
+     , (13089,   8, 0x06002376) /* Icon */
+     , (13089,  22, 0x3400002B) /* PhysicsEffectTable */;

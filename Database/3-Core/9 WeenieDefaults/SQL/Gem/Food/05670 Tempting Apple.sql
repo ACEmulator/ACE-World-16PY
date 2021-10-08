@@ -33,12 +33,12 @@ VALUES (5670,   1, 'Tempting Apple') /* Name */
      , (5670,  16, 'An apple of an uncommonly deep red, seeming to promise obscure knowledge. It would probably spoil if used in baking.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5670,   1,   33554667) /* Setup */
-     , (5670,   3,  536870932) /* SoundTable */
-     , (5670,   6,   67111919) /* PaletteBase */
-     , (5670,   8,  100667465) /* Icon */
-     , (5670,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5670,   1, 0x020000EB) /* Setup */
+     , (5670,   3, 0x20000014) /* SoundTable */
+     , (5670,   6, 0x04000BEF) /* PaletteBase */
+     , (5670,   8, 0x06001049) /* Icon */
+     , (5670,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5670,  23,         64) /* UseSound - Eat1 */
-     , (5670,  27,  318767233) /* UseUserAnimation - MimeEat */
+     , (5670,  27, 0x13000081) /* UseUserAnimation - MimeEat */
      , (5670,  28,        678) /* Spell - Arcane Enlightenment Self I */
-     , (5670,  36,  234881046) /* MutateFilter */;
+     , (5670,  36, 0x0E000016) /* MutateFilter */;

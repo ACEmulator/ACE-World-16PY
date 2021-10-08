@@ -69,11 +69,11 @@ VALUES (13223,   1, 'Woodsman') /* Name */
      , (13223,   5, 'Woodsman') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13223,   1,   33554433) /* Setup */
-     , (13223,   2,  150994945) /* MotionTable */
-     , (13223,   3,  536870913) /* SoundTable */
-     , (13223,   4,  805306368) /* CombatTable */
-     , (13223,   8,  100667446) /* Icon */;
+VALUES (13223,   1, 0x02000001) /* Setup */
+     , (13223,   2, 0x09000001) /* MotionTable */
+     , (13223,   3, 0x20000001) /* SoundTable */
+     , (13223,   4, 0x30000000) /* CombatTable */
+     , (13223,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (13223,   1, 180, 0, 0) /* Strength */

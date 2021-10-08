@@ -35,9 +35,9 @@ VALUES (11232,   1, 'Timaru Totem') /* Name */
      , (11232,  16, 'A small clay miniature of the town of Timaru. You recognize this item as a traditional Tumerok spell fetish. It can be attached to several different items, each with their own unique use. Alternately, it can be turned into the Tah of Timaru for a reward.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11232,   1,   33555677) /* Setup */
-     , (11232,   3,  536870932) /* SoundTable */
-     , (11232,   6,   67111919) /* PaletteBase */
-     , (11232,   7,  268436111) /* ClothingBase */
-     , (11232,   8,  100671984) /* Icon */
-     , (11232,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11232,   1, 0x020004DD) /* Setup */
+     , (11232,   3, 0x20000014) /* SoundTable */
+     , (11232,   6, 0x04000BEF) /* PaletteBase */
+     , (11232,   7, 0x1000028F) /* ClothingBase */
+     , (11232,   8, 0x060021F0) /* Icon */
+     , (11232,  22, 0x3400002B) /* PhysicsEffectTable */;

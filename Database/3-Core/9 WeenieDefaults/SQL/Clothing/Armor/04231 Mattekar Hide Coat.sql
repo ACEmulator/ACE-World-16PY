@@ -39,9 +39,9 @@ VALUES (4231,   1, 'Mattekar Hide Coat') /* Name */
      , (4231,  15, 'Coat crafted from the hide of a Mattekar. This item can be dyed.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4231,   1,   33554644) /* Setup */
-     , (4231,   3,  536870932) /* SoundTable */
-     , (4231,   6,   67108990) /* PaletteBase */
-     , (4231,   7,  268436499) /* ClothingBase */
-     , (4231,   8,  100667377) /* Icon */
-     , (4231,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4231,   1, 0x020000D4) /* Setup */
+     , (4231,   3, 0x20000014) /* SoundTable */
+     , (4231,   6, 0x0400007E) /* PaletteBase */
+     , (4231,   7, 0x10000413) /* ClothingBase */
+     , (4231,   8, 0x06000FF1) /* Icon */
+     , (4231,  22, 0x3400002B) /* PhysicsEffectTable */;

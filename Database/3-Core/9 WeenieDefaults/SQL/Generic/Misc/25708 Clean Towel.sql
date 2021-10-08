@@ -25,8 +25,8 @@ VALUES (25708,   1, 'Clean Towel') /* Name */
      , (25708,  15, 'A clean towel. This was given to me by Dame Brinna O''Shea. It must have a use, but for the moment, what that use is, remains a mystery.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25708,   1,   33554647) /* Setup */
-     , (25708,   3,  536870932) /* SoundTable */
-     , (25708,   6,   67111919) /* PaletteBase */
-     , (25708,   8,  100671664) /* Icon */
-     , (25708,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25708,   1, 0x020000D7) /* Setup */
+     , (25708,   3, 0x20000014) /* SoundTable */
+     , (25708,   6, 0x04000BEF) /* PaletteBase */
+     , (25708,   8, 0x060020B0) /* Icon */
+     , (25708,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -28,7 +28,7 @@ VALUES (4720,   1, 'Coleslaw') /* Name */
      , (4720,  20, 'Bowls of Coleslaw') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4720,   1,   33554668) /* Setup */
-     , (4720,   3,  536870932) /* SoundTable */
-     , (4720,   8,  100669952) /* Icon */
-     , (4720,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4720,   1, 0x020000EC) /* Setup */
+     , (4720,   3, 0x20000014) /* SoundTable */
+     , (4720,   8, 0x06001A00) /* Icon */
+     , (4720,  22, 0x3400002B) /* PhysicsEffectTable */;

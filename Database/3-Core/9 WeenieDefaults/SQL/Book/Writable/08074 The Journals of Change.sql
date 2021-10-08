@@ -22,10 +22,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8074,   1, 'The Journals of Change') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8074,   1,   33554771) /* Setup */
-     , (8074,   3,  536870932) /* SoundTable */
-     , (8074,   8,  100670970) /* Icon */
-     , (8074,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8074,   1, 0x02000153) /* Setup */
+     , (8074,   3, 0x20000014) /* SoundTable */
+     , (8074,   8, 0x06001DFA) /* Icon */
+     , (8074,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (8074, 44, 1000);

@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19273,   1, 'Bronze Statue of a Virindi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19273,   1,   33556982) /* Setup */
-     , (19273,   2,  150995192) /* MotionTable */
-     , (19273,   3,  536871052) /* SoundTable */
-     , (19273,   4,  805306381) /* CombatTable */
-     , (19273,   6,   67111346) /* PaletteBase */
-     , (19273,   7,  268435649) /* ClothingBase */
-     , (19273,   8,  100667943) /* Icon */
-     , (19273,  22,  872415273) /* PhysicsEffectTable */
+VALUES (19273,   1, 0x020009F6) /* Setup */
+     , (19273,   2, 0x090000F8) /* MotionTable */
+     , (19273,   3, 0x2000008C) /* SoundTable */
+     , (19273,   4, 0x3000000D) /* CombatTable */
+     , (19273,   6, 0x040009B2) /* PaletteBase */
+     , (19273,   7, 0x100000C1) /* ClothingBase */
+     , (19273,   8, 0x06001227) /* Icon */
+     , (19273,  22, 0x34000029) /* PhysicsEffectTable */
      , (19273,  35,        407) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -38,11 +38,11 @@ VALUES (10975,   1, 'Habitat Portal Gem') /* Name */
      , (10975,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10975,   1,   33556769) /* Setup */
-     , (10975,   3,  536870932) /* SoundTable */
-     , (10975,   6,   67111919) /* PaletteBase */
-     , (10975,   7,  268435723) /* ClothingBase */
-     , (10975,   8,  100670993) /* Icon */
-     , (10975,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10975,   1, 0x02000921) /* Setup */
+     , (10975,   3, 0x20000014) /* SoundTable */
+     , (10975,   6, 0x04000BEF) /* PaletteBase */
+     , (10975,   7, 0x1000010B) /* ClothingBase */
+     , (10975,   8, 0x06001E11) /* Icon */
+     , (10975,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10975,  28,        157) /* Spell - Summon Primary Portal I */
      , (10975,  31,      10985) /* LinkedPortalOne - Virindi Habitat Portal */;

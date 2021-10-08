@@ -23,7 +23,7 @@ VALUES (28772,   1, 'Key Template') /* Name */
      , (28772,  16, 'A template for a lovely key.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28772,   1,   33554784) /* Setup */
-     , (28772,   3,  536870932) /* SoundTable */
-     , (28772,   8,  100667485) /* Icon */
-     , (28772,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28772,   1, 0x02000160) /* Setup */
+     , (28772,   3, 0x20000014) /* SoundTable */
+     , (28772,   8, 0x0600105D) /* Icon */
+     , (28772,  22, 0x3400002B) /* PhysicsEffectTable */;

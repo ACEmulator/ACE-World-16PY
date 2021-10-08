@@ -24,7 +24,7 @@ VALUES (22874,   1, 'Log Chair') /* Name */
      , (22874,  15, 'A chair roughly cut from a log.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22874,   1,   33558142) /* Setup */
-     , (22874,   3,  536870932) /* SoundTable */
-     , (22874,   8,  100673880) /* Icon */
-     , (22874,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22874,   1, 0x02000E7E) /* Setup */
+     , (22874,   3, 0x20000014) /* SoundTable */
+     , (22874,   8, 0x06002958) /* Icon */
+     , (22874,  22, 0x3400002B) /* PhysicsEffectTable */;

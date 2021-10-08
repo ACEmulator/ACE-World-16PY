@@ -40,13 +40,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23720,   1, 'Fire Yaoji') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23720,   1,   33555818) /* Setup */
-     , (23720,   3,  536870932) /* SoundTable */
-     , (23720,   6,   67111919) /* PaletteBase */
-     , (23720,   7,  268435775) /* ClothingBase */
-     , (23720,   8,  100669075) /* Icon */
-     , (23720,  22,  872415275) /* PhysicsEffectTable */
-     , (23720,  36,  234881044) /* MutateFilter */;
+VALUES (23720,   1, 0x0200056A) /* Setup */
+     , (23720,   3, 0x20000014) /* SoundTable */
+     , (23720,   6, 0x04000BEF) /* PaletteBase */
+     , (23720,   7, 0x1000013F) /* ClothingBase */
+     , (23720,   8, 0x06001693) /* Icon */
+     , (23720,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (23720,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23720,  1614,      2)  /* Aura of Blood Drinker Self IV */

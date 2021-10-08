@@ -26,5 +26,5 @@ VALUES (19253,   1, 'Bronze Spring from a Statue') /* Name */
      , (19253,  33, 'SpringSclavus') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19253,   1,   33557682) /* Setup */
-     , (19253,   8,  100672957) /* Icon */;
+VALUES (19253,   1, 0x02000CB2) /* Setup */
+     , (19253,   8, 0x060025BD) /* Icon */;

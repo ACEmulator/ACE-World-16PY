@@ -37,5 +37,5 @@ VALUES (20018,   1, 'Scuttling Grievver Pit Hotspot') /* Name */
      , (20018,  17, 'Scuttling Grievvers bite you for %i points of piercing damage!') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20018,   1,   33556024) /* Setup */
-     , (20018,   8,  100667465) /* Icon */;
+VALUES (20018,   1, 0x02000638) /* Setup */
+     , (20018,   8, 0x06001049) /* Icon */;

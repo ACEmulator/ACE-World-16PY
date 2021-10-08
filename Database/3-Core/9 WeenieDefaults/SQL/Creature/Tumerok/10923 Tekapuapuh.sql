@@ -65,13 +65,13 @@ VALUES (10923,   1, 'Tekapuapuh') /* Name */
      , (10923,   5, 'Buhka') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10923,   1,   33557117) /* Setup */
-     , (10923,   2,  150994954) /* MotionTable */
-     , (10923,   3,  536870931) /* SoundTable */
-     , (10923,   4,  805306380) /* CombatTable */
-     , (10923,   6,   67113280) /* PaletteBase */
-     , (10923,   7,  268436597) /* ClothingBase */
-     , (10923,   8,  100671756) /* Icon */;
+VALUES (10923,   1, 0x02000A7D) /* Setup */
+     , (10923,   2, 0x0900000A) /* MotionTable */
+     , (10923,   3, 0x20000013) /* SoundTable */
+     , (10923,   4, 0x3000000C) /* CombatTable */
+     , (10923,   6, 0x04001140) /* PaletteBase */
+     , (10923,   7, 0x10000475) /* ClothingBase */
+     , (10923,   8, 0x0600210C) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10923,   1,  80, 0, 0) /* Strength */

@@ -63,12 +63,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11522,   1, 'Hea Shaman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11522,   1,   33554496) /* Setup */
-     , (11522,   2,  150994954) /* MotionTable */
-     , (11522,   3,  536870931) /* SoundTable */
-     , (11522,   4,  805306380) /* CombatTable */
-     , (11522,   8,  100667452) /* Icon */
-     , (11522,  22,  872415270) /* PhysicsEffectTable */
+VALUES (11522,   1, 0x02000040) /* Setup */
+     , (11522,   2, 0x0900000A) /* MotionTable */
+     , (11522,   3, 0x20000013) /* SoundTable */
+     , (11522,   4, 0x3000000C) /* CombatTable */
+     , (11522,   8, 0x0600103C) /* Icon */
+     , (11522,  22, 0x34000026) /* PhysicsEffectTable */
      , (11522,  32,        203) /* WieldedTreasureType - 
                                    Wield Yumi (23734) | Probability: 20%
                                    Wield 20x Deadly Arrow (15429) | Probability: 100%

@@ -27,9 +27,9 @@ VALUES (29598,   1, 'Water Skin (5 pints)') /* Name */
      , (29598,  16, 'A water skin filled with 5 pints of blood.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29598,   1,   33554799) /* Setup */
-     , (29598,   3,  536870932) /* SoundTable */
-     , (29598,   6,   67111919) /* PaletteBase */
-     , (29598,   8,  100668541) /* Icon */
-     , (29598,  22,  872415275) /* PhysicsEffectTable */
-     , (29598,  36,  234881046) /* MutateFilter */;
+VALUES (29598,   1, 0x0200016F) /* Setup */
+     , (29598,   3, 0x20000014) /* SoundTable */
+     , (29598,   6, 0x04000BEF) /* PaletteBase */
+     , (29598,   8, 0x0600147D) /* Icon */
+     , (29598,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29598,  36, 0x0E000016) /* MutateFilter */;

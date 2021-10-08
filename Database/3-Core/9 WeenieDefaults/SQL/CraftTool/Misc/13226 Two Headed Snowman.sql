@@ -34,5 +34,5 @@ VALUES (13226,   1, 'Two Headed Snowman') /* Name */
      , (13226,  16, 'A monstrous snowman. It''s very disturbing and the neighbors don''t like it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13226,   1,   33557451) /* Setup */
-     , (13226,   8,  100672435) /* Icon */;
+VALUES (13226,   1, 0x02000BCB) /* Setup */
+     , (13226,   8, 0x060023B3) /* Icon */;

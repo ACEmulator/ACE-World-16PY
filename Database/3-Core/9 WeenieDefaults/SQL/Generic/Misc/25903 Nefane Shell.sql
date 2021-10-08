@@ -25,9 +25,9 @@ VALUES (25903,   1, 'Nefane Shell') /* Name */
      , (25903,  16, 'The shell of a twisted Nefane. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25903,   1,   33554817) /* Setup */
-     , (25903,   3,  536870932) /* SoundTable */
-     , (25903,   6,   67111919) /* PaletteBase */
-     , (25903,   7,  268435832) /* ClothingBase */
-     , (25903,   8,  100675633) /* Icon */
-     , (25903,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25903,   1, 0x02000181) /* Setup */
+     , (25903,   3, 0x20000014) /* SoundTable */
+     , (25903,   6, 0x04000BEF) /* PaletteBase */
+     , (25903,   7, 0x10000178) /* ClothingBase */
+     , (25903,   8, 0x06003031) /* Icon */
+     , (25903,  22, 0x3400002B) /* PhysicsEffectTable */;

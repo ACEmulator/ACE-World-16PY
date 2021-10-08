@@ -48,11 +48,11 @@ VALUES (28215,   1, 'Brass Knuckles') /* Name */
      , (28215,  15, 'A cestus crafted from the tooth of a brass gromnie.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28215,   1,   33558830) /* Setup */
-     , (28215,   3,  536870932) /* SoundTable */
-     , (28215,   8,  100676801) /* Icon */
-     , (28215,  22,  872415275) /* PhysicsEffectTable */
-     , (28215,  36,  234881044) /* MutateFilter */;
+VALUES (28215,   1, 0x0200112E) /* Setup */
+     , (28215,   3, 0x20000014) /* SoundTable */
+     , (28215,   8, 0x060034C1) /* Icon */
+     , (28215,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (28215,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28215,  1604,      2)  /* Aura of Defender Self V */

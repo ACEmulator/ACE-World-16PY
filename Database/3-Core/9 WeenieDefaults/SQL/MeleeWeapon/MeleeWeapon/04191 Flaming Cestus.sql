@@ -38,11 +38,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4191,   1, 'Flaming Cestus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4191,   1,   33555993) /* Setup */
-     , (4191,   3,  536870932) /* SoundTable */
-     , (4191,   6,   67111919) /* PaletteBase */
-     , (4191,   7,  268435829) /* ClothingBase */
-     , (4191,   8,  100670016) /* Icon */
-     , (4191,  22,  872415275) /* PhysicsEffectTable */
-     , (4191,  36,  234881053) /* MutateFilter */
-     , (4191,  46,  939524102) /* TsysMutationFilter */;
+VALUES (4191,   1, 0x02000619) /* Setup */
+     , (4191,   3, 0x20000014) /* SoundTable */
+     , (4191,   6, 0x04000BEF) /* PaletteBase */
+     , (4191,   7, 0x10000175) /* ClothingBase */
+     , (4191,   8, 0x06001A40) /* Icon */
+     , (4191,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (4191,  36, 0x0E00001D) /* MutateFilter */
+     , (4191,  46, 0x38000006) /* TsysMutationFilter */;

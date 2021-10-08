@@ -47,10 +47,10 @@ VALUES (21961,   1, 'Hollow Bow') /* Name */
      , (21961,  16, 'A bow crafted from high-quality chorizite, seemingly impervious to magical protections. (Note: This weapon is unenchantable and ignores modified armor and protection values.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21961,   1,   33558059) /* Setup */
-     , (21961,   3,  536870932) /* SoundTable */
-     , (21961,   6,   67111919) /* PaletteBase */
-     , (21961,   7,  268435759) /* ClothingBase */
-     , (21961,   8,  100668815) /* Icon */
-     , (21961,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21961,   1, 0x02000E2B) /* Setup */
+     , (21961,   3, 0x20000014) /* SoundTable */
+     , (21961,   6, 0x04000BEF) /* PaletteBase */
+     , (21961,   7, 0x1000012F) /* ClothingBase */
+     , (21961,   8, 0x0600158F) /* Icon */
+     , (21961,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21961,  30,         88) /* PhysicsScript - Create */;

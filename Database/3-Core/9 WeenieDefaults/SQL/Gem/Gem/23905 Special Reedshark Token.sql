@@ -31,9 +31,9 @@ VALUES (23905,   1, 'Special Reedshark Token') /* Name */
      , (23905,  16, 'A token with a Reedshark head on it.  This was given to you in recognition of your patience. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23905,   1,   33557280) /* Setup */
-     , (23905,   3,  536870932) /* SoundTable */
-     , (23905,   6,   67111919) /* PaletteBase */
-     , (23905,   7,  268435723) /* ClothingBase */
-     , (23905,   8,  100674078) /* Icon */
-     , (23905,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23905,   1, 0x02000B20) /* Setup */
+     , (23905,   3, 0x20000014) /* SoundTable */
+     , (23905,   6, 0x04000BEF) /* PaletteBase */
+     , (23905,   7, 0x1000010B) /* ClothingBase */
+     , (23905,   8, 0x06002A1E) /* Icon */
+     , (23905,  22, 0x3400002B) /* PhysicsEffectTable */;

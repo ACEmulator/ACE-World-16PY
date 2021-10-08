@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7336,   1, 'Augmented Drudge') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7336,   1,   33556445) /* Setup */
-     , (7336,   2,  150994952) /* MotionTable */
-     , (7336,   3,  536870919) /* SoundTable */
-     , (7336,   4,  805306372) /* CombatTable */
-     , (7336,   6,   67112812) /* PaletteBase */
-     , (7336,   7,  268435977) /* ClothingBase */
-     , (7336,   8,  100667445) /* Icon */
-     , (7336,  22,  872415258) /* PhysicsEffectTable */
+VALUES (7336,   1, 0x020007DD) /* Setup */
+     , (7336,   2, 0x09000008) /* MotionTable */
+     , (7336,   3, 0x20000007) /* SoundTable */
+     , (7336,   4, 0x30000004) /* CombatTable */
+     , (7336,   6, 0x04000F6C) /* PaletteBase */
+     , (7336,   7, 0x10000209) /* ClothingBase */
+     , (7336,   8, 0x06001035) /* Icon */
+     , (7336,  22, 0x3400001A) /* PhysicsEffectTable */
      , (7336,  32,        298) /* WieldedTreasureType - 
                                    Wield 15x Flaming Javelin (7311) | Probability: 100% */
      , (7336,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;

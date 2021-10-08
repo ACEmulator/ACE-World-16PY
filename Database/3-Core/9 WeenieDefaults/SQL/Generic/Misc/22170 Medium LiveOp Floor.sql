@@ -20,5 +20,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22170,   1, 'Medium LiveOp Floor') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22170,   1,   33557549) /* Setup */
-     , (22170,   8,  100667940) /* Icon */;
+VALUES (22170,   1, 0x02000C2D) /* Setup */
+     , (22170,   8, 0x06001224) /* Icon */;

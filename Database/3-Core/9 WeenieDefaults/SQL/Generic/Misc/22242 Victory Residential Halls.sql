@@ -22,5 +22,5 @@ VALUES (22242,   1, 'Victory Residential Halls') /* Name */
      , (22242,  16, 'Victory Residential Halls') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22242,   1,   33558056) /* Setup */
-     , (22242,   8,  100667499) /* Icon */;
+VALUES (22242,   1, 0x02000E28) /* Setup */
+     , (22242,   8, 0x0600106B) /* Icon */;

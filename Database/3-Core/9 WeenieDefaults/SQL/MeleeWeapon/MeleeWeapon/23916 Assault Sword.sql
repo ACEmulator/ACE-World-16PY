@@ -51,12 +51,12 @@ VALUES (23916,   1, 'Assault Sword') /* Name */
      , (23916,  16, 'A reward for defeating the leaders of the Serpent Clan.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23916,   1,   33558209) /* Setup */
-     , (23916,   3,  536870932) /* SoundTable */
-     , (23916,   6,   67111919) /* PaletteBase */
-     , (23916,   7,  268436199) /* ClothingBase */
-     , (23916,   8,  100671749) /* Icon */
-     , (23916,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23916,   1, 0x02000EC1) /* Setup */
+     , (23916,   3, 0x20000014) /* SoundTable */
+     , (23916,   6, 0x04000BEF) /* PaletteBase */
+     , (23916,   7, 0x100002E7) /* ClothingBase */
+     , (23916,   8, 0x06002105) /* Icon */
+     , (23916,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23916,  30,         88) /* PhysicsScript - Create */
      , (23916,  37,         11) /* ItemSkillLimit - Sword */;
 

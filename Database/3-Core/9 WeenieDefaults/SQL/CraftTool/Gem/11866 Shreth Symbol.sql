@@ -31,7 +31,7 @@ VALUES (11866,   1, 'Shreth Symbol') /* Name */
      , (11866,  16, 'A Shreth Symbol.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11866,   1,   33557248) /* Setup */
-     , (11866,   3,  536870932) /* SoundTable */
-     , (11866,   8,  100671969) /* Icon */
-     , (11866,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11866,   1, 0x02000B00) /* Setup */
+     , (11866,   3, 0x20000014) /* SoundTable */
+     , (11866,   8, 0x060021E1) /* Icon */
+     , (11866,  22, 0x3400002B) /* PhysicsEffectTable */;

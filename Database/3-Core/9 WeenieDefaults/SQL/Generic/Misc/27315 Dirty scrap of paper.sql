@@ -27,7 +27,7 @@ VALUES (27315,   1, 'Dirty scrap of paper') /* Name */
      , (27315,  15, 'This scrap of paper was found on a deceased Sycophant.  You are unable to decipher any of the strange symbols sketched on it.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27315,   1,   33554773) /* Setup */
-     , (27315,   3,  536870932) /* SoundTable */
-     , (27315,   8,  100674328) /* Icon */
-     , (27315,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27315,   1, 0x02000155) /* Setup */
+     , (27315,   3, 0x20000014) /* SoundTable */
+     , (27315,   8, 0x06002B18) /* Icon */
+     , (27315,  22, 0x3400002B) /* PhysicsEffectTable */;

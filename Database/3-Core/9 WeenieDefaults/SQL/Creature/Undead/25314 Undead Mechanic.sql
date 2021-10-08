@@ -63,13 +63,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25314,   1, 'Undead Mechanic') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25314,   1,   33554839) /* Setup */
-     , (25314,   2,  150994967) /* MotionTable */
-     , (25314,   3,  536870934) /* SoundTable */
-     , (25314,   4,  805306368) /* CombatTable */
-     , (25314,   6,   67110722) /* PaletteBase */
-     , (25314,   7,  268435558) /* ClothingBase */
-     , (25314,   8,  100667942) /* Icon */;
+VALUES (25314,   1, 0x02000197) /* Setup */
+     , (25314,   2, 0x09000017) /* MotionTable */
+     , (25314,   3, 0x20000016) /* SoundTable */
+     , (25314,   4, 0x30000000) /* CombatTable */
+     , (25314,   6, 0x04000742) /* PaletteBase */
+     , (25314,   7, 0x10000066) /* ClothingBase */
+     , (25314,   8, 0x06001226) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25314,   1, 200, 0, 0) /* Strength */

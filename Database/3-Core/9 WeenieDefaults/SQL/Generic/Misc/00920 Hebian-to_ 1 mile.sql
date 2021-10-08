@@ -22,5 +22,5 @@ VALUES (920,   1, 'Hebian-to: 1 mile') /* Name */
      , (920,  16, 'City of Hebian-to: 1 mile.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (920,   1,   33555986) /* Setup */
-     , (920,   8,  100668115) /* Icon */;
+VALUES (920,   1, 0x02000612) /* Setup */
+     , (920,   8, 0x060012D3) /* Icon */;

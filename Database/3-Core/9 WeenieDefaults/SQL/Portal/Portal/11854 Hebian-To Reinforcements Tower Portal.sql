@@ -25,9 +25,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11854,   1, 'Hebian-To Reinforcements Tower Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11854,   1,   33555926) /* Setup */
-     , (11854,   2,  150994947) /* MotionTable */
-     , (11854,   8,  100667499) /* Icon */;
+VALUES (11854,   1, 0x020005D6) /* Setup */
+     , (11854,   2, 0x09000003) /* MotionTable */
+     , (11854,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11854, 2, 0xD8470101, 156.8, 63.1, 163, -0.087156, 0, -0, -0.996195) /* Destination */

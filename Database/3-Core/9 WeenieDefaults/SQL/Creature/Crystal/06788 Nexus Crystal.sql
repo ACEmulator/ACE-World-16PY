@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6788,   1, 'Nexus Crystal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6788,   1,   33556224) /* Setup */
-     , (6788,   2,  150995095) /* MotionTable */
-     , (6788,   3,  536871001) /* SoundTable */
-     , (6788,   4,  805306407) /* CombatTable */
-     , (6788,   6,   67111919) /* PaletteBase */
-     , (6788,   7,  268435859) /* ClothingBase */
-     , (6788,   8,  100670283) /* Icon */
-     , (6788,  22,  872415347) /* PhysicsEffectTable */
+VALUES (6788,   1, 0x02000700) /* Setup */
+     , (6788,   2, 0x09000097) /* MotionTable */
+     , (6788,   3, 0x20000059) /* SoundTable */
+     , (6788,   4, 0x30000027) /* CombatTable */
+     , (6788,   6, 0x04000BEF) /* PaletteBase */
+     , (6788,   7, 0x10000193) /* ClothingBase */
+     , (6788,   8, 0x06001B4B) /* Icon */
+     , (6788,  22, 0x34000073) /* PhysicsEffectTable */
      , (6788,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -38,9 +38,9 @@ VALUES (11464,   1, 'Okane') /* Name */
      , (11464,  16, 'A beautifully carved dagger. Fuse this with a triple totem to create one of Palenqual''s living weapons.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11464,   1,   33557234) /* Setup */
-     , (11464,   3,  536870932) /* SoundTable */
-     , (11464,   6,   67113336) /* PaletteBase */
-     , (11464,   7,  268436252) /* ClothingBase */
-     , (11464,   8,  100672077) /* Icon */
-     , (11464,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11464,   1, 0x02000AF2) /* Setup */
+     , (11464,   3, 0x20000014) /* SoundTable */
+     , (11464,   6, 0x04001178) /* PaletteBase */
+     , (11464,   7, 0x1000031C) /* ClothingBase */
+     , (11464,   8, 0x0600224D) /* Icon */
+     , (11464,  22, 0x3400002B) /* PhysicsEffectTable */;

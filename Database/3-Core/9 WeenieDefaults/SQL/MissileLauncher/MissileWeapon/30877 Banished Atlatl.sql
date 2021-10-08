@@ -43,10 +43,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30877,   1, 'Banished Atlatl') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30877,   1,   33559261) /* Setup */
-     , (30877,   3,  536870932) /* SoundTable */
-     , (30877,   8,  100677478) /* Icon */
-     , (30877,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30877,   1, 0x020012DD) /* Setup */
+     , (30877,   3, 0x20000014) /* SoundTable */
+     , (30877,   8, 0x06003766) /* Icon */
+     , (30877,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30877,  2567,      2)  /* Minor Missile Weapon Aptitude */

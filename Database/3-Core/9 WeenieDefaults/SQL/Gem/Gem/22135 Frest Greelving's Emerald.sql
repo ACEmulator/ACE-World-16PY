@@ -29,10 +29,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22135,   1, 'Frest Greelving''s Emerald') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22135,   1,   33554809) /* Setup */
-     , (22135,   3,  536870932) /* SoundTable */
-     , (22135,   6,   67111919) /* PaletteBase */
-     , (22135,   7,  268435723) /* ClothingBase */
-     , (22135,   8,  100668362) /* Icon */
-     , (22135,  22,  872415275) /* PhysicsEffectTable */
-     , (22135,  36,  234881046) /* MutateFilter */;
+VALUES (22135,   1, 0x02000179) /* Setup */
+     , (22135,   3, 0x20000014) /* SoundTable */
+     , (22135,   6, 0x04000BEF) /* PaletteBase */
+     , (22135,   7, 0x1000010B) /* ClothingBase */
+     , (22135,   8, 0x060013CA) /* Icon */
+     , (22135,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (22135,  36, 0x0E000016) /* MutateFilter */;

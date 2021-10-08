@@ -28,9 +28,9 @@ VALUES (12710,   1, 'Bellows') /* Name */
      , (12710,  33, 'BellowsNewbiePickedUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12710,   1,   33554600) /* Setup */
-     , (12710,   3,  536870932) /* SoundTable */
-     , (12710,   6,   67111092) /* PaletteBase */
-     , (12710,   7,  268436302) /* ClothingBase */
-     , (12710,   8,  100672367) /* Icon */
-     , (12710,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12710,   1, 0x020000A8) /* Setup */
+     , (12710,   3, 0x20000014) /* SoundTable */
+     , (12710,   6, 0x040008B4) /* PaletteBase */
+     , (12710,   7, 0x1000034E) /* ClothingBase */
+     , (12710,   8, 0x0600236F) /* Icon */
+     , (12710,  22, 0x3400002B) /* PhysicsEffectTable */;

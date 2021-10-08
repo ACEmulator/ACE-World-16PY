@@ -25,7 +25,7 @@ VALUES (1898,   1, 'Scroll of Weaken Lock') /* Name */
      , (1898,  16, 'When learned, this spell decreases a lock''s resistance to picking by 10 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1898,   1,   33554826) /* Setup */
-     , (1898,   8,  100676678) /* Icon */
-     , (1898,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1898,   1, 0x0200018A) /* Setup */
+     , (1898,   8, 0x06003446) /* Icon */
+     , (1898,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1898,  28,       1581) /* Spell - Weaken Lock I */;

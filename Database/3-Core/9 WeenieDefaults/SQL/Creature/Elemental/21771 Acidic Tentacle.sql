@@ -69,14 +69,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21771,   1, 'Acidic Tentacle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21771,   1,   33555670) /* Setup */
-     , (21771,   2,  150995220) /* MotionTable */
-     , (21771,   3,  536871015) /* SoundTable */
-     , (21771,   4,  805306404) /* CombatTable */
-     , (21771,   6,   67112864) /* PaletteBase */
-     , (21771,   7,  268436467) /* ClothingBase */
-     , (21771,   8,  100673483) /* Icon */
-     , (21771,  22,  872415332) /* PhysicsEffectTable */;
+VALUES (21771,   1, 0x020004D6) /* Setup */
+     , (21771,   2, 0x09000114) /* MotionTable */
+     , (21771,   3, 0x20000067) /* SoundTable */
+     , (21771,   4, 0x30000024) /* CombatTable */
+     , (21771,   6, 0x04000FA0) /* PaletteBase */
+     , (21771,   7, 0x100003F3) /* ClothingBase */
+     , (21771,   8, 0x060027CB) /* Icon */
+     , (21771,  22, 0x34000064) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (21771,   1,   1, 0, 0) /* Strength */

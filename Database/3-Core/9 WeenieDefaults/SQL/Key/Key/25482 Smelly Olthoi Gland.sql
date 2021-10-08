@@ -29,9 +29,9 @@ VALUES (25482,   1, 'Smelly Olthoi Gland') /* Name */
      , (25482,  16, 'A smelly, slimy olthoi gland.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25482,   1,   33556232) /* Setup */
-     , (25482,   3,  536870932) /* SoundTable */
-     , (25482,   6,   67111928) /* PaletteBase */
-     , (25482,   7,  268436029) /* ClothingBase */
-     , (25482,   8,  100674711) /* Icon */
-     , (25482,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25482,   1, 0x02000708) /* Setup */
+     , (25482,   3, 0x20000014) /* SoundTable */
+     , (25482,   6, 0x04000BF8) /* PaletteBase */
+     , (25482,   7, 0x1000023D) /* ClothingBase */
+     , (25482,   8, 0x06002C97) /* Icon */
+     , (25482,  22, 0x3400002B) /* PhysicsEffectTable */;

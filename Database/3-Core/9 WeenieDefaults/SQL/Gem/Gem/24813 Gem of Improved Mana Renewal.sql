@@ -35,11 +35,11 @@ VALUES (24813,   1, 'Gem of Improved Mana Renewal') /* Name */
      , (24813,  20, 'Gems of Improved Mana Renewal') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24813,   1,   33554809) /* Setup */
-     , (24813,   3,  536870932) /* SoundTable */
-     , (24813,   6,   67111919) /* PaletteBase */
-     , (24813,   7,  268435723) /* ClothingBase */
-     , (24813,   8,  100674423) /* Icon */
-     , (24813,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24813,   1, 0x02000179) /* Setup */
+     , (24813,   3, 0x20000014) /* SoundTable */
+     , (24813,   6, 0x04000BEF) /* PaletteBase */
+     , (24813,   7, 0x1000010B) /* ClothingBase */
+     , (24813,   8, 0x06002B77) /* Icon */
+     , (24813,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24813,  28,        210) /* Spell - Mana Renewal Other V */
-     , (24813,  36,  234881046) /* MutateFilter */;
+     , (24813,  36, 0x0E000016) /* MutateFilter */;

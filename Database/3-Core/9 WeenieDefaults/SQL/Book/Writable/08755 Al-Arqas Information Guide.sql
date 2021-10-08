@@ -23,10 +23,10 @@ VALUES (8755,   1, 'Al-Arqas Information Guide') /* Name */
      , (8755,  15, 'A book listing the portals around Al-Arqas leading to other towns and where the Al-Arqas stamp can be found.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8755,   1,   33554771) /* Setup */
-     , (8755,   3,  536870932) /* SoundTable */
-     , (8755,   8,  100668117) /* Icon */
-     , (8755,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8755,   1, 0x02000153) /* Setup */
+     , (8755,   3, 0x20000014) /* SoundTable */
+     , (8755,   8, 0x060012D5) /* Icon */
+     , (8755,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (8755, 1, 1000);

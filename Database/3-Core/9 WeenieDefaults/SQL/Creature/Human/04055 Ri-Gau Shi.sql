@@ -63,11 +63,11 @@ VALUES (4055,   1, 'Ri-Gau Shi') /* Name */
      , (4055,   5, 'Sage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4055,   1,   33554433) /* Setup */
-     , (4055,   2,  150994945) /* MotionTable */
-     , (4055,   3,  536870913) /* SoundTable */
-     , (4055,   4,  805306368) /* CombatTable */
-     , (4055,   8,  100667446) /* Icon */
+VALUES (4055,   1, 0x02000001) /* Setup */
+     , (4055,   2, 0x09000001) /* MotionTable */
+     , (4055,   3, 0x20000001) /* SoundTable */
+     , (4055,   4, 0x30000000) /* CombatTable */
+     , (4055,   8, 0x06001036) /* Icon */
      , (4055,  31,       4053) /* LinkedPortalOne - Mines of Despair */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

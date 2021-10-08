@@ -26,7 +26,7 @@ VALUES (4894,   1, 'Key from Aleval') /* Name */
      , (4894,  16, 'A brass key with the words "To Lost Distillery" engraved on the side. Upon closer examination you notice a distinctive seal on the other side.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4894,   1,   33554784) /* Setup */
-     , (4894,   3,  536870932) /* SoundTable */
-     , (4894,   8,  100668439) /* Icon */
-     , (4894,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4894,   1, 0x02000160) /* Setup */
+     , (4894,   3, 0x20000014) /* SoundTable */
+     , (4894,   8, 0x06001417) /* Icon */
+     , (4894,  22, 0x3400002B) /* PhysicsEffectTable */;

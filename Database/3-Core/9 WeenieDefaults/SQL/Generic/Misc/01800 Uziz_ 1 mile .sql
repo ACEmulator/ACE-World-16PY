@@ -22,5 +22,5 @@ VALUES (1800,   1, 'Uziz: 1 mile ') /* Name */
      , (1800,  16, 'Town of Uziz: 1 mile.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1800,   1,   33555985) /* Setup */
-     , (1800,   8,  100668115) /* Icon */;
+VALUES (1800,   1, 0x02000611) /* Setup */
+     , (1800,   8, 0x060012D3) /* Icon */;

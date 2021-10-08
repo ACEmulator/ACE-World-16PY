@@ -35,10 +35,10 @@ VALUES (9491,   1, 'Staff of Clarity') /* Name */
      , (9491,  15, 'When you must strike, do not leave room for a return blow. [Note: You must have Mana Conversion specialized to use the magic on this item, in addition to the other requirements]') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9491,   1,   33557010) /* Setup */
-     , (9491,   8,  100671492) /* Icon */
-     , (9491,  22,  872415275) /* PhysicsEffectTable */
-     , (9491,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (9491,   1, 0x02000A12) /* Setup */
+     , (9491,   8, 0x06002004) /* Icon */
+     , (9491,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (9491,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (9491,  37,         16) /* ItemSkillLimit - ManaConversion */
      , (9491,  41,         16) /* ItemSpecializedOnly - ManaConversion */;
 

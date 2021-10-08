@@ -24,7 +24,7 @@ VALUES (30829,   1, 'A Patch of Balor''s Fur') /* Name */
      , (30829,  33, 'InfiltrationBalorFurAcquired0205') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30829,   1,   33554769) /* Setup */
-     , (30829,   3,  536870932) /* SoundTable */
-     , (30829,   8,  100677464) /* Icon */
-     , (30829,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30829,   1, 0x02000151) /* Setup */
+     , (30829,   3, 0x20000014) /* SoundTable */
+     , (30829,   8, 0x06003758) /* Icon */
+     , (30829,  22, 0x3400002B) /* PhysicsEffectTable */;

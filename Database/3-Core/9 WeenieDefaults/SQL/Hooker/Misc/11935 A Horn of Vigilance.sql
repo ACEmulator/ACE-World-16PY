@@ -28,9 +28,9 @@ VALUES (11935,   1, 'A Horn of Vigilance') /* Name */
      , (11935,  16, 'A Horn of Vigilance! Another fine product from Telk the Addlepated. This item can be used on a floor hook.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11935,   1,   33557153) /* Setup */
-     , (11935,   3,  536871077) /* SoundTable */
-     , (11935,   8,  100671780) /* Icon */;
+VALUES (11935,   1, 0x02000AA1) /* Setup */
+     , (11935,   3, 0x200000A5) /* SoundTable */
+     , (11935,   8, 0x06002124) /* Icon */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (11935,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

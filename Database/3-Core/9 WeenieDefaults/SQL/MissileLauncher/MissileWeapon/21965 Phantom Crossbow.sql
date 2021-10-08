@@ -50,10 +50,10 @@ VALUES (21965,   1, 'Phantom Crossbow') /* Name */
      , (21965,  16, 'A crossbow with a ghostly hue crafted from pure chorizite, resitant to any enchantment.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21965,   1,   33554732) /* Setup */
-     , (21965,   3,  536870932) /* SoundTable */
-     , (21965,   6,   67111919) /* PaletteBase */
-     , (21965,   7,  268435762) /* ClothingBase */
-     , (21965,   8,  100668835) /* Icon */
-     , (21965,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21965,   1, 0x0200012C) /* Setup */
+     , (21965,   3, 0x20000014) /* SoundTable */
+     , (21965,   6, 0x04000BEF) /* PaletteBase */
+     , (21965,   7, 0x10000132) /* ClothingBase */
+     , (21965,   8, 0x060015A3) /* Icon */
+     , (21965,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21965,  30,         88) /* PhysicsScript - Create */;

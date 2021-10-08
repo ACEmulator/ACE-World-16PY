@@ -34,10 +34,10 @@ VALUES (30642,   1, 'Banderling Idol') /* Name */
      , (30642,  17, 'A cacophony of voices can be heard growing ever louder until the noise threatens to deafen you.') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30642,   1,   33559205) /* Setup */
-     , (30642,   3,  536870932) /* SoundTable */
-     , (30642,   8,  100677385) /* Icon */
-     , (30642,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30642,   1, 0x020012A5) /* Setup */
+     , (30642,   3, 0x20000014) /* SoundTable */
+     , (30642,   8, 0x06003709) /* Icon */
+     , (30642,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (30642,  16, 0x00000000) /* ActivationTarget */;

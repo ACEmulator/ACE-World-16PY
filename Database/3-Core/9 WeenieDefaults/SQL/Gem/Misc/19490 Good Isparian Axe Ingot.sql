@@ -31,9 +31,9 @@ VALUES (19490,   1, 'Good Isparian Axe Ingot') /* Name */
      , (19490,  16, 'An diamond infused ingot, enhanced and stamped with an axe glyph.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19490,   1,   33555677) /* Setup */
-     , (19490,   3,  536870932) /* SoundTable */
-     , (19490,   6,   67111919) /* PaletteBase */
-     , (19490,   7,  268435723) /* ClothingBase */
-     , (19490,   8,  100672971) /* Icon */
-     , (19490,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19490,   1, 0x020004DD) /* Setup */
+     , (19490,   3, 0x20000014) /* SoundTable */
+     , (19490,   6, 0x04000BEF) /* PaletteBase */
+     , (19490,   7, 0x1000010B) /* ClothingBase */
+     , (19490,   8, 0x060025CB) /* Icon */
+     , (19490,  22, 0x3400002B) /* PhysicsEffectTable */;

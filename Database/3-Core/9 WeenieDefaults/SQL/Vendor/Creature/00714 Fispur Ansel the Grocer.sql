@@ -70,11 +70,11 @@ VALUES (714,   1, 'Fispur Ansel the Grocer') /* Name */
      , (714,  24, 'Holtburg') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (714,   1,   33554433) /* Setup */
-     , (714,   2,  150994945) /* MotionTable */
-     , (714,   3,  536870913) /* SoundTable */
-     , (714,   4,  805306368) /* CombatTable */
-     , (714,   8,  100667446) /* Icon */;
+VALUES (714,   1, 0x02000001) /* Setup */
+     , (714,   2, 0x09000001) /* MotionTable */
+     , (714,   3, 0x20000001) /* SoundTable */
+     , (714,   4, 0x30000000) /* CombatTable */
+     , (714,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (714,   1,  20, 0, 0) /* Strength */

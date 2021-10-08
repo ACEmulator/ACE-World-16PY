@@ -25,10 +25,10 @@ VALUES (9197,   1, 'Orb of Clarity') /* Name */
      , (9197,  16, 'A soft light that seems to emit a silent message in the back of your mind.  Staring at it gives you a sense of peace, and you feel your hand begin to stroke the orb''s surface.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9197,   1,   33556994) /* Setup */
-     , (9197,   3,  536870932) /* SoundTable */
-     , (9197,   8,  100671418) /* Icon */
-     , (9197,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9197,   1, 0x02000A02) /* Setup */
+     , (9197,   3, 0x20000014) /* SoundTable */
+     , (9197,   8, 0x06001FBA) /* Icon */
+     , (9197,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (9197, 7, 1000);

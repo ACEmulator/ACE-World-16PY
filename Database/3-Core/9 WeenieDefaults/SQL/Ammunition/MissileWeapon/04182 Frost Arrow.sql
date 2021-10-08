@@ -40,9 +40,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4182,   1, 'Frost Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4182,   1,   33555689) /* Setup */
-     , (4182,   3,  536870932) /* SoundTable */
-     , (4182,   6,   67111919) /* PaletteBase */
-     , (4182,   7,  268436303) /* ClothingBase */
-     , (4182,   8,  100670199) /* Icon */
-     , (4182,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4182,   1, 0x020004E9) /* Setup */
+     , (4182,   3, 0x20000014) /* SoundTable */
+     , (4182,   6, 0x04000BEF) /* PaletteBase */
+     , (4182,   7, 0x1000034F) /* ClothingBase */
+     , (4182,   8, 0x06001AF7) /* Icon */
+     , (4182,  22, 0x3400002B) /* PhysicsEffectTable */;

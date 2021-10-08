@@ -44,12 +44,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23664,   1, 'Heavy Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23664,   1,   33554732) /* Setup */
-     , (23664,   3,  536870932) /* SoundTable */
-     , (23664,   6,   67111919) /* PaletteBase */
-     , (23664,   7,  268435762) /* ClothingBase */
-     , (23664,   8,  100668835) /* Icon */
-     , (23664,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23664,   1, 0x0200012C) /* Setup */
+     , (23664,   3, 0x20000014) /* SoundTable */
+     , (23664,   6, 0x04000BEF) /* PaletteBase */
+     , (23664,   7, 0x10000132) /* ClothingBase */
+     , (23664,   8, 0x060015A3) /* Icon */
+     , (23664,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23664,  1616,      2)  /* Aura of Blood Drinker Self VI */

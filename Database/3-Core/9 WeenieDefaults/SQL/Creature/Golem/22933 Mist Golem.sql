@@ -63,12 +63,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22933,   1, 'Mist Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22933,   1,   33556642) /* Setup */
-     , (22933,   2,  150995073) /* MotionTable */
-     , (22933,   3,  536871066) /* SoundTable */
-     , (22933,   4,  805306376) /* CombatTable */
-     , (22933,   8,  100667940) /* Icon */
-     , (22933,  22,  872415322) /* PhysicsEffectTable */
+VALUES (22933,   1, 0x020008A2) /* Setup */
+     , (22933,   2, 0x09000081) /* MotionTable */
+     , (22933,   3, 0x2000009A) /* SoundTable */
+     , (22933,   4, 0x30000008) /* CombatTable */
+     , (22933,   8, 0x06001224) /* Icon */
+     , (22933,  22, 0x3400005A) /* PhysicsEffectTable */
      , (22933,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

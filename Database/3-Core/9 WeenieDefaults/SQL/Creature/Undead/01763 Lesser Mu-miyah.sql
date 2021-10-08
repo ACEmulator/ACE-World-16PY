@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1763,   1, 'Lesser Mu-miyah') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1763,   1,   33554433) /* Setup */
-     , (1763,   2,  150994981) /* MotionTable */
-     , (1763,   3,  536870942) /* SoundTable */
-     , (1763,   4,  805306368) /* CombatTable */
-     , (1763,   6,   67108990) /* PaletteBase */
-     , (1763,   7,  268435645) /* ClothingBase */
-     , (1763,   8,  100669122) /* Icon */
-     , (1763,  22,  872415272) /* PhysicsEffectTable */
+VALUES (1763,   1, 0x02000001) /* Setup */
+     , (1763,   2, 0x09000025) /* MotionTable */
+     , (1763,   3, 0x2000001E) /* SoundTable */
+     , (1763,   4, 0x30000000) /* CombatTable */
+     , (1763,   6, 0x0400007E) /* PaletteBase */
+     , (1763,   7, 0x100000BD) /* ClothingBase */
+     , (1763,   8, 0x060016C2) /* Icon */
+     , (1763,  22, 0x34000028) /* PhysicsEffectTable */
      , (1763,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

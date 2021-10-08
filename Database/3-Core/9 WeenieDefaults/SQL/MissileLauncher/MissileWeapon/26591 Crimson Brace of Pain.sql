@@ -45,12 +45,12 @@ VALUES (26591,   1, 'Crimson Brace of Pain') /* Name */
      , (26591,  15, 'This brace looks much like an ornamental piece for the hand. However, it is able to give greater strength to thrown darts.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26591,   1,   33558595) /* Setup */
-     , (26591,   3,  536870932) /* SoundTable */
-     , (26591,   6,   67114956) /* PaletteBase */
-     , (26591,   7,  268436792) /* ClothingBase */
-     , (26591,   8,  100675775) /* Icon */
-     , (26591,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (26591,   1, 0x02001043) /* Setup */
+     , (26591,   3, 0x20000014) /* SoundTable */
+     , (26591,   6, 0x040017CC) /* PaletteBase */
+     , (26591,   7, 0x10000538) /* ClothingBase */
+     , (26591,   8, 0x060030BF) /* Icon */
+     , (26591,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (26591,  1604,      2)  /* Aura of Defender Self V */

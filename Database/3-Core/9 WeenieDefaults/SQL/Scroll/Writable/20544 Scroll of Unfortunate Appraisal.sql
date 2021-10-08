@@ -24,7 +24,7 @@ VALUES (20544,   1, 'Scroll of Unfortunate Appraisal') /* Name */
      , (20544,  15, 'When learned, this spell decreases the target''s Item Tinkering skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20544,   1,   33554826) /* Setup */
-     , (20544,   8,  100676477) /* Icon */
-     , (20544,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20544,   1, 0x0200018A) /* Setup */
+     , (20544,   8, 0x0600337D) /* Icon */
+     , (20544,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20544,  28,       2252) /* Spell - Unfortunate Appraisal */;

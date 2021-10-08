@@ -26,7 +26,7 @@ VALUES (2218,   1, 'Beautiful key') /* Name */
      , (2218,  16, 'A beautifully crafted golden key that is used in the Underground City.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2218,   1,   33554784) /* Setup */
-     , (2218,   3,  536870932) /* SoundTable */
-     , (2218,   8,  100667486) /* Icon */
-     , (2218,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (2218,   1, 0x02000160) /* Setup */
+     , (2218,   3, 0x20000014) /* SoundTable */
+     , (2218,   8, 0x0600105E) /* Icon */
+     , (2218,  22, 0x3400002B) /* PhysicsEffectTable */;

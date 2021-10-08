@@ -43,13 +43,13 @@ VALUES (28069,   1, 'Aphus Sun Guard') /* Name */
      , (28069,  16, 'A wonderfully crafted hat that affords a great deal of protection from the bright sun. Thin veins of pyreal have been worked into the weave.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28069,   1,   33558881) /* Setup */
-     , (28069,   3,  536870932) /* SoundTable */
-     , (28069,   6,   67108990) /* PaletteBase */
-     , (28069,   7,  268436844) /* ClothingBase */
-     , (28069,   8,  100668247) /* Icon */
-     , (28069,  22,  872415275) /* PhysicsEffectTable */
-     , (28069,  36,  234881046) /* MutateFilter */;
+VALUES (28069,   1, 0x02001161) /* Setup */
+     , (28069,   3, 0x20000014) /* SoundTable */
+     , (28069,   6, 0x0400007E) /* PaletteBase */
+     , (28069,   7, 0x1000056C) /* ClothingBase */
+     , (28069,   8, 0x06001357) /* Icon */
+     , (28069,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (28069,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28069,  1317,      2)  /* Armor Other VI */;

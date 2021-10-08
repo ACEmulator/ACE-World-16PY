@@ -29,8 +29,8 @@ VALUES (8391,   1, 'Filled Beer Stein') /* Name */
      , (8391,  20, 'Filled Beer Steins') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8391,   1,   33556854) /* Setup */
-     , (8391,   3,  536870932) /* SoundTable */
-     , (8391,   8,  100671131) /* Icon */
-     , (8391,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8391,   1, 0x02000976) /* Setup */
+     , (8391,   3, 0x20000014) /* SoundTable */
+     , (8391,   8, 0x06001E9B) /* Icon */
+     , (8391,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8391,  23,         65) /* UseSound - Drink1 */;

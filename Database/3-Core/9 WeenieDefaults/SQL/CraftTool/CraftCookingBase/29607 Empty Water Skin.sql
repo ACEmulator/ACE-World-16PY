@@ -27,9 +27,9 @@ VALUES (29607,   1, 'Empty Water Skin') /* Name */
      , (29607,  16, 'An empty water skin.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29607,   1,   33554799) /* Setup */
-     , (29607,   3,  536870932) /* SoundTable */
-     , (29607,   6,   67111919) /* PaletteBase */
-     , (29607,   8,  100668541) /* Icon */
-     , (29607,  22,  872415275) /* PhysicsEffectTable */
-     , (29607,  36,  234881046) /* MutateFilter */;
+VALUES (29607,   1, 0x0200016F) /* Setup */
+     , (29607,   3, 0x20000014) /* SoundTable */
+     , (29607,   6, 0x04000BEF) /* PaletteBase */
+     , (29607,   8, 0x0600147D) /* Icon */
+     , (29607,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29607,  36, 0x0E000016) /* MutateFilter */;

@@ -35,9 +35,9 @@ VALUES (6622,   1, 'Sparkling Gem') /* Name */
      , (6622,  16, 'A medium-sized, sparkling gem with swirls of orange and black.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6622,   1,   33554809) /* Setup */
-     , (6622,   3,  536870932) /* SoundTable */
-     , (6622,   6,   67111919) /* PaletteBase */
-     , (6622,   7,  268435723) /* ClothingBase */
-     , (6622,   8,  100671529) /* Icon */
-     , (6622,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6622,   1, 0x02000179) /* Setup */
+     , (6622,   3, 0x20000014) /* SoundTable */
+     , (6622,   6, 0x04000BEF) /* PaletteBase */
+     , (6622,   7, 0x1000010B) /* ClothingBase */
+     , (6622,   8, 0x06002029) /* Icon */
+     , (6622,  22, 0x3400002B) /* PhysicsEffectTable */;

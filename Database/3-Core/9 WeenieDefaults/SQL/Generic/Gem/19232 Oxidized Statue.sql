@@ -27,10 +27,10 @@ VALUES (19232,   1, 'Oxidized Statue') /* Name */
      , (19232,  16, 'A small oxidized statue of a Mosswart crafted by the Arcanum Tinker, in reward for keeping the statues that continue to threaten the cities of Dereth at bay.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19232,   1,   33557327) /* Setup */
-     , (19232,   2,  150995207) /* MotionTable */
-     , (19232,   6,   67113400) /* PaletteBase */
-     , (19232,   7,  268436368) /* ClothingBase */
-     , (19232,   8,  100667449) /* Icon */
-     , (19232,  22,  872415383) /* PhysicsEffectTable */
-     , (19232,  36,  234881046) /* MutateFilter */;
+VALUES (19232,   1, 0x02000B4F) /* Setup */
+     , (19232,   2, 0x09000107) /* MotionTable */
+     , (19232,   6, 0x040011B8) /* PaletteBase */
+     , (19232,   7, 0x10000390) /* ClothingBase */
+     , (19232,   8, 0x06001039) /* Icon */
+     , (19232,  22, 0x34000097) /* PhysicsEffectTable */
+     , (19232,  36, 0x0E000016) /* MutateFilter */;

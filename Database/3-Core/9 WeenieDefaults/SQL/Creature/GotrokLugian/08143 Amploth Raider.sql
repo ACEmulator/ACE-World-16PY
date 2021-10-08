@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8143,   1, 'Amploth Raider') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8143,   1,   33557003) /* Setup */
-     , (8143,   2,  150994950) /* MotionTable */
-     , (8143,   3,  536870922) /* SoundTable */
-     , (8143,   4,  805306371) /* CombatTable */
-     , (8143,   6,   67113158) /* PaletteBase */
-     , (8143,   7,  268436156) /* ClothingBase */
-     , (8143,   8,  100667447) /* Icon */
-     , (8143,  22,  872415262) /* PhysicsEffectTable */
+VALUES (8143,   1, 0x02000A0B) /* Setup */
+     , (8143,   2, 0x09000006) /* MotionTable */
+     , (8143,   3, 0x2000000A) /* SoundTable */
+     , (8143,   4, 0x30000003) /* CombatTable */
+     , (8143,   6, 0x040010C6) /* PaletteBase */
+     , (8143,   7, 0x100002BC) /* ClothingBase */
+     , (8143,   8, 0x06001037) /* Icon */
+     , (8143,  22, 0x3400001E) /* PhysicsEffectTable */
      , (8143,  32,        327) /* WieldedTreasureType - 
                                    Wield Rock (7578) | Probability: 90%
                                    Wield Lugian Morning Star (23765) | Probability: 40%

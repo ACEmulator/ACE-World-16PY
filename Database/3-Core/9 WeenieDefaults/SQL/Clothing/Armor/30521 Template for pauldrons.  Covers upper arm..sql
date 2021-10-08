@@ -38,11 +38,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30521,   1, 'Template for pauldrons.  Covers upper arm.') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30521,   1,   33554641) /* Setup */
-     , (30521,   3,  536870932) /* SoundTable */
-     , (30521,   6,   67108990) /* PaletteBase */
-     , (30521,   7,  268435535) /* ClothingBase */
-     , (30521,   8,  100668171) /* Icon */
-     , (30521,  22,  872415275) /* PhysicsEffectTable */
-     , (30521,  36,  234881042) /* MutateFilter */
-     , (30521,  46,  939524146) /* TsysMutationFilter */;
+VALUES (30521,   1, 0x020000D1) /* Setup */
+     , (30521,   3, 0x20000014) /* SoundTable */
+     , (30521,   6, 0x0400007E) /* PaletteBase */
+     , (30521,   7, 0x1000004F) /* ClothingBase */
+     , (30521,   8, 0x0600130B) /* Icon */
+     , (30521,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30521,  36, 0x0E000012) /* MutateFilter */
+     , (30521,  46, 0x38000032) /* TsysMutationFilter */;

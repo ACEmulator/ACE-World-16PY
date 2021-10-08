@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28381,   1, 'Coglock') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28381,   1,   33558582) /* Setup */
-     , (28381,   2,  150995272) /* MotionTable */
-     , (28381,   3,  536871083) /* SoundTable */
-     , (28381,   4,  805306427) /* CombatTable */
-     , (28381,   6,   67114919) /* PaletteBase */
-     , (28381,   7,  268436789) /* ClothingBase */
-     , (28381,   8,  100675761) /* Icon */
-     , (28381,  22,  872415402) /* PhysicsEffectTable */
+VALUES (28381,   1, 0x02001036) /* Setup */
+     , (28381,   2, 0x09000148) /* MotionTable */
+     , (28381,   3, 0x200000AB) /* SoundTable */
+     , (28381,   4, 0x3000003B) /* CombatTable */
+     , (28381,   6, 0x040017A7) /* PaletteBase */
+     , (28381,   7, 0x10000535) /* ClothingBase */
+     , (28381,   8, 0x060030B1) /* Icon */
+     , (28381,  22, 0x340000AA) /* PhysicsEffectTable */
      , (28381,  32,        467) /* WieldedTreasureType - 
                                    Wield Stone Axe (26022) | Probability: 20%
                                    Wield Bone Dagger (26031) | Probability: 20%

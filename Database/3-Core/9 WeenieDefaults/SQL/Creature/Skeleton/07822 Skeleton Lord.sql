@@ -60,12 +60,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7822,   1, 'Skeleton Lord') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7822,   1,   33555464) /* Setup */
-     , (7822,   2,  150994981) /* MotionTable */
-     , (7822,   3,  536870942) /* SoundTable */
-     , (7822,   4,  805306368) /* CombatTable */
-     , (7822,   8,  100669124) /* Icon */
-     , (7822,  22,  872415269) /* PhysicsEffectTable */
+VALUES (7822,   1, 0x02000408) /* Setup */
+     , (7822,   2, 0x09000025) /* MotionTable */
+     , (7822,   3, 0x2000001E) /* SoundTable */
+     , (7822,   4, 0x30000000) /* CombatTable */
+     , (7822,   8, 0x060016C4) /* Icon */
+     , (7822,  22, 0x34000025) /* PhysicsEffectTable */
      , (7822,  32,        466) /* WieldedTreasureType - 
                                    Wield Broad Sword (350) | Probability: 8%
                                    Wield Long Sword (351) | Probability: 8%

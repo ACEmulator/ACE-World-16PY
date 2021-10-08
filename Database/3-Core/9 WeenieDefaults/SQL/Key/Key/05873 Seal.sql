@@ -32,9 +32,9 @@ VALUES (5873,   1, 'Seal') /* Name */
      , (5873,  16, 'A small amulet on a chain, which bears the Royal Seal of Dericost.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5873,   1,   33554689) /* Setup */
-     , (5873,   3,  536870932) /* SoundTable */
-     , (5873,   6,   67111919) /* PaletteBase */
-     , (5873,   7,  268435863) /* ClothingBase */
-     , (5873,   8,  100670319) /* Icon */
-     , (5873,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5873,   1, 0x02000101) /* Setup */
+     , (5873,   3, 0x20000014) /* SoundTable */
+     , (5873,   6, 0x04000BEF) /* PaletteBase */
+     , (5873,   7, 0x10000197) /* ClothingBase */
+     , (5873,   8, 0x06001B6F) /* Icon */
+     , (5873,  22, 0x3400002B) /* PhysicsEffectTable */;

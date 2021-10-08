@@ -22,7 +22,7 @@ VALUES (640,   1, 'Lapidary ') /* Name */
      , (640,  16, 'Lapidary') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (640,   1,   33555088) /* Setup */
-     , (640,   6,   67111092) /* PaletteBase */
-     , (640,   7,  268435659) /* ClothingBase */
-     , (640,   8,  100668115) /* Icon */;
+VALUES (640,   1, 0x02000290) /* Setup */
+     , (640,   6, 0x040008B4) /* PaletteBase */
+     , (640,   7, 0x100000CB) /* ClothingBase */
+     , (640,   8, 0x060012D3) /* Icon */;

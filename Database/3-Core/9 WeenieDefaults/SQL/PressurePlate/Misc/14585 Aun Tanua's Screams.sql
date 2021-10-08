@@ -28,11 +28,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14585,   1, 'Aun Tanua''s Screams') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14585,   1,   33555034) /* Setup */
-     , (14585,   2,  150994977) /* MotionTable */
-     , (14585,   3,  536870932) /* SoundTable */
-     , (14585,   8,  100668114) /* Icon */
-     , (14585,  24,  268435537) /* UseTargetAnimation - Twitch1 */;
+VALUES (14585,   1, 0x0200025A) /* Setup */
+     , (14585,   2, 0x09000021) /* MotionTable */
+     , (14585,   3, 0x20000014) /* SoundTable */
+     , (14585,   8, 0x060012D2) /* Icon */
+     , (14585,  24, 0x10000051) /* UseTargetAnimation - Twitch1 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (14585,  16, 0x00000000) /* ActivationTarget */;

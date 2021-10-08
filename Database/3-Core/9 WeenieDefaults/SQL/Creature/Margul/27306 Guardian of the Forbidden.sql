@@ -64,13 +64,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27306,   1, 'Guardian of the Forbidden') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27306,   1,   33558554) /* Setup */
-     , (27306,   2,  150995263) /* MotionTable */
-     , (27306,   3,  536871080) /* SoundTable */
-     , (27306,   4,  805306426) /* CombatTable */
-     , (27306,   6,   67114728) /* PaletteBase */
-     , (27306,   7,  268436733) /* ClothingBase */
-     , (27306,   8,  100675661) /* Icon */;
+VALUES (27306,   1, 0x0200101A) /* Setup */
+     , (27306,   2, 0x0900013F) /* MotionTable */
+     , (27306,   3, 0x200000A8) /* SoundTable */
+     , (27306,   4, 0x3000003A) /* CombatTable */
+     , (27306,   6, 0x040016E8) /* PaletteBase */
+     , (27306,   7, 0x100004FD) /* ClothingBase */
+     , (27306,   8, 0x0600304D) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27306,   1, 290, 0, 0) /* Strength */

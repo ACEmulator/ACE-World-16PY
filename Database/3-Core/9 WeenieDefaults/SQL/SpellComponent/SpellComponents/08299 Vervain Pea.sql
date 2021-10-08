@@ -30,10 +30,10 @@ VALUES (8299,   1, 'Vervain Pea') /* Name */
      , (8299,  16, 'A concentrated vervain pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8299,   1,   33554817) /* Setup */
-     , (8299,   3,  536870932) /* SoundTable */
-     , (8299,   6,   67111919) /* PaletteBase */
-     , (8299,   7,  268435720) /* ClothingBase */
-     , (8299,   8,  100671113) /* Icon */
-     , (8299,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8299,   1, 0x02000181) /* Setup */
+     , (8299,   3, 0x20000014) /* SoundTable */
+     , (8299,   6, 0x04000BEF) /* PaletteBase */
+     , (8299,   7, 0x10000108) /* ClothingBase */
+     , (8299,   8, 0x06001E89) /* Icon */
+     , (8299,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8299,  29,        129) /* SpellComponent */;

@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27460,   1, 'Gotrok Fortress Guard') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27460,   1,   33557003) /* Setup */
-     , (27460,   2,  150994950) /* MotionTable */
-     , (27460,   3,  536870922) /* SoundTable */
-     , (27460,   4,  805306371) /* CombatTable */
-     , (27460,   6,   67113158) /* PaletteBase */
-     , (27460,   7,  268436175) /* ClothingBase */
-     , (27460,   8,  100667447) /* Icon */
-     , (27460,  22,  872415262) /* PhysicsEffectTable */
+VALUES (27460,   1, 0x02000A0B) /* Setup */
+     , (27460,   2, 0x09000006) /* MotionTable */
+     , (27460,   3, 0x2000000A) /* SoundTable */
+     , (27460,   4, 0x30000003) /* CombatTable */
+     , (27460,   6, 0x040010C6) /* PaletteBase */
+     , (27460,   7, 0x100002CF) /* ClothingBase */
+     , (27460,   8, 0x06001037) /* Icon */
+     , (27460,  22, 0x3400001E) /* PhysicsEffectTable */
      , (27460,  32,        445) /* WieldedTreasureType - 
                                    Wield Rock (23744) | Probability: 90%
                                    Wield Rock (23745) | Probability: 10%

@@ -73,13 +73,13 @@ VALUES (9414,   1, 'Kifandal the Imbuer') /* Name */
      , (9414,  24, 'Linvak Tukal') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9414,   1,   33557003) /* Setup */
-     , (9414,   2,  150994950) /* MotionTable */
-     , (9414,   3,  536870922) /* SoundTable */
-     , (9414,   4,  805306371) /* CombatTable */
-     , (9414,   6,   67113158) /* PaletteBase */
-     , (9414,   7,  268436157) /* ClothingBase */
-     , (9414,   8,  100667447) /* Icon */;
+VALUES (9414,   1, 0x02000A0B) /* Setup */
+     , (9414,   2, 0x09000006) /* MotionTable */
+     , (9414,   3, 0x2000000A) /* SoundTable */
+     , (9414,   4, 0x30000003) /* CombatTable */
+     , (9414,   6, 0x040010C6) /* PaletteBase */
+     , (9414,   7, 0x100002BD) /* ClothingBase */
+     , (9414,   8, 0x06001037) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9414,   1, 280, 0, 0) /* Strength */

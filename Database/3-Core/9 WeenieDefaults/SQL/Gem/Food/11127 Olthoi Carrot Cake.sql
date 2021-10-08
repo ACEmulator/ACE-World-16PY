@@ -36,12 +36,12 @@ VALUES (11127,   1, 'Olthoi Carrot Cake') /* Name */
      , (11127,  16, 'A piece of moist, sweet carrot cake made with Olthoi Eggs.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11127,   1,   33555193) /* Setup */
-     , (11127,   3,  536870932) /* SoundTable */
-     , (11127,   6,   67111928) /* PaletteBase */
-     , (11127,   7,  268435860) /* ClothingBase */
-     , (11127,   8,  100671760) /* Icon */
-     , (11127,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11127,   1, 0x020002F9) /* Setup */
+     , (11127,   3, 0x20000014) /* SoundTable */
+     , (11127,   6, 0x04000BF8) /* PaletteBase */
+     , (11127,   7, 0x10000194) /* ClothingBase */
+     , (11127,   8, 0x06002110) /* Icon */
+     , (11127,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11127,  23,         64) /* UseSound - Eat1 */
-     , (11127,  27,  318767233) /* UseUserAnimation - MimeEat */
+     , (11127,  27, 0x13000081) /* UseUserAnimation - MimeEat */
      , (11127,  28,       2424) /* Spell - Rabbit's Eye */;

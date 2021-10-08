@@ -26,8 +26,8 @@ VALUES (29786,   1, 'Steamy Font') /* Name */
      , (29786,  37, 'OnBrowerkQuest') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29786,   1,   33556642) /* Setup */
-     , (29786,   8,  100667499) /* Icon */;
+VALUES (29786,   1, 0x020008A2) /* Setup */
+     , (29786,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (29786, 2, 0x019803D3, 50, -50, 0, 1, 0, 0, -0) /* Destination */

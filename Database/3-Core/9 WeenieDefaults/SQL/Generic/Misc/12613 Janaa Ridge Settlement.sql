@@ -22,5 +22,5 @@ VALUES (12613,   1, 'Janaa Ridge Settlement') /* Name */
      , (12613,  16, 'Welcome to Janaa Ridge Settlement') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12613,   1,   33557463) /* Setup */
-     , (12613,   8,  100668115) /* Icon */;
+VALUES (12613,   1, 0x02000BD7) /* Setup */
+     , (12613,   8, 0x060012D3) /* Icon */;

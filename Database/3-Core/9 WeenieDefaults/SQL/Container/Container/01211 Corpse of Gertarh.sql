@@ -35,10 +35,10 @@ VALUES (1211,   1, 'Corpse of Gertarh') /* Name */
      , (1211,  15, 'Killed by Oswald.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1211,   1,   33556552) /* Setup */
-     , (1211,   3,  536870917) /* SoundTable */
-     , (1211,   8,  100667453) /* Icon */
-     , (1211,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1211,   1, 0x02000848) /* Setup */
+     , (1211,   3, 0x20000005) /* SoundTable */
+     , (1211,   8, 0x0600103D) /* Icon */
+     , (1211,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1211, -1, 6843, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mysterious Note (6843) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

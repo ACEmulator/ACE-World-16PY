@@ -28,7 +28,7 @@ VALUES (29176,   1, 'Baking Pan') /* Name */
      , (29176,  14, 'This item is used in cooking.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29176,   1,   33555969) /* Setup */
-     , (29176,   3,  536870932) /* SoundTable */
-     , (29176,   8,  100669993) /* Icon */
-     , (29176,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29176,   1, 0x02000601) /* Setup */
+     , (29176,   3, 0x20000014) /* SoundTable */
+     , (29176,   8, 0x06001A29) /* Icon */
+     , (29176,  22, 0x3400002B) /* PhysicsEffectTable */;

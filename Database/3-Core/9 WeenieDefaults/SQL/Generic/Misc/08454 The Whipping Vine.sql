@@ -22,7 +22,7 @@ VALUES (8454,   1, 'The Whipping Vine') /* Name */
      , (8454,  16, 'The Whipping Vine') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8454,   1,   33555594) /* Setup */
-     , (8454,   6,   67111782) /* PaletteBase */
-     , (8454,   7,  268435686) /* ClothingBase */
-     , (8454,   8,  100668115) /* Icon */;
+VALUES (8454,   1, 0x0200048A) /* Setup */
+     , (8454,   6, 0x04000B66) /* PaletteBase */
+     , (8454,   7, 0x100000E6) /* ClothingBase */
+     , (8454,   8, 0x060012D3) /* Icon */;

@@ -22,5 +22,5 @@ VALUES (19176,   1, 'Hopevale') /* Name */
      , (19176,  16, 'Welcome to Hopevale') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19176,   1,   33557463) /* Setup */
-     , (19176,   8,  100668115) /* Icon */;
+VALUES (19176,   1, 0x02000BD7) /* Setup */
+     , (19176,   8, 0x060012D3) /* Icon */;

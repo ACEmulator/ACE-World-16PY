@@ -62,14 +62,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27712,   1, 'Badlands Siraluun') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27712,   1,   33557059) /* Setup */
-     , (27712,   2,  150995131) /* MotionTable */
-     , (27712,   3,  536871034) /* SoundTable */
-     , (27712,   4,  805306421) /* CombatTable */
-     , (27712,   6,   67113247) /* PaletteBase */
-     , (27712,   7,  268436194) /* ClothingBase */
-     , (27712,   8,  100671751) /* Icon */
-     , (27712,  22,  872415376) /* PhysicsEffectTable */
+VALUES (27712,   1, 0x02000A43) /* Setup */
+     , (27712,   2, 0x090000BB) /* MotionTable */
+     , (27712,   3, 0x2000007A) /* SoundTable */
+     , (27712,   4, 0x30000035) /* CombatTable */
+     , (27712,   6, 0x0400111F) /* PaletteBase */
+     , (27712,   7, 0x100002E2) /* ClothingBase */
+     , (27712,   8, 0x06002107) /* Icon */
+     , (27712,  22, 0x34000090) /* PhysicsEffectTable */
      , (27712,  35,        458) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

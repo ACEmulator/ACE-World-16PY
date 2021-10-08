@@ -27,7 +27,7 @@ VALUES (24141,   1, 'Sweet Smelling Bark') /* Name */
      , (24141,  33, 'BarkOswaldTaken') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24141,   1,   33558322) /* Setup */
-     , (24141,   3,  536870932) /* SoundTable */
-     , (24141,   8,  100676644) /* Icon */
-     , (24141,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24141,   1, 0x02000F32) /* Setup */
+     , (24141,   3, 0x20000014) /* SoundTable */
+     , (24141,   8, 0x06003424) /* Icon */
+     , (24141,  22, 0x3400002B) /* PhysicsEffectTable */;

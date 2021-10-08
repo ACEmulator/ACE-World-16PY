@@ -51,12 +51,12 @@ VALUES (23913,   1, 'Assault Mace') /* Name */
      , (23913,  16, 'A reward for defeating the leaders of the Shreth Clan.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23913,   1,   33557204) /* Setup */
-     , (23913,   3,  536870932) /* SoundTable */
-     , (23913,   6,   67111919) /* PaletteBase */
-     , (23913,   7,  268436199) /* ClothingBase */
-     , (23913,   8,  100671746) /* Icon */
-     , (23913,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23913,   1, 0x02000AD4) /* Setup */
+     , (23913,   3, 0x20000014) /* SoundTable */
+     , (23913,   6, 0x04000BEF) /* PaletteBase */
+     , (23913,   7, 0x100002E7) /* ClothingBase */
+     , (23913,   8, 0x06002102) /* Icon */
+     , (23913,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23913,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

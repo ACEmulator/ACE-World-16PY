@@ -22,5 +22,5 @@ VALUES (15246,   1, 'Osric Cottages') /* Name */
      , (15246,  16, 'Welcome to Osric Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15246,   1,   33557463) /* Setup */
-     , (15246,   8,  100668115) /* Icon */;
+VALUES (15246,   1, 0x02000BD7) /* Setup */
+     , (15246,   8, 0x060012D3) /* Icon */;

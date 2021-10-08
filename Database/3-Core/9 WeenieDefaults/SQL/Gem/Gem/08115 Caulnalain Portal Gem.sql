@@ -39,11 +39,11 @@ VALUES (8115,   1, 'Caulnalain Portal Gem') /* Name */
      , (8115,  16, 'This is a portal gem attuned to the energies of the Caulnalain Chamber.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8115,   1,   33556769) /* Setup */
-     , (8115,   3,  536870932) /* SoundTable */
-     , (8115,   6,   67111919) /* PaletteBase */
-     , (8115,   7,  268435723) /* ClothingBase */
-     , (8115,   8,  100670965) /* Icon */
-     , (8115,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8115,   1, 0x02000921) /* Setup */
+     , (8115,   3, 0x20000014) /* SoundTable */
+     , (8115,   6, 0x04000BEF) /* PaletteBase */
+     , (8115,   7, 0x1000010B) /* ClothingBase */
+     , (8115,   8, 0x06001DF5) /* Icon */
+     , (8115,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8115,  28,       2000) /* Spell - Portal Sending */
-     , (8115,  36,  234881046) /* MutateFilter */;
+     , (8115,  36, 0x0E000016) /* MutateFilter */;

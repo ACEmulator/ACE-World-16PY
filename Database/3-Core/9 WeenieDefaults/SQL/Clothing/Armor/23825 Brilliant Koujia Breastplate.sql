@@ -47,12 +47,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23825,   1, 'Brilliant Koujia Breastplate') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23825,   1,   33554642) /* Setup */
-     , (23825,   3,  536870932) /* SoundTable */
-     , (23825,   6,   67108990) /* PaletteBase */
-     , (23825,   7,  268435852) /* ClothingBase */
-     , (23825,   8,  100674073) /* Icon */
-     , (23825,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23825,   1, 0x020000D2) /* Setup */
+     , (23825,   3, 0x20000014) /* SoundTable */
+     , (23825,   6, 0x0400007E) /* PaletteBase */
+     , (23825,   7, 0x1000018C) /* ClothingBase */
+     , (23825,   8, 0x06002A19) /* Icon */
+     , (23825,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23825,  2571,      2)  /* Major Armor */;

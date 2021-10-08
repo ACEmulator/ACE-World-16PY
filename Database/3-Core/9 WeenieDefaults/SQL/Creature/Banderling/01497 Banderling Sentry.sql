@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1497,   1, 'Banderling Sentry') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1497,   1,   33558024) /* Setup */
-     , (1497,   2,  150994951) /* MotionTable */
-     , (1497,   3,  536870917) /* SoundTable */
-     , (1497,   4,  805306370) /* CombatTable */
-     , (1497,   6,   67114021) /* PaletteBase */
-     , (1497,   7,  268436497) /* ClothingBase */
-     , (1497,   8,  100667453) /* Icon */
-     , (1497,  22,  872415255) /* PhysicsEffectTable */
+VALUES (1497,   1, 0x02000E08) /* Setup */
+     , (1497,   2, 0x09000007) /* MotionTable */
+     , (1497,   3, 0x20000005) /* SoundTable */
+     , (1497,   4, 0x30000002) /* CombatTable */
+     , (1497,   6, 0x04001425) /* PaletteBase */
+     , (1497,   7, 0x10000411) /* ClothingBase */
+     , (1497,   8, 0x0600103D) /* Icon */
+     , (1497,  22, 0x34000017) /* PhysicsEffectTable */
      , (1497,  32,         52) /* WieldedTreasureType - 
                                    Wield Battle Axe (301) | Probability: 10%
                                    Wield Club (309) | Probability: 8%

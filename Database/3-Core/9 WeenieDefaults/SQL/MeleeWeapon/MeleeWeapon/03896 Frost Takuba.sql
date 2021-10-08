@@ -38,11 +38,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3896,   1, 'Frost Takuba') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3896,   1,   33555821) /* Setup */
-     , (3896,   3,  536870932) /* SoundTable */
-     , (3896,   6,   67111919) /* PaletteBase */
-     , (3896,   7,  268435773) /* ClothingBase */
-     , (3896,   8,  100668165) /* Icon */
-     , (3896,  22,  872415275) /* PhysicsEffectTable */
-     , (3896,  36,  234881053) /* MutateFilter */
-     , (3896,  46,  939524101) /* TsysMutationFilter */;
+VALUES (3896,   1, 0x0200056D) /* Setup */
+     , (3896,   3, 0x20000014) /* SoundTable */
+     , (3896,   6, 0x04000BEF) /* PaletteBase */
+     , (3896,   7, 0x1000013D) /* ClothingBase */
+     , (3896,   8, 0x06001305) /* Icon */
+     , (3896,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3896,  36, 0x0E00001D) /* MutateFilter */
+     , (3896,  46, 0x38000005) /* TsysMutationFilter */;

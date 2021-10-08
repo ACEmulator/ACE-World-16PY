@@ -35,10 +35,10 @@ VALUES (15764,   1, 'Ruined Amulet of the Crossbow') /* Name */
      , (15764,  16, 'An Amulet crafted in pyreal that bears the symbol of an crossbow. The amulet is damaged, seemingly beyond repair.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15764,   1,   33554680) /* Setup */
-     , (15764,   3,  536870932) /* SoundTable */
-     , (15764,   6,   67111919) /* PaletteBase */
-     , (15764,   7,  268436095) /* ClothingBase */
-     , (15764,   8,  100672809) /* Icon */
-     , (15764,  22,  872415275) /* PhysicsEffectTable */
-     , (15764,  36,  234881046) /* MutateFilter */;
+VALUES (15764,   1, 0x020000F8) /* Setup */
+     , (15764,   3, 0x20000014) /* SoundTable */
+     , (15764,   6, 0x04000BEF) /* PaletteBase */
+     , (15764,   7, 0x1000027F) /* ClothingBase */
+     , (15764,   8, 0x06002529) /* Icon */
+     , (15764,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (15764,  36, 0x0E000016) /* MutateFilter */;

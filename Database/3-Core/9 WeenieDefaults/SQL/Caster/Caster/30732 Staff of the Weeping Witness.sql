@@ -39,13 +39,13 @@ VALUES (30732,   1, 'Staff of the Weeping Witness') /* Name */
      , (30732,  25, 'Caeryn Dryad') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30732,   1,   33555022) /* Setup */
-     , (30732,   3,  536870932) /* SoundTable */
-     , (30732,   6,   67111919) /* PaletteBase */
-     , (30732,   7,  268435796) /* ClothingBase */
-     , (30732,   8,  100669104) /* Icon */
-     , (30732,  22,  872415275) /* PhysicsEffectTable */
-     , (30732,  27, 1073742048) /* UseUserAnimation - UseMagicStaff */
+VALUES (30732,   1, 0x0200024E) /* Setup */
+     , (30732,   3, 0x20000014) /* SoundTable */
+     , (30732,   6, 0x04000BEF) /* PaletteBase */
+     , (30732,   7, 0x10000154) /* ClothingBase */
+     , (30732,   8, 0x060016B0) /* Icon */
+     , (30732,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30732,  27, 0x400000E0) /* UseUserAnimation - UseMagicStaff */
      , (30732,  28,         68) /* Spell - Shock Wave V */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)

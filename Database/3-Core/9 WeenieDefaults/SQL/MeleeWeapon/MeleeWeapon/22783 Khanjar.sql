@@ -41,13 +41,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22783,   1, 'Khanjar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22783,   1,   33554744) /* Setup */
-     , (22783,   3,  536870932) /* SoundTable */
-     , (22783,   6,   67111919) /* PaletteBase */
-     , (22783,   7,  268435790) /* ClothingBase */
-     , (22783,   8,  100668935) /* Icon */
-     , (22783,  22,  872415275) /* PhysicsEffectTable */
-     , (22783,  36,  234881044) /* MutateFilter */;
+VALUES (22783,   1, 0x02000138) /* Setup */
+     , (22783,   3, 0x20000014) /* SoundTable */
+     , (22783,   6, 0x04000BEF) /* PaletteBase */
+     , (22783,   7, 0x1000014E) /* ClothingBase */
+     , (22783,   8, 0x06001607) /* Icon */
+     , (22783,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (22783,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22783,  1615,      2)  /* Aura of Blood Drinker Self V */

@@ -44,11 +44,11 @@ VALUES (23957,   1, 'Chest of the Sentinels') /* Name */
      , (23957,  16, 'A chest.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23957,   1,   33554556) /* Setup */
-     , (23957,   2,  150994948) /* MotionTable */
-     , (23957,   3,  536870945) /* SoundTable */
-     , (23957,   8,  100674156) /* Icon */
-     , (23957,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23957,   1, 0x0200007C) /* Setup */
+     , (23957,   2, 0x09000004) /* MotionTable */
+     , (23957,   3, 0x20000021) /* SoundTable */
+     , (23957,   8, 0x06002A6C) /* Icon */
+     , (23957,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23957, -1, 24028, 30, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Crescent Moons (24028) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

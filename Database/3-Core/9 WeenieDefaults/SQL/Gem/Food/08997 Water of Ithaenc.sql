@@ -40,11 +40,11 @@ VALUES (8997,   1, 'Water of Ithaenc') /* Name */
      , (8997,  16, 'A bucket of water from the well beside the Cathedral of Ithaenc.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8997,   1,   33554605) /* Setup */
-     , (8997,   3,  536870932) /* SoundTable */
-     , (8997,   8,  100667422) /* Icon */
-     , (8997,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8997,   1, 0x020000AD) /* Setup */
+     , (8997,   3, 0x20000014) /* SoundTable */
+     , (8997,   8, 0x0600101E) /* Icon */
+     , (8997,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8997,  23,         65) /* UseSound - Drink1 */
-     , (8997,  27,  318767233) /* UseUserAnimation - MimeEat */
+     , (8997,  27, 0x13000081) /* UseUserAnimation - MimeEat */
      , (8997,  28,        680) /* Spell - Arcane Enlightenment Self III */
-     , (8997,  36,  234881046) /* MutateFilter */;
+     , (8997,  36, 0x0E000016) /* MutateFilter */;

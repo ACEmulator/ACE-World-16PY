@@ -53,12 +53,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20136,   1, 'Superb Flaming Isparian Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20136,   1,   33557774) /* Setup */
-     , (20136,   3,  536870932) /* SoundTable */
-     , (20136,   6,   67111919) /* PaletteBase */
-     , (20136,   7,  268436396) /* ClothingBase */
-     , (20136,   8,  100673026) /* Icon */
-     , (20136,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20136,   1, 0x02000D0E) /* Setup */
+     , (20136,   3, 0x20000014) /* SoundTable */
+     , (20136,   6, 0x04000BEF) /* PaletteBase */
+     , (20136,   7, 0x100003AC) /* ClothingBase */
+     , (20136,   8, 0x06002602) /* Icon */
+     , (20136,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20136,  37,          3) /* ItemSkillLimit - Crossbow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

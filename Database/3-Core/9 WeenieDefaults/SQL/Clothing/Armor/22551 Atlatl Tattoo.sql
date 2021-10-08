@@ -47,13 +47,13 @@ VALUES (22551,   1, 'Atlatl Tattoo') /* Name */
      , (22551,  16, 'A vial of tattoo ink infused with the power of raining death. When painted on the upper arms the ink will act as armor and will grant the wearer the power of raining death.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22551,   1,   33554641) /* Setup */
-     , (22551,   3,  536870932) /* SoundTable */
-     , (22551,   6,   67108990) /* PaletteBase */
-     , (22551,   7,  268436521) /* ClothingBase */
-     , (22551,   8,  100668172) /* Icon */
-     , (22551,  22,  872415275) /* PhysicsEffectTable */
-     , (22551,  50,  100673784) /* IconOverlay */;
+VALUES (22551,   1, 0x020000D1) /* Setup */
+     , (22551,   3, 0x20000014) /* SoundTable */
+     , (22551,   6, 0x0400007E) /* PaletteBase */
+     , (22551,   7, 0x10000429) /* ClothingBase */
+     , (22551,   8, 0x0600130C) /* Icon */
+     , (22551,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (22551,  50, 0x060028F8) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22551,  2695,      2)  /* Moderate Missile Weapon Aptitude */

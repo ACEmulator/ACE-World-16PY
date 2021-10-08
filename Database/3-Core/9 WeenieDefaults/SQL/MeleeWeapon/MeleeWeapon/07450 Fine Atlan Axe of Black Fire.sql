@@ -45,12 +45,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7450,   1, 'Fine Atlan Axe of Black Fire') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7450,   1,   33557398) /* Setup */
-     , (7450,   3,  536870932) /* SoundTable */
-     , (7450,   6,   67111919) /* PaletteBase */
-     , (7450,   7,  268435881) /* ClothingBase */
-     , (7450,   8,  100670513) /* Icon */
-     , (7450,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7450,   1, 0x02000B96) /* Setup */
+     , (7450,   3, 0x20000014) /* SoundTable */
+     , (7450,   6, 0x04000BEF) /* PaletteBase */
+     , (7450,   7, 0x100001A9) /* ClothingBase */
+     , (7450,   8, 0x06001C31) /* Icon */
+     , (7450,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7450,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

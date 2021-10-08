@@ -60,13 +60,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5750,   1, 'Skeleton') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5750,   1,   33554521) /* Setup */
-     , (5750,   2,  150994981) /* MotionTable */
-     , (5750,   3,  536870942) /* SoundTable */
-     , (5750,   4,  805306368) /* CombatTable */
-     , (5750,   8,  100669124) /* Icon */
-     , (5750,  20,   50332893) /* InitMotion */
-     , (5750,  22,  872415269) /* PhysicsEffectTable */
+VALUES (5750,   1, 0x02000059) /* Setup */
+     , (5750,   2, 0x09000025) /* MotionTable */
+     , (5750,   3, 0x2000001E) /* SoundTable */
+     , (5750,   4, 0x30000000) /* CombatTable */
+     , (5750,   8, 0x060016C4) /* Icon */
+     , (5750,  20, 0x030004DD) /* InitMotion */
+     , (5750,  22, 0x34000025) /* PhysicsEffectTable */
      , (5750,  32,        186) /* WieldedTreasureType - 
                                    Wield 10x Throwing Dart (316) | Probability: 5%
                                    Wield 10x Shouken (343) | Probability: 5%

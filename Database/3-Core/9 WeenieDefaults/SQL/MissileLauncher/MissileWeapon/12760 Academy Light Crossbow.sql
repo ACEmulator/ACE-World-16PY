@@ -41,9 +41,9 @@ VALUES (12760,   1, 'Academy Light Crossbow') /* Name */
      , (12760,  15, 'An enhanced crossbow crafted in the Training Academy. This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12760,   1,   33554733) /* Setup */
-     , (12760,   3,  536870932) /* SoundTable */
-     , (12760,   6,   67111919) /* PaletteBase */
-     , (12760,   7,  268435763) /* ClothingBase */
-     , (12760,   8,  100668845) /* Icon */
-     , (12760,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12760,   1, 0x0200012D) /* Setup */
+     , (12760,   3, 0x20000014) /* SoundTable */
+     , (12760,   6, 0x04000BEF) /* PaletteBase */
+     , (12760,   7, 0x10000133) /* ClothingBase */
+     , (12760,   8, 0x060015AD) /* Icon */
+     , (12760,  22, 0x3400002B) /* PhysicsEffectTable */;

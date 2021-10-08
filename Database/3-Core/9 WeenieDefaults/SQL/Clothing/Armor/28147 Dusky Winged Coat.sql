@@ -45,12 +45,12 @@ VALUES (28147,   1, 'Dusky Winged Coat') /* Name */
      , (28147,  16, 'A winged coat crafted from the hide of an adolescent ash gromnie.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28147,   1,   33554854) /* Setup */
-     , (28147,   3,  536870932) /* SoundTable */
-     , (28147,   6,   67108990) /* PaletteBase */
-     , (28147,   7,  268436850) /* ClothingBase */
-     , (28147,   8,  100670435) /* Icon */
-     , (28147,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28147,   1, 0x020001A6) /* Setup */
+     , (28147,   3, 0x20000014) /* SoundTable */
+     , (28147,   6, 0x0400007E) /* PaletteBase */
+     , (28147,   7, 0x10000572) /* ClothingBase */
+     , (28147,   8, 0x06001BE3) /* Icon */
+     , (28147,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28147,  1486,      2)  /* Impenetrability VI */

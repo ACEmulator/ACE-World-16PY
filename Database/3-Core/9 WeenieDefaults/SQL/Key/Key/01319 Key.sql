@@ -26,6 +26,6 @@ VALUES (1319,   1, 'Key') /* Name */
      , (1319,  16, 'This key opens a chest in the Eastham Sewer.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1319,   1,   33554784) /* Setup */
-     , (1319,   8,  100667485) /* Icon */
-     , (1319,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1319,   1, 0x02000160) /* Setup */
+     , (1319,   8, 0x0600105D) /* Icon */
+     , (1319,  22, 0x3400002B) /* PhysicsEffectTable */;

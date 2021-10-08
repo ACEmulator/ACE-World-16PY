@@ -62,12 +62,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13220,   1, 'Hollow Minion Invader') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13220,   1,   33556792) /* Setup */
-     , (13220,   2,  150995146) /* MotionTable */
-     , (13220,   3,  536871013) /* SoundTable */
-     , (13220,   4,  805306413) /* CombatTable */
-     , (13220,   8,  100671140) /* Icon */
-     , (13220,  22,  872415367) /* PhysicsEffectTable */;
+VALUES (13220,   1, 0x02000938) /* Setup */
+     , (13220,   2, 0x090000CA) /* MotionTable */
+     , (13220,   3, 0x20000065) /* SoundTable */
+     , (13220,   4, 0x3000002D) /* CombatTable */
+     , (13220,   8, 0x06001EA4) /* Icon */
+     , (13220,  22, 0x34000087) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (13220,   1,  30, 0, 0) /* Strength */

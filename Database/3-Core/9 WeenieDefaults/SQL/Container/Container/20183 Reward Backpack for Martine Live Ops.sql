@@ -30,12 +30,12 @@ VALUES (20183,   1, 'Reward Backpack for Martine Live Ops') /* Name */
      , (20183,  15, 'Contains rewards for players that aid Martine.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20183,   1,   33554769) /* Setup */
-     , (20183,   3,  536870932) /* SoundTable */
-     , (20183,   6,   67111919) /* PaletteBase */
-     , (20183,   7,  268435867) /* ClothingBase */
-     , (20183,   8,  100670383) /* Icon */
-     , (20183,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (20183,   1, 0x02000151) /* Setup */
+     , (20183,   3, 0x20000014) /* SoundTable */
+     , (20183,   6, 0x04000BEF) /* PaletteBase */
+     , (20183,   7, 0x1000019B) /* ClothingBase */
+     , (20183,   8, 0x06001BAF) /* Icon */
+     , (20183,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (20183, 1,  9177,  1, 0, 1, False) /* Create Pack Scarecrow (9177) for Contain */

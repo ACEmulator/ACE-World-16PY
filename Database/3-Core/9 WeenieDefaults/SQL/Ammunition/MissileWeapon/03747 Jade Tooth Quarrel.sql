@@ -33,7 +33,7 @@ VALUES (3747,   1, 'Jade Tooth Quarrel') /* Name */
      , (3747,  15, 'Quarrel made from the tooth of a Jade Gromnie.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3747,   1,   33554730) /* Setup */
-     , (3747,   3,  536870932) /* SoundTable */
-     , (3747,   8,  100667584) /* Icon */
-     , (3747,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3747,   1, 0x0200012A) /* Setup */
+     , (3747,   3, 0x20000014) /* SoundTable */
+     , (3747,   8, 0x060010C0) /* Icon */
+     , (3747,  22, 0x3400002B) /* PhysicsEffectTable */;

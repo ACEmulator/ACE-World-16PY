@@ -38,8 +38,8 @@ VALUES (22172,   1, 'LiveOp Hotspot') /* Name */
      , (22172,  17, 'You should not be here.') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22172,   1,   33556024) /* Setup */
-     , (22172,   8,  100667494) /* Icon */;
+VALUES (22172,   1, 0x02000638) /* Setup */
+     , (22172,   8, 0x06001066) /* Icon */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (22172,  8 /* Activation */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

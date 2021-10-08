@@ -70,14 +70,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12026,   1, 'Dark Myrmidon') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12026,   1,   33555465) /* Setup */
-     , (12026,   2,  150994981) /* MotionTable */
-     , (12026,   3,  536870942) /* SoundTable */
-     , (12026,   4,  805306368) /* CombatTable */
-     , (12026,   6,   67111266) /* PaletteBase */
-     , (12026,   7,  268435646) /* ClothingBase */
-     , (12026,   8,  100669124) /* Icon */
-     , (12026,  22,  872415269) /* PhysicsEffectTable */
+VALUES (12026,   1, 0x02000409) /* Setup */
+     , (12026,   2, 0x09000025) /* MotionTable */
+     , (12026,   3, 0x2000001E) /* SoundTable */
+     , (12026,   4, 0x30000000) /* CombatTable */
+     , (12026,   6, 0x04000962) /* PaletteBase */
+     , (12026,   7, 0x100000BE) /* ClothingBase */
+     , (12026,   8, 0x060016C4) /* Icon */
+     , (12026,  22, 0x34000025) /* PhysicsEffectTable */
      , (12026,  32,        289) /* WieldedTreasureType - 
                                    Wield Yumi (23736) | Probability: 50%
                                    Wield 16x Greater Fire Arrow (5305) | Probability: 100%

@@ -69,11 +69,11 @@ VALUES (411,   1, 'Fisana the Jeweler') /* Name */
      , (411,   5, 'Jeweler') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (411,   1,   33554510) /* Setup */
-     , (411,   2,  150994945) /* MotionTable */
-     , (411,   3,  536870914) /* SoundTable */
-     , (411,   4,  805306368) /* CombatTable */
-     , (411,   8,  100667446) /* Icon */;
+VALUES (411,   1, 0x0200004E) /* Setup */
+     , (411,   2, 0x09000001) /* MotionTable */
+     , (411,   3, 0x20000002) /* SoundTable */
+     , (411,   4, 0x30000000) /* CombatTable */
+     , (411,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (411,   1,  25, 0, 0) /* Strength */

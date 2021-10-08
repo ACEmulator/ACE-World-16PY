@@ -37,5 +37,5 @@ VALUES (5408,   1, 'Waterfall') /* Name */
      , (5408,  17, 'The thundering water batters you for %i points of damage!') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5408,   1,   33556024) /* Setup */
-     , (5408,   8,  100667494) /* Icon */;
+VALUES (5408,   1, 0x02000638) /* Setup */
+     , (5408,   8, 0x06001066) /* Icon */;

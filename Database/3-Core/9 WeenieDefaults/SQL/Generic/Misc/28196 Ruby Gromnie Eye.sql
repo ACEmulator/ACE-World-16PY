@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28196,   1, 'Ruby Gromnie Eye') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28196,   1,   33554817) /* Setup */
-     , (28196,   3,  536870932) /* SoundTable */
-     , (28196,   6,   67111919) /* PaletteBase */
-     , (28196,   7,  268435720) /* ClothingBase */
-     , (28196,   8,  100676741) /* Icon */
-     , (28196,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28196,   1, 0x02000181) /* Setup */
+     , (28196,   3, 0x20000014) /* SoundTable */
+     , (28196,   6, 0x04000BEF) /* PaletteBase */
+     , (28196,   7, 0x10000108) /* ClothingBase */
+     , (28196,   8, 0x06003485) /* Icon */
+     , (28196,  22, 0x3400002B) /* PhysicsEffectTable */;

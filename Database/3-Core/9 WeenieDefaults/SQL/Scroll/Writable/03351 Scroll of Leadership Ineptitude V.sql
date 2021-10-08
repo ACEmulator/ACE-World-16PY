@@ -25,7 +25,7 @@ VALUES (3351,   1, 'Scroll of Leadership Ineptitude V') /* Name */
      , (3351,  16, 'When learned, this spell decreases the target''s Leadership skill by 50%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3351,   1,   33554826) /* Setup */
-     , (3351,   8,  100676446) /* Icon */
-     , (3351,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3351,   1, 0x0200018A) /* Setup */
+     , (3351,   8, 0x0600335E) /* Icon */
+     , (3351,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3351,  28,        920) /* Spell - Leadership Ineptitude Other V */;

@@ -40,8 +40,8 @@ VALUES (1458,   1, 'Fiery Helm') /* Name */
      , (1458,  16, 'A fiery helm that seems to give resistance against fire.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1458,   1,   33554649) /* Setup */
-     , (1458,   6,   67108990) /* PaletteBase */
-     , (1458,   7,  268435501) /* ClothingBase */
-     , (1458,   8,  100667347) /* Icon */
-     , (1458,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1458,   1, 0x020000D9) /* Setup */
+     , (1458,   6, 0x0400007E) /* PaletteBase */
+     , (1458,   7, 0x1000002D) /* ClothingBase */
+     , (1458,   8, 0x06000FD3) /* Icon */
+     , (1458,  22, 0x3400002B) /* PhysicsEffectTable */;

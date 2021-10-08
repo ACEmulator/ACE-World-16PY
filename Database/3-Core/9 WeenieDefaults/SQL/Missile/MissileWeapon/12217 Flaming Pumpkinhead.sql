@@ -45,9 +45,9 @@ VALUES (12217,   1, 'Flaming Pumpkinhead') /* Name */
      , (12217,  16, 'It''s a pumpkin, that burns within with a strange supernatural flame. You can sense a strange, latent magic within it.  When it is thrown in combat, it will mystically replenish itself, tapping into the magic until it is exhausted.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12217,   1,   33556858) /* Setup */
-     , (12217,   3,  536870932) /* SoundTable */
-     , (12217,   6,   67112968) /* PaletteBase */
-     , (12217,   7,  268436044) /* ClothingBase */
-     , (12217,   8,  100672173) /* Icon */
-     , (12217,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12217,   1, 0x0200097A) /* Setup */
+     , (12217,   3, 0x20000014) /* SoundTable */
+     , (12217,   6, 0x04001008) /* PaletteBase */
+     , (12217,   7, 0x1000024C) /* ClothingBase */
+     , (12217,   8, 0x060022AD) /* Icon */
+     , (12217,  22, 0x3400002B) /* PhysicsEffectTable */;

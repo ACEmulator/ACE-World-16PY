@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28001,   1, 'Mosswart Scrounger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28001,   1,   33557327) /* Setup */
-     , (28001,   2,  150994953) /* MotionTable */
-     , (28001,   3,  536870959) /* SoundTable */
-     , (28001,   4,  805306373) /* CombatTable */
-     , (28001,   6,   67113400) /* PaletteBase */
-     , (28001,   7,  268436292) /* ClothingBase */
-     , (28001,   8,  100667449) /* Icon */
-     , (28001,  22,  872415264) /* PhysicsEffectTable */
+VALUES (28001,   1, 0x02000B4F) /* Setup */
+     , (28001,   2, 0x09000009) /* MotionTable */
+     , (28001,   3, 0x2000002F) /* SoundTable */
+     , (28001,   4, 0x30000005) /* CombatTable */
+     , (28001,   6, 0x040011B8) /* PaletteBase */
+     , (28001,   7, 0x10000344) /* ClothingBase */
+     , (28001,   8, 0x06001039) /* Icon */
+     , (28001,  22, 0x34000020) /* PhysicsEffectTable */
      , (28001,  32,        297) /* WieldedTreasureType - 
                                    Wield Tachi (23699) | Probability: 33%
                                    Wield Yaoji (23709) | Probability: 33%

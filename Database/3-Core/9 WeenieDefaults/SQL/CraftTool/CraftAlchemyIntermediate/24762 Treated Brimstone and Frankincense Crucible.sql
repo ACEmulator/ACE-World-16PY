@@ -32,8 +32,8 @@ VALUES (24762,   1, 'Treated Brimstone and Frankincense Crucible') /* Name */
      , (24762,  20, 'Treated Brimstone and Frankincense Crucibles') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24762,   1,   33555966) /* Setup */
-     , (24762,   3,  536870932) /* SoundTable */
-     , (24762,   8,  100674469) /* Icon */
-     , (24762,  22,  872415275) /* PhysicsEffectTable */
-     , (24762,  50,  100674415) /* IconOverlay */;
+VALUES (24762,   1, 0x020005FE) /* Setup */
+     , (24762,   3, 0x20000014) /* SoundTable */
+     , (24762,   8, 0x06002BA5) /* Icon */
+     , (24762,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24762,  50, 0x06002B6F) /* IconOverlay */;

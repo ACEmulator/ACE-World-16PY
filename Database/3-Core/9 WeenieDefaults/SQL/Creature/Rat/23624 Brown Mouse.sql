@@ -62,14 +62,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23624,   1, 'Brown Mouse') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23624,   1,   33558222) /* Setup */
-     , (23624,   2,  150994958) /* MotionTable */
-     , (23624,   3,  536870927) /* SoundTable */
-     , (23624,   4,  805306377) /* CombatTable */
-     , (23624,   6,   67109300) /* PaletteBase */
-     , (23624,   7,  268436541) /* ClothingBase */
-     , (23624,   8,  100667451) /* Icon */
-     , (23624,  22,  872415395) /* PhysicsEffectTable */;
+VALUES (23624,   1, 0x02000ECE) /* Setup */
+     , (23624,   2, 0x0900000E) /* MotionTable */
+     , (23624,   3, 0x2000000F) /* SoundTable */
+     , (23624,   4, 0x30000009) /* CombatTable */
+     , (23624,   6, 0x040001B4) /* PaletteBase */
+     , (23624,   7, 0x1000043D) /* ClothingBase */
+     , (23624,   8, 0x0600103B) /* Icon */
+     , (23624,  22, 0x340000A3) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23624,   1,  10, 0, 0) /* Strength */

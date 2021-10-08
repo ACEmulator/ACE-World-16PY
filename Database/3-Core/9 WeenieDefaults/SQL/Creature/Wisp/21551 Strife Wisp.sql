@@ -63,11 +63,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21551,   1, 'Strife Wisp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21551,   1,   33556955) /* Setup */
-     , (21551,   2,  150995087) /* MotionTable */
-     , (21551,   3,  536870985) /* SoundTable */
-     , (21551,   4,  805306368) /* CombatTable */
-     , (21551,   8,  100671332) /* Icon */
+VALUES (21551,   1, 0x020009DB) /* Setup */
+     , (21551,   2, 0x0900008F) /* MotionTable */
+     , (21551,   3, 0x20000049) /* SoundTable */
+     , (21551,   4, 0x30000000) /* CombatTable */
+     , (21551,   8, 0x06001F64) /* Icon */
      , (21551,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

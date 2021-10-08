@@ -24,7 +24,7 @@ VALUES (20532,   1, 'Scroll of Unsteady Hands') /* Name */
      , (20532,  15, 'When learned, this spell decreases the target''s Healing skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20532,   1,   33554826) /* Setup */
-     , (20532,   8,  100676459) /* Icon */
-     , (20532,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20532,   1, 0x0200018A) /* Setup */
+     , (20532,   8, 0x0600336B) /* Icon */
+     , (20532,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20532,  28,       2238) /* Spell - Unsteady Hands */;

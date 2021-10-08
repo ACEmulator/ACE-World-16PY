@@ -23,7 +23,7 @@ VALUES (4669,   1, 'Zayjay''s Clothing') /* Name */
      , (4669,  16, 'Zayjay''s Clothing') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4669,   1,   33555909) /* Setup */
-     , (4669,   6,   67111860) /* PaletteBase */
-     , (4669,   7,  268435827) /* ClothingBase */
-     , (4669,   8,  100668115) /* Icon */;
+VALUES (4669,   1, 0x020005C5) /* Setup */
+     , (4669,   6, 0x04000BB4) /* PaletteBase */
+     , (4669,   7, 0x10000173) /* ClothingBase */
+     , (4669,   8, 0x060012D3) /* Icon */;

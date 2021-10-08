@@ -38,11 +38,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28619,   1, 'Tenassa Helm') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28619,   1,   33555248) /* Setup */
-     , (28619,   3,  536870932) /* SoundTable */
-     , (28619,   6,   67108990) /* PaletteBase */
-     , (28619,   7,  268435629) /* ClothingBase */
-     , (28619,   8,  100667349) /* Icon */
-     , (28619,  22,  872415275) /* PhysicsEffectTable */
-     , (28619,  36,  234881042) /* MutateFilter */
-     , (28619,  46,  939524146) /* TsysMutationFilter */;
+VALUES (28619,   1, 0x02000330) /* Setup */
+     , (28619,   3, 0x20000014) /* SoundTable */
+     , (28619,   6, 0x0400007E) /* PaletteBase */
+     , (28619,   7, 0x100000AD) /* ClothingBase */
+     , (28619,   8, 0x06000FD5) /* Icon */
+     , (28619,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (28619,  36, 0x0E000012) /* MutateFilter */
+     , (28619,  46, 0x38000032) /* TsysMutationFilter */;

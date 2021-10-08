@@ -36,6 +36,6 @@ VALUES (25993,   1, 'Foot Massager') /* Name */
      , (25993,  17, 'The water swirls around your feet, restoring %i points of stamina.') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25993,   1,   33558575) /* Setup */
-     , (25993,   3,  536870994) /* SoundTable */
-     , (25993,   8,  100667465) /* Icon */;
+VALUES (25993,   1, 0x0200102F) /* Setup */
+     , (25993,   3, 0x20000052) /* SoundTable */
+     , (25993,   8, 0x06001049) /* Icon */;

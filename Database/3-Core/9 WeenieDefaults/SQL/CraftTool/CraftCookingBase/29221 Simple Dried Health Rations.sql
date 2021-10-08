@@ -25,7 +25,7 @@ VALUES (29221,   1, 'Simple Dried Health Rations') /* Name */
      , (29221,  20, 'Simple Dried Health Rations') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29221,   1,   33554817) /* Setup */
-     , (29221,   3,  536870932) /* SoundTable */
-     , (29221,   8,  100674003) /* Icon */
-     , (29221,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29221,   1, 0x02000181) /* Setup */
+     , (29221,   3, 0x20000014) /* SoundTable */
+     , (29221,   8, 0x060029D3) /* Icon */
+     , (29221,  22, 0x3400002B) /* PhysicsEffectTable */;

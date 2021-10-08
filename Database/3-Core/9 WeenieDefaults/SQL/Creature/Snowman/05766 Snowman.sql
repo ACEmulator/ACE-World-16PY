@@ -65,12 +65,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5766,   1, 'Snowman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5766,   1,   33556222) /* Setup */
-     , (5766,   2,  150995088) /* MotionTable */
-     , (5766,   3,  536871000) /* SoundTable */
-     , (5766,   4,  805306406) /* CombatTable */
-     , (5766,   8,  100669125) /* Icon */
-     , (5766,  22,  872415346) /* PhysicsEffectTable */
+VALUES (5766,   1, 0x020006FE) /* Setup */
+     , (5766,   2, 0x09000090) /* MotionTable */
+     , (5766,   3, 0x20000058) /* SoundTable */
+     , (5766,   4, 0x30000026) /* CombatTable */
+     , (5766,   8, 0x060016C5) /* Icon */
+     , (5766,  22, 0x34000072) /* PhysicsEffectTable */
      , (5766,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

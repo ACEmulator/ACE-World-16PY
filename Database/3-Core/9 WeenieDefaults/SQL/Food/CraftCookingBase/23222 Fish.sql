@@ -27,7 +27,7 @@ VALUES (23222,   1, 'Fish') /* Name */
      , (23222,  20, 'Fish') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23222,   1,   33554674) /* Setup */
-     , (23222,   3,  536870932) /* SoundTable */
-     , (23222,   8,  100667461) /* Icon */
-     , (23222,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23222,   1, 0x020000F2) /* Setup */
+     , (23222,   3, 0x20000014) /* SoundTable */
+     , (23222,   8, 0x06001045) /* Icon */
+     , (23222,  22, 0x3400002B) /* PhysicsEffectTable */;

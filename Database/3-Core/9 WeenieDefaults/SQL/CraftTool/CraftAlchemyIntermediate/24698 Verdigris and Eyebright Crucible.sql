@@ -31,8 +31,8 @@ VALUES (24698,   1, 'Verdigris and Eyebright Crucible') /* Name */
      , (24698,  20, 'Verdigris and Eyebright Crucibles') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24698,   1,   33555966) /* Setup */
-     , (24698,   3,  536870932) /* SoundTable */
-     , (24698,   8,  100674465) /* Icon */
-     , (24698,  22,  872415275) /* PhysicsEffectTable */
-     , (24698,  50,  100674413) /* IconOverlay */;
+VALUES (24698,   1, 0x020005FE) /* Setup */
+     , (24698,   3, 0x20000014) /* SoundTable */
+     , (24698,   8, 0x06002BA1) /* Icon */
+     , (24698,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24698,  50, 0x06002B6D) /* IconOverlay */;

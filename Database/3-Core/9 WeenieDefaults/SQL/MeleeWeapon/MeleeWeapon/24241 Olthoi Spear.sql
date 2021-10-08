@@ -42,10 +42,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24241,   1, 'Olthoi Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24241,   1,   33558330) /* Setup */
-     , (24241,   3,  536870932) /* SoundTable */
-     , (24241,   8,  100674294) /* Icon */
-     , (24241,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24241,   1, 0x02000F3A) /* Setup */
+     , (24241,   3, 0x20000014) /* SoundTable */
+     , (24241,   8, 0x06002AF6) /* Icon */
+     , (24241,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24241,  2609,      2)  /* Major Acid Ward */

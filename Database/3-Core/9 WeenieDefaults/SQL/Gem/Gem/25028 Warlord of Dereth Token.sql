@@ -27,9 +27,9 @@ VALUES (25028,   1, 'Warlord of Dereth Token') /* Name */
      , (25028,  15, 'This token will grant the title Warlord of Dereth when turned into the High Queen, or a royal guard who grant this title.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25028,   1,   33557280) /* Setup */
-     , (25028,   3,  536870932) /* SoundTable */
-     , (25028,   6,   67111092) /* PaletteBase */
-     , (25028,   7,  268436301) /* ClothingBase */
-     , (25028,   8,  100674709) /* Icon */
-     , (25028,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25028,   1, 0x02000B20) /* Setup */
+     , (25028,   3, 0x20000014) /* SoundTable */
+     , (25028,   6, 0x040008B4) /* PaletteBase */
+     , (25028,   7, 0x1000034D) /* ClothingBase */
+     , (25028,   8, 0x06002C95) /* Icon */
+     , (25028,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -24,9 +24,9 @@ VALUES (25407,   1, 'Poison') /* Name */
      , (25407,  15, 'A vial of viscid green fluid, afloat with tiny particles of black. The smell is somehow both rank and acrid.  ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25407,   1,   33555209) /* Setup */
-     , (25407,   3,  536870932) /* SoundTable */
-     , (25407,   6,   67111919) /* PaletteBase */
-     , (25407,   7,  268435719) /* ClothingBase */
-     , (25407,   8,  100668156) /* Icon */
-     , (25407,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25407,   1, 0x02000309) /* Setup */
+     , (25407,   3, 0x20000014) /* SoundTable */
+     , (25407,   6, 0x04000BEF) /* PaletteBase */
+     , (25407,   7, 0x10000107) /* ClothingBase */
+     , (25407,   8, 0x060012FC) /* Icon */
+     , (25407,  22, 0x3400002B) /* PhysicsEffectTable */;

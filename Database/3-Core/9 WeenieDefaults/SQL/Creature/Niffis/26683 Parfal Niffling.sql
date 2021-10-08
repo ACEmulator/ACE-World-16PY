@@ -66,12 +66,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26683,   1, 'Parfal Niffling') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26683,   1,   33556774) /* Setup */
-     , (26683,   2,  150995286) /* MotionTable */
-     , (26683,   3,  536871010) /* SoundTable */
-     , (26683,   4,  805306410) /* CombatTable */
-     , (26683,   8,  100670961) /* Icon */
-     , (26683,  22,  872415365) /* PhysicsEffectTable */
+VALUES (26683,   1, 0x02000926) /* Setup */
+     , (26683,   2, 0x09000156) /* MotionTable */
+     , (26683,   3, 0x20000062) /* SoundTable */
+     , (26683,   4, 0x3000002A) /* CombatTable */
+     , (26683,   8, 0x06001DF1) /* Icon */
+     , (26683,  22, 0x34000085) /* PhysicsEffectTable */
      , (26683,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

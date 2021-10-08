@@ -25,7 +25,7 @@ VALUES (3745,   1, 'Scroll of Infuse Stamina VI') /* Name */
      , (3745,  16, 'When learned, this spell drains one-quarter of the caster''s Stamina and gives 110% of that to the target.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3745,   1,   33554826) /* Setup */
-     , (3745,   8,  100676930) /* Icon */
-     , (3745,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3745,   1, 0x0200018A) /* Setup */
+     , (3745,   8, 0x06003542) /* Icon */
+     , (3745,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3745,  28,       1248) /* Spell - Infuse Stamina Other VI */;

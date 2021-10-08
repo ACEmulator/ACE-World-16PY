@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24942,   1, 'Gotrok Lithos') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24942,   1,   33557003) /* Setup */
-     , (24942,   2,  150994950) /* MotionTable */
-     , (24942,   3,  536870922) /* SoundTable */
-     , (24942,   4,  805306371) /* CombatTable */
-     , (24942,   6,   67113158) /* PaletteBase */
-     , (24942,   7,  268436158) /* ClothingBase */
-     , (24942,   8,  100667447) /* Icon */
-     , (24942,  22,  872415262) /* PhysicsEffectTable */
+VALUES (24942,   1, 0x02000A0B) /* Setup */
+     , (24942,   2, 0x09000006) /* MotionTable */
+     , (24942,   3, 0x2000000A) /* SoundTable */
+     , (24942,   4, 0x30000003) /* CombatTable */
+     , (24942,   6, 0x040010C6) /* PaletteBase */
+     , (24942,   7, 0x100002BE) /* ClothingBase */
+     , (24942,   8, 0x06001037) /* Icon */
+     , (24942,  22, 0x3400001E) /* PhysicsEffectTable */
      , (24942,  32,        441) /* WieldedTreasureType - 
                                    Wield Lugian Axe (23741) | Probability: 35%
                                    Wield Lugian Hammer (23755) | Probability: 15.000001%

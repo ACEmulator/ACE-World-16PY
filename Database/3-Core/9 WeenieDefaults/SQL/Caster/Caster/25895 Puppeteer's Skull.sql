@@ -40,11 +40,11 @@ VALUES (25895,   1, 'Puppeteer''s Skull') /* Name */
      , (25895,  16, 'A skull with dark energies pouring from its eyes and mouth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25895,   1,   33558558) /* Setup */
-     , (25895,   3,  536870932) /* SoundTable */
-     , (25895,   8,  100675627) /* Icon */
-     , (25895,  22,  872415275) /* PhysicsEffectTable */
-     , (25895,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (25895,   1, 0x0200101E) /* Setup */
+     , (25895,   3, 0x20000014) /* SoundTable */
+     , (25895,   8, 0x0600302B) /* Icon */
+     , (25895,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (25895,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (25895,  28,       2998) /* Spell - Wrath of the Puppeteer */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

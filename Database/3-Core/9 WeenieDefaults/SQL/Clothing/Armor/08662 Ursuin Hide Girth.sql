@@ -39,9 +39,9 @@ VALUES (8662,   1, 'Ursuin Hide Girth') /* Name */
      , (8662,  16, 'A girth made from the hide of an ursuin.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8662,   1,   33554647) /* Setup */
-     , (8662,   3,  536870932) /* SoundTable */
-     , (8662,   6,   67108990) /* PaletteBase */
-     , (8662,   7,  268436100) /* ClothingBase */
-     , (8662,   8,  100668145) /* Icon */
-     , (8662,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8662,   1, 0x020000D7) /* Setup */
+     , (8662,   3, 0x20000014) /* SoundTable */
+     , (8662,   6, 0x0400007E) /* PaletteBase */
+     , (8662,   7, 0x10000284) /* ClothingBase */
+     , (8662,   8, 0x060012F1) /* Icon */
+     , (8662,  22, 0x3400002B) /* PhysicsEffectTable */;

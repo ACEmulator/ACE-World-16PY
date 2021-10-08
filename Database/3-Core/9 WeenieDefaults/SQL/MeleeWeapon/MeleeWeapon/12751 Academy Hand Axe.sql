@@ -40,10 +40,10 @@ VALUES (12751,   1, 'Academy Hand Axe') /* Name */
      , (12751,  15, 'An enhanced axe crafted in the Training Academy. This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12751,   1,   33554727) /* Setup */
-     , (12751,   3,  536870932) /* SoundTable */
-     , (12751,   6,   67111919) /* PaletteBase */
-     , (12751,   7,  268435837) /* ClothingBase */
-     , (12751,   8,  100670216) /* Icon */
-     , (12751,  22,  872415275) /* PhysicsEffectTable */
-     , (12751,  36,  234881044) /* MutateFilter */;
+VALUES (12751,   1, 0x02000127) /* Setup */
+     , (12751,   3, 0x20000014) /* SoundTable */
+     , (12751,   6, 0x04000BEF) /* PaletteBase */
+     , (12751,   7, 0x1000017D) /* ClothingBase */
+     , (12751,   8, 0x06001B08) /* Icon */
+     , (12751,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (12751,  36, 0x0E000014) /* MutateFilter */;

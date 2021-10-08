@@ -38,11 +38,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3866,   1, 'Lightning Silifi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3866,   1,   33555781) /* Setup */
-     , (3866,   3,  536870932) /* SoundTable */
-     , (3866,   6,   67111919) /* PaletteBase */
-     , (3866,   7,  268435767) /* ClothingBase */
-     , (3866,   8,  100667606) /* Icon */
-     , (3866,  22,  872415275) /* PhysicsEffectTable */
-     , (3866,  36,  234881053) /* MutateFilter */
-     , (3866,  46,  939524098) /* TsysMutationFilter */;
+VALUES (3866,   1, 0x02000545) /* Setup */
+     , (3866,   3, 0x20000014) /* SoundTable */
+     , (3866,   6, 0x04000BEF) /* PaletteBase */
+     , (3866,   7, 0x10000137) /* ClothingBase */
+     , (3866,   8, 0x060010D6) /* Icon */
+     , (3866,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3866,  36, 0x0E00001D) /* MutateFilter */
+     , (3866,  46, 0x38000002) /* TsysMutationFilter */;

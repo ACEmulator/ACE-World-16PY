@@ -24,7 +24,7 @@ VALUES (28022,   1, 'A Worn Prison Master''s Key') /* Name */
      , (28022,  16, 'This key looks to fit the lock of a prison door.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28022,   1,   33554784) /* Setup */
-     , (28022,   3,  536870932) /* SoundTable */
-     , (28022,   8,  100668441) /* Icon */
-     , (28022,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28022,   1, 0x02000160) /* Setup */
+     , (28022,   3, 0x20000014) /* SoundTable */
+     , (28022,   8, 0x06001419) /* Icon */
+     , (28022,  22, 0x3400002B) /* PhysicsEffectTable */;

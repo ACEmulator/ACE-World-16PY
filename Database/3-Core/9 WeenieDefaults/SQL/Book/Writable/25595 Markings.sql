@@ -25,10 +25,10 @@ VALUES (25595,   1, 'Markings') /* Name */
      , (25595,  16, 'Markings on the wall.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25595,   1,   33558506) /* Setup */
-     , (25595,   3,  536870932) /* SoundTable */
-     , (25595,   8,  100675461) /* Icon */
-     , (25595,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25595,   1, 0x02000FEA) /* Setup */
+     , (25595,   3, 0x20000014) /* SoundTable */
+     , (25595,   8, 0x06002F85) /* Icon */
+     , (25595,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (25595, 1, 1000);

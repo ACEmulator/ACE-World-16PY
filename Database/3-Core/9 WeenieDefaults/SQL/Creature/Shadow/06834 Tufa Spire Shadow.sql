@@ -70,14 +70,14 @@ VALUES (6834,   1, 'Tufa Spire Shadow') /* Name */
      , (6834,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6834,   1,   33556564) /* Setup */
-     , (6834,   2,  150995092) /* MotionTable */
-     , (6834,   3,  536870913) /* SoundTable */
-     , (6834,   4,  805306368) /* CombatTable */
-     , (6834,   6,   67111797) /* PaletteBase */
-     , (6834,   7,  268435992) /* ClothingBase */
-     , (6834,   8,  100670397) /* Icon */
-     , (6834,  22,  872415331) /* PhysicsEffectTable */
+VALUES (6834,   1, 0x02000854) /* Setup */
+     , (6834,   2, 0x09000094) /* MotionTable */
+     , (6834,   3, 0x20000001) /* SoundTable */
+     , (6834,   4, 0x30000000) /* CombatTable */
+     , (6834,   6, 0x04000B75) /* PaletteBase */
+     , (6834,   7, 0x10000218) /* ClothingBase */
+     , (6834,   8, 0x06001BBD) /* Icon */
+     , (6834,  22, 0x34000063) /* PhysicsEffectTable */
      , (6834,  32,        178) /* WieldedTreasureType - 
                                    Wield Yumi (23734) | Probability: 20%
                                    Wield 14x Deadly Fire Arrow (15435) | Probability: 100%

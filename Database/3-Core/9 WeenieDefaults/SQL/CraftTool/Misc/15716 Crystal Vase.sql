@@ -31,7 +31,7 @@ VALUES (15716,   1, 'Crystal Vase') /* Name */
      , (15716,  15, 'A vase cut from the bluest crystal to be had from the Lugian quarries of Travos. You can use this item on floor hooks.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15716,   1,   33557634) /* Setup */
-     , (15716,   3,  536870932) /* SoundTable */
-     , (15716,   8,  100672843) /* Icon */
-     , (15716,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15716,   1, 0x02000C82) /* Setup */
+     , (15716,   3, 0x20000014) /* SoundTable */
+     , (15716,   8, 0x0600254B) /* Icon */
+     , (15716,  22, 0x3400002B) /* PhysicsEffectTable */;

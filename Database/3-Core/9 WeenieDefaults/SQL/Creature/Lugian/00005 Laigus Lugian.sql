@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5,   1, 'Laigus Lugian') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5,   1,   33557003) /* Setup */
-     , (5,   2,  150994950) /* MotionTable */
-     , (5,   3,  536870922) /* SoundTable */
-     , (5,   4,  805306371) /* CombatTable */
-     , (5,   6,   67113158) /* PaletteBase */
-     , (5,   7,  268436152) /* ClothingBase */
-     , (5,   8,  100667447) /* Icon */
-     , (5,  22,  872415262) /* PhysicsEffectTable */
+VALUES (5,   1, 0x02000A0B) /* Setup */
+     , (5,   2, 0x09000006) /* MotionTable */
+     , (5,   3, 0x2000000A) /* SoundTable */
+     , (5,   4, 0x30000003) /* CombatTable */
+     , (5,   6, 0x040010C6) /* PaletteBase */
+     , (5,   7, 0x100002B8) /* ClothingBase */
+     , (5,   8, 0x06001037) /* Icon */
+     , (5,  22, 0x3400001E) /* PhysicsEffectTable */
      , (5,  32,        109) /* WieldedTreasureType - 
                                    Wield Rock (23747) | Probability: 75%
                                    Wield Lugian Axe (23741) | Probability: 15.000001%

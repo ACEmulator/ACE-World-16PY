@@ -22,5 +22,5 @@ VALUES (19396,   1, 'Vesper Gate') /* Name */
      , (19396,  16, 'Vesper Gate') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19396,   1,   33557698) /* Setup */
-     , (19396,   8,  100667499) /* Icon */;
+VALUES (19396,   1, 0x02000CC2) /* Setup */
+     , (19396,   8, 0x0600106B) /* Icon */;

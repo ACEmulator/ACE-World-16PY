@@ -27,9 +27,9 @@ VALUES (21399,   1, 'Acid Ziggurat') /* Name */
      , (21399,  37, 'ZigguratEntrance') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21399,   1,   33555926) /* Setup */
-     , (21399,   2,  150994947) /* MotionTable */
-     , (21399,   8,  100667499) /* Icon */;
+VALUES (21399,   1, 0x020005D6) /* Setup */
+     , (21399,   2, 0x09000003) /* MotionTable */
+     , (21399,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (21399, 2, 0x58460104, 20, -20, 0.005, -0.707107, 0, -0, -0.707107) /* Destination */

@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27141,   1, 'Restless Soul') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27141,   1,   33558436) /* Setup */
-     , (27141,   2,  150994967) /* MotionTable */
-     , (27141,   3,  536870934) /* SoundTable */
-     , (27141,   4,  805306368) /* CombatTable */
-     , (27141,   6,   67114480) /* PaletteBase */
-     , (27141,   7,  268436673) /* ClothingBase */
-     , (27141,   8,  100674805) /* Icon */
-     , (27141,  22,  872415272) /* PhysicsEffectTable */
+VALUES (27141,   1, 0x02000FA4) /* Setup */
+     , (27141,   2, 0x09000017) /* MotionTable */
+     , (27141,   3, 0x20000016) /* SoundTable */
+     , (27141,   4, 0x30000000) /* CombatTable */
+     , (27141,   6, 0x040015F0) /* PaletteBase */
+     , (27141,   7, 0x100004C1) /* ClothingBase */
+     , (27141,   8, 0x06002CF5) /* Icon */
+     , (27141,  22, 0x34000028) /* PhysicsEffectTable */
      , (27141,  32,        447) /* WieldedTreasureType - 
                                    Wield Khopesh (25500) | Probability: 98% */
      , (27141,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;

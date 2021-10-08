@@ -25,10 +25,10 @@ VALUES (10828,   1, 'Dirrich''s Journal') /* Name */
      , (10828,  16, 'A parchment of fine writing, translated with an even hand.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10828,   1,   33554773) /* Setup */
-     , (10828,   3,  536870932) /* SoundTable */
-     , (10828,   8,  100668176) /* Icon */
-     , (10828,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (10828,   1, 0x02000155) /* Setup */
+     , (10828,   3, 0x20000014) /* SoundTable */
+     , (10828,   8, 0x06001310) /* Icon */
+     , (10828,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (10828, 10, 1000);

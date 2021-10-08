@@ -40,9 +40,9 @@ VALUES (12741,   1, 'Training Shortbow') /* Name */
      , (12741,  15, 'A basic shortbow forged in the Strathelar Training Academy. This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12741,   1,   33554729) /* Setup */
-     , (12741,   3,  536870932) /* SoundTable */
-     , (12741,   6,   67111919) /* PaletteBase */
-     , (12741,   7,  268435760) /* ClothingBase */
-     , (12741,   8,  100668825) /* Icon */
-     , (12741,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12741,   1, 0x02000129) /* Setup */
+     , (12741,   3, 0x20000014) /* SoundTable */
+     , (12741,   6, 0x04000BEF) /* PaletteBase */
+     , (12741,   7, 0x10000130) /* ClothingBase */
+     , (12741,   8, 0x06001599) /* Icon */
+     , (12741,  22, 0x3400002B) /* PhysicsEffectTable */;

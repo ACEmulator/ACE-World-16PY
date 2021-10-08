@@ -28,11 +28,11 @@ VALUES (9058,   1, 'Pulsar Wisp Summoning Gen!') /* Name */
      , (9058,  17, 'As you disturb the magical mist between the pillars, a crackle of portal energy heralds the arrival of a wisp!') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9058,   1,   33555536) /* Setup */
-     , (9058,   2,  150994977) /* MotionTable */
-     , (9058,   3,  536871008) /* SoundTable */
-     , (9058,   8,  100668114) /* Icon */
-     , (9058,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9058,   1, 0x02000450) /* Setup */
+     , (9058,   2, 0x09000021) /* MotionTable */
+     , (9058,   3, 0x20000060) /* SoundTable */
+     , (9058,   8, 0x060012D2) /* Icon */
+     , (9058,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (9058,  16, 0x00000000) /* ActivationTarget */;

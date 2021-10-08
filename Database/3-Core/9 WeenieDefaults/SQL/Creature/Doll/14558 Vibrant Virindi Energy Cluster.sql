@@ -64,12 +64,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14558,   1, 'Vibrant Virindi Energy Cluster') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14558,   1,   33557522) /* Setup */
-     , (14558,   2,  150994984) /* MotionTable */
-     , (14558,   3,  536871022) /* SoundTable */
-     , (14558,   4,  805306416) /* CombatTable */
-     , (14558,   8,  100672521) /* Icon */
-     , (14558,  22,  872415373) /* PhysicsEffectTable */
+VALUES (14558,   1, 0x02000C12) /* Setup */
+     , (14558,   2, 0x09000028) /* MotionTable */
+     , (14558,   3, 0x2000006E) /* SoundTable */
+     , (14558,   4, 0x30000030) /* CombatTable */
+     , (14558,   8, 0x06002409) /* Icon */
+     , (14558,  22, 0x3400008D) /* PhysicsEffectTable */
      , (14558,  30,         87) /* PhysicsScript - BreatheLightning */
      , (14558,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 

@@ -25,7 +25,7 @@ VALUES (2948,   1, 'Scroll of Frost Volley VI') /* Name */
      , (2948,  16, 'When learned, this spell shoots three bolts of frost toward the target. Each bolt does 16-30 points of cold damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2948,   1,   33554826) /* Setup */
-     , (2948,   8,  100677016) /* Icon */
-     , (2948,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2948,   1, 0x0200018A) /* Setup */
+     , (2948,   8, 0x06003598) /* Icon */
+     , (2948,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2948,  28,        138) /* Spell - Frost Volley VI */;

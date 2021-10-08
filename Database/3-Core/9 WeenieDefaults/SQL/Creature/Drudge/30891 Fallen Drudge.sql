@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30891,   1, 'Fallen Drudge') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30891,   1,   33556445) /* Setup */
-     , (30891,   2,  150994952) /* MotionTable */
-     , (30891,   3,  536870919) /* SoundTable */
-     , (30891,   4,  805306372) /* CombatTable */
-     , (30891,   6,   67112812) /* PaletteBase */
-     , (30891,   7,  268436614) /* ClothingBase */
-     , (30891,   8,  100667445) /* Icon */
-     , (30891,  22,  872415258) /* PhysicsEffectTable */
+VALUES (30891,   1, 0x020007DD) /* Setup */
+     , (30891,   2, 0x09000008) /* MotionTable */
+     , (30891,   3, 0x20000007) /* SoundTable */
+     , (30891,   4, 0x30000004) /* CombatTable */
+     , (30891,   6, 0x04000F6C) /* PaletteBase */
+     , (30891,   7, 0x10000486) /* ClothingBase */
+     , (30891,   8, 0x06001035) /* Icon */
+     , (30891,  22, 0x3400001A) /* PhysicsEffectTable */
      , (30891,  32,        423) /* WieldedTreasureType - 
                                    Wield 25x Frost Throwing Club (23130) | Probability: 20%
                                    Wield 25x Fire Throwing Club (23129) | Probability: 20%

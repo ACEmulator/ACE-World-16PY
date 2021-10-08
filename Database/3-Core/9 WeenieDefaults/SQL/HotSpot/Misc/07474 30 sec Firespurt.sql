@@ -36,6 +36,6 @@ VALUES (7474,   1, '30 sec Firespurt') /* Name */
      , (7474,  17, 'You suffer %i damage from the spurt of fire.') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7474,   1,   33556136) /* Setup */
-     , (7474,   3,  536870994) /* SoundTable */
-     , (7474,   8,  100667465) /* Icon */;
+VALUES (7474,   1, 0x020006A8) /* Setup */
+     , (7474,   3, 0x20000052) /* SoundTable */
+     , (7474,   8, 0x06001049) /* Icon */;

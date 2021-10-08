@@ -62,14 +62,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (232,   1, 'Tumerok Scout') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (232,   1,   33554496) /* Setup */
-     , (232,   2,  150994954) /* MotionTable */
-     , (232,   3,  536870931) /* SoundTable */
-     , (232,   4,  805306380) /* CombatTable */
-     , (232,   6,   67109314) /* PaletteBase */
-     , (232,   7,  268436629) /* ClothingBase */
-     , (232,   8,  100667452) /* Icon */
-     , (232,  22,  872415270) /* PhysicsEffectTable */
+VALUES (232,   1, 0x02000040) /* Setup */
+     , (232,   2, 0x0900000A) /* MotionTable */
+     , (232,   3, 0x20000013) /* SoundTable */
+     , (232,   4, 0x3000000C) /* CombatTable */
+     , (232,   6, 0x040001C2) /* PaletteBase */
+     , (232,   7, 0x10000495) /* ClothingBase */
+     , (232,   8, 0x0600103C) /* Icon */
+     , (232,  22, 0x34000026) /* PhysicsEffectTable */
      , (232,  32,        224) /* WieldedTreasureType - 
                                    Wield 10x Throwing Dart (316) | Probability: 5%
                                    Wield 10x Shouken (343) | Probability: 5%

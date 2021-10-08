@@ -47,12 +47,12 @@ VALUES (10885,   1, 'Singularity Bow') /* Name */
      , (10885,  15, 'A bow imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10885,   1,   33557324) /* Setup */
-     , (10885,   3,  536870932) /* SoundTable */
-     , (10885,   6,   67111919) /* PaletteBase */
-     , (10885,   7,  268436238) /* ClothingBase */
-     , (10885,   8,  100672600) /* Icon */
-     , (10885,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10885,   1, 0x02000B4C) /* Setup */
+     , (10885,   3, 0x20000014) /* SoundTable */
+     , (10885,   6, 0x04000BEF) /* PaletteBase */
+     , (10885,   7, 0x1000030E) /* ClothingBase */
+     , (10885,   8, 0x06002458) /* Icon */
+     , (10885,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10885,  37,          2) /* ItemSkillLimit - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

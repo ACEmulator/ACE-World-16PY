@@ -25,7 +25,7 @@ VALUES (1556,   1, 'Scroll of Heal Self') /* Name */
      , (1556,  16, 'When learned, this spell restores 6-10 points of the caster''s Health.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1556,   1,   33554826) /* Setup */
-     , (1556,   8,  100676931) /* Icon */
-     , (1556,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1556,   1, 0x0200018A) /* Setup */
+     , (1556,   8, 0x06003543) /* Icon */
+     , (1556,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1556,  28,          6) /* Spell - Heal Self I */;

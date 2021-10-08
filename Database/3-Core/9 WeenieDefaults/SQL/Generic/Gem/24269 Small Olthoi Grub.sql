@@ -28,11 +28,11 @@ VALUES (24269,   1, 'Small Olthoi Grub') /* Name */
      , (24269,  16, 'A very small Olthoi grub') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24269,   1,   33558333) /* Setup */
-     , (24269,   2,  150995238) /* MotionTable */
-     , (24269,   4,  805306395) /* CombatTable */
-     , (24269,   6,   67109368) /* PaletteBase */
-     , (24269,   8,  100674288) /* Icon */
-     , (24269,  22,  872415265) /* PhysicsEffectTable */
+VALUES (24269,   1, 0x02000F3D) /* Setup */
+     , (24269,   2, 0x09000126) /* MotionTable */
+     , (24269,   4, 0x3000001B) /* CombatTable */
+     , (24269,   6, 0x040001F8) /* PaletteBase */
+     , (24269,   8, 0x06002AF0) /* Icon */
+     , (24269,  22, 0x34000021) /* PhysicsEffectTable */
      , (24269,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (24269,  36,  234881046) /* MutateFilter */;
+     , (24269,  36, 0x0E000016) /* MutateFilter */;

@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30854,   1, 'Viamontian Mercenary') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30854,   1,   33559125) /* Setup */
-     , (30854,   2,  150994945) /* MotionTable */
-     , (30854,   3,  536870913) /* SoundTable */
-     , (30854,   4,  805306368) /* CombatTable */
-     , (30854,   6,   67115468) /* PaletteBase */
-     , (30854,   7,  268436907) /* ClothingBase */
-     , (30854,   8,  100677371) /* Icon */
-     , (30854,  22,  872415269) /* PhysicsEffectTable */
+VALUES (30854,   1, 0x02001255) /* Setup */
+     , (30854,   2, 0x09000001) /* MotionTable */
+     , (30854,   3, 0x20000001) /* SoundTable */
+     , (30854,   4, 0x30000000) /* CombatTable */
+     , (30854,   6, 0x040019CC) /* PaletteBase */
+     , (30854,   7, 0x100005AB) /* ClothingBase */
+     , (30854,   8, 0x060036FB) /* Icon */
+     , (30854,  22, 0x34000025) /* PhysicsEffectTable */
      , (30854,  32,        297) /* WieldedTreasureType - 
                                    Wield Tachi (23699) | Probability: 33%
                                    Wield Yaoji (23709) | Probability: 33%

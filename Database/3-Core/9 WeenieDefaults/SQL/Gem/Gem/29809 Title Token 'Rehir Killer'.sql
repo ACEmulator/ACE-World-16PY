@@ -27,10 +27,10 @@ VALUES (29809,   1, 'Title Token ''Rehir Killer''') /* Name */
      , (29809,  15, 'You may turn this token in to Guard Hamdyn in Cragstone to change your title to ''Rehir Killer''.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29809,   1,   33557280) /* Setup */
-     , (29809,   3,  536870932) /* SoundTable */
-     , (29809,   6,   67111092) /* PaletteBase */
-     , (29809,   7,  268436298) /* ClothingBase */
-     , (29809,   8,  100677156) /* Icon */
-     , (29809,  22,  872415275) /* PhysicsEffectTable */
-     , (29809,  36,  234881046) /* MutateFilter */;
+VALUES (29809,   1, 0x02000B20) /* Setup */
+     , (29809,   3, 0x20000014) /* SoundTable */
+     , (29809,   6, 0x040008B4) /* PaletteBase */
+     , (29809,   7, 0x1000034A) /* ClothingBase */
+     , (29809,   8, 0x06003624) /* Icon */
+     , (29809,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29809,  36, 0x0E000016) /* MutateFilter */;

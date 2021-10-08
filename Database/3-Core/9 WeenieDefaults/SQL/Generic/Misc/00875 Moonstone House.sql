@@ -22,7 +22,7 @@ VALUES (875,   1, 'Moonstone House') /* Name */
      , (875,  16, 'Moonstone House') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (875,   1,   33555594) /* Setup */
-     , (875,   6,   67111782) /* PaletteBase */
-     , (875,   7,  268435690) /* ClothingBase */
-     , (875,   8,  100668115) /* Icon */;
+VALUES (875,   1, 0x0200048A) /* Setup */
+     , (875,   6, 0x04000B66) /* PaletteBase */
+     , (875,   7, 0x100000EA) /* ClothingBase */
+     , (875,   8, 0x060012D3) /* Icon */;

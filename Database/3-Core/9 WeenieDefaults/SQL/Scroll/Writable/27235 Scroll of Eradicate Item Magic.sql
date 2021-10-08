@@ -24,7 +24,7 @@ VALUES (27235,   1, 'Scroll of Eradicate Item Magic') /* Name */
      , (27235,  15, 'When learned, this spell dispels 3-6 negative Item Magic enchantments of level 6 or lower from the target.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27235,   1,   33554826) /* Setup */
-     , (27235,   8,  100676659) /* Icon */
-     , (27235,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27235,   1, 0x0200018A) /* Setup */
+     , (27235,   8, 0x06003433) /* Icon */
+     , (27235,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27235,  28,       3190) /* Spell - Eradicate Item Magic */;

@@ -35,7 +35,7 @@ VALUES (9594,   1, 'Skill Puzzle Base Piece') /* Name */
      , (9594,  33, 'BestowerBasePiece') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9594,   1,   33557028) /* Setup */
-     , (9594,   3,  536870932) /* SoundTable */
-     , (9594,   8,  100671537) /* Icon */
-     , (9594,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9594,   1, 0x02000A24) /* Setup */
+     , (9594,   3, 0x20000014) /* SoundTable */
+     , (9594,   8, 0x06002031) /* Icon */
+     , (9594,  22, 0x3400002B) /* PhysicsEffectTable */;

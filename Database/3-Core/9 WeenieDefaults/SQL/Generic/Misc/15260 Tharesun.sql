@@ -22,5 +22,5 @@ VALUES (15260,   1, 'Tharesun') /* Name */
      , (15260,  16, 'Welcome to Tharesun') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15260,   1,   33557463) /* Setup */
-     , (15260,   8,  100668115) /* Icon */;
+VALUES (15260,   1, 0x02000BD7) /* Setup */
+     , (15260,   8, 0x060012D3) /* Icon */;

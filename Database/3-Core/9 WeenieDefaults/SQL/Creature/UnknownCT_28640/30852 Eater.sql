@@ -61,14 +61,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30852,   1, 'Eater') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30852,   1,   33559121) /* Setup */
-     , (30852,   2,  150995322) /* MotionTable */
-     , (30852,   3,  536871097) /* SoundTable */
-     , (30852,   4,  805306431) /* CombatTable */
-     , (30852,   6,   67115387) /* PaletteBase */
-     , (30852,   7,  268436888) /* ClothingBase */
-     , (30852,   8,  100677365) /* Icon */
-     , (30852,  22,  872415409) /* PhysicsEffectTable */
+VALUES (30852,   1, 0x02001251) /* Setup */
+     , (30852,   2, 0x0900017A) /* MotionTable */
+     , (30852,   3, 0x200000B9) /* SoundTable */
+     , (30852,   4, 0x3000003F) /* CombatTable */
+     , (30852,   6, 0x0400197B) /* PaletteBase */
+     , (30852,   7, 0x10000598) /* ClothingBase */
+     , (30852,   8, 0x060036F5) /* Icon */
+     , (30852,  22, 0x340000B1) /* PhysicsEffectTable */
      , (30852,  35,        456) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

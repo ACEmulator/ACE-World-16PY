@@ -22,5 +22,5 @@ VALUES (15705,   1, 'Patron''s Honor Cottages') /* Name */
      , (15705,  16, 'Welcome to Patron''s Honor Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15705,   1,   33557463) /* Setup */
-     , (15705,   8,  100668115) /* Icon */;
+VALUES (15705,   1, 0x02000BD7) /* Setup */
+     , (15705,   8, 0x060012D3) /* Icon */;

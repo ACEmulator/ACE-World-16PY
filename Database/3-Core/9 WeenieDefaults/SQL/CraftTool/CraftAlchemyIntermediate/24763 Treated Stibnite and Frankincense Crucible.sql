@@ -32,8 +32,8 @@ VALUES (24763,   1, 'Treated Stibnite and Frankincense Crucible') /* Name */
      , (24763,  20, 'Treated Stubnite and Frankincense Crucibles') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24763,   1,   33555966) /* Setup */
-     , (24763,   3,  536870932) /* SoundTable */
-     , (24763,   8,  100674467) /* Icon */
-     , (24763,  22,  872415275) /* PhysicsEffectTable */
-     , (24763,  50,  100674415) /* IconOverlay */;
+VALUES (24763,   1, 0x020005FE) /* Setup */
+     , (24763,   3, 0x20000014) /* SoundTable */
+     , (24763,   8, 0x06002BA3) /* Icon */
+     , (24763,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24763,  50, 0x06002B6F) /* IconOverlay */;

@@ -28,8 +28,8 @@ VALUES (23885,   1, 'Keg') /* Name */
      , (23885,  16, 'A keg of delicious stout.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23885,   1,   33556853) /* Setup */
-     , (23885,   3,  536870932) /* SoundTable */
-     , (23885,   8,  100667431) /* Icon */
-     , (23885,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23885,   1, 0x02000975) /* Setup */
+     , (23885,   3, 0x20000014) /* SoundTable */
+     , (23885,   8, 0x06001027) /* Icon */
+     , (23885,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23885,  28,       1208) /* Spell - Mana Boost Other II */;

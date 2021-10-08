@@ -64,11 +64,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25824,   1, 'Smoldering Brazier') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25824,   1,   33558565) /* Setup */
-     , (25824,   2,  150995266) /* MotionTable */
-     , (25824,   3,  536870913) /* SoundTable */
-     , (25824,   4,  805306368) /* CombatTable */
-     , (25824,   8,  100675646) /* Icon */;
+VALUES (25824,   1, 0x02001025) /* Setup */
+     , (25824,   2, 0x09000142) /* MotionTable */
+     , (25824,   3, 0x20000001) /* SoundTable */
+     , (25824,   4, 0x30000000) /* CombatTable */
+     , (25824,   8, 0x0600303E) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25824,   1, 220, 0, 0) /* Strength */

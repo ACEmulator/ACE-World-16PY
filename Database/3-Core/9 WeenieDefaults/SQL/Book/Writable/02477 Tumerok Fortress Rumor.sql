@@ -22,10 +22,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2477,   1, 'Tumerok Fortress Rumor') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2477,   1,   33554776) /* Setup */
-     , (2477,   3,  536870932) /* SoundTable */
-     , (2477,   8,  100668176) /* Icon */
-     , (2477,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (2477,   1, 0x02000158) /* Setup */
+     , (2477,   3, 0x20000014) /* SoundTable */
+     , (2477,   8, 0x06001310) /* Icon */
+     , (2477,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (2477, 1, 1000);

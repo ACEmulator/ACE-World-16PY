@@ -25,7 +25,7 @@ VALUES (2908,   1, 'Scroll of Acid Stream III') /* Name */
      , (2908,  16, 'When learned, this spell shoots a stream of acid at the target. The stream does 16-30 points of acid damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2908,   1,   33554826) /* Setup */
-     , (2908,   8,  100677026) /* Icon */
-     , (2908,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2908,   1, 0x0200018A) /* Setup */
+     , (2908,   8, 0x060035A2) /* Icon */
+     , (2908,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2908,  28,         60) /* Spell - Acid Stream III */;

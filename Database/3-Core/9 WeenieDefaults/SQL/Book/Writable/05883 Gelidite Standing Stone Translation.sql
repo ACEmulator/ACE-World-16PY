@@ -23,10 +23,10 @@ VALUES (5883,   1, 'Gelidite Standing Stone Translation') /* Name */
      , (5883,  16, 'A translation of Dericostian runes found on standing stones scattered throughout the northeastern mountains. This appears to be a portalspace coordinate, and should be brought to Mairisa bint Fuda in Plateau.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5883,   1,   33554773) /* Setup */
-     , (5883,   3,  536870932) /* SoundTable */
-     , (5883,   8,  100667503) /* Icon */
-     , (5883,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5883,   1, 0x02000155) /* Setup */
+     , (5883,   3, 0x20000014) /* SoundTable */
+     , (5883,   8, 0x0600106F) /* Icon */
+     , (5883,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (5883, 1, 1000);

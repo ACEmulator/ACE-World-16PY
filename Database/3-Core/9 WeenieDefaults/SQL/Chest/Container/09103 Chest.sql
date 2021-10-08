@@ -42,11 +42,11 @@ VALUES (9103,   1, 'Chest') /* Name */
      , (9103,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9103,   1,   33554556) /* Setup */
-     , (9103,   2,  150994948) /* MotionTable */
-     , (9103,   3,  536870945) /* SoundTable */
-     , (9103,   8,  100667424) /* Icon */
-     , (9103,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9103,   1, 0x0200007C) /* Setup */
+     , (9103,   2, 0x09000004) /* MotionTable */
+     , (9103,   3, 0x20000021) /* SoundTable */
+     , (9103,   8, 0x06001020) /* Icon */
+     , (9103,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (9103, -1, 9102, 60, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Another Boot (9102) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

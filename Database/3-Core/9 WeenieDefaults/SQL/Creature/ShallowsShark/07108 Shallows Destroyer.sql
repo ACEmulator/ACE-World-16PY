@@ -60,14 +60,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7108,   1, 'Shallows Destroyer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7108,   1,   33554489) /* Setup */
-     , (7108,   2,  150994970) /* MotionTable */
-     , (7108,   3,  536870928) /* SoundTable */
-     , (7108,   4,  805306378) /* CombatTable */
-     , (7108,   6,   67109313) /* PaletteBase */
-     , (7108,   7,  268435556) /* ClothingBase */
-     , (7108,   8,  100667939) /* Icon */
-     , (7108,  22,  872415268) /* PhysicsEffectTable */
+VALUES (7108,   1, 0x02000039) /* Setup */
+     , (7108,   2, 0x0900001A) /* MotionTable */
+     , (7108,   3, 0x20000010) /* SoundTable */
+     , (7108,   4, 0x3000000A) /* CombatTable */
+     , (7108,   6, 0x040001C1) /* PaletteBase */
+     , (7108,   7, 0x10000064) /* ClothingBase */
+     , (7108,   8, 0x06001223) /* Icon */
+     , (7108,  22, 0x34000024) /* PhysicsEffectTable */
      , (7108,  35,        457) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

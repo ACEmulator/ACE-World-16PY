@@ -43,12 +43,12 @@ VALUES (9037,   1, 'Exarch Plate Girth') /* Name */
      , (9037,  16, 'A heavily enchanted crystalline girth, of the type once worn into battle by the Exarchs of the Yalaini Order of Hieromancers.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9037,   1,   33554647) /* Setup */
-     , (9037,   3,  536870932) /* SoundTable */
-     , (9037,   6,   67108990) /* PaletteBase */
-     , (9037,   7,  268436117) /* ClothingBase */
-     , (9037,   8,  100670411) /* Icon */
-     , (9037,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9037,   1, 0x020000D7) /* Setup */
+     , (9037,   3, 0x20000014) /* SoundTable */
+     , (9037,   6, 0x0400007E) /* PaletteBase */
+     , (9037,   7, 0x10000295) /* ClothingBase */
+     , (9037,   8, 0x06001BCB) /* Icon */
+     , (9037,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9037,  41,         34) /* ItemSpecializedOnly - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

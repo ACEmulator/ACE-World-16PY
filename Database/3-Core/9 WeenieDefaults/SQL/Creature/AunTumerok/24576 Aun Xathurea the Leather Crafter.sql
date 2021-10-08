@@ -66,13 +66,13 @@ VALUES (24576,   1, 'Aun Xathurea the Leather Crafter') /* Name */
      , (24576,   5, 'Trophy Collector') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24576,   1,   33557175) /* Setup */
-     , (24576,   2,  150995136) /* MotionTable */
-     , (24576,   3,  536871030) /* SoundTable */
-     , (24576,   4,  805306380) /* CombatTable */
-     , (24576,   6,   67113280) /* PaletteBase */
-     , (24576,   7,  268436193) /* ClothingBase */
-     , (24576,   8,  100671756) /* Icon */;
+VALUES (24576,   1, 0x02000AB7) /* Setup */
+     , (24576,   2, 0x090000C0) /* MotionTable */
+     , (24576,   3, 0x20000076) /* SoundTable */
+     , (24576,   4, 0x3000000C) /* CombatTable */
+     , (24576,   6, 0x04001140) /* PaletteBase */
+     , (24576,   7, 0x100002E1) /* ClothingBase */
+     , (24576,   8, 0x0600210C) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24576,   1, 190, 0, 0) /* Strength */

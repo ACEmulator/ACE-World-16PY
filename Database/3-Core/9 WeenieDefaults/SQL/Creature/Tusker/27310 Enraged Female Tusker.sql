@@ -60,14 +60,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27310,   1, 'Enraged Female Tusker') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27310,   1,   33556836) /* Setup */
-     , (27310,   2,  150994956) /* MotionTable */
-     , (27310,   3,  536870929) /* SoundTable */
-     , (27310,   4,  805306379) /* CombatTable */
-     , (27310,   6,   67113007) /* PaletteBase */
-     , (27310,   7,  268436066) /* ClothingBase */
-     , (27310,   8,  100667443) /* Icon */
-     , (27310,  22,  872415271) /* PhysicsEffectTable */
+VALUES (27310,   1, 0x02000964) /* Setup */
+     , (27310,   2, 0x0900000C) /* MotionTable */
+     , (27310,   3, 0x20000011) /* SoundTable */
+     , (27310,   4, 0x3000000B) /* CombatTable */
+     , (27310,   6, 0x0400102F) /* PaletteBase */
+     , (27310,   7, 0x10000262) /* ClothingBase */
+     , (27310,   8, 0x06001033) /* Icon */
+     , (27310,  22, 0x34000027) /* PhysicsEffectTable */
      , (27310,  35,        458) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

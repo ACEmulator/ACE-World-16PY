@@ -22,5 +22,5 @@ VALUES (11696,   1, 'Under Construction') /* Name */
      , (11696,  16, 'Under Construction') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11696,   1,   33555088) /* Setup */
-     , (11696,   8,  100668115) /* Icon */;
+VALUES (11696,   1, 0x02000290) /* Setup */
+     , (11696,   8, 0x060012D3) /* Icon */;

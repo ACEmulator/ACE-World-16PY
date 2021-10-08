@@ -25,10 +25,10 @@ VALUES (30398,   1, 'Shadow Pass') /* Name */
      , (30398,  16, 'A sheaf of pages from the journal of Carlo di Cenza.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30398,   1,   33554771) /* Setup */
-     , (30398,   3,  536870932) /* SoundTable */
-     , (30398,   8,  100668117) /* Icon */
-     , (30398,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30398,   1, 0x02000153) /* Setup */
+     , (30398,   3, 0x20000014) /* SoundTable */
+     , (30398,   8, 0x060012D5) /* Icon */
+     , (30398,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (30398, 11, 1000);

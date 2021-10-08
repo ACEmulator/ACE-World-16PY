@@ -24,7 +24,7 @@ VALUES (2903,   1, 'Scroll of Lifestone Recall') /* Name */
      , (2903,  15, 'When learned, this spell transports the caster to the Lifestone to which they have previously linked.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2903,   1,   33554826) /* Setup */
-     , (2903,   8,  100676673) /* Icon */
-     , (2903,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2903,   1, 0x0200018A) /* Setup */
+     , (2903,   8, 0x06003441) /* Icon */
+     , (2903,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2903,  28,       1635) /* Spell - Lifestone Recall */;

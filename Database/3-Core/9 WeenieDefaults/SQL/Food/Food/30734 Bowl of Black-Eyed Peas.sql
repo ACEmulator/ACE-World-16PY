@@ -26,7 +26,7 @@ VALUES (30734,   1, 'Bowl of Black-Eyed Peas') /* Name */
      , (30734,  20, 'Bowls of Black-Eyed Peas') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30734,   1,   33559226) /* Setup */
-     , (30734,   3,  536870932) /* SoundTable */
-     , (30734,   8,  100677405) /* Icon */
-     , (30734,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30734,   1, 0x020012BA) /* Setup */
+     , (30734,   3, 0x20000014) /* SoundTable */
+     , (30734,   8, 0x0600371D) /* Icon */
+     , (30734,  22, 0x3400002B) /* PhysicsEffectTable */;

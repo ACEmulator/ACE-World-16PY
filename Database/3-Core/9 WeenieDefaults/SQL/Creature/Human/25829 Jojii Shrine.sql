@@ -64,10 +64,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25829,   1, 'Jojii Shrine') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25829,   1,   33558344) /* Setup */
-     , (25829,   2,  150995196) /* MotionTable */
-     , (25829,   3,  536870932) /* SoundTable */
-     , (25829,   8,  100674324) /* Icon */;
+VALUES (25829,   1, 0x02000F48) /* Setup */
+     , (25829,   2, 0x090000FC) /* MotionTable */
+     , (25829,   3, 0x20000014) /* SoundTable */
+     , (25829,   8, 0x06002B14) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25829,   1, 220, 0, 0) /* Strength */

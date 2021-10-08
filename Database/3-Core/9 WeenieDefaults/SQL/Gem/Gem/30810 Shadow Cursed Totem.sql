@@ -36,9 +36,9 @@ VALUES (30810,   1, 'Shadow Cursed Totem') /* Name */
      , (30810,  15, 'A small Dericost totem, touched by the black madness. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30810,   1,   33559267) /* Setup */
-     , (30810,   3,  536870932) /* SoundTable */
-     , (30810,   8,  100677490) /* Icon */
-     , (30810,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30810,   1, 0x020012E3) /* Setup */
+     , (30810,   3, 0x20000014) /* SoundTable */
+     , (30810,   8, 0x06003772) /* Icon */
+     , (30810,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30810,  28,        157) /* Spell - Summon Primary Portal I */
      , (30810,  31,      30820) /* LinkedPortalOne - Burning Tower */;

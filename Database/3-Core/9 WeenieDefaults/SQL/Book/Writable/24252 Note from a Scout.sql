@@ -28,10 +28,10 @@ VALUES (24252,   1, 'Note from a Scout') /* Name */
      , (24252,  33, 'PickedUpOlthoiScoutNote1') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24252,   1,   33554773) /* Setup */
-     , (24252,   3,  536870932) /* SoundTable */
-     , (24252,   8,  100674328) /* Icon */
-     , (24252,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24252,   1, 0x02000155) /* Setup */
+     , (24252,   3, 0x20000014) /* SoundTable */
+     , (24252,   8, 0x06002B18) /* Icon */
+     , (24252,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (24252, 1, 1000);

@@ -38,9 +38,9 @@ VALUES (12207,   1, 'Inviso Mask') /* Name */
      , (12207,  16, 'It seems to be an inside out Doll mask!  It''s amazing what information you can glean if you are observant enough.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12207,   1,   33557364) /* Setup */
-     , (12207,   3,  536870932) /* SoundTable */
-     , (12207,   6,   67108990) /* PaletteBase */
-     , (12207,   7,  268436265) /* ClothingBase */
-     , (12207,   8,  100672219) /* Icon */
-     , (12207,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12207,   1, 0x02000B74) /* Setup */
+     , (12207,   3, 0x20000014) /* SoundTable */
+     , (12207,   6, 0x0400007E) /* PaletteBase */
+     , (12207,   7, 0x10000329) /* ClothingBase */
+     , (12207,   8, 0x060022DB) /* Icon */
+     , (12207,  22, 0x3400002B) /* PhysicsEffectTable */;

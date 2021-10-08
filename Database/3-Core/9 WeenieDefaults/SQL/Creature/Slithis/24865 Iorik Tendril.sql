@@ -64,12 +64,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24865,   1, 'Iorik Tendril') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24865,   1,   33558409) /* Setup */
-     , (24865,   2,  150995067) /* MotionTable */
-     , (24865,   3,  536871015) /* SoundTable */
-     , (24865,   4,  805306404) /* CombatTable */
-     , (24865,   8,  100671186) /* Icon */
-     , (24865,  22,  872415332) /* PhysicsEffectTable */
+VALUES (24865,   1, 0x02000F89) /* Setup */
+     , (24865,   2, 0x0900007B) /* MotionTable */
+     , (24865,   3, 0x20000067) /* SoundTable */
+     , (24865,   4, 0x30000024) /* CombatTable */
+     , (24865,   8, 0x06001ED2) /* Icon */
+     , (24865,  22, 0x34000064) /* PhysicsEffectTable */
      , (24865,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -24,7 +24,7 @@ VALUES (20496,   1, 'Scroll of Silencia''s Boon') /* Name */
      , (20496,  15, 'When learned, this spell increases the target''s Alchemy skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20496,   1,   33554826) /* Setup */
-     , (20496,   8,  100676480) /* Icon */
-     , (20496,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20496,   1, 0x0200018A) /* Setup */
+     , (20496,   8, 0x06003380) /* Icon */
+     , (20496,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20496,  28,       2190) /* Spell - Silencia's Boon */;

@@ -27,10 +27,10 @@ VALUES (29804,   1, 'Title Token ''Browerk Killer''') /* Name */
      , (29804,  15, 'You may turn this token in to Guard Haigh in Cragstone to change your title to ''Browerk Killer''.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29804,   1,   33557280) /* Setup */
-     , (29804,   3,  536870932) /* SoundTable */
-     , (29804,   6,   67111092) /* PaletteBase */
-     , (29804,   7,  268436298) /* ClothingBase */
-     , (29804,   8,  100677160) /* Icon */
-     , (29804,  22,  872415275) /* PhysicsEffectTable */
-     , (29804,  36,  234881046) /* MutateFilter */;
+VALUES (29804,   1, 0x02000B20) /* Setup */
+     , (29804,   3, 0x20000014) /* SoundTable */
+     , (29804,   6, 0x040008B4) /* PaletteBase */
+     , (29804,   7, 0x1000034A) /* ClothingBase */
+     , (29804,   8, 0x06003628) /* Icon */
+     , (29804,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29804,  36, 0x0E000016) /* MutateFilter */;

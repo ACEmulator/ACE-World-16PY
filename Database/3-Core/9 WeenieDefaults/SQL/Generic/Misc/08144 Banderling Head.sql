@@ -27,8 +27,8 @@ VALUES (8144,   1, 'Banderling Head') /* Name */
      , (8144,  16, 'A battered, beaten and bloody Banderling head.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8144,   1,   33556822) /* Setup */
-     , (8144,   3,  536870932) /* SoundTable */
-     , (8144,   8,  100671029) /* Icon */
-     , (8144,  22,  872415275) /* PhysicsEffectTable */
-     , (8144,  36,  234881046) /* MutateFilter */;
+VALUES (8144,   1, 0x02000956) /* Setup */
+     , (8144,   3, 0x20000014) /* SoundTable */
+     , (8144,   8, 0x06001E35) /* Icon */
+     , (8144,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8144,  36, 0x0E000016) /* MutateFilter */;

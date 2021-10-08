@@ -24,7 +24,7 @@ VALUES (20557,   1, 'Scroll of Oswald''s Blessing') /* Name */
      , (20557,  15, 'When learned, this spell increases the caster''s Lockpick skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20557,   1,   33554826) /* Setup */
-     , (20557,   8,  100676463) /* Icon */
-     , (20557,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20557,   1, 0x0200018A) /* Setup */
+     , (20557,   8, 0x0600336F) /* Icon */
+     , (20557,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20557,  28,       2271) /* Spell - Oswald's Blessing */;

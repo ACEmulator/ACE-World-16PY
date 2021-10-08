@@ -29,7 +29,7 @@ VALUES (5290,   1, 'Hearty Mana Cake') /* Name */
      , (5290,  20, 'Hearty Mana Cakes ') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5290,   1,   33555193) /* Setup */
-     , (5290,   3,  536870932) /* SoundTable */
-     , (5290,   8,  100667457) /* Icon */
-     , (5290,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5290,   1, 0x020002F9) /* Setup */
+     , (5290,   3, 0x20000014) /* SoundTable */
+     , (5290,   8, 0x06001041) /* Icon */
+     , (5290,  22, 0x3400002B) /* PhysicsEffectTable */;

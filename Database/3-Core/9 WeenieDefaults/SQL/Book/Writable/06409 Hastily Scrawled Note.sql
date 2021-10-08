@@ -24,10 +24,10 @@ VALUES (6409,   1, 'Hastily Scrawled Note') /* Name */
      , (6409,  16, 'A smeared and almost illegible note, on stained paper. It is written in the High Empyrean language of the Era of Lore.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6409,   1,   33554773) /* Setup */
-     , (6409,   3,  536870932) /* SoundTable */
-     , (6409,   8,  100668176) /* Icon */
-     , (6409,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6409,   1, 0x02000155) /* Setup */
+     , (6409,   3, 0x20000014) /* SoundTable */
+     , (6409,   8, 0x06001310) /* Icon */
+     , (6409,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (6409, 1, 1000);

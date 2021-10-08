@@ -37,11 +37,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3940,   1, 'Lightning Morning Star') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3940,   1,   33555747) /* Setup */
-     , (3940,   3,  536870932) /* SoundTable */
-     , (3940,   6,   67111919) /* PaletteBase */
-     , (3940,   7,  268435764) /* ClothingBase */
-     , (3940,   8,  100667600) /* Icon */
-     , (3940,  22,  872415275) /* PhysicsEffectTable */
-     , (3940,  36,  234881053) /* MutateFilter */
-     , (3940,  46,  939524099) /* TsysMutationFilter */;
+VALUES (3940,   1, 0x02000523) /* Setup */
+     , (3940,   3, 0x20000014) /* SoundTable */
+     , (3940,   6, 0x04000BEF) /* PaletteBase */
+     , (3940,   7, 0x10000134) /* ClothingBase */
+     , (3940,   8, 0x060010D0) /* Icon */
+     , (3940,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3940,  36, 0x0E00001D) /* MutateFilter */
+     , (3940,  46, 0x38000003) /* TsysMutationFilter */;

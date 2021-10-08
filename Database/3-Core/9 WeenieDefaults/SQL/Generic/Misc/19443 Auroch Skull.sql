@@ -23,7 +23,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19443,   1, 'Auroch Skull') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19443,   1,   33557714) /* Setup */
-     , (19443,   6,   67111266) /* PaletteBase */
-     , (19443,   7,  268436390) /* ClothingBase */
-     , (19443,   8,  100668178) /* Icon */;
+VALUES (19443,   1, 0x02000CD2) /* Setup */
+     , (19443,   6, 0x04000962) /* PaletteBase */
+     , (19443,   7, 0x100003A6) /* ClothingBase */
+     , (19443,   8, 0x06001312) /* Icon */;

@@ -22,5 +22,5 @@ VALUES (13167,   1, 'Neu Gerz Villas') /* Name */
      , (13167,  16, 'Welcome to Neu Gerz Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13167,   1,   33557463) /* Setup */
-     , (13167,   8,  100668115) /* Icon */;
+VALUES (13167,   1, 0x02000BD7) /* Setup */
+     , (13167,   8, 0x060012D3) /* Icon */;

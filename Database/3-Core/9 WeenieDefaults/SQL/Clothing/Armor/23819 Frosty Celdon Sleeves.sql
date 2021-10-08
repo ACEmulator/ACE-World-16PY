@@ -47,12 +47,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23819,   1, 'Frosty Celdon Sleeves') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23819,   1,   33554655) /* Setup */
-     , (23819,   3,  536870932) /* SoundTable */
-     , (23819,   6,   67108990) /* PaletteBase */
-     , (23819,   7,  268435847) /* ClothingBase */
-     , (23819,   8,  100674072) /* Icon */
-     , (23819,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23819,   1, 0x020000DF) /* Setup */
+     , (23819,   3, 0x20000014) /* SoundTable */
+     , (23819,   6, 0x0400007E) /* PaletteBase */
+     , (23819,   7, 0x10000187) /* ClothingBase */
+     , (23819,   8, 0x06002A18) /* Icon */
+     , (23819,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23819,  2612,      2)  /* Major Frost Ward */;

@@ -33,10 +33,10 @@ VALUES (21084,   1, 'Salvaged White Jade') /* Name */
      , (21084,  15, 'Chips of white jade material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21084,   1,   33554817) /* Setup */
-     , (21084,   3,  536870932) /* SoundTable */
-     , (21084,   6,   67111919) /* PaletteBase */
-     , (21084,   7,  268436430) /* ClothingBase */
-     , (21084,   8,  100667436) /* Icon */
-     , (21084,  22,  872415275) /* PhysicsEffectTable */
-     , (21084,  50,  100673308) /* IconOverlay */;
+VALUES (21084,   1, 0x02000181) /* Setup */
+     , (21084,   3, 0x20000014) /* SoundTable */
+     , (21084,   6, 0x04000BEF) /* PaletteBase */
+     , (21084,   7, 0x100003CE) /* ClothingBase */
+     , (21084,   8, 0x0600102C) /* Icon */
+     , (21084,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (21084,  50, 0x0600271C) /* IconOverlay */;

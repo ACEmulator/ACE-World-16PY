@@ -24,9 +24,9 @@ VALUES (27547,   1, 'Bind Stone') /* Name */
      , (27547,  18, 'You have attuned your allegiance to this Bindstone.') /* UseMessage */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27547,   1,   33558700) /* Setup */
-     , (27547,   2,  150995296) /* MotionTable */
-     , (27547,   3,  536870932) /* SoundTable */
-     , (27547,   6,   67113296) /* PaletteBase */
-     , (27547,   7,  268436821) /* ClothingBase */
-     , (27547,   8,  100671884) /* Icon */;
+VALUES (27547,   1, 0x020010AC) /* Setup */
+     , (27547,   2, 0x09000160) /* MotionTable */
+     , (27547,   3, 0x20000014) /* SoundTable */
+     , (27547,   6, 0x04001150) /* PaletteBase */
+     , (27547,   7, 0x10000555) /* ClothingBase */
+     , (27547,   8, 0x0600218C) /* Icon */;

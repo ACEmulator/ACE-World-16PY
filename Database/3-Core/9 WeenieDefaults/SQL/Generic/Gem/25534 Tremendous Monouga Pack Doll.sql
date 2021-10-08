@@ -29,10 +29,10 @@ VALUES (25534,   1, 'Tremendous Monouga Pack Doll') /* Name */
      , (25534,  16, 'This pack doll is a scale model of the Tremendous Monouga that can be found smashing his way happily through the forests of the Valley of Death. The full scale model was built to reflect the height of this monstrosity when compared to your other pack dolls.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25534,   1,   33558499) /* Setup */
-     , (25534,   2,  150995258) /* MotionTable */
-     , (25534,   6,   67111302) /* PaletteBase */
-     , (25534,   7,  268435726) /* ClothingBase */
-     , (25534,   8,  100675019) /* Icon */
-     , (25534,  22,  872415257) /* PhysicsEffectTable */
-     , (25534,  36,  234881046) /* MutateFilter */;
+VALUES (25534,   1, 0x02000FE3) /* Setup */
+     , (25534,   2, 0x0900013A) /* MotionTable */
+     , (25534,   6, 0x04000986) /* PaletteBase */
+     , (25534,   7, 0x1000010E) /* ClothingBase */
+     , (25534,   8, 0x06002DCB) /* Icon */
+     , (25534,  22, 0x34000019) /* PhysicsEffectTable */
+     , (25534,  36, 0x0E000016) /* MutateFilter */;

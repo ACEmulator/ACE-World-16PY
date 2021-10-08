@@ -28,10 +28,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25572,   1, 'Dispel All Trap') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25572,   1,   33555536) /* Setup */
-     , (25572,   2,  150994977) /* MotionTable */
-     , (25572,   8,  100668114) /* Icon */
-     , (25572,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25572,   1, 0x02000450) /* Setup */
+     , (25572,   2, 0x09000021) /* MotionTable */
+     , (25572,   8, 0x060012D2) /* Icon */
+     , (25572,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25572,  23,        149) /* UseSound - TriggerActivated */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)

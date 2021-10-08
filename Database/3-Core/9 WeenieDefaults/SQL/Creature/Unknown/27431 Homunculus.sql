@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27431,   1, 'Homunculus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27431,   1,   33558680) /* Setup */
-     , (27431,   2,  150994953) /* MotionTable */
-     , (27431,   3,  536871092) /* SoundTable */
-     , (27431,   4,  805306373) /* CombatTable */
-     , (27431,   6,   67113068) /* PaletteBase */
-     , (27431,   7,  268436089) /* ClothingBase */
-     , (27431,   8,  100676411) /* Icon */
-     , (27431,  22,  872415328) /* PhysicsEffectTable */
+VALUES (27431,   1, 0x02001098) /* Setup */
+     , (27431,   2, 0x09000009) /* MotionTable */
+     , (27431,   3, 0x200000B4) /* SoundTable */
+     , (27431,   4, 0x30000005) /* CombatTable */
+     , (27431,   6, 0x0400106C) /* PaletteBase */
+     , (27431,   7, 0x10000279) /* ClothingBase */
+     , (27431,   8, 0x0600333B) /* Icon */
+     , (27431,  22, 0x34000060) /* PhysicsEffectTable */
      , (27431,  35,         29) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

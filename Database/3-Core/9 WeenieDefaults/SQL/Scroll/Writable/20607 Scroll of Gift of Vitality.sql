@@ -24,7 +24,7 @@ VALUES (20607,   1, 'Scroll of Gift of Vitality') /* Name */
      , (20607,  15, 'When learned, this spell drains one-quarter of the caster''s Health and gives 175% of that to the target.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20607,   1,   33554826) /* Setup */
-     , (20607,   8,  100676931) /* Icon */
-     , (20607,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20607,   1, 0x0200018A) /* Setup */
+     , (20607,   8, 0x06003543) /* Icon */
+     , (20607,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20607,  28,       2335) /* Spell - Gift of Vitality */;

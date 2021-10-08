@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25346,   1, 'Falatacot Consort') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25346,   1,   33558436) /* Setup */
-     , (25346,   2,  150994967) /* MotionTable */
-     , (25346,   3,  536870934) /* SoundTable */
-     , (25346,   4,  805306368) /* CombatTable */
-     , (25346,   6,   67114480) /* PaletteBase */
-     , (25346,   7,  268436672) /* ClothingBase */
-     , (25346,   8,  100674805) /* Icon */
-     , (25346,  22,  872415272) /* PhysicsEffectTable */
+VALUES (25346,   1, 0x02000FA4) /* Setup */
+     , (25346,   2, 0x09000017) /* MotionTable */
+     , (25346,   3, 0x20000016) /* SoundTable */
+     , (25346,   4, 0x30000000) /* CombatTable */
+     , (25346,   6, 0x040015F0) /* PaletteBase */
+     , (25346,   7, 0x100004C0) /* ClothingBase */
+     , (25346,   8, 0x06002CF5) /* Icon */
+     , (25346,  22, 0x34000028) /* PhysicsEffectTable */
      , (25346,  32,        446) /* WieldedTreasureType - 
                                    Wield Khopesh (25499) | Probability: 98% */
      , (25346,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;

@@ -48,13 +48,13 @@ VALUES (24207,   1, 'Weeping Wand') /* Name */
      , (24207,  15, 'A wand infused with the Heart of the Innocent.The wand appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24207,   1,   33558300) /* Setup */
-     , (24207,   3,  536870932) /* SoundTable */
-     , (24207,   8,  100674265) /* Icon */
-     , (24207,  22,  872415275) /* PhysicsEffectTable */
-     , (24207,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (24207,   1, 0x02000F1C) /* Setup */
+     , (24207,   3, 0x20000014) /* SoundTable */
+     , (24207,   8, 0x06002AD9) /* Icon */
+     , (24207,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24207,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (24207,  28,       2970) /* Spell - Hunter's Lash */
-     , (24207,  36,  234881046) /* MutateFilter */;
+     , (24207,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24207,   616,      2)  /* Life Magic Mastery Other VI */

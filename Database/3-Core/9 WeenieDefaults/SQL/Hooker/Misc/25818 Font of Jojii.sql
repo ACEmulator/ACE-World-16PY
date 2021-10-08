@@ -28,9 +28,9 @@ VALUES (25818,   1, 'Font of Jojii') /* Name */
      , (25818,  16, 'A font crafted from objects representative of the teachings of Sho belief.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25818,   1,   33558567) /* Setup */
-     , (25818,   3,  536870937) /* SoundTable */
-     , (25818,   8,  100675653) /* Icon */;
+VALUES (25818,   1, 0x02001027) /* Setup */
+     , (25818,   3, 0x20000019) /* SoundTable */
+     , (25818,   8, 0x06003045) /* Icon */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (25818,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

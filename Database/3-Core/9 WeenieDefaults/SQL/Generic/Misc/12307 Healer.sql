@@ -22,5 +22,5 @@ VALUES (12307,   1, 'Healer') /* Name */
      , (12307,  16, 'Healer') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12307,   1,   33557390) /* Setup */
-     , (12307,   8,  100672342) /* Icon */;
+VALUES (12307,   1, 0x02000B8E) /* Setup */
+     , (12307,   8, 0x06002356) /* Icon */;

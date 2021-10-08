@@ -64,11 +64,11 @@ VALUES (5063,   1, 'Dai Ya the Scholar') /* Name */
      , (5063,   5, 'Society Agent') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5063,   1,   33554433) /* Setup */
-     , (5063,   2,  150994945) /* MotionTable */
-     , (5063,   3,  536870913) /* SoundTable */
-     , (5063,   4,  805306368) /* CombatTable */
-     , (5063,   8,  100667446) /* Icon */;
+VALUES (5063,   1, 0x02000001) /* Setup */
+     , (5063,   2, 0x09000001) /* MotionTable */
+     , (5063,   3, 0x20000001) /* SoundTable */
+     , (5063,   4, 0x30000000) /* CombatTable */
+     , (5063,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5063,   1,  70, 0, 0) /* Strength */

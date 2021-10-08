@@ -23,7 +23,7 @@ VALUES (4642,   1, 'House of Peace') /* Name */
      , (4642,  16, 'House of Peace') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4642,   1,   33555909) /* Setup */
-     , (4642,   6,   67111860) /* PaletteBase */
-     , (4642,   7,  268435822) /* ClothingBase */
-     , (4642,   8,  100668115) /* Icon */;
+VALUES (4642,   1, 0x020005C5) /* Setup */
+     , (4642,   6, 0x04000BB4) /* PaletteBase */
+     , (4642,   7, 0x1000016E) /* ClothingBase */
+     , (4642,   8, 0x060012D3) /* Icon */;

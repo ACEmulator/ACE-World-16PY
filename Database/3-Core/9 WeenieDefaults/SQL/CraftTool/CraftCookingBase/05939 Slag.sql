@@ -30,7 +30,7 @@ VALUES (5939,   1, 'Slag') /* Name */
      , (5939,  33, 'ImpiousQuestSlag') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5939,   1,   33556232) /* Setup */
-     , (5939,   3,  536870932) /* SoundTable */
-     , (5939,   8,  100670588) /* Icon */
-     , (5939,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5939,   1, 0x02000708) /* Setup */
+     , (5939,   3, 0x20000014) /* SoundTable */
+     , (5939,   8, 0x06001C7C) /* Icon */
+     , (5939,  22, 0x3400002B) /* PhysicsEffectTable */;

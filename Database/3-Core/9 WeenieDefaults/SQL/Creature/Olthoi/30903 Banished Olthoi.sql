@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30903,   1, 'Banished Olthoi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30903,   1,   33558421) /* Setup */
-     , (30903,   2,  150995243) /* MotionTable */
-     , (30903,   3,  536871070) /* SoundTable */
-     , (30903,   4,  805306424) /* CombatTable */
-     , (30903,   6,   67114440) /* PaletteBase */
-     , (30903,   7,  268436659) /* ClothingBase */
-     , (30903,   8,  100674626) /* Icon */
-     , (30903,  22,  872415398) /* PhysicsEffectTable */
+VALUES (30903,   1, 0x02000F95) /* Setup */
+     , (30903,   2, 0x0900012B) /* MotionTable */
+     , (30903,   3, 0x2000009E) /* SoundTable */
+     , (30903,   4, 0x30000038) /* CombatTable */
+     , (30903,   6, 0x040015C8) /* PaletteBase */
+     , (30903,   7, 0x100004B3) /* ClothingBase */
+     , (30903,   8, 0x06002C42) /* Icon */
+     , (30903,  22, 0x340000A6) /* PhysicsEffectTable */
      , (30903,  30,         86) /* PhysicsScript - BreatheAcid */
      , (30903,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 

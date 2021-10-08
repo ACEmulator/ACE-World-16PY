@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (431,   1, 'Mount Alphus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (431,   1,   33554867) /* Setup */
-     , (431,   2,  150994947) /* MotionTable */
-     , (431,   8,  100667499) /* Icon */;
+VALUES (431,   1, 0x020001B3) /* Setup */
+     , (431,   2, 0x09000003) /* MotionTable */
+     , (431,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (431, 2, 0x95980029, 140.2, 15.9, 224, -0.317305, 0, -0, -0.948324) /* Destination */

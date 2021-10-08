@@ -64,11 +64,11 @@ VALUES (12733,   1, 'Sentry') /* Name */
      , (12733,   5, 'Soldier') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12733,   1,   33554510) /* Setup */
-     , (12733,   2,  150994945) /* MotionTable */
-     , (12733,   3,  536870914) /* SoundTable */
-     , (12733,   4,  805306368) /* CombatTable */
-     , (12733,   8,  100667446) /* Icon */;
+VALUES (12733,   1, 0x0200004E) /* Setup */
+     , (12733,   2, 0x09000001) /* MotionTable */
+     , (12733,   3, 0x20000002) /* SoundTable */
+     , (12733,   4, 0x30000000) /* CombatTable */
+     , (12733,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12733,   1, 145, 0, 0) /* Strength */

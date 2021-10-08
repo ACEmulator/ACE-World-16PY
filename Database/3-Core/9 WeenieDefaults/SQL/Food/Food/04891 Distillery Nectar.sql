@@ -34,8 +34,8 @@ VALUES (4891,   1, 'Distillery Nectar') /* Name */
      , (4891,  33, 'DistilleryNectarQuest') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4891,   1,   33554602) /* Setup */
-     , (4891,   3,  536870932) /* SoundTable */
-     , (4891,   8,  100667410) /* Icon */
-     , (4891,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4891,   1, 0x020000AA) /* Setup */
+     , (4891,   3, 0x20000014) /* SoundTable */
+     , (4891,   8, 0x06001012) /* Icon */
+     , (4891,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4891,  23,         65) /* UseSound - Drink1 */;

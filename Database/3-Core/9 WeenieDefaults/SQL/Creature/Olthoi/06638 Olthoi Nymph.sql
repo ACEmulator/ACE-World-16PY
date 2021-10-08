@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6638,   1, 'Olthoi Nymph') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6638,   1,   33557163) /* Setup */
-     , (6638,   2,  150994946) /* MotionTable */
-     , (6638,   3,  536870925) /* SoundTable */
-     , (6638,   4,  805306369) /* CombatTable */
-     , (6638,   6,   67113236) /* PaletteBase */
-     , (6638,   7,  268436196) /* ClothingBase */
-     , (6638,   8,  100667623) /* Icon */
-     , (6638,  22,  872415265) /* PhysicsEffectTable */
+VALUES (6638,   1, 0x02000AAB) /* Setup */
+     , (6638,   2, 0x09000002) /* MotionTable */
+     , (6638,   3, 0x2000000D) /* SoundTable */
+     , (6638,   4, 0x30000001) /* CombatTable */
+     , (6638,   6, 0x04001114) /* PaletteBase */
+     , (6638,   7, 0x100002E4) /* ClothingBase */
+     , (6638,   8, 0x060010E7) /* Icon */
+     , (6638,  22, 0x34000021) /* PhysicsEffectTable */
      , (6638,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7555,   1, 'Obeloth Raider') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7555,   1,   33557003) /* Setup */
-     , (7555,   2,  150994950) /* MotionTable */
-     , (7555,   3,  536870922) /* SoundTable */
-     , (7555,   4,  805306371) /* CombatTable */
-     , (7555,   6,   67113158) /* PaletteBase */
-     , (7555,   7,  268436155) /* ClothingBase */
-     , (7555,   8,  100667447) /* Icon */
-     , (7555,  22,  872415262) /* PhysicsEffectTable */
+VALUES (7555,   1, 0x02000A0B) /* Setup */
+     , (7555,   2, 0x09000006) /* MotionTable */
+     , (7555,   3, 0x2000000A) /* SoundTable */
+     , (7555,   4, 0x30000003) /* CombatTable */
+     , (7555,   6, 0x040010C6) /* PaletteBase */
+     , (7555,   7, 0x100002BB) /* ClothingBase */
+     , (7555,   8, 0x06001037) /* Icon */
+     , (7555,  22, 0x3400001E) /* PhysicsEffectTable */
      , (7555,  32,        307) /* WieldedTreasureType - 
                                    Wield Rock (7578) | Probability: 90%
                                    Wield Lugian Axe (7577) | Probability: 90% */

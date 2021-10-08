@@ -28,9 +28,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25689,   1, 'Sealed Tunnel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25689,   1,   33555536) /* Setup */
-     , (25689,   2,  150994977) /* MotionTable */
-     , (25689,   8,  100668114) /* Icon */;
+VALUES (25689,   1, 0x02000450) /* Setup */
+     , (25689,   2, 0x09000021) /* MotionTable */
+     , (25689,   8, 0x060012D2) /* Icon */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (25689,  16, 0x00000000) /* ActivationTarget */;

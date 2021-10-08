@@ -22,12 +22,12 @@ VALUES (29639,   1, '0 1 1 2 3 5') /* Name */
      , (29639,  16, 'A lever marked with the numbers 0, 1, 1, 2, 3, and 5.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29639,   1,   33558886) /* Setup */
-     , (29639,   2,  150995055) /* MotionTable */
-     , (29639,   3,  536870980) /* SoundTable */
-     , (29639,   8,  100667624) /* Icon */
-     , (29639,  22,  872415275) /* PhysicsEffectTable */
-     , (29639,  24,  268435537) /* UseTargetAnimation - Twitch1 */;
+VALUES (29639,   1, 0x02001166) /* Setup */
+     , (29639,   2, 0x0900006F) /* MotionTable */
+     , (29639,   3, 0x20000044) /* SoundTable */
+     , (29639,   8, 0x060010E8) /* Icon */
+     , (29639,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29639,  24, 0x10000051) /* UseTargetAnimation - Twitch1 */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (29639,  8 /* Activation */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

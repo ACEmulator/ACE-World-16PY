@@ -32,13 +32,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8751,   1, 'Society Wand Of Lightning') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8751,   1,   33558231) /* Setup */
-     , (8751,   3,  536870932) /* SoundTable */
-     , (8751,   6,   67111919) /* PaletteBase */
-     , (8751,   7,  268436548) /* ClothingBase */
-     , (8751,   8,  100674110) /* Icon */
-     , (8751,  22,  872415275) /* PhysicsEffectTable */
-     , (8751,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (8751,   1, 0x02000ED7) /* Setup */
+     , (8751,   3, 0x20000014) /* SoundTable */
+     , (8751,   6, 0x04000BEF) /* PaletteBase */
+     , (8751,   7, 0x10000444) /* ClothingBase */
+     , (8751,   8, 0x06002A3E) /* Icon */
+     , (8751,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8751,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (8751,  28,         76) /* Spell - Lightning Bolt II */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

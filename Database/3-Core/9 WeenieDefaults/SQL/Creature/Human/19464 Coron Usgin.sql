@@ -64,11 +64,11 @@ VALUES (19464,   1, 'Coron Usgin') /* Name */
      , (19464,   5, 'Seller for Telk the Addlepated') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19464,   1,   33554433) /* Setup */
-     , (19464,   2,  150994945) /* MotionTable */
-     , (19464,   3,  536870913) /* SoundTable */
-     , (19464,   4,  805306368) /* CombatTable */
-     , (19464,   8,  100667446) /* Icon */;
+VALUES (19464,   1, 0x02000001) /* Setup */
+     , (19464,   2, 0x09000001) /* MotionTable */
+     , (19464,   3, 0x20000001) /* SoundTable */
+     , (19464,   4, 0x30000000) /* CombatTable */
+     , (19464,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19464,   1,  80, 0, 0) /* Strength */

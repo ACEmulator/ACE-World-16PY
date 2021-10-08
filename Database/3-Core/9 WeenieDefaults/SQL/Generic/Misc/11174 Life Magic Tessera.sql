@@ -28,8 +28,8 @@ VALUES (11174,   1, 'Life Magic Tessera') /* Name */
      , (11174,  16, 'A small, squarish piece of glass. This can be turned into the Tah of Timaru for a free one-point boost to your Life Magic skill. There are tesserae available for each skill in the game. If you don''t want a point of Life Magic, trade this tessera for another. You may only turn in five per character - so choose carefully!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11174,   1,   33557218) /* Setup */
-     , (11174,   3,  536870932) /* SoundTable */
-     , (11174,   8,  100671804) /* Icon */
-     , (11174,  22,  872415275) /* PhysicsEffectTable */
-     , (11174,  36,  234881046) /* MutateFilter */;
+VALUES (11174,   1, 0x02000AE2) /* Setup */
+     , (11174,   3, 0x20000014) /* SoundTable */
+     , (11174,   8, 0x0600213C) /* Icon */
+     , (11174,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11174,  36, 0x0E000016) /* MutateFilter */;

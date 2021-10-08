@@ -65,11 +65,11 @@ VALUES (14921,   1, 'Grand Sentinel Muroba') /* Name */
      , (14921,   5, 'Marriage Facilitator') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14921,   1,   33554433) /* Setup */
-     , (14921,   2,  150994945) /* MotionTable */
-     , (14921,   3,  536870913) /* SoundTable */
-     , (14921,   4,  805306368) /* CombatTable */
-     , (14921,   8,  100667446) /* Icon */;
+VALUES (14921,   1, 0x02000001) /* Setup */
+     , (14921,   2, 0x09000001) /* MotionTable */
+     , (14921,   3, 0x20000001) /* SoundTable */
+     , (14921,   4, 0x30000000) /* CombatTable */
+     , (14921,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (14921,  16, 0x79EB4007) /* ActivationTarget */;

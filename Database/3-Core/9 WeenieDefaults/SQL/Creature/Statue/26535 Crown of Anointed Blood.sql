@@ -63,12 +63,12 @@ VALUES (26535,   1, 'Crown of Anointed Blood') /* Name */
      , (26535,  15, 'A crown with an opaque veil.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26535,   1,   33558602) /* Setup */
-     , (26535,   2,  150995273) /* MotionTable */
-     , (26535,   3,  536871052) /* SoundTable */
-     , (26535,   4,  805306398) /* CombatTable */
-     , (26535,   8,  100675772) /* Icon */
-     , (26535,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (26535,   1, 0x0200104A) /* Setup */
+     , (26535,   2, 0x09000149) /* MotionTable */
+     , (26535,   3, 0x2000008C) /* SoundTable */
+     , (26535,   4, 0x3000001E) /* CombatTable */
+     , (26535,   8, 0x060030BC) /* Icon */
+     , (26535,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (26535,   1, 380, 0, 0) /* Strength */

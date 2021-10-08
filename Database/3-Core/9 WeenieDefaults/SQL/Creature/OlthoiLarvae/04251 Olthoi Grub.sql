@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4251,   1, 'Olthoi Grub') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4251,   1,   33555668) /* Setup */
-     , (4251,   2,  150995068) /* MotionTable */
-     , (4251,   3,  536870925) /* SoundTable */
-     , (4251,   4,  805306369) /* CombatTable */
-     , (4251,   6,   67109311) /* PaletteBase */
-     , (4251,   7,  268435553) /* ClothingBase */
-     , (4251,   8,  100669119) /* Icon */
-     , (4251,  22,  872415265) /* PhysicsEffectTable */
+VALUES (4251,   1, 0x020004D4) /* Setup */
+     , (4251,   2, 0x0900007C) /* MotionTable */
+     , (4251,   3, 0x2000000D) /* SoundTable */
+     , (4251,   4, 0x30000001) /* CombatTable */
+     , (4251,   6, 0x040001BF) /* PaletteBase */
+     , (4251,   7, 0x10000061) /* ClothingBase */
+     , (4251,   8, 0x060016BF) /* Icon */
+     , (4251,  22, 0x34000021) /* PhysicsEffectTable */
      , (4251,  30,         86) /* PhysicsScript - BreatheAcid */
      , (4251,  35,        145) /* DeathTreasureType - Loot Tier: 2 */;
 

@@ -25,7 +25,7 @@ VALUES (2747,   1, 'Scroll of Weakness Other II') /* Name */
      , (2747,  16, 'When learned, this spell decreases the target''s Strength by 20 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2747,   1,   33554826) /* Setup */
-     , (2747,   8,  100676474) /* Icon */
-     , (2747,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2747,   1, 0x0200018A) /* Setup */
+     , (2747,   8, 0x0600337A) /* Icon */
+     , (2747,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2747,  28,       1339) /* Spell - Weakness Other II */;

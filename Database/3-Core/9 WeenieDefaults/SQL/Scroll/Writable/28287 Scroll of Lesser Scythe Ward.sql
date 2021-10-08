@@ -24,7 +24,7 @@ VALUES (28287,   1, 'Scroll of Lesser Scythe Ward') /* Name */
      , (28287,  15, 'When learned, this spell reduces damage all fellowship members take from Slashing by 43%.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28287,   1,   33554826) /* Setup */
-     , (28287,   8,  100676954) /* Icon */
-     , (28287,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28287,   1, 0x0200018A) /* Setup */
+     , (28287,   8, 0x0600355A) /* Icon */
+     , (28287,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28287,  28,       3324) /* Spell - Lesser Scythe Ward */;

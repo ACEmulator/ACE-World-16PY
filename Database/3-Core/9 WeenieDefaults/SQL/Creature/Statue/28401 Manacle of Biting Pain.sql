@@ -63,12 +63,12 @@ VALUES (28401,   1, 'Manacle of Biting Pain') /* Name */
      , (28401,  15, 'This appears to be one half of a set of manacles. Inward pointing spikes give the band of metal a vicious look.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28401,   1,   33558879) /* Setup */
-     , (28401,   2,  150995273) /* MotionTable */
-     , (28401,   3,  536871052) /* SoundTable */
-     , (28401,   4,  805306398) /* CombatTable */
-     , (28401,   8,  100677003) /* Icon */
-     , (28401,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (28401,   1, 0x0200115F) /* Setup */
+     , (28401,   2, 0x09000149) /* MotionTable */
+     , (28401,   3, 0x2000008C) /* SoundTable */
+     , (28401,   4, 0x3000001E) /* CombatTable */
+     , (28401,   8, 0x0600358B) /* Icon */
+     , (28401,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28401,   1, 380, 0, 0) /* Strength */

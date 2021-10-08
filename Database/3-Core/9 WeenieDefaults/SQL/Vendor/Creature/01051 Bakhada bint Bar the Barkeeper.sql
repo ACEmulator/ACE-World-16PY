@@ -70,11 +70,11 @@ VALUES (1051,   1, 'Bakhada bint Bar the Barkeeper') /* Name */
      , (1051,  24, 'Qalaba''r') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1051,   1,   33554510) /* Setup */
-     , (1051,   2,  150994945) /* MotionTable */
-     , (1051,   3,  536870914) /* SoundTable */
-     , (1051,   4,  805306368) /* CombatTable */
-     , (1051,   8,  100667446) /* Icon */;
+VALUES (1051,   1, 0x0200004E) /* Setup */
+     , (1051,   2, 0x09000001) /* MotionTable */
+     , (1051,   3, 0x20000002) /* SoundTable */
+     , (1051,   4, 0x30000000) /* CombatTable */
+     , (1051,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1051,   1, 100, 0, 0) /* Strength */

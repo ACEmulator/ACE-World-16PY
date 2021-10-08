@@ -33,9 +33,9 @@ VALUES (8613,   1, 'Rumuba''s Jade Spearhead') /* Name */
      , (8613,  33, 'QuestRumubaSpear') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8613,   1,   33556902) /* Setup */
-     , (8613,   3,  536870932) /* SoundTable */
-     , (8613,   6,   67111919) /* PaletteBase */
-     , (8613,   7,  268436092) /* ClothingBase */
-     , (8613,   8,  100671206) /* Icon */
-     , (8613,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8613,   1, 0x020009A6) /* Setup */
+     , (8613,   3, 0x20000014) /* SoundTable */
+     , (8613,   6, 0x04000BEF) /* PaletteBase */
+     , (8613,   7, 0x1000027C) /* ClothingBase */
+     , (8613,   8, 0x06001EE6) /* Icon */
+     , (8613,  22, 0x3400002B) /* PhysicsEffectTable */;

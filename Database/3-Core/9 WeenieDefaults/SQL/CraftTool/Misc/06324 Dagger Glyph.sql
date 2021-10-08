@@ -34,7 +34,7 @@ VALUES (6324,   1, 'Dagger Glyph') /* Name */
      , (6324,  16, 'A glyph with the image of a dagger emblazoned upon it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6324,   1,   33556438) /* Setup */
-     , (6324,   3,  536870932) /* SoundTable */
-     , (6324,   8,  100670478) /* Icon */
-     , (6324,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6324,   1, 0x020007D6) /* Setup */
+     , (6324,   3, 0x20000014) /* SoundTable */
+     , (6324,   8, 0x06001C0E) /* Icon */
+     , (6324,  22, 0x3400002B) /* PhysicsEffectTable */;

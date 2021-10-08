@@ -62,14 +62,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9691,   1, 'Tumerok Gladiator') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9691,   1,   33554496) /* Setup */
-     , (9691,   2,  150994954) /* MotionTable */
-     , (9691,   3,  536870931) /* SoundTable */
-     , (9691,   4,  805306380) /* CombatTable */
-     , (9691,   6,   67109314) /* PaletteBase */
-     , (9691,   7,  268436630) /* ClothingBase */
-     , (9691,   8,  100667452) /* Icon */
-     , (9691,  22,  872415270) /* PhysicsEffectTable */
+VALUES (9691,   1, 0x02000040) /* Setup */
+     , (9691,   2, 0x0900000A) /* MotionTable */
+     , (9691,   3, 0x20000013) /* SoundTable */
+     , (9691,   4, 0x3000000C) /* CombatTable */
+     , (9691,   6, 0x040001C2) /* PaletteBase */
+     , (9691,   7, 0x10000496) /* ClothingBase */
+     , (9691,   8, 0x0600103C) /* Icon */
+     , (9691,  22, 0x34000026) /* PhysicsEffectTable */
      , (9691,  32,        220) /* WieldedTreasureType - 
                                    Wield Katar (23676) | Probability: 14%
                                    Wield Cestus (23639) | Probability: 7%

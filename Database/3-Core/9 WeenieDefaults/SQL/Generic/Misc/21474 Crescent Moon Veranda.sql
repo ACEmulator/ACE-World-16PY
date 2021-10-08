@@ -22,5 +22,5 @@ VALUES (21474,   1, 'Crescent Moon Veranda') /* Name */
      , (21474,  16, 'Crescent Moon Veranda') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21474,   1,   33557897) /* Setup */
-     , (21474,   8,  100667499) /* Icon */;
+VALUES (21474,   1, 0x02000D89) /* Setup */
+     , (21474,   8, 0x0600106B) /* Icon */;

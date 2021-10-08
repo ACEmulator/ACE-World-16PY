@@ -51,12 +51,12 @@ VALUES (27334,   1, 'Palenqual''s Atlatl of the Heights') /* Name */
      , (27334,  16, 'An atlatl fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27334,   1,   33558660) /* Setup */
-     , (27334,   3,  536870932) /* SoundTable */
-     , (27334,   6,   67113336) /* PaletteBase */
-     , (27334,   7,  268436249) /* ClothingBase */
-     , (27334,   8,  100676385) /* Icon */
-     , (27334,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27334,   1, 0x02001084) /* Setup */
+     , (27334,   3, 0x20000014) /* SoundTable */
+     , (27334,   6, 0x04001178) /* PaletteBase */
+     , (27334,   7, 0x10000319) /* ClothingBase */
+     , (27334,   8, 0x06003321) /* Icon */
+     , (27334,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27334,  2471,      2)  /* Lesser Still Water */

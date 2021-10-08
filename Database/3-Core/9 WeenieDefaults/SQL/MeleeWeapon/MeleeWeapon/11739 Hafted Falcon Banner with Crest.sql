@@ -44,12 +44,12 @@ VALUES (11739,   1, 'Hafted Falcon Banner with Crest') /* Name */
      , (11739,  16, 'A hafted, crest tipped banner with a Falcon on it.  It is somewhat tattered, and the colors seem to be washed out.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11739,   1,   33557256) /* Setup */
-     , (11739,   3,  536870932) /* SoundTable */
-     , (11739,   6,   67113338) /* PaletteBase */
-     , (11739,   7,  268436223) /* ClothingBase */
-     , (11739,   8,  100671894) /* Icon */
-     , (11739,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11739,   1, 0x02000B08) /* Setup */
+     , (11739,   3, 0x20000014) /* SoundTable */
+     , (11739,   6, 0x0400117A) /* PaletteBase */
+     , (11739,   7, 0x100002FF) /* ClothingBase */
+     , (11739,   8, 0x06002196) /* Icon */
+     , (11739,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11739,   984,      2)  /* Sprint Self III */;

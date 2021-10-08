@@ -38,9 +38,9 @@ VALUES (15892,   1, 'Zharalim Simi') /* Name */
      , (15892,  33, 'SimiStatuePickUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15892,   1,   33554751) /* Setup */
-     , (15892,   3,  536870932) /* SoundTable */
-     , (15892,   6,   67111919) /* PaletteBase */
-     , (15892,   7,  268435766) /* ClothingBase */
-     , (15892,   8,  100668995) /* Icon */
-     , (15892,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15892,   1, 0x0200013F) /* Setup */
+     , (15892,   3, 0x20000014) /* SoundTable */
+     , (15892,   6, 0x04000BEF) /* PaletteBase */
+     , (15892,   7, 0x10000136) /* ClothingBase */
+     , (15892,   8, 0x06001643) /* Icon */
+     , (15892,  22, 0x3400002B) /* PhysicsEffectTable */;

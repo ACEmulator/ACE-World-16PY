@@ -27,9 +27,9 @@ VALUES (30480,   1, 'Antique Mug') /* Name */
      , (30480,  33, 'HoltburgRedoubtMug1204') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30480,   1,   33554665) /* Setup */
-     , (30480,   3,  536871012) /* SoundTable */
-     , (30480,   6,   67111919) /* PaletteBase */
-     , (30480,   7,  268435748) /* ClothingBase */
-     , (30480,   8,  100668712) /* Icon */
-     , (30480,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30480,   1, 0x020000E9) /* Setup */
+     , (30480,   3, 0x20000064) /* SoundTable */
+     , (30480,   6, 0x04000BEF) /* PaletteBase */
+     , (30480,   7, 0x10000124) /* ClothingBase */
+     , (30480,   8, 0x06001528) /* Icon */
+     , (30480,  22, 0x3400002B) /* PhysicsEffectTable */;

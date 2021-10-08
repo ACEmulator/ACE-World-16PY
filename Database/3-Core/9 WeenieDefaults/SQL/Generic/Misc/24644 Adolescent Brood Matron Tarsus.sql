@@ -24,7 +24,7 @@ VALUES (24644,   1, 'Adolescent Brood Matron Tarsus') /* Name */
      , (24644,  33, 'PickedUpBroodMatronTarsus') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24644,   1,   33556593) /* Setup */
-     , (24644,   3,  536870932) /* SoundTable */
-     , (24644,   8,  100674518) /* Icon */
-     , (24644,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24644,   1, 0x02000871) /* Setup */
+     , (24644,   3, 0x20000014) /* SoundTable */
+     , (24644,   8, 0x06002BD6) /* Icon */
+     , (24644,  22, 0x3400002B) /* PhysicsEffectTable */;

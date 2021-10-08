@@ -26,7 +26,7 @@ VALUES (25972,   1, 'Skeleton Key') /* Name */
      , (25972,  16, 'A skeleton key used to open the gate at the top of the bulwark north west of Zaikhal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25972,   1,   33554784) /* Setup */
-     , (25972,   3,  536870932) /* SoundTable */
-     , (25972,   8,  100675676) /* Icon */
-     , (25972,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25972,   1, 0x02000160) /* Setup */
+     , (25972,   3, 0x20000014) /* SoundTable */
+     , (25972,   8, 0x0600305C) /* Icon */
+     , (25972,  22, 0x3400002B) /* PhysicsEffectTable */;

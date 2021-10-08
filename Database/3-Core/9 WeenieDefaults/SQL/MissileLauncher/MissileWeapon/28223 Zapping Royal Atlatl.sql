@@ -40,11 +40,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28223,   1, 'Zapping Royal Atlatl') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28223,   1,   33557857) /* Setup */
-     , (28223,   3,  536870932) /* SoundTable */
-     , (28223,   6,   67111919) /* PaletteBase */
-     , (28223,   7,  268436432) /* ClothingBase */
-     , (28223,   8,  100673250) /* Icon */
-     , (28223,  22,  872415275) /* PhysicsEffectTable */
-     , (28223,  36,  234881053) /* MutateFilter */
-     , (28223,  46,  939524106) /* TsysMutationFilter */;
+VALUES (28223,   1, 0x02000D61) /* Setup */
+     , (28223,   3, 0x20000014) /* SoundTable */
+     , (28223,   6, 0x04000BEF) /* PaletteBase */
+     , (28223,   7, 0x100003D0) /* ClothingBase */
+     , (28223,   8, 0x060026E2) /* Icon */
+     , (28223,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (28223,  36, 0x0E00001D) /* MutateFilter */
+     , (28223,  46, 0x3800000A) /* TsysMutationFilter */;

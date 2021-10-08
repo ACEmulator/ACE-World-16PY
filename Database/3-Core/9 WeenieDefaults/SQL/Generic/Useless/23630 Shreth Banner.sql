@@ -24,9 +24,9 @@ VALUES (23630,   1, 'Shreth Banner') /* Name */
      , (23630,  16, 'A framed banner with a shreth on it.  It is relatively well kept, and the colors seem even and pure.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23630,   1,   33557239) /* Setup */
-     , (23630,   3,  536870932) /* SoundTable */
-     , (23630,   6,   67113338) /* PaletteBase */
-     , (23630,   7,  268436205) /* ClothingBase */
-     , (23630,   8,  100671893) /* Icon */
-     , (23630,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23630,   1, 0x02000AF7) /* Setup */
+     , (23630,   3, 0x20000014) /* SoundTable */
+     , (23630,   6, 0x0400117A) /* PaletteBase */
+     , (23630,   7, 0x100002ED) /* ClothingBase */
+     , (23630,   8, 0x06002195) /* Icon */
+     , (23630,  22, 0x3400002B) /* PhysicsEffectTable */;

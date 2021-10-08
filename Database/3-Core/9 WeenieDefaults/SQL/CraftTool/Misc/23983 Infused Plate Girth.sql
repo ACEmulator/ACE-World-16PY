@@ -35,9 +35,9 @@ VALUES (23983,   1, 'Infused Plate Girth') /* Name */
      , (23983,  15, 'A once vibrant girth worn by the Order of Heiromancers teeming with an unknown power.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23983,   1,   33554669) /* Setup */
-     , (23983,   3,  536870932) /* SoundTable */
-     , (23983,   6,   67111919) /* PaletteBase */
-     , (23983,   7,  268435968) /* ClothingBase */
-     , (23983,   8,  100674128) /* Icon */
-     , (23983,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23983,   1, 0x020000ED) /* Setup */
+     , (23983,   3, 0x20000014) /* SoundTable */
+     , (23983,   6, 0x04000BEF) /* PaletteBase */
+     , (23983,   7, 0x10000200) /* ClothingBase */
+     , (23983,   8, 0x06002A50) /* Icon */
+     , (23983,  22, 0x3400002B) /* PhysicsEffectTable */;

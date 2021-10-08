@@ -62,13 +62,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2444,   1, 'Straw Rat') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2444,   1,   33554493) /* Setup */
-     , (2444,   2,  150995084) /* MotionTable */
-     , (2444,   3,  536870993) /* SoundTable */
-     , (2444,   6,   67109300) /* PaletteBase */
-     , (2444,   7,  268435836) /* ClothingBase */
-     , (2444,   8,  100667451) /* Icon */
-     , (2444,  22,  872415341) /* PhysicsEffectTable */
+VALUES (2444,   1, 0x0200003D) /* Setup */
+     , (2444,   2, 0x0900008C) /* MotionTable */
+     , (2444,   3, 0x20000051) /* SoundTable */
+     , (2444,   6, 0x040001B4) /* PaletteBase */
+     , (2444,   7, 0x1000017C) /* ClothingBase */
+     , (2444,   8, 0x0600103B) /* Icon */
+     , (2444,  22, 0x3400006D) /* PhysicsEffectTable */
      , (2444,  35,        160) /* DeathTreasureType */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

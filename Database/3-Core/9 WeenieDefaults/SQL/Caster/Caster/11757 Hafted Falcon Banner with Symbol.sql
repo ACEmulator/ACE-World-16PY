@@ -35,12 +35,12 @@ VALUES (11757,   1, 'Hafted Falcon Banner with Symbol') /* Name */
      , (11757,  16, 'A hafted, symbol tipped banner with a Falcon on it.  It is somewhat tattered, and the colors seem to be washed out.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11757,   1,   33557258) /* Setup */
-     , (11757,   6,   67113338) /* PaletteBase */
-     , (11757,   7,  268436223) /* ClothingBase */
-     , (11757,   8,  100671912) /* Icon */
-     , (11757,  22,  872415275) /* PhysicsEffectTable */
-     , (11757,  27, 1073742049) /* UseUserAnimation - UseMagicWand */;
+VALUES (11757,   1, 0x02000B0A) /* Setup */
+     , (11757,   6, 0x0400117A) /* PaletteBase */
+     , (11757,   7, 0x100002FF) /* ClothingBase */
+     , (11757,   8, 0x060021A8) /* Icon */
+     , (11757,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11757,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11757,   656,      2)  /* Mana Conversion Mastery Self IV */

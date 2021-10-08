@@ -70,14 +70,14 @@ VALUES (27427,   1, 'Shadow Nightmare Leader') /* Name */
      , (27427,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27427,   1,   33556251) /* Setup */
-     , (27427,   2,  150995091) /* MotionTable */
-     , (27427,   3,  536870914) /* SoundTable */
-     , (27427,   4,  805306408) /* CombatTable */
-     , (27427,   6,   67108990) /* PaletteBase */
-     , (27427,   7,  268435871) /* ClothingBase */
-     , (27427,   8,  100670398) /* Icon */
-     , (27427,  22,  872415331) /* PhysicsEffectTable */
+VALUES (27427,   1, 0x0200071B) /* Setup */
+     , (27427,   2, 0x09000093) /* MotionTable */
+     , (27427,   3, 0x20000002) /* SoundTable */
+     , (27427,   4, 0x30000028) /* CombatTable */
+     , (27427,   6, 0x0400007E) /* PaletteBase */
+     , (27427,   7, 0x1000019F) /* ClothingBase */
+     , (27427,   8, 0x06001BBE) /* Icon */
+     , (27427,  22, 0x34000063) /* PhysicsEffectTable */
      , (27427,  31,      27560) /* LinkedPortalOne - Consumed Wraith's Tower */
      , (27427,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 

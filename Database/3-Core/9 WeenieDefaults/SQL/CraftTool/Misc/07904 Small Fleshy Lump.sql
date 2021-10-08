@@ -31,9 +31,9 @@ VALUES (7904,   1, 'Small Fleshy Lump') /* Name */
      , (7904,  16, 'A thin, membranous, unidentifiable life form found on a powerful Shadow. Characters of what seems to be Empyrean script are burned into its flesh. The characters appear to be cut off, as if some of the message were missing.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7904,   1,   33556232) /* Setup */
-     , (7904,   3,  536870932) /* SoundTable */
-     , (7904,   6,   67111928) /* PaletteBase */
-     , (7904,   7,  268436029) /* ClothingBase */
-     , (7904,   8,  100670891) /* Icon */
-     , (7904,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7904,   1, 0x02000708) /* Setup */
+     , (7904,   3, 0x20000014) /* SoundTable */
+     , (7904,   6, 0x04000BF8) /* PaletteBase */
+     , (7904,   7, 0x1000023D) /* ClothingBase */
+     , (7904,   8, 0x06001DAB) /* Icon */
+     , (7904,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -70,14 +70,14 @@ VALUES (25665,   1, 'Wretched') /* Name */
      , (25665,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25665,   1,   33556251) /* Setup */
-     , (25665,   2,  150995091) /* MotionTable */
-     , (25665,   3,  536870914) /* SoundTable */
-     , (25665,   4,  805306408) /* CombatTable */
-     , (25665,   6,   67108990) /* PaletteBase */
-     , (25665,   7,  268435871) /* ClothingBase */
-     , (25665,   8,  100670398) /* Icon */
-     , (25665,  22,  872415331) /* PhysicsEffectTable */
+VALUES (25665,   1, 0x0200071B) /* Setup */
+     , (25665,   2, 0x09000093) /* MotionTable */
+     , (25665,   3, 0x20000002) /* SoundTable */
+     , (25665,   4, 0x30000028) /* CombatTable */
+     , (25665,   6, 0x0400007E) /* PaletteBase */
+     , (25665,   7, 0x1000019F) /* ClothingBase */
+     , (25665,   8, 0x06001BBE) /* Icon */
+     , (25665,  22, 0x34000063) /* PhysicsEffectTable */
      , (25665,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

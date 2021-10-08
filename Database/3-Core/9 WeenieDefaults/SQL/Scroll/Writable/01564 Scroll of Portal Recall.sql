@@ -24,7 +24,7 @@ VALUES (1564,   1, 'Scroll of Portal Recall') /* Name */
      , (1564,  15, 'When learned, this spell transports the caster to the destination of the last recallable portal the caster traveled through.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1564,   1,   33554826) /* Setup */
-     , (1564,   8,  100676673) /* Icon */
-     , (1564,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1564,   1, 0x0200018A) /* Setup */
+     , (1564,   8, 0x06003441) /* Icon */
+     , (1564,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1564,  28,       2645) /* Spell - Portal Recall */;

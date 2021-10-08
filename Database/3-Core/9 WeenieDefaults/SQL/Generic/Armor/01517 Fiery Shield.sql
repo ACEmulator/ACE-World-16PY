@@ -45,11 +45,11 @@ VALUES (1517,   1, 'Fiery Shield') /* Name */
      , (1517,  16, 'A fiery shield that seems to give resistance against fire.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1517,   1,   33555416) /* Setup */
-     , (1517,   6,   67111459) /* PaletteBase */
-     , (1517,   7,  268435610) /* ClothingBase */
-     , (1517,   8,  100667360) /* Icon */
-     , (1517,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1517,   1, 0x020003D8) /* Setup */
+     , (1517,   6, 0x04000A23) /* PaletteBase */
+     , (1517,   7, 0x1000009A) /* ClothingBase */
+     , (1517,   8, 0x06000FE0) /* Icon */
+     , (1517,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1517,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

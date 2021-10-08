@@ -22,5 +22,5 @@ VALUES (4517,   1, 'South Town Supplies') /* Name */
      , (4517,  16, 'South Town Supplies') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4517,   1,   33555594) /* Setup */
-     , (4517,   8,  100668115) /* Icon */;
+VALUES (4517,   1, 0x0200048A) /* Setup */
+     , (4517,   8, 0x060012D3) /* Icon */;

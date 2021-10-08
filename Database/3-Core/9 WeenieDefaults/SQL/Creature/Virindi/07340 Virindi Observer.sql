@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7340,   1, 'Virindi Observer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7340,   1,   33554497) /* Setup */
-     , (7340,   2,  150994984) /* MotionTable */
-     , (7340,   3,  536870930) /* SoundTable */
-     , (7340,   4,  805306381) /* CombatTable */
-     , (7340,   6,   67111346) /* PaletteBase */
-     , (7340,   7,  268435649) /* ClothingBase */
-     , (7340,   8,  100667943) /* Icon */
-     , (7340,  22,  872415273) /* PhysicsEffectTable */
+VALUES (7340,   1, 0x02000041) /* Setup */
+     , (7340,   2, 0x09000028) /* MotionTable */
+     , (7340,   3, 0x20000012) /* SoundTable */
+     , (7340,   4, 0x3000000D) /* CombatTable */
+     , (7340,   6, 0x040009B2) /* PaletteBase */
+     , (7340,   7, 0x100000C1) /* ClothingBase */
+     , (7340,   8, 0x06001227) /* Icon */
+     , (7340,  22, 0x34000029) /* PhysicsEffectTable */
      , (7340,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

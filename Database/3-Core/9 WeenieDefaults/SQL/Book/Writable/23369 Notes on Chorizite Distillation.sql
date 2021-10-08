@@ -23,10 +23,10 @@ VALUES (23369,   1, 'Notes on Chorizite Distillation') /* Name */
      , (23369,  16, 'A few sheets of paper, filled with Leandra''s neat and concise handwriting. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23369,   1,   33554773) /* Setup */
-     , (23369,   3,  536870932) /* SoundTable */
-     , (23369,   8,  100668176) /* Icon */
-     , (23369,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23369,   1, 0x02000155) /* Setup */
+     , (23369,   3, 0x20000014) /* SoundTable */
+     , (23369,   8, 0x06001310) /* Icon */
+     , (23369,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (23369, 5, 1000);

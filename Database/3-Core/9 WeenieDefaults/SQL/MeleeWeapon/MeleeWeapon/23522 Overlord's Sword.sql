@@ -48,11 +48,11 @@ VALUES (23522,   1, 'Overlord''s Sword') /* Name */
      , (23522,  33, 'PickedUpOverlordSword') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23522,   1,   33558185) /* Setup */
-     , (23522,   3,  536870932) /* SoundTable */
-     , (23522,   6,   67111092) /* PaletteBase */
-     , (23522,   8,  100674032) /* Icon */
-     , (23522,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23522,   1, 0x02000EA9) /* Setup */
+     , (23522,   3, 0x20000014) /* SoundTable */
+     , (23522,   6, 0x040008B4) /* PaletteBase */
+     , (23522,   8, 0x060029F0) /* Icon */
+     , (23522,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23522,  1605,      2)  /* Aura of Defender Self VI */

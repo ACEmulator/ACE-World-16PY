@@ -45,12 +45,12 @@ VALUES (8153,   1, 'Virindi Mask') /* Name */
      , (8153,  16, 'A mask made out of some indeterminable metal. It seems to reflect light in a strange manner.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8153,   1,   33556827) /* Setup */
-     , (8153,   3,  536870932) /* SoundTable */
-     , (8153,   6,   67108990) /* PaletteBase */
-     , (8153,   7,  268436258) /* ClothingBase */
-     , (8153,   8,  100671028) /* Icon */
-     , (8153,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8153,   1, 0x0200095B) /* Setup */
+     , (8153,   3, 0x20000014) /* SoundTable */
+     , (8153,   6, 0x0400007E) /* PaletteBase */
+     , (8153,   7, 0x10000322) /* ClothingBase */
+     , (8153,   8, 0x06001E34) /* Icon */
+     , (8153,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8153,   247,      2)  /* Invulnerability Self IV */;

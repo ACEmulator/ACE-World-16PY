@@ -33,12 +33,12 @@ VALUES (29918,   1, 'Pack Gaerlan') /* Name */
      , (29918,  16, 'Gaerlan, Empyrean elemental mage.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29918,   1,   33559085) /* Setup */
-     , (29918,   3,  536870932) /* SoundTable */
-     , (29918,   6,   67112626) /* PaletteBase */
-     , (29918,   7,  268436403) /* ClothingBase */
-     , (29918,   8,  100673073) /* Icon */
-     , (29918,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29918,   1, 0x0200122D) /* Setup */
+     , (29918,   3, 0x20000014) /* SoundTable */
+     , (29918,   6, 0x04000EB2) /* PaletteBase */
+     , (29918,   7, 0x100003B3) /* ClothingBase */
+     , (29918,   8, 0x06002631) /* Icon */
+     , (29918,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (29918, 5, 1000);

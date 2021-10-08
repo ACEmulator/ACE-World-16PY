@@ -68,14 +68,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2567,   1, 'Brown Rabbit') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2567,   1,   33555579) /* Setup */
-     , (2567,   2,  150995042) /* MotionTable */
-     , (2567,   3,  536870973) /* SoundTable */
-     , (2567,   4,  805306389) /* CombatTable */
-     , (2567,   6,   67109300) /* PaletteBase */
-     , (2567,   7,  268435725) /* ClothingBase */
-     , (2567,   8,  100669116) /* Icon */
-     , (2567,  22,  872415277) /* PhysicsEffectTable */;
+VALUES (2567,   1, 0x0200047B) /* Setup */
+     , (2567,   2, 0x09000062) /* MotionTable */
+     , (2567,   3, 0x2000003D) /* SoundTable */
+     , (2567,   4, 0x30000015) /* CombatTable */
+     , (2567,   6, 0x040001B4) /* PaletteBase */
+     , (2567,   7, 0x1000010D) /* ClothingBase */
+     , (2567,   8, 0x060016BC) /* Icon */
+     , (2567,  22, 0x3400002D) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2567,   1,  10, 0, 0) /* Strength */

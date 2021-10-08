@@ -28,8 +28,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6401,   1, 'Statue') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6401,   1,   33556419) /* Setup */
-     , (6401,   8,  100670208) /* Icon */;
+VALUES (6401,   1, 0x020007C3) /* Setup */
+     , (6401,   8, 0x06001B00) /* Icon */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (6401, 1, 1000);

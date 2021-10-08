@@ -44,8 +44,8 @@ VALUES (28065,   1, 'Sacrificial Dagger') /* Name */
      , (28065,  33, 'GalaeralDagger') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28065,   1,   33558822) /* Setup */
-     , (28065,   3,  536870932) /* SoundTable */
-     , (28065,   8,  100676681) /* Icon */
-     , (28065,  22,  872415275) /* PhysicsEffectTable */
-     , (28065,  36,  234881044) /* MutateFilter */;
+VALUES (28065,   1, 0x02001126) /* Setup */
+     , (28065,   3, 0x20000014) /* SoundTable */
+     , (28065,   8, 0x06003449) /* Icon */
+     , (28065,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (28065,  36, 0x0E000014) /* MutateFilter */;

@@ -39,10 +39,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23319,   1, 'Rusted Battle Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23319,   1,   33554725) /* Setup */
-     , (23319,   3,  536870932) /* SoundTable */
-     , (23319,   6,   67111919) /* PaletteBase */
-     , (23319,   7,  268435779) /* ClothingBase */
-     , (23319,   8,  100674222) /* Icon */
-     , (23319,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23319,   1, 0x02000125) /* Setup */
+     , (23319,   3, 0x20000014) /* SoundTable */
+     , (23319,   6, 0x04000BEF) /* PaletteBase */
+     , (23319,   7, 0x10000143) /* ClothingBase */
+     , (23319,   8, 0x06002AAE) /* Icon */
+     , (23319,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23319,  30,         88) /* PhysicsScript - Create */;

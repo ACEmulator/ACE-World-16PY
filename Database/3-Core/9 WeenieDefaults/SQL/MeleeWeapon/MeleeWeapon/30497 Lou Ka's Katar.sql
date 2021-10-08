@@ -36,9 +36,9 @@ VALUES (30497,   1, 'Lou Ka''s Katar') /* Name */
      , (30497,  33, 'ShoushiBraidKatar1204') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30497,   1,   33554743) /* Setup */
-     , (30497,   3,  536870932) /* SoundTable */
-     , (30497,   6,   67111919) /* PaletteBase */
-     , (30497,   7,  268435789) /* ClothingBase */
-     , (30497,   8,  100668925) /* Icon */
-     , (30497,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30497,   1, 0x02000137) /* Setup */
+     , (30497,   3, 0x20000014) /* SoundTable */
+     , (30497,   6, 0x04000BEF) /* PaletteBase */
+     , (30497,   7, 0x1000014D) /* ClothingBase */
+     , (30497,   8, 0x060015FD) /* Icon */
+     , (30497,  22, 0x3400002B) /* PhysicsEffectTable */;

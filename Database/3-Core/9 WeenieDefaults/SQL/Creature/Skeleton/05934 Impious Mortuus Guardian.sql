@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5934,   1, 'Impious Mortuus Guardian') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5934,   1,   33554521) /* Setup */
-     , (5934,   2,  150994981) /* MotionTable */
-     , (5934,   3,  536870942) /* SoundTable */
-     , (5934,   4,  805306368) /* CombatTable */
-     , (5934,   6,   67111266) /* PaletteBase */
-     , (5934,   7,  268435646) /* ClothingBase */
-     , (5934,   8,  100669124) /* Icon */
-     , (5934,  22,  872415269) /* PhysicsEffectTable */
+VALUES (5934,   1, 0x02000059) /* Setup */
+     , (5934,   2, 0x09000025) /* MotionTable */
+     , (5934,   3, 0x2000001E) /* SoundTable */
+     , (5934,   4, 0x30000000) /* CombatTable */
+     , (5934,   6, 0x04000962) /* PaletteBase */
+     , (5934,   7, 0x100000BE) /* ClothingBase */
+     , (5934,   8, 0x060016C4) /* Icon */
+     , (5934,  22, 0x34000025) /* PhysicsEffectTable */
      , (5934,  32,        287) /* WieldedTreasureType - 
                                    Wield Yumi (23736) | Probability: 50%
                                    Wield 16x Greater Fire Arrow (5305) | Probability: 100%

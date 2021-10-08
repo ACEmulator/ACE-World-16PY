@@ -25,7 +25,7 @@ VALUES (28013,   1, 'Scroll of Blood Loather V') /* Name */
      , (28013,  16, 'When learned, this spell decreased a caster''s damage mod by 0.05 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28013,   1,   33554826) /* Setup */
-     , (28013,   8,  100676675) /* Icon */
-     , (28013,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28013,   1, 0x0200018A) /* Setup */
+     , (28013,   8, 0x06003443) /* Icon */
+     , (28013,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28013,  28,       3264) /* Spell - Spirit Loather V */;

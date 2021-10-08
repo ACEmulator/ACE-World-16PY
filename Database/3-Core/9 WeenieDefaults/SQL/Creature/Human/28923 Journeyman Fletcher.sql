@@ -64,11 +64,11 @@ VALUES (28923,   1, 'Journeyman Fletcher') /* Name */
      , (28923,   5, 'Apprentice Fletcher') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28923,   1,   33554433) /* Setup */
-     , (28923,   2,  150994945) /* MotionTable */
-     , (28923,   3,  536870913) /* SoundTable */
-     , (28923,   4,  805306368) /* CombatTable */
-     , (28923,   8,  100667446) /* Icon */;
+VALUES (28923,   1, 0x02000001) /* Setup */
+     , (28923,   2, 0x09000001) /* MotionTable */
+     , (28923,   3, 0x20000001) /* SoundTable */
+     , (28923,   4, 0x30000000) /* CombatTable */
+     , (28923,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28923,   1,  80, 0, 0) /* Strength */

@@ -41,11 +41,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28994,   1, 'Burun Slaying Sceptre') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28994,   1,   33558929) /* Setup */
-     , (28994,   3,  536870932) /* SoundTable */
-     , (28994,   8,  100676981) /* Icon */
-     , (28994,  22,  872415275) /* PhysicsEffectTable */
-     , (28994,  27, 1073742049) /* UseUserAnimation - UseMagicWand */;
+VALUES (28994,   1, 0x02001191) /* Setup */
+     , (28994,   3, 0x20000014) /* SoundTable */
+     , (28994,   8, 0x06003575) /* Icon */
+     , (28994,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (28994,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28994,   616,      2)  /* Life Magic Mastery Other VI */

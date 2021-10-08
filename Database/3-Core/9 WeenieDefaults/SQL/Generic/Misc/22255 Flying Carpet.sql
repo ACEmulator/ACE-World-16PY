@@ -22,8 +22,8 @@ VALUES (22255,   1, 'Flying Carpet') /* Name */
      , (22255,  15, 'You can use this item on floor hooks.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22255,   1,   33558248) /* Setup */
-     , (22255,   8,  100675559) /* Icon */;
+VALUES (22255,   1, 0x02000EE8) /* Setup */
+     , (22255,   8, 0x06002FE7) /* Icon */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (22255, 25 /* Wield */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

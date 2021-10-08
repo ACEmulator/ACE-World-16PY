@@ -62,14 +62,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23551,   1, 'Adolescent Ash Gromnie') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23551,   1,   33554487) /* Setup */
-     , (23551,   2,  150994971) /* MotionTable */
-     , (23551,   3,  536870921) /* SoundTable */
-     , (23551,   4,  805306386) /* CombatTable */
-     , (23551,   6,   67109547) /* PaletteBase */
-     , (23551,   7,  268435631) /* ClothingBase */
-     , (23551,   8,  100667938) /* Icon */
-     , (23551,  22,  872415260) /* PhysicsEffectTable */
+VALUES (23551,   1, 0x02000037) /* Setup */
+     , (23551,   2, 0x0900001B) /* MotionTable */
+     , (23551,   3, 0x20000009) /* SoundTable */
+     , (23551,   4, 0x30000012) /* CombatTable */
+     , (23551,   6, 0x040002AB) /* PaletteBase */
+     , (23551,   7, 0x100000AF) /* ClothingBase */
+     , (23551,   8, 0x06001222) /* Icon */
+     , (23551,  22, 0x3400001C) /* PhysicsEffectTable */
      , (23551,  30,         87) /* PhysicsScript - BreatheLightning */
      , (23551,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;
 

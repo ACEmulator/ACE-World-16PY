@@ -67,13 +67,13 @@ VALUES (26462,   1, 'Ulgrim the Unclean') /* Name */
      , (26462,   5, 'Royal Advisor') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26462,   1,   33558630) /* Setup */
-     , (26462,   2,  150994945) /* MotionTable */
-     , (26462,   3,  536871084) /* SoundTable */
-     , (26462,   4,  805306368) /* CombatTable */
-     , (26462,   6,   67108990) /* PaletteBase */
-     , (26462,   7,  268435545) /* ClothingBase */
-     , (26462,   8,  100667446) /* Icon */;
+VALUES (26462,   1, 0x02001066) /* Setup */
+     , (26462,   2, 0x09000001) /* MotionTable */
+     , (26462,   3, 0x200000AC) /* SoundTable */
+     , (26462,   4, 0x30000000) /* CombatTable */
+     , (26462,   6, 0x0400007E) /* PaletteBase */
+     , (26462,   7, 0x10000059) /* ClothingBase */
+     , (26462,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (26462,   1, 160, 0, 0) /* Strength */

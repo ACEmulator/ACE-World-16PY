@@ -35,10 +35,10 @@ VALUES (11143,   1, 'Olthoi Toast') /* Name */
      , (11143,  16, 'A piece of toast coated with sweet (and rather sticky) Olthoi Batter.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11143,   1,   33554806) /* Setup */
-     , (11143,   3,  536870932) /* SoundTable */
-     , (11143,   8,  100671766) /* Icon */
-     , (11143,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11143,   1, 0x02000176) /* Setup */
+     , (11143,   3, 0x20000014) /* SoundTable */
+     , (11143,   8, 0x06002116) /* Icon */
+     , (11143,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11143,  23,         64) /* UseSound - Eat1 */
-     , (11143,  27,  318767233) /* UseUserAnimation - MimeEat */
+     , (11143,  27, 0x13000081) /* UseUserAnimation - MimeEat */
      , (11143,  28,       2403) /* Spell - Balanced Breakfast */;

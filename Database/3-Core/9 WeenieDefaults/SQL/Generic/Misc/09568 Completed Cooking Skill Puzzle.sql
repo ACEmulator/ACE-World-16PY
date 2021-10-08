@@ -28,8 +28,8 @@ VALUES (9568,   1, 'Completed Cooking Skill Puzzle') /* Name */
      , (9568,  16, 'A completed Cooking Skill Puzzle.  Turn in to a Bestower Examiner to receive a title.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9568,   1,   33557028) /* Setup */
-     , (9568,   3,  536870932) /* SoundTable */
-     , (9568,   8,  100671556) /* Icon */
-     , (9568,  22,  872415275) /* PhysicsEffectTable */
-     , (9568,  36,  234881046) /* MutateFilter */;
+VALUES (9568,   1, 0x02000A24) /* Setup */
+     , (9568,   3, 0x20000014) /* SoundTable */
+     , (9568,   8, 0x06002044) /* Icon */
+     , (9568,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (9568,  36, 0x0E000016) /* MutateFilter */;

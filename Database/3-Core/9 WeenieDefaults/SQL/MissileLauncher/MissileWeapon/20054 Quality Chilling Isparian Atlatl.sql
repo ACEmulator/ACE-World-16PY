@@ -48,12 +48,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20054,   1, 'Quality Chilling Isparian Atlatl') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20054,   1,   33557797) /* Setup */
-     , (20054,   3,  536870932) /* SoundTable */
-     , (20054,   6,   67111919) /* PaletteBase */
-     , (20054,   7,  268436393) /* ClothingBase */
-     , (20054,   8,  100672999) /* Icon */
-     , (20054,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20054,   1, 0x02000D25) /* Setup */
+     , (20054,   3, 0x20000014) /* SoundTable */
+     , (20054,   6, 0x04000BEF) /* PaletteBase */
+     , (20054,   7, 0x100003A9) /* ClothingBase */
+     , (20054,   8, 0x060025E7) /* Icon */
+     , (20054,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20054,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

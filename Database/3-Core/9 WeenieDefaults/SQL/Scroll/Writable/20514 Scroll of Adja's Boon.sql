@@ -24,7 +24,7 @@ VALUES (20514,   1, 'Scroll of Adja''s Boon') /* Name */
      , (20514,  15, 'When learned, this spell increases the target''s Creature Enchantment skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20514,   1,   33554826) /* Setup */
-     , (20514,   8,  100676453) /* Icon */
-     , (20514,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20514,   1, 0x0200018A) /* Setup */
+     , (20514,   8, 0x06003365) /* Icon */
+     , (20514,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20514,  28,       2214) /* Spell - Adja's Boon */;

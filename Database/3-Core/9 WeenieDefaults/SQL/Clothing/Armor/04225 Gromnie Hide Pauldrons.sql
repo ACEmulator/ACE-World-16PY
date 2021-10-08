@@ -37,9 +37,9 @@ VALUES (4225,   1, 'Gromnie Hide Pauldrons') /* Name */
      , (4225,  15, 'Pauldrons crafted from the hide of a Gromnie.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4225,   1,   33554641) /* Setup */
-     , (4225,   3,  536870932) /* SoundTable */
-     , (4225,   6,   67108990) /* PaletteBase */
-     , (4225,   7,  268435535) /* ClothingBase */
-     , (4225,   8,  100669531) /* Icon */
-     , (4225,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4225,   1, 0x020000D1) /* Setup */
+     , (4225,   3, 0x20000014) /* SoundTable */
+     , (4225,   6, 0x0400007E) /* PaletteBase */
+     , (4225,   7, 0x1000004F) /* ClothingBase */
+     , (4225,   8, 0x0600185B) /* Icon */
+     , (4225,  22, 0x3400002B) /* PhysicsEffectTable */;

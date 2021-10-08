@@ -70,12 +70,12 @@ VALUES (28249,   1, 'Black Phyntos Hive') /* Name */
      , (28249,  15, 'A hollowed out tree trunk that has a Phyntos Wasp Hive in it.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28249,   1,   33558821) /* Setup */
-     , (28249,   2,  150995305) /* MotionTable */
-     , (28249,   3,  536870993) /* SoundTable */
-     , (28249,   4,  805306372) /* CombatTable */
-     , (28249,   8,  100676680) /* Icon */
-     , (28249,  22,  872415339) /* PhysicsEffectTable */
+VALUES (28249,   1, 0x02001125) /* Setup */
+     , (28249,   2, 0x09000169) /* MotionTable */
+     , (28249,   3, 0x20000051) /* SoundTable */
+     , (28249,   4, 0x30000004) /* CombatTable */
+     , (28249,   8, 0x06003448) /* Icon */
+     , (28249,  22, 0x3400006B) /* PhysicsEffectTable */
      , (28249,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

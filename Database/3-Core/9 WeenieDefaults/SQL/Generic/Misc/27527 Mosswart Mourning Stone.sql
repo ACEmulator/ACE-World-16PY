@@ -26,7 +26,7 @@ VALUES (27527,   1, 'Mosswart Mourning Stone') /* Name */
      , (27527,  16, 'A small stone carved with the stylized face of an upset Mosswart. These are carried by Mosswarts who are in mourning.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27527,   1,   33558697) /* Setup */
-     , (27527,   3,  536870932) /* SoundTable */
-     , (27527,   8,  100676431) /* Icon */
-     , (27527,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27527,   1, 0x020010A9) /* Setup */
+     , (27527,   3, 0x20000014) /* SoundTable */
+     , (27527,   8, 0x0600334F) /* Icon */
+     , (27527,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -25,7 +25,7 @@ VALUES (2759,   1, 'Scroll of WillPower Self IV') /* Name */
      , (2759,  16, 'When learned, this spell increases the caster''s Self by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2759,   1,   33554826) /* Setup */
-     , (2759,   8,  100676471) /* Icon */
-     , (2759,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2759,   1, 0x0200018A) /* Setup */
+     , (2759,   8, 0x06003377) /* Icon */
+     , (2759,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2759,  28,       1448) /* Spell - Willpower Self IV */;

@@ -24,7 +24,7 @@ VALUES (20520,   1, 'Scroll of Gertarh''s Boon') /* Name */
      , (20520,  15, 'When learned, this spell increases the target''s Dagger skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20520,   1,   33554826) /* Setup */
-     , (20520,   8,  100676455) /* Icon */
-     , (20520,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20520,   1, 0x0200018A) /* Setup */
+     , (20520,   8, 0x06003367) /* Icon */
+     , (20520,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20520,  28,       2222) /* Spell - Finesse Weapon Mastery Other VII */;

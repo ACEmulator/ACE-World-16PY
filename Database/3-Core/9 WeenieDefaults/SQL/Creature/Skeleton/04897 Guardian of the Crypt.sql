@@ -59,12 +59,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4897,   1, 'Guardian of the Crypt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4897,   1,   33555465) /* Setup */
-     , (4897,   2,  150994981) /* MotionTable */
-     , (4897,   3,  536870942) /* SoundTable */
-     , (4897,   4,  805306368) /* CombatTable */
-     , (4897,   8,  100669124) /* Icon */
-     , (4897,  22,  872415269) /* PhysicsEffectTable */
+VALUES (4897,   1, 0x02000409) /* Setup */
+     , (4897,   2, 0x09000025) /* MotionTable */
+     , (4897,   3, 0x2000001E) /* SoundTable */
+     , (4897,   4, 0x30000000) /* CombatTable */
+     , (4897,   8, 0x060016C4) /* Icon */
+     , (4897,  22, 0x34000025) /* PhysicsEffectTable */
      , (4897,  32,        185) /* WieldedTreasureType - 
                                    Wield 6x Throwing Axe (304) | Probability: 10%
                                    Wield Nayin (334) | Probability: 10%

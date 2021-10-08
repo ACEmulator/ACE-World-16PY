@@ -47,11 +47,11 @@ VALUES (12114,   1, 'Palenqual''s Okane') /* Name */
      , (12114,  16, 'An okane fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12114,   1,   33557234) /* Setup */
-     , (12114,   3,  536870932) /* SoundTable */
-     , (12114,   8,  100672032) /* Icon */
-     , (12114,  22,  872415275) /* PhysicsEffectTable */
-     , (12114,  36,  234881044) /* MutateFilter */
+VALUES (12114,   1, 0x02000AF2) /* Setup */
+     , (12114,   3, 0x20000014) /* SoundTable */
+     , (12114,   8, 0x06002220) /* Icon */
+     , (12114,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (12114,  36, 0x0E000014) /* MutateFilter */
      , (12114,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

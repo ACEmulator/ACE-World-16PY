@@ -62,14 +62,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12698,   1, 'Sparring Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12698,   1,   33556428) /* Setup */
-     , (12698,   2,  150995073) /* MotionTable */
-     , (12698,   3,  536870933) /* SoundTable */
-     , (12698,   4,  805306376) /* CombatTable */
-     , (12698,   6,   67112776) /* PaletteBase */
-     , (12698,   7,  268436247) /* ClothingBase */
-     , (12698,   8,  100667940) /* Icon */
-     , (12698,  22,  872415326) /* PhysicsEffectTable */;
+VALUES (12698,   1, 0x020007CC) /* Setup */
+     , (12698,   2, 0x09000081) /* MotionTable */
+     , (12698,   3, 0x20000015) /* SoundTable */
+     , (12698,   4, 0x30000008) /* CombatTable */
+     , (12698,   6, 0x04000F48) /* PaletteBase */
+     , (12698,   7, 0x10000317) /* ClothingBase */
+     , (12698,   8, 0x06001224) /* Icon */
+     , (12698,  22, 0x3400005E) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12698,   1,   1, 0, 0) /* Strength */

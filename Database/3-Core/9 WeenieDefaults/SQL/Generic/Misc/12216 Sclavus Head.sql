@@ -29,10 +29,10 @@ VALUES (12216,   1, 'Sclavus Head') /* Name */
      , (12216,  16, 'A battered, dented, and scaly Sclavus head.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12216,   1,   33557362) /* Setup */
-     , (12216,   3,  536870932) /* SoundTable */
-     , (12216,   6,   67108990) /* PaletteBase */
-     , (12216,   7,  268436267) /* ClothingBase */
-     , (12216,   8,  100672169) /* Icon */
-     , (12216,  22,  872415275) /* PhysicsEffectTable */
-     , (12216,  36,  234881046) /* MutateFilter */;
+VALUES (12216,   1, 0x02000B72) /* Setup */
+     , (12216,   3, 0x20000014) /* SoundTable */
+     , (12216,   6, 0x0400007E) /* PaletteBase */
+     , (12216,   7, 0x1000032B) /* ClothingBase */
+     , (12216,   8, 0x060022A9) /* Icon */
+     , (12216,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (12216,  36, 0x0E000016) /* MutateFilter */;

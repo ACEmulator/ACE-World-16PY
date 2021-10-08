@@ -23,7 +23,7 @@ VALUES (6871,   1, 'The Whispering Sword') /* Name */
      , (6871,  16, 'The Whispering Sword') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6871,   1,   33555909) /* Setup */
-     , (6871,   6,   67111860) /* PaletteBase */
-     , (6871,   7,  268435818) /* ClothingBase */
-     , (6871,   8,  100668115) /* Icon */;
+VALUES (6871,   1, 0x020005C5) /* Setup */
+     , (6871,   6, 0x04000BB4) /* PaletteBase */
+     , (6871,   7, 0x1000016A) /* ClothingBase */
+     , (6871,   8, 0x060012D3) /* Icon */;

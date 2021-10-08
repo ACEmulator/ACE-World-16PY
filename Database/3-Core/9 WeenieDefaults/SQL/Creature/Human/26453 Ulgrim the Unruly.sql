@@ -64,14 +64,14 @@ VALUES (26453,   1, 'Ulgrim the Unruly') /* Name */
      , (26453,  10, 'The Fighting Ulgrims') /* Fellowship */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26453,   1,   33554433) /* Setup */
-     , (26453,   2,  150994945) /* MotionTable */
-     , (26453,   3,  536870913) /* SoundTable */
-     , (26453,   4,  805306368) /* CombatTable */
-     , (26453,   6,   67108990) /* PaletteBase */
-     , (26453,   7,  268435545) /* ClothingBase */
-     , (26453,   8,  100667446) /* Icon */
-     , (26453,  22,  872415236) /* PhysicsEffectTable */
+VALUES (26453,   1, 0x02000001) /* Setup */
+     , (26453,   2, 0x09000001) /* MotionTable */
+     , (26453,   3, 0x20000001) /* SoundTable */
+     , (26453,   4, 0x30000000) /* CombatTable */
+     , (26453,   6, 0x0400007E) /* PaletteBase */
+     , (26453,   7, 0x10000059) /* ClothingBase */
+     , (26453,   8, 0x06001036) /* Icon */
+     , (26453,  22, 0x34000004) /* PhysicsEffectTable */
      , (26453,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -29,9 +29,9 @@ VALUES (6319,   1, 'Minor Stinging Stone') /* Name */
      , (6319,  33, 'stingingstoneminor') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6319,   1,   33556407) /* Setup */
-     , (6319,   3,  536870932) /* SoundTable */
-     , (6319,   6,   67111919) /* PaletteBase */
-     , (6319,   7,  268435965) /* ClothingBase */
-     , (6319,   8,  100670495) /* Icon */
-     , (6319,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6319,   1, 0x020007B7) /* Setup */
+     , (6319,   3, 0x20000014) /* SoundTable */
+     , (6319,   6, 0x04000BEF) /* PaletteBase */
+     , (6319,   7, 0x100001FD) /* ClothingBase */
+     , (6319,   8, 0x06001C1F) /* Icon */
+     , (6319,  22, 0x3400002B) /* PhysicsEffectTable */;

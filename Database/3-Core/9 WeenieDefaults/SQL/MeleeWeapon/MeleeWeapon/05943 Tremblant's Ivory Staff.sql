@@ -51,13 +51,13 @@ VALUES (5943,   1, 'Tremblant''s Ivory Staff') /* Name */
      , (5943,  16, 'A mighty quarterstaff, carved from the rib of a Tremendous Monouga.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5943,   1,   33555764) /* Setup */
-     , (5943,   3,  536870932) /* SoundTable */
-     , (5943,   6,   67111919) /* PaletteBase */
-     , (5943,   7,  268435795) /* ClothingBase */
-     , (5943,   8,  100669112) /* Icon */
-     , (5943,  22,  872415275) /* PhysicsEffectTable */
-     , (5943,  36,  234881044) /* MutateFilter */
+VALUES (5943,   1, 0x02000534) /* Setup */
+     , (5943,   3, 0x20000014) /* SoundTable */
+     , (5943,   6, 0x04000BEF) /* PaletteBase */
+     , (5943,   7, 0x10000153) /* ClothingBase */
+     , (5943,   8, 0x060016B8) /* Icon */
+     , (5943,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (5943,  36, 0x0E000014) /* MutateFilter */
      , (5943,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

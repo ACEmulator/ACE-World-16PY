@@ -73,14 +73,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25845,   1, 'Gikar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25845,   1,   33558554) /* Setup */
-     , (25845,   2,  150995263) /* MotionTable */
-     , (25845,   3,  536871080) /* SoundTable */
-     , (25845,   4,  805306426) /* CombatTable */
-     , (25845,   6,   67114728) /* PaletteBase */
-     , (25845,   7,  268436733) /* ClothingBase */
-     , (25845,   8,  100675661) /* Icon */
-     , (25845,  22,  872415401) /* PhysicsEffectTable */
+VALUES (25845,   1, 0x0200101A) /* Setup */
+     , (25845,   2, 0x0900013F) /* MotionTable */
+     , (25845,   3, 0x200000A8) /* SoundTable */
+     , (25845,   4, 0x3000003A) /* CombatTable */
+     , (25845,   6, 0x040016E8) /* PaletteBase */
+     , (25845,   7, 0x100004FD) /* ClothingBase */
+     , (25845,   8, 0x0600304D) /* Icon */
+     , (25845,  22, 0x340000A9) /* PhysicsEffectTable */
      , (25845,  30,         84) /* PhysicsScript - BreatheFlame */
      , (25845,  35,         32) /* DeathTreasureType - Loot Tier: 6 */;
 

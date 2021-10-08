@@ -40,9 +40,9 @@ VALUES (15888,   1, 'Bronze Heavy Crossbow') /* Name */
      , (15888,  33, 'XbowStatuePickUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15888,   1,   33554732) /* Setup */
-     , (15888,   3,  536870932) /* SoundTable */
-     , (15888,   6,   67111919) /* PaletteBase */
-     , (15888,   7,  268435762) /* ClothingBase */
-     , (15888,   8,  100668835) /* Icon */
-     , (15888,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15888,   1, 0x0200012C) /* Setup */
+     , (15888,   3, 0x20000014) /* SoundTable */
+     , (15888,   6, 0x04000BEF) /* PaletteBase */
+     , (15888,   7, 0x10000132) /* ClothingBase */
+     , (15888,   8, 0x060015A3) /* Icon */
+     , (15888,  22, 0x3400002B) /* PhysicsEffectTable */;

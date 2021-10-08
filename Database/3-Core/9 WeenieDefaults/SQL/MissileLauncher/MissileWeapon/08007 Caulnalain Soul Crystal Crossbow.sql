@@ -52,12 +52,12 @@ VALUES (8007,   1, 'Caulnalain Soul Crystal Crossbow') /* Name */
      , (8007,  16, 'A crossbow imbued with the essence of the Caulnalain Soul Crystal. Uses crystal-tipped quarrels.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8007,   1,   33554733) /* Setup */
-     , (8007,   3,  536870932) /* SoundTable */
-     , (8007,   6,   67111919) /* PaletteBase */
-     , (8007,   7,  268436042) /* ClothingBase */
-     , (8007,   8,  100671002) /* Icon */
-     , (8007,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8007,   1, 0x0200012D) /* Setup */
+     , (8007,   3, 0x20000014) /* SoundTable */
+     , (8007,   6, 0x04000BEF) /* PaletteBase */
+     , (8007,   7, 0x1000024A) /* ClothingBase */
+     , (8007,   8, 0x06001E1A) /* Icon */
+     , (8007,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8007,  37,          3) /* ItemSkillLimit - Crossbow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

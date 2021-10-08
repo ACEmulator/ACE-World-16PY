@@ -24,10 +24,10 @@ VALUES (28141,   1, 'Unusable Scroll') /* Name */
      , (28141,  33, 'FellowMissileDefense7') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28141,   1,   33558644) /* Setup */
-     , (28141,   3,  536870932) /* SoundTable */
-     , (28141,   8,  100675924) /* Icon */
-     , (28141,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28141,   1, 0x02001074) /* Setup */
+     , (28141,   3, 0x20000014) /* SoundTable */
+     , (28141,   8, 0x06003154) /* Icon */
+     , (28141,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (28141, 1, 1000);

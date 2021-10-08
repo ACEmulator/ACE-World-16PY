@@ -25,7 +25,7 @@ VALUES (3356,   1, 'Scroll of Leadership Mastery Other V') /* Name */
      , (3356,  16, 'When learned, this spell increases the target''s Leadership skill by 100%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3356,   1,   33554826) /* Setup */
-     , (3356,   8,  100676446) /* Icon */
-     , (3356,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3356,   1, 0x0200018A) /* Setup */
+     , (3356,   8, 0x0600335E) /* Icon */
+     , (3356,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3356,  28,        908) /* Spell - Leadership Mastery Other V */;

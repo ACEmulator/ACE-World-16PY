@@ -63,12 +63,12 @@ VALUES (27147,   1, 'Vile Scourge') /* Name */
      , (27147,  15, 'This staff looks to have been used as a weapon for close-combat. Blunt and flexible this looks to have also been used a tool for administering punishment.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27147,   1,   33558639) /* Setup */
-     , (27147,   2,  150995273) /* MotionTable */
-     , (27147,   3,  536871052) /* SoundTable */
-     , (27147,   4,  805306398) /* CombatTable */
-     , (27147,   8,  100675923) /* Icon */
-     , (27147,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (27147,   1, 0x0200106F) /* Setup */
+     , (27147,   2, 0x09000149) /* MotionTable */
+     , (27147,   3, 0x2000008C) /* SoundTable */
+     , (27147,   4, 0x3000001E) /* CombatTable */
+     , (27147,   8, 0x06003153) /* Icon */
+     , (27147,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27147,   1, 380, 0, 0) /* Strength */

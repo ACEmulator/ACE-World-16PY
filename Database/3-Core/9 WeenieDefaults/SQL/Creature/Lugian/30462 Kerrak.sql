@@ -64,13 +64,13 @@ VALUES (30462,   1, 'Kerrak') /* Name */
      , (30462,   5, 'Lugian emissary') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30462,   1,   33557003) /* Setup */
-     , (30462,   2,  150994950) /* MotionTable */
-     , (30462,   3,  536870922) /* SoundTable */
-     , (30462,   4,  805306371) /* CombatTable */
-     , (30462,   6,   67113158) /* PaletteBase */
-     , (30462,   7,  268436602) /* ClothingBase */
-     , (30462,   8,  100667447) /* Icon */;
+VALUES (30462,   1, 0x02000A0B) /* Setup */
+     , (30462,   2, 0x09000006) /* MotionTable */
+     , (30462,   3, 0x2000000A) /* SoundTable */
+     , (30462,   4, 0x30000003) /* CombatTable */
+     , (30462,   6, 0x040010C6) /* PaletteBase */
+     , (30462,   7, 0x1000047A) /* ClothingBase */
+     , (30462,   8, 0x06001037) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30462,   1, 212, 0, 0) /* Strength */

@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8011,   1, 'Caulnalain Crystal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8011,   1,   33556732) /* Setup */
-     , (8011,   2,  150995095) /* MotionTable */
-     , (8011,   3,  536871001) /* SoundTable */
-     , (8011,   4,  805306407) /* CombatTable */
-     , (8011,   6,   67111919) /* PaletteBase */
-     , (8011,   7,  268435859) /* ClothingBase */
-     , (8011,   8,  100670283) /* Icon */
-     , (8011,  22,  872415347) /* PhysicsEffectTable */
+VALUES (8011,   1, 0x020008FC) /* Setup */
+     , (8011,   2, 0x09000097) /* MotionTable */
+     , (8011,   3, 0x20000059) /* SoundTable */
+     , (8011,   4, 0x30000027) /* CombatTable */
+     , (8011,   6, 0x04000BEF) /* PaletteBase */
+     , (8011,   7, 0x10000193) /* ClothingBase */
+     , (8011,   8, 0x06001B4B) /* Icon */
+     , (8011,  22, 0x34000073) /* PhysicsEffectTable */
      , (8011,  35,         27) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

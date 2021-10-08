@@ -44,12 +44,12 @@ VALUES (28158,   1, 'Ivory Oculus') /* Name */
      , (28158,  16, 'A solidifed adolescent ivory gromnie eye.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28158,   1,   33554809) /* Setup */
-     , (28158,   3,  536870932) /* SoundTable */
-     , (28158,   6,   67108990) /* PaletteBase */
-     , (28158,   7,  268436858) /* ClothingBase */
-     , (28158,   8,  100674136) /* Icon */
-     , (28158,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28158,   1, 0x02000179) /* Setup */
+     , (28158,   3, 0x20000014) /* SoundTable */
+     , (28158,   6, 0x0400007E) /* PaletteBase */
+     , (28158,   7, 0x1000057A) /* ClothingBase */
+     , (28158,   8, 0x06002A58) /* Icon */
+     , (28158,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28158,  2618,      2)  /* Minor Flame Ward */

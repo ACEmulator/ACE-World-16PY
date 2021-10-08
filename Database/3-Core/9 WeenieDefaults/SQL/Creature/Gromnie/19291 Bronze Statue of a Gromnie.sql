@@ -60,14 +60,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19291,   1, 'Bronze Statue of a Gromnie') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19291,   1,   33554487) /* Setup */
-     , (19291,   2,  150995184) /* MotionTable */
-     , (19291,   3,  536871052) /* SoundTable */
-     , (19291,   4,  805306386) /* CombatTable */
-     , (19291,   6,   67109547) /* PaletteBase */
-     , (19291,   7,  268435631) /* ClothingBase */
-     , (19291,   8,  100667938) /* Icon */
-     , (19291,  22,  872415384) /* PhysicsEffectTable */
+VALUES (19291,   1, 0x02000037) /* Setup */
+     , (19291,   2, 0x090000F0) /* MotionTable */
+     , (19291,   3, 0x2000008C) /* SoundTable */
+     , (19291,   4, 0x30000012) /* CombatTable */
+     , (19291,   6, 0x040002AB) /* PaletteBase */
+     , (19291,   7, 0x100000AF) /* ClothingBase */
+     , (19291,   8, 0x06001222) /* Icon */
+     , (19291,  22, 0x34000098) /* PhysicsEffectTable */
      , (19291,  30,         87) /* PhysicsScript - BreatheLightning */
      , (19291,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 

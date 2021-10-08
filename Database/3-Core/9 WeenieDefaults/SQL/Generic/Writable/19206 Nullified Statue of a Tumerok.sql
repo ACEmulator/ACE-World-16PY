@@ -26,9 +26,9 @@ VALUES (19206,   1, 'Nullified Statue of a Tumerok') /* Name */
      , (19206,  15, 'This nullified shell is all that remains of the living Statue of a Tumerok that once threatened our peaceful town. Destroyed through the sole efforts of the citizens of Dereth, it remains as a testament to their valor. This land is yours now.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19206,   1,   33554496) /* Setup */
-     , (19206,   2,  150995171) /* MotionTable */
-     , (19206,   3,  536871052) /* SoundTable */
-     , (19206,   6,   67109314) /* PaletteBase */
-     , (19206,   7,  268435647) /* ClothingBase */
-     , (19206,   8,  100667452) /* Icon */;
+VALUES (19206,   1, 0x02000040) /* Setup */
+     , (19206,   2, 0x090000E3) /* MotionTable */
+     , (19206,   3, 0x2000008C) /* SoundTable */
+     , (19206,   6, 0x040001C2) /* PaletteBase */
+     , (19206,   7, 0x100000BF) /* ClothingBase */
+     , (19206,   8, 0x0600103C) /* Icon */;

@@ -25,7 +25,7 @@ VALUES (2776,   1, 'Scroll of Blade Bane VI') /* Name */
      , (2776,  16, 'When learned, this spell Increases a shield or piece of armor''s resistance to slashing damage by 150%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2776,   1,   33554826) /* Setup */
-     , (2776,   8,  100676649) /* Icon */
-     , (2776,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2776,   1, 0x0200018A) /* Setup */
+     , (2776,   8, 0x06003429) /* Icon */
+     , (2776,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2776,  28,       1562) /* Spell - Blade Bane VI */;

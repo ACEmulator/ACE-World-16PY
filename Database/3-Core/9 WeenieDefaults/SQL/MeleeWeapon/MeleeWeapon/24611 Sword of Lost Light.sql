@@ -49,10 +49,10 @@ VALUES (24611,   1, 'Sword of Lost Light') /* Name */
      , (24611,  16, 'The Sword of Lost Light, infused with blue, white, and red fire from the volcanoes of Lethe, Esper, and Tenkarrdun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24611,   1,   33558416) /* Setup */
-     , (24611,   3,  536870932) /* SoundTable */
-     , (24611,   8,  100674513) /* Icon */
-     , (24611,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24611,   1, 0x02000F90) /* Setup */
+     , (24611,   3, 0x20000014) /* SoundTable */
+     , (24611,   8, 0x06002BD1) /* Icon */
+     , (24611,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24611,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

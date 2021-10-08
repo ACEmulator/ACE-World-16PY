@@ -36,11 +36,11 @@ VALUES (26206,   1, 'Icecliff Cottages Portal Gem') /* Name */
      , (26206,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26206,   1,   33556769) /* Setup */
-     , (26206,   3,  536870932) /* SoundTable */
-     , (26206,   6,   67111919) /* PaletteBase */
-     , (26206,   7,  268435723) /* ClothingBase */
-     , (26206,   8,  100675760) /* Icon */
-     , (26206,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26206,   1, 0x02000921) /* Setup */
+     , (26206,   3, 0x20000014) /* SoundTable */
+     , (26206,   6, 0x04000BEF) /* PaletteBase */
+     , (26206,   7, 0x1000010B) /* ClothingBase */
+     , (26206,   8, 0x060030B0) /* Icon */
+     , (26206,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26206,  28,        157) /* Spell - Summon Primary Portal I */
      , (26206,  31,      14265) /* LinkedPortalOne - Icecliff Cottages Portal */;

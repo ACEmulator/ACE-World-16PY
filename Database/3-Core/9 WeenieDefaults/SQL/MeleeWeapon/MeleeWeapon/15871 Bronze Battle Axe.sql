@@ -38,10 +38,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15871,   1, 'Bronze Battle Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15871,   1,   33554725) /* Setup */
-     , (15871,   3,  536870932) /* SoundTable */
-     , (15871,   6,   67111919) /* PaletteBase */
-     , (15871,   7,  268435779) /* ClothingBase */
-     , (15871,   8,  100668985) /* Icon */
-     , (15871,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15871,   1, 0x02000125) /* Setup */
+     , (15871,   3, 0x20000014) /* SoundTable */
+     , (15871,   6, 0x04000BEF) /* PaletteBase */
+     , (15871,   7, 0x10000143) /* ClothingBase */
+     , (15871,   8, 0x06001639) /* Icon */
+     , (15871,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15871,  30,         88) /* PhysicsScript - Create */;

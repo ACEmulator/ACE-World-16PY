@@ -23,7 +23,7 @@ VALUES (250,   1, 'The Studious Mind') /* Name */
      , (250,  15, 'This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (250,   1,   33557344) /* Setup */
-     , (250,   3,  536870932) /* SoundTable */
-     , (250,   8,  100672346) /* Icon */
-     , (250,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (250,   1, 0x02000B60) /* Setup */
+     , (250,   3, 0x20000014) /* SoundTable */
+     , (250,   8, 0x0600235A) /* Icon */
+     , (250,  22, 0x3400002B) /* PhysicsEffectTable */;

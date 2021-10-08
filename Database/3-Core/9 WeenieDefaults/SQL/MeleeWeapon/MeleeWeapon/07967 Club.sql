@@ -38,10 +38,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7967,   1, 'Club') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7967,   1,   33554731) /* Setup */
-     , (7967,   3,  536870932) /* SoundTable */
-     , (7967,   6,   67111919) /* PaletteBase */
-     , (7967,   7,  268435761) /* ClothingBase */
-     , (7967,   8,  100668855) /* Icon */
-     , (7967,  22,  872415275) /* PhysicsEffectTable */
-     , (7967,  36,  234881044) /* MutateFilter */;
+VALUES (7967,   1, 0x0200012B) /* Setup */
+     , (7967,   3, 0x20000014) /* SoundTable */
+     , (7967,   6, 0x04000BEF) /* PaletteBase */
+     , (7967,   7, 0x10000131) /* ClothingBase */
+     , (7967,   8, 0x060015B7) /* Icon */
+     , (7967,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (7967,  36, 0x0E000014) /* MutateFilter */;

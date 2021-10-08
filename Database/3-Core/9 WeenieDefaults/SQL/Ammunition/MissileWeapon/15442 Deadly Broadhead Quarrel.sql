@@ -43,9 +43,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15442,   1, 'Deadly Broadhead Quarrel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15442,   1,   33554730) /* Setup */
-     , (15442,   3,  536870932) /* SoundTable */
-     , (15442,   6,   67111919) /* PaletteBase */
-     , (15442,   7,  268436306) /* ClothingBase */
-     , (15442,   8,  100672652) /* Icon */
-     , (15442,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15442,   1, 0x0200012A) /* Setup */
+     , (15442,   3, 0x20000014) /* SoundTable */
+     , (15442,   6, 0x04000BEF) /* PaletteBase */
+     , (15442,   7, 0x10000352) /* ClothingBase */
+     , (15442,   8, 0x0600248C) /* Icon */
+     , (15442,  22, 0x3400002B) /* PhysicsEffectTable */;

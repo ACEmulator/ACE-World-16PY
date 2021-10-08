@@ -61,14 +61,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22606,   1, 'Tuskie Gunner') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22606,   1,   33556836) /* Setup */
-     , (22606,   2,  150995225) /* MotionTable */
-     , (22606,   3,  536870929) /* SoundTable */
-     , (22606,   4,  805306379) /* CombatTable */
-     , (22606,   6,   67113007) /* PaletteBase */
-     , (22606,   7,  268436483) /* ClothingBase */
-     , (22606,   8,  100667443) /* Icon */
-     , (22606,  22,  872415271) /* PhysicsEffectTable */
+VALUES (22606,   1, 0x02000964) /* Setup */
+     , (22606,   2, 0x09000119) /* MotionTable */
+     , (22606,   3, 0x20000011) /* SoundTable */
+     , (22606,   4, 0x3000000B) /* CombatTable */
+     , (22606,   6, 0x0400102F) /* PaletteBase */
+     , (22606,   7, 0x10000403) /* ClothingBase */
+     , (22606,   8, 0x06001033) /* Icon */
+     , (22606,  22, 0x34000027) /* PhysicsEffectTable */
      , (22606,  35,        456) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

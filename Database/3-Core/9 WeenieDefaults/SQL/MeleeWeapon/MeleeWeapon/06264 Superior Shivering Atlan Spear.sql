@@ -45,12 +45,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6264,   1, 'Superior Shivering Atlan Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6264,   1,   33556331) /* Setup */
-     , (6264,   3,  536870932) /* SoundTable */
-     , (6264,   6,   67111919) /* PaletteBase */
-     , (6264,   7,  268435910) /* ClothingBase */
-     , (6264,   8,  100670548) /* Icon */
-     , (6264,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6264,   1, 0x0200076B) /* Setup */
+     , (6264,   3, 0x20000014) /* SoundTable */
+     , (6264,   6, 0x04000BEF) /* PaletteBase */
+     , (6264,   7, 0x100001C6) /* ClothingBase */
+     , (6264,   8, 0x06001C54) /* Icon */
+     , (6264,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6264,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

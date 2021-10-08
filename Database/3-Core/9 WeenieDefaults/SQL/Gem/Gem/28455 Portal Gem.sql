@@ -42,11 +42,11 @@ VALUES (28455,   1, 'Portal Gem') /* Name */
      , (28455,  15, 'A portal gem that will whisk the user into a treasure hold within High Queen Elysa''s castle.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28455,   1,   33556769) /* Setup */
-     , (28455,   3,  536870932) /* SoundTable */
-     , (28455,   6,   67111919) /* PaletteBase */
-     , (28455,   7,  268435723) /* ClothingBase */
-     , (28455,   8,  100672368) /* Icon */
-     , (28455,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28455,   1, 0x02000921) /* Setup */
+     , (28455,   3, 0x20000014) /* SoundTable */
+     , (28455,   6, 0x04000BEF) /* PaletteBase */
+     , (28455,   7, 0x1000010B) /* ClothingBase */
+     , (28455,   8, 0x06002370) /* Icon */
+     , (28455,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28455,  28,       3411) /* Spell - Portal spell to a Hidden Chamber */
-     , (28455,  36,  234881046) /* MutateFilter */;
+     , (28455,  36, 0x0E000016) /* MutateFilter */;

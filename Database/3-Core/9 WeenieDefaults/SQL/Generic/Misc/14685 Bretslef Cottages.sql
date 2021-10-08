@@ -22,5 +22,5 @@ VALUES (14685,   1, 'Bretslef Cottages') /* Name */
      , (14685,  16, 'Welcome to Bretslef Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14685,   1,   33557463) /* Setup */
-     , (14685,   8,  100668115) /* Icon */;
+VALUES (14685,   1, 0x02000BD7) /* Setup */
+     , (14685,   8, 0x060012D3) /* Icon */;

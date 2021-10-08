@@ -70,11 +70,11 @@ VALUES (4549,   1, 'Blacksmith Ton Wing') /* Name */
      , (4549,  24, 'Nanto') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4549,   1,   33554433) /* Setup */
-     , (4549,   2,  150994945) /* MotionTable */
-     , (4549,   3,  536870913) /* SoundTable */
-     , (4549,   4,  805306368) /* CombatTable */
-     , (4549,   8,  100667446) /* Icon */;
+VALUES (4549,   1, 0x02000001) /* Setup */
+     , (4549,   2, 0x09000001) /* MotionTable */
+     , (4549,   3, 0x20000001) /* SoundTable */
+     , (4549,   4, 0x30000000) /* CombatTable */
+     , (4549,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4549,   1,  90, 0, 0) /* Strength */

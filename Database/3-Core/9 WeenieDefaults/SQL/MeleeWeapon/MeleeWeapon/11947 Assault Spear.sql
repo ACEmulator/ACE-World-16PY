@@ -47,12 +47,12 @@ VALUES (11947,   1, 'Assault Spear') /* Name */
      , (11947,  16, 'A weapon made of a strange pulsating energy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11947,   1,   33557205) /* Setup */
-     , (11947,   3,  536870932) /* SoundTable */
-     , (11947,   6,   67111919) /* PaletteBase */
-     , (11947,   7,  268436199) /* ClothingBase */
-     , (11947,   8,  100671747) /* Icon */
-     , (11947,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11947,   1, 0x02000AD5) /* Setup */
+     , (11947,   3, 0x20000014) /* SoundTable */
+     , (11947,   6, 0x04000BEF) /* PaletteBase */
+     , (11947,   7, 0x100002E7) /* ClothingBase */
+     , (11947,   8, 0x06002103) /* Icon */
+     , (11947,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11947,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

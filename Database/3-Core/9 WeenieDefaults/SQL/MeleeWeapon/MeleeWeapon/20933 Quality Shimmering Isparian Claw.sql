@@ -51,12 +51,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20933,   1, 'Quality Shimmering Isparian Claw') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20933,   1,   33556258) /* Setup */
-     , (20933,   3,  536870932) /* SoundTable */
-     , (20933,   6,   67111919) /* PaletteBase */
-     , (20933,   7,  268436422) /* ClothingBase */
-     , (20933,   8,  100673200) /* Icon */
-     , (20933,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20933,   1, 0x02000722) /* Setup */
+     , (20933,   3, 0x20000014) /* SoundTable */
+     , (20933,   6, 0x04000BEF) /* PaletteBase */
+     , (20933,   7, 0x100003C6) /* ClothingBase */
+     , (20933,   8, 0x060026B0) /* Icon */
+     , (20933,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20933,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

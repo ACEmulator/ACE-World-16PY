@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13135,   1, 'Stone Triad Dell Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13135,   1,   33554867) /* Setup */
-     , (13135,   2,  150994947) /* MotionTable */
-     , (13135,   8,  100667499) /* Icon */;
+VALUES (13135,   1, 0x020001B3) /* Setup */
+     , (13135,   2, 0x09000003) /* MotionTable */
+     , (13135,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (13135, 2, 0x80E1002B, 134.642, 51.009, 92.445, -0.963132, 0, -0, -0.269029) /* Destination */

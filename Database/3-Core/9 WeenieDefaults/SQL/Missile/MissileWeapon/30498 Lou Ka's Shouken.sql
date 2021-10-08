@@ -40,7 +40,7 @@ VALUES (30498,   1, 'Lou Ka''s Shouken') /* Name */
      , (30498,  33, 'ShoushiBraidShuriken1204') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30498,   1,   33554752) /* Setup */
-     , (30498,   3,  536870932) /* SoundTable */
-     , (30498,   8,  100667605) /* Icon */
-     , (30498,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30498,   1, 0x02000140) /* Setup */
+     , (30498,   3, 0x20000014) /* SoundTable */
+     , (30498,   8, 0x060010D5) /* Icon */
+     , (30498,  22, 0x3400002B) /* PhysicsEffectTable */;

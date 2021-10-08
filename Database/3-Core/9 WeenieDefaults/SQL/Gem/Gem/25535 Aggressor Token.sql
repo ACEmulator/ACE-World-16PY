@@ -27,9 +27,9 @@ VALUES (25535,   1, 'Aggressor Token') /* Name */
      , (25535,  15, 'This token can be handed to a trophy collector in exchange for a special backpack. Be sure to have a backpack slot available when you hand this to the trophy collector.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25535,   1,   33557280) /* Setup */
-     , (25535,   3,  536870932) /* SoundTable */
-     , (25535,   6,   67111092) /* PaletteBase */
-     , (25535,   7,  268436301) /* ClothingBase */
-     , (25535,   8,  100674959) /* Icon */
-     , (25535,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25535,   1, 0x02000B20) /* Setup */
+     , (25535,   3, 0x20000014) /* SoundTable */
+     , (25535,   6, 0x040008B4) /* PaletteBase */
+     , (25535,   7, 0x1000034D) /* ClothingBase */
+     , (25535,   8, 0x06002D8F) /* Icon */
+     , (25535,  22, 0x3400002B) /* PhysicsEffectTable */;

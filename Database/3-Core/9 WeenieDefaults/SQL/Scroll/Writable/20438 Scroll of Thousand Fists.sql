@@ -24,7 +24,7 @@ VALUES (20438,   1, 'Scroll of Thousand Fists') /* Name */
      , (20438,  15, 'When learned, this spell shoots five shock waves toward the target. Each wave does 40-80 points of bludgeoning damage to the first thing it hits.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20438,   1,   33554826) /* Setup */
-     , (20438,   8,  100677008) /* Icon */
-     , (20438,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20438,   1, 0x0200018A) /* Setup */
+     , (20438,   8, 0x06003590) /* Icon */
+     , (20438,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20438,  28,       2126) /* Spell - Thousand Fists */;

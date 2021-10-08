@@ -62,11 +62,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23524,   1, 'Atlatl Minion') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23524,   1,   33556792) /* Setup */
-     , (23524,   2,  150995101) /* MotionTable */
-     , (23524,   3,  536871013) /* SoundTable */
-     , (23524,   4,  805306413) /* CombatTable */
-     , (23524,   8,  100671140) /* Icon */;
+VALUES (23524,   1, 0x02000938) /* Setup */
+     , (23524,   2, 0x0900009D) /* MotionTable */
+     , (23524,   3, 0x20000065) /* SoundTable */
+     , (23524,   4, 0x3000002D) /* CombatTable */
+     , (23524,   8, 0x06001EA4) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23524,   1,  60, 0, 0) /* Strength */

@@ -64,13 +64,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14577,   1, 'Aun Tikakhe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14577,   1,   33557175) /* Setup */
-     , (14577,   2,  150995136) /* MotionTable */
-     , (14577,   3,  536870931) /* SoundTable */
-     , (14577,   4,  805306380) /* CombatTable */
-     , (14577,   6,   67113280) /* PaletteBase */
-     , (14577,   7,  268436193) /* ClothingBase */
-     , (14577,   8,  100671756) /* Icon */
+VALUES (14577,   1, 0x02000AB7) /* Setup */
+     , (14577,   2, 0x090000C0) /* MotionTable */
+     , (14577,   3, 0x20000013) /* SoundTable */
+     , (14577,   4, 0x3000000C) /* CombatTable */
+     , (14577,   6, 0x04001140) /* PaletteBase */
+     , (14577,   7, 0x100002E1) /* ClothingBase */
+     , (14577,   8, 0x0600210C) /* Icon */
      , (14577,  32,        380) /* WieldedTreasureType - 
                                    Wield Buadren (11971) | Probability: 100% */;
 

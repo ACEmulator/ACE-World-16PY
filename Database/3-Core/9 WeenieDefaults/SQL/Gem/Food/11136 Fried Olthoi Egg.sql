@@ -36,10 +36,10 @@ VALUES (11136,   1, 'Fried Olthoi Egg') /* Name */
      , (11136,  16, 'A fried Olthoi Egg.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11136,   1,   33555975) /* Setup */
-     , (11136,   3,  536870932) /* SoundTable */
-     , (11136,   8,  100671979) /* Icon */
-     , (11136,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11136,   1, 0x02000607) /* Setup */
+     , (11136,   3, 0x20000014) /* SoundTable */
+     , (11136,   8, 0x060021EB) /* Icon */
+     , (11136,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11136,  23,         64) /* UseSound - Eat1 */
-     , (11136,  27,  318767233) /* UseUserAnimation - MimeEat */
+     , (11136,  27, 0x13000081) /* UseUserAnimation - MimeEat */
      , (11136,  28,       2433) /* Spell - Flame Ward */;

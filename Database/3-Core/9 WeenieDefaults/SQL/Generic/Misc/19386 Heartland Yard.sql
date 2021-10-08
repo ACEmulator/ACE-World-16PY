@@ -22,5 +22,5 @@ VALUES (19386,   1, 'Heartland Yard') /* Name */
      , (19386,  16, 'Heartland Yard') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19386,   1,   33557696) /* Setup */
-     , (19386,   8,  100667499) /* Icon */;
+VALUES (19386,   1, 0x02000CC0) /* Setup */
+     , (19386,   8, 0x0600106B) /* Icon */;

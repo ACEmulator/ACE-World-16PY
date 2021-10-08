@@ -61,12 +61,12 @@ VALUES (22509,   1, 'Tusker Kin') /* Name */
      , (22509,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22509,   1,   33554510) /* Setup */
-     , (22509,   2,  150994945) /* MotionTable */
-     , (22509,   3,  536870914) /* SoundTable */
-     , (22509,   4,  805306368) /* CombatTable */
-     , (22509,   8,  100667446) /* Icon */
-     , (22509,  22,  872415236) /* PhysicsEffectTable */
+VALUES (22509,   1, 0x0200004E) /* Setup */
+     , (22509,   2, 0x09000001) /* MotionTable */
+     , (22509,   3, 0x20000002) /* SoundTable */
+     , (22509,   4, 0x30000000) /* CombatTable */
+     , (22509,   8, 0x06001036) /* Icon */
+     , (22509,  22, 0x34000004) /* PhysicsEffectTable */
      , (22509,  32,        415) /* WieldedTreasureType - 
                                    Wield Towel (10757) | Palette: Blue (2) | Probability: 50%
                                    Wield Towel (10757) | Palette: Green (8) | Probability: 50%

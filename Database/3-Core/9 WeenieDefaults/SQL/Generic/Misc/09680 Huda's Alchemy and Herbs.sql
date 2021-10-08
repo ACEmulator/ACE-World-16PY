@@ -22,7 +22,7 @@ VALUES (9680,   1, 'Huda''s Alchemy and Herbs') /* Name */
      , (9680,  16, 'Huda''s Alchemical and Herbal shop.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9680,   1,   33555088) /* Setup */
-     , (9680,   6,   67111092) /* PaletteBase */
-     , (9680,   7,  268435669) /* ClothingBase */
-     , (9680,   8,  100668115) /* Icon */;
+VALUES (9680,   1, 0x02000290) /* Setup */
+     , (9680,   6, 0x040008B4) /* PaletteBase */
+     , (9680,   7, 0x100000D5) /* ClothingBase */
+     , (9680,   8, 0x060012D3) /* Icon */;

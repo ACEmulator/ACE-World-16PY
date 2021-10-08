@@ -64,11 +64,11 @@ VALUES (21338,   1, 'Collector') /* Name */
      , (21338,   5, 'Trophy Collector') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21338,   1,   33554510) /* Setup */
-     , (21338,   2,  150994945) /* MotionTable */
-     , (21338,   3,  536870914) /* SoundTable */
-     , (21338,   4,  805306368) /* CombatTable */
-     , (21338,   8,  100667446) /* Icon */;
+VALUES (21338,   1, 0x0200004E) /* Setup */
+     , (21338,   2, 0x09000001) /* MotionTable */
+     , (21338,   3, 0x20000002) /* SoundTable */
+     , (21338,   4, 0x30000000) /* CombatTable */
+     , (21338,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (21338,   1,  80, 0, 0) /* Strength */

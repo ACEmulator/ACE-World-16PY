@@ -52,13 +52,13 @@ VALUES (11438,   1, 'Volkama''s Hoeroa of the Rivers') /* Name */
      , (11438,  16, 'A hoeroa fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11438,   1,   33557237) /* Setup */
-     , (11438,   3,  536870932) /* SoundTable */
-     , (11438,   6,   67113336) /* PaletteBase */
-     , (11438,   7,  268436254) /* ClothingBase */
-     , (11438,   8,  100672100) /* Icon */
-     , (11438,  22,  872415275) /* PhysicsEffectTable */
-     , (11438,  36,  234881044) /* MutateFilter */;
+VALUES (11438,   1, 0x02000AF5) /* Setup */
+     , (11438,   3, 0x20000014) /* SoundTable */
+     , (11438,   6, 0x04001178) /* PaletteBase */
+     , (11438,   7, 0x1000031E) /* ClothingBase */
+     , (11438,   8, 0x06002264) /* Icon */
+     , (11438,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11438,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11438,  2467,      2)  /* Greater Cascade */

@@ -37,11 +37,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6005,   1, 'Koujia Sleeves') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6005,   1,   33554655) /* Setup */
-     , (6005,   3,  536870932) /* SoundTable */
-     , (6005,   6,   67108990) /* PaletteBase */
-     , (6005,   7,  268435851) /* ClothingBase */
-     , (6005,   8,  100670467) /* Icon */
-     , (6005,  22,  872415275) /* PhysicsEffectTable */
-     , (6005,  36,  234881042) /* MutateFilter */
-     , (6005,  46,  939524146) /* TsysMutationFilter */;
+VALUES (6005,   1, 0x020000DF) /* Setup */
+     , (6005,   3, 0x20000014) /* SoundTable */
+     , (6005,   6, 0x0400007E) /* PaletteBase */
+     , (6005,   7, 0x1000018B) /* ClothingBase */
+     , (6005,   8, 0x06001C03) /* Icon */
+     , (6005,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (6005,  36, 0x0E000012) /* MutateFilter */
+     , (6005,  46, 0x38000032) /* TsysMutationFilter */;

@@ -22,5 +22,5 @@ VALUES (13149,   1, 'Charbone Ridge') /* Name */
      , (13149,  16, 'Welcome to Charbone Ridge') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13149,   1,   33557463) /* Setup */
-     , (13149,   8,  100668115) /* Icon */;
+VALUES (13149,   1, 0x02000BD7) /* Setup */
+     , (13149,   8, 0x060012D3) /* Icon */;

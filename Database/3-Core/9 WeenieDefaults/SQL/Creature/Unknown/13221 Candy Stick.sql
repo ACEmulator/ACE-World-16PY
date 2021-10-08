@@ -67,12 +67,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13221,   1, 'Candy Stick') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13221,   1,   33557441) /* Setup */
-     , (13221,   2,  150995147) /* MotionTable */
-     , (13221,   3,  536871000) /* SoundTable */
-     , (13221,   4,  805306398) /* CombatTable */
-     , (13221,   8,  100672416) /* Icon */
-     , (13221,  22,  872415274) /* PhysicsEffectTable */
+VALUES (13221,   1, 0x02000BC1) /* Setup */
+     , (13221,   2, 0x090000CB) /* MotionTable */
+     , (13221,   3, 0x20000058) /* SoundTable */
+     , (13221,   4, 0x3000001E) /* CombatTable */
+     , (13221,   8, 0x060023A0) /* Icon */
+     , (13221,  22, 0x3400002A) /* PhysicsEffectTable */
      , (13221,  35,         91) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

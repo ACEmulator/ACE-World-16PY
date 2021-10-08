@@ -23,7 +23,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3694,   1, 'Swamp Stone') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3694,   1,   33555424) /* Setup */
-     , (3694,   3,  536870932) /* SoundTable */
-     , (3694,   8,  100670074) /* Icon */
-     , (3694,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3694,   1, 0x020003E0) /* Setup */
+     , (3694,   3, 0x20000014) /* SoundTable */
+     , (3694,   8, 0x06001A7A) /* Icon */
+     , (3694,  22, 0x3400002B) /* PhysicsEffectTable */;

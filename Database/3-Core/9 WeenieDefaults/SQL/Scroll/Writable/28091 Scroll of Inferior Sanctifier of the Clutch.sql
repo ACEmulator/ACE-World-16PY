@@ -24,7 +24,7 @@ VALUES (28091,   1, 'Scroll of Inferior Sanctifier of the Clutch') /* Name */
      , (28091,  15, 'When learned, this spell enhances the Focus of all Fellowship members by 30 points for 30 minutes.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28091,   1,   33554826) /* Setup */
-     , (28091,   8,  100676465) /* Icon */
-     , (28091,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28091,   1, 0x0200018A) /* Setup */
+     , (28091,   8, 0x06003371) /* Icon */
+     , (28091,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28091,  28,       3357) /* Spell - Inferior Sanctifier of the Clutch */;

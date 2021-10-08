@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1333,   1, 'A Mosswart Nest') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1333,   1,   33554867) /* Setup */
-     , (1333,   2,  150994947) /* MotionTable */
-     , (1333,   8,  100667499) /* Icon */;
+VALUES (1333,   1, 0x020001B3) /* Setup */
+     , (1333,   2, 0x09000003) /* MotionTable */
+     , (1333,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1333, 2, 0x01DF0106, 7.1, -28.8, 0.5, 0.955742, 0, 0, -0.294207) /* Destination */

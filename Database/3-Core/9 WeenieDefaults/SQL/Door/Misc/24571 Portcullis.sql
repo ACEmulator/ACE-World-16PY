@@ -30,8 +30,8 @@ VALUES (24571,   1, 'Portcullis') /* Name */
      , (24571,  16, 'A strong defensive gate.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24571,   1,   33558404) /* Setup */
-     , (24571,   2,  150995242) /* MotionTable */
-     , (24571,   3,  536871051) /* SoundTable */
-     , (24571,   8,  100668183) /* Icon */
-     , (24571,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24571,   1, 0x02000F84) /* Setup */
+     , (24571,   2, 0x0900012A) /* MotionTable */
+     , (24571,   3, 0x2000008B) /* SoundTable */
+     , (24571,   8, 0x06001317) /* Icon */
+     , (24571,  22, 0x3400002B) /* PhysicsEffectTable */;

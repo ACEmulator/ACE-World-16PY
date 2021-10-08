@@ -44,9 +44,9 @@ VALUES (7997,   1, 'Crystal-tip quarrel') /* Name */
      , (7997,  16, 'A crystal-tipped quarrel that appears to do fire damage.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7997,   1,   33556748) /* Setup */
-     , (7997,   3,  536870932) /* SoundTable */
-     , (7997,   6,   67111919) /* PaletteBase */
-     , (7997,   7,  268436306) /* ClothingBase */
-     , (7997,   8,  100670967) /* Icon */
-     , (7997,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7997,   1, 0x0200090C) /* Setup */
+     , (7997,   3, 0x20000014) /* SoundTable */
+     , (7997,   6, 0x04000BEF) /* PaletteBase */
+     , (7997,   7, 0x10000352) /* ClothingBase */
+     , (7997,   8, 0x06001DF7) /* Icon */
+     , (7997,  22, 0x3400002B) /* PhysicsEffectTable */;

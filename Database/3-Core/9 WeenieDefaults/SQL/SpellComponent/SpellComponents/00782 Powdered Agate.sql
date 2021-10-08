@@ -26,10 +26,10 @@ VALUES (782,   1, 'Powdered Agate') /* Name */
      , (782,  20, 'Powdered Agates') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (782,   1,   33555208) /* Setup */
-     , (782,   3,  536870932) /* SoundTable */
-     , (782,   6,   67111919) /* PaletteBase */
-     , (782,   7,  268435778) /* ClothingBase */
-     , (782,   8,  100668377) /* Icon */
-     , (782,  22,  872415275) /* PhysicsEffectTable */
+VALUES (782,   1, 0x02000308) /* Setup */
+     , (782,   3, 0x20000014) /* SoundTable */
+     , (782,   6, 0x04000BEF) /* PaletteBase */
+     , (782,   7, 0x10000142) /* ClothingBase */
+     , (782,   8, 0x060013D9) /* Icon */
+     , (782,  22, 0x3400002B) /* PhysicsEffectTable */
      , (782,  29,         25) /* SpellComponent */;

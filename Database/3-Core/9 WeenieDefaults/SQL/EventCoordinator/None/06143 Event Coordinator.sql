@@ -14,5 +14,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6143,   1, 'Event Coordinator') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6143,   1,   33554533) /* Setup */
-     , (6143,   8,  100669025) /* Icon */;
+VALUES (6143,   1, 0x02000065) /* Setup */
+     , (6143,   8, 0x06001661) /* Icon */;

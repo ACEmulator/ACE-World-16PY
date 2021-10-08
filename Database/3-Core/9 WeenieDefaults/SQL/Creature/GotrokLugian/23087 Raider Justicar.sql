@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23087,   1, 'Raider Justicar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23087,   1,   33557003) /* Setup */
-     , (23087,   2,  150994950) /* MotionTable */
-     , (23087,   3,  536870922) /* SoundTable */
-     , (23087,   4,  805306371) /* CombatTable */
-     , (23087,   6,   67113158) /* PaletteBase */
-     , (23087,   7,  268436632) /* ClothingBase */
-     , (23087,   8,  100667447) /* Icon */
-     , (23087,  22,  872415262) /* PhysicsEffectTable */
+VALUES (23087,   1, 0x02000A0B) /* Setup */
+     , (23087,   2, 0x09000006) /* MotionTable */
+     , (23087,   3, 0x2000000A) /* SoundTable */
+     , (23087,   4, 0x30000003) /* CombatTable */
+     , (23087,   6, 0x040010C6) /* PaletteBase */
+     , (23087,   7, 0x10000498) /* ClothingBase */
+     , (23087,   8, 0x06001037) /* Icon */
+     , (23087,  22, 0x3400001E) /* PhysicsEffectTable */
      , (23087,  32,        424) /* WieldedTreasureType - 
                                    Wield 10x Rock (23133) | Probability: 20%
                                    Wield Lugian Morning Star (23134) | Probability: 40%

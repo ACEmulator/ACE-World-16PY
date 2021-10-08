@@ -23,7 +23,7 @@ VALUES (8257,   1, 'The Blue Grotto Pub') /* Name */
      , (8257,  16, 'The Blue Grotto Pub.  An Eating and Drinking Establishment. Est. Harvestgain, 11 P.Y. Anarn of Arwic, Proprietor. We reserve the right to refuse service to anyone, and to break legs if you make an issue of it. That means you, Jurraf.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8257,   1,   33555909) /* Setup */
-     , (8257,   6,   67111860) /* PaletteBase */
-     , (8257,   7,  268435825) /* ClothingBase */
-     , (8257,   8,  100668115) /* Icon */;
+VALUES (8257,   1, 0x020005C5) /* Setup */
+     , (8257,   6, 0x04000BB4) /* PaletteBase */
+     , (8257,   7, 0x10000171) /* ClothingBase */
+     , (8257,   8, 0x060012D3) /* Icon */;

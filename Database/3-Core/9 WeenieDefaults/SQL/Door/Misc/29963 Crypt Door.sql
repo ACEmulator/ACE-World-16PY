@@ -30,8 +30,8 @@ VALUES (29963,   1, 'Crypt Door') /* Name */
      , (29963,  14, 'Use this item to open it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29963,   1,   33559044) /* Setup */
-     , (29963,   2,  150995313) /* MotionTable */
-     , (29963,   3,  536870946) /* SoundTable */
-     , (29963,   8,  100668183) /* Icon */
-     , (29963,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29963,   1, 0x02001204) /* Setup */
+     , (29963,   2, 0x09000171) /* MotionTable */
+     , (29963,   3, 0x20000022) /* SoundTable */
+     , (29963,   8, 0x06001317) /* Icon */
+     , (29963,  22, 0x3400002B) /* PhysicsEffectTable */;

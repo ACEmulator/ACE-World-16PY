@@ -26,8 +26,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9002,   1, 'Shard Vigil Memorial') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9002,   1,   33556953) /* Setup */
-     , (9002,   8,  100671330) /* Icon */;
+VALUES (9002,   1, 0x020009D9) /* Setup */
+     , (9002,   8, 0x06001F62) /* Icon */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (9002, 9, 1000);

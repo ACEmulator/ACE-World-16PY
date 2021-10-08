@@ -47,12 +47,12 @@ VALUES (25336,   1, 'Alfric''s Bull') /* Name */
      , (25336,  19, 'Aluvian') /* ItemHeritageGroupRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25336,   1,   33558447) /* Setup */
-     , (25336,   3,  536870932) /* SoundTable */
-     , (25336,   6,   67108990) /* PaletteBase */
-     , (25336,   7,  268436678) /* ClothingBase */
-     , (25336,   8,  100674870) /* Icon */
-     , (25336,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25336,   1, 0x02000FAF) /* Setup */
+     , (25336,   3, 0x20000014) /* SoundTable */
+     , (25336,   6, 0x0400007E) /* PaletteBase */
+     , (25336,   7, 0x100004C6) /* ClothingBase */
+     , (25336,   8, 0x06002D36) /* Icon */
+     , (25336,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25336,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24501,   1, 'Renegade Commander Walanawa') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24501,   1,   33554496) /* Setup */
-     , (24501,   2,  150994954) /* MotionTable */
-     , (24501,   3,  536870931) /* SoundTable */
-     , (24501,   4,  805306380) /* CombatTable */
-     , (24501,   6,   67109314) /* PaletteBase */
-     , (24501,   7,  268436645) /* ClothingBase */
-     , (24501,   8,  100667452) /* Icon */
-     , (24501,  22,  872415270) /* PhysicsEffectTable */
+VALUES (24501,   1, 0x02000040) /* Setup */
+     , (24501,   2, 0x0900000A) /* MotionTable */
+     , (24501,   3, 0x20000013) /* SoundTable */
+     , (24501,   4, 0x3000000C) /* CombatTable */
+     , (24501,   6, 0x040001C2) /* PaletteBase */
+     , (24501,   7, 0x100004A5) /* ClothingBase */
+     , (24501,   8, 0x0600103C) /* Icon */
+     , (24501,  22, 0x34000026) /* PhysicsEffectTable */
      , (24501,  35,         26) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -25,7 +25,7 @@ VALUES (2736,   1, 'Scroll of Slowness Other VI') /* Name */
      , (2736,  16, 'When learned, this spell decreases the target''s Quickness by 60 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2736,   1,   33554826) /* Setup */
-     , (2736,   8,  100676469) /* Icon */
-     , (2736,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2736,   1, 0x0200018A) /* Setup */
+     , (2736,   8, 0x06003375) /* Icon */
+     , (2736,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2736,  28,       1420) /* Spell - Slowness Other VI */;

@@ -37,11 +37,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3811,   1, 'Lightning Kaskara') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3811,   1,   33555795) /* Setup */
-     , (3811,   3,  536870932) /* SoundTable */
-     , (3811,   6,   67111919) /* PaletteBase */
-     , (3811,   7,  268435769) /* ClothingBase */
-     , (3811,   8,  100667613) /* Icon */
-     , (3811,  22,  872415275) /* PhysicsEffectTable */
-     , (3811,  36,  234881053) /* MutateFilter */
-     , (3811,  46,  939524101) /* TsysMutationFilter */;
+VALUES (3811,   1, 0x02000553) /* Setup */
+     , (3811,   3, 0x20000014) /* SoundTable */
+     , (3811,   6, 0x04000BEF) /* PaletteBase */
+     , (3811,   7, 0x10000139) /* ClothingBase */
+     , (3811,   8, 0x060010DD) /* Icon */
+     , (3811,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3811,  36, 0x0E00001D) /* MutateFilter */
+     , (3811,  46, 0x38000005) /* TsysMutationFilter */;

@@ -27,8 +27,8 @@ VALUES (27273,   1, 'Mudslinger Title Token') /* Name */
      , (27273,  15, 'An ornate Aun token given by Aun Akuarea in recognition of your hunting prowess. Return this token to him for the title - Mudslinger.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27273,   1,   33557280) /* Setup */
-     , (27273,   3,  536870932) /* SoundTable */
-     , (27273,   8,  100671832) /* Icon */
-     , (27273,  22,  872415275) /* PhysicsEffectTable */
-     , (27273,  36,  234881046) /* MutateFilter */;
+VALUES (27273,   1, 0x02000B20) /* Setup */
+     , (27273,   3, 0x20000014) /* SoundTable */
+     , (27273,   8, 0x06002158) /* Icon */
+     , (27273,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27273,  36, 0x0E000016) /* MutateFilter */;

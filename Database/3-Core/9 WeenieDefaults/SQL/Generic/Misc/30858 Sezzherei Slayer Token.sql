@@ -24,7 +24,7 @@ VALUES (30858,   1, 'Sezzherei Slayer Token') /* Name */
      , (30858,  33, 'BossTokenAcquired0205') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30858,   1,   33554769) /* Setup */
-     , (30858,   3,  536870932) /* SoundTable */
-     , (30858,   8,  100677512) /* Icon */
-     , (30858,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30858,   1, 0x02000151) /* Setup */
+     , (30858,   3, 0x20000014) /* SoundTable */
+     , (30858,   8, 0x06003788) /* Icon */
+     , (30858,  22, 0x3400002B) /* PhysicsEffectTable */;

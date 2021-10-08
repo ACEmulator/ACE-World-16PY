@@ -63,12 +63,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20191,   1, 'Horripal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20191,   1,   33557487) /* Setup */
-     , (20191,   2,  150995087) /* MotionTable */
-     , (20191,   3,  536871002) /* SoundTable */
-     , (20191,   4,  805306368) /* CombatTable */
-     , (20191,   8,  100672514) /* Icon */
-     , (20191,  22,  872415349) /* PhysicsEffectTable */
+VALUES (20191,   1, 0x02000BEF) /* Setup */
+     , (20191,   2, 0x0900008F) /* MotionTable */
+     , (20191,   3, 0x2000005A) /* SoundTable */
+     , (20191,   4, 0x30000000) /* CombatTable */
+     , (20191,   8, 0x06002402) /* Icon */
+     , (20191,  22, 0x34000075) /* PhysicsEffectTable */
      , (20191,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -36,10 +36,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12078,   1, 'Bandit Short Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12078,   1,   33554760) /* Setup */
-     , (12078,   3,  536870932) /* SoundTable */
-     , (12078,   6,   67111919) /* PaletteBase */
-     , (12078,   7,  268435772) /* ClothingBase */
-     , (12078,   8,  100669035) /* Icon */
-     , (12078,  22,  872415275) /* PhysicsEffectTable */
-     , (12078,  36,  234881044) /* MutateFilter */;
+VALUES (12078,   1, 0x02000148) /* Setup */
+     , (12078,   3, 0x20000014) /* SoundTable */
+     , (12078,   6, 0x04000BEF) /* PaletteBase */
+     , (12078,   7, 0x1000013C) /* ClothingBase */
+     , (12078,   8, 0x0600166B) /* Icon */
+     , (12078,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (12078,  36, 0x0E000014) /* MutateFilter */;

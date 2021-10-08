@@ -35,6 +35,6 @@ VALUES (4179,   1, 'Bonfire') /* Name */
      , (4179,  17, 'The roaring flames burn you for %i damage!') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4179,   1,   33555886) /* Setup */
-     , (4179,   3,  536870994) /* SoundTable */
-     , (4179,   8,  100669743) /* Icon */;
+VALUES (4179,   1, 0x020005AE) /* Setup */
+     , (4179,   3, 0x20000052) /* SoundTable */
+     , (4179,   8, 0x0600192F) /* Icon */;

@@ -25,7 +25,7 @@ VALUES (22852,   1, 'Treated Wood') /* Name */
      , (22852,  15, 'The woodsman claims this wood will burn hotter for the cold winter months.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22852,   1,   33554698) /* Setup */
-     , (22852,   3,  536870932) /* SoundTable */
-     , (22852,   8,  100673896) /* Icon */
-     , (22852,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22852,   1, 0x0200010A) /* Setup */
+     , (22852,   3, 0x20000014) /* SoundTable */
+     , (22852,   8, 0x06002968) /* Icon */
+     , (22852,  22, 0x3400002B) /* PhysicsEffectTable */;

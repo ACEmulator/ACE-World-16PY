@@ -25,8 +25,8 @@ VALUES (14899,   1, 'Symbol of Commitment') /* Name */
      , (14899,  16, 'Commitment is not something to be taken lightly.  The seekers of marriage should understand this as it is part of their vows.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14899,   1,   33557613) /* Setup */
-     , (14899,   3,  536870932) /* SoundTable */
-     , (14899,   8,  100672700) /* Icon */
-     , (14899,  22,  872415275) /* PhysicsEffectTable */
-     , (14899,  36,  234881046) /* MutateFilter */;
+VALUES (14899,   1, 0x02000C6D) /* Setup */
+     , (14899,   3, 0x20000014) /* SoundTable */
+     , (14899,   8, 0x060024BC) /* Icon */
+     , (14899,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (14899,  36, 0x0E000016) /* MutateFilter */;

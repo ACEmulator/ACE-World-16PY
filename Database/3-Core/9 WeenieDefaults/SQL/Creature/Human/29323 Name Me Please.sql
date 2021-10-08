@@ -64,13 +64,13 @@ VALUES (29323,   1, 'Name Me Please') /* Name */
      , (29323,   5, 'Give Me A Title') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29323,   1,   33554433) /* Setup */
-     , (29323,   2,  150994945) /* MotionTable */
-     , (29323,   3,  536870913) /* SoundTable */
-     , (29323,   4,  805306368) /* CombatTable */
-     , (29323,   6,   67108990) /* PaletteBase */
-     , (29323,   7,  268435545) /* ClothingBase */
-     , (29323,   8,  100667446) /* Icon */;
+VALUES (29323,   1, 0x02000001) /* Setup */
+     , (29323,   2, 0x09000001) /* MotionTable */
+     , (29323,   3, 0x20000001) /* SoundTable */
+     , (29323,   4, 0x30000000) /* CombatTable */
+     , (29323,   6, 0x0400007E) /* PaletteBase */
+     , (29323,   7, 0x10000059) /* ClothingBase */
+     , (29323,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29323,   1,  60, 0, 0) /* Strength */

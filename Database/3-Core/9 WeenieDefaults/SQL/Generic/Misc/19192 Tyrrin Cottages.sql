@@ -22,5 +22,5 @@ VALUES (19192,   1, 'Tyrrin Cottages') /* Name */
      , (19192,  16, 'Welcome to Tyrrin Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19192,   1,   33557463) /* Setup */
-     , (19192,   8,  100668115) /* Icon */;
+VALUES (19192,   1, 0x02000BD7) /* Setup */
+     , (19192,   8, 0x060012D3) /* Icon */;

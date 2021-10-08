@@ -68,10 +68,10 @@ VALUES (24513,   1, 'Surveying Device') /* Name */
      , (24513,  16, 'A pivoting spyglass with numbered wheels connected to the base.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24513,   1,   33558372) /* Setup */
-     , (24513,   2,  150995241) /* MotionTable */
-     , (24513,   3,  536871055) /* SoundTable */
-     , (24513,   8,  100674384) /* Icon */;
+VALUES (24513,   1, 0x02000F64) /* Setup */
+     , (24513,   2, 0x09000129) /* MotionTable */
+     , (24513,   3, 0x2000008F) /* SoundTable */
+     , (24513,   8, 0x06002B50) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24513,   1, 200, 0, 0) /* Strength */

@@ -29,10 +29,10 @@ VALUES (9185,   1, 'Tomb of the Dead Risen Gen') /* Name */
      , (9185,  17, 'The dead have been awakened.') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9185,   1,   33555536) /* Setup */
-     , (9185,   2,  150994977) /* MotionTable */
-     , (9185,   8,  100668114) /* Icon */
-     , (9185,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9185,   1, 0x02000450) /* Setup */
+     , (9185,   2, 0x09000021) /* MotionTable */
+     , (9185,   8, 0x060012D2) /* Icon */
+     , (9185,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (9185,  16, 0x00000000) /* ActivationTarget */;

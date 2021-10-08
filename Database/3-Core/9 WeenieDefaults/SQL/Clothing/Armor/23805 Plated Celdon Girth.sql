@@ -47,12 +47,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23805,   1, 'Plated Celdon Girth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23805,   1,   33554647) /* Setup */
-     , (23805,   3,  536870932) /* SoundTable */
-     , (23805,   6,   67108990) /* PaletteBase */
-     , (23805,   7,  268435843) /* ClothingBase */
-     , (23805,   8,  100674070) /* Icon */
-     , (23805,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23805,   1, 0x020000D7) /* Setup */
+     , (23805,   3, 0x20000014) /* SoundTable */
+     , (23805,   6, 0x0400007E) /* PaletteBase */
+     , (23805,   7, 0x10000183) /* ClothingBase */
+     , (23805,   8, 0x06002A16) /* Icon */
+     , (23805,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23805,  2610,      2)  /* Major Bludgeoning Ward */;

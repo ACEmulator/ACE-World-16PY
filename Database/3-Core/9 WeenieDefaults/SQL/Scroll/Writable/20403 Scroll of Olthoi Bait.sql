@@ -24,7 +24,7 @@ VALUES (20403,   1, 'Scroll of Olthoi Bait') /* Name */
      , (20403,  15, 'When learned, this spell decreases a shield or piece of armor''s resistance to acid damage by 170%.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20403,   1,   33554826) /* Setup */
-     , (20403,   8,  100676663) /* Icon */
-     , (20403,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20403,   1, 0x0200018A) /* Setup */
+     , (20403,   8, 0x06003437) /* Icon */
+     , (20403,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20403,  28,       2093) /* Spell - Olthoi Bait */;

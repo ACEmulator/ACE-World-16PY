@@ -69,11 +69,11 @@ VALUES (1383,   1, 'Farmer') /* Name */
      , (1383,   5, 'Farmer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1383,   1,   33554510) /* Setup */
-     , (1383,   2,  150994945) /* MotionTable */
-     , (1383,   3,  536870914) /* SoundTable */
-     , (1383,   4,  805306368) /* CombatTable */
-     , (1383,   8,  100667446) /* Icon */;
+VALUES (1383,   1, 0x0200004E) /* Setup */
+     , (1383,   2, 0x09000001) /* MotionTable */
+     , (1383,   3, 0x20000002) /* SoundTable */
+     , (1383,   4, 0x30000000) /* CombatTable */
+     , (1383,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1383,   1,  70, 0, 0) /* Strength */

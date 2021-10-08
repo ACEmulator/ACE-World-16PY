@@ -30,7 +30,7 @@ VALUES (14422,   1, 'Human Husk') /* Name */
      , (14422,  33, 'HuskRegicidePickUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14422,   1,   33557475) /* Setup */
-     , (14422,   6,   67108990) /* PaletteBase */
-     , (14422,   7,  268436310) /* ClothingBase */
-     , (14422,   8,  100672465) /* Icon */;
+VALUES (14422,   1, 0x02000BE3) /* Setup */
+     , (14422,   6, 0x0400007E) /* PaletteBase */
+     , (14422,   7, 0x10000356) /* ClothingBase */
+     , (14422,   8, 0x060023D1) /* Icon */;

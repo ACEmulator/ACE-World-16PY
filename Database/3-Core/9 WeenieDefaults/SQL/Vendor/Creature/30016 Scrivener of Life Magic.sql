@@ -74,11 +74,11 @@ VALUES (30016,   1, 'Scrivener of Life Magic') /* Name */
      , (30016,  24, 'Fort Tethana') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30016,   1,   33554433) /* Setup */
-     , (30016,   2,  150994945) /* MotionTable */
-     , (30016,   3,  536870914) /* SoundTable */
-     , (30016,   4,  805306368) /* CombatTable */
-     , (30016,   8,  100667446) /* Icon */;
+VALUES (30016,   1, 0x02000001) /* Setup */
+     , (30016,   2, 0x09000001) /* MotionTable */
+     , (30016,   3, 0x20000002) /* SoundTable */
+     , (30016,   4, 0x30000000) /* CombatTable */
+     , (30016,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30016,   1,  90, 0, 0) /* Strength */

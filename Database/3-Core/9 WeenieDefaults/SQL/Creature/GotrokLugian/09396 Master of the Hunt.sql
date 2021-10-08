@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9396,   1, 'Master of the Hunt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9396,   1,   33557003) /* Setup */
-     , (9396,   2,  150994950) /* MotionTable */
-     , (9396,   3,  536870922) /* SoundTable */
-     , (9396,   4,  805306371) /* CombatTable */
-     , (9396,   6,   67113158) /* PaletteBase */
-     , (9396,   7,  268436175) /* ClothingBase */
-     , (9396,   8,  100667447) /* Icon */
-     , (9396,  22,  872415262) /* PhysicsEffectTable */
+VALUES (9396,   1, 0x02000A0B) /* Setup */
+     , (9396,   2, 0x09000006) /* MotionTable */
+     , (9396,   3, 0x2000000A) /* SoundTable */
+     , (9396,   4, 0x30000003) /* CombatTable */
+     , (9396,   6, 0x040010C6) /* PaletteBase */
+     , (9396,   7, 0x100002CF) /* ClothingBase */
+     , (9396,   8, 0x06001037) /* Icon */
+     , (9396,  22, 0x3400001E) /* PhysicsEffectTable */
      , (9396,  32,        325) /* WieldedTreasureType - 
                                    Wield Rock (7578) | Probability: 100%
                                    Wield Lugian Axe (7577) | Probability: 50%

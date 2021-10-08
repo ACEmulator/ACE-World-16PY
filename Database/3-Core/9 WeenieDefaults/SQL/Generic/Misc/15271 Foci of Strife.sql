@@ -30,10 +30,10 @@ VALUES (15271,   1, 'Foci of Strife') /* Name */
      , (15271,  15, 'A foci used to cast spells from the School of the Arm.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15271,   1,   33554769) /* Setup */
-     , (15271,   3,  536870932) /* SoundTable */
-     , (15271,   6,   67111919) /* PaletteBase */
-     , (15271,   7,  268435867) /* ClothingBase */
-     , (15271,   8,  100671332) /* Icon */
-     , (15271,  22,  872415275) /* PhysicsEffectTable */
-     , (15271,  50,  100671332) /* IconOverlay */;
+VALUES (15271,   1, 0x02000151) /* Setup */
+     , (15271,   3, 0x20000014) /* SoundTable */
+     , (15271,   6, 0x04000BEF) /* PaletteBase */
+     , (15271,   7, 0x1000019B) /* ClothingBase */
+     , (15271,   8, 0x06001F64) /* Icon */
+     , (15271,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (15271,  50, 0x06001F64) /* IconOverlay */;

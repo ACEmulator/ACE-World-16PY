@@ -40,12 +40,12 @@ VALUES (2016,   1, 'Green Mire Yari') /* Name */
      , (2016,  15, 'The famous Yari of the Green Mire Warrior.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2016,   1,   33554824) /* Setup */
-     , (2016,   3,  536870932) /* SoundTable */
-     , (2016,   6,   67111919) /* PaletteBase */
-     , (2016,   7,  268435777) /* ClothingBase */
-     , (2016,   8,  100667579) /* Icon */
-     , (2016,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (2016,   1, 0x02000188) /* Setup */
+     , (2016,   3, 0x20000014) /* SoundTable */
+     , (2016,   6, 0x04000BEF) /* PaletteBase */
+     , (2016,   7, 0x10000141) /* ClothingBase */
+     , (2016,   8, 0x060010BB) /* Icon */
+     , (2016,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2016,  1589,      2)  /* Aura of Heart Seeker Self III */

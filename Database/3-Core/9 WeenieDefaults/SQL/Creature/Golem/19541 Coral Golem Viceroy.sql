@@ -71,14 +71,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19541,   1, 'Coral Golem Viceroy') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19541,   1,   33556426) /* Setup */
-     , (19541,   2,  150995073) /* MotionTable */
-     , (19541,   3,  536870933) /* SoundTable */
-     , (19541,   4,  805306376) /* CombatTable */
-     , (19541,   6,   67112775) /* PaletteBase */
-     , (19541,   7,  268436009) /* ClothingBase */
-     , (19541,   8,  100667940) /* Icon */
-     , (19541,  22,  872415323) /* PhysicsEffectTable */
+VALUES (19541,   1, 0x020007CA) /* Setup */
+     , (19541,   2, 0x09000081) /* MotionTable */
+     , (19541,   3, 0x20000015) /* SoundTable */
+     , (19541,   4, 0x30000008) /* CombatTable */
+     , (19541,   6, 0x04000F47) /* PaletteBase */
+     , (19541,   7, 0x10000229) /* ClothingBase */
+     , (19541,   8, 0x06001224) /* Icon */
+     , (19541,  22, 0x3400005B) /* PhysicsEffectTable */
      , (19541,  35,         35) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

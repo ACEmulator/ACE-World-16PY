@@ -25,10 +25,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6428,   1, 'Button') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6428,   1,   33554714) /* Setup */
-     , (6428,   8,  100667474) /* Icon */
-     , (6428,  22,  872415275) /* PhysicsEffectTable */
-     , (6428,  24,  268435537) /* UseTargetAnimation - Twitch1 */;
+VALUES (6428,   1, 0x0200011A) /* Setup */
+     , (6428,   8, 0x06001052) /* Icon */
+     , (6428,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (6428,  24, 0x10000051) /* UseTargetAnimation - Twitch1 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (6428,  16, 0x00000000) /* ActivationTarget */;

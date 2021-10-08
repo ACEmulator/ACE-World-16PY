@@ -37,6 +37,6 @@ VALUES (11720,   1, 'Hot Air') /* Name */
      , (11720,  17, 'The fumes of the Olthoi fungus choke you for %i points of damage!') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11720,   1,   33556024) /* Setup */
-     , (11720,   3,  536870994) /* SoundTable */
-     , (11720,   8,  100667465) /* Icon */;
+VALUES (11720,   1, 0x02000638) /* Setup */
+     , (11720,   3, 0x20000052) /* SoundTable */
+     , (11720,   8, 0x06001049) /* Icon */;

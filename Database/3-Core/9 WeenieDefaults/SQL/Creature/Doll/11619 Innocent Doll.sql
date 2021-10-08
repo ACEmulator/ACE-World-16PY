@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11619,   1, 'Innocent Doll') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11619,   1,   33556996) /* Setup */
-     , (11619,   2,  150994984) /* MotionTable */
-     , (11619,   3,  536871022) /* SoundTable */
-     , (11619,   4,  805306416) /* CombatTable */
-     , (11619,   6,   67113150) /* PaletteBase */
-     , (11619,   7,  268436148) /* ClothingBase */
-     , (11619,   8,  100671421) /* Icon */
-     , (11619,  22,  872415373) /* PhysicsEffectTable */
+VALUES (11619,   1, 0x02000A04) /* Setup */
+     , (11619,   2, 0x09000028) /* MotionTable */
+     , (11619,   3, 0x2000006E) /* SoundTable */
+     , (11619,   4, 0x30000030) /* CombatTable */
+     , (11619,   6, 0x040010BE) /* PaletteBase */
+     , (11619,   7, 0x100002B4) /* ClothingBase */
+     , (11619,   8, 0x06001FBD) /* Icon */
+     , (11619,  22, 0x3400008D) /* PhysicsEffectTable */
      , (11619,  30,         87) /* PhysicsScript - BreatheLightning */
      , (11619,  35,        342) /* DeathTreasureType - Loot Tier: 3 */;
 

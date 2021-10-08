@@ -25,10 +25,10 @@ VALUES (11749,   1, 'Hafted Serpent Banner') /* Name */
      , (11749,  16, 'A hafted banner with a Serpent on it.  It is somewhat tattered, and the colors seem to be washed out.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11749,   1,   33557243) /* Setup */
-     , (11749,   3,  536870932) /* SoundTable */
-     , (11749,   6,   67113338) /* PaletteBase */
-     , (11749,   7,  268436222) /* ClothingBase */
-     , (11749,   8,  100671904) /* Icon */
-     , (11749,  22,  872415275) /* PhysicsEffectTable */
-     , (11749,  36,  234881046) /* MutateFilter */;
+VALUES (11749,   1, 0x02000AFB) /* Setup */
+     , (11749,   3, 0x20000014) /* SoundTable */
+     , (11749,   6, 0x0400117A) /* PaletteBase */
+     , (11749,   7, 0x100002FE) /* ClothingBase */
+     , (11749,   8, 0x060021A0) /* Icon */
+     , (11749,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11749,  36, 0x0E000016) /* MutateFilter */;

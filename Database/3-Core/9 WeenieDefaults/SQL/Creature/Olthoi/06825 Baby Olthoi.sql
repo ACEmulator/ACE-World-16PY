@@ -64,12 +64,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6825,   1, 'Baby Olthoi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6825,   1,   33555486) /* Setup */
-     , (6825,   2,  150994946) /* MotionTable */
-     , (6825,   3,  536870925) /* SoundTable */
-     , (6825,   4,  805306395) /* CombatTable */
-     , (6825,   8,  100667623) /* Icon */
-     , (6825,  22,  872415265) /* PhysicsEffectTable */
+VALUES (6825,   1, 0x0200041E) /* Setup */
+     , (6825,   2, 0x09000002) /* MotionTable */
+     , (6825,   3, 0x2000000D) /* SoundTable */
+     , (6825,   4, 0x3000001B) /* CombatTable */
+     , (6825,   8, 0x060010E7) /* Icon */
+     , (6825,  22, 0x34000021) /* PhysicsEffectTable */
      , (6825,  30,         86) /* PhysicsScript - BreatheAcid */
      , (6825,  35,         32) /* DeathTreasureType - Loot Tier: 6 */;
 

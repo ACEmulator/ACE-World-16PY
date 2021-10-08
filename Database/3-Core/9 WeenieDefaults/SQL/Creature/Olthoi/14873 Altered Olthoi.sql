@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14873,   1, 'Altered Olthoi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14873,   1,   33557587) /* Setup */
-     , (14873,   2,  150994946) /* MotionTable */
-     , (14873,   3,  536870925) /* SoundTable */
-     , (14873,   4,  805306395) /* CombatTable */
-     , (14873,   6,   67113236) /* PaletteBase */
-     , (14873,   7,  268436243) /* ClothingBase */
-     , (14873,   8,  100667623) /* Icon */
-     , (14873,  22,  872415265) /* PhysicsEffectTable */
+VALUES (14873,   1, 0x02000C53) /* Setup */
+     , (14873,   2, 0x09000002) /* MotionTable */
+     , (14873,   3, 0x2000000D) /* SoundTable */
+     , (14873,   4, 0x3000001B) /* CombatTable */
+     , (14873,   6, 0x04001114) /* PaletteBase */
+     , (14873,   7, 0x10000313) /* ClothingBase */
+     , (14873,   8, 0x060010E7) /* Icon */
+     , (14873,  22, 0x34000021) /* PhysicsEffectTable */
      , (14873,  30,         87) /* PhysicsScript - BreatheLightning */
      , (14873,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 

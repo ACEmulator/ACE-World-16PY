@@ -33,9 +33,9 @@ VALUES (7039,   1, 'Fire Auroch Horn') /* Name */
      , (7039,  16, 'The horn of a departed Fire Auroch.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7039,   1,   33556594) /* Setup */
-     , (7039,   3,  536870932) /* SoundTable */
-     , (7039,   6,   67112869) /* PaletteBase */
-     , (7039,   7,  268435999) /* ClothingBase */
-     , (7039,   8,  100668178) /* Icon */
-     , (7039,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7039,   1, 0x02000872) /* Setup */
+     , (7039,   3, 0x20000014) /* SoundTable */
+     , (7039,   6, 0x04000FA5) /* PaletteBase */
+     , (7039,   7, 0x1000021F) /* ClothingBase */
+     , (7039,   8, 0x06001312) /* Icon */
+     , (7039,  22, 0x3400002B) /* PhysicsEffectTable */;

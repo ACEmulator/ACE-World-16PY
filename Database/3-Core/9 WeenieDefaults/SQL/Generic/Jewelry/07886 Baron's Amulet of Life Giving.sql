@@ -29,13 +29,13 @@ VALUES (7886,   1, 'Baron''s Amulet of Life Giving') /* Name */
      , (7886,  15, 'In life, this object was the Baron of Colier''s most coveted item.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7886,   1,   33554680) /* Setup */
-     , (7886,   3,  536870932) /* SoundTable */
-     , (7886,   6,   67111919) /* PaletteBase */
-     , (7886,   7,  268435735) /* ClothingBase */
-     , (7886,   8,  100670880) /* Icon */
-     , (7886,  22,  872415275) /* PhysicsEffectTable */
-     , (7886,  36,  234881046) /* MutateFilter */;
+VALUES (7886,   1, 0x020000F8) /* Setup */
+     , (7886,   3, 0x20000014) /* SoundTable */
+     , (7886,   6, 0x04000BEF) /* PaletteBase */
+     , (7886,   7, 0x10000117) /* ClothingBase */
+     , (7886,   8, 0x06001DA0) /* Icon */
+     , (7886,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (7886,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7886,  1997,      2)  /* Life Giver */;

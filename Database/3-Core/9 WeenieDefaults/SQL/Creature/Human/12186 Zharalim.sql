@@ -64,12 +64,12 @@ VALUES (12186,   1, 'Zharalim') /* Name */
      , (12186,   4, 'Gharu''ndim') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12186,   1,   33554510) /* Setup */
-     , (12186,   2,  150994945) /* MotionTable */
-     , (12186,   3,  536870914) /* SoundTable */
-     , (12186,   4,  805306368) /* CombatTable */
-     , (12186,   8,  100667446) /* Icon */
-     , (12186,  22,  872415236) /* PhysicsEffectTable */
+VALUES (12186,   1, 0x0200004E) /* Setup */
+     , (12186,   2, 0x09000001) /* MotionTable */
+     , (12186,   3, 0x20000002) /* SoundTable */
+     , (12186,   4, 0x30000000) /* CombatTable */
+     , (12186,   8, 0x06001036) /* Icon */
+     , (12186,  22, 0x34000004) /* PhysicsEffectTable */
      , (12186,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

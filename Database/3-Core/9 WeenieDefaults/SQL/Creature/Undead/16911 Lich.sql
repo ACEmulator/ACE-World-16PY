@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (16911,   1, 'Lich') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (16911,   1,   33554839) /* Setup */
-     , (16911,   2,  150994967) /* MotionTable */
-     , (16911,   3,  536870934) /* SoundTable */
-     , (16911,   4,  805306368) /* CombatTable */
-     , (16911,   6,   67110722) /* PaletteBase */
-     , (16911,   7,  268435558) /* ClothingBase */
-     , (16911,   8,  100667942) /* Icon */
-     , (16911,  22,  872415272) /* PhysicsEffectTable */
+VALUES (16911,   1, 0x02000197) /* Setup */
+     , (16911,   2, 0x09000017) /* MotionTable */
+     , (16911,   3, 0x20000016) /* SoundTable */
+     , (16911,   4, 0x30000000) /* CombatTable */
+     , (16911,   6, 0x04000742) /* PaletteBase */
+     , (16911,   7, 0x10000066) /* ClothingBase */
+     , (16911,   8, 0x06001226) /* Icon */
+     , (16911,  22, 0x34000028) /* PhysicsEffectTable */
      , (16911,  32,        248) /* WieldedTreasureType - 
                                    Wield 6x Throwing Axe (304) | Probability: 10%
                                    Wield Nayin (334) | Probability: 10%

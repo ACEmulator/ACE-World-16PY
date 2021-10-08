@@ -25,9 +25,9 @@ VALUES (2066,   1, 'Braid Mansion Ruin') /* Name */
      , (2066,  16, 'This is a good adventure for someone who is newly arrived in Dereth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2066,   1,   33555922) /* Setup */
-     , (2066,   2,  150994947) /* MotionTable */
-     , (2066,   8,  100667499) /* Icon */;
+VALUES (2066,   1, 0x020005D2) /* Setup */
+     , (2066,   2, 0x09000003) /* MotionTable */
+     , (2066,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2066, 2, 0x01B70100, -0.6, -12.77, 0, 0.713923, 0, 0, -0.700224) /* Destination */

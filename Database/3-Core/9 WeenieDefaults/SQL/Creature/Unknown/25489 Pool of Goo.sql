@@ -68,13 +68,13 @@ VALUES (25489,   1, 'Pool of Goo') /* Name */
      , (25489,  16, 'A pool of thick foul smelling goo.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25489,   1,   33558427) /* Setup */
-     , (25489,   2,  150995249) /* MotionTable */
-     , (25489,   3,  536871052) /* SoundTable */
-     , (25489,   5,  234881029) /* QualityFilter */
-     , (25489,   6,   67113288) /* PaletteBase */
-     , (25489,   7,  268436670) /* ClothingBase */
-     , (25489,   8,  100674807) /* Icon */;
+VALUES (25489,   1, 0x02000F9B) /* Setup */
+     , (25489,   2, 0x09000131) /* MotionTable */
+     , (25489,   3, 0x2000008C) /* SoundTable */
+     , (25489,   5, 0x0E000005) /* QualityFilter */
+     , (25489,   6, 0x04001148) /* PaletteBase */
+     , (25489,   7, 0x100004BE) /* ClothingBase */
+     , (25489,   8, 0x06002CF7) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25489,   1, 200, 0, 0) /* Strength */

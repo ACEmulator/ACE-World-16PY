@@ -39,9 +39,9 @@ VALUES (28866,   1, 'Left Peg Leg') /* Name */
      , (28866,  16, 'Onda Nakoza in MacNiall''s Freehold will modify this left peg leg so it can be coupled with the right peg leg for a double peg leg set!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28866,   1,   33559015) /* Setup */
-     , (28866,   3,  536870932) /* SoundTable */
-     , (28866,   6,   67108990) /* PaletteBase */
-     , (28866,   7,  268436869) /* ClothingBase */
-     , (28866,   8,  100677105) /* Icon */
-     , (28866,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28866,   1, 0x020011E7) /* Setup */
+     , (28866,   3, 0x20000014) /* SoundTable */
+     , (28866,   6, 0x0400007E) /* PaletteBase */
+     , (28866,   7, 0x10000585) /* ClothingBase */
+     , (28866,   8, 0x060035F1) /* Icon */
+     , (28866,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -27,7 +27,7 @@ VALUES (4752,   1, 'Batter') /* Name */
      , (4752,  20, 'Batches of Batter') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4752,   1,   33555968) /* Setup */
-     , (4752,   3,  536870932) /* SoundTable */
-     , (4752,   8,  100669943) /* Icon */
-     , (4752,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4752,   1, 0x02000600) /* Setup */
+     , (4752,   3, 0x20000014) /* SoundTable */
+     , (4752,   8, 0x060019F7) /* Icon */
+     , (4752,  22, 0x3400002B) /* PhysicsEffectTable */;

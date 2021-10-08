@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22655,   1, 'Surface') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22655,   1,   33554867) /* Setup */
-     , (22655,   2,  150994947) /* MotionTable */
-     , (22655,   8,  100667499) /* Icon */;
+VALUES (22655,   1, 0x020001B3) /* Setup */
+     , (22655,   2, 0x09000003) /* MotionTable */
+     , (22655,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22655, 2, 0xF67B000C, 37.096, 94.624, -0.095, -0.683159, 0, -0, -0.73027) /* Destination */

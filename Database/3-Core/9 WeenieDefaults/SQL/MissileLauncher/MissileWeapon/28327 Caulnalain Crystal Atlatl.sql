@@ -51,12 +51,12 @@ VALUES (28327,   1, 'Caulnalain Crystal Atlatl') /* Name */
      , (28327,  16, 'An atlatl imbued with the essence of the Caulnalain Crystal. Uses crystal-tipped darts.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28327,   1,   33557433) /* Setup */
-     , (28327,   3,  536870932) /* SoundTable */
-     , (28327,   6,   67111919) /* PaletteBase */
-     , (28327,   7,  268436042) /* ClothingBase */
-     , (28327,   8,  100674033) /* Icon */
-     , (28327,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28327,   1, 0x02000BB9) /* Setup */
+     , (28327,   3, 0x20000014) /* SoundTable */
+     , (28327,   6, 0x04000BEF) /* PaletteBase */
+     , (28327,   7, 0x1000024A) /* ClothingBase */
+     , (28327,   8, 0x060029F1) /* Icon */
+     , (28327,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28327,  1603,      2)  /* Aura of Defender Self IV */

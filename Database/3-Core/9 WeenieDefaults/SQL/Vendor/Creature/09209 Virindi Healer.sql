@@ -76,11 +76,11 @@ VALUES (9209,   1, 'Virindi Healer') /* Name */
      , (9209,  24, 'Ayan Baqur') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9209,   1,   33554497) /* Setup */
-     , (9209,   2,  150994984) /* MotionTable */
-     , (9209,   3,  536870930) /* SoundTable */
-     , (9209,   4,  805306381) /* CombatTable */
-     , (9209,   8,  100667943) /* Icon */;
+VALUES (9209,   1, 0x02000041) /* Setup */
+     , (9209,   2, 0x09000028) /* MotionTable */
+     , (9209,   3, 0x20000012) /* SoundTable */
+     , (9209,   4, 0x3000000D) /* CombatTable */
+     , (9209,   8, 0x06001227) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9209,   1,  30, 0, 0) /* Strength */

@@ -29,9 +29,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21521,   1, 'Trap Floor Walk Extreme') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21521,   1,   33556024) /* Setup */
-     , (21521,   3,  536871008) /* SoundTable */
-     , (21521,   8,  100667499) /* Icon */;
+VALUES (21521,   1, 0x02000638) /* Setup */
+     , (21521,   3, 0x20000060) /* SoundTable */
+     , (21521,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (21521, 2, 0x5A4401DB, 110.655, -139.78, 0.005, 1, 0, 0, -0) /* Destination */

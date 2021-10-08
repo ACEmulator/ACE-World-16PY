@@ -68,14 +68,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27496,   1, 'Platinum Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27496,   1,   33556426) /* Setup */
-     , (27496,   2,  150995073) /* MotionTable */
-     , (27496,   3,  536870933) /* SoundTable */
-     , (27496,   4,  805306376) /* CombatTable */
-     , (27496,   6,   67112775) /* PaletteBase */
-     , (27496,   7,  268436615) /* ClothingBase */
-     , (27496,   8,  100667940) /* Icon */
-     , (27496,  22,  872415325) /* PhysicsEffectTable */
+VALUES (27496,   1, 0x020007CA) /* Setup */
+     , (27496,   2, 0x09000081) /* MotionTable */
+     , (27496,   3, 0x20000015) /* SoundTable */
+     , (27496,   4, 0x30000008) /* CombatTable */
+     , (27496,   6, 0x04000F47) /* PaletteBase */
+     , (27496,   7, 0x10000487) /* ClothingBase */
+     , (27496,   8, 0x06001224) /* Icon */
+     , (27496,  22, 0x3400005D) /* PhysicsEffectTable */
      , (27496,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

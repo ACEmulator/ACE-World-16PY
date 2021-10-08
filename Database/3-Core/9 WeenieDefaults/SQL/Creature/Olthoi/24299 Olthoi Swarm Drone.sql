@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24299,   1, 'Olthoi Swarm Drone') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24299,   1,   33557164) /* Setup */
-     , (24299,   2,  150994946) /* MotionTable */
-     , (24299,   3,  536870925) /* SoundTable */
-     , (24299,   4,  805306395) /* CombatTable */
-     , (24299,   6,   67113236) /* PaletteBase */
-     , (24299,   7,  268436196) /* ClothingBase */
-     , (24299,   8,  100667623) /* Icon */
-     , (24299,  22,  872415265) /* PhysicsEffectTable */
+VALUES (24299,   1, 0x02000AAC) /* Setup */
+     , (24299,   2, 0x09000002) /* MotionTable */
+     , (24299,   3, 0x2000000D) /* SoundTable */
+     , (24299,   4, 0x3000001B) /* CombatTable */
+     , (24299,   6, 0x04001114) /* PaletteBase */
+     , (24299,   7, 0x100002E4) /* ClothingBase */
+     , (24299,   8, 0x060010E7) /* Icon */
+     , (24299,  22, 0x34000021) /* PhysicsEffectTable */
      , (24299,  30,         86) /* PhysicsScript - BreatheAcid */
      , (24299,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 

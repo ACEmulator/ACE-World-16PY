@@ -64,12 +64,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22208,   1, 'Skeleton Wraith') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22208,   1,   33555464) /* Setup */
-     , (22208,   2,  150994981) /* MotionTable */
-     , (22208,   3,  536870942) /* SoundTable */
-     , (22208,   4,  805306368) /* CombatTable */
-     , (22208,   8,  100669124) /* Icon */
-     , (22208,  22,  872415269) /* PhysicsEffectTable */
+VALUES (22208,   1, 0x02000408) /* Setup */
+     , (22208,   2, 0x09000025) /* MotionTable */
+     , (22208,   3, 0x2000001E) /* SoundTable */
+     , (22208,   4, 0x30000000) /* CombatTable */
+     , (22208,   8, 0x060016C4) /* Icon */
+     , (22208,  22, 0x34000025) /* PhysicsEffectTable */
      , (22208,  32,        189) /* WieldedTreasureType - 
                                    Wield Battle Axe (301) | Probability: 9%
                                    Wield Broad Sword (350) | Probability: 4%

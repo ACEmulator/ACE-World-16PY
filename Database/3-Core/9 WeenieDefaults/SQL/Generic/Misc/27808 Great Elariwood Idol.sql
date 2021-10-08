@@ -30,7 +30,7 @@ VALUES (27808,   1, 'Great Elariwood Idol') /* Name */
      , (27808,  33, 'GotElariwoodIdol') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27808,   1,   33558779) /* Setup */
-     , (27808,   6,   67112776) /* PaletteBase */
-     , (27808,   7,  268436247) /* ClothingBase */
-     , (27808,   8,  100676569) /* Icon */;
+VALUES (27808,   1, 0x020010FB) /* Setup */
+     , (27808,   6, 0x04000F48) /* PaletteBase */
+     , (27808,   7, 0x10000317) /* ClothingBase */
+     , (27808,   8, 0x060033D9) /* Icon */;

@@ -22,5 +22,5 @@ VALUES (19173,   1, 'Firesong Cottages') /* Name */
      , (19173,  16, 'Welcome to Firesong Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19173,   1,   33557463) /* Setup */
-     , (19173,   8,  100668115) /* Icon */;
+VALUES (19173,   1, 0x02000BD7) /* Setup */
+     , (19173,   8, 0x060012D3) /* Icon */;

@@ -31,9 +31,9 @@ VALUES (19522,   1, 'Good Isparian Staff Ingot') /* Name */
      , (19522,  16, 'An diamond infused ingot, enhanced and stamped with an staff glyph.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19522,   1,   33555677) /* Setup */
-     , (19522,   3,  536870932) /* SoundTable */
-     , (19522,   6,   67111919) /* PaletteBase */
-     , (19522,   7,  268435723) /* ClothingBase */
-     , (19522,   8,  100672971) /* Icon */
-     , (19522,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19522,   1, 0x020004DD) /* Setup */
+     , (19522,   3, 0x20000014) /* SoundTable */
+     , (19522,   6, 0x04000BEF) /* PaletteBase */
+     , (19522,   7, 0x1000010B) /* ClothingBase */
+     , (19522,   8, 0x060025CB) /* Icon */
+     , (19522,  22, 0x3400002B) /* PhysicsEffectTable */;

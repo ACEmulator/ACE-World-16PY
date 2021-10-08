@@ -25,10 +25,10 @@ VALUES (12146,   1, 'Simulacra Rumor') /* Name */
      , (12146,  16, 'A rumor about new Virindi servants.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12146,   1,   33554773) /* Setup */
-     , (12146,   3,  536870932) /* SoundTable */
-     , (12146,   8,  100668176) /* Icon */
-     , (12146,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12146,   1, 0x02000155) /* Setup */
+     , (12146,   3, 0x20000014) /* SoundTable */
+     , (12146,   8, 0x06001310) /* Icon */
+     , (12146,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (12146, 3, 1000);

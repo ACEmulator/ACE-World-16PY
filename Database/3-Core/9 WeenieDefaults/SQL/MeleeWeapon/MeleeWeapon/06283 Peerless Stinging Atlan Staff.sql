@@ -45,12 +45,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6283,   1, 'Peerless Stinging Atlan Staff') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6283,   1,   33556339) /* Setup */
-     , (6283,   3,  536870932) /* SoundTable */
-     , (6283,   6,   67111919) /* PaletteBase */
-     , (6283,   7,  268435918) /* ClothingBase */
-     , (6283,   8,  100670564) /* Icon */
-     , (6283,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6283,   1, 0x02000773) /* Setup */
+     , (6283,   3, 0x20000014) /* SoundTable */
+     , (6283,   6, 0x04000BEF) /* PaletteBase */
+     , (6283,   7, 0x100001CE) /* ClothingBase */
+     , (6283,   8, 0x06001C64) /* Icon */
+     , (6283,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6283,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

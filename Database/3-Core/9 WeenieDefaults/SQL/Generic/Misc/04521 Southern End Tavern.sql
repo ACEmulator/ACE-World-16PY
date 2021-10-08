@@ -22,7 +22,7 @@ VALUES (4521,   1, 'Southern End Tavern') /* Name */
      , (4521,  16, 'Southern End Tavern') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4521,   1,   33555594) /* Setup */
-     , (4521,   6,   67111782) /* PaletteBase */
-     , (4521,   7,  268435691) /* ClothingBase */
-     , (4521,   8,  100668115) /* Icon */;
+VALUES (4521,   1, 0x0200048A) /* Setup */
+     , (4521,   6, 0x04000B66) /* PaletteBase */
+     , (4521,   7, 0x100000EB) /* ClothingBase */
+     , (4521,   8, 0x060012D3) /* Icon */;

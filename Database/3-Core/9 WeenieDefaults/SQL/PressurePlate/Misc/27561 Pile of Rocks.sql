@@ -29,10 +29,10 @@ VALUES (27561,   1, 'Pile of Rocks') /* Name */
      , (27561,  17, 'Disturbing the rocks has alerted the guardians to your presence.') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27561,   1,   33558434) /* Setup */
-     , (27561,   2,  150995252) /* MotionTable */
-     , (27561,   8,  100674798) /* Icon */
-     , (27561,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27561,   1, 0x02000FA2) /* Setup */
+     , (27561,   2, 0x09000134) /* MotionTable */
+     , (27561,   8, 0x06002CEE) /* Icon */
+     , (27561,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (27561,  16, 0x00000000) /* ActivationTarget */;

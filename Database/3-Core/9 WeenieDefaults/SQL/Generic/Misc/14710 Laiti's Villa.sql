@@ -22,5 +22,5 @@ VALUES (14710,   1, 'Laiti''s Villa') /* Name */
      , (14710,  16, 'Welcome to Laiti''s Villa') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14710,   1,   33557463) /* Setup */
-     , (14710,   8,  100668115) /* Icon */;
+VALUES (14710,   1, 0x02000BD7) /* Setup */
+     , (14710,   8, 0x060012D3) /* Icon */;

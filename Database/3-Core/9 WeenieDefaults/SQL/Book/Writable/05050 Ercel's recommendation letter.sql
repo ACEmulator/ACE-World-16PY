@@ -24,10 +24,10 @@ VALUES (5050,   1, 'Ercel''s recommendation letter') /* Name */
      , (5050,  16, 'A hastily scribbled note. You can barely read the handwriting, but you think it''s from Ercel of East Lytelthorpe. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5050,   1,   33554773) /* Setup */
-     , (5050,   3,  536870932) /* SoundTable */
-     , (5050,   8,  100668176) /* Icon */
-     , (5050,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5050,   1, 0x02000155) /* Setup */
+     , (5050,   3, 0x20000014) /* SoundTable */
+     , (5050,   8, 0x06001310) /* Icon */
+     , (5050,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (5050, 1, 1000);

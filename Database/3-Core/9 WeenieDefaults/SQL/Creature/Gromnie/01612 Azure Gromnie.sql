@@ -57,12 +57,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1612,   1, 'Azure Gromnie') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1612,   1,   33554487) /* Setup */
-     , (1612,   2,  150994971) /* MotionTable */
-     , (1612,   3,  536870921) /* SoundTable */
-     , (1612,   4,  805306386) /* CombatTable */
-     , (1612,   8,  100667938) /* Icon */
-     , (1612,  22,  872415260) /* PhysicsEffectTable */
+VALUES (1612,   1, 0x02000037) /* Setup */
+     , (1612,   2, 0x0900001B) /* MotionTable */
+     , (1612,   3, 0x20000009) /* SoundTable */
+     , (1612,   4, 0x30000012) /* CombatTable */
+     , (1612,   8, 0x06001222) /* Icon */
+     , (1612,  22, 0x3400001C) /* PhysicsEffectTable */
      , (1612,  30,         86) /* PhysicsScript - BreatheAcid */
      , (1612,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 

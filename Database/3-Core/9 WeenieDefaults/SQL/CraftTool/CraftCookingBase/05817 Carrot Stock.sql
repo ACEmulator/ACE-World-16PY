@@ -28,7 +28,7 @@ VALUES (5817,   1, 'Carrot Stock') /* Name */
      , (5817,  20, 'Batches of Carrot Stock') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5817,   1,   33555968) /* Setup */
-     , (5817,   3,  536870932) /* SoundTable */
-     , (5817,   8,  100670294) /* Icon */
-     , (5817,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5817,   1, 0x02000600) /* Setup */
+     , (5817,   3, 0x20000014) /* SoundTable */
+     , (5817,   8, 0x06001B56) /* Icon */
+     , (5817,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -33,12 +33,12 @@ VALUES (29917,   1, 'Pack Bael''Zharon') /* Name */
      , (29917,  16, 'Bael''Zharon, the Hopeslayer') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29917,   1,   33559089) /* Setup */
-     , (29917,   3,  536870932) /* SoundTable */
-     , (29917,   6,   67113073) /* PaletteBase */
-     , (29917,   7,  268436090) /* ClothingBase */
-     , (29917,   8,  100669122) /* Icon */
-     , (29917,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29917,   1, 0x02001231) /* Setup */
+     , (29917,   3, 0x20000014) /* SoundTable */
+     , (29917,   6, 0x04001071) /* PaletteBase */
+     , (29917,   7, 0x1000027A) /* ClothingBase */
+     , (29917,   8, 0x060016C2) /* Icon */
+     , (29917,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (29917, 4, 1000);

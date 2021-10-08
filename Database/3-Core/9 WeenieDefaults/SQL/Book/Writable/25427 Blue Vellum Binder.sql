@@ -27,11 +27,11 @@ VALUES (25427,   1, 'Blue Vellum Binder') /* Name */
      , (25427,  16, 'A blue vellum binder containing 20 thin sheets of parchment. The parchment is inscribed in an unknown alphabet. This book is complete.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25427,   1,   33554771) /* Setup */
-     , (25427,   3,  536870932) /* SoundTable */
-     , (25427,   6,   67111928) /* PaletteBase */
-     , (25427,   8,  100674843) /* Icon */
-     , (25427,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25427,   1, 0x02000153) /* Setup */
+     , (25427,   3, 0x20000014) /* SoundTable */
+     , (25427,   6, 0x04000BF8) /* PaletteBase */
+     , (25427,   8, 0x06002D1B) /* Icon */
+     , (25427,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (25427, 1, 1000);

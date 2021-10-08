@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11890,   1, 'Tumerok Controller') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11890,   1,   33554496) /* Setup */
-     , (11890,   2,  150994954) /* MotionTable */
-     , (11890,   3,  536870931) /* SoundTable */
-     , (11890,   4,  805306380) /* CombatTable */
-     , (11890,   6,   67109314) /* PaletteBase */
-     , (11890,   7,  268435647) /* ClothingBase */
-     , (11890,   8,  100667452) /* Icon */
-     , (11890,  22,  872415270) /* PhysicsEffectTable */
+VALUES (11890,   1, 0x02000040) /* Setup */
+     , (11890,   2, 0x0900000A) /* MotionTable */
+     , (11890,   3, 0x20000013) /* SoundTable */
+     , (11890,   4, 0x3000000C) /* CombatTable */
+     , (11890,   6, 0x040001C2) /* PaletteBase */
+     , (11890,   7, 0x100000BF) /* ClothingBase */
+     , (11890,   8, 0x0600103C) /* Icon */
+     , (11890,  22, 0x34000026) /* PhysicsEffectTable */
      , (11890,  32,        371) /* WieldedTreasureType - 
                                    Wield Hafted Shreth Spear (11756) | Probability: 80%
                                    Wield Reinforced Shreth Spear (11782) | Probability: 20% */

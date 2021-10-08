@@ -45,10 +45,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30875,   1, 'Blade of the Fallen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30875,   1,   33559275) /* Setup */
-     , (30875,   3,  536870932) /* SoundTable */
-     , (30875,   8,  100677510) /* Icon */
-     , (30875,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30875,   1, 0x020012EB) /* Setup */
+     , (30875,   3, 0x20000014) /* SoundTable */
+     , (30875,   8, 0x06003786) /* Icon */
+     , (30875,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30875,  2694,      2)  /* Moderate Heavy Weapon Aptitude */

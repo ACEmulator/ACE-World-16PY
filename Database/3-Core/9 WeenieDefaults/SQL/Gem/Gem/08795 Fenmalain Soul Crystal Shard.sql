@@ -35,10 +35,10 @@ VALUES (8795,   1, 'Fenmalain Soul Crystal Shard') /* Name */
      , (8795,  33, 'ShardSoulCrystal') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8795,   1,   33556406) /* Setup */
-     , (8795,   3,  536870932) /* SoundTable */
-     , (8795,   6,   67111919) /* PaletteBase */
-     , (8795,   7,  268435994) /* ClothingBase */
-     , (8795,   8,  100671232) /* Icon */
-     , (8795,  22,  872415275) /* PhysicsEffectTable */
-     , (8795,  36,  234881046) /* MutateFilter */;
+VALUES (8795,   1, 0x020007B6) /* Setup */
+     , (8795,   3, 0x20000014) /* SoundTable */
+     , (8795,   6, 0x04000BEF) /* PaletteBase */
+     , (8795,   7, 0x1000021A) /* ClothingBase */
+     , (8795,   8, 0x06001F00) /* Icon */
+     , (8795,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8795,  36, 0x0E000016) /* MutateFilter */;

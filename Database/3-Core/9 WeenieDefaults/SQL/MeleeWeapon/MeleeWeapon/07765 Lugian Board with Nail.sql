@@ -39,8 +39,8 @@ VALUES (7765,   1, 'Lugian Board with Nail') /* Name */
      , (7765,  16, 'An big board with even bigger nail.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7765,   1,   33556639) /* Setup */
-     , (7765,   3,  536870932) /* SoundTable */
-     , (7765,   8,  100670759) /* Icon */
-     , (7765,  22,  872415275) /* PhysicsEffectTable */
-     , (7765,  36,  234881044) /* MutateFilter */;
+VALUES (7765,   1, 0x0200089F) /* Setup */
+     , (7765,   3, 0x20000014) /* SoundTable */
+     , (7765,   8, 0x06001D27) /* Icon */
+     , (7765,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (7765,  36, 0x0E000014) /* MutateFilter */;

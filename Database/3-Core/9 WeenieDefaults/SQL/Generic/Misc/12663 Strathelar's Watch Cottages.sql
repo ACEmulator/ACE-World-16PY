@@ -22,5 +22,5 @@ VALUES (12663,   1, 'Strathelar''s Watch Cottages') /* Name */
      , (12663,  16, 'Welcome to Strathelar''s Watch Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12663,   1,   33557463) /* Setup */
-     , (12663,   8,  100668115) /* Icon */;
+VALUES (12663,   1, 0x02000BD7) /* Setup */
+     , (12663,   8, 0x060012D3) /* Icon */;

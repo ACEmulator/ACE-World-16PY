@@ -70,11 +70,11 @@ VALUES (818,   1, 'Jeweler Xao Wu') /* Name */
      , (818,  24, 'Yanshi') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (818,   1,   33554510) /* Setup */
-     , (818,   2,  150994945) /* MotionTable */
-     , (818,   3,  536870914) /* SoundTable */
-     , (818,   4,  805306368) /* CombatTable */
-     , (818,   8,  100667446) /* Icon */;
+VALUES (818,   1, 0x0200004E) /* Setup */
+     , (818,   2, 0x09000001) /* MotionTable */
+     , (818,   3, 0x20000002) /* SoundTable */
+     , (818,   4, 0x30000000) /* CombatTable */
+     , (818,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (818,   1,  65, 0, 0) /* Strength */

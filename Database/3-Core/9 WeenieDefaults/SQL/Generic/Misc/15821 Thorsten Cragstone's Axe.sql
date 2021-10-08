@@ -27,9 +27,9 @@ VALUES (15821,   1, 'Thorsten Cragstone''s Axe') /* Name */
      , (15821,  15, 'Thorsten Cragstone''s Axe.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15821,   1,   33557632) /* Setup */
-     , (15821,   3,  536870932) /* SoundTable */
-     , (15821,   6,   67111919) /* PaletteBase */
-     , (15821,   7,  268436348) /* ClothingBase */
-     , (15821,   8,  100667580) /* Icon */
-     , (15821,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15821,   1, 0x02000C80) /* Setup */
+     , (15821,   3, 0x20000014) /* SoundTable */
+     , (15821,   6, 0x04000BEF) /* PaletteBase */
+     , (15821,   7, 0x1000037C) /* ClothingBase */
+     , (15821,   8, 0x060010BC) /* Icon */
+     , (15821,  22, 0x3400002B) /* PhysicsEffectTable */;

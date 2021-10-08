@@ -24,7 +24,7 @@ VALUES (20466,   1, 'Scroll of Caustic Blessing') /* Name */
      , (20466,  15, 'When learned, this spell reduces damage the caster takes from acid by 65%.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20466,   1,   33554826) /* Setup */
-     , (20466,   8,  100676951) /* Icon */
-     , (20466,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20466,   1, 0x0200018A) /* Setup */
+     , (20466,   8, 0x06003557) /* Icon */
+     , (20466,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20466,  28,       2149) /* Spell - Caustic Blessing */;

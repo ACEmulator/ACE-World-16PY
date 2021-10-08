@@ -25,9 +25,9 @@ VALUES (11954,   1, 'Portal to Greenspire') /* Name */
      , (11954,  16, 'This portal goes to the town of Greenspire on the island of Marae Lassel. This is a good town for characters over level 10.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11954,   1,   33554867) /* Setup */
-     , (11954,   2,  150994947) /* MotionTable */
-     , (11954,   8,  100667499) /* Icon */;
+VALUES (11954,   1, 0x020001B3) /* Setup */
+     , (11954,   2, 0x09000003) /* MotionTable */
+     , (11954,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11954, 2, 0x2BB5003C, 178.958, 86.57, 0.005, 0.352348, 0, 0, -0.935869) /* Destination */

@@ -70,11 +70,11 @@ VALUES (658,   1, 'Cynsela the Tailor') /* Name */
      , (658,  24, 'Eastham') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (658,   1,   33554510) /* Setup */
-     , (658,   2,  150994945) /* MotionTable */
-     , (658,   3,  536870914) /* SoundTable */
-     , (658,   4,  805306368) /* CombatTable */
-     , (658,   8,  100667446) /* Icon */;
+VALUES (658,   1, 0x0200004E) /* Setup */
+     , (658,   2, 0x09000001) /* MotionTable */
+     , (658,   3, 0x20000002) /* SoundTable */
+     , (658,   4, 0x30000000) /* CombatTable */
+     , (658,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (658,   1,  40, 0, 0) /* Strength */

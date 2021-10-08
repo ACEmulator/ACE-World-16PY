@@ -44,12 +44,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6363,   1, 'Fine Shadow Atlan Claw') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6363,   1,   33556316) /* Setup */
-     , (6363,   3,  536870932) /* SoundTable */
-     , (6363,   6,   67111919) /* PaletteBase */
-     , (6363,   7,  268435895) /* ClothingBase */
-     , (6363,   8,  100670533) /* Icon */
-     , (6363,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6363,   1, 0x0200075C) /* Setup */
+     , (6363,   3, 0x20000014) /* SoundTable */
+     , (6363,   6, 0x04000BEF) /* PaletteBase */
+     , (6363,   7, 0x100001B7) /* ClothingBase */
+     , (6363,   8, 0x06001C45) /* Icon */
+     , (6363,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6363,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

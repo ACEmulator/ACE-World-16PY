@@ -23,7 +23,7 @@ VALUES (4663,   1, 'Blade of the Desert') /* Name */
      , (4663,  16, 'The Blade of the Desert') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4663,   1,   33555909) /* Setup */
-     , (4663,   6,   67111860) /* PaletteBase */
-     , (4663,   7,  268435818) /* ClothingBase */
-     , (4663,   8,  100668115) /* Icon */;
+VALUES (4663,   1, 0x020005C5) /* Setup */
+     , (4663,   6, 0x04000BB4) /* PaletteBase */
+     , (4663,   7, 0x1000016A) /* ClothingBase */
+     , (4663,   8, 0x060012D3) /* Icon */;

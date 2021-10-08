@@ -64,11 +64,11 @@ VALUES (20021,   1, 'Martine') /* Name */
      , (20021,   5, 'Enchanter') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20021,   1,   33554433) /* Setup */
-     , (20021,   2,  150994945) /* MotionTable */
-     , (20021,   3,  536870913) /* SoundTable */
-     , (20021,   4,  805306368) /* CombatTable */
-     , (20021,   8,  100667446) /* Icon */
+VALUES (20021,   1, 0x02000001) /* Setup */
+     , (20021,   2, 0x09000001) /* MotionTable */
+     , (20021,   3, 0x20000001) /* SoundTable */
+     , (20021,   4, 0x30000000) /* CombatTable */
+     , (20021,   8, 0x06001036) /* Icon */
      , (20021,  31,       4203) /* LinkedPortalOne - Walled Portals */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -45,12 +45,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7460,   1, 'Peerless Atlan Spear of Black Fire') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7460,   1,   33557406) /* Setup */
-     , (7460,   3,  536870932) /* SoundTable */
-     , (7460,   6,   67111919) /* PaletteBase */
-     , (7460,   7,  268435909) /* ClothingBase */
-     , (7460,   8,  100670553) /* Icon */
-     , (7460,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7460,   1, 0x02000B9E) /* Setup */
+     , (7460,   3, 0x20000014) /* SoundTable */
+     , (7460,   6, 0x04000BEF) /* PaletteBase */
+     , (7460,   7, 0x100001C5) /* ClothingBase */
+     , (7460,   8, 0x06001C59) /* Icon */
+     , (7460,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7460,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

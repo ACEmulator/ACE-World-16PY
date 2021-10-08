@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30687,   1, 'Withered Revered Tumerok Shaman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30687,   1,   33559217) /* Setup */
-     , (30687,   2,  150994954) /* MotionTable */
-     , (30687,   3,  536870931) /* SoundTable */
-     , (30687,   4,  805306380) /* CombatTable */
-     , (30687,   6,   67109314) /* PaletteBase */
-     , (30687,   7,  268436899) /* ClothingBase */
-     , (30687,   8,  100667452) /* Icon */
-     , (30687,  22,  872415270) /* PhysicsEffectTable */
+VALUES (30687,   1, 0x020012B1) /* Setup */
+     , (30687,   2, 0x0900000A) /* MotionTable */
+     , (30687,   3, 0x20000013) /* SoundTable */
+     , (30687,   4, 0x3000000C) /* CombatTable */
+     , (30687,   6, 0x040001C2) /* PaletteBase */
+     , (30687,   7, 0x100005A3) /* ClothingBase */
+     , (30687,   8, 0x0600103C) /* Icon */
+     , (30687,  22, 0x34000026) /* PhysicsEffectTable */
      , (30687,  32,        490) /* WieldedTreasureType - 
                                    Wield Tachi (23136) | Probability: 30.000002%
                                    Wield Yumi (23137) | Probability: 30.000002%

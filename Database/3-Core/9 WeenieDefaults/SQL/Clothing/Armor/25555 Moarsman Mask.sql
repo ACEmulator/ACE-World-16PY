@@ -39,9 +39,9 @@ VALUES (25555,   1, 'Moarsman Mask') /* Name */
      , (25555,  16, 'A finely sewed and maintained Moarsman head, patched with utmost precision, and conveniently fitted for use.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25555,   1,   33556823) /* Setup */
-     , (25555,   3,  536870932) /* SoundTable */
-     , (25555,   6,   67108990) /* PaletteBase */
-     , (25555,   7,  268436684) /* ClothingBase */
-     , (25555,   8,  100674947) /* Icon */
-     , (25555,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25555,   1, 0x02000957) /* Setup */
+     , (25555,   3, 0x20000014) /* SoundTable */
+     , (25555,   6, 0x0400007E) /* PaletteBase */
+     , (25555,   7, 0x100004CC) /* ClothingBase */
+     , (25555,   8, 0x06002D83) /* Icon */
+     , (25555,  22, 0x3400002B) /* PhysicsEffectTable */;

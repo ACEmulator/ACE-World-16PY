@@ -62,11 +62,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8913,   1, 'Essence of Strife') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8913,   1,   33556955) /* Setup */
-     , (8913,   2,  150995087) /* MotionTable */
-     , (8913,   3,  536870985) /* SoundTable */
-     , (8913,   4,  805306368) /* CombatTable */
-     , (8913,   8,  100671332) /* Icon */;
+VALUES (8913,   1, 0x020009DB) /* Setup */
+     , (8913,   2, 0x0900008F) /* MotionTable */
+     , (8913,   3, 0x20000049) /* SoundTable */
+     , (8913,   4, 0x30000000) /* CombatTable */
+     , (8913,   8, 0x06001F64) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8913,   1, 200, 0, 0) /* Strength */

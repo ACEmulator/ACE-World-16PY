@@ -36,10 +36,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12076,   1, 'Bandit Rapier') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12076,   1,   33556588) /* Setup */
-     , (12076,   3,  536870932) /* SoundTable */
-     , (12076,   6,   67111919) /* PaletteBase */
-     , (12076,   7,  268435997) /* ClothingBase */
-     , (12076,   8,  100670656) /* Icon */
-     , (12076,  22,  872415275) /* PhysicsEffectTable */
-     , (12076,  36,  234881044) /* MutateFilter */;
+VALUES (12076,   1, 0x0200086C) /* Setup */
+     , (12076,   3, 0x20000014) /* SoundTable */
+     , (12076,   6, 0x04000BEF) /* PaletteBase */
+     , (12076,   7, 0x1000021D) /* ClothingBase */
+     , (12076,   8, 0x06001CC0) /* Icon */
+     , (12076,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (12076,  36, 0x0E000014) /* MutateFilter */;

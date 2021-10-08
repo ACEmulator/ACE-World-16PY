@@ -44,9 +44,9 @@ VALUES (8253,   1, 'Jack o'' Lantern') /* Name */
      , (8253,  15, 'A reasonably crafted jack o'' lantern, made with a carving knife.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8253,   1,   33556809) /* Setup */
-     , (8253,   3,  536870932) /* SoundTable */
-     , (8253,   6,   67112968) /* PaletteBase */
-     , (8253,   7,  268436046) /* ClothingBase */
-     , (8253,   8,  100671017) /* Icon */
-     , (8253,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8253,   1, 0x02000949) /* Setup */
+     , (8253,   3, 0x20000014) /* SoundTable */
+     , (8253,   6, 0x04001008) /* PaletteBase */
+     , (8253,   7, 0x1000024E) /* ClothingBase */
+     , (8253,   8, 0x06001E29) /* Icon */
+     , (8253,  22, 0x3400002B) /* PhysicsEffectTable */;

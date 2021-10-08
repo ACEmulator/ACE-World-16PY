@@ -25,9 +25,9 @@ VALUES (7595,   1, 'Refined Low-Grade Chorizite') /* Name */
      , (7595,  16, 'A refined chunk of low-grade chorizite.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7595,   1,   33554817) /* Setup */
-     , (7595,   3,  536870932) /* SoundTable */
-     , (7595,   6,   67111919) /* PaletteBase */
-     , (7595,   7,  268435832) /* ClothingBase */
-     , (7595,   8,  100670770) /* Icon */
-     , (7595,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7595,   1, 0x02000181) /* Setup */
+     , (7595,   3, 0x20000014) /* SoundTable */
+     , (7595,   6, 0x04000BEF) /* PaletteBase */
+     , (7595,   7, 0x10000178) /* ClothingBase */
+     , (7595,   8, 0x06001D32) /* Icon */
+     , (7595,  22, 0x3400002B) /* PhysicsEffectTable */;

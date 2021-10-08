@@ -61,14 +61,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (943,   1, 'Mite Scion') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (943,   1,   33558656) /* Setup */
-     , (943,   2,  150994955) /* MotionTable */
-     , (943,   3,  536870923) /* SoundTable */
-     , (943,   4,  805306384) /* CombatTable */
-     , (943,   6,   67115137) /* PaletteBase */
-     , (943,   7,  268436816) /* ClothingBase */
-     , (943,   8,  100667448) /* Icon */
-     , (943,  22,  872415263) /* PhysicsEffectTable */
+VALUES (943,   1, 0x02001080) /* Setup */
+     , (943,   2, 0x0900000B) /* MotionTable */
+     , (943,   3, 0x2000000B) /* SoundTable */
+     , (943,   4, 0x30000010) /* CombatTable */
+     , (943,   6, 0x04001881) /* PaletteBase */
+     , (943,   7, 0x10000550) /* ClothingBase */
+     , (943,   8, 0x06001038) /* Icon */
+     , (943,  22, 0x3400001F) /* PhysicsEffectTable */
      , (943,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

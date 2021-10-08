@@ -33,9 +33,9 @@ VALUES (9098,   1, 'Vial of Organic Acid') /* Name */
      , (9098,  33, 'Feb01CLQuest5') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9098,   1,   33556964) /* Setup */
-     , (9098,   3,  536870932) /* SoundTable */
-     , (9098,   6,   67111919) /* PaletteBase */
-     , (9098,   7,  268435815) /* ClothingBase */
-     , (9098,   8,  100671366) /* Icon */
-     , (9098,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9098,   1, 0x020009E4) /* Setup */
+     , (9098,   3, 0x20000014) /* SoundTable */
+     , (9098,   6, 0x04000BEF) /* PaletteBase */
+     , (9098,   7, 0x10000167) /* ClothingBase */
+     , (9098,   8, 0x06001F86) /* Icon */
+     , (9098,  22, 0x3400002B) /* PhysicsEffectTable */;

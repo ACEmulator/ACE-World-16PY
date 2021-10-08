@@ -28,7 +28,7 @@ VALUES (28169,   1, 'Sable Gromnie Tooth Brush') /* Name */
      , (28169,  16, 'A brush made from the tooth of a sable gromnie.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28169,   1,   33554817) /* Setup */
-     , (28169,   6,   67111919) /* PaletteBase */
-     , (28169,   7,  268435832) /* ClothingBase */
-     , (28169,   8,  100676776) /* Icon */;
+VALUES (28169,   1, 0x02000181) /* Setup */
+     , (28169,   6, 0x04000BEF) /* PaletteBase */
+     , (28169,   7, 0x10000178) /* ClothingBase */
+     , (28169,   8, 0x060034A8) /* Icon */;

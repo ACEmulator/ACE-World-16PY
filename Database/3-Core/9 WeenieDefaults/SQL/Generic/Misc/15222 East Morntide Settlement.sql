@@ -22,5 +22,5 @@ VALUES (15222,   1, 'East Morntide Settlement') /* Name */
      , (15222,  16, 'Welcome to East Morntide Settlement') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15222,   1,   33557463) /* Setup */
-     , (15222,   8,  100668115) /* Icon */;
+VALUES (15222,   1, 0x02000BD7) /* Setup */
+     , (15222,   8, 0x060012D3) /* Icon */;

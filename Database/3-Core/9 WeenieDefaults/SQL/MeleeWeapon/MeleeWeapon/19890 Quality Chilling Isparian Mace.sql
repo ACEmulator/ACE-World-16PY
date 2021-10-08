@@ -49,12 +49,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19890,   1, 'Quality Chilling Isparian Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19890,   1,   33556324) /* Setup */
-     , (19890,   3,  536870932) /* SoundTable */
-     , (19890,   6,   67111919) /* PaletteBase */
-     , (19890,   7,  268436382) /* ClothingBase */
-     , (19890,   8,  100672914) /* Icon */
-     , (19890,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19890,   1, 0x02000764) /* Setup */
+     , (19890,   3, 0x20000014) /* SoundTable */
+     , (19890,   6, 0x04000BEF) /* PaletteBase */
+     , (19890,   7, 0x1000039E) /* ClothingBase */
+     , (19890,   8, 0x06002592) /* Icon */
+     , (19890,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19890,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

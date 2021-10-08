@@ -22,5 +22,5 @@ VALUES (19172,   1, 'Explorer''s Villas') /* Name */
      , (19172,  16, 'Welcome to Explorer''s Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19172,   1,   33557463) /* Setup */
-     , (19172,   8,  100668115) /* Icon */;
+VALUES (19172,   1, 0x02000BD7) /* Setup */
+     , (19172,   8, 0x060012D3) /* Icon */;

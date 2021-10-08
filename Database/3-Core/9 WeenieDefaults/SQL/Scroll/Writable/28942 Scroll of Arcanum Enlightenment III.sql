@@ -24,7 +24,7 @@ VALUES (28942,   1, 'Scroll of Arcanum Enlightenment III') /* Name */
      , (28942,  15, 'A scroll imbued with the power of the spell Scroll of Arcanum Enlightenment III.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28942,   1,   33554826) /* Setup */
-     , (28942,   8,  100676477) /* Icon */
-     , (28942,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28942,   1, 0x0200018A) /* Setup */
+     , (28942,   8, 0x0600337D) /* Icon */
+     , (28942,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28942,  28,       3508) /* Spell - Arcanum Enlightenment III */;

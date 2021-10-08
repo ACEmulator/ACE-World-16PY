@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27458,   1, 'Elite Guard') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27458,   1,   33557003) /* Setup */
-     , (27458,   2,  150994950) /* MotionTable */
-     , (27458,   3,  536870922) /* SoundTable */
-     , (27458,   4,  805306371) /* CombatTable */
-     , (27458,   6,   67113158) /* PaletteBase */
-     , (27458,   7,  268436795) /* ClothingBase */
-     , (27458,   8,  100667447) /* Icon */
-     , (27458,  22,  872415262) /* PhysicsEffectTable */
+VALUES (27458,   1, 0x02000A0B) /* Setup */
+     , (27458,   2, 0x09000006) /* MotionTable */
+     , (27458,   3, 0x2000000A) /* SoundTable */
+     , (27458,   4, 0x30000003) /* CombatTable */
+     , (27458,   6, 0x040010C6) /* PaletteBase */
+     , (27458,   7, 0x1000053B) /* ClothingBase */
+     , (27458,   8, 0x06001037) /* Icon */
+     , (27458,  22, 0x3400001E) /* PhysicsEffectTable */
      , (27458,  32,        445) /* WieldedTreasureType - 
                                    Wield Rock (23744) | Probability: 90%
                                    Wield Rock (23745) | Probability: 10%

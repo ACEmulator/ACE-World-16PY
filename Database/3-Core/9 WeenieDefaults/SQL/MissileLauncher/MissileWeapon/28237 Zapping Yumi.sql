@@ -42,11 +42,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28237,   1, 'Zapping Yumi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28237,   1,   33559031) /* Setup */
-     , (28237,   3,  536870932) /* SoundTable */
-     , (28237,   6,   67115373) /* PaletteBase */
-     , (28237,   7,  268436873) /* ClothingBase */
-     , (28237,   8,  100668815) /* Icon */
-     , (28237,  22,  872415275) /* PhysicsEffectTable */
-     , (28237,  36,  234881053) /* MutateFilter */
-     , (28237,  46,  939524104) /* TsysMutationFilter */;
+VALUES (28237,   1, 0x020011F7) /* Setup */
+     , (28237,   3, 0x20000014) /* SoundTable */
+     , (28237,   6, 0x0400196D) /* PaletteBase */
+     , (28237,   7, 0x10000589) /* ClothingBase */
+     , (28237,   8, 0x0600158F) /* Icon */
+     , (28237,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (28237,  36, 0x0E00001D) /* MutateFilter */
+     , (28237,  46, 0x38000008) /* TsysMutationFilter */;

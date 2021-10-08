@@ -30,9 +30,9 @@ VALUES (8646,   1, 'Minalim Plant') /* Name */
      , (8646,  20, 'Minalim Plants') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8646,   1,   33556750) /* Setup */
-     , (8646,   3,  536870932) /* SoundTable */
-     , (8646,   6,   67111919) /* PaletteBase */
-     , (8646,   7,  268436033) /* ClothingBase */
-     , (8646,   8,  100670767) /* Icon */
-     , (8646,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8646,   1, 0x0200090E) /* Setup */
+     , (8646,   3, 0x20000014) /* SoundTable */
+     , (8646,   6, 0x04000BEF) /* PaletteBase */
+     , (8646,   7, 0x10000241) /* ClothingBase */
+     , (8646,   8, 0x06001D2F) /* Icon */
+     , (8646,  22, 0x3400002B) /* PhysicsEffectTable */;

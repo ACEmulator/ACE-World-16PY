@@ -25,7 +25,7 @@ VALUES (1879,   1, 'Scroll of Brittlemail') /* Name */
      , (1879,  16, 'When learned, this spell worsens a shield or piece of armor''s armor value by 20 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1879,   1,   33554826) /* Setup */
-     , (1879,   8,  100676657) /* Icon */
-     , (1879,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1879,   1, 0x0200018A) /* Setup */
+     , (1879,   8, 0x06003431) /* Icon */
+     , (1879,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1879,  28,       1487) /* Spell - Brittlemail I */;

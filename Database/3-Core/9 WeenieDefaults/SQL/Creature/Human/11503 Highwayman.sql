@@ -60,12 +60,12 @@ VALUES (11503,   1, 'Highwayman') /* Name */
      , (11503,   4, 'Sho') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11503,   1,   33554433) /* Setup */
-     , (11503,   2,  150994945) /* MotionTable */
-     , (11503,   3,  536870913) /* SoundTable */
-     , (11503,   4,  805306368) /* CombatTable */
-     , (11503,   8,  100667446) /* Icon */
-     , (11503,  22,  872415236) /* PhysicsEffectTable */
+VALUES (11503,   1, 0x02000001) /* Setup */
+     , (11503,   2, 0x09000001) /* MotionTable */
+     , (11503,   3, 0x20000001) /* SoundTable */
+     , (11503,   4, 0x30000000) /* CombatTable */
+     , (11503,   8, 0x06001036) /* Icon */
+     , (11503,  22, 0x34000004) /* PhysicsEffectTable */
      , (11503,  32,        364) /* WieldedTreasureType - 
                                    Wield Boots (2606) | Probability: 40%
                                    Wield Leather Boots (115) | Probability: 30.000002%

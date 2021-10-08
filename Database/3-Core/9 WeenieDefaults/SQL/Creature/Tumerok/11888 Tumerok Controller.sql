@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11888,   1, 'Tumerok Controller') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11888,   1,   33554496) /* Setup */
-     , (11888,   2,  150994954) /* MotionTable */
-     , (11888,   3,  536870931) /* SoundTable */
-     , (11888,   4,  805306380) /* CombatTable */
-     , (11888,   6,   67109314) /* PaletteBase */
-     , (11888,   7,  268435647) /* ClothingBase */
-     , (11888,   8,  100667452) /* Icon */
-     , (11888,  22,  872415270) /* PhysicsEffectTable */
+VALUES (11888,   1, 0x02000040) /* Setup */
+     , (11888,   2, 0x0900000A) /* MotionTable */
+     , (11888,   3, 0x20000013) /* SoundTable */
+     , (11888,   4, 0x3000000C) /* CombatTable */
+     , (11888,   6, 0x040001C2) /* PaletteBase */
+     , (11888,   7, 0x100000BF) /* ClothingBase */
+     , (11888,   8, 0x0600103C) /* Icon */
+     , (11888,  22, 0x34000026) /* PhysicsEffectTable */
      , (11888,  32,        369) /* WieldedTreasureType - 
                                    Wield Hafted Reedshark Spear (11754) | Probability: 80%
                                    Wield Reinforced Reedshark Spear (11780) | Probability: 20% */

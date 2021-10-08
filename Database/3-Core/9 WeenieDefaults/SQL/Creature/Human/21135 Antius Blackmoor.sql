@@ -64,11 +64,11 @@ VALUES (21135,   1, 'Antius Blackmoor') /* Name */
      , (21135,   5, 'Sword Scholar') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21135,   1,   33554433) /* Setup */
-     , (21135,   2,  150994945) /* MotionTable */
-     , (21135,   3,  536870913) /* SoundTable */
-     , (21135,   4,  805306368) /* CombatTable */
-     , (21135,   8,  100667446) /* Icon */;
+VALUES (21135,   1, 0x02000001) /* Setup */
+     , (21135,   2, 0x09000001) /* MotionTable */
+     , (21135,   3, 0x20000001) /* SoundTable */
+     , (21135,   4, 0x30000000) /* CombatTable */
+     , (21135,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (21135,   1, 220, 0, 0) /* Strength */

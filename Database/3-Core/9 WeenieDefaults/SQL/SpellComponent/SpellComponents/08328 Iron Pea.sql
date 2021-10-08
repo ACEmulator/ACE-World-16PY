@@ -31,10 +31,10 @@ VALUES (8328,   1, 'Iron Pea') /* Name */
      , (8328,  16, 'A concentrated iron pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8328,   1,   33555211) /* Setup */
-     , (8328,   3,  536870932) /* SoundTable */
-     , (8328,   6,   67111919) /* PaletteBase */
-     , (8328,   7,  268435721) /* ClothingBase */
-     , (8328,   8,  100671082) /* Icon */
-     , (8328,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8328,   1, 0x0200030B) /* Setup */
+     , (8328,   3, 0x20000014) /* SoundTable */
+     , (8328,   6, 0x04000BEF) /* PaletteBase */
+     , (8328,   7, 0x10000109) /* ClothingBase */
+     , (8328,   8, 0x06001E6A) /* Icon */
+     , (8328,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8328,  29,        114) /* SpellComponent */;

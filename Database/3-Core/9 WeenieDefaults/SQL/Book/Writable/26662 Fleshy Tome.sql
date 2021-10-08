@@ -26,11 +26,11 @@ VALUES (26662,   1, 'Fleshy Tome') /* Name */
      , (26662,  33, 'JournalIxirPickedUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26662,   1,   33558620) /* Setup */
-     , (26662,   3,  536870932) /* SoundTable */
-     , (26662,   6,   67114958) /* PaletteBase */
-     , (26662,   8,  100675782) /* Icon */
-     , (26662,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (26662,   1, 0x0200105C) /* Setup */
+     , (26662,   3, 0x20000014) /* SoundTable */
+     , (26662,   6, 0x040017CE) /* PaletteBase */
+     , (26662,   8, 0x060030C6) /* Icon */
+     , (26662,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (26662, 1, 1000);

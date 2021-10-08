@@ -38,10 +38,10 @@ VALUES (23097,   1, 'Swarthy Mattekar Robe') /* Name */
      , (23097,  15, 'Rare, lightweight, extremely warm robe crafted from the hide of the vile Swarthy Mattekar, rumored only to appear under certain conditions.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23097,   1,   33554854) /* Setup */
-     , (23097,   3,  536870932) /* SoundTable */
-     , (23097,   6,   67108990) /* PaletteBase */
-     , (23097,   7,  268436245) /* ClothingBase */
-     , (23097,   8,  100667351) /* Icon */
-     , (23097,  22,  872415275) /* PhysicsEffectTable */
-     , (23097,  36,  234881046) /* MutateFilter */;
+VALUES (23097,   1, 0x020001A6) /* Setup */
+     , (23097,   3, 0x20000014) /* SoundTable */
+     , (23097,   6, 0x0400007E) /* PaletteBase */
+     , (23097,   7, 0x10000315) /* ClothingBase */
+     , (23097,   8, 0x06000FD7) /* Icon */
+     , (23097,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (23097,  36, 0x0E000016) /* MutateFilter */;

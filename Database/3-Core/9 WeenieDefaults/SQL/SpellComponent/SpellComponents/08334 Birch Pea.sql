@@ -31,10 +31,10 @@ VALUES (8334,   1, 'Birch Pea') /* Name */
      , (8334,  16, 'A concentrated birch pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8334,   1,   33555207) /* Setup */
-     , (8334,   3,  536870932) /* SoundTable */
-     , (8334,   6,   67111919) /* PaletteBase */
-     , (8334,   7,  268435722) /* ClothingBase */
-     , (8334,   8,  100671097) /* Icon */
-     , (8334,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8334,   1, 0x02000307) /* Setup */
+     , (8334,   3, 0x20000014) /* SoundTable */
+     , (8334,   6, 0x04000BEF) /* PaletteBase */
+     , (8334,   7, 0x1000010A) /* ClothingBase */
+     , (8334,   8, 0x06001E79) /* Icon */
+     , (8334,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8334,  29,        167) /* SpellComponent */;

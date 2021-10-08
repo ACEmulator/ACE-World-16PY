@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13127,   1, 'Shou-Zin Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13127,   1,   33554867) /* Setup */
-     , (13127,   2,  150994947) /* MotionTable */
-     , (13127,   8,  100667499) /* Icon */;
+VALUES (13127,   1, 0x020001B3) /* Setup */
+     , (13127,   2, 0x09000003) /* MotionTable */
+     , (13127,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (13127, 2, 0xD5510005, 21.679, 117.313, 46.453, -0.078789, 0, -0, -0.996891) /* Destination */

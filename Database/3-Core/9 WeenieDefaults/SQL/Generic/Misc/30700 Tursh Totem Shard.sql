@@ -25,7 +25,7 @@ VALUES (30700,   1, 'Tursh Totem Shard') /* Name */
      , (30700,  33, 'ShardTurshTotemAssaultLowAcquired0105') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30700,   1,   33554769) /* Setup */
-     , (30700,   3,  536870932) /* SoundTable */
-     , (30700,   8,  100677383) /* Icon */
-     , (30700,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30700,   1, 0x02000151) /* Setup */
+     , (30700,   3, 0x20000014) /* SoundTable */
+     , (30700,   8, 0x06003707) /* Icon */
+     , (30700,  22, 0x3400002B) /* PhysicsEffectTable */;

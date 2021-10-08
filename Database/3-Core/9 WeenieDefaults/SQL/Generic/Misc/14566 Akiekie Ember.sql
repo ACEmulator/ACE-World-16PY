@@ -25,5 +25,5 @@ VALUES (14566,   1, 'Akiekie Ember') /* Name */
      , (14566,  37, 'PortalSpacePermissionGiven') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14566,   1,   33557505) /* Setup */
-     , (14566,   8,  100672488) /* Icon */;
+VALUES (14566,   1, 0x02000C01) /* Setup */
+     , (14566,   8, 0x060023E8) /* Icon */;

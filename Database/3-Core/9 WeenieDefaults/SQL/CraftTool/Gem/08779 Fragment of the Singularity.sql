@@ -36,10 +36,10 @@ VALUES (8779,   1, 'Fragment of the Singularity') /* Name */
      , (8779,  33, 'HopeslayerSingularity') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8779,   1,   33556925) /* Setup */
-     , (8779,   3,  536870932) /* SoundTable */
-     , (8779,   6,   67111919) /* PaletteBase */
-     , (8779,   7,  268435723) /* ClothingBase */
-     , (8779,   8,  100671222) /* Icon */
-     , (8779,  22,  872415275) /* PhysicsEffectTable */
-     , (8779,  36,  234881046) /* MutateFilter */;
+VALUES (8779,   1, 0x020009BD) /* Setup */
+     , (8779,   3, 0x20000014) /* SoundTable */
+     , (8779,   6, 0x04000BEF) /* PaletteBase */
+     , (8779,   7, 0x1000010B) /* ClothingBase */
+     , (8779,   8, 0x06001EF6) /* Icon */
+     , (8779,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8779,  36, 0x0E000016) /* MutateFilter */;

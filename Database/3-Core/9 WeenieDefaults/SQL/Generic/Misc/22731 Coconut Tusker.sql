@@ -26,9 +26,9 @@ VALUES (22731,   1, 'Coconut Tusker') /* Name */
      , (22731,  15, 'A carved coconut that looks like a tusker.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22731,   1,   33558136) /* Setup */
-     , (22731,   3,  536870932) /* SoundTable */
-     , (22731,   6,   67111928) /* PaletteBase */
-     , (22731,   7,  268435751) /* ClothingBase */
-     , (22731,   8,  100673879) /* Icon */
-     , (22731,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22731,   1, 0x02000E78) /* Setup */
+     , (22731,   3, 0x20000014) /* SoundTable */
+     , (22731,   6, 0x04000BF8) /* PaletteBase */
+     , (22731,   7, 0x10000127) /* ClothingBase */
+     , (22731,   8, 0x06002957) /* Icon */
+     , (22731,  22, 0x3400002B) /* PhysicsEffectTable */;

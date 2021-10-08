@@ -29,10 +29,10 @@ VALUES (24349,   1, 'Olthoi Cistern') /* Name */
      , (24349,  17, 'Something slimy grips your hand and then quickly releases it.') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24349,   1,   33557286) /* Setup */
-     , (24349,   2,  150995240) /* MotionTable */
-     , (24349,   8,  100674304) /* Icon */
-     , (24349,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24349,   1, 0x02000B26) /* Setup */
+     , (24349,   2, 0x09000128) /* MotionTable */
+     , (24349,   8, 0x06002B00) /* Icon */
+     , (24349,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (24349,  16, 0x00000000) /* ActivationTarget */;

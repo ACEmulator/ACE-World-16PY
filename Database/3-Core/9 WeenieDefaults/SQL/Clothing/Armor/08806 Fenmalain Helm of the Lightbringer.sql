@@ -43,9 +43,9 @@ VALUES (8806,   1, 'Fenmalain Helm of the Lightbringer') /* Name */
      , (8806,  15, 'A trophy from the banishment of Bael''Zharon.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8806,   1,   33556941) /* Setup */
-     , (8806,   3,  536870932) /* SoundTable */
-     , (8806,   6,   67108990) /* PaletteBase */
-     , (8806,   7,  268436105) /* ClothingBase */
-     , (8806,   8,  100671289) /* Icon */
-     , (8806,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8806,   1, 0x020009CD) /* Setup */
+     , (8806,   3, 0x20000014) /* SoundTable */
+     , (8806,   6, 0x0400007E) /* PaletteBase */
+     , (8806,   7, 0x10000289) /* ClothingBase */
+     , (8806,   8, 0x06001F39) /* Icon */
+     , (8806,  22, 0x3400002B) /* PhysicsEffectTable */;

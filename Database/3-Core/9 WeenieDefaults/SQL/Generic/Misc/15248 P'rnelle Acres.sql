@@ -22,5 +22,5 @@ VALUES (15248,   1, 'P''rnelle Acres') /* Name */
      , (15248,  16, 'Welcome to P''rnelle Acres') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15248,   1,   33557463) /* Setup */
-     , (15248,   8,  100668115) /* Icon */;
+VALUES (15248,   1, 0x02000BD7) /* Setup */
+     , (15248,   8, 0x060012D3) /* Icon */;

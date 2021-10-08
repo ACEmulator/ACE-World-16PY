@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25849,   1, 'Atakir, the Dark Prince') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25849,   1,   33555610) /* Setup */
-     , (25849,   2,  150995049) /* MotionTable */
-     , (25849,   3,  536870975) /* SoundTable */
-     , (25849,   4,  805306396) /* CombatTable */
-     , (25849,   6,   67109305) /* PaletteBase */
-     , (25849,   7,  268436729) /* ClothingBase */
-     , (25849,   8,  100669123) /* Icon */
-     , (25849,  22,  872415279) /* PhysicsEffectTable */
+VALUES (25849,   1, 0x0200049A) /* Setup */
+     , (25849,   2, 0x09000069) /* MotionTable */
+     , (25849,   3, 0x2000003F) /* SoundTable */
+     , (25849,   4, 0x3000001C) /* CombatTable */
+     , (25849,   6, 0x040001B9) /* PaletteBase */
+     , (25849,   7, 0x100004F9) /* ClothingBase */
+     , (25849,   8, 0x060016C3) /* Icon */
+     , (25849,  22, 0x3400002F) /* PhysicsEffectTable */
      , (25849,  35,         32) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

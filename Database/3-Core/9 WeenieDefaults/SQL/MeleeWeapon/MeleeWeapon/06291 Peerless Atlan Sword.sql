@@ -39,9 +39,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6291,   1, 'Peerless Atlan Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6291,   1,   33556262) /* Setup */
-     , (6291,   3,  536870932) /* SoundTable */
-     , (6291,   6,   67111919) /* PaletteBase */
-     , (6291,   7,  268435874) /* ClothingBase */
-     , (6291,   8,  100670569) /* Icon */
-     , (6291,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6291,   1, 0x02000726) /* Setup */
+     , (6291,   3, 0x20000014) /* SoundTable */
+     , (6291,   6, 0x04000BEF) /* PaletteBase */
+     , (6291,   7, 0x100001A2) /* ClothingBase */
+     , (6291,   8, 0x06001C69) /* Icon */
+     , (6291,  22, 0x3400002B) /* PhysicsEffectTable */;

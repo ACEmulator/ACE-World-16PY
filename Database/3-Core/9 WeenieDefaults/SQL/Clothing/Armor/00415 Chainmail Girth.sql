@@ -37,11 +37,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (415,   1, 'Chainmail Girth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (415,   1,   33554647) /* Setup */
-     , (415,   3,  536870932) /* SoundTable */
-     , (415,   6,   67108990) /* PaletteBase */
-     , (415,   7,  268435521) /* ClothingBase */
-     , (415,   8,  100668142) /* Icon */
-     , (415,  22,  872415275) /* PhysicsEffectTable */
-     , (415,  36,  234881042) /* MutateFilter */
-     , (415,  46,  939524146) /* TsysMutationFilter */;
+VALUES (415,   1, 0x020000D7) /* Setup */
+     , (415,   3, 0x20000014) /* SoundTable */
+     , (415,   6, 0x0400007E) /* PaletteBase */
+     , (415,   7, 0x10000041) /* ClothingBase */
+     , (415,   8, 0x060012EE) /* Icon */
+     , (415,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (415,  36, 0x0E000012) /* MutateFilter */
+     , (415,  46, 0x38000032) /* TsysMutationFilter */;

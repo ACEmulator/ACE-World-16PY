@@ -22,7 +22,7 @@ VALUES (851,   1, 'Brush and Stone') /* Name */
      , (851,  16, 'Brush and Stone') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (851,   1,   33555594) /* Setup */
-     , (851,   6,   67111782) /* PaletteBase */
-     , (851,   7,  268435692) /* ClothingBase */
-     , (851,   8,  100668115) /* Icon */;
+VALUES (851,   1, 0x0200048A) /* Setup */
+     , (851,   6, 0x04000B66) /* PaletteBase */
+     , (851,   7, 0x100000EC) /* ClothingBase */
+     , (851,   8, 0x060012D3) /* Icon */;

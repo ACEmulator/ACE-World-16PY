@@ -70,14 +70,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4124,   1, 'Lich Overseer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4124,   1,   33554839) /* Setup */
-     , (4124,   2,  150994967) /* MotionTable */
-     , (4124,   3,  536870934) /* SoundTable */
-     , (4124,   4,  805306368) /* CombatTable */
-     , (4124,   6,   67110722) /* PaletteBase */
-     , (4124,   7,  268435558) /* ClothingBase */
-     , (4124,   8,  100667942) /* Icon */
-     , (4124,  22,  872415272) /* PhysicsEffectTable */
+VALUES (4124,   1, 0x02000197) /* Setup */
+     , (4124,   2, 0x09000017) /* MotionTable */
+     , (4124,   3, 0x20000016) /* SoundTable */
+     , (4124,   4, 0x30000000) /* CombatTable */
+     , (4124,   6, 0x04000742) /* PaletteBase */
+     , (4124,   7, 0x10000066) /* ClothingBase */
+     , (4124,   8, 0x06001226) /* Icon */
+     , (4124,  22, 0x34000028) /* PhysicsEffectTable */
      , (4124,  32,        249) /* WieldedTreasureType - 
                                    Wield 4x Throwing Club (23654) | Probability: 10%
                                    Wield Yumi (23735) | Probability: 10%
@@ -100,7 +100,7 @@ VALUES (4124,   1,   33554839) /* Setup */
                                    Wield Yari (23731) | Probability: 15.000001%
                                    Wield Kite Shield (23685) | Probability: 50%
                                    Wield Tower Shield (95) | Probability: 25% */
-     , (4124,  33,        239) /* UnknownGuessedname */;
+     , (4124,  33, 0x000000EF) /* UnknownGuessedname */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4124,   1, 161, 0, 0) /* Strength */

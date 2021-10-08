@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28192,   1, 'Adolescent Ash Gromnie Eye') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28192,   1,   33554817) /* Setup */
-     , (28192,   3,  536870932) /* SoundTable */
-     , (28192,   6,   67111919) /* PaletteBase */
-     , (28192,   7,  268435720) /* ClothingBase */
-     , (28192,   8,  100676737) /* Icon */
-     , (28192,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28192,   1, 0x02000181) /* Setup */
+     , (28192,   3, 0x20000014) /* SoundTable */
+     , (28192,   6, 0x04000BEF) /* PaletteBase */
+     , (28192,   7, 0x10000108) /* ClothingBase */
+     , (28192,   8, 0x06003481) /* Icon */
+     , (28192,  22, 0x3400002B) /* PhysicsEffectTable */;

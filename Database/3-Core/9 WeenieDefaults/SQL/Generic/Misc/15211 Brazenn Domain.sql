@@ -22,5 +22,5 @@ VALUES (15211,   1, 'Brazenn Domain') /* Name */
      , (15211,  16, 'Welcome to Brazenn Domain') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15211,   1,   33557463) /* Setup */
-     , (15211,   8,  100668115) /* Icon */;
+VALUES (15211,   1, 0x02000BD7) /* Setup */
+     , (15211,   8, 0x060012D3) /* Icon */;

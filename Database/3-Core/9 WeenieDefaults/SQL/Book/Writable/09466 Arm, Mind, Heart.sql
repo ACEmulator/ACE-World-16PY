@@ -25,10 +25,10 @@ VALUES (9466,   1, 'Arm, Mind, Heart') /* Name */
      , (9466,  16, 'Strength.  Focus.  Purity.  These words are the lodestones for our people.  They guide us from the womb to the soil.  ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9466,   1,   33554771) /* Setup */
-     , (9466,   3,  536870932) /* SoundTable */
-     , (9466,   8,  100668117) /* Icon */
-     , (9466,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9466,   1, 0x02000153) /* Setup */
+     , (9466,   3, 0x20000014) /* SoundTable */
+     , (9466,   8, 0x060012D5) /* Icon */
+     , (9466,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (9466, 5, 1000);

@@ -36,10 +36,10 @@ VALUES (25703,   1, 'Dapper Suit') /* Name */
      , (25703,  15, 'A suit designed by the Gharu''ndim tailor, Xuut. The fibers of the suit look as though they could withstand the dyeing process.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25703,   1,   33554854) /* Setup */
-     , (25703,   3,  536870932) /* SoundTable */
-     , (25703,   6,   67108990) /* PaletteBase */
-     , (25703,   7,  268436721) /* ClothingBase */
-     , (25703,   8,  100670367) /* Icon */
-     , (25703,  22,  872415275) /* PhysicsEffectTable */
-     , (25703,  36,  234881046) /* MutateFilter */;
+VALUES (25703,   1, 0x020001A6) /* Setup */
+     , (25703,   3, 0x20000014) /* SoundTable */
+     , (25703,   6, 0x0400007E) /* PaletteBase */
+     , (25703,   7, 0x100004F1) /* ClothingBase */
+     , (25703,   8, 0x06001B9F) /* Icon */
+     , (25703,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (25703,  36, 0x0E000016) /* MutateFilter */;

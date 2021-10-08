@@ -64,11 +64,11 @@ VALUES (24068,   1, 'Mage Syltyn Rillon') /* Name */
      , (24068,   5, 'Aluvian Female') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24068,   1,   33554510) /* Setup */
-     , (24068,   2,  150994945) /* MotionTable */
-     , (24068,   3,  536870914) /* SoundTable */
-     , (24068,   4,  805306368) /* CombatTable */
-     , (24068,   8,  100667446) /* Icon */;
+VALUES (24068,   1, 0x0200004E) /* Setup */
+     , (24068,   2, 0x09000001) /* MotionTable */
+     , (24068,   3, 0x20000002) /* SoundTable */
+     , (24068,   4, 0x30000000) /* CombatTable */
+     , (24068,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24068,   1,  85, 0, 0) /* Strength */

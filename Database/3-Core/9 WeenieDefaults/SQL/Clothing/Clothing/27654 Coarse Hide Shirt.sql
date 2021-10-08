@@ -43,13 +43,13 @@ VALUES (27654,   1, 'Coarse Hide Shirt') /* Name */
      , (27654,  16, 'This shirt has been assembled from the hides of many reedsharks and then treated with magical oils to make the shirt more comfortable and enchanted.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27654,   1,   33554883) /* Setup */
-     , (27654,   3,  536870932) /* SoundTable */
-     , (27654,   6,   67108990) /* PaletteBase */
-     , (27654,   7,  268436825) /* ClothingBase */
-     , (27654,   8,  100676511) /* Icon */
-     , (27654,  22,  872415275) /* PhysicsEffectTable */
-     , (27654,  36,  234881046) /* MutateFilter */;
+VALUES (27654,   1, 0x020001C3) /* Setup */
+     , (27654,   3, 0x20000014) /* SoundTable */
+     , (27654,   6, 0x0400007E) /* PaletteBase */
+     , (27654,   7, 0x10000559) /* ClothingBase */
+     , (27654,   8, 0x0600339F) /* Icon */
+     , (27654,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27654,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27654,  1028,      2)  /* Bludgeoning Protection Other V */

@@ -46,7 +46,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23860,   1, 'Deadly Acid Spike') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23860,   1,   33558219) /* Setup */
-     , (23860,   3,  536870932) /* SoundTable */
-     , (23860,   8,  100674046) /* Icon */
-     , (23860,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23860,   1, 0x02000ECB) /* Setup */
+     , (23860,   3, 0x20000014) /* SoundTable */
+     , (23860,   8, 0x060029FE) /* Icon */
+     , (23860,  22, 0x3400002B) /* PhysicsEffectTable */;

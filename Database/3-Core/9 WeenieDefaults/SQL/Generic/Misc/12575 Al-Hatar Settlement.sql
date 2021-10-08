@@ -22,5 +22,5 @@ VALUES (12575,   1, 'Al-Hatar Settlement') /* Name */
      , (12575,  16, 'Welcome to Al-Hatar Settlement') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12575,   1,   33557463) /* Setup */
-     , (12575,   8,  100668115) /* Icon */;
+VALUES (12575,   1, 0x02000BD7) /* Setup */
+     , (12575,   8, 0x060012D3) /* Icon */;

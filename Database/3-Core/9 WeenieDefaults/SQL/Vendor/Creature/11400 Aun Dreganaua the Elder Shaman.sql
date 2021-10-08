@@ -74,13 +74,13 @@ VALUES (11400,   1, 'Aun Dreganaua the Elder Shaman') /* Name */
      , (11400,  24, 'Timaru') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11400,   1,   33557175) /* Setup */
-     , (11400,   2,  150995136) /* MotionTable */
-     , (11400,   3,  536871030) /* SoundTable */
-     , (11400,   4,  805306380) /* CombatTable */
-     , (11400,   6,   67113280) /* PaletteBase */
-     , (11400,   7,  268436193) /* ClothingBase */
-     , (11400,   8,  100671756) /* Icon */
+VALUES (11400,   1, 0x02000AB7) /* Setup */
+     , (11400,   2, 0x090000C0) /* MotionTable */
+     , (11400,   3, 0x20000076) /* SoundTable */
+     , (11400,   4, 0x3000000C) /* CombatTable */
+     , (11400,   6, 0x04001140) /* PaletteBase */
+     , (11400,   7, 0x100002E1) /* ClothingBase */
+     , (11400,   8, 0x0600210C) /* Icon */
      , (11400,  32,        380) /* WieldedTreasureType - 
                                    Wield Buadren (11971) | Probability: 100% */;
 

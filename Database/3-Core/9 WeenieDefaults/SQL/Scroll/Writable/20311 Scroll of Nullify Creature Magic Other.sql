@@ -24,7 +24,7 @@ VALUES (20311,   1, 'Scroll of Nullify Creature Magic Other') /* Name */
      , (20311,  15, 'When learned, this spell dispels 2-6 positive Creature Magic enchantments of level 6 or lower from the target.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20311,   1,   33554826) /* Setup */
-     , (20311,   8,  100676647) /* Icon */
-     , (20311,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20311,   1, 0x0200018A) /* Setup */
+     , (20311,   8, 0x06003427) /* Icon */
+     , (20311,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20311,  28,       1914) /* Spell - Nullify Creature Magic Other */;

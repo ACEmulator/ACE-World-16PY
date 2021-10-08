@@ -47,12 +47,12 @@ VALUES (8204,   1, 'King''s Helm') /* Name */
      , (8204,  19, 'Aluvian') /* ItemHeritageGroupRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8204,   1,   33556860) /* Setup */
-     , (8204,   3,  536870932) /* SoundTable */
-     , (8204,   6,   67108990) /* PaletteBase */
-     , (8204,   7,  268436078) /* ClothingBase */
-     , (8204,   8,  100671132) /* Icon */
-     , (8204,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8204,   1, 0x0200097C) /* Setup */
+     , (8204,   3, 0x20000014) /* SoundTable */
+     , (8204,   6, 0x0400007E) /* PaletteBase */
+     , (8204,   7, 0x1000026E) /* ClothingBase */
+     , (8204,   8, 0x06001E9C) /* Icon */
+     , (8204,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8204,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

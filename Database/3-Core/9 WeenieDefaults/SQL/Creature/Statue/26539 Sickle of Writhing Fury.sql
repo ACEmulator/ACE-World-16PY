@@ -63,12 +63,12 @@ VALUES (26539,   1, 'Sickle of Writhing Fury') /* Name */
      , (26539,  15, 'This sickle is stained with the blood of hundreds. The blade is etched with runes and gives off a palpable feel of anger.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26539,   1,   33558599) /* Setup */
-     , (26539,   2,  150995273) /* MotionTable */
-     , (26539,   3,  536871052) /* SoundTable */
-     , (26539,   4,  805306398) /* CombatTable */
-     , (26539,   8,  100675777) /* Icon */
-     , (26539,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (26539,   1, 0x02001047) /* Setup */
+     , (26539,   2, 0x09000149) /* MotionTable */
+     , (26539,   3, 0x2000008C) /* SoundTable */
+     , (26539,   4, 0x3000001E) /* CombatTable */
+     , (26539,   8, 0x060030C1) /* Icon */
+     , (26539,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (26539,   1, 380, 0, 0) /* Strength */

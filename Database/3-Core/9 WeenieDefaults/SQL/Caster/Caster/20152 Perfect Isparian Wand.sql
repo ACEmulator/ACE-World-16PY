@@ -39,10 +39,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20152,   1, 'Perfect Isparian Wand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20152,   1,   33557731) /* Setup */
-     , (20152,   3,  536870932) /* SoundTable */
-     , (20152,   8,  100672990) /* Icon */
-     , (20152,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20152,   1, 0x02000CE3) /* Setup */
+     , (20152,   3, 0x20000014) /* SoundTable */
+     , (20152,   8, 0x060025DE) /* Icon */
+     , (20152,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20152,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

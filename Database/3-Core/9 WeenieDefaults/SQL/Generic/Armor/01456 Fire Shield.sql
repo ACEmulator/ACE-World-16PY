@@ -37,8 +37,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1456,   1, 'Fire Shield') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1456,   1,   33554786) /* Setup */
-     , (1456,   6,   67111459) /* PaletteBase */
-     , (1456,   7,  268435806) /* ClothingBase */
-     , (1456,   8,  100667361) /* Icon */
-     , (1456,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1456,   1, 0x02000162) /* Setup */
+     , (1456,   6, 0x04000A23) /* PaletteBase */
+     , (1456,   7, 0x1000015E) /* ClothingBase */
+     , (1456,   8, 0x06000FE1) /* Icon */
+     , (1456,  22, 0x3400002B) /* PhysicsEffectTable */;

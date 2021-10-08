@@ -32,8 +32,8 @@ VALUES (24781,   1, 'Treated Quicksilver and Henbane Crucible') /* Name */
      , (24781,  20, 'Treated Quicksilver and Henbane Crucibles') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24781,   1,   33555966) /* Setup */
-     , (24781,   3,  536870932) /* SoundTable */
-     , (24781,   8,  100674464) /* Icon */
-     , (24781,  22,  872415275) /* PhysicsEffectTable */
-     , (24781,  50,  100674414) /* IconOverlay */;
+VALUES (24781,   1, 0x020005FE) /* Setup */
+     , (24781,   3, 0x20000014) /* SoundTable */
+     , (24781,   8, 0x06002BA0) /* Icon */
+     , (24781,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24781,  50, 0x06002B6E) /* IconOverlay */;

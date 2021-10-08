@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20193,   1, 'Asheron') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20193,   1,   33556936) /* Setup */
-     , (20193,   2,  150995214) /* MotionTable */
-     , (20193,   3,  536870913) /* SoundTable */
-     , (20193,   4,  805306368) /* CombatTable */
-     , (20193,   6,   67112626) /* PaletteBase */
-     , (20193,   7,  268436402) /* ClothingBase */
-     , (20193,   8,  100673074) /* Icon */
-     , (20193,  22,  872415236) /* PhysicsEffectTable */;
+VALUES (20193,   1, 0x020009C8) /* Setup */
+     , (20193,   2, 0x0900010E) /* MotionTable */
+     , (20193,   3, 0x20000001) /* SoundTable */
+     , (20193,   4, 0x30000000) /* CombatTable */
+     , (20193,   6, 0x04000EB2) /* PaletteBase */
+     , (20193,   7, 0x100003B2) /* ClothingBase */
+     , (20193,   8, 0x06002632) /* Icon */
+     , (20193,  22, 0x34000004) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (20193,   1, 400, 0, 0) /* Strength */

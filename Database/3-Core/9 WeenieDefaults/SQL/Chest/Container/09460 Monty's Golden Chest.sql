@@ -43,13 +43,13 @@ VALUES (9460,   1, 'Monty''s Golden Chest') /* Name */
      , (9460,  16, 'A large, garish golden chest, accessible to those who have enjoyed great good fortune at Monty''s Den of Iniquity.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9460,   1,   33557027) /* Setup */
-     , (9460,   2,  150994948) /* MotionTable */
-     , (9460,   3,  536870945) /* SoundTable */
-     , (9460,   6,   67113173) /* PaletteBase */
-     , (9460,   7,  268436160) /* ClothingBase */
-     , (9460,   8,  100671480) /* Icon */
-     , (9460,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9460,   1, 0x02000A23) /* Setup */
+     , (9460,   2, 0x09000004) /* MotionTable */
+     , (9460,   3, 0x20000021) /* SoundTable */
+     , (9460,   6, 0x040010D5) /* PaletteBase */
+     , (9460,   7, 0x100002C0) /* ClothingBase */
+     , (9460,   8, 0x06001FF8) /* Icon */
+     , (9460,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (9460, 1, 349, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 6 from Death Treasure Table id: 349 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;

@@ -28,10 +28,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11722,   1, 'Acid Pit Ambush Gen!') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11722,   1,   33555536) /* Setup */
-     , (11722,   2,  150994977) /* MotionTable */
-     , (11722,   8,  100668114) /* Icon */
-     , (11722,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11722,   1, 0x02000450) /* Setup */
+     , (11722,   2, 0x09000021) /* MotionTable */
+     , (11722,   8, 0x060012D2) /* Icon */
+     , (11722,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11722,  23,        153) /* UseSound - TriggerActivated2 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)

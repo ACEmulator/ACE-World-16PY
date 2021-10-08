@@ -49,10 +49,10 @@ VALUES (21355,   1, 'Phantom Katar') /* Name */
      , (21355,  16, 'A katar with a ghostly blade crafted from pure chorizite, resistant to any enchantment. (Note: This weapon is unenchantable.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21355,   1,   33556655) /* Setup */
-     , (21355,   3,  536870932) /* SoundTable */
-     , (21355,   6,   67111919) /* PaletteBase */
-     , (21355,   7,  268435789) /* ClothingBase */
-     , (21355,   8,  100668925) /* Icon */
-     , (21355,  22,  872415275) /* PhysicsEffectTable */
-     , (21355,  36,  234881044) /* MutateFilter */;
+VALUES (21355,   1, 0x020008AF) /* Setup */
+     , (21355,   3, 0x20000014) /* SoundTable */
+     , (21355,   6, 0x04000BEF) /* PaletteBase */
+     , (21355,   7, 0x1000014D) /* ClothingBase */
+     , (21355,   8, 0x060015FD) /* Icon */
+     , (21355,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (21355,  36, 0x0E000014) /* MutateFilter */;

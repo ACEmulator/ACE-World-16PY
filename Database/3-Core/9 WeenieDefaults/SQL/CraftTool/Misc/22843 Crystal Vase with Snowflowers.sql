@@ -32,7 +32,7 @@ VALUES (22843,   1, 'Crystal Vase with Snowflowers') /* Name */
      , (22843,  15, 'A beautiful crystal vase holding a bouquet of snowflowers.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22843,   1,   33558169) /* Setup */
-     , (22843,   3,  536870932) /* SoundTable */
-     , (22843,   8,  100673931) /* Icon */
-     , (22843,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22843,   1, 0x02000E99) /* Setup */
+     , (22843,   3, 0x20000014) /* SoundTable */
+     , (22843,   8, 0x0600298B) /* Icon */
+     , (22843,  22, 0x3400002B) /* PhysicsEffectTable */;

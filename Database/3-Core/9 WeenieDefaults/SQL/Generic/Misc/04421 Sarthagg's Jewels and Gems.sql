@@ -22,7 +22,7 @@ VALUES (4421,   1, 'Sarthagg''s Jewels and Gems') /* Name */
      , (4421,  16, 'Sarthagg''s Jewels and Gems') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4421,   1,   33555593) /* Setup */
-     , (4421,   6,   67111092) /* PaletteBase */
-     , (4421,   7,  268435675) /* ClothingBase */
-     , (4421,   8,  100668115) /* Icon */;
+VALUES (4421,   1, 0x02000489) /* Setup */
+     , (4421,   6, 0x040008B4) /* PaletteBase */
+     , (4421,   7, 0x100000DB) /* ClothingBase */
+     , (4421,   8, 0x060012D3) /* Icon */;

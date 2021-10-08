@@ -31,9 +31,9 @@ VALUES (6663,   1, 'The Ruby Yujazik') /* Name */
      , (6663,  33, 'CrimsonRuby4') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6663,   1,   33554809) /* Setup */
-     , (6663,   3,  536870932) /* SoundTable */
-     , (6663,   6,   67111919) /* PaletteBase */
-     , (6663,   7,  268435723) /* ClothingBase */
-     , (6663,   8,  100670642) /* Icon */
-     , (6663,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6663,   1, 0x02000179) /* Setup */
+     , (6663,   3, 0x20000014) /* SoundTable */
+     , (6663,   6, 0x04000BEF) /* PaletteBase */
+     , (6663,   7, 0x1000010B) /* ClothingBase */
+     , (6663,   8, 0x06001CB2) /* Icon */
+     , (6663,  22, 0x3400002B) /* PhysicsEffectTable */;

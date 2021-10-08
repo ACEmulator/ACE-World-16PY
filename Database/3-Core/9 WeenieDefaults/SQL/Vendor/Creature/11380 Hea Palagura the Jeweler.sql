@@ -69,13 +69,13 @@ VALUES (11380,   1, 'Hea Palagura the Jeweler') /* Name */
      , (11380,  24, 'Ahurenga') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11380,   1,   33554496) /* Setup */
-     , (11380,   2,  150994954) /* MotionTable */
-     , (11380,   3,  536870931) /* SoundTable */
-     , (11380,   4,  805306380) /* CombatTable */
-     , (11380,   6,   67109314) /* PaletteBase */
-     , (11380,   7,  268435647) /* ClothingBase */
-     , (11380,   8,  100667452) /* Icon */;
+VALUES (11380,   1, 0x02000040) /* Setup */
+     , (11380,   2, 0x0900000A) /* MotionTable */
+     , (11380,   3, 0x20000013) /* SoundTable */
+     , (11380,   4, 0x3000000C) /* CombatTable */
+     , (11380,   6, 0x040001C2) /* PaletteBase */
+     , (11380,   7, 0x100000BF) /* ClothingBase */
+     , (11380,   8, 0x0600103C) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11380,   1,  95, 0, 0) /* Strength */

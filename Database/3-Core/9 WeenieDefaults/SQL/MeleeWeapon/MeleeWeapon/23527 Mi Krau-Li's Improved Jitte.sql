@@ -49,12 +49,12 @@ VALUES (23527,   1, 'Mi Krau-Li''s Improved Jitte') /* Name */
      , (23527,  16, 'A powerful jitte, made by Mi Krau-Li. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23527,   1,   33554740) /* Setup */
-     , (23527,   3,  536870932) /* SoundTable */
-     , (23527,   6,   67111919) /* PaletteBase */
-     , (23527,   7,  268435786) /* ClothingBase */
-     , (23527,   8,  100668895) /* Icon */
-     , (23527,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23527,   1, 0x02000134) /* Setup */
+     , (23527,   3, 0x20000014) /* SoundTable */
+     , (23527,   6, 0x04000BEF) /* PaletteBase */
+     , (23527,   7, 0x1000014A) /* ClothingBase */
+     , (23527,   8, 0x060015DF) /* Icon */
+     , (23527,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23527,   345,      2)  /* Light Weapon Mastery Other VI */

@@ -22,7 +22,7 @@ VALUES (881,   1, 'Aldera''s Blades') /* Name */
      , (881,  16, 'Aldera''s Blades') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (881,   1,   33555594) /* Setup */
-     , (881,   6,   67111782) /* PaletteBase */
-     , (881,   7,  268435686) /* ClothingBase */
-     , (881,   8,  100668115) /* Icon */;
+VALUES (881,   1, 0x0200048A) /* Setup */
+     , (881,   6, 0x04000B66) /* PaletteBase */
+     , (881,   7, 0x100000E6) /* ClothingBase */
+     , (881,   8, 0x060012D3) /* Icon */;

@@ -69,14 +69,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22054,   1, 'Virindi Profatrix') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22054,   1,   33558343) /* Setup */
-     , (22054,   2,  150994984) /* MotionTable */
-     , (22054,   3,  536870930) /* SoundTable */
-     , (22054,   4,  805306381) /* CombatTable */
-     , (22054,   6,   67114250) /* PaletteBase */
-     , (22054,   7,  268436609) /* ClothingBase */
-     , (22054,   8,  100674323) /* Icon */
-     , (22054,  22,  872415273) /* PhysicsEffectTable */
+VALUES (22054,   1, 0x02000F47) /* Setup */
+     , (22054,   2, 0x09000028) /* MotionTable */
+     , (22054,   3, 0x20000012) /* SoundTable */
+     , (22054,   4, 0x3000000D) /* CombatTable */
+     , (22054,   6, 0x0400150A) /* PaletteBase */
+     , (22054,   7, 0x10000481) /* ClothingBase */
+     , (22054,   8, 0x06002B13) /* Icon */
+     , (22054,  22, 0x34000029) /* PhysicsEffectTable */
      , (22054,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

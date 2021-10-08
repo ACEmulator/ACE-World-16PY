@@ -30,10 +30,10 @@ VALUES (8290,   1, 'Frankincense Pea') /* Name */
      , (8290,  16, 'A concentrated frankincense pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8290,   1,   33554817) /* Setup */
-     , (8290,   3,  536870932) /* SoundTable */
-     , (8290,   6,   67111919) /* PaletteBase */
-     , (8290,   7,  268435720) /* ClothingBase */
-     , (8290,   8,  100671048) /* Icon */
-     , (8290,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8290,   1, 0x02000181) /* Setup */
+     , (8290,   3, 0x20000014) /* SoundTable */
+     , (8290,   6, 0x04000BEF) /* PaletteBase */
+     , (8290,   7, 0x10000108) /* ClothingBase */
+     , (8290,   8, 0x06001E48) /* Icon */
+     , (8290,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8290,  29,        132) /* SpellComponent */;

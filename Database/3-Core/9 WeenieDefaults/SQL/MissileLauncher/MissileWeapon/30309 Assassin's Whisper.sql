@@ -39,9 +39,9 @@ VALUES (30309,   1, 'Assassin''s Whisper') /* Name */
      , (30309,  16, 'Describe me here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30309,   1,   33554732) /* Setup */
-     , (30309,   3,  536870932) /* SoundTable */
-     , (30309,   6,   67111919) /* PaletteBase */
-     , (30309,   7,  268435762) /* ClothingBase */
-     , (30309,   8,  100668835) /* Icon */
-     , (30309,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30309,   1, 0x0200012C) /* Setup */
+     , (30309,   3, 0x20000014) /* SoundTable */
+     , (30309,   6, 0x04000BEF) /* PaletteBase */
+     , (30309,   7, 0x10000132) /* ClothingBase */
+     , (30309,   8, 0x060015A3) /* Icon */
+     , (30309,  22, 0x3400002B) /* PhysicsEffectTable */;

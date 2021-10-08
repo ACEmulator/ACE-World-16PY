@@ -62,14 +62,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23566,   1, 'Tumerok Trooper') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23566,   1,   33554496) /* Setup */
-     , (23566,   2,  150994954) /* MotionTable */
-     , (23566,   3,  536870931) /* SoundTable */
-     , (23566,   4,  805306380) /* CombatTable */
-     , (23566,   6,   67109314) /* PaletteBase */
-     , (23566,   7,  268436631) /* ClothingBase */
-     , (23566,   8,  100667452) /* Icon */
-     , (23566,  22,  872415270) /* PhysicsEffectTable */
+VALUES (23566,   1, 0x02000040) /* Setup */
+     , (23566,   2, 0x0900000A) /* MotionTable */
+     , (23566,   3, 0x20000013) /* SoundTable */
+     , (23566,   4, 0x3000000C) /* CombatTable */
+     , (23566,   6, 0x040001C2) /* PaletteBase */
+     , (23566,   7, 0x10000497) /* ClothingBase */
+     , (23566,   8, 0x0600103C) /* Icon */
+     , (23566,  22, 0x34000026) /* PhysicsEffectTable */
      , (23566,  32,        199) /* WieldedTreasureType - 
                                    Wield Yumi (23733) | Probability: 6%
                                    Wield 20x Deadly Armor Piercing Arrow (15431) | Probability: 100%

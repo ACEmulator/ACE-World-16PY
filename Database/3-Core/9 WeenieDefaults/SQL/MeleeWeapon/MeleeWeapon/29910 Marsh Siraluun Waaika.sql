@@ -42,10 +42,10 @@ VALUES (29910,   1, 'Marsh Siraluun Waaika') /* Name */
      , (29910,  16, 'A beautifully detailed waaika crafted from the claw of a Marsh Siraluun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29910,   1,   33559108) /* Setup */
-     , (29910,   3,  536870932) /* SoundTable */
-     , (29910,   8,  100677337) /* Icon */
-     , (29910,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29910,   1, 0x02001244) /* Setup */
+     , (29910,   3, 0x20000014) /* SoundTable */
+     , (29910,   8, 0x060036D9) /* Icon */
+     , (29910,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29910,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

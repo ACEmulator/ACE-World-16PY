@@ -28,10 +28,10 @@ VALUES (9585,   1, 'Life Magic Skill Puzzle Piece') /* Name */
      , (9585,  16, 'A Life Magic skill puzzle piece.  Combine it with a Skill Puzzle Base Piece.  This item requires Life Magic skill to assemble.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9585,   1,   33554669) /* Setup */
-     , (9585,   3,  536870932) /* SoundTable */
-     , (9585,   6,   67111928) /* PaletteBase */
-     , (9585,   7,  268436178) /* ClothingBase */
-     , (9585,   8,  100671545) /* Icon */
-     , (9585,  22,  872415275) /* PhysicsEffectTable */
-     , (9585,  36,  234881046) /* MutateFilter */;
+VALUES (9585,   1, 0x020000ED) /* Setup */
+     , (9585,   3, 0x20000014) /* SoundTable */
+     , (9585,   6, 0x04000BF8) /* PaletteBase */
+     , (9585,   7, 0x100002D2) /* ClothingBase */
+     , (9585,   8, 0x06002039) /* Icon */
+     , (9585,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (9585,  36, 0x0E000016) /* MutateFilter */;

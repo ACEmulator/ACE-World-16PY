@@ -31,7 +31,7 @@ VALUES (7041,   1, 'Undead Thighbone') /* Name */
      , (7041,  16, 'The thighbone of a departed undead.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7041,   1,   33556593) /* Setup */
-     , (7041,   3,  536870932) /* SoundTable */
-     , (7041,   8,  100670681) /* Icon */
-     , (7041,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7041,   1, 0x02000871) /* Setup */
+     , (7041,   3, 0x20000014) /* SoundTable */
+     , (7041,   8, 0x06001CD9) /* Icon */
+     , (7041,  22, 0x3400002B) /* PhysicsEffectTable */;

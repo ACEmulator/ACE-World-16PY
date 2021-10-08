@@ -22,5 +22,5 @@ VALUES (14332,   1, 'Tattered Ridge') /* Name */
      , (14332,  16, 'Welcome to Tattered Ridge') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14332,   1,   33557463) /* Setup */
-     , (14332,   8,  100668115) /* Icon */;
+VALUES (14332,   1, 0x02000BD7) /* Setup */
+     , (14332,   8, 0x060012D3) /* Icon */;

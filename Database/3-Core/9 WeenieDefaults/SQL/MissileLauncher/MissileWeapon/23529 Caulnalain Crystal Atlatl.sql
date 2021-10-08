@@ -47,12 +47,12 @@ VALUES (23529,   1, 'Caulnalain Crystal Atlatl') /* Name */
      , (23529,  16, 'An atlatl imbued with the essence of the Caulnalain Crystal. Uses crystal-tipped darts.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23529,   1,   33557433) /* Setup */
-     , (23529,   3,  536870932) /* SoundTable */
-     , (23529,   6,   67111919) /* PaletteBase */
-     , (23529,   7,  268436042) /* ClothingBase */
-     , (23529,   8,  100674033) /* Icon */
-     , (23529,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23529,   1, 0x02000BB9) /* Setup */
+     , (23529,   3, 0x20000014) /* SoundTable */
+     , (23529,   6, 0x04000BEF) /* PaletteBase */
+     , (23529,   7, 0x1000024A) /* ClothingBase */
+     , (23529,   8, 0x060029F1) /* Icon */
+     , (23529,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23529,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

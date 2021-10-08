@@ -44,12 +44,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6368,   1, 'Superior Shadow Atlan Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6368,   1,   33556323) /* Setup */
-     , (6368,   3,  536870932) /* SoundTable */
-     , (6368,   6,   67111919) /* PaletteBase */
-     , (6368,   7,  268435902) /* ClothingBase */
-     , (6368,   8,  100670543) /* Icon */
-     , (6368,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6368,   1, 0x02000763) /* Setup */
+     , (6368,   3, 0x20000014) /* SoundTable */
+     , (6368,   6, 0x04000BEF) /* PaletteBase */
+     , (6368,   7, 0x100001BE) /* ClothingBase */
+     , (6368,   8, 0x06001C4F) /* Icon */
+     , (6368,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6368,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

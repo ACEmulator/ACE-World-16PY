@@ -46,9 +46,9 @@ VALUES (8251,   1, 'Superior Jack o'' Lantern') /* Name */
      , (8251,  20, 'Superior Jack o'' Lanterns') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8251,   1,   33556812) /* Setup */
-     , (8251,   3,  536870932) /* SoundTable */
-     , (8251,   6,   67112968) /* PaletteBase */
-     , (8251,   7,  268436044) /* ClothingBase */
-     , (8251,   8,  100671019) /* Icon */
-     , (8251,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8251,   1, 0x0200094C) /* Setup */
+     , (8251,   3, 0x20000014) /* SoundTable */
+     , (8251,   6, 0x04001008) /* PaletteBase */
+     , (8251,   7, 0x1000024C) /* ClothingBase */
+     , (8251,   8, 0x06001E2B) /* Icon */
+     , (8251,  22, 0x3400002B) /* PhysicsEffectTable */;

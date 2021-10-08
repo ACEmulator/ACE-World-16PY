@@ -22,5 +22,5 @@ VALUES (494,   1, 'Arwic Livestock Pen') /* Name */
      , (494,  16, 'Please do not tip the cows.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (494,   1,   33555088) /* Setup */
-     , (494,   8,  100668115) /* Icon */;
+VALUES (494,   1, 0x02000290) /* Setup */
+     , (494,   8, 0x060012D3) /* Icon */;

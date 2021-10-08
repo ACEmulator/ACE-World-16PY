@@ -64,12 +64,12 @@ VALUES (28416,   1, 'Sarcophagus of High Matriarch, Kivik Lir') /* Name */
      , (28416,  16, 'The Burun have desecrated the sarcophagus. The fine details of the sarcophagus have been ruined by the filth caked claws of the creatures. It exudes a palpable sense of rage, making you reconsider searching it''s ruins for a reward.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28416,   1,   33558609) /* Setup */
-     , (28416,   2,  150995261) /* MotionTable */
-     , (28416,   3,  536870933) /* SoundTable */
-     , (28416,   4,  805306372) /* CombatTable */
-     , (28416,   8,  100675787) /* Icon */
-     , (28416,  22,  872415328) /* PhysicsEffectTable */;
+VALUES (28416,   1, 0x02001051) /* Setup */
+     , (28416,   2, 0x0900013D) /* MotionTable */
+     , (28416,   3, 0x20000015) /* SoundTable */
+     , (28416,   4, 0x30000004) /* CombatTable */
+     , (28416,   8, 0x060030CB) /* Icon */
+     , (28416,  22, 0x34000060) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28416,   1, 380, 0, 0) /* Strength */

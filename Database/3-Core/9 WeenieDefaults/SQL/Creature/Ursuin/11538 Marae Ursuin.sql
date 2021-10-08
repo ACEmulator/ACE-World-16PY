@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11538,   1, 'Marae Ursuin') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11538,   1,   33556773) /* Setup */
-     , (11538,   2,  150995100) /* MotionTable */
-     , (11538,   3,  536871011) /* SoundTable */
-     , (11538,   4,  805306409) /* CombatTable */
-     , (11538,   6,   67112944) /* PaletteBase */
-     , (11538,   7,  268436040) /* ClothingBase */
-     , (11538,   8,  100670959) /* Icon */
-     , (11538,  22,  872415366) /* PhysicsEffectTable */
+VALUES (11538,   1, 0x02000925) /* Setup */
+     , (11538,   2, 0x0900009C) /* MotionTable */
+     , (11538,   3, 0x20000063) /* SoundTable */
+     , (11538,   4, 0x30000029) /* CombatTable */
+     , (11538,   6, 0x04000FF0) /* PaletteBase */
+     , (11538,   7, 0x10000248) /* ClothingBase */
+     , (11538,   8, 0x06001DEF) /* Icon */
+     , (11538,  22, 0x34000086) /* PhysicsEffectTable */
      , (11538,  35,        457) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

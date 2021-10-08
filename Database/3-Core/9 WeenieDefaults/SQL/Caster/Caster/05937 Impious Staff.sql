@@ -42,13 +42,13 @@ VALUES (5937,   1, 'Impious Staff') /* Name */
      , (5937,  19, 'Gharu''ndim') /* ItemHeritageGroupRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5937,   1,   33555022) /* Setup */
-     , (5937,   3,  536870932) /* SoundTable */
-     , (5937,   6,   67111919) /* PaletteBase */
-     , (5937,   7,  268435796) /* ClothingBase */
-     , (5937,   8,  100668702) /* Icon */
-     , (5937,  22,  872415275) /* PhysicsEffectTable */
-     , (5937,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (5937,   1, 0x0200024E) /* Setup */
+     , (5937,   3, 0x20000014) /* SoundTable */
+     , (5937,   6, 0x04000BEF) /* PaletteBase */
+     , (5937,   7, 0x10000154) /* ClothingBase */
+     , (5937,   8, 0x0600151E) /* Icon */
+     , (5937,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (5937,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (5937,  28,         91) /* Spell - Force Bolt VI */
-     , (5937,  36,  234881046) /* MutateFilter */
+     , (5937,  36, 0x0E000016) /* MutateFilter */
      , (5937,  37,         34) /* ItemSkillLimit - WarMagic */;

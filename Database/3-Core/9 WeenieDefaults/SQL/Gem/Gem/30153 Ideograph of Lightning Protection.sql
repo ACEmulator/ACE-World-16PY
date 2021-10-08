@@ -30,10 +30,10 @@ VALUES (30153,   1, 'Ideograph of Lightning Protection') /* Name */
      , (30153,  16, 'A lovely template for a rare magical gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30153,   1,   33554809) /* Setup */
-     , (30153,   3,  536870932) /* SoundTable */
-     , (30153,   6,   67111919) /* PaletteBase */
-     , (30153,   7,  268435723) /* ClothingBase */
-     , (30153,   8,  100674739) /* Icon */
-     , (30153,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30153,   1, 0x02000179) /* Setup */
+     , (30153,   3, 0x20000014) /* SoundTable */
+     , (30153,   6, 0x04000BEF) /* PaletteBase */
+     , (30153,   7, 0x1000010B) /* ClothingBase */
+     , (30153,   8, 0x06002CB3) /* Icon */
+     , (30153,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30153,  28,       2159) /* Spell - Storm's Blessing */;

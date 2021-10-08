@@ -62,14 +62,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19300,   1, 'Bronze Statue of a Banderling') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19300,   1,   33554481) /* Setup */
-     , (19300,   2,  150995181) /* MotionTable */
-     , (19300,   3,  536871052) /* SoundTable */
-     , (19300,   4,  805306370) /* CombatTable */
-     , (19300,   6,   67109303) /* PaletteBase */
-     , (19300,   7,  268435549) /* ClothingBase */
-     , (19300,   8,  100667453) /* Icon */
-     , (19300,  22,  872415383) /* PhysicsEffectTable */
+VALUES (19300,   1, 0x02000031) /* Setup */
+     , (19300,   2, 0x090000ED) /* MotionTable */
+     , (19300,   3, 0x2000008C) /* SoundTable */
+     , (19300,   4, 0x30000002) /* CombatTable */
+     , (19300,   6, 0x040001B7) /* PaletteBase */
+     , (19300,   7, 0x1000005D) /* ClothingBase */
+     , (19300,   8, 0x0600103D) /* Icon */
+     , (19300,  22, 0x34000097) /* PhysicsEffectTable */
      , (19300,  32,        401) /* WieldedTreasureType - 
                                    Wield Bronze Dagger (15876) | Probability: 50%
                                    Wield Bronze Short Sword (15881) | Probability: 50% */

@@ -44,12 +44,12 @@ VALUES (11741,   1, 'Hafted Mask Banner with Crest') /* Name */
      , (11741,  16, 'A hafted, crest tipped banner with a mask on it.  It is in almost perfect condition, and the colors are quite vibrant.  As you gaze at the mask, it almost seems to be gazing back.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11741,   1,   33557253) /* Setup */
-     , (11741,   3,  536870932) /* SoundTable */
-     , (11741,   6,   67113338) /* PaletteBase */
-     , (11741,   7,  268436214) /* ClothingBase */
-     , (11741,   8,  100671896) /* Icon */
-     , (11741,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11741,   1, 0x02000B05) /* Setup */
+     , (11741,   3, 0x20000014) /* SoundTable */
+     , (11741,   6, 0x0400117A) /* PaletteBase */
+     , (11741,   7, 0x100002F6) /* ClothingBase */
+     , (11741,   8, 0x06002198) /* Icon */
+     , (11741,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11741,  2013,      2)  /* Wizard's Greater Intellect */;

@@ -24,7 +24,7 @@ VALUES (21332,   1, 'Scroll of Shock Arc III') /* Name */
      , (21332,  15, 'When learned, this spell shoots a shock wave at the target. The wave does 18-35 points of bludgeoning damage to the first thing it hits.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21332,   1,   33554826) /* Setup */
-     , (21332,   8,  100677008) /* Icon */
-     , (21332,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21332,   1, 0x0200018A) /* Setup */
+     , (21332,   8, 0x06003590) /* Icon */
+     , (21332,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21332,  28,       2748) /* Spell - Shock Arc III */;

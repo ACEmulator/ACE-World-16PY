@@ -43,10 +43,10 @@ VALUES (12028,   1, 'Serpent''s Fang') /* Name */
      , (12028,  16, 'A spear crafted in the semblance of a large snake.  The eyes seem to be crafted from some sort of gems, and the fangs are quite sharp.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12028,   1,   33557337) /* Setup */
-     , (12028,   3,  536870932) /* SoundTable */
-     , (12028,   8,  100672119) /* Icon */
-     , (12028,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12028,   1, 0x02000B59) /* Setup */
+     , (12028,   3, 0x20000014) /* SoundTable */
+     , (12028,   8, 0x06002277) /* Icon */
+     , (12028,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12028,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

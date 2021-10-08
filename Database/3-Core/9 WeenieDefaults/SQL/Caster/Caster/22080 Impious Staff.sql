@@ -42,12 +42,12 @@ VALUES (22080,   1, 'Impious Staff') /* Name */
      , (22080,  16, 'Made from a metal alloy and carbonized iron. This staff once belonged to an ancient group of acolytes who possessed magical powers.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22080,   1,   33557877) /* Setup */
-     , (22080,   3,  536870932) /* SoundTable */
-     , (22080,   6,   67111919) /* PaletteBase */
-     , (22080,   7,  268436442) /* ClothingBase */
-     , (22080,   8,  100673510) /* Icon */
-     , (22080,  22,  872415275) /* PhysicsEffectTable */
-     , (22080,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (22080,   1, 0x02000D75) /* Setup */
+     , (22080,   3, 0x20000014) /* SoundTable */
+     , (22080,   6, 0x04000BEF) /* PaletteBase */
+     , (22080,   7, 0x100003DA) /* ClothingBase */
+     , (22080,   8, 0x060027E6) /* Icon */
+     , (22080,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (22080,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (22080,  28,       2814) /* Spell - Priest's Curse */
      , (22080,  37,         34) /* ItemSkillLimit - WarMagic */;

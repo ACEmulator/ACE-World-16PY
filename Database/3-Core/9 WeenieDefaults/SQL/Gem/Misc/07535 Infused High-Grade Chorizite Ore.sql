@@ -31,9 +31,9 @@ VALUES (7535,   1, 'Infused High-Grade Chorizite Ore') /* Name */
      , (7535,  16, 'A high-grade chunk of refined chorizite ore infused with the essence of an axe.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7535,   1,   33555677) /* Setup */
-     , (7535,   3,  536870932) /* SoundTable */
-     , (7535,   6,   67111919) /* PaletteBase */
-     , (7535,   7,  268435723) /* ClothingBase */
-     , (7535,   8,  100670805) /* Icon */
-     , (7535,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7535,   1, 0x020004DD) /* Setup */
+     , (7535,   3, 0x20000014) /* SoundTable */
+     , (7535,   6, 0x04000BEF) /* PaletteBase */
+     , (7535,   7, 0x1000010B) /* ClothingBase */
+     , (7535,   8, 0x06001D55) /* Icon */
+     , (7535,  22, 0x3400002B) /* PhysicsEffectTable */;

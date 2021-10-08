@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27667,   1, 'War Chief Amanua') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27667,   1,   33554496) /* Setup */
-     , (27667,   2,  150994954) /* MotionTable */
-     , (27667,   3,  536870931) /* SoundTable */
-     , (27667,   4,  805306380) /* CombatTable */
-     , (27667,   6,   67109314) /* PaletteBase */
-     , (27667,   7,  268436631) /* ClothingBase */
-     , (27667,   8,  100667452) /* Icon */
-     , (27667,  22,  872415270) /* PhysicsEffectTable */
+VALUES (27667,   1, 0x02000040) /* Setup */
+     , (27667,   2, 0x0900000A) /* MotionTable */
+     , (27667,   3, 0x20000013) /* SoundTable */
+     , (27667,   4, 0x3000000C) /* CombatTable */
+     , (27667,   6, 0x040001C2) /* PaletteBase */
+     , (27667,   7, 0x10000497) /* ClothingBase */
+     , (27667,   8, 0x0600103C) /* Icon */
+     , (27667,  22, 0x34000026) /* PhysicsEffectTable */
      , (27667,  32,        426) /* WieldedTreasureType - 
                                    Wield Tachi (23136) | Probability: 30.000002%
                                    Wield Kite Shield (23135) | Probability: 100%

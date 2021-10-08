@@ -37,7 +37,7 @@ VALUES (11452,   1, 'Double Totem of Volkama and Audetaunga') /* Name */
      , (11452,  16, 'A double totem representing two of the animas found on Palenqual. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11452,   1,   33557268) /* Setup */
-     , (11452,   3,  536870932) /* SoundTable */
-     , (11452,   8,  100671993) /* Icon */
-     , (11452,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11452,   1, 0x02000B14) /* Setup */
+     , (11452,   3, 0x20000014) /* SoundTable */
+     , (11452,   8, 0x060021F9) /* Icon */
+     , (11452,  22, 0x3400002B) /* PhysicsEffectTable */;

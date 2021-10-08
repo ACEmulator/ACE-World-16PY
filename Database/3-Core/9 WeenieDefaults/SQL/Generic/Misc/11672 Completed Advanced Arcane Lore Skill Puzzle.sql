@@ -28,8 +28,8 @@ VALUES (11672,   1, 'Completed Advanced Arcane Lore Skill Puzzle') /* Name */
      , (11672,  16, 'A completed Advanced Arcane Lore Skill Puzzle.  Turn in to a Bestower Examiner to receive a title.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11672,   1,   33557028) /* Setup */
-     , (11672,   3,  536870932) /* SoundTable */
-     , (11672,   8,  100671727) /* Icon */
-     , (11672,  22,  872415275) /* PhysicsEffectTable */
-     , (11672,  36,  234881046) /* MutateFilter */;
+VALUES (11672,   1, 0x02000A24) /* Setup */
+     , (11672,   3, 0x20000014) /* SoundTable */
+     , (11672,   8, 0x060020EF) /* Icon */
+     , (11672,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11672,  36, 0x0E000016) /* MutateFilter */;

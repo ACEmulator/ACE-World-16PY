@@ -25,7 +25,7 @@ VALUES (2662,   1, 'Scroll of Endurance Self V') /* Name */
      , (2662,  16, 'When learned, this spell increases the caster''s Endurance by 50 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2662,   1,   33554826) /* Setup */
-     , (2662,   8,  100676456) /* Icon */
-     , (2662,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2662,   1, 0x0200018A) /* Setup */
+     , (2662,   8, 0x06003368) /* Icon */
+     , (2662,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2662,  28,       1353) /* Spell - Endurance Self V */;

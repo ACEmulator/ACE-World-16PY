@@ -33,10 +33,10 @@ VALUES (8778,   1, 'Heart of Shadow') /* Name */
      , (8778,  33, 'HopeslayerHeart') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8778,   1,   33556927) /* Setup */
-     , (8778,   3,  536870932) /* SoundTable */
-     , (8778,   6,   67111919) /* PaletteBase */
-     , (8778,   7,  268435723) /* ClothingBase */
-     , (8778,   8,  100671223) /* Icon */
-     , (8778,  22,  872415275) /* PhysicsEffectTable */
-     , (8778,  36,  234881046) /* MutateFilter */;
+VALUES (8778,   1, 0x020009BF) /* Setup */
+     , (8778,   3, 0x20000014) /* SoundTable */
+     , (8778,   6, 0x04000BEF) /* PaletteBase */
+     , (8778,   7, 0x1000010B) /* ClothingBase */
+     , (8778,   8, 0x06001EF7) /* Icon */
+     , (8778,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8778,  36, 0x0E000016) /* MutateFilter */;

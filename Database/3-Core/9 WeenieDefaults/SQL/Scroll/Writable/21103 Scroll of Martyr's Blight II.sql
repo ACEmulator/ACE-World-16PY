@@ -24,7 +24,7 @@ VALUES (21103,   1, 'Scroll of Martyr''s Blight II') /* Name */
      , (21103,  15, 'When learned, this spell drains one-quarter of the casters Mana into a bolt of energy which shoots at the target.  The bolt does 65% of the amount drained.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21103,   1,   33554826) /* Setup */
-     , (21103,   8,  100676937) /* Icon */
-     , (21103,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21103,   1, 0x0200018A) /* Setup */
+     , (21103,   8, 0x06003549) /* Icon */
+     , (21103,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21103,  28,       2775) /* Spell - Martyr's Blight II */;

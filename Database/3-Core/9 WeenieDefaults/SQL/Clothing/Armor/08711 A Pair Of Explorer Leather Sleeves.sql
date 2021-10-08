@@ -41,12 +41,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8711,   1, 'A Pair Of Explorer Leather Sleeves') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8711,   1,   33554655) /* Setup */
-     , (8711,   3,  536870932) /* SoundTable */
-     , (8711,   6,   67108990) /* PaletteBase */
-     , (8711,   7,  268436704) /* ClothingBase */
-     , (8711,   8,  100668412) /* Icon */
-     , (8711,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8711,   1, 0x020000DF) /* Setup */
+     , (8711,   3, 0x20000014) /* SoundTable */
+     , (8711,   6, 0x0400007E) /* PaletteBase */
+     , (8711,   7, 0x100004E0) /* ClothingBase */
+     , (8711,   8, 0x060013FC) /* Icon */
+     , (8711,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8711,  1483,      2)  /* Impenetrability III */

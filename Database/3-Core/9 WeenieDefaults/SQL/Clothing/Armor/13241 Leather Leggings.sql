@@ -36,9 +36,9 @@ VALUES (13241,   1, 'Leather Leggings') /* Name */
      , (13241,  33, 'LeggingsAcademyPickUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13241,   1,   33554856) /* Setup */
-     , (13241,   3,  536870932) /* SoundTable */
-     , (13241,   6,   67108990) /* PaletteBase */
-     , (13241,   7,  268435533) /* ClothingBase */
-     , (13241,   8,  100667352) /* Icon */
-     , (13241,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (13241,   1, 0x020001A8) /* Setup */
+     , (13241,   3, 0x20000014) /* SoundTable */
+     , (13241,   6, 0x0400007E) /* PaletteBase */
+     , (13241,   7, 0x1000004D) /* ClothingBase */
+     , (13241,   8, 0x06000FD8) /* Icon */
+     , (13241,  22, 0x3400002B) /* PhysicsEffectTable */;

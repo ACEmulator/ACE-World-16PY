@@ -50,12 +50,12 @@ VALUES (8000,   1, 'Shendolain Crystal Bow') /* Name */
      , (8000,  16, 'A bow imbued with the essence of the Shendolain Crystal. Uses crystal-tipped arrows.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8000,   1,   33554729) /* Setup */
-     , (8000,   3,  536870932) /* SoundTable */
-     , (8000,   6,   67111919) /* PaletteBase */
-     , (8000,   7,  268436042) /* ClothingBase */
-     , (8000,   8,  100671000) /* Icon */
-     , (8000,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8000,   1, 0x02000129) /* Setup */
+     , (8000,   3, 0x20000014) /* SoundTable */
+     , (8000,   6, 0x04000BEF) /* PaletteBase */
+     , (8000,   7, 0x1000024A) /* ClothingBase */
+     , (8000,   8, 0x06001E18) /* Icon */
+     , (8000,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8000,  37,          2) /* ItemSkillLimit - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

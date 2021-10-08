@@ -64,11 +64,11 @@ VALUES (4202,   1, 'Grilhud the Hermit') /* Name */
      , (4202,   5, 'Enchanter') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4202,   1,   33554510) /* Setup */
-     , (4202,   2,  150994945) /* MotionTable */
-     , (4202,   3,  536870914) /* SoundTable */
-     , (4202,   4,  805306368) /* CombatTable */
-     , (4202,   8,  100667446) /* Icon */
+VALUES (4202,   1, 0x0200004E) /* Setup */
+     , (4202,   2, 0x09000001) /* MotionTable */
+     , (4202,   3, 0x20000002) /* SoundTable */
+     , (4202,   4, 0x30000000) /* CombatTable */
+     , (4202,   8, 0x06001036) /* Icon */
      , (4202,  31,       4148) /* LinkedPortalOne - Northwest Direlands */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

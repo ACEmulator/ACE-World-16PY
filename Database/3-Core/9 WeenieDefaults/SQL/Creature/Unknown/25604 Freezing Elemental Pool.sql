@@ -67,12 +67,12 @@ VALUES (25604,   1, 'Freezing Elemental Pool') /* Name */
      , (25604,  16, 'An elemental pool, nearly frozen over.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25604,   1,   33558461) /* Setup */
-     , (25604,   2,  150995255) /* MotionTable */
-     , (25604,   3,  536870913) /* SoundTable */
-     , (25604,   6,   67114510) /* PaletteBase */
-     , (25604,   7,  268436680) /* ClothingBase */
-     , (25604,   8,  100674881) /* Icon */;
+VALUES (25604,   1, 0x02000FBD) /* Setup */
+     , (25604,   2, 0x09000137) /* MotionTable */
+     , (25604,   3, 0x20000001) /* SoundTable */
+     , (25604,   6, 0x0400160E) /* PaletteBase */
+     , (25604,   7, 0x100004C8) /* ClothingBase */
+     , (25604,   8, 0x06002D41) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25604,   1, 300, 0, 0) /* Strength */

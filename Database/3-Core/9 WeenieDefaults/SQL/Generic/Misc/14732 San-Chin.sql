@@ -22,5 +22,5 @@ VALUES (14732,   1, 'San-Chin') /* Name */
      , (14732,  16, 'Welcome to San-Chin') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14732,   1,   33557463) /* Setup */
-     , (14732,   8,  100668115) /* Icon */;
+VALUES (14732,   1, 0x02000BD7) /* Setup */
+     , (14732,   8, 0x060012D3) /* Icon */;

@@ -36,11 +36,11 @@ VALUES (30831,   1, 'Shadow Lugian Stronghold Portal Gem') /* Name */
      , (30831,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30831,   1,   33556769) /* Setup */
-     , (30831,   3,  536870932) /* SoundTable */
-     , (30831,   6,   67111919) /* PaletteBase */
-     , (30831,   7,  268435723) /* ClothingBase */
-     , (30831,   8,  100672368) /* Icon */
-     , (30831,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30831,   1, 0x02000921) /* Setup */
+     , (30831,   3, 0x20000014) /* SoundTable */
+     , (30831,   6, 0x04000BEF) /* PaletteBase */
+     , (30831,   7, 0x1000010B) /* ClothingBase */
+     , (30831,   8, 0x06002370) /* Icon */
+     , (30831,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30831,  28,        157) /* Spell - Summon Primary Portal I */
      , (30831,  31,      30845) /* LinkedPortalOne - Shadow Lugian Stronghold */;

@@ -22,5 +22,5 @@ VALUES (19171,   1, 'Ebbing Tide Villas') /* Name */
      , (19171,  16, 'Welcome to Ebbing Tide Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19171,   1,   33557463) /* Setup */
-     , (19171,   8,  100668115) /* Icon */;
+VALUES (19171,   1, 0x02000BD7) /* Setup */
+     , (19171,   8, 0x060012D3) /* Icon */;

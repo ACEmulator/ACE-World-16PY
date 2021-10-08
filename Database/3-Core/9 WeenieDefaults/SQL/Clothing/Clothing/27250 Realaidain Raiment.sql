@@ -37,10 +37,10 @@ VALUES (27250,   1, 'Realaidain Raiment') /* Name */
      , (27250,  16, 'This raiment, emblazoned with the crest of the Realaidain family, is a gift from the High Queen and Asheron to those who have made Dereth their home by Morningthaw, PY 15.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27250,   1,   33554854) /* Setup */
-     , (27250,   3,  536870932) /* SoundTable */
-     , (27250,   6,   67108990) /* PaletteBase */
-     , (27250,   7,  268436815) /* ClothingBase */
-     , (27250,   8,  100676291) /* Icon */
-     , (27250,  22,  872415275) /* PhysicsEffectTable */
-     , (27250,  36,  234881046) /* MutateFilter */;
+VALUES (27250,   1, 0x020001A6) /* Setup */
+     , (27250,   3, 0x20000014) /* SoundTable */
+     , (27250,   6, 0x0400007E) /* PaletteBase */
+     , (27250,   7, 0x1000054F) /* ClothingBase */
+     , (27250,   8, 0x060032C3) /* Icon */
+     , (27250,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27250,  36, 0x0E000016) /* MutateFilter */;

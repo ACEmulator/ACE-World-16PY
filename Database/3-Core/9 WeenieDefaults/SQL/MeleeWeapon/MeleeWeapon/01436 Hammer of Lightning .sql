@@ -41,9 +41,9 @@ VALUES (1436,   1, 'Hammer of Lightning ') /* Name */
      , (1436,  16, 'A powerful hammer, coruscating with energy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1436,   1,   33555415) /* Setup */
-     , (1436,   8,  100667619) /* Icon */
-     , (1436,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1436,   1, 0x020003D7) /* Setup */
+     , (1436,   8, 0x060010E3) /* Icon */
+     , (1436,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1436,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

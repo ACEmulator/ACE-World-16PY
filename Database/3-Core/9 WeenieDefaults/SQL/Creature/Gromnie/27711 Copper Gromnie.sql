@@ -61,14 +61,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27711,   1, 'Copper Gromnie') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27711,   1,   33554487) /* Setup */
-     , (27711,   2,  150994971) /* MotionTable */
-     , (27711,   3,  536870921) /* SoundTable */
-     , (27711,   4,  805306386) /* CombatTable */
-     , (27711,   6,   67109547) /* PaletteBase */
-     , (27711,   7,  268435631) /* ClothingBase */
-     , (27711,   8,  100667938) /* Icon */
-     , (27711,  22,  872415260) /* PhysicsEffectTable */
+VALUES (27711,   1, 0x02000037) /* Setup */
+     , (27711,   2, 0x0900001B) /* MotionTable */
+     , (27711,   3, 0x20000009) /* SoundTable */
+     , (27711,   4, 0x30000012) /* CombatTable */
+     , (27711,   6, 0x040002AB) /* PaletteBase */
+     , (27711,   7, 0x100000AF) /* ClothingBase */
+     , (27711,   8, 0x06001222) /* Icon */
+     , (27711,  22, 0x3400001C) /* PhysicsEffectTable */
      , (27711,  30,         87) /* PhysicsScript - BreatheLightning */
      , (27711,  35,        458) /* DeathTreasureType - Loot Tier: 5 */;
 

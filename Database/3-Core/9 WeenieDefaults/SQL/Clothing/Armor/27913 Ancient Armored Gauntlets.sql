@@ -48,12 +48,12 @@ VALUES (27913,   1, 'Ancient Armored Gauntlets') /* Name */
      , (27913,  16, 'These armored gauntlets appear to have been an ornamental piece. Obviously this is only one part of a complete suit of armor.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27913,   1,   33554648) /* Setup */
-     , (27913,   3,  536870932) /* SoundTable */
-     , (27913,   6,   67108990) /* PaletteBase */
-     , (27913,   7,  268436828) /* ClothingBase */
-     , (27913,   8,  100676550) /* Icon */
-     , (27913,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27913,   1, 0x020000D8) /* Setup */
+     , (27913,   3, 0x20000014) /* SoundTable */
+     , (27913,   6, 0x0400007E) /* PaletteBase */
+     , (27913,   7, 0x1000055C) /* ClothingBase */
+     , (27913,   8, 0x060033C6) /* Icon */
+     , (27913,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27913,  3094,      2)  /* Skin of the Fiazhat */

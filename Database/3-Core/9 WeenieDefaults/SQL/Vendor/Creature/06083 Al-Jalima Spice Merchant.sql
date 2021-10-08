@@ -70,11 +70,11 @@ VALUES (6083,   1, 'Al-Jalima Spice Merchant') /* Name */
      , (6083,  24, 'Al-Jalima') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6083,   1,   33554433) /* Setup */
-     , (6083,   2,  150994945) /* MotionTable */
-     , (6083,   3,  536870913) /* SoundTable */
-     , (6083,   4,  805306368) /* CombatTable */
-     , (6083,   8,  100667446) /* Icon */;
+VALUES (6083,   1, 0x02000001) /* Setup */
+     , (6083,   2, 0x09000001) /* MotionTable */
+     , (6083,   3, 0x20000001) /* SoundTable */
+     , (6083,   4, 0x30000000) /* CombatTable */
+     , (6083,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6083,   1, 110, 0, 0) /* Strength */

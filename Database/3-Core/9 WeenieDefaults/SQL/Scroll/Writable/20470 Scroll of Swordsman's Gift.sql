@@ -24,7 +24,7 @@ VALUES (20470,   1, 'Scroll of Swordsman''s Gift') /* Name */
      , (20470,  15, 'When learned, this spell increases damage the target takes from Slashing by 185%.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20470,   1,   33554826) /* Setup */
-     , (20470,   8,  100676954) /* Icon */
-     , (20470,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20470,   1, 0x0200018A) /* Setup */
+     , (20470,   8, 0x0600355A) /* Icon */
+     , (20470,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20470,  28,       2164) /* Spell - Swordsman's Gift */;

@@ -68,12 +68,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7372,   1, 'Relic Watchman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7372,   1,   33555465) /* Setup */
-     , (7372,   2,  150994981) /* MotionTable */
-     , (7372,   3,  536870942) /* SoundTable */
-     , (7372,   4,  805306368) /* CombatTable */
-     , (7372,   8,  100669124) /* Icon */
-     , (7372,  22,  872415269) /* PhysicsEffectTable */
+VALUES (7372,   1, 0x02000409) /* Setup */
+     , (7372,   2, 0x09000025) /* MotionTable */
+     , (7372,   3, 0x2000001E) /* SoundTable */
+     , (7372,   4, 0x30000000) /* CombatTable */
+     , (7372,   8, 0x060016C4) /* Icon */
+     , (7372,  22, 0x34000025) /* PhysicsEffectTable */
      , (7372,  31,       7417) /* LinkedPortalOne - Aerfalle Keep Portal */
      , (7372,  32,        289) /* WieldedTreasureType - 
                                    Wield Yumi (23736) | Probability: 50%

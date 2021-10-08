@@ -28,10 +28,10 @@ VALUES (14445,   1, 'A Cryptic Note') /* Name */
      , (14445,  33, 'NoteRegicideHoltburgPickUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14445,   1,   33557474) /* Setup */
-     , (14445,   3,  536870932) /* SoundTable */
-     , (14445,   8,  100672466) /* Icon */
-     , (14445,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14445,   1, 0x02000BE2) /* Setup */
+     , (14445,   3, 0x20000014) /* SoundTable */
+     , (14445,   8, 0x060023D2) /* Icon */
+     , (14445,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (14445, 1, 1000);

@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27414,   1, 'Kerthump the Ear Taker') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27414,   1,   33556445) /* Setup */
-     , (27414,   2,  150994952) /* MotionTable */
-     , (27414,   3,  536870919) /* SoundTable */
-     , (27414,   4,  805306372) /* CombatTable */
-     , (27414,   6,   67112812) /* PaletteBase */
-     , (27414,   7,  268435977) /* ClothingBase */
-     , (27414,   8,  100667445) /* Icon */
-     , (27414,  22,  872415258) /* PhysicsEffectTable */
+VALUES (27414,   1, 0x020007DD) /* Setup */
+     , (27414,   2, 0x09000008) /* MotionTable */
+     , (27414,   3, 0x20000007) /* SoundTable */
+     , (27414,   4, 0x30000004) /* CombatTable */
+     , (27414,   6, 0x04000F6C) /* PaletteBase */
+     , (27414,   7, 0x10000209) /* ClothingBase */
+     , (27414,   8, 0x06001035) /* Icon */
+     , (27414,  22, 0x3400001A) /* PhysicsEffectTable */
      , (27414,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

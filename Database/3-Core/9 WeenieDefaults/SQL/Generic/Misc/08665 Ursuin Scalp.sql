@@ -28,9 +28,9 @@ VALUES (8665,   1, 'Ursuin Scalp') /* Name */
      , (8665,  16, 'The scalp of an Ursuin.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8665,   1,   33554817) /* Setup */
-     , (8665,   3,  536870932) /* SoundTable */
-     , (8665,   6,   67111919) /* PaletteBase */
-     , (8665,   7,  268435832) /* ClothingBase */
-     , (8665,   8,  100671287) /* Icon */
-     , (8665,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8665,   1, 0x02000181) /* Setup */
+     , (8665,   3, 0x20000014) /* SoundTable */
+     , (8665,   6, 0x04000BEF) /* PaletteBase */
+     , (8665,   7, 0x10000178) /* ClothingBase */
+     , (8665,   8, 0x06001F37) /* Icon */
+     , (8665,  22, 0x3400002B) /* PhysicsEffectTable */;

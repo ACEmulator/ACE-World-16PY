@@ -46,13 +46,13 @@ VALUES (9130,   1, 'Singularity Sword') /* Name */
      , (9130,  16, 'A gift from Martine: Your sword is sharp, your arm is strong, but soon you will find Death''s reach is long.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9130,   1,   33556969) /* Setup */
-     , (9130,   3,  536870932) /* SoundTable */
-     , (9130,   6,   67111919) /* PaletteBase */
-     , (9130,   7,  268436127) /* ClothingBase */
-     , (9130,   8,  100671372) /* Icon */
-     , (9130,  22,  872415275) /* PhysicsEffectTable */
-     , (9130,  36,  234881044) /* MutateFilter */
+VALUES (9130,   1, 0x020009E9) /* Setup */
+     , (9130,   3, 0x20000014) /* SoundTable */
+     , (9130,   6, 0x04000BEF) /* PaletteBase */
+     , (9130,   7, 0x1000029F) /* ClothingBase */
+     , (9130,   8, 0x06001F8C) /* Icon */
+     , (9130,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (9130,  36, 0x0E000014) /* MutateFilter */
      , (9130,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

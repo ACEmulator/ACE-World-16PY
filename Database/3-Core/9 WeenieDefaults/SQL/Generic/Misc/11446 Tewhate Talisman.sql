@@ -27,8 +27,8 @@ VALUES (11446,   1, 'Tewhate Talisman') /* Name */
      , (11446,  16, 'A small talisman carved with the image of an axe.  If given to Aun Imeitanua, he will bestow a tewhate in exchange.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11446,   1,   33554680) /* Setup */
-     , (11446,   3,  536870932) /* SoundTable */
-     , (11446,   8,  100671825) /* Icon */
-     , (11446,  22,  872415275) /* PhysicsEffectTable */
-     , (11446,  36,  234881046) /* MutateFilter */;
+VALUES (11446,   1, 0x020000F8) /* Setup */
+     , (11446,   3, 0x20000014) /* SoundTable */
+     , (11446,   8, 0x06002151) /* Icon */
+     , (11446,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11446,  36, 0x0E000016) /* MutateFilter */;

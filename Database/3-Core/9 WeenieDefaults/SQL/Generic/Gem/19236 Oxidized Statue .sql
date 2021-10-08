@@ -27,10 +27,10 @@ VALUES (19236,   1, 'Oxidized Statue ') /* Name */
      , (19236,  16, 'A small oxidized statue of a Sclavus crafted by the Arcanum Tinker, in reward for keeping the statues that continue to threaten the cities of Dereth at bay.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19236,   1,   33555608) /* Setup */
-     , (19236,   2,  150995209) /* MotionTable */
-     , (19236,   6,   67111936) /* PaletteBase */
-     , (19236,   7,  268436369) /* ClothingBase */
-     , (19236,   8,  100669120) /* Icon */
-     , (19236,  22,  872415349) /* PhysicsEffectTable */
-     , (19236,  36,  234881046) /* MutateFilter */;
+VALUES (19236,   1, 0x02000498) /* Setup */
+     , (19236,   2, 0x09000109) /* MotionTable */
+     , (19236,   6, 0x04000C00) /* PaletteBase */
+     , (19236,   7, 0x10000391) /* ClothingBase */
+     , (19236,   8, 0x060016C0) /* Icon */
+     , (19236,  22, 0x34000075) /* PhysicsEffectTable */
+     , (19236,  36, 0x0E000016) /* MutateFilter */;

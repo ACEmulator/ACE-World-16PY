@@ -43,12 +43,12 @@ VALUES (31201,   1, 'Suikan Creature Apprentice Robe') /* Name */
      , (31201,  19, 'Sho') /* ItemHeritageGroupRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31201,   1,   33554854) /* Setup */
-     , (31201,   3,  536870932) /* SoundTable */
-     , (31201,   6,   67108990) /* PaletteBase */
-     , (31201,   7,  268435864) /* ClothingBase */
-     , (31201,   8,  100670382) /* Icon */
-     , (31201,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31201,   1, 0x020001A6) /* Setup */
+     , (31201,   3, 0x20000014) /* SoundTable */
+     , (31201,   6, 0x0400007E) /* PaletteBase */
+     , (31201,   7, 0x10000198) /* ClothingBase */
+     , (31201,   8, 0x06001BAE) /* Icon */
+     , (31201,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31201,  37,         31) /* ItemSkillLimit - CreatureEnchantment */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

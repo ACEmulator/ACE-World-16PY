@@ -25,5 +25,5 @@ VALUES (19415,   1, 'An incomplete Horn of Vigilance') /* Name */
      , (19415,  15, 'An incomplete Horn of Vigilance.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19415,   1,   33557828) /* Setup */
-     , (19415,   8,  100673045) /* Icon */;
+VALUES (19415,   1, 0x02000D44) /* Setup */
+     , (19415,   8, 0x06002615) /* Icon */;

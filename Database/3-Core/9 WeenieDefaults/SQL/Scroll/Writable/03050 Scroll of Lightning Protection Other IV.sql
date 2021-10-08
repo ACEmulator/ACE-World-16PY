@@ -25,7 +25,7 @@ VALUES (3050,   1, 'Scroll of Lightning Protection Other IV') /* Name */
      , (3050,  16, 'When learned, this spell Reduces damage the target takes from Lighting by 43%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3050,   1,   33554826) /* Setup */
-     , (3050,   8,  100676948) /* Icon */
-     , (3050,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3050,   1, 0x0200018A) /* Setup */
+     , (3050,   8, 0x06003554) /* Icon */
+     , (3050,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3050,  28,       1075) /* Spell - Lightning Protection Other IV */;

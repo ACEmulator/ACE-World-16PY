@@ -37,11 +37,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53,   1, 'Studded Leather Cuirass') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53,   1,   33554854) /* Setup */
-     , (53,   3,  536870932) /* SoundTable */
-     , (53,   6,   67108990) /* PaletteBase */
-     , (53,   7,  268435618) /* ClothingBase */
-     , (53,   8,  100668416) /* Icon */
-     , (53,  22,  872415275) /* PhysicsEffectTable */
-     , (53,  36,  234881042) /* MutateFilter */
-     , (53,  46,  939524146) /* TsysMutationFilter */;
+VALUES (53,   1, 0x020001A6) /* Setup */
+     , (53,   3, 0x20000014) /* SoundTable */
+     , (53,   6, 0x0400007E) /* PaletteBase */
+     , (53,   7, 0x100000A2) /* ClothingBase */
+     , (53,   8, 0x06001400) /* Icon */
+     , (53,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (53,  36, 0x0E000012) /* MutateFilter */
+     , (53,  46, 0x38000032) /* TsysMutationFilter */;

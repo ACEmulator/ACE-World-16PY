@@ -28,7 +28,7 @@ VALUES (4712,   1, 'Beef Rice') /* Name */
      , (4712,  20, 'Bowls of Beef Rice') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4712,   1,   33554668) /* Setup */
-     , (4712,   3,  536870932) /* SoundTable */
-     , (4712,   8,  100670306) /* Icon */
-     , (4712,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4712,   1, 0x020000EC) /* Setup */
+     , (4712,   3, 0x20000014) /* SoundTable */
+     , (4712,   8, 0x06001B62) /* Icon */
+     , (4712,  22, 0x3400002B) /* PhysicsEffectTable */;

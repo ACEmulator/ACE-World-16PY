@@ -24,7 +24,7 @@ VALUES (20473,   1, 'Scroll of Tusker''s Gift') /* Name */
      , (20473,  15, 'When learned, this spell increases damage the target takes from Bludgeoning by 185%.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20473,   1,   33554826) /* Setup */
-     , (20473,   8,  100676952) /* Icon */
-     , (20473,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20473,   1, 0x0200018A) /* Setup */
+     , (20473,   8, 0x06003558) /* Icon */
+     , (20473,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20473,  28,       2166) /* Spell - Tusker's Gift */;

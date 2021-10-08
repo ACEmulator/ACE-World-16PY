@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7403,   1, 'Faladha the Emissary') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7403,   1,   33554839) /* Setup */
-     , (7403,   2,  150994945) /* MotionTable */
-     , (7403,   3,  536870934) /* SoundTable */
-     , (7403,   4,  805306368) /* CombatTable */
-     , (7403,   6,   67110722) /* PaletteBase */
-     , (7403,   7,  268435558) /* ClothingBase */
-     , (7403,   8,  100667942) /* Icon */
-     , (7403,  22,  872415272) /* PhysicsEffectTable */
+VALUES (7403,   1, 0x02000197) /* Setup */
+     , (7403,   2, 0x09000001) /* MotionTable */
+     , (7403,   3, 0x20000016) /* SoundTable */
+     , (7403,   4, 0x30000000) /* CombatTable */
+     , (7403,   6, 0x04000742) /* PaletteBase */
+     , (7403,   7, 0x10000066) /* ClothingBase */
+     , (7403,   8, 0x06001226) /* Icon */
+     , (7403,  22, 0x34000028) /* PhysicsEffectTable */
      , (7403,  31,       7413) /* LinkedPortalOne - Aerlinthe Island Portal */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

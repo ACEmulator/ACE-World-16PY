@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (198,   1, 'Limestone Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (198,   1,   33556426) /* Setup */
-     , (198,   2,  150995073) /* MotionTable */
-     , (198,   3,  536870933) /* SoundTable */
-     , (198,   4,  805306376) /* CombatTable */
-     , (198,   6,   67112775) /* PaletteBase */
-     , (198,   7,  268435984) /* ClothingBase */
-     , (198,   8,  100667940) /* Icon */
-     , (198,  22,  872415324) /* PhysicsEffectTable */
+VALUES (198,   1, 0x020007CA) /* Setup */
+     , (198,   2, 0x09000081) /* MotionTable */
+     , (198,   3, 0x20000015) /* SoundTable */
+     , (198,   4, 0x30000008) /* CombatTable */
+     , (198,   6, 0x04000F47) /* PaletteBase */
+     , (198,   7, 0x10000210) /* ClothingBase */
+     , (198,   8, 0x06001224) /* Icon */
+     , (198,  22, 0x3400005C) /* PhysicsEffectTable */
      , (198,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -34,9 +34,9 @@ VALUES (19403,   1, 'New Claw Glyph') /* Name */
      , (19403,  16, 'A glyph with the image of a claw emblazoned upon it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19403,   1,   33556438) /* Setup */
-     , (19403,   3,  536870932) /* SoundTable */
-     , (19403,   6,   67111092) /* PaletteBase */
-     , (19403,   7,  268436386) /* ClothingBase */
-     , (19403,   8,  100672873) /* Icon */
-     , (19403,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19403,   1, 0x020007D6) /* Setup */
+     , (19403,   3, 0x20000014) /* SoundTable */
+     , (19403,   6, 0x040008B4) /* PaletteBase */
+     , (19403,   7, 0x100003A2) /* ClothingBase */
+     , (19403,   8, 0x06002569) /* Icon */
+     , (19403,  22, 0x3400002B) /* PhysicsEffectTable */;

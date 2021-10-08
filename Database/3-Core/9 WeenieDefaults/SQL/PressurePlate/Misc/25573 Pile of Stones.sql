@@ -28,10 +28,10 @@ VALUES (25573,   1, 'Pile of Stones') /* Name */
      , (25573,  17, 'As you shuffle through the stones, the sounds alert the inhabitants of the cavern.') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25573,   1,   33558434) /* Setup */
-     , (25573,   2,  150995252) /* MotionTable */
-     , (25573,   8,  100674798) /* Icon */
-     , (25573,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25573,   1, 0x02000FA2) /* Setup */
+     , (25573,   2, 0x09000134) /* MotionTable */
+     , (25573,   8, 0x06002CEE) /* Icon */
+     , (25573,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (25573,  16, 0x00000000) /* ActivationTarget */;

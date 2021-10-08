@@ -25,7 +25,7 @@ VALUES (2838,   1, 'Scroll of Hermetic Void III') /* Name */
      , (2838,  16, 'When learned, this spell decreases a magic casting implement''s mana conversion bonus by 30%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2838,   1,   33554826) /* Setup */
-     , (2838,   8,  100676671) /* Icon */
-     , (2838,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2838,   1, 0x0200018A) /* Setup */
+     , (2838,   8, 0x0600343F) /* Icon */
+     , (2838,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2838,  28,       1471) /* Spell - Hermetic Void III */;

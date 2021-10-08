@@ -26,7 +26,7 @@ VALUES (28986,   1, 'Burial Urn') /* Name */
      , (28986,  15, 'An urn used to inter the vital organs of Xi Ru.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28986,   1,   33558976) /* Setup */
-     , (28986,   3,  536870932) /* SoundTable */
-     , (28986,   8,  100677067) /* Icon */
-     , (28986,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28986,   1, 0x020011C0) /* Setup */
+     , (28986,   3, 0x20000014) /* SoundTable */
+     , (28986,   8, 0x060035CB) /* Icon */
+     , (28986,  22, 0x3400002B) /* PhysicsEffectTable */;

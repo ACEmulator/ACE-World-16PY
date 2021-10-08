@@ -63,12 +63,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9099,   1, 'Summoned Pulsar Wisp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9099,   1,   33556633) /* Setup */
-     , (9099,   2,  150994993) /* MotionTable */
-     , (9099,   3,  536870985) /* SoundTable */
-     , (9099,   4,  805306398) /* CombatTable */
-     , (9099,   8,  100668442) /* Icon */
-     , (9099,  22,  872415274) /* PhysicsEffectTable */
+VALUES (9099,   1, 0x02000899) /* Setup */
+     , (9099,   2, 0x09000031) /* MotionTable */
+     , (9099,   3, 0x20000049) /* SoundTable */
+     , (9099,   4, 0x3000001E) /* CombatTable */
+     , (9099,   8, 0x0600141A) /* Icon */
+     , (9099,  22, 0x3400002A) /* PhysicsEffectTable */
      , (9099,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

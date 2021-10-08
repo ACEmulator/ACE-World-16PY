@@ -25,8 +25,8 @@ VALUES (25324,   1, 'Alloy Contrivance') /* Name */
      , (25324,  33, 'UndeadMechanismPickup10') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25324,   1,   33558439) /* Setup */
-     , (25324,   3,  536870932) /* SoundTable */
-     , (25324,   6,   67111919) /* PaletteBase */
-     , (25324,   8,  100674833) /* Icon */
-     , (25324,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25324,   1, 0x02000FA7) /* Setup */
+     , (25324,   3, 0x20000014) /* SoundTable */
+     , (25324,   6, 0x04000BEF) /* PaletteBase */
+     , (25324,   8, 0x06002D11) /* Icon */
+     , (25324,  22, 0x3400002B) /* PhysicsEffectTable */;

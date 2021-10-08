@@ -36,9 +36,9 @@ VALUES (30346,   1, 'Drifter''s Atlatl') /* Name */
      , (30346,  16, 'Describe me here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30346,   1,   33557433) /* Setup */
-     , (30346,   3,  536870932) /* SoundTable */
-     , (30346,   6,   67111919) /* PaletteBase */
-     , (30346,   7,  268436304) /* ClothingBase */
-     , (30346,   8,  100672372) /* Icon */
-     , (30346,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30346,   1, 0x02000BB9) /* Setup */
+     , (30346,   3, 0x20000014) /* SoundTable */
+     , (30346,   6, 0x04000BEF) /* PaletteBase */
+     , (30346,   7, 0x10000350) /* ClothingBase */
+     , (30346,   8, 0x06002374) /* Icon */
+     , (30346,  22, 0x3400002B) /* PhysicsEffectTable */;

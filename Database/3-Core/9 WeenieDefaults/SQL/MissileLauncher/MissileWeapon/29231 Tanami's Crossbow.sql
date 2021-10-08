@@ -46,10 +46,10 @@ VALUES (29231,   1, 'Tanami''s Crossbow') /* Name */
      , (29231,  16, 'This crossbow was a gift from Tanami Kei of Ayan Baqur.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29231,   1,   33559119) /* Setup */
-     , (29231,   3,  536870932) /* SoundTable */
-     , (29231,   8,  100677364) /* Icon */
-     , (29231,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29231,   1, 0x0200124F) /* Setup */
+     , (29231,   3, 0x20000014) /* SoundTable */
+     , (29231,   8, 0x060036F4) /* Icon */
+     , (29231,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29231,  1605,      2)  /* Aura of Defender Self VI */

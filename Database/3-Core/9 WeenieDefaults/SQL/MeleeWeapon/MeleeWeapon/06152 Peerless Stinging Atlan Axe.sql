@@ -45,12 +45,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6152,   1, 'Peerless Stinging Atlan Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6152,   1,   33556304) /* Setup */
-     , (6152,   3,  536870932) /* SoundTable */
-     , (6152,   6,   67111919) /* PaletteBase */
-     , (6152,   7,  268435883) /* ClothingBase */
-     , (6152,   8,  100670514) /* Icon */
-     , (6152,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6152,   1, 0x02000750) /* Setup */
+     , (6152,   3, 0x20000014) /* SoundTable */
+     , (6152,   6, 0x04000BEF) /* PaletteBase */
+     , (6152,   7, 0x100001AB) /* ClothingBase */
+     , (6152,   8, 0x06001C32) /* Icon */
+     , (6152,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6152,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

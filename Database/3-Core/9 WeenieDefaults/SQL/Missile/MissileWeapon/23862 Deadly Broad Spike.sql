@@ -45,7 +45,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23862,   1, 'Deadly Broad Spike') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23862,   1,   33558197) /* Setup */
-     , (23862,   3,  536870932) /* SoundTable */
-     , (23862,   8,  100674048) /* Icon */
-     , (23862,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23862,   1, 0x02000EB5) /* Setup */
+     , (23862,   3, 0x20000014) /* SoundTable */
+     , (23862,   8, 0x06002A00) /* Icon */
+     , (23862,  22, 0x3400002B) /* PhysicsEffectTable */;

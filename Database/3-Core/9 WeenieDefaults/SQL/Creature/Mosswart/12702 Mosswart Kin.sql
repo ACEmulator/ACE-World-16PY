@@ -62,14 +62,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12702,   1, 'Mosswart Kin') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12702,   1,   33557327) /* Setup */
-     , (12702,   2,  150994953) /* MotionTable */
-     , (12702,   3,  536870959) /* SoundTable */
-     , (12702,   4,  805306373) /* CombatTable */
-     , (12702,   6,   67113400) /* PaletteBase */
-     , (12702,   7,  268436292) /* ClothingBase */
-     , (12702,   8,  100667449) /* Icon */
-     , (12702,  22,  872415264) /* PhysicsEffectTable */
+VALUES (12702,   1, 0x02000B4F) /* Setup */
+     , (12702,   2, 0x09000009) /* MotionTable */
+     , (12702,   3, 0x2000002F) /* SoundTable */
+     , (12702,   4, 0x30000005) /* CombatTable */
+     , (12702,   6, 0x040011B8) /* PaletteBase */
+     , (12702,   7, 0x10000344) /* ClothingBase */
+     , (12702,   8, 0x06001039) /* Icon */
+     , (12702,  22, 0x34000020) /* PhysicsEffectTable */
      , (12702,  32,        129) /* WieldedTreasureType - 
                                    Wield Budiaq (308) | Probability: 12%
                                    Wield Khanjar (328) | Probability: 25%

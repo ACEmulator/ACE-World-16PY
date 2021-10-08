@@ -62,12 +62,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11729,   1, 'Olthoi Soldier') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11729,   1,   33557162) /* Setup */
-     , (11729,   2,  150994946) /* MotionTable */
-     , (11729,   3,  536870925) /* SoundTable */
-     , (11729,   4,  805306395) /* CombatTable */
-     , (11729,   8,  100667623) /* Icon */
-     , (11729,  22,  872415265) /* PhysicsEffectTable */
+VALUES (11729,   1, 0x02000AAA) /* Setup */
+     , (11729,   2, 0x09000002) /* MotionTable */
+     , (11729,   3, 0x2000000D) /* SoundTable */
+     , (11729,   4, 0x3000001B) /* CombatTable */
+     , (11729,   8, 0x060010E7) /* Icon */
+     , (11729,  22, 0x34000021) /* PhysicsEffectTable */
      , (11729,  30,         86) /* PhysicsScript - BreatheAcid */
      , (11729,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 

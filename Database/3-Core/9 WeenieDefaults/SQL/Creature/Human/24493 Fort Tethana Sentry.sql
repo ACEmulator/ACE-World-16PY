@@ -66,11 +66,11 @@ VALUES (24493,   1, 'Fort Tethana Sentry') /* Name */
      , (24493,   5, 'Sentry') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24493,   1,   33554433) /* Setup */
-     , (24493,   2,  150994945) /* MotionTable */
-     , (24493,   3,  536870913) /* SoundTable */
-     , (24493,   4,  805306368) /* CombatTable */
-     , (24493,   8,  100667446) /* Icon */;
+VALUES (24493,   1, 0x02000001) /* Setup */
+     , (24493,   2, 0x09000001) /* MotionTable */
+     , (24493,   3, 0x20000001) /* SoundTable */
+     , (24493,   4, 0x30000000) /* CombatTable */
+     , (24493,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (24493,  16, 0x72581042) /* ActivationTarget */;

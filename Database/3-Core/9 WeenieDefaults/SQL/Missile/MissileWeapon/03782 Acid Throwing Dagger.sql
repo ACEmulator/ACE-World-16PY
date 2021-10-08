@@ -41,7 +41,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3782,   1, 'Acid Throwing Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3782,   1,   33555713) /* Setup */
-     , (3782,   3,  536870932) /* SoundTable */
-     , (3782,   8,  100667590) /* Icon */
-     , (3782,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3782,   1, 0x02000501) /* Setup */
+     , (3782,   3, 0x20000014) /* SoundTable */
+     , (3782,   8, 0x060010C6) /* Icon */
+     , (3782,  22, 0x3400002B) /* PhysicsEffectTable */;

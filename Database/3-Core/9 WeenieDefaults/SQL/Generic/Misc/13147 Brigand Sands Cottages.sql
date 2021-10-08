@@ -22,5 +22,5 @@ VALUES (13147,   1, 'Brigand Sands Cottages') /* Name */
      , (13147,  16, 'Welcome to Brigand Sands Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13147,   1,   33557463) /* Setup */
-     , (13147,   8,  100668115) /* Icon */;
+VALUES (13147,   1, 0x02000BD7) /* Setup */
+     , (13147,   8, 0x060012D3) /* Icon */;

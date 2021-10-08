@@ -25,10 +25,10 @@ VALUES (8260,   1, 'Translated Sotiris Note') /* Name */
      , (8260,  16, 'A note translated by Diyas al-Yat, from a fragment of obsidian found in the possession of a Virindi.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8260,   1,   33554773) /* Setup */
-     , (8260,   3,  536870932) /* SoundTable */
-     , (8260,   8,  100668176) /* Icon */
-     , (8260,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8260,   1, 0x02000155) /* Setup */
+     , (8260,   3, 0x20000014) /* SoundTable */
+     , (8260,   8, 0x06001310) /* Icon */
+     , (8260,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (8260, 2, 1000);

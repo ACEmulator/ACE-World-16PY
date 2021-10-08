@@ -48,10 +48,10 @@ VALUES (30677,   1, 'Anemic Atlatl') /* Name */
      , (30677,  33, 'WitheredAtollAtlatl0105') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30677,   1,   33559214) /* Setup */
-     , (30677,   3,  536870932) /* SoundTable */
-     , (30677,   8,  100677398) /* Icon */
-     , (30677,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30677,   1, 0x020012AE) /* Setup */
+     , (30677,   3, 0x20000014) /* SoundTable */
+     , (30677,   8, 0x06003716) /* Icon */
+     , (30677,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30677,  1616,      2)  /* Aura of Blood Drinker Self VI */;

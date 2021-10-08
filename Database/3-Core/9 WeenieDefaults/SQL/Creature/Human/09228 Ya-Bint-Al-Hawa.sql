@@ -64,11 +64,11 @@ VALUES (9228,   1, 'Ya-Bint-Al-Hawa') /* Name */
      , (9228,   5, 'Undead Hunter') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9228,   1,   33554510) /* Setup */
-     , (9228,   2,  150994945) /* MotionTable */
-     , (9228,   3,  536870914) /* SoundTable */
-     , (9228,   4,  805306368) /* CombatTable */
-     , (9228,   8,  100667446) /* Icon */;
+VALUES (9228,   1, 0x0200004E) /* Setup */
+     , (9228,   2, 0x09000001) /* MotionTable */
+     , (9228,   3, 0x20000002) /* SoundTable */
+     , (9228,   4, 0x30000000) /* CombatTable */
+     , (9228,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9228,   1, 190, 0, 0) /* Strength */

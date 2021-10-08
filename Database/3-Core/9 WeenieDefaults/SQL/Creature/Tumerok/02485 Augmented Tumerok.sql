@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2485,   1, 'Augmented Tumerok') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2485,   1,   33554496) /* Setup */
-     , (2485,   2,  150994954) /* MotionTable */
-     , (2485,   3,  536870931) /* SoundTable */
-     , (2485,   4,  805306380) /* CombatTable */
-     , (2485,   6,   67109314) /* PaletteBase */
-     , (2485,   7,  268435647) /* ClothingBase */
-     , (2485,   8,  100667452) /* Icon */
-     , (2485,  22,  872415270) /* PhysicsEffectTable */
+VALUES (2485,   1, 0x02000040) /* Setup */
+     , (2485,   2, 0x0900000A) /* MotionTable */
+     , (2485,   3, 0x20000013) /* SoundTable */
+     , (2485,   4, 0x3000000C) /* CombatTable */
+     , (2485,   6, 0x040001C2) /* PaletteBase */
+     , (2485,   7, 0x100000BF) /* ClothingBase */
+     , (2485,   8, 0x0600103C) /* Icon */
+     , (2485,  22, 0x34000026) /* PhysicsEffectTable */
      , (2485,  32,        274) /* WieldedTreasureType - 
                                    Wield Fire Tachi (23708) | Probability: 25%
                                    Wield Tachi (23702) | Probability: 25%

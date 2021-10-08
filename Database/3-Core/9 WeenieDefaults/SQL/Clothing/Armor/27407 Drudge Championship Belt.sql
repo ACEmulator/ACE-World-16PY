@@ -46,12 +46,12 @@ VALUES (27407,   1, 'Drudge Championship Belt') /* Name */
      , (27407,  33, 'PickedUpGirthDrudgeFight') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27407,   1,   33558679) /* Setup */
-     , (27407,   3,  536870932) /* SoundTable */
-     , (27407,   6,   67108990) /* PaletteBase */
-     , (27407,   7,  268436819) /* ClothingBase */
-     , (27407,   8,  100676409) /* Icon */
-     , (27407,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27407,   1, 0x02001097) /* Setup */
+     , (27407,   3, 0x20000014) /* SoundTable */
+     , (27407,   6, 0x0400007E) /* PaletteBase */
+     , (27407,   7, 0x10000553) /* ClothingBase */
+     , (27407,   8, 0x06003339) /* Icon */
+     , (27407,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27407,  1997,      2)  /* Life Giver */

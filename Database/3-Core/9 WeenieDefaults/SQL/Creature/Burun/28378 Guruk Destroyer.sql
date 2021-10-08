@@ -61,14 +61,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28378,   1, 'Guruk Destroyer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28378,   1,   33558749) /* Setup */
-     , (28378,   2,  150995298) /* MotionTable */
-     , (28378,   3,  536871093) /* SoundTable */
-     , (28378,   4,  805306428) /* CombatTable */
-     , (28378,   6,   67115196) /* PaletteBase */
-     , (28378,   7,  268436827) /* ClothingBase */
-     , (28378,   8,  100676549) /* Icon */
-     , (28378,  22,  872415402) /* PhysicsEffectTable */
+VALUES (28378,   1, 0x020010DD) /* Setup */
+     , (28378,   2, 0x09000162) /* MotionTable */
+     , (28378,   3, 0x200000B5) /* SoundTable */
+     , (28378,   4, 0x3000003C) /* CombatTable */
+     , (28378,   6, 0x040018BC) /* PaletteBase */
+     , (28378,   7, 0x1000055B) /* ClothingBase */
+     , (28378,   8, 0x060033C5) /* Icon */
+     , (28378,  22, 0x340000AA) /* PhysicsEffectTable */
      , (28378,  32,        474) /* WieldedTreasureType - 
                                    Wield Stone Axe (27867) | Probability: 22%
                                    Wield 10x Muck Ball (27875) | Probability: 22%

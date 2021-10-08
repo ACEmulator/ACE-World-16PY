@@ -22,10 +22,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11974,   1, 'Aun Shimauri''s Instructions') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11974,   1,   33554771) /* Setup */
-     , (11974,   3,  536870932) /* SoundTable */
-     , (11974,   8,  100668117) /* Icon */
-     , (11974,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11974,   1, 0x02000153) /* Setup */
+     , (11974,   3, 0x20000014) /* SoundTable */
+     , (11974,   8, 0x060012D5) /* Icon */
+     , (11974,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (11974, 39, 1000);

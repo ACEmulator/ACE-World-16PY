@@ -25,7 +25,7 @@ VALUES (1684,   1, 'Scroll of Armor Tinkering Ignorance') /* Name */
      , (1684,  16, 'When learned, this spell decreases the target''s Armor Tinkering skill by 9%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1684,   1,   33554826) /* Setup */
-     , (1684,   8,  100676477) /* Icon */
-     , (1684,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1684,   1, 0x0200018A) /* Setup */
+     , (1684,   8, 0x0600337D) /* Icon */
+     , (1684,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1684,  28,        720) /* Spell - Armor Tinkering Ignorance Other I */;

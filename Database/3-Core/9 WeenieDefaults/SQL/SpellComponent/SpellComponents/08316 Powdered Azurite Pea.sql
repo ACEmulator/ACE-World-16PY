@@ -31,10 +31,10 @@ VALUES (8316,   1, 'Powdered Azurite Pea') /* Name */
      , (8316,  16, 'A concentrated powdered azurite pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8316,   1,   33555208) /* Setup */
-     , (8316,   3,  536870932) /* SoundTable */
-     , (8316,   6,   67111919) /* PaletteBase */
-     , (8316,   7,  268435778) /* ClothingBase */
-     , (8316,   8,  100671066) /* Icon */
-     , (8316,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8316,   1, 0x02000308) /* Setup */
+     , (8316,   3, 0x20000014) /* SoundTable */
+     , (8316,   6, 0x04000BEF) /* PaletteBase */
+     , (8316,   7, 0x10000142) /* ClothingBase */
+     , (8316,   8, 0x06001E5A) /* Icon */
+     , (8316,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8316,  29,        139) /* SpellComponent */;

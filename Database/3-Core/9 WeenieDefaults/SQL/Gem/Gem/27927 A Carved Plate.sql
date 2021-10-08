@@ -25,7 +25,7 @@ VALUES (27927,   1, 'A Carved Plate') /* Name */
      , (27927,  15, 'A plate with a relief carved into the face. The relief is of a triangle turned on its side with a small dot located along the longest side.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27927,   1,   33558774) /* Setup */
-     , (27927,   3,  536870932) /* SoundTable */
-     , (27927,   8,  100676562) /* Icon */
-     , (27927,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27927,   1, 0x020010F6) /* Setup */
+     , (27927,   3, 0x20000014) /* SoundTable */
+     , (27927,   8, 0x060033D2) /* Icon */
+     , (27927,  22, 0x3400002B) /* PhysicsEffectTable */;

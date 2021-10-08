@@ -49,12 +49,12 @@ VALUES (22987,   1, 'Silifi of Crimson Stars') /* Name */
      , (22987,  16, 'The Silifi of Crimson Stars, its blade repaired using the spine of a Island Armoredillo. It is fitted with the rubies Al-Khur and Mahwan. There is a notch for one more.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22987,   1,   33556553) /* Setup */
-     , (22987,   3,  536870932) /* SoundTable */
-     , (22987,   6,   67111919) /* PaletteBase */
-     , (22987,   7,  268435986) /* ClothingBase */
-     , (22987,   8,  100670611) /* Icon */
-     , (22987,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22987,   1, 0x02000849) /* Setup */
+     , (22987,   3, 0x20000014) /* SoundTable */
+     , (22987,   6, 0x04000BEF) /* PaletteBase */
+     , (22987,   7, 0x10000212) /* ClothingBase */
+     , (22987,   8, 0x06001C93) /* Icon */
+     , (22987,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22987,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -29,8 +29,8 @@ VALUES (14770,   1, 'Peppermint Hot Chocolate') /* Name */
      , (14770,  20, 'Cups of Peppermint Hot Chocolate') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14770,   1,   33554662) /* Setup */
-     , (14770,   3,  536870932) /* SoundTable */
-     , (14770,   8,  100672556) /* Icon */
-     , (14770,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14770,   1, 0x020000E6) /* Setup */
+     , (14770,   3, 0x20000014) /* SoundTable */
+     , (14770,   8, 0x0600242C) /* Icon */
+     , (14770,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14770,  23,         65) /* UseSound - Drink1 */;

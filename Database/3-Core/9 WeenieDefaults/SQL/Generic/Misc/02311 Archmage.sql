@@ -22,7 +22,7 @@ VALUES (2311,   1, 'Archmage') /* Name */
      , (2311,  16, 'Archmage Shop') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2311,   1,   33555088) /* Setup */
-     , (2311,   6,   67111092) /* PaletteBase */
-     , (2311,   7,  268435669) /* ClothingBase */
-     , (2311,   8,  100668115) /* Icon */;
+VALUES (2311,   1, 0x02000290) /* Setup */
+     , (2311,   6, 0x040008B4) /* PaletteBase */
+     , (2311,   7, 0x100000D5) /* ClothingBase */
+     , (2311,   8, 0x060012D3) /* Icon */;

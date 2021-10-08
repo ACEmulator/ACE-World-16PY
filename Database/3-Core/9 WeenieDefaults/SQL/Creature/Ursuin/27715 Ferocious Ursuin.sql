@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27715,   1, 'Ferocious Ursuin') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27715,   1,   33556773) /* Setup */
-     , (27715,   2,  150995100) /* MotionTable */
-     , (27715,   3,  536871011) /* SoundTable */
-     , (27715,   4,  805306409) /* CombatTable */
-     , (27715,   6,   67112944) /* PaletteBase */
-     , (27715,   7,  268436633) /* ClothingBase */
-     , (27715,   8,  100670959) /* Icon */
-     , (27715,  22,  872415366) /* PhysicsEffectTable */
+VALUES (27715,   1, 0x02000925) /* Setup */
+     , (27715,   2, 0x0900009C) /* MotionTable */
+     , (27715,   3, 0x20000063) /* SoundTable */
+     , (27715,   4, 0x30000029) /* CombatTable */
+     , (27715,   6, 0x04000FF0) /* PaletteBase */
+     , (27715,   7, 0x10000499) /* ClothingBase */
+     , (27715,   8, 0x06001DEF) /* Icon */
+     , (27715,  22, 0x34000086) /* PhysicsEffectTable */
      , (27715,  35,        456) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

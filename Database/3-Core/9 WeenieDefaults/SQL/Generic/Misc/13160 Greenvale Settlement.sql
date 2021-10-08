@@ -22,5 +22,5 @@ VALUES (13160,   1, 'Greenvale Settlement') /* Name */
      , (13160,  16, 'Welcome to Greenvale Settlement') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13160,   1,   33557463) /* Setup */
-     , (13160,   8,  100668115) /* Icon */;
+VALUES (13160,   1, 0x02000BD7) /* Setup */
+     , (13160,   8, 0x060012D3) /* Icon */;

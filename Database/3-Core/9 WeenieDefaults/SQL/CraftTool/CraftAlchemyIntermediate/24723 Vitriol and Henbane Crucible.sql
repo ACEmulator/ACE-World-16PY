@@ -31,8 +31,8 @@ VALUES (24723,   1, 'Vitriol and Henbane Crucible') /* Name */
      , (24723,  20, 'Vitriol and Henbane Crucibles') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24723,   1,   33555966) /* Setup */
-     , (24723,   3,  536870932) /* SoundTable */
-     , (24723,   8,  100674463) /* Icon */
-     , (24723,  22,  872415275) /* PhysicsEffectTable */
-     , (24723,  50,  100674414) /* IconOverlay */;
+VALUES (24723,   1, 0x020005FE) /* Setup */
+     , (24723,   3, 0x20000014) /* SoundTable */
+     , (24723,   8, 0x06002B9F) /* Icon */
+     , (24723,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24723,  50, 0x06002B6E) /* IconOverlay */;

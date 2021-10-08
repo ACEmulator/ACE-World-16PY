@@ -38,8 +38,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (251,   1, 'Platter') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (251,   1,   33554930) /* Setup */
-     , (251,   3,  536870932) /* SoundTable */
-     , (251,   8,  100668119) /* Icon */
-     , (251,  22,  872415275) /* PhysicsEffectTable */
-     , (251,  36,  234881046) /* MutateFilter */;
+VALUES (251,   1, 0x020001F2) /* Setup */
+     , (251,   3, 0x20000014) /* SoundTable */
+     , (251,   8, 0x060012D7) /* Icon */
+     , (251,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (251,  36, 0x0E000016) /* MutateFilter */;

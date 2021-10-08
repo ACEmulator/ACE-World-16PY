@@ -29,5 +29,5 @@ VALUES (28907,   1, 'Mushroom and Rice Dough') /* Name */
      , (28907,  20, 'Batches of Mushroom and Rice Dough') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28907,   1,   33557505) /* Setup */
-     , (28907,   8,  100677047) /* Icon */;
+VALUES (28907,   1, 0x02000C01) /* Setup */
+     , (28907,   8, 0x060035B7) /* Icon */;

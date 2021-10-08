@@ -27,7 +27,7 @@ VALUES (10869,   1, 'Treated Canescent Mattekar Pelt') /* Name */
      , (10869,  15, 'A pelt of the Canescent Mattekar, treated with Olthoi ichor.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10869,   1,   33554817) /* Setup */
-     , (10869,   3,  536870932) /* SoundTable */
-     , (10869,   8,  100672040) /* Icon */
-     , (10869,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (10869,   1, 0x02000181) /* Setup */
+     , (10869,   3, 0x20000014) /* SoundTable */
+     , (10869,   8, 0x06002228) /* Icon */
+     , (10869,  22, 0x3400002B) /* PhysicsEffectTable */;

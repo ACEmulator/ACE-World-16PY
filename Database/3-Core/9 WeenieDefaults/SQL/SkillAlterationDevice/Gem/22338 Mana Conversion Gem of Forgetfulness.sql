@@ -25,8 +25,8 @@ VALUES (22338,   1, 'Mana Conversion Gem of Forgetfulness') /* Name */
      , (22338,  33, 'SkillAlterationGemPickedUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22338,   1,   33558087) /* Setup */
-     , (22338,   6,   67111919) /* PaletteBase */
-     , (22338,   7,  268435723) /* ClothingBase */
-     , (22338,   8,  100673789) /* Icon */
-     , (22338,  50,  100673777) /* IconOverlay */;
+VALUES (22338,   1, 0x02000E47) /* Setup */
+     , (22338,   6, 0x04000BEF) /* PaletteBase */
+     , (22338,   7, 0x1000010B) /* ClothingBase */
+     , (22338,   8, 0x060028FD) /* Icon */
+     , (22338,  50, 0x060028F1) /* IconOverlay */;

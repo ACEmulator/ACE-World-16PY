@@ -47,12 +47,12 @@ VALUES (23930,   1, 'Auroric Exarch Coat') /* Name */
      , (23930,  16, 'A richly enchanted and ornate coat once worn by the Sentinels of Perfect Light, an order dedicated to aiding Lord Asheron against the darkness. The seal of the Lightbringer adorns the chestplate.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23930,   1,   33554644) /* Setup */
-     , (23930,   3,  536870932) /* SoundTable */
-     , (23930,   6,   67108990) /* PaletteBase */
-     , (23930,   7,  268436554) /* ClothingBase */
-     , (23930,   8,  100674123) /* Icon */
-     , (23930,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23930,   1, 0x020000D4) /* Setup */
+     , (23930,   3, 0x20000014) /* SoundTable */
+     , (23930,   6, 0x0400007E) /* PaletteBase */
+     , (23930,   7, 0x1000044A) /* ClothingBase */
+     , (23930,   8, 0x06002A4B) /* Icon */
+     , (23930,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23930,  2350,      2)  /* Greater Decay Durance */

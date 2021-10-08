@@ -27,9 +27,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23315,   1, 'Rusted Medalion') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23315,   1,   33554680) /* Setup */
-     , (23315,   3,  536870932) /* SoundTable */
-     , (23315,   6,   67111919) /* PaletteBase */
-     , (23315,   7,  268435735) /* ClothingBase */
-     , (23315,   8,  100674226) /* Icon */
-     , (23315,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23315,   1, 0x020000F8) /* Setup */
+     , (23315,   3, 0x20000014) /* SoundTable */
+     , (23315,   6, 0x04000BEF) /* PaletteBase */
+     , (23315,   7, 0x10000117) /* ClothingBase */
+     , (23315,   8, 0x06002AB2) /* Icon */
+     , (23315,  22, 0x3400002B) /* PhysicsEffectTable */;

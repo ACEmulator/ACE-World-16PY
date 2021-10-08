@@ -35,13 +35,13 @@ VALUES (27682,   1, 'Renegade Bone Charm') /* Name */
      , (27682,  16, 'The finger bones of Renegade Tumerok enemies have been placed on a sturdy metal band and enchanted.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27682,   1,   33554680) /* Setup */
-     , (27682,   3,  536870932) /* SoundTable */
-     , (27682,   6,   67111919) /* PaletteBase */
-     , (27682,   7,  268435735) /* ClothingBase */
-     , (27682,   8,  100676524) /* Icon */
-     , (27682,  22,  872415275) /* PhysicsEffectTable */
-     , (27682,  36,  234881046) /* MutateFilter */;
+VALUES (27682,   1, 0x020000F8) /* Setup */
+     , (27682,   3, 0x20000014) /* SoundTable */
+     , (27682,   6, 0x04000BEF) /* PaletteBase */
+     , (27682,   7, 0x10000117) /* ClothingBase */
+     , (27682,   8, 0x060033AC) /* Icon */
+     , (27682,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27682,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27682,  3239,      2)  /* Insight of the Khe */

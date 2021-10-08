@@ -38,9 +38,9 @@ VALUES (25525,   1, 'Mutilator Helm') /* Name */
      , (25525,  15, 'This helm was crafted from the hollowed out head of an Olthoi Mutilator. The thick chitin of the mutilator provides good protection.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25525,   1,   33558493) /* Setup */
-     , (25525,   3,  536870932) /* SoundTable */
-     , (25525,   6,   67108990) /* PaletteBase */
-     , (25525,   7,  268436686) /* ClothingBase */
-     , (25525,   8,  100674951) /* Icon */
-     , (25525,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25525,   1, 0x02000FDD) /* Setup */
+     , (25525,   3, 0x20000014) /* SoundTable */
+     , (25525,   6, 0x0400007E) /* PaletteBase */
+     , (25525,   7, 0x100004CE) /* ClothingBase */
+     , (25525,   8, 0x06002D87) /* Icon */
+     , (25525,  22, 0x3400002B) /* PhysicsEffectTable */;

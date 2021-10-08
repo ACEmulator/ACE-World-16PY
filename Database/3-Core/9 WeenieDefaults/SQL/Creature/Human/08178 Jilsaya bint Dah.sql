@@ -67,13 +67,13 @@ VALUES (8178,   1, 'Jilsaya bint Dah') /* Name */
      , (8178,   5, 'Alchemist') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8178,   1,   33554510) /* Setup */
-     , (8178,   2,  150994945) /* MotionTable */
-     , (8178,   3,  536870914) /* SoundTable */
-     , (8178,   4,  805306368) /* CombatTable */
-     , (8178,   6,   67108990) /* PaletteBase */
-     , (8178,   7,  268435545) /* ClothingBase */
-     , (8178,   8,  100667446) /* Icon */;
+VALUES (8178,   1, 0x0200004E) /* Setup */
+     , (8178,   2, 0x09000001) /* MotionTable */
+     , (8178,   3, 0x20000002) /* SoundTable */
+     , (8178,   4, 0x30000000) /* CombatTable */
+     , (8178,   6, 0x0400007E) /* PaletteBase */
+     , (8178,   7, 0x10000059) /* ClothingBase */
+     , (8178,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8178,   1,  60, 0, 0) /* Strength */

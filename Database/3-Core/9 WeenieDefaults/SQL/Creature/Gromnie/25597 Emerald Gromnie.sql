@@ -61,14 +61,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25597,   1, 'Emerald Gromnie') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25597,   1,   33554487) /* Setup */
-     , (25597,   2,  150994971) /* MotionTable */
-     , (25597,   3,  536870921) /* SoundTable */
-     , (25597,   4,  805306386) /* CombatTable */
-     , (25597,   6,   67109547) /* PaletteBase */
-     , (25597,   7,  268435631) /* ClothingBase */
-     , (25597,   8,  100667938) /* Icon */
-     , (25597,  22,  872415260) /* PhysicsEffectTable */
+VALUES (25597,   1, 0x02000037) /* Setup */
+     , (25597,   2, 0x0900001B) /* MotionTable */
+     , (25597,   3, 0x20000009) /* SoundTable */
+     , (25597,   4, 0x30000012) /* CombatTable */
+     , (25597,   6, 0x040002AB) /* PaletteBase */
+     , (25597,   7, 0x100000AF) /* ClothingBase */
+     , (25597,   8, 0x06001222) /* Icon */
+     , (25597,  22, 0x3400001C) /* PhysicsEffectTable */
      , (25597,  30,         86) /* PhysicsScript - BreatheAcid */
      , (25597,  35,        458) /* DeathTreasureType - Loot Tier: 5 */;
 

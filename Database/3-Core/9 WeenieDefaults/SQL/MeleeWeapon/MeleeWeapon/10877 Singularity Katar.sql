@@ -47,13 +47,13 @@ VALUES (10877,   1, 'Singularity Katar') /* Name */
      , (10877,  15, 'A katar imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10877,   1,   33557315) /* Setup */
-     , (10877,   3,  536870932) /* SoundTable */
-     , (10877,   6,   67111919) /* PaletteBase */
-     , (10877,   7,  268436241) /* ClothingBase */
-     , (10877,   8,  100672044) /* Icon */
-     , (10877,  22,  872415275) /* PhysicsEffectTable */
-     , (10877,  36,  234881044) /* MutateFilter */
+VALUES (10877,   1, 0x02000B43) /* Setup */
+     , (10877,   3, 0x20000014) /* SoundTable */
+     , (10877,   6, 0x04000BEF) /* PaletteBase */
+     , (10877,   7, 0x10000311) /* ClothingBase */
+     , (10877,   8, 0x0600222C) /* Icon */
+     , (10877,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (10877,  36, 0x0E000014) /* MutateFilter */
      , (10877,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

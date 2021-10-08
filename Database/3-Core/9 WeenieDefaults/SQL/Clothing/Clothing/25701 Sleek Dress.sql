@@ -36,9 +36,9 @@ VALUES (25701,   1, 'Sleek Dress') /* Name */
      , (25701,  15, 'A dress designed by the Gharu''ndim tailor, Xuut. The fibers of the dress look as though they could withstand the dyeing process.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25701,   1,   33554854) /* Setup */
-     , (25701,   3,  536870932) /* SoundTable */
-     , (25701,   6,   67108990) /* PaletteBase */
-     , (25701,   7,  268436722) /* ClothingBase */
-     , (25701,   8,  100670349) /* Icon */
-     , (25701,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25701,   1, 0x020001A6) /* Setup */
+     , (25701,   3, 0x20000014) /* SoundTable */
+     , (25701,   6, 0x0400007E) /* PaletteBase */
+     , (25701,   7, 0x100004F2) /* ClothingBase */
+     , (25701,   8, 0x06001B8D) /* Icon */
+     , (25701,  22, 0x3400002B) /* PhysicsEffectTable */;

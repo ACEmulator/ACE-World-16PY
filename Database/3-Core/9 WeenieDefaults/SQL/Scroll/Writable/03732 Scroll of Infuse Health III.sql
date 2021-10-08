@@ -25,7 +25,7 @@ VALUES (3732,   1, 'Scroll of Infuse Health III') /* Name */
      , (3732,  16, 'When learned, this spell drains one-quarter of the caster''s Health and gives 50% of that to the target.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3732,   1,   33554826) /* Setup */
-     , (3732,   8,  100676931) /* Icon */
-     , (3732,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3732,   1, 0x0200018A) /* Setup */
+     , (3732,   8, 0x06003543) /* Icon */
+     , (3732,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3732,  28,       1227) /* Spell - Infuse Health Other III */;

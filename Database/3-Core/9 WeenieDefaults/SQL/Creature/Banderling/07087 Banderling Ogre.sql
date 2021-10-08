@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7087,   1, 'Banderling Ogre') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7087,   1,   33558024) /* Setup */
-     , (7087,   2,  150994951) /* MotionTable */
-     , (7087,   3,  536870917) /* SoundTable */
-     , (7087,   4,  805306370) /* CombatTable */
-     , (7087,   6,   67114021) /* PaletteBase */
-     , (7087,   7,  268436496) /* ClothingBase */
-     , (7087,   8,  100667453) /* Icon */
-     , (7087,  22,  872415255) /* PhysicsEffectTable */
+VALUES (7087,   1, 0x02000E08) /* Setup */
+     , (7087,   2, 0x09000007) /* MotionTable */
+     , (7087,   3, 0x20000005) /* SoundTable */
+     , (7087,   4, 0x30000002) /* CombatTable */
+     , (7087,   6, 0x04001425) /* PaletteBase */
+     , (7087,   7, 0x10000410) /* ClothingBase */
+     , (7087,   8, 0x0600103D) /* Icon */
+     , (7087,  22, 0x34000017) /* PhysicsEffectTable */
      , (7087,  32,        270) /* WieldedTreasureType - 
                                    Wield 3x Throwing Axe (304) | Probability: 1%
                                    Wield 3x Throwing Club (310) | Probability: 1%

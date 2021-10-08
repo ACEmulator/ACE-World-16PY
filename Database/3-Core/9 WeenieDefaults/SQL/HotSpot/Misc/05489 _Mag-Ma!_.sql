@@ -36,6 +36,6 @@ VALUES (5489,   1, '"Mag-Ma!"') /* Name */
      , (5489,  17, 'You suffer %i damage from the liquid magma!') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5489,   1,   33556111) /* Setup */
-     , (5489,   3,  536870994) /* SoundTable */
-     , (5489,   8,  100667465) /* Icon */;
+VALUES (5489,   1, 0x0200068F) /* Setup */
+     , (5489,   3, 0x20000052) /* SoundTable */
+     , (5489,   8, 0x06001049) /* Icon */;

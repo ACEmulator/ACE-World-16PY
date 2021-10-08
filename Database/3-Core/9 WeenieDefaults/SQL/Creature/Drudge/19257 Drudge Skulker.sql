@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19257,   1, 'Drudge Skulker') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19257,   1,   33556445) /* Setup */
-     , (19257,   2,  150994952) /* MotionTable */
-     , (19257,   3,  536870919) /* SoundTable */
-     , (19257,   4,  805306372) /* CombatTable */
-     , (19257,   6,   67112812) /* PaletteBase */
-     , (19257,   7,  268435974) /* ClothingBase */
-     , (19257,   8,  100667445) /* Icon */
-     , (19257,  22,  872415258) /* PhysicsEffectTable */
+VALUES (19257,   1, 0x020007DD) /* Setup */
+     , (19257,   2, 0x09000008) /* MotionTable */
+     , (19257,   3, 0x20000007) /* SoundTable */
+     , (19257,   4, 0x30000004) /* CombatTable */
+     , (19257,   6, 0x04000F6C) /* PaletteBase */
+     , (19257,   7, 0x10000206) /* ClothingBase */
+     , (19257,   8, 0x06001035) /* Icon */
+     , (19257,  22, 0x3400001A) /* PhysicsEffectTable */
      , (19257,  32,         80) /* WieldedTreasureType - 
                                    Wield Jambiya (319) | Probability: 16%
                                    Wield Knife (329) | Probability: 17%

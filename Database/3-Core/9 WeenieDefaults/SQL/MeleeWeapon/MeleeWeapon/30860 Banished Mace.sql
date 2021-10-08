@@ -44,10 +44,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30860,   1, 'Banished Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30860,   1,   33559263) /* Setup */
-     , (30860,   3,  536870932) /* SoundTable */
-     , (30860,   8,  100677480) /* Icon */
-     , (30860,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30860,   1, 0x020012DF) /* Setup */
+     , (30860,   3, 0x20000014) /* SoundTable */
+     , (30860,   8, 0x06003768) /* Icon */
+     , (30860,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30860,  2557,      2)  /* Minor Light Weapon Aptitude */

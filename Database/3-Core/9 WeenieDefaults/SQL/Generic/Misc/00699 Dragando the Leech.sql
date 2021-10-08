@@ -22,7 +22,7 @@ VALUES (699,   1, 'Dragando the Leech') /* Name */
      , (699,  16, 'Dragando the Leech') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (699,   1,   33555088) /* Setup */
-     , (699,   6,   67111092) /* PaletteBase */
-     , (699,   7,  268435657) /* ClothingBase */
-     , (699,   8,  100668115) /* Icon */;
+VALUES (699,   1, 0x02000290) /* Setup */
+     , (699,   6, 0x040008B4) /* PaletteBase */
+     , (699,   7, 0x100000C9) /* ClothingBase */
+     , (699,   8, 0x060012D3) /* Icon */;

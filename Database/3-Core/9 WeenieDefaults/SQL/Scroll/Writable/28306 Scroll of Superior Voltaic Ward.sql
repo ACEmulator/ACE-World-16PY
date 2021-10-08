@@ -24,7 +24,7 @@ VALUES (28306,   1, 'Scroll of Superior Voltaic Ward') /* Name */
      , (28306,  15, 'When learned, this spell reduces damage all fellowship members take from Lightning by 65%.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28306,   1,   33554826) /* Setup */
-     , (28306,   8,  100676948) /* Icon */
-     , (28306,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28306,   1, 0x0200018A) /* Setup */
+     , (28306,   8, 0x06003554) /* Icon */
+     , (28306,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28306,  28,       3343) /* Spell - Superior Voltaic Ward */;

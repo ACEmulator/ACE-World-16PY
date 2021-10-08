@@ -38,11 +38,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2605,   1, 'Chainmail Greaves') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2605,   1,   33554641) /* Setup */
-     , (2605,   3,  536870932) /* SoundTable */
-     , (2605,   6,   67108990) /* PaletteBase */
-     , (2605,   7,  268435696) /* ClothingBase */
-     , (2605,   8,  100668804) /* Icon */
-     , (2605,  22,  872415275) /* PhysicsEffectTable */
-     , (2605,  36,  234881042) /* MutateFilter */
-     , (2605,  46,  939524146) /* TsysMutationFilter */;
+VALUES (2605,   1, 0x020000D1) /* Setup */
+     , (2605,   3, 0x20000014) /* SoundTable */
+     , (2605,   6, 0x0400007E) /* PaletteBase */
+     , (2605,   7, 0x100000F0) /* ClothingBase */
+     , (2605,   8, 0x06001584) /* Icon */
+     , (2605,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (2605,  36, 0x0E000012) /* MutateFilter */
+     , (2605,  46, 0x38000032) /* TsysMutationFilter */;

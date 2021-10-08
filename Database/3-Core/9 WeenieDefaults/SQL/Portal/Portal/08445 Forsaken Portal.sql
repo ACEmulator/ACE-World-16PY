@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8445,   1, 'Forsaken Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8445,   1,   33556733) /* Setup */
-     , (8445,   2,  150994947) /* MotionTable */
-     , (8445,   8,  100667499) /* Icon */;
+VALUES (8445,   1, 0x020008FD) /* Setup */
+     , (8445,   2, 0x09000003) /* MotionTable */
+     , (8445,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8445, 2, 0xF4260102, 111.5, 91.6, -4.8, -0.707107, 0, -0, -0.707107) /* Destination */

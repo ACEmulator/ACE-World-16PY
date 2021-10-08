@@ -24,8 +24,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5106,   1, 'SPELLCASTING ') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5106,   1,   33556014) /* Setup */
-     , (5106,   8,  100668115) /* Icon */;
+VALUES (5106,   1, 0x0200062E) /* Setup */
+     , (5106,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (5106, 1, 1000);

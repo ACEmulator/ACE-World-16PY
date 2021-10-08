@@ -65,12 +65,12 @@ VALUES (28963,   1, 'Bust of Asheron Realaidain') /* Name */
      , (28963,  16, 'A well carved bust of Asheron Realaidain. It is masterfully crafted and looks very well made. Jif Loz may know more about this.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28963,   1,   33558983) /* Setup */
-     , (28963,   2,  150995147) /* MotionTable */
-     , (28963,   3,  536871052) /* SoundTable */
-     , (28963,   4,  805306398) /* CombatTable */
-     , (28963,   8,  100677072) /* Icon */
-     , (28963,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (28963,   1, 0x020011C7) /* Setup */
+     , (28963,   2, 0x090000CB) /* MotionTable */
+     , (28963,   3, 0x2000008C) /* SoundTable */
+     , (28963,   4, 0x3000001E) /* CombatTable */
+     , (28963,   8, 0x060035D0) /* Icon */
+     , (28963,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28963,   1, 380, 0, 0) /* Strength */

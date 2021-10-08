@@ -29,8 +29,8 @@ VALUES (25678,   1, 'Repugnant Bracelet') /* Name */
      , (25678,  33, 'PickedUpBraceletRepugnant') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25678,   1,   33554682) /* Setup */
-     , (25678,   3,  536870932) /* SoundTable */
-     , (25678,   6,   67111092) /* PaletteBase */
-     , (25678,   8,  100675478) /* Icon */
-     , (25678,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25678,   1, 0x020000FA) /* Setup */
+     , (25678,   3, 0x20000014) /* SoundTable */
+     , (25678,   6, 0x040008B4) /* PaletteBase */
+     , (25678,   8, 0x06002F96) /* Icon */
+     , (25678,  22, 0x3400002B) /* PhysicsEffectTable */;

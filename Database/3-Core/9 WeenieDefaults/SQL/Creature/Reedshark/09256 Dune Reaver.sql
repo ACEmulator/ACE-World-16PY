@@ -60,14 +60,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9256,   1, 'Dune Reaver') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9256,   1,   33554489) /* Setup */
-     , (9256,   2,  150994970) /* MotionTable */
-     , (9256,   3,  536870928) /* SoundTable */
-     , (9256,   4,  805306378) /* CombatTable */
-     , (9256,   6,   67109313) /* PaletteBase */
-     , (9256,   7,  268435556) /* ClothingBase */
-     , (9256,   8,  100667939) /* Icon */
-     , (9256,  22,  872415268) /* PhysicsEffectTable */
+VALUES (9256,   1, 0x02000039) /* Setup */
+     , (9256,   2, 0x0900001A) /* MotionTable */
+     , (9256,   3, 0x20000010) /* SoundTable */
+     , (9256,   4, 0x3000000A) /* CombatTable */
+     , (9256,   6, 0x040001C1) /* PaletteBase */
+     , (9256,   7, 0x10000064) /* ClothingBase */
+     , (9256,   8, 0x06001223) /* Icon */
+     , (9256,  22, 0x34000024) /* PhysicsEffectTable */
      , (9256,  35,        457) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

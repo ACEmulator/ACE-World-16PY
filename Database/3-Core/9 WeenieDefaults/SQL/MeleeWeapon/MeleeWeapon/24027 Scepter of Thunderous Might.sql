@@ -50,10 +50,10 @@ VALUES (24027,   1, 'Scepter of Thunderous Might') /* Name */
      , (24027,  15, 'This scepter was wielded by the Elders of the Sentinels of Perfect Light. Ornate and ostentatious it appears to have been more a badge of office than a martial weapon.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24027,   1,   33558265) /* Setup */
-     , (24027,   3,  536870932) /* SoundTable */
-     , (24027,   8,  100674149) /* Icon */
-     , (24027,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24027,   1, 0x02000EF9) /* Setup */
+     , (24027,   3, 0x20000014) /* SoundTable */
+     , (24027,   8, 0x06002A65) /* Icon */
+     , (24027,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24027,  1605,      2)  /* Aura of Defender Self VI */

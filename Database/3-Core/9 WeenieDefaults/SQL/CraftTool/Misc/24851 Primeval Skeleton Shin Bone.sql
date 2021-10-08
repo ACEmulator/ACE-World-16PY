@@ -28,7 +28,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24851,   1, 'Primeval Skeleton Shin Bone') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24851,   1,   33558170) /* Setup */
-     , (24851,   3,  536870932) /* SoundTable */
-     , (24851,   8,  100674499) /* Icon */
-     , (24851,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24851,   1, 0x02000E9A) /* Setup */
+     , (24851,   3, 0x20000014) /* SoundTable */
+     , (24851,   8, 0x06002BC3) /* Icon */
+     , (24851,  22, 0x3400002B) /* PhysicsEffectTable */;

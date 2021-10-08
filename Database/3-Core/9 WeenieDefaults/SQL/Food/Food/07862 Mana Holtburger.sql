@@ -33,7 +33,7 @@ VALUES (7862,   1, 'Mana Holtburger') /* Name */
      , (7862,  20, 'Mana Holtburgers') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7862,   1,   33556680) /* Setup */
-     , (7862,   3,  536870932) /* SoundTable */
-     , (7862,   8,  100670859) /* Icon */
-     , (7862,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7862,   1, 0x020008C8) /* Setup */
+     , (7862,   3, 0x20000014) /* SoundTable */
+     , (7862,   8, 0x06001D8B) /* Icon */
+     , (7862,  22, 0x3400002B) /* PhysicsEffectTable */;

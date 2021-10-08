@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4590,   1, 'Revitalize Other II') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4590,   1,   33554667) /* Setup */
-     , (4590,   8,  100668299) /* Icon */
-     , (4590,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4590,   1, 0x020000EB) /* Setup */
+     , (4590,   8, 0x0600138B) /* Icon */
+     , (4590,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4590,  28,       1184) /* Spell - Revitalize Other II */;

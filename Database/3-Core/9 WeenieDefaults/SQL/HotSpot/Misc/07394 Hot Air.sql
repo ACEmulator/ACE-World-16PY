@@ -36,6 +36,6 @@ VALUES (7394,   1, 'Hot Air') /* Name */
      , (7394,  17, 'The ferocious heat of the forges blisters you for %i points of damage!') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7394,   1,   33556024) /* Setup */
-     , (7394,   3,  536870994) /* SoundTable */
-     , (7394,   8,  100667465) /* Icon */;
+VALUES (7394,   1, 0x02000638) /* Setup */
+     , (7394,   3, 0x20000052) /* SoundTable */
+     , (7394,   8, 0x06001049) /* Icon */;

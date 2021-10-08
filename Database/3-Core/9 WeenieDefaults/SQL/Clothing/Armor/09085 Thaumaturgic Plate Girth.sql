@@ -44,12 +44,12 @@ VALUES (9085,   1, 'Thaumaturgic Plate Girth') /* Name */
      , (9085,  16, 'A heavily enchanted crystalline girth, of the type once worn into battle by mages of the Yalaini Order of Hieromancers.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9085,   1,   33554647) /* Setup */
-     , (9085,   3,  536870932) /* SoundTable */
-     , (9085,   6,   67108990) /* PaletteBase */
-     , (9085,   7,  268436114) /* ClothingBase */
-     , (9085,   8,  100670411) /* Icon */
-     , (9085,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9085,   1, 0x020000D7) /* Setup */
+     , (9085,   3, 0x20000014) /* SoundTable */
+     , (9085,   6, 0x0400007E) /* PaletteBase */
+     , (9085,   7, 0x10000292) /* ClothingBase */
+     , (9085,   8, 0x06001BCB) /* Icon */
+     , (9085,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9085,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

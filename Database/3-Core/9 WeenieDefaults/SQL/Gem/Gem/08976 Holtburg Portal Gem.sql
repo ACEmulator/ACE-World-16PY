@@ -33,11 +33,11 @@ VALUES (8976,   1, 'Holtburg Portal Gem') /* Name */
      , (8976,  16, 'Use this gem to summon a short-lived portal to Holtburg. This gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8976,   1,   33556769) /* Setup */
-     , (8976,   3,  536870932) /* SoundTable */
-     , (8976,   6,   67111919) /* PaletteBase */
-     , (8976,   7,  268435723) /* ClothingBase */
-     , (8976,   8,  100674857) /* Icon */
-     , (8976,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8976,   1, 0x02000921) /* Setup */
+     , (8976,   3, 0x20000014) /* SoundTable */
+     , (8976,   6, 0x04000BEF) /* PaletteBase */
+     , (8976,   7, 0x1000010B) /* ClothingBase */
+     , (8976,   8, 0x06002D29) /* Icon */
+     , (8976,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8976,  28,        157) /* Spell - Summon Primary Portal I */
      , (8976,  31,       8989) /* LinkedPortalOne - Portal to Holtburg */;

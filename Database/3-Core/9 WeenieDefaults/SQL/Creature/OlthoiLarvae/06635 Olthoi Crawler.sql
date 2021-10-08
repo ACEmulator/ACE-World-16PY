@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6635,   1, 'Olthoi Crawler') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6635,   1,   33555668) /* Setup */
-     , (6635,   2,  150995068) /* MotionTable */
-     , (6635,   3,  536870925) /* SoundTable */
-     , (6635,   4,  805306369) /* CombatTable */
-     , (6635,   6,   67109311) /* PaletteBase */
-     , (6635,   7,  268435553) /* ClothingBase */
-     , (6635,   8,  100669119) /* Icon */
-     , (6635,  22,  872415265) /* PhysicsEffectTable */
+VALUES (6635,   1, 0x020004D4) /* Setup */
+     , (6635,   2, 0x0900007C) /* MotionTable */
+     , (6635,   3, 0x2000000D) /* SoundTable */
+     , (6635,   4, 0x30000001) /* CombatTable */
+     , (6635,   6, 0x040001BF) /* PaletteBase */
+     , (6635,   7, 0x10000061) /* ClothingBase */
+     , (6635,   8, 0x060016BF) /* Icon */
+     , (6635,  22, 0x34000021) /* PhysicsEffectTable */
      , (6635,  30,         86) /* PhysicsScript - BreatheAcid */
      , (6635,  35,        143) /* DeathTreasureType - Loot Tier: 2 */;
 

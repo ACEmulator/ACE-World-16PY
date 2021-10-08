@@ -32,12 +32,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27885,   1, 'Freezing Orb') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27885,   1,   33559020) /* Setup */
-     , (27885,   3,  536870932) /* SoundTable */
-     , (27885,   6,   67115357) /* PaletteBase */
-     , (27885,   7,  268436872) /* ClothingBase */
-     , (27885,   8,  100668722) /* Icon */
-     , (27885,  22,  872415275) /* PhysicsEffectTable */
-     , (27885,  27, 1073741873) /* UseUserAnimation - MagicHeal */
-     , (27885,  36,  234881046) /* MutateFilter */
-     , (27885,  46,  939524144) /* TsysMutationFilter */;
+VALUES (27885,   1, 0x020011EC) /* Setup */
+     , (27885,   3, 0x20000014) /* SoundTable */
+     , (27885,   6, 0x0400195D) /* PaletteBase */
+     , (27885,   7, 0x10000588) /* ClothingBase */
+     , (27885,   8, 0x06001532) /* Icon */
+     , (27885,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27885,  27, 0x40000031) /* UseUserAnimation - MagicHeal */
+     , (27885,  36, 0x0E000016) /* MutateFilter */
+     , (27885,  46, 0x38000030) /* TsysMutationFilter */;

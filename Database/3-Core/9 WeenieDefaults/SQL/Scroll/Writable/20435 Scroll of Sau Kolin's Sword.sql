@@ -24,7 +24,7 @@ VALUES (20435,   1, 'Scroll of Sau Kolin''s Sword') /* Name */
      , (20435,  15, 'When learned, this spell shoots five whirling blades outward from the caster. Each blade does 40-80 points of slashing damage to the first thing it hits.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20435,   1,   33554826) /* Setup */
-     , (20435,   8,  100677028) /* Icon */
-     , (20435,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20435,   1, 0x0200018A) /* Setup */
+     , (20435,   8, 0x060035A4) /* Icon */
+     , (20435,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20435,  28,       2124) /* Spell - Sau Kolin's Sword */;

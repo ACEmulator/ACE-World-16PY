@@ -68,14 +68,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29346,   1, 'Linvak Ursuin') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29346,   1,   33556773) /* Setup */
-     , (29346,   2,  150995100) /* MotionTable */
-     , (29346,   3,  536871011) /* SoundTable */
-     , (29346,   4,  805306409) /* CombatTable */
-     , (29346,   6,   67112944) /* PaletteBase */
-     , (29346,   7,  268436040) /* ClothingBase */
-     , (29346,   8,  100670959) /* Icon */
-     , (29346,  22,  872415366) /* PhysicsEffectTable */
+VALUES (29346,   1, 0x02000925) /* Setup */
+     , (29346,   2, 0x0900009C) /* MotionTable */
+     , (29346,   3, 0x20000063) /* SoundTable */
+     , (29346,   4, 0x30000029) /* CombatTable */
+     , (29346,   6, 0x04000FF0) /* PaletteBase */
+     , (29346,   7, 0x10000248) /* ClothingBase */
+     , (29346,   8, 0x06001DEF) /* Icon */
+     , (29346,  22, 0x34000086) /* PhysicsEffectTable */
      , (29346,  35,        457) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

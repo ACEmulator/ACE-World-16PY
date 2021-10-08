@@ -34,9 +34,9 @@ VALUES (23975,   1, 'Infused Helm of Knorr') /* Name */
      , (23975,  15, 'A once vibrant helm worn by the Initiates of Perfect Light teeming with an unknown power.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23975,   1,   33554669) /* Setup */
-     , (23975,   3,  536870932) /* SoundTable */
-     , (23975,   6,   67111919) /* PaletteBase */
-     , (23975,   7,  268435968) /* ClothingBase */
-     , (23975,   8,  100674135) /* Icon */
-     , (23975,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23975,   1, 0x020000ED) /* Setup */
+     , (23975,   3, 0x20000014) /* SoundTable */
+     , (23975,   6, 0x04000BEF) /* PaletteBase */
+     , (23975,   7, 0x10000200) /* ClothingBase */
+     , (23975,   8, 0x06002A57) /* Icon */
+     , (23975,  22, 0x3400002B) /* PhysicsEffectTable */;

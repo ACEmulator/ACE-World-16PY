@@ -66,13 +66,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25453,   1, 'Young Olthoi Queen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25453,   1,   33557165) /* Setup */
-     , (25453,   2,  150995135) /* MotionTable */
-     , (25453,   3,  536871037) /* SoundTable */
-     , (25453,   4,  805306419) /* CombatTable */
-     , (25453,   6,   67113288) /* PaletteBase */
-     , (25453,   8,  100667623) /* Icon */
-     , (25453,  22,  872415379) /* PhysicsEffectTable */
+VALUES (25453,   1, 0x02000AAD) /* Setup */
+     , (25453,   2, 0x090000BF) /* MotionTable */
+     , (25453,   3, 0x2000007D) /* SoundTable */
+     , (25453,   4, 0x30000033) /* CombatTable */
+     , (25453,   6, 0x04001148) /* PaletteBase */
+     , (25453,   8, 0x060010E7) /* Icon */
+     , (25453,  22, 0x34000093) /* PhysicsEffectTable */
      , (25453,  30,         86) /* PhysicsScript - BreatheAcid */
      , (25453,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 

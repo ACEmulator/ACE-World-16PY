@@ -24,9 +24,9 @@ VALUES (30495,   1, 'Bai Den''s Necklace') /* Name */
      , (30495,  33, 'ShoushiBraidNecklace1204') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30495,   1,   33554689) /* Setup */
-     , (30495,   3,  536870932) /* SoundTable */
-     , (30495,   6,   67111919) /* PaletteBase */
-     , (30495,   7,  268435749) /* ClothingBase */
-     , (30495,   8,  100668752) /* Icon */
-     , (30495,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30495,   1, 0x02000101) /* Setup */
+     , (30495,   3, 0x20000014) /* SoundTable */
+     , (30495,   6, 0x04000BEF) /* PaletteBase */
+     , (30495,   7, 0x10000125) /* ClothingBase */
+     , (30495,   8, 0x06001550) /* Icon */
+     , (30495,  22, 0x3400002B) /* PhysicsEffectTable */;

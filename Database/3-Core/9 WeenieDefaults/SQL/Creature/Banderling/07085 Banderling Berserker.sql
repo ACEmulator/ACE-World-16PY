@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7085,   1, 'Banderling Berserker') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7085,   1,   33558024) /* Setup */
-     , (7085,   2,  150994951) /* MotionTable */
-     , (7085,   3,  536870917) /* SoundTable */
-     , (7085,   4,  805306370) /* CombatTable */
-     , (7085,   6,   67114021) /* PaletteBase */
-     , (7085,   7,  268436497) /* ClothingBase */
-     , (7085,   8,  100667453) /* Icon */
-     , (7085,  22,  872415255) /* PhysicsEffectTable */
+VALUES (7085,   1, 0x02000E08) /* Setup */
+     , (7085,   2, 0x09000007) /* MotionTable */
+     , (7085,   3, 0x20000005) /* SoundTable */
+     , (7085,   4, 0x30000002) /* CombatTable */
+     , (7085,   6, 0x04001425) /* PaletteBase */
+     , (7085,   7, 0x10000411) /* ClothingBase */
+     , (7085,   8, 0x0600103D) /* Icon */
+     , (7085,  22, 0x34000017) /* PhysicsEffectTable */
      , (7085,  32,        268) /* WieldedTreasureType - 
                                    Wield Club (23651) | Probability: 50% */
      , (7085,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;

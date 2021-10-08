@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19261,   1, 'Creeper Mosswart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19261,   1,   33557327) /* Setup */
-     , (19261,   2,  150994953) /* MotionTable */
-     , (19261,   3,  536870959) /* SoundTable */
-     , (19261,   4,  805306373) /* CombatTable */
-     , (19261,   6,   67113400) /* PaletteBase */
-     , (19261,   7,  268436292) /* ClothingBase */
-     , (19261,   8,  100667449) /* Icon */
-     , (19261,  22,  872415264) /* PhysicsEffectTable */
+VALUES (19261,   1, 0x02000B4F) /* Setup */
+     , (19261,   2, 0x09000009) /* MotionTable */
+     , (19261,   3, 0x2000002F) /* SoundTable */
+     , (19261,   4, 0x30000005) /* CombatTable */
+     , (19261,   6, 0x040011B8) /* PaletteBase */
+     , (19261,   7, 0x10000344) /* ClothingBase */
+     , (19261,   8, 0x06001039) /* Icon */
+     , (19261,  22, 0x34000020) /* PhysicsEffectTable */
      , (19261,  32,        128) /* WieldedTreasureType - 
                                    Wield Budiaq (308) | Probability: 12%
                                    Wield Khanjar (328) | Probability: 25%

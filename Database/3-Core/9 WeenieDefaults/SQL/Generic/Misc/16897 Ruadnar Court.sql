@@ -22,5 +22,5 @@ VALUES (16897,   1, 'Ruadnar Court') /* Name */
      , (16897,  16, 'Ruadnar Court') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (16897,   1,   33557655) /* Setup */
-     , (16897,   8,  100672342) /* Icon */;
+VALUES (16897,   1, 0x02000C97) /* Setup */
+     , (16897,   8, 0x06002356) /* Icon */;

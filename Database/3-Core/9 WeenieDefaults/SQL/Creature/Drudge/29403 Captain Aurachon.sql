@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29403,   1, 'Captain Aurachon') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29403,   1,   33556445) /* Setup */
-     , (29403,   2,  150994952) /* MotionTable */
-     , (29403,   3,  536870919) /* SoundTable */
-     , (29403,   4,  805306372) /* CombatTable */
-     , (29403,   6,   67112812) /* PaletteBase */
-     , (29403,   7,  268435972) /* ClothingBase */
-     , (29403,   8,  100667445) /* Icon */
-     , (29403,  22,  872415258) /* PhysicsEffectTable */
+VALUES (29403,   1, 0x020007DD) /* Setup */
+     , (29403,   2, 0x09000008) /* MotionTable */
+     , (29403,   3, 0x20000007) /* SoundTable */
+     , (29403,   4, 0x30000004) /* CombatTable */
+     , (29403,   6, 0x04000F6C) /* PaletteBase */
+     , (29403,   7, 0x10000204) /* ClothingBase */
+     , (29403,   8, 0x06001035) /* Icon */
+     , (29403,  22, 0x3400001A) /* PhysicsEffectTable */
      , (29403,  32,         74) /* WieldedTreasureType - 
                                    Wield Club (309) | Probability: 5%
                                    Wield Dabus (313) | Probability: 10%

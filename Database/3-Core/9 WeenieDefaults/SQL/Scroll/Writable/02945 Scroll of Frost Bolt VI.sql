@@ -25,7 +25,7 @@ VALUES (2945,   1, 'Scroll of Frost Bolt VI') /* Name */
      , (2945,  16, 'When learned, this spell shoots a bolt of frost at the target. The bolt does 51-100 points of cold damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2945,   1,   33554826) /* Setup */
-     , (2945,   8,  100677016) /* Icon */
-     , (2945,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2945,   1, 0x0200018A) /* Setup */
+     , (2945,   8, 0x06003598) /* Icon */
+     , (2945,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2945,  28,         74) /* Spell - Frost Bolt VI */;

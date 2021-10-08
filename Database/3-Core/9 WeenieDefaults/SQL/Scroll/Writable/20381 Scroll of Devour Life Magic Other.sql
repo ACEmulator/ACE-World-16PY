@@ -24,7 +24,7 @@ VALUES (20381,   1, 'Scroll of Devour Life Magic Other') /* Name */
      , (20381,  15, 'When learned, this spell dispels 2-4 positive Life Magic enchantments of level 4 or lower from the target.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20381,   1,   33554826) /* Setup */
-     , (20381,   8,  100676935) /* Icon */
-     , (20381,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20381,   1, 0x0200018A) /* Setup */
+     , (20381,   8, 0x06003547) /* Icon */
+     , (20381,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20381,  28,       1974) /* Spell - Devour Life Magic Other */;

@@ -23,7 +23,7 @@ VALUES (1811,   1, 'Seamstress Shop') /* Name */
      , (1811,  16, 'Seamstress Shop') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1811,   1,   33555909) /* Setup */
-     , (1811,   6,   67111860) /* PaletteBase */
-     , (1811,   7,  268435827) /* ClothingBase */
-     , (1811,   8,  100668115) /* Icon */;
+VALUES (1811,   1, 0x020005C5) /* Setup */
+     , (1811,   6, 0x04000BB4) /* PaletteBase */
+     , (1811,   7, 0x10000173) /* ClothingBase */
+     , (1811,   8, 0x060012D3) /* Icon */;

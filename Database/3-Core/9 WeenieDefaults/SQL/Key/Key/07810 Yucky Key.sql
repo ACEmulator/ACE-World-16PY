@@ -29,7 +29,7 @@ VALUES (7810,   1, 'Yucky Key') /* Name */
      , (7810,  33, 'SoulFearingVestryKey') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7810,   1,   33554784) /* Setup */
-     , (7810,   3,  536870932) /* SoundTable */
-     , (7810,   8,  100670820) /* Icon */
-     , (7810,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7810,   1, 0x02000160) /* Setup */
+     , (7810,   3, 0x20000014) /* SoundTable */
+     , (7810,   8, 0x06001D64) /* Icon */
+     , (7810,  22, 0x3400002B) /* PhysicsEffectTable */;

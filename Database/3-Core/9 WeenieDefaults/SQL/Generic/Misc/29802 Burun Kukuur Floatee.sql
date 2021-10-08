@@ -25,5 +25,5 @@ VALUES (29802,   1, 'Burun Kukuur Floatee') /* Name */
      , (29802,  15, 'This item is very light, to the point that you believe it would drift away from you if it were not firmly attached to a stick. This can be hooked in your yard or on your roof, proving to the world that you have slain all Burun Kukuur that have found their way to Dereth.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29802,   1,   33559072) /* Setup */
-     , (29802,   8,  100677029) /* Icon */;
+VALUES (29802,   1, 0x02001220) /* Setup */
+     , (29802,   8, 0x060035A5) /* Icon */;

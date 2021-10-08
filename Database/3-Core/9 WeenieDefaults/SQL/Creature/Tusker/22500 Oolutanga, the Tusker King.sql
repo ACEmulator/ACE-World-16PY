@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22500,   1, 'Oolutanga, the Tusker King') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22500,   1,   33558138) /* Setup */
-     , (22500,   2,  150994956) /* MotionTable */
-     , (22500,   3,  536870929) /* SoundTable */
-     , (22500,   4,  805306379) /* CombatTable */
-     , (22500,   6,   67113007) /* PaletteBase */
-     , (22500,   7,  268436059) /* ClothingBase */
-     , (22500,   8,  100667443) /* Icon */
-     , (22500,  22,  872415271) /* PhysicsEffectTable */;
+VALUES (22500,   1, 0x02000E7A) /* Setup */
+     , (22500,   2, 0x0900000C) /* MotionTable */
+     , (22500,   3, 0x20000011) /* SoundTable */
+     , (22500,   4, 0x3000000B) /* CombatTable */
+     , (22500,   6, 0x0400102F) /* PaletteBase */
+     , (22500,   7, 0x1000025B) /* ClothingBase */
+     , (22500,   8, 0x06001033) /* Icon */
+     , (22500,  22, 0x34000027) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22500,   1, 380, 0, 0) /* Strength */

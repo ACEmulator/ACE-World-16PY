@@ -33,9 +33,9 @@ VALUES (28503,   1, 'Golem Heart Crate') /* Name */
      , (28503,  16, 'A half-filled crate meant to hold golem hearts. The first three chambers of this crate are filled with a granite heart, an iron heart and a copper heart. The fourth chamber appears to be set for an Obsidian Golem heart.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28503,   1,   33554930) /* Setup */
-     , (28503,   3,  536870932) /* SoundTable */
-     , (28503,   6,   67111919) /* PaletteBase */
-     , (28503,   7,  268435723) /* ClothingBase */
-     , (28503,   8,  100676970) /* Icon */
-     , (28503,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28503,   1, 0x020001F2) /* Setup */
+     , (28503,   3, 0x20000014) /* SoundTable */
+     , (28503,   6, 0x04000BEF) /* PaletteBase */
+     , (28503,   7, 0x1000010B) /* ClothingBase */
+     , (28503,   8, 0x0600356A) /* Icon */
+     , (28503,  22, 0x3400002B) /* PhysicsEffectTable */;

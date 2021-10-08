@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23088,   1, 'Raider Prefect') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23088,   1,   33557003) /* Setup */
-     , (23088,   2,  150994950) /* MotionTable */
-     , (23088,   3,  536870922) /* SoundTable */
-     , (23088,   4,  805306371) /* CombatTable */
-     , (23088,   6,   67113158) /* PaletteBase */
-     , (23088,   7,  268436632) /* ClothingBase */
-     , (23088,   8,  100667447) /* Icon */
-     , (23088,  22,  872415262) /* PhysicsEffectTable */
+VALUES (23088,   1, 0x02000A0B) /* Setup */
+     , (23088,   2, 0x09000006) /* MotionTable */
+     , (23088,   3, 0x2000000A) /* SoundTable */
+     , (23088,   4, 0x30000003) /* CombatTable */
+     , (23088,   6, 0x040010C6) /* PaletteBase */
+     , (23088,   7, 0x10000498) /* ClothingBase */
+     , (23088,   8, 0x06001037) /* Icon */
+     , (23088,  22, 0x3400001E) /* PhysicsEffectTable */
      , (23088,  32,        425) /* WieldedTreasureType - 
                                    Wield 10x Rock (23133) | Probability: 80%
                                    Wield Lugian Morning Star (23134) | Probability: 10%

@@ -44,12 +44,12 @@ VALUES (28337,   1, 'Ancient Armored Leggings') /* Name */
      , (28337,  15, 'These armored leggings appear to have been an ornamental piece. Obviously this is only one part of a complete suit of armor.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28337,   1,   33554856) /* Setup */
-     , (28337,   3,  536870932) /* SoundTable */
-     , (28337,   6,   67108990) /* PaletteBase */
-     , (28337,   7,  268436859) /* ClothingBase */
-     , (28337,   8,  100677004) /* Icon */
-     , (28337,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28337,   1, 0x020001A8) /* Setup */
+     , (28337,   3, 0x20000014) /* SoundTable */
+     , (28337,   6, 0x0400007E) /* PaletteBase */
+     , (28337,   7, 0x1000057B) /* ClothingBase */
+     , (28337,   8, 0x0600358C) /* Icon */
+     , (28337,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28337,  3094,      2)  /* Skin of the Fiazhat */

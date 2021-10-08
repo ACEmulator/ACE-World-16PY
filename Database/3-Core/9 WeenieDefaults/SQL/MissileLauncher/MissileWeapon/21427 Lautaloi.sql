@@ -51,10 +51,10 @@ VALUES (21427,   1, 'Lautaloi') /* Name */
      , (21427,  15, 'A bow constructed from obsidian and cerulean colored stone.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21427,   1,   33557959) /* Setup */
-     , (21427,   3,  536870932) /* SoundTable */
-     , (21427,   8,  100673486) /* Icon */
-     , (21427,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21427,   1, 0x02000DC7) /* Setup */
+     , (21427,   3, 0x20000014) /* SoundTable */
+     , (21427,   8, 0x060027CE) /* Icon */
+     , (21427,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21427,  37,          2) /* ItemSkillLimit - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

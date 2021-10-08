@@ -31,9 +31,9 @@ VALUES (8038,   1, 'Crushed Verdalim Plant') /* Name */
      , (8038,  20, 'Crushed Verdalim Plants') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8038,   1,   33556752) /* Setup */
-     , (8038,   3,  536870932) /* SoundTable */
-     , (8038,   6,   67111919) /* PaletteBase */
-     , (8038,   7,  268436035) /* ClothingBase */
-     , (8038,   8,  100670767) /* Icon */
-     , (8038,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8038,   1, 0x02000910) /* Setup */
+     , (8038,   3, 0x20000014) /* SoundTable */
+     , (8038,   6, 0x04000BEF) /* PaletteBase */
+     , (8038,   7, 0x10000243) /* ClothingBase */
+     , (8038,   8, 0x06001D2F) /* Icon */
+     , (8038,  22, 0x3400002B) /* PhysicsEffectTable */;

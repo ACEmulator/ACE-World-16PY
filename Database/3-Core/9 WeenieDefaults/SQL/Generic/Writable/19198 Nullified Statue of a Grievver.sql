@@ -26,9 +26,9 @@ VALUES (19198,   1, 'Nullified Statue of a Grievver') /* Name */
      , (19198,  15, 'This nullified shell is all that remains of the living Statue of a Grievver that once threatened our peaceful town. Destroyed through the sole efforts of the citizens of Dereth, it remains as a testament to their valor. This land is yours now.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19198,   1,   33556698) /* Setup */
-     , (19198,   2,  150995164) /* MotionTable */
-     , (19198,   3,  536871052) /* SoundTable */
-     , (19198,   6,   67112927) /* PaletteBase */
-     , (19198,   7,  268436038) /* ClothingBase */
-     , (19198,   8,  100670960) /* Icon */;
+VALUES (19198,   1, 0x020008DA) /* Setup */
+     , (19198,   2, 0x090000DC) /* MotionTable */
+     , (19198,   3, 0x2000008C) /* SoundTable */
+     , (19198,   6, 0x04000FDF) /* PaletteBase */
+     , (19198,   7, 0x10000246) /* ClothingBase */
+     , (19198,   8, 0x06001DF0) /* Icon */;

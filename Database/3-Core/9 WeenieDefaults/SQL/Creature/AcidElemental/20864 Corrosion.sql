@@ -63,12 +63,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20864,   1, 'Corrosion') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20864,   1,   33557678) /* Setup */
-     , (20864,   2,  150995087) /* MotionTable */
-     , (20864,   3,  536870998) /* SoundTable */
-     , (20864,   4,  805306368) /* CombatTable */
-     , (20864,   8,  100672513) /* Icon */
-     , (20864,  22,  872415349) /* PhysicsEffectTable */
+VALUES (20864,   1, 0x02000CAE) /* Setup */
+     , (20864,   2, 0x0900008F) /* MotionTable */
+     , (20864,   3, 0x20000056) /* SoundTable */
+     , (20864,   4, 0x30000000) /* CombatTable */
+     , (20864,   8, 0x06002401) /* Icon */
+     , (20864,  22, 0x34000075) /* PhysicsEffectTable */
      , (20864,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -42,12 +42,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8706,   1, 'A Pair Of Society Leather Pauldrons') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8706,   1,   33554641) /* Setup */
-     , (8706,   3,  536870932) /* SoundTable */
-     , (8706,   6,   67108990) /* PaletteBase */
-     , (8706,   7,  268435535) /* ClothingBase */
-     , (8706,   8,  100668171) /* Icon */
-     , (8706,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8706,   1, 0x020000D1) /* Setup */
+     , (8706,   3, 0x20000014) /* SoundTable */
+     , (8706,   6, 0x0400007E) /* PaletteBase */
+     , (8706,   7, 0x1000004F) /* ClothingBase */
+     , (8706,   8, 0x0600130B) /* Icon */
+     , (8706,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8706,  1482,      2)  /* Impenetrability II */

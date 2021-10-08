@@ -22,5 +22,5 @@ VALUES (19393,   1, 'Syrah Dwellings') /* Name */
      , (19393,  16, 'Syrah Dwellings') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19393,   1,   33557688) /* Setup */
-     , (19393,   8,  100667499) /* Icon */;
+VALUES (19393,   1, 0x02000CB8) /* Setup */
+     , (19393,   8, 0x0600106B) /* Icon */;

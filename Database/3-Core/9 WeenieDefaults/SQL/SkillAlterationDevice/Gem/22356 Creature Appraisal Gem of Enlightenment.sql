@@ -25,8 +25,8 @@ VALUES (22356,   1, 'Creature Appraisal Gem of Enlightenment') /* Name */
      , (22356,  33, 'SkillAlterationGemPickedUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22356,   1,   33558088) /* Setup */
-     , (22356,   6,   67111919) /* PaletteBase */
-     , (22356,   7,  268435723) /* ClothingBase */
-     , (22356,   8,  100673788) /* Icon */
-     , (22356,  50,  100673756) /* IconOverlay */;
+VALUES (22356,   1, 0x02000E48) /* Setup */
+     , (22356,   6, 0x04000BEF) /* PaletteBase */
+     , (22356,   7, 0x1000010B) /* ClothingBase */
+     , (22356,   8, 0x060028FC) /* Icon */
+     , (22356,  50, 0x060028DC) /* IconOverlay */;

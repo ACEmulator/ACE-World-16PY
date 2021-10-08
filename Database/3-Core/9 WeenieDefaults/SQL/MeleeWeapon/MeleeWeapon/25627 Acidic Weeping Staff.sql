@@ -54,13 +54,13 @@ VALUES (25627,   1, 'Acidic Weeping Staff') /* Name */
      , (25627,  15, 'A staff infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25627,   1,   33558477) /* Setup */
-     , (25627,   3,  536870932) /* SoundTable */
-     , (25627,   6,   67114522) /* PaletteBase */
-     , (25627,   7,  268436698) /* ClothingBase */
-     , (25627,   8,  100674904) /* Icon */
-     , (25627,  22,  872415275) /* PhysicsEffectTable */
-     , (25627,  36,  234881044) /* MutateFilter */;
+VALUES (25627,   1, 0x02000FCD) /* Setup */
+     , (25627,   3, 0x20000014) /* SoundTable */
+     , (25627,   6, 0x0400161A) /* PaletteBase */
+     , (25627,   7, 0x100004DA) /* ClothingBase */
+     , (25627,   8, 0x06002D58) /* Icon */
+     , (25627,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (25627,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25627,  2966,      2)  /* Aura of Murderous Thirst */

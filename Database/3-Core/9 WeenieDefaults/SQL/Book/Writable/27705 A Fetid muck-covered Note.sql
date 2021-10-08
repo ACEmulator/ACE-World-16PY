@@ -22,10 +22,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27705,   1, 'A Fetid muck-covered Note') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27705,   1,   33554826) /* Setup */
-     , (27705,   3,  536870932) /* SoundTable */
-     , (27705,   8,  100672101) /* Icon */
-     , (27705,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27705,   1, 0x0200018A) /* Setup */
+     , (27705,   3, 0x20000014) /* SoundTable */
+     , (27705,   8, 0x06002265) /* Icon */
+     , (27705,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (27705, 1, 1000);

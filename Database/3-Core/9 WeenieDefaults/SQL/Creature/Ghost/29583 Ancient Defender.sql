@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29583,   1, 'Ancient Defender') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29583,   1,   33558816) /* Setup */
-     , (29583,   2,  150995302) /* MotionTable */
-     , (29583,   3,  536871094) /* SoundTable */
-     , (29583,   4,  805306429) /* CombatTable */
-     , (29583,   6,   67115251) /* PaletteBase */
-     , (29583,   7,  268436835) /* ClothingBase */
-     , (29583,   8,  100676679) /* Icon */
-     , (29583,  22,  872415403) /* PhysicsEffectTable */
+VALUES (29583,   1, 0x02001120) /* Setup */
+     , (29583,   2, 0x09000166) /* MotionTable */
+     , (29583,   3, 0x200000B6) /* SoundTable */
+     , (29583,   4, 0x3000003D) /* CombatTable */
+     , (29583,   6, 0x040018F3) /* PaletteBase */
+     , (29583,   7, 0x10000563) /* ClothingBase */
+     , (29583,   8, 0x06003447) /* Icon */
+     , (29583,  22, 0x340000AB) /* PhysicsEffectTable */
      , (29583,  35,         31) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)

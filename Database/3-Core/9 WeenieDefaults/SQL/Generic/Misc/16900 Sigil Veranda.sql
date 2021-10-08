@@ -22,5 +22,5 @@ VALUES (16900,   1, 'Sigil Veranda') /* Name */
      , (16900,  16, 'Sigil Veranda') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (16900,   1,   33557657) /* Setup */
-     , (16900,   8,  100672342) /* Icon */;
+VALUES (16900,   1, 0x02000C99) /* Setup */
+     , (16900,   8, 0x06002356) /* Icon */;

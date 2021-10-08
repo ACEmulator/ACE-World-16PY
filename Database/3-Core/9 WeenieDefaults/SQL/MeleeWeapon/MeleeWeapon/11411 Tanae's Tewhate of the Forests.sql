@@ -52,14 +52,14 @@ VALUES (11411,   1, 'Tanae''s Tewhate of the Forests') /* Name */
      , (11411,  16, 'A tewhate fused to a triple totem.  It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11411,   1,   33557233) /* Setup */
-     , (11411,   3,  536870932) /* SoundTable */
-     , (11411,   6,   67113336) /* PaletteBase */
-     , (11411,   7,  268436251) /* ClothingBase */
-     , (11411,   8,  100672069) /* Icon */
-     , (11411,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11411,   1, 0x02000AF1) /* Setup */
+     , (11411,   3, 0x20000014) /* SoundTable */
+     , (11411,   6, 0x04001178) /* PaletteBase */
+     , (11411,   7, 0x1000031B) /* ClothingBase */
+     , (11411,   8, 0x06002245) /* Icon */
+     , (11411,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11411,  30,         88) /* PhysicsScript - Create */
-     , (11411,  36,  234881044) /* MutateFilter */;
+     , (11411,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11411,  2446,      2)  /* Greater Growth */

@@ -72,12 +72,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27416,   1, 'Magma Golem Exarch') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27416,   1,   33556427) /* Setup */
-     , (27416,   2,  150995073) /* MotionTable */
-     , (27416,   3,  536870933) /* SoundTable */
-     , (27416,   4,  805306376) /* CombatTable */
-     , (27416,   8,  100667940) /* Icon */
-     , (27416,  22,  872415325) /* PhysicsEffectTable */
+VALUES (27416,   1, 0x020007CB) /* Setup */
+     , (27416,   2, 0x09000081) /* MotionTable */
+     , (27416,   3, 0x20000015) /* SoundTable */
+     , (27416,   4, 0x30000008) /* CombatTable */
+     , (27416,   8, 0x06001224) /* Icon */
+     , (27416,  22, 0x3400005D) /* PhysicsEffectTable */
      , (27416,  35,         31) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

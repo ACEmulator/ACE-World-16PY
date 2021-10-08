@@ -25,7 +25,7 @@ VALUES (8936,   1, 'Scroll of Frost Streak II') /* Name */
      , (8936,  16, 'When learned, this spell sends a bolt of frost streaking towards the target. The bolt does 7-13 points of cold damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8936,   1,   33554826) /* Setup */
-     , (8936,   8,  100677016) /* Icon */
-     , (8936,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8936,   1, 0x0200018A) /* Setup */
+     , (8936,   8, 0x06003598) /* Icon */
+     , (8936,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8936,  28,       1809) /* Spell - Frost Streak II */;

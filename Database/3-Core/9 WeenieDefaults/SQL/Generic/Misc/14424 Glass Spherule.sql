@@ -27,7 +27,7 @@ VALUES (14424,   1, 'Glass Spherule') /* Name */
      , (14424,  33, 'SpheruleRegicidePickUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14424,   1,   33556768) /* Setup */
-     , (14424,   6,   67111092) /* PaletteBase */
-     , (14424,   7,  268436311) /* ClothingBase */
-     , (14424,   8,  100672464) /* Icon */;
+VALUES (14424,   1, 0x02000920) /* Setup */
+     , (14424,   6, 0x040008B4) /* PaletteBase */
+     , (14424,   7, 0x10000357) /* ClothingBase */
+     , (14424,   8, 0x060023D0) /* Icon */;

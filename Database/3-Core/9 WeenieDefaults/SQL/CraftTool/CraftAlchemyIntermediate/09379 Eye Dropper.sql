@@ -35,7 +35,7 @@ VALUES (9379,   1, 'Eye Dropper') /* Name */
      , (9379,  16, 'A small eye dropper filled with water.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9379,   1,   33557029) /* Setup */
-     , (9379,   3,  536870932) /* SoundTable */
-     , (9379,   8,  100671571) /* Icon */
-     , (9379,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9379,   1, 0x02000A25) /* Setup */
+     , (9379,   3, 0x20000014) /* SoundTable */
+     , (9379,   8, 0x06002053) /* Icon */
+     , (9379,  22, 0x3400002B) /* PhysicsEffectTable */;

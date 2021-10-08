@@ -37,11 +37,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7795,   1, 'Frost Naginata') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7795,   1,   33556663) /* Setup */
-     , (7795,   3,  536870932) /* SoundTable */
-     , (7795,   6,   67111919) /* PaletteBase */
-     , (7795,   7,  268436012) /* ClothingBase */
-     , (7795,   8,  100670761) /* Icon */
-     , (7795,  22,  872415275) /* PhysicsEffectTable */
-     , (7795,  36,  234881053) /* MutateFilter */
-     , (7795,  46,  939524103) /* TsysMutationFilter */;
+VALUES (7795,   1, 0x020008B7) /* Setup */
+     , (7795,   3, 0x20000014) /* SoundTable */
+     , (7795,   6, 0x04000BEF) /* PaletteBase */
+     , (7795,   7, 0x1000022C) /* ClothingBase */
+     , (7795,   8, 0x06001D29) /* Icon */
+     , (7795,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (7795,  36, 0x0E00001D) /* MutateFilter */
+     , (7795,  46, 0x38000007) /* TsysMutationFilter */;

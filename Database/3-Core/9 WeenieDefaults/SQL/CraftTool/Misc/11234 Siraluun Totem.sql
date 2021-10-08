@@ -35,9 +35,9 @@ VALUES (11234,   1, 'Siraluun Totem') /* Name */
      , (11234,  16, 'A small clay totem of a siraluun. You recognize this item as a traditional Tumerok spell fetish. It can be attached to several different items, each with their own unique use. Alternately, it can be turned into the Tah of Timaru for a reward.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11234,   1,   33555677) /* Setup */
-     , (11234,   3,  536870932) /* SoundTable */
-     , (11234,   6,   67111919) /* PaletteBase */
-     , (11234,   7,  268436111) /* ClothingBase */
-     , (11234,   8,  100671983) /* Icon */
-     , (11234,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11234,   1, 0x020004DD) /* Setup */
+     , (11234,   3, 0x20000014) /* SoundTable */
+     , (11234,   6, 0x04000BEF) /* PaletteBase */
+     , (11234,   7, 0x1000028F) /* ClothingBase */
+     , (11234,   8, 0x060021EF) /* Icon */
+     , (11234,  22, 0x3400002B) /* PhysicsEffectTable */;

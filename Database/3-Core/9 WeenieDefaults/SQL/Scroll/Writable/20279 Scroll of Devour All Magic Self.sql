@@ -24,7 +24,7 @@ VALUES (20279,   1, 'Scroll of Devour All Magic Self') /* Name */
      , (20279,  15, 'When learned, this spell dispels 2-4 positive enchantments of level 4 or lower from the caster.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20279,   1,   33554826) /* Setup */
-     , (20279,   8,  100669877) /* Icon */
-     , (20279,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20279,   1, 0x0200018A) /* Setup */
+     , (20279,   8, 0x060019B5) /* Icon */
+     , (20279,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20279,  28,       1869) /* Spell - Devour All Magic Self */;

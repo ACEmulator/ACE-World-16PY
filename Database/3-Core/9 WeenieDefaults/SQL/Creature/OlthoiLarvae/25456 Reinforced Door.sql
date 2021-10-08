@@ -65,12 +65,12 @@ VALUES (25456,   1, 'Reinforced Door') /* Name */
      , (25456,  15, 'A locked door, impossible to pick.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25456,   1,   33558453) /* Setup */
-     , (25456,   2,  150995221) /* MotionTable */
-     , (25456,   3,  536871001) /* SoundTable */
-     , (25456,   4,  805306372) /* CombatTable */
-     , (25456,   8,  100673480) /* Icon */
-     , (25456,  22,  872415339) /* PhysicsEffectTable */;
+VALUES (25456,   1, 0x02000FB5) /* Setup */
+     , (25456,   2, 0x09000115) /* MotionTable */
+     , (25456,   3, 0x20000059) /* SoundTable */
+     , (25456,   4, 0x30000004) /* CombatTable */
+     , (25456,   8, 0x060027C8) /* Icon */
+     , (25456,  22, 0x3400006B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25456,   1,   1, 0, 0) /* Strength */

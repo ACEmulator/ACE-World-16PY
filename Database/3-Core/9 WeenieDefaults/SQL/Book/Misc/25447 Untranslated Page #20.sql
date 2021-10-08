@@ -27,10 +27,10 @@ VALUES (25447,   1, 'Untranslated Page #20') /* Name */
      , (25447,  16, 'A thin sheet of parchment inscribed in an unknown alphabet. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25447,   1,   33554773) /* Setup */
-     , (25447,   3,  536870932) /* SoundTable */
-     , (25447,   8,  100668176) /* Icon */
-     , (25447,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25447,   1, 0x02000155) /* Setup */
+     , (25447,   3, 0x20000014) /* SoundTable */
+     , (25447,   8, 0x06001310) /* Icon */
+     , (25447,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (25447, 1, 1000);

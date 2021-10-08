@@ -36,11 +36,11 @@ VALUES (26225,   1, 'Jinianshi Portal Gem') /* Name */
      , (26225,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26225,   1,   33556769) /* Setup */
-     , (26225,   3,  536870932) /* SoundTable */
-     , (26225,   6,   67111919) /* PaletteBase */
-     , (26225,   7,  268435723) /* ClothingBase */
-     , (26225,   8,  100675760) /* Icon */
-     , (26225,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26225,   1, 0x02000921) /* Setup */
+     , (26225,   3, 0x20000014) /* SoundTable */
+     , (26225,   6, 0x04000BEF) /* PaletteBase */
+     , (26225,   7, 0x1000010B) /* ClothingBase */
+     , (26225,   8, 0x060030B0) /* Icon */
+     , (26225,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26225,  28,        157) /* Spell - Summon Primary Portal I */
      , (26225,  31,      12508) /* LinkedPortalOne - Jinianshi Portal */;

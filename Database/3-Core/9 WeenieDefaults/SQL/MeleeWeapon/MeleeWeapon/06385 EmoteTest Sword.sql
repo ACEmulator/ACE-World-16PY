@@ -45,10 +45,10 @@ VALUES (6385,   1, 'EmoteTest Sword') /* Name */
      , (6385,  33, 'EmoteTestSwordQuest') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6385,   1,   33555927) /* Setup */
-     , (6385,   3,  536870932) /* SoundTable */
-     , (6385,   8,  100669772) /* Icon */
-     , (6385,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6385,   1, 0x020005D7) /* Setup */
+     , (6385,   3, 0x20000014) /* SoundTable */
+     , (6385,   8, 0x0600194C) /* Icon */
+     , (6385,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6385,  2116,      2)  /* Aura of Atlan's Alacrity */

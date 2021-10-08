@@ -37,9 +37,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6601,   1, 'Lesser Amuli Shadow Coat') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6601,   1,   33554854) /* Setup */
-     , (6601,   3,  536870932) /* SoundTable */
-     , (6601,   6,   67108990) /* PaletteBase */
-     , (6601,   7,  268435873) /* ClothingBase */
-     , (6601,   8,  100670435) /* Icon */
-     , (6601,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6601,   1, 0x020001A6) /* Setup */
+     , (6601,   3, 0x20000014) /* SoundTable */
+     , (6601,   6, 0x0400007E) /* PaletteBase */
+     , (6601,   7, 0x100001A1) /* ClothingBase */
+     , (6601,   8, 0x06001BE3) /* Icon */
+     , (6601,  22, 0x3400002B) /* PhysicsEffectTable */;

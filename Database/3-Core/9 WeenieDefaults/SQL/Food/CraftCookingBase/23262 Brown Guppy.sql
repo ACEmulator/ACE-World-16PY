@@ -34,9 +34,9 @@ VALUES (23262,   1, 'Brown Guppy') /* Name */
      , (23262,  20, 'Brown Guppies') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23262,   1,   33558282) /* Setup */
-     , (23262,   3,  536870932) /* SoundTable */
-     , (23262,   6,   67114203) /* PaletteBase */
-     , (23262,   7,  268436580) /* ClothingBase */
-     , (23262,   8,  100674189) /* Icon */
-     , (23262,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23262,   1, 0x02000F0A) /* Setup */
+     , (23262,   3, 0x20000014) /* SoundTable */
+     , (23262,   6, 0x040014DB) /* PaletteBase */
+     , (23262,   7, 0x10000464) /* ClothingBase */
+     , (23262,   8, 0x06002A8D) /* Icon */
+     , (23262,  22, 0x3400002B) /* PhysicsEffectTable */;

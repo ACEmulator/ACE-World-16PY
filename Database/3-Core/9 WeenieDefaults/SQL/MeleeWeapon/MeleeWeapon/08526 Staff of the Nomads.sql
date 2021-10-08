@@ -46,13 +46,13 @@ VALUES (8526,   1, 'Staff of the Nomads') /* Name */
      , (8526,  16, 'A sturdy wooden staff, worn smooth. It is inscribed, "I found this branch scoured clean by the winds in the High Desert of my birth; a gift rendered unto me by Isishaa, god of the devouring sands. In eternal debt to his forbearance, I wield this weapon. When he calls, my bones shall fall into his dry embrace as this tree once did."') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8526,   1,   33555022) /* Setup */
-     , (8526,   3,  536870932) /* SoundTable */
-     , (8526,   6,   67111919) /* PaletteBase */
-     , (8526,   7,  268435796) /* ClothingBase */
-     , (8526,   8,  100668709) /* Icon */
-     , (8526,  22,  872415275) /* PhysicsEffectTable */
-     , (8526,  36,  234881044) /* MutateFilter */
+VALUES (8526,   1, 0x0200024E) /* Setup */
+     , (8526,   3, 0x20000014) /* SoundTable */
+     , (8526,   6, 0x04000BEF) /* PaletteBase */
+     , (8526,   7, 0x10000154) /* ClothingBase */
+     , (8526,   8, 0x06001525) /* Icon */
+     , (8526,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8526,  36, 0x0E000014) /* MutateFilter */
      , (8526,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

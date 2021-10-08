@@ -63,12 +63,12 @@ VALUES (25966,   1, 'Maddened Zharalim') /* Name */
      , (25966,   4, 'Gharu''ndim') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25966,   1,   33554510) /* Setup */
-     , (25966,   2,  150994945) /* MotionTable */
-     , (25966,   3,  536870914) /* SoundTable */
-     , (25966,   4,  805306368) /* CombatTable */
-     , (25966,   8,  100667446) /* Icon */
-     , (25966,  22,  872415236) /* PhysicsEffectTable */
+VALUES (25966,   1, 0x0200004E) /* Setup */
+     , (25966,   2, 0x09000001) /* MotionTable */
+     , (25966,   3, 0x20000002) /* SoundTable */
+     , (25966,   4, 0x30000000) /* CombatTable */
+     , (25966,   8, 0x06001036) /* Icon */
+     , (25966,  22, 0x34000004) /* PhysicsEffectTable */
      , (25966,  32,        419) /* WieldedTreasureType - 
                                    Wield Clean, Dry Towel (10758) | Palette: Blue (2) | Probability: 50%
                                    Wield Clean, Dry Towel (10758) | Palette: Green (8) | Probability: 50%

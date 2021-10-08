@@ -22,7 +22,7 @@ VALUES (806,   1, 'Food and Clothing') /* Name */
      , (806,  16, 'Food and Clothing') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (806,   1,   33555088) /* Setup */
-     , (806,   6,   67111092) /* PaletteBase */
-     , (806,   7,  268435656) /* ClothingBase */
-     , (806,   8,  100668115) /* Icon */;
+VALUES (806,   1, 0x02000290) /* Setup */
+     , (806,   6, 0x040008B4) /* PaletteBase */
+     , (806,   7, 0x100000C8) /* ClothingBase */
+     , (806,   8, 0x060012D3) /* Icon */;

@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27499,   1, 'Gotrok Titan') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27499,   1,   33557003) /* Setup */
-     , (27499,   2,  150994950) /* MotionTable */
-     , (27499,   3,  536870922) /* SoundTable */
-     , (27499,   4,  805306371) /* CombatTable */
-     , (27499,   6,   67113158) /* PaletteBase */
-     , (27499,   7,  268436618) /* ClothingBase */
-     , (27499,   8,  100667447) /* Icon */
-     , (27499,  22,  872415262) /* PhysicsEffectTable */
+VALUES (27499,   1, 0x02000A0B) /* Setup */
+     , (27499,   2, 0x09000006) /* MotionTable */
+     , (27499,   3, 0x2000000A) /* SoundTable */
+     , (27499,   4, 0x30000003) /* CombatTable */
+     , (27499,   6, 0x040010C6) /* PaletteBase */
+     , (27499,   7, 0x1000048A) /* ClothingBase */
+     , (27499,   8, 0x06001037) /* Icon */
+     , (27499,  22, 0x3400001E) /* PhysicsEffectTable */
      , (27499,  32,        436) /* WieldedTreasureType - 
                                    Wield Rock (24885) | Probability: 100%
                                    Wield Lugian Axe (24884) | Probability: 50%

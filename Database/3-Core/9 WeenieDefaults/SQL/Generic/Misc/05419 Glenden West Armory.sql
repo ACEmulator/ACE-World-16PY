@@ -22,7 +22,7 @@ VALUES (5419,   1, 'Glenden West Armory') /* Name */
      , (5419,  16, 'Glenden West Armory') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5419,   1,   33555088) /* Setup */
-     , (5419,   6,   67111092) /* PaletteBase */
-     , (5419,   7,  268435653) /* ClothingBase */
-     , (5419,   8,  100668115) /* Icon */;
+VALUES (5419,   1, 0x02000290) /* Setup */
+     , (5419,   6, 0x040008B4) /* PaletteBase */
+     , (5419,   7, 0x100000C5) /* ClothingBase */
+     , (5419,   8, 0x060012D3) /* Icon */;

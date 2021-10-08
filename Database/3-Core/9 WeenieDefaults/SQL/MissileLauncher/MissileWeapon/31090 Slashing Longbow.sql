@@ -50,12 +50,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31090,   1, 'Slashing Longbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31090,   1,   33559028) /* Setup */
-     , (31090,   3,  536870932) /* SoundTable */
-     , (31090,   6,   67115373) /* PaletteBase */
-     , (31090,   7,  268436873) /* ClothingBase */
-     , (31090,   8,  100668815) /* Icon */
-     , (31090,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31090,   1, 0x020011F4) /* Setup */
+     , (31090,   3, 0x20000014) /* SoundTable */
+     , (31090,   6, 0x0400196D) /* PaletteBase */
+     , (31090,   7, 0x10000589) /* ClothingBase */
+     , (31090,   8, 0x0600158F) /* Icon */
+     , (31090,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31090,  2116,      2)  /* Aura of Atlan's Alacrity */

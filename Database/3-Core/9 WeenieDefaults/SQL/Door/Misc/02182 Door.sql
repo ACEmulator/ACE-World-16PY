@@ -29,8 +29,8 @@ VALUES (2182,   1, 'Door') /* Name */
      , (2182,  14, 'This door cannot be activated from here.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2182,   1,   33555326) /* Setup */
-     , (2182,   2,  150994991) /* MotionTable */
-     , (2182,   3,  536870947) /* SoundTable */
-     , (2182,   8,  100668183) /* Icon */
-     , (2182,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (2182,   1, 0x0200037E) /* Setup */
+     , (2182,   2, 0x0900002F) /* MotionTable */
+     , (2182,   3, 0x20000023) /* SoundTable */
+     , (2182,   8, 0x06001317) /* Icon */
+     , (2182,  22, 0x3400002B) /* PhysicsEffectTable */;

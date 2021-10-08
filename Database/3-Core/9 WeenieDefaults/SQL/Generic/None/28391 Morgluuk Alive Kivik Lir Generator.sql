@@ -25,8 +25,8 @@ VALUES (28391,   1, 'Morgluuk Alive Kivik Lir Generator') /* Name */
      , (28391,  34, 'EventKivikLirMorgluukAlive') /* GeneratorEvent */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28391,   1,   33555051) /* Setup */
-     , (28391,   8,  100667494) /* Icon */;
+VALUES (28391,   1, 0x0200026B) /* Setup */
+     , (28391,   8, 0x06001066) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28391, -1, 28375, 0, 1, 1, 1, 4, -1, 0, 0, 0x444F0104, 35.99, 155.999, 1.9, -0.707107, 0, -0, -0.707107) /* Generate Falatacot Vault Seal (28375) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */

@@ -27,10 +27,10 @@ VALUES (28126,   1, 'Report to Niarltah') /* Name */
      , (28126,  33, 'NoteBurunHistory7') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28126,   1,   33554772) /* Setup */
-     , (28126,   3,  536870932) /* SoundTable */
-     , (28126,   8,  100667470) /* Icon */
-     , (28126,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28126,   1, 0x02000154) /* Setup */
+     , (28126,   3, 0x20000014) /* SoundTable */
+     , (28126,   8, 0x0600104E) /* Icon */
+     , (28126,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (28126, 5, 1000);

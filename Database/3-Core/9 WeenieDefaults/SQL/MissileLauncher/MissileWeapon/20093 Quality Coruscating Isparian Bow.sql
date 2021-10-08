@@ -52,12 +52,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20093,   1, 'Quality Coruscating Isparian Bow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20093,   1,   33557757) /* Setup */
-     , (20093,   3,  536870932) /* SoundTable */
-     , (20093,   6,   67111919) /* PaletteBase */
-     , (20093,   7,  268436394) /* ClothingBase */
-     , (20093,   8,  100673012) /* Icon */
-     , (20093,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20093,   1, 0x02000CFD) /* Setup */
+     , (20093,   3, 0x20000014) /* SoundTable */
+     , (20093,   6, 0x04000BEF) /* PaletteBase */
+     , (20093,   7, 0x100003AA) /* ClothingBase */
+     , (20093,   8, 0x060025F4) /* Icon */
+     , (20093,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20093,  37,          2) /* ItemSkillLimit - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

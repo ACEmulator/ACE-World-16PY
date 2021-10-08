@@ -26,10 +26,10 @@ VALUES (789,   1, 'Powdered Moonstone') /* Name */
      , (789,  20, 'Powdered Moonstones') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (789,   1,   33555208) /* Setup */
-     , (789,   3,  536870932) /* SoundTable */
-     , (789,   6,   67111919) /* PaletteBase */
-     , (789,   7,  268435778) /* ClothingBase */
-     , (789,   8,  100668386) /* Icon */
-     , (789,  22,  872415275) /* PhysicsEffectTable */
+VALUES (789,   1, 0x02000308) /* Setup */
+     , (789,   3, 0x20000014) /* SoundTable */
+     , (789,   6, 0x04000BEF) /* PaletteBase */
+     , (789,   7, 0x10000142) /* ClothingBase */
+     , (789,   8, 0x060013E2) /* Icon */
+     , (789,  22, 0x3400002B) /* PhysicsEffectTable */
      , (789,  29,         33) /* SpellComponent */;

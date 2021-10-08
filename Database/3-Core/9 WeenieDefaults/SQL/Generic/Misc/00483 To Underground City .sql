@@ -22,5 +22,5 @@ VALUES (483,   1, 'To Underground City ') /* Name */
      , (483,  16, 'To reach the Underground City, journey north along this shore, until you find the next sign.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (483,   1,   33555088) /* Setup */
-     , (483,   8,  100668115) /* Icon */;
+VALUES (483,   1, 0x02000290) /* Setup */
+     , (483,   8, 0x060012D3) /* Icon */;

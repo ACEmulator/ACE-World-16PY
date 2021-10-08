@@ -27,7 +27,7 @@ VALUES (5340,   1, 'Bundle of Acid Arrowheads') /* Name */
      , (5340,  20, 'Bundles of Acid Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5340,   1,   33555958) /* Setup */
-     , (5340,   3,  536870932) /* SoundTable */
-     , (5340,   8,  100670201) /* Icon */
-     , (5340,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5340,   1, 0x020005F6) /* Setup */
+     , (5340,   3, 0x20000014) /* SoundTable */
+     , (5340,   8, 0x06001AF9) /* Icon */
+     , (5340,  22, 0x3400002B) /* PhysicsEffectTable */;

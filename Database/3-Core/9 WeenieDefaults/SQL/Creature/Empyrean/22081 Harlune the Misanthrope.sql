@@ -67,13 +67,13 @@ VALUES (22081,   1, 'Harlune the Misanthrope') /* Name */
      , (22081,   5, 'Yalaini') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22081,   1,   33554433) /* Setup */
-     , (22081,   2,  150994945) /* MotionTable */
-     , (22081,   3,  536870913) /* SoundTable */
-     , (22081,   4,  805306368) /* CombatTable */
-     , (22081,   6,   67108990) /* PaletteBase */
-     , (22081,   7,  268436482) /* ClothingBase */
-     , (22081,   8,  100667446) /* Icon */;
+VALUES (22081,   1, 0x02000001) /* Setup */
+     , (22081,   2, 0x09000001) /* MotionTable */
+     , (22081,   3, 0x20000001) /* SoundTable */
+     , (22081,   4, 0x30000000) /* CombatTable */
+     , (22081,   6, 0x0400007E) /* PaletteBase */
+     , (22081,   7, 0x10000402) /* ClothingBase */
+     , (22081,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22081,   1, 400, 0, 0) /* Strength */

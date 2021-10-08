@@ -37,11 +37,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6047,   1, 'Amuli Leggings') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6047,   1,   33554856) /* Setup */
-     , (6047,   3,  536870932) /* SoundTable */
-     , (6047,   6,   67108990) /* PaletteBase */
-     , (6047,   7,  268435872) /* ClothingBase */
-     , (6047,   8,  100670443) /* Icon */
-     , (6047,  22,  872415275) /* PhysicsEffectTable */
-     , (6047,  36,  234881042) /* MutateFilter */
-     , (6047,  46,  939524146) /* TsysMutationFilter */;
+VALUES (6047,   1, 0x020001A8) /* Setup */
+     , (6047,   3, 0x20000014) /* SoundTable */
+     , (6047,   6, 0x0400007E) /* PaletteBase */
+     , (6047,   7, 0x100001A0) /* ClothingBase */
+     , (6047,   8, 0x06001BEB) /* Icon */
+     , (6047,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (6047,  36, 0x0E000012) /* MutateFilter */
+     , (6047,  46, 0x38000032) /* TsysMutationFilter */;

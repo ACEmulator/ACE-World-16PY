@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23616,   1, 'Crystal Shard') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23616,   1,   33556732) /* Setup */
-     , (23616,   2,  150995107) /* MotionTable */
-     , (23616,   3,  536871001) /* SoundTable */
-     , (23616,   4,  805306407) /* CombatTable */
-     , (23616,   6,   67111919) /* PaletteBase */
-     , (23616,   7,  268435859) /* ClothingBase */
-     , (23616,   8,  100670283) /* Icon */
-     , (23616,  22,  872415347) /* PhysicsEffectTable */
+VALUES (23616,   1, 0x020008FC) /* Setup */
+     , (23616,   2, 0x090000A3) /* MotionTable */
+     , (23616,   3, 0x20000059) /* SoundTable */
+     , (23616,   4, 0x30000027) /* CombatTable */
+     , (23616,   6, 0x04000BEF) /* PaletteBase */
+     , (23616,   7, 0x10000193) /* ClothingBase */
+     , (23616,   8, 0x06001B4B) /* Icon */
+     , (23616,  22, 0x34000073) /* PhysicsEffectTable */
      , (23616,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

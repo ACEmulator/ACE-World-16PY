@@ -26,10 +26,10 @@ VALUES (774,   1, 'Hyssop') /* Name */
      , (774,  20, 'Sacks of Hyssop') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (774,   1,   33554817) /* Setup */
-     , (774,   3,  536870932) /* SoundTable */
-     , (774,   6,   67111919) /* PaletteBase */
-     , (774,   7,  268435720) /* ClothingBase */
-     , (774,   8,  100668426) /* Icon */
-     , (774,  22,  872415275) /* PhysicsEffectTable */
+VALUES (774,   1, 0x02000181) /* Setup */
+     , (774,   3, 0x20000014) /* SoundTable */
+     , (774,   6, 0x04000BEF) /* PaletteBase */
+     , (774,   7, 0x10000108) /* ClothingBase */
+     , (774,   8, 0x0600140A) /* Icon */
+     , (774,  22, 0x3400002B) /* PhysicsEffectTable */
      , (774,  29,          7) /* SpellComponent */;

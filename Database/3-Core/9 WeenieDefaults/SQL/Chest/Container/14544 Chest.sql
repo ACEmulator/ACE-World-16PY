@@ -41,13 +41,13 @@ VALUES (14544,   1, 'Chest') /* Name */
      , (14544,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14544,   1,   33554556) /* Setup */
-     , (14544,   2,  150994948) /* MotionTable */
-     , (14544,   3,  536870945) /* SoundTable */
-     , (14544,   6,   67113785) /* PaletteBase */
-     , (14544,   7,  268436321) /* ClothingBase */
-     , (14544,   8,  100672485) /* Icon */
-     , (14544,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14544,   1, 0x0200007C) /* Setup */
+     , (14544,   2, 0x09000004) /* MotionTable */
+     , (14544,   3, 0x20000021) /* SoundTable */
+     , (14544,   6, 0x04001339) /* PaletteBase */
+     , (14544,   7, 0x10000361) /* ClothingBase */
+     , (14544,   8, 0x060023E5) /* Icon */
+     , (14544,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (14544, -1, 14506, 30, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Galvanic Bracelet (14506) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

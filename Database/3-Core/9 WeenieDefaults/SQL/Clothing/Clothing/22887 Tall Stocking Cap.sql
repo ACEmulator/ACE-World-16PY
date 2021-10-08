@@ -42,12 +42,12 @@ VALUES (22887,   1, 'Tall Stocking Cap') /* Name */
      , (22887,  16, 'A silly, warm stocking cap of cold protection.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22887,   1,   33558148) /* Setup */
-     , (22887,   3,  536870932) /* SoundTable */
-     , (22887,   6,   67108990) /* PaletteBase */
-     , (22887,   7,  268436534) /* ClothingBase */
-     , (22887,   8,  100673911) /* Icon */
-     , (22887,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22887,   1, 0x02000E84) /* Setup */
+     , (22887,   3, 0x20000014) /* SoundTable */
+     , (22887,   6, 0x0400007E) /* PaletteBase */
+     , (22887,   7, 0x10000436) /* ClothingBase */
+     , (22887,   8, 0x06002977) /* Icon */
+     , (22887,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22887,  1039,      2)  /* Cold Protection Other IV */;

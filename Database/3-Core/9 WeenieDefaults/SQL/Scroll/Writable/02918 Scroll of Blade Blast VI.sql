@@ -25,7 +25,7 @@ VALUES (2918,   1, 'Scroll of Blade Blast VI') /* Name */
      , (2918,  16, 'When learned, this spell shoots three whirling blades outward from the caster. Each blade does 21-40 points of slashing damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2918,   1,   33554826) /* Setup */
-     , (2918,   8,  100677028) /* Icon */
-     , (2918,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2918,   1, 0x0200018A) /* Setup */
+     , (2918,   8, 0x060035A4) /* Icon */
+     , (2918,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2918,  28,        126) /* Spell - Blade Blast VI */;

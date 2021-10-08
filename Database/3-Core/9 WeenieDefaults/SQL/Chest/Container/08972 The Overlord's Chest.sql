@@ -42,11 +42,11 @@ VALUES (8972,   1, 'The Overlord''s Chest') /* Name */
      , (8972,  16, 'A rusty old chest.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8972,   1,   33554556) /* Setup */
-     , (8972,   2,  150994948) /* MotionTable */
-     , (8972,   3,  536870945) /* SoundTable */
-     , (8972,   8,  100667424) /* Icon */
-     , (8972,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8972,   1, 0x0200007C) /* Setup */
+     , (8972,   2, 0x09000004) /* MotionTable */
+     , (8972,   3, 0x20000021) /* SoundTable */
+     , (8972,   8, 0x06001020) /* Icon */
+     , (8972,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8972, -1, 421, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 6 from Death Treasure Table id: 421 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;

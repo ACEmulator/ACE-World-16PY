@@ -38,9 +38,9 @@ VALUES (30372,   1, 'Shield of Engorgement') /* Name */
      , (30372,  16, 'Describe me here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30372,   1,   33554788) /* Setup */
-     , (30372,   3,  536870932) /* SoundTable */
-     , (30372,   6,   67111919) /* PaletteBase */
-     , (30372,   7,  268435610) /* ClothingBase */
-     , (30372,   8,  100668151) /* Icon */
-     , (30372,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30372,   1, 0x02000164) /* Setup */
+     , (30372,   3, 0x20000014) /* SoundTable */
+     , (30372,   6, 0x04000BEF) /* PaletteBase */
+     , (30372,   7, 0x1000009A) /* ClothingBase */
+     , (30372,   8, 0x060012F7) /* Icon */
+     , (30372,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -36,11 +36,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3816,   1, 'Flaming Kasrullah') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3816,   1,   33555735) /* Setup */
-     , (3816,   3,  536870932) /* SoundTable */
-     , (3816,   6,   67111919) /* PaletteBase */
-     , (3816,   7,  268435787) /* ClothingBase */
-     , (3816,   8,  100667595) /* Icon */
-     , (3816,  22,  872415275) /* PhysicsEffectTable */
-     , (3816,  36,  234881053) /* MutateFilter */
-     , (3816,  46,  939524099) /* TsysMutationFilter */;
+VALUES (3816,   1, 0x02000517) /* Setup */
+     , (3816,   3, 0x20000014) /* SoundTable */
+     , (3816,   6, 0x04000BEF) /* PaletteBase */
+     , (3816,   7, 0x1000014B) /* ClothingBase */
+     , (3816,   8, 0x060010CB) /* Icon */
+     , (3816,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3816,  36, 0x0E00001D) /* MutateFilter */
+     , (3816,  46, 0x38000003) /* TsysMutationFilter */;

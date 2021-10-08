@@ -74,13 +74,13 @@ VALUES (9424,   1, 'Drawohan the Gem Seller') /* Name */
      , (9424,  24, 'Yaraq') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9424,   1,   33557003) /* Setup */
-     , (9424,   2,  150994950) /* MotionTable */
-     , (9424,   3,  536870922) /* SoundTable */
-     , (9424,   4,  805306371) /* CombatTable */
-     , (9424,   6,   67113158) /* PaletteBase */
-     , (9424,   7,  268436152) /* ClothingBase */
-     , (9424,   8,  100667447) /* Icon */;
+VALUES (9424,   1, 0x02000A0B) /* Setup */
+     , (9424,   2, 0x09000006) /* MotionTable */
+     , (9424,   3, 0x2000000A) /* SoundTable */
+     , (9424,   4, 0x30000003) /* CombatTable */
+     , (9424,   6, 0x040010C6) /* PaletteBase */
+     , (9424,   7, 0x100002B8) /* ClothingBase */
+     , (9424,   8, 0x06001037) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9424,   1, 240, 0, 0) /* Strength */

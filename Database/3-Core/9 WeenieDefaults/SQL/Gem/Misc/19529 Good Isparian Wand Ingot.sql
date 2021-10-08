@@ -31,9 +31,9 @@ VALUES (19529,   1, 'Good Isparian Wand Ingot') /* Name */
      , (19529,  16, 'An diamond infused ingot, enhanced and stamped with an wand glyph.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19529,   1,   33555677) /* Setup */
-     , (19529,   3,  536870932) /* SoundTable */
-     , (19529,   6,   67111919) /* PaletteBase */
-     , (19529,   7,  268435723) /* ClothingBase */
-     , (19529,   8,  100672971) /* Icon */
-     , (19529,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19529,   1, 0x020004DD) /* Setup */
+     , (19529,   3, 0x20000014) /* SoundTable */
+     , (19529,   6, 0x04000BEF) /* PaletteBase */
+     , (19529,   7, 0x1000010B) /* ClothingBase */
+     , (19529,   8, 0x060025CB) /* Icon */
+     , (19529,  22, 0x3400002B) /* PhysicsEffectTable */;

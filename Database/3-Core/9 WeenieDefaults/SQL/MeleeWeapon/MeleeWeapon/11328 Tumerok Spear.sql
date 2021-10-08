@@ -37,8 +37,8 @@ VALUES (11328,   1, 'Tumerok Spear') /* Name */
      , (11328,  16, 'A lovingly carved Tumerok spear') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11328,   1,   33557309) /* Setup */
-     , (11328,   3,  536870932) /* SoundTable */
-     , (11328,   8,  100672029) /* Icon */
-     , (11328,  22,  872415275) /* PhysicsEffectTable */
-     , (11328,  36,  234881044) /* MutateFilter */;
+VALUES (11328,   1, 0x02000B3D) /* Setup */
+     , (11328,   3, 0x20000014) /* SoundTable */
+     , (11328,   8, 0x0600221D) /* Icon */
+     , (11328,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11328,  36, 0x0E000014) /* MutateFilter */;

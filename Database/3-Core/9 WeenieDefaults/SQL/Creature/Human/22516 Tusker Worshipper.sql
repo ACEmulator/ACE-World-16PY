@@ -65,12 +65,12 @@ VALUES (22516,   1, 'Tusker Worshipper') /* Name */
      , (22516,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22516,   1,   33554433) /* Setup */
-     , (22516,   2,  150994945) /* MotionTable */
-     , (22516,   3,  536870913) /* SoundTable */
-     , (22516,   4,  805306368) /* CombatTable */
-     , (22516,   8,  100667446) /* Icon */
-     , (22516,  22,  872415236) /* PhysicsEffectTable */
+VALUES (22516,   1, 0x02000001) /* Setup */
+     , (22516,   2, 0x09000001) /* MotionTable */
+     , (22516,   3, 0x20000001) /* SoundTable */
+     , (22516,   4, 0x30000000) /* CombatTable */
+     , (22516,   8, 0x06001036) /* Icon */
+     , (22516,  22, 0x34000004) /* PhysicsEffectTable */
      , (22516,  32,        416) /* WieldedTreasureType - 
                                    Wield Clean, Dry Towel (10758) | Palette: Blue (2) | Probability: 50%
                                    Wield Clean, Dry Towel (10758) | Palette: Green (8) | Probability: 50% */

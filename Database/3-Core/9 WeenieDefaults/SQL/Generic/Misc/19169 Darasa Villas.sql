@@ -22,5 +22,5 @@ VALUES (19169,   1, 'Darasa Villas') /* Name */
      , (19169,  16, 'Welcome to Darasa Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19169,   1,   33557463) /* Setup */
-     , (19169,   8,  100668115) /* Icon */;
+VALUES (19169,   1, 0x02000BD7) /* Setup */
+     , (19169,   8, 0x060012D3) /* Icon */;

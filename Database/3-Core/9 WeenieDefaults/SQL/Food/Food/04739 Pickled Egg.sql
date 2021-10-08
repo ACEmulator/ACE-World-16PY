@@ -28,7 +28,7 @@ VALUES (4739,   1, 'Pickled Egg') /* Name */
      , (4739,  20, 'Pickled Eggs') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4739,   1,   33554673) /* Setup */
-     , (4739,   3,  536870932) /* SoundTable */
-     , (4739,   8,  100670178) /* Icon */
-     , (4739,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4739,   1, 0x020000F1) /* Setup */
+     , (4739,   3, 0x20000014) /* SoundTable */
+     , (4739,   8, 0x06001AE2) /* Icon */
+     , (4739,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -24,5 +24,5 @@ VALUES (25758,   1, 'Book Shelf') /* Name */
      , (25758,  16, 'A nice bookshelf full of books.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25758,   1,   33554819) /* Setup */
-     , (25758,   8,  100668246) /* Icon */;
+VALUES (25758,   1, 0x02000183) /* Setup */
+     , (25758,   8, 0x06001356) /* Icon */;

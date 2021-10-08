@@ -37,11 +37,11 @@ VALUES (30857,   1, 'Sezzherei''s Lair') /* Name */
      , (30857,  16, 'This gem casts a portal to lair of Sezzherei, demon-child of the darkness beneath the world') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30857,   1,   33556769) /* Setup */
-     , (30857,   3,  536870932) /* SoundTable */
-     , (30857,   6,   67111919) /* PaletteBase */
-     , (30857,   7,  268435723) /* ClothingBase */
-     , (30857,   8,  100672368) /* Icon */
-     , (30857,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30857,   1, 0x02000921) /* Setup */
+     , (30857,   3, 0x20000014) /* SoundTable */
+     , (30857,   6, 0x04000BEF) /* PaletteBase */
+     , (30857,   7, 0x1000010B) /* ClothingBase */
+     , (30857,   8, 0x06002370) /* Icon */
+     , (30857,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30857,  28,        157) /* Spell - Summon Primary Portal I */
      , (30857,  31,      30905) /* LinkedPortalOne - Sezzherei's Lair */;

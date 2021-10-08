@@ -64,13 +64,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24054,   1, 'Aun Rukuona') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24054,   1,   33557117) /* Setup */
-     , (24054,   2,  150994945) /* MotionTable */
-     , (24054,   3,  536870931) /* SoundTable */
-     , (24054,   4,  805306380) /* CombatTable */
-     , (24054,   6,   67113280) /* PaletteBase */
-     , (24054,   7,  268436193) /* ClothingBase */
-     , (24054,   8,  100671756) /* Icon */;
+VALUES (24054,   1, 0x02000A7D) /* Setup */
+     , (24054,   2, 0x09000001) /* MotionTable */
+     , (24054,   3, 0x20000013) /* SoundTable */
+     , (24054,   4, 0x3000000C) /* CombatTable */
+     , (24054,   6, 0x04001140) /* PaletteBase */
+     , (24054,   7, 0x100002E1) /* ClothingBase */
+     , (24054,   8, 0x0600210C) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24054,   1,  95, 0, 0) /* Strength */

@@ -22,5 +22,5 @@ VALUES (19388,   1, 'Larkspur Gardens') /* Name */
      , (19388,  16, 'Larkspur Gardens') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19388,   1,   33557700) /* Setup */
-     , (19388,   8,  100667499) /* Icon */;
+VALUES (19388,   1, 0x02000CC4) /* Setup */
+     , (19388,   8, 0x0600106B) /* Icon */;

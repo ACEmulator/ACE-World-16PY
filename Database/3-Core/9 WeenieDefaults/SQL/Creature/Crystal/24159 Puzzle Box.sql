@@ -65,12 +65,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24159,   1, 'Puzzle Box') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24159,   1,   33558323) /* Setup */
-     , (24159,   2,  150995236) /* MotionTable */
-     , (24159,   3,  536871001) /* SoundTable */
-     , (24159,   4,  805306407) /* CombatTable */
-     , (24159,   8,  100674261) /* Icon */
-     , (24159,  22,  872415348) /* PhysicsEffectTable */;
+VALUES (24159,   1, 0x02000F33) /* Setup */
+     , (24159,   2, 0x09000124) /* MotionTable */
+     , (24159,   3, 0x20000059) /* SoundTable */
+     , (24159,   4, 0x30000027) /* CombatTable */
+     , (24159,   8, 0x06002AD5) /* Icon */
+     , (24159,  22, 0x34000074) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24159,   1, 100, 0, 0) /* Strength */

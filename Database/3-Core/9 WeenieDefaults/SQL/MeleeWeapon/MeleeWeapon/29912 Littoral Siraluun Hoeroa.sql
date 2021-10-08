@@ -47,11 +47,11 @@ VALUES (29912,   1, 'Littoral Siraluun Hoeroa') /* Name */
      , (29912,  16, 'A beautifully detailed hoeroa crafted from the claw of a Littoral Siraluun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29912,   1,   33559106) /* Setup */
-     , (29912,   3,  536870932) /* SoundTable */
-     , (29912,   8,  100677338) /* Icon */
-     , (29912,  22,  872415275) /* PhysicsEffectTable */
-     , (29912,  36,  234881044) /* MutateFilter */
+VALUES (29912,   1, 0x02001242) /* Setup */
+     , (29912,   3, 0x20000014) /* SoundTable */
+     , (29912,   8, 0x060036DA) /* Icon */
+     , (29912,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29912,  36, 0x0E000014) /* MutateFilter */
      , (29912,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

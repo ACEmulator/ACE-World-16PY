@@ -68,14 +68,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27917,   1, 'Hezhit') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27917,   1,   33558814) /* Setup */
-     , (27917,   2,  150994967) /* MotionTable */
-     , (27917,   3,  536870934) /* SoundTable */
-     , (27917,   4,  805306368) /* CombatTable */
-     , (27917,   6,   67115246) /* PaletteBase */
-     , (27917,   7,  268436834) /* ClothingBase */
-     , (27917,   8,  100676639) /* Icon */
-     , (27917,  22,  872415272) /* PhysicsEffectTable */
+VALUES (27917,   1, 0x0200111E) /* Setup */
+     , (27917,   2, 0x09000017) /* MotionTable */
+     , (27917,   3, 0x20000016) /* SoundTable */
+     , (27917,   4, 0x30000000) /* CombatTable */
+     , (27917,   6, 0x040018EE) /* PaletteBase */
+     , (27917,   7, 0x10000562) /* ClothingBase */
+     , (27917,   8, 0x0600341F) /* Icon */
+     , (27917,  22, 0x34000028) /* PhysicsEffectTable */
      , (27917,  35,         23) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)

@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26005,   1, 'Baron Nuvillus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26005,   1,   33558576) /* Setup */
-     , (26005,   2,  150995270) /* MotionTable */
-     , (26005,   3,  536871082) /* SoundTable */
-     , (26005,   4,  805306368) /* CombatTable */
-     , (26005,   6,   67114697) /* PaletteBase */
-     , (26005,   7,  268436644) /* ClothingBase */
-     , (26005,   8,  100669124) /* Icon */
-     , (26005,  22,  872415269) /* PhysicsEffectTable */
+VALUES (26005,   1, 0x02001030) /* Setup */
+     , (26005,   2, 0x09000146) /* MotionTable */
+     , (26005,   3, 0x200000AA) /* SoundTable */
+     , (26005,   4, 0x30000000) /* CombatTable */
+     , (26005,   6, 0x040016C9) /* PaletteBase */
+     , (26005,   7, 0x100004A4) /* ClothingBase */
+     , (26005,   8, 0x060016C4) /* Icon */
+     , (26005,  22, 0x34000025) /* PhysicsEffectTable */
      , (26005,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

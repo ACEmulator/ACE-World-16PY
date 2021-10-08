@@ -62,12 +62,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26689,   1, 'Field Ursuin Cub') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26689,   1,   33556773) /* Setup */
-     , (26689,   2,  150995284) /* MotionTable */
-     , (26689,   3,  536871011) /* SoundTable */
-     , (26689,   4,  805306409) /* CombatTable */
-     , (26689,   8,  100670959) /* Icon */
-     , (26689,  22,  872415366) /* PhysicsEffectTable */
+VALUES (26689,   1, 0x02000925) /* Setup */
+     , (26689,   2, 0x09000154) /* MotionTable */
+     , (26689,   3, 0x20000063) /* SoundTable */
+     , (26689,   4, 0x30000029) /* CombatTable */
+     , (26689,   8, 0x06001DEF) /* Icon */
+     , (26689,  22, 0x34000086) /* PhysicsEffectTable */
      , (26689,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

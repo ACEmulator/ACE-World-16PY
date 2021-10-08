@@ -36,11 +36,11 @@ VALUES (26191,   1, 'Greenswath Portal Gem') /* Name */
      , (26191,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26191,   1,   33556769) /* Setup */
-     , (26191,   3,  536870932) /* SoundTable */
-     , (26191,   6,   67111919) /* PaletteBase */
-     , (26191,   7,  268435723) /* ClothingBase */
-     , (26191,   8,  100675760) /* Icon */
-     , (26191,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26191,   1, 0x02000921) /* Setup */
+     , (26191,   3, 0x20000014) /* SoundTable */
+     , (26191,   6, 0x04000BEF) /* PaletteBase */
+     , (26191,   7, 0x1000010B) /* ClothingBase */
+     , (26191,   8, 0x060030B0) /* Icon */
+     , (26191,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26191,  28,        157) /* Spell - Summon Primary Portal I */
      , (26191,  31,      14262) /* LinkedPortalOne - Greenswath Portal */;

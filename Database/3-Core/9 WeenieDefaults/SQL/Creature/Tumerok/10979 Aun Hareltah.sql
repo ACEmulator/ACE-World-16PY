@@ -64,13 +64,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10979,   1, 'Aun Hareltah') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10979,   1,   33557117) /* Setup */
-     , (10979,   2,  150994945) /* MotionTable */
-     , (10979,   3,  536870931) /* SoundTable */
-     , (10979,   4,  805306380) /* CombatTable */
-     , (10979,   6,   67113280) /* PaletteBase */
-     , (10979,   7,  268436193) /* ClothingBase */
-     , (10979,   8,  100671756) /* Icon */;
+VALUES (10979,   1, 0x02000A7D) /* Setup */
+     , (10979,   2, 0x09000001) /* MotionTable */
+     , (10979,   3, 0x20000013) /* SoundTable */
+     , (10979,   4, 0x3000000C) /* CombatTable */
+     , (10979,   6, 0x04001140) /* PaletteBase */
+     , (10979,   7, 0x100002E1) /* ClothingBase */
+     , (10979,   8, 0x0600210C) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10979,   1, 300, 0, 0) /* Strength */

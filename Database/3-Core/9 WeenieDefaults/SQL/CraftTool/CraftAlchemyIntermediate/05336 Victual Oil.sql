@@ -28,9 +28,9 @@ VALUES (5336,   1, 'Victual Oil') /* Name */
      , (5336,  20, 'Vials of Victual Oil') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5336,   1,   33555967) /* Setup */
-     , (5336,   3,  536870932) /* SoundTable */
-     , (5336,   6,   67111919) /* PaletteBase */
-     , (5336,   7,  268435815) /* ClothingBase */
-     , (5336,   8,  100670012) /* Icon */
-     , (5336,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5336,   1, 0x020005FF) /* Setup */
+     , (5336,   3, 0x20000014) /* SoundTable */
+     , (5336,   6, 0x04000BEF) /* PaletteBase */
+     , (5336,   7, 0x10000167) /* ClothingBase */
+     , (5336,   8, 0x06001A3C) /* Icon */
+     , (5336,  22, 0x3400002B) /* PhysicsEffectTable */;

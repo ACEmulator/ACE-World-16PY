@@ -29,8 +29,8 @@ VALUES (8378,   1, 'Beer Stein') /* Name */
      , (8378,  15, 'Commemorative mug celebrating the new season.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8378,   1,   33556854) /* Setup */
-     , (8378,   3,  536870932) /* SoundTable */
-     , (8378,   8,  100671129) /* Icon */
-     , (8378,  22,  872415275) /* PhysicsEffectTable */
-     , (8378,  36,  234881046) /* MutateFilter */;
+VALUES (8378,   1, 0x02000976) /* Setup */
+     , (8378,   3, 0x20000014) /* SoundTable */
+     , (8378,   8, 0x06001E99) /* Icon */
+     , (8378,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8378,  36, 0x0E000016) /* MutateFilter */;

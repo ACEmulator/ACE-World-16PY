@@ -24,7 +24,7 @@ VALUES (20592,   1, 'Scroll of Hamud''s Blessing') /* Name */
      , (20592,  15, 'When learned, this spell increases the caster''s Unarmed Combat skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20592,   1,   33554826) /* Setup */
-     , (20592,   8,  100676478) /* Icon */
-     , (20592,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20592,   1, 0x0200018A) /* Setup */
+     , (20592,   8, 0x0600337E) /* Icon */
+     , (20592,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20592,  28,       2316) /* Spell - Light Weapon Mastery Self VII */;

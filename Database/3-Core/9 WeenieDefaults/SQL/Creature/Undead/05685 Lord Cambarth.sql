@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5685,   1, 'Lord Cambarth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5685,   1,   33554521) /* Setup */
-     , (5685,   2,  150994981) /* MotionTable */
-     , (5685,   3,  536870942) /* SoundTable */
-     , (5685,   4,  805306368) /* CombatTable */
-     , (5685,   6,   67111266) /* PaletteBase */
-     , (5685,   7,  268435646) /* ClothingBase */
-     , (5685,   8,  100669124) /* Icon */
-     , (5685,  22,  872415272) /* PhysicsEffectTable */
+VALUES (5685,   1, 0x02000059) /* Setup */
+     , (5685,   2, 0x09000025) /* MotionTable */
+     , (5685,   3, 0x2000001E) /* SoundTable */
+     , (5685,   4, 0x30000000) /* CombatTable */
+     , (5685,   6, 0x04000962) /* PaletteBase */
+     , (5685,   7, 0x100000BE) /* ClothingBase */
+     , (5685,   8, 0x060016C4) /* Icon */
+     , (5685,  22, 0x34000028) /* PhysicsEffectTable */
      , (5685,  32,        249) /* WieldedTreasureType - 
                                    Wield 4x Throwing Club (23654) | Probability: 10%
                                    Wield Yumi (23735) | Probability: 10%

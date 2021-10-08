@@ -24,7 +24,7 @@ VALUES (20558,   1, 'Scroll of Top Heavy Swing') /* Name */
      , (20558,  15, 'When learned, this spell decreases the target''s Mace skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20558,   1,   33554826) /* Setup */
-     , (20558,   8,  100676464) /* Icon */
-     , (20558,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20558,   1, 0x0200018A) /* Setup */
+     , (20558,   8, 0x06003370) /* Icon */
+     , (20558,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20558,  28,       2272) /* Spell - Light Weapon Ineptitude Other VII */;

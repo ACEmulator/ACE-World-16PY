@@ -37,7 +37,7 @@ VALUES (11458,   1, 'Tanae''s Totem of the Forests') /* Name */
      , (11458,  16, 'A triple totem representing Tanae, the anima of Palenqual''s forests.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11458,   1,   33557272) /* Setup */
-     , (11458,   3,  536870932) /* SoundTable */
-     , (11458,   8,  100672023) /* Icon */
-     , (11458,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11458,   1, 0x02000B18) /* Setup */
+     , (11458,   3, 0x20000014) /* SoundTable */
+     , (11458,   8, 0x06002217) /* Icon */
+     , (11458,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -23,7 +23,7 @@ VALUES (4640,   1, 'Sidzika''s Supplies') /* Name */
      , (4640,  16, 'Sidzika''s Supplies') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4640,   1,   33555909) /* Setup */
-     , (4640,   6,   67111860) /* PaletteBase */
-     , (4640,   7,  268435821) /* ClothingBase */
-     , (4640,   8,  100668115) /* Icon */;
+VALUES (4640,   1, 0x020005C5) /* Setup */
+     , (4640,   6, 0x04000BB4) /* PaletteBase */
+     , (4640,   7, 0x1000016D) /* ClothingBase */
+     , (4640,   8, 0x060012D3) /* Icon */;

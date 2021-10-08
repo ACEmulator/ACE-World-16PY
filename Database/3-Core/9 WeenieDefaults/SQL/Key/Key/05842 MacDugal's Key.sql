@@ -26,7 +26,7 @@ VALUES (5842,   1, 'MacDugal''s Key') /* Name */
      , (5842,  16, 'An old, old key that once belonged to MacDugal of the Bandit Castle.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5842,   1,   33554784) /* Setup */
-     , (5842,   3,  536870932) /* SoundTable */
-     , (5842,   8,  100667486) /* Icon */
-     , (5842,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5842,   1, 0x02000160) /* Setup */
+     , (5842,   3, 0x20000014) /* SoundTable */
+     , (5842,   8, 0x0600105E) /* Icon */
+     , (5842,  22, 0x3400002B) /* PhysicsEffectTable */;

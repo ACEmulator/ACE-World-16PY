@@ -25,7 +25,7 @@ VALUES (2859,   1, 'Scroll of Lightning Lure IV') /* Name */
      , (2859,  16, 'When learned, this spell decreases a shield or piece of armor''s resistance to electric damage by 75%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2859,   1,   33554826) /* Setup */
-     , (2859,   8,  100676668) /* Icon */
-     , (2859,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2859,   1, 0x0200018A) /* Setup */
+     , (2859,   8, 0x0600343C) /* Icon */
+     , (2859,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2859,  28,       1532) /* Spell - Lightning Lure IV */;

@@ -23,10 +23,10 @@ VALUES (29613,   1, 'Axe') /* Name */
      , (29613,  33, 'MemoryGamePickedupAxe') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29613,   1,   33554725) /* Setup */
-     , (29613,   6,   67111919) /* PaletteBase */
-     , (29613,   7,  268435779) /* ClothingBase */
-     , (29613,   8,  100668985) /* Icon */;
+VALUES (29613,   1, 0x02000125) /* Setup */
+     , (29613,   6, 0x04000BEF) /* PaletteBase */
+     , (29613,   7, 0x10000143) /* ClothingBase */
+     , (29613,   8, 0x06001639) /* Icon */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (29613, 10 /* PickUp */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

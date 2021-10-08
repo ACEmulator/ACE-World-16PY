@@ -51,13 +51,13 @@ VALUES (11434,   1, 'Palenqual''s Taiaha of the Chase') /* Name */
      , (11434,  16, 'A taiaha fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11434,   1,   33557236) /* Setup */
-     , (11434,   3,  536870932) /* SoundTable */
-     , (11434,   6,   67113336) /* PaletteBase */
-     , (11434,   7,  268436250) /* ClothingBase */
-     , (11434,   8,  100672089) /* Icon */
-     , (11434,  22,  872415275) /* PhysicsEffectTable */
-     , (11434,  36,  234881044) /* MutateFilter */;
+VALUES (11434,   1, 0x02000AF4) /* Setup */
+     , (11434,   3, 0x20000014) /* SoundTable */
+     , (11434,   6, 0x04001178) /* PaletteBase */
+     , (11434,   7, 0x1000031A) /* ClothingBase */
+     , (11434,   8, 0x06002259) /* Icon */
+     , (11434,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11434,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11434,  2454,      2)  /* Thorns */

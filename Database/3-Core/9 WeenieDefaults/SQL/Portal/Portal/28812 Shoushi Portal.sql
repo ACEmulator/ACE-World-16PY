@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28812,   1, 'Shoushi Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28812,   1,   33554867) /* Setup */
-     , (28812,   2,  150994947) /* MotionTable */
-     , (28812,   8,  100667499) /* Icon */;
+VALUES (28812,   1, 0x020001B3) /* Setup */
+     , (28812,   2, 0x09000003) /* MotionTable */
+     , (28812,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28812, 2, 0xDA550008, 21, 170.4, 20, 0.30237, 0, 0, -0.953191) /* Destination */

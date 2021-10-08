@@ -66,12 +66,12 @@ VALUES (22257,   1, 'Fishing Hole') /* Name */
      , (22257,  15, 'An inviting pool of quiet water.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22257,   1,   33558285) /* Setup */
-     , (22257,   2,  150995234) /* MotionTable */
-     , (22257,   3,  536870913) /* SoundTable */
-     , (22257,   6,   67114203) /* PaletteBase */
-     , (22257,   7,  268436582) /* ClothingBase */
-     , (22257,   8,  100674239) /* Icon */;
+VALUES (22257,   1, 0x02000F0D) /* Setup */
+     , (22257,   2, 0x09000122) /* MotionTable */
+     , (22257,   3, 0x20000001) /* SoundTable */
+     , (22257,   6, 0x040014DB) /* PaletteBase */
+     , (22257,   7, 0x10000466) /* ClothingBase */
+     , (22257,   8, 0x06002ABF) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22257,   1, 200, 0, 0) /* Strength */

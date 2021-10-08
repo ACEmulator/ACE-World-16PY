@@ -29,7 +29,7 @@ VALUES (5281,   1, 'Hearty Healing Mushroom Stew') /* Name */
      , (5281,  20, 'Bowls of Hearty Healing Mushroom Stew ') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5281,   1,   33555968) /* Setup */
-     , (5281,   3,  536870932) /* SoundTable */
-     , (5281,   8,  100669965) /* Icon */
-     , (5281,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5281,   1, 0x02000600) /* Setup */
+     , (5281,   3, 0x20000014) /* SoundTable */
+     , (5281,   8, 0x06001A0D) /* Icon */
+     , (5281,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -37,9 +37,9 @@ VALUES (25553,   1, 'Chicken Hat') /* Name */
      , (25553,  16, 'A chicken that you put on your head.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25553,   1,   33554643) /* Setup */
-     , (25553,   3,  536870932) /* SoundTable */
-     , (25553,   6,   67108990) /* PaletteBase */
-     , (25553,   7,  268436683) /* ClothingBase */
-     , (25553,   8,  100674944) /* Icon */
-     , (25553,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25553,   1, 0x020000D3) /* Setup */
+     , (25553,   3, 0x20000014) /* SoundTable */
+     , (25553,   6, 0x0400007E) /* PaletteBase */
+     , (25553,   7, 0x100004CB) /* ClothingBase */
+     , (25553,   8, 0x06002D80) /* Icon */
+     , (25553,  22, 0x3400002B) /* PhysicsEffectTable */;

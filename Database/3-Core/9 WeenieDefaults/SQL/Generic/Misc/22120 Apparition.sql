@@ -23,7 +23,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22120,   1, 'Apparition') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22120,   1,   33554839) /* Setup */
-     , (22120,   6,   67110722) /* PaletteBase */
-     , (22120,   7,  268435558) /* ClothingBase */
-     , (22120,   8,  100667942) /* Icon */;
+VALUES (22120,   1, 0x02000197) /* Setup */
+     , (22120,   6, 0x04000742) /* PaletteBase */
+     , (22120,   7, 0x10000066) /* ClothingBase */
+     , (22120,   8, 0x06001226) /* Icon */;

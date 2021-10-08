@@ -52,12 +52,12 @@ VALUES (8032,   1, 'Fenmalain Soul Crystal Shield') /* Name */
      , (8032,  16, 'A shield imbued with the power of the Fenmalain Soul Crystal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8032,   1,   33554786) /* Setup */
-     , (8032,   3,  536870932) /* SoundTable */
-     , (8032,   6,   67111919) /* PaletteBase */
-     , (8032,   7,  268436037) /* ClothingBase */
-     , (8032,   8,  100670975) /* Icon */
-     , (8032,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8032,   1, 0x02000162) /* Setup */
+     , (8032,   3, 0x20000014) /* SoundTable */
+     , (8032,   6, 0x04000BEF) /* PaletteBase */
+     , (8032,   7, 0x10000245) /* ClothingBase */
+     , (8032,   8, 0x06001DFF) /* Icon */
+     , (8032,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8032,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -38,11 +38,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4194,   1, 'Lightning Cestus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4194,   1,   33555995) /* Setup */
-     , (4194,   3,  536870932) /* SoundTable */
-     , (4194,   6,   67111919) /* PaletteBase */
-     , (4194,   7,  268435829) /* ClothingBase */
-     , (4194,   8,  100670016) /* Icon */
-     , (4194,  22,  872415275) /* PhysicsEffectTable */
-     , (4194,  36,  234881053) /* MutateFilter */
-     , (4194,  46,  939524102) /* TsysMutationFilter */;
+VALUES (4194,   1, 0x0200061B) /* Setup */
+     , (4194,   3, 0x20000014) /* SoundTable */
+     , (4194,   6, 0x04000BEF) /* PaletteBase */
+     , (4194,   7, 0x10000175) /* ClothingBase */
+     , (4194,   8, 0x06001A40) /* Icon */
+     , (4194,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (4194,  36, 0x0E00001D) /* MutateFilter */
+     , (4194,  46, 0x38000006) /* TsysMutationFilter */;

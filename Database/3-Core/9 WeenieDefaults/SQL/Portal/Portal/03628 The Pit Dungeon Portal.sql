@@ -25,9 +25,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3628,   1, 'The Pit Dungeon Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3628,   1,   33555924) /* Setup */
-     , (3628,   2,  150994947) /* MotionTable */
-     , (3628,   8,  100667499) /* Icon */;
+VALUES (3628,   1, 0x020005D4) /* Setup */
+     , (3628,   2, 0x09000003) /* MotionTable */
+     , (3628,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (3628, 2, 0x01A302F3, 39.685, -20.631, 0, -0.002452, 0, -0, -0.999997) /* Destination */

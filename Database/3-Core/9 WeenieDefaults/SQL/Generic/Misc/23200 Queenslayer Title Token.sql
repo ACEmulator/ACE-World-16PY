@@ -23,7 +23,7 @@ VALUES (23200,   1, 'Queenslayer Title Token') /* Name */
      , (23200,  15, 'Hand this token to Aun Hareltah in Timaru and he will award you the title of Queenslayer.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23200,   1,   33558119) /* Setup */
-     , (23200,   3,  536870932) /* SoundTable */
-     , (23200,   8,  100674009) /* Icon */
-     , (23200,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23200,   1, 0x02000E67) /* Setup */
+     , (23200,   3, 0x20000014) /* SoundTable */
+     , (23200,   8, 0x060029D9) /* Icon */
+     , (23200,  22, 0x3400002B) /* PhysicsEffectTable */;

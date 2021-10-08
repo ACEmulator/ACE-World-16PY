@@ -22,5 +22,5 @@ VALUES (15255,   1, 'Sliver-of-BlueCottages') /* Name */
      , (15255,  16, 'Welcome to Sliver-of-BlueCottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15255,   1,   33557463) /* Setup */
-     , (15255,   8,  100668115) /* Icon */;
+VALUES (15255,   1, 0x02000BD7) /* Setup */
+     , (15255,   8, 0x060012D3) /* Icon */;

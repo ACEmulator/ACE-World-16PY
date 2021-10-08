@@ -29,10 +29,10 @@ VALUES (30376,   1, 'Orb of the Ironsea') /* Name */
      , (30376,  16, 'Describe me here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30376,   1,   33554669) /* Setup */
-     , (30376,   3,  536870932) /* SoundTable */
-     , (30376,   6,   67111928) /* PaletteBase */
-     , (30376,   7,  268435751) /* ClothingBase */
-     , (30376,   8,  100668722) /* Icon */
-     , (30376,  22,  872415275) /* PhysicsEffectTable */
-     , (30376,  27, 1073741873) /* UseUserAnimation - MagicHeal */;
+VALUES (30376,   1, 0x020000ED) /* Setup */
+     , (30376,   3, 0x20000014) /* SoundTable */
+     , (30376,   6, 0x04000BF8) /* PaletteBase */
+     , (30376,   7, 0x10000127) /* ClothingBase */
+     , (30376,   8, 0x06001532) /* Icon */
+     , (30376,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30376,  27, 0x40000031) /* UseUserAnimation - MagicHeal */;

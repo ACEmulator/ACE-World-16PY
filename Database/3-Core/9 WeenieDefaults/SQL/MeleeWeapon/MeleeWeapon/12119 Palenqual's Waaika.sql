@@ -47,11 +47,11 @@ VALUES (12119,   1, 'Palenqual''s Waaika') /* Name */
      , (12119,  16, 'A waaika fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12119,   1,   33557235) /* Setup */
-     , (12119,   3,  536870932) /* SoundTable */
-     , (12119,   8,  100672033) /* Icon */
-     , (12119,  22,  872415275) /* PhysicsEffectTable */
-     , (12119,  36,  234881044) /* MutateFilter */
+VALUES (12119,   1, 0x02000AF3) /* Setup */
+     , (12119,   3, 0x20000014) /* SoundTable */
+     , (12119,   8, 0x06002221) /* Icon */
+     , (12119,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (12119,  36, 0x0E000014) /* MutateFilter */
      , (12119,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

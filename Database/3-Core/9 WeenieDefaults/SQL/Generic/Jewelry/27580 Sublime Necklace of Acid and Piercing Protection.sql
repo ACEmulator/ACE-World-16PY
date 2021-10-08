@@ -38,13 +38,13 @@ VALUES (27580,   1, 'Sublime Necklace of Acid and Piercing Protection') /* Name 
      , (27580,  15, 'A necklace of acid and piercing protection, given by Behdo Yii for completing the Eviscerator quest.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27580,   1,   33554689) /* Setup */
-     , (27580,   3,  536870932) /* SoundTable */
-     , (27580,   6,   67111919) /* PaletteBase */
-     , (27580,   7,  268435749) /* ClothingBase */
-     , (27580,   8,  100668752) /* Icon */
-     , (27580,  22,  872415275) /* PhysicsEffectTable */
-     , (27580,  36,  234881046) /* MutateFilter */;
+VALUES (27580,   1, 0x02000101) /* Setup */
+     , (27580,   3, 0x20000014) /* SoundTable */
+     , (27580,   6, 0x04000BEF) /* PaletteBase */
+     , (27580,   7, 0x10000125) /* ClothingBase */
+     , (27580,   8, 0x06001550) /* Icon */
+     , (27580,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27580,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27580,   514,      2)  /* Acid Protection Other VI */

@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19276,   1, 'Bronze Statue of a Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19276,   1,   33556426) /* Setup */
-     , (19276,   2,  150995183) /* MotionTable */
-     , (19276,   3,  536871052) /* SoundTable */
-     , (19276,   4,  805306376) /* CombatTable */
-     , (19276,   6,   67112775) /* PaletteBase */
-     , (19276,   7,  268435984) /* ClothingBase */
-     , (19276,   8,  100667940) /* Icon */
-     , (19276,  22,  872415323) /* PhysicsEffectTable */
+VALUES (19276,   1, 0x020007CA) /* Setup */
+     , (19276,   2, 0x090000EF) /* MotionTable */
+     , (19276,   3, 0x2000008C) /* SoundTable */
+     , (19276,   4, 0x30000008) /* CombatTable */
+     , (19276,   6, 0x04000F47) /* PaletteBase */
+     , (19276,   7, 0x10000210) /* ClothingBase */
+     , (19276,   8, 0x06001224) /* Icon */
+     , (19276,  22, 0x3400005B) /* PhysicsEffectTable */
      , (19276,  35,        406) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

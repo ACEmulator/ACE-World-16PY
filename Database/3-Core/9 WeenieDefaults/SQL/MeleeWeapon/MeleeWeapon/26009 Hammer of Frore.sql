@@ -44,13 +44,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26009,   1, 'Hammer of Frore') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26009,   1,   33558574) /* Setup */
-     , (26009,   3,  536870932) /* SoundTable */
-     , (26009,   6,   67111092) /* PaletteBase */
-     , (26009,   8,  100675713) /* Icon */
-     , (26009,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26009,   1, 0x0200102E) /* Setup */
+     , (26009,   3, 0x20000014) /* SoundTable */
+     , (26009,   6, 0x040008B4) /* PaletteBase */
+     , (26009,   8, 0x06003081) /* Icon */
+     , (26009,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26009,  30,         88) /* PhysicsScript - Create */
-     , (26009,  36,  234881044) /* MutateFilter */
+     , (26009,  36, 0x0E000014) /* MutateFilter */
      , (26009,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

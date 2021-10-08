@@ -42,11 +42,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21030,   1, 'Good Shimmering Isparian Wand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21030,   1,   33557731) /* Setup */
-     , (21030,   3,  536870932) /* SoundTable */
-     , (21030,   7,  268436427) /* ClothingBase */
-     , (21030,   8,  100673203) /* Icon */
-     , (21030,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21030,   1, 0x02000CE3) /* Setup */
+     , (21030,   3, 0x20000014) /* SoundTable */
+     , (21030,   7, 0x100003CB) /* ClothingBase */
+     , (21030,   8, 0x060026B3) /* Icon */
+     , (21030,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21030,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

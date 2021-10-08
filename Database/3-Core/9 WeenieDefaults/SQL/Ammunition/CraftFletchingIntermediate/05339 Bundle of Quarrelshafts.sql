@@ -24,7 +24,7 @@ VALUES (5339,   1, 'Bundle of Quarrelshafts') /* Name */
      , (5339,  20, 'Bundles of Quarrelshafts') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5339,   1,   33555961) /* Setup */
-     , (5339,   3,  536870932) /* SoundTable */
-     , (5339,   8,  100669990) /* Icon */
-     , (5339,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5339,   1, 0x020005F9) /* Setup */
+     , (5339,   3, 0x20000014) /* SoundTable */
+     , (5339,   8, 0x06001A26) /* Icon */
+     , (5339,  22, 0x3400002B) /* PhysicsEffectTable */;

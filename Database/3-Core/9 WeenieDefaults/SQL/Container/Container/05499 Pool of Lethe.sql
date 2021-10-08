@@ -36,10 +36,10 @@ VALUES (5499,   1, 'Pool of Lethe') /* Name */
      , (5499,  16, 'A pool of flaming water, rumored to cause those who drink of it to forget all earthly pain.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5499,   1,   33554711) /* Setup */
-     , (5499,   3,  536870932) /* SoundTable */
-     , (5499,   8,  100668107) /* Icon */
-     , (5499,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5499,   1, 0x02000117) /* Setup */
+     , (5499,   3, 0x20000014) /* SoundTable */
+     , (5499,   8, 0x060012CB) /* Icon */
+     , (5499,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5499, -1, 5498, 61, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Water of Lethe (5498) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

@@ -66,12 +66,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28554,   1, 'Spiked Grievver') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28554,   1,   33556698) /* Setup */
-     , (28554,   2,  150995098) /* MotionTable */
-     , (28554,   3,  536871009) /* SoundTable */
-     , (28554,   4,  805306411) /* CombatTable */
-     , (28554,   8,  100670960) /* Icon */
-     , (28554,  22,  872415364) /* PhysicsEffectTable */
+VALUES (28554,   1, 0x020008DA) /* Setup */
+     , (28554,   2, 0x0900009A) /* MotionTable */
+     , (28554,   3, 0x20000061) /* SoundTable */
+     , (28554,   4, 0x3000002B) /* CombatTable */
+     , (28554,   8, 0x06001DF0) /* Icon */
+     , (28554,  22, 0x34000084) /* PhysicsEffectTable */
      , (28554,  30,         86) /* PhysicsScript - BreatheAcid */
      , (28554,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 

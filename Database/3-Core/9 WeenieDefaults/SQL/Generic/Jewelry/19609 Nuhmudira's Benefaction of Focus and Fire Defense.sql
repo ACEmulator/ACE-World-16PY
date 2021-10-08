@@ -41,13 +41,13 @@ VALUES (19609,   1, 'Nuhmudira''s Benefaction of Focus and Fire Defense') /* Nam
      , (19609,  16, 'A green gorget, crafted from a strong metal, imbued with an elixir of single mind and elixir of summer. As you hold the gorget in your hand you feel a soft vibration.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19609,   1,   33554687) /* Setup */
-     , (19609,   3,  536870932) /* SoundTable */
-     , (19609,   6,   67111919) /* PaletteBase */
-     , (19609,   7,  268436388) /* ClothingBase */
-     , (19609,   8,  100668632) /* Icon */
-     , (19609,  22,  872415275) /* PhysicsEffectTable */
-     , (19609,  36,  234881046) /* MutateFilter */;
+VALUES (19609,   1, 0x020000FF) /* Setup */
+     , (19609,   3, 0x20000014) /* SoundTable */
+     , (19609,   6, 0x04000BEF) /* PaletteBase */
+     , (19609,   7, 0x100003A4) /* ClothingBase */
+     , (19609,   8, 0x060014D8) /* Icon */
+     , (19609,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (19609,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19609,   836,      2)  /* Fire Protection Other III */

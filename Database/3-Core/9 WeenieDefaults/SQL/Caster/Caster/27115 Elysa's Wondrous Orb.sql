@@ -38,9 +38,9 @@ VALUES (27115,   1, 'Elysa''s Wondrous Orb') /* Name */
      , (27115,  16, 'A magical orb infused with strange power of a most wondrous nature. This was a gift from the High Queen for furnishing information on the new creatures that have come to Dereth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27115,   1,   33558642) /* Setup */
-     , (27115,   3,  536870932) /* SoundTable */
-     , (27115,   8,  100675934) /* Icon */
-     , (27115,  22,  872415275) /* PhysicsEffectTable */
-     , (27115,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (27115,   1, 0x02001072) /* Setup */
+     , (27115,   3, 0x20000014) /* SoundTable */
+     , (27115,   8, 0x0600315E) /* Icon */
+     , (27115,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27115,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (27115,  28,       1280) /* Spell - Health to Mana Self III */;

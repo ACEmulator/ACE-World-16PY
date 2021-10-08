@@ -26,10 +26,10 @@ VALUES (788,   1, 'Powdered Malachite') /* Name */
      , (788,  20, 'Powdered Malachites') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (788,   1,   33555208) /* Setup */
-     , (788,   3,  536870932) /* SoundTable */
-     , (788,   6,   67111919) /* PaletteBase */
-     , (788,   7,  268435778) /* ClothingBase */
-     , (788,   8,  100669704) /* Icon */
-     , (788,  22,  872415275) /* PhysicsEffectTable */
+VALUES (788,   1, 0x02000308) /* Setup */
+     , (788,   3, 0x20000014) /* SoundTable */
+     , (788,   6, 0x04000BEF) /* PaletteBase */
+     , (788,   7, 0x10000142) /* ClothingBase */
+     , (788,   8, 0x06001908) /* Icon */
+     , (788,  22, 0x3400002B) /* PhysicsEffectTable */
      , (788,  29,         32) /* SpellComponent */;

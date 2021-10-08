@@ -26,12 +26,12 @@ VALUES (10759,   1, 'Muddy Towel') /* Name */
      , (10759,  16, 'An old and well-used towel, spattered heavily with thick mud.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10759,   1,   33554647) /* Setup */
-     , (10759,   3,  536870932) /* SoundTable */
-     , (10759,   6,   67108990) /* PaletteBase */
-     , (10759,   7,  268436188) /* ClothingBase */
-     , (10759,   8,  100671664) /* Icon */
-     , (10759,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (10759,   1, 0x020000D7) /* Setup */
+     , (10759,   3, 0x20000014) /* SoundTable */
+     , (10759,   6, 0x0400007E) /* PaletteBase */
+     , (10759,   7, 0x100002DC) /* ClothingBase */
+     , (10759,   8, 0x060020B0) /* Icon */
+     , (10759,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (10759, 2, 1000);

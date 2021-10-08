@@ -24,7 +24,7 @@ VALUES (20412,   1, 'Scroll of Inferno''s Bane') /* Name */
      , (20412,  15, 'When learned, this spell increases a shield or piece of armor''s resistance to fire damage by 170%.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20412,   1,   33554826) /* Setup */
-     , (20412,   8,  100676651) /* Icon */
-     , (20412,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20412,   1, 0x0200018A) /* Setup */
+     , (20412,   8, 0x0600342B) /* Icon */
+     , (20412,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20412,  28,       2102) /* Spell - Inferno's Bane */;

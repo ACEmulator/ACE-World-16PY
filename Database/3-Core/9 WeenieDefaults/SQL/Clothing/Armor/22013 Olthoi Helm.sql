@@ -38,9 +38,9 @@ VALUES (22013,   1, 'Olthoi Helm') /* Name */
      , (22013,  15, 'A helm crafted from the head of an olthoi Eviscerator.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22013,   1,   33558025) /* Setup */
-     , (22013,   3,  536870932) /* SoundTable */
-     , (22013,   6,   67108990) /* PaletteBase */
-     , (22013,   7,  268436479) /* ClothingBase */
-     , (22013,   8,  100673673) /* Icon */
-     , (22013,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22013,   1, 0x02000E09) /* Setup */
+     , (22013,   3, 0x20000014) /* SoundTable */
+     , (22013,   6, 0x0400007E) /* PaletteBase */
+     , (22013,   7, 0x100003FF) /* ClothingBase */
+     , (22013,   8, 0x06002889) /* Icon */
+     , (22013,  22, 0x3400002B) /* PhysicsEffectTable */;

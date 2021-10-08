@@ -46,10 +46,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28497,   1, 'Noble Quarterstaff') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28497,   1,   33558868) /* Setup */
-     , (28497,   3,  536870932) /* SoundTable */
-     , (28497,   8,  100676983) /* Icon */
-     , (28497,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28497,   1, 0x02001154) /* Setup */
+     , (28497,   3, 0x20000014) /* SoundTable */
+     , (28497,   8, 0x06003577) /* Icon */
+     , (28497,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28497,  1604,      2)  /* Aura of Defender Self V */

@@ -61,14 +61,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1273,   1, 'Giant White Rat') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1273,   1,   33554493) /* Setup */
-     , (1273,   2,  150994958) /* MotionTable */
-     , (1273,   3,  536870927) /* SoundTable */
-     , (1273,   4,  805306387) /* CombatTable */
-     , (1273,   6,   67109300) /* PaletteBase */
-     , (1273,   7,  268435555) /* ClothingBase */
-     , (1273,   8,  100667451) /* Icon */
-     , (1273,  22,  872415267) /* PhysicsEffectTable */
+VALUES (1273,   1, 0x0200003D) /* Setup */
+     , (1273,   2, 0x0900000E) /* MotionTable */
+     , (1273,   3, 0x2000000F) /* SoundTable */
+     , (1273,   4, 0x30000013) /* CombatTable */
+     , (1273,   6, 0x040001B4) /* PaletteBase */
+     , (1273,   7, 0x10000063) /* ClothingBase */
+     , (1273,   8, 0x0600103B) /* Icon */
+     , (1273,  22, 0x34000023) /* PhysicsEffectTable */
      , (1273,  30,         86) /* PhysicsScript - BreatheAcid */
      , (1273,  35,        262) /* DeathTreasureType - Loot Tier: 3 */;
 

@@ -24,7 +24,7 @@ VALUES (27531,   1, 'Diplomat Token') /* Name */
      , (27531,  16, 'Give this token to Aun Laokhe and he will change your title to Diplomat.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27531,   1,   33557613) /* Setup */
-     , (27531,   3,  536870932) /* SoundTable */
-     , (27531,   8,  100676429) /* Icon */
-     , (27531,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27531,   1, 0x02000C6D) /* Setup */
+     , (27531,   3, 0x20000014) /* SoundTable */
+     , (27531,   8, 0x0600334D) /* Icon */
+     , (27531,  22, 0x3400002B) /* PhysicsEffectTable */;

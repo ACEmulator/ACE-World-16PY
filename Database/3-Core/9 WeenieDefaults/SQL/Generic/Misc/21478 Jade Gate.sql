@@ -22,5 +22,5 @@ VALUES (21478,   1, 'Jade Gate') /* Name */
      , (21478,  16, 'Jade Gate') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21478,   1,   33557895) /* Setup */
-     , (21478,   8,  100667499) /* Icon */;
+VALUES (21478,   1, 0x02000D87) /* Setup */
+     , (21478,   8, 0x0600106B) /* Icon */;

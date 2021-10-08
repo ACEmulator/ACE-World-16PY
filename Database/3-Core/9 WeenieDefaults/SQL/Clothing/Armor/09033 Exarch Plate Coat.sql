@@ -43,12 +43,12 @@ VALUES (9033,   1, 'Exarch Plate Coat') /* Name */
      , (9033,  16, 'A heavily enchanted crystalline coat, of the type once worn into battle by the Exarchs of the Yalaini Order of Hieromancers. The seal of the Yalaini Seaborne Empire is embossed on its chest.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9033,   1,   33554644) /* Setup */
-     , (9033,   3,  536870932) /* SoundTable */
-     , (9033,   6,   67108990) /* PaletteBase */
-     , (9033,   7,  268436116) /* ClothingBase */
-     , (9033,   8,  100670403) /* Icon */
-     , (9033,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9033,   1, 0x020000D4) /* Setup */
+     , (9033,   3, 0x20000014) /* SoundTable */
+     , (9033,   6, 0x0400007E) /* PaletteBase */
+     , (9033,   7, 0x10000294) /* ClothingBase */
+     , (9033,   8, 0x06001BC3) /* Icon */
+     , (9033,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9033,  41,         34) /* ItemSpecializedOnly - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

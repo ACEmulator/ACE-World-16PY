@@ -24,7 +24,7 @@ VALUES (28090,   1, 'Scroll of Lesser Sanctifier of the Clutch') /* Name */
      , (28090,  15, 'When learned, this spell enhances the Magic Resistance of all Fellowship members by 25 points for 30 minutes.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28090,   1,   33554826) /* Setup */
-     , (28090,   8,  100676465) /* Icon */
-     , (28090,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28090,   1, 0x0200018A) /* Setup */
+     , (28090,   8, 0x06003371) /* Icon */
+     , (28090,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28090,  28,       3356) /* Spell - Lesser Sanctifier of the Clutch */;

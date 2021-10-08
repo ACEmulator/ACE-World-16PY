@@ -40,13 +40,13 @@ VALUES (14506,   1, 'Galvanic Bracelet') /* Name */
      , (14506,  33, 'BraceletGalvanicPickup') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14506,   1,   33554683) /* Setup */
-     , (14506,   3,  536870932) /* SoundTable */
-     , (14506,   6,   67111919) /* PaletteBase */
-     , (14506,   7,  268436286) /* ClothingBase */
-     , (14506,   8,  100672506) /* Icon */
-     , (14506,  22,  872415275) /* PhysicsEffectTable */
-     , (14506,  36,  234881046) /* MutateFilter */;
+VALUES (14506,   1, 0x020000FB) /* Setup */
+     , (14506,   3, 0x20000014) /* SoundTable */
+     , (14506,   6, 0x04000BEF) /* PaletteBase */
+     , (14506,   7, 0x1000033E) /* ClothingBase */
+     , (14506,   8, 0x060023FA) /* Icon */
+     , (14506,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (14506,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (14506,  1077,      2)  /* Lightning Protection Other VI */

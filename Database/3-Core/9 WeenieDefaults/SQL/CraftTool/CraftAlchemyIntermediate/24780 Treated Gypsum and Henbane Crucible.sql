@@ -32,8 +32,8 @@ VALUES (24780,   1, 'Treated Gypsum and Henbane Crucible') /* Name */
      , (24780,  20, 'Treated Gypsum and Henbane Crucibles') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24780,   1,   33555966) /* Setup */
-     , (24780,   3,  536870932) /* SoundTable */
-     , (24780,   8,  100674461) /* Icon */
-     , (24780,  22,  872415275) /* PhysicsEffectTable */
-     , (24780,  50,  100674414) /* IconOverlay */;
+VALUES (24780,   1, 0x020005FE) /* Setup */
+     , (24780,   3, 0x20000014) /* SoundTable */
+     , (24780,   8, 0x06002B9D) /* Icon */
+     , (24780,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24780,  50, 0x06002B6E) /* IconOverlay */;

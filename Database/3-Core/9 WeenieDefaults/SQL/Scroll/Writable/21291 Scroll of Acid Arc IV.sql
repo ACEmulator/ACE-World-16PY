@@ -24,7 +24,7 @@ VALUES (21291,   1, 'Scroll of Acid Arc IV') /* Name */
      , (21291,  15, 'When learned, this spell shoots a stream of acid at the target. The stream does 31-60 points of acid damage to the first thing it hits.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21291,   1,   33554826) /* Setup */
-     , (21291,   8,  100677026) /* Icon */
-     , (21291,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21291,   1, 0x0200018A) /* Setup */
+     , (21291,   8, 0x060035A2) /* Icon */
+     , (21291,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21291,  28,       2714) /* Spell - Acid Arc IV */;

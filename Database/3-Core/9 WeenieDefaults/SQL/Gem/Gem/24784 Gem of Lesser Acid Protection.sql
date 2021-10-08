@@ -35,11 +35,11 @@ VALUES (24784,   1, 'Gem of Lesser Acid Protection') /* Name */
      , (24784,  20, 'Gems of Lesser Acid Protection') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24784,   1,   33554809) /* Setup */
-     , (24784,   3,  536870932) /* SoundTable */
-     , (24784,   6,   67111919) /* PaletteBase */
-     , (24784,   7,  268435723) /* ClothingBase */
-     , (24784,   8,  100674448) /* Icon */
-     , (24784,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24784,   1, 0x02000179) /* Setup */
+     , (24784,   3, 0x20000014) /* SoundTable */
+     , (24784,   6, 0x04000BEF) /* PaletteBase */
+     , (24784,   7, 0x1000010B) /* ClothingBase */
+     , (24784,   8, 0x06002B90) /* Icon */
+     , (24784,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24784,  28,        511) /* Spell - Acid Protection Other III */
-     , (24784,  36,  234881046) /* MutateFilter */;
+     , (24784,  36, 0x0E000016) /* MutateFilter */;

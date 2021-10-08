@@ -33,8 +33,8 @@ VALUES (27291,   1, 'Door') /* Name */
      , (27291,  16, 'A locked door.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27291,   1,   33555023) /* Setup */
-     , (27291,   2,  150994966) /* MotionTable */
-     , (27291,   3,  536870946) /* SoundTable */
-     , (27291,   8,  100668183) /* Icon */
-     , (27291,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27291,   1, 0x0200024F) /* Setup */
+     , (27291,   2, 0x09000016) /* MotionTable */
+     , (27291,   3, 0x20000022) /* SoundTable */
+     , (27291,   8, 0x06001317) /* Icon */
+     , (27291,  22, 0x3400002B) /* PhysicsEffectTable */;

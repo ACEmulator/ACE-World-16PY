@@ -28,7 +28,7 @@ VALUES (7844,   1, 'Frozen Green Tea') /* Name */
      , (7844,  20, 'Pitchers of Frozen Green Tea') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7844,   1,   33555977) /* Setup */
-     , (7844,   3,  536870932) /* SoundTable */
-     , (7844,   8,  100670876) /* Icon */
-     , (7844,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7844,   1, 0x02000609) /* Setup */
+     , (7844,   3, 0x20000014) /* SoundTable */
+     , (7844,   8, 0x06001D9C) /* Icon */
+     , (7844,  22, 0x3400002B) /* PhysicsEffectTable */;

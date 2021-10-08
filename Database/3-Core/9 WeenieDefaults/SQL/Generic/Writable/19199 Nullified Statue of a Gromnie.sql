@@ -26,9 +26,9 @@ VALUES (19199,   1, 'Nullified Statue of a Gromnie') /* Name */
      , (19199,  15, 'This nullified shell is all that remains of the living Statue of a Gromnie that once threatened our peaceful town. Destroyed through the sole efforts of the citizens of Dereth, it remains as a testament to their valor. This land is yours now.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19199,   1,   33554487) /* Setup */
-     , (19199,   2,  150995165) /* MotionTable */
-     , (19199,   3,  536871052) /* SoundTable */
-     , (19199,   6,   67109547) /* PaletteBase */
-     , (19199,   7,  268435631) /* ClothingBase */
-     , (19199,   8,  100667938) /* Icon */;
+VALUES (19199,   1, 0x02000037) /* Setup */
+     , (19199,   2, 0x090000DD) /* MotionTable */
+     , (19199,   3, 0x2000008C) /* SoundTable */
+     , (19199,   6, 0x040002AB) /* PaletteBase */
+     , (19199,   7, 0x100000AF) /* ClothingBase */
+     , (19199,   8, 0x06001222) /* Icon */;

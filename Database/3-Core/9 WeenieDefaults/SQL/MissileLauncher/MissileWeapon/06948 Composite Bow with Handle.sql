@@ -50,12 +50,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6948,   1, 'Composite Bow with Handle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6948,   1,   33556600) /* Setup */
-     , (6948,   3,  536870932) /* SoundTable */
-     , (6948,   6,   67112869) /* PaletteBase */
-     , (6948,   7,  268436002) /* ClothingBase */
-     , (6948,   8,  100670669) /* Icon */
-     , (6948,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6948,   1, 0x02000878) /* Setup */
+     , (6948,   3, 0x20000014) /* SoundTable */
+     , (6948,   6, 0x04000FA5) /* PaletteBase */
+     , (6948,   7, 0x10000222) /* ClothingBase */
+     , (6948,   8, 0x06001CCD) /* Icon */
+     , (6948,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6948,  37,          2) /* ItemSkillLimit - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

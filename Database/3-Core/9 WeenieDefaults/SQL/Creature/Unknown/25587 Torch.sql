@@ -68,11 +68,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25587,   1, 'Torch') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25587,   1,   33554917) /* Setup */
-     , (25587,   2,  150995094) /* MotionTable */
-     , (25587,   3,  536870980) /* SoundTable */
-     , (25587,   8,  100667506) /* Icon */
-     , (25587,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25587,   1, 0x020001E5) /* Setup */
+     , (25587,   2, 0x09000096) /* MotionTable */
+     , (25587,   3, 0x20000044) /* SoundTable */
+     , (25587,   8, 0x06001072) /* Icon */
+     , (25587,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (25587,  16, 0x7604A008) /* ActivationTarget */;

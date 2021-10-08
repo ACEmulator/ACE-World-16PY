@@ -63,12 +63,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29723,   1, 'Sealed Valve') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29723,   1,   33559060) /* Setup */
-     , (29723,   2,  150995315) /* MotionTable */
-     , (29723,   3,  536871052) /* SoundTable */
-     , (29723,   4,  805306398) /* CombatTable */
-     , (29723,   8,  100677140) /* Icon */
-     , (29723,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (29723,   1, 0x02001214) /* Setup */
+     , (29723,   2, 0x09000173) /* MotionTable */
+     , (29723,   3, 0x2000008C) /* SoundTable */
+     , (29723,   4, 0x3000001E) /* CombatTable */
+     , (29723,   8, 0x06003614) /* Icon */
+     , (29723,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29723,   1, 380, 0, 0) /* Strength */

@@ -44,12 +44,12 @@ VALUES (29820,   1, 'Littoral Siraluun Headdress') /* Name */
      , (29820,  16, 'A headdress plaited from the plumes of a Littoral Siraluun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29820,   1,   33557288) /* Setup */
-     , (29820,   3,  536870932) /* SoundTable */
-     , (29820,   6,   67108990) /* PaletteBase */
-     , (29820,   7,  268436237) /* ClothingBase */
-     , (29820,   8,  100677286) /* Icon */
-     , (29820,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29820,   1, 0x02000B28) /* Setup */
+     , (29820,   3, 0x20000014) /* SoundTable */
+     , (29820,   6, 0x0400007E) /* PaletteBase */
+     , (29820,   7, 0x1000030D) /* ClothingBase */
+     , (29820,   8, 0x060036A6) /* Icon */
+     , (29820,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29820,   758,      2)  /* Magic Item Tinkering Expertise Other III */

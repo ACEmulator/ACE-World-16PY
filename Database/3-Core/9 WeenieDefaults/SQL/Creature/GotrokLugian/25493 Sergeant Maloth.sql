@@ -67,14 +67,14 @@ VALUES (25493,   1, 'Sergeant Maloth') /* Name */
      , (25493,   5, 'Gotrok Sergeant') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25493,   1,   33557003) /* Setup */
-     , (25493,   2,  150994950) /* MotionTable */
-     , (25493,   3,  536870922) /* SoundTable */
-     , (25493,   4,  805306371) /* CombatTable */
-     , (25493,   6,   67113158) /* PaletteBase */
-     , (25493,   7,  268436153) /* ClothingBase */
-     , (25493,   8,  100667447) /* Icon */
-     , (25493,  22,  872415262) /* PhysicsEffectTable */;
+VALUES (25493,   1, 0x02000A0B) /* Setup */
+     , (25493,   2, 0x09000006) /* MotionTable */
+     , (25493,   3, 0x2000000A) /* SoundTable */
+     , (25493,   4, 0x30000003) /* CombatTable */
+     , (25493,   6, 0x040010C6) /* PaletteBase */
+     , (25493,   7, 0x100002B9) /* ClothingBase */
+     , (25493,   8, 0x06001037) /* Icon */
+     , (25493,  22, 0x3400001E) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (25493,  16, 0x7604902E) /* ActivationTarget */;

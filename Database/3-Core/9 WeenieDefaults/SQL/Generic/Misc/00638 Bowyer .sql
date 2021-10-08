@@ -22,7 +22,7 @@ VALUES (638,   1, 'Bowyer ') /* Name */
      , (638,  16, 'Bowyer') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (638,   1,   33555088) /* Setup */
-     , (638,   6,   67111092) /* PaletteBase */
-     , (638,   7,  268435654) /* ClothingBase */
-     , (638,   8,  100668115) /* Icon */;
+VALUES (638,   1, 0x02000290) /* Setup */
+     , (638,   6, 0x040008B4) /* PaletteBase */
+     , (638,   7, 0x100000C6) /* ClothingBase */
+     , (638,   8, 0x060012D3) /* Icon */;

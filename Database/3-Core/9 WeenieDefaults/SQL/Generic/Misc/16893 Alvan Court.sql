@@ -22,5 +22,5 @@ VALUES (16893,   1, 'Alvan Court') /* Name */
      , (16893,  16, 'Alvan Court') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (16893,   1,   33557651) /* Setup */
-     , (16893,   8,  100672342) /* Icon */;
+VALUES (16893,   1, 0x02000C93) /* Setup */
+     , (16893,   8, 0x06002356) /* Icon */;

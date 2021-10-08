@@ -64,12 +64,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5748,   1, 'Fire Wisp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5748,   1,   33556633) /* Setup */
-     , (5748,   2,  150994993) /* MotionTable */
-     , (5748,   3,  536870985) /* SoundTable */
-     , (5748,   4,  805306398) /* CombatTable */
-     , (5748,   8,  100668442) /* Icon */
-     , (5748,  22,  872415274) /* PhysicsEffectTable */
+VALUES (5748,   1, 0x02000899) /* Setup */
+     , (5748,   2, 0x09000031) /* MotionTable */
+     , (5748,   3, 0x20000049) /* SoundTable */
+     , (5748,   4, 0x3000001E) /* CombatTable */
+     , (5748,   8, 0x0600141A) /* Icon */
+     , (5748,  22, 0x3400002A) /* PhysicsEffectTable */
      , (5748,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

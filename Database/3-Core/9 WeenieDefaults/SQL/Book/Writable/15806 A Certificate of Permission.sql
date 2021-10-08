@@ -26,10 +26,10 @@ VALUES (15806,   1, 'A Certificate of Permission') /* Name */
      , (15806,  15, 'A certificate granting permission to give the bearer Elysa Strathelar''s Letters') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15806,   1,   33554773) /* Setup */
-     , (15806,   3,  536870932) /* SoundTable */
-     , (15806,   8,  100672829) /* Icon */
-     , (15806,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15806,   1, 0x02000155) /* Setup */
+     , (15806,   3, 0x20000014) /* SoundTable */
+     , (15806,   8, 0x0600253D) /* Icon */
+     , (15806,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (15806, 1, 1000);

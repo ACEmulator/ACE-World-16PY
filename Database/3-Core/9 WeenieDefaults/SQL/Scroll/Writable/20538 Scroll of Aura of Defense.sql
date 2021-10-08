@@ -24,7 +24,7 @@ VALUES (20538,   1, 'Scroll of Aura of Defense') /* Name */
      , (20538,  15, 'When learned, this spell increases the caster''s Melee Defense skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20538,   1,   33554826) /* Setup */
-     , (20538,   8,  100676467) /* Icon */
-     , (20538,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20538,   1, 0x0200018A) /* Setup */
+     , (20538,   8, 0x06003373) /* Icon */
+     , (20538,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20538,  28,       2245) /* Spell - Aura of Defense */;

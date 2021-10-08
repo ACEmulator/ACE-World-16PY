@@ -22,5 +22,5 @@ VALUES (15701,   1, 'Harmonious Blade Cottages') /* Name */
      , (15701,  16, 'Welcome to Harmonious Blade Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15701,   1,   33557463) /* Setup */
-     , (15701,   8,  100668115) /* Icon */;
+VALUES (15701,   1, 0x02000BD7) /* Setup */
+     , (15701,   8, 0x060012D3) /* Icon */;

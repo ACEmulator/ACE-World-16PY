@@ -60,14 +60,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23554,   1, 'Adolescent Rust Gromnie') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23554,   1,   33554487) /* Setup */
-     , (23554,   2,  150994971) /* MotionTable */
-     , (23554,   3,  536870921) /* SoundTable */
-     , (23554,   4,  805306386) /* CombatTable */
-     , (23554,   6,   67109547) /* PaletteBase */
-     , (23554,   7,  268435631) /* ClothingBase */
-     , (23554,   8,  100667938) /* Icon */
-     , (23554,  22,  872415260) /* PhysicsEffectTable */
+VALUES (23554,   1, 0x02000037) /* Setup */
+     , (23554,   2, 0x0900001B) /* MotionTable */
+     , (23554,   3, 0x20000009) /* SoundTable */
+     , (23554,   4, 0x30000012) /* CombatTable */
+     , (23554,   6, 0x040002AB) /* PaletteBase */
+     , (23554,   7, 0x100000AF) /* ClothingBase */
+     , (23554,   8, 0x06001222) /* Icon */
+     , (23554,  22, 0x3400001C) /* PhysicsEffectTable */
      , (23554,  30,         85) /* PhysicsScript - BreatheFrost */
      , (23554,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;
 

@@ -45,12 +45,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6228,   1, 'Peerless Shivering Atlan Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6228,   1,   33556324) /* Setup */
-     , (6228,   3,  536870932) /* SoundTable */
-     , (6228,   6,   67111919) /* PaletteBase */
-     , (6228,   7,  268435903) /* ClothingBase */
-     , (6228,   8,  100670538) /* Icon */
-     , (6228,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6228,   1, 0x02000764) /* Setup */
+     , (6228,   3, 0x20000014) /* SoundTable */
+     , (6228,   6, 0x04000BEF) /* PaletteBase */
+     , (6228,   7, 0x100001BF) /* ClothingBase */
+     , (6228,   8, 0x06001C4A) /* Icon */
+     , (6228,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6228,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

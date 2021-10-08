@@ -22,7 +22,7 @@ VALUES (23307,   1, 'Ball of Gunk') /* Name */
      , (23307,  16, 'A squishy ball of green gunk.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23307,   1,   33558277) /* Setup */
-     , (23307,   3,  536870932) /* SoundTable */
-     , (23307,   8,  100674231) /* Icon */
-     , (23307,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23307,   1, 0x02000F05) /* Setup */
+     , (23307,   3, 0x20000014) /* SoundTable */
+     , (23307,   8, 0x06002AB7) /* Icon */
+     , (23307,  22, 0x3400002B) /* PhysicsEffectTable */;

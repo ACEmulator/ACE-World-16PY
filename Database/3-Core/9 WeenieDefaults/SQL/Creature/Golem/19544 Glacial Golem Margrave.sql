@@ -71,14 +71,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19544,   1, 'Glacial Golem Margrave') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19544,   1,   33557484) /* Setup */
-     , (19544,   2,  150995073) /* MotionTable */
-     , (19544,   3,  536870933) /* SoundTable */
-     , (19544,   4,  805306376) /* CombatTable */
-     , (19544,   6,   67113782) /* PaletteBase */
-     , (19544,   7,  268436246) /* ClothingBase */
-     , (19544,   8,  100667940) /* Icon */
-     , (19544,  22,  872415323) /* PhysicsEffectTable */
+VALUES (19544,   1, 0x02000BEC) /* Setup */
+     , (19544,   2, 0x09000081) /* MotionTable */
+     , (19544,   3, 0x20000015) /* SoundTable */
+     , (19544,   4, 0x30000008) /* CombatTable */
+     , (19544,   6, 0x04001336) /* PaletteBase */
+     , (19544,   7, 0x10000316) /* ClothingBase */
+     , (19544,   8, 0x06001224) /* Icon */
+     , (19544,  22, 0x3400005B) /* PhysicsEffectTable */
      , (19544,  35,         33) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

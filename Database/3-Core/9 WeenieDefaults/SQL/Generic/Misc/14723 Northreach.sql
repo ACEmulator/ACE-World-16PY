@@ -22,5 +22,5 @@ VALUES (14723,   1, 'Northreach') /* Name */
      , (14723,  16, 'Welcome to Northreach') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14723,   1,   33557463) /* Setup */
-     , (14723,   8,  100668115) /* Icon */;
+VALUES (14723,   1, 0x02000BD7) /* Setup */
+     , (14723,   8, 0x060012D3) /* Icon */;

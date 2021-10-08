@@ -28,10 +28,10 @@ VALUES (30378,   1, 'Deru Limb') /* Name */
      , (30378,  16, 'Describe me here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30378,   1,   33554812) /* Setup */
-     , (30378,   3,  536870932) /* SoundTable */
-     , (30378,   6,   67111919) /* PaletteBase */
-     , (30378,   7,  268435758) /* ClothingBase */
-     , (30378,   8,  100668792) /* Icon */
-     , (30378,  22,  872415275) /* PhysicsEffectTable */
-     , (30378,  27, 1073742049) /* UseUserAnimation - UseMagicWand */;
+VALUES (30378,   1, 0x0200017C) /* Setup */
+     , (30378,   3, 0x20000014) /* SoundTable */
+     , (30378,   6, 0x04000BEF) /* PaletteBase */
+     , (30378,   7, 0x1000012E) /* ClothingBase */
+     , (30378,   8, 0x06001578) /* Icon */
+     , (30378,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30378,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */;

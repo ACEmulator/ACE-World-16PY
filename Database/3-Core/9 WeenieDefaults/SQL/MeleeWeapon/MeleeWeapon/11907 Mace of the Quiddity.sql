@@ -42,11 +42,11 @@ VALUES (11907,   1, 'Mace of the Quiddity') /* Name */
      , (11907,  16, 'A weapon made of a strange pulsating energy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11907,   1,   33557110) /* Setup */
-     , (11907,   3,  536870932) /* SoundTable */
-     , (11907,   8,  100671697) /* Icon */
-     , (11907,  22,  872415275) /* PhysicsEffectTable */
-     , (11907,  36,  234881044) /* MutateFilter */
+VALUES (11907,   1, 0x02000A76) /* Setup */
+     , (11907,   3, 0x20000014) /* SoundTable */
+     , (11907,   8, 0x060020D1) /* Icon */
+     , (11907,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11907,  36, 0x0E000014) /* MutateFilter */
      , (11907,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

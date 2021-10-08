@@ -24,10 +24,10 @@ VALUES (11374,   1, 'Note from Hea Toneawa to Aun Mariona') /* Name */
      , (11374,  15, 'A note from Hea Toneawa for delivery to Aun Mariona, at 41.1N 74.4W.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11374,   1,   33554773) /* Setup */
-     , (11374,   3,  536870932) /* SoundTable */
-     , (11374,   8,  100668176) /* Icon */
-     , (11374,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11374,   1, 0x02000155) /* Setup */
+     , (11374,   3, 0x20000014) /* SoundTable */
+     , (11374,   8, 0x06001310) /* Icon */
+     , (11374,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (11374, 1, 1000);

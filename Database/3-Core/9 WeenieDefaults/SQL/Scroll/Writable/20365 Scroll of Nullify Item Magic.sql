@@ -24,7 +24,7 @@ VALUES (20365,   1, 'Scroll of Nullify Item Magic') /* Name */
      , (20365,  15, 'When learned, this spell dispels 2-6 Item Magic enchantments of level 6 or lower from the caster.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20365,   1,   33554826) /* Setup */
-     , (20365,   8,  100676659) /* Icon */
-     , (20365,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20365,   1, 0x0200018A) /* Setup */
+     , (20365,   8, 0x06003433) /* Icon */
+     , (20365,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20365,  28,       1952) /* Spell - Nullify Item Magic */;

@@ -22,5 +22,5 @@ VALUES (15693,   1, 'Baron''s Domain') /* Name */
      , (15693,  16, 'Welcome to Baron''s Domain') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15693,   1,   33557463) /* Setup */
-     , (15693,   8,  100668115) /* Icon */;
+VALUES (15693,   1, 0x02000BD7) /* Setup */
+     , (15693,   8, 0x060012D3) /* Icon */;

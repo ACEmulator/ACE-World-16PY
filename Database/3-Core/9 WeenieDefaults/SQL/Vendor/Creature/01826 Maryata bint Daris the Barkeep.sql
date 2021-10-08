@@ -70,11 +70,11 @@ VALUES (1826,   1, 'Maryata bint Daris the Barkeep') /* Name */
      , (1826,  24, 'Uziz') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1826,   1,   33554510) /* Setup */
-     , (1826,   2,  150994945) /* MotionTable */
-     , (1826,   3,  536870914) /* SoundTable */
-     , (1826,   4,  805306368) /* CombatTable */
-     , (1826,   8,  100667446) /* Icon */;
+VALUES (1826,   1, 0x0200004E) /* Setup */
+     , (1826,   2, 0x09000001) /* MotionTable */
+     , (1826,   3, 0x20000002) /* SoundTable */
+     , (1826,   4, 0x30000000) /* CombatTable */
+     , (1826,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1826,   1,  95, 0, 0) /* Strength */

@@ -35,9 +35,9 @@ VALUES (11236,   1, 'Tonk Totem') /* Name */
      , (11236,  16, 'A small clay totem of a Tumerok. You recognize this item as a traditional Tumerok spell fetish. It can be attached to several different items, each with their own unique use. Alternately, it can be turned into the Tah of Timaru for a reward.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11236,   1,   33555677) /* Setup */
-     , (11236,   3,  536870932) /* SoundTable */
-     , (11236,   6,   67111919) /* PaletteBase */
-     , (11236,   7,  268436111) /* ClothingBase */
-     , (11236,   8,  100671985) /* Icon */
-     , (11236,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11236,   1, 0x020004DD) /* Setup */
+     , (11236,   3, 0x20000014) /* SoundTable */
+     , (11236,   6, 0x04000BEF) /* PaletteBase */
+     , (11236,   7, 0x1000028F) /* ClothingBase */
+     , (11236,   8, 0x060021F1) /* Icon */
+     , (11236,  22, 0x3400002B) /* PhysicsEffectTable */;

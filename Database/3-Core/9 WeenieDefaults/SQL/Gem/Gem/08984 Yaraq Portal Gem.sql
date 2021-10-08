@@ -33,11 +33,11 @@ VALUES (8984,   1, 'Yaraq Portal Gem') /* Name */
      , (8984,  16, 'Use this gem to summon a short-lived portal to Yaraq. This gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8984,   1,   33556769) /* Setup */
-     , (8984,   3,  536870932) /* SoundTable */
-     , (8984,   6,   67111919) /* PaletteBase */
-     , (8984,   7,  268435723) /* ClothingBase */
-     , (8984,   8,  100674861) /* Icon */
-     , (8984,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8984,   1, 0x02000921) /* Setup */
+     , (8984,   3, 0x20000014) /* SoundTable */
+     , (8984,   6, 0x04000BEF) /* PaletteBase */
+     , (8984,   7, 0x1000010B) /* ClothingBase */
+     , (8984,   8, 0x06002D2D) /* Icon */
+     , (8984,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8984,  28,        157) /* Spell - Summon Primary Portal I */
      , (8984,  31,       8996) /* LinkedPortalOne - Portal to Yaraq */;

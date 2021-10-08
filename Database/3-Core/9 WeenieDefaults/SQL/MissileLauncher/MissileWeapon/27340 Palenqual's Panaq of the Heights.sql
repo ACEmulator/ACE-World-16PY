@@ -53,12 +53,12 @@ VALUES (27340,   1, 'Palenqual''s Panaq of the Heights') /* Name */
      , (27340,  16, 'A panaq fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27340,   1,   33558662) /* Setup */
-     , (27340,   3,  536870932) /* SoundTable */
-     , (27340,   6,   67113336) /* PaletteBase */
-     , (27340,   7,  268436249) /* ClothingBase */
-     , (27340,   8,  100676378) /* Icon */
-     , (27340,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27340,   1, 0x02001086) /* Setup */
+     , (27340,   3, 0x20000014) /* SoundTable */
+     , (27340,   6, 0x04001178) /* PaletteBase */
+     , (27340,   7, 0x10000319) /* ClothingBase */
+     , (27340,   8, 0x0600331A) /* Icon */
+     , (27340,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27340,  2471,      2)  /* Lesser Still Water */

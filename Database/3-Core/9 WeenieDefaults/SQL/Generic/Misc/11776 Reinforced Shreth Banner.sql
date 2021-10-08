@@ -25,10 +25,10 @@ VALUES (11776,   1, 'Reinforced Shreth Banner') /* Name */
      , (11776,  16, 'A reinforced banner with a shreth on it.  It is relatively well kept, and the colors seem even and pure.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11776,   1,   33557245) /* Setup */
-     , (11776,   3,  536870932) /* SoundTable */
-     , (11776,   6,   67113338) /* PaletteBase */
-     , (11776,   7,  268436228) /* ClothingBase */
-     , (11776,   8,  100671929) /* Icon */
-     , (11776,  22,  872415275) /* PhysicsEffectTable */
-     , (11776,  36,  234881046) /* MutateFilter */;
+VALUES (11776,   1, 0x02000AFD) /* Setup */
+     , (11776,   3, 0x20000014) /* SoundTable */
+     , (11776,   6, 0x0400117A) /* PaletteBase */
+     , (11776,   7, 0x10000304) /* ClothingBase */
+     , (11776,   8, 0x060021B9) /* Icon */
+     , (11776,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11776,  36, 0x0E000016) /* MutateFilter */;

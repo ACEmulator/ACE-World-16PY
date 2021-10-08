@@ -40,9 +40,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7707,   1, 'Greater Celdon Leggings of Flame') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7707,   1,   33554856) /* Setup */
-     , (7707,   3,  536870932) /* SoundTable */
-     , (7707,   6,   67108990) /* PaletteBase */
-     , (7707,   7,  268435844) /* ClothingBase */
-     , (7707,   8,  100670421) /* Icon */
-     , (7707,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7707,   1, 0x020001A8) /* Setup */
+     , (7707,   3, 0x20000014) /* SoundTable */
+     , (7707,   6, 0x0400007E) /* PaletteBase */
+     , (7707,   7, 0x10000184) /* ClothingBase */
+     , (7707,   8, 0x06001BD5) /* Icon */
+     , (7707,  22, 0x3400002B) /* PhysicsEffectTable */;

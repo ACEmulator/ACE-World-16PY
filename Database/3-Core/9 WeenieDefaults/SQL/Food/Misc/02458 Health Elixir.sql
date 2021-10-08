@@ -27,10 +27,10 @@ VALUES (2458,   1, 'Health Elixir') /* Name */
      , (2458,  14, 'Use this item to drink it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2458,   1,   33554603) /* Setup */
-     , (2458,   3,  536870932) /* SoundTable */
-     , (2458,   6,   67111919) /* PaletteBase */
-     , (2458,   7,  268435816) /* ClothingBase */
-     , (2458,   8,  100676312) /* Icon */
-     , (2458,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2458,   1, 0x020000AB) /* Setup */
+     , (2458,   3, 0x20000014) /* SoundTable */
+     , (2458,   6, 0x04000BEF) /* PaletteBase */
+     , (2458,   7, 0x10000168) /* ClothingBase */
+     , (2458,   8, 0x060032D8) /* Icon */
+     , (2458,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2458,  23,         65) /* UseSound - Drink1 */;

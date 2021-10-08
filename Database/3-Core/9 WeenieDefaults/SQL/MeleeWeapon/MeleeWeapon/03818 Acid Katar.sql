@@ -37,11 +37,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3818,   1, 'Acid Katar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3818,   1,   33555739) /* Setup */
-     , (3818,   3,  536870932) /* SoundTable */
-     , (3818,   6,   67111919) /* PaletteBase */
-     , (3818,   7,  268435789) /* ClothingBase */
-     , (3818,   8,  100667596) /* Icon */
-     , (3818,  22,  872415275) /* PhysicsEffectTable */
-     , (3818,  36,  234881053) /* MutateFilter */
-     , (3818,  46,  939524102) /* TsysMutationFilter */;
+VALUES (3818,   1, 0x0200051B) /* Setup */
+     , (3818,   3, 0x20000014) /* SoundTable */
+     , (3818,   6, 0x04000BEF) /* PaletteBase */
+     , (3818,   7, 0x1000014D) /* ClothingBase */
+     , (3818,   8, 0x060010CC) /* Icon */
+     , (3818,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3818,  36, 0x0E00001D) /* MutateFilter */
+     , (3818,  46, 0x38000006) /* TsysMutationFilter */;

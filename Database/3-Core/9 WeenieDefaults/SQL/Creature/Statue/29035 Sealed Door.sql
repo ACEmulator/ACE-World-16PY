@@ -65,11 +65,11 @@ VALUES (29035,   1, 'Sealed Door') /* Name */
      , (29035,  16, 'This door has been magically sealed so that only those who have chosen a more dangerous fate can enter the halls beyond.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29035,   1,   33558614) /* Setup */
-     , (29035,   2,  150995277) /* MotionTable */
-     , (29035,   3,  536871053) /* SoundTable */
-     , (29035,   8,  100675780) /* Icon */
-     , (29035,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29035,   1, 0x02001056) /* Setup */
+     , (29035,   2, 0x0900014D) /* MotionTable */
+     , (29035,   3, 0x2000008D) /* SoundTable */
+     , (29035,   8, 0x060030C4) /* Icon */
+     , (29035,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29035,   1, 380, 0, 0) /* Strength */

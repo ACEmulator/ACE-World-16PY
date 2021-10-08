@@ -22,7 +22,7 @@ VALUES (4417,   1, 'Lone Tree Bows') /* Name */
      , (4417,  16, 'Lone Tree Bows') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4417,   1,   33555088) /* Setup */
-     , (4417,   6,   67111092) /* PaletteBase */
-     , (4417,   7,  268435654) /* ClothingBase */
-     , (4417,   8,  100668115) /* Icon */;
+VALUES (4417,   1, 0x02000290) /* Setup */
+     , (4417,   6, 0x040008B4) /* PaletteBase */
+     , (4417,   7, 0x100000C6) /* ClothingBase */
+     , (4417,   8, 0x060012D3) /* Icon */;

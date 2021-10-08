@@ -68,14 +68,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30902,   1, 'Banished Mu-miyah') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30902,   1,   33554433) /* Setup */
-     , (30902,   2,  150994981) /* MotionTable */
-     , (30902,   3,  536870942) /* SoundTable */
-     , (30902,   4,  805306368) /* CombatTable */
-     , (30902,   6,   67108990) /* PaletteBase */
-     , (30902,   7,  268435645) /* ClothingBase */
-     , (30902,   8,  100669122) /* Icon */
-     , (30902,  22,  872415272) /* PhysicsEffectTable */
+VALUES (30902,   1, 0x02000001) /* Setup */
+     , (30902,   2, 0x09000025) /* MotionTable */
+     , (30902,   3, 0x2000001E) /* SoundTable */
+     , (30902,   4, 0x30000000) /* CombatTable */
+     , (30902,   6, 0x0400007E) /* PaletteBase */
+     , (30902,   7, 0x100000BD) /* ClothingBase */
+     , (30902,   8, 0x060016C2) /* Icon */
+     , (30902,  22, 0x34000028) /* PhysicsEffectTable */
      , (30902,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

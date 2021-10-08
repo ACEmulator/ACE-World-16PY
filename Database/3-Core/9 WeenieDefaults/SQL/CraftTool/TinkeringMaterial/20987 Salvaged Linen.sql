@@ -34,10 +34,10 @@ VALUES (20987,   1, 'Salvaged Linen') /* Name */
      , (20987,  15, 'A bolt of linen material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20987,   1,   33554817) /* Setup */
-     , (20987,   3,  536870932) /* SoundTable */
-     , (20987,   6,   67111919) /* PaletteBase */
-     , (20987,   7,  268436430) /* ClothingBase */
-     , (20987,   8,  100667436) /* Icon */
-     , (20987,  22,  872415275) /* PhysicsEffectTable */
-     , (20987,  50,  100673231) /* IconOverlay */;
+VALUES (20987,   1, 0x02000181) /* Setup */
+     , (20987,   3, 0x20000014) /* SoundTable */
+     , (20987,   6, 0x04000BEF) /* PaletteBase */
+     , (20987,   7, 0x100003CE) /* ClothingBase */
+     , (20987,   8, 0x0600102C) /* Icon */
+     , (20987,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (20987,  50, 0x060026CF) /* IconOverlay */;

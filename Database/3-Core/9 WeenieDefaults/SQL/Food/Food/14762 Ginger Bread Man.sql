@@ -31,7 +31,7 @@ VALUES (14762,   1, 'Ginger Bread Man') /* Name */
      , (14762,  20, 'Ginger Bread Men') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14762,   1,   33557500) /* Setup */
-     , (14762,   3,  536870932) /* SoundTable */
-     , (14762,   8,  100672537) /* Icon */
-     , (14762,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14762,   1, 0x02000BFC) /* Setup */
+     , (14762,   3, 0x20000014) /* SoundTable */
+     , (14762,   8, 0x06002419) /* Icon */
+     , (14762,  22, 0x3400002B) /* PhysicsEffectTable */;

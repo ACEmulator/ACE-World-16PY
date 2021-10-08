@@ -22,7 +22,7 @@ VALUES (876,   1, 'The Shining Shield') /* Name */
      , (876,  16, 'The Shining Shield') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (876,   1,   33555594) /* Setup */
-     , (876,   6,   67111782) /* PaletteBase */
-     , (876,   7,  268435691) /* ClothingBase */
-     , (876,   8,  100668115) /* Icon */;
+VALUES (876,   1, 0x0200048A) /* Setup */
+     , (876,   6, 0x04000B66) /* PaletteBase */
+     , (876,   7, 0x100000EB) /* ClothingBase */
+     , (876,   8, 0x060012D3) /* Icon */;

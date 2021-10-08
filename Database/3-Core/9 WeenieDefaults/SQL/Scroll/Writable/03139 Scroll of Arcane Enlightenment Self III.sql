@@ -25,7 +25,7 @@ VALUES (3139,   1, 'Scroll of Arcane Enlightenment Self III') /* Name */
      , (3139,  16, 'When learned, this spell increases the caster''s Arcane Lore skill by 50%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3139,   1,   33554826) /* Setup */
-     , (3139,   8,  100676447) /* Icon */
-     , (3139,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3139,   1, 0x0200018A) /* Setup */
+     , (3139,   8, 0x0600335F) /* Icon */
+     , (3139,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3139,  28,        680) /* Spell - Arcane Enlightenment Self III */;

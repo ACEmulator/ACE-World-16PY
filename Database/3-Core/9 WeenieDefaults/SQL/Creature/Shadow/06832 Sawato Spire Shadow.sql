@@ -70,14 +70,14 @@ VALUES (6832,   1, 'Sawato Spire Shadow') /* Name */
      , (6832,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6832,   1,   33556564) /* Setup */
-     , (6832,   2,  150995092) /* MotionTable */
-     , (6832,   3,  536870913) /* SoundTable */
-     , (6832,   4,  805306368) /* CombatTable */
-     , (6832,   6,   67111797) /* PaletteBase */
-     , (6832,   7,  268435992) /* ClothingBase */
-     , (6832,   8,  100670397) /* Icon */
-     , (6832,  22,  872415331) /* PhysicsEffectTable */
+VALUES (6832,   1, 0x02000854) /* Setup */
+     , (6832,   2, 0x09000094) /* MotionTable */
+     , (6832,   3, 0x20000001) /* SoundTable */
+     , (6832,   4, 0x30000000) /* CombatTable */
+     , (6832,   6, 0x04000B75) /* PaletteBase */
+     , (6832,   7, 0x10000218) /* ClothingBase */
+     , (6832,   8, 0x06001BBD) /* Icon */
+     , (6832,  22, 0x34000063) /* PhysicsEffectTable */
      , (6832,  32,        175) /* WieldedTreasureType - 
                                    Wield Yumi (23735) | Probability: 20%
                                    Wield 14x Fire Arrow (1437) | Probability: 100%

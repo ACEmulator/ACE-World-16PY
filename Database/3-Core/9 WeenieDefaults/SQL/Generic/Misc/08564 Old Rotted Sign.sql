@@ -25,5 +25,5 @@ VALUES (8564,   1, 'Old Rotted Sign') /* Name */
      , (8564,  16, '[This sign is too weathered and rotted to read.]') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8564,   1,   33556890) /* Setup */
-     , (8564,   8,  100668115) /* Icon */;
+VALUES (8564,   1, 0x0200099A) /* Setup */
+     , (8564,   8, 0x060012D3) /* Icon */;

@@ -28,9 +28,9 @@ VALUES (14790,   1, 'Hot Milk') /* Name */
      , (14790,  20, 'Cups of Hot Milk') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14790,   1,   33554602) /* Setup */
-     , (14790,   3,  536870932) /* SoundTable */
-     , (14790,   6,   67111919) /* PaletteBase */
-     , (14790,   7,  268435733) /* ClothingBase */
-     , (14790,   8,  100672558) /* Icon */
-     , (14790,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14790,   1, 0x020000AA) /* Setup */
+     , (14790,   3, 0x20000014) /* SoundTable */
+     , (14790,   6, 0x04000BEF) /* PaletteBase */
+     , (14790,   7, 0x10000115) /* ClothingBase */
+     , (14790,   8, 0x0600242E) /* Icon */
+     , (14790,  22, 0x3400002B) /* PhysicsEffectTable */;

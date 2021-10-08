@@ -25,7 +25,7 @@ VALUES (2691,   1, 'Scroll of Harm Other VI') /* Name */
      , (2691,  16, 'When learned, this spell drains 31-60 points of the target''s Health.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2691,   1,   33554826) /* Setup */
-     , (2691,   8,  100676934) /* Icon */
-     , (2691,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2691,   1, 0x0200018A) /* Setup */
+     , (2691,   8, 0x06003546) /* Icon */
+     , (2691,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2691,  28,       1176) /* Spell - Harm Other VI */;

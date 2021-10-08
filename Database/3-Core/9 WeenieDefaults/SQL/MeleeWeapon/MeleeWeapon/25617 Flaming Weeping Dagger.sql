@@ -54,13 +54,13 @@ VALUES (25617,   1, 'Flaming Weeping Dagger') /* Name */
      , (25617,  15, 'A dagger infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25617,   1,   33558462) /* Setup */
-     , (25617,   3,  536870932) /* SoundTable */
-     , (25617,   6,   67114522) /* PaletteBase */
-     , (25617,   7,  268436698) /* ClothingBase */
-     , (25617,   8,  100674894) /* Icon */
-     , (25617,  22,  872415275) /* PhysicsEffectTable */
-     , (25617,  36,  234881044) /* MutateFilter */;
+VALUES (25617,   1, 0x02000FBE) /* Setup */
+     , (25617,   3, 0x20000014) /* SoundTable */
+     , (25617,   6, 0x0400161A) /* PaletteBase */
+     , (25617,   7, 0x100004DA) /* ClothingBase */
+     , (25617,   8, 0x06002D4E) /* Icon */
+     , (25617,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (25617,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25617,  2689,      2)  /* Moderate Finesse Weapon Aptitude */

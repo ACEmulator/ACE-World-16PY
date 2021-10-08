@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4986,   1, 'Gelidite Initiate') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4986,   1,   33554839) /* Setup */
-     , (4986,   2,  150994967) /* MotionTable */
-     , (4986,   3,  536870934) /* SoundTable */
-     , (4986,   4,  805306368) /* CombatTable */
-     , (4986,   6,   67108990) /* PaletteBase */
-     , (4986,   7,  268436788) /* ClothingBase */
-     , (4986,   8,  100667942) /* Icon */
-     , (4986,  22,  872415272) /* PhysicsEffectTable */
+VALUES (4986,   1, 0x02000197) /* Setup */
+     , (4986,   2, 0x09000017) /* MotionTable */
+     , (4986,   3, 0x20000016) /* SoundTable */
+     , (4986,   4, 0x30000000) /* CombatTable */
+     , (4986,   6, 0x0400007E) /* PaletteBase */
+     , (4986,   7, 0x10000534) /* ClothingBase */
+     , (4986,   8, 0x06001226) /* Icon */
+     , (4986,  22, 0x34000028) /* PhysicsEffectTable */
      , (4986,  32,        203) /* WieldedTreasureType - 
                                    Wield Yumi (23734) | Probability: 20%
                                    Wield 20x Deadly Arrow (15429) | Probability: 100%

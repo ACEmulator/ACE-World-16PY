@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8054,   1, 'Shadow Sprite') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8054,   1,   33555610) /* Setup */
-     , (8054,   2,  150995049) /* MotionTable */
-     , (8054,   3,  536870975) /* SoundTable */
-     , (8054,   4,  805306396) /* CombatTable */
-     , (8054,   6,   67109305) /* PaletteBase */
-     , (8054,   7,  268435811) /* ClothingBase */
-     , (8054,   8,  100669123) /* Icon */
-     , (8054,  22,  872415351) /* PhysicsEffectTable */;
+VALUES (8054,   1, 0x0200049A) /* Setup */
+     , (8054,   2, 0x09000069) /* MotionTable */
+     , (8054,   3, 0x2000003F) /* SoundTable */
+     , (8054,   4, 0x3000001C) /* CombatTable */
+     , (8054,   6, 0x040001B9) /* PaletteBase */
+     , (8054,   7, 0x10000163) /* ClothingBase */
+     , (8054,   8, 0x060016C3) /* Icon */
+     , (8054,  22, 0x34000077) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8054,   1,  15, 0, 0) /* Strength */

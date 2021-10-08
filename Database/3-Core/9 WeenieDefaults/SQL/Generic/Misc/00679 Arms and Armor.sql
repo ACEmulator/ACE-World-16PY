@@ -22,7 +22,7 @@ VALUES (679,   1, 'Arms and Armor') /* Name */
      , (679,  16, 'Arms and Armor') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (679,   1,   33555088) /* Setup */
-     , (679,   6,   67111092) /* PaletteBase */
-     , (679,   7,  268435653) /* ClothingBase */
-     , (679,   8,  100668115) /* Icon */;
+VALUES (679,   1, 0x02000290) /* Setup */
+     , (679,   6, 0x040008B4) /* PaletteBase */
+     , (679,   7, 0x100000C5) /* ClothingBase */
+     , (679,   8, 0x060012D3) /* Icon */;

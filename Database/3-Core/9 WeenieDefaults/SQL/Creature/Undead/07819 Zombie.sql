@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7819,   1, 'Zombie') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7819,   1,   33554839) /* Setup */
-     , (7819,   2,  150994967) /* MotionTable */
-     , (7819,   3,  536870934) /* SoundTable */
-     , (7819,   4,  805306368) /* CombatTable */
-     , (7819,   6,   67110722) /* PaletteBase */
-     , (7819,   7,  268435558) /* ClothingBase */
-     , (7819,   8,  100667942) /* Icon */
-     , (7819,  22,  872415272) /* PhysicsEffectTable */
+VALUES (7819,   1, 0x02000197) /* Setup */
+     , (7819,   2, 0x09000017) /* MotionTable */
+     , (7819,   3, 0x20000016) /* SoundTable */
+     , (7819,   4, 0x30000000) /* CombatTable */
+     , (7819,   6, 0x04000742) /* PaletteBase */
+     , (7819,   7, 0x10000066) /* ClothingBase */
+     , (7819,   8, 0x06001226) /* Icon */
+     , (7819,  22, 0x34000028) /* PhysicsEffectTable */
      , (7819,  32,        247) /* WieldedTreasureType - 
                                    Wield 10x Throwing Dart (316) | Probability: 5%
                                    Wield 10x Shouken (343) | Probability: 5%

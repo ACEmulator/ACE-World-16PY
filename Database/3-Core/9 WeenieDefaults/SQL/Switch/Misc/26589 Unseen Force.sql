@@ -30,8 +30,8 @@ VALUES (26589,   1, 'Unseen Force') /* Name */
      , (26589,  22, 'You hear a voice cursing you.') /* ActivationFailure */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26589,   1,   33554667) /* Setup */
-     , (26589,   3,  536870932) /* SoundTable */
-     , (26589,   8,  100667494) /* Icon */
-     , (26589,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26589,   1, 0x020000EB) /* Setup */
+     , (26589,   3, 0x20000014) /* SoundTable */
+     , (26589,   8, 0x06001066) /* Icon */
+     , (26589,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26589,  28,       3122) /* Spell - Sacrificial Edge */;

@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28245,   1, 'Poltergeist') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28245,   1,   33558816) /* Setup */
-     , (28245,   2,  150995302) /* MotionTable */
-     , (28245,   3,  536871094) /* SoundTable */
-     , (28245,   4,  805306429) /* CombatTable */
-     , (28245,   6,   67115251) /* PaletteBase */
-     , (28245,   7,  268436835) /* ClothingBase */
-     , (28245,   8,  100676679) /* Icon */
-     , (28245,  22,  872415403) /* PhysicsEffectTable */
+VALUES (28245,   1, 0x02001120) /* Setup */
+     , (28245,   2, 0x09000166) /* MotionTable */
+     , (28245,   3, 0x200000B6) /* SoundTable */
+     , (28245,   4, 0x3000003D) /* CombatTable */
+     , (28245,   6, 0x040018F3) /* PaletteBase */
+     , (28245,   7, 0x10000563) /* ClothingBase */
+     , (28245,   8, 0x06003447) /* Icon */
+     , (28245,  22, 0x340000AB) /* PhysicsEffectTable */
      , (28245,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

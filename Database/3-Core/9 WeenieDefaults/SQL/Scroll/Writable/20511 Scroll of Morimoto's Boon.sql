@@ -24,7 +24,7 @@ VALUES (20511,   1, 'Scroll of Morimoto''s Boon') /* Name */
      , (20511,  15, 'When learned, this spell increases the target''s Cooking skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20511,   1,   33554826) /* Setup */
-     , (20511,   8,  100676451) /* Icon */
-     , (20511,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20511,   1, 0x0200018A) /* Setup */
+     , (20511,   8, 0x06003363) /* Icon */
+     , (20511,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20511,  28,       2210) /* Spell - Morimoto's Boon */;

@@ -62,11 +62,11 @@ VALUES (19427,   1, 'Scuttling Grievver') /* Name */
      , (19427,  15, 'A busy little Grievver') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19427,   1,   33556698) /* Setup */
-     , (19427,   2,  150995195) /* MotionTable */
-     , (19427,   3,  536871054) /* SoundTable */
-     , (19427,   4,  805306411) /* CombatTable */
-     , (19427,   8,  100670960) /* Icon */;
+VALUES (19427,   1, 0x020008DA) /* Setup */
+     , (19427,   2, 0x090000FB) /* MotionTable */
+     , (19427,   3, 0x2000008E) /* SoundTable */
+     , (19427,   4, 0x3000002B) /* CombatTable */
+     , (19427,   8, 0x06001DF0) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19427,   1,  25, 0, 0) /* Strength */

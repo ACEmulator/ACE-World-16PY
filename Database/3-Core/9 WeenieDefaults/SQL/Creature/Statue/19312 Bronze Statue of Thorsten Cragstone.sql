@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19312,   1, 'Bronze Statue of Thorsten Cragstone') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19312,   1,   33554433) /* Setup */
-     , (19312,   2,  150995187) /* MotionTable */
-     , (19312,   3,  536871052) /* SoundTable */
-     , (19312,   4,  805306368) /* CombatTable */
-     , (19312,   6,   67108990) /* PaletteBase */
-     , (19312,   7,  268436347) /* ClothingBase */
-     , (19312,   8,  100667446) /* Icon */
-     , (19312,  22,  872415349) /* PhysicsEffectTable */
+VALUES (19312,   1, 0x02000001) /* Setup */
+     , (19312,   2, 0x090000F3) /* MotionTable */
+     , (19312,   3, 0x2000008C) /* SoundTable */
+     , (19312,   4, 0x30000000) /* CombatTable */
+     , (19312,   6, 0x0400007E) /* PaletteBase */
+     , (19312,   7, 0x1000037B) /* ClothingBase */
+     , (19312,   8, 0x06001036) /* Icon */
+     , (19312,  22, 0x34000075) /* PhysicsEffectTable */
      , (19312,  32,        403) /* WieldedTreasureType - 
                                    Wield Cragstone's Axe (15389) | Probability: 100%
                                    Wield Cragstone's Shield (15402) | Probability: 100% */

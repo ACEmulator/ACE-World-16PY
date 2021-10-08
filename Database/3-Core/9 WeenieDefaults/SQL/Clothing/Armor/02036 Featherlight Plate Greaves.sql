@@ -36,8 +36,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2036,   1, 'Featherlight Plate Greaves') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2036,   1,   33554641) /* Setup */
-     , (2036,   6,   67108990) /* PaletteBase */
-     , (2036,   7,  268435529) /* ClothingBase */
-     , (2036,   8,  100668167) /* Icon */
-     , (2036,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (2036,   1, 0x020000D1) /* Setup */
+     , (2036,   6, 0x0400007E) /* PaletteBase */
+     , (2036,   7, 0x10000049) /* ClothingBase */
+     , (2036,   8, 0x06001307) /* Icon */
+     , (2036,  22, 0x3400002B) /* PhysicsEffectTable */;

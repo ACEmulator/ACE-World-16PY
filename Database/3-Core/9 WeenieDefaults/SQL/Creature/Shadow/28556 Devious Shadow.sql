@@ -71,14 +71,14 @@ VALUES (28556,   1, 'Devious Shadow') /* Name */
      , (28556,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28556,   1,   33554433) /* Setup */
-     , (28556,   2,  150994945) /* MotionTable */
-     , (28556,   3,  536871090) /* SoundTable */
-     , (28556,   4,  805306368) /* CombatTable */
-     , (28556,   6,   67111797) /* PaletteBase */
-     , (28556,   7,  268435632) /* ClothingBase */
-     , (28556,   8,  100670397) /* Icon */
-     , (28556,  22,  872415331) /* PhysicsEffectTable */
+VALUES (28556,   1, 0x02000001) /* Setup */
+     , (28556,   2, 0x09000001) /* MotionTable */
+     , (28556,   3, 0x200000B2) /* SoundTable */
+     , (28556,   4, 0x30000000) /* CombatTable */
+     , (28556,   6, 0x04000B75) /* PaletteBase */
+     , (28556,   7, 0x100000B0) /* ClothingBase */
+     , (28556,   8, 0x06001BBD) /* Icon */
+     , (28556,  22, 0x34000063) /* PhysicsEffectTable */
      , (28556,  32,         84) /* WieldedTreasureType - 
                                    Wield Club (309) | Probability: 15.000001%
                                    Wield Dabus (313) | Probability: 3%

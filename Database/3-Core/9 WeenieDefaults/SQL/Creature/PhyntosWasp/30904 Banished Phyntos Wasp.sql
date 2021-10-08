@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30904,   1, 'Banished Phyntos Wasp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30904,   1,   33558817) /* Setup */
-     , (30904,   2,  150995303) /* MotionTable */
-     , (30904,   3,  536870926) /* SoundTable */
-     , (30904,   4,  805306385) /* CombatTable */
-     , (30904,   6,   67115262) /* PaletteBase */
-     , (30904,   7,  268436836) /* ClothingBase */
-     , (30904,   8,  100667450) /* Icon */
-     , (30904,  22,  872415266) /* PhysicsEffectTable */
+VALUES (30904,   1, 0x02001121) /* Setup */
+     , (30904,   2, 0x09000167) /* MotionTable */
+     , (30904,   3, 0x2000000E) /* SoundTable */
+     , (30904,   4, 0x30000011) /* CombatTable */
+     , (30904,   6, 0x040018FE) /* PaletteBase */
+     , (30904,   7, 0x10000564) /* ClothingBase */
+     , (30904,   8, 0x0600103A) /* Icon */
+     , (30904,  22, 0x34000022) /* PhysicsEffectTable */
      , (30904,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

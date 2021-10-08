@@ -28,7 +28,7 @@ VALUES (4736,   1, 'Mushroom Noodle') /* Name */
      , (4736,  20, 'Bowls of Mushroom Noodle') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4736,   1,   33554668) /* Setup */
-     , (4736,   3,  536870932) /* SoundTable */
-     , (4736,   8,  100670184) /* Icon */
-     , (4736,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4736,   1, 0x020000EC) /* Setup */
+     , (4736,   3, 0x20000014) /* SoundTable */
+     , (4736,   8, 0x06001AE8) /* Icon */
+     , (4736,  22, 0x3400002B) /* PhysicsEffectTable */;

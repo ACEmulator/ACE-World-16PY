@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6080,   1, 'White Bunny') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6080,   1,   33558659) /* Setup */
-     , (6080,   2,  150995042) /* MotionTable */
-     , (6080,   3,  536870973) /* SoundTable */
-     , (6080,   4,  805306397) /* CombatTable */
-     , (6080,   6,   67109300) /* PaletteBase */
-     , (6080,   7,  268435725) /* ClothingBase */
-     , (6080,   8,  100669116) /* Icon */
-     , (6080,  22,  872415277) /* PhysicsEffectTable */
+VALUES (6080,   1, 0x02001083) /* Setup */
+     , (6080,   2, 0x09000062) /* MotionTable */
+     , (6080,   3, 0x2000003D) /* SoundTable */
+     , (6080,   4, 0x3000001D) /* CombatTable */
+     , (6080,   6, 0x040001B4) /* PaletteBase */
+     , (6080,   7, 0x1000010D) /* ClothingBase */
+     , (6080,   8, 0x060016BC) /* Icon */
+     , (6080,  22, 0x3400002D) /* PhysicsEffectTable */
      , (6080,  30,         87) /* PhysicsScript - BreatheLightning */
      , (6080,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 

@@ -47,12 +47,12 @@ VALUES (25840,   1, 'Snarl''s Jerkin') /* Name */
      , (25840,  16, 'This shirt was crafted from the hide of the fearsome carenzi, Snarl.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25840,   1,   33554854) /* Setup */
-     , (25840,   3,  536870932) /* SoundTable */
-     , (25840,   6,   67108990) /* PaletteBase */
-     , (25840,   7,  268436753) /* ClothingBase */
-     , (25840,   8,  100675595) /* Icon */
-     , (25840,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25840,   1, 0x020001A6) /* Setup */
+     , (25840,   3, 0x20000014) /* SoundTable */
+     , (25840,   6, 0x0400007E) /* PaletteBase */
+     , (25840,   7, 0x10000511) /* ClothingBase */
+     , (25840,   8, 0x0600300B) /* Icon */
+     , (25840,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25840,  3007,      2)  /* Uncanny Dodge */

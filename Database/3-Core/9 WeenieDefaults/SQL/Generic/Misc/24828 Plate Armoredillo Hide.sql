@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24828,   1, 'Plate Armoredillo Hide') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24828,   1,   33554817) /* Setup */
-     , (24828,   3,  536870932) /* SoundTable */
-     , (24828,   6,   67111919) /* PaletteBase */
-     , (24828,   7,  268435832) /* ClothingBase */
-     , (24828,   8,  100674490) /* Icon */
-     , (24828,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24828,   1, 0x02000181) /* Setup */
+     , (24828,   3, 0x20000014) /* SoundTable */
+     , (24828,   6, 0x04000BEF) /* PaletteBase */
+     , (24828,   7, 0x10000178) /* ClothingBase */
+     , (24828,   8, 0x06002BBA) /* Icon */
+     , (24828,  22, 0x3400002B) /* PhysicsEffectTable */;

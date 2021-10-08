@@ -33,8 +33,8 @@ VALUES (6783,   1, 'Door') /* Name */
      , (6783,  15, 'There are strange symbols carved on the wooden door.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6783,   1,   33555023) /* Setup */
-     , (6783,   2,  150994966) /* MotionTable */
-     , (6783,   3,  536870946) /* SoundTable */
-     , (6783,   8,  100668183) /* Icon */
-     , (6783,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6783,   1, 0x0200024F) /* Setup */
+     , (6783,   2, 0x09000016) /* MotionTable */
+     , (6783,   3, 0x20000022) /* SoundTable */
+     , (6783,   8, 0x06001317) /* Icon */
+     , (6783,  22, 0x3400002B) /* PhysicsEffectTable */;

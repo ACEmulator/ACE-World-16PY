@@ -28,9 +28,9 @@ VALUES (9263,   1, 'Small Ursuin Hide') /* Name */
      , (9263,  16, 'A Small Ursuin hide.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9263,   1,   33554817) /* Setup */
-     , (9263,   3,  536870932) /* SoundTable */
-     , (9263,   6,   67111919) /* PaletteBase */
-     , (9263,   7,  268435832) /* ClothingBase */
-     , (9263,   8,  100671412) /* Icon */
-     , (9263,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9263,   1, 0x02000181) /* Setup */
+     , (9263,   3, 0x20000014) /* SoundTable */
+     , (9263,   6, 0x04000BEF) /* PaletteBase */
+     , (9263,   7, 0x10000178) /* ClothingBase */
+     , (9263,   8, 0x06001FB4) /* Icon */
+     , (9263,  22, 0x3400002B) /* PhysicsEffectTable */;

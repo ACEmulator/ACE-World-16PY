@@ -44,7 +44,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22545,   1, 'Obsidian Spines') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22545,   1,   33558110) /* Setup */
-     , (22545,   3,  536870932) /* SoundTable */
-     , (22545,   8,  100671205) /* Icon */
-     , (22545,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22545,   1, 0x02000E5E) /* Setup */
+     , (22545,   3, 0x20000014) /* SoundTable */
+     , (22545,   8, 0x06001EE5) /* Icon */
+     , (22545,  22, 0x3400002B) /* PhysicsEffectTable */;

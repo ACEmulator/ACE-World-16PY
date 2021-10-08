@@ -27,9 +27,9 @@ VALUES (19136,   1, 'Effigy Foundry Portal') /* Name */
      , (19136,  37, 'CloneKillerMid') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19136,   1,   33554867) /* Setup */
-     , (19136,   2,  150994947) /* MotionTable */
-     , (19136,   8,  100667499) /* Icon */;
+VALUES (19136,   1, 0x020001B3) /* Setup */
+     , (19136,   2, 0x09000003) /* MotionTable */
+     , (19136,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (19136, 2, 0x545901B0, 10, -80, 6.005, 1, 0, 0, -0) /* Destination */

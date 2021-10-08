@@ -23,10 +23,10 @@ VALUES (29612,   1, 'Olthoi Lands Portal Device') /* Name */
      , (29612,  16, 'This device was fashioned by Shoyanen Kenchu under the direction of High Queen Elysa Strathelar. The magic of the device can only be activated if placed on a mansion hook. The magic has yet to be perfected so the device may deliver the user to one of three locations: Olthoi North, Olthoi Horde Nest North, Black Death Catacombs.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29612,   1,   33559073) /* Setup */
-     , (29612,   3,  536870932) /* SoundTable */
-     , (29612,   8,  100677185) /* Icon */
-     , (29612,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29612,   1, 0x02001221) /* Setup */
+     , (29612,   3, 0x20000014) /* SoundTable */
+     , (29612,   8, 0x06003641) /* Icon */
+     , (29612,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (29612,  7 /* Use */,  0.333, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

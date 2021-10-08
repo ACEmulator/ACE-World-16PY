@@ -32,7 +32,7 @@ VALUES (2243,   1, 'Door') /* Name */
      , (2243,  14, 'Use this item to open it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2243,   1,   33555073) /* Setup */
-     , (2243,   2,  150994966) /* MotionTable */
-     , (2243,   3,  536870946) /* SoundTable */
-     , (2243,   8,  100668434) /* Icon */;
+VALUES (2243,   1, 0x02000281) /* Setup */
+     , (2243,   2, 0x09000016) /* MotionTable */
+     , (2243,   3, 0x20000022) /* SoundTable */
+     , (2243,   8, 0x06001412) /* Icon */;

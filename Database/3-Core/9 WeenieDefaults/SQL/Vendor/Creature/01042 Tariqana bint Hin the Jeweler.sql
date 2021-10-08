@@ -70,11 +70,11 @@ VALUES (1042,   1, 'Tariqana bint Hin the Jeweler') /* Name */
      , (1042,  24, 'Yaraq') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1042,   1,   33554510) /* Setup */
-     , (1042,   2,  150994945) /* MotionTable */
-     , (1042,   3,  536870914) /* SoundTable */
-     , (1042,   4,  805306368) /* CombatTable */
-     , (1042,   8,  100667446) /* Icon */;
+VALUES (1042,   1, 0x0200004E) /* Setup */
+     , (1042,   2, 0x09000001) /* MotionTable */
+     , (1042,   3, 0x20000002) /* SoundTable */
+     , (1042,   4, 0x30000000) /* CombatTable */
+     , (1042,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1042,   1,  85, 0, 0) /* Strength */

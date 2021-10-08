@@ -34,10 +34,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8400,   1, 'Orb of the Bunny Booty') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8400,   1,   33556870) /* Setup */
-     , (8400,   3,  536870932) /* SoundTable */
-     , (8400,   6,   67109300) /* PaletteBase */
-     , (8400,   7,  268435725) /* ClothingBase */
-     , (8400,   8,  100669116) /* Icon */
-     , (8400,  22,  872415275) /* PhysicsEffectTable */
-     , (8400,  36,  234881046) /* MutateFilter */;
+VALUES (8400,   1, 0x02000986) /* Setup */
+     , (8400,   3, 0x20000014) /* SoundTable */
+     , (8400,   6, 0x040001B4) /* PaletteBase */
+     , (8400,   7, 0x1000010D) /* ClothingBase */
+     , (8400,   8, 0x060016BC) /* Icon */
+     , (8400,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8400,  36, 0x0E000016) /* MutateFilter */;

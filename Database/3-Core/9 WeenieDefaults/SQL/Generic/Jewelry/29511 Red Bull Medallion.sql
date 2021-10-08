@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29511,   1, 'Red Bull Medallion') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29511,   1,   33554680) /* Setup */
-     , (29511,   3,  536870932) /* SoundTable */
-     , (29511,   6,   67111919) /* PaletteBase */
-     , (29511,   7,  268435735) /* ClothingBase */
-     , (29511,   8,  100668602) /* Icon */
-     , (29511,  22,  872415275) /* PhysicsEffectTable */
-     , (29511,  36,  234881046) /* MutateFilter */;
+VALUES (29511,   1, 0x020000F8) /* Setup */
+     , (29511,   3, 0x20000014) /* SoundTable */
+     , (29511,   6, 0x04000BEF) /* PaletteBase */
+     , (29511,   7, 0x10000117) /* ClothingBase */
+     , (29511,   8, 0x060014BA) /* Icon */
+     , (29511,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29511,  36, 0x0E000016) /* MutateFilter */;

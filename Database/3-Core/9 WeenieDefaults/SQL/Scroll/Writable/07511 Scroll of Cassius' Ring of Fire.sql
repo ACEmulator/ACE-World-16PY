@@ -24,7 +24,7 @@ VALUES (7511,   1, 'Scroll of Cassius'' Ring of Fire') /* Name */
      , (7511,  15, 'When learned, this spell shoots eight waves of flame outward from the caster. Each wave does 40-80 points of fire damage to the first thing it hits.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7511,   1,   33554826) /* Setup */
-     , (7511,   8,  100677021) /* Icon */
-     , (7511,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7511,   1, 0x0200018A) /* Setup */
+     , (7511,   8, 0x0600359D) /* Icon */
+     , (7511,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7511,  28,       1785) /* Spell - Cassius' Ring of Fire */;

@@ -21,7 +21,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25521,   1, 'Interesting Scroll') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25521,   1,   33554826) /* Setup */
-     , (25521,   3,  536870932) /* SoundTable */
-     , (25521,   8,  100671419) /* Icon */
-     , (25521,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25521,   1, 0x0200018A) /* Setup */
+     , (25521,   3, 0x20000014) /* SoundTable */
+     , (25521,   8, 0x06001FBB) /* Icon */
+     , (25521,  22, 0x3400002B) /* PhysicsEffectTable */;

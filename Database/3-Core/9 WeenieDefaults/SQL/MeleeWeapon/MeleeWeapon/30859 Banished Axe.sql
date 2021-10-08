@@ -44,10 +44,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30859,   1, 'Banished Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30859,   1,   33559262) /* Setup */
-     , (30859,   3,  536870932) /* SoundTable */
-     , (30859,   8,  100677482) /* Icon */
-     , (30859,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30859,   1, 0x020012DE) /* Setup */
+     , (30859,   3, 0x20000014) /* SoundTable */
+     , (30859,   8, 0x0600376A) /* Icon */
+     , (30859,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30859,  1616,      2)  /* Aura of Blood Drinker Self VI */

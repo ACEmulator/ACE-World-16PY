@@ -24,7 +24,7 @@ VALUES (599,   1, 'Key') /* Name */
      , (599,  14, 'Use this item on a locked door or chest to unlock it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (599,   1,   33554784) /* Setup */
-     , (599,   3,  536870932) /* SoundTable */
-     , (599,   8,  100667486) /* Icon */
-     , (599,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (599,   1, 0x02000160) /* Setup */
+     , (599,   3, 0x20000014) /* SoundTable */
+     , (599,   8, 0x0600105E) /* Icon */
+     , (599,  22, 0x3400002B) /* PhysicsEffectTable */;

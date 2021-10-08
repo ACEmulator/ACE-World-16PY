@@ -22,5 +22,5 @@ VALUES (14708,   1, 'Jasmine Meadow') /* Name */
      , (14708,  16, 'Welcome to Jasmine Meadow') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14708,   1,   33557463) /* Setup */
-     , (14708,   8,  100668115) /* Icon */;
+VALUES (14708,   1, 0x02000BD7) /* Setup */
+     , (14708,   8, 0x060012D3) /* Icon */;

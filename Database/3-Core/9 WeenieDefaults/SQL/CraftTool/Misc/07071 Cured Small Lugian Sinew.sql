@@ -30,9 +30,9 @@ VALUES (7071,   1, 'Cured Small Lugian Sinew') /* Name */
      , (7071,  16, 'The cured sinew of a departed Lugian.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7071,   1,   33554817) /* Setup */
-     , (7071,   3,  536870932) /* SoundTable */
-     , (7071,   6,   67111919) /* PaletteBase */
-     , (7071,   7,  268435832) /* ClothingBase */
-     , (7071,   8,  100670682) /* Icon */
-     , (7071,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7071,   1, 0x02000181) /* Setup */
+     , (7071,   3, 0x20000014) /* SoundTable */
+     , (7071,   6, 0x04000BEF) /* PaletteBase */
+     , (7071,   7, 0x10000178) /* ClothingBase */
+     , (7071,   8, 0x06001CDA) /* Icon */
+     , (7071,  22, 0x3400002B) /* PhysicsEffectTable */;

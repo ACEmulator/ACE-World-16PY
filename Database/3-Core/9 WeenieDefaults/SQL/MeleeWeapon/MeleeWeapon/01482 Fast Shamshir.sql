@@ -37,6 +37,6 @@ VALUES (1482,   1, 'Fast Shamshir') /* Name */
      , (1482,  16, 'This shamshir seems easier to wield than others.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1482,   1,   33554750) /* Setup */
-     , (1482,   8,  100667604) /* Icon */
-     , (1482,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1482,   1, 0x0200013E) /* Setup */
+     , (1482,   8, 0x060010D4) /* Icon */
+     , (1482,  22, 0x3400002B) /* PhysicsEffectTable */;

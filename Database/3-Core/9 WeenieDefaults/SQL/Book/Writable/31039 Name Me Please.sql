@@ -26,10 +26,10 @@ VALUES (31039,   1, 'Name Me Please') /* Name */
      , (31039,  16, 'Long description shows up when players ID an item.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31039,   1,   33554771) /* Setup */
-     , (31039,   3,  536870932) /* SoundTable */
-     , (31039,   8,  100668117) /* Icon */
-     , (31039,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31039,   1, 0x02000153) /* Setup */
+     , (31039,   3, 0x20000014) /* SoundTable */
+     , (31039,   8, 0x060012D5) /* Icon */
+     , (31039,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (31039, 1, 1000);

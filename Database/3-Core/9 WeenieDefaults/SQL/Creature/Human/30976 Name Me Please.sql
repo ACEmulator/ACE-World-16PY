@@ -64,12 +64,12 @@ VALUES (30976,   1, 'Name Me Please') /* Name */
      , (30976,   5, 'Give Me A Title') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30976,   1,   33554510) /* Setup */
-     , (30976,   2,  150994945) /* MotionTable */
-     , (30976,   3,  536870914) /* SoundTable */
-     , (30976,   4,  805306368) /* CombatTable */
-     , (30976,   6,   67108990) /* PaletteBase */
-     , (30976,   8,  100667446) /* Icon */;
+VALUES (30976,   1, 0x0200004E) /* Setup */
+     , (30976,   2, 0x09000001) /* MotionTable */
+     , (30976,   3, 0x20000002) /* SoundTable */
+     , (30976,   4, 0x30000000) /* CombatTable */
+     , (30976,   6, 0x0400007E) /* PaletteBase */
+     , (30976,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30976,   1,  60, 0, 0) /* Strength */

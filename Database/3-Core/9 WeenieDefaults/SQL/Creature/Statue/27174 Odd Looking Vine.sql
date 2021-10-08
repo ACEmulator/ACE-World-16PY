@@ -64,12 +64,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27174,   1, 'Odd Looking Vine') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27174,   1,   33558617) /* Setup */
-     , (27174,   2,  150995067) /* MotionTable */
-     , (27174,   3,  536871015) /* SoundTable */
-     , (27174,   4,  805306404) /* CombatTable */
-     , (27174,   8,  100675781) /* Icon */
-     , (27174,  22,  872415332) /* PhysicsEffectTable */;
+VALUES (27174,   1, 0x02001059) /* Setup */
+     , (27174,   2, 0x0900007B) /* MotionTable */
+     , (27174,   3, 0x20000067) /* SoundTable */
+     , (27174,   4, 0x30000024) /* CombatTable */
+     , (27174,   8, 0x060030C5) /* Icon */
+     , (27174,  22, 0x34000064) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27174,   1, 380, 0, 0) /* Strength */

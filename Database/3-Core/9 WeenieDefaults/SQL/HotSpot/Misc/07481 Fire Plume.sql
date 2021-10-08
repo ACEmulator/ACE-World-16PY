@@ -36,6 +36,6 @@ VALUES (7481,   1, 'Fire Plume') /* Name */
      , (7481,  17, 'You suffer %i damage from the plume of fire.') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7481,   1,   33556686) /* Setup */
-     , (7481,   3,  536870994) /* SoundTable */
-     , (7481,   8,  100667465) /* Icon */;
+VALUES (7481,   1, 0x020008CE) /* Setup */
+     , (7481,   3, 0x20000052) /* SoundTable */
+     , (7481,   8, 0x06001049) /* Icon */;

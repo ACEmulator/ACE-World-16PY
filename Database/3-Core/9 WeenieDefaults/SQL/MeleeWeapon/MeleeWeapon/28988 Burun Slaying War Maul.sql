@@ -47,10 +47,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28988,   1, 'Burun Slaying War Maul') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28988,   1,   33558931) /* Setup */
-     , (28988,   3,  536870932) /* SoundTable */
-     , (28988,   8,  100676975) /* Icon */
-     , (28988,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28988,   1, 0x02001193) /* Setup */
+     , (28988,   3, 0x20000014) /* SoundTable */
+     , (28988,   8, 0x0600356F) /* Icon */
+     , (28988,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28988,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

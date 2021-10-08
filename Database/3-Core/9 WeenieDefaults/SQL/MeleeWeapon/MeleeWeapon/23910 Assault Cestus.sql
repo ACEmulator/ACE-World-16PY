@@ -51,12 +51,12 @@ VALUES (23910,   1, 'Assault Cestus') /* Name */
      , (23910,  16, 'A reward for defeating the leaders of the Serpent Clan.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23910,   1,   33558207) /* Setup */
-     , (23910,   3,  536870932) /* SoundTable */
-     , (23910,   6,   67111919) /* PaletteBase */
-     , (23910,   7,  268436199) /* ClothingBase */
-     , (23910,   8,  100671744) /* Icon */
-     , (23910,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23910,   1, 0x02000EBF) /* Setup */
+     , (23910,   3, 0x20000014) /* SoundTable */
+     , (23910,   6, 0x04000BEF) /* PaletteBase */
+     , (23910,   7, 0x100002E7) /* ClothingBase */
+     , (23910,   8, 0x06002100) /* Icon */
+     , (23910,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23910,  30,         88) /* PhysicsScript - Create */
      , (23910,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 

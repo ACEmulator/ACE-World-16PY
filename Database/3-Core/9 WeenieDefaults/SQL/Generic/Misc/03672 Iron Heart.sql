@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3672,   1, 'Iron Heart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3672,   1,   33554817) /* Setup */
-     , (3672,   3,  536870932) /* SoundTable */
-     , (3672,   6,   67111919) /* PaletteBase */
-     , (3672,   7,  268435832) /* ClothingBase */
-     , (3672,   8,  100670043) /* Icon */
-     , (3672,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3672,   1, 0x02000181) /* Setup */
+     , (3672,   3, 0x20000014) /* SoundTable */
+     , (3672,   6, 0x04000BEF) /* PaletteBase */
+     , (3672,   7, 0x10000178) /* ClothingBase */
+     , (3672,   8, 0x06001A5B) /* Icon */
+     , (3672,  22, 0x3400002B) /* PhysicsEffectTable */;

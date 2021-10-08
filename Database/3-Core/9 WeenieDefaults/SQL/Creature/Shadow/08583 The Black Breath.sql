@@ -68,12 +68,12 @@ VALUES (8583,   1, 'The Black Breath') /* Name */
      , (8583,   3, 'Male') /* Sex */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8583,   1,   33556913) /* Setup */
-     , (8583,   2,  150994968) /* MotionTable */
-     , (8583,   3,  536870985) /* SoundTable */
-     , (8583,   4,  805306376) /* CombatTable */
-     , (8583,   8,  100670397) /* Icon */
-     , (8583,  22,  872415331) /* PhysicsEffectTable */
+VALUES (8583,   1, 0x020009B1) /* Setup */
+     , (8583,   2, 0x09000018) /* MotionTable */
+     , (8583,   3, 0x20000049) /* SoundTable */
+     , (8583,   4, 0x30000008) /* CombatTable */
+     , (8583,   8, 0x06001BBD) /* Icon */
+     , (8583,  22, 0x34000063) /* PhysicsEffectTable */
      , (8583,  35,        181) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

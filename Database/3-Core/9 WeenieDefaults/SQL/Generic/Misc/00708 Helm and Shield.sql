@@ -22,7 +22,7 @@ VALUES (708,   1, 'Helm and Shield') /* Name */
      , (708,  16, 'Helm and Shield') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (708,   1,   33555088) /* Setup */
-     , (708,   6,   67111092) /* PaletteBase */
-     , (708,   7,  268435662) /* ClothingBase */
-     , (708,   8,  100668115) /* Icon */;
+VALUES (708,   1, 0x02000290) /* Setup */
+     , (708,   6, 0x040008B4) /* PaletteBase */
+     , (708,   7, 0x100000CE) /* ClothingBase */
+     , (708,   8, 0x060012D3) /* Icon */;

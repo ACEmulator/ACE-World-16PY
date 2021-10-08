@@ -64,11 +64,11 @@ VALUES (28476,   1, 'Coman ibn Rashid') /* Name */
      , (28476,   5, 'Noble Guard') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28476,   1,   33554433) /* Setup */
-     , (28476,   2,  150994945) /* MotionTable */
-     , (28476,   3,  536870913) /* SoundTable */
-     , (28476,   4,  805306368) /* CombatTable */
-     , (28476,   8,  100667446) /* Icon */;
+VALUES (28476,   1, 0x02000001) /* Setup */
+     , (28476,   2, 0x09000001) /* MotionTable */
+     , (28476,   3, 0x20000001) /* SoundTable */
+     , (28476,   4, 0x30000000) /* CombatTable */
+     , (28476,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28476,   1, 200, 0, 0) /* Strength */

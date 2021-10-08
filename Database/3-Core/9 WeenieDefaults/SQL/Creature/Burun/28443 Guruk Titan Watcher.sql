@@ -61,14 +61,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28443,   1, 'Guruk Titan Watcher') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28443,   1,   33558749) /* Setup */
-     , (28443,   2,  150995298) /* MotionTable */
-     , (28443,   3,  536871093) /* SoundTable */
-     , (28443,   4,  805306428) /* CombatTable */
-     , (28443,   6,   67115196) /* PaletteBase */
-     , (28443,   7,  268436827) /* ClothingBase */
-     , (28443,   8,  100676549) /* Icon */
-     , (28443,  22,  872415402) /* PhysicsEffectTable */
+VALUES (28443,   1, 0x020010DD) /* Setup */
+     , (28443,   2, 0x09000162) /* MotionTable */
+     , (28443,   3, 0x200000B5) /* SoundTable */
+     , (28443,   4, 0x3000003C) /* CombatTable */
+     , (28443,   6, 0x040018BC) /* PaletteBase */
+     , (28443,   7, 0x1000055B) /* ClothingBase */
+     , (28443,   8, 0x060033C5) /* Icon */
+     , (28443,  22, 0x340000AA) /* PhysicsEffectTable */
      , (28443,  32,        476) /* WieldedTreasureType - 
                                    Wield Stone Axe (27868) | Probability: 22%
                                    Wield 10x Muck Ball (27876) | Probability: 22%

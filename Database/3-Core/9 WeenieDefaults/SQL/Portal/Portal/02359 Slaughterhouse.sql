@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2359,   1, 'Slaughterhouse') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2359,   1,   33554867) /* Setup */
-     , (2359,   2,  150994947) /* MotionTable */
-     , (2359,   8,  100667499) /* Icon */;
+VALUES (2359,   1, 0x020001B3) /* Setup */
+     , (2359,   2, 0x09000003) /* MotionTable */
+     , (2359,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2359, 2, 0x1B7F0018, 64.925, 186.86, 80.1, -0.292372, 0, -0, -0.956305) /* Destination */

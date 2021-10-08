@@ -54,12 +54,12 @@ VALUES (27367,   1, 'Palenqual''s Kalindan of the Vortex') /* Name */
      , (27367,  16, 'A kalindan fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27367,   1,   33558668) /* Setup */
-     , (27367,   3,  536870932) /* SoundTable */
-     , (27367,   6,   67113336) /* PaletteBase */
-     , (27367,   7,  268436253) /* ClothingBase */
-     , (27367,   8,  100676346) /* Icon */
-     , (27367,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27367,   1, 0x0200108C) /* Setup */
+     , (27367,   3, 0x20000014) /* SoundTable */
+     , (27367,   6, 0x04001178) /* PaletteBase */
+     , (27367,   7, 0x1000031D) /* ClothingBase */
+     , (27367,   8, 0x060032FA) /* Icon */
+     , (27367,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27367,  2438,      2)  /* Lesser Rockslide */

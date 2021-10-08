@@ -62,14 +62,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4099,   1, 'Tumerok Scout') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4099,   1,   33554496) /* Setup */
-     , (4099,   2,  150994954) /* MotionTable */
-     , (4099,   3,  536870931) /* SoundTable */
-     , (4099,   4,  805306380) /* CombatTable */
-     , (4099,   6,   67109314) /* PaletteBase */
-     , (4099,   7,  268436629) /* ClothingBase */
-     , (4099,   8,  100667452) /* Icon */
-     , (4099,  22,  872415270) /* PhysicsEffectTable */
+VALUES (4099,   1, 0x02000040) /* Setup */
+     , (4099,   2, 0x0900000A) /* MotionTable */
+     , (4099,   3, 0x20000013) /* SoundTable */
+     , (4099,   4, 0x3000000C) /* CombatTable */
+     , (4099,   6, 0x040001C2) /* PaletteBase */
+     , (4099,   7, 0x10000495) /* ClothingBase */
+     , (4099,   8, 0x0600103C) /* Icon */
+     , (4099,  22, 0x34000026) /* PhysicsEffectTable */
      , (4099,  32,        223) /* WieldedTreasureType - 
                                    Wield Yag (360) | Probability: 25%
                                    Wield 20x Arrow (300) | Probability: 100%

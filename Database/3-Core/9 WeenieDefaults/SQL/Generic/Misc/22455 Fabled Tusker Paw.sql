@@ -25,9 +25,9 @@ VALUES (22455,   1, 'Fabled Tusker Paw') /* Name */
      , (22455,  16, 'A fabled tusker paw, it is rumored that this tusker paw has the ability to grant wishes to the person who possesses the item. But the paw will be used up in the process.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22455,   1,   33558143) /* Setup */
-     , (22455,   3,  536870932) /* SoundTable */
-     , (22455,   6,   67111893) /* PaletteBase */
-     , (22455,   7,  268436173) /* ClothingBase */
-     , (22455,   8,  100673888) /* Icon */
-     , (22455,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22455,   1, 0x02000E7F) /* Setup */
+     , (22455,   3, 0x20000014) /* SoundTable */
+     , (22455,   6, 0x04000BD5) /* PaletteBase */
+     , (22455,   7, 0x100002CD) /* ClothingBase */
+     , (22455,   8, 0x06002960) /* Icon */
+     , (22455,  22, 0x3400002B) /* PhysicsEffectTable */;

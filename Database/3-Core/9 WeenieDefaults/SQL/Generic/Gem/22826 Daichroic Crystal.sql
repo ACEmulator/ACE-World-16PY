@@ -25,5 +25,5 @@ VALUES (22826,   1, 'Daichroic Crystal') /* Name */
      , (22826,  33, 'PICKEDUPDAILANTIUMCRYSTAL') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22826,   1,   33554809) /* Setup */
-     , (22826,   8,  100673920) /* Icon */;
+VALUES (22826,   1, 0x02000179) /* Setup */
+     , (22826,   8, 0x06002980) /* Icon */;

@@ -27,9 +27,9 @@ VALUES (6807,   1, 'Nexus Core Gem') /* Name */
      , (6807,  16, 'A very large gem, flashing red and black, even larger than the scintillating fused gems. (Give this to one of the master armorers in al-Jalima, Eastham or Kara).') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6807,   1,   33554809) /* Setup */
-     , (6807,   3,  536870932) /* SoundTable */
-     , (6807,   6,   67111919) /* PaletteBase */
-     , (6807,   7,  268435723) /* ClothingBase */
-     , (6807,   8,  100670644) /* Icon */
-     , (6807,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6807,   1, 0x02000179) /* Setup */
+     , (6807,   3, 0x20000014) /* SoundTable */
+     , (6807,   6, 0x04000BEF) /* PaletteBase */
+     , (6807,   7, 0x1000010B) /* ClothingBase */
+     , (6807,   8, 0x06001CB4) /* Icon */
+     , (6807,  22, 0x3400002B) /* PhysicsEffectTable */;

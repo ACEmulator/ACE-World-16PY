@@ -44,13 +44,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8692,   1, 'An Explorer Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8692,   1,   33554732) /* Setup */
-     , (8692,   3,  536870932) /* SoundTable */
-     , (8692,   6,   67111919) /* PaletteBase */
-     , (8692,   7,  268435762) /* ClothingBase */
-     , (8692,   8,  100668835) /* Icon */
-     , (8692,  22,  872415275) /* PhysicsEffectTable */
-     , (8692,  50,  100675462) /* IconOverlay */;
+VALUES (8692,   1, 0x0200012C) /* Setup */
+     , (8692,   3, 0x20000014) /* SoundTable */
+     , (8692,   6, 0x04000BEF) /* PaletteBase */
+     , (8692,   7, 0x10000132) /* ClothingBase */
+     , (8692,   8, 0x060015A3) /* Icon */
+     , (8692,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8692,  50, 0x06002F86) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8692,  1613,      2)  /* Aura of Blood Drinker Self III */

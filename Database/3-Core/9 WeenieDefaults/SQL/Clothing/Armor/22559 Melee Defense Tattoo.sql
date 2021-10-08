@@ -47,13 +47,13 @@ VALUES (22559,   1, 'Melee Defense Tattoo') /* Name */
      , (22559,  16, 'A vial of tattoo ink infused with the power of whistling wind. When painted on the upper arms the ink will act as armor and will grant the wearer the power of whistling wind.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22559,   1,   33554641) /* Setup */
-     , (22559,   3,  536870932) /* SoundTable */
-     , (22559,   6,   67108990) /* PaletteBase */
-     , (22559,   7,  268436519) /* ClothingBase */
-     , (22559,   8,  100668172) /* Icon */
-     , (22559,  22,  872415275) /* PhysicsEffectTable */
-     , (22559,  50,  100673778) /* IconOverlay */;
+VALUES (22559,   1, 0x020000D1) /* Setup */
+     , (22559,   3, 0x20000014) /* SoundTable */
+     , (22559,   6, 0x0400007E) /* PaletteBase */
+     , (22559,   7, 0x10000427) /* ClothingBase */
+     , (22559,   8, 0x0600130C) /* Icon */
+     , (22559,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (22559,  50, 0x060028F2) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22559,  1384,      2)  /* Coordination Other VI */

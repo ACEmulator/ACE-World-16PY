@@ -24,7 +24,7 @@ VALUES (28559,   1, 'Scroll of Greater Conjurant Chant') /* Name */
      , (28559,  15, 'Use this scroll to learn Greater Conjurant Chant.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28559,   1,   33554826) /* Setup */
-     , (28559,   8,  100676453) /* Icon */
-     , (28559,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28559,   1, 0x0200018A) /* Setup */
+     , (28559,   8, 0x06003365) /* Icon */
+     , (28559,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28559,  28,       3386) /* Spell - Greater Conjurant Chant */;

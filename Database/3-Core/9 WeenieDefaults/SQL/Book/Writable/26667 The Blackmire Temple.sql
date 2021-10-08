@@ -22,10 +22,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26667,   1, 'The Blackmire Temple') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26667,   1,   33554773) /* Setup */
-     , (26667,   3,  536870932) /* SoundTable */
-     , (26667,   8,  100675749) /* Icon */
-     , (26667,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (26667,   1, 0x02000155) /* Setup */
+     , (26667,   3, 0x20000014) /* SoundTable */
+     , (26667,   8, 0x060030A5) /* Icon */
+     , (26667,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (26667, 1, 1000);

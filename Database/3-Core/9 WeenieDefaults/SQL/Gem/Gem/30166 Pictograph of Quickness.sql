@@ -30,10 +30,10 @@ VALUES (30166,   1, 'Pictograph of Quickness') /* Name */
      , (30166,  16, 'A lovely template for a rare magical gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30166,   1,   33554809) /* Setup */
-     , (30166,   3,  536870932) /* SoundTable */
-     , (30166,   6,   67111919) /* PaletteBase */
-     , (30166,   7,  268435723) /* ClothingBase */
-     , (30166,   8,  100674739) /* Icon */
-     , (30166,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30166,   1, 0x02000179) /* Setup */
+     , (30166,   3, 0x20000014) /* SoundTable */
+     , (30166,   6, 0x04000BEF) /* PaletteBase */
+     , (30166,   7, 0x1000010B) /* ClothingBase */
+     , (30166,   8, 0x06002CB3) /* Icon */
+     , (30166,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30166,  28,       2081) /* Spell - Hastening */;

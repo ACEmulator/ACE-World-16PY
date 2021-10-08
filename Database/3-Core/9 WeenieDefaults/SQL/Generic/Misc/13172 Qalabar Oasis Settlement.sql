@@ -22,5 +22,5 @@ VALUES (13172,   1, 'Qalabar Oasis Settlement') /* Name */
      , (13172,  16, 'Welcome to Qalabar Oasis Settlement') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13172,   1,   33557463) /* Setup */
-     , (13172,   8,  100668115) /* Icon */;
+VALUES (13172,   1, 0x02000BD7) /* Setup */
+     , (13172,   8, 0x060012D3) /* Icon */;

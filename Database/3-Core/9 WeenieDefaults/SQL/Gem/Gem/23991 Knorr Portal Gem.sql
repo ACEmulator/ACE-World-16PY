@@ -41,10 +41,10 @@ VALUES (23991,   1, 'Knorr Portal Gem') /* Name */
      , (23991,  15, 'A gem pulsating with the power of portal space. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23991,   1,   33556769) /* Setup */
-     , (23991,   3,  536870932) /* SoundTable */
-     , (23991,   6,   67111919) /* PaletteBase */
-     , (23991,   7,  268435723) /* ClothingBase */
-     , (23991,   8,  100668365) /* Icon */
-     , (23991,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23991,   1, 0x02000921) /* Setup */
+     , (23991,   3, 0x20000014) /* SoundTable */
+     , (23991,   6, 0x04000BEF) /* PaletteBase */
+     , (23991,   7, 0x1000010B) /* ClothingBase */
+     , (23991,   8, 0x060013CD) /* Icon */
+     , (23991,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23991,  28,       2951) /* Spell - Gates of Knorr */;

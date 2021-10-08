@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8015,   1, 'Shendolain Crystal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8015,   1,   33556732) /* Setup */
-     , (8015,   2,  150995095) /* MotionTable */
-     , (8015,   3,  536871001) /* SoundTable */
-     , (8015,   4,  805306407) /* CombatTable */
-     , (8015,   6,   67111919) /* PaletteBase */
-     , (8015,   7,  268435859) /* ClothingBase */
-     , (8015,   8,  100670283) /* Icon */
-     , (8015,  22,  872415347) /* PhysicsEffectTable */
+VALUES (8015,   1, 0x020008FC) /* Setup */
+     , (8015,   2, 0x09000097) /* MotionTable */
+     , (8015,   3, 0x20000059) /* SoundTable */
+     , (8015,   4, 0x30000027) /* CombatTable */
+     , (8015,   6, 0x04000BEF) /* PaletteBase */
+     , (8015,   7, 0x10000193) /* ClothingBase */
+     , (8015,   8, 0x06001B4B) /* Icon */
+     , (8015,  22, 0x34000073) /* PhysicsEffectTable */
      , (8015,  35,         25) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

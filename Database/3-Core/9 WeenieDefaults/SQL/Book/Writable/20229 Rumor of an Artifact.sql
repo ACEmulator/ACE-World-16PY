@@ -24,10 +24,10 @@ VALUES (20229,   1, 'Rumor of an Artifact') /* Name */
      , (20229,  15, 'Rumor of an Empyrean Artifact') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20229,   1,   33554773) /* Setup */
-     , (20229,   3,  536870932) /* SoundTable */
-     , (20229,   8,  100672829) /* Icon */
-     , (20229,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (20229,   1, 0x02000155) /* Setup */
+     , (20229,   3, 0x20000014) /* SoundTable */
+     , (20229,   8, 0x0600253D) /* Icon */
+     , (20229,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (20229, 1, 1000);

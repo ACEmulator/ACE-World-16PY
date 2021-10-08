@@ -38,11 +38,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7791,   1, 'Frost Trident') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7791,   1,   33556667) /* Setup */
-     , (7791,   3,  536870932) /* SoundTable */
-     , (7791,   6,   67111919) /* PaletteBase */
-     , (7791,   7,  268436013) /* ClothingBase */
-     , (7791,   8,  100670762) /* Icon */
-     , (7791,  22,  872415275) /* PhysicsEffectTable */
-     , (7791,  36,  234881053) /* MutateFilter */
-     , (7791,  46,  939524103) /* TsysMutationFilter */;
+VALUES (7791,   1, 0x020008BB) /* Setup */
+     , (7791,   3, 0x20000014) /* SoundTable */
+     , (7791,   6, 0x04000BEF) /* PaletteBase */
+     , (7791,   7, 0x1000022D) /* ClothingBase */
+     , (7791,   8, 0x06001D2A) /* Icon */
+     , (7791,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (7791,  36, 0x0E00001D) /* MutateFilter */
+     , (7791,  46, 0x38000007) /* TsysMutationFilter */;

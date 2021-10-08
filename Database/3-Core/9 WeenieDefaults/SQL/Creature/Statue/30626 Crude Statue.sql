@@ -67,12 +67,12 @@ VALUES (30626,   1, 'Crude Statue') /* Name */
      , (30626,  15, 'A crude stone statue of some sort. There is a small square indention on the statue as if something was meant to be placed there.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30626,   1,   33559204) /* Setup */
-     , (30626,   2,  150995105) /* MotionTable */
-     , (30626,   3,  536871017) /* SoundTable */
-     , (30626,   4,  805306414) /* CombatTable */
-     , (30626,   8,  100677385) /* Icon */
-     , (30626,  22,  872415369) /* PhysicsEffectTable */
+VALUES (30626,   1, 0x020012A4) /* Setup */
+     , (30626,   2, 0x090000A1) /* MotionTable */
+     , (30626,   3, 0x20000069) /* SoundTable */
+     , (30626,   4, 0x3000002E) /* CombatTable */
+     , (30626,   8, 0x06003709) /* Icon */
+     , (30626,  22, 0x34000089) /* PhysicsEffectTable */
      , (30626,  31,      30643) /* LinkedPortalOne - Banderling Shrine */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

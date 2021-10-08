@@ -24,7 +24,7 @@ VALUES (21921,   1, 'Imbued Ornate Seal') /* Name */
      , (21921,  15, 'A glowing ornate seal with odd glyphs and sigils.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21921,   1,   33557973) /* Setup */
-     , (21921,   3,  536870932) /* SoundTable */
-     , (21921,   8,  100673500) /* Icon */
-     , (21921,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21921,   1, 0x02000DD5) /* Setup */
+     , (21921,   3, 0x20000014) /* SoundTable */
+     , (21921,   8, 0x060027DC) /* Icon */
+     , (21921,  22, 0x3400002B) /* PhysicsEffectTable */;

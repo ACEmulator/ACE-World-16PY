@@ -22,5 +22,5 @@ VALUES (22236,   1, 'Festivus Court') /* Name */
      , (22236,  16, 'Festivus Court') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22236,   1,   33558050) /* Setup */
-     , (22236,   8,  100667499) /* Icon */;
+VALUES (22236,   1, 0x02000E22) /* Setup */
+     , (22236,   8, 0x0600106B) /* Icon */;

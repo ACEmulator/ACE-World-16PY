@@ -42,10 +42,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24240,   1, 'Olthoi Acid Katar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24240,   1,   33558331) /* Setup */
-     , (24240,   3,  536870932) /* SoundTable */
-     , (24240,   8,  100674295) /* Icon */
-     , (24240,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24240,   1, 0x02000F3B) /* Setup */
+     , (24240,   3, 0x20000014) /* SoundTable */
+     , (24240,   8, 0x06002AF7) /* Icon */
+     , (24240,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24240,  1605,      2)  /* Aura of Defender Self VI */

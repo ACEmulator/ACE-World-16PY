@@ -50,12 +50,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20051,   1, 'Perfect Dissolving Isparian Atlatl') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20051,   1,   33557799) /* Setup */
-     , (20051,   3,  536870932) /* SoundTable */
-     , (20051,   6,   67111919) /* PaletteBase */
-     , (20051,   7,  268436393) /* ClothingBase */
-     , (20051,   8,  100673005) /* Icon */
-     , (20051,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20051,   1, 0x02000D27) /* Setup */
+     , (20051,   3, 0x20000014) /* SoundTable */
+     , (20051,   6, 0x04000BEF) /* PaletteBase */
+     , (20051,   7, 0x100003A9) /* ClothingBase */
+     , (20051,   8, 0x060025ED) /* Icon */
+     , (20051,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20051,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

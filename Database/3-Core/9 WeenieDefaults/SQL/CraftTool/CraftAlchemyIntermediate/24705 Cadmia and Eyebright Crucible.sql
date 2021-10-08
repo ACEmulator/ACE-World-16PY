@@ -31,8 +31,8 @@ VALUES (24705,   1, 'Cadmia and Eyebright Crucible') /* Name */
      , (24705,  20, 'Cadmia and Eyebright Crucibles') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24705,   1,   33555966) /* Setup */
-     , (24705,   3,  536870932) /* SoundTable */
-     , (24705,   8,  100674466) /* Icon */
-     , (24705,  22,  872415275) /* PhysicsEffectTable */
-     , (24705,  50,  100674413) /* IconOverlay */;
+VALUES (24705,   1, 0x020005FE) /* Setup */
+     , (24705,   3, 0x20000014) /* SoundTable */
+     , (24705,   8, 0x06002BA2) /* Icon */
+     , (24705,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24705,  50, 0x06002B6D) /* IconOverlay */;

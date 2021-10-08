@@ -63,12 +63,12 @@ VALUES (26540,   1, 'Lance of the Bloodletter') /* Name */
      , (26540,  15, 'A barbed spear, this lance looks to have been used to slay the living in a most heinous way.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26540,   1,   33558600) /* Setup */
-     , (26540,   2,  150995273) /* MotionTable */
-     , (26540,   3,  536871052) /* SoundTable */
-     , (26540,   4,  805306398) /* CombatTable */
-     , (26540,   8,  100675774) /* Icon */
-     , (26540,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (26540,   1, 0x02001048) /* Setup */
+     , (26540,   2, 0x09000149) /* MotionTable */
+     , (26540,   3, 0x2000008C) /* SoundTable */
+     , (26540,   4, 0x3000001E) /* CombatTable */
+     , (26540,   8, 0x060030BE) /* Icon */
+     , (26540,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (26540,   1, 380, 0, 0) /* Strength */

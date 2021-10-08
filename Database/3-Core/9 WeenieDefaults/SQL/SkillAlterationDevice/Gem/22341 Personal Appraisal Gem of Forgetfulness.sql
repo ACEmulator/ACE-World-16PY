@@ -25,8 +25,8 @@ VALUES (22341,   1, 'Personal Appraisal Gem of Forgetfulness') /* Name */
      , (22341,  33, 'SkillAlterationGemPickedUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22341,   1,   33558087) /* Setup */
-     , (22341,   6,   67111919) /* PaletteBase */
-     , (22341,   7,  268435723) /* ClothingBase */
-     , (22341,   8,  100673789) /* Icon */
-     , (22341,  50,  100673757) /* IconOverlay */;
+VALUES (22341,   1, 0x02000E47) /* Setup */
+     , (22341,   6, 0x04000BEF) /* PaletteBase */
+     , (22341,   7, 0x1000010B) /* ClothingBase */
+     , (22341,   8, 0x060028FD) /* Icon */
+     , (22341,  50, 0x060028DD) /* IconOverlay */;

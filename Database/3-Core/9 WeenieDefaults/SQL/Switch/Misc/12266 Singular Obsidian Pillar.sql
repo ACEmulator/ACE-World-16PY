@@ -28,9 +28,9 @@ VALUES (12266,   1, 'Singular Obsidian Pillar') /* Name */
      , (12266,  16, 'A pillar of Singular Obsidian stockpiled by the Virindi and their allies.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12266,   1,   33557378) /* Setup */
-     , (12266,   3,  536870932) /* SoundTable */
-     , (12266,   6,   67113398) /* PaletteBase */
-     , (12266,   7,  268436280) /* ClothingBase */
-     , (12266,   8,  100672196) /* Icon */
-     , (12266,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12266,   1, 0x02000B82) /* Setup */
+     , (12266,   3, 0x20000014) /* SoundTable */
+     , (12266,   6, 0x040011B6) /* PaletteBase */
+     , (12266,   7, 0x10000338) /* ClothingBase */
+     , (12266,   8, 0x060022C4) /* Icon */
+     , (12266,  22, 0x3400002B) /* PhysicsEffectTable */;

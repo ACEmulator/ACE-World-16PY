@@ -73,14 +73,14 @@ VALUES (6537,   1, 'Shadow Spire') /* Name */
      , (6537,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6537,   1,   33556558) /* Setup */
-     , (6537,   2,  150995092) /* MotionTable */
-     , (6537,   3,  536870913) /* SoundTable */
-     , (6537,   4,  805306368) /* CombatTable */
-     , (6537,   6,   67111797) /* PaletteBase */
-     , (6537,   7,  268435992) /* ClothingBase */
-     , (6537,   8,  100670397) /* Icon */
-     , (6537,  22,  872415331) /* PhysicsEffectTable */
+VALUES (6537,   1, 0x0200084E) /* Setup */
+     , (6537,   2, 0x09000094) /* MotionTable */
+     , (6537,   3, 0x20000001) /* SoundTable */
+     , (6537,   4, 0x30000000) /* CombatTable */
+     , (6537,   6, 0x04000B75) /* PaletteBase */
+     , (6537,   7, 0x10000218) /* ClothingBase */
+     , (6537,   8, 0x06001BBD) /* Icon */
+     , (6537,  22, 0x34000063) /* PhysicsEffectTable */
      , (6537,  32,        170) /* WieldedTreasureType - 
                                    Wield 10x Throwing Dart (316) | Probability: 5%
                                    Wield 10x Shouken (343) | Probability: 5%

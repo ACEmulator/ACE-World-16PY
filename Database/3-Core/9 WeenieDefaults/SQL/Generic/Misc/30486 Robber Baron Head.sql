@@ -23,7 +23,7 @@ VALUES (30486,   1, 'Robber Baron Head') /* Name */
      , (30486,  33, 'HoltburgAfrinDrudge1204') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30486,   1,   33556823) /* Setup */
-     , (30486,   3,  536870932) /* SoundTable */
-     , (30486,   8,  100671030) /* Icon */
-     , (30486,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30486,   1, 0x02000957) /* Setup */
+     , (30486,   3, 0x20000014) /* SoundTable */
+     , (30486,   8, 0x06001E36) /* Icon */
+     , (30486,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -25,9 +25,9 @@ VALUES (25244,   1, 'Exit To Surface') /* Name */
      , (25244,  33, 'MidNestKiller') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25244,   1,   33554867) /* Setup */
-     , (25244,   2,  150994947) /* MotionTable */
-     , (25244,   8,  100667499) /* Icon */;
+VALUES (25244,   1, 0x020001B3) /* Setup */
+     , (25244,   2, 0x09000003) /* MotionTable */
+     , (25244,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (25244, 2, 0xBA140013, 60.934, 61.19, 185.209, -0.888301, 0, -0, -0.459262) /* Destination */

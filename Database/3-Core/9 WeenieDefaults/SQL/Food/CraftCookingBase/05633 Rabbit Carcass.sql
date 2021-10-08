@@ -24,7 +24,7 @@ VALUES (5633,   1, 'Rabbit Carcass') /* Name */
      , (5633,  14, 'Use this item to eat it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5633,   1,   33556210) /* Setup */
-     , (5633,   3,  536870932) /* SoundTable */
-     , (5633,   8,  100670267) /* Icon */
-     , (5633,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5633,   1, 0x020006F2) /* Setup */
+     , (5633,   3, 0x20000014) /* SoundTable */
+     , (5633,   8, 0x06001B3B) /* Icon */
+     , (5633,  22, 0x3400002B) /* PhysicsEffectTable */;

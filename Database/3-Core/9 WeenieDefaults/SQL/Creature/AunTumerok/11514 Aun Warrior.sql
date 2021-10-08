@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11514,   1, 'Aun Warrior') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11514,   1,   33557117) /* Setup */
-     , (11514,   2,  150994954) /* MotionTable */
-     , (11514,   3,  536870931) /* SoundTable */
-     , (11514,   4,  805306380) /* CombatTable */
-     , (11514,   6,   67113280) /* PaletteBase */
-     , (11514,   7,  268436193) /* ClothingBase */
-     , (11514,   8,  100671756) /* Icon */
-     , (11514,  22,  872415270) /* PhysicsEffectTable */
+VALUES (11514,   1, 0x02000A7D) /* Setup */
+     , (11514,   2, 0x0900000A) /* MotionTable */
+     , (11514,   3, 0x20000013) /* SoundTable */
+     , (11514,   4, 0x3000000C) /* CombatTable */
+     , (11514,   6, 0x04001140) /* PaletteBase */
+     , (11514,   7, 0x100002E1) /* ClothingBase */
+     , (11514,   8, 0x0600210C) /* Icon */
+     , (11514,  22, 0x34000026) /* PhysicsEffectTable */
      , (11514,  32,        383) /* WieldedTreasureType - 
                                    Wield Palenqual's Tewhate (12113) | Probability: 17%
                                    Wield Palenqual's Okane (12116) | Probability: 17%

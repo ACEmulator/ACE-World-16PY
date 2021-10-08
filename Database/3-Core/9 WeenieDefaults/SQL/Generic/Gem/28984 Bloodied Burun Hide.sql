@@ -25,9 +25,9 @@ VALUES (28984,   1, 'Bloodied Burun Hide') /* Name */
      , (28984,  15, 'This patch of flesh, unceremoniously removed from a Burun, is dripping with the creatures blood. Perhaps you can use this with a soul stone to make an enhanced version of the stone.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28984,   1,   33554817) /* Setup */
-     , (28984,   3,  536870932) /* SoundTable */
-     , (28984,   6,   67111919) /* PaletteBase */
-     , (28984,   7,  268435832) /* ClothingBase */
-     , (28984,   8,  100677066) /* Icon */
-     , (28984,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28984,   1, 0x02000181) /* Setup */
+     , (28984,   3, 0x20000014) /* SoundTable */
+     , (28984,   6, 0x04000BEF) /* PaletteBase */
+     , (28984,   7, 0x10000178) /* ClothingBase */
+     , (28984,   8, 0x060035CA) /* Icon */
+     , (28984,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -24,10 +24,10 @@ VALUES (7379,   1, 'Singed Note') /* Name */
      , (7379,  16, 'A hastily jotted note in the flowing script of Yalain. The paper is singed and crumbling from exposure to the heat of Mount Tenkarrdun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7379,   1,   33554773) /* Setup */
-     , (7379,   3,  536870932) /* SoundTable */
-     , (7379,   8,  100668176) /* Icon */
-     , (7379,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7379,   1, 0x02000155) /* Setup */
+     , (7379,   3, 0x20000014) /* SoundTable */
+     , (7379,   8, 0x06001310) /* Icon */
+     , (7379,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (7379, 1, 1000);

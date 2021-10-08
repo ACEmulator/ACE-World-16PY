@@ -23,10 +23,10 @@ VALUES (29235,   1, 'Feud of the Natural Philosophers') /* Name */
      , (29235,  16, 'This rumor describes a task suitable for a single character of level 110 or so. The rewards include either a mace or a crossbow.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29235,   1,   33554773) /* Setup */
-     , (29235,   3,  536870932) /* SoundTable */
-     , (29235,   8,  100675746) /* Icon */
-     , (29235,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29235,   1, 0x02000155) /* Setup */
+     , (29235,   3, 0x20000014) /* SoundTable */
+     , (29235,   8, 0x060030A2) /* Icon */
+     , (29235,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (29235, 2, 1000);

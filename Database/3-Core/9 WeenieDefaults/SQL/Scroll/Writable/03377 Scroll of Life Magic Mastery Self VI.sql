@@ -25,7 +25,7 @@ VALUES (3377,   1, 'Scroll of Life Magic Mastery Self VI') /* Name */
      , (3377,  16, 'When learned, this spell increases the caster''s Life Magic skill by 150%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3377,   1,   33554826) /* Setup */
-     , (3377,   8,  100676462) /* Icon */
-     , (3377,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3377,   1, 0x0200018A) /* Setup */
+     , (3377,   8, 0x0600336E) /* Icon */
+     , (3377,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3377,  28,        610) /* Spell - Life Magic Mastery Self VI */;

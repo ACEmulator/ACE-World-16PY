@@ -34,9 +34,9 @@ VALUES (19408,   1, 'New Staff Glyph') /* Name */
      , (19408,  16, 'A glyph with the image of a staff emblazoned upon it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19408,   1,   33556438) /* Setup */
-     , (19408,   3,  536870932) /* SoundTable */
-     , (19408,   6,   67111092) /* PaletteBase */
-     , (19408,   7,  268436386) /* ClothingBase */
-     , (19408,   8,  100672878) /* Icon */
-     , (19408,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19408,   1, 0x020007D6) /* Setup */
+     , (19408,   3, 0x20000014) /* SoundTable */
+     , (19408,   6, 0x040008B4) /* PaletteBase */
+     , (19408,   7, 0x100003A2) /* ClothingBase */
+     , (19408,   8, 0x0600256E) /* Icon */
+     , (19408,  22, 0x3400002B) /* PhysicsEffectTable */;

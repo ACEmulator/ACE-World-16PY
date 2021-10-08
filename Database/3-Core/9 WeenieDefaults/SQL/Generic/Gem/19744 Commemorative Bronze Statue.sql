@@ -29,10 +29,10 @@ VALUES (19744,   1, 'Commemorative Bronze Statue') /* Name */
      , (19744,  15, 'A large commemorative statue of a Mosswart crafted by the Arcanum Tinker, in reward for destroying the statues threatening the cities of Rithwic and Lytelthorpe.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19744,   1,   33557327) /* Setup */
-     , (19744,   2,  150995207) /* MotionTable */
-     , (19744,   6,   67113400) /* PaletteBase */
-     , (19744,   7,  268436368) /* ClothingBase */
-     , (19744,   8,  100667449) /* Icon */
-     , (19744,  22,  872415383) /* PhysicsEffectTable */
-     , (19744,  36,  234881046) /* MutateFilter */;
+VALUES (19744,   1, 0x02000B4F) /* Setup */
+     , (19744,   2, 0x09000107) /* MotionTable */
+     , (19744,   6, 0x040011B8) /* PaletteBase */
+     , (19744,   7, 0x10000390) /* ClothingBase */
+     , (19744,   8, 0x06001039) /* Icon */
+     , (19744,  22, 0x34000097) /* PhysicsEffectTable */
+     , (19744,  36, 0x0E000016) /* MutateFilter */;

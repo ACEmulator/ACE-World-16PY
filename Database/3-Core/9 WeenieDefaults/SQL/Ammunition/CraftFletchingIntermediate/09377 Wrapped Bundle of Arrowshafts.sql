@@ -25,7 +25,7 @@ VALUES (9377,   1, 'Wrapped Bundle of Arrowshafts') /* Name */
      , (9377,  20, 'Wrapped Bundles of Arrowshafts') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9377,   1,   33557031) /* Setup */
-     , (9377,   3,  536870932) /* SoundTable */
-     , (9377,   8,  100671591) /* Icon */
-     , (9377,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9377,   1, 0x02000A27) /* Setup */
+     , (9377,   3, 0x20000014) /* SoundTable */
+     , (9377,   8, 0x06002067) /* Icon */
+     , (9377,  22, 0x3400002B) /* PhysicsEffectTable */;

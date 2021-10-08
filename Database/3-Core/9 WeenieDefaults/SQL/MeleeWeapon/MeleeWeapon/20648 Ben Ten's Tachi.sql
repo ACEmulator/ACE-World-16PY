@@ -38,10 +38,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20648,   1, 'Ben Ten''s Tachi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20648,   1,   33554742) /* Setup */
-     , (20648,   3,  536870932) /* SoundTable */
-     , (20648,   6,   67111919) /* PaletteBase */
-     , (20648,   7,  268436346) /* ClothingBase */
-     , (20648,   8,  100668915) /* Icon */
-     , (20648,  22,  872415275) /* PhysicsEffectTable */
-     , (20648,  36,  234881044) /* MutateFilter */;
+VALUES (20648,   1, 0x02000136) /* Setup */
+     , (20648,   3, 0x20000014) /* SoundTable */
+     , (20648,   6, 0x04000BEF) /* PaletteBase */
+     , (20648,   7, 0x1000037A) /* ClothingBase */
+     , (20648,   8, 0x060015F3) /* Icon */
+     , (20648,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (20648,  36, 0x0E000014) /* MutateFilter */;

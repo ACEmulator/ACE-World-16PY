@@ -47,12 +47,12 @@ VALUES (12155,   1, 'Shield of the Simulacra') /* Name */
      , (12155,  33, 'ShieldSimulacra') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12155,   1,   33554786) /* Setup */
-     , (12155,   3,  536870932) /* SoundTable */
-     , (12155,   6,   67111919) /* PaletteBase */
-     , (12155,   7,  268435607) /* ClothingBase */
-     , (12155,   8,  100672136) /* Icon */
-     , (12155,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12155,   1, 0x02000162) /* Setup */
+     , (12155,   3, 0x20000014) /* SoundTable */
+     , (12155,   6, 0x04000BEF) /* PaletteBase */
+     , (12155,   7, 0x10000097) /* ClothingBase */
+     , (12155,   8, 0x06002288) /* Icon */
+     , (12155,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12155,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

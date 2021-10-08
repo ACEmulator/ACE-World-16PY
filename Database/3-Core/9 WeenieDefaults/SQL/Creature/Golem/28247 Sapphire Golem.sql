@@ -68,14 +68,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28247,   1, 'Sapphire Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28247,   1,   33556439) /* Setup */
-     , (28247,   2,  150995073) /* MotionTable */
-     , (28247,   3,  536870933) /* SoundTable */
-     , (28247,   4,  805306376) /* CombatTable */
-     , (28247,   6,   67112808) /* PaletteBase */
-     , (28247,   7,  268435983) /* ClothingBase */
-     , (28247,   8,  100667940) /* Icon */
-     , (28247,  22,  872415322) /* PhysicsEffectTable */
+VALUES (28247,   1, 0x020007D7) /* Setup */
+     , (28247,   2, 0x09000081) /* MotionTable */
+     , (28247,   3, 0x20000015) /* SoundTable */
+     , (28247,   4, 0x30000008) /* CombatTable */
+     , (28247,   6, 0x04000F68) /* PaletteBase */
+     , (28247,   7, 0x1000020F) /* ClothingBase */
+     , (28247,   8, 0x06001224) /* Icon */
+     , (28247,  22, 0x3400005A) /* PhysicsEffectTable */
      , (28247,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

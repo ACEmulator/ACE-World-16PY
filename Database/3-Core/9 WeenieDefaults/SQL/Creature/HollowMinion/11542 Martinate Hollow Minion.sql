@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11542,   1, 'Martinate Hollow Minion') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11542,   1,   33556792) /* Setup */
-     , (11542,   2,  150995101) /* MotionTable */
-     , (11542,   3,  536871013) /* SoundTable */
-     , (11542,   4,  805306413) /* CombatTable */
-     , (11542,   6,   67112967) /* PaletteBase */
-     , (11542,   7,  268436085) /* ClothingBase */
-     , (11542,   8,  100671140) /* Icon */
-     , (11542,  22,  872415367) /* PhysicsEffectTable */
+VALUES (11542,   1, 0x02000938) /* Setup */
+     , (11542,   2, 0x0900009D) /* MotionTable */
+     , (11542,   3, 0x20000065) /* SoundTable */
+     , (11542,   4, 0x3000002D) /* CombatTable */
+     , (11542,   6, 0x04001007) /* PaletteBase */
+     , (11542,   7, 0x10000275) /* ClothingBase */
+     , (11542,   8, 0x06001EA4) /* Icon */
+     , (11542,  22, 0x34000087) /* PhysicsEffectTable */
      , (11542,  35,        352) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

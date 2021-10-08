@@ -25,7 +25,7 @@ VALUES (1549,   1, 'Scroll of Armor Other') /* Name */
      , (1549,  16, 'When learned, this spell increases the target''s natural armor by 20 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1549,   1,   33554826) /* Setup */
-     , (1549,   8,  100676928) /* Icon */
-     , (1549,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1549,   1, 0x0200018A) /* Setup */
+     , (1549,   8, 0x06003540) /* Icon */
+     , (1549,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1549,  28,         23) /* Spell - Armor Other I */;

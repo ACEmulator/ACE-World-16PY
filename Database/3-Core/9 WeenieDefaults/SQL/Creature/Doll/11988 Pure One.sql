@@ -69,14 +69,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11988,   1, 'Pure One') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11988,   1,   33556996) /* Setup */
-     , (11988,   2,  150994984) /* MotionTable */
-     , (11988,   3,  536871022) /* SoundTable */
-     , (11988,   4,  805306416) /* CombatTable */
-     , (11988,   6,   67113150) /* PaletteBase */
-     , (11988,   7,  268436148) /* ClothingBase */
-     , (11988,   8,  100671421) /* Icon */
-     , (11988,  22,  872415373) /* PhysicsEffectTable */
+VALUES (11988,   1, 0x02000A04) /* Setup */
+     , (11988,   2, 0x09000028) /* MotionTable */
+     , (11988,   3, 0x2000006E) /* SoundTable */
+     , (11988,   4, 0x30000030) /* CombatTable */
+     , (11988,   6, 0x040010BE) /* PaletteBase */
+     , (11988,   7, 0x100002B4) /* ClothingBase */
+     , (11988,   8, 0x06001FBD) /* Icon */
+     , (11988,  22, 0x3400008D) /* PhysicsEffectTable */
      , (11988,  30,         87) /* PhysicsScript - BreatheLightning */
      , (11988,  35,         22) /* DeathTreasureType - Loot Tier: 2 */;
 

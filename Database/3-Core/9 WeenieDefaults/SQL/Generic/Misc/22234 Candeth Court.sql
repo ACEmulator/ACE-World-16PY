@@ -22,5 +22,5 @@ VALUES (22234,   1, 'Candeth Court') /* Name */
      , (22234,  16, 'Candeth Court') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22234,   1,   33558048) /* Setup */
-     , (22234,   8,  100667499) /* Icon */;
+VALUES (22234,   1, 0x02000E20) /* Setup */
+     , (22234,   8, 0x0600106B) /* Icon */;

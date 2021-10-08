@@ -41,13 +41,13 @@ VALUES (27316,   1, 'Staff of the Painbringer') /* Name */
      , (27316,  16, 'The head of the Painbringer is mounted atop this large, magical battle staff.  The craftsmanship is superb -- one would hardly guess that it was made by a tailor!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27316,   1,   33558674) /* Setup */
-     , (27316,   3,  536870932) /* SoundTable */
-     , (27316,   6,   67113007) /* PaletteBase */
-     , (27316,   7,  268436059) /* ClothingBase */
-     , (27316,   8,  100676391) /* Icon */
-     , (27316,  22,  872415275) /* PhysicsEffectTable */
-     , (27316,  27, 1073742049) /* UseUserAnimation - UseMagicWand */;
+VALUES (27316,   1, 0x02001092) /* Setup */
+     , (27316,   3, 0x20000014) /* SoundTable */
+     , (27316,   6, 0x0400102F) /* PaletteBase */
+     , (27316,   7, 0x1000025B) /* ClothingBase */
+     , (27316,   8, 0x06003327) /* Icon */
+     , (27316,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27316,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27316,  2052,      2)  /* Executor's Boon */;

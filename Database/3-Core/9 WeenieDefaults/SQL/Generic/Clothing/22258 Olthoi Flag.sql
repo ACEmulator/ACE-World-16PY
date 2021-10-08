@@ -33,10 +33,10 @@ VALUES (22258,   1, 'Olthoi Flag') /* Name */
      , (22258,  16, 'A fine flag made from grievver silk.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22258,   1,   33557723) /* Setup */
-     , (22258,   3,  536870932) /* SoundTable */
-     , (22258,   6,   67113849) /* PaletteBase */
-     , (22258,   7,  268436415) /* ClothingBase */
-     , (22258,   8,  100672424) /* Icon */
-     , (22258,  22,  872415275) /* PhysicsEffectTable */
-     , (22258,  50,  100673179) /* IconOverlay */;
+VALUES (22258,   1, 0x02000CDB) /* Setup */
+     , (22258,   3, 0x20000014) /* SoundTable */
+     , (22258,   6, 0x04001379) /* PaletteBase */
+     , (22258,   7, 0x100003BF) /* ClothingBase */
+     , (22258,   8, 0x060023A8) /* Icon */
+     , (22258,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (22258,  50, 0x0600269B) /* IconOverlay */;

@@ -28,9 +28,9 @@ VALUES (5335,   1, 'Stamina Oil') /* Name */
      , (5335,  20, 'Vials of Stamina Oil') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5335,   1,   33555967) /* Setup */
-     , (5335,   3,  536870932) /* SoundTable */
-     , (5335,   6,   67111919) /* PaletteBase */
-     , (5335,   7,  268435815) /* ClothingBase */
-     , (5335,   8,  100670266) /* Icon */
-     , (5335,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5335,   1, 0x020005FF) /* Setup */
+     , (5335,   3, 0x20000014) /* SoundTable */
+     , (5335,   6, 0x04000BEF) /* PaletteBase */
+     , (5335,   7, 0x10000167) /* ClothingBase */
+     , (5335,   8, 0x06001B3A) /* Icon */
+     , (5335,  22, 0x3400002B) /* PhysicsEffectTable */;

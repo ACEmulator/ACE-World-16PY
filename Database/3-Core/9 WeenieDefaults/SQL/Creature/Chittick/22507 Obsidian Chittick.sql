@@ -60,14 +60,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22507,   1, 'Obsidian Chittick') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22507,   1,   33558118) /* Setup */
-     , (22507,   2,  150995065) /* MotionTable */
-     , (22507,   3,  536870982) /* SoundTable */
-     , (22507,   4,  805306402) /* CombatTable */
-     , (22507,   6,   67114050) /* PaletteBase */
-     , (22507,   7,  268436515) /* ClothingBase */
-     , (22507,   8,  100669115) /* Icon */
-     , (22507,  22,  872415336) /* PhysicsEffectTable */
+VALUES (22507,   1, 0x02000E66) /* Setup */
+     , (22507,   2, 0x09000079) /* MotionTable */
+     , (22507,   3, 0x20000046) /* SoundTable */
+     , (22507,   4, 0x30000022) /* CombatTable */
+     , (22507,   6, 0x04001442) /* PaletteBase */
+     , (22507,   7, 0x10000423) /* ClothingBase */
+     , (22507,   8, 0x060016BB) /* Icon */
+     , (22507,  22, 0x34000068) /* PhysicsEffectTable */
      , (22507,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

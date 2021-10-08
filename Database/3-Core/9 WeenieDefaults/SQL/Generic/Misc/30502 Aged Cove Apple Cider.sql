@@ -27,9 +27,9 @@ VALUES (30502,   1, 'Aged Cove Apple Cider') /* Name */
      , (30502,  33, 'YaraqCiderCoveAppleAged1204') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30502,   1,   33554602) /* Setup */
-     , (30502,   3,  536871012) /* SoundTable */
-     , (30502,   6,   67111919) /* PaletteBase */
-     , (30502,   7,  268435733) /* ClothingBase */
-     , (30502,   8,  100667410) /* Icon */
-     , (30502,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30502,   1, 0x020000AA) /* Setup */
+     , (30502,   3, 0x20000064) /* SoundTable */
+     , (30502,   6, 0x04000BEF) /* PaletteBase */
+     , (30502,   7, 0x10000115) /* ClothingBase */
+     , (30502,   8, 0x06001012) /* Icon */
+     , (30502,  22, 0x3400002B) /* PhysicsEffectTable */;

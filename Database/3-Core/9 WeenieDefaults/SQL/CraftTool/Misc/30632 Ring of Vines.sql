@@ -32,7 +32,7 @@ VALUES (30632,   1, 'Ring of Vines') /* Name */
      , (30632,  33, 'BanderlingHauntRingAcquired0105') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30632,   1,   33554769) /* Setup */
-     , (30632,   3,  536870932) /* SoundTable */
-     , (30632,   8,  100677390) /* Icon */
-     , (30632,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30632,   1, 0x02000151) /* Setup */
+     , (30632,   3, 0x20000014) /* SoundTable */
+     , (30632,   8, 0x0600370E) /* Icon */
+     , (30632,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -63,12 +63,12 @@ VALUES (25961,   1, 'Crazed Zharalim') /* Name */
      , (25961,   4, 'Gharu''ndim') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25961,   1,   33554433) /* Setup */
-     , (25961,   2,  150994945) /* MotionTable */
-     , (25961,   3,  536870913) /* SoundTable */
-     , (25961,   4,  805306368) /* CombatTable */
-     , (25961,   8,  100667446) /* Icon */
-     , (25961,  22,  872415236) /* PhysicsEffectTable */
+VALUES (25961,   1, 0x02000001) /* Setup */
+     , (25961,   2, 0x09000001) /* MotionTable */
+     , (25961,   3, 0x20000001) /* SoundTable */
+     , (25961,   4, 0x30000000) /* CombatTable */
+     , (25961,   8, 0x06001036) /* Icon */
+     , (25961,  22, 0x34000004) /* PhysicsEffectTable */
      , (25961,  32,        222) /* WieldedTreasureType - 
                                    Wield Yumi (23736) | Probability: 50%
                                    Wield 20x Greater Arrow (5304) | Probability: 100%

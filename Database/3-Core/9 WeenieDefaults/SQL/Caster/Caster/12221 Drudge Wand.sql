@@ -31,8 +31,8 @@ VALUES (12221,   1, 'Drudge Wand') /* Name */
      , (12221,  16, 'A wand with a shrunken drudge head on it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12221,   1,   33557369) /* Setup */
-     , (12221,   3,  536870932) /* SoundTable */
-     , (12221,   8,  100672179) /* Icon */
-     , (12221,  22,  872415275) /* PhysicsEffectTable */
-     , (12221,  36,  234881046) /* MutateFilter */;
+VALUES (12221,   1, 0x02000B79) /* Setup */
+     , (12221,   3, 0x20000014) /* SoundTable */
+     , (12221,   8, 0x060022B3) /* Icon */
+     , (12221,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (12221,  36, 0x0E000016) /* MutateFilter */;

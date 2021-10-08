@@ -48,13 +48,13 @@ VALUES (7566,   1, 'Ravenous Dagger') /* Name */
      , (7566,  16, 'A dagger crafted from pure chorizite, imbued with powerful magic, but resistant to further enchantment. (Note: This weapon is unenchantable.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7566,   1,   33556656) /* Setup */
-     , (7566,   3,  536870932) /* SoundTable */
-     , (7566,   6,   67111919) /* PaletteBase */
-     , (7566,   7,  268435783) /* ClothingBase */
-     , (7566,   8,  100668875) /* Icon */
-     , (7566,  22,  872415275) /* PhysicsEffectTable */
-     , (7566,  36,  234881044) /* MutateFilter */
+VALUES (7566,   1, 0x020008B0) /* Setup */
+     , (7566,   3, 0x20000014) /* SoundTable */
+     , (7566,   6, 0x04000BEF) /* PaletteBase */
+     , (7566,   7, 0x10000147) /* ClothingBase */
+     , (7566,   8, 0x060015CB) /* Icon */
+     , (7566,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (7566,  36, 0x0E000014) /* MutateFilter */
      , (7566,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

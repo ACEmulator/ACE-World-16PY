@@ -22,5 +22,5 @@ VALUES (6864,   1, 'Ayan Baqur: 2 miles ') /* Name */
      , (6864,  16, 'Town of Ayan Baqur: 2 miles.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6864,   1,   33555088) /* Setup */
-     , (6864,   8,  100668115) /* Icon */;
+VALUES (6864,   1, 0x02000290) /* Setup */
+     , (6864,   8, 0x060012D3) /* Icon */;

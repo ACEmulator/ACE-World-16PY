@@ -38,9 +38,9 @@ VALUES (30351,   1, 'Dragonspine Bow') /* Name */
      , (30351,  16, 'Describe me here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30351,   1,   33554728) /* Setup */
-     , (30351,   3,  536870932) /* SoundTable */
-     , (30351,   6,   67111919) /* PaletteBase */
-     , (30351,   7,  268435759) /* ClothingBase */
-     , (30351,   8,  100668815) /* Icon */
-     , (30351,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30351,   1, 0x02000128) /* Setup */
+     , (30351,   3, 0x20000014) /* SoundTable */
+     , (30351,   6, 0x04000BEF) /* PaletteBase */
+     , (30351,   7, 0x1000012F) /* ClothingBase */
+     , (30351,   8, 0x0600158F) /* Icon */
+     , (30351,  22, 0x3400002B) /* PhysicsEffectTable */;

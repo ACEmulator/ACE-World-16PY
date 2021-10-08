@@ -38,11 +38,11 @@ VALUES (8210,   1, 'Armory Chest') /* Name */
      , (8210,  15, 'An old chest, overgrown with moss. The lock is broken, and it looks like was opened and picked over long ago.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8210,   1,   33554556) /* Setup */
-     , (8210,   2,  150994948) /* MotionTable */
-     , (8210,   3,  536870945) /* SoundTable */
-     , (8210,   8,  100667424) /* Icon */
-     , (8210,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8210,   1, 0x0200007C) /* Setup */
+     , (8210,   2, 0x09000004) /* MotionTable */
+     , (8210,   3, 0x20000021) /* SoundTable */
+     , (8210,   8, 0x06001020) /* Icon */
+     , (8210,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8210, -1, 8208, 1000, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Forgotten Text (8208) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11061,   1, 'Olthoi Worker') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11061,   1,   33557164) /* Setup */
-     , (11061,   2,  150994946) /* MotionTable */
-     , (11061,   3,  536870925) /* SoundTable */
-     , (11061,   4,  805306369) /* CombatTable */
-     , (11061,   6,   67113236) /* PaletteBase */
-     , (11061,   7,  268436196) /* ClothingBase */
-     , (11061,   8,  100667623) /* Icon */
-     , (11061,  22,  872415265) /* PhysicsEffectTable */
+VALUES (11061,   1, 0x02000AAC) /* Setup */
+     , (11061,   2, 0x09000002) /* MotionTable */
+     , (11061,   3, 0x2000000D) /* SoundTable */
+     , (11061,   4, 0x30000001) /* CombatTable */
+     , (11061,   6, 0x04001114) /* PaletteBase */
+     , (11061,   7, 0x100002E4) /* ClothingBase */
+     , (11061,   8, 0x060010E7) /* Icon */
+     , (11061,  22, 0x34000021) /* PhysicsEffectTable */
      , (11061,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

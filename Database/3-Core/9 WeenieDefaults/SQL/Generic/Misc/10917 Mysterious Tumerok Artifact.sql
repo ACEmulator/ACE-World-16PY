@@ -26,7 +26,7 @@ VALUES (10917,   1, 'Mysterious Tumerok Artifact') /* Name */
      , (10917,  33, 'BoyGrubTookPah') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10917,   1,   33558335) /* Setup */
-     , (10917,   3,  536870932) /* SoundTable */
-     , (10917,   8,  100674300) /* Icon */
-     , (10917,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (10917,   1, 0x02000F3F) /* Setup */
+     , (10917,   3, 0x20000014) /* SoundTable */
+     , (10917,   8, 0x06002AFC) /* Icon */
+     , (10917,  22, 0x3400002B) /* PhysicsEffectTable */;

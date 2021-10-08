@@ -39,11 +39,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25654,   1, 'Platemail Gauntlets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25654,   1,   33554648) /* Setup */
-     , (25654,   3,  536870932) /* SoundTable */
-     , (25654,   6,   67108990) /* PaletteBase */
-     , (25654,   7,  268435473) /* ClothingBase */
-     , (25654,   8,  100667341) /* Icon */
-     , (25654,  22,  872415275) /* PhysicsEffectTable */
-     , (25654,  36,  234881042) /* MutateFilter */
-     , (25654,  46,  939524146) /* TsysMutationFilter */;
+VALUES (25654,   1, 0x020000D8) /* Setup */
+     , (25654,   3, 0x20000014) /* SoundTable */
+     , (25654,   6, 0x0400007E) /* PaletteBase */
+     , (25654,   7, 0x10000011) /* ClothingBase */
+     , (25654,   8, 0x06000FCD) /* Icon */
+     , (25654,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (25654,  36, 0x0E000012) /* MutateFilter */
+     , (25654,  46, 0x38000032) /* TsysMutationFilter */;

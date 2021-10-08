@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7813,   1, 'Portal to Major Sparking Stone') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7813,   1,   33554867) /* Setup */
-     , (7813,   2,  150994947) /* MotionTable */
-     , (7813,   8,  100667499) /* Icon */;
+VALUES (7813,   1, 0x020001B3) /* Setup */
+     , (7813,   2, 0x09000003) /* MotionTable */
+     , (7813,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7813, 2, 0x01190114, 110.9, -46, -78, -0.661312, 0, -0, -0.750111) /* Destination */

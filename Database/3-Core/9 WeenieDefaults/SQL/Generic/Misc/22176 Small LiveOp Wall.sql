@@ -20,5 +20,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22176,   1, 'Small LiveOp Wall') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22176,   1,   33557550) /* Setup */
-     , (22176,   8,  100667940) /* Icon */;
+VALUES (22176,   1, 0x02000C2E) /* Setup */
+     , (22176,   8, 0x06001224) /* Icon */;

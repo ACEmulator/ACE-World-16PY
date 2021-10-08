@@ -68,14 +68,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7983,   1, 'Bane Grievver') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7983,   1,   33556698) /* Setup */
-     , (7983,   2,  150995098) /* MotionTable */
-     , (7983,   3,  536871009) /* SoundTable */
-     , (7983,   4,  805306411) /* CombatTable */
-     , (7983,   6,   67112927) /* PaletteBase */
-     , (7983,   7,  268436038) /* ClothingBase */
-     , (7983,   8,  100670960) /* Icon */
-     , (7983,  22,  872415364) /* PhysicsEffectTable */
+VALUES (7983,   1, 0x020008DA) /* Setup */
+     , (7983,   2, 0x0900009A) /* MotionTable */
+     , (7983,   3, 0x20000061) /* SoundTable */
+     , (7983,   4, 0x3000002B) /* CombatTable */
+     , (7983,   6, 0x04000FDF) /* PaletteBase */
+     , (7983,   7, 0x10000246) /* ClothingBase */
+     , (7983,   8, 0x06001DF0) /* Icon */
+     , (7983,  22, 0x34000084) /* PhysicsEffectTable */
      , (7983,  30,         86) /* PhysicsScript - BreatheAcid */
      , (7983,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 

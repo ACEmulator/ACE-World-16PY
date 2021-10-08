@@ -62,12 +62,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5656,   1, 'Lord Kelannik') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5656,   1,   33555464) /* Setup */
-     , (5656,   2,  150994981) /* MotionTable */
-     , (5656,   3,  536870942) /* SoundTable */
-     , (5656,   4,  805306368) /* CombatTable */
-     , (5656,   8,  100669124) /* Icon */
-     , (5656,  22,  872415269) /* PhysicsEffectTable */
+VALUES (5656,   1, 0x02000408) /* Setup */
+     , (5656,   2, 0x09000025) /* MotionTable */
+     , (5656,   3, 0x2000001E) /* SoundTable */
+     , (5656,   4, 0x30000000) /* CombatTable */
+     , (5656,   8, 0x060016C4) /* Icon */
+     , (5656,  22, 0x34000025) /* PhysicsEffectTable */
      , (5656,  35,         22) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -44,13 +44,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8753,   1, 'A Society Yumi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8753,   1,   33554728) /* Setup */
-     , (8753,   3,  536870932) /* SoundTable */
-     , (8753,   6,   67111919) /* PaletteBase */
-     , (8753,   7,  268435759) /* ClothingBase */
-     , (8753,   8,  100668815) /* Icon */
-     , (8753,  22,  872415275) /* PhysicsEffectTable */
-     , (8753,  50,  100675463) /* IconOverlay */;
+VALUES (8753,   1, 0x02000128) /* Setup */
+     , (8753,   3, 0x20000014) /* SoundTable */
+     , (8753,   6, 0x04000BEF) /* PaletteBase */
+     , (8753,   7, 0x1000012F) /* ClothingBase */
+     , (8753,   8, 0x0600158F) /* Icon */
+     , (8753,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8753,  50, 0x06002F87) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8753,  1612,      2)  /* Aura of Blood Drinker Self II */

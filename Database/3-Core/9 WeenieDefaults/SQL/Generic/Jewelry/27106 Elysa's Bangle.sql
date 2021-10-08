@@ -35,13 +35,13 @@ VALUES (27106,   1, 'Elysa''s Bangle') /* Name */
      , (27106,  16, 'This bracelet is gifted for your service to the Queen. The information you gathered to obtain this bracelet will prove invaluable.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27106,   1,   33554683) /* Setup */
-     , (27106,   3,  536870932) /* SoundTable */
-     , (27106,   6,   67111919) /* PaletteBase */
-     , (27106,   7,  268436286) /* ClothingBase */
-     , (27106,   8,  100675929) /* Icon */
-     , (27106,  22,  872415275) /* PhysicsEffectTable */
-     , (27106,  36,  234881046) /* MutateFilter */;
+VALUES (27106,   1, 0x020000FB) /* Setup */
+     , (27106,   3, 0x20000014) /* SoundTable */
+     , (27106,   6, 0x04000BEF) /* PaletteBase */
+     , (27106,   7, 0x1000033E) /* ClothingBase */
+     , (27106,   8, 0x06003159) /* Icon */
+     , (27106,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27106,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27106,   271,      2)  /* Magic Resistance Other IV */;

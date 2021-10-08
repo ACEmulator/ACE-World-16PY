@@ -24,7 +24,7 @@ VALUES (20414,   1, 'Scroll of Gelidite''s Bane') /* Name */
      , (20414,  15, 'When learned, this spell increases a shield or piece of armor''s resistance to cold damage by 170%.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20414,   1,   33554826) /* Setup */
-     , (20414,   8,  100676652) /* Icon */
-     , (20414,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20414,   1, 0x0200018A) /* Setup */
+     , (20414,   8, 0x0600342C) /* Icon */
+     , (20414,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20414,  28,       2104) /* Spell - Gelidite's Bane */;

@@ -23,10 +23,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4994,   1, 'Parchment') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4994,   1,   33554773) /* Setup */
-     , (4994,   3,  536870932) /* SoundTable */
-     , (4994,   8,  100667470) /* Icon */
-     , (4994,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4994,   1, 0x02000155) /* Setup */
+     , (4994,   3, 0x20000014) /* SoundTable */
+     , (4994,   8, 0x0600104E) /* Icon */
+     , (4994,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (4994, 3, 2000);

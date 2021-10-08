@@ -26,9 +26,9 @@ VALUES (25561,   1, 'Moarsman Head') /* Name */
      , (25561,  16, 'A stinking Moarsman''s head. It smells of a rotting fish and seaweed.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25561,   1,   33556823) /* Setup */
-     , (25561,   3,  536870932) /* SoundTable */
-     , (25561,   6,   67112872) /* PaletteBase */
-     , (25561,   7,  268436684) /* ClothingBase */
-     , (25561,   8,  100674949) /* Icon */
-     , (25561,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25561,   1, 0x02000957) /* Setup */
+     , (25561,   3, 0x20000014) /* SoundTable */
+     , (25561,   6, 0x04000FA8) /* PaletteBase */
+     , (25561,   7, 0x100004CC) /* ClothingBase */
+     , (25561,   8, 0x06002D85) /* Icon */
+     , (25561,  22, 0x3400002B) /* PhysicsEffectTable */;

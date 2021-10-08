@@ -45,12 +45,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31110,   1, 'Lightning Broad Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31110,   1,   33555807) /* Setup */
-     , (31110,   3,  536870932) /* SoundTable */
-     , (31110,   6,   67111919) /* PaletteBase */
-     , (31110,   7,  268435770) /* ClothingBase */
-     , (31110,   8,  100669015) /* Icon */
-     , (31110,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31110,   1, 0x0200055F) /* Setup */
+     , (31110,   3, 0x20000014) /* SoundTable */
+     , (31110,   6, 0x04000BEF) /* PaletteBase */
+     , (31110,   7, 0x1000013A) /* ClothingBase */
+     , (31110,   8, 0x06001657) /* Icon */
+     , (31110,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31110,  1605,      2)  /* Aura of Defender Self VI */

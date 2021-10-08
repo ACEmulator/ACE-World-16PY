@@ -28,10 +28,10 @@ VALUES (9581,   1, 'Cooking Skill Puzzle Piece') /* Name */
      , (9581,  16, 'A Cooking skill puzzle piece.  Combine it with a Skill Puzzle Base Piece.  This item requires Cooking skill to assemble.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9581,   1,   33554669) /* Setup */
-     , (9581,   3,  536870932) /* SoundTable */
-     , (9581,   6,   67111928) /* PaletteBase */
-     , (9581,   7,  268436178) /* ClothingBase */
-     , (9581,   8,  100671539) /* Icon */
-     , (9581,  22,  872415275) /* PhysicsEffectTable */
-     , (9581,  36,  234881046) /* MutateFilter */;
+VALUES (9581,   1, 0x020000ED) /* Setup */
+     , (9581,   3, 0x20000014) /* SoundTable */
+     , (9581,   6, 0x04000BF8) /* PaletteBase */
+     , (9581,   7, 0x100002D2) /* ClothingBase */
+     , (9581,   8, 0x06002033) /* Icon */
+     , (9581,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (9581,  36, 0x0E000016) /* MutateFilter */;

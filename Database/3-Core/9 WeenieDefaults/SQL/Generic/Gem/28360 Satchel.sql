@@ -29,9 +29,9 @@ VALUES (28360,   1, 'Satchel') /* Name */
      , (28360,  15, 'A satchel with a single bone in it.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28360,   1,   33554817) /* Setup */
-     , (28360,   3,  536870932) /* SoundTable */
-     , (28360,   6,   67111092) /* PaletteBase */
-     , (28360,   7,  268436400) /* ClothingBase */
-     , (28360,   8,  100675778) /* Icon */
-     , (28360,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28360,   1, 0x02000181) /* Setup */
+     , (28360,   3, 0x20000014) /* SoundTable */
+     , (28360,   6, 0x040008B4) /* PaletteBase */
+     , (28360,   7, 0x100003B0) /* ClothingBase */
+     , (28360,   8, 0x060030C2) /* Icon */
+     , (28360,  22, 0x3400002B) /* PhysicsEffectTable */;

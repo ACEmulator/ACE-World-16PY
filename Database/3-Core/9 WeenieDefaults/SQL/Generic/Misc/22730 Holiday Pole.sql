@@ -23,5 +23,5 @@ VALUES (22730,   1, 'Holiday Pole') /* Name */
      , (22730,  15, 'A metal pole for the Holiday Season.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22730,   1,   33558135) /* Setup */
-     , (22730,   8,  100669112) /* Icon */;
+VALUES (22730,   1, 0x02000E77) /* Setup */
+     , (22730,   8, 0x060016B8) /* Icon */;

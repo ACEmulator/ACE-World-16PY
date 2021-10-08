@@ -26,7 +26,7 @@ VALUES (30543,   1, 'Cove Apple Baking Pan') /* Name */
      , (30543,  33, 'YaraqBakingPanCoveApple1204') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30543,   1,   33555969) /* Setup */
-     , (30543,   3,  536870932) /* SoundTable */
-     , (30543,   8,  100669993) /* Icon */
-     , (30543,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30543,   1, 0x02000601) /* Setup */
+     , (30543,   3, 0x20000014) /* SoundTable */
+     , (30543,   8, 0x06001A29) /* Icon */
+     , (30543,  22, 0x3400002B) /* PhysicsEffectTable */;

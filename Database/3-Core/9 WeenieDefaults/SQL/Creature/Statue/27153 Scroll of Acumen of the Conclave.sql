@@ -63,12 +63,12 @@ VALUES (27153,   1, 'Scroll of Acumen of the Conclave') /* Name */
      , (27153,  15, 'This scroll appears to have a spell to enhance the Focus of a fellowship etched upon the flesh-like paper.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27153,   1,   33558637) /* Setup */
-     , (27153,   2,  150995273) /* MotionTable */
-     , (27153,   3,  536871052) /* SoundTable */
-     , (27153,   4,  805306398) /* CombatTable */
-     , (27153,   8,  100675919) /* Icon */
-     , (27153,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (27153,   1, 0x0200106D) /* Setup */
+     , (27153,   2, 0x09000149) /* MotionTable */
+     , (27153,   3, 0x2000008C) /* SoundTable */
+     , (27153,   4, 0x3000001E) /* CombatTable */
+     , (27153,   8, 0x0600314F) /* Icon */
+     , (27153,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27153,   1, 380, 0, 0) /* Strength */

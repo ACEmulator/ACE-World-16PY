@@ -28,9 +28,9 @@ VALUES (9127,   1, 'Glowing Mosswart Shroud') /* Name */
      , (9127,  15, 'If you desire the pretty diamonds, then give this to my servant.  He is no longer an efficient observer, but he will do what I tell him to.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9127,   1,   33554817) /* Setup */
-     , (9127,   3,  536870932) /* SoundTable */
-     , (9127,   6,   67111919) /* PaletteBase */
-     , (9127,   7,  268435832) /* ClothingBase */
-     , (9127,   8,  100671377) /* Icon */
-     , (9127,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9127,   1, 0x02000181) /* Setup */
+     , (9127,   3, 0x20000014) /* SoundTable */
+     , (9127,   6, 0x04000BEF) /* PaletteBase */
+     , (9127,   7, 0x10000178) /* ClothingBase */
+     , (9127,   8, 0x06001F91) /* Icon */
+     , (9127,  22, 0x3400002B) /* PhysicsEffectTable */;

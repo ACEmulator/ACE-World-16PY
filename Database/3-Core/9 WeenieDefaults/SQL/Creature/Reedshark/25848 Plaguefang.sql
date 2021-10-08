@@ -61,14 +61,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25848,   1, 'Plaguefang') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25848,   1,   33554489) /* Setup */
-     , (25848,   2,  150994970) /* MotionTable */
-     , (25848,   3,  536870928) /* SoundTable */
-     , (25848,   4,  805306378) /* CombatTable */
-     , (25848,   6,   67109313) /* PaletteBase */
-     , (25848,   7,  268436731) /* ClothingBase */
-     , (25848,   8,  100667939) /* Icon */
-     , (25848,  22,  872415268) /* PhysicsEffectTable */
+VALUES (25848,   1, 0x02000039) /* Setup */
+     , (25848,   2, 0x0900001A) /* MotionTable */
+     , (25848,   3, 0x20000010) /* SoundTable */
+     , (25848,   4, 0x3000000A) /* CombatTable */
+     , (25848,   6, 0x040001C1) /* PaletteBase */
+     , (25848,   7, 0x100004FB) /* ClothingBase */
+     , (25848,   8, 0x06001223) /* Icon */
+     , (25848,  22, 0x34000024) /* PhysicsEffectTable */
      , (25848,  35,         32) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

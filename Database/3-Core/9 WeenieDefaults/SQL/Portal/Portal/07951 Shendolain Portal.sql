@@ -26,9 +26,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7951,   1, 'Shendolain Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7951,   1,   33555924) /* Setup */
-     , (7951,   2,  150994947) /* MotionTable */
-     , (7951,   8,  100667499) /* Icon */;
+VALUES (7951,   1, 0x020005D4) /* Setup */
+     , (7951,   2, 0x09000003) /* MotionTable */
+     , (7951,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7951, 2, 0x02D70247, 30, -30, -42, 0.382683, 0, 0, -0.92388) /* Destination */

@@ -64,11 +64,11 @@ VALUES (28979,   1, 'Camryn, Nuhmudira''s Student') /* Name */
      , (28979,   5, 'Nuhmudira''s Student') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28979,   1,   33554433) /* Setup */
-     , (28979,   2,  150994945) /* MotionTable */
-     , (28979,   3,  536870913) /* SoundTable */
-     , (28979,   4,  805306368) /* CombatTable */
-     , (28979,   8,  100667446) /* Icon */;
+VALUES (28979,   1, 0x02000001) /* Setup */
+     , (28979,   2, 0x09000001) /* MotionTable */
+     , (28979,   3, 0x20000001) /* SoundTable */
+     , (28979,   4, 0x30000000) /* CombatTable */
+     , (28979,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28979,   1, 200, 0, 0) /* Strength */

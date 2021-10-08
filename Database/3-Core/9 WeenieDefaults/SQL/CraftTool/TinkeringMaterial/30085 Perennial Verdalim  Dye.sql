@@ -30,10 +30,10 @@ VALUES (30085,   1, 'Perennial Verdalim  Dye') /* Name */
      , (30085,  16, 'A lovely template for a rare.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30085,   1,   33554817) /* Setup */
-     , (30085,   3,  536870932) /* SoundTable */
-     , (30085,   6,   67111919) /* PaletteBase */
-     , (30085,   7,  268436430) /* ClothingBase */
-     , (30085,   8,  100667436) /* Icon */
-     , (30085,  22,  872415275) /* PhysicsEffectTable */
-     , (30085,  50,  100673260) /* IconOverlay */;
+VALUES (30085,   1, 0x02000181) /* Setup */
+     , (30085,   3, 0x20000014) /* SoundTable */
+     , (30085,   6, 0x04000BEF) /* PaletteBase */
+     , (30085,   7, 0x100003CE) /* ClothingBase */
+     , (30085,   8, 0x0600102C) /* Icon */
+     , (30085,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30085,  50, 0x060026EC) /* IconOverlay */;

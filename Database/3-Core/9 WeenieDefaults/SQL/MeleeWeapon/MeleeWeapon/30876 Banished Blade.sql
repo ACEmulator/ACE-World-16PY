@@ -44,10 +44,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30876,   1, 'Banished Blade') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30876,   1,   33559255) /* Setup */
-     , (30876,   3,  536870932) /* SoundTable */
-     , (30876,   8,  100677479) /* Icon */
-     , (30876,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30876,   1, 0x020012D7) /* Setup */
+     , (30876,   3, 0x20000014) /* SoundTable */
+     , (30876,   8, 0x06003767) /* Icon */
+     , (30876,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30876,  2566,      2)  /* Minor Heavy Weapon Aptitude */

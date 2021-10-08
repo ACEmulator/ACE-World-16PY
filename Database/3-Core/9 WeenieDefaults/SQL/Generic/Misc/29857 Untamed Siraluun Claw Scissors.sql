@@ -28,7 +28,7 @@ VALUES (29857,   1, 'Untamed Siraluun Claw Scissors') /* Name */
      , (29857,  16, 'A pair of scissors made from the claw of an Untamed Siraluun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29857,   1,   33554817) /* Setup */
-     , (29857,   6,   67111919) /* PaletteBase */
-     , (29857,   7,  268435832) /* ClothingBase */
-     , (29857,   8,  100677317) /* Icon */;
+VALUES (29857,   1, 0x02000181) /* Setup */
+     , (29857,   6, 0x04000BEF) /* PaletteBase */
+     , (29857,   7, 0x10000178) /* ClothingBase */
+     , (29857,   8, 0x060036C5) /* Icon */;

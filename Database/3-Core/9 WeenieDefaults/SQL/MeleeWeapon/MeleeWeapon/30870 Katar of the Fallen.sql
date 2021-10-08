@@ -45,10 +45,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30870,   1, 'Katar of the Fallen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30870,   1,   33559270) /* Setup */
-     , (30870,   3,  536870932) /* SoundTable */
-     , (30870,   8,  100677504) /* Icon */
-     , (30870,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30870,   1, 0x020012E6) /* Setup */
+     , (30870,   3, 0x20000014) /* SoundTable */
+     , (30870,   8, 0x06003780) /* Icon */
+     , (30870,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30870,  2696,      2)  /* Moderate Light Weapon Aptitude */

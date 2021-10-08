@@ -63,11 +63,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28055,   1, 'Spectral Wisp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28055,   1,   33558820) /* Setup */
-     , (28055,   2,  150995087) /* MotionTable */
-     , (28055,   3,  536870985) /* SoundTable */
-     , (28055,   4,  805306368) /* CombatTable */
-     , (28055,   8,  100671683) /* Icon */
+VALUES (28055,   1, 0x02001124) /* Setup */
+     , (28055,   2, 0x0900008F) /* MotionTable */
+     , (28055,   3, 0x20000049) /* SoundTable */
+     , (28055,   4, 0x30000000) /* CombatTable */
+     , (28055,   8, 0x060020C3) /* Icon */
      , (28055,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -22,5 +22,5 @@ VALUES (1909,   1, 'Uziz: 1/2 mile') /* Name */
      , (1909,  16, 'Town of Uziz: 1/2 mile.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1909,   1,   33555088) /* Setup */
-     , (1909,   8,  100668115) /* Icon */;
+VALUES (1909,   1, 0x02000290) /* Setup */
+     , (1909,   8, 0x060012D3) /* Icon */;

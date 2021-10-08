@@ -22,5 +22,5 @@ VALUES (276,   1, 'Desk') /* Name */
      , (276,  15, 'This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (276,   1,   33555058) /* Setup */
-     , (276,   8,  100671773) /* Icon */;
+VALUES (276,   1, 0x02000272) /* Setup */
+     , (276,   8, 0x0600211D) /* Icon */;

@@ -44,13 +44,13 @@ VALUES (27301,   1, 'Forbidden Chest') /* Name */
      , (27301,  16, 'A blood red chest.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27301,   1,   33558685) /* Setup */
-     , (27301,   2,  150994948) /* MotionTable */
-     , (27301,   3,  536870945) /* SoundTable */
-     , (27301,   6,   67113173) /* PaletteBase */
-     , (27301,   7,  268436160) /* ClothingBase */
-     , (27301,   8,  100676388) /* Icon */
-     , (27301,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27301,   1, 0x0200109D) /* Setup */
+     , (27301,   2, 0x09000004) /* MotionTable */
+     , (27301,   3, 0x20000021) /* SoundTable */
+     , (27301,   6, 0x040010D5) /* PaletteBase */
+     , (27301,   7, 0x100002C0) /* ClothingBase */
+     , (27301,   8, 0x06003324) /* Icon */
+     , (27301,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27301, 1, 421, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 6 from Death Treasure Table id: 421 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;

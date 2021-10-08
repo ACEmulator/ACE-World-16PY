@@ -30,10 +30,10 @@ VALUES (30159,   1, 'Hieroglyph of Mana Conversion Mastery') /* Name */
      , (30159,  16, 'A lovely template for a rare magical gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30159,   1,   33554809) /* Setup */
-     , (30159,   3,  536870932) /* SoundTable */
-     , (30159,   6,   67111919) /* PaletteBase */
-     , (30159,   7,  268435723) /* ClothingBase */
-     , (30159,   8,  100674739) /* Icon */
-     , (30159,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30159,   1, 0x02000179) /* Setup */
+     , (30159,   3, 0x20000014) /* SoundTable */
+     , (30159,   6, 0x04000BEF) /* PaletteBase */
+     , (30159,   7, 0x1000010B) /* ClothingBase */
+     , (30159,   8, 0x06002CB3) /* Icon */
+     , (30159,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30159,  28,       2287) /* Spell - Nuhmudira's Blessing */;

@@ -25,7 +25,7 @@ VALUES (2921,   1, 'Scroll of Blade Volley VI') /* Name */
      , (2921,  16, 'When learned, this spell shoots three whirling blades toward the target. Each blade does 21-40 points of Slashing damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2921,   1,   33554826) /* Setup */
-     , (2921,   8,  100677028) /* Icon */
-     , (2921,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2921,   1, 0x0200018A) /* Setup */
+     , (2921,   8, 0x060035A4) /* Icon */
+     , (2921,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2921,  28,        154) /* Spell - Blade Volley VI */;

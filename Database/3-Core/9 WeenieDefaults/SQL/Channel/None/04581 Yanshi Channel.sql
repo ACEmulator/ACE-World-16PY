@@ -18,7 +18,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4581,   1, 'Yanshi Channel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4581,   1,   33555579) /* Setup */
-     , (4581,   6,   67109300) /* PaletteBase */
-     , (4581,   7,  268435725) /* ClothingBase */
-     , (4581,   8,  100669116) /* Icon */;
+VALUES (4581,   1, 0x0200047B) /* Setup */
+     , (4581,   6, 0x040001B4) /* PaletteBase */
+     , (4581,   7, 0x1000010D) /* ClothingBase */
+     , (4581,   8, 0x060016BC) /* Icon */;

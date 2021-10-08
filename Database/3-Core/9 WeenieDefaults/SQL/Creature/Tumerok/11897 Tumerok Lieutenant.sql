@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11897,   1, 'Tumerok Lieutenant') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11897,   1,   33554496) /* Setup */
-     , (11897,   2,  150994954) /* MotionTable */
-     , (11897,   3,  536870931) /* SoundTable */
-     , (11897,   4,  805306380) /* CombatTable */
-     , (11897,   6,   67109314) /* PaletteBase */
-     , (11897,   7,  268435647) /* ClothingBase */
-     , (11897,   8,  100667452) /* Icon */
-     , (11897,  22,  872415270) /* PhysicsEffectTable */
+VALUES (11897,   1, 0x02000040) /* Setup */
+     , (11897,   2, 0x0900000A) /* MotionTable */
+     , (11897,   3, 0x20000013) /* SoundTable */
+     , (11897,   4, 0x3000000C) /* CombatTable */
+     , (11897,   6, 0x040001C2) /* PaletteBase */
+     , (11897,   7, 0x100000BF) /* ClothingBase */
+     , (11897,   8, 0x0600103C) /* Icon */
+     , (11897,  22, 0x34000026) /* PhysicsEffectTable */
      , (11897,  32,        373) /* WieldedTreasureType - 
                                    Wield 5x Javelin (320) | Probability: 10%
                                    Wield 5x Djarid (317) | Probability: 10%

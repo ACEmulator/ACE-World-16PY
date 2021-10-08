@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27430,   1, 'Ward of the Retreat') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27430,   1,   33558541) /* Setup */
-     , (27430,   2,  150994967) /* MotionTable */
-     , (27430,   3,  536870934) /* SoundTable */
-     , (27430,   4,  805306368) /* CombatTable */
-     , (27430,   6,   67114692) /* PaletteBase */
-     , (27430,   7,  268436726) /* ClothingBase */
-     , (27430,   8,  100667942) /* Icon */
-     , (27430,  22,  872415272) /* PhysicsEffectTable */
+VALUES (27430,   1, 0x0200100D) /* Setup */
+     , (27430,   2, 0x09000017) /* MotionTable */
+     , (27430,   3, 0x20000016) /* SoundTable */
+     , (27430,   4, 0x30000000) /* CombatTable */
+     , (27430,   6, 0x040016C4) /* PaletteBase */
+     , (27430,   7, 0x100004F6) /* ClothingBase */
+     , (27430,   8, 0x06001226) /* Icon */
+     , (27430,  22, 0x34000028) /* PhysicsEffectTable */
      , (27430,  32,        199) /* WieldedTreasureType - 
                                    Wield Yumi (23733) | Probability: 6%
                                    Wield 20x Deadly Armor Piercing Arrow (15431) | Probability: 100%

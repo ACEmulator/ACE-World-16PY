@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24937,   1, 'Chicken') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24937,   1,   33555874) /* Setup */
-     , (24937,   2,  150995244) /* MotionTable */
-     , (24937,   3,  536871071) /* SoundTable */
-     , (24937,   4,  805306423) /* CombatTable */
-     , (24937,   6,   67114447) /* PaletteBase */
-     , (24937,   7,  268436660) /* ClothingBase */
-     , (24937,   8,  100674625) /* Icon */
-     , (24937,  22,  872415397) /* PhysicsEffectTable */;
+VALUES (24937,   1, 0x020005A2) /* Setup */
+     , (24937,   2, 0x0900012C) /* MotionTable */
+     , (24937,   3, 0x2000009F) /* SoundTable */
+     , (24937,   4, 0x30000037) /* CombatTable */
+     , (24937,   6, 0x040015CF) /* PaletteBase */
+     , (24937,   7, 0x100004B4) /* ClothingBase */
+     , (24937,   8, 0x06002C41) /* Icon */
+     , (24937,  22, 0x340000A5) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24937,   1,   5, 0, 0) /* Strength */

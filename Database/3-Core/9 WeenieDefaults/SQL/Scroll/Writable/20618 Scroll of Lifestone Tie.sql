@@ -24,7 +24,7 @@ VALUES (20618,   1, 'Scroll of Lifestone Tie') /* Name */
      , (20618,  15, 'When learned, this spell links the caster to a targeted Lifestone.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20618,   1,   33554826) /* Setup */
-     , (20618,   8,  100676673) /* Icon */
-     , (20618,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20618,   1, 0x0200018A) /* Setup */
+     , (20618,   8, 0x06003441) /* Icon */
+     , (20618,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20618,  28,       2644) /* Spell - Lifestone Tie */;

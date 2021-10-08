@@ -37,10 +37,10 @@ VALUES (27769,   1, 'Beholding Adjanite Gem') /* Name */
      , (27769,  15, 'A green portal gem surrounded by a clasp, held by an amethyst cradle and adorned with a sparkling cluster of aquamarine.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27769,   1,   33558811) /* Setup */
-     , (27769,   3,  536870932) /* SoundTable */
-     , (27769,   8,  100676635) /* Icon */
-     , (27769,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27769,   1, 0x0200111B) /* Setup */
+     , (27769,   3, 0x20000014) /* SoundTable */
+     , (27769,   8, 0x0600341B) /* Icon */
+     , (27769,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27769,  28,        157) /* Spell - Summon Primary Portal I */
      , (27769,  31,      27778) /* LinkedPortalOne - Sunken Mere */
-     , (27769,  36,  234881046) /* MutateFilter */;
+     , (27769,  36, 0x0E000016) /* MutateFilter */;

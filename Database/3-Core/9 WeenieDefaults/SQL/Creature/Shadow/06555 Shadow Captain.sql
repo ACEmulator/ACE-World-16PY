@@ -69,14 +69,14 @@ VALUES (6555,   1, 'Shadow Captain') /* Name */
      , (6555,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6555,   1,   33556251) /* Setup */
-     , (6555,   2,  150995091) /* MotionTable */
-     , (6555,   3,  536870914) /* SoundTable */
-     , (6555,   4,  805306368) /* CombatTable */
-     , (6555,   6,   67108990) /* PaletteBase */
-     , (6555,   7,  268435871) /* ClothingBase */
-     , (6555,   8,  100670398) /* Icon */
-     , (6555,  22,  872415331) /* PhysicsEffectTable */;
+VALUES (6555,   1, 0x0200071B) /* Setup */
+     , (6555,   2, 0x09000093) /* MotionTable */
+     , (6555,   3, 0x20000002) /* SoundTable */
+     , (6555,   4, 0x30000000) /* CombatTable */
+     , (6555,   6, 0x0400007E) /* PaletteBase */
+     , (6555,   7, 0x1000019F) /* ClothingBase */
+     , (6555,   8, 0x06001BBE) /* Icon */
+     , (6555,  22, 0x34000063) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6555,   1, 190, 0, 0) /* Strength */

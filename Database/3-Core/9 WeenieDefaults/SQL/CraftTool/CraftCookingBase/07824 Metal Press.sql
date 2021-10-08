@@ -29,7 +29,7 @@ VALUES (7824,   1, 'Metal Press') /* Name */
      , (7824,  15, 'A simple press, for pressing certain foods.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7824,   1,   33556681) /* Setup */
-     , (7824,   3,  536870932) /* SoundTable */
-     , (7824,   8,  100670879) /* Icon */
-     , (7824,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7824,   1, 0x020008C9) /* Setup */
+     , (7824,   3, 0x20000014) /* SoundTable */
+     , (7824,   8, 0x06001D9F) /* Icon */
+     , (7824,  22, 0x3400002B) /* PhysicsEffectTable */;

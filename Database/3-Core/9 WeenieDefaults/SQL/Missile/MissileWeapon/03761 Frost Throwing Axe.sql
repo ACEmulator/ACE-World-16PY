@@ -42,7 +42,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3761,   1, 'Frost Throwing Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3761,   1,   33555705) /* Setup */
-     , (3761,   3,  536870932) /* SoundTable */
-     , (3761,   8,  100667581) /* Icon */
-     , (3761,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3761,   1, 0x020004F9) /* Setup */
+     , (3761,   3, 0x20000014) /* SoundTable */
+     , (3761,   8, 0x060010BD) /* Icon */
+     , (3761,  22, 0x3400002B) /* PhysicsEffectTable */;

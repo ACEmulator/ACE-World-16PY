@@ -62,14 +62,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5595,   1, 'Drudge Skulker') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5595,   1,   33556445) /* Setup */
-     , (5595,   2,  150994952) /* MotionTable */
-     , (5595,   3,  536870919) /* SoundTable */
-     , (5595,   4,  805306372) /* CombatTable */
-     , (5595,   6,   67112812) /* PaletteBase */
-     , (5595,   7,  268435974) /* ClothingBase */
-     , (5595,   8,  100667445) /* Icon */
-     , (5595,  22,  872415258) /* PhysicsEffectTable */
+VALUES (5595,   1, 0x020007DD) /* Setup */
+     , (5595,   2, 0x09000008) /* MotionTable */
+     , (5595,   3, 0x20000007) /* SoundTable */
+     , (5595,   4, 0x30000004) /* CombatTable */
+     , (5595,   6, 0x04000F6C) /* PaletteBase */
+     , (5595,   7, 0x10000206) /* ClothingBase */
+     , (5595,   8, 0x06001035) /* Icon */
+     , (5595,  22, 0x3400001A) /* PhysicsEffectTable */
      , (5595,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

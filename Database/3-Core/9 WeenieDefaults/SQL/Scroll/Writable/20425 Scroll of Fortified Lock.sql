@@ -24,7 +24,7 @@ VALUES (20425,   1, 'Scroll of Fortified Lock') /* Name */
      , (20425,  15, 'When learned, this spell increases a lock''s resistance to picking by 200 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20425,   1,   33554826) /* Setup */
-     , (20425,   8,  100676678) /* Icon */
-     , (20425,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20425,   1, 0x0200018A) /* Setup */
+     , (20425,   8, 0x06003446) /* Icon */
+     , (20425,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20425,  28,       2115) /* Spell - Fortified Lock */;

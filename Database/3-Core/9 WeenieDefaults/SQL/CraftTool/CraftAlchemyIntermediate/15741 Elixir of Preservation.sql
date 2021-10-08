@@ -32,9 +32,9 @@ VALUES (15741,   1, 'Elixir of Preservation') /* Name */
      , (15741,  20, 'Elixirs of Preservation') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15741,   1,   33555965) /* Setup */
-     , (15741,   3,  536870932) /* SoundTable */
-     , (15741,   6,   67111919) /* PaletteBase */
-     , (15741,   7,  268435814) /* ClothingBase */
-     , (15741,   8,  100672780) /* Icon */
-     , (15741,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15741,   1, 0x020005FD) /* Setup */
+     , (15741,   3, 0x20000014) /* SoundTable */
+     , (15741,   6, 0x04000BEF) /* PaletteBase */
+     , (15741,   7, 0x10000166) /* ClothingBase */
+     , (15741,   8, 0x0600250C) /* Icon */
+     , (15741,  22, 0x3400002B) /* PhysicsEffectTable */;

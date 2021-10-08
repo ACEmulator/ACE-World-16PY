@@ -30,10 +30,10 @@ VALUES (30117,   1, 'Hieroglyph of Armor Tinkering Expertise') /* Name */
      , (30117,  16, 'A lovely template for a rare magical gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30117,   1,   33554809) /* Setup */
-     , (30117,   3,  536870932) /* SoundTable */
-     , (30117,   6,   67111919) /* PaletteBase */
-     , (30117,   7,  268435723) /* ClothingBase */
-     , (30117,   8,  100674739) /* Icon */
-     , (30117,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30117,   1, 0x02000179) /* Setup */
+     , (30117,   3, 0x20000014) /* SoundTable */
+     , (30117,   6, 0x04000BEF) /* PaletteBase */
+     , (30117,   7, 0x1000010B) /* ClothingBase */
+     , (30117,   8, 0x06002CB3) /* Icon */
+     , (30117,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30117,  28,       2197) /* Spell - Jibril's Blessing */;

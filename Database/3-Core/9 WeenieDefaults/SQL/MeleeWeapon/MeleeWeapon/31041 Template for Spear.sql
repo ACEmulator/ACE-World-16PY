@@ -36,11 +36,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31041,   1, 'Template for Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31041,   1,   33554756) /* Setup */
-     , (31041,   3,  536870932) /* SoundTable */
-     , (31041,   6,   67111919) /* PaletteBase */
-     , (31041,   7,  268435768) /* ClothingBase */
-     , (31041,   8,  100669005) /* Icon */
-     , (31041,  22,  872415275) /* PhysicsEffectTable */
-     , (31041,  36,  234881053) /* MutateFilter */
-     , (31041,  46,  939524100) /* TsysMutationFilter */;
+VALUES (31041,   1, 0x02000144) /* Setup */
+     , (31041,   3, 0x20000014) /* SoundTable */
+     , (31041,   6, 0x04000BEF) /* PaletteBase */
+     , (31041,   7, 0x10000138) /* ClothingBase */
+     , (31041,   8, 0x0600164D) /* Icon */
+     , (31041,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (31041,  36, 0x0E00001D) /* MutateFilter */
+     , (31041,  46, 0x38000004) /* TsysMutationFilter */;

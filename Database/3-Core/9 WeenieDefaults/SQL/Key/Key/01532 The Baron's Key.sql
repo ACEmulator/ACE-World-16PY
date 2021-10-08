@@ -26,7 +26,7 @@ VALUES (1532,   1, 'The Baron''s Key') /* Name */
      , (1532,  16, 'Using the Baron''s key, you can gain access to the ancient tunnels deep within Colier Mine.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1532,   1,   33554784) /* Setup */
-     , (1532,   3,  536870932) /* SoundTable */
-     , (1532,   8,  100667483) /* Icon */
-     , (1532,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1532,   1, 0x02000160) /* Setup */
+     , (1532,   3, 0x20000014) /* SoundTable */
+     , (1532,   8, 0x0600105B) /* Icon */
+     , (1532,  22, 0x3400002B) /* PhysicsEffectTable */;

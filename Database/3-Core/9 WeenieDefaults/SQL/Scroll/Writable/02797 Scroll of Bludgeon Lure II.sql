@@ -25,7 +25,7 @@ VALUES (2797,   1, 'Scroll of Bludgeon Lure II') /* Name */
      , (2797,  16, 'When learned, this spell decreases a shield or piece of armor''s resistance to Bludgeoning damage by 25%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2797,   1,   33554826) /* Setup */
-     , (2797,   8,  100676665) /* Icon */
-     , (2797,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2797,   1, 0x0200018A) /* Setup */
+     , (2797,   8, 0x06003439) /* Icon */
+     , (2797,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2797,  28,       1506) /* Spell - Bludgeon Lure II */;

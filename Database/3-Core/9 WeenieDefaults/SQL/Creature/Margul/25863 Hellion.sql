@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25863,   1, 'Hellion') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25863,   1,   33558554) /* Setup */
-     , (25863,   2,  150995263) /* MotionTable */
-     , (25863,   3,  536871080) /* SoundTable */
-     , (25863,   4,  805306426) /* CombatTable */
-     , (25863,   6,   67114728) /* PaletteBase */
-     , (25863,   7,  268436733) /* ClothingBase */
-     , (25863,   8,  100675661) /* Icon */
-     , (25863,  22,  872415401) /* PhysicsEffectTable */
+VALUES (25863,   1, 0x0200101A) /* Setup */
+     , (25863,   2, 0x0900013F) /* MotionTable */
+     , (25863,   3, 0x200000A8) /* SoundTable */
+     , (25863,   4, 0x3000003A) /* CombatTable */
+     , (25863,   6, 0x040016E8) /* PaletteBase */
+     , (25863,   7, 0x100004FD) /* ClothingBase */
+     , (25863,   8, 0x0600304D) /* Icon */
+     , (25863,  22, 0x340000A9) /* PhysicsEffectTable */
      , (25863,  30,         84) /* PhysicsScript - BreatheFlame */
      , (25863,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 

@@ -64,11 +64,11 @@ VALUES (9545,   1, 'Darsida al-Qawa') /* Name */
      , (9545,   5, 'Bestower Examiner') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9545,   1,   33554510) /* Setup */
-     , (9545,   2,  150994945) /* MotionTable */
-     , (9545,   3,  536870914) /* SoundTable */
-     , (9545,   4,  805306368) /* CombatTable */
-     , (9545,   8,  100667446) /* Icon */;
+VALUES (9545,   1, 0x0200004E) /* Setup */
+     , (9545,   2, 0x09000001) /* MotionTable */
+     , (9545,   3, 0x20000002) /* SoundTable */
+     , (9545,   4, 0x30000000) /* CombatTable */
+     , (9545,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9545,   1,  80, 0, 0) /* Strength */

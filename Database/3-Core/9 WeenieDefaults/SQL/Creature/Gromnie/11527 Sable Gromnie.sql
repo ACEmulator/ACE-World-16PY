@@ -61,14 +61,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11527,   1, 'Sable Gromnie') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11527,   1,   33554487) /* Setup */
-     , (11527,   2,  150994971) /* MotionTable */
-     , (11527,   3,  536870921) /* SoundTable */
-     , (11527,   4,  805306386) /* CombatTable */
-     , (11527,   6,   67109547) /* PaletteBase */
-     , (11527,   7,  268435631) /* ClothingBase */
-     , (11527,   8,  100667938) /* Icon */
-     , (11527,  22,  872415260) /* PhysicsEffectTable */
+VALUES (11527,   1, 0x02000037) /* Setup */
+     , (11527,   2, 0x0900001B) /* MotionTable */
+     , (11527,   3, 0x20000009) /* SoundTable */
+     , (11527,   4, 0x30000012) /* CombatTable */
+     , (11527,   6, 0x040002AB) /* PaletteBase */
+     , (11527,   7, 0x100000AF) /* ClothingBase */
+     , (11527,   8, 0x06001222) /* Icon */
+     , (11527,  22, 0x3400001C) /* PhysicsEffectTable */
      , (11527,  30,         87) /* PhysicsScript - BreatheLightning */
      , (11527,  35,        457) /* DeathTreasureType - Loot Tier: 2 */;
 

@@ -51,12 +51,12 @@ VALUES (23912,   1, 'Assault Dirk') /* Name */
      , (23912,  16, 'A reward for defeating the leaders of the Shreth Clan.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23912,   1,   33558208) /* Setup */
-     , (23912,   3,  536870932) /* SoundTable */
-     , (23912,   6,   67111919) /* PaletteBase */
-     , (23912,   7,  268436199) /* ClothingBase */
-     , (23912,   8,  100671745) /* Icon */
-     , (23912,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23912,   1, 0x02000EC0) /* Setup */
+     , (23912,   3, 0x20000014) /* SoundTable */
+     , (23912,   6, 0x04000BEF) /* PaletteBase */
+     , (23912,   7, 0x100002E7) /* ClothingBase */
+     , (23912,   8, 0x06002101) /* Icon */
+     , (23912,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23912,  30,         88) /* PhysicsScript - Create */
      , (23912,  37,          4) /* ItemSkillLimit - Dagger */;
 

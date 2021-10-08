@@ -31,10 +31,10 @@ VALUES (8326,   1, 'Copper Pea') /* Name */
      , (8326,  16, 'A concentrated copper pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8326,   1,   33555211) /* Setup */
-     , (8326,   3,  536870932) /* SoundTable */
-     , (8326,   6,   67111919) /* PaletteBase */
-     , (8326,   7,  268435721) /* ClothingBase */
-     , (8326,   8,  100671079) /* Icon */
-     , (8326,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8326,   1, 0x0200030B) /* Setup */
+     , (8326,   3, 0x20000014) /* SoundTable */
+     , (8326,   6, 0x04000BEF) /* PaletteBase */
+     , (8326,   7, 0x10000109) /* ClothingBase */
+     , (8326,   8, 0x06001E67) /* Icon */
+     , (8326,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8326,  29,        115) /* SpellComponent */;

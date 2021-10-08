@@ -44,13 +44,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28589,   1, 'Extreme Balance Testing Gauntlets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28589,   1,   33554648) /* Setup */
-     , (28589,   3,  536870932) /* SoundTable */
-     , (28589,   6,   67108990) /* PaletteBase */
-     , (28589,   7,  268436636) /* ClothingBase */
-     , (28589,   8,  100674345) /* Icon */
-     , (28589,  22,  872415275) /* PhysicsEffectTable */
-     , (28589,  36,  234881046) /* MutateFilter */;
+VALUES (28589,   1, 0x020000D8) /* Setup */
+     , (28589,   3, 0x20000014) /* SoundTable */
+     , (28589,   6, 0x0400007E) /* PaletteBase */
+     , (28589,   7, 0x1000049C) /* ClothingBase */
+     , (28589,   8, 0x06002B29) /* Icon */
+     , (28589,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (28589,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28589,  2113,      2)  /* Archer's Bane */

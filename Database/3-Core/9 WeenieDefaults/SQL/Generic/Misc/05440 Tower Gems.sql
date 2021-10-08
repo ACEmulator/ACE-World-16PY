@@ -22,7 +22,7 @@ VALUES (5440,   1, 'Tower Gems') /* Name */
      , (5440,  16, 'Tower Gems') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5440,   1,   33555594) /* Setup */
-     , (5440,   6,   67111782) /* PaletteBase */
-     , (5440,   7,  268435690) /* ClothingBase */
-     , (5440,   8,  100668115) /* Icon */;
+VALUES (5440,   1, 0x0200048A) /* Setup */
+     , (5440,   6, 0x04000B66) /* PaletteBase */
+     , (5440,   7, 0x100000EA) /* ClothingBase */
+     , (5440,   8, 0x060012D3) /* Icon */;

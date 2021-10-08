@@ -29,7 +29,7 @@ VALUES (9234,   1, 'Fleshripper Arrowhead') /* Name */
      , (9234,  16, 'A Fleshripper arrowhead.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9234,   1,   33556983) /* Setup */
-     , (9234,   3,  536870932) /* SoundTable */
-     , (9234,   8,  100671400) /* Icon */
-     , (9234,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9234,   1, 0x020009F7) /* Setup */
+     , (9234,   3, 0x20000014) /* SoundTable */
+     , (9234,   8, 0x06001FA8) /* Icon */
+     , (9234,  22, 0x3400002B) /* PhysicsEffectTable */;

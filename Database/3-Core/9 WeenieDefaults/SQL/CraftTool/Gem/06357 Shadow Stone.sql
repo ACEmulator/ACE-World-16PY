@@ -31,9 +31,9 @@ VALUES (6357,   1, 'Shadow Stone') /* Name */
      , (6357,  33, 'shadowstone') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6357,   1,   33556407) /* Setup */
-     , (6357,   3,  536870932) /* SoundTable */
-     , (6357,   6,   67111919) /* PaletteBase */
-     , (6357,   7,  268435965) /* ClothingBase */
-     , (6357,   8,  100670494) /* Icon */
-     , (6357,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6357,   1, 0x020007B7) /* Setup */
+     , (6357,   3, 0x20000014) /* SoundTable */
+     , (6357,   6, 0x04000BEF) /* PaletteBase */
+     , (6357,   7, 0x100001FD) /* ClothingBase */
+     , (6357,   8, 0x06001C1E) /* Icon */
+     , (6357,  22, 0x3400002B) /* PhysicsEffectTable */;

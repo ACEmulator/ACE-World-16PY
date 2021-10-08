@@ -25,7 +25,7 @@ VALUES (5953,   1, 'Scroll of Cooking Mastery Other IV') /* Name */
      , (5953,  16, 'When learned, this spell increases the target''s Cooking skill by 75%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5953,   1,   33554826) /* Setup */
-     , (5953,   8,  100676451) /* Icon */
-     , (5953,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5953,   1, 0x0200018A) /* Setup */
+     , (5953,   8, 0x06003363) /* Icon */
+     , (5953,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5953,  28,       1712) /* Spell - Cooking Mastery Other IV */;

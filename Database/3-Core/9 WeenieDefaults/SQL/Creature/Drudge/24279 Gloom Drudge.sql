@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24279,   1, 'Gloom Drudge') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24279,   1,   33556445) /* Setup */
-     , (24279,   2,  150994952) /* MotionTable */
-     , (24279,   3,  536870919) /* SoundTable */
-     , (24279,   4,  805306372) /* CombatTable */
-     , (24279,   6,   67112812) /* PaletteBase */
-     , (24279,   7,  268436614) /* ClothingBase */
-     , (24279,   8,  100667445) /* Icon */
-     , (24279,  22,  872415258) /* PhysicsEffectTable */
+VALUES (24279,   1, 0x020007DD) /* Setup */
+     , (24279,   2, 0x09000008) /* MotionTable */
+     , (24279,   3, 0x20000007) /* SoundTable */
+     , (24279,   4, 0x30000004) /* CombatTable */
+     , (24279,   6, 0x04000F6C) /* PaletteBase */
+     , (24279,   7, 0x10000486) /* ClothingBase */
+     , (24279,   8, 0x06001035) /* Icon */
+     , (24279,  22, 0x3400001A) /* PhysicsEffectTable */
      , (24279,  32,        297) /* WieldedTreasureType - 
                                    Wield Tachi (23699) | Probability: 33%
                                    Wield Yaoji (23709) | Probability: 33%

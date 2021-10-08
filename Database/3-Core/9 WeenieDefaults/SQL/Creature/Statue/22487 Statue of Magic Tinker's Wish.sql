@@ -65,12 +65,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22487,   1, 'Statue of Magic Tinker''s Wish') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22487,   1,   33558124) /* Setup */
-     , (22487,   2,  150995147) /* MotionTable */
-     , (22487,   3,  536871052) /* SoundTable */
-     , (22487,   4,  805306379) /* CombatTable */
-     , (22487,   8,  100673831) /* Icon */
-     , (22487,  22,  872415271) /* PhysicsEffectTable */;
+VALUES (22487,   1, 0x02000E6C) /* Setup */
+     , (22487,   2, 0x090000CB) /* MotionTable */
+     , (22487,   3, 0x2000008C) /* SoundTable */
+     , (22487,   4, 0x3000000B) /* CombatTable */
+     , (22487,   8, 0x06002927) /* Icon */
+     , (22487,  22, 0x34000027) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22487,   1, 380, 0, 0) /* Strength */

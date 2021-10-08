@@ -42,11 +42,11 @@ VALUES (27281,   1, 'Yaruldi''s Hoard') /* Name */
      , (27281,  16, 'The treasure hoard of the Margul guardian, Yaruldi. Who knows what bounty lies behind its lock.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27281,   1,   33558675) /* Setup */
-     , (27281,   2,  150995247) /* MotionTable */
-     , (27281,   3,  536870950) /* SoundTable */
-     , (27281,   8,  100676401) /* Icon */
-     , (27281,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27281,   1, 0x02001093) /* Setup */
+     , (27281,   2, 0x0900012F) /* MotionTable */
+     , (27281,   3, 0x20000026) /* SoundTable */
+     , (27281,   8, 0x06003331) /* Icon */
+     , (27281,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27281, 1, 32, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 6 from Death Treasure Table id: 32 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;

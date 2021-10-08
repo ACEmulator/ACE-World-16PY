@@ -63,13 +63,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8614,   1, 'Rumuba the Mosswart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8614,   1,   33557327) /* Setup */
-     , (8614,   2,  150994953) /* MotionTable */
-     , (8614,   3,  536870959) /* SoundTable */
-     , (8614,   4,  805306373) /* CombatTable */
-     , (8614,   6,   67113400) /* PaletteBase */
-     , (8614,   7,  268436291) /* ClothingBase */
-     , (8614,   8,  100667449) /* Icon */;
+VALUES (8614,   1, 0x02000B4F) /* Setup */
+     , (8614,   2, 0x09000009) /* MotionTable */
+     , (8614,   3, 0x2000002F) /* SoundTable */
+     , (8614,   4, 0x30000005) /* CombatTable */
+     , (8614,   6, 0x040011B8) /* PaletteBase */
+     , (8614,   7, 0x10000343) /* ClothingBase */
+     , (8614,   8, 0x06001039) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8614,   1, 120, 0, 0) /* Strength */

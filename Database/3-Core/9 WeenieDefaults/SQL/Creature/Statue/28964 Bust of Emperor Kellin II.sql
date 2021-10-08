@@ -65,12 +65,12 @@ VALUES (28964,   1, 'Bust of Emperor Kellin II') /* Name */
      , (28964,  16, 'A well carved bust of Emperor Kellin II. It is masterfully crafted and looks very well made. Jif Loz may know more about this.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28964,   1,   33558984) /* Setup */
-     , (28964,   2,  150995147) /* MotionTable */
-     , (28964,   3,  536871052) /* SoundTable */
-     , (28964,   4,  805306398) /* CombatTable */
-     , (28964,   8,  100677073) /* Icon */
-     , (28964,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (28964,   1, 0x020011C8) /* Setup */
+     , (28964,   2, 0x090000CB) /* MotionTable */
+     , (28964,   3, 0x2000008C) /* SoundTable */
+     , (28964,   4, 0x3000001E) /* CombatTable */
+     , (28964,   8, 0x060035D1) /* Icon */
+     , (28964,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28964,   1, 380, 0, 0) /* Strength */

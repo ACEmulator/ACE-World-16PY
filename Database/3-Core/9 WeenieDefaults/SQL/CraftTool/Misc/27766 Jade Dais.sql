@@ -34,7 +34,7 @@ VALUES (27766,   1, 'Jade Dais') /* Name */
      , (27766,  33, 'PickedUpJadeDais') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27766,   1,   33558809) /* Setup */
-     , (27766,   3,  536870932) /* SoundTable */
-     , (27766,   8,  100676629) /* Icon */
-     , (27766,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27766,   1, 0x02001119) /* Setup */
+     , (27766,   3, 0x20000014) /* SoundTable */
+     , (27766,   8, 0x06003415) /* Icon */
+     , (27766,  22, 0x3400002B) /* PhysicsEffectTable */;

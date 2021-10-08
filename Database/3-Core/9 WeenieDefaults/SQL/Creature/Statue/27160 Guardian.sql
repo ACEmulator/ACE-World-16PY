@@ -66,12 +66,12 @@ VALUES (27160,   1, 'Guardian') /* Name */
      , (27160,  16, 'The Arbiter of Liazk Itzi''s Temple.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27160,   1,   33558613) /* Setup */
-     , (27160,   2,  150995147) /* MotionTable */
-     , (27160,   3,  536871052) /* SoundTable */
-     , (27160,   4,  805306398) /* CombatTable */
-     , (27160,   8,  100675780) /* Icon */
-     , (27160,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (27160,   1, 0x02001055) /* Setup */
+     , (27160,   2, 0x090000CB) /* MotionTable */
+     , (27160,   3, 0x2000008C) /* SoundTable */
+     , (27160,   4, 0x3000001E) /* CombatTable */
+     , (27160,   8, 0x060030C4) /* Icon */
+     , (27160,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (27160,  16, 0x762430EB) /* ActivationTarget */;

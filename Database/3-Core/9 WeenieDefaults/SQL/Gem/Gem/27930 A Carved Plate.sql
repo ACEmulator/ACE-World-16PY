@@ -27,7 +27,7 @@ VALUES (27930,   1, 'A Carved Plate') /* Name */
      , (27930,  15, 'A plate with a relief carved into the face. The relief is of the moon, Rez''arel.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27930,   1,   33558776) /* Setup */
-     , (27930,   3,  536870932) /* SoundTable */
-     , (27930,   8,  100676558) /* Icon */
-     , (27930,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27930,   1, 0x020010F8) /* Setup */
+     , (27930,   3, 0x20000014) /* SoundTable */
+     , (27930,   8, 0x060033CE) /* Icon */
+     , (27930,  22, 0x3400002B) /* PhysicsEffectTable */;

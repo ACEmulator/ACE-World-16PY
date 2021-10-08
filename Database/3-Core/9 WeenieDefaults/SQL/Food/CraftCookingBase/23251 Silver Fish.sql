@@ -31,9 +31,9 @@ VALUES (23251,   1, 'Silver Fish') /* Name */
      , (23251,  20, 'Silver Fish') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23251,   1,   33554674) /* Setup */
-     , (23251,   3,  536870932) /* SoundTable */
-     , (23251,   6,   67114188) /* PaletteBase */
-     , (23251,   7,  268436572) /* ClothingBase */
-     , (23251,   8,  100674182) /* Icon */
-     , (23251,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23251,   1, 0x020000F2) /* Setup */
+     , (23251,   3, 0x20000014) /* SoundTable */
+     , (23251,   6, 0x040014CC) /* PaletteBase */
+     , (23251,   7, 0x1000045C) /* ClothingBase */
+     , (23251,   8, 0x06002A86) /* Icon */
+     , (23251,  22, 0x3400002B) /* PhysicsEffectTable */;

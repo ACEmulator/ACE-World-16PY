@@ -47,10 +47,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28491,   1, 'Noble Longbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28491,   1,   33558862) /* Setup */
-     , (28491,   3,  536870932) /* SoundTable */
-     , (28491,   8,  100676976) /* Icon */
-     , (28491,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28491,   1, 0x0200114E) /* Setup */
+     , (28491,   3, 0x20000014) /* SoundTable */
+     , (28491,   8, 0x06003570) /* Icon */
+     , (28491,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28491,  1604,      2)  /* Aura of Defender Self V */

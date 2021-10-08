@@ -22,5 +22,5 @@ VALUES (16901,   1, 'Sorveya Court') /* Name */
      , (16901,  16, 'Sorveya Court') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (16901,   1,   33557656) /* Setup */
-     , (16901,   8,  100672342) /* Icon */;
+VALUES (16901,   1, 0x02000C98) /* Setup */
+     , (16901,   8, 0x06002356) /* Icon */;

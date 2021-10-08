@@ -65,12 +65,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20632,   1, 'Champion of the Blood') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20632,   1,   33555465) /* Setup */
-     , (20632,   2,  150994981) /* MotionTable */
-     , (20632,   3,  536870942) /* SoundTable */
-     , (20632,   4,  805306368) /* CombatTable */
-     , (20632,   8,  100669124) /* Icon */
-     , (20632,  22,  872415269) /* PhysicsEffectTable */
+VALUES (20632,   1, 0x02000409) /* Setup */
+     , (20632,   2, 0x09000025) /* MotionTable */
+     , (20632,   3, 0x2000001E) /* SoundTable */
+     , (20632,   4, 0x30000000) /* CombatTable */
+     , (20632,   8, 0x060016C4) /* Icon */
+     , (20632,  22, 0x34000025) /* PhysicsEffectTable */
      , (20632,  32,        289) /* WieldedTreasureType - 
                                    Wield Yumi (23736) | Probability: 50%
                                    Wield 16x Greater Fire Arrow (5305) | Probability: 100%

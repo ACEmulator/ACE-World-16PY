@@ -28,7 +28,7 @@ VALUES (5635,   1, 'Fried Rabbit ') /* Name */
      , (5635,  20, 'Fried Rabbits') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5635,   1,   33556031) /* Setup */
-     , (5635,   3,  536870932) /* SoundTable */
-     , (5635,   8,  100670272) /* Icon */
-     , (5635,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5635,   1, 0x0200063F) /* Setup */
+     , (5635,   3, 0x20000014) /* SoundTable */
+     , (5635,   8, 0x06001B40) /* Icon */
+     , (5635,  22, 0x3400002B) /* PhysicsEffectTable */;

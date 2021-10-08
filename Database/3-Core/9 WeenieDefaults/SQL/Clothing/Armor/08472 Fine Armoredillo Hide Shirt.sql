@@ -37,9 +37,9 @@ VALUES (8472,   1, 'Fine Armoredillo Hide Shirt') /* Name */
      , (8472,  15, 'Coat crafted from the hide of an Armoredillo. This item can be dyed.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8472,   1,   33554883) /* Setup */
-     , (8472,   3,  536870932) /* SoundTable */
-     , (8472,   6,   67108990) /* PaletteBase */
-     , (8472,   7,  268436691) /* ClothingBase */
-     , (8472,   8,  100674997) /* Icon */
-     , (8472,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8472,   1, 0x020001C3) /* Setup */
+     , (8472,   3, 0x20000014) /* SoundTable */
+     , (8472,   6, 0x0400007E) /* PaletteBase */
+     , (8472,   7, 0x100004D3) /* ClothingBase */
+     , (8472,   8, 0x06002DB5) /* Icon */
+     , (8472,  22, 0x3400002B) /* PhysicsEffectTable */;

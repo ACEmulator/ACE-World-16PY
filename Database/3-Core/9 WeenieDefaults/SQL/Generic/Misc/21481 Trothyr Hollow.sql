@@ -22,5 +22,5 @@ VALUES (21481,   1, 'Trothyr Hollow') /* Name */
      , (21481,  16, 'Trothyr Hollow') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21481,   1,   33557898) /* Setup */
-     , (21481,   8,  100667499) /* Icon */;
+VALUES (21481,   1, 0x02000D8A) /* Setup */
+     , (21481,   8, 0x0600106B) /* Icon */;

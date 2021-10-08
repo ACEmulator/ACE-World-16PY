@@ -24,7 +24,7 @@ VALUES (20505,   1, 'Scroll of Reenigne''s Boon') /* Name */
      , (20505,  15, 'When learned, this spell increases the target''s Axe skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20505,   1,   33554826) /* Setup */
-     , (20505,   8,  100676449) /* Icon */
-     , (20505,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20505,   1, 0x0200018A) /* Setup */
+     , (20505,   8, 0x06003361) /* Icon */
+     , (20505,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20505,  28,       2202) /* Spell - Light Weapon Mastery Other VII */;

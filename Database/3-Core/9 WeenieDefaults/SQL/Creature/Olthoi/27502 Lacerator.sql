@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27502,   1, 'Lacerator') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27502,   1,   33558421) /* Setup */
-     , (27502,   2,  150995243) /* MotionTable */
-     , (27502,   3,  536871070) /* SoundTable */
-     , (27502,   4,  805306424) /* CombatTable */
-     , (27502,   6,   67114440) /* PaletteBase */
-     , (27502,   7,  268436659) /* ClothingBase */
-     , (27502,   8,  100674626) /* Icon */
-     , (27502,  22,  872415398) /* PhysicsEffectTable */
+VALUES (27502,   1, 0x02000F95) /* Setup */
+     , (27502,   2, 0x0900012B) /* MotionTable */
+     , (27502,   3, 0x2000009E) /* SoundTable */
+     , (27502,   4, 0x30000038) /* CombatTable */
+     , (27502,   6, 0x040015C8) /* PaletteBase */
+     , (27502,   7, 0x100004B3) /* ClothingBase */
+     , (27502,   8, 0x06002C42) /* Icon */
+     , (27502,  22, 0x340000A6) /* PhysicsEffectTable */
      , (27502,  30,         86) /* PhysicsScript - BreatheAcid */
      , (27502,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 

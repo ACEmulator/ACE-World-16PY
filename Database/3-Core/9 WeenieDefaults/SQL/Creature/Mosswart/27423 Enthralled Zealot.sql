@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27423,   1, 'Enthralled Zealot') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27423,   1,   33557327) /* Setup */
-     , (27423,   2,  150994953) /* MotionTable */
-     , (27423,   3,  536870959) /* SoundTable */
-     , (27423,   4,  805306373) /* CombatTable */
-     , (27423,   6,   67113400) /* PaletteBase */
-     , (27423,   7,  268436295) /* ClothingBase */
-     , (27423,   8,  100667449) /* Icon */
-     , (27423,  22,  872415264) /* PhysicsEffectTable */
+VALUES (27423,   1, 0x02000B4F) /* Setup */
+     , (27423,   2, 0x09000009) /* MotionTable */
+     , (27423,   3, 0x2000002F) /* SoundTable */
+     , (27423,   4, 0x30000005) /* CombatTable */
+     , (27423,   6, 0x040011B8) /* PaletteBase */
+     , (27423,   7, 0x10000347) /* ClothingBase */
+     , (27423,   8, 0x06001039) /* Icon */
+     , (27423,  22, 0x34000020) /* PhysicsEffectTable */
      , (27423,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

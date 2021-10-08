@@ -23,7 +23,7 @@ VALUES (24211,   1, 'Trapper Title Token') /* Name */
      , (24211,  15, 'Hand this token to Aun Teverea to get the Title of Trapper.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24211,   1,   33558119) /* Setup */
-     , (24211,   3,  536870932) /* SoundTable */
-     , (24211,   8,  100674310) /* Icon */
-     , (24211,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24211,   1, 0x02000E67) /* Setup */
+     , (24211,   3, 0x20000014) /* SoundTable */
+     , (24211,   8, 0x06002B06) /* Icon */
+     , (24211,  22, 0x3400002B) /* PhysicsEffectTable */;

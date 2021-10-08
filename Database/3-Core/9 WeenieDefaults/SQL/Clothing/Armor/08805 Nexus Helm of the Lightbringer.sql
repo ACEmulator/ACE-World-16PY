@@ -43,9 +43,9 @@ VALUES (8805,   1, 'Nexus Helm of the Lightbringer') /* Name */
      , (8805,  15, 'A trophy from the banishment of Bael''Zharon.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8805,   1,   33556941) /* Setup */
-     , (8805,   3,  536870932) /* SoundTable */
-     , (8805,   6,   67108990) /* PaletteBase */
-     , (8805,   7,  268436105) /* ClothingBase */
-     , (8805,   8,  100671292) /* Icon */
-     , (8805,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8805,   1, 0x020009CD) /* Setup */
+     , (8805,   3, 0x20000014) /* SoundTable */
+     , (8805,   6, 0x0400007E) /* PaletteBase */
+     , (8805,   7, 0x10000289) /* ClothingBase */
+     , (8805,   8, 0x06001F3C) /* Icon */
+     , (8805,  22, 0x3400002B) /* PhysicsEffectTable */;

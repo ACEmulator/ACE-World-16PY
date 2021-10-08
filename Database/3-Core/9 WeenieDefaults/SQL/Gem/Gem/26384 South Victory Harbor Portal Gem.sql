@@ -36,11 +36,11 @@ VALUES (26384,   1, 'South Victory Harbor Portal Gem') /* Name */
      , (26384,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26384,   1,   33556769) /* Setup */
-     , (26384,   3,  536870932) /* SoundTable */
-     , (26384,   6,   67111919) /* PaletteBase */
-     , (26384,   7,  268435723) /* ClothingBase */
-     , (26384,   8,  100675760) /* Icon */
-     , (26384,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26384,   1, 0x02000921) /* Setup */
+     , (26384,   3, 0x20000014) /* SoundTable */
+     , (26384,   6, 0x04000BEF) /* PaletteBase */
+     , (26384,   7, 0x1000010B) /* ClothingBase */
+     , (26384,   8, 0x060030B0) /* Icon */
+     , (26384,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26384,  28,        157) /* Spell - Summon Primary Portal I */
      , (26384,  31,      12553) /* LinkedPortalOne - South Victory Harbor Portal */;

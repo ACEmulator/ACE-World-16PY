@@ -36,11 +36,11 @@ VALUES (26134,   1, 'Devana Portal Gem') /* Name */
      , (26134,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26134,   1,   33556769) /* Setup */
-     , (26134,   3,  536870932) /* SoundTable */
-     , (26134,   6,   67111919) /* PaletteBase */
-     , (26134,   7,  268435723) /* ClothingBase */
-     , (26134,   8,  100675760) /* Icon */
-     , (26134,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26134,   1, 0x02000921) /* Setup */
+     , (26134,   3, 0x20000014) /* SoundTable */
+     , (26134,   6, 0x04000BEF) /* PaletteBase */
+     , (26134,   7, 0x1000010B) /* ClothingBase */
+     , (26134,   8, 0x060030B0) /* Icon */
+     , (26134,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26134,  28,        157) /* Spell - Summon Primary Portal I */
      , (26134,  31,      15151) /* LinkedPortalOne - Devana Portal */;

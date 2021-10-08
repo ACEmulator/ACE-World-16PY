@@ -37,11 +37,11 @@ VALUES (27648,   1, 'Head of the Homunculus') /* Name */
      , (27648,  16, 'A small stone head. There are two small indentations where its eyes were removed.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27648,   1,   33558744) /* Setup */
-     , (27648,   3,  536870932) /* SoundTable */
-     , (27648,   8,  100676533) /* Icon */
-     , (27648,  22,  872415275) /* PhysicsEffectTable */
-     , (27648,  27, 1073742049) /* UseUserAnimation - UseMagicWand */;
+VALUES (27648,   1, 0x020010D8) /* Setup */
+     , (27648,   3, 0x20000014) /* SoundTable */
+     , (27648,   8, 0x060033B5) /* Icon */
+     , (27648,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27648,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27648,   615,      2)  /* Life Magic Mastery Other V */

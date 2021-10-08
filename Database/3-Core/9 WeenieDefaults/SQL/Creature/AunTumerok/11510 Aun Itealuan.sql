@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11510,   1, 'Aun Itealuan') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11510,   1,   33557117) /* Setup */
-     , (11510,   2,  150994954) /* MotionTable */
-     , (11510,   3,  536870931) /* SoundTable */
-     , (11510,   4,  805306380) /* CombatTable */
-     , (11510,   6,   67113280) /* PaletteBase */
-     , (11510,   7,  268436193) /* ClothingBase */
-     , (11510,   8,  100671756) /* Icon */
-     , (11510,  22,  872415270) /* PhysicsEffectTable */
+VALUES (11510,   1, 0x02000A7D) /* Setup */
+     , (11510,   2, 0x0900000A) /* MotionTable */
+     , (11510,   3, 0x20000013) /* SoundTable */
+     , (11510,   4, 0x3000000C) /* CombatTable */
+     , (11510,   6, 0x04001140) /* PaletteBase */
+     , (11510,   7, 0x100002E1) /* ClothingBase */
+     , (11510,   8, 0x0600210C) /* Icon */
+     , (11510,  22, 0x34000026) /* PhysicsEffectTable */
      , (11510,  32,        377) /* WieldedTreasureType - 
                                    Wield Shortbow (307) | Probability: 22%
                                    Wield 25x Greater Fire Arrow (5305) | Probability: 100%

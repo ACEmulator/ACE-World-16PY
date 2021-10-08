@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30680,   1, 'Withered Drudge Seraph') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30680,   1,   33559218) /* Setup */
-     , (30680,   2,  150994952) /* MotionTable */
-     , (30680,   3,  536870919) /* SoundTable */
-     , (30680,   4,  805306372) /* CombatTable */
-     , (30680,   6,   67112812) /* PaletteBase */
-     , (30680,   7,  268436896) /* ClothingBase */
-     , (30680,   8,  100667445) /* Icon */
-     , (30680,  22,  872415258) /* PhysicsEffectTable */
+VALUES (30680,   1, 0x020012B2) /* Setup */
+     , (30680,   2, 0x09000008) /* MotionTable */
+     , (30680,   3, 0x20000007) /* SoundTable */
+     , (30680,   4, 0x30000004) /* CombatTable */
+     , (30680,   6, 0x04000F6C) /* PaletteBase */
+     , (30680,   7, 0x100005A0) /* ClothingBase */
+     , (30680,   8, 0x06001035) /* Icon */
+     , (30680,  22, 0x3400001A) /* PhysicsEffectTable */
      , (30680,  32,        423) /* WieldedTreasureType - 
                                    Wield 25x Frost Throwing Club (23130) | Probability: 20%
                                    Wield 25x Fire Throwing Club (23129) | Probability: 20%

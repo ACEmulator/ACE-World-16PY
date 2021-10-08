@@ -22,5 +22,5 @@ VALUES (21475,   1, 'Dulok Court') /* Name */
      , (21475,  16, 'Dulok Court') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21475,   1,   33557904) /* Setup */
-     , (21475,   8,  100667499) /* Icon */;
+VALUES (21475,   1, 0x02000D90) /* Setup */
+     , (21475,   8, 0x0600106B) /* Icon */;

@@ -37,7 +37,7 @@ VALUES (11459,   1, 'Palenqual''s Totem of the Vortex') /* Name */
      , (11459,  16, 'A triple totem representing three of the animas found on Palenqual. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11459,   1,   33557273) /* Setup */
-     , (11459,   3,  536870932) /* SoundTable */
-     , (11459,   8,  100672025) /* Icon */
-     , (11459,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11459,   1, 0x02000B19) /* Setup */
+     , (11459,   3, 0x20000014) /* SoundTable */
+     , (11459,   8, 0x06002219) /* Icon */
+     , (11459,  22, 0x3400002B) /* PhysicsEffectTable */;

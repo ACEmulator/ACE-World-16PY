@@ -28,9 +28,9 @@ VALUES (9394,   1, 'Lugian Pauldron') /* Name */
      , (9394,  33, 'PauldronLugian') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9394,   1,   33557004) /* Setup */
-     , (9394,   3,  536870932) /* SoundTable */
-     , (9394,   6,   67113158) /* PaletteBase */
-     , (9394,   7,  268436159) /* ClothingBase */
-     , (9394,   8,  100671474) /* Icon */
-     , (9394,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9394,   1, 0x02000A0C) /* Setup */
+     , (9394,   3, 0x20000014) /* SoundTable */
+     , (9394,   6, 0x040010C6) /* PaletteBase */
+     , (9394,   7, 0x100002BF) /* ClothingBase */
+     , (9394,   8, 0x06001FF2) /* Icon */
+     , (9394,  22, 0x3400002B) /* PhysicsEffectTable */;

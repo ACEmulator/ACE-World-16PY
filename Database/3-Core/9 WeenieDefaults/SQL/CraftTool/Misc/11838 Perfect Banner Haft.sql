@@ -34,9 +34,9 @@ VALUES (11838,   1, 'Perfect Banner Haft') /* Name */
      , (11838,  16, 'A perfect banner haft with a worn handle.  If joined with either a Gromnie or Mask banner, it will raise it''s value substantially.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11838,   1,   33557242) /* Setup */
-     , (11838,   3,  536870932) /* SoundTable */
-     , (11838,   6,   67113338) /* PaletteBase */
-     , (11838,   7,  268436212) /* ClothingBase */
-     , (11838,   8,  100671948) /* Icon */
-     , (11838,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11838,   1, 0x02000AFA) /* Setup */
+     , (11838,   3, 0x20000014) /* SoundTable */
+     , (11838,   6, 0x0400117A) /* PaletteBase */
+     , (11838,   7, 0x100002F4) /* ClothingBase */
+     , (11838,   8, 0x060021CC) /* Icon */
+     , (11838,  22, 0x3400002B) /* PhysicsEffectTable */;

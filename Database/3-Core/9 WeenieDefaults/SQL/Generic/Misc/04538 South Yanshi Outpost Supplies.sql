@@ -22,7 +22,7 @@ VALUES (4538,   1, 'South Yanshi Outpost Supplies') /* Name */
      , (4538,  16, 'South Yanshi Outpost Supplies') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4538,   1,   33555088) /* Setup */
-     , (4538,   6,   67111092) /* PaletteBase */
-     , (4538,   7,  268435656) /* ClothingBase */
-     , (4538,   8,  100668115) /* Icon */;
+VALUES (4538,   1, 0x02000290) /* Setup */
+     , (4538,   6, 0x040008B4) /* PaletteBase */
+     , (4538,   7, 0x100000C8) /* ClothingBase */
+     , (4538,   8, 0x060012D3) /* Icon */;

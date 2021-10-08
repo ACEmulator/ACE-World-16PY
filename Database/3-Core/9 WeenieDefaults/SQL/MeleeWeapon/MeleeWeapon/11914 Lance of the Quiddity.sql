@@ -42,11 +42,11 @@ VALUES (11914,   1, 'Lance of the Quiddity') /* Name */
      , (11914,  16, 'A weapon made of a strange pulsating energy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11914,   1,   33557108) /* Setup */
-     , (11914,   3,  536870932) /* SoundTable */
-     , (11914,   8,  100671698) /* Icon */
-     , (11914,  22,  872415275) /* PhysicsEffectTable */
-     , (11914,  36,  234881044) /* MutateFilter */
+VALUES (11914,   1, 0x02000A74) /* Setup */
+     , (11914,   3, 0x20000014) /* SoundTable */
+     , (11914,   8, 0x060020D2) /* Icon */
+     , (11914,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11914,  36, 0x0E000014) /* MutateFilter */
      , (11914,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

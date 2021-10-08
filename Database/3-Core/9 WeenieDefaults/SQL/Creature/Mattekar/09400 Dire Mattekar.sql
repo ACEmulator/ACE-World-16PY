@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9400,   1, 'Dire Mattekar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9400,   1,   33555590) /* Setup */
-     , (9400,   2,  150995047) /* MotionTable */
-     , (9400,   3,  536870974) /* SoundTable */
-     , (9400,   4,  805306417) /* CombatTable */
-     , (9400,   6,   67111893) /* PaletteBase */
-     , (9400,   7,  268435729) /* ClothingBase */
-     , (9400,   8,  100669121) /* Icon */
-     , (9400,  22,  872415278) /* PhysicsEffectTable */
+VALUES (9400,   1, 0x02000486) /* Setup */
+     , (9400,   2, 0x09000067) /* MotionTable */
+     , (9400,   3, 0x2000003E) /* SoundTable */
+     , (9400,   4, 0x30000031) /* CombatTable */
+     , (9400,   6, 0x04000BD5) /* PaletteBase */
+     , (9400,   7, 0x10000111) /* ClothingBase */
+     , (9400,   8, 0x060016C1) /* Icon */
+     , (9400,  22, 0x3400002E) /* PhysicsEffectTable */
      , (9400,  30,         85) /* PhysicsScript - BreatheFrost */
      , (9400,  35,        457) /* DeathTreasureType - Loot Tier: 2 */;
 

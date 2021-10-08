@@ -37,12 +37,12 @@ VALUES (27386,   1, 'Gold Hill Ruins') /* Name */
      , (27386,  16, 'There''s gold on that hill. While huntin'' along the inland sea I got me a gem like this one off a Sclavus. It summoned a portal to a hill where the Sclavus were protectin'' some sorta ruin. They forced me offin'' that hill, but not before I caught me a glimpse of somethin'' gold shinin'' in the ruins. I finally found another one of these gems and I''m goin'' back for the gold just as soon as I kill me another Sclavus. - Harker Shan-ue of the Exploration Society') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27386,   1,   33556769) /* Setup */
-     , (27386,   3,  536870932) /* SoundTable */
-     , (27386,   6,   67111919) /* PaletteBase */
-     , (27386,   7,  268435723) /* ClothingBase */
-     , (27386,   8,  100668366) /* Icon */
-     , (27386,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27386,   1, 0x02000921) /* Setup */
+     , (27386,   3, 0x20000014) /* SoundTable */
+     , (27386,   6, 0x04000BEF) /* PaletteBase */
+     , (27386,   7, 0x1000010B) /* ClothingBase */
+     , (27386,   8, 0x060013CE) /* Icon */
+     , (27386,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27386,  28,        157) /* Spell - Summon Primary Portal I */
      , (27386,  31,      27397) /* LinkedPortalOne - Gold Hill Ruins */
-     , (27386,  50,  100676404) /* IconOverlay */;
+     , (27386,  50, 0x06003334) /* IconOverlay */;

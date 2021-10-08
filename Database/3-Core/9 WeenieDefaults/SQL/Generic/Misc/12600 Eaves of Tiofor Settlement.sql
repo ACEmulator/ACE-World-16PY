@@ -22,5 +22,5 @@ VALUES (12600,   1, 'Eaves of Tiofor Settlement') /* Name */
      , (12600,  16, 'Welcome to Eaves of Tiofor Settlement') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12600,   1,   33557463) /* Setup */
-     , (12600,   8,  100668115) /* Icon */;
+VALUES (12600,   1, 0x02000BD7) /* Setup */
+     , (12600,   8, 0x060012D3) /* Icon */;

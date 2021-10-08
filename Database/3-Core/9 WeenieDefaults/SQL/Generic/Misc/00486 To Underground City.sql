@@ -22,5 +22,5 @@ VALUES (486,   1, 'To Underground City') /* Name */
      , (486,  16, 'To reach the Underground City, follow this dry streambed to the portal, then pass through. But beware: monsters dwell beyond.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (486,   1,   33555088) /* Setup */
-     , (486,   8,  100668115) /* Icon */;
+VALUES (486,   1, 0x02000290) /* Setup */
+     , (486,   8, 0x060012D3) /* Icon */;

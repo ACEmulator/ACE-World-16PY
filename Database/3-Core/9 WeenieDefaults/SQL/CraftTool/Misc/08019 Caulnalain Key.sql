@@ -32,7 +32,7 @@ VALUES (8019,   1, 'Caulnalain Key') /* Name */
      , (8019,  14, 'Use this item on the Caulnalain Gate.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8019,   1,   33556743) /* Setup */
-     , (8019,   3,  536870932) /* SoundTable */
-     , (8019,   8,  100670962) /* Icon */
-     , (8019,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8019,   1, 0x02000907) /* Setup */
+     , (8019,   3, 0x20000014) /* SoundTable */
+     , (8019,   8, 0x06001DF2) /* Icon */
+     , (8019,  22, 0x3400002B) /* PhysicsEffectTable */;

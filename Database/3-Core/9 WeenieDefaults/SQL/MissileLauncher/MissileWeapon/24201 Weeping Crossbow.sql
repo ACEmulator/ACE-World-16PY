@@ -56,10 +56,10 @@ VALUES (24201,   1, 'Weeping Crossbow') /* Name */
      , (24201,  15, 'A crossbow infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24201,   1,   33558299) /* Setup */
-     , (24201,   3,  536870932) /* SoundTable */
-     , (24201,   8,  100674266) /* Icon */
-     , (24201,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24201,   1, 0x02000F1B) /* Setup */
+     , (24201,   3, 0x20000014) /* SoundTable */
+     , (24201,   8, 0x06002ADA) /* Icon */
+     , (24201,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24201,  2967,      2)  /* Aura of The Speedy Hunter */

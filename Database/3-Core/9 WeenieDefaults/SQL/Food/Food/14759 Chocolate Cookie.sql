@@ -28,9 +28,9 @@ VALUES (14759,   1, 'Chocolate Cookie') /* Name */
      , (14759,  20, 'Chocolate Cookies') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14759,   1,   33556032) /* Setup */
-     , (14759,   3,  536870932) /* SoundTable */
-     , (14759,   6,   67111928) /* PaletteBase */
-     , (14759,   7,  268436335) /* ClothingBase */
-     , (14759,   8,  100672571) /* Icon */
-     , (14759,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14759,   1, 0x02000640) /* Setup */
+     , (14759,   3, 0x20000014) /* SoundTable */
+     , (14759,   6, 0x04000BF8) /* PaletteBase */
+     , (14759,   7, 0x1000036F) /* ClothingBase */
+     , (14759,   8, 0x0600243B) /* Icon */
+     , (14759,  22, 0x3400002B) /* PhysicsEffectTable */;

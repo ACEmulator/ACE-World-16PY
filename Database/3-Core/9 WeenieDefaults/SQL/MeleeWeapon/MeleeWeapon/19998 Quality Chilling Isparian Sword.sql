@@ -49,12 +49,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19998,   1, 'Quality Chilling Isparian Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19998,   1,   33556345) /* Setup */
-     , (19998,   3,  536870932) /* SoundTable */
-     , (19998,   6,   67111919) /* PaletteBase */
-     , (19998,   7,  268436385) /* ClothingBase */
-     , (19998,   8,  100672944) /* Icon */
-     , (19998,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19998,   1, 0x02000779) /* Setup */
+     , (19998,   3, 0x20000014) /* SoundTable */
+     , (19998,   6, 0x04000BEF) /* PaletteBase */
+     , (19998,   7, 0x100003A1) /* ClothingBase */
+     , (19998,   8, 0x060025B0) /* Icon */
+     , (19998,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19998,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

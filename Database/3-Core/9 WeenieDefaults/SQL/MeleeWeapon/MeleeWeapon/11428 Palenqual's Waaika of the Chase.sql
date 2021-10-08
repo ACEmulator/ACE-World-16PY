@@ -52,13 +52,13 @@ VALUES (11428,   1, 'Palenqual''s Waaika of the Chase') /* Name */
      , (11428,  16, 'A waaika fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11428,   1,   33557235) /* Setup */
-     , (11428,   3,  536870932) /* SoundTable */
-     , (11428,   6,   67113336) /* PaletteBase */
-     , (11428,   7,  268436250) /* ClothingBase */
-     , (11428,   8,  100672082) /* Icon */
-     , (11428,  22,  872415275) /* PhysicsEffectTable */
-     , (11428,  36,  234881044) /* MutateFilter */;
+VALUES (11428,   1, 0x02000AF3) /* Setup */
+     , (11428,   3, 0x20000014) /* SoundTable */
+     , (11428,   6, 0x04001178) /* PaletteBase */
+     , (11428,   7, 0x1000031A) /* ClothingBase */
+     , (11428,   8, 0x06002252) /* Icon */
+     , (11428,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11428,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11428,  2462,      2)  /* Lesser Cascade */

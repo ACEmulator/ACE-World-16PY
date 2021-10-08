@@ -22,5 +22,5 @@ VALUES (15254,   1, 'Shore Vista Cottages') /* Name */
      , (15254,  16, 'Welcome to Shore Vista Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15254,   1,   33557463) /* Setup */
-     , (15254,   8,  100668115) /* Icon */;
+VALUES (15254,   1, 0x02000BD7) /* Setup */
+     , (15254,   8, 0x060012D3) /* Icon */;

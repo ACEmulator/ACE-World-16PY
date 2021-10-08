@@ -29,12 +29,12 @@ VALUES (8157,   1, 'Herb Pouch') /* Name */
      , (8157,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8157,   1,   33554817) /* Setup */
-     , (8157,   3,  536870932) /* SoundTable */
-     , (8157,   6,   67111919) /* PaletteBase */
-     , (8157,   7,  268435833) /* ClothingBase */
-     , (8157,   8,  100667436) /* Icon */
-     , (8157,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8157,   1, 0x02000181) /* Setup */
+     , (8157,   3, 0x20000014) /* SoundTable */
+     , (8157,   6, 0x04000BEF) /* PaletteBase */
+     , (8157,   7, 0x10000179) /* ClothingBase */
+     , (8157,   8, 0x0600102C) /* Icon */
+     , (8157,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8157, 1,   774, 50, 0, 0, False) /* Create Hyssop (774) for Contain */

@@ -30,10 +30,10 @@ VALUES (30143,   1, 'Rune of Heart Seeker') /* Name */
      , (30143,  16, 'A lovely template for a rare magical gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30143,   1,   33554809) /* Setup */
-     , (30143,   3,  536870932) /* SoundTable */
-     , (30143,   6,   67111919) /* PaletteBase */
-     , (30143,   7,  268435723) /* ClothingBase */
-     , (30143,   8,  100674739) /* Icon */
-     , (30143,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30143,   1, 0x02000179) /* Setup */
+     , (30143,   3, 0x20000014) /* SoundTable */
+     , (30143,   6, 0x04000BEF) /* PaletteBase */
+     , (30143,   7, 0x1000010B) /* ClothingBase */
+     , (30143,   8, 0x06002CB3) /* Icon */
+     , (30143,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30143,  28,       2106) /* Spell - Aura of Elysa's Sight */;

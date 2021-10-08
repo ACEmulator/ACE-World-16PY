@@ -22,5 +22,5 @@ VALUES (12658,   1, 'South Lytelthorpe ') /* Name */
      , (12658,  16, 'Welcome to South Lytelthorpe ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12658,   1,   33557463) /* Setup */
-     , (12658,   8,  100668115) /* Icon */;
+VALUES (12658,   1, 0x02000BD7) /* Setup */
+     , (12658,   8, 0x060012D3) /* Icon */;

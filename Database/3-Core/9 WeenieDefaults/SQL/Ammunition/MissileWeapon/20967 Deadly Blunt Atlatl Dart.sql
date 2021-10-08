@@ -43,9 +43,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20967,   1, 'Deadly Blunt Atlatl Dart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20967,   1,   33557434) /* Setup */
-     , (20967,   3,  536870932) /* SoundTable */
-     , (20967,   6,   67111919) /* PaletteBase */
-     , (20967,   7,  268436305) /* ClothingBase */
-     , (20967,   8,  100672680) /* Icon */
-     , (20967,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (20967,   1, 0x02000BBA) /* Setup */
+     , (20967,   3, 0x20000014) /* SoundTable */
+     , (20967,   6, 0x04000BEF) /* PaletteBase */
+     , (20967,   7, 0x10000351) /* ClothingBase */
+     , (20967,   8, 0x060024A8) /* Icon */
+     , (20967,  22, 0x3400002B) /* PhysicsEffectTable */;

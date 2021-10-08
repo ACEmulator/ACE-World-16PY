@@ -40,9 +40,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7711,   1, 'Lesser Celdon Leggings of Acid') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7711,   1,   33554856) /* Setup */
-     , (7711,   3,  536870932) /* SoundTable */
-     , (7711,   6,   67108990) /* PaletteBase */
-     , (7711,   7,  268435844) /* ClothingBase */
-     , (7711,   8,  100670418) /* Icon */
-     , (7711,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7711,   1, 0x020001A8) /* Setup */
+     , (7711,   3, 0x20000014) /* SoundTable */
+     , (7711,   6, 0x0400007E) /* PaletteBase */
+     , (7711,   7, 0x10000184) /* ClothingBase */
+     , (7711,   8, 0x06001BD2) /* Icon */
+     , (7711,  22, 0x3400002B) /* PhysicsEffectTable */;

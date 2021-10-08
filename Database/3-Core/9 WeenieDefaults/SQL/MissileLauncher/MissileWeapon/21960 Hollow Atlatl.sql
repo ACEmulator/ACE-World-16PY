@@ -46,10 +46,10 @@ VALUES (21960,   1, 'Hollow Atlatl') /* Name */
      , (21960,  16, 'An atlatl crafted from high-quality chorizite, seemingly impervious to magical protections. (Note: This weapon is unenchantable and ignores modified armor and protection values.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21960,   1,   33558044) /* Setup */
-     , (21960,   3,  536870932) /* SoundTable */
-     , (21960,   6,   67111919) /* PaletteBase */
-     , (21960,   7,  268436304) /* ClothingBase */
-     , (21960,   8,  100672372) /* Icon */
-     , (21960,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21960,   1, 0x02000E1C) /* Setup */
+     , (21960,   3, 0x20000014) /* SoundTable */
+     , (21960,   6, 0x04000BEF) /* PaletteBase */
+     , (21960,   7, 0x10000350) /* ClothingBase */
+     , (21960,   8, 0x06002374) /* Icon */
+     , (21960,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21960,  30,         88) /* PhysicsScript - Create */;

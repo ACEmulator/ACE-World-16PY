@@ -14,5 +14,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3666,   1, 'Place Holder Object') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3666,   1,   33554700) /* Setup */
-     , (3666,   8,  100667487) /* Icon */;
+VALUES (3666,   1, 0x0200010C) /* Setup */
+     , (3666,   8, 0x0600105F) /* Icon */;

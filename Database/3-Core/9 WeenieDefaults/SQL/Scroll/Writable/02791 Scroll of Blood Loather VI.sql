@@ -25,7 +25,7 @@ VALUES (2791,   1, 'Scroll of Blood Loather VI') /* Name */
      , (2791,  16, 'When learned, this spell decreased a weapon''s damage value by 20 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2791,   1,   33554826) /* Setup */
-     , (2791,   8,  100676656) /* Icon */
-     , (2791,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2791,   1, 0x0200018A) /* Setup */
+     , (2791,   8, 0x06003430) /* Icon */
+     , (2791,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2791,  28,       1621) /* Spell - Blood Loather VI */;

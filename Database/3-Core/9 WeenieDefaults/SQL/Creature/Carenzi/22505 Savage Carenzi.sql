@@ -62,14 +62,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22505,   1, 'Savage Carenzi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22505,   1,   33557141) /* Setup */
-     , (22505,   2,  150995133) /* MotionTable */
-     , (22505,   3,  536871035) /* SoundTable */
-     , (22505,   4,  805306375) /* CombatTable */
-     , (22505,   6,   67113270) /* PaletteBase */
-     , (22505,   7,  268436195) /* ClothingBase */
-     , (22505,   8,  100671754) /* Icon */
-     , (22505,  22,  872415377) /* PhysicsEffectTable */
+VALUES (22505,   1, 0x02000A95) /* Setup */
+     , (22505,   2, 0x090000BD) /* MotionTable */
+     , (22505,   3, 0x2000007B) /* SoundTable */
+     , (22505,   4, 0x30000007) /* CombatTable */
+     , (22505,   6, 0x04001136) /* PaletteBase */
+     , (22505,   7, 0x100002E3) /* ClothingBase */
+     , (22505,   8, 0x0600210A) /* Icon */
+     , (22505,  22, 0x34000091) /* PhysicsEffectTable */
      , (22505,  35,        458) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

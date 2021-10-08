@@ -61,14 +61,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (219,   1, 'Grey Rat') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (219,   1,   33554493) /* Setup */
-     , (219,   2,  150994958) /* MotionTable */
-     , (219,   3,  536870927) /* SoundTable */
-     , (219,   4,  805306377) /* CombatTable */
-     , (219,   6,   67109300) /* PaletteBase */
-     , (219,   7,  268435555) /* ClothingBase */
-     , (219,   8,  100667451) /* Icon */
-     , (219,  22,  872415267) /* PhysicsEffectTable */
+VALUES (219,   1, 0x0200003D) /* Setup */
+     , (219,   2, 0x0900000E) /* MotionTable */
+     , (219,   3, 0x2000000F) /* SoundTable */
+     , (219,   4, 0x30000009) /* CombatTable */
+     , (219,   6, 0x040001B4) /* PaletteBase */
+     , (219,   7, 0x10000063) /* ClothingBase */
+     , (219,   8, 0x0600103B) /* Icon */
+     , (219,  22, 0x34000023) /* PhysicsEffectTable */
      , (219,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

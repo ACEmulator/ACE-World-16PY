@@ -68,14 +68,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8431,   1, 'Nomad Mu-miyah') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8431,   1,   33554433) /* Setup */
-     , (8431,   2,  150994981) /* MotionTable */
-     , (8431,   3,  536870942) /* SoundTable */
-     , (8431,   4,  805306368) /* CombatTable */
-     , (8431,   6,   67108990) /* PaletteBase */
-     , (8431,   7,  268435645) /* ClothingBase */
-     , (8431,   8,  100669122) /* Icon */
-     , (8431,  22,  872415272) /* PhysicsEffectTable */
+VALUES (8431,   1, 0x02000001) /* Setup */
+     , (8431,   2, 0x09000025) /* MotionTable */
+     , (8431,   3, 0x2000001E) /* SoundTable */
+     , (8431,   4, 0x30000000) /* CombatTable */
+     , (8431,   6, 0x0400007E) /* PaletteBase */
+     , (8431,   7, 0x100000BD) /* ClothingBase */
+     , (8431,   8, 0x060016C2) /* Icon */
+     , (8431,  22, 0x34000028) /* PhysicsEffectTable */
      , (8431,  32,        335) /* WieldedTreasureType - 
                                    Wield Acid Yari (23722) | Probability: 20%
                                    Wield Yari (23730) | Probability: 25%

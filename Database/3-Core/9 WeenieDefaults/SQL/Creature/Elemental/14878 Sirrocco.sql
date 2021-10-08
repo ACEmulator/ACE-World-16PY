@@ -63,12 +63,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14878,   1, 'Sirrocco') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14878,   1,   33557589) /* Setup */
-     , (14878,   2,  150995087) /* MotionTable */
-     , (14878,   3,  536871002) /* SoundTable */
-     , (14878,   4,  805306368) /* CombatTable */
-     , (14878,   8,  100670274) /* Icon */
-     , (14878,  22,  872415349) /* PhysicsEffectTable */
+VALUES (14878,   1, 0x02000C55) /* Setup */
+     , (14878,   2, 0x0900008F) /* MotionTable */
+     , (14878,   3, 0x2000005A) /* SoundTable */
+     , (14878,   4, 0x30000000) /* CombatTable */
+     , (14878,   8, 0x06001B42) /* Icon */
+     , (14878,  22, 0x34000075) /* PhysicsEffectTable */
      , (14878,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

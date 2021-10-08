@@ -68,14 +68,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12038,   1, 'Dread Ursuin') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12038,   1,   33556773) /* Setup */
-     , (12038,   2,  150995100) /* MotionTable */
-     , (12038,   3,  536871011) /* SoundTable */
-     , (12038,   4,  805306409) /* CombatTable */
-     , (12038,   6,   67112944) /* PaletteBase */
-     , (12038,   7,  268436040) /* ClothingBase */
-     , (12038,   8,  100670959) /* Icon */
-     , (12038,  22,  872415366) /* PhysicsEffectTable */
+VALUES (12038,   1, 0x02000925) /* Setup */
+     , (12038,   2, 0x0900009C) /* MotionTable */
+     , (12038,   3, 0x20000063) /* SoundTable */
+     , (12038,   4, 0x30000029) /* CombatTable */
+     , (12038,   6, 0x04000FF0) /* PaletteBase */
+     , (12038,   7, 0x10000248) /* ClothingBase */
+     , (12038,   8, 0x06001DEF) /* Icon */
+     , (12038,  22, 0x34000086) /* PhysicsEffectTable */
      , (12038,  35,         21) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

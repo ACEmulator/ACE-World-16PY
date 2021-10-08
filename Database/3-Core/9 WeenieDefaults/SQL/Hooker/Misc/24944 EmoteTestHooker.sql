@@ -28,13 +28,13 @@ VALUES (24944,   1, 'EmoteTestHooker') /* Name */
      , (24944,  33, 'TestHookerQuest') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24944,   1,   33557175) /* Setup */
-     , (24944,   2,  150995136) /* MotionTable */
-     , (24944,   3,  536871030) /* SoundTable */
-     , (24944,   6,   67113280) /* PaletteBase */
-     , (24944,   7,  268436193) /* ClothingBase */
-     , (24944,   8,  100671756) /* Icon */
-     , (24944,  22,  872415270) /* PhysicsEffectTable */;
+VALUES (24944,   1, 0x02000AB7) /* Setup */
+     , (24944,   2, 0x090000C0) /* MotionTable */
+     , (24944,   3, 0x20000076) /* SoundTable */
+     , (24944,   6, 0x04001140) /* PaletteBase */
+     , (24944,   7, 0x100002E1) /* ClothingBase */
+     , (24944,   8, 0x0600210C) /* Icon */
+     , (24944,  22, 0x34000026) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (24944,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

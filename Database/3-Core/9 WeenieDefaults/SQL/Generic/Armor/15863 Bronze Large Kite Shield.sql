@@ -38,9 +38,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15863,   1, 'Bronze Large Kite Shield') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15863,   1,   33554788) /* Setup */
-     , (15863,   3,  536870932) /* SoundTable */
-     , (15863,   6,   67111919) /* PaletteBase */
-     , (15863,   7,  268435609) /* ClothingBase */
-     , (15863,   8,  100667360) /* Icon */
-     , (15863,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15863,   1, 0x02000164) /* Setup */
+     , (15863,   3, 0x20000014) /* SoundTable */
+     , (15863,   6, 0x04000BEF) /* PaletteBase */
+     , (15863,   7, 0x10000099) /* ClothingBase */
+     , (15863,   8, 0x06000FE0) /* Icon */
+     , (15863,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7121,   1, 'Skeleton Bone Lord') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7121,   1,   33555464) /* Setup */
-     , (7121,   2,  150994981) /* MotionTable */
-     , (7121,   3,  536870942) /* SoundTable */
-     , (7121,   4,  805306368) /* CombatTable */
-     , (7121,   6,   67111266) /* PaletteBase */
-     , (7121,   7,  268435646) /* ClothingBase */
-     , (7121,   8,  100669124) /* Icon */
-     , (7121,  22,  872415269) /* PhysicsEffectTable */
+VALUES (7121,   1, 0x02000408) /* Setup */
+     , (7121,   2, 0x09000025) /* MotionTable */
+     , (7121,   3, 0x2000001E) /* SoundTable */
+     , (7121,   4, 0x30000000) /* CombatTable */
+     , (7121,   6, 0x04000962) /* PaletteBase */
+     , (7121,   7, 0x100000BE) /* ClothingBase */
+     , (7121,   8, 0x060016C4) /* Icon */
+     , (7121,  22, 0x34000025) /* PhysicsEffectTable */
      , (7121,  32,        286) /* WieldedTreasureType - 
                                    Wield Yumi (23736) | Probability: 50%
                                    Wield 16x Greater Acid Arrow (5306) | Probability: 100%

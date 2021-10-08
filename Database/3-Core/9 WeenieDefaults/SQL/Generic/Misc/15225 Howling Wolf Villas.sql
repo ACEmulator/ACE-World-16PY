@@ -22,5 +22,5 @@ VALUES (15225,   1, 'Howling Wolf Villas') /* Name */
      , (15225,  16, 'Welcome to Howling Wolf Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15225,   1,   33557463) /* Setup */
-     , (15225,   8,  100668115) /* Icon */;
+VALUES (15225,   1, 0x02000BD7) /* Setup */
+     , (15225,   8, 0x060012D3) /* Icon */;

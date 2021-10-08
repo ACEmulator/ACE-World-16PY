@@ -25,7 +25,7 @@ VALUES (23051,   1, 'Endurance To Focus Gem') /* Name */
      , (23051,  14, 'Use this gem to transfer up to 10 points of your Endurance into your Focus.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23051,   1,   33558087) /* Setup */
-     , (23051,   6,   67111919) /* PaletteBase */
-     , (23051,   7,  268435723) /* ClothingBase */
-     , (23051,   8,  100673957) /* Icon */;
+VALUES (23051,   1, 0x02000E47) /* Setup */
+     , (23051,   6, 0x04000BEF) /* PaletteBase */
+     , (23051,   7, 0x1000010B) /* ClothingBase */
+     , (23051,   8, 0x060029A5) /* Icon */;

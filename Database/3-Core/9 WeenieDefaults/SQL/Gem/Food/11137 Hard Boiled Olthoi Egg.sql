@@ -36,10 +36,10 @@ VALUES (11137,   1, 'Hard Boiled Olthoi Egg') /* Name */
      , (11137,  16, 'A hard-boiled Olthoi Egg.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11137,   1,   33557217) /* Setup */
-     , (11137,   3,  536870932) /* SoundTable */
-     , (11137,   8,  100671977) /* Icon */
-     , (11137,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11137,   1, 0x02000AE1) /* Setup */
+     , (11137,   3, 0x20000014) /* SoundTable */
+     , (11137,   8, 0x060021E9) /* Icon */
+     , (11137,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11137,  23,         64) /* UseSound - Eat1 */
-     , (11137,  27,  318767233) /* UseUserAnimation - MimeEat */
+     , (11137,  27, 0x13000081) /* UseUserAnimation - MimeEat */
      , (11137,  28,       2435) /* Spell - Lightning Ward */;

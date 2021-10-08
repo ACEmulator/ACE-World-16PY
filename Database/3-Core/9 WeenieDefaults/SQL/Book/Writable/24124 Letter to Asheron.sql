@@ -23,10 +23,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24124,   1, 'Letter to Asheron') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24124,   1,   33557474) /* Setup */
-     , (24124,   3,  536870932) /* SoundTable */
-     , (24124,   8,  100668176) /* Icon */
-     , (24124,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24124,   1, 0x02000BE2) /* Setup */
+     , (24124,   3, 0x20000014) /* SoundTable */
+     , (24124,   8, 0x06001310) /* Icon */
+     , (24124,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (24124, 3, 1000);

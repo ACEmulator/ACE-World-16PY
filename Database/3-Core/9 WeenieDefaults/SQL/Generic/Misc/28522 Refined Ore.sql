@@ -27,9 +27,9 @@ VALUES (28522,   1, 'Refined Ore') /* Name */
      , (28522,  16, 'This sack is not overly heavy but you sense that the material within is worth a great deal to the recipient. Captain K''rank has charged you with delivering this to Feruza ibn Salaq at the Beach Fort west of Stonehold.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28522,   1,   33554817) /* Setup */
-     , (28522,   3,  536870932) /* SoundTable */
-     , (28522,   6,   67111919) /* PaletteBase */
-     , (28522,   7,  268435832) /* ClothingBase */
-     , (28522,   8,  100676966) /* Icon */
-     , (28522,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28522,   1, 0x02000181) /* Setup */
+     , (28522,   3, 0x20000014) /* SoundTable */
+     , (28522,   6, 0x04000BEF) /* PaletteBase */
+     , (28522,   7, 0x10000178) /* ClothingBase */
+     , (28522,   8, 0x06003566) /* Icon */
+     , (28522,  22, 0x3400002B) /* PhysicsEffectTable */;

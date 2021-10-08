@@ -65,13 +65,13 @@ VALUES (22892,   1, 'Student') /* Name */
      , (22892,   5, 'Noble') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22892,   1,   33557003) /* Setup */
-     , (22892,   2,  150994950) /* MotionTable */
-     , (22892,   3,  536870922) /* SoundTable */
-     , (22892,   4,  805306371) /* CombatTable */
-     , (22892,   6,   67113158) /* PaletteBase */
-     , (22892,   7,  268436154) /* ClothingBase */
-     , (22892,   8,  100667447) /* Icon */;
+VALUES (22892,   1, 0x02000A0B) /* Setup */
+     , (22892,   2, 0x09000006) /* MotionTable */
+     , (22892,   3, 0x2000000A) /* SoundTable */
+     , (22892,   4, 0x30000003) /* CombatTable */
+     , (22892,   6, 0x040010C6) /* PaletteBase */
+     , (22892,   7, 0x100002BA) /* ClothingBase */
+     , (22892,   8, 0x06001037) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22892,   1, 200, 0, 0) /* Strength */

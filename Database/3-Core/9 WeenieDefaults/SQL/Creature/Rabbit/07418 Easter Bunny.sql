@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7418,   1, 'Easter Bunny') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7418,   1,   33555579) /* Setup */
-     , (7418,   2,  150995042) /* MotionTable */
-     , (7418,   3,  536870973) /* SoundTable */
-     , (7418,   4,  805306389) /* CombatTable */
-     , (7418,   6,   67109300) /* PaletteBase */
-     , (7418,   7,  268435725) /* ClothingBase */
-     , (7418,   8,  100669116) /* Icon */
-     , (7418,  22,  872415277) /* PhysicsEffectTable */;
+VALUES (7418,   1, 0x0200047B) /* Setup */
+     , (7418,   2, 0x09000062) /* MotionTable */
+     , (7418,   3, 0x2000003D) /* SoundTable */
+     , (7418,   4, 0x30000015) /* CombatTable */
+     , (7418,   6, 0x040001B4) /* PaletteBase */
+     , (7418,   7, 0x1000010D) /* ClothingBase */
+     , (7418,   8, 0x060016BC) /* Icon */
+     , (7418,  22, 0x3400002D) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7418,   1, 400, 0, 0) /* Strength */

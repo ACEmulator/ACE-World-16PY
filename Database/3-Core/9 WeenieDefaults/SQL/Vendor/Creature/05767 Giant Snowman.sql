@@ -81,12 +81,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5767,   1, 'Giant Snowman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5767,   1,   33556222) /* Setup */
-     , (5767,   2,  150995088) /* MotionTable */
-     , (5767,   3,  536871000) /* SoundTable */
-     , (5767,   4,  805306406) /* CombatTable */
-     , (5767,   8,  100669125) /* Icon */
-     , (5767,  22,  872415346) /* PhysicsEffectTable */
+VALUES (5767,   1, 0x020006FE) /* Setup */
+     , (5767,   2, 0x09000090) /* MotionTable */
+     , (5767,   3, 0x20000058) /* SoundTable */
+     , (5767,   4, 0x30000026) /* CombatTable */
+     , (5767,   8, 0x060016C5) /* Icon */
+     , (5767,  22, 0x34000072) /* PhysicsEffectTable */
      , (5767,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

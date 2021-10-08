@@ -63,12 +63,12 @@ VALUES (25968,   1, 'Rheth Al''Thok') /* Name */
      , (25968,   4, 'Gharu''ndim') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25968,   1,   33554433) /* Setup */
-     , (25968,   2,  150994945) /* MotionTable */
-     , (25968,   3,  536870913) /* SoundTable */
-     , (25968,   4,  805306368) /* CombatTable */
-     , (25968,   8,  100667446) /* Icon */
-     , (25968,  22,  872415236) /* PhysicsEffectTable */
+VALUES (25968,   1, 0x02000001) /* Setup */
+     , (25968,   2, 0x09000001) /* MotionTable */
+     , (25968,   3, 0x20000001) /* SoundTable */
+     , (25968,   4, 0x30000000) /* CombatTable */
+     , (25968,   8, 0x06001036) /* Icon */
+     , (25968,  22, 0x34000004) /* PhysicsEffectTable */
      , (25968,  32,        418) /* WieldedTreasureType - 
                                    Wield Clean, Dry Towel (10758) | Palette: Blue (2) | Probability: 50%
                                    Wield Clean, Dry Towel (10758) | Palette: Green (8) | Probability: 50%

@@ -63,12 +63,12 @@ VALUES (27960,   1, 'Razorbound Flange') /* Name */
      , (27960,  15, 'A vile looking mace. Blades have been fashioned to the flange head to allow for the weapon to flay flesh.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27960,   1,   33558751) /* Setup */
-     , (27960,   2,  150995273) /* MotionTable */
-     , (27960,   3,  536871052) /* SoundTable */
-     , (27960,   4,  805306398) /* CombatTable */
-     , (27960,   8,  100676553) /* Icon */
-     , (27960,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (27960,   1, 0x020010DF) /* Setup */
+     , (27960,   2, 0x09000149) /* MotionTable */
+     , (27960,   3, 0x2000008C) /* SoundTable */
+     , (27960,   4, 0x3000001E) /* CombatTable */
+     , (27960,   8, 0x060033C9) /* Icon */
+     , (27960,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27960,   1, 380, 0, 0) /* Strength */

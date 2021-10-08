@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30545,   1, 'Blood of General Corcima') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30545,   1,   33554817) /* Setup */
-     , (30545,   3,  536870932) /* SoundTable */
-     , (30545,   6,   67111919) /* PaletteBase */
-     , (30545,   7,  268435832) /* ClothingBase */
-     , (30545,   8,  100670068) /* Icon */
-     , (30545,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30545,   1, 0x02000181) /* Setup */
+     , (30545,   3, 0x20000014) /* SoundTable */
+     , (30545,   6, 0x04000BEF) /* PaletteBase */
+     , (30545,   7, 0x10000178) /* ClothingBase */
+     , (30545,   8, 0x06001A74) /* Icon */
+     , (30545,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -40,9 +40,9 @@ VALUES (15886,   1, 'Bronze Longbow') /* Name */
      , (15886,  33, 'BowStatuePickUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15886,   1,   33554728) /* Setup */
-     , (15886,   3,  536870932) /* SoundTable */
-     , (15886,   6,   67111919) /* PaletteBase */
-     , (15886,   7,  268435759) /* ClothingBase */
-     , (15886,   8,  100668815) /* Icon */
-     , (15886,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15886,   1, 0x02000128) /* Setup */
+     , (15886,   3, 0x20000014) /* SoundTable */
+     , (15886,   6, 0x04000BEF) /* PaletteBase */
+     , (15886,   7, 0x1000012F) /* ClothingBase */
+     , (15886,   8, 0x0600158F) /* Icon */
+     , (15886,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8184,   1, 'Purge All Magic Other') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8184,   1,   33554667) /* Setup */
-     , (8184,   8,  100670799) /* Icon */
-     , (8184,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8184,   1, 0x020000EB) /* Setup */
+     , (8184,   8, 0x06001D4F) /* Icon */
+     , (8184,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8184,  28,       1871) /* Spell - Purge All Magic Other */;

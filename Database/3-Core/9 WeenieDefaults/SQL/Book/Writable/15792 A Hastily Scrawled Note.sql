@@ -25,10 +25,10 @@ VALUES (15792,   1, 'A Hastily Scrawled Note') /* Name */
      , (15792,  16, 'A note hastily written by Nuhmudira. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15792,   1,   33554773) /* Setup */
-     , (15792,   3,  536870932) /* SoundTable */
-     , (15792,   8,  100672795) /* Icon */
-     , (15792,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15792,   1, 0x02000155) /* Setup */
+     , (15792,   3, 0x20000014) /* SoundTable */
+     , (15792,   8, 0x0600251B) /* Icon */
+     , (15792,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (15792, 1, 1000);

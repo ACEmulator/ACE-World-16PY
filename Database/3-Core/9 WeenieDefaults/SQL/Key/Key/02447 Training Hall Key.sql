@@ -29,7 +29,7 @@ VALUES (2447,   1, 'Training Hall Key') /* Name */
      , (2447,  16, 'This plain key is used in the Training Hall.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2447,   1,   33554784) /* Setup */
-     , (2447,   3,  536870932) /* SoundTable */
-     , (2447,   8,  100667483) /* Icon */
-     , (2447,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (2447,   1, 0x02000160) /* Setup */
+     , (2447,   3, 0x20000014) /* SoundTable */
+     , (2447,   8, 0x0600105B) /* Icon */
+     , (2447,  22, 0x3400002B) /* PhysicsEffectTable */;

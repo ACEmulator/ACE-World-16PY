@@ -22,5 +22,5 @@ VALUES (19399,   1, 'Winthur Gate') /* Name */
      , (19399,  16, 'Winthur Gate') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19399,   1,   33557701) /* Setup */
-     , (19399,   8,  100667499) /* Icon */;
+VALUES (19399,   1, 0x02000CC5) /* Setup */
+     , (19399,   8, 0x0600106B) /* Icon */;

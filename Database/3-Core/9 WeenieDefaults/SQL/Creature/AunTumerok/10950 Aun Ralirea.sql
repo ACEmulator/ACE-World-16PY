@@ -71,14 +71,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10950,   1, 'Aun Ralirea') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10950,   1,   33557117) /* Setup */
-     , (10950,   2,  150994954) /* MotionTable */
-     , (10950,   3,  536870931) /* SoundTable */
-     , (10950,   4,  805306380) /* CombatTable */
-     , (10950,   6,   67113280) /* PaletteBase */
-     , (10950,   7,  268436193) /* ClothingBase */
-     , (10950,   8,  100671756) /* Icon */
-     , (10950,  22,  872415270) /* PhysicsEffectTable */
+VALUES (10950,   1, 0x02000A7D) /* Setup */
+     , (10950,   2, 0x0900000A) /* MotionTable */
+     , (10950,   3, 0x20000013) /* SoundTable */
+     , (10950,   4, 0x3000000C) /* CombatTable */
+     , (10950,   6, 0x04001140) /* PaletteBase */
+     , (10950,   7, 0x100002E1) /* ClothingBase */
+     , (10950,   8, 0x0600210C) /* Icon */
+     , (10950,  22, 0x34000026) /* PhysicsEffectTable */
      , (10950,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -38,10 +38,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3872,   1, 'Frost Simi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3872,   1,   33555768) /* Setup */
-     , (3872,   3,  536870932) /* SoundTable */
-     , (3872,   6,   67111919) /* PaletteBase */
-     , (3872,   7,  268435766) /* ClothingBase */
-     , (3872,   8,  100668164) /* Icon */
-     , (3872,  22,  872415275) /* PhysicsEffectTable */
-     , (3872,  36,  234881044) /* MutateFilter */;
+VALUES (3872,   1, 0x02000538) /* Setup */
+     , (3872,   3, 0x20000014) /* SoundTable */
+     , (3872,   6, 0x04000BEF) /* PaletteBase */
+     , (3872,   7, 0x10000136) /* ClothingBase */
+     , (3872,   8, 0x06001304) /* Icon */
+     , (3872,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3872,  36, 0x0E000014) /* MutateFilter */;

@@ -36,11 +36,11 @@ VALUES (26254,   1, 'Maedew Portal Gem') /* Name */
      , (26254,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26254,   1,   33556769) /* Setup */
-     , (26254,   3,  536870932) /* SoundTable */
-     , (26254,   6,   67111919) /* PaletteBase */
-     , (26254,   7,  268435723) /* ClothingBase */
-     , (26254,   8,  100675760) /* Icon */
-     , (26254,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26254,   1, 0x02000921) /* Setup */
+     , (26254,   3, 0x20000014) /* SoundTable */
+     , (26254,   6, 0x04000BEF) /* PaletteBase */
+     , (26254,   7, 0x1000010B) /* ClothingBase */
+     , (26254,   8, 0x060030B0) /* Icon */
+     , (26254,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26254,  28,        157) /* Spell - Summon Primary Portal I */
      , (26254,  31,      12516) /* LinkedPortalOne - Maedew Portal */;

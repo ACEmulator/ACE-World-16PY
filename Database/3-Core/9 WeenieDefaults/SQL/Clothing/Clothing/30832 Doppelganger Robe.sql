@@ -46,12 +46,12 @@ VALUES (30832,   1, 'Doppelganger Robe') /* Name */
      , (30832,  33, 'InfiltrationRobeAcquired0205') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30832,   1,   33554854) /* Setup */
-     , (30832,   3,  536870932) /* SoundTable */
-     , (30832,   6,   67108990) /* PaletteBase */
-     , (30832,   7,  268436906) /* ClothingBase */
-     , (30832,   8,  100670354) /* Icon */
-     , (30832,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30832,   1, 0x020001A6) /* Setup */
+     , (30832,   3, 0x20000014) /* SoundTable */
+     , (30832,   6, 0x0400007E) /* PaletteBase */
+     , (30832,   7, 0x100005AA) /* ClothingBase */
+     , (30832,   8, 0x06001B92) /* Icon */
+     , (30832,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30832,  3802,      2)  /* Shadow Reek */

@@ -24,7 +24,7 @@ VALUES (29024,   1, 'Scroll of Superior Soothing Wind') /* Name */
      , (29024,  15, 'A scroll imbued with the power of the spell Superior Soothing Wind.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29024,   1,   33554826) /* Setup */
-     , (29024,   8,  100676941) /* Icon */
-     , (29024,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29024,   1, 0x0200018A) /* Setup */
+     , (29024,   8, 0x0600354D) /* Icon */
+     , (29024,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29024,  28,       3477) /* Spell - Superior Soothing Wind */;

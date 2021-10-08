@@ -40,9 +40,9 @@ VALUES (27370,   1, 'Korua') /* Name */
      , (27370,  16, 'A beautifully carved cestus. Fuse this with a triple totem to create one of Palenqual''s living weapons.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27370,   1,   33558664) /* Setup */
-     , (27370,   3,  536870932) /* SoundTable */
-     , (27370,   6,   67113336) /* PaletteBase */
-     , (27370,   7,  268436252) /* ClothingBase */
-     , (27370,   8,  100676366) /* Icon */
-     , (27370,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27370,   1, 0x02001088) /* Setup */
+     , (27370,   3, 0x20000014) /* SoundTable */
+     , (27370,   6, 0x04001178) /* PaletteBase */
+     , (27370,   7, 0x1000031C) /* ClothingBase */
+     , (27370,   8, 0x0600330E) /* Icon */
+     , (27370,  22, 0x3400002B) /* PhysicsEffectTable */;

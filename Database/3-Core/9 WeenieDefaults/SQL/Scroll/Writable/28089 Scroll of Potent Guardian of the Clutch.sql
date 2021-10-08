@@ -24,7 +24,7 @@ VALUES (28089,   1, 'Scroll of Potent Guardian of the Clutch') /* Name */
      , (28089,  15, 'When learned, this spell enhances the Melee Defense of all Fellowship members by 40 points for 60 minutes.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28089,   1,   33554826) /* Setup */
-     , (28089,   8,  100676467) /* Icon */
-     , (28089,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28089,   1, 0x0200018A) /* Setup */
+     , (28089,   8, 0x06003373) /* Icon */
+     , (28089,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28089,  28,       3355) /* Spell - Potent Guardian of the Clutch */;

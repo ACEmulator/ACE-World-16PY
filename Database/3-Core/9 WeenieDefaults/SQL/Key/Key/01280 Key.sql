@@ -28,7 +28,7 @@ VALUES (1280,   1, 'Key') /* Name */
      , (1280,  16, 'This key opens a prison cell in the Bandit Castle Prison.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1280,   1,   33554784) /* Setup */
-     , (1280,   3,  536870932) /* SoundTable */
-     , (1280,   8,  100668435) /* Icon */
-     , (1280,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1280,   1, 0x02000160) /* Setup */
+     , (1280,   3, 0x20000014) /* SoundTable */
+     , (1280,   8, 0x06001413) /* Icon */
+     , (1280,  22, 0x3400002B) /* PhysicsEffectTable */;

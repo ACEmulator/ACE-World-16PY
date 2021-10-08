@@ -45,12 +45,12 @@ VALUES (23592,   1, 'Gauntlets of Marksmanship') /* Name */
      , (23592,  16, 'It seems these gauntlets were crafted in order to aid the wearer in firing any type of missile weapon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23592,   1,   33554648) /* Setup */
-     , (23592,   3,  536870932) /* SoundTable */
-     , (23592,   6,   67108990) /* PaletteBase */
-     , (23592,   7,  268436108) /* ClothingBase */
-     , (23592,   8,  100674091) /* Icon */
-     , (23592,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23592,   1, 0x020000D8) /* Setup */
+     , (23592,   3, 0x20000014) /* SoundTable */
+     , (23592,   6, 0x0400007E) /* PaletteBase */
+     , (23592,   7, 0x1000028C) /* ClothingBase */
+     , (23592,   8, 0x06002A2B) /* Icon */
+     , (23592,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23592,   248,      2)  /* Invulnerability Self V */

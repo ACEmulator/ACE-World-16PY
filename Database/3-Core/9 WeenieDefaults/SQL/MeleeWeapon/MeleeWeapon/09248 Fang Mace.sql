@@ -36,8 +36,8 @@ VALUES (9248,   1, 'Fang Mace') /* Name */
      , (9248,  16, 'A mace carved from the canine of a Dire Ursuin.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9248,   1,   33556993) /* Setup */
-     , (9248,   3,  536870932) /* SoundTable */
-     , (9248,   8,  100671417) /* Icon */
-     , (9248,  22,  872415275) /* PhysicsEffectTable */
-     , (9248,  36,  234881044) /* MutateFilter */;
+VALUES (9248,   1, 0x02000A01) /* Setup */
+     , (9248,   3, 0x20000014) /* SoundTable */
+     , (9248,   8, 0x06001FB9) /* Icon */
+     , (9248,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (9248,  36, 0x0E000014) /* MutateFilter */;

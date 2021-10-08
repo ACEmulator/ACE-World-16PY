@@ -23,7 +23,7 @@ VALUES (1803,   1, 'Sammam the Wise') /* Name */
      , (1803,  16, 'Sammam the Wise') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1803,   1,   33555909) /* Setup */
-     , (1803,   6,   67111860) /* PaletteBase */
-     , (1803,   7,  268435824) /* ClothingBase */
-     , (1803,   8,  100668115) /* Icon */;
+VALUES (1803,   1, 0x020005C5) /* Setup */
+     , (1803,   6, 0x04000BB4) /* PaletteBase */
+     , (1803,   7, 0x10000170) /* ClothingBase */
+     , (1803,   8, 0x060012D3) /* Icon */;

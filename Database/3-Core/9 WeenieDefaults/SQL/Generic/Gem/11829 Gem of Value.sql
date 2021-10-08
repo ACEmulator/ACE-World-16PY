@@ -25,10 +25,10 @@ VALUES (11829,   1, 'Gem of Value') /* Name */
      , (11829,  16, 'This is a gem of significant value.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11829,   1,   33554809) /* Setup */
-     , (11829,   3,  536870932) /* SoundTable */
-     , (11829,   6,   67111919) /* PaletteBase */
-     , (11829,   7,  268435723) /* ClothingBase */
-     , (11829,   8,  100672151) /* Icon */
-     , (11829,  22,  872415275) /* PhysicsEffectTable */
-     , (11829,  36,  234881046) /* MutateFilter */;
+VALUES (11829,   1, 0x02000179) /* Setup */
+     , (11829,   3, 0x20000014) /* SoundTable */
+     , (11829,   6, 0x04000BEF) /* PaletteBase */
+     , (11829,   7, 0x1000010B) /* ClothingBase */
+     , (11829,   8, 0x06002297) /* Icon */
+     , (11829,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11829,  36, 0x0E000016) /* MutateFilter */;

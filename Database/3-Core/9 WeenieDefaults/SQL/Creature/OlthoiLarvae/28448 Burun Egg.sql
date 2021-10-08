@@ -66,12 +66,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28448,   1, 'Burun Egg') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28448,   1,   33558853) /* Setup */
-     , (28448,   2,  150995239) /* MotionTable */
-     , (28448,   3,  536871069) /* SoundTable */
-     , (28448,   4,  805306369) /* CombatTable */
-     , (28448,   8,  100676958) /* Icon */
-     , (28448,  22,  872415265) /* PhysicsEffectTable */
+VALUES (28448,   1, 0x02001145) /* Setup */
+     , (28448,   2, 0x09000127) /* MotionTable */
+     , (28448,   3, 0x2000009D) /* SoundTable */
+     , (28448,   4, 0x30000001) /* CombatTable */
+     , (28448,   8, 0x0600355E) /* Icon */
+     , (28448,  22, 0x34000021) /* PhysicsEffectTable */
      , (28448,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

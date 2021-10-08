@@ -45,13 +45,13 @@ VALUES (10935,   1, 'Habitat Cache') /* Name */
      , (10935,  17, 'The flesh of the Virindi cache peels back with a sticky pop.') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10935,   1,   33557001) /* Setup */
-     , (10935,   2,  150995121) /* MotionTable */
-     , (10935,   3,  536871023) /* SoundTable */
-     , (10935,   6,   67111346) /* PaletteBase */
-     , (10935,   7,  268436149) /* ClothingBase */
-     , (10935,   8,  100671465) /* Icon */
-     , (10935,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (10935,   1, 0x02000A09) /* Setup */
+     , (10935,   2, 0x090000B1) /* MotionTable */
+     , (10935,   3, 0x2000006F) /* SoundTable */
+     , (10935,   6, 0x040009B2) /* PaletteBase */
+     , (10935,   7, 0x100002B5) /* ClothingBase */
+     , (10935,   8, 0x06001FE9) /* Icon */
+     , (10935,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (10935,  16, 0x00000000) /* ActivationTarget */;

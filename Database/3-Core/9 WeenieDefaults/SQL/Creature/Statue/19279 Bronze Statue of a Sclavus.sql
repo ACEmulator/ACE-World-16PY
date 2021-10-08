@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19279,   1, 'Bronze Statue of a Sclavus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19279,   1,   33555608) /* Setup */
-     , (19279,   2,  150995186) /* MotionTable */
-     , (19279,   3,  536871052) /* SoundTable */
-     , (19279,   4,  805306393) /* CombatTable */
-     , (19279,   6,   67111936) /* PaletteBase */
-     , (19279,   7,  268435727) /* ClothingBase */
-     , (19279,   8,  100669120) /* Icon */
-     , (19279,  22,  872415349) /* PhysicsEffectTable */
+VALUES (19279,   1, 0x02000498) /* Setup */
+     , (19279,   2, 0x090000F2) /* MotionTable */
+     , (19279,   3, 0x2000008C) /* SoundTable */
+     , (19279,   4, 0x30000019) /* CombatTable */
+     , (19279,   6, 0x04000C00) /* PaletteBase */
+     , (19279,   7, 0x1000010F) /* ClothingBase */
+     , (19279,   8, 0x060016C0) /* Icon */
+     , (19279,  22, 0x34000075) /* PhysicsEffectTable */
      , (19279,  32,        400) /* WieldedTreasureType - 
                                    Wield Bronze Heavy Crossbow (15875) | Probability: 67%
                                    Wield 20x Greater Acid Quarrel (5314) | Probability: 16%

@@ -26,9 +26,9 @@ VALUES (8656,   1, 'Shreth Hide') /* Name */
      , (8656,  16, 'A Shreth hide.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8656,   1,   33554817) /* Setup */
-     , (8656,   3,  536870932) /* SoundTable */
-     , (8656,   6,   67111919) /* PaletteBase */
-     , (8656,   7,  268435832) /* ClothingBase */
-     , (8656,   8,  100671283) /* Icon */
-     , (8656,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8656,   1, 0x02000181) /* Setup */
+     , (8656,   3, 0x20000014) /* SoundTable */
+     , (8656,   6, 0x04000BEF) /* PaletteBase */
+     , (8656,   7, 0x10000178) /* ClothingBase */
+     , (8656,   8, 0x06001F33) /* Icon */
+     , (8656,  22, 0x3400002B) /* PhysicsEffectTable */;

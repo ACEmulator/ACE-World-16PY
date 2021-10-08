@@ -74,11 +74,11 @@ VALUES (795,   1, 'Archmage Yuzai Zhen') /* Name */
      , (795,  24, 'Mayoi') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (795,   1,   33554510) /* Setup */
-     , (795,   2,  150994945) /* MotionTable */
-     , (795,   3,  536870914) /* SoundTable */
-     , (795,   4,  805306368) /* CombatTable */
-     , (795,   8,  100667446) /* Icon */;
+VALUES (795,   1, 0x0200004E) /* Setup */
+     , (795,   2, 0x09000001) /* MotionTable */
+     , (795,   3, 0x20000002) /* SoundTable */
+     , (795,   4, 0x30000000) /* CombatTable */
+     , (795,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (795,   1,  40, 0, 0) /* Strength */

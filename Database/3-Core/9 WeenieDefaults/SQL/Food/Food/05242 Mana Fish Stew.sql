@@ -29,7 +29,7 @@ VALUES (5242,   1, 'Mana Fish Stew') /* Name */
      , (5242,  20, 'Bowls of Mana Fish Stew ') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5242,   1,   33555968) /* Setup */
-     , (5242,   3,  536870932) /* SoundTable */
-     , (5242,   8,  100669958) /* Icon */
-     , (5242,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5242,   1, 0x02000600) /* Setup */
+     , (5242,   3, 0x20000014) /* SoundTable */
+     , (5242,   8, 0x06001A06) /* Icon */
+     , (5242,  22, 0x3400002B) /* PhysicsEffectTable */;

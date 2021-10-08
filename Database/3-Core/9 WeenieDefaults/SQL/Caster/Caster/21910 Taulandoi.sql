@@ -41,11 +41,11 @@ VALUES (21910,   1, 'Taulandoi') /* Name */
      , (21910,  15, 'A stave carved from obsidian, a large sapphire rests at the tip.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21910,   1,   33557963) /* Setup */
-     , (21910,   3,  536870932) /* SoundTable */
-     , (21910,   8,  100673490) /* Icon */
-     , (21910,  22,  872415275) /* PhysicsEffectTable */
-     , (21910,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (21910,   1, 0x02000DCB) /* Setup */
+     , (21910,   3, 0x20000014) /* SoundTable */
+     , (21910,   8, 0x060027D2) /* Icon */
+     , (21910,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (21910,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (21910,  28,       2781) /* Spell - Lesser Elemental Fury */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

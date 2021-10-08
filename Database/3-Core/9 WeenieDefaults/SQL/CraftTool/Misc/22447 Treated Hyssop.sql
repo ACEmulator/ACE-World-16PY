@@ -31,9 +31,9 @@ VALUES (22447,   1, 'Treated Hyssop') /* Name */
      , (22447,  20, 'Bundles of Hyssop') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22447,   1,   33554817) /* Setup */
-     , (22447,   3,  536870932) /* SoundTable */
-     , (22447,   6,   67111919) /* PaletteBase */
-     , (22447,   7,  268435720) /* ClothingBase */
-     , (22447,   8,  100673802) /* Icon */
-     , (22447,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22447,   1, 0x02000181) /* Setup */
+     , (22447,   3, 0x20000014) /* SoundTable */
+     , (22447,   6, 0x04000BEF) /* PaletteBase */
+     , (22447,   7, 0x10000108) /* ClothingBase */
+     , (22447,   8, 0x0600290A) /* Icon */
+     , (22447,  22, 0x3400002B) /* PhysicsEffectTable */;

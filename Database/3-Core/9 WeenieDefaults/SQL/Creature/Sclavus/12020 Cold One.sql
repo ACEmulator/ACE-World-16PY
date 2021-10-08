@@ -71,14 +71,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12020,   1, 'Cold One') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12020,   1,   33555608) /* Setup */
-     , (12020,   2,  150995048) /* MotionTable */
-     , (12020,   3,  536870977) /* SoundTable */
-     , (12020,   4,  805306393) /* CombatTable */
-     , (12020,   6,   67111936) /* PaletteBase */
-     , (12020,   7,  268435727) /* ClothingBase */
-     , (12020,   8,  100669120) /* Icon */
-     , (12020,  22,  872415280) /* PhysicsEffectTable */
+VALUES (12020,   1, 0x02000498) /* Setup */
+     , (12020,   2, 0x09000068) /* MotionTable */
+     , (12020,   3, 0x20000041) /* SoundTable */
+     , (12020,   4, 0x30000019) /* CombatTable */
+     , (12020,   6, 0x04000C00) /* PaletteBase */
+     , (12020,   7, 0x1000010F) /* ClothingBase */
+     , (12020,   8, 0x060016C0) /* Icon */
+     , (12020,  22, 0x34000030) /* PhysicsEffectTable */
      , (12020,  32,        376) /* WieldedTreasureType - 
                                    Wield 5x Javelin (8620) | Probability: 25%
                                    Wield 4x Acid Javelin (8621) | Probability: 25%

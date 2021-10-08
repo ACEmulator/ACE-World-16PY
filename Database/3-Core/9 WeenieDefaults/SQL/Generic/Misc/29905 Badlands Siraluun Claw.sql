@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29905,   1, 'Badlands Siraluun Claw') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29905,   1,   33554817) /* Setup */
-     , (29905,   3,  536870932) /* SoundTable */
-     , (29905,   6,   67111919) /* PaletteBase */
-     , (29905,   7,  268435832) /* ClothingBase */
-     , (29905,   8,  100677298) /* Icon */
-     , (29905,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29905,   1, 0x02000181) /* Setup */
+     , (29905,   3, 0x20000014) /* SoundTable */
+     , (29905,   6, 0x04000BEF) /* PaletteBase */
+     , (29905,   7, 0x10000178) /* ClothingBase */
+     , (29905,   8, 0x060036B2) /* Icon */
+     , (29905,  22, 0x3400002B) /* PhysicsEffectTable */;

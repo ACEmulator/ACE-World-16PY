@@ -22,7 +22,7 @@ VALUES (8451,   1, 'Nature''s Balm') /* Name */
      , (8451,  16, 'Nature''s Balm') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8451,   1,   33555594) /* Setup */
-     , (8451,   6,   67111782) /* PaletteBase */
-     , (8451,   7,  268435692) /* ClothingBase */
-     , (8451,   8,  100668115) /* Icon */;
+VALUES (8451,   1, 0x0200048A) /* Setup */
+     , (8451,   6, 0x04000B66) /* PaletteBase */
+     , (8451,   7, 0x100000EC) /* ClothingBase */
+     , (8451,   8, 0x060012D3) /* Icon */;

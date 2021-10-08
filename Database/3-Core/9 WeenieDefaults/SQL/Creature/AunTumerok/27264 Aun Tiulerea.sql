@@ -66,13 +66,13 @@ VALUES (27264,   1, 'Aun Tiulerea') /* Name */
      , (27264,   5, 'Iron Golem Hunter') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27264,   1,   33557117) /* Setup */
-     , (27264,   2,  150994945) /* MotionTable */
-     , (27264,   3,  536870931) /* SoundTable */
-     , (27264,   4,  805306380) /* CombatTable */
-     , (27264,   6,   67113280) /* PaletteBase */
-     , (27264,   7,  268436193) /* ClothingBase */
-     , (27264,   8,  100671756) /* Icon */;
+VALUES (27264,   1, 0x02000A7D) /* Setup */
+     , (27264,   2, 0x09000001) /* MotionTable */
+     , (27264,   3, 0x20000013) /* SoundTable */
+     , (27264,   4, 0x3000000C) /* CombatTable */
+     , (27264,   6, 0x04001140) /* PaletteBase */
+     , (27264,   7, 0x100002E1) /* ClothingBase */
+     , (27264,   8, 0x0600210C) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27264,   1, 140, 0, 0) /* Strength */

@@ -34,7 +34,7 @@ VALUES (8741,   1, 'Yanshi Town Stamp') /* Name */
      , (8741,  33, 'NewbieQuestStampYanshi') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8741,   1,   33556922) /* Setup */
-     , (8741,   3,  536870932) /* SoundTable */
-     , (8741,   8,  100671218) /* Icon */
-     , (8741,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8741,   1, 0x020009BA) /* Setup */
+     , (8741,   3, 0x20000014) /* SoundTable */
+     , (8741,   8, 0x06001EF2) /* Icon */
+     , (8741,  22, 0x3400002B) /* PhysicsEffectTable */;

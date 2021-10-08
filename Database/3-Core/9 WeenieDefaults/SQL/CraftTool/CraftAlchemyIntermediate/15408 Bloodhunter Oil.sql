@@ -30,9 +30,9 @@ VALUES (15408,   1, 'Bloodhunter Oil') /* Name */
      , (15408,  20, 'Vials of Bloodhunter Oil') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15408,   1,   33555967) /* Setup */
-     , (15408,   3,  536870932) /* SoundTable */
-     , (15408,   6,   67111919) /* PaletteBase */
-     , (15408,   7,  268435815) /* ClothingBase */
-     , (15408,   8,  100672647) /* Icon */
-     , (15408,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15408,   1, 0x020005FF) /* Setup */
+     , (15408,   3, 0x20000014) /* SoundTable */
+     , (15408,   6, 0x04000BEF) /* PaletteBase */
+     , (15408,   7, 0x10000167) /* ClothingBase */
+     , (15408,   8, 0x06002487) /* Icon */
+     , (15408,  22, 0x3400002B) /* PhysicsEffectTable */;

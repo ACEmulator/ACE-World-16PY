@@ -40,9 +40,9 @@ VALUES (14918,   1, 'Emblem of Marriage') /* Name */
      , (14918,  16, 'This lightweight, shield-shaped emblem server as evidence that the bearer is married.  It is customary to inscribe the shield with the name of the beloved partner.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14918,   1,   33557612) /* Setup */
-     , (14918,   3,  536870932) /* SoundTable */
-     , (14918,   6,   67111919) /* PaletteBase */
-     , (14918,   7,  268436351) /* ClothingBase */
-     , (14918,   8,  100672696) /* Icon */
-     , (14918,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14918,   1, 0x02000C6C) /* Setup */
+     , (14918,   3, 0x20000014) /* SoundTable */
+     , (14918,   6, 0x04000BEF) /* PaletteBase */
+     , (14918,   7, 0x1000037F) /* ClothingBase */
+     , (14918,   8, 0x060024B8) /* Icon */
+     , (14918,  22, 0x3400002B) /* PhysicsEffectTable */;

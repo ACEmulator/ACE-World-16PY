@@ -46,11 +46,11 @@ VALUES (12156,   1, 'White Bunny Slippers') /* Name */
      , (12156,  16, 'A pair of white bunny slippers. This item can be used on an item hook.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12156,   1,   33557435) /* Setup */
-     , (12156,   6,   67108990) /* PaletteBase */
-     , (12156,   7,  268436307) /* ClothingBase */
-     , (12156,   8,  100672393) /* Icon */
-     , (12156,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12156,   1, 0x02000BBB) /* Setup */
+     , (12156,   6, 0x0400007E) /* PaletteBase */
+     , (12156,   7, 0x10000353) /* ClothingBase */
+     , (12156,   8, 0x06002389) /* Icon */
+     , (12156,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12156,   975,      2)  /* Jumping Mastery Self VI */

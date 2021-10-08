@@ -70,11 +70,11 @@ VALUES (4438,   1, 'Smith Baltiff') /* Name */
      , (4438,  24, 'Lytelthorpe') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4438,   1,   33554433) /* Setup */
-     , (4438,   2,  150994945) /* MotionTable */
-     , (4438,   3,  536870913) /* SoundTable */
-     , (4438,   4,  805306368) /* CombatTable */
-     , (4438,   8,  100667446) /* Icon */;
+VALUES (4438,   1, 0x02000001) /* Setup */
+     , (4438,   2, 0x09000001) /* MotionTable */
+     , (4438,   3, 0x20000001) /* SoundTable */
+     , (4438,   4, 0x30000000) /* CombatTable */
+     , (4438,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4438,   1, 100, 0, 0) /* Strength */

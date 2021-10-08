@@ -26,6 +26,6 @@ VALUES (1445,   1, 'Fresh Fish') /* Name */
      , (1445,  20, 'Fresh Fish') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1445,   1,   33554674) /* Setup */
-     , (1445,   8,  100667461) /* Icon */
-     , (1445,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1445,   1, 0x020000F2) /* Setup */
+     , (1445,   8, 0x06001045) /* Icon */
+     , (1445,  22, 0x3400002B) /* PhysicsEffectTable */;

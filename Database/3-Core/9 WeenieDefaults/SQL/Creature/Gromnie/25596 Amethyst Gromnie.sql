@@ -61,14 +61,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25596,   1, 'Amethyst Gromnie') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25596,   1,   33554487) /* Setup */
-     , (25596,   2,  150994971) /* MotionTable */
-     , (25596,   3,  536870921) /* SoundTable */
-     , (25596,   4,  805306386) /* CombatTable */
-     , (25596,   6,   67109547) /* PaletteBase */
-     , (25596,   7,  268435631) /* ClothingBase */
-     , (25596,   8,  100667938) /* Icon */
-     , (25596,  22,  872415260) /* PhysicsEffectTable */
+VALUES (25596,   1, 0x02000037) /* Setup */
+     , (25596,   2, 0x0900001B) /* MotionTable */
+     , (25596,   3, 0x20000009) /* SoundTable */
+     , (25596,   4, 0x30000012) /* CombatTable */
+     , (25596,   6, 0x040002AB) /* PaletteBase */
+     , (25596,   7, 0x100000AF) /* ClothingBase */
+     , (25596,   8, 0x06001222) /* Icon */
+     , (25596,  22, 0x3400001C) /* PhysicsEffectTable */
      , (25596,  30,         87) /* PhysicsScript - BreatheLightning */
      , (25596,  35,        458) /* DeathTreasureType - Loot Tier: 5 */;
 

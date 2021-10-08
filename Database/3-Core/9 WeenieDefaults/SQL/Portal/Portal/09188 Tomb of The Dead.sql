@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9188,   1, 'Tomb of The Dead') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9188,   1,   33555923) /* Setup */
-     , (9188,   2,  150994947) /* MotionTable */
-     , (9188,   8,  100667499) /* Icon */;
+VALUES (9188,   1, 0x020005D3) /* Setup */
+     , (9188,   2, 0x09000003) /* MotionTable */
+     , (9188,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (9188, 2, 0x01F301C6, 130, -90, 0, -0.707107, 0, -0, -0.707107) /* Destination */

@@ -28,10 +28,10 @@ VALUES (30374,   1, 'Eye of Muramm') /* Name */
      , (30374,  16, 'Describe me here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30374,   1,   33554812) /* Setup */
-     , (30374,   3,  536870932) /* SoundTable */
-     , (30374,   6,   67111919) /* PaletteBase */
-     , (30374,   7,  268435758) /* ClothingBase */
-     , (30374,   8,  100668792) /* Icon */
-     , (30374,  22,  872415275) /* PhysicsEffectTable */
-     , (30374,  27, 1073742049) /* UseUserAnimation - UseMagicWand */;
+VALUES (30374,   1, 0x0200017C) /* Setup */
+     , (30374,   3, 0x20000014) /* SoundTable */
+     , (30374,   6, 0x04000BEF) /* PaletteBase */
+     , (30374,   7, 0x1000012E) /* ClothingBase */
+     , (30374,   8, 0x06001578) /* Icon */
+     , (30374,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30374,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */;

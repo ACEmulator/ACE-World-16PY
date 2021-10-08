@@ -26,11 +26,11 @@ VALUES (5609,   1, 'PK Only Test Portal') /* Name */
      , (5609,  15, 'TEST PORTAL -- Only passable by PKs.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5609,   1,   33554867) /* Setup */
-     , (5609,   2,  150994947) /* MotionTable */
-     , (5609,   6,   67109370) /* PaletteBase */
-     , (5609,   7,  268435652) /* ClothingBase */
-     , (5609,   8,  100667499) /* Icon */;
+VALUES (5609,   1, 0x020001B3) /* Setup */
+     , (5609,   2, 0x09000003) /* MotionTable */
+     , (5609,   6, 0x040001FA) /* PaletteBase */
+     , (5609,   7, 0x100000C4) /* ClothingBase */
+     , (5609,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5609, 2, 0x828E001E, 77.6, 122.9, 124, -0.529919, 0, -0, -0.848048) /* Destination */

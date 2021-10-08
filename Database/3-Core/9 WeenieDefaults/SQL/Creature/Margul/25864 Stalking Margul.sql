@@ -68,14 +68,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25864,   1, 'Stalking Margul') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25864,   1,   33558554) /* Setup */
-     , (25864,   2,  150995263) /* MotionTable */
-     , (25864,   3,  536871080) /* SoundTable */
-     , (25864,   4,  805306426) /* CombatTable */
-     , (25864,   6,   67114728) /* PaletteBase */
-     , (25864,   7,  268436733) /* ClothingBase */
-     , (25864,   8,  100675661) /* Icon */
-     , (25864,  22,  872415401) /* PhysicsEffectTable */
+VALUES (25864,   1, 0x0200101A) /* Setup */
+     , (25864,   2, 0x0900013F) /* MotionTable */
+     , (25864,   3, 0x200000A8) /* SoundTable */
+     , (25864,   4, 0x3000003A) /* CombatTable */
+     , (25864,   6, 0x040016E8) /* PaletteBase */
+     , (25864,   7, 0x100004FD) /* ClothingBase */
+     , (25864,   8, 0x0600304D) /* Icon */
+     , (25864,  22, 0x340000A9) /* PhysicsEffectTable */
      , (25864,  30,         87) /* PhysicsScript - BreatheLightning */
      , (25864,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 

@@ -22,5 +22,5 @@ VALUES (14693,   1, 'East Morntide Villas') /* Name */
      , (14693,  16, 'Welcome to East Morntide Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14693,   1,   33557463) /* Setup */
-     , (14693,   8,  100668115) /* Icon */;
+VALUES (14693,   1, 0x02000BD7) /* Setup */
+     , (14693,   8, 0x060012D3) /* Icon */;

@@ -29,11 +29,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25581,   1, 'Sarcophagus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25581,   1,   33558502) /* Setup */
-     , (25581,   2,  150995260) /* MotionTable */
-     , (25581,   3,  536870949) /* SoundTable */
-     , (25581,   8,  100668183) /* Icon */
-     , (25581,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25581,   1, 0x02000FE6) /* Setup */
+     , (25581,   2, 0x0900013C) /* MotionTable */
+     , (25581,   3, 0x20000025) /* SoundTable */
+     , (25581,   8, 0x06001317) /* Icon */
+     , (25581,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (25581,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

@@ -31,7 +31,7 @@ VALUES (28915,   1, 'Fried Cinnamon Dough') /* Name */
      , (28915,  16, 'A lightly-fried, aromatic piece of fried cinnamon dough.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28915,   1,   33555968) /* Setup */
-     , (28915,   3,  536870932) /* SoundTable */
-     , (28915,   8,  100677052) /* Icon */
-     , (28915,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28915,   1, 0x02000600) /* Setup */
+     , (28915,   3, 0x20000014) /* SoundTable */
+     , (28915,   8, 0x060035BC) /* Icon */
+     , (28915,  22, 0x3400002B) /* PhysicsEffectTable */;

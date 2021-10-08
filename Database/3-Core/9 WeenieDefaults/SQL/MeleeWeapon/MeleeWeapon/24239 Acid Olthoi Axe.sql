@@ -43,10 +43,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24239,   1, 'Acid Olthoi Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24239,   1,   33558329) /* Setup */
-     , (24239,   3,  536870932) /* SoundTable */
-     , (24239,   8,  100674297) /* Icon */
-     , (24239,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24239,   1, 0x02000F39) /* Setup */
+     , (24239,   3, 0x20000014) /* SoundTable */
+     , (24239,   8, 0x06002AF9) /* Icon */
+     , (24239,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24239,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

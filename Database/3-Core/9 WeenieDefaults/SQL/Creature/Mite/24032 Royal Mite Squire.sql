@@ -62,14 +62,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24032,   1, 'Royal Mite Squire') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24032,   1,   33558657) /* Setup */
-     , (24032,   2,  150994955) /* MotionTable */
-     , (24032,   3,  536870923) /* SoundTable */
-     , (24032,   4,  805306384) /* CombatTable */
-     , (24032,   6,   67115137) /* PaletteBase */
-     , (24032,   7,  268436816) /* ClothingBase */
-     , (24032,   8,  100667448) /* Icon */
-     , (24032,  22,  872415263) /* PhysicsEffectTable */
+VALUES (24032,   1, 0x02001081) /* Setup */
+     , (24032,   2, 0x0900000B) /* MotionTable */
+     , (24032,   3, 0x2000000B) /* SoundTable */
+     , (24032,   4, 0x30000010) /* CombatTable */
+     , (24032,   6, 0x04001881) /* PaletteBase */
+     , (24032,   7, 0x10000550) /* ClothingBase */
+     , (24032,   8, 0x06001038) /* Icon */
+     , (24032,  22, 0x3400001F) /* PhysicsEffectTable */
      , (24032,  35,        457) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

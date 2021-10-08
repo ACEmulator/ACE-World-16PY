@@ -39,7 +39,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7579,   1, 'Lugian Morning Star') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7579,   1,   33554748) /* Setup */
-     , (7579,   3,  536870932) /* SoundTable */
-     , (7579,   8,  100667600) /* Icon */
-     , (7579,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7579,   1, 0x0200013C) /* Setup */
+     , (7579,   3, 0x20000014) /* SoundTable */
+     , (7579,   8, 0x060010D0) /* Icon */
+     , (7579,  22, 0x3400002B) /* PhysicsEffectTable */;

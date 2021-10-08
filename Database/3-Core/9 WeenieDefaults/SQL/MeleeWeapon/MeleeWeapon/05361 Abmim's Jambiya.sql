@@ -40,9 +40,9 @@ VALUES (5361,   1, 'Abmim''s Jambiya') /* Name */
      , (5361,  33, 'JambiyaAbmimPickup') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5361,   1,   33554887) /* Setup */
-     , (5361,   3,  536870932) /* SoundTable */
-     , (5361,   6,   67111919) /* PaletteBase */
-     , (5361,   7,  268435784) /* ClothingBase */
-     , (5361,   8,  100668885) /* Icon */
-     , (5361,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5361,   1, 0x020001C7) /* Setup */
+     , (5361,   3, 0x20000014) /* SoundTable */
+     , (5361,   6, 0x04000BEF) /* PaletteBase */
+     , (5361,   7, 0x10000148) /* ClothingBase */
+     , (5361,   8, 0x060015D5) /* Icon */
+     , (5361,  22, 0x3400002B) /* PhysicsEffectTable */;

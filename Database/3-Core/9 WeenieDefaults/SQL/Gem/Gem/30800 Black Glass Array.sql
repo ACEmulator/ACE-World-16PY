@@ -36,9 +36,9 @@ VALUES (30800,   1, 'Black Glass Array') /* Name */
      , (30800,  15, 'A collection of obsidian spheres magically suspended in the air by some unknown force.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30800,   1,   33559264) /* Setup */
-     , (30800,   3,  536870932) /* SoundTable */
-     , (30800,   8,  100677495) /* Icon */
-     , (30800,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30800,   1, 0x020012E0) /* Setup */
+     , (30800,   3, 0x20000014) /* SoundTable */
+     , (30800,   8, 0x06003777) /* Icon */
+     , (30800,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30800,  28,        157) /* Spell - Summon Primary Portal I */
      , (30800,  31,       4046) /* LinkedPortalOne - Obsidian Plains */;

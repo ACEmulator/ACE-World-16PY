@@ -35,11 +35,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22440,   1, 'Dirk') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22440,   1,   33558089) /* Setup */
-     , (22440,   3,  536870932) /* SoundTable */
-     , (22440,   6,   67111919) /* PaletteBase */
-     , (22440,   7,  268436501) /* ClothingBase */
-     , (22440,   8,  100673792) /* Icon */
-     , (22440,  22,  872415275) /* PhysicsEffectTable */
-     , (22440,  36,  234881053) /* MutateFilter */
-     , (22440,  46,  939524145) /* TsysMutationFilter */;
+VALUES (22440,   1, 0x02000E49) /* Setup */
+     , (22440,   3, 0x20000014) /* SoundTable */
+     , (22440,   6, 0x04000BEF) /* PaletteBase */
+     , (22440,   7, 0x10000415) /* ClothingBase */
+     , (22440,   8, 0x06002900) /* Icon */
+     , (22440,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (22440,  36, 0x0E00001D) /* MutateFilter */
+     , (22440,  46, 0x38000031) /* TsysMutationFilter */;

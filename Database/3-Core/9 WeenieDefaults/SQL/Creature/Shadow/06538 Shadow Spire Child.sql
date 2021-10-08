@@ -74,14 +74,14 @@ VALUES (6538,   1, 'Shadow Spire Child') /* Name */
      , (6538,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6538,   1,   33554433) /* Setup */
-     , (6538,   2,  150994945) /* MotionTable */
-     , (6538,   3,  536871090) /* SoundTable */
-     , (6538,   4,  805306368) /* CombatTable */
-     , (6538,   6,   67111797) /* PaletteBase */
-     , (6538,   7,  268435632) /* ClothingBase */
-     , (6538,   8,  100670397) /* Icon */
-     , (6538,  22,  872415331) /* PhysicsEffectTable */
+VALUES (6538,   1, 0x02000001) /* Setup */
+     , (6538,   2, 0x09000001) /* MotionTable */
+     , (6538,   3, 0x200000B2) /* SoundTable */
+     , (6538,   4, 0x30000000) /* CombatTable */
+     , (6538,   6, 0x04000B75) /* PaletteBase */
+     , (6538,   7, 0x100000B0) /* ClothingBase */
+     , (6538,   8, 0x06001BBD) /* Icon */
+     , (6538,  22, 0x34000063) /* PhysicsEffectTable */
      , (6538,  35,        174) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

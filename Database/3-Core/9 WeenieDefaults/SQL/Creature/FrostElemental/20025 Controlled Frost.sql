@@ -64,12 +64,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20025,   1, 'Controlled Frost') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20025,   1,   33557487) /* Setup */
-     , (20025,   2,  150995087) /* MotionTable */
-     , (20025,   3,  536871002) /* SoundTable */
-     , (20025,   4,  805306368) /* CombatTable */
-     , (20025,   8,  100672514) /* Icon */
-     , (20025,  22,  872415349) /* PhysicsEffectTable */;
+VALUES (20025,   1, 0x02000BEF) /* Setup */
+     , (20025,   2, 0x0900008F) /* MotionTable */
+     , (20025,   3, 0x2000005A) /* SoundTable */
+     , (20025,   4, 0x30000000) /* CombatTable */
+     , (20025,   8, 0x06002402) /* Icon */
+     , (20025,  22, 0x34000075) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (20025,   1, 170, 0, 0) /* Strength */

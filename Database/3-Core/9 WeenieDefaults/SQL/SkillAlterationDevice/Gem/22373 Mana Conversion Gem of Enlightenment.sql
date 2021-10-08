@@ -25,8 +25,8 @@ VALUES (22373,   1, 'Mana Conversion Gem of Enlightenment') /* Name */
      , (22373,  33, 'SkillAlterationGemPickedUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22373,   1,   33558088) /* Setup */
-     , (22373,   6,   67111919) /* PaletteBase */
-     , (22373,   7,  268435723) /* ClothingBase */
-     , (22373,   8,  100673788) /* Icon */
-     , (22373,  50,  100673777) /* IconOverlay */;
+VALUES (22373,   1, 0x02000E48) /* Setup */
+     , (22373,   6, 0x04000BEF) /* PaletteBase */
+     , (22373,   7, 0x1000010B) /* ClothingBase */
+     , (22373,   8, 0x060028FC) /* Icon */
+     , (22373,  50, 0x060028F1) /* IconOverlay */;

@@ -66,11 +66,11 @@ VALUES (5774,   1, 'Town Crier') /* Name */
      , (5774,   5, 'Herald') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5774,   1,   33554510) /* Setup */
-     , (5774,   2,  150994945) /* MotionTable */
-     , (5774,   3,  536870914) /* SoundTable */
-     , (5774,   4,  805306368) /* CombatTable */
-     , (5774,   8,  100667446) /* Icon */;
+VALUES (5774,   1, 0x0200004E) /* Setup */
+     , (5774,   2, 0x09000001) /* MotionTable */
+     , (5774,   3, 0x20000002) /* SoundTable */
+     , (5774,   4, 0x30000000) /* CombatTable */
+     , (5774,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5774,   1, 130, 0, 0) /* Strength */

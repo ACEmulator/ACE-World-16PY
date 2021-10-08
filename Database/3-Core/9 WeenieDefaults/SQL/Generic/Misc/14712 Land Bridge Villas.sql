@@ -22,5 +22,5 @@ VALUES (14712,   1, 'Land Bridge Villas') /* Name */
      , (14712,  16, 'Welcome to Land Bridge Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14712,   1,   33557463) /* Setup */
-     , (14712,   8,  100668115) /* Icon */;
+VALUES (14712,   1, 0x02000BD7) /* Setup */
+     , (14712,   8, 0x060012D3) /* Icon */;

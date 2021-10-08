@@ -37,10 +37,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3796,   1, 'Flaming Jambiya') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3796,   1,   33555717) /* Setup */
-     , (3796,   3,  536870932) /* SoundTable */
-     , (3796,   6,   67111919) /* PaletteBase */
-     , (3796,   7,  268435784) /* ClothingBase */
-     , (3796,   8,  100667592) /* Icon */
-     , (3796,  22,  872415275) /* PhysicsEffectTable */
-     , (3796,  36,  234881044) /* MutateFilter */;
+VALUES (3796,   1, 0x02000505) /* Setup */
+     , (3796,   3, 0x20000014) /* SoundTable */
+     , (3796,   6, 0x04000BEF) /* PaletteBase */
+     , (3796,   7, 0x10000148) /* ClothingBase */
+     , (3796,   8, 0x060010C8) /* Icon */
+     , (3796,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3796,  36, 0x0E000014) /* MutateFilter */;

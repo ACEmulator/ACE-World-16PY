@@ -32,7 +32,7 @@ VALUES (28872,   1, 'Armored Undead Arm ') /* Name */
      , (28872,  15, 'An armored undead arm.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28872,   1,   33559007) /* Setup */
-     , (28872,   3,  536870932) /* SoundTable */
-     , (28872,   8,  100677095) /* Icon */
-     , (28872,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28872,   1, 0x020011DF) /* Setup */
+     , (28872,   3, 0x20000014) /* SoundTable */
+     , (28872,   8, 0x060035E7) /* Icon */
+     , (28872,  22, 0x3400002B) /* PhysicsEffectTable */;

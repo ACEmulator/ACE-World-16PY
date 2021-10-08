@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2582,   1, 'Great Mattekar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2582,   1,   33555590) /* Setup */
-     , (2582,   2,  150995047) /* MotionTable */
-     , (2582,   3,  536870974) /* SoundTable */
-     , (2582,   4,  805306391) /* CombatTable */
-     , (2582,   6,   67111893) /* PaletteBase */
-     , (2582,   7,  268435729) /* ClothingBase */
-     , (2582,   8,  100669121) /* Icon */
-     , (2582,  22,  872415278) /* PhysicsEffectTable */
+VALUES (2582,   1, 0x02000486) /* Setup */
+     , (2582,   2, 0x09000067) /* MotionTable */
+     , (2582,   3, 0x2000003E) /* SoundTable */
+     , (2582,   4, 0x30000017) /* CombatTable */
+     , (2582,   6, 0x04000BD5) /* PaletteBase */
+     , (2582,   7, 0x10000111) /* ClothingBase */
+     , (2582,   8, 0x060016C1) /* Icon */
+     , (2582,  22, 0x3400002E) /* PhysicsEffectTable */
      , (2582,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -30,10 +30,10 @@ VALUES (30200,   1, 'Deceiver''s Crystal') /* Name */
      , (30200,  16, 'A lovely template for a rare magical gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30200,   1,   33554809) /* Setup */
-     , (30200,   3,  536870932) /* SoundTable */
-     , (30200,   6,   67111919) /* PaletteBase */
-     , (30200,   7,  268435723) /* ClothingBase */
-     , (30200,   8,  100674739) /* Icon */
-     , (30200,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30200,   1, 0x02000179) /* Setup */
+     , (30200,   3, 0x20000014) /* SoundTable */
+     , (30200,   6, 0x04000BEF) /* PaletteBase */
+     , (30200,   7, 0x1000010B) /* ClothingBase */
+     , (30200,   8, 0x06002CB3) /* Icon */
+     , (30200,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30200,  28,       3698) /* Spell - Prodigal Deception Mastery */;

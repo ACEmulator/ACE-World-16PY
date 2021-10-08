@@ -26,5 +26,5 @@ VALUES (515,   1, 'Superb Lockpick') /* Name */
      , (515,  14, 'Use this item on a locked door or chest to pick the lock.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (515,   1,   33554790) /* Setup */
-     , (515,   8,  100670830) /* Icon */;
+VALUES (515,   1, 0x02000166) /* Setup */
+     , (515,   8, 0x06001D6E) /* Icon */;

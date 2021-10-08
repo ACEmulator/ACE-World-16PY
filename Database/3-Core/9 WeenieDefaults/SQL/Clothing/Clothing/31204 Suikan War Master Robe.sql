@@ -43,12 +43,12 @@ VALUES (31204,   1, 'Suikan War Master Robe') /* Name */
      , (31204,  19, 'Sho') /* ItemHeritageGroupRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31204,   1,   33554854) /* Setup */
-     , (31204,   3,  536870932) /* SoundTable */
-     , (31204,   6,   67108990) /* PaletteBase */
-     , (31204,   7,  268435864) /* ClothingBase */
-     , (31204,   8,  100670380) /* Icon */
-     , (31204,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31204,   1, 0x020001A6) /* Setup */
+     , (31204,   3, 0x20000014) /* SoundTable */
+     , (31204,   6, 0x0400007E) /* PaletteBase */
+     , (31204,   7, 0x10000198) /* ClothingBase */
+     , (31204,   8, 0x06001BAC) /* Icon */
+     , (31204,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31204,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

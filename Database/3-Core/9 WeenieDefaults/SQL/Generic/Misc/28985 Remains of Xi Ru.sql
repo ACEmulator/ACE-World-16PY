@@ -26,7 +26,7 @@ VALUES (28985,   1, 'Remains of Xi Ru') /* Name */
      , (28985,  15, 'The skull and bones of Xi Ru, an apparent matron of importance.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28985,   1,   33558619) /* Setup */
-     , (28985,   3,  536870932) /* SoundTable */
-     , (28985,   8,  100675785) /* Icon */
-     , (28985,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28985,   1, 0x0200105B) /* Setup */
+     , (28985,   3, 0x20000014) /* SoundTable */
+     , (28985,   8, 0x060030C9) /* Icon */
+     , (28985,  22, 0x3400002B) /* PhysicsEffectTable */;

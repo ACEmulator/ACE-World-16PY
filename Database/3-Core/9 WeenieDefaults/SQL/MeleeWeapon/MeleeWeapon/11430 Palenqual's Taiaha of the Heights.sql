@@ -51,13 +51,13 @@ VALUES (11430,   1, 'Palenqual''s Taiaha of the Heights') /* Name */
      , (11430,  16, 'A taiaha fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11430,   1,   33557236) /* Setup */
-     , (11430,   3,  536870932) /* SoundTable */
-     , (11430,   6,   67113336) /* PaletteBase */
-     , (11430,   7,  268436249) /* ClothingBase */
-     , (11430,   8,  100672088) /* Icon */
-     , (11430,  22,  872415275) /* PhysicsEffectTable */
-     , (11430,  36,  234881044) /* MutateFilter */;
+VALUES (11430,   1, 0x02000AF4) /* Setup */
+     , (11430,   3, 0x20000014) /* SoundTable */
+     , (11430,   6, 0x04001178) /* PaletteBase */
+     , (11430,   7, 0x10000319) /* ClothingBase */
+     , (11430,   8, 0x06002258) /* Icon */
+     , (11430,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11430,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11430,  2471,      2)  /* Lesser Still Water */

@@ -40,7 +40,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29980,   1, 'Stone Hatchet') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29980,   1,   33558588) /* Setup */
-     , (29980,   3,  536870932) /* SoundTable */
-     , (29980,   8,  100675762) /* Icon */
-     , (29980,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29980,   1, 0x0200103C) /* Setup */
+     , (29980,   3, 0x20000014) /* SoundTable */
+     , (29980,   8, 0x060030B2) /* Icon */
+     , (29980,  22, 0x3400002B) /* PhysicsEffectTable */;

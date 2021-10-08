@@ -41,12 +41,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20171,   1, 'Superb Chilling Isparian Wand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20171,   1,   33557782) /* Setup */
-     , (20171,   3,  536870932) /* SoundTable */
-     , (20171,   6,   67111919) /* PaletteBase */
-     , (20171,   7,  268436395) /* ClothingBase */
-     , (20171,   8,  100672989) /* Icon */
-     , (20171,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20171,   1, 0x02000D16) /* Setup */
+     , (20171,   3, 0x20000014) /* SoundTable */
+     , (20171,   6, 0x04000BEF) /* PaletteBase */
+     , (20171,   7, 0x100003AB) /* ClothingBase */
+     , (20171,   8, 0x060025DD) /* Icon */
+     , (20171,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20171,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

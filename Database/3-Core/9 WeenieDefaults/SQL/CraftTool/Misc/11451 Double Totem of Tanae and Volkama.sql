@@ -36,7 +36,7 @@ VALUES (11451,   1, 'Double Totem of Tanae and Volkama') /* Name */
      , (11451,  16, 'A double totem representing two of the animas found on Palenqual. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11451,   1,   33557267) /* Setup */
-     , (11451,   3,  536870932) /* SoundTable */
-     , (11451,   8,  100671989) /* Icon */
-     , (11451,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11451,   1, 0x02000B13) /* Setup */
+     , (11451,   3, 0x20000014) /* SoundTable */
+     , (11451,   8, 0x060021F5) /* Icon */
+     , (11451,  22, 0x3400002B) /* PhysicsEffectTable */;

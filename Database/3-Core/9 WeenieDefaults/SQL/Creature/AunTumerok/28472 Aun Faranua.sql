@@ -64,13 +64,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28472,   1, 'Aun Faranua') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28472,   1,   33557175) /* Setup */
-     , (28472,   2,  150995136) /* MotionTable */
-     , (28472,   3,  536870931) /* SoundTable */
-     , (28472,   4,  805306380) /* CombatTable */
-     , (28472,   6,   67113280) /* PaletteBase */
-     , (28472,   7,  268436193) /* ClothingBase */
-     , (28472,   8,  100671756) /* Icon */
+VALUES (28472,   1, 0x02000AB7) /* Setup */
+     , (28472,   2, 0x090000C0) /* MotionTable */
+     , (28472,   3, 0x20000013) /* SoundTable */
+     , (28472,   4, 0x3000000C) /* CombatTable */
+     , (28472,   6, 0x04001140) /* PaletteBase */
+     , (28472,   7, 0x100002E1) /* ClothingBase */
+     , (28472,   8, 0x0600210C) /* Icon */
      , (28472,  32,        380) /* WieldedTreasureType - 
                                    Wield Buadren (11971) | Probability: 100% */;
 

@@ -51,12 +51,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20950,   1, 'Superb Shimmering Isparian Staff') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20950,   1,   33556261) /* Setup */
-     , (20950,   3,  536870932) /* SoundTable */
-     , (20950,   6,   67111919) /* PaletteBase */
-     , (20950,   7,  268436425) /* ClothingBase */
-     , (20950,   8,  100673241) /* Icon */
-     , (20950,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20950,   1, 0x02000725) /* Setup */
+     , (20950,   3, 0x20000014) /* SoundTable */
+     , (20950,   6, 0x04000BEF) /* PaletteBase */
+     , (20950,   7, 0x100003C9) /* ClothingBase */
+     , (20950,   8, 0x060026D9) /* Icon */
+     , (20950,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20950,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

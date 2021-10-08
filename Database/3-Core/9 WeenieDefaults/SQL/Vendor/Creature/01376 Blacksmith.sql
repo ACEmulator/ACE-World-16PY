@@ -69,11 +69,11 @@ VALUES (1376,   1, 'Blacksmith') /* Name */
      , (1376,   5, 'Blacksmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1376,   1,   33554510) /* Setup */
-     , (1376,   2,  150994945) /* MotionTable */
-     , (1376,   3,  536870914) /* SoundTable */
-     , (1376,   4,  805306368) /* CombatTable */
-     , (1376,   8,  100667446) /* Icon */;
+VALUES (1376,   1, 0x0200004E) /* Setup */
+     , (1376,   2, 0x09000001) /* MotionTable */
+     , (1376,   3, 0x20000002) /* SoundTable */
+     , (1376,   4, 0x30000000) /* CombatTable */
+     , (1376,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1376,   1,  80, 0, 0) /* Strength */

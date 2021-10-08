@@ -23,10 +23,10 @@ VALUES (757,   1, 'Colcothar') /* Name */
      , (757,  20, 'Colcothar Potions') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (757,   1,   33555209) /* Setup */
-     , (757,   3,  536870932) /* SoundTable */
-     , (757,   6,   67111919) /* PaletteBase */
-     , (757,   7,  268435719) /* ClothingBase */
-     , (757,   8,  100669701) /* Icon */
-     , (757,  22,  872415275) /* PhysicsEffectTable */
+VALUES (757,   1, 0x02000309) /* Setup */
+     , (757,   3, 0x20000014) /* SoundTable */
+     , (757,   6, 0x04000BEF) /* PaletteBase */
+     , (757,   7, 0x10000107) /* ClothingBase */
+     , (757,   8, 0x06001905) /* Icon */
+     , (757,  22, 0x3400002B) /* PhysicsEffectTable */
      , (757,  29,         41) /* SpellComponent */;

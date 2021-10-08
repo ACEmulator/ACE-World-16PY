@@ -47,12 +47,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23799,   1, 'Searing Celdon Breastplate') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23799,   1,   33554642) /* Setup */
-     , (23799,   3,  536870932) /* SoundTable */
-     , (23799,   6,   67108990) /* PaletteBase */
-     , (23799,   7,  268435848) /* ClothingBase */
-     , (23799,   8,  100674069) /* Icon */
-     , (23799,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23799,   1, 0x020000D2) /* Setup */
+     , (23799,   3, 0x20000014) /* SoundTable */
+     , (23799,   6, 0x0400007E) /* PaletteBase */
+     , (23799,   7, 0x10000188) /* ClothingBase */
+     , (23799,   8, 0x06002A15) /* Icon */
+     , (23799,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23799,  2611,      2)  /* Major Flame Ward */;

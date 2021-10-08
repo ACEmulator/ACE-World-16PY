@@ -36,9 +36,9 @@ VALUES (30802,   1, 'Soul Chalice') /* Name */
      , (30802,  15, 'A shimmering emerald chalice believed to hold the souls of the dead.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30802,   1,   33554661) /* Setup */
-     , (30802,   3,  536870932) /* SoundTable */
-     , (30802,   8,  100677498) /* Icon */
-     , (30802,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30802,   1, 0x020000E5) /* Setup */
+     , (30802,   3, 0x20000014) /* SoundTable */
+     , (30802,   8, 0x0600377A) /* Icon */
+     , (30802,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30802,  28,        157) /* Spell - Summon Primary Portal I */
      , (30802,  31,       9296) /* LinkedPortalOne - Panopticon Portal */;

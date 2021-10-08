@@ -36,10 +36,10 @@ VALUES (8780,   1, 'Dark Singularity') /* Name */
      , (8780,  16, 'A magical artifact resulting from the combination of the Heart of Shadow and a Fragment of the Singularity.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8780,   1,   33556928) /* Setup */
-     , (8780,   3,  536870932) /* SoundTable */
-     , (8780,   6,   67111919) /* PaletteBase */
-     , (8780,   7,  268435723) /* ClothingBase */
-     , (8780,   8,  100671221) /* Icon */
-     , (8780,  22,  872415275) /* PhysicsEffectTable */
-     , (8780,  36,  234881046) /* MutateFilter */;
+VALUES (8780,   1, 0x020009C0) /* Setup */
+     , (8780,   3, 0x20000014) /* SoundTable */
+     , (8780,   6, 0x04000BEF) /* PaletteBase */
+     , (8780,   7, 0x1000010B) /* ClothingBase */
+     , (8780,   8, 0x06001EF5) /* Icon */
+     , (8780,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8780,  36, 0x0E000016) /* MutateFilter */;

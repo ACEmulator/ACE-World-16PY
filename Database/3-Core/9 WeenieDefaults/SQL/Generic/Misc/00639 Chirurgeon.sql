@@ -22,7 +22,7 @@ VALUES (639,   1, 'Chirurgeon') /* Name */
      , (639,  16, 'Chirurgeon') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (639,   1,   33555088) /* Setup */
-     , (639,   6,   67111092) /* PaletteBase */
-     , (639,   7,  268435657) /* ClothingBase */
-     , (639,   8,  100668115) /* Icon */;
+VALUES (639,   1, 0x02000290) /* Setup */
+     , (639,   6, 0x040008B4) /* PaletteBase */
+     , (639,   7, 0x100000C9) /* ClothingBase */
+     , (639,   8, 0x060012D3) /* Icon */;

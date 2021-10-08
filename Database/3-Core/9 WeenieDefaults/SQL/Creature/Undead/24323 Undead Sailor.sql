@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24323,   1, 'Undead Sailor') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24323,   1,   33554839) /* Setup */
-     , (24323,   2,  150994967) /* MotionTable */
-     , (24323,   3,  536870934) /* SoundTable */
-     , (24323,   4,  805306368) /* CombatTable */
-     , (24323,   6,   67110722) /* PaletteBase */
-     , (24323,   7,  268436626) /* ClothingBase */
-     , (24323,   8,  100667942) /* Icon */
-     , (24323,  22,  872415272) /* PhysicsEffectTable */
+VALUES (24323,   1, 0x02000197) /* Setup */
+     , (24323,   2, 0x09000017) /* MotionTable */
+     , (24323,   3, 0x20000016) /* SoundTable */
+     , (24323,   4, 0x30000000) /* CombatTable */
+     , (24323,   6, 0x04000742) /* PaletteBase */
+     , (24323,   7, 0x10000492) /* ClothingBase */
+     , (24323,   8, 0x06001226) /* Icon */
+     , (24323,  22, 0x34000028) /* PhysicsEffectTable */
      , (24323,  32,        203) /* WieldedTreasureType - 
                                    Wield Yumi (23734) | Probability: 20%
                                    Wield 20x Deadly Arrow (15429) | Probability: 100%

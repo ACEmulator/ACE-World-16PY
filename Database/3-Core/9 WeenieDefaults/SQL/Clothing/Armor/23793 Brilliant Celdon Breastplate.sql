@@ -47,12 +47,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23793,   1, 'Brilliant Celdon Breastplate') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23793,   1,   33554642) /* Setup */
-     , (23793,   3,  536870932) /* SoundTable */
-     , (23793,   6,   67108990) /* PaletteBase */
-     , (23793,   7,  268435848) /* ClothingBase */
-     , (23793,   8,  100674069) /* Icon */
-     , (23793,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23793,   1, 0x020000D2) /* Setup */
+     , (23793,   3, 0x20000014) /* SoundTable */
+     , (23793,   6, 0x0400007E) /* PaletteBase */
+     , (23793,   7, 0x10000188) /* ClothingBase */
+     , (23793,   8, 0x06002A15) /* Icon */
+     , (23793,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23793,  2571,      2)  /* Major Armor */;

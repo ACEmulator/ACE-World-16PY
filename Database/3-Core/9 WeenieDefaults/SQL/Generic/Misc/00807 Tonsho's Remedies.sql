@@ -22,7 +22,7 @@ VALUES (807,   1, 'Tonsho''s Remedies') /* Name */
      , (807,  16, 'Tonsho''s Remedies') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (807,   1,   33555088) /* Setup */
-     , (807,   6,   67111092) /* PaletteBase */
-     , (807,   7,  268435657) /* ClothingBase */
-     , (807,   8,  100668115) /* Icon */;
+VALUES (807,   1, 0x02000290) /* Setup */
+     , (807,   6, 0x040008B4) /* PaletteBase */
+     , (807,   7, 0x100000C9) /* ClothingBase */
+     , (807,   8, 0x060012D3) /* Icon */;

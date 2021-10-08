@@ -69,13 +69,13 @@ VALUES (11377,   1, 'Hea Camauri the Barkeep') /* Name */
      , (11377,  24, 'Ahurenga') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11377,   1,   33554496) /* Setup */
-     , (11377,   2,  150994954) /* MotionTable */
-     , (11377,   3,  536870931) /* SoundTable */
-     , (11377,   4,  805306380) /* CombatTable */
-     , (11377,   6,   67109314) /* PaletteBase */
-     , (11377,   7,  268435647) /* ClothingBase */
-     , (11377,   8,  100667452) /* Icon */;
+VALUES (11377,   1, 0x02000040) /* Setup */
+     , (11377,   2, 0x0900000A) /* MotionTable */
+     , (11377,   3, 0x20000013) /* SoundTable */
+     , (11377,   4, 0x3000000C) /* CombatTable */
+     , (11377,   6, 0x040001C2) /* PaletteBase */
+     , (11377,   7, 0x100000BF) /* ClothingBase */
+     , (11377,   8, 0x0600103C) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11377,   1,  80, 0, 0) /* Strength */

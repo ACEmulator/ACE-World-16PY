@@ -25,7 +25,7 @@ VALUES (8950,   1, 'Scroll of Shock Wave Streak IV') /* Name */
      , (8950,  16, 'When learned, this spell sends a shock wave streaking towards the target. The wave does 16-30 points of bludgeoning damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8950,   1,   33554826) /* Setup */
-     , (8950,   8,  100677008) /* Icon */
-     , (8950,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8950,   1, 0x0200018A) /* Setup */
+     , (8950,   8, 0x06003590) /* Icon */
+     , (8950,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8950,  28,       1823) /* Spell - Shock Wave Streak IV */;

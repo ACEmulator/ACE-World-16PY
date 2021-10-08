@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28384,   1, 'Plocagruuk') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28384,   1,   33558582) /* Setup */
-     , (28384,   2,  150995272) /* MotionTable */
-     , (28384,   3,  536871083) /* SoundTable */
-     , (28384,   4,  805306427) /* CombatTable */
-     , (28384,   6,   67114919) /* PaletteBase */
-     , (28384,   7,  268436789) /* ClothingBase */
-     , (28384,   8,  100675761) /* Icon */
-     , (28384,  22,  872415402) /* PhysicsEffectTable */
+VALUES (28384,   1, 0x02001036) /* Setup */
+     , (28384,   2, 0x09000148) /* MotionTable */
+     , (28384,   3, 0x200000AB) /* SoundTable */
+     , (28384,   4, 0x3000003B) /* CombatTable */
+     , (28384,   6, 0x040017A7) /* PaletteBase */
+     , (28384,   7, 0x10000535) /* ClothingBase */
+     , (28384,   8, 0x060030B1) /* Icon */
+     , (28384,  22, 0x340000AA) /* PhysicsEffectTable */
      , (28384,  32,        471) /* WieldedTreasureType - 
                                    Wield Stone Axe (26026) | Probability: 20%
                                    Wield Bone Dagger (27123) | Probability: 20%

@@ -68,11 +68,11 @@ VALUES (22720,   1, 'Ketnan') /* Name */
      , (22720,   5, 'Entrepreneur') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22720,   1,   33554433) /* Setup */
-     , (22720,   2,  150994945) /* MotionTable */
-     , (22720,   3,  536870913) /* SoundTable */
-     , (22720,   4,  805306368) /* CombatTable */
-     , (22720,   8,  100667446) /* Icon */;
+VALUES (22720,   1, 0x02000001) /* Setup */
+     , (22720,   2, 0x09000001) /* MotionTable */
+     , (22720,   3, 0x20000001) /* SoundTable */
+     , (22720,   4, 0x30000000) /* CombatTable */
+     , (22720,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22720,   1,  70, 0, 0) /* Strength */

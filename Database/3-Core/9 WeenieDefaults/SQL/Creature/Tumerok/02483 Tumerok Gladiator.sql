@@ -62,14 +62,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2483,   1, 'Tumerok Gladiator') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2483,   1,   33554496) /* Setup */
-     , (2483,   2,  150994954) /* MotionTable */
-     , (2483,   3,  536870931) /* SoundTable */
-     , (2483,   4,  805306380) /* CombatTable */
-     , (2483,   6,   67109314) /* PaletteBase */
-     , (2483,   7,  268435647) /* ClothingBase */
-     , (2483,   8,  100667452) /* Icon */
-     , (2483,  22,  872415270) /* PhysicsEffectTable */
+VALUES (2483,   1, 0x02000040) /* Setup */
+     , (2483,   2, 0x0900000A) /* MotionTable */
+     , (2483,   3, 0x20000013) /* SoundTable */
+     , (2483,   4, 0x3000000C) /* CombatTable */
+     , (2483,   6, 0x040001C2) /* PaletteBase */
+     , (2483,   7, 0x100000BF) /* ClothingBase */
+     , (2483,   8, 0x0600103C) /* Icon */
+     , (2483,  22, 0x34000026) /* PhysicsEffectTable */
      , (2483,  32,        199) /* WieldedTreasureType - 
                                    Wield Yumi (23733) | Probability: 6%
                                    Wield 20x Deadly Armor Piercing Arrow (15431) | Probability: 100%

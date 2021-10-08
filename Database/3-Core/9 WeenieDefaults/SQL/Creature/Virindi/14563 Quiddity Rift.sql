@@ -71,12 +71,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14563,   1, 'Quiddity Rift') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14563,   1,   33557521) /* Setup */
-     , (14563,   2,  150995087) /* MotionTable */
-     , (14563,   3,  536871001) /* SoundTable */
-     , (14563,   4,  805306407) /* CombatTable */
-     , (14563,   8,  100672522) /* Icon */
-     , (14563,  22,  872415375) /* PhysicsEffectTable */
+VALUES (14563,   1, 0x02000C11) /* Setup */
+     , (14563,   2, 0x0900008F) /* MotionTable */
+     , (14563,   3, 0x20000059) /* SoundTable */
+     , (14563,   4, 0x30000027) /* CombatTable */
+     , (14563,   8, 0x0600240A) /* Icon */
+     , (14563,  22, 0x3400008F) /* PhysicsEffectTable */
      , (14563,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -45,12 +45,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6173,   1, 'Peerless Shivering Atlan Claw') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6173,   1,   33556317) /* Setup */
-     , (6173,   3,  536870932) /* SoundTable */
-     , (6173,   6,   67111919) /* PaletteBase */
-     , (6173,   7,  268435896) /* ClothingBase */
-     , (6173,   8,  100670528) /* Icon */
-     , (6173,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6173,   1, 0x0200075D) /* Setup */
+     , (6173,   3, 0x20000014) /* SoundTable */
+     , (6173,   6, 0x04000BEF) /* PaletteBase */
+     , (6173,   7, 0x100001B8) /* ClothingBase */
+     , (6173,   8, 0x06001C40) /* Icon */
+     , (6173,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6173,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -31,7 +31,7 @@ VALUES (28916,   1, 'Fried Mushroom Rice Dough') /* Name */
      , (28916,  16, 'A lightly-fried, aromatic piece of fried mushroom and rice dough.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28916,   1,   33555968) /* Setup */
-     , (28916,   3,  536870932) /* SoundTable */
-     , (28916,   8,  100677050) /* Icon */
-     , (28916,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28916,   1, 0x02000600) /* Setup */
+     , (28916,   3, 0x20000014) /* SoundTable */
+     , (28916,   8, 0x060035BA) /* Icon */
+     , (28916,  22, 0x3400002B) /* PhysicsEffectTable */;

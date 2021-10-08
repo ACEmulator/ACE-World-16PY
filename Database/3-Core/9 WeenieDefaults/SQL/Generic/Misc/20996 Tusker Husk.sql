@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20996,   1, 'Tusker Husk') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20996,   1,   33557475) /* Setup */
-     , (20996,   3,  536870932) /* SoundTable */
-     , (20996,   6,   67108990) /* PaletteBase */
-     , (20996,   7,  268436433) /* ClothingBase */
-     , (20996,   8,  100673257) /* Icon */
-     , (20996,  22,  872415275) /* PhysicsEffectTable */
-     , (20996,  36,  234881046) /* MutateFilter */;
+VALUES (20996,   1, 0x02000BE3) /* Setup */
+     , (20996,   3, 0x20000014) /* SoundTable */
+     , (20996,   6, 0x0400007E) /* PaletteBase */
+     , (20996,   7, 0x100003D1) /* ClothingBase */
+     , (20996,   8, 0x060026E9) /* Icon */
+     , (20996,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (20996,  36, 0x0E000016) /* MutateFilter */;

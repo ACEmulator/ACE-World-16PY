@@ -71,12 +71,12 @@ VALUES (28389,   1, 'Barrier') /* Name */
      , (28389,  15, 'A barrier constructed of muck and slime.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28389,   1,   33558871) /* Setup */
-     , (28389,   2,  150995309) /* MotionTable */
-     , (28389,   3,  536871052) /* SoundTable */
-     , (28389,   4,  805306398) /* CombatTable */
-     , (28389,   8,  100676956) /* Icon */
-     , (28389,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (28389,   1, 0x02001157) /* Setup */
+     , (28389,   2, 0x0900016D) /* MotionTable */
+     , (28389,   3, 0x2000008C) /* SoundTable */
+     , (28389,   4, 0x3000001E) /* CombatTable */
+     , (28389,   8, 0x0600355C) /* Icon */
+     , (28389,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28389,   1,   1, 0, 0) /* Strength */

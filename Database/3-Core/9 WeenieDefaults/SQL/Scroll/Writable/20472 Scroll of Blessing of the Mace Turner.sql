@@ -24,7 +24,7 @@ VALUES (20472,   1, 'Scroll of Blessing of the Mace Turner') /* Name */
      , (20472,  15, 'When learned, this spell reduces damage the caster takes from Bludgeoning by 65%.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20472,   1,   33554826) /* Setup */
-     , (20472,   8,  100676952) /* Icon */
-     , (20472,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20472,   1, 0x0200018A) /* Setup */
+     , (20472,   8, 0x06003558) /* Icon */
+     , (20472,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20472,  28,       2153) /* Spell - Blessing of the Mace Turner */;

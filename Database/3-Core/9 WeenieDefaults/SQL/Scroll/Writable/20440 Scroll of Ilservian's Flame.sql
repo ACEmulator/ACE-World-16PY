@@ -24,7 +24,7 @@ VALUES (20440,   1, 'Scroll of Ilservian''s Flame') /* Name */
      , (20440,  15, 'When learned, this spell shoots a bolt of flame at the target.  The bolt does 110-180 points of fire damage to the first thing it hits.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20440,   1,   33554826) /* Setup */
-     , (20440,   8,  100677022) /* Icon */
-     , (20440,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20440,   1, 0x0200018A) /* Setup */
+     , (20440,   8, 0x0600359E) /* Icon */
+     , (20440,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20440,  28,       2128) /* Spell - Ilservian's Flame */;

@@ -30,7 +30,7 @@ VALUES (23343,   1, 'Glass Token Half') /* Name */
      , (23343,  33, 'GotSpearTokenHalf2') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23343,   1,   33554784) /* Setup */
-     , (23343,   3,  536870932) /* SoundTable */
-     , (23343,   8,  100674011) /* Icon */
-     , (23343,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23343,   1, 0x02000160) /* Setup */
+     , (23343,   3, 0x20000014) /* SoundTable */
+     , (23343,   8, 0x060029DB) /* Icon */
+     , (23343,  22, 0x3400002B) /* PhysicsEffectTable */;

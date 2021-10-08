@@ -36,7 +36,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (524,   1, 'Starter Jitte') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (524,   1,   33554740) /* Setup */
-     , (524,   3,  536870932) /* SoundTable */
-     , (524,   8,  100667594) /* Icon */
-     , (524,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (524,   1, 0x02000134) /* Setup */
+     , (524,   3, 0x20000014) /* SoundTable */
+     , (524,   8, 0x060010CA) /* Icon */
+     , (524,  22, 0x3400002B) /* PhysicsEffectTable */;

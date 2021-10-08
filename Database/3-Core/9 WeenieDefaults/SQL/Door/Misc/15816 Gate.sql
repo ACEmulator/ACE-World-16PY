@@ -34,8 +34,8 @@ VALUES (15816,   1, 'Gate') /* Name */
      , (15816,  15, 'A Tumerok Gate.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15816,   1,   33557630) /* Setup */
-     , (15816,   2,  150995139) /* MotionTable */
-     , (15816,   3,  536870947) /* SoundTable */
-     , (15816,   8,  100668183) /* Icon */
-     , (15816,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15816,   1, 0x02000C7E) /* Setup */
+     , (15816,   2, 0x090000C3) /* MotionTable */
+     , (15816,   3, 0x20000023) /* SoundTable */
+     , (15816,   8, 0x06001317) /* Icon */
+     , (15816,  22, 0x3400002B) /* PhysicsEffectTable */;

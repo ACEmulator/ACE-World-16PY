@@ -44,10 +44,10 @@ VALUES (27907,   1, 'Kreerg''s Spear') /* Name */
      , (27907,  16, 'A spear modeled after the Mosswart hero Kreerg''s. A small stamp on the shaft reads: A Ketnan Product.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27907,   1,   33558800) /* Setup */
-     , (27907,   3,  536870932) /* SoundTable */
-     , (27907,   8,  100676619) /* Icon */
-     , (27907,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27907,   1, 0x02001110) /* Setup */
+     , (27907,   3, 0x20000014) /* SoundTable */
+     , (27907,   8, 0x0600340B) /* Icon */
+     , (27907,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27907,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

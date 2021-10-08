@@ -22,5 +22,5 @@ VALUES (4665,   1, 'Khayyaban: 1/2 mile') /* Name */
      , (4665,  16, 'Town of Khayyaban: 1/2 mile.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4665,   1,   33555088) /* Setup */
-     , (4665,   8,  100668115) /* Icon */;
+VALUES (4665,   1, 0x02000290) /* Setup */
+     , (4665,   8, 0x060012D3) /* Icon */;

@@ -22,7 +22,7 @@ VALUES (848,   1, 'Black Swan Inn') /* Name */
      , (848,  16, 'Black Swan Inn') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (848,   1,   33555594) /* Setup */
-     , (848,   6,   67111782) /* PaletteBase */
-     , (848,   7,  268435691) /* ClothingBase */
-     , (848,   8,  100668115) /* Icon */;
+VALUES (848,   1, 0x0200048A) /* Setup */
+     , (848,   6, 0x04000B66) /* PaletteBase */
+     , (848,   7, 0x100000EB) /* ClothingBase */
+     , (848,   8, 0x060012D3) /* Icon */;

@@ -22,5 +22,5 @@ VALUES (12644,   1, 'Plateau Hollow Settlement') /* Name */
      , (12644,  16, 'Welcome to Plateau Hollow Settlement') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12644,   1,   33557463) /* Setup */
-     , (12644,   8,  100668115) /* Icon */;
+VALUES (12644,   1, 0x02000BD7) /* Setup */
+     , (12644,   8, 0x060012D3) /* Icon */;

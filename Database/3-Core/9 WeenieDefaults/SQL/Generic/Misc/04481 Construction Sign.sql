@@ -22,5 +22,5 @@ VALUES (4481,   1, 'Construction Sign') /* Name */
      , (4481,  16, 'Under Construction! Bridge rennovations sponsored by the Rithwic Span Beautification Committee.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4481,   1,   33555088) /* Setup */
-     , (4481,   8,  100668115) /* Icon */;
+VALUES (4481,   1, 0x02000290) /* Setup */
+     , (4481,   8, 0x060012D3) /* Icon */;

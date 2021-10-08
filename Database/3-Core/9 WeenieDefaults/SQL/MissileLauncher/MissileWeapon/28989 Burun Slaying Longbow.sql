@@ -49,10 +49,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28989,   1, 'Burun Slaying Longbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28989,   1,   33558932) /* Setup */
-     , (28989,   3,  536870932) /* SoundTable */
-     , (28989,   8,  100676976) /* Icon */
-     , (28989,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28989,   1, 0x02001194) /* Setup */
+     , (28989,   3, 0x20000014) /* SoundTable */
+     , (28989,   8, 0x06003570) /* Icon */
+     , (28989,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28989,  1604,      2)  /* Aura of Defender Self V */

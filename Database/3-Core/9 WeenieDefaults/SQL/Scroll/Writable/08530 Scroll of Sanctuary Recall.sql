@@ -28,7 +28,7 @@ VALUES (8530,   1, 'Scroll of Sanctuary Recall') /* Name */
      , (8530,  33, 'novquest5') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8530,   1,   33554826) /* Setup */
-     , (8530,   8,  100669876) /* Icon */
-     , (8530,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8530,   1, 0x0200018A) /* Setup */
+     , (8530,   8, 0x060019B4) /* Icon */
+     , (8530,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8530,  28,       2023) /* Spell - Recall the Sanctuary */;

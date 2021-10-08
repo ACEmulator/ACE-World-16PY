@@ -22,5 +22,5 @@ VALUES (19390,   1, 'Mellas Court') /* Name */
      , (19390,  16, 'Mellas Court') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19390,   1,   33557699) /* Setup */
-     , (19390,   8,  100667499) /* Icon */;
+VALUES (19390,   1, 0x02000CC3) /* Setup */
+     , (19390,   8, 0x0600106B) /* Icon */;

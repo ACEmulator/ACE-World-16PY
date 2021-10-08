@@ -49,13 +49,13 @@ VALUES (10934,   1, 'Hea Raiders'' Cache') /* Name */
      , (10934,  16, 'A Virindi trove creature, used by their allied raiders among the Hea. It appears to have an outer shell laced with flecks of chorizite ore.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10934,   1,   33557001) /* Setup */
-     , (10934,   2,  150995121) /* MotionTable */
-     , (10934,   3,  536871023) /* SoundTable */
-     , (10934,   6,   67111346) /* PaletteBase */
-     , (10934,   7,  268436149) /* ClothingBase */
-     , (10934,   8,  100671464) /* Icon */
-     , (10934,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10934,   1, 0x02000A09) /* Setup */
+     , (10934,   2, 0x090000B1) /* MotionTable */
+     , (10934,   3, 0x2000006F) /* SoundTable */
+     , (10934,   6, 0x040009B2) /* PaletteBase */
+     , (10934,   7, 0x100002B5) /* ClothingBase */
+     , (10934,   8, 0x06001FE8) /* Icon */
+     , (10934,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10934,  28,       2636) /* Spell - Karenua's Curse */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

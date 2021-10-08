@@ -50,10 +50,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29926,   1, 'Regal Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29926,   1,   33559059) /* Setup */
-     , (29926,   3,  536870932) /* SoundTable */
-     , (29926,   8,  100676977) /* Icon */
-     , (29926,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29926,   1, 0x02001213) /* Setup */
+     , (29926,   3, 0x20000014) /* SoundTable */
+     , (29926,   8, 0x06003571) /* Icon */
+     , (29926,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29926,  1604,      2)  /* Aura of Defender Self V */

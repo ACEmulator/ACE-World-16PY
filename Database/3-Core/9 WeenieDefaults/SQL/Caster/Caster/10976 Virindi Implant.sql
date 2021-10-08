@@ -36,11 +36,11 @@ VALUES (10976,   1, 'Virindi Implant') /* Name */
      , (10976,  16, 'A purplish, veined lump, pulled from the chest cavity of a Hea Tumerok hunting reedshark named Utelari.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10976,   1,   33557223) /* Setup */
-     , (10976,   3,  536870932) /* SoundTable */
-     , (10976,   8,  100671870) /* Icon */
-     , (10976,  22,  872415275) /* PhysicsEffectTable */
-     , (10976,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (10976,   1, 0x02000AE7) /* Setup */
+     , (10976,   3, 0x20000014) /* SoundTable */
+     , (10976,   8, 0x0600217E) /* Icon */
+     , (10976,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (10976,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (10976,  28,       2421) /* Spell - Paralyzing Fear */
      , (10976,  37,         31) /* ItemSkillLimit - CreatureEnchantment */;
 

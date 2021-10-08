@@ -39,11 +39,11 @@ VALUES (29915,   1, 'Kithless Siraluun Stave') /* Name */
      , (29915,  16, 'A beautifully detailed stave crafted from the claw of a Kithless Siraluun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29915,   1,   33559111) /* Setup */
-     , (29915,   3,  536870932) /* SoundTable */
-     , (29915,   8,  100677335) /* Icon */
-     , (29915,  22,  872415275) /* PhysicsEffectTable */
-     , (29915,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (29915,   1, 0x02001247) /* Setup */
+     , (29915,   3, 0x20000014) /* SoundTable */
+     , (29915,   8, 0x060036D7) /* Icon */
+     , (29915,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29915,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (29915,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

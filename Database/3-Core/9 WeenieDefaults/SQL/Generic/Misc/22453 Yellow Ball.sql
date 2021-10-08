@@ -24,9 +24,9 @@ VALUES (22453,   1, 'Yellow Ball') /* Name */
      , (22453,  15, 'One of Bobo''s sons desires this ball.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22453,   1,   33554669) /* Setup */
-     , (22453,   3,  536870932) /* SoundTable */
-     , (22453,   6,   67111928) /* PaletteBase */
-     , (22453,   7,  268435751) /* ClothingBase */
-     , (22453,   8,  100668722) /* Icon */
-     , (22453,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22453,   1, 0x020000ED) /* Setup */
+     , (22453,   3, 0x20000014) /* SoundTable */
+     , (22453,   6, 0x04000BF8) /* PaletteBase */
+     , (22453,   7, 0x10000127) /* ClothingBase */
+     , (22453,   8, 0x06001532) /* Icon */
+     , (22453,  22, 0x3400002B) /* PhysicsEffectTable */;

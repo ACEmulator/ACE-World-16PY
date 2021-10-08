@@ -29,8 +29,8 @@ VALUES (29617,   1, 'Purple Axe') /* Name */
      , (29617,  16, 'A decorative purple axe.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29617,   1,   33559066) /* Setup */
-     , (29617,   3,  536870932) /* SoundTable */
-     , (29617,   6,   67111919) /* PaletteBase */
-     , (29617,   7,  268435779) /* ClothingBase */
-     , (29617,   8,  100668985) /* Icon */;
+VALUES (29617,   1, 0x0200121A) /* Setup */
+     , (29617,   3, 0x20000014) /* SoundTable */
+     , (29617,   6, 0x04000BEF) /* PaletteBase */
+     , (29617,   7, 0x10000143) /* ClothingBase */
+     , (29617,   8, 0x06001639) /* Icon */;

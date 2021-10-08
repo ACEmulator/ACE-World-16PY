@@ -28,7 +28,7 @@ VALUES (4741,   1, 'Pizza') /* Name */
      , (4741,  20, 'Pizzas') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4741,   1,   33555979) /* Setup */
-     , (4741,   3,  536870932) /* SoundTable */
-     , (4741,   8,  100669967) /* Icon */
-     , (4741,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4741,   1, 0x0200060B) /* Setup */
+     , (4741,   3, 0x20000014) /* SoundTable */
+     , (4741,   8, 0x06001A0F) /* Icon */
+     , (4741,  22, 0x3400002B) /* PhysicsEffectTable */;

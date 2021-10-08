@@ -27,9 +27,9 @@ VALUES (12200,   1, 'Tusker Backpack') /* Name */
      , (12200,  16, 'This tusker had an average sized brain.  Very odd, for a tusker...') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12200,   1,   33556826) /* Setup */
-     , (12200,   3,  536870932) /* SoundTable */
-     , (12200,   6,   67113007) /* PaletteBase */
-     , (12200,   7,  268436272) /* ClothingBase */
-     , (12200,   8,  100672177) /* Icon */
-     , (12200,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12200,   1, 0x0200095A) /* Setup */
+     , (12200,   3, 0x20000014) /* SoundTable */
+     , (12200,   6, 0x0400102F) /* PaletteBase */
+     , (12200,   7, 0x10000330) /* ClothingBase */
+     , (12200,   8, 0x060022B1) /* Icon */
+     , (12200,  22, 0x3400002B) /* PhysicsEffectTable */;

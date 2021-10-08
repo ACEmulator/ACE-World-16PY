@@ -22,5 +22,5 @@ VALUES (19193,   1, 'Unified Heart Villas') /* Name */
      , (19193,  16, 'Welcome to Unified Heart Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19193,   1,   33557463) /* Setup */
-     , (19193,   8,  100668115) /* Icon */;
+VALUES (19193,   1, 0x02000BD7) /* Setup */
+     , (19193,   8, 0x060012D3) /* Icon */;

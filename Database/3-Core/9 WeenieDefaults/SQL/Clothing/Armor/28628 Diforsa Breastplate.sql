@@ -37,11 +37,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28628,   1, 'Diforsa Breastplate') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28628,   1,   33554642) /* Setup */
-     , (28628,   3,  536870932) /* SoundTable */
-     , (28628,   6,   67108990) /* PaletteBase */
-     , (28628,   7,  268435460) /* ClothingBase */
-     , (28628,   8,  100667354) /* Icon */
-     , (28628,  22,  872415275) /* PhysicsEffectTable */
-     , (28628,  36,  234881042) /* MutateFilter */
-     , (28628,  46,  939524146) /* TsysMutationFilter */;
+VALUES (28628,   1, 0x020000D2) /* Setup */
+     , (28628,   3, 0x20000014) /* SoundTable */
+     , (28628,   6, 0x0400007E) /* PaletteBase */
+     , (28628,   7, 0x10000004) /* ClothingBase */
+     , (28628,   8, 0x06000FDA) /* Icon */
+     , (28628,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (28628,  36, 0x0E000012) /* MutateFilter */
+     , (28628,  46, 0x38000032) /* TsysMutationFilter */;

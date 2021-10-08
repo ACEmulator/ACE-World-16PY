@@ -38,10 +38,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7973,   1, 'Flaming Tachi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7973,   1,   33555732) /* Setup */
-     , (7973,   3,  536870932) /* SoundTable */
-     , (7973,   6,   67111919) /* PaletteBase */
-     , (7973,   7,  268435788) /* ClothingBase */
-     , (7973,   8,  100667934) /* Icon */
-     , (7973,  22,  872415275) /* PhysicsEffectTable */
-     , (7973,  36,  234881044) /* MutateFilter */;
+VALUES (7973,   1, 0x02000514) /* Setup */
+     , (7973,   3, 0x20000014) /* SoundTable */
+     , (7973,   6, 0x04000BEF) /* PaletteBase */
+     , (7973,   7, 0x1000014C) /* ClothingBase */
+     , (7973,   8, 0x0600121E) /* Icon */
+     , (7973,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (7973,  36, 0x0E000014) /* MutateFilter */;

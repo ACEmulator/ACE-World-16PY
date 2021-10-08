@@ -65,13 +65,13 @@ VALUES (22894,   1, 'Tornash') /* Name */
      , (22894,   5, 'Noble') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22894,   1,   33557003) /* Setup */
-     , (22894,   2,  150994950) /* MotionTable */
-     , (22894,   3,  536870922) /* SoundTable */
-     , (22894,   4,  805306371) /* CombatTable */
-     , (22894,   6,   67113158) /* PaletteBase */
-     , (22894,   7,  268436154) /* ClothingBase */
-     , (22894,   8,  100667447) /* Icon */;
+VALUES (22894,   1, 0x02000A0B) /* Setup */
+     , (22894,   2, 0x09000006) /* MotionTable */
+     , (22894,   3, 0x2000000A) /* SoundTable */
+     , (22894,   4, 0x30000003) /* CombatTable */
+     , (22894,   6, 0x040010C6) /* PaletteBase */
+     , (22894,   7, 0x100002BA) /* ClothingBase */
+     , (22894,   8, 0x06001037) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22894,   1, 200, 0, 0) /* Strength */

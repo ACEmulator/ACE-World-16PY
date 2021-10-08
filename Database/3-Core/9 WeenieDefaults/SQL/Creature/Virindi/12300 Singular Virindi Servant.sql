@@ -61,12 +61,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12300,   1, 'Singular Virindi Servant') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12300,   1,   33554497) /* Setup */
-     , (12300,   2,  150994984) /* MotionTable */
-     , (12300,   3,  536870930) /* SoundTable */
-     , (12300,   4,  805306381) /* CombatTable */
-     , (12300,   8,  100667943) /* Icon */
-     , (12300,  22,  872415273) /* PhysicsEffectTable */
+VALUES (12300,   1, 0x02000041) /* Setup */
+     , (12300,   2, 0x09000028) /* MotionTable */
+     , (12300,   3, 0x20000012) /* SoundTable */
+     , (12300,   4, 0x3000000D) /* CombatTable */
+     , (12300,   8, 0x06001227) /* Icon */
+     , (12300,  22, 0x34000029) /* PhysicsEffectTable */
      , (12300,  35,        245) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

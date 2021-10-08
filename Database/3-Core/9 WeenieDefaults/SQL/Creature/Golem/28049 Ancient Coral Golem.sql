@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28049,   1, 'Ancient Coral Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28049,   1,   33558578) /* Setup */
-     , (28049,   2,  150995073) /* MotionTable */
-     , (28049,   3,  536870933) /* SoundTable */
-     , (28049,   4,  805306376) /* CombatTable */
-     , (28049,   6,   67114905) /* PaletteBase */
-     , (28049,   7,  268436838) /* ClothingBase */
-     , (28049,   8,  100667940) /* Icon */
-     , (28049,  22,  872415322) /* PhysicsEffectTable */
+VALUES (28049,   1, 0x02001032) /* Setup */
+     , (28049,   2, 0x09000081) /* MotionTable */
+     , (28049,   3, 0x20000015) /* SoundTable */
+     , (28049,   4, 0x30000008) /* CombatTable */
+     , (28049,   6, 0x04001799) /* PaletteBase */
+     , (28049,   7, 0x10000566) /* ClothingBase */
+     , (28049,   8, 0x06001224) /* Icon */
+     , (28049,  22, 0x3400005A) /* PhysicsEffectTable */
      , (28049,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

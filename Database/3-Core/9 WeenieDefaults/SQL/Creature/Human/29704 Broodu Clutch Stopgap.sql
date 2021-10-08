@@ -66,11 +66,11 @@ VALUES (29704,   1, 'Broodu Clutch Stopgap') /* Name */
      , (29704,   5, 'Stopgap') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29704,   1,   33554433) /* Setup */
-     , (29704,   2,  150994945) /* MotionTable */
-     , (29704,   3,  536870913) /* SoundTable */
-     , (29704,   4,  805306368) /* CombatTable */
-     , (29704,   8,  100667446) /* Icon */;
+VALUES (29704,   1, 0x02000001) /* Setup */
+     , (29704,   2, 0x09000001) /* MotionTable */
+     , (29704,   3, 0x20000001) /* SoundTable */
+     , (29704,   4, 0x30000000) /* CombatTable */
+     , (29704,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29704,   1,  90, 0, 0) /* Strength */

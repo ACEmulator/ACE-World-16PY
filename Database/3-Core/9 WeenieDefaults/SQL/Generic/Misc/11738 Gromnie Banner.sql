@@ -24,10 +24,10 @@ VALUES (11738,   1, 'Gromnie Banner') /* Name */
      , (11738,  16, 'A banner with a gromnie on it.  It is in almost perfect condition, and the colors are quite vibrant.  As you gaze at the gromnie, it almost seems to be gazing back.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11738,   1,   33557239) /* Setup */
-     , (11738,   3,  536870932) /* SoundTable */
-     , (11738,   6,   67113338) /* PaletteBase */
-     , (11738,   7,  268436201) /* ClothingBase */
-     , (11738,   8,  100671889) /* Icon */
-     , (11738,  22,  872415275) /* PhysicsEffectTable */
-     , (11738,  36,  234881046) /* MutateFilter */;
+VALUES (11738,   1, 0x02000AF7) /* Setup */
+     , (11738,   3, 0x20000014) /* SoundTable */
+     , (11738,   6, 0x0400117A) /* PaletteBase */
+     , (11738,   7, 0x100002E9) /* ClothingBase */
+     , (11738,   8, 0x06002191) /* Icon */
+     , (11738,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11738,  36, 0x0E000016) /* MutateFilter */;

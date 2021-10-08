@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19263,   1, 'Gnawer Shreth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19263,   1,   33555908) /* Setup */
-     , (19263,   2,  150995072) /* MotionTable */
-     , (19263,   3,  536870986) /* SoundTable */
-     , (19263,   4,  805306399) /* CombatTable */
-     , (19263,   6,   67112444) /* PaletteBase */
-     , (19263,   7,  268435840) /* ClothingBase */
-     , (19263,   8,  100669720) /* Icon */
-     , (19263,  22,  872415333) /* PhysicsEffectTable */
+VALUES (19263,   1, 0x020005C4) /* Setup */
+     , (19263,   2, 0x09000080) /* MotionTable */
+     , (19263,   3, 0x2000004A) /* SoundTable */
+     , (19263,   4, 0x3000001F) /* CombatTable */
+     , (19263,   6, 0x04000DFC) /* PaletteBase */
+     , (19263,   7, 0x10000180) /* ClothingBase */
+     , (19263,   8, 0x06001918) /* Icon */
+     , (19263,  22, 0x34000065) /* PhysicsEffectTable */
      , (19263,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

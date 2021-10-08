@@ -23,5 +23,5 @@ VALUES (25771,   1, 'Alchemy Table') /* Name */
      , (25771,  16, 'A table with various alchemy supplies and tools on it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25771,   1,   33558527) /* Setup */
-     , (25771,   8,  100675554) /* Icon */;
+VALUES (25771,   1, 0x02000FFF) /* Setup */
+     , (25771,   8, 0x06002FE2) /* Icon */;

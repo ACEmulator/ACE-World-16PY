@@ -30,10 +30,10 @@ VALUES (30183,   1, 'Alchemist''s Crystal') /* Name */
      , (30183,  16, 'A lovely template for a rare magical gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30183,   1,   33554809) /* Setup */
-     , (30183,   3,  536870932) /* SoundTable */
-     , (30183,   6,   67111919) /* PaletteBase */
-     , (30183,   7,  268435723) /* ClothingBase */
-     , (30183,   8,  100674739) /* Icon */
-     , (30183,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30183,   1, 0x02000179) /* Setup */
+     , (30183,   3, 0x20000014) /* SoundTable */
+     , (30183,   6, 0x04000BEF) /* PaletteBase */
+     , (30183,   7, 0x1000010B) /* ClothingBase */
+     , (30183,   8, 0x06002CB3) /* Icon */
+     , (30183,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30183,  28,       3681) /* Spell - Prodigal Alchemy Mastery */;

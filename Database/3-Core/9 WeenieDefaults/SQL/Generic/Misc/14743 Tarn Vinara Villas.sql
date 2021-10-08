@@ -22,5 +22,5 @@ VALUES (14743,   1, 'Tarn Vinara Villas') /* Name */
      , (14743,  16, 'Welcome to Tarn Vinara Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14743,   1,   33557463) /* Setup */
-     , (14743,   8,  100668115) /* Icon */;
+VALUES (14743,   1, 0x02000BD7) /* Setup */
+     , (14743,   8, 0x060012D3) /* Icon */;

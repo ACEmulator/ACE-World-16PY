@@ -29,5 +29,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4614,   1, 'Moderate Mana Charge') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4614,   1,   33555639) /* Setup */
-     , (4614,   8,  100676298) /* Icon */;
+VALUES (4614,   1, 0x020004B7) /* Setup */
+     , (4614,   8, 0x060032CA) /* Icon */;

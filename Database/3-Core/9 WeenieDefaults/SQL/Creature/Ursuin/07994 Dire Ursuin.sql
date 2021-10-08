@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7994,   1, 'Dire Ursuin') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7994,   1,   33556773) /* Setup */
-     , (7994,   2,  150995100) /* MotionTable */
-     , (7994,   3,  536871011) /* SoundTable */
-     , (7994,   4,  805306409) /* CombatTable */
-     , (7994,   6,   67112944) /* PaletteBase */
-     , (7994,   7,  268436040) /* ClothingBase */
-     , (7994,   8,  100670959) /* Icon */
-     , (7994,  22,  872415366) /* PhysicsEffectTable */
+VALUES (7994,   1, 0x02000925) /* Setup */
+     , (7994,   2, 0x0900009C) /* MotionTable */
+     , (7994,   3, 0x20000063) /* SoundTable */
+     , (7994,   4, 0x30000029) /* CombatTable */
+     , (7994,   6, 0x04000FF0) /* PaletteBase */
+     , (7994,   7, 0x10000248) /* ClothingBase */
+     , (7994,   8, 0x06001DEF) /* Icon */
+     , (7994,  22, 0x34000086) /* PhysicsEffectTable */
      , (7994,  35,        457) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

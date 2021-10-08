@@ -31,8 +31,8 @@ VALUES (24687,   1, 'Verdigris and Amaranth Crucible') /* Name */
      , (24687,  20, 'Verdigris and Amaranth Crucibles') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24687,   1,   33555966) /* Setup */
-     , (24687,   3,  536870932) /* SoundTable */
-     , (24687,   8,  100674465) /* Icon */
-     , (24687,  22,  872415275) /* PhysicsEffectTable */
-     , (24687,  50,  100674416) /* IconOverlay */;
+VALUES (24687,   1, 0x020005FE) /* Setup */
+     , (24687,   3, 0x20000014) /* SoundTable */
+     , (24687,   8, 0x06002BA1) /* Icon */
+     , (24687,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24687,  50, 0x06002B70) /* IconOverlay */;

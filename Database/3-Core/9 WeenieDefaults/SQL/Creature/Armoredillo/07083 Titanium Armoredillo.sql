@@ -60,14 +60,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7083,   1, 'Titanium Armoredillo') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7083,   1,   33554436) /* Setup */
-     , (7083,   2,  150994972) /* MotionTable */
-     , (7083,   3,  536870915) /* SoundTable */
-     , (7083,   4,  805306382) /* CombatTable */
-     , (7083,   6,   67109301) /* PaletteBase */
-     , (7083,   7,  268436612) /* ClothingBase */
-     , (7083,   8,  100667935) /* Icon */
-     , (7083,  22,  872415253) /* PhysicsEffectTable */
+VALUES (7083,   1, 0x02000004) /* Setup */
+     , (7083,   2, 0x0900001C) /* MotionTable */
+     , (7083,   3, 0x20000003) /* SoundTable */
+     , (7083,   4, 0x3000000E) /* CombatTable */
+     , (7083,   6, 0x040001B5) /* PaletteBase */
+     , (7083,   7, 0x10000484) /* ClothingBase */
+     , (7083,   8, 0x0600121F) /* Icon */
+     , (7083,  22, 0x34000015) /* PhysicsEffectTable */
      , (7083,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

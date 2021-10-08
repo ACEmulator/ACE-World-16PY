@@ -27,10 +27,10 @@ VALUES (19248,   1, 'Oxidized Statue') /* Name */
      , (19248,  16, 'A small oxidized statue of a Zharalim crafted by the Arcanum Tinker, in reward for keeping the statues that continue to threaten the cities of Dereth at bay.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19248,   1,   33554433) /* Setup */
-     , (19248,   2,  150995206) /* MotionTable */
-     , (19248,   6,   67108990) /* PaletteBase */
-     , (19248,   7,  268436387) /* ClothingBase */
-     , (19248,   8,  100667446) /* Icon */
-     , (19248,  22,  872415349) /* PhysicsEffectTable */
-     , (19248,  36,  234881046) /* MutateFilter */;
+VALUES (19248,   1, 0x02000001) /* Setup */
+     , (19248,   2, 0x09000106) /* MotionTable */
+     , (19248,   6, 0x0400007E) /* PaletteBase */
+     , (19248,   7, 0x100003A3) /* ClothingBase */
+     , (19248,   8, 0x06001036) /* Icon */
+     , (19248,  22, 0x34000075) /* PhysicsEffectTable */
+     , (19248,  36, 0x0E000016) /* MutateFilter */;

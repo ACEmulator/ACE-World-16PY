@@ -67,12 +67,12 @@ VALUES (25602,   1, 'Electric Elemental Pool') /* Name */
      , (25602,  16, 'An elemental pool, dancing with electricity.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25602,   1,   33558459) /* Setup */
-     , (25602,   2,  150995255) /* MotionTable */
-     , (25602,   3,  536870913) /* SoundTable */
-     , (25602,   6,   67114510) /* PaletteBase */
-     , (25602,   7,  268436680) /* ClothingBase */
-     , (25602,   8,  100674880) /* Icon */;
+VALUES (25602,   1, 0x02000FBB) /* Setup */
+     , (25602,   2, 0x09000137) /* MotionTable */
+     , (25602,   3, 0x20000001) /* SoundTable */
+     , (25602,   6, 0x0400160E) /* PaletteBase */
+     , (25602,   7, 0x100004C8) /* ClothingBase */
+     , (25602,   8, 0x06002D40) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25602,   1, 300, 0, 0) /* Strength */

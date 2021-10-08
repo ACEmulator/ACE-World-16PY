@@ -25,8 +25,8 @@ VALUES (25321,   1, 'Alloy Utensil') /* Name */
      , (25321,  33, 'UndeadMechanismPickup7') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25321,   1,   33558439) /* Setup */
-     , (25321,   3,  536870932) /* SoundTable */
-     , (25321,   6,   67111919) /* PaletteBase */
-     , (25321,   8,  100674837) /* Icon */
-     , (25321,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25321,   1, 0x02000FA7) /* Setup */
+     , (25321,   3, 0x20000014) /* SoundTable */
+     , (25321,   6, 0x04000BEF) /* PaletteBase */
+     , (25321,   8, 0x06002D15) /* Icon */
+     , (25321,  22, 0x3400002B) /* PhysicsEffectTable */;

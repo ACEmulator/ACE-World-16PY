@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4593,   1, 'Mana Boost Other II') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4593,   1,   33554667) /* Setup */
-     , (4593,   8,  100668288) /* Icon */
-     , (4593,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4593,   1, 0x020000EB) /* Setup */
+     , (4593,   8, 0x06001380) /* Icon */
+     , (4593,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4593,  28,       1208) /* Spell - Mana Boost Other II */;

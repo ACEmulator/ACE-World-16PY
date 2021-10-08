@@ -39,9 +39,9 @@ VALUES (30308,   1, 'Zefir''s Breath') /* Name */
      , (30308,  16, 'Describe me here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30308,   1,   33554732) /* Setup */
-     , (30308,   3,  536870932) /* SoundTable */
-     , (30308,   6,   67111919) /* PaletteBase */
-     , (30308,   7,  268435762) /* ClothingBase */
-     , (30308,   8,  100668835) /* Icon */
-     , (30308,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30308,   1, 0x0200012C) /* Setup */
+     , (30308,   3, 0x20000014) /* SoundTable */
+     , (30308,   6, 0x04000BEF) /* PaletteBase */
+     , (30308,   7, 0x10000132) /* ClothingBase */
+     , (30308,   8, 0x060015A3) /* Icon */
+     , (30308,  22, 0x3400002B) /* PhysicsEffectTable */;

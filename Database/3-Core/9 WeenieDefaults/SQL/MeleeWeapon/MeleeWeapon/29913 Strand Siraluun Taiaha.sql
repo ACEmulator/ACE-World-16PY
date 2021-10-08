@@ -47,11 +47,11 @@ VALUES (29913,   1, 'Strand Siraluun Taiaha') /* Name */
      , (29913,  16, 'A beautifully detailed taiaha crafted from the claw of a Strand Siraluun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29913,   1,   33559107) /* Setup */
-     , (29913,   3,  536870932) /* SoundTable */
-     , (29913,   8,  100677333) /* Icon */
-     , (29913,  22,  872415275) /* PhysicsEffectTable */
-     , (29913,  36,  234881044) /* MutateFilter */
+VALUES (29913,   1, 0x02001243) /* Setup */
+     , (29913,   3, 0x20000014) /* SoundTable */
+     , (29913,   8, 0x060036D5) /* Icon */
+     , (29913,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29913,  36, 0x0E000014) /* MutateFilter */
      , (29913,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

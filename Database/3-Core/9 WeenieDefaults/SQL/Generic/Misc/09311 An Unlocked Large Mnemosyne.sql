@@ -28,7 +28,7 @@ VALUES (9311,   1, 'An Unlocked Large Mnemosyne') /* Name */
      , (9311,  16, 'A Mnemosyne, invented by Tennar Portheran, used by the Dericost to preserve their heritage after the chaos wrought by the Fourth Sending.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9311,   1,   33556999) /* Setup */
-     , (9311,   3,  536870932) /* SoundTable */
-     , (9311,   8,  100671425) /* Icon */
-     , (9311,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9311,   1, 0x02000A07) /* Setup */
+     , (9311,   3, 0x20000014) /* SoundTable */
+     , (9311,   8, 0x06001FC1) /* Icon */
+     , (9311,  22, 0x3400002B) /* PhysicsEffectTable */;

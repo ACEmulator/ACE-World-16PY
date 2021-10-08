@@ -25,9 +25,9 @@ VALUES (4571,   1, 'Portal to Al-Arqas') /* Name */
      , (4571,  16, 'This portal goes to the Gharu''ndim town of Al-Arqas in the depths of the A''mun desert. This is a good town for characters over level 10.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4571,   1,   33554867) /* Setup */
-     , (4571,   2,  150994947) /* MotionTable */
-     , (4571,   8,  100667499) /* Icon */;
+VALUES (4571,   1, 0x020001B3) /* Setup */
+     , (4571,   2, 0x09000003) /* MotionTable */
+     , (4571,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4571, 2, 0x8F58003B, 183.851, 60.183, 9.326, 0.707107, 0, 0, -0.707107) /* Destination */

@@ -25,8 +25,8 @@ VALUES (22351,   1, 'Arcane Lore Gem of Enlightenment') /* Name */
      , (22351,  33, 'SkillAlterationGemPickedUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22351,   1,   33558088) /* Setup */
-     , (22351,   6,   67111919) /* PaletteBase */
-     , (22351,   7,  268435723) /* ClothingBase */
-     , (22351,   8,  100673788) /* Icon */
-     , (22351,  50,  100673754) /* IconOverlay */;
+VALUES (22351,   1, 0x02000E48) /* Setup */
+     , (22351,   6, 0x04000BEF) /* PaletteBase */
+     , (22351,   7, 0x1000010B) /* ClothingBase */
+     , (22351,   8, 0x060028FC) /* Icon */
+     , (22351,  50, 0x060028DA) /* IconOverlay */;

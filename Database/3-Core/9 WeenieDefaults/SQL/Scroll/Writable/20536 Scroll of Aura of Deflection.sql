@@ -24,7 +24,7 @@ VALUES (20536,   1, 'Scroll of Aura of Deflection') /* Name */
      , (20536,  15, 'When learned, this spell increases the caster''s Missile Defense skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20536,   1,   33554826) /* Setup */
-     , (20536,   8,  100676468) /* Icon */
-     , (20536,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20536,   1, 0x0200018A) /* Setup */
+     , (20536,   8, 0x06003374) /* Icon */
+     , (20536,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20536,  28,       2243) /* Spell - Aura of Deflection */;

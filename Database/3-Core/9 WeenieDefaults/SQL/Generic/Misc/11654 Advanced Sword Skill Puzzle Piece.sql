@@ -28,10 +28,10 @@ VALUES (11654,   1, 'Advanced Sword Skill Puzzle Piece') /* Name */
      , (11654,  16, 'An Advanced Sword skill puzzle piece.  Combine it with a Skill Puzzle Base Piece.  This item requires Sword skill to assemble.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11654,   1,   33554669) /* Setup */
-     , (11654,   3,  536870932) /* SoundTable */
-     , (11654,   6,   67111928) /* PaletteBase */
-     , (11654,   7,  268436178) /* ClothingBase */
-     , (11654,   8,  100671718) /* Icon */
-     , (11654,  22,  872415275) /* PhysicsEffectTable */
-     , (11654,  36,  234881046) /* MutateFilter */;
+VALUES (11654,   1, 0x020000ED) /* Setup */
+     , (11654,   3, 0x20000014) /* SoundTable */
+     , (11654,   6, 0x04000BF8) /* PaletteBase */
+     , (11654,   7, 0x100002D2) /* ClothingBase */
+     , (11654,   8, 0x060020E6) /* Icon */
+     , (11654,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11654,  36, 0x0E000016) /* MutateFilter */;

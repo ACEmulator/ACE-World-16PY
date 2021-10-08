@@ -25,10 +25,10 @@ VALUES (5642,   1, 'A Crabbed Note') /* Name */
      , (5642,  16, 'A note for Celcynd in Rithwic from Harlune the Misanthrope in the Mite Maze.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5642,   1,   33554773) /* Setup */
-     , (5642,   3,  536870932) /* SoundTable */
-     , (5642,   8,  100668176) /* Icon */
-     , (5642,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5642,   1, 0x02000155) /* Setup */
+     , (5642,   3, 0x20000014) /* SoundTable */
+     , (5642,   8, 0x06001310) /* Icon */
+     , (5642,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (5642, 1, 1000);

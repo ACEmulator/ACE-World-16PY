@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (16914,   1, 'Terebrous Hollow Minion') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (16914,   1,   33556792) /* Setup */
-     , (16914,   2,  150995101) /* MotionTable */
-     , (16914,   3,  536871013) /* SoundTable */
-     , (16914,   4,  805306413) /* CombatTable */
-     , (16914,   6,   67112967) /* PaletteBase */
-     , (16914,   7,  268436085) /* ClothingBase */
-     , (16914,   8,  100671140) /* Icon */
-     , (16914,  22,  872415367) /* PhysicsEffectTable */
+VALUES (16914,   1, 0x02000938) /* Setup */
+     , (16914,   2, 0x0900009D) /* MotionTable */
+     , (16914,   3, 0x20000065) /* SoundTable */
+     , (16914,   4, 0x3000002D) /* CombatTable */
+     , (16914,   6, 0x04001007) /* PaletteBase */
+     , (16914,   7, 0x10000275) /* ClothingBase */
+     , (16914,   8, 0x06001EA4) /* Icon */
+     , (16914,  22, 0x34000087) /* PhysicsEffectTable */
      , (16914,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

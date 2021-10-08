@@ -64,13 +64,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10737,   1, 'Director''s Majordomo') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10737,   1,   33554497) /* Setup */
-     , (10737,   2,  150994984) /* MotionTable */
-     , (10737,   3,  536870930) /* SoundTable */
-     , (10737,   4,  805306381) /* CombatTable */
-     , (10737,   6,   67111346) /* PaletteBase */
-     , (10737,   7,  268435649) /* ClothingBase */
-     , (10737,   8,  100667943) /* Icon */
+VALUES (10737,   1, 0x02000041) /* Setup */
+     , (10737,   2, 0x09000028) /* MotionTable */
+     , (10737,   3, 0x20000012) /* SoundTable */
+     , (10737,   4, 0x3000000D) /* CombatTable */
+     , (10737,   6, 0x040009B2) /* PaletteBase */
+     , (10737,   7, 0x100000C1) /* ClothingBase */
+     , (10737,   8, 0x06001227) /* Icon */
      , (10737,  31,      10732) /* LinkedPortalOne - Director's Chambers Portal */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

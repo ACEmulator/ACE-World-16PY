@@ -24,7 +24,7 @@ VALUES (20533,   1, 'Scroll of Avalenne''s Boon') /* Name */
      , (20533,  15, 'When learned, this spell increases the target''s Healing skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20533,   1,   33554826) /* Setup */
-     , (20533,   8,  100676459) /* Icon */
-     , (20533,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20533,   1, 0x0200018A) /* Setup */
+     , (20533,   8, 0x0600336B) /* Icon */
+     , (20533,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20533,  28,       2240) /* Spell - Avalenne's Boon */;

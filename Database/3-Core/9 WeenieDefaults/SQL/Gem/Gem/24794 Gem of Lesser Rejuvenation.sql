@@ -35,11 +35,11 @@ VALUES (24794,   1, 'Gem of Lesser Rejuvenation') /* Name */
      , (24794,  20, 'Gems of Lesser Rejuvenation') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24794,   1,   33554809) /* Setup */
-     , (24794,   3,  536870932) /* SoundTable */
-     , (24794,   6,   67111919) /* PaletteBase */
-     , (24794,   7,  268435723) /* ClothingBase */
-     , (24794,   8,  100674418) /* Icon */
-     , (24794,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24794,   1, 0x02000179) /* Setup */
+     , (24794,   3, 0x20000014) /* SoundTable */
+     , (24794,   6, 0x04000BEF) /* PaletteBase */
+     , (24794,   7, 0x1000010B) /* ClothingBase */
+     , (24794,   8, 0x06002B72) /* Icon */
+     , (24794,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24794,  28,        185) /* Spell - Rejuvenation Other III */
-     , (24794,  36,  234881046) /* MutateFilter */;
+     , (24794,  36, 0x0E000016) /* MutateFilter */;

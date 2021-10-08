@@ -22,7 +22,7 @@ VALUES (2286,   1, 'The Emerald Unicorn') /* Name */
      , (2286,  16, 'The Emerald Unicorn') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2286,   1,   33555594) /* Setup */
-     , (2286,   6,   67111782) /* PaletteBase */
-     , (2286,   7,  268435690) /* ClothingBase */
-     , (2286,   8,  100668115) /* Icon */;
+VALUES (2286,   1, 0x0200048A) /* Setup */
+     , (2286,   6, 0x04000B66) /* PaletteBase */
+     , (2286,   7, 0x100000EA) /* ClothingBase */
+     , (2286,   8, 0x060012D3) /* Icon */;

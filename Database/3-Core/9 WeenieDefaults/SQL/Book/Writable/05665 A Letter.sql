@@ -25,10 +25,10 @@ VALUES (5665,   1, 'A Letter') /* Name */
      , (5665,  16, 'A translated copy of a letter taken from a Dark Revenant in the Mage Academy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5665,   1,   33554773) /* Setup */
-     , (5665,   3,  536870932) /* SoundTable */
-     , (5665,   8,  100668176) /* Icon */
-     , (5665,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5665,   1, 0x02000155) /* Setup */
+     , (5665,   3, 0x20000014) /* SoundTable */
+     , (5665,   8, 0x06001310) /* Icon */
+     , (5665,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (5665, 7, 1000);

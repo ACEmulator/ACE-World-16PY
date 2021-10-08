@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4218,   1, 'Wai Jhou Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4218,   1,   33554867) /* Setup */
-     , (4218,   2,  150994947) /* MotionTable */
-     , (4218,   8,  100667499) /* Icon */;
+VALUES (4218,   1, 0x020001B3) /* Setup */
+     , (4218,   2, 0x09000003) /* MotionTable */
+     , (4218,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4218, 2, 0x3F310007, 23, 149.6, -0.1, 0.979925, 0, 0, -0.199368) /* Destination */

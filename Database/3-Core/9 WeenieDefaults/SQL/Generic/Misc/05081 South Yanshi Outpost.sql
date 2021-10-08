@@ -23,5 +23,5 @@ VALUES (5081,   1, 'South Yanshi Outpost') /* Name */
      , (5081,  16, 'South Yanshi Outpost.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5081,   1,   33555088) /* Setup */
-     , (5081,   8,  100668115) /* Icon */;
+VALUES (5081,   1, 0x02000290) /* Setup */
+     , (5081,   8, 0x060012D3) /* Icon */;

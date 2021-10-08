@@ -32,9 +32,9 @@ VALUES (14551,   1, 'Tanning Oil') /* Name */
      , (14551,  15, 'A small bottle filled with a fragrant oil.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14551,   1,   33555965) /* Setup */
-     , (14551,   3,  536870932) /* SoundTable */
-     , (14551,   6,   67111919) /* PaletteBase */
-     , (14551,   7,  268435814) /* ClothingBase */
-     , (14551,   8,  100672523) /* Icon */
-     , (14551,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14551,   1, 0x020005FD) /* Setup */
+     , (14551,   3, 0x20000014) /* SoundTable */
+     , (14551,   6, 0x04000BEF) /* PaletteBase */
+     , (14551,   7, 0x10000166) /* ClothingBase */
+     , (14551,   8, 0x0600240B) /* Icon */
+     , (14551,  22, 0x3400002B) /* PhysicsEffectTable */;

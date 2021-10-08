@@ -67,11 +67,11 @@ VALUES (25722,   1, 'Sign') /* Name */
      , (25722,  15, 'A signpost has been placed firmly in the ground. Someone wanted to get the word out. Maybe you should take a look at what it says.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25722,   1,   33555088) /* Setup */
-     , (25722,   2,  150995094) /* MotionTable */
-     , (25722,   3,  536870930) /* SoundTable */
-     , (25722,   6,   67111346) /* PaletteBase */
-     , (25722,   8,  100668115) /* Icon */;
+VALUES (25722,   1, 0x02000290) /* Setup */
+     , (25722,   2, 0x09000096) /* MotionTable */
+     , (25722,   3, 0x20000012) /* SoundTable */
+     , (25722,   6, 0x040009B2) /* PaletteBase */
+     , (25722,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25722,   1, 340, 0, 0) /* Strength */

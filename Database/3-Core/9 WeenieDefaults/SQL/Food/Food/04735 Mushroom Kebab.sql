@@ -28,7 +28,7 @@ VALUES (4735,   1, 'Mushroom Kebab') /* Name */
      , (4735,  20, 'Mushroom Kebabs') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4735,   1,   33555981) /* Setup */
-     , (4735,   3,  536870932) /* SoundTable */
-     , (4735,   8,  100669963) /* Icon */
-     , (4735,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4735,   1, 0x0200060D) /* Setup */
+     , (4735,   3, 0x20000014) /* SoundTable */
+     , (4735,   8, 0x06001A0B) /* Icon */
+     , (4735,  22, 0x3400002B) /* PhysicsEffectTable */;

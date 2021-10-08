@@ -23,5 +23,5 @@ VALUES (5079,   1, 'West Shoushi Outpost') /* Name */
      , (5079,  16, 'Welcome to the West Shoushi Outpost.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5079,   1,   33555088) /* Setup */
-     , (5079,   8,  100668115) /* Icon */;
+VALUES (5079,   1, 0x02000290) /* Setup */
+     , (5079,   8, 0x060012D3) /* Icon */;

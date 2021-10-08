@@ -22,7 +22,7 @@ VALUES (4503,   1, 'Tekai the Scribe') /* Name */
      , (4503,  16, 'Tekai the Scribe') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4503,   1,   33555594) /* Setup */
-     , (4503,   6,   67111782) /* PaletteBase */
-     , (4503,   7,  268435692) /* ClothingBase */
-     , (4503,   8,  100668115) /* Icon */;
+VALUES (4503,   1, 0x0200048A) /* Setup */
+     , (4503,   6, 0x04000B66) /* PaletteBase */
+     , (4503,   7, 0x100000EC) /* ClothingBase */
+     , (4503,   8, 0x060012D3) /* Icon */;

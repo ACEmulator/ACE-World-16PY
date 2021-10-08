@@ -45,12 +45,12 @@ VALUES (26600,   1, 'Esorcelled Falchion') /* Name */
      , (26600,  15, 'A strange blade once used by the Falatacot.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26600,   1,   33558592) /* Setup */
-     , (26600,   3,  536870932) /* SoundTable */
-     , (26600,   6,   67114956) /* PaletteBase */
-     , (26600,   7,  268436792) /* ClothingBase */
-     , (26600,   8,  100675773) /* Icon */
-     , (26600,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (26600,   1, 0x02001040) /* Setup */
+     , (26600,   3, 0x20000014) /* SoundTable */
+     , (26600,   6, 0x040017CC) /* PaletteBase */
+     , (26600,   7, 0x10000538) /* ClothingBase */
+     , (26600,   8, 0x060030BD) /* Icon */
+     , (26600,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (26600,  1604,      2)  /* Aura of Defender Self V */

@@ -51,12 +51,12 @@ VALUES (27816,   1, 'Singularity Atlatl') /* Name */
      , (27816,  15, 'An atlatl imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27816,   1,   33558191) /* Setup */
-     , (27816,   3,  536870932) /* SoundTable */
-     , (27816,   6,   67111919) /* PaletteBase */
-     , (27816,   7,  268436238) /* ClothingBase */
-     , (27816,   8,  100674028) /* Icon */
-     , (27816,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27816,   1, 0x02000EAF) /* Setup */
+     , (27816,   3, 0x20000014) /* SoundTable */
+     , (27816,   6, 0x04000BEF) /* PaletteBase */
+     , (27816,   7, 0x1000030E) /* ClothingBase */
+     , (27816,   8, 0x060029EC) /* Icon */
+     , (27816,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27816,  1605,      2)  /* Aura of Defender Self VI */

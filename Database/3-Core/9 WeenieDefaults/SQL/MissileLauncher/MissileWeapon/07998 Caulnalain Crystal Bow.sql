@@ -50,12 +50,12 @@ VALUES (7998,   1, 'Caulnalain Crystal Bow') /* Name */
      , (7998,  16, 'A bow imbued with the essence of the Caulnalain Crystal. Uses crystal-tipped arrows.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7998,   1,   33554729) /* Setup */
-     , (7998,   3,  536870932) /* SoundTable */
-     , (7998,   6,   67111919) /* PaletteBase */
-     , (7998,   7,  268436042) /* ClothingBase */
-     , (7998,   8,  100670997) /* Icon */
-     , (7998,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7998,   1, 0x02000129) /* Setup */
+     , (7998,   3, 0x20000014) /* SoundTable */
+     , (7998,   6, 0x04000BEF) /* PaletteBase */
+     , (7998,   7, 0x1000024A) /* ClothingBase */
+     , (7998,   8, 0x06001E15) /* Icon */
+     , (7998,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7998,  37,          2) /* ItemSkillLimit - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

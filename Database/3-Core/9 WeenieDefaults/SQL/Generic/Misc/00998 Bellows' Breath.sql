@@ -23,7 +23,7 @@ VALUES (998,   1, 'Bellows'' Breath') /* Name */
      , (998,  16, 'Bellows'' Breath') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (998,   1,   33555909) /* Setup */
-     , (998,   6,   67111860) /* PaletteBase */
-     , (998,   7,  268435818) /* ClothingBase */
-     , (998,   8,  100668115) /* Icon */;
+VALUES (998,   1, 0x020005C5) /* Setup */
+     , (998,   6, 0x04000BB4) /* PaletteBase */
+     , (998,   7, 0x1000016A) /* ClothingBase */
+     , (998,   8, 0x060012D3) /* Icon */;

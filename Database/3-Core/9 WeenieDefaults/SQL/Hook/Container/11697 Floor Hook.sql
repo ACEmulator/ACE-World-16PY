@@ -32,6 +32,6 @@ VALUES (11697,   1, 'Floor Hook') /* Name */
      , (11697,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11697,   1,   33557133) /* Setup */
-     , (11697,   8,  100671680) /* Icon */
-     , (11697,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11697,   1, 0x02000A8D) /* Setup */
+     , (11697,   8, 0x060020C0) /* Icon */
+     , (11697,  22, 0x3400002B) /* PhysicsEffectTable */;

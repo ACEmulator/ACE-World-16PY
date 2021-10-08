@@ -25,9 +25,9 @@ VALUES (29959,   1, 'Xi Ru''s Crypt') /* Name */
      , (29959,  37, 'RoadsNuhmudira2') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29959,   1,   33559046) /* Setup */
-     , (29959,   2,  150995314) /* MotionTable */
-     , (29959,   8,  100667499) /* Icon */;
+VALUES (29959,   1, 0x02001206) /* Setup */
+     , (29959,   2, 0x09000172) /* MotionTable */
+     , (29959,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (29959, 2, 0x0196023D, 100, -140, 0.005, 1, 0, 0, -0) /* Destination */

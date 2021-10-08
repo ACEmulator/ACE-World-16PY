@@ -30,7 +30,7 @@ VALUES (6818,   1, 'Spire Key Chunk - Sawato') /* Name */
      , (6818,  16, 'The middle third of a skeletal key, found in the Sawato shadow spire.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6818,   1,   33554784) /* Setup */
-     , (6818,   3,  536870932) /* SoundTable */
-     , (6818,   8,  100670628) /* Icon */
-     , (6818,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6818,   1, 0x02000160) /* Setup */
+     , (6818,   3, 0x20000014) /* SoundTable */
+     , (6818,   8, 0x06001CA4) /* Icon */
+     , (6818,  22, 0x3400002B) /* PhysicsEffectTable */;

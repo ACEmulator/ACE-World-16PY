@@ -34,9 +34,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28861,   1, 'Pirate Hook') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28861,   1,   33559017) /* Setup */
-     , (28861,   3,  536870932) /* SoundTable */
-     , (28861,   6,   67108990) /* PaletteBase */
-     , (28861,   7,  268436871) /* ClothingBase */
-     , (28861,   8,  100677106) /* Icon */
-     , (28861,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28861,   1, 0x020011E9) /* Setup */
+     , (28861,   3, 0x20000014) /* SoundTable */
+     , (28861,   6, 0x0400007E) /* PaletteBase */
+     , (28861,   7, 0x10000587) /* ClothingBase */
+     , (28861,   8, 0x060035F2) /* Icon */
+     , (28861,  22, 0x3400002B) /* PhysicsEffectTable */;

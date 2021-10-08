@@ -53,13 +53,13 @@ VALUES (11422,   1, 'Palenqual''s Okane of the Chase') /* Name */
      , (11422,  16, 'An okane fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11422,   1,   33557234) /* Setup */
-     , (11422,   3,  536870932) /* SoundTable */
-     , (11422,   6,   67113336) /* PaletteBase */
-     , (11422,   7,  268436250) /* ClothingBase */
-     , (11422,   8,  100672075) /* Icon */
-     , (11422,  22,  872415275) /* PhysicsEffectTable */
-     , (11422,  36,  234881044) /* MutateFilter */;
+VALUES (11422,   1, 0x02000AF2) /* Setup */
+     , (11422,   3, 0x20000014) /* SoundTable */
+     , (11422,   6, 0x04001178) /* PaletteBase */
+     , (11422,   7, 0x1000031A) /* ClothingBase */
+     , (11422,   8, 0x0600224B) /* Icon */
+     , (11422,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11422,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11422,  2454,      2)  /* Thorns */

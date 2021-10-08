@@ -64,11 +64,11 @@ VALUES (10866,   1, 'Mazur ibn Stounis') /* Name */
      , (10866,   5, 'Blacksmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10866,   1,   33554433) /* Setup */
-     , (10866,   2,  150994945) /* MotionTable */
-     , (10866,   3,  536870913) /* SoundTable */
-     , (10866,   4,  805306368) /* CombatTable */
-     , (10866,   8,  100667446) /* Icon */;
+VALUES (10866,   1, 0x02000001) /* Setup */
+     , (10866,   2, 0x09000001) /* MotionTable */
+     , (10866,   3, 0x20000001) /* SoundTable */
+     , (10866,   4, 0x30000000) /* CombatTable */
+     , (10866,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10866,   1, 150, 0, 0) /* Strength */

@@ -26,7 +26,7 @@ VALUES (5013,   1, 'Key from Lost Distillery') /* Name */
      , (5013,  16, 'A key to a chest in the Lost Distillery. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5013,   1,   33554784) /* Setup */
-     , (5013,   3,  536870932) /* SoundTable */
-     , (5013,   8,  100667485) /* Icon */
-     , (5013,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5013,   1, 0x02000160) /* Setup */
+     , (5013,   3, 0x20000014) /* SoundTable */
+     , (5013,   8, 0x0600105D) /* Icon */
+     , (5013,  22, 0x3400002B) /* PhysicsEffectTable */;

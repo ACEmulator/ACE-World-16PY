@@ -68,11 +68,11 @@ VALUES (27048,   1, 'Tou-Tou Penninsula Cottages Merchant') /* Name */
      , (27048,   5, 'Merchant') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27048,   1,   33554433) /* Setup */
-     , (27048,   2,  150994945) /* MotionTable */
-     , (27048,   3,  536870913) /* SoundTable */
-     , (27048,   4,  805306368) /* CombatTable */
-     , (27048,   8,  100667446) /* Icon */;
+VALUES (27048,   1, 0x02000001) /* Setup */
+     , (27048,   2, 0x09000001) /* MotionTable */
+     , (27048,   3, 0x20000001) /* SoundTable */
+     , (27048,   4, 0x30000000) /* CombatTable */
+     , (27048,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27048,   1,  90, 0, 0) /* Strength */

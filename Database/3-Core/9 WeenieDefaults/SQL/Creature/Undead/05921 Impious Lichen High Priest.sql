@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5921,   1, 'Impious Lichen High Priest') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5921,   1,   33554839) /* Setup */
-     , (5921,   2,  150994967) /* MotionTable */
-     , (5921,   3,  536870934) /* SoundTable */
-     , (5921,   4,  805306368) /* CombatTable */
-     , (5921,   6,   67110722) /* PaletteBase */
-     , (5921,   7,  268435558) /* ClothingBase */
-     , (5921,   8,  100667942) /* Icon */
-     , (5921,  22,  872415272) /* PhysicsEffectTable */
+VALUES (5921,   1, 0x02000197) /* Setup */
+     , (5921,   2, 0x09000017) /* MotionTable */
+     , (5921,   3, 0x20000016) /* SoundTable */
+     , (5921,   4, 0x30000000) /* CombatTable */
+     , (5921,   6, 0x04000742) /* PaletteBase */
+     , (5921,   7, 0x10000066) /* ClothingBase */
+     , (5921,   8, 0x06001226) /* Icon */
+     , (5921,  22, 0x34000028) /* PhysicsEffectTable */
      , (5921,  32,        287) /* WieldedTreasureType - 
                                    Wield Yumi (23736) | Probability: 50%
                                    Wield 16x Greater Fire Arrow (5305) | Probability: 100%

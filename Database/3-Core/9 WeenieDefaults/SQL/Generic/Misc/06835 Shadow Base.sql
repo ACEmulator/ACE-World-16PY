@@ -22,5 +22,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6835,   1, 'Shadow Base') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6835,   1,   33556562) /* Setup */
-     , (6835,   8,  100667494) /* Icon */;
+VALUES (6835,   1, 0x02000852) /* Setup */
+     , (6835,   8, 0x06001066) /* Icon */;

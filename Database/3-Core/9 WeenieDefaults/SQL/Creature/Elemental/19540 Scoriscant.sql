@@ -64,12 +64,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19540,   1, 'Scoriscant') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19540,   1,   33557677) /* Setup */
-     , (19540,   2,  150995087) /* MotionTable */
-     , (19540,   3,  536870998) /* SoundTable */
-     , (19540,   4,  805306368) /* CombatTable */
-     , (19540,   8,  100672513) /* Icon */
-     , (19540,  22,  872415349) /* PhysicsEffectTable */
+VALUES (19540,   1, 0x02000CAD) /* Setup */
+     , (19540,   2, 0x0900008F) /* MotionTable */
+     , (19540,   3, 0x20000056) /* SoundTable */
+     , (19540,   4, 0x30000000) /* CombatTable */
+     , (19540,   8, 0x06002401) /* Icon */
+     , (19540,  22, 0x34000075) /* PhysicsEffectTable */
      , (19540,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

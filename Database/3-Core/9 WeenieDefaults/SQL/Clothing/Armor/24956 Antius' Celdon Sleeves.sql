@@ -35,9 +35,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24956,   1, 'Antius'' Celdon Sleeves') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24956,   1,   33554655) /* Setup */
-     , (24956,   3,  536870932) /* SoundTable */
-     , (24956,   6,   67108990) /* PaletteBase */
-     , (24956,   7,  268436661) /* ClothingBase */
-     , (24956,   8,  100668802) /* Icon */
-     , (24956,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24956,   1, 0x020000DF) /* Setup */
+     , (24956,   3, 0x20000014) /* SoundTable */
+     , (24956,   6, 0x0400007E) /* PaletteBase */
+     , (24956,   7, 0x100004B5) /* ClothingBase */
+     , (24956,   8, 0x06001582) /* Icon */
+     , (24956,  22, 0x3400002B) /* PhysicsEffectTable */;

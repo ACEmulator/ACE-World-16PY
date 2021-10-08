@@ -29,9 +29,9 @@ VALUES (9481,   1, 'Arshid''s High-Stakes Gambling Token') /* Name */
      , (9481,  16, 'A red gambling token from Arshid''s Den of Iniquity.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9481,   1,   33557006) /* Setup */
-     , (9481,   3,  536870932) /* SoundTable */
-     , (9481,   6,   67113173) /* PaletteBase */
-     , (9481,   7,  268436162) /* ClothingBase */
-     , (9481,   8,  100671526) /* Icon */
-     , (9481,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9481,   1, 0x02000A0E) /* Setup */
+     , (9481,   3, 0x20000014) /* SoundTable */
+     , (9481,   6, 0x040010D5) /* PaletteBase */
+     , (9481,   7, 0x100002C2) /* ClothingBase */
+     , (9481,   8, 0x06002026) /* Icon */
+     , (9481,  22, 0x3400002B) /* PhysicsEffectTable */;

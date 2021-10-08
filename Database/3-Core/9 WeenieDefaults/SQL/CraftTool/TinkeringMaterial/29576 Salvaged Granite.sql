@@ -37,9 +37,9 @@ VALUES (29576,   1, 'Salvaged Granite') /* Name */
      , (29576,  15, 'A brick of granite material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29576,   1,   33554817) /* Setup */
-     , (29576,   3,  536870932) /* SoundTable */
-     , (29576,   6,   67111919) /* PaletteBase */
-     , (29576,   7,  268436874) /* ClothingBase */
-     , (29576,   8,  100677150) /* Icon */
-     , (29576,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29576,   1, 0x02000181) /* Setup */
+     , (29576,   3, 0x20000014) /* SoundTable */
+     , (29576,   6, 0x04000BEF) /* PaletteBase */
+     , (29576,   7, 0x1000058A) /* ClothingBase */
+     , (29576,   8, 0x0600361E) /* Icon */
+     , (29576,  22, 0x3400002B) /* PhysicsEffectTable */;

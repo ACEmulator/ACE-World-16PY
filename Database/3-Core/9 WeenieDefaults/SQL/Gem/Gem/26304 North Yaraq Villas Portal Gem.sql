@@ -36,11 +36,11 @@ VALUES (26304,   1, 'North Yaraq Villas Portal Gem') /* Name */
      , (26304,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26304,   1,   33556769) /* Setup */
-     , (26304,   3,  536870932) /* SoundTable */
-     , (26304,   6,   67111919) /* PaletteBase */
-     , (26304,   7,  268435723) /* ClothingBase */
-     , (26304,   8,  100675760) /* Icon */
-     , (26304,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26304,   1, 0x02000921) /* Setup */
+     , (26304,   3, 0x20000014) /* SoundTable */
+     , (26304,   6, 0x04000BEF) /* PaletteBase */
+     , (26304,   7, 0x1000010B) /* ClothingBase */
+     , (26304,   8, 0x060030B0) /* Icon */
+     , (26304,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26304,  28,        157) /* Spell - Summon Primary Portal I */
      , (26304,  31,      13118) /* LinkedPortalOne - North Yaraq Villas Portal */;

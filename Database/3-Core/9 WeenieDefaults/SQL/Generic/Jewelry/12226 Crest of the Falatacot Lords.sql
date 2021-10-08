@@ -33,11 +33,11 @@ VALUES (12226,   1, 'Crest of the Falatacot Lords') /* Name */
      , (12226,  33, 'HouseDeedMid') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12226,   1,   33557376) /* Setup */
-     , (12226,   3,  536870932) /* SoundTable */
-     , (12226,   8,  100672190) /* Icon */
-     , (12226,  22,  872415275) /* PhysicsEffectTable */
-     , (12226,  36,  234881046) /* MutateFilter */;
+VALUES (12226,   1, 0x02000B80) /* Setup */
+     , (12226,   3, 0x20000014) /* SoundTable */
+     , (12226,   8, 0x060022BE) /* Icon */
+     , (12226,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (12226,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12226,  1351,      2)  /* Endurance Self III */

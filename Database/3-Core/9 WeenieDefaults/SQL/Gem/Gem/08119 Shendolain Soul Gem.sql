@@ -32,9 +32,9 @@ VALUES (8119,   1, 'Shendolain Soul Gem') /* Name */
      , (8119,  16, 'The heart of the Shendolain Soul Crystal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8119,   1,   33554809) /* Setup */
-     , (8119,   3,  536870932) /* SoundTable */
-     , (8119,   6,   67111919) /* PaletteBase */
-     , (8119,   7,  268435723) /* ClothingBase */
-     , (8119,   8,  100670991) /* Icon */
-     , (8119,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8119,   1, 0x02000179) /* Setup */
+     , (8119,   3, 0x20000014) /* SoundTable */
+     , (8119,   6, 0x04000BEF) /* PaletteBase */
+     , (8119,   7, 0x1000010B) /* ClothingBase */
+     , (8119,   8, 0x06001E0F) /* Icon */
+     , (8119,  22, 0x3400002B) /* PhysicsEffectTable */;

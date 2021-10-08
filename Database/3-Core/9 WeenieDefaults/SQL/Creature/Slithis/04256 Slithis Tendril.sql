@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4256,   1, 'Slithis Tendril') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4256,   1,   33555670) /* Setup */
-     , (4256,   2,  150995067) /* MotionTable */
-     , (4256,   3,  536871015) /* SoundTable */
-     , (4256,   4,  805306404) /* CombatTable */
-     , (4256,   6,   67112864) /* PaletteBase */
-     , (4256,   7,  268436087) /* ClothingBase */
-     , (4256,   8,  100671186) /* Icon */
-     , (4256,  22,  872415332) /* PhysicsEffectTable */
+VALUES (4256,   1, 0x020004D6) /* Setup */
+     , (4256,   2, 0x0900007B) /* MotionTable */
+     , (4256,   3, 0x20000067) /* SoundTable */
+     , (4256,   4, 0x30000024) /* CombatTable */
+     , (4256,   6, 0x04000FA0) /* PaletteBase */
+     , (4256,   7, 0x10000277) /* ClothingBase */
+     , (4256,   8, 0x06001ED2) /* Icon */
+     , (4256,  22, 0x34000064) /* PhysicsEffectTable */
      , (4256,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9535,   1, 'Grimacing Rabbit') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9535,   1,   33555579) /* Setup */
-     , (9535,   2,  150995042) /* MotionTable */
-     , (9535,   3,  536870973) /* SoundTable */
-     , (9535,   4,  805306389) /* CombatTable */
-     , (9535,   6,   67109300) /* PaletteBase */
-     , (9535,   7,  268435725) /* ClothingBase */
-     , (9535,   8,  100669116) /* Icon */
-     , (9535,  22,  872415277) /* PhysicsEffectTable */;
+VALUES (9535,   1, 0x0200047B) /* Setup */
+     , (9535,   2, 0x09000062) /* MotionTable */
+     , (9535,   3, 0x2000003D) /* SoundTable */
+     , (9535,   4, 0x30000015) /* CombatTable */
+     , (9535,   6, 0x040001B4) /* PaletteBase */
+     , (9535,   7, 0x1000010D) /* ClothingBase */
+     , (9535,   8, 0x060016BC) /* Icon */
+     , (9535,  22, 0x3400002D) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9535,   1, 200, 0, 0) /* Strength */

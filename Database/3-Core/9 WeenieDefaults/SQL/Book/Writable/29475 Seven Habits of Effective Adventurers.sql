@@ -25,10 +25,10 @@ VALUES (29475,   1, 'Seven Habits of Effective Adventurers') /* Name */
      , (29475,  16, 'A book written by Yuan Hanzu regarding composite bows. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29475,   1,   33554771) /* Setup */
-     , (29475,   3,  536870932) /* SoundTable */
-     , (29475,   8,  100668117) /* Icon */
-     , (29475,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29475,   1, 0x02000153) /* Setup */
+     , (29475,   3, 0x20000014) /* SoundTable */
+     , (29475,   8, 0x060012D5) /* Icon */
+     , (29475,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (29475, 6, 1000);

@@ -27,7 +27,7 @@ VALUES (22771,   1, 'Nanners and Ice Cream') /* Name */
      , (22771,  14, 'This item is used in cooking.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22771,   1,   33558106) /* Setup */
-     , (22771,   3,  536870932) /* SoundTable */
-     , (22771,   8,  100673823) /* Icon */
-     , (22771,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22771,   1, 0x02000E5A) /* Setup */
+     , (22771,   3, 0x20000014) /* SoundTable */
+     , (22771,   8, 0x0600291F) /* Icon */
+     , (22771,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -64,11 +64,11 @@ VALUES (5048,   1, 'Ercel') /* Name */
      , (5048,   5, 'Citizen of Lytelthorpe') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5048,   1,   33554433) /* Setup */
-     , (5048,   2,  150994945) /* MotionTable */
-     , (5048,   3,  536870913) /* SoundTable */
-     , (5048,   4,  805306368) /* CombatTable */
-     , (5048,   8,  100667446) /* Icon */;
+VALUES (5048,   1, 0x02000001) /* Setup */
+     , (5048,   2, 0x09000001) /* MotionTable */
+     , (5048,   3, 0x20000001) /* SoundTable */
+     , (5048,   4, 0x30000000) /* CombatTable */
+     , (5048,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5048,   1,  40, 0, 0) /* Strength */

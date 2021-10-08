@@ -23,7 +23,7 @@ VALUES (19477,   1, 'Undead Femur bone') /* Name */
      , (19477,  16, 'The femur bone of a departed undead.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19477,   1,   33556593) /* Setup */
-     , (19477,   3,  536870932) /* SoundTable */
-     , (19477,   8,  100673055) /* Icon */
-     , (19477,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19477,   1, 0x02000871) /* Setup */
+     , (19477,   3, 0x20000014) /* SoundTable */
+     , (19477,   8, 0x0600261F) /* Icon */
+     , (19477,  22, 0x3400002B) /* PhysicsEffectTable */;

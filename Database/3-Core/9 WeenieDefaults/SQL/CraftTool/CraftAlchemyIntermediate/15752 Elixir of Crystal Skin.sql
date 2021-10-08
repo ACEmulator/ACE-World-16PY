@@ -32,9 +32,9 @@ VALUES (15752,   1, 'Elixir of Crystal Skin') /* Name */
      , (15752,  20, 'Elixirs of Crystal Skin') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15752,   1,   33555965) /* Setup */
-     , (15752,   3,  536870932) /* SoundTable */
-     , (15752,   6,   67111919) /* PaletteBase */
-     , (15752,   7,  268435814) /* ClothingBase */
-     , (15752,   8,  100672790) /* Icon */
-     , (15752,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15752,   1, 0x020005FD) /* Setup */
+     , (15752,   3, 0x20000014) /* SoundTable */
+     , (15752,   6, 0x04000BEF) /* PaletteBase */
+     , (15752,   7, 0x10000166) /* ClothingBase */
+     , (15752,   8, 0x06002516) /* Icon */
+     , (15752,  22, 0x3400002B) /* PhysicsEffectTable */;

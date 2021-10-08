@@ -23,7 +23,7 @@ VALUES (1790,   1, 'House of the Seven Stars') /* Name */
      , (1790,  16, 'House of Seven Stars') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1790,   1,   33555909) /* Setup */
-     , (1790,   6,   67111860) /* PaletteBase */
-     , (1790,   7,  268435824) /* ClothingBase */
-     , (1790,   8,  100668115) /* Icon */;
+VALUES (1790,   1, 0x020005C5) /* Setup */
+     , (1790,   6, 0x04000BB4) /* PaletteBase */
+     , (1790,   7, 0x10000170) /* ClothingBase */
+     , (1790,   8, 0x060012D3) /* Icon */;

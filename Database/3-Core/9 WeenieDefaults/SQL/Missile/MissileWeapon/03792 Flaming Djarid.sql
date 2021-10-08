@@ -37,7 +37,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3792,   1, 'Flaming Djarid') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3792,   1,   33555725) /* Setup */
-     , (3792,   3,  536870932) /* SoundTable */
-     , (3792,   8,  100667593) /* Icon */
-     , (3792,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3792,   1, 0x0200050D) /* Setup */
+     , (3792,   3, 0x20000014) /* SoundTable */
+     , (3792,   8, 0x060010C9) /* Icon */
+     , (3792,  22, 0x3400002B) /* PhysicsEffectTable */;

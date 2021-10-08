@@ -25,6 +25,6 @@ VALUES (1449,   1, 'Royal Cabbage') /* Name */
      , (1449,  14, 'Use this item to eat it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1449,   1,   33554669) /* Setup */
-     , (1449,   8,  100667456) /* Icon */
-     , (1449,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1449,   1, 0x020000ED) /* Setup */
+     , (1449,   8, 0x06001040) /* Icon */
+     , (1449,  22, 0x3400002B) /* PhysicsEffectTable */;

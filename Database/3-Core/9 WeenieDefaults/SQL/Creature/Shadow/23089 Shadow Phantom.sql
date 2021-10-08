@@ -70,14 +70,14 @@ VALUES (23089,   1, 'Shadow Phantom') /* Name */
      , (23089,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23089,   1,   33554433) /* Setup */
-     , (23089,   2,  150994945) /* MotionTable */
-     , (23089,   3,  536870913) /* SoundTable */
-     , (23089,   4,  805306368) /* CombatTable */
-     , (23089,   6,   67111797) /* PaletteBase */
-     , (23089,   7,  268435632) /* ClothingBase */
-     , (23089,   8,  100670397) /* Icon */
-     , (23089,  22,  872415331) /* PhysicsEffectTable */
+VALUES (23089,   1, 0x02000001) /* Setup */
+     , (23089,   2, 0x09000001) /* MotionTable */
+     , (23089,   3, 0x20000001) /* SoundTable */
+     , (23089,   4, 0x30000000) /* CombatTable */
+     , (23089,   6, 0x04000B75) /* PaletteBase */
+     , (23089,   7, 0x100000B0) /* ClothingBase */
+     , (23089,   8, 0x06001BBD) /* Icon */
+     , (23089,  22, 0x34000063) /* PhysicsEffectTable */
      , (23089,  32,        426) /* WieldedTreasureType - 
                                    Wield Tachi (23136) | Probability: 30.000002%
                                    Wield Kite Shield (23135) | Probability: 100%

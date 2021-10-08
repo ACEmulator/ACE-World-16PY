@@ -70,11 +70,11 @@ VALUES (7592,   1, 'Assad ibn Ativ the Grocer') /* Name */
      , (7592,  24, 'Xanadu') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7592,   1,   33554433) /* Setup */
-     , (7592,   2,  150994945) /* MotionTable */
-     , (7592,   3,  536870913) /* SoundTable */
-     , (7592,   4,  805306368) /* CombatTable */
-     , (7592,   8,  100667446) /* Icon */;
+VALUES (7592,   1, 0x02000001) /* Setup */
+     , (7592,   2, 0x09000001) /* MotionTable */
+     , (7592,   3, 0x20000001) /* SoundTable */
+     , (7592,   4, 0x30000000) /* CombatTable */
+     , (7592,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7592,   1, 140, 0, 0) /* Strength */

@@ -34,9 +34,9 @@ VALUES (19404,   1, 'New Crossbow Glyph') /* Name */
      , (19404,  16, 'A glyph with the image of a crossbow emblazoned upon it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19404,   1,   33556438) /* Setup */
-     , (19404,   3,  536870932) /* SoundTable */
-     , (19404,   6,   67111092) /* PaletteBase */
-     , (19404,   7,  268436386) /* ClothingBase */
-     , (19404,   8,  100672874) /* Icon */
-     , (19404,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19404,   1, 0x020007D6) /* Setup */
+     , (19404,   3, 0x20000014) /* SoundTable */
+     , (19404,   6, 0x040008B4) /* PaletteBase */
+     , (19404,   7, 0x100003A2) /* ClothingBase */
+     , (19404,   8, 0x0600256A) /* Icon */
+     , (19404,  22, 0x3400002B) /* PhysicsEffectTable */;

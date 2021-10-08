@@ -42,9 +42,9 @@ VALUES (9391,   1, 'Lugian Crest') /* Name */
      , (9391,  33, 'CrestLugian') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9391,   1,   33557014) /* Setup */
-     , (9391,   3,  536870932) /* SoundTable */
-     , (9391,   6,   67113180) /* PaletteBase */
-     , (9391,   7,  268436170) /* ClothingBase */
-     , (9391,   8,  100671512) /* Icon */
-     , (9391,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9391,   1, 0x02000A16) /* Setup */
+     , (9391,   3, 0x20000014) /* SoundTable */
+     , (9391,   6, 0x040010DC) /* PaletteBase */
+     , (9391,   7, 0x100002CA) /* ClothingBase */
+     , (9391,   8, 0x06002018) /* Icon */
+     , (9391,  22, 0x3400002B) /* PhysicsEffectTable */;

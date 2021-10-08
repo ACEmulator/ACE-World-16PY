@@ -72,14 +72,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12023,   1, 'Dark Inferno') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12023,   1,   33554433) /* Setup */
-     , (12023,   2,  150994945) /* MotionTable */
-     , (12023,   3,  536870913) /* SoundTable */
-     , (12023,   4,  805306368) /* CombatTable */
-     , (12023,   6,   67108990) /* PaletteBase */
-     , (12023,   7,  268435632) /* ClothingBase */
-     , (12023,   8,  100670397) /* Icon */
-     , (12023,  22,  872415331) /* PhysicsEffectTable */
+VALUES (12023,   1, 0x02000001) /* Setup */
+     , (12023,   2, 0x09000001) /* MotionTable */
+     , (12023,   3, 0x20000001) /* SoundTable */
+     , (12023,   4, 0x30000000) /* CombatTable */
+     , (12023,   6, 0x0400007E) /* PaletteBase */
+     , (12023,   7, 0x100000B0) /* ClothingBase */
+     , (12023,   8, 0x06001BBD) /* Icon */
+     , (12023,  22, 0x34000063) /* PhysicsEffectTable */
      , (12023,  35,         19) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -37,10 +37,10 @@ VALUES (28860,   1, 'Scarecrow Guise') /* Name */
      , (28860,  16, 'A finely-built scarecrow costume. The pumpkin head feels a bit breezy, as thought it might not offer any real protection.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28860,   1,   33559001) /* Setup */
-     , (28860,   3,  536870932) /* SoundTable */
-     , (28860,   6,   67108990) /* PaletteBase */
-     , (28860,   7,  268436866) /* ClothingBase */
-     , (28860,   8,  100677084) /* Icon */
-     , (28860,  22,  872415275) /* PhysicsEffectTable */
-     , (28860,  36,  234881046) /* MutateFilter */;
+VALUES (28860,   1, 0x020011D9) /* Setup */
+     , (28860,   3, 0x20000014) /* SoundTable */
+     , (28860,   6, 0x0400007E) /* PaletteBase */
+     , (28860,   7, 0x10000582) /* ClothingBase */
+     , (28860,   8, 0x060035DC) /* Icon */
+     , (28860,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (28860,  36, 0x0E000016) /* MutateFilter */;

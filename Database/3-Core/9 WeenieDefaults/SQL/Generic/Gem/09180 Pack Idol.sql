@@ -29,10 +29,10 @@ VALUES (9180,   1, 'Pack Idol') /* Name */
      , (9180,  16, 'A chubby little Idol sure to bring you fame and wealth! Pack Idol obliterates his opponents with his "laser" eyes! Uses 2 AA batteries (Not included; Confiscated by Customs at the border...).') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9180,   1,   33556892) /* Setup */
-     , (9180,   2,  150995119) /* MotionTable */
-     , (9180,   6,   67113135) /* PaletteBase */
-     , (9180,   7,  268436140) /* ClothingBase */
-     , (9180,   8,  100671204) /* Icon */
-     , (9180,  22,  872415369) /* PhysicsEffectTable */
-     , (9180,  36,  234881046) /* MutateFilter */;
+VALUES (9180,   1, 0x0200099C) /* Setup */
+     , (9180,   2, 0x090000AF) /* MotionTable */
+     , (9180,   6, 0x040010AF) /* PaletteBase */
+     , (9180,   7, 0x100002AC) /* ClothingBase */
+     , (9180,   8, 0x06001EE4) /* Icon */
+     , (9180,  22, 0x34000089) /* PhysicsEffectTable */
+     , (9180,  36, 0x0E000016) /* MutateFilter */;

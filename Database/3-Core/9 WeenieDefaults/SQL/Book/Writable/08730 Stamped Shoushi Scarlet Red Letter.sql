@@ -27,10 +27,10 @@ VALUES (8730,   1, 'Stamped Shoushi Scarlet Red Letter') /* Name */
      , (8730,  15, 'A bright red piece of paper with some writing and a big stamp on it.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8730,   1,   33556921) /* Setup */
-     , (8730,   3,  536870932) /* SoundTable */
-     , (8730,   8,  100671216) /* Icon */
-     , (8730,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8730,   1, 0x020009B9) /* Setup */
+     , (8730,   3, 0x20000014) /* SoundTable */
+     , (8730,   8, 0x06001EF0) /* Icon */
+     , (8730,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (8730, 2, 1000);

@@ -34,9 +34,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22034,   1, 'Mu-miyah Torso with Arms') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22034,   1,   33558016) /* Setup */
-     , (22034,   3,  536870932) /* SoundTable */
-     , (22034,   6,   67108990) /* PaletteBase */
-     , (22034,   7,  268436471) /* ClothingBase */
-     , (22034,   8,  100673692) /* Icon */
-     , (22034,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22034,   1, 0x02000E00) /* Setup */
+     , (22034,   3, 0x20000014) /* SoundTable */
+     , (22034,   6, 0x0400007E) /* PaletteBase */
+     , (22034,   7, 0x100003F7) /* ClothingBase */
+     , (22034,   8, 0x0600289C) /* Icon */
+     , (22034,  22, 0x3400002B) /* PhysicsEffectTable */;

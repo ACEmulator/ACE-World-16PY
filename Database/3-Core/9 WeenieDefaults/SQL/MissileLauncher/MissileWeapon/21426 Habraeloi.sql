@@ -49,10 +49,10 @@ VALUES (21426,   1, 'Habraeloi') /* Name */
      , (21426,  15, 'An atlatl constructed from obsidian and cerulean colored stone.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21426,   1,   33557957) /* Setup */
-     , (21426,   3,  536870932) /* SoundTable */
-     , (21426,   8,  100673484) /* Icon */
-     , (21426,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21426,   1, 0x02000DC5) /* Setup */
+     , (21426,   3, 0x20000014) /* SoundTable */
+     , (21426,   8, 0x060027CC) /* Icon */
+     , (21426,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21426,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

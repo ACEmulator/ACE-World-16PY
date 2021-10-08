@@ -70,11 +70,11 @@ VALUES (24597,   1, 'Ry''zir al-Nabit') /* Name */
      , (24597,  24, 'Candeth Keep') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24597,   1,   33554433) /* Setup */
-     , (24597,   2,  150994945) /* MotionTable */
-     , (24597,   3,  536870913) /* SoundTable */
-     , (24597,   4,  805306368) /* CombatTable */
-     , (24597,   8,  100667446) /* Icon */;
+VALUES (24597,   1, 0x02000001) /* Setup */
+     , (24597,   2, 0x09000001) /* MotionTable */
+     , (24597,   3, 0x20000001) /* SoundTable */
+     , (24597,   4, 0x30000000) /* CombatTable */
+     , (24597,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24597,   1, 215, 0, 0) /* Strength */

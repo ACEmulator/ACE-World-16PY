@@ -51,12 +51,12 @@ VALUES (8028,   1, 'Caulnalain Crystal Shield') /* Name */
      , (8028,  16, 'A shield imbued with the power of the Caulnalain Crystal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8028,   1,   33554786) /* Setup */
-     , (8028,   3,  536870932) /* SoundTable */
-     , (8028,   6,   67111919) /* PaletteBase */
-     , (8028,   7,  268436037) /* ClothingBase */
-     , (8028,   8,  100670974) /* Icon */
-     , (8028,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8028,   1, 0x02000162) /* Setup */
+     , (8028,   3, 0x20000014) /* SoundTable */
+     , (8028,   6, 0x04000BEF) /* PaletteBase */
+     , (8028,   7, 0x10000245) /* ClothingBase */
+     , (8028,   8, 0x06001DFE) /* Icon */
+     , (8028,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8028,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

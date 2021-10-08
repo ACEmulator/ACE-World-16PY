@@ -22,7 +22,7 @@ VALUES (647,   1, 'Lady of Blades') /* Name */
      , (647,  16, 'Lady of Blades') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (647,   1,   33555088) /* Setup */
-     , (647,   6,   67111092) /* PaletteBase */
-     , (647,   7,  268435653) /* ClothingBase */
-     , (647,   8,  100668115) /* Icon */;
+VALUES (647,   1, 0x02000290) /* Setup */
+     , (647,   6, 0x040008B4) /* PaletteBase */
+     , (647,   7, 0x100000C5) /* ClothingBase */
+     , (647,   8, 0x060012D3) /* Icon */;

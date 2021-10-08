@@ -28,7 +28,7 @@ VALUES (27530,   1, 'Mosswart Thanking Stone') /* Name */
      , (27530,  33, 'PickedUpMosswartStoneThanks') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27530,   1,   33558698) /* Setup */
-     , (27530,   3,  536870932) /* SoundTable */
-     , (27530,   8,  100676432) /* Icon */
-     , (27530,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27530,   1, 0x020010AA) /* Setup */
+     , (27530,   3, 0x20000014) /* SoundTable */
+     , (27530,   8, 0x06003350) /* Icon */
+     , (27530,  22, 0x3400002B) /* PhysicsEffectTable */;

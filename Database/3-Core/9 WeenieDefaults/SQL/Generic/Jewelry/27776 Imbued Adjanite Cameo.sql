@@ -35,12 +35,12 @@ VALUES (27776,   1, 'Imbued Adjanite Cameo') /* Name */
      , (27776,  16, 'A finely detailed emerald cameo engraved with the face of Lady Adja. A fine amethyst powder has been sprinkled over this cameo, imbuing it with greater power.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27776,   1,   33554680) /* Setup */
-     , (27776,   3,  536870932) /* SoundTable */
-     , (27776,   6,   67111919) /* PaletteBase */
-     , (27776,   7,  268435735) /* ClothingBase */
-     , (27776,   8,  100676625) /* Icon */
-     , (27776,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27776,   1, 0x020000F8) /* Setup */
+     , (27776,   3, 0x20000014) /* SoundTable */
+     , (27776,   6, 0x04000BEF) /* PaletteBase */
+     , (27776,   7, 0x10000117) /* ClothingBase */
+     , (27776,   8, 0x06003411) /* Icon */
+     , (27776,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27776,   210,      2)  /* Mana Renewal Other V */

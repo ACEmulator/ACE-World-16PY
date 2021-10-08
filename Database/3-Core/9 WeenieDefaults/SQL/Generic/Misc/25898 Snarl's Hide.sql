@@ -25,9 +25,9 @@ VALUES (25898,   1, 'Snarl''s Hide') /* Name */
      , (25898,  16, 'A hide carefully cut from the corpse of the carenzi pack leader, Crimson Snarl.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25898,   1,   33554817) /* Setup */
-     , (25898,   3,  536870932) /* SoundTable */
-     , (25898,   6,   67111919) /* PaletteBase */
-     , (25898,   7,  268435832) /* ClothingBase */
-     , (25898,   8,  100675626) /* Icon */
-     , (25898,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25898,   1, 0x02000181) /* Setup */
+     , (25898,   3, 0x20000014) /* SoundTable */
+     , (25898,   6, 0x04000BEF) /* PaletteBase */
+     , (25898,   7, 0x10000178) /* ClothingBase */
+     , (25898,   8, 0x0600302A) /* Icon */
+     , (25898,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -64,11 +64,11 @@ VALUES (24160,   1, 'Ro Bi-Jor, Apprentice Tailor') /* Name */
      , (24160,   5, 'Apprentice Tailor') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24160,   1,   33554510) /* Setup */
-     , (24160,   2,  150994945) /* MotionTable */
-     , (24160,   3,  536870914) /* SoundTable */
-     , (24160,   4,  805306368) /* CombatTable */
-     , (24160,   8,  100667446) /* Icon */;
+VALUES (24160,   1, 0x0200004E) /* Setup */
+     , (24160,   2, 0x09000001) /* MotionTable */
+     , (24160,   3, 0x20000002) /* SoundTable */
+     , (24160,   4, 0x30000000) /* CombatTable */
+     , (24160,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24160,   1, 120, 0, 0) /* Strength */

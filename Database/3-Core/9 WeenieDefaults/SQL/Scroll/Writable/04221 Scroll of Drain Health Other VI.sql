@@ -25,7 +25,7 @@ VALUES (4221,   1, 'Scroll of Drain Health Other VI') /* Name */
      , (4221,  16, 'When learned, this spell drains one-quarter of the target''s Health and gives 110% of that to the caster.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4221,   1,   33554826) /* Setup */
-     , (4221,   8,  100676934) /* Icon */
-     , (4221,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4221,   1, 0x0200018A) /* Setup */
+     , (4221,   8, 0x06003546) /* Icon */
+     , (4221,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4221,  28,       1242) /* Spell - Drain Health Other VI */;

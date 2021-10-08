@@ -22,5 +22,5 @@ VALUES (14690,   1, 'Djebel al-Nar Cottages') /* Name */
      , (14690,  16, 'Welcome to Djebel al-Nar Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14690,   1,   33557463) /* Setup */
-     , (14690,   8,  100668115) /* Icon */;
+VALUES (14690,   1, 0x02000BD7) /* Setup */
+     , (14690,   8, 0x060012D3) /* Icon */;

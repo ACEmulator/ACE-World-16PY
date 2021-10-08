@@ -47,9 +47,9 @@ VALUES (22250,   1, 'Superior Great Jack o'' Lantern') /* Name */
      , (22250,  20, 'Superior Great Jack o'' Lanterns') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22250,   1,   33556812) /* Setup */
-     , (22250,   3,  536870932) /* SoundTable */
-     , (22250,   6,   67112968) /* PaletteBase */
-     , (22250,   7,  268436044) /* ClothingBase */
-     , (22250,   8,  100671019) /* Icon */
-     , (22250,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22250,   1, 0x0200094C) /* Setup */
+     , (22250,   3, 0x20000014) /* SoundTable */
+     , (22250,   6, 0x04001008) /* PaletteBase */
+     , (22250,   7, 0x1000024C) /* ClothingBase */
+     , (22250,   8, 0x06001E2B) /* Icon */
+     , (22250,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -26,7 +26,7 @@ VALUES (27896,   1, 'A Smelly Key') /* Name */
      , (27896,  33, 'MosswartExodusNecklaceKey') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27896,   1,   33554784) /* Setup */
-     , (27896,   3,  536870932) /* SoundTable */
-     , (27896,   8,  100668441) /* Icon */
-     , (27896,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27896,   1, 0x02000160) /* Setup */
+     , (27896,   3, 0x20000014) /* SoundTable */
+     , (27896,   8, 0x06001419) /* Icon */
+     , (27896,  22, 0x3400002B) /* PhysicsEffectTable */;

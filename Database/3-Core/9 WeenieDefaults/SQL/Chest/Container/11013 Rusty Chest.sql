@@ -44,11 +44,11 @@ VALUES (11013,   1, 'Rusty Chest') /* Name */
      , (11013,  16, 'A chest.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11013,   1,   33554556) /* Setup */
-     , (11013,   2,  150994948) /* MotionTable */
-     , (11013,   3,  536870945) /* SoundTable */
-     , (11013,   8,  100667424) /* Icon */
-     , (11013,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11013,   1, 0x0200007C) /* Setup */
+     , (11013,   2, 0x09000004) /* MotionTable */
+     , (11013,   3, 0x20000021) /* SoundTable */
+     , (11013,   8, 0x06001020) /* Icon */
+     , (11013,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11013, -1, 11016, 60, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Sheet of Curved Metal (11016) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

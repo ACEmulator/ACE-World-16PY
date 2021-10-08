@@ -32,9 +32,9 @@ VALUES (8118,   1, 'Shendolain Gem') /* Name */
      , (8118,  33, 'ShendolainCrystal') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8118,   1,   33554809) /* Setup */
-     , (8118,   3,  536870932) /* SoundTable */
-     , (8118,   6,   67111919) /* PaletteBase */
-     , (8118,   7,  268435723) /* ClothingBase */
-     , (8118,   8,  100670992) /* Icon */
-     , (8118,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8118,   1, 0x02000179) /* Setup */
+     , (8118,   3, 0x20000014) /* SoundTable */
+     , (8118,   6, 0x04000BEF) /* PaletteBase */
+     , (8118,   7, 0x1000010B) /* ClothingBase */
+     , (8118,   8, 0x06001E10) /* Icon */
+     , (8118,  22, 0x3400002B) /* PhysicsEffectTable */;

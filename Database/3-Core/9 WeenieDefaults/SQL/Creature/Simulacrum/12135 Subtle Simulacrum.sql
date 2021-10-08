@@ -65,12 +65,12 @@ VALUES (12135,   1, 'Subtle Simulacrum') /* Name */
      , (12135,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12135,   1,   33554510) /* Setup */
-     , (12135,   2,  150995141) /* MotionTable */
-     , (12135,   3,  536871045) /* SoundTable */
-     , (12135,   4,  805306368) /* CombatTable */
-     , (12135,   8,  100667446) /* Icon */
-     , (12135,  22,  872415381) /* PhysicsEffectTable */
+VALUES (12135,   1, 0x0200004E) /* Setup */
+     , (12135,   2, 0x090000C5) /* MotionTable */
+     , (12135,   3, 0x20000085) /* SoundTable */
+     , (12135,   4, 0x30000000) /* CombatTable */
+     , (12135,   8, 0x06001036) /* Icon */
+     , (12135,  22, 0x34000095) /* PhysicsEffectTable */
      , (12135,  32,        372) /* WieldedTreasureType - 
                                    Wield 5x Javelin (320) | Probability: 10%
                                    Wield 5x Djarid (317) | Probability: 10%

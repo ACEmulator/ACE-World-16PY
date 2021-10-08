@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13117,   1, 'Northwater Cottages Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13117,   1,   33554867) /* Setup */
-     , (13117,   2,  150994947) /* MotionTable */
-     , (13117,   8,  100667499) /* Icon */;
+VALUES (13117,   1, 0x020001B3) /* Setup */
+     , (13117,   2, 0x09000003) /* MotionTable */
+     , (13117,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (13117, 2, 0x78F40007, 20.872, 157.788, 2.256, 0.95607, 0, 0, -0.29314) /* Destination */

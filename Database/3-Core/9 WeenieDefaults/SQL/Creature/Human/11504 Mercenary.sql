@@ -60,12 +60,12 @@ VALUES (11504,   1, 'Mercenary') /* Name */
      , (11504,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11504,   1,   33554433) /* Setup */
-     , (11504,   2,  150994945) /* MotionTable */
-     , (11504,   3,  536870913) /* SoundTable */
-     , (11504,   4,  805306368) /* CombatTable */
-     , (11504,   8,  100667446) /* Icon */
-     , (11504,  22,  872415236) /* PhysicsEffectTable */
+VALUES (11504,   1, 0x02000001) /* Setup */
+     , (11504,   2, 0x09000001) /* MotionTable */
+     , (11504,   3, 0x20000001) /* SoundTable */
+     , (11504,   4, 0x30000000) /* CombatTable */
+     , (11504,   8, 0x06001036) /* Icon */
+     , (11504,  22, 0x34000004) /* PhysicsEffectTable */
      , (11504,  32,        364) /* WieldedTreasureType - 
                                    Wield Boots (2606) | Probability: 40%
                                    Wield Leather Boots (115) | Probability: 30.000002%

@@ -27,8 +27,8 @@ VALUES (11447,   1, 'Waaika Talisman') /* Name */
      , (11447,  16, 'A small talisman carved with the image of a mace.  If given to Aun Imeitanua, he will bestow a Waaika in exchange.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11447,   1,   33554680) /* Setup */
-     , (11447,   3,  536870932) /* SoundTable */
-     , (11447,   8,  100671827) /* Icon */
-     , (11447,  22,  872415275) /* PhysicsEffectTable */
-     , (11447,  36,  234881046) /* MutateFilter */;
+VALUES (11447,   1, 0x020000F8) /* Setup */
+     , (11447,   3, 0x20000014) /* SoundTable */
+     , (11447,   8, 0x06002153) /* Icon */
+     , (11447,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11447,  36, 0x0E000016) /* MutateFilter */;

@@ -28,9 +28,9 @@ VALUES (11945,   1, 'Reedshark Token') /* Name */
      , (11945,  16, 'A token with a Reedshark head on it.  This was given to you in exchange for your valor.  If you give it to any of the army collectors, they will grant you a gift. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11945,   1,   33557280) /* Setup */
-     , (11945,   3,  536870932) /* SoundTable */
-     , (11945,   6,   67111919) /* PaletteBase */
-     , (11945,   7,  268435723) /* ClothingBase */
-     , (11945,   8,  100671974) /* Icon */
-     , (11945,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11945,   1, 0x02000B20) /* Setup */
+     , (11945,   3, 0x20000014) /* SoundTable */
+     , (11945,   6, 0x04000BEF) /* PaletteBase */
+     , (11945,   7, 0x1000010B) /* ClothingBase */
+     , (11945,   8, 0x060021E6) /* Icon */
+     , (11945,  22, 0x3400002B) /* PhysicsEffectTable */;

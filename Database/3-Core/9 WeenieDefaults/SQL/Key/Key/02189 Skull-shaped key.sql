@@ -26,7 +26,7 @@ VALUES (2189,   1, 'Skull-shaped key') /* Name */
      , (2189,  16, 'This key is shaped like an elongated skull.  It is used somewhere in the Swamp Temple.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2189,   1,   33554784) /* Setup */
-     , (2189,   3,  536870932) /* SoundTable */
-     , (2189,   8,  100667486) /* Icon */
-     , (2189,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (2189,   1, 0x02000160) /* Setup */
+     , (2189,   3, 0x20000014) /* SoundTable */
+     , (2189,   8, 0x0600105E) /* Icon */
+     , (2189,  22, 0x3400002B) /* PhysicsEffectTable */;

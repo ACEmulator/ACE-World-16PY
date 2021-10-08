@@ -48,10 +48,10 @@ VALUES (10916,   1, 'Panaq') /* Name */
      , (10916,  16, 'A traditional ranged weapon of the Tumerok. It has a rough-hewn yet elegant appearance.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10916,   1,   33557225) /* Setup */
-     , (10916,   3,  536870932) /* SoundTable */
-     , (10916,   8,  100674303) /* Icon */
-     , (10916,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10916,   1, 0x02000AE9) /* Setup */
+     , (10916,   3, 0x20000014) /* SoundTable */
+     , (10916,   8, 0x06002AFF) /* Icon */
+     , (10916,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10916,  37,          2) /* ItemSkillLimit - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

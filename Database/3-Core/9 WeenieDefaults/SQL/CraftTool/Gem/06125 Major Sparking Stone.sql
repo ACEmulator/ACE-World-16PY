@@ -29,9 +29,9 @@ VALUES (6125,   1, 'Major Sparking Stone') /* Name */
      , (6125,  33, 'sparkingstonemajor') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6125,   1,   33556407) /* Setup */
-     , (6125,   3,  536870932) /* SoundTable */
-     , (6125,   6,   67111919) /* PaletteBase */
-     , (6125,   7,  268435965) /* ClothingBase */
-     , (6125,   8,  100670492) /* Icon */
-     , (6125,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6125,   1, 0x020007B7) /* Setup */
+     , (6125,   3, 0x20000014) /* SoundTable */
+     , (6125,   6, 0x04000BEF) /* PaletteBase */
+     , (6125,   7, 0x100001FD) /* ClothingBase */
+     , (6125,   8, 0x06001C1C) /* Icon */
+     , (6125,  22, 0x3400002B) /* PhysicsEffectTable */;

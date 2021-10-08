@@ -28,10 +28,10 @@ VALUES (26631,   1, 'Sapphire') /* Name */
      , (26631,  33, 'TempleSacredStone') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26631,   1,   33554809) /* Setup */
-     , (26631,   3,  536870932) /* SoundTable */
-     , (26631,   6,   67111919) /* PaletteBase */
-     , (26631,   7,  268435723) /* ClothingBase */
-     , (26631,   8,  100674715) /* Icon */
-     , (26631,  22,  872415275) /* PhysicsEffectTable */
-     , (26631,  36,  234881046) /* MutateFilter */;
+VALUES (26631,   1, 0x02000179) /* Setup */
+     , (26631,   3, 0x20000014) /* SoundTable */
+     , (26631,   6, 0x04000BEF) /* PaletteBase */
+     , (26631,   7, 0x1000010B) /* ClothingBase */
+     , (26631,   8, 0x06002C9B) /* Icon */
+     , (26631,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (26631,  36, 0x0E000016) /* MutateFilter */;

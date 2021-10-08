@@ -29,10 +29,10 @@ VALUES (9172,   1, 'Pack Drudge') /* Name */
      , (9172,  16, 'The first in the Drudge-in-Your-Pack line of toys. Comes with Kung-Fu action grip!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9172,   1,   33556445) /* Setup */
-     , (9172,   2,  150995113) /* MotionTable */
-     , (9172,   6,   67113135) /* PaletteBase */
-     , (9172,   7,  268436133) /* ClothingBase */
-     , (9172,   8,  100667445) /* Icon */
-     , (9172,  22,  872415258) /* PhysicsEffectTable */
-     , (9172,  36,  234881046) /* MutateFilter */;
+VALUES (9172,   1, 0x020007DD) /* Setup */
+     , (9172,   2, 0x090000A9) /* MotionTable */
+     , (9172,   6, 0x040010AF) /* PaletteBase */
+     , (9172,   7, 0x100002A5) /* ClothingBase */
+     , (9172,   8, 0x06001035) /* Icon */
+     , (9172,  22, 0x3400001A) /* PhysicsEffectTable */
+     , (9172,  36, 0x0E000016) /* MutateFilter */;

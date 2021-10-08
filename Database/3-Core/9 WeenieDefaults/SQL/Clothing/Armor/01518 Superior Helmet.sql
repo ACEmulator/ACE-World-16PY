@@ -46,11 +46,11 @@ VALUES (1518,   1, 'Superior Helmet') /* Name */
      , (1518,  16, 'A superior helm from the Halls of Helm.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1518,   1,   33554650) /* Setup */
-     , (1518,   6,   67108990) /* PaletteBase */
-     , (1518,   7,  268435500) /* ClothingBase */
-     , (1518,   8,  100667343) /* Icon */
-     , (1518,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1518,   1, 0x020000DA) /* Setup */
+     , (1518,   6, 0x0400007E) /* PaletteBase */
+     , (1518,   7, 0x1000002C) /* ClothingBase */
+     , (1518,   8, 0x06000FCF) /* Icon */
+     , (1518,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1518,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

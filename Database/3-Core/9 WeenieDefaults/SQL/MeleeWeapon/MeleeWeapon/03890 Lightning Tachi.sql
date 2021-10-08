@@ -37,11 +37,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3890,   1, 'Lightning Tachi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3890,   1,   33555731) /* Setup */
-     , (3890,   3,  536870932) /* SoundTable */
-     , (3890,   6,   67111919) /* PaletteBase */
-     , (3890,   7,  268435788) /* ClothingBase */
-     , (3890,   8,  100667934) /* Icon */
-     , (3890,  22,  872415275) /* PhysicsEffectTable */
-     , (3890,  36,  234881053) /* MutateFilter */
-     , (3890,  46,  939524101) /* TsysMutationFilter */;
+VALUES (3890,   1, 0x02000513) /* Setup */
+     , (3890,   3, 0x20000014) /* SoundTable */
+     , (3890,   6, 0x04000BEF) /* PaletteBase */
+     , (3890,   7, 0x1000014C) /* ClothingBase */
+     , (3890,   8, 0x0600121E) /* Icon */
+     , (3890,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3890,  36, 0x0E00001D) /* MutateFilter */
+     , (3890,  46, 0x38000005) /* TsysMutationFilter */;

@@ -25,9 +25,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29237,   1, 'Ishaq''s Cellar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29237,   1,   33555925) /* Setup */
-     , (29237,   2,  150994947) /* MotionTable */
-     , (29237,   8,  100667499) /* Icon */;
+VALUES (29237,   1, 0x020005D5) /* Setup */
+     , (29237,   2, 0x09000003) /* MotionTable */
+     , (29237,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (29237, 2, 0x02EA017D, 0.449236, -37.2334, 6.005, 0.382683, 0, 0, -0.92388) /* Destination */

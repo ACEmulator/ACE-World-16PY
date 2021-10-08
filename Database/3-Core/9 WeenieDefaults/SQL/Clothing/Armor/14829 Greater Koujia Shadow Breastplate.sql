@@ -41,9 +41,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14829,   1, 'Greater Koujia Shadow Breastplate') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14829,   1,   33554642) /* Setup */
-     , (14829,   3,  536870932) /* SoundTable */
-     , (14829,   6,   67108990) /* PaletteBase */
-     , (14829,   7,  268435852) /* ClothingBase */
-     , (14829,   8,  100670451) /* Icon */
-     , (14829,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14829,   1, 0x020000D2) /* Setup */
+     , (14829,   3, 0x20000014) /* SoundTable */
+     , (14829,   6, 0x0400007E) /* PaletteBase */
+     , (14829,   7, 0x1000018C) /* ClothingBase */
+     , (14829,   8, 0x06001BF3) /* Icon */
+     , (14829,  22, 0x3400002B) /* PhysicsEffectTable */;

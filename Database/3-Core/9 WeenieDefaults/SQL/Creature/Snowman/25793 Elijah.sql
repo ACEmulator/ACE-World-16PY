@@ -63,11 +63,11 @@ VALUES (25793,   1, 'Elijah') /* Name */
      , (25793,   5, 'Ice Mechanic') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25793,   1,   33558520) /* Setup */
-     , (25793,   2,  150995088) /* MotionTable */
-     , (25793,   3,  536871000) /* SoundTable */
-     , (25793,   4,  805306406) /* CombatTable */
-     , (25793,   8,  100669125) /* Icon */;
+VALUES (25793,   1, 0x02000FF8) /* Setup */
+     , (25793,   2, 0x09000090) /* MotionTable */
+     , (25793,   3, 0x20000058) /* SoundTable */
+     , (25793,   4, 0x30000026) /* CombatTable */
+     , (25793,   8, 0x060016C5) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25793,   1,  25, 0, 0) /* Strength */

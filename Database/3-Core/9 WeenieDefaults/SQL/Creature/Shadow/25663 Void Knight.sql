@@ -72,14 +72,14 @@ VALUES (25663,   1, 'Void Knight') /* Name */
      , (25663,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25663,   1,   33554433) /* Setup */
-     , (25663,   2,  150994945) /* MotionTable */
-     , (25663,   3,  536870913) /* SoundTable */
-     , (25663,   4,  805306368) /* CombatTable */
-     , (25663,   6,   67111797) /* PaletteBase */
-     , (25663,   7,  268435632) /* ClothingBase */
-     , (25663,   8,  100670397) /* Icon */
-     , (25663,  22,  872415331) /* PhysicsEffectTable */
+VALUES (25663,   1, 0x02000001) /* Setup */
+     , (25663,   2, 0x09000001) /* MotionTable */
+     , (25663,   3, 0x20000001) /* SoundTable */
+     , (25663,   4, 0x30000000) /* CombatTable */
+     , (25663,   6, 0x04000B75) /* PaletteBase */
+     , (25663,   7, 0x100000B0) /* ClothingBase */
+     , (25663,   8, 0x06001BBD) /* Icon */
+     , (25663,  22, 0x34000063) /* PhysicsEffectTable */
      , (25663,  32,        426) /* WieldedTreasureType - 
                                    Wield Tachi (23136) | Probability: 30.000002%
                                    Wield Kite Shield (23135) | Probability: 100%

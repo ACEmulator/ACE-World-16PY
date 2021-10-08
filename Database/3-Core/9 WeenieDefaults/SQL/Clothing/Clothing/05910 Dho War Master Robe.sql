@@ -43,12 +43,12 @@ VALUES (5910,   1, 'Dho War Master Robe') /* Name */
      , (5910,  19, 'Gharu''ndim') /* ItemHeritageGroupRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5910,   1,   33554854) /* Setup */
-     , (5910,   3,  536870932) /* SoundTable */
-     , (5910,   6,   67108990) /* PaletteBase */
-     , (5910,   7,  268435855) /* ClothingBase */
-     , (5910,   8,  100670371) /* Icon */
-     , (5910,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5910,   1, 0x020001A6) /* Setup */
+     , (5910,   3, 0x20000014) /* SoundTable */
+     , (5910,   6, 0x0400007E) /* PaletteBase */
+     , (5910,   7, 0x1000018F) /* ClothingBase */
+     , (5910,   8, 0x06001BA3) /* Icon */
+     , (5910,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5910,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

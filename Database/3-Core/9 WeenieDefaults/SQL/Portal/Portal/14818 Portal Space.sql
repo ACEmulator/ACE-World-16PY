@@ -25,9 +25,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14818,   1, 'Portal Space') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14818,   1,   33555924) /* Setup */
-     , (14818,   2,  150994947) /* MotionTable */
-     , (14818,   8,  100667499) /* Icon */;
+VALUES (14818,   1, 0x020005D4) /* Setup */
+     , (14818,   2, 0x09000003) /* MotionTable */
+     , (14818,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (14818, 2, 0x526C01E8, 40, -90, -18, 1, 0, 0, -0) /* Destination */

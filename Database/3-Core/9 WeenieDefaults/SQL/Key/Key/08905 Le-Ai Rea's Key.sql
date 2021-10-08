@@ -27,7 +27,7 @@ VALUES (8905,   1, 'Le-Ai Rea''s Key') /* Name */
      , (8905,  16, 'The final key to the Mines of Despair. It is radiating a strange yellow glow.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8905,   1,   33554784) /* Setup */
-     , (8905,   3,  536870932) /* SoundTable */
-     , (8905,   8,  100668437) /* Icon */
-     , (8905,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8905,   1, 0x02000160) /* Setup */
+     , (8905,   3, 0x20000014) /* SoundTable */
+     , (8905,   8, 0x06001415) /* Icon */
+     , (8905,  22, 0x3400002B) /* PhysicsEffectTable */;

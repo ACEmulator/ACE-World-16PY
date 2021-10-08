@@ -31,10 +31,10 @@ VALUES (8330,   1, 'Pyreal Pea') /* Name */
      , (8330,  16, 'A concentrated pyreal pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8330,   1,   33555211) /* Setup */
-     , (8330,   3,  536870932) /* SoundTable */
-     , (8330,   6,   67111919) /* PaletteBase */
-     , (8330,   7,  268435721) /* ClothingBase */
-     , (8330,   8,  100671084) /* Icon */
-     , (8330,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8330,   1, 0x0200030B) /* Setup */
+     , (8330,   3, 0x20000014) /* SoundTable */
+     , (8330,   6, 0x04000BEF) /* PaletteBase */
+     , (8330,   7, 0x10000109) /* ClothingBase */
+     , (8330,   8, 0x06001E6C) /* Icon */
+     , (8330,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8330,  29,        118) /* SpellComponent */;

@@ -28,10 +28,10 @@ VALUES (30375,   1, 'Wand of the Frore Crystal') /* Name */
      , (30375,  16, 'Describe me here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30375,   1,   33554812) /* Setup */
-     , (30375,   3,  536870932) /* SoundTable */
-     , (30375,   6,   67111919) /* PaletteBase */
-     , (30375,   7,  268435758) /* ClothingBase */
-     , (30375,   8,  100668792) /* Icon */
-     , (30375,  22,  872415275) /* PhysicsEffectTable */
-     , (30375,  27, 1073742049) /* UseUserAnimation - UseMagicWand */;
+VALUES (30375,   1, 0x0200017C) /* Setup */
+     , (30375,   3, 0x20000014) /* SoundTable */
+     , (30375,   6, 0x04000BEF) /* PaletteBase */
+     , (30375,   7, 0x1000012E) /* ClothingBase */
+     , (30375,   8, 0x06001578) /* Icon */
+     , (30375,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30375,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */;

@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24478,   1, 'Small Coral Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24478,   1,   33556426) /* Setup */
-     , (24478,   2,  150995073) /* MotionTable */
-     , (24478,   3,  536870933) /* SoundTable */
-     , (24478,   4,  805306376) /* CombatTable */
-     , (24478,   6,   67112775) /* PaletteBase */
-     , (24478,   7,  268436009) /* ClothingBase */
-     , (24478,   8,  100667940) /* Icon */
-     , (24478,  22,  872415323) /* PhysicsEffectTable */
+VALUES (24478,   1, 0x020007CA) /* Setup */
+     , (24478,   2, 0x09000081) /* MotionTable */
+     , (24478,   3, 0x20000015) /* SoundTable */
+     , (24478,   4, 0x30000008) /* CombatTable */
+     , (24478,   6, 0x04000F47) /* PaletteBase */
+     , (24478,   7, 0x10000229) /* ClothingBase */
+     , (24478,   8, 0x06001224) /* Icon */
+     , (24478,  22, 0x3400005B) /* PhysicsEffectTable */
      , (24478,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

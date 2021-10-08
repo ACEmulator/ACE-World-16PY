@@ -23,7 +23,7 @@ VALUES (13200,   1, 'Aluvian Festival Light') /* Name */
      , (13200,  15, 'You can use this item on floor and yard hooks.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13200,   1,   33556230) /* Setup */
-     , (13200,   3,  536870932) /* SoundTable */
-     , (13200,   8,  100672424) /* Icon */
-     , (13200,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (13200,   1, 0x02000706) /* Setup */
+     , (13200,   3, 0x20000014) /* SoundTable */
+     , (13200,   8, 0x060023A8) /* Icon */
+     , (13200,  22, 0x3400002B) /* PhysicsEffectTable */;

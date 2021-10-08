@@ -61,11 +61,11 @@ VALUES (20017,   1, 'Cocooned Auroch') /* Name */
      , (20017,   5, 'Dying') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20017,   1,   33557712) /* Setup */
-     , (20017,   2,  150995194) /* MotionTable */
-     , (20017,   3,  536871058) /* SoundTable */
-     , (20017,   4,  805306375) /* CombatTable */
-     , (20017,   8,  100667936) /* Icon */;
+VALUES (20017,   1, 0x02000CD0) /* Setup */
+     , (20017,   2, 0x090000FA) /* MotionTable */
+     , (20017,   3, 0x20000092) /* SoundTable */
+     , (20017,   4, 0x30000007) /* CombatTable */
+     , (20017,   8, 0x06001220) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (20017,   1, 135, 0, 0) /* Strength */

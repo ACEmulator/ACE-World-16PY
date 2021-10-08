@@ -37,10 +37,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8627,   1, 'Acid Yari') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8627,   1,   33555825) /* Setup */
-     , (8627,   3,  536870932) /* SoundTable */
-     , (8627,   6,   67111919) /* PaletteBase */
-     , (8627,   7,  268435777) /* ClothingBase */
-     , (8627,   8,  100667579) /* Icon */
-     , (8627,  22,  872415275) /* PhysicsEffectTable */
-     , (8627,  36,  234881044) /* MutateFilter */;
+VALUES (8627,   1, 0x02000571) /* Setup */
+     , (8627,   3, 0x20000014) /* SoundTable */
+     , (8627,   6, 0x04000BEF) /* PaletteBase */
+     , (8627,   7, 0x10000141) /* ClothingBase */
+     , (8627,   8, 0x060010BB) /* Icon */
+     , (8627,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8627,  36, 0x0E000014) /* MutateFilter */;

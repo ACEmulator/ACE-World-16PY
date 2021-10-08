@@ -63,12 +63,12 @@ VALUES (25967,   1, 'Rayssid Ibn Alhath') /* Name */
      , (25967,   4, 'Gharu''ndim') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25967,   1,   33554433) /* Setup */
-     , (25967,   2,  150994945) /* MotionTable */
-     , (25967,   3,  536870913) /* SoundTable */
-     , (25967,   4,  805306368) /* CombatTable */
-     , (25967,   8,  100667446) /* Icon */
-     , (25967,  22,  872415236) /* PhysicsEffectTable */
+VALUES (25967,   1, 0x02000001) /* Setup */
+     , (25967,   2, 0x09000001) /* MotionTable */
+     , (25967,   3, 0x20000001) /* SoundTable */
+     , (25967,   4, 0x30000000) /* CombatTable */
+     , (25967,   8, 0x06001036) /* Icon */
+     , (25967,  22, 0x34000004) /* PhysicsEffectTable */
      , (25967,  32,        198) /* WieldedTreasureType - 
                                    Wield Yumi (23733) | Probability: 12.5%
                                    Wield 20x Deadly Armor Piercing Arrow (15431) | Probability: 100%

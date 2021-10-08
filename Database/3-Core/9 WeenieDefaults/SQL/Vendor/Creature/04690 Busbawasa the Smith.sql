@@ -70,11 +70,11 @@ VALUES (4690,   1, 'Busbawasa the Smith') /* Name */
      , (4690,  24, 'Al-Jalima') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4690,   1,   33554510) /* Setup */
-     , (4690,   2,  150994945) /* MotionTable */
-     , (4690,   3,  536870914) /* SoundTable */
-     , (4690,   4,  805306368) /* CombatTable */
-     , (4690,   8,  100667446) /* Icon */;
+VALUES (4690,   1, 0x0200004E) /* Setup */
+     , (4690,   2, 0x09000001) /* MotionTable */
+     , (4690,   3, 0x20000002) /* SoundTable */
+     , (4690,   4, 0x30000000) /* CombatTable */
+     , (4690,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4690,   1, 120, 0, 0) /* Strength */

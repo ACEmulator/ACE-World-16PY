@@ -28,8 +28,8 @@ VALUES (9577,   1, 'Completed Thrown Weapons Skill Puzzle') /* Name */
      , (9577,  16, 'A completed Thrown Weapons Skill Puzzle.  Turn in to a Bestower Examiner to receive a title.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9577,   1,   33557028) /* Setup */
-     , (9577,   3,  536870932) /* SoundTable */
-     , (9577,   8,  100671567) /* Icon */
-     , (9577,  22,  872415275) /* PhysicsEffectTable */
-     , (9577,  36,  234881046) /* MutateFilter */;
+VALUES (9577,   1, 0x02000A24) /* Setup */
+     , (9577,   3, 0x20000014) /* SoundTable */
+     , (9577,   8, 0x0600204F) /* Icon */
+     , (9577,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (9577,  36, 0x0E000016) /* MutateFilter */;

@@ -33,11 +33,11 @@ VALUES (30401,   1, 'Wallbound Niffis') /* Name */
      , (30401,  16, 'A reward granted by the kindly Niffis Reijiri.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30401,   1,   33559117) /* Setup */
-     , (30401,   3,  536871010) /* SoundTable */
-     , (30401,   6,   67112937) /* PaletteBase */
-     , (30401,   7,  268436039) /* ClothingBase */
-     , (30401,   8,  100670961) /* Icon */;
+VALUES (30401,   1, 0x0200124D) /* Setup */
+     , (30401,   3, 0x20000062) /* SoundTable */
+     , (30401,   6, 0x04000FE9) /* PaletteBase */
+     , (30401,   7, 0x10000247) /* ClothingBase */
+     , (30401,   8, 0x06001DF1) /* Icon */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (30401,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

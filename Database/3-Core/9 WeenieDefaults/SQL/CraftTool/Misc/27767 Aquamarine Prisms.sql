@@ -34,7 +34,7 @@ VALUES (27767,   1, 'Aquamarine Prisms') /* Name */
      , (27767,  33, 'PickedUpAquamarinePrisms') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27767,   1,   33558812) /* Setup */
-     , (27767,   3,  536870932) /* SoundTable */
-     , (27767,   8,  100676638) /* Icon */
-     , (27767,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27767,   1, 0x0200111C) /* Setup */
+     , (27767,   3, 0x20000014) /* SoundTable */
+     , (27767,   8, 0x0600341E) /* Icon */
+     , (27767,  22, 0x3400002B) /* PhysicsEffectTable */;

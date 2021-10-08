@@ -22,5 +22,5 @@ VALUES (15204,   1, 'Al-Mar Oasis') /* Name */
      , (15204,  16, 'Welcome to Al-Mar Oasis') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15204,   1,   33557463) /* Setup */
-     , (15204,   8,  100668115) /* Icon */;
+VALUES (15204,   1, 0x02000BD7) /* Setup */
+     , (15204,   8, 0x060012D3) /* Icon */;

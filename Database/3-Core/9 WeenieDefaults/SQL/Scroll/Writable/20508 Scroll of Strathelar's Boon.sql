@@ -24,7 +24,7 @@ VALUES (20508,   1, 'Scroll of Strathelar''s Boon') /* Name */
      , (20508,  15, 'When learned, this spell increases the target''s Bow skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20508,   1,   33554826) /* Setup */
-     , (20508,   8,  100676450) /* Icon */
-     , (20508,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20508,   1, 0x0200018A) /* Setup */
+     , (20508,   8, 0x06003362) /* Icon */
+     , (20508,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20508,  28,       2206) /* Spell - Missile Weapon Mastery Other VII */;

@@ -60,14 +60,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22901,   1, 'Swarthy Mattekar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22901,   1,   33555590) /* Setup */
-     , (22901,   2,  150995047) /* MotionTable */
-     , (22901,   3,  536870974) /* SoundTable */
-     , (22901,   4,  805306391) /* CombatTable */
-     , (22901,   6,   67111893) /* PaletteBase */
-     , (22901,   7,  268435729) /* ClothingBase */
-     , (22901,   8,  100669121) /* Icon */
-     , (22901,  22,  872415278) /* PhysicsEffectTable */
+VALUES (22901,   1, 0x02000486) /* Setup */
+     , (22901,   2, 0x09000067) /* MotionTable */
+     , (22901,   3, 0x2000003E) /* SoundTable */
+     , (22901,   4, 0x30000017) /* CombatTable */
+     , (22901,   6, 0x04000BD5) /* PaletteBase */
+     , (22901,   7, 0x10000111) /* ClothingBase */
+     , (22901,   8, 0x060016C1) /* Icon */
+     , (22901,  22, 0x3400002E) /* PhysicsEffectTable */
      , (22901,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

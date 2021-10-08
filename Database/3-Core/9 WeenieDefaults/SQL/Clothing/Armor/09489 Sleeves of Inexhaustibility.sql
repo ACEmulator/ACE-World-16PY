@@ -45,11 +45,11 @@ VALUES (9489,   1, 'Sleeves of Inexhaustibility') /* Name */
      , (9489,  15, 'Never tire and never surrender. [Note: You must have Axe specialized to use the magic on this item, in addition to the other requirements]') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9489,   1,   33554655) /* Setup */
-     , (9489,   6,   67108990) /* PaletteBase */
-     , (9489,   7,  268436163) /* ClothingBase */
-     , (9489,   8,  100671484) /* Icon */
-     , (9489,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9489,   1, 0x020000DF) /* Setup */
+     , (9489,   6, 0x0400007E) /* PaletteBase */
+     , (9489,   7, 0x100002C3) /* ClothingBase */
+     , (9489,   8, 0x06001FFC) /* Icon */
+     , (9489,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9489,  37,          1) /* ItemSkillLimit - Axe */
      , (9489,  41,          1) /* ItemSpecializedOnly - Axe */;
 

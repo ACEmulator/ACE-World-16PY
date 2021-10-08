@@ -34,7 +34,7 @@ VALUES (28353,   1, 'Fragment of Solidified Blood') /* Name */
      , (28353,  33, 'GlyphKivikLirShardBlood') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28353,   1,   33558875) /* Setup */
-     , (28353,   3,  536870932) /* SoundTable */
-     , (28353,   8,  100677000) /* Icon */
-     , (28353,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28353,   1, 0x0200115B) /* Setup */
+     , (28353,   3, 0x20000014) /* SoundTable */
+     , (28353,   8, 0x06003588) /* Icon */
+     , (28353,  22, 0x3400002B) /* PhysicsEffectTable */;

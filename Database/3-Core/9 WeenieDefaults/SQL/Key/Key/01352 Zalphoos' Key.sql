@@ -25,7 +25,7 @@ VALUES (1352,   1, 'Zalphoos'' Key') /* Name */
      , (1352,  15, 'Sold by Zalphoos') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1352,   1,   33554784) /* Setup */
-     , (1352,   3,  536870932) /* SoundTable */
-     , (1352,   8,  100667486) /* Icon */
-     , (1352,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1352,   1, 0x02000160) /* Setup */
+     , (1352,   3, 0x20000014) /* SoundTable */
+     , (1352,   8, 0x0600105E) /* Icon */
+     , (1352,  22, 0x3400002B) /* PhysicsEffectTable */;

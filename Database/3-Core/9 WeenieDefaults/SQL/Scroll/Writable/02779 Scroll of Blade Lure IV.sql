@@ -25,7 +25,7 @@ VALUES (2779,   1, 'Scroll of Blade Lure IV') /* Name */
      , (2779,  16, 'When learned, this spell decreases a shield or piece of armor''s resistance to slashing damage by 75%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2779,   1,   33554826) /* Setup */
-     , (2779,   8,  100676664) /* Icon */
-     , (2779,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2779,   1, 0x0200018A) /* Setup */
+     , (2779,   8, 0x06003438) /* Icon */
+     , (2779,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2779,  28,       1555) /* Spell - Blade Lure IV */;

@@ -71,12 +71,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25883,   1, 'Tenebrous Rift') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25883,   1,   33558552) /* Setup */
-     , (25883,   2,  150995087) /* MotionTable */
-     , (25883,   3,  536871001) /* SoundTable */
-     , (25883,   4,  805306407) /* CombatTable */
-     , (25883,   8,  100671702) /* Icon */
-     , (25883,  22,  872415375) /* PhysicsEffectTable */
+VALUES (25883,   1, 0x02001018) /* Setup */
+     , (25883,   2, 0x0900008F) /* MotionTable */
+     , (25883,   3, 0x20000059) /* SoundTable */
+     , (25883,   4, 0x30000027) /* CombatTable */
+     , (25883,   8, 0x060020D6) /* Icon */
+     , (25883,  22, 0x3400008F) /* PhysicsEffectTable */
      , (25883,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

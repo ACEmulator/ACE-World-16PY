@@ -23,7 +23,7 @@ VALUES (248,   1, 'Olthoi Enslavement') /* Name */
      , (248,  15, 'This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (248,   1,   33557342) /* Setup */
-     , (248,   3,  536870932) /* SoundTable */
-     , (248,   8,  100672344) /* Icon */
-     , (248,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (248,   1, 0x02000B5E) /* Setup */
+     , (248,   3, 0x20000014) /* SoundTable */
+     , (248,   8, 0x06002358) /* Icon */
+     , (248,  22, 0x3400002B) /* PhysicsEffectTable */;

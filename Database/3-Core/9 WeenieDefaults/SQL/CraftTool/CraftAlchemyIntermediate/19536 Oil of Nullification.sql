@@ -33,9 +33,9 @@ VALUES (19536,   1, 'Oil of Nullification') /* Name */
      , (19536,  20, 'Oil of Nullification') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19536,   1,   33555965) /* Setup */
-     , (19536,   3,  536870932) /* SoundTable */
-     , (19536,   6,   67111919) /* PaletteBase */
-     , (19536,   7,  268435814) /* ClothingBase */
-     , (19536,   8,  100672882) /* Icon */
-     , (19536,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19536,   1, 0x020005FD) /* Setup */
+     , (19536,   3, 0x20000014) /* SoundTable */
+     , (19536,   6, 0x04000BEF) /* PaletteBase */
+     , (19536,   7, 0x10000166) /* ClothingBase */
+     , (19536,   8, 0x06002572) /* Icon */
+     , (19536,  22, 0x3400002B) /* PhysicsEffectTable */;

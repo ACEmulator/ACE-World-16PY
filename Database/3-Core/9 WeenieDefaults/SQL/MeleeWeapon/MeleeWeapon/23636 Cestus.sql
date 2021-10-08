@@ -40,14 +40,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23636,   1, 'Cestus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23636,   1,   33555997) /* Setup */
-     , (23636,   3,  536870932) /* SoundTable */
-     , (23636,   6,   67111919) /* PaletteBase */
-     , (23636,   7,  268435829) /* ClothingBase */
-     , (23636,   8,  100670016) /* Icon */
-     , (23636,  22,  872415275) /* PhysicsEffectTable */
-     , (23636,  36,  234881053) /* MutateFilter */
-     , (23636,  46,  939524102) /* TsysMutationFilter */;
+VALUES (23636,   1, 0x0200061D) /* Setup */
+     , (23636,   3, 0x20000014) /* SoundTable */
+     , (23636,   6, 0x04000BEF) /* PaletteBase */
+     , (23636,   7, 0x10000175) /* ClothingBase */
+     , (23636,   8, 0x06001A40) /* Icon */
+     , (23636,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (23636,  36, 0x0E00001D) /* MutateFilter */
+     , (23636,  46, 0x38000006) /* TsysMutationFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23636,  1616,      2)  /* Aura of Blood Drinker Self VI */

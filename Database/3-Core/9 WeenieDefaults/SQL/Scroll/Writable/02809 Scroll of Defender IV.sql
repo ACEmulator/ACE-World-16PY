@@ -25,7 +25,7 @@ VALUES (2809,   1, 'Scroll of Defender IV') /* Name */
      , (2809,  16, 'When learned, this spell increases a weapon''s Defense Skill modifier by 75%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2809,   1,   33554826) /* Setup */
-     , (2809,   8,  100676658) /* Icon */
-     , (2809,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2809,   1, 0x0200018A) /* Setup */
+     , (2809,   8, 0x06003432) /* Icon */
+     , (2809,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2809,  28,       1603) /* Spell - Aura of Defender Self IV */;

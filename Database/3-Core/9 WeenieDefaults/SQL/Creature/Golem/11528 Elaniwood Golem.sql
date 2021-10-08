@@ -61,12 +61,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11528,   1, 'Elaniwood Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11528,   1,   33556428) /* Setup */
-     , (11528,   2,  150995073) /* MotionTable */
-     , (11528,   3,  536870933) /* SoundTable */
-     , (11528,   4,  805306376) /* CombatTable */
-     , (11528,   8,  100667940) /* Icon */
-     , (11528,  22,  872415326) /* PhysicsEffectTable */
+VALUES (11528,   1, 0x020007CC) /* Setup */
+     , (11528,   2, 0x09000081) /* MotionTable */
+     , (11528,   3, 0x20000015) /* SoundTable */
+     , (11528,   4, 0x30000008) /* CombatTable */
+     , (11528,   8, 0x06001224) /* Icon */
+     , (11528,  22, 0x3400005E) /* PhysicsEffectTable */
      , (11528,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -37,11 +37,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30517,   1, 'Template for Girths. Covers abdomen area.') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30517,   1,   33554647) /* Setup */
-     , (30517,   3,  536870932) /* SoundTable */
-     , (30517,   6,   67108990) /* PaletteBase */
-     , (30517,   7,  268435523) /* ClothingBase */
-     , (30517,   8,  100668143) /* Icon */
-     , (30517,  22,  872415275) /* PhysicsEffectTable */
-     , (30517,  36,  234881042) /* MutateFilter */
-     , (30517,  46,  939524146) /* TsysMutationFilter */;
+VALUES (30517,   1, 0x020000D7) /* Setup */
+     , (30517,   3, 0x20000014) /* SoundTable */
+     , (30517,   6, 0x0400007E) /* PaletteBase */
+     , (30517,   7, 0x10000043) /* ClothingBase */
+     , (30517,   8, 0x060012EF) /* Icon */
+     , (30517,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30517,  36, 0x0E000012) /* MutateFilter */
+     , (30517,  46, 0x38000032) /* TsysMutationFilter */;

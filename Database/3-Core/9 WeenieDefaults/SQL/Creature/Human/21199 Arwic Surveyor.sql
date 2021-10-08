@@ -64,11 +64,11 @@ VALUES (21199,   1, 'Arwic Surveyor') /* Name */
      , (21199,   5, 'Surveyor') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21199,   1,   33554433) /* Setup */
-     , (21199,   2,  150994945) /* MotionTable */
-     , (21199,   3,  536870913) /* SoundTable */
-     , (21199,   4,  805306368) /* CombatTable */
-     , (21199,   8,  100667446) /* Icon */;
+VALUES (21199,   1, 0x02000001) /* Setup */
+     , (21199,   2, 0x09000001) /* MotionTable */
+     , (21199,   3, 0x20000001) /* SoundTable */
+     , (21199,   4, 0x30000000) /* CombatTable */
+     , (21199,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (21199,   1, 120, 0, 0) /* Strength */

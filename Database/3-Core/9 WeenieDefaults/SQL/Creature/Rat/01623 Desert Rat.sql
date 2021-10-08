@@ -61,14 +61,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1623,   1, 'Desert Rat') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1623,   1,   33554493) /* Setup */
-     , (1623,   2,  150994958) /* MotionTable */
-     , (1623,   3,  536870927) /* SoundTable */
-     , (1623,   4,  805306387) /* CombatTable */
-     , (1623,   6,   67109300) /* PaletteBase */
-     , (1623,   7,  268435555) /* ClothingBase */
-     , (1623,   8,  100667451) /* Icon */
-     , (1623,  22,  872415267) /* PhysicsEffectTable */
+VALUES (1623,   1, 0x0200003D) /* Setup */
+     , (1623,   2, 0x0900000E) /* MotionTable */
+     , (1623,   3, 0x2000000F) /* SoundTable */
+     , (1623,   4, 0x30000013) /* CombatTable */
+     , (1623,   6, 0x040001B4) /* PaletteBase */
+     , (1623,   7, 0x10000063) /* ClothingBase */
+     , (1623,   8, 0x0600103B) /* Icon */
+     , (1623,  22, 0x34000023) /* PhysicsEffectTable */
      , (1623,  30,         85) /* PhysicsScript - BreatheFrost */
      , (1623,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 

@@ -53,9 +53,9 @@ VALUES (23925,   1, 'Hand Grenade') /* Name */
      , (23925,  15, 'A strange egg shaped object with a pin in the top.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23925,   1,   33554673) /* Setup */
-     , (23925,   3,  536870932) /* SoundTable */
-     , (23925,   6,   67111919) /* PaletteBase */
-     , (23925,   7,  268435986) /* ClothingBase */
-     , (23925,   8,  100674089) /* Icon */
-     , (23925,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23925,   1, 0x020000F1) /* Setup */
+     , (23925,   3, 0x20000014) /* SoundTable */
+     , (23925,   6, 0x04000BEF) /* PaletteBase */
+     , (23925,   7, 0x10000212) /* ClothingBase */
+     , (23925,   8, 0x06002A29) /* Icon */
+     , (23925,  22, 0x3400002B) /* PhysicsEffectTable */;

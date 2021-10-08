@@ -53,12 +53,12 @@ VALUES (27338,   1, 'Palenqual''s Panaq of the Chase') /* Name */
      , (27338,  16, 'A panaq fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27338,   1,   33558662) /* Setup */
-     , (27338,   3,  536870932) /* SoundTable */
-     , (27338,   6,   67113336) /* PaletteBase */
-     , (27338,   7,  268436250) /* ClothingBase */
-     , (27338,   8,  100676379) /* Icon */
-     , (27338,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27338,   1, 0x02001086) /* Setup */
+     , (27338,   3, 0x20000014) /* SoundTable */
+     , (27338,   6, 0x04001178) /* PaletteBase */
+     , (27338,   7, 0x1000031A) /* ClothingBase */
+     , (27338,   8, 0x0600331B) /* Icon */
+     , (27338,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27338,  2454,      2)  /* Thorns */

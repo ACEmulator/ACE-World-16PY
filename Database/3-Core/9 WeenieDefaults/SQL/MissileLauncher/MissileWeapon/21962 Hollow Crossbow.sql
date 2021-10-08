@@ -48,10 +48,10 @@ VALUES (21962,   1, 'Hollow Crossbow') /* Name */
      , (21962,  16, 'A crossbow crafted from high-quality chorizite, seemingly impervious to magical protections. (Note: This weapon is unenchantable and ignores modified armor and protection values.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21962,   1,   33558058) /* Setup */
-     , (21962,   3,  536870932) /* SoundTable */
-     , (21962,   6,   67111919) /* PaletteBase */
-     , (21962,   7,  268435762) /* ClothingBase */
-     , (21962,   8,  100668835) /* Icon */
-     , (21962,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21962,   1, 0x02000E2A) /* Setup */
+     , (21962,   3, 0x20000014) /* SoundTable */
+     , (21962,   6, 0x04000BEF) /* PaletteBase */
+     , (21962,   7, 0x10000132) /* ClothingBase */
+     , (21962,   8, 0x060015A3) /* Icon */
+     , (21962,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21962,  30,         88) /* PhysicsScript - Create */;

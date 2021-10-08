@@ -26,7 +26,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22058,   1, 'Undead Body') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22058,   1,   33558013) /* Setup */
-     , (22058,   3,  536870932) /* SoundTable */
-     , (22058,   8,  100673708) /* Icon */
-     , (22058,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22058,   1, 0x02000DFD) /* Setup */
+     , (22058,   3, 0x20000014) /* SoundTable */
+     , (22058,   8, 0x060028AC) /* Icon */
+     , (22058,  22, 0x3400002B) /* PhysicsEffectTable */;

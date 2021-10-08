@@ -36,13 +36,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3748,   1, 'White Virindi Wand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3748,   1,   33558228) /* Setup */
-     , (3748,   3,  536870932) /* SoundTable */
-     , (3748,   6,   67111919) /* PaletteBase */
-     , (3748,   7,  268435831) /* ClothingBase */
-     , (3748,   8,  100674113) /* Icon */
-     , (3748,  22,  872415275) /* PhysicsEffectTable */
-     , (3748,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (3748,   1, 0x02000ED4) /* Setup */
+     , (3748,   3, 0x20000014) /* SoundTable */
+     , (3748,   6, 0x04000BEF) /* PaletteBase */
+     , (3748,   7, 0x10000177) /* ClothingBase */
+     , (3748,   8, 0x06002A41) /* Icon */
+     , (3748,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3748,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (3748,  28,         80) /* Spell - Lightning Bolt VI */
      , (3748,  37,         34) /* ItemSkillLimit - WarMagic */;
 

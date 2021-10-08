@@ -64,13 +64,13 @@ VALUES (24577,   1, 'Agent Dravos') /* Name */
      , (24577,   5, 'Arcanum Agent') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24577,   1,   33557003) /* Setup */
-     , (24577,   2,  150994950) /* MotionTable */
-     , (24577,   3,  536870922) /* SoundTable */
-     , (24577,   4,  805306371) /* CombatTable */
-     , (24577,   6,   67113158) /* PaletteBase */
-     , (24577,   7,  268436602) /* ClothingBase */
-     , (24577,   8,  100667447) /* Icon */;
+VALUES (24577,   1, 0x02000A0B) /* Setup */
+     , (24577,   2, 0x09000006) /* MotionTable */
+     , (24577,   3, 0x2000000A) /* SoundTable */
+     , (24577,   4, 0x30000003) /* CombatTable */
+     , (24577,   6, 0x040010C6) /* PaletteBase */
+     , (24577,   7, 0x1000047A) /* ClothingBase */
+     , (24577,   8, 0x06001037) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24577,   1, 212, 0, 0) /* Strength */

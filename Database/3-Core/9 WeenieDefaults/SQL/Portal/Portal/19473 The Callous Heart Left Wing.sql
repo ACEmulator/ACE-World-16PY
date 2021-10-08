@@ -25,9 +25,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19473,   1, 'The Callous Heart Left Wing') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19473,   1,   33555926) /* Setup */
-     , (19473,   2,  150994947) /* MotionTable */
-     , (19473,   8,  100667499) /* Icon */;
+VALUES (19473,   1, 0x020005D6) /* Setup */
+     , (19473,   2, 0x09000003) /* MotionTable */
+     , (19473,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (19473, 2, 0x545D025A, 140, -290, 6.94506, 1, 0, 0, -0) /* Destination */

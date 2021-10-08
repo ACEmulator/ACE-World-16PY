@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8596,   1, 'Lady Aerfalle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8596,   1,   33554839) /* Setup */
-     , (8596,   2,  150994945) /* MotionTable */
-     , (8596,   3,  536870934) /* SoundTable */
-     , (8596,   4,  805306368) /* CombatTable */
-     , (8596,   6,   67108990) /* PaletteBase */
-     , (8596,   7,  268436018) /* ClothingBase */
-     , (8596,   8,  100667942) /* Icon */
-     , (8596,  22,  872415272) /* PhysicsEffectTable */;
+VALUES (8596,   1, 0x02000197) /* Setup */
+     , (8596,   2, 0x09000001) /* MotionTable */
+     , (8596,   3, 0x20000016) /* SoundTable */
+     , (8596,   4, 0x30000000) /* CombatTable */
+     , (8596,   6, 0x0400007E) /* PaletteBase */
+     , (8596,   7, 0x10000232) /* ClothingBase */
+     , (8596,   8, 0x06001226) /* Icon */
+     , (8596,  22, 0x34000028) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8596,   1, 230, 0, 0) /* Strength */

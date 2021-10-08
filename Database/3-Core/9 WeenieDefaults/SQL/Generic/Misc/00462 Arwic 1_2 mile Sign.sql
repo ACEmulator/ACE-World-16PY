@@ -22,5 +22,5 @@ VALUES (462,   1, 'Arwic 1/2 mile Sign') /* Name */
      , (462,  16, 'Village of Arwic: 1/2 mile.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (462,   1,   33555984) /* Setup */
-     , (462,   8,  100668115) /* Icon */;
+VALUES (462,   1, 0x02000610) /* Setup */
+     , (462,   8, 0x060012D3) /* Icon */;

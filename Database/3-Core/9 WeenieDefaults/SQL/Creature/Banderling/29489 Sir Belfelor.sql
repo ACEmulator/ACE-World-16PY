@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29489,   1, 'Sir Belfelor') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29489,   1,   33558024) /* Setup */
-     , (29489,   2,  150994951) /* MotionTable */
-     , (29489,   3,  536870917) /* SoundTable */
-     , (29489,   4,  805306370) /* CombatTable */
-     , (29489,   6,   67114021) /* PaletteBase */
-     , (29489,   7,  268436496) /* ClothingBase */
-     , (29489,   8,  100667453) /* Icon */
-     , (29489,  22,  872415255) /* PhysicsEffectTable */
+VALUES (29489,   1, 0x02000E08) /* Setup */
+     , (29489,   2, 0x09000007) /* MotionTable */
+     , (29489,   3, 0x20000005) /* SoundTable */
+     , (29489,   4, 0x30000002) /* CombatTable */
+     , (29489,   6, 0x04001425) /* PaletteBase */
+     , (29489,   7, 0x10000410) /* ClothingBase */
+     , (29489,   8, 0x0600103D) /* Icon */
+     , (29489,  22, 0x34000017) /* PhysicsEffectTable */
      , (29489,  32,         57) /* WieldedTreasureType - 
                                    Wield Jo (322) | Probability: 3%
                                    Wield Nabut (333) | Probability: 3%

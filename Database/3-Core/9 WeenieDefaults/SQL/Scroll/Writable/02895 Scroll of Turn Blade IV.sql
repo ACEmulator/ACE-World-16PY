@@ -25,7 +25,7 @@ VALUES (2895,   1, 'Scroll of Turn Blade IV') /* Name */
      , (2895,  16, 'When learned, this spell decreases a weapon''s Attack Skill modifier by 43%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2895,   1,   33554826) /* Setup */
-     , (2895,   8,  100676677) /* Icon */
-     , (2895,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2895,   1, 0x0200018A) /* Setup */
+     , (2895,   8, 0x06003445) /* Icon */
+     , (2895,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2895,  28,       1596) /* Spell - Turn Blade IV */;

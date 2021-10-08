@@ -22,5 +22,5 @@ VALUES (21473,   1, 'Celcynd Grotto') /* Name */
      , (21473,  16, 'Celcynd Grotto') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21473,   1,   33557899) /* Setup */
-     , (21473,   8,  100667499) /* Icon */;
+VALUES (21473,   1, 0x02000D8B) /* Setup */
+     , (21473,   8, 0x0600106B) /* Icon */;

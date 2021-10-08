@@ -29,7 +29,7 @@ VALUES (28057,   1, 'Ornate Ashen Key') /* Name */
      , (28057,  33, 'KeyAerfalleUber') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28057,   1,   33554784) /* Setup */
-     , (28057,   3,  536870932) /* SoundTable */
-     , (28057,   8,  100676683) /* Icon */
-     , (28057,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28057,   1, 0x02000160) /* Setup */
+     , (28057,   3, 0x20000014) /* SoundTable */
+     , (28057,   8, 0x0600344B) /* Icon */
+     , (28057,  22, 0x3400002B) /* PhysicsEffectTable */;

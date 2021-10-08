@@ -33,9 +33,9 @@ VALUES (12233,   1, 'Dark Chocolate Candy Bar') /* Name */
      , (12233,  20, 'Dark Chocolate Candy Bars') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12233,   1,   33555677) /* Setup */
-     , (12233,   3,  536870932) /* SoundTable */
-     , (12233,   6,   67111919) /* PaletteBase */
-     , (12233,   7,  268435979) /* ClothingBase */
-     , (12233,   8,  100672208) /* Icon */
-     , (12233,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12233,   1, 0x020004DD) /* Setup */
+     , (12233,   3, 0x20000014) /* SoundTable */
+     , (12233,   6, 0x04000BEF) /* PaletteBase */
+     , (12233,   7, 0x1000020B) /* ClothingBase */
+     , (12233,   8, 0x060022D0) /* Icon */
+     , (12233,  22, 0x3400002B) /* PhysicsEffectTable */;

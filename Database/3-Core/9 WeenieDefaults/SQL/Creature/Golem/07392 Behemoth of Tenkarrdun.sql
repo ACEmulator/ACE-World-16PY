@@ -66,12 +66,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7392,   1, 'Behemoth of Tenkarrdun') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7392,   1,   33556427) /* Setup */
-     , (7392,   2,  150995073) /* MotionTable */
-     , (7392,   3,  536870933) /* SoundTable */
-     , (7392,   4,  805306376) /* CombatTable */
-     , (7392,   8,  100667940) /* Icon */
-     , (7392,  22,  872415325) /* PhysicsEffectTable */
+VALUES (7392,   1, 0x020007CB) /* Setup */
+     , (7392,   2, 0x09000081) /* MotionTable */
+     , (7392,   3, 0x20000015) /* SoundTable */
+     , (7392,   4, 0x30000008) /* CombatTable */
+     , (7392,   8, 0x06001224) /* Icon */
+     , (7392,  22, 0x3400005D) /* PhysicsEffectTable */
      , (7392,  35,         29) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

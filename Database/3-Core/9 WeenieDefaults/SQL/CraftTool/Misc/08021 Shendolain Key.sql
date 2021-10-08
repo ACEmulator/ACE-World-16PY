@@ -32,7 +32,7 @@ VALUES (8021,   1, 'Shendolain Key') /* Name */
      , (8021,  14, 'Use this item on the Shendolain Gate.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8021,   1,   33556743) /* Setup */
-     , (8021,   3,  536870932) /* SoundTable */
-     , (8021,   8,  100670979) /* Icon */
-     , (8021,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8021,   1, 0x02000907) /* Setup */
+     , (8021,   3, 0x20000014) /* SoundTable */
+     , (8021,   8, 0x06001E03) /* Icon */
+     , (8021,  22, 0x3400002B) /* PhysicsEffectTable */;

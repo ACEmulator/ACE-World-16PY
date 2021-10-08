@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9165,   1, 'Gragghk') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9165,   1,   33557327) /* Setup */
-     , (9165,   2,  150994953) /* MotionTable */
-     , (9165,   3,  536870959) /* SoundTable */
-     , (9165,   4,  805306373) /* CombatTable */
-     , (9165,   6,   67113400) /* PaletteBase */
-     , (9165,   7,  268436294) /* ClothingBase */
-     , (9165,   8,  100667449) /* Icon */
-     , (9165,  22,  872415264) /* PhysicsEffectTable */
+VALUES (9165,   1, 0x02000B4F) /* Setup */
+     , (9165,   2, 0x09000009) /* MotionTable */
+     , (9165,   3, 0x2000002F) /* SoundTable */
+     , (9165,   4, 0x30000005) /* CombatTable */
+     , (9165,   6, 0x040011B8) /* PaletteBase */
+     , (9165,   7, 0x10000346) /* ClothingBase */
+     , (9165,   8, 0x06001039) /* Icon */
+     , (9165,  22, 0x34000020) /* PhysicsEffectTable */
      , (9165,  32,        282) /* WieldedTreasureType - 
                                    Wield 5x Frost Throwing Club (23657) | Probability: 25%
                                    Wield 4x Frost Throwing Club (23661) | Probability: 25%

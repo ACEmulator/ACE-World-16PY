@@ -46,9 +46,9 @@ VALUES (5769,   1, 'Iceball') /* Name */
      , (5769,  16, 'A ball made of densely packed snow, once partially melted and then re-frozen to form a hard ball of ice.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5769,   1,   33556223) /* Setup */
-     , (5769,   3,  536870932) /* SoundTable */
-     , (5769,   6,   67111928) /* PaletteBase */
-     , (5769,   7,  268435841) /* ClothingBase */
-     , (5769,   8,  100670279) /* Icon */
-     , (5769,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5769,   1, 0x020006FF) /* Setup */
+     , (5769,   3, 0x20000014) /* SoundTable */
+     , (5769,   6, 0x04000BF8) /* PaletteBase */
+     , (5769,   7, 0x10000181) /* ClothingBase */
+     , (5769,   8, 0x06001B47) /* Icon */
+     , (5769,  22, 0x3400002B) /* PhysicsEffectTable */;

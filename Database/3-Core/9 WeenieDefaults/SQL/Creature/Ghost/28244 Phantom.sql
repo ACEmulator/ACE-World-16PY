@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28244,   1, 'Phantom') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28244,   1,   33558816) /* Setup */
-     , (28244,   2,  150995302) /* MotionTable */
-     , (28244,   3,  536871094) /* SoundTable */
-     , (28244,   4,  805306429) /* CombatTable */
-     , (28244,   6,   67115251) /* PaletteBase */
-     , (28244,   7,  268436835) /* ClothingBase */
-     , (28244,   8,  100676679) /* Icon */
-     , (28244,  22,  872415403) /* PhysicsEffectTable */
+VALUES (28244,   1, 0x02001120) /* Setup */
+     , (28244,   2, 0x09000166) /* MotionTable */
+     , (28244,   3, 0x200000B6) /* SoundTable */
+     , (28244,   4, 0x3000003D) /* CombatTable */
+     , (28244,   6, 0x040018F3) /* PaletteBase */
+     , (28244,   7, 0x10000563) /* ClothingBase */
+     , (28244,   8, 0x06003447) /* Icon */
+     , (28244,  22, 0x340000AB) /* PhysicsEffectTable */
      , (28244,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

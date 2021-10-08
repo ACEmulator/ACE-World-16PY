@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7182,   1, 'Lava Moarsman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7182,   1,   33556882) /* Setup */
-     , (7182,   2,  150995104) /* MotionTable */
-     , (7182,   3,  536871018) /* SoundTable */
-     , (7182,   4,  805306403) /* CombatTable */
-     , (7182,   6,   67112872) /* PaletteBase */
-     , (7182,   7,  268436086) /* ClothingBase */
-     , (7182,   8,  100671185) /* Icon */
-     , (7182,  22,  872415337) /* PhysicsEffectTable */
+VALUES (7182,   1, 0x02000992) /* Setup */
+     , (7182,   2, 0x090000A0) /* MotionTable */
+     , (7182,   3, 0x2000006A) /* SoundTable */
+     , (7182,   4, 0x30000023) /* CombatTable */
+     , (7182,   6, 0x04000FA8) /* PaletteBase */
+     , (7182,   7, 0x10000276) /* ClothingBase */
+     , (7182,   8, 0x06001ED1) /* Icon */
+     , (7182,  22, 0x34000069) /* PhysicsEffectTable */
      , (7182,  30,         86) /* PhysicsScript - BreatheAcid */
      , (7182,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 

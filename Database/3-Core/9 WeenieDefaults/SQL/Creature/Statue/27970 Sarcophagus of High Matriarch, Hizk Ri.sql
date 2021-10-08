@@ -64,12 +64,12 @@ VALUES (27970,   1, 'Sarcophagus of High Matriarch, Hizk Ri') /* Name */
      , (27970,  16, 'A collection of hands, perhaps signifying a fellowship, clasp a pair of boots and gauntlets on the top of this sarcophagus. You need to have completed this quest within a fellowship to draw the two rewards from this sarcophagus.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27970,   1,   33558609) /* Setup */
-     , (27970,   2,  150995261) /* MotionTable */
-     , (27970,   3,  536870933) /* SoundTable */
-     , (27970,   4,  805306372) /* CombatTable */
-     , (27970,   8,  100675787) /* Icon */
-     , (27970,  22,  872415328) /* PhysicsEffectTable */;
+VALUES (27970,   1, 0x02001051) /* Setup */
+     , (27970,   2, 0x0900013D) /* MotionTable */
+     , (27970,   3, 0x20000015) /* SoundTable */
+     , (27970,   4, 0x30000004) /* CombatTable */
+     , (27970,   8, 0x060030CB) /* Icon */
+     , (27970,  22, 0x34000060) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27970,   1, 380, 0, 0) /* Strength */

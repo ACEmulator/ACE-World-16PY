@@ -40,11 +40,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27216,   1, 'Chiran Gauntlets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27216,   1,   33554648) /* Setup */
-     , (27216,   3,  536870932) /* SoundTable */
-     , (27216,   6,   67108990) /* PaletteBase */
-     , (27216,   7,  268436799) /* ClothingBase */
-     , (27216,   8,  100675987) /* Icon */
-     , (27216,  22,  872415275) /* PhysicsEffectTable */
-     , (27216,  36,  234881042) /* MutateFilter */
-     , (27216,  46,  939524146) /* TsysMutationFilter */;
+VALUES (27216,   1, 0x020000D8) /* Setup */
+     , (27216,   3, 0x20000014) /* SoundTable */
+     , (27216,   6, 0x0400007E) /* PaletteBase */
+     , (27216,   7, 0x1000053F) /* ClothingBase */
+     , (27216,   8, 0x06003193) /* Icon */
+     , (27216,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27216,  36, 0x0E000012) /* MutateFilter */
+     , (27216,  46, 0x38000032) /* TsysMutationFilter */;

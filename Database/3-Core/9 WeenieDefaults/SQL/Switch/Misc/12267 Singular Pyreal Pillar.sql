@@ -28,9 +28,9 @@ VALUES (12267,   1, 'Singular Pyreal Pillar') /* Name */
      , (12267,  16, 'A pillar of Singular Pyreal stockpiled by the Virindi and their allies.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12267,   1,   33557378) /* Setup */
-     , (12267,   3,  536870932) /* SoundTable */
-     , (12267,   6,   67113398) /* PaletteBase */
-     , (12267,   7,  268436281) /* ClothingBase */
-     , (12267,   8,  100672197) /* Icon */
-     , (12267,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12267,   1, 0x02000B82) /* Setup */
+     , (12267,   3, 0x20000014) /* SoundTable */
+     , (12267,   6, 0x040011B6) /* PaletteBase */
+     , (12267,   7, 0x10000339) /* ClothingBase */
+     , (12267,   8, 0x060022C5) /* Icon */
+     , (12267,  22, 0x3400002B) /* PhysicsEffectTable */;

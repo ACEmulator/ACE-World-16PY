@@ -31,13 +31,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25307,   1, 'Bracelet of Creature Enchantments') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25307,   1,   33554683) /* Setup */
-     , (25307,   3,  536870932) /* SoundTable */
-     , (25307,   6,   67111919) /* PaletteBase */
-     , (25307,   7,  268436286) /* ClothingBase */
-     , (25307,   8,  100672215) /* Icon */
-     , (25307,  22,  872415275) /* PhysicsEffectTable */
-     , (25307,  36,  234881046) /* MutateFilter */;
+VALUES (25307,   1, 0x020000FB) /* Setup */
+     , (25307,   3, 0x20000014) /* SoundTable */
+     , (25307,   6, 0x04000BEF) /* PaletteBase */
+     , (25307,   7, 0x1000033E) /* ClothingBase */
+     , (25307,   8, 0x060022D7) /* Icon */
+     , (25307,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (25307,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25307,  2312,      2)  /* Missile Weapon Mastery Other VII */

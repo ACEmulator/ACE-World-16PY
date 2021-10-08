@@ -30,9 +30,9 @@ VALUES (27308,   1, 'The Forbidden') /* Name */
      , (27308,  22, 'The stone beneath your feet moves, but nothing happens.') /* ActivationFailure */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27308,   1,   33555536) /* Setup */
-     , (27308,   2,  150994977) /* MotionTable */
-     , (27308,   8,  100668114) /* Icon */
+VALUES (27308,   1, 0x02000450) /* Setup */
+     , (27308,   2, 0x09000021) /* MotionTable */
+     , (27308,   8, 0x060012D2) /* Icon */
      , (27308,  23,        149) /* UseSound - TriggerActivated */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)

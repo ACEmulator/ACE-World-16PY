@@ -41,11 +41,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29930,   1, 'Regal Sceptre') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29930,   1,   33559055) /* Setup */
-     , (29930,   3,  536870932) /* SoundTable */
-     , (29930,   8,  100676981) /* Icon */
-     , (29930,  22,  872415275) /* PhysicsEffectTable */
-     , (29930,  27, 1073742049) /* UseUserAnimation - UseMagicWand */;
+VALUES (29930,   1, 0x0200120F) /* Setup */
+     , (29930,   3, 0x20000014) /* SoundTable */
+     , (29930,   8, 0x06003575) /* Icon */
+     , (29930,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29930,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29930,   616,      2)  /* Life Magic Mastery Other VI */

@@ -30,10 +30,10 @@ VALUES (30148,   1, 'Hieroglyph of Jumping Mastery') /* Name */
      , (30148,  16, 'A lovely template for a rare magical gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30148,   1,   33554809) /* Setup */
-     , (30148,   3,  536870932) /* SoundTable */
-     , (30148,   6,   67111919) /* PaletteBase */
-     , (30148,   7,  268435723) /* ClothingBase */
-     , (30148,   8,  100674739) /* Icon */
-     , (30148,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30148,   1, 0x02000179) /* Setup */
+     , (30148,   3, 0x20000014) /* SoundTable */
+     , (30148,   6, 0x04000BEF) /* PaletteBase */
+     , (30148,   7, 0x1000010B) /* ClothingBase */
+     , (30148,   8, 0x06002CB3) /* Icon */
+     , (30148,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30148,  28,       2257) /* Spell - Jahannan's Blessing */;

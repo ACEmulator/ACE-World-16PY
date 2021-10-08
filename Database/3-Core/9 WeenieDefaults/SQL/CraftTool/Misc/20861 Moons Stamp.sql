@@ -33,11 +33,11 @@ VALUES (20861,   1, 'Moons Stamp') /* Name */
      , (20861,  15, 'A stamp with the Symbol of the moons Aub''arel and Rez''arel.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20861,   1,   33556922) /* Setup */
-     , (20861,   3,  536870932) /* SoundTable */
-     , (20861,   6,   67111092) /* PaletteBase */
-     , (20861,   7,  268436417) /* ClothingBase */
-     , (20861,   8,  100673243) /* Icon */
-     , (20861,  22,  872415275) /* PhysicsEffectTable */
-     , (20861,  50,  100673170) /* IconOverlay */
-     , (20861,  51,  100673082) /* IconOverlaySecondary */;
+VALUES (20861,   1, 0x020009BA) /* Setup */
+     , (20861,   3, 0x20000014) /* SoundTable */
+     , (20861,   6, 0x040008B4) /* PaletteBase */
+     , (20861,   7, 0x100003C1) /* ClothingBase */
+     , (20861,   8, 0x060026DB) /* Icon */
+     , (20861,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (20861,  50, 0x06002692) /* IconOverlay */
+     , (20861,  51, 0x0600263A) /* IconOverlaySecondary */;

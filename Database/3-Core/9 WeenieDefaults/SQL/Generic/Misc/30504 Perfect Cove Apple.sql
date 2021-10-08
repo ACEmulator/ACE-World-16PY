@@ -26,7 +26,7 @@ VALUES (30504,   1, 'Perfect Cove Apple') /* Name */
      , (30504,  33, 'YaraqAppleCovePerfect1204') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30504,   1,   33554667) /* Setup */
-     , (30504,   3,  536871012) /* SoundTable */
-     , (30504,   8,  100667465) /* Icon */
-     , (30504,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30504,   1, 0x020000EB) /* Setup */
+     , (30504,   3, 0x20000064) /* SoundTable */
+     , (30504,   8, 0x06001049) /* Icon */
+     , (30504,  22, 0x3400002B) /* PhysicsEffectTable */;

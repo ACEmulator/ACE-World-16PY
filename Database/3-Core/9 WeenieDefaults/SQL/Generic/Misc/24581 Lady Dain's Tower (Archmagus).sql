@@ -23,7 +23,7 @@ VALUES (24581,   1, 'Lady Dain''s Tower (Archmagus)') /* Name */
      , (24581,  16, 'Rabble will be thrown out, unfortunately you probably can''t read this sign. -Talira Dain') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24581,   1,   33555909) /* Setup */
-     , (24581,   6,   67111860) /* PaletteBase */
-     , (24581,   7,  268435824) /* ClothingBase */
-     , (24581,   8,  100668115) /* Icon */;
+VALUES (24581,   1, 0x020005C5) /* Setup */
+     , (24581,   6, 0x04000BB4) /* PaletteBase */
+     , (24581,   7, 0x10000170) /* ClothingBase */
+     , (24581,   8, 0x060012D3) /* Icon */;

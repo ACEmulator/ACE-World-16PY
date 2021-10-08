@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25562,   1, 'Banderling Champion') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25562,   1,   33558024) /* Setup */
-     , (25562,   2,  150994951) /* MotionTable */
-     , (25562,   3,  536870917) /* SoundTable */
-     , (25562,   4,  805306370) /* CombatTable */
-     , (25562,   6,   67114021) /* PaletteBase */
-     , (25562,   7,  268436610) /* ClothingBase */
-     , (25562,   8,  100667453) /* Icon */
-     , (25562,  22,  872415255) /* PhysicsEffectTable */
+VALUES (25562,   1, 0x02000E08) /* Setup */
+     , (25562,   2, 0x09000007) /* MotionTable */
+     , (25562,   3, 0x20000005) /* SoundTable */
+     , (25562,   4, 0x30000002) /* CombatTable */
+     , (25562,   6, 0x04001425) /* PaletteBase */
+     , (25562,   7, 0x10000482) /* ClothingBase */
+     , (25562,   8, 0x0600103D) /* Icon */
+     , (25562,  22, 0x34000017) /* PhysicsEffectTable */
      , (25562,  32,        423) /* WieldedTreasureType - 
                                    Wield 25x Frost Throwing Club (23130) | Probability: 20%
                                    Wield 25x Fire Throwing Club (23129) | Probability: 20%

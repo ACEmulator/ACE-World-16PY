@@ -35,10 +35,10 @@ VALUES (14905,   1, 'Wedding Gown') /* Name */
      , (14905,  16, 'An elegant gown for a wedding.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14905,   1,   33554854) /* Setup */
-     , (14905,   3,  536870932) /* SoundTable */
-     , (14905,   6,   67108990) /* PaletteBase */
-     , (14905,   7,  268436356) /* ClothingBase */
-     , (14905,   8,  100670349) /* Icon */
-     , (14905,  22,  872415275) /* PhysicsEffectTable */
-     , (14905,  36,  234881046) /* MutateFilter */;
+VALUES (14905,   1, 0x020001A6) /* Setup */
+     , (14905,   3, 0x20000014) /* SoundTable */
+     , (14905,   6, 0x0400007E) /* PaletteBase */
+     , (14905,   7, 0x10000384) /* ClothingBase */
+     , (14905,   8, 0x06001B8D) /* Icon */
+     , (14905,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (14905,  36, 0x0E000016) /* MutateFilter */;

@@ -30,7 +30,7 @@ VALUES (14425,   1, 'Folded Guard''s Uniform') /* Name */
      , (14425,  33, 'UniformRegicidePickUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14425,   1,   33557480) /* Setup */
-     , (14425,   6,   67108990) /* PaletteBase */
-     , (14425,   7,  268436316) /* ClothingBase */
-     , (14425,   8,  100672470) /* Icon */;
+VALUES (14425,   1, 0x02000BE8) /* Setup */
+     , (14425,   6, 0x0400007E) /* PaletteBase */
+     , (14425,   7, 0x1000035C) /* ClothingBase */
+     , (14425,   8, 0x060023D6) /* Icon */;

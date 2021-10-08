@@ -22,5 +22,5 @@ VALUES (14691,   1, 'Djinaya Wind Cottages') /* Name */
      , (14691,  16, 'Welcome to Djinaya Wind Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14691,   1,   33557463) /* Setup */
-     , (14691,   8,  100668115) /* Icon */;
+VALUES (14691,   1, 0x02000BD7) /* Setup */
+     , (14691,   8, 0x060012D3) /* Icon */;

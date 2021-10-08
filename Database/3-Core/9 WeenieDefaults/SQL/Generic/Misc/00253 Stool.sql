@@ -26,7 +26,7 @@ VALUES (253,   1, 'Stool') /* Name */
      , (253,  15, 'This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (253,   1,   33554723) /* Setup */
-     , (253,   3,  536870932) /* SoundTable */
-     , (253,   8,  100671819) /* Icon */
-     , (253,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (253,   1, 0x02000123) /* Setup */
+     , (253,   3, 0x20000014) /* SoundTable */
+     , (253,   8, 0x0600214B) /* Icon */
+     , (253,  22, 0x3400002B) /* PhysicsEffectTable */;

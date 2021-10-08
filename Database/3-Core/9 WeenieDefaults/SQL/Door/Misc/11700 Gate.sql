@@ -30,8 +30,8 @@ VALUES (11700,   1, 'Gate') /* Name */
      , (11700,  14, 'Use this item to open it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11700,   1,   33557118) /* Setup */
-     , (11700,   2,  150995139) /* MotionTable */
-     , (11700,   3,  536870947) /* SoundTable */
-     , (11700,   8,  100668183) /* Icon */
-     , (11700,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11700,   1, 0x02000A7E) /* Setup */
+     , (11700,   2, 0x090000C3) /* MotionTable */
+     , (11700,   3, 0x20000023) /* SoundTable */
+     , (11700,   8, 0x06001317) /* Icon */
+     , (11700,  22, 0x3400002B) /* PhysicsEffectTable */;

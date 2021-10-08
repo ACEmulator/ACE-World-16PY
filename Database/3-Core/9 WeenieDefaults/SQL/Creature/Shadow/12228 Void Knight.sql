@@ -74,14 +74,14 @@ VALUES (12228,   1, 'Void Knight') /* Name */
      , (12228,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12228,   1,   33554433) /* Setup */
-     , (12228,   2,  150994945) /* MotionTable */
-     , (12228,   3,  536870913) /* SoundTable */
-     , (12228,   4,  805306368) /* CombatTable */
-     , (12228,   6,   67111797) /* PaletteBase */
-     , (12228,   7,  268435632) /* ClothingBase */
-     , (12228,   8,  100670397) /* Icon */
-     , (12228,  22,  872415331) /* PhysicsEffectTable */
+VALUES (12228,   1, 0x02000001) /* Setup */
+     , (12228,   2, 0x09000001) /* MotionTable */
+     , (12228,   3, 0x20000001) /* SoundTable */
+     , (12228,   4, 0x30000000) /* CombatTable */
+     , (12228,   6, 0x04000B75) /* PaletteBase */
+     , (12228,   7, 0x100000B0) /* ClothingBase */
+     , (12228,   8, 0x06001BBD) /* Icon */
+     , (12228,  22, 0x34000063) /* PhysicsEffectTable */
      , (12228,  32,        178) /* WieldedTreasureType - 
                                    Wield Yumi (23734) | Probability: 20%
                                    Wield 14x Deadly Fire Arrow (15435) | Probability: 100%

@@ -45,12 +45,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28604,   1, 'Mid Balance Testing Sollerets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28604,   1,   33554654) /* Setup */
-     , (28604,   3,  536870932) /* SoundTable */
-     , (28604,   6,   67108990) /* PaletteBase */
-     , (28604,   7,  268436752) /* ClothingBase */
-     , (28604,   8,  100675590) /* Icon */
-     , (28604,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28604,   1, 0x020000DE) /* Setup */
+     , (28604,   3, 0x20000014) /* SoundTable */
+     , (28604,   6, 0x0400007E) /* PaletteBase */
+     , (28604,   7, 0x10000510) /* ClothingBase */
+     , (28604,   8, 0x06003006) /* Icon */
+     , (28604,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28604,  1538,      2)  /* Lightning Bane IV */

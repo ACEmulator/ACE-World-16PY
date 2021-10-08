@@ -33,13 +33,13 @@ VALUES (12255,   1, 'Mummified Piece of Skin') /* Name */
      , (12255,  33, 'HouseDeedHigh') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12255,   1,   33554691) /* Setup */
-     , (12255,   3,  536870932) /* SoundTable */
-     , (12255,   6,   67111919) /* PaletteBase */
-     , (12255,   7,  268436275) /* ClothingBase */
-     , (12255,   8,  100672185) /* Icon */
-     , (12255,  22,  872415275) /* PhysicsEffectTable */
-     , (12255,  36,  234881046) /* MutateFilter */;
+VALUES (12255,   1, 0x02000103) /* Setup */
+     , (12255,   3, 0x20000014) /* SoundTable */
+     , (12255,   6, 0x04000BEF) /* PaletteBase */
+     , (12255,   7, 0x10000333) /* ClothingBase */
+     , (12255,   8, 0x060022B9) /* Icon */
+     , (12255,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (12255,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12255,  1092,      2)  /* Fire Protection Self IV */

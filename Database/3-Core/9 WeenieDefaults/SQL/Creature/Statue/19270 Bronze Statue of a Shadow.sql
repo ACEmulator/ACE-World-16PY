@@ -68,14 +68,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19270,   1, 'Bronze Statue of a Shadow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19270,   1,   33554433) /* Setup */
-     , (19270,   2,  150995187) /* MotionTable */
-     , (19270,   3,  536871052) /* SoundTable */
-     , (19270,   4,  805306368) /* CombatTable */
-     , (19270,   6,   67108990) /* PaletteBase */
-     , (19270,   7,  268435632) /* ClothingBase */
-     , (19270,   8,  100670397) /* Icon */
-     , (19270,  22,  872415349) /* PhysicsEffectTable */
+VALUES (19270,   1, 0x02000001) /* Setup */
+     , (19270,   2, 0x090000F3) /* MotionTable */
+     , (19270,   3, 0x2000008C) /* SoundTable */
+     , (19270,   4, 0x30000000) /* CombatTable */
+     , (19270,   6, 0x0400007E) /* PaletteBase */
+     , (19270,   7, 0x100000B0) /* ClothingBase */
+     , (19270,   8, 0x06001BBD) /* Icon */
+     , (19270,  22, 0x34000075) /* PhysicsEffectTable */
      , (19270,  32,        399) /* WieldedTreasureType - 
                                    Wield Bronze Tower Shield (15865) | Probability: 100%
                                    Wield Bronze Spear (15879) | Probability: 50%

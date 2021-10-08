@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27922,   1, 'Tormented Patriarch') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27922,   1,   33558814) /* Setup */
-     , (27922,   2,  150994967) /* MotionTable */
-     , (27922,   3,  536870934) /* SoundTable */
-     , (27922,   4,  805306368) /* CombatTable */
-     , (27922,   6,   67115246) /* PaletteBase */
-     , (27922,   7,  268436834) /* ClothingBase */
-     , (27922,   8,  100676639) /* Icon */
-     , (27922,  22,  872415272) /* PhysicsEffectTable */
+VALUES (27922,   1, 0x0200111E) /* Setup */
+     , (27922,   2, 0x09000017) /* MotionTable */
+     , (27922,   3, 0x20000016) /* SoundTable */
+     , (27922,   4, 0x30000000) /* CombatTable */
+     , (27922,   6, 0x040018EE) /* PaletteBase */
+     , (27922,   7, 0x10000562) /* ClothingBase */
+     , (27922,   8, 0x0600341F) /* Icon */
+     , (27922,  22, 0x34000028) /* PhysicsEffectTable */
      , (27922,  32,        447) /* WieldedTreasureType - 
                                    Wield Khopesh (25500) | Probability: 98% */
      , (27922,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;

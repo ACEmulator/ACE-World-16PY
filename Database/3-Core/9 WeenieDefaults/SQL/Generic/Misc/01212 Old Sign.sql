@@ -22,5 +22,5 @@ VALUES (1212,   1, 'Old Sign') /* Name */
      , (1212,  16, 'Danger! Do Not proceed beyond this point!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1212,   1,   33555088) /* Setup */
-     , (1212,   8,  100668115) /* Icon */;
+VALUES (1212,   1, 0x02000290) /* Setup */
+     , (1212,   8, 0x060012D3) /* Icon */;

@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27714,   1, 'Hea Champion') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27714,   1,   33554496) /* Setup */
-     , (27714,   2,  150994954) /* MotionTable */
-     , (27714,   3,  536870931) /* SoundTable */
-     , (27714,   4,  805306380) /* CombatTable */
-     , (27714,   6,   67109314) /* PaletteBase */
-     , (27714,   7,  268436631) /* ClothingBase */
-     , (27714,   8,  100667452) /* Icon */
-     , (27714,  22,  872415270) /* PhysicsEffectTable */
+VALUES (27714,   1, 0x02000040) /* Setup */
+     , (27714,   2, 0x0900000A) /* MotionTable */
+     , (27714,   3, 0x20000013) /* SoundTable */
+     , (27714,   4, 0x3000000C) /* CombatTable */
+     , (27714,   6, 0x040001C2) /* PaletteBase */
+     , (27714,   7, 0x10000497) /* ClothingBase */
+     , (27714,   8, 0x0600103C) /* Icon */
+     , (27714,  22, 0x34000026) /* PhysicsEffectTable */
      , (27714,  32,        203) /* WieldedTreasureType - 
                                    Wield Yumi (23734) | Probability: 20%
                                    Wield 20x Deadly Arrow (15429) | Probability: 100%

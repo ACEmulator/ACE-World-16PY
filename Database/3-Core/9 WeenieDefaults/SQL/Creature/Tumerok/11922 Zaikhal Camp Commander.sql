@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11922,   1, 'Zaikhal Camp Commander') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11922,   1,   33554496) /* Setup */
-     , (11922,   2,  150994954) /* MotionTable */
-     , (11922,   3,  536870931) /* SoundTable */
-     , (11922,   4,  805306380) /* CombatTable */
-     , (11922,   6,   67109314) /* PaletteBase */
-     , (11922,   7,  268435647) /* ClothingBase */
-     , (11922,   8,  100667452) /* Icon */
-     , (11922,  22,  872415270) /* PhysicsEffectTable */
+VALUES (11922,   1, 0x02000040) /* Setup */
+     , (11922,   2, 0x0900000A) /* MotionTable */
+     , (11922,   3, 0x20000013) /* SoundTable */
+     , (11922,   4, 0x3000000C) /* CombatTable */
+     , (11922,   6, 0x040001C2) /* PaletteBase */
+     , (11922,   7, 0x100000BF) /* ClothingBase */
+     , (11922,   8, 0x0600103C) /* Icon */
+     , (11922,  22, 0x34000026) /* PhysicsEffectTable */
      , (11922,  31,      11857) /* LinkedPortalOne - Zaikhal Reinforcements Camp Portal */
      , (11922,  32,        195) /* WieldedTreasureType - 
                                    Wield Yumi (23735) | Probability: 20%

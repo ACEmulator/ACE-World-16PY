@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30836,   1, 'Shadow Seeker') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30836,   1,   33557003) /* Setup */
-     , (30836,   2,  150994950) /* MotionTable */
-     , (30836,   3,  536870922) /* SoundTable */
-     , (30836,   4,  805306371) /* CombatTable */
-     , (30836,   6,   67113158) /* PaletteBase */
-     , (30836,   7,  268436154) /* ClothingBase */
-     , (30836,   8,  100667447) /* Icon */
-     , (30836,  22,  872415262) /* PhysicsEffectTable */
+VALUES (30836,   1, 0x02000A0B) /* Setup */
+     , (30836,   2, 0x09000006) /* MotionTable */
+     , (30836,   3, 0x2000000A) /* SoundTable */
+     , (30836,   4, 0x30000003) /* CombatTable */
+     , (30836,   6, 0x040010C6) /* PaletteBase */
+     , (30836,   7, 0x100002BA) /* ClothingBase */
+     , (30836,   8, 0x06001037) /* Icon */
+     , (30836,  22, 0x3400001E) /* PhysicsEffectTable */
      , (30836,  32,        491) /* WieldedTreasureType - 
                                    Wield 10x Rock (31034) | Probability: 100%
                                    Wield Lugian Axe (23739) | Probability: 50%

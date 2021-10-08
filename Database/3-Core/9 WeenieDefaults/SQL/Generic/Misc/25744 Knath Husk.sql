@@ -26,7 +26,7 @@ VALUES (25744,   1, 'Knath Husk') /* Name */
      , (25744,  16, 'Fragile remains of a Knath.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25744,   1,   33555629) /* Setup */
-     , (25744,   3,  536870932) /* SoundTable */
-     , (25744,   8,  100668443) /* Icon */
-     , (25744,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25744,   1, 0x020004AD) /* Setup */
+     , (25744,   3, 0x20000014) /* SoundTable */
+     , (25744,   8, 0x0600141B) /* Icon */
+     , (25744,  22, 0x3400002B) /* PhysicsEffectTable */;

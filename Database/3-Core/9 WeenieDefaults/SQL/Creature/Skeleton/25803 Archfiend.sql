@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25803,   1, 'Archfiend') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25803,   1,   33558396) /* Setup */
-     , (25803,   2,  150994981) /* MotionTable */
-     , (25803,   3,  536870942) /* SoundTable */
-     , (25803,   4,  805306368) /* CombatTable */
-     , (25803,   6,   67114697) /* PaletteBase */
-     , (25803,   7,  268436644) /* ClothingBase */
-     , (25803,   8,  100669124) /* Icon */
-     , (25803,  22,  872415269) /* PhysicsEffectTable */
+VALUES (25803,   1, 0x02000F7C) /* Setup */
+     , (25803,   2, 0x09000025) /* MotionTable */
+     , (25803,   3, 0x2000001E) /* SoundTable */
+     , (25803,   4, 0x30000000) /* CombatTable */
+     , (25803,   6, 0x040016C9) /* PaletteBase */
+     , (25803,   7, 0x100004A4) /* ClothingBase */
+     , (25803,   8, 0x060016C4) /* Icon */
+     , (25803,  22, 0x34000025) /* PhysicsEffectTable */
      , (25803,  32,        426) /* WieldedTreasureType - 
                                    Wield Tachi (23136) | Probability: 30.000002%
                                    Wield Kite Shield (23135) | Probability: 100%

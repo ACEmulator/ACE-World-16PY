@@ -60,12 +60,12 @@ VALUES (10940,   1, 'Itala the Knife') /* Name */
      , (10940,   4, 'Sho') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10940,   1,   33554510) /* Setup */
-     , (10940,   2,  150994945) /* MotionTable */
-     , (10940,   3,  536870914) /* SoundTable */
-     , (10940,   4,  805306368) /* CombatTable */
-     , (10940,   8,  100667446) /* Icon */
-     , (10940,  22,  872415236) /* PhysicsEffectTable */
+VALUES (10940,   1, 0x0200004E) /* Setup */
+     , (10940,   2, 0x09000001) /* MotionTable */
+     , (10940,   3, 0x20000002) /* SoundTable */
+     , (10940,   4, 0x30000000) /* CombatTable */
+     , (10940,   8, 0x06001036) /* Icon */
+     , (10940,  22, 0x34000004) /* PhysicsEffectTable */
      , (10940,  32,        428) /* WieldedTreasureType - 
                                    Wield Doublet (2596) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.641%
                                    Wield Doublet (2596) | Palette: DeepBrown (6) | Shade: 0.67 | Probability: 0.641%

@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27663,   1, 'Lord Muldaveus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27663,   1,   33557003) /* Setup */
-     , (27663,   2,  150994950) /* MotionTable */
-     , (27663,   3,  536870922) /* SoundTable */
-     , (27663,   4,  805306371) /* CombatTable */
-     , (27663,   6,   67113158) /* PaletteBase */
-     , (27663,   7,  268436632) /* ClothingBase */
-     , (27663,   8,  100667447) /* Icon */
-     , (27663,  22,  872415262) /* PhysicsEffectTable */
+VALUES (27663,   1, 0x02000A0B) /* Setup */
+     , (27663,   2, 0x09000006) /* MotionTable */
+     , (27663,   3, 0x2000000A) /* SoundTable */
+     , (27663,   4, 0x30000003) /* CombatTable */
+     , (27663,   6, 0x040010C6) /* PaletteBase */
+     , (27663,   7, 0x10000498) /* ClothingBase */
+     , (27663,   8, 0x06001037) /* Icon */
+     , (27663,  22, 0x3400001E) /* PhysicsEffectTable */
      , (27663,  35,         32) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

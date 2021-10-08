@@ -28,5 +28,5 @@ VALUES (24587,   1, 'Candeth Keep') /* Name */
      , (24587,  16, 'Welcome to Candeth Keep. United against the darkness.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24587,   1,   33558410) /* Setup */
-     , (24587,   8,  100674412) /* Icon */;
+VALUES (24587,   1, 0x02000F8A) /* Setup */
+     , (24587,   8, 0x06002B6C) /* Icon */;

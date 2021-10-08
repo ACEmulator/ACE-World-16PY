@@ -70,14 +70,14 @@ VALUES (6830,   1, 'Cragstone Spire Shadow') /* Name */
      , (6830,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6830,   1,   33556563) /* Setup */
-     , (6830,   2,  150995092) /* MotionTable */
-     , (6830,   3,  536870913) /* SoundTable */
-     , (6830,   4,  805306368) /* CombatTable */
-     , (6830,   6,   67111797) /* PaletteBase */
-     , (6830,   7,  268435992) /* ClothingBase */
-     , (6830,   8,  100670397) /* Icon */
-     , (6830,  22,  872415331) /* PhysicsEffectTable */
+VALUES (6830,   1, 0x02000853) /* Setup */
+     , (6830,   2, 0x09000094) /* MotionTable */
+     , (6830,   3, 0x20000001) /* SoundTable */
+     , (6830,   4, 0x30000000) /* CombatTable */
+     , (6830,   6, 0x04000B75) /* PaletteBase */
+     , (6830,   7, 0x10000218) /* ClothingBase */
+     , (6830,   8, 0x06001BBD) /* Icon */
+     , (6830,  22, 0x34000063) /* PhysicsEffectTable */
      , (6830,  32,         84) /* WieldedTreasureType - 
                                    Wield Club (309) | Probability: 15.000001%
                                    Wield Dabus (313) | Probability: 3%

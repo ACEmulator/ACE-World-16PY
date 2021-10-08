@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11508,   1, 'Aun Elder Shaman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11508,   1,   33557175) /* Setup */
-     , (11508,   2,  150995136) /* MotionTable */
-     , (11508,   3,  536870931) /* SoundTable */
-     , (11508,   4,  805306380) /* CombatTable */
-     , (11508,   6,   67113280) /* PaletteBase */
-     , (11508,   7,  268436193) /* ClothingBase */
-     , (11508,   8,  100671756) /* Icon */
-     , (11508,  22,  872415270) /* PhysicsEffectTable */
+VALUES (11508,   1, 0x02000AB7) /* Setup */
+     , (11508,   2, 0x090000C0) /* MotionTable */
+     , (11508,   3, 0x20000013) /* SoundTable */
+     , (11508,   4, 0x3000000C) /* CombatTable */
+     , (11508,   6, 0x04001140) /* PaletteBase */
+     , (11508,   7, 0x100002E1) /* ClothingBase */
+     , (11508,   8, 0x0600210C) /* Icon */
+     , (11508,  22, 0x34000026) /* PhysicsEffectTable */
      , (11508,  32,        380) /* WieldedTreasureType - 
                                    Wield Buadren (11971) | Probability: 100% */
      , (11508,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;

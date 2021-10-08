@@ -47,12 +47,12 @@ VALUES (25337,   1, 'The Poet''s Mask') /* Name */
      , (25337,  19, 'Gharu''ndim') /* ItemHeritageGroupRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25337,   1,   33558448) /* Setup */
-     , (25337,   3,  536870932) /* SoundTable */
-     , (25337,   6,   67108990) /* PaletteBase */
-     , (25337,   7,  268436677) /* ClothingBase */
-     , (25337,   8,  100674871) /* Icon */
-     , (25337,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25337,   1, 0x02000FB0) /* Setup */
+     , (25337,   3, 0x20000014) /* SoundTable */
+     , (25337,   6, 0x0400007E) /* PaletteBase */
+     , (25337,   7, 0x100004C5) /* ClothingBase */
+     , (25337,   8, 0x06002D37) /* Icon */
+     , (25337,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25337,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

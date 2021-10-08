@@ -22,5 +22,5 @@ VALUES (19382,   1, 'Endara Gate') /* Name */
      , (19382,  16, 'Endara Gate') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19382,   1,   33557687) /* Setup */
-     , (19382,   8,  100667499) /* Icon */;
+VALUES (19382,   1, 0x02000CB7) /* Setup */
+     , (19382,   8, 0x0600106B) /* Icon */;

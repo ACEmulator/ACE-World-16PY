@@ -25,7 +25,7 @@ VALUES (8377,   1, 'Beer Keg') /* Name */
      , (8377,  14, 'Use the beer stein on the keg to fill it with beer. Visit the barkeep for a beer stein.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8377,   1,   33556853) /* Setup */
-     , (8377,   3,  536870932) /* SoundTable */
-     , (8377,   8,  100667431) /* Icon */
-     , (8377,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8377,   1, 0x02000975) /* Setup */
+     , (8377,   3, 0x20000014) /* SoundTable */
+     , (8377,   8, 0x06001027) /* Icon */
+     , (8377,  22, 0x3400002B) /* PhysicsEffectTable */;

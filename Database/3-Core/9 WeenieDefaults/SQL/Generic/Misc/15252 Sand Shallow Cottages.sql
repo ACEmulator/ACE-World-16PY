@@ -22,5 +22,5 @@ VALUES (15252,   1, 'Sand Shallow Cottages') /* Name */
      , (15252,  16, 'Welcome to Sand Shallow Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15252,   1,   33557463) /* Setup */
-     , (15252,   8,  100668115) /* Icon */;
+VALUES (15252,   1, 0x02000BD7) /* Setup */
+     , (15252,   8, 0x060012D3) /* Icon */;

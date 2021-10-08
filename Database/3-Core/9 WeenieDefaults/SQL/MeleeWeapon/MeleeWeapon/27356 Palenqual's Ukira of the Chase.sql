@@ -52,12 +52,12 @@ VALUES (27356,   1, 'Palenqual''s Ukira of the Chase') /* Name */
      , (27356,  16, 'An ukira fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27356,   1,   33558666) /* Setup */
-     , (27356,   3,  536870932) /* SoundTable */
-     , (27356,   6,   67113336) /* PaletteBase */
-     , (27356,   7,  268436250) /* ClothingBase */
-     , (27356,   8,  100676353) /* Icon */
-     , (27356,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27356,   1, 0x0200108A) /* Setup */
+     , (27356,   3, 0x20000014) /* SoundTable */
+     , (27356,   6, 0x04001178) /* PaletteBase */
+     , (27356,   7, 0x1000031A) /* ClothingBase */
+     , (27356,   8, 0x06003301) /* Icon */
+     , (27356,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27356,  2454,      2)  /* Thorns */

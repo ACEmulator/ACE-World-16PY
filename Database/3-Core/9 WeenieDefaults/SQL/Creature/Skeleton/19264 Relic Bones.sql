@@ -63,12 +63,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19264,   1, 'Relic Bones') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19264,   1,   33555465) /* Setup */
-     , (19264,   2,  150994981) /* MotionTable */
-     , (19264,   3,  536870942) /* SoundTable */
-     , (19264,   4,  805306368) /* CombatTable */
-     , (19264,   8,  100669124) /* Icon */
-     , (19264,  22,  872415269) /* PhysicsEffectTable */
+VALUES (19264,   1, 0x02000409) /* Setup */
+     , (19264,   2, 0x09000025) /* MotionTable */
+     , (19264,   3, 0x2000001E) /* SoundTable */
+     , (19264,   4, 0x30000000) /* CombatTable */
+     , (19264,   8, 0x060016C4) /* Icon */
+     , (19264,  22, 0x34000025) /* PhysicsEffectTable */
      , (19264,  32,        289) /* WieldedTreasureType - 
                                    Wield Yumi (23736) | Probability: 50%
                                    Wield 16x Greater Fire Arrow (5305) | Probability: 100%

@@ -31,9 +31,9 @@ VALUES (7080,   1, 'Twisted Sclavus Tongues') /* Name */
      , (7080,  16, 'A pair of Sclavus tongues twisted together.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7080,   1,   33554817) /* Setup */
-     , (7080,   3,  536870932) /* SoundTable */
-     , (7080,   6,   67111919) /* PaletteBase */
-     , (7080,   7,  268435832) /* ClothingBase */
-     , (7080,   8,  100670688) /* Icon */
-     , (7080,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7080,   1, 0x02000181) /* Setup */
+     , (7080,   3, 0x20000014) /* SoundTable */
+     , (7080,   6, 0x04000BEF) /* PaletteBase */
+     , (7080,   7, 0x10000178) /* ClothingBase */
+     , (7080,   8, 0x06001CE0) /* Icon */
+     , (7080,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -37,7 +37,7 @@ VALUES (9420,   1, 'Mattekar Claw') /* Name */
      , (9420,  16, 'A Large Dread Mattekar Claw, fitted for human use, its claws are a deep red.  When you clench your hand, the claws light with a crimson flame.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9420,   1,   33557016) /* Setup */
-     , (9420,   3,  536870932) /* SoundTable */
-     , (9420,   8,  100671515) /* Icon */
-     , (9420,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9420,   1, 0x02000A18) /* Setup */
+     , (9420,   3, 0x20000014) /* SoundTable */
+     , (9420,   8, 0x0600201B) /* Icon */
+     , (9420,  22, 0x3400002B) /* PhysicsEffectTable */;

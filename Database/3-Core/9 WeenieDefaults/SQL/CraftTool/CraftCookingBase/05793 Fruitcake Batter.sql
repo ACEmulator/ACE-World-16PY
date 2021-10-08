@@ -28,7 +28,7 @@ VALUES (5793,   1, 'Fruitcake Batter') /* Name */
      , (5793,  20, 'Batches of Fruitcake Batter') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5793,   1,   33555968) /* Setup */
-     , (5793,   3,  536870932) /* SoundTable */
-     , (5793,   8,  100670289) /* Icon */
-     , (5793,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5793,   1, 0x02000600) /* Setup */
+     , (5793,   3, 0x20000014) /* SoundTable */
+     , (5793,   8, 0x06001B51) /* Icon */
+     , (5793,  22, 0x3400002B) /* PhysicsEffectTable */;

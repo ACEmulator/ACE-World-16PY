@@ -33,9 +33,9 @@ VALUES (26507,   1, 'Offering Plate with Offerings') /* Name */
      , (26507,  16, 'A simple plate used to present offerings to the High Matriarch. There is one gem in the plate.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26507,   1,   33554930) /* Setup */
-     , (26507,   3,  536870932) /* SoundTable */
-     , (26507,   6,   67111919) /* PaletteBase */
-     , (26507,   7,  268435723) /* ClothingBase */
-     , (26507,   8,  100675792) /* Icon */
-     , (26507,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (26507,   1, 0x020001F2) /* Setup */
+     , (26507,   3, 0x20000014) /* SoundTable */
+     , (26507,   6, 0x04000BEF) /* PaletteBase */
+     , (26507,   7, 0x1000010B) /* ClothingBase */
+     , (26507,   8, 0x060030D0) /* Icon */
+     , (26507,  22, 0x3400002B) /* PhysicsEffectTable */;

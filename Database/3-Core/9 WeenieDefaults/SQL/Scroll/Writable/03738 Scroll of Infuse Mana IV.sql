@@ -25,7 +25,7 @@ VALUES (3738,   1, 'Scroll of Infuse Mana IV') /* Name */
      , (3738,  16, 'When learned, this spell drains one-quarter of the caster''s Mana and gives 70% of that to the target.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3738,   1,   33554826) /* Setup */
-     , (3738,   8,  100676929) /* Icon */
-     , (3738,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3738,   1, 0x0200018A) /* Setup */
+     , (3738,   8, 0x06003541) /* Icon */
+     , (3738,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3738,  28,       1257) /* Spell - Infuse Mana Other IV */;

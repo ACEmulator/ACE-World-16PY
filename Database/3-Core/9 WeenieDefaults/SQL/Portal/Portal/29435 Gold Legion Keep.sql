@@ -26,9 +26,9 @@ VALUES (29435,   1, 'Gold Legion Keep') /* Name */
      , (29435,  37, 'HeartofInnocence') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29435,   1,   33555925) /* Setup */
-     , (29435,   2,  150994947) /* MotionTable */
-     , (29435,   8,  100667499) /* Icon */;
+VALUES (29435,   1, 0x020005D5) /* Setup */
+     , (29435,   2, 0x09000003) /* MotionTable */
+     , (29435,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (29435, 2, 0x5F460189, 39.247, 0.038, 0, -0.02677, 0, -0, -0.999642) /* Destination */

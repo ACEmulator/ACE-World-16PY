@@ -27,7 +27,7 @@ VALUES (23994,   1, 'Key to the Elder Cache') /* Name */
      , (23994,  33, 'KeyKnorrElderPickedUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23994,   1,   33554784) /* Setup */
-     , (23994,   3,  536870932) /* SoundTable */
-     , (23994,   8,  100674155) /* Icon */
-     , (23994,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23994,   1, 0x02000160) /* Setup */
+     , (23994,   3, 0x20000014) /* SoundTable */
+     , (23994,   8, 0x06002A6B) /* Icon */
+     , (23994,  22, 0x3400002B) /* PhysicsEffectTable */;

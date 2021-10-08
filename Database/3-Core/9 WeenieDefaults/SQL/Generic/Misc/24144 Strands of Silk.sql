@@ -29,9 +29,9 @@ VALUES (24144,   1, 'Strands of Silk') /* Name */
      , (24144,  33, 'SilkOswaldTaken') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24144,   1,   33554817) /* Setup */
-     , (24144,   3,  536870932) /* SoundTable */
-     , (24144,   6,   67111919) /* PaletteBase */
-     , (24144,   7,  268436430) /* ClothingBase */
-     , (24144,   8,  100674259) /* Icon */
-     , (24144,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24144,   1, 0x02000181) /* Setup */
+     , (24144,   3, 0x20000014) /* SoundTable */
+     , (24144,   6, 0x04000BEF) /* PaletteBase */
+     , (24144,   7, 0x100003CE) /* ClothingBase */
+     , (24144,   8, 0x06002AD3) /* Icon */
+     , (24144,  22, 0x3400002B) /* PhysicsEffectTable */;

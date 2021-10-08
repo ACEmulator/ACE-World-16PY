@@ -50,12 +50,12 @@ VALUES (27179,   1, 'Vile Scourge') /* Name */
      , (27179,  16, 'This blunt and flexible staff looks to have been used as a tool for administering punishment by the Falatacot.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27179,   1,   33558636) /* Setup */
-     , (27179,   3,  536870932) /* SoundTable */
-     , (27179,   6,   67114956) /* PaletteBase */
-     , (27179,   7,  268436792) /* ClothingBase */
-     , (27179,   8,  100675923) /* Icon */
-     , (27179,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27179,   1, 0x0200106C) /* Setup */
+     , (27179,   3, 0x20000014) /* SoundTable */
+     , (27179,   6, 0x040017CC) /* PaletteBase */
+     , (27179,   7, 0x10000538) /* ClothingBase */
+     , (27179,   8, 0x06003153) /* Icon */
+     , (27179,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27179,  1026,      2)  /* Bludgeoning Protection Other III */

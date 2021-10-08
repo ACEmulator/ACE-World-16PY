@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9408,   1, 'Balor') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9408,   1,   33555590) /* Setup */
-     , (9408,   2,  150995047) /* MotionTable */
-     , (9408,   3,  536870974) /* SoundTable */
-     , (9408,   4,  805306391) /* CombatTable */
-     , (9408,   6,   67111893) /* PaletteBase */
-     , (9408,   7,  268435729) /* ClothingBase */
-     , (9408,   8,  100669121) /* Icon */
-     , (9408,  22,  872415278) /* PhysicsEffectTable */;
+VALUES (9408,   1, 0x02000486) /* Setup */
+     , (9408,   2, 0x09000067) /* MotionTable */
+     , (9408,   3, 0x2000003E) /* SoundTable */
+     , (9408,   4, 0x30000017) /* CombatTable */
+     , (9408,   6, 0x04000BD5) /* PaletteBase */
+     , (9408,   7, 0x10000111) /* ClothingBase */
+     , (9408,   8, 0x060016C1) /* Icon */
+     , (9408,  22, 0x3400002E) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9408,   1, 300, 0, 0) /* Strength */

@@ -31,9 +31,9 @@ VALUES (21968,   1, 'Infused High-Grade Chorizite Ore') /* Name */
      , (21968,  16, 'A high-grade chunk of refined chorizite ore infused with the essence of a crossbow.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21968,   1,   33555677) /* Setup */
-     , (21968,   3,  536870932) /* SoundTable */
-     , (21968,   6,   67111919) /* PaletteBase */
-     , (21968,   7,  268435723) /* ClothingBase */
-     , (21968,   8,  100673573) /* Icon */
-     , (21968,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21968,   1, 0x020004DD) /* Setup */
+     , (21968,   3, 0x20000014) /* SoundTable */
+     , (21968,   6, 0x04000BEF) /* PaletteBase */
+     , (21968,   7, 0x1000010B) /* ClothingBase */
+     , (21968,   8, 0x06002825) /* Icon */
+     , (21968,  22, 0x3400002B) /* PhysicsEffectTable */;

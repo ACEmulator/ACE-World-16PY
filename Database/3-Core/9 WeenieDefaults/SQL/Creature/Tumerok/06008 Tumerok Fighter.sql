@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6008,   1, 'Tumerok Fighter') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6008,   1,   33554496) /* Setup */
-     , (6008,   2,  150994954) /* MotionTable */
-     , (6008,   3,  536870931) /* SoundTable */
-     , (6008,   4,  805306380) /* CombatTable */
-     , (6008,   6,   67109314) /* PaletteBase */
-     , (6008,   7,  268436629) /* ClothingBase */
-     , (6008,   8,  100667452) /* Icon */
-     , (6008,  22,  872415270) /* PhysicsEffectTable */
+VALUES (6008,   1, 0x02000040) /* Setup */
+     , (6008,   2, 0x0900000A) /* MotionTable */
+     , (6008,   3, 0x20000013) /* SoundTable */
+     , (6008,   4, 0x3000000C) /* CombatTable */
+     , (6008,   6, 0x040001C2) /* PaletteBase */
+     , (6008,   7, 0x10000495) /* ClothingBase */
+     , (6008,   8, 0x0600103C) /* Icon */
+     , (6008,  22, 0x34000026) /* PhysicsEffectTable */
      , (6008,  32,        195) /* WieldedTreasureType - 
                                    Wield Yumi (23735) | Probability: 20%
                                    Wield 20x Arrow (300) | Probability: 100%

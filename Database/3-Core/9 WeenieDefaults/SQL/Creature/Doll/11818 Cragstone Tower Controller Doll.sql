@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11818,   1, 'Cragstone Tower Controller Doll') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11818,   1,   33556996) /* Setup */
-     , (11818,   2,  150994984) /* MotionTable */
-     , (11818,   3,  536871022) /* SoundTable */
-     , (11818,   4,  805306416) /* CombatTable */
-     , (11818,   6,   67113150) /* PaletteBase */
-     , (11818,   7,  268436148) /* ClothingBase */
-     , (11818,   8,  100671421) /* Icon */
-     , (11818,  22,  872415373) /* PhysicsEffectTable */
+VALUES (11818,   1, 0x02000A04) /* Setup */
+     , (11818,   2, 0x09000028) /* MotionTable */
+     , (11818,   3, 0x2000006E) /* SoundTable */
+     , (11818,   4, 0x30000030) /* CombatTable */
+     , (11818,   6, 0x040010BE) /* PaletteBase */
+     , (11818,   7, 0x100002B4) /* ClothingBase */
+     , (11818,   8, 0x06001FBD) /* Icon */
+     , (11818,  22, 0x3400008D) /* PhysicsEffectTable */
      , (11818,  30,         87) /* PhysicsScript - BreatheLightning */
      , (11818,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 

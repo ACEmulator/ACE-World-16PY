@@ -36,12 +36,12 @@ VALUES (11129,   1, 'Healing Chocolate Olthoi Cake') /* Name */
      , (11129,  16, 'Dark, moist, chocolate cake made with Olthoi Eggs.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11129,   1,   33555193) /* Setup */
-     , (11129,   3,  536870932) /* SoundTable */
-     , (11129,   6,   67111928) /* PaletteBase */
-     , (11129,   7,  268435861) /* ClothingBase */
-     , (11129,   8,  100671761) /* Icon */
-     , (11129,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11129,   1, 0x020002F9) /* Setup */
+     , (11129,   3, 0x20000014) /* SoundTable */
+     , (11129,   6, 0x04000BF8) /* PaletteBase */
+     , (11129,   7, 0x10000195) /* ClothingBase */
+     , (11129,   8, 0x06002111) /* Icon */
+     , (11129,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11129,  23,         64) /* UseSound - Eat1 */
-     , (11129,  27,  318767233) /* UseUserAnimation - MimeEat */
+     , (11129,  27, 0x13000081) /* UseUserAnimation - MimeEat */
      , (11129,  28,       2431) /* Spell - Vivification */;

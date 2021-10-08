@@ -69,11 +69,11 @@ VALUES (7882,   1, 'Dansha-Ki') /* Name */
      , (7882,   5, 'Farmer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7882,   1,   33554510) /* Setup */
-     , (7882,   2,  150994945) /* MotionTable */
-     , (7882,   3,  536870914) /* SoundTable */
-     , (7882,   4,  805306368) /* CombatTable */
-     , (7882,   8,  100667446) /* Icon */;
+VALUES (7882,   1, 0x0200004E) /* Setup */
+     , (7882,   2, 0x09000001) /* MotionTable */
+     , (7882,   3, 0x20000002) /* SoundTable */
+     , (7882,   4, 0x30000000) /* CombatTable */
+     , (7882,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7882,   1, 125, 0, 0) /* Strength */

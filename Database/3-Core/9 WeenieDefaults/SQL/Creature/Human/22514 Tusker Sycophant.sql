@@ -65,12 +65,12 @@ VALUES (22514,   1, 'Tusker Sycophant') /* Name */
      , (22514,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22514,   1,   33554433) /* Setup */
-     , (22514,   2,  150994945) /* MotionTable */
-     , (22514,   3,  536870913) /* SoundTable */
-     , (22514,   4,  805306368) /* CombatTable */
-     , (22514,   8,  100667446) /* Icon */
-     , (22514,  22,  872415236) /* PhysicsEffectTable */
+VALUES (22514,   1, 0x02000001) /* Setup */
+     , (22514,   2, 0x09000001) /* MotionTable */
+     , (22514,   3, 0x20000001) /* SoundTable */
+     , (22514,   4, 0x30000000) /* CombatTable */
+     , (22514,   8, 0x06001036) /* Icon */
+     , (22514,  22, 0x34000004) /* PhysicsEffectTable */
      , (22514,  32,        416) /* WieldedTreasureType - 
                                    Wield Clean, Dry Towel (10758) | Palette: Blue (2) | Probability: 50%
                                    Wield Clean, Dry Towel (10758) | Palette: Green (8) | Probability: 50% */

@@ -39,9 +39,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1952,   1, 'Gertarh''s Throwing Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1952,   1,   33554734) /* Setup */
-     , (1952,   3,  536870932) /* SoundTable */
-     , (1952,   6,   67111919) /* PaletteBase */
-     , (1952,   7,  268435782) /* ClothingBase */
-     , (1952,   8,  100667590) /* Icon */
-     , (1952,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1952,   1, 0x0200012E) /* Setup */
+     , (1952,   3, 0x20000014) /* SoundTable */
+     , (1952,   6, 0x04000BEF) /* PaletteBase */
+     , (1952,   7, 0x10000146) /* ClothingBase */
+     , (1952,   8, 0x060010C6) /* Icon */
+     , (1952,  22, 0x3400002B) /* PhysicsEffectTable */;

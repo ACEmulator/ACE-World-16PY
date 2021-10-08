@@ -25,7 +25,7 @@ VALUES (1693,   1, 'Scroll of Crossbow Mastery Self') /* Name */
      , (1693,  16, 'When learned, this spell increases the caster''s Crossbow skill by 10%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1693,   1,   33554826) /* Setup */
-     , (1693,   8,  100676454) /* Icon */
-     , (1693,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1693,   1, 0x0200018A) /* Setup */
+     , (1693,   8, 0x06003366) /* Icon */
+     , (1693,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1693,  28,        491) /* Spell - Missile Weapon Mastery Self I */;

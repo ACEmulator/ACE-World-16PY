@@ -70,14 +70,14 @@ VALUES (27428,   1, 'Shadow Phantom Leader') /* Name */
      , (27428,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27428,   1,   33554433) /* Setup */
-     , (27428,   2,  150994945) /* MotionTable */
-     , (27428,   3,  536870913) /* SoundTable */
-     , (27428,   4,  805306368) /* CombatTable */
-     , (27428,   6,   67111797) /* PaletteBase */
-     , (27428,   7,  268435632) /* ClothingBase */
-     , (27428,   8,  100670397) /* Icon */
-     , (27428,  22,  872415331) /* PhysicsEffectTable */
+VALUES (27428,   1, 0x02000001) /* Setup */
+     , (27428,   2, 0x09000001) /* MotionTable */
+     , (27428,   3, 0x20000001) /* SoundTable */
+     , (27428,   4, 0x30000000) /* CombatTable */
+     , (27428,   6, 0x04000B75) /* PaletteBase */
+     , (27428,   7, 0x100000B0) /* ClothingBase */
+     , (27428,   8, 0x06001BBD) /* Icon */
+     , (27428,  22, 0x34000063) /* PhysicsEffectTable */
      , (27428,  31,      27559) /* LinkedPortalOne - Second Tower */
      , (27428,  32,        426) /* WieldedTreasureType - 
                                    Wield Tachi (23136) | Probability: 30.000002%

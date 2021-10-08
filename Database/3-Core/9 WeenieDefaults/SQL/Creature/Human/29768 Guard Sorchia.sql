@@ -64,11 +64,11 @@ VALUES (29768,   1, 'Guard Sorchia') /* Name */
      , (29768,   5, 'Guard') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29768,   1,   33554510) /* Setup */
-     , (29768,   2,  150994945) /* MotionTable */
-     , (29768,   3,  536870914) /* SoundTable */
-     , (29768,   4,  805306368) /* CombatTable */
-     , (29768,   8,  100667446) /* Icon */;
+VALUES (29768,   1, 0x0200004E) /* Setup */
+     , (29768,   2, 0x09000001) /* MotionTable */
+     , (29768,   3, 0x20000002) /* SoundTable */
+     , (29768,   4, 0x30000000) /* CombatTable */
+     , (29768,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29768,   1, 160, 0, 0) /* Strength */

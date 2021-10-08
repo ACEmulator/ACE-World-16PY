@@ -39,6 +39,6 @@ VALUES (27482,   1, 'Caltrops') /* Name */
      , (27482,  17, 'You lose %i health, as a caltrop drives into your flesh.') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27482,   1,   33556024) /* Setup */
-     , (27482,   3,  536871007) /* SoundTable */
-     , (27482,   8,  100667465) /* Icon */;
+VALUES (27482,   1, 0x02000638) /* Setup */
+     , (27482,   3, 0x2000005F) /* SoundTable */
+     , (27482,   8, 0x06001049) /* Icon */;

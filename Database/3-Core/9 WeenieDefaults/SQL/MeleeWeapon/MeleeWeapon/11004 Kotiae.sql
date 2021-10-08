@@ -39,10 +39,10 @@ VALUES (11004,   1, 'Kotiae') /* Name */
      , (11004,  16, 'A club with sauce!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11004,   1,   33554731) /* Setup */
-     , (11004,   3,  536870932) /* SoundTable */
-     , (11004,   6,   67111919) /* PaletteBase */
-     , (11004,   7,  268435761) /* ClothingBase */
-     , (11004,   8,  100668855) /* Icon */
-     , (11004,  22,  872415275) /* PhysicsEffectTable */
-     , (11004,  36,  234881044) /* MutateFilter */;
+VALUES (11004,   1, 0x0200012B) /* Setup */
+     , (11004,   3, 0x20000014) /* SoundTable */
+     , (11004,   6, 0x04000BEF) /* PaletteBase */
+     , (11004,   7, 0x10000131) /* ClothingBase */
+     , (11004,   8, 0x060015B7) /* Icon */
+     , (11004,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11004,  36, 0x0E000014) /* MutateFilter */;

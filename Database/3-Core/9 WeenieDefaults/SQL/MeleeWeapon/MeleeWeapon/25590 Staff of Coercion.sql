@@ -44,11 +44,11 @@ VALUES (25590,   1, 'Staff of Coercion') /* Name */
      , (25590,  16, 'A staff made of exceptionally strong, yet pliant, wood. It vibrates with some inner force.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25590,   1,   33558501) /* Setup */
-     , (25590,   3,  536870932) /* SoundTable */
-     , (25590,   6,   67111919) /* PaletteBase */
-     , (25590,   8,  100675047) /* Icon */
-     , (25590,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25590,   1, 0x02000FE5) /* Setup */
+     , (25590,   3, 0x20000014) /* SoundTable */
+     , (25590,   6, 0x04000BEF) /* PaletteBase */
+     , (25590,   8, 0x06002DE7) /* Icon */
+     , (25590,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25590,  2565,      2)  /* Minor Light Weapon Aptitude */

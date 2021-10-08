@@ -64,12 +64,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21160,   1, 'Scourge') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21160,   1,   33557486) /* Setup */
-     , (21160,   2,  150995087) /* MotionTable */
-     , (21160,   3,  536871002) /* SoundTable */
-     , (21160,   4,  805306368) /* CombatTable */
-     , (21160,   8,  100672513) /* Icon */
-     , (21160,  22,  872415349) /* PhysicsEffectTable */
+VALUES (21160,   1, 0x02000BEE) /* Setup */
+     , (21160,   2, 0x0900008F) /* MotionTable */
+     , (21160,   3, 0x2000005A) /* SoundTable */
+     , (21160,   4, 0x30000000) /* CombatTable */
+     , (21160,   8, 0x06002401) /* Icon */
+     , (21160,  22, 0x34000075) /* PhysicsEffectTable */
      , (21160,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

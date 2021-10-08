@@ -27,10 +27,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6429,   1, 'Pressure Plate') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6429,   1,   33555034) /* Setup */
-     , (6429,   2,  150994977) /* MotionTable */
-     , (6429,   8,  100668114) /* Icon */
-     , (6429,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6429,   1, 0x0200025A) /* Setup */
+     , (6429,   2, 0x09000021) /* MotionTable */
+     , (6429,   8, 0x060012D2) /* Icon */
+     , (6429,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (6429,  16, 0x00000000) /* ActivationTarget */;

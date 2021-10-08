@@ -47,12 +47,12 @@ VALUES (23944,   1, 'Auroric Runic Helm') /* Name */
      , (23944,  15, 'This helm was worn by Sentinels of Perfect Light. They are modeled after the helms worn by the armies of Lord Atlan against the swelling darkness. The helm has a single setting for an orb.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23944,   1,   33558266) /* Setup */
-     , (23944,   3,  536870932) /* SoundTable */
-     , (23944,   6,   67108990) /* PaletteBase */
-     , (23944,   7,  268436560) /* ClothingBase */
-     , (23944,   8,  100674137) /* Icon */
-     , (23944,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23944,   1, 0x02000EFA) /* Setup */
+     , (23944,   3, 0x20000014) /* SoundTable */
+     , (23944,   6, 0x0400007E) /* PaletteBase */
+     , (23944,   7, 0x10000450) /* ClothingBase */
+     , (23944,   8, 0x06002A59) /* Icon */
+     , (23944,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23944,  2350,      2)  /* Greater Decay Durance */

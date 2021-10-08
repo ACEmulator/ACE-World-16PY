@@ -47,12 +47,12 @@ VALUES (12214,   1, 'Koji''s Beast') /* Name */
      , (12214,  19, 'Sho') /* ItemHeritageGroupRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12214,   1,   33557386) /* Setup */
-     , (12214,   3,  536870932) /* SoundTable */
-     , (12214,   6,   67108990) /* PaletteBase */
-     , (12214,   7,  268436289) /* ClothingBase */
-     , (12214,   8,  100672218) /* Icon */
-     , (12214,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12214,   1, 0x02000B8A) /* Setup */
+     , (12214,   3, 0x20000014) /* SoundTable */
+     , (12214,   6, 0x0400007E) /* PaletteBase */
+     , (12214,   7, 0x10000341) /* ClothingBase */
+     , (12214,   8, 0x060022DA) /* Icon */
+     , (12214,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12214,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -25,7 +25,7 @@ VALUES (2969,   1, 'Scroll of Whirling Blade III') /* Name */
      , (2969,  16, 'When learned, this spell shoots a magical blade at the target. The bolt does 18-35 points of slashing damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2969,   1,   33554826) /* Setup */
-     , (2969,   8,  100677028) /* Icon */
-     , (2969,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2969,   1, 0x0200018A) /* Setup */
+     , (2969,   8, 0x060035A4) /* Icon */
+     , (2969,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2969,  28,         94) /* Spell - Whirling Blade III */;

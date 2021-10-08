@@ -25,7 +25,7 @@ VALUES (4393,   1, 'Scroll of Armor Self V') /* Name */
      , (4393,  16, 'When learned, this spell increases the caster''s natural armor by 150 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4393,   1,   33554826) /* Setup */
-     , (4393,   8,  100676928) /* Icon */
-     , (4393,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4393,   1, 0x0200018A) /* Setup */
+     , (4393,   8, 0x06003540) /* Icon */
+     , (4393,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4393,  28,       1311) /* Spell - Armor Self V */;

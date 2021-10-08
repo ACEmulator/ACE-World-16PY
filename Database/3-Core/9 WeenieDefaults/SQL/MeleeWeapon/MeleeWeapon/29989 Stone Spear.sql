@@ -39,11 +39,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29989,   1, 'Stone Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29989,   1,   33558589) /* Setup */
-     , (29989,   3,  536870932) /* SoundTable */
-     , (29989,   8,  100675768) /* Icon */
-     , (29989,  22,  872415275) /* PhysicsEffectTable */
-     , (29989,  36,  234881044) /* MutateFilter */;
+VALUES (29989,   1, 0x0200103D) /* Setup */
+     , (29989,   3, 0x20000014) /* SoundTable */
+     , (29989,   8, 0x060030B8) /* Icon */
+     , (29989,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29989,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29989,  1613,      2)  /* Aura of Blood Drinker Self III */

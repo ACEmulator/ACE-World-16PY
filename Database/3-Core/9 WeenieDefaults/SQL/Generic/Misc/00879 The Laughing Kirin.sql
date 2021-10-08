@@ -22,7 +22,7 @@ VALUES (879,   1, 'The Laughing Kirin') /* Name */
      , (879,  16, 'The Laughing Kirin') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (879,   1,   33555594) /* Setup */
-     , (879,   6,   67111782) /* PaletteBase */
-     , (879,   7,  268435691) /* ClothingBase */
-     , (879,   8,  100668115) /* Icon */;
+VALUES (879,   1, 0x0200048A) /* Setup */
+     , (879,   6, 0x04000B66) /* PaletteBase */
+     , (879,   7, 0x100000EB) /* ClothingBase */
+     , (879,   8, 0x060012D3) /* Icon */;

@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27899,   1, 'Bleeargh, Mosswart Swamp Lord') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27899,   1,   33557327) /* Setup */
-     , (27899,   2,  150994953) /* MotionTable */
-     , (27899,   3,  536870959) /* SoundTable */
-     , (27899,   4,  805306373) /* CombatTable */
-     , (27899,   6,   67113400) /* PaletteBase */
-     , (27899,   7,  268436293) /* ClothingBase */
-     , (27899,   8,  100667449) /* Icon */
-     , (27899,  22,  872415264) /* PhysicsEffectTable */;
+VALUES (27899,   1, 0x02000B4F) /* Setup */
+     , (27899,   2, 0x09000009) /* MotionTable */
+     , (27899,   3, 0x2000002F) /* SoundTable */
+     , (27899,   4, 0x30000005) /* CombatTable */
+     , (27899,   6, 0x040011B8) /* PaletteBase */
+     , (27899,   7, 0x10000345) /* ClothingBase */
+     , (27899,   8, 0x06001039) /* Icon */
+     , (27899,  22, 0x34000020) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27899,   1, 260, 0, 0) /* Strength */

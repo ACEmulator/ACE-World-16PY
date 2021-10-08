@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28209,   1, 'Rust Gromnie Tooth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28209,   1,   33554817) /* Setup */
-     , (28209,   3,  536870932) /* SoundTable */
-     , (28209,   6,   67111919) /* PaletteBase */
-     , (28209,   7,  268435832) /* ClothingBase */
-     , (28209,   8,  100676761) /* Icon */
-     , (28209,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28209,   1, 0x02000181) /* Setup */
+     , (28209,   3, 0x20000014) /* SoundTable */
+     , (28209,   6, 0x04000BEF) /* PaletteBase */
+     , (28209,   7, 0x10000178) /* ClothingBase */
+     , (28209,   8, 0x06003499) /* Icon */
+     , (28209,  22, 0x3400002B) /* PhysicsEffectTable */;

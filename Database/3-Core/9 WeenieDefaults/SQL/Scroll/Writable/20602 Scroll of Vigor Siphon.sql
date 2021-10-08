@@ -24,7 +24,7 @@ VALUES (20602,   1, 'Scroll of Vigor Siphon') /* Name */
      , (20602,  15, 'When learned, this spell drains one-quarter of the target''s Stamina and gives 175% of that to the caster.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20602,   1,   33554826) /* Setup */
-     , (20602,   8,  100676933) /* Icon */
-     , (20602,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20602,   1, 0x0200018A) /* Setup */
+     , (20602,   8, 0x06003545) /* Icon */
+     , (20602,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20602,  28,       2330) /* Spell - Vigor Siphon */;

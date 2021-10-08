@@ -26,9 +26,9 @@ VALUES (8529,   1, 'Splintered Staff') /* Name */
      , (8529,  33, 'novquest4') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8529,   1,   33556554) /* Setup */
-     , (8529,   3,  536870932) /* SoundTable */
-     , (8529,   6,   67111919) /* PaletteBase */
-     , (8529,   7,  268436094) /* ClothingBase */
-     , (8529,   8,  100671212) /* Icon */
-     , (8529,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8529,   1, 0x0200084A) /* Setup */
+     , (8529,   3, 0x20000014) /* SoundTable */
+     , (8529,   6, 0x04000BEF) /* PaletteBase */
+     , (8529,   7, 0x1000027E) /* ClothingBase */
+     , (8529,   8, 0x06001EEC) /* Icon */
+     , (8529,  22, 0x3400002B) /* PhysicsEffectTable */;

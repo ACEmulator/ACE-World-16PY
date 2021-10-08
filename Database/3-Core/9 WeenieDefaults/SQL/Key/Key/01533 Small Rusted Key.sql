@@ -26,7 +26,7 @@ VALUES (1533,   1, 'Small Rusted Key') /* Name */
      , (1533,  16, 'This key is badly rusted. It will open the door to Colier Mine.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1533,   1,   33554784) /* Setup */
-     , (1533,   3,  536870932) /* SoundTable */
-     , (1533,   8,  100668441) /* Icon */
-     , (1533,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1533,   1, 0x02000160) /* Setup */
+     , (1533,   3, 0x20000014) /* SoundTable */
+     , (1533,   8, 0x06001419) /* Icon */
+     , (1533,  22, 0x3400002B) /* PhysicsEffectTable */;

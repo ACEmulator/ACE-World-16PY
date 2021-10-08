@@ -31,9 +31,9 @@ VALUES (7908,   1, 'Small Amorphous Lump') /* Name */
      , (7908,  16, 'A thin, membranous, unidentifiable life form found on a powerful Shadow. Characters of what seems to be Yalaini script are burned into its flesh. The characters appear to be cut off, as if some of the message were missing.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7908,   1,   33556232) /* Setup */
-     , (7908,   3,  536870932) /* SoundTable */
-     , (7908,   6,   67111928) /* PaletteBase */
-     , (7908,   7,  268436029) /* ClothingBase */
-     , (7908,   8,  100670891) /* Icon */
-     , (7908,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7908,   1, 0x02000708) /* Setup */
+     , (7908,   3, 0x20000014) /* SoundTable */
+     , (7908,   6, 0x04000BF8) /* PaletteBase */
+     , (7908,   7, 0x1000023D) /* ClothingBase */
+     , (7908,   8, 0x06001DAB) /* Icon */
+     , (7908,  22, 0x3400002B) /* PhysicsEffectTable */;

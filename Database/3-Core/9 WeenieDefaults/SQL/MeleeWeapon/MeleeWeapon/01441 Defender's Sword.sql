@@ -37,6 +37,6 @@ VALUES (1441,   1, 'Defender''s Sword') /* Name */
      , (1441,  16, 'This long sword is unusually easy to wield and defend with.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1441,   1,   33554533) /* Setup */
-     , (1441,   8,  100667613) /* Icon */
-     , (1441,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1441,   1, 0x02000065) /* Setup */
+     , (1441,   8, 0x060010DD) /* Icon */
+     , (1441,  22, 0x3400002B) /* PhysicsEffectTable */;

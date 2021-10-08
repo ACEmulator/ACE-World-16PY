@@ -30,7 +30,7 @@ VALUES (9342,   1, 'Concentrated Aqua Incanta') /* Name */
      , (9342,  20, 'Vials of Concentrated Aqua Incanta') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9342,   1,   33555963) /* Setup */
-     , (9342,   3,  536870932) /* SoundTable */
-     , (9342,   8,  100671572) /* Icon */
-     , (9342,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9342,   1, 0x020005FB) /* Setup */
+     , (9342,   3, 0x20000014) /* SoundTable */
+     , (9342,   8, 0x06002054) /* Icon */
+     , (9342,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -67,11 +67,11 @@ VALUES (11940,   1, 'Aun Town Crier') /* Name */
      , (11940,   5, 'Herald') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11940,   1,   33557117) /* Setup */
-     , (11940,   2,  150994954) /* MotionTable */
-     , (11940,   3,  536870931) /* SoundTable */
-     , (11940,   4,  805306380) /* CombatTable */
-     , (11940,   8,  100671756) /* Icon */;
+VALUES (11940,   1, 0x02000A7D) /* Setup */
+     , (11940,   2, 0x0900000A) /* MotionTable */
+     , (11940,   3, 0x20000013) /* SoundTable */
+     , (11940,   4, 0x3000000C) /* CombatTable */
+     , (11940,   8, 0x0600210C) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11940,   1, 100, 0, 0) /* Strength */

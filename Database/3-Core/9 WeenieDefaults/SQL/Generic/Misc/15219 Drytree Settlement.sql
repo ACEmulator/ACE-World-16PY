@@ -22,5 +22,5 @@ VALUES (15219,   1, 'Drytree Settlement') /* Name */
      , (15219,  16, 'Welcome to Drytree Settlement') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15219,   1,   33557463) /* Setup */
-     , (15219,   8,  100668115) /* Icon */;
+VALUES (15219,   1, 0x02000BD7) /* Setup */
+     , (15219,   8, 0x060012D3) /* Icon */;

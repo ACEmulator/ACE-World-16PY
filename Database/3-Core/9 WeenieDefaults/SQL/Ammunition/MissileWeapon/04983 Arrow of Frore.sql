@@ -38,7 +38,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4983,   1, 'Arrow of Frore') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4983,   1,   33555689) /* Setup */
-     , (4983,   3,  536870932) /* SoundTable */
-     , (4983,   8,  100667622) /* Icon */
-     , (4983,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4983,   1, 0x020004E9) /* Setup */
+     , (4983,   3, 0x20000014) /* SoundTable */
+     , (4983,   8, 0x060010E6) /* Icon */
+     , (4983,  22, 0x3400002B) /* PhysicsEffectTable */;

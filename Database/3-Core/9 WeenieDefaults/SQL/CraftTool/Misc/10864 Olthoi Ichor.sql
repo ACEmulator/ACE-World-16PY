@@ -31,9 +31,9 @@ VALUES (10864,   1, 'Olthoi Ichor') /* Name */
      , (10864,  15, 'A nasty smelling residue of ichor, collected from an Olthoi.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10864,   1,   33556964) /* Setup */
-     , (10864,   3,  536870932) /* SoundTable */
-     , (10864,   6,   67111919) /* PaletteBase */
-     , (10864,   7,  268435815) /* ClothingBase */
-     , (10864,   8,  100671783) /* Icon */
-     , (10864,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (10864,   1, 0x020009E4) /* Setup */
+     , (10864,   3, 0x20000014) /* SoundTable */
+     , (10864,   6, 0x04000BEF) /* PaletteBase */
+     , (10864,   7, 0x10000167) /* ClothingBase */
+     , (10864,   8, 0x06002127) /* Icon */
+     , (10864,  22, 0x3400002B) /* PhysicsEffectTable */;

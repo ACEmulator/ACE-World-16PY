@@ -22,12 +22,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11709,   1, 'Lever of Experience') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11709,   1,   33555231) /* Setup */
-     , (11709,   2,  150995055) /* MotionTable */
-     , (11709,   3,  536870981) /* SoundTable */
-     , (11709,   8,  100667624) /* Icon */
-     , (11709,  22,  872415275) /* PhysicsEffectTable */
-     , (11709,  24,  268435537) /* UseTargetAnimation - Twitch1 */;
+VALUES (11709,   1, 0x0200031F) /* Setup */
+     , (11709,   2, 0x0900006F) /* MotionTable */
+     , (11709,   3, 0x20000045) /* SoundTable */
+     , (11709,   8, 0x060010E8) /* Icon */
+     , (11709,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11709,  24, 0x10000051) /* UseTargetAnimation - Twitch1 */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (11709,  8 /* Activation */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

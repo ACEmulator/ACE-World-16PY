@@ -26,10 +26,10 @@ VALUES (151,   1, 'Empty Flask') /* Name */
      , (151,  14, 'Use this item on a well.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (151,   1,   33554603) /* Setup */
-     , (151,   3,  536870932) /* SoundTable */
-     , (151,   6,   67111919) /* PaletteBase */
-     , (151,   7,  268435744) /* ClothingBase */
-     , (151,   8,  100670631) /* Icon */
-     , (151,  22,  872415275) /* PhysicsEffectTable */
-     , (151,  36,  234881046) /* MutateFilter */;
+VALUES (151,   1, 0x020000AB) /* Setup */
+     , (151,   3, 0x20000014) /* SoundTable */
+     , (151,   6, 0x04000BEF) /* PaletteBase */
+     , (151,   7, 0x10000120) /* ClothingBase */
+     , (151,   8, 0x06001CA7) /* Icon */
+     , (151,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (151,  36, 0x0E000016) /* MutateFilter */;

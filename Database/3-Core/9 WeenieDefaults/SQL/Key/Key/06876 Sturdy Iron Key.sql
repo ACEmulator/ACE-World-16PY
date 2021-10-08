@@ -27,7 +27,7 @@ VALUES (6876,   1, 'Sturdy Iron Key') /* Name */
      , (6876,  16, 'This key is a sturdy iron key that looks like it might fit a variety of chests, of the type used to hold valuable treasure.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6876,   1,   33554784) /* Setup */
-     , (6876,   3,  536870932) /* SoundTable */
-     , (6876,   8,  100671187) /* Icon */
-     , (6876,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6876,   1, 0x02000160) /* Setup */
+     , (6876,   3, 0x20000014) /* SoundTable */
+     , (6876,   8, 0x06001ED3) /* Icon */
+     , (6876,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8034,   1, 'Caulnalain Soul Crystal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8034,   1,   33556732) /* Setup */
-     , (8034,   2,  150995095) /* MotionTable */
-     , (8034,   3,  536871001) /* SoundTable */
-     , (8034,   4,  805306407) /* CombatTable */
-     , (8034,   6,   67111919) /* PaletteBase */
-     , (8034,   7,  268435859) /* ClothingBase */
-     , (8034,   8,  100670283) /* Icon */
-     , (8034,  22,  872415347) /* PhysicsEffectTable */
+VALUES (8034,   1, 0x020008FC) /* Setup */
+     , (8034,   2, 0x09000097) /* MotionTable */
+     , (8034,   3, 0x20000059) /* SoundTable */
+     , (8034,   4, 0x30000027) /* CombatTable */
+     , (8034,   6, 0x04000BEF) /* PaletteBase */
+     , (8034,   7, 0x10000193) /* ClothingBase */
+     , (8034,   8, 0x06001B4B) /* Icon */
+     , (8034,  22, 0x34000073) /* PhysicsEffectTable */
      , (8034,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

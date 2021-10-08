@@ -26,9 +26,9 @@ VALUES (10703,   1, 'Niffis Shell') /* Name */
      , (10703,  16, 'A large Niffis shell.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10703,   1,   33557044) /* Setup */
-     , (10703,   3,  536870932) /* SoundTable */
-     , (10703,   6,   67112937) /* PaletteBase */
-     , (10703,   7,  268436185) /* ClothingBase */
-     , (10703,   8,  100671650) /* Icon */
-     , (10703,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (10703,   1, 0x02000A34) /* Setup */
+     , (10703,   3, 0x20000014) /* SoundTable */
+     , (10703,   6, 0x04000FE9) /* PaletteBase */
+     , (10703,   7, 0x100002D9) /* ClothingBase */
+     , (10703,   8, 0x060020A2) /* Icon */
+     , (10703,  22, 0x3400002B) /* PhysicsEffectTable */;

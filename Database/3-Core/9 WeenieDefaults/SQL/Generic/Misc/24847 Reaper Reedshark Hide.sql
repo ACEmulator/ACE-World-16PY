@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24847,   1, 'Reaper Reedshark Hide') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24847,   1,   33554817) /* Setup */
-     , (24847,   3,  536870932) /* SoundTable */
-     , (24847,   6,   67111919) /* PaletteBase */
-     , (24847,   7,  268435832) /* ClothingBase */
-     , (24847,   8,  100674491) /* Icon */
-     , (24847,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24847,   1, 0x02000181) /* Setup */
+     , (24847,   3, 0x20000014) /* SoundTable */
+     , (24847,   6, 0x04000BEF) /* PaletteBase */
+     , (24847,   7, 0x10000178) /* ClothingBase */
+     , (24847,   8, 0x06002BBB) /* Icon */
+     , (24847,  22, 0x3400002B) /* PhysicsEffectTable */;

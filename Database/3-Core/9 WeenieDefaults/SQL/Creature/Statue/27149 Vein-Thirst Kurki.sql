@@ -63,12 +63,12 @@ VALUES (27149,   1, 'Vein-Thirst Kurki') /* Name */
      , (27149,  15, 'This weapon appears to be an ornamental or sacrificial one. Curved and sharp, the blade seems alive in some way.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27149,   1,   33558640) /* Setup */
-     , (27149,   2,  150995273) /* MotionTable */
-     , (27149,   3,  536871052) /* SoundTable */
-     , (27149,   4,  805306398) /* CombatTable */
-     , (27149,   8,  100675921) /* Icon */
-     , (27149,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (27149,   1, 0x02001070) /* Setup */
+     , (27149,   2, 0x09000149) /* MotionTable */
+     , (27149,   3, 0x2000008C) /* SoundTable */
+     , (27149,   4, 0x3000001E) /* CombatTable */
+     , (27149,   8, 0x06003151) /* Icon */
+     , (27149,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27149,   1, 380, 0, 0) /* Strength */

@@ -48,11 +48,11 @@ VALUES (27300,   1, 'Yaja''s Reach') /* Name */
      , (27300,  33, 'PickedUpSpearYaja') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27300,   1,   33558676) /* Setup */
-     , (27300,   3,  536870932) /* SoundTable */
-     , (27300,   8,  100676400) /* Icon */
-     , (27300,  22,  872415275) /* PhysicsEffectTable */
-     , (27300,  36,  234881044) /* MutateFilter */
+VALUES (27300,   1, 0x02001094) /* Setup */
+     , (27300,   3, 0x20000014) /* SoundTable */
+     , (27300,   8, 0x06003330) /* Icon */
+     , (27300,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27300,  36, 0x0E000014) /* MutateFilter */
      , (27300,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -44,11 +44,11 @@ VALUES (6042,   1, 'Lady Jaera''s Tomb') /* Name */
      , (6042,  16, 'A coffin of sand-colored stone. You notice a suspicious glow near the lock.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6042,   1,   33554638) /* Setup */
-     , (6042,   2,  150994980) /* MotionTable */
-     , (6042,   3,  536870949) /* SoundTable */
-     , (6042,   8,  100668103) /* Icon */
-     , (6042,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6042,   1, 0x020000CE) /* Setup */
+     , (6042,   2, 0x09000024) /* MotionTable */
+     , (6042,   3, 0x20000025) /* SoundTable */
+     , (6042,   8, 0x060012C7) /* Icon */
+     , (6042,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6042,  28,       1326) /* Spell - Imperil Other V */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

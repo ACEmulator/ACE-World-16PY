@@ -41,11 +41,11 @@ VALUES (4842,   1, 'Sarcophagus') /* Name */
      , (4842,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4842,   1,   33554638) /* Setup */
-     , (4842,   2,  150994980) /* MotionTable */
-     , (4842,   3,  536870949) /* SoundTable */
-     , (4842,   8,  100668103) /* Icon */
-     , (4842,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4842,   1, 0x020000CE) /* Setup */
+     , (4842,   2, 0x09000024) /* MotionTable */
+     , (4842,   3, 0x20000025) /* SoundTable */
+     , (4842,   8, 0x060012C7) /* Icon */
+     , (4842,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4842,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

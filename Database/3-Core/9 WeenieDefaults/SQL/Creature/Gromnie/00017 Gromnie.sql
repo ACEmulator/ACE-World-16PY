@@ -58,14 +58,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (17,   1, 'Gromnie') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (17,   1,   33554487) /* Setup */
-     , (17,   2,  150994971) /* MotionTable */
-     , (17,   3,  536870921) /* SoundTable */
-     , (17,   4,  805306386) /* CombatTable */
-     , (17,   6,   67109547) /* PaletteBase */
-     , (17,   7,  268435631) /* ClothingBase */
-     , (17,   8,  100667938) /* Icon */
-     , (17,  22,  872415260) /* PhysicsEffectTable */
+VALUES (17,   1, 0x02000037) /* Setup */
+     , (17,   2, 0x0900001B) /* MotionTable */
+     , (17,   3, 0x20000009) /* SoundTable */
+     , (17,   4, 0x30000012) /* CombatTable */
+     , (17,   6, 0x040002AB) /* PaletteBase */
+     , (17,   7, 0x100000AF) /* ClothingBase */
+     , (17,   8, 0x06001222) /* Icon */
+     , (17,  22, 0x3400001C) /* PhysicsEffectTable */
      , (17,  30,         84) /* PhysicsScript - BreatheFlame */
      , (17,  35,         94) /* DeathTreasureType - Loot Tier: 2 */;
 

@@ -48,13 +48,13 @@ VALUES (6033,   1, 'Hamud''s Pyreal Katar') /* Name */
      , (6033,  15, 'An exquisitely crafted katar with a damascened blade.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6033,   1,   33556277) /* Setup */
-     , (6033,   3,  536870932) /* SoundTable */
-     , (6033,   6,   67111919) /* PaletteBase */
-     , (6033,   7,  268435978) /* ClothingBase */
-     , (6033,   8,  100668925) /* Icon */
-     , (6033,  22,  872415275) /* PhysicsEffectTable */
-     , (6033,  36,  234881044) /* MutateFilter */
+VALUES (6033,   1, 0x02000735) /* Setup */
+     , (6033,   3, 0x20000014) /* SoundTable */
+     , (6033,   6, 0x04000BEF) /* PaletteBase */
+     , (6033,   7, 0x1000020A) /* ClothingBase */
+     , (6033,   8, 0x060015FD) /* Icon */
+     , (6033,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (6033,  36, 0x0E000014) /* MutateFilter */
      , (6033,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

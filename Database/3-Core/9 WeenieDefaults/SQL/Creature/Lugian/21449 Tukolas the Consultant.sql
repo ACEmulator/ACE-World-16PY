@@ -65,13 +65,13 @@ VALUES (21449,   1, 'Tukolas the Consultant') /* Name */
      , (21449,   5, 'Construction Consultant') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21449,   1,   33557003) /* Setup */
-     , (21449,   2,  150994950) /* MotionTable */
-     , (21449,   3,  536870922) /* SoundTable */
-     , (21449,   4,  805306371) /* CombatTable */
-     , (21449,   6,   67113158) /* PaletteBase */
-     , (21449,   7,  268436154) /* ClothingBase */
-     , (21449,   8,  100667447) /* Icon */;
+VALUES (21449,   1, 0x02000A0B) /* Setup */
+     , (21449,   2, 0x09000006) /* MotionTable */
+     , (21449,   3, 0x2000000A) /* SoundTable */
+     , (21449,   4, 0x30000003) /* CombatTable */
+     , (21449,   6, 0x040010C6) /* PaletteBase */
+     , (21449,   7, 0x100002BA) /* ClothingBase */
+     , (21449,   8, 0x06001037) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (21449,   1, 400, 0, 0) /* Strength */

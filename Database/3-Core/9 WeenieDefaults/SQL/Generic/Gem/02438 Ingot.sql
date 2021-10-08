@@ -21,8 +21,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2438,   1, 'Ingot') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2438,   1,   33555677) /* Setup */
-     , (2438,   6,   67111919) /* PaletteBase */
-     , (2438,   7,  268435747) /* ClothingBase */
-     , (2438,   8,  100668692) /* Icon */
-     , (2438,  36,  234881046) /* MutateFilter */;
+VALUES (2438,   1, 0x020004DD) /* Setup */
+     , (2438,   6, 0x04000BEF) /* PaletteBase */
+     , (2438,   7, 0x10000123) /* ClothingBase */
+     , (2438,   8, 0x06001514) /* Icon */
+     , (2438,  36, 0x0E000016) /* MutateFilter */;

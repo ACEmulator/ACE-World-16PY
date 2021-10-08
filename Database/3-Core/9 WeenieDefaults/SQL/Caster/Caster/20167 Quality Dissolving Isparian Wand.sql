@@ -43,12 +43,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20167,   1, 'Quality Dissolving Isparian Wand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20167,   1,   33557783) /* Setup */
-     , (20167,   3,  536870932) /* SoundTable */
-     , (20167,   6,   67111919) /* PaletteBase */
-     , (20167,   7,  268436395) /* ClothingBase */
-     , (20167,   8,  100672995) /* Icon */
-     , (20167,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20167,   1, 0x02000D17) /* Setup */
+     , (20167,   3, 0x20000014) /* SoundTable */
+     , (20167,   6, 0x04000BEF) /* PaletteBase */
+     , (20167,   7, 0x100003AB) /* ClothingBase */
+     , (20167,   8, 0x060025E3) /* Icon */
+     , (20167,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20167,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

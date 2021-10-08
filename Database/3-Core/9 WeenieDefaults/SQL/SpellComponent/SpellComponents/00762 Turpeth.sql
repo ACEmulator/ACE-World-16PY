@@ -23,10 +23,10 @@ VALUES (762,   1, 'Turpeth') /* Name */
      , (762,  20, 'Turpeth Potions') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (762,   1,   33555209) /* Setup */
-     , (762,   3,  536870932) /* SoundTable */
-     , (762,   6,   67111919) /* PaletteBase */
-     , (762,   7,  268435719) /* ClothingBase */
-     , (762,   8,  100669699) /* Icon */
-     , (762,  22,  872415275) /* PhysicsEffectTable */
+VALUES (762,   1, 0x02000309) /* Setup */
+     , (762,   3, 0x20000014) /* SoundTable */
+     , (762,   6, 0x04000BEF) /* PaletteBase */
+     , (762,   7, 0x10000107) /* ClothingBase */
+     , (762,   8, 0x06001903) /* Icon */
+     , (762,  22, 0x3400002B) /* PhysicsEffectTable */
      , (762,  29,         46) /* SpellComponent */;

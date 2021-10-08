@@ -67,10 +67,10 @@ VALUES (19128,   1, 'Loom') /* Name */
      , (19128,  16, 'An ornate loom etched with ancient symbols. It seems to be in perfect working order despite its obvious age.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19128,   1,   33557823) /* Setup */
-     , (19128,   2,  150995197) /* MotionTable */
-     , (19128,   3,  536871055) /* SoundTable */
-     , (19128,   8,  100673041) /* Icon */;
+VALUES (19128,   1, 0x02000D3F) /* Setup */
+     , (19128,   2, 0x090000FD) /* MotionTable */
+     , (19128,   3, 0x2000008F) /* SoundTable */
+     , (19128,   8, 0x06002611) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19128,   1, 200, 0, 0) /* Strength */

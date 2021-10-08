@@ -64,12 +64,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26657,   1, 'Offering Table') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26657,   1,   33558607) /* Setup */
-     , (26657,   2,  150995279) /* MotionTable */
-     , (26657,   3,  536871052) /* SoundTable */
-     , (26657,   4,  805306398) /* CombatTable */
-     , (26657,   8,  100675788) /* Icon */
-     , (26657,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (26657,   1, 0x0200104F) /* Setup */
+     , (26657,   2, 0x0900014F) /* MotionTable */
+     , (26657,   3, 0x2000008C) /* SoundTable */
+     , (26657,   4, 0x3000001E) /* CombatTable */
+     , (26657,   8, 0x060030CC) /* Icon */
+     , (26657,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (26657,  16, 0x7654608A) /* ActivationTarget */;

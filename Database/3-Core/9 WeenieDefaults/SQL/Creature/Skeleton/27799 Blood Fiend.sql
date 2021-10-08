@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27799,   1, 'Blood Fiend') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27799,   1,   33558396) /* Setup */
-     , (27799,   2,  150994981) /* MotionTable */
-     , (27799,   3,  536870942) /* SoundTable */
-     , (27799,   4,  805306368) /* CombatTable */
-     , (27799,   6,   67114697) /* PaletteBase */
-     , (27799,   7,  268436644) /* ClothingBase */
-     , (27799,   8,  100669124) /* Icon */
-     , (27799,  22,  872415269) /* PhysicsEffectTable */
+VALUES (27799,   1, 0x02000F7C) /* Setup */
+     , (27799,   2, 0x09000025) /* MotionTable */
+     , (27799,   3, 0x2000001E) /* SoundTable */
+     , (27799,   4, 0x30000000) /* CombatTable */
+     , (27799,   6, 0x040016C9) /* PaletteBase */
+     , (27799,   7, 0x100004A4) /* ClothingBase */
+     , (27799,   8, 0x060016C4) /* Icon */
+     , (27799,  22, 0x34000025) /* PhysicsEffectTable */
      , (27799,  35,         19) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

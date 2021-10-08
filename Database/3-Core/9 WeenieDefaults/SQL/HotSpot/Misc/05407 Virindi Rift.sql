@@ -35,6 +35,6 @@ VALUES (5407,   1, 'Virindi Rift') /* Name */
      , (5407,  17, 'The crawling energies drain %i points of your health!') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5407,   1,   33556024) /* Setup */
-     , (5407,   3,  536871020) /* SoundTable */
-     , (5407,   8,  100667465) /* Icon */;
+VALUES (5407,   1, 0x02000638) /* Setup */
+     , (5407,   3, 0x2000006C) /* SoundTable */
+     , (5407,   8, 0x06001049) /* Icon */;

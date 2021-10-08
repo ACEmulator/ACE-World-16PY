@@ -24,7 +24,7 @@ VALUES (20526,   1, 'Scroll of Sashi Mu''s Kiss') /* Name */
      , (20526,  15, 'When learned, this spell decreases the target''s Loyalty skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20526,   1,   33554826) /* Setup */
-     , (20526,   8,  100676446) /* Icon */
-     , (20526,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20526,   1, 0x0200018A) /* Setup */
+     , (20526,   8, 0x0600335E) /* Icon */
+     , (20526,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20526,  28,       2230) /* Spell - Sashi Mu's Kiss */;

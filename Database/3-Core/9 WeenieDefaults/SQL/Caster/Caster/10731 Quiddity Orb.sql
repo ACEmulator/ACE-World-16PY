@@ -43,14 +43,14 @@ VALUES (10731,   1, 'Quiddity Orb') /* Name */
      , (10731,  16, 'A spellcasting orb pulsing with the mickle energies of the Virindi.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10731,   1,   33557050) /* Setup */
-     , (10731,   3,  536870932) /* SoundTable */
-     , (10731,   6,   67111928) /* PaletteBase */
-     , (10731,   7,  268436041) /* ClothingBase */
-     , (10731,   8,  100671667) /* Icon */
-     , (10731,  22,  872415275) /* PhysicsEffectTable */
-     , (10731,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
-     , (10731,  36,  234881046) /* MutateFilter */
+VALUES (10731,   1, 0x02000A3A) /* Setup */
+     , (10731,   3, 0x20000014) /* SoundTable */
+     , (10731,   6, 0x04000BF8) /* PaletteBase */
+     , (10731,   7, 0x10000249) /* ClothingBase */
+     , (10731,   8, 0x060020B3) /* Icon */
+     , (10731,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (10731,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
+     , (10731,  36, 0x0E000016) /* MutateFilter */
      , (10731,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

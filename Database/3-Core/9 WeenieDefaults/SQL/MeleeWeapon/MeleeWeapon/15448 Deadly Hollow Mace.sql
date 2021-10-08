@@ -50,10 +50,10 @@ VALUES (15448,   1, 'Deadly Hollow Mace') /* Name */
      , (15448,  16, 'A mace crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon is unenchantable and ignores modified armor and protection values.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15448,   1,   33556649) /* Setup */
-     , (15448,   3,  536870932) /* SoundTable */
-     , (15448,   6,   67111919) /* PaletteBase */
-     , (15448,   7,  268435792) /* ClothingBase */
-     , (15448,   8,  100668955) /* Icon */
-     , (15448,  22,  872415275) /* PhysicsEffectTable */
-     , (15448,  36,  234881044) /* MutateFilter */;
+VALUES (15448,   1, 0x020008A9) /* Setup */
+     , (15448,   3, 0x20000014) /* SoundTable */
+     , (15448,   6, 0x04000BEF) /* PaletteBase */
+     , (15448,   7, 0x10000150) /* ClothingBase */
+     , (15448,   8, 0x0600161B) /* Icon */
+     , (15448,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (15448,  36, 0x0E000014) /* MutateFilter */;

@@ -46,12 +46,12 @@ VALUES (7770,   1, 'Mi Krau-Li''s Jitte') /* Name */
      , (7770,  33, 'JitteKrauLiLesser') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7770,   1,   33554740) /* Setup */
-     , (7770,   3,  536870932) /* SoundTable */
-     , (7770,   6,   67111919) /* PaletteBase */
-     , (7770,   7,  268435786) /* ClothingBase */
-     , (7770,   8,  100668895) /* Icon */
-     , (7770,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7770,   1, 0x02000134) /* Setup */
+     , (7770,   3, 0x20000014) /* SoundTable */
+     , (7770,   6, 0x04000BEF) /* PaletteBase */
+     , (7770,   7, 0x1000014A) /* ClothingBase */
+     , (7770,   8, 0x060015DF) /* Icon */
+     , (7770,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7770,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

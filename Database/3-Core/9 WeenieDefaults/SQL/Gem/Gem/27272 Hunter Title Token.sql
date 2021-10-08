@@ -27,8 +27,8 @@ VALUES (27272,   1, 'Hunter Title Token') /* Name */
      , (27272,  15, 'An ornate Aun token given by Aun Autuorea in recognition of your hunting prowess. Return this token to him for the title - Hunter.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27272,   1,   33557280) /* Setup */
-     , (27272,   3,  536870932) /* SoundTable */
-     , (27272,   8,  100671832) /* Icon */
-     , (27272,  22,  872415275) /* PhysicsEffectTable */
-     , (27272,  36,  234881046) /* MutateFilter */;
+VALUES (27272,   1, 0x02000B20) /* Setup */
+     , (27272,   3, 0x20000014) /* SoundTable */
+     , (27272,   8, 0x06002158) /* Icon */
+     , (27272,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27272,  36, 0x0E000016) /* MutateFilter */;

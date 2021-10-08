@@ -22,5 +22,5 @@ VALUES (1216,   1, 'Broken Sign') /* Name */
      , (1216,  16, 'Gertarh''s Den. You have been warned. Enter and die.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1216,   1,   33555088) /* Setup */
-     , (1216,   8,  100668115) /* Icon */;
+VALUES (1216,   1, 0x02000290) /* Setup */
+     , (1216,   8, 0x060012D3) /* Icon */;

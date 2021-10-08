@@ -66,13 +66,13 @@ VALUES (22105,   1, 'Elysa Strathelar') /* Name */
      , (22105,   5, 'High Queen') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22105,   1,   33554510) /* Setup */
-     , (22105,   2,  150994945) /* MotionTable */
-     , (22105,   3,  536870914) /* SoundTable */
-     , (22105,   4,  805306368) /* CombatTable */
-     , (22105,   6,   67108990) /* PaletteBase */
-     , (22105,   7,  268436485) /* ClothingBase */
-     , (22105,   8,  100667446) /* Icon */;
+VALUES (22105,   1, 0x0200004E) /* Setup */
+     , (22105,   2, 0x09000001) /* MotionTable */
+     , (22105,   3, 0x20000002) /* SoundTable */
+     , (22105,   4, 0x30000000) /* CombatTable */
+     , (22105,   6, 0x0400007E) /* PaletteBase */
+     , (22105,   7, 0x10000405) /* ClothingBase */
+     , (22105,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22105,   1, 190, 0, 0) /* Strength */

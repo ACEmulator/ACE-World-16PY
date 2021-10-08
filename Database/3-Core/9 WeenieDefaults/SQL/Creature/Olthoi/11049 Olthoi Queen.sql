@@ -66,12 +66,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11049,   1, 'Olthoi Queen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11049,   1,   33557136) /* Setup */
-     , (11049,   2,  150995134) /* MotionTable */
-     , (11049,   3,  536871037) /* SoundTable */
-     , (11049,   4,  805306419) /* CombatTable */
-     , (11049,   8,  100667623) /* Icon */
-     , (11049,  22,  872415379) /* PhysicsEffectTable */
+VALUES (11049,   1, 0x02000A90) /* Setup */
+     , (11049,   2, 0x090000BE) /* MotionTable */
+     , (11049,   3, 0x2000007D) /* SoundTable */
+     , (11049,   4, 0x30000033) /* CombatTable */
+     , (11049,   8, 0x060010E7) /* Icon */
+     , (11049,  22, 0x34000093) /* PhysicsEffectTable */
      , (11049,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

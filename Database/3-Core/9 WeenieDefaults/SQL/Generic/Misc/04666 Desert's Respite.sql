@@ -23,7 +23,7 @@ VALUES (4666,   1, 'Desert''s Respite') /* Name */
      , (4666,  16, 'Desert''s Respite') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4666,   1,   33555909) /* Setup */
-     , (4666,   6,   67111860) /* PaletteBase */
-     , (4666,   7,  268435822) /* ClothingBase */
-     , (4666,   8,  100668115) /* Icon */;
+VALUES (4666,   1, 0x020005C5) /* Setup */
+     , (4666,   6, 0x04000BB4) /* PaletteBase */
+     , (4666,   7, 0x1000016E) /* ClothingBase */
+     , (4666,   8, 0x060012D3) /* Icon */;

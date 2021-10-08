@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22598,   1, 'Mowen Udaun') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22598,   1,   33558137) /* Setup */
-     , (22598,   2,  150994956) /* MotionTable */
-     , (22598,   3,  536870929) /* SoundTable */
-     , (22598,   4,  805306379) /* CombatTable */
-     , (22598,   6,   67113007) /* PaletteBase */
-     , (22598,   7,  268436483) /* ClothingBase */
-     , (22598,   8,  100667443) /* Icon */
-     , (22598,  22,  872415271) /* PhysicsEffectTable */
+VALUES (22598,   1, 0x02000E79) /* Setup */
+     , (22598,   2, 0x0900000C) /* MotionTable */
+     , (22598,   3, 0x20000011) /* SoundTable */
+     , (22598,   4, 0x3000000B) /* CombatTable */
+     , (22598,   6, 0x0400102F) /* PaletteBase */
+     , (22598,   7, 0x10000403) /* ClothingBase */
+     , (22598,   8, 0x06001033) /* Icon */
+     , (22598,  22, 0x34000027) /* PhysicsEffectTable */
      , (22598,  31,      22705) /* LinkedPortalOne - Antechamber */
      , (22598,  35,        354) /* DeathTreasureType - Loot Tier: 4 */;
 

@@ -46,10 +46,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28991,   1, 'Burun Slaying Stiletto') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28991,   1,   33558923) /* Setup */
-     , (28991,   3,  536870932) /* SoundTable */
-     , (28991,   8,  100676978) /* Icon */
-     , (28991,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28991,   1, 0x0200118B) /* Setup */
+     , (28991,   3, 0x20000014) /* SoundTable */
+     , (28991,   8, 0x06003572) /* Icon */
+     , (28991,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28991,  1604,      2)  /* Aura of Defender Self V */

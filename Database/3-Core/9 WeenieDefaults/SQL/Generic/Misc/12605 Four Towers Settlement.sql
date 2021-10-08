@@ -22,5 +22,5 @@ VALUES (12605,   1, 'Four Towers Settlement') /* Name */
      , (12605,  16, 'Welcome to Four Towers Settlement') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12605,   1,   33557463) /* Setup */
-     , (12605,   8,  100668115) /* Icon */;
+VALUES (12605,   1, 0x02000BD7) /* Setup */
+     , (12605,   8, 0x060012D3) /* Icon */;

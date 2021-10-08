@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27508,   1, 'Annihilator') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27508,   1,   33556836) /* Setup */
-     , (27508,   2,  150994956) /* MotionTable */
-     , (27508,   3,  536870929) /* SoundTable */
-     , (27508,   4,  805306379) /* CombatTable */
-     , (27508,   6,   67113007) /* PaletteBase */
-     , (27508,   7,  268436483) /* ClothingBase */
-     , (27508,   8,  100667443) /* Icon */
-     , (27508,  22,  872415271) /* PhysicsEffectTable */
+VALUES (27508,   1, 0x02000964) /* Setup */
+     , (27508,   2, 0x0900000C) /* MotionTable */
+     , (27508,   3, 0x20000011) /* SoundTable */
+     , (27508,   4, 0x3000000B) /* CombatTable */
+     , (27508,   6, 0x0400102F) /* PaletteBase */
+     , (27508,   7, 0x10000403) /* ClothingBase */
+     , (27508,   8, 0x06001033) /* Icon */
+     , (27508,  22, 0x34000027) /* PhysicsEffectTable */
      , (27508,  35,        455) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

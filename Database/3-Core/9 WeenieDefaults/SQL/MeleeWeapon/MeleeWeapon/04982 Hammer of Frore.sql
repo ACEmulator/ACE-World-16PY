@@ -36,11 +36,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4982,   1, 'Hammer of Frore') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4982,   1,   33555820) /* Setup */
-     , (4982,   3,  536870932) /* SoundTable */
-     , (4982,   6,   67111919) /* PaletteBase */
-     , (4982,   7,  268435776) /* ClothingBase */
-     , (4982,   8,  100667619) /* Icon */
-     , (4982,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4982,   1, 0x0200056C) /* Setup */
+     , (4982,   3, 0x20000014) /* SoundTable */
+     , (4982,   6, 0x04000BEF) /* PaletteBase */
+     , (4982,   7, 0x10000140) /* ClothingBase */
+     , (4982,   8, 0x060010E3) /* Icon */
+     , (4982,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4982,  30,         88) /* PhysicsScript - Create */
-     , (4982,  36,  234881044) /* MutateFilter */;
+     , (4982,  36, 0x0E000014) /* MutateFilter */;

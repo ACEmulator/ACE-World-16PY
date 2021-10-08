@@ -31,9 +31,9 @@ VALUES (29557,   1, 'Gem of Mana Management') /* Name */
      , (29557,  16, 'This gem can be added to the Burun slaying variant of the  noble scepter. If so, it will enhance the scepter ability to manage the flow of mana to the user. The scepter will then only be wieldable by the crafter.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29557,   1,   33554809) /* Setup */
-     , (29557,   3,  536870932) /* SoundTable */
-     , (29557,   6,   67111919) /* PaletteBase */
-     , (29557,   7,  268435723) /* ClothingBase */
-     , (29557,   8,  100677132) /* Icon */
-     , (29557,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29557,   1, 0x02000179) /* Setup */
+     , (29557,   3, 0x20000014) /* SoundTable */
+     , (29557,   6, 0x04000BEF) /* PaletteBase */
+     , (29557,   7, 0x1000010B) /* ClothingBase */
+     , (29557,   8, 0x0600360C) /* Icon */
+     , (29557,  22, 0x3400002B) /* PhysicsEffectTable */;

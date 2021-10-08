@@ -52,12 +52,12 @@ VALUES (27349,   1, 'Palenqual''s Korua of the Vortex') /* Name */
      , (27349,  16, 'A korua fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27349,   1,   33558664) /* Setup */
-     , (27349,   3,  536870932) /* SoundTable */
-     , (27349,   6,   67113336) /* PaletteBase */
-     , (27349,   7,  268436253) /* ClothingBase */
-     , (27349,   8,  100676372) /* Icon */
-     , (27349,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27349,   1, 0x02001088) /* Setup */
+     , (27349,   3, 0x20000014) /* SoundTable */
+     , (27349,   6, 0x04001178) /* PaletteBase */
+     , (27349,   7, 0x1000031D) /* ClothingBase */
+     , (27349,   8, 0x06003314) /* Icon */
+     , (27349,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27349,  2438,      2)  /* Lesser Rockslide */

@@ -33,12 +33,12 @@ VALUES (27681,   1, 'Renegade Stone Clasp') /* Name */
      , (27681,  16, 'Coarse stone and gems have been fitted together to craft this heavy bracelet. After its construction, powerful magic rituals imbued the bracelet with defensive properties versus blades and lightning.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27681,   1,   33554683) /* Setup */
-     , (27681,   3,  536870932) /* SoundTable */
-     , (27681,   6,   67111919) /* PaletteBase */
-     , (27681,   7,  268436286) /* ClothingBase */
-     , (27681,   8,  100676518) /* Icon */
-     , (27681,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27681,   1, 0x020000FB) /* Setup */
+     , (27681,   3, 0x20000014) /* SoundTable */
+     , (27681,   6, 0x04000BEF) /* PaletteBase */
+     , (27681,   7, 0x1000033E) /* ClothingBase */
+     , (27681,   8, 0x060033A6) /* Icon */
+     , (27681,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27681,  1119,      2)  /* Blade Protection Other V */

@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6879,   1, 'Dansha-Ki''s Belongings') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6879,   1,   33554769) /* Setup */
-     , (6879,   3,  536870932) /* SoundTable */
-     , (6879,   6,   67111919) /* PaletteBase */
-     , (6879,   7,  268435867) /* ClothingBase */
-     , (6879,   8,  100670383) /* Icon */
-     , (6879,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6879,   1, 0x02000151) /* Setup */
+     , (6879,   3, 0x20000014) /* SoundTable */
+     , (6879,   6, 0x04000BEF) /* PaletteBase */
+     , (6879,   7, 0x1000019B) /* ClothingBase */
+     , (6879,   8, 0x06001BAF) /* Icon */
+     , (6879,  22, 0x3400002B) /* PhysicsEffectTable */;

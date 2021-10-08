@@ -34,8 +34,8 @@ VALUES (8212,   1, 'Door') /* Name */
      , (8212,  15, 'A door wrought of stout iron. Its lock looks unpickable, but there may be a key around somewhere.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8212,   1,   33555073) /* Setup */
-     , (8212,   2,  150994966) /* MotionTable */
-     , (8212,   3,  536870946) /* SoundTable */
-     , (8212,   8,  100668434) /* Icon */
-     , (8212,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8212,   1, 0x02000281) /* Setup */
+     , (8212,   2, 0x09000016) /* MotionTable */
+     , (8212,   3, 0x20000022) /* SoundTable */
+     , (8212,   8, 0x06001412) /* Icon */
+     , (8212,  22, 0x3400002B) /* PhysicsEffectTable */;

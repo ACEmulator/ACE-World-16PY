@@ -49,12 +49,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19858,   1, 'Quality Coruscating Isparian Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19858,   1,   33557742) /* Setup */
-     , (19858,   3,  536870932) /* SoundTable */
-     , (19858,   6,   67111919) /* PaletteBase */
-     , (19858,   7,  268436378) /* ClothingBase */
-     , (19858,   8,  100673032) /* Icon */
-     , (19858,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19858,   1, 0x02000CEE) /* Setup */
+     , (19858,   3, 0x20000014) /* SoundTable */
+     , (19858,   6, 0x04000BEF) /* PaletteBase */
+     , (19858,   7, 0x1000039A) /* ClothingBase */
+     , (19858,   8, 0x06002608) /* Icon */
+     , (19858,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19858,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

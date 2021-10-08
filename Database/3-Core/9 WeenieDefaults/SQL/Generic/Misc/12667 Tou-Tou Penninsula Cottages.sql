@@ -22,5 +22,5 @@ VALUES (12667,   1, 'Tou-Tou Penninsula Cottages') /* Name */
      , (12667,  16, 'Welcome to Tou-Tou Penninsula Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12667,   1,   33557463) /* Setup */
-     , (12667,   8,  100668115) /* Icon */;
+VALUES (12667,   1, 0x02000BD7) /* Setup */
+     , (12667,   8, 0x060012D3) /* Icon */;

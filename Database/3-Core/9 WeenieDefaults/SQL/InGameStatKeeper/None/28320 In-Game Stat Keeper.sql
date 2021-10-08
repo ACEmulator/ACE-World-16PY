@@ -14,5 +14,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28320,   1, 'In-Game Stat Keeper') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28320,   1,   33555499) /* Setup */
-     , (28320,   8,  100675745) /* Icon */;
+VALUES (28320,   1, 0x0200042B) /* Setup */
+     , (28320,   8, 0x060030A1) /* Icon */;

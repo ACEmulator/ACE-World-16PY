@@ -24,7 +24,7 @@ VALUES (20266,   1, 'Scroll of Cleanse All Magic Self') /* Name */
      , (20266,  15, 'When learned, this spell dispels 2-4 negative enchantments of level 3 or lower from the caster.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20266,   1,   33554826) /* Setup */
-     , (20266,   8,  100669877) /* Icon */
-     , (20266,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20266,   1, 0x0200018A) /* Setup */
+     , (20266,   8, 0x060019B5) /* Icon */
+     , (20266,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20266,  28,       1864) /* Spell - Cleanse All Magic Self */;

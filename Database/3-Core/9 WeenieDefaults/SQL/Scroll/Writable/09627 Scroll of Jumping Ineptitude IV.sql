@@ -25,7 +25,7 @@ VALUES (9627,   1, 'Scroll of Jumping Ineptitude IV') /* Name */
      , (9627,  16, 'When learned, this spell decreases the target''s Jump skill by 43%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9627,   1,   33554826) /* Setup */
-     , (9627,   8,  100676461) /* Icon */
-     , (9627,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9627,   1, 0x0200018A) /* Setup */
+     , (9627,   8, 0x0600336D) /* Icon */
+     , (9627,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9627,  28,       1015) /* Spell - Jumping Ineptitude Other IV */;

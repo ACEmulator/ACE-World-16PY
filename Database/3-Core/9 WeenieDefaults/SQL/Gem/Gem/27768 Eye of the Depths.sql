@@ -37,10 +37,10 @@ VALUES (27768,   1, 'Eye of the Depths') /* Name */
      , (27768,  15, 'A green portal gem surrounded by a clasp, held by an amethyst cradle, adorned with a sparkling cluster of aquamarine and placed atop a jade dais.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27768,   1,   33558806) /* Setup */
-     , (27768,   3,  536870932) /* SoundTable */
-     , (27768,   8,  100676636) /* Icon */
-     , (27768,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27768,   1, 0x02001116) /* Setup */
+     , (27768,   3, 0x20000014) /* SoundTable */
+     , (27768,   8, 0x0600341C) /* Icon */
+     , (27768,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27768,  28,        157) /* Spell - Summon Primary Portal I */
      , (27768,  31,      27777) /* LinkedPortalOne - Sunken Mere */
-     , (27768,  36,  234881046) /* MutateFilter */;
+     , (27768,  36, 0x0E000016) /* MutateFilter */;

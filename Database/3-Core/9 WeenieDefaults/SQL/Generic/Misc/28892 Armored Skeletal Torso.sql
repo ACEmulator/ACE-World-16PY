@@ -29,7 +29,7 @@ VALUES (28892,   1, 'Armored Skeletal Torso') /* Name */
      , (28892,  15, 'An armored skeleton''s torso and head, with one arm still attached.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28892,   1,   33559008) /* Setup */
-     , (28892,   3,  536870932) /* SoundTable */
-     , (28892,   8,  100677098) /* Icon */
-     , (28892,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28892,   1, 0x020011E0) /* Setup */
+     , (28892,   3, 0x20000014) /* SoundTable */
+     , (28892,   8, 0x060035EA) /* Icon */
+     , (28892,  22, 0x3400002B) /* PhysicsEffectTable */;

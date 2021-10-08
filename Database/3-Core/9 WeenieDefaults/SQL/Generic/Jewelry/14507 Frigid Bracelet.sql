@@ -40,13 +40,13 @@ VALUES (14507,   1, 'Frigid Bracelet') /* Name */
      , (14507,  33, 'BraceletFrigidPickup') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14507,   1,   33554683) /* Setup */
-     , (14507,   3,  536870932) /* SoundTable */
-     , (14507,   6,   67111919) /* PaletteBase */
-     , (14507,   7,  268436286) /* ClothingBase */
-     , (14507,   8,  100672505) /* Icon */
-     , (14507,  22,  872415275) /* PhysicsEffectTable */
-     , (14507,  36,  234881046) /* MutateFilter */;
+VALUES (14507,   1, 0x020000FB) /* Setup */
+     , (14507,   3, 0x20000014) /* SoundTable */
+     , (14507,   6, 0x04000BEF) /* PaletteBase */
+     , (14507,   7, 0x1000033E) /* ClothingBase */
+     , (14507,   8, 0x060023F9) /* Icon */
+     , (14507,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (14507,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (14507,   271,      2)  /* Magic Resistance Other IV */

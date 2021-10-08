@@ -34,11 +34,11 @@ VALUES (9426,   1, 'Armor Diamond') /* Name */
      , (9426,  15, 'A gem of armor.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9426,   1,   33554809) /* Setup */
-     , (9426,   3,  536870932) /* SoundTable */
-     , (9426,   6,   67111919) /* PaletteBase */
-     , (9426,   7,  268435723) /* ClothingBase */
-     , (9426,   8,  100668365) /* Icon */
-     , (9426,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9426,   1, 0x02000179) /* Setup */
+     , (9426,   3, 0x20000014) /* SoundTable */
+     , (9426,   6, 0x04000BEF) /* PaletteBase */
+     , (9426,   7, 0x1000010B) /* ClothingBase */
+     , (9426,   8, 0x060013CD) /* Icon */
+     , (9426,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9426,  28,       2393) /* Spell - Force Armor */
-     , (9426,  36,  234881046) /* MutateFilter */;
+     , (9426,  36, 0x0E000016) /* MutateFilter */;

@@ -22,5 +22,5 @@ VALUES (21479,   1, 'Jojii Gardens') /* Name */
      , (21479,  16, 'Jojii Gardens') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21479,   1,   33557903) /* Setup */
-     , (21479,   8,  100667499) /* Icon */;
+VALUES (21479,   1, 0x02000D8F) /* Setup */
+     , (21479,   8, 0x0600106B) /* Icon */;

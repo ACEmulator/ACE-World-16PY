@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8122,   1, 'Sahoni Arsanc') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8122,   1,   33554839) /* Setup */
-     , (8122,   2,  150994967) /* MotionTable */
-     , (8122,   3,  536870934) /* SoundTable */
-     , (8122,   4,  805306368) /* CombatTable */
-     , (8122,   6,   67110722) /* PaletteBase */
-     , (8122,   7,  268435558) /* ClothingBase */
-     , (8122,   8,  100667942) /* Icon */
-     , (8122,  22,  872415272) /* PhysicsEffectTable */
+VALUES (8122,   1, 0x02000197) /* Setup */
+     , (8122,   2, 0x09000017) /* MotionTable */
+     , (8122,   3, 0x20000016) /* SoundTable */
+     , (8122,   4, 0x30000000) /* CombatTable */
+     , (8122,   6, 0x04000742) /* PaletteBase */
+     , (8122,   7, 0x10000066) /* ClothingBase */
+     , (8122,   8, 0x06001226) /* Icon */
+     , (8122,  22, 0x34000028) /* PhysicsEffectTable */
      , (8122,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

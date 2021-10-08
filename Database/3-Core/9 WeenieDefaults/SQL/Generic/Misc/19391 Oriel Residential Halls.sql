@@ -22,5 +22,5 @@ VALUES (19391,   1, 'Oriel Residential Halls') /* Name */
      , (19391,  16, 'Oriel Residential Halls') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19391,   1,   33557702) /* Setup */
-     , (19391,   8,  100667499) /* Icon */;
+VALUES (19391,   1, 0x02000CC6) /* Setup */
+     , (19391,   8, 0x0600106B) /* Icon */;

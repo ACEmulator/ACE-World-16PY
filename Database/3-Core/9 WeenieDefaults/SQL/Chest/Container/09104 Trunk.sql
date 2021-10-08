@@ -43,11 +43,11 @@ VALUES (9104,   1, 'Trunk') /* Name */
      , (9104,  17, 'As the trunk is opened, a whisper of exotic scent rises from its rotting form. The ghosts of long-decayed spices leave you with an impression of warmth, hearth, and home.') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9104,   1,   33554556) /* Setup */
-     , (9104,   2,  150994948) /* MotionTable */
-     , (9104,   3,  536870945) /* SoundTable */
-     , (9104,   8,  100667424) /* Icon */
-     , (9104,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9104,   1, 0x0200007C) /* Setup */
+     , (9104,   2, 0x09000004) /* MotionTable */
+     , (9104,   3, 0x20000021) /* SoundTable */
+     , (9104,   8, 0x06001020) /* Icon */
+     , (9104,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (9104,  16, 0x00000000) /* ActivationTarget */;

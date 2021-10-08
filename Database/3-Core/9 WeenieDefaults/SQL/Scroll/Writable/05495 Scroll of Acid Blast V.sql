@@ -25,7 +25,7 @@ VALUES (5495,   1, 'Scroll of Acid Blast V') /* Name */
      , (5495,  16, 'Shoots three streams of acid outward from the caster. Each stream does 11-20 points of acid damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5495,   1,   33554826) /* Setup */
-     , (5495,   8,  100677026) /* Icon */
-     , (5495,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5495,   1, 0x0200018A) /* Setup */
+     , (5495,   8, 0x060035A2) /* Icon */
+     , (5495,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5495,  28,        101) /* Spell - Acid Blast V */;

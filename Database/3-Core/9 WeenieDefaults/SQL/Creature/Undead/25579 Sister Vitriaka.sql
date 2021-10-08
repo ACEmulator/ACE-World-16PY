@@ -71,14 +71,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25579,   1, 'Sister Vitriaka') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25579,   1,   33558437) /* Setup */
-     , (25579,   2,  150994967) /* MotionTable */
-     , (25579,   3,  536870934) /* SoundTable */
-     , (25579,   4,  805306368) /* CombatTable */
-     , (25579,   6,   67114480) /* PaletteBase */
-     , (25579,   7,  268436673) /* ClothingBase */
-     , (25579,   8,  100674805) /* Icon */
-     , (25579,  22,  872415272) /* PhysicsEffectTable */
+VALUES (25579,   1, 0x02000FA5) /* Setup */
+     , (25579,   2, 0x09000017) /* MotionTable */
+     , (25579,   3, 0x20000016) /* SoundTable */
+     , (25579,   4, 0x30000000) /* CombatTable */
+     , (25579,   6, 0x040015F0) /* PaletteBase */
+     , (25579,   7, 0x100004C1) /* ClothingBase */
+     , (25579,   8, 0x06002CF5) /* Icon */
+     , (25579,  22, 0x34000028) /* PhysicsEffectTable */
      , (25579,  32,        446) /* WieldedTreasureType - 
                                    Wield Khopesh (25499) | Probability: 98% */
      , (25579,  35,        146) /* DeathTreasureType - Loot Tier: 5 */;

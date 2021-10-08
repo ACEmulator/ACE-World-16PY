@@ -31,9 +31,9 @@ VALUES (28927,   1, 'Soul Stone') /* Name */
      , (28927,  16, 'This gem is unassuming and fairly plain. There is nothing overtly mystical about the gem at all.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28927,   1,   33554809) /* Setup */
-     , (28927,   3,  536870932) /* SoundTable */
-     , (28927,   6,   67111919) /* PaletteBase */
-     , (28927,   7,  268435723) /* ClothingBase */
-     , (28927,   8,  100677065) /* Icon */
-     , (28927,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28927,   1, 0x02000179) /* Setup */
+     , (28927,   3, 0x20000014) /* SoundTable */
+     , (28927,   6, 0x04000BEF) /* PaletteBase */
+     , (28927,   7, 0x1000010B) /* ClothingBase */
+     , (28927,   8, 0x060035C9) /* Icon */
+     , (28927,  22, 0x3400002B) /* PhysicsEffectTable */;

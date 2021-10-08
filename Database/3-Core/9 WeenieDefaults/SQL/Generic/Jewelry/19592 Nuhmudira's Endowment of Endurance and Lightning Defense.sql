@@ -41,13 +41,13 @@ VALUES (19592,   1, 'Nuhmudira''s Endowment of Endurance and Lightning Defense')
      , (19592,  16, 'A blue gorget, crafted from a strong metal, imbued with an elixir of vigor and elixir of autumn. As you hold the gorget in your hand you feel a soft vibration.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19592,   1,   33554687) /* Setup */
-     , (19592,   3,  536870932) /* SoundTable */
-     , (19592,   6,   67111919) /* PaletteBase */
-     , (19592,   7,  268436388) /* ClothingBase */
-     , (19592,   8,  100668632) /* Icon */
-     , (19592,  22,  872415275) /* PhysicsEffectTable */
-     , (19592,  36,  234881046) /* MutateFilter */;
+VALUES (19592,   1, 0x020000FF) /* Setup */
+     , (19592,   3, 0x20000014) /* SoundTable */
+     , (19592,   6, 0x04000BEF) /* PaletteBase */
+     , (19592,   7, 0x100003A4) /* ClothingBase */
+     , (19592,   8, 0x060014D8) /* Icon */
+     , (19592,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (19592,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19592,  1358,      2)  /* Endurance Other IV */

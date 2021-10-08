@@ -38,11 +38,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3808,   1, 'Flaming Jo') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3808,   1,   33555407) /* Setup */
-     , (3808,   3,  536870932) /* SoundTable */
-     , (3808,   6,   67111919) /* PaletteBase */
-     , (3808,   7,  268435795) /* ClothingBase */
-     , (3808,   8,  100667602) /* Icon */
-     , (3808,  22,  872415275) /* PhysicsEffectTable */
-     , (3808,  36,  234881053) /* MutateFilter */
-     , (3808,  46,  939524110) /* TsysMutationFilter */;
+VALUES (3808,   1, 0x020003CF) /* Setup */
+     , (3808,   3, 0x20000014) /* SoundTable */
+     , (3808,   6, 0x04000BEF) /* PaletteBase */
+     , (3808,   7, 0x10000153) /* ClothingBase */
+     , (3808,   8, 0x060010D2) /* Icon */
+     , (3808,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3808,  36, 0x0E00001D) /* MutateFilter */
+     , (3808,  46, 0x3800000E) /* TsysMutationFilter */;

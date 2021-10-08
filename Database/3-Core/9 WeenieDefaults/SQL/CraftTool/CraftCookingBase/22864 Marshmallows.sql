@@ -33,7 +33,7 @@ VALUES (22864,   1, 'Marshmallows') /* Name */
      , (22864,  20, 'Marshmallows') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22864,   1,   33554817) /* Setup */
-     , (22864,   6,   67111919) /* PaletteBase */
-     , (22864,   7,  268435832) /* ClothingBase */
-     , (22864,   8,  100673876) /* Icon */;
+VALUES (22864,   1, 0x02000181) /* Setup */
+     , (22864,   6, 0x04000BEF) /* PaletteBase */
+     , (22864,   7, 0x10000178) /* ClothingBase */
+     , (22864,   8, 0x06002954) /* Icon */;

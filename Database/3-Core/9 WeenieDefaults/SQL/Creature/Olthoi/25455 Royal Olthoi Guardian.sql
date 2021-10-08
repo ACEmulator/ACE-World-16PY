@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25455,   1, 'Royal Olthoi Guardian') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25455,   1,   33557046) /* Setup */
-     , (25455,   2,  150995130) /* MotionTable */
-     , (25455,   3,  536871036) /* SoundTable */
-     , (25455,   4,  805306395) /* CombatTable */
-     , (25455,   6,   67113194) /* PaletteBase */
-     , (25455,   7,  268436197) /* ClothingBase */
-     , (25455,   8,  100667623) /* Icon */
-     , (25455,  22,  872415378) /* PhysicsEffectTable */
+VALUES (25455,   1, 0x02000A36) /* Setup */
+     , (25455,   2, 0x090000BA) /* MotionTable */
+     , (25455,   3, 0x2000007C) /* SoundTable */
+     , (25455,   4, 0x3000001B) /* CombatTable */
+     , (25455,   6, 0x040010EA) /* PaletteBase */
+     , (25455,   7, 0x100002E5) /* ClothingBase */
+     , (25455,   8, 0x060010E7) /* Icon */
+     , (25455,  22, 0x34000092) /* PhysicsEffectTable */
      , (25455,  30,         86) /* PhysicsScript - BreatheAcid */
      , (25455,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 

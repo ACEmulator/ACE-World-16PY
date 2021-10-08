@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12272,   1, 'Singular Extas Raider') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12272,   1,   33557003) /* Setup */
-     , (12272,   2,  150994950) /* MotionTable */
-     , (12272,   3,  536870922) /* SoundTable */
-     , (12272,   4,  805306371) /* CombatTable */
-     , (12272,   6,   67113158) /* PaletteBase */
-     , (12272,   7,  268436157) /* ClothingBase */
-     , (12272,   8,  100667447) /* Icon */
-     , (12272,  22,  872415262) /* PhysicsEffectTable */
+VALUES (12272,   1, 0x02000A0B) /* Setup */
+     , (12272,   2, 0x09000006) /* MotionTable */
+     , (12272,   3, 0x2000000A) /* SoundTable */
+     , (12272,   4, 0x30000003) /* CombatTable */
+     , (12272,   6, 0x040010C6) /* PaletteBase */
+     , (12272,   7, 0x100002BD) /* ClothingBase */
+     , (12272,   8, 0x06001037) /* Icon */
+     , (12272,  22, 0x3400001E) /* PhysicsEffectTable */
      , (12272,  32,        326) /* WieldedTreasureType - 
                                    Wield Rock (23746) | Probability: 100%
                                    Wield Lugian Axe (23740) | Probability: 60.000004%

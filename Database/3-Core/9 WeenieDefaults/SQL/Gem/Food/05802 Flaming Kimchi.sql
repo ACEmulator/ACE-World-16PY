@@ -34,12 +34,12 @@ VALUES (5802,   1, 'Flaming Kimchi') /* Name */
      , (5802,  16, 'Kimchi so hot, it''ll keep you warm for a while.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5802,   1,   33554669) /* Setup */
-     , (5802,   3,  536870932) /* SoundTable */
-     , (5802,   6,   67111919) /* PaletteBase */
-     , (5802,   8,  100670313) /* Icon */
-     , (5802,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5802,   1, 0x020000ED) /* Setup */
+     , (5802,   3, 0x20000014) /* SoundTable */
+     , (5802,   6, 0x04000BEF) /* PaletteBase */
+     , (5802,   8, 0x06001B69) /* Icon */
+     , (5802,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5802,  23,         64) /* UseSound - Eat1 */
-     , (5802,  27,  318767233) /* UseUserAnimation - MimeEat */
+     , (5802,  27, 0x13000081) /* UseUserAnimation - MimeEat */
      , (5802,  28,       1030) /* Spell - Cold Protection Self I */
-     , (5802,  36,  234881046) /* MutateFilter */;
+     , (5802,  36, 0x0E000016) /* MutateFilter */;

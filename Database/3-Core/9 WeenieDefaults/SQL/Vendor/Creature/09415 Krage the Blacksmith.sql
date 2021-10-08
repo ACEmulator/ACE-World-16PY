@@ -69,13 +69,13 @@ VALUES (9415,   1, 'Krage the Blacksmith') /* Name */
      , (9415,  24, 'Linvak Tukal') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9415,   1,   33557003) /* Setup */
-     , (9415,   2,  150994950) /* MotionTable */
-     , (9415,   3,  536870922) /* SoundTable */
-     , (9415,   4,  805306371) /* CombatTable */
-     , (9415,   6,   67113158) /* PaletteBase */
-     , (9415,   7,  268436157) /* ClothingBase */
-     , (9415,   8,  100667447) /* Icon */;
+VALUES (9415,   1, 0x02000A0B) /* Setup */
+     , (9415,   2, 0x09000006) /* MotionTable */
+     , (9415,   3, 0x2000000A) /* SoundTable */
+     , (9415,   4, 0x30000003) /* CombatTable */
+     , (9415,   6, 0x040010C6) /* PaletteBase */
+     , (9415,   7, 0x100002BD) /* ClothingBase */
+     , (9415,   8, 0x06001037) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9415,   1, 310, 0, 0) /* Strength */

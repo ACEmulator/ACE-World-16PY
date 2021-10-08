@@ -70,11 +70,11 @@ VALUES (2261,   1, 'Shen Ai-Shen the Weaponsmith') /* Name */
      , (2261,  24, 'Baishi') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2261,   1,   33554433) /* Setup */
-     , (2261,   2,  150994945) /* MotionTable */
-     , (2261,   3,  536870913) /* SoundTable */
-     , (2261,   4,  805306368) /* CombatTable */
-     , (2261,   8,  100667446) /* Icon */;
+VALUES (2261,   1, 0x02000001) /* Setup */
+     , (2261,   2, 0x09000001) /* MotionTable */
+     , (2261,   3, 0x20000001) /* SoundTable */
+     , (2261,   4, 0x30000000) /* CombatTable */
+     , (2261,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2261,   1, 120, 0, 0) /* Strength */

@@ -48,12 +48,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19807,   1, 'Quality Isparian Claw') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19807,   1,   33556258) /* Setup */
-     , (19807,   3,  536870932) /* SoundTable */
-     , (19807,   6,   67111919) /* PaletteBase */
-     , (19807,   7,  268436380) /* ClothingBase */
-     , (19807,   8,  100672905) /* Icon */
-     , (19807,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19807,   1, 0x02000722) /* Setup */
+     , (19807,   3, 0x20000014) /* SoundTable */
+     , (19807,   6, 0x04000BEF) /* PaletteBase */
+     , (19807,   7, 0x1000039C) /* ClothingBase */
+     , (19807,   8, 0x06002589) /* Icon */
+     , (19807,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19807,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

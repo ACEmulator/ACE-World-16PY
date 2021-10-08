@@ -25,9 +25,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12292,   1, 'Seat of the New Singularity') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12292,   1,   33555926) /* Setup */
-     , (12292,   2,  150994947) /* MotionTable */
-     , (12292,   8,  100667499) /* Icon */;
+VALUES (12292,   1, 0x020005D6) /* Setup */
+     , (12292,   2, 0x09000003) /* MotionTable */
+     , (12292,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12292, 2, 0x039E02FA, 122.4, -897.3, 1.5, -0.552664, 0, -0, -0.833404) /* Destination */

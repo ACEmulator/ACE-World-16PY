@@ -61,13 +61,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19436,   1, 'Old Bones') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19436,   1,   33554521) /* Setup */
-     , (19436,   2,  150994981) /* MotionTable */
-     , (19436,   3,  536870942) /* SoundTable */
-     , (19436,   4,  805306368) /* CombatTable */
-     , (19436,   8,  100669124) /* Icon */
-     , (19436,  20,   50332893) /* InitMotion */
-     , (19436,  22,  872415269) /* PhysicsEffectTable */
+VALUES (19436,   1, 0x02000059) /* Setup */
+     , (19436,   2, 0x09000025) /* MotionTable */
+     , (19436,   3, 0x2000001E) /* SoundTable */
+     , (19436,   4, 0x30000000) /* CombatTable */
+     , (19436,   8, 0x060016C4) /* Icon */
+     , (19436,  20, 0x030004DD) /* InitMotion */
+     , (19436,  22, 0x34000025) /* PhysicsEffectTable */
      , (19436,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -22,5 +22,5 @@ VALUES (493,   1, 'Arwic Lifestone') /* Name */
      , (493,  16, 'Use this lifestone to set your Sanctuary.                                                                                         Fallen heroes are reborn at their sanctuary.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (493,   1,   33555088) /* Setup */
-     , (493,   8,  100668115) /* Icon */;
+VALUES (493,   1, 0x02000290) /* Setup */
+     , (493,   8, 0x060012D3) /* Icon */;

@@ -63,12 +63,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24158,   1, 'Chunk of Wood') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24158,   1,   33558322) /* Setup */
-     , (24158,   2,  150995147) /* MotionTable */
-     , (24158,   3,  536870932) /* SoundTable */
-     , (24158,   4,  805306407) /* CombatTable */
-     , (24158,   8,  100674260) /* Icon */
-     , (24158,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24158,   1, 0x02000F32) /* Setup */
+     , (24158,   2, 0x090000CB) /* MotionTable */
+     , (24158,   3, 0x20000014) /* SoundTable */
+     , (24158,   4, 0x30000027) /* CombatTable */
+     , (24158,   8, 0x06002AD4) /* Icon */
+     , (24158,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24158,   1, 100, 0, 0) /* Strength */

@@ -38,12 +38,12 @@ VALUES (25702,   1, 'Bandit Mask') /* Name */
      , (25702,  33, 'MaskNoir1PickUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25702,   1,   33554643) /* Setup */
-     , (25702,   3,  536870932) /* SoundTable */
-     , (25702,   6,   67108990) /* PaletteBase */
-     , (25702,   7,  268436719) /* ClothingBase */
-     , (25702,   8,  100675490) /* Icon */
-     , (25702,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25702,   1, 0x020000D3) /* Setup */
+     , (25702,   3, 0x20000014) /* SoundTable */
+     , (25702,   6, 0x0400007E) /* PaletteBase */
+     , (25702,   7, 0x100004EF) /* ClothingBase */
+     , (25702,   8, 0x06002FA2) /* Icon */
+     , (25702,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (25702, 25 /* Wield */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

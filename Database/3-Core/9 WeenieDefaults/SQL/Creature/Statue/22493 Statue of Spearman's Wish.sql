@@ -65,12 +65,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22493,   1, 'Statue of Spearman''s Wish') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22493,   1,   33558124) /* Setup */
-     , (22493,   2,  150995147) /* MotionTable */
-     , (22493,   3,  536871052) /* SoundTable */
-     , (22493,   4,  805306379) /* CombatTable */
-     , (22493,   8,  100673831) /* Icon */
-     , (22493,  22,  872415271) /* PhysicsEffectTable */;
+VALUES (22493,   1, 0x02000E6C) /* Setup */
+     , (22493,   2, 0x090000CB) /* MotionTable */
+     , (22493,   3, 0x2000008C) /* SoundTable */
+     , (22493,   4, 0x3000000B) /* CombatTable */
+     , (22493,   8, 0x06002927) /* Icon */
+     , (22493,  22, 0x34000027) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22493,   1, 380, 0, 0) /* Strength */

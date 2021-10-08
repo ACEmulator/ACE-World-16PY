@@ -43,12 +43,12 @@ VALUES (27351,   1, 'Tanae''s Buadren of the Forests') /* Name */
      , (27351,  16, 'A buadren fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27351,   1,   33558670) /* Setup */
-     , (27351,   3,  536870932) /* SoundTable */
-     , (27351,   6,   67113336) /* PaletteBase */
-     , (27351,   7,  268436251) /* ClothingBase */
-     , (27351,   8,  100676361) /* Icon */
-     , (27351,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27351,   1, 0x0200108E) /* Setup */
+     , (27351,   3, 0x20000014) /* SoundTable */
+     , (27351,   6, 0x04001178) /* PaletteBase */
+     , (27351,   7, 0x1000031B) /* ClothingBase */
+     , (27351,   8, 0x06003309) /* Icon */
+     , (27351,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27351,  2446,      2)  /* Greater Growth */

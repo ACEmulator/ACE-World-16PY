@@ -47,10 +47,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29924,   1, 'Regal War Maul') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29924,   1,   33559057) /* Setup */
-     , (29924,   3,  536870932) /* SoundTable */
-     , (29924,   8,  100676975) /* Icon */
-     , (29924,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29924,   1, 0x02001211) /* Setup */
+     , (29924,   3, 0x20000014) /* SoundTable */
+     , (29924,   8, 0x0600356F) /* Icon */
+     , (29924,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29924,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

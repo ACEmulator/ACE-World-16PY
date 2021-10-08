@@ -63,12 +63,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24184,   1, 'Body of Jaleh al-Thani') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24184,   1,   33558319) /* Setup */
-     , (24184,   2,  150995237) /* MotionTable */
-     , (24184,   3,  536871052) /* SoundTable */
-     , (24184,   4,  805306398) /* CombatTable */
-     , (24184,   8,  100674284) /* Icon */
-     , (24184,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (24184,   1, 0x02000F2F) /* Setup */
+     , (24184,   2, 0x09000125) /* MotionTable */
+     , (24184,   3, 0x2000008C) /* SoundTable */
+     , (24184,   4, 0x3000001E) /* CombatTable */
+     , (24184,   8, 0x06002AEC) /* Icon */
+     , (24184,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24184,   1, 380, 0, 0) /* Strength */

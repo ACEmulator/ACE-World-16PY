@@ -36,11 +36,11 @@ VALUES (26299,   1, 'Northreach Portal Gem') /* Name */
      , (26299,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26299,   1,   33556769) /* Setup */
-     , (26299,   3,  536870932) /* SoundTable */
-     , (26299,   6,   67111919) /* PaletteBase */
-     , (26299,   7,  268435723) /* ClothingBase */
-     , (26299,   8,  100675760) /* Icon */
-     , (26299,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26299,   1, 0x02000921) /* Setup */
+     , (26299,   3, 0x20000014) /* SoundTable */
+     , (26299,   6, 0x04000BEF) /* PaletteBase */
+     , (26299,   7, 0x1000010B) /* ClothingBase */
+     , (26299,   8, 0x060030B0) /* Icon */
+     , (26299,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26299,  28,        157) /* Spell - Summon Primary Portal I */
      , (26299,  31,      14653) /* LinkedPortalOne - Northreach Portal */;

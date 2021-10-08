@@ -25,7 +25,7 @@ VALUES (3445,   1, 'Scroll of Monster Unfamiliarity IV') /* Name */
      , (3445,  16, 'When learned, this spell decreases the target''s Assess Monster skill by 43%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3445,   1,   33554826) /* Setup */
-     , (3445,   8,  100676448) /* Icon */
-     , (3445,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3445,   1, 0x0200018A) /* Setup */
+     , (3445,   8, 0x06003360) /* Icon */
+     , (3445,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3445,  28,        820) /* Spell - Monster Unfamiliarity Other IV */;

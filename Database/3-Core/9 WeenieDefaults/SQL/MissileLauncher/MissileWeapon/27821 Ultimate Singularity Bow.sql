@@ -55,12 +55,12 @@ VALUES (27821,   1, 'Ultimate Singularity Bow') /* Name */
      , (27821,  15, 'A bow imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27821,   1,   33557312) /* Setup */
-     , (27821,   3,  536870932) /* SoundTable */
-     , (27821,   6,   67111919) /* PaletteBase */
-     , (27821,   7,  268436238) /* ClothingBase */
-     , (27821,   8,  100672042) /* Icon */
-     , (27821,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27821,   1, 0x02000B40) /* Setup */
+     , (27821,   3, 0x20000014) /* SoundTable */
+     , (27821,   6, 0x04000BEF) /* PaletteBase */
+     , (27821,   7, 0x1000030E) /* ClothingBase */
+     , (27821,   8, 0x0600222A) /* Icon */
+     , (27821,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27821,  1605,      2)  /* Aura of Defender Self VI */

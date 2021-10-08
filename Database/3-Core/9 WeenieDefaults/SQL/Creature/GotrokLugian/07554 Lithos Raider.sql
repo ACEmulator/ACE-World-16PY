@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7554,   1, 'Lithos Raider') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7554,   1,   33557003) /* Setup */
-     , (7554,   2,  150994950) /* MotionTable */
-     , (7554,   3,  536870922) /* SoundTable */
-     , (7554,   4,  805306371) /* CombatTable */
-     , (7554,   6,   67113158) /* PaletteBase */
-     , (7554,   7,  268436158) /* ClothingBase */
-     , (7554,   8,  100667447) /* Icon */
-     , (7554,  22,  872415262) /* PhysicsEffectTable */
+VALUES (7554,   1, 0x02000A0B) /* Setup */
+     , (7554,   2, 0x09000006) /* MotionTable */
+     , (7554,   3, 0x2000000A) /* SoundTable */
+     , (7554,   4, 0x30000003) /* CombatTable */
+     , (7554,   6, 0x040010C6) /* PaletteBase */
+     , (7554,   7, 0x100002BE) /* ClothingBase */
+     , (7554,   8, 0x06001037) /* Icon */
+     , (7554,  22, 0x3400001E) /* PhysicsEffectTable */
      , (7554,  32,        306) /* WieldedTreasureType - 
                                    Wield Lugian Axe (7577) | Probability: 45%
                                    Wield Lugian Morning Star (23765) | Probability: 30.000002% */

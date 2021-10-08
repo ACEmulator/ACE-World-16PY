@@ -36,11 +36,11 @@ VALUES (26385,   1, 'Southwest Hebian-To Settlement Portal Gem') /* Name */
      , (26385,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26385,   1,   33556769) /* Setup */
-     , (26385,   3,  536870932) /* SoundTable */
-     , (26385,   6,   67111919) /* PaletteBase */
-     , (26385,   7,  268435723) /* ClothingBase */
-     , (26385,   8,  100675760) /* Icon */
-     , (26385,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26385,   1, 0x02000921) /* Setup */
+     , (26385,   3, 0x20000014) /* SoundTable */
+     , (26385,   6, 0x04000BEF) /* PaletteBase */
+     , (26385,   7, 0x1000010B) /* ClothingBase */
+     , (26385,   8, 0x060030B0) /* Icon */
+     , (26385,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26385,  28,        157) /* Spell - Summon Primary Portal I */
      , (26385,  31,      12554) /* LinkedPortalOne - Southwest Hebian-To Settlement Portal */;

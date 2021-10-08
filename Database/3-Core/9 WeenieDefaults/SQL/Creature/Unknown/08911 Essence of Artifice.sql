@@ -62,11 +62,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8911,   1, 'Essence of Artifice') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8911,   1,   33556979) /* Setup */
-     , (8911,   2,  150995087) /* MotionTable */
-     , (8911,   3,  536870985) /* SoundTable */
-     , (8911,   4,  805306368) /* CombatTable */
-     , (8911,   8,  100671383) /* Icon */;
+VALUES (8911,   1, 0x020009F3) /* Setup */
+     , (8911,   2, 0x0900008F) /* MotionTable */
+     , (8911,   3, 0x20000049) /* SoundTable */
+     , (8911,   4, 0x30000000) /* CombatTable */
+     , (8911,   8, 0x06001F97) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8911,   1, 200, 0, 0) /* Strength */

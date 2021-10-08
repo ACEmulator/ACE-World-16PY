@@ -35,11 +35,11 @@ VALUES (24799,   1, 'Gem of Cold Protection') /* Name */
      , (24799,  20, 'Gems of Cold Protection') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24799,   1,   33554809) /* Setup */
-     , (24799,   3,  536870932) /* SoundTable */
-     , (24799,   6,   67111919) /* PaletteBase */
-     , (24799,   7,  268435723) /* ClothingBase */
-     , (24799,   8,  100674449) /* Icon */
-     , (24799,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24799,   1, 0x02000179) /* Setup */
+     , (24799,   3, 0x20000014) /* SoundTable */
+     , (24799,   6, 0x04000BEF) /* PaletteBase */
+     , (24799,   7, 0x1000010B) /* ClothingBase */
+     , (24799,   8, 0x06002B91) /* Icon */
+     , (24799,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24799,  28,       1039) /* Spell - Cold Protection Other IV */
-     , (24799,  36,  234881046) /* MutateFilter */;
+     , (24799,  36, 0x0E000016) /* MutateFilter */;

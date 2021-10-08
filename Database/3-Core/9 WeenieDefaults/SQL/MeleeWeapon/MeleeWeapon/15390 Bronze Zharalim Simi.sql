@@ -38,10 +38,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15390,   1, 'Bronze Zharalim Simi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15390,   1,   33554751) /* Setup */
-     , (15390,   3,  536870932) /* SoundTable */
-     , (15390,   6,   67111919) /* PaletteBase */
-     , (15390,   7,  268435766) /* ClothingBase */
-     , (15390,   8,  100668995) /* Icon */
-     , (15390,  22,  872415275) /* PhysicsEffectTable */
-     , (15390,  36,  234881044) /* MutateFilter */;
+VALUES (15390,   1, 0x0200013F) /* Setup */
+     , (15390,   3, 0x20000014) /* SoundTable */
+     , (15390,   6, 0x04000BEF) /* PaletteBase */
+     , (15390,   7, 0x10000136) /* ClothingBase */
+     , (15390,   8, 0x06001643) /* Icon */
+     , (15390,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (15390,  36, 0x0E000014) /* MutateFilter */;

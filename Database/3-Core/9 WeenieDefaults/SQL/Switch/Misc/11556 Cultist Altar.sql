@@ -33,10 +33,10 @@ VALUES (11556,   1, 'Cultist Altar') /* Name */
      , (11556,  17, 'The cultists'' altar has been defiled!') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11556,   1,   33555060) /* Setup */
-     , (11556,   3,  536870932) /* SoundTable */
-     , (11556,   8,  100668239) /* Icon */
-     , (11556,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11556,   1, 0x02000274) /* Setup */
+     , (11556,   3, 0x20000014) /* SoundTable */
+     , (11556,   8, 0x0600134F) /* Icon */
+     , (11556,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (11556,  16, 0x00000000) /* ActivationTarget */;

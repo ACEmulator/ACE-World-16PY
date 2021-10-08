@@ -26,5 +26,5 @@ VALUES (30485,   1, 'Bronze Handbell') /* Name */
      , (30485,  33, 'HoltburgRedoubtHandbell1204') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30485,   1,   33554814) /* Setup */
-     , (30485,   8,  100668120) /* Icon */;
+VALUES (30485,   1, 0x0200017E) /* Setup */
+     , (30485,   8, 0x060012D8) /* Icon */;

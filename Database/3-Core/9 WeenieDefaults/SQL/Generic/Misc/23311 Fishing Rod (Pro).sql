@@ -24,12 +24,12 @@ VALUES (23311,   1, 'Fishing Rod (Pro)') /* Name */
      , (23311,  15, 'A rod used to catch fish from fishing holes.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23311,   1,   33554749) /* Setup */
-     , (23311,   3,  536870932) /* SoundTable */
-     , (23311,   6,   67111919) /* PaletteBase */
-     , (23311,   7,  268435795) /* ClothingBase */
-     , (23311,   8,  100669105) /* Icon */
-     , (23311,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23311,   1, 0x0200013D) /* Setup */
+     , (23311,   3, 0x20000014) /* SoundTable */
+     , (23311,   6, 0x04000BEF) /* PaletteBase */
+     , (23311,   7, 0x10000153) /* ClothingBase */
+     , (23311,   8, 0x060016B1) /* Icon */
+     , (23311,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (23311, 25 /* Wield */,   0.03, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

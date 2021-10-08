@@ -22,5 +22,5 @@ VALUES (14716,   1, 'Lo-Han') /* Name */
      , (14716,  16, 'Welcome to Lo-Han') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14716,   1,   33557463) /* Setup */
-     , (14716,   8,  100668115) /* Icon */;
+VALUES (14716,   1, 0x02000BD7) /* Setup */
+     , (14716,   8, 0x060012D3) /* Icon */;

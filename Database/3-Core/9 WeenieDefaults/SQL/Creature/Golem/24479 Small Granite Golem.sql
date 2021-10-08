@@ -62,12 +62,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24479,   1, 'Small Granite Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24479,   1,   33556426) /* Setup */
-     , (24479,   2,  150995073) /* MotionTable */
-     , (24479,   3,  536870933) /* SoundTable */
-     , (24479,   4,  805306376) /* CombatTable */
-     , (24479,   8,  100667940) /* Icon */
-     , (24479,  22,  872415328) /* PhysicsEffectTable */
+VALUES (24479,   1, 0x020007CA) /* Setup */
+     , (24479,   2, 0x09000081) /* MotionTable */
+     , (24479,   3, 0x20000015) /* SoundTable */
+     , (24479,   4, 0x30000008) /* CombatTable */
+     , (24479,   8, 0x06001224) /* Icon */
+     , (24479,  22, 0x34000060) /* PhysicsEffectTable */
      , (24479,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

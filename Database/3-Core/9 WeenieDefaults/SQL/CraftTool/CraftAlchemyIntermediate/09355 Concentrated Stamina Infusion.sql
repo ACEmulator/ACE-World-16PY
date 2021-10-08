@@ -32,9 +32,9 @@ VALUES (9355,   1, 'Concentrated Stamina Infusion') /* Name */
      , (9355,  20, 'Concentrated Stamina Infusions') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9355,   1,   33555965) /* Setup */
-     , (9355,   3,  536870932) /* SoundTable */
-     , (9355,   6,   67111919) /* PaletteBase */
-     , (9355,   7,  268435814) /* ClothingBase */
-     , (9355,   8,  100671580) /* Icon */
-     , (9355,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9355,   1, 0x020005FD) /* Setup */
+     , (9355,   3, 0x20000014) /* SoundTable */
+     , (9355,   6, 0x04000BEF) /* PaletteBase */
+     , (9355,   7, 0x10000166) /* ClothingBase */
+     , (9355,   8, 0x0600205C) /* Icon */
+     , (9355,  22, 0x3400002B) /* PhysicsEffectTable */;

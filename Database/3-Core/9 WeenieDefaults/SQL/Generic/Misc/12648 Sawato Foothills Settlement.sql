@@ -22,5 +22,5 @@ VALUES (12648,   1, 'Sawato Foothills Settlement') /* Name */
      , (12648,  16, 'Welcome to Sawato Foothills Settlement') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12648,   1,   33557463) /* Setup */
-     , (12648,   8,  100668115) /* Icon */;
+VALUES (12648,   1, 0x02000BD7) /* Setup */
+     , (12648,   8, 0x060012D3) /* Icon */;

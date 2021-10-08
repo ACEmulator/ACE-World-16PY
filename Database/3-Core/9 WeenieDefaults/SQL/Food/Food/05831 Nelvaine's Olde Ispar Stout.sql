@@ -27,8 +27,8 @@ VALUES (5831,   1, 'Nelvaine''s Olde Ispar Stout') /* Name */
      , (5831,  20, 'Mugs of Stout') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5831,   1,   33554665) /* Setup */
-     , (5831,   3,  536870932) /* SoundTable */
-     , (5831,   8,  100667432) /* Icon */
-     , (5831,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5831,   1, 0x020000E9) /* Setup */
+     , (5831,   3, 0x20000014) /* SoundTable */
+     , (5831,   8, 0x06001028) /* Icon */
+     , (5831,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5831,  23,         65) /* UseSound - Drink1 */;

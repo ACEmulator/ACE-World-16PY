@@ -60,12 +60,12 @@ VALUES (12133,   1, 'Sneaky Simulacrum') /* Name */
      , (12133,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12133,   1,   33554433) /* Setup */
-     , (12133,   2,  150995141) /* MotionTable */
-     , (12133,   3,  536871043) /* SoundTable */
-     , (12133,   4,  805306368) /* CombatTable */
-     , (12133,   8,  100667446) /* Icon */
-     , (12133,  22,  872415381) /* PhysicsEffectTable */
+VALUES (12133,   1, 0x02000001) /* Setup */
+     , (12133,   2, 0x090000C5) /* MotionTable */
+     , (12133,   3, 0x20000083) /* SoundTable */
+     , (12133,   4, 0x30000000) /* CombatTable */
+     , (12133,   8, 0x06001036) /* Icon */
+     , (12133,  22, 0x34000095) /* PhysicsEffectTable */
      , (12133,  32,        394) /* WieldedTreasureType - 
                                    Wield Bow of the Quiddity (9597) | Probability: 100%
                                    Wield 20x Arrow (300) | Probability: 100%

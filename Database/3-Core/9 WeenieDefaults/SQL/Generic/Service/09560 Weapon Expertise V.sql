@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9560,   1, 'Weapon Expertise V') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9560,   1,   33554667) /* Setup */
-     , (9560,   8,  100668357) /* Icon */
-     , (9560,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9560,   1, 0x020000EB) /* Setup */
+     , (9560,   8, 0x060013C5) /* Icon */
+     , (9560,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9560,  28,        784) /* Spell - Weapon Tinkering Expertise Other V */;

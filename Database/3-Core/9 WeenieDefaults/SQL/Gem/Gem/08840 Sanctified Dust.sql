@@ -26,10 +26,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8840,   1, 'Sanctified Dust') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8840,   1,   33554809) /* Setup */
-     , (8840,   3,  536870932) /* SoundTable */
-     , (8840,   6,   67111919) /* PaletteBase */
-     , (8840,   7,  268435723) /* ClothingBase */
-     , (8840,   8,  100668366) /* Icon */
-     , (8840,  22,  872415275) /* PhysicsEffectTable */
-     , (8840,  36,  234881046) /* MutateFilter */;
+VALUES (8840,   1, 0x02000179) /* Setup */
+     , (8840,   3, 0x20000014) /* SoundTable */
+     , (8840,   6, 0x04000BEF) /* PaletteBase */
+     , (8840,   7, 0x1000010B) /* ClothingBase */
+     , (8840,   8, 0x060013CE) /* Icon */
+     , (8840,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8840,  36, 0x0E000016) /* MutateFilter */;

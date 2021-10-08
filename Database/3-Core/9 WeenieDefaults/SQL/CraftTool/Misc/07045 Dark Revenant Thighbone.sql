@@ -31,7 +31,7 @@ VALUES (7045,   1, 'Dark Revenant Thighbone') /* Name */
      , (7045,  16, 'The thighbone of a departed Dark Revenant.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7045,   1,   33558170) /* Setup */
-     , (7045,   3,  536870932) /* SoundTable */
-     , (7045,   8,  100673953) /* Icon */
-     , (7045,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7045,   1, 0x02000E9A) /* Setup */
+     , (7045,   3, 0x20000014) /* SoundTable */
+     , (7045,   8, 0x060029A1) /* Icon */
+     , (7045,  22, 0x3400002B) /* PhysicsEffectTable */;

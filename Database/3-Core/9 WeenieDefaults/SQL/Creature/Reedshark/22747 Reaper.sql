@@ -60,14 +60,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22747,   1, 'Reaper') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22747,   1,   33554489) /* Setup */
-     , (22747,   2,  150994970) /* MotionTable */
-     , (22747,   3,  536870928) /* SoundTable */
-     , (22747,   4,  805306378) /* CombatTable */
-     , (22747,   6,   67109313) /* PaletteBase */
-     , (22747,   7,  268435556) /* ClothingBase */
-     , (22747,   8,  100667939) /* Icon */
-     , (22747,  22,  872415268) /* PhysicsEffectTable */
+VALUES (22747,   1, 0x02000039) /* Setup */
+     , (22747,   2, 0x0900001A) /* MotionTable */
+     , (22747,   3, 0x20000010) /* SoundTable */
+     , (22747,   4, 0x3000000A) /* CombatTable */
+     , (22747,   6, 0x040001C1) /* PaletteBase */
+     , (22747,   7, 0x10000064) /* ClothingBase */
+     , (22747,   8, 0x06001223) /* Icon */
+     , (22747,  22, 0x34000024) /* PhysicsEffectTable */
      , (22747,  35,        458) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

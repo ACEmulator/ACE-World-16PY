@@ -19,8 +19,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (299,   1, 'Tripwire') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (299,   1,   33554667) /* Setup */
-     , (299,   8,  100667507) /* Icon */;
+VALUES (299,   1, 0x020000EB) /* Setup */
+     , (299,   8, 0x06001073) /* Icon */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (299,  16, 0x00000000) /* ActivationTarget */;

@@ -19,8 +19,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1442,   1, 'Fine Gem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1442,   1,   33554809) /* Setup */
-     , (1442,   3,  536870932) /* SoundTable */
-     , (1442,   8,  100667482) /* Icon */
-     , (1442,  22,  872415275) /* PhysicsEffectTable */
-     , (1442,  36,  234881046) /* MutateFilter */;
+VALUES (1442,   1, 0x02000179) /* Setup */
+     , (1442,   3, 0x20000014) /* SoundTable */
+     , (1442,   8, 0x0600105A) /* Icon */
+     , (1442,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (1442,  36, 0x0E000016) /* MutateFilter */;

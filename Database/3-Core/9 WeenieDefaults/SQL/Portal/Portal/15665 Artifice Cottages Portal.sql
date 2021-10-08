@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15665,   1, 'Artifice Cottages Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15665,   1,   33554867) /* Setup */
-     , (15665,   2,  150994947) /* MotionTable */
-     , (15665,   8,  100667499) /* Icon */;
+VALUES (15665,   1, 0x020001B3) /* Setup */
+     , (15665,   2, 0x09000003) /* MotionTable */
+     , (15665,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (15665, 2, 0x8F15001D, 78.648, 106.778, 297.649, -0.999911, 0, -0, -0.013369) /* Destination */

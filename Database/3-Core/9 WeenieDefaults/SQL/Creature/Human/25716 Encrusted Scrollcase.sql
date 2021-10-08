@@ -67,13 +67,13 @@ VALUES (25716,   1, 'Encrusted Scrollcase') /* Name */
      , (25716,  15, 'A scroll case that looks as though it has been caked over by thick black mud. It looks much like some type of fowl.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25716,   1,   33558422) /* Setup */
-     , (25716,   2,  150995147) /* MotionTable */
-     , (25716,   3,  536870932) /* SoundTable */
-     , (25716,   6,   67114447) /* PaletteBase */
-     , (25716,   7,  268436660) /* ClothingBase */
-     , (25716,   8,  100675513) /* Icon */
-     , (25716,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25716,   1, 0x02000F96) /* Setup */
+     , (25716,   2, 0x090000CB) /* MotionTable */
+     , (25716,   3, 0x20000014) /* SoundTable */
+     , (25716,   6, 0x040015CF) /* PaletteBase */
+     , (25716,   7, 0x100004B4) /* ClothingBase */
+     , (25716,   8, 0x06002FB9) /* Icon */
+     , (25716,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25716,   1, 340, 0, 0) /* Strength */

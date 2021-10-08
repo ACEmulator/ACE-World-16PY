@@ -41,12 +41,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20166,   1, 'Quality Coruscating Isparian Wand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20166,   1,   33557787) /* Setup */
-     , (20166,   3,  536870932) /* SoundTable */
-     , (20166,   6,   67111919) /* PaletteBase */
-     , (20166,   7,  268436395) /* ClothingBase */
-     , (20166,   8,  100672992) /* Icon */
-     , (20166,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20166,   1, 0x02000D1B) /* Setup */
+     , (20166,   3, 0x20000014) /* SoundTable */
+     , (20166,   6, 0x04000BEF) /* PaletteBase */
+     , (20166,   7, 0x100003AB) /* ClothingBase */
+     , (20166,   8, 0x060025E0) /* Icon */
+     , (20166,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20166,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

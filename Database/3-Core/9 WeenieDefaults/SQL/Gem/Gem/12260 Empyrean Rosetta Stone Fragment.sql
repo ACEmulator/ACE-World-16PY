@@ -30,7 +30,7 @@ VALUES (12260,   1, 'Empyrean Rosetta Stone Fragment') /* Name */
      , (12260,  16, 'A small stone with strange etchings on it.  These etchings seem to be written both in a strange, foreign language, and in the common language of Ispar.  Perhaps this is of interest to an agent of the Arcanum.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12260,   1,   33557373) /* Setup */
-     , (12260,   3,  536870932) /* SoundTable */
-     , (12260,   8,  100672183) /* Icon */
-     , (12260,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12260,   1, 0x02000B7D) /* Setup */
+     , (12260,   3, 0x20000014) /* SoundTable */
+     , (12260,   8, 0x060022B7) /* Icon */
+     , (12260,  22, 0x3400002B) /* PhysicsEffectTable */;

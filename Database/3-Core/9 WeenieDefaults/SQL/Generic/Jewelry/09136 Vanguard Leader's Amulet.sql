@@ -34,13 +34,13 @@ VALUES (9136,   1, 'Vanguard Leader''s Amulet') /* Name */
      , (9136,  33, 'TumerokVanguardAmulet') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9136,   1,   33554680) /* Setup */
-     , (9136,   3,  536870932) /* SoundTable */
-     , (9136,   6,   67111919) /* PaletteBase */
-     , (9136,   7,  268436095) /* ClothingBase */
-     , (9136,   8,  100671247) /* Icon */
-     , (9136,  22,  872415275) /* PhysicsEffectTable */
-     , (9136,  36,  234881046) /* MutateFilter */;
+VALUES (9136,   1, 0x020000F8) /* Setup */
+     , (9136,   3, 0x20000014) /* SoundTable */
+     , (9136,   6, 0x04000BEF) /* PaletteBase */
+     , (9136,   7, 0x1000027F) /* ClothingBase */
+     , (9136,   8, 0x06001F0F) /* Icon */
+     , (9136,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (9136,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9136,   905,      2)  /* Leadership Mastery Other II */

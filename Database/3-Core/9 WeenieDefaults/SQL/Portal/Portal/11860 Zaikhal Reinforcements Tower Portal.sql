@@ -25,9 +25,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11860,   1, 'Zaikhal Reinforcements Tower Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11860,   1,   33555926) /* Setup */
-     , (11860,   2,  150994947) /* MotionTable */
-     , (11860,   8,  100667499) /* Icon */;
+VALUES (11860,   1, 0x020005D6) /* Setup */
+     , (11860,   2, 0x09000003) /* MotionTable */
+     , (11860,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11860, 2, 0x78A10101, 158.2, 61, 148, -0.5, 0, -0, -0.866025) /* Destination */

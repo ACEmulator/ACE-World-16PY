@@ -25,5 +25,5 @@ VALUES (24877,   1, 'Town Mason and Storage') /* Name */
      , (24877,  16, 'Town materials stored below. Stonework and masonry sold in the blacksmith''s basement.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24877,   1,   33555229) /* Setup */
-     , (24877,   8,  100670227) /* Icon */;
+VALUES (24877,   1, 0x0200031D) /* Setup */
+     , (24877,   8, 0x06001B13) /* Icon */;

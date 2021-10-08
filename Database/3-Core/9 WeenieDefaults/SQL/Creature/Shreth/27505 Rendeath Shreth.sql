@@ -61,14 +61,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27505,   1, 'Rendeath Shreth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27505,   1,   33555879) /* Setup */
-     , (27505,   2,  150995072) /* MotionTable */
-     , (27505,   3,  536870986) /* SoundTable */
-     , (27505,   4,  805306399) /* CombatTable */
-     , (27505,   6,   67112444) /* PaletteBase */
-     , (27505,   7,  268436624) /* ClothingBase */
-     , (27505,   8,  100669720) /* Icon */
-     , (27505,  22,  872415333) /* PhysicsEffectTable */
+VALUES (27505,   1, 0x020005A7) /* Setup */
+     , (27505,   2, 0x09000080) /* MotionTable */
+     , (27505,   3, 0x2000004A) /* SoundTable */
+     , (27505,   4, 0x3000001F) /* CombatTable */
+     , (27505,   6, 0x04000DFC) /* PaletteBase */
+     , (27505,   7, 0x10000490) /* ClothingBase */
+     , (27505,   8, 0x06001918) /* Icon */
+     , (27505,  22, 0x34000065) /* PhysicsEffectTable */
      , (27505,  35,        458) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

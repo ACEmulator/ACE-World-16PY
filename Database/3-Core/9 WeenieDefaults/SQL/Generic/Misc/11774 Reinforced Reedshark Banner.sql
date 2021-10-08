@@ -25,10 +25,10 @@ VALUES (11774,   1, 'Reinforced Reedshark Banner') /* Name */
      , (11774,  16, 'A reinforced banner with a reedshark on it.  It is relatively well kept, and the colors seem even and pure.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11774,   1,   33557245) /* Setup */
-     , (11774,   3,  536870932) /* SoundTable */
-     , (11774,   6,   67113338) /* PaletteBase */
-     , (11774,   7,  268436227) /* ClothingBase */
-     , (11774,   8,  100671927) /* Icon */
-     , (11774,  22,  872415275) /* PhysicsEffectTable */
-     , (11774,  36,  234881046) /* MutateFilter */;
+VALUES (11774,   1, 0x02000AFD) /* Setup */
+     , (11774,   3, 0x20000014) /* SoundTable */
+     , (11774,   6, 0x0400117A) /* PaletteBase */
+     , (11774,   7, 0x10000303) /* ClothingBase */
+     , (11774,   8, 0x060021B7) /* Icon */
+     , (11774,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11774,  36, 0x0E000016) /* MutateFilter */;

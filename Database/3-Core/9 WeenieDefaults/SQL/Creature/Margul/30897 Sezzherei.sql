@@ -73,14 +73,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30897,   1, 'Sezzherei') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30897,   1,   33558554) /* Setup */
-     , (30897,   2,  150995263) /* MotionTable */
-     , (30897,   3,  536871080) /* SoundTable */
-     , (30897,   4,  805306426) /* CombatTable */
-     , (30897,   6,   67114728) /* PaletteBase */
-     , (30897,   7,  268436733) /* ClothingBase */
-     , (30897,   8,  100675661) /* Icon */
-     , (30897,  22,  872415401) /* PhysicsEffectTable */
+VALUES (30897,   1, 0x0200101A) /* Setup */
+     , (30897,   2, 0x0900013F) /* MotionTable */
+     , (30897,   3, 0x200000A8) /* SoundTable */
+     , (30897,   4, 0x3000003A) /* CombatTable */
+     , (30897,   6, 0x040016E8) /* PaletteBase */
+     , (30897,   7, 0x100004FD) /* ClothingBase */
+     , (30897,   8, 0x0600304D) /* Icon */
+     , (30897,  22, 0x340000A9) /* PhysicsEffectTable */
      , (30897,  30,         84) /* PhysicsScript - BreatheFlame */
      , (30897,  35,         32) /* DeathTreasureType - Loot Tier: 6 */;
 

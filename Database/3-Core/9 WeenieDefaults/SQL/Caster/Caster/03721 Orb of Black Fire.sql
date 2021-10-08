@@ -36,13 +36,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3721,   1, 'Orb of Black Fire') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3721,   1,   33558249) /* Setup */
-     , (3721,   3,  536870932) /* SoundTable */
-     , (3721,   6,   67111928) /* PaletteBase */
-     , (3721,   7,  268435751) /* ClothingBase */
-     , (3721,   8,  100674114) /* Icon */
-     , (3721,  22,  872415275) /* PhysicsEffectTable */
-     , (3721,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (3721,   1, 0x02000EE9) /* Setup */
+     , (3721,   3, 0x20000014) /* SoundTable */
+     , (3721,   6, 0x04000BF8) /* PaletteBase */
+     , (3721,   7, 0x10000127) /* ClothingBase */
+     , (3721,   8, 0x06002A42) /* Icon */
+     , (3721,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3721,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (3721,  28,        145) /* Spell - Flame Volley V */
      , (3721,  37,         33) /* ItemSkillLimit - LifeMagic */;
 

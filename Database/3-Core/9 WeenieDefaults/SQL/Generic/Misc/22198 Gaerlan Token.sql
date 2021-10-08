@@ -26,8 +26,8 @@ VALUES (22198,   1, 'Gaerlan Token') /* Name */
      , (22198,  15, 'A token looking much like Gaerlan.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22198,   1,   33558084) /* Setup */
-     , (22198,   3,  536870932) /* SoundTable */
-     , (22198,   8,  100673671) /* Icon */
-     , (22198,  22,  872415275) /* PhysicsEffectTable */
-     , (22198,  36,  234881046) /* MutateFilter */;
+VALUES (22198,   1, 0x02000E44) /* Setup */
+     , (22198,   3, 0x20000014) /* SoundTable */
+     , (22198,   8, 0x06002887) /* Icon */
+     , (22198,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (22198,  36, 0x0E000016) /* MutateFilter */;

@@ -33,9 +33,9 @@ VALUES (28345,   1, 'Brittle Bone') /* Name */
      , (28345,  16, 'An ashen bone pulled from a Falatacot urn.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28345,   1,   33558619) /* Setup */
-     , (28345,   3,  536870932) /* SoundTable */
-     , (28345,   6,   67111266) /* PaletteBase */
-     , (28345,   7,  268435646) /* ClothingBase */
-     , (28345,   8,  100670681) /* Icon */
-     , (28345,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28345,   1, 0x0200105B) /* Setup */
+     , (28345,   3, 0x20000014) /* SoundTable */
+     , (28345,   6, 0x04000962) /* PaletteBase */
+     , (28345,   7, 0x100000BE) /* ClothingBase */
+     , (28345,   8, 0x06001CD9) /* Icon */
+     , (28345,  22, 0x3400002B) /* PhysicsEffectTable */;

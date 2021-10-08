@@ -44,10 +44,10 @@ VALUES (23543,   1, 'Atlatl of the Quiddity') /* Name */
      , (23543,  16, 'A weapon made of a strange pulsating energy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23543,   1,   33558192) /* Setup */
-     , (23543,   3,  536870932) /* SoundTable */
-     , (23543,   8,  100674027) /* Icon */
-     , (23543,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23543,   1, 0x02000EB0) /* Setup */
+     , (23543,   3, 0x20000014) /* SoundTable */
+     , (23543,   8, 0x060029EB) /* Icon */
+     , (23543,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23543,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

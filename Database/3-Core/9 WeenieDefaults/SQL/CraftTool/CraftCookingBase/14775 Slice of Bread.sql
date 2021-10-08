@@ -28,7 +28,7 @@ VALUES (14775,   1, 'Slice of Bread') /* Name */
      , (14775,  20, 'Bread Slices') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14775,   1,   33557498) /* Setup */
-     , (14775,   3,  536870932) /* SoundTable */
-     , (14775,   8,  100672568) /* Icon */
-     , (14775,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14775,   1, 0x02000BFA) /* Setup */
+     , (14775,   3, 0x20000014) /* SoundTable */
+     , (14775,   8, 0x06002438) /* Icon */
+     , (14775,  22, 0x3400002B) /* PhysicsEffectTable */;

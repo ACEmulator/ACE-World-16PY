@@ -28,7 +28,7 @@ VALUES (14766,   1, 'Egg Sandwich') /* Name */
      , (14766,  20, 'Egg Sandwiches') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14766,   1,   33557499) /* Setup */
-     , (14766,   3,  536870932) /* SoundTable */
-     , (14766,   8,  100672550) /* Icon */
-     , (14766,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14766,   1, 0x02000BFB) /* Setup */
+     , (14766,   3, 0x20000014) /* SoundTable */
+     , (14766,   8, 0x06002426) /* Icon */
+     , (14766,  22, 0x3400002B) /* PhysicsEffectTable */;

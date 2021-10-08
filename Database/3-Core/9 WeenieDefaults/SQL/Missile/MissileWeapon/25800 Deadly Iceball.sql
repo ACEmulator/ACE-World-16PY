@@ -50,9 +50,9 @@ VALUES (25800,   1, 'Deadly Iceball') /* Name */
      , (25800,  16, 'A deadly iceball. The kind your mother told you not to make.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25800,   1,   33556223) /* Setup */
-     , (25800,   3,  536870932) /* SoundTable */
-     , (25800,   6,   67111928) /* PaletteBase */
-     , (25800,   7,  268435841) /* ClothingBase */
-     , (25800,   8,  100675521) /* Icon */
-     , (25800,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25800,   1, 0x020006FF) /* Setup */
+     , (25800,   3, 0x20000014) /* SoundTable */
+     , (25800,   6, 0x04000BF8) /* PaletteBase */
+     , (25800,   7, 0x10000181) /* ClothingBase */
+     , (25800,   8, 0x06002FC1) /* Icon */
+     , (25800,  22, 0x3400002B) /* PhysicsEffectTable */;

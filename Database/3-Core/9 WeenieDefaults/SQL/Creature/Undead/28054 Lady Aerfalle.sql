@@ -68,14 +68,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28054,   1, 'Lady Aerfalle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28054,   1,   33558819) /* Setup */
-     , (28054,   2,  150994945) /* MotionTable */
-     , (28054,   3,  536870914) /* SoundTable */
-     , (28054,   4,  805306368) /* CombatTable */
-     , (28054,   6,   67115272) /* PaletteBase */
-     , (28054,   7,  268436837) /* ClothingBase */
-     , (28054,   8,  100667942) /* Icon */
-     , (28054,  22,  872415272) /* PhysicsEffectTable */
+VALUES (28054,   1, 0x02001123) /* Setup */
+     , (28054,   2, 0x09000001) /* MotionTable */
+     , (28054,   3, 0x20000002) /* SoundTable */
+     , (28054,   4, 0x30000000) /* CombatTable */
+     , (28054,   6, 0x04001908) /* PaletteBase */
+     , (28054,   7, 0x10000565) /* ClothingBase */
+     , (28054,   8, 0x06001226) /* Icon */
+     , (28054,  22, 0x34000028) /* PhysicsEffectTable */
      , (28054,  35,         29) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -46,10 +46,10 @@ VALUES (25949,   1, 'Quintessence Sickle') /* Name */
      , (25949,  33, 'VirindiAxe') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25949,   1,   33558568) /* Setup */
-     , (25949,   3,  536870932) /* SoundTable */
-     , (25949,   8,  100675660) /* Icon */
-     , (25949,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25949,   1, 0x02001028) /* Setup */
+     , (25949,   3, 0x20000014) /* SoundTable */
+     , (25949,   8, 0x0600304C) /* Icon */
+     , (25949,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25949,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

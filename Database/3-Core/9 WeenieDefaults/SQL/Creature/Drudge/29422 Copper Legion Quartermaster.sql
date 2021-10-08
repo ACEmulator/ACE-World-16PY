@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29422,   1, 'Copper Legion Quartermaster') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29422,   1,   33556445) /* Setup */
-     , (29422,   2,  150994952) /* MotionTable */
-     , (29422,   3,  536870919) /* SoundTable */
-     , (29422,   4,  805306372) /* CombatTable */
-     , (29422,   6,   67112812) /* PaletteBase */
-     , (29422,   7,  268435972) /* ClothingBase */
-     , (29422,   8,  100667445) /* Icon */
-     , (29422,  22,  872415258) /* PhysicsEffectTable */
+VALUES (29422,   1, 0x020007DD) /* Setup */
+     , (29422,   2, 0x09000008) /* MotionTable */
+     , (29422,   3, 0x20000007) /* SoundTable */
+     , (29422,   4, 0x30000004) /* CombatTable */
+     , (29422,   6, 0x04000F6C) /* PaletteBase */
+     , (29422,   7, 0x10000204) /* ClothingBase */
+     , (29422,   8, 0x06001035) /* Icon */
+     , (29422,  22, 0x3400001A) /* PhysicsEffectTable */
      , (29422,  32,         74) /* WieldedTreasureType - 
                                    Wield Club (309) | Probability: 5%
                                    Wield Dabus (313) | Probability: 10%

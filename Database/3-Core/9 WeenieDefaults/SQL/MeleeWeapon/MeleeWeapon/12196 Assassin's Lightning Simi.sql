@@ -37,10 +37,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12196,   1, 'Assassin''s Lightning Simi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12196,   1,   33555778) /* Setup */
-     , (12196,   3,  536870932) /* SoundTable */
-     , (12196,   6,   67111919) /* PaletteBase */
-     , (12196,   7,  268435766) /* ClothingBase */
-     , (12196,   8,  100668164) /* Icon */
-     , (12196,  22,  872415275) /* PhysicsEffectTable */
-     , (12196,  36,  234881044) /* MutateFilter */;
+VALUES (12196,   1, 0x02000542) /* Setup */
+     , (12196,   3, 0x20000014) /* SoundTable */
+     , (12196,   6, 0x04000BEF) /* PaletteBase */
+     , (12196,   7, 0x10000136) /* ClothingBase */
+     , (12196,   8, 0x06001304) /* Icon */
+     , (12196,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (12196,  36, 0x0E000014) /* MutateFilter */;

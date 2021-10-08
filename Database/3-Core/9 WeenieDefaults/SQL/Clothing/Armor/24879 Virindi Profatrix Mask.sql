@@ -45,12 +45,12 @@ VALUES (24879,   1, 'Virindi Profatrix Mask') /* Name */
      , (24879,  15, 'A black virindi mask taken from the fallen form of a Virindi Profatrix.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24879,   1,   33558415) /* Setup */
-     , (24879,   3,  536870932) /* SoundTable */
-     , (24879,   6,   67108990) /* PaletteBase */
-     , (24879,   7,  268436648) /* ClothingBase */
-     , (24879,   8,  100674853) /* Icon */
-     , (24879,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24879,   1, 0x02000F8F) /* Setup */
+     , (24879,   3, 0x20000014) /* SoundTable */
+     , (24879,   6, 0x0400007E) /* PaletteBase */
+     , (24879,   7, 0x100004A8) /* ClothingBase */
+     , (24879,   8, 0x06002D25) /* Icon */
+     , (24879,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24879,  1485,      2)  /* Impenetrability V */

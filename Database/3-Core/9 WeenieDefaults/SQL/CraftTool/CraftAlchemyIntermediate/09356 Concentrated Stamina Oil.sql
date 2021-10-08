@@ -32,9 +32,9 @@ VALUES (9356,   1, 'Concentrated Stamina Oil') /* Name */
      , (9356,  20, 'Vials of Concentrated Stamina Oil') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9356,   1,   33555967) /* Setup */
-     , (9356,   3,  536870932) /* SoundTable */
-     , (9356,   6,   67111919) /* PaletteBase */
-     , (9356,   7,  268435815) /* ClothingBase */
-     , (9356,   8,  100671589) /* Icon */
-     , (9356,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9356,   1, 0x020005FF) /* Setup */
+     , (9356,   3, 0x20000014) /* SoundTable */
+     , (9356,   6, 0x04000BEF) /* PaletteBase */
+     , (9356,   7, 0x10000167) /* ClothingBase */
+     , (9356,   8, 0x06002065) /* Icon */
+     , (9356,  22, 0x3400002B) /* PhysicsEffectTable */;

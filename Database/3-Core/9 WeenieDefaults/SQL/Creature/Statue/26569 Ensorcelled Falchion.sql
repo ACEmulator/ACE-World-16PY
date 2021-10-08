@@ -63,12 +63,12 @@ VALUES (26569,   1, 'Ensorcelled Falchion') /* Name */
      , (26569,  15, 'A Falchion used by the Falatacot. This blade is sharp, deadly and light.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26569,   1,   33558598) /* Setup */
-     , (26569,   2,  150995273) /* MotionTable */
-     , (26569,   3,  536871052) /* SoundTable */
-     , (26569,   4,  805306398) /* CombatTable */
-     , (26569,   8,  100675773) /* Icon */
-     , (26569,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (26569,   1, 0x02001046) /* Setup */
+     , (26569,   2, 0x09000149) /* MotionTable */
+     , (26569,   3, 0x2000008C) /* SoundTable */
+     , (26569,   4, 0x3000001E) /* CombatTable */
+     , (26569,   8, 0x060030BD) /* Icon */
+     , (26569,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (26569,   1, 380, 0, 0) /* Strength */

@@ -47,12 +47,12 @@ VALUES (22015,   1, 'Pwyll''s Guard') /* Name */
      , (22015,  19, 'Aluvian') /* ItemHeritageGroupRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22015,   1,   33558081) /* Setup */
-     , (22015,   3,  536870932) /* SoundTable */
-     , (22015,   6,   67108990) /* PaletteBase */
-     , (22015,   7,  268436489) /* ClothingBase */
-     , (22015,   8,  100673595) /* Icon */
-     , (22015,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22015,   1, 0x02000E41) /* Setup */
+     , (22015,   3, 0x20000014) /* SoundTable */
+     , (22015,   6, 0x0400007E) /* PaletteBase */
+     , (22015,   7, 0x10000409) /* ClothingBase */
+     , (22015,   8, 0x0600283B) /* Icon */
+     , (22015,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22015,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

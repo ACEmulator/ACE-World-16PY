@@ -33,7 +33,7 @@ VALUES (22445,   1, 'Soft Bandages') /* Name */
      , (22445,  20, 'Bundles of Soft Bandages') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22445,   1,   33555194) /* Setup */
-     , (22445,   6,   67111092) /* PaletteBase */
-     , (22445,   7,  268436507) /* ClothingBase */
-     , (22445,   8,  100673814) /* Icon */;
+VALUES (22445,   1, 0x020002FA) /* Setup */
+     , (22445,   6, 0x040008B4) /* PaletteBase */
+     , (22445,   7, 0x1000041B) /* ClothingBase */
+     , (22445,   8, 0x06002916) /* Icon */;

@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2585,   1, 'Essa Sclavus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2585,   1,   33555608) /* Setup */
-     , (2585,   2,  150995048) /* MotionTable */
-     , (2585,   3,  536870977) /* SoundTable */
-     , (2585,   4,  805306393) /* CombatTable */
-     , (2585,   6,   67111936) /* PaletteBase */
-     , (2585,   7,  268435727) /* ClothingBase */
-     , (2585,   8,  100669120) /* Icon */
-     , (2585,  22,  872415280) /* PhysicsEffectTable */
+VALUES (2585,   1, 0x02000498) /* Setup */
+     , (2585,   2, 0x09000068) /* MotionTable */
+     , (2585,   3, 0x20000041) /* SoundTable */
+     , (2585,   4, 0x30000019) /* CombatTable */
+     , (2585,   6, 0x04000C00) /* PaletteBase */
+     , (2585,   7, 0x1000010F) /* ClothingBase */
+     , (2585,   8, 0x060016C0) /* Icon */
+     , (2585,  22, 0x34000030) /* PhysicsEffectTable */
      , (2585,  32,        169) /* WieldedTreasureType - 
                                    Wield 5x Javelin (320) | Probability: 60.000004%
                                    Wield 4x Djarid (317) | Probability: 40%

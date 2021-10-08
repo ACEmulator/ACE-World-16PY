@@ -59,12 +59,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5687,   1, 'Alfrega the Reedshark') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5687,   1,   33554489) /* Setup */
-     , (5687,   2,  150994970) /* MotionTable */
-     , (5687,   3,  536870928) /* SoundTable */
-     , (5687,   4,  805306378) /* CombatTable */
-     , (5687,   8,  100667939) /* Icon */
-     , (5687,  22,  872415268) /* PhysicsEffectTable */
+VALUES (5687,   1, 0x02000039) /* Setup */
+     , (5687,   2, 0x0900001A) /* MotionTable */
+     , (5687,   3, 0x20000010) /* SoundTable */
+     , (5687,   4, 0x3000000A) /* CombatTable */
+     , (5687,   8, 0x06001223) /* Icon */
+     , (5687,  22, 0x34000024) /* PhysicsEffectTable */
      , (5687,  35,        164) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

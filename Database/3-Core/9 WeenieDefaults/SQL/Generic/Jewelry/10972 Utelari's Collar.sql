@@ -31,12 +31,12 @@ VALUES (10972,   1, 'Utelari''s Collar') /* Name */
      , (10972,  16, 'A spiked collar, smelling faintly of Reedshark.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10972,   1,   33554810) /* Setup */
-     , (10972,   3,  536870932) /* SoundTable */
-     , (10972,   6,   67111919) /* PaletteBase */
-     , (10972,   8,  100671855) /* Icon */
-     , (10972,  22,  872415275) /* PhysicsEffectTable */
-     , (10972,  36,  234881046) /* MutateFilter */;
+VALUES (10972,   1, 0x0200017A) /* Setup */
+     , (10972,   3, 0x20000014) /* SoundTable */
+     , (10972,   6, 0x04000BEF) /* PaletteBase */
+     , (10972,   8, 0x0600216F) /* Icon */
+     , (10972,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (10972,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10972,  1384,      2)  /* Coordination Other VI */

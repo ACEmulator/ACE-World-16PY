@@ -28,8 +28,8 @@ VALUES (6441,   1, 'Well') /* Name */
      , (6441,  14, 'Use an empty flask on the well to fill it with water.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6441,   1,   33554712) /* Setup */
-     , (6441,   3,  536870932) /* SoundTable */
-     , (6441,   8,  100667466) /* Icon */
-     , (6441,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6441,   1, 0x02000118) /* Setup */
+     , (6441,   3, 0x20000014) /* SoundTable */
+     , (6441,   8, 0x0600104A) /* Icon */
+     , (6441,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6441,  28,       1183) /* Spell - Revitalize Other I */;

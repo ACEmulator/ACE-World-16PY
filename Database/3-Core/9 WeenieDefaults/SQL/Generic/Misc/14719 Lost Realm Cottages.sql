@@ -22,5 +22,5 @@ VALUES (14719,   1, 'Lost Realm Cottages') /* Name */
      , (14719,  16, 'Welcome to Lost Realm Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14719,   1,   33557463) /* Setup */
-     , (14719,   8,  100668115) /* Icon */;
+VALUES (14719,   1, 0x02000BD7) /* Setup */
+     , (14719,   8, 0x060012D3) /* Icon */;

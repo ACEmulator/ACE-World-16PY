@@ -45,11 +45,11 @@ VALUES (8514,   1, 'Mistress'' Chest') /* Name */
      , (8514,  16, 'A chest inscribed with arcane glyphs. There appear to be some inscriptions in a cuneiform language along the lid. There is a suspicious glow near the lock.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8514,   1,   33554556) /* Setup */
-     , (8514,   2,  150994948) /* MotionTable */
-     , (8514,   3,  536870945) /* SoundTable */
-     , (8514,   8,  100667424) /* Icon */
-     , (8514,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8514,   1, 0x0200007C) /* Setup */
+     , (8514,   2, 0x09000004) /* MotionTable */
+     , (8514,   3, 0x20000021) /* SoundTable */
+     , (8514,   8, 0x06001020) /* Icon */
+     , (8514,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8514,  28,       1432) /* Spell - Focus Other VI */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

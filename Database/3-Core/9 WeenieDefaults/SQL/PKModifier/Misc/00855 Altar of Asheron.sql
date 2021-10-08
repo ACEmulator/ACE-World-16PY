@@ -28,9 +28,9 @@ VALUES (855,   1, 'Altar of Asheron') /* Name */
      , (855,  26, 'The altar simply remains silent.') /* UsePkServerError */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (855,   1,   33555278) /* Setup */
-     , (855,   2,  150994989) /* MotionTable */
-     , (855,   3,  536870965) /* SoundTable */
-     , (855,   8,  100668239) /* Icon */
-     , (855,  25,  268435537) /* UseTargetSuccessAnimation - Twitch1 */
-     , (855,  26,  268435538) /* UseTargetFailureAnimation - Twitch2 */;
+VALUES (855,   1, 0x0200034E) /* Setup */
+     , (855,   2, 0x0900002D) /* MotionTable */
+     , (855,   3, 0x20000035) /* SoundTable */
+     , (855,   8, 0x0600134F) /* Icon */
+     , (855,  25, 0x10000051) /* UseTargetSuccessAnimation - Twitch1 */
+     , (855,  26, 0x10000052) /* UseTargetFailureAnimation - Twitch2 */;

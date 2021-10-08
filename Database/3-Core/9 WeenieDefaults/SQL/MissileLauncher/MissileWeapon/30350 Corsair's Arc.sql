@@ -38,9 +38,9 @@ VALUES (30350,   1, 'Corsair''s Arc') /* Name */
      , (30350,  16, 'Describe me here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30350,   1,   33554728) /* Setup */
-     , (30350,   3,  536870932) /* SoundTable */
-     , (30350,   6,   67111919) /* PaletteBase */
-     , (30350,   7,  268435759) /* ClothingBase */
-     , (30350,   8,  100668815) /* Icon */
-     , (30350,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30350,   1, 0x02000128) /* Setup */
+     , (30350,   3, 0x20000014) /* SoundTable */
+     , (30350,   6, 0x04000BEF) /* PaletteBase */
+     , (30350,   7, 0x1000012F) /* ClothingBase */
+     , (30350,   8, 0x0600158F) /* Icon */
+     , (30350,  22, 0x3400002B) /* PhysicsEffectTable */;

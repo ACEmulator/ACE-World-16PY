@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23570,   1, 'Virindi Paradox') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23570,   1,   33558343) /* Setup */
-     , (23570,   2,  150994984) /* MotionTable */
-     , (23570,   3,  536870930) /* SoundTable */
-     , (23570,   4,  805306381) /* CombatTable */
-     , (23570,   6,   67114250) /* PaletteBase */
-     , (23570,   7,  268436609) /* ClothingBase */
-     , (23570,   8,  100674323) /* Icon */
-     , (23570,  22,  872415273) /* PhysicsEffectTable */
+VALUES (23570,   1, 0x02000F47) /* Setup */
+     , (23570,   2, 0x09000028) /* MotionTable */
+     , (23570,   3, 0x20000012) /* SoundTable */
+     , (23570,   4, 0x3000000D) /* CombatTable */
+     , (23570,   6, 0x0400150A) /* PaletteBase */
+     , (23570,   7, 0x10000481) /* ClothingBase */
+     , (23570,   8, 0x06002B13) /* Icon */
+     , (23570,  22, 0x34000029) /* PhysicsEffectTable */
      , (23570,  35,         26) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

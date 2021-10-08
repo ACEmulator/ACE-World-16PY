@@ -34,10 +34,10 @@ VALUES (11824,   1, 'Gharu''ndim Gem of Worth') /* Name */
      , (11824,  16, 'This is a gem of significant value and usefulness.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11824,   1,   33554809) /* Setup */
-     , (11824,   3,  536870932) /* SoundTable */
-     , (11824,   6,   67111919) /* PaletteBase */
-     , (11824,   7,  268435723) /* ClothingBase */
-     , (11824,   8,  100672150) /* Icon */
-     , (11824,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11824,   1, 0x02000179) /* Setup */
+     , (11824,   3, 0x20000014) /* SoundTable */
+     , (11824,   6, 0x04000BEF) /* PaletteBase */
+     , (11824,   7, 0x1000010B) /* ClothingBase */
+     , (11824,   8, 0x06002296) /* Icon */
+     , (11824,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11824,  28,       2480) /* Spell - Free Trip to the Gharun'dim Casino */;

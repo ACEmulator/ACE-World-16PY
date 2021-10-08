@@ -29,10 +29,10 @@ VALUES (27435,   1, 'Large Golden Coin') /* Name */
      , (27435,  33, 'CoinAttachmentPickup') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27435,   1,   33554802) /* Setup */
-     , (27435,   6,   67111919) /* PaletteBase */
-     , (27435,   7,  268435747) /* ClothingBase */
-     , (27435,   8,  100676408) /* Icon */;
+VALUES (27435,   1, 0x02000172) /* Setup */
+     , (27435,   6, 0x04000BEF) /* PaletteBase */
+     , (27435,   7, 0x10000123) /* ClothingBase */
+     , (27435,   8, 0x06003338) /* Icon */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (27435, 10 /* PickUp */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

@@ -40,10 +40,10 @@ VALUES (6778,   1, 'Repaired Haft') /* Name */
      , (6778,  33, 'crimsonrepairedhaft') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6778,   1,   33556555) /* Setup */
-     , (6778,   3,  536870932) /* SoundTable */
-     , (6778,   6,   67111919) /* PaletteBase */
-     , (6778,   7,  268435987) /* ClothingBase */
-     , (6778,   8,  100669105) /* Icon */
-     , (6778,  22,  872415275) /* PhysicsEffectTable */
-     , (6778,  36,  234881044) /* MutateFilter */;
+VALUES (6778,   1, 0x0200084B) /* Setup */
+     , (6778,   3, 0x20000014) /* SoundTable */
+     , (6778,   6, 0x04000BEF) /* PaletteBase */
+     , (6778,   7, 0x10000213) /* ClothingBase */
+     , (6778,   8, 0x060016B1) /* Icon */
+     , (6778,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (6778,  36, 0x0E000014) /* MutateFilter */;

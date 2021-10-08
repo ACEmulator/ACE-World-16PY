@@ -24,7 +24,7 @@ VALUES (20253,   1, 'Scroll of Might of the 5 Mules') /* Name */
      , (20253,  15, 'When learned, this spell increases the target''s Strength by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20253,   1,   33554826) /* Setup */
-     , (20253,   8,  100676474) /* Icon */
-     , (20253,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20253,   1, 0x0200018A) /* Setup */
+     , (20253,   8, 0x0600337A) /* Icon */
+     , (20253,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20253,  28,       2086) /* Spell - Might of the 5 Mules */;

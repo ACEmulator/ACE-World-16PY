@@ -48,10 +48,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28996,   1, 'Burun Slaying Quarterstaff') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28996,   1,   33558927) /* Setup */
-     , (28996,   3,  536870932) /* SoundTable */
-     , (28996,   8,  100676983) /* Icon */
-     , (28996,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28996,   1, 0x0200118F) /* Setup */
+     , (28996,   3, 0x20000014) /* SoundTable */
+     , (28996,   8, 0x06003577) /* Icon */
+     , (28996,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28996,  1604,      2)  /* Aura of Defender Self V */

@@ -26,8 +26,8 @@ VALUES (29783,   1, 'Muggy Font') /* Name */
      , (29783,  37, 'OnBrowerkQuest') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29783,   1,   33556642) /* Setup */
-     , (29783,   8,  100667499) /* Icon */;
+VALUES (29783,   1, 0x020008A2) /* Setup */
+     , (29783,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (29783, 2, 0x017503D3, 50, -50, 0, 1, 0, 0, -0) /* Destination */

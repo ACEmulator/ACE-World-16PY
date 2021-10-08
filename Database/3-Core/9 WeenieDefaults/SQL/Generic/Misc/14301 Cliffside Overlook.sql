@@ -22,5 +22,5 @@ VALUES (14301,   1, 'Cliffside Overlook') /* Name */
      , (14301,  16, 'Welcome to Cliffside Overlook') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14301,   1,   33557463) /* Setup */
-     , (14301,   8,  100668115) /* Icon */;
+VALUES (14301,   1, 0x02000BD7) /* Setup */
+     , (14301,   8, 0x060012D3) /* Icon */;

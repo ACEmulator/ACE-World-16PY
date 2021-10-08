@@ -22,5 +22,5 @@ VALUES (19187,   1, 'Shaky Ledge Cottages') /* Name */
      , (19187,  16, 'Welcome to Shaky Ledge Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19187,   1,   33557463) /* Setup */
-     , (19187,   8,  100668115) /* Icon */;
+VALUES (19187,   1, 0x02000BD7) /* Setup */
+     , (19187,   8, 0x060012D3) /* Icon */;

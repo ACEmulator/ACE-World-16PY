@@ -62,12 +62,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23990,   1, 'Olthoi Swarm Eviscerator') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23990,   1,   33557046) /* Setup */
-     , (23990,   2,  150995130) /* MotionTable */
-     , (23990,   3,  536871036) /* SoundTable */
-     , (23990,   4,  805306395) /* CombatTable */
-     , (23990,   8,  100667623) /* Icon */
-     , (23990,  22,  872415378) /* PhysicsEffectTable */
+VALUES (23990,   1, 0x02000A36) /* Setup */
+     , (23990,   2, 0x090000BA) /* MotionTable */
+     , (23990,   3, 0x2000007C) /* SoundTable */
+     , (23990,   4, 0x3000001B) /* CombatTable */
+     , (23990,   8, 0x060010E7) /* Icon */
+     , (23990,  22, 0x34000092) /* PhysicsEffectTable */
      , (23990,  30,         86) /* PhysicsScript - BreatheAcid */
      , (23990,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 

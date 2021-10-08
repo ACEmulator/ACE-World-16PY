@@ -24,7 +24,7 @@ VALUES (20434,   1, 'Scroll of Celdiseth''s Searing') /* Name */
      , (20434,  15, 'When learned, this spell shoots five streams of acid toward the target. Each stream does 40-80 points of acid damage to the first thing it hits.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20434,   1,   33554826) /* Setup */
-     , (20434,   8,  100677026) /* Icon */
-     , (20434,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20434,   1, 0x0200018A) /* Setup */
+     , (20434,   8, 0x060035A2) /* Icon */
+     , (20434,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20434,  28,       2123) /* Spell - Celdiseth's Searing */;

@@ -27,8 +27,8 @@ VALUES (9674,   1, 'Exploration Society Token') /* Name */
      , (9674,  16, 'An introductory token of the Dereth Exploration Society.  Present this to Bach Lien at the southeast Rithwic Explorer Society Outpost.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9674,   1,   33554680) /* Setup */
-     , (9674,   3,  536870932) /* SoundTable */
-     , (9674,   8,  100667330) /* Icon */
-     , (9674,  22,  872415275) /* PhysicsEffectTable */
-     , (9674,  36,  234881046) /* MutateFilter */;
+VALUES (9674,   1, 0x020000F8) /* Setup */
+     , (9674,   3, 0x20000014) /* SoundTable */
+     , (9674,   8, 0x06000FC2) /* Icon */
+     , (9674,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (9674,  36, 0x0E000016) /* MutateFilter */;

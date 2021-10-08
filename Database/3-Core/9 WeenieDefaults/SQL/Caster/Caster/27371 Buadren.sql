@@ -31,10 +31,10 @@ VALUES (27371,   1, 'Buadren') /* Name */
      , (27371,  16, 'A beautifully carved buadren. Fuse this with a triple totem to create one of Palenqual''s living weapons.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27371,   1,   33558670) /* Setup */
-     , (27371,   3,  536870932) /* SoundTable */
-     , (27371,   6,   67113336) /* PaletteBase */
-     , (27371,   7,  268436252) /* ClothingBase */
-     , (27371,   8,  100676358) /* Icon */
-     , (27371,  22,  872415275) /* PhysicsEffectTable */
-     , (27371,  27, 1073741873) /* UseUserAnimation - MagicHeal */;
+VALUES (27371,   1, 0x0200108E) /* Setup */
+     , (27371,   3, 0x20000014) /* SoundTable */
+     , (27371,   6, 0x04001178) /* PaletteBase */
+     , (27371,   7, 0x1000031C) /* ClothingBase */
+     , (27371,   8, 0x06003306) /* Icon */
+     , (27371,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27371,  27, 0x40000031) /* UseUserAnimation - MagicHeal */;

@@ -70,11 +70,11 @@ VALUES (4540,   1, 'Bu-Chi Long the Armorer') /* Name */
      , (4540,  24, 'Lin') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4540,   1,   33554433) /* Setup */
-     , (4540,   2,  150994945) /* MotionTable */
-     , (4540,   3,  536870913) /* SoundTable */
-     , (4540,   4,  805306368) /* CombatTable */
-     , (4540,   8,  100667446) /* Icon */;
+VALUES (4540,   1, 0x02000001) /* Setup */
+     , (4540,   2, 0x09000001) /* MotionTable */
+     , (4540,   3, 0x20000001) /* SoundTable */
+     , (4540,   4, 0x30000000) /* CombatTable */
+     , (4540,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4540,   1, 110, 0, 0) /* Strength */

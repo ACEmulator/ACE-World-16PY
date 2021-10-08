@@ -53,12 +53,12 @@ VALUES (27175,   1, 'Bladed Bow of Impaling') /* Name */
      , (27175,  16, 'This Falatacot bow was likely used in hunting or combat, bladed edges appear to have allowed the bow to be used in close-combat as well.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27175,   1,   33558633) /* Setup */
-     , (27175,   3,  536870932) /* SoundTable */
-     , (27175,   6,   67114956) /* PaletteBase */
-     , (27175,   7,  268436792) /* ClothingBase */
-     , (27175,   8,  100675922) /* Icon */
-     , (27175,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27175,   1, 0x02001069) /* Setup */
+     , (27175,   3, 0x20000014) /* SoundTable */
+     , (27175,   6, 0x040017CC) /* PaletteBase */
+     , (27175,   7, 0x10000538) /* ClothingBase */
+     , (27175,   8, 0x06003152) /* Icon */
+     , (27175,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27175,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

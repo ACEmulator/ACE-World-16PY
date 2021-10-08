@@ -63,12 +63,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11902,   1, 'Hebian-To Camp Major') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11902,   1,   33554496) /* Setup */
-     , (11902,   2,  150994954) /* MotionTable */
-     , (11902,   3,  536870931) /* SoundTable */
-     , (11902,   4,  805306380) /* CombatTable */
-     , (11902,   8,  100667452) /* Icon */
-     , (11902,  22,  872415270) /* PhysicsEffectTable */
+VALUES (11902,   1, 0x02000040) /* Setup */
+     , (11902,   2, 0x0900000A) /* MotionTable */
+     , (11902,   3, 0x20000013) /* SoundTable */
+     , (11902,   4, 0x3000000C) /* CombatTable */
+     , (11902,   8, 0x0600103C) /* Icon */
+     , (11902,  22, 0x34000026) /* PhysicsEffectTable */
      , (11902,  31,      11850) /* LinkedPortalOne - Hebian-To Middle Guard Camp Portal */
      , (11902,  32,        215) /* WieldedTreasureType - 
                                    Wield 6x Throwing Axe (304) | Probability: 10%

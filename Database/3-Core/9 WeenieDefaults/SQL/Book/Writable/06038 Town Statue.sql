@@ -26,8 +26,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6038,   1, 'Town Statue') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6038,   1,   33556034) /* Setup */
-     , (6038,   8,  100670208) /* Icon */;
+VALUES (6038,   1, 0x02000642) /* Setup */
+     , (6038,   8, 0x06001B00) /* Icon */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (6038, 1, 1000);

@@ -31,9 +31,9 @@ VALUES (14527,   1, 'Jewel of Acid and Lightning') /* Name */
      , (14527,  16, 'A jewel containing the energies of acid and lightning.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14527,   1,   33556407) /* Setup */
-     , (14527,   3,  536870932) /* SoundTable */
-     , (14527,   6,   67111919) /* PaletteBase */
-     , (14527,   7,  268435965) /* ClothingBase */
-     , (14527,   8,  100672516) /* Icon */
-     , (14527,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14527,   1, 0x020007B7) /* Setup */
+     , (14527,   3, 0x20000014) /* SoundTable */
+     , (14527,   6, 0x04000BEF) /* PaletteBase */
+     , (14527,   7, 0x100001FD) /* ClothingBase */
+     , (14527,   8, 0x06002404) /* Icon */
+     , (14527,  22, 0x3400002B) /* PhysicsEffectTable */;

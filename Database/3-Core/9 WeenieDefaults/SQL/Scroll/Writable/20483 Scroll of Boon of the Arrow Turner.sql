@@ -24,7 +24,7 @@ VALUES (20483,   1, 'Scroll of Boon of the Arrow Turner') /* Name */
      , (20483,  15, 'When learned, this spell reduces damage the target takes from Piercing by 65%.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20483,   1,   33554826) /* Setup */
-     , (20483,   8,  100676953) /* Icon */
-     , (20483,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20483,   1, 0x0200018A) /* Setup */
+     , (20483,   8, 0x06003559) /* Icon */
+     , (20483,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20483,  28,       2160) /* Spell - Boon of the Arrow Turner */;

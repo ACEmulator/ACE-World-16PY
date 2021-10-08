@@ -23,6 +23,6 @@ VALUES (28908,   1, 'Hollow Arrowshaft') /* Name */
      , (28908,  16, 'This arrowshaft has been expertly hollowed out with a whittling knife.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28908,   1,   33557505) /* Setup */
-     , (28908,   8,  100670015) /* Icon */
-     , (28908,  50,  100677048) /* IconOverlay */;
+VALUES (28908,   1, 0x02000C01) /* Setup */
+     , (28908,   8, 0x06001A3F) /* Icon */
+     , (28908,  50, 0x060035B8) /* IconOverlay */;

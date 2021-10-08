@@ -31,7 +31,7 @@ VALUES (24738,   1, 'Crucible with Cadmia Potion') /* Name */
      , (24738,  20, 'Crucibles with Cadmia Potion') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24738,   1,   33555966) /* Setup */
-     , (24738,   3,  536870932) /* SoundTable */
-     , (24738,   8,  100674466) /* Icon */
-     , (24738,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24738,   1, 0x020005FE) /* Setup */
+     , (24738,   3, 0x20000014) /* SoundTable */
+     , (24738,   8, 0x06002BA2) /* Icon */
+     , (24738,  22, 0x3400002B) /* PhysicsEffectTable */;

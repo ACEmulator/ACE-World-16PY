@@ -30,10 +30,10 @@ VALUES (30169,   1, 'Ideograph of Slashing Protection') /* Name */
      , (30169,  16, 'A lovely template for a rare magical gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30169,   1,   33554809) /* Setup */
-     , (30169,   3,  536870932) /* SoundTable */
-     , (30169,   6,   67111919) /* PaletteBase */
-     , (30169,   7,  268435723) /* ClothingBase */
-     , (30169,   8,  100674739) /* Icon */
-     , (30169,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30169,   1, 0x02000179) /* Setup */
+     , (30169,   3, 0x20000014) /* SoundTable */
+     , (30169,   6, 0x04000BEF) /* PaletteBase */
+     , (30169,   7, 0x1000010B) /* ClothingBase */
+     , (30169,   8, 0x06002CB3) /* Icon */
+     , (30169,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30169,  28,       2151) /* Spell - Blessing of the Blade Turner */;

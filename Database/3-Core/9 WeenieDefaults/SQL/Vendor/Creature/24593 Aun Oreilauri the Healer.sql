@@ -75,13 +75,13 @@ VALUES (24593,   1, 'Aun Oreilauri the Healer') /* Name */
      , (24593,  24, 'Candeth Keep') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24593,   1,   33557117) /* Setup */
-     , (24593,   2,  150994954) /* MotionTable */
-     , (24593,   3,  536870931) /* SoundTable */
-     , (24593,   4,  805306380) /* CombatTable */
-     , (24593,   6,   67113280) /* PaletteBase */
-     , (24593,   7,  268436193) /* ClothingBase */
-     , (24593,   8,  100671756) /* Icon */;
+VALUES (24593,   1, 0x02000A7D) /* Setup */
+     , (24593,   2, 0x0900000A) /* MotionTable */
+     , (24593,   3, 0x20000013) /* SoundTable */
+     , (24593,   4, 0x3000000C) /* CombatTable */
+     , (24593,   6, 0x04001140) /* PaletteBase */
+     , (24593,   7, 0x100002E1) /* ClothingBase */
+     , (24593,   8, 0x0600210C) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24593,   1, 111, 0, 0) /* Strength */

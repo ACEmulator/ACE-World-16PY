@@ -49,11 +49,11 @@ VALUES (27749,   1, 'Barbed Crop') /* Name */
      , (27749,  16, 'A vicious-looking riding crop, made from the skin of an ebon gromnie. This was wielded by the Hea huntmaster Tuperea when disciplining his pack of hunting reedsharks, although it doesn''t look to have been used much. There is stitching on the handle which reads, "Crafted from the hide of my first gromnie prey, snared in my first hunt upon the plateau. With this, I am accepted into Aranpuh''s new order. Soon we shall return to the Hea xuta in glory." - Tupepuh') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27749,   1,   33557226) /* Setup */
-     , (27749,   3,  536870932) /* SoundTable */
-     , (27749,   8,  100671856) /* Icon */
-     , (27749,  22,  872415275) /* PhysicsEffectTable */
-     , (27749,  36,  234881044) /* MutateFilter */;
+VALUES (27749,   1, 0x02000AEA) /* Setup */
+     , (27749,   3, 0x20000014) /* SoundTable */
+     , (27749,   8, 0x06002170) /* Icon */
+     , (27749,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27749,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27749,  2411,      2)  /* Discipline */

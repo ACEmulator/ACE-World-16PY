@@ -30,9 +30,9 @@ VALUES (27793,   1, 'Blood-soaked Cord') /* Name */
      , (27793,  16, 'A braid of tusker fur, doused with the black blood of fiends.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27793,   1,   33554817) /* Setup */
-     , (27793,   3,  536870932) /* SoundTable */
-     , (27793,   6,   67111919) /* PaletteBase */
-     , (27793,   7,  268435832) /* ClothingBase */
-     , (27793,   8,  100676573) /* Icon */
-     , (27793,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27793,   1, 0x02000181) /* Setup */
+     , (27793,   3, 0x20000014) /* SoundTable */
+     , (27793,   6, 0x04000BEF) /* PaletteBase */
+     , (27793,   7, 0x10000178) /* ClothingBase */
+     , (27793,   8, 0x060033DD) /* Icon */
+     , (27793,  22, 0x3400002B) /* PhysicsEffectTable */;

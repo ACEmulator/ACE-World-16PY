@@ -60,14 +60,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7084,   1, 'Hoary Armoredillo') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7084,   1,   33554436) /* Setup */
-     , (7084,   2,  150994972) /* MotionTable */
-     , (7084,   3,  536870915) /* SoundTable */
-     , (7084,   4,  805306382) /* CombatTable */
-     , (7084,   6,   67109301) /* PaletteBase */
-     , (7084,   7,  268436612) /* ClothingBase */
-     , (7084,   8,  100667935) /* Icon */
-     , (7084,  22,  872415253) /* PhysicsEffectTable */
+VALUES (7084,   1, 0x02000004) /* Setup */
+     , (7084,   2, 0x0900001C) /* MotionTable */
+     , (7084,   3, 0x20000003) /* SoundTable */
+     , (7084,   4, 0x3000000E) /* CombatTable */
+     , (7084,   6, 0x040001B5) /* PaletteBase */
+     , (7084,   7, 0x10000484) /* ClothingBase */
+     , (7084,   8, 0x0600121F) /* Icon */
+     , (7084,  22, 0x34000015) /* PhysicsEffectTable */
      , (7084,  35,        456) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -25,9 +25,9 @@ VALUES (8223,   1, 'Xarabydun Swamp Rat Tail') /* Name */
      , (8223,  15, 'The tail of a Swamp Rat found in Xarabydun, which may be turned into the Bey of that town for 2500 experience points and a reward.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8223,   1,   33554817) /* Setup */
-     , (8223,   3,  536870932) /* SoundTable */
-     , (8223,   6,   67111919) /* PaletteBase */
-     , (8223,   7,  268435832) /* ClothingBase */
-     , (8223,   8,  100671118) /* Icon */
-     , (8223,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8223,   1, 0x02000181) /* Setup */
+     , (8223,   3, 0x20000014) /* SoundTable */
+     , (8223,   6, 0x04000BEF) /* PaletteBase */
+     , (8223,   7, 0x10000178) /* ClothingBase */
+     , (8223,   8, 0x06001E8E) /* Icon */
+     , (8223,  22, 0x3400002B) /* PhysicsEffectTable */;

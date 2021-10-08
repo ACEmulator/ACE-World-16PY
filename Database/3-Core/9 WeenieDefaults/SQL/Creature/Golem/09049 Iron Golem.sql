@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9049,   1, 'Iron Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9049,   1,   33556426) /* Setup */
-     , (9049,   2,  150995073) /* MotionTable */
-     , (9049,   3,  536870933) /* SoundTable */
-     , (9049,   4,  805306376) /* CombatTable */
-     , (9049,   6,   67112809) /* PaletteBase */
-     , (9049,   7,  268435981) /* ClothingBase */
-     , (9049,   8,  100667940) /* Icon */
-     , (9049,  22,  872415323) /* PhysicsEffectTable */
+VALUES (9049,   1, 0x020007CA) /* Setup */
+     , (9049,   2, 0x09000081) /* MotionTable */
+     , (9049,   3, 0x20000015) /* SoundTable */
+     , (9049,   4, 0x30000008) /* CombatTable */
+     , (9049,   6, 0x04000F69) /* PaletteBase */
+     , (9049,   7, 0x1000020D) /* ClothingBase */
+     , (9049,   8, 0x06001224) /* Icon */
+     , (9049,  22, 0x3400005B) /* PhysicsEffectTable */
      , (9049,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

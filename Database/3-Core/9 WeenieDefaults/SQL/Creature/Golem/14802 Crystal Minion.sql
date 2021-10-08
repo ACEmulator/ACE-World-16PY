@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14802,   1, 'Crystal Minion') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14802,   1,   33555610) /* Setup */
-     , (14802,   2,  150995049) /* MotionTable */
-     , (14802,   3,  536870975) /* SoundTable */
-     , (14802,   4,  805306396) /* CombatTable */
-     , (14802,   6,   67109305) /* PaletteBase */
-     , (14802,   7,  268436350) /* ClothingBase */
-     , (14802,   8,  100669123) /* Icon */
-     , (14802,  22,  872415351) /* PhysicsEffectTable */
+VALUES (14802,   1, 0x0200049A) /* Setup */
+     , (14802,   2, 0x09000069) /* MotionTable */
+     , (14802,   3, 0x2000003F) /* SoundTable */
+     , (14802,   4, 0x3000001C) /* CombatTable */
+     , (14802,   6, 0x040001B9) /* PaletteBase */
+     , (14802,   7, 0x1000037E) /* ClothingBase */
+     , (14802,   8, 0x060016C3) /* Icon */
+     , (14802,  22, 0x34000077) /* PhysicsEffectTable */
      , (14802,  35,        397) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

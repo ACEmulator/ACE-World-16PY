@@ -66,12 +66,12 @@ VALUES (22491,   1, 'Statue of Greedy Wishes') /* Name */
      , (22491,  15, 'Warning: My reward will fill you to the brim.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22491,   1,   33558124) /* Setup */
-     , (22491,   2,  150995147) /* MotionTable */
-     , (22491,   3,  536871052) /* SoundTable */
-     , (22491,   4,  805306379) /* CombatTable */
-     , (22491,   8,  100673831) /* Icon */
-     , (22491,  22,  872415271) /* PhysicsEffectTable */;
+VALUES (22491,   1, 0x02000E6C) /* Setup */
+     , (22491,   2, 0x090000CB) /* MotionTable */
+     , (22491,   3, 0x2000008C) /* SoundTable */
+     , (22491,   4, 0x3000000B) /* CombatTable */
+     , (22491,   8, 0x06002927) /* Icon */
+     , (22491,  22, 0x34000027) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22491,   1, 380, 0, 0) /* Strength */

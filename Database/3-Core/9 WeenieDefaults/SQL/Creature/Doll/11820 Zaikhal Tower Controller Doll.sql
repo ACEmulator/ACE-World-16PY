@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11820,   1, 'Zaikhal Tower Controller Doll') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11820,   1,   33556996) /* Setup */
-     , (11820,   2,  150994984) /* MotionTable */
-     , (11820,   3,  536871022) /* SoundTable */
-     , (11820,   4,  805306416) /* CombatTable */
-     , (11820,   6,   67113150) /* PaletteBase */
-     , (11820,   7,  268436148) /* ClothingBase */
-     , (11820,   8,  100671421) /* Icon */
-     , (11820,  22,  872415373) /* PhysicsEffectTable */
+VALUES (11820,   1, 0x02000A04) /* Setup */
+     , (11820,   2, 0x09000028) /* MotionTable */
+     , (11820,   3, 0x2000006E) /* SoundTable */
+     , (11820,   4, 0x30000030) /* CombatTable */
+     , (11820,   6, 0x040010BE) /* PaletteBase */
+     , (11820,   7, 0x100002B4) /* ClothingBase */
+     , (11820,   8, 0x06001FBD) /* Icon */
+     , (11820,  22, 0x3400008D) /* PhysicsEffectTable */
      , (11820,  30,         87) /* PhysicsScript - BreatheLightning */
      , (11820,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 

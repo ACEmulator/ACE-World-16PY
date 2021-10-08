@@ -65,12 +65,12 @@ VALUES (28095,   1, 'King Toad Idol') /* Name */
      , (28095,  16, 'A foul smelling creation of muck and shoddy craftsmanship. Flies and other insects make their home within the porous structure of the monstrous statue.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28095,   1,   33558826) /* Setup */
-     , (28095,   2,  150995306) /* MotionTable */
-     , (28095,   3,  536871052) /* SoundTable */
-     , (28095,   4,  805306398) /* CombatTable */
-     , (28095,   8,  100676736) /* Icon */
-     , (28095,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (28095,   1, 0x0200112A) /* Setup */
+     , (28095,   2, 0x0900016A) /* MotionTable */
+     , (28095,   3, 0x2000008C) /* SoundTable */
+     , (28095,   4, 0x3000001E) /* CombatTable */
+     , (28095,   8, 0x06003480) /* Icon */
+     , (28095,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28095,   1, 380, 0, 0) /* Strength */

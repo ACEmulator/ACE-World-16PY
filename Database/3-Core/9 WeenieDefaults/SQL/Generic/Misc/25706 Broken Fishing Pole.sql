@@ -27,12 +27,12 @@ VALUES (25706,   1, 'Broken Fishing Pole') /* Name */
      , (25706,  33, 'PoleNoir1PickUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25706,   1,   33558280) /* Setup */
-     , (25706,   3,  536870932) /* SoundTable */
-     , (25706,   6,   67111919) /* PaletteBase */
-     , (25706,   7,  268435795) /* ClothingBase */
-     , (25706,   8,  100674232) /* Icon */
-     , (25706,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25706,   1, 0x02000F08) /* Setup */
+     , (25706,   3, 0x20000014) /* SoundTable */
+     , (25706,   6, 0x04000BEF) /* PaletteBase */
+     , (25706,   7, 0x10000153) /* ClothingBase */
+     , (25706,   8, 0x06002AB8) /* Icon */
+     , (25706,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (25706, 25 /* Wield */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

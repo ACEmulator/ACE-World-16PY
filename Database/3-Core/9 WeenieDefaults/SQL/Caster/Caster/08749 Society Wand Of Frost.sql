@@ -32,13 +32,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8749,   1, 'Society Wand Of Frost') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8749,   1,   33558231) /* Setup */
-     , (8749,   3,  536870932) /* SoundTable */
-     , (8749,   6,   67111919) /* PaletteBase */
-     , (8749,   7,  268436550) /* ClothingBase */
-     , (8749,   8,  100674105) /* Icon */
-     , (8749,  22,  872415275) /* PhysicsEffectTable */
-     , (8749,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (8749,   1, 0x02000ED7) /* Setup */
+     , (8749,   3, 0x20000014) /* SoundTable */
+     , (8749,   6, 0x04000BEF) /* PaletteBase */
+     , (8749,   7, 0x10000446) /* ClothingBase */
+     , (8749,   8, 0x06002A39) /* Icon */
+     , (8749,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8749,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (8749,  28,         70) /* Spell - Frost Bolt II */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

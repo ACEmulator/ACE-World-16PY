@@ -38,9 +38,9 @@ VALUES (15887,   1, 'Bronze Cestus') /* Name */
      , (15887,  33, 'CestusStatuePickUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15887,   1,   33555997) /* Setup */
-     , (15887,   3,  536870932) /* SoundTable */
-     , (15887,   6,   67111919) /* PaletteBase */
-     , (15887,   7,  268435829) /* ClothingBase */
-     , (15887,   8,  100670016) /* Icon */
-     , (15887,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15887,   1, 0x0200061D) /* Setup */
+     , (15887,   3, 0x20000014) /* SoundTable */
+     , (15887,   6, 0x04000BEF) /* PaletteBase */
+     , (15887,   7, 0x10000175) /* ClothingBase */
+     , (15887,   8, 0x06001A40) /* Icon */
+     , (15887,  22, 0x3400002B) /* PhysicsEffectTable */;

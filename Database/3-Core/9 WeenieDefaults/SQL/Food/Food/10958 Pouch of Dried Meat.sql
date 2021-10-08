@@ -31,7 +31,7 @@ VALUES (10958,   1, 'Pouch of Dried Meat') /* Name */
      , (10958,  16, 'A pouch full of various dried meats. The pieces seem to be carved in the likenesses of chicken drumsticks, steaks, and fish.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10958,   1,   33554770) /* Setup */
-     , (10958,   3,  536870932) /* SoundTable */
-     , (10958,   8,  100671847) /* Icon */
-     , (10958,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (10958,   1, 0x02000152) /* Setup */
+     , (10958,   3, 0x20000014) /* SoundTable */
+     , (10958,   8, 0x06002167) /* Icon */
+     , (10958,  22, 0x3400002B) /* PhysicsEffectTable */;

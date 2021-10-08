@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1605,   1, 'Auroch Fire Yearling') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1605,   1,   33555220) /* Setup */
-     , (1605,   2,  150994969) /* MotionTable */
-     , (1605,   3,  536870916) /* SoundTable */
-     , (1605,   4,  805306388) /* CombatTable */
-     , (1605,   6,   67109302) /* PaletteBase */
-     , (1605,   7,  268435569) /* ClothingBase */
-     , (1605,   8,  100667936) /* Icon */
-     , (1605,  22,  872415254) /* PhysicsEffectTable */
+VALUES (1605,   1, 0x02000314) /* Setup */
+     , (1605,   2, 0x09000019) /* MotionTable */
+     , (1605,   3, 0x20000004) /* SoundTable */
+     , (1605,   4, 0x30000014) /* CombatTable */
+     , (1605,   6, 0x040001B6) /* PaletteBase */
+     , (1605,   7, 0x10000071) /* ClothingBase */
+     , (1605,   8, 0x06001220) /* Icon */
+     , (1605,  22, 0x34000016) /* PhysicsEffectTable */
      , (1605,  30,         84) /* PhysicsScript - BreatheFlame */
      , (1605,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 

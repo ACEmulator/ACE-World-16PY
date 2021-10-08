@@ -26,9 +26,9 @@ VALUES (19195,   1, 'Nullified Statue of Ben Ten') /* Name */
      , (19195,  15, 'This nullified shell is all that remains of the living Statue of Ben Ten that once threatened our peaceful town. Destroyed through the sole efforts of the citizens of Dereth, it remains as a testament to their valor. This land is yours now.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19195,   1,   33554510) /* Setup */
-     , (19195,   2,  150995175) /* MotionTable */
-     , (19195,   3,  536871052) /* SoundTable */
-     , (19195,   6,   67108990) /* PaletteBase */
-     , (19195,   7,  268436345) /* ClothingBase */
-     , (19195,   8,  100667446) /* Icon */;
+VALUES (19195,   1, 0x0200004E) /* Setup */
+     , (19195,   2, 0x090000E7) /* MotionTable */
+     , (19195,   3, 0x2000008C) /* SoundTable */
+     , (19195,   6, 0x0400007E) /* PaletteBase */
+     , (19195,   7, 0x10000379) /* ClothingBase */
+     , (19195,   8, 0x06001036) /* Icon */;

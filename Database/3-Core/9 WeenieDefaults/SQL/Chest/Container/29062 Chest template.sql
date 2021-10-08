@@ -31,8 +31,8 @@ VALUES (29062,   1, 'Chest template') /* Name */
      , (29062,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29062,   1,   33554556) /* Setup */
-     , (29062,   2,  150994948) /* MotionTable */
-     , (29062,   3,  536870945) /* SoundTable */
-     , (29062,   8,  100667426) /* Icon */
-     , (29062,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29062,   1, 0x0200007C) /* Setup */
+     , (29062,   2, 0x09000004) /* MotionTable */
+     , (29062,   3, 0x20000021) /* SoundTable */
+     , (29062,   8, 0x06001022) /* Icon */
+     , (29062,  22, 0x3400002B) /* PhysicsEffectTable */;

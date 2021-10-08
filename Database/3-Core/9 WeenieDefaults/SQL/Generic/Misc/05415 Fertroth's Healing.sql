@@ -22,5 +22,5 @@ VALUES (5415,   1, 'Fertroth''s Healing') /* Name */
      , (5415,  16, 'Fertroth''s Healing') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5415,   1,   33555984) /* Setup */
-     , (5415,   8,  100668115) /* Icon */;
+VALUES (5415,   1, 0x02000610) /* Setup */
+     , (5415,   8, 0x060012D3) /* Icon */;

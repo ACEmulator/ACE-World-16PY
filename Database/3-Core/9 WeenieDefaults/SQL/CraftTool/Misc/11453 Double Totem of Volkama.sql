@@ -37,7 +37,7 @@ VALUES (11453,   1, 'Double Totem of Volkama') /* Name */
      , (11453,  16, 'A double totem representing Volkama. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11453,   1,   33557269) /* Setup */
-     , (11453,   3,  536870932) /* SoundTable */
-     , (11453,   8,  100671992) /* Icon */
-     , (11453,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11453,   1, 0x02000B15) /* Setup */
+     , (11453,   3, 0x20000014) /* SoundTable */
+     , (11453,   8, 0x060021F8) /* Icon */
+     , (11453,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -49,10 +49,10 @@ VALUES (21913,   1, 'Raudaloi') /* Name */
      , (21913,  15, 'A sword constructed of obsidian and cerulean colored stone.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21913,   1,   33557967) /* Setup */
-     , (21913,   3,  536870932) /* SoundTable */
-     , (21913,   8,  100673494) /* Icon */
-     , (21913,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21913,   1, 0x02000DCF) /* Setup */
+     , (21913,   3, 0x20000014) /* SoundTable */
+     , (21913,   8, 0x060027D6) /* Icon */
+     , (21913,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21913,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

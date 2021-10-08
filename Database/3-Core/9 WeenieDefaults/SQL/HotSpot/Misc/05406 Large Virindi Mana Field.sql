@@ -35,6 +35,6 @@ VALUES (5406,   1, 'Large Virindi Mana Field') /* Name */
      , (5406,  17, 'You stagger as %i points of mana are drained by the mysterious crystal!') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5406,   1,   33556024) /* Setup */
-     , (5406,   3,  536871008) /* SoundTable */
-     , (5406,   8,  100667465) /* Icon */;
+VALUES (5406,   1, 0x02000638) /* Setup */
+     , (5406,   3, 0x20000060) /* SoundTable */
+     , (5406,   8, 0x06001049) /* Icon */;

@@ -31,9 +31,9 @@ VALUES (19508,   1, 'Superb Isparian Dagger Ingot') /* Name */
      , (19508,  16, 'An diamond infused ingot, enhanced and stamped with an dagger glyph.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19508,   1,   33555677) /* Setup */
-     , (19508,   3,  536870932) /* SoundTable */
-     , (19508,   6,   67111919) /* PaletteBase */
-     , (19508,   7,  268435723) /* ClothingBase */
-     , (19508,   8,  100672974) /* Icon */
-     , (19508,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19508,   1, 0x020004DD) /* Setup */
+     , (19508,   3, 0x20000014) /* SoundTable */
+     , (19508,   6, 0x04000BEF) /* PaletteBase */
+     , (19508,   7, 0x1000010B) /* ClothingBase */
+     , (19508,   8, 0x060025CE) /* Icon */
+     , (19508,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -25,9 +25,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12161,   1, 'Central Tuatara Plains Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12161,   1,   33555926) /* Setup */
-     , (12161,   2,  150994947) /* MotionTable */
-     , (12161,   8,  100667499) /* Icon */;
+VALUES (12161,   1, 0x020005D6) /* Setup */
+     , (12161,   2, 0x09000003) /* MotionTable */
+     , (12161,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12161, 2, 0x21C5001D, 73.5, 118.7, 71.7, 0.422618, 0, 0, -0.906308) /* Destination */

@@ -31,7 +31,7 @@ VALUES (5820,   1, 'Healing Carrot Soup') /* Name */
      , (5820,  20, 'Bowls of Healing Carrot Soup') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5820,   1,   33554668) /* Setup */
-     , (5820,   3,  536870932) /* SoundTable */
-     , (5820,   8,  100670311) /* Icon */
-     , (5820,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5820,   1, 0x020000EC) /* Setup */
+     , (5820,   3, 0x20000014) /* SoundTable */
+     , (5820,   8, 0x06001B67) /* Icon */
+     , (5820,  22, 0x3400002B) /* PhysicsEffectTable */;

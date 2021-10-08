@@ -26,10 +26,10 @@ VALUES (767,   1, 'Comfrey') /* Name */
      , (767,  20, 'Sacks of Comfrey') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (767,   1,   33554817) /* Setup */
-     , (767,   3,  536870932) /* SoundTable */
-     , (767,   6,   67111919) /* PaletteBase */
-     , (767,   7,  268435720) /* ClothingBase */
-     , (767,   8,  100668418) /* Icon */
-     , (767,  22,  872415275) /* PhysicsEffectTable */
+VALUES (767,   1, 0x02000181) /* Setup */
+     , (767,   3, 0x20000014) /* SoundTable */
+     , (767,   6, 0x04000BEF) /* PaletteBase */
+     , (767,   7, 0x10000108) /* ClothingBase */
+     , (767,   8, 0x06001402) /* Icon */
+     , (767,  22, 0x3400002B) /* PhysicsEffectTable */
      , (767,  29,         23) /* SpellComponent */;

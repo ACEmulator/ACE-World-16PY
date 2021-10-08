@@ -50,12 +50,12 @@ VALUES (27974,   1, 'Biting Ballistae') /* Name */
      , (27974,  16, 'A Crossbow crafted in Falatacot times. This weapon was crafted for the sole purpose of killing.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27974,   1,   33558750) /* Setup */
-     , (27974,   3,  536870932) /* SoundTable */
-     , (27974,   6,   67114956) /* PaletteBase */
-     , (27974,   7,  268436792) /* ClothingBase */
-     , (27974,   8,  100676552) /* Icon */
-     , (27974,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27974,   1, 0x020010DE) /* Setup */
+     , (27974,   3, 0x20000014) /* SoundTable */
+     , (27974,   6, 0x040017CC) /* PaletteBase */
+     , (27974,   7, 0x10000538) /* ClothingBase */
+     , (27974,   8, 0x060033C8) /* Icon */
+     , (27974,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27974,  2688,      2)  /* Moderate Missile Weapon Aptitude */

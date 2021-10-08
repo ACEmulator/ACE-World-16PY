@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24482,   1, 'Small Mud Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24482,   1,   33556426) /* Setup */
-     , (24482,   2,  150995073) /* MotionTable */
-     , (24482,   3,  536871065) /* SoundTable */
-     , (24482,   4,  805306376) /* CombatTable */
-     , (24482,   6,   67112774) /* PaletteBase */
-     , (24482,   7,  268435982) /* ClothingBase */
-     , (24482,   8,  100667940) /* Icon */
-     , (24482,  22,  872415326) /* PhysicsEffectTable */
+VALUES (24482,   1, 0x020007CA) /* Setup */
+     , (24482,   2, 0x09000081) /* MotionTable */
+     , (24482,   3, 0x20000099) /* SoundTable */
+     , (24482,   4, 0x30000008) /* CombatTable */
+     , (24482,   6, 0x04000F46) /* PaletteBase */
+     , (24482,   7, 0x1000020E) /* ClothingBase */
+     , (24482,   8, 0x06001224) /* Icon */
+     , (24482,  22, 0x3400005E) /* PhysicsEffectTable */
      , (24482,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

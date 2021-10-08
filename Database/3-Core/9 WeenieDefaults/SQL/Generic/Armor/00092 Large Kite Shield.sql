@@ -38,11 +38,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (92,   1, 'Large Kite Shield') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (92,   1,   33554788) /* Setup */
-     , (92,   3,  536870932) /* SoundTable */
-     , (92,   6,   67111919) /* PaletteBase */
-     , (92,   7,  268435609) /* ClothingBase */
-     , (92,   8,  100667360) /* Icon */
-     , (92,  22,  872415275) /* PhysicsEffectTable */
-     , (92,  36,  234881043) /* MutateFilter */
-     , (92,  46,  939524147) /* TsysMutationFilter */;
+VALUES (92,   1, 0x02000164) /* Setup */
+     , (92,   3, 0x20000014) /* SoundTable */
+     , (92,   6, 0x04000BEF) /* PaletteBase */
+     , (92,   7, 0x10000099) /* ClothingBase */
+     , (92,   8, 0x06000FE0) /* Icon */
+     , (92,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (92,  36, 0x0E000013) /* MutateFilter */
+     , (92,  46, 0x38000033) /* TsysMutationFilter */;

@@ -30,10 +30,10 @@ VALUES (15268,   1, 'Foci of Enchantment') /* Name */
      , (15268,  15, 'A foci used to cast spells from the School of the Left Hand.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15268,   1,   33554769) /* Setup */
-     , (15268,   3,  536870932) /* SoundTable */
-     , (15268,   6,   67111919) /* PaletteBase */
-     , (15268,   7,  268435867) /* ClothingBase */
-     , (15268,   8,  100671612) /* Icon */
-     , (15268,  22,  872415275) /* PhysicsEffectTable */
-     , (15268,  50,  100671612) /* IconOverlay */;
+VALUES (15268,   1, 0x02000151) /* Setup */
+     , (15268,   3, 0x20000014) /* SoundTable */
+     , (15268,   6, 0x04000BEF) /* PaletteBase */
+     , (15268,   7, 0x1000019B) /* ClothingBase */
+     , (15268,   8, 0x0600207C) /* Icon */
+     , (15268,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (15268,  50, 0x0600207C) /* IconOverlay */;

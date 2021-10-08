@@ -26,5 +26,5 @@ VALUES (15715,   1, 'Sunflower') /* Name */
      , (15715,  15, 'A bright yellow sunflower. Breathing the ethereal fragrance from this blossom, you are suddenly nostalgic for the grassy meadows of Ispar.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15715,   1,   33557637) /* Setup */
-     , (15715,   8,  100672837) /* Icon */;
+VALUES (15715,   1, 0x02000C85) /* Setup */
+     , (15715,   8, 0x06002545) /* Icon */;

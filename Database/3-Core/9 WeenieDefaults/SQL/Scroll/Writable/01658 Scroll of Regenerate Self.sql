@@ -25,7 +25,7 @@ VALUES (1658,   1, 'Scroll of Regenerate Self') /* Name */
      , (1658,  16, 'When learned, this spell increases the caster''s natural healing rate by 25%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1658,   1,   33554826) /* Setup */
-     , (1658,   8,  100676941) /* Icon */
-     , (1658,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1658,   1, 0x0200018A) /* Setup */
+     , (1658,   8, 0x0600354D) /* Icon */
+     , (1658,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1658,  28,        165) /* Spell - Regeneration Self I */;

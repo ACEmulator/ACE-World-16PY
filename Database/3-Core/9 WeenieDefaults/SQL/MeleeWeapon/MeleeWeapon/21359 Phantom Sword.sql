@@ -49,10 +49,10 @@ VALUES (21359,   1, 'Phantom Sword') /* Name */
      , (21359,  16, 'A sword with a ghostly blade crafted from pure chorizite, resistant to any enchantment. (Note: This weapon is unenchantable.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21359,   1,   33556658) /* Setup */
-     , (21359,   3,  536870932) /* SoundTable */
-     , (21359,   6,   67111919) /* PaletteBase */
-     , (21359,   7,  268435788) /* ClothingBase */
-     , (21359,   8,  100668915) /* Icon */
-     , (21359,  22,  872415275) /* PhysicsEffectTable */
-     , (21359,  36,  234881044) /* MutateFilter */;
+VALUES (21359,   1, 0x020008B2) /* Setup */
+     , (21359,   3, 0x20000014) /* SoundTable */
+     , (21359,   6, 0x04000BEF) /* PaletteBase */
+     , (21359,   7, 0x1000014C) /* ClothingBase */
+     , (21359,   8, 0x060015F3) /* Icon */
+     , (21359,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (21359,  36, 0x0E000014) /* MutateFilter */;

@@ -63,12 +63,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1988,   1, 'Dark Wisp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1988,   1,   33555869) /* Setup */
-     , (1988,   2,  150994993) /* MotionTable */
-     , (1988,   3,  536870985) /* SoundTable */
-     , (1988,   4,  805306398) /* CombatTable */
-     , (1988,   8,  100668442) /* Icon */
-     , (1988,  22,  872415274) /* PhysicsEffectTable */
+VALUES (1988,   1, 0x0200059D) /* Setup */
+     , (1988,   2, 0x09000031) /* MotionTable */
+     , (1988,   3, 0x20000049) /* SoundTable */
+     , (1988,   4, 0x3000001E) /* CombatTable */
+     , (1988,   8, 0x0600141A) /* Icon */
+     , (1988,  22, 0x3400002A) /* PhysicsEffectTable */
      , (1988,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

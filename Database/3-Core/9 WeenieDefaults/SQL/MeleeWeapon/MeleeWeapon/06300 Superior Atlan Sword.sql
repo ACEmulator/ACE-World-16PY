@@ -39,9 +39,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6300,   1, 'Superior Atlan Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6300,   1,   33556262) /* Setup */
-     , (6300,   3,  536870932) /* SoundTable */
-     , (6300,   6,   67111919) /* PaletteBase */
-     , (6300,   7,  268435874) /* ClothingBase */
-     , (6300,   8,  100670569) /* Icon */
-     , (6300,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6300,   1, 0x02000726) /* Setup */
+     , (6300,   3, 0x20000014) /* SoundTable */
+     , (6300,   6, 0x04000BEF) /* PaletteBase */
+     , (6300,   7, 0x100001A2) /* ClothingBase */
+     , (6300,   8, 0x06001C69) /* Icon */
+     , (6300,  22, 0x3400002B) /* PhysicsEffectTable */;

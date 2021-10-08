@@ -64,12 +64,12 @@ VALUES (27967,   1, 'Pillar') /* Name */
      , (27967,  15, 'An ancient pillar with a setting for a square shaped plate.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27967,   1,   33558766) /* Setup */
-     , (27967,   2,  150995299) /* MotionTable */
-     , (27967,   3,  536871052) /* SoundTable */
-     , (27967,   4,  805306398) /* CombatTable */
-     , (27967,   8,  100676565) /* Icon */
-     , (27967,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (27967,   1, 0x020010EE) /* Setup */
+     , (27967,   2, 0x09000163) /* MotionTable */
+     , (27967,   3, 0x2000008C) /* SoundTable */
+     , (27967,   4, 0x3000001E) /* CombatTable */
+     , (27967,   8, 0x060033D5) /* Icon */
+     , (27967,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27967,   1, 380, 0, 0) /* Strength */

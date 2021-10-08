@@ -70,11 +70,11 @@ VALUES (28533,   1, 'Lonely Weaponsmith') /* Name */
      , (28533,  24, 'Al-Jalima') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28533,   1,   33554510) /* Setup */
-     , (28533,   2,  150994945) /* MotionTable */
-     , (28533,   3,  536870914) /* SoundTable */
-     , (28533,   4,  805306368) /* CombatTable */
-     , (28533,   8,  100667446) /* Icon */;
+VALUES (28533,   1, 0x0200004E) /* Setup */
+     , (28533,   2, 0x09000001) /* MotionTable */
+     , (28533,   3, 0x20000002) /* SoundTable */
+     , (28533,   4, 0x30000000) /* CombatTable */
+     , (28533,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28533,   1, 190, 0, 0) /* Strength */

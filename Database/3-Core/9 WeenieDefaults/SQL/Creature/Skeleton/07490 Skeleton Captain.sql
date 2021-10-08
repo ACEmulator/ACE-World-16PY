@@ -61,12 +61,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7490,   1, 'Skeleton Captain') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7490,   1,   33555465) /* Setup */
-     , (7490,   2,  150994981) /* MotionTable */
-     , (7490,   3,  536870942) /* SoundTable */
-     , (7490,   4,  805306368) /* CombatTable */
-     , (7490,   8,  100669124) /* Icon */
-     , (7490,  22,  872415269) /* PhysicsEffectTable */
+VALUES (7490,   1, 0x02000409) /* Setup */
+     , (7490,   2, 0x09000025) /* MotionTable */
+     , (7490,   3, 0x2000001E) /* SoundTable */
+     , (7490,   4, 0x30000000) /* CombatTable */
+     , (7490,   8, 0x060016C4) /* Icon */
+     , (7490,  22, 0x34000025) /* PhysicsEffectTable */
      , (7490,  32,        178) /* WieldedTreasureType - 
                                    Wield Yumi (23734) | Probability: 20%
                                    Wield 14x Deadly Fire Arrow (15435) | Probability: 100%

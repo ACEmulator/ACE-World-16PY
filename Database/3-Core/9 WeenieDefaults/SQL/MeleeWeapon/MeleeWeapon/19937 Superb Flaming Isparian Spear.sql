@@ -49,12 +49,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19937,   1, 'Superb Flaming Isparian Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19937,   1,   33556335) /* Setup */
-     , (19937,   3,  536870932) /* SoundTable */
-     , (19937,   6,   67111919) /* PaletteBase */
-     , (19937,   7,  268436383) /* ClothingBase */
-     , (19937,   8,  100672931) /* Icon */
-     , (19937,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19937,   1, 0x0200076F) /* Setup */
+     , (19937,   3, 0x20000014) /* SoundTable */
+     , (19937,   6, 0x04000BEF) /* PaletteBase */
+     , (19937,   7, 0x1000039F) /* ClothingBase */
+     , (19937,   8, 0x060025A3) /* Icon */
+     , (19937,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19937,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

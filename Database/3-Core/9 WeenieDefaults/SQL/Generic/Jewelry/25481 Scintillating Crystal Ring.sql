@@ -34,11 +34,11 @@ VALUES (25481,   1, 'Scintillating Crystal Ring') /* Name */
      , (25481,  16, 'A ring carved of Whispering Venom crystal. When worn, it allows portal passage down to the Lair of the Ancient Queen.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25481,   1,   33554690) /* Setup */
-     , (25481,   3,  536870932) /* SoundTable */
-     , (25481,   6,   67111919) /* PaletteBase */
-     , (25481,   8,  100674801) /* Icon */
-     , (25481,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25481,   1, 0x02000102) /* Setup */
+     , (25481,   3, 0x20000014) /* SoundTable */
+     , (25481,   6, 0x04000BEF) /* PaletteBase */
+     , (25481,   8, 0x06002CF1) /* Icon */
+     , (25481,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25481,  1117,      2)  /* Blade Protection Other III */

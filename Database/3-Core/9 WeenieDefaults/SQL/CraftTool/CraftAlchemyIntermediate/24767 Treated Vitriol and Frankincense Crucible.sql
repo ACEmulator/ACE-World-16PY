@@ -32,8 +32,8 @@ VALUES (24767,   1, 'Treated Vitriol and Frankincense Crucible') /* Name */
      , (24767,  20, 'Treated Vitriol and Frankincense Crucibles') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24767,   1,   33555966) /* Setup */
-     , (24767,   3,  536870932) /* SoundTable */
-     , (24767,   8,  100674463) /* Icon */
-     , (24767,  22,  872415275) /* PhysicsEffectTable */
-     , (24767,  50,  100674415) /* IconOverlay */;
+VALUES (24767,   1, 0x020005FE) /* Setup */
+     , (24767,   3, 0x20000014) /* SoundTable */
+     , (24767,   8, 0x06002B9F) /* Icon */
+     , (24767,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24767,  50, 0x06002B6F) /* IconOverlay */;

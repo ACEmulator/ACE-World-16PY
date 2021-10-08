@@ -70,14 +70,14 @@ VALUES (8120,   1, 'Caulnalain Shadow Leader') /* Name */
      , (8120,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8120,   1,   33554433) /* Setup */
-     , (8120,   2,  150994945) /* MotionTable */
-     , (8120,   3,  536870913) /* SoundTable */
-     , (8120,   4,  805306368) /* CombatTable */
-     , (8120,   6,   67111797) /* PaletteBase */
-     , (8120,   7,  268435632) /* ClothingBase */
-     , (8120,   8,  100670397) /* Icon */
-     , (8120,  22,  872415331) /* PhysicsEffectTable */
+VALUES (8120,   1, 0x02000001) /* Setup */
+     , (8120,   2, 0x09000001) /* MotionTable */
+     , (8120,   3, 0x20000001) /* SoundTable */
+     , (8120,   4, 0x30000000) /* CombatTable */
+     , (8120,   6, 0x04000B75) /* PaletteBase */
+     , (8120,   7, 0x100000B0) /* ClothingBase */
+     , (8120,   8, 0x06001BBD) /* Icon */
+     , (8120,  22, 0x34000063) /* PhysicsEffectTable */
      , (8120,  32,        178) /* WieldedTreasureType - 
                                    Wield Yumi (23734) | Probability: 20%
                                    Wield 14x Deadly Fire Arrow (15435) | Probability: 100%

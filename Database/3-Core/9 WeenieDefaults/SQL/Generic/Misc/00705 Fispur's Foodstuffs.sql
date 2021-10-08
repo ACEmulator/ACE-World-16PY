@@ -22,7 +22,7 @@ VALUES (705,   1, 'Fispur''s Foodstuffs') /* Name */
      , (705,  16, 'Fispur''s Foodstuffs') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (705,   1,   33555088) /* Setup */
-     , (705,   6,   67111092) /* PaletteBase */
-     , (705,   7,  268435656) /* ClothingBase */
-     , (705,   8,  100668115) /* Icon */;
+VALUES (705,   1, 0x02000290) /* Setup */
+     , (705,   6, 0x040008B4) /* PaletteBase */
+     , (705,   7, 0x100000C8) /* ClothingBase */
+     , (705,   8, 0x060012D3) /* Icon */;

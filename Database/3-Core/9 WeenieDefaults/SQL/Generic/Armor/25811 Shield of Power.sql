@@ -47,12 +47,12 @@ VALUES (25811,   1, 'Shield of Power') /* Name */
      , (25811,  16, 'The shield is a boon of strength and a symbol of the adherents to the path of the Dragon. The symbol looks as though it can be changed with the right materials.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25811,   1,   33558555) /* Setup */
-     , (25811,   3,  536870932) /* SoundTable */
-     , (25811,   6,   67114736) /* PaletteBase */
-     , (25811,   7,  268436734) /* ClothingBase */
-     , (25811,   8,  100675573) /* Icon */
-     , (25811,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25811,   1, 0x0200101B) /* Setup */
+     , (25811,   3, 0x20000014) /* SoundTable */
+     , (25811,   6, 0x040016F0) /* PaletteBase */
+     , (25811,   7, 0x100004FE) /* ClothingBase */
+     , (25811,   8, 0x06002FF5) /* Icon */
+     , (25811,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25811,  1485,      2)  /* Impenetrability V */

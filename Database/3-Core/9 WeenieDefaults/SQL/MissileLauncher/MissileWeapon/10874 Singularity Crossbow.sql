@@ -50,12 +50,12 @@ VALUES (10874,   1, 'Singularity Crossbow') /* Name */
      , (10874,  15, 'A crossbow imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10874,   1,   33557313) /* Setup */
-     , (10874,   3,  536870932) /* SoundTable */
-     , (10874,   6,   67111919) /* PaletteBase */
-     , (10874,   7,  268436239) /* ClothingBase */
-     , (10874,   8,  100672049) /* Icon */
-     , (10874,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10874,   1, 0x02000B41) /* Setup */
+     , (10874,   3, 0x20000014) /* SoundTable */
+     , (10874,   6, 0x04000BEF) /* PaletteBase */
+     , (10874,   7, 0x1000030F) /* ClothingBase */
+     , (10874,   8, 0x06002231) /* Icon */
+     , (10874,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10874,  37,          3) /* ItemSkillLimit - Crossbow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30448,   1, 'Southern Overseer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30448,   1,   33558343) /* Setup */
-     , (30448,   2,  150994984) /* MotionTable */
-     , (30448,   3,  536870930) /* SoundTable */
-     , (30448,   4,  805306381) /* CombatTable */
-     , (30448,   6,   67114250) /* PaletteBase */
-     , (30448,   7,  268436609) /* ClothingBase */
-     , (30448,   8,  100674323) /* Icon */
-     , (30448,  22,  872415273) /* PhysicsEffectTable */
+VALUES (30448,   1, 0x02000F47) /* Setup */
+     , (30448,   2, 0x09000028) /* MotionTable */
+     , (30448,   3, 0x20000012) /* SoundTable */
+     , (30448,   4, 0x3000000D) /* CombatTable */
+     , (30448,   6, 0x0400150A) /* PaletteBase */
+     , (30448,   7, 0x10000481) /* ClothingBase */
+     , (30448,   8, 0x06002B13) /* Icon */
+     , (30448,  22, 0x34000029) /* PhysicsEffectTable */
      , (30448,  35,         29) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

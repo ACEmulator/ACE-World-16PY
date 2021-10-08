@@ -24,7 +24,7 @@ VALUES (20561,   1, 'Scroll of Celdiseth''s Boon') /* Name */
      , (20561,  15, 'When learned, this spell increases the target''s Magic Item Tinkering skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20561,   1,   33554826) /* Setup */
-     , (20561,   8,  100676477) /* Icon */
-     , (20561,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20561,   1, 0x0200018A) /* Setup */
+     , (20561,   8, 0x0600337D) /* Icon */
+     , (20561,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20561,  28,       2276) /* Spell - Celdiseth's Boon */;

@@ -25,7 +25,7 @@ VALUES (2635,   1, 'Scroll of Bafflement Other III') /* Name */
      , (2635,  16, 'When learned, this spell decreases the target''s Focus by 30 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2635,   1,   33554826) /* Setup */
-     , (2635,   8,  100676458) /* Icon */
-     , (2635,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2635,   1, 0x0200018A) /* Setup */
+     , (2635,   8, 0x0600336A) /* Icon */
+     , (2635,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2635,  28,       1441) /* Spell - Bafflement Other III */;

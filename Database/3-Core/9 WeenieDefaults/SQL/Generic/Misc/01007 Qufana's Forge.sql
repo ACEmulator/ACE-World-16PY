@@ -23,7 +23,7 @@ VALUES (1007,   1, 'Qufana''s Forge') /* Name */
      , (1007,  16, 'Qufana''s Forge') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1007,   1,   33555909) /* Setup */
-     , (1007,   6,   67111860) /* PaletteBase */
-     , (1007,   7,  268435818) /* ClothingBase */
-     , (1007,   8,  100668115) /* Icon */;
+VALUES (1007,   1, 0x020005C5) /* Setup */
+     , (1007,   6, 0x04000BB4) /* PaletteBase */
+     , (1007,   7, 0x1000016A) /* ClothingBase */
+     , (1007,   8, 0x060012D3) /* Icon */;

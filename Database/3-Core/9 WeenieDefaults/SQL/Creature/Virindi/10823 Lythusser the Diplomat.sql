@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10823,   1, 'Lythusser the Diplomat') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10823,   1,   33554497) /* Setup */
-     , (10823,   2,  150994984) /* MotionTable */
-     , (10823,   3,  536870930) /* SoundTable */
-     , (10823,   4,  805306381) /* CombatTable */
-     , (10823,   6,   67111346) /* PaletteBase */
-     , (10823,   7,  268435649) /* ClothingBase */
-     , (10823,   8,  100667943) /* Icon */
-     , (10823,  22,  872415273) /* PhysicsEffectTable */
+VALUES (10823,   1, 0x02000041) /* Setup */
+     , (10823,   2, 0x09000028) /* MotionTable */
+     , (10823,   3, 0x20000012) /* SoundTable */
+     , (10823,   4, 0x3000000D) /* CombatTable */
+     , (10823,   6, 0x040009B2) /* PaletteBase */
+     , (10823,   7, 0x100000C1) /* ClothingBase */
+     , (10823,   8, 0x06001227) /* Icon */
+     , (10823,  22, 0x34000029) /* PhysicsEffectTable */
      , (10823,  35,        309) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

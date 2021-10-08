@@ -45,12 +45,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6202,   1, 'Peerless Smoldering Atlan Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6202,   1,   33556357) /* Setup */
-     , (6202,   3,  536870932) /* SoundTable */
-     , (6202,   6,   67111919) /* PaletteBase */
-     , (6202,   7,  268435936) /* ClothingBase */
-     , (6202,   8,  100670525) /* Icon */
-     , (6202,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6202,   1, 0x02000785) /* Setup */
+     , (6202,   3, 0x20000014) /* SoundTable */
+     , (6202,   6, 0x04000BEF) /* PaletteBase */
+     , (6202,   7, 0x100001E0) /* ClothingBase */
+     , (6202,   8, 0x06001C3D) /* Icon */
+     , (6202,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6202,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -24,7 +24,7 @@ VALUES (28297,   1, 'Scroll of Greater Frore Ward') /* Name */
      , (28297,  15, 'When learned, this spell reduces damage all fellowship members take from Cold by 60%.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28297,   1,   33554826) /* Setup */
-     , (28297,   8,  100676950) /* Icon */
-     , (28297,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28297,   1, 0x0200018A) /* Setup */
+     , (28297,   8, 0x06003556) /* Icon */
+     , (28297,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28297,  28,       3334) /* Spell - Greater Frore Ward */;

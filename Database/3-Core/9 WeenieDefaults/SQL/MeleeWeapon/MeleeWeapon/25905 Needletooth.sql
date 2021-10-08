@@ -49,11 +49,11 @@ VALUES (25905,   1, 'Needletooth') /* Name */
      , (25905,  15, 'A katar crafted from the incisors of corrupted carenzi.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25905,   1,   33558561) /* Setup */
-     , (25905,   3,  536870932) /* SoundTable */
-     , (25905,   8,  100675638) /* Icon */
-     , (25905,  22,  872415275) /* PhysicsEffectTable */
-     , (25905,  36,  234881044) /* MutateFilter */
+VALUES (25905,   1, 0x02001021) /* Setup */
+     , (25905,   3, 0x20000014) /* SoundTable */
+     , (25905,   8, 0x06003036) /* Icon */
+     , (25905,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (25905,  36, 0x0E000014) /* MutateFilter */
      , (25905,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

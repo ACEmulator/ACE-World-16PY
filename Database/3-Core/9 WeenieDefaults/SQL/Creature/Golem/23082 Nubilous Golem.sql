@@ -63,12 +63,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23082,   1, 'Nubilous Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23082,   1,   33556644) /* Setup */
-     , (23082,   2,  150995073) /* MotionTable */
-     , (23082,   3,  536870933) /* SoundTable */
-     , (23082,   4,  805306376) /* CombatTable */
-     , (23082,   8,  100667940) /* Icon */
-     , (23082,  22,  872415322) /* PhysicsEffectTable */
+VALUES (23082,   1, 0x020008A4) /* Setup */
+     , (23082,   2, 0x09000081) /* MotionTable */
+     , (23082,   3, 0x20000015) /* SoundTable */
+     , (23082,   4, 0x30000008) /* CombatTable */
+     , (23082,   8, 0x06001224) /* Icon */
+     , (23082,  22, 0x3400005A) /* PhysicsEffectTable */
      , (23082,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

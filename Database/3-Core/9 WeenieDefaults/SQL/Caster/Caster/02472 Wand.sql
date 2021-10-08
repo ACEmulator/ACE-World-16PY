@@ -28,12 +28,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2472,   1, 'Wand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2472,   1,   33554812) /* Setup */
-     , (2472,   3,  536870932) /* SoundTable */
-     , (2472,   6,   67111919) /* PaletteBase */
-     , (2472,   7,  268435758) /* ClothingBase */
-     , (2472,   8,  100668792) /* Icon */
-     , (2472,  22,  872415275) /* PhysicsEffectTable */
-     , (2472,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
-     , (2472,  36,  234881046) /* MutateFilter */
-     , (2472,  46,  939524144) /* TsysMutationFilter */;
+VALUES (2472,   1, 0x0200017C) /* Setup */
+     , (2472,   3, 0x20000014) /* SoundTable */
+     , (2472,   6, 0x04000BEF) /* PaletteBase */
+     , (2472,   7, 0x1000012E) /* ClothingBase */
+     , (2472,   8, 0x06001578) /* Icon */
+     , (2472,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (2472,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
+     , (2472,  36, 0x0E000016) /* MutateFilter */
+     , (2472,  46, 0x38000030) /* TsysMutationFilter */;

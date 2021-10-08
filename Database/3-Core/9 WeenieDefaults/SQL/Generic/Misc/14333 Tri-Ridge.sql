@@ -22,5 +22,5 @@ VALUES (14333,   1, 'Tri-Ridge') /* Name */
      , (14333,  16, 'Welcome to Tri-Ridge') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14333,   1,   33557463) /* Setup */
-     , (14333,   8,  100668115) /* Icon */;
+VALUES (14333,   1, 0x02000BD7) /* Setup */
+     , (14333,   8, 0x060012D3) /* Icon */;

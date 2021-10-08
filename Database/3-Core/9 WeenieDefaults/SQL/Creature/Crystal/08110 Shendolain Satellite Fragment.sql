@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8110,   1, 'Shendolain Satellite Fragment') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8110,   1,   33556730) /* Setup */
-     , (8110,   2,  150995097) /* MotionTable */
-     , (8110,   3,  536871001) /* SoundTable */
-     , (8110,   4,  805306407) /* CombatTable */
-     , (8110,   6,   67111919) /* PaletteBase */
-     , (8110,   7,  268435859) /* ClothingBase */
-     , (8110,   8,  100670395) /* Icon */
-     , (8110,  22,  872415348) /* PhysicsEffectTable */
+VALUES (8110,   1, 0x020008FA) /* Setup */
+     , (8110,   2, 0x09000099) /* MotionTable */
+     , (8110,   3, 0x20000059) /* SoundTable */
+     , (8110,   4, 0x30000027) /* CombatTable */
+     , (8110,   6, 0x04000BEF) /* PaletteBase */
+     , (8110,   7, 0x10000193) /* ClothingBase */
+     , (8110,   8, 0x06001BBB) /* Icon */
+     , (8110,  22, 0x34000074) /* PhysicsEffectTable */
      , (8110,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

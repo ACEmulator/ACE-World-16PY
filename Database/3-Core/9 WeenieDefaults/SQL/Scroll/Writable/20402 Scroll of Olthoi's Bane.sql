@@ -24,7 +24,7 @@ VALUES (20402,   1, 'Scroll of Olthoi''s Bane') /* Name */
      , (20402,  15, 'When learned, this spell increases a shield or piece of armor''s resistance to acid damage by 170%.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20402,   1,   33554826) /* Setup */
-     , (20402,   8,  100676648) /* Icon */
-     , (20402,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20402,   1, 0x0200018A) /* Setup */
+     , (20402,   8, 0x06003428) /* Icon */
+     , (20402,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20402,  28,       2092) /* Spell - Olthoi's Bane */;

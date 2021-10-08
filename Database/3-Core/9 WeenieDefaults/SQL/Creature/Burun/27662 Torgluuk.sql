@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27662,   1, 'Torgluuk') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27662,   1,   33558747) /* Setup */
-     , (27662,   2,  150995272) /* MotionTable */
-     , (27662,   3,  536871083) /* SoundTable */
-     , (27662,   4,  805306427) /* CombatTable */
-     , (27662,   6,   67114919) /* PaletteBase */
-     , (27662,   7,  268436789) /* ClothingBase */
-     , (27662,   8,  100675761) /* Icon */
-     , (27662,  22,  872415264) /* PhysicsEffectTable */
+VALUES (27662,   1, 0x020010DB) /* Setup */
+     , (27662,   2, 0x09000148) /* MotionTable */
+     , (27662,   3, 0x200000AB) /* SoundTable */
+     , (27662,   4, 0x3000003B) /* CombatTable */
+     , (27662,   6, 0x040017A7) /* PaletteBase */
+     , (27662,   7, 0x10000535) /* ClothingBase */
+     , (27662,   8, 0x060030B1) /* Icon */
+     , (27662,  22, 0x34000020) /* PhysicsEffectTable */
      , (27662,  35,         32) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

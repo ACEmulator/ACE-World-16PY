@@ -49,13 +49,13 @@ VALUES (27185,   1, 'Fist of Massacre') /* Name */
      , (27185,  16, 'Crafted by the Faltacot, this stunning and sharp blade looks as though it could easily pierce flesh.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27185,   1,   33558635) /* Setup */
-     , (27185,   3,  536870932) /* SoundTable */
-     , (27185,   6,   67114956) /* PaletteBase */
-     , (27185,   7,  268436792) /* ClothingBase */
-     , (27185,   8,  100675920) /* Icon */
-     , (27185,  22,  872415275) /* PhysicsEffectTable */
-     , (27185,  36,  234881044) /* MutateFilter */;
+VALUES (27185,   1, 0x0200106B) /* Setup */
+     , (27185,   3, 0x20000014) /* SoundTable */
+     , (27185,   6, 0x040017CC) /* PaletteBase */
+     , (27185,   7, 0x10000538) /* ClothingBase */
+     , (27185,   8, 0x06003150) /* Icon */
+     , (27185,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27185,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27185,  2568,      2)  /* Minor Light Weapon Aptitude */

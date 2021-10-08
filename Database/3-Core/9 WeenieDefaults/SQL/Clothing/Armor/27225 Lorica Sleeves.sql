@@ -37,11 +37,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27225,   1, 'Lorica Sleeves') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27225,   1,   33554655) /* Setup */
-     , (27225,   3,  536870932) /* SoundTable */
-     , (27225,   6,   67108990) /* PaletteBase */
-     , (27225,   7,  268436806) /* ClothingBase */
-     , (27225,   8,  100676139) /* Icon */
-     , (27225,  22,  872415275) /* PhysicsEffectTable */
-     , (27225,  36,  234881042) /* MutateFilter */
-     , (27225,  46,  939524146) /* TsysMutationFilter */;
+VALUES (27225,   1, 0x020000DF) /* Setup */
+     , (27225,   3, 0x20000014) /* SoundTable */
+     , (27225,   6, 0x0400007E) /* PaletteBase */
+     , (27225,   7, 0x10000546) /* ClothingBase */
+     , (27225,   8, 0x0600322B) /* Icon */
+     , (27225,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27225,  36, 0x0E000012) /* MutateFilter */
+     , (27225,  46, 0x38000032) /* TsysMutationFilter */;

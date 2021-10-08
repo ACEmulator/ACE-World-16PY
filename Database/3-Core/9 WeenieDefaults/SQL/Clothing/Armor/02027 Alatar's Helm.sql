@@ -37,8 +37,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2027,   1, 'Alatar''s Helm') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2027,   1,   33554650) /* Setup */
-     , (2027,   6,   67108990) /* PaletteBase */
-     , (2027,   7,  268435500) /* ClothingBase */
-     , (2027,   8,  100667343) /* Icon */
-     , (2027,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (2027,   1, 0x020000DA) /* Setup */
+     , (2027,   6, 0x0400007E) /* PaletteBase */
+     , (2027,   7, 0x1000002C) /* ClothingBase */
+     , (2027,   8, 0x06000FCF) /* Icon */
+     , (2027,  22, 0x3400002B) /* PhysicsEffectTable */;

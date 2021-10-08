@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9252,   1, 'Ferocious Monouga') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9252,   1,   33555199) /* Setup */
-     , (9252,   2,  150994983) /* MotionTable */
-     , (9252,   3,  536870962) /* SoundTable */
-     , (9252,   4,  805306390) /* CombatTable */
-     , (9252,   6,   67111302) /* PaletteBase */
-     , (9252,   7,  268436143) /* ClothingBase */
-     , (9252,   8,  100669117) /* Icon */
-     , (9252,  22,  872415257) /* PhysicsEffectTable */
+VALUES (9252,   1, 0x020002FF) /* Setup */
+     , (9252,   2, 0x09000027) /* MotionTable */
+     , (9252,   3, 0x20000032) /* SoundTable */
+     , (9252,   4, 0x30000016) /* CombatTable */
+     , (9252,   6, 0x04000986) /* PaletteBase */
+     , (9252,   7, 0x100002AF) /* ClothingBase */
+     , (9252,   8, 0x060016BD) /* Icon */
+     , (9252,  22, 0x34000019) /* PhysicsEffectTable */
      , (9252,  32,        119) /* WieldedTreasureType - 
                                    Wield Club (3943) | Probability: 45%
                                    Wield Dabus (3944) | Probability: 5%

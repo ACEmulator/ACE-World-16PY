@@ -66,10 +66,10 @@ VALUES (28973,   1, 'Portrait of Asheron Realaidain') /* Name */
      , (28973,  16, 'A portrait of Asheron Realaidain. It is a masterpiece. Hevk Loz may know more about this.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28973,   1,   33558988) /* Setup */
-     , (28973,   2,  150995312) /* MotionTable */
-     , (28973,   3,  536870930) /* SoundTable */
-     , (28973,   8,  100677075) /* Icon */;
+VALUES (28973,   1, 0x020011CC) /* Setup */
+     , (28973,   2, 0x09000170) /* MotionTable */
+     , (28973,   3, 0x20000012) /* SoundTable */
+     , (28973,   8, 0x060035D3) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28973,   1, 340, 0, 0) /* Strength */

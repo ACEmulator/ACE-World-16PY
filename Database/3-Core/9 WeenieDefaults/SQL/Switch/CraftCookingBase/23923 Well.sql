@@ -28,8 +28,8 @@ VALUES (23923,   1, 'Well') /* Name */
      , (23923,  14, 'Use an empty stein on the well to fill it with stout.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23923,   1,   33554816) /* Setup */
-     , (23923,   3,  536870932) /* SoundTable */
-     , (23923,   8,  100667466) /* Icon */
-     , (23923,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23923,   1, 0x02000180) /* Setup */
+     , (23923,   3, 0x20000014) /* SoundTable */
+     , (23923,   8, 0x0600104A) /* Icon */
+     , (23923,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23923,  28,       1184) /* Spell - Revitalize Other II */;

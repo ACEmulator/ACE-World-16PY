@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12018,   1, 'Master of the Pack') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12018,   1,   33554489) /* Setup */
-     , (12018,   2,  150994970) /* MotionTable */
-     , (12018,   3,  536870928) /* SoundTable */
-     , (12018,   4,  805306378) /* CombatTable */
-     , (12018,   6,   67109313) /* PaletteBase */
-     , (12018,   7,  268435556) /* ClothingBase */
-     , (12018,   8,  100667939) /* Icon */
-     , (12018,  22,  872415268) /* PhysicsEffectTable */
+VALUES (12018,   1, 0x02000039) /* Setup */
+     , (12018,   2, 0x0900001A) /* MotionTable */
+     , (12018,   3, 0x20000010) /* SoundTable */
+     , (12018,   4, 0x3000000A) /* CombatTable */
+     , (12018,   6, 0x040001C1) /* PaletteBase */
+     , (12018,   7, 0x10000064) /* ClothingBase */
+     , (12018,   8, 0x06001223) /* Icon */
+     , (12018,  22, 0x34000024) /* PhysicsEffectTable */
      , (12018,  35,         24) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

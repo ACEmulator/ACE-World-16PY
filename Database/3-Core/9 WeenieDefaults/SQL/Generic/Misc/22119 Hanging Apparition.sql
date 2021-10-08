@@ -22,5 +22,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22119,   1, 'Hanging Apparition') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22119,   1,   33555318) /* Setup */
-     , (22119,   8,  100667942) /* Icon */;
+VALUES (22119,   1, 0x02000376) /* Setup */
+     , (22119,   8, 0x06001226) /* Icon */;

@@ -27,7 +27,7 @@ VALUES (11006,   1, 'Flimsy Hilt') /* Name */
      , (11006,  33, 'championquest03') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11006,   1,   33557231) /* Setup */
-     , (11006,   3,  536870932) /* SoundTable */
-     , (11006,   8,  100671867) /* Icon */
-     , (11006,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11006,   1, 0x02000AEF) /* Setup */
+     , (11006,   3, 0x20000014) /* SoundTable */
+     , (11006,   8, 0x0600217B) /* Icon */
+     , (11006,  22, 0x3400002B) /* PhysicsEffectTable */;

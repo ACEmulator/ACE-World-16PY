@@ -22,5 +22,5 @@ VALUES (19189,   1, 'Stone Scythe Stronghold') /* Name */
      , (19189,  16, 'Welcome to Stone Scythe Stronghold') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19189,   1,   33557463) /* Setup */
-     , (19189,   8,  100668115) /* Icon */;
+VALUES (19189,   1, 0x02000BD7) /* Setup */
+     , (19189,   8, 0x060012D3) /* Icon */;

@@ -31,10 +31,10 @@ VALUES (8337,   1, 'Ebony Pea') /* Name */
      , (8337,  16, 'A concentrated ebony pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8337,   1,   33555207) /* Setup */
-     , (8337,   3,  536870932) /* SoundTable */
-     , (8337,   6,   67111919) /* PaletteBase */
-     , (8337,   7,  268435722) /* ClothingBase */
-     , (8337,   8,  100671092) /* Icon */
-     , (8337,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8337,   1, 0x02000307) /* Setup */
+     , (8337,   3, 0x20000014) /* SoundTable */
+     , (8337,   6, 0x04000BEF) /* PaletteBase */
+     , (8337,   7, 0x1000010A) /* ClothingBase */
+     , (8337,   8, 0x06001E74) /* Icon */
+     , (8337,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8337,  29,        166) /* SpellComponent */;

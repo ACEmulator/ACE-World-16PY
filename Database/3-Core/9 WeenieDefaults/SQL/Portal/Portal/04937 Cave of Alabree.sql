@@ -27,9 +27,9 @@ VALUES (4937,   1, 'Cave of Alabree') /* Name */
      , (4937,  16, 'This is a good adventure for someone who is newly arrived in Dereth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4937,   1,   33555922) /* Setup */
-     , (4937,   2,  150994947) /* MotionTable */
-     , (4937,   8,  100667499) /* Icon */;
+VALUES (4937,   1, 0x020005D2) /* Setup */
+     , (4937,   2, 0x09000003) /* MotionTable */
+     , (4937,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4937, 2, 0x016201D1, 60, -10, 12, -0, 0, -0, -1) /* Destination */

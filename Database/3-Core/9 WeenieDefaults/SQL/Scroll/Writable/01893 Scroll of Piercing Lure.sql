@@ -25,7 +25,7 @@ VALUES (1893,   1, 'Scroll of Piercing Lure') /* Name */
      , (1893,  16, 'When learned, this spell decreases a shield or piece of armor''s resistance to piercing damage by 10%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1893,   1,   33554826) /* Setup */
-     , (1893,   8,  100676669) /* Icon */
-     , (1893,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1893,   1, 0x0200018A) /* Setup */
+     , (1893,   8, 0x0600343D) /* Icon */
+     , (1893,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1893,  28,       1563) /* Spell - Piercing Lure I */;

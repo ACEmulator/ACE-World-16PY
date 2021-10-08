@@ -22,5 +22,5 @@ VALUES (25797,   1, 'Frost Haven ') /* Name */
      , (25797,  16, 'Welcome to Frost Haven. A good place to chill out. Beware of Scold!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25797,   1,   33555088) /* Setup */
-     , (25797,   8,  100668115) /* Icon */;
+VALUES (25797,   1, 0x02000290) /* Setup */
+     , (25797,   8, 0x060012D3) /* Icon */;

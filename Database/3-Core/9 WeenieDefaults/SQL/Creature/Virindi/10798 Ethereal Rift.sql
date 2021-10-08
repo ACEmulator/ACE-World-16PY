@@ -71,12 +71,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10798,   1, 'Ethereal Rift') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10798,   1,   33557097) /* Setup */
-     , (10798,   2,  150995087) /* MotionTable */
-     , (10798,   3,  536871001) /* SoundTable */
-     , (10798,   4,  805306407) /* CombatTable */
-     , (10798,   8,  100671702) /* Icon */
-     , (10798,  22,  872415375) /* PhysicsEffectTable */
+VALUES (10798,   1, 0x02000A69) /* Setup */
+     , (10798,   2, 0x0900008F) /* MotionTable */
+     , (10798,   3, 0x20000059) /* SoundTable */
+     , (10798,   4, 0x30000027) /* CombatTable */
+     , (10798,   8, 0x060020D6) /* Icon */
+     , (10798,  22, 0x3400008F) /* PhysicsEffectTable */
      , (10798,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

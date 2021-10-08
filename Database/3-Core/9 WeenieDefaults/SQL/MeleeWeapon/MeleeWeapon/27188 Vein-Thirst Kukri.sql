@@ -48,13 +48,13 @@ VALUES (27188,   1, 'Vein-Thirst Kukri') /* Name */
      , (27188,  15, 'This Falatacot weapon appears to be an ornamental or sacrificial one. Curved and sharp, the blade seems alive in some way.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27188,   1,   33558634) /* Setup */
-     , (27188,   3,  536870932) /* SoundTable */
-     , (27188,   6,   67114956) /* PaletteBase */
-     , (27188,   7,  268436792) /* ClothingBase */
-     , (27188,   8,  100675921) /* Icon */
-     , (27188,  22,  872415275) /* PhysicsEffectTable */
-     , (27188,  36,  234881044) /* MutateFilter */;
+VALUES (27188,   1, 0x0200106A) /* Setup */
+     , (27188,   3, 0x20000014) /* SoundTable */
+     , (27188,   6, 0x040017CC) /* PaletteBase */
+     , (27188,   7, 0x10000538) /* ClothingBase */
+     , (27188,   8, 0x06003151) /* Icon */
+     , (27188,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27188,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27188,  1118,      2)  /* Blade Protection Other IV */

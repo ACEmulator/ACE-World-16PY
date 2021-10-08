@@ -28,7 +28,7 @@ VALUES (30929,   1, 'A Nearly Empty Book') /* Name */
      , (30929,  16, 'A portion of Carlo di Cenza''s journal. This book contains only one page.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30929,   1,   33554771) /* Setup */
-     , (30929,   3,  536870932) /* SoundTable */
-     , (30929,   8,  100668117) /* Icon */
-     , (30929,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30929,   1, 0x02000153) /* Setup */
+     , (30929,   3, 0x20000014) /* SoundTable */
+     , (30929,   8, 0x060012D5) /* Icon */
+     , (30929,  22, 0x3400002B) /* PhysicsEffectTable */;

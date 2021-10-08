@@ -46,12 +46,12 @@ VALUES (26596,   1, 'Lance of the Bloodletter') /* Name */
      , (26596,  15, 'A lance used to end the life of sacrifices during potent Falatacot blood rites.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26596,   1,   33558594) /* Setup */
-     , (26596,   3,  536870932) /* SoundTable */
-     , (26596,   6,   67114956) /* PaletteBase */
-     , (26596,   7,  268436792) /* ClothingBase */
-     , (26596,   8,  100675774) /* Icon */
-     , (26596,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (26596,   1, 0x02001042) /* Setup */
+     , (26596,   3, 0x20000014) /* SoundTable */
+     , (26596,   6, 0x040017CC) /* PaletteBase */
+     , (26596,   7, 0x10000538) /* ClothingBase */
+     , (26596,   8, 0x060030BE) /* Icon */
+     , (26596,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (26596,  1603,      2)  /* Aura of Defender Self IV */

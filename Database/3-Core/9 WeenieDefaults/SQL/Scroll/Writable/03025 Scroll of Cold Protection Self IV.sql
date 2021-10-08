@@ -25,7 +25,7 @@ VALUES (3025,   1, 'Scroll of Cold Protection Self IV') /* Name */
      , (3025,  16, 'When learned, this spell reduces damage the caster takes from Cold by 43%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3025,   1,   33554826) /* Setup */
-     , (3025,   8,  100676950) /* Icon */
-     , (3025,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3025,   1, 0x0200018A) /* Setup */
+     , (3025,   8, 0x06003556) /* Icon */
+     , (3025,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3025,  28,       1033) /* Spell - Cold Protection Self IV */;

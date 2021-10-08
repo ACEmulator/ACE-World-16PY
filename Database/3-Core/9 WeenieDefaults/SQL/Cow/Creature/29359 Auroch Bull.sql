@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29359,   1, 'Auroch Bull') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29359,   1,   33554478) /* Setup */
-     , (29359,   2,  150994969) /* MotionTable */
-     , (29359,   3,  536870916) /* SoundTable */
-     , (29359,   4,  805306375) /* CombatTable */
-     , (29359,   6,   67109302) /* PaletteBase */
-     , (29359,   7,  268435548) /* ClothingBase */
-     , (29359,   8,  100667936) /* Icon */
-     , (29359,  22,  872415254) /* PhysicsEffectTable */
+VALUES (29359,   1, 0x0200002E) /* Setup */
+     , (29359,   2, 0x09000019) /* MotionTable */
+     , (29359,   3, 0x20000004) /* SoundTable */
+     , (29359,   4, 0x30000007) /* CombatTable */
+     , (29359,   6, 0x040001B6) /* PaletteBase */
+     , (29359,   7, 0x1000005C) /* ClothingBase */
+     , (29359,   8, 0x06001220) /* Icon */
+     , (29359,  22, 0x34000016) /* PhysicsEffectTable */
      , (29359,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

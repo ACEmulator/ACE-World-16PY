@@ -63,12 +63,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21371,   1, 'Brumal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21371,   1,   33557487) /* Setup */
-     , (21371,   2,  150995087) /* MotionTable */
-     , (21371,   3,  536871002) /* SoundTable */
-     , (21371,   4,  805306368) /* CombatTable */
-     , (21371,   8,  100672514) /* Icon */
-     , (21371,  22,  872415349) /* PhysicsEffectTable */
+VALUES (21371,   1, 0x02000BEF) /* Setup */
+     , (21371,   2, 0x0900008F) /* MotionTable */
+     , (21371,   3, 0x2000005A) /* SoundTable */
+     , (21371,   4, 0x30000000) /* CombatTable */
+     , (21371,   8, 0x06002402) /* Icon */
+     , (21371,  22, 0x34000075) /* PhysicsEffectTable */
      , (21371,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

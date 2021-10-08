@@ -33,9 +33,9 @@ VALUES (25817,   1, 'Red Armor Paint') /* Name */
      , (25817,  20, 'Red Armor Paints') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25817,   1,   33556751) /* Setup */
-     , (25817,   3,  536870932) /* SoundTable */
-     , (25817,   6,   67111919) /* PaletteBase */
-     , (25817,   7,  268436034) /* ClothingBase */
-     , (25817,   8,  100675655) /* Icon */
-     , (25817,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25817,   1, 0x0200090F) /* Setup */
+     , (25817,   3, 0x20000014) /* SoundTable */
+     , (25817,   6, 0x04000BEF) /* PaletteBase */
+     , (25817,   7, 0x10000242) /* ClothingBase */
+     , (25817,   8, 0x06003047) /* Icon */
+     , (25817,  22, 0x3400002B) /* PhysicsEffectTable */;

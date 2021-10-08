@@ -65,14 +65,14 @@ VALUES (21137,   1, 'Martine') /* Name */
      , (21137,   5, 'Altered Human') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21137,   1,   33557825) /* Setup */
-     , (21137,   2,  150995198) /* MotionTable */
-     , (21137,   3,  536870913) /* SoundTable */
-     , (21137,   4,  805306368) /* CombatTable */
-     , (21137,   6,   67108990) /* PaletteBase */
-     , (21137,   7,  268436397) /* ClothingBase */
-     , (21137,   8,  100667446) /* Icon */
-     , (21137,  22,  872415236) /* PhysicsEffectTable */;
+VALUES (21137,   1, 0x02000D41) /* Setup */
+     , (21137,   2, 0x090000FE) /* MotionTable */
+     , (21137,   3, 0x20000001) /* SoundTable */
+     , (21137,   4, 0x30000000) /* CombatTable */
+     , (21137,   6, 0x0400007E) /* PaletteBase */
+     , (21137,   7, 0x100003AD) /* ClothingBase */
+     , (21137,   8, 0x06001036) /* Icon */
+     , (21137,  22, 0x34000004) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (21137,   1, 290, 0, 0) /* Strength */

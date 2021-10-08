@@ -36,9 +36,9 @@ VALUES (23195,   1, 'Directive Keyring') /* Name */
      , (23195,  16, 'A crude keyring roughly carved out of a glacial golem heart. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23195,   1,   33554790) /* Setup */
-     , (23195,   3,  536870932) /* SoundTable */
-     , (23195,   6,   67111919) /* PaletteBase */
-     , (23195,   7,  268435782) /* ClothingBase */
-     , (23195,   8,  100673996) /* Icon */
-     , (23195,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23195,   1, 0x02000166) /* Setup */
+     , (23195,   3, 0x20000014) /* SoundTable */
+     , (23195,   6, 0x04000BEF) /* PaletteBase */
+     , (23195,   7, 0x10000146) /* ClothingBase */
+     , (23195,   8, 0x060029CC) /* Icon */
+     , (23195,  22, 0x3400002B) /* PhysicsEffectTable */;

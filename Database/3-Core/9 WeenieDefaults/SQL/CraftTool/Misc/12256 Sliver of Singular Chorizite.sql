@@ -30,9 +30,9 @@ VALUES (12256,   1, 'Sliver of Singular Chorizite') /* Name */
      , (12256,  16, 'A sliver of incredibly dense Singular Chorizite, imbued with Virindi magical energies.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12256,   1,   33557380) /* Setup */
-     , (12256,   3,  536870932) /* SoundTable */
-     , (12256,   6,   67113398) /* PaletteBase */
-     , (12256,   7,  268436282) /* ClothingBase */
-     , (12256,   8,  100672200) /* Icon */
-     , (12256,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12256,   1, 0x02000B84) /* Setup */
+     , (12256,   3, 0x20000014) /* SoundTable */
+     , (12256,   6, 0x040011B6) /* PaletteBase */
+     , (12256,   7, 0x1000033A) /* ClothingBase */
+     , (12256,   8, 0x060022C8) /* Icon */
+     , (12256,  22, 0x3400002B) /* PhysicsEffectTable */;

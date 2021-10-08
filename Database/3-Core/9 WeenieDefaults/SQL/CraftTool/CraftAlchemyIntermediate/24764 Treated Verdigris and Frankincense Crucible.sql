@@ -32,8 +32,8 @@ VALUES (24764,   1, 'Treated Verdigris and Frankincense Crucible') /* Name */
      , (24764,  20, 'Treated Verdigris and Frankincense Crucibles') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24764,   1,   33555966) /* Setup */
-     , (24764,   3,  536870932) /* SoundTable */
-     , (24764,   8,  100674465) /* Icon */
-     , (24764,  22,  872415275) /* PhysicsEffectTable */
-     , (24764,  50,  100674415) /* IconOverlay */;
+VALUES (24764,   1, 0x020005FE) /* Setup */
+     , (24764,   3, 0x20000014) /* SoundTable */
+     , (24764,   8, 0x06002BA1) /* Icon */
+     , (24764,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24764,  50, 0x06002B6F) /* IconOverlay */;

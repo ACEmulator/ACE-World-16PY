@@ -34,7 +34,7 @@ VALUES (11816,   1, 'Serpent Crest') /* Name */
      , (11816,  16, 'A Serpent Crest.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11816,   1,   33557280) /* Setup */
-     , (11816,   3,  536870932) /* SoundTable */
-     , (11816,   8,  100671946) /* Icon */
-     , (11816,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11816,   1, 0x02000B20) /* Setup */
+     , (11816,   3, 0x20000014) /* SoundTable */
+     , (11816,   8, 0x060021CA) /* Icon */
+     , (11816,  22, 0x3400002B) /* PhysicsEffectTable */;

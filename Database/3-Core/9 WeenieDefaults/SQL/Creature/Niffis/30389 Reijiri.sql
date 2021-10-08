@@ -72,14 +72,14 @@ VALUES (30389,   1, 'Reijiri') /* Name */
      , (30389,   5, 'The Littlest Niffis') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30389,   1,   33556774) /* Setup */
-     , (30389,   2,  150995286) /* MotionTable */
-     , (30389,   3,  536871010) /* SoundTable */
-     , (30389,   4,  805306410) /* CombatTable */
-     , (30389,   6,   67112937) /* PaletteBase */
-     , (30389,   7,  268436039) /* ClothingBase */
-     , (30389,   8,  100670961) /* Icon */
-     , (30389,  22,  872415365) /* PhysicsEffectTable */
+VALUES (30389,   1, 0x02000926) /* Setup */
+     , (30389,   2, 0x09000156) /* MotionTable */
+     , (30389,   3, 0x20000062) /* SoundTable */
+     , (30389,   4, 0x3000002A) /* CombatTable */
+     , (30389,   6, 0x04000FE9) /* PaletteBase */
+     , (30389,   7, 0x10000247) /* ClothingBase */
+     , (30389,   8, 0x06001DF1) /* Icon */
+     , (30389,  22, 0x34000085) /* PhysicsEffectTable */
      , (30389,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

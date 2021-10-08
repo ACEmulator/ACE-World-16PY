@@ -27,7 +27,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11733,   1, 'Big Cave-In Rock') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11733,   1,   33555863) /* Setup */
-     , (11733,   3,  536871003) /* SoundTable */
-     , (11733,   8,  100667500) /* Icon */
-     , (11733,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11733,   1, 0x02000597) /* Setup */
+     , (11733,   3, 0x2000005B) /* SoundTable */
+     , (11733,   8, 0x0600106C) /* Icon */
+     , (11733,  22, 0x3400002B) /* PhysicsEffectTable */;

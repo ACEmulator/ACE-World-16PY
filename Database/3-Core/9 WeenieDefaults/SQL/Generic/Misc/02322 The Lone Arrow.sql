@@ -22,7 +22,7 @@ VALUES (2322,   1, 'The Lone Arrow') /* Name */
      , (2322,  16, 'The Lone Arrow') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2322,   1,   33555088) /* Setup */
-     , (2322,   6,   67111092) /* PaletteBase */
-     , (2322,   7,  268435654) /* ClothingBase */
-     , (2322,   8,  100668115) /* Icon */;
+VALUES (2322,   1, 0x02000290) /* Setup */
+     , (2322,   6, 0x040008B4) /* PaletteBase */
+     , (2322,   7, 0x100000C6) /* ClothingBase */
+     , (2322,   8, 0x060012D3) /* Icon */;

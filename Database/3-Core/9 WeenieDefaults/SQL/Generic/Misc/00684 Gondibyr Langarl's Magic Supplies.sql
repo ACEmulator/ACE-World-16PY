@@ -22,7 +22,7 @@ VALUES (684,   1, 'Gondibyr Langarl''s Magic Supplies') /* Name */
      , (684,  16, 'Gondibyr Langarl''s Magic Supplies') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (684,   1,   33555088) /* Setup */
-     , (684,   6,   67111092) /* PaletteBase */
-     , (684,   7,  268435669) /* ClothingBase */
-     , (684,   8,  100668115) /* Icon */;
+VALUES (684,   1, 0x02000290) /* Setup */
+     , (684,   6, 0x040008B4) /* PaletteBase */
+     , (684,   7, 0x100000D5) /* ClothingBase */
+     , (684,   8, 0x060012D3) /* Icon */;

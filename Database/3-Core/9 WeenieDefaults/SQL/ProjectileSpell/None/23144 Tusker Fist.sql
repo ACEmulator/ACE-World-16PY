@@ -26,8 +26,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23144,   1, 'Tusker Fist') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23144,   1,   33558190) /* Setup */
-     , (23144,   3,  536870971) /* SoundTable */
-     , (23144,   8,  100673815) /* Icon */
+VALUES (23144,   1, 0x02000EAE) /* Setup */
+     , (23144,   3, 0x2000003B) /* SoundTable */
+     , (23144,   8, 0x06002917) /* Icon */
      , (23144,  28,       2934) /* Spell - Tusker Fists */
      , (23144,  30,         90) /* PhysicsScript - ProjectileCollision */;

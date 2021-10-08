@@ -48,10 +48,10 @@ VALUES (25907,   1, 'Gikar''s Dream') /* Name */
      , (25907,  16, 'This staff belonged to Gikar. The fell beast used the staff as a focus of some kind, but out of its hands has become fairly mundane.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25907,   1,   33558562) /* Setup */
-     , (25907,   3,  536870932) /* SoundTable */
-     , (25907,   8,  100675639) /* Icon */
-     , (25907,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25907,   1, 0x02001022) /* Setup */
+     , (25907,   3, 0x20000014) /* SoundTable */
+     , (25907,   8, 0x06003037) /* Icon */
+     , (25907,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25907,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -21,7 +21,7 @@ VALUES (8907,   1, 'Vortex') /* Name */
      , (8907,  16, 'A vortex of intense magical energy surrounded by small stones with strange markings.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8907,   1,   33556944) /* Setup */
-     , (8907,   3,  536870932) /* SoundTable */
-     , (8907,   8,  100671324) /* Icon */
-     , (8907,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8907,   1, 0x020009D0) /* Setup */
+     , (8907,   3, 0x20000014) /* SoundTable */
+     , (8907,   8, 0x06001F5C) /* Icon */
+     , (8907,  22, 0x3400002B) /* PhysicsEffectTable */;

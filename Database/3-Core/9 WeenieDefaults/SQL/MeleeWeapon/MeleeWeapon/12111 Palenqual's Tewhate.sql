@@ -47,12 +47,12 @@ VALUES (12111,   1, 'Palenqual''s Tewhate') /* Name */
      , (12111,  16, 'A tewhate fused to a triple totem.  It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12111,   1,   33557233) /* Setup */
-     , (12111,   3,  536870932) /* SoundTable */
-     , (12111,   8,  100672031) /* Icon */
-     , (12111,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12111,   1, 0x02000AF1) /* Setup */
+     , (12111,   3, 0x20000014) /* SoundTable */
+     , (12111,   8, 0x0600221F) /* Icon */
+     , (12111,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12111,  30,         88) /* PhysicsScript - Create */
-     , (12111,  36,  234881044) /* MutateFilter */
+     , (12111,  36, 0x0E000014) /* MutateFilter */
      , (12111,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

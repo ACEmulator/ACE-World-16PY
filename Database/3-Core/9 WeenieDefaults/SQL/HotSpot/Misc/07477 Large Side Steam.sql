@@ -36,6 +36,6 @@ VALUES (7477,   1, 'Large Side Steam') /* Name */
      , (7477,  17, 'You suffer %i damage from the steam vent.') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7477,   1,   33556691) /* Setup */
-     , (7477,   3,  536870994) /* SoundTable */
-     , (7477,   8,  100667465) /* Icon */;
+VALUES (7477,   1, 0x020008D3) /* Setup */
+     , (7477,   3, 0x20000052) /* SoundTable */
+     , (7477,   8, 0x06001049) /* Icon */;

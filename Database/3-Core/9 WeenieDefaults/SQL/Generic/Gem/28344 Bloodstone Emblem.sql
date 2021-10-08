@@ -29,9 +29,9 @@ VALUES (28344,   1, 'Bloodstone Emblem') /* Name */
      , (28344,  15, 'An Emblem signifying your triumph in the arenas of Kivik Lir''s temple.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28344,   1,   33555194) /* Setup */
-     , (28344,   3,  536870932) /* SoundTable */
-     , (28344,   6,   67111092) /* PaletteBase */
-     , (28344,   7,  268436400) /* ClothingBase */
-     , (28344,   8,  100672819) /* Icon */
-     , (28344,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28344,   1, 0x020002FA) /* Setup */
+     , (28344,   3, 0x20000014) /* SoundTable */
+     , (28344,   6, 0x040008B4) /* PaletteBase */
+     , (28344,   7, 0x100003B0) /* ClothingBase */
+     , (28344,   8, 0x06002533) /* Icon */
+     , (28344,  22, 0x3400002B) /* PhysicsEffectTable */;

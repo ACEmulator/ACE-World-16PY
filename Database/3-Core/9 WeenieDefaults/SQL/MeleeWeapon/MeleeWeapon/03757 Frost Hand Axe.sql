@@ -38,11 +38,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3757,   1, 'Frost Hand Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3757,   1,   33555705) /* Setup */
-     , (3757,   3,  536870932) /* SoundTable */
-     , (3757,   6,   67111919) /* PaletteBase */
-     , (3757,   7,  268435837) /* ClothingBase */
-     , (3757,   8,  100670216) /* Icon */
-     , (3757,  22,  872415275) /* PhysicsEffectTable */
-     , (3757,  36,  234881053) /* MutateFilter */
-     , (3757,  46,  939524098) /* TsysMutationFilter */;
+VALUES (3757,   1, 0x020004F9) /* Setup */
+     , (3757,   3, 0x20000014) /* SoundTable */
+     , (3757,   6, 0x04000BEF) /* PaletteBase */
+     , (3757,   7, 0x1000017D) /* ClothingBase */
+     , (3757,   8, 0x06001B08) /* Icon */
+     , (3757,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3757,  36, 0x0E00001D) /* MutateFilter */
+     , (3757,  46, 0x38000002) /* TsysMutationFilter */;

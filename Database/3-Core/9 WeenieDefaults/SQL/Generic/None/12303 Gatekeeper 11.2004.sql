@@ -15,5 +15,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12303,   1, 'Gatekeeper 11.2004') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12303,   1,   33554705) /* Setup */
-     , (12303,   8,  100667509) /* Icon */;
+VALUES (12303,   1, 0x02000111) /* Setup */
+     , (12303,   8, 0x06001075) /* Icon */;

@@ -27,9 +27,9 @@ VALUES (20625,   1, 'Precarious Sojourn Portal') /* Name */
      , (20625,  37, 'SPOKEWITHSLITHE') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20625,   1,   33555923) /* Setup */
-     , (20625,   2,  150994947) /* MotionTable */
-     , (20625,   8,  100667499) /* Icon */;
+VALUES (20625,   1, 0x020005D3) /* Setup */
+     , (20625,   2, 0x09000003) /* MotionTable */
+     , (20625,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (20625, 2, 0x344F0007, 11.968, 149.905, 92, 0.969991, 0, 0, -0.243141) /* Destination */

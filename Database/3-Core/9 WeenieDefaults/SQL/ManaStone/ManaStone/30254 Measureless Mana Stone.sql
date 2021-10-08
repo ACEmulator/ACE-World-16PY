@@ -27,5 +27,5 @@ VALUES (30254,   1, 'Measureless Mana Stone') /* Name */
      , (30254,  16, 'A lovely template for a rare.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30254,   1,   33555641) /* Setup */
-     , (30254,   8,  100676302) /* Icon */;
+VALUES (30254,   1, 0x020004B9) /* Setup */
+     , (30254,   8, 0x060032CE) /* Icon */;

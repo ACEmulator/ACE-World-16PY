@@ -40,11 +40,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27123,   1, 'Bone Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27123,   1,   33558584) /* Setup */
-     , (27123,   3,  536870932) /* SoundTable */
-     , (27123,   8,  100675766) /* Icon */
-     , (27123,  22,  872415275) /* PhysicsEffectTable */
-     , (27123,  36,  234881044) /* MutateFilter */;
+VALUES (27123,   1, 0x02001038) /* Setup */
+     , (27123,   3, 0x20000014) /* SoundTable */
+     , (27123,   8, 0x060030B6) /* Icon */
+     , (27123,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27123,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27123,  2116,      2)  /* Aura of Atlan's Alacrity */

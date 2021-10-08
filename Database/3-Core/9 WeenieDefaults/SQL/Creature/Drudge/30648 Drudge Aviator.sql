@@ -69,14 +69,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30648,   1, 'Drudge Aviator') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30648,   1,   33556445) /* Setup */
-     , (30648,   2,  150994952) /* MotionTable */
-     , (30648,   3,  536870919) /* SoundTable */
-     , (30648,   4,  805306372) /* CombatTable */
-     , (30648,   6,   67112812) /* PaletteBase */
-     , (30648,   7,  268435975) /* ClothingBase */
-     , (30648,   8,  100667445) /* Icon */
-     , (30648,  22,  872415258) /* PhysicsEffectTable */
+VALUES (30648,   1, 0x020007DD) /* Setup */
+     , (30648,   2, 0x09000008) /* MotionTable */
+     , (30648,   3, 0x20000007) /* SoundTable */
+     , (30648,   4, 0x30000004) /* CombatTable */
+     , (30648,   6, 0x04000F6C) /* PaletteBase */
+     , (30648,   7, 0x10000207) /* ClothingBase */
+     , (30648,   8, 0x06001035) /* Icon */
+     , (30648,  22, 0x3400001A) /* PhysicsEffectTable */
      , (30648,  32,        273) /* WieldedTreasureType - 
                                    Wield 10x Frost Throwing Club (23660) | Probability: 33%
                                    Wield 10x Fire Throwing Club (23656) | Probability: 33%

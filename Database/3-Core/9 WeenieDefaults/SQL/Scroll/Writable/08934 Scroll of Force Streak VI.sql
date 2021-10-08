@@ -25,7 +25,7 @@ VALUES (8934,   1, 'Scroll of Force Streak VI') /* Name */
      , (8934,  16, 'When learned, this spell sends a bolt of force streaking towards the target. The bolt does 32-60 points of piercing damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8934,   1,   33554826) /* Setup */
-     , (8934,   8,  100677019) /* Icon */
-     , (8934,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8934,   1, 0x0200018A) /* Setup */
+     , (8934,   8, 0x0600359B) /* Icon */
+     , (8934,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8934,  28,       1807) /* Spell - Force Streak VI */;

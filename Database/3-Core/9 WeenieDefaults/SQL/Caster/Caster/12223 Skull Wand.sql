@@ -31,8 +31,8 @@ VALUES (12223,   1, 'Skull Wand') /* Name */
      , (12223,  16, 'A wand with a shrunken skull on it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12223,   1,   33557371) /* Setup */
-     , (12223,   3,  536870932) /* SoundTable */
-     , (12223,   8,  100672181) /* Icon */
-     , (12223,  22,  872415275) /* PhysicsEffectTable */
-     , (12223,  36,  234881046) /* MutateFilter */;
+VALUES (12223,   1, 0x02000B7B) /* Setup */
+     , (12223,   3, 0x20000014) /* SoundTable */
+     , (12223,   8, 0x060022B5) /* Icon */
+     , (12223,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (12223,  36, 0x0E000016) /* MutateFilter */;

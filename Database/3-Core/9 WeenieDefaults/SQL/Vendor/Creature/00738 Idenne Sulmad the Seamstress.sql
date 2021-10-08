@@ -70,11 +70,11 @@ VALUES (738,   1, 'Idenne Sulmad the Seamstress') /* Name */
      , (738,  24, 'Glenden Wood') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (738,   1,   33554510) /* Setup */
-     , (738,   2,  150994945) /* MotionTable */
-     , (738,   3,  536870914) /* SoundTable */
-     , (738,   4,  805306368) /* CombatTable */
-     , (738,   8,  100667446) /* Icon */;
+VALUES (738,   1, 0x0200004E) /* Setup */
+     , (738,   2, 0x09000001) /* MotionTable */
+     , (738,   3, 0x20000002) /* SoundTable */
+     , (738,   4, 0x30000000) /* CombatTable */
+     , (738,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (738,   1,  20, 0, 0) /* Strength */

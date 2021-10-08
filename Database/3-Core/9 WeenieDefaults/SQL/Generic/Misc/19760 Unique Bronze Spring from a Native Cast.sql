@@ -26,5 +26,5 @@ VALUES (19760,   1, 'Unique Bronze Spring from a Native Cast') /* Name */
      , (19760,  37, 'EventHighSkeletonKiller') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19760,   1,   33557682) /* Setup */
-     , (19760,   8,  100672957) /* Icon */;
+VALUES (19760,   1, 0x02000CB2) /* Setup */
+     , (19760,   8, 0x060025BD) /* Icon */;

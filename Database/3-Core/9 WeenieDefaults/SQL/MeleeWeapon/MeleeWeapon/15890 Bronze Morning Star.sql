@@ -38,9 +38,9 @@ VALUES (15890,   1, 'Bronze Morning Star') /* Name */
      , (15890,  33, 'MorningStatuePickUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15890,   1,   33554748) /* Setup */
-     , (15890,   3,  536870932) /* SoundTable */
-     , (15890,   6,   67111919) /* PaletteBase */
-     , (15890,   7,  268435764) /* ClothingBase */
-     , (15890,   8,  100668965) /* Icon */
-     , (15890,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15890,   1, 0x0200013C) /* Setup */
+     , (15890,   3, 0x20000014) /* SoundTable */
+     , (15890,   6, 0x04000BEF) /* PaletteBase */
+     , (15890,   7, 0x10000134) /* ClothingBase */
+     , (15890,   8, 0x06001625) /* Icon */
+     , (15890,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -24,10 +24,10 @@ VALUES (11737,   1, 'Falcon Banner') /* Name */
      , (11737,  16, 'A banner with a Falcon on it.  It is somewhat tattered, and the colors seem to be washed out.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11737,   1,   33557239) /* Setup */
-     , (11737,   3,  536870932) /* SoundTable */
-     , (11737,   6,   67113338) /* PaletteBase */
-     , (11737,   7,  268436200) /* ClothingBase */
-     , (11737,   8,  100671888) /* Icon */
-     , (11737,  22,  872415275) /* PhysicsEffectTable */
-     , (11737,  36,  234881046) /* MutateFilter */;
+VALUES (11737,   1, 0x02000AF7) /* Setup */
+     , (11737,   3, 0x20000014) /* SoundTable */
+     , (11737,   6, 0x0400117A) /* PaletteBase */
+     , (11737,   7, 0x100002E8) /* ClothingBase */
+     , (11737,   8, 0x06002190) /* Icon */
+     , (11737,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11737,  36, 0x0E000016) /* MutateFilter */;

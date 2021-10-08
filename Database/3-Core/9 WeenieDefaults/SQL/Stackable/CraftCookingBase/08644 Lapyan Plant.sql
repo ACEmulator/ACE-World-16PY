@@ -30,9 +30,9 @@ VALUES (8644,   1, 'Lapyan Plant') /* Name */
      , (8644,  20, 'Lapyan Plants') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8644,   1,   33556750) /* Setup */
-     , (8644,   3,  536870932) /* SoundTable */
-     , (8644,   6,   67111919) /* PaletteBase */
-     , (8644,   7,  268436033) /* ClothingBase */
-     , (8644,   8,  100670767) /* Icon */
-     , (8644,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8644,   1, 0x0200090E) /* Setup */
+     , (8644,   3, 0x20000014) /* SoundTable */
+     , (8644,   6, 0x04000BEF) /* PaletteBase */
+     , (8644,   7, 0x10000241) /* ClothingBase */
+     , (8644,   8, 0x06001D2F) /* Icon */
+     , (8644,  22, 0x3400002B) /* PhysicsEffectTable */;

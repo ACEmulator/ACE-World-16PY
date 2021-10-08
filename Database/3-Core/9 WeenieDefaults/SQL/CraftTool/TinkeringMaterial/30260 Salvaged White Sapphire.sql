@@ -37,9 +37,9 @@ VALUES (30260,   1, 'Salvaged White Sapphire') /* Name */
      , (30260,  15, 'Chips of white sapphire material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30260,   1,   33554817) /* Setup */
-     , (30260,   3,  536870932) /* SoundTable */
-     , (30260,   6,   67111919) /* PaletteBase */
-     , (30260,   7,  268436874) /* ClothingBase */
-     , (30260,   8,  100677143) /* Icon */
-     , (30260,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30260,   1, 0x02000181) /* Setup */
+     , (30260,   3, 0x20000014) /* SoundTable */
+     , (30260,   6, 0x04000BEF) /* PaletteBase */
+     , (30260,   7, 0x1000058A) /* ClothingBase */
+     , (30260,   8, 0x06003617) /* Icon */
+     , (30260,  22, 0x3400002B) /* PhysicsEffectTable */;

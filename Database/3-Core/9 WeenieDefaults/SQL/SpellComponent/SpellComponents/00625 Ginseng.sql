@@ -26,10 +26,10 @@ VALUES (625,   1, 'Ginseng') /* Name */
      , (625,  20, 'Sacks of Ginseng') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (625,   1,   33554817) /* Setup */
-     , (625,   3,  536870932) /* SoundTable */
-     , (625,   6,   67111919) /* PaletteBase */
-     , (625,   7,  268435720) /* ClothingBase */
-     , (625,   8,  100668423) /* Icon */
-     , (625,  22,  872415275) /* PhysicsEffectTable */
+VALUES (625,   1, 0x02000181) /* Setup */
+     , (625,   3, 0x20000014) /* SoundTable */
+     , (625,   6, 0x04000BEF) /* PaletteBase */
+     , (625,   7, 0x10000108) /* ClothingBase */
+     , (625,   8, 0x06001407) /* Icon */
+     , (625,  22, 0x3400002B) /* PhysicsEffectTable */
      , (625,  29,         14) /* SpellComponent */;

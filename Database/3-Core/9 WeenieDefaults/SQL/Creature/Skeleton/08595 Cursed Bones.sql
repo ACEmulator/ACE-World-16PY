@@ -61,12 +61,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8595,   1, 'Cursed Bones') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8595,   1,   33555465) /* Setup */
-     , (8595,   2,  150994945) /* MotionTable */
-     , (8595,   3,  536870942) /* SoundTable */
-     , (8595,   4,  805306368) /* CombatTable */
-     , (8595,   8,  100669124) /* Icon */
-     , (8595,  22,  872415269) /* PhysicsEffectTable */
+VALUES (8595,   1, 0x02000409) /* Setup */
+     , (8595,   2, 0x09000001) /* MotionTable */
+     , (8595,   3, 0x2000001E) /* SoundTable */
+     , (8595,   4, 0x30000000) /* CombatTable */
+     , (8595,   8, 0x060016C4) /* Icon */
+     , (8595,  22, 0x34000025) /* PhysicsEffectTable */
      , (8595,  32,        287) /* WieldedTreasureType - 
                                    Wield Yumi (23736) | Probability: 50%
                                    Wield 16x Greater Fire Arrow (5305) | Probability: 100%

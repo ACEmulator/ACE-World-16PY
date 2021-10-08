@@ -25,10 +25,10 @@ VALUES (25519,   1, 'Writ of Refuge Text') /* Name */
      , (25519,  20, 'Writs of Refuge Text') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25519,   1,   33554771) /* Setup */
-     , (25519,   3,  536870932) /* SoundTable */
-     , (25519,   8,  100668117) /* Icon */
-     , (25519,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25519,   1, 0x02000153) /* Setup */
+     , (25519,   3, 0x20000014) /* SoundTable */
+     , (25519,   8, 0x060012D5) /* Icon */
+     , (25519,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (25519, 8, 1000);

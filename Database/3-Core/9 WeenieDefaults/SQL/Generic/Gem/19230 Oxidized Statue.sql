@@ -27,9 +27,9 @@ VALUES (19230,   1, 'Oxidized Statue') /* Name */
      , (19230,  16, 'A small oxidized statue  of a Gromnie crafted by the Arcanum Tinker, in reward for keeping the statues that continue to threaten the cities of Dereth at bay.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19230,   1,   33554487) /* Setup */
-     , (19230,   2,  150995203) /* MotionTable */
-     , (19230,   6,   67109547) /* PaletteBase */
-     , (19230,   7,  268436171) /* ClothingBase */
-     , (19230,   8,  100667938) /* Icon */
-     , (19230,  22,  872415384) /* PhysicsEffectTable */;
+VALUES (19230,   1, 0x02000037) /* Setup */
+     , (19230,   2, 0x09000103) /* MotionTable */
+     , (19230,   6, 0x040002AB) /* PaletteBase */
+     , (19230,   7, 0x100002CB) /* ClothingBase */
+     , (19230,   8, 0x06001222) /* Icon */
+     , (19230,  22, 0x34000098) /* PhysicsEffectTable */;

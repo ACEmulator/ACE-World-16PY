@@ -29,10 +29,10 @@ VALUES (19738,   1, 'Commemorative Bronze Statue') /* Name */
      , (19738,  15, 'A large commemorative statue  of a Banderling crafted by the Arcanum Tinker, in reward for destroying the statues threatening the cities of Glenden Wood, Eastham, and Tou-Tou.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19738,   1,   33554481) /* Setup */
-     , (19738,   2,  150995199) /* MotionTable */
-     , (19738,   6,   67109303) /* PaletteBase */
-     , (19738,   7,  268436366) /* ClothingBase */
-     , (19738,   8,  100667453) /* Icon */
-     , (19738,  22,  872415383) /* PhysicsEffectTable */
-     , (19738,  36,  234881046) /* MutateFilter */;
+VALUES (19738,   1, 0x02000031) /* Setup */
+     , (19738,   2, 0x090000FF) /* MotionTable */
+     , (19738,   6, 0x040001B7) /* PaletteBase */
+     , (19738,   7, 0x1000038E) /* ClothingBase */
+     , (19738,   8, 0x0600103D) /* Icon */
+     , (19738,  22, 0x34000097) /* PhysicsEffectTable */
+     , (19738,  36, 0x0E000016) /* MutateFilter */;

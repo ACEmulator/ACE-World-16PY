@@ -23,5 +23,5 @@ VALUES (5066,   1, 'Al-Arqas North Outpost ') /* Name */
      , (5066,  16, 'Welcome to the North Al-Arqas Outpost') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5066,   1,   33555088) /* Setup */
-     , (5066,   8,  100668115) /* Icon */;
+VALUES (5066,   1, 0x02000290) /* Setup */
+     , (5066,   8, 0x060012D3) /* Icon */;

@@ -35,12 +35,12 @@ VALUES (11787,   1, 'Reinforced Serpent Banner with Symbol') /* Name */
      , (11787,  16, 'A reinforced, symbol tipped banner with a Serpent on it.  It is somewhat tattered, and the colors seem to be washed out.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11787,   1,   33557258) /* Setup */
-     , (11787,   6,   67113338) /* PaletteBase */
-     , (11787,   7,  268436220) /* ClothingBase */
-     , (11787,   8,  100671940) /* Icon */
-     , (11787,  22,  872415275) /* PhysicsEffectTable */
-     , (11787,  27, 1073742049) /* UseUserAnimation - UseMagicWand */;
+VALUES (11787,   1, 0x02000B0A) /* Setup */
+     , (11787,   6, 0x0400117A) /* PaletteBase */
+     , (11787,   7, 0x100002FC) /* ClothingBase */
+     , (11787,   8, 0x060021C4) /* Icon */
+     , (11787,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11787,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11787,   247,      2)  /* Invulnerability Self IV */

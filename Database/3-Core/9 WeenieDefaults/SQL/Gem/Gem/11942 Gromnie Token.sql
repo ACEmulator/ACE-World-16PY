@@ -28,9 +28,9 @@ VALUES (11942,   1, 'Gromnie Token') /* Name */
      , (11942,  16, 'A token with a Gromnie head on it.  This was given to you in exchange for your valor.  If you give it to any of the army collectors, they will grant you a gift. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11942,   1,   33557280) /* Setup */
-     , (11942,   3,  536870932) /* SoundTable */
-     , (11942,   6,   67111919) /* PaletteBase */
-     , (11942,   7,  268435723) /* ClothingBase */
-     , (11942,   8,  100671972) /* Icon */
-     , (11942,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11942,   1, 0x02000B20) /* Setup */
+     , (11942,   3, 0x20000014) /* SoundTable */
+     , (11942,   6, 0x04000BEF) /* PaletteBase */
+     , (11942,   7, 0x1000010B) /* ClothingBase */
+     , (11942,   8, 0x060021E4) /* Icon */
+     , (11942,  22, 0x3400002B) /* PhysicsEffectTable */;

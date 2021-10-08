@@ -65,14 +65,14 @@ VALUES (25719,   1, 'Graven Idol') /* Name */
      , (25719,  15, 'A mosswart idol.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25719,   1,   33556892) /* Setup */
-     , (25719,   2,  150995105) /* MotionTable */
-     , (25719,   3,  536871017) /* SoundTable */
-     , (25719,   4,  805306414) /* CombatTable */
-     , (25719,   6,   67113068) /* PaletteBase */
-     , (25719,   7,  268436089) /* ClothingBase */
-     , (25719,   8,  100671204) /* Icon */
-     , (25719,  22,  872415369) /* PhysicsEffectTable */;
+VALUES (25719,   1, 0x0200099C) /* Setup */
+     , (25719,   2, 0x090000A1) /* MotionTable */
+     , (25719,   3, 0x20000069) /* SoundTable */
+     , (25719,   4, 0x3000002E) /* CombatTable */
+     , (25719,   6, 0x0400106C) /* PaletteBase */
+     , (25719,   7, 0x10000279) /* ClothingBase */
+     , (25719,   8, 0x06001EE4) /* Icon */
+     , (25719,  22, 0x34000089) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25719,   1, 380, 0, 0) /* Strength */

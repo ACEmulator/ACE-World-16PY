@@ -37,11 +37,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6440,   1, 'Celebratory Gem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6440,   1,   33554809) /* Setup */
-     , (6440,   3,  536870932) /* SoundTable */
-     , (6440,   6,   67111919) /* PaletteBase */
-     , (6440,   7,  268435723) /* ClothingBase */
-     , (6440,   8,  100668360) /* Icon */
-     , (6440,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6440,   1, 0x02000179) /* Setup */
+     , (6440,   3, 0x20000014) /* SoundTable */
+     , (6440,   6, 0x04000BEF) /* PaletteBase */
+     , (6440,   7, 0x1000010B) /* ClothingBase */
+     , (6440,   8, 0x060013C8) /* Icon */
+     , (6440,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6440,  28,       1708) /* Spell - Wedding Bliss */
-     , (6440,  36,  234881046) /* MutateFilter */;
+     , (6440,  36, 0x0E000016) /* MutateFilter */;

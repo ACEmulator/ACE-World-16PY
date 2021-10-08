@@ -30,9 +30,9 @@ VALUES (7839,   1, 'Mana Ice Cream') /* Name */
      , (7839,  20, 'Mana Bowls of Ice Cream') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7839,   1,   33554668) /* Setup */
-     , (7839,   3,  536870932) /* SoundTable */
-     , (7839,   6,   67111928) /* PaletteBase */
-     , (7839,   7,  268436020) /* ClothingBase */
-     , (7839,   8,  100670863) /* Icon */
-     , (7839,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7839,   1, 0x020000EC) /* Setup */
+     , (7839,   3, 0x20000014) /* SoundTable */
+     , (7839,   6, 0x04000BF8) /* PaletteBase */
+     , (7839,   7, 0x10000234) /* ClothingBase */
+     , (7839,   8, 0x06001D8F) /* Icon */
+     , (7839,  22, 0x3400002B) /* PhysicsEffectTable */;

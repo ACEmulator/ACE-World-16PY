@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14404,   1, 'Mosswart Pawn') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14404,   1,   33554490) /* Setup */
-     , (14404,   2,  150994953) /* MotionTable */
-     , (14404,   3,  536870959) /* SoundTable */
-     , (14404,   4,  805306373) /* CombatTable */
-     , (14404,   6,   67109310) /* PaletteBase */
-     , (14404,   7,  268435562) /* ClothingBase */
-     , (14404,   8,  100667449) /* Icon */
-     , (14404,  22,  872415264) /* PhysicsEffectTable */;
+VALUES (14404,   1, 0x0200003A) /* Setup */
+     , (14404,   2, 0x09000009) /* MotionTable */
+     , (14404,   3, 0x2000002F) /* SoundTable */
+     , (14404,   4, 0x30000005) /* CombatTable */
+     , (14404,   6, 0x040001BE) /* PaletteBase */
+     , (14404,   7, 0x1000006A) /* ClothingBase */
+     , (14404,   8, 0x06001039) /* Icon */
+     , (14404,  22, 0x34000020) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (14404,   1,  20, 0, 0) /* Strength */

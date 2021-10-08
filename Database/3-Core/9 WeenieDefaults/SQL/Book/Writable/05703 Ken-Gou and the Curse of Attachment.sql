@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5703,   1, 'Ken-Gou and the Curse of Attachment') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5703,   1,   33556013) /* Setup */
-     , (5703,   3,  536870932) /* SoundTable */
-     , (5703,   8,  100668236) /* Icon */
-     , (5703,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5703,   1, 0x0200062D) /* Setup */
+     , (5703,   3, 0x20000014) /* SoundTable */
+     , (5703,   8, 0x0600134C) /* Icon */
+     , (5703,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (5703, 21, 1000);

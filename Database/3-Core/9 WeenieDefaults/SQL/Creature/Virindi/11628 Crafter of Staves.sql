@@ -63,13 +63,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11628,   1, 'Crafter of Staves') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11628,   1,   33554497) /* Setup */
-     , (11628,   2,  150994984) /* MotionTable */
-     , (11628,   3,  536870930) /* SoundTable */
-     , (11628,   4,  805306381) /* CombatTable */
-     , (11628,   6,   67111346) /* PaletteBase */
-     , (11628,   7,  268435649) /* ClothingBase */
-     , (11628,   8,  100667943) /* Icon */;
+VALUES (11628,   1, 0x02000041) /* Setup */
+     , (11628,   2, 0x09000028) /* MotionTable */
+     , (11628,   3, 0x20000012) /* SoundTable */
+     , (11628,   4, 0x3000000D) /* CombatTable */
+     , (11628,   6, 0x040009B2) /* PaletteBase */
+     , (11628,   7, 0x100000C1) /* ClothingBase */
+     , (11628,   8, 0x06001227) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11628,   1,  40, 0, 0) /* Strength */

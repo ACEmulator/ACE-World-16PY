@@ -31,8 +31,8 @@ VALUES (24713,   1, 'Cobalt and Frankincense Crucible') /* Name */
      , (24713,  20, 'Cobalt and Frankincense Crucible') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24713,   1,   33555966) /* Setup */
-     , (24713,   3,  536870932) /* SoundTable */
-     , (24713,   8,  100674470) /* Icon */
-     , (24713,  22,  872415275) /* PhysicsEffectTable */
-     , (24713,  50,  100674415) /* IconOverlay */;
+VALUES (24713,   1, 0x020005FE) /* Setup */
+     , (24713,   3, 0x20000014) /* SoundTable */
+     , (24713,   8, 0x06002BA6) /* Icon */
+     , (24713,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24713,  50, 0x06002B6F) /* IconOverlay */;

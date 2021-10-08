@@ -22,7 +22,7 @@ VALUES (500,   1, 'Carsith''s Forge') /* Name */
      , (500,  16, 'Carsith''s Forge                                                                                                                                      Use side door.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (500,   1,   33555593) /* Setup */
-     , (500,   6,   67111092) /* PaletteBase */
-     , (500,   7,  268435670) /* ClothingBase */
-     , (500,   8,  100668115) /* Icon */;
+VALUES (500,   1, 0x02000489) /* Setup */
+     , (500,   6, 0x040008B4) /* PaletteBase */
+     , (500,   7, 0x100000D6) /* ClothingBase */
+     , (500,   8, 0x060012D3) /* Icon */;

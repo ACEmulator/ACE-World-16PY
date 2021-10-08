@@ -68,14 +68,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5429,   1, 'Desert Rabbit') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5429,   1,   33555579) /* Setup */
-     , (5429,   2,  150995042) /* MotionTable */
-     , (5429,   3,  536870973) /* SoundTable */
-     , (5429,   4,  805306389) /* CombatTable */
-     , (5429,   6,   67109300) /* PaletteBase */
-     , (5429,   7,  268435725) /* ClothingBase */
-     , (5429,   8,  100669116) /* Icon */
-     , (5429,  22,  872415277) /* PhysicsEffectTable */;
+VALUES (5429,   1, 0x0200047B) /* Setup */
+     , (5429,   2, 0x09000062) /* MotionTable */
+     , (5429,   3, 0x2000003D) /* SoundTable */
+     , (5429,   4, 0x30000015) /* CombatTable */
+     , (5429,   6, 0x040001B4) /* PaletteBase */
+     , (5429,   7, 0x1000010D) /* ClothingBase */
+     , (5429,   8, 0x060016BC) /* Icon */
+     , (5429,  22, 0x3400002D) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5429,   1,  10, 0, 0) /* Strength */

@@ -45,12 +45,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6197,   1, 'Fine Stinging Atlan Claw') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6197,   1,   33556318) /* Setup */
-     , (6197,   3,  536870932) /* SoundTable */
-     , (6197,   6,   67111919) /* PaletteBase */
-     , (6197,   7,  268435897) /* ClothingBase */
-     , (6197,   8,  100670534) /* Icon */
-     , (6197,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6197,   1, 0x0200075E) /* Setup */
+     , (6197,   3, 0x20000014) /* SoundTable */
+     , (6197,   6, 0x04000BEF) /* PaletteBase */
+     , (6197,   7, 0x100001B9) /* ClothingBase */
+     , (6197,   8, 0x06001C46) /* Icon */
+     , (6197,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6197,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

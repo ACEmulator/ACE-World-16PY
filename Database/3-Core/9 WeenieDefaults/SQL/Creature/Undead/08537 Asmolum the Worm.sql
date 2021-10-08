@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8537,   1, 'Asmolum the Worm') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8537,   1,   33554839) /* Setup */
-     , (8537,   2,  150994967) /* MotionTable */
-     , (8537,   3,  536870934) /* SoundTable */
-     , (8537,   4,  805306368) /* CombatTable */
-     , (8537,   6,   67110722) /* PaletteBase */
-     , (8537,   7,  268435558) /* ClothingBase */
-     , (8537,   8,  100667942) /* Icon */
-     , (8537,  22,  872415272) /* PhysicsEffectTable */
+VALUES (8537,   1, 0x02000197) /* Setup */
+     , (8537,   2, 0x09000017) /* MotionTable */
+     , (8537,   3, 0x20000016) /* SoundTable */
+     , (8537,   4, 0x30000000) /* CombatTable */
+     , (8537,   6, 0x04000742) /* PaletteBase */
+     , (8537,   7, 0x10000066) /* ClothingBase */
+     , (8537,   8, 0x06001226) /* Icon */
+     , (8537,  22, 0x34000028) /* PhysicsEffectTable */
      , (8537,  32,        337) /* WieldedTreasureType - 
                                    Wield 2x Asmolum's Throwing Dagger (8525) | Probability: 100%
                                    Wield Asmolum's Dagger (8524) | Probability: 100% */;

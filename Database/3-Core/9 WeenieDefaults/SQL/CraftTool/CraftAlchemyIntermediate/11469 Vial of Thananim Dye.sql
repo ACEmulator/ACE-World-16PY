@@ -32,9 +32,9 @@ VALUES (11469,   1, 'Vial of Thananim Dye') /* Name */
      , (11469,  20, 'Vials of Thananim Dye') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11469,   1,   33556751) /* Setup */
-     , (11469,   3,  536870932) /* SoundTable */
-     , (11469,   6,   67111919) /* PaletteBase */
-     , (11469,   7,  268436034) /* ClothingBase */
-     , (11469,   8,  100670264) /* Icon */
-     , (11469,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11469,   1, 0x0200090F) /* Setup */
+     , (11469,   3, 0x20000014) /* SoundTable */
+     , (11469,   6, 0x04000BEF) /* PaletteBase */
+     , (11469,   7, 0x10000242) /* ClothingBase */
+     , (11469,   8, 0x06001B38) /* Icon */
+     , (11469,  22, 0x3400002B) /* PhysicsEffectTable */;

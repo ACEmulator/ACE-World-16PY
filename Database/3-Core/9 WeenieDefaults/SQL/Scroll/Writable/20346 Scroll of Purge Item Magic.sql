@@ -24,7 +24,7 @@ VALUES (20346,   1, 'Scroll of Purge Item Magic') /* Name */
      , (20346,  15, 'When learned, this spell dispels 2-6 positive Item Magic enchantments of level 5 or lower from the target.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20346,   1,   33554826) /* Setup */
-     , (20346,   8,  100676659) /* Icon */
-     , (20346,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20346,   1, 0x0200018A) /* Setup */
+     , (20346,   8, 0x06003433) /* Icon */
+     , (20346,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20346,  28,       1944) /* Spell - Purge Item Magic */;

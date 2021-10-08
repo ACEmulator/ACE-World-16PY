@@ -31,8 +31,8 @@ VALUES (24697,   1, 'Stibnite and Eyebright Crucible') /* Name */
      , (24697,  20, 'Stubnite and Eyebright Crucibles') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24697,   1,   33555966) /* Setup */
-     , (24697,   3,  536870932) /* SoundTable */
-     , (24697,   8,  100674467) /* Icon */
-     , (24697,  22,  872415275) /* PhysicsEffectTable */
-     , (24697,  50,  100674413) /* IconOverlay */;
+VALUES (24697,   1, 0x020005FE) /* Setup */
+     , (24697,   3, 0x20000014) /* SoundTable */
+     , (24697,   8, 0x06002BA3) /* Icon */
+     , (24697,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24697,  50, 0x06002B6D) /* IconOverlay */;

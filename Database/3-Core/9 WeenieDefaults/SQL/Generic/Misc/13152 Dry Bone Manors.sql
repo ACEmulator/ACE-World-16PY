@@ -22,5 +22,5 @@ VALUES (13152,   1, 'Dry Bone Manors') /* Name */
      , (13152,  16, 'Welcome to Dry Bone Manors') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13152,   1,   33557463) /* Setup */
-     , (13152,   8,  100668115) /* Icon */;
+VALUES (13152,   1, 0x02000BD7) /* Setup */
+     , (13152,   8, 0x060012D3) /* Icon */;

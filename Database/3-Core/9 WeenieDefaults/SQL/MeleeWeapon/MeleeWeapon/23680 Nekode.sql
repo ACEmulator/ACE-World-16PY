@@ -39,14 +39,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23680,   1, 'Nekode') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23680,   1,   33555996) /* Setup */
-     , (23680,   3,  536870932) /* SoundTable */
-     , (23680,   6,   67111919) /* PaletteBase */
-     , (23680,   7,  268435828) /* ClothingBase */
-     , (23680,   8,  100670026) /* Icon */
-     , (23680,  22,  872415275) /* PhysicsEffectTable */
-     , (23680,  36,  234881053) /* MutateFilter */
-     , (23680,  46,  939524102) /* TsysMutationFilter */;
+VALUES (23680,   1, 0x0200061C) /* Setup */
+     , (23680,   3, 0x20000014) /* SoundTable */
+     , (23680,   6, 0x04000BEF) /* PaletteBase */
+     , (23680,   7, 0x10000174) /* ClothingBase */
+     , (23680,   8, 0x06001A4A) /* Icon */
+     , (23680,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (23680,  36, 0x0E00001D) /* MutateFilter */
+     , (23680,  46, 0x38000006) /* TsysMutationFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23680,  1615,      2)  /* Aura of Blood Drinker Self V */

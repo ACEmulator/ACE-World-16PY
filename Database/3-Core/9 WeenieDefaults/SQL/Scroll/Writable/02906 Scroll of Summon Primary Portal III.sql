@@ -24,7 +24,7 @@ VALUES (2906,   1, 'Scroll of Summon Primary Portal III') /* Name */
      , (2906,  15, 'When learned, this spell summons a portal that goes to the destination of the caster''s linked portal, set with Primary Portal Tie.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2906,   1,   33554826) /* Setup */
-     , (2906,   8,  100676673) /* Icon */
-     , (2906,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2906,   1, 0x0200018A) /* Setup */
+     , (2906,   8, 0x06003441) /* Icon */
+     , (2906,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2906,  28,       1637) /* Spell - Summon Primary Portal III */;

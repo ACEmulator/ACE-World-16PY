@@ -29,9 +29,9 @@ VALUES (6321,   1, 'Minor Shivering Stone') /* Name */
      , (6321,  33, 'shiveringstoneminor') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6321,   1,   33556407) /* Setup */
-     , (6321,   3,  536870932) /* SoundTable */
-     , (6321,   6,   67111919) /* PaletteBase */
-     , (6321,   7,  268435965) /* ClothingBase */
-     , (6321,   8,  100670489) /* Icon */
-     , (6321,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6321,   1, 0x020007B7) /* Setup */
+     , (6321,   3, 0x20000014) /* SoundTable */
+     , (6321,   6, 0x04000BEF) /* PaletteBase */
+     , (6321,   7, 0x100001FD) /* ClothingBase */
+     , (6321,   8, 0x06001C19) /* Icon */
+     , (6321,  22, 0x3400002B) /* PhysicsEffectTable */;

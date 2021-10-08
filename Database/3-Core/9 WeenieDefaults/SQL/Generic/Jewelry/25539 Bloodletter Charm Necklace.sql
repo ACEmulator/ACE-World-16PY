@@ -34,13 +34,13 @@ VALUES (25539,   1, 'Bloodletter Charm Necklace') /* Name */
      , (25539,  16, 'A powerful charm crafted by Drudge Bloodletters. The magic within the necklace is now freed.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25539,   1,   33554683) /* Setup */
-     , (25539,   3,  536870932) /* SoundTable */
-     , (25539,   6,   67111919) /* PaletteBase */
-     , (25539,   7,  268435832) /* ClothingBase */
-     , (25539,   8,  100674479) /* Icon */
-     , (25539,  22,  872415275) /* PhysicsEffectTable */
-     , (25539,  36,  234881046) /* MutateFilter */;
+VALUES (25539,   1, 0x020000FB) /* Setup */
+     , (25539,   3, 0x20000014) /* SoundTable */
+     , (25539,   6, 0x04000BEF) /* PaletteBase */
+     , (25539,   7, 0x10000178) /* ClothingBase */
+     , (25539,   8, 0x06002BAF) /* Icon */
+     , (25539,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (25539,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25539,  2583,      2)  /* Minor Strength */

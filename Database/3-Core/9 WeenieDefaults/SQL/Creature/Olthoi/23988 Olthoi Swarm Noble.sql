@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23988,   1, 'Olthoi Swarm Noble') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23988,   1,   33557161) /* Setup */
-     , (23988,   2,  150994946) /* MotionTable */
-     , (23988,   3,  536870925) /* SoundTable */
-     , (23988,   4,  805306395) /* CombatTable */
-     , (23988,   6,   67113236) /* PaletteBase */
-     , (23988,   7,  268436196) /* ClothingBase */
-     , (23988,   8,  100667623) /* Icon */
-     , (23988,  22,  872415265) /* PhysicsEffectTable */
+VALUES (23988,   1, 0x02000AA9) /* Setup */
+     , (23988,   2, 0x09000002) /* MotionTable */
+     , (23988,   3, 0x2000000D) /* SoundTable */
+     , (23988,   4, 0x3000001B) /* CombatTable */
+     , (23988,   6, 0x04001114) /* PaletteBase */
+     , (23988,   7, 0x100002E4) /* ClothingBase */
+     , (23988,   8, 0x060010E7) /* Icon */
+     , (23988,  22, 0x34000021) /* PhysicsEffectTable */
      , (23988,  30,         86) /* PhysicsScript - BreatheAcid */
      , (23988,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 

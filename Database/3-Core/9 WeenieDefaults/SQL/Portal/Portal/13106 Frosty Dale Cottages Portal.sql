@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13106,   1, 'Frosty Dale Cottages Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13106,   1,   33554867) /* Setup */
-     , (13106,   2,  150994947) /* MotionTable */
-     , (13106,   8,  100667499) /* Icon */;
+VALUES (13106,   1, 0x020001B3) /* Setup */
+     , (13106,   2, 0x09000003) /* MotionTable */
+     , (13106,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (13106, 2, 0x87E0001C, 94.219, 81.4, 92.153, -0.577986, 0, -0, -0.816047) /* Destination */

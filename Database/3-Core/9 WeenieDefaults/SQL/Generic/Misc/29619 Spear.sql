@@ -25,12 +25,12 @@ VALUES (29619,   1, 'Spear') /* Name */
      , (29619,  33, 'MemoryGamePickedupSpear') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29619,   1,   33554756) /* Setup */
-     , (29619,   3,  536870932) /* SoundTable */
-     , (29619,   6,   67111919) /* PaletteBase */
-     , (29619,   7,  268435768) /* ClothingBase */
-     , (29619,   8,  100669005) /* Icon */
-     , (29619,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29619,   1, 0x02000144) /* Setup */
+     , (29619,   3, 0x20000014) /* SoundTable */
+     , (29619,   6, 0x04000BEF) /* PaletteBase */
+     , (29619,   7, 0x10000138) /* ClothingBase */
+     , (29619,   8, 0x0600164D) /* Icon */
+     , (29619,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (29619, 10 /* PickUp */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

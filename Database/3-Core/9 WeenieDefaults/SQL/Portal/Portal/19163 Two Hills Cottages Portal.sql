@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19163,   1, 'Two Hills Cottages Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19163,   1,   33554867) /* Setup */
-     , (19163,   2,  150994947) /* MotionTable */
-     , (19163,   8,  100667499) /* Icon */;
+VALUES (19163,   1, 0x020001B3) /* Setup */
+     , (19163,   2, 0x09000003) /* MotionTable */
+     , (19163,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (19163, 2, 0x56B0002C, 127.562, 94.061, 76.87, -0.320448, 0, -0, -0.947266) /* Destination */

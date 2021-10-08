@@ -64,12 +64,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8594,   1, 'Ashen Bones') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8594,   1,   33555465) /* Setup */
-     , (8594,   2,  150994945) /* MotionTable */
-     , (8594,   3,  536870942) /* SoundTable */
-     , (8594,   4,  805306368) /* CombatTable */
-     , (8594,   8,  100669124) /* Icon */
-     , (8594,  22,  872415269) /* PhysicsEffectTable */
+VALUES (8594,   1, 0x02000409) /* Setup */
+     , (8594,   2, 0x09000001) /* MotionTable */
+     , (8594,   3, 0x2000001E) /* SoundTable */
+     , (8594,   4, 0x30000000) /* CombatTable */
+     , (8594,   8, 0x060016C4) /* Icon */
+     , (8594,  22, 0x34000025) /* PhysicsEffectTable */
      , (8594,  32,        311) /* WieldedTreasureType - 
                                    Wield Yumi (23736) | Probability: 50%
                                    Wield 16x Greater Fire Arrow (5305) | Probability: 100%

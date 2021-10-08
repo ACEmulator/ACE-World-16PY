@@ -39,9 +39,9 @@ VALUES (25655,   1, 'Helm of the Crag') /* Name */
      , (25655,  16, 'A large horned helm with the horns of a large mattekar.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25655,   1,   33557002) /* Setup */
-     , (25655,   3,  536870932) /* SoundTable */
-     , (25655,   6,   67108990) /* PaletteBase */
-     , (25655,   7,  268436151) /* ClothingBase */
-     , (25655,   8,  100667349) /* Icon */
-     , (25655,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25655,   1, 0x02000A0A) /* Setup */
+     , (25655,   3, 0x20000014) /* SoundTable */
+     , (25655,   6, 0x0400007E) /* PaletteBase */
+     , (25655,   7, 0x100002B7) /* ClothingBase */
+     , (25655,   8, 0x06000FD5) /* Icon */
+     , (25655,  22, 0x3400002B) /* PhysicsEffectTable */;

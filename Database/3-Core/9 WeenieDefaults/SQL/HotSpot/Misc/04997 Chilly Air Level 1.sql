@@ -36,6 +36,6 @@ VALUES (4997,   1, 'Chilly Air Level 1') /* Name */
      , (4997,  17, 'The frigid air chills you for %i points of damage!') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4997,   1,   33556024) /* Setup */
-     , (4997,   3,  536870996) /* SoundTable */
-     , (4997,   8,  100667465) /* Icon */;
+VALUES (4997,   1, 0x02000638) /* Setup */
+     , (4997,   3, 0x20000054) /* SoundTable */
+     , (4997,   8, 0x06001049) /* Icon */;

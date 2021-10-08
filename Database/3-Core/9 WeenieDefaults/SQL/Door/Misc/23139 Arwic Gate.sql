@@ -31,8 +31,8 @@ VALUES (23139,   1, 'Arwic Gate') /* Name */
      , (23139,  15, 'A strong defensive gate.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23139,   1,   33555490) /* Setup */
-     , (23139,   2,  150994999) /* MotionTable */
-     , (23139,   3,  536870947) /* SoundTable */
-     , (23139,   8,  100668183) /* Icon */
-     , (23139,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23139,   1, 0x02000422) /* Setup */
+     , (23139,   2, 0x09000037) /* MotionTable */
+     , (23139,   3, 0x20000023) /* SoundTable */
+     , (23139,   8, 0x06001317) /* Icon */
+     , (23139,  22, 0x3400002B) /* PhysicsEffectTable */;

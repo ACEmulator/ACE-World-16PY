@@ -41,7 +41,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3801,   1, 'Frost Javelin') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3801,   1,   33555737) /* Setup */
-     , (3801,   3,  536870932) /* SoundTable */
-     , (3801,   8,  100667593) /* Icon */
-     , (3801,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3801,   1, 0x02000519) /* Setup */
+     , (3801,   3, 0x20000014) /* SoundTable */
+     , (3801,   8, 0x060010C9) /* Icon */
+     , (3801,  22, 0x3400002B) /* PhysicsEffectTable */;

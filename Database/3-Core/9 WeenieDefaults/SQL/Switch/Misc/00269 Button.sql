@@ -26,8 +26,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (269,   1, 'Button') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (269,   1,   33554714) /* Setup */
-     , (269,   8,  100667474) /* Icon */;
+VALUES (269,   1, 0x0200011A) /* Setup */
+     , (269,   8, 0x06001052) /* Icon */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (269,  16, 0x00000000) /* ActivationTarget */;

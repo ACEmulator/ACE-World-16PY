@@ -25,8 +25,8 @@ VALUES (14900,   1, 'Symbol of Friendship') /* Name */
      , (14900,  33, 'MarriageSymbolFriendship') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14900,   1,   33557613) /* Setup */
-     , (14900,   3,  536870932) /* SoundTable */
-     , (14900,   8,  100672701) /* Icon */
-     , (14900,  22,  872415275) /* PhysicsEffectTable */
-     , (14900,  36,  234881046) /* MutateFilter */;
+VALUES (14900,   1, 0x02000C6D) /* Setup */
+     , (14900,   3, 0x20000014) /* SoundTable */
+     , (14900,   8, 0x060024BD) /* Icon */
+     , (14900,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (14900,  36, 0x0E000016) /* MutateFilter */;

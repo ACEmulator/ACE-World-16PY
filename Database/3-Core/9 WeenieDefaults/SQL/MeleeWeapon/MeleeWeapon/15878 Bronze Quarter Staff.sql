@@ -38,10 +38,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15878,   1, 'Bronze Quarter Staff') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15878,   1,   33554749) /* Setup */
-     , (15878,   3,  536870932) /* SoundTable */
-     , (15878,   6,   67111919) /* PaletteBase */
-     , (15878,   7,  268435795) /* ClothingBase */
-     , (15878,   8,  100669105) /* Icon */
-     , (15878,  22,  872415275) /* PhysicsEffectTable */
-     , (15878,  36,  234881044) /* MutateFilter */;
+VALUES (15878,   1, 0x0200013D) /* Setup */
+     , (15878,   3, 0x20000014) /* SoundTable */
+     , (15878,   6, 0x04000BEF) /* PaletteBase */
+     , (15878,   7, 0x10000153) /* ClothingBase */
+     , (15878,   8, 0x060016B1) /* Icon */
+     , (15878,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (15878,  36, 0x0E000014) /* MutateFilter */;

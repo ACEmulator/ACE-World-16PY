@@ -32,8 +32,8 @@ VALUES (24751,   1, 'Treated Brimstone and Eyebright Crucible') /* Name */
      , (24751,  20, 'Treated Brimstone and Eyebright Crucibles') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24751,   1,   33555966) /* Setup */
-     , (24751,   3,  536870932) /* SoundTable */
-     , (24751,   8,  100674469) /* Icon */
-     , (24751,  22,  872415275) /* PhysicsEffectTable */
-     , (24751,  50,  100674413) /* IconOverlay */;
+VALUES (24751,   1, 0x020005FE) /* Setup */
+     , (24751,   3, 0x20000014) /* SoundTable */
+     , (24751,   8, 0x06002BA5) /* Icon */
+     , (24751,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24751,  50, 0x06002B6D) /* IconOverlay */;

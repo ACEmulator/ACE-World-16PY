@@ -25,7 +25,7 @@ VALUES (8921,   1, 'Scroll of Flame Streak II') /* Name */
      , (8921,  16, 'When learned, this spell sends a bolt of flame streaking towards the target.  The bolt does 7-13 points of fire damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8921,   1,   33554826) /* Setup */
-     , (8921,   8,  100677022) /* Icon */
-     , (8921,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8921,   1, 0x0200018A) /* Setup */
+     , (8921,   8, 0x0600359E) /* Icon */
+     , (8921,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8921,  28,       1797) /* Spell - Flame Streak II */;

@@ -29,9 +29,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22719,   1, 'Tusker''s Friend') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22719,   1,   33555536) /* Setup */
-     , (22719,   2,  150994977) /* MotionTable */
-     , (22719,   8,  100668114) /* Icon */
+VALUES (22719,   1, 0x02000450) /* Setup */
+     , (22719,   2, 0x09000021) /* MotionTable */
+     , (22719,   8, 0x060012D2) /* Icon */
      , (22719,  23,        149) /* UseSound - TriggerActivated */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)

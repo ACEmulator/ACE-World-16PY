@@ -50,12 +50,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20099,   1, 'Superb Chilling Isparian Bow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20099,   1,   33557752) /* Setup */
-     , (20099,   3,  536870932) /* SoundTable */
-     , (20099,   6,   67111919) /* PaletteBase */
-     , (20099,   7,  268436394) /* ClothingBase */
-     , (20099,   8,  100673009) /* Icon */
-     , (20099,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20099,   1, 0x02000CF8) /* Setup */
+     , (20099,   3, 0x20000014) /* SoundTable */
+     , (20099,   6, 0x04000BEF) /* PaletteBase */
+     , (20099,   7, 0x100003AA) /* ClothingBase */
+     , (20099,   8, 0x060025F1) /* Icon */
+     , (20099,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20099,  37,          2) /* ItemSkillLimit - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

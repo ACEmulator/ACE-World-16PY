@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12560,   1, 'Tiofor Deeps Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12560,   1,   33554867) /* Setup */
-     , (12560,   2,  150994947) /* MotionTable */
-     , (12560,   8,  100667499) /* Icon */;
+VALUES (12560,   1, 0x020001B3) /* Setup */
+     , (12560,   2, 0x09000003) /* MotionTable */
+     , (12560,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12560, 2, 0x78B20023, 111.668, 63.769, 89.302, 0.565673, 0, 0, -0.82463) /* Destination */

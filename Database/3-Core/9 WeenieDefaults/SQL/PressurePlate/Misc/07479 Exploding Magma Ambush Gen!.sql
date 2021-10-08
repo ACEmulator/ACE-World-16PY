@@ -27,10 +27,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7479,   1, 'Exploding Magma Ambush Gen!') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7479,   1,   33555536) /* Setup */
-     , (7479,   2,  150994977) /* MotionTable */
-     , (7479,   8,  100668114) /* Icon */
-     , (7479,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7479,   1, 0x02000450) /* Setup */
+     , (7479,   2, 0x09000021) /* MotionTable */
+     , (7479,   8, 0x060012D2) /* Icon */
+     , (7479,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7479,  16, 0x00000000) /* ActivationTarget */;

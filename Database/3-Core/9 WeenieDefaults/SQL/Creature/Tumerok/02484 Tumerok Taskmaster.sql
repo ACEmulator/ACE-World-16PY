@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2484,   1, 'Tumerok Taskmaster') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2484,   1,   33554496) /* Setup */
-     , (2484,   2,  150994954) /* MotionTable */
-     , (2484,   3,  536870931) /* SoundTable */
-     , (2484,   4,  805306380) /* CombatTable */
-     , (2484,   6,   67109314) /* PaletteBase */
-     , (2484,   7,  268435647) /* ClothingBase */
-     , (2484,   8,  100667452) /* Icon */
-     , (2484,  22,  872415270) /* PhysicsEffectTable */;
+VALUES (2484,   1, 0x02000040) /* Setup */
+     , (2484,   2, 0x0900000A) /* MotionTable */
+     , (2484,   3, 0x20000013) /* SoundTable */
+     , (2484,   4, 0x3000000C) /* CombatTable */
+     , (2484,   6, 0x040001C2) /* PaletteBase */
+     , (2484,   7, 0x100000BF) /* ClothingBase */
+     , (2484,   8, 0x0600103C) /* Icon */
+     , (2484,  22, 0x34000026) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2484,   1, 250, 0, 0) /* Strength */

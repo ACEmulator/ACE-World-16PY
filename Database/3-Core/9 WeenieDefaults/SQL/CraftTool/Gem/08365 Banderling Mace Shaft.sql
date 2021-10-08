@@ -33,9 +33,9 @@ VALUES (8365,   1, 'Banderling Mace Shaft') /* Name */
      , (8365,  33, 'BanderlingMaceShaft') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8365,   1,   33554731) /* Setup */
-     , (8365,   3,  536870932) /* SoundTable */
-     , (8365,   6,   67111919) /* PaletteBase */
-     , (8365,   7,  268436082) /* ClothingBase */
-     , (8365,   8,  100671136) /* Icon */
-     , (8365,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8365,   1, 0x0200012B) /* Setup */
+     , (8365,   3, 0x20000014) /* SoundTable */
+     , (8365,   6, 0x04000BEF) /* PaletteBase */
+     , (8365,   7, 0x10000272) /* ClothingBase */
+     , (8365,   8, 0x06001EA0) /* Icon */
+     , (8365,  22, 0x3400002B) /* PhysicsEffectTable */;

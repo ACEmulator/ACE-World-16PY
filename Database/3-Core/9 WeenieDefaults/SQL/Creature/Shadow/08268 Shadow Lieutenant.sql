@@ -70,14 +70,14 @@ VALUES (8268,   1, 'Shadow Lieutenant') /* Name */
      , (8268,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8268,   1,   33554433) /* Setup */
-     , (8268,   2,  150994945) /* MotionTable */
-     , (8268,   3,  536870913) /* SoundTable */
-     , (8268,   4,  805306368) /* CombatTable */
-     , (8268,   6,   67111797) /* PaletteBase */
-     , (8268,   7,  268435632) /* ClothingBase */
-     , (8268,   8,  100670397) /* Icon */
-     , (8268,  22,  872415331) /* PhysicsEffectTable */
+VALUES (8268,   1, 0x02000001) /* Setup */
+     , (8268,   2, 0x09000001) /* MotionTable */
+     , (8268,   3, 0x20000001) /* SoundTable */
+     , (8268,   4, 0x30000000) /* CombatTable */
+     , (8268,   6, 0x04000B75) /* PaletteBase */
+     , (8268,   7, 0x100000B0) /* ClothingBase */
+     , (8268,   8, 0x06001BBD) /* Icon */
+     , (8268,  22, 0x34000063) /* PhysicsEffectTable */
      , (8268,  32,        175) /* WieldedTreasureType - 
                                    Wield Yumi (23735) | Probability: 20%
                                    Wield 14x Fire Arrow (1437) | Probability: 100%

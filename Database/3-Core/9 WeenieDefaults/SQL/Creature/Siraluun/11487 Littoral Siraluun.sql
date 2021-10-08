@@ -62,14 +62,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11487,   1, 'Littoral Siraluun') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11487,   1,   33557059) /* Setup */
-     , (11487,   2,  150995131) /* MotionTable */
-     , (11487,   3,  536871034) /* SoundTable */
-     , (11487,   4,  805306421) /* CombatTable */
-     , (11487,   6,   67113247) /* PaletteBase */
-     , (11487,   7,  268436194) /* ClothingBase */
-     , (11487,   8,  100671751) /* Icon */
-     , (11487,  22,  872415376) /* PhysicsEffectTable */
+VALUES (11487,   1, 0x02000A43) /* Setup */
+     , (11487,   2, 0x090000BB) /* MotionTable */
+     , (11487,   3, 0x2000007A) /* SoundTable */
+     , (11487,   4, 0x30000035) /* CombatTable */
+     , (11487,   6, 0x0400111F) /* PaletteBase */
+     , (11487,   7, 0x100002E2) /* ClothingBase */
+     , (11487,   8, 0x06002107) /* Icon */
+     , (11487,  22, 0x34000090) /* PhysicsEffectTable */
      , (11487,  35,        457) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

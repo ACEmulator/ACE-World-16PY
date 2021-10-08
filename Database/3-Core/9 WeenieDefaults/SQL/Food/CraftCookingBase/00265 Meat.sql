@@ -25,7 +25,7 @@ VALUES (265,   1, 'Meat') /* Name */
      , (265,  20, 'Slabs of Meat') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (265,   1,   33554678) /* Setup */
-     , (265,   3,  536870932) /* SoundTable */
-     , (265,   8,  100667464) /* Icon */
-     , (265,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (265,   1, 0x020000F6) /* Setup */
+     , (265,   3, 0x20000014) /* SoundTable */
+     , (265,   8, 0x06001048) /* Icon */
+     , (265,  22, 0x3400002B) /* PhysicsEffectTable */;

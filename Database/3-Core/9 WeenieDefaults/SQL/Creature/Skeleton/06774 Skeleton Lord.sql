@@ -62,12 +62,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6774,   1, 'Skeleton Lord') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6774,   1,   33555464) /* Setup */
-     , (6774,   2,  150994981) /* MotionTable */
-     , (6774,   3,  536870942) /* SoundTable */
-     , (6774,   4,  805306368) /* CombatTable */
-     , (6774,   8,  100669124) /* Icon */
-     , (6774,  22,  872415269) /* PhysicsEffectTable */
+VALUES (6774,   1, 0x02000408) /* Setup */
+     , (6774,   2, 0x09000025) /* MotionTable */
+     , (6774,   3, 0x2000001E) /* SoundTable */
+     , (6774,   4, 0x30000000) /* CombatTable */
+     , (6774,   8, 0x060016C4) /* Icon */
+     , (6774,  22, 0x34000025) /* PhysicsEffectTable */
      , (6774,  32,        189) /* WieldedTreasureType - 
                                    Wield Battle Axe (301) | Probability: 9%
                                    Wield Broad Sword (350) | Probability: 4%

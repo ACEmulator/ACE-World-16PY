@@ -22,5 +22,5 @@ VALUES (14305,   1, 'Driftwood Cottages') /* Name */
      , (14305,  16, 'Welcome to Driftwood Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14305,   1,   33557463) /* Setup */
-     , (14305,   8,  100668115) /* Icon */;
+VALUES (14305,   1, 0x02000BD7) /* Setup */
+     , (14305,   8, 0x060012D3) /* Icon */;

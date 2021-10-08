@@ -60,14 +60,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2578,   1, 'Shallows Lurker') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2578,   1,   33554489) /* Setup */
-     , (2578,   2,  150994970) /* MotionTable */
-     , (2578,   3,  536870928) /* SoundTable */
-     , (2578,   4,  805306378) /* CombatTable */
-     , (2578,   6,   67109313) /* PaletteBase */
-     , (2578,   7,  268435556) /* ClothingBase */
-     , (2578,   8,  100667939) /* Icon */
-     , (2578,  22,  872415268) /* PhysicsEffectTable */
+VALUES (2578,   1, 0x02000039) /* Setup */
+     , (2578,   2, 0x0900001A) /* MotionTable */
+     , (2578,   3, 0x20000010) /* SoundTable */
+     , (2578,   4, 0x3000000A) /* CombatTable */
+     , (2578,   6, 0x040001C1) /* PaletteBase */
+     , (2578,   7, 0x10000064) /* ClothingBase */
+     , (2578,   8, 0x06001223) /* Icon */
+     , (2578,  22, 0x34000024) /* PhysicsEffectTable */
      , (2578,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

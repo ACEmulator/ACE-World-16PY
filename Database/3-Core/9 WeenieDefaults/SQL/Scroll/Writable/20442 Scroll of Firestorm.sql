@@ -24,7 +24,7 @@ VALUES (20442,   1, 'Scroll of Firestorm') /* Name */
      , (20442,  15, 'When learned, this spell rains nine balls of flame down at the area around the target. Each ball does 60-120 points of fire damage to the first thing it hits.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20442,   1,   33554826) /* Setup */
-     , (20442,   8,  100677022) /* Icon */
-     , (20442,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20442,   1, 0x0200018A) /* Setup */
+     , (20442,   8, 0x0600359E) /* Icon */
+     , (20442,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20442,  28,       1834) /* Spell - Firestorm */;

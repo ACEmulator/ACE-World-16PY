@@ -22,5 +22,5 @@ VALUES (15205,   1, 'Aloria') /* Name */
      , (15205,  16, 'Welcome to Aloria') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15205,   1,   33557463) /* Setup */
-     , (15205,   8,  100668115) /* Icon */;
+VALUES (15205,   1, 0x02000BD7) /* Setup */
+     , (15205,   8, 0x060012D3) /* Icon */;

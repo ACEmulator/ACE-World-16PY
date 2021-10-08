@@ -24,7 +24,7 @@ VALUES (9513,   1, 'Arshid''s Den of Iniquity') /* Name */
      , (9513,  16, 'Welcome to Arshid''s Den of Iniquity!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9513,   1,   33555088) /* Setup */
-     , (9513,   3,  536870932) /* SoundTable */
-     , (9513,   8,  100668115) /* Icon */
-     , (9513,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9513,   1, 0x02000290) /* Setup */
+     , (9513,   3, 0x20000014) /* SoundTable */
+     , (9513,   8, 0x060012D3) /* Icon */
+     , (9513,  22, 0x3400002B) /* PhysicsEffectTable */;

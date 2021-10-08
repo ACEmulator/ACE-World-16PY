@@ -27,7 +27,7 @@ VALUES (5803,   1, 'Oregano') /* Name */
      , (5803,  20, 'Jars of Oregano') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5803,   1,   33555208) /* Setup */
-     , (5803,   6,   67111919) /* PaletteBase */
-     , (5803,   7,  268435718) /* ClothingBase */
-     , (5803,   8,  100670301) /* Icon */;
+VALUES (5803,   1, 0x02000308) /* Setup */
+     , (5803,   6, 0x04000BEF) /* PaletteBase */
+     , (5803,   7, 0x10000106) /* ClothingBase */
+     , (5803,   8, 0x06001B5D) /* Icon */;

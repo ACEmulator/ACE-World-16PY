@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29907,   1, 'Untamed Siraluun Claw') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29907,   1,   33554817) /* Setup */
-     , (29907,   3,  536870932) /* SoundTable */
-     , (29907,   6,   67111919) /* PaletteBase */
-     , (29907,   7,  268435832) /* ClothingBase */
-     , (29907,   8,  100677299) /* Icon */
-     , (29907,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29907,   1, 0x02000181) /* Setup */
+     , (29907,   3, 0x20000014) /* SoundTable */
+     , (29907,   6, 0x04000BEF) /* PaletteBase */
+     , (29907,   7, 0x10000178) /* ClothingBase */
+     , (29907,   8, 0x060036B3) /* Icon */
+     , (29907,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -66,13 +66,13 @@ VALUES (25673,   1, 'Proselytic Shadow') /* Name */
      , (25673,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25673,   1,   33554433) /* Setup */
-     , (25673,   2,  150994945) /* MotionTable */
-     , (25673,   3,  536870913) /* SoundTable */
-     , (25673,   4,  805306368) /* CombatTable */
-     , (25673,   6,   67111797) /* PaletteBase */
-     , (25673,   7,  268435632) /* ClothingBase */
-     , (25673,   8,  100670397) /* Icon */;
+VALUES (25673,   1, 0x02000001) /* Setup */
+     , (25673,   2, 0x09000001) /* MotionTable */
+     , (25673,   3, 0x20000001) /* SoundTable */
+     , (25673,   4, 0x30000000) /* CombatTable */
+     , (25673,   6, 0x04000B75) /* PaletteBase */
+     , (25673,   7, 0x100000B0) /* ClothingBase */
+     , (25673,   8, 0x06001BBD) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25673,   1, 240, 0, 0) /* Strength */

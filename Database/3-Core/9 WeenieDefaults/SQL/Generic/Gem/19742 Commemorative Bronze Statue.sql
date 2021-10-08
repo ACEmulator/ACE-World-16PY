@@ -29,10 +29,10 @@ VALUES (19742,   1, 'Commemorative Bronze Statue') /* Name */
      , (19742,  15, 'A large commemorative statue of a Grievver crafted by the Arcanum Tinker, in reward for destroying the statues threatening the city of Fort Tethana.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19742,   1,   33556698) /* Setup */
-     , (19742,   2,  150995202) /* MotionTable */
-     , (19742,   6,   67112927) /* PaletteBase */
-     , (19742,   7,  268436137) /* ClothingBase */
-     , (19742,   8,  100670960) /* Icon */
-     , (19742,  22,  872415387) /* PhysicsEffectTable */
-     , (19742,  36,  234881046) /* MutateFilter */;
+VALUES (19742,   1, 0x020008DA) /* Setup */
+     , (19742,   2, 0x09000102) /* MotionTable */
+     , (19742,   6, 0x04000FDF) /* PaletteBase */
+     , (19742,   7, 0x100002A9) /* ClothingBase */
+     , (19742,   8, 0x06001DF0) /* Icon */
+     , (19742,  22, 0x3400009B) /* PhysicsEffectTable */
+     , (19742,  36, 0x0E000016) /* MutateFilter */;

@@ -60,14 +60,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (235,   1, 'Goldenback Tusker') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (235,   1,   33556836) /* Setup */
-     , (235,   2,  150994956) /* MotionTable */
-     , (235,   3,  536870929) /* SoundTable */
-     , (235,   4,  805306379) /* CombatTable */
-     , (235,   6,   67109315) /* PaletteBase */
-     , (235,   7,  268436061) /* ClothingBase */
-     , (235,   8,  100667443) /* Icon */
-     , (235,  22,  872415271) /* PhysicsEffectTable */
+VALUES (235,   1, 0x02000964) /* Setup */
+     , (235,   2, 0x0900000C) /* MotionTable */
+     , (235,   3, 0x20000011) /* SoundTable */
+     , (235,   4, 0x3000000B) /* CombatTable */
+     , (235,   6, 0x040001C3) /* PaletteBase */
+     , (235,   7, 0x1000025D) /* ClothingBase */
+     , (235,   8, 0x06001033) /* Icon */
+     , (235,  22, 0x34000027) /* PhysicsEffectTable */
      , (235,  35,        457) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

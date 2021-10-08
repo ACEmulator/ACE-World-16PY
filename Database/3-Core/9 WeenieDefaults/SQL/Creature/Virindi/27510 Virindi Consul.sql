@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27510,   1, 'Virindi Consul') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27510,   1,   33558343) /* Setup */
-     , (27510,   2,  150994984) /* MotionTable */
-     , (27510,   3,  536870930) /* SoundTable */
-     , (27510,   4,  805306381) /* CombatTable */
-     , (27510,   6,   67114250) /* PaletteBase */
-     , (27510,   7,  268436609) /* ClothingBase */
-     , (27510,   8,  100674323) /* Icon */
-     , (27510,  22,  872415273) /* PhysicsEffectTable */
+VALUES (27510,   1, 0x02000F47) /* Setup */
+     , (27510,   2, 0x09000028) /* MotionTable */
+     , (27510,   3, 0x20000012) /* SoundTable */
+     , (27510,   4, 0x3000000D) /* CombatTable */
+     , (27510,   6, 0x0400150A) /* PaletteBase */
+     , (27510,   7, 0x10000481) /* ClothingBase */
+     , (27510,   8, 0x06002B13) /* Icon */
+     , (27510,  22, 0x34000029) /* PhysicsEffectTable */
      , (27510,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

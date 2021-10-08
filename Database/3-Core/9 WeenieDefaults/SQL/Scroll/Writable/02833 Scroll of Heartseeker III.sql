@@ -25,7 +25,7 @@ VALUES (2833,   1, 'Scroll of Heartseeker III') /* Name */
      , (2833,  16, 'When learned, this spell increases a weapon''s Attack Skill modifier by 50%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2833,   1,   33554826) /* Setup */
-     , (2833,   8,  100676660) /* Icon */
-     , (2833,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2833,   1, 0x0200018A) /* Setup */
+     , (2833,   8, 0x06003434) /* Icon */
+     , (2833,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2833,  28,       1589) /* Spell - Aura of Heart Seeker Self III */;

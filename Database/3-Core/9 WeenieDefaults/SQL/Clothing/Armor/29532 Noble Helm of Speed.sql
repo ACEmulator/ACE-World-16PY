@@ -46,12 +46,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29532,   1, 'Noble Helm of Speed') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29532,   1,   33559080) /* Setup */
-     , (29532,   3,  536870932) /* SoundTable */
-     , (29532,   6,   67108990) /* PaletteBase */
-     , (29532,   7,  268436879) /* ClothingBase */
-     , (29532,   8,  100674952) /* Icon */
-     , (29532,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29532,   1, 0x02001228) /* Setup */
+     , (29532,   3, 0x20000014) /* SoundTable */
+     , (29532,   6, 0x0400007E) /* PaletteBase */
+     , (29532,   7, 0x1000058F) /* ClothingBase */
+     , (29532,   8, 0x06002D88) /* Icon */
+     , (29532,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29532,   490,      2)  /* Missile Weapon Mastery Other VI */

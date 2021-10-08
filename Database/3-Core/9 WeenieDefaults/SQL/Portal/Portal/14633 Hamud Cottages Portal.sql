@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14633,   1, 'Hamud Cottages Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14633,   1,   33554867) /* Setup */
-     , (14633,   2,  150994947) /* MotionTable */
-     , (14633,   8,  100667499) /* Icon */;
+VALUES (14633,   1, 0x020001B3) /* Setup */
+     , (14633,   2, 0x09000003) /* MotionTable */
+     , (14633,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (14633, 2, 0x9264001C, 83.425, 88.856, 13.41, 0.888229, 0, 0, -0.459402) /* Destination */

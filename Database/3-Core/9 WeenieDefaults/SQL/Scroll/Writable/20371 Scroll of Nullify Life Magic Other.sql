@@ -24,7 +24,7 @@ VALUES (20371,   1, 'Scroll of Nullify Life Magic Other') /* Name */
      , (20371,  15, 'When learned, this spell dispels 2-6 negative Life Magic enchantments of level 6 or lower from the target.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20371,   1,   33554826) /* Setup */
-     , (20371,   8,  100676935) /* Icon */
-     , (20371,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20371,   1, 0x0200018A) /* Setup */
+     , (20371,   8, 0x06003547) /* Icon */
+     , (20371,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20371,  28,       1987) /* Spell - Nullify Life Magic Other */;

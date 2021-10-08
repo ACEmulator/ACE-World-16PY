@@ -28,8 +28,8 @@ VALUES (11173,   1, 'Leadership Tessera') /* Name */
      , (11173,  16, 'A small, squarish piece of glass. This can be turned into the Tah of Timaru for a free one-point boost to your Leadership skill. There are tesserae available for each skill in the game. If you don''t want a point of Leadership, trade this tessera for another. You may only turn in five per character - so choose carefully!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11173,   1,   33557218) /* Setup */
-     , (11173,   3,  536870932) /* SoundTable */
-     , (11173,   8,  100672012) /* Icon */
-     , (11173,  22,  872415275) /* PhysicsEffectTable */
-     , (11173,  36,  234881046) /* MutateFilter */;
+VALUES (11173,   1, 0x02000AE2) /* Setup */
+     , (11173,   3, 0x20000014) /* SoundTable */
+     , (11173,   8, 0x0600220C) /* Icon */
+     , (11173,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11173,  36, 0x0E000016) /* MutateFilter */;

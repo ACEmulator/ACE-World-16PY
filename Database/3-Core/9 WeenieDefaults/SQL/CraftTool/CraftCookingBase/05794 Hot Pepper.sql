@@ -25,7 +25,7 @@ VALUES (5794,   1, 'Hot Pepper') /* Name */
      , (5794,  20, 'Hot Peppers') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5794,   1,   33556234) /* Setup */
-     , (5794,   3,  536870932) /* SoundTable */
-     , (5794,   8,  100670303) /* Icon */
-     , (5794,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5794,   1, 0x0200070A) /* Setup */
+     , (5794,   3, 0x20000014) /* SoundTable */
+     , (5794,   8, 0x06001B5F) /* Icon */
+     , (5794,  22, 0x3400002B) /* PhysicsEffectTable */;

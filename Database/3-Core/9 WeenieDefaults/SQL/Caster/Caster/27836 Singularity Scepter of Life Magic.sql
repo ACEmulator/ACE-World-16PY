@@ -46,12 +46,12 @@ VALUES (27836,   1, 'Singularity Scepter of Life Magic') /* Name */
      , (27836,  15, 'A scepter imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27836,   1,   33558794) /* Setup */
-     , (27836,   6,   67111919) /* PaletteBase */
-     , (27836,   7,  268435755) /* ClothingBase */
-     , (27836,   8,  100676591) /* Icon */
-     , (27836,  22,  872415275) /* PhysicsEffectTable */
-     , (27836,  27, 1073742049) /* UseUserAnimation - UseMagicWand */;
+VALUES (27836,   1, 0x0200110A) /* Setup */
+     , (27836,   6, 0x04000BEF) /* PaletteBase */
+     , (27836,   7, 0x1000012B) /* ClothingBase */
+     , (27836,   8, 0x060033EF) /* Icon */
+     , (27836,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27836,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27836,  1432,      2)  /* Focus Other VI */

@@ -66,12 +66,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24347,   1, 'Glowing Pustule') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24347,   1,   33558339) /* Setup */
-     , (24347,   2,  150995239) /* MotionTable */
-     , (24347,   3,  536871069) /* SoundTable */
-     , (24347,   4,  805306369) /* CombatTable */
-     , (24347,   8,  100674306) /* Icon */
-     , (24347,  22,  872415265) /* PhysicsEffectTable */
+VALUES (24347,   1, 0x02000F43) /* Setup */
+     , (24347,   2, 0x09000127) /* MotionTable */
+     , (24347,   3, 0x2000009D) /* SoundTable */
+     , (24347,   4, 0x30000001) /* CombatTable */
+     , (24347,   8, 0x06002B02) /* Icon */
+     , (24347,  22, 0x34000021) /* PhysicsEffectTable */
      , (24347,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

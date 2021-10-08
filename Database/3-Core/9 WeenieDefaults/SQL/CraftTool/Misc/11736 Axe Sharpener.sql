@@ -34,7 +34,7 @@ VALUES (11736,   1, 'Axe Sharpener') /* Name */
      , (11736,  16, 'An axe sharpening stone.  If used on an axe, will sharpen it to the point where it would inflict devestating wounds.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11736,   1,   33557278) /* Setup */
-     , (11736,   3,  536870932) /* SoundTable */
-     , (11736,   8,  100671954) /* Icon */
-     , (11736,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11736,   1, 0x02000B1E) /* Setup */
+     , (11736,   3, 0x20000014) /* SoundTable */
+     , (11736,   8, 0x060021D2) /* Icon */
+     , (11736,  22, 0x3400002B) /* PhysicsEffectTable */;

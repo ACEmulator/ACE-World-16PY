@@ -45,12 +45,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6164,   1, 'Fine Shivering Atlan Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6164,   1,   33556303) /* Setup */
-     , (6164,   3,  536870932) /* SoundTable */
-     , (6164,   6,   67111919) /* PaletteBase */
-     , (6164,   7,  268435882) /* ClothingBase */
-     , (6164,   8,  100670508) /* Icon */
-     , (6164,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6164,   1, 0x0200074F) /* Setup */
+     , (6164,   3, 0x20000014) /* SoundTable */
+     , (6164,   6, 0x04000BEF) /* PaletteBase */
+     , (6164,   7, 0x100001AA) /* ClothingBase */
+     , (6164,   8, 0x06001C2C) /* Icon */
+     , (6164,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6164,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -26,7 +26,7 @@ VALUES (8016,   1, 'Caulnalain Gate') /* Name */
      , (8016,  14, 'Use the Caulnalain Key on this gate.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8016,   1,   33556740) /* Setup */
-     , (8016,   3,  536870932) /* SoundTable */
-     , (8016,   8,  100670964) /* Icon */
-     , (8016,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8016,   1, 0x02000904) /* Setup */
+     , (8016,   3, 0x20000014) /* SoundTable */
+     , (8016,   8, 0x06001DF4) /* Icon */
+     , (8016,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -35,13 +35,13 @@ VALUES (28078,   1, 'Ring of Enchantment') /* Name */
      , (28078,  16, 'This simple silver clasp appears to be no more than an ornamental piece of jewelry to the untrained eye. Those who have studied magic will immediately notice that the silver is woven delicately and intricately with pyreal and golden bands. The result is a potent magical boon. A portal swirl has been carved into the metal of the bracelet.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28078,   1,   33554691) /* Setup */
-     , (28078,   3,  536870932) /* SoundTable */
-     , (28078,   6,   67111919) /* PaletteBase */
-     , (28078,   7,  268436318) /* ClothingBase */
-     , (28078,   8,  100676721) /* Icon */
-     , (28078,  22,  872415275) /* PhysicsEffectTable */
-     , (28078,  36,  234881046) /* MutateFilter */;
+VALUES (28078,   1, 0x02000103) /* Setup */
+     , (28078,   3, 0x20000014) /* SoundTable */
+     , (28078,   6, 0x04000BEF) /* PaletteBase */
+     , (28078,   7, 0x1000035E) /* ClothingBase */
+     , (28078,   8, 0x06003471) /* Icon */
+     , (28078,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (28078,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28078,  3370,      2)  /* Power of Enchantment */;

@@ -28,11 +28,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21916,   1, 'Rolling Death') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21916,   1,   33557980) /* Setup */
-     , (21916,   3,  536870967) /* SoundTable */
-     , (21916,   6,   67114014) /* PaletteBase */
-     , (21916,   7,  268436468) /* ClothingBase */
-     , (21916,   8,  100667494) /* Icon */
-     , (21916,  22,  872415391) /* PhysicsEffectTable */
+VALUES (21916,   1, 0x02000DDC) /* Setup */
+     , (21916,   3, 0x20000037) /* SoundTable */
+     , (21916,   6, 0x0400141E) /* PaletteBase */
+     , (21916,   7, 0x100003F4) /* ClothingBase */
+     , (21916,   8, 0x06001066) /* Icon */
+     , (21916,  22, 0x3400009F) /* PhysicsEffectTable */
      , (21916,  28,       2791) /* Spell - Rolling Death */
      , (21916,  30,         90) /* PhysicsScript - ProjectileCollision */;

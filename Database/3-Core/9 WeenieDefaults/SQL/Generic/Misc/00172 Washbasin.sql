@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (172,   1, 'Washbasin') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (172,   1,   33554604) /* Setup */
-     , (172,   3,  536870932) /* SoundTable */
-     , (172,   8,  100668105) /* Icon */
-     , (172,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (172,   1, 0x020000AC) /* Setup */
+     , (172,   3, 0x20000014) /* SoundTable */
+     , (172,   8, 0x060012C9) /* Icon */
+     , (172,  22, 0x3400002B) /* PhysicsEffectTable */;

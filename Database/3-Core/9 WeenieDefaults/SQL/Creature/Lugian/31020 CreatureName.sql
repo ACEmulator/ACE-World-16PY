@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31020,   1, 'CreatureName') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31020,   1,   33557003) /* Setup */
-     , (31020,   2,  150994950) /* MotionTable */
-     , (31020,   3,  536870922) /* SoundTable */
-     , (31020,   4,  805306371) /* CombatTable */
-     , (31020,   6,   67113158) /* PaletteBase */
-     , (31020,   7,  268436158) /* ClothingBase */
-     , (31020,   8,  100667447) /* Icon */
-     , (31020,  22,  872415262) /* PhysicsEffectTable */
+VALUES (31020,   1, 0x02000A0B) /* Setup */
+     , (31020,   2, 0x09000006) /* MotionTable */
+     , (31020,   3, 0x2000000A) /* SoundTable */
+     , (31020,   4, 0x30000003) /* CombatTable */
+     , (31020,   6, 0x040010C6) /* PaletteBase */
+     , (31020,   7, 0x100002BE) /* ClothingBase */
+     , (31020,   8, 0x06001037) /* Icon */
+     , (31020,  22, 0x3400001E) /* PhysicsEffectTable */
      , (31020,  32,        480) /* WieldedTreasureType - 
                                    Wield Stone Hatchet (29964) | Probability: 25%
                                    Wield Stone Mace (29969) | Probability: 25%

@@ -39,13 +39,13 @@ VALUES (19711,   1, 'Nuhmudira''s Benefaction of Strength') /* Name */
      , (19711,  16, 'A green gorget, crafted from a strong metal, imbued with an elixir of might. As you hold the gorget in your hand you feel a soft vibration.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19711,   1,   33554687) /* Setup */
-     , (19711,   3,  536870932) /* SoundTable */
-     , (19711,   6,   67111919) /* PaletteBase */
-     , (19711,   7,  268436388) /* ClothingBase */
-     , (19711,   8,  100668632) /* Icon */
-     , (19711,  22,  872415275) /* PhysicsEffectTable */
-     , (19711,  36,  234881046) /* MutateFilter */;
+VALUES (19711,   1, 0x020000FF) /* Setup */
+     , (19711,   3, 0x20000014) /* SoundTable */
+     , (19711,   6, 0x04000BEF) /* PaletteBase */
+     , (19711,   7, 0x100003A4) /* ClothingBase */
+     , (19711,   8, 0x060014D8) /* Icon */
+     , (19711,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (19711,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19711,  2668,      2)  /* Nuhmudiras Benefaction */

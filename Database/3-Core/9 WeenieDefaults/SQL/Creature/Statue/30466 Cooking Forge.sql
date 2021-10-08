@@ -66,12 +66,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30466,   1, 'Cooking Forge') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30466,   1,   33559115) /* Setup */
-     , (30466,   2,  150995147) /* MotionTable */
-     , (30466,   3,  536870932) /* SoundTable */
-     , (30466,   4,  805306398) /* CombatTable */
-     , (30466,   8,  100677341) /* Icon */
-     , (30466,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (30466,   1, 0x0200124B) /* Setup */
+     , (30466,   2, 0x090000CB) /* MotionTable */
+     , (30466,   3, 0x20000014) /* SoundTable */
+     , (30466,   4, 0x3000001E) /* CombatTable */
+     , (30466,   8, 0x060036DD) /* Icon */
+     , (30466,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30466,   1, 380, 0, 0) /* Strength */

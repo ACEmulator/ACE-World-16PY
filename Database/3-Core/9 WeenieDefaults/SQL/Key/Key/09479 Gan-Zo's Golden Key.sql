@@ -31,7 +31,7 @@ VALUES (9479,   1, 'Gan-Zo''s Golden Key') /* Name */
      , (9479,  16, 'A large, garish, golden key, a prize in Gan-Zo''s Den of Iniquity.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9479,   1,   33557005) /* Setup */
-     , (9479,   3,  536870932) /* SoundTable */
-     , (9479,   8,  100671475) /* Icon */
-     , (9479,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9479,   1, 0x02000A0D) /* Setup */
+     , (9479,   3, 0x20000014) /* SoundTable */
+     , (9479,   8, 0x06001FF3) /* Icon */
+     , (9479,  22, 0x3400002B) /* PhysicsEffectTable */;

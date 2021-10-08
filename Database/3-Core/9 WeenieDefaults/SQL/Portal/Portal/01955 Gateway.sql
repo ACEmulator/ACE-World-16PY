@@ -28,8 +28,8 @@ VALUES (1955,   1, 'Gateway') /* Name */
      , (1955,  14, 'You must use this portal to activate it. Walking through the portal will not activate it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1955,   1,   33556212) /* Setup */
-     , (1955,   2,  150994947) /* MotionTable */
-     , (1955,   6,   67109370) /* PaletteBase */
-     , (1955,   7,  268435652) /* ClothingBase */
-     , (1955,   8,  100667499) /* Icon */;
+VALUES (1955,   1, 0x020006F4) /* Setup */
+     , (1955,   2, 0x09000003) /* MotionTable */
+     , (1955,   6, 0x040001FA) /* PaletteBase */
+     , (1955,   7, 0x100000C4) /* ClothingBase */
+     , (1955,   8, 0x0600106B) /* Icon */;

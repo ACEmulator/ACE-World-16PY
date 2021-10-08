@@ -70,11 +70,11 @@ VALUES (971,   1, 'Grethoric of all Trades') /* Name */
      , (971,  24, 'Underground City') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (971,   1,   33554433) /* Setup */
-     , (971,   2,  150994945) /* MotionTable */
-     , (971,   3,  536870913) /* SoundTable */
-     , (971,   4,  805306368) /* CombatTable */
-     , (971,   8,  100667446) /* Icon */;
+VALUES (971,   1, 0x02000001) /* Setup */
+     , (971,   2, 0x09000001) /* MotionTable */
+     , (971,   3, 0x20000001) /* SoundTable */
+     , (971,   4, 0x30000000) /* CombatTable */
+     , (971,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (971,   1, 130, 0, 0) /* Strength */

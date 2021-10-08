@@ -61,12 +61,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27432,   1, 'The Gibbering') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27432,   1,   33558677) /* Setup */
-     , (27432,   2,  150994952) /* MotionTable */
-     , (27432,   3,  536870919) /* SoundTable */
-     , (27432,   4,  805306372) /* CombatTable */
-     , (27432,   8,  100676410) /* Icon */
-     , (27432,  22,  872415258) /* PhysicsEffectTable */
+VALUES (27432,   1, 0x02001095) /* Setup */
+     , (27432,   2, 0x09000008) /* MotionTable */
+     , (27432,   3, 0x20000007) /* SoundTable */
+     , (27432,   4, 0x30000004) /* CombatTable */
+     , (27432,   8, 0x0600333A) /* Icon */
+     , (27432,  22, 0x3400001A) /* PhysicsEffectTable */
      , (27432,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

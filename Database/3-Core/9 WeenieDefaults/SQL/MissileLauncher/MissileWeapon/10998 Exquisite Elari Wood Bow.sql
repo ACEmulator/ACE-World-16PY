@@ -41,7 +41,7 @@ VALUES (10998,   1, 'Exquisite Elari Wood Bow') /* Name */
      , (10998,  16, 'This is the monster only version of this weapon. You shouldn''t be able to read this, naughty spawn.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10998,   1,   33557228) /* Setup */
-     , (10998,   3,  536870932) /* SoundTable */
-     , (10998,   8,  100671861) /* Icon */
-     , (10998,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (10998,   1, 0x02000AEC) /* Setup */
+     , (10998,   3, 0x20000014) /* SoundTable */
+     , (10998,   8, 0x06002175) /* Icon */
+     , (10998,  22, 0x3400002B) /* PhysicsEffectTable */;

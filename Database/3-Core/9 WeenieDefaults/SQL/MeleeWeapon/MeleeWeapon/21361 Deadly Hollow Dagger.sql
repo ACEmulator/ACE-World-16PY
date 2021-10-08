@@ -50,10 +50,10 @@ VALUES (21361,   1, 'Deadly Hollow Dagger') /* Name */
      , (21361,  16, 'A dagger crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon is unenchantable and ignores modified armor and protection values.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21361,   1,   33556650) /* Setup */
-     , (21361,   3,  536870932) /* SoundTable */
-     , (21361,   6,   67111919) /* PaletteBase */
-     , (21361,   7,  268435783) /* ClothingBase */
-     , (21361,   8,  100668875) /* Icon */
-     , (21361,  22,  872415275) /* PhysicsEffectTable */
-     , (21361,  36,  234881044) /* MutateFilter */;
+VALUES (21361,   1, 0x020008AA) /* Setup */
+     , (21361,   3, 0x20000014) /* SoundTable */
+     , (21361,   6, 0x04000BEF) /* PaletteBase */
+     , (21361,   7, 0x10000147) /* ClothingBase */
+     , (21361,   8, 0x060015CB) /* Icon */
+     , (21361,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (21361,  36, 0x0E000014) /* MutateFilter */;

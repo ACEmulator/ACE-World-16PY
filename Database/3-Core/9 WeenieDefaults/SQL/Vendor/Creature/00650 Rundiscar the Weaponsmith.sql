@@ -70,11 +70,11 @@ VALUES (650,   1, 'Rundiscar the Weaponsmith') /* Name */
      , (650,  24, 'Eastham') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (650,   1,   33554433) /* Setup */
-     , (650,   2,  150994945) /* MotionTable */
-     , (650,   3,  536870913) /* SoundTable */
-     , (650,   4,  805306368) /* CombatTable */
-     , (650,   8,  100667446) /* Icon */;
+VALUES (650,   1, 0x02000001) /* Setup */
+     , (650,   2, 0x09000001) /* MotionTable */
+     , (650,   3, 0x20000001) /* SoundTable */
+     , (650,   4, 0x30000000) /* CombatTable */
+     , (650,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (650,   1, 100, 0, 0) /* Strength */

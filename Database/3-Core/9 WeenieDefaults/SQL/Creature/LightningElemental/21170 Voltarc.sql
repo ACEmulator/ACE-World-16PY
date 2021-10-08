@@ -64,12 +64,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21170,   1, 'Voltarc') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21170,   1,   33556140) /* Setup */
-     , (21170,   2,  150995087) /* MotionTable */
-     , (21170,   3,  536871002) /* SoundTable */
-     , (21170,   4,  805306368) /* CombatTable */
-     , (21170,   8,  100670581) /* Icon */
-     , (21170,  22,  872415349) /* PhysicsEffectTable */
+VALUES (21170,   1, 0x020006AC) /* Setup */
+     , (21170,   2, 0x0900008F) /* MotionTable */
+     , (21170,   3, 0x2000005A) /* SoundTable */
+     , (21170,   4, 0x30000000) /* CombatTable */
+     , (21170,   8, 0x06001C75) /* Icon */
+     , (21170,  22, 0x34000075) /* PhysicsEffectTable */
      , (21170,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

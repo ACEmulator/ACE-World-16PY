@@ -66,10 +66,10 @@ VALUES (28975,   1, 'Portrait of Geraine IV') /* Name */
      , (28975,  16, 'A portrait of Geraine IV. It is a masterpiece. Hevk Loz may know more about this.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28975,   1,   33558986) /* Setup */
-     , (28975,   2,  150995312) /* MotionTable */
-     , (28975,   3,  536870930) /* SoundTable */
-     , (28975,   8,  100677076) /* Icon */;
+VALUES (28975,   1, 0x020011CA) /* Setup */
+     , (28975,   2, 0x09000170) /* MotionTable */
+     , (28975,   3, 0x20000012) /* SoundTable */
+     , (28975,   8, 0x060035D4) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28975,   1, 340, 0, 0) /* Strength */

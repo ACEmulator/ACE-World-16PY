@@ -28,10 +28,10 @@ VALUES (11674,   1, 'Arcane Lore Skill Puzzle Piece') /* Name */
      , (11674,  16, 'An Arcane Lore skill puzzle piece.  Combine it with a Skill Puzzle Base Piece.  This item requires Arcane Lore skill to assemble.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11674,   1,   33554669) /* Setup */
-     , (11674,   3,  536870932) /* SoundTable */
-     , (11674,   6,   67111928) /* PaletteBase */
-     , (11674,   7,  268436178) /* ClothingBase */
-     , (11674,   8,  100671710) /* Icon */
-     , (11674,  22,  872415275) /* PhysicsEffectTable */
-     , (11674,  36,  234881046) /* MutateFilter */;
+VALUES (11674,   1, 0x020000ED) /* Setup */
+     , (11674,   3, 0x20000014) /* SoundTable */
+     , (11674,   6, 0x04000BF8) /* PaletteBase */
+     , (11674,   7, 0x100002D2) /* ClothingBase */
+     , (11674,   8, 0x060020DE) /* Icon */
+     , (11674,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11674,  36, 0x0E000016) /* MutateFilter */;

@@ -38,9 +38,9 @@ VALUES (12746,   1, 'Training Atlatl') /* Name */
      , (12746,  15, 'A basic atlatl forged in the Strathelar Training Academy. This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12746,   1,   33557433) /* Setup */
-     , (12746,   3,  536870932) /* SoundTable */
-     , (12746,   6,   67111919) /* PaletteBase */
-     , (12746,   7,  268436304) /* ClothingBase */
-     , (12746,   8,  100672372) /* Icon */
-     , (12746,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12746,   1, 0x02000BB9) /* Setup */
+     , (12746,   3, 0x20000014) /* SoundTable */
+     , (12746,   6, 0x04000BEF) /* PaletteBase */
+     , (12746,   7, 0x10000350) /* ClothingBase */
+     , (12746,   8, 0x06002374) /* Icon */
+     , (12746,  22, 0x3400002B) /* PhysicsEffectTable */;

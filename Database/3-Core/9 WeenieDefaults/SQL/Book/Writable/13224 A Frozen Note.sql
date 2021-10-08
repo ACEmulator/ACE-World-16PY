@@ -24,10 +24,10 @@ VALUES (13224,   1, 'A Frozen Note') /* Name */
      , (13224,  16, 'A frozen piece of parchment with instructions on how to build a snowman') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13224,   1,   33554773) /* Setup */
-     , (13224,   3,  536870932) /* SoundTable */
-     , (13224,   8,  100672432) /* Icon */
-     , (13224,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (13224,   1, 0x02000155) /* Setup */
+     , (13224,   3, 0x20000014) /* SoundTable */
+     , (13224,   8, 0x060023B0) /* Icon */
+     , (13224,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (13224, 1, 1000);

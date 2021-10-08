@@ -38,9 +38,9 @@ VALUES (30303,   1, 'Serpent''s Flight') /* Name */
      , (30303,  16, 'Describe me here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30303,   1,   33554728) /* Setup */
-     , (30303,   3,  536870932) /* SoundTable */
-     , (30303,   6,   67111919) /* PaletteBase */
-     , (30303,   7,  268435759) /* ClothingBase */
-     , (30303,   8,  100668815) /* Icon */
-     , (30303,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30303,   1, 0x02000128) /* Setup */
+     , (30303,   3, 0x20000014) /* SoundTable */
+     , (30303,   6, 0x04000BEF) /* PaletteBase */
+     , (30303,   7, 0x1000012F) /* ClothingBase */
+     , (30303,   8, 0x0600158F) /* Icon */
+     , (30303,  22, 0x3400002B) /* PhysicsEffectTable */;

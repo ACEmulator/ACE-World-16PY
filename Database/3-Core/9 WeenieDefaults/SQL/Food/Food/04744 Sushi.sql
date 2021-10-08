@@ -28,7 +28,7 @@ VALUES (4744,   1, 'Sushi') /* Name */
      , (4744,  20, 'Pieces of Sushi') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4744,   1,   33555982) /* Setup */
-     , (4744,   3,  536870932) /* SoundTable */
-     , (4744,   8,  100669971) /* Icon */
-     , (4744,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4744,   1, 0x0200060E) /* Setup */
+     , (4744,   3, 0x20000014) /* SoundTable */
+     , (4744,   8, 0x06001A13) /* Icon */
+     , (4744,  22, 0x3400002B) /* PhysicsEffectTable */;

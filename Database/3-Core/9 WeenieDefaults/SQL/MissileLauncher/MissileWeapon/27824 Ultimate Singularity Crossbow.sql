@@ -56,12 +56,12 @@ VALUES (27824,   1, 'Ultimate Singularity Crossbow') /* Name */
      , (27824,  15, 'A crossbow imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27824,   1,   33557313) /* Setup */
-     , (27824,   3,  536870932) /* SoundTable */
-     , (27824,   6,   67111919) /* PaletteBase */
-     , (27824,   7,  268436239) /* ClothingBase */
-     , (27824,   8,  100672049) /* Icon */
-     , (27824,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27824,   1, 0x02000B41) /* Setup */
+     , (27824,   3, 0x20000014) /* SoundTable */
+     , (27824,   6, 0x04000BEF) /* PaletteBase */
+     , (27824,   7, 0x1000030F) /* ClothingBase */
+     , (27824,   8, 0x06002231) /* Icon */
+     , (27824,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27824,  1605,      2)  /* Aura of Defender Self VI */

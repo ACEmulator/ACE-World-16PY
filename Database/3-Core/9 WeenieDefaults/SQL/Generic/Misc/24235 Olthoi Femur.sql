@@ -24,7 +24,7 @@ VALUES (24235,   1, 'Olthoi Femur') /* Name */
      , (24235,  33, 'PickedUpOlthoiFemur') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24235,   1,   33556593) /* Setup */
-     , (24235,   3,  536870932) /* SoundTable */
-     , (24235,   8,  100674291) /* Icon */
-     , (24235,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24235,   1, 0x02000871) /* Setup */
+     , (24235,   3, 0x20000014) /* SoundTable */
+     , (24235,   8, 0x06002AF3) /* Icon */
+     , (24235,  22, 0x3400002B) /* PhysicsEffectTable */;

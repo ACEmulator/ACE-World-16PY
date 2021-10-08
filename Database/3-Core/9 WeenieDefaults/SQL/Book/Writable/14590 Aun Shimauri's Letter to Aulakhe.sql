@@ -25,10 +25,10 @@ VALUES (14590,   1, 'Aun Shimauri''s Letter to Aulakhe') /* Name */
      , (14590,  16, 'TBD') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14590,   1,   33554773) /* Setup */
-     , (14590,   3,  536870932) /* SoundTable */
-     , (14590,   8,  100672524) /* Icon */
-     , (14590,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14590,   1, 0x02000155) /* Setup */
+     , (14590,   3, 0x20000014) /* SoundTable */
+     , (14590,   8, 0x0600240C) /* Icon */
+     , (14590,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (14590, 1, 1000);

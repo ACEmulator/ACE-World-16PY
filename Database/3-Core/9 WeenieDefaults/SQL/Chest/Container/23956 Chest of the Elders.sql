@@ -44,11 +44,11 @@ VALUES (23956,   1, 'Chest of the Elders') /* Name */
      , (23956,  16, 'A chest.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23956,   1,   33554556) /* Setup */
-     , (23956,   2,  150994948) /* MotionTable */
-     , (23956,   3,  536870945) /* SoundTable */
-     , (23956,   8,  100674157) /* Icon */
-     , (23956,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23956,   1, 0x0200007C) /* Setup */
+     , (23956,   2, 0x09000004) /* MotionTable */
+     , (23956,   3, 0x20000021) /* SoundTable */
+     , (23956,   8, 0x06002A6D) /* Icon */
+     , (23956,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23956, -1, 24027, 30, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Scepter of Thunderous Might (24027) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

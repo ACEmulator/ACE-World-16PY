@@ -62,11 +62,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14470,   1, 'Crossbow Minion') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14470,   1,   33556792) /* Setup */
-     , (14470,   2,  150995101) /* MotionTable */
-     , (14470,   3,  536871013) /* SoundTable */
-     , (14470,   4,  805306413) /* CombatTable */
-     , (14470,   8,  100671140) /* Icon */;
+VALUES (14470,   1, 0x02000938) /* Setup */
+     , (14470,   2, 0x0900009D) /* MotionTable */
+     , (14470,   3, 0x20000065) /* SoundTable */
+     , (14470,   4, 0x3000002D) /* CombatTable */
+     , (14470,   8, 0x06001EA4) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (14470,   1,  60, 0, 0) /* Strength */

@@ -39,11 +39,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24950,   1, 'Antius'' Celdon Sollerets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24950,   1,   33554654) /* Setup */
-     , (24950,   3,  536870932) /* SoundTable */
-     , (24950,   6,   67108990) /* PaletteBase */
-     , (24950,   7,  268436666) /* ClothingBase */
-     , (24950,   8,  100667309) /* Icon */
-     , (24950,  22,  872415275) /* PhysicsEffectTable */
-     , (24950,  36,  234881042) /* MutateFilter */
-     , (24950,  46,  939524146) /* TsysMutationFilter */;
+VALUES (24950,   1, 0x020000DE) /* Setup */
+     , (24950,   3, 0x20000014) /* SoundTable */
+     , (24950,   6, 0x0400007E) /* PaletteBase */
+     , (24950,   7, 0x100004BA) /* ClothingBase */
+     , (24950,   8, 0x06000FAD) /* Icon */
+     , (24950,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24950,  36, 0x0E000012) /* MutateFilter */
+     , (24950,  46, 0x38000032) /* TsysMutationFilter */;

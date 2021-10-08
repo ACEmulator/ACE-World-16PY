@@ -35,11 +35,11 @@ VALUES (24803,   1, 'Gem of Piercing Protection') /* Name */
      , (24803,  20, 'Gems of Piercing Protection') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24803,   1,   33554809) /* Setup */
-     , (24803,   3,  536870932) /* SoundTable */
-     , (24803,   6,   67111919) /* PaletteBase */
-     , (24803,   7,  268435723) /* ClothingBase */
-     , (24803,   8,  100674433) /* Icon */
-     , (24803,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24803,   1, 0x02000179) /* Setup */
+     , (24803,   3, 0x20000014) /* SoundTable */
+     , (24803,   6, 0x04000BEF) /* PaletteBase */
+     , (24803,   7, 0x1000010B) /* ClothingBase */
+     , (24803,   8, 0x06002B81) /* Icon */
+     , (24803,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24803,  28,       1142) /* Spell - Piercing Protection Other IV */
-     , (24803,  36,  234881046) /* MutateFilter */;
+     , (24803,  36, 0x0E000016) /* MutateFilter */;

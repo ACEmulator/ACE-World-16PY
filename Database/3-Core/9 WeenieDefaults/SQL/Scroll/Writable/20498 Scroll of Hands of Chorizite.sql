@@ -24,7 +24,7 @@ VALUES (20498,   1, 'Scroll of Hands of Chorizite') /* Name */
      , (20498,  15, 'When learned, this spell decreases the target''s Arcane Lore skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20498,   1,   33554826) /* Setup */
-     , (20498,   8,  100676447) /* Icon */
-     , (20498,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20498,   1, 0x0200018A) /* Setup */
+     , (20498,   8, 0x0600335F) /* Icon */
+     , (20498,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20498,  28,       2192) /* Spell - Hands of Chorizite */;

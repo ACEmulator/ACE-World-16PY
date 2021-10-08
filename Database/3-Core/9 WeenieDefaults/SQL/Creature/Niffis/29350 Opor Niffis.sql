@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29350,   1, 'Opor Niffis') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29350,   1,   33556774) /* Setup */
-     , (29350,   2,  150995099) /* MotionTable */
-     , (29350,   3,  536871010) /* SoundTable */
-     , (29350,   4,  805306410) /* CombatTable */
-     , (29350,   6,   67112937) /* PaletteBase */
-     , (29350,   7,  268436039) /* ClothingBase */
-     , (29350,   8,  100670961) /* Icon */
-     , (29350,  22,  872415365) /* PhysicsEffectTable */
+VALUES (29350,   1, 0x02000926) /* Setup */
+     , (29350,   2, 0x0900009B) /* MotionTable */
+     , (29350,   3, 0x20000062) /* SoundTable */
+     , (29350,   4, 0x3000002A) /* CombatTable */
+     , (29350,   6, 0x04000FE9) /* PaletteBase */
+     , (29350,   7, 0x10000247) /* ClothingBase */
+     , (29350,   8, 0x06001DF1) /* Icon */
+     , (29350,  22, 0x34000085) /* PhysicsEffectTable */
      , (29350,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -38,9 +38,9 @@ VALUES (13217,   1, 'Academy Coat') /* Name */
      , (13217,  16, 'A fur coat awarded by the Academy to those who complete their training.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13217,   1,   33554644) /* Setup */
-     , (13217,   3,  536870932) /* SoundTable */
-     , (13217,   6,   67108990) /* PaletteBase */
-     , (13217,   7,  268436102) /* ClothingBase */
-     , (13217,   8,  100667377) /* Icon */
-     , (13217,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (13217,   1, 0x020000D4) /* Setup */
+     , (13217,   3, 0x20000014) /* SoundTable */
+     , (13217,   6, 0x0400007E) /* PaletteBase */
+     , (13217,   7, 0x10000286) /* ClothingBase */
+     , (13217,   8, 0x06000FF1) /* Icon */
+     , (13217,  22, 0x3400002B) /* PhysicsEffectTable */;

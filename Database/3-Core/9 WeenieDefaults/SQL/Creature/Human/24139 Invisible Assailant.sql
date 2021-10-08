@@ -64,12 +64,12 @@ VALUES (24139,   1, 'Invisible Assailant') /* Name */
      , (24139,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24139,   1,   33554433) /* Setup */
-     , (24139,   2,  150994945) /* MotionTable */
-     , (24139,   3,  536870913) /* SoundTable */
-     , (24139,   4,  805306368) /* CombatTable */
-     , (24139,   8,  100667446) /* Icon */
-     , (24139,  22,  872415236) /* PhysicsEffectTable */
+VALUES (24139,   1, 0x02000001) /* Setup */
+     , (24139,   2, 0x09000001) /* MotionTable */
+     , (24139,   3, 0x20000001) /* SoundTable */
+     , (24139,   4, 0x30000000) /* CombatTable */
+     , (24139,   8, 0x06001036) /* Icon */
+     , (24139,  22, 0x34000004) /* PhysicsEffectTable */
      , (24139,  32,        202) /* WieldedTreasureType - 
                                    Wield Yumi (23734) | Probability: 25%
                                    Wield 20x Deadly Armor Piercing Arrow (15431) | Probability: 100%

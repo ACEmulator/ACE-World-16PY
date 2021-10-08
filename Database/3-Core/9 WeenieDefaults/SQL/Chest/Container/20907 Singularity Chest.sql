@@ -43,13 +43,13 @@ VALUES (20907,   1, 'Singularity Chest') /* Name */
      , (20907,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20907,   1,   33557001) /* Setup */
-     , (20907,   2,  150995121) /* MotionTable */
-     , (20907,   3,  536871023) /* SoundTable */
-     , (20907,   6,   67111346) /* PaletteBase */
-     , (20907,   7,  268436149) /* ClothingBase */
-     , (20907,   8,  100673198) /* Icon */
-     , (20907,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (20907,   1, 0x02000A09) /* Setup */
+     , (20907,   2, 0x090000B1) /* MotionTable */
+     , (20907,   3, 0x2000006F) /* SoundTable */
+     , (20907,   6, 0x040009B2) /* PaletteBase */
+     , (20907,   7, 0x100002B5) /* ClothingBase */
+     , (20907,   8, 0x060026AE) /* Icon */
+     , (20907,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (20907, -1, 20909, 59, 20, 20, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Unfashioned Prismatic Stone (20909) (x20 up to max of 20) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

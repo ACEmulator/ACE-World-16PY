@@ -36,11 +36,11 @@ VALUES (26199,   1, 'Hero''s Vale Portal Gem') /* Name */
      , (26199,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26199,   1,   33556769) /* Setup */
-     , (26199,   3,  536870932) /* SoundTable */
-     , (26199,   6,   67111919) /* PaletteBase */
-     , (26199,   7,  268435723) /* ClothingBase */
-     , (26199,   8,  100675760) /* Icon */
-     , (26199,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26199,   1, 0x02000921) /* Setup */
+     , (26199,   3, 0x20000014) /* SoundTable */
+     , (26199,   6, 0x04000BEF) /* PaletteBase */
+     , (26199,   7, 0x1000010B) /* ClothingBase */
+     , (26199,   8, 0x060030B0) /* Icon */
+     , (26199,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26199,  28,        157) /* Spell - Summon Primary Portal I */
      , (26199,  31,      15676) /* LinkedPortalOne - Hero's Vale Portal */;

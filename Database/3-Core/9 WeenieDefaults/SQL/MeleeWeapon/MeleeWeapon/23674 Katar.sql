@@ -39,14 +39,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23674,   1, 'Katar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23674,   1,   33554743) /* Setup */
-     , (23674,   3,  536870932) /* SoundTable */
-     , (23674,   6,   67111919) /* PaletteBase */
-     , (23674,   7,  268435789) /* ClothingBase */
-     , (23674,   8,  100668925) /* Icon */
-     , (23674,  22,  872415275) /* PhysicsEffectTable */
-     , (23674,  36,  234881053) /* MutateFilter */
-     , (23674,  46,  939524102) /* TsysMutationFilter */;
+VALUES (23674,   1, 0x02000137) /* Setup */
+     , (23674,   3, 0x20000014) /* SoundTable */
+     , (23674,   6, 0x04000BEF) /* PaletteBase */
+     , (23674,   7, 0x1000014D) /* ClothingBase */
+     , (23674,   8, 0x060015FD) /* Icon */
+     , (23674,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (23674,  36, 0x0E00001D) /* MutateFilter */
+     , (23674,  46, 0x38000006) /* TsysMutationFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23674,  1615,      2)  /* Aura of Blood Drinker Self V */

@@ -71,12 +71,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30892,   1, 'Fallen Rift') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30892,   1,   33558550) /* Setup */
-     , (30892,   2,  150995087) /* MotionTable */
-     , (30892,   3,  536871001) /* SoundTable */
-     , (30892,   4,  805306407) /* CombatTable */
-     , (30892,   8,  100671702) /* Icon */
-     , (30892,  22,  872415375) /* PhysicsEffectTable */
+VALUES (30892,   1, 0x02001016) /* Setup */
+     , (30892,   2, 0x0900008F) /* MotionTable */
+     , (30892,   3, 0x20000059) /* SoundTable */
+     , (30892,   4, 0x30000027) /* CombatTable */
+     , (30892,   8, 0x060020D6) /* Icon */
+     , (30892,  22, 0x3400008F) /* PhysicsEffectTable */
      , (30892,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

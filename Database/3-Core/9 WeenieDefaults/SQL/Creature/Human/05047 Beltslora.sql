@@ -64,11 +64,11 @@ VALUES (5047,   1, 'Beltslora') /* Name */
      , (5047,   5, 'Citizen of Lytelthorpe') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5047,   1,   33554510) /* Setup */
-     , (5047,   2,  150994945) /* MotionTable */
-     , (5047,   3,  536870914) /* SoundTable */
-     , (5047,   4,  805306368) /* CombatTable */
-     , (5047,   8,  100667446) /* Icon */;
+VALUES (5047,   1, 0x0200004E) /* Setup */
+     , (5047,   2, 0x09000001) /* MotionTable */
+     , (5047,   3, 0x20000002) /* SoundTable */
+     , (5047,   4, 0x30000000) /* CombatTable */
+     , (5047,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5047,   1,  65, 0, 0) /* Strength */

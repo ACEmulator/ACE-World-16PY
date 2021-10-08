@@ -26,5 +26,5 @@ VALUES (19210,   1, 'Bronze Coil from a Statue') /* Name */
      , (19210,  33, 'CoilBenTen') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19210,   1,   33557680) /* Setup */
-     , (19210,   8,  100672955) /* Icon */;
+VALUES (19210,   1, 0x02000CB0) /* Setup */
+     , (19210,   8, 0x060025BB) /* Icon */;

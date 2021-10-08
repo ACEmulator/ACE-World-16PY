@@ -48,13 +48,13 @@ VALUES (7570,   1, 'Ravenous Mace') /* Name */
      , (7570,  16, 'A mace crafted from pure chorizite, imbued with powerful magic, but resistant to further enchantment. (Note: This weapon is unenchantable.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7570,   1,   33556654) /* Setup */
-     , (7570,   3,  536870932) /* SoundTable */
-     , (7570,   6,   67111919) /* PaletteBase */
-     , (7570,   7,  268435792) /* ClothingBase */
-     , (7570,   8,  100668955) /* Icon */
-     , (7570,  22,  872415275) /* PhysicsEffectTable */
-     , (7570,  36,  234881044) /* MutateFilter */
+VALUES (7570,   1, 0x020008AE) /* Setup */
+     , (7570,   3, 0x20000014) /* SoundTable */
+     , (7570,   6, 0x04000BEF) /* PaletteBase */
+     , (7570,   7, 0x10000150) /* ClothingBase */
+     , (7570,   8, 0x0600161B) /* Icon */
+     , (7570,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (7570,  36, 0x0E000014) /* MutateFilter */
      , (7570,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

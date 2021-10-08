@@ -36,8 +36,8 @@ VALUES (7767,   1, 'Drudge Board with Nail') /* Name */
      , (7767,  16, 'A board with nail.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7767,   1,   33556638) /* Setup */
-     , (7767,   3,  536870932) /* SoundTable */
-     , (7767,   8,  100670758) /* Icon */
-     , (7767,  22,  872415275) /* PhysicsEffectTable */
-     , (7767,  36,  234881044) /* MutateFilter */;
+VALUES (7767,   1, 0x0200089E) /* Setup */
+     , (7767,   3, 0x20000014) /* SoundTable */
+     , (7767,   8, 0x06001D26) /* Icon */
+     , (7767,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (7767,  36, 0x0E000014) /* MutateFilter */;

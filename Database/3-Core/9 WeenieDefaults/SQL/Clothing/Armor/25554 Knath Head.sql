@@ -39,9 +39,9 @@ VALUES (25554,   1, 'Knath Head') /* Name */
      , (25554,  16, 'A fun party hat.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25554,   1,   33554643) /* Setup */
-     , (25554,   3,  536870932) /* SoundTable */
-     , (25554,   6,   67108990) /* PaletteBase */
-     , (25554,   7,  268436682) /* ClothingBase */
-     , (25554,   8,  100674935) /* Icon */
-     , (25554,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25554,   1, 0x020000D3) /* Setup */
+     , (25554,   3, 0x20000014) /* SoundTable */
+     , (25554,   6, 0x0400007E) /* PaletteBase */
+     , (25554,   7, 0x100004CA) /* ClothingBase */
+     , (25554,   8, 0x06002D77) /* Icon */
+     , (25554,  22, 0x3400002B) /* PhysicsEffectTable */;

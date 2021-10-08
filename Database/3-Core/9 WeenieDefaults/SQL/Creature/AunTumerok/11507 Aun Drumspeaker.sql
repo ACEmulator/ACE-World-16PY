@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11507,   1, 'Aun Drumspeaker') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11507,   1,   33557117) /* Setup */
-     , (11507,   2,  150995136) /* MotionTable */
-     , (11507,   3,  536870931) /* SoundTable */
-     , (11507,   4,  805306380) /* CombatTable */
-     , (11507,   6,   67113280) /* PaletteBase */
-     , (11507,   7,  268436193) /* ClothingBase */
-     , (11507,   8,  100671756) /* Icon */
-     , (11507,  22,  872415270) /* PhysicsEffectTable */
+VALUES (11507,   1, 0x02000A7D) /* Setup */
+     , (11507,   2, 0x090000C0) /* MotionTable */
+     , (11507,   3, 0x20000013) /* SoundTable */
+     , (11507,   4, 0x3000000C) /* CombatTable */
+     , (11507,   6, 0x04001140) /* PaletteBase */
+     , (11507,   7, 0x100002E1) /* ClothingBase */
+     , (11507,   8, 0x0600210C) /* Icon */
+     , (11507,  22, 0x34000026) /* PhysicsEffectTable */
      , (11507,  32,        380) /* WieldedTreasureType - 
                                    Wield Buadren (11971) | Probability: 100% */
      , (11507,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;

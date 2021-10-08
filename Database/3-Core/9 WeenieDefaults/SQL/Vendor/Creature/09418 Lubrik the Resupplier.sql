@@ -69,13 +69,13 @@ VALUES (9418,   1, 'Lubrik the Resupplier') /* Name */
      , (9418,  24, 'Linvak Tukal') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9418,   1,   33557003) /* Setup */
-     , (9418,   2,  150994950) /* MotionTable */
-     , (9418,   3,  536870922) /* SoundTable */
-     , (9418,   4,  805306371) /* CombatTable */
-     , (9418,   6,   67113158) /* PaletteBase */
-     , (9418,   7,  268436157) /* ClothingBase */
-     , (9418,   8,  100667447) /* Icon */;
+VALUES (9418,   1, 0x02000A0B) /* Setup */
+     , (9418,   2, 0x09000006) /* MotionTable */
+     , (9418,   3, 0x2000000A) /* SoundTable */
+     , (9418,   4, 0x30000003) /* CombatTable */
+     , (9418,   6, 0x040010C6) /* PaletteBase */
+     , (9418,   7, 0x100002BD) /* ClothingBase */
+     , (9418,   8, 0x06001037) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9418,   1, 280, 0, 0) /* Strength */

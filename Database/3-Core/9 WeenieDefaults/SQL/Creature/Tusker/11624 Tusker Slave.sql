@@ -61,14 +61,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11624,   1, 'Tusker Slave') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11624,   1,   33556836) /* Setup */
-     , (11624,   2,  150994956) /* MotionTable */
-     , (11624,   3,  536870929) /* SoundTable */
-     , (11624,   4,  805306379) /* CombatTable */
-     , (11624,   6,   67113007) /* PaletteBase */
-     , (11624,   7,  268436061) /* ClothingBase */
-     , (11624,   8,  100667443) /* Icon */
-     , (11624,  22,  872415271) /* PhysicsEffectTable */
+VALUES (11624,   1, 0x02000964) /* Setup */
+     , (11624,   2, 0x0900000C) /* MotionTable */
+     , (11624,   3, 0x20000011) /* SoundTable */
+     , (11624,   4, 0x3000000B) /* CombatTable */
+     , (11624,   6, 0x0400102F) /* PaletteBase */
+     , (11624,   7, 0x1000025D) /* ClothingBase */
+     , (11624,   8, 0x06001033) /* Icon */
+     , (11624,  22, 0x34000027) /* PhysicsEffectTable */
      , (11624,  35,        233) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

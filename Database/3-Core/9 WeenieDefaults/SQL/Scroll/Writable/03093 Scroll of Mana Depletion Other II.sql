@@ -25,7 +25,7 @@ VALUES (3093,   1, 'Scroll of Mana Depletion Other II') /* Name */
      , (3093,  16, 'When learned, this spell decreases target''s natural mana rate by 33%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3093,   1,   33554826) /* Setup */
-     , (3093,   8,  100676939) /* Icon */
-     , (3093,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3093,   1, 0x0200018A) /* Setup */
+     , (3093,   8, 0x0600354B) /* Icon */
+     , (3093,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3093,  28,        219) /* Spell - Mana Depletion Other II */;

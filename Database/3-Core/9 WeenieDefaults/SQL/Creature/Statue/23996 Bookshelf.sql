@@ -63,12 +63,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23996,   1, 'Bookshelf') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23996,   1,   33558270) /* Setup */
-     , (23996,   2,  150995197) /* MotionTable */
-     , (23996,   3,  536871052) /* SoundTable */
-     , (23996,   4,  805306376) /* CombatTable */
-     , (23996,   8,  100674153) /* Icon */
-     , (23996,  22,  872415323) /* PhysicsEffectTable */;
+VALUES (23996,   1, 0x02000EFE) /* Setup */
+     , (23996,   2, 0x090000FD) /* MotionTable */
+     , (23996,   3, 0x2000008C) /* SoundTable */
+     , (23996,   4, 0x30000008) /* CombatTable */
+     , (23996,   8, 0x06002A69) /* Icon */
+     , (23996,  22, 0x3400005B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23996,   1, 380, 0, 0) /* Strength */

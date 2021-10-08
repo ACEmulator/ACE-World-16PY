@@ -31,8 +31,8 @@ VALUES (11721,   1, 'Escape Tunnel Orifice') /* Name */
      , (11721,  14, 'Use this item to open it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11721,   1,   33555954) /* Setup */
-     , (11721,   2,  150995079) /* MotionTable */
-     , (11721,   3,  536870991) /* SoundTable */
-     , (11721,   8,  100668183) /* Icon */
-     , (11721,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11721,   1, 0x020005F2) /* Setup */
+     , (11721,   2, 0x09000087) /* MotionTable */
+     , (11721,   3, 0x2000004F) /* SoundTable */
+     , (11721,   8, 0x06001317) /* Icon */
+     , (11721,  22, 0x3400002B) /* PhysicsEffectTable */;

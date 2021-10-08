@@ -24,9 +24,9 @@ VALUES (14436,   1, 'Storage Key') /* Name */
      , (14436,  14, 'Use this item on a locked door or chest to unlock it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14436,   1,   33554784) /* Setup */
-     , (14436,   3,  536870932) /* SoundTable */
-     , (14436,   6,   67111092) /* PaletteBase */
-     , (14436,   7,  268436317) /* ClothingBase */
-     , (14436,   8,  100672469) /* Icon */
-     , (14436,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14436,   1, 0x02000160) /* Setup */
+     , (14436,   3, 0x20000014) /* SoundTable */
+     , (14436,   6, 0x040008B4) /* PaletteBase */
+     , (14436,   7, 0x1000035D) /* ClothingBase */
+     , (14436,   8, 0x060023D5) /* Icon */
+     , (14436,  22, 0x3400002B) /* PhysicsEffectTable */;

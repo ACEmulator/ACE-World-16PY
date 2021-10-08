@@ -36,11 +36,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30582,   1, 'Viamont Medium Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30582,   1,   33554746) /* Setup */
-     , (30582,   3,  536870932) /* SoundTable */
-     , (30582,   6,   67111919) /* PaletteBase */
-     , (30582,   7,  268435792) /* ClothingBase */
-     , (30582,   8,  100668955) /* Icon */
-     , (30582,  22,  872415275) /* PhysicsEffectTable */
-     , (30582,  36,  234881053) /* MutateFilter */
-     , (30582,  46,  939524099) /* TsysMutationFilter */;
+VALUES (30582,   1, 0x0200013A) /* Setup */
+     , (30582,   3, 0x20000014) /* SoundTable */
+     , (30582,   6, 0x04000BEF) /* PaletteBase */
+     , (30582,   7, 0x10000150) /* ClothingBase */
+     , (30582,   8, 0x0600161B) /* Icon */
+     , (30582,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30582,  36, 0x0E00001D) /* MutateFilter */
+     , (30582,  46, 0x38000003) /* TsysMutationFilter */;

@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27717,   1, 'Ursuin Slicer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27717,   1,   33556773) /* Setup */
-     , (27717,   2,  150995100) /* MotionTable */
-     , (27717,   3,  536871011) /* SoundTable */
-     , (27717,   4,  805306409) /* CombatTable */
-     , (27717,   6,   67112944) /* PaletteBase */
-     , (27717,   7,  268436633) /* ClothingBase */
-     , (27717,   8,  100670959) /* Icon */
-     , (27717,  22,  872415366) /* PhysicsEffectTable */
+VALUES (27717,   1, 0x02000925) /* Setup */
+     , (27717,   2, 0x0900009C) /* MotionTable */
+     , (27717,   3, 0x20000063) /* SoundTable */
+     , (27717,   4, 0x30000029) /* CombatTable */
+     , (27717,   6, 0x04000FF0) /* PaletteBase */
+     , (27717,   7, 0x10000499) /* ClothingBase */
+     , (27717,   8, 0x06001DEF) /* Icon */
+     , (27717,  22, 0x34000086) /* PhysicsEffectTable */
      , (27717,  35,        454) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

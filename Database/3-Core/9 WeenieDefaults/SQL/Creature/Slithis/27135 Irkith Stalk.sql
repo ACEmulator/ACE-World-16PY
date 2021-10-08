@@ -65,12 +65,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27135,   1, 'Irkith Stalk') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27135,   1,   33555670) /* Setup */
-     , (27135,   2,  150995067) /* MotionTable */
-     , (27135,   3,  536871015) /* SoundTable */
-     , (27135,   4,  805306404) /* CombatTable */
-     , (27135,   8,  100671186) /* Icon */
-     , (27135,  22,  872415332) /* PhysicsEffectTable */
+VALUES (27135,   1, 0x020004D6) /* Setup */
+     , (27135,   2, 0x0900007B) /* MotionTable */
+     , (27135,   3, 0x20000067) /* SoundTable */
+     , (27135,   4, 0x30000024) /* CombatTable */
+     , (27135,   8, 0x06001ED2) /* Icon */
+     , (27135,  22, 0x34000064) /* PhysicsEffectTable */
      , (27135,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

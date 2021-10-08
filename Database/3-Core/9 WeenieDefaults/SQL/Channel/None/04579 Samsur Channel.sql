@@ -18,7 +18,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4579,   1, 'Samsur Channel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4579,   1,   33555579) /* Setup */
-     , (4579,   6,   67109300) /* PaletteBase */
-     , (4579,   7,  268435725) /* ClothingBase */
-     , (4579,   8,  100669116) /* Icon */;
+VALUES (4579,   1, 0x0200047B) /* Setup */
+     , (4579,   6, 0x040001B4) /* PaletteBase */
+     , (4579,   7, 0x1000010D) /* ClothingBase */
+     , (4579,   8, 0x060016BC) /* Icon */;

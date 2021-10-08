@@ -23,7 +23,7 @@ VALUES (19476,   1, 'Grievver Tibia') /* Name */
      , (19476,  16, 'The chitinous tibia of a departed Virulent Grievver.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19476,   1,   33557837) /* Setup */
-     , (19476,   3,  536870932) /* SoundTable */
-     , (19476,   8,  100673054) /* Icon */
-     , (19476,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19476,   1, 0x02000D4D) /* Setup */
+     , (19476,   3, 0x20000014) /* SoundTable */
+     , (19476,   8, 0x0600261E) /* Icon */
+     , (19476,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -74,14 +74,14 @@ VALUES (6557,   1, 'Black Ferah') /* Name */
      , (6557,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6557,   1,   33556557) /* Setup */
-     , (6557,   2,  150995091) /* MotionTable */
-     , (6557,   3,  536870914) /* SoundTable */
-     , (6557,   4,  805306368) /* CombatTable */
-     , (6557,   6,   67108990) /* PaletteBase */
-     , (6557,   7,  268435989) /* ClothingBase */
-     , (6557,   8,  100670398) /* Icon */
-     , (6557,  22,  872415331) /* PhysicsEffectTable */;
+VALUES (6557,   1, 0x0200084D) /* Setup */
+     , (6557,   2, 0x09000093) /* MotionTable */
+     , (6557,   3, 0x20000002) /* SoundTable */
+     , (6557,   4, 0x30000000) /* CombatTable */
+     , (6557,   6, 0x0400007E) /* PaletteBase */
+     , (6557,   7, 0x10000215) /* ClothingBase */
+     , (6557,   8, 0x06001BBE) /* Icon */
+     , (6557,  22, 0x34000063) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6557,   1, 190, 0, 0) /* Strength */

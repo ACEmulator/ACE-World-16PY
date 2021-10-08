@@ -40,9 +40,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4187,   1, 'Lightning Quarrel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4187,   1,   33555695) /* Setup */
-     , (4187,   3,  536870932) /* SoundTable */
-     , (4187,   6,   67111919) /* PaletteBase */
-     , (4187,   7,  268436306) /* ClothingBase */
-     , (4187,   8,  100670248) /* Icon */
-     , (4187,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4187,   1, 0x020004EF) /* Setup */
+     , (4187,   3, 0x20000014) /* SoundTable */
+     , (4187,   6, 0x04000BEF) /* PaletteBase */
+     , (4187,   7, 0x10000352) /* ClothingBase */
+     , (4187,   8, 0x06001B28) /* Icon */
+     , (4187,  22, 0x3400002B) /* PhysicsEffectTable */;

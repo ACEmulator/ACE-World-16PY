@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24291,   1, 'Merciless Monouga') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24291,   1,   33555199) /* Setup */
-     , (24291,   2,  150994983) /* MotionTable */
-     , (24291,   3,  536870962) /* SoundTable */
-     , (24291,   4,  805306390) /* CombatTable */
-     , (24291,   6,   67111302) /* PaletteBase */
-     , (24291,   7,  268436619) /* ClothingBase */
-     , (24291,   8,  100669117) /* Icon */
-     , (24291,  22,  872415257) /* PhysicsEffectTable */
+VALUES (24291,   1, 0x020002FF) /* Setup */
+     , (24291,   2, 0x09000027) /* MotionTable */
+     , (24291,   3, 0x20000032) /* SoundTable */
+     , (24291,   4, 0x30000016) /* CombatTable */
+     , (24291,   6, 0x04000986) /* PaletteBase */
+     , (24291,   7, 0x1000048B) /* ClothingBase */
+     , (24291,   8, 0x060016BD) /* Icon */
+     , (24291,  22, 0x34000019) /* PhysicsEffectTable */
      , (24291,  32,        271) /* WieldedTreasureType - 
                                    Wield Club (23646) | Probability: 30.000002%
                                    Wield Club (23649) | Probability: 30.000002% */

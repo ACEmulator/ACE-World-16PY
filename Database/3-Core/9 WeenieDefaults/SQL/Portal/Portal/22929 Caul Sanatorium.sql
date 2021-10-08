@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22929,   1, 'Caul Sanatorium') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22929,   1,   33558569) /* Setup */
-     , (22929,   2,  150994947) /* MotionTable */
-     , (22929,   8,  100667499) /* Icon */;
+VALUES (22929,   1, 0x02001029) /* Setup */
+     , (22929,   2, 0x09000003) /* MotionTable */
+     , (22929,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22929, 2, 0x604703D0, 72.7422, -51.8616, 6.005, 1, 0, 0, -0) /* Destination */

@@ -26,10 +26,10 @@ VALUES (14447,   1, 'An Unsigned Message') /* Name */
      , (14447,  15, 'A note.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14447,   1,   33557474) /* Setup */
-     , (14447,   3,  536870932) /* SoundTable */
-     , (14447,   8,  100672466) /* Icon */
-     , (14447,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14447,   1, 0x02000BE2) /* Setup */
+     , (14447,   3, 0x20000014) /* SoundTable */
+     , (14447,   8, 0x060023D2) /* Icon */
+     , (14447,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (14447, 1, 1000);

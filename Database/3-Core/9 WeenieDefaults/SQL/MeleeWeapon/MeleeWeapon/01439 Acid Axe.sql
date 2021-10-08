@@ -42,9 +42,9 @@ VALUES (1439,   1, 'Acid Axe') /* Name */
      , (1439,  16, 'A double-headed battle axe, dripping with vitriol. The handle appears to be made of ivory inlaid with tourmaline.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1439,   1,   33555414) /* Setup */
-     , (1439,   8,  100672844) /* Icon */
-     , (1439,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1439,   1, 0x020003D6) /* Setup */
+     , (1439,   8, 0x0600254C) /* Icon */
+     , (1439,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1439,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

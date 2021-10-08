@@ -25,10 +25,10 @@ VALUES (12281,   1, 'Translated Singular Pyreal Note') /* Name */
      , (12281,  16, 'A note translated by Diyas al-Yat of Zaikhal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12281,   1,   33554773) /* Setup */
-     , (12281,   3,  536870932) /* SoundTable */
-     , (12281,   8,  100668176) /* Icon */
-     , (12281,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12281,   1, 0x02000155) /* Setup */
+     , (12281,   3, 0x20000014) /* SoundTable */
+     , (12281,   8, 0x06001310) /* Icon */
+     , (12281,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (12281, 1, 1000);

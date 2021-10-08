@@ -28,7 +28,7 @@ VALUES (27894,   1, 'Mosswart Thanking Stone') /* Name */
      , (27894,  16, 'This thanking stone looks identical to normal Mosswart thanking stones. Until you turn it over. On the bottom in very small print, it reads: "Made by Ketnan. Visit Monty, Arshid or Mi Gan-Zo to take your chances."') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27894,   1,   33558698) /* Setup */
-     , (27894,   3,  536870932) /* SoundTable */
-     , (27894,   8,  100676432) /* Icon */
-     , (27894,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27894,   1, 0x020010AA) /* Setup */
+     , (27894,   3, 0x20000014) /* SoundTable */
+     , (27894,   8, 0x06003350) /* Icon */
+     , (27894,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -23,7 +23,7 @@ VALUES (509,   1, 'Life Stone') /* Name */
      , (509,  18, 'You have attuned your spirit to this Lifestone. You will resurrect here after you die.') /* UseMessage */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (509,   1,   33555182) /* Setup */
-     , (509,   2,  150994982) /* MotionTable */
-     , (509,   3,  536870932) /* SoundTable */
-     , (509,   8,  100668245) /* Icon */;
+VALUES (509,   1, 0x020002EE) /* Setup */
+     , (509,   2, 0x09000026) /* MotionTable */
+     , (509,   3, 0x20000014) /* SoundTable */
+     , (509,   8, 0x06001355) /* Icon */;

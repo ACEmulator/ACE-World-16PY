@@ -24,7 +24,7 @@ VALUES (20458,   1, 'Scroll of Tempest') /* Name */
      , (20458,  15, 'When learned, this spell shoots five bolts of lightning toward the target. Each bolt does 40-80 points of electric damage to the first thing it hits.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20458,   1,   33554826) /* Setup */
-     , (20458,   8,  100677013) /* Icon */
-     , (20458,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20458,   1, 0x0200018A) /* Setup */
+     , (20458,   8, 0x06003595) /* Icon */
+     , (20458,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20458,  28,       2142) /* Spell - Tempest */;

@@ -29,9 +29,9 @@ VALUES (7843,   1, 'Chocolate Ice Cream') /* Name */
      , (7843,  20, 'Bowls of Chocolate Ice Cream') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7843,   1,   33554668) /* Setup */
-     , (7843,   3,  536870932) /* SoundTable */
-     , (7843,   6,   67111928) /* PaletteBase */
-     , (7843,   7,  268436019) /* ClothingBase */
-     , (7843,   8,  100670861) /* Icon */
-     , (7843,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7843,   1, 0x020000EC) /* Setup */
+     , (7843,   3, 0x20000014) /* SoundTable */
+     , (7843,   6, 0x04000BF8) /* PaletteBase */
+     , (7843,   7, 0x10000233) /* ClothingBase */
+     , (7843,   8, 0x06001D8D) /* Icon */
+     , (7843,  22, 0x3400002B) /* PhysicsEffectTable */;

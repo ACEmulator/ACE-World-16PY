@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2131,   1, 'Pressure Plate') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2131,   1,   33555536) /* Setup */
-     , (2131,   2,  150994977) /* MotionTable */
-     , (2131,   8,  100668114) /* Icon */
+VALUES (2131,   1, 0x02000450) /* Setup */
+     , (2131,   2, 0x09000021) /* MotionTable */
+     , (2131,   8, 0x060012D2) /* Icon */
      , (2131,  23,        149) /* UseSound - TriggerActivated */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)

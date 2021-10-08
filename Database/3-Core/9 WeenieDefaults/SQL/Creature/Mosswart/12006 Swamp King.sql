@@ -71,14 +71,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12006,   1, 'Swamp King') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12006,   1,   33557327) /* Setup */
-     , (12006,   2,  150994953) /* MotionTable */
-     , (12006,   3,  536870959) /* SoundTable */
-     , (12006,   4,  805306373) /* CombatTable */
-     , (12006,   6,   67113400) /* PaletteBase */
-     , (12006,   7,  268436293) /* ClothingBase */
-     , (12006,   8,  100667449) /* Icon */
-     , (12006,  22,  872415264) /* PhysicsEffectTable */
+VALUES (12006,   1, 0x02000B4F) /* Setup */
+     , (12006,   2, 0x09000009) /* MotionTable */
+     , (12006,   3, 0x2000002F) /* SoundTable */
+     , (12006,   4, 0x30000005) /* CombatTable */
+     , (12006,   6, 0x040011B8) /* PaletteBase */
+     , (12006,   7, 0x10000345) /* ClothingBase */
+     , (12006,   8, 0x06001039) /* Icon */
+     , (12006,  22, 0x34000020) /* PhysicsEffectTable */
      , (12006,  32,        282) /* WieldedTreasureType - 
                                    Wield 5x Frost Throwing Club (23657) | Probability: 25%
                                    Wield 4x Frost Throwing Club (23661) | Probability: 25%

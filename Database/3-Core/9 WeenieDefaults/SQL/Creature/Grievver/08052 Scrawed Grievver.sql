@@ -72,14 +72,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8052,   1, 'Scrawed Grievver') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8052,   1,   33556698) /* Setup */
-     , (8052,   2,  150995098) /* MotionTable */
-     , (8052,   3,  536871009) /* SoundTable */
-     , (8052,   4,  805306411) /* CombatTable */
-     , (8052,   6,   67112927) /* PaletteBase */
-     , (8052,   7,  268436038) /* ClothingBase */
-     , (8052,   8,  100670960) /* Icon */
-     , (8052,  22,  872415364) /* PhysicsEffectTable */
+VALUES (8052,   1, 0x020008DA) /* Setup */
+     , (8052,   2, 0x0900009A) /* MotionTable */
+     , (8052,   3, 0x20000061) /* SoundTable */
+     , (8052,   4, 0x3000002B) /* CombatTable */
+     , (8052,   6, 0x04000FDF) /* PaletteBase */
+     , (8052,   7, 0x10000246) /* ClothingBase */
+     , (8052,   8, 0x06001DF0) /* Icon */
+     , (8052,  22, 0x34000084) /* PhysicsEffectTable */
      , (8052,  30,         87) /* PhysicsScript - BreatheLightning */
      , (8052,  35,        314) /* DeathTreasureType - Loot Tier: 3 */;
 

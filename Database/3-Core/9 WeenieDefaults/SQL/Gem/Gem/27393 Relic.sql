@@ -37,12 +37,12 @@ VALUES (27393,   1, 'Relic') /* Name */
      , (27393,  16, 'The Baron has called us to protect The Chalice. We few who remember shall preserve this relic with undying devotion. - Brotherhood of the Chalice') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27393,   1,   33556769) /* Setup */
-     , (27393,   3,  536870932) /* SoundTable */
-     , (27393,   6,   67111919) /* PaletteBase */
-     , (27393,   7,  268435723) /* ClothingBase */
-     , (27393,   8,  100668366) /* Icon */
-     , (27393,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27393,   1, 0x02000921) /* Setup */
+     , (27393,   3, 0x20000014) /* SoundTable */
+     , (27393,   6, 0x04000BEF) /* PaletteBase */
+     , (27393,   7, 0x1000010B) /* ClothingBase */
+     , (27393,   8, 0x060013CE) /* Icon */
+     , (27393,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27393,  28,        157) /* Spell - Summon Primary Portal I */
      , (27393,  31,      27404) /* LinkedPortalOne - Relic */
-     , (27393,  50,  100676404) /* IconOverlay */;
+     , (27393,  50, 0x06003334) /* IconOverlay */;

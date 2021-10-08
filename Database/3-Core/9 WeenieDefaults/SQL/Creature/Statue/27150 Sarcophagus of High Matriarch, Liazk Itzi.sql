@@ -65,12 +65,12 @@ VALUES (27150,   1, 'Sarcophagus of High Matriarch, Liazk Itzi') /* Name */
      , (27150,  16, 'A sarcophagus sealed by powerful magics. There appear to be a set of bracers beneath a heavy clear stone. Perhaps if you had moved through the halls of this temple in a fellowship you could have obtained the bracers.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27150,   1,   33558609) /* Setup */
-     , (27150,   2,  150995261) /* MotionTable */
-     , (27150,   3,  536870933) /* SoundTable */
-     , (27150,   4,  805306372) /* CombatTable */
-     , (27150,   8,  100675787) /* Icon */
-     , (27150,  22,  872415328) /* PhysicsEffectTable */;
+VALUES (27150,   1, 0x02001051) /* Setup */
+     , (27150,   2, 0x0900013D) /* MotionTable */
+     , (27150,   3, 0x20000015) /* SoundTable */
+     , (27150,   4, 0x30000004) /* CombatTable */
+     , (27150,   8, 0x060030CB) /* Icon */
+     , (27150,  22, 0x34000060) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27150,   1, 380, 0, 0) /* Strength */

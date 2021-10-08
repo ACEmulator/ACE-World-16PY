@@ -46,11 +46,11 @@ VALUES (12122,   1, 'Palenqual''s Taiaha') /* Name */
      , (12122,  16, 'A taiaha fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12122,   1,   33557236) /* Setup */
-     , (12122,   3,  536870932) /* SoundTable */
-     , (12122,   8,  100672034) /* Icon */
-     , (12122,  22,  872415275) /* PhysicsEffectTable */
-     , (12122,  36,  234881044) /* MutateFilter */
+VALUES (12122,   1, 0x02000AF4) /* Setup */
+     , (12122,   3, 0x20000014) /* SoundTable */
+     , (12122,   8, 0x06002222) /* Icon */
+     , (12122,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (12122,  36, 0x0E000014) /* MutateFilter */
      , (12122,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

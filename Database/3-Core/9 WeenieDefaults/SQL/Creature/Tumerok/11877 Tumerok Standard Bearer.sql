@@ -61,12 +61,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11877,   1, 'Tumerok Standard Bearer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11877,   1,   33554496) /* Setup */
-     , (11877,   2,  150994954) /* MotionTable */
-     , (11877,   3,  536870931) /* SoundTable */
-     , (11877,   4,  805306380) /* CombatTable */
-     , (11877,   8,  100667452) /* Icon */
-     , (11877,  22,  872415270) /* PhysicsEffectTable */
+VALUES (11877,   1, 0x02000040) /* Setup */
+     , (11877,   2, 0x0900000A) /* MotionTable */
+     , (11877,   3, 0x20000013) /* SoundTable */
+     , (11877,   4, 0x3000000C) /* CombatTable */
+     , (11877,   8, 0x0600103C) /* Icon */
+     , (11877,  22, 0x34000026) /* PhysicsEffectTable */
      , (11877,  32,        368) /* WieldedTreasureType - 
                                    Wield Hafted Mask Spear (11753) | Probability: 80%
                                    Wield Reinforced Mask Spear (11779) | Probability: 20% */

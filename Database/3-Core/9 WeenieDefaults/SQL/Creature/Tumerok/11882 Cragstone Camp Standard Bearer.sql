@@ -62,14 +62,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11882,   1, 'Cragstone Camp Standard Bearer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11882,   1,   33554496) /* Setup */
-     , (11882,   2,  150994954) /* MotionTable */
-     , (11882,   3,  536870931) /* SoundTable */
-     , (11882,   4,  805306380) /* CombatTable */
-     , (11882,   6,   67109314) /* PaletteBase */
-     , (11882,   7,  268435647) /* ClothingBase */
-     , (11882,   8,  100667452) /* Icon */
-     , (11882,  22,  872415270) /* PhysicsEffectTable */
+VALUES (11882,   1, 0x02000040) /* Setup */
+     , (11882,   2, 0x0900000A) /* MotionTable */
+     , (11882,   3, 0x20000013) /* SoundTable */
+     , (11882,   4, 0x3000000C) /* CombatTable */
+     , (11882,   6, 0x040001C2) /* PaletteBase */
+     , (11882,   7, 0x100000BF) /* ClothingBase */
+     , (11882,   8, 0x0600103C) /* Icon */
+     , (11882,  22, 0x34000026) /* PhysicsEffectTable */
      , (11882,  31,      11843) /* LinkedPortalOne - Cragstone Advance Camp Portal */
      , (11882,  32,        226) /* WieldedTreasureType - 
                                    Wield 5x Javelin (320) | Probability: 10%

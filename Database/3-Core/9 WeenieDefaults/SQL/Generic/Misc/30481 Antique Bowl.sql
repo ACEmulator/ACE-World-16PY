@@ -27,9 +27,9 @@ VALUES (30481,   1, 'Antique Bowl') /* Name */
      , (30481,  33, 'HoltburgRedoubtBowl1204') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30481,   1,   33554929) /* Setup */
-     , (30481,   3,  536871012) /* SoundTable */
-     , (30481,   6,   67111092) /* PaletteBase */
-     , (30481,   7,  268435737) /* ClothingBase */
-     , (30481,   8,  100668612) /* Icon */
-     , (30481,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30481,   1, 0x020001F1) /* Setup */
+     , (30481,   3, 0x20000064) /* SoundTable */
+     , (30481,   6, 0x040008B4) /* PaletteBase */
+     , (30481,   7, 0x10000119) /* ClothingBase */
+     , (30481,   8, 0x060014C4) /* Icon */
+     , (30481,  22, 0x3400002B) /* PhysicsEffectTable */;

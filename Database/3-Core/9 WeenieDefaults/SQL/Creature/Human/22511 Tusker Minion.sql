@@ -61,12 +61,12 @@ VALUES (22511,   1, 'Tusker Minion') /* Name */
      , (22511,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22511,   1,   33554510) /* Setup */
-     , (22511,   2,  150994945) /* MotionTable */
-     , (22511,   3,  536870914) /* SoundTable */
-     , (22511,   4,  805306368) /* CombatTable */
-     , (22511,   8,  100667446) /* Icon */
-     , (22511,  22,  872415236) /* PhysicsEffectTable */
+VALUES (22511,   1, 0x0200004E) /* Setup */
+     , (22511,   2, 0x09000001) /* MotionTable */
+     , (22511,   3, 0x20000002) /* SoundTable */
+     , (22511,   4, 0x30000000) /* CombatTable */
+     , (22511,   8, 0x06001036) /* Icon */
+     , (22511,  22, 0x34000004) /* PhysicsEffectTable */
      , (22511,  32,        419) /* WieldedTreasureType - 
                                    Wield Clean, Dry Towel (10758) | Palette: Blue (2) | Probability: 50%
                                    Wield Clean, Dry Towel (10758) | Palette: Green (8) | Probability: 50%

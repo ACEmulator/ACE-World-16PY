@@ -30,10 +30,10 @@ VALUES (30156,   1, 'Hieroglyph of Mace Mastery') /* Name */
      , (30156,  16, 'A lovely template for a rare magical gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30156,   1,   33554809) /* Setup */
-     , (30156,   3,  536870932) /* SoundTable */
-     , (30156,   6,   67111919) /* PaletteBase */
-     , (30156,   7,  268435723) /* ClothingBase */
-     , (30156,   8,  100674739) /* Icon */
-     , (30156,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30156,   1, 0x02000179) /* Setup */
+     , (30156,   3, 0x20000014) /* SoundTable */
+     , (30156,   6, 0x04000BEF) /* PaletteBase */
+     , (30156,   7, 0x1000010B) /* ClothingBase */
+     , (30156,   8, 0x06002CB3) /* Icon */
+     , (30156,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30156,  28,       2275) /* Spell - Light Weapon Mastery Self VII */;

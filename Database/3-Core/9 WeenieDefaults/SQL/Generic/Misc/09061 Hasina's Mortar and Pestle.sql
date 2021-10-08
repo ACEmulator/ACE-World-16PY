@@ -21,7 +21,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9061,   1, 'Hasina''s Mortar and Pestle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9061,   1,   33555966) /* Setup */
-     , (9061,   3,  536870932) /* SoundTable */
-     , (9061,   8,  100670116) /* Icon */
-     , (9061,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9061,   1, 0x020005FE) /* Setup */
+     , (9061,   3, 0x20000014) /* SoundTable */
+     , (9061,   8, 0x06001AA4) /* Icon */
+     , (9061,  22, 0x3400002B) /* PhysicsEffectTable */;

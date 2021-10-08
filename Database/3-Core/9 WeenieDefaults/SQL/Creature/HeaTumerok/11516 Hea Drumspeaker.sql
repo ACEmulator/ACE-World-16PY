@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11516,   1, 'Hea Drumspeaker') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11516,   1,   33554496) /* Setup */
-     , (11516,   2,  150994954) /* MotionTable */
-     , (11516,   3,  536870931) /* SoundTable */
-     , (11516,   4,  805306380) /* CombatTable */
-     , (11516,   6,   67109314) /* PaletteBase */
-     , (11516,   7,  268436629) /* ClothingBase */
-     , (11516,   8,  100667452) /* Icon */
-     , (11516,  22,  872415270) /* PhysicsEffectTable */
+VALUES (11516,   1, 0x02000040) /* Setup */
+     , (11516,   2, 0x0900000A) /* MotionTable */
+     , (11516,   3, 0x20000013) /* SoundTable */
+     , (11516,   4, 0x3000000C) /* CombatTable */
+     , (11516,   6, 0x040001C2) /* PaletteBase */
+     , (11516,   7, 0x10000495) /* ClothingBase */
+     , (11516,   8, 0x0600103C) /* Icon */
+     , (11516,  22, 0x34000026) /* PhysicsEffectTable */
      , (11516,  32,        220) /* WieldedTreasureType - 
                                    Wield Katar (23676) | Probability: 14%
                                    Wield Cestus (23639) | Probability: 7%

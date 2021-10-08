@@ -35,9 +35,9 @@ VALUES (23963,   1, 'Infused Plate Coat') /* Name */
      , (23963,  15, 'A once vibrant coat worn by the Order of Heiromancers teeming with an unknown power.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23963,   1,   33554669) /* Setup */
-     , (23963,   3,  536870932) /* SoundTable */
-     , (23963,   6,   67111919) /* PaletteBase */
-     , (23963,   7,  268435968) /* ClothingBase */
-     , (23963,   8,  100674127) /* Icon */
-     , (23963,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23963,   1, 0x020000ED) /* Setup */
+     , (23963,   3, 0x20000014) /* SoundTable */
+     , (23963,   6, 0x04000BEF) /* PaletteBase */
+     , (23963,   7, 0x10000200) /* ClothingBase */
+     , (23963,   8, 0x06002A4F) /* Icon */
+     , (23963,  22, 0x3400002B) /* PhysicsEffectTable */;

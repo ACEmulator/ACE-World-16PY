@@ -29,9 +29,9 @@ VALUES (6318,   1, 'Minor Sparking Stone') /* Name */
      , (6318,  33, 'sparkingstoneminor') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6318,   1,   33556407) /* Setup */
-     , (6318,   3,  536870932) /* SoundTable */
-     , (6318,   6,   67111919) /* PaletteBase */
-     , (6318,   7,  268435965) /* ClothingBase */
-     , (6318,   8,  100670492) /* Icon */
-     , (6318,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6318,   1, 0x020007B7) /* Setup */
+     , (6318,   3, 0x20000014) /* SoundTable */
+     , (6318,   6, 0x04000BEF) /* PaletteBase */
+     , (6318,   7, 0x100001FD) /* ClothingBase */
+     , (6318,   8, 0x06001C1C) /* Icon */
+     , (6318,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -25,7 +25,7 @@ VALUES (23059,   1, 'Focus To Strength Gem') /* Name */
      , (23059,  14, 'Use this gem to transfer up to 10 points of your Focus into your Strength.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23059,   1,   33558087) /* Setup */
-     , (23059,   6,   67111919) /* PaletteBase */
-     , (23059,   7,  268435723) /* ClothingBase */
-     , (23059,   8,  100673957) /* Icon */;
+VALUES (23059,   1, 0x02000E47) /* Setup */
+     , (23059,   6, 0x04000BEF) /* PaletteBase */
+     , (23059,   7, 0x1000010B) /* ClothingBase */
+     , (23059,   8, 0x060029A5) /* Icon */;

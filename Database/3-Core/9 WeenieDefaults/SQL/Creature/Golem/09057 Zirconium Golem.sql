@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9057,   1, 'Zirconium Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9057,   1,   33556439) /* Setup */
-     , (9057,   2,  150995073) /* MotionTable */
-     , (9057,   3,  536870933) /* SoundTable */
-     , (9057,   4,  805306376) /* CombatTable */
-     , (9057,   6,   67112808) /* PaletteBase */
-     , (9057,   7,  268435983) /* ClothingBase */
-     , (9057,   8,  100667940) /* Icon */
-     , (9057,  22,  872415326) /* PhysicsEffectTable */
+VALUES (9057,   1, 0x020007D7) /* Setup */
+     , (9057,   2, 0x09000081) /* MotionTable */
+     , (9057,   3, 0x20000015) /* SoundTable */
+     , (9057,   4, 0x30000008) /* CombatTable */
+     , (9057,   6, 0x04000F68) /* PaletteBase */
+     , (9057,   7, 0x1000020F) /* ClothingBase */
+     , (9057,   8, 0x06001224) /* Icon */
+     , (9057,  22, 0x3400005E) /* PhysicsEffectTable */
      , (9057,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

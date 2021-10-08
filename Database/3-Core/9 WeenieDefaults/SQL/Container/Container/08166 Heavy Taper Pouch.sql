@@ -29,12 +29,12 @@ VALUES (8166,   1, 'Heavy Taper Pouch') /* Name */
      , (8166,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8166,   1,   33554817) /* Setup */
-     , (8166,   3,  536870932) /* SoundTable */
-     , (8166,   6,   67111919) /* PaletteBase */
-     , (8166,   7,  268435833) /* ClothingBase */
-     , (8166,   8,  100667436) /* Icon */
-     , (8166,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8166,   1, 0x02000181) /* Setup */
+     , (8166,   3, 0x20000014) /* SoundTable */
+     , (8166,   6, 0x04000BEF) /* PaletteBase */
+     , (8166,   7, 0x10000179) /* ClothingBase */
+     , (8166,   8, 0x0600102C) /* Icon */
+     , (8166,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8166, 1,  1650, 75, 0, 0, False) /* Create Red Taper (1650) for Contain */

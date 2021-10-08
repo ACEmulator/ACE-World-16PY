@@ -24,7 +24,7 @@ VALUES (20620,   1, 'Scroll of Primary Portal Recall') /* Name */
      , (20620,  15, 'When learned, this spell transports the caster to the destination of the portal last successfully linked to with Primary Portal Tie.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20620,   1,   33554826) /* Setup */
-     , (20620,   8,  100676673) /* Icon */
-     , (20620,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20620,   1, 0x0200018A) /* Setup */
+     , (20620,   8, 0x06003441) /* Icon */
+     , (20620,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20620,  28,         48) /* Spell - Primary Portal Recall */;

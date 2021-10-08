@@ -62,14 +62,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26677,   1, 'Dire Mattie') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26677,   1,   33555590) /* Setup */
-     , (26677,   2,  150995283) /* MotionTable */
-     , (26677,   3,  536870974) /* SoundTable */
-     , (26677,   4,  805306417) /* CombatTable */
-     , (26677,   6,   67111893) /* PaletteBase */
-     , (26677,   7,  268435729) /* ClothingBase */
-     , (26677,   8,  100669121) /* Icon */
-     , (26677,  22,  872415278) /* PhysicsEffectTable */
+VALUES (26677,   1, 0x02000486) /* Setup */
+     , (26677,   2, 0x09000153) /* MotionTable */
+     , (26677,   3, 0x2000003E) /* SoundTable */
+     , (26677,   4, 0x30000031) /* CombatTable */
+     , (26677,   6, 0x04000BD5) /* PaletteBase */
+     , (26677,   7, 0x10000111) /* ClothingBase */
+     , (26677,   8, 0x060016C1) /* Icon */
+     , (26677,  22, 0x3400002E) /* PhysicsEffectTable */
      , (26677,  30,         85) /* PhysicsScript - BreatheFrost */
      , (26677,  35,        457) /* DeathTreasureType - Loot Tier: 2 */;
 

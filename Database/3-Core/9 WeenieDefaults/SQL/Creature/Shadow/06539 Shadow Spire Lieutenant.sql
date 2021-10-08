@@ -74,14 +74,14 @@ VALUES (6539,   1, 'Shadow Spire Lieutenant') /* Name */
      , (6539,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6539,   1,   33554433) /* Setup */
-     , (6539,   2,  150994945) /* MotionTable */
-     , (6539,   3,  536870913) /* SoundTable */
-     , (6539,   4,  805306368) /* CombatTable */
-     , (6539,   6,   67111797) /* PaletteBase */
-     , (6539,   7,  268435632) /* ClothingBase */
-     , (6539,   8,  100670397) /* Icon */
-     , (6539,  22,  872415331) /* PhysicsEffectTable */
+VALUES (6539,   1, 0x02000001) /* Setup */
+     , (6539,   2, 0x09000001) /* MotionTable */
+     , (6539,   3, 0x20000001) /* SoundTable */
+     , (6539,   4, 0x30000000) /* CombatTable */
+     , (6539,   6, 0x04000B75) /* PaletteBase */
+     , (6539,   7, 0x100000B0) /* ClothingBase */
+     , (6539,   8, 0x06001BBD) /* Icon */
+     , (6539,  22, 0x34000063) /* PhysicsEffectTable */
      , (6539,  32,        175) /* WieldedTreasureType - 
                                    Wield Yumi (23735) | Probability: 20%
                                    Wield 14x Fire Arrow (1437) | Probability: 100%

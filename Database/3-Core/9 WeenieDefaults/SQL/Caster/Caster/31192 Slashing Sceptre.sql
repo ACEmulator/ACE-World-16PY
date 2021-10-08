@@ -41,13 +41,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31192,   1, 'Slashing Sceptre') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31192,   1,   33559233) /* Setup */
-     , (31192,   3,  536870932) /* SoundTable */
-     , (31192,   6,   67115357) /* PaletteBase */
-     , (31192,   7,  268436902) /* ClothingBase */
-     , (31192,   8,  100668792) /* Icon */
-     , (31192,  22,  872415275) /* PhysicsEffectTable */
-     , (31192,  27, 1073742049) /* UseUserAnimation - UseMagicWand */;
+VALUES (31192,   1, 0x020012C1) /* Setup */
+     , (31192,   3, 0x20000014) /* SoundTable */
+     , (31192,   6, 0x0400195D) /* PaletteBase */
+     , (31192,   7, 0x100005A6) /* ClothingBase */
+     , (31192,   8, 0x06001578) /* Icon */
+     , (31192,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (31192,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31192,  2101,      2)  /* Aura of Cragstone's Will */

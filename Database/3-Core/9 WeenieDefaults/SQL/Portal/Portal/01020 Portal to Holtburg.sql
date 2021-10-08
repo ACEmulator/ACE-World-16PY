@@ -25,9 +25,9 @@ VALUES (1020,   1, 'Portal to Holtburg') /* Name */
      , (1020,  16, 'This portal goes to Holtburg, an Aluvian town where many new adventurers enter Dereth. This is a good town for characters of all levels.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1020,   1,   33554867) /* Setup */
-     , (1020,   2,  150994947) /* MotionTable */
-     , (1020,   8,  100667499) /* Icon */;
+VALUES (1020,   1, 0x020001B3) /* Setup */
+     , (1020,   2, 0x09000003) /* MotionTable */
+     , (1020,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1020, 2, 0xA9B40019, 84, 7.1, 94, 0.996917, 0, 0, -0.078459) /* Destination */

@@ -28,9 +28,9 @@ VALUES (11946,   1, 'Shreth Token') /* Name */
      , (11946,  16, 'A token with a Shreth head on it.  This was given to you in exchange for your valor.  If you give it to any of the army collectors, they will grant you a gift. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11946,   1,   33557280) /* Setup */
-     , (11946,   3,  536870932) /* SoundTable */
-     , (11946,   6,   67111919) /* PaletteBase */
-     , (11946,   7,  268435723) /* ClothingBase */
-     , (11946,   8,  100671975) /* Icon */
-     , (11946,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11946,   1, 0x02000B20) /* Setup */
+     , (11946,   3, 0x20000014) /* SoundTable */
+     , (11946,   6, 0x04000BEF) /* PaletteBase */
+     , (11946,   7, 0x1000010B) /* ClothingBase */
+     , (11946,   8, 0x060021E7) /* Icon */
+     , (11946,  22, 0x3400002B) /* PhysicsEffectTable */;

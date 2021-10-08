@@ -22,11 +22,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21436,   1, 'Disciples of Corrosion') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21436,   1,   33556929) /* Setup */
-     , (21436,   3,  536870932) /* SoundTable */
-     , (21436,   7,  268436455) /* ClothingBase */
-     , (21436,   8,  100673472) /* Icon */
-     , (21436,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21436,   1, 0x020009C1) /* Setup */
+     , (21436,   3, 0x20000014) /* SoundTable */
+     , (21436,   7, 0x100003E7) /* ClothingBase */
+     , (21436,   8, 0x060027C0) /* Icon */
+     , (21436,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (21436, 14, 1000);

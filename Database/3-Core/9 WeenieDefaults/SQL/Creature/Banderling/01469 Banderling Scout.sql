@@ -61,12 +61,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1469,   1, 'Banderling Scout') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1469,   1,   33558024) /* Setup */
-     , (1469,   2,  150994951) /* MotionTable */
-     , (1469,   3,  536870917) /* SoundTable */
-     , (1469,   4,  805306370) /* CombatTable */
-     , (1469,   8,  100667453) /* Icon */
-     , (1469,  22,  872415255) /* PhysicsEffectTable */
+VALUES (1469,   1, 0x02000E08) /* Setup */
+     , (1469,   2, 0x09000007) /* MotionTable */
+     , (1469,   3, 0x20000005) /* SoundTable */
+     , (1469,   4, 0x30000002) /* CombatTable */
+     , (1469,   8, 0x0600103D) /* Icon */
+     , (1469,  22, 0x34000017) /* PhysicsEffectTable */
      , (1469,  32,         56) /* WieldedTreasureType - 
                                    Wield Jo (322) | Probability: 3%
                                    Wield Nabut (333) | Probability: 3%

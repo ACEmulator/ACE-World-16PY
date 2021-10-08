@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25888,   1, 'Malevolent Zefir') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25888,   1,   33555610) /* Setup */
-     , (25888,   2,  150995049) /* MotionTable */
-     , (25888,   3,  536870975) /* SoundTable */
-     , (25888,   4,  805306396) /* CombatTable */
-     , (25888,   6,   67109305) /* PaletteBase */
-     , (25888,   7,  268436729) /* ClothingBase */
-     , (25888,   8,  100669123) /* Icon */
-     , (25888,  22,  872415279) /* PhysicsEffectTable */
+VALUES (25888,   1, 0x0200049A) /* Setup */
+     , (25888,   2, 0x09000069) /* MotionTable */
+     , (25888,   3, 0x2000003F) /* SoundTable */
+     , (25888,   4, 0x3000001C) /* CombatTable */
+     , (25888,   6, 0x040001B9) /* PaletteBase */
+     , (25888,   7, 0x100004F9) /* ClothingBase */
+     , (25888,   8, 0x060016C3) /* Icon */
+     , (25888,  22, 0x3400002F) /* PhysicsEffectTable */
      , (25888,  35,         26) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

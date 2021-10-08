@@ -25,7 +25,7 @@ VALUES (1576,   1, 'Scroll of Fire Protection Other') /* Name */
      , (1576,  16, 'When learned, this spell reduces damage the target takes from fire by 9%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1576,   1,   33554826) /* Setup */
-     , (1576,   8,  100676949) /* Icon */
-     , (1576,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1576,   1, 0x0200018A) /* Setup */
+     , (1576,   8, 0x06003555) /* Icon */
+     , (1576,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1576,  28,         19) /* Spell - Fire Protection Other I */;

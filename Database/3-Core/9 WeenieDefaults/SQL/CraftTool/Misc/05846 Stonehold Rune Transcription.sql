@@ -32,7 +32,7 @@ VALUES (5846,   1, 'Stonehold Rune Transcription') /* Name */
      , (5846,  33, 'StoneholdTranscription') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5846,   1,   33554773) /* Setup */
-     , (5846,   3,  536870932) /* SoundTable */
-     , (5846,   8,  100667493) /* Icon */
-     , (5846,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5846,   1, 0x02000155) /* Setup */
+     , (5846,   3, 0x20000014) /* SoundTable */
+     , (5846,   8, 0x06001065) /* Icon */
+     , (5846,  22, 0x3400002B) /* PhysicsEffectTable */;

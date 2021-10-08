@@ -45,12 +45,12 @@ VALUES (25522,   1, 'Skull Cap') /* Name */
      , (25522,  16, 'Once the head of a powerful undead, this skull cap has retained some magical qualities. It can be worn on the head for protection, and the benefit of its enchantments.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25522,   1,   33558495) /* Setup */
-     , (25522,   3,  536870932) /* SoundTable */
-     , (25522,   6,   67108990) /* PaletteBase */
-     , (25522,   7,  268436688) /* ClothingBase */
-     , (25522,   8,  100674953) /* Icon */
-     , (25522,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25522,   1, 0x02000FDF) /* Setup */
+     , (25522,   3, 0x20000014) /* SoundTable */
+     , (25522,   6, 0x0400007E) /* PaletteBase */
+     , (25522,   7, 0x100004D0) /* ClothingBase */
+     , (25522,   8, 0x06002D89) /* Icon */
+     , (25522,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25522,  2012,      2)  /* Wizard's Intellect */

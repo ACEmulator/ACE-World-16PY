@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27666,   1, 'Ollar, Renegade Captain') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27666,   1,   33557003) /* Setup */
-     , (27666,   2,  150994950) /* MotionTable */
-     , (27666,   3,  536870922) /* SoundTable */
-     , (27666,   4,  805306371) /* CombatTable */
-     , (27666,   6,   67113158) /* PaletteBase */
-     , (27666,   7,  268436157) /* ClothingBase */
-     , (27666,   8,  100667447) /* Icon */
-     , (27666,  22,  872415262) /* PhysicsEffectTable */
+VALUES (27666,   1, 0x02000A0B) /* Setup */
+     , (27666,   2, 0x09000006) /* MotionTable */
+     , (27666,   3, 0x2000000A) /* SoundTable */
+     , (27666,   4, 0x30000003) /* CombatTable */
+     , (27666,   6, 0x040010C6) /* PaletteBase */
+     , (27666,   7, 0x100002BD) /* ClothingBase */
+     , (27666,   8, 0x06001037) /* Icon */
+     , (27666,  22, 0x3400001E) /* PhysicsEffectTable */
      , (27666,  32,        326) /* WieldedTreasureType - 
                                    Wield Rock (23746) | Probability: 100%
                                    Wield Lugian Axe (23740) | Probability: 60.000004%

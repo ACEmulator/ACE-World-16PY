@@ -22,5 +22,5 @@ VALUES (19395,   1, 'Valorya Gate') /* Name */
      , (19395,  16, 'Valorya Gate') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19395,   1,   33557704) /* Setup */
-     , (19395,   8,  100667499) /* Icon */;
+VALUES (19395,   1, 0x02000CC8) /* Setup */
+     , (19395,   8, 0x0600106B) /* Icon */;

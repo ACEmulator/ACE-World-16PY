@@ -63,12 +63,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21167,   1, 'Gelid') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21167,   1,   33557487) /* Setup */
-     , (21167,   2,  150995087) /* MotionTable */
-     , (21167,   3,  536871002) /* SoundTable */
-     , (21167,   4,  805306368) /* CombatTable */
-     , (21167,   8,  100672514) /* Icon */
-     , (21167,  22,  872415349) /* PhysicsEffectTable */
+VALUES (21167,   1, 0x02000BEF) /* Setup */
+     , (21167,   2, 0x0900008F) /* MotionTable */
+     , (21167,   3, 0x2000005A) /* SoundTable */
+     , (21167,   4, 0x30000000) /* CombatTable */
+     , (21167,   8, 0x06002402) /* Icon */
+     , (21167,  22, 0x34000075) /* PhysicsEffectTable */
      , (21167,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

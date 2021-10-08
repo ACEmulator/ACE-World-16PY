@@ -24,7 +24,7 @@ VALUES (7521,   1, 'Scroll of Os'' Wall') /* Name */
      , (7521,  15, 'When learned, this spell sends a wall of five bolts of lightning, two high, slowly towards the target. Each ball does 30-60 points of electric damage to the first thing it hits. The wall is created 2 meters in front of the caster. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7521,   1,   33554826) /* Setup */
-     , (7521,   8,  100677011) /* Icon */
-     , (7521,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7521,   1, 0x0200018A) /* Setup */
+     , (7521,   8, 0x06003593) /* Icon */
+     , (7521,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7521,  28,       1844) /* Spell - Os' Wall */;

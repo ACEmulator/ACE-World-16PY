@@ -22,5 +22,5 @@ VALUES (4413,   1, 'Lytelthorpe: 2 miles') /* Name */
      , (4413,  16, 'Town of Lytelthorpe: 2 miles.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4413,   1,   33555984) /* Setup */
-     , (4413,   8,  100668115) /* Icon */;
+VALUES (4413,   1, 0x02000610) /* Setup */
+     , (4413,   8, 0x060012D3) /* Icon */;

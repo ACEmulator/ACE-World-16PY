@@ -29,7 +29,7 @@ VALUES (6821,   1, 'Western Spires Key') /* Name */
      , (6821,  16, 'A skeletal key assembled from three fragments found in the western town shadow spires.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6821,   1,   33554784) /* Setup */
-     , (6821,   3,  536870932) /* SoundTable */
-     , (6821,   8,  100670622) /* Icon */
-     , (6821,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6821,   1, 0x02000160) /* Setup */
+     , (6821,   3, 0x20000014) /* SoundTable */
+     , (6821,   8, 0x06001C9E) /* Icon */
+     , (6821,  22, 0x3400002B) /* PhysicsEffectTable */;

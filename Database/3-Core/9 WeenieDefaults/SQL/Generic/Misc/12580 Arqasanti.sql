@@ -22,5 +22,5 @@ VALUES (12580,   1, 'Arqasanti') /* Name */
      , (12580,  16, 'Welcome to Arqasanti') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12580,   1,   33557463) /* Setup */
-     , (12580,   8,  100668115) /* Icon */;
+VALUES (12580,   1, 0x02000BD7) /* Setup */
+     , (12580,   8, 0x060012D3) /* Icon */;

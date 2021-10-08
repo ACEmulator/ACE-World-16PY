@@ -74,11 +74,11 @@ VALUES (800,   1, 'Healer Tonsho Ha') /* Name */
      , (800,  24, 'Mayoi') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (800,   1,   33554433) /* Setup */
-     , (800,   2,  150994945) /* MotionTable */
-     , (800,   3,  536870913) /* SoundTable */
-     , (800,   4,  805306368) /* CombatTable */
-     , (800,   8,  100667446) /* Icon */;
+VALUES (800,   1, 0x02000001) /* Setup */
+     , (800,   2, 0x09000001) /* MotionTable */
+     , (800,   3, 0x20000001) /* SoundTable */
+     , (800,   4, 0x30000000) /* CombatTable */
+     , (800,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (800,   1,  70, 0, 0) /* Strength */

@@ -52,12 +52,12 @@ VALUES (27345,   1, 'Tanae''s Korua of the Forests') /* Name */
      , (27345,  16, 'A korua fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27345,   1,   33558664) /* Setup */
-     , (27345,   3,  536870932) /* SoundTable */
-     , (27345,   6,   67113336) /* PaletteBase */
-     , (27345,   7,  268436251) /* ClothingBase */
-     , (27345,   8,  100676370) /* Icon */
-     , (27345,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27345,   1, 0x02001088) /* Setup */
+     , (27345,   3, 0x20000014) /* SoundTable */
+     , (27345,   6, 0x04001178) /* PaletteBase */
+     , (27345,   7, 0x1000031B) /* ClothingBase */
+     , (27345,   8, 0x06003312) /* Icon */
+     , (27345,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27345,  2446,      2)  /* Greater Growth */

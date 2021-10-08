@@ -36,12 +36,12 @@ VALUES (30805,   1, 'Ancient Temple') /* Name */
      , (30805,  14, 'Double click this gem to summon a portal to the Falatacot Temple and seek out the Living Tome.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30805,   1,   33556769) /* Setup */
-     , (30805,   3,  536870932) /* SoundTable */
-     , (30805,   6,   67111919) /* PaletteBase */
-     , (30805,   7,  268435723) /* ClothingBase */
-     , (30805,   8,  100668364) /* Icon */
-     , (30805,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30805,   1, 0x02000921) /* Setup */
+     , (30805,   3, 0x20000014) /* SoundTable */
+     , (30805,   6, 0x04000BEF) /* PaletteBase */
+     , (30805,   7, 0x1000010B) /* ClothingBase */
+     , (30805,   8, 0x060013CC) /* Icon */
+     , (30805,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30805,  28,        157) /* Spell - Summon Primary Portal I */
      , (30805,  31,      25396) /* LinkedPortalOne - Ancient Temple */
-     , (30805,  50,  100676404) /* IconOverlay */;
+     , (30805,  50, 0x06003334) /* IconOverlay */;

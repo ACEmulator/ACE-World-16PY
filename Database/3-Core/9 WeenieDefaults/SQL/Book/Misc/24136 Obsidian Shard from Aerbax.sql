@@ -28,10 +28,10 @@ VALUES (24136,   1, 'Obsidian Shard from Aerbax') /* Name */
      , (24136,  16, 'A piece of obsidian with writing from Aerbax.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24136,   1,   33555391) /* Setup */
-     , (24136,   3,  536870932) /* SoundTable */
-     , (24136,   8,  100671183) /* Icon */
-     , (24136,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24136,   1, 0x020003BF) /* Setup */
+     , (24136,   3, 0x20000014) /* SoundTable */
+     , (24136,   8, 0x06001ECF) /* Icon */
+     , (24136,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (24136, 1, 1000);

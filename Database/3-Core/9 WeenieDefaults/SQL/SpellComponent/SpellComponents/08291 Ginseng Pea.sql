@@ -30,10 +30,10 @@ VALUES (8291,   1, 'Ginseng Pea') /* Name */
      , (8291,  16, 'A concentrated ginseng pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8291,   1,   33554817) /* Setup */
-     , (8291,   3,  536870932) /* SoundTable */
-     , (8291,   6,   67111919) /* PaletteBase */
-     , (8291,   7,  268435720) /* ClothingBase */
-     , (8291,   8,  100671049) /* Icon */
-     , (8291,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8291,   1, 0x02000181) /* Setup */
+     , (8291,   3, 0x20000014) /* SoundTable */
+     , (8291,   6, 0x04000BEF) /* PaletteBase */
+     , (8291,   7, 0x10000108) /* ClothingBase */
+     , (8291,   8, 0x06001E49) /* Icon */
+     , (8291,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8291,  29,        126) /* SpellComponent */;

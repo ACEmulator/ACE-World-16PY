@@ -44,12 +44,12 @@ VALUES (11777,   1, 'Reinforced Falcon Spear') /* Name */
      , (11777,  16, 'A reinforced, spear tipped banner with a Falcon on it.  It is somewhat tattered, and the colors seem to be washed out.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11777,   1,   33557257) /* Setup */
-     , (11777,   3,  536870932) /* SoundTable */
-     , (11777,   6,   67113338) /* PaletteBase */
-     , (11777,   7,  268436219) /* ClothingBase */
-     , (11777,   8,  100671930) /* Icon */
-     , (11777,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11777,   1, 0x02000B09) /* Setup */
+     , (11777,   3, 0x20000014) /* SoundTable */
+     , (11777,   6, 0x0400117A) /* PaletteBase */
+     , (11777,   7, 0x100002FB) /* ClothingBase */
+     , (11777,   8, 0x060021BA) /* Icon */
+     , (11777,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11777,   984,      2)  /* Sprint Self III */;

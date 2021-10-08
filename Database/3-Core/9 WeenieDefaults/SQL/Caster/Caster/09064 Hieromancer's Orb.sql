@@ -36,13 +36,13 @@ VALUES (9064,   1, 'Hieromancer''s Orb') /* Name */
      , (9064,  16, 'An orb of the type carried by the Yalaini Order of Hieromancers, as an emblem of their station.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9064,   1,   33556965) /* Setup */
-     , (9064,   3,  536870932) /* SoundTable */
-     , (9064,   6,   67111919) /* PaletteBase */
-     , (9064,   7,  268436123) /* ClothingBase */
-     , (9064,   8,  100671367) /* Icon */
-     , (9064,  22,  872415275) /* PhysicsEffectTable */
-     , (9064,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (9064,   1, 0x020009E5) /* Setup */
+     , (9064,   3, 0x20000014) /* SoundTable */
+     , (9064,   6, 0x04000BEF) /* PaletteBase */
+     , (9064,   7, 0x1000029B) /* ClothingBase */
+     , (9064,   8, 0x06001F87) /* Icon */
+     , (9064,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (9064,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (9064,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

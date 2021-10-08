@@ -68,14 +68,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22002,   1, 'Diamond Golem Suzerain') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22002,   1,   33556439) /* Setup */
-     , (22002,   2,  150995073) /* MotionTable */
-     , (22002,   3,  536870933) /* SoundTable */
-     , (22002,   4,  805306376) /* CombatTable */
-     , (22002,   6,   67112808) /* PaletteBase */
-     , (22002,   7,  268435983) /* ClothingBase */
-     , (22002,   8,  100667940) /* Icon */
-     , (22002,  22,  872415322) /* PhysicsEffectTable */
+VALUES (22002,   1, 0x020007D7) /* Setup */
+     , (22002,   2, 0x09000081) /* MotionTable */
+     , (22002,   3, 0x20000015) /* SoundTable */
+     , (22002,   4, 0x30000008) /* CombatTable */
+     , (22002,   6, 0x04000F68) /* PaletteBase */
+     , (22002,   7, 0x1000020F) /* ClothingBase */
+     , (22002,   8, 0x06001224) /* Icon */
+     , (22002,  22, 0x3400005A) /* PhysicsEffectTable */
      , (22002,  31,      21406) /* LinkedPortalOne - Citadel Valley */
      , (22002,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 

@@ -32,9 +32,9 @@ VALUES (7976,   1, 'Vial of Verdalim Dye') /* Name */
      , (7976,  20, 'Vials of Verdalim Dye') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7976,   1,   33556751) /* Setup */
-     , (7976,   3,  536870932) /* SoundTable */
-     , (7976,   6,   67111919) /* PaletteBase */
-     , (7976,   7,  268436034) /* ClothingBase */
-     , (7976,   8,  100669996) /* Icon */
-     , (7976,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7976,   1, 0x0200090F) /* Setup */
+     , (7976,   3, 0x20000014) /* SoundTable */
+     , (7976,   6, 0x04000BEF) /* PaletteBase */
+     , (7976,   7, 0x10000242) /* ClothingBase */
+     , (7976,   8, 0x06001A2C) /* Icon */
+     , (7976,  22, 0x3400002B) /* PhysicsEffectTable */;

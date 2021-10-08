@@ -40,10 +40,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30001,   1, 'Stone Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30001,   1,   33558587) /* Setup */
-     , (30001,   3,  536870932) /* SoundTable */
-     , (30001,   8,  100675764) /* Icon */
-     , (30001,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30001,   1, 0x0200103B) /* Setup */
+     , (30001,   3, 0x20000014) /* SoundTable */
+     , (30001,   8, 0x060030B4) /* Icon */
+     , (30001,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30001,  2116,      2)  /* Aura of Atlan's Alacrity */

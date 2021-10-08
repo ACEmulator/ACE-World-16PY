@@ -26,7 +26,7 @@ VALUES (8531,   1, 'Scroll of Martyr') /* Name */
      , (8531,  33, 'novquest6') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8531,   1,   33554826) /* Setup */
-     , (8531,   8,  100676932) /* Icon */
-     , (8531,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8531,   1, 0x0200018A) /* Setup */
+     , (8531,   8, 0x06003544) /* Icon */
+     , (8531,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8531,  28,       2027) /* Spell - Martyr */;

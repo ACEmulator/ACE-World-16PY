@@ -24,7 +24,7 @@ VALUES (20469,   1, 'Scroll of Blessing of the Blade Turner') /* Name */
      , (20469,  15, 'When learned, this spell reduces damage the caster takes from Slashing by 65%.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20469,   1,   33554826) /* Setup */
-     , (20469,   8,  100676954) /* Icon */
-     , (20469,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20469,   1, 0x0200018A) /* Setup */
+     , (20469,   8, 0x0600355A) /* Icon */
+     , (20469,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20469,  28,       2151) /* Spell - Blessing of the Blade Turner */;

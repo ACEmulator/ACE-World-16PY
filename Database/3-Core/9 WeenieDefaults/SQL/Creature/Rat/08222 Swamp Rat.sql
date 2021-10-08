@@ -61,14 +61,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8222,   1, 'Swamp Rat') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8222,   1,   33554493) /* Setup */
-     , (8222,   2,  150994958) /* MotionTable */
-     , (8222,   3,  536870927) /* SoundTable */
-     , (8222,   4,  805306387) /* CombatTable */
-     , (8222,   6,   67109300) /* PaletteBase */
-     , (8222,   7,  268436014) /* ClothingBase */
-     , (8222,   8,  100667451) /* Icon */
-     , (8222,  22,  872415267) /* PhysicsEffectTable */
+VALUES (8222,   1, 0x0200003D) /* Setup */
+     , (8222,   2, 0x0900000E) /* MotionTable */
+     , (8222,   3, 0x2000000F) /* SoundTable */
+     , (8222,   4, 0x30000013) /* CombatTable */
+     , (8222,   6, 0x040001B4) /* PaletteBase */
+     , (8222,   7, 0x1000022E) /* ClothingBase */
+     , (8222,   8, 0x0600103B) /* Icon */
+     , (8222,  22, 0x34000023) /* PhysicsEffectTable */
      , (8222,  30,         87) /* PhysicsScript - BreatheLightning */
      , (8222,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 

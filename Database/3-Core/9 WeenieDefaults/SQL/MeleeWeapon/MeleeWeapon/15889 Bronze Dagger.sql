@@ -38,9 +38,9 @@ VALUES (15889,   1, 'Bronze Dagger') /* Name */
      , (15889,  33, 'DaggerStatuePickUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15889,   1,   33554735) /* Setup */
-     , (15889,   3,  536870932) /* SoundTable */
-     , (15889,   6,   67111919) /* PaletteBase */
-     , (15889,   7,  268435783) /* ClothingBase */
-     , (15889,   8,  100668875) /* Icon */
-     , (15889,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15889,   1, 0x0200012F) /* Setup */
+     , (15889,   3, 0x20000014) /* SoundTable */
+     , (15889,   6, 0x04000BEF) /* PaletteBase */
+     , (15889,   7, 0x10000147) /* ClothingBase */
+     , (15889,   8, 0x060015CB) /* Icon */
+     , (15889,  22, 0x3400002B) /* PhysicsEffectTable */;

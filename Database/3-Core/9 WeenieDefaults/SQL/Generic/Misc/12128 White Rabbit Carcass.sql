@@ -24,9 +24,9 @@ VALUES (12128,   1, 'White Rabbit Carcass') /* Name */
      , (12128,  16, 'A dead white rabbit.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12128,   1,   33556210) /* Setup */
-     , (12128,   3,  536870932) /* SoundTable */
-     , (12128,   6,   67111928) /* PaletteBase */
-     , (12128,   7,  268436309) /* ClothingBase */
-     , (12128,   8,  100672405) /* Icon */
-     , (12128,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12128,   1, 0x020006F2) /* Setup */
+     , (12128,   3, 0x20000014) /* SoundTable */
+     , (12128,   6, 0x04000BF8) /* PaletteBase */
+     , (12128,   7, 0x10000355) /* ClothingBase */
+     , (12128,   8, 0x06002395) /* Icon */
+     , (12128,  22, 0x3400002B) /* PhysicsEffectTable */;

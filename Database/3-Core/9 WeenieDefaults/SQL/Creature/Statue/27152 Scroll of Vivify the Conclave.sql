@@ -63,12 +63,12 @@ VALUES (27152,   1, 'Scroll of Vivify the Conclave') /* Name */
      , (27152,  15, 'This scroll appears to have a spell to enhance the Endurance of a fellowship etched upon the flesh-like paper.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27152,   1,   33558637) /* Setup */
-     , (27152,   2,  150995273) /* MotionTable */
-     , (27152,   3,  536871052) /* SoundTable */
-     , (27152,   4,  805306398) /* CombatTable */
-     , (27152,   8,  100675919) /* Icon */
-     , (27152,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (27152,   1, 0x0200106D) /* Setup */
+     , (27152,   2, 0x09000149) /* MotionTable */
+     , (27152,   3, 0x2000008C) /* SoundTable */
+     , (27152,   4, 0x3000001E) /* CombatTable */
+     , (27152,   8, 0x0600314F) /* Icon */
+     , (27152,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27152,   1, 380, 0, 0) /* Strength */

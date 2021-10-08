@@ -62,12 +62,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11617,   1, 'Pristine Doll') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11617,   1,   33556996) /* Setup */
-     , (11617,   2,  150994984) /* MotionTable */
-     , (11617,   3,  536871022) /* SoundTable */
-     , (11617,   4,  805306416) /* CombatTable */
-     , (11617,   8,  100671421) /* Icon */
-     , (11617,  22,  872415373) /* PhysicsEffectTable */
+VALUES (11617,   1, 0x02000A04) /* Setup */
+     , (11617,   2, 0x09000028) /* MotionTable */
+     , (11617,   3, 0x2000006E) /* SoundTable */
+     , (11617,   4, 0x30000030) /* CombatTable */
+     , (11617,   8, 0x06001FBD) /* Icon */
+     , (11617,  22, 0x3400008D) /* PhysicsEffectTable */
      , (11617,  30,         87) /* PhysicsScript - BreatheLightning */
      , (11617,  35,        344) /* DeathTreasureType - Loot Tier: 3 */;
 

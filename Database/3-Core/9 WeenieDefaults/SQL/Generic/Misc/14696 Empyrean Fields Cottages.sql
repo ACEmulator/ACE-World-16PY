@@ -22,5 +22,5 @@ VALUES (14696,   1, 'Empyrean Fields Cottages') /* Name */
      , (14696,  16, 'Welcome to Empyrean Fields Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14696,   1,   33557463) /* Setup */
-     , (14696,   8,  100668115) /* Icon */;
+VALUES (14696,   1, 0x02000BD7) /* Setup */
+     , (14696,   8, 0x060012D3) /* Icon */;

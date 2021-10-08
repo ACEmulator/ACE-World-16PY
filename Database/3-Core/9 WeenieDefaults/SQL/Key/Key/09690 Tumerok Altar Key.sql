@@ -29,7 +29,7 @@ VALUES (9690,   1, 'Tumerok Altar Key') /* Name */
      , (9690,  33, 'novquest1') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9690,   1,   33554784) /* Setup */
-     , (9690,   3,  536870932) /* SoundTable */
-     , (9690,   8,  100670820) /* Icon */
-     , (9690,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9690,   1, 0x02000160) /* Setup */
+     , (9690,   3, 0x20000014) /* SoundTable */
+     , (9690,   8, 0x06001D64) /* Icon */
+     , (9690,  22, 0x3400002B) /* PhysicsEffectTable */;

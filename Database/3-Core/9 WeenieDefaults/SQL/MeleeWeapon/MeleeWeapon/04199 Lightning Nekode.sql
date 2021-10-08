@@ -37,11 +37,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4199,   1, 'Lightning Nekode') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4199,   1,   33555991) /* Setup */
-     , (4199,   3,  536870932) /* SoundTable */
-     , (4199,   6,   67111919) /* PaletteBase */
-     , (4199,   7,  268435828) /* ClothingBase */
-     , (4199,   8,  100670026) /* Icon */
-     , (4199,  22,  872415275) /* PhysicsEffectTable */
-     , (4199,  36,  234881053) /* MutateFilter */
-     , (4199,  46,  939524102) /* TsysMutationFilter */;
+VALUES (4199,   1, 0x02000617) /* Setup */
+     , (4199,   3, 0x20000014) /* SoundTable */
+     , (4199,   6, 0x04000BEF) /* PaletteBase */
+     , (4199,   7, 0x10000174) /* ClothingBase */
+     , (4199,   8, 0x06001A4A) /* Icon */
+     , (4199,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (4199,  36, 0x0E00001D) /* MutateFilter */
+     , (4199,  46, 0x38000006) /* TsysMutationFilter */;

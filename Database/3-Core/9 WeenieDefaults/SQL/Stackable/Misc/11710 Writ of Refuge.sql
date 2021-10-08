@@ -30,7 +30,7 @@ VALUES (11710,   1, 'Writ of Refuge') /* Name */
      , (11710,  20, 'Writs of Refuge') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11710,   1,   33557387) /* Setup */
-     , (11710,   3,  536870932) /* SoundTable */
-     , (11710,   8,  100672221) /* Icon */
-     , (11710,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11710,   1, 0x02000B8B) /* Setup */
+     , (11710,   3, 0x20000014) /* SoundTable */
+     , (11710,   8, 0x060022DD) /* Icon */
+     , (11710,  22, 0x3400002B) /* PhysicsEffectTable */;

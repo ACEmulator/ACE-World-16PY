@@ -47,12 +47,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29522,   1, 'Noble Gauntlets of Balance') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29522,   1,   33554648) /* Setup */
-     , (29522,   3,  536870932) /* SoundTable */
-     , (29522,   6,   67108990) /* PaletteBase */
-     , (29522,   7,  268436875) /* ClothingBase */
-     , (29522,   8,  100674349) /* Icon */
-     , (29522,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29522,   1, 0x020000D8) /* Setup */
+     , (29522,   3, 0x20000014) /* SoundTable */
+     , (29522,   6, 0x0400007E) /* PaletteBase */
+     , (29522,   7, 0x1000058B) /* ClothingBase */
+     , (29522,   8, 0x06002B2D) /* Icon */
+     , (29522,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29522,   369,      2)  /* Light Weapon Mastery Other VI */

@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25809,   1, 'Elite Revenant') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25809,   1,   33558541) /* Setup */
-     , (25809,   2,  150994967) /* MotionTable */
-     , (25809,   3,  536870934) /* SoundTable */
-     , (25809,   4,  805306368) /* CombatTable */
-     , (25809,   6,   67114692) /* PaletteBase */
-     , (25809,   7,  268436726) /* ClothingBase */
-     , (25809,   8,  100667942) /* Icon */
-     , (25809,  22,  872415272) /* PhysicsEffectTable */
+VALUES (25809,   1, 0x0200100D) /* Setup */
+     , (25809,   2, 0x09000017) /* MotionTable */
+     , (25809,   3, 0x20000016) /* SoundTable */
+     , (25809,   4, 0x30000000) /* CombatTable */
+     , (25809,   6, 0x040016C4) /* PaletteBase */
+     , (25809,   7, 0x100004F6) /* ClothingBase */
+     , (25809,   8, 0x06001226) /* Icon */
+     , (25809,  22, 0x34000028) /* PhysicsEffectTable */
      , (25809,  32,        199) /* WieldedTreasureType - 
                                    Wield Yumi (23733) | Probability: 6%
                                    Wield 20x Deadly Armor Piercing Arrow (15431) | Probability: 100%

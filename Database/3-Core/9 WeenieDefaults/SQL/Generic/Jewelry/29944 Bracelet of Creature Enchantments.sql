@@ -31,13 +31,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29944,   1, 'Bracelet of Creature Enchantments') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29944,   1,   33554683) /* Setup */
-     , (29944,   3,  536870932) /* SoundTable */
-     , (29944,   6,   67111919) /* PaletteBase */
-     , (29944,   7,  268436286) /* ClothingBase */
-     , (29944,   8,  100672215) /* Icon */
-     , (29944,  22,  872415275) /* PhysicsEffectTable */
-     , (29944,  36,  234881046) /* MutateFilter */;
+VALUES (29944,   1, 0x020000FB) /* Setup */
+     , (29944,   3, 0x20000014) /* SoundTable */
+     , (29944,   6, 0x04000BEF) /* PaletteBase */
+     , (29944,   7, 0x1000033E) /* ClothingBase */
+     , (29944,   8, 0x060022D7) /* Icon */
+     , (29944,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29944,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29944,  2579,      2)  /* Minor Coordination */

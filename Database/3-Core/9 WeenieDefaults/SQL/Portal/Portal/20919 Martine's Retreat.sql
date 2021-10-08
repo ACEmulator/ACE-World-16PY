@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20919,   1, 'Martine''s Retreat') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20919,   1,   33554867) /* Setup */
-     , (20919,   2,  150994947) /* MotionTable */
-     , (20919,   8,  100667499) /* Icon */;
+VALUES (20919,   1, 0x020001B3) /* Setup */
+     , (20919,   2, 0x09000003) /* MotionTable */
+     , (20919,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (20919, 2, 0x56600187, 149.882, -10.7176, 0, -0, 0, -0, -1) /* Destination */

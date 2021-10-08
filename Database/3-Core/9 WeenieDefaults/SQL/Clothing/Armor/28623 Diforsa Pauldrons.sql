@@ -38,11 +38,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28623,   1, 'Diforsa Pauldrons') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28623,   1,   33554641) /* Setup */
-     , (28623,   3,  536870932) /* SoundTable */
-     , (28623,   6,   67108990) /* PaletteBase */
-     , (28623,   7,  268435536) /* ClothingBase */
-     , (28623,   8,  100668172) /* Icon */
-     , (28623,  22,  872415275) /* PhysicsEffectTable */
-     , (28623,  36,  234881042) /* MutateFilter */
-     , (28623,  46,  939524146) /* TsysMutationFilter */;
+VALUES (28623,   1, 0x020000D1) /* Setup */
+     , (28623,   3, 0x20000014) /* SoundTable */
+     , (28623,   6, 0x0400007E) /* PaletteBase */
+     , (28623,   7, 0x10000050) /* ClothingBase */
+     , (28623,   8, 0x0600130C) /* Icon */
+     , (28623,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (28623,  36, 0x0E000012) /* MutateFilter */
+     , (28623,  46, 0x38000032) /* TsysMutationFilter */;

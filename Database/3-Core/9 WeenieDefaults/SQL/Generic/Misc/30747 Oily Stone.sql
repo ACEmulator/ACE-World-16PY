@@ -25,7 +25,7 @@ VALUES (30747,   1, 'Oily Stone') /* Name */
      , (30747,  33, 'BanderlingHauntOilyStoneAcquired0105') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30747,   1,   33554769) /* Setup */
-     , (30747,   3,  536870932) /* SoundTable */
-     , (30747,   8,  100667500) /* Icon */
-     , (30747,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30747,   1, 0x02000151) /* Setup */
+     , (30747,   3, 0x20000014) /* SoundTable */
+     , (30747,   8, 0x0600106C) /* Icon */
+     , (30747,  22, 0x3400002B) /* PhysicsEffectTable */;

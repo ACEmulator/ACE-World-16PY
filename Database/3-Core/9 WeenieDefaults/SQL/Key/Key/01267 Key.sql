@@ -26,7 +26,7 @@ VALUES (1267,   1, 'Key') /* Name */
      , (1267,  16, 'This short key unlocks a door in the Green Mire Grave.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1267,   1,   33554784) /* Setup */
-     , (1267,   3,  536870932) /* SoundTable */
-     , (1267,   8,  100667485) /* Icon */
-     , (1267,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1267,   1, 0x02000160) /* Setup */
+     , (1267,   3, 0x20000014) /* SoundTable */
+     , (1267,   8, 0x0600105D) /* Icon */
+     , (1267,  22, 0x3400002B) /* PhysicsEffectTable */;

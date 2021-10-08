@@ -27,7 +27,7 @@ VALUES (22863,   1, 'Ulgrim''s Recall Scroll') /* Name */
      , (22863,  15, 'A foul smelling spell scroll that has been glued back together. Part of the scroll is barely legible, but you can just about make out the spell.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22863,   1,   33554826) /* Setup */
-     , (22863,   8,  100673884) /* Icon */
-     , (22863,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22863,   1, 0x0200018A) /* Setup */
+     , (22863,   8, 0x0600295C) /* Icon */
+     , (22863,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22863,  28,       2941) /* Spell - Ulgrim's Recall */;

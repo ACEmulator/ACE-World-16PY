@@ -37,9 +37,9 @@ VALUES (29573,   1, 'Salvaged Black Opal') /* Name */
      , (29573,  15, 'Chips of black opal material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29573,   1,   33554817) /* Setup */
-     , (29573,   3,  536870932) /* SoundTable */
-     , (29573,   6,   67111919) /* PaletteBase */
-     , (29573,   7,  268436874) /* ClothingBase */
-     , (29573,   8,  100677153) /* Icon */
-     , (29573,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29573,   1, 0x02000181) /* Setup */
+     , (29573,   3, 0x20000014) /* SoundTable */
+     , (29573,   6, 0x04000BEF) /* PaletteBase */
+     , (29573,   7, 0x1000058A) /* ClothingBase */
+     , (29573,   8, 0x06003621) /* Icon */
+     , (29573,  22, 0x3400002B) /* PhysicsEffectTable */;

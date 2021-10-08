@@ -46,12 +46,12 @@ VALUES (23541,   1, 'Crystal Sword') /* Name */
      , (23541,  16, 'A crystalline sword, made out of a what appears to be a shard of the original soul crystal.  It is cold to the touch, and seems to glow with an inner radiance.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23541,   1,   33557340) /* Setup */
-     , (23541,   3,  536870932) /* SoundTable */
-     , (23541,   6,   67111919) /* PaletteBase */
-     , (23541,   7,  268436260) /* ClothingBase */
-     , (23541,   8,  100674099) /* Icon */
-     , (23541,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23541,   1, 0x02000B5C) /* Setup */
+     , (23541,   3, 0x20000014) /* SoundTable */
+     , (23541,   6, 0x04000BEF) /* PaletteBase */
+     , (23541,   7, 0x10000324) /* ClothingBase */
+     , (23541,   8, 0x06002A33) /* Icon */
+     , (23541,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23541,  1094,      2)  /* Fire Protection Self VI */

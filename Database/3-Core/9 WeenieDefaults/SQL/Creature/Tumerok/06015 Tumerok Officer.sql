@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6015,   1, 'Tumerok Officer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6015,   1,   33554496) /* Setup */
-     , (6015,   2,  150994954) /* MotionTable */
-     , (6015,   3,  536870931) /* SoundTable */
-     , (6015,   4,  805306380) /* CombatTable */
-     , (6015,   6,   67109314) /* PaletteBase */
-     , (6015,   7,  268436629) /* ClothingBase */
-     , (6015,   8,  100667452) /* Icon */
-     , (6015,  22,  872415270) /* PhysicsEffectTable */
+VALUES (6015,   1, 0x02000040) /* Setup */
+     , (6015,   2, 0x0900000A) /* MotionTable */
+     , (6015,   3, 0x20000013) /* SoundTable */
+     , (6015,   4, 0x3000000C) /* CombatTable */
+     , (6015,   6, 0x040001C2) /* PaletteBase */
+     , (6015,   7, 0x10000495) /* ClothingBase */
+     , (6015,   8, 0x0600103C) /* Icon */
+     , (6015,  22, 0x34000026) /* PhysicsEffectTable */
      , (6015,  32,        215) /* WieldedTreasureType - 
                                    Wield 6x Throwing Axe (304) | Probability: 10%
                                    Wield Nayin (334) | Probability: 10%

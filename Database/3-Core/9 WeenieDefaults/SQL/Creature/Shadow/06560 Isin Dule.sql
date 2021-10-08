@@ -74,14 +74,14 @@ VALUES (6560,   1, 'Isin Dule') /* Name */
      , (6560,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6560,   1,   33556558) /* Setup */
-     , (6560,   2,  150995091) /* MotionTable */
-     , (6560,   3,  536870914) /* SoundTable */
-     , (6560,   4,  805306368) /* CombatTable */
-     , (6560,   6,   67108990) /* PaletteBase */
-     , (6560,   7,  268435990) /* ClothingBase */
-     , (6560,   8,  100670398) /* Icon */
-     , (6560,  22,  872415331) /* PhysicsEffectTable */;
+VALUES (6560,   1, 0x0200084E) /* Setup */
+     , (6560,   2, 0x09000093) /* MotionTable */
+     , (6560,   3, 0x20000002) /* SoundTable */
+     , (6560,   4, 0x30000000) /* CombatTable */
+     , (6560,   6, 0x0400007E) /* PaletteBase */
+     , (6560,   7, 0x10000216) /* ClothingBase */
+     , (6560,   8, 0x06001BBE) /* Icon */
+     , (6560,  22, 0x34000063) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6560,   1, 200, 0, 0) /* Strength */

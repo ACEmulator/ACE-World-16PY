@@ -26,9 +26,9 @@ VALUES (30735,   1, 'Fireworks') /* Name */
      , (30735,  16, 'Once hooked, use this fireworks stand to set off a dazzling shower of fireworks! Happy New Year!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30735,   1,   33559221) /* Setup */
-     , (30735,   2,  150995328) /* MotionTable */
-     , (30735,   8,  100677402) /* Icon */;
+VALUES (30735,   1, 0x020012B5) /* Setup */
+     , (30735,   2, 0x09000180) /* MotionTable */
+     , (30735,   8, 0x0600371A) /* Icon */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (30735,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

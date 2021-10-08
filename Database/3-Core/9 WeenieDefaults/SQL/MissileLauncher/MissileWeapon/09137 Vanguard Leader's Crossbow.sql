@@ -49,12 +49,12 @@ VALUES (9137,   1, 'Vanguard Leader''s Crossbow') /* Name */
      , (9137,  33, 'TumerokVanguardCrossbow') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9137,   1,   33554732) /* Setup */
-     , (9137,   3,  536870932) /* SoundTable */
-     , (9137,   6,   67111919) /* PaletteBase */
-     , (9137,   7,  268435762) /* ClothingBase */
-     , (9137,   8,  100668835) /* Icon */
-     , (9137,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9137,   1, 0x0200012C) /* Setup */
+     , (9137,   3, 0x20000014) /* SoundTable */
+     , (9137,   6, 0x04000BEF) /* PaletteBase */
+     , (9137,   7, 0x10000132) /* ClothingBase */
+     , (9137,   8, 0x060015A3) /* Icon */
+     , (9137,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9137,  37,          3) /* ItemSkillLimit - Crossbow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

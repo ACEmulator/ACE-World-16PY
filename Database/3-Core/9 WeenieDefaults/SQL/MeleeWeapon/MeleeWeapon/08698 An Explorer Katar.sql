@@ -42,14 +42,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8698,   1, 'An Explorer Katar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8698,   1,   33554743) /* Setup */
-     , (8698,   3,  536870932) /* SoundTable */
-     , (8698,   6,   67111919) /* PaletteBase */
-     , (8698,   7,  268435789) /* ClothingBase */
-     , (8698,   8,  100668925) /* Icon */
-     , (8698,  22,  872415275) /* PhysicsEffectTable */
-     , (8698,  36,  234881044) /* MutateFilter */
-     , (8698,  50,  100675462) /* IconOverlay */;
+VALUES (8698,   1, 0x02000137) /* Setup */
+     , (8698,   3, 0x20000014) /* SoundTable */
+     , (8698,   6, 0x04000BEF) /* PaletteBase */
+     , (8698,   7, 0x1000014D) /* ClothingBase */
+     , (8698,   8, 0x060015FD) /* Icon */
+     , (8698,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8698,  36, 0x0E000014) /* MutateFilter */
+     , (8698,  50, 0x06002F86) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8698,  1613,      2)  /* Aura of Blood Drinker Self III */

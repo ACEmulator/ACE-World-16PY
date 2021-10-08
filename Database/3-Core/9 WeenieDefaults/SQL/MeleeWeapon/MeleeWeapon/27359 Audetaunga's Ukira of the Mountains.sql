@@ -52,12 +52,12 @@ VALUES (27359,   1, 'Audetaunga''s Ukira of the Mountains') /* Name */
      , (27359,  16, 'An ukira fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27359,   1,   33558666) /* Setup */
-     , (27359,   3,  536870932) /* SoundTable */
-     , (27359,   6,   67113336) /* PaletteBase */
-     , (27359,   7,  268436248) /* ClothingBase */
-     , (27359,   8,  100676351) /* Icon */
-     , (27359,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27359,   1, 0x0200108A) /* Setup */
+     , (27359,   3, 0x20000014) /* SoundTable */
+     , (27359,   6, 0x04001178) /* PaletteBase */
+     , (27359,   7, 0x10000318) /* ClothingBase */
+     , (27359,   8, 0x060032FF) /* Icon */
+     , (27359,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27359,  2437,      2)  /* Greater Rockslide */

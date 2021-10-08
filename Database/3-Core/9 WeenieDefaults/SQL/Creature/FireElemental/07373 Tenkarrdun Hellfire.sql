@@ -62,12 +62,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7373,   1, 'Tenkarrdun Hellfire') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7373,   1,   33556637) /* Setup */
-     , (7373,   2,  150995087) /* MotionTable */
-     , (7373,   3,  536870998) /* SoundTable */
-     , (7373,   4,  805306368) /* CombatTable */
-     , (7373,   8,  100670274) /* Icon */
-     , (7373,  22,  872415363) /* PhysicsEffectTable */
+VALUES (7373,   1, 0x0200089D) /* Setup */
+     , (7373,   2, 0x0900008F) /* MotionTable */
+     , (7373,   3, 0x20000056) /* SoundTable */
+     , (7373,   4, 0x30000000) /* CombatTable */
+     , (7373,   8, 0x06001B42) /* Icon */
+     , (7373,  22, 0x34000083) /* PhysicsEffectTable */
      , (7373,  35,         25) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

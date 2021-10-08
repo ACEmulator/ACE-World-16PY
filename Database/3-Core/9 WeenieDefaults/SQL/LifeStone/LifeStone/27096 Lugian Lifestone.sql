@@ -23,7 +23,7 @@ VALUES (27096,   1, 'Lugian Lifestone') /* Name */
      , (27096,  18, 'You have attuned your spirit to this Lifestone. You will resurrect here after you die.') /* UseMessage */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27096,   1,   33558653) /* Setup */
-     , (27096,   2,  150995280) /* MotionTable */
-     , (27096,   3,  536870932) /* SoundTable */
-     , (27096,   8,  100675939) /* Icon */;
+VALUES (27096,   1, 0x0200107D) /* Setup */
+     , (27096,   2, 0x09000150) /* MotionTable */
+     , (27096,   3, 0x20000014) /* SoundTable */
+     , (27096,   8, 0x06003163) /* Icon */;

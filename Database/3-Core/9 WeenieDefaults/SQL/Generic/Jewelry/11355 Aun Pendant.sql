@@ -26,10 +26,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11355,   1, 'Aun Pendant') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11355,   1,   33557219) /* Setup */
-     , (11355,   3,  536870932) /* SoundTable */
-     , (11355,   6,   67111919) /* PaletteBase */
-     , (11355,   7,  268435832) /* ClothingBase */
-     , (11355,   8,  100671832) /* Icon */
-     , (11355,  22,  872415275) /* PhysicsEffectTable */
-     , (11355,  36,  234881046) /* MutateFilter */;
+VALUES (11355,   1, 0x02000AE3) /* Setup */
+     , (11355,   3, 0x20000014) /* SoundTable */
+     , (11355,   6, 0x04000BEF) /* PaletteBase */
+     , (11355,   7, 0x10000178) /* ClothingBase */
+     , (11355,   8, 0x06002158) /* Icon */
+     , (11355,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11355,  36, 0x0E000016) /* MutateFilter */;

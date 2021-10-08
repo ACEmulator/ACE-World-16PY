@@ -31,10 +31,10 @@ VALUES (8323,   1, 'Powdered Onyx Pea') /* Name */
      , (8323,  16, 'A concentrated powdered onyx pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8323,   1,   33555208) /* Setup */
-     , (8323,   3,  536870932) /* SoundTable */
-     , (8323,   6,   67111919) /* PaletteBase */
-     , (8323,   7,  268435778) /* ClothingBase */
-     , (8323,   8,  100671067) /* Icon */
-     , (8323,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8323,   1, 0x02000308) /* Setup */
+     , (8323,   3, 0x20000014) /* SoundTable */
+     , (8323,   6, 0x04000BEF) /* PaletteBase */
+     , (8323,   7, 0x10000142) /* ClothingBase */
+     , (8323,   8, 0x06001E5B) /* Icon */
+     , (8323,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8323,  29,        146) /* SpellComponent */;

@@ -31,9 +31,9 @@ VALUES (21969,   1, 'Infused Low-Grade Chorizite Ore') /* Name */
      , (21969,  16, 'A low-grade chunk of refined chorizite ore infused with the essence of an atlatl.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21969,   1,   33555677) /* Setup */
-     , (21969,   3,  536870932) /* SoundTable */
-     , (21969,   6,   67111919) /* PaletteBase */
-     , (21969,   7,  268435723) /* ClothingBase */
-     , (21969,   8,  100673574) /* Icon */
-     , (21969,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21969,   1, 0x020004DD) /* Setup */
+     , (21969,   3, 0x20000014) /* SoundTable */
+     , (21969,   6, 0x04000BEF) /* PaletteBase */
+     , (21969,   7, 0x1000010B) /* ClothingBase */
+     , (21969,   8, 0x06002826) /* Icon */
+     , (21969,  22, 0x3400002B) /* PhysicsEffectTable */;

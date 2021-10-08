@@ -36,8 +36,8 @@ VALUES (611,   1, 'Chest') /* Name */
      , (611,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (611,   1,   33554556) /* Setup */
-     , (611,   2,  150994948) /* MotionTable */
-     , (611,   3,  536870945) /* SoundTable */
-     , (611,   8,  100667424) /* Icon */
-     , (611,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (611,   1, 0x0200007C) /* Setup */
+     , (611,   2, 0x09000004) /* MotionTable */
+     , (611,   3, 0x20000021) /* SoundTable */
+     , (611,   8, 0x06001020) /* Icon */
+     , (611,  22, 0x3400002B) /* PhysicsEffectTable */;

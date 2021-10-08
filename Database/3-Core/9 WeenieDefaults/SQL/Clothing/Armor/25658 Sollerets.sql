@@ -39,11 +39,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25658,   1, 'Sollerets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25658,   1,   33554654) /* Setup */
-     , (25658,   3,  536870932) /* SoundTable */
-     , (25658,   6,   67108990) /* PaletteBase */
-     , (25658,   7,  268435540) /* ClothingBase */
-     , (25658,   8,  100667309) /* Icon */
-     , (25658,  22,  872415275) /* PhysicsEffectTable */
-     , (25658,  36,  234881042) /* MutateFilter */
-     , (25658,  46,  939524146) /* TsysMutationFilter */;
+VALUES (25658,   1, 0x020000DE) /* Setup */
+     , (25658,   3, 0x20000014) /* SoundTable */
+     , (25658,   6, 0x0400007E) /* PaletteBase */
+     , (25658,   7, 0x10000054) /* ClothingBase */
+     , (25658,   8, 0x06000FAD) /* Icon */
+     , (25658,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (25658,  36, 0x0E000012) /* MutateFilter */
+     , (25658,  46, 0x38000032) /* TsysMutationFilter */;

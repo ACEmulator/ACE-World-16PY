@@ -29,9 +29,9 @@ VALUES (10900,   1, 'Pressure Plate - Olthoi Worker') /* Name */
      , (10900,  17, 'You foot splashes down into a puddle of slime. Some olthoi nearby are disturbed by the sound.') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10900,   1,   33555536) /* Setup */
-     , (10900,   2,  150994977) /* MotionTable */
-     , (10900,   8,  100668114) /* Icon */;
+VALUES (10900,   1, 0x02000450) /* Setup */
+     , (10900,   2, 0x09000021) /* MotionTable */
+     , (10900,   8, 0x060012D2) /* Icon */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (10900,  16, 0x00000000) /* ActivationTarget */;

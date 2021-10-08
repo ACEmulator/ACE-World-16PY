@@ -60,14 +60,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9257,   1, 'Silt Lurker') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9257,   1,   33554489) /* Setup */
-     , (9257,   2,  150994970) /* MotionTable */
-     , (9257,   3,  536870928) /* SoundTable */
-     , (9257,   4,  805306378) /* CombatTable */
-     , (9257,   6,   67109313) /* PaletteBase */
-     , (9257,   7,  268435556) /* ClothingBase */
-     , (9257,   8,  100667939) /* Icon */
-     , (9257,  22,  872415268) /* PhysicsEffectTable */
+VALUES (9257,   1, 0x02000039) /* Setup */
+     , (9257,   2, 0x0900001A) /* MotionTable */
+     , (9257,   3, 0x20000010) /* SoundTable */
+     , (9257,   4, 0x3000000A) /* CombatTable */
+     , (9257,   6, 0x040001C1) /* PaletteBase */
+     , (9257,   7, 0x10000064) /* ClothingBase */
+     , (9257,   8, 0x06001223) /* Icon */
+     , (9257,  22, 0x34000024) /* PhysicsEffectTable */
      , (9257,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

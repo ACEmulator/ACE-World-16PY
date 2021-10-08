@@ -36,11 +36,11 @@ VALUES (26084,   1, 'Auralla Settlement Portal Gem') /* Name */
      , (26084,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26084,   1,   33556769) /* Setup */
-     , (26084,   3,  536870932) /* SoundTable */
-     , (26084,   6,   67111919) /* PaletteBase */
-     , (26084,   7,  268435723) /* ClothingBase */
-     , (26084,   8,  100675760) /* Icon */
-     , (26084,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26084,   1, 0x02000921) /* Setup */
+     , (26084,   3, 0x20000014) /* SoundTable */
+     , (26084,   6, 0x04000BEF) /* PaletteBase */
+     , (26084,   7, 0x1000010B) /* ClothingBase */
+     , (26084,   8, 0x060030B0) /* Icon */
+     , (26084,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26084,  28,        157) /* Spell - Summon Primary Portal I */
      , (26084,  31,      14254) /* LinkedPortalOne - Auralla Settlement Portal */;

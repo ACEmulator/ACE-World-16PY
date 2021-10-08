@@ -60,14 +60,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5599,   1, 'Female Tusker') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5599,   1,   33556836) /* Setup */
-     , (5599,   2,  150994956) /* MotionTable */
-     , (5599,   3,  536870929) /* SoundTable */
-     , (5599,   4,  805306379) /* CombatTable */
-     , (5599,   6,   67113007) /* PaletteBase */
-     , (5599,   7,  268436066) /* ClothingBase */
-     , (5599,   8,  100667443) /* Icon */
-     , (5599,  22,  872415271) /* PhysicsEffectTable */;
+VALUES (5599,   1, 0x02000964) /* Setup */
+     , (5599,   2, 0x0900000C) /* MotionTable */
+     , (5599,   3, 0x20000011) /* SoundTable */
+     , (5599,   4, 0x3000000B) /* CombatTable */
+     , (5599,   6, 0x0400102F) /* PaletteBase */
+     , (5599,   7, 0x10000262) /* ClothingBase */
+     , (5599,   8, 0x06001033) /* Icon */
+     , (5599,  22, 0x34000027) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5599,   1, 180, 0, 0) /* Strength */

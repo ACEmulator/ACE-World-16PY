@@ -25,8 +25,8 @@ VALUES (22328,   1, 'Item Tinkering Gem of Forgetfulness') /* Name */
      , (22328,  33, 'SkillAlterationGemPickedUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22328,   1,   33558087) /* Setup */
-     , (22328,   6,   67111919) /* PaletteBase */
-     , (22328,   7,  268435723) /* ClothingBase */
-     , (22328,   8,  100673789) /* Icon */
-     , (22328,  50,  100673768) /* IconOverlay */;
+VALUES (22328,   1, 0x02000E47) /* Setup */
+     , (22328,   6, 0x04000BEF) /* PaletteBase */
+     , (22328,   7, 0x1000010B) /* ClothingBase */
+     , (22328,   8, 0x060028FD) /* Icon */
+     , (22328,  50, 0x060028E8) /* IconOverlay */;

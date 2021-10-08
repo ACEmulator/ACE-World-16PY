@@ -34,9 +34,9 @@ VALUES (8283,   1, 'Splitting Tool') /* Name */
      , (8283,  14, 'Use this tool to split a pea.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8283,   1,   33554734) /* Setup */
-     , (8283,   3,  536870932) /* SoundTable */
-     , (8283,   6,   67111919) /* PaletteBase */
-     , (8283,   7,  268435782) /* ClothingBase */
-     , (8283,   8,  100671135) /* Icon */
-     , (8283,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8283,   1, 0x0200012E) /* Setup */
+     , (8283,   3, 0x20000014) /* SoundTable */
+     , (8283,   6, 0x04000BEF) /* PaletteBase */
+     , (8283,   7, 0x10000146) /* ClothingBase */
+     , (8283,   8, 0x06001E9F) /* Icon */
+     , (8283,  22, 0x3400002B) /* PhysicsEffectTable */;

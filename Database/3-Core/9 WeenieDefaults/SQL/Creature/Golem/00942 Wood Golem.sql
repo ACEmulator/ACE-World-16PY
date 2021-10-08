@@ -61,12 +61,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (942,   1, 'Wood Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (942,   1,   33556428) /* Setup */
-     , (942,   2,  150995073) /* MotionTable */
-     , (942,   3,  536870933) /* SoundTable */
-     , (942,   4,  805306376) /* CombatTable */
-     , (942,   8,  100667940) /* Icon */
-     , (942,  22,  872415326) /* PhysicsEffectTable */
+VALUES (942,   1, 0x020007CC) /* Setup */
+     , (942,   2, 0x09000081) /* MotionTable */
+     , (942,   3, 0x20000015) /* SoundTable */
+     , (942,   4, 0x30000008) /* CombatTable */
+     , (942,   8, 0x06001224) /* Icon */
+     , (942,  22, 0x3400005E) /* PhysicsEffectTable */
      , (942,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

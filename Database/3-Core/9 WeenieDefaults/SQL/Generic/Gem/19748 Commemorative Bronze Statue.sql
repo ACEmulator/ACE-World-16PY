@@ -29,10 +29,10 @@ VALUES (19748,   1, 'Commemorative Bronze Statue') /* Name */
      , (19748,  15, 'A large commemorative statue  of a Shadow crafted by the Arcanum Tinker, in reward for destroying the statues threatening the cities of Kara and Wai Jhou.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19748,   1,   33554510) /* Setup */
-     , (19748,   2,  150995210) /* MotionTable */
-     , (19748,   6,   67108990) /* PaletteBase */
-     , (19748,   7,  268436371) /* ClothingBase */
-     , (19748,   8,  100670397) /* Icon */
-     , (19748,  22,  872415349) /* PhysicsEffectTable */
-     , (19748,  36,  234881046) /* MutateFilter */;
+VALUES (19748,   1, 0x0200004E) /* Setup */
+     , (19748,   2, 0x0900010A) /* MotionTable */
+     , (19748,   6, 0x0400007E) /* PaletteBase */
+     , (19748,   7, 0x10000393) /* ClothingBase */
+     , (19748,   8, 0x06001BBD) /* Icon */
+     , (19748,  22, 0x34000075) /* PhysicsEffectTable */
+     , (19748,  36, 0x0E000016) /* MutateFilter */;

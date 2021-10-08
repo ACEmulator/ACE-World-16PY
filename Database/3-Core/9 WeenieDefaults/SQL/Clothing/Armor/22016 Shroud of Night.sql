@@ -47,12 +47,12 @@ VALUES (22016,   1, 'Shroud of Night') /* Name */
      , (22016,  19, 'Gharu''ndim') /* ItemHeritageGroupRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22016,   1,   33558082) /* Setup */
-     , (22016,   3,  536870932) /* SoundTable */
-     , (22016,   6,   67108990) /* PaletteBase */
-     , (22016,   7,  268436490) /* ClothingBase */
-     , (22016,   8,  100673596) /* Icon */
-     , (22016,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22016,   1, 0x02000E42) /* Setup */
+     , (22016,   3, 0x20000014) /* SoundTable */
+     , (22016,   6, 0x0400007E) /* PaletteBase */
+     , (22016,   7, 0x1000040A) /* ClothingBase */
+     , (22016,   8, 0x0600283C) /* Icon */
+     , (22016,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22016,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

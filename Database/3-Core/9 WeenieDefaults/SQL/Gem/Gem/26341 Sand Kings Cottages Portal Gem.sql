@@ -36,11 +36,11 @@ VALUES (26341,   1, 'Sand Kings Cottages Portal Gem') /* Name */
      , (26341,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26341,   1,   33556769) /* Setup */
-     , (26341,   3,  536870932) /* SoundTable */
-     , (26341,   6,   67111919) /* PaletteBase */
-     , (26341,   7,  268435723) /* ClothingBase */
-     , (26341,   8,  100675760) /* Icon */
-     , (26341,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26341,   1, 0x02000921) /* Setup */
+     , (26341,   3, 0x20000014) /* SoundTable */
+     , (26341,   6, 0x04000BEF) /* PaletteBase */
+     , (26341,   7, 0x1000010B) /* ClothingBase */
+     , (26341,   8, 0x060030B0) /* Icon */
+     , (26341,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26341,  28,        157) /* Spell - Summon Primary Portal I */
      , (26341,  31,      14663) /* LinkedPortalOne - Sand Kings Cottages Portal */;

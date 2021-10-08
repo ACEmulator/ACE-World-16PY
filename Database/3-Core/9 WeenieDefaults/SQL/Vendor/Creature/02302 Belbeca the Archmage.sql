@@ -74,11 +74,11 @@ VALUES (2302,   1, 'Belbeca the Archmage') /* Name */
      , (2302,  24, 'Eastham') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2302,   1,   33554510) /* Setup */
-     , (2302,   2,  150994945) /* MotionTable */
-     , (2302,   3,  536870914) /* SoundTable */
-     , (2302,   4,  805306368) /* CombatTable */
-     , (2302,   8,  100667446) /* Icon */;
+VALUES (2302,   1, 0x0200004E) /* Setup */
+     , (2302,   2, 0x09000001) /* MotionTable */
+     , (2302,   3, 0x20000002) /* SoundTable */
+     , (2302,   4, 0x30000000) /* CombatTable */
+     , (2302,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2302,   1,  20, 0, 0) /* Strength */

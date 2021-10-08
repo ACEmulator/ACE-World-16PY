@@ -43,13 +43,13 @@ VALUES (22744,   1, 'Orb of Tusker Sprint') /* Name */
      , (22744,  15, 'A light orb that seems to want to fly out of your hands.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22744,   1,   33554669) /* Setup */
-     , (22744,   3,  536870932) /* SoundTable */
-     , (22744,   6,   67111928) /* PaletteBase */
-     , (22744,   7,  268435751) /* ClothingBase */
-     , (22744,   8,  100668722) /* Icon */
-     , (22744,  22,  872415275) /* PhysicsEffectTable */
-     , (22744,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (22744,   1, 0x020000ED) /* Setup */
+     , (22744,   3, 0x20000014) /* SoundTable */
+     , (22744,   6, 0x04000BF8) /* PaletteBase */
+     , (22744,   7, 0x10000127) /* ClothingBase */
+     , (22744,   8, 0x06001532) /* Icon */
+     , (22744,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (22744,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (22744,  28,       2933) /* Spell - Tusker Sprint */
-     , (22744,  36,  234881046) /* MutateFilter */
+     , (22744,  36, 0x0E000016) /* MutateFilter */
      , (22744,  37,  620757051) /* ItemSkillLimit */;

@@ -25,10 +25,10 @@ VALUES (10893,   1, 'Olthoi Cistern') /* Name */
      , (10893,  14, 'There is an opening in the top of the cistern that you might be able to reach into.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10893,   1,   33557286) /* Setup */
-     , (10893,   2,  150995240) /* MotionTable */
-     , (10893,   8,  100674304) /* Icon */
-     , (10893,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (10893,   1, 0x02000B26) /* Setup */
+     , (10893,   2, 0x09000128) /* MotionTable */
+     , (10893,   8, 0x06002B00) /* Icon */
+     , (10893,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (10893,  16, 0x00000000) /* ActivationTarget */;

@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24276,   1, 'Banderling Savage') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24276,   1,   33558024) /* Setup */
-     , (24276,   2,  150994951) /* MotionTable */
-     , (24276,   3,  536870917) /* SoundTable */
-     , (24276,   4,  805306370) /* CombatTable */
-     , (24276,   6,   67114021) /* PaletteBase */
-     , (24276,   7,  268436611) /* ClothingBase */
-     , (24276,   8,  100667453) /* Icon */
-     , (24276,  22,  872415255) /* PhysicsEffectTable */
+VALUES (24276,   1, 0x02000E08) /* Setup */
+     , (24276,   2, 0x09000007) /* MotionTable */
+     , (24276,   3, 0x20000005) /* SoundTable */
+     , (24276,   4, 0x30000002) /* CombatTable */
+     , (24276,   6, 0x04001425) /* PaletteBase */
+     , (24276,   7, 0x10000483) /* ClothingBase */
+     , (24276,   8, 0x0600103D) /* Icon */
+     , (24276,  22, 0x34000017) /* PhysicsEffectTable */
      , (24276,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

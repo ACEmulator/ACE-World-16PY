@@ -25,7 +25,7 @@ VALUES (3550,   1, 'Scroll of Unarmed Combat Mastery Other IV') /* Name */
      , (3550,  16, 'When learned, this spell increases the target''s Unarmed Combat skill by 75%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3550,   1,   33554826) /* Setup */
-     , (3550,   8,  100676478) /* Icon */
-     , (3550,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3550,   1, 0x0200018A) /* Setup */
+     , (3550,   8, 0x0600337E) /* Icon */
+     , (3550,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3550,  28,        440) /* Spell - Light Weapon Mastery Other IV */;

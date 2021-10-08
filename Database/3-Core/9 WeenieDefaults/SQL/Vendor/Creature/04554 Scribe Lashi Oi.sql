@@ -70,11 +70,11 @@ VALUES (4554,   1, 'Scribe Lashi Oi') /* Name */
      , (4554,  24, 'Nanto') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4554,   1,   33554433) /* Setup */
-     , (4554,   2,  150994945) /* MotionTable */
-     , (4554,   3,  536870913) /* SoundTable */
-     , (4554,   4,  805306368) /* CombatTable */
-     , (4554,   8,  100667446) /* Icon */;
+VALUES (4554,   1, 0x02000001) /* Setup */
+     , (4554,   2, 0x09000001) /* MotionTable */
+     , (4554,   3, 0x20000001) /* SoundTable */
+     , (4554,   4, 0x30000000) /* CombatTable */
+     , (4554,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4554,   1,  50, 0, 0) /* Strength */

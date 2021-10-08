@@ -65,13 +65,13 @@ VALUES (6025,   1, 'Hamud ibn Rafik') /* Name */
      , (6025,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6025,   1,   33554433) /* Setup */
-     , (6025,   2,  150994945) /* MotionTable */
-     , (6025,   3,  536870913) /* SoundTable */
-     , (6025,   4,  805306368) /* CombatTable */
-     , (6025,   6,   67111797) /* PaletteBase */
-     , (6025,   7,  268435632) /* ClothingBase */
-     , (6025,   8,  100670397) /* Icon */;
+VALUES (6025,   1, 0x02000001) /* Setup */
+     , (6025,   2, 0x09000001) /* MotionTable */
+     , (6025,   3, 0x20000001) /* SoundTable */
+     , (6025,   4, 0x30000000) /* CombatTable */
+     , (6025,   6, 0x04000B75) /* PaletteBase */
+     , (6025,   7, 0x100000B0) /* ClothingBase */
+     , (6025,   8, 0x06001BBD) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6025,   1, 220, 0, 0) /* Strength */

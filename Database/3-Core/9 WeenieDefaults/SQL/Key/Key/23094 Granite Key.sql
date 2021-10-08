@@ -25,7 +25,7 @@ VALUES (23094,   1, 'Granite Key') /* Name */
      , (23094,  14, 'Use this item on a locked chest to unlock it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23094,   1,   33554784) /* Setup */
-     , (23094,   3,  536870932) /* SoundTable */
-     , (23094,   8,  100673958) /* Icon */
-     , (23094,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23094,   1, 0x02000160) /* Setup */
+     , (23094,   3, 0x20000014) /* SoundTable */
+     , (23094,   8, 0x060029A6) /* Icon */
+     , (23094,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -37,11 +37,11 @@ VALUES (30793,   1, 'Black Marrow Reliquary') /* Name */
      , (30793,  33, 'ChestBlackMarrowFloatingBridge0205') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30793,   1,   33559268) /* Setup */
-     , (30793,   2,  150995333) /* MotionTable */
-     , (30793,   3,  536870950) /* SoundTable */
-     , (30793,   8,  100677492) /* Icon */
-     , (30793,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30793,   1, 0x020012E4) /* Setup */
+     , (30793,   2, 0x09000185) /* MotionTable */
+     , (30793,   3, 0x20000026) /* SoundTable */
+     , (30793,   8, 0x06003774) /* Icon */
+     , (30793,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30793, -1, 32, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 6 from Death Treasure Table id: 32 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */

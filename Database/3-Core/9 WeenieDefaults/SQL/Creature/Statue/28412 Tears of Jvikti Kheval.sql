@@ -63,12 +63,12 @@ VALUES (28412,   1, 'Tears of Jvikti Kheval') /* Name */
      , (28412,  15, 'A pair of deep red earrings. You cannot tell whether the jewels are bloodstone or solidified gore.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28412,   1,   33558880) /* Setup */
-     , (28412,   2,  150995273) /* MotionTable */
-     , (28412,   3,  536871052) /* SoundTable */
-     , (28412,   4,  805306398) /* CombatTable */
-     , (28412,   8,  100677002) /* Icon */
-     , (28412,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (28412,   1, 0x02001160) /* Setup */
+     , (28412,   2, 0x09000149) /* MotionTable */
+     , (28412,   3, 0x2000008C) /* SoundTable */
+     , (28412,   4, 0x3000001E) /* CombatTable */
+     , (28412,   8, 0x0600358A) /* Icon */
+     , (28412,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28412,   1, 380, 0, 0) /* Strength */

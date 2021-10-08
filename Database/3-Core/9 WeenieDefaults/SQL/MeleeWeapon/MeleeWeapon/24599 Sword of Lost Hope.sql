@@ -52,11 +52,11 @@ VALUES (24599,   1, 'Sword of Lost Hope') /* Name */
      , (24599,  16, 'The Sword of Lost Hope, with a faint blue radiance.  The weapon seems to coruscate with the power of Ilservian''s blood.  The Light has been forever dimmed, and the weapon is now empowered by the essence of the Hopeslayer.  It will no longer accept infusions of light.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24599,   1,   33558420) /* Setup */
-     , (24599,   3,  536870932) /* SoundTable */
-     , (24599,   6,   67114437) /* PaletteBase */
-     , (24599,   8,  100671325) /* Icon */
-     , (24599,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24599,   1, 0x02000F94) /* Setup */
+     , (24599,   3, 0x20000014) /* SoundTable */
+     , (24599,   6, 0x040015C5) /* PaletteBase */
+     , (24599,   8, 0x06001F5D) /* Icon */
+     , (24599,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24599,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

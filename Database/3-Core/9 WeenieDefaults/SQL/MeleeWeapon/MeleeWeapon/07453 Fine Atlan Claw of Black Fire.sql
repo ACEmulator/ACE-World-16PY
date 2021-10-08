@@ -45,12 +45,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7453,   1, 'Fine Atlan Claw of Black Fire') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7453,   1,   33557402) /* Setup */
-     , (7453,   3,  536870932) /* SoundTable */
-     , (7453,   6,   67111919) /* PaletteBase */
-     , (7453,   7,  268435895) /* ClothingBase */
-     , (7453,   8,  100670533) /* Icon */
-     , (7453,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7453,   1, 0x02000B9A) /* Setup */
+     , (7453,   3, 0x20000014) /* SoundTable */
+     , (7453,   6, 0x04000BEF) /* PaletteBase */
+     , (7453,   7, 0x100001B7) /* ClothingBase */
+     , (7453,   8, 0x06001C45) /* Icon */
+     , (7453,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7453,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

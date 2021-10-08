@@ -26,12 +26,12 @@ VALUES (15798,   1, 'Mana and the Elements') /* Name */
      , (15798,  16, 'A tome torn and charred. Several pages are still salvageable. The text has been translated from Empyrean.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15798,   1,   33556929) /* Setup */
-     , (15798,   3,  536870932) /* SoundTable */
-     , (15798,   6,   67113005) /* PaletteBase */
-     , (15798,   7,  268436360) /* ClothingBase */
-     , (15798,   8,  100672793) /* Icon */
-     , (15798,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15798,   1, 0x020009C1) /* Setup */
+     , (15798,   3, 0x20000014) /* SoundTable */
+     , (15798,   6, 0x0400102D) /* PaletteBase */
+     , (15798,   7, 0x10000388) /* ClothingBase */
+     , (15798,   8, 0x06002519) /* Icon */
+     , (15798,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (15798, 13, 1000);

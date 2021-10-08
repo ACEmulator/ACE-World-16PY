@@ -64,11 +64,11 @@ VALUES (7560,   1, 'Feruza ibn Salaq') /* Name */
      , (7560,   5, 'Researcher') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7560,   1,   33554433) /* Setup */
-     , (7560,   2,  150994945) /* MotionTable */
-     , (7560,   3,  536870913) /* SoundTable */
-     , (7560,   4,  805306368) /* CombatTable */
-     , (7560,   8,  100667446) /* Icon */;
+VALUES (7560,   1, 0x02000001) /* Setup */
+     , (7560,   2, 0x09000001) /* MotionTable */
+     , (7560,   3, 0x20000001) /* SoundTable */
+     , (7560,   4, 0x30000000) /* CombatTable */
+     , (7560,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7560,   1,  80, 0, 0) /* Strength */

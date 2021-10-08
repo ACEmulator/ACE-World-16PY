@@ -30,7 +30,7 @@ VALUES (6815,   1, 'Spire Key Chunk - Cragstone') /* Name */
      , (6815,  16, 'The front third of a skeletal key, found in the Cragstone shadow spire.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6815,   1,   33554784) /* Setup */
-     , (6815,   3,  536870932) /* SoundTable */
-     , (6815,   8,  100670630) /* Icon */
-     , (6815,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6815,   1, 0x02000160) /* Setup */
+     , (6815,   3, 0x20000014) /* SoundTable */
+     , (6815,   8, 0x06001CA6) /* Icon */
+     , (6815,  22, 0x3400002B) /* PhysicsEffectTable */;

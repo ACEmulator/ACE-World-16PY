@@ -64,12 +64,12 @@ VALUES (27309,   1, 'Deranged Sycophant') /* Name */
      , (27309,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27309,   1,   33554433) /* Setup */
-     , (27309,   2,  150994945) /* MotionTable */
-     , (27309,   3,  536870913) /* SoundTable */
-     , (27309,   4,  805306368) /* CombatTable */
-     , (27309,   8,  100667446) /* Icon */
-     , (27309,  22,  872415236) /* PhysicsEffectTable */
+VALUES (27309,   1, 0x02000001) /* Setup */
+     , (27309,   2, 0x09000001) /* MotionTable */
+     , (27309,   3, 0x20000001) /* SoundTable */
+     , (27309,   4, 0x30000000) /* CombatTable */
+     , (27309,   8, 0x06001036) /* Icon */
+     , (27309,  22, 0x34000004) /* PhysicsEffectTable */
      , (27309,  32,        416) /* WieldedTreasureType - 
                                    Wield Clean, Dry Towel (10758) | Palette: Blue (2) | Probability: 50%
                                    Wield Clean, Dry Towel (10758) | Palette: Green (8) | Probability: 50% */

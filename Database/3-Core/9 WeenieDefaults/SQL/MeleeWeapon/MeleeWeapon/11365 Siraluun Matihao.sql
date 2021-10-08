@@ -47,11 +47,11 @@ VALUES (11365,   1, 'Siraluun Matihao') /* Name */
      , (11365,  16, 'A matihao crafted with the guidance of Siraluun') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11365,   1,   33557229) /* Setup */
-     , (11365,   3,  536870932) /* SoundTable */
-     , (11365,   8,  100671864) /* Icon */
-     , (11365,  22,  872415275) /* PhysicsEffectTable */
-     , (11365,  36,  234881044) /* MutateFilter */
+VALUES (11365,   1, 0x02000AED) /* Setup */
+     , (11365,   3, 0x20000014) /* SoundTable */
+     , (11365,   8, 0x06002178) /* Icon */
+     , (11365,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11365,  36, 0x0E000014) /* MutateFilter */
      , (11365,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

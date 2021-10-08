@@ -34,10 +34,10 @@ VALUES (20986,   1, 'Salvaged Iron') /* Name */
      , (20986,  15, 'A bar of iron material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20986,   1,   33554817) /* Setup */
-     , (20986,   3,  536870932) /* SoundTable */
-     , (20986,   6,   67111919) /* PaletteBase */
-     , (20986,   7,  268436430) /* ClothingBase */
-     , (20986,   8,  100667436) /* Icon */
-     , (20986,  22,  872415275) /* PhysicsEffectTable */
-     , (20986,  50,  100673230) /* IconOverlay */;
+VALUES (20986,   1, 0x02000181) /* Setup */
+     , (20986,   3, 0x20000014) /* SoundTable */
+     , (20986,   6, 0x04000BEF) /* PaletteBase */
+     , (20986,   7, 0x100003CE) /* ClothingBase */
+     , (20986,   8, 0x0600102C) /* Icon */
+     , (20986,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (20986,  50, 0x060026CE) /* IconOverlay */;

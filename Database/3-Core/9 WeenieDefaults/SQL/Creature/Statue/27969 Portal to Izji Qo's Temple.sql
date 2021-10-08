@@ -64,12 +64,12 @@ VALUES (27969,   1, 'Portal to Izji Qo''s Temple') /* Name */
      , (27969,  15, 'A portal beacon. Perhaps if this was powered by a potent force of geomancy it would function correctly. This can only be hooked on mansions.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27969,   1,   33558603) /* Setup */
-     , (27969,   2,  150995274) /* MotionTable */
-     , (27969,   3,  536871052) /* SoundTable */
-     , (27969,   4,  805306398) /* CombatTable */
-     , (27969,   8,  100675779) /* Icon */
-     , (27969,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (27969,   1, 0x0200104B) /* Setup */
+     , (27969,   2, 0x0900014A) /* MotionTable */
+     , (27969,   3, 0x2000008C) /* SoundTable */
+     , (27969,   4, 0x3000001E) /* CombatTable */
+     , (27969,   8, 0x060030C3) /* Icon */
+     , (27969,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27969,   1, 380, 0, 0) /* Strength */

@@ -24,7 +24,7 @@ VALUES (7515,   1, 'Scroll of Tectonic Rifts') /* Name */
      , (7515,  15, 'When learned, this spell shoots eight shock waves outward from the caster. Each wave does 40-80 points of bludgeoning damage to the first thing it hits.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7515,   1,   33554826) /* Setup */
-     , (7515,   8,  100677010) /* Icon */
-     , (7515,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7515,   1, 0x0200018A) /* Setup */
+     , (7515,   8, 0x06003592) /* Icon */
+     , (7515,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7515,  28,       1789) /* Spell - Tectonic Rifts */;

@@ -65,12 +65,12 @@ VALUES (29701,   1, 'Sacrificial Statue') /* Name */
      , (29701,  16, 'A statue with blood stains around the base.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29701,   1,   33558613) /* Setup */
-     , (29701,   2,  150995147) /* MotionTable */
-     , (29701,   3,  536871052) /* SoundTable */
-     , (29701,   4,  805306398) /* CombatTable */
-     , (29701,   8,  100675780) /* Icon */
-     , (29701,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (29701,   1, 0x02001055) /* Setup */
+     , (29701,   2, 0x090000CB) /* MotionTable */
+     , (29701,   3, 0x2000008C) /* SoundTable */
+     , (29701,   4, 0x3000001E) /* CombatTable */
+     , (29701,   8, 0x060030C4) /* Icon */
+     , (29701,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29701,   1, 380, 0, 0) /* Strength */

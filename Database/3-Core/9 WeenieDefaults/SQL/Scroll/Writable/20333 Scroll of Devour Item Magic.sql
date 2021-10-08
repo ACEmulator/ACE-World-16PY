@@ -24,7 +24,7 @@ VALUES (20333,   1, 'Scroll of Devour Item Magic') /* Name */
      , (20333,  15, 'When learned, this spell dispels 2-4 negative Item Magic enchantments of level 4 or lower from the target.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20333,   1,   33554826) /* Setup */
-     , (20333,   8,  100676659) /* Icon */
-     , (20333,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20333,   1, 0x0200018A) /* Setup */
+     , (20333,   8, 0x06003433) /* Icon */
+     , (20333,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20333,  28,       1939) /* Spell - Devour Item Magic */;

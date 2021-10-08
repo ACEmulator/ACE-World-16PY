@@ -64,11 +64,11 @@ VALUES (25828,   1, 'Ikomi Ra, Jojii Adherent') /* Name */
      , (25828,   5, 'Monk') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25828,   1,   33554510) /* Setup */
-     , (25828,   2,  150994945) /* MotionTable */
-     , (25828,   3,  536870914) /* SoundTable */
-     , (25828,   4,  805306368) /* CombatTable */
-     , (25828,   8,  100667446) /* Icon */;
+VALUES (25828,   1, 0x0200004E) /* Setup */
+     , (25828,   2, 0x09000001) /* MotionTable */
+     , (25828,   3, 0x20000002) /* SoundTable */
+     , (25828,   4, 0x30000000) /* CombatTable */
+     , (25828,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25828,   1, 220, 0, 0) /* Strength */

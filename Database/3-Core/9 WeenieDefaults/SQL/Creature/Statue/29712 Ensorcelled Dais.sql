@@ -63,12 +63,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29712,   1, 'Ensorcelled Dais') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29712,   1,   33559083) /* Setup */
-     , (29712,   2,  150995320) /* MotionTable */
-     , (29712,   3,  536871052) /* SoundTable */
-     , (29712,   4,  805306398) /* CombatTable */
-     , (29712,   8,  100675788) /* Icon */
-     , (29712,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (29712,   1, 0x0200122B) /* Setup */
+     , (29712,   2, 0x09000178) /* MotionTable */
+     , (29712,   3, 0x2000008C) /* SoundTable */
+     , (29712,   4, 0x3000001E) /* CombatTable */
+     , (29712,   8, 0x060030CC) /* Icon */
+     , (29712,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29712,   1, 380, 0, 0) /* Strength */

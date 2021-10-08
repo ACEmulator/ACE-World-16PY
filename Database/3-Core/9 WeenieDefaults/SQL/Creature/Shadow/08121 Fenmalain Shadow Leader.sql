@@ -69,14 +69,14 @@ VALUES (8121,   1, 'Fenmalain Shadow Leader') /* Name */
      , (8121,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8121,   1,   33554433) /* Setup */
-     , (8121,   2,  150994945) /* MotionTable */
-     , (8121,   3,  536870913) /* SoundTable */
-     , (8121,   4,  805306368) /* CombatTable */
-     , (8121,   6,   67111797) /* PaletteBase */
-     , (8121,   7,  268435632) /* ClothingBase */
-     , (8121,   8,  100670397) /* Icon */
-     , (8121,  22,  872415331) /* PhysicsEffectTable */
+VALUES (8121,   1, 0x02000001) /* Setup */
+     , (8121,   2, 0x09000001) /* MotionTable */
+     , (8121,   3, 0x20000001) /* SoundTable */
+     , (8121,   4, 0x30000000) /* CombatTable */
+     , (8121,   6, 0x04000B75) /* PaletteBase */
+     , (8121,   7, 0x100000B0) /* ClothingBase */
+     , (8121,   8, 0x06001BBD) /* Icon */
+     , (8121,  22, 0x34000063) /* PhysicsEffectTable */
      , (8121,  32,        175) /* WieldedTreasureType - 
                                    Wield Yumi (23735) | Probability: 20%
                                    Wield 14x Fire Arrow (1437) | Probability: 100%

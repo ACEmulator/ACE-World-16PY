@@ -48,13 +48,13 @@ VALUES (7576,   1, 'Ravenous Sword') /* Name */
      , (7576,  16, 'A sword crafted from pure chorizite, imbued with powerful magic, but resistant to further enchantment. (Note: This weapon is unenchantable.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7576,   1,   33556658) /* Setup */
-     , (7576,   3,  536870932) /* SoundTable */
-     , (7576,   6,   67111919) /* PaletteBase */
-     , (7576,   7,  268435788) /* ClothingBase */
-     , (7576,   8,  100668915) /* Icon */
-     , (7576,  22,  872415275) /* PhysicsEffectTable */
-     , (7576,  36,  234881044) /* MutateFilter */
+VALUES (7576,   1, 0x020008B2) /* Setup */
+     , (7576,   3, 0x20000014) /* SoundTable */
+     , (7576,   6, 0x04000BEF) /* PaletteBase */
+     , (7576,   7, 0x1000014C) /* ClothingBase */
+     , (7576,   8, 0x060015F3) /* Icon */
+     , (7576,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (7576,  36, 0x0E000014) /* MutateFilter */
      , (7576,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

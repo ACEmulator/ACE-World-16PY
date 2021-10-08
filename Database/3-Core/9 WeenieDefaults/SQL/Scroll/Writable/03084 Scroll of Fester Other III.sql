@@ -25,7 +25,7 @@ VALUES (3084,   1, 'Scroll of Fester Other III') /* Name */
      , (3084,  16, 'When learned, this spell decrease target''s natural healing rate by 43%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3084,   1,   33554826) /* Setup */
-     , (3084,   8,  100676941) /* Icon */
-     , (3084,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3084,   1, 0x0200018A) /* Setup */
+     , (3084,   8, 0x0600354D) /* Icon */
+     , (3084,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3084,  28,        173) /* Spell - Fester Other III */;

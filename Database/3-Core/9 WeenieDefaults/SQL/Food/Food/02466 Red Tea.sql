@@ -25,8 +25,8 @@ VALUES (2466,   1, 'Red Tea') /* Name */
      , (2466,  20, 'Cups of Red Tea') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2466,   1,   33554663) /* Setup */
-     , (2466,   3,  536870932) /* SoundTable */
-     , (2466,   8,  100667430) /* Icon */
-     , (2466,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2466,   1, 0x020000E7) /* Setup */
+     , (2466,   3, 0x20000014) /* SoundTable */
+     , (2466,   8, 0x06001026) /* Icon */
+     , (2466,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2466,  23,         65) /* UseSound - Drink1 */;

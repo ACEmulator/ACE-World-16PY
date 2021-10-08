@@ -36,11 +36,11 @@ VALUES (26267,   1, 'Midsong Cottages Portal Gem') /* Name */
      , (26267,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26267,   1,   33556769) /* Setup */
-     , (26267,   3,  536870932) /* SoundTable */
-     , (26267,   6,   67111919) /* PaletteBase */
-     , (26267,   7,  268435723) /* ClothingBase */
-     , (26267,   8,  100675760) /* Icon */
-     , (26267,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26267,   1, 0x02000921) /* Setup */
+     , (26267,   3, 0x20000014) /* SoundTable */
+     , (26267,   6, 0x04000BEF) /* PaletteBase */
+     , (26267,   7, 0x1000010B) /* ClothingBase */
+     , (26267,   8, 0x060030B0) /* Icon */
+     , (26267,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26267,  28,        157) /* Spell - Summon Primary Portal I */
      , (26267,  31,      14272) /* LinkedPortalOne - Midsong Cottages Portal */;

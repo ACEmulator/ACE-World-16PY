@@ -70,11 +70,11 @@ VALUES (4562,   1, 'Bai-Nu Ru the Weaponsmith') /* Name */
      , (4562,  24, 'Tou-Tou') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4562,   1,   33554510) /* Setup */
-     , (4562,   2,  150994945) /* MotionTable */
-     , (4562,   3,  536870914) /* SoundTable */
-     , (4562,   4,  805306368) /* CombatTable */
-     , (4562,   8,  100667446) /* Icon */;
+VALUES (4562,   1, 0x0200004E) /* Setup */
+     , (4562,   2, 0x09000001) /* MotionTable */
+     , (4562,   3, 0x20000002) /* SoundTable */
+     , (4562,   4, 0x30000000) /* CombatTable */
+     , (4562,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4562,   1,  90, 0, 0) /* Strength */

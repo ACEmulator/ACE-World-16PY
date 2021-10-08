@@ -31,9 +31,9 @@ VALUES (6055,   1, 'Cracked Shard') /* Name */
      , (6055,  16, 'A cracked piece of crystalline shard, full of tiny flaws.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6055,   1,   33554809) /* Setup */
-     , (6055,   3,  536870932) /* SoundTable */
-     , (6055,   6,   67111919) /* PaletteBase */
-     , (6055,   7,  268435723) /* ClothingBase */
-     , (6055,   8,  100670633) /* Icon */
-     , (6055,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6055,   1, 0x02000179) /* Setup */
+     , (6055,   3, 0x20000014) /* SoundTable */
+     , (6055,   6, 0x04000BEF) /* PaletteBase */
+     , (6055,   7, 0x1000010B) /* ClothingBase */
+     , (6055,   8, 0x06001CA9) /* Icon */
+     , (6055,  22, 0x3400002B) /* PhysicsEffectTable */;

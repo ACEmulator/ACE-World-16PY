@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12263,   1, 'Levistras, Speaker of the New Directive') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12263,   1,   33554497) /* Setup */
-     , (12263,   2,  150994984) /* MotionTable */
-     , (12263,   3,  536870930) /* SoundTable */
-     , (12263,   4,  805306381) /* CombatTable */
-     , (12263,   6,   67111346) /* PaletteBase */
-     , (12263,   7,  268436278) /* ClothingBase */
-     , (12263,   8,  100667943) /* Icon */
-     , (12263,  22,  872415273) /* PhysicsEffectTable */
+VALUES (12263,   1, 0x02000041) /* Setup */
+     , (12263,   2, 0x09000028) /* MotionTable */
+     , (12263,   3, 0x20000012) /* SoundTable */
+     , (12263,   4, 0x3000000D) /* CombatTable */
+     , (12263,   6, 0x040009B2) /* PaletteBase */
+     , (12263,   7, 0x10000336) /* ClothingBase */
+     , (12263,   8, 0x06001227) /* Icon */
+     , (12263,  22, 0x34000029) /* PhysicsEffectTable */
      , (12263,  35,        243) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

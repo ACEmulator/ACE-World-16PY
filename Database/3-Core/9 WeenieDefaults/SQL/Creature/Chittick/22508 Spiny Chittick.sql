@@ -59,12 +59,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22508,   1, 'Spiny Chittick') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22508,   1,   33558118) /* Setup */
-     , (22508,   2,  150995065) /* MotionTable */
-     , (22508,   3,  536870982) /* SoundTable */
-     , (22508,   4,  805306402) /* CombatTable */
-     , (22508,   8,  100669115) /* Icon */
-     , (22508,  22,  872415336) /* PhysicsEffectTable */
+VALUES (22508,   1, 0x02000E66) /* Setup */
+     , (22508,   2, 0x09000079) /* MotionTable */
+     , (22508,   3, 0x20000046) /* SoundTable */
+     , (22508,   4, 0x30000022) /* CombatTable */
+     , (22508,   8, 0x060016BB) /* Icon */
+     , (22508,  22, 0x34000068) /* PhysicsEffectTable */
      , (22508,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

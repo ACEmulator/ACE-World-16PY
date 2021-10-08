@@ -25,7 +25,7 @@ VALUES (2967,   1, 'Scroll of Shock Wave VI') /* Name */
      , (2967,  16, 'When learned, this spell shoots a shock wave at the target. The wave does 61-120 points of bludgeoning dagae to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2967,   1,   33554826) /* Setup */
-     , (2967,   8,  100677008) /* Icon */
-     , (2967,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2967,   1, 0x0200018A) /* Setup */
+     , (2967,   8, 0x06003590) /* Icon */
+     , (2967,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2967,  28,         69) /* Spell - Shock Wave VI */;

@@ -23,7 +23,7 @@ VALUES (4662,   1, 'Desert Magic Supplies') /* Name */
      , (4662,  16, 'Desert Magic Supplies') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4662,   1,   33555909) /* Setup */
-     , (4662,   6,   67111860) /* PaletteBase */
-     , (4662,   7,  268435824) /* ClothingBase */
-     , (4662,   8,  100668115) /* Icon */;
+VALUES (4662,   1, 0x020005C5) /* Setup */
+     , (4662,   6, 0x04000BB4) /* PaletteBase */
+     , (4662,   7, 0x10000170) /* ClothingBase */
+     , (4662,   8, 0x060012D3) /* Icon */;

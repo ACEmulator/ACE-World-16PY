@@ -46,11 +46,11 @@ VALUES (25904,   1, 'Atakir''s Blade') /* Name */
      , (25904,  15, 'A two-handed scimitar meant for use by a Zefir. This blade was taken from the cold hands of the Dark Prince of the Zefir, Atakir.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25904,   1,   33558560) /* Setup */
-     , (25904,   3,  536870932) /* SoundTable */
-     , (25904,   6,   67111919) /* PaletteBase */
-     , (25904,   8,  100675637) /* Icon */
-     , (25904,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25904,   1, 0x02001020) /* Setup */
+     , (25904,   3, 0x20000014) /* SoundTable */
+     , (25904,   6, 0x04000BEF) /* PaletteBase */
+     , (25904,   8, 0x06003035) /* Icon */
+     , (25904,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25904,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

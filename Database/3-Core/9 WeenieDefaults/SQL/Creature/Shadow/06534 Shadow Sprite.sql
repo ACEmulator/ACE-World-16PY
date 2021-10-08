@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6534,   1, 'Shadow Sprite') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6534,   1,   33555610) /* Setup */
-     , (6534,   2,  150995049) /* MotionTable */
-     , (6534,   3,  536870975) /* SoundTable */
-     , (6534,   4,  805306396) /* CombatTable */
-     , (6534,   6,   67109305) /* PaletteBase */
-     , (6534,   7,  268435811) /* ClothingBase */
-     , (6534,   8,  100669123) /* Icon */
-     , (6534,  22,  872415351) /* PhysicsEffectTable */
+VALUES (6534,   1, 0x0200049A) /* Setup */
+     , (6534,   2, 0x09000069) /* MotionTable */
+     , (6534,   3, 0x2000003F) /* SoundTable */
+     , (6534,   4, 0x3000001C) /* CombatTable */
+     , (6534,   6, 0x040001B9) /* PaletteBase */
+     , (6534,   7, 0x10000163) /* ClothingBase */
+     , (6534,   8, 0x060016C3) /* Icon */
+     , (6534,  22, 0x34000077) /* PhysicsEffectTable */
      , (6534,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

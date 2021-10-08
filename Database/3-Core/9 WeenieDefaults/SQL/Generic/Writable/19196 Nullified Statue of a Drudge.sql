@@ -26,9 +26,9 @@ VALUES (19196,   1, 'Nullified Statue of a Drudge') /* Name */
      , (19196,  15, 'This nullified shell is all that remains of the living Statue of a Drudge that once threatened our peaceful town. Destroyed through the sole efforts of the citizens of Dereth, it remains as a testament to their valor. This land is yours now.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19196,   1,   33556445) /* Setup */
-     , (19196,   2,  150995162) /* MotionTable */
-     , (19196,   3,  536871052) /* SoundTable */
-     , (19196,   6,   67112812) /* PaletteBase */
-     , (19196,   7,  268435972) /* ClothingBase */
-     , (19196,   8,  100667445) /* Icon */;
+VALUES (19196,   1, 0x020007DD) /* Setup */
+     , (19196,   2, 0x090000DA) /* MotionTable */
+     , (19196,   3, 0x2000008C) /* SoundTable */
+     , (19196,   6, 0x04000F6C) /* PaletteBase */
+     , (19196,   7, 0x10000204) /* ClothingBase */
+     , (19196,   8, 0x06001035) /* Icon */;

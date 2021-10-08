@@ -28,8 +28,8 @@ VALUES (11658,   1, 'Completed Advanced Unarmed Combat Skill Puzzle') /* Name */
      , (11658,  16, 'A completed Advanced Unarmed Combat Skill Puzzle.  Turn in to a Bestower Examiner to receive a title.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11658,   1,   33557028) /* Setup */
-     , (11658,   3,  536870932) /* SoundTable */
-     , (11658,   8,  100671737) /* Icon */
-     , (11658,  22,  872415275) /* PhysicsEffectTable */
-     , (11658,  36,  234881046) /* MutateFilter */;
+VALUES (11658,   1, 0x02000A24) /* Setup */
+     , (11658,   3, 0x20000014) /* SoundTable */
+     , (11658,   8, 0x060020F9) /* Icon */
+     , (11658,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11658,  36, 0x0E000016) /* MutateFilter */;

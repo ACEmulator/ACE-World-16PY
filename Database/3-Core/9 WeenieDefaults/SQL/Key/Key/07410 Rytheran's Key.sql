@@ -31,7 +31,7 @@ VALUES (7410,   1, 'Rytheran''s Key') /* Name */
      , (7410,  33, 'mageacademykey') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7410,   1,   33554784) /* Setup */
-     , (7410,   3,  536870932) /* SoundTable */
-     , (7410,   8,  100667486) /* Icon */
-     , (7410,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7410,   1, 0x02000160) /* Setup */
+     , (7410,   3, 0x20000014) /* SoundTable */
+     , (7410,   8, 0x0600105E) /* Icon */
+     , (7410,  22, 0x3400002B) /* PhysicsEffectTable */;

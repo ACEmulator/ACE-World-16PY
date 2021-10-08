@@ -25,7 +25,7 @@ VALUES (3345,   1, 'Scroll of Leaden Feet IV') /* Name */
      , (3345,  16, 'When learned, this spell decreases the target''s Run skill by 43%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3345,   1,   33554826) /* Setup */
-     , (3345,   8,  100676470) /* Icon */
-     , (3345,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3345,   1, 0x0200018A) /* Setup */
+     , (3345,   8, 0x06003376) /* Icon */
+     , (3345,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3345,  28,       1003) /* Spell - Leaden Feet Other IV */;

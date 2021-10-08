@@ -66,12 +66,12 @@ VALUES (27475,   1, 'Corpse of Lugian Courier') /* Name */
      , (27475,  16, 'The lugian courier dispatched from the Renegade fort in the direlands seems to have met with an unfortunate end. Apparently the Burun didn''t welcome what he had to say. Maybe there is something of use on him.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27475,   1,   33557003) /* Setup */
-     , (27475,   2,  150995292) /* MotionTable */
-     , (27475,   3,  536871052) /* SoundTable */
-     , (27475,   4,  805306398) /* CombatTable */
-     , (27475,   8,  100674808) /* Icon */
-     , (27475,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (27475,   1, 0x02000A0B) /* Setup */
+     , (27475,   2, 0x0900015C) /* MotionTable */
+     , (27475,   3, 0x2000008C) /* SoundTable */
+     , (27475,   4, 0x3000001E) /* CombatTable */
+     , (27475,   8, 0x06002CF8) /* Icon */
+     , (27475,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27475,   1, 380, 0, 0) /* Strength */

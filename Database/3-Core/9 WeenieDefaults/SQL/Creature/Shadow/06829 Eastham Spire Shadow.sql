@@ -70,14 +70,14 @@ VALUES (6829,   1, 'Eastham Spire Shadow') /* Name */
      , (6829,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6829,   1,   33556564) /* Setup */
-     , (6829,   2,  150995092) /* MotionTable */
-     , (6829,   3,  536870913) /* SoundTable */
-     , (6829,   4,  805306368) /* CombatTable */
-     , (6829,   6,   67111797) /* PaletteBase */
-     , (6829,   7,  268435992) /* ClothingBase */
-     , (6829,   8,  100670397) /* Icon */
-     , (6829,  22,  872415331) /* PhysicsEffectTable */
+VALUES (6829,   1, 0x02000854) /* Setup */
+     , (6829,   2, 0x09000094) /* MotionTable */
+     , (6829,   3, 0x20000001) /* SoundTable */
+     , (6829,   4, 0x30000000) /* CombatTable */
+     , (6829,   6, 0x04000B75) /* PaletteBase */
+     , (6829,   7, 0x10000218) /* ClothingBase */
+     , (6829,   8, 0x06001BBD) /* Icon */
+     , (6829,  22, 0x34000063) /* PhysicsEffectTable */
      , (6829,  32,         84) /* WieldedTreasureType - 
                                    Wield Club (309) | Probability: 15.000001%
                                    Wield Dabus (313) | Probability: 3%

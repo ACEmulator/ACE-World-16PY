@@ -29,10 +29,10 @@ VALUES (8639,   1, 'Shrine of Sodhi') /* Name */
      , (8639,  17, 'The shrine calls out to the darkness.') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8639,   1,   33556908) /* Setup */
-     , (8639,   3,  536870932) /* SoundTable */
-     , (8639,   8,  100671209) /* Icon */
-     , (8639,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8639,   1, 0x020009AC) /* Setup */
+     , (8639,   3, 0x20000014) /* SoundTable */
+     , (8639,   8, 0x06001EE9) /* Icon */
+     , (8639,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (8639,  16, 0x00000000) /* ActivationTarget */;

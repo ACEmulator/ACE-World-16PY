@@ -27,10 +27,10 @@ VALUES (19227,   1, 'Decorative Bronze Statue') /* Name */
      , (19227,  16, 'A small decorative statue  of a Grievver crafted by the Arcanum Tinker, in reward for destroying the statues threatening the cities of Dereth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19227,   1,   33556698) /* Setup */
-     , (19227,   2,  150995202) /* MotionTable */
-     , (19227,   6,   67112927) /* PaletteBase */
-     , (19227,   7,  268436137) /* ClothingBase */
-     , (19227,   8,  100670960) /* Icon */
-     , (19227,  22,  872415387) /* PhysicsEffectTable */
-     , (19227,  36,  234881046) /* MutateFilter */;
+VALUES (19227,   1, 0x020008DA) /* Setup */
+     , (19227,   2, 0x09000102) /* MotionTable */
+     , (19227,   6, 0x04000FDF) /* PaletteBase */
+     , (19227,   7, 0x100002A9) /* ClothingBase */
+     , (19227,   8, 0x06001DF0) /* Icon */
+     , (19227,  22, 0x3400009B) /* PhysicsEffectTable */
+     , (19227,  36, 0x0E000016) /* MutateFilter */;

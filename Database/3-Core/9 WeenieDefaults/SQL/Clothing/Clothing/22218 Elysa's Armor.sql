@@ -37,9 +37,9 @@ VALUES (22218,   1, 'Elysa''s Armor') /* Name */
      , (22218,  15, 'A fine robe shimmering with silk fibers.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22218,   1,   33554854) /* Setup */
-     , (22218,   3,  536870932) /* SoundTable */
-     , (22218,   6,   67108990) /* PaletteBase */
-     , (22218,   7,  268436454) /* ClothingBase */
-     , (22218,   8,  100672146) /* Icon */
-     , (22218,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22218,   1, 0x020001A6) /* Setup */
+     , (22218,   3, 0x20000014) /* SoundTable */
+     , (22218,   6, 0x0400007E) /* PaletteBase */
+     , (22218,   7, 0x100003E6) /* ClothingBase */
+     , (22218,   8, 0x06002292) /* Icon */
+     , (22218,  22, 0x3400002B) /* PhysicsEffectTable */;

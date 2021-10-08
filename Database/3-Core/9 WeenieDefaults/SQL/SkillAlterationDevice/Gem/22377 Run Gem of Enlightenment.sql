@@ -25,8 +25,8 @@ VALUES (22377,   1, 'Run Gem of Enlightenment') /* Name */
      , (22377,  33, 'SkillAlterationGemPickedUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22377,   1,   33558088) /* Setup */
-     , (22377,   6,   67111919) /* PaletteBase */
-     , (22377,   7,  268435723) /* ClothingBase */
-     , (22377,   8,  100673788) /* Icon */
-     , (22377,  50,  100673780) /* IconOverlay */;
+VALUES (22377,   1, 0x02000E48) /* Setup */
+     , (22377,   6, 0x04000BEF) /* PaletteBase */
+     , (22377,   7, 0x1000010B) /* ClothingBase */
+     , (22377,   8, 0x060028FC) /* Icon */
+     , (22377,  50, 0x060028F4) /* IconOverlay */;

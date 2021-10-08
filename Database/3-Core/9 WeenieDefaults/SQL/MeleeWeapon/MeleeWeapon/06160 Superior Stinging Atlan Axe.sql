@@ -45,12 +45,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6160,   1, 'Superior Stinging Atlan Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6160,   1,   33556351) /* Setup */
-     , (6160,   3,  536870932) /* SoundTable */
-     , (6160,   6,   67111919) /* PaletteBase */
-     , (6160,   7,  268435930) /* ClothingBase */
-     , (6160,   8,  100670514) /* Icon */
-     , (6160,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6160,   1, 0x0200077F) /* Setup */
+     , (6160,   3, 0x20000014) /* SoundTable */
+     , (6160,   6, 0x04000BEF) /* PaletteBase */
+     , (6160,   7, 0x100001DA) /* ClothingBase */
+     , (6160,   8, 0x06001C32) /* Icon */
+     , (6160,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6160,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

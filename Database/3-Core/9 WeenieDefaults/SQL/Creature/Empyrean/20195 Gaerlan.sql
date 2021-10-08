@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20195,   1, 'Gaerlan') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20195,   1,   33557846) /* Setup */
-     , (20195,   2,  150995214) /* MotionTable */
-     , (20195,   3,  536870913) /* SoundTable */
-     , (20195,   4,  805306368) /* CombatTable */
-     , (20195,   6,   67112626) /* PaletteBase */
-     , (20195,   7,  268436403) /* ClothingBase */
-     , (20195,   8,  100673073) /* Icon */
-     , (20195,  22,  872415236) /* PhysicsEffectTable */;
+VALUES (20195,   1, 0x02000D56) /* Setup */
+     , (20195,   2, 0x0900010E) /* MotionTable */
+     , (20195,   3, 0x20000001) /* SoundTable */
+     , (20195,   4, 0x30000000) /* CombatTable */
+     , (20195,   6, 0x04000EB2) /* PaletteBase */
+     , (20195,   7, 0x100003B3) /* ClothingBase */
+     , (20195,   8, 0x06002631) /* Icon */
+     , (20195,  22, 0x34000004) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (20195,   1, 500, 0, 0) /* Strength */

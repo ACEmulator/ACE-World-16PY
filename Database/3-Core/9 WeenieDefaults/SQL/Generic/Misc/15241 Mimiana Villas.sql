@@ -22,5 +22,5 @@ VALUES (15241,   1, 'Mimiana Villas') /* Name */
      , (15241,  16, 'Welcome to Mimiana Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15241,   1,   33557463) /* Setup */
-     , (15241,   8,  100668115) /* Icon */;
+VALUES (15241,   1, 0x02000BD7) /* Setup */
+     , (15241,   8, 0x060012D3) /* Icon */;

@@ -35,10 +35,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22790,   1, 'Bandit Simi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22790,   1,   33554751) /* Setup */
-     , (22790,   3,  536870932) /* SoundTable */
-     , (22790,   6,   67111919) /* PaletteBase */
-     , (22790,   7,  268435766) /* ClothingBase */
-     , (22790,   8,  100668995) /* Icon */
-     , (22790,  22,  872415275) /* PhysicsEffectTable */
-     , (22790,  36,  234881044) /* MutateFilter */;
+VALUES (22790,   1, 0x0200013F) /* Setup */
+     , (22790,   3, 0x20000014) /* SoundTable */
+     , (22790,   6, 0x04000BEF) /* PaletteBase */
+     , (22790,   7, 0x10000136) /* ClothingBase */
+     , (22790,   8, 0x06001643) /* Icon */
+     , (22790,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (22790,  36, 0x0E000014) /* MutateFilter */;

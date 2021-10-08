@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7103,   1, 'Mosswart Clinger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7103,   1,   33557327) /* Setup */
-     , (7103,   2,  150994953) /* MotionTable */
-     , (7103,   3,  536870959) /* SoundTable */
-     , (7103,   4,  805306373) /* CombatTable */
-     , (7103,   6,   67113400) /* PaletteBase */
-     , (7103,   7,  268436294) /* ClothingBase */
-     , (7103,   8,  100667449) /* Icon */
-     , (7103,  22,  872415264) /* PhysicsEffectTable */
+VALUES (7103,   1, 0x02000B4F) /* Setup */
+     , (7103,   2, 0x09000009) /* MotionTable */
+     , (7103,   3, 0x2000002F) /* SoundTable */
+     , (7103,   4, 0x30000005) /* CombatTable */
+     , (7103,   6, 0x040011B8) /* PaletteBase */
+     , (7103,   7, 0x10000346) /* ClothingBase */
+     , (7103,   8, 0x06001039) /* Icon */
+     , (7103,  22, 0x34000020) /* PhysicsEffectTable */
      , (7103,  32,        280) /* WieldedTreasureType - 
                                    Wield 5x Fire Throwing Club (23659) | Probability: 25%
                                    Wield 4x Frost Throwing Club (23662) | Probability: 25%

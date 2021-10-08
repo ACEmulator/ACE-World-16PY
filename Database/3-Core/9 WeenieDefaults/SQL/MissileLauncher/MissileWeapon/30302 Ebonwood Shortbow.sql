@@ -38,9 +38,9 @@ VALUES (30302,   1, 'Ebonwood Shortbow') /* Name */
      , (30302,  16, 'Describe me here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30302,   1,   33554728) /* Setup */
-     , (30302,   3,  536870932) /* SoundTable */
-     , (30302,   6,   67111919) /* PaletteBase */
-     , (30302,   7,  268435759) /* ClothingBase */
-     , (30302,   8,  100668815) /* Icon */
-     , (30302,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30302,   1, 0x02000128) /* Setup */
+     , (30302,   3, 0x20000014) /* SoundTable */
+     , (30302,   6, 0x04000BEF) /* PaletteBase */
+     , (30302,   7, 0x1000012F) /* ClothingBase */
+     , (30302,   8, 0x0600158F) /* Icon */
+     , (30302,  22, 0x3400002B) /* PhysicsEffectTable */;

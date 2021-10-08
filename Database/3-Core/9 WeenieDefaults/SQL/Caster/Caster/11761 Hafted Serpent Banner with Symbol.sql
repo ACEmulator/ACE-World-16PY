@@ -35,12 +35,12 @@ VALUES (11761,   1, 'Hafted Serpent Banner with Symbol') /* Name */
      , (11761,  16, 'A hafted, symbol tipped banner with a Serpent on it.  It is somewhat tattered, and the colors seem to be washed out.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11761,   1,   33557258) /* Setup */
-     , (11761,   6,   67113338) /* PaletteBase */
-     , (11761,   7,  268436224) /* ClothingBase */
-     , (11761,   8,  100671916) /* Icon */
-     , (11761,  22,  872415275) /* PhysicsEffectTable */
-     , (11761,  27, 1073742049) /* UseUserAnimation - UseMagicWand */;
+VALUES (11761,   1, 0x02000B0A) /* Setup */
+     , (11761,   6, 0x0400117A) /* PaletteBase */
+     , (11761,   7, 0x10000300) /* ClothingBase */
+     , (11761,   8, 0x060021AC) /* Icon */
+     , (11761,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11761,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11761,   656,      2)  /* Mana Conversion Mastery Self IV */

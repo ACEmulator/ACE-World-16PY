@@ -62,14 +62,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27708,   1, 'Carnivorous Carenzi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27708,   1,   33557141) /* Setup */
-     , (27708,   2,  150995133) /* MotionTable */
-     , (27708,   3,  536871035) /* SoundTable */
-     , (27708,   4,  805306375) /* CombatTable */
-     , (27708,   6,   67113270) /* PaletteBase */
-     , (27708,   7,  268436195) /* ClothingBase */
-     , (27708,   8,  100671754) /* Icon */
-     , (27708,  22,  872415377) /* PhysicsEffectTable */
+VALUES (27708,   1, 0x02000A95) /* Setup */
+     , (27708,   2, 0x090000BD) /* MotionTable */
+     , (27708,   3, 0x2000007B) /* SoundTable */
+     , (27708,   4, 0x30000007) /* CombatTable */
+     , (27708,   6, 0x04001136) /* PaletteBase */
+     , (27708,   7, 0x100002E3) /* ClothingBase */
+     , (27708,   8, 0x0600210A) /* Icon */
+     , (27708,  22, 0x34000091) /* PhysicsEffectTable */
      , (27708,  35,        454) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

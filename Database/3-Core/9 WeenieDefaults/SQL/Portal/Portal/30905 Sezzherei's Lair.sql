@@ -25,9 +25,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30905,   1, 'Sezzherei''s Lair') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30905,   1,   33555925) /* Setup */
-     , (30905,   2,  150994947) /* MotionTable */
-     , (30905,   8,  100667499) /* Icon */;
+VALUES (30905,   1, 0x020005D5) /* Setup */
+     , (30905,   2, 0x09000003) /* MotionTable */
+     , (30905,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30905, 2, 0x0023011A, 77.2211, -6.8507, 0.005, -0.92388, 0, -0, -0.382684) /* Destination */

@@ -26,7 +26,7 @@ VALUES (5009,   1, 'Shop Key') /* Name */
      , (5009,  16, 'A small brass key.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5009,   1,   33554784) /* Setup */
-     , (5009,   3,  536870932) /* SoundTable */
-     , (5009,   8,  100668439) /* Icon */
-     , (5009,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5009,   1, 0x02000160) /* Setup */
+     , (5009,   3, 0x20000014) /* SoundTable */
+     , (5009,   8, 0x06001417) /* Icon */
+     , (5009,  22, 0x3400002B) /* PhysicsEffectTable */;

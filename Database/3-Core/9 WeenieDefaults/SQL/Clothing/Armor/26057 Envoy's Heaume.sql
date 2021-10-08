@@ -39,11 +39,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26057,   1, 'Envoy''s Heaume') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26057,   1,   33556856) /* Setup */
-     , (26057,   3,  536870932) /* SoundTable */
-     , (26057,   6,   67108990) /* PaletteBase */
-     , (26057,   7,  268436787) /* ClothingBase */
-     , (26057,   8,  100667343) /* Icon */
-     , (26057,  22,  872415275) /* PhysicsEffectTable */
-     , (26057,  36,  234881042) /* MutateFilter */
-     , (26057,  46,  939524146) /* TsysMutationFilter */;
+VALUES (26057,   1, 0x02000978) /* Setup */
+     , (26057,   3, 0x20000014) /* SoundTable */
+     , (26057,   6, 0x0400007E) /* PaletteBase */
+     , (26057,   7, 0x10000533) /* ClothingBase */
+     , (26057,   8, 0x06000FCF) /* Icon */
+     , (26057,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (26057,  36, 0x0E000012) /* MutateFilter */
+     , (26057,  46, 0x38000032) /* TsysMutationFilter */;

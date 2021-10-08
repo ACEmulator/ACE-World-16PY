@@ -72,13 +72,13 @@ VALUES (8496,   1, 'Weaponsmith Bornak the Crookblade') /* Name */
      , (8496,  24, 'MacNiall''s Freehold') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8496,   1,   33554433) /* Setup */
-     , (8496,   2,  150994945) /* MotionTable */
-     , (8496,   3,  536870914) /* SoundTable */
-     , (8496,   4,  805306368) /* CombatTable */
-     , (8496,   6,   67108990) /* PaletteBase */
-     , (8496,   7,  268435545) /* ClothingBase */
-     , (8496,   8,  100667446) /* Icon */;
+VALUES (8496,   1, 0x02000001) /* Setup */
+     , (8496,   2, 0x09000001) /* MotionTable */
+     , (8496,   3, 0x20000002) /* SoundTable */
+     , (8496,   4, 0x30000000) /* CombatTable */
+     , (8496,   6, 0x0400007E) /* PaletteBase */
+     , (8496,   7, 0x10000059) /* ClothingBase */
+     , (8496,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8496,   1, 240, 0, 0) /* Strength */

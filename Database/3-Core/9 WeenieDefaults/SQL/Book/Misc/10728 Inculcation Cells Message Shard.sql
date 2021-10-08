@@ -28,10 +28,10 @@ VALUES (10728,   1, 'Inculcation Cells Message Shard') /* Name */
      , (10728,  16, 'A message shard taken from a Virindi Director in the Inculcation Cells dungeon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10728,   1,   33555391) /* Setup */
-     , (10728,   3,  536870932) /* SoundTable */
-     , (10728,   8,  100671183) /* Icon */
-     , (10728,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (10728,   1, 0x020003BF) /* Setup */
+     , (10728,   3, 0x20000014) /* SoundTable */
+     , (10728,   8, 0x06001ECF) /* Icon */
+     , (10728,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (10728, 1, 1000);

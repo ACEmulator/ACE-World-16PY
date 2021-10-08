@@ -64,13 +64,13 @@ VALUES (29862,   1, 'Aun Pitamaura') /* Name */
      , (29862,   5, 'Artisan in Spike and Blade') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29862,   1,   33557117) /* Setup */
-     , (29862,   2,  150994954) /* MotionTable */
-     , (29862,   3,  536870931) /* SoundTable */
-     , (29862,   4,  805306380) /* CombatTable */
-     , (29862,   6,   67113280) /* PaletteBase */
-     , (29862,   7,  268436601) /* ClothingBase */
-     , (29862,   8,  100671756) /* Icon */;
+VALUES (29862,   1, 0x02000A7D) /* Setup */
+     , (29862,   2, 0x0900000A) /* MotionTable */
+     , (29862,   3, 0x20000013) /* SoundTable */
+     , (29862,   4, 0x3000000C) /* CombatTable */
+     , (29862,   6, 0x04001140) /* PaletteBase */
+     , (29862,   7, 0x10000479) /* ClothingBase */
+     , (29862,   8, 0x0600210C) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29862,   1, 120, 0, 0) /* Strength */

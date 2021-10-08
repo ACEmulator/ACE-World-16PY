@@ -26,10 +26,10 @@ VALUES (2464,   1, 'Orange Juice') /* Name */
      , (2464,  20, 'Jars of Orange Juice') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2464,   1,   33554602) /* Setup */
-     , (2464,   3,  536870932) /* SoundTable */
-     , (2464,   6,   67111919) /* PaletteBase */
-     , (2464,   7,  268435733) /* ClothingBase */
-     , (2464,   8,  100667411) /* Icon */
-     , (2464,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2464,   1, 0x020000AA) /* Setup */
+     , (2464,   3, 0x20000014) /* SoundTable */
+     , (2464,   6, 0x04000BEF) /* PaletteBase */
+     , (2464,   7, 0x10000115) /* ClothingBase */
+     , (2464,   8, 0x06001013) /* Icon */
+     , (2464,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2464,  23,         65) /* UseSound - Drink1 */;

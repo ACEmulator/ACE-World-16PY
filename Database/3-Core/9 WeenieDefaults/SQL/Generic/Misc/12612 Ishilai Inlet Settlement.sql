@@ -22,5 +22,5 @@ VALUES (12612,   1, 'Ishilai Inlet Settlement') /* Name */
      , (12612,  16, 'Welcome to Ishilai Inlet Settlement') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12612,   1,   33557463) /* Setup */
-     , (12612,   8,  100668115) /* Icon */;
+VALUES (12612,   1, 0x02000BD7) /* Setup */
+     , (12612,   8, 0x060012D3) /* Icon */;

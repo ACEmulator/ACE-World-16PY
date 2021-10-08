@@ -24,7 +24,7 @@ VALUES (20417,   1, 'Scroll of Cabalastic Ostracism') /* Name */
      , (20417,  15, 'When learned, this spell decreases a magic casting implement''s mana conversion bonus by 70%.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20417,   1,   33554826) /* Setup */
-     , (20417,   8,  100676671) /* Icon */
-     , (20417,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20417,   1, 0x0200018A) /* Setup */
+     , (20417,   8, 0x0600343F) /* Icon */
+     , (20417,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20417,  28,       2107) /* Spell - Cabalistic Ostracism */;

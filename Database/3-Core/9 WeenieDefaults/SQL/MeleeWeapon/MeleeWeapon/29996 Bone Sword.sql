@@ -39,11 +39,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29996,   1, 'Bone Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29996,   1,   33558586) /* Setup */
-     , (29996,   3,  536870932) /* SoundTable */
-     , (29996,   8,  100675765) /* Icon */
-     , (29996,  22,  872415275) /* PhysicsEffectTable */
-     , (29996,  36,  234881044) /* MutateFilter */;
+VALUES (29996,   1, 0x0200103A) /* Setup */
+     , (29996,   3, 0x20000014) /* SoundTable */
+     , (29996,   8, 0x060030B5) /* Icon */
+     , (29996,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29996,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29996,  2116,      2)  /* Aura of Atlan's Alacrity */

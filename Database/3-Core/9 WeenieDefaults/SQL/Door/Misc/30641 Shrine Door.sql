@@ -32,8 +32,8 @@ VALUES (30641,   1, 'Shrine Door') /* Name */
      , (30641,  14, 'Requires a Banderling Holy Symbol to open') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30641,   1,   33555930) /* Setup */
-     , (30641,   2,  150995078) /* MotionTable */
-     , (30641,   3,  536870946) /* SoundTable */
-     , (30641,   8,  100668183) /* Icon */
-     , (30641,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30641,   1, 0x020005DA) /* Setup */
+     , (30641,   2, 0x09000086) /* MotionTable */
+     , (30641,   3, 0x20000022) /* SoundTable */
+     , (30641,   8, 0x06001317) /* Icon */
+     , (30641,  22, 0x3400002B) /* PhysicsEffectTable */;

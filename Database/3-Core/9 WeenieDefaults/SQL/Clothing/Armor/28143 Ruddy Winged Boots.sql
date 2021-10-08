@@ -48,12 +48,12 @@ VALUES (28143,   1, 'Ruddy Winged Boots') /* Name */
      , (28143,  16, 'A pair of winged boots crafted from the hide of an adolescent rust gromnie.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28143,   1,   33554654) /* Setup */
-     , (28143,   3,  536870932) /* SoundTable */
-     , (28143,   6,   67108990) /* PaletteBase */
-     , (28143,   7,  268436854) /* ClothingBase */
-     , (28143,   8,  100667310) /* Icon */
-     , (28143,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28143,   1, 0x020000DE) /* Setup */
+     , (28143,   3, 0x20000014) /* SoundTable */
+     , (28143,   6, 0x0400007E) /* PaletteBase */
+     , (28143,   7, 0x10000576) /* ClothingBase */
+     , (28143,   8, 0x06000FAE) /* Icon */
+     , (28143,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28143,  2564,      2)  /* Minor Sprint */

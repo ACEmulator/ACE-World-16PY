@@ -63,11 +63,11 @@ VALUES (30785,   1, 'Gatekeeper of Anger') /* Name */
      , (30785,  15, 'This Gate may be used by those Chosen of Bael''Zharon from levels 40 to 69.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30785,   1,   33559248) /* Setup */
-     , (30785,   2,  150995330) /* MotionTable */
-     , (30785,   3,  536870932) /* SoundTable */
-     , (30785,   4,  805306368) /* CombatTable */
-     , (30785,   8,  100677462) /* Icon */;
+VALUES (30785,   1, 0x020012D0) /* Setup */
+     , (30785,   2, 0x09000182) /* MotionTable */
+     , (30785,   3, 0x20000014) /* SoundTable */
+     , (30785,   4, 0x30000000) /* CombatTable */
+     , (30785,   8, 0x06003756) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30785,   1,  60, 0, 0) /* Strength */

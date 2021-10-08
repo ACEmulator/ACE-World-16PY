@@ -27,7 +27,7 @@ VALUES (22578,   1, 'Bunch of Nanners') /* Name */
      , (22578,  20, 'Bunches of Nanners') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22578,   1,   33558106) /* Setup */
-     , (22578,   3,  536870932) /* SoundTable */
-     , (22578,   8,  100673809) /* Icon */
-     , (22578,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22578,   1, 0x02000E5A) /* Setup */
+     , (22578,   3, 0x20000014) /* SoundTable */
+     , (22578,   8, 0x06002911) /* Icon */
+     , (22578,  22, 0x3400002B) /* PhysicsEffectTable */;

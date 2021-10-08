@@ -27,10 +27,10 @@ VALUES (19228,   1, 'Oxidized Statue') /* Name */
      , (19228,  16, 'A small oxidized statue of a Grievver crafted by the Arcanum Tinker, in reward for keeping the statues that continue to threaten the cities of Dereth at bay.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19228,   1,   33556698) /* Setup */
-     , (19228,   2,  150995202) /* MotionTable */
-     , (19228,   6,   67112927) /* PaletteBase */
-     , (19228,   7,  268436137) /* ClothingBase */
-     , (19228,   8,  100670960) /* Icon */
-     , (19228,  22,  872415387) /* PhysicsEffectTable */
-     , (19228,  36,  234881046) /* MutateFilter */;
+VALUES (19228,   1, 0x020008DA) /* Setup */
+     , (19228,   2, 0x09000102) /* MotionTable */
+     , (19228,   6, 0x04000FDF) /* PaletteBase */
+     , (19228,   7, 0x100002A9) /* ClothingBase */
+     , (19228,   8, 0x06001DF0) /* Icon */
+     , (19228,  22, 0x3400009B) /* PhysicsEffectTable */
+     , (19228,  36, 0x0E000016) /* MutateFilter */;

@@ -61,14 +61,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7106,   1, 'Sewer Rat') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7106,   1,   33554493) /* Setup */
-     , (7106,   2,  150994958) /* MotionTable */
-     , (7106,   3,  536870927) /* SoundTable */
-     , (7106,   4,  805306387) /* CombatTable */
-     , (7106,   6,   67109300) /* PaletteBase */
-     , (7106,   7,  268435555) /* ClothingBase */
-     , (7106,   8,  100667451) /* Icon */
-     , (7106,  22,  872415267) /* PhysicsEffectTable */
+VALUES (7106,   1, 0x0200003D) /* Setup */
+     , (7106,   2, 0x0900000E) /* MotionTable */
+     , (7106,   3, 0x2000000F) /* SoundTable */
+     , (7106,   4, 0x30000013) /* CombatTable */
+     , (7106,   6, 0x040001B4) /* PaletteBase */
+     , (7106,   7, 0x10000063) /* ClothingBase */
+     , (7106,   8, 0x0600103B) /* Icon */
+     , (7106,  22, 0x34000023) /* PhysicsEffectTable */
      , (7106,  30,         86) /* PhysicsScript - BreatheAcid */
      , (7106,  35,        457) /* DeathTreasureType - Loot Tier: 2 */;
 

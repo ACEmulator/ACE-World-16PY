@@ -63,12 +63,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2570,   1, 'K''nath S''tath') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2570,   1,   33555629) /* Setup */
-     , (2570,   2,  150994994) /* MotionTable */
-     , (2570,   3,  536870984) /* SoundTable */
-     , (2570,   4,  805306394) /* CombatTable */
-     , (2570,   8,  100668443) /* Icon */
-     , (2570,  22,  872415261) /* PhysicsEffectTable */
+VALUES (2570,   1, 0x020004AD) /* Setup */
+     , (2570,   2, 0x09000032) /* MotionTable */
+     , (2570,   3, 0x20000048) /* SoundTable */
+     , (2570,   4, 0x3000001A) /* CombatTable */
+     , (2570,   8, 0x0600141B) /* Icon */
+     , (2570,  22, 0x3400001D) /* PhysicsEffectTable */
      , (2570,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7112,   1, 'Chomu Sclavus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7112,   1,   33555608) /* Setup */
-     , (7112,   2,  150995048) /* MotionTable */
-     , (7112,   3,  536870977) /* SoundTable */
-     , (7112,   4,  805306393) /* CombatTable */
-     , (7112,   6,   67111936) /* PaletteBase */
-     , (7112,   7,  268435727) /* ClothingBase */
-     , (7112,   8,  100669120) /* Icon */
-     , (7112,  22,  872415280) /* PhysicsEffectTable */
+VALUES (7112,   1, 0x02000498) /* Setup */
+     , (7112,   2, 0x09000068) /* MotionTable */
+     , (7112,   3, 0x20000041) /* SoundTable */
+     , (7112,   4, 0x30000019) /* CombatTable */
+     , (7112,   6, 0x04000C00) /* PaletteBase */
+     , (7112,   7, 0x1000010F) /* ClothingBase */
+     , (7112,   8, 0x060016C0) /* Icon */
+     , (7112,  22, 0x34000030) /* PhysicsEffectTable */
      , (7112,  32,        283) /* WieldedTreasureType - 
                                    Wield Yumi (23734) | Probability: 80%
                                    Wield 14x Deadly Arrow (15429) | Probability: 100%

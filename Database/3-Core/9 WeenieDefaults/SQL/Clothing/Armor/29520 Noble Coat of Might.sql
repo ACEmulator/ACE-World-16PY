@@ -46,12 +46,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29520,   1, 'Noble Coat of Might') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29520,   1,   33554642) /* Setup */
-     , (29520,   3,  536870932) /* SoundTable */
-     , (29520,   6,   67108990) /* PaletteBase */
-     , (29520,   7,  268436877) /* ClothingBase */
-     , (29520,   8,  100675042) /* Icon */
-     , (29520,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29520,   1, 0x020000D2) /* Setup */
+     , (29520,   3, 0x20000014) /* SoundTable */
+     , (29520,   6, 0x0400007E) /* PaletteBase */
+     , (29520,   7, 0x1000058D) /* ClothingBase */
+     , (29520,   8, 0x06002DE2) /* Icon */
+     , (29520,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29520,  3573,      2)  /* Inner Might */

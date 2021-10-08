@@ -65,11 +65,11 @@ VALUES (24573,   1, 'Yukara Miko the Collector') /* Name */
      , (24573,   5, 'Trophy Collector') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24573,   1,   33554510) /* Setup */
-     , (24573,   2,  150994945) /* MotionTable */
-     , (24573,   3,  536870914) /* SoundTable */
-     , (24573,   4,  805306368) /* CombatTable */
-     , (24573,   8,  100667446) /* Icon */;
+VALUES (24573,   1, 0x0200004E) /* Setup */
+     , (24573,   2, 0x09000001) /* MotionTable */
+     , (24573,   3, 0x20000002) /* SoundTable */
+     , (24573,   4, 0x30000000) /* CombatTable */
+     , (24573,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24573,   1, 241, 0, 0) /* Strength */

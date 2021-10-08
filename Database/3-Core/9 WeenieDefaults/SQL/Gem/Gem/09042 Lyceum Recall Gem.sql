@@ -39,11 +39,11 @@ VALUES (9042,   1, 'Lyceum Recall Gem') /* Name */
      , (9042,  16, 'A portal gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9042,   1,   33556769) /* Setup */
-     , (9042,   3,  536870932) /* SoundTable */
-     , (9042,   6,   67111919) /* PaletteBase */
-     , (9042,   7,  268435723) /* ClothingBase */
-     , (9042,   8,  100670993) /* Icon */
-     , (9042,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9042,   1, 0x02000921) /* Setup */
+     , (9042,   3, 0x20000014) /* SoundTable */
+     , (9042,   6, 0x04000BEF) /* PaletteBase */
+     , (9042,   7, 0x1000010B) /* ClothingBase */
+     , (9042,   8, 0x06001E11) /* Icon */
+     , (9042,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9042,  28,       2358) /* Spell - Lyceum Recall */
-     , (9042,  36,  234881046) /* MutateFilter */;
+     , (9042,  36, 0x0E000016) /* MutateFilter */;

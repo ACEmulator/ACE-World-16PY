@@ -29,9 +29,9 @@ VALUES (28350,   1, 'Emblem of the Fiazhat') /* Name */
      , (28350,  15, 'A round emblem made of solidified blood and serpentine.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28350,   1,   33555194) /* Setup */
-     , (28350,   3,  536870932) /* SoundTable */
-     , (28350,   6,   67111092) /* PaletteBase */
-     , (28350,   7,  268436400) /* ClothingBase */
-     , (28350,   8,  100676997) /* Icon */
-     , (28350,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28350,   1, 0x020002FA) /* Setup */
+     , (28350,   3, 0x20000014) /* SoundTable */
+     , (28350,   6, 0x040008B4) /* PaletteBase */
+     , (28350,   7, 0x100003B0) /* ClothingBase */
+     , (28350,   8, 0x06003585) /* Icon */
+     , (28350,  22, 0x3400002B) /* PhysicsEffectTable */;

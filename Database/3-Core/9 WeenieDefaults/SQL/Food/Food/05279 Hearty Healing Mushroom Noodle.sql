@@ -29,7 +29,7 @@ VALUES (5279,   1, 'Hearty Healing Mushroom Noodle') /* Name */
      , (5279,  20, 'Bowls of Hearty Healing Mushroom Noodle ') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5279,   1,   33554668) /* Setup */
-     , (5279,   3,  536870932) /* SoundTable */
-     , (5279,   8,  100670184) /* Icon */
-     , (5279,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5279,   1, 0x020000EC) /* Setup */
+     , (5279,   3, 0x20000014) /* SoundTable */
+     , (5279,   8, 0x06001AE8) /* Icon */
+     , (5279,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -47,13 +47,13 @@ VALUES (10878,   1, 'Singularity Mace') /* Name */
      , (10878,  15, 'A mace imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10878,   1,   33557316) /* Setup */
-     , (10878,   3,  536870932) /* SoundTable */
-     , (10878,   6,   67111919) /* PaletteBase */
-     , (10878,   7,  268436083) /* ClothingBase */
-     , (10878,   8,  100672045) /* Icon */
-     , (10878,  22,  872415275) /* PhysicsEffectTable */
-     , (10878,  36,  234881044) /* MutateFilter */
+VALUES (10878,   1, 0x02000B44) /* Setup */
+     , (10878,   3, 0x20000014) /* SoundTable */
+     , (10878,   6, 0x04000BEF) /* PaletteBase */
+     , (10878,   7, 0x10000273) /* ClothingBase */
+     , (10878,   8, 0x0600222D) /* Icon */
+     , (10878,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (10878,  36, 0x0E000014) /* MutateFilter */
      , (10878,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -42,9 +42,9 @@ VALUES (25547,   1, 'Greater Olthoi Shield') /* Name */
      , (25547,  16, 'A shield created from the abdomen of an Olthoi Sentinel.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25547,   1,   33554785) /* Setup */
-     , (25547,   3,  536870932) /* SoundTable */
-     , (25547,   6,   67114593) /* PaletteBase */
-     , (25547,   7,  268436699) /* ClothingBase */
-     , (25547,   8,  100675044) /* Icon */
-     , (25547,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25547,   1, 0x02000161) /* Setup */
+     , (25547,   3, 0x20000014) /* SoundTable */
+     , (25547,   6, 0x04001661) /* PaletteBase */
+     , (25547,   7, 0x100004DB) /* ClothingBase */
+     , (25547,   8, 0x06002DE4) /* Icon */
+     , (25547,  22, 0x3400002B) /* PhysicsEffectTable */;

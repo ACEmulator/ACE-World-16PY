@@ -37,10 +37,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (345,   1, 'Simi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (345,   1,   33554751) /* Setup */
-     , (345,   3,  536870932) /* SoundTable */
-     , (345,   6,   67111919) /* PaletteBase */
-     , (345,   7,  268435766) /* ClothingBase */
-     , (345,   8,  100668995) /* Icon */
-     , (345,  22,  872415275) /* PhysicsEffectTable */
-     , (345,  36,  234881044) /* MutateFilter */;
+VALUES (345,   1, 0x0200013F) /* Setup */
+     , (345,   3, 0x20000014) /* SoundTable */
+     , (345,   6, 0x04000BEF) /* PaletteBase */
+     , (345,   7, 0x10000136) /* ClothingBase */
+     , (345,   8, 0x06001643) /* Icon */
+     , (345,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (345,  36, 0x0E000014) /* MutateFilter */;

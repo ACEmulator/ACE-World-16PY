@@ -26,7 +26,7 @@ VALUES (5930,   1, 'Occasus Key') /* Name */
      , (5930,  16, 'This key was found in the Southwest room of the Impious Temple.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5930,   1,   33554784) /* Setup */
-     , (5930,   3,  536870932) /* SoundTable */
-     , (5930,   8,  100668441) /* Icon */
-     , (5930,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5930,   1, 0x02000160) /* Setup */
+     , (5930,   3, 0x20000014) /* SoundTable */
+     , (5930,   8, 0x06001419) /* Icon */
+     , (5930,  22, 0x3400002B) /* PhysicsEffectTable */;

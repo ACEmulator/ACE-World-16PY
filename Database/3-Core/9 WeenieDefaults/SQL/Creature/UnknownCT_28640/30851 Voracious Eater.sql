@@ -61,14 +61,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30851,   1, 'Voracious Eater') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30851,   1,   33559121) /* Setup */
-     , (30851,   2,  150995322) /* MotionTable */
-     , (30851,   3,  536871097) /* SoundTable */
-     , (30851,   4,  805306431) /* CombatTable */
-     , (30851,   6,   67115387) /* PaletteBase */
-     , (30851,   7,  268436888) /* ClothingBase */
-     , (30851,   8,  100677365) /* Icon */
-     , (30851,  22,  872415409) /* PhysicsEffectTable */
+VALUES (30851,   1, 0x02001251) /* Setup */
+     , (30851,   2, 0x0900017A) /* MotionTable */
+     , (30851,   3, 0x200000B9) /* SoundTable */
+     , (30851,   4, 0x3000003F) /* CombatTable */
+     , (30851,   6, 0x0400197B) /* PaletteBase */
+     , (30851,   7, 0x10000598) /* ClothingBase */
+     , (30851,   8, 0x060036F5) /* Icon */
+     , (30851,  22, 0x340000B1) /* PhysicsEffectTable */
      , (30851,  35,        458) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

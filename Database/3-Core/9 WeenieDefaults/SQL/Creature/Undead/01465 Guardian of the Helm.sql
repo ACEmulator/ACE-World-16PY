@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1465,   1, 'Guardian of the Helm') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1465,   1,   33554839) /* Setup */
-     , (1465,   2,  150994967) /* MotionTable */
-     , (1465,   3,  536870934) /* SoundTable */
-     , (1465,   4,  805306368) /* CombatTable */
-     , (1465,   6,   67110722) /* PaletteBase */
-     , (1465,   7,  268435558) /* ClothingBase */
-     , (1465,   8,  100667942) /* Icon */
-     , (1465,  22,  872415272) /* PhysicsEffectTable */
+VALUES (1465,   1, 0x02000197) /* Setup */
+     , (1465,   2, 0x09000017) /* MotionTable */
+     , (1465,   3, 0x20000016) /* SoundTable */
+     , (1465,   4, 0x30000000) /* CombatTable */
+     , (1465,   6, 0x04000742) /* PaletteBase */
+     , (1465,   7, 0x10000066) /* ClothingBase */
+     , (1465,   8, 0x06001226) /* Icon */
+     , (1465,  22, 0x34000028) /* PhysicsEffectTable */
      , (1465,  32,        237) /* WieldedTreasureType - 
                                    Wield Fiery Shield (1517) | Probability: 100%
                                    Wield Superior Helmet (1518) | Probability: 100% */

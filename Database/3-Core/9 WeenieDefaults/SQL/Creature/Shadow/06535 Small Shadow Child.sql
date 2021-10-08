@@ -71,14 +71,14 @@ VALUES (6535,   1, 'Small Shadow Child') /* Name */
      , (6535,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6535,   1,   33554433) /* Setup */
-     , (6535,   2,  150994945) /* MotionTable */
-     , (6535,   3,  536871090) /* SoundTable */
-     , (6535,   4,  805306368) /* CombatTable */
-     , (6535,   6,   67111797) /* PaletteBase */
-     , (6535,   7,  268435632) /* ClothingBase */
-     , (6535,   8,  100670397) /* Icon */
-     , (6535,  22,  872415331) /* PhysicsEffectTable */
+VALUES (6535,   1, 0x02000001) /* Setup */
+     , (6535,   2, 0x09000001) /* MotionTable */
+     , (6535,   3, 0x200000B2) /* SoundTable */
+     , (6535,   4, 0x30000000) /* CombatTable */
+     , (6535,   6, 0x04000B75) /* PaletteBase */
+     , (6535,   7, 0x100000B0) /* ClothingBase */
+     , (6535,   8, 0x06001BBD) /* Icon */
+     , (6535,  22, 0x34000063) /* PhysicsEffectTable */
      , (6535,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -22,7 +22,7 @@ VALUES (634,   1, 'Fletcher Sign') /* Name */
      , (634,  16, 'Fletcher') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (634,   1,   33555088) /* Setup */
-     , (634,   6,   67111092) /* PaletteBase */
-     , (634,   7,  268435654) /* ClothingBase */
-     , (634,   8,  100668115) /* Icon */;
+VALUES (634,   1, 0x02000290) /* Setup */
+     , (634,   6, 0x040008B4) /* PaletteBase */
+     , (634,   7, 0x100000C6) /* ClothingBase */
+     , (634,   8, 0x060012D3) /* Icon */;

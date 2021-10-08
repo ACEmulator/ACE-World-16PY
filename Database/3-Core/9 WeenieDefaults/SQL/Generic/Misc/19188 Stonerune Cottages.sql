@@ -22,5 +22,5 @@ VALUES (19188,   1, 'Stonerune Cottages') /* Name */
      , (19188,  16, 'Welcome to Stonerune Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19188,   1,   33557463) /* Setup */
-     , (19188,   8,  100668115) /* Icon */;
+VALUES (19188,   1, 0x02000BD7) /* Setup */
+     , (19188,   8, 0x060012D3) /* Icon */;

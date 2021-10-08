@@ -32,8 +32,8 @@ VALUES (566,   1, 'Door') /* Name */
      , (566,  14, 'Use this item to open it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (566,   1,   33555023) /* Setup */
-     , (566,   2,  150994966) /* MotionTable */
-     , (566,   3,  536870946) /* SoundTable */
-     , (566,   8,  100668183) /* Icon */
-     , (566,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (566,   1, 0x0200024F) /* Setup */
+     , (566,   2, 0x09000016) /* MotionTable */
+     , (566,   3, 0x20000022) /* SoundTable */
+     , (566,   8, 0x06001317) /* Icon */
+     , (566,  22, 0x3400002B) /* PhysicsEffectTable */;

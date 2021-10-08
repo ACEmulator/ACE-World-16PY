@@ -40,9 +40,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7662,   1, 'Greater Amuli Coat of Lightning') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7662,   1,   33554854) /* Setup */
-     , (7662,   3,  536870932) /* SoundTable */
-     , (7662,   6,   67108990) /* PaletteBase */
-     , (7662,   7,  268435873) /* ClothingBase */
-     , (7662,   8,  100670436) /* Icon */
-     , (7662,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7662,   1, 0x020001A6) /* Setup */
+     , (7662,   3, 0x20000014) /* SoundTable */
+     , (7662,   6, 0x0400007E) /* PaletteBase */
+     , (7662,   7, 0x100001A1) /* ClothingBase */
+     , (7662,   8, 0x06001BE4) /* Icon */
+     , (7662,  22, 0x3400002B) /* PhysicsEffectTable */;

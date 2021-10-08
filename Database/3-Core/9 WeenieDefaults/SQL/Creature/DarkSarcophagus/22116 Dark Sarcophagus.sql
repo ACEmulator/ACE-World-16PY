@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22116,   1, 'Dark Sarcophagus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22116,   1,   33558043) /* Setup */
-     , (22116,   2,  150995217) /* MotionTable */
-     , (22116,   3,  536870998) /* SoundTable */
-     , (22116,   4,  805306368) /* CombatTable */
-     , (22116,   6,   67114004) /* PaletteBase */
-     , (22116,   7,  268436461) /* ClothingBase */
-     , (22116,   8,  100671209) /* Icon */
-     , (22116,  22,  872415331) /* PhysicsEffectTable */;
+VALUES (22116,   1, 0x02000E1B) /* Setup */
+     , (22116,   2, 0x09000111) /* MotionTable */
+     , (22116,   3, 0x20000056) /* SoundTable */
+     , (22116,   4, 0x30000000) /* CombatTable */
+     , (22116,   6, 0x04001414) /* PaletteBase */
+     , (22116,   7, 0x100003ED) /* ClothingBase */
+     , (22116,   8, 0x06001EE9) /* Icon */
+     , (22116,  22, 0x34000063) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22116,   1,  10, 0, 0) /* Strength */

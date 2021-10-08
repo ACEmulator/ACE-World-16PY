@@ -26,7 +26,7 @@ VALUES (30544,   1, 'Cove Apple Paring Knife') /* Name */
      , (30544,  33, 'YaraqKnifeCoveApple1204') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30544,   1,   33555971) /* Setup */
-     , (30544,   3,  536870932) /* SoundTable */
-     , (30544,   8,  100670174) /* Icon */
-     , (30544,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30544,   1, 0x02000603) /* Setup */
+     , (30544,   3, 0x20000014) /* SoundTable */
+     , (30544,   8, 0x06001ADE) /* Icon */
+     , (30544,  22, 0x3400002B) /* PhysicsEffectTable */;

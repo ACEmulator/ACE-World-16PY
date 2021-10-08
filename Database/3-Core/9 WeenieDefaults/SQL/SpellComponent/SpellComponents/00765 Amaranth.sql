@@ -26,10 +26,10 @@ VALUES (765,   1, 'Amaranth') /* Name */
      , (765,  20, 'Sacks of Amaranth') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (765,   1,   33554817) /* Setup */
-     , (765,   3,  536870932) /* SoundTable */
-     , (765,   6,   67111919) /* PaletteBase */
-     , (765,   7,  268435720) /* ClothingBase */
-     , (765,   8,  100668417) /* Icon */
-     , (765,  22,  872415275) /* PhysicsEffectTable */
+VALUES (765,   1, 0x02000181) /* Setup */
+     , (765,   3, 0x20000014) /* SoundTable */
+     , (765,   6, 0x04000BEF) /* PaletteBase */
+     , (765,   7, 0x10000108) /* ClothingBase */
+     , (765,   8, 0x06001401) /* Icon */
+     , (765,  22, 0x3400002B) /* PhysicsEffectTable */
      , (765,  29,         16) /* SpellComponent */;

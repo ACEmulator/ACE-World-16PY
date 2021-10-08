@@ -38,11 +38,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25652,   1, 'Leather Tassets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25652,   1,   33554656) /* Setup */
-     , (25652,   3,  536870932) /* SoundTable */
-     , (25652,   6,   67108990) /* PaletteBase */
-     , (25652,   7,  268436713) /* ClothingBase */
-     , (25652,   8,  100675456) /* Icon */
-     , (25652,  22,  872415275) /* PhysicsEffectTable */
-     , (25652,  36,  234881042) /* MutateFilter */
-     , (25652,  46,  939524146) /* TsysMutationFilter */;
+VALUES (25652,   1, 0x020000E0) /* Setup */
+     , (25652,   3, 0x20000014) /* SoundTable */
+     , (25652,   6, 0x0400007E) /* PaletteBase */
+     , (25652,   7, 0x100004E9) /* ClothingBase */
+     , (25652,   8, 0x06002F80) /* Icon */
+     , (25652,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (25652,  36, 0x0E000012) /* MutateFilter */
+     , (25652,  46, 0x38000032) /* TsysMutationFilter */;

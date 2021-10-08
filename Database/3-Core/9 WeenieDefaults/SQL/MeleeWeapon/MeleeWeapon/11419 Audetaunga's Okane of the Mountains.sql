@@ -53,13 +53,13 @@ VALUES (11419,   1, 'Audetaunga''s Okane of the Mountains') /* Name */
      , (11419,  16, 'An okane fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11419,   1,   33557234) /* Setup */
-     , (11419,   3,  536870932) /* SoundTable */
-     , (11419,   6,   67113336) /* PaletteBase */
-     , (11419,   7,  268436248) /* ClothingBase */
-     , (11419,   8,  100672073) /* Icon */
-     , (11419,  22,  872415275) /* PhysicsEffectTable */
-     , (11419,  36,  234881044) /* MutateFilter */;
+VALUES (11419,   1, 0x02000AF2) /* Setup */
+     , (11419,   3, 0x20000014) /* SoundTable */
+     , (11419,   6, 0x04001178) /* PaletteBase */
+     , (11419,   7, 0x10000318) /* ClothingBase */
+     , (11419,   8, 0x06002249) /* Icon */
+     , (11419,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11419,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11419,  2437,      2)  /* Greater Rockslide */

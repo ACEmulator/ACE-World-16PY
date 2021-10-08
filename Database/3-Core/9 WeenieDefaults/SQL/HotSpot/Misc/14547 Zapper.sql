@@ -36,6 +36,6 @@ VALUES (14547,   1, 'Zapper') /* Name */
      , (14547,  17, 'Static pulse course through your body shocking you for %i points of damage!') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14547,   1,   33556024) /* Setup */
-     , (14547,   3,  536870996) /* SoundTable */
-     , (14547,   8,  100667465) /* Icon */;
+VALUES (14547,   1, 0x02000638) /* Setup */
+     , (14547,   3, 0x20000054) /* SoundTable */
+     , (14547,   8, 0x06001049) /* Icon */;

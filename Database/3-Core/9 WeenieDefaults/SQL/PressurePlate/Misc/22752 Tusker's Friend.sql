@@ -30,9 +30,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22752,   1, 'Tusker''s Friend') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22752,   1,   33555536) /* Setup */
-     , (22752,   2,  150994977) /* MotionTable */
-     , (22752,   8,  100668114) /* Icon */
+VALUES (22752,   1, 0x02000450) /* Setup */
+     , (22752,   2, 0x09000021) /* MotionTable */
+     , (22752,   8, 0x060012D2) /* Icon */
      , (22752,  23,        149) /* UseSound - TriggerActivated */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)

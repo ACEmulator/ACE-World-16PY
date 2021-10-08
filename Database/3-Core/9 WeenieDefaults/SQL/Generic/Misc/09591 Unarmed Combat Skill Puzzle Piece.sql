@@ -28,10 +28,10 @@ VALUES (9591,   1, 'Unarmed Combat Skill Puzzle Piece') /* Name */
      , (9591,  16, 'An Unarmed Combat skill puzzle piece.  Combine it with a Skill Puzzle Base Piece.  This item requires Unarmed Combat skill to assemble.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9591,   1,   33554669) /* Setup */
-     , (9591,   3,  536870932) /* SoundTable */
-     , (9591,   6,   67111928) /* PaletteBase */
-     , (9591,   7,  268436178) /* ClothingBase */
-     , (9591,   8,  100671551) /* Icon */
-     , (9591,  22,  872415275) /* PhysicsEffectTable */
-     , (9591,  36,  234881046) /* MutateFilter */;
+VALUES (9591,   1, 0x020000ED) /* Setup */
+     , (9591,   3, 0x20000014) /* SoundTable */
+     , (9591,   6, 0x04000BF8) /* PaletteBase */
+     , (9591,   7, 0x100002D2) /* ClothingBase */
+     , (9591,   8, 0x0600203F) /* Icon */
+     , (9591,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (9591,  36, 0x0E000016) /* MutateFilter */;

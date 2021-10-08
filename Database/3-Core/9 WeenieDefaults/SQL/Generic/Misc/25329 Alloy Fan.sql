@@ -25,8 +25,8 @@ VALUES (25329,   1, 'Alloy Fan') /* Name */
      , (25329,  33, 'UndeadMechanismPickup15') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25329,   1,   33558439) /* Setup */
-     , (25329,   3,  536870932) /* SoundTable */
-     , (25329,   6,   67111919) /* PaletteBase */
-     , (25329,   8,  100674829) /* Icon */
-     , (25329,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25329,   1, 0x02000FA7) /* Setup */
+     , (25329,   3, 0x20000014) /* SoundTable */
+     , (25329,   6, 0x04000BEF) /* PaletteBase */
+     , (25329,   8, 0x06002D0D) /* Icon */
+     , (25329,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -37,9 +37,9 @@ VALUES (28162,   1, 'Gromnie Hide Leggings') /* Name */
      , (28162,  16, 'A pair of leggings crafted from the hide of a jade gromnie.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28162,   1,   33554856) /* Setup */
-     , (28162,   3,  536870932) /* SoundTable */
-     , (28162,   6,   67108990) /* PaletteBase */
-     , (28162,   7,  268436849) /* ClothingBase */
-     , (28162,   8,  100670443) /* Icon */
-     , (28162,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28162,   1, 0x020001A8) /* Setup */
+     , (28162,   3, 0x20000014) /* SoundTable */
+     , (28162,   6, 0x0400007E) /* PaletteBase */
+     , (28162,   7, 0x10000571) /* ClothingBase */
+     , (28162,   8, 0x06001BEB) /* Icon */
+     , (28162,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -22,5 +22,5 @@ VALUES (22238,   1, 'Meditation Gardens') /* Name */
      , (22238,  16, 'Meditation Gardens') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22238,   1,   33558052) /* Setup */
-     , (22238,   8,  100667499) /* Icon */;
+VALUES (22238,   1, 0x02000E24) /* Setup */
+     , (22238,   8, 0x0600106B) /* Icon */;

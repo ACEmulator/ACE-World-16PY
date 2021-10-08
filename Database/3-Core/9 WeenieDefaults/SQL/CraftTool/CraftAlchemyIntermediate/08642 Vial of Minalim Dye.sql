@@ -32,9 +32,9 @@ VALUES (8642,   1, 'Vial of Minalim Dye') /* Name */
      , (8642,  20, 'Vials of Minalim Dye') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8642,   1,   33556751) /* Setup */
-     , (8642,   3,  536870932) /* SoundTable */
-     , (8642,   6,   67111919) /* PaletteBase */
-     , (8642,   7,  268436034) /* ClothingBase */
-     , (8642,   8,  100669996) /* Icon */
-     , (8642,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8642,   1, 0x0200090F) /* Setup */
+     , (8642,   3, 0x20000014) /* SoundTable */
+     , (8642,   6, 0x04000BEF) /* PaletteBase */
+     , (8642,   7, 0x10000242) /* ClothingBase */
+     , (8642,   8, 0x06001A2C) /* Icon */
+     , (8642,  22, 0x3400002B) /* PhysicsEffectTable */;

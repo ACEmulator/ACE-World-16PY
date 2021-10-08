@@ -27,9 +27,9 @@ VALUES (27525,   1, 'Burun Idol') /* Name */
      , (27525,  16, 'A strange idol, taken from the corpse of a Burun Ruuk raider.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27525,   1,   33558699) /* Setup */
-     , (27525,   3,  536870932) /* SoundTable */
-     , (27525,   6,   67113068) /* PaletteBase */
-     , (27525,   7,  268436089) /* ClothingBase */
-     , (27525,   8,  100676430) /* Icon */
-     , (27525,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27525,   1, 0x020010AB) /* Setup */
+     , (27525,   3, 0x20000014) /* SoundTable */
+     , (27525,   6, 0x0400106C) /* PaletteBase */
+     , (27525,   7, 0x10000279) /* ClothingBase */
+     , (27525,   8, 0x0600334E) /* Icon */
+     , (27525,  22, 0x3400002B) /* PhysicsEffectTable */;

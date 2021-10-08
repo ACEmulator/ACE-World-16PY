@@ -25,7 +25,7 @@ VALUES (28955,   1, 'Scroll of Alchemy Mastery Other II') /* Name */
      , (28955,  16, 'When learned, this spell increases the target''s Alchemy skill by 25%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28955,   1,   33554826) /* Setup */
-     , (28955,   8,  100676480) /* Icon */
-     , (28955,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28955,   1, 0x0200018A) /* Setup */
+     , (28955,   8, 0x06003380) /* Icon */
+     , (28955,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28955,  28,       1758) /* Spell - Alchemy Mastery Other II */;

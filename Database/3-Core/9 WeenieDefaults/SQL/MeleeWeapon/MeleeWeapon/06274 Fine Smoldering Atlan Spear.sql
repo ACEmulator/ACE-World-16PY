@@ -45,12 +45,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6274,   1, 'Fine Smoldering Atlan Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6274,   1,   33556369) /* Setup */
-     , (6274,   3,  536870932) /* SoundTable */
-     , (6274,   6,   67111919) /* PaletteBase */
-     , (6274,   7,  268435948) /* ClothingBase */
-     , (6274,   8,  100670555) /* Icon */
-     , (6274,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6274,   1, 0x02000791) /* Setup */
+     , (6274,   3, 0x20000014) /* SoundTable */
+     , (6274,   6, 0x04000BEF) /* PaletteBase */
+     , (6274,   7, 0x100001EC) /* ClothingBase */
+     , (6274,   8, 0x06001C5B) /* Icon */
+     , (6274,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6274,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

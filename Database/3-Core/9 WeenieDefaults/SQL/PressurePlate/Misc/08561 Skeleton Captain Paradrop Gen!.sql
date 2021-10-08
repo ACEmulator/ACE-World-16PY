@@ -28,10 +28,10 @@ VALUES (8561,   1, 'Skeleton Captain Paradrop Gen!') /* Name */
      , (8561,  17, 'As you walk under the tower, a Skeleton leaps down to fight!') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8561,   1,   33555536) /* Setup */
-     , (8561,   2,  150994977) /* MotionTable */
-     , (8561,   8,  100668114) /* Icon */
-     , (8561,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8561,   1, 0x02000450) /* Setup */
+     , (8561,   2, 0x09000021) /* MotionTable */
+     , (8561,   8, 0x060012D2) /* Icon */
+     , (8561,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (8561,  16, 0x00000000) /* ActivationTarget */;

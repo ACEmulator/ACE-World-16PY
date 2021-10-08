@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24955,   1, 'Gotrok Montok') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24955,   1,   33557003) /* Setup */
-     , (24955,   2,  150994950) /* MotionTable */
-     , (24955,   3,  536870922) /* SoundTable */
-     , (24955,   4,  805306371) /* CombatTable */
-     , (24955,   6,   67113158) /* PaletteBase */
-     , (24955,   7,  268436153) /* ClothingBase */
-     , (24955,   8,  100667447) /* Icon */
-     , (24955,  22,  872415262) /* PhysicsEffectTable */
+VALUES (24955,   1, 0x02000A0B) /* Setup */
+     , (24955,   2, 0x09000006) /* MotionTable */
+     , (24955,   3, 0x2000000A) /* SoundTable */
+     , (24955,   4, 0x30000003) /* CombatTable */
+     , (24955,   6, 0x040010C6) /* PaletteBase */
+     , (24955,   7, 0x100002B9) /* ClothingBase */
+     , (24955,   8, 0x06001037) /* Icon */
+     , (24955,  22, 0x3400001E) /* PhysicsEffectTable */
      , (24955,  32,        443) /* WieldedTreasureType - 
                                    Wield Rock (23747) | Probability: 90%
                                    Wield Rock (7578) | Probability: 10%

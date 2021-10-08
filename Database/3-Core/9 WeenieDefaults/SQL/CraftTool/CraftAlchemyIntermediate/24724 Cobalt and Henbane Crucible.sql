@@ -31,8 +31,8 @@ VALUES (24724,   1, 'Cobalt and Henbane Crucible') /* Name */
      , (24724,  20, 'Cobalt and Henbane Crucible') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24724,   1,   33555966) /* Setup */
-     , (24724,   3,  536870932) /* SoundTable */
-     , (24724,   8,  100674470) /* Icon */
-     , (24724,  22,  872415275) /* PhysicsEffectTable */
-     , (24724,  50,  100674414) /* IconOverlay */;
+VALUES (24724,   1, 0x020005FE) /* Setup */
+     , (24724,   3, 0x20000014) /* SoundTable */
+     , (24724,   8, 0x06002BA6) /* Icon */
+     , (24724,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24724,  50, 0x06002B6E) /* IconOverlay */;

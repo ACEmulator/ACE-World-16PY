@@ -64,11 +64,11 @@ VALUES (4201,   1, 'Drunken Madman') /* Name */
      , (4201,   5, 'Enchanter') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4201,   1,   33554433) /* Setup */
-     , (4201,   2,  150994945) /* MotionTable */
-     , (4201,   3,  536870913) /* SoundTable */
-     , (4201,   4,  805306368) /* CombatTable */
-     , (4201,   8,  100667446) /* Icon */
+VALUES (4201,   1, 0x02000001) /* Setup */
+     , (4201,   2, 0x09000001) /* MotionTable */
+     , (4201,   3, 0x20000001) /* SoundTable */
+     , (4201,   4, 0x30000000) /* CombatTable */
+     , (4201,   8, 0x06001036) /* Icon */
      , (4201,  31,       4203) /* LinkedPortalOne - Walled Portals */
      , (4201,  48,      23772) /* LinkedPortalTwo - Ulgrim's Island Portal */;
 

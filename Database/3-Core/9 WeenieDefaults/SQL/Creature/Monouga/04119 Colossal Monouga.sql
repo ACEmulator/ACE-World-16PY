@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4119,   1, 'Colossal Monouga') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4119,   1,   33555199) /* Setup */
-     , (4119,   2,  150994983) /* MotionTable */
-     , (4119,   3,  536870962) /* SoundTable */
-     , (4119,   4,  805306390) /* CombatTable */
-     , (4119,   6,   67111302) /* PaletteBase */
-     , (4119,   7,  268435726) /* ClothingBase */
-     , (4119,   8,  100669117) /* Icon */
-     , (4119,  22,  872415334) /* PhysicsEffectTable */
+VALUES (4119,   1, 0x020002FF) /* Setup */
+     , (4119,   2, 0x09000027) /* MotionTable */
+     , (4119,   3, 0x20000032) /* SoundTable */
+     , (4119,   4, 0x30000016) /* CombatTable */
+     , (4119,   6, 0x04000986) /* PaletteBase */
+     , (4119,   7, 0x1000010E) /* ClothingBase */
+     , (4119,   8, 0x060016BD) /* Icon */
+     , (4119,  22, 0x34000066) /* PhysicsEffectTable */
      , (4119,  35,        116) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

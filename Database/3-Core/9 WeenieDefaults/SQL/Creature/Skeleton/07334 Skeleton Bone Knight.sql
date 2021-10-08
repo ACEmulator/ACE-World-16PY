@@ -64,12 +64,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7334,   1, 'Skeleton Bone Knight') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7334,   1,   33555464) /* Setup */
-     , (7334,   2,  150994981) /* MotionTable */
-     , (7334,   3,  536870942) /* SoundTable */
-     , (7334,   4,  805306368) /* CombatTable */
-     , (7334,   8,  100669124) /* Icon */
-     , (7334,  22,  872415269) /* PhysicsEffectTable */
+VALUES (7334,   1, 0x02000408) /* Setup */
+     , (7334,   2, 0x09000025) /* MotionTable */
+     , (7334,   3, 0x2000001E) /* SoundTable */
+     , (7334,   4, 0x30000000) /* CombatTable */
+     , (7334,   8, 0x060016C4) /* Icon */
+     , (7334,  22, 0x34000025) /* PhysicsEffectTable */
      , (7334,  32,        296) /* WieldedTreasureType - 
                                    Wield Yumi (23735) | Probability: 50%
                                    Wield 16x Acid Arrow (4181) | Probability: 100%

@@ -26,11 +26,11 @@ VALUES (26666,   1, 'Etched Fleshy Journal') /* Name */
      , (26666,  33, 'JournalKixktiPickedUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26666,   1,   33558620) /* Setup */
-     , (26666,   3,  536870932) /* SoundTable */
-     , (26666,   6,   67114957) /* PaletteBase */
-     , (26666,   8,  100675783) /* Icon */
-     , (26666,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (26666,   1, 0x0200105C) /* Setup */
+     , (26666,   3, 0x20000014) /* SoundTable */
+     , (26666,   6, 0x040017CD) /* PaletteBase */
+     , (26666,   8, 0x060030C7) /* Icon */
+     , (26666,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (26666, 1, 1000);

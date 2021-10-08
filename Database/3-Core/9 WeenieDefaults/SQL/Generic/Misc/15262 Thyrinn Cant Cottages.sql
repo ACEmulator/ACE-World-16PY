@@ -22,5 +22,5 @@ VALUES (15262,   1, 'Thyrinn Cant Cottages') /* Name */
      , (15262,  16, 'Welcome to Thyrinn Cant Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15262,   1,   33557463) /* Setup */
-     , (15262,   8,  100668115) /* Icon */;
+VALUES (15262,   1, 0x02000BD7) /* Setup */
+     , (15262,   8, 0x060012D3) /* Icon */;

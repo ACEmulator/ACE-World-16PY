@@ -68,14 +68,14 @@ VALUES (24878,   1, 'Umbris Shadow') /* Name */
      , (24878,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24878,   1,   33556251) /* Setup */
-     , (24878,   2,  150995091) /* MotionTable */
-     , (24878,   3,  536870914) /* SoundTable */
-     , (24878,   4,  805306408) /* CombatTable */
-     , (24878,   6,   67108990) /* PaletteBase */
-     , (24878,   7,  268435871) /* ClothingBase */
-     , (24878,   8,  100670398) /* Icon */
-     , (24878,  22,  872415331) /* PhysicsEffectTable */
+VALUES (24878,   1, 0x0200071B) /* Setup */
+     , (24878,   2, 0x09000093) /* MotionTable */
+     , (24878,   3, 0x20000002) /* SoundTable */
+     , (24878,   4, 0x30000028) /* CombatTable */
+     , (24878,   6, 0x0400007E) /* PaletteBase */
+     , (24878,   7, 0x1000019F) /* ClothingBase */
+     , (24878,   8, 0x06001BBE) /* Icon */
+     , (24878,  22, 0x34000063) /* PhysicsEffectTable */
      , (24878,  35,        183) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

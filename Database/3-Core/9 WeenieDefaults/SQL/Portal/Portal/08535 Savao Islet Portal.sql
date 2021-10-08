@@ -27,9 +27,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8535,   1, 'Savao Islet Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8535,   1,   33554867) /* Setup */
-     , (8535,   2,  150994947) /* MotionTable */
-     , (8535,   8,  100667499) /* Icon */;
+VALUES (8535,   1, 0x020001B3) /* Setup */
+     , (8535,   2, 0x09000003) /* MotionTable */
+     , (8535,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8535, 2, 0xE927003E, 177, 125, 0, -0.5, 0, -0, -0.866025) /* Destination */

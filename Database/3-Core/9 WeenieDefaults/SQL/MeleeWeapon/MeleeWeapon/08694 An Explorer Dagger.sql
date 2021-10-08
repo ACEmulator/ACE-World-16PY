@@ -42,14 +42,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8694,   1, 'An Explorer Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8694,   1,   33554735) /* Setup */
-     , (8694,   3,  536870932) /* SoundTable */
-     , (8694,   6,   67111919) /* PaletteBase */
-     , (8694,   7,  268435783) /* ClothingBase */
-     , (8694,   8,  100668875) /* Icon */
-     , (8694,  22,  872415275) /* PhysicsEffectTable */
-     , (8694,  36,  234881044) /* MutateFilter */
-     , (8694,  50,  100675462) /* IconOverlay */;
+VALUES (8694,   1, 0x0200012F) /* Setup */
+     , (8694,   3, 0x20000014) /* SoundTable */
+     , (8694,   6, 0x04000BEF) /* PaletteBase */
+     , (8694,   7, 0x10000147) /* ClothingBase */
+     , (8694,   8, 0x060015CB) /* Icon */
+     , (8694,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8694,  36, 0x0E000014) /* MutateFilter */
+     , (8694,  50, 0x06002F86) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8694,  1613,      2)  /* Aura of Blood Drinker Self III */

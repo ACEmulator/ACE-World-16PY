@@ -42,15 +42,15 @@ VALUES (26530,   1, 'Ixir''s Staff of Eyes') /* Name */
      , (26530,  15, 'A staff with an ever watchful eye once used by the High Matriarch Ixir Zi.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26530,   1,   33558596) /* Setup */
-     , (26530,   3,  536870932) /* SoundTable */
-     , (26530,   6,   67114956) /* PaletteBase */
-     , (26530,   7,  268436792) /* ClothingBase */
-     , (26530,   8,  100675776) /* Icon */
-     , (26530,  22,  872415275) /* PhysicsEffectTable */
-     , (26530,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (26530,   1, 0x02001044) /* Setup */
+     , (26530,   3, 0x20000014) /* SoundTable */
+     , (26530,   6, 0x040017CC) /* PaletteBase */
+     , (26530,   7, 0x10000538) /* ClothingBase */
+     , (26530,   8, 0x060030C0) /* Icon */
+     , (26530,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (26530,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (26530,  28,       3066) /* Spell - Lesser Ward of Rebirth */
-     , (26530,  36,  234881046) /* MutateFilter */;
+     , (26530,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (26530,  1455,      2)  /* Willpower Other V */

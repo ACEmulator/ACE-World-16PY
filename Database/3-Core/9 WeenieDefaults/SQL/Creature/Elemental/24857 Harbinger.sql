@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24857,   1, 'Harbinger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24857,   1,   33557927) /* Setup */
-     , (24857,   2,  150995217) /* MotionTable */
-     , (24857,   3,  536871059) /* SoundTable */
-     , (24857,   4,  805306368) /* CombatTable */
-     , (24857,   6,   67114004) /* PaletteBase */
-     , (24857,   7,  268436461) /* ClothingBase */
-     , (24857,   8,  100673483) /* Icon */
-     , (24857,  22,  872415331) /* PhysicsEffectTable */
+VALUES (24857,   1, 0x02000DA7) /* Setup */
+     , (24857,   2, 0x09000111) /* MotionTable */
+     , (24857,   3, 0x20000093) /* SoundTable */
+     , (24857,   4, 0x30000000) /* CombatTable */
+     , (24857,   6, 0x04001414) /* PaletteBase */
+     , (24857,   7, 0x100003ED) /* ClothingBase */
+     , (24857,   8, 0x060027CB) /* Icon */
+     , (24857,  22, 0x34000063) /* PhysicsEffectTable */
      , (24857,  31,      24863) /* LinkedPortalOne - Surface */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

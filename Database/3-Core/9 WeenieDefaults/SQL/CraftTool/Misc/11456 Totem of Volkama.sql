@@ -36,7 +36,7 @@ VALUES (11456,   1, 'Totem of Volkama') /* Name */
      , (11456,  16, 'A beautifully carved opal totem of Volkama. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11456,   1,   33557277) /* Setup */
-     , (11456,   3,  536870932) /* SoundTable */
-     , (11456,   8,  100671997) /* Icon */
-     , (11456,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11456,   1, 0x02000B1D) /* Setup */
+     , (11456,   3, 0x20000014) /* SoundTable */
+     , (11456,   8, 0x060021FD) /* Icon */
+     , (11456,  22, 0x3400002B) /* PhysicsEffectTable */;

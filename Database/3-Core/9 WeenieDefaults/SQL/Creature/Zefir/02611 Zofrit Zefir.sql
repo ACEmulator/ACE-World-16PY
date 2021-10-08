@@ -62,14 +62,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2611,   1, 'Zofrit Zefir') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2611,   1,   33555610) /* Setup */
-     , (2611,   2,  150995049) /* MotionTable */
-     , (2611,   3,  536870975) /* SoundTable */
-     , (2611,   4,  805306396) /* CombatTable */
-     , (2611,   6,   67109305) /* PaletteBase */
-     , (2611,   7,  268435811) /* ClothingBase */
-     , (2611,   8,  100669123) /* Icon */
-     , (2611,  22,  872415279) /* PhysicsEffectTable */
+VALUES (2611,   1, 0x0200049A) /* Setup */
+     , (2611,   2, 0x09000069) /* MotionTable */
+     , (2611,   3, 0x2000003F) /* SoundTable */
+     , (2611,   4, 0x3000001C) /* CombatTable */
+     , (2611,   6, 0x040001B9) /* PaletteBase */
+     , (2611,   7, 0x10000163) /* ClothingBase */
+     , (2611,   8, 0x060016C3) /* Icon */
+     , (2611,  22, 0x3400002F) /* PhysicsEffectTable */
      , (2611,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

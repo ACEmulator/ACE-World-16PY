@@ -34,10 +34,10 @@ VALUES (8793,   1, 'Great Work Soul Crystal Shard') /* Name */
      , (8793,  33, 'ShardSoulCrystal') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8793,   1,   33556406) /* Setup */
-     , (8793,   3,  536870932) /* SoundTable */
-     , (8793,   6,   67111919) /* PaletteBase */
-     , (8793,   7,  268435994) /* ClothingBase */
-     , (8793,   8,  100671233) /* Icon */
-     , (8793,  22,  872415275) /* PhysicsEffectTable */
-     , (8793,  36,  234881046) /* MutateFilter */;
+VALUES (8793,   1, 0x020007B6) /* Setup */
+     , (8793,   3, 0x20000014) /* SoundTable */
+     , (8793,   6, 0x04000BEF) /* PaletteBase */
+     , (8793,   7, 0x1000021A) /* ClothingBase */
+     , (8793,   8, 0x06001F01) /* Icon */
+     , (8793,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8793,  36, 0x0E000016) /* MutateFilter */;

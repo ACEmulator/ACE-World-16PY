@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4126,   1, 'Accursed Miner') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4126,   1,   33554521) /* Setup */
-     , (4126,   2,  150994981) /* MotionTable */
-     , (4126,   3,  536870942) /* SoundTable */
-     , (4126,   4,  805306368) /* CombatTable */
-     , (4126,   6,   67111266) /* PaletteBase */
-     , (4126,   7,  268435646) /* ClothingBase */
-     , (4126,   8,  100669124) /* Icon */
-     , (4126,  22,  872415269) /* PhysicsEffectTable */
+VALUES (4126,   1, 0x02000059) /* Setup */
+     , (4126,   2, 0x09000025) /* MotionTable */
+     , (4126,   3, 0x2000001E) /* SoundTable */
+     , (4126,   4, 0x30000000) /* CombatTable */
+     , (4126,   6, 0x04000962) /* PaletteBase */
+     , (4126,   7, 0x100000BE) /* ClothingBase */
+     , (4126,   8, 0x060016C4) /* Icon */
+     , (4126,  22, 0x34000025) /* PhysicsEffectTable */
      , (4126,  32,        192) /* WieldedTreasureType - 
                                    Wield 6x Throwing Axe (304) | Probability: 10%
                                    Wield Nayin (334) | Probability: 10%
@@ -96,7 +96,7 @@ VALUES (4126,   1,   33554521) /* Setup */
                                    Wield Buckler (44) | Probability: 20%
                                    Wield Kite Shield (91) | Probability: 10%
                                    Wield Round Shield (93) | Probability: 10% */
-     , (4126,  33,        193) /* UnknownGuessedname */;
+     , (4126,  33, 0x000000C1) /* UnknownGuessedname */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4126,   1,  60, 0, 0) /* Strength */

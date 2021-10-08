@@ -23,7 +23,7 @@ VALUES (1804,   1, 'Bows and Arrows') /* Name */
      , (1804,  16, 'Bows and Arrows') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1804,   1,   33555909) /* Setup */
-     , (1804,   6,   67111860) /* PaletteBase */
-     , (1804,   7,  268435819) /* ClothingBase */
-     , (1804,   8,  100668115) /* Icon */;
+VALUES (1804,   1, 0x020005C5) /* Setup */
+     , (1804,   6, 0x04000BB4) /* PaletteBase */
+     , (1804,   7, 0x1000016B) /* ClothingBase */
+     , (1804,   8, 0x060012D3) /* Icon */;

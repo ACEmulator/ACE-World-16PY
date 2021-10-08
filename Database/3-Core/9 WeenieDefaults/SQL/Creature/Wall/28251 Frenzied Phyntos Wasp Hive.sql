@@ -65,12 +65,12 @@ VALUES (28251,   1, 'Frenzied Phyntos Wasp Hive') /* Name */
      , (28251,  15, 'A hollowed out tree trunk that has a Phyntos Wasp Hive in it.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28251,   1,   33558821) /* Setup */
-     , (28251,   2,  150995305) /* MotionTable */
-     , (28251,   3,  536870993) /* SoundTable */
-     , (28251,   4,  805306372) /* CombatTable */
-     , (28251,   8,  100676680) /* Icon */
-     , (28251,  22,  872415339) /* PhysicsEffectTable */;
+VALUES (28251,   1, 0x02001125) /* Setup */
+     , (28251,   2, 0x09000169) /* MotionTable */
+     , (28251,   3, 0x20000051) /* SoundTable */
+     , (28251,   4, 0x30000004) /* CombatTable */
+     , (28251,   8, 0x06003448) /* Icon */
+     , (28251,  22, 0x3400006B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28251,   1,   1, 0, 0) /* Strength */

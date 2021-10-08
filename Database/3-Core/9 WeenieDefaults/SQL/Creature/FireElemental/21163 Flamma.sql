@@ -63,12 +63,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21163,   1, 'Flamma') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21163,   1,   33556131) /* Setup */
-     , (21163,   2,  150995087) /* MotionTable */
-     , (21163,   3,  536870998) /* SoundTable */
-     , (21163,   4,  805306368) /* CombatTable */
-     , (21163,   8,  100670274) /* Icon */
-     , (21163,  22,  872415344) /* PhysicsEffectTable */
+VALUES (21163,   1, 0x020006A3) /* Setup */
+     , (21163,   2, 0x0900008F) /* MotionTable */
+     , (21163,   3, 0x20000056) /* SoundTable */
+     , (21163,   4, 0x30000000) /* CombatTable */
+     , (21163,   8, 0x06001B42) /* Icon */
+     , (21163,  22, 0x34000070) /* PhysicsEffectTable */
      , (21163,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

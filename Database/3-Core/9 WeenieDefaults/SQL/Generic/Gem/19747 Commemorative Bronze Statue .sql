@@ -29,10 +29,10 @@ VALUES (19747,   1, 'Commemorative Bronze Statue ') /* Name */
      , (19747,  16, 'A large commemorative statue of a Sclavus crafted by the Arcanum Tinker, in reward for destroying the statues threatening the cities of Kryst.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19747,   1,   33555608) /* Setup */
-     , (19747,   2,  150995209) /* MotionTable */
-     , (19747,   6,   67111936) /* PaletteBase */
-     , (19747,   7,  268436369) /* ClothingBase */
-     , (19747,   8,  100669120) /* Icon */
-     , (19747,  22,  872415349) /* PhysicsEffectTable */
-     , (19747,  36,  234881046) /* MutateFilter */;
+VALUES (19747,   1, 0x02000498) /* Setup */
+     , (19747,   2, 0x09000109) /* MotionTable */
+     , (19747,   6, 0x04000C00) /* PaletteBase */
+     , (19747,   7, 0x10000391) /* ClothingBase */
+     , (19747,   8, 0x060016C0) /* Icon */
+     , (19747,  22, 0x34000075) /* PhysicsEffectTable */
+     , (19747,  36, 0x0E000016) /* MutateFilter */;

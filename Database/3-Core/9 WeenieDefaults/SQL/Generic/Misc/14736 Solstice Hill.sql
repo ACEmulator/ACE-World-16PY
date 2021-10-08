@@ -22,5 +22,5 @@ VALUES (14736,   1, 'Solstice Hill') /* Name */
      , (14736,  16, 'Welcome to Solstice Hill') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14736,   1,   33557463) /* Setup */
-     , (14736,   8,  100668115) /* Icon */;
+VALUES (14736,   1, 0x02000BD7) /* Setup */
+     , (14736,   8, 0x060012D3) /* Icon */;

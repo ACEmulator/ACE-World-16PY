@@ -24,7 +24,7 @@ VALUES (20413,   1, 'Scroll of Inferno Bait') /* Name */
      , (20413,  15, 'When learned, this spell decreases a shield or piece of armor''s resistance to fire damage by 170%.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20413,   1,   33554826) /* Setup */
-     , (20413,   8,  100676666) /* Icon */
-     , (20413,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20413,   1, 0x0200018A) /* Setup */
+     , (20413,   8, 0x0600343A) /* Icon */
+     , (20413,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20413,  28,       2103) /* Spell - Inferno Bait */;

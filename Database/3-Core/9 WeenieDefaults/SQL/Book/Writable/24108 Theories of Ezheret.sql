@@ -23,10 +23,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24108,   1, 'Theories of Ezheret') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24108,   1,   33556929) /* Setup */
-     , (24108,   3,  536870932) /* SoundTable */
-     , (24108,   8,  100671237) /* Icon */
-     , (24108,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24108,   1, 0x020009C1) /* Setup */
+     , (24108,   3, 0x20000014) /* SoundTable */
+     , (24108,   8, 0x06001F05) /* Icon */
+     , (24108,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (24108, 8, 1000);

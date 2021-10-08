@@ -64,11 +64,11 @@ VALUES (12721,   1, 'Training Master') /* Name */
      , (12721,   5, 'Soldier') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12721,   1,   33554433) /* Setup */
-     , (12721,   2,  150994945) /* MotionTable */
-     , (12721,   3,  536870913) /* SoundTable */
-     , (12721,   4,  805306368) /* CombatTable */
-     , (12721,   8,  100667446) /* Icon */;
+VALUES (12721,   1, 0x02000001) /* Setup */
+     , (12721,   2, 0x09000001) /* MotionTable */
+     , (12721,   3, 0x20000001) /* SoundTable */
+     , (12721,   4, 0x30000000) /* CombatTable */
+     , (12721,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12721,   1, 145, 0, 0) /* Strength */

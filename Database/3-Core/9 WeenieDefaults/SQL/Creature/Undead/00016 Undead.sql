@@ -63,12 +63,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (16,   1, 'Undead') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (16,   1,   33554839) /* Setup */
-     , (16,   2,  150994967) /* MotionTable */
-     , (16,   3,  536870934) /* SoundTable */
-     , (16,   4,  805306368) /* CombatTable */
-     , (16,   8,  100667942) /* Icon */
-     , (16,  22,  872415272) /* PhysicsEffectTable */
+VALUES (16,   1, 0x02000197) /* Setup */
+     , (16,   2, 0x09000017) /* MotionTable */
+     , (16,   3, 0x20000016) /* SoundTable */
+     , (16,   4, 0x30000000) /* CombatTable */
+     , (16,   8, 0x06001226) /* Icon */
+     , (16,  22, 0x34000028) /* PhysicsEffectTable */
      , (16,  32,        251) /* WieldedTreasureType - 
                                    Wield Budiaq (308) | Probability: 5%
                                    Wield Club (309) | Probability: 5%

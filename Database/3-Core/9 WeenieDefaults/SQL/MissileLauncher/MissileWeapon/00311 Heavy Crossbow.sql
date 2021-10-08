@@ -39,11 +39,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (311,   1, 'Heavy Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (311,   1,   33554732) /* Setup */
-     , (311,   3,  536870932) /* SoundTable */
-     , (311,   6,   67111919) /* PaletteBase */
-     , (311,   7,  268435762) /* ClothingBase */
-     , (311,   8,  100668835) /* Icon */
-     , (311,  22,  872415275) /* PhysicsEffectTable */
-     , (311,  36,  234881053) /* MutateFilter */
-     , (311,  46,  939524105) /* TsysMutationFilter */;
+VALUES (311,   1, 0x0200012C) /* Setup */
+     , (311,   3, 0x20000014) /* SoundTable */
+     , (311,   6, 0x04000BEF) /* PaletteBase */
+     , (311,   7, 0x10000132) /* ClothingBase */
+     , (311,   8, 0x060015A3) /* Icon */
+     , (311,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (311,  36, 0x0E00001D) /* MutateFilter */
+     , (311,  46, 0x38000009) /* TsysMutationFilter */;

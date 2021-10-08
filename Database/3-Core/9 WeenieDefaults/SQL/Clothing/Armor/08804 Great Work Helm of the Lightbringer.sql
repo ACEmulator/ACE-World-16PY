@@ -43,9 +43,9 @@ VALUES (8804,   1, 'Great Work Helm of the Lightbringer') /* Name */
      , (8804,  15, 'A trophy from the banishment of Bael''Zharon.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8804,   1,   33556941) /* Setup */
-     , (8804,   3,  536870932) /* SoundTable */
-     , (8804,   6,   67108990) /* PaletteBase */
-     , (8804,   7,  268436105) /* ClothingBase */
-     , (8804,   8,  100671290) /* Icon */
-     , (8804,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8804,   1, 0x020009CD) /* Setup */
+     , (8804,   3, 0x20000014) /* SoundTable */
+     , (8804,   6, 0x0400007E) /* PaletteBase */
+     , (8804,   7, 0x10000289) /* ClothingBase */
+     , (8804,   8, 0x06001F3A) /* Icon */
+     , (8804,  22, 0x3400002B) /* PhysicsEffectTable */;

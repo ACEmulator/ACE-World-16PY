@@ -68,13 +68,13 @@ VALUES (26457,   1, 'Ulgrim the Unappreciated') /* Name */
      , (26457,   5, 'Mini-Ulgrim') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26457,   1,   33554433) /* Setup */
-     , (26457,   2,  150994945) /* MotionTable */
-     , (26457,   3,  536871084) /* SoundTable */
-     , (26457,   4,  805306368) /* CombatTable */
-     , (26457,   6,   67108990) /* PaletteBase */
-     , (26457,   7,  268435545) /* ClothingBase */
-     , (26457,   8,  100667446) /* Icon */
+VALUES (26457,   1, 0x02000001) /* Setup */
+     , (26457,   2, 0x09000001) /* MotionTable */
+     , (26457,   3, 0x200000AC) /* SoundTable */
+     , (26457,   4, 0x30000000) /* CombatTable */
+     , (26457,   6, 0x0400007E) /* PaletteBase */
+     , (26457,   7, 0x10000059) /* ClothingBase */
+     , (26457,   8, 0x06001036) /* Icon */
      , (26457,  31,      23889) /* LinkedPortalOne - Tower of the Madman */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

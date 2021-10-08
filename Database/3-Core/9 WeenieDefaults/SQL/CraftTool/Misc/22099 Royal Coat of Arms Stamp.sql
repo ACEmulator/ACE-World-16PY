@@ -33,11 +33,11 @@ VALUES (22099,   1, 'Royal Coat of Arms Stamp') /* Name */
      , (22099,  15, 'A stamp with the Royal Coat of Arms.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22099,   1,   33556922) /* Setup */
-     , (22099,   3,  536870932) /* SoundTable */
-     , (22099,   6,   67111092) /* PaletteBase */
-     , (22099,   7,  268436417) /* ClothingBase */
-     , (22099,   8,  100673243) /* Icon */
-     , (22099,  22,  872415275) /* PhysicsEffectTable */
-     , (22099,  50,  100673650) /* IconOverlay */
-     , (22099,  51,  100673082) /* IconOverlaySecondary */;
+VALUES (22099,   1, 0x020009BA) /* Setup */
+     , (22099,   3, 0x20000014) /* SoundTable */
+     , (22099,   6, 0x040008B4) /* PaletteBase */
+     , (22099,   7, 0x100003C1) /* ClothingBase */
+     , (22099,   8, 0x060026DB) /* Icon */
+     , (22099,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (22099,  50, 0x06002872) /* IconOverlay */
+     , (22099,  51, 0x0600263A) /* IconOverlaySecondary */;

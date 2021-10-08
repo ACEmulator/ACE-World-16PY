@@ -53,12 +53,12 @@ VALUES (27339,   1, 'Tanae''s Panaq of the Forests') /* Name */
      , (27339,  16, 'A panaq fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27339,   1,   33558662) /* Setup */
-     , (27339,   3,  536870932) /* SoundTable */
-     , (27339,   6,   67113336) /* PaletteBase */
-     , (27339,   7,  268436251) /* ClothingBase */
-     , (27339,   8,  100676377) /* Icon */
-     , (27339,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27339,   1, 0x02001086) /* Setup */
+     , (27339,   3, 0x20000014) /* SoundTable */
+     , (27339,   6, 0x04001178) /* PaletteBase */
+     , (27339,   7, 0x1000031B) /* ClothingBase */
+     , (27339,   8, 0x06003319) /* Icon */
+     , (27339,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27339,  2446,      2)  /* Greater Growth */

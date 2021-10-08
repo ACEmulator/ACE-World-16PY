@@ -34,11 +34,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4913,   1, 'Wedding band') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4913,   1,   33554690) /* Setup */
-     , (4913,   3,  536870932) /* SoundTable */
-     , (4913,   6,   67111919) /* PaletteBase */
-     , (4913,   7,  268435754) /* ClothingBase */
-     , (4913,   8,  100668562) /* Icon */
-     , (4913,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4913,   1, 0x02000102) /* Setup */
+     , (4913,   3, 0x20000014) /* SoundTable */
+     , (4913,   6, 0x04000BEF) /* PaletteBase */
+     , (4913,   7, 0x1000012A) /* ClothingBase */
+     , (4913,   8, 0x06001492) /* Icon */
+     , (4913,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4913,  28,       1708) /* Spell - Wedding Bliss */
-     , (4913,  36,  234881046) /* MutateFilter */;
+     , (4913,  36, 0x0E000016) /* MutateFilter */;

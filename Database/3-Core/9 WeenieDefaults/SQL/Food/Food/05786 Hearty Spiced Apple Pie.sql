@@ -30,7 +30,7 @@ VALUES (5786,   1, 'Hearty Spiced Apple Pie') /* Name */
      , (5786,  20, 'Hearty Spiced Apple Pies') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5786,   1,   33555978) /* Setup */
-     , (5786,   3,  536870932) /* SoundTable */
-     , (5786,   8,  100670286) /* Icon */
-     , (5786,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5786,   1, 0x0200060A) /* Setup */
+     , (5786,   3, 0x20000014) /* SoundTable */
+     , (5786,   8, 0x06001B4E) /* Icon */
+     , (5786,  22, 0x3400002B) /* PhysicsEffectTable */;

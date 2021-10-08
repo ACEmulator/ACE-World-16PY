@@ -24,7 +24,7 @@ VALUES (29026,   1, 'Scroll of The Golden Wind') /* Name */
      , (29026,  15, 'A scroll imbued with the power of the spell The Golden Wind.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29026,   1,   33554826) /* Setup */
-     , (29026,   8,  100676940) /* Icon */
-     , (29026,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29026,   1, 0x0200018A) /* Setup */
+     , (29026,   8, 0x0600354C) /* Icon */
+     , (29026,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29026,  28,       3479) /* Spell - The Golden Wind */;

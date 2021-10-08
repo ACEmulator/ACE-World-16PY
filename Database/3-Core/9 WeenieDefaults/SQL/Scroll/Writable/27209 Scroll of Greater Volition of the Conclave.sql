@@ -24,7 +24,7 @@ VALUES (27209,   1, 'Scroll of Greater Volition of the Conclave') /* Name */
      , (27209,  15, 'A magic scroll.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27209,   1,   33554826) /* Setup */
-     , (27209,   8,  100676471) /* Icon */
-     , (27209,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27209,   1, 0x0200018A) /* Setup */
+     , (27209,   8, 0x06003377) /* Icon */
+     , (27209,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27209,  28,       3173) /* Spell - Greater Volition of the Conclave */;

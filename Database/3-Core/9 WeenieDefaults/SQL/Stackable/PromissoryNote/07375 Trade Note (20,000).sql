@@ -26,7 +26,7 @@ VALUES (7375,   1, 'Trade Note (20,000)') /* Name */
      , (7375,  20, 'Trade Notes (20,000)') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7375,   1,   33554773) /* Setup */
-     , (7375,   3,  536870932) /* SoundTable */
-     , (7375,   8,  100672440) /* Icon */
-     , (7375,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7375,   1, 0x02000155) /* Setup */
+     , (7375,   3, 0x20000014) /* SoundTable */
+     , (7375,   8, 0x060023B8) /* Icon */
+     , (7375,  22, 0x3400002B) /* PhysicsEffectTable */;

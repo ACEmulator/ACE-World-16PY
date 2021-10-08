@@ -39,9 +39,9 @@ VALUES (8868,   1, 'Weaver''s Leggings') /* Name */
      , (8868,  15, 'A coat woven from the flaxen strands of time. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8868,   1,   33554856) /* Setup */
-     , (8868,   3,  536870932) /* SoundTable */
-     , (8868,   6,   67108990) /* PaletteBase */
-     , (8868,   7,  268435872) /* ClothingBase */
-     , (8868,   8,  100670443) /* Icon */
-     , (8868,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8868,   1, 0x020001A8) /* Setup */
+     , (8868,   3, 0x20000014) /* SoundTable */
+     , (8868,   6, 0x0400007E) /* PaletteBase */
+     , (8868,   7, 0x100001A0) /* ClothingBase */
+     , (8868,   8, 0x06001BEB) /* Icon */
+     , (8868,  22, 0x3400002B) /* PhysicsEffectTable */;

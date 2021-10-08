@@ -29,6 +29,6 @@ VALUES (28913,   1, 'Lightweight Quarrelshaft') /* Name */
      , (28913,  20, 'Lightweight Quarrelshafts') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28913,   1,   33557505) /* Setup */
-     , (28913,   8,  100669990) /* Icon */
-     , (28913,  50,  100677049) /* IconOverlay */;
+VALUES (28913,   1, 0x02000C01) /* Setup */
+     , (28913,   8, 0x06001A26) /* Icon */
+     , (28913,  50, 0x060035B9) /* IconOverlay */;

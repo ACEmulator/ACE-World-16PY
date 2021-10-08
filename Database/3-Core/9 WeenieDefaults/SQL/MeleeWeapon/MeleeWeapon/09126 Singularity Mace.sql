@@ -45,13 +45,13 @@ VALUES (9126,   1, 'Singularity Mace') /* Name */
      , (9126,  16, 'A gift from Martine: Precision and power will be your mark, until the day your life dims dark.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9126,   1,   33556971) /* Setup */
-     , (9126,   3,  536870932) /* SoundTable */
-     , (9126,   6,   67111919) /* PaletteBase */
-     , (9126,   7,  268436083) /* ClothingBase */
-     , (9126,   8,  100671370) /* Icon */
-     , (9126,  22,  872415275) /* PhysicsEffectTable */
-     , (9126,  36,  234881044) /* MutateFilter */
+VALUES (9126,   1, 0x020009EB) /* Setup */
+     , (9126,   3, 0x20000014) /* SoundTable */
+     , (9126,   6, 0x04000BEF) /* PaletteBase */
+     , (9126,   7, 0x10000273) /* ClothingBase */
+     , (9126,   8, 0x06001F8A) /* Icon */
+     , (9126,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (9126,  36, 0x0E000014) /* MutateFilter */
      , (9126,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

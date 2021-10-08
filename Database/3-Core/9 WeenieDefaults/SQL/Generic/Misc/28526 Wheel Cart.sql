@@ -27,9 +27,9 @@ VALUES (28526,   1, 'Wheel Cart') /* Name */
      , (28526,  16, 'This wheel cart was given to you by Captain K''rank of Linvak Tukal. He wishes you to visit Kreavon, the Lugian collector stationed at Wai Jhou. The wheel cart is meant to lighten Kreavon''s load.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28526,   1,   33556240) /* Setup */
-     , (28526,   3,  536870932) /* SoundTable */
-     , (28526,   6,   67111919) /* PaletteBase */
-     , (28526,   7,  268435832) /* ClothingBase */
-     , (28526,   8,  100676963) /* Icon */
-     , (28526,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28526,   1, 0x02000710) /* Setup */
+     , (28526,   3, 0x20000014) /* SoundTable */
+     , (28526,   6, 0x04000BEF) /* PaletteBase */
+     , (28526,   7, 0x10000178) /* ClothingBase */
+     , (28526,   8, 0x06003563) /* Icon */
+     , (28526,  22, 0x3400002B) /* PhysicsEffectTable */;

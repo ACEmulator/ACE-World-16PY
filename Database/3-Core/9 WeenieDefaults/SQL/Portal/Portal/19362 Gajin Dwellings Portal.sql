@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19362,   1, 'Gajin Dwellings Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19362,   1,   33554867) /* Setup */
-     , (19362,   2,  150994947) /* MotionTable */
-     , (19362,   8,  100667499) /* Icon */;
+VALUES (19362,   1, 0x020001B3) /* Setup */
+     , (19362,   2, 0x09000003) /* MotionTable */
+     , (19362,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (19362, 2, 0x76000161, 83.74, -93.75, 0, 0.39314, 0, 0, -0.919479) /* Destination */

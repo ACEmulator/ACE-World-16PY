@@ -40,9 +40,9 @@ VALUES (8213,   1, 'Gem of Impulse') /* Name */
      , (8213,  16, 'A spherical blue gem, made from the egg of a Knath''taed.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8213,   1,   33556851) /* Setup */
-     , (8213,   3,  536870932) /* SoundTable */
-     , (8213,   8,  100671182) /* Icon */
-     , (8213,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8213,   1, 0x02000973) /* Setup */
+     , (8213,   3, 0x20000014) /* SoundTable */
+     , (8213,   8, 0x06001ECE) /* Icon */
+     , (8213,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8213,  28,       2016) /* Spell - Impulse */
-     , (8213,  36,  234881046) /* MutateFilter */;
+     , (8213,  36, 0x0E000016) /* MutateFilter */;

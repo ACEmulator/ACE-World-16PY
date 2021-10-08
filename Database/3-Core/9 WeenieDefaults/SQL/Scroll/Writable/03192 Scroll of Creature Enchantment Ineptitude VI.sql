@@ -25,7 +25,7 @@ VALUES (3192,   1, 'Scroll of Creature Enchantment Ineptitude VI') /* Name */
      , (3192,  16, 'When learned, this spell decreases the target''s Creature Enchantment skill by 60%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3192,   1,   33554826) /* Setup */
-     , (3192,   8,  100676453) /* Icon */
-     , (3192,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3192,   1, 0x0200018A) /* Setup */
+     , (3192,   8, 0x06003365) /* Icon */
+     , (3192,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3192,  28,        574) /* Spell - Creature Enchantment Ineptitude Other VI */;

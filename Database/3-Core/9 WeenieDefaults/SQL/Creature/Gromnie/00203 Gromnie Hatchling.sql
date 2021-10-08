@@ -60,12 +60,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (203,   1, 'Gromnie Hatchling') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (203,   1,   33554487) /* Setup */
-     , (203,   2,  150994971) /* MotionTable */
-     , (203,   3,  536870921) /* SoundTable */
-     , (203,   4,  805306386) /* CombatTable */
-     , (203,   8,  100667938) /* Icon */
-     , (203,  22,  872415260) /* PhysicsEffectTable */
+VALUES (203,   1, 0x02000037) /* Setup */
+     , (203,   2, 0x0900001B) /* MotionTable */
+     , (203,   3, 0x20000009) /* SoundTable */
+     , (203,   4, 0x30000012) /* CombatTable */
+     , (203,   8, 0x06001222) /* Icon */
+     , (203,  22, 0x3400001C) /* PhysicsEffectTable */
      , (203,  30,         84) /* PhysicsScript - BreatheFlame */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

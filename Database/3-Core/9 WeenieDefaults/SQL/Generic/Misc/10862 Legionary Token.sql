@@ -27,9 +27,9 @@ VALUES (10862,   1, 'Legionary Token') /* Name */
      , (10862,  15, 'A token of your completion of the Legionary Quest.  Please give this back to Behdo in order for him to change your title to Exterminator.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10862,   1,   33554817) /* Setup */
-     , (10862,   3,  536870932) /* SoundTable */
-     , (10862,   6,   67111919) /* PaletteBase */
-     , (10862,   7,  268435832) /* ClothingBase */
-     , (10862,   8,  100672061) /* Icon */
-     , (10862,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (10862,   1, 0x02000181) /* Setup */
+     , (10862,   3, 0x20000014) /* SoundTable */
+     , (10862,   6, 0x04000BEF) /* PaletteBase */
+     , (10862,   7, 0x10000178) /* ClothingBase */
+     , (10862,   8, 0x0600223D) /* Icon */
+     , (10862,  22, 0x3400002B) /* PhysicsEffectTable */;

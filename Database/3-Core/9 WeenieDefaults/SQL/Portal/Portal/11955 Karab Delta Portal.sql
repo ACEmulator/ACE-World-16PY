@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11955,   1, 'Karab Delta Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11955,   1,   33554867) /* Setup */
-     , (11955,   2,  150994947) /* MotionTable */
-     , (11955,   8,  100667499) /* Icon */;
+VALUES (11955,   1, 0x020001B3) /* Setup */
+     , (11955,   2, 0x09000003) /* MotionTable */
+     , (11955,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11955, 2, 0x1EAF0011, 56.2, 13.3, 0.005, 0.963863, 0, 0, -0.266397) /* Destination */

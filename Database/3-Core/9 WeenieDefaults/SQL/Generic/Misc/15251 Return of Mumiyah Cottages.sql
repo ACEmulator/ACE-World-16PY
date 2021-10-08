@@ -22,5 +22,5 @@ VALUES (15251,   1, 'Return of Mumiyah Cottages') /* Name */
      , (15251,  16, 'Welcome to Return of Mumiyah Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15251,   1,   33557463) /* Setup */
-     , (15251,   8,  100668115) /* Icon */;
+VALUES (15251,   1, 0x02000BD7) /* Setup */
+     , (15251,   8, 0x060012D3) /* Icon */;

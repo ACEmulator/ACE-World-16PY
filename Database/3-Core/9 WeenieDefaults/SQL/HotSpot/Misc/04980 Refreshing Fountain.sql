@@ -34,5 +34,5 @@ VALUES (4980,   1, 'Refreshing Fountain') /* Name */
      , (4980,  17, 'You feel tingly as the refreshing waters wash over you, restoring %i points of mana.') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4980,   1,   33554711) /* Setup */
-     , (4980,   8,  100667465) /* Icon */;
+VALUES (4980,   1, 0x02000117) /* Setup */
+     , (4980,   8, 0x06001049) /* Icon */;

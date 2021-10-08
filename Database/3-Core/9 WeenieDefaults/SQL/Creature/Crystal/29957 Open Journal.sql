@@ -63,12 +63,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29957,   1, 'Open Journal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29957,   1,   33554772) /* Setup */
-     , (29957,   2,  150995147) /* MotionTable */
-     , (29957,   3,  536870932) /* SoundTable */
-     , (29957,   4,  805306407) /* CombatTable */
-     , (29957,   8,  100668117) /* Icon */
-     , (29957,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29957,   1, 0x02000154) /* Setup */
+     , (29957,   2, 0x090000CB) /* MotionTable */
+     , (29957,   3, 0x20000014) /* SoundTable */
+     , (29957,   4, 0x30000027) /* CombatTable */
+     , (29957,   8, 0x060012D5) /* Icon */
+     , (29957,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29957,   1, 100, 0, 0) /* Strength */

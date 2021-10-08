@@ -27,7 +27,7 @@ VALUES (27684,   1, 'Carved Bone Key') /* Name */
      , (27684,  33, 'RenegadeLockpicks') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27684,   1,   33554784) /* Setup */
-     , (27684,   3,  536870932) /* SoundTable */
-     , (27684,   8,  100674912) /* Icon */
-     , (27684,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27684,   1, 0x02000160) /* Setup */
+     , (27684,   3, 0x20000014) /* SoundTable */
+     , (27684,   8, 0x06002D60) /* Icon */
+     , (27684,  22, 0x3400002B) /* PhysicsEffectTable */;

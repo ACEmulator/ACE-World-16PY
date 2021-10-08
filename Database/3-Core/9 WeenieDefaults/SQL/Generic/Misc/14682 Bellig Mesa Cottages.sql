@@ -22,5 +22,5 @@ VALUES (14682,   1, 'Bellig Mesa Cottages') /* Name */
      , (14682,  16, 'Welcome to Bellig Mesa Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14682,   1,   33557463) /* Setup */
-     , (14682,   8,  100668115) /* Icon */;
+VALUES (14682,   1, 0x02000BD7) /* Setup */
+     , (14682,   8, 0x060012D3) /* Icon */;

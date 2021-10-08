@@ -65,12 +65,12 @@ VALUES (27476,   1, 'A Cluttered Table') /* Name */
      , (27476,  16, 'Orders and other papers are scattered about this table, including a thick folder with what appear to be blueprints.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27476,   1,   33558691) /* Setup */
-     , (27476,   2,  150995291) /* MotionTable */
-     , (27476,   3,  536871052) /* SoundTable */
-     , (27476,   4,  805306398) /* CombatTable */
-     , (27476,   8,  100676427) /* Icon */
-     , (27476,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (27476,   1, 0x020010A3) /* Setup */
+     , (27476,   2, 0x0900015B) /* MotionTable */
+     , (27476,   3, 0x2000008C) /* SoundTable */
+     , (27476,   4, 0x3000001E) /* CombatTable */
+     , (27476,   8, 0x0600334B) /* Icon */
+     , (27476,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27476,   1, 380, 0, 0) /* Strength */

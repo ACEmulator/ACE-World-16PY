@@ -22,5 +22,5 @@ VALUES (4431,   1, 'Rithwic Outpost') /* Name */
      , (4431,  16, 'This way to Rithwic!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4431,   1,   33555984) /* Setup */
-     , (4431,   8,  100668115) /* Icon */;
+VALUES (4431,   1, 0x02000610) /* Setup */
+     , (4431,   8, 0x060012D3) /* Icon */;

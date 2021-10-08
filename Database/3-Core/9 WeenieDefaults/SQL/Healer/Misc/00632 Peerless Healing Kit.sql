@@ -27,5 +27,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (632,   1, 'Peerless Healing Kit') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (632,   1,   33555194) /* Setup */
-     , (632,   8,  100676339) /* Icon */;
+VALUES (632,   1, 0x020002FA) /* Setup */
+     , (632,   8, 0x060032F3) /* Icon */;

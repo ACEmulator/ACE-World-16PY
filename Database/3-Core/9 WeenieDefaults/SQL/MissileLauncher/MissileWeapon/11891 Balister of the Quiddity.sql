@@ -45,10 +45,10 @@ VALUES (11891,   1, 'Balister of the Quiddity') /* Name */
      , (11891,  16, 'A weapon made of a strange pulsating energy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11891,   1,   33557112) /* Setup */
-     , (11891,   3,  536870932) /* SoundTable */
-     , (11891,   8,  100671701) /* Icon */
-     , (11891,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11891,   1, 0x02000A78) /* Setup */
+     , (11891,   3, 0x20000014) /* SoundTable */
+     , (11891,   8, 0x060020D5) /* Icon */
+     , (11891,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11891,  37,          3) /* ItemSkillLimit - Crossbow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

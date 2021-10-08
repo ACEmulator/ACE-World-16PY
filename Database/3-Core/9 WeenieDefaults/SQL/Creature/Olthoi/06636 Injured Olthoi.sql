@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6636,   1, 'Injured Olthoi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6636,   1,   33557419) /* Setup */
-     , (6636,   2,  150994946) /* MotionTable */
-     , (6636,   3,  536870925) /* SoundTable */
-     , (6636,   4,  805306369) /* CombatTable */
-     , (6636,   6,   67113236) /* PaletteBase */
-     , (6636,   7,  268436196) /* ClothingBase */
-     , (6636,   8,  100667623) /* Icon */
-     , (6636,  22,  872415265) /* PhysicsEffectTable */
+VALUES (6636,   1, 0x02000BAB) /* Setup */
+     , (6636,   2, 0x09000002) /* MotionTable */
+     , (6636,   3, 0x2000000D) /* SoundTable */
+     , (6636,   4, 0x30000001) /* CombatTable */
+     , (6636,   6, 0x04001114) /* PaletteBase */
+     , (6636,   7, 0x100002E4) /* ClothingBase */
+     , (6636,   8, 0x060010E7) /* Icon */
+     , (6636,  22, 0x34000021) /* PhysicsEffectTable */
      , (6636,  35,        144) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

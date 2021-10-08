@@ -40,9 +40,9 @@ VALUES (12206,   1, 'Doll Mask') /* Name */
      , (12206,  16, 'A strange looking doll mask.  From the inside, the mask is completely transparent...') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12206,   1,   33557364) /* Setup */
-     , (12206,   3,  536870932) /* SoundTable */
-     , (12206,   6,   67108990) /* PaletteBase */
-     , (12206,   7,  268436264) /* ClothingBase */
-     , (12206,   8,  100671025) /* Icon */
-     , (12206,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12206,   1, 0x02000B74) /* Setup */
+     , (12206,   3, 0x20000014) /* SoundTable */
+     , (12206,   6, 0x0400007E) /* PaletteBase */
+     , (12206,   7, 0x10000328) /* ClothingBase */
+     , (12206,   8, 0x06001E31) /* Icon */
+     , (12206,  22, 0x3400002B) /* PhysicsEffectTable */;

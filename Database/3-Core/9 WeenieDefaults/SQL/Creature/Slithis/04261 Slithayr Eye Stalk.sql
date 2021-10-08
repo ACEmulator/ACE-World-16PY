@@ -71,14 +71,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4261,   1, 'Slithayr Eye Stalk') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4261,   1,   33555670) /* Setup */
-     , (4261,   2,  150995067) /* MotionTable */
-     , (4261,   3,  536871015) /* SoundTable */
-     , (4261,   4,  805306404) /* CombatTable */
-     , (4261,   6,   67112864) /* PaletteBase */
-     , (4261,   7,  268436087) /* ClothingBase */
-     , (4261,   8,  100671186) /* Icon */
-     , (4261,  22,  872415332) /* PhysicsEffectTable */
+VALUES (4261,   1, 0x020004D6) /* Setup */
+     , (4261,   2, 0x0900007B) /* MotionTable */
+     , (4261,   3, 0x20000067) /* SoundTable */
+     , (4261,   4, 0x30000024) /* CombatTable */
+     , (4261,   6, 0x04000FA0) /* PaletteBase */
+     , (4261,   7, 0x10000277) /* ClothingBase */
+     , (4261,   8, 0x06001ED2) /* Icon */
+     , (4261,  22, 0x34000064) /* PhysicsEffectTable */
      , (4261,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

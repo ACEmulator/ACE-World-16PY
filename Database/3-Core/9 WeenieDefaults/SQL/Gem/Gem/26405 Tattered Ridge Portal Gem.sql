@@ -36,11 +36,11 @@ VALUES (26405,   1, 'Tattered Ridge Portal Gem') /* Name */
      , (26405,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26405,   1,   33556769) /* Setup */
-     , (26405,   3,  536870932) /* SoundTable */
-     , (26405,   6,   67111919) /* PaletteBase */
-     , (26405,   7,  268435723) /* ClothingBase */
-     , (26405,   8,  100675760) /* Icon */
-     , (26405,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26405,   1, 0x02000921) /* Setup */
+     , (26405,   3, 0x20000014) /* SoundTable */
+     , (26405,   6, 0x04000BEF) /* PaletteBase */
+     , (26405,   7, 0x1000010B) /* ClothingBase */
+     , (26405,   8, 0x060030B0) /* Icon */
+     , (26405,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26405,  28,        157) /* Spell - Summon Primary Portal I */
      , (26405,  31,      14287) /* LinkedPortalOne - Tattered Ridge Portal */;

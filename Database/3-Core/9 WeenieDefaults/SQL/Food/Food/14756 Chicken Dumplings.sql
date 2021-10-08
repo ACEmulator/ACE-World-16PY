@@ -28,7 +28,7 @@ VALUES (14756,   1, 'Chicken Dumplings') /* Name */
      , (14756,  15, 'Fried dough with chicken meat in the center.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14756,   1,   33555968) /* Setup */
-     , (14756,   3,  536870932) /* SoundTable */
-     , (14756,   8,  100672547) /* Icon */
-     , (14756,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14756,   1, 0x02000600) /* Setup */
+     , (14756,   3, 0x20000014) /* SoundTable */
+     , (14756,   8, 0x06002423) /* Icon */
+     , (14756,  22, 0x3400002B) /* PhysicsEffectTable */;

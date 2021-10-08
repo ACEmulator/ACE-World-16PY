@@ -30,7 +30,7 @@ VALUES (6819,   1, 'Spire Key Chunk - Tou Tou') /* Name */
      , (6819,  16, 'The middle third of a skeletal key, found in the Tou Tou shadow spire.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6819,   1,   33554784) /* Setup */
-     , (6819,   3,  536870932) /* SoundTable */
-     , (6819,   8,  100670625) /* Icon */
-     , (6819,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6819,   1, 0x02000160) /* Setup */
+     , (6819,   3, 0x20000014) /* SoundTable */
+     , (6819,   8, 0x06001CA1) /* Icon */
+     , (6819,  22, 0x3400002B) /* PhysicsEffectTable */;

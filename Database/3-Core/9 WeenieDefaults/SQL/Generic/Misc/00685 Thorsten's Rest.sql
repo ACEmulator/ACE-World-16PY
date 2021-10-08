@@ -22,7 +22,7 @@ VALUES (685,   1, 'Thorsten''s Rest') /* Name */
      , (685,  16, 'Thorsten''s Rest') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (685,   1,   33555088) /* Setup */
-     , (685,   6,   67111092) /* PaletteBase */
-     , (685,   7,  268435662) /* ClothingBase */
-     , (685,   8,  100668115) /* Icon */;
+VALUES (685,   1, 0x02000290) /* Setup */
+     , (685,   6, 0x040008B4) /* PaletteBase */
+     , (685,   7, 0x100000CE) /* ClothingBase */
+     , (685,   8, 0x060012D3) /* Icon */;

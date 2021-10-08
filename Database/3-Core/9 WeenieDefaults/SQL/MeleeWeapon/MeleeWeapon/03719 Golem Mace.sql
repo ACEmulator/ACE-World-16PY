@@ -36,7 +36,7 @@ VALUES (3719,   1, 'Golem Mace') /* Name */
      , (3719,  16, 'A mace hewn from the heart of an Iron Golem. Some of the animating principle of the golem remains - electricity coruscates along the haft of the weapon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3719,   1,   33555744) /* Setup */
-     , (3719,   3,  536870932) /* SoundTable */
-     , (3719,   8,  100667599) /* Icon */
-     , (3719,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3719,   1, 0x02000520) /* Setup */
+     , (3719,   3, 0x20000014) /* SoundTable */
+     , (3719,   8, 0x060010CF) /* Icon */
+     , (3719,  22, 0x3400002B) /* PhysicsEffectTable */;

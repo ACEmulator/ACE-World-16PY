@@ -52,12 +52,12 @@ VALUES (27357,   1, 'Tanae''s Ukira of the Forests') /* Name */
      , (27357,  16, 'An ukira fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27357,   1,   33558666) /* Setup */
-     , (27357,   3,  536870932) /* SoundTable */
-     , (27357,   6,   67113336) /* PaletteBase */
-     , (27357,   7,  268436251) /* ClothingBase */
-     , (27357,   8,  100676354) /* Icon */
-     , (27357,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27357,   1, 0x0200108A) /* Setup */
+     , (27357,   3, 0x20000014) /* SoundTable */
+     , (27357,   6, 0x04001178) /* PaletteBase */
+     , (27357,   7, 0x1000031B) /* ClothingBase */
+     , (27357,   8, 0x06003302) /* Icon */
+     , (27357,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27357,  2446,      2)  /* Greater Growth */

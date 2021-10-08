@@ -35,9 +35,9 @@ VALUES (28343,   1, 'Sharp Bloodstone Fragment') /* Name */
      , (28343,  15, 'A sharp fragment of a Bloodstone Jewel.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28343,   1,   33555194) /* Setup */
-     , (28343,   3,  536870932) /* SoundTable */
-     , (28343,   6,   67111092) /* PaletteBase */
-     , (28343,   7,  268436400) /* ClothingBase */
-     , (28343,   8,  100676984) /* Icon */
-     , (28343,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28343,   1, 0x020002FA) /* Setup */
+     , (28343,   3, 0x20000014) /* SoundTable */
+     , (28343,   6, 0x040008B4) /* PaletteBase */
+     , (28343,   7, 0x100003B0) /* ClothingBase */
+     , (28343,   8, 0x06003578) /* Icon */
+     , (28343,  22, 0x3400002B) /* PhysicsEffectTable */;

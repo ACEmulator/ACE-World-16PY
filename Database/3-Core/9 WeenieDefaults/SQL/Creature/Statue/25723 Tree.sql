@@ -64,12 +64,12 @@ VALUES (25723,   1, 'Tree') /* Name */
      , (25723,  15, 'A tree, looking much like all the others.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25723,   1,   33558278) /* Setup */
-     , (25723,   2,  150995147) /* MotionTable */
-     , (25723,   3,  536871052) /* SoundTable */
-     , (25723,   4,  805306398) /* CombatTable */
-     , (25723,   8,  100667499) /* Icon */
-     , (25723,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (25723,   1, 0x02000F06) /* Setup */
+     , (25723,   2, 0x090000CB) /* MotionTable */
+     , (25723,   3, 0x2000008C) /* SoundTable */
+     , (25723,   4, 0x3000001E) /* CombatTable */
+     , (25723,   8, 0x0600106B) /* Icon */
+     , (25723,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25723,   1, 380, 0, 0) /* Strength */

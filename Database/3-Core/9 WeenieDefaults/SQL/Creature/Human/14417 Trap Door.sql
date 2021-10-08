@@ -63,11 +63,11 @@ VALUES (14417,   1, 'Trap Door') /* Name */
      , (14417,   5, 'Trap Door') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14417,   1,   33555231) /* Setup */
-     , (14417,   2,  150995055) /* MotionTable */
-     , (14417,   3,  536870981) /* SoundTable */
-     , (14417,   4,  805306368) /* CombatTable */
-     , (14417,   8,  100667624) /* Icon */;
+VALUES (14417,   1, 0x0200031F) /* Setup */
+     , (14417,   2, 0x0900006F) /* MotionTable */
+     , (14417,   3, 0x20000045) /* SoundTable */
+     , (14417,   4, 0x30000000) /* CombatTable */
+     , (14417,   8, 0x060010E8) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (14417,   1,  80, 0, 0) /* Strength */

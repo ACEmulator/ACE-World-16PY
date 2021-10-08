@@ -26,9 +26,9 @@ VALUES (19203,   1, 'Nullified Statue of a Shadow') /* Name */
      , (19203,  15, 'This nullified shell is all that remains of the living Statue of a Shadow that once threatened our peaceful town. Destroyed through the sole efforts of the citizens of Dereth, it remains as a testament to their valor. This land is yours now.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19203,   1,   33554433) /* Setup */
-     , (19203,   2,  150995169) /* MotionTable */
-     , (19203,   3,  536871052) /* SoundTable */
-     , (19203,   6,   67108990) /* PaletteBase */
-     , (19203,   7,  268435632) /* ClothingBase */
-     , (19203,   8,  100670397) /* Icon */;
+VALUES (19203,   1, 0x02000001) /* Setup */
+     , (19203,   2, 0x090000E1) /* MotionTable */
+     , (19203,   3, 0x2000008C) /* SoundTable */
+     , (19203,   6, 0x0400007E) /* PaletteBase */
+     , (19203,   7, 0x100000B0) /* ClothingBase */
+     , (19203,   8, 0x06001BBD) /* Icon */;

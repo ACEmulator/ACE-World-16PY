@@ -33,9 +33,9 @@ VALUES (26505,   1, 'Gem of Appeasement') /* Name */
      , (26505,  16, 'A simple red gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26505,   1,   33554809) /* Setup */
-     , (26505,   3,  536870932) /* SoundTable */
-     , (26505,   6,   67111919) /* PaletteBase */
-     , (26505,   7,  268435723) /* ClothingBase */
-     , (26505,   8,  100675793) /* Icon */
-     , (26505,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (26505,   1, 0x02000179) /* Setup */
+     , (26505,   3, 0x20000014) /* SoundTable */
+     , (26505,   6, 0x04000BEF) /* PaletteBase */
+     , (26505,   7, 0x1000010B) /* ClothingBase */
+     , (26505,   8, 0x060030D1) /* Icon */
+     , (26505,  22, 0x3400002B) /* PhysicsEffectTable */;

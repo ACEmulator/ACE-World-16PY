@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25847,   1, 'Scourge') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25847,   1,   33554493) /* Setup */
-     , (25847,   2,  150994958) /* MotionTable */
-     , (25847,   3,  536870927) /* SoundTable */
-     , (25847,   4,  805306387) /* CombatTable */
-     , (25847,   6,   67109300) /* PaletteBase */
-     , (25847,   7,  268436730) /* ClothingBase */
-     , (25847,   8,  100667451) /* Icon */
-     , (25847,  22,  872415267) /* PhysicsEffectTable */
+VALUES (25847,   1, 0x0200003D) /* Setup */
+     , (25847,   2, 0x0900000E) /* MotionTable */
+     , (25847,   3, 0x2000000F) /* SoundTable */
+     , (25847,   4, 0x30000013) /* CombatTable */
+     , (25847,   6, 0x040001B4) /* PaletteBase */
+     , (25847,   7, 0x100004FA) /* ClothingBase */
+     , (25847,   8, 0x0600103B) /* Icon */
+     , (25847,  22, 0x34000023) /* PhysicsEffectTable */
      , (25847,  30,         84) /* PhysicsScript - BreatheFlame */
      , (25847,  35,         32) /* DeathTreasureType - Loot Tier: 6 */;
 

@@ -23,7 +23,7 @@ VALUES (22629,   1, 'Tusker Title Token') /* Name */
      , (22629,  15, 'Handing in this token to the Leader of the Resistance will give you the title of Resistance Fighter.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22629,   1,   33558119) /* Setup */
-     , (22629,   3,  536870932) /* SoundTable */
-     , (22629,   8,  100673828) /* Icon */
-     , (22629,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22629,   1, 0x02000E67) /* Setup */
+     , (22629,   3, 0x20000014) /* SoundTable */
+     , (22629,   8, 0x06002924) /* Icon */
+     , (22629,  22, 0x3400002B) /* PhysicsEffectTable */;

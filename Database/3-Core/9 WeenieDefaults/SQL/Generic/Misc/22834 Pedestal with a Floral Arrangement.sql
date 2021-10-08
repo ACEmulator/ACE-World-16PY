@@ -24,5 +24,5 @@ VALUES (22834,   1, 'Pedestal with a Floral Arrangement') /* Name */
      , (22834,  15, 'An ornamental pedestal adorned with a crystal vase with a trio of snowflowers. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22834,   1,   33558162) /* Setup */
-     , (22834,   8,  100673923) /* Icon */;
+VALUES (22834,   1, 0x02000E92) /* Setup */
+     , (22834,   8, 0x06002983) /* Icon */;

@@ -70,11 +70,11 @@ VALUES (695,   1, 'Cateril Carsmad the Armorer') /* Name */
      , (695,  24, 'Arwic') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (695,   1,   33554510) /* Setup */
-     , (695,   2,  150994945) /* MotionTable */
-     , (695,   3,  536870914) /* SoundTable */
-     , (695,   4,  805306368) /* CombatTable */
-     , (695,   8,  100667446) /* Icon */;
+VALUES (695,   1, 0x0200004E) /* Setup */
+     , (695,   2, 0x09000001) /* MotionTable */
+     , (695,   3, 0x20000002) /* SoundTable */
+     , (695,   4, 0x30000000) /* CombatTable */
+     , (695,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (695,   1, 105, 0, 0) /* Strength */

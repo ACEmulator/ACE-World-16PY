@@ -22,7 +22,7 @@ VALUES (2284,   1, 'Femsen House') /* Name */
      , (2284,  16, 'Fensen House') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2284,   1,   33555594) /* Setup */
-     , (2284,   6,   67111782) /* PaletteBase */
-     , (2284,   7,  268435689) /* ClothingBase */
-     , (2284,   8,  100668115) /* Icon */;
+VALUES (2284,   1, 0x0200048A) /* Setup */
+     , (2284,   6, 0x04000B66) /* PaletteBase */
+     , (2284,   7, 0x100000E9) /* ClothingBase */
+     , (2284,   8, 0x060012D3) /* Icon */;

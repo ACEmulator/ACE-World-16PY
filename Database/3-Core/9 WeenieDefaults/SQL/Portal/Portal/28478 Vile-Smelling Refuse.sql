@@ -28,8 +28,8 @@ VALUES (28478,   1, 'Vile-Smelling Refuse') /* Name */
      , (28478,  37, 'EnterBurunCatacombs') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28478,   1,   33558852) /* Setup */
-     , (28478,   8,  100667499) /* Icon */;
+VALUES (28478,   1, 0x02001144) /* Setup */
+     , (28478,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28478, 2, 0x0279037B, 110, 0, 0.005, -0.707107, 0, -0, -0.707107) /* Destination */

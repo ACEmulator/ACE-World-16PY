@@ -30,10 +30,10 @@ VALUES (15269,   1, 'Foci of Artifice') /* Name */
      , (15269,  15, 'A foci used to cast spells from the School of the Right Hand.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15269,   1,   33554769) /* Setup */
-     , (15269,   3,  536870932) /* SoundTable */
-     , (15269,   6,   67111919) /* PaletteBase */
-     , (15269,   7,  268435867) /* ClothingBase */
-     , (15269,   8,  100671383) /* Icon */
-     , (15269,  22,  872415275) /* PhysicsEffectTable */
-     , (15269,  50,  100671383) /* IconOverlay */;
+VALUES (15269,   1, 0x02000151) /* Setup */
+     , (15269,   3, 0x20000014) /* SoundTable */
+     , (15269,   6, 0x04000BEF) /* PaletteBase */
+     , (15269,   7, 0x1000019B) /* ClothingBase */
+     , (15269,   8, 0x06001F97) /* Icon */
+     , (15269,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (15269,  50, 0x06001F97) /* IconOverlay */;

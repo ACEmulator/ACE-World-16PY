@@ -63,14 +63,14 @@ VALUES (27408,   1, 'Core of the Acid Cistern') /* Name */
      , (27408,  15, 'A column of prismatic crystal.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27408,   1,   33558690) /* Setup */
-     , (27408,   2,  150995290) /* MotionTable */
-     , (27408,   3,  536871001) /* SoundTable */
-     , (27408,   4,  805306372) /* CombatTable */
-     , (27408,   6,   67113876) /* PaletteBase */
-     , (27408,   7,  268436443) /* ClothingBase */
-     , (27408,   8,  100676420) /* Icon */
-     , (27408,  22,  872415389) /* PhysicsEffectTable */;
+VALUES (27408,   1, 0x020010A2) /* Setup */
+     , (27408,   2, 0x0900015A) /* MotionTable */
+     , (27408,   3, 0x20000059) /* SoundTable */
+     , (27408,   4, 0x30000004) /* CombatTable */
+     , (27408,   6, 0x04001394) /* PaletteBase */
+     , (27408,   7, 0x100003DB) /* ClothingBase */
+     , (27408,   8, 0x06003344) /* Icon */
+     , (27408,  22, 0x3400009D) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27408,   1,   1, 0, 0) /* Strength */

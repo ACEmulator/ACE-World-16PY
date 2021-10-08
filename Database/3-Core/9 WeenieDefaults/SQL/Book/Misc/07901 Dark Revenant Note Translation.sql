@@ -27,10 +27,10 @@ VALUES (7901,   1, 'Dark Revenant Note Translation') /* Name */
      , (7901,  16, 'The translation of a message carried by a Dark Revenant.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7901,   1,   33554773) /* Setup */
-     , (7901,   3,  536870932) /* SoundTable */
-     , (7901,   8,  100668176) /* Icon */
-     , (7901,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7901,   1, 0x02000155) /* Setup */
+     , (7901,   3, 0x20000014) /* SoundTable */
+     , (7901,   8, 0x06001310) /* Icon */
+     , (7901,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (7901, 9, 1000);

@@ -38,11 +38,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3855,   1, 'Flaming Shamshir') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3855,   1,   33555771) /* Setup */
-     , (3855,   3,  536870932) /* SoundTable */
-     , (3855,   6,   67111919) /* PaletteBase */
-     , (3855,   7,  268435765) /* ClothingBase */
-     , (3855,   8,  100667604) /* Icon */
-     , (3855,  22,  872415275) /* PhysicsEffectTable */
-     , (3855,  36,  234881053) /* MutateFilter */
-     , (3855,  46,  939524101) /* TsysMutationFilter */;
+VALUES (3855,   1, 0x0200053B) /* Setup */
+     , (3855,   3, 0x20000014) /* SoundTable */
+     , (3855,   6, 0x04000BEF) /* PaletteBase */
+     , (3855,   7, 0x10000135) /* ClothingBase */
+     , (3855,   8, 0x060010D4) /* Icon */
+     , (3855,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3855,  36, 0x0E00001D) /* MutateFilter */
+     , (3855,  46, 0x38000005) /* TsysMutationFilter */;

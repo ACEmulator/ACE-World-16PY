@@ -47,11 +47,11 @@ VALUES (12125,   1, 'Palenqual''s Hoeroa') /* Name */
      , (12125,  16, 'A hoeroa fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12125,   1,   33557237) /* Setup */
-     , (12125,   3,  536870932) /* SoundTable */
-     , (12125,   8,  100672035) /* Icon */
-     , (12125,  22,  872415275) /* PhysicsEffectTable */
-     , (12125,  36,  234881044) /* MutateFilter */
+VALUES (12125,   1, 0x02000AF5) /* Setup */
+     , (12125,   3, 0x20000014) /* SoundTable */
+     , (12125,   8, 0x06002223) /* Icon */
+     , (12125,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (12125,  36, 0x0E000014) /* MutateFilter */
      , (12125,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

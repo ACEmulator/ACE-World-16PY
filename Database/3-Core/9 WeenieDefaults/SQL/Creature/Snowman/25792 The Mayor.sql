@@ -64,11 +64,11 @@ VALUES (25792,   1, 'The Mayor') /* Name */
      , (25792,   5, 'Mayor of Frost Haven') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25792,   1,   33556221) /* Setup */
-     , (25792,   2,  150995089) /* MotionTable */
-     , (25792,   3,  536871078) /* SoundTable */
-     , (25792,   4,  805306406) /* CombatTable */
-     , (25792,   8,  100669125) /* Icon */;
+VALUES (25792,   1, 0x020006FD) /* Setup */
+     , (25792,   2, 0x09000091) /* MotionTable */
+     , (25792,   3, 0x200000A6) /* SoundTable */
+     , (25792,   4, 0x30000026) /* CombatTable */
+     , (25792,   8, 0x060016C5) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25792,   1,  25, 0, 0) /* Strength */

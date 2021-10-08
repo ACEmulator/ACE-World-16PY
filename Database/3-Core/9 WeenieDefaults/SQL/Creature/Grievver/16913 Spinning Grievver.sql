@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (16913,   1, 'Spinning Grievver') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (16913,   1,   33556698) /* Setup */
-     , (16913,   2,  150995098) /* MotionTable */
-     , (16913,   3,  536871009) /* SoundTable */
-     , (16913,   4,  805306411) /* CombatTable */
-     , (16913,   6,   67112927) /* PaletteBase */
-     , (16913,   7,  268436038) /* ClothingBase */
-     , (16913,   8,  100670960) /* Icon */
-     , (16913,  22,  872415364) /* PhysicsEffectTable */
+VALUES (16913,   1, 0x020008DA) /* Setup */
+     , (16913,   2, 0x0900009A) /* MotionTable */
+     , (16913,   3, 0x20000061) /* SoundTable */
+     , (16913,   4, 0x3000002B) /* CombatTable */
+     , (16913,   6, 0x04000FDF) /* PaletteBase */
+     , (16913,   7, 0x10000246) /* ClothingBase */
+     , (16913,   8, 0x06001DF0) /* Icon */
+     , (16913,  22, 0x34000084) /* PhysicsEffectTable */
      , (16913,  30,         87) /* PhysicsScript - BreatheLightning */
      , (16913,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 

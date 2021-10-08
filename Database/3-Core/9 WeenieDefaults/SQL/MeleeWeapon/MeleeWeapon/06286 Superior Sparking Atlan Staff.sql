@@ -45,12 +45,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6286,   1, 'Superior Sparking Atlan Staff') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6286,   1,   33556341) /* Setup */
-     , (6286,   3,  536870932) /* SoundTable */
-     , (6286,   6,   67111919) /* PaletteBase */
-     , (6286,   7,  268435920) /* ClothingBase */
-     , (6286,   8,  100670561) /* Icon */
-     , (6286,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6286,   1, 0x02000775) /* Setup */
+     , (6286,   3, 0x20000014) /* SoundTable */
+     , (6286,   6, 0x04000BEF) /* PaletteBase */
+     , (6286,   7, 0x100001D0) /* ClothingBase */
+     , (6286,   8, 0x06001C61) /* Icon */
+     , (6286,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6286,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

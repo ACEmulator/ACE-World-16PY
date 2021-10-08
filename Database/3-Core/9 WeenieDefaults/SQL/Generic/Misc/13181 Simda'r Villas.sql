@@ -22,5 +22,5 @@ VALUES (13181,   1, 'Simda''r Villas') /* Name */
      , (13181,  16, 'Welcome to Simda''r Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13181,   1,   33557463) /* Setup */
-     , (13181,   8,  100668115) /* Icon */;
+VALUES (13181,   1, 0x02000BD7) /* Setup */
+     , (13181,   8, 0x060012D3) /* Icon */;

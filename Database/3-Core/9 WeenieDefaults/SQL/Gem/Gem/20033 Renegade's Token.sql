@@ -25,8 +25,8 @@ VALUES (20033,   1, 'Renegade''s Token') /* Name */
      , (20033,  15, 'This token was found on the remains of a Renegade Virindi and is of some worth to their enemies. Return it to Martine for a reward.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20033,   1,   33557843) /* Setup */
-     , (20033,   3,  536870932) /* SoundTable */
-     , (20033,   8,  100673063) /* Icon */
-     , (20033,  22,  872415275) /* PhysicsEffectTable */
-     , (20033,  36,  234881046) /* MutateFilter */;
+VALUES (20033,   1, 0x02000D53) /* Setup */
+     , (20033,   3, 0x20000014) /* SoundTable */
+     , (20033,   8, 0x06002627) /* Icon */
+     , (20033,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (20033,  36, 0x0E000016) /* MutateFilter */;

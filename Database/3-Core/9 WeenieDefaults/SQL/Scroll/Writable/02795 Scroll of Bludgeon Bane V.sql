@@ -25,7 +25,7 @@ VALUES (2795,   1, 'Scroll of Bludgeon Bane V') /* Name */
      , (2795,  16, 'When learned, this spell Increases a shield or piece of armor''s resistance to Bludgeoning damage by 100%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2795,   1,   33554826) /* Setup */
-     , (2795,   8,  100676650) /* Icon */
-     , (2795,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2795,   1, 0x0200018A) /* Setup */
+     , (2795,   8, 0x0600342A) /* Icon */
+     , (2795,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2795,  28,       1515) /* Spell - Bludgeon Bane V */;

@@ -22,7 +22,7 @@ VALUES (2266,   1, 'Blade''s Heart Forge') /* Name */
      , (2266,  16, 'Blade''s Heart Forge') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2266,   1,   33555088) /* Setup */
-     , (2266,   6,   67111092) /* PaletteBase */
-     , (2266,   7,  268435653) /* ClothingBase */
-     , (2266,   8,  100668115) /* Icon */;
+VALUES (2266,   1, 0x02000290) /* Setup */
+     , (2266,   6, 0x040008B4) /* PaletteBase */
+     , (2266,   7, 0x100000C5) /* ClothingBase */
+     , (2266,   8, 0x060012D3) /* Icon */;

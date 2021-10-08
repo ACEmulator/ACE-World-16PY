@@ -36,11 +36,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22443,   1, 'Flaming Dirk') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22443,   1,   33558093) /* Setup */
-     , (22443,   3,  536870932) /* SoundTable */
-     , (22443,   6,   67111919) /* PaletteBase */
-     , (22443,   7,  268436501) /* ClothingBase */
-     , (22443,   8,  100673798) /* Icon */
-     , (22443,  22,  872415275) /* PhysicsEffectTable */
-     , (22443,  36,  234881053) /* MutateFilter */
-     , (22443,  46,  939524145) /* TsysMutationFilter */;
+VALUES (22443,   1, 0x02000E4D) /* Setup */
+     , (22443,   3, 0x20000014) /* SoundTable */
+     , (22443,   6, 0x04000BEF) /* PaletteBase */
+     , (22443,   7, 0x10000415) /* ClothingBase */
+     , (22443,   8, 0x06002906) /* Icon */
+     , (22443,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (22443,  36, 0x0E00001D) /* MutateFilter */
+     , (22443,  46, 0x38000031) /* TsysMutationFilter */;

@@ -25,7 +25,7 @@ VALUES (2669,   1, 'Scroll of Feeblemind Other II') /* Name */
      , (2669,  16, 'When learned, this spell decreases the target''s Self by 20 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2669,   1,   33554826) /* Setup */
-     , (2669,   8,  100676471) /* Icon */
-     , (2669,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2669,   1, 0x0200018A) /* Setup */
+     , (2669,   8, 0x06003377) /* Icon */
+     , (2669,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2669,  28,       1464) /* Spell - Feeblemind Other II */;

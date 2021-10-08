@@ -30,8 +30,8 @@ VALUES (27438,   1, 'Head of the Homunculus') /* Name */
      , (27438,  33, 'PickedUpHeadHomunculus') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27438,   1,   33558687) /* Setup */
-     , (27438,   8,  100676412) /* Icon */;
+VALUES (27438,   1, 0x0200109F) /* Setup */
+     , (27438,   8, 0x0600333C) /* Icon */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (27438,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

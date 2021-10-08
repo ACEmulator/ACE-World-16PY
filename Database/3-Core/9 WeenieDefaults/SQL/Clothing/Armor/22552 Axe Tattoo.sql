@@ -47,13 +47,13 @@ VALUES (22552,   1, 'Axe Tattoo') /* Name */
      , (22552,  16, 'A vial of tattoo ink infused with the power of crashing blades. When painted on the upper arms the ink will act as armor and will grant the wearer the power of crashing blades.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22552,   1,   33554641) /* Setup */
-     , (22552,   3,  536870932) /* SoundTable */
-     , (22552,   6,   67108990) /* PaletteBase */
-     , (22552,   7,  268436522) /* ClothingBase */
-     , (22552,   8,  100668172) /* Icon */
-     , (22552,  22,  872415275) /* PhysicsEffectTable */
-     , (22552,  50,  100673758) /* IconOverlay */;
+VALUES (22552,   1, 0x020000D1) /* Setup */
+     , (22552,   3, 0x20000014) /* SoundTable */
+     , (22552,   6, 0x0400007E) /* PaletteBase */
+     , (22552,   7, 0x1000042A) /* ClothingBase */
+     , (22552,   8, 0x0600130C) /* Icon */
+     , (22552,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (22552,  50, 0x060028DE) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22552,   297,      2)  /* Light Weapon Mastery Other VI */

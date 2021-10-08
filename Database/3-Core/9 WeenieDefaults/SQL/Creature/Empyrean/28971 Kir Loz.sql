@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28971,   1, 'Kir Loz') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28971,   1,   33555903) /* Setup */
-     , (28971,   2,  150995214) /* MotionTable */
-     , (28971,   3,  536870913) /* SoundTable */
-     , (28971,   4,  805306368) /* CombatTable */
-     , (28971,   6,   67112626) /* PaletteBase */
-     , (28971,   7,  268436402) /* ClothingBase */
-     , (28971,   8,  100673074) /* Icon */
-     , (28971,  22,  872415236) /* PhysicsEffectTable */;
+VALUES (28971,   1, 0x020005BF) /* Setup */
+     , (28971,   2, 0x0900010E) /* MotionTable */
+     , (28971,   3, 0x20000001) /* SoundTable */
+     , (28971,   4, 0x30000000) /* CombatTable */
+     , (28971,   6, 0x04000EB2) /* PaletteBase */
+     , (28971,   7, 0x100003B2) /* ClothingBase */
+     , (28971,   8, 0x06002632) /* Icon */
+     , (28971,  22, 0x34000004) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28971,   1, 400, 0, 0) /* Strength */

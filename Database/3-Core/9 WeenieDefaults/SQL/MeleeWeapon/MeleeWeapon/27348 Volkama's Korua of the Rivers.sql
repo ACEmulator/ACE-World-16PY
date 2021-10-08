@@ -52,12 +52,12 @@ VALUES (27348,   1, 'Volkama''s Korua of the Rivers') /* Name */
      , (27348,  16, 'A korua fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27348,   1,   33558664) /* Setup */
-     , (27348,   3,  536870932) /* SoundTable */
-     , (27348,   6,   67113336) /* PaletteBase */
-     , (27348,   7,  268436254) /* ClothingBase */
-     , (27348,   8,  100676371) /* Icon */
-     , (27348,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27348,   1, 0x02001088) /* Setup */
+     , (27348,   3, 0x20000014) /* SoundTable */
+     , (27348,   6, 0x04001178) /* PaletteBase */
+     , (27348,   7, 0x1000031E) /* ClothingBase */
+     , (27348,   8, 0x06003313) /* Icon */
+     , (27348,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27348,  2473,      2)  /* Greater Torrent */

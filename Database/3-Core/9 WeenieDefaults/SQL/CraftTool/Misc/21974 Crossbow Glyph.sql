@@ -34,7 +34,7 @@ VALUES (21974,   1, 'Crossbow Glyph') /* Name */
      , (21974,  16, 'A glyph with the image of a crossbow emblazoned upon it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21974,   1,   33556438) /* Setup */
-     , (21974,   3,  536870932) /* SoundTable */
-     , (21974,   8,  100673581) /* Icon */
-     , (21974,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21974,   1, 0x020007D6) /* Setup */
+     , (21974,   3, 0x20000014) /* SoundTable */
+     , (21974,   8, 0x0600282D) /* Icon */
+     , (21974,  22, 0x3400002B) /* PhysicsEffectTable */;

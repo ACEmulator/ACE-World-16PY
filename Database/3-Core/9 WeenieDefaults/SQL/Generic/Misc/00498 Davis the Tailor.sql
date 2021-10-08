@@ -22,7 +22,7 @@ VALUES (498,   1, 'Davis the Tailor') /* Name */
      , (498,  16, 'Davis the Tailor') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (498,   1,   33555593) /* Setup */
-     , (498,   6,   67111092) /* PaletteBase */
-     , (498,   7,  268435684) /* ClothingBase */
-     , (498,   8,  100668115) /* Icon */;
+VALUES (498,   1, 0x02000489) /* Setup */
+     , (498,   6, 0x040008B4) /* PaletteBase */
+     , (498,   7, 0x100000E4) /* ClothingBase */
+     , (498,   8, 0x060012D3) /* Icon */;

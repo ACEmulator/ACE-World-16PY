@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10710,   1, 'Northern Black Claw Raider') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10710,   1,   33556445) /* Setup */
-     , (10710,   2,  150994952) /* MotionTable */
-     , (10710,   3,  536870919) /* SoundTable */
-     , (10710,   4,  805306372) /* CombatTable */
-     , (10710,   6,   67112812) /* PaletteBase */
-     , (10710,   7,  268435975) /* ClothingBase */
-     , (10710,   8,  100667445) /* Icon */
-     , (10710,  22,  872415258) /* PhysicsEffectTable */
+VALUES (10710,   1, 0x020007DD) /* Setup */
+     , (10710,   2, 0x09000008) /* MotionTable */
+     , (10710,   3, 0x20000007) /* SoundTable */
+     , (10710,   4, 0x30000004) /* CombatTable */
+     , (10710,   6, 0x04000F6C) /* PaletteBase */
+     , (10710,   7, 0x10000207) /* ClothingBase */
+     , (10710,   8, 0x06001035) /* Icon */
+     , (10710,  22, 0x3400001A) /* PhysicsEffectTable */
      , (10710,  31,      10714) /* LinkedPortalOne - Northern Black Claw Outpost Portal */
      , (10710,  32,         85) /* WieldedTreasureType - 
                                    Wield Yari (362) | Probability: 40%

@@ -22,5 +22,5 @@ VALUES (12656,   1, 'South Hebian-To Cottages') /* Name */
      , (12656,  16, 'Welcome to South Hebian-To Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12656,   1,   33557463) /* Setup */
-     , (12656,   8,  100668115) /* Icon */;
+VALUES (12656,   1, 0x02000BD7) /* Setup */
+     , (12656,   8, 0x060012D3) /* Icon */;

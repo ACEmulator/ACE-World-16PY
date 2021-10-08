@@ -27,9 +27,9 @@ VALUES (27576,   1, 'Worker Token') /* Name */
      , (27576,  15, 'A token of your completion of the Worker Quest.  Please give this back to Behdo in order for him to change your title to Worker Obliterator.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27576,   1,   33554817) /* Setup */
-     , (27576,   3,  536870932) /* SoundTable */
-     , (27576,   6,   67111919) /* PaletteBase */
-     , (27576,   7,  268435832) /* ClothingBase */
-     , (27576,   8,  100672061) /* Icon */
-     , (27576,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27576,   1, 0x02000181) /* Setup */
+     , (27576,   3, 0x20000014) /* SoundTable */
+     , (27576,   6, 0x04000BEF) /* PaletteBase */
+     , (27576,   7, 0x10000178) /* ClothingBase */
+     , (27576,   8, 0x0600223D) /* Icon */
+     , (27576,  22, 0x3400002B) /* PhysicsEffectTable */;

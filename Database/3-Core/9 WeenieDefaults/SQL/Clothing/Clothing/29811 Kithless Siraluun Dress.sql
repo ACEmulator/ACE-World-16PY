@@ -45,13 +45,13 @@ VALUES (29811,   1, 'Kithless Siraluun Dress') /* Name */
      , (29811,  16, 'A formal gown woven from the plumes of a Kithless Siraluun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29811,   1,   33554854) /* Setup */
-     , (29811,   3,  536870932) /* SoundTable */
-     , (29811,   6,   67108990) /* PaletteBase */
-     , (29811,   7,  268436236) /* ClothingBase */
-     , (29811,   8,  100671998) /* Icon */
-     , (29811,  22,  872415275) /* PhysicsEffectTable */
-     , (29811,  36,  234881046) /* MutateFilter */;
+VALUES (29811,   1, 0x020001A6) /* Setup */
+     , (29811,   3, 0x20000014) /* SoundTable */
+     , (29811,   6, 0x0400007E) /* PaletteBase */
+     , (29811,   7, 0x1000030C) /* ClothingBase */
+     , (29811,   8, 0x060021FE) /* Icon */
+     , (29811,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29811,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29811,   956,      2)  /* Fealty Other V */

@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (940,   1, 'Drudge Sneaker') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (940,   1,   33556445) /* Setup */
-     , (940,   2,  150994952) /* MotionTable */
-     , (940,   3,  536870919) /* SoundTable */
-     , (940,   4,  805306372) /* CombatTable */
-     , (940,   6,   67112812) /* PaletteBase */
-     , (940,   7,  268435973) /* ClothingBase */
-     , (940,   8,  100667445) /* Icon */
-     , (940,  22,  872415258) /* PhysicsEffectTable */
+VALUES (940,   1, 0x020007DD) /* Setup */
+     , (940,   2, 0x09000008) /* MotionTable */
+     , (940,   3, 0x20000007) /* SoundTable */
+     , (940,   4, 0x30000004) /* CombatTable */
+     , (940,   6, 0x04000F6C) /* PaletteBase */
+     , (940,   7, 0x10000205) /* ClothingBase */
+     , (940,   8, 0x06001035) /* Icon */
+     , (940,  22, 0x3400001A) /* PhysicsEffectTable */
      , (940,  32,         84) /* WieldedTreasureType - 
                                    Wield Club (309) | Probability: 15.000001%
                                    Wield Dabus (313) | Probability: 3%

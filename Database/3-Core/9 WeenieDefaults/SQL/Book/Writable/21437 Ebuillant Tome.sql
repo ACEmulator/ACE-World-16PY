@@ -22,12 +22,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21437,   1, 'Ebuillant Tome') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21437,   1,   33556929) /* Setup */
-     , (21437,   3,  536870932) /* SoundTable */
-     , (21437,   6,   67111092) /* PaletteBase */
-     , (21437,   7,  268436455) /* ClothingBase */
-     , (21437,   8,  100673472) /* Icon */
-     , (21437,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21437,   1, 0x020009C1) /* Setup */
+     , (21437,   3, 0x20000014) /* SoundTable */
+     , (21437,   6, 0x040008B4) /* PaletteBase */
+     , (21437,   7, 0x100003E7) /* ClothingBase */
+     , (21437,   8, 0x060027C0) /* Icon */
+     , (21437,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (21437, 1, 1000);

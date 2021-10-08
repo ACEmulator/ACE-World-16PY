@@ -22,7 +22,7 @@ VALUES (495,   1, 'Twin Aurock Tavern') /* Name */
      , (495,  16, 'Twin Auroch Tavern') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (495,   1,   33555593) /* Setup */
-     , (495,   6,   67111092) /* PaletteBase */
-     , (495,   7,  268435678) /* ClothingBase */
-     , (495,   8,  100668115) /* Icon */;
+VALUES (495,   1, 0x02000489) /* Setup */
+     , (495,   6, 0x040008B4) /* PaletteBase */
+     , (495,   7, 0x100000DE) /* ClothingBase */
+     , (495,   8, 0x060012D3) /* Icon */;

@@ -68,14 +68,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26682,   1, 'Listris Niffling') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26682,   1,   33556774) /* Setup */
-     , (26682,   2,  150995286) /* MotionTable */
-     , (26682,   3,  536871010) /* SoundTable */
-     , (26682,   4,  805306410) /* CombatTable */
-     , (26682,   6,   67112937) /* PaletteBase */
-     , (26682,   7,  268436039) /* ClothingBase */
-     , (26682,   8,  100670961) /* Icon */
-     , (26682,  22,  872415365) /* PhysicsEffectTable */
+VALUES (26682,   1, 0x02000926) /* Setup */
+     , (26682,   2, 0x09000156) /* MotionTable */
+     , (26682,   3, 0x20000062) /* SoundTable */
+     , (26682,   4, 0x3000002A) /* CombatTable */
+     , (26682,   6, 0x04000FE9) /* PaletteBase */
+     , (26682,   7, 0x10000247) /* ClothingBase */
+     , (26682,   8, 0x06001DF1) /* Icon */
+     , (26682,  22, 0x34000085) /* PhysicsEffectTable */
      , (26682,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

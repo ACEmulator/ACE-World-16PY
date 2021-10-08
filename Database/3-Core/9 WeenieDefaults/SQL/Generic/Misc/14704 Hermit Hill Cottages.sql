@@ -22,5 +22,5 @@ VALUES (14704,   1, 'Hermit Hill Cottages') /* Name */
      , (14704,  16, 'Welcome to Hermit Hill Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14704,   1,   33557463) /* Setup */
-     , (14704,   8,  100668115) /* Icon */;
+VALUES (14704,   1, 0x02000BD7) /* Setup */
+     , (14704,   8, 0x060012D3) /* Icon */;

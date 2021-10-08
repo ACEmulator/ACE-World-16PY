@@ -69,12 +69,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24867,   1, 'Sishalti Eye Stalk') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24867,   1,   33555670) /* Setup */
-     , (24867,   2,  150995067) /* MotionTable */
-     , (24867,   3,  536871015) /* SoundTable */
-     , (24867,   4,  805306404) /* CombatTable */
-     , (24867,   8,  100671186) /* Icon */
-     , (24867,  22,  872415332) /* PhysicsEffectTable */
+VALUES (24867,   1, 0x020004D6) /* Setup */
+     , (24867,   2, 0x0900007B) /* MotionTable */
+     , (24867,   3, 0x20000067) /* SoundTable */
+     , (24867,   4, 0x30000024) /* CombatTable */
+     , (24867,   8, 0x06001ED2) /* Icon */
+     , (24867,  22, 0x34000064) /* PhysicsEffectTable */
      , (24867,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

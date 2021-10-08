@@ -35,11 +35,11 @@ VALUES (24822,   1, 'Gem of Greater Fire Protection') /* Name */
      , (24822,  20, 'Gems of Greater Fire Protection') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24822,   1,   33554809) /* Setup */
-     , (24822,   3,  536870932) /* SoundTable */
-     , (24822,   6,   67111919) /* PaletteBase */
-     , (24822,   7,  268435723) /* ClothingBase */
-     , (24822,   8,  100674457) /* Icon */
-     , (24822,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24822,   1, 0x02000179) /* Setup */
+     , (24822,   3, 0x20000014) /* SoundTable */
+     , (24822,   6, 0x04000BEF) /* PaletteBase */
+     , (24822,   7, 0x1000010B) /* ClothingBase */
+     , (24822,   8, 0x06002B99) /* Icon */
+     , (24822,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24822,  28,       1096) /* Spell - Fire Protection Other VI */
-     , (24822,  36,  234881046) /* MutateFilter */;
+     , (24822,  36, 0x0E000016) /* MutateFilter */;

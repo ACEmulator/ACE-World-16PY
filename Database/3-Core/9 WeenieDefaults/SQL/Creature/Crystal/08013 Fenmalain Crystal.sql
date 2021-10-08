@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8013,   1, 'Fenmalain Crystal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8013,   1,   33556732) /* Setup */
-     , (8013,   2,  150995095) /* MotionTable */
-     , (8013,   3,  536871001) /* SoundTable */
-     , (8013,   4,  805306407) /* CombatTable */
-     , (8013,   6,   67111919) /* PaletteBase */
-     , (8013,   7,  268435859) /* ClothingBase */
-     , (8013,   8,  100670283) /* Icon */
-     , (8013,  22,  872415347) /* PhysicsEffectTable */
+VALUES (8013,   1, 0x020008FC) /* Setup */
+     , (8013,   2, 0x09000097) /* MotionTable */
+     , (8013,   3, 0x20000059) /* SoundTable */
+     , (8013,   4, 0x30000027) /* CombatTable */
+     , (8013,   6, 0x04000BEF) /* PaletteBase */
+     , (8013,   7, 0x10000193) /* ClothingBase */
+     , (8013,   8, 0x06001B4B) /* Icon */
+     , (8013,  22, 0x34000073) /* PhysicsEffectTable */
      , (8013,  35,         28) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

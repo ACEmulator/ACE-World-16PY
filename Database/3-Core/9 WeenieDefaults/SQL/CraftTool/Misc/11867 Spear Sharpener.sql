@@ -34,7 +34,7 @@ VALUES (11867,   1, 'Spear Sharpener') /* Name */
      , (11867,  16, 'An spear sharpening stone.  If used on a spear, will sharpen it to the point where it can puncture shields.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11867,   1,   33557278) /* Setup */
-     , (11867,   3,  536870932) /* SoundTable */
-     , (11867,   8,  100671956) /* Icon */
-     , (11867,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11867,   1, 0x02000B1E) /* Setup */
+     , (11867,   3, 0x20000014) /* SoundTable */
+     , (11867,   8, 0x060021D4) /* Icon */
+     , (11867,  22, 0x3400002B) /* PhysicsEffectTable */;

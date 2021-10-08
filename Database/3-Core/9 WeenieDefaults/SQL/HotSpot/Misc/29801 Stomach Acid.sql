@@ -36,6 +36,6 @@ VALUES (29801,   1, 'Stomach Acid') /* Name */
      , (29801,  17, 'Powerful acid dissolves your flesh for %i points of damage!') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29801,   1,   33556024) /* Setup */
-     , (29801,   3,  536870996) /* SoundTable */
-     , (29801,   8,  100667465) /* Icon */;
+VALUES (29801,   1, 0x02000638) /* Setup */
+     , (29801,   3, 0x20000054) /* SoundTable */
+     , (29801,   8, 0x06001049) /* Icon */;

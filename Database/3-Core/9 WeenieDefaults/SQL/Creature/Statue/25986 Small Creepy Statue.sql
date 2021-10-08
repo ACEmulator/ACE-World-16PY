@@ -65,11 +65,11 @@ VALUES (25986,   1, 'Small Creepy Statue') /* Name */
      , (25986,  15, 'A small statue that looks just a little too life-like for comfort.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25986,   1,   33555499) /* Setup */
-     , (25986,   2,  150995147) /* MotionTable */
-     , (25986,   3,  536871052) /* SoundTable */
-     , (25986,   4,  805306368) /* CombatTable */
-     , (25986,   8,  100675745) /* Icon */;
+VALUES (25986,   1, 0x0200042B) /* Setup */
+     , (25986,   2, 0x090000CB) /* MotionTable */
+     , (25986,   3, 0x2000008C) /* SoundTable */
+     , (25986,   4, 0x30000000) /* CombatTable */
+     , (25986,   8, 0x060030A1) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25986,   1, 100, 0, 0) /* Strength */

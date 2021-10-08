@@ -52,12 +52,12 @@ VALUES (27361,   1, 'Palenqual''s Ukira of the Vortex') /* Name */
      , (27361,  16, 'An ukira fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27361,   1,   33558666) /* Setup */
-     , (27361,   3,  536870932) /* SoundTable */
-     , (27361,   6,   67113336) /* PaletteBase */
-     , (27361,   7,  268436253) /* ClothingBase */
-     , (27361,   8,  100676356) /* Icon */
-     , (27361,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27361,   1, 0x0200108A) /* Setup */
+     , (27361,   3, 0x20000014) /* SoundTable */
+     , (27361,   6, 0x04001178) /* PaletteBase */
+     , (27361,   7, 0x1000031D) /* ClothingBase */
+     , (27361,   8, 0x06003304) /* Icon */
+     , (27361,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27361,  2438,      2)  /* Lesser Rockslide */

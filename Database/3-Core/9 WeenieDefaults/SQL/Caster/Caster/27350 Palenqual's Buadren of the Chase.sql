@@ -44,12 +44,12 @@ VALUES (27350,   1, 'Palenqual''s Buadren of the Chase') /* Name */
      , (27350,  16, 'A buadren fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27350,   1,   33558670) /* Setup */
-     , (27350,   3,  536870932) /* SoundTable */
-     , (27350,   6,   67113336) /* PaletteBase */
-     , (27350,   7,  268436250) /* ClothingBase */
-     , (27350,   8,  100676363) /* Icon */
-     , (27350,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27350,   1, 0x0200108E) /* Setup */
+     , (27350,   3, 0x20000014) /* SoundTable */
+     , (27350,   6, 0x04001178) /* PaletteBase */
+     , (27350,   7, 0x1000031A) /* ClothingBase */
+     , (27350,   8, 0x0600330B) /* Icon */
+     , (27350,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27350,  2441,      2)  /* Lesser Stone Cliffs */

@@ -48,12 +48,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20050,   1, 'Perfect Coruscating Isparian Atlatl') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20050,   1,   33557802) /* Setup */
-     , (20050,   3,  536870932) /* SoundTable */
-     , (20050,   6,   67111919) /* PaletteBase */
-     , (20050,   7,  268436393) /* ClothingBase */
-     , (20050,   8,  100673002) /* Icon */
-     , (20050,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20050,   1, 0x02000D2A) /* Setup */
+     , (20050,   3, 0x20000014) /* SoundTable */
+     , (20050,   6, 0x04000BEF) /* PaletteBase */
+     , (20050,   7, 0x100003A9) /* ClothingBase */
+     , (20050,   8, 0x060025EA) /* Icon */
+     , (20050,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20050,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

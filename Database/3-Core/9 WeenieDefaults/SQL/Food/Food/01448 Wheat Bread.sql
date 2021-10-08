@@ -26,6 +26,6 @@ VALUES (1448,   1, 'Wheat Bread') /* Name */
      , (1448,  20, 'Loaves of Wheat Bread') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1448,   1,   33554806) /* Setup */
-     , (1448,   8,  100667455) /* Icon */
-     , (1448,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1448,   1, 0x02000176) /* Setup */
+     , (1448,   8, 0x0600103F) /* Icon */
+     , (1448,  22, 0x3400002B) /* PhysicsEffectTable */;

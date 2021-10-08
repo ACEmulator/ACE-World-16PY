@@ -28,9 +28,9 @@ VALUES (7922,   1, 'Ground Rabbit') /* Name */
      , (7922,  20, 'Lumps of Ground Rabbit Meat') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7922,   1,   33556232) /* Setup */
-     , (7922,   3,  536870932) /* SoundTable */
-     , (7922,   6,   67111928) /* PaletteBase */
-     , (7922,   7,  268436023) /* ClothingBase */
-     , (7922,   8,  100670893) /* Icon */
-     , (7922,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7922,   1, 0x02000708) /* Setup */
+     , (7922,   3, 0x20000014) /* SoundTable */
+     , (7922,   6, 0x04000BF8) /* PaletteBase */
+     , (7922,   7, 0x10000237) /* ClothingBase */
+     , (7922,   8, 0x06001DAD) /* Icon */
+     , (7922,  22, 0x3400002B) /* PhysicsEffectTable */;

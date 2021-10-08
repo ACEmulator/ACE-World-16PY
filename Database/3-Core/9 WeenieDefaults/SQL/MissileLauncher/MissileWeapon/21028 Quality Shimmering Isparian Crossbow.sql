@@ -53,12 +53,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21028,   1, 'Quality Shimmering Isparian Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21028,   1,   33557730) /* Setup */
-     , (21028,   3,  536870932) /* SoundTable */
-     , (21028,   6,   67111919) /* PaletteBase */
-     , (21028,   7,  268436428) /* ClothingBase */
-     , (21028,   8,  100673202) /* Icon */
-     , (21028,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21028,   1, 0x02000CE2) /* Setup */
+     , (21028,   3, 0x20000014) /* SoundTable */
+     , (21028,   6, 0x04000BEF) /* PaletteBase */
+     , (21028,   7, 0x100003CC) /* ClothingBase */
+     , (21028,   8, 0x060026B2) /* Icon */
+     , (21028,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21028,  37,          3) /* ItemSkillLimit - Crossbow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

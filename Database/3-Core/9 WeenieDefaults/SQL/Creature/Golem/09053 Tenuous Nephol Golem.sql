@@ -59,12 +59,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9053,   1, 'Tenuous Nephol Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9053,   1,   33556642) /* Setup */
-     , (9053,   2,  150995073) /* MotionTable */
-     , (9053,   3,  536871066) /* SoundTable */
-     , (9053,   4,  805306376) /* CombatTable */
-     , (9053,   8,  100667940) /* Icon */
-     , (9053,  22,  872415322) /* PhysicsEffectTable */;
+VALUES (9053,   1, 0x020008A2) /* Setup */
+     , (9053,   2, 0x09000081) /* MotionTable */
+     , (9053,   3, 0x2000009A) /* SoundTable */
+     , (9053,   4, 0x30000008) /* CombatTable */
+     , (9053,   8, 0x06001224) /* Icon */
+     , (9053,  22, 0x3400005A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9053,   1, 100, 0, 0) /* Strength */

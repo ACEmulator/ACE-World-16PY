@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19288,   1, 'Bronze Statue of a Drudge') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19288,   1,   33556445) /* Setup */
-     , (19288,   2,  150995182) /* MotionTable */
-     , (19288,   3,  536871052) /* SoundTable */
-     , (19288,   4,  805306372) /* CombatTable */
-     , (19288,   6,   67112812) /* PaletteBase */
-     , (19288,   7,  268435972) /* ClothingBase */
-     , (19288,   8,  100667445) /* Icon */
-     , (19288,  22,  872415383) /* PhysicsEffectTable */
+VALUES (19288,   1, 0x020007DD) /* Setup */
+     , (19288,   2, 0x090000EE) /* MotionTable */
+     , (19288,   3, 0x2000008C) /* SoundTable */
+     , (19288,   4, 0x30000004) /* CombatTable */
+     , (19288,   6, 0x04000F6C) /* PaletteBase */
+     , (19288,   7, 0x10000204) /* ClothingBase */
+     , (19288,   8, 0x06001035) /* Icon */
+     , (19288,  22, 0x34000097) /* PhysicsEffectTable */
      , (19288,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

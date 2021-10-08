@@ -39,11 +39,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21155,   1, 'Covenant Greaves') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21155,   1,   33554641) /* Setup */
-     , (21155,   3,  536870932) /* SoundTable */
-     , (21155,   6,   67108990) /* PaletteBase */
-     , (21155,   7,  268436447) /* ClothingBase */
-     , (21155,   8,  100668167) /* Icon */
-     , (21155,  22,  872415275) /* PhysicsEffectTable */
-     , (21155,  36,  234881046) /* MutateFilter */
-     , (21155,  46,  939524130) /* TsysMutationFilter */;
+VALUES (21155,   1, 0x020000D1) /* Setup */
+     , (21155,   3, 0x20000014) /* SoundTable */
+     , (21155,   6, 0x0400007E) /* PaletteBase */
+     , (21155,   7, 0x100003DF) /* ClothingBase */
+     , (21155,   8, 0x06001307) /* Icon */
+     , (21155,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (21155,  36, 0x0E000016) /* MutateFilter */
+     , (21155,  46, 0x38000022) /* TsysMutationFilter */;

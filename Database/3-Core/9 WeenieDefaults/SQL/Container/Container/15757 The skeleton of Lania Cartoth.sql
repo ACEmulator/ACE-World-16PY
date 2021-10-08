@@ -36,10 +36,10 @@ VALUES (15757,   1, 'The skeleton of Lania Cartoth') /* Name */
      , (15757,  16, 'The skeleton of Lania Cartoth lies forlorn and broken on the stone floor. A letter is among her remains.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15757,   1,   33555405) /* Setup */
-     , (15757,   3,  536870932) /* SoundTable */
-     , (15757,   8,  100667504) /* Icon */
-     , (15757,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15757,   1, 0x020003CD) /* Setup */
+     , (15757,   3, 0x20000014) /* SoundTable */
+     , (15757,   8, 0x06001070) /* Icon */
+     , (15757,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (15757, -1, 15804, 10, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Elysa Strathelar's Letter to Lania Cartoth (15804) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

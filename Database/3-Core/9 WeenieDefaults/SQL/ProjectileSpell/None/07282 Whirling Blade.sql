@@ -28,8 +28,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7282,   1, 'Whirling Blade') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7282,   1,   33555452) /* Setup */
-     , (7282,   3,  536870972) /* SoundTable */
-     , (7282,   8,  100667494) /* Icon */
+VALUES (7282,   1, 0x020003FC) /* Setup */
+     , (7282,   3, 0x2000003C) /* SoundTable */
+     , (7282,   8, 0x06001066) /* Icon */
      , (7282,  28,         92) /* Spell - Whirling Blade I */
      , (7282,  30,         90) /* PhysicsScript - ProjectileCollision */;

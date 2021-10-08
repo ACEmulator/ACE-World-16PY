@@ -28,7 +28,7 @@ VALUES (4757,   1, 'Carving Knife') /* Name */
      , (4757,  14, 'This item is used in cooking and miscellaneous crafts') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4757,   1,   33555971) /* Setup */
-     , (4757,   3,  536870932) /* SoundTable */
-     , (4757,   8,  100670174) /* Icon */
-     , (4757,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4757,   1, 0x02000603) /* Setup */
+     , (4757,   3, 0x20000014) /* SoundTable */
+     , (4757,   8, 0x06001ADE) /* Icon */
+     , (4757,  22, 0x3400002B) /* PhysicsEffectTable */;

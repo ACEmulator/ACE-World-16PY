@@ -22,5 +22,5 @@ VALUES (1005,   1, 'Zaikhal: 2 miles') /* Name */
      , (1005,  16, 'Town of Zaikhal: 2 miles.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1005,   1,   33555088) /* Setup */
-     , (1005,   8,  100668115) /* Icon */;
+VALUES (1005,   1, 0x02000290) /* Setup */
+     , (1005,   8, 0x060012D3) /* Icon */;

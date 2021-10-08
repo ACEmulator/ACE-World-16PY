@@ -45,12 +45,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7457,   1, 'Peerless Atlan Mace of Black Fire') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7457,   1,   33557404) /* Setup */
-     , (7457,   3,  536870932) /* SoundTable */
-     , (7457,   6,   67111919) /* PaletteBase */
-     , (7457,   7,  268435902) /* ClothingBase */
-     , (7457,   8,  100670543) /* Icon */
-     , (7457,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7457,   1, 0x02000B9C) /* Setup */
+     , (7457,   3, 0x20000014) /* SoundTable */
+     , (7457,   6, 0x04000BEF) /* PaletteBase */
+     , (7457,   7, 0x100001BE) /* ClothingBase */
+     , (7457,   8, 0x06001C4F) /* Icon */
+     , (7457,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7457,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

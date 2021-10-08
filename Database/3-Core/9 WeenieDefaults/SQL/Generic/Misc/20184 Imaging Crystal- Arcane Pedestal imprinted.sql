@@ -31,9 +31,9 @@ VALUES (20184,   1, 'Imaging Crystal- Arcane Pedestal imprinted') /* Name */
      , (20184,  16, 'An Imaging Crystal imprinted with the image and complete diagram of the Arcane Pedestal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20184,   1,   33555194) /* Setup */
-     , (20184,   3,  536870932) /* SoundTable */
-     , (20184,   6,   67111092) /* PaletteBase */
-     , (20184,   7,  268436400) /* ClothingBase */
-     , (20184,   8,  100673069) /* Icon */
-     , (20184,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (20184,   1, 0x020002FA) /* Setup */
+     , (20184,   3, 0x20000014) /* SoundTable */
+     , (20184,   6, 0x040008B4) /* PaletteBase */
+     , (20184,   7, 0x100003B0) /* ClothingBase */
+     , (20184,   8, 0x0600262D) /* Icon */
+     , (20184,  22, 0x3400002B) /* PhysicsEffectTable */;

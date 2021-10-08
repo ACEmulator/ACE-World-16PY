@@ -22,7 +22,7 @@ VALUES (707,   1, 'Monyra''s Jewels') /* Name */
      , (707,  16, 'Monyra''s Jewels') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (707,   1,   33555088) /* Setup */
-     , (707,   6,   67111092) /* PaletteBase */
-     , (707,   7,  268435659) /* ClothingBase */
-     , (707,   8,  100668115) /* Icon */;
+VALUES (707,   1, 0x02000290) /* Setup */
+     , (707,   6, 0x040008B4) /* PaletteBase */
+     , (707,   7, 0x100000CB) /* ClothingBase */
+     , (707,   8, 0x060012D3) /* Icon */;

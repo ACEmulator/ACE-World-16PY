@@ -44,11 +44,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24893,   1, 'Greater Olthoi Gauntlets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24893,   1,   33554648) /* Setup */
-     , (24893,   3,  536870932) /* SoundTable */
-     , (24893,   6,   67108990) /* PaletteBase */
-     , (24893,   7,  268436656) /* ClothingBase */
-     , (24893,   8,  100674576) /* Icon */
-     , (24893,  22,  872415275) /* PhysicsEffectTable */
-     , (24893,  36,  234881046) /* MutateFilter */
-     , (24893,  46,  939524130) /* TsysMutationFilter */;
+VALUES (24893,   1, 0x020000D8) /* Setup */
+     , (24893,   3, 0x20000014) /* SoundTable */
+     , (24893,   6, 0x0400007E) /* PaletteBase */
+     , (24893,   7, 0x100004B0) /* ClothingBase */
+     , (24893,   8, 0x06002C10) /* Icon */
+     , (24893,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24893,  36, 0x0E000016) /* MutateFilter */
+     , (24893,  46, 0x38000022) /* TsysMutationFilter */;

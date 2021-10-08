@@ -27,9 +27,9 @@ VALUES (30489,   1, 'Bag of Wheat Seed') /* Name */
      , (30489,  33, 'HoltburgAfrinWheat1204') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30489,   1,   33554817) /* Setup */
-     , (30489,   3,  536870932) /* SoundTable */
-     , (30489,   6,   67111919) /* PaletteBase */
-     , (30489,   7,  268435832) /* ClothingBase */
-     , (30489,   8,  100667436) /* Icon */
-     , (30489,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30489,   1, 0x02000181) /* Setup */
+     , (30489,   3, 0x20000014) /* SoundTable */
+     , (30489,   6, 0x04000BEF) /* PaletteBase */
+     , (30489,   7, 0x10000178) /* ClothingBase */
+     , (30489,   8, 0x0600102C) /* Icon */
+     , (30489,  22, 0x3400002B) /* PhysicsEffectTable */;

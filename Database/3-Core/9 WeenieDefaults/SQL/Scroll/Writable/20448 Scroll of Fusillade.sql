@@ -24,7 +24,7 @@ VALUES (20448,   1, 'Scroll of Fusillade') /* Name */
      , (20448,  15, 'When learned, this spell shoots five bolts of force toward the target. Each bolt does 40-80 points of piercing damage to the first thing it hits.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20448,   1,   33554826) /* Setup */
-     , (20448,   8,  100677019) /* Icon */
-     , (20448,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20448,   1, 0x0200018A) /* Setup */
+     , (20448,   8, 0x0600359B) /* Icon */
+     , (20448,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20448,  28,       2134) /* Spell - Fusillade */;

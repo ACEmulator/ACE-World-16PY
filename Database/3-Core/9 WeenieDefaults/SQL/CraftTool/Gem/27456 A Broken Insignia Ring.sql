@@ -33,9 +33,9 @@ VALUES (27456,   1, 'A Broken Insignia Ring') /* Name */
      , (27456,  33, 'RenegadeRingA') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27456,   1,   33554690) /* Setup */
-     , (27456,   3,  536870932) /* SoundTable */
-     , (27456,   6,   67111919) /* PaletteBase */
-     , (27456,   7,  268435723) /* ClothingBase */
-     , (27456,   8,  100676426) /* Icon */
-     , (27456,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27456,   1, 0x02000102) /* Setup */
+     , (27456,   3, 0x20000014) /* SoundTable */
+     , (27456,   6, 0x04000BEF) /* PaletteBase */
+     , (27456,   7, 0x1000010B) /* ClothingBase */
+     , (27456,   8, 0x0600334A) /* Icon */
+     , (27456,  22, 0x3400002B) /* PhysicsEffectTable */;

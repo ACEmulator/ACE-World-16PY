@@ -67,12 +67,12 @@ VALUES (25580,   1, 'Sarcophagus') /* Name */
      , (25580,  16, 'A large stone sarcophagus.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25580,   1,   33558508) /* Setup */
-     , (25580,   2,  150995261) /* MotionTable */
-     , (25580,   3,  536870933) /* SoundTable */
-     , (25580,   4,  805306372) /* CombatTable */
-     , (25580,   8,  100671209) /* Icon */
-     , (25580,  22,  872415328) /* PhysicsEffectTable */;
+VALUES (25580,   1, 0x02000FEC) /* Setup */
+     , (25580,   2, 0x0900013D) /* MotionTable */
+     , (25580,   3, 0x20000015) /* SoundTable */
+     , (25580,   4, 0x30000004) /* CombatTable */
+     , (25580,   8, 0x06001EE9) /* Icon */
+     , (25580,  22, 0x34000060) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (25580,  16, 0x7604A0D0) /* ActivationTarget */;

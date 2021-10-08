@@ -26,7 +26,7 @@ VALUES (27297,   1, 'Key to Yaruldi''s Hoard') /* Name */
      , (27297,  33, 'PickedUpKeyYaruldi') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27297,   1,   33554784) /* Setup */
-     , (27297,   3,  536870932) /* SoundTable */
-     , (27297,   8,  100676399) /* Icon */
-     , (27297,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27297,   1, 0x02000160) /* Setup */
+     , (27297,   3, 0x20000014) /* SoundTable */
+     , (27297,   8, 0x0600332F) /* Icon */
+     , (27297,  22, 0x3400002B) /* PhysicsEffectTable */;

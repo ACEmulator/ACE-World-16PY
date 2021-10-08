@@ -70,11 +70,11 @@ VALUES (2533,   1, 'Gerhi, Bowyer of Stonehold ') /* Name */
      , (2533,  24, 'Stonehold') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2533,   1,   33554433) /* Setup */
-     , (2533,   2,  150994945) /* MotionTable */
-     , (2533,   3,  536870913) /* SoundTable */
-     , (2533,   4,  805306368) /* CombatTable */
-     , (2533,   8,  100667446) /* Icon */;
+VALUES (2533,   1, 0x02000001) /* Setup */
+     , (2533,   2, 0x09000001) /* MotionTable */
+     , (2533,   3, 0x20000001) /* SoundTable */
+     , (2533,   4, 0x30000000) /* CombatTable */
+     , (2533,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2533,   1,  80, 0, 0) /* Strength */

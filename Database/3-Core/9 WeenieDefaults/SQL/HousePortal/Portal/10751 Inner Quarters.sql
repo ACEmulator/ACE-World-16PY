@@ -24,6 +24,6 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10751,   1, 'Inner Quarters') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10751,   1,   33556212) /* Setup */
-     , (10751,   2,  150994947) /* MotionTable */
-     , (10751,   8,  100667499) /* Icon */;
+VALUES (10751,   1, 0x020006F4) /* Setup */
+     , (10751,   2, 0x09000003) /* MotionTable */
+     , (10751,   8, 0x0600106B) /* Icon */;

@@ -64,13 +64,13 @@ VALUES (24214,   1, 'Aun Teverea') /* Name */
      , (24214,   5, 'Trapper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24214,   1,   33557117) /* Setup */
-     , (24214,   2,  150994945) /* MotionTable */
-     , (24214,   3,  536870931) /* SoundTable */
-     , (24214,   4,  805306380) /* CombatTable */
-     , (24214,   6,   67113280) /* PaletteBase */
-     , (24214,   7,  268436601) /* ClothingBase */
-     , (24214,   8,  100671756) /* Icon */;
+VALUES (24214,   1, 0x02000A7D) /* Setup */
+     , (24214,   2, 0x09000001) /* MotionTable */
+     , (24214,   3, 0x20000013) /* SoundTable */
+     , (24214,   4, 0x3000000C) /* CombatTable */
+     , (24214,   6, 0x04001140) /* PaletteBase */
+     , (24214,   7, 0x10000479) /* ClothingBase */
+     , (24214,   8, 0x0600210C) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24214,   1, 150, 0, 0) /* Strength */

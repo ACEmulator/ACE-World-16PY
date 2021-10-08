@@ -26,10 +26,10 @@ VALUES (15807,   1, 'A tightly scrawled Note') /* Name */
      , (15807,  15, 'A Note to Glysander Cartoth') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15807,   1,   33554773) /* Setup */
-     , (15807,   3,  536870932) /* SoundTable */
-     , (15807,   8,  100672829) /* Icon */
-     , (15807,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15807,   1, 0x02000155) /* Setup */
+     , (15807,   3, 0x20000014) /* SoundTable */
+     , (15807,   8, 0x0600253D) /* Icon */
+     , (15807,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (15807, 1, 1000);

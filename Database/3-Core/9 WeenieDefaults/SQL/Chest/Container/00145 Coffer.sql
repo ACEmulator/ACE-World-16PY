@@ -33,8 +33,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (145,   1, 'Coffer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (145,   1,   33554556) /* Setup */
-     , (145,   2,  150994948) /* MotionTable */
-     , (145,   3,  536870945) /* SoundTable */
-     , (145,   8,  100667416) /* Icon */
-     , (145,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (145,   1, 0x0200007C) /* Setup */
+     , (145,   2, 0x09000004) /* MotionTable */
+     , (145,   3, 0x20000021) /* SoundTable */
+     , (145,   8, 0x06001018) /* Icon */
+     , (145,  22, 0x3400002B) /* PhysicsEffectTable */;

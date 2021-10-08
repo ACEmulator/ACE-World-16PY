@@ -60,12 +60,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9055,   1, 'Diaphanous Nephol Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9055,   1,   33556642) /* Setup */
-     , (9055,   2,  150995073) /* MotionTable */
-     , (9055,   3,  536871066) /* SoundTable */
-     , (9055,   4,  805306376) /* CombatTable */
-     , (9055,   8,  100667940) /* Icon */
-     , (9055,  22,  872415322) /* PhysicsEffectTable */;
+VALUES (9055,   1, 0x020008A2) /* Setup */
+     , (9055,   2, 0x09000081) /* MotionTable */
+     , (9055,   3, 0x2000009A) /* SoundTable */
+     , (9055,   4, 0x30000008) /* CombatTable */
+     , (9055,   8, 0x06001224) /* Icon */
+     , (9055,  22, 0x3400005A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9055,   1, 200, 0, 0) /* Strength */

@@ -25,7 +25,7 @@ VALUES (2879,   1, 'Scroll of Strengthen Lock IV') /* Name */
      , (2879,  16, 'When learned, this spell increases a lock''s resistance to picking by 75 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2879,   1,   33554826) /* Setup */
-     , (2879,   8,  100676678) /* Icon */
-     , (2879,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2879,   1, 0x0200018A) /* Setup */
+     , (2879,   8, 0x06003446) /* Icon */
+     , (2879,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2879,  28,       1578) /* Spell - Strengthen Lock IV */;

@@ -62,14 +62,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9243,   1, 'Innocuous Doll') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9243,   1,   33556996) /* Setup */
-     , (9243,   2,  150994984) /* MotionTable */
-     , (9243,   3,  536871022) /* SoundTable */
-     , (9243,   4,  805306416) /* CombatTable */
-     , (9243,   6,   67113150) /* PaletteBase */
-     , (9243,   7,  268436148) /* ClothingBase */
-     , (9243,   8,  100671421) /* Icon */
-     , (9243,  22,  872415373) /* PhysicsEffectTable */
+VALUES (9243,   1, 0x02000A04) /* Setup */
+     , (9243,   2, 0x09000028) /* MotionTable */
+     , (9243,   3, 0x2000006E) /* SoundTable */
+     , (9243,   4, 0x30000030) /* CombatTable */
+     , (9243,   6, 0x040010BE) /* PaletteBase */
+     , (9243,   7, 0x100002B4) /* ClothingBase */
+     , (9243,   8, 0x06001FBD) /* Icon */
+     , (9243,  22, 0x3400008D) /* PhysicsEffectTable */
      , (9243,  30,         87) /* PhysicsScript - BreatheLightning */
      , (9243,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 

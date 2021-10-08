@@ -26,10 +26,10 @@ VALUES (25692,   1, 'Second Missive to the World Shaper') /* Name */
      , (25692,  16, 'A neatly written note.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25692,   1,   33554773) /* Setup */
-     , (25692,   3,  536870932) /* SoundTable */
-     , (25692,   8,  100668176) /* Icon */
-     , (25692,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25692,   1, 0x02000155) /* Setup */
+     , (25692,   3, 0x20000014) /* SoundTable */
+     , (25692,   8, 0x06001310) /* Icon */
+     , (25692,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (25692, 1, 1000);

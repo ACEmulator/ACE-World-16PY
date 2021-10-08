@@ -64,11 +64,11 @@ VALUES (21451,   1, 'Foreman') /* Name */
      , (21451,   5, 'Foreman') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21451,   1,   33554433) /* Setup */
-     , (21451,   2,  150994945) /* MotionTable */
-     , (21451,   3,  536870913) /* SoundTable */
-     , (21451,   4,  805306368) /* CombatTable */
-     , (21451,   8,  100667446) /* Icon */;
+VALUES (21451,   1, 0x02000001) /* Setup */
+     , (21451,   2, 0x09000001) /* MotionTable */
+     , (21451,   3, 0x20000001) /* SoundTable */
+     , (21451,   4, 0x30000000) /* CombatTable */
+     , (21451,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (21451,   1, 120, 0, 0) /* Strength */

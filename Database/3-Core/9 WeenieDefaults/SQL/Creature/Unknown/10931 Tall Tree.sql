@@ -61,10 +61,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10931,   1, 'Tall Tree') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10931,   1,   33555361) /* Setup */
-     , (10931,   2,  150995140) /* MotionTable */
-     , (10931,   3,  536870985) /* SoundTable */
-     , (10931,   8,  100671332) /* Icon */;
+VALUES (10931,   1, 0x020003A1) /* Setup */
+     , (10931,   2, 0x090000C4) /* MotionTable */
+     , (10931,   3, 0x20000049) /* SoundTable */
+     , (10931,   8, 0x06001F64) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10931,   1, 2000, 0, 0) /* Strength */

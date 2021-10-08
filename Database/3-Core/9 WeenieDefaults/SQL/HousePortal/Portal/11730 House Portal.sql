@@ -24,6 +24,6 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11730,   1, 'House Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11730,   1,   33554867) /* Setup */
-     , (11730,   2,  150994947) /* MotionTable */
-     , (11730,   8,  100667499) /* Icon */;
+VALUES (11730,   1, 0x020001B3) /* Setup */
+     , (11730,   2, 0x09000003) /* MotionTable */
+     , (11730,   8, 0x0600106B) /* Icon */;

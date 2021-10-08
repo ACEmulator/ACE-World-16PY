@@ -34,7 +34,7 @@ VALUES (28352,   1, 'Fragment of Ancient Amber') /* Name */
      , (28352,  33, 'GlyphKivikLirShardAmber') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28352,   1,   33558876) /* Setup */
-     , (28352,   3,  536870932) /* SoundTable */
-     , (28352,   8,  100676988) /* Icon */
-     , (28352,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28352,   1, 0x0200115C) /* Setup */
+     , (28352,   3, 0x20000014) /* SoundTable */
+     , (28352,   8, 0x0600357C) /* Icon */
+     , (28352,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -22,7 +22,7 @@ VALUES (22711,   1, 'Crude Tusker Painting') /* Name */
      , (22711,  16, 'A crude painting that shows a tusker eating one human, and speaking to other human.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22711,   1,   33558139) /* Setup */
-     , (22711,   6,   67111092) /* PaletteBase */
-     , (22711,   7,  268436536) /* ClothingBase */
-     , (22711,   8,  100668115) /* Icon */;
+VALUES (22711,   1, 0x02000E7B) /* Setup */
+     , (22711,   6, 0x040008B4) /* PaletteBase */
+     , (22711,   7, 0x10000438) /* ClothingBase */
+     , (22711,   8, 0x060012D3) /* Icon */;

@@ -22,5 +22,5 @@ VALUES (15239,   1, 'Merak') /* Name */
      , (15239,  16, 'Welcome to Merak') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15239,   1,   33557463) /* Setup */
-     , (15239,   8,  100668115) /* Icon */;
+VALUES (15239,   1, 0x02000BD7) /* Setup */
+     , (15239,   8, 0x060012D3) /* Icon */;

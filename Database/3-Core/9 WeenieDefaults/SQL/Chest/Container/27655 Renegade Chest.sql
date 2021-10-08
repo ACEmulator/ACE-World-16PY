@@ -44,11 +44,11 @@ VALUES (27655,   1, 'Renegade Chest') /* Name */
      , (27655,  16, 'Well carved and impossible to pick, you will need a specially crafted key to open this. A small etching near the bottom of the chest makes reference to a stronghold near Tufa.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27655,   1,   33558692) /* Setup */
-     , (27655,   2,  150995293) /* MotionTable */
-     , (27655,   3,  536870950) /* SoundTable */
-     , (27655,   8,  100676428) /* Icon */
-     , (27655,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27655,   1, 0x020010A4) /* Setup */
+     , (27655,   2, 0x0900015D) /* MotionTable */
+     , (27655,   3, 0x20000026) /* SoundTable */
+     , (27655,   8, 0x0600334C) /* Icon */
+     , (27655,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27655,  28,         85) /* Spell - Flame Bolt VI */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

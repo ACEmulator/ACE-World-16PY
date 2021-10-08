@@ -44,12 +44,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6365,   1, 'Superior Shadow Atlan Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6365,   1,   33556309) /* Setup */
-     , (6365,   3,  536870932) /* SoundTable */
-     , (6365,   6,   67111919) /* PaletteBase */
-     , (6365,   7,  268435888) /* ClothingBase */
-     , (6365,   8,  100670523) /* Icon */
-     , (6365,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6365,   1, 0x02000755) /* Setup */
+     , (6365,   3, 0x20000014) /* SoundTable */
+     , (6365,   6, 0x04000BEF) /* PaletteBase */
+     , (6365,   7, 0x100001B0) /* ClothingBase */
+     , (6365,   8, 0x06001C3B) /* Icon */
+     , (6365,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6365,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

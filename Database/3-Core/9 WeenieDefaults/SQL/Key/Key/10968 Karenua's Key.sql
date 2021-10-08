@@ -30,9 +30,9 @@ VALUES (10968,   1, 'Karenua''s Key') /* Name */
      , (10968,  33, 'ChampionQuest01') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10968,   1,   33557000) /* Setup */
-     , (10968,   3,  536870932) /* SoundTable */
-     , (10968,   6,   67111346) /* PaletteBase */
-     , (10968,   7,  268436150) /* ClothingBase */
-     , (10968,   8,  100671461) /* Icon */
-     , (10968,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (10968,   1, 0x02000A08) /* Setup */
+     , (10968,   3, 0x20000014) /* SoundTable */
+     , (10968,   6, 0x040009B2) /* PaletteBase */
+     , (10968,   7, 0x100002B6) /* ClothingBase */
+     , (10968,   8, 0x06001FE5) /* Icon */
+     , (10968,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -22,5 +22,5 @@ VALUES (14729,   1, 'Rahvard Square') /* Name */
      , (14729,  16, 'Welcome to Rahvard Square') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14729,   1,   33557463) /* Setup */
-     , (14729,   8,  100668115) /* Icon */;
+VALUES (14729,   1, 0x02000BD7) /* Setup */
+     , (14729,   8, 0x060012D3) /* Icon */;

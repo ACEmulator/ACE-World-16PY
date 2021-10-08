@@ -25,7 +25,7 @@ VALUES (3589,   1, 'Scroll of Weapon Tinkering Ignorance III') /* Name */
      , (3589,  16, 'When learned, this spell decreases the target''s Weapon Tinkering skill by 33%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3589,   1,   33554826) /* Setup */
-     , (3589,   8,  100676477) /* Icon */
-     , (3589,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3589,   1, 0x0200018A) /* Setup */
+     , (3589,   8, 0x0600337D) /* Icon */
+     , (3589,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3589,  28,        794) /* Spell - Weapon Tinkering Ignorance Other III */;

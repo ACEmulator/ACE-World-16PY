@@ -64,11 +64,11 @@ VALUES (24247,   1, 'Teela') /* Name */
      , (24247,   5, 'Olthoi Fighter') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24247,   1,   33554510) /* Setup */
-     , (24247,   2,  150994945) /* MotionTable */
-     , (24247,   3,  536870914) /* SoundTable */
-     , (24247,   4,  805306368) /* CombatTable */
-     , (24247,   8,  100667446) /* Icon */;
+VALUES (24247,   1, 0x0200004E) /* Setup */
+     , (24247,   2, 0x09000001) /* MotionTable */
+     , (24247,   3, 0x20000002) /* SoundTable */
+     , (24247,   4, 0x30000000) /* CombatTable */
+     , (24247,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24247,   1,  85, 0, 0) /* Strength */

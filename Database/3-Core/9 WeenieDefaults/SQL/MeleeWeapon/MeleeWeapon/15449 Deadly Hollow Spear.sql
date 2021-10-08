@@ -50,10 +50,10 @@ VALUES (15449,   1, 'Deadly Hollow Spear') /* Name */
      , (15449,  16, 'A spear crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon is unenchantable and ignores modified armor and protection values.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15449,   1,   33556646) /* Setup */
-     , (15449,   3,  536870932) /* SoundTable */
-     , (15449,   6,   67111919) /* PaletteBase */
-     , (15449,   7,  268435768) /* ClothingBase */
-     , (15449,   8,  100669005) /* Icon */
-     , (15449,  22,  872415275) /* PhysicsEffectTable */
-     , (15449,  36,  234881044) /* MutateFilter */;
+VALUES (15449,   1, 0x020008A6) /* Setup */
+     , (15449,   3, 0x20000014) /* SoundTable */
+     , (15449,   6, 0x04000BEF) /* PaletteBase */
+     , (15449,   7, 0x10000138) /* ClothingBase */
+     , (15449,   8, 0x0600164D) /* Icon */
+     , (15449,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (15449,  36, 0x0E000014) /* MutateFilter */;

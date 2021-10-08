@@ -70,14 +70,14 @@ VALUES (6831,   1, 'Tou-Tou Spire Shadow') /* Name */
      , (6831,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6831,   1,   33556563) /* Setup */
-     , (6831,   2,  150995092) /* MotionTable */
-     , (6831,   3,  536870913) /* SoundTable */
-     , (6831,   4,  805306368) /* CombatTable */
-     , (6831,   6,   67111797) /* PaletteBase */
-     , (6831,   7,  268435992) /* ClothingBase */
-     , (6831,   8,  100670397) /* Icon */
-     , (6831,  22,  872415331) /* PhysicsEffectTable */
+VALUES (6831,   1, 0x02000853) /* Setup */
+     , (6831,   2, 0x09000094) /* MotionTable */
+     , (6831,   3, 0x20000001) /* SoundTable */
+     , (6831,   4, 0x30000000) /* CombatTable */
+     , (6831,   6, 0x04000B75) /* PaletteBase */
+     , (6831,   7, 0x10000218) /* ClothingBase */
+     , (6831,   8, 0x06001BBD) /* Icon */
+     , (6831,  22, 0x34000063) /* PhysicsEffectTable */
      , (6831,  32,        175) /* WieldedTreasureType - 
                                    Wield Yumi (23735) | Probability: 20%
                                    Wield 14x Fire Arrow (1437) | Probability: 100%

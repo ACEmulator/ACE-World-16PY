@@ -23,7 +23,7 @@ VALUES (25763,   1, 'Aluvian Lamp') /* Name */
      , (25763,  14, 'This item can be used on wall hooks.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25763,   1,   33558533) /* Setup */
-     , (25763,   3,  536870932) /* SoundTable */
-     , (25763,   8,  100675565) /* Icon */
-     , (25763,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25763,   1, 0x02001005) /* Setup */
+     , (25763,   3, 0x20000014) /* SoundTable */
+     , (25763,   8, 0x06002FED) /* Icon */
+     , (25763,  22, 0x3400002B) /* PhysicsEffectTable */;

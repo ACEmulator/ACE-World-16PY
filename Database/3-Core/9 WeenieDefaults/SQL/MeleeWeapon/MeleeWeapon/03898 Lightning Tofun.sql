@@ -38,11 +38,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3898,   1, 'Lightning Tofun') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3898,   1,   33555744) /* Setup */
-     , (3898,   3,  536870932) /* SoundTable */
-     , (3898,   6,   67111919) /* PaletteBase */
-     , (3898,   7,  268435792) /* ClothingBase */
-     , (3898,   8,  100667599) /* Icon */
-     , (3898,  22,  872415275) /* PhysicsEffectTable */
-     , (3898,  36,  234881053) /* MutateFilter */
-     , (3898,  46,  939524099) /* TsysMutationFilter */;
+VALUES (3898,   1, 0x02000520) /* Setup */
+     , (3898,   3, 0x20000014) /* SoundTable */
+     , (3898,   6, 0x04000BEF) /* PaletteBase */
+     , (3898,   7, 0x10000150) /* ClothingBase */
+     , (3898,   8, 0x060010CF) /* Icon */
+     , (3898,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3898,  36, 0x0E00001D) /* MutateFilter */
+     , (3898,  46, 0x38000003) /* TsysMutationFilter */;

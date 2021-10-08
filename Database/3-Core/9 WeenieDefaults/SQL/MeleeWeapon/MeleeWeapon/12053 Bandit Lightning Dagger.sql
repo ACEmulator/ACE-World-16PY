@@ -35,10 +35,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12053,   1, 'Bandit Lightning Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12053,   1,   33555707) /* Setup */
-     , (12053,   3,  536870932) /* SoundTable */
-     , (12053,   6,   67111919) /* PaletteBase */
-     , (12053,   7,  268435783) /* ClothingBase */
-     , (12053,   8,  100667589) /* Icon */
-     , (12053,  22,  872415275) /* PhysicsEffectTable */
-     , (12053,  36,  234881044) /* MutateFilter */;
+VALUES (12053,   1, 0x020004FB) /* Setup */
+     , (12053,   3, 0x20000014) /* SoundTable */
+     , (12053,   6, 0x04000BEF) /* PaletteBase */
+     , (12053,   7, 0x10000147) /* ClothingBase */
+     , (12053,   8, 0x060010C5) /* Icon */
+     , (12053,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (12053,  36, 0x0E000014) /* MutateFilter */;

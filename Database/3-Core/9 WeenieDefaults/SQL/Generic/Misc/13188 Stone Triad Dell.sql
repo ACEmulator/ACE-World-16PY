@@ -22,5 +22,5 @@ VALUES (13188,   1, 'Stone Triad Dell') /* Name */
      , (13188,  16, 'Welcome to Stone Triad Dell') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13188,   1,   33557463) /* Setup */
-     , (13188,   8,  100668115) /* Icon */;
+VALUES (13188,   1, 0x02000BD7) /* Setup */
+     , (13188,   8, 0x060012D3) /* Icon */;

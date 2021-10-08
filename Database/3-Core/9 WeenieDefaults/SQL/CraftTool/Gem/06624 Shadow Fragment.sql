@@ -32,9 +32,9 @@ VALUES (6624,   1, 'Shadow Fragment') /* Name */
      , (6624,  16, 'A fragment of shadow.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6624,   1,   33554809) /* Setup */
-     , (6624,   3,  536870932) /* SoundTable */
-     , (6624,   6,   67111919) /* PaletteBase */
-     , (6624,   7,  268435723) /* ClothingBase */
-     , (6624,   8,  100671740) /* Icon */
-     , (6624,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6624,   1, 0x02000179) /* Setup */
+     , (6624,   3, 0x20000014) /* SoundTable */
+     , (6624,   6, 0x04000BEF) /* PaletteBase */
+     , (6624,   7, 0x1000010B) /* ClothingBase */
+     , (6624,   8, 0x060020FC) /* Icon */
+     , (6624,  22, 0x3400002B) /* PhysicsEffectTable */;

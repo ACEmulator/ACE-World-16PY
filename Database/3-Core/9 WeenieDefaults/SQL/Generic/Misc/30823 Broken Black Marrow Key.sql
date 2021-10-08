@@ -26,7 +26,7 @@ VALUES (30823,   1, 'Broken Black Marrow Key') /* Name */
      , (30823,  15, 'A collection of fragments that appears to have once been a key. Use an intricate carving tool to reassemble the pieces.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30823,   1,   33554784) /* Setup */
-     , (30823,   3,  536870932) /* SoundTable */
-     , (30823,   8,  100677500) /* Icon */
-     , (30823,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30823,   1, 0x02000160) /* Setup */
+     , (30823,   3, 0x20000014) /* SoundTable */
+     , (30823,   8, 0x0600377C) /* Icon */
+     , (30823,  22, 0x3400002B) /* PhysicsEffectTable */;

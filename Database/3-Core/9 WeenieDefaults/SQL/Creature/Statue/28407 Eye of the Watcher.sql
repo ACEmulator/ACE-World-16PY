@@ -63,12 +63,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28407,   1, 'Eye of the Watcher') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28407,   1,   33558604) /* Setup */
-     , (28407,   2,  150995275) /* MotionTable */
-     , (28407,   3,  536871052) /* SoundTable */
-     , (28407,   4,  805306398) /* CombatTable */
-     , (28407,   8,  100675798) /* Icon */
-     , (28407,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (28407,   1, 0x0200104C) /* Setup */
+     , (28407,   2, 0x0900014B) /* MotionTable */
+     , (28407,   3, 0x2000008C) /* SoundTable */
+     , (28407,   4, 0x3000001E) /* CombatTable */
+     , (28407,   8, 0x060030D6) /* Icon */
+     , (28407,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28407,   1, 380, 0, 0) /* Strength */

@@ -63,12 +63,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8562,   1, 'Skeleton Lord') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8562,   1,   33555464) /* Setup */
-     , (8562,   2,  150994981) /* MotionTable */
-     , (8562,   3,  536870942) /* SoundTable */
-     , (8562,   4,  805306368) /* CombatTable */
-     , (8562,   8,  100669124) /* Icon */
-     , (8562,  22,  872415269) /* PhysicsEffectTable */
+VALUES (8562,   1, 0x02000408) /* Setup */
+     , (8562,   2, 0x09000025) /* MotionTable */
+     , (8562,   3, 0x2000001E) /* SoundTable */
+     , (8562,   4, 0x30000000) /* CombatTable */
+     , (8562,   8, 0x060016C4) /* Icon */
+     , (8562,  22, 0x34000025) /* PhysicsEffectTable */
      , (8562,  32,        336) /* WieldedTreasureType - 
                                    Wield Dericostian Longbow (8560) | Probability: 100%
                                    Wield 20x Arrow (300) | Probability: 100% */

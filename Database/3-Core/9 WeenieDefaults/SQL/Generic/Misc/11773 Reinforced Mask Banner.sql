@@ -25,10 +25,10 @@ VALUES (11773,   1, 'Reinforced Mask Banner') /* Name */
      , (11773,  16, 'A reinforced banner with a mask on it.  It is in almost perfect condition, and the colors are quite vibrant.  As you gaze at the mask, it almost seems to be gazing back.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11773,   1,   33557241) /* Setup */
-     , (11773,   3,  536870932) /* SoundTable */
-     , (11773,   6,   67113338) /* PaletteBase */
-     , (11773,   7,  268436209) /* ClothingBase */
-     , (11773,   8,  100671926) /* Icon */
-     , (11773,  22,  872415275) /* PhysicsEffectTable */
-     , (11773,  36,  234881046) /* MutateFilter */;
+VALUES (11773,   1, 0x02000AF9) /* Setup */
+     , (11773,   3, 0x20000014) /* SoundTable */
+     , (11773,   6, 0x0400117A) /* PaletteBase */
+     , (11773,   7, 0x100002F1) /* ClothingBase */
+     , (11773,   8, 0x060021B6) /* Icon */
+     , (11773,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11773,  36, 0x0E000016) /* MutateFilter */;

@@ -66,12 +66,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7818,   1, 'an evil presence') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7818,   1,   33555869) /* Setup */
-     , (7818,   2,  150994993) /* MotionTable */
-     , (7818,   3,  536871006) /* SoundTable */
-     , (7818,   4,  805306398) /* CombatTable */
-     , (7818,   8,  100667494) /* Icon */
-     , (7818,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (7818,   1, 0x0200059D) /* Setup */
+     , (7818,   2, 0x09000031) /* MotionTable */
+     , (7818,   3, 0x2000005E) /* SoundTable */
+     , (7818,   4, 0x3000001E) /* CombatTable */
+     , (7818,   8, 0x06001066) /* Icon */
+     , (7818,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7818,   1,  10, 0, 0) /* Strength */

@@ -22,5 +22,5 @@ VALUES (19168,   1, 'Dame Tolani Villas') /* Name */
      , (19168,  16, 'Welcome to Dame Tolani Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19168,   1,   33557463) /* Setup */
-     , (19168,   8,  100668115) /* Icon */;
+VALUES (19168,   1, 0x02000BD7) /* Setup */
+     , (19168,   8, 0x060012D3) /* Icon */;

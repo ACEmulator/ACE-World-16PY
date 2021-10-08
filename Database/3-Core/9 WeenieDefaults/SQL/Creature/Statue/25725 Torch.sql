@@ -64,12 +64,12 @@ VALUES (25725,   1, 'Torch') /* Name */
      , (25725,  15, 'A torch.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25725,   1,   33554917) /* Setup */
-     , (25725,   2,  150995094) /* MotionTable */
-     , (25725,   3,  536870980) /* SoundTable */
-     , (25725,   4,  805306398) /* CombatTable */
-     , (25725,   8,  100667506) /* Icon */
-     , (25725,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25725,   1, 0x020001E5) /* Setup */
+     , (25725,   2, 0x09000096) /* MotionTable */
+     , (25725,   3, 0x20000044) /* SoundTable */
+     , (25725,   4, 0x3000001E) /* CombatTable */
+     , (25725,   8, 0x06001072) /* Icon */
+     , (25725,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25725,   1, 380, 0, 0) /* Strength */

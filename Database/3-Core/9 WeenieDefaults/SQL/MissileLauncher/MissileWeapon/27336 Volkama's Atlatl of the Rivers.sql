@@ -51,12 +51,12 @@ VALUES (27336,   1, 'Volkama''s Atlatl of the Rivers') /* Name */
      , (27336,  16, 'An atlatl fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27336,   1,   33558660) /* Setup */
-     , (27336,   3,  536870932) /* SoundTable */
-     , (27336,   6,   67113336) /* PaletteBase */
-     , (27336,   7,  268436254) /* ClothingBase */
-     , (27336,   8,  100676384) /* Icon */
-     , (27336,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27336,   1, 0x02001084) /* Setup */
+     , (27336,   3, 0x20000014) /* SoundTable */
+     , (27336,   6, 0x04001178) /* PaletteBase */
+     , (27336,   7, 0x1000031E) /* ClothingBase */
+     , (27336,   8, 0x06003320) /* Icon */
+     , (27336,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27336,  3218,      2)  /* Greater Cascade */

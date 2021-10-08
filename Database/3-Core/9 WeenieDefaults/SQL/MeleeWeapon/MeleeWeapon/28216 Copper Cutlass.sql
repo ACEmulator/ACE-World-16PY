@@ -48,10 +48,10 @@ VALUES (28216,   1, 'Copper Cutlass') /* Name */
      , (28216,  16, 'A sword crafted from the tooth of a copper gromnie.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28216,   1,   33558828) /* Setup */
-     , (28216,   3,  536870932) /* SoundTable */
-     , (28216,   8,  100676799) /* Icon */
-     , (28216,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28216,   1, 0x0200112C) /* Setup */
+     , (28216,   3, 0x20000014) /* SoundTable */
+     , (28216,   8, 0x060034BF) /* Icon */
+     , (28216,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28216,  1605,      2)  /* Aura of Defender Self VI */

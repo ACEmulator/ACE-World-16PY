@@ -41,7 +41,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9237,   1, 'Fleshripper Quarrel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9237,   1,   33556989) /* Setup */
-     , (9237,   3,  536870932) /* SoundTable */
-     , (9237,   8,  100671403) /* Icon */
-     , (9237,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9237,   1, 0x020009FD) /* Setup */
+     , (9237,   3, 0x20000014) /* SoundTable */
+     , (9237,   8, 0x06001FAB) /* Icon */
+     , (9237,  22, 0x3400002B) /* PhysicsEffectTable */;

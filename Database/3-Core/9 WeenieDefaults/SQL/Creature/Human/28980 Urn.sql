@@ -67,10 +67,10 @@ VALUES (28980,   1, 'Urn') /* Name */
      , (28980,  15, 'A simple looking amphorae that has been sealed.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28980,   1,   33558976) /* Setup */
-     , (28980,   2,  150995278) /* MotionTable */
-     , (28980,   3,  536871052) /* SoundTable */
-     , (28980,   8,  100677067) /* Icon */;
+VALUES (28980,   1, 0x020011C0) /* Setup */
+     , (28980,   2, 0x0900014E) /* MotionTable */
+     , (28980,   3, 0x2000008C) /* SoundTable */
+     , (28980,   8, 0x060035CB) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28980,   1, 340, 0, 0) /* Strength */

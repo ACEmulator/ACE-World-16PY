@@ -28,7 +28,7 @@ VALUES (11250,   1, 'Stave of Palenqual') /* Name */
      , (11250,  16, 'The Stave of Palenqual, an Aun Tumerok relic. This magic caster was given to the Aun xuta by spirits called the Deru. It is the embodiment of Marae Lassel''s spirit - a single great totem for the island as a whole. Three Tumerok fetishes must be added to this weapon in order to use it. The Siraluun and Storm Totems have already been added; there is space for one more.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11250,   1,   33557232) /* Setup */
-     , (11250,   3,  536870932) /* SoundTable */
-     , (11250,   8,  100671868) /* Icon */
-     , (11250,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11250,   1, 0x02000AF0) /* Setup */
+     , (11250,   3, 0x20000014) /* SoundTable */
+     , (11250,   8, 0x0600217C) /* Icon */
+     , (11250,  22, 0x3400002B) /* PhysicsEffectTable */;

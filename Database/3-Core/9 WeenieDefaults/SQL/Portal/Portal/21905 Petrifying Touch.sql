@@ -26,9 +26,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21905,   1, 'Petrifying Touch') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21905,   1,   33555922) /* Setup */
-     , (21905,   2,  150994947) /* MotionTable */
-     , (21905,   8,  100667499) /* Icon */;
+VALUES (21905,   1, 0x020005D2) /* Setup */
+     , (21905,   2, 0x09000003) /* MotionTable */
+     , (21905,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (21905, 2, 0x5A470155, 80, -176.359, 0.005, 0.707107, 0, 0, -0.707107) /* Destination */

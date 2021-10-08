@@ -23,7 +23,7 @@ VALUES (1796,   1, 'Gemstones and Grimoires') /* Name */
      , (1796,  16, 'Gemstones and Grimoires') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1796,   1,   33555909) /* Setup */
-     , (1796,   6,   67111860) /* PaletteBase */
-     , (1796,   7,  268435823) /* ClothingBase */
-     , (1796,   8,  100668115) /* Icon */;
+VALUES (1796,   1, 0x020005C5) /* Setup */
+     , (1796,   6, 0x04000BB4) /* PaletteBase */
+     , (1796,   7, 0x1000016F) /* ClothingBase */
+     , (1796,   8, 0x060012D3) /* Icon */;

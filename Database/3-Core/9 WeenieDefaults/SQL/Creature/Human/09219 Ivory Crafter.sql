@@ -63,11 +63,11 @@ VALUES (9219,   1, 'Ivory Crafter') /* Name */
      , (9219,   5, 'Trophy Crafter') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9219,   1,   33554433) /* Setup */
-     , (9219,   2,  150994945) /* MotionTable */
-     , (9219,   3,  536870913) /* SoundTable */
-     , (9219,   4,  805306368) /* CombatTable */
-     , (9219,   8,  100667446) /* Icon */;
+VALUES (9219,   1, 0x02000001) /* Setup */
+     , (9219,   2, 0x09000001) /* MotionTable */
+     , (9219,   3, 0x20000001) /* SoundTable */
+     , (9219,   4, 0x30000000) /* CombatTable */
+     , (9219,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9219,   1,  80, 0, 0) /* Strength */

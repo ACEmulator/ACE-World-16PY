@@ -22,7 +22,7 @@ VALUES (1086,   1, 'Skull and Flagons') /* Name */
      , (1086,  16, 'Skull and Flagons') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1086,   1,   33555088) /* Setup */
-     , (1086,   6,   67111092) /* PaletteBase */
-     , (1086,   7,  268435662) /* ClothingBase */
-     , (1086,   8,  100668115) /* Icon */;
+VALUES (1086,   1, 0x02000290) /* Setup */
+     , (1086,   6, 0x040008B4) /* PaletteBase */
+     , (1086,   7, 0x100000CE) /* ClothingBase */
+     , (1086,   8, 0x060012D3) /* Icon */;

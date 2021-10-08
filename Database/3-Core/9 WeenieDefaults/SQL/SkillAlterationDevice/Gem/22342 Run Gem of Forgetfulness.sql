@@ -25,8 +25,8 @@ VALUES (22342,   1, 'Run Gem of Forgetfulness') /* Name */
      , (22342,  33, 'SkillAlterationGemPickedUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22342,   1,   33558087) /* Setup */
-     , (22342,   6,   67111919) /* PaletteBase */
-     , (22342,   7,  268435723) /* ClothingBase */
-     , (22342,   8,  100673789) /* Icon */
-     , (22342,  50,  100673780) /* IconOverlay */;
+VALUES (22342,   1, 0x02000E47) /* Setup */
+     , (22342,   6, 0x04000BEF) /* PaletteBase */
+     , (22342,   7, 0x1000010B) /* ClothingBase */
+     , (22342,   8, 0x060028FD) /* Icon */
+     , (22342,  50, 0x060028F4) /* IconOverlay */;

@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5650,   1, 'The Old Keep') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5650,   1,   33554867) /* Setup */
-     , (5650,   2,  150994947) /* MotionTable */
-     , (5650,   8,  100667499) /* Icon */;
+VALUES (5650,   1, 0x020001B3) /* Setup */
+     , (5650,   2, 0x09000003) /* MotionTable */
+     , (5650,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5650, 2, 0xD53E0009, 27.146, 17.452, 342.914, 0.118595, 0, 0, -0.992943) /* Destination */

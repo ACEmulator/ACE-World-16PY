@@ -32,7 +32,7 @@ VALUES (21346,   1, 'Fletching Tool Glyph') /* Name */
      , (21346,  16, 'A glyph with the image of a fletching tool emblazoned upon it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21346,   1,   33556438) /* Setup */
-     , (21346,   3,  536870932) /* SoundTable */
-     , (21346,   8,  100673582) /* Icon */
-     , (21346,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21346,   1, 0x020007D6) /* Setup */
+     , (21346,   3, 0x20000014) /* SoundTable */
+     , (21346,   8, 0x0600282E) /* Icon */
+     , (21346,  22, 0x3400002B) /* PhysicsEffectTable */;

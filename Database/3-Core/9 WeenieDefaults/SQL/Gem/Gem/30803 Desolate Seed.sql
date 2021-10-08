@@ -36,9 +36,9 @@ VALUES (30803,   1, 'Desolate Seed') /* Name */
      , (30803,  15, 'A small, blackened seed with golden runes etched into its side.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30803,   1,   33557130) /* Setup */
-     , (30803,   3,  536870932) /* SoundTable */
-     , (30803,   8,  100677489) /* Icon */
-     , (30803,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30803,   1, 0x02000A8A) /* Setup */
+     , (30803,   3, 0x20000014) /* SoundTable */
+     , (30803,   8, 0x06003771) /* Icon */
+     , (30803,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30803,  28,        157) /* Spell - Summon Primary Portal I */
      , (30803,  31,      10794) /* LinkedPortalOne - Singularity Caul */;

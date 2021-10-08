@@ -33,12 +33,12 @@ VALUES (27111,   1, 'Elysa''s Band') /* Name */
      , (27111,  16, 'A vibrant ring given as a reward for finding out information of the new creatures that have come to Dereth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27111,   1,   33554691) /* Setup */
-     , (27111,   3,  536870932) /* SoundTable */
-     , (27111,   6,   67111919) /* PaletteBase */
-     , (27111,   7,  268436318) /* ClothingBase */
-     , (27111,   8,  100675932) /* Icon */
-     , (27111,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27111,   1, 0x02000103) /* Setup */
+     , (27111,   3, 0x20000014) /* SoundTable */
+     , (27111,   6, 0x04000BEF) /* PaletteBase */
+     , (27111,   7, 0x1000035E) /* ClothingBase */
+     , (27111,   8, 0x0600315C) /* Icon */
+     , (27111,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27111,   241,      2)  /* Invulnerability Other III */;

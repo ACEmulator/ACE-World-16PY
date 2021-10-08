@@ -26,9 +26,9 @@ VALUES (21282,   1, 'Destroyed Statue of a Reedshark') /* Name */
      , (21282,  15, 'This nullified shell is all that remains of the living Statue of a Reedshark that once threatened our peaceful town. Destroyed through the sole efforts of the citizens of Dereth, it remains as a testament to their valor. This land is yours now.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21282,   1,   33554489) /* Setup */
-     , (21282,   2,  150995216) /* MotionTable */
-     , (21282,   3,  536871052) /* SoundTable */
-     , (21282,   6,   67109313) /* PaletteBase */
-     , (21282,   7,  268435556) /* ClothingBase */
-     , (21282,   8,  100667939) /* Icon */;
+VALUES (21282,   1, 0x02000039) /* Setup */
+     , (21282,   2, 0x09000110) /* MotionTable */
+     , (21282,   3, 0x2000008C) /* SoundTable */
+     , (21282,   6, 0x040001C1) /* PaletteBase */
+     , (21282,   7, 0x10000064) /* ClothingBase */
+     , (21282,   8, 0x06001223) /* Icon */;

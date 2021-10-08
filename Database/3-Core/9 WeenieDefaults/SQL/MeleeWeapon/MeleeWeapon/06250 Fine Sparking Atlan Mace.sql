@@ -45,12 +45,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6250,   1, 'Fine Sparking Atlan Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6250,   1,   33556327) /* Setup */
-     , (6250,   3,  536870932) /* SoundTable */
-     , (6250,   6,   67111919) /* PaletteBase */
-     , (6250,   7,  268435906) /* ClothingBase */
-     , (6250,   8,  100670541) /* Icon */
-     , (6250,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6250,   1, 0x02000767) /* Setup */
+     , (6250,   3, 0x20000014) /* SoundTable */
+     , (6250,   6, 0x04000BEF) /* PaletteBase */
+     , (6250,   7, 0x100001C2) /* ClothingBase */
+     , (6250,   8, 0x06001C4D) /* Icon */
+     , (6250,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6250,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

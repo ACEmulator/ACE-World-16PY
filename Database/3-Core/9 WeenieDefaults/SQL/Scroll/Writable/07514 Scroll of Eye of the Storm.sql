@@ -24,7 +24,7 @@ VALUES (7514,   1, 'Scroll of Eye of the Storm') /* Name */
      , (7514,  15, 'When learned, this spell shoots eight waves of lightning outward from the caster. Each wave does 40-80 points of electric damage to the first thing it hits.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7514,   1,   33554826) /* Setup */
-     , (7514,   8,  100677012) /* Icon */
-     , (7514,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7514,   1, 0x0200018A) /* Setup */
+     , (7514,   8, 0x06003594) /* Icon */
+     , (7514,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7514,  28,       1788) /* Spell - Eye of the Storm */;

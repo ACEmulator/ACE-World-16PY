@@ -46,11 +46,11 @@ VALUES (1457,   1, 'Superior Shield') /* Name */
      , (1457,  33, 'ShieldSuperior') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1457,   1,   33558413) /* Setup */
-     , (1457,   6,   67114413) /* PaletteBase */
-     , (1457,   7,  268436647) /* ClothingBase */
-     , (1457,   8,  100674501) /* Icon */
-     , (1457,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1457,   1, 0x02000F8D) /* Setup */
+     , (1457,   6, 0x040015AD) /* PaletteBase */
+     , (1457,   7, 0x100004A7) /* ClothingBase */
+     , (1457,   8, 0x06002BC5) /* Icon */
+     , (1457,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1457,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

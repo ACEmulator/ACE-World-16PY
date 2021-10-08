@@ -28,8 +28,8 @@ VALUES (29034,   1, 'Eye of Darkness') /* Name */
      , (29034,  26, 'The altar simply remains silent.') /* UsePkServerError */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29034,   1,   33558604) /* Setup */
-     , (29034,   2,  150995275) /* MotionTable */
-     , (29034,   3,  536870964) /* SoundTable */
-     , (29034,   8,  100675798) /* Icon */
-     , (29034,  25,  268435537) /* UseTargetSuccessAnimation - Twitch1 */;
+VALUES (29034,   1, 0x0200104C) /* Setup */
+     , (29034,   2, 0x0900014B) /* MotionTable */
+     , (29034,   3, 0x20000034) /* SoundTable */
+     , (29034,   8, 0x060030D6) /* Icon */
+     , (29034,  25, 0x10000051) /* UseTargetSuccessAnimation - Twitch1 */;

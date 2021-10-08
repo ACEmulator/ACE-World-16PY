@@ -27,10 +27,10 @@ VALUES (27318,   1, 'Health Philtre') /* Name */
      , (27318,  14, 'Use this item to drink it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27318,   1,   33554603) /* Setup */
-     , (27318,   3,  536870932) /* SoundTable */
-     , (27318,   6,   67111919) /* PaletteBase */
-     , (27318,   7,  268435816) /* ClothingBase */
-     , (27318,   8,  100676314) /* Icon */
-     , (27318,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27318,   1, 0x020000AB) /* Setup */
+     , (27318,   3, 0x20000014) /* SoundTable */
+     , (27318,   6, 0x04000BEF) /* PaletteBase */
+     , (27318,   7, 0x10000168) /* ClothingBase */
+     , (27318,   8, 0x060032DA) /* Icon */
+     , (27318,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27318,  23,         65) /* UseSound - Drink1 */;

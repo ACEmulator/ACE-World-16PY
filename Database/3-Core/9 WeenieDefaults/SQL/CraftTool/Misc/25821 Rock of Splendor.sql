@@ -30,8 +30,8 @@ VALUES (25821,   1, 'Rock of Splendor') /* Name */
      , (25821,  15, 'This rock is a perfect sphere, rubbed smooth in hot magma currents.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25821,   1,   33554669) /* Setup */
-     , (25821,   3,  536870932) /* SoundTable */
-     , (25821,   7,  268435751) /* ClothingBase */
-     , (25821,   8,  100670073) /* Icon */
-     , (25821,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25821,   1, 0x020000ED) /* Setup */
+     , (25821,   3, 0x20000014) /* SoundTable */
+     , (25821,   7, 0x10000127) /* ClothingBase */
+     , (25821,   8, 0x06001A79) /* Icon */
+     , (25821,  22, 0x3400002B) /* PhysicsEffectTable */;

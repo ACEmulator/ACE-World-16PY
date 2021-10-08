@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27511,   1, 'Virindi Quidiox') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27511,   1,   33556982) /* Setup */
-     , (27511,   2,  150994984) /* MotionTable */
-     , (27511,   3,  536870930) /* SoundTable */
-     , (27511,   4,  805306381) /* CombatTable */
-     , (27511,   6,   67111346) /* PaletteBase */
-     , (27511,   7,  268435649) /* ClothingBase */
-     , (27511,   8,  100667943) /* Icon */
-     , (27511,  22,  872415273) /* PhysicsEffectTable */
+VALUES (27511,   1, 0x020009F6) /* Setup */
+     , (27511,   2, 0x09000028) /* MotionTable */
+     , (27511,   3, 0x20000012) /* SoundTable */
+     , (27511,   4, 0x3000000D) /* CombatTable */
+     , (27511,   6, 0x040009B2) /* PaletteBase */
+     , (27511,   7, 0x100000C1) /* ClothingBase */
+     , (27511,   8, 0x06001227) /* Icon */
+     , (27511,  22, 0x34000029) /* PhysicsEffectTable */
      , (27511,  35,         26) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

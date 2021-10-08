@@ -41,7 +41,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28220,   1, 'Ruddy Tooth Spiketail') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28220,   1,   33558197) /* Setup */
-     , (28220,   3,  536870932) /* SoundTable */
-     , (28220,   8,  100676804) /* Icon */
-     , (28220,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28220,   1, 0x02000EB5) /* Setup */
+     , (28220,   3, 0x20000014) /* SoundTable */
+     , (28220,   8, 0x060034C4) /* Icon */
+     , (28220,  22, 0x3400002B) /* PhysicsEffectTable */;

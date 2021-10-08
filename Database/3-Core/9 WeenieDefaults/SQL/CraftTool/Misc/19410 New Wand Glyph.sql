@@ -34,9 +34,9 @@ VALUES (19410,   1, 'New Wand Glyph') /* Name */
      , (19410,  16, 'A glyph with the image of a wand emblazoned upon it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19410,   1,   33556438) /* Setup */
-     , (19410,   3,  536870932) /* SoundTable */
-     , (19410,   6,   67111092) /* PaletteBase */
-     , (19410,   7,  268436386) /* ClothingBase */
-     , (19410,   8,  100672880) /* Icon */
-     , (19410,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19410,   1, 0x020007D6) /* Setup */
+     , (19410,   3, 0x20000014) /* SoundTable */
+     , (19410,   6, 0x040008B4) /* PaletteBase */
+     , (19410,   7, 0x100003A2) /* ClothingBase */
+     , (19410,   8, 0x06002570) /* Icon */
+     , (19410,  22, 0x3400002B) /* PhysicsEffectTable */;

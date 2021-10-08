@@ -47,12 +47,12 @@ VALUES (29370,   1, 'Platinum Invader Lord Helm') /* Name */
      , (29370,  33, 'HelmSimulacra') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29370,   1,   33556883) /* Setup */
-     , (29370,   3,  536870932) /* SoundTable */
-     , (29370,   6,   67108990) /* PaletteBase */
-     , (29370,   7,  268436261) /* ClothingBase */
-     , (29370,   8,  100672134) /* Icon */
-     , (29370,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29370,   1, 0x02000993) /* Setup */
+     , (29370,   3, 0x20000014) /* SoundTable */
+     , (29370,   6, 0x0400007E) /* PaletteBase */
+     , (29370,   7, 0x10000325) /* ClothingBase */
+     , (29370,   8, 0x06002286) /* Icon */
+     , (29370,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29370,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

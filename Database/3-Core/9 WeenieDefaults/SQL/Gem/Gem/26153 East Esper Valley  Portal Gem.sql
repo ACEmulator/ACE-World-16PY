@@ -36,11 +36,11 @@ VALUES (26153,   1, 'East Esper Valley  Portal Gem') /* Name */
      , (26153,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26153,   1,   33556769) /* Setup */
-     , (26153,   3,  536870932) /* SoundTable */
-     , (26153,   6,   67111919) /* PaletteBase */
-     , (26153,   7,  268435723) /* ClothingBase */
-     , (26153,   8,  100675760) /* Icon */
-     , (26153,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26153,   1, 0x02000921) /* Setup */
+     , (26153,   3, 0x20000014) /* SoundTable */
+     , (26153,   6, 0x04000BEF) /* PaletteBase */
+     , (26153,   7, 0x1000010B) /* ClothingBase */
+     , (26153,   8, 0x060030B0) /* Icon */
+     , (26153,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26153,  28,        157) /* Spell - Summon Primary Portal I */
      , (26153,  31,      12489) /* LinkedPortalOne - East Esper Valley  Portal */;

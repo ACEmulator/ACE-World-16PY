@@ -65,12 +65,12 @@ VALUES (29588,   1, 'Stomach Wall') /* Name */
      , (29588,  16, 'A throbbing wall of living fleshy material. The gurgling of acid and the presence of half digested corpses alerts you to the fact that this is a stomach wall. You are in the belly of the beast.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29588,   1,   33559079) /* Setup */
-     , (29588,   2,  150995318) /* MotionTable */
-     , (29588,   3,  536871001) /* SoundTable */
-     , (29588,   4,  805306372) /* CombatTable */
-     , (29588,   8,  100677188) /* Icon */
-     , (29588,  22,  872415339) /* PhysicsEffectTable */;
+VALUES (29588,   1, 0x02001227) /* Setup */
+     , (29588,   2, 0x09000176) /* MotionTable */
+     , (29588,   3, 0x20000059) /* SoundTable */
+     , (29588,   4, 0x30000004) /* CombatTable */
+     , (29588,   8, 0x06003644) /* Icon */
+     , (29588,  22, 0x3400006B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29588,   1,   1, 0, 0) /* Strength */

@@ -34,7 +34,7 @@ VALUES (11812,   1, 'Falcon Crest') /* Name */
      , (11812,  16, 'A Falcon Crest.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11812,   1,   33557280) /* Setup */
-     , (11812,   3,  536870932) /* SoundTable */
-     , (11812,   8,  100671942) /* Icon */
-     , (11812,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11812,   1, 0x02000B20) /* Setup */
+     , (11812,   3, 0x20000014) /* SoundTable */
+     , (11812,   8, 0x060021C6) /* Icon */
+     , (11812,  22, 0x3400002B) /* PhysicsEffectTable */;

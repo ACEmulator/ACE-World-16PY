@@ -23,5 +23,5 @@ VALUES (25774,   1, 'Fletching Table') /* Name */
      , (25774,  16, 'A table with various fletching supplies and tools on it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25774,   1,   33558528) /* Setup */
-     , (25774,   8,  100675553) /* Icon */;
+VALUES (25774,   1, 0x02001000) /* Setup */
+     , (25774,   8, 0x06002FE1) /* Icon */;

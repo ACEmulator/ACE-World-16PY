@@ -47,7 +47,7 @@ VALUES (8525,   1, 'Asmolum''s Throwing Dagger') /* Name */
      , (8525,  16, 'An ancient throwing dagger of Dericostian design. This weapon appears to be totally unreactive to spellcraft.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8525,   1,   33554744) /* Setup */
-     , (8525,   3,  536870932) /* SoundTable */
-     , (8525,   8,  100668935) /* Icon */
-     , (8525,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8525,   1, 0x02000138) /* Setup */
+     , (8525,   3, 0x20000014) /* SoundTable */
+     , (8525,   8, 0x06001607) /* Icon */
+     , (8525,  22, 0x3400002B) /* PhysicsEffectTable */;

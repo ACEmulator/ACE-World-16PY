@@ -70,11 +70,11 @@ VALUES (2300,   1, 'Shopkeep Yunen Ye') /* Name */
      , (2300,  24, 'Sawato') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2300,   1,   33554433) /* Setup */
-     , (2300,   2,  150994945) /* MotionTable */
-     , (2300,   3,  536870914) /* SoundTable */
-     , (2300,   4,  805306368) /* CombatTable */
-     , (2300,   8,  100667446) /* Icon */;
+VALUES (2300,   1, 0x02000001) /* Setup */
+     , (2300,   2, 0x09000001) /* MotionTable */
+     , (2300,   3, 0x20000002) /* SoundTable */
+     , (2300,   4, 0x30000000) /* CombatTable */
+     , (2300,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2300,   1,  70, 0, 0) /* Strength */

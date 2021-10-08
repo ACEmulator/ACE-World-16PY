@@ -64,12 +64,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (201,   1, 'Obsidian Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (201,   1,   33556440) /* Setup */
-     , (201,   2,  150995073) /* MotionTable */
-     , (201,   3,  536870933) /* SoundTable */
-     , (201,   4,  805306376) /* CombatTable */
-     , (201,   8,  100667940) /* Icon */
-     , (201,  22,  872415327) /* PhysicsEffectTable */
+VALUES (201,   1, 0x020007D8) /* Setup */
+     , (201,   2, 0x09000081) /* MotionTable */
+     , (201,   3, 0x20000015) /* SoundTable */
+     , (201,   4, 0x30000008) /* CombatTable */
+     , (201,   8, 0x06001224) /* Icon */
+     , (201,  22, 0x3400005F) /* PhysicsEffectTable */
      , (201,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

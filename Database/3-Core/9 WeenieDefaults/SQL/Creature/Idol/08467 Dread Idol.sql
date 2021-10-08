@@ -62,14 +62,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8467,   1, 'Dread Idol') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8467,   1,   33556892) /* Setup */
-     , (8467,   2,  150995105) /* MotionTable */
-     , (8467,   3,  536871017) /* SoundTable */
-     , (8467,   4,  805306414) /* CombatTable */
-     , (8467,   6,   67113068) /* PaletteBase */
-     , (8467,   7,  268436089) /* ClothingBase */
-     , (8467,   8,  100671204) /* Icon */
-     , (8467,  22,  872415369) /* PhysicsEffectTable */
+VALUES (8467,   1, 0x0200099C) /* Setup */
+     , (8467,   2, 0x090000A1) /* MotionTable */
+     , (8467,   3, 0x20000069) /* SoundTable */
+     , (8467,   4, 0x3000002E) /* CombatTable */
+     , (8467,   6, 0x0400106C) /* PaletteBase */
+     , (8467,   7, 0x10000279) /* ClothingBase */
+     , (8467,   8, 0x06001EE4) /* Icon */
+     , (8467,  22, 0x34000089) /* PhysicsEffectTable */
      , (8467,  30,         84) /* PhysicsScript - BreatheFlame */
      , (8467,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 

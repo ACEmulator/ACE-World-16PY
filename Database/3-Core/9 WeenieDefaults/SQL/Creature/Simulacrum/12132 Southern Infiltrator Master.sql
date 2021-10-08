@@ -65,12 +65,12 @@ VALUES (12132,   1, 'Southern Infiltrator Master') /* Name */
      , (12132,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12132,   1,   33554510) /* Setup */
-     , (12132,   2,  150995141) /* MotionTable */
-     , (12132,   3,  536871045) /* SoundTable */
-     , (12132,   4,  805306368) /* CombatTable */
-     , (12132,   8,  100667446) /* Icon */
-     , (12132,  22,  872415381) /* PhysicsEffectTable */
+VALUES (12132,   1, 0x0200004E) /* Setup */
+     , (12132,   2, 0x090000C5) /* MotionTable */
+     , (12132,   3, 0x20000085) /* SoundTable */
+     , (12132,   4, 0x30000000) /* CombatTable */
+     , (12132,   8, 0x06001036) /* Icon */
+     , (12132,  22, 0x34000095) /* PhysicsEffectTable */
      , (12132,  32,        372) /* WieldedTreasureType - 
                                    Wield 5x Javelin (320) | Probability: 10%
                                    Wield 5x Djarid (317) | Probability: 10%

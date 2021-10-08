@@ -64,11 +64,11 @@ VALUES (9676,   1, 'Gunther Danby') /* Name */
      , (9676,   5, 'Cook') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9676,   1,   33554433) /* Setup */
-     , (9676,   2,  150994945) /* MotionTable */
-     , (9676,   3,  536870913) /* SoundTable */
-     , (9676,   4,  805306368) /* CombatTable */
-     , (9676,   8,  100667446) /* Icon */;
+VALUES (9676,   1, 0x02000001) /* Setup */
+     , (9676,   2, 0x09000001) /* MotionTable */
+     , (9676,   3, 0x20000001) /* SoundTable */
+     , (9676,   4, 0x30000000) /* CombatTable */
+     , (9676,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9676,   1, 150, 0, 0) /* Strength */

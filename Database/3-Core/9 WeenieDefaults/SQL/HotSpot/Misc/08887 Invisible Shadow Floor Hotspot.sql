@@ -39,6 +39,6 @@ VALUES (8887,   1, 'Invisible Shadow Floor Hotspot') /* Name */
      , (8887,  17, 'The Shadow-twisted organic floor absorbs %i points of your flesh as you walk on it!') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8887,   1,   33556024) /* Setup */
-     , (8887,   3,  536871007) /* SoundTable */
-     , (8887,   8,  100667465) /* Icon */;
+VALUES (8887,   1, 0x02000638) /* Setup */
+     , (8887,   3, 0x2000005F) /* SoundTable */
+     , (8887,   8, 0x06001049) /* Icon */;

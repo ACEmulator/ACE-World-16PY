@@ -35,10 +35,10 @@ VALUES (8797,   1, 'Shendolain Soul Crystal Shard') /* Name */
      , (8797,  33, 'ShardSoulCrystal') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8797,   1,   33556406) /* Setup */
-     , (8797,   3,  536870932) /* SoundTable */
-     , (8797,   6,   67111919) /* PaletteBase */
-     , (8797,   7,  268435994) /* ClothingBase */
-     , (8797,   8,  100671236) /* Icon */
-     , (8797,  22,  872415275) /* PhysicsEffectTable */
-     , (8797,  36,  234881046) /* MutateFilter */;
+VALUES (8797,   1, 0x020007B6) /* Setup */
+     , (8797,   3, 0x20000014) /* SoundTable */
+     , (8797,   6, 0x04000BEF) /* PaletteBase */
+     , (8797,   7, 0x1000021A) /* ClothingBase */
+     , (8797,   8, 0x06001F04) /* Icon */
+     , (8797,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8797,  36, 0x0E000016) /* MutateFilter */;

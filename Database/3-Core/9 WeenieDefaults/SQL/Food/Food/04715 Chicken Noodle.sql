@@ -28,7 +28,7 @@ VALUES (4715,   1, 'Chicken Noodle') /* Name */
      , (4715,  20, 'Bowls of Chicken Noodle') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4715,   1,   33554668) /* Setup */
-     , (4715,   3,  536870932) /* SoundTable */
-     , (4715,   8,  100669966) /* Icon */
-     , (4715,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4715,   1, 0x020000EC) /* Setup */
+     , (4715,   3, 0x20000014) /* SoundTable */
+     , (4715,   8, 0x06001A0E) /* Icon */
+     , (4715,  22, 0x3400002B) /* PhysicsEffectTable */;

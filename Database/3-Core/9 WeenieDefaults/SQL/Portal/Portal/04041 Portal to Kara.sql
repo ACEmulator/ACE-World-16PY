@@ -25,9 +25,9 @@ VALUES (4041,   1, 'Portal to Kara') /* Name */
      , (4041,  16, 'This portal goes to the town of Kara, hidden deep in the Linvak range. This is a good town for characters over level 40.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4041,   1,   33555926) /* Setup */
-     , (4041,   2,  150994947) /* MotionTable */
-     , (4041,   8,  100667499) /* Icon */;
+VALUES (4041,   1, 0x020005D6) /* Setup */
+     , (4041,   2, 0x09000003) /* MotionTable */
+     , (4041,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4041, 2, 0xBA170039, 181.2, 3.2, 167.7, -0.848048, 0, -0, -0.529919) /* Destination */

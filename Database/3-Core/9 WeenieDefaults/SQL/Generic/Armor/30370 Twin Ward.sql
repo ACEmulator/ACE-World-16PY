@@ -38,9 +38,9 @@ VALUES (30370,   1, 'Twin Ward') /* Name */
      , (30370,  16, 'Describe me here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30370,   1,   33554788) /* Setup */
-     , (30370,   3,  536870932) /* SoundTable */
-     , (30370,   6,   67111919) /* PaletteBase */
-     , (30370,   7,  268435610) /* ClothingBase */
-     , (30370,   8,  100668151) /* Icon */
-     , (30370,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30370,   1, 0x02000164) /* Setup */
+     , (30370,   3, 0x20000014) /* SoundTable */
+     , (30370,   6, 0x04000BEF) /* PaletteBase */
+     , (30370,   7, 0x1000009A) /* ClothingBase */
+     , (30370,   8, 0x060012F7) /* Icon */
+     , (30370,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -28,8 +28,8 @@ VALUES (11189,   1, 'Unarmed Combat Tessera') /* Name */
      , (11189,  16, 'A small, squarish piece of glass. This can be turned into the Tah of Timaru for a free one-point boost to your Unarmed Combat skill. There are tesserae available for each skill in the game. If you don''t want a point of Unarmed Combat, trade this tessera for another. You may only turn in five per character - so choose carefully!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11189,   1,   33557218) /* Setup */
-     , (11189,   3,  536870932) /* SoundTable */
-     , (11189,   8,  100671816) /* Icon */
-     , (11189,  22,  872415275) /* PhysicsEffectTable */
-     , (11189,  36,  234881046) /* MutateFilter */;
+VALUES (11189,   1, 0x02000AE2) /* Setup */
+     , (11189,   3, 0x20000014) /* SoundTable */
+     , (11189,   8, 0x06002148) /* Icon */
+     , (11189,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11189,  36, 0x0E000016) /* MutateFilter */;

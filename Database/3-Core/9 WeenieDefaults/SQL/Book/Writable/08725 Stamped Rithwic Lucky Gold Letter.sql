@@ -27,10 +27,10 @@ VALUES (8725,   1, 'Stamped Rithwic Lucky Gold Letter') /* Name */
      , (8725,  15, 'A bright gold piece of paper with some writing and a big stamp on it.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8725,   1,   33556919) /* Setup */
-     , (8725,   3,  536870932) /* SoundTable */
-     , (8725,   8,  100671214) /* Icon */
-     , (8725,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8725,   1, 0x020009B7) /* Setup */
+     , (8725,   3, 0x20000014) /* SoundTable */
+     , (8725,   8, 0x06001EEE) /* Icon */
+     , (8725,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (8725, 2, 1000);

@@ -26,6 +26,6 @@ VALUES (2617,   1, 'Carved Key') /* Name */
      , (2617,  16, 'This stout, carved key made of stone is used in the Carved Cave.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2617,   1,   33554784) /* Setup */
-     , (2617,   8,  100668441) /* Icon */
-     , (2617,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (2617,   1, 0x02000160) /* Setup */
+     , (2617,   8, 0x06001419) /* Icon */
+     , (2617,  22, 0x3400002B) /* PhysicsEffectTable */;

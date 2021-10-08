@@ -45,12 +45,12 @@ VALUES (28071,   1, 'Aphus Wading Pants') /* Name */
      , (28071,  16, 'A pair of well crafted pants that are cut just below the knee. They are ideal for wading and are crafted from the finest Gharu''ndim silk. Thin lines of Pyreal can be seen woven into the fabric.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28071,   1,   33554647) /* Setup */
-     , (28071,   3,  536870932) /* SoundTable */
-     , (28071,   6,   67108990) /* PaletteBase */
-     , (28071,   7,  268436843) /* ClothingBase */
-     , (28071,   8,  100667370) /* Icon */
-     , (28071,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28071,   1, 0x020000D7) /* Setup */
+     , (28071,   3, 0x20000014) /* SoundTable */
+     , (28071,   6, 0x0400007E) /* PaletteBase */
+     , (28071,   7, 0x1000056B) /* ClothingBase */
+     , (28071,   8, 0x06000FEA) /* Icon */
+     , (28071,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28071,  3369,      2)  /* On the Run */;

@@ -40,9 +40,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7687,   1, 'Celdon Girth of Frost') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7687,   1,   33554647) /* Setup */
-     , (7687,   3,  536870932) /* SoundTable */
-     , (7687,   6,   67108990) /* PaletteBase */
-     , (7687,   7,  268435843) /* ClothingBase */
-     , (7687,   8,  100670408) /* Icon */
-     , (7687,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7687,   1, 0x020000D7) /* Setup */
+     , (7687,   3, 0x20000014) /* SoundTable */
+     , (7687,   6, 0x0400007E) /* PaletteBase */
+     , (7687,   7, 0x10000183) /* ClothingBase */
+     , (7687,   8, 0x06001BC8) /* Icon */
+     , (7687,  22, 0x3400002B) /* PhysicsEffectTable */;

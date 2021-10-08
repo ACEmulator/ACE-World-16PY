@@ -29,9 +29,9 @@ VALUES (6320,   1, 'Minor Smoldering Stone') /* Name */
      , (6320,  33, 'smolderingstoneminor') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6320,   1,   33556407) /* Setup */
-     , (6320,   3,  536870932) /* SoundTable */
-     , (6320,   6,   67111919) /* PaletteBase */
-     , (6320,   7,  268435965) /* ClothingBase */
-     , (6320,   8,  100670496) /* Icon */
-     , (6320,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6320,   1, 0x020007B7) /* Setup */
+     , (6320,   3, 0x20000014) /* SoundTable */
+     , (6320,   6, 0x04000BEF) /* PaletteBase */
+     , (6320,   7, 0x100001FD) /* ClothingBase */
+     , (6320,   8, 0x06001C20) /* Icon */
+     , (6320,  22, 0x3400002B) /* PhysicsEffectTable */;

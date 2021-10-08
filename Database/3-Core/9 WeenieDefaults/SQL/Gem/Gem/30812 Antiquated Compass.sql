@@ -36,9 +36,9 @@ VALUES (30812,   1, 'Antiquated Compass') /* Name */
      , (30812,  15, 'A masterfully crafted gold compass. The needles of the compass shiver with an unknown power.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30812,   1,   33559265) /* Setup */
-     , (30812,   3,  536870932) /* SoundTable */
-     , (30812,   8,  100677496) /* Icon */
-     , (30812,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30812,   1, 0x020012E1) /* Setup */
+     , (30812,   3, 0x20000014) /* SoundTable */
+     , (30812,   8, 0x06003778) /* Icon */
+     , (30812,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30812,  28,        157) /* Spell - Summon Primary Portal I */
      , (30812,  31,      30817) /* LinkedPortalOne - Caul Oasis */;

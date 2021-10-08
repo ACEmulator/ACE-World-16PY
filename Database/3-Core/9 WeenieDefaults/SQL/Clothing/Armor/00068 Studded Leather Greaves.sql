@@ -38,11 +38,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (68,   1, 'Studded Leather Greaves') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (68,   1,   33554641) /* Setup */
-     , (68,   3,  536870932) /* SoundTable */
-     , (68,   6,   67108990) /* PaletteBase */
-     , (68,   7,  268435531) /* ClothingBase */
-     , (68,   8,  100668123) /* Icon */
-     , (68,  22,  872415275) /* PhysicsEffectTable */
-     , (68,  36,  234881042) /* MutateFilter */
-     , (68,  46,  939524146) /* TsysMutationFilter */;
+VALUES (68,   1, 0x020000D1) /* Setup */
+     , (68,   3, 0x20000014) /* SoundTable */
+     , (68,   6, 0x0400007E) /* PaletteBase */
+     , (68,   7, 0x1000004B) /* ClothingBase */
+     , (68,   8, 0x060012DB) /* Icon */
+     , (68,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (68,  36, 0x0E000012) /* MutateFilter */
+     , (68,  46, 0x38000032) /* TsysMutationFilter */;

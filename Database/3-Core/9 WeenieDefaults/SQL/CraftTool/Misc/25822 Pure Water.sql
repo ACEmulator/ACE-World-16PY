@@ -30,7 +30,7 @@ VALUES (25822,   1, 'Pure Water') /* Name */
      , (25822,  15, 'This water appears to be perfect in every way. It appears clear, cool and refreshing.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25822,   1,   33557971) /* Setup */
-     , (25822,   3,  536870932) /* SoundTable */
-     , (25822,   8,  100675648) /* Icon */
-     , (25822,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25822,   1, 0x02000DD3) /* Setup */
+     , (25822,   3, 0x20000014) /* SoundTable */
+     , (25822,   8, 0x06003040) /* Icon */
+     , (25822,  22, 0x3400002B) /* PhysicsEffectTable */;

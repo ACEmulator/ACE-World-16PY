@@ -31,9 +31,9 @@ VALUES (24065,   1, 'Globe of Auberean') /* Name */
      , (24065,  16, 'A magical orb, painted to show the continents and islands of Auberean. The island of Dereth can barely be seen, a tiny speck in the northern oceans.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24065,   1,   33556967) /* Setup */
-     , (24065,   3,  536870932) /* SoundTable */
-     , (24065,   6,   67113133) /* PaletteBase */
-     , (24065,   7,  268436124) /* ClothingBase */
-     , (24065,   8,  100671368) /* Icon */
-     , (24065,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24065,   1, 0x020009E7) /* Setup */
+     , (24065,   3, 0x20000014) /* SoundTable */
+     , (24065,   6, 0x040010AD) /* PaletteBase */
+     , (24065,   7, 0x1000029C) /* ClothingBase */
+     , (24065,   8, 0x06001F88) /* Icon */
+     , (24065,  22, 0x3400002B) /* PhysicsEffectTable */;

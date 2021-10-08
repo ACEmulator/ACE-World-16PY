@@ -36,12 +36,12 @@ VALUES (30804,   1, 'Singularity Caul Asylum') /* Name */
      , (30804,  14, 'Double click this gem to summon a portal to the Caul Asylum.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30804,   1,   33556769) /* Setup */
-     , (30804,   3,  536870932) /* SoundTable */
-     , (30804,   6,   67111919) /* PaletteBase */
-     , (30804,   7,  268435723) /* ClothingBase */
-     , (30804,   8,  100668364) /* Icon */
-     , (30804,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30804,   1, 0x02000921) /* Setup */
+     , (30804,   3, 0x20000014) /* SoundTable */
+     , (30804,   6, 0x04000BEF) /* PaletteBase */
+     , (30804,   7, 0x1000010B) /* ClothingBase */
+     , (30804,   8, 0x060013CC) /* Icon */
+     , (30804,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30804,  28,        157) /* Spell - Summon Primary Portal I */
      , (30804,  31,      30815) /* LinkedPortalOne - Singularity Caul Asylum */
-     , (30804,  50,  100676404) /* IconOverlay */;
+     , (30804,  50, 0x06003334) /* IconOverlay */;

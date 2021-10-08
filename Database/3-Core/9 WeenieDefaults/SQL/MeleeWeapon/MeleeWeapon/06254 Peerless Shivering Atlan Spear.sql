@@ -45,12 +45,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6254,   1, 'Peerless Shivering Atlan Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6254,   1,   33556383) /* Setup */
-     , (6254,   3,  536870932) /* SoundTable */
-     , (6254,   6,   67111919) /* PaletteBase */
-     , (6254,   7,  268435962) /* ClothingBase */
-     , (6254,   8,  100670548) /* Icon */
-     , (6254,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6254,   1, 0x0200079F) /* Setup */
+     , (6254,   3, 0x20000014) /* SoundTable */
+     , (6254,   6, 0x04000BEF) /* PaletteBase */
+     , (6254,   7, 0x100001FA) /* ClothingBase */
+     , (6254,   8, 0x06001C54) /* Icon */
+     , (6254,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6254,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

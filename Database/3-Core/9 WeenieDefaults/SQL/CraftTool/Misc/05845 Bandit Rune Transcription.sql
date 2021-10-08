@@ -32,7 +32,7 @@ VALUES (5845,   1, 'Bandit Rune Transcription') /* Name */
      , (5845,  33, 'BanditTranscription') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5845,   1,   33554773) /* Setup */
-     , (5845,   3,  536870932) /* SoundTable */
-     , (5845,   8,  100667493) /* Icon */
-     , (5845,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5845,   1, 0x02000155) /* Setup */
+     , (5845,   3, 0x20000014) /* SoundTable */
+     , (5845,   8, 0x06001065) /* Icon */
+     , (5845,  22, 0x3400002B) /* PhysicsEffectTable */;

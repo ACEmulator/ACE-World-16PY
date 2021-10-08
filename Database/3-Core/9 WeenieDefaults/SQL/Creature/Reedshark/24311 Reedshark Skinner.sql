@@ -60,14 +60,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24311,   1, 'Reedshark Skinner') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24311,   1,   33554489) /* Setup */
-     , (24311,   2,  150994970) /* MotionTable */
-     , (24311,   3,  536870928) /* SoundTable */
-     , (24311,   4,  805306378) /* CombatTable */
-     , (24311,   6,   67109313) /* PaletteBase */
-     , (24311,   7,  268436622) /* ClothingBase */
-     , (24311,   8,  100667939) /* Icon */
-     , (24311,  22,  872415268) /* PhysicsEffectTable */
+VALUES (24311,   1, 0x02000039) /* Setup */
+     , (24311,   2, 0x0900001A) /* MotionTable */
+     , (24311,   3, 0x20000010) /* SoundTable */
+     , (24311,   4, 0x3000000A) /* CombatTable */
+     , (24311,   6, 0x040001C1) /* PaletteBase */
+     , (24311,   7, 0x1000048E) /* ClothingBase */
+     , (24311,   8, 0x06001223) /* Icon */
+     , (24311,  22, 0x34000024) /* PhysicsEffectTable */
      , (24311,  35,        456) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

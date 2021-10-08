@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14620,   1, 'Djebel al-Nar Cottages Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14620,   1,   33554867) /* Setup */
-     , (14620,   2,  150994947) /* MotionTable */
-     , (14620,   8,  100667499) /* Icon */;
+VALUES (14620,   1, 0x020001B3) /* Setup */
+     , (14620,   2, 0x09000003) /* MotionTable */
+     , (14620,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (14620, 2, 0x9A6B000B, 47.553, 63.591, 60.005, 0.88303, 0, 0, -0.469318) /* Destination */

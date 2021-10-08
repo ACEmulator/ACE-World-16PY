@@ -23,7 +23,7 @@ VALUES (4670,   1, 'The Skeleton''s Mug') /* Name */
      , (4670,  16, 'The Skeleton''s Mug') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4670,   1,   33555909) /* Setup */
-     , (4670,   6,   67111860) /* PaletteBase */
-     , (4670,   7,  268435825) /* ClothingBase */
-     , (4670,   8,  100668115) /* Icon */;
+VALUES (4670,   1, 0x020005C5) /* Setup */
+     , (4670,   6, 0x04000BB4) /* PaletteBase */
+     , (4670,   7, 0x10000171) /* ClothingBase */
+     , (4670,   8, 0x060012D3) /* Icon */;

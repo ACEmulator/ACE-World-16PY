@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1407,   1, 'Drudge Slave') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1407,   1,   33556445) /* Setup */
-     , (1407,   2,  150994952) /* MotionTable */
-     , (1407,   3,  536870919) /* SoundTable */
-     , (1407,   4,  805306372) /* CombatTable */
-     , (1407,   6,   67112812) /* PaletteBase */
-     , (1407,   7,  268435971) /* ClothingBase */
-     , (1407,   8,  100667445) /* Icon */
-     , (1407,  22,  872415258) /* PhysicsEffectTable */
+VALUES (1407,   1, 0x020007DD) /* Setup */
+     , (1407,   2, 0x09000008) /* MotionTable */
+     , (1407,   3, 0x20000007) /* SoundTable */
+     , (1407,   4, 0x30000004) /* CombatTable */
+     , (1407,   6, 0x04000F6C) /* PaletteBase */
+     , (1407,   7, 0x10000203) /* ClothingBase */
+     , (1407,   8, 0x06001035) /* Icon */
+     , (1407,  22, 0x3400001A) /* PhysicsEffectTable */
      , (1407,  32,         68) /* WieldedTreasureType - 
                                    Wield Budiaq (308) | Probability: 3%
                                    Wield Club (309) | Probability: 3%

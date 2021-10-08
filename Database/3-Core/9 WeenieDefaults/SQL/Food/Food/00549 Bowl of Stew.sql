@@ -25,7 +25,7 @@ VALUES (549,   1, 'Bowl of Stew') /* Name */
      , (549,  20, 'Bowls of Stew') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (549,   1,   33554668) /* Setup */
-     , (549,   3,  536870932) /* SoundTable */
-     , (549,   8,  100667413) /* Icon */
-     , (549,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (549,   1, 0x020000EC) /* Setup */
+     , (549,   3, 0x20000014) /* SoundTable */
+     , (549,   8, 0x06001015) /* Icon */
+     , (549,  22, 0x3400002B) /* PhysicsEffectTable */;

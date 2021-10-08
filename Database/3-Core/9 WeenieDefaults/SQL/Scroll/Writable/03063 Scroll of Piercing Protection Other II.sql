@@ -25,7 +25,7 @@ VALUES (3063,   1, 'Scroll of Piercing Protection Other II') /* Name */
      , (3063,  16, 'When learned, this spell Reduces damage the target takes from Piercing by 20%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3063,   1,   33554826) /* Setup */
-     , (3063,   8,  100676953) /* Icon */
-     , (3063,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3063,   1, 0x0200018A) /* Setup */
+     , (3063,   8, 0x06003559) /* Icon */
+     , (3063,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3063,  28,       1140) /* Spell - Piercing Protection Other II */;

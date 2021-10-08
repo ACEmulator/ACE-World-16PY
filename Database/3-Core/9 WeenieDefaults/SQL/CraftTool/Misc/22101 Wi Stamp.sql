@@ -33,11 +33,11 @@ VALUES (22101,   1, 'Wi Stamp') /* Name */
      , (22101,  15, 'A stamp with the Vitae Symbol on it.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22101,   1,   33556922) /* Setup */
-     , (22101,   3,  536870932) /* SoundTable */
-     , (22101,   6,   67111092) /* PaletteBase */
-     , (22101,   7,  268436417) /* ClothingBase */
-     , (22101,   8,  100673243) /* Icon */
-     , (22101,  22,  872415275) /* PhysicsEffectTable */
-     , (22101,  50,  100673628) /* IconOverlay */
-     , (22101,  51,  100673082) /* IconOverlaySecondary */;
+VALUES (22101,   1, 0x020009BA) /* Setup */
+     , (22101,   3, 0x20000014) /* SoundTable */
+     , (22101,   6, 0x040008B4) /* PaletteBase */
+     , (22101,   7, 0x100003C1) /* ClothingBase */
+     , (22101,   8, 0x060026DB) /* Icon */
+     , (22101,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (22101,  50, 0x0600285C) /* IconOverlay */
+     , (22101,  51, 0x0600263A) /* IconOverlaySecondary */;

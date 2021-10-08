@@ -24,7 +24,7 @@ VALUES (20445,   1, 'Scroll of The Spike') /* Name */
      , (20445,  15, 'When learned, this spell shoots a bolt of force at the target. The bolt does 110-180 points of piercing damage to the first thing it hits.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20445,   1,   33554826) /* Setup */
-     , (20445,   8,  100677019) /* Icon */
-     , (20445,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20445,   1, 0x0200018A) /* Setup */
+     , (20445,   8, 0x0600359B) /* Icon */
+     , (20445,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20445,  28,       2132) /* Spell - The Spike */;

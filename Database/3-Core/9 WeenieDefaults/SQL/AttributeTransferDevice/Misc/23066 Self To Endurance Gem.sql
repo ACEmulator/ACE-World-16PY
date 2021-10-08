@@ -25,7 +25,7 @@ VALUES (23066,   1, 'Self To Endurance Gem') /* Name */
      , (23066,  14, 'Use this gem to transfer up to 10 points of your Self into your Endurance.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23066,   1,   33558087) /* Setup */
-     , (23066,   6,   67111919) /* PaletteBase */
-     , (23066,   7,  268435723) /* ClothingBase */
-     , (23066,   8,  100673957) /* Icon */;
+VALUES (23066,   1, 0x02000E47) /* Setup */
+     , (23066,   6, 0x04000BEF) /* PaletteBase */
+     , (23066,   7, 0x1000010B) /* ClothingBase */
+     , (23066,   8, 0x060029A5) /* Icon */;

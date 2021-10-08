@@ -34,6 +34,6 @@ VALUES (5399,   1, 'Boiling Magma') /* Name */
      , (5399,  17, 'The magma boils %i points of flesh off your bones!') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5399,   1,   33558126) /* Setup */
-     , (5399,   3,  536870994) /* SoundTable */
-     , (5399,   8,  100667465) /* Icon */;
+VALUES (5399,   1, 0x02000E6E) /* Setup */
+     , (5399,   3, 0x20000052) /* SoundTable */
+     , (5399,   8, 0x06001049) /* Icon */;

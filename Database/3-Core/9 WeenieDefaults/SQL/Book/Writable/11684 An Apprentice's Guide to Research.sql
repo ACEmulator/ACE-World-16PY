@@ -24,10 +24,10 @@ VALUES (11684,   1, 'An Apprentice''s Guide to Research') /* Name */
      , (11684,  16, 'A compendium of advice on spell research.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11684,   1,   33554771) /* Setup */
-     , (11684,   3,  536870932) /* SoundTable */
-     , (11684,   8,  100668117) /* Icon */
-     , (11684,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11684,   1, 0x02000153) /* Setup */
+     , (11684,   3, 0x20000014) /* SoundTable */
+     , (11684,   8, 0x060012D5) /* Icon */
+     , (11684,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (11684, 14, 1000);

@@ -24,7 +24,7 @@ VALUES (20410,   1, 'Scroll of Tattercoat') /* Name */
      , (20410,  15, 'When learned, this spell worsens a shield or piece of armor''s armor value by 220 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20410,   1,   33554826) /* Setup */
-     , (20410,   8,  100676657) /* Icon */
-     , (20410,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20410,   1, 0x0200018A) /* Setup */
+     , (20410,   8, 0x06003431) /* Icon */
+     , (20410,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20410,  28,       2100) /* Spell - Tattercoat */;

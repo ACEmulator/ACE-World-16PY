@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7123,   1, 'Dark Leech') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7123,   1,   33554839) /* Setup */
-     , (7123,   2,  150994967) /* MotionTable */
-     , (7123,   3,  536870934) /* SoundTable */
-     , (7123,   4,  805306368) /* CombatTable */
-     , (7123,   6,   67110722) /* PaletteBase */
-     , (7123,   7,  268435558) /* ClothingBase */
-     , (7123,   8,  100667942) /* Icon */
-     , (7123,  22,  872415272) /* PhysicsEffectTable */
+VALUES (7123,   1, 0x02000197) /* Setup */
+     , (7123,   2, 0x09000017) /* MotionTable */
+     , (7123,   3, 0x20000016) /* SoundTable */
+     , (7123,   4, 0x30000000) /* CombatTable */
+     , (7123,   6, 0x04000742) /* PaletteBase */
+     , (7123,   7, 0x10000066) /* ClothingBase */
+     , (7123,   8, 0x06001226) /* Icon */
+     , (7123,  22, 0x34000028) /* PhysicsEffectTable */
      , (7123,  32,        290) /* WieldedTreasureType - 
                                    Wield 5x Frost Throwing Club (23663) | Probability: 40%
                                    Wield 5x Throwing Club (23655) | Probability: 30.000002%

@@ -68,14 +68,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11981,   1, 'Master of the Herd') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11981,   1,   33554478) /* Setup */
-     , (11981,   2,  150994969) /* MotionTable */
-     , (11981,   3,  536870916) /* SoundTable */
-     , (11981,   4,  805306388) /* CombatTable */
-     , (11981,   6,   67109302) /* PaletteBase */
-     , (11981,   7,  268435548) /* ClothingBase */
-     , (11981,   8,  100667936) /* Icon */
-     , (11981,  22,  872415254) /* PhysicsEffectTable */
+VALUES (11981,   1, 0x0200002E) /* Setup */
+     , (11981,   2, 0x09000019) /* MotionTable */
+     , (11981,   3, 0x20000004) /* SoundTable */
+     , (11981,   4, 0x30000014) /* CombatTable */
+     , (11981,   6, 0x040001B6) /* PaletteBase */
+     , (11981,   7, 0x1000005C) /* ClothingBase */
+     , (11981,   8, 0x06001220) /* Icon */
+     , (11981,  22, 0x34000016) /* PhysicsEffectTable */
      , (11981,  30,         84) /* PhysicsScript - BreatheFlame */
      , (11981,  35,         24) /* DeathTreasureType - Loot Tier: 1 */;
 

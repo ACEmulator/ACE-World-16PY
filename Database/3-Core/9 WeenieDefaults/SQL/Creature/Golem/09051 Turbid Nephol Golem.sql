@@ -60,12 +60,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9051,   1, 'Turbid Nephol Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9051,   1,   33556642) /* Setup */
-     , (9051,   2,  150995073) /* MotionTable */
-     , (9051,   3,  536871066) /* SoundTable */
-     , (9051,   4,  805306376) /* CombatTable */
-     , (9051,   8,  100667940) /* Icon */
-     , (9051,  22,  872415322) /* PhysicsEffectTable */
+VALUES (9051,   1, 0x020008A2) /* Setup */
+     , (9051,   2, 0x09000081) /* MotionTable */
+     , (9051,   3, 0x2000009A) /* SoundTable */
+     , (9051,   4, 0x30000008) /* CombatTable */
+     , (9051,   8, 0x06001224) /* Icon */
+     , (9051,  22, 0x3400005A) /* PhysicsEffectTable */
      , (9051,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

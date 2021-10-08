@@ -25,10 +25,10 @@ VALUES (9196,   1, 'Edicts of the Singularity') /* Name */
      , (9196,  16, 'A parchment of fine writing, translated with an even hand.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9196,   1,   33554773) /* Setup */
-     , (9196,   3,  536870932) /* SoundTable */
-     , (9196,   8,  100668176) /* Icon */
-     , (9196,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9196,   1, 0x02000155) /* Setup */
+     , (9196,   3, 0x20000014) /* SoundTable */
+     , (9196,   8, 0x06001310) /* Icon */
+     , (9196,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (9196, 3, 1000);

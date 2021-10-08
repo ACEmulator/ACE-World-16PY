@@ -35,12 +35,12 @@ VALUES (11785,   1, 'Reinforced Mask Banner with Symbol') /* Name */
      , (11785,  16, 'A reinforced, symbol tipped banner with a mask on it.  It is in almost perfect condition, and the colors are quite vibrant.  As you gaze at the mask, it almost seems to be gazing back.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11785,   1,   33557255) /* Setup */
-     , (11785,   6,   67113338) /* PaletteBase */
-     , (11785,   7,  268436211) /* ClothingBase */
-     , (11785,   8,  100671938) /* Icon */
-     , (11785,  22,  872415275) /* PhysicsEffectTable */
-     , (11785,  27, 1073742049) /* UseUserAnimation - UseMagicWand */;
+VALUES (11785,   1, 0x02000B07) /* Setup */
+     , (11785,   6, 0x0400117A) /* PaletteBase */
+     , (11785,   7, 0x100002F3) /* ClothingBase */
+     , (11785,   8, 0x060021C2) /* Icon */
+     , (11785,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11785,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11785,   657,      2)  /* Mana Conversion Mastery Self V */

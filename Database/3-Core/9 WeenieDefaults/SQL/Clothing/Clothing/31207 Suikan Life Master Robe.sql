@@ -43,12 +43,12 @@ VALUES (31207,   1, 'Suikan Life Master Robe') /* Name */
      , (31207,  19, 'Sho') /* ItemHeritageGroupRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31207,   1,   33554854) /* Setup */
-     , (31207,   3,  536870932) /* SoundTable */
-     , (31207,   6,   67108990) /* PaletteBase */
-     , (31207,   7,  268435864) /* ClothingBase */
-     , (31207,   8,  100670379) /* Icon */
-     , (31207,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31207,   1, 0x020001A6) /* Setup */
+     , (31207,   3, 0x20000014) /* SoundTable */
+     , (31207,   6, 0x0400007E) /* PaletteBase */
+     , (31207,   7, 0x10000198) /* ClothingBase */
+     , (31207,   8, 0x06001BAB) /* Icon */
+     , (31207,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31207,  37,         33) /* ItemSkillLimit - LifeMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1486,   1, 'Mosswart Mucker') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1486,   1,   33557327) /* Setup */
-     , (1486,   2,  150994953) /* MotionTable */
-     , (1486,   3,  536870959) /* SoundTable */
-     , (1486,   4,  805306373) /* CombatTable */
-     , (1486,   6,   67113400) /* PaletteBase */
-     , (1486,   7,  268436291) /* ClothingBase */
-     , (1486,   8,  100667449) /* Icon */
-     , (1486,  22,  872415264) /* PhysicsEffectTable */
+VALUES (1486,   1, 0x02000B4F) /* Setup */
+     , (1486,   2, 0x09000009) /* MotionTable */
+     , (1486,   3, 0x2000002F) /* SoundTable */
+     , (1486,   4, 0x30000005) /* CombatTable */
+     , (1486,   6, 0x040011B8) /* PaletteBase */
+     , (1486,   7, 0x10000343) /* ClothingBase */
+     , (1486,   8, 0x06001039) /* Icon */
+     , (1486,  22, 0x34000020) /* PhysicsEffectTable */
      , (1486,  35,        132) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

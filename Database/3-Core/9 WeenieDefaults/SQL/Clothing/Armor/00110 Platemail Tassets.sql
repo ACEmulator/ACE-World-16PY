@@ -38,11 +38,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (110,   1, 'Platemail Tassets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (110,   1,   33554656) /* Setup */
-     , (110,   3,  536870932) /* SoundTable */
-     , (110,   6,   67108990) /* PaletteBase */
-     , (110,   7,  268436437) /* ClothingBase */
-     , (110,   8,  100673371) /* Icon */
-     , (110,  22,  872415275) /* PhysicsEffectTable */
-     , (110,  36,  234881042) /* MutateFilter */
-     , (110,  46,  939524146) /* TsysMutationFilter */;
+VALUES (110,   1, 0x020000E0) /* Setup */
+     , (110,   3, 0x20000014) /* SoundTable */
+     , (110,   6, 0x0400007E) /* PaletteBase */
+     , (110,   7, 0x100003D5) /* ClothingBase */
+     , (110,   8, 0x0600275B) /* Icon */
+     , (110,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (110,  36, 0x0E000012) /* MutateFilter */
+     , (110,  46, 0x38000032) /* TsysMutationFilter */;

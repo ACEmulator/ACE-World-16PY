@@ -36,7 +36,7 @@ VALUES (3746,   1, 'Auroch Horn Spear') /* Name */
      , (3746,  16, 'A spear made from the horn of an auroch. Mysterious electrical impulses flare along the shaft of the weapon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3746,   1,   33555789) /* Setup */
-     , (3746,   3,  536870932) /* SoundTable */
-     , (3746,   8,  100667609) /* Icon */
-     , (3746,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3746,   1, 0x0200054D) /* Setup */
+     , (3746,   3, 0x20000014) /* SoundTable */
+     , (3746,   8, 0x060010D9) /* Icon */
+     , (3746,  22, 0x3400002B) /* PhysicsEffectTable */;

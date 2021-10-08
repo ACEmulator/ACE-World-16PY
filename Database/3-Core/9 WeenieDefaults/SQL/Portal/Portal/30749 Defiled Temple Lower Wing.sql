@@ -25,9 +25,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30749,   1, 'Defiled Temple Lower Wing') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30749,   1,   33555926) /* Setup */
-     , (30749,   2,  150994947) /* MotionTable */
-     , (30749,   8,  100667499) /* Icon */;
+VALUES (30749,   1, 0x020005D6) /* Setup */
+     , (30749,   2, 0x09000003) /* MotionTable */
+     , (30749,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30749, 2, 0x00080164, 20, -110, 0.005, 0.707107, 0, 0, -0.707107) /* Destination */

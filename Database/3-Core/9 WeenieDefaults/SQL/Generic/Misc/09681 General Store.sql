@@ -22,7 +22,7 @@ VALUES (9681,   1, 'General Store') /* Name */
      , (9681,  16, 'Greta Danby''s General Store.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9681,   1,   33555088) /* Setup */
-     , (9681,   6,   67111092) /* PaletteBase */
-     , (9681,   7,  268435654) /* ClothingBase */
-     , (9681,   8,  100668115) /* Icon */;
+VALUES (9681,   1, 0x02000290) /* Setup */
+     , (9681,   6, 0x040008B4) /* PaletteBase */
+     , (9681,   7, 0x100000C6) /* ClothingBase */
+     , (9681,   8, 0x060012D3) /* Icon */;

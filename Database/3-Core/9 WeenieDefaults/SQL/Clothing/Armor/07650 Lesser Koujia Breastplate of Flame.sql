@@ -40,9 +40,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7650,   1, 'Lesser Koujia Breastplate of Flame') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7650,   1,   33554642) /* Setup */
-     , (7650,   3,  536870932) /* SoundTable */
-     , (7650,   6,   67108990) /* PaletteBase */
-     , (7650,   7,  268435852) /* ClothingBase */
-     , (7650,   8,  100670453) /* Icon */
-     , (7650,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7650,   1, 0x020000D2) /* Setup */
+     , (7650,   3, 0x20000014) /* SoundTable */
+     , (7650,   6, 0x0400007E) /* PaletteBase */
+     , (7650,   7, 0x1000018C) /* ClothingBase */
+     , (7650,   8, 0x06001BF5) /* Icon */
+     , (7650,  22, 0x3400002B) /* PhysicsEffectTable */;

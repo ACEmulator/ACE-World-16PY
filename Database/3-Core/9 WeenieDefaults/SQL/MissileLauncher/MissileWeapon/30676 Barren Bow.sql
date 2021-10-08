@@ -50,10 +50,10 @@ VALUES (30676,   1, 'Barren Bow') /* Name */
      , (30676,  33, 'WitheredAtollBow0105') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30676,   1,   33559216) /* Setup */
-     , (30676,   3,  536870932) /* SoundTable */
-     , (30676,   8,  100677401) /* Icon */
-     , (30676,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30676,   1, 0x020012B0) /* Setup */
+     , (30676,   3, 0x20000014) /* SoundTable */
+     , (30676,   8, 0x06003719) /* Icon */
+     , (30676,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30676,  1616,      2)  /* Aura of Blood Drinker Self VI */;

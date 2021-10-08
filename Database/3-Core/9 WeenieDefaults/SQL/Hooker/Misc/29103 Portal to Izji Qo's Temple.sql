@@ -28,8 +28,8 @@ VALUES (29103,   1, 'Portal to Izji Qo''s Temple') /* Name */
      , (29103,  16, 'This device seems to act as a portal beacon. It must be hooked on a powerful geomantic force, such as a mansion, to activate the magical properties.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29103,   1,   33558645) /* Setup */
-     , (29103,   8,  100675779) /* Icon */;
+VALUES (29103,   1, 0x02001075) /* Setup */
+     , (29103,   8, 0x060030C3) /* Icon */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (29103,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

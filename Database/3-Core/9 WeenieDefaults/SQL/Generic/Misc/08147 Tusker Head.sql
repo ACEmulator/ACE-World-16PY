@@ -27,8 +27,8 @@ VALUES (8147,   1, 'Tusker Head') /* Name */
      , (8147,  16, 'A bloody head that smells of blood, sweat, and unwashed fur.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8147,   1,   33556826) /* Setup */
-     , (8147,   3,  536870932) /* SoundTable */
-     , (8147,   8,  100671033) /* Icon */
-     , (8147,  22,  872415275) /* PhysicsEffectTable */
-     , (8147,  36,  234881046) /* MutateFilter */;
+VALUES (8147,   1, 0x0200095A) /* Setup */
+     , (8147,   3, 0x20000014) /* SoundTable */
+     , (8147,   8, 0x06001E39) /* Icon */
+     , (8147,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8147,  36, 0x0E000016) /* MutateFilter */;

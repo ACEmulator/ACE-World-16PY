@@ -26,8 +26,8 @@ VALUES (22204,   1, 'Harbinger Arm Token') /* Name */
      , (22204,  15, 'A token in the shape of the Harbinger''s Arm.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22204,   1,   33558027) /* Setup */
-     , (22204,   3,  536870932) /* SoundTable */
-     , (22204,   8,  100673483) /* Icon */
-     , (22204,  22,  872415275) /* PhysicsEffectTable */
-     , (22204,  36,  234881046) /* MutateFilter */;
+VALUES (22204,   1, 0x02000E0B) /* Setup */
+     , (22204,   3, 0x20000014) /* SoundTable */
+     , (22204,   8, 0x060027CB) /* Icon */
+     , (22204,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (22204,  36, 0x0E000016) /* MutateFilter */;

@@ -42,7 +42,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3788,   1, 'Throwing Fire Dart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3788,   1,   33555699) /* Setup */
-     , (3788,   3,  536870932) /* SoundTable */
-     , (3788,   8,  100667591) /* Icon */
-     , (3788,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3788,   1, 0x020004F3) /* Setup */
+     , (3788,   3, 0x20000014) /* SoundTable */
+     , (3788,   8, 0x060010C7) /* Icon */
+     , (3788,  22, 0x3400002B) /* PhysicsEffectTable */;

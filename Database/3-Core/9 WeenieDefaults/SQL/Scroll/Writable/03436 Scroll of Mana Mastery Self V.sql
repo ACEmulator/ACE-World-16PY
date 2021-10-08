@@ -25,7 +25,7 @@ VALUES (3436,   1, 'Scroll of Mana Mastery Self V') /* Name */
      , (3436,  16, 'When learned, this spell increases the caster''s Mana Conversion skill by 100%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3436,   1,   33554826) /* Setup */
-     , (3436,   8,  100676466) /* Icon */
-     , (3436,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3436,   1, 0x0200018A) /* Setup */
+     , (3436,   8, 0x06003372) /* Icon */
+     , (3436,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3436,  28,        657) /* Spell - Mana Conversion Mastery Self V */;

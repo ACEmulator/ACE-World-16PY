@@ -35,10 +35,10 @@ VALUES (10757,   1, 'Towel') /* Name */
      , (10757,  16, 'A thick and luxuriantly plush towel made of the finest, most absorbent cloth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10757,   1,   33554647) /* Setup */
-     , (10757,   3,  536870932) /* SoundTable */
-     , (10757,   6,   67108990) /* PaletteBase */
-     , (10757,   7,  268436187) /* ClothingBase */
-     , (10757,   8,  100671662) /* Icon */
-     , (10757,  22,  872415275) /* PhysicsEffectTable */
-     , (10757,  36,  234881046) /* MutateFilter */;
+VALUES (10757,   1, 0x020000D7) /* Setup */
+     , (10757,   3, 0x20000014) /* SoundTable */
+     , (10757,   6, 0x0400007E) /* PaletteBase */
+     , (10757,   7, 0x100002DB) /* ClothingBase */
+     , (10757,   8, 0x060020AE) /* Icon */
+     , (10757,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (10757,  36, 0x0E000016) /* MutateFilter */;

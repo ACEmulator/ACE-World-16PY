@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24325,   1, 'Phantasm') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24325,   1,   33554839) /* Setup */
-     , (24325,   2,  150994967) /* MotionTable */
-     , (24325,   3,  536870934) /* SoundTable */
-     , (24325,   4,  805306368) /* CombatTable */
-     , (24325,   6,   67110722) /* PaletteBase */
-     , (24325,   7,  268435558) /* ClothingBase */
-     , (24325,   8,  100667942) /* Icon */
-     , (24325,  22,  872415272) /* PhysicsEffectTable */
+VALUES (24325,   1, 0x02000197) /* Setup */
+     , (24325,   2, 0x09000017) /* MotionTable */
+     , (24325,   3, 0x20000016) /* SoundTable */
+     , (24325,   4, 0x30000000) /* CombatTable */
+     , (24325,   6, 0x04000742) /* PaletteBase */
+     , (24325,   7, 0x10000066) /* ClothingBase */
+     , (24325,   8, 0x06001226) /* Icon */
+     , (24325,  22, 0x34000028) /* PhysicsEffectTable */
      , (24325,  32,        199) /* WieldedTreasureType - 
                                    Wield Yumi (23733) | Probability: 6%
                                    Wield 20x Deadly Armor Piercing Arrow (15431) | Probability: 100%

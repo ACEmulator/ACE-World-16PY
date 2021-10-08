@@ -47,15 +47,15 @@ VALUES (26497,   1, 'Invoker') /* Name */
      , (26497,  16, 'A buadren fashioned by Aun Aulakhe to invoke the spirit of Aun Tanua from his Virindi prison in portal space.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26497,   1,   33558590) /* Setup */
-     , (26497,   3,  536870932) /* SoundTable */
-     , (26497,   6,   67113783) /* PaletteBase */
-     , (26497,   7,  268436324) /* ClothingBase */
-     , (26497,   8,  100675769) /* Icon */
-     , (26497,  22,  872415275) /* PhysicsEffectTable */
-     , (26497,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (26497,   1, 0x0200103E) /* Setup */
+     , (26497,   3, 0x20000014) /* SoundTable */
+     , (26497,   6, 0x04001337) /* PaletteBase */
+     , (26497,   7, 0x10000364) /* ClothingBase */
+     , (26497,   8, 0x060030B9) /* Icon */
+     , (26497,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (26497,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (26497,  28,       2637) /* Spell - Invoking Aun Tanua */
-     , (26497,  36,  234881046) /* MutateFilter */;
+     , (26497,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (26497,  2638,      2)  /* Heart of Oak */;

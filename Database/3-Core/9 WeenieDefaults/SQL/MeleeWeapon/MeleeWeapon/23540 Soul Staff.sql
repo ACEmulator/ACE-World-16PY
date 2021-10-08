@@ -44,10 +44,10 @@ VALUES (23540,   1, 'Soul Staff') /* Name */
      , (23540,  16, 'A bleached staff with strange faces carved into it.  Some seem to be Lugian, some Isparian, and others simply have blackened out faces.  The staff seems to be a collection of the faces of the foes the former owner defeated in combat. Lightning crackles among the mouths and eyes of the carved faces.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23540,   1,   33557346) /* Setup */
-     , (23540,   3,  536870932) /* SoundTable */
-     , (23540,   8,  100674098) /* Icon */
-     , (23540,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23540,   1, 0x02000B62) /* Setup */
+     , (23540,   3, 0x20000014) /* SoundTable */
+     , (23540,   8, 0x06002A32) /* Icon */
+     , (23540,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23540,  1591,      2)  /* Aura of Heart Seeker Self V */

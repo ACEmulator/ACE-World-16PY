@@ -25,7 +25,7 @@ VALUES (1703,   1, 'Scroll of Item Enchantment Ineptitude') /* Name */
      , (1703,  16, 'When learned, this spell decreases the target''s Item Enchantment skill by 9%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1703,   1,   33554826) /* Setup */
-     , (1703,   8,  100676460) /* Icon */
-     , (1703,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1703,   1, 0x0200018A) /* Setup */
+     , (1703,   8, 0x0600336C) /* Icon */
+     , (1703,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1703,  28,        593) /* Spell - Item Enchantment Ineptitude Other I */;

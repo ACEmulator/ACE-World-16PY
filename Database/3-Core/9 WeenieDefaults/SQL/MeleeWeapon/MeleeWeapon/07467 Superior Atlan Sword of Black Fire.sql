@@ -45,12 +45,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7467,   1, 'Superior Atlan Sword of Black Fire') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7467,   1,   33557397) /* Setup */
-     , (7467,   3,  536870932) /* SoundTable */
-     , (7467,   6,   67111919) /* PaletteBase */
-     , (7467,   7,  268435923) /* ClothingBase */
-     , (7467,   8,  100670573) /* Icon */
-     , (7467,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7467,   1, 0x02000B95) /* Setup */
+     , (7467,   3, 0x20000014) /* SoundTable */
+     , (7467,   6, 0x04000BEF) /* PaletteBase */
+     , (7467,   7, 0x100001D3) /* ClothingBase */
+     , (7467,   8, 0x06001C6D) /* Icon */
+     , (7467,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7467,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

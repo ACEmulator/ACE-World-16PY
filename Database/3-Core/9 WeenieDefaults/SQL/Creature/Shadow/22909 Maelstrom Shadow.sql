@@ -71,14 +71,14 @@ VALUES (22909,   1, 'Maelstrom Shadow') /* Name */
      , (22909,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22909,   1,   33558345) /* Setup */
-     , (22909,   2,  150995091) /* MotionTable */
-     , (22909,   3,  536870914) /* SoundTable */
-     , (22909,   4,  805306408) /* CombatTable */
-     , (22909,   6,   67108990) /* PaletteBase */
-     , (22909,   7,  268436623) /* ClothingBase */
-     , (22909,   8,  100674327) /* Icon */
-     , (22909,  22,  872415331) /* PhysicsEffectTable */
+VALUES (22909,   1, 0x02000F49) /* Setup */
+     , (22909,   2, 0x09000093) /* MotionTable */
+     , (22909,   3, 0x20000002) /* SoundTable */
+     , (22909,   4, 0x30000028) /* CombatTable */
+     , (22909,   6, 0x0400007E) /* PaletteBase */
+     , (22909,   7, 0x1000048F) /* ClothingBase */
+     , (22909,   8, 0x06002B17) /* Icon */
+     , (22909,  22, 0x34000063) /* PhysicsEffectTable */
      , (22909,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

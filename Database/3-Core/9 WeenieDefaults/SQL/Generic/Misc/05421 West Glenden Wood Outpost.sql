@@ -23,5 +23,5 @@ VALUES (5421,   1, 'West Glenden Wood Outpost') /* Name */
      , (5421,  16, 'Welcome to the West Glenden Wood Outpost.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5421,   1,   33555088) /* Setup */
-     , (5421,   8,  100668115) /* Icon */;
+VALUES (5421,   1, 0x02000290) /* Setup */
+     , (5421,   8, 0x060012D3) /* Icon */;

@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22897,   1, 'Banderling Hierophant') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22897,   1,   33558024) /* Setup */
-     , (22897,   2,  150994951) /* MotionTable */
-     , (22897,   3,  536870917) /* SoundTable */
-     , (22897,   4,  805306370) /* CombatTable */
-     , (22897,   6,   67114021) /* PaletteBase */
-     , (22897,   7,  268436611) /* ClothingBase */
-     , (22897,   8,  100667453) /* Icon */
-     , (22897,  22,  872415255) /* PhysicsEffectTable */
+VALUES (22897,   1, 0x02000E08) /* Setup */
+     , (22897,   2, 0x09000007) /* MotionTable */
+     , (22897,   3, 0x20000005) /* SoundTable */
+     , (22897,   4, 0x30000002) /* CombatTable */
+     , (22897,   6, 0x04001425) /* PaletteBase */
+     , (22897,   7, 0x10000483) /* ClothingBase */
+     , (22897,   8, 0x0600103D) /* Icon */
+     , (22897,  22, 0x34000017) /* PhysicsEffectTable */
      , (22897,  32,        423) /* WieldedTreasureType - 
                                    Wield 25x Frost Throwing Club (23130) | Probability: 20%
                                    Wield 25x Fire Throwing Club (23129) | Probability: 20%

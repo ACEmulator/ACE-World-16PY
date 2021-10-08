@@ -38,9 +38,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15876,   1, 'Bronze Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15876,   1,   33554735) /* Setup */
-     , (15876,   3,  536870932) /* SoundTable */
-     , (15876,   6,   67111919) /* PaletteBase */
-     , (15876,   7,  268435783) /* ClothingBase */
-     , (15876,   8,  100668875) /* Icon */
-     , (15876,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15876,   1, 0x0200012F) /* Setup */
+     , (15876,   3, 0x20000014) /* SoundTable */
+     , (15876,   6, 0x04000BEF) /* PaletteBase */
+     , (15876,   7, 0x10000147) /* ClothingBase */
+     , (15876,   8, 0x060015CB) /* Icon */
+     , (15876,  22, 0x3400002B) /* PhysicsEffectTable */;

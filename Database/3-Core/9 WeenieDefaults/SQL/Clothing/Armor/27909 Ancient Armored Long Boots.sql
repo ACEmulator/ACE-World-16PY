@@ -50,12 +50,12 @@ VALUES (27909,   1, 'Ancient Armored Long Boots') /* Name */
      , (27909,  16, 'These armored boots appear to have been an ornamental piece. Obviously this is only one part of a complete suit of armor.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27909,   1,   33556683) /* Setup */
-     , (27909,   3,  536870932) /* SoundTable */
-     , (27909,   6,   67108990) /* PaletteBase */
-     , (27909,   7,  268436829) /* ClothingBase */
-     , (27909,   8,  100676551) /* Icon */
-     , (27909,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27909,   1, 0x020008CB) /* Setup */
+     , (27909,   3, 0x20000014) /* SoundTable */
+     , (27909,   6, 0x0400007E) /* PaletteBase */
+     , (27909,   7, 0x1000055D) /* ClothingBase */
+     , (27909,   8, 0x060033C7) /* Icon */
+     , (27909,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27909,  3094,      2)  /* Skin of the Fiazhat */

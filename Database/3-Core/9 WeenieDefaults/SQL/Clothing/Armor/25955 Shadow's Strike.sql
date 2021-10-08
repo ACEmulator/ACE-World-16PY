@@ -49,12 +49,12 @@ VALUES (25955,   1, 'Shadow''s Strike') /* Name */
      , (25955,  16, 'A facial wrap that protects your face from sandstorms, and occludes your face from the eyes of others. It is rumored that these were the same masks worn by the Shagar Zharala during their assassination of King Laszko. This particular wrap appears to have a Woven Tassel of Discord attached to it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25955,   1,   33556861) /* Setup */
-     , (25955,   3,  536870932) /* SoundTable */
-     , (25955,   6,   67108990) /* PaletteBase */
-     , (25955,   7,  268436079) /* ClothingBase */
-     , (25955,   8,  100671133) /* Icon */
-     , (25955,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25955,   1, 0x0200097D) /* Setup */
+     , (25955,   3, 0x20000014) /* SoundTable */
+     , (25955,   6, 0x0400007E) /* PaletteBase */
+     , (25955,   7, 0x1000026F) /* ClothingBase */
+     , (25955,   8, 0x06001E9D) /* Icon */
+     , (25955,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25955,  1377,      2)  /* Coordination Self V */

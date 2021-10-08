@@ -30,9 +30,9 @@ VALUES (11124,   1, 'Chocolate Olthoi Cake Batter') /* Name */
      , (11124,  20, 'Batches of Chocolate Olthoi Cake Batter') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11124,   1,   33555968) /* Setup */
-     , (11124,   3,  536870932) /* SoundTable */
-     , (11124,   6,   67111919) /* PaletteBase */
-     , (11124,   7,  268436027) /* ClothingBase */
-     , (11124,   8,  100671976) /* Icon */
-     , (11124,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11124,   1, 0x02000600) /* Setup */
+     , (11124,   3, 0x20000014) /* SoundTable */
+     , (11124,   6, 0x04000BEF) /* PaletteBase */
+     , (11124,   7, 0x1000023B) /* ClothingBase */
+     , (11124,   8, 0x060021E8) /* Icon */
+     , (11124,  22, 0x3400002B) /* PhysicsEffectTable */;

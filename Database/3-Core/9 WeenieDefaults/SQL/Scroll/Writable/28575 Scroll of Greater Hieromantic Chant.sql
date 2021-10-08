@@ -24,7 +24,7 @@ VALUES (28575,   1, 'Scroll of Greater Hieromantic Chant') /* Name */
      , (28575,  15, 'Use this scroll to learn Greater Hieromantic Chant.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28575,   1,   33554826) /* Setup */
-     , (28575,   8,  100676479) /* Icon */
-     , (28575,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28575,   1, 0x0200018A) /* Setup */
+     , (28575,   8, 0x0600337F) /* Icon */
+     , (28575,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28575,  28,       3402) /* Spell - Greater Hieromantic Chant */;

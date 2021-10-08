@@ -54,11 +54,11 @@ VALUES (24204,   1, 'Weeping Spear') /* Name */
      , (24204,  15, 'A spear infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24204,   1,   33558296) /* Setup */
-     , (24204,   3,  536870932) /* SoundTable */
-     , (24204,   8,  100674271) /* Icon */
-     , (24204,  22,  872415275) /* PhysicsEffectTable */
-     , (24204,  36,  234881044) /* MutateFilter */;
+VALUES (24204,   1, 0x02000F18) /* Setup */
+     , (24204,   3, 0x20000014) /* SoundTable */
+     , (24204,   8, 0x06002ADF) /* Icon */
+     , (24204,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24204,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24204,  2963,      2)  /* Aura of Hunter's Cunning */

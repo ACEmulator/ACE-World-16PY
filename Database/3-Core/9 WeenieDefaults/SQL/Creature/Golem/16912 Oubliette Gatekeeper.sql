@@ -62,12 +62,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (16912,   1, 'Oubliette Gatekeeper') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (16912,   1,   33556426) /* Setup */
-     , (16912,   2,  150995073) /* MotionTable */
-     , (16912,   3,  536870933) /* SoundTable */
-     , (16912,   4,  805306376) /* CombatTable */
-     , (16912,   8,  100667940) /* Icon */
-     , (16912,  22,  872415325) /* PhysicsEffectTable */;
+VALUES (16912,   1, 0x020007CA) /* Setup */
+     , (16912,   2, 0x09000081) /* MotionTable */
+     , (16912,   3, 0x20000015) /* SoundTable */
+     , (16912,   4, 0x30000008) /* CombatTable */
+     , (16912,   8, 0x06001224) /* Icon */
+     , (16912,  22, 0x3400005D) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (16912,   1, 250, 0, 0) /* Strength */

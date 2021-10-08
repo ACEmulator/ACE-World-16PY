@@ -25,9 +25,9 @@ VALUES (30819,   1, 'Floating Tower') /* Name */
      , (30819,  37, 'VirindiIsland') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30819,   1,   33554867) /* Setup */
-     , (30819,   2,  150994947) /* MotionTable */
-     , (30819,   8,  100667499) /* Icon */;
+VALUES (30819,   1, 0x020001B3) /* Setup */
+     , (30819,   2, 0x09000003) /* MotionTable */
+     , (30819,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30819, 2, 0x05030101, 84.2, 36.9, 225, -0.707107, 0, -0, -0.707107) /* Destination */

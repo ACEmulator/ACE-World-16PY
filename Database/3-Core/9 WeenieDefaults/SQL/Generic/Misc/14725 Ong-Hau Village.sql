@@ -22,5 +22,5 @@ VALUES (14725,   1, 'Ong-Hau Village') /* Name */
      , (14725,  16, 'Welcome to Ong-Hau Village') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14725,   1,   33557463) /* Setup */
-     , (14725,   8,  100668115) /* Icon */;
+VALUES (14725,   1, 0x02000BD7) /* Setup */
+     , (14725,   8, 0x060012D3) /* Icon */;

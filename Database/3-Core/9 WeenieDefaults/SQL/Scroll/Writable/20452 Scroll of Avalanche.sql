@@ -24,7 +24,7 @@ VALUES (20452,   1, 'Scroll of Avalanche') /* Name */
      , (20452,  15, 'When learned, this spell rains up to twelve balls of frost down at the area around the target. Each ball does 60-120 points of cold damage to the first thing it hits. This spell is not very accurate, and cannot be used indoors.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20452,   1,   33554826) /* Setup */
-     , (20452,   8,  100677016) /* Icon */
-     , (20452,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20452,   1, 0x0200018A) /* Setup */
+     , (20452,   8, 0x06003598) /* Icon */
+     , (20452,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20452,  28,       1836) /* Spell - Avalanche */;

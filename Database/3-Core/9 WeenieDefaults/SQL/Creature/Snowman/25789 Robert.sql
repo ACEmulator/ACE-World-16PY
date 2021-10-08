@@ -63,11 +63,11 @@ VALUES (25789,   1, 'Robert') /* Name */
      , (25789,   5, 'Gardener') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25789,   1,   33558520) /* Setup */
-     , (25789,   2,  150995088) /* MotionTable */
-     , (25789,   3,  536871000) /* SoundTable */
-     , (25789,   4,  805306406) /* CombatTable */
-     , (25789,   8,  100669125) /* Icon */;
+VALUES (25789,   1, 0x02000FF8) /* Setup */
+     , (25789,   2, 0x09000090) /* MotionTable */
+     , (25789,   3, 0x20000058) /* SoundTable */
+     , (25789,   4, 0x30000026) /* CombatTable */
+     , (25789,   8, 0x060016C5) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25789,   1,  25, 0, 0) /* Strength */

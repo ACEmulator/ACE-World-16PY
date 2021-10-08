@@ -67,12 +67,12 @@ VALUES (25603,   1, 'Flaming Elemental Pool') /* Name */
      , (25603,  16, 'An elemental pool, emblazoned by fire.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25603,   1,   33558458) /* Setup */
-     , (25603,   2,  150995255) /* MotionTable */
-     , (25603,   3,  536870913) /* SoundTable */
-     , (25603,   6,   67114510) /* PaletteBase */
-     , (25603,   7,  268436680) /* ClothingBase */
-     , (25603,   8,  100674879) /* Icon */;
+VALUES (25603,   1, 0x02000FBA) /* Setup */
+     , (25603,   2, 0x09000137) /* MotionTable */
+     , (25603,   3, 0x20000001) /* SoundTable */
+     , (25603,   6, 0x0400160E) /* PaletteBase */
+     , (25603,   7, 0x100004C8) /* ClothingBase */
+     , (25603,   8, 0x06002D3F) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25603,   1, 300, 0, 0) /* Strength */

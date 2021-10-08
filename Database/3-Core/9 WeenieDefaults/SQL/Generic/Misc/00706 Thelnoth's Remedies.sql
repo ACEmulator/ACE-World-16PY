@@ -22,7 +22,7 @@ VALUES (706,   1, 'Thelnoth''s Remedies') /* Name */
      , (706,  16, 'Thelnoth''s Remedies                                                -Healing                                                                    -Potions                                                                     -Enhancement Services') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (706,   1,   33555088) /* Setup */
-     , (706,   6,   67111092) /* PaletteBase */
-     , (706,   7,  268435657) /* ClothingBase */
-     , (706,   8,  100668115) /* Icon */;
+VALUES (706,   1, 0x02000290) /* Setup */
+     , (706,   6, 0x040008B4) /* PaletteBase */
+     , (706,   7, 0x100000C9) /* ClothingBase */
+     , (706,   8, 0x060012D3) /* Icon */;

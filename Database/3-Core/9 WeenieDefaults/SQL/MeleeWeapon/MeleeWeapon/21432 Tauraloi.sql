@@ -49,10 +49,10 @@ VALUES (21432,   1, 'Tauraloi') /* Name */
      , (21432,  15, 'A spear constructed from obsidian and cerulean colored stone.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21432,   1,   33557965) /* Setup */
-     , (21432,   3,  536870932) /* SoundTable */
-     , (21432,   8,  100673492) /* Icon */
-     , (21432,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21432,   1, 0x02000DCD) /* Setup */
+     , (21432,   3, 0x20000014) /* SoundTable */
+     , (21432,   8, 0x060027D4) /* Icon */
+     , (21432,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21432,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

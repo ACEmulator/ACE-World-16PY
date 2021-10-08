@@ -70,11 +70,11 @@ VALUES (4681,   1, 'Sidzika the Grocer') /* Name */
      , (4681,  24, 'Al-Arqas') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4681,   1,   33554510) /* Setup */
-     , (4681,   2,  150994945) /* MotionTable */
-     , (4681,   3,  536870914) /* SoundTable */
-     , (4681,   4,  805306368) /* CombatTable */
-     , (4681,   8,  100667446) /* Icon */;
+VALUES (4681,   1, 0x0200004E) /* Setup */
+     , (4681,   2, 0x09000001) /* MotionTable */
+     , (4681,   3, 0x20000002) /* SoundTable */
+     , (4681,   4, 0x30000000) /* CombatTable */
+     , (4681,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4681,   1,  90, 0, 0) /* Strength */

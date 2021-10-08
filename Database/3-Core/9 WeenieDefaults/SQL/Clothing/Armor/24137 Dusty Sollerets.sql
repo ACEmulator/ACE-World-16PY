@@ -39,9 +39,9 @@ VALUES (24137,   1, 'Dusty Sollerets') /* Name */
      , (24137,  15, 'A pair of sollerets covered in reddish dust from the western desert.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24137,   1,   33554654) /* Setup */
-     , (24137,   3,  536870932) /* SoundTable */
-     , (24137,   6,   67108990) /* PaletteBase */
-     , (24137,   7,  268435540) /* ClothingBase */
-     , (24137,   8,  100667309) /* Icon */
-     , (24137,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24137,   1, 0x020000DE) /* Setup */
+     , (24137,   3, 0x20000014) /* SoundTable */
+     , (24137,   6, 0x0400007E) /* PaletteBase */
+     , (24137,   7, 0x10000054) /* ClothingBase */
+     , (24137,   8, 0x06000FAD) /* Icon */
+     , (24137,  22, 0x3400002B) /* PhysicsEffectTable */;

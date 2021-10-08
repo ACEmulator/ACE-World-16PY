@@ -24,7 +24,7 @@ VALUES (20579,   1, 'Scroll of Saladur''s Boon') /* Name */
      , (20579,  15, 'When learned, this spell increases the target''s Run skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20579,   1,   33554826) /* Setup */
-     , (20579,   8,  100676470) /* Icon */
-     , (20579,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20579,   1, 0x0200018A) /* Setup */
+     , (20579,   8, 0x06003376) /* Icon */
+     , (20579,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20579,  28,       2300) /* Spell - Saladur's Boon */;

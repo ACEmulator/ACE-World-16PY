@@ -32,10 +32,10 @@ VALUES (13229,   1, 'Academy Healing Potion') /* Name */
      , (13229,  33, 'HealthPickup') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13229,   1,   33554603) /* Setup */
-     , (13229,   3,  536870932) /* SoundTable */
-     , (13229,   6,   67111919) /* PaletteBase */
-     , (13229,   7,  268435816) /* ClothingBase */
-     , (13229,   8,  100670834) /* Icon */
-     , (13229,  22,  872415275) /* PhysicsEffectTable */
+VALUES (13229,   1, 0x020000AB) /* Setup */
+     , (13229,   3, 0x20000014) /* SoundTable */
+     , (13229,   6, 0x04000BEF) /* PaletteBase */
+     , (13229,   7, 0x10000168) /* ClothingBase */
+     , (13229,   8, 0x06001D72) /* Icon */
+     , (13229,  22, 0x3400002B) /* PhysicsEffectTable */
      , (13229,  23,         65) /* UseSound - Drink1 */;

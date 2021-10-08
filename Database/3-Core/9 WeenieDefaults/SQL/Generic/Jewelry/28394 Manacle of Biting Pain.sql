@@ -34,12 +34,12 @@ VALUES (28394,   1, 'Manacle of Biting Pain') /* Name */
      , (28394,  16, 'A single black manacle with vicious looking spikes pointing inward.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28394,   1,   33558878) /* Setup */
-     , (28394,   3,  536870932) /* SoundTable */
-     , (28394,   6,   67114956) /* PaletteBase */
-     , (28394,   7,  268436792) /* ClothingBase */
-     , (28394,   8,  100677003) /* Icon */
-     , (28394,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28394,   1, 0x0200115E) /* Setup */
+     , (28394,   3, 0x20000014) /* SoundTable */
+     , (28394,   6, 0x040017CC) /* PaletteBase */
+     , (28394,   7, 0x10000538) /* ClothingBase */
+     , (28394,   8, 0x0600358B) /* Icon */
+     , (28394,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28394,  3377,      2)  /* Minor Vision Beyond the Grave */

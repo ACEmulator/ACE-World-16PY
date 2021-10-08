@@ -43,14 +43,14 @@ VALUES (8025,   1, 'Caulnalain Soul Crystal Orb') /* Name */
      , (8025,  16, 'An orb imbued with the power of the Caulnalain Soul Crystal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8025,   1,   33556767) /* Setup */
-     , (8025,   3,  536870932) /* SoundTable */
-     , (8025,   6,   67111928) /* PaletteBase */
-     , (8025,   7,  268436041) /* ClothingBase */
-     , (8025,   8,  100670981) /* Icon */
-     , (8025,  22,  872415275) /* PhysicsEffectTable */
-     , (8025,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
-     , (8025,  36,  234881046) /* MutateFilter */
+VALUES (8025,   1, 0x0200091F) /* Setup */
+     , (8025,   3, 0x20000014) /* SoundTable */
+     , (8025,   6, 0x04000BF8) /* PaletteBase */
+     , (8025,   7, 0x10000249) /* ClothingBase */
+     , (8025,   8, 0x06001E05) /* Icon */
+     , (8025,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8025,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
+     , (8025,  36, 0x0E000016) /* MutateFilter */
      , (8025,  37,         32) /* ItemSkillLimit - ItemEnchantment */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8430,   1, 'Mosswart Soul Trapper') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8430,   1,   33557327) /* Setup */
-     , (8430,   2,  150994953) /* MotionTable */
-     , (8430,   3,  536870959) /* SoundTable */
-     , (8430,   4,  805306373) /* CombatTable */
-     , (8430,   6,   67113400) /* PaletteBase */
-     , (8430,   7,  268436295) /* ClothingBase */
-     , (8430,   8,  100667449) /* Icon */
-     , (8430,  22,  872415264) /* PhysicsEffectTable */
+VALUES (8430,   1, 0x02000B4F) /* Setup */
+     , (8430,   2, 0x09000009) /* MotionTable */
+     , (8430,   3, 0x2000002F) /* SoundTable */
+     , (8430,   4, 0x30000005) /* CombatTable */
+     , (8430,   6, 0x040011B8) /* PaletteBase */
+     , (8430,   7, 0x10000347) /* ClothingBase */
+     , (8430,   8, 0x06001039) /* Icon */
+     , (8430,  22, 0x34000020) /* PhysicsEffectTable */
      , (8430,  32,        333) /* WieldedTreasureType - 
                                    Wield Spear (23697) | Probability: 35%
                                    Wield Tachi (23701) | Probability: 25%

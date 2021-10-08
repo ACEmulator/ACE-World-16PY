@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23485,   1, 'Essa Sclavus Lord') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23485,   1,   33555608) /* Setup */
-     , (23485,   2,  150995048) /* MotionTable */
-     , (23485,   3,  536870977) /* SoundTable */
-     , (23485,   4,  805306393) /* CombatTable */
-     , (23485,   6,   67111936) /* PaletteBase */
-     , (23485,   7,  268435727) /* ClothingBase */
-     , (23485,   8,  100669120) /* Icon */
-     , (23485,  22,  872415280) /* PhysicsEffectTable */
+VALUES (23485,   1, 0x02000498) /* Setup */
+     , (23485,   2, 0x09000068) /* MotionTable */
+     , (23485,   3, 0x20000041) /* SoundTable */
+     , (23485,   4, 0x30000019) /* CombatTable */
+     , (23485,   6, 0x04000C00) /* PaletteBase */
+     , (23485,   7, 0x1000010F) /* ClothingBase */
+     , (23485,   8, 0x060016C0) /* Icon */
+     , (23485,  22, 0x34000030) /* PhysicsEffectTable */
      , (23485,  32,        165) /* WieldedTreasureType - 
                                    Wield Yumi (23734) | Probability: 80%
                                    Wield 14x Deadly Arrow (15429) | Probability: 100%

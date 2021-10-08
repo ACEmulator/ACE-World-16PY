@@ -68,14 +68,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25866,   1, 'Damned Marionette') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25866,   1,   33558542) /* Setup */
-     , (25866,   2,  150995099) /* MotionTable */
-     , (25866,   3,  536871024) /* SoundTable */
-     , (25866,   4,  805306410) /* CombatTable */
-     , (25866,   6,   67114692) /* PaletteBase */
-     , (25866,   7,  268436726) /* ClothingBase */
-     , (25866,   8,  100671420) /* Icon */
-     , (25866,  22,  872415372) /* PhysicsEffectTable */
+VALUES (25866,   1, 0x0200100E) /* Setup */
+     , (25866,   2, 0x0900009B) /* MotionTable */
+     , (25866,   3, 0x20000070) /* SoundTable */
+     , (25866,   4, 0x3000002A) /* CombatTable */
+     , (25866,   6, 0x040016C4) /* PaletteBase */
+     , (25866,   7, 0x100004F6) /* ClothingBase */
+     , (25866,   8, 0x06001FBC) /* Icon */
+     , (25866,  22, 0x3400008C) /* PhysicsEffectTable */
      , (25866,  35,         26) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

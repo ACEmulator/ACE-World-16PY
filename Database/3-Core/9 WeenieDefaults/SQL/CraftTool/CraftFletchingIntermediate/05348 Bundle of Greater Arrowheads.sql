@@ -27,7 +27,7 @@ VALUES (5348,   1, 'Bundle of Greater Arrowheads') /* Name */
      , (5348,  20, 'Bundles of Greater Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5348,   1,   33555958) /* Setup */
-     , (5348,   3,  536870932) /* SoundTable */
-     , (5348,   8,  100670190) /* Icon */
-     , (5348,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5348,   1, 0x020005F6) /* Setup */
+     , (5348,   3, 0x20000014) /* SoundTable */
+     , (5348,   8, 0x06001AEE) /* Icon */
+     , (5348,  22, 0x3400002B) /* PhysicsEffectTable */;

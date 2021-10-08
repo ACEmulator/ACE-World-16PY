@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30711,   1, 'Restless Spirit') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30711,   1,   33558816) /* Setup */
-     , (30711,   2,  150995302) /* MotionTable */
-     , (30711,   3,  536871094) /* SoundTable */
-     , (30711,   4,  805306429) /* CombatTable */
-     , (30711,   6,   67115251) /* PaletteBase */
-     , (30711,   7,  268436835) /* ClothingBase */
-     , (30711,   8,  100676679) /* Icon */
-     , (30711,  22,  872415403) /* PhysicsEffectTable */
+VALUES (30711,   1, 0x02001120) /* Setup */
+     , (30711,   2, 0x09000166) /* MotionTable */
+     , (30711,   3, 0x200000B6) /* SoundTable */
+     , (30711,   4, 0x3000003D) /* CombatTable */
+     , (30711,   6, 0x040018F3) /* PaletteBase */
+     , (30711,   7, 0x10000563) /* ClothingBase */
+     , (30711,   8, 0x06003447) /* Icon */
+     , (30711,  22, 0x340000AB) /* PhysicsEffectTable */
      , (30711,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

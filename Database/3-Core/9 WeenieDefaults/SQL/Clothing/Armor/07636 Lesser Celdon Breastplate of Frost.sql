@@ -40,9 +40,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7636,   1, 'Lesser Celdon Breastplate of Frost') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7636,   1,   33554642) /* Setup */
-     , (7636,   3,  536870932) /* SoundTable */
-     , (7636,   6,   67108990) /* PaletteBase */
-     , (7636,   7,  268435848) /* ClothingBase */
-     , (7636,   8,  100670400) /* Icon */
-     , (7636,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7636,   1, 0x020000D2) /* Setup */
+     , (7636,   3, 0x20000014) /* SoundTable */
+     , (7636,   6, 0x0400007E) /* PaletteBase */
+     , (7636,   7, 0x10000188) /* ClothingBase */
+     , (7636,   8, 0x06001BC0) /* Icon */
+     , (7636,  22, 0x3400002B) /* PhysicsEffectTable */;

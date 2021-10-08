@@ -25,7 +25,7 @@ VALUES (8214,   1, 'Guard Post Key') /* Name */
      , (8214,  15, 'A moss-encrusted key found in the caverns below Xarabydun.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8214,   1,   33554784) /* Setup */
-     , (8214,   3,  536870932) /* SoundTable */
-     , (8214,   8,  100670820) /* Icon */
-     , (8214,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8214,   1, 0x02000160) /* Setup */
+     , (8214,   3, 0x20000014) /* SoundTable */
+     , (8214,   8, 0x06001D64) /* Icon */
+     , (8214,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -47,12 +47,12 @@ VALUES (9021,   1, 'Boots of the Vault') /* Name */
      , (9021,  16, 'A pair of boots.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9021,   1,   33556683) /* Setup */
-     , (9021,   3,  536870932) /* SoundTable */
-     , (9021,   6,   67108990) /* PaletteBase */
-     , (9021,   7,  268436025) /* ClothingBase */
-     , (9021,   8,  100670885) /* Icon */
-     , (9021,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9021,   1, 0x020008CB) /* Setup */
+     , (9021,   3, 0x20000014) /* SoundTable */
+     , (9021,   6, 0x0400007E) /* PaletteBase */
+     , (9021,   7, 0x10000239) /* ClothingBase */
+     , (9021,   8, 0x06001DA5) /* Icon */
+     , (9021,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9021,   980,      2)  /* Jumping Mastery Other V */

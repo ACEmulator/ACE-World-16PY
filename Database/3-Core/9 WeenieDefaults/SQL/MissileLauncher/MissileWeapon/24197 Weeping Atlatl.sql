@@ -54,11 +54,11 @@ VALUES (24197,   1, 'Weeping Atlatl') /* Name */
      , (24197,  15, 'An atlatl infused with the Heart of the Innocent. The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24197,   1,   33558290) /* Setup */
-     , (24197,   3,  536870932) /* SoundTable */
-     , (24197,   8,  100674270) /* Icon */
-     , (24197,  22,  872415275) /* PhysicsEffectTable */
-     , (24197,  36,  234881044) /* MutateFilter */;
+VALUES (24197,   1, 0x02000F12) /* Setup */
+     , (24197,   3, 0x20000014) /* SoundTable */
+     , (24197,   8, 0x06002ADE) /* Icon */
+     , (24197,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24197,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24197,  2968,      2)  /* Vision of the Hunter */

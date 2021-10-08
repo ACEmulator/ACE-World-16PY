@@ -22,5 +22,5 @@ VALUES (2278,   1, 'Sawato: 2 miles') /* Name */
      , (2278,  16, 'Town of Sawato: 2 miles.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2278,   1,   33555985) /* Setup */
-     , (2278,   8,  100668115) /* Icon */;
+VALUES (2278,   1, 0x02000611) /* Setup */
+     , (2278,   8, 0x060012D3) /* Icon */;

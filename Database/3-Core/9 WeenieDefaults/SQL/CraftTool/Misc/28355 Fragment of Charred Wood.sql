@@ -34,7 +34,7 @@ VALUES (28355,   1, 'Fragment of Charred Wood') /* Name */
      , (28355,  33, 'GlyphKivikLirShardWood') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28355,   1,   33558873) /* Setup */
-     , (28355,   3,  536870932) /* SoundTable */
-     , (28355,   8,  100676989) /* Icon */
-     , (28355,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28355,   1, 0x02001159) /* Setup */
+     , (28355,   3, 0x20000014) /* SoundTable */
+     , (28355,   8, 0x0600357D) /* Icon */
+     , (28355,  22, 0x3400002B) /* PhysicsEffectTable */;

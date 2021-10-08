@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8264,   1, 'Sotiris Virindi Director') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8264,   1,   33554497) /* Setup */
-     , (8264,   2,  150994984) /* MotionTable */
-     , (8264,   3,  536870930) /* SoundTable */
-     , (8264,   4,  805306381) /* CombatTable */
-     , (8264,   6,   67111346) /* PaletteBase */
-     , (8264,   7,  268435649) /* ClothingBase */
-     , (8264,   8,  100667943) /* Icon */
-     , (8264,  22,  872415273) /* PhysicsEffectTable */
+VALUES (8264,   1, 0x02000041) /* Setup */
+     , (8264,   2, 0x09000028) /* MotionTable */
+     , (8264,   3, 0x20000012) /* SoundTable */
+     , (8264,   4, 0x3000000D) /* CombatTable */
+     , (8264,   6, 0x040009B2) /* PaletteBase */
+     , (8264,   7, 0x100000C1) /* ClothingBase */
+     , (8264,   8, 0x06001227) /* Icon */
+     , (8264,  22, 0x34000029) /* PhysicsEffectTable */
      , (8264,  35,        243) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

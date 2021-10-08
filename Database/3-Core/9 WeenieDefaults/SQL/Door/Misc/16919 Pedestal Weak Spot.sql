@@ -28,8 +28,8 @@ VALUES (16919,   1, 'Pedestal Weak Spot') /* Name */
      , (16919,  14, 'The part of the pedestal doesn''t look quite the same as the rest.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (16919,   1,   33557845) /* Setup */
-     , (16919,   2,  150995193) /* MotionTable */
-     , (16919,   3,  536871053) /* SoundTable */
-     , (16919,   8,  100668183) /* Icon */
-     , (16919,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (16919,   1, 0x02000D55) /* Setup */
+     , (16919,   2, 0x090000F9) /* MotionTable */
+     , (16919,   3, 0x2000008D) /* SoundTable */
+     , (16919,   8, 0x06001317) /* Icon */
+     , (16919,  22, 0x3400002B) /* PhysicsEffectTable */;

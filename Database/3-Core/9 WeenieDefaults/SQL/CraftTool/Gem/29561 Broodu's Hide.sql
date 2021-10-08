@@ -34,9 +34,9 @@ VALUES (29561,   1, 'Broodu''s Hide') /* Name */
      , (29561,  33, 'BrooduBeaten') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29561,   1,   33554817) /* Setup */
-     , (29561,   3,  536870932) /* SoundTable */
-     , (29561,   6,   67111919) /* PaletteBase */
-     , (29561,   7,  268435832) /* ClothingBase */
-     , (29561,   8,  100677155) /* Icon */
-     , (29561,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29561,   1, 0x02000181) /* Setup */
+     , (29561,   3, 0x20000014) /* SoundTable */
+     , (29561,   6, 0x04000BEF) /* PaletteBase */
+     , (29561,   7, 0x10000178) /* ClothingBase */
+     , (29561,   8, 0x06003623) /* Icon */
+     , (29561,  22, 0x3400002B) /* PhysicsEffectTable */;

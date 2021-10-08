@@ -30,7 +30,7 @@ VALUES (6820,   1, 'Spire Key Chunk - Tufa') /* Name */
      , (6820,  16, 'The rear third of a skeletal key, found in the Tufa shadow spire.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6820,   1,   33554784) /* Setup */
-     , (6820,   3,  536870932) /* SoundTable */
-     , (6820,   8,  100670624) /* Icon */
-     , (6820,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6820,   1, 0x02000160) /* Setup */
+     , (6820,   3, 0x20000014) /* SoundTable */
+     , (6820,   8, 0x06001CA0) /* Icon */
+     , (6820,  22, 0x3400002B) /* PhysicsEffectTable */;

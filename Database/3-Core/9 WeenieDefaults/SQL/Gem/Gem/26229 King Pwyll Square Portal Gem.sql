@@ -36,11 +36,11 @@ VALUES (26229,   1, 'King Pwyll Square Portal Gem') /* Name */
      , (26229,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26229,   1,   33556769) /* Setup */
-     , (26229,   3,  536870932) /* SoundTable */
-     , (26229,   6,   67111919) /* PaletteBase */
-     , (26229,   7,  268435723) /* ClothingBase */
-     , (26229,   8,  100675760) /* Icon */
-     , (26229,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26229,   1, 0x02000921) /* Setup */
+     , (26229,   3, 0x20000014) /* SoundTable */
+     , (26229,   6, 0x04000BEF) /* PaletteBase */
+     , (26229,   7, 0x1000010B) /* ClothingBase */
+     , (26229,   8, 0x060030B0) /* Icon */
+     , (26229,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26229,  28,        157) /* Spell - Summon Primary Portal I */
      , (26229,  31,      14639) /* LinkedPortalOne - King Pwyll Square Portal */;

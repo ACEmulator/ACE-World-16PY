@@ -35,12 +35,12 @@ VALUES (11783,   1, 'Reinforced Falcon Banner with Symbol') /* Name */
      , (11783,  16, 'A reinforced, symbol tipped banner with a Falcon on it.  It is somewhat tattered, and the colors seem to be washed out.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11783,   1,   33557258) /* Setup */
-     , (11783,   6,   67113338) /* PaletteBase */
-     , (11783,   7,  268436219) /* ClothingBase */
-     , (11783,   8,  100671936) /* Icon */
-     , (11783,  22,  872415275) /* PhysicsEffectTable */
-     , (11783,  27, 1073742049) /* UseUserAnimation - UseMagicWand */;
+VALUES (11783,   1, 0x02000B0A) /* Setup */
+     , (11783,   6, 0x0400117A) /* PaletteBase */
+     , (11783,   7, 0x100002FB) /* ClothingBase */
+     , (11783,   8, 0x060021C0) /* Icon */
+     , (11783,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11783,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11783,   657,      2)  /* Mana Conversion Mastery Self V */

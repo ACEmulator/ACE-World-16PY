@@ -22,5 +22,5 @@ VALUES (14705,   1, 'Hidden Valley') /* Name */
      , (14705,  16, 'Welcome to Hidden Valley') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14705,   1,   33557463) /* Setup */
-     , (14705,   8,  100668115) /* Icon */;
+VALUES (14705,   1, 0x02000BD7) /* Setup */
+     , (14705,   8, 0x060012D3) /* Icon */;

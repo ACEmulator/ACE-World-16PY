@@ -67,14 +67,14 @@ VALUES (6873,   1, 'Ulgrim the Unpleasant') /* Name */
      , (6873,   5, 'Mayor of Ayan Baqur') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6873,   1,   33554433) /* Setup */
-     , (6873,   2,  150994945) /* MotionTable */
-     , (6873,   3,  536871084) /* SoundTable */
-     , (6873,   4,  805306368) /* CombatTable */
-     , (6873,   6,   67108990) /* PaletteBase */
-     , (6873,   7,  268435545) /* ClothingBase */
-     , (6873,   8,  100667446) /* Icon */
-     , (6873,  22,  872415236) /* PhysicsEffectTable */
+VALUES (6873,   1, 0x02000001) /* Setup */
+     , (6873,   2, 0x09000001) /* MotionTable */
+     , (6873,   3, 0x200000AC) /* SoundTable */
+     , (6873,   4, 0x30000000) /* CombatTable */
+     , (6873,   6, 0x0400007E) /* PaletteBase */
+     , (6873,   7, 0x10000059) /* ClothingBase */
+     , (6873,   8, 0x06001036) /* Icon */
+     , (6873,  22, 0x34000004) /* PhysicsEffectTable */
      , (6873,  31,      23889) /* LinkedPortalOne - Tower of the Madman */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

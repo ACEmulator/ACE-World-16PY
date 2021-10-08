@@ -32,11 +32,11 @@ VALUES (22615,   1, 'Portcullis') /* Name */
      , (22615,  12, 'nokey') /* LockCode */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22615,   1,   33557470) /* Setup */
-     , (22615,   2,  150995148) /* MotionTable */
-     , (22615,   3,  536871051) /* SoundTable */
-     , (22615,   8,  100672429) /* Icon */
-     , (22615,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22615,   1, 0x02000BDE) /* Setup */
+     , (22615,   2, 0x090000CC) /* MotionTable */
+     , (22615,   3, 0x2000008B) /* SoundTable */
+     , (22615,   8, 0x060023AD) /* Icon */
+     , (22615,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (22615,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

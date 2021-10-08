@@ -62,14 +62,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24313,   1, 'Armored Skeleton') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24313,   1,   33558396) /* Setup */
-     , (24313,   2,  150994981) /* MotionTable */
-     , (24313,   3,  536870942) /* SoundTable */
-     , (24313,   4,  805306368) /* CombatTable */
-     , (24313,   6,   67114697) /* PaletteBase */
-     , (24313,   7,  268436644) /* ClothingBase */
-     , (24313,   8,  100669124) /* Icon */
-     , (24313,  22,  872415269) /* PhysicsEffectTable */
+VALUES (24313,   1, 0x02000F7C) /* Setup */
+     , (24313,   2, 0x09000025) /* MotionTable */
+     , (24313,   3, 0x2000001E) /* SoundTable */
+     , (24313,   4, 0x30000000) /* CombatTable */
+     , (24313,   6, 0x040016C9) /* PaletteBase */
+     , (24313,   7, 0x100004A4) /* ClothingBase */
+     , (24313,   8, 0x060016C4) /* Icon */
+     , (24313,  22, 0x34000025) /* PhysicsEffectTable */
      , (24313,  32,        203) /* WieldedTreasureType - 
                                    Wield Yumi (23734) | Probability: 20%
                                    Wield 20x Deadly Arrow (15429) | Probability: 100%

@@ -45,12 +45,12 @@ VALUES (25953,   1, 'Cowl of the Sand') /* Name */
      , (25953,  16, 'This Cowl was used by a member of the Shagar Zharala to protect himself from the sandstorms of the A''mun Desert.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25953,   1,   33554883) /* Setup */
-     , (25953,   3,  536870932) /* SoundTable */
-     , (25953,   6,   67108990) /* PaletteBase */
-     , (25953,   7,  268436777) /* ClothingBase */
-     , (25953,   8,  100675685) /* Icon */
-     , (25953,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25953,   1, 0x020001C3) /* Setup */
+     , (25953,   3, 0x20000014) /* SoundTable */
+     , (25953,   6, 0x0400007E) /* PaletteBase */
+     , (25953,   7, 0x10000529) /* ClothingBase */
+     , (25953,   8, 0x06003065) /* Icon */
+     , (25953,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25953,  3008,      2)  /* Finesse */

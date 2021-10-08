@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8600,   1, 'Moars Laboratory') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8600,   1,   33555924) /* Setup */
-     , (8600,   2,  150994947) /* MotionTable */
-     , (8600,   8,  100667499) /* Icon */;
+VALUES (8600,   1, 0x020005D4) /* Setup */
+     , (8600,   2, 0x09000003) /* MotionTable */
+     , (8600,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8600, 2, 0x02B301F6, 92.5088, -41.736, 24.005, 1, 0, 0, -0) /* Destination */

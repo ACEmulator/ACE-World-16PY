@@ -25,7 +25,7 @@ VALUES (3252,   1, 'Scroll of Defenselessness VI') /* Name */
      , (3252,  16, 'When learned, this spell decreases the target''s Missile Defense skill by 60%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3252,   1,   33554826) /* Setup */
-     , (3252,   8,  100676468) /* Icon */
-     , (3252,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3252,   1, 0x0200018A) /* Setup */
+     , (3252,   8, 0x06003374) /* Icon */
+     , (3252,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3252,  28,        267) /* Spell - Defenselessness Other VI */;

@@ -24,7 +24,7 @@ VALUES (21098,   1, 'Scroll of Martyr''s Hecatomb IV') /* Name */
      , (21098,  15, 'When learned, this spell drains one-quarter of the casters Health into a bolt of energy which shoots at the target.  The bolt does 95% of the amount drained.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21098,   1,   33554826) /* Setup */
-     , (21098,   8,  100676938) /* Icon */
-     , (21098,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21098,   1, 0x0200018A) /* Setup */
+     , (21098,   8, 0x0600354A) /* Icon */
+     , (21098,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21098,  28,       2763) /* Spell - Martyr's Hecatomb IV */;

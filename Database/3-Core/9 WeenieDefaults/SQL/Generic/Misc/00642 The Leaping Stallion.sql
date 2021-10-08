@@ -22,7 +22,7 @@ VALUES (642,   1, 'The Leaping Stallion') /* Name */
      , (642,  16, 'The Leaping Stallion') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (642,   1,   33555088) /* Setup */
-     , (642,   6,   67111092) /* PaletteBase */
-     , (642,   7,  268435664) /* ClothingBase */
-     , (642,   8,  100668115) /* Icon */;
+VALUES (642,   1, 0x02000290) /* Setup */
+     , (642,   6, 0x040008B4) /* PaletteBase */
+     , (642,   7, 0x100000D0) /* ClothingBase */
+     , (642,   8, 0x060012D3) /* Icon */;

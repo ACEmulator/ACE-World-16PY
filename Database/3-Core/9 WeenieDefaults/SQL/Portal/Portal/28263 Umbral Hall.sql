@@ -25,9 +25,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28263,   1, 'Umbral Hall') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28263,   1,   33555923) /* Setup */
-     , (28263,   2,  150994947) /* MotionTable */
-     , (28263,   8,  100667499) /* Icon */;
+VALUES (28263,   1, 0x020005D3) /* Setup */
+     , (28263,   2, 0x09000003) /* MotionTable */
+     , (28263,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28263, 2, 0x0179010D, 100, -100, 0.005, 1, 0, 0, -0) /* Destination */

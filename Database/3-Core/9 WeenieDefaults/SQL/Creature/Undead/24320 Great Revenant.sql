@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24320,   1, 'Great Revenant') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24320,   1,   33558541) /* Setup */
-     , (24320,   2,  150994967) /* MotionTable */
-     , (24320,   3,  536870934) /* SoundTable */
-     , (24320,   4,  805306368) /* CombatTable */
-     , (24320,   6,   67114692) /* PaletteBase */
-     , (24320,   7,  268436726) /* ClothingBase */
-     , (24320,   8,  100667942) /* Icon */
-     , (24320,  22,  872415272) /* PhysicsEffectTable */
+VALUES (24320,   1, 0x0200100D) /* Setup */
+     , (24320,   2, 0x09000017) /* MotionTable */
+     , (24320,   3, 0x20000016) /* SoundTable */
+     , (24320,   4, 0x30000000) /* CombatTable */
+     , (24320,   6, 0x040016C4) /* PaletteBase */
+     , (24320,   7, 0x100004F6) /* ClothingBase */
+     , (24320,   8, 0x06001226) /* Icon */
+     , (24320,  22, 0x34000028) /* PhysicsEffectTable */
      , (24320,  32,        199) /* WieldedTreasureType - 
                                    Wield Yumi (23733) | Probability: 6%
                                    Wield 20x Deadly Armor Piercing Arrow (15431) | Probability: 100%

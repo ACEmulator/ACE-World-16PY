@@ -34,7 +34,7 @@ VALUES (8553,   1, 'Kelderam''s Tomb') /* Name */
      , (8553,  17, 'You need to find the key first.') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8553,   1,   33556908) /* Setup */
-     , (8553,   3,  536870932) /* SoundTable */
-     , (8553,   8,  100671209) /* Icon */
-     , (8553,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8553,   1, 0x020009AC) /* Setup */
+     , (8553,   3, 0x20000014) /* SoundTable */
+     , (8553,   8, 0x06001EE9) /* Icon */
+     , (8553,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -38,10 +38,10 @@ VALUES (12744,   1, 'Training Mace') /* Name */
      , (12744,  15, 'A basic mace forged in the Strathelar Training Academy. This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12744,   1,   33554746) /* Setup */
-     , (12744,   3,  536870932) /* SoundTable */
-     , (12744,   6,   67111919) /* PaletteBase */
-     , (12744,   7,  268435792) /* ClothingBase */
-     , (12744,   8,  100668955) /* Icon */
-     , (12744,  22,  872415275) /* PhysicsEffectTable */
-     , (12744,  36,  234881044) /* MutateFilter */;
+VALUES (12744,   1, 0x0200013A) /* Setup */
+     , (12744,   3, 0x20000014) /* SoundTable */
+     , (12744,   6, 0x04000BEF) /* PaletteBase */
+     , (12744,   7, 0x10000150) /* ClothingBase */
+     , (12744,   8, 0x0600161B) /* Icon */
+     , (12744,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (12744,  36, 0x0E000014) /* MutateFilter */;

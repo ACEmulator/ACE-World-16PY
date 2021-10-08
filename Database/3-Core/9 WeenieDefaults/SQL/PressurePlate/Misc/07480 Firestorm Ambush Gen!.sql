@@ -27,10 +27,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7480,   1, 'Firestorm Ambush Gen!') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7480,   1,   33555536) /* Setup */
-     , (7480,   2,  150994977) /* MotionTable */
-     , (7480,   8,  100668114) /* Icon */
-     , (7480,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7480,   1, 0x02000450) /* Setup */
+     , (7480,   2, 0x09000021) /* MotionTable */
+     , (7480,   8, 0x060012D2) /* Icon */
+     , (7480,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7480,  16, 0x00000000) /* ActivationTarget */;

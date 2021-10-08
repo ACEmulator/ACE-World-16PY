@@ -27,10 +27,10 @@ VALUES (19243,   1, 'Decorative Bronze Statue') /* Name */
      , (19243,  16, 'A small decorative statue of a Tumerok crafted by the Arcanum Tinker, in reward for destroying the statues threatening the cities of Dereth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19243,   1,   33554496) /* Setup */
-     , (19243,   2,  150995212) /* MotionTable */
-     , (19243,   6,   67109314) /* PaletteBase */
-     , (19243,   7,  268436373) /* ClothingBase */
-     , (19243,   8,  100667452) /* Icon */
-     , (19243,  22,  872415349) /* PhysicsEffectTable */
-     , (19243,  36,  234881046) /* MutateFilter */;
+VALUES (19243,   1, 0x02000040) /* Setup */
+     , (19243,   2, 0x0900010C) /* MotionTable */
+     , (19243,   6, 0x040001C2) /* PaletteBase */
+     , (19243,   7, 0x10000395) /* ClothingBase */
+     , (19243,   8, 0x0600103C) /* Icon */
+     , (19243,  22, 0x34000075) /* PhysicsEffectTable */
+     , (19243,  36, 0x0E000016) /* MutateFilter */;

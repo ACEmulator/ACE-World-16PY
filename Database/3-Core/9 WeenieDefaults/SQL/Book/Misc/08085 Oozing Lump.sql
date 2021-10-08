@@ -28,12 +28,12 @@ VALUES (8085,   1, 'Oozing Lump') /* Name */
      , (8085,  16, 'An amorphous, unidentifiable organism with what appears to be characters of Yalaini script burned into its flesh.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8085,   1,   33556232) /* Setup */
-     , (8085,   3,  536870932) /* SoundTable */
-     , (8085,   6,   67111928) /* PaletteBase */
-     , (8085,   7,  268436029) /* ClothingBase */
-     , (8085,   8,  100670890) /* Icon */
-     , (8085,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8085,   1, 0x02000708) /* Setup */
+     , (8085,   3, 0x20000014) /* SoundTable */
+     , (8085,   6, 0x04000BF8) /* PaletteBase */
+     , (8085,   7, 0x1000023D) /* ClothingBase */
+     , (8085,   8, 0x06001DAA) /* Icon */
+     , (8085,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (8085, 1, 1000);

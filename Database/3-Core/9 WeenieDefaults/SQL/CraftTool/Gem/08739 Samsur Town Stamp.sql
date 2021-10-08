@@ -34,7 +34,7 @@ VALUES (8739,   1, 'Samsur Town Stamp') /* Name */
      , (8739,  33, 'NewbieQuestStampSamsur') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8739,   1,   33556922) /* Setup */
-     , (8739,   3,  536870932) /* SoundTable */
-     , (8739,   8,  100671218) /* Icon */
-     , (8739,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8739,   1, 0x020009BA) /* Setup */
+     , (8739,   3, 0x20000014) /* SoundTable */
+     , (8739,   8, 0x06001EF2) /* Icon */
+     , (8739,  22, 0x3400002B) /* PhysicsEffectTable */;

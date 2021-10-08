@@ -64,11 +64,11 @@ VALUES (29771,   1, 'Guard Ellyon') /* Name */
      , (29771,   5, 'Guard') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29771,   1,   33554510) /* Setup */
-     , (29771,   2,  150994945) /* MotionTable */
-     , (29771,   3,  536870914) /* SoundTable */
-     , (29771,   4,  805306368) /* CombatTable */
-     , (29771,   8,  100667446) /* Icon */;
+VALUES (29771,   1, 0x0200004E) /* Setup */
+     , (29771,   2, 0x09000001) /* MotionTable */
+     , (29771,   3, 0x20000002) /* SoundTable */
+     , (29771,   4, 0x30000000) /* CombatTable */
+     , (29771,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29771,   1, 160, 0, 0) /* Strength */

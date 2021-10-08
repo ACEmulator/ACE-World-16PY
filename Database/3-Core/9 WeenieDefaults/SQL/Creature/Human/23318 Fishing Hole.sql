@@ -62,10 +62,10 @@ VALUES (23318,   1, 'Fishing Hole') /* Name */
      , (23318,  15, 'Some water that looks like it might have fish in it.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23318,   1,   33558285) /* Setup */
-     , (23318,   2,  150995234) /* MotionTable */
-     , (23318,   3,  536870913) /* SoundTable */
-     , (23318,   8,  100674236) /* Icon */;
+VALUES (23318,   1, 0x02000F0D) /* Setup */
+     , (23318,   2, 0x09000122) /* MotionTable */
+     , (23318,   3, 0x20000001) /* SoundTable */
+     , (23318,   8, 0x06002ABC) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23318,   1, 200, 0, 0) /* Strength */

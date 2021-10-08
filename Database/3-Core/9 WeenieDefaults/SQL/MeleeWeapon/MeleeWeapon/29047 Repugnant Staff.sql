@@ -44,10 +44,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29047,   1, 'Repugnant Staff') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29047,   1,   33558883) /* Setup */
-     , (29047,   3,  536870932) /* SoundTable */
-     , (29047,   8,  100677030) /* Icon */
-     , (29047,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29047,   1, 0x02001163) /* Setup */
+     , (29047,   3, 0x20000014) /* SoundTable */
+     , (29047,   8, 0x060035A6) /* Icon */
+     , (29047,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29047,  1627,      2)  /* Aura of Swift Killer Self VI */

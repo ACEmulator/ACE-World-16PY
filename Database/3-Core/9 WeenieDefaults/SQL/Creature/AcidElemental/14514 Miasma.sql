@@ -64,12 +64,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14514,   1, 'Miasma') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14514,   1,   33557486) /* Setup */
-     , (14514,   2,  150995087) /* MotionTable */
-     , (14514,   3,  536871002) /* SoundTable */
-     , (14514,   4,  805306368) /* CombatTable */
-     , (14514,   8,  100672513) /* Icon */
-     , (14514,  22,  872415349) /* PhysicsEffectTable */
+VALUES (14514,   1, 0x02000BEE) /* Setup */
+     , (14514,   2, 0x0900008F) /* MotionTable */
+     , (14514,   3, 0x2000005A) /* SoundTable */
+     , (14514,   4, 0x30000000) /* CombatTable */
+     , (14514,   8, 0x06002401) /* Icon */
+     , (14514,  22, 0x34000075) /* PhysicsEffectTable */
      , (14514,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

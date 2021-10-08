@@ -22,7 +22,7 @@ VALUES (4516,   1, 'Jewels of the South') /* Name */
      , (4516,  16, 'Jewels of the South') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4516,   1,   33555594) /* Setup */
-     , (4516,   6,   67111782) /* PaletteBase */
-     , (4516,   7,  268435690) /* ClothingBase */
-     , (4516,   8,  100668115) /* Icon */;
+VALUES (4516,   1, 0x0200048A) /* Setup */
+     , (4516,   6, 0x04000B66) /* PaletteBase */
+     , (4516,   7, 0x100000EA) /* ClothingBase */
+     , (4516,   8, 0x060012D3) /* Icon */;

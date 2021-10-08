@@ -27,8 +27,8 @@ VALUES (11335,   1, 'Aun Papileona''s Amulet') /* Name */
      , (11335,  16, 'An amulet of Raeta, carved with painstaking realism. Its wings almost seem as if they are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11335,   1,   33557216) /* Setup */
-     , (11335,   3,  536870932) /* SoundTable */
-     , (11335,   8,  100671981) /* Icon */
-     , (11335,  22,  872415275) /* PhysicsEffectTable */
-     , (11335,  36,  234881046) /* MutateFilter */;
+VALUES (11335,   1, 0x02000AE0) /* Setup */
+     , (11335,   3, 0x20000014) /* SoundTable */
+     , (11335,   8, 0x060021ED) /* Icon */
+     , (11335,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11335,  36, 0x0E000016) /* MutateFilter */;

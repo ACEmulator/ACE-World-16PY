@@ -22,5 +22,5 @@ VALUES (16899,   1, 'Senmai Court') /* Name */
      , (16899,  16, 'Senmai Court') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (16899,   1,   33557653) /* Setup */
-     , (16899,   8,  100672342) /* Icon */;
+VALUES (16899,   1, 0x02000C95) /* Setup */
+     , (16899,   8, 0x06002356) /* Icon */;

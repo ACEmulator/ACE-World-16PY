@@ -50,12 +50,12 @@ VALUES (28331,   1, 'Fenmalain Crystal Bow') /* Name */
      , (28331,  15, 'A bow imbued with the essence of the Fenmalain Crystal. Uses crystal-tipped arrows.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28331,   1,   33554729) /* Setup */
-     , (28331,   3,  536870932) /* SoundTable */
-     , (28331,   6,   67111919) /* PaletteBase */
-     , (28331,   7,  268436042) /* ClothingBase */
-     , (28331,   8,  100670998) /* Icon */
-     , (28331,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28331,   1, 0x02000129) /* Setup */
+     , (28331,   3, 0x20000014) /* SoundTable */
+     , (28331,   6, 0x04000BEF) /* PaletteBase */
+     , (28331,   7, 0x1000024A) /* ClothingBase */
+     , (28331,   8, 0x06001E16) /* Icon */
+     , (28331,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28331,  1602,      2)  /* Aura of Defender Self III */

@@ -24,7 +24,7 @@ VALUES (28302,   1, 'Scroll of Superior Inferno Ward') /* Name */
      , (28302,  15, 'When learned, this spell reduces damage all fellowship members take from fire by 65%.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28302,   1,   33554826) /* Setup */
-     , (28302,   8,  100676949) /* Icon */
-     , (28302,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28302,   1, 0x0200018A) /* Setup */
+     , (28302,   8, 0x06003555) /* Icon */
+     , (28302,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28302,  28,       3339) /* Spell - Superior Inferno Ward */;

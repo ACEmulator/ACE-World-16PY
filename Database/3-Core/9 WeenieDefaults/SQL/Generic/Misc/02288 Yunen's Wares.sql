@@ -22,7 +22,7 @@ VALUES (2288,   1, 'Yunen''s Wares') /* Name */
      , (2288,  16, 'Yunen''s Wares') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2288,   1,   33555594) /* Setup */
-     , (2288,   6,   67111782) /* PaletteBase */
-     , (2288,   7,  268435688) /* ClothingBase */
-     , (2288,   8,  100668115) /* Icon */;
+VALUES (2288,   1, 0x0200048A) /* Setup */
+     , (2288,   6, 0x04000B66) /* PaletteBase */
+     , (2288,   7, 0x100000E8) /* ClothingBase */
+     , (2288,   8, 0x060012D3) /* Icon */;

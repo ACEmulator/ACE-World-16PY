@@ -33,13 +33,13 @@ VALUES (28074,   1, 'Clasp of the Heart') /* Name */
      , (28074,  16, 'This simple silver clasp appears to be no more than an ornamental piece of jewelry to the untrained eye. Those who have studied magic will immediately notice that the silver is woven delicately and intricately with pyreal and golden bands. The result is a potent magical boon. A simple heart has been carved into the metal of the bracelet.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28074,   1,   33554683) /* Setup */
-     , (28074,   3,  536870932) /* SoundTable */
-     , (28074,   6,   67111919) /* PaletteBase */
-     , (28074,   7,  268436286) /* ClothingBase */
-     , (28074,   8,  100676724) /* Icon */
-     , (28074,  22,  872415275) /* PhysicsEffectTable */
-     , (28074,  36,  234881046) /* MutateFilter */;
+VALUES (28074,   1, 0x020000FB) /* Setup */
+     , (28074,   3, 0x20000014) /* SoundTable */
+     , (28074,   6, 0x04000BEF) /* PaletteBase */
+     , (28074,   7, 0x1000033E) /* ClothingBase */
+     , (28074,   8, 0x06003474) /* Icon */
+     , (28074,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (28074,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28074,  3366,      2)  /* The Heart's Touch */;

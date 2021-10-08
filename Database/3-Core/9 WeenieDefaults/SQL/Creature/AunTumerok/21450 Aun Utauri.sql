@@ -66,13 +66,13 @@ VALUES (21450,   1, 'Aun Utauri') /* Name */
      , (21450,   5, 'Shaman') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21450,   1,   33557175) /* Setup */
-     , (21450,   2,  150995136) /* MotionTable */
-     , (21450,   3,  536871030) /* SoundTable */
-     , (21450,   4,  805306380) /* CombatTable */
-     , (21450,   6,   67113280) /* PaletteBase */
-     , (21450,   7,  268436193) /* ClothingBase */
-     , (21450,   8,  100671756) /* Icon */
+VALUES (21450,   1, 0x02000AB7) /* Setup */
+     , (21450,   2, 0x090000C0) /* MotionTable */
+     , (21450,   3, 0x20000076) /* SoundTable */
+     , (21450,   4, 0x3000000C) /* CombatTable */
+     , (21450,   6, 0x04001140) /* PaletteBase */
+     , (21450,   7, 0x100002E1) /* ClothingBase */
+     , (21450,   8, 0x0600210C) /* Icon */
      , (21450,  32,        380) /* WieldedTreasureType - 
                                    Wield Buadren (11971) | Probability: 100% */;
 

@@ -70,11 +70,11 @@ VALUES (2292,   1, 'Barkeep Ban Shahei') /* Name */
      , (2292,  24, 'Sawato') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2292,   1,   33554433) /* Setup */
-     , (2292,   2,  150994945) /* MotionTable */
-     , (2292,   3,  536870913) /* SoundTable */
-     , (2292,   4,  805306368) /* CombatTable */
-     , (2292,   8,  100667446) /* Icon */;
+VALUES (2292,   1, 0x02000001) /* Setup */
+     , (2292,   2, 0x09000001) /* MotionTable */
+     , (2292,   3, 0x20000001) /* SoundTable */
+     , (2292,   4, 0x30000000) /* CombatTable */
+     , (2292,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2292,   1,  75, 0, 0) /* Strength */

@@ -21,12 +21,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2609,   1, 'Lever') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2609,   1,   33555231) /* Setup */
-     , (2609,   2,  150995055) /* MotionTable */
-     , (2609,   3,  536870981) /* SoundTable */
-     , (2609,   8,  100667624) /* Icon */
-     , (2609,  22,  872415275) /* PhysicsEffectTable */
-     , (2609,  24,  268435537) /* UseTargetAnimation - Twitch1 */;
+VALUES (2609,   1, 0x0200031F) /* Setup */
+     , (2609,   2, 0x0900006F) /* MotionTable */
+     , (2609,   3, 0x20000045) /* SoundTable */
+     , (2609,   8, 0x060010E8) /* Icon */
+     , (2609,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (2609,  24, 0x10000051) /* UseTargetAnimation - Twitch1 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (2609,  16, 0x00000000) /* ActivationTarget */;

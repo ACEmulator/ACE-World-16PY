@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19426,   1, 'Bound Crystal Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19426,   1,   33556439) /* Setup */
-     , (19426,   2,  150995073) /* MotionTable */
-     , (19426,   3,  536870933) /* SoundTable */
-     , (19426,   4,  805306376) /* CombatTable */
-     , (19426,   6,   67112808) /* PaletteBase */
-     , (19426,   7,  268435983) /* ClothingBase */
-     , (19426,   8,  100667940) /* Icon */
-     , (19426,  22,  872415322) /* PhysicsEffectTable */;
+VALUES (19426,   1, 0x020007D7) /* Setup */
+     , (19426,   2, 0x09000081) /* MotionTable */
+     , (19426,   3, 0x20000015) /* SoundTable */
+     , (19426,   4, 0x30000008) /* CombatTable */
+     , (19426,   6, 0x04000F68) /* PaletteBase */
+     , (19426,   7, 0x1000020F) /* ClothingBase */
+     , (19426,   8, 0x06001224) /* Icon */
+     , (19426,  22, 0x3400005A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19426,   1, 400, 0, 0) /* Strength */

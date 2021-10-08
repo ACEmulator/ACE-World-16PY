@@ -25,9 +25,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4941,   1, 'Banished Assembly') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4941,   1,   33555925) /* Setup */
-     , (4941,   2,  150994947) /* MotionTable */
-     , (4941,   8,  100667499) /* Icon */;
+VALUES (4941,   1, 0x020005D5) /* Setup */
+     , (4941,   2, 0x09000003) /* MotionTable */
+     , (4941,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4941, 2, 0x001501CA, 12.2668, -59.989, 12.005, 0.7796, 0, 0, -0.626277) /* Destination */

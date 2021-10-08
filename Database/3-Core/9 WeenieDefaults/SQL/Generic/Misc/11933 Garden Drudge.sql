@@ -25,5 +25,5 @@ VALUES (11933,   1, 'Garden Drudge') /* Name */
      , (11933,  15, 'This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11933,   1,   33557144) /* Setup */
-     , (11933,   8,  100671776) /* Icon */;
+VALUES (11933,   1, 0x02000A98) /* Setup */
+     , (11933,   8, 0x06002120) /* Icon */;

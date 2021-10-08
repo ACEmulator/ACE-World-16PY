@@ -29,10 +29,10 @@ VALUES (11732,   1, 'Cave-In Action Playset Gen!') /* Name */
      , (11732,  17, 'You hear the clatter of loose rocks from above.') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11732,   1,   33555536) /* Setup */
-     , (11732,   2,  150994977) /* MotionTable */
-     , (11732,   8,  100668114) /* Icon */
-     , (11732,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11732,   1, 0x02000450) /* Setup */
+     , (11732,   2, 0x09000021) /* MotionTable */
+     , (11732,   8, 0x060012D2) /* Icon */
+     , (11732,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11732,  23,        154) /* UseSound - TriggerActivated3 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)

@@ -62,12 +62,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14907,   1, 'Anger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14907,   1,   33557624) /* Setup */
-     , (14907,   2,  150994994) /* MotionTable */
-     , (14907,   3,  536870984) /* SoundTable */
-     , (14907,   4,  805306394) /* CombatTable */
-     , (14907,   8,  100672735) /* Icon */
-     , (14907,  22,  872415261) /* PhysicsEffectTable */
+VALUES (14907,   1, 0x02000C78) /* Setup */
+     , (14907,   2, 0x09000032) /* MotionTable */
+     , (14907,   3, 0x20000048) /* SoundTable */
+     , (14907,   4, 0x3000001A) /* CombatTable */
+     , (14907,   8, 0x060024DF) /* Icon */
+     , (14907,  22, 0x3400001D) /* PhysicsEffectTable */
      , (14907,  35,         96) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

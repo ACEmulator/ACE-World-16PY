@@ -64,12 +64,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25667,   1, 'Dark Vapor') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25667,   1,   33558511) /* Setup */
-     , (25667,   2,  150995087) /* MotionTable */
-     , (25667,   3,  536870985) /* SoundTable */
-     , (25667,   4,  805306398) /* CombatTable */
-     , (25667,   8,  100668442) /* Icon */
-     , (25667,  22,  872415274) /* PhysicsEffectTable */
+VALUES (25667,   1, 0x02000FEF) /* Setup */
+     , (25667,   2, 0x0900008F) /* MotionTable */
+     , (25667,   3, 0x20000049) /* SoundTable */
+     , (25667,   4, 0x3000001E) /* CombatTable */
+     , (25667,   8, 0x0600141A) /* Icon */
+     , (25667,  22, 0x3400002A) /* PhysicsEffectTable */
      , (25667,  31,      25674) /* LinkedPortalOne - Caliginous Bethel */
      , (25667,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 

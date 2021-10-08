@@ -29,9 +29,9 @@ VALUES (5032,   1, 'Wedding Band') /* Name */
      , (5032,  33, 'HardunnaBandQuest') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5032,   1,   33554691) /* Setup */
-     , (5032,   3,  536870932) /* SoundTable */
-     , (5032,   6,   67111919) /* PaletteBase */
-     , (5032,   7,  268435753) /* ClothingBase */
-     , (5032,   8,  100667317) /* Icon */
-     , (5032,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5032,   1, 0x02000103) /* Setup */
+     , (5032,   3, 0x20000014) /* SoundTable */
+     , (5032,   6, 0x04000BEF) /* PaletteBase */
+     , (5032,   7, 0x10000129) /* ClothingBase */
+     , (5032,   8, 0x06000FB5) /* Icon */
+     , (5032,  22, 0x3400002B) /* PhysicsEffectTable */;

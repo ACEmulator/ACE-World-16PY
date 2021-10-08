@@ -33,13 +33,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8746,   1, 'Explorer Wand Of Acid') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8746,   1,   33558231) /* Setup */
-     , (8746,   3,  536870932) /* SoundTable */
-     , (8746,   6,   67111919) /* PaletteBase */
-     , (8746,   7,  268436551) /* ClothingBase */
-     , (8746,   8,  100674104) /* Icon */
-     , (8746,  22,  872415275) /* PhysicsEffectTable */
-     , (8746,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (8746,   1, 0x02000ED7) /* Setup */
+     , (8746,   3, 0x20000014) /* SoundTable */
+     , (8746,   6, 0x04000BEF) /* PaletteBase */
+     , (8746,   7, 0x10000447) /* ClothingBase */
+     , (8746,   8, 0x06002A38) /* Icon */
+     , (8746,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8746,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (8746,  28,         60) /* Spell - Acid Stream III */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

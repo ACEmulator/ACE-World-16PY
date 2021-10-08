@@ -33,9 +33,9 @@ VALUES (5938,   1, 'Iron Ore') /* Name */
      , (5938,  33, 'ImpiousQuestIronOre') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5938,   1,   33555677) /* Setup */
-     , (5938,   3,  536870932) /* SoundTable */
-     , (5938,   6,   67111919) /* PaletteBase */
-     , (5938,   7,  268435979) /* ClothingBase */
-     , (5938,   8,  100670587) /* Icon */
-     , (5938,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5938,   1, 0x020004DD) /* Setup */
+     , (5938,   3, 0x20000014) /* SoundTable */
+     , (5938,   6, 0x04000BEF) /* PaletteBase */
+     , (5938,   7, 0x1000020B) /* ClothingBase */
+     , (5938,   8, 0x06001C7B) /* Icon */
+     , (5938,  22, 0x3400002B) /* PhysicsEffectTable */;

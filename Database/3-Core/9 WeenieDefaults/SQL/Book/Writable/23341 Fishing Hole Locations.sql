@@ -23,10 +23,10 @@ VALUES (23341,   1, 'Fishing Hole Locations') /* Name */
      , (23341,  15, 'A list of fishing holes.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23341,   1,   33554773) /* Setup */
-     , (23341,   3,  536870932) /* SoundTable */
-     , (23341,   8,  100672432) /* Icon */
-     , (23341,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23341,   1, 0x02000155) /* Setup */
+     , (23341,   3, 0x20000014) /* SoundTable */
+     , (23341,   8, 0x060023B0) /* Icon */
+     , (23341,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (23341, 1, 1000);

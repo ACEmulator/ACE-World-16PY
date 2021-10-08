@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8968,   1, 'Fleshless Warrior') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8968,   1,   33555464) /* Setup */
-     , (8968,   2,  150994981) /* MotionTable */
-     , (8968,   3,  536870942) /* SoundTable */
-     , (8968,   4,  805306368) /* CombatTable */
-     , (8968,   6,   67111266) /* PaletteBase */
-     , (8968,   7,  268435646) /* ClothingBase */
-     , (8968,   8,  100669124) /* Icon */
-     , (8968,  22,  872415269) /* PhysicsEffectTable */
+VALUES (8968,   1, 0x02000408) /* Setup */
+     , (8968,   2, 0x09000025) /* MotionTable */
+     , (8968,   3, 0x2000001E) /* SoundTable */
+     , (8968,   4, 0x30000000) /* CombatTable */
+     , (8968,   6, 0x04000962) /* PaletteBase */
+     , (8968,   7, 0x100000BE) /* ClothingBase */
+     , (8968,   8, 0x060016C4) /* Icon */
+     , (8968,  22, 0x34000025) /* PhysicsEffectTable */
      , (8968,  32,        286) /* WieldedTreasureType - 
                                    Wield Yumi (23736) | Probability: 50%
                                    Wield 16x Greater Acid Arrow (5306) | Probability: 100%

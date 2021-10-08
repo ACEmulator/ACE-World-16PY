@@ -25,8 +25,8 @@ VALUES (22368,   1, 'Lockpick Gem of Enlightenment') /* Name */
      , (22368,  33, 'SkillAlterationGemPickedUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22368,   1,   33558088) /* Setup */
-     , (22368,   6,   67111919) /* PaletteBase */
-     , (22368,   7,  268435723) /* ClothingBase */
-     , (22368,   8,  100673788) /* Icon */
-     , (22368,  50,  100673772) /* IconOverlay */;
+VALUES (22368,   1, 0x02000E48) /* Setup */
+     , (22368,   6, 0x04000BEF) /* PaletteBase */
+     , (22368,   7, 0x1000010B) /* ClothingBase */
+     , (22368,   8, 0x060028FC) /* Icon */
+     , (22368,  50, 0x060028EC) /* IconOverlay */;

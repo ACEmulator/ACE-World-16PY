@@ -51,12 +51,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19787,   1, 'Quality Dissolving Isparian Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19787,   1,   33556351) /* Setup */
-     , (19787,   3,  536870932) /* SoundTable */
-     , (19787,   6,   67111919) /* PaletteBase */
-     , (19787,   7,  268436377) /* ClothingBase */
-     , (19787,   8,  100672890) /* Icon */
-     , (19787,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19787,   1, 0x0200077F) /* Setup */
+     , (19787,   3, 0x20000014) /* SoundTable */
+     , (19787,   6, 0x04000BEF) /* PaletteBase */
+     , (19787,   7, 0x10000399) /* ClothingBase */
+     , (19787,   8, 0x0600257A) /* Icon */
+     , (19787,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19787,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

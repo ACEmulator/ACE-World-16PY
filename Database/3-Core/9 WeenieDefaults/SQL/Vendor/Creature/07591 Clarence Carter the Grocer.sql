@@ -70,11 +70,11 @@ VALUES (7591,   1, 'Clarence Carter the Grocer') /* Name */
      , (7591,  24, 'Xanadu') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7591,   1,   33554433) /* Setup */
-     , (7591,   2,  150994945) /* MotionTable */
-     , (7591,   3,  536870913) /* SoundTable */
-     , (7591,   4,  805306368) /* CombatTable */
-     , (7591,   8,  100667446) /* Icon */;
+VALUES (7591,   1, 0x02000001) /* Setup */
+     , (7591,   2, 0x09000001) /* MotionTable */
+     , (7591,   3, 0x20000001) /* SoundTable */
+     , (7591,   4, 0x30000000) /* CombatTable */
+     , (7591,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7591,   1, 140, 0, 0) /* Strength */

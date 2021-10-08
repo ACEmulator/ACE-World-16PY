@@ -29,8 +29,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29939,   1, 'Guardian') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29939,   1,   33558955) /* Setup */
-     , (29939,   2,  150995277) /* MotionTable */
-     , (29939,   3,  536871053) /* SoundTable */
-     , (29939,   8,  100677141) /* Icon */
-     , (29939,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29939,   1, 0x020011AB) /* Setup */
+     , (29939,   2, 0x0900014D) /* MotionTable */
+     , (29939,   3, 0x2000008D) /* SoundTable */
+     , (29939,   8, 0x06003615) /* Icon */
+     , (29939,  22, 0x3400002B) /* PhysicsEffectTable */;

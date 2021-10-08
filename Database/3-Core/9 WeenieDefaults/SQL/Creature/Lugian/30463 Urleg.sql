@@ -64,13 +64,13 @@ VALUES (30463,   1, 'Urleg') /* Name */
      , (30463,   5, 'Lugian Emissary') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30463,   1,   33557003) /* Setup */
-     , (30463,   2,  150994950) /* MotionTable */
-     , (30463,   3,  536870922) /* SoundTable */
-     , (30463,   4,  805306371) /* CombatTable */
-     , (30463,   6,   67113158) /* PaletteBase */
-     , (30463,   7,  268436602) /* ClothingBase */
-     , (30463,   8,  100667447) /* Icon */;
+VALUES (30463,   1, 0x02000A0B) /* Setup */
+     , (30463,   2, 0x09000006) /* MotionTable */
+     , (30463,   3, 0x2000000A) /* SoundTable */
+     , (30463,   4, 0x30000003) /* CombatTable */
+     , (30463,   6, 0x040010C6) /* PaletteBase */
+     , (30463,   7, 0x1000047A) /* ClothingBase */
+     , (30463,   8, 0x06001037) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30463,   1, 212, 0, 0) /* Strength */

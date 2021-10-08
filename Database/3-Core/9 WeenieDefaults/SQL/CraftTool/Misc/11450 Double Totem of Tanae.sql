@@ -37,7 +37,7 @@ VALUES (11450,   1, 'Double Totem of Tanae') /* Name */
      , (11450,  16, 'A double totem representing Tanae.  ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11450,   1,   33557266) /* Setup */
-     , (11450,   3,  536870932) /* SoundTable */
-     , (11450,   8,  100671991) /* Icon */
-     , (11450,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11450,   1, 0x02000B12) /* Setup */
+     , (11450,   3, 0x20000014) /* SoundTable */
+     , (11450,   8, 0x060021F7) /* Icon */
+     , (11450,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -35,9 +35,9 @@ VALUES (9076,   1, 'Sea Blue Kindling Stone') /* Name */
      , (9076,  16, 'A smooth sea blue stone, warm to the touch. There is a symbol inscribed on one side; an eight-pointed starburst shape overlaid on a swirling portal. In the heart of the starburst is a crashing wave. Within the folds of the portal swirl are four glass beads, red, blue, violet, and green.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9076,   1,   33555677) /* Setup */
-     , (9076,   3,  536870932) /* SoundTable */
-     , (9076,   6,   67111919) /* PaletteBase */
-     , (9076,   7,  268436111) /* ClothingBase */
-     , (9076,   8,  100671338) /* Icon */
-     , (9076,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9076,   1, 0x020004DD) /* Setup */
+     , (9076,   3, 0x20000014) /* SoundTable */
+     , (9076,   6, 0x04000BEF) /* PaletteBase */
+     , (9076,   7, 0x1000028F) /* ClothingBase */
+     , (9076,   8, 0x06001F6A) /* Icon */
+     , (9076,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -22,10 +22,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (745,   1, 'Elder Talisman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (745,   1,   33555207) /* Setup */
-     , (745,   3,  536870932) /* SoundTable */
-     , (745,   6,   67111919) /* PaletteBase */
-     , (745,   7,  268435722) /* ClothingBase */
-     , (745,   8,  100668397) /* Icon */
-     , (745,  22,  872415275) /* PhysicsEffectTable */
+VALUES (745,   1, 0x02000307) /* Setup */
+     , (745,   3, 0x20000014) /* SoundTable */
+     , (745,   6, 0x04000BEF) /* PaletteBase */
+     , (745,   7, 0x1000010A) /* ClothingBase */
+     , (745,   8, 0x060013ED) /* Icon */
+     , (745,  22, 0x3400002B) /* PhysicsEffectTable */
      , (745,  29,         58) /* SpellComponent */;

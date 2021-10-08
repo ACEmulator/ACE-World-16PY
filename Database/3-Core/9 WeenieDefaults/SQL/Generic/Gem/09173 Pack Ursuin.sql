@@ -29,10 +29,10 @@ VALUES (9173,   1, 'Pack Ursuin') /* Name */
      , (9173,  16, 'Brand new for the season, Pack Ursuin! Now with Butt-Waggle motion (patent pending)!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9173,   1,   33556773) /* Setup */
-     , (9173,   2,  150995114) /* MotionTable */
-     , (9173,   6,   67113135) /* PaletteBase */
-     , (9173,   7,  268436134) /* ClothingBase */
-     , (9173,   8,  100670959) /* Icon */
-     , (9173,  22,  872415366) /* PhysicsEffectTable */
-     , (9173,  36,  234881046) /* MutateFilter */;
+VALUES (9173,   1, 0x02000925) /* Setup */
+     , (9173,   2, 0x090000AA) /* MotionTable */
+     , (9173,   6, 0x040010AF) /* PaletteBase */
+     , (9173,   7, 0x100002A6) /* ClothingBase */
+     , (9173,   8, 0x06001DEF) /* Icon */
+     , (9173,  22, 0x34000086) /* PhysicsEffectTable */
+     , (9173,  36, 0x0E000016) /* MutateFilter */;

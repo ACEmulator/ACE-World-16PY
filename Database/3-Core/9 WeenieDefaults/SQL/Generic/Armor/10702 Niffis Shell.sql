@@ -38,7 +38,7 @@ VALUES (10702,   1, 'Niffis Shell') /* Name */
      , (10702,  16, 'A large niffis shell, carved into a shield.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10702,   1,   33557043) /* Setup */
-     , (10702,   3,  536870932) /* SoundTable */
-     , (10702,   8,  100671648) /* Icon */
-     , (10702,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (10702,   1, 0x02000A33) /* Setup */
+     , (10702,   3, 0x20000014) /* SoundTable */
+     , (10702,   8, 0x060020A0) /* Icon */
+     , (10702,  22, 0x3400002B) /* PhysicsEffectTable */;

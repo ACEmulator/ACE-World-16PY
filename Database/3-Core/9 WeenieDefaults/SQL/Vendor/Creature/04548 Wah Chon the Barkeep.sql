@@ -70,11 +70,11 @@ VALUES (4548,   1, 'Wah Chon the Barkeep') /* Name */
      , (4548,  24, 'Nanto') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4548,   1,   33554510) /* Setup */
-     , (4548,   2,  150994945) /* MotionTable */
-     , (4548,   3,  536870914) /* SoundTable */
-     , (4548,   4,  805306368) /* CombatTable */
-     , (4548,   8,  100667446) /* Icon */;
+VALUES (4548,   1, 0x0200004E) /* Setup */
+     , (4548,   2, 0x09000001) /* MotionTable */
+     , (4548,   3, 0x20000002) /* SoundTable */
+     , (4548,   4, 0x30000000) /* CombatTable */
+     , (4548,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4548,   1,  60, 0, 0) /* Strength */

@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15148,   1, 'Caerlin Cottages Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15148,   1,   33554867) /* Setup */
-     , (15148,   2,  150994947) /* MotionTable */
-     , (15148,   8,  100667499) /* Icon */;
+VALUES (15148,   1, 0x020001B3) /* Setup */
+     , (15148,   2, 0x09000003) /* MotionTable */
+     , (15148,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (15148, 2, 0x41C4001C, 90.298, 89.079, 14.48, 0.589083, 0, 0, -0.808072) /* Destination */

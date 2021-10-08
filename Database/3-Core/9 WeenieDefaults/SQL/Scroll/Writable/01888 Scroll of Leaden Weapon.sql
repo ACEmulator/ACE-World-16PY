@@ -25,7 +25,7 @@ VALUES (1888,   1, 'Scroll of Leaden Weapon') /* Name */
      , (1888,  16, 'When learned, this spell worsens a weapon''s speed by 10 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1888,   1,   33554826) /* Setup */
-     , (1888,   8,  100676662) /* Icon */
-     , (1888,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1888,   1, 0x0200018A) /* Setup */
+     , (1888,   8, 0x06003436) /* Icon */
+     , (1888,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1888,  28,         50) /* Spell - Leaden Weapon I */;

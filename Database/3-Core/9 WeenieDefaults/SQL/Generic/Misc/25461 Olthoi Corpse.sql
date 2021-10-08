@@ -23,8 +23,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25461,   1, 'Olthoi Corpse') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25461,   1,   33558427) /* Setup */
-     , (25461,   3,  536870932) /* SoundTable */
-     , (25461,   6,   67113288) /* PaletteBase */
-     , (25461,   7,  268436670) /* ClothingBase */
-     , (25461,   8,  100674807) /* Icon */;
+VALUES (25461,   1, 0x02000F9B) /* Setup */
+     , (25461,   3, 0x20000014) /* SoundTable */
+     , (25461,   6, 0x04001148) /* PaletteBase */
+     , (25461,   7, 0x100004BE) /* ClothingBase */
+     , (25461,   8, 0x06002CF7) /* Icon */;

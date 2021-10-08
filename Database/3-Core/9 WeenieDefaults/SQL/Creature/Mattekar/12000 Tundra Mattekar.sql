@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12000,   1, 'Tundra Mattekar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12000,   1,   33555590) /* Setup */
-     , (12000,   2,  150995047) /* MotionTable */
-     , (12000,   3,  536870974) /* SoundTable */
-     , (12000,   4,  805306417) /* CombatTable */
-     , (12000,   6,   67111893) /* PaletteBase */
-     , (12000,   7,  268435729) /* ClothingBase */
-     , (12000,   8,  100669121) /* Icon */
-     , (12000,  22,  872415278) /* PhysicsEffectTable */
+VALUES (12000,   1, 0x02000486) /* Setup */
+     , (12000,   2, 0x09000067) /* MotionTable */
+     , (12000,   3, 0x2000003E) /* SoundTable */
+     , (12000,   4, 0x30000031) /* CombatTable */
+     , (12000,   6, 0x04000BD5) /* PaletteBase */
+     , (12000,   7, 0x10000111) /* ClothingBase */
+     , (12000,   8, 0x060016C1) /* Icon */
+     , (12000,  22, 0x3400002E) /* PhysicsEffectTable */
      , (12000,  30,         85) /* PhysicsScript - BreatheFrost */
      , (12000,  35,         21) /* DeathTreasureType - Loot Tier: 3 */;
 

@@ -39,13 +39,13 @@ VALUES (8671,   1, 'Essence Flicker') /* Name */
      , (8671,  16, 'A flickering essence formerly trapped in a wisp.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8671,   1,   33556934) /* Setup */
-     , (8671,   3,  536870932) /* SoundTable */
-     , (8671,   6,   67111928) /* PaletteBase */
-     , (8671,   7,  268436041) /* ClothingBase */
-     , (8671,   8,  100671240) /* Icon */
-     , (8671,  22,  872415275) /* PhysicsEffectTable */
-     , (8671,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (8671,   1, 0x020009C6) /* Setup */
+     , (8671,   3, 0x20000014) /* SoundTable */
+     , (8671,   6, 0x04000BF8) /* PaletteBase */
+     , (8671,   7, 0x10000249) /* ClothingBase */
+     , (8671,   8, 0x06001F08) /* Icon */
+     , (8671,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8671,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (8671,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

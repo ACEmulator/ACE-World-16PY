@@ -55,10 +55,10 @@ VALUES (24199,   1, 'Weeping Bow') /* Name */
      , (24199,  15, 'A bow infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24199,   1,   33558292) /* Setup */
-     , (24199,   3,  536870932) /* SoundTable */
-     , (24199,   8,  100674272) /* Icon */
-     , (24199,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24199,   1, 0x02000F14) /* Setup */
+     , (24199,   3, 0x20000014) /* SoundTable */
+     , (24199,   8, 0x06002AE0) /* Icon */
+     , (24199,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24199,  2964,      2)  /* Aura of Hunter's Mark */

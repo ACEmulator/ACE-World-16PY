@@ -25,7 +25,7 @@ VALUES (2842,   1, 'Scroll of Impenetrability II') /* Name */
      , (2842,  16, 'When learned, this spell improves a shield or piece of armor''s armor value by 50 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2842,   1,   33554826) /* Setup */
-     , (2842,   8,  100676661) /* Icon */
-     , (2842,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2842,   1, 0x0200018A) /* Setup */
+     , (2842,   8, 0x06003435) /* Icon */
+     , (2842,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2842,  28,       1482) /* Spell - Impenetrability II */;

@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19133,   1, 'Portal to Baishi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19133,   1,   33554867) /* Setup */
-     , (19133,   2,  150994947) /* MotionTable */
-     , (19133,   8,  100667499) /* Icon */;
+VALUES (19133,   1, 0x020001B3) /* Setup */
+     , (19133,   2, 0x09000003) /* MotionTable */
+     , (19133,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (19133, 2, 0xCE410007, 12.6, 152.8, 55.1, -0.544639, 0, -0, -0.838671) /* Destination */

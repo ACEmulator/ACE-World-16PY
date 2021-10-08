@@ -37,12 +37,12 @@ VALUES (27385,   1, 'Map of Auberean') /* Name */
      , (27385,  16, 'Description Here') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27385,   1,   33556769) /* Setup */
-     , (27385,   3,  536870932) /* SoundTable */
-     , (27385,   6,   67111919) /* PaletteBase */
-     , (27385,   7,  268435723) /* ClothingBase */
-     , (27385,   8,  100668364) /* Icon */
-     , (27385,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27385,   1, 0x02000921) /* Setup */
+     , (27385,   3, 0x20000014) /* SoundTable */
+     , (27385,   6, 0x04000BEF) /* PaletteBase */
+     , (27385,   7, 0x1000010B) /* ClothingBase */
+     , (27385,   8, 0x060013CC) /* Icon */
+     , (27385,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27385,  28,        157) /* Spell - Summon Primary Portal I */
      , (27385,  31,      27396) /* LinkedPortalOne - Map of Auberean */
-     , (27385,  50,  100676404) /* IconOverlay */;
+     , (27385,  50, 0x06003334) /* IconOverlay */;

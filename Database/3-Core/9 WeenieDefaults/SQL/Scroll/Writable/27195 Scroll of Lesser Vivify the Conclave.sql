@@ -24,7 +24,7 @@ VALUES (27195,   1, 'Scroll of Lesser Vivify the Conclave') /* Name */
      , (27195,  15, 'A magic scroll.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27195,   1,   33554826) /* Setup */
-     , (27195,   8,  100676456) /* Icon */
-     , (27195,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27195,   1, 0x0200018A) /* Setup */
+     , (27195,   8, 0x06003368) /* Icon */
+     , (27195,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27195,  28,       3159) /* Spell - Lesser Vivify the Conclave */;

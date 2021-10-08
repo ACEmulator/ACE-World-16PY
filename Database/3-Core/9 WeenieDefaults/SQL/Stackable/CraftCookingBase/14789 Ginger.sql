@@ -29,9 +29,9 @@ VALUES (14789,   1, 'Ginger') /* Name */
      , (14789,  20, 'Ginger') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14789,   1,   33556750) /* Setup */
-     , (14789,   3,  536870932) /* SoundTable */
-     , (14789,   6,   67111919) /* PaletteBase */
-     , (14789,   7,  268436332) /* ClothingBase */
-     , (14789,   8,  100672574) /* Icon */
-     , (14789,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14789,   1, 0x0200090E) /* Setup */
+     , (14789,   3, 0x20000014) /* SoundTable */
+     , (14789,   6, 0x04000BEF) /* PaletteBase */
+     , (14789,   7, 0x1000036C) /* ClothingBase */
+     , (14789,   8, 0x0600243E) /* Icon */
+     , (14789,  22, 0x3400002B) /* PhysicsEffectTable */;

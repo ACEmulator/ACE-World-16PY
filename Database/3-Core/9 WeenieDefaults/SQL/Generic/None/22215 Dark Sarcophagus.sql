@@ -29,10 +29,10 @@ VALUES (22215,   1, 'Dark Sarcophagus') /* Name */
      , (22215,  15, 'A mysterious sarcophagus.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22215,   1,   33554638) /* Setup */
-     , (22215,   6,   67111092) /* PaletteBase */
-     , (22215,   7,  268436484) /* ClothingBase */
-     , (22215,   8,  100668103) /* Icon */;
+VALUES (22215,   1, 0x020000CE) /* Setup */
+     , (22215,   6, 0x040008B4) /* PaletteBase */
+     , (22215,   7, 0x10000404) /* ClothingBase */
+     , (22215,   8, 0x060012C7) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22215, -1, 22116, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Dark Sarcophagus (22116) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

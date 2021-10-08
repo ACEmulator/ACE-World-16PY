@@ -36,7 +36,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (528,   1, 'Starter Nabut') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (528,   1,   33554749) /* Setup */
-     , (528,   3,  536870932) /* SoundTable */
-     , (528,   8,  100667602) /* Icon */
-     , (528,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (528,   1, 0x0200013D) /* Setup */
+     , (528,   3, 0x20000014) /* SoundTable */
+     , (528,   8, 0x060010D2) /* Icon */
+     , (528,  22, 0x3400002B) /* PhysicsEffectTable */;

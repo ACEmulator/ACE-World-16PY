@@ -35,10 +35,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2594,   1, 'Tunic') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2594,   1,   33554883) /* Setup */
-     , (2594,   3,  536870932) /* SoundTable */
-     , (2594,   6,   67108990) /* PaletteBase */
-     , (2594,   7,  268435714) /* ClothingBase */
-     , (2594,   8,  100667376) /* Icon */
-     , (2594,  22,  872415275) /* PhysicsEffectTable */
-     , (2594,  36,  234881046) /* MutateFilter */;
+VALUES (2594,   1, 0x020001C3) /* Setup */
+     , (2594,   3, 0x20000014) /* SoundTable */
+     , (2594,   6, 0x0400007E) /* PaletteBase */
+     , (2594,   7, 0x10000102) /* ClothingBase */
+     , (2594,   8, 0x06000FF0) /* Icon */
+     , (2594,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (2594,  36, 0x0E000016) /* MutateFilter */;

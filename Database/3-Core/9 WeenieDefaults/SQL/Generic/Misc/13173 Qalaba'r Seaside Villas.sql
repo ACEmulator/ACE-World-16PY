@@ -22,5 +22,5 @@ VALUES (13173,   1, 'Qalaba''r Seaside Villas') /* Name */
      , (13173,  16, 'Welcome to Qalaba''r Seaside Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13173,   1,   33557463) /* Setup */
-     , (13173,   8,  100668115) /* Icon */;
+VALUES (13173,   1, 0x02000BD7) /* Setup */
+     , (13173,   8, 0x060012D3) /* Icon */;

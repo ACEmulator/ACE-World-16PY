@@ -46,13 +46,13 @@ VALUES (8363,   1, 'Mace of the Explorer') /* Name */
      , (8363,  16, 'A well crafted mace, created by the Society.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8363,   1,   33554746) /* Setup */
-     , (8363,   3,  536870932) /* SoundTable */
-     , (8363,   6,   67111919) /* PaletteBase */
-     , (8363,   7,  268435792) /* ClothingBase */
-     , (8363,   8,  100668955) /* Icon */
-     , (8363,  22,  872415275) /* PhysicsEffectTable */
-     , (8363,  36,  234881044) /* MutateFilter */
+VALUES (8363,   1, 0x0200013A) /* Setup */
+     , (8363,   3, 0x20000014) /* SoundTable */
+     , (8363,   6, 0x04000BEF) /* PaletteBase */
+     , (8363,   7, 0x10000150) /* ClothingBase */
+     , (8363,   8, 0x0600161B) /* Icon */
+     , (8363,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8363,  36, 0x0E000014) /* MutateFilter */
      , (8363,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

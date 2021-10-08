@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6772,   1, 'Greater Mu-miyah') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6772,   1,   33554433) /* Setup */
-     , (6772,   2,  150994981) /* MotionTable */
-     , (6772,   3,  536870942) /* SoundTable */
-     , (6772,   4,  805306368) /* CombatTable */
-     , (6772,   6,   67108990) /* PaletteBase */
-     , (6772,   7,  268435645) /* ClothingBase */
-     , (6772,   8,  100669122) /* Icon */
-     , (6772,  22,  872415272) /* PhysicsEffectTable */;
+VALUES (6772,   1, 0x02000001) /* Setup */
+     , (6772,   2, 0x09000025) /* MotionTable */
+     , (6772,   3, 0x2000001E) /* SoundTable */
+     , (6772,   4, 0x30000000) /* CombatTable */
+     , (6772,   6, 0x0400007E) /* PaletteBase */
+     , (6772,   7, 0x100000BD) /* ClothingBase */
+     , (6772,   8, 0x060016C2) /* Icon */
+     , (6772,  22, 0x34000028) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6772,   1, 145, 0, 0) /* Strength */

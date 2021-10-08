@@ -27,10 +27,10 @@ VALUES (29803,   1, 'Title Token ''Broodu Killer''') /* Name */
      , (29803,  15, 'You may turn this token in to Guard Hamdyn in Cragstone to change your title to ''Broodu Killer''.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29803,   1,   33557280) /* Setup */
-     , (29803,   3,  536870932) /* SoundTable */
-     , (29803,   6,   67111092) /* PaletteBase */
-     , (29803,   7,  268436298) /* ClothingBase */
-     , (29803,   8,  100677161) /* Icon */
-     , (29803,  22,  872415275) /* PhysicsEffectTable */
-     , (29803,  36,  234881046) /* MutateFilter */;
+VALUES (29803,   1, 0x02000B20) /* Setup */
+     , (29803,   3, 0x20000014) /* SoundTable */
+     , (29803,   6, 0x040008B4) /* PaletteBase */
+     , (29803,   7, 0x1000034A) /* ClothingBase */
+     , (29803,   8, 0x06003629) /* Icon */
+     , (29803,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29803,  36, 0x0E000016) /* MutateFilter */;

@@ -30,8 +30,8 @@ VALUES (22942,   1, 'Gem of Lowering Strength') /* Name */
      , (22942,  33, 'AttributeLoweringGemPickedUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22942,   1,   33558087) /* Setup */
-     , (22942,   6,   67111919) /* PaletteBase */
-     , (22942,   7,  268435723) /* ClothingBase */
-     , (22942,   8,  100673789) /* Icon */
-     , (22942,  50,  100673967) /* IconOverlay */;
+VALUES (22942,   1, 0x02000E47) /* Setup */
+     , (22942,   6, 0x04000BEF) /* PaletteBase */
+     , (22942,   7, 0x1000010B) /* ClothingBase */
+     , (22942,   8, 0x060028FD) /* Icon */
+     , (22942,  50, 0x060029AF) /* IconOverlay */;

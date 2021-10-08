@@ -45,9 +45,9 @@ VALUES (23275,   1, 'Brown Minnow') /* Name */
      , (23275,  20, 'Brown Minnows') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23275,   1,   33554674) /* Setup */
-     , (23275,   3,  536870932) /* SoundTable */
-     , (23275,   6,   67114188) /* PaletteBase */
-     , (23275,   7,  268436566) /* ClothingBase */
-     , (23275,   8,  100674201) /* Icon */
-     , (23275,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23275,   1, 0x020000F2) /* Setup */
+     , (23275,   3, 0x20000014) /* SoundTable */
+     , (23275,   6, 0x040014CC) /* PaletteBase */
+     , (23275,   7, 0x10000456) /* ClothingBase */
+     , (23275,   8, 0x06002A99) /* Icon */
+     , (23275,  22, 0x3400002B) /* PhysicsEffectTable */;

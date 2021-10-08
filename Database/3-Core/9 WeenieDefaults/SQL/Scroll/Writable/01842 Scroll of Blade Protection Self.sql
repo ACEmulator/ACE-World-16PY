@@ -25,7 +25,7 @@ VALUES (1842,   1, 'Scroll of Blade Protection Self') /* Name */
      , (1842,  16, 'When learned, this spell reduces damage the caster takes from Slashing by 9%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1842,   1,   33554826) /* Setup */
-     , (1842,   8,  100676954) /* Icon */
-     , (1842,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1842,   1, 0x0200018A) /* Setup */
+     , (1842,   8, 0x0600355A) /* Icon */
+     , (1842,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1842,  28,       1109) /* Spell - Blade Protection Self I */;

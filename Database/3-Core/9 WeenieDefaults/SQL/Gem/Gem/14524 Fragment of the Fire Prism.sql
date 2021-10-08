@@ -29,10 +29,10 @@ VALUES (14524,   1, 'Fragment of the Fire Prism') /* Name */
      , (14524,  33, 'PrismFragmentFirePickup') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14524,   1,   33557506) /* Setup */
-     , (14524,   3,  536870932) /* SoundTable */
-     , (14524,   6,   67112808) /* PaletteBase */
-     , (14524,   7,  268436323) /* ClothingBase */
-     , (14524,   8,  100672510) /* Icon */
-     , (14524,  22,  872415275) /* PhysicsEffectTable */
-     , (14524,  36,  234881046) /* MutateFilter */;
+VALUES (14524,   1, 0x02000C02) /* Setup */
+     , (14524,   3, 0x20000014) /* SoundTable */
+     , (14524,   6, 0x04000F68) /* PaletteBase */
+     , (14524,   7, 0x10000363) /* ClothingBase */
+     , (14524,   8, 0x060023FE) /* Icon */
+     , (14524,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (14524,  36, 0x0E000016) /* MutateFilter */;

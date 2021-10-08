@@ -60,12 +60,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5597,   1, 'Banderling Scout') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5597,   1,   33558024) /* Setup */
-     , (5597,   2,  150994951) /* MotionTable */
-     , (5597,   3,  536870917) /* SoundTable */
-     , (5597,   4,  805306370) /* CombatTable */
-     , (5597,   8,  100667453) /* Icon */
-     , (5597,  22,  872415255) /* PhysicsEffectTable */
+VALUES (5597,   1, 0x02000E08) /* Setup */
+     , (5597,   2, 0x09000007) /* MotionTable */
+     , (5597,   3, 0x20000005) /* SoundTable */
+     , (5597,   4, 0x30000002) /* CombatTable */
+     , (5597,   8, 0x0600103D) /* Icon */
+     , (5597,  22, 0x34000017) /* PhysicsEffectTable */
      , (5597,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

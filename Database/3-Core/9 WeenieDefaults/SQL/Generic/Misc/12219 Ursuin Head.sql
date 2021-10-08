@@ -29,10 +29,10 @@ VALUES (12219,   1, 'Ursuin Head') /* Name */
      , (12219,  16, 'A festering, rancid, decapitated Ursuin head.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12219,   1,   33557365) /* Setup */
-     , (12219,   3,  536870932) /* SoundTable */
-     , (12219,   6,   67108990) /* PaletteBase */
-     , (12219,   7,  268436269) /* ClothingBase */
-     , (12219,   8,  100672171) /* Icon */
-     , (12219,  22,  872415275) /* PhysicsEffectTable */
-     , (12219,  36,  234881046) /* MutateFilter */;
+VALUES (12219,   1, 0x02000B75) /* Setup */
+     , (12219,   3, 0x20000014) /* SoundTable */
+     , (12219,   6, 0x0400007E) /* PaletteBase */
+     , (12219,   7, 0x1000032D) /* ClothingBase */
+     , (12219,   8, 0x060022AB) /* Icon */
+     , (12219,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (12219,  36, 0x0E000016) /* MutateFilter */;

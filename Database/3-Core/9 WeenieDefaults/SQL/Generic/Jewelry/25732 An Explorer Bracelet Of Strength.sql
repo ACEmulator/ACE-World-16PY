@@ -30,13 +30,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25732,   1, 'An Explorer Bracelet Of Strength') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25732,   1,   33554683) /* Setup */
-     , (25732,   3,  536870932) /* SoundTable */
-     , (25732,   6,   67111919) /* PaletteBase */
-     , (25732,   7,  268435738) /* ClothingBase */
-     , (25732,   8,  100675472) /* Icon */
-     , (25732,  22,  872415275) /* PhysicsEffectTable */
-     , (25732,  36,  234881046) /* MutateFilter */;
+VALUES (25732,   1, 0x020000FB) /* Setup */
+     , (25732,   3, 0x20000014) /* SoundTable */
+     , (25732,   6, 0x04000BEF) /* PaletteBase */
+     , (25732,   7, 0x1000011A) /* ClothingBase */
+     , (25732,   8, 0x06002F90) /* Icon */
+     , (25732,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (25732,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25732,  1334,      2)  /* Strength Other III */;

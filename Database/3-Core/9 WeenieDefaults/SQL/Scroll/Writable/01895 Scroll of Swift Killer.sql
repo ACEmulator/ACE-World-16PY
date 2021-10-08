@@ -25,7 +25,7 @@ VALUES (1895,   1, 'Scroll of Swift Killer') /* Name */
      , (1895,  16, 'When learned, this spell improves a weapon''s speed by 10 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1895,   1,   33554826) /* Setup */
-     , (1895,   8,  100676676) /* Icon */
-     , (1895,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1895,   1, 0x0200018A) /* Setup */
+     , (1895,   8, 0x06003444) /* Icon */
+     , (1895,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1895,  28,         49) /* Spell - Aura of Swift Killer Self I */;

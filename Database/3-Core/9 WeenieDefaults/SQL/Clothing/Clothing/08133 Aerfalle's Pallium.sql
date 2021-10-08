@@ -49,12 +49,12 @@ VALUES (8133,   1, 'Aerfalle''s Pallium') /* Name */
      , (8133,  33, 'PalliumObtained') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8133,   1,   33554854) /* Setup */
-     , (8133,   3,  536870932) /* SoundTable */
-     , (8133,   6,   67108990) /* PaletteBase */
-     , (8133,   7,  268435853) /* ClothingBase */
-     , (8133,   8,  100670350) /* Icon */
-     , (8133,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8133,   1, 0x020001A6) /* Setup */
+     , (8133,   3, 0x20000014) /* SoundTable */
+     , (8133,   6, 0x0400007E) /* PaletteBase */
+     , (8133,   7, 0x1000018D) /* ClothingBase */
+     , (8133,   8, 0x06001B8E) /* Icon */
+     , (8133,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8133,  1455,      2)  /* Willpower Other V */

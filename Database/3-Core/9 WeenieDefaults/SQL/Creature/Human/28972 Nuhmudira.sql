@@ -64,11 +64,11 @@ VALUES (28972,   1, 'Nuhmudira') /* Name */
      , (28972,   5, 'Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28972,   1,   33554510) /* Setup */
-     , (28972,   2,  150994945) /* MotionTable */
-     , (28972,   3,  536870913) /* SoundTable */
-     , (28972,   4,  805306368) /* CombatTable */
-     , (28972,   8,  100667446) /* Icon */;
+VALUES (28972,   1, 0x0200004E) /* Setup */
+     , (28972,   2, 0x09000001) /* MotionTable */
+     , (28972,   3, 0x20000001) /* SoundTable */
+     , (28972,   4, 0x30000000) /* CombatTable */
+     , (28972,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28972,   1, 290, 0, 0) /* Strength */

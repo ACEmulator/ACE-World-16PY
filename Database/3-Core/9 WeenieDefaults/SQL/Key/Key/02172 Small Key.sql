@@ -26,7 +26,7 @@ VALUES (2172,   1, 'Small Key') /* Name */
      , (2172,  16, 'This key is labelled "Locke Key E".') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2172,   1,   33554784) /* Setup */
-     , (2172,   3,  536870932) /* SoundTable */
-     , (2172,   8,  100667485) /* Icon */
-     , (2172,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (2172,   1, 0x02000160) /* Setup */
+     , (2172,   3, 0x20000014) /* SoundTable */
+     , (2172,   8, 0x0600105D) /* Icon */
+     , (2172,  22, 0x3400002B) /* PhysicsEffectTable */;

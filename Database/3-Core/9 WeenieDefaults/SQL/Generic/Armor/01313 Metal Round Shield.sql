@@ -37,9 +37,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1313,   1, 'Metal Round Shield') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1313,   1,   33554786) /* Setup */
-     , (1313,   3,  536870932) /* SoundTable */
-     , (1313,   6,   67111919) /* PaletteBase */
-     , (1313,   7,  268435604) /* ClothingBase */
-     , (1313,   8,  100667361) /* Icon */
-     , (1313,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1313,   1, 0x02000162) /* Setup */
+     , (1313,   3, 0x20000014) /* SoundTable */
+     , (1313,   6, 0x04000BEF) /* PaletteBase */
+     , (1313,   7, 0x10000094) /* ClothingBase */
+     , (1313,   8, 0x06000FE1) /* Icon */
+     , (1313,  22, 0x3400002B) /* PhysicsEffectTable */;

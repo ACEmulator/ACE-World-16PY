@@ -23,7 +23,7 @@ VALUES (30918,   1, 'Bloody Tooth') /* Name */
      , (30918,  16, 'A tooth from some creature as yet undiscovered on Dereth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30918,   1,   33554769) /* Setup */
-     , (30918,   3,  536870932) /* SoundTable */
-     , (30918,   8,  100677459) /* Icon */
-     , (30918,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30918,   1, 0x02000151) /* Setup */
+     , (30918,   3, 0x20000014) /* SoundTable */
+     , (30918,   8, 0x06003753) /* Icon */
+     , (30918,  22, 0x3400002B) /* PhysicsEffectTable */;

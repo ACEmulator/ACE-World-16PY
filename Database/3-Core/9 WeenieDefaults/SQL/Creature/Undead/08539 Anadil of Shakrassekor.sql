@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8539,   1, 'Anadil of Shakrassekor') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8539,   1,   33554433) /* Setup */
-     , (8539,   2,  150994981) /* MotionTable */
-     , (8539,   3,  536870942) /* SoundTable */
-     , (8539,   4,  805306368) /* CombatTable */
-     , (8539,   6,   67108990) /* PaletteBase */
-     , (8539,   7,  268435645) /* ClothingBase */
-     , (8539,   8,  100669122) /* Icon */
-     , (8539,  22,  872415272) /* PhysicsEffectTable */;
+VALUES (8539,   1, 0x02000001) /* Setup */
+     , (8539,   2, 0x09000025) /* MotionTable */
+     , (8539,   3, 0x2000001E) /* SoundTable */
+     , (8539,   4, 0x30000000) /* CombatTable */
+     , (8539,   6, 0x0400007E) /* PaletteBase */
+     , (8539,   7, 0x100000BD) /* ClothingBase */
+     , (8539,   8, 0x060016C2) /* Icon */
+     , (8539,  22, 0x34000028) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8539,   1, 640, 0, 0) /* Strength */

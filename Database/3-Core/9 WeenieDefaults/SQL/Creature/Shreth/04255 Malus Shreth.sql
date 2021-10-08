@@ -61,14 +61,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4255,   1, 'Malus Shreth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4255,   1,   33555879) /* Setup */
-     , (4255,   2,  150995072) /* MotionTable */
-     , (4255,   3,  536870986) /* SoundTable */
-     , (4255,   4,  805306399) /* CombatTable */
-     , (4255,   6,   67112444) /* PaletteBase */
-     , (4255,   7,  268435808) /* ClothingBase */
-     , (4255,   8,  100669720) /* Icon */
-     , (4255,  22,  872415333) /* PhysicsEffectTable */
+VALUES (4255,   1, 0x020005A7) /* Setup */
+     , (4255,   2, 0x09000080) /* MotionTable */
+     , (4255,   3, 0x2000004A) /* SoundTable */
+     , (4255,   4, 0x3000001F) /* CombatTable */
+     , (4255,   6, 0x04000DFC) /* PaletteBase */
+     , (4255,   7, 0x10000160) /* ClothingBase */
+     , (4255,   8, 0x06001918) /* Icon */
+     , (4255,  22, 0x34000065) /* PhysicsEffectTable */
      , (4255,  35,        456) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

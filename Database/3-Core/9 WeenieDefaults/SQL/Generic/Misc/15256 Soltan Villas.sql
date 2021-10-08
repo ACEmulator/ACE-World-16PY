@@ -22,5 +22,5 @@ VALUES (15256,   1, 'Soltan Villas') /* Name */
      , (15256,  16, 'Welcome to Soltan Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15256,   1,   33557463) /* Setup */
-     , (15256,   8,  100668115) /* Icon */;
+VALUES (15256,   1, 0x02000BD7) /* Setup */
+     , (15256,   8, 0x060012D3) /* Icon */;

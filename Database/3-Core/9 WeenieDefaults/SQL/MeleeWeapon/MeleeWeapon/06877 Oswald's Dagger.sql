@@ -45,12 +45,12 @@ VALUES (6877,   1, 'Oswald''s Dagger') /* Name */
      , (6877,  15, 'A well-worn dagger, its blade stained with Banderling blood.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6877,   1,   33555707) /* Setup */
-     , (6877,   3,  536870932) /* SoundTable */
-     , (6877,   6,   67111919) /* PaletteBase */
-     , (6877,   7,  268435783) /* ClothingBase */
-     , (6877,   8,  100668878) /* Icon */
-     , (6877,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6877,   1, 0x020004FB) /* Setup */
+     , (6877,   3, 0x20000014) /* SoundTable */
+     , (6877,   6, 0x04000BEF) /* PaletteBase */
+     , (6877,   7, 0x10000147) /* ClothingBase */
+     , (6877,   8, 0x060015CE) /* Icon */
+     , (6877,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6877,   854,      2)  /* Deception Mastery Self V */

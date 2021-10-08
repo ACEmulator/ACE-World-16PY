@@ -28,9 +28,9 @@ VALUES (14898,   1, 'Wedding Cake Knife') /* Name */
      , (14898,  14, 'This item is used to cut Wedding Cake for guests.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14898,   1,   33555971) /* Setup */
-     , (14898,   3,  536870932) /* SoundTable */
-     , (14898,   6,   67112573) /* PaletteBase */
-     , (14898,   7,  268436353) /* ClothingBase */
-     , (14898,   8,  100672706) /* Icon */
-     , (14898,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14898,   1, 0x02000603) /* Setup */
+     , (14898,   3, 0x20000014) /* SoundTable */
+     , (14898,   6, 0x04000E7D) /* PaletteBase */
+     , (14898,   7, 0x10000381) /* ClothingBase */
+     , (14898,   8, 0x060024C2) /* Icon */
+     , (14898,  22, 0x3400002B) /* PhysicsEffectTable */;

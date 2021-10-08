@@ -27,10 +27,10 @@ VALUES (5171,   1, 'Congratulations') /* Name */
      , (5171,  16, 'A note from Nasun ibn Tifar and Ahyara in the Yaraq Outposts, for delivery to Mara al-Luq outside Yaraq.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5171,   1,   33554773) /* Setup */
-     , (5171,   3,  536870932) /* SoundTable */
-     , (5171,   8,  100668176) /* Icon */
-     , (5171,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5171,   1, 0x02000155) /* Setup */
+     , (5171,   3, 0x20000014) /* SoundTable */
+     , (5171,   8, 0x06001310) /* Icon */
+     , (5171,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (5171, 1, 1000);

@@ -22,11 +22,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26661,   1, 'The Last Expedition of Ixir Zi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26661,   1,   33558620) /* Setup */
-     , (26661,   3,  536870932) /* SoundTable */
-     , (26661,   6,   67114958) /* PaletteBase */
-     , (26661,   8,  100675782) /* Icon */
-     , (26661,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (26661,   1, 0x0200105C) /* Setup */
+     , (26661,   3, 0x20000014) /* SoundTable */
+     , (26661,   6, 0x040017CE) /* PaletteBase */
+     , (26661,   8, 0x060030C6) /* Icon */
+     , (26661,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (26661, 9, 1000);

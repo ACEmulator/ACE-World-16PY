@@ -63,12 +63,12 @@ VALUES (27146,   1, 'Bladed Bow of Impaling') /* Name */
      , (27146,  15, 'This bow looks to have been used as a weapon for combat. Bladed edges appear to have been used in close-combat as well.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27146,   1,   33558638) /* Setup */
-     , (27146,   2,  150995273) /* MotionTable */
-     , (27146,   3,  536871052) /* SoundTable */
-     , (27146,   4,  805306398) /* CombatTable */
-     , (27146,   8,  100675922) /* Icon */
-     , (27146,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (27146,   1, 0x0200106E) /* Setup */
+     , (27146,   2, 0x09000149) /* MotionTable */
+     , (27146,   3, 0x2000008C) /* SoundTable */
+     , (27146,   4, 0x3000001E) /* CombatTable */
+     , (27146,   8, 0x06003152) /* Icon */
+     , (27146,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27146,   1, 380, 0, 0) /* Strength */

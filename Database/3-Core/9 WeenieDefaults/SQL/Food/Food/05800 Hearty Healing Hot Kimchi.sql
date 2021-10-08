@@ -30,7 +30,7 @@ VALUES (5800,   1, 'Hearty Healing Hot Kimchi') /* Name */
      , (5800,  20, 'Bowls of Hearty Healing Hot Kimchi') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5800,   1,   33554669) /* Setup */
-     , (5800,   3,  536870932) /* SoundTable */
-     , (5800,   8,  100670313) /* Icon */
-     , (5800,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5800,   1, 0x020000ED) /* Setup */
+     , (5800,   3, 0x20000014) /* SoundTable */
+     , (5800,   8, 0x06001B69) /* Icon */
+     , (5800,  22, 0x3400002B) /* PhysicsEffectTable */;

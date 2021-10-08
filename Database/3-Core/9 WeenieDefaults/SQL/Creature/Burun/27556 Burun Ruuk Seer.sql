@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27556,   1, 'Burun Ruuk Seer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27556,   1,   33558582) /* Setup */
-     , (27556,   2,  150995272) /* MotionTable */
-     , (27556,   3,  536871083) /* SoundTable */
-     , (27556,   4,  805306427) /* CombatTable */
-     , (27556,   6,   67114919) /* PaletteBase */
-     , (27556,   7,  268436789) /* ClothingBase */
-     , (27556,   8,  100675761) /* Icon */
-     , (27556,  22,  872415402) /* PhysicsEffectTable */
+VALUES (27556,   1, 0x02001036) /* Setup */
+     , (27556,   2, 0x09000148) /* MotionTable */
+     , (27556,   3, 0x200000AB) /* SoundTable */
+     , (27556,   4, 0x3000003B) /* CombatTable */
+     , (27556,   6, 0x040017A7) /* PaletteBase */
+     , (27556,   7, 0x10000535) /* ClothingBase */
+     , (27556,   8, 0x060030B1) /* Icon */
+     , (27556,  22, 0x340000AA) /* PhysicsEffectTable */
      , (27556,  32,        468) /* WieldedTreasureType - 
                                    Wield Stone Axe (26023) | Probability: 20%
                                    Wield Bone Dagger (26032) | Probability: 20%

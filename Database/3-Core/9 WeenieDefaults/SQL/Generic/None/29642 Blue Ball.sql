@@ -28,7 +28,7 @@ VALUES (29642,   1, 'Blue Ball') /* Name */
      , (29642,  37, 'ClueCardPickedUp') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29642,   1,   33554669) /* Setup */
-     , (29642,   6,   67111928) /* PaletteBase */
-     , (29642,   7,  268435751) /* ClothingBase */
-     , (29642,   8,  100668722) /* Icon */;
+VALUES (29642,   1, 0x020000ED) /* Setup */
+     , (29642,   6, 0x04000BF8) /* PaletteBase */
+     , (29642,   7, 0x10000127) /* ClothingBase */
+     , (29642,   8, 0x06001532) /* Icon */;

@@ -29,10 +29,10 @@ VALUES (6852,   1, 'Event -- Dryreach Ambush Gen') /* Name */
      , (6852,  34, 'DryreachAmbush') /* GeneratorEvent */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6852,   1,   33555536) /* Setup */
-     , (6852,   2,  150994977) /* MotionTable */
-     , (6852,   8,  100668114) /* Icon */
-     , (6852,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6852,   1, 0x02000450) /* Setup */
+     , (6852,   2, 0x09000021) /* MotionTable */
+     , (6852,   8, 0x060012D2) /* Icon */
+     , (6852,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (6852,  16, 0x00000000) /* ActivationTarget */;

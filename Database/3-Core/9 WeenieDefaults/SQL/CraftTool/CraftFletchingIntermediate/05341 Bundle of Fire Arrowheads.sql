@@ -27,7 +27,7 @@ VALUES (5341,   1, 'Bundle of Fire Arrowheads') /* Name */
      , (5341,  20, 'Bundles of Fire Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5341,   1,   33555958) /* Setup */
-     , (5341,   3,  536870932) /* SoundTable */
-     , (5341,   8,  100670204) /* Icon */
-     , (5341,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5341,   1, 0x020005F6) /* Setup */
+     , (5341,   3, 0x20000014) /* SoundTable */
+     , (5341,   8, 0x06001AFC) /* Icon */
+     , (5341,  22, 0x3400002B) /* PhysicsEffectTable */;

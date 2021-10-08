@@ -37,12 +37,12 @@ VALUES (27389,   1, 'Deep Caverns') /* Name */
      , (27389,  16, 'Strange words float across the surface of the gem. You recognize words you never knew and a dark veil falls before your eyes. "We hold the knowledge of our father. We must prepare for his return."') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27389,   1,   33556769) /* Setup */
-     , (27389,   3,  536870932) /* SoundTable */
-     , (27389,   6,   67111919) /* PaletteBase */
-     , (27389,   7,  268435723) /* ClothingBase */
-     , (27389,   8,  100668365) /* Icon */
-     , (27389,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27389,   1, 0x02000921) /* Setup */
+     , (27389,   3, 0x20000014) /* SoundTable */
+     , (27389,   6, 0x04000BEF) /* PaletteBase */
+     , (27389,   7, 0x1000010B) /* ClothingBase */
+     , (27389,   8, 0x060013CD) /* Icon */
+     , (27389,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27389,  28,        157) /* Spell - Summon Primary Portal I */
      , (27389,  31,      27400) /* LinkedPortalOne - Deep Caverns */
-     , (27389,  50,  100676404) /* IconOverlay */;
+     , (27389,  50, 0x06003334) /* IconOverlay */;

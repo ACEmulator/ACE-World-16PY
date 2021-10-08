@@ -22,7 +22,7 @@ VALUES (5413,   1, 'Magic Supplies') /* Name */
      , (5413,  16, 'Magic Supplies') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5413,   1,   33555088) /* Setup */
-     , (5413,   6,   67111092) /* PaletteBase */
-     , (5413,   7,  268435669) /* ClothingBase */
-     , (5413,   8,  100668115) /* Icon */;
+VALUES (5413,   1, 0x02000290) /* Setup */
+     , (5413,   6, 0x040008B4) /* PaletteBase */
+     , (5413,   7, 0x100000D5) /* ClothingBase */
+     , (5413,   8, 0x060012D3) /* Icon */;

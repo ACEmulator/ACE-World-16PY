@@ -54,13 +54,13 @@ VALUES (25634,   1, 'Frozen Weeping Sword') /* Name */
      , (25634,  15, 'A sword infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25634,   1,   33558473) /* Setup */
-     , (25634,   3,  536870932) /* SoundTable */
-     , (25634,   6,   67114522) /* PaletteBase */
-     , (25634,   7,  268436698) /* ClothingBase */
-     , (25634,   8,  100674909) /* Icon */
-     , (25634,  22,  872415275) /* PhysicsEffectTable */
-     , (25634,  36,  234881044) /* MutateFilter */;
+VALUES (25634,   1, 0x02000FC9) /* Setup */
+     , (25634,   3, 0x20000014) /* SoundTable */
+     , (25634,   6, 0x0400161A) /* PaletteBase */
+     , (25634,   7, 0x100004DA) /* ClothingBase */
+     , (25634,   8, 0x06002D5D) /* Icon */
+     , (25634,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (25634,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25634,  2694,      2)  /* Moderate Heavy Weapon Aptitude */

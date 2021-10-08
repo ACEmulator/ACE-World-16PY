@@ -31,8 +31,8 @@ VALUES (24686,   1, 'Stibnite and Amaranth Crucible') /* Name */
      , (24686,  20, 'Stubnite and Amaranth Crucibles') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24686,   1,   33555966) /* Setup */
-     , (24686,   3,  536870932) /* SoundTable */
-     , (24686,   8,  100674467) /* Icon */
-     , (24686,  22,  872415275) /* PhysicsEffectTable */
-     , (24686,  50,  100674416) /* IconOverlay */;
+VALUES (24686,   1, 0x020005FE) /* Setup */
+     , (24686,   3, 0x20000014) /* SoundTable */
+     , (24686,   8, 0x06002BA3) /* Icon */
+     , (24686,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24686,  50, 0x06002B70) /* IconOverlay */;

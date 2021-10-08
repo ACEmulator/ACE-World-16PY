@@ -24,7 +24,7 @@ VALUES (11150,   1, 'The Queen''s Head') /* Name */
      , (11150,  16, 'The head of the Olthoi Queen.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11150,   1,   33557198) /* Setup */
-     , (11150,   3,  536870932) /* SoundTable */
-     , (11150,   8,  100671753) /* Icon */
-     , (11150,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11150,   1, 0x02000ACE) /* Setup */
+     , (11150,   3, 0x20000014) /* SoundTable */
+     , (11150,   8, 0x06002109) /* Icon */
+     , (11150,  22, 0x3400002B) /* PhysicsEffectTable */;

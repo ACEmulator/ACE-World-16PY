@@ -47,13 +47,13 @@ VALUES (9675,   1, 'Tumerok War Taiaha') /* Name */
      , (9675,  16, 'Aun Tanua''s War Taiaha, carried fiercely during the siege of Dryreach. Sleep, my brother, and dream of the waves of Te Timaru.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9675,   1,   33556972) /* Setup */
-     , (9675,   3,  536870932) /* SoundTable */
-     , (9675,   6,   67111919) /* PaletteBase */
-     , (9675,   7,  268436126) /* ClothingBase */
-     , (9675,   8,  100671371) /* Icon */
-     , (9675,  22,  872415275) /* PhysicsEffectTable */
-     , (9675,  36,  234881044) /* MutateFilter */
+VALUES (9675,   1, 0x020009EC) /* Setup */
+     , (9675,   3, 0x20000014) /* SoundTable */
+     , (9675,   6, 0x04000BEF) /* PaletteBase */
+     , (9675,   7, 0x1000029E) /* ClothingBase */
+     , (9675,   8, 0x06001F8B) /* Icon */
+     , (9675,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (9675,  36, 0x0E000014) /* MutateFilter */
      , (9675,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

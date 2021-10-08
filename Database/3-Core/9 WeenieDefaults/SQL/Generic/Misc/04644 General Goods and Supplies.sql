@@ -23,7 +23,7 @@ VALUES (4644,   1, 'General Goods and Supplies') /* Name */
      , (4644,  16, 'General Goods and Supplies') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4644,   1,   33555909) /* Setup */
-     , (4644,   6,   67111860) /* PaletteBase */
-     , (4644,   7,  268435821) /* ClothingBase */
-     , (4644,   8,  100668115) /* Icon */;
+VALUES (4644,   1, 0x020005C5) /* Setup */
+     , (4644,   6, 0x04000BB4) /* PaletteBase */
+     , (4644,   7, 0x1000016D) /* ClothingBase */
+     , (4644,   8, 0x060012D3) /* Icon */;

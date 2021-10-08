@@ -24,9 +24,9 @@ VALUES (30352,   1, 'Bracelet of Binding') /* Name */
      , (30352,  16, 'Describe me here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30352,   1,   33554683) /* Setup */
-     , (30352,   3,  536870932) /* SoundTable */
-     , (30352,   6,   67111919) /* PaletteBase */
-     , (30352,   7,  268435738) /* ClothingBase */
-     , (30352,   8,  100668622) /* Icon */
-     , (30352,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30352,   1, 0x020000FB) /* Setup */
+     , (30352,   3, 0x20000014) /* SoundTable */
+     , (30352,   6, 0x04000BEF) /* PaletteBase */
+     , (30352,   7, 0x1000011A) /* ClothingBase */
+     , (30352,   8, 0x060014CE) /* Icon */
+     , (30352,  22, 0x3400002B) /* PhysicsEffectTable */;

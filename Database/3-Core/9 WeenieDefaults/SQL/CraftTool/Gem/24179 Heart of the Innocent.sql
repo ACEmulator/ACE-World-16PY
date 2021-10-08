@@ -31,9 +31,9 @@ VALUES (24179,   1, 'Heart of the Innocent') /* Name */
      , (24179,  15, 'This was once the heart of Jaleh al-Thani now it has become a hardened crystal that forever bleeds.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24179,   1,   33556407) /* Setup */
-     , (24179,   3,  536870932) /* SoundTable */
-     , (24179,   6,   67111919) /* PaletteBase */
-     , (24179,   7,  268435965) /* ClothingBase */
-     , (24179,   8,  100674286) /* Icon */
-     , (24179,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24179,   1, 0x020007B7) /* Setup */
+     , (24179,   3, 0x20000014) /* SoundTable */
+     , (24179,   6, 0x04000BEF) /* PaletteBase */
+     , (24179,   7, 0x100001FD) /* ClothingBase */
+     , (24179,   8, 0x06002AEE) /* Icon */
+     , (24179,  22, 0x3400002B) /* PhysicsEffectTable */;

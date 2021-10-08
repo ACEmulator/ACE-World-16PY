@@ -29,8 +29,8 @@ VALUES (22820,   1, 'Hot Chocolate with Marshmallows') /* Name */
      , (22820,  20, 'Cups of Hot Chocolate with Marshmallows') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22820,   1,   33554662) /* Setup */
-     , (22820,   3,  536870932) /* SoundTable */
-     , (22820,   8,  100673877) /* Icon */
-     , (22820,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22820,   1, 0x020000E6) /* Setup */
+     , (22820,   3, 0x20000014) /* SoundTable */
+     , (22820,   8, 0x06002955) /* Icon */
+     , (22820,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22820,  23,         65) /* UseSound - Drink1 */;

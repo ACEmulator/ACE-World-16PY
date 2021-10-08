@@ -26,7 +26,7 @@ VALUES (30537,   1, 'Hot Apple Pie') /* Name */
      , (30537,  33, 'YaraqApplePieHot1204') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30537,   1,   33555978) /* Setup */
-     , (30537,   3,  536870932) /* SoundTable */
-     , (30537,   8,  100669942) /* Icon */
-     , (30537,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30537,   1, 0x0200060A) /* Setup */
+     , (30537,   3, 0x20000014) /* SoundTable */
+     , (30537,   8, 0x060019F6) /* Icon */
+     , (30537,  22, 0x3400002B) /* PhysicsEffectTable */;

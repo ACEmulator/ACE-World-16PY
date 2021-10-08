@@ -32,9 +32,9 @@ VALUES (23361,   1, 'Chorizite Formula') /* Name */
      , (23361,  16, 'A small bottle of distilled Chorizite formula.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23361,   1,   33555965) /* Setup */
-     , (23361,   3,  536870932) /* SoundTable */
-     , (23361,   6,   67111919) /* PaletteBase */
-     , (23361,   7,  268435814) /* ClothingBase */
-     , (23361,   8,  100670737) /* Icon */
-     , (23361,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23361,   1, 0x020005FD) /* Setup */
+     , (23361,   3, 0x20000014) /* SoundTable */
+     , (23361,   6, 0x04000BEF) /* PaletteBase */
+     , (23361,   7, 0x10000166) /* ClothingBase */
+     , (23361,   8, 0x06001D11) /* Icon */
+     , (23361,  22, 0x3400002B) /* PhysicsEffectTable */;

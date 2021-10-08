@@ -64,11 +64,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25831,   1, 'Smooth Rocks') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25831,   1,   33558564) /* Setup */
-     , (25831,   2,  150995265) /* MotionTable */
-     , (25831,   3,  536870913) /* SoundTable */
-     , (25831,   4,  805306368) /* CombatTable */
-     , (25831,   8,  100675645) /* Icon */;
+VALUES (25831,   1, 0x02001024) /* Setup */
+     , (25831,   2, 0x09000141) /* MotionTable */
+     , (25831,   3, 0x20000001) /* SoundTable */
+     , (25831,   4, 0x30000000) /* CombatTable */
+     , (25831,   8, 0x0600303D) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25831,   1, 220, 0, 0) /* Strength */

@@ -34,7 +34,7 @@ VALUES (11868,   1, 'Staff Reinforcer') /* Name */
      , (11868,  16, 'An oil that hardens staves to the point where they can inflict damage on the enemies stamina.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11868,   1,   33557279) /* Setup */
-     , (11868,   3,  536870932) /* SoundTable */
-     , (11868,   8,  100671971) /* Icon */
-     , (11868,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11868,   1, 0x02000B1F) /* Setup */
+     , (11868,   3, 0x20000014) /* SoundTable */
+     , (11868,   8, 0x060021E3) /* Icon */
+     , (11868,  22, 0x3400002B) /* PhysicsEffectTable */;

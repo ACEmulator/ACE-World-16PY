@@ -60,12 +60,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1761,   1, 'Skeleton Captain') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1761,   1,   33555465) /* Setup */
-     , (1761,   2,  150994981) /* MotionTable */
-     , (1761,   3,  536870942) /* SoundTable */
-     , (1761,   4,  805306368) /* CombatTable */
-     , (1761,   8,  100669124) /* Icon */
-     , (1761,  22,  872415269) /* PhysicsEffectTable */
+VALUES (1761,   1, 0x02000409) /* Setup */
+     , (1761,   2, 0x09000025) /* MotionTable */
+     , (1761,   3, 0x2000001E) /* SoundTable */
+     , (1761,   4, 0x30000000) /* CombatTable */
+     , (1761,   8, 0x060016C4) /* Icon */
+     , (1761,  22, 0x34000025) /* PhysicsEffectTable */
      , (1761,  32,        185) /* WieldedTreasureType - 
                                    Wield 6x Throwing Axe (304) | Probability: 10%
                                    Wield Nayin (334) | Probability: 10%

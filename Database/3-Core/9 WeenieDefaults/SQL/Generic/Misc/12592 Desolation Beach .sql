@@ -22,5 +22,5 @@ VALUES (12592,   1, 'Desolation Beach ') /* Name */
      , (12592,  16, 'Welcome to Desolation Beach ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12592,   1,   33557463) /* Setup */
-     , (12592,   8,  100668115) /* Icon */;
+VALUES (12592,   1, 0x02000BD7) /* Setup */
+     , (12592,   8, 0x060012D3) /* Icon */;

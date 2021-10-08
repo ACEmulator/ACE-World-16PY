@@ -25,7 +25,7 @@ VALUES (3313,   1, 'Scroll of Item Enchantment Mastery Self II') /* Name */
      , (3313,  16, 'When learned, this spell increases the caster''s Item Enchantment skill by 25%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3313,   1,   33554826) /* Setup */
-     , (3313,   8,  100676460) /* Icon */
-     , (3313,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3313,   1, 0x0200018A) /* Setup */
+     , (3313,   8, 0x0600336C) /* Icon */
+     , (3313,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3313,  28,        582) /* Spell - Item Enchantment Mastery Self II */;

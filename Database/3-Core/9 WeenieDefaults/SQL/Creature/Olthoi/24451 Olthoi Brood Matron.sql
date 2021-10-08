@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24451,   1, 'Olthoi Brood Matron') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24451,   1,   33557165) /* Setup */
-     , (24451,   2,  150995135) /* MotionTable */
-     , (24451,   3,  536871037) /* SoundTable */
-     , (24451,   4,  805306419) /* CombatTable */
-     , (24451,   6,   67113288) /* PaletteBase */
-     , (24451,   7,  268436646) /* ClothingBase */
-     , (24451,   8,  100667623) /* Icon */
-     , (24451,  22,  872415379) /* PhysicsEffectTable */
+VALUES (24451,   1, 0x02000AAD) /* Setup */
+     , (24451,   2, 0x090000BF) /* MotionTable */
+     , (24451,   3, 0x2000007D) /* SoundTable */
+     , (24451,   4, 0x30000033) /* CombatTable */
+     , (24451,   6, 0x04001148) /* PaletteBase */
+     , (24451,   7, 0x100004A6) /* ClothingBase */
+     , (24451,   8, 0x060010E7) /* Icon */
+     , (24451,  22, 0x34000093) /* PhysicsEffectTable */
      , (24451,  30,         86) /* PhysicsScript - BreatheAcid */
      , (24451,  35,        146) /* DeathTreasureType - Loot Tier: 5 */;
 

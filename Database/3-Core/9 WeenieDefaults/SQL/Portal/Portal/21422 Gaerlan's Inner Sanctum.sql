@@ -25,9 +25,9 @@ VALUES (21422,   1, 'Gaerlan''s Inner Sanctum') /* Name */
      , (21422,  33, 'GaerlanCrit') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21422,   1,   33554867) /* Setup */
-     , (21422,   2,  150994947) /* MotionTable */
-     , (21422,   8,  100667499) /* Icon */;
+VALUES (21422,   1, 0x020001B3) /* Setup */
+     , (21422,   2, 0x09000003) /* MotionTable */
+     , (21422,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (21422, 2, 0x56540106, 10, -20, 18.005, -0.707107, 0, -0, -0.707107) /* Destination */

@@ -27,9 +27,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (136,   1, 'Pack') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (136,   1,   33554769) /* Setup */
-     , (136,   3,  536870932) /* SoundTable */
-     , (136,   6,   67111919) /* PaletteBase */
-     , (136,   7,  268435867) /* ClothingBase */
-     , (136,   8,  100670383) /* Icon */
-     , (136,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (136,   1, 0x02000151) /* Setup */
+     , (136,   3, 0x20000014) /* SoundTable */
+     , (136,   6, 0x04000BEF) /* PaletteBase */
+     , (136,   7, 0x1000019B) /* ClothingBase */
+     , (136,   8, 0x06001BAF) /* Icon */
+     , (136,  22, 0x3400002B) /* PhysicsEffectTable */;

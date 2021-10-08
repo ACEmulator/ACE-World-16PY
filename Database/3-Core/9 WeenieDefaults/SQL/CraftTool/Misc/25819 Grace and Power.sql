@@ -31,7 +31,7 @@ VALUES (25819,   1, 'Grace and Power') /* Name */
      , (25819,  15, 'The crystals of grace have been scattered into the brazier of power.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25819,   1,   33557971) /* Setup */
-     , (25819,   3,  536870932) /* SoundTable */
-     , (25819,   8,  100675651) /* Icon */
-     , (25819,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25819,   1, 0x02000DD3) /* Setup */
+     , (25819,   3, 0x20000014) /* SoundTable */
+     , (25819,   8, 0x06003043) /* Icon */
+     , (25819,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -35,10 +35,10 @@ VALUES (9046,   1, 'Sunstone Geode') /* Name */
      , (9046,  33, 'Feb01CLQuest4') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9046,   1,   33556947) /* Setup */
-     , (9046,   3,  536870932) /* SoundTable */
-     , (9046,   6,   67111928) /* PaletteBase */
-     , (9046,   7,  268436041) /* ClothingBase */
-     , (9046,   8,  100671336) /* Icon */
-     , (9046,  22,  872415275) /* PhysicsEffectTable */
-     , (9046,  36,  234881046) /* MutateFilter */;
+VALUES (9046,   1, 0x020009D3) /* Setup */
+     , (9046,   3, 0x20000014) /* SoundTable */
+     , (9046,   6, 0x04000BF8) /* PaletteBase */
+     , (9046,   7, 0x10000249) /* ClothingBase */
+     , (9046,   8, 0x06001F68) /* Icon */
+     , (9046,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (9046,  36, 0x0E000016) /* MutateFilter */;

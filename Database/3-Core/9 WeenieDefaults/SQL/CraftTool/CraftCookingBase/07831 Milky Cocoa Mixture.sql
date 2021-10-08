@@ -31,9 +31,9 @@ VALUES (7831,   1, 'Milky Cocoa Mixture') /* Name */
      , (7831,  20, 'Milky Cocoa Mixtures') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7831,   1,   33555968) /* Setup */
-     , (7831,   3,  536870932) /* SoundTable */
-     , (7831,   6,   67111919) /* PaletteBase */
-     , (7831,   7,  268436027) /* ClothingBase */
-     , (7831,   8,  100670853) /* Icon */
-     , (7831,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7831,   1, 0x02000600) /* Setup */
+     , (7831,   3, 0x20000014) /* SoundTable */
+     , (7831,   6, 0x04000BEF) /* PaletteBase */
+     , (7831,   7, 0x1000023B) /* ClothingBase */
+     , (7831,   8, 0x06001D85) /* Icon */
+     , (7831,  22, 0x3400002B) /* PhysicsEffectTable */;

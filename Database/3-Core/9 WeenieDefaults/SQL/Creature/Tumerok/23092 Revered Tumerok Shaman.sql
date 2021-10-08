@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23092,   1, 'Revered Tumerok Shaman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23092,   1,   33554496) /* Setup */
-     , (23092,   2,  150994954) /* MotionTable */
-     , (23092,   3,  536870931) /* SoundTable */
-     , (23092,   4,  805306380) /* CombatTable */
-     , (23092,   6,   67109314) /* PaletteBase */
-     , (23092,   7,  268436631) /* ClothingBase */
-     , (23092,   8,  100667452) /* Icon */
-     , (23092,  22,  872415270) /* PhysicsEffectTable */
+VALUES (23092,   1, 0x02000040) /* Setup */
+     , (23092,   2, 0x0900000A) /* MotionTable */
+     , (23092,   3, 0x20000013) /* SoundTable */
+     , (23092,   4, 0x3000000C) /* CombatTable */
+     , (23092,   6, 0x040001C2) /* PaletteBase */
+     , (23092,   7, 0x10000497) /* ClothingBase */
+     , (23092,   8, 0x0600103C) /* Icon */
+     , (23092,  22, 0x34000026) /* PhysicsEffectTable */
      , (23092,  32,        426) /* WieldedTreasureType - 
                                    Wield Tachi (23136) | Probability: 30.000002%
                                    Wield Kite Shield (23135) | Probability: 100%

@@ -28,8 +28,8 @@ VALUES (9571,   1, 'Completed Item Enchantment Skill Puzzle') /* Name */
      , (9571,  16, 'A completed Item Enchantment Skill Puzzle.  Turn in to a Bestower Examiner to receive a title.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9571,   1,   33557028) /* Setup */
-     , (9571,   3,  536870932) /* SoundTable */
-     , (9571,   8,  100671561) /* Icon */
-     , (9571,  22,  872415275) /* PhysicsEffectTable */
-     , (9571,  36,  234881046) /* MutateFilter */;
+VALUES (9571,   1, 0x02000A24) /* Setup */
+     , (9571,   3, 0x20000014) /* SoundTable */
+     , (9571,   8, 0x06002049) /* Icon */
+     , (9571,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (9571,  36, 0x0E000016) /* MutateFilter */;

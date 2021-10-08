@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9532,   1, 'Nasty Boss Rabbit') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9532,   1,   33555579) /* Setup */
-     , (9532,   2,  150995042) /* MotionTable */
-     , (9532,   3,  536870973) /* SoundTable */
-     , (9532,   4,  805306389) /* CombatTable */
-     , (9532,   6,   67109300) /* PaletteBase */
-     , (9532,   7,  268435725) /* ClothingBase */
-     , (9532,   8,  100669116) /* Icon */
-     , (9532,  22,  872415277) /* PhysicsEffectTable */
+VALUES (9532,   1, 0x0200047B) /* Setup */
+     , (9532,   2, 0x09000062) /* MotionTable */
+     , (9532,   3, 0x2000003D) /* SoundTable */
+     , (9532,   4, 0x30000015) /* CombatTable */
+     , (9532,   6, 0x040001B4) /* PaletteBase */
+     , (9532,   7, 0x1000010D) /* ClothingBase */
+     , (9532,   8, 0x060016BC) /* Icon */
+     , (9532,  22, 0x3400002D) /* PhysicsEffectTable */
      , (9532,  35,        156) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

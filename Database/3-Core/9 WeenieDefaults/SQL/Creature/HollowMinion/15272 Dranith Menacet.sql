@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15272,   1, 'Dranith Menacet') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15272,   1,   33556792) /* Setup */
-     , (15272,   2,  150995101) /* MotionTable */
-     , (15272,   3,  536871013) /* SoundTable */
-     , (15272,   4,  805306413) /* CombatTable */
-     , (15272,   6,   67112967) /* PaletteBase */
-     , (15272,   7,  268436085) /* ClothingBase */
-     , (15272,   8,  100671140) /* Icon */
-     , (15272,  22,  872415367) /* PhysicsEffectTable */
+VALUES (15272,   1, 0x02000938) /* Setup */
+     , (15272,   2, 0x0900009D) /* MotionTable */
+     , (15272,   3, 0x20000065) /* SoundTable */
+     , (15272,   4, 0x3000002D) /* CombatTable */
+     , (15272,   6, 0x04001007) /* PaletteBase */
+     , (15272,   7, 0x10000275) /* ClothingBase */
+     , (15272,   8, 0x06001EA4) /* Icon */
+     , (15272,  22, 0x34000087) /* PhysicsEffectTable */
      , (15272,  35,        352) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

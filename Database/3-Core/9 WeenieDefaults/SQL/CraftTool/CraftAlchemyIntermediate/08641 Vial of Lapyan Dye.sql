@@ -32,9 +32,9 @@ VALUES (8641,   1, 'Vial of Lapyan Dye') /* Name */
      , (8641,  20, 'Vials of Lapyan Dye') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8641,   1,   33556751) /* Setup */
-     , (8641,   3,  536870932) /* SoundTable */
-     , (8641,   6,   67111919) /* PaletteBase */
-     , (8641,   7,  268436034) /* ClothingBase */
-     , (8641,   8,  100670001) /* Icon */
-     , (8641,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8641,   1, 0x0200090F) /* Setup */
+     , (8641,   3, 0x20000014) /* SoundTable */
+     , (8641,   6, 0x04000BEF) /* PaletteBase */
+     , (8641,   7, 0x10000242) /* ClothingBase */
+     , (8641,   8, 0x06001A31) /* Icon */
+     , (8641,  22, 0x3400002B) /* PhysicsEffectTable */;

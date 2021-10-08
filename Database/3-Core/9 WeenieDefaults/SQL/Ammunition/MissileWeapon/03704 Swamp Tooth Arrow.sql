@@ -33,7 +33,7 @@ VALUES (3704,   1, 'Swamp Tooth Arrow') /* Name */
      , (3704,  15, 'Arrow made from the tooth of a Swamp Gromnie.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3704,   1,   33554724) /* Setup */
-     , (3704,   3,  536870932) /* SoundTable */
-     , (3704,   8,  100667622) /* Icon */
-     , (3704,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3704,   1, 0x02000124) /* Setup */
+     , (3704,   3, 0x20000014) /* SoundTable */
+     , (3704,   8, 0x060010E6) /* Icon */
+     , (3704,  22, 0x3400002B) /* PhysicsEffectTable */;

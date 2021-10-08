@@ -31,7 +31,7 @@ VALUES (22031,   1, 'Skeletal Leg') /* Name */
      , (22031,  14, 'Use this on a skeletal torso fitted with arms or one fitted with arms and a leg.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22031,   1,   33558034) /* Setup */
-     , (22031,   3,  536870932) /* SoundTable */
-     , (22031,   8,  100673702) /* Icon */
-     , (22031,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22031,   1, 0x02000E12) /* Setup */
+     , (22031,   3, 0x20000014) /* SoundTable */
+     , (22031,   8, 0x060028A6) /* Icon */
+     , (22031,  22, 0x3400002B) /* PhysicsEffectTable */;

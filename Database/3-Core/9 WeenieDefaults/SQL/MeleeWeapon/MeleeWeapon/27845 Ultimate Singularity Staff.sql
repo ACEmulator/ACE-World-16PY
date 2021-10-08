@@ -54,13 +54,13 @@ VALUES (27845,   1, 'Ultimate Singularity Staff') /* Name */
      , (27845,  15, 'A staff imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27845,   1,   33557317) /* Setup */
-     , (27845,   3,  536870932) /* SoundTable */
-     , (27845,   6,   67111919) /* PaletteBase */
-     , (27845,   7,  268436242) /* ClothingBase */
-     , (27845,   8,  100672046) /* Icon */
-     , (27845,  22,  872415275) /* PhysicsEffectTable */
-     , (27845,  36,  234881044) /* MutateFilter */;
+VALUES (27845,   1, 0x02000B45) /* Setup */
+     , (27845,   3, 0x20000014) /* SoundTable */
+     , (27845,   6, 0x04000BEF) /* PaletteBase */
+     , (27845,   7, 0x10000312) /* ClothingBase */
+     , (27845,   8, 0x0600222E) /* Icon */
+     , (27845,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27845,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27845,  1337,      2)  /* Strength Other VI */

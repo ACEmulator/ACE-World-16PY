@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19285,   1, 'Bronze Statue of a Tumerok') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19285,   1,   33554496) /* Setup */
-     , (19285,   2,  150995191) /* MotionTable */
-     , (19285,   3,  536871052) /* SoundTable */
-     , (19285,   4,  805306380) /* CombatTable */
-     , (19285,   6,   67109314) /* PaletteBase */
-     , (19285,   7,  268435647) /* ClothingBase */
-     , (19285,   8,  100667452) /* Icon */
-     , (19285,  22,  872415349) /* PhysicsEffectTable */
+VALUES (19285,   1, 0x02000040) /* Setup */
+     , (19285,   2, 0x090000F7) /* MotionTable */
+     , (19285,   3, 0x2000008C) /* SoundTable */
+     , (19285,   4, 0x3000000C) /* CombatTable */
+     , (19285,   6, 0x040001C2) /* PaletteBase */
+     , (19285,   7, 0x100000BF) /* ClothingBase */
+     , (19285,   8, 0x0600103C) /* Icon */
+     , (19285,  22, 0x34000075) /* PhysicsEffectTable */
      , (19285,  32,        400) /* WieldedTreasureType - 
                                    Wield Bronze Heavy Crossbow (15875) | Probability: 67%
                                    Wield 20x Greater Acid Quarrel (5314) | Probability: 16%

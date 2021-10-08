@@ -74,11 +74,11 @@ VALUES (7588,   1, 'Archmage Alice Hopper') /* Name */
      , (7588,  24, 'Underground City') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7588,   1,   33554510) /* Setup */
-     , (7588,   2,  150994945) /* MotionTable */
-     , (7588,   3,  536870914) /* SoundTable */
-     , (7588,   4,  805306368) /* CombatTable */
-     , (7588,   8,  100667446) /* Icon */;
+VALUES (7588,   1, 0x0200004E) /* Setup */
+     , (7588,   2, 0x09000001) /* MotionTable */
+     , (7588,   3, 0x20000002) /* SoundTable */
+     , (7588,   4, 0x30000000) /* CombatTable */
+     , (7588,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7588,   1, 180, 0, 0) /* Strength */

@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11625,   1, 'Dark Marionette') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11625,   1,   33556995) /* Setup */
-     , (11625,   2,  150995099) /* MotionTable */
-     , (11625,   3,  536871024) /* SoundTable */
-     , (11625,   4,  805306410) /* CombatTable */
-     , (11625,   6,   67110722) /* PaletteBase */
-     , (11625,   7,  268435558) /* ClothingBase */
-     , (11625,   8,  100671420) /* Icon */
-     , (11625,  22,  872415372) /* PhysicsEffectTable */
+VALUES (11625,   1, 0x02000A03) /* Setup */
+     , (11625,   2, 0x0900009B) /* MotionTable */
+     , (11625,   3, 0x20000070) /* SoundTable */
+     , (11625,   4, 0x3000002A) /* CombatTable */
+     , (11625,   6, 0x04000742) /* PaletteBase */
+     , (11625,   7, 0x10000066) /* ClothingBase */
+     , (11625,   8, 0x06001FBC) /* Icon */
+     , (11625,  22, 0x3400008C) /* PhysicsEffectTable */
      , (11625,  35,        345) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

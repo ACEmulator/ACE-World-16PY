@@ -32,9 +32,9 @@ VALUES (8651,   1, 'Minalim Dye Pot') /* Name */
      , (8651,  20, 'Minalim Dye Pots') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8651,   1,   33556753) /* Setup */
-     , (8651,   3,  536870932) /* SoundTable */
-     , (8651,   6,   67111919) /* PaletteBase */
-     , (8651,   7,  268436036) /* ClothingBase */
-     , (8651,   8,  100669996) /* Icon */
-     , (8651,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8651,   1, 0x02000911) /* Setup */
+     , (8651,   3, 0x20000014) /* SoundTable */
+     , (8651,   6, 0x04000BEF) /* PaletteBase */
+     , (8651,   7, 0x10000244) /* ClothingBase */
+     , (8651,   8, 0x06001A2C) /* Icon */
+     , (8651,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -64,12 +64,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11536,   1, 'Entropy Wisp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11536,   1,   33556634) /* Setup */
-     , (11536,   2,  150994993) /* MotionTable */
-     , (11536,   3,  536870985) /* SoundTable */
-     , (11536,   4,  805306398) /* CombatTable */
-     , (11536,   8,  100668442) /* Icon */
-     , (11536,  22,  872415274) /* PhysicsEffectTable */
+VALUES (11536,   1, 0x0200089A) /* Setup */
+     , (11536,   2, 0x09000031) /* MotionTable */
+     , (11536,   3, 0x20000049) /* SoundTable */
+     , (11536,   4, 0x3000001E) /* CombatTable */
+     , (11536,   8, 0x0600141A) /* Icon */
+     , (11536,  22, 0x3400002A) /* PhysicsEffectTable */
      , (11536,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

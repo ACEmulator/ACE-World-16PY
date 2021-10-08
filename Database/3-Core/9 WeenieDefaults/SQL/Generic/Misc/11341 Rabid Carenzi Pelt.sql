@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11341,   1, 'Rabid Carenzi Pelt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11341,   1,   33554817) /* Setup */
-     , (11341,   3,  536870932) /* SoundTable */
-     , (11341,   6,   67111919) /* PaletteBase */
-     , (11341,   7,  268435832) /* ClothingBase */
-     , (11341,   8,  100671836) /* Icon */
-     , (11341,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11341,   1, 0x02000181) /* Setup */
+     , (11341,   3, 0x20000014) /* SoundTable */
+     , (11341,   6, 0x04000BEF) /* PaletteBase */
+     , (11341,   7, 0x10000178) /* ClothingBase */
+     , (11341,   8, 0x0600215C) /* Icon */
+     , (11341,  22, 0x3400002B) /* PhysicsEffectTable */;

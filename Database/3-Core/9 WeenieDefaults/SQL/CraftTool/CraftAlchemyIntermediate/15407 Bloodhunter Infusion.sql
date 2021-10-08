@@ -30,9 +30,9 @@ VALUES (15407,   1, 'Bloodhunter Infusion') /* Name */
      , (15407,  20, 'Bloodhunter Infusions') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15407,   1,   33555965) /* Setup */
-     , (15407,   3,  536870932) /* SoundTable */
-     , (15407,   6,   67111919) /* PaletteBase */
-     , (15407,   7,  268435814) /* ClothingBase */
-     , (15407,   8,  100672646) /* Icon */
-     , (15407,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15407,   1, 0x020005FD) /* Setup */
+     , (15407,   3, 0x20000014) /* SoundTable */
+     , (15407,   6, 0x04000BEF) /* PaletteBase */
+     , (15407,   7, 0x10000166) /* ClothingBase */
+     , (15407,   8, 0x06002486) /* Icon */
+     , (15407,  22, 0x3400002B) /* PhysicsEffectTable */;

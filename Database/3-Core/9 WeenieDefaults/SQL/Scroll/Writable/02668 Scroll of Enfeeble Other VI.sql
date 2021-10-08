@@ -25,7 +25,7 @@ VALUES (2668,   1, 'Scroll of Enfeeble Other VI') /* Name */
      , (2668,  16, 'When learned, this spell drains 38-75 points of the target''s Stamina.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2668,   1,   33554826) /* Setup */
-     , (2668,   8,  100676933) /* Icon */
-     , (2668,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2668,   1, 0x0200018A) /* Setup */
+     , (2668,   8, 0x06003545) /* Icon */
+     , (2668,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2668,  28,       1200) /* Spell - Enfeeble Other VI */;

@@ -34,12 +34,12 @@ VALUES (28397,   1, 'Tears of Jvikti Kheval') /* Name */
      , (28397,  16, 'A pair of earings made from the tears of the priestess Jvikti Kheval.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28397,   1,   33558877) /* Setup */
-     , (28397,   3,  536870932) /* SoundTable */
-     , (28397,   6,   67114956) /* PaletteBase */
-     , (28397,   7,  268436792) /* ClothingBase */
-     , (28397,   8,  100677002) /* Icon */
-     , (28397,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28397,   1, 0x0200115D) /* Setup */
+     , (28397,   3, 0x20000014) /* SoundTable */
+     , (28397,   6, 0x040017CC) /* PaletteBase */
+     , (28397,   7, 0x10000538) /* ClothingBase */
+     , (28397,   8, 0x0600358A) /* Icon */
+     , (28397,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28397,  3410,      2)  /* Minor Gift of the Fiazhat */

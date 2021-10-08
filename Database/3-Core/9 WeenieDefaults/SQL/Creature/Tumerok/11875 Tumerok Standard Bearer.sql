@@ -62,14 +62,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11875,   1, 'Tumerok Standard Bearer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11875,   1,   33554496) /* Setup */
-     , (11875,   2,  150994954) /* MotionTable */
-     , (11875,   3,  536870931) /* SoundTable */
-     , (11875,   4,  805306380) /* CombatTable */
-     , (11875,   6,   67109314) /* PaletteBase */
-     , (11875,   7,  268435647) /* ClothingBase */
-     , (11875,   8,  100667452) /* Icon */
-     , (11875,  22,  872415270) /* PhysicsEffectTable */
+VALUES (11875,   1, 0x02000040) /* Setup */
+     , (11875,   2, 0x0900000A) /* MotionTable */
+     , (11875,   3, 0x20000013) /* SoundTable */
+     , (11875,   4, 0x3000000C) /* CombatTable */
+     , (11875,   6, 0x040001C2) /* PaletteBase */
+     , (11875,   7, 0x100000BF) /* ClothingBase */
+     , (11875,   8, 0x0600103C) /* Icon */
+     , (11875,  22, 0x34000026) /* PhysicsEffectTable */
      , (11875,  32,        366) /* WieldedTreasureType - 
                                    Wield Hafted Falcon Spear (11751) | Probability: 80%
                                    Wield Reinforced Falcon Spear (11777) | Probability: 20% */

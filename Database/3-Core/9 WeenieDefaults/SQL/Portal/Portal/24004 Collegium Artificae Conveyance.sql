@@ -29,9 +29,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24004,   1, 'Collegium Artificae Conveyance') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24004,   1,   33558268) /* Setup */
-     , (24004,   3,  536871008) /* SoundTable */
-     , (24004,   8,  100674152) /* Icon */;
+VALUES (24004,   1, 0x02000EFC) /* Setup */
+     , (24004,   3, 0x20000060) /* SoundTable */
+     , (24004,   8, 0x06002A68) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24004, 2, 0x64440144, 90, -300, -23.995, 1, 0, 0, -0) /* Destination */

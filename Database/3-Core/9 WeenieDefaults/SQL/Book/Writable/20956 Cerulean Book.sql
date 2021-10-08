@@ -25,12 +25,12 @@ VALUES (20956,   1, 'Cerulean Book') /* Name */
      , (20956,  16, 'A book penned in Yalaini.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20956,   1,   33556929) /* Setup */
-     , (20956,   3,  536870932) /* SoundTable */
-     , (20956,   6,   67113005) /* PaletteBase */
-     , (20956,   7,  268436360) /* ClothingBase */
-     , (20956,   8,  100673197) /* Icon */
-     , (20956,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (20956,   1, 0x020009C1) /* Setup */
+     , (20956,   3, 0x20000014) /* SoundTable */
+     , (20956,   6, 0x0400102D) /* PaletteBase */
+     , (20956,   7, 0x10000388) /* ClothingBase */
+     , (20956,   8, 0x060026AD) /* Icon */
+     , (20956,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (20956, 1, 1000);

@@ -63,11 +63,11 @@ VALUES (30790,   1, 'Pillar of Anger') /* Name */
      , (30790,  15, 'Use this Pillar to infuse some of its darkness into your self. You will then have 30 minutes to use the associated Effigy elsewhere in this Mausoleum.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30790,   1,   33559250) /* Setup */
-     , (30790,   2,  150995329) /* MotionTable */
-     , (30790,   3,  536870932) /* SoundTable */
-     , (30790,   4,  805306368) /* CombatTable */
-     , (30790,   8,  100677461) /* Icon */;
+VALUES (30790,   1, 0x020012D2) /* Setup */
+     , (30790,   2, 0x09000181) /* MotionTable */
+     , (30790,   3, 0x20000014) /* SoundTable */
+     , (30790,   4, 0x30000000) /* CombatTable */
+     , (30790,   8, 0x06003755) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30790,   1,  60, 0, 0) /* Strength */

@@ -47,10 +47,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29931,   1, 'Regal Swordstaff') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29931,   1,   33559052) /* Setup */
-     , (29931,   3,  536870932) /* SoundTable */
-     , (29931,   8,  100676982) /* Icon */
-     , (29931,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29931,   1, 0x0200120C) /* Setup */
+     , (29931,   3, 0x20000014) /* SoundTable */
+     , (29931,   8, 0x06003576) /* Icon */
+     , (29931,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29931,  1604,      2)  /* Aura of Defender Self V */

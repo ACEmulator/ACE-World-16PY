@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29491,   1, 'Knight of Karlun Guard') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29491,   1,   33558024) /* Setup */
-     , (29491,   2,  150994951) /* MotionTable */
-     , (29491,   3,  536870917) /* SoundTable */
-     , (29491,   4,  805306370) /* CombatTable */
-     , (29491,   6,   67114021) /* PaletteBase */
-     , (29491,   7,  268436496) /* ClothingBase */
-     , (29491,   8,  100667453) /* Icon */
-     , (29491,  22,  872415255) /* PhysicsEffectTable */
+VALUES (29491,   1, 0x02000E08) /* Setup */
+     , (29491,   2, 0x09000007) /* MotionTable */
+     , (29491,   3, 0x20000005) /* SoundTable */
+     , (29491,   4, 0x30000002) /* CombatTable */
+     , (29491,   6, 0x04001425) /* PaletteBase */
+     , (29491,   7, 0x10000410) /* ClothingBase */
+     , (29491,   8, 0x0600103D) /* Icon */
+     , (29491,  22, 0x34000017) /* PhysicsEffectTable */
      , (29491,  32,         57) /* WieldedTreasureType - 
                                    Wield Jo (322) | Probability: 3%
                                    Wield Nabut (333) | Probability: 3%

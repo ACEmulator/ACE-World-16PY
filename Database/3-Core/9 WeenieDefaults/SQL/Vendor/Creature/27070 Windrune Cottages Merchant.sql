@@ -68,11 +68,11 @@ VALUES (27070,   1, 'Windrune Cottages Merchant') /* Name */
      , (27070,   5, 'Merchant') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27070,   1,   33554433) /* Setup */
-     , (27070,   2,  150994945) /* MotionTable */
-     , (27070,   3,  536870913) /* SoundTable */
-     , (27070,   4,  805306368) /* CombatTable */
-     , (27070,   8,  100667446) /* Icon */;
+VALUES (27070,   1, 0x02000001) /* Setup */
+     , (27070,   2, 0x09000001) /* MotionTable */
+     , (27070,   3, 0x20000001) /* SoundTable */
+     , (27070,   4, 0x30000000) /* CombatTable */
+     , (27070,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27070,   1,  90, 0, 0) /* Strength */

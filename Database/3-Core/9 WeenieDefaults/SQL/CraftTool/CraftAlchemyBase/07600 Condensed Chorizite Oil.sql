@@ -32,9 +32,9 @@ VALUES (7600,   1, 'Condensed Chorizite Oil') /* Name */
      , (7600,  16, 'A small vial containing condensed chorizite oil.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7600,   1,   33555965) /* Setup */
-     , (7600,   3,  536870932) /* SoundTable */
-     , (7600,   6,   67111919) /* PaletteBase */
-     , (7600,   7,  268435814) /* ClothingBase */
-     , (7600,   8,  100670740) /* Icon */
-     , (7600,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7600,   1, 0x020005FD) /* Setup */
+     , (7600,   3, 0x20000014) /* SoundTable */
+     , (7600,   6, 0x04000BEF) /* PaletteBase */
+     , (7600,   7, 0x10000166) /* ClothingBase */
+     , (7600,   8, 0x06001D14) /* Icon */
+     , (7600,  22, 0x3400002B) /* PhysicsEffectTable */;

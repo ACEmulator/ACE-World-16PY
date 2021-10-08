@@ -26,10 +26,10 @@ VALUES (8089,   1, 'Petulantly Written Note') /* Name */
      , (8089,  16, 'A note in the stark black runes of Dericostian, scrawled with what would seem to be great irritation.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8089,   1,   33554773) /* Setup */
-     , (8089,   3,  536870932) /* SoundTable */
-     , (8089,   8,  100668176) /* Icon */
-     , (8089,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8089,   1, 0x02000155) /* Setup */
+     , (8089,   3, 0x20000014) /* SoundTable */
+     , (8089,   8, 0x06001310) /* Icon */
+     , (8089,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (8089, 1, 1000);

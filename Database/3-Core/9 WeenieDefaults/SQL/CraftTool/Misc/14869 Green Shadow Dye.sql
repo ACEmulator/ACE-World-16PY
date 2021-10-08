@@ -31,9 +31,9 @@ VALUES (14869,   1, 'Green Shadow Dye') /* Name */
      , (14869,  14, 'Use this dye on a piece of the new Greater Shadow Armor. ') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14869,   1,   33556753) /* Setup */
-     , (14869,   3,  536870932) /* SoundTable */
-     , (14869,   6,   67111919) /* PaletteBase */
-     , (14869,   7,  268436343) /* ClothingBase */
-     , (14869,   8,  100672640) /* Icon */
-     , (14869,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14869,   1, 0x02000911) /* Setup */
+     , (14869,   3, 0x20000014) /* SoundTable */
+     , (14869,   6, 0x04000BEF) /* PaletteBase */
+     , (14869,   7, 0x10000377) /* ClothingBase */
+     , (14869,   8, 0x06002480) /* Icon */
+     , (14869,  22, 0x3400002B) /* PhysicsEffectTable */;

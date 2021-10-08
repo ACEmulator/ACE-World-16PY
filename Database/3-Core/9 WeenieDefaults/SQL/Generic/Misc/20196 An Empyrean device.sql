@@ -24,5 +24,5 @@ VALUES (20196,   1, 'An Empyrean device') /* Name */
      , (20196,  15, 'A Empyrean device of Unknown Purpose') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20196,   1,   33557851) /* Setup */
-     , (20196,   8,  100671779) /* Icon */;
+VALUES (20196,   1, 0x02000D5B) /* Setup */
+     , (20196,   8, 0x06002123) /* Icon */;

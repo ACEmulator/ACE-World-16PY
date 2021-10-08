@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7122,   1, 'Great Skeleton') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7122,   1,   33555464) /* Setup */
-     , (7122,   2,  150994981) /* MotionTable */
-     , (7122,   3,  536870942) /* SoundTable */
-     , (7122,   4,  805306368) /* CombatTable */
-     , (7122,   6,   67111266) /* PaletteBase */
-     , (7122,   7,  268435646) /* ClothingBase */
-     , (7122,   8,  100669124) /* Icon */
-     , (7122,  22,  872415269) /* PhysicsEffectTable */
+VALUES (7122,   1, 0x02000408) /* Setup */
+     , (7122,   2, 0x09000025) /* MotionTable */
+     , (7122,   3, 0x2000001E) /* SoundTable */
+     , (7122,   4, 0x30000000) /* CombatTable */
+     , (7122,   6, 0x04000962) /* PaletteBase */
+     , (7122,   7, 0x100000BE) /* ClothingBase */
+     , (7122,   8, 0x060016C4) /* Icon */
+     , (7122,  22, 0x34000025) /* PhysicsEffectTable */
      , (7122,  32,        288) /* WieldedTreasureType - 
                                    Wield Yumi (23734) | Probability: 50%
                                    Wield 16x Deadly Acid Arrow (15430) | Probability: 100%

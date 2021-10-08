@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19294,   1, 'Bronze Statue of a Mosswart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19294,   1,   33557327) /* Setup */
-     , (19294,   2,  150995185) /* MotionTable */
-     , (19294,   3,  536871052) /* SoundTable */
-     , (19294,   4,  805306373) /* CombatTable */
-     , (19294,   6,   67113400) /* PaletteBase */
-     , (19294,   7,  268436295) /* ClothingBase */
-     , (19294,   8,  100667449) /* Icon */
-     , (19294,  22,  872415264) /* PhysicsEffectTable */
+VALUES (19294,   1, 0x02000B4F) /* Setup */
+     , (19294,   2, 0x090000F1) /* MotionTable */
+     , (19294,   3, 0x2000008C) /* SoundTable */
+     , (19294,   4, 0x30000005) /* CombatTable */
+     , (19294,   6, 0x040011B8) /* PaletteBase */
+     , (19294,   7, 0x10000347) /* ClothingBase */
+     , (19294,   8, 0x06001039) /* Icon */
+     , (19294,  22, 0x34000020) /* PhysicsEffectTable */
      , (19294,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

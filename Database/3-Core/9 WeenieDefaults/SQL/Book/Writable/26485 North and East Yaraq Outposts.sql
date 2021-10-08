@@ -22,10 +22,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26485,   1, 'North and East Yaraq Outposts') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26485,   1,   33554773) /* Setup */
-     , (26485,   3,  536870932) /* SoundTable */
-     , (26485,   8,  100675747) /* Icon */
-     , (26485,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (26485,   1, 0x02000155) /* Setup */
+     , (26485,   3, 0x20000014) /* SoundTable */
+     , (26485,   8, 0x060030A3) /* Icon */
+     , (26485,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (26485, 1, 1000);

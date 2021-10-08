@@ -28,10 +28,10 @@ VALUES (9171,   1, 'Pack Mosswart') /* Name */
      , (9171,  16, 'A lil'' tiny Mosswart! Watch him dance to his own beat.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9171,   1,   33554490) /* Setup */
-     , (9171,   2,  150995112) /* MotionTable */
-     , (9171,   6,   67113135) /* PaletteBase */
-     , (9171,   7,  268436132) /* ClothingBase */
-     , (9171,   8,  100667449) /* Icon */
-     , (9171,  22,  872415264) /* PhysicsEffectTable */
-     , (9171,  36,  234881046) /* MutateFilter */;
+VALUES (9171,   1, 0x0200003A) /* Setup */
+     , (9171,   2, 0x090000A8) /* MotionTable */
+     , (9171,   6, 0x040010AF) /* PaletteBase */
+     , (9171,   7, 0x100002A4) /* ClothingBase */
+     , (9171,   8, 0x06001039) /* Icon */
+     , (9171,  22, 0x34000020) /* PhysicsEffectTable */
+     , (9171,  36, 0x0E000016) /* MutateFilter */;

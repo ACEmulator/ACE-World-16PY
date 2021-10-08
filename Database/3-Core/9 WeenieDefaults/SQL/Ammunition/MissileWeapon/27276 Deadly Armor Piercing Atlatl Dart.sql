@@ -42,9 +42,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27276,   1, 'Deadly Armor Piercing Atlatl Dart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27276,   1,   33557434) /* Setup */
-     , (27276,   3,  536870932) /* SoundTable */
-     , (27276,   6,   67111919) /* PaletteBase */
-     , (27276,   7,  268436305) /* ClothingBase */
-     , (27276,   8,  100672678) /* Icon */
-     , (27276,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27276,   1, 0x02000BBA) /* Setup */
+     , (27276,   3, 0x20000014) /* SoundTable */
+     , (27276,   6, 0x04000BEF) /* PaletteBase */
+     , (27276,   7, 0x10000351) /* ClothingBase */
+     , (27276,   8, 0x060024A6) /* Icon */
+     , (27276,  22, 0x3400002B) /* PhysicsEffectTable */;

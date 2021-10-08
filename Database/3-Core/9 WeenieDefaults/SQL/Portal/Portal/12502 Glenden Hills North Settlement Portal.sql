@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12502,   1, 'Glenden Hills North Settlement Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12502,   1,   33554867) /* Setup */
-     , (12502,   2,  150994947) /* MotionTable */
-     , (12502,   8,  100667499) /* Icon */;
+VALUES (12502,   1, 0x020001B3) /* Setup */
+     , (12502,   2, 0x09000003) /* MotionTable */
+     , (12502,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12502, 2, 0xA0AB003A, 176.684, 44.084, 68.331, -0.61786, 0, -0, -0.786288) /* Destination */

@@ -76,13 +76,13 @@ VALUES (6857,   1, 'Thiuda the Sharp-Eyed Bowyer') /* Name */
      , (6857,  24, 'Ayan Baqur') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6857,   1,   33554433) /* Setup */
-     , (6857,   2,  150994945) /* MotionTable */
-     , (6857,   3,  536870913) /* SoundTable */
-     , (6857,   4,  805306368) /* CombatTable */
-     , (6857,   6,   67108990) /* PaletteBase */
-     , (6857,   7,  268435545) /* ClothingBase */
-     , (6857,   8,  100667446) /* Icon */;
+VALUES (6857,   1, 0x02000001) /* Setup */
+     , (6857,   2, 0x09000001) /* MotionTable */
+     , (6857,   3, 0x20000001) /* SoundTable */
+     , (6857,   4, 0x30000000) /* CombatTable */
+     , (6857,   6, 0x0400007E) /* PaletteBase */
+     , (6857,   7, 0x10000059) /* ClothingBase */
+     , (6857,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6857,   1, 120, 0, 0) /* Strength */

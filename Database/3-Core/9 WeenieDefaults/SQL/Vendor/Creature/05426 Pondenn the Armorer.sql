@@ -70,11 +70,11 @@ VALUES (5426,   1, 'Pondenn the Armorer') /* Name */
      , (5426,  24, 'West Glenden Wood Outpost') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5426,   1,   33554433) /* Setup */
-     , (5426,   2,  150994945) /* MotionTable */
-     , (5426,   3,  536870913) /* SoundTable */
-     , (5426,   4,  805306368) /* CombatTable */
-     , (5426,   8,  100667446) /* Icon */;
+VALUES (5426,   1, 0x02000001) /* Setup */
+     , (5426,   2, 0x09000001) /* MotionTable */
+     , (5426,   3, 0x20000001) /* SoundTable */
+     , (5426,   4, 0x30000000) /* CombatTable */
+     , (5426,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5426,   1,  95, 0, 0) /* Strength */

@@ -25,7 +25,7 @@ VALUES (2936,   1, 'Scroll of Force Volley V') /* Name */
      , (2936,  16, 'When learned, this spell shoots three bolts of force toward the target. Each bolt does 13-25 points of piercing damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2936,   1,   33554826) /* Setup */
-     , (2936,   8,  100677019) /* Icon */
-     , (2936,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2936,   1, 0x0200018A) /* Setup */
+     , (2936,   8, 0x0600359B) /* Icon */
+     , (2936,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2936,  28,        149) /* Spell - Force Volley V */;

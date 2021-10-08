@@ -22,5 +22,5 @@ VALUES (16902,   1, 'SylvanDwellings') /* Name */
      , (16902,  16, 'SylvanDwellings') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (16902,   1,   33557659) /* Setup */
-     , (16902,   8,  100672342) /* Icon */;
+VALUES (16902,   1, 0x02000C9B) /* Setup */
+     , (16902,   8, 0x06002356) /* Icon */;

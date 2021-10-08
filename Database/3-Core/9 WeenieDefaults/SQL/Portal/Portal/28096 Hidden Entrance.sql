@@ -28,9 +28,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28096,   1, 'Hidden Entrance') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28096,   1,   33558629) /* Setup */
-     , (28096,   3,  536871008) /* SoundTable */
-     , (28096,   8,  100667499) /* Icon */;
+VALUES (28096,   1, 0x02001065) /* Setup */
+     , (28096,   3, 0x20000060) /* SoundTable */
+     , (28096,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28096, 2, 0x017D016D, 50, -210, 0.005, 1, 0, 0, -0) /* Destination */

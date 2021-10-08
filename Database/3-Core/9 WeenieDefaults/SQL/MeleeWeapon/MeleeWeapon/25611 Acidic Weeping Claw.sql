@@ -54,13 +54,13 @@ VALUES (25611,   1, 'Acidic Weeping Claw') /* Name */
      , (25611,  15, 'A claw infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25611,   1,   33558486) /* Setup */
-     , (25611,   3,  536870932) /* SoundTable */
-     , (25611,   6,   67114522) /* PaletteBase */
-     , (25611,   7,  268436698) /* ClothingBase */
-     , (25611,   8,  100674887) /* Icon */
-     , (25611,  22,  872415275) /* PhysicsEffectTable */
-     , (25611,  36,  234881044) /* MutateFilter */;
+VALUES (25611,   1, 0x02000FD6) /* Setup */
+     , (25611,   3, 0x20000014) /* SoundTable */
+     , (25611,   6, 0x0400161A) /* PaletteBase */
+     , (25611,   7, 0x100004DA) /* ClothingBase */
+     , (25611,   8, 0x06002D47) /* Icon */
+     , (25611,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (25611,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25611,  2967,      2)  /* Aura of The Speedy Hunter */

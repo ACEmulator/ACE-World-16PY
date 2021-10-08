@@ -22,5 +22,5 @@ VALUES (15702,   1, 'Hero''s Vale') /* Name */
      , (15702,  16, '= Welcome to Hero''s Vale') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15702,   1,   33557463) /* Setup */
-     , (15702,   8,  100668115) /* Icon */;
+VALUES (15702,   1, 0x02000BD7) /* Setup */
+     , (15702,   8, 0x060012D3) /* Icon */;

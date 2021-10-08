@@ -61,12 +61,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (181,   1, 'Auroch Cow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (181,   1,   33555220) /* Setup */
-     , (181,   2,  150994969) /* MotionTable */
-     , (181,   3,  536870916) /* SoundTable */
-     , (181,   4,  805306375) /* CombatTable */
-     , (181,   8,  100667936) /* Icon */
-     , (181,  22,  872415254) /* PhysicsEffectTable */
+VALUES (181,   1, 0x02000314) /* Setup */
+     , (181,   2, 0x09000019) /* MotionTable */
+     , (181,   3, 0x20000004) /* SoundTable */
+     , (181,   4, 0x30000007) /* CombatTable */
+     , (181,   8, 0x06001220) /* Icon */
+     , (181,  22, 0x34000016) /* PhysicsEffectTable */
      , (181,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

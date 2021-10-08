@@ -33,9 +33,9 @@ VALUES (28513,   1, 'Armoredillo Hide Collection Bag') /* Name */
      , (28513,  16, 'A large Lugian sack meant to collect the hides of several armoredillo. Currently the sack holds a three armoredillo hides: a small hide, a normal hide and a large hide. You were told to collect a sturdy armoredillo hide and place that into the sack next. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28513,   1,   33554930) /* Setup */
-     , (28513,   3,  536870932) /* SoundTable */
-     , (28513,   6,   67111919) /* PaletteBase */
-     , (28513,   7,  268435723) /* ClothingBase */
-     , (28513,   8,  100676968) /* Icon */
-     , (28513,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28513,   1, 0x020001F2) /* Setup */
+     , (28513,   3, 0x20000014) /* SoundTable */
+     , (28513,   6, 0x04000BEF) /* PaletteBase */
+     , (28513,   7, 0x1000010B) /* ClothingBase */
+     , (28513,   8, 0x06003568) /* Icon */
+     , (28513,  22, 0x3400002B) /* PhysicsEffectTable */;

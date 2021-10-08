@@ -39,12 +39,12 @@ VALUES (8152,   1, 'Tusker Mask') /* Name */
      , (8152,  16, 'A mask that is finely stitched, managing to keep the fur looking natural, while maneuvering the natural features to fit a human head.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8152,   1,   33556826) /* Setup */
-     , (8152,   3,  536870932) /* SoundTable */
-     , (8152,   6,   67108990) /* PaletteBase */
-     , (8152,   7,  268436056) /* ClothingBase */
-     , (8152,   8,  100671026) /* Icon */
-     , (8152,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8152,   1, 0x0200095A) /* Setup */
+     , (8152,   3, 0x20000014) /* SoundTable */
+     , (8152,   6, 0x0400007E) /* PaletteBase */
+     , (8152,   7, 0x10000258) /* ClothingBase */
+     , (8152,   8, 0x06001E32) /* Icon */
+     , (8152,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (8152, 25 /* Wield */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

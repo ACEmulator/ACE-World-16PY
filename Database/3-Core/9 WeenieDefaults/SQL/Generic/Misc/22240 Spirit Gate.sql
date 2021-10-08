@@ -22,5 +22,5 @@ VALUES (22240,   1, 'Spirit Gate') /* Name */
      , (22240,  16, 'Spirit Gate') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22240,   1,   33558054) /* Setup */
-     , (22240,   8,  100667499) /* Icon */;
+VALUES (22240,   1, 0x02000E26) /* Setup */
+     , (22240,   8, 0x0600106B) /* Icon */;

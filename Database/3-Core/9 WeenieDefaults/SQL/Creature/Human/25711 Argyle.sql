@@ -65,11 +65,11 @@ VALUES (25711,   1, 'Argyle') /* Name */
      , (25711,   5, 'Bandit Heavy') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25711,   1,   33554433) /* Setup */
-     , (25711,   2,  150994945) /* MotionTable */
-     , (25711,   3,  536870913) /* SoundTable */
-     , (25711,   4,  805306368) /* CombatTable */
-     , (25711,   8,  100667446) /* Icon */;
+VALUES (25711,   1, 0x02000001) /* Setup */
+     , (25711,   2, 0x09000001) /* MotionTable */
+     , (25711,   3, 0x20000001) /* SoundTable */
+     , (25711,   4, 0x30000000) /* CombatTable */
+     , (25711,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (25711,  16, 0x75E4D001) /* ActivationTarget */;

@@ -50,12 +50,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7034,   1, 'Composite Crossbow with Handle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7034,   1,   33556596) /* Setup */
-     , (7034,   3,  536870932) /* SoundTable */
-     , (7034,   6,   67112869) /* PaletteBase */
-     , (7034,   7,  268436004) /* ClothingBase */
-     , (7034,   8,  100670692) /* Icon */
-     , (7034,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7034,   1, 0x02000874) /* Setup */
+     , (7034,   3, 0x20000014) /* SoundTable */
+     , (7034,   6, 0x04000FA5) /* PaletteBase */
+     , (7034,   7, 0x10000224) /* ClothingBase */
+     , (7034,   8, 0x06001CE4) /* Icon */
+     , (7034,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7034,  37,          3) /* ItemSkillLimit - Crossbow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

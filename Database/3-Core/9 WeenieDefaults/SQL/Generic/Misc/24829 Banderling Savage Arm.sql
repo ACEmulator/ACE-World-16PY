@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24829,   1, 'Banderling Savage Arm') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24829,   1,   33554817) /* Setup */
-     , (24829,   3,  536870932) /* SoundTable */
-     , (24829,   6,   67111919) /* PaletteBase */
-     , (24829,   7,  268435832) /* ClothingBase */
-     , (24829,   8,  100674484) /* Icon */
-     , (24829,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24829,   1, 0x02000181) /* Setup */
+     , (24829,   3, 0x20000014) /* SoundTable */
+     , (24829,   6, 0x04000BEF) /* PaletteBase */
+     , (24829,   7, 0x10000178) /* ClothingBase */
+     , (24829,   8, 0x06002BB4) /* Icon */
+     , (24829,  22, 0x3400002B) /* PhysicsEffectTable */;

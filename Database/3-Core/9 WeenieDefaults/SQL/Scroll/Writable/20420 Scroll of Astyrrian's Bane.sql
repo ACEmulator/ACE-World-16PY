@@ -24,7 +24,7 @@ VALUES (20420,   1, 'Scroll of Astyrrian''s Bane') /* Name */
      , (20420,  15, 'When learned, this spell increases a shield or piece of armor''s resistance to electric damage by 170%.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20420,   1,   33554826) /* Setup */
-     , (20420,   8,  100676653) /* Icon */
-     , (20420,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20420,   1, 0x0200018A) /* Setup */
+     , (20420,   8, 0x0600342D) /* Icon */
+     , (20420,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20420,  28,       2110) /* Spell - Astyrrian's Bane */;

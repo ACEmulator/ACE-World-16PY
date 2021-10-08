@@ -36,7 +36,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26058,   1, 'Envoy''s Shield') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26058,   1,   33558581) /* Setup */
-     , (26058,   3,  536870932) /* SoundTable */
-     , (26058,   8,  100668415) /* Icon */
-     , (26058,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (26058,   1, 0x02001035) /* Setup */
+     , (26058,   3, 0x20000014) /* SoundTable */
+     , (26058,   8, 0x060013FF) /* Icon */
+     , (26058,  22, 0x3400002B) /* PhysicsEffectTable */;

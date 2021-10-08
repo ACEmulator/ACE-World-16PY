@@ -24,7 +24,7 @@ VALUES (20459,   1, 'Scroll of Pummeling Storm') /* Name */
      , (20459,  15, 'When learned, this spell shoots five shock waves outward from the caster. Each wave does 40-80 points of damage to the first thing it hits.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20459,   1,   33554826) /* Setup */
-     , (20459,   8,  100677008) /* Icon */
-     , (20459,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20459,   1, 0x0200018A) /* Setup */
+     , (20459,   8, 0x06003590) /* Icon */
+     , (20459,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20459,  28,       2143) /* Spell - Pummeling Storm */;

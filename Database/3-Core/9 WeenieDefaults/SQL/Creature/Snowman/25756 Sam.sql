@@ -67,12 +67,12 @@ VALUES (25756,   1, 'Sam') /* Name */
      , (25756,   5, 'Snow Guard') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25756,   1,   33558520) /* Setup */
-     , (25756,   2,  150995088) /* MotionTable */
-     , (25756,   3,  536871000) /* SoundTable */
-     , (25756,   4,  805306406) /* CombatTable */
-     , (25756,   8,  100669125) /* Icon */
-     , (25756,  22,  872415346) /* PhysicsEffectTable */;
+VALUES (25756,   1, 0x02000FF8) /* Setup */
+     , (25756,   2, 0x09000090) /* MotionTable */
+     , (25756,   3, 0x20000058) /* SoundTable */
+     , (25756,   4, 0x30000026) /* CombatTable */
+     , (25756,   8, 0x060016C5) /* Icon */
+     , (25756,  22, 0x34000072) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25756,   1, 300, 0, 0) /* Strength */

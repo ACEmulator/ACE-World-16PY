@@ -64,13 +64,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24000,   1, 'Diamond Guardian') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24000,   1,   33558367) /* Setup */
-     , (24000,   2,  150994945) /* MotionTable */
-     , (24000,   3,  536870933) /* SoundTable */
-     , (24000,   4,  805306368) /* CombatTable */
-     , (24000,   6,   67112807) /* PaletteBase */
-     , (24000,   7,  268436634) /* ClothingBase */
-     , (24000,   8,  100674350) /* Icon */;
+VALUES (24000,   1, 0x02000F5F) /* Setup */
+     , (24000,   2, 0x09000001) /* MotionTable */
+     , (24000,   3, 0x20000015) /* SoundTable */
+     , (24000,   4, 0x30000000) /* CombatTable */
+     , (24000,   6, 0x04000F67) /* PaletteBase */
+     , (24000,   7, 0x1000049A) /* ClothingBase */
+     , (24000,   8, 0x06002B2E) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24000,   1, 680, 0, 0) /* Strength */

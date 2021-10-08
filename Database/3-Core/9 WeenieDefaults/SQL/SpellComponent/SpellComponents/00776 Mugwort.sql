@@ -26,10 +26,10 @@ VALUES (776,   1, 'Mugwort') /* Name */
      , (776,  20, 'Sacks of Mugwort') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (776,   1,   33554817) /* Setup */
-     , (776,   3,  536870932) /* SoundTable */
-     , (776,   6,   67111919) /* PaletteBase */
-     , (776,   7,  268435720) /* ClothingBase */
-     , (776,   8,  100668428) /* Icon */
-     , (776,  22,  872415275) /* PhysicsEffectTable */
+VALUES (776,   1, 0x02000181) /* Setup */
+     , (776,   3, 0x20000014) /* SoundTable */
+     , (776,   6, 0x04000BEF) /* PaletteBase */
+     , (776,   7, 0x10000108) /* ClothingBase */
+     , (776,   8, 0x0600140C) /* Icon */
+     , (776,  22, 0x3400002B) /* PhysicsEffectTable */
      , (776,  29,         11) /* SpellComponent */;

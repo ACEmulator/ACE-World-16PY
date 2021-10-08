@@ -25,10 +25,10 @@ VALUES (27439,   1, 'Coffin') /* Name */
      , (27439,  33, 'PickedUpSarchophagusHookable') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27439,   1,   33554638) /* Setup */
-     , (27439,   2,  150995289) /* MotionTable */
-     , (27439,   3,  536870950) /* SoundTable */
-     , (27439,   8,  100668103) /* Icon */;
+VALUES (27439,   1, 0x020000CE) /* Setup */
+     , (27439,   2, 0x09000159) /* MotionTable */
+     , (27439,   3, 0x20000026) /* SoundTable */
+     , (27439,   8, 0x060012C7) /* Icon */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (27439,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

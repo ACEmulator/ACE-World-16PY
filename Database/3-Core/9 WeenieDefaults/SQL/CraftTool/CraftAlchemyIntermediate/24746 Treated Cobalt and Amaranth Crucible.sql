@@ -32,8 +32,8 @@ VALUES (24746,   1, 'Treated Cobalt and Amaranth Crucible') /* Name */
      , (24746,  20, 'Treated Cobalt and Amaranth Crucible') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24746,   1,   33555966) /* Setup */
-     , (24746,   3,  536870932) /* SoundTable */
-     , (24746,   8,  100674470) /* Icon */
-     , (24746,  22,  872415275) /* PhysicsEffectTable */
-     , (24746,  50,  100674416) /* IconOverlay */;
+VALUES (24746,   1, 0x020005FE) /* Setup */
+     , (24746,   3, 0x20000014) /* SoundTable */
+     , (24746,   8, 0x06002BA6) /* Icon */
+     , (24746,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24746,  50, 0x06002B70) /* IconOverlay */;

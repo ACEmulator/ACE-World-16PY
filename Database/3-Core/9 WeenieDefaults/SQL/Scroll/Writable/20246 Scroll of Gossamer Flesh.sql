@@ -24,7 +24,7 @@ VALUES (20246,   1, 'Scroll of Gossamer Flesh') /* Name */
      , (20246,  15, 'When learned, this spell decreases the target''s natural armor by 225 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20246,   1,   33554826) /* Setup */
-     , (20246,   8,  100676928) /* Icon */
-     , (20246,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20246,   1, 0x0200018A) /* Setup */
+     , (20246,   8, 0x06003540) /* Icon */
+     , (20246,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20246,  28,       2074) /* Spell - Gossamer Flesh */;

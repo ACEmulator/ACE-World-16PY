@@ -68,14 +68,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30639,   1, 'Banderling Ancient Spirit') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30639,   1,   33559206) /* Setup */
-     , (30639,   2,  150994951) /* MotionTable */
-     , (30639,   3,  536870917) /* SoundTable */
-     , (30639,   4,  805306370) /* CombatTable */
-     , (30639,   6,   67114021) /* PaletteBase */
-     , (30639,   7,  268436893) /* ClothingBase */
-     , (30639,   8,  100667453) /* Icon */
-     , (30639,  22,  872415255) /* PhysicsEffectTable */
+VALUES (30639,   1, 0x020012A6) /* Setup */
+     , (30639,   2, 0x09000007) /* MotionTable */
+     , (30639,   3, 0x20000005) /* SoundTable */
+     , (30639,   4, 0x30000002) /* CombatTable */
+     , (30639,   6, 0x04001425) /* PaletteBase */
+     , (30639,   7, 0x1000059D) /* ClothingBase */
+     , (30639,   8, 0x0600103D) /* Icon */
+     , (30639,  22, 0x34000017) /* PhysicsEffectTable */
      , (30639,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

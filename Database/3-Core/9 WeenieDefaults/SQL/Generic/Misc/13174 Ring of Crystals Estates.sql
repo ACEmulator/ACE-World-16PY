@@ -22,5 +22,5 @@ VALUES (13174,   1, 'Ring of Crystals Estates') /* Name */
      , (13174,  16, 'Welcome to Ring of Crystals Estates') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13174,   1,   33557463) /* Setup */
-     , (13174,   8,  100668115) /* Icon */;
+VALUES (13174,   1, 0x02000BD7) /* Setup */
+     , (13174,   8, 0x060012D3) /* Icon */;

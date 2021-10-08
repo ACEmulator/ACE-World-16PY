@@ -74,11 +74,11 @@ VALUES (20212,   1, 'Grand Master Scrivener of Item Magic') /* Name */
      , (20212,  24, 'Fort Tethana') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20212,   1,   33554510) /* Setup */
-     , (20212,   2,  150994945) /* MotionTable */
-     , (20212,   3,  536870914) /* SoundTable */
-     , (20212,   4,  805306368) /* CombatTable */
-     , (20212,   8,  100667446) /* Icon */;
+VALUES (20212,   1, 0x0200004E) /* Setup */
+     , (20212,   2, 0x09000001) /* MotionTable */
+     , (20212,   3, 0x20000002) /* SoundTable */
+     , (20212,   4, 0x30000000) /* CombatTable */
+     , (20212,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (20212,   1,  90, 0, 0) /* Strength */

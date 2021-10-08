@@ -32,8 +32,8 @@ VALUES (24741,   1, 'Treated Stibnite and Amaranth Crucible') /* Name */
      , (24741,  20, 'Treated Stubnite and Amaranth Crucibles') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24741,   1,   33555966) /* Setup */
-     , (24741,   3,  536870932) /* SoundTable */
-     , (24741,   8,  100674467) /* Icon */
-     , (24741,  22,  872415275) /* PhysicsEffectTable */
-     , (24741,  50,  100674416) /* IconOverlay */;
+VALUES (24741,   1, 0x020005FE) /* Setup */
+     , (24741,   3, 0x20000014) /* SoundTable */
+     , (24741,   8, 0x06002BA3) /* Icon */
+     , (24741,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24741,  50, 0x06002B70) /* IconOverlay */;

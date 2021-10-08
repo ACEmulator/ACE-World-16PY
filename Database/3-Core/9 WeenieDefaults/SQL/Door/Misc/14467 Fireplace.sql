@@ -29,11 +29,11 @@ VALUES (14467,   1, 'Fireplace') /* Name */
      , (14467,  15, 'Just an ordinary fireplace.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14467,   1,   33557470) /* Setup */
-     , (14467,   2,  150995148) /* MotionTable */
-     , (14467,   3,  536871044) /* SoundTable */
-     , (14467,   8,  100672429) /* Icon */
-     , (14467,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14467,   1, 0x02000BDE) /* Setup */
+     , (14467,   2, 0x090000CC) /* MotionTable */
+     , (14467,   3, 0x20000084) /* SoundTable */
+     , (14467,   8, 0x060023AD) /* Icon */
+     , (14467,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (14467,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

@@ -48,10 +48,10 @@ VALUES (21963,   1, 'Phantom Atlatl') /* Name */
      , (21963,  16, 'An atlatl with a ghostly hue crafted from pure chorizite, resitant to any enchantment. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21963,   1,   33557433) /* Setup */
-     , (21963,   3,  536870932) /* SoundTable */
-     , (21963,   6,   67111919) /* PaletteBase */
-     , (21963,   7,  268436304) /* ClothingBase */
-     , (21963,   8,  100672372) /* Icon */
-     , (21963,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21963,   1, 0x02000BB9) /* Setup */
+     , (21963,   3, 0x20000014) /* SoundTable */
+     , (21963,   6, 0x04000BEF) /* PaletteBase */
+     , (21963,   7, 0x10000350) /* ClothingBase */
+     , (21963,   8, 0x06002374) /* Icon */
+     , (21963,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21963,  30,         88) /* PhysicsScript - Create */;

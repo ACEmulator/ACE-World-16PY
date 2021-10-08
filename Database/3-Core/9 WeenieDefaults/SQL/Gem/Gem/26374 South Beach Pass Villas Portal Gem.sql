@@ -36,11 +36,11 @@ VALUES (26374,   1, 'South Beach Pass Villas Portal Gem') /* Name */
      , (26374,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26374,   1,   33556769) /* Setup */
-     , (26374,   3,  536870932) /* SoundTable */
-     , (26374,   6,   67111919) /* PaletteBase */
-     , (26374,   7,  268435723) /* ClothingBase */
-     , (26374,   8,  100675760) /* Icon */
-     , (26374,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26374,   1, 0x02000921) /* Setup */
+     , (26374,   3, 0x20000014) /* SoundTable */
+     , (26374,   6, 0x04000BEF) /* PaletteBase */
+     , (26374,   7, 0x1000010B) /* ClothingBase */
+     , (26374,   8, 0x060030B0) /* Icon */
+     , (26374,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26374,  28,        157) /* Spell - Summon Primary Portal I */
      , (26374,  31,      13090) /* LinkedPortalOne - South Beach Pass Villas Portal */;

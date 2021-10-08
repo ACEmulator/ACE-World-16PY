@@ -65,11 +65,11 @@ VALUES (14922,   1, 'Grand Sentinel Tretia') /* Name */
      , (14922,   5, 'Marriage Facilitator') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14922,   1,   33554510) /* Setup */
-     , (14922,   2,  150994945) /* MotionTable */
-     , (14922,   3,  536870914) /* SoundTable */
-     , (14922,   4,  805306368) /* CombatTable */
-     , (14922,   8,  100667446) /* Icon */;
+VALUES (14922,   1, 0x0200004E) /* Setup */
+     , (14922,   2, 0x09000001) /* MotionTable */
+     , (14922,   3, 0x20000002) /* SoundTable */
+     , (14922,   4, 0x30000000) /* CombatTable */
+     , (14922,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (14922,  16, 0x79EB4007) /* ActivationTarget */;

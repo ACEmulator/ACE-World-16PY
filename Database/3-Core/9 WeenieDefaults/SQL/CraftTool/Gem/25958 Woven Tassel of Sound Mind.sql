@@ -34,7 +34,7 @@ VALUES (25958,   1, 'Woven Tassel of Sound Mind') /* Name */
      , (25958,  33, 'PickedUpTasselMagic') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25958,   1,   33554784) /* Setup */
-     , (25958,   3,  536870932) /* SoundTable */
-     , (25958,   8,  100675675) /* Icon */
-     , (25958,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25958,   1, 0x02000160) /* Setup */
+     , (25958,   3, 0x20000014) /* SoundTable */
+     , (25958,   8, 0x0600305B) /* Icon */
+     , (25958,  22, 0x3400002B) /* PhysicsEffectTable */;

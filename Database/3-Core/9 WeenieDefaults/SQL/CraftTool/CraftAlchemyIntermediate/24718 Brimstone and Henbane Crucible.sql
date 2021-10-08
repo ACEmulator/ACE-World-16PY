@@ -31,8 +31,8 @@ VALUES (24718,   1, 'Brimstone and Henbane Crucible') /* Name */
      , (24718,  20, 'Brimstone and Henbane Crucibles') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24718,   1,   33555966) /* Setup */
-     , (24718,   3,  536870932) /* SoundTable */
-     , (24718,   8,  100674469) /* Icon */
-     , (24718,  22,  872415275) /* PhysicsEffectTable */
-     , (24718,  50,  100674414) /* IconOverlay */;
+VALUES (24718,   1, 0x020005FE) /* Setup */
+     , (24718,   3, 0x20000014) /* SoundTable */
+     , (24718,   8, 0x06002BA5) /* Icon */
+     , (24718,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24718,  50, 0x06002B6E) /* IconOverlay */;

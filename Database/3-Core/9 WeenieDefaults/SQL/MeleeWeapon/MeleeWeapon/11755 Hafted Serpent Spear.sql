@@ -44,12 +44,12 @@ VALUES (11755,   1, 'Hafted Serpent Spear') /* Name */
      , (11755,  16, 'A hafted, spear tipped banner with a serpent on it.  It is somewhat tattered, and the colors seem to be washed out.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11755,   1,   33557257) /* Setup */
-     , (11755,   3,  536870932) /* SoundTable */
-     , (11755,   6,   67113338) /* PaletteBase */
-     , (11755,   7,  268436224) /* ClothingBase */
-     , (11755,   8,  100671910) /* Icon */
-     , (11755,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11755,   1, 0x02000B09) /* Setup */
+     , (11755,   3, 0x20000014) /* SoundTable */
+     , (11755,   6, 0x0400117A) /* PaletteBase */
+     , (11755,   7, 0x10000300) /* ClothingBase */
+     , (11755,   8, 0x060021A6) /* Icon */
+     , (11755,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11755,   246,      2)  /* Invulnerability Self III */;

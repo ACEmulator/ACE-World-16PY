@@ -28,9 +28,9 @@ VALUES (5333,   1, 'Health Oil') /* Name */
      , (5333,  20, 'Vials of Health Oil') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5333,   1,   33555967) /* Setup */
-     , (5333,   3,  536870932) /* SoundTable */
-     , (5333,   6,   67111919) /* PaletteBase */
-     , (5333,   7,  268435815) /* ClothingBase */
-     , (5333,   8,  100670011) /* Icon */
-     , (5333,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5333,   1, 0x020005FF) /* Setup */
+     , (5333,   3, 0x20000014) /* SoundTable */
+     , (5333,   6, 0x04000BEF) /* PaletteBase */
+     , (5333,   7, 0x10000167) /* ClothingBase */
+     , (5333,   8, 0x06001A3B) /* Icon */
+     , (5333,  22, 0x3400002B) /* PhysicsEffectTable */;

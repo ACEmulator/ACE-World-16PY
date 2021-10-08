@@ -70,11 +70,11 @@ VALUES (968,   1, 'Henrid the Grocer') /* Name */
      , (968,  24, 'Underground City') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (968,   1,   33554433) /* Setup */
-     , (968,   2,  150994945) /* MotionTable */
-     , (968,   3,  536870913) /* SoundTable */
-     , (968,   4,  805306368) /* CombatTable */
-     , (968,   8,  100667446) /* Icon */;
+VALUES (968,   1, 0x02000001) /* Setup */
+     , (968,   2, 0x09000001) /* MotionTable */
+     , (968,   3, 0x20000001) /* SoundTable */
+     , (968,   4, 0x30000000) /* CombatTable */
+     , (968,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (968,   1, 100, 0, 0) /* Strength */

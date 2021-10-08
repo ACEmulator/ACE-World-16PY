@@ -35,9 +35,9 @@ VALUES (28341,   1, 'Fused Bloodstone Chunk') /* Name */
      , (28341,  15, 'An incomplete Bloodstone Emblem. There appears to be a piece missing from it.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28341,   1,   33555194) /* Setup */
-     , (28341,   3,  536870932) /* SoundTable */
-     , (28341,   6,   67111092) /* PaletteBase */
-     , (28341,   7,  268436400) /* ClothingBase */
-     , (28341,   8,  100676986) /* Icon */
-     , (28341,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28341,   1, 0x020002FA) /* Setup */
+     , (28341,   3, 0x20000014) /* SoundTable */
+     , (28341,   6, 0x040008B4) /* PaletteBase */
+     , (28341,   7, 0x100003B0) /* ClothingBase */
+     , (28341,   8, 0x0600357A) /* Icon */
+     , (28341,  22, 0x3400002B) /* PhysicsEffectTable */;

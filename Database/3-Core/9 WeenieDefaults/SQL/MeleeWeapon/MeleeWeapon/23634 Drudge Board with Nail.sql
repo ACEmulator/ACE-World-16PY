@@ -41,11 +41,11 @@ VALUES (23634,   1, 'Drudge Board with Nail') /* Name */
      , (23634,  16, 'An even bigger board with even bigger nail.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23634,   1,   33556638) /* Setup */
-     , (23634,   3,  536870932) /* SoundTable */
-     , (23634,   8,  100670758) /* Icon */
-     , (23634,  22,  872415275) /* PhysicsEffectTable */
-     , (23634,  36,  234881044) /* MutateFilter */;
+VALUES (23634,   1, 0x0200089E) /* Setup */
+     , (23634,   3, 0x20000014) /* SoundTable */
+     , (23634,   8, 0x06001D26) /* Icon */
+     , (23634,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (23634,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23634,  1613,      2)  /* Aura of Blood Drinker Self III */

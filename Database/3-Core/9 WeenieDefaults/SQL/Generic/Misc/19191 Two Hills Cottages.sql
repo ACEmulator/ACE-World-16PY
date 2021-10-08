@@ -22,5 +22,5 @@ VALUES (19191,   1, 'Two Hills Cottages') /* Name */
      , (19191,  16, 'Welcome to Two Hills Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19191,   1,   33557463) /* Setup */
-     , (19191,   8,  100668115) /* Icon */;
+VALUES (19191,   1, 0x02000BD7) /* Setup */
+     , (19191,   8, 0x060012D3) /* Icon */;

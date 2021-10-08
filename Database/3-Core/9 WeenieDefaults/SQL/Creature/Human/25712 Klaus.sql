@@ -65,11 +65,11 @@ VALUES (25712,   1, 'Klaus') /* Name */
      , (25712,   5, 'Bandit') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25712,   1,   33554433) /* Setup */
-     , (25712,   2,  150994945) /* MotionTable */
-     , (25712,   3,  536870913) /* SoundTable */
-     , (25712,   4,  805306368) /* CombatTable */
-     , (25712,   8,  100667446) /* Icon */;
+VALUES (25712,   1, 0x02000001) /* Setup */
+     , (25712,   2, 0x09000001) /* MotionTable */
+     , (25712,   3, 0x20000001) /* SoundTable */
+     , (25712,   4, 0x30000000) /* CombatTable */
+     , (25712,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (25712,  16, 0x75E4D003) /* ActivationTarget */;

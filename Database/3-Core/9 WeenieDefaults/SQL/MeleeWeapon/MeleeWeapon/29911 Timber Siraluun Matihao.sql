@@ -48,12 +48,12 @@ VALUES (29911,   1, 'Timber Siraluun Matihao') /* Name */
      , (29911,  16, 'A beautifully detailed matihao crafted from the claw of a Timber Siraluun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29911,   1,   33557229) /* Setup */
-     , (29911,   3,  536870932) /* SoundTable */
-     , (29911,   6,   67113247) /* PaletteBase */
-     , (29911,   7,  268436194) /* ClothingBase */
-     , (29911,   8,  100677340) /* Icon */
-     , (29911,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29911,   1, 0x02000AED) /* Setup */
+     , (29911,   3, 0x20000014) /* SoundTable */
+     , (29911,   6, 0x0400111F) /* PaletteBase */
+     , (29911,   7, 0x100002E2) /* ClothingBase */
+     , (29911,   8, 0x060036DC) /* Icon */
+     , (29911,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29911,  1603,      2)  /* Aura of Defender Self IV */

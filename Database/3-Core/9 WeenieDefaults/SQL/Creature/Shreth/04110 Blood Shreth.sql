@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4110,   1, 'Blood Shreth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4110,   1,   33555879) /* Setup */
-     , (4110,   2,  150995072) /* MotionTable */
-     , (4110,   3,  536870986) /* SoundTable */
-     , (4110,   4,  805306399) /* CombatTable */
-     , (4110,   6,   67112444) /* PaletteBase */
-     , (4110,   7,  268435808) /* ClothingBase */
-     , (4110,   8,  100669720) /* Icon */
-     , (4110,  22,  872415333) /* PhysicsEffectTable */
+VALUES (4110,   1, 0x020005A7) /* Setup */
+     , (4110,   2, 0x09000080) /* MotionTable */
+     , (4110,   3, 0x2000004A) /* SoundTable */
+     , (4110,   4, 0x3000001F) /* CombatTable */
+     , (4110,   6, 0x04000DFC) /* PaletteBase */
+     , (4110,   7, 0x10000160) /* ClothingBase */
+     , (4110,   8, 0x06001918) /* Icon */
+     , (4110,  22, 0x34000065) /* PhysicsEffectTable */
      , (4110,  35,        459) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

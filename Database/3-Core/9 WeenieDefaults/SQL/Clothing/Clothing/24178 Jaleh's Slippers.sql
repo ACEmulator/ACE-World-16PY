@@ -42,10 +42,10 @@ VALUES (24178,   1, 'Jaleh''s Slippers') /* Name */
      , (24178,  33, 'SlippersJalehTaken') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24178,   1,   33554654) /* Setup */
-     , (24178,   3,  536870932) /* SoundTable */
-     , (24178,   6,   67108990) /* PaletteBase */
-     , (24178,   7,  268435717) /* ClothingBase */
-     , (24178,   8,  100674278) /* Icon */
-     , (24178,  22,  872415275) /* PhysicsEffectTable */
-     , (24178,  36,  234881046) /* MutateFilter */;
+VALUES (24178,   1, 0x020000DE) /* Setup */
+     , (24178,   3, 0x20000014) /* SoundTable */
+     , (24178,   6, 0x0400007E) /* PaletteBase */
+     , (24178,   7, 0x10000105) /* ClothingBase */
+     , (24178,   8, 0x06002AE6) /* Icon */
+     , (24178,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24178,  36, 0x0E000016) /* MutateFilter */;

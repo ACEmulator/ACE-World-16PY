@@ -63,12 +63,12 @@ VALUES (225,   1, 'Rogue Mage') /* Name */
      , (225,   4, 'Gharu''ndim') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (225,   1,   33554433) /* Setup */
-     , (225,   2,  150994945) /* MotionTable */
-     , (225,   3,  536870913) /* SoundTable */
-     , (225,   4,  805306368) /* CombatTable */
-     , (225,   8,  100667446) /* Icon */
-     , (225,  22,  872415236) /* PhysicsEffectTable */
+VALUES (225,   1, 0x02000001) /* Setup */
+     , (225,   2, 0x09000001) /* MotionTable */
+     , (225,   3, 0x20000001) /* SoundTable */
+     , (225,   4, 0x30000000) /* CombatTable */
+     , (225,   8, 0x06001036) /* Icon */
+     , (225,  22, 0x34000004) /* PhysicsEffectTable */
      , (225,  32,        432) /* WieldedTreasureType - 
                                    Wield Doublet (2596) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.641%
                                    Wield Doublet (2596) | Palette: DeepBrown (6) | Shade: 0.67 | Probability: 0.641%

@@ -34,10 +34,10 @@ VALUES (21055,   1, 'Salvaged Ivory') /* Name */
      , (21055,  15, 'Shavings of ivory material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21055,   1,   33554817) /* Setup */
-     , (21055,   3,  536870932) /* SoundTable */
-     , (21055,   6,   67111919) /* PaletteBase */
-     , (21055,   7,  268436430) /* ClothingBase */
-     , (21055,   8,  100667436) /* Icon */
-     , (21055,  22,  872415275) /* PhysicsEffectTable */
-     , (21055,  50,  100673279) /* IconOverlay */;
+VALUES (21055,   1, 0x02000181) /* Setup */
+     , (21055,   3, 0x20000014) /* SoundTable */
+     , (21055,   6, 0x04000BEF) /* PaletteBase */
+     , (21055,   7, 0x100003CE) /* ClothingBase */
+     , (21055,   8, 0x0600102C) /* Icon */
+     , (21055,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (21055,  50, 0x060026FF) /* IconOverlay */;

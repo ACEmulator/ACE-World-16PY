@@ -29,7 +29,7 @@ VALUES (9365,   1, 'Wrapped Bundle of Fire Arrowheads') /* Name */
      , (9365,  20, 'Wrapped Bundles of Fire Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9365,   1,   33557030) /* Setup */
-     , (9365,   3,  536870932) /* SoundTable */
-     , (9365,   8,  100671596) /* Icon */
-     , (9365,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9365,   1, 0x02000A26) /* Setup */
+     , (9365,   3, 0x20000014) /* SoundTable */
+     , (9365,   8, 0x0600206C) /* Icon */
+     , (9365,  22, 0x3400002B) /* PhysicsEffectTable */;

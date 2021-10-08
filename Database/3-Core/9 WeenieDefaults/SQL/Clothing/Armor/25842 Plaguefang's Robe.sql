@@ -44,13 +44,13 @@ VALUES (25842,   1, 'Plaguefang''s Robe') /* Name */
      , (25842,  15, 'A robe crafted from the hide of the vile doomshark, Plaguefang.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25842,   1,   33554854) /* Setup */
-     , (25842,   3,  536870932) /* SoundTable */
-     , (25842,   6,   67108990) /* PaletteBase */
-     , (25842,   7,  268436755) /* ClothingBase */
-     , (25842,   8,  100675613) /* Icon */
-     , (25842,  22,  872415275) /* PhysicsEffectTable */
-     , (25842,  36,  234881046) /* MutateFilter */;
+VALUES (25842,   1, 0x020001A6) /* Setup */
+     , (25842,   3, 0x20000014) /* SoundTable */
+     , (25842,   6, 0x0400007E) /* PaletteBase */
+     , (25842,   7, 0x10000513) /* ClothingBase */
+     , (25842,   8, 0x0600301D) /* Icon */
+     , (25842,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (25842,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25842,  2382,      2)  /* Unnatural Persistence */

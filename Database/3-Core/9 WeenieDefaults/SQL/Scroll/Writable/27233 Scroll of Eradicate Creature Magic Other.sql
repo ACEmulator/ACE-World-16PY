@@ -24,7 +24,7 @@ VALUES (27233,   1, 'Scroll of Eradicate Creature Magic Other') /* Name */
      , (27233,  15, 'When learned, this spell dispels 3-6 negative Creature Magic enchantments of level 7 or lower from the target.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27233,   1,   33554826) /* Setup */
-     , (27233,   8,  100676647) /* Icon */
-     , (27233,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27233,   1, 0x0200018A) /* Setup */
+     , (27233,   8, 0x06003427) /* Icon */
+     , (27233,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27233,  28,       3184) /* Spell - Eradicate Creature Magic Other */;

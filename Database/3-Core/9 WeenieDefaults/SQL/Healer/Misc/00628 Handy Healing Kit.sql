@@ -27,5 +27,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (628,   1, 'Handy Healing Kit') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (628,   1,   33555194) /* Setup */
-     , (628,   8,  100676335) /* Icon */;
+VALUES (628,   1, 0x020002FA) /* Setup */
+     , (628,   8, 0x060032EF) /* Icon */;

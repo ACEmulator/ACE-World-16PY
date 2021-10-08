@@ -46,9 +46,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22546,   1, 'Coconut') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22546,   1,   33554669) /* Setup */
-     , (22546,   3,  536871061) /* SoundTable */
-     , (22546,   6,   67111919) /* PaletteBase */
-     , (22546,   7,  268436508) /* ClothingBase */
-     , (22546,   8,  100673811) /* Icon */
-     , (22546,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22546,   1, 0x020000ED) /* Setup */
+     , (22546,   3, 0x20000095) /* SoundTable */
+     , (22546,   6, 0x04000BEF) /* PaletteBase */
+     , (22546,   7, 0x1000041C) /* ClothingBase */
+     , (22546,   8, 0x06002913) /* Icon */
+     , (22546,  22, 0x3400002B) /* PhysicsEffectTable */;

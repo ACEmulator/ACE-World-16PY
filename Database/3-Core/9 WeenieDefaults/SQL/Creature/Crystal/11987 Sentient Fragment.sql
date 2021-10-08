@@ -71,14 +71,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11987,   1, 'Sentient Fragment') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11987,   1,   33556226) /* Setup */
-     , (11987,   2,  150995097) /* MotionTable */
-     , (11987,   3,  536871001) /* SoundTable */
-     , (11987,   4,  805306407) /* CombatTable */
-     , (11987,   6,   67111919) /* PaletteBase */
-     , (11987,   7,  268435869) /* ClothingBase */
-     , (11987,   8,  100670395) /* Icon */
-     , (11987,  22,  872415348) /* PhysicsEffectTable */
+VALUES (11987,   1, 0x02000702) /* Setup */
+     , (11987,   2, 0x09000099) /* MotionTable */
+     , (11987,   3, 0x20000059) /* SoundTable */
+     , (11987,   4, 0x30000027) /* CombatTable */
+     , (11987,   6, 0x04000BEF) /* PaletteBase */
+     , (11987,   7, 0x1000019D) /* ClothingBase */
+     , (11987,   8, 0x06001BBB) /* Icon */
+     , (11987,  22, 0x34000074) /* PhysicsEffectTable */
      , (11987,  35,         21) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

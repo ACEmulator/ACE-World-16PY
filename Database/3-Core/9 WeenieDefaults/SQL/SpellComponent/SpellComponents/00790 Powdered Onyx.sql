@@ -26,10 +26,10 @@ VALUES (790,   1, 'Powdered Onyx') /* Name */
      , (790,  20, 'Powdered Onyx') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (790,   1,   33555208) /* Setup */
-     , (790,   3,  536870932) /* SoundTable */
-     , (790,   6,   67111919) /* PaletteBase */
-     , (790,   7,  268435778) /* ClothingBase */
-     , (790,   8,  100668376) /* Icon */
-     , (790,  22,  872415275) /* PhysicsEffectTable */
+VALUES (790,   1, 0x02000308) /* Setup */
+     , (790,   3, 0x20000014) /* SoundTable */
+     , (790,   6, 0x04000BEF) /* PaletteBase */
+     , (790,   7, 0x10000142) /* ClothingBase */
+     , (790,   8, 0x060013D8) /* Icon */
+     , (790,  22, 0x3400002B) /* PhysicsEffectTable */
      , (790,  29,         34) /* SpellComponent */;

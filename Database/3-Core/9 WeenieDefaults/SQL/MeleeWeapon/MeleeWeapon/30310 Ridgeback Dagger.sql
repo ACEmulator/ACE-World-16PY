@@ -37,9 +37,9 @@ VALUES (30310,   1, 'Ridgeback Dagger') /* Name */
      , (30310,  16, 'Describe me here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30310,   1,   33554735) /* Setup */
-     , (30310,   3,  536870932) /* SoundTable */
-     , (30310,   6,   67111919) /* PaletteBase */
-     , (30310,   7,  268435783) /* ClothingBase */
-     , (30310,   8,  100668875) /* Icon */
-     , (30310,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30310,   1, 0x0200012F) /* Setup */
+     , (30310,   3, 0x20000014) /* SoundTable */
+     , (30310,   6, 0x04000BEF) /* PaletteBase */
+     , (30310,   7, 0x10000147) /* ClothingBase */
+     , (30310,   8, 0x060015CB) /* Icon */
+     , (30310,  22, 0x3400002B) /* PhysicsEffectTable */;

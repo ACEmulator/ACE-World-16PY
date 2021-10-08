@@ -38,10 +38,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30574,   1, 'Cinqueda') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30574,   1,   33554760) /* Setup */
-     , (30574,   3,  536870932) /* SoundTable */
-     , (30574,   6,   67111919) /* PaletteBase */
-     , (30574,   7,  268435772) /* ClothingBase */
-     , (30574,   8,  100669035) /* Icon */
-     , (30574,  22,  872415275) /* PhysicsEffectTable */
-     , (30574,  36,  234881044) /* MutateFilter */;
+VALUES (30574,   1, 0x02000148) /* Setup */
+     , (30574,   3, 0x20000014) /* SoundTable */
+     , (30574,   6, 0x04000BEF) /* PaletteBase */
+     , (30574,   7, 0x1000013C) /* ClothingBase */
+     , (30574,   8, 0x0600166B) /* Icon */
+     , (30574,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30574,  36, 0x0E000014) /* MutateFilter */;

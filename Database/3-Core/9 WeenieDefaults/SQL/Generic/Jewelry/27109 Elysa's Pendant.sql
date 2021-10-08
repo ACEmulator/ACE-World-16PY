@@ -34,13 +34,13 @@ VALUES (27109,   1, 'Elysa''s Pendant') /* Name */
      , (27109,  16, 'A necklace with a small pendant given as a reward for furnishing information on the strange findings in the Blackmire Swamp to High Queen Elysa Strathelar and her council.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27109,   1,   33554683) /* Setup */
-     , (27109,   3,  536870932) /* SoundTable */
-     , (27109,   6,   67111919) /* PaletteBase */
-     , (27109,   7,  268435832) /* ClothingBase */
-     , (27109,   8,  100675926) /* Icon */
-     , (27109,  22,  872415275) /* PhysicsEffectTable */
-     , (27109,  36,  234881046) /* MutateFilter */;
+VALUES (27109,   1, 0x020000FB) /* Setup */
+     , (27109,   3, 0x20000014) /* SoundTable */
+     , (27109,   6, 0x04000BEF) /* PaletteBase */
+     , (27109,   7, 0x10000178) /* ClothingBase */
+     , (27109,   8, 0x06003156) /* Icon */
+     , (27109,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27109,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27109,   252,      2)  /* Impregnability Other III */;

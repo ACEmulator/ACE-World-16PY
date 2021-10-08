@@ -69,14 +69,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11992,   1, 'Forest Lord') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11992,   1,   33556428) /* Setup */
-     , (11992,   2,  150995073) /* MotionTable */
-     , (11992,   3,  536870933) /* SoundTable */
-     , (11992,   4,  805306376) /* CombatTable */
-     , (11992,   6,   67112776) /* PaletteBase */
-     , (11992,   7,  268436247) /* ClothingBase */
-     , (11992,   8,  100667940) /* Icon */
-     , (11992,  22,  872415326) /* PhysicsEffectTable */
+VALUES (11992,   1, 0x020007CC) /* Setup */
+     , (11992,   2, 0x09000081) /* MotionTable */
+     , (11992,   3, 0x20000015) /* SoundTable */
+     , (11992,   4, 0x30000008) /* CombatTable */
+     , (11992,   6, 0x04000F48) /* PaletteBase */
+     , (11992,   7, 0x10000317) /* ClothingBase */
+     , (11992,   8, 0x06001224) /* Icon */
+     , (11992,  22, 0x3400005E) /* PhysicsEffectTable */
      , (11992,  35,         24) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

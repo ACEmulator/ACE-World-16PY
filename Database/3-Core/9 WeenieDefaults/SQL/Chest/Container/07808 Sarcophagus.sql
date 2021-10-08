@@ -36,11 +36,11 @@ VALUES (7808,   1, 'Sarcophagus') /* Name */
      , (7808,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7808,   1,   33554638) /* Setup */
-     , (7808,   2,  150994980) /* MotionTable */
-     , (7808,   3,  536870949) /* SoundTable */
-     , (7808,   8,  100668103) /* Icon */
-     , (7808,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7808,   1, 0x020000CE) /* Setup */
+     , (7808,   2, 0x09000024) /* MotionTable */
+     , (7808,   3, 0x20000025) /* SoundTable */
+     , (7808,   8, 0x060012C7) /* Icon */
+     , (7808,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (7808,  16, 0x00000000) /* ActivationTarget */;

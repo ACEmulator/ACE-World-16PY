@@ -22,5 +22,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8359,   1, 'Anniversary Effect') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8359,   1,   33556796) /* Setup */
-     , (8359,   8,  100667494) /* Icon */;
+VALUES (8359,   1, 0x0200093C) /* Setup */
+     , (8359,   8, 0x06001066) /* Icon */;

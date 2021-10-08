@@ -63,12 +63,12 @@ VALUES (27148,   1, 'Fist of Massacre') /* Name */
      , (27148,  15, 'This Katar looks to have been used as a weapon for close-combat. Stunning and sharp the blade looks as though it could easily pierce flesh.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27148,   1,   33558641) /* Setup */
-     , (27148,   2,  150995273) /* MotionTable */
-     , (27148,   3,  536871052) /* SoundTable */
-     , (27148,   4,  805306398) /* CombatTable */
-     , (27148,   8,  100675920) /* Icon */
-     , (27148,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (27148,   1, 0x02001071) /* Setup */
+     , (27148,   2, 0x09000149) /* MotionTable */
+     , (27148,   3, 0x2000008C) /* SoundTable */
+     , (27148,   4, 0x3000001E) /* CombatTable */
+     , (27148,   8, 0x06003150) /* Icon */
+     , (27148,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27148,   1, 380, 0, 0) /* Strength */

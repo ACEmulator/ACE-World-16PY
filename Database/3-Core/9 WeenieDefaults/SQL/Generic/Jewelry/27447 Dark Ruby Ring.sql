@@ -36,12 +36,12 @@ VALUES (27447,   1, 'Dark Ruby Ring') /* Name */
      , (27447,  33, 'RingMaelstrom') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27447,   1,   33554691) /* Setup */
-     , (27447,   3,  536870932) /* SoundTable */
-     , (27447,   6,   67111919) /* PaletteBase */
-     , (27447,   7,  268436318) /* ClothingBase */
-     , (27447,   8,  100676415) /* Icon */
-     , (27447,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27447,   1, 0x02000103) /* Setup */
+     , (27447,   3, 0x20000014) /* SoundTable */
+     , (27447,   6, 0x04000BEF) /* PaletteBase */
+     , (27447,   7, 0x1000035E) /* ClothingBase */
+     , (27447,   8, 0x0600333F) /* Icon */
+     , (27447,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27447,  2060,      2)  /* Temeritous Touch */

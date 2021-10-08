@@ -28,10 +28,10 @@ VALUES (27514,   1, 'Painbringer''s Head') /* Name */
      , (27514,  33, 'GotPainbringerHead') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27514,   1,   33556826) /* Setup */
-     , (27514,   3,  536870932) /* SoundTable */
-     , (27514,   6,   67113007) /* PaletteBase */
-     , (27514,   7,  268436059) /* ClothingBase */
-     , (27514,   8,  100676390) /* Icon */
-     , (27514,  22,  872415275) /* PhysicsEffectTable */
-     , (27514,  36,  234881046) /* MutateFilter */;
+VALUES (27514,   1, 0x0200095A) /* Setup */
+     , (27514,   3, 0x20000014) /* SoundTable */
+     , (27514,   6, 0x0400102F) /* PaletteBase */
+     , (27514,   7, 0x1000025B) /* ClothingBase */
+     , (27514,   8, 0x06003326) /* Icon */
+     , (27514,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27514,  36, 0x0E000016) /* MutateFilter */;

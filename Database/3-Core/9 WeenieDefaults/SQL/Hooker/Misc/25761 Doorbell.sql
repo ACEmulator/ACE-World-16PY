@@ -28,9 +28,9 @@ VALUES (25761,   1, 'Doorbell') /* Name */
      , (25761,  16, 'A useful device to notify you of visitors at your door.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25761,   1,   33554714) /* Setup */
-     , (25761,   3,  536871075) /* SoundTable */
-     , (25761,   8,  100675562) /* Icon */;
+VALUES (25761,   1, 0x0200011A) /* Setup */
+     , (25761,   3, 0x200000A3) /* SoundTable */
+     , (25761,   8, 0x06002FEA) /* Icon */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (25761,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

@@ -24,7 +24,7 @@ VALUES (20348,   1, 'Scroll of Evaporate Item Magic') /* Name */
      , (20348,  15, 'When learned, this spell dispels 1-3 positive Item Magic enchantments of level 1 from the caster.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20348,   1,   33554826) /* Setup */
-     , (20348,   8,  100676659) /* Icon */
-     , (20348,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20348,   1, 0x0200018A) /* Setup */
+     , (20348,   8, 0x06003433) /* Icon */
+     , (20348,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20348,  28,       1923) /* Spell - Evaporate Item Magic */;

@@ -32,7 +32,7 @@ VALUES (7881,   1, 'Drudge Gut Sausage') /* Name */
      , (7881,  20, 'Drudge Gut Sausages') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7881,   1,   33556682) /* Setup */
-     , (7881,   3,  536870932) /* SoundTable */
-     , (7881,   8,  100670872) /* Icon */
-     , (7881,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7881,   1, 0x020008CA) /* Setup */
+     , (7881,   3, 0x20000014) /* SoundTable */
+     , (7881,   8, 0x06001D98) /* Icon */
+     , (7881,  22, 0x3400002B) /* PhysicsEffectTable */;

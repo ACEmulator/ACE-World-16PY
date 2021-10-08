@@ -33,10 +33,10 @@ VALUES (21036,   1, 'Salvaged Amethyst') /* Name */
      , (21036,  15, 'Chips of amethyst material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21036,   1,   33554817) /* Setup */
-     , (21036,   3,  536870932) /* SoundTable */
-     , (21036,   6,   67111919) /* PaletteBase */
-     , (21036,   7,  268436430) /* ClothingBase */
-     , (21036,   8,  100667436) /* Icon */
-     , (21036,  22,  872415275) /* PhysicsEffectTable */
-     , (21036,  50,  100673261) /* IconOverlay */;
+VALUES (21036,   1, 0x02000181) /* Setup */
+     , (21036,   3, 0x20000014) /* SoundTable */
+     , (21036,   6, 0x04000BEF) /* PaletteBase */
+     , (21036,   7, 0x100003CE) /* ClothingBase */
+     , (21036,   8, 0x0600102C) /* Icon */
+     , (21036,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (21036,  50, 0x060026ED) /* IconOverlay */;

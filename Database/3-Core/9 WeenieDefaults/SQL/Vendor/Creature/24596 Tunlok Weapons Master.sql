@@ -71,13 +71,13 @@ VALUES (24596,   1, 'Tunlok Weapons Master') /* Name */
      , (24596,  24, 'Candeth Keep') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24596,   1,   33557003) /* Setup */
-     , (24596,   2,  150994950) /* MotionTable */
-     , (24596,   3,  536870922) /* SoundTable */
-     , (24596,   4,  805306371) /* CombatTable */
-     , (24596,   6,   67113158) /* PaletteBase */
-     , (24596,   7,  268436174) /* ClothingBase */
-     , (24596,   8,  100667447) /* Icon */;
+VALUES (24596,   1, 0x02000A0B) /* Setup */
+     , (24596,   2, 0x09000006) /* MotionTable */
+     , (24596,   3, 0x2000000A) /* SoundTable */
+     , (24596,   4, 0x30000003) /* CombatTable */
+     , (24596,   6, 0x040010C6) /* PaletteBase */
+     , (24596,   7, 0x100002CE) /* ClothingBase */
+     , (24596,   8, 0x06001037) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24596,   1, 259, 0, 0) /* Strength */

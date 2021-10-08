@@ -28,10 +28,10 @@ VALUES (26632,   1, 'Serpentine') /* Name */
      , (26632,  33, 'TempleSacredStone') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26632,   1,   33554809) /* Setup */
-     , (26632,   3,  536870932) /* SoundTable */
-     , (26632,   6,   67111919) /* PaletteBase */
-     , (26632,   7,  268435723) /* ClothingBase */
-     , (26632,   8,  100674741) /* Icon */
-     , (26632,  22,  872415275) /* PhysicsEffectTable */
-     , (26632,  36,  234881046) /* MutateFilter */;
+VALUES (26632,   1, 0x02000179) /* Setup */
+     , (26632,   3, 0x20000014) /* SoundTable */
+     , (26632,   6, 0x04000BEF) /* PaletteBase */
+     , (26632,   7, 0x1000010B) /* ClothingBase */
+     , (26632,   8, 0x06002CB5) /* Icon */
+     , (26632,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (26632,  36, 0x0E000016) /* MutateFilter */;

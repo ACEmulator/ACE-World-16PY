@@ -32,8 +32,8 @@ VALUES (12706,   1, 'Academy Quartermaster''s Workshop') /* Name */
      , (12706,  14, 'Use the Academy Quartermaster''s Key on this door to open it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12706,   1,   33555023) /* Setup */
-     , (12706,   2,  150994966) /* MotionTable */
-     , (12706,   3,  536870946) /* SoundTable */
-     , (12706,   8,  100668183) /* Icon */
-     , (12706,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12706,   1, 0x0200024F) /* Setup */
+     , (12706,   2, 0x09000016) /* MotionTable */
+     , (12706,   3, 0x20000022) /* SoundTable */
+     , (12706,   8, 0x06001317) /* Icon */
+     , (12706,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -28,9 +28,9 @@ VALUES (5324,   1, 'Lightning Infusion') /* Name */
      , (5324,  20, 'Lightning Infusions') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5324,   1,   33555965) /* Setup */
-     , (5324,   3,  536870932) /* SoundTable */
-     , (5324,   6,   67111919) /* PaletteBase */
-     , (5324,   7,  268435814) /* ClothingBase */
-     , (5324,   8,  100669998) /* Icon */
-     , (5324,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5324,   1, 0x020005FD) /* Setup */
+     , (5324,   3, 0x20000014) /* SoundTable */
+     , (5324,   6, 0x04000BEF) /* PaletteBase */
+     , (5324,   7, 0x10000166) /* ClothingBase */
+     , (5324,   8, 0x06001A2E) /* Icon */
+     , (5324,  22, 0x3400002B) /* PhysicsEffectTable */;

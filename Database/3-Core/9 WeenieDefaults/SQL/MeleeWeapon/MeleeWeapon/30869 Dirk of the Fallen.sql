@@ -45,10 +45,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30869,   1, 'Dirk of the Fallen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30869,   1,   33559276) /* Setup */
-     , (30869,   3,  536870932) /* SoundTable */
-     , (30869,   8,  100677506) /* Icon */
-     , (30869,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30869,   1, 0x020012EC) /* Setup */
+     , (30869,   3, 0x20000014) /* SoundTable */
+     , (30869,   8, 0x06003782) /* Icon */
+     , (30869,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30869,  2689,      2)  /* Moderate Finesse Weapon Aptitude */

@@ -45,12 +45,12 @@ VALUES (12024,   1, 'Diamond Shield') /* Name */
      , (12024,  16, 'A shield made of diamond.  It is incredibly resilient, and seems to be nigh unbreakable.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12024,   1,   33557043) /* Setup */
-     , (12024,   3,  536870932) /* SoundTable */
-     , (12024,   6,   67111919) /* PaletteBase */
-     , (12024,   7,  268436256) /* ClothingBase */
-     , (12024,   8,  100672103) /* Icon */
-     , (12024,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12024,   1, 0x02000A33) /* Setup */
+     , (12024,   3, 0x20000014) /* SoundTable */
+     , (12024,   6, 0x04000BEF) /* PaletteBase */
+     , (12024,   7, 0x10000320) /* ClothingBase */
+     , (12024,   8, 0x06002267) /* Icon */
+     , (12024,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12024,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

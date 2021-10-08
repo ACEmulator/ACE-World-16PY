@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25285,   1, 'Gotrok Extas') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25285,   1,   33557003) /* Setup */
-     , (25285,   2,  150994950) /* MotionTable */
-     , (25285,   3,  536870922) /* SoundTable */
-     , (25285,   4,  805306371) /* CombatTable */
-     , (25285,   6,   67113158) /* PaletteBase */
-     , (25285,   7,  268436157) /* ClothingBase */
-     , (25285,   8,  100667447) /* Icon */
-     , (25285,  22,  872415262) /* PhysicsEffectTable */
+VALUES (25285,   1, 0x02000A0B) /* Setup */
+     , (25285,   2, 0x09000006) /* MotionTable */
+     , (25285,   3, 0x2000000A) /* SoundTable */
+     , (25285,   4, 0x30000003) /* CombatTable */
+     , (25285,   6, 0x040010C6) /* PaletteBase */
+     , (25285,   7, 0x100002BD) /* ClothingBase */
+     , (25285,   8, 0x06001037) /* Icon */
+     , (25285,  22, 0x3400001E) /* PhysicsEffectTable */
      , (25285,  32,        321) /* WieldedTreasureType - 
                                    Wield Rock (23745) | Probability: 100%
                                    Wield Lugian Axe (23739) | Probability: 50%

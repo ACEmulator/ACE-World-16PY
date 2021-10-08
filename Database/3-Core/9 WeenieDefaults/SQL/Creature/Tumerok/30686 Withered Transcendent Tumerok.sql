@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30686,   1, 'Withered Transcendent Tumerok') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30686,   1,   33559217) /* Setup */
-     , (30686,   2,  150994954) /* MotionTable */
-     , (30686,   3,  536870931) /* SoundTable */
-     , (30686,   4,  805306380) /* CombatTable */
-     , (30686,   6,   67109314) /* PaletteBase */
-     , (30686,   7,  268436899) /* ClothingBase */
-     , (30686,   8,  100667452) /* Icon */
-     , (30686,  22,  872415270) /* PhysicsEffectTable */
+VALUES (30686,   1, 0x020012B1) /* Setup */
+     , (30686,   2, 0x0900000A) /* MotionTable */
+     , (30686,   3, 0x20000013) /* SoundTable */
+     , (30686,   4, 0x3000000C) /* CombatTable */
+     , (30686,   6, 0x040001C2) /* PaletteBase */
+     , (30686,   7, 0x100005A3) /* ClothingBase */
+     , (30686,   8, 0x0600103C) /* Icon */
+     , (30686,  22, 0x34000026) /* PhysicsEffectTable */
      , (30686,  32,        490) /* WieldedTreasureType - 
                                    Wield Tachi (23136) | Probability: 30.000002%
                                    Wield Yumi (23137) | Probability: 30.000002%

@@ -22,5 +22,5 @@ VALUES (12666,   1, 'Tiofor Deeps') /* Name */
      , (12666,  16, 'Welcome to Tiofor Deeps') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12666,   1,   33557463) /* Setup */
-     , (12666,   8,  100668115) /* Icon */;
+VALUES (12666,   1, 0x02000BD7) /* Setup */
+     , (12666,   8, 0x060012D3) /* Icon */;

@@ -38,10 +38,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3871,   1, 'Flaming Simi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3871,   1,   33555777) /* Setup */
-     , (3871,   3,  536870932) /* SoundTable */
-     , (3871,   6,   67111919) /* PaletteBase */
-     , (3871,   7,  268435766) /* ClothingBase */
-     , (3871,   8,  100668164) /* Icon */
-     , (3871,  22,  872415275) /* PhysicsEffectTable */
-     , (3871,  36,  234881044) /* MutateFilter */;
+VALUES (3871,   1, 0x02000541) /* Setup */
+     , (3871,   3, 0x20000014) /* SoundTable */
+     , (3871,   6, 0x04000BEF) /* PaletteBase */
+     , (3871,   7, 0x10000136) /* ClothingBase */
+     , (3871,   8, 0x06001304) /* Icon */
+     , (3871,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3871,  36, 0x0E000014) /* MutateFilter */;

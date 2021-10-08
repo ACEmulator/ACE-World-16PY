@@ -41,12 +41,12 @@ VALUES (12269,   1, 'Shroud of Levistras') /* Name */
      , (12269,  16, 'The wrappings of the Virindi Director Levistras.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12269,   1,   33554854) /* Setup */
-     , (12269,   3,  536870932) /* SoundTable */
-     , (12269,   6,   67108990) /* PaletteBase */
-     , (12269,   7,  268436277) /* ClothingBase */
-     , (12269,   8,  100672193) /* Icon */
-     , (12269,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12269,   1, 0x020001A6) /* Setup */
+     , (12269,   3, 0x20000014) /* SoundTable */
+     , (12269,   6, 0x0400007E) /* PaletteBase */
+     , (12269,   7, 0x10000335) /* ClothingBase */
+     , (12269,   8, 0x060022C1) /* Icon */
+     , (12269,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12269,  1485,      2)  /* Impenetrability V */

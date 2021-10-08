@@ -26,7 +26,7 @@ VALUES (5167,   1, 'Encrusted Key') /* Name */
      , (5167,  16, 'A dull gray key from the Sea Temple Catacombs near Yaraq.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5167,   1,   33554784) /* Setup */
-     , (5167,   3,  536870932) /* SoundTable */
-     , (5167,   8,  100667485) /* Icon */
-     , (5167,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5167,   1, 0x02000160) /* Setup */
+     , (5167,   3, 0x20000014) /* SoundTable */
+     , (5167,   8, 0x0600105D) /* Icon */
+     , (5167,  22, 0x3400002B) /* PhysicsEffectTable */;

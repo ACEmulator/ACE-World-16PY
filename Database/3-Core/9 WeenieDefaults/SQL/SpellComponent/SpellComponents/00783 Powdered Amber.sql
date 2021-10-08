@@ -26,10 +26,10 @@ VALUES (783,   1, 'Powdered Amber') /* Name */
      , (783,  20, 'Powdered Ambers') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (783,   1,   33555208) /* Setup */
-     , (783,   3,  536870932) /* SoundTable */
-     , (783,   6,   67111919) /* PaletteBase */
-     , (783,   7,  268435778) /* ClothingBase */
-     , (783,   8,  100668383) /* Icon */
-     , (783,  22,  872415275) /* PhysicsEffectTable */
+VALUES (783,   1, 0x02000308) /* Setup */
+     , (783,   3, 0x20000014) /* SoundTable */
+     , (783,   6, 0x04000BEF) /* PaletteBase */
+     , (783,   7, 0x10000142) /* ClothingBase */
+     , (783,   8, 0x060013DF) /* Icon */
+     , (783,  22, 0x3400002B) /* PhysicsEffectTable */
      , (783,  29,         26) /* SpellComponent */;

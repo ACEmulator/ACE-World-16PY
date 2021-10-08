@@ -23,5 +23,5 @@ VALUES (11930,   1, 'Arcane Pedestal') /* Name */
      , (11930,  15, 'This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11930,   1,   33557166) /* Setup */
-     , (11930,   8,  100671779) /* Icon */;
+VALUES (11930,   1, 0x02000AAE) /* Setup */
+     , (11930,   8, 0x06002123) /* Icon */;

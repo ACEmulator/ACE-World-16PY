@@ -25,7 +25,7 @@ VALUES (1697,   1, 'Scroll of Faithlessness') /* Name */
      , (1697,  16, 'When learned, this spell decreases the target''s Loyalty skill by 9%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1697,   1,   33554826) /* Setup */
-     , (1697,   8,  100676446) /* Icon */
-     , (1697,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1697,   1, 0x0200018A) /* Setup */
+     , (1697,   8, 0x0600335E) /* Icon */
+     , (1697,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1697,  28,        964) /* Spell - Faithlessness Other I */;

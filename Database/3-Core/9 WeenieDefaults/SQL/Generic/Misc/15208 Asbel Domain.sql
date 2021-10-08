@@ -22,5 +22,5 @@ VALUES (15208,   1, 'Asbel Domain') /* Name */
      , (15208,  16, 'Welcome to Asbel Domain') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15208,   1,   33557463) /* Setup */
-     , (15208,   8,  100668115) /* Icon */;
+VALUES (15208,   1, 0x02000BD7) /* Setup */
+     , (15208,   8, 0x060012D3) /* Icon */;

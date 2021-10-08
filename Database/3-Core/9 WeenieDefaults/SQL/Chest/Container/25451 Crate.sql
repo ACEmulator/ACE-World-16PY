@@ -36,11 +36,11 @@ VALUES (25451,   1, 'Crate') /* Name */
      , (25451,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25451,   1,   33558433) /* Setup */
-     , (25451,   2,  150995247) /* MotionTable */
-     , (25451,   3,  536870945) /* SoundTable */
-     , (25451,   8,  100674799) /* Icon */
-     , (25451,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25451,   1, 0x02000FA1) /* Setup */
+     , (25451,   2, 0x0900012F) /* MotionTable */
+     , (25451,   3, 0x20000021) /* SoundTable */
+     , (25451,   8, 0x06002CEF) /* Icon */
+     , (25451,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (25451, -1, 25467, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Whispering Venom crystal (25467) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

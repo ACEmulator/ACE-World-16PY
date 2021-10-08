@@ -63,12 +63,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24303,   1, 'Olthoi Swarm Matron') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24303,   1,   33557165) /* Setup */
-     , (24303,   2,  150995135) /* MotionTable */
-     , (24303,   3,  536871037) /* SoundTable */
-     , (24303,   4,  805306419) /* CombatTable */
-     , (24303,   8,  100667623) /* Icon */
-     , (24303,  22,  872415379) /* PhysicsEffectTable */
+VALUES (24303,   1, 0x02000AAD) /* Setup */
+     , (24303,   2, 0x090000BF) /* MotionTable */
+     , (24303,   3, 0x2000007D) /* SoundTable */
+     , (24303,   4, 0x30000033) /* CombatTable */
+     , (24303,   8, 0x060010E7) /* Icon */
+     , (24303,  22, 0x34000093) /* PhysicsEffectTable */
      , (24303,  30,         86) /* PhysicsScript - BreatheAcid */
      , (24303,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 

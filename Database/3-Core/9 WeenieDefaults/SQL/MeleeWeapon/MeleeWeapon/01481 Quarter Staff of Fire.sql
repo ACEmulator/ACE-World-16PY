@@ -43,10 +43,10 @@ VALUES (1481,   1, 'Quarter Staff of Fire') /* Name */
      , (1481,  16, 'A flaming staff wrestled from the grasp of a treacherous banderling bandit.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1481,   1,   33558066) /* Setup */
-     , (1481,   7,  268436486) /* ClothingBase */
-     , (1481,   8,  100667602) /* Icon */
-     , (1481,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1481,   1, 0x02000E32) /* Setup */
+     , (1481,   7, 0x10000406) /* ClothingBase */
+     , (1481,   8, 0x060010D2) /* Icon */
+     , (1481,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1481,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

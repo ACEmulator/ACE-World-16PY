@@ -23,9 +23,9 @@ VALUES (27660,   1, 'Refined Chorizite Chunk') /* Name */
      , (27660,  16, 'This large chunk of refined chorizite has already been treated for use. It looks as though you can grind this into usable ground chorizite.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27660,   1,   33554817) /* Setup */
-     , (27660,   3,  536870932) /* SoundTable */
-     , (27660,   6,   67111919) /* PaletteBase */
-     , (27660,   7,  268435832) /* ClothingBase */
-     , (27660,   8,  100676520) /* Icon */
-     , (27660,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27660,   1, 0x02000181) /* Setup */
+     , (27660,   3, 0x20000014) /* SoundTable */
+     , (27660,   6, 0x04000BEF) /* PaletteBase */
+     , (27660,   7, 0x10000178) /* ClothingBase */
+     , (27660,   8, 0x060033A8) /* Icon */
+     , (27660,  22, 0x3400002B) /* PhysicsEffectTable */;

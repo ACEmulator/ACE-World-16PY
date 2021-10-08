@@ -22,5 +22,5 @@ VALUES (1351,   1, 'Sign') /* Name */
      , (1351,  16, 'Warning! One-Way Travel!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1351,   1,   33555088) /* Setup */
-     , (1351,   8,  100668115) /* Icon */;
+VALUES (1351,   1, 0x02000290) /* Setup */
+     , (1351,   8, 0x060012D3) /* Icon */;

@@ -25,7 +25,7 @@ VALUES (2869,   1, 'Scroll of Piercing Bane IV') /* Name */
      , (2869,  16, 'When learned, this spell increases a shield or piece of armor''s resistance to piercing damage by 75%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2869,   1,   33554826) /* Setup */
-     , (2869,   8,  100676654) /* Icon */
-     , (2869,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2869,   1, 0x0200018A) /* Setup */
+     , (2869,   8, 0x0600342E) /* Icon */
+     , (2869,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2869,  28,       1572) /* Spell - Piercing Bane IV */;

@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22050,   1, 'Lord Cambarth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22050,   1,   33555464) /* Setup */
-     , (22050,   2,  150994981) /* MotionTable */
-     , (22050,   3,  536870942) /* SoundTable */
-     , (22050,   4,  805306368) /* CombatTable */
-     , (22050,   6,   67111266) /* PaletteBase */
-     , (22050,   7,  268435646) /* ClothingBase */
-     , (22050,   8,  100669124) /* Icon */
-     , (22050,  22,  872415269) /* PhysicsEffectTable */
+VALUES (22050,   1, 0x02000408) /* Setup */
+     , (22050,   2, 0x09000025) /* MotionTable */
+     , (22050,   3, 0x2000001E) /* SoundTable */
+     , (22050,   4, 0x30000000) /* CombatTable */
+     , (22050,   6, 0x04000962) /* PaletteBase */
+     , (22050,   7, 0x100000BE) /* ClothingBase */
+     , (22050,   8, 0x060016C4) /* Icon */
+     , (22050,  22, 0x34000025) /* PhysicsEffectTable */
      , (22050,  32,        289) /* WieldedTreasureType - 
                                    Wield Yumi (23736) | Probability: 50%
                                    Wield 16x Greater Fire Arrow (5305) | Probability: 100%

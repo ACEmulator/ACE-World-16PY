@@ -27,10 +27,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2414,   1, 'Azurite') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2414,   1,   33554809) /* Setup */
-     , (2414,   3,  536870932) /* SoundTable */
-     , (2414,   6,   67111919) /* PaletteBase */
-     , (2414,   7,  268435723) /* ClothingBase */
-     , (2414,   8,  100674737) /* Icon */
-     , (2414,  22,  872415275) /* PhysicsEffectTable */
-     , (2414,  36,  234881046) /* MutateFilter */;
+VALUES (2414,   1, 0x02000179) /* Setup */
+     , (2414,   3, 0x20000014) /* SoundTable */
+     , (2414,   6, 0x04000BEF) /* PaletteBase */
+     , (2414,   7, 0x1000010B) /* ClothingBase */
+     , (2414,   8, 0x06002CB1) /* Icon */
+     , (2414,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (2414,  36, 0x0E000016) /* MutateFilter */;

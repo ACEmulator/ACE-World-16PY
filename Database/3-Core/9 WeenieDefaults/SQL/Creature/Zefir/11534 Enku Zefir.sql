@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11534,   1, 'Enku Zefir') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11534,   1,   33555610) /* Setup */
-     , (11534,   2,  150995049) /* MotionTable */
-     , (11534,   3,  536870975) /* SoundTable */
-     , (11534,   4,  805306396) /* CombatTable */
-     , (11534,   6,   67109305) /* PaletteBase */
-     , (11534,   7,  268435811) /* ClothingBase */
-     , (11534,   8,  100669123) /* Icon */
-     , (11534,  22,  872415279) /* PhysicsEffectTable */
+VALUES (11534,   1, 0x0200049A) /* Setup */
+     , (11534,   2, 0x09000069) /* MotionTable */
+     , (11534,   3, 0x2000003F) /* SoundTable */
+     , (11534,   4, 0x3000001C) /* CombatTable */
+     , (11534,   6, 0x040001B9) /* PaletteBase */
+     , (11534,   7, 0x10000163) /* ClothingBase */
+     , (11534,   8, 0x060016C3) /* Icon */
+     , (11534,  22, 0x3400002F) /* PhysicsEffectTable */
      , (11534,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

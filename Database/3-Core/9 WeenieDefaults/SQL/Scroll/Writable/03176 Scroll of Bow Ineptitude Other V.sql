@@ -25,7 +25,7 @@ VALUES (3176,   1, 'Scroll of Bow Ineptitude Other V') /* Name */
      , (3176,  16, 'When learned, this spell decreases the target''s Bow skill by 50%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3176,   1,   33554826) /* Setup */
-     , (3176,   8,  100676450) /* Icon */
-     , (3176,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3176,   1, 0x0200018A) /* Setup */
+     , (3176,   8, 0x06003362) /* Icon */
+     , (3176,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3176,  28,        477) /* Spell - Missile Weapon Ineptitude Other V */;

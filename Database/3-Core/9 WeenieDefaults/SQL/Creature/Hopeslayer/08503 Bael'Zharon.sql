@@ -69,14 +69,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8503,   1, 'Bael''Zharon') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8503,   1,   33556894) /* Setup */
-     , (8503,   2,  150995108) /* MotionTable */
-     , (8503,   3,  536870942) /* SoundTable */
-     , (8503,   4,  805306415) /* CombatTable */
-     , (8503,   6,   67113073) /* PaletteBase */
-     , (8503,   7,  268436090) /* ClothingBase */
-     , (8503,   8,  100669122) /* Icon */
-     , (8503,  22,  872415272) /* PhysicsEffectTable */;
+VALUES (8503,   1, 0x0200099E) /* Setup */
+     , (8503,   2, 0x090000A4) /* MotionTable */
+     , (8503,   3, 0x2000001E) /* SoundTable */
+     , (8503,   4, 0x3000002F) /* CombatTable */
+     , (8503,   6, 0x04001071) /* PaletteBase */
+     , (8503,   7, 0x1000027A) /* ClothingBase */
+     , (8503,   8, 0x060016C2) /* Icon */
+     , (8503,  22, 0x34000028) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8503,   1, 1300, 0, 0) /* Strength */

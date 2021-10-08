@@ -64,14 +64,14 @@ VALUES (24858,   1, 'Issk') /* Name */
      , (24858,   5, 'Chomu Priest') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24858,   1,   33555608) /* Setup */
-     , (24858,   2,  150995048) /* MotionTable */
-     , (24858,   3,  536870977) /* SoundTable */
-     , (24858,   4,  805306393) /* CombatTable */
-     , (24858,   6,   67111936) /* PaletteBase */
-     , (24858,   7,  268435727) /* ClothingBase */
-     , (24858,   8,  100669120) /* Icon */
-     , (24858,  22,  872415280) /* PhysicsEffectTable */;
+VALUES (24858,   1, 0x02000498) /* Setup */
+     , (24858,   2, 0x09000068) /* MotionTable */
+     , (24858,   3, 0x20000041) /* SoundTable */
+     , (24858,   4, 0x30000019) /* CombatTable */
+     , (24858,   6, 0x04000C00) /* PaletteBase */
+     , (24858,   7, 0x1000010F) /* ClothingBase */
+     , (24858,   8, 0x060016C0) /* Icon */
+     , (24858,  22, 0x34000030) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24858,   1, 300, 0, 0) /* Strength */

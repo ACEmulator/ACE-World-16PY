@@ -23,7 +23,7 @@ VALUES (6867,   1, 'The Old Campaigner''s Bows') /* Name */
      , (6867,  16, 'The Old Campaigner''s Bows') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6867,   1,   33555909) /* Setup */
-     , (6867,   6,   67111860) /* PaletteBase */
-     , (6867,   7,  268435819) /* ClothingBase */
-     , (6867,   8,  100668115) /* Icon */;
+VALUES (6867,   1, 0x020005C5) /* Setup */
+     , (6867,   6, 0x04000BB4) /* PaletteBase */
+     , (6867,   7, 0x1000016B) /* ClothingBase */
+     , (6867,   8, 0x060012D3) /* Icon */;

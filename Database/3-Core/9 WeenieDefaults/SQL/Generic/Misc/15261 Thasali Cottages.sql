@@ -22,5 +22,5 @@ VALUES (15261,   1, 'Thasali Cottages') /* Name */
      , (15261,  16, 'Welcome to Thasali Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15261,   1,   33557463) /* Setup */
-     , (15261,   8,  100668115) /* Icon */;
+VALUES (15261,   1, 0x02000BD7) /* Setup */
+     , (15261,   8, 0x060012D3) /* Icon */;

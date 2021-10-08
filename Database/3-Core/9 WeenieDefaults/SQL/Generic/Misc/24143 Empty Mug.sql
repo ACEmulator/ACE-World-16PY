@@ -27,7 +27,7 @@ VALUES (24143,   1, 'Empty Mug') /* Name */
      , (24143,  33, 'MugOswaldTaken') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24143,   1,   33554665) /* Setup */
-     , (24143,   3,  536870932) /* SoundTable */
-     , (24143,   8,  100667432) /* Icon */
-     , (24143,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24143,   1, 0x020000E9) /* Setup */
+     , (24143,   3, 0x20000014) /* SoundTable */
+     , (24143,   8, 0x06001028) /* Icon */
+     , (24143,  22, 0x3400002B) /* PhysicsEffectTable */;

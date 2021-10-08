@@ -41,7 +41,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5561,   1, 'Frost Throwing Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5561,   1,   33555718) /* Setup */
-     , (5561,   3,  536870932) /* SoundTable */
-     , (5561,   8,  100667590) /* Icon */
-     , (5561,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5561,   1, 0x02000506) /* Setup */
+     , (5561,   3, 0x20000014) /* SoundTable */
+     , (5561,   8, 0x060010C6) /* Icon */
+     , (5561,  22, 0x3400002B) /* PhysicsEffectTable */;

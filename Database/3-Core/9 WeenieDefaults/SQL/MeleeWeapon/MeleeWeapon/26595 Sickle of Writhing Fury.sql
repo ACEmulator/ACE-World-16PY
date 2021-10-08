@@ -45,12 +45,12 @@ VALUES (26595,   1, 'Sickle of Writhing Fury') /* Name */
      , (26595,  15, 'A sickle once used for bloodletting in Falatacot rites.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26595,   1,   33558593) /* Setup */
-     , (26595,   3,  536870932) /* SoundTable */
-     , (26595,   6,   67114956) /* PaletteBase */
-     , (26595,   7,  268436792) /* ClothingBase */
-     , (26595,   8,  100675777) /* Icon */
-     , (26595,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26595,   1, 0x02001041) /* Setup */
+     , (26595,   3, 0x20000014) /* SoundTable */
+     , (26595,   6, 0x040017CC) /* PaletteBase */
+     , (26595,   7, 0x10000538) /* ClothingBase */
+     , (26595,   8, 0x060030C1) /* Icon */
+     , (26595,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26595,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

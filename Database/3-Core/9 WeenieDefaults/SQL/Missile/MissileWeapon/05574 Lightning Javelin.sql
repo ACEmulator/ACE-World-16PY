@@ -41,7 +41,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5574,   1, 'Lightning Javelin') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5574,   1,   33555723) /* Setup */
-     , (5574,   3,  536870932) /* SoundTable */
-     , (5574,   8,  100667593) /* Icon */
-     , (5574,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5574,   1, 0x0200050B) /* Setup */
+     , (5574,   3, 0x20000014) /* SoundTable */
+     , (5574,   8, 0x060010C9) /* Icon */
+     , (5574,  22, 0x3400002B) /* PhysicsEffectTable */;

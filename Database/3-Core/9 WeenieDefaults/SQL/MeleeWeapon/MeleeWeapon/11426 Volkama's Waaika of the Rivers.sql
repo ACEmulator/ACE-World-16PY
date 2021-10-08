@@ -52,13 +52,13 @@ VALUES (11426,   1, 'Volkama''s Waaika of the Rivers') /* Name */
      , (11426,  16, 'A waaika fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11426,   1,   33557235) /* Setup */
-     , (11426,   3,  536870932) /* SoundTable */
-     , (11426,   6,   67113336) /* PaletteBase */
-     , (11426,   7,  268436254) /* ClothingBase */
-     , (11426,   8,  100672086) /* Icon */
-     , (11426,  22,  872415275) /* PhysicsEffectTable */
-     , (11426,  36,  234881044) /* MutateFilter */;
+VALUES (11426,   1, 0x02000AF3) /* Setup */
+     , (11426,   3, 0x20000014) /* SoundTable */
+     , (11426,   6, 0x04001178) /* PaletteBase */
+     , (11426,   7, 0x1000031E) /* ClothingBase */
+     , (11426,   8, 0x06002256) /* Icon */
+     , (11426,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11426,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11426,  2461,      2)  /* Greater Cascade */

@@ -24,7 +24,7 @@ VALUES (20407,   1, 'Scroll of Pacification') /* Name */
      , (20407,  15, 'When learned, this spell decreases a weapon''s damage value by 22 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20407,   1,   33554826) /* Setup */
-     , (20407,   8,  100676656) /* Icon */
-     , (20407,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20407,   1, 0x0200018A) /* Setup */
+     , (20407,   8, 0x06003430) /* Icon */
+     , (20407,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20407,  28,       2097) /* Spell - Pacification */;

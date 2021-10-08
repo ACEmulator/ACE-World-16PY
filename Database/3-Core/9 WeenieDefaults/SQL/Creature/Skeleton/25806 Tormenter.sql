@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25806,   1, 'Tormenter') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25806,   1,   33555464) /* Setup */
-     , (25806,   2,  150994981) /* MotionTable */
-     , (25806,   3,  536870942) /* SoundTable */
-     , (25806,   4,  805306368) /* CombatTable */
-     , (25806,   6,   67111266) /* PaletteBase */
-     , (25806,   7,  268436625) /* ClothingBase */
-     , (25806,   8,  100669124) /* Icon */
-     , (25806,  22,  872415269) /* PhysicsEffectTable */
+VALUES (25806,   1, 0x02000408) /* Setup */
+     , (25806,   2, 0x09000025) /* MotionTable */
+     , (25806,   3, 0x2000001E) /* SoundTable */
+     , (25806,   4, 0x30000000) /* CombatTable */
+     , (25806,   6, 0x04000962) /* PaletteBase */
+     , (25806,   7, 0x10000491) /* ClothingBase */
+     , (25806,   8, 0x060016C4) /* Icon */
+     , (25806,  22, 0x34000025) /* PhysicsEffectTable */
      , (25806,  32,        426) /* WieldedTreasureType - 
                                    Wield Tachi (23136) | Probability: 30.000002%
                                    Wield Kite Shield (23135) | Probability: 100%

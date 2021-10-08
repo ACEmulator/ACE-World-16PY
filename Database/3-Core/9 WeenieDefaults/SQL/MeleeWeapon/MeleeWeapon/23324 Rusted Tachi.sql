@@ -39,9 +39,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23324,   1, 'Rusted Tachi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23324,   1,   33554742) /* Setup */
-     , (23324,   3,  536870932) /* SoundTable */
-     , (23324,   6,   67111919) /* PaletteBase */
-     , (23324,   7,  268435788) /* ClothingBase */
-     , (23324,   8,  100674228) /* Icon */
-     , (23324,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23324,   1, 0x02000136) /* Setup */
+     , (23324,   3, 0x20000014) /* SoundTable */
+     , (23324,   6, 0x04000BEF) /* PaletteBase */
+     , (23324,   7, 0x1000014C) /* ClothingBase */
+     , (23324,   8, 0x06002AB4) /* Icon */
+     , (23324,  22, 0x3400002B) /* PhysicsEffectTable */;

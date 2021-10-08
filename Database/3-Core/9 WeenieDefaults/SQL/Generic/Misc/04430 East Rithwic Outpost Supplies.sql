@@ -22,7 +22,7 @@ VALUES (4430,   1, 'East Rithwic Outpost Supplies') /* Name */
      , (4430,  16, 'East Rithwic Outpost Supplies') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4430,   1,   33555088) /* Setup */
-     , (4430,   6,   67111092) /* PaletteBase */
-     , (4430,   7,  268435656) /* ClothingBase */
-     , (4430,   8,  100668115) /* Icon */;
+VALUES (4430,   1, 0x02000290) /* Setup */
+     , (4430,   6, 0x040008B4) /* PaletteBase */
+     , (4430,   7, 0x100000C8) /* ClothingBase */
+     , (4430,   8, 0x060012D3) /* Icon */;

@@ -70,11 +70,11 @@ VALUES (4678,   1, 'Itir ibn Ativ the Barkeep') /* Name */
      , (4678,  24, 'Al-Arqas') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4678,   1,   33554510) /* Setup */
-     , (4678,   2,  150994945) /* MotionTable */
-     , (4678,   3,  536870914) /* SoundTable */
-     , (4678,   4,  805306368) /* CombatTable */
-     , (4678,   8,  100667446) /* Icon */;
+VALUES (4678,   1, 0x0200004E) /* Setup */
+     , (4678,   2, 0x09000001) /* MotionTable */
+     , (4678,   3, 0x20000002) /* SoundTable */
+     , (4678,   4, 0x30000000) /* CombatTable */
+     , (4678,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4678,   1,  80, 0, 0) /* Strength */

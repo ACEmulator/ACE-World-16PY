@@ -64,11 +64,11 @@ VALUES (11809,   1, 'Lieutenant Kenneth') /* Name */
      , (11809,   5, 'Quartermaster') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11809,   1,   33554433) /* Setup */
-     , (11809,   2,  150994945) /* MotionTable */
-     , (11809,   3,  536870913) /* SoundTable */
-     , (11809,   4,  805306368) /* CombatTable */
-     , (11809,   8,  100667446) /* Icon */;
+VALUES (11809,   1, 0x02000001) /* Setup */
+     , (11809,   2, 0x09000001) /* MotionTable */
+     , (11809,   3, 0x20000001) /* SoundTable */
+     , (11809,   4, 0x30000000) /* CombatTable */
+     , (11809,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11809,   1, 180, 0, 0) /* Strength */

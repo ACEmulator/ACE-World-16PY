@@ -26,9 +26,9 @@ VALUES (19200,   1, 'Nullified Statue of a Mosswart') /* Name */
      , (19200,  15, 'This nullified shell is all that remains of the living Statue of a Mosswart that once threatened our peaceful town. Destroyed through the sole efforts of the citizens of Dereth, it remains as a testament to their valor. This land is yours now.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19200,   1,   33557327) /* Setup */
-     , (19200,   2,  150995166) /* MotionTable */
-     , (19200,   3,  536871052) /* SoundTable */
-     , (19200,   6,   67113400) /* PaletteBase */
-     , (19200,   7,  268436295) /* ClothingBase */
-     , (19200,   8,  100667449) /* Icon */;
+VALUES (19200,   1, 0x02000B4F) /* Setup */
+     , (19200,   2, 0x090000DE) /* MotionTable */
+     , (19200,   3, 0x2000008C) /* SoundTable */
+     , (19200,   6, 0x040011B8) /* PaletteBase */
+     , (19200,   7, 0x10000347) /* ClothingBase */
+     , (19200,   8, 0x06001039) /* Icon */;

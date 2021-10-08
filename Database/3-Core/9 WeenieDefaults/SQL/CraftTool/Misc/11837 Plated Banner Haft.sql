@@ -34,9 +34,9 @@ VALUES (11837,   1, 'Plated Banner Haft') /* Name */
      , (11837,  16, 'A plated banner haft with a worn handle.  If joined with either a Shreth or Reedshark banner, it will raise it''s value substantially.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11837,   1,   33557246) /* Setup */
-     , (11837,   3,  536870932) /* SoundTable */
-     , (11837,   6,   67113338) /* PaletteBase */
-     , (11837,   7,  268436231) /* ClothingBase */
-     , (11837,   8,  100671952) /* Icon */
-     , (11837,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11837,   1, 0x02000AFE) /* Setup */
+     , (11837,   3, 0x20000014) /* SoundTable */
+     , (11837,   6, 0x0400117A) /* PaletteBase */
+     , (11837,   7, 0x10000307) /* ClothingBase */
+     , (11837,   8, 0x060021D0) /* Icon */
+     , (11837,  22, 0x3400002B) /* PhysicsEffectTable */;

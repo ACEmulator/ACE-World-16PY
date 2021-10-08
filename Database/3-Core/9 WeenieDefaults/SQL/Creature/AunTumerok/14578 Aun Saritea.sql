@@ -64,13 +64,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14578,   1, 'Aun Saritea') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14578,   1,   33557117) /* Setup */
-     , (14578,   2,  150994945) /* MotionTable */
-     , (14578,   3,  536870931) /* SoundTable */
-     , (14578,   4,  805306380) /* CombatTable */
-     , (14578,   6,   67113280) /* PaletteBase */
-     , (14578,   7,  268436193) /* ClothingBase */
-     , (14578,   8,  100671756) /* Icon */
+VALUES (14578,   1, 0x02000A7D) /* Setup */
+     , (14578,   2, 0x09000001) /* MotionTable */
+     , (14578,   3, 0x20000013) /* SoundTable */
+     , (14578,   4, 0x3000000C) /* CombatTable */
+     , (14578,   6, 0x04001140) /* PaletteBase */
+     , (14578,   7, 0x100002E1) /* ClothingBase */
+     , (14578,   8, 0x0600210C) /* Icon */
      , (14578,  32,        379) /* WieldedTreasureType - 
                                    Wield Shortbow (307) | Probability: 22%
                                    Wield 25x Greater Armor Piercing Arrow (5309) | Probability: 100%

@@ -37,12 +37,12 @@ VALUES (27395,   1, 'Wizard''s Lab') /* Name */
      , (27395,  16, 'The human who has altered our servants has been found. He fumbles about with our creations attempting an understanding beyond his physical limitations. The odds of his continued existence are low. We currently deem the loss of servants less troublesome than attempting to eliminate this nuisance, but continued observance of his activities is instructed.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27395,   1,   33556769) /* Setup */
-     , (27395,   3,  536870932) /* SoundTable */
-     , (27395,   6,   67111919) /* PaletteBase */
-     , (27395,   7,  268435723) /* ClothingBase */
-     , (27395,   8,  100676445) /* Icon */
-     , (27395,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27395,   1, 0x02000921) /* Setup */
+     , (27395,   3, 0x20000014) /* SoundTable */
+     , (27395,   6, 0x04000BEF) /* PaletteBase */
+     , (27395,   7, 0x1000010B) /* ClothingBase */
+     , (27395,   8, 0x0600335D) /* Icon */
+     , (27395,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27395,  28,        157) /* Spell - Summon Primary Portal I */
      , (27395,  31,      27406) /* LinkedPortalOne - Wizard's Lab */
-     , (27395,  50,  100676404) /* IconOverlay */;
+     , (27395,  50, 0x06003334) /* IconOverlay */;
