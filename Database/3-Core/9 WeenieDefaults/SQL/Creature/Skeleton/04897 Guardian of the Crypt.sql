@@ -90,7 +90,10 @@ VALUES (4897,   1, 0x02000409) /* Setup */
                                    Wield Large Kite Shield (92) | Probability: 30.000002%
                                    Wield Kite Shield (91) | Probability: 20%
                                    Wield Large Round Shield (94) | Probability: 20% */
-     , (4897,  35,        187) /* DeathTreasureType */;
+     , (4897,  35,        187) /* DeathTreasureType - 
+                                    Drop Key (4902) | Probability: 10%
+                                    Drop Key (4903) | Probability: 45%
+                                    Drop Key (4901) | Probability: 45% */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4897,   1,  95, 0, 0) /* Strength */
