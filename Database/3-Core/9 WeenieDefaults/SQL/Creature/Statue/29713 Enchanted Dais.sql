@@ -73,7 +73,7 @@ VALUES (29713,   1,   33559083) /* Setup */
      , (29713,  31,      29785) /* LinkedPortalOne - Gate to Qin Xikit's Island */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29713, 12, 0x00F20111, 10.066, -1.736, -5.995, 0.99995434, 0, 0, -0.009555543) /* PortalSummonLoc */
+VALUES (29713, 12, 0x00F20111, 10.066, -1.736, -5.995, 0.999954, 0, 0, -0.009556) /* PortalSummonLoc */
 /* @teleloc 0x00F20111 [10.066000 -1.736000 -5.995000] 0.999954 0.000000 0.000000 -0.009556 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
