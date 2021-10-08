@@ -13,11 +13,11 @@ VALUES (0x75276002, 14427, 0x52760111, 20.5482, -21.8858, 0.005, -0.0292, 0, 0, 
 /* @teleloc 0x52760111 [20.548201 -21.885799 0.005000] -0.029200 0.000000 0.000000 -0.999574 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75276003, 14427, 0x52760114, 24.011, -35.7542, 0.005, 0.0446234, 0, 0, -0.999004,  True, '2005-02-09 10:00:00'); /* Hollow Minion */
+VALUES (0x75276003, 14427, 0x52760114, 24.011, -35.7542, 0.005, 0.044623, 0, 0, -0.999004,  True, '2005-02-09 10:00:00'); /* Hollow Minion */
 /* @teleloc 0x52760114 [24.011000 -35.754200 0.005000] 0.044623 0.000000 0.000000 -0.999004 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75276004,  7923, 0x52760114, 24.3473, -43.5285, 0.005, -0.00200535, 0, 0, -0.999998, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
+VALUES (0x75276004,  7923, 0x52760114, 24.3473, -43.5285, 0.005, -0.002005, 0, 0, -0.999998, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x52760114 [24.347300 -43.528500 0.005000] -0.002005 0.000000 0.000000 -0.999998 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -96,7 +96,7 @@ VALUES (0x75276010, 14448, 0x5276017A, 50, -90, 6.005, 0.731689, 0, 0, 0.681639,
 /* @teleloc 0x5276017A [50.000000 -90.000000 6.005000] 0.731689 0.000000 0.000000 0.681639 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75276011, 14427, 0x5276017E, -0.363487, -120.348, 9.005, -0.00536204, 0, 0, -0.999986,  True, '2005-02-09 10:00:00'); /* Hollow Minion */
+VALUES (0x75276011, 14427, 0x5276017E, -0.363487, -120.348, 9.005, -0.005362, 0, 0, -0.999986,  True, '2005-02-09 10:00:00'); /* Hollow Minion */
 /* @teleloc 0x5276017E [-0.363487 -120.348000 9.005000] -0.005362 0.000000 0.000000 -0.999986 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -159,7 +159,7 @@ VALUES (0x7527601B, 14427, 0x527601E2, 39.071, -205.994, 12.005, -0.904072, 0, 0
 /* @teleloc 0x527601E2 [39.070999 -205.994003 12.005000] -0.904072 0.000000 0.000000 0.427379 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7527601C, 14427, 0x527601EA, 45.186, -189.771, 12.005, 0.0956497, 0, 0, 0.995415,  True, '2005-02-09 10:00:00'); /* Hollow Minion */
+VALUES (0x7527601C, 14427, 0x527601EA, 45.186, -189.771, 12.005, 0.09565, 0, 0, 0.995415,  True, '2005-02-09 10:00:00'); /* Hollow Minion */
 /* @teleloc 0x527601EA [45.186001 -189.770996 12.005000] 0.095650 0.000000 0.000000 0.995415 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

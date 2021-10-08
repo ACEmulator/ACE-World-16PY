@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x66B3;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x766B3000,   958, 0x66B3011C, 117.564, 28.0343, 4.405, -0.999899, 0, 0, 0.0142092, False, '2005-02-09 10:00:00'); /* Mite Digger Generator */
+VALUES (0x766B3000,   958, 0x66B3011C, 117.564, 28.0343, 4.405, -0.999899, 0, 0, 0.014209, False, '2005-02-09 10:00:00'); /* Mite Digger Generator */
 /* @teleloc 0x66B3011C [117.564003 28.034300 4.405000] -0.999899 0.000000 0.000000 0.014209 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -57,15 +57,15 @@ VALUES (0x766B300D,   958, 0x66B30104, 136.004, 38.0193, -0.795001, 0.958254, 0,
 /* @teleloc 0x66B30104 [136.003998 38.019299 -0.795001] 0.958254 0.000000 0.000000 0.285920 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x766B300E,   958, 0x66B30104, 139.881, 36.1479, -0.795001, 0.0731967, 0, 0, -0.997318, False, '2005-02-09 10:00:00'); /* Mite Digger Generator */
+VALUES (0x766B300E,   958, 0x66B30104, 139.881, 36.1479, -0.795001, 0.073197, 0, 0, -0.997318, False, '2005-02-09 10:00:00'); /* Mite Digger Generator */
 /* @teleloc 0x66B30104 [139.880997 36.147900 -0.795001] 0.073197 0.000000 0.000000 -0.997318 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x766B300F,   389, 0x66B3010C, 138.98, 35.0708, 14.805, -0.996164, 0, 0, -0.0875068, False, '2005-02-09 10:00:00'); /* Mite Generator */
+VALUES (0x766B300F,   389, 0x66B3010C, 138.98, 35.0708, 14.805, -0.996164, 0, 0, -0.087507, False, '2005-02-09 10:00:00'); /* Mite Generator */
 /* @teleloc 0x66B3010C [138.979996 35.070801 14.805000] -0.996164 0.000000 0.000000 -0.087507 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x766B3010,   389, 0x66B30115, 130.037, 33.8584, 20.0502, 0.995407, 0, 0, 0.0957311, False, '2005-02-09 10:00:00'); /* Mite Generator */
+VALUES (0x766B3010,   389, 0x66B30115, 130.037, 33.8584, 20.0502, 0.995407, 0, 0, 0.095731, False, '2005-02-09 10:00:00'); /* Mite Generator */
 /* @teleloc 0x66B30115 [130.037003 33.858398 20.050200] 0.995407 0.000000 0.000000 0.095731 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

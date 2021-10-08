@@ -113,7 +113,7 @@ VALUES (0x70365023,  5105, 0x03650220, 50.168, -25.879, 0.005, 0.707107, 0, 0, -
 /* @teleloc 0x03650220 [50.167999 -25.879000 0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70365024, 12706, 0x0365023D, 50.0033, -95.2603, 0.005, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Academy Quartermaster's Workshop */
+VALUES (0x70365024, 12706, 0x0365023D, 50.0033, -95.2603, 0.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Academy Quartermaster's Workshop */
 /* @teleloc 0x0365023D [50.003300 -95.260300 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -292,7 +292,7 @@ VALUES (0x7036504B, 12703, 0x03650140, 3.92363, -138.587, 0.0066, -0.86016, 0, 0
 /* @teleloc 0x03650140 [3.923630 -138.587006 0.006600] -0.860160 0.000000 0.000000 0.510024 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7036504C, 12704, 0x03650154, 5.91587, -57.6564, 0.01, -0.0542796, 0, 0, -0.998526,  True, '2005-02-09 10:00:00'); /* Carpenter Wasp */
+VALUES (0x7036504C, 12704, 0x03650154, 5.91587, -57.6564, 0.01, -0.05428, 0, 0, -0.998526,  True, '2005-02-09 10:00:00'); /* Carpenter Wasp */
 /* @teleloc 0x03650154 [5.915870 -57.656399 0.010000] -0.054280 0.000000 0.000000 -0.998526 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

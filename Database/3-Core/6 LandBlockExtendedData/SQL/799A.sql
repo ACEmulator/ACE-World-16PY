@@ -21,5 +21,5 @@ VALUES (0x7799A004,   905, 0x799A0000, 40.3734, 36.2309, 242.469, -0.612805, 0, 
 /* @teleloc 0x799A0000 [40.373402 36.230900 242.468994] -0.612805 0.000000 0.000000 0.790234 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7799A005,   905, 0x799A0000, 37.0571, 36.264, 240.755, 0.0403839, 0, 0, 0.999184, False, '2005-02-09 10:00:00'); /* Black Rat Generator */
+VALUES (0x7799A005,   905, 0x799A0000, 37.0571, 36.264, 240.755, 0.040384, 0, 0, 0.999184, False, '2005-02-09 10:00:00'); /* Black Rat Generator */
 /* @teleloc 0x799A0000 [37.057098 36.264000 240.755005] 0.040384 0.000000 0.000000 0.999184 */

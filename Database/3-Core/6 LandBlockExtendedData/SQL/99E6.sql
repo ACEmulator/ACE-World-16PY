@@ -18,7 +18,7 @@ VALUES (0x799E6006, 14577, 0x99E60000, 129.837, 160.089, 78.112, -0.645633, 0, 0
 /* @teleloc 0x99E60000 [129.837006 160.089005 78.112000] -0.645633 0.000000 0.000000 0.763648 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x799E6008, 14571, 0x99E60000, 176.529, 154.191, 78.005, 0.999612, 0, 0, 0.0278388,  True, '2005-02-09 10:00:00'); /* Aun Aulakhe */
+VALUES (0x799E6008, 14571, 0x99E60000, 176.529, 154.191, 78.005, 0.999612, 0, 0, 0.027839,  True, '2005-02-09 10:00:00'); /* Aun Aulakhe */
 /* @teleloc 0x99E60000 [176.529007 154.190994 78.004997] 0.999612 0.000000 0.000000 0.027839 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -26,7 +26,7 @@ VALUES (0x799E600B,  7396, 0x99E60000, 180.939, 153.05, 77.905, 0.984125, 0, 0, 
 /* @teleloc 0x99E60000 [180.938995 153.050003 77.904999] 0.984125 0.000000 0.000000 0.177477 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x799E600C, 14578, 0x99E60000, 152.255, 186.349, 77.906, -0.999686, 0, 0, 0.0250713,  True, '2005-02-09 10:00:00'); /* Aun Saritea */
+VALUES (0x799E600C, 14578, 0x99E60000, 152.255, 186.349, 77.906, -0.999686, 0, 0, 0.025071,  True, '2005-02-09 10:00:00'); /* Aun Saritea */
 /* @teleloc 0x99E60000 [152.255005 186.348999 77.905998] -0.999686 0.000000 0.000000 0.025071 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -41,5 +41,5 @@ VALUES (0x799E600E, 14566, 0x99E60000, 180.325, 156.886, 77.905, 0.725186, 0, 0,
 /* @teleloc 0x99E60000 [180.324997 156.886002 77.904999] 0.725186 0.000000 0.000000 -0.688553 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x799E600F, 14579, 0x99E60000, 172.46, 172.542, 77.555, 0.998039, 0, 0, 0.0625902, False, '2005-02-09 10:00:00'); /* Entrance to Portal Space */
+VALUES (0x799E600F, 14579, 0x99E60000, 172.46, 172.542, 77.555, 0.998039, 0, 0, 0.06259, False, '2005-02-09 10:00:00'); /* Entrance to Portal Space */
 /* @teleloc 0x99E60000 [172.460007 172.542007 77.555000] 0.998039 0.000000 0.000000 0.062590 */

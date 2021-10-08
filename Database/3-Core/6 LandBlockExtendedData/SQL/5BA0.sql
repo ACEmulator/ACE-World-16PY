@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x5BA0;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75BA0000, 22895, 0x5BA00000, 150.028, 104.734, 32.5074, 0.995512, 0, 0, 0.0946302, False, '2005-02-09 10:00:00'); /* Spirit Cell */
+VALUES (0x75BA0000, 22895, 0x5BA00000, 150.028, 104.734, 32.5074, 0.995512, 0, 0, 0.09463, False, '2005-02-09 10:00:00'); /* Spirit Cell */
 /* @teleloc 0x5BA00000 [150.028000 104.734001 32.507401] 0.995512 0.000000 0.000000 0.094630 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

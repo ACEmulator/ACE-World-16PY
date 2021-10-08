@@ -17,7 +17,7 @@ VALUES (0x7019D003,   568, 0x019D011E, 45.25, -30, 0, -0.707107, 0, 0, -0.707107
 /* @teleloc 0x019D011E [45.250000 -30.000000 0.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7019D004,  1480, 0x019D0125, 20, -20, 6, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mosswart Food Generator */
+VALUES (0x7019D004,  1480, 0x019D0125, 20, -20, 6, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mosswart Food Generator */
 /* @teleloc 0x019D0125 [20.000000 -20.000000 6.000000] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -29,11 +29,11 @@ VALUES (0x7019D006,   383, 0x019D0139, 10, 0, 12, 0.707107, 0, 0, -0.707107, Fal
 /* @teleloc 0x019D0139 [10.000000 0.000000 12.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7019D007,   961, 0x019D0140, 20, 0, 12, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mosswart Barker Generator */
+VALUES (0x7019D007,   961, 0x019D0140, 20, 0, 12, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mosswart Barker Generator */
 /* @teleloc 0x019D0140 [20.000000 0.000000 12.000000] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7019D008,   961, 0x019D0140, 18.7933, -1.09039, 12, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mosswart Barker Generator */
+VALUES (0x7019D008,   961, 0x019D0140, 18.7933, -1.09039, 12, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mosswart Barker Generator */
 /* @teleloc 0x019D0140 [18.793301 -1.090390 12.000000] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

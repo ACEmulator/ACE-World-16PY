@@ -1,27 +1,27 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x001A;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001A000, 28656, 0x001A0103, 230.305, -278.496, -11.995, 0.995004, 0, 0, -0.0998331,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
+VALUES (0x7001A000, 28656, 0x001A0103, 230.305, -278.496, -11.995, 0.995004, 0, 0, -0.099833,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
 /* @teleloc 0x001A0103 [230.304993 -278.496002 -11.995000] 0.995004 0.000000 0.000000 -0.099833 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001A001, 28637, 0x001A010A, 239.901, -269.187, -11.995, -0.999893, 0, 0, -0.0146357,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
+VALUES (0x7001A001, 28637, 0x001A010A, 239.901, -269.187, -11.995, -0.999893, 0, 0, -0.014636,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
 /* @teleloc 0x001A010A [239.901001 -269.187012 -11.995000] -0.999893 0.000000 0.000000 -0.014636 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001A002, 28637, 0x001A010E, 240.171, -278.405, -11.995, -0.999893, 0, 0, -0.0146357,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
+VALUES (0x7001A002, 28637, 0x001A010E, 240.171, -278.405, -11.995, -0.999893, 0, 0, -0.014636,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
 /* @teleloc 0x001A010E [240.171005 -278.404999 -11.995000] -0.999893 0.000000 0.000000 -0.014636 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001A003, 28637, 0x001A0115, 250.235, -263.203, -11.995, -0.999196, 0, 0, 0.0400866,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
+VALUES (0x7001A003, 28637, 0x001A0115, 250.235, -263.203, -11.995, -0.999196, 0, 0, 0.040087,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
 /* @teleloc 0x001A0115 [250.235001 -263.203003 -11.995000] -0.999196 0.000000 0.000000 0.040087 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001A004, 28637, 0x001A011F, 261.337, -270.202, -11.995, 0.999687, 0, 0, 0.0249976,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
+VALUES (0x7001A004, 28637, 0x001A011F, 261.337, -270.202, -11.995, 0.999687, 0, 0, 0.024998,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
 /* @teleloc 0x001A011F [261.337006 -270.201996 -11.995000] 0.999687 0.000000 0.000000 0.024998 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001A005, 28637, 0x001A0123, 261.625, -278.866, -11.995, 0.999687, 0, 0, 0.0249976,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
+VALUES (0x7001A005, 28637, 0x001A0123, 261.625, -278.866, -11.995, 0.999687, 0, 0, 0.024998,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
 /* @teleloc 0x001A0123 [261.625000 -278.865997 -11.995000] 0.999687 0.000000 0.000000 0.024998 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -49,11 +49,11 @@ VALUES (0x7001A00B, 28652, 0x001A013A, 243.011, -130.575, -5.995, -0.9698, 0, 0,
 /* @teleloc 0x001A013A [243.011002 -130.574997 -5.995000] -0.969800 0.000000 0.000000 0.243902 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001A00C, 28652, 0x001A014D, 249.354, -135.48, -5.995, 0.997615, 0, 0, -0.0690181,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
+VALUES (0x7001A00C, 28652, 0x001A014D, 249.354, -135.48, -5.995, 0.997615, 0, 0, -0.069018,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
 /* @teleloc 0x001A014D [249.354004 -135.479996 -5.995000] 0.997615 0.000000 0.000000 -0.069018 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001A00D, 28652, 0x001A014D, 250.987, -135.707, -5.995, 0.997615, 0, 0, -0.0690181,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
+VALUES (0x7001A00D, 28652, 0x001A014D, 250.987, -135.707, -5.995, 0.997615, 0, 0, -0.069018,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
 /* @teleloc 0x001A014D [250.987000 -135.707001 -5.995000] 0.997615 0.000000 0.000000 -0.069018 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -69,7 +69,7 @@ VALUES (0x7001A010, 28652, 0x001A0151, 251.92, -177.919, -5.995, -0.995473, 0, 0
 /* @teleloc 0x001A0151 [251.919998 -177.919006 -5.995000] -0.995473 0.000000 0.000000 -0.095043 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001A011, 28652, 0x001A0162, 256.942, -130.522, -5.995, 0.997189, 0, 0, 0.0749293,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
+VALUES (0x7001A011, 28652, 0x001A0162, 256.942, -130.522, -5.995, 0.997189, 0, 0, 0.074929,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
 /* @teleloc 0x001A0162 [256.941986 -130.522003 -5.995000] 0.997189 0.000000 0.000000 0.074929 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -133,19 +133,19 @@ VALUES (0x7001A016, 0x7001A000, '2005-02-09 10:00:00') /* Drudge Prowler (28656)
      , (0x7001A016, 0x7001A04D, '2005-02-09 10:00:00') /* Drudge Prowler (30301) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001A017, 28652, 0x001A0181, 190, -107.92, 0.005, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
+VALUES (0x7001A017, 28652, 0x001A0181, 190, -107.92, 0.005, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
 /* @teleloc 0x001A0181 [190.000000 -107.919998 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001A018, 28652, 0x001A0181, 188.47, -107.92, 0.005, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
+VALUES (0x7001A018, 28652, 0x001A0181, 188.47, -107.92, 0.005, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
 /* @teleloc 0x001A0181 [188.470001 -107.919998 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001A019, 28656, 0x001A01A2, 250.238, -413.191, 0.005, -0.998932, 0, 0, 0.0462095,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
+VALUES (0x7001A019, 28656, 0x001A01A2, 250.238, -413.191, 0.005, -0.998932, 0, 0, 0.04621,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
 /* @teleloc 0x001A01A2 [250.238007 -413.191010 0.005000] -0.998932 0.000000 0.000000 0.046209 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001A01A, 28656, 0x001A01A2, 248.315, -413.013, 0.005, -0.998932, 0, 0, 0.0462095,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
+VALUES (0x7001A01A, 28656, 0x001A01A2, 248.315, -413.013, 0.005, -0.998932, 0, 0, 0.04621,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
 /* @teleloc 0x001A01A2 [248.315002 -413.013000 0.005000] -0.998932 0.000000 0.000000 0.046209 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -157,7 +157,7 @@ VALUES (0x7001A01C, 29303, 0x001A01A3, 251.808, -417.488, 0.005, -0.998932, 0, 0
 /* @teleloc 0x001A01A3 [251.807999 -417.488007 0.005000] -0.998932 0.000000 0.000000 0.046209 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001A01D, 28635, 0x001A01A5, 249.694, -437.989, 0.005, 0.999996, 0, 0, -0.00279004,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
+VALUES (0x7001A01D, 28635, 0x001A01A5, 249.694, -437.989, 0.005, 0.999996, 0, 0, -0.00279,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
 /* @teleloc 0x001A01A5 [249.694000 -437.989014 0.005000] 0.999996 0.000000 0.000000 -0.002790 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -173,7 +173,7 @@ VALUES (0x7001A020, 29385, 0x001A01B5, 30, -202, 6.005, 1, 0, 0, 0, False, '2005
 /* @teleloc 0x001A01B5 [30.000000 -202.000000 6.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001A021, 29385, 0x001A01B9, 30, -238, 6.005, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Platinum Legion Quartermaster's Chest */
+VALUES (0x7001A021, 29385, 0x001A01B9, 30, -238, 6.005, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Platinum Legion Quartermaster's Chest */
 /* @teleloc 0x001A01B9 [30.000000 -238.000000 6.005000] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -197,7 +197,7 @@ VALUES (0x7001A026, 28655, 0x001A01C9, 69.8013, -221.383, 6.005, 0.703727, 0, 0,
 /* @teleloc 0x001A01C9 [69.801300 -221.382996 6.005000] 0.703727 0.000000 0.000000 -0.710471 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001A027, 30287, 0x001A01E9, 130, -284, 6.005, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Door */
+VALUES (0x7001A027, 30287, 0x001A01E9, 130, -284, 6.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x001A01E9 [130.000000 -284.000000 6.005000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -237,15 +237,15 @@ VALUES (0x7001A028, 0x7001A022, '2005-02-09 10:00:00') /* Platinum Legion Quarte
      , (0x7001A028, 0x7001A04F, '2005-02-09 10:00:00') /* Drudge Prowler (30300) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001A029, 28635, 0x001A01F2, 128.165, -315.933, 6.005, 0.0199227, 0, 0, 0.999802,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
+VALUES (0x7001A029, 28635, 0x001A01F2, 128.165, -315.933, 6.005, 0.019923, 0, 0, 0.999802,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
 /* @teleloc 0x001A01F2 [128.164993 -315.933014 6.005000] 0.019923 0.000000 0.000000 0.999802 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001A02A, 28635, 0x001A01F2, 130.881, -316.679, 6.005, 0.0199227, 0, 0, 0.999802,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
+VALUES (0x7001A02A, 28635, 0x001A01F2, 130.881, -316.679, 6.005, 0.019923, 0, 0, 0.999802,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
 /* @teleloc 0x001A01F2 [130.880997 -316.678986 6.005000] 0.019923 0.000000 0.000000 0.999802 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001A02B, 30287, 0x001A01FA, 130, -404, 6.005, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Door */
+VALUES (0x7001A02B, 30287, 0x001A01FA, 130, -404, 6.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x001A01FA [130.000000 -404.000000 6.005000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -304,15 +304,15 @@ VALUES (0x7001A038, 29414, 0x001A0283, 108.727, -84.2287, 12.005, -0.029345, 0, 
 /* @teleloc 0x001A0283 [108.726997 -84.228699 12.005000] -0.029345 0.000000 0.000000 -0.999569 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001A039, 28655, 0x001A0285, 111.168, -97.1985, 12.005, 0.0288344, 0, 0, 0.999584,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
+VALUES (0x7001A039, 28655, 0x001A0285, 111.168, -97.1985, 12.005, 0.028834, 0, 0, 0.999584,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
 /* @teleloc 0x001A0285 [111.167999 -97.198502 12.005000] 0.028834 0.000000 0.000000 0.999584 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001A03A, 28655, 0x001A0285, 108.241, -97.0295, 12.005, 0.0288344, 0, 0, 0.999584,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
+VALUES (0x7001A03A, 28655, 0x001A0285, 108.241, -97.0295, 12.005, 0.028834, 0, 0, 0.999584,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
 /* @teleloc 0x001A0285 [108.240997 -97.029503 12.005000] 0.028834 0.000000 0.000000 0.999584 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001A03B, 28655, 0x001A0285, 109.19, -98.2712, 12.005, -0.0211602, 0, 0, 0.999776,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
+VALUES (0x7001A03B, 28655, 0x001A0285, 109.19, -98.2712, 12.005, -0.02116, 0, 0, 0.999776,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
 /* @teleloc 0x001A0285 [109.190002 -98.271202 12.005000] -0.021160 0.000000 0.000000 0.999776 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -336,15 +336,15 @@ VALUES (0x7001A040, 29303, 0x001A02A7, 131.007, -181.496, 12.005, -0.027436, 0, 
 /* @teleloc 0x001A02A7 [131.007004 -181.496002 12.005000] -0.027436 0.000000 0.000000 0.999624 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001A041, 28656, 0x001A02A8, 128.67, -188.955, 12.005, -0.0274365, 0, 0, 0.999624,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
+VALUES (0x7001A041, 28656, 0x001A02A8, 128.67, -188.955, 12.005, -0.027437, 0, 0, 0.999624,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
 /* @teleloc 0x001A02A8 [128.669998 -188.955002 12.005000] -0.027437 0.000000 0.000000 0.999624 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001A042, 28656, 0x001A02A8, 130.876, -186.689, 12.005, -0.0274365, 0, 0, 0.999624,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
+VALUES (0x7001A042, 28656, 0x001A02A8, 130.876, -186.689, 12.005, -0.027437, 0, 0, 0.999624,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
 /* @teleloc 0x001A02A8 [130.876007 -186.688995 12.005000] -0.027437 0.000000 0.000000 0.999624 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001A043, 30287, 0x001A02AE, 130, -250, 12.005, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Door */
+VALUES (0x7001A043, 30287, 0x001A02AE, 130, -250, 12.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x001A02AE [130.000000 -250.000000 12.005000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -371,7 +371,7 @@ VALUES (0x7001A048, 30301, 0x001A02CE, 141.172, -399.765, 12.005, -0.108585, 0, 
 /* @teleloc 0x001A02CE [141.171997 -399.765015 12.005000] -0.108585 0.000000 0.000000 0.994087 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001A049, 30301, 0x001A02CE, 139.251, -399.158, 12.005, 0.0542004, 0, 0, 0.99853,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
+VALUES (0x7001A049, 30301, 0x001A02CE, 139.251, -399.158, 12.005, 0.0542, 0, 0, 0.99853,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
 /* @teleloc 0x001A02CE [139.251007 -399.157990 12.005000] 0.054200 0.000000 0.000000 0.998530 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

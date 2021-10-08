@@ -33,5 +33,5 @@ VALUES (0x7957C007,   954, 0x957C0100, 47.9373, 38.9243, 32.805, 0.43885, 0, 0, 
 /* @teleloc 0x957C0100 [47.937302 38.924301 32.805000] 0.438850 0.000000 0.000000 -0.898560 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7957C008,   420, 0x957C0100, 43.9756, 35.954, 32.805, -0.996164, 0, 0, -0.0875022, False, '2005-02-09 10:00:00'); /* Item Food Generator */
+VALUES (0x7957C008,   420, 0x957C0100, 43.9756, 35.954, 32.805, -0.996164, 0, 0, -0.087502, False, '2005-02-09 10:00:00'); /* Item Food Generator */
 /* @teleloc 0x957C0100 [43.975601 35.953999 32.805000] -0.996164 0.000000 0.000000 -0.087502 */

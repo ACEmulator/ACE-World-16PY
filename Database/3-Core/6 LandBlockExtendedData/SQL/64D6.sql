@@ -17,11 +17,11 @@ VALUES (0x764D6003,   905, 0x64D60100, 132.219, 129.319, 158.005, -0.922534, 0, 
 /* @teleloc 0x64D60100 [132.218994 129.319000 158.005005] -0.922534 0.000000 0.000000 0.385915 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x764D6004,   905, 0x64D60100, 134.319, 134.376, 158.005, 0.00800424, 0, 0, -0.999968, False, '2005-02-09 10:00:00'); /* Black Rat Generator */
+VALUES (0x764D6004,   905, 0x64D60100, 134.319, 134.376, 158.005, 0.008004, 0, 0, -0.999968, False, '2005-02-09 10:00:00'); /* Black Rat Generator */
 /* @teleloc 0x64D60100 [134.319000 134.376007 158.005005] 0.008004 0.000000 0.000000 -0.999968 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x764D6005,   905, 0x64D60100, 132.324, 134.698, 159.605, 0.0225843, 0, 0, -0.999745, False, '2005-02-09 10:00:00'); /* Black Rat Generator */
+VALUES (0x764D6005,   905, 0x64D60100, 132.324, 134.698, 159.605, 0.022584, 0, 0, -0.999745, False, '2005-02-09 10:00:00'); /* Black Rat Generator */
 /* @teleloc 0x64D60100 [132.324005 134.697998 159.604996] 0.022584 0.000000 0.000000 -0.999745 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -45,11 +45,11 @@ VALUES (0x764D600A,  1625, 0x64D60000, 127.056, 138.042, 166.805, 0.776124, 0, 0
 /* @teleloc 0x64D60000 [127.056000 138.042007 166.804993] 0.776124 0.000000 0.000000 -0.630581 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x764D600B,  1625, 0x64D60000, 137.884, 131.847, 166.805, -0.999957, 0, 0, -0.00929105,  True, '2005-02-09 10:00:00'); /* Mountain Rat */
+VALUES (0x764D600B,  1625, 0x64D60000, 137.884, 131.847, 166.805, -0.999957, 0, 0, -0.009291,  True, '2005-02-09 10:00:00'); /* Mountain Rat */
 /* @teleloc 0x64D60000 [137.884003 131.847000 166.804993] -0.999957 0.000000 0.000000 -0.009291 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x764D600C,   746, 0x64D60000, 136.983, 132.806, 166.805, -0.999957, 0, 0, -0.00929113,  True, '2005-02-09 10:00:00'); /* Hazel Talisman */
+VALUES (0x764D600C,   746, 0x64D60000, 136.983, 132.806, 166.805, -0.999957, 0, 0, -0.009291,  True, '2005-02-09 10:00:00'); /* Hazel Talisman */
 /* @teleloc 0x64D60000 [136.983002 132.806000 166.804993] -0.999957 0.000000 0.000000 -0.009291 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

@@ -31,7 +31,7 @@ VALUES (0x7C352003,   211, 0xC3520000, 61.4637, 47.6456, 24.0055, -0.199176, 0, 
 /* @teleloc 0xC3520000 [61.463699 47.645599 24.005501] -0.199176 0.000000 0.000000 -0.979964 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C352004,   211, 0xC3520000, 64.0261, 45.6188, 24.0055, 0.0961574, 0, 0, -0.995366,  True, '2005-02-09 10:00:00'); /* Mudlurk Mosswart */
+VALUES (0x7C352004,   211, 0xC3520000, 64.0261, 45.6188, 24.0055, 0.096157, 0, 0, -0.995366,  True, '2005-02-09 10:00:00'); /* Mudlurk Mosswart */
 /* @teleloc 0xC3520000 [64.026100 45.618801 24.005501] 0.096157 0.000000 0.000000 -0.995366 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -43,7 +43,7 @@ VALUES (0x7C352006,   211, 0xC3520000, 32.5994, 51.0026, 24.2557, -0.362211, 0, 
 /* @teleloc 0xC3520000 [32.599400 51.002602 24.255699] -0.362211 0.000000 0.000000 -0.932096 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C352007,   211, 0xC3520000, 31.1104, 94.5227, 26.0055, -0.998589, 0, 0, 0.0531061,  True, '2005-02-09 10:00:00'); /* Mudlurk Mosswart */
+VALUES (0x7C352007,   211, 0xC3520000, 31.1104, 94.5227, 26.0055, -0.998589, 0, 0, 0.053106,  True, '2005-02-09 10:00:00'); /* Mudlurk Mosswart */
 /* @teleloc 0xC3520000 [31.110399 94.522697 26.005501] -0.998589 0.000000 0.000000 0.053106 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -77,7 +77,7 @@ VALUES (0x7C35200D, 0x7C35200E, '2005-02-09 10:00:00') /* Mosswart Shaman (1619)
      , (0x7C35200D, 0x7C352011, '2005-02-09 10:00:00') /* Banderling Captain (8258) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C35200E,  1619, 0xC3520000, 51.8285, 75.6302, 26.0055, -0.0968396, 0, 0, 0.9953,  True, '2005-02-09 10:00:00'); /* Mosswart Shaman */
+VALUES (0x7C35200E,  1619, 0xC3520000, 51.8285, 75.6302, 26.0055, -0.09684, 0, 0, 0.9953,  True, '2005-02-09 10:00:00'); /* Mosswart Shaman */
 /* @teleloc 0xC3520000 [51.828499 75.630203 26.005501] -0.096840 0.000000 0.000000 0.995300 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

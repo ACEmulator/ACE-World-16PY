@@ -57,11 +57,11 @@ VALUES (0x7C04B00D,  1760, 0xC04B0000, 169.229, 161.455, 31.0775, -0.876732, 0, 
 /* @teleloc 0xC04B0000 [169.229004 161.455002 31.077499] -0.876732 0.000000 0.000000 0.480980 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C04B00E,  1760, 0xC04B0000, 180.078, 171.809, 28.3239, -0.998486, 0, 0, -0.0550014,  True, '2005-02-09 10:00:00'); /* Skeleton Warrior */
+VALUES (0x7C04B00E,  1760, 0xC04B0000, 180.078, 171.809, 28.3239, -0.998486, 0, 0, -0.055001,  True, '2005-02-09 10:00:00'); /* Skeleton Warrior */
 /* @teleloc 0xC04B0000 [180.078003 171.809006 28.323900] -0.998486 0.000000 0.000000 -0.055001 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C04B00F,  1760, 0xC04B0000, 108.538, 187.125, 57.5174, -0.99939, 0, 0, 0.0349118,  True, '2005-02-09 10:00:00'); /* Skeleton Warrior */
+VALUES (0x7C04B00F,  1760, 0xC04B0000, 108.538, 187.125, 57.5174, -0.99939, 0, 0, 0.034912,  True, '2005-02-09 10:00:00'); /* Skeleton Warrior */
 /* @teleloc 0xC04B0000 [108.538002 187.125000 57.517399] -0.999390 0.000000 0.000000 0.034912 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

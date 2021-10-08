@@ -21,7 +21,7 @@ VALUES (0x75656004, 21467, 0x56560103, 9.989, -19.993, 0.005, 0, 0, 0, -1, False
 /* @teleloc 0x56560103 [9.989000 -19.993000 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75656005, 21479, 0x56560103, 9.92274, -22.8749, 0.005, 0.999994, 0, 0, -0.00356878, False, '2005-02-09 10:00:00'); /* Jojii Gardens */
+VALUES (0x75656005, 21479, 0x56560103, 9.92274, -22.8749, 0.005, 0.999994, 0, 0, -0.003569, False, '2005-02-09 10:00:00'); /* Jojii Gardens */
 /* @teleloc 0x56560103 [9.922740 -22.874901 0.005000] 0.999994 0.000000 0.000000 -0.003569 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -33,7 +33,7 @@ VALUES (0x75656007, 21473, 0x5656010F, 9.977, -56.947, 0.005, 0, 0, 0, -1, False
 /* @teleloc 0x5656010F [9.977000 -56.946999 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75656008, 21478, 0x5656011A, 20.105, -37.694, 0.005, -0.00485148, 0, 0, -0.999988, False, '2005-02-09 10:00:00'); /* Jade Gate */
+VALUES (0x75656008, 21478, 0x5656011A, 20.105, -37.694, 0.005, -0.004851, 0, 0, -0.999988, False, '2005-02-09 10:00:00'); /* Jade Gate */
 /* @teleloc 0x5656011A [20.105000 -37.694000 0.005000] -0.004851 0.000000 0.000000 -0.999988 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

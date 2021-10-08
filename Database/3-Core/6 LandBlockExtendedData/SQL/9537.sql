@@ -9,7 +9,7 @@ VALUES (0x79537001, 24939, 0x95370000, 133.274, 50.3436, 26.009, 0.788923, 0, 0,
 /* @teleloc 0x95370000 [133.274002 50.343601 26.009001] 0.788923 0.000000 0.000000 0.614492 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79537002, 24939, 0x95370000, 155.897, 58.957, 26.009, 0.99821, 0, 0, -0.0598129,  True, '2005-02-09 10:00:00'); /* Gotrok Amploth */
+VALUES (0x79537002, 24939, 0x95370000, 155.897, 58.957, 26.009, 0.99821, 0, 0, -0.059813,  True, '2005-02-09 10:00:00'); /* Gotrok Amploth */
 /* @teleloc 0x95370000 [155.897003 58.957001 26.009001] 0.998210 0.000000 0.000000 -0.059813 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -21,11 +21,11 @@ VALUES (0x79537004, 24939, 0x95370000, 161.015, 31.1967, 26.009, -0.138605, 0, 0
 /* @teleloc 0x95370000 [161.014999 31.196699 26.009001] -0.138605 0.000000 0.000000 -0.990348 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79537005, 24939, 0x95370000, 146.92, 31.3127, 26.009, -0.995655, 0, 0, 0.0931215,  True, '2005-02-09 10:00:00'); /* Gotrok Amploth */
+VALUES (0x79537005, 24939, 0x95370000, 146.92, 31.3127, 26.009, -0.995655, 0, 0, 0.093122,  True, '2005-02-09 10:00:00'); /* Gotrok Amploth */
 /* @teleloc 0x95370000 [146.919998 31.312700 26.009001] -0.995655 0.000000 0.000000 0.093121 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79537006,   387, 0x95370000, 135.275, 40.8521, 22.005, -0.0764781, 0, 0, -0.997071, False, '2005-02-09 10:00:00'); /* Lugian Generator */
+VALUES (0x79537006,   387, 0x95370000, 135.275, 40.8521, 22.005, -0.076478, 0, 0, -0.997071, False, '2005-02-09 10:00:00'); /* Lugian Generator */
 /* @teleloc 0x95370000 [135.274994 40.852100 22.004999] -0.076478 0.000000 0.000000 -0.997071 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

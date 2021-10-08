@@ -33,7 +33,7 @@ VALUES (0x78493009,  1439, 0x84930113, 156.642, 137.126, 223.205, -0.888186, 0, 
 /* @teleloc 0x84930113 [156.641998 137.126007 223.205002] -0.888186 0.000000 0.000000 -0.459485 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7849301D,   174, 0x84930000, 166.815, 126.196, 224.005, 0.995679, 0, 0, 0.0928629, False, '2005-02-09 10:00:00'); /* Well */
+VALUES (0x7849301D,   174, 0x84930000, 166.815, 126.196, 224.005, 0.995679, 0, 0, 0.092863, False, '2005-02-09 10:00:00'); /* Well */
 /* @teleloc 0x84930000 [166.815002 126.195999 224.005005] 0.995679 0.000000 0.000000 0.092863 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -111,5 +111,5 @@ VALUES (0x78493039, 0x78493007, '2005-02-09 10:00:00') /* Crude Monouga (2575) *
      , (0x78493039, 0x7849303A, '2005-02-09 10:00:00') /* Cruel Monouga (24288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7849303A, 24288, 0x84930000, 124.865, 139.459, 224.005, -0.999873, 0, 0, -0.0159668,  True, '2005-02-09 10:00:00'); /* Cruel Monouga */
+VALUES (0x7849303A, 24288, 0x84930000, 124.865, 139.459, 224.005, -0.999873, 0, 0, -0.015967,  True, '2005-02-09 10:00:00'); /* Cruel Monouga */
 /* @teleloc 0x84930000 [124.864998 139.459000 224.005005] -0.999873 0.000000 0.000000 -0.015967 */

@@ -13,7 +13,7 @@ VALUES (0x7F757002,  1612, 0xF7570000, 175.696, 132.678, 4.68963, 0.969575, 0, 0
 /* @teleloc 0xF7570000 [175.695999 132.677994 4.689630] 0.969575 0.000000 0.000000 0.244793 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F757003,  1611, 0xF7570000, 176.082, 138.326, 0.00499995, 0.239621, 0, 0, 0.970867,  True, '2005-02-09 10:00:00'); /* Rust Gromnie */
+VALUES (0x7F757003,  1611, 0xF7570000, 176.082, 138.326, 0.005, 0.239621, 0, 0, 0.970867,  True, '2005-02-09 10:00:00'); /* Rust Gromnie */
 /* @teleloc 0xF7570000 [176.082001 138.326004 0.005000] 0.239621 0.000000 0.000000 0.970867 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -21,7 +21,7 @@ VALUES (0x7F757004,  2577, 0xF7570000, 188.654, 101.043, 0.005, -0.976486, 0, 0,
 /* @teleloc 0xF7570000 [188.654007 101.042999 0.005000] -0.976486 0.000000 0.000000 -0.215582 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F757005,  3955, 0xF7570000, 184.747, 106.411, 0.005, 0.0362724, 0, 0, 0.999342, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen (15 min.) */
+VALUES (0x7F757005,  3955, 0xF7570000, 184.747, 106.411, 0.005, 0.036272, 0, 0, 0.999342, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen (15 min.) */
 /* @teleloc 0xF7570000 [184.746994 106.411003 0.005000] 0.036272 0.000000 0.000000 0.999342 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)

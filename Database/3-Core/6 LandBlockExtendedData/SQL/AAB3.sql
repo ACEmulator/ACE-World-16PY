@@ -42,7 +42,7 @@ VALUES (0x7AAB3007, 0x7AAB3006, '2005-02-09 10:00:00') /* Sentry (12725) */
      , (0x7AAB3007, 0x7AAB3008, '2005-02-09 10:00:00') /* Aun Kielerea (27268) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB3008, 27268, 0xAAB30000, 33.1758, 82.3987, 124.805, 0.999938, 0, 0, -0.0111195,  True, '2005-02-09 10:00:00'); /* Aun Kielerea */
+VALUES (0x7AAB3008, 27268, 0xAAB30000, 33.1758, 82.3987, 124.805, 0.999938, 0, 0, -0.01112,  True, '2005-02-09 10:00:00'); /* Aun Kielerea */
 /* @teleloc 0xAAB30000 [33.175800 82.398697 124.805000] 0.999938 0.000000 0.000000 -0.011119 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

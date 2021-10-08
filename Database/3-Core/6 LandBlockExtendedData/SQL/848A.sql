@@ -1,11 +1,11 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x848A;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7848A002,   153, 0x848A0119, 155.732, 131.277, 300.005, 0.997252, 0, 0, -0.0740866, False, '2005-02-09 10:00:00'); /* Fountain */
+VALUES (0x7848A002,   153, 0x848A0119, 155.732, 131.277, 300.005, 0.997252, 0, 0, -0.074087, False, '2005-02-09 10:00:00'); /* Fountain */
 /* @teleloc 0x848A0119 [155.731995 131.276993 300.005005] 0.997252 0.000000 0.000000 -0.074087 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7848A007,  4219, 0x848A0000, 156.097, 117.945, 300.005, 0.99999, 0, 0, 0.00451763, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 7 Min.) */
+VALUES (0x7848A007,  4219, 0x848A0000, 156.097, 117.945, 300.005, 0.99999, 0, 0, 0.004518, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 7 Min.) */
 /* @teleloc 0x848A0000 [156.097000 117.945000 300.005005] 0.999990 0.000000 0.000000 0.004518 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -20,7 +20,7 @@ VALUES (0x7848A007, 0x7848A008, '2005-02-09 10:00:00') /* Brutish Monouga (9251)
      , (0x7848A007, 0x7848A011, '2005-02-09 10:00:00') /* Wily Monouga (9253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7848A008,  9251, 0x848A011E, 155.961, 137.992, 303.205, 0.0162779, 0, 0, 0.999867,  True, '2005-02-09 10:00:00'); /* Brutish Monouga */
+VALUES (0x7848A008,  9251, 0x848A011E, 155.961, 137.992, 303.205, 0.016278, 0, 0, 0.999867,  True, '2005-02-09 10:00:00'); /* Brutish Monouga */
 /* @teleloc 0x848A011E [155.960999 137.992004 303.204987] 0.016278 0.000000 0.000000 0.999867 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -28,7 +28,7 @@ VALUES (0x7848A009,  9251, 0x848A0119, 159.166, 131.832, 300.005, -0.678248, 0, 
 /* @teleloc 0x848A0119 [159.166000 131.832001 300.005005] -0.678248 0.000000 0.000000 -0.734833 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7848A00A,  9251, 0x848A0119, 155.8, 135.06, 300.005, -0.0105855, 0, 0, -0.999944,  True, '2005-02-09 10:00:00'); /* Brutish Monouga */
+VALUES (0x7848A00A,  9251, 0x848A0119, 155.8, 135.06, 300.005, -0.010586, 0, 0, -0.999944,  True, '2005-02-09 10:00:00'); /* Brutish Monouga */
 /* @teleloc 0x848A0119 [155.800003 135.059998 300.005005] -0.010585 0.000000 0.000000 -0.999944 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -52,5 +52,5 @@ VALUES (0x7848A010,  8673, 0x848A0000, 160.808, 139.639, 300.008, 0.99106, 0, 0,
 /* @teleloc 0x848A0000 [160.807999 139.639008 300.007996] 0.991060 0.000000 0.000000 -0.133414 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7848A011,  9253, 0x848A0000, 156.194, 133.549, 314.086, -0.0185577, 0, 0, -0.999828,  True, '2005-02-09 10:00:00'); /* Wily Monouga */
+VALUES (0x7848A011,  9253, 0x848A0000, 156.194, 133.549, 314.086, -0.018558, 0, 0, -0.999828,  True, '2005-02-09 10:00:00'); /* Wily Monouga */
 /* @teleloc 0x848A0000 [156.194000 133.548996 314.085999] -0.018558 0.000000 0.000000 -0.999828 */

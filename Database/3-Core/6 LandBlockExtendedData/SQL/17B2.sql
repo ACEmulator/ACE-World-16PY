@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x17B2;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x717B2000,  1148, 0x17B20100, 130.885, 60.5018, 41.205, 0.999557, 0, 0, -0.0297741, False, '2005-02-09 10:00:00'); /* Door */
+VALUES (0x717B2000,  1148, 0x17B20100, 130.885, 60.5018, 41.205, 0.999557, 0, 0, -0.029774, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x17B20100 [130.884995 60.501801 41.205002] 0.999557 0.000000 0.000000 -0.029774 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -51,7 +51,7 @@ VALUES (0x717B200A, 11398, 0x17B2012A, 100.911, 79.975, 43.705, 0.228093, 0, 0, 
 /* @teleloc 0x17B2012A [100.911003 79.974998 43.705002] 0.228093 0.000000 0.000000 -0.973639 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x717B200C,  8377, 0x17B20105, 129.502, 69.57, 45, -0.999255, 0, 0, -0.0385884, False, '2005-02-09 10:00:00'); /* Beer Keg */
+VALUES (0x717B200C,  8377, 0x17B20105, 129.502, 69.57, 45, -0.999255, 0, 0, -0.038588, False, '2005-02-09 10:00:00'); /* Beer Keg */
 /* @teleloc 0x17B20105 [129.501999 69.570000 45.000000] -0.999255 0.000000 0.000000 -0.038588 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

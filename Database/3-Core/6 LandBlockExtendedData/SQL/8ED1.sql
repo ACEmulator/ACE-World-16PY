@@ -24,7 +24,7 @@ VALUES (0x78ED1004,  7355, 0x8ED10000, 110.134, 154.23, 277.105, -0.972511, 0, 0
 /* @teleloc 0x8ED10000 [110.134003 154.229996 277.105011] -0.972511 0.000000 0.000000 -0.232858 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78ED1005,  7356, 0x8ED10000, 180.314, 156.735, 278, 0.0439854, 0, 0, -0.999032, False, '2005-02-09 10:00:00'); /* Erupt Esper Plume FX Gen */
+VALUES (0x78ED1005,  7356, 0x8ED10000, 180.314, 156.735, 278, 0.043985, 0, 0, -0.999032, False, '2005-02-09 10:00:00'); /* Erupt Esper Plume FX Gen */
 /* @teleloc 0x8ED10000 [180.313995 156.735001 278.000000] 0.043985 0.000000 0.000000 -0.999032 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

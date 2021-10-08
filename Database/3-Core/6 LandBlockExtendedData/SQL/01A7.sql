@@ -85,7 +85,7 @@ VALUES (0x701A7014,  2610, 0x01A70176, 38.722, -177.074, 94.8485, -0.491284, 0, 
 /* @teleloc 0x01A70176 [38.722000 -177.074005 94.848503] -0.491284 0.000000 0.000000 -0.870999 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A7015,  2610, 0x01A7017A, 30, -110, 102.01, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Kilif Zefir */
+VALUES (0x701A7015,  2610, 0x01A7017A, 30, -110, 102.01, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Kilif Zefir */
 /* @teleloc 0x01A7017A [30.000000 -110.000000 102.010002] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

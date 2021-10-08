@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xB4A4;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B4A4000,   941, 0xB4A40000, 92.6545, 98.3278, 27.111, 0.0346579, 0, 0, 0.999399,  True, '2005-02-09 10:00:00'); /* Water Golem */
+VALUES (0x7B4A4000,   941, 0xB4A40000, 92.6545, 98.3278, 27.111, 0.034658, 0, 0, 0.999399,  True, '2005-02-09 10:00:00'); /* Water Golem */
 /* @teleloc 0xB4A40000 [92.654503 98.327797 27.111000] 0.034658 0.000000 0.000000 0.999399 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -25,7 +25,7 @@ VALUES (0x7B4A4005,   941, 0xB4A40000, 183.408, 187.587, 27.111, 0.71648, 0, 0, 
 /* @teleloc 0xB4A40000 [183.408005 187.587006 27.111000] 0.716480 0.000000 0.000000 -0.697608 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B4A4006,   941, 0xB4A40000, 151.514, 177.411, 27.111, 0.999428, 0, 0, 0.0338292,  True, '2005-02-09 10:00:00'); /* Water Golem */
+VALUES (0x7B4A4006,   941, 0xB4A40000, 151.514, 177.411, 27.111, 0.999428, 0, 0, 0.033829,  True, '2005-02-09 10:00:00'); /* Water Golem */
 /* @teleloc 0xB4A40000 [151.514008 177.410995 27.111000] 0.999428 0.000000 0.000000 0.033829 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

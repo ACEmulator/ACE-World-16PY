@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x5653;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75653000, 21485, 0x5653012C, 10.277, -5.6044, 12.005, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Bookshelf */
+VALUES (0x75653000, 21485, 0x5653012C, 10.277, -5.6044, 12.005, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Bookshelf */
 /* @teleloc 0x5653012C [10.277000 -5.604400 12.005000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -30,9 +30,9 @@ VALUES (0x75653010, 21423, 0x565301A4, 17.8603, -9.144, 48.005, 1, 0, 0, 0.00071
 /* @teleloc 0x565301A4 [17.860300 -9.144000 48.005001] 1.000000 0.000000 0.000000 0.000710 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75653011, 21407, 0x565301A7, 32.0414, -9.63425, 48.005, 0.999994, 0, 0, 0.00332623, False, '2005-02-09 10:00:00'); /* Electric Destruction */
+VALUES (0x75653011, 21407, 0x565301A7, 32.0414, -9.63425, 48.005, 0.999994, 0, 0, 0.003326, False, '2005-02-09 10:00:00'); /* Electric Destruction */
 /* @teleloc 0x565301A7 [32.041401 -9.634250 48.005001] 0.999994 0.000000 0.000000 0.003326 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75653012, 21408, 0x565301A7, 27.403, -9.36988, 48.005, 0.999994, 0, 0, 0.00332623, False, '2005-02-09 10:00:00'); /* Entropic Decay */
+VALUES (0x75653012, 21408, 0x565301A7, 27.403, -9.36988, 48.005, 0.999994, 0, 0, 0.003326, False, '2005-02-09 10:00:00'); /* Entropic Decay */
 /* @teleloc 0x565301A7 [27.403000 -9.369880 48.005001] 0.999994 0.000000 0.000000 0.003326 */

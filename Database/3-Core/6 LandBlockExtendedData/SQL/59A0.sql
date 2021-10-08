@@ -33,7 +33,7 @@ VALUES (0x759A0007,   908, 0x59A00000, 78.2151, 34.9103, 17.0958, 0.905471, 0, 0
 /* @teleloc 0x59A00000 [78.215103 34.910301 17.095800] 0.905471 0.000000 0.000000 0.424409 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x759A0008,   908, 0x59A00000, 66.8304, 35.9974, 17.0052, 0.996103, 0, 0, 0.0881948, False, '2005-02-09 10:00:00'); /* Reedshark Veteran Generator */
+VALUES (0x759A0008,   908, 0x59A00000, 66.8304, 35.9974, 17.0052, 0.996103, 0, 0, 0.088195, False, '2005-02-09 10:00:00'); /* Reedshark Veteran Generator */
 /* @teleloc 0x59A00000 [66.830399 35.997398 17.005199] 0.996103 0.000000 0.000000 0.088195 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xABB1;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7ABB1000, 12495, 0xABB10000, 60.2662, 121.878, 95.9644, 0.999926, 0, 0, 0.0121818, False, '2005-02-09 10:00:00'); /* Evensong Settlement Portal */
+VALUES (0x7ABB1000, 12495, 0xABB10000, 60.2662, 121.878, 95.9644, 0.999926, 0, 0, 0.012182, False, '2005-02-09 10:00:00'); /* Evensong Settlement Portal */
 /* @teleloc 0xABB10000 [60.266201 121.877998 95.964401] 0.999926 0.000000 0.000000 0.012182 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

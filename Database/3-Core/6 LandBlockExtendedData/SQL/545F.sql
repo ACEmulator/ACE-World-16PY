@@ -9,11 +9,11 @@ VALUES (0x7545F001, 19484, 0x545F0100, 30, -100, -96, 1, 0, 0, 0, False, '2005-0
 /* @teleloc 0x545F0100 [30.000000 -100.000000 -96.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545F002, 19484, 0x545F0101, 30, -100, -90, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Essence Font */
+VALUES (0x7545F002, 19484, 0x545F0101, 30, -100, -90, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Essence Font */
 /* @teleloc 0x545F0101 [30.000000 -100.000000 -90.000000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545F004, 19484, 0x545F0106, 30, -100, -84, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Essence Font */
+VALUES (0x7545F004, 19484, 0x545F0106, 30, -100, -84, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Essence Font */
 /* @teleloc 0x545F0106 [30.000000 -100.000000 -84.000000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -29,7 +29,7 @@ VALUES (0x7545F008,   199, 0x545F010C, 26.4952, -40.0651, -83.99, -0.116162, 0, 
 /* @teleloc 0x545F010C [26.495199 -40.065102 -83.989998] -0.116162 0.000000 0.000000 0.993230 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545F009, 19484, 0x545F0113, 30, -100, -78, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Essence Font */
+VALUES (0x7545F009, 19484, 0x545F0113, 30, -100, -78, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Essence Font */
 /* @teleloc 0x545F0113 [30.000000 -100.000000 -78.000000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -97,19 +97,19 @@ VALUES (0x7545F019,   199, 0x545F013D, 12.5251, -31.6643, -53.99, 0.066114, 0, 0
 /* @teleloc 0x545F013D [12.525100 -31.664301 -53.990002] 0.066114 0.000000 0.000000 0.997812 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545F01A,   199, 0x545F013F, 10, -50, -53.99, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Magma Golem */
+VALUES (0x7545F01A,   199, 0x545F013F, 10, -50, -53.99, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Magma Golem */
 /* @teleloc 0x545F013F [10.000000 -50.000000 -53.990002] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545F01B,   199, 0x545F013F, 7.99533, -47.4928, -53.99, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Magma Golem */
+VALUES (0x7545F01B,   199, 0x545F013F, 7.99533, -47.4928, -53.99, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Magma Golem */
 /* @teleloc 0x545F013F [7.995330 -47.492802 -53.990002] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545F01C,   199, 0x545F013F, 11.6998, -47.4928, -53.99, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Magma Golem */
+VALUES (0x7545F01C,   199, 0x545F013F, 11.6998, -47.4928, -53.99, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Magma Golem */
 /* @teleloc 0x545F013F [11.699800 -47.492802 -53.990002] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545F01D,   199, 0x545F0143, 10, -70, -53.99, 0.999687, 0, 0, 0.0249976,  True, '2005-02-09 10:00:00'); /* Magma Golem */
+VALUES (0x7545F01D,   199, 0x545F0143, 10, -70, -53.99, 0.999687, 0, 0, 0.024998,  True, '2005-02-09 10:00:00'); /* Magma Golem */
 /* @teleloc 0x545F0143 [10.000000 -70.000000 -53.990002] 0.999687 0.000000 0.000000 0.024998 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -200,11 +200,11 @@ VALUES (0x7545F033, 22933, 0x545F01D3, 171.082, -139.626, -11.99, 0.99875, 0, 0,
 /* @teleloc 0x545F01D3 [171.082001 -139.626007 -11.990000] 0.998750 0.000000 0.000000 0.049979 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545F034,  7607, 0x545F01EF, 39.7992, -41.9978, -5.9935, -0.00269828, 0, 0, 0.999996,  True, '2005-02-09 10:00:00'); /* Ember */
+VALUES (0x7545F034,  7607, 0x545F01EF, 39.7992, -41.9978, -5.9935, -0.002698, 0, 0, 0.999996,  True, '2005-02-09 10:00:00'); /* Ember */
 /* @teleloc 0x545F01EF [39.799198 -41.997799 -5.993500] -0.002698 0.000000 0.000000 0.999996 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545F035,  7607, 0x545F01EF, 39.7894, -40.1673, -5.9935, -0.00269828, 0, 0, 0.999996,  True, '2005-02-09 10:00:00'); /* Ember */
+VALUES (0x7545F035,  7607, 0x545F01EF, 39.7894, -40.1673, -5.9935, -0.002698, 0, 0, 0.999996,  True, '2005-02-09 10:00:00'); /* Ember */
 /* @teleloc 0x545F01EF [39.789398 -40.167301 -5.993500] -0.002698 0.000000 0.000000 0.999996 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -320,7 +320,7 @@ VALUES (0x7545F041, 14516, 0x545F0259, 170.148, -54.7901, 6.055, -0.991248, 0, 0
 /* @teleloc 0x545F0259 [170.147995 -54.790100 6.055000] -0.991248 0.000000 0.000000 0.132013 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545F042, 14516, 0x545F025F, 170, -70, 6.0075, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Caustic */
+VALUES (0x7545F042, 14516, 0x545F025F, 170, -70, 6.0075, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Caustic */
 /* @teleloc 0x545F025F [170.000000 -70.000000 6.007500] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -399,9 +399,9 @@ VALUES (0x7545F054,   199, 0x545F01AA, 40, -90, -17.99, 1, 0, 0, 0,  True, '2005
 /* @teleloc 0x545F01AA [40.000000 -90.000000 -17.990000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545F055,  7607, 0x545F01AE, 40, -110, -17.9935, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Ember */
+VALUES (0x7545F055,  7607, 0x545F01AE, 40, -110, -17.9935, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Ember */
 /* @teleloc 0x545F01AE [40.000000 -110.000000 -17.993500] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545F056,  7607, 0x545F01AE, 38.104, -110, -17.9935, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Ember */
+VALUES (0x7545F056,  7607, 0x545F01AE, 38.104, -110, -17.9935, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Ember */
 /* @teleloc 0x545F01AE [38.104000 -110.000000 -17.993500] 1.000000 0.000000 0.000000 -0.000000 */

@@ -22,11 +22,11 @@ VALUES (0x7B96F066, 24859, 0xB96F0000, 149.146, 134.568, 10.029, 0.528902, 0, 0,
 /* @teleloc 0xB96F0000 [149.145996 134.567993 10.029000] 0.528902 0.000000 0.000000 0.848683 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B96F067, 24858, 0xB96F0000, 107.82, 54.0314, 10.805, 0.999848, 0, 0, 0.0174132,  True, '2005-02-09 10:00:00'); /* Issk */
+VALUES (0x7B96F067, 24858, 0xB96F0000, 107.82, 54.0314, 10.805, 0.999848, 0, 0, 0.017413,  True, '2005-02-09 10:00:00'); /* Issk */
 /* @teleloc 0xB96F0000 [107.820000 54.031399 10.805000] 0.999848 0.000000 0.000000 0.017413 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B96F068, 24862, 0xB96F0000, 97.96, 54.8623, 10.005, 0.0783016, 0, 0, 0.99693, False, '2005-02-09 10:00:00'); /* Tunnels to the Harbinger */
+VALUES (0x7B96F068, 24862, 0xB96F0000, 97.96, 54.8623, 10.005, 0.078302, 0, 0, 0.99693, False, '2005-02-09 10:00:00'); /* Tunnels to the Harbinger */
 /* @teleloc 0xB96F0000 [97.959999 54.862301 10.005000] 0.078302 0.000000 0.000000 0.996930 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

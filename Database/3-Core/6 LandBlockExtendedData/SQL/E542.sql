@@ -70,5 +70,5 @@ VALUES (0x7E542012,  5108, 0xE5420000, 89.0943, 28.025, 58.005, 0.507255, 0, 0, 
 /* @teleloc 0xE5420000 [89.094299 28.025000 58.005001] 0.507255 0.000000 0.000000 0.861796 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E542021, 25828, 0xE5420108, 111.256, 17.1963, 60.505, 0.00267277, 0, 0, 0.999996,  True, '2005-02-09 10:00:00'); /* Ikomi Ra, Jojii Adherent */
+VALUES (0x7E542021, 25828, 0xE5420108, 111.256, 17.1963, 60.505, 0.002673, 0, 0, 0.999996,  True, '2005-02-09 10:00:00'); /* Ikomi Ra, Jojii Adherent */
 /* @teleloc 0xE5420108 [111.255997 17.196301 60.505001] 0.002673 0.000000 0.000000 0.999996 */

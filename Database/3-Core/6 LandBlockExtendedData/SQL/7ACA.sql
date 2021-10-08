@@ -21,7 +21,7 @@ VALUES (0x77ACA004,  1380, 0x7ACA013C, 54.4577, 12.2643, 200.005, -0.741899, 0, 
 /* @teleloc 0x7ACA013C [54.457699 12.264300 200.005005] -0.741899 0.000000 0.000000 -0.670512 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77ACA008,  1902, 0x7ACA0000, 75.1481, 16.3678, 200.005, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Hilltop */
+VALUES (0x77ACA008,  1902, 0x7ACA0000, 75.1481, 16.3678, 200.005, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Hilltop */
 /* @teleloc 0x7ACA0000 [75.148102 16.367800 200.005005] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

@@ -29,7 +29,7 @@ VALUES (0x72D26002, 23489, 0x2D260000, 51.967, 77.8425, 98.029, -0.593292, 0, 0,
 /* @teleloc 0x2D260000 [51.966999 77.842499 98.028999] -0.593292 0.000000 0.000000 0.804987 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72D26003, 24278, 0x2D260000, 56.0884, 66.255, 98.4832, -0.0262085, 0, 0, 0.999656,  True, '2005-02-09 10:00:00'); /* Drudge Cabalist */
+VALUES (0x72D26003, 24278, 0x2D260000, 56.0884, 66.255, 98.4832, -0.026209, 0, 0, 0.999656,  True, '2005-02-09 10:00:00'); /* Drudge Cabalist */
 /* @teleloc 0x2D260000 [56.088402 66.254997 98.483200] -0.026208 0.000000 0.000000 0.999656 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

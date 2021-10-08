@@ -1,11 +1,11 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xE822;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E822000,   720, 0xE8220108, 88.9719, 57.019, 24.5, -0.999966, 0, 0, -0.0082894, False, '2005-02-09 10:00:00'); /* Sliding Door */
+VALUES (0x7E822000,   720, 0xE8220108, 88.9719, 57.019, 24.5, -0.999966, 0, 0, -0.008289, False, '2005-02-09 10:00:00'); /* Sliding Door */
 /* @teleloc 0xE8220108 [88.971901 57.019001 24.500000] -0.999966 0.000000 0.000000 -0.008289 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E822001,   720, 0xE822010B, 88.8708, 63.1181, 24.5, -0.999966, 0, 0, -0.0082894, False, '2005-02-09 10:00:00'); /* Sliding Door */
+VALUES (0x7E822001,   720, 0xE822010B, 88.8708, 63.1181, 24.5, -0.999966, 0, 0, -0.008289, False, '2005-02-09 10:00:00'); /* Sliding Door */
 /* @teleloc 0xE822010B [88.870796 63.118099 24.500000] -0.999966 0.000000 0.000000 -0.008289 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -21,7 +21,7 @@ VALUES (0x7E822004,   720, 0xE822011B, 159.05, 103.175, 2.5, 0.707107, 0, 0, -0.
 /* @teleloc 0xE822011B [159.050003 103.175003 2.500000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E822005,   720, 0xE8220000, 156, 97.575, -6.69388E-10, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Sliding Door */
+VALUES (0x7E822005,   720, 0xE8220000, 156, 97.575, -0, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Sliding Door */
 /* @teleloc 0xE8220000 [156.000000 97.574997 -0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -45,11 +45,11 @@ VALUES (0x7E82200A,  8449, 0xE8220000, 157, 96.5, 2.9, -0.707107, 0, 0, -0.70710
 /* @teleloc 0xE8220000 [157.000000 96.500000 2.900000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E82200B,  8446, 0xE8220000, 95.5, 60.2, 25, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* The Magi's Refuge */
+VALUES (0x7E82200B,  8446, 0xE8220000, 95.5, 60.2, 25, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* The Magi's Refuge */
 /* @teleloc 0xE8220000 [95.500000 60.200001 25.000000] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E82200C,  8452, 0xE8220000, 114.041, 145.466, 0.00499997, 0.909006, 0, 0, 0.416783, False, '2005-02-09 10:00:00'); /* Kryst */
+VALUES (0x7E82200C,  8452, 0xE8220000, 114.041, 145.466, 0.005, 0.909006, 0, 0, 0.416783, False, '2005-02-09 10:00:00'); /* Kryst */
 /* @teleloc 0xE8220000 [114.041000 145.466003 0.005000] 0.909006 0.000000 0.000000 0.416783 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

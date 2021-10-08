@@ -13,11 +13,11 @@ VALUES (0x75458002, 19276, 0x54580102, 123.347, -160.185, -5.985, 0.730107, 0, 0
 /* @teleloc 0x54580102 [123.347000 -160.184998 -5.985000] 0.730107 0.000000 0.000000 -0.683332 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75458003, 19276, 0x54580109, 130.204, -186.447, -5.985, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Golem */
+VALUES (0x75458003, 19276, 0x54580109, 130.204, -186.447, -5.985, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Golem */
 /* @teleloc 0x54580109 [130.203995 -186.447006 -5.985000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75458006, 19276, 0x5458011A, 150.095, -186.486, -5.985, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Golem */
+VALUES (0x75458006, 19276, 0x5458011A, 150.095, -186.486, -5.985, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Golem */
 /* @teleloc 0x5458011A [150.095001 -186.485992 -5.985000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -65,7 +65,7 @@ VALUES (0x75458012, 19276, 0x54580146, 190.12, -143.919, -5.985, 0.020795, 0, 0,
 /* @teleloc 0x54580146 [190.119995 -143.919006 -5.985000] 0.020795 0.000000 0.000000 0.999784 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75458013, 19285, 0x5458014F, 190.118, -225.765, -5.945, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Tumerok */
+VALUES (0x75458013, 19285, 0x5458014F, 190.118, -225.765, -5.945, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Tumerok */
 /* @teleloc 0x5458014F [190.117996 -225.764999 -5.945000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -81,7 +81,7 @@ VALUES (0x75458018, 19279, 0x54580168, 199.794, -145.512, -5.995, 0.04578, 0, 0,
 /* @teleloc 0x54580168 [199.794006 -145.511993 -5.995000] 0.045780 0.000000 0.000000 0.998952 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75458019, 19285, 0x5458016E, 200, -180, -5.98625, -0.999862, 0, 0, -0.0165909,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Tumerok */
+VALUES (0x75458019, 19285, 0x5458016E, 200, -180, -5.98625, -0.999862, 0, 0, -0.016591,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Tumerok */
 /* @teleloc 0x5458016E [200.000000 -180.000000 -5.986250] -0.999862 0.000000 0.000000 -0.016591 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -93,7 +93,7 @@ VALUES (0x7545801D, 19285, 0x54580183, 210.208, -142.855, -5.98625, -0.0292, 0, 
 /* @teleloc 0x54580183 [210.207993 -142.854996 -5.986250] -0.029200 0.000000 0.000000 0.999574 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545801E, 19285, 0x5458018C, 210.06, -225.843, -5.945, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Tumerok */
+VALUES (0x7545801E, 19285, 0x5458018C, 210.06, -225.843, -5.945, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Tumerok */
 /* @teleloc 0x5458018C [210.059998 -225.843002 -5.945000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -149,7 +149,7 @@ VALUES (0x75458033, 19276, 0x545801D5, 120, -110, 0.015, 0.731689, 0, 0, 0.68163
 /* @teleloc 0x545801D5 [120.000000 -110.000000 0.015000] 0.731689 0.000000 0.000000 0.681639 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75458034, 19276, 0x545801D8, 120.117, -136.413, 0.015, 0.999463, 0, 0, -0.0327531,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Golem */
+VALUES (0x75458034, 19276, 0x545801D8, 120.117, -136.413, 0.015, 0.999463, 0, 0, -0.032753,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Golem */
 /* @teleloc 0x545801D8 [120.116997 -136.412994 0.015000] 0.999463 0.000000 0.000000 -0.032753 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -169,7 +169,7 @@ VALUES (0x75458038, 19279, 0x545801EC, 140.192, -83.6721, 0.005, 0.149129, 0, 0,
 /* @teleloc 0x545801EC [140.192001 -83.672096 0.005000] 0.149129 0.000000 0.000000 -0.988818 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75458039, 19285, 0x545801EE, 139.644, -98.2356, 0.01375, 0.0839555, 0, 0, -0.996469,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Tumerok */
+VALUES (0x75458039, 19285, 0x545801EE, 139.644, -98.2356, 0.01375, 0.083956, 0, 0, -0.996469,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Tumerok */
 /* @teleloc 0x545801EE [139.643997 -98.235603 0.013750] 0.083955 0.000000 0.000000 -0.996469 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -328,7 +328,7 @@ VALUES (0x7545804C, 19276, 0x5458027C, 38.0921, -121.209, 6.015, 0.889293, 0, 0,
 /* @teleloc 0x5458027C [38.092098 -121.209000 6.015000] 0.889293 0.000000 0.000000 0.457338 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545804D, 19282, 0x5458027E, 40, -136.71, 6.00575, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Skeleton */
+VALUES (0x7545804D, 19282, 0x5458027E, 40, -136.71, 6.00575, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Skeleton */
 /* @teleloc 0x5458027E [40.000000 -136.710007 6.005750] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -336,7 +336,7 @@ VALUES (0x7545804E, 19285, 0x5458027F, 49.9548, -64.75, 6.055, 0.020795, 0, 0, 0
 /* @teleloc 0x5458027F [49.954800 -64.750000 6.055000] 0.020795 0.000000 0.000000 0.999784 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545804F, 19276, 0x54580296, 49.987, -157.009, 6.015, 0.99875, 0, 0, -0.0499791,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Golem */
+VALUES (0x7545804F, 19276, 0x54580296, 49.987, -157.009, 6.015, 0.99875, 0, 0, -0.049979,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Golem */
 /* @teleloc 0x54580296 [49.987000 -157.009003 6.015000] 0.998750 0.000000 0.000000 -0.049979 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -380,7 +380,7 @@ VALUES (0x7545805D, 19279, 0x545802F2, 120, -20, 6.005, 1, 0, 0, 0,  True, '2005
 /* @teleloc 0x545802F2 [120.000000 -20.000000 6.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545805E, 19279, 0x545802FA, 120.094, -55.6283, 6.005, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Sclavus */
+VALUES (0x7545805E, 19279, 0x545802FA, 120.094, -55.6283, 6.005, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Sclavus */
 /* @teleloc 0x545802FA [120.094002 -55.628300 6.005000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

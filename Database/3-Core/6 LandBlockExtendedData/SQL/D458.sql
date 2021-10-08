@@ -1,15 +1,15 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xD458;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D458000,   720, 0xD4580000, 60, 91.55, 50, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Sliding Door */
+VALUES (0x7D458000,   720, 0xD4580000, 60, 91.55, 50, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Sliding Door */
 /* @teleloc 0xD4580000 [60.000000 91.550003 50.000000] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D458001,   720, 0xD4580000, 60, 76.4753, 53, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Sliding Door */
+VALUES (0x7D458001,   720, 0xD4580000, 60, 76.4753, 53, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Sliding Door */
 /* @teleloc 0xD4580000 [60.000000 76.475304 53.000000] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D458002,   720, 0xD4580000, 60, 91.55, 53, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Sliding Door */
+VALUES (0x7D458002,   720, 0xD4580000, 60, 91.55, 53, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Sliding Door */
 /* @teleloc 0xD4580000 [60.000000 91.550003 53.000000] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -21,7 +21,7 @@ VALUES (0x7D458004,   720, 0xD4580000, 67.55, 84, 53, 0.707107, 0, 0, -0.707107,
 /* @teleloc 0xD4580000 [67.550003 84.000000 53.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D458005,  1474, 0xD4580103, 59.9489, 84.8657, 50.005, -0.999991, 0, 0, 0.00428252, False, '2005-02-09 10:00:00'); /* Drudge Robber Generator */
+VALUES (0x7D458005,  1474, 0xD4580103, 59.9489, 84.8657, 50.005, -0.999991, 0, 0, 0.004283, False, '2005-02-09 10:00:00'); /* Drudge Robber Generator */
 /* @teleloc 0xD4580103 [59.948898 84.865700 50.005001] -0.999991 0.000000 0.000000 0.004283 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

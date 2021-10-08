@@ -28,5 +28,5 @@ VALUES (0x7BAE9005,  7626, 0xBAE90000, 5.68442, 142.615, -0.44, 0.503442, 0, 0, 
 /* @teleloc 0xBAE90000 [5.684420 142.615005 -0.440000] 0.503442 0.000000 0.000000 -0.864029 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BAE9006,  7507, 0xBAE90000, 5.73818, 169.012, -0.44, -0.00351087, 0, 0, 0.999994,  True, '2005-02-09 10:00:00'); /* Coral Golem */
+VALUES (0x7BAE9006,  7507, 0xBAE90000, 5.73818, 169.012, -0.44, -0.003511, 0, 0, 0.999994,  True, '2005-02-09 10:00:00'); /* Coral Golem */
 /* @teleloc 0xBAE90000 [5.738180 169.011993 -0.440000] -0.003511 0.000000 0.000000 0.999994 */

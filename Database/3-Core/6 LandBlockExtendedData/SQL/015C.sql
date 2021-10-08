@@ -5,7 +5,7 @@ VALUES (0x7015C000,    13, 0x015C0103, 0.813215, -74.1906, 0.004, -0.69041, 0, 0
 /* @teleloc 0x015C0103 [0.813215 -74.190598 0.004000] -0.690410 0.000000 0.000000 -0.723419 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7015C001,  7923, 0x015C0107, 10, -40, 0, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
+VALUES (0x7015C001,  7923, 0x015C0107, 10, -40, 0, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x015C0107 [10.000000 -40.000000 0.000000] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -27,7 +27,7 @@ VALUES (0x7015C001, 0x7015C000, '2005-02-09 10:00:00') /* White Rat (13) */
      , (0x7015C001, 0x7015C011, '2005-02-09 10:00:00') /* Brown Rat (220) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7015C002,    13, 0x015C010A, 9.08183, -71.822, 0.004, -0.995323, 0, 0, -0.0966056,  True, '2005-02-09 10:00:00'); /* White Rat */
+VALUES (0x7015C002,    13, 0x015C010A, 9.08183, -71.822, 0.004, -0.995323, 0, 0, -0.096606,  True, '2005-02-09 10:00:00'); /* White Rat */
 /* @teleloc 0x015C010A [9.081830 -71.821999 0.004000] -0.995323 0.000000 0.000000 -0.096606 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

@@ -110,11 +110,11 @@ VALUES (0x7238101F, 0x72381020, '2005-02-09 10:00:00') /* Renegade Commander Wal
      , (0x7238101F, 0x72381022, '2005-02-09 10:00:00') /* General Garsh (24496) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72381020, 24501, 0x23810102, 106.081, 113.559, 220.008, -0.0883572, 0, 0, 0.996089,  True, '2005-02-09 10:00:00'); /* Renegade Commander Walanawa */
+VALUES (0x72381020, 24501, 0x23810102, 106.081, 113.559, 220.008, -0.088357, 0, 0, 0.996089,  True, '2005-02-09 10:00:00'); /* Renegade Commander Walanawa */
 /* @teleloc 0x23810102 [106.081001 113.558998 220.007996] -0.088357 0.000000 0.000000 0.996089 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72381021, 24500, 0x2381010E, 80.7372, 5.6012, 220.008, 0.999629, 0, 0, -0.0272373,  True, '2005-02-09 10:00:00'); /* Renegade Commander Kianar */
+VALUES (0x72381021, 24500, 0x2381010E, 80.7372, 5.6012, 220.008, 0.999629, 0, 0, -0.027237,  True, '2005-02-09 10:00:00'); /* Renegade Commander Kianar */
 /* @teleloc 0x2381010E [80.737198 5.601200 220.007996] 0.999629 0.000000 0.000000 -0.027237 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

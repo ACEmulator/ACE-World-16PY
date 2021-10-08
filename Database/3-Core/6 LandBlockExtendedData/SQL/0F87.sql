@@ -5,7 +5,7 @@ VALUES (0x70F87000,   509, 0x0F870000, 16.9823, 161.638, 57.9503, -0.10197, 0, 0
 /* @teleloc 0x0F870000 [16.982300 161.638000 57.950298] -0.101970 0.000000 0.000000 0.994787 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70F87001,  8431, 0x0F870000, 59.9988, 50.9934, 70.0065, 0.0311801, 0, 0, 0.999514,  True, '2005-02-09 10:00:00'); /* Nomad Mu-miyah */
+VALUES (0x70F87001,  8431, 0x0F870000, 59.9988, 50.9934, 70.0065, 0.03118, 0, 0, 0.999514,  True, '2005-02-09 10:00:00'); /* Nomad Mu-miyah */
 /* @teleloc 0x0F870000 [59.998798 50.993401 70.006500] 0.031180 0.000000 0.000000 0.999514 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

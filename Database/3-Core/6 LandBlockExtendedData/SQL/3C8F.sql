@@ -10,7 +10,7 @@ VALUES (0x73C8F000, 0x73C8F001, '2005-02-09 10:00:00') /* Lich Lord (1630) */
      , (0x73C8F000, 0x73C8F003, '2005-02-09 10:00:00') /* Lich (204) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73C8F001,  1630, 0x3C8F0000, 58.9626, 121.326, 120.155, -0.0328929, 0, 0, -0.999459,  True, '2005-02-09 10:00:00'); /* Lich Lord */
+VALUES (0x73C8F001,  1630, 0x3C8F0000, 58.9626, 121.326, 120.155, -0.032893, 0, 0, -0.999459,  True, '2005-02-09 10:00:00'); /* Lich Lord */
 /* @teleloc 0x3C8F0000 [58.962601 121.325996 120.154999] -0.032893 0.000000 0.000000 -0.999459 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

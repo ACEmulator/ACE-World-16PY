@@ -5,7 +5,7 @@ VALUES (0x702BB000,  1104, 0x02BB0100, 3.29999, -10, -18, 0.707107, 0, 0, -0.707
 /* @teleloc 0x02BB0100 [3.299990 -10.000000 -18.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702BB001,  4042, 0x02BB0101, 10, -3.3, -18, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Plateau Portal */
+VALUES (0x702BB001,  4042, 0x02BB0101, 10, -3.3, -18, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Plateau Portal */
 /* @teleloc 0x02BB0101 [10.000000 -3.300000 -18.000000] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -13,7 +13,7 @@ VALUES (0x702BB002,  1032, 0x02BB0103, 10, -16.7, -18, 1, 0, 0, 0, False, '2005-
 /* @teleloc 0x02BB0103 [10.000000 -16.700001 -18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702BB003,  6086, 0x02BB0104, 20, -3.3, -18, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Portal to Neydisa Castle */
+VALUES (0x702BB003,  6086, 0x02BB0104, 20, -3.3, -18, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Portal to Neydisa Castle */
 /* @teleloc 0x02BB0104 [20.000000 -3.300000 -18.000000] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -21,7 +21,7 @@ VALUES (0x702BB004,  1018, 0x02BB0106, 20, -16.7, -18, 1, 0, 0, 0, False, '2005-
 /* @teleloc 0x02BB0106 [20.000000 -16.700001 -18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702BB005,  4037, 0x02BB0107, 30, -3.3, -18, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Baishi Portal */
+VALUES (0x702BB005,  4037, 0x02BB0107, 30, -3.3, -18, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Baishi Portal */
 /* @teleloc 0x02BB0107 [30.000000 -3.300000 -18.000000] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -29,7 +29,7 @@ VALUES (0x702BB006,  4038, 0x02BB0109, 30, -16.7, -18, 1, 0, 0, 0, False, '2005-
 /* @teleloc 0x02BB0109 [30.000000 -16.700001 -18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702BB007,  1017, 0x02BB010A, 40, -3.3, -18, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Glenden Wood Portal */
+VALUES (0x702BB007,  1017, 0x02BB010A, 40, -3.3, -18, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Glenden Wood Portal */
 /* @teleloc 0x02BB010A [40.000000 -3.300000 -18.000000] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

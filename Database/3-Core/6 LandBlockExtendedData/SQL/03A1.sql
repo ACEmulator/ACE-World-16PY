@@ -21,7 +21,7 @@ VALUES (0x703A1004,  1610, 0x03A1010E, 148.472, -141.719, -35.995, 0.972432, 0, 
 /* @teleloc 0x03A1010E [148.472000 -141.718994 -35.994999] 0.972432 0.000000 0.000000 0.233185 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x703A1005,  1610, 0x03A1010E, 147.866, -138.452, -35.995, 0.996212, 0, 0, 0.0869599,  True, '2005-02-09 10:00:00'); /* Drudge Ravener */
+VALUES (0x703A1005,  1610, 0x03A1010E, 147.866, -138.452, -35.995, 0.996212, 0, 0, 0.08696,  True, '2005-02-09 10:00:00'); /* Drudge Ravener */
 /* @teleloc 0x03A1010E [147.865997 -138.451996 -35.994999] 0.996212 0.000000 0.000000 0.086960 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -68,7 +68,7 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x703A100C, 0x703A100D, '2005-02-09 10:00:00') /* Singular Doll (12237) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x703A100D, 12237, 0x03A10116, 168.303, -78.214, -35.971, 0.999949, 0, 0, -0.0100897,  True, '2005-02-09 10:00:00'); /* Singular Doll */
+VALUES (0x703A100D, 12237, 0x03A10116, 168.303, -78.214, -35.971, 0.999949, 0, 0, -0.01009,  True, '2005-02-09 10:00:00'); /* Singular Doll */
 /* @teleloc 0x03A10116 [168.302994 -78.213997 -35.971001] 0.999949 0.000000 0.000000 -0.010090 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -168,15 +168,15 @@ VALUES (0x703A1025,  9243, 0x03A10200, 91.2771, -226.272, -17.971, -0.21638, 0, 
 /* @teleloc 0x03A10200 [91.277100 -226.272003 -17.971001] -0.216380 0.000000 0.000000 -0.976309 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x703A1026,  9243, 0x03A10200, 88.5449, -226.995, -17.971, -0.00543694, 0, 0, -0.999985,  True, '2005-02-09 10:00:00'); /* Innocuous Doll */
+VALUES (0x703A1026,  9243, 0x03A10200, 88.5449, -226.995, -17.971, -0.005437, 0, 0, -0.999985,  True, '2005-02-09 10:00:00'); /* Innocuous Doll */
 /* @teleloc 0x03A10200 [88.544899 -226.994995 -17.971001] -0.005437 0.000000 0.000000 -0.999985 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x703A1027,  1610, 0x03A10201, 89.4099, -240.244, -17.995, -0.00790334, 0, 0, -0.999969,  True, '2005-02-09 10:00:00'); /* Drudge Ravener */
+VALUES (0x703A1027,  1610, 0x03A10201, 89.4099, -240.244, -17.995, -0.007903, 0, 0, -0.999969,  True, '2005-02-09 10:00:00'); /* Drudge Ravener */
 /* @teleloc 0x03A10201 [89.409897 -240.244003 -17.995001] -0.007903 0.000000 0.000000 -0.999969 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x703A1028,  1610, 0x03A10201, 91.1925, -242.878, -17.995, -0.00883744, 0, 0, -0.999961,  True, '2005-02-09 10:00:00'); /* Drudge Ravener */
+VALUES (0x703A1028,  1610, 0x03A10201, 91.1925, -242.878, -17.995, -0.008837, 0, 0, -0.999961,  True, '2005-02-09 10:00:00'); /* Drudge Ravener */
 /* @teleloc 0x03A10201 [91.192497 -242.878006 -17.995001] -0.008837 0.000000 0.000000 -0.999961 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

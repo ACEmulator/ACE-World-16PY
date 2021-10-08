@@ -28,7 +28,7 @@ VALUES (0x7937F007,  4673, 0x937F0000, 182.079, 102.096, 32.3271, -0.318408, 0, 
 /* @teleloc 0x937F0000 [182.078995 102.096001 32.327099] -0.318408 0.000000 0.000000 -0.947954 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7937F008,  5137, 0x937F0101, 156.734, 86.894, 33.705, -0.998841, 0, 0, -0.0481271,  True, '2005-02-09 10:00:00'); /* Rubid al-Jurma */
+VALUES (0x7937F008,  5137, 0x937F0101, 156.734, 86.894, 33.705, -0.998841, 0, 0, -0.048127,  True, '2005-02-09 10:00:00'); /* Rubid al-Jurma */
 /* @teleloc 0x937F0101 [156.733994 86.893997 33.705002] -0.998841 0.000000 0.000000 -0.048127 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

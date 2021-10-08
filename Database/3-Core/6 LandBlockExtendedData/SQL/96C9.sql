@@ -5,7 +5,7 @@ VALUES (0x796C9000,   952, 0x96C90000, 20.8499, 112.541, 54.53, -0.445985, 0, 0,
 /* @teleloc 0x96C90000 [20.849899 112.541000 54.529999] -0.445985 0.000000 0.000000 0.895040 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x796C9001,   952, 0x96C90000, 27.8705, 112.558, 53.3599, -0.0996088, 0, 0, 0.995027, False, '2005-02-09 10:00:00'); /* Banderling Raider Generator */
+VALUES (0x796C9001,   952, 0x96C90000, 27.8705, 112.558, 53.3599, -0.099609, 0, 0, 0.995027, False, '2005-02-09 10:00:00'); /* Banderling Raider Generator */
 /* @teleloc 0x96C90000 [27.870501 112.557999 53.359901] -0.099609 0.000000 0.000000 0.995027 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

@@ -12,7 +12,7 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x765DE001, 0x765DE000, '2005-02-09 10:00:00') /* Verdentine Magnan (19127) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x765DE003,  8059, 0x65DE0000, 17.4637, 119.735, 77.4994, 0.0263052, 0, 0, -0.999654, False, '2005-02-09 10:00:00'); /* Scrawed Grievver Camp Generator */
+VALUES (0x765DE003,  8059, 0x65DE0000, 17.4637, 119.735, 77.4994, 0.026305, 0, 0, -0.999654, False, '2005-02-09 10:00:00'); /* Scrawed Grievver Camp Generator */
 /* @teleloc 0x65DE0000 [17.463699 119.735001 77.499397] 0.026305 0.000000 0.000000 -0.999654 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

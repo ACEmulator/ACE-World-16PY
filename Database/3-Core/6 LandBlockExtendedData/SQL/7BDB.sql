@@ -20,7 +20,7 @@ VALUES (0x77BDB008,  5712, 0x7BDB0000, 93.3773, 63.8444, 432.009, -0.536603, 0, 
 /* @teleloc 0x7BDB0000 [93.377296 63.844398 432.009003] -0.536603 0.000000 0.000000 -0.843835 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77BDB014,  5712, 0x7BDB0000, 97.0275, 68.2158, 431.837, -0.997938, 0, 0, 0.0641841,  True, '2005-02-09 10:00:00'); /* Inferno */
+VALUES (0x77BDB014,  5712, 0x7BDB0000, 97.0275, 68.2158, 431.837, -0.997938, 0, 0, 0.064184,  True, '2005-02-09 10:00:00'); /* Inferno */
 /* @teleloc 0x7BDB0000 [97.027496 68.215797 431.837006] -0.997938 0.000000 0.000000 0.064184 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -44,7 +44,7 @@ VALUES (0x77BDB01B,  5711, 0x7BDB0000, 77.5575, 56.2125, 430.302, -0.288371, 0, 
 /* @teleloc 0x7BDB0000 [77.557503 56.212502 430.302002] -0.288371 0.000000 0.000000 -0.957519 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77BDB01C,  7092, 0x7BDB0000, 89.0482, 49.4076, 431.084, 0.0540477, 0, 0, -0.998538,  True, '2005-02-09 10:00:00'); /* Firestorm */
+VALUES (0x77BDB01C,  7092, 0x7BDB0000, 89.0482, 49.4076, 431.084, 0.054048, 0, 0, -0.998538,  True, '2005-02-09 10:00:00'); /* Firestorm */
 /* @teleloc 0x7BDB0000 [89.048203 49.407600 431.084015] 0.054048 0.000000 0.000000 -0.998538 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -52,5 +52,5 @@ VALUES (0x77BDB01D,  7092, 0x7BDB0000, 103.172, 56.3976, 430.813, 0.404237, 0, 0
 /* @teleloc 0x7BDB0000 [103.171997 56.397598 430.812988] 0.404237 0.000000 0.000000 -0.914654 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77BDB020, 21416, 0x7BDB0000, 96.2313, 62.7448, 431.966, -0.999958, 0, 0, 0.00915469, False, '2005-02-09 10:00:00'); /* Fire Guardian Lair */
+VALUES (0x77BDB020, 21416, 0x7BDB0000, 96.2313, 62.7448, 431.966, -0.999958, 0, 0, 0.009155, False, '2005-02-09 10:00:00'); /* Fire Guardian Lair */
 /* @teleloc 0x7BDB0000 [96.231300 62.744801 431.966003] -0.999958 0.000000 0.000000 0.009155 */

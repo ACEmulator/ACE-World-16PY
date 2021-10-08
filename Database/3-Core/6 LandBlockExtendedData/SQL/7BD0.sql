@@ -21,7 +21,7 @@ VALUES (0x77BD000C,  1462, 0x7BD00000, 85.1139, 138.584, 99.6364, -0.476066, 0, 
 /* @teleloc 0x7BD00000 [85.113899 138.584000 99.636398] -0.476066 0.000000 0.000000 -0.879410 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77BD000D,  7086, 0x7BD00000, 86.8494, 115.413, 95.9072, 0.0641245, 0, 0, 0.997942,  True, '2005-02-09 10:00:00'); /* Banderling Thrasher */
+VALUES (0x77BD000D,  7086, 0x7BD00000, 86.8494, 115.413, 95.9072, 0.064125, 0, 0, 0.997942,  True, '2005-02-09 10:00:00'); /* Banderling Thrasher */
 /* @teleloc 0x7BD00000 [86.849403 115.413002 95.907204] 0.064125 0.000000 0.000000 0.997942 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -49,7 +49,7 @@ VALUES (0x77BD0013,  7346, 0x7BD00000, 88.6144, 135.128, 98.469, 0.870111, 0, 0,
 /* @teleloc 0x7BD00000 [88.614403 135.128006 98.469002] 0.870111 0.000000 0.000000 0.492856 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77BD0014,  7086, 0x7BD00000, 86.6989, 132.693, 99.1075, 0.999882, 0, 0, 0.0153688,  True, '2005-02-09 10:00:00'); /* Banderling Thrasher */
+VALUES (0x77BD0014,  7086, 0x7BD00000, 86.6989, 132.693, 99.1075, 0.999882, 0, 0, 0.015369,  True, '2005-02-09 10:00:00'); /* Banderling Thrasher */
 /* @teleloc 0x7BD00000 [86.698898 132.692993 99.107498] 0.999882 0.000000 0.000000 0.015369 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

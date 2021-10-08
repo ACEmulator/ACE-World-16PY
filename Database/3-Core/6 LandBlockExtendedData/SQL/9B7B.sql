@@ -16,11 +16,11 @@ VALUES (0x79B7B003,   509, 0x9B7B0000, 29.7163, 104.495, 16.483, 0.468905, 0, 0,
 /* @teleloc 0x9B7B0000 [29.716299 104.495003 16.483000] 0.468905 0.000000 0.000000 0.883249 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79B7B004,  4705, 0x9B7B0104, 18.3498, 110.065, 15.705, -0.0992857, 0, 0, 0.995059, False, '2005-02-09 10:00:00'); /* Ashqa the Shopkeeper */
+VALUES (0x79B7B004,  4705, 0x9B7B0104, 18.3498, 110.065, 15.705, -0.099286, 0, 0, 0.995059, False, '2005-02-09 10:00:00'); /* Ashqa the Shopkeeper */
 /* @teleloc 0x9B7B0104 [18.349800 110.065002 15.705000] -0.099286 0.000000 0.000000 0.995059 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79B7B005,  4673, 0x9B7B0000, 4.55382, 121.688, 16.1473, 0.997482, 0, 0, -0.0709216, False, '2005-02-09 10:00:00'); /* Samsur Outpost */
+VALUES (0x79B7B005,  4673, 0x9B7B0000, 4.55382, 121.688, 16.1473, 0.997482, 0, 0, -0.070922, False, '2005-02-09 10:00:00'); /* Samsur Outpost */
 /* @teleloc 0x9B7B0000 [4.553820 121.688004 16.147301] 0.997482 0.000000 0.000000 -0.070922 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

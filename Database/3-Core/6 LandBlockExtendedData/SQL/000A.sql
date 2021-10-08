@@ -35,7 +35,7 @@ VALUES (0x7000A009, 25879, 0x000A010D, 31.6591, -78.0868, -17.988, 0.455694, 0, 
 /* @teleloc 0x000A010D [31.659100 -78.086800 -17.988001] 0.455694 0.000000 0.000000 -0.890136 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7000A00A, 25879, 0x000A010D, 32.3081, -80.1339, -17.988, 0.99863, 0, 0, 0.0523319,  True, '2005-02-09 10:00:00'); /* Pestilence Rat */
+VALUES (0x7000A00A, 25879, 0x000A010D, 32.3081, -80.1339, -17.988, 0.99863, 0, 0, 0.052332,  True, '2005-02-09 10:00:00'); /* Pestilence Rat */
 /* @teleloc 0x000A010D [32.308102 -80.133904 -17.988001] 0.998630 0.000000 0.000000 0.052332 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -47,7 +47,7 @@ VALUES (0x7000A00C, 25879, 0x000A0112, 41.5291, -70.6904, -17.988, -0.134053, 0,
 /* @teleloc 0x000A0112 [41.529099 -70.690399 -17.988001] -0.134053 0.000000 0.000000 -0.990974 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7000A00D, 15274, 0x000A0117, 47.5147, -69.6649, -17.995, 0.0764015, 0, 0, -0.997077, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen (1 min.) */
+VALUES (0x7000A00D, 15274, 0x000A0117, 47.5147, -69.6649, -17.995, 0.076402, 0, 0, -0.997077, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen (1 min.) */
 /* @teleloc 0x000A0117 [47.514702 -69.664902 -17.995001] 0.076402 0.000000 0.000000 -0.997077 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -120,7 +120,7 @@ VALUES (0x7000A019, 25879, 0x000A0141, 19.9051, -38.6494, -5.988, 0.957996, 0, 0
 /* @teleloc 0x000A0141 [19.905100 -38.649399 -5.988000] 0.957996 0.000000 0.000000 -0.286782 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7000A01A, 25879, 0x000A0145, 17.7535, -59.1311, -5.945, 0.998899, 0, 0, -0.0469031,  True, '2005-02-09 10:00:00'); /* Pestilence Rat */
+VALUES (0x7000A01A, 25879, 0x000A0145, 17.7535, -59.1311, -5.945, 0.998899, 0, 0, -0.046903,  True, '2005-02-09 10:00:00'); /* Pestilence Rat */
 /* @teleloc 0x000A0145 [17.753500 -59.131100 -5.945000] 0.998899 0.000000 0.000000 -0.046903 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -164,7 +164,7 @@ VALUES (0x7000A025, 30712, 0x000A0175, 33.876, -59.0145, 0.029, 0.940086, 0, 0, 
 /* @teleloc 0x000A0175 [33.875999 -59.014500 0.029000] 0.940086 0.000000 0.000000 -0.340937 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7000A027, 30723, 0x000A0181, 40, 0, 0.005, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Fortified Vault Sewers */
+VALUES (0x7000A027, 30723, 0x000A0181, 40, 0, 0.005, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Fortified Vault Sewers */
 /* @teleloc 0x000A0181 [40.000000 0.000000 0.005000] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -184,11 +184,11 @@ VALUES (0x7000A029, 0x7000A01F, '2005-02-09 10:00:00') /* Restless Spirit (30712
      , (0x7000A029, 0x7000A034, '2005-02-09 10:00:00') /* Restless Spirit (30712) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7000A02A,  5621, 0x000A0192, 40.0054, -64.4875, 5.36621, -0.0110698, 0, 0, 0.999939, False, '2005-02-09 10:00:00'); /* Hot Air */
+VALUES (0x7000A02A,  5621, 0x000A0192, 40.0054, -64.4875, 5.36621, -0.01107, 0, 0, 0.999939, False, '2005-02-09 10:00:00'); /* Hot Air */
 /* @teleloc 0x000A0192 [40.005402 -64.487503 5.366210] -0.011070 0.000000 0.000000 0.999939 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7000A02B, 30712, 0x000A0193, 40.9755, -69.9885, 0.029, 0.00820805, 0, 0, 0.999966,  True, '2005-02-09 10:00:00'); /* Restless Spirit */
+VALUES (0x7000A02B, 30712, 0x000A0193, 40.9755, -69.9885, 0.029, 0.008208, 0, 0, 0.999966,  True, '2005-02-09 10:00:00'); /* Restless Spirit */
 /* @teleloc 0x000A0193 [40.975498 -69.988503 0.029000] 0.008208 0.000000 0.000000 0.999966 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

@@ -17,7 +17,7 @@ VALUES (0x7E524003, 27859, 0xE5240000, 11.8337, 5.10654, 0.005, -0.672271, 0, 0,
 /* @teleloc 0xE5240000 [11.833700 5.106540 0.005000] -0.672271 0.000000 0.000000 -0.740305 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E524004, 27860, 0xE5240000, 6.48042, 13.3014, 0.005, -0.0622315, 0, 0, -0.998062,  True, '2005-02-09 10:00:00'); /* Sallow Moarsman */
+VALUES (0x7E524004, 27860, 0xE5240000, 6.48042, 13.3014, 0.005, -0.062232, 0, 0, -0.998062,  True, '2005-02-09 10:00:00'); /* Sallow Moarsman */
 /* @teleloc 0xE5240000 [6.480420 13.301400 0.005000] -0.062231 0.000000 0.000000 -0.998062 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

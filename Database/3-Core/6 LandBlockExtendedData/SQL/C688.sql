@@ -9,7 +9,7 @@ VALUES (0x7C688001,   412, 0xC6880000, 159.549, 78.8676, 32.005, 0.923879, 0, 0,
 /* @teleloc 0xC6880000 [159.548996 78.867599 32.005001] 0.923879 0.000000 0.000000 0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C688002,   160, 0xC6880100, 154.194, 84.1749, 32.01, -0.00847191, 0, 0, -0.999964, False, '2005-02-09 10:00:00'); /* Mead Cask */
+VALUES (0x7C688002,   160, 0xC6880100, 154.194, 84.1749, 32.01, -0.008472, 0, 0, -0.999964, False, '2005-02-09 10:00:00'); /* Mead Cask */
 /* @teleloc 0xC6880100 [154.194000 84.174896 32.009998] -0.008472 0.000000 0.000000 -0.999964 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

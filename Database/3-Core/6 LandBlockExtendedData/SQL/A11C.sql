@@ -9,7 +9,7 @@ VALUES (0x7A11C003,  8139, 0xA11C0000, 18.7028, 74.2006, 327.334, -0.884118, 0, 
 /* @teleloc 0xA11C0000 [18.702801 74.200600 327.334015] -0.884118 0.000000 0.000000 -0.467263 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A11C004,  8139, 0xA11C0000, 14.7798, 73.9312, 328.315, -0.999087, 0, 0, -0.0427191,  True, '2005-02-09 10:00:00'); /* Gigas Raider */
+VALUES (0x7A11C004,  8139, 0xA11C0000, 14.7798, 73.9312, 328.315, -0.999087, 0, 0, -0.042719,  True, '2005-02-09 10:00:00'); /* Gigas Raider */
 /* @teleloc 0xA11C0000 [14.779800 73.931198 328.315002] -0.999087 0.000000 0.000000 -0.042719 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

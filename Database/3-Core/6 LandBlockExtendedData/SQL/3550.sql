@@ -16,11 +16,11 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x73550003, 0x73550001, '2005-02-09 10:00:00') /* Alatar Locke (20203) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73550004, 20634, 0x35500000, 131.616, 103.685, 149.561, 0.998407, 0, 0, -0.0564199,  True, '2005-02-09 10:00:00'); /* Warrior of the Blood */
+VALUES (0x73550004, 20634, 0x35500000, 131.616, 103.685, 149.561, 0.998407, 0, 0, -0.05642,  True, '2005-02-09 10:00:00'); /* Warrior of the Blood */
 /* @teleloc 0x35500000 [131.615997 103.684998 149.561005] 0.998407 0.000000 0.000000 -0.056420 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73550005, 20632, 0x35500000, 36.441, 134.595, 115.662, -0.998046, 0, 0, -0.0624879,  True, '2005-02-09 10:00:00'); /* Champion of the Blood */
+VALUES (0x73550005, 20632, 0x35500000, 36.441, 134.595, 115.662, -0.998046, 0, 0, -0.062488,  True, '2005-02-09 10:00:00'); /* Champion of the Blood */
 /* @teleloc 0x35500000 [36.441002 134.595001 115.662003] -0.998046 0.000000 0.000000 -0.062488 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -60,7 +60,7 @@ VALUES (0x7355000E, 20634, 0x35500000, 130.154, 89.4672, 149.63, -0.806249, 0, 0
 /* @teleloc 0x35500000 [130.154007 89.467201 149.630005] -0.806249 0.000000 0.000000 -0.591576 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7355000F, 20632, 0x35500000, 131.962, 76.9766, 149.58, -0.997979, 0, 0, 0.0635368,  True, '2005-02-09 10:00:00'); /* Champion of the Blood */
+VALUES (0x7355000F, 20632, 0x35500000, 131.962, 76.9766, 149.58, -0.997979, 0, 0, 0.063537,  True, '2005-02-09 10:00:00'); /* Champion of the Blood */
 /* @teleloc 0x35500000 [131.962006 76.976601 149.580002] -0.997979 0.000000 0.000000 0.063537 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

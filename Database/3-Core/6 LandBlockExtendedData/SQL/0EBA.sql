@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x0EBA;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70EBA000, 10978, 0x0EBA0000, 105.169, 67.7502, 2.005, -0.0676254, 0, 0, -0.997711,  True, '2005-02-09 10:00:00'); /* Hea Arantah */
+VALUES (0x70EBA000, 10978, 0x0EBA0000, 105.169, 67.7502, 2.005, -0.067625, 0, 0, -0.997711,  True, '2005-02-09 10:00:00'); /* Hea Arantah */
 /* @teleloc 0x0EBA0000 [105.168999 67.750198 2.005000] -0.067625 0.000000 0.000000 -0.997711 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -16,7 +16,7 @@ VALUES (0x70EBA001, 0x70EBA000, '2005-02-09 10:00:00') /* Hea Arantah (10978) */
      , (0x70EBA001, 0x70EBA011, '2005-02-09 10:00:00') /* Hea Mutuona (10922) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70EBA002, 11375, 0x0EBA0000, 160.009, 7.99654, 0.00500001, -0.700517, 0, 0, -0.713636, False, '2005-02-09 10:00:00'); /* Hea Rangaua the Elder Shaman */
+VALUES (0x70EBA002, 11375, 0x0EBA0000, 160.009, 7.99654, 0.005, -0.700517, 0, 0, -0.713636, False, '2005-02-09 10:00:00'); /* Hea Rangaua the Elder Shaman */
 /* @teleloc 0x0EBA0000 [160.009003 7.996540 0.005000] -0.700517 0.000000 0.000000 -0.713636 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -44,7 +44,7 @@ VALUES (0x70EBA009, 11380, 0x0EBA0000, 149.821, 15.3112, 0.1655, -0.962828, 0, 0
 /* @teleloc 0x0EBA0000 [149.820999 15.311200 0.165500] -0.962828 0.000000 0.000000 -0.270117 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70EBA00A, 11343, 0x0EBA0000, 113.737, 46.9006, 2.005, 0.999509, 0, 0, -0.0313328,  True, '2005-02-09 10:00:00'); /* Hea Riketura the Collector */
+VALUES (0x70EBA00A, 11343, 0x0EBA0000, 113.737, 46.9006, 2.005, 0.999509, 0, 0, -0.031333,  True, '2005-02-09 10:00:00'); /* Hea Riketura the Collector */
 /* @teleloc 0x0EBA0000 [113.737000 46.900600 2.005000] 0.999509 0.000000 0.000000 -0.031333 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

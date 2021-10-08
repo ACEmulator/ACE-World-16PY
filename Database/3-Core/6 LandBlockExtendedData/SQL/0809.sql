@@ -29,7 +29,7 @@ VALUES (0x70809007, 25863, 0x08090000, 158.952, 62.4585, 31.205, -0.528958, 0, 0
 /* @teleloc 0x08090000 [158.951996 62.458500 31.205000] -0.528958 0.000000 0.000000 -0.848648 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70809008, 25863, 0x08090100, 152.889, 57.0187, 21.605, 0.999489, 0, 0, -0.0319698,  True, '2005-02-09 10:00:00'); /* Hellion */
+VALUES (0x70809008, 25863, 0x08090100, 152.889, 57.0187, 21.605, 0.999489, 0, 0, -0.03197,  True, '2005-02-09 10:00:00'); /* Hellion */
 /* @teleloc 0x08090100 [152.889008 57.018700 21.605000] 0.999489 0.000000 0.000000 -0.031970 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -37,7 +37,7 @@ VALUES (0x70809009, 25863, 0x08090100, 152.679, 63.2131, 18.405, 0.469585, 0, 0,
 /* @teleloc 0x08090100 [152.679001 63.213100 18.405001] 0.469585 0.000000 0.000000 -0.882887 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7080900A,  8583, 0x08090100, 156.198, 58.8787, 16.01, -0.0111789, 0, 0, -0.999937,  True, '2005-02-09 10:00:00'); /* The Black Breath */
+VALUES (0x7080900A,  8583, 0x08090100, 156.198, 58.8787, 16.01, -0.011179, 0, 0, -0.999937,  True, '2005-02-09 10:00:00'); /* The Black Breath */
 /* @teleloc 0x08090100 [156.197998 58.878700 16.010000] -0.011179 0.000000 0.000000 -0.999937 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

@@ -21,7 +21,7 @@ VALUES (0x77D63004,   794, 0x7D630000, 77.0477, 126.814, 15.8838, 0.619678, 0, 0
 /* @teleloc 0x7D630000 [77.047699 126.814003 15.883800] 0.619678 0.000000 0.000000 0.784856 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77D63005,   794, 0x7D630000, 79.052, 92.4901, 15.75, -0.0537563, 0, 0, 0.998554, False, '2005-02-09 10:00:00'); /* Apple Generator */
+VALUES (0x77D63005,   794, 0x7D630000, 79.052, 92.4901, 15.75, -0.053756, 0, 0, 0.998554, False, '2005-02-09 10:00:00'); /* Apple Generator */
 /* @teleloc 0x7D630000 [79.052002 92.490097 15.750000] -0.053756 0.000000 0.000000 0.998554 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

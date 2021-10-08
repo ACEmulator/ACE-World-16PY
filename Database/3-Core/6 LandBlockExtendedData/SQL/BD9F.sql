@@ -17,7 +17,7 @@ VALUES (0x7BD9F003,   675, 0xBD9F0100, 35.5068, 130.93, 40.005, -0.644791, 0, 0,
 /* @teleloc 0xBD9F0100 [35.506802 130.929993 40.005001] -0.644791 0.000000 0.000000 0.764359 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BD9F004,   684, 0xBD9F0000, 40.3352, 129.594, 40.2, 0.980099, 3.65115E-09, 7.39512E-10, 0.198511, False, '2005-02-09 10:00:00'); /* Gondibyr Langarl's Magic Supplies */
+VALUES (0x7BD9F004,   684, 0xBD9F0000, 40.3352, 129.594, 40.2, 0.980099, 0, 0, 0.198511, False, '2005-02-09 10:00:00'); /* Gondibyr Langarl's Magic Supplies */
 /* @teleloc 0xBD9F0000 [40.335201 129.593994 40.200001] 0.980099 0.000000 0.000000 0.198511 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -69,7 +69,7 @@ VALUES (0x7BD9F010, 20217, 0xBD9F0107, 38.8438, 112.129, 40.005, 0.506169, 0, 0,
 /* @teleloc 0xBD9F0107 [38.843800 112.128998 40.005001] 0.506169 0.000000 0.000000 0.862434 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BD9F011, 20218, 0xBD9F010D, 35.4548, 112.22, 43.005, -0.0521992, 0, 0, 0.998637, False, '2005-02-09 10:00:00'); /* Apprentice Scrivener of Life Magic */
+VALUES (0x7BD9F011, 20218, 0xBD9F010D, 35.4548, 112.22, 43.005, -0.052199, 0, 0, 0.998637, False, '2005-02-09 10:00:00'); /* Apprentice Scrivener of Life Magic */
 /* @teleloc 0xBD9F010D [35.454800 112.220001 43.005001] -0.052199 0.000000 0.000000 0.998637 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -81,7 +81,7 @@ VALUES (0x7BD9F013, 20216, 0xBD9F0000, 41.9425, 107.156, 43.005, -0.707721, 0, 0
 /* @teleloc 0xBD9F0000 [41.942501 107.155998 43.005001] -0.707721 0.000000 0.000000 -0.706492 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BD9F014, 20221, 0xBD9F0116, 39.1457, 76.0572, 40.005, -0.996789, 0, 0, -0.0800704, False, '2005-02-09 10:00:00'); /* Journeyman Scrivener of Life Magic */
+VALUES (0x7BD9F014, 20221, 0xBD9F0116, 39.1457, 76.0572, 40.005, -0.996789, 0, 0, -0.08007, False, '2005-02-09 10:00:00'); /* Journeyman Scrivener of Life Magic */
 /* @teleloc 0xBD9F0116 [39.145699 76.057198 40.005001] -0.996789 0.000000 0.000000 -0.080070 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -97,7 +97,7 @@ VALUES (0x7BD9F017, 20213, 0xBD9F011F, 42.8703, 88.9298, 36.005, -0.716535, 0, 0
 /* @teleloc 0xBD9F011F [42.870300 88.929802 36.005001] -0.716535 0.000000 0.000000 -0.697552 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BD9F018, 20214, 0xBD9F0122, 38.6763, 77.5431, 43.005, 0.99696, 0, 0, 0.0779124, False, '2005-02-09 10:00:00'); /* Scrivener of Item Magic */
+VALUES (0x7BD9F018, 20214, 0xBD9F0122, 38.6763, 77.5431, 43.005, 0.99696, 0, 0, 0.077912, False, '2005-02-09 10:00:00'); /* Scrivener of Item Magic */
 /* @teleloc 0xBD9F0122 [38.676300 77.543098 43.005001] 0.996960 0.000000 0.000000 0.077912 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

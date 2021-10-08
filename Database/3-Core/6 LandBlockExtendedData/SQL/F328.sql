@@ -85,9 +85,9 @@ VALUES (0x7F32800F,   201, 0xF3280000, 62.2761, 6.33727, 0.01, 0.967102, 0, 0, 0
 /* @teleloc 0xF3280000 [62.276100 6.337270 0.010000] 0.967102 0.000000 0.000000 0.254387 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F328010,   201, 0xF3280000, 186.031, 11.3428, 21.5622, 0.999205, 0, 0, -0.0398603,  True, '2005-02-09 10:00:00'); /* Obsidian Golem */
+VALUES (0x7F328010,   201, 0xF3280000, 186.031, 11.3428, 21.5622, 0.999205, 0, 0, -0.03986,  True, '2005-02-09 10:00:00'); /* Obsidian Golem */
 /* @teleloc 0xF3280000 [186.031006 11.342800 21.562201] 0.999205 0.000000 0.000000 -0.039860 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F328011,   201, 0xF3280000, 165.925, 183.153, 18.01, -0.0534329, 0, 0, 0.998571,  True, '2005-02-09 10:00:00'); /* Obsidian Golem */
+VALUES (0x7F328011,   201, 0xF3280000, 165.925, 183.153, 18.01, -0.053433, 0, 0, 0.998571,  True, '2005-02-09 10:00:00'); /* Obsidian Golem */
 /* @teleloc 0xF3280000 [165.925003 183.153000 18.010000] -0.053433 0.000000 0.000000 0.998571 */

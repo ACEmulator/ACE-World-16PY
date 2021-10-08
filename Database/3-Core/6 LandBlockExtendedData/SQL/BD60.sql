@@ -5,7 +5,7 @@ VALUES (0x7BD60009,  1630, 0xBD600000, 31.1262, 61.6868, 6.0075, -0.728766, 0, 0
 /* @teleloc 0xBD600000 [31.126200 61.686798 6.007500] -0.728766 0.000000 0.000000 -0.684762 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BD6000A,   204, 0xBD600000, 24.1147, 64.0201, 6.0075, -0.0500526, 0, 0, 0.998747,  True, '2005-02-09 10:00:00'); /* Lich */
+VALUES (0x7BD6000A,   204, 0xBD600000, 24.1147, 64.0201, 6.0075, -0.050053, 0, 0, 0.998747,  True, '2005-02-09 10:00:00'); /* Lich */
 /* @teleloc 0xBD600000 [24.114700 64.020103 6.007500] -0.050053 0.000000 0.000000 0.998747 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -21,11 +21,11 @@ VALUES (0x7BD6000D,   204, 0xBD600000, 30.1669, 58.3735, 6.0075, -0.999785, 0, 0
 /* @teleloc 0xBD600000 [30.166901 58.373501 6.007500] -0.999785 0.000000 0.000000 0.020721 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BD6000E,   204, 0xBD600000, 29.7448, 63.7484, 6.0075, -0.0500526, 0, 0, 0.998747,  True, '2005-02-09 10:00:00'); /* Lich */
+VALUES (0x7BD6000E,   204, 0xBD600000, 29.7448, 63.7484, 6.0075, -0.050053, 0, 0, 0.998747,  True, '2005-02-09 10:00:00'); /* Lich */
 /* @teleloc 0xBD600000 [29.744801 63.748402 6.007500] -0.050053 0.000000 0.000000 0.998747 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BD6000F,   204, 0xBD600000, 27.289, 64.0314, 6.0075, -0.0500526, 0, 0, 0.998747,  True, '2005-02-09 10:00:00'); /* Lich */
+VALUES (0x7BD6000F,   204, 0xBD600000, 27.289, 64.0314, 6.0075, -0.050053, 0, 0, 0.998747,  True, '2005-02-09 10:00:00'); /* Lich */
 /* @teleloc 0xBD600000 [27.289000 64.031403 6.007500] -0.050053 0.000000 0.000000 0.998747 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

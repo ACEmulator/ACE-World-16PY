@@ -29,7 +29,7 @@ VALUES (0x7361A00E, 10810, 0x361A0000, 15.8322, 127.358, 52.0551, 0.721665, 0, 0
 /* @teleloc 0x361A0000 [15.832200 127.358002 52.055099] 0.721665 0.000000 0.000000 -0.692243 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7361A00F, 10787, 0x361A0000, 21.9416, 122.755, 50.5436, -0.995398, 0, 0, 0.0958253,  True, '2005-02-09 10:00:00'); /* Terebrous Hollow Minion */
+VALUES (0x7361A00F, 10787, 0x361A0000, 21.9416, 122.755, 50.5436, -0.995398, 0, 0, 0.095825,  True, '2005-02-09 10:00:00'); /* Terebrous Hollow Minion */
 /* @teleloc 0x361A0000 [21.941601 122.754997 50.543598] -0.995398 0.000000 0.000000 0.095825 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -53,7 +53,7 @@ VALUES (0x7361A014, 10810, 0x361A0000, 12.2818, 131.586, 52.9427, 0.691509, 0, 0
 /* @teleloc 0x361A0000 [12.281800 131.585999 52.942699] 0.691509 0.000000 0.000000 -0.722368 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7361A015, 24279, 0x361A0000, 27.6957, 131.882, 49.0806, 0.00912834, 0, 0, -0.999958,  True, '2005-02-09 10:00:00'); /* Gloom Drudge */
+VALUES (0x7361A015, 24279, 0x361A0000, 27.6957, 131.882, 49.0806, 0.009128, 0, 0, -0.999958,  True, '2005-02-09 10:00:00'); /* Gloom Drudge */
 /* @teleloc 0x361A0000 [27.695700 131.882004 49.080601] 0.009128 0.000000 0.000000 -0.999958 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -61,11 +61,11 @@ VALUES (0x7361A016, 24279, 0x361A0000, 26.1017, 131.2, 49.479, 0.393348, 0, 0, -
 /* @teleloc 0x361A0000 [26.101700 131.199997 49.479000] 0.393348 0.000000 0.000000 -0.919390 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7361A017, 10787, 0x361A0000, 19.8992, 128.156, 51.0541, -0.999842, 0, 0, -0.0177784,  True, '2005-02-09 10:00:00'); /* Terebrous Hollow Minion */
+VALUES (0x7361A017, 10787, 0x361A0000, 19.8992, 128.156, 51.0541, -0.999842, 0, 0, -0.017778,  True, '2005-02-09 10:00:00'); /* Terebrous Hollow Minion */
 /* @teleloc 0x361A0000 [19.899200 128.156006 51.054100] -0.999842 0.000000 0.000000 -0.017778 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7361A018, 10787, 0x361A0000, 23.667, 120.869, 50.1123, -0.999462, 0, 0, -0.0327958,  True, '2005-02-09 10:00:00'); /* Terebrous Hollow Minion */
+VALUES (0x7361A018, 10787, 0x361A0000, 23.667, 120.869, 50.1123, -0.999462, 0, 0, -0.032796,  True, '2005-02-09 10:00:00'); /* Terebrous Hollow Minion */
 /* @teleloc 0x361A0000 [23.667000 120.869003 50.112301] -0.999462 0.000000 0.000000 -0.032796 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

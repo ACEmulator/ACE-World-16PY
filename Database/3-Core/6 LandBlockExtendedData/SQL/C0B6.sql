@@ -33,7 +33,7 @@ VALUES (0x7C0B6004, 24940, 0xC0B60000, 53.0263, 166.026, 220.936, -0.625383, 0, 
 /* @teleloc 0xC0B60000 [53.026299 166.026001 220.936005] -0.625383 0.000000 0.000000 -0.780318 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C0B6005, 24940, 0xC0B60000, 69.7247, 134.319, 231.601, -0.00771815, 0, 0, 0.99997,  True, '2005-02-09 10:00:00'); /* Gotrok Gigas */
+VALUES (0x7C0B6005, 24940, 0xC0B60000, 69.7247, 134.319, 231.601, -0.007718, 0, 0, 0.99997,  True, '2005-02-09 10:00:00'); /* Gotrok Gigas */
 /* @teleloc 0xC0B60000 [69.724701 134.319000 231.600998] -0.007718 0.000000 0.000000 0.999970 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

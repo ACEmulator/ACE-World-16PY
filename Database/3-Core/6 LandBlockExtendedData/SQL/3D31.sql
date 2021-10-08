@@ -9,7 +9,7 @@ VALUES (0x73D31001,   911, 0x3D310000, 152.755, 66.711, 295.441, 0.698987, 0, 0,
 /* @teleloc 0x3D310000 [152.755005 66.710999 295.441010] 0.698987 0.000000 0.000000 -0.715135 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73D31002,   911, 0x3D310000, 162.562, 57.6515, 304.326, -0.999262, 0, 0, 0.0383993, False, '2005-02-09 10:00:00'); /* Lich Generator */
+VALUES (0x73D31002,   911, 0x3D310000, 162.562, 57.6515, 304.326, -0.999262, 0, 0, 0.038399, False, '2005-02-09 10:00:00'); /* Lich Generator */
 /* @teleloc 0x3D310000 [162.561996 57.651501 304.325989] -0.999262 0.000000 0.000000 0.038399 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -37,14 +37,14 @@ VALUES (0x73D31008,   911, 0x3D310100, 156.954, 61.6258, 316.005, 0.93659, 0, 0,
 /* @teleloc 0x3D310100 [156.953995 61.625801 316.005005] 0.936590 0.000000 0.000000 0.350427 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73D31009,  1154, 0x3D310000, 157.649, 59.4066, 321.009, -0.998286, 0, 0, 0.0585315, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator */
+VALUES (0x73D31009,  1154, 0x3D310000, 157.649, 59.4066, 321.009, -0.998286, 0, 0, 0.058532, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x3D310000 [157.649002 59.406601 321.009003] -0.998286 0.000000 0.000000 0.058532 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x73D31009, 0x73D31006, '2005-02-09 10:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73D3100A,   911, 0x3D310100, 157.055, 59.8197, 316.005, -0.995389, 0, 0, 0.0959179, False, '2005-02-09 10:00:00'); /* Lich Generator */
+VALUES (0x73D3100A,   911, 0x3D310100, 157.055, 59.8197, 316.005, -0.995389, 0, 0, 0.095918, False, '2005-02-09 10:00:00'); /* Lich Generator */
 /* @teleloc 0x3D310100 [157.054993 59.819698 316.005005] -0.995389 0.000000 0.000000 0.095918 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -68,7 +68,7 @@ VALUES (0x73D3100F,   911, 0x3D310000, 155.113, 57.1515, 321.011, 0.675264, 0, 0
 /* @teleloc 0x3D310000 [155.113007 57.151501 321.010986] 0.675264 0.000000 0.000000 -0.737576 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73D31010,   911, 0x3D310000, 160.962, 59.9649, 320.079, 0.998517, 0, 0, -0.0544467, False, '2005-02-09 10:00:00'); /* Lich Generator */
+VALUES (0x73D31010,   911, 0x3D310000, 160.962, 59.9649, 320.079, 0.998517, 0, 0, -0.054447, False, '2005-02-09 10:00:00'); /* Lich Generator */
 /* @teleloc 0x3D310000 [160.962006 59.964901 320.079010] 0.998517 0.000000 0.000000 -0.054447 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -76,5 +76,5 @@ VALUES (0x73D31011,  1947, 0x3D310000, 152.896, 59.4515, 321, -0.707758, 0, 0, -
 /* @teleloc 0x3D310000 [152.895996 59.451500 321.000000] -0.707758 0.000000 0.000000 -0.706455 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73D31012,  1925, 0x3D310100, 155.925, 58.1075, 316.005, -0.0310452, 0, 0, -0.999518, False, '2005-02-09 10:00:00'); /* Chest */
+VALUES (0x73D31012,  1925, 0x3D310100, 155.925, 58.1075, 316.005, -0.031045, 0, 0, -0.999518, False, '2005-02-09 10:00:00'); /* Chest */
 /* @teleloc 0x3D310100 [155.925003 58.107498 316.005005] -0.031045 0.000000 0.000000 -0.999518 */

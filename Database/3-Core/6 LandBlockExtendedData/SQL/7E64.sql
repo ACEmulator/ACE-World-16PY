@@ -38,11 +38,11 @@ VALUES (0x77E64007, 0x77E64005, '2005-02-09 10:00:00') /* Gharu'ndim Mid-Stakes 
      , (0x77E64007, 0x77E6400C, '2005-02-09 10:00:00') /* Arshid al-Qiyid (9493) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77E64008,  9499, 0x7E640111, 109, 114, 12.005, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Gharu'ndim Low-Stakes Gamesmaster */
+VALUES (0x77E64008,  9499, 0x7E640111, 109, 114, 12.005, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Gharu'ndim Low-Stakes Gamesmaster */
 /* @teleloc 0x7E640111 [109.000000 114.000000 12.005000] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77E64009,  9499, 0x7E640111, 107, 114, 12.005, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Gharu'ndim Low-Stakes Gamesmaster */
+VALUES (0x77E64009,  9499, 0x7E640111, 107, 114, 12.005, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Gharu'ndim Low-Stakes Gamesmaster */
 /* @teleloc 0x7E640111 [107.000000 114.000000 12.005000] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -70,5 +70,5 @@ VALUES (0x77E64010,  8401, 0x7E640124, 35.9586, 16.3243, 8.66, -0.017171, 0, 0, 
 /* @teleloc 0x7E640124 [35.958599 16.324301 8.660000] -0.017171 0.000000 0.000000 0.999853 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77E64011,  1032, 0x7E64011F, 36.0142, 176.596, 7.66, -0.99999, 0, 0, 0.00436268, False, '2005-02-09 10:00:00'); /* Portal to Zaikhal */
+VALUES (0x77E64011,  1032, 0x7E64011F, 36.0142, 176.596, 7.66, -0.99999, 0, 0, 0.004363, False, '2005-02-09 10:00:00'); /* Portal to Zaikhal */
 /* @teleloc 0x7E64011F [36.014198 176.595993 7.660000] -0.999990 0.000000 0.000000 0.004363 */

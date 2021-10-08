@@ -21,7 +21,7 @@ VALUES (0x702A0004,  9254, 0x02A0010F, 12.0884, -99.746, -23.994, -0.986957, 0, 
 /* @teleloc 0x02A0010F [12.088400 -99.746002 -23.993999] -0.986957 0.000000 0.000000 -0.160985 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702A0005,  9255, 0x02A00122, 69.939, 2.14507, -23.9925, -0.00109096, 0, 0, 0.999999,  True, '2005-02-09 10:00:00'); /* Dread Mu-miyah */
+VALUES (0x702A0005,  9255, 0x02A00122, 69.939, 2.14507, -23.9925, -0.001091, 0, 0, 0.999999,  True, '2005-02-09 10:00:00'); /* Dread Mu-miyah */
 /* @teleloc 0x02A00122 [69.939003 2.145070 -23.992500] -0.001091 0.000000 0.000000 0.999999 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -85,11 +85,11 @@ VALUES (0x702A0014,  9257, 0x02A00177, 90.2035, -214.168, -17.995, 0.997556, 0, 
 /* @teleloc 0x02A00177 [90.203499 -214.167999 -17.995001] 0.997556 0.000000 0.000000 -0.069865 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702A0015,  9254, 0x02A0017D, 99.3786, -152.05, -17.994, -0.00293304, 0, 0, -0.999996,  True, '2005-02-09 10:00:00'); /* Ancient Mu-miyah */
+VALUES (0x702A0015,  9254, 0x02A0017D, 99.3786, -152.05, -17.994, -0.002933, 0, 0, -0.999996,  True, '2005-02-09 10:00:00'); /* Ancient Mu-miyah */
 /* @teleloc 0x02A0017D [99.378601 -152.050003 -17.993999] -0.002933 0.000000 0.000000 -0.999996 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702A0016,  9256, 0x02A0017E, 100.066, -155.776, -17.995, -0.00293304, 0, 0, -0.999996,  True, '2005-02-09 10:00:00'); /* Dune Reaver */
+VALUES (0x702A0016,  9256, 0x02A0017E, 100.066, -155.776, -17.995, -0.002933, 0, 0, -0.999996,  True, '2005-02-09 10:00:00'); /* Dune Reaver */
 /* @teleloc 0x02A0017E [100.066002 -155.776001 -17.995001] -0.002933 0.000000 0.000000 -0.999996 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -145,7 +145,7 @@ VALUES (0x702A0023,  9256, 0x02A001F8, 80, -390, -11.995, -0.079121, 0, 0, -0.99
 /* @teleloc 0x02A001F8 [80.000000 -390.000000 -11.995000] -0.079121 0.000000 0.000000 -0.996865 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702A0024,  9254, 0x02A001F8, 80.3955, -387.279, -11.994, -0.00510104, 0, 0, -0.999987,  True, '2005-02-09 10:00:00'); /* Ancient Mu-miyah */
+VALUES (0x702A0024,  9254, 0x02A001F8, 80.3955, -387.279, -11.994, -0.005101, 0, 0, -0.999987,  True, '2005-02-09 10:00:00'); /* Ancient Mu-miyah */
 /* @teleloc 0x02A001F8 [80.395500 -387.278992 -11.994000] -0.005101 0.000000 0.000000 -0.999987 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -269,7 +269,7 @@ VALUES (0x702A0042,  9257, 0x02A002D7, 220.783, -230.654, 0.005, 0.712273, 0, 0,
 /* @teleloc 0x02A002D7 [220.783005 -230.654007 0.005000] 0.712273 0.000000 0.000000 -0.701903 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702A0043,  9256, 0x02A002DC, 240.342, -244.1, 0.005, 0.0186271, 0, 0, 0.999826,  True, '2005-02-09 10:00:00'); /* Dune Reaver */
+VALUES (0x702A0043,  9256, 0x02A002DC, 240.342, -244.1, 0.005, 0.018627, 0, 0, 0.999826,  True, '2005-02-09 10:00:00'); /* Dune Reaver */
 /* @teleloc 0x02A002DC [240.341995 -244.100006 0.005000] 0.018627 0.000000 0.000000 0.999826 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

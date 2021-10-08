@@ -21,7 +21,7 @@ VALUES (0x7DA50004,   892, 0xDA500000, 31.5739, 49.0621, 32.005, -0.878582, 0, 0
 /* @teleloc 0xDA500000 [31.573900 49.062099 32.005001] -0.878582 0.000000 0.000000 0.477592 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DA50005,   892, 0xDA500000, 44.6829, 22.8702, 31.9108, -0.0194744, 0, 0, 0.99981, False, '2005-02-09 10:00:00'); /* Drudge Prowler Generator */
+VALUES (0x7DA50005,   892, 0xDA500000, 44.6829, 22.8702, 31.9108, -0.019474, 0, 0, 0.99981, False, '2005-02-09 10:00:00'); /* Drudge Prowler Generator */
 /* @teleloc 0xDA500000 [44.682899 22.870199 31.910801] -0.019474 0.000000 0.000000 0.999810 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -33,11 +33,11 @@ VALUES (0x7DA50007,   383, 0xDA500106, 41.7545, 35.5318, 30.805, 0.641486, 0, 0,
 /* @teleloc 0xDA500106 [41.754501 35.531799 30.805000] 0.641486 0.000000 0.000000 0.767135 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DA50008,   383, 0xDA50010D, 31.0428, 34.3028, 30.805, 0.99993, 0, 0, 0.0118626, False, '2005-02-09 10:00:00'); /* Mosswart Generator */
+VALUES (0x7DA50008,   383, 0xDA50010D, 31.0428, 34.3028, 30.805, 0.99993, 0, 0, 0.011863, False, '2005-02-09 10:00:00'); /* Mosswart Generator */
 /* @teleloc 0xDA50010D [31.042801 34.302799 30.805000] 0.999930 0.000000 0.000000 0.011863 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DA50009,   383, 0xDA50010D, 30.9611, 40.2498, 30.805, 0.0576274, 0, 0, -0.998338, False, '2005-02-09 10:00:00'); /* Mosswart Generator */
+VALUES (0x7DA50009,   383, 0xDA50010D, 30.9611, 40.2498, 30.805, 0.057627, 0, 0, -0.998338, False, '2005-02-09 10:00:00'); /* Mosswart Generator */
 /* @teleloc 0xDA50010D [30.961100 40.249802 30.805000] 0.057627 0.000000 0.000000 -0.998338 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

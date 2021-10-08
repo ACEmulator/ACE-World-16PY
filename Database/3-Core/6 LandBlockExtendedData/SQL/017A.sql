@@ -5,11 +5,11 @@ VALUES (0x7017A000,  1927, 0x017A0100, 60, -80, -12, 0, 0, 0, -1, False, '2005-0
 /* @teleloc 0x017A0100 [60.000000 -80.000000 -12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7017A001,   938, 0x017A0103, 0, -10, -5.9923, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Banderling Raider */
+VALUES (0x7017A001,   938, 0x017A0103, 0, -10, -5.9923, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Banderling Raider */
 /* @teleloc 0x017A0103 [0.000000 -10.000000 -5.992300] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7017A002, 15759, 0x017A0103, 0.111239, -8.93708, -5.995, 0.999687, 0, 0, -0.0249971, False, '2005-02-09 10:00:00'); /* Linkable Item Generator */
+VALUES (0x7017A002, 15759, 0x017A0103, 0.111239, -8.93708, -5.995, 0.999687, 0, 0, -0.024997, False, '2005-02-09 10:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x017A0103 [0.111239 -8.937080 -5.995000] 0.999687 0.000000 0.000000 -0.024997 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -137,7 +137,7 @@ VALUES (0x7017A01A,   937, 0x017A0141, 38.6218, -69.772, 0.0077, 0.994727, 0, 0,
 /* @teleloc 0x017A0141 [38.621799 -69.772003 0.007700] 0.994727 0.000000 0.000000 0.102554 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7017A01B,  1027, 0x017A0141, 40.4187, -72.7245, 0.005, -0.00259804, 0, 0, -0.999997, False, '2005-02-09 10:00:00'); /* Portal to Shoushi */
+VALUES (0x7017A01B,  1027, 0x017A0141, 40.4187, -72.7245, 0.005, -0.002598, 0, 0, -0.999997, False, '2005-02-09 10:00:00'); /* Portal to Shoushi */
 /* @teleloc 0x017A0141 [40.418701 -72.724503 0.005000] -0.002598 0.000000 0.000000 -0.999997 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

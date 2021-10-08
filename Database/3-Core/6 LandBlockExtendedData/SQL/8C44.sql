@@ -17,7 +17,7 @@ VALUES (0x78C44003,   964, 0x8C440000, 14.5998, 31.9313, 4.21067, -0.50378, 0, 0
 /* @teleloc 0x8C440000 [14.599800 31.931299 4.210670] -0.503780 0.000000 0.000000 0.863832 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78C44004,   964, 0x8C440000, 16.7092, 32.2954, 4.88347, -0.0404576, 0, 0, 0.999181, False, '2005-02-09 10:00:00'); /* Red Rat Generator */
+VALUES (0x78C44004,   964, 0x8C440000, 16.7092, 32.2954, 4.88347, -0.040458, 0, 0, 0.999181, False, '2005-02-09 10:00:00'); /* Red Rat Generator */
 /* @teleloc 0x8C440000 [16.709200 32.295399 4.883470] -0.040458 0.000000 0.000000 0.999181 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

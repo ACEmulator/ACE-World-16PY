@@ -17,7 +17,7 @@ VALUES (0x75845003,  5489, 0x58450103, 10, -59.9847, -29.9244, 1, 0, 0, 0, False
 /* @teleloc 0x58450103 [10.000000 -59.984699 -29.924400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75845004,  7474, 0x5845015F, 69.772, -17.2514, 6.07276, 0.0144059, 0, 0, 0.999896, False, '2005-02-09 10:00:00'); /* 30 sec Firespurt */
+VALUES (0x75845004,  7474, 0x5845015F, 69.772, -17.2514, 6.07276, 0.014406, 0, 0, 0.999896, False, '2005-02-09 10:00:00'); /* 30 sec Firespurt */
 /* @teleloc 0x5845015F [69.772003 -17.251400 6.072760] 0.014406 0.000000 0.000000 0.999896 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -53,11 +53,11 @@ VALUES (0x75845015, 21551, 0x58450116, 53.1702, -39.8111, -17.9935, 0.651261, 0,
 /* @teleloc 0x58450116 [53.170200 -39.811100 -17.993500] 0.651261 0.000000 0.000000 -0.758854 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75845016,  5712, 0x5845011E, 76.6087, -41.7692, -11.9915, -0.0178544, 0, 0, -0.999841,  True, '2005-02-09 10:00:00'); /* Inferno */
+VALUES (0x75845016,  5712, 0x5845011E, 76.6087, -41.7692, -11.9915, -0.017854, 0, 0, -0.999841,  True, '2005-02-09 10:00:00'); /* Inferno */
 /* @teleloc 0x5845011E [76.608704 -41.769199 -11.991500] -0.017854 0.000000 0.000000 -0.999841 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75845017, 21551, 0x5845011F, 79.8441, -52.8787, -11.9935, 0.0642669, 0, 0, -0.997933,  True, '2005-02-09 10:00:00'); /* Strife Wisp */
+VALUES (0x75845017, 21551, 0x5845011F, 79.8441, -52.8787, -11.9935, 0.064267, 0, 0, -0.997933,  True, '2005-02-09 10:00:00'); /* Strife Wisp */
 /* @teleloc 0x5845011F [79.844101 -52.878700 -11.993500] 0.064267 0.000000 0.000000 -0.997933 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

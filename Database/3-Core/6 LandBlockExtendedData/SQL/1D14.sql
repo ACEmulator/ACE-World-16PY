@@ -88,7 +88,7 @@ VALUES (0x71D14011, 30689, 0x1D140000, 54.7646, 76.855, 43.6917, -0.954408, 0, 0
 /* @teleloc 0x1D140000 [54.764599 76.855003 43.691700] -0.954408 0.000000 0.000000 0.298506 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71D14012, 30689, 0x1D140000, 52.6113, 78.3005, 44.4323, -0.999604, 0, 0, 0.0281228,  True, '2005-02-09 10:00:00'); /* Withered Raider Prefect */
+VALUES (0x71D14012, 30689, 0x1D140000, 52.6113, 78.3005, 44.4323, -0.999604, 0, 0, 0.028123,  True, '2005-02-09 10:00:00'); /* Withered Raider Prefect */
 /* @teleloc 0x1D140000 [52.611301 78.300499 44.432301] -0.999604 0.000000 0.000000 0.028123 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

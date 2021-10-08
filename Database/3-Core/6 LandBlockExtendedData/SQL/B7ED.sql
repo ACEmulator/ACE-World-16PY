@@ -5,15 +5,15 @@ VALUES (0x7B7ED000,  7365, 0xB7ED0000, 182.346, 84.0173, 20.0079, 0.572027, 0, 0
 /* @teleloc 0xB7ED0000 [182.345993 84.017303 20.007900] 0.572027 0.000000 0.000000 0.820234 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B7ED001,  7365, 0xB7ED0000, 167.724, 43.6296, 9.81979, -0.0410129, 0, 0, 0.999159, False, '2005-02-09 10:00:00'); /* Erupt Tenkarrdun Gen */
+VALUES (0x7B7ED001,  7365, 0xB7ED0000, 167.724, 43.6296, 9.81979, -0.041013, 0, 0, 0.999159, False, '2005-02-09 10:00:00'); /* Erupt Tenkarrdun Gen */
 /* @teleloc 0xB7ED0000 [167.723999 43.629601 9.819790] -0.041013 0.000000 0.000000 0.999159 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B7ED002,  7364, 0xB7ED0000, 180.044, 83.9869, 20.0028, 0.999958, 0, 0, -0.00914303, False, '2005-02-09 10:00:00'); /* Erupt Tenkarrdun FX Gen */
+VALUES (0x7B7ED002,  7364, 0xB7ED0000, 180.044, 83.9869, 20.0028, 0.999958, 0, 0, -0.009143, False, '2005-02-09 10:00:00'); /* Erupt Tenkarrdun FX Gen */
 /* @teleloc 0xB7ED0000 [180.044006 83.986900 20.002800] 0.999958 0.000000 0.000000 -0.009143 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B7ED003,  7923, 0xB7ED0000, 135.245, 25.4044, 0.707212, -0.998911, 0, 0, 0.0466453, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
+VALUES (0x7B7ED003,  7923, 0xB7ED0000, 135.245, 25.4044, 0.707212, -0.998911, 0, 0, 0.046645, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0xB7ED0000 [135.244995 25.404400 0.707212] -0.998911 0.000000 0.000000 0.046645 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)

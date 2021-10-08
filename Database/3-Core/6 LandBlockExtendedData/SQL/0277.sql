@@ -23,7 +23,7 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x70277003, 0x70277002, '2005-02-09 10:00:00') /* Glogluuk (28382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70277004,  7924, 0x02770185, 105.53, -94.5153, 0.005, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
+VALUES (0x70277004,  7924, 0x02770185, 105.53, -94.5153, 0.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x02770185 [105.529999 -94.515297 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -55,13 +55,13 @@ VALUES (0x7027700A, 28427, 0x02770244, 190, -1.776, 6.005, 0, 0, 0, -1,  True, '
 /* @teleloc 0x02770244 [190.000000 -1.776000 6.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7027700B, 28582, 0x0277012E, 34.4104, -93.1138, 0.005, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Kivik Lir Boss Wall Generator */
+VALUES (0x7027700B, 28582, 0x0277012E, 34.4104, -93.1138, 0.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Kivik Lir Boss Wall Generator */
 /* @teleloc 0x0277012E [34.410400 -93.113800 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7027700C, 28583, 0x02770185, 114.47, -94.3791, 0.005, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Kivik Lir 80 Boss Wall Generator */
+VALUES (0x7027700C, 28583, 0x02770185, 114.47, -94.3791, 0.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Kivik Lir 80 Boss Wall Generator */
 /* @teleloc 0x02770185 [114.470001 -94.379097 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7027700D, 28584, 0x027701DC, 194.41, -94.3791, 0.005, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Kivik Lir 100 Boss Wall Generator */
+VALUES (0x7027700D, 28584, 0x027701DC, 194.41, -94.3791, 0.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Kivik Lir 100 Boss Wall Generator */
 /* @teleloc 0x027701DC [194.410004 -94.379097 0.005000] 1.000000 0.000000 0.000000 -0.000000 */

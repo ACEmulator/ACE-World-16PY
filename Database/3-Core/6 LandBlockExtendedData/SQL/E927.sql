@@ -28,7 +28,7 @@ VALUES (0x7E927005,  6535, 0xE9270000, 103.878, 62.743, 12.0025, -0.763815, 0, 0
 /* @teleloc 0xE9270000 [103.877998 62.743000 12.002500] -0.763815 0.000000 0.000000 -0.645436 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E927006,  6535, 0xE9270000, 74.4751, 49.3057, 12.0025, 0.000229358, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Small Shadow Child */
+VALUES (0x7E927006,  6535, 0xE9270000, 74.4751, 49.3057, 12.0025, 0.000229, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Small Shadow Child */
 /* @teleloc 0xE9270000 [74.475098 49.305698 12.002500] 0.000229 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

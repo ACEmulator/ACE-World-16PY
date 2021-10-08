@@ -25,7 +25,7 @@ VALUES (0x7545A005, 19297, 0x545A010C, 102.742, -49.8252, 0.005, -0.71771, 0, 0,
 /* @teleloc 0x545A010C [102.741997 -49.825199 0.005000] -0.717710 0.000000 0.000000 -0.696342 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545A006, 19288, 0x545A010F, 99.6223, -77.149, 0.0098, -0.999979, 0, 0, 0.00654404,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Drudge */
+VALUES (0x7545A006, 19288, 0x545A010F, 99.6223, -77.149, 0.0098, -0.999979, 0, 0, 0.006544,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Drudge */
 /* @teleloc 0x545A010F [99.622299 -77.149002 0.009800] -0.999979 0.000000 0.000000 0.006544 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -53,7 +53,7 @@ VALUES (0x7545A00C, 19291, 0x545A011C, 129.374, -49.9786, 0.0065, 0.701091, 0, 0
 /* @teleloc 0x545A011C [129.373993 -49.978600 0.006500] 0.701091 0.000000 0.000000 0.713072 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545A00D, 19288, 0x545A011F, 129.817, -67.3025, 0.0098, -0.999116, 0, 0, 0.0420291,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Drudge */
+VALUES (0x7545A00D, 19288, 0x545A011F, 129.817, -67.3025, 0.0098, -0.999116, 0, 0, 0.042029,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Drudge */
 /* @teleloc 0x545A011F [129.817001 -67.302498 0.009800] -0.999116 0.000000 0.000000 0.042029 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -61,7 +61,7 @@ VALUES (0x7545A00E, 19294, 0x545A0120, 140.125, -33.1101, 0.0165, -0.002784, 0, 
 /* @teleloc 0x545A0120 [140.125000 -33.110100 0.016500] -0.002784 0.000000 0.000000 -0.999996 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545A00F, 19297, 0x545A0127, 139.998, -67.4366, 0.005, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Reedshark */
+VALUES (0x7545A00F, 19297, 0x545A0127, 139.998, -67.4366, 0.005, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Reedshark */
 /* @teleloc 0x545A0127 [139.998001 -67.436600 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

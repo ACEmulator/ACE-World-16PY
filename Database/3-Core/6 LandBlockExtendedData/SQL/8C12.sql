@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x8C12;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78C12005,  6380, 0x8C120000, 52.9715, 164.297, 424.852, 0.0825895, 0, 0, 0.996584,  True, '2005-02-09 10:00:00'); /* Scintilla */
+VALUES (0x78C12005,  6380, 0x8C120000, 52.9715, 164.297, 424.852, 0.08259, 0, 0, 0.996584,  True, '2005-02-09 10:00:00'); /* Scintilla */
 /* @teleloc 0x8C120000 [52.971500 164.296997 424.851990] 0.082589 0.000000 0.000000 0.996584 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

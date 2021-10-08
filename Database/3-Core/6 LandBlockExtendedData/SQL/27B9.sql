@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x27B9;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x727B9000, 11410, 0x27B90100, 16.0083, 168.349, 16.806, 0.0111664, 0, 0, -0.999938,  True, '2005-02-09 10:00:00'); /* Aun Shimauri */
+VALUES (0x727B9000, 11410, 0x27B90100, 16.0083, 168.349, 16.806, 0.011166, 0, 0, -0.999938,  True, '2005-02-09 10:00:00'); /* Aun Shimauri */
 /* @teleloc 0x27B90100 [16.008301 168.348999 16.806000] 0.011166 0.000000 0.000000 -0.999938 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

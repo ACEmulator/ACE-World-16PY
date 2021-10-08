@@ -5,7 +5,7 @@ VALUES (0x72118000, 25588, 0x21180100, 87, 60, 3.66, -0.707107, 0, 0, -0.707107,
 /* @teleloc 0x21180100 [87.000000 60.000000 3.660000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72118001,  7925, 0x21180000, 107.9, 59.9495, 14.055, 0.999967, 0, 0, -0.00814191, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 10 Min.) */
+VALUES (0x72118001,  7925, 0x21180000, 107.9, 59.9495, 14.055, 0.999967, 0, 0, -0.008142, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 10 Min.) */
 /* @teleloc 0x21180000 [107.900002 59.949501 14.055000] 0.999967 0.000000 0.000000 -0.008142 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -36,11 +36,11 @@ VALUES (0x72118002, 23487, 0x21180000, 130.525, 66.18, 10, -0.708355, 0, 0, -0.7
 /* @teleloc 0x21180000 [130.524994 66.180000 10.000000] -0.708355 0.000000 0.000000 -0.705856 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72118003, 23487, 0x21180100, 89.875, 55.1933, 3.66, 0.999804, 0, 0, -0.0198089,  True, '2005-02-09 10:00:00'); /* Sata Sclavus Lord */
+VALUES (0x72118003, 23487, 0x21180100, 89.875, 55.1933, 3.66, 0.999804, 0, 0, -0.019809,  True, '2005-02-09 10:00:00'); /* Sata Sclavus Lord */
 /* @teleloc 0x21180100 [89.875000 55.193298 3.660000] 0.999804 0.000000 0.000000 -0.019809 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72118004, 23487, 0x21180100, 90.0464, 64.1385, 3.66, 0.000986081, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Sata Sclavus Lord */
+VALUES (0x72118004, 23487, 0x21180100, 90.0464, 64.1385, 3.66, 0.000986, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Sata Sclavus Lord */
 /* @teleloc 0x21180100 [90.046402 64.138496 3.660000] 0.000986 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -48,11 +48,11 @@ VALUES (0x72118005, 23487, 0x21180100, 99.55, 59.867, 3.66, 0.707107, 0, 0, -0.7
 /* @teleloc 0x21180100 [99.550003 59.867001 3.660000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72118006, 23488, 0x21180100, 94.1027, 64.5089, 3.66, 0.0229664, 0, 0, 0.999736,  True, '2005-02-09 10:00:00'); /* Ulu Sclavus Lord */
+VALUES (0x72118006, 23488, 0x21180100, 94.1027, 64.5089, 3.66, 0.022966, 0, 0, 0.999736,  True, '2005-02-09 10:00:00'); /* Ulu Sclavus Lord */
 /* @teleloc 0x21180100 [94.102699 64.508904 3.660000] 0.022966 0.000000 0.000000 0.999736 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72118007, 23488, 0x21180100, 93.9932, 55.5307, 3.66, 0.999959, 0, 0, 0.00903834,  True, '2005-02-09 10:00:00'); /* Ulu Sclavus Lord */
+VALUES (0x72118007, 23488, 0x21180100, 93.9932, 55.5307, 3.66, 0.999959, 0, 0, 0.009038,  True, '2005-02-09 10:00:00'); /* Ulu Sclavus Lord */
 /* @teleloc 0x21180100 [93.993202 55.530701 3.660000] 0.999959 0.000000 0.000000 0.009038 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

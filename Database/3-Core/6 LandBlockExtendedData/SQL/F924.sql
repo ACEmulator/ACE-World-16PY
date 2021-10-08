@@ -53,5 +53,5 @@ VALUES (0x7F924009, 0x7F924002, '2005-02-09 10:00:00') /* Sulthis Eye Stalk (847
      , (0x7F924009, 0x7F92400A, '2005-02-09 10:00:00') /* Sulthis Eye Stalk (8470) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F92400A,  8470, 0xF9240000, 164.084, 189.422, -0.895, 0.99828, 0, 0, -0.0586229,  True, '2005-02-09 10:00:00'); /* Sulthis Eye Stalk */
+VALUES (0x7F92400A,  8470, 0xF9240000, 164.084, 189.422, -0.895, 0.99828, 0, 0, -0.058623,  True, '2005-02-09 10:00:00'); /* Sulthis Eye Stalk */
 /* @teleloc 0xF9240000 [164.084000 189.421997 -0.895000] 0.998280 0.000000 0.000000 -0.058623 */

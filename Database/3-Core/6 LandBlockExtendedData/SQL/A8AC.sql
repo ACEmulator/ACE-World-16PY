@@ -9,7 +9,7 @@ VALUES (0x7A8AC007,  1625, 0xA8AC0102, 60.5426, 48.9019, 75.667, 0.822468, 0, 0,
 /* @teleloc 0xA8AC0102 [60.542599 48.901901 75.667000] 0.822468 0.000000 0.000000 -0.568811 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A8AC008,  1626, 0xA8AC0102, 60.1944, 55.8338, 75.667, 0.0388537, 0, 0, 0.999245,  True, '2005-02-09 10:00:00'); /* Silver Rat */
+VALUES (0x7A8AC008,  1626, 0xA8AC0102, 60.1944, 55.8338, 75.667, 0.038854, 0, 0, 0.999245,  True, '2005-02-09 10:00:00'); /* Silver Rat */
 /* @teleloc 0xA8AC0102 [60.194401 55.833801 75.667000] 0.038854 0.000000 0.000000 0.999245 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

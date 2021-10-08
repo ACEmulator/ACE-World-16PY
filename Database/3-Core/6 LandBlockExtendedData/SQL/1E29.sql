@@ -42,7 +42,7 @@ VALUES (0x71E29007, 23562, 0x1E290000, 57.8722, 137.91, 94.005, 0.677762, 0, 0, 
 /* @teleloc 0x1E290000 [57.872200 137.910004 94.004997] 0.677762 0.000000 0.000000 -0.735281 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71E29008, 23562, 0x1E290000, 90.328, 119.275, 94.005, -0.998339, 0, 0, -0.0576071,  True, '2005-02-09 10:00:00'); /* Abyssal Shadow */
+VALUES (0x71E29008, 23562, 0x1E290000, 90.328, 119.275, 94.005, -0.998339, 0, 0, -0.057607,  True, '2005-02-09 10:00:00'); /* Abyssal Shadow */
 /* @teleloc 0x1E290000 [90.328003 119.275002 94.004997] -0.998339 0.000000 0.000000 -0.057607 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x03A0;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x703A0001,  7923, 0x03A00133, 89.0539, -90.1345, -23.995, -1, 0, 0, 7.42206E-05, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
+VALUES (0x703A0001,  7923, 0x03A00133, 89.0539, -90.1345, -23.995, -1, 0, 0, 0.000074, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x03A00133 [89.053902 -90.134499 -23.995001] -1.000000 0.000000 0.000000 0.000074 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -16,7 +16,7 @@ VALUES (0x703A0002, 0x703A0004, '2005-02-09 10:00:00') /* Singular Extas Raider 
      , (0x703A0002, 0x703A0006, '2005-02-09 10:00:00') /* Singular Extas Raider (12272) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x703A0003, 12249, 0x03A00133, 89.4997, -88.5697, -23.99, -0.00491369, 0, 0, -0.999988,  True, '2005-02-09 10:00:00'); /* Singular Lugian Warlord */
+VALUES (0x703A0003, 12249, 0x03A00133, 89.4997, -88.5697, -23.99, -0.004914, 0, 0, -0.999988,  True, '2005-02-09 10:00:00'); /* Singular Lugian Warlord */
 /* @teleloc 0x03A00133 [89.499702 -88.569702 -23.990000] -0.004914 0.000000 0.000000 -0.999988 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -28,11 +28,11 @@ VALUES (0x703A0006, 12272, 0x03A00133, 90.6667, -92.2957, -23.99, 0.22681, 0, 0,
 /* @teleloc 0x03A00133 [90.666702 -92.295700 -23.990000] 0.226810 0.000000 0.000000 0.973939 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x703A0007, 12291, 0x03A00188, 102, 6.84571E-08, -17.995, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Surface Portal */
+VALUES (0x703A0007, 12291, 0x03A00188, 102, 0, -17.995, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Surface Portal */
 /* @teleloc 0x03A00188 [102.000000 0.000000 -17.995001] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x703A0008, 12291, 0x03A00280, 90, -552, 0.005, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Surface Portal */
+VALUES (0x703A0008, 12291, 0x03A00280, 90, -552, 0.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Surface Portal */
 /* @teleloc 0x03A00280 [90.000000 -552.000000 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -100,11 +100,11 @@ VALUES (0x703A0019, 12300, 0x03A00145, 89.5937, -178.38, -23.971, 0.028148, 0, 0
 /* @teleloc 0x03A00145 [89.593697 -178.380005 -23.971001] 0.028148 0.000000 0.000000 0.999604 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x703A001B, 12273, 0x03A0015B, 23.8266, -261.261, -17.945, 0.998114, 0, 0, -0.0613952,  True, '2005-02-09 10:00:00'); /* Singular Gigas Raider */
+VALUES (0x703A001B, 12273, 0x03A0015B, 23.8266, -261.261, -17.945, 0.998114, 0, 0, -0.061395,  True, '2005-02-09 10:00:00'); /* Singular Gigas Raider */
 /* @teleloc 0x03A0015B [23.826599 -261.260986 -17.945000] 0.998114 0.000000 0.000000 -0.061395 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x703A001C, 12300, 0x03A0015B, 24.5385, -258.227, -17.945, 0.0038813, 0, 0, -0.999992,  True, '2005-02-09 10:00:00'); /* Singular Virindi Servant */
+VALUES (0x703A001C, 12300, 0x03A0015B, 24.5385, -258.227, -17.945, 0.003881, 0, 0, -0.999992,  True, '2005-02-09 10:00:00'); /* Singular Virindi Servant */
 /* @teleloc 0x03A0015B [24.538500 -258.226990 -17.945000] 0.003881 0.000000 0.000000 -0.999992 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -116,7 +116,7 @@ VALUES (0x703A001E, 12299, 0x03A00162, 73.6913, -50.1313, -17.971, -0.667513, 0,
 /* @teleloc 0x03A00162 [73.691299 -50.131302 -17.971001] -0.667513 0.000000 0.000000 0.744599 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x703A001F, 12299, 0x03A00172, 90.2285, -33.6311, -17.971, 0.0279901, 0, 0, 0.999608,  True, '2005-02-09 10:00:00'); /* Singular Virindi Master */
+VALUES (0x703A001F, 12299, 0x03A00172, 90.2285, -33.6311, -17.971, 0.02799, 0, 0, 0.999608,  True, '2005-02-09 10:00:00'); /* Singular Virindi Master */
 /* @teleloc 0x03A00172 [90.228500 -33.631100 -17.971001] 0.027990 0.000000 0.000000 0.999608 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -290,5 +290,5 @@ VALUES (0x703A003D, 12265, 0x03A0012F, 90, -50, -23.995, 1, 0, 0, 0, False, '200
 /* @teleloc 0x03A0012F [90.000000 -50.000000 -23.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x703A003E, 12265, 0x03A0014A, 100, -50, -23.995, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Singular Chorizite Pillar */
+VALUES (0x703A003E, 12265, 0x03A0014A, 100, -50, -23.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Singular Chorizite Pillar */
 /* @teleloc 0x03A0014A [100.000000 -50.000000 -23.995001] 1.000000 0.000000 0.000000 -0.000000 */

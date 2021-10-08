@@ -13,11 +13,11 @@ VALUES (0x72BB5002,   412, 0x2BB50115, 181.634, 11.05, 89.1669, -0.707107, 0, 0,
 /* @teleloc 0x2BB50115 [181.634003 11.050000 89.166901] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72BB5003, 11393, 0x2BB50103, 132.93, 11.8656, 70.469, -0.00260605, 0, 0, -0.999997, False, '2005-02-09 10:00:00'); /* Brother Samir ibn Lomaq the Monk */
+VALUES (0x72BB5003, 11393, 0x2BB50103, 132.93, 11.8656, 70.469, -0.002606, 0, 0, -0.999997, False, '2005-02-09 10:00:00'); /* Brother Samir ibn Lomaq the Monk */
 /* @teleloc 0x2BB50103 [132.929993 11.865600 70.469002] -0.002606 0.000000 0.000000 -0.999997 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72BB5004, 11389, 0x2BB5010A, 155.955, 32.8556, 75.538, -0.0299214, 0, 0, -0.999552, False, '2005-02-09 10:00:00'); /* Greygor Stillwise the Armorer */
+VALUES (0x72BB5004, 11389, 0x2BB5010A, 155.955, 32.8556, 75.538, -0.029921, 0, 0, -0.999552, False, '2005-02-09 10:00:00'); /* Greygor Stillwise the Armorer */
 /* @teleloc 0x2BB5010A [155.955002 32.855598 75.538002] -0.029921 0.000000 0.000000 -0.999552 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -25,7 +25,7 @@ VALUES (0x72BB5005, 11392, 0x2BB50100, 157.178, 12.4023, 94.005, -0.528559, 0, 0
 /* @teleloc 0x2BB50100 [157.177994 12.402300 94.004997] -0.528559 0.000000 0.000000 -0.848897 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72BB5006, 11391, 0x2BB50111, 180.097, 12.1678, 89.1619, -0.999054, 0, 0, -0.0434793, False, '2005-02-09 10:00:00'); /* Misha the Jeweler */
+VALUES (0x72BB5006, 11391, 0x2BB50111, 180.097, 12.1678, 89.1619, -0.999054, 0, 0, -0.043479, False, '2005-02-09 10:00:00'); /* Misha the Jeweler */
 /* @teleloc 0x2BB50111 [180.097000 12.167800 89.161903] -0.999054 0.000000 0.000000 -0.043479 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

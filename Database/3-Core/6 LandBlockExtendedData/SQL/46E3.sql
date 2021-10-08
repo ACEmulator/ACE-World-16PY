@@ -12,7 +12,7 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x746E3001, 0x746E3000, '2005-02-09 10:00:00') /* Fir Tree (24161) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x746E3002, 15759, 0x46E30000, 99.6105, 107.285, 0.00499994, -0.123043, 0, 0, -0.992401, False, '2005-02-09 10:00:00'); /* Linkable Item Generator */
+VALUES (0x746E3002, 15759, 0x46E30000, 99.6105, 107.285, 0.005, -0.123043, 0, 0, -0.992401, False, '2005-02-09 10:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x46E30000 [99.610497 107.285004 0.005000] -0.123043 0.000000 0.000000 -0.992401 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)

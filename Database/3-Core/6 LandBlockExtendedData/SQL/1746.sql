@@ -5,11 +5,11 @@ VALUES (0x7174600F, 23566, 0x17460100, 87.1264, 154.556, 69.605, 0.793058, 0, 0,
 /* @teleloc 0x17460100 [87.126404 154.556000 69.605003] 0.793058 0.000000 0.000000 0.609146 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71746010, 24495, 0x17460000, 69.9106, 157.846, 72.005, -0.0117207, 0, 0, -0.999931,  True, '2005-02-09 10:00:00'); /* Gotrok Juggernaut */
+VALUES (0x71746010, 24495, 0x17460000, 69.9106, 157.846, 72.005, -0.011721, 0, 0, -0.999931,  True, '2005-02-09 10:00:00'); /* Gotrok Juggernaut */
 /* @teleloc 0x17460000 [69.910599 157.845993 72.004997] -0.011721 0.000000 0.000000 -0.999931 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71746011, 23566, 0x17460100, 82.4976, 156.943, 68.006, 0.0257762, 0, 0, -0.999668,  True, '2005-02-09 10:00:00'); /* Tumerok Trooper */
+VALUES (0x71746011, 23566, 0x17460100, 82.4976, 156.943, 68.006, 0.025776, 0, 0, -0.999668,  True, '2005-02-09 10:00:00'); /* Tumerok Trooper */
 /* @teleloc 0x17460100 [82.497597 156.942993 68.005997] 0.025776 0.000000 0.000000 -0.999668 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -17,7 +17,7 @@ VALUES (0x71746012, 24285, 0x17460000, 82.9812, 172.85, 72.1, 0.947888, 0, 0, -0
 /* @teleloc 0x17460000 [82.981201 172.850006 72.099998] 0.947888 0.000000 0.000000 -0.318604 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71746013, 24495, 0x17460000, 61.2373, 165.161, 72.1, 0.995869, 0, 0, -0.0907978,  True, '2005-02-09 10:00:00'); /* Gotrok Juggernaut */
+VALUES (0x71746013, 24495, 0x17460000, 61.2373, 165.161, 72.1, 0.995869, 0, 0, -0.090798,  True, '2005-02-09 10:00:00'); /* Gotrok Juggernaut */
 /* @teleloc 0x17460000 [61.237301 165.160995 72.099998] 0.995869 0.000000 0.000000 -0.090798 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

@@ -21,7 +21,7 @@ VALUES (0x75848004, 22519, 0x5848010A, 3.11099, -30.906, 0.0099, -0.322938, 0, 0
 /* @teleloc 0x5848010A [3.110990 -30.906000 0.009900] -0.322938 0.000000 0.000000 -0.946420 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75848005, 22520, 0x5848010C, 1.20033, -36.4926, 0.0099, -0.0538059, 0, 0, -0.998551,  True, '2005-02-09 10:00:00'); /* Tusker Redeemer */
+VALUES (0x75848005, 22520, 0x5848010C, 1.20033, -36.4926, 0.0099, -0.053806, 0, 0, -0.998551,  True, '2005-02-09 10:00:00'); /* Tusker Redeemer */
 /* @teleloc 0x5848010C [1.200330 -36.492599 0.009900] -0.053806 0.000000 0.000000 -0.998551 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -97,7 +97,7 @@ VALUES (0x7584800F, 22519, 0x5848013D, 32.0251, -18.4188, 6.0099, -0.613735, 0, 
 /* @teleloc 0x5848013D [32.025101 -18.418800 6.009900] -0.613735 0.000000 0.000000 -0.789512 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75848010, 22520, 0x58480141, 27.4319, -88.8708, 6.0099, -1, 0, 0, -0.000334956,  True, '2005-02-09 10:00:00'); /* Tusker Redeemer */
+VALUES (0x75848010, 22520, 0x58480141, 27.4319, -88.8708, 6.0099, -1, 0, 0, -0.000335,  True, '2005-02-09 10:00:00'); /* Tusker Redeemer */
 /* @teleloc 0x58480141 [27.431900 -88.870796 6.009900] -1.000000 0.000000 0.000000 -0.000335 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -121,7 +121,7 @@ VALUES (0x75848015, 22519, 0x5848015E, 64.0198, -2.99578, 12.0099, -0.892566, 0,
 /* @teleloc 0x5848015E [64.019798 -2.995780 12.009900] -0.892566 0.000000 0.000000 -0.450916 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75848016, 22512, 0x5848015F, 61.8347, -7.73414, 12.005, -1, 0, 0, 0.000637134,  True, '2005-02-09 10:00:00'); /* Tusker Minion */
+VALUES (0x75848016, 22512, 0x5848015F, 61.8347, -7.73414, 12.005, -1, 0, 0, 0.000637,  True, '2005-02-09 10:00:00'); /* Tusker Minion */
 /* @teleloc 0x5848015F [61.834702 -7.734140 12.005000] -1.000000 0.000000 0.000000 0.000637 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

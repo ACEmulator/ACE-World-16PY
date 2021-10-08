@@ -70,7 +70,7 @@ VALUES (0x7001C007, 24284, 0x001C0154, 112.237, -71.3539, 0.01, -0.710505, 0, 0,
 /* @teleloc 0x001C0154 [112.237000 -71.353897 0.010000] -0.710505 0.000000 0.000000 -0.703692 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001C008, 24284, 0x001C0167, 121.23, -89.8574, 0.01, -0.999076, 0, 0, -0.0429859,  True, '2005-02-09 10:00:00'); /* Lugian Juggernaut */
+VALUES (0x7001C008, 24284, 0x001C0167, 121.23, -89.8574, 0.01, -0.999076, 0, 0, -0.042986,  True, '2005-02-09 10:00:00'); /* Lugian Juggernaut */
 /* @teleloc 0x001C0167 [121.230003 -89.857399 0.010000] -0.999076 0.000000 0.000000 -0.042986 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -78,7 +78,7 @@ VALUES (0x7001C009, 24284, 0x001C0176, 161.469, -120.492, 0.01, 0.999954, 0, 0, 
 /* @teleloc 0x001C0176 [161.468994 -120.491997 0.010000] 0.999954 0.000000 0.000000 -0.009541 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001C00A, 24284, 0x001C0178, 167.173, -120.6, 0.01, 0.999954, 0, 0, -0.00954105,  True, '2005-02-09 10:00:00'); /* Lugian Juggernaut */
+VALUES (0x7001C00A, 24284, 0x001C0178, 167.173, -120.6, 0.01, 0.999954, 0, 0, -0.009541,  True, '2005-02-09 10:00:00'); /* Lugian Juggernaut */
 /* @teleloc 0x001C0178 [167.173004 -120.599998 0.010000] 0.999954 0.000000 0.000000 -0.009541 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -86,7 +86,7 @@ VALUES (0x7001C00B, 24286, 0x001C0194, 160.286, -140.67, 6.01, 0.999351, 0, 0, 0
 /* @teleloc 0x001C0194 [160.285995 -140.669998 6.010000] 0.999351 0.000000 0.000000 0.036016 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001C00C, 24286, 0x001C0199, 168.19, -140.179, 6.01, 0.999962, 0, 0, 0.00874495,  True, '2005-02-09 10:00:00'); /* Lugian Titan */
+VALUES (0x7001C00C, 24286, 0x001C0199, 168.19, -140.179, 6.01, 0.999962, 0, 0, 0.008745,  True, '2005-02-09 10:00:00'); /* Lugian Titan */
 /* @teleloc 0x001C0199 [168.190002 -140.179001 6.010000] 0.999962 0.000000 0.000000 0.008745 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -114,7 +114,7 @@ VALUES (0x7001C012, 24284, 0x001C01D0, 91.7379, -130.464, 12.01, -0.723641, 0, 0
 /* @teleloc 0x001C01D0 [91.737900 -130.464005 12.010000] -0.723641 0.000000 0.000000 0.690177 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001C013, 24284, 0x001C01FD, 79.3315, -254.355, 18.01, 0.999965, 0, 0, -0.00842022,  True, '2005-02-09 10:00:00'); /* Lugian Juggernaut */
+VALUES (0x7001C013, 24284, 0x001C01FD, 79.3315, -254.355, 18.01, 0.999965, 0, 0, -0.00842,  True, '2005-02-09 10:00:00'); /* Lugian Juggernaut */
 /* @teleloc 0x001C01FD [79.331497 -254.354996 18.010000] 0.999965 0.000000 0.000000 -0.008420 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -182,7 +182,7 @@ VALUES (0x7001C023, 29348, 0x001C02C0, 270.23, -500.053, 30.01, 0.998063, 0, 0, 
 /* @teleloc 0x001C02C0 [270.230011 -500.053009 30.010000] 0.998063 0.000000 0.000000 -0.062204 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001C024, 29349, 0x001C02C2, 269.553, -508.538, 30.01, 0.999935, 0, 0, 0.0113625,  True, '2005-02-09 10:00:00'); /* Lithos Lugian */
+VALUES (0x7001C024, 29349, 0x001C02C2, 269.553, -508.538, 30.01, 0.999935, 0, 0, 0.011363,  True, '2005-02-09 10:00:00'); /* Lithos Lugian */
 /* @teleloc 0x001C02C2 [269.553009 -508.537994 30.010000] 0.999935 0.000000 0.000000 0.011362 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

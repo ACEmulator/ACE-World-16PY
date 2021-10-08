@@ -1,11 +1,11 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xCD45;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CD45000,  4111, 0xCD450000, 118.403, 142.414, 75.1825, 0.998625, 0, 0, -0.0524156,  True, '2005-02-09 10:00:00'); /* Hunter Shreth */
+VALUES (0x7CD45000,  4111, 0xCD450000, 118.403, 142.414, 75.1825, 0.998625, 0, 0, -0.052416,  True, '2005-02-09 10:00:00'); /* Hunter Shreth */
 /* @teleloc 0xCD450000 [118.403000 142.414001 75.182503] 0.998625 0.000000 0.000000 -0.052416 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CD45001,  4111, 0xCD450000, 114.236, 146.939, 75.0061, 0.995245, 0, 0, 0.0974056,  True, '2005-02-09 10:00:00'); /* Hunter Shreth */
+VALUES (0x7CD45001,  4111, 0xCD450000, 114.236, 146.939, 75.0061, 0.995245, 0, 0, 0.097406,  True, '2005-02-09 10:00:00'); /* Hunter Shreth */
 /* @teleloc 0xCD450000 [114.236000 146.938995 75.006104] 0.995245 0.000000 0.000000 0.097406 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

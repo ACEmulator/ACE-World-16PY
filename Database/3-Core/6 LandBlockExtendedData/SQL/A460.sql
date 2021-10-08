@@ -5,11 +5,11 @@ VALUES (0x7A460000, 12774, 0xA4600000, 111.854, 63.0992, 30.6423, 0.72266, 0, 0,
 /* @teleloc 0xA4600000 [111.853996 63.099201 30.642300] 0.722660 0.000000 0.000000 0.691204 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A460001, 12534, 0xA4600000, 101.184, 80.6316, 28.2793, 0.999272, 0, 0, 0.0381447, False, '2005-02-09 10:00:00'); /* North Uziz Settlement Portal */
+VALUES (0x7A460001, 12534, 0xA4600000, 101.184, 80.6316, 28.2793, 0.999272, 0, 0, 0.038145, False, '2005-02-09 10:00:00'); /* North Uziz Settlement Portal */
 /* @teleloc 0xA4600000 [101.183998 80.631599 28.279301] 0.999272 0.000000 0.000000 0.038145 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A460002, 12526, 0xA4600000, 110.746, 80.7933, 29.73, 0.99993, 0, 0, -0.0118458, False, '2005-02-09 10:00:00'); /* Narziz Cottages Portal */
+VALUES (0x7A460002, 12526, 0xA4600000, 110.746, 80.7933, 29.73, 0.99993, 0, 0, -0.011846, False, '2005-02-09 10:00:00'); /* Narziz Cottages Portal */
 /* @teleloc 0xA4600000 [110.746002 80.793297 29.730000] 0.999930 0.000000 0.000000 -0.011846 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -29,7 +29,7 @@ VALUES (0x7A460006, 13096, 0xA4600000, 134.062, 43.2115, 33.9421, 0.729073, 0, 0
 /* @teleloc 0xA4600000 [134.061996 43.211498 33.942101] 0.729073 0.000000 0.000000 0.684436 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A460007, 14253, 0xA4600000, 91.1765, 79.8182, 26.9515, 0.999966, 0, 0, 0.0082755, False, '2005-02-09 10:00:00'); /* Arrak Portal */
+VALUES (0x7A460007, 14253, 0xA4600000, 91.1765, 79.8182, 26.9515, 0.999966, 0, 0, 0.008276, False, '2005-02-09 10:00:00'); /* Arrak Portal */
 /* @teleloc 0xA4600000 [91.176498 79.818199 26.951500] 0.999966 0.000000 0.000000 0.008275 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

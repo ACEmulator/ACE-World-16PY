@@ -128,7 +128,7 @@ VALUES (0x70287015, 11494, 0x02870169, 79.2543, -53.521, -5.945, 0.884773, 0, 0,
 /* @teleloc 0x02870169 [79.254303 -53.521000 -5.945000] 0.884773 0.000000 0.000000 -0.466023 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70287016, 11494, 0x0287016B, 80, -60, -5.99065, 0.0207946, 0, 0, -0.999784,  True, '2005-02-09 10:00:00'); /* Carenzi Pouchling */
+VALUES (0x70287016, 11494, 0x0287016B, 80, -60, -5.99065, 0.020795, 0, 0, -0.999784,  True, '2005-02-09 10:00:00'); /* Carenzi Pouchling */
 /* @teleloc 0x0287016B [80.000000 -60.000000 -5.990650] 0.020795 0.000000 0.000000 -0.999784 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -192,7 +192,7 @@ VALUES (0x70287025, 11338, 0x02870215, 80.2448, -3.25968, 0.005, 1, 0, 0, 0, Fal
 /* @teleloc 0x02870215 [80.244797 -3.259680 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70287026, 11494, 0x02870216, 80.3148, -11.0148, 0.00935, -0.00420373, 0, 0, 0.999991,  True, '2005-02-09 10:00:00'); /* Carenzi Pouchling */
+VALUES (0x70287026, 11494, 0x02870216, 80.3148, -11.0148, 0.00935, -0.004204, 0, 0, 0.999991,  True, '2005-02-09 10:00:00'); /* Carenzi Pouchling */
 /* @teleloc 0x02870216 [80.314796 -11.014800 0.009350] -0.004204 0.000000 0.000000 0.999991 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

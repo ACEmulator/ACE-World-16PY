@@ -185,7 +185,7 @@ VALUES (0x7029C00D, 24955, 0x029C0155, 165.086, -279.6, 0.055, -0.676413, 0, 0, 
 /* @teleloc 0x029C0155 [165.085999 -279.600006 0.055000] -0.676413 0.000000 0.000000 0.736522 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7029C00E, 24940, 0x029C0158, 170.222, -299.119, 0.01, 0.999755, 0, 0, 0.0221211,  True, '2005-02-09 10:00:00'); /* Gotrok Gigas */
+VALUES (0x7029C00E, 24940, 0x029C0158, 170.222, -299.119, 0.01, 0.999755, 0, 0, 0.022121,  True, '2005-02-09 10:00:00'); /* Gotrok Gigas */
 /* @teleloc 0x029C0158 [170.222000 -299.118988 0.010000] 0.999755 0.000000 0.000000 0.022121 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -201,7 +201,7 @@ VALUES (0x7029C011,  8139, 0x029C0167, 220.842, -209.758, 0.01, -0.935994, 0, 0,
 /* @teleloc 0x029C0167 [220.841995 -209.757996 0.010000] -0.935994 0.000000 0.000000 0.352016 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7029C012, 24955, 0x029C016E, 219.687, -305.215, 0.055, 0.999997, 0, 0, -0.00233904,  True, '2005-02-09 10:00:00'); /* Gotrok Montok */
+VALUES (0x7029C012, 24955, 0x029C016E, 219.687, -305.215, 0.055, 0.999997, 0, 0, -0.002339,  True, '2005-02-09 10:00:00'); /* Gotrok Montok */
 /* @teleloc 0x029C016E [219.686996 -305.214996 0.055000] 0.999997 0.000000 0.000000 -0.002339 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -473,7 +473,7 @@ VALUES (0x7029C062, 24940, 0x029C0146, 126.899, -267.317, 0.01, -0.758033, 0, 0,
 /* @teleloc 0x029C0146 [126.899002 -267.316986 0.010000] -0.758033 0.000000 0.000000 -0.652216 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7029C063, 24955, 0x029C0150, 170.203, -272.728, 0.01, -0.99966, 0, 0, 0.0260571,  True, '2005-02-09 10:00:00'); /* Gotrok Montok */
+VALUES (0x7029C063, 24955, 0x029C0150, 170.203, -272.728, 0.01, -0.99966, 0, 0, 0.026057,  True, '2005-02-09 10:00:00'); /* Gotrok Montok */
 /* @teleloc 0x029C0150 [170.203003 -272.727997 0.010000] -0.999660 0.000000 0.000000 0.026057 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -621,15 +621,15 @@ VALUES (0x7029C087, 24955, 0x029C029A, 50.0228, -376.185, 12.01, 0.916092, 0, 0,
 /* @teleloc 0x029C029A [50.022800 -376.184998 12.010000] 0.916092 0.000000 0.000000 -0.400969 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7029C088, 24955, 0x029C02C0, 66.3282, -403.593, 12.01, -0.998966, 0, 0, 0.0454727,  True, '2005-02-09 10:00:00'); /* Gotrok Montok */
+VALUES (0x7029C088, 24955, 0x029C02C0, 66.3282, -403.593, 12.01, -0.998966, 0, 0, 0.045473,  True, '2005-02-09 10:00:00'); /* Gotrok Montok */
 /* @teleloc 0x029C02C0 [66.328201 -403.592987 12.010000] -0.998966 0.000000 0.000000 0.045473 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7029C089, 24955, 0x029C02C0, 73.8068, -404.275, 12.01, -0.998966, 0, 0, 0.0454727,  True, '2005-02-09 10:00:00'); /* Gotrok Montok */
+VALUES (0x7029C089, 24955, 0x029C02C0, 73.8068, -404.275, 12.01, -0.998966, 0, 0, 0.045473,  True, '2005-02-09 10:00:00'); /* Gotrok Montok */
 /* @teleloc 0x029C02C0 [73.806801 -404.274994 12.010000] -0.998966 0.000000 0.000000 0.045473 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7029C08A, 24129, 0x029C02C0, 70.3809, -397.981, 12.005, -0.00057914, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 2 Min.) */
+VALUES (0x7029C08A, 24129, 0x029C02C0, 70.3809, -397.981, 12.005, -0.000579, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 2 Min.) */
 /* @teleloc 0x029C02C0 [70.380898 -397.980988 12.005000] -0.000579 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)

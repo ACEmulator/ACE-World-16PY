@@ -9,7 +9,7 @@ VALUES (0x7BB66001,   961, 0xBB660000, 43.7002, 28.9466, 6.005, 0.466827, 0, 0, 
 /* @teleloc 0xBB660000 [43.700199 28.946600 6.005000] 0.466827 0.000000 0.000000 0.884349 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB66002,  1619, 0xBB660101, 35.9, 40.1616, 8.0055, 0.0606623, 0, 0, 0.998158,  True, '2005-02-09 10:00:00'); /* Mosswart Shaman */
+VALUES (0x7BB66002,  1619, 0xBB660101, 35.9, 40.1616, 8.0055, 0.060662, 0, 0, 0.998158,  True, '2005-02-09 10:00:00'); /* Mosswart Shaman */
 /* @teleloc 0xBB660101 [35.900002 40.161598 8.005500] 0.060662 0.000000 0.000000 0.998158 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -44,7 +44,7 @@ VALUES (0x7BB66008,   962, 0xBB660000, 33.3116, 45.5072, 6.005, 0.938767, 0, 0, 
 /* @teleloc 0xBB660000 [33.311600 45.507198 6.005000] 0.938767 0.000000 0.000000 0.344553 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB66009,   509, 0xBB660000, 69.0502, 127.265, 6.005, 0.997055, 0, 0, 0.0766877, False, '2005-02-09 10:00:00'); /* Life Stone */
+VALUES (0x7BB66009,   509, 0xBB660000, 69.0502, 127.265, 6.005, 0.997055, 0, 0, 0.076688, False, '2005-02-09 10:00:00'); /* Life Stone */
 /* @teleloc 0xBB660000 [69.050201 127.264999 6.005000] 0.997055 0.000000 0.000000 0.076688 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -68,5 +68,5 @@ VALUES (0x7BB6600E,   903, 0xBB660000, 12.0887, 162.689, 6.37313, -0.510379, 0, 
 /* @teleloc 0xBB660000 [12.088700 162.688995 6.373130] -0.510379 0.000000 0.000000 -0.859950 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB6600F,   200, 0xBB660000, 29.4477, 165.972, 6.011, -0.00596717, 0, 0, 0.999982,  True, '2005-02-09 10:00:00'); /* Mud Golem */
+VALUES (0x7BB6600F,   200, 0xBB660000, 29.4477, 165.972, 6.011, -0.005967, 0, 0, 0.999982,  True, '2005-02-09 10:00:00'); /* Mud Golem */
 /* @teleloc 0xBB660000 [29.447701 165.972000 6.011000] -0.005967 0.000000 0.000000 0.999982 */

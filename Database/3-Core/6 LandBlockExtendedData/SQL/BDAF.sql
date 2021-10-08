@@ -5,7 +5,7 @@ VALUES (0x7BDAF000,   959, 0xBDAF0000, 179.734, 133.992, 94.4259, 0.982698, 0, 0
 /* @teleloc 0xBDAF0000 [179.733994 133.992004 94.425903] 0.982698 0.000000 0.000000 -0.185216 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BDAF001,   959, 0xBDAF0100, 177.293, 141.041, 86.805, -0.0714415, 0, 0, -0.997445, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
+VALUES (0x7BDAF001,   959, 0xBDAF0100, 177.293, 141.041, 86.805, -0.071442, 0, 0, -0.997445, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
 /* @teleloc 0xBDAF0100 [177.292999 141.041000 86.805000] -0.071442 0.000000 0.000000 -0.997445 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -17,11 +17,11 @@ VALUES (0x7BDAF003,   959, 0xBDAF0100, 179.928, 143.978, 86.805, -0.030501, 0, 0
 /* @teleloc 0xBDAF0100 [179.927994 143.977997 86.805000] -0.030501 0.000000 0.000000 -0.999535 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BDAF004,   959, 0xBDAF0103, 179.034, 129.901, 92.1291, 0.0569634, 0, 0, -0.998376, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
+VALUES (0x7BDAF004,   959, 0xBDAF0103, 179.034, 129.901, 92.1291, 0.056963, 0, 0, -0.998376, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
 /* @teleloc 0xBDAF0103 [179.033997 129.901001 92.129097] 0.056963 0.000000 0.000000 -0.998376 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BDAF005,   959, 0xBDAF0000, 180.193, 127.395, 92.005, -0.0928717, 0, 0, -0.995678, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
+VALUES (0x7BDAF005,   959, 0xBDAF0000, 180.193, 127.395, 92.005, -0.092872, 0, 0, -0.995678, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
 /* @teleloc 0xBDAF0000 [180.192993 127.394997 92.004997] -0.092872 0.000000 0.000000 -0.995678 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

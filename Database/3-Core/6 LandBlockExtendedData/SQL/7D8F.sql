@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x7D8F;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77D8F000, 12518, 0x7D8F0000, 60.1156, 68.7624, 124.005, 0.999985, 0, 0, -0.0054897, False, '2005-02-09 10:00:00'); /* Majestic Hill Cottages Portal */
+VALUES (0x77D8F000, 12518, 0x7D8F0000, 60.1156, 68.7624, 124.005, 0.999985, 0, 0, -0.00549, False, '2005-02-09 10:00:00'); /* Majestic Hill Cottages Portal */
 /* @teleloc 0x7D8F0000 [60.115601 68.762398 124.004997] 0.999985 0.000000 0.000000 -0.005490 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -17,7 +17,7 @@ VALUES (0x77D8F003, 12541, 0x7D8F0000, 68.8441, 51.5288, 124.005, 0.928591, 0, 0
 /* @teleloc 0x7D8F0000 [68.844101 51.528801 124.004997] 0.928591 0.000000 0.000000 0.371104 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77D8F004, 12560, 0x7D8F0000, 60.9821, 45.046, 124.005, 0.997703, 0, 0, -0.0677395, False, '2005-02-09 10:00:00'); /* Tiofor Deeps Portal */
+VALUES (0x77D8F004, 12560, 0x7D8F0000, 60.9821, 45.046, 124.005, 0.997703, 0, 0, -0.06774, False, '2005-02-09 10:00:00'); /* Tiofor Deeps Portal */
 /* @teleloc 0x7D8F0000 [60.982101 45.046001 124.004997] 0.997703 0.000000 0.000000 -0.067740 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -29,11 +29,11 @@ VALUES (0x77D8F006, 13126, 0x7D8F0000, 44.8073, 64.83, 124.005, 0.554237, 0, 0, 
 /* @teleloc 0x7D8F0000 [44.807301 64.830002 124.004997] 0.554237 0.000000 0.000000 -0.832359 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77D8F007, 13101, 0x7D8F0000, 53.1425, 42.6957, 124.005, -0.0633413, 0, 0, -0.997992, False, '2005-02-09 10:00:00'); /* East Danby Portal */
+VALUES (0x77D8F007, 13101, 0x7D8F0000, 53.1425, 42.6957, 124.005, -0.063341, 0, 0, -0.997992, False, '2005-02-09 10:00:00'); /* East Danby Portal */
 /* @teleloc 0x7D8F0000 [53.142502 42.695702 124.004997] -0.063341 0.000000 0.000000 -0.997992 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77D8F008, 14669, 0x7D8F0000, 45.0189, 40.5975, 124.005, 0.0844074, 0, 0, 0.996431, False, '2005-02-09 10:00:00'); /* Stonebend Cottages Portal */
+VALUES (0x77D8F008, 14669, 0x7D8F0000, 45.0189, 40.5975, 124.005, 0.084407, 0, 0, 0.996431, False, '2005-02-09 10:00:00'); /* Stonebend Cottages Portal */
 /* @teleloc 0x7D8F0000 [45.018902 40.597500 124.004997] 0.084407 0.000000 0.000000 0.996431 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

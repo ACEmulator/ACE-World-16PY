@@ -122,7 +122,7 @@ VALUES (0x70162017, 0x7016200F, '2005-02-09 10:00:00') /* Brogord's Axe (5027) *
      , (0x70162017, 0x70162020, '2005-02-09 10:00:00') /* Letter to Ryndya (30492) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70162018,  8735, 0x016201D2, 60.1812, -7.37726, 12.0055, 0.0932306, 0, 0, 0.995645,  True, '2005-02-09 10:00:00'); /* Holtburg Town Stamp */
+VALUES (0x70162018,  8735, 0x016201D2, 60.1812, -7.37726, 12.0055, 0.093231, 0, 0, 0.995645,  True, '2005-02-09 10:00:00'); /* Holtburg Town Stamp */
 /* @teleloc 0x016201D2 [60.181198 -7.377260 12.005500] 0.093231 0.000000 0.000000 0.995645 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -130,7 +130,7 @@ VALUES (0x70162019,  4110, 0x016201DB, 61.9327, -41.0143, 12.011, -0.401748, 0, 
 /* @teleloc 0x016201DB [61.932701 -41.014301 12.011000] -0.401748 0.000000 0.000000 -0.915750 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7016201A,  4110, 0x016201E5, 60.623, -62.6925, 12.011, 0.996251, 0, 0, -0.0865051,  True, '2005-02-09 10:00:00'); /* Blood Shreth */
+VALUES (0x7016201A,  4110, 0x016201E5, 60.623, -62.6925, 12.011, 0.996251, 0, 0, -0.086505,  True, '2005-02-09 10:00:00'); /* Blood Shreth */
 /* @teleloc 0x016201E5 [60.623001 -62.692501 12.011000] 0.996251 0.000000 0.000000 -0.086505 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x9F41;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79F41000, 12488, 0x9F410000, 181.523, 117.524, 109.731, 0.00246341, 0, 0, -0.999997, False, '2005-02-09 10:00:00'); /* Dunes End Cottages Portal */
+VALUES (0x79F41000, 12488, 0x9F410000, 181.523, 117.524, 109.731, 0.002463, 0, 0, -0.999997, False, '2005-02-09 10:00:00'); /* Dunes End Cottages Portal */
 /* @teleloc 0x9F410000 [181.522995 117.524002 109.731003] 0.002463 0.000000 0.000000 -0.999997 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -21,7 +21,7 @@ VALUES (0x79F41004, 12544, 0x9F410000, 189.277, 134.005, 110.005, -0.478054, 0, 
 /* @teleloc 0x9F410000 [189.276993 134.005005 110.004997] -0.478054 0.000000 0.000000 0.878330 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79F41005, 12774, 0x9F410000, 178.077, 129.72, 110.005, 0.0558688, 0, 0, 0.998438, False, '2005-02-09 10:00:00'); /* Settlement Portals */
+VALUES (0x79F41005, 12774, 0x9F410000, 178.077, 129.72, 110.005, 0.055869, 0, 0, 0.998438, False, '2005-02-09 10:00:00'); /* Settlement Portals */
 /* @teleloc 0x9F410000 [178.076996 129.720001 110.004997] 0.055869 0.000000 0.000000 0.998438 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -81,5 +81,5 @@ VALUES (0x79F41013, 19155, 0x9F410000, 173.906, 109.696, 109.146, 0.991477, 0, 0
 /* @teleloc 0x9F410000 [173.906006 109.695999 109.146004] 0.991477 0.000000 0.000000 -0.130281 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79F41014, 19161, 0x9F410000, 185.311, 109.567, 109.136, 0.995553, 0, 0, 0.0942078, False, '2005-02-09 10:00:00'); /* Stone Scythe Stronghold Portal */
+VALUES (0x79F41014, 19161, 0x9F410000, 185.311, 109.567, 109.136, 0.995553, 0, 0, 0.094208, False, '2005-02-09 10:00:00'); /* Stone Scythe Stronghold Portal */
 /* @teleloc 0x9F410000 [185.311005 109.567001 109.136002] 0.995553 0.000000 0.000000 0.094208 */

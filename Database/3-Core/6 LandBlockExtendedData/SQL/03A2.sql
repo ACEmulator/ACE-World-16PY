@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x03A2;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x703A2000, 12153, 0x03A20100, 0, -300, 0.005, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Surface */
+VALUES (0x703A2000, 12153, 0x03A20100, 0, -300, 0.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Surface */
 /* @teleloc 0x03A20100 [0.000000 -300.000000 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -35,7 +35,7 @@ VALUES (0x703A2006, 12133, 0x03A20120, 49.6959, -359.479, 0.005, 1, 0, 0, 0,  Tr
 /* @teleloc 0x03A20120 [49.695900 -359.479004 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x703A2007, 12133, 0x03A20120, 50.6661, -360.655, 0.005, 0.999401, 0, 0, -0.0346086,  True, '2005-02-09 10:00:00'); /* Sneaky Simulacrum */
+VALUES (0x703A2007, 12133, 0x03A20120, 50.6661, -360.655, 0.005, 0.999401, 0, 0, -0.034609,  True, '2005-02-09 10:00:00'); /* Sneaky Simulacrum */
 /* @teleloc 0x03A20120 [50.666100 -360.654999 0.005000] 0.999401 0.000000 0.000000 -0.034609 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

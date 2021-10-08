@@ -73,11 +73,11 @@ VALUES (0x7B972014,   827, 0xB9720000, 110.905, 78.0281, 34.005, 0.997874, 0, 0,
 /* @teleloc 0xB9720000 [110.904999 78.028099 34.005001] 0.997874 0.000000 0.000000 0.065168 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B972015,   819, 0xB972010E, 110.981, 11.4931, 23.705, -0.0969268, 0, 0, -0.995292, False, '2005-02-09 10:00:00'); /* Kai Go-Sou the Scribe */
+VALUES (0x7B972015,   819, 0xB972010E, 110.981, 11.4931, 23.705, -0.096927, 0, 0, -0.995292, False, '2005-02-09 10:00:00'); /* Kai Go-Sou the Scribe */
 /* @teleloc 0xB972010E [110.981003 11.493100 23.705000] -0.096927 0.000000 0.000000 -0.995292 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B972016,   816, 0xB972010E, 106.095, 8.19575, 23.705, 0.999512, 0, 0, -0.0312402, False, '2005-02-09 10:00:00'); /* Healer Kai Tonweh */
+VALUES (0x7B972016,   816, 0xB972010E, 106.095, 8.19575, 23.705, 0.999512, 0, 0, -0.03124, False, '2005-02-09 10:00:00'); /* Healer Kai Tonweh */
 /* @teleloc 0xB972010E [106.095001 8.195750 23.705000] 0.999512 0.000000 0.000000 -0.031240 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -113,7 +113,7 @@ VALUES (0x7B97201E, 21340, 0xB9720106, 86.834, 87.8486, 33.705, -0.26143, 0, 0, 
 /* @teleloc 0xB9720106 [86.834000 87.848602 33.705002] -0.261430 0.000000 0.000000 -0.965222 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B97201F, 23631, 0xB9720000, 83.4973, 76.3424, 155.134, -0.00203875, 0, 0, 0.999998, False, '2005-02-09 10:00:00'); /* April 2003 Raining Mad Cows Gen */
+VALUES (0x7B97201F, 23631, 0xB9720000, 83.4973, 76.3424, 155.134, -0.002039, 0, 0, 0.999998, False, '2005-02-09 10:00:00'); /* April 2003 Raining Mad Cows Gen */
 /* @teleloc 0xB9720000 [83.497299 76.342400 155.134003] -0.002039 0.000000 0.000000 0.999998 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

@@ -45,5 +45,5 @@ VALUES (0x7B9A000A, 15670, 0xB9A00000, 68.3361, 61.5394, 54.005, 0.968132, 0, 0,
 /* @teleloc 0xB9A00000 [68.336098 61.539398 54.005001] 0.968132 0.000000 0.000000 0.250442 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B9A000B, 15673, 0xB9A00000, 54.7267, 19.4542, 54.005, 0.0393718, 0, 0, 0.999225, False, '2005-02-09 10:00:00'); /* Far Horizon Cottages Portal */
+VALUES (0x7B9A000B, 15673, 0xB9A00000, 54.7267, 19.4542, 54.005, 0.039372, 0, 0, 0.999225, False, '2005-02-09 10:00:00'); /* Far Horizon Cottages Portal */
 /* @teleloc 0xB9A00000 [54.726700 19.454201 54.005001] 0.039372 0.000000 0.000000 0.999225 */

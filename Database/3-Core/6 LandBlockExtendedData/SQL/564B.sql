@@ -33,7 +33,7 @@ VALUES (0x7564B007,  7097, 0x564B011B, 159.542, -36.3137, -35.99, 0.968795, 0, 0
 /* @teleloc 0x564B011B [159.542007 -36.313702 -35.990002] 0.968795 0.000000 0.000000 0.247863 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7564B008,  7099, 0x564B011B, 164.156, -38.9485, -35.99, 0.999119, 0, 0, 0.0419788,  True, '2005-02-09 10:00:00'); /* Vapor Golem */
+VALUES (0x7564B008,  7099, 0x564B011B, 164.156, -38.9485, -35.99, 0.999119, 0, 0, 0.041979,  True, '2005-02-09 10:00:00'); /* Vapor Golem */
 /* @teleloc 0x564B011B [164.156006 -38.948502 -35.990002] 0.999119 0.000000 0.000000 0.041979 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

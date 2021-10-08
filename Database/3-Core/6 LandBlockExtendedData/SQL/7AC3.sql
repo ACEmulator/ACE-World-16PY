@@ -21,11 +21,11 @@ VALUES (0x77AC3004,  1903, 0x7AC30000, 36.2469, 68.8212, 232.943, 0.520013, 0, 0
 /* @teleloc 0x7AC30000 [36.246899 68.821198 232.942993] 0.520013 0.000000 0.000000 0.854158 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77AC3005,  1020, 0x7AC30000, 60.4821, 41.6248, 225.947, -0.997869, 0, 0, -0.0652455, False, '2005-02-09 10:00:00'); /* Portal to Holtburg */
+VALUES (0x77AC3005,  1020, 0x7AC30000, 60.4821, 41.6248, 225.947, -0.997869, 0, 0, -0.065246, False, '2005-02-09 10:00:00'); /* Portal to Holtburg */
 /* @teleloc 0x7AC30000 [60.482101 41.624802 225.947006] -0.997869 0.000000 0.000000 -0.065246 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77AC3006,  1022, 0x7AC30000, 53.3458, 84.0209, 229.67, 0.0366308, 0, 0, 0.999329, False, '2005-02-09 10:00:00'); /* Mayoi Portal */
+VALUES (0x77AC3006,  1022, 0x7AC30000, 53.3458, 84.0209, 229.67, 0.036631, 0, 0, 0.999329, False, '2005-02-09 10:00:00'); /* Mayoi Portal */
 /* @teleloc 0x7AC30000 [53.345798 84.020897 229.669998] 0.036631 0.000000 0.000000 0.999329 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

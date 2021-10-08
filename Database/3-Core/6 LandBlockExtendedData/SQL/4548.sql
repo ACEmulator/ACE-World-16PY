@@ -5,7 +5,7 @@ VALUES (0x74548000,  1046, 0x45480000, 117.841, 37.4044, -0.445, -0.775997, 0, 0
 /* @teleloc 0x45480000 [117.841003 37.404400 -0.445000] -0.775997 0.000000 0.000000 -0.630736 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74548001,  1622, 0x45480000, 116.423, 37.3743, -0.44, -0.999472, 0, 0, -0.0324958,  True, '2005-02-09 10:00:00'); /* Mire Phyntos Wasp */
+VALUES (0x74548001,  1622, 0x45480000, 116.423, 37.3743, -0.44, -0.999472, 0, 0, -0.032496,  True, '2005-02-09 10:00:00'); /* Mire Phyntos Wasp */
 /* @teleloc 0x45480000 [116.422997 37.374298 -0.440000] -0.999472 0.000000 0.000000 -0.032496 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -40,11 +40,11 @@ VALUES (0x74548006, 0x74548001, '2005-02-09 10:00:00') /* Mire Phyntos Wasp (162
      , (0x74548006, 0x7454800A, '2005-02-09 10:00:00') /* Swamp Rat (1624) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74548007,  1624, 0x45480000, 76.9595, 45.4064, 0.005, -0.0532723, 0, 0, 0.99858,  True, '2005-02-09 10:00:00'); /* Swamp Rat */
+VALUES (0x74548007,  1624, 0x45480000, 76.9595, 45.4064, 0.005, -0.053272, 0, 0, 0.99858,  True, '2005-02-09 10:00:00'); /* Swamp Rat */
 /* @teleloc 0x45480000 [76.959503 45.406399 0.005000] -0.053272 0.000000 0.000000 0.998580 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74548008,  1624, 0x45480000, 78.7579, 45.5989, 0.005, 0.0716411, 0, 0, 0.997431,  True, '2005-02-09 10:00:00'); /* Swamp Rat */
+VALUES (0x74548008,  1624, 0x45480000, 78.7579, 45.5989, 0.005, 0.071641, 0, 0, 0.997431,  True, '2005-02-09 10:00:00'); /* Swamp Rat */
 /* @teleloc 0x45480000 [78.757896 45.598900 0.005000] 0.071641 0.000000 0.000000 0.997431 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

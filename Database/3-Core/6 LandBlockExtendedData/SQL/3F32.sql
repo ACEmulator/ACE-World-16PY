@@ -1,19 +1,19 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x3F32;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73F32000,   720, 0x3F32010F, 67.3, 36.02, -7.45058E-09, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Sliding Door */
+VALUES (0x73F32000,   720, 0x3F32010F, 67.3, 36.02, -0, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Sliding Door */
 /* @teleloc 0x3F32010F [67.300003 36.020000 -0.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73F32001,   720, 0x3F320110, 52.745, 35.955, 4.84288E-08, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Sliding Door */
+VALUES (0x73F32001,   720, 0x3F320110, 52.745, 35.955, 0, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Sliding Door */
 /* @teleloc 0x3F320110 [52.744999 35.955002 0.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73F32002,   720, 0x3F320111, 57.505, 40.735, 3.72529E-08, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Sliding Door */
+VALUES (0x73F32002,   720, 0x3F320111, 57.505, 40.735, 0, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Sliding Door */
 /* @teleloc 0x3F320111 [57.505001 40.735001 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73F32003,   720, 0x3F320112, 62.45, 31.24, 5.21541E-08, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Sliding Door */
+VALUES (0x73F32003,   720, 0x3F320112, 62.45, 31.24, 0, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Sliding Door */
 /* @teleloc 0x3F320112 [62.450001 31.240000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -65,15 +65,15 @@ VALUES (0x73F32017, 0x73F3200F, '2005-02-09 10:00:00') /* Agent of the Arcanum (
      , (0x73F32017, 0x73F32023, '2005-02-09 10:00:00') /* Jojii Shrine (24263) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73F32018, 24217, 0x3F320113, 58.4752, 30.4758, 0.005, -0.999647, 0, 0, -0.0265606, False, '2005-02-09 10:00:00'); /* Goku Bai-Akane the Barkeep */
+VALUES (0x73F32018, 24217, 0x3F320113, 58.4752, 30.4758, 0.005, -0.999647, 0, 0, -0.026561, False, '2005-02-09 10:00:00'); /* Goku Bai-Akane the Barkeep */
 /* @teleloc 0x3F320113 [58.475201 30.475800 0.005000] -0.999647 0.000000 0.000000 -0.026561 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73F32019, 24219, 0x3F320114, 62.1547, 41.5331, 0.00499999, 0.0432537, 0, 0, -0.999064, False, '2005-02-09 10:00:00'); /* Nakoro Eshii-Shinjo the Provisioner */
+VALUES (0x73F32019, 24219, 0x3F320114, 62.1547, 41.5331, 0.005, 0.043254, 0, 0, -0.999064, False, '2005-02-09 10:00:00'); /* Nakoro Eshii-Shinjo the Provisioner */
 /* @teleloc 0x3F320114 [62.154701 41.533100 0.005000] 0.043254 0.000000 0.000000 -0.999064 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73F3201A,  2541, 0x3F320122, 12.9314, 5.54475, 2.005, -0.99998, 0, 0, -0.00627139, False, '2005-02-09 10:00:00'); /* Ximi Nu the Blacksmith */
+VALUES (0x73F3201A,  2541, 0x3F320122, 12.9314, 5.54475, 2.005, -0.99998, 0, 0, -0.006271, False, '2005-02-09 10:00:00'); /* Ximi Nu the Blacksmith */
 /* @teleloc 0x3F320122 [12.931400 5.544750 2.005000] -0.999980 0.000000 0.000000 -0.006271 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -101,11 +101,11 @@ VALUES (0x73F32020,   720, 0x3F320000, 17.8453, 11.935, 5, -0.67559, 0, 0, -0.73
 /* @teleloc 0x3F320000 [17.845301 11.935000 5.000000] -0.675590 0.000000 0.000000 -0.737277 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73F32021,   720, 0x3F320000, 9.66598, 18.7983, 5, -0.999048, 0, 0, -0.0436193, False, '2005-02-09 10:00:00'); /* Sliding Door */
+VALUES (0x73F32021,   720, 0x3F320000, 9.66598, 18.7983, 5, -0.999048, 0, 0, -0.043619, False, '2005-02-09 10:00:00'); /* Sliding Door */
 /* @teleloc 0x3F320000 [9.665980 18.798300 5.000000] -0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73F32022,   720, 0x3F320000, 10.982, 3.75574, 5, 0.0436193, 0, 0, -0.999048, False, '2005-02-09 10:00:00'); /* Sliding Door */
+VALUES (0x73F32022,   720, 0x3F320000, 10.982, 3.75574, 5, 0.043619, 0, 0, -0.999048, False, '2005-02-09 10:00:00'); /* Sliding Door */
 /* @teleloc 0x3F320000 [10.982000 3.755740 5.000000] 0.043619 0.000000 0.000000 -0.999048 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

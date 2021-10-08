@@ -8,7 +8,7 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x72D27000, 0x72D2700D, '2005-02-09 10:00:00') /* Virindi Consul (23489) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72D27001,  7923, 0x2D270000, 76.5767, 52.4093, 84.8748, 0.0592866, 0, 0, -0.998241, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
+VALUES (0x72D27001,  7923, 0x2D270000, 76.5767, 52.4093, 84.8748, 0.059287, 0, 0, -0.998241, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0x2D270000 [76.576698 52.409302 84.874802] 0.059287 0.000000 0.000000 -0.998241 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)

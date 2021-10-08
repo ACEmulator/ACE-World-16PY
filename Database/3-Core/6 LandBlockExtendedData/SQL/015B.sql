@@ -25,7 +25,7 @@ VALUES (0x7015B005,   278, 0x015B0128, 40, -75.25, -6, 1, 0, 0, 0, False, '2005-
 /* @teleloc 0x015B0128 [40.000000 -75.250000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7015B006,   193, 0x015B012A, 50, -60, -5.9965, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Drudge Slinker */
+VALUES (0x7015B006,   193, 0x015B012A, 50, -60, -5.9965, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Drudge Slinker */
 /* @teleloc 0x015B012A [50.000000 -60.000000 -5.996500] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -49,7 +49,7 @@ VALUES (0x7015B00B,  4132, 0x015B0145, 6.38248, -20.0137, 0.004, 0.707107, 0, 0,
 /* @teleloc 0x015B0145 [6.382480 -20.013700 0.004000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7015B00C,  4108, 0x015B014C, 19.2317, -33.5334, 0.011, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Gnawer Shreth */
+VALUES (0x7015B00C,  4108, 0x015B014C, 19.2317, -33.5334, 0.011, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Gnawer Shreth */
 /* @teleloc 0x015B014C [19.231701 -33.533401 0.011000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

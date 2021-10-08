@@ -5,7 +5,7 @@ VALUES (0x74618000,   965, 0x46180100, 82.0713, 115.586, 61.66, 0.411948, 0, 0, 
 /* @teleloc 0x46180100 [82.071297 115.585999 61.660000] 0.411948 0.000000 0.000000 -0.911207 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74618001,   965, 0x46180100, 85.2599, 115.866, 61.66, -0.0378998, 0, 0, -0.999282, False, '2005-02-09 10:00:00'); /* Zombie Generator */
+VALUES (0x74618001,   965, 0x46180100, 85.2599, 115.866, 61.66, -0.0379, 0, 0, -0.999282, False, '2005-02-09 10:00:00'); /* Zombie Generator */
 /* @teleloc 0x46180100 [85.259903 115.865997 61.660000] -0.037900 0.000000 0.000000 -0.999282 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -29,5 +29,5 @@ VALUES (0x74618006,   911, 0x46180100, 83.8812, 125.46, 61.66, 0.140558, 0, 0, -
 /* @teleloc 0x46180100 [83.881203 125.459999 61.660000] 0.140558 0.000000 0.000000 -0.990072 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74618007,  1032, 0x46180105, 84, 64.304, 61.66, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Portal to Zaikhal */
+VALUES (0x74618007,  1032, 0x46180105, 84, 64.304, 61.66, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Portal to Zaikhal */
 /* @teleloc 0x46180105 [84.000000 64.304001 61.660000] -0.000000 0.000000 0.000000 -1.000000 */

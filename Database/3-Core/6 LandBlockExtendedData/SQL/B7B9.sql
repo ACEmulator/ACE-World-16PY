@@ -25,5 +25,5 @@ VALUES (0x7B7B9005,   959, 0xB7B90000, 59.9539, 67.0007, 113.177, 0.42423, 0, 0,
 /* @teleloc 0xB7B90000 [59.953899 67.000702 113.177002] 0.424230 0.000000 0.000000 -0.905554 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B7B9006,   389, 0xB7B90000, 39.7325, 13.5805, 107.138, -0.0743194, 0, 0, -0.997234, False, '2005-02-09 10:00:00'); /* Mite Generator */
+VALUES (0x7B7B9006,   389, 0xB7B90000, 39.7325, 13.5805, 107.138, -0.074319, 0, 0, -0.997234, False, '2005-02-09 10:00:00'); /* Mite Generator */
 /* @teleloc 0xB7B90000 [39.732498 13.580500 107.138000] -0.074319 0.000000 0.000000 -0.997234 */

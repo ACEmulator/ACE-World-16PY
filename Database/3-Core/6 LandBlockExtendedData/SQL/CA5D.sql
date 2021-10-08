@@ -13,7 +13,7 @@ VALUES (0x7CA5D002, 12475, 0xCA5D0000, 64.2604, 99.3999, 12.005, -0.979052, 0, 0
 /* @teleloc 0xCA5D0000 [64.260399 99.399902 12.005000] -0.979052 0.000000 0.000000 -0.203611 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CA5D003, 12491, 0xCA5D0000, 77.2305, 99.6786, 12.005, -0.995495, 0, 0, 0.0948126, False, '2005-02-09 10:00:00'); /* West Sawato Cottages Portal */
+VALUES (0x7CA5D003, 12491, 0xCA5D0000, 77.2305, 99.6786, 12.005, -0.995495, 0, 0, 0.094813, False, '2005-02-09 10:00:00'); /* West Sawato Cottages Portal */
 /* @teleloc 0xCA5D0000 [77.230499 99.678596 12.005000] -0.995495 0.000000 0.000000 0.094813 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -25,7 +25,7 @@ VALUES (0x7CA5D005, 12508, 0xCA5D0000, 82.2652, 78.4379, 12.005, -0.544541, 0, 0
 /* @teleloc 0xCA5D0000 [82.265198 78.437897 12.005000] -0.544541 0.000000 0.000000 0.838734 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CA5D006, 12774, 0xCA5D0000, 68.1618, 85.3728, 12.005, -0.999549, 0, 0, -0.0300402, False, '2005-02-09 10:00:00'); /* Settlement Portals */
+VALUES (0x7CA5D006, 12774, 0xCA5D0000, 68.1618, 85.3728, 12.005, -0.999549, 0, 0, -0.03004, False, '2005-02-09 10:00:00'); /* Settlement Portals */
 /* @teleloc 0xCA5D0000 [68.161797 85.372803 12.005000] -0.999549 0.000000 0.000000 -0.030040 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -61,7 +61,7 @@ VALUES (0x7CA5D00E, 15167, 0xCA5D0000, 90.4656, 93.062, 12.005, -0.788904, 0, 0,
 /* @teleloc 0xCA5D0000 [90.465599 93.061996 12.005000] -0.788904 0.000000 0.000000 0.614516 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CA5D00F, 15200, 0xCA5D0000, 66.3839, 60.8646, 10.601, -0.0887463, 0, 0, -0.996054, False, '2005-02-09 10:00:00'); /* Village Quan Portal */
+VALUES (0x7CA5D00F, 15200, 0xCA5D0000, 66.3839, 60.8646, 10.601, -0.088746, 0, 0, -0.996054, False, '2005-02-09 10:00:00'); /* Village Quan Portal */
 /* @teleloc 0xCA5D0000 [66.383904 60.864601 10.601000] -0.088746 0.000000 0.000000 -0.996054 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

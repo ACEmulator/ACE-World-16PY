@@ -17,7 +17,7 @@ VALUES (0x77308009, 23882, 0x73080000, 63.8046, 186.31, 12.005, -0.890949, 0, 0,
 /* @teleloc 0x73080000 [63.804600 186.309998 12.005000] -0.890949 0.000000 0.000000 -0.454103 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7730800A, 23883, 0x73080000, 70.8221, 164.464, 12.005, 0.0461788, 0, 0, -0.998933, False, '2005-02-09 10:00:00'); /* Ulgrim's Island */
+VALUES (0x7730800A, 23883, 0x73080000, 70.8221, 164.464, 12.005, 0.046179, 0, 0, -0.998933, False, '2005-02-09 10:00:00'); /* Ulgrim's Island */
 /* @teleloc 0x73080000 [70.822098 164.464005 12.005000] 0.046179 0.000000 0.000000 -0.998933 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -25,7 +25,7 @@ VALUES (0x7730800B,  2471, 0x73080000, 9.19085, 82.3812, 4.024, -0.343418, 0, 0,
 /* @teleloc 0x73080000 [9.190850 82.381203 4.024000] -0.343418 0.000000 0.000000 -0.939183 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7730800C,  2471, 0x73080000, 8.86707, 82.3185, 4.024, -0.997083, 0, 0, -0.0763242,  True, '2005-02-09 10:00:00'); /* Stout */
+VALUES (0x7730800C,  2471, 0x73080000, 8.86707, 82.3185, 4.024, -0.997083, 0, 0, -0.076324,  True, '2005-02-09 10:00:00'); /* Stout */
 /* @teleloc 0x73080000 [8.867070 82.318497 4.024000] -0.997083 0.000000 0.000000 -0.076324 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

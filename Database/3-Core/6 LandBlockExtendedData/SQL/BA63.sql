@@ -5,7 +5,7 @@ VALUES (0x7BA63000, 27104, 0xBA630000, 191.867, 146.859, 5.555, 0.494737, 0, 0, 
 /* @teleloc 0xBA630000 [191.867004 146.858994 5.555000] 0.494737 0.000000 0.000000 0.869043 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BA63001, 27102, 0xBA630000, 161.795, 131.623, 6.005, 0.0505074, 0, 0, 0.998724, False, '2005-02-09 10:00:00'); /* Burun Adherent Encampment Gen */
+VALUES (0x7BA63001, 27102, 0xBA630000, 161.795, 131.623, 6.005, 0.050507, 0, 0, 0.998724, False, '2005-02-09 10:00:00'); /* Burun Adherent Encampment Gen */
 /* @teleloc 0xBA630000 [161.794998 131.623001 6.005000] 0.050507 0.000000 0.000000 0.998724 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

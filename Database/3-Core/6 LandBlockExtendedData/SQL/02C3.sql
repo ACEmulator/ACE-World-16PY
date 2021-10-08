@@ -25,7 +25,7 @@ VALUES (0x702C3005,  4261, 0x02C3011E, 126.304, -80.4665, -41.995, 0.85717, 0, 0
 /* @teleloc 0x02C3011E [126.304001 -80.466499 -41.994999] 0.857170 0.000000 0.000000 -0.515034 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702C3006,  4261, 0x02C3012E, 30, -60, -29.995, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Slithayr Eye Stalk */
+VALUES (0x702C3006,  4261, 0x02C3012E, 30, -60, -29.995, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Slithayr Eye Stalk */
 /* @teleloc 0x02C3012E [30.000000 -60.000000 -29.995001] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -33,7 +33,7 @@ VALUES (0x702C3007,  4261, 0x02C30131, 40, -80, -29.995, 1, 0, 0, 0,  True, '200
 /* @teleloc 0x02C30131 [40.000000 -80.000000 -29.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702C3008,  4261, 0x02C3013C, 60, -20, -29.995, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Slithayr Eye Stalk */
+VALUES (0x702C3008,  4261, 0x02C3013C, 60, -20, -29.995, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Slithayr Eye Stalk */
 /* @teleloc 0x02C3013C [60.000000 -20.000000 -29.995001] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -45,7 +45,7 @@ VALUES (0x702C300A,  4261, 0x02C30146, 80, 0, -29.995, 1, 0, 0, 0,  True, '2005-
 /* @teleloc 0x02C30146 [80.000000 0.000000 -29.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702C300B,  4261, 0x02C30148, 80, -20, -29.995, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Slithayr Eye Stalk */
+VALUES (0x702C300B,  4261, 0x02C30148, 80, -20, -29.995, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Slithayr Eye Stalk */
 /* @teleloc 0x02C30148 [80.000000 -20.000000 -29.995001] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -65,7 +65,7 @@ VALUES (0x702C300F,  4261, 0x02C30161, 25.1279, -45.0672, -17.995, -0.25522, 0, 
 /* @teleloc 0x02C30161 [25.127899 -45.067200 -17.995001] -0.255220 0.000000 0.000000 0.966883 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702C3010,  4261, 0x02C30168, 50, -40, -17.995, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Slithayr Eye Stalk */
+VALUES (0x702C3010,  4261, 0x02C30168, 50, -40, -17.995, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Slithayr Eye Stalk */
 /* @teleloc 0x02C30168 [50.000000 -40.000000 -17.995001] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -81,7 +81,7 @@ VALUES (0x702C3013,  4261, 0x02C30174, 55.4754, -171.636, -17.995, 0.47019, 0, 0
 /* @teleloc 0x02C30174 [55.475399 -171.636002 -17.995001] 0.470190 0.000000 0.000000 -0.882565 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702C3014,  5624, 0x02C30178, 70, -24.572, -17.995, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Door */
+VALUES (0x702C3014,  5624, 0x02C30178, 70, -24.572, -17.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x02C30178 [70.000000 -24.572001 -17.995001] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -141,7 +141,7 @@ VALUES (0x702C3022,  8459, 0x02C30271, 108.155, -90.0539, 0.005, 0.696707, 0, 0,
 /* @teleloc 0x02C30271 [108.154999 -90.053902 0.005000] 0.696707 0.000000 0.000000 0.717356 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702C3023,  4219, 0x02C3028A, 141.52, -49.5892, 0.005, 0.999687, 0, 0, 0.0249976, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 7 Min.) */
+VALUES (0x702C3023,  4219, 0x02C3028A, 141.52, -49.5892, 0.005, 0.999687, 0, 0, 0.024998, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 7 Min.) */
 /* @teleloc 0x02C3028A [141.520004 -49.589199 0.005000] 0.999687 0.000000 0.000000 0.024998 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -171,7 +171,7 @@ VALUES (0x702C3023, 0x702C3001, '2005-02-09 10:00:00') /* Slithayr Eye Stalk (42
      , (0x702C3023, 0x702C3021, '2005-02-09 10:00:00') /* Slithayr Eye Stalk (4261) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702C3024,  7924, 0x02C3028A, 139.733, -49.7589, 0.005, 0.999687, 0, 0, 0.0249976, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
+VALUES (0x702C3024,  7924, 0x02C3028A, 139.733, -49.7589, 0.005, 0.999687, 0, 0, 0.024998, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x02C3028A [139.733002 -49.758900 0.005000] 0.999687 0.000000 0.000000 0.024998 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)

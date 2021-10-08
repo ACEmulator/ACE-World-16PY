@@ -9,7 +9,7 @@ VALUES (0x79158001,  1148, 0x91580000, 13.99, 103.5, 0, 0.707107, 0, 0, -0.70710
 /* @teleloc 0x91580000 [13.990000 103.500000 0.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79158002,  1148, 0x91580000, 8.5, 106.49, 0, -1, 0, 0, 8.74228E-08, False, '2005-02-09 10:00:00'); /* Door */
+VALUES (0x79158002,  1148, 0x91580000, 8.5, 106.49, 0, -1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x91580000 [8.500000 106.489998 0.000000] -1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -21,11 +21,11 @@ VALUES (0x79158004,  4644, 0x91580000, 14.5876, 95.8777, 3.13538, 0.707107, 0, 0
 /* @teleloc 0x91580000 [14.587600 95.877701 3.135380] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79158005,  4678, 0x91580103, 17.6087, 113.303, 0.00500001, -0.58575, 0, 0, -0.810492, False, '2005-02-09 10:00:00'); /* Itir ibn Ativ the Barkeep */
+VALUES (0x79158005,  4678, 0x91580103, 17.6087, 113.303, 0.005, -0.58575, 0, 0, -0.810492, False, '2005-02-09 10:00:00'); /* Itir ibn Ativ the Barkeep */
 /* @teleloc 0x91580103 [17.608700 113.303001 0.005000] -0.585750 0.000000 0.000000 -0.810492 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79158006,  4646, 0x91580000, 3.37066, 106.982, 3.46985, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Tavern at Al-Arqas */
+VALUES (0x79158006,  4646, 0x91580000, 3.37066, 106.982, 3.46985, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Tavern at Al-Arqas */
 /* @teleloc 0x91580000 [3.370660 106.982002 3.469850] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

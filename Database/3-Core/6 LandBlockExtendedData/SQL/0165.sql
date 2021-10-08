@@ -29,7 +29,7 @@ VALUES (0x70165006,  1930, 0x01650116, 11.0822, -26.5005, -12, 0.325671, 0, 0, -
 /* @teleloc 0x01650116 [11.082200 -26.500500 -12.000000] 0.325671 0.000000 0.000000 -0.945483 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70165007,   193, 0x01650116, 9.59314, -26.1475, -11.9967, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Drudge Slinker */
+VALUES (0x70165007,   193, 0x01650116, 9.59314, -26.1475, -11.9967, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Drudge Slinker */
 /* @teleloc 0x01650116 [9.593140 -26.147499 -11.996700] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -53,7 +53,7 @@ VALUES (0x7016500C,     7, 0x0165012B, 30, -60, -11.9967, 1, 0, 0, 0,  True, '20
 /* @teleloc 0x0165012B [30.000000 -60.000000 -11.996700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7016500D,     7, 0x0165012C, 25.8465, -67.3446, -11.9967, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Drudge Skulker */
+VALUES (0x7016500D,     7, 0x0165012C, 25.8465, -67.3446, -11.9967, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Drudge Skulker */
 /* @teleloc 0x0165012C [25.846500 -67.344597 -11.996700] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -120,7 +120,7 @@ VALUES (0x70165018, 0x70165000, '2005-02-09 10:00:00') /* Drudge Skulker (7) */
      , (0x70165018, 0x70165017, '2005-02-09 10:00:00') /* Drudge Skulker (7) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70165019,  5085, 0x0165015B, 42.004, -21.2305, 0.005, -0.999514, 0, 0, 0.0311601, False, '2005-02-09 10:00:00'); /* Linkable Item Gen - 25 seconds */
+VALUES (0x70165019,  5085, 0x0165015B, 42.004, -21.2305, 0.005, -0.999514, 0, 0, 0.03116, False, '2005-02-09 10:00:00'); /* Linkable Item Gen - 25 seconds */
 /* @teleloc 0x0165015B [42.004002 -21.230499 0.005000] -0.999514 0.000000 0.000000 0.031160 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)

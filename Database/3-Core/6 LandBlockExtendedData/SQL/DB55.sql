@@ -37,7 +37,7 @@ VALUES (0x7DB55008, 20218, 0xDB550106, 41.2339, 80.4734, 25.005, 0.907844, 0, 0,
 /* @teleloc 0xDB550106 [41.233898 80.473396 25.004999] 0.907844 0.000000 0.000000 0.419308 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB55009, 20206, 0xDB550106, 36.7354, 90.4676, 25.005, 0.0854683, 0, 0, 0.996341, False, '2005-02-09 10:00:00'); /* Apprentice Scrivener of Creature Magic */
+VALUES (0x7DB55009, 20206, 0xDB550106, 36.7354, 90.4676, 25.005, 0.085468, 0, 0, 0.996341, False, '2005-02-09 10:00:00'); /* Apprentice Scrivener of Creature Magic */
 /* @teleloc 0xDB550106 [36.735401 90.467598 25.004999] 0.085468 0.000000 0.000000 0.996341 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

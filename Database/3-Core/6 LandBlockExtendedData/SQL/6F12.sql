@@ -32,5 +32,5 @@ VALUES (0x76F12005, 0x76F12000, '2005-02-09 10:00:00') /* Tumerok Scout (232) */
      , (0x76F12005, 0x76F12004, '2005-02-09 10:00:00') /* Tumerok Warrior (233) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76F12006,  1930, 0x6F120000, 149.466, 106.055, 30.5058, 0.995623, 0, 0, 0.0934657, False, '2005-02-09 10:00:00'); /* Chest */
+VALUES (0x76F12006,  1930, 0x6F120000, 149.466, 106.055, 30.5058, 0.995623, 0, 0, 0.093466, False, '2005-02-09 10:00:00'); /* Chest */
 /* @teleloc 0x6F120000 [149.466003 106.055000 30.505800] 0.995623 0.000000 0.000000 0.093466 */

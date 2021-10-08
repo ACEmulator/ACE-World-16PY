@@ -9,7 +9,7 @@ VALUES (0x77109002, 24492, 0x71090000, 0.413126, 175.952, 24.2167, -0.392736, 0,
 /* @teleloc 0x71090000 [0.413126 175.951996 24.216700] -0.392736 0.000000 0.000000 -0.919651 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77109005, 24489, 0x71090000, 81.8635, 177.447, 3.57453, 0.0556972, 0, 0, 0.998448, False, '2005-02-09 10:00:00'); /* Ulgrim Island Rock-Mix Gen */
+VALUES (0x77109005, 24489, 0x71090000, 81.8635, 177.447, 3.57453, 0.055697, 0, 0, 0.998448, False, '2005-02-09 10:00:00'); /* Ulgrim Island Rock-Mix Gen */
 /* @teleloc 0x71090000 [81.863503 177.447006 3.574530] 0.055697 0.000000 0.000000 0.998448 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -33,11 +33,11 @@ VALUES (0x7710900A, 24487, 0x71090000, 40.7488, 39.2092, 1.27243, 0.467938, 0, 0
 /* @teleloc 0x71090000 [40.748798 39.209202 1.272430] 0.467938 0.000000 0.000000 -0.883761 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7710900C, 24487, 0x71090000, 118.178, 71.7924, -0.095, -0.0619873, 0, 0, -0.998077, False, '2005-02-09 10:00:00'); /* Ulgrim Island Beach Gen */
+VALUES (0x7710900C, 24487, 0x71090000, 118.178, 71.7924, -0.095, -0.061987, 0, 0, -0.998077, False, '2005-02-09 10:00:00'); /* Ulgrim Island Beach Gen */
 /* @teleloc 0x71090000 [118.178001 71.792397 -0.095000] -0.061987 0.000000 0.000000 -0.998077 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7710900D, 24487, 0x71090000, 168.014, 79.4495, -0.095, 0.998414, 0, 0, 0.0562973, False, '2005-02-09 10:00:00'); /* Ulgrim Island Beach Gen */
+VALUES (0x7710900D, 24487, 0x71090000, 168.014, 79.4495, -0.095, 0.998414, 0, 0, 0.056297, False, '2005-02-09 10:00:00'); /* Ulgrim Island Beach Gen */
 /* @teleloc 0x71090000 [168.014008 79.449501 -0.095000] 0.998414 0.000000 0.000000 0.056297 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -49,7 +49,7 @@ VALUES (0x7710900F, 24487, 0x71090000, 100.353, 21.7625, -0.095, -0.926473, 0, 0
 /* @teleloc 0x71090000 [100.352997 21.762501 -0.095000] -0.926473 0.000000 0.000000 -0.376360 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77109012, 24490, 0x71090000, 25.9916, 75.2872, 3.73107, 0.0148964, 0, 0, -0.999889, False, '2005-02-09 10:00:00'); /* Ulgrim Island Tree-Line Gen */
+VALUES (0x77109012, 24490, 0x71090000, 25.9916, 75.2872, 3.73107, 0.014896, 0, 0, -0.999889, False, '2005-02-09 10:00:00'); /* Ulgrim Island Tree-Line Gen */
 /* @teleloc 0x71090000 [25.991600 75.287201 3.731070] 0.014896 0.000000 0.000000 -0.999889 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

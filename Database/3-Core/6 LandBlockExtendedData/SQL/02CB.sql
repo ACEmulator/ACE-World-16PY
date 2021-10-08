@@ -104,7 +104,7 @@ VALUES (0x702CB011, 0x702CB001, '2005-02-09 10:00:00') /* Lesser Mu-miyah (1763)
      , (0x702CB011, 0x702CB030, '2005-02-09 10:00:00') /* Zombie (950) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702CB012,  5624, 0x02CB0127, 30, -4.755, 0, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+VALUES (0x702CB012,  5624, 0x02CB0127, 30, -4.755, 0, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x02CB0127 [30.000000 -4.755000 0.000000] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -116,7 +116,7 @@ VALUES (0x702CB014,  4887, 0x02CB0139, 26.6034, -67.4238, 0.005, 0.76152, 0, 0, 
 /* @teleloc 0x02CB0139 [26.603399 -67.423798 0.005000] 0.761520 0.000000 0.000000 0.648141 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702CB015,   152, 0x02CB013A, 27.5265, -82.2215, 0.005, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Font */
+VALUES (0x702CB015,   152, 0x02CB013A, 27.5265, -82.2215, 0.005, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Font */
 /* @teleloc 0x02CB013A [27.526501 -82.221497 0.005000] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -132,7 +132,7 @@ VALUES (0x702CB018,  5625, 0x02CB013F, 44.75, -30, 0, -0.707107, 0, 0, 0.707107,
 /* @teleloc 0x02CB013F [44.750000 -30.000000 0.000000] -0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702CB019,  5625, 0x02CB0141, 40, -34.75, 0, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+VALUES (0x702CB019,  5625, 0x02CB0141, 40, -34.75, 0, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x02CB0141 [40.000000 -34.750000 0.000000] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -184,11 +184,11 @@ VALUES (0x702CB025,  1296, 0x02CB0182, 20, -4.75, 6, 0, 0, 0, 1, False, '2005-02
 /* @teleloc 0x02CB0182 [20.000000 -4.750000 6.000000] 0.000000 0.000000 0.000000 1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702CB026,  5624, 0x02CB0183, 15.25, 1.62586E-07, 6, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
+VALUES (0x702CB026,  5624, 0x02CB0183, 15.25, 0, 6, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0x02CB0183 [15.250000 0.000000 6.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702CB027,   950, 0x02CB0188, 19.6463, -30.2345, 3.0075, -0.99991, 0, 0, -0.0134138,  True, '2005-02-09 10:00:00'); /* Zombie */
+VALUES (0x702CB027,   950, 0x02CB0188, 19.6463, -30.2345, 3.0075, -0.99991, 0, 0, -0.013414,  True, '2005-02-09 10:00:00'); /* Zombie */
 /* @teleloc 0x02CB0188 [19.646299 -30.234501 3.007500] -0.999910 0.000000 0.000000 -0.013414 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -204,7 +204,7 @@ VALUES (0x702CB02A,   950, 0x02CB01BD, 50.5508, -71.3315, 2.28588, 0.182272, 0, 
 /* @teleloc 0x02CB01BD [50.550800 -71.331497 2.285880] 0.182272 0.000000 0.000000 0.983248 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702CB02B,  3984, 0x02CB01C3, 23.1966, -46.7499, 12.005, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Chest */
+VALUES (0x702CB02B,  3984, 0x02CB01C3, 23.1966, -46.7499, 12.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Chest */
 /* @teleloc 0x02CB01C3 [23.196600 -46.749901 12.005000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -220,7 +220,7 @@ VALUES (0x702CB02E,   204, 0x02CB01CB, 28.7505, -49.7536, 12.0075, 0.529868, 0, 
 /* @teleloc 0x02CB01CB [28.750500 -49.753601 12.007500] 0.529868 0.000000 0.000000 0.848080 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702CB02F,   204, 0x02CB01D0, 30.3405, -57.3061, 12.0075, -0.996885, 0, 0, -0.0788629,  True, '2005-02-09 10:00:00'); /* Lich */
+VALUES (0x702CB02F,   204, 0x02CB01D0, 30.3405, -57.3061, 12.0075, -0.996885, 0, 0, -0.078863,  True, '2005-02-09 10:00:00'); /* Lich */
 /* @teleloc 0x02CB01D0 [30.340500 -57.306099 12.007500] -0.996885 0.000000 0.000000 -0.078863 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

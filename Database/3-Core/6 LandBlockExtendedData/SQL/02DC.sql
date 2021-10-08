@@ -9,7 +9,7 @@ VALUES (0x702DC001, 28554, 0x02DC0102, 592.07, -68.978, -41.995, -0.977637, 0, 0
 /* @teleloc 0x02DC0102 [592.070007 -68.977997 -41.994999] -0.977637 0.000000 0.000000 0.210301 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702DC002, 28554, 0x02DC0103, 598.06, -67.3103, -41.995, 0.995238, 0, 0, -0.0974768,  True, '2005-02-09 10:00:00'); /* Spiked Grievver */
+VALUES (0x702DC002, 28554, 0x02DC0103, 598.06, -67.3103, -41.995, 0.995238, 0, 0, -0.097477,  True, '2005-02-09 10:00:00'); /* Spiked Grievver */
 /* @teleloc 0x02DC0103 [598.059998 -67.310303 -41.994999] 0.995238 0.000000 0.000000 -0.097477 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -33,11 +33,11 @@ VALUES (0x702DC007,  4253, 0x02DC0112, 11.1762, -221.362, -35.995, -0.999894, 0,
 /* @teleloc 0x02DC0112 [11.176200 -221.362000 -35.994999] -0.999894 0.000000 0.000000 -0.014566 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702DC008,  8268, 0x02DC0113, 7.76043, -229.071, -35.995, -0.996353, 0, 0, 0.0853301,  True, '2005-02-09 10:00:00'); /* Shadow Lieutenant */
+VALUES (0x702DC008,  8268, 0x02DC0113, 7.76043, -229.071, -35.995, -0.996353, 0, 0, 0.08533,  True, '2005-02-09 10:00:00'); /* Shadow Lieutenant */
 /* @teleloc 0x02DC0113 [7.760430 -229.070999 -35.994999] -0.996353 0.000000 0.000000 0.085330 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702DC009,  8268, 0x02DC0114, 9.08298, -236.231, -35.995, -0.999995, 0, 0, -0.00309396,  True, '2005-02-09 10:00:00'); /* Shadow Lieutenant */
+VALUES (0x702DC009,  8268, 0x02DC0114, 9.08298, -236.231, -35.995, -0.999995, 0, 0, -0.003094,  True, '2005-02-09 10:00:00'); /* Shadow Lieutenant */
 /* @teleloc 0x02DC0114 [9.082980 -236.231003 -35.994999] -0.999995 0.000000 0.000000 -0.003094 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -93,7 +93,7 @@ VALUES (0x702DC016,  8268, 0x02DC014F, 108.987, -228.195, -35.995, -0.998789, 0,
 /* @teleloc 0x02DC014F [108.987000 -228.195007 -35.994999] -0.998789 0.000000 0.000000 0.049193 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702DC017,  8268, 0x02DC0152, 113.335, -263.363, -35.995, 0.997228, 0, 0, 0.0744095,  True, '2005-02-09 10:00:00'); /* Shadow Lieutenant */
+VALUES (0x702DC017,  8268, 0x02DC0152, 113.335, -263.363, -35.995, 0.997228, 0, 0, 0.07441,  True, '2005-02-09 10:00:00'); /* Shadow Lieutenant */
 /* @teleloc 0x02DC0152 [113.334999 -263.363007 -35.994999] 0.997228 0.000000 0.000000 0.074409 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -245,11 +245,11 @@ VALUES (0x702DC03D,  4253, 0x02DC0214, 83.6135, -250.976, -29.995, -0.049601, 0,
 /* @teleloc 0x02DC0214 [83.613503 -250.975998 -29.995001] -0.049601 0.000000 0.000000 0.998769 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702DC03E,  8268, 0x02DC0217, 87.4948, -251.346, -29.995, 0.0841457, 0, 0, -0.996453,  True, '2005-02-09 10:00:00'); /* Shadow Lieutenant */
+VALUES (0x702DC03E,  8268, 0x02DC0217, 87.4948, -251.346, -29.995, 0.084146, 0, 0, -0.996453,  True, '2005-02-09 10:00:00'); /* Shadow Lieutenant */
 /* @teleloc 0x02DC0217 [87.494797 -251.345993 -29.995001] 0.084146 0.000000 0.000000 -0.996453 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702DC03F,  8268, 0x02DC0217, 91.3761, -250.79, -29.995, 0.0705127, 0, 0, 0.997511,  True, '2005-02-09 10:00:00'); /* Shadow Lieutenant */
+VALUES (0x702DC03F,  8268, 0x02DC0217, 91.3761, -250.79, -29.995, 0.070513, 0, 0, 0.997511,  True, '2005-02-09 10:00:00'); /* Shadow Lieutenant */
 /* @teleloc 0x02DC0217 [91.376099 -250.789993 -29.995001] 0.070513 0.000000 0.000000 0.997511 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -305,7 +305,7 @@ VALUES (0x702DC04C,  8268, 0x02DC0274, 474.595, -174.957, -29.995, 0.24605, 0, 0
 /* @teleloc 0x02DC0274 [474.595001 -174.957001 -29.995001] 0.246050 0.000000 0.000000 0.969257 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702DC04D,  8268, 0x02DC0275, 469.166, -176.321, -29.995, -0.00139725, 0, 0, 0.999999,  True, '2005-02-09 10:00:00'); /* Shadow Lieutenant */
+VALUES (0x702DC04D,  8268, 0x02DC0275, 469.166, -176.321, -29.995, -0.001397, 0, 0, 0.999999,  True, '2005-02-09 10:00:00'); /* Shadow Lieutenant */
 /* @teleloc 0x02DC0275 [469.165985 -176.320999 -29.995001] -0.001397 0.000000 0.000000 0.999999 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -333,7 +333,7 @@ VALUES (0x702DC053,  4253, 0x02DC02DC, 257.527, -221.752, -17.995, 0.998494, 0, 
 /* @teleloc 0x02DC02DC [257.527008 -221.751999 -17.995001] 0.998494 0.000000 0.000000 -0.054869 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702DC054,  8268, 0x02DC02F0, 188.988, -180.41, -11.995, 0.0844781, 0, 0, 0.996425,  True, '2005-02-09 10:00:00'); /* Shadow Lieutenant */
+VALUES (0x702DC054,  8268, 0x02DC02F0, 188.988, -180.41, -11.995, 0.084478, 0, 0, 0.996425,  True, '2005-02-09 10:00:00'); /* Shadow Lieutenant */
 /* @teleloc 0x02DC02F0 [188.988007 -180.410004 -11.995000] 0.084478 0.000000 0.000000 0.996425 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -361,7 +361,7 @@ VALUES (0x702DC05A,  8268, 0x02DC032B, 313.548, -95.8919, -5.995, -0.251606, 0, 
 /* @teleloc 0x02DC032B [313.548004 -95.891899 -5.995000] -0.251606 0.000000 0.000000 0.967830 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702DC05B,  4253, 0x02DC032F, 319.996, -84.6625, -5.995, 0.0377379, 0, 0, -0.999288,  True, '2005-02-09 10:00:00'); /* Panumbris Shadow */
+VALUES (0x702DC05B,  4253, 0x02DC032F, 319.996, -84.6625, -5.995, 0.037738, 0, 0, -0.999288,  True, '2005-02-09 10:00:00'); /* Panumbris Shadow */
 /* @teleloc 0x02DC032F [319.996002 -84.662498 -5.995000] 0.037738 0.000000 0.000000 -0.999288 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -389,11 +389,11 @@ VALUES (0x702DC064, 28554, 0x02DC0108, 2.58957, -240, -35.995, 1, 0, 0, 0,  True
 /* @teleloc 0x02DC0108 [2.589570 -240.000000 -35.994999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702DC065, 28554, 0x02DC0109, 11.4411, -122.822, -35.995, -0.0886535, 0, 0, -0.996063,  True, '2005-02-09 10:00:00'); /* Spiked Grievver */
+VALUES (0x702DC065, 28554, 0x02DC0109, 11.4411, -122.822, -35.995, -0.088654, 0, 0, -0.996063,  True, '2005-02-09 10:00:00'); /* Spiked Grievver */
 /* @teleloc 0x02DC0109 [11.441100 -122.821999 -35.994999] -0.088653 0.000000 0.000000 -0.996063 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702DC066, 28554, 0x02DC0114, 10.6077, -240, -35.995, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Spiked Grievver */
+VALUES (0x702DC066, 28554, 0x02DC0114, 10.6077, -240, -35.995, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Spiked Grievver */
 /* @teleloc 0x02DC0114 [10.607700 -240.000000 -35.994999] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -417,7 +417,7 @@ VALUES (0x702DC06B, 28554, 0x02DC0136, 70, -170, -35.995, 1, 0, 0, 0,  True, '20
 /* @teleloc 0x02DC0136 [70.000000 -170.000000 -35.994999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702DC06C, 28554, 0x02DC0137, 70, -190, -35.995, -0.00420373, 0, 0, -0.999991,  True, '2005-02-09 10:00:00'); /* Spiked Grievver */
+VALUES (0x702DC06C, 28554, 0x02DC0137, 70, -190, -35.995, -0.004204, 0, 0, -0.999991,  True, '2005-02-09 10:00:00'); /* Spiked Grievver */
 /* @teleloc 0x02DC0137 [70.000000 -190.000000 -35.994999] -0.004204 0.000000 0.000000 -0.999991 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -573,7 +573,7 @@ VALUES (0x702DC092, 28554, 0x02DC01E8, 593.934, -53.3114, -35.995, 0.999351, 0, 
 /* @teleloc 0x02DC01E8 [593.934021 -53.311401 -35.994999] 0.999351 0.000000 0.000000 0.036016 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702DC093, 28554, 0x02DC01EF, 602.958, -52.7067, -35.995, 0.999351, 0, 0, 0.0360157,  True, '2005-02-09 10:00:00'); /* Spiked Grievver */
+VALUES (0x702DC093, 28554, 0x02DC01EF, 602.958, -52.7067, -35.995, 0.999351, 0, 0, 0.036016,  True, '2005-02-09 10:00:00'); /* Spiked Grievver */
 /* @teleloc 0x02DC01EF [602.958008 -52.706699 -35.994999] 0.999351 0.000000 0.000000 0.036016 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -653,7 +653,7 @@ VALUES (0x702DC0A6, 28554, 0x02DC0274, 472.352, -169.033, -29.995, -0.68012, 0, 
 /* @teleloc 0x02DC0274 [472.351990 -169.033005 -29.995001] -0.680120 0.000000 0.000000 -0.733101 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702DC0A7, 28554, 0x02DC0275, 469.958, -184.984, -29.995, -0.999437, 0, 0, 0.0335501,  True, '2005-02-09 10:00:00'); /* Spiked Grievver */
+VALUES (0x702DC0A7, 28554, 0x02DC0275, 469.958, -184.984, -29.995, -0.999437, 0, 0, 0.03355,  True, '2005-02-09 10:00:00'); /* Spiked Grievver */
 /* @teleloc 0x02DC0275 [469.958008 -184.983994 -29.995001] -0.999437 0.000000 0.000000 0.033550 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -721,15 +721,15 @@ VALUES (0x702DC0B7, 28554, 0x02DC02D8, 257.586, -191.762, -17.995, -0.478885, 0,
 /* @teleloc 0x02DC02D8 [257.585999 -191.761993 -17.995001] -0.478885 0.000000 0.000000 0.877878 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702DC0B8, 28554, 0x02DC02DA, 259.955, -209.183, -17.995, -0.00610996, 0, 0, 0.999981,  True, '2005-02-09 10:00:00'); /* Spiked Grievver */
+VALUES (0x702DC0B8, 28554, 0x02DC02DA, 259.955, -209.183, -17.995, -0.00611, 0, 0, 0.999981,  True, '2005-02-09 10:00:00'); /* Spiked Grievver */
 /* @teleloc 0x02DC02DA [259.954987 -209.182999 -17.995001] -0.006110 0.000000 0.000000 0.999981 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702DC0B9, 28554, 0x02DC02DC, 260.078, -219.284, -17.995, -0.00610996, 0, 0, 0.999981,  True, '2005-02-09 10:00:00'); /* Spiked Grievver */
+VALUES (0x702DC0B9, 28554, 0x02DC02DC, 260.078, -219.284, -17.995, -0.00611, 0, 0, 0.999981,  True, '2005-02-09 10:00:00'); /* Spiked Grievver */
 /* @teleloc 0x02DC02DC [260.078003 -219.283997 -17.995001] -0.006110 0.000000 0.000000 0.999981 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702DC0BA, 28554, 0x02DC02DF, 260.274, -235.296, -17.995, -0.00610996, 0, 0, 0.999981,  True, '2005-02-09 10:00:00'); /* Spiked Grievver */
+VALUES (0x702DC0BA, 28554, 0x02DC02DF, 260.274, -235.296, -17.995, -0.00611, 0, 0, 0.999981,  True, '2005-02-09 10:00:00'); /* Spiked Grievver */
 /* @teleloc 0x02DC02DF [260.273987 -235.296005 -17.995001] -0.006110 0.000000 0.000000 0.999981 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -789,7 +789,7 @@ VALUES (0x702DC0C8, 28554, 0x02DC0310, 311.124, -199.235, -11.995, -0.722117, 0,
 /* @teleloc 0x02DC0310 [311.123993 -199.235001 -11.995000] -0.722117 0.000000 0.000000 0.691771 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702DC0C9, 28554, 0x02DC0311, 320.074, -169.602, -11.995, -0.99903, 0, 0, -0.0440442,  True, '2005-02-09 10:00:00'); /* Spiked Grievver */
+VALUES (0x702DC0C9, 28554, 0x02DC0311, 320.074, -169.602, -11.995, -0.99903, 0, 0, -0.044044,  True, '2005-02-09 10:00:00'); /* Spiked Grievver */
 /* @teleloc 0x02DC0311 [320.074005 -169.602005 -11.995000] -0.999030 0.000000 0.000000 -0.044044 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

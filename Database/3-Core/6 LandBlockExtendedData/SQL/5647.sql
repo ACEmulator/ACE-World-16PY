@@ -77,7 +77,7 @@ VALUES (0x75647004,   195, 0x56470127, 110.022, -63.1648, 0.011, -0.023448, 0, 0
 /* @teleloc 0x56470127 [110.022003 -63.164799 0.011000] -0.023448 0.000000 0.000000 -0.999725 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75647005,   197, 0x56470133, 109.69, -115.765, 0.01, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Iron Golem */
+VALUES (0x75647005,   197, 0x56470133, 109.69, -115.765, 0.01, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Iron Golem */
 /* @teleloc 0x56470133 [109.690002 -115.764999 0.010000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -105,7 +105,7 @@ VALUES (0x7564700B, 14521, 0x5647016B, 110.032, -59.5702, 12.01, 0.95453, 0, 0, 
 /* @teleloc 0x5647016B [110.031998 -59.570202 12.010000] 0.954530 0.000000 0.000000 -0.298116 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7564700C,   197, 0x5647017C, 120.419, -85.309, 12.055, 0.999078, 0, 0, -0.0429405,  True, '2005-02-09 10:00:00'); /* Iron Golem */
+VALUES (0x7564700C,   197, 0x5647017C, 120.419, -85.309, 12.055, 0.999078, 0, 0, -0.042941,  True, '2005-02-09 10:00:00'); /* Iron Golem */
 /* @teleloc 0x5647017C [120.418999 -85.308998 12.055000] 0.999078 0.000000 0.000000 -0.042941 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -133,7 +133,7 @@ VALUES (0x75647012,   195, 0x5647019C, 130, -110, 12.011, 1, 0, 0, 0,  True, '20
 /* @teleloc 0x5647019C [130.000000 -110.000000 12.011000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75647013,   195, 0x564701A3, 130.204, -127.243, 12.011, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Granite Golem */
+VALUES (0x75647013,   195, 0x564701A3, 130.204, -127.243, 12.011, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Granite Golem */
 /* @teleloc 0x564701A3 [130.203995 -127.242996 12.011000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -149,7 +149,7 @@ VALUES (0x75647016, 14521, 0x564701AE, 140, -100, 12.01, 0.930508, 0, 0, 0.36627
 /* @teleloc 0x564701AE [140.000000 -100.000000 12.010000] 0.930508 0.000000 0.000000 0.366273 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75647017,   197, 0x564701B1, 140, -110, 12.01, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Iron Golem */
+VALUES (0x75647017,   197, 0x564701B1, 140, -110, 12.01, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Iron Golem */
 /* @teleloc 0x564701B1 [140.000000 -110.000000 12.010000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -165,7 +165,7 @@ VALUES (0x7564701A,   197, 0x564701B9, 160, -50, 12.01, 0.659983, 0, 0, 0.75128,
 /* @teleloc 0x564701B9 [160.000000 -50.000000 12.010000] 0.659983 0.000000 0.000000 0.751280 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7564701B,   197, 0x564701BB, 160, -60, 12.01, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Iron Golem */
+VALUES (0x7564701B,   197, 0x564701BB, 160, -60, 12.01, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Iron Golem */
 /* @teleloc 0x564701BB [160.000000 -60.000000 12.010000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -229,7 +229,7 @@ VALUES (0x7564702A, 14521, 0x5647021C, 59.9152, -130.096, 18.01, 0.678557, 0, 0,
 /* @teleloc 0x5647021C [59.915199 -130.095993 18.010000] 0.678557 0.000000 0.000000 0.734548 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7564702B, 14521, 0x5647021D, 59.7559, -137.172, 18.01, 0.999141, 0, 0, 0.0414469,  True, '2005-02-09 10:00:00'); /* Glacial Golem */
+VALUES (0x7564702B, 14521, 0x5647021D, 59.7559, -137.172, 18.01, 0.999141, 0, 0, 0.041447,  True, '2005-02-09 10:00:00'); /* Glacial Golem */
 /* @teleloc 0x5647021D [59.755901 -137.171997 18.010000] 0.999141 0.000000 0.000000 0.041447 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -281,5 +281,5 @@ VALUES (0x75647037,   197, 0x56470255, 129.606, -94.2051, 18.01, -0.059624, 0, 0
 /* @teleloc 0x56470255 [129.606003 -94.205101 18.010000] -0.059624 0.000000 0.000000 -0.998221 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75647038,   201, 0x5647025B, 130.146, -106.465, 18.01, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Obsidian Golem */
+VALUES (0x75647038,   201, 0x5647025B, 130.146, -106.465, 18.01, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Obsidian Golem */
 /* @teleloc 0x5647025B [130.145996 -106.464996 18.010000] 1.000000 0.000000 0.000000 -0.000000 */

@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x029D;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7029D000,  9323, 0x029D0103, 5.42385, 1.48456, 0.005, -0.999997, 0, 0, 0.00261698, False, '2005-02-09 10:00:00'); /* Exit */
+VALUES (0x7029D000,  9323, 0x029D0103, 5.42385, 1.48456, 0.005, -0.999997, 0, 0, 0.002617, False, '2005-02-09 10:00:00'); /* Exit */
 /* @teleloc 0x029D0103 [5.423850 1.484560 0.005000] -0.999997 0.000000 0.000000 0.002617 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -30,7 +30,7 @@ VALUES (0x7029D005,  9308, 0x029D0107, 48.3683, -59.943, 0.005, 0.691542, 0, 0, 
 /* @teleloc 0x029D0107 [48.368301 -59.943001 0.005000] 0.691542 0.000000 0.000000 -0.722337 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7029D006,  9321, 0x029D010B, 55.2758, -72.6808, 0.005, -0.00667004, 0, 0, -0.999978, False, '2005-02-09 10:00:00'); /* Large Mnemosyne Collection Site */
+VALUES (0x7029D006,  9321, 0x029D010B, 55.2758, -72.6808, 0.005, -0.00667, 0, 0, -0.999978, False, '2005-02-09 10:00:00'); /* Large Mnemosyne Collection Site */
 /* @teleloc 0x029D010B [55.275799 -72.680801 0.005000] -0.006670 0.000000 0.000000 -0.999978 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

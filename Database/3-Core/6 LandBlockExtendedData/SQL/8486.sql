@@ -13,11 +13,11 @@ VALUES (0x78486002, 12525, 0x84860000, 155.322, 97.7112, 155.062, 0.19483, 0, 0,
 /* @teleloc 0x84860000 [155.322006 97.711197 155.061996] 0.194830 0.000000 0.000000 -0.980837 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78486003, 12774, 0x84860000, 151.832, 111.014, 154.749, -0.0875633, 0, 0, 0.996159, False, '2005-02-09 10:00:00'); /* Settlement Portals */
+VALUES (0x78486003, 12774, 0x84860000, 151.832, 111.014, 154.749, -0.087563, 0, 0, 0.996159, False, '2005-02-09 10:00:00'); /* Settlement Portals */
 /* @teleloc 0x84860000 [151.832001 111.014000 154.748993] -0.087563 0.000000 0.000000 0.996159 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78486004, 14267, 0x84860000, 147.947, 98.367, 155.676, 0.0937716, 0, 0, 0.995594, False, '2005-02-09 10:00:00'); /* Jackcat Canyon Portal */
+VALUES (0x78486004, 14267, 0x84860000, 147.947, 98.367, 155.676, 0.093772, 0, 0, 0.995594, False, '2005-02-09 10:00:00'); /* Jackcat Canyon Portal */
 /* @teleloc 0x84860000 [147.947006 98.366997 155.675995] 0.093772 0.000000 0.000000 0.995594 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -29,7 +29,7 @@ VALUES (0x78486007, 14251, 0x84860000, 160.2, 124.194, 154.355, -0.934313, 0, 0,
 /* @teleloc 0x84860000 [160.199997 124.194000 154.354996] -0.934313 0.000000 0.000000 0.356453 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78486008, 13095, 0x84860000, 153.161, 126.78, 154.57, 0.998559, 0, 0, -0.0536728, False, '2005-02-09 10:00:00'); /* Bucolic Villas Portal */
+VALUES (0x78486008, 13095, 0x84860000, 153.161, 126.78, 154.57, 0.998559, 0, 0, -0.053673, False, '2005-02-09 10:00:00'); /* Bucolic Villas Portal */
 /* @teleloc 0x84860000 [153.160995 126.779999 154.570007] 0.998559 0.000000 0.000000 -0.053673 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -61,7 +61,7 @@ VALUES (0x7848600F, 15156, 0x84860000, 172.535, 112.48, 154.005, -0.661314, 0, 0
 /* @teleloc 0x84860000 [172.535004 112.480003 154.005005] -0.661314 0.000000 0.000000 0.750109 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78486010, 15678, 0x84860000, 146.804, 83.8899, 157.322, -0.0563298, 0, 0, 0.998412, False, '2005-02-09 10:00:00'); /* Nidal-Taraq Villas Portal */
+VALUES (0x78486010, 15678, 0x84860000, 146.804, 83.8899, 157.322, -0.05633, 0, 0, 0.998412, False, '2005-02-09 10:00:00'); /* Nidal-Taraq Villas Portal */
 /* @teleloc 0x84860000 [146.804001 83.889900 157.322006] -0.056330 0.000000 0.000000 0.998412 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

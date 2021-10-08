@@ -198,7 +198,7 @@ VALUES (0x702E8028,  7554, 0x02E8016E, 247.914, -285.606, -11.99, -0.975816, 0, 
 /* @teleloc 0x02E8016E [247.914001 -285.605988 -11.990000] -0.975816 0.000000 0.000000 0.218595 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702E8029,  7623, 0x02E8016E, 249.9, -290.403, -11.995, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Chorizite Deposit Medium Grade Gen */
+VALUES (0x702E8029,  7623, 0x02E8016E, 249.9, -290.403, -11.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Chorizite Deposit Medium Grade Gen */
 /* @teleloc 0x02E8016E [249.899994 -290.403015 -11.995000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -226,7 +226,7 @@ VALUES (0x702E802F,  7554, 0x02E80199, 79.5054, -259.394, -5.99, 0.008726, 0, 0,
 /* @teleloc 0x02E80199 [79.505402 -259.394012 -5.990000] 0.008726 0.000000 0.000000 0.999962 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702E8030,  2131, 0x02E8019C, 80.0386, -276.352, -5.995, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
+VALUES (0x702E8030,  2131, 0x02E8019C, 80.0386, -276.352, -5.995, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
 /* @teleloc 0x02E8019C [80.038597 -276.351990 -5.995000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -368,7 +368,7 @@ VALUES (0x702E8045, 0x702E8000, '2005-02-09 10:00:00') /* Lithos Raider (7554) *
      , (0x702E8045, 0x702E8053, '2005-02-09 10:00:00') /* Obeloth Raider (7555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702E8046,  7611, 0x02E80238, 80, -547, 0.005, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Surface Portal */
+VALUES (0x702E8046,  7611, 0x02E80238, 80, -547, 0.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Surface Portal */
 /* @teleloc 0x02E80238 [80.000000 -547.000000 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -412,7 +412,7 @@ VALUES (0x702E8050,  7554, 0x02E8026B, 160.156, -471.361, 0.01, -0.028378, 0, 0,
 /* @teleloc 0x02E8026B [160.156006 -471.360992 0.010000] -0.028378 0.000000 0.000000 -0.999597 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702E8051,  7554, 0x02E80271, 178.76, -468.571, 0.01, -0.998672, 0, 0, -0.0515099,  True, '2005-02-09 10:00:00'); /* Lithos Raider */
+VALUES (0x702E8051,  7554, 0x02E80271, 178.76, -468.571, 0.01, -0.998672, 0, 0, -0.05151,  True, '2005-02-09 10:00:00'); /* Lithos Raider */
 /* @teleloc 0x02E80271 [178.759995 -468.571014 0.010000] -0.998672 0.000000 0.000000 -0.051510 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

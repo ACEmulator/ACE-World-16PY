@@ -49,11 +49,11 @@ VALUES (0x70B7000B, 30649, 0x0B700000, 40.9967, 137.202, 98.805, 0.911761, 0, 0,
 /* @teleloc 0x0B700000 [40.996700 137.201996 98.805000] 0.911761 0.000000 0.000000 -0.410722 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70B7000C, 30646, 0x0B700000, 51.015, 130.445, 94.005, -0.99917, 0, 0, 0.0407323,  True, '2005-02-09 10:00:00'); /* Drudge Laborer */
+VALUES (0x70B7000C, 30646, 0x0B700000, 51.015, 130.445, 94.005, -0.99917, 0, 0, 0.040732,  True, '2005-02-09 10:00:00'); /* Drudge Laborer */
 /* @teleloc 0x0B700000 [51.014999 130.445007 94.004997] -0.999170 0.000000 0.000000 0.040732 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70B7000D, 30646, 0x0B700000, 74.9472, 131.016, 94.005, -0.999993, 0, 0, -0.00382824,  True, '2005-02-09 10:00:00'); /* Drudge Laborer */
+VALUES (0x70B7000D, 30646, 0x0B700000, 74.9472, 131.016, 94.005, -0.999993, 0, 0, -0.003828,  True, '2005-02-09 10:00:00'); /* Drudge Laborer */
 /* @teleloc 0x0B700000 [74.947197 131.016006 94.004997] -0.999993 0.000000 0.000000 -0.003828 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -73,11 +73,11 @@ VALUES (0x70B70011, 30649, 0x0B700000, 104.89, 87.4074, 94.005, -0.393524, 0, 0,
 /* @teleloc 0x0B700000 [104.889999 87.407402 94.004997] -0.393524 0.000000 0.000000 0.919314 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70B70012, 30646, 0x0B700000, 92.2116, 85.3038, 94.005, -0.0306948, 0, 0, 0.999529,  True, '2005-02-09 10:00:00'); /* Drudge Laborer */
+VALUES (0x70B70012, 30646, 0x0B700000, 92.2116, 85.3038, 94.005, -0.030695, 0, 0, 0.999529,  True, '2005-02-09 10:00:00'); /* Drudge Laborer */
 /* @teleloc 0x0B700000 [92.211601 85.303802 94.004997] -0.030695 0.000000 0.000000 0.999529 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70B70013, 30646, 0x0B700000, 68.3871, 85.3695, 94.005, -0.00801128, 0, 0, 0.999968,  True, '2005-02-09 10:00:00'); /* Drudge Laborer */
+VALUES (0x70B70013, 30646, 0x0B700000, 68.3871, 85.3695, 94.005, -0.008011, 0, 0, 0.999968,  True, '2005-02-09 10:00:00'); /* Drudge Laborer */
 /* @teleloc 0x0B700000 [68.387100 85.369499 94.004997] -0.008011 0.000000 0.000000 0.999968 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -160,7 +160,7 @@ VALUES (0x70B7001F, 27711, 0x0B700000, 76.0726, 75.6859, 90.005, -0.106273, 0, 0
 /* @teleloc 0x0B700000 [76.072601 75.685898 90.004997] -0.106273 0.000000 0.000000 0.994337 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70B70020, 30628, 0x0B700000, 64.8307, 99.3507, 95.6854, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Drudge Flying Machine */
+VALUES (0x70B70020, 30628, 0x0B700000, 64.8307, 99.3507, 95.6854, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Drudge Flying Machine */
 /* @teleloc 0x0B700000 [64.830704 99.350700 95.685402] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

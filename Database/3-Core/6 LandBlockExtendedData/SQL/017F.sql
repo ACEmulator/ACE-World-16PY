@@ -131,7 +131,7 @@ VALUES (0x7017F003, 0x7017F012, '2005-02-09 10:00:00') /* Tumerok War Monger (23
      , (0x7017F003, 0x7017F08B, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7017F004,  7924, 0x017F0111, 10.997, -306.521, 0.005, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
+VALUES (0x7017F004,  7924, 0x017F0111, 10.997, -306.521, 0.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x017F0111 [10.997000 -306.520996 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -246,7 +246,7 @@ VALUES (0x7017F01A, 23567, 0x017F0148, 140.122, -259.322, 0.01, 0.670668, 0, 0, 
 /* @teleloc 0x017F0148 [140.121994 -259.321991 0.010000] 0.670668 0.000000 0.000000 0.741758 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7017F01B, 24495, 0x017F0150, 170.203, -272.728, 0.01, -0.99966, 0, 0, 0.0260571,  True, '2005-02-09 10:00:00'); /* Gotrok Juggernaut */
+VALUES (0x7017F01B, 24495, 0x017F0150, 170.203, -272.728, 0.01, -0.99966, 0, 0, 0.026057,  True, '2005-02-09 10:00:00'); /* Gotrok Juggernaut */
 /* @teleloc 0x017F0150 [170.203003 -272.727997 0.010000] -0.999660 0.000000 0.000000 0.026057 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -258,7 +258,7 @@ VALUES (0x7017F01D, 24495, 0x017F0155, 165.086, -279.6, 0.055, -0.676413, 0, 0, 
 /* @teleloc 0x017F0155 [165.085999 -279.600006 0.055000] -0.676413 0.000000 0.000000 0.736522 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7017F01E, 23567, 0x017F0158, 170.222, -299.119, 0.01, 0.999755, 0, 0, 0.0221211,  True, '2005-02-09 10:00:00'); /* Tumerok War Monger */
+VALUES (0x7017F01E, 23567, 0x017F0158, 170.222, -299.119, 0.01, 0.999755, 0, 0, 0.022121,  True, '2005-02-09 10:00:00'); /* Tumerok War Monger */
 /* @teleloc 0x017F0158 [170.222000 -299.118988 0.010000] 0.999755 0.000000 0.000000 0.022121 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -302,7 +302,7 @@ VALUES (0x7017F028, 24495, 0x017F0168, 221.453, -293.995, 0.01, 0.589298, 0, 0, 
 /* @teleloc 0x017F0168 [221.453003 -293.994995 0.010000] 0.589298 0.000000 0.000000 0.807916 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7017F029, 24495, 0x017F016E, 219.687, -305.215, 0.055, 0.999997, 0, 0, -0.00233904,  True, '2005-02-09 10:00:00'); /* Gotrok Juggernaut */
+VALUES (0x7017F029, 24495, 0x017F016E, 219.687, -305.215, 0.055, 0.999997, 0, 0, -0.002339,  True, '2005-02-09 10:00:00'); /* Gotrok Juggernaut */
 /* @teleloc 0x017F016E [219.686996 -305.214996 0.055000] 0.999997 0.000000 0.000000 -0.002339 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -346,7 +346,7 @@ VALUES (0x7017F033, 24495, 0x017F018C, 235.498, -140.065, 0.055, -0.387596, 0, 0
 /* @teleloc 0x017F018C [235.498001 -140.065002 0.055000] -0.387596 0.000000 0.000000 0.921829 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7017F034, 23567, 0x017F0197, 236.164, -209.85, 0.0065, 0.997203, 0, 0, -0.0747391,  True, '2005-02-09 10:00:00'); /* Tumerok War Monger */
+VALUES (0x7017F034, 23567, 0x017F0197, 236.164, -209.85, 0.0065, 0.997203, 0, 0, -0.074739,  True, '2005-02-09 10:00:00'); /* Tumerok War Monger */
 /* @teleloc 0x017F0197 [236.164001 -209.850006 0.006500] 0.997203 0.000000 0.000000 -0.074739 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -627,7 +627,7 @@ VALUES (0x7017F078, 23567, 0x017F02BC, 66.9379, -340.87, 12.01, -0.974401, 0, 0,
 /* @teleloc 0x017F02BC [66.937897 -340.869995 12.010000] -0.974401 0.000000 0.000000 0.224819 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7017F079, 23567, 0x017F02C0, 66.3282, -403.593, 12.01, -0.998966, 0, 0, 0.0454727,  True, '2005-02-09 10:00:00'); /* Tumerok War Monger */
+VALUES (0x7017F079, 23567, 0x017F02C0, 66.3282, -403.593, 12.01, -0.998966, 0, 0, 0.045473,  True, '2005-02-09 10:00:00'); /* Tumerok War Monger */
 /* @teleloc 0x017F02C0 [66.328201 -403.592987 12.010000] -0.998966 0.000000 0.000000 0.045473 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -635,7 +635,7 @@ VALUES (0x7017F07A, 24951, 0x017F02C0, 70.2432, -403.757, 12.01, 0.9817, 0, 0, -
 /* @teleloc 0x017F02C0 [70.243202 -403.756989 12.010000] 0.981700 0.000000 0.000000 -0.190432 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7017F07B, 23567, 0x017F02C0, 73.8068, -404.275, 12.01, -0.998966, 0, 0, 0.0454727,  True, '2005-02-09 10:00:00'); /* Tumerok War Monger */
+VALUES (0x7017F07B, 23567, 0x017F02C0, 73.8068, -404.275, 12.01, -0.998966, 0, 0, 0.045473,  True, '2005-02-09 10:00:00'); /* Tumerok War Monger */
 /* @teleloc 0x017F02C0 [73.806801 -404.274994 12.010000] -0.998966 0.000000 0.000000 0.045473 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

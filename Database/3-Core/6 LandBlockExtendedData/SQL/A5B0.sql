@@ -1,11 +1,11 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xA5B0;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A5B0001,   174, 0xA5B00000, 66.6561, 100.454, 42.005, 0.0381081, 0, 0, -0.999274, False, '2005-02-09 10:00:00'); /* Well */
+VALUES (0x7A5B0001,   174, 0xA5B00000, 66.6561, 100.454, 42.005, 0.038108, 0, 0, -0.999274, False, '2005-02-09 10:00:00'); /* Well */
 /* @teleloc 0xA5B00000 [66.656097 100.454002 42.005001] 0.038108 0.000000 0.000000 -0.999274 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A5B0002,   938, 0xA5B00100, 59.8689, 155.085, 42.0077, -0.0299524, 0, 0, 0.999551,  True, '2005-02-09 10:00:00'); /* Banderling Raider */
+VALUES (0x7A5B0002,   938, 0xA5B00100, 59.8689, 155.085, 42.0077, -0.029952, 0, 0, 0.999551,  True, '2005-02-09 10:00:00'); /* Banderling Raider */
 /* @teleloc 0xA5B00100 [59.868900 155.085007 42.007702] -0.029952 0.000000 0.000000 0.999551 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

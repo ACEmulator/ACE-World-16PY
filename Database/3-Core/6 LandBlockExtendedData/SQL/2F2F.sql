@@ -49,7 +49,7 @@ VALUES (0x72F2F00B,  1629, 0x2F2F0000, 144.193, 73.4109, 2.011, 0.965328, 0, 0, 
 /* @teleloc 0x2F2F0000 [144.192993 73.410896 2.011000] 0.965328 0.000000 0.000000 -0.261042 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72F2F00C,  1629, 0x2F2F0000, 150.874, 54.6441, 2.011, -0.0541536, 0, 0, -0.998533,  True, '2005-02-09 10:00:00'); /* Tusker Guard */
+VALUES (0x72F2F00C,  1629, 0x2F2F0000, 150.874, 54.6441, 2.011, -0.054154, 0, 0, -0.998533,  True, '2005-02-09 10:00:00'); /* Tusker Guard */
 /* @teleloc 0x2F2F0000 [150.873993 54.644100 2.011000] -0.054154 0.000000 0.000000 -0.998533 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -61,7 +61,7 @@ VALUES (0x72F2F00E,  1629, 0x2F2F0000, 102.049, 41.8577, 4.011, -0.902973, 0, 0,
 /* @teleloc 0x2F2F0000 [102.049004 41.857700 4.011000] -0.902973 0.000000 0.000000 -0.429697 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72F2F00F,  3953, 0x2F2F0000, 123.984, 49.1467, 2.005, -0.997366, 0, 0, -0.0725296, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen (30 min.) */
+VALUES (0x72F2F00F,  3953, 0x2F2F0000, 123.984, 49.1467, 2.005, -0.997366, 0, 0, -0.07253, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen (30 min.) */
 /* @teleloc 0x2F2F0000 [123.984001 49.146702 2.005000] -0.997366 0.000000 0.000000 -0.072530 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -98,7 +98,7 @@ VALUES (0x72F2F014, 0x72F2F000, '2005-02-09 10:00:00') /* Virindi Servant (23) *
      , (0x72F2F014, 0x72F2F002, '2005-02-09 10:00:00') /* Virindi Servant (23) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72F2F015,  3955, 0x2F2F0000, 126.428, 49.504, 2.005, -0.997366, 0, 0, -0.0725296, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen (15 min.) */
+VALUES (0x72F2F015,  3955, 0x2F2F0000, 126.428, 49.504, 2.005, -0.997366, 0, 0, -0.07253, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen (15 min.) */
 /* @teleloc 0x2F2F0000 [126.428001 49.504002 2.005000] -0.997366 0.000000 0.000000 -0.072530 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -114,7 +114,7 @@ VALUES (0x72F2F016,  5405, 0x2F2F0000, 126.361, 64, 2, -0.880907, 0, 0, -0.47328
 /* @teleloc 0x2F2F0000 [126.361000 64.000000 2.000000] -0.880907 0.000000 0.000000 -0.473289 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72F2F017,  5405, 0x2F2F0000, 121.458, 60.3212, 2, -0.0971833, 0, 0, -0.995266, False, '2005-02-09 10:00:00'); /* Medium Virindi Mana Field */
+VALUES (0x72F2F017,  5405, 0x2F2F0000, 121.458, 60.3212, 2, -0.097183, 0, 0, -0.995266, False, '2005-02-09 10:00:00'); /* Medium Virindi Mana Field */
 /* @teleloc 0x2F2F0000 [121.458000 60.321201 2.000000] -0.097183 0.000000 0.000000 -0.995266 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

@@ -1,11 +1,11 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xF828;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F828008,  8584, 0xF8280101, 12.003, 79.1743, 13.205, -0.00378002, 0, 0, -0.999993, False, '2005-02-09 10:00:00'); /* Moarsmen Spawning Grounds */
+VALUES (0x7F828008,  8584, 0xF8280101, 12.003, 79.1743, 13.205, -0.00378, 0, 0, -0.999993, False, '2005-02-09 10:00:00'); /* Moarsmen Spawning Grounds */
 /* @teleloc 0xF8280101 [12.003000 79.174301 13.205000] -0.003780 0.000000 0.000000 -0.999993 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F828009, 28001, 0xF8280000, 11.9489, 93.819, 18.0055, 0.999996, 0, 0, 0.00274072,  True, '2005-02-09 10:00:00'); /* Mosswart Scrounger */
+VALUES (0x7F828009, 28001, 0xF8280000, 11.9489, 93.819, 18.0055, 0.999996, 0, 0, 0.002741,  True, '2005-02-09 10:00:00'); /* Mosswart Scrounger */
 /* @teleloc 0xF8280000 [11.948900 93.819000 18.005501] 0.999996 0.000000 0.000000 0.002741 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -21,7 +21,7 @@ VALUES (0x7F82800C, 28000, 0xF8280100, 16.7755, 80.0891, 13.2055, -0.947825, 0, 
 /* @teleloc 0xF8280100 [16.775499 80.089104 13.205500] -0.947825 0.000000 0.000000 -0.318790 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F82800D, 28000, 0xF8280102, 7.93012, 90.5961, 13.2055, -0.0442253, 0, 0, 0.999022,  True, '2005-02-09 10:00:00'); /* Mosswart Scavenger */
+VALUES (0x7F82800D, 28000, 0xF8280102, 7.93012, 90.5961, 13.2055, -0.044225, 0, 0, 0.999022,  True, '2005-02-09 10:00:00'); /* Mosswart Scavenger */
 /* @teleloc 0xF8280102 [7.930120 90.596100 13.205500] -0.044225 0.000000 0.000000 0.999022 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -33,7 +33,7 @@ VALUES (0x7F82800F, 28001, 0xF8280100, 16.2194, 88.3661, 13.2055, 0.138162, 0, 0
 /* @teleloc 0xF8280100 [16.219400 88.366096 13.205500] 0.138162 0.000000 0.000000 0.990410 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F828010, 28001, 0xF8280000, 7.05571, 129.044, 0.0055, -0.996935, 0, 0, 0.0782298,  True, '2005-02-09 10:00:00'); /* Mosswart Scrounger */
+VALUES (0x7F828010, 28001, 0xF8280000, 7.05571, 129.044, 0.0055, -0.996935, 0, 0, 0.07823,  True, '2005-02-09 10:00:00'); /* Mosswart Scrounger */
 /* @teleloc 0xF8280000 [7.055710 129.044006 0.005500] -0.996935 0.000000 0.000000 0.078230 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -45,7 +45,7 @@ VALUES (0x7F828012, 28000, 0xF8280000, 9.30442, 133.953, 0.0055, 0.410529, 0, 0,
 /* @teleloc 0xF8280000 [9.304420 133.953003 0.005500] 0.410529 0.000000 0.000000 0.911847 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F828013,  4219, 0xF8280100, 14.531, 92.003, 13.205, 0.00841784, 0, 0, -0.999965, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 7 Min.) */
+VALUES (0x7F828013,  4219, 0xF8280100, 14.531, 92.003, 13.205, 0.008418, 0, 0, -0.999965, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 7 Min.) */
 /* @teleloc 0xF8280100 [14.531000 92.002998 13.205000] 0.008418 0.000000 0.000000 -0.999965 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)

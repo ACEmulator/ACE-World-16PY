@@ -9,7 +9,7 @@ VALUES (0x71DB6001, 10933, 0x1DB60000, 187.295, 82.6631, 127.753, 0.999805, 0, 0
 /* @teleloc 0x1DB60000 [187.294998 82.663101 127.752998] 0.999805 0.000000 0.000000 -0.019754 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71DB6002, 11110, 0x1DB60106, 174.332, 128.681, 120.005, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Tumerok Leader Local Gen */
+VALUES (0x71DB6002, 11110, 0x1DB60106, 174.332, 128.681, 120.005, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Tumerok Leader Local Gen */
 /* @teleloc 0x1DB60106 [174.332001 128.681000 120.004997] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -97,7 +97,7 @@ VALUES (0x71DB6017, 11111, 0x1DB60106, 174.37, 131.272, 120, -0.707107, 0, 0, -0
 /* @teleloc 0x1DB60106 [174.369995 131.272003 120.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71DB6018, 11112, 0x1DB60106, 186.221, 129.216, 120, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Tumerok Leader War Gen */
+VALUES (0x71DB6018, 11112, 0x1DB60106, 186.221, 129.216, 120, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Tumerok Leader War Gen */
 /* @teleloc 0x1DB60106 [186.220993 129.216003 120.000000] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -113,7 +113,7 @@ VALUES (0x71DB601B, 11407, 0x1DB60000, 164.243, 67.4173, 120.005, -0.585567, 0, 
 /* @teleloc 0x1DB60000 [164.242996 67.417297 120.004997] -0.585567 0.000000 0.000000 -0.810624 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71DB601C, 11404, 0x1DB60000, 178.826, 109.506, 120.006, 0.998436, 0, 0, -0.0559002, False, '2005-02-09 10:00:00'); /* Aun Taguauri the Healer */
+VALUES (0x71DB601C, 11404, 0x1DB60000, 178.826, 109.506, 120.006, 0.998436, 0, 0, -0.0559, False, '2005-02-09 10:00:00'); /* Aun Taguauri the Healer */
 /* @teleloc 0x1DB60000 [178.826004 109.505997 120.005997] 0.998436 0.000000 0.000000 -0.055900 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

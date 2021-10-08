@@ -21,7 +21,7 @@ VALUES (0x77D68004,   153, 0x7D680000, 106.314, 18.9905, 9.9925, -0.696909, 0, 0
 /* @teleloc 0x7D680000 [106.314003 18.990499 9.992500] -0.696909 0.000000 0.000000 -0.717160 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77D68005,  4634, 0x7D680000, 59.969, 20.804, 14.005, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Yaraq North Training Academy Portal */
+VALUES (0x77D68005,  4634, 0x7D680000, 59.969, 20.804, 14.005, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Yaraq North Training Academy Portal */
 /* @teleloc 0x7D680000 [59.969002 20.804001 14.005000] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -33,7 +33,7 @@ VALUES (0x77D68007,   171, 0x7D680101, 129.155, 5.1085, 9.705, -0.314338, 0, 0, 
 /* @teleloc 0x7D680101 [129.154999 5.108500 9.705000] -0.314338 0.000000 0.000000 -0.949311 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77D68008,  5142, 0x7D680000, 60.0789, 24.8942, 14.1607, 0.0294754, 0, 0, -0.999565, False, '2005-02-09 10:00:00'); /* IMPORTANT SIGN  */
+VALUES (0x77D68008,  5142, 0x7D680000, 60.0789, 24.8942, 14.1607, 0.029475, 0, 0, -0.999565, False, '2005-02-09 10:00:00'); /* IMPORTANT SIGN  */
 /* @teleloc 0x7D680000 [60.078899 24.894199 14.160700] 0.029475 0.000000 0.000000 -0.999565 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

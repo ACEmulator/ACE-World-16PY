@@ -33,7 +33,7 @@ VALUES (0x7B128007,  8012, 0xB1280000, 115.817, 47.3147, 170.062, 0.804086, 0, 0
 /* @teleloc 0xB1280000 [115.817001 47.314701 170.061996] 0.804086 0.000000 0.000000 -0.594513 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B128008,  8012, 0xB1280000, 115.229, 52.0013, 170.338, 0.995015, 0, 0, 0.0997211,  True, '2005-02-09 10:00:00'); /* Dual Fragment */
+VALUES (0x7B128008,  8012, 0xB1280000, 115.229, 52.0013, 170.338, 0.995015, 0, 0, 0.099721,  True, '2005-02-09 10:00:00'); /* Dual Fragment */
 /* @teleloc 0xB1280000 [115.228996 52.001301 170.337997] 0.995015 0.000000 0.000000 0.099721 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

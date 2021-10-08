@@ -33,7 +33,7 @@ VALUES (0x74AB8007, 13098, 0x4AB80000, 107.854, 54.0944, 240.005, -0.98839, 0, 0
 /* @teleloc 0x4AB80000 [107.853996 54.094398 240.005005] -0.988390 0.000000 0.000000 0.151941 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74AB8008, 14659, 0x4AB80000, 99.7603, 18.0569, 240.005, -0.00933084, 0, 0, -0.999956, False, '2005-02-09 10:00:00'); /* Rahvard Square Portal */
+VALUES (0x74AB8008, 14659, 0x4AB80000, 99.7603, 18.0569, 240.005, -0.009331, 0, 0, -0.999956, False, '2005-02-09 10:00:00'); /* Rahvard Square Portal */
 /* @teleloc 0x4AB80000 [99.760300 18.056900 240.005005] -0.009331 0.000000 0.000000 -0.999956 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

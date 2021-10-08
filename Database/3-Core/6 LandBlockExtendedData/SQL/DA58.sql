@@ -17,5 +17,5 @@ VALUES (0x7DA58003, 12774, 0xDA580000, 35.855, 60.1092, 13.0171, 0.93295, 0, 0, 
 /* @teleloc 0xDA580000 [35.855000 60.109200 13.017100] 0.932950 0.000000 0.000000 0.360005 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DA58004, 13127, 0xDA580000, 37.1947, 51.6968, 12.9054, 0.0619839, 0, 0, 0.998077, False, '2005-02-09 10:00:00'); /* Shou-Zin Portal */
+VALUES (0x7DA58004, 13127, 0xDA580000, 37.1947, 51.6968, 12.9054, 0.061984, 0, 0, 0.998077, False, '2005-02-09 10:00:00'); /* Shou-Zin Portal */
 /* @teleloc 0xDA580000 [37.194698 51.696800 12.905400] 0.061984 0.000000 0.000000 0.998077 */

@@ -9,7 +9,7 @@ VALUES (0x7301000B,  2407, 0x30100000, 131.817, 79.9171, 16.3005, -0.602461, 0, 
 /* @teleloc 0x30100000 [131.817001 79.917099 16.300501] -0.602461 0.000000 0.000000 0.798148 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7301000C,  1542, 0x30100100, 133.173, 63.4297, 6.805, -0.99847, 0, 0, -0.0553023, False, '2005-02-09 10:00:00'); /* Linkable Item Generator */
+VALUES (0x7301000C,  1542, 0x30100100, 133.173, 63.4297, 6.805, -0.99847, 0, 0, -0.055302, False, '2005-02-09 10:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x30100100 [133.173004 63.429699 6.805000] -0.998470 0.000000 0.000000 -0.055302 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -17,7 +17,7 @@ VALUES (0x7301000C, 0x7301000A, '2005-02-09 10:00:00') /* Sunstone (2407) */
      , (0x7301000C, 0x7301000B, '2005-02-09 10:00:00') /* Sunstone (2407) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7301000D,  1154, 0x30100100, 129.053, 64.1643, 6.805, -0.99847, 0, 0, -0.0553023, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator */
+VALUES (0x7301000D,  1154, 0x30100100, 129.053, 64.1643, 6.805, -0.99847, 0, 0, -0.055302, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x30100100 [129.052994 64.164299 6.805000] -0.998470 0.000000 0.000000 -0.055302 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -33,7 +33,7 @@ VALUES (0x7301000D, 0x7301000E, '2005-02-09 10:00:00') /* Direland Rat (24310) *
      , (0x7301000D, 0x73010017, '2005-02-09 10:00:00') /* Direland Rat (24310) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7301000E, 24310, 0x30100101, 131.458, 76.9911, 9.88943, -0.999567, 0, 0, -0.0294198,  True, '2005-02-09 10:00:00'); /* Direland Rat */
+VALUES (0x7301000E, 24310, 0x30100101, 131.458, 76.9911, 9.88943, -0.999567, 0, 0, -0.02942,  True, '2005-02-09 10:00:00'); /* Direland Rat */
 /* @teleloc 0x30100101 [131.457993 76.991096 9.889430] -0.999567 0.000000 0.000000 -0.029420 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -57,7 +57,7 @@ VALUES (0x73010013, 24310, 0x30100100, 129.837, 68.3194, 6.812, -0.585276, 0, 0,
 /* @teleloc 0x30100100 [129.837006 68.319397 6.812000] -0.585276 0.000000 0.000000 0.810834 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73010014, 24310, 0x30100101, 131.737, 74.0616, 7.58222, -0.999567, 0, 0, -0.0294198,  True, '2005-02-09 10:00:00'); /* Direland Rat */
+VALUES (0x73010014, 24310, 0x30100101, 131.737, 74.0616, 7.58222, -0.999567, 0, 0, -0.02942,  True, '2005-02-09 10:00:00'); /* Direland Rat */
 /* @teleloc 0x30100101 [131.737000 74.061600 7.582220] -0.999567 0.000000 0.000000 -0.029420 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -65,7 +65,7 @@ VALUES (0x73010015, 24310, 0x30100000, 130.41, 78.7178, 15.8231, -0.962638, 0, 0
 /* @teleloc 0x30100000 [130.410004 78.717796 15.823100] -0.962638 0.000000 0.000000 0.270791 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73010016, 24310, 0x30100000, 130.972, 83.4905, 12.012, -0.999567, 0, 0, -0.0294198,  True, '2005-02-09 10:00:00'); /* Direland Rat */
+VALUES (0x73010016, 24310, 0x30100000, 130.972, 83.4905, 12.012, -0.999567, 0, 0, -0.02942,  True, '2005-02-09 10:00:00'); /* Direland Rat */
 /* @teleloc 0x30100000 [130.972000 83.490501 12.012000] -0.999567 0.000000 0.000000 -0.029420 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

@@ -5,7 +5,7 @@ VALUES (0x7B9F0000,  7365, 0xB9F00000, 1.8379, 30.169, 103.338, 0.743271, 0, 0, 
 /* @teleloc 0xB9F00000 [1.837900 30.169001 103.337997] 0.743271 0.000000 0.000000 -0.668990 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B9F0001,  5749, 0xB9F00000, 83.4365, 59.957, 93.9495, -0.9999, 0, 0, 0.0141608, False, '2005-02-09 10:00:00'); /* Volcano Heat */
+VALUES (0x7B9F0001,  5749, 0xB9F00000, 83.4365, 59.957, 93.9495, -0.9999, 0, 0, 0.014161, False, '2005-02-09 10:00:00'); /* Volcano Heat */
 /* @teleloc 0xB9F00000 [83.436501 59.957001 93.949501] -0.999900 0.000000 0.000000 0.014161 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -25,7 +25,7 @@ VALUES (0x7B9F0005,  7786, 0xB9F00000, 54.2412, 65.4742, 95.4799, -0.910337, 0, 
 /* @teleloc 0xB9F00000 [54.241199 65.474197 95.479897] -0.910337 0.000000 0.000000 -0.413869 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B9F0006,  7786, 0xB9F00000, 105.836, 66.0297, 96.6443, -0.999024, 0, 0, -0.0441644, False, '2005-02-09 10:00:00'); /* Volcanic Vent */
+VALUES (0x7B9F0006,  7786, 0xB9F00000, 105.836, 66.0297, 96.6443, -0.999024, 0, 0, -0.044164, False, '2005-02-09 10:00:00'); /* Volcanic Vent */
 /* @teleloc 0xB9F00000 [105.835999 66.029701 96.644302] -0.999024 0.000000 0.000000 -0.044164 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

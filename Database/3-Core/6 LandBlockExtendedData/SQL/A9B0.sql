@@ -33,7 +33,7 @@ VALUES (0x7A9B0008,  4409, 0xA9B00000, 26.4622, 169.284, 58.005, 0.701977, 0, 0,
 /* @teleloc 0xA9B00000 [26.462200 169.283997 58.005001] 0.701977 0.000000 0.000000 -0.712200 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A9B0009,  4409, 0xA9B00000, 8.37009, 185.769, 58.005, -0.99847, 0, 0, 0.0553011, False, '2005-02-09 10:00:00'); /* Holtburg Outpost */
+VALUES (0x7A9B0009,  4409, 0xA9B00000, 8.37009, 185.769, 58.005, -0.99847, 0, 0, 0.055301, False, '2005-02-09 10:00:00'); /* Holtburg Outpost */
 /* @teleloc 0xA9B00000 [8.370090 185.768997 58.005001] -0.998470 0.000000 0.000000 0.055301 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

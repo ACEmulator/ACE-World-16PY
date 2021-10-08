@@ -5,7 +5,7 @@ VALUES (0x73C4000D,   166, 0x3C400100, 125.296, 59.4213, 74.805, 0.523091, 0, 0,
 /* @teleloc 0x3C400100 [125.295998 59.421299 74.805000] 0.523091 0.000000 0.000000 -0.852277 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73C4000E,  1542, 0x3C400100, 124.736, 57.289, 74.805, 0.000473251, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Linkable Item Generator */
+VALUES (0x73C4000E,  1542, 0x3C400100, 124.736, 57.289, 74.805, 0.000473, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x3C400100 [124.736000 57.289001 74.805000] 0.000473 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -27,7 +27,7 @@ VALUES (0x73C40012,  8138, 0x3C400000, 102.116, 60.8093, 80.01, -0.989371, 0, 0,
 /* @teleloc 0x3C400000 [102.115997 60.809299 80.010002] -0.989371 0.000000 0.000000 -0.145412 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73C40013,  8137, 0x3C400000, 100.913, 56.0901, 80.01, -0.0666758, 0, 0, 0.997775,  True, '2005-02-09 10:00:00'); /* Tiatus Raider */
+VALUES (0x73C40013,  8137, 0x3C400000, 100.913, 56.0901, 80.01, -0.066676, 0, 0, 0.997775,  True, '2005-02-09 10:00:00'); /* Tiatus Raider */
 /* @teleloc 0x3C400000 [100.913002 56.090099 80.010002] -0.066676 0.000000 0.000000 0.997775 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -35,7 +35,7 @@ VALUES (0x73C40014,  8138, 0x3C400100, 121.123, 57.0656, 74.81, -0.710366, 0, 0,
 /* @teleloc 0x3C400100 [121.123001 57.065601 74.809998] -0.710366 0.000000 0.000000 -0.703832 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73C40015,  8137, 0x3C400100, 122.182, 63.109, 74.81, -0.99891, 0, 0, -0.0466699,  True, '2005-02-09 10:00:00'); /* Tiatus Raider */
+VALUES (0x73C40015,  8137, 0x3C400100, 122.182, 63.109, 74.81, -0.99891, 0, 0, -0.04667,  True, '2005-02-09 10:00:00'); /* Tiatus Raider */
 /* @teleloc 0x3C400100 [122.181999 63.109001 74.809998] -0.998910 0.000000 0.000000 -0.046670 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -51,7 +51,7 @@ VALUES (0x73C40018,  8138, 0x3C400100, 116.791, 59.7696, 74.81, 0.813295, 0, 0, 
 /* @teleloc 0x3C400100 [116.791000 59.769600 74.809998] 0.813295 0.000000 0.000000 0.581852 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73C40019,   632, 0x3C400100, 125.022, 58.322, 74.92, 0.99546, 0, 0, -0.0951787,  True, '2005-02-09 10:00:00'); /* Peerless Healing Kit */
+VALUES (0x73C40019,   632, 0x3C400100, 125.022, 58.322, 74.92, 0.99546, 0, 0, -0.095179,  True, '2005-02-09 10:00:00'); /* Peerless Healing Kit */
 /* @teleloc 0x3C400100 [125.022003 58.321999 74.919998] 0.995460 0.000000 0.000000 -0.095179 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

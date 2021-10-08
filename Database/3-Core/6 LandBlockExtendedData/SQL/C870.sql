@@ -25,7 +25,7 @@ VALUES (0x7C870005,   961, 0xC8700000, 37.196, 143.331, 46.005, 0.628421, 0, 0, 
 /* @teleloc 0xC8700000 [37.195999 143.330994 46.005001] 0.628421 0.000000 0.000000 -0.777873 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C870006,  1619, 0xC8700100, 35.358, 159.308, 46.0055, -0.0855522, 0, 0, 0.996334,  True, '2005-02-09 10:00:00'); /* Mosswart Shaman */
+VALUES (0x7C870006,  1619, 0xC8700100, 35.358, 159.308, 46.0055, -0.085552, 0, 0, 0.996334,  True, '2005-02-09 10:00:00'); /* Mosswart Shaman */
 /* @teleloc 0xC8700100 [35.358002 159.307999 46.005501] -0.085552 0.000000 0.000000 0.996334 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -33,7 +33,7 @@ VALUES (0x7C870007,  1619, 0xC8700100, 37.9822, 157.65, 46.0055, 0.645626, 0, 0,
 /* @teleloc 0xC8700100 [37.982201 157.649994 46.005501] 0.645626 0.000000 0.000000 0.763654 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C870008,   899, 0xC8700100, 38.2717, 156.222, 46.005, -0.0814003, 0, 0, 0.996681, False, '2005-02-09 10:00:00'); /* Mosswart Mudlurk Generator */
+VALUES (0x7C870008,   899, 0xC8700100, 38.2717, 156.222, 46.005, -0.0814, 0, 0, 0.996681, False, '2005-02-09 10:00:00'); /* Mosswart Mudlurk Generator */
 /* @teleloc 0xC8700100 [38.271702 156.222000 46.005001] -0.081400 0.000000 0.000000 0.996681 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -41,11 +41,11 @@ VALUES (0x7C870009,   899, 0xC8700100, 33.6327, 153.499, 46.005, 0.170727, 0, 0,
 /* @teleloc 0xC8700100 [33.632702 153.498993 46.005001] 0.170727 0.000000 0.000000 -0.985318 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C87000A,   961, 0xC8700100, 36.6029, 152.078, 46.005, -0.0506319, 0, 0, -0.998717, False, '2005-02-09 10:00:00'); /* Mosswart Barker Generator */
+VALUES (0x7C87000A,   961, 0xC8700100, 36.6029, 152.078, 46.005, -0.050632, 0, 0, -0.998717, False, '2005-02-09 10:00:00'); /* Mosswart Barker Generator */
 /* @teleloc 0xC8700100 [36.602901 152.078003 46.005001] -0.050632 0.000000 0.000000 -0.998717 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C87000B,  1154, 0xC8700100, 37.6906, 153.494, 46.005, -0.0506319, 0, 0, -0.998717, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator */
+VALUES (0x7C87000B,  1154, 0xC8700100, 37.6906, 153.494, 46.005, -0.050632, 0, 0, -0.998717, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xC8700100 [37.690601 153.494003 46.005001] -0.050632 0.000000 0.000000 -0.998717 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)

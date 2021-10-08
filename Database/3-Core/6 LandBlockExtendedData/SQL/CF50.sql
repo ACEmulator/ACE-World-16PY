@@ -9,11 +9,11 @@ VALUES (0x7CF50001,   198, 0xCF500000, 114.008, 158.137, 242.339, 0.885117, 0, 0
 /* @teleloc 0xCF500000 [114.008003 158.136993 242.339005] 0.885117 0.000000 0.000000 0.465368 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CF50002,   198, 0xCF500000, 110.76, 166.621, 241.361, -0.0257513, 0, 0, 0.999668,  True, '2005-02-09 10:00:00'); /* Limestone Golem */
+VALUES (0x7CF50002,   198, 0xCF500000, 110.76, 166.621, 241.361, -0.025751, 0, 0, 0.999668,  True, '2005-02-09 10:00:00'); /* Limestone Golem */
 /* @teleloc 0xCF500000 [110.760002 166.621002 241.360992] -0.025751 0.000000 0.000000 0.999668 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CF50003,   198, 0xCF500000, 108.231, 154.742, 242.06, 0.997429, 0, 0, -0.0716569,  True, '2005-02-09 10:00:00'); /* Limestone Golem */
+VALUES (0x7CF50003,   198, 0xCF500000, 108.231, 154.742, 242.06, 0.997429, 0, 0, -0.071657,  True, '2005-02-09 10:00:00'); /* Limestone Golem */
 /* @teleloc 0xCF500000 [108.231003 154.742004 242.059998] 0.997429 0.000000 0.000000 -0.071657 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

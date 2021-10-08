@@ -9,7 +9,7 @@ VALUES (0x7BDDB001,   887, 0xBDDB0000, 174.864, 104.954, 55.0846, -0.126983, 0, 
 /* @teleloc 0xBDDB0000 [174.863998 104.954002 55.084599] -0.126983 0.000000 0.000000 -0.991905 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BDDB002,   887, 0xBDDB0000, 184.289, 99.9309, 55.6774, -0.00459919, 0, 0, -0.999989, False, '2005-02-09 10:00:00'); /* Auroch Cow Generator */
+VALUES (0x7BDDB002,   887, 0xBDDB0000, 184.289, 99.9309, 55.6774, -0.004599, 0, 0, -0.999989, False, '2005-02-09 10:00:00'); /* Auroch Cow Generator */
 /* @teleloc 0xBDDB0000 [184.289001 99.930901 55.677399] -0.004599 0.000000 0.000000 -0.999989 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -25,7 +25,7 @@ VALUES (0x7BDDB005,   887, 0xBDDB0000, 163.577, 113.389, 53.1068, -0.226873, 0, 
 /* @teleloc 0xBDDB0000 [163.576996 113.389000 53.106800] -0.226873 0.000000 0.000000 0.973924 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BDDB006,   887, 0xBDDB0000, 158.614, 108.242, 53.9646, 0.0234053, 0, 0, 0.999726, False, '2005-02-09 10:00:00'); /* Auroch Cow Generator */
+VALUES (0x7BDDB006,   887, 0xBDDB0000, 158.614, 108.242, 53.9646, 0.023405, 0, 0, 0.999726, False, '2005-02-09 10:00:00'); /* Auroch Cow Generator */
 /* @teleloc 0xBDDB0000 [158.613998 108.241997 53.964600] 0.023405 0.000000 0.000000 0.999726 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

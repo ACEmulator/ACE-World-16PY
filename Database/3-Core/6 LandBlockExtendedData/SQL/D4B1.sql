@@ -27,7 +27,7 @@ VALUES (0x7D4B1003,  2577, 0xD4B10000, 178.148, 140.001, -0.895, 0.942701, 0, 0,
 /* @teleloc 0xD4B10000 [178.147995 140.001007 -0.895000] 0.942701 0.000000 0.000000 -0.333639 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D4B1004,  2577, 0xD4B10000, 164.495, 132.525, -0.895, 0.997218, 0, 0, 0.0745426,  True, '2005-02-09 10:00:00'); /* Shallows Shark */
+VALUES (0x7D4B1004,  2577, 0xD4B10000, 164.495, 132.525, -0.895, 0.997218, 0, 0, 0.074543,  True, '2005-02-09 10:00:00'); /* Shallows Shark */
 /* @teleloc 0xD4B10000 [164.494995 132.524994 -0.895000] 0.997218 0.000000 0.000000 0.074543 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -39,7 +39,7 @@ VALUES (0x7D4B1006,  2579, 0xD4B10000, 176.847, 112.44, -0.895, -0.944349, 0, 0,
 /* @teleloc 0xD4B10000 [176.847000 112.440002 -0.895000] -0.944349 0.000000 0.000000 0.328944 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D4B1007,  2579, 0xD4B10000, 160.679, 118.902, -0.445, 0.0689638, 0, 0, -0.997619,  True, '2005-02-09 10:00:00'); /* Shallows Slayer */
+VALUES (0x7D4B1007,  2579, 0xD4B10000, 160.679, 118.902, -0.445, 0.068964, 0, 0, -0.997619,  True, '2005-02-09 10:00:00'); /* Shallows Slayer */
 /* @teleloc 0xD4B10000 [160.679001 118.902000 -0.445000] 0.068964 0.000000 0.000000 -0.997619 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

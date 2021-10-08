@@ -23,7 +23,7 @@ VALUES (0x7A21E003,  9418, 0xA21E0196, 125.53, 125.248, 564.055, -0.420186, 0, 0
 /* @teleloc 0xA21E0196 [125.529999 125.248001 564.054993] -0.420186 0.000000 0.000000 -0.907438 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A21E004,  9415, 0xA21E0129, 39.3598, 23.1267, 561.01, 0.999863, 0, 0, -0.0165604, False, '2005-02-09 10:00:00'); /* Krage the Blacksmith */
+VALUES (0x7A21E004,  9415, 0xA21E0129, 39.3598, 23.1267, 561.01, 0.999863, 0, 0, -0.01656, False, '2005-02-09 10:00:00'); /* Krage the Blacksmith */
 /* @teleloc 0xA21E0129 [39.359798 23.126699 561.010010] 0.999863 0.000000 0.000000 -0.016560 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

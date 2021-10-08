@@ -13,11 +13,11 @@ VALUES (0x71BBB002, 11519, 0x1BBB0000, 134.712, 189.78, 82.006, -0.928442, 0, 0,
 /* @teleloc 0x1BBB0000 [134.712006 189.779999 82.005997] -0.928442 0.000000 0.000000 0.371476 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71BBB003, 11517, 0x1BBB0000, 126.193, 187.95, 82.055, -0.0830763, 0, 0, 0.996543,  True, '2005-02-09 10:00:00'); /* Hea Elder Shaman */
+VALUES (0x71BBB003, 11517, 0x1BBB0000, 126.193, 187.95, 82.055, -0.083076, 0, 0, 0.996543,  True, '2005-02-09 10:00:00'); /* Hea Elder Shaman */
 /* @teleloc 0x1BBB0000 [126.193001 187.949997 82.055000] -0.083076 0.000000 0.000000 0.996543 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71BBB004, 11520, 0x1BBB0000, 125.175, 172.057, 82.0194, 0.0509613, 0, 0, 0.998701,  True, '2005-02-09 10:00:00'); /* Hea Nualuan */
+VALUES (0x71BBB004, 11520, 0x1BBB0000, 125.175, 172.057, 82.0194, 0.050961, 0, 0, 0.998701,  True, '2005-02-09 10:00:00'); /* Hea Nualuan */
 /* @teleloc 0x1BBB0000 [125.175003 172.057007 82.019402] 0.050961 0.000000 0.000000 0.998701 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -44,7 +44,7 @@ VALUES (0x71BBB007, 11480, 0x1BBB0000, 50.3585, 165.592, 82.0132, 0.69364, 0, 0,
 /* @teleloc 0x1BBB0000 [50.358501 165.591995 82.013199] 0.693640 0.000000 0.000000 0.720322 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71BBB008, 11480, 0x1BBB0000, 64.7859, 154.969, 82.005, -0.0183726, 0, 0, 0.999831,  True, '2005-02-09 10:00:00'); /* Olthoi Harvester */
+VALUES (0x71BBB008, 11480, 0x1BBB0000, 64.7859, 154.969, 82.005, -0.018373, 0, 0, 0.999831,  True, '2005-02-09 10:00:00'); /* Olthoi Harvester */
 /* @teleloc 0x1BBB0000 [64.785896 154.968994 82.004997] -0.018373 0.000000 0.000000 0.999831 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

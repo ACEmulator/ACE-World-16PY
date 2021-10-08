@@ -29,7 +29,7 @@ VALUES (0x7C17F006,   891, 0xC17F0000, 5.07067, 100.356, 27.5824, 0.429564, 0, 0
 /* @teleloc 0xC17F0000 [5.070670 100.356003 27.582399] 0.429564 0.000000 0.000000 0.903036 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C17F007,   891, 0xC17F0000, 37.1382, 132.055, 27.0496, 0.0440006, 0, 0, 0.999031, False, '2005-02-09 10:00:00'); /* Brown Cow Generator */
+VALUES (0x7C17F007,   891, 0xC17F0000, 37.1382, 132.055, 27.0496, 0.044001, 0, 0, 0.999031, False, '2005-02-09 10:00:00'); /* Brown Cow Generator */
 /* @teleloc 0xC17F0000 [37.138199 132.054993 27.049601] 0.044001 0.000000 0.000000 0.999031 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

@@ -36,7 +36,7 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x7DF6102F, 0x7DF6102E, '2005-02-09 10:00:00') /* Spinning Wheel (19129) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DF61035,  1760, 0xDF61012C, 60.0131, 19.114, 18.005, 0.0150479, 0, 0, -0.999887,  True, '2005-02-09 10:00:00'); /* Skeleton Warrior */
+VALUES (0x7DF61035,  1760, 0xDF61012C, 60.0131, 19.114, 18.005, 0.015048, 0, 0, -0.999887,  True, '2005-02-09 10:00:00'); /* Skeleton Warrior */
 /* @teleloc 0xDF61012C [60.013100 19.114000 18.004999] 0.015048 0.000000 0.000000 -0.999887 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -48,7 +48,7 @@ VALUES (0x7DF61044, 22208, 0xDF610124, 77.3059, 11.3891, 18.005, -0.955777, 0, 0
 /* @teleloc 0xDF610124 [77.305901 11.389100 18.004999] -0.955777 0.000000 0.000000 -0.294092 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DF6104B, 22208, 0xDF61013A, 60.0294, 60.5117, 17.205, 0.0103531, 0, 0, -0.999946,  True, '2005-02-09 10:00:00'); /* Skeleton Wraith */
+VALUES (0x7DF6104B, 22208, 0xDF61013A, 60.0294, 60.5117, 17.205, 0.010353, 0, 0, -0.999946,  True, '2005-02-09 10:00:00'); /* Skeleton Wraith */
 /* @teleloc 0xDF61013A [60.029400 60.511700 17.205000] 0.010353 0.000000 0.000000 -0.999946 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -64,7 +64,7 @@ VALUES (0x7DF61071, 22208, 0xDF610100, 78.8926, 35.7886, 18.005, -0.208288, 0, 0
 /* @teleloc 0xDF610100 [78.892601 35.788601 18.004999] -0.208288 0.000000 0.000000 0.978068 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DF6107B,  7334, 0xDF61010C, 82.3095, 28.7681, 23.005, 0.999862, 0, 0, -0.0165929,  True, '2005-02-09 10:00:00'); /* Skeleton Bone Knight */
+VALUES (0x7DF6107B,  7334, 0xDF61010C, 82.3095, 28.7681, 23.005, 0.999862, 0, 0, -0.016593,  True, '2005-02-09 10:00:00'); /* Skeleton Bone Knight */
 /* @teleloc 0xDF61010C [82.309502 28.768101 23.004999] 0.999862 0.000000 0.000000 -0.016593 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -88,7 +88,7 @@ VALUES (0x7DF6108F,  1626, 0xDF610115, 101.614, 13.6088, 18.012, -0.726424, 0, 0
 /* @teleloc 0xDF610115 [101.613998 13.608800 18.011999] -0.726424 0.000000 0.000000 0.687247 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DF61090,  7121, 0xDF610117, 84.0292, 7.01054, 28.005, -0.999988, 0, 0, 0.00492922,  True, '2005-02-09 10:00:00'); /* Skeleton Bone Lord */
+VALUES (0x7DF61090,  7121, 0xDF610117, 84.0292, 7.01054, 28.005, -0.999988, 0, 0, 0.004929,  True, '2005-02-09 10:00:00'); /* Skeleton Bone Lord */
 /* @teleloc 0xDF610117 [84.029198 7.010540 28.004999] -0.999988 0.000000 0.000000 0.004929 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -133,7 +133,7 @@ VALUES (0x7DF610A5, 0x7DF61086, '2005-02-09 10:00:00') /* Skeleton Bone Knight (
      , (0x7DF610A5, 0x7DF610D0, '2005-02-09 10:00:00') /* Skeleton Bone Lord (7121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DF610A6,  4219, 0xDF61010C, 83.6089, 32.5629, 23.005, 0.0284599, 0, 0, -0.999595, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 7 Min.) */
+VALUES (0x7DF610A6,  4219, 0xDF61010C, 83.6089, 32.5629, 23.005, 0.02846, 0, 0, -0.999595, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 7 Min.) */
 /* @teleloc 0xDF61010C [83.608902 32.562901 23.004999] 0.028460 0.000000 0.000000 -0.999595 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -160,7 +160,7 @@ VALUES (0x7DF610A6, 0x7DF61035, '2005-02-09 10:00:00') /* Skeleton Warrior (1760
      , (0x7DF610A6, 0x7DF610E3, '2005-02-09 10:00:00') /* Skeleton Lord (7822) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DF610A7,  4219, 0xDF61011D, 86.655, 10.191, 18.005, -0.0078101, 0, 0, 0.999969, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 7 Min.) */
+VALUES (0x7DF610A7,  4219, 0xDF61011D, 86.655, 10.191, 18.005, -0.00781, 0, 0, 0.999969, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 7 Min.) */
 /* @teleloc 0xDF61011D [86.654999 10.191000 18.004999] -0.007810 0.000000 0.000000 0.999969 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -177,7 +177,7 @@ VALUES (0x7DF610A7, 0x7DF61068, '2005-02-09 10:00:00') /* Skeleton Wraith (22208
      , (0x7DF610A7, 0x7DF610E6, '2005-02-09 10:00:00') /* Skeleton Lord (7822) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DF610A8,  7925, 0xDF610000, 77.6768, 63.8407, 18.005, 0.0407048, 0, 0, -0.999171, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 10 Min.) */
+VALUES (0x7DF610A8,  7925, 0xDF610000, 77.6768, 63.8407, 18.005, 0.040705, 0, 0, -0.999171, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 10 Min.) */
 /* @teleloc 0xDF610000 [77.676804 63.840698 18.004999] 0.040705 0.000000 0.000000 -0.999171 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -191,7 +191,7 @@ VALUES (0x7DF610A8, 0x7DF6104B, '2005-02-09 10:00:00') /* Skeleton Wraith (22208
      , (0x7DF610A8, 0x7DF610E1, '2005-02-09 10:00:00') /* Skeleton Lord (7822) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DF610B5,  4024, 0xDF610124, 76.3434, 12.4987, 19.2221, 0.999839, 0, 0, -0.0179224, False, '2005-02-09 10:00:00'); /* Cheap Glitter Generator */
+VALUES (0x7DF610B5,  4024, 0xDF610124, 76.3434, 12.4987, 19.2221, 0.999839, 0, 0, -0.017922, False, '2005-02-09 10:00:00'); /* Cheap Glitter Generator */
 /* @teleloc 0xDF610124 [76.343399 12.498700 19.222099] 0.999839 0.000000 0.000000 -0.017922 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -215,15 +215,15 @@ VALUES (0x7DF610C1,  7334, 0xDF610124, 76.9525, 13.477, 18.005, -0.28852, 0, 0, 
 /* @teleloc 0xDF610124 [76.952499 13.477000 18.004999] -0.288520 0.000000 0.000000 -0.957474 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DF610C3,  1925, 0xDF610115, 101.121, 10.8245, 18.005, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Chest */
+VALUES (0x7DF610C3,  1925, 0xDF610115, 101.121, 10.8245, 18.005, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Chest */
 /* @teleloc 0xDF610115 [101.121002 10.824500 18.004999] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DF610C7,  7334, 0xDF610117, 81.7347, 10.1655, 28.005, 0.998362, 0, 0, -0.0572155,  True, '2005-02-09 10:00:00'); /* Skeleton Bone Knight */
+VALUES (0x7DF610C7,  7334, 0xDF610117, 81.7347, 10.1655, 28.005, 0.998362, 0, 0, -0.057216,  True, '2005-02-09 10:00:00'); /* Skeleton Bone Knight */
 /* @teleloc 0xDF610117 [81.734703 10.165500 28.004999] 0.998362 0.000000 0.000000 -0.057216 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DF610CA,  1947, 0xDF610124, 79.263, 10.847, 18.005, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Chest */
+VALUES (0x7DF610CA,  1947, 0xDF610124, 79.263, 10.847, 18.005, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Chest */
 /* @teleloc 0xDF610124 [79.263000 10.847000 18.004999] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -231,7 +231,7 @@ VALUES (0x7DF610CC, 22208, 0xDF610117, 86.3716, 6.73567, 28.005, 0.98726, 0, 0, 
 /* @teleloc 0xDF610117 [86.371597 6.735670 28.004999] 0.987260 0.000000 0.000000 0.159114 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DF610CD,  7334, 0xDF610117, 86.287, 9.83046, 28.005, 0.998362, 0, 0, -0.0572155,  True, '2005-02-09 10:00:00'); /* Skeleton Bone Knight */
+VALUES (0x7DF610CD,  7334, 0xDF610117, 86.287, 9.83046, 28.005, 0.998362, 0, 0, -0.057216,  True, '2005-02-09 10:00:00'); /* Skeleton Bone Knight */
 /* @teleloc 0xDF610117 [86.287003 9.830460 28.004999] 0.998362 0.000000 0.000000 -0.057216 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -239,7 +239,7 @@ VALUES (0x7DF610D0,  7121, 0xDF610120, 91.1163, 16.9312, 28.005, 0.861019, 0, 0,
 /* @teleloc 0xDF610120 [91.116302 16.931200 28.004999] 0.861019 0.000000 0.000000 -0.508572 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DF610D4,  7822, 0xDF610000, 84.5374, 0.952811, 18.005, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Skeleton Lord */
+VALUES (0x7DF610D4,  7822, 0xDF610000, 84.5374, 0.952811, 18.005, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Skeleton Lord */
 /* @teleloc 0xDF610000 [84.537399 0.952811 18.004999] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -255,7 +255,7 @@ VALUES (0x7DF610D7,  7822, 0xDF610100, 89.4848, 29.3853, 18.005, -0.509309, 0, 0
 /* @teleloc 0xDF610100 [89.484802 29.385300 18.004999] -0.509309 0.000000 0.000000 -0.860584 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DF610D8,  7822, 0xDF610116, 84.8633, 12.2865, 24.0025, 0.0624785, 0, 0, -0.998046,  True, '2005-02-09 10:00:00'); /* Skeleton Lord */
+VALUES (0x7DF610D8,  7822, 0xDF610116, 84.8633, 12.2865, 24.0025, 0.062479, 0, 0, -0.998046,  True, '2005-02-09 10:00:00'); /* Skeleton Lord */
 /* @teleloc 0xDF610116 [84.863297 12.286500 24.002501] 0.062479 0.000000 0.000000 -0.998046 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -275,11 +275,11 @@ VALUES (0x7DF610DC,  7822, 0xDF610000, 80.2284, 85.251, 18.005, -0.707107, 0, 0,
 /* @teleloc 0xDF610000 [80.228401 85.250999 18.004999] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DF610DD,  7822, 0xDF610000, 58.5207, 55.9587, 18.005, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Skeleton Lord */
+VALUES (0x7DF610DD,  7822, 0xDF610000, 58.5207, 55.9587, 18.005, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Skeleton Lord */
 /* @teleloc 0xDF610000 [58.520699 55.958698 18.004999] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DF610DE,  7822, 0xDF610000, 61.311, 55.9475, 18.005, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Skeleton Lord */
+VALUES (0x7DF610DE,  7822, 0xDF610000, 61.311, 55.9475, 18.005, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Skeleton Lord */
 /* @teleloc 0xDF610000 [61.311001 55.947498 18.004999] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -287,7 +287,7 @@ VALUES (0x7DF610DF,  7822, 0xDF610000, 81.0602, 58.0431, 18.005, 0.671171, 0, 0,
 /* @teleloc 0xDF610000 [81.060204 58.043098 18.004999] 0.671171 0.000000 0.000000 -0.741302 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DF610E0,  7822, 0xDF610116, 85.3236, 7.63538, 24.005, -0.999959, 0, 0, -0.00906637,  True, '2005-02-09 10:00:00'); /* Skeleton Lord */
+VALUES (0x7DF610E0,  7822, 0xDF610116, 85.3236, 7.63538, 24.005, -0.999959, 0, 0, -0.009066,  True, '2005-02-09 10:00:00'); /* Skeleton Lord */
 /* @teleloc 0xDF610116 [85.323601 7.635380 24.004999] -0.999959 0.000000 0.000000 -0.009066 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -307,7 +307,7 @@ VALUES (0x7DF610E4,  7822, 0xDF610000, 71.1737, 23.4075, 18.005, -0.825409, 0, 0
 /* @teleloc 0xDF610000 [71.173698 23.407499 18.004999] -0.825409 0.000000 0.000000 0.564535 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DF610E5,  7822, 0xDF610000, 89.5488, 0.874869, 18.005, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Skeleton Lord */
+VALUES (0x7DF610E5,  7822, 0xDF610000, 89.5488, 0.874869, 18.005, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Skeleton Lord */
 /* @teleloc 0xDF610000 [89.548798 0.874869 18.004999] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

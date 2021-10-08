@@ -14,7 +14,7 @@ VALUES (0x7261A003, 0x7261A00C, '2005-02-09 10:00:00') /* Raider Juggernaut (242
      , (0x7261A003, 0x7261A012, '2005-02-09 10:00:00') /* Raider Juggernaut (24285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7261A00A,  3969, 0x261A0000, 183.335, 152.343, 71.2, 0.0118041, 0, 0, -0.99993, False, '2005-02-09 10:00:00'); /* Chest */
+VALUES (0x7261A00A,  3969, 0x261A0000, 183.335, 152.343, 71.2, 0.011804, 0, 0, -0.99993, False, '2005-02-09 10:00:00'); /* Chest */
 /* @teleloc 0x261A0000 [183.335007 152.343002 71.199997] 0.011804 0.000000 0.000000 -0.999930 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

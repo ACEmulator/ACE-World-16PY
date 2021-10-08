@@ -9,7 +9,7 @@ VALUES (0x7A9B3001,   921, 0xA9B30000, 27.8337, 173.833, 93.0395, -0.965787, 0, 
 /* @teleloc 0xA9B30000 [27.833700 173.832993 93.039497] -0.965787 0.000000 0.000000 0.259338 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A9B3002,  8127, 0xA9B30000, 11.7303, 157.581, 94.005, 0.00978612, 0, 0, -0.999952, False, '2005-02-09 10:00:00'); /* Menhir Mana Field */
+VALUES (0x7A9B3002,  8127, 0xA9B30000, 11.7303, 157.581, 94.005, 0.009786, 0, 0, -0.999952, False, '2005-02-09 10:00:00'); /* Menhir Mana Field */
 /* @teleloc 0xA9B30000 [11.730300 157.580994 94.004997] 0.009786 0.000000 0.000000 -0.999952 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -57,5 +57,5 @@ VALUES (0x7A9B300D, 20216, 0xA9B30000, 184.004, 79.7872, 119.005, -0.861887, 0, 
 /* @teleloc 0xA9B30000 [184.003998 79.787201 119.004997] -0.861887 0.000000 0.000000 -0.507101 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A9B300F,  6086, 0xA9B30111, 39.2339, 129.566, 87.66, 0.0162724, 0, 0, 0.999868, False, '2005-02-09 10:00:00'); /* Portal to Neydisa Castle */
+VALUES (0x7A9B300F,  6086, 0xA9B30111, 39.2339, 129.566, 87.66, 0.016272, 0, 0, 0.999868, False, '2005-02-09 10:00:00'); /* Portal to Neydisa Castle */
 /* @teleloc 0xA9B30111 [39.233898 129.565994 87.660004] 0.016272 0.000000 0.000000 0.999868 */

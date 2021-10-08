@@ -9,7 +9,7 @@ VALUES (0x702BA001,  4248, 0x02BA010A, 120.893, -92.4074, -23.9933, 0.536792, 0,
 /* @teleloc 0x02BA010A [120.892998 -92.407402 -23.993299] 0.536792 0.000000 0.000000 0.843715 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702BA002,  4248, 0x02BA010C, 116.646, -107.226, -23.9933, 0.997779, 0, 0, 0.0666169,  True, '2005-02-09 10:00:00'); /* Putrid Moarsman */
+VALUES (0x702BA002,  4248, 0x02BA010C, 116.646, -107.226, -23.9933, 0.997779, 0, 0, 0.066617,  True, '2005-02-09 10:00:00'); /* Putrid Moarsman */
 /* @teleloc 0x02BA010C [116.646004 -107.225998 -23.993299] 0.997779 0.000000 0.000000 0.066617 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

@@ -9,7 +9,7 @@ VALUES (0x7C5A6005,  4786, 0xC5A6010C, 153.959, 12.0098, 38.0585, -0.72955, 0, 0
 /* @teleloc 0xC5A6010C [153.959000 12.009800 38.058498] -0.729550 0.000000 0.000000 -0.683927 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C5A6013, 16919, 0xC5A60000, 179.67, 34.8723, 38, -0.999988, 0, 0, -0.00490774, False, '2005-02-09 10:00:00'); /* Pedestal Weak Spot */
+VALUES (0x7C5A6013, 16919, 0xC5A60000, 179.67, 34.8723, 38, -0.999988, 0, 0, -0.004908, False, '2005-02-09 10:00:00'); /* Pedestal Weak Spot */
 /* @teleloc 0xC5A60000 [179.669998 34.872299 38.000000] -0.999988 0.000000 0.000000 -0.004908 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -21,7 +21,7 @@ VALUES (0x7C5A601E, 19206, 0xC5A60000, 179.804, 30.7831, 44.82, -0.675557, 0, 0,
 /* @teleloc 0xC5A60000 [179.804001 30.783100 44.820000] -0.675557 0.000000 0.000000 -0.737308 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C5A601F, 19716, 0xC5A6011B, 179.698, 17.7833, 32.805, 0.0297023, 0, 0, -0.999559, False, '2005-02-09 10:00:00'); /* Mammet Foundry Portal */
+VALUES (0x7C5A601F, 19716, 0xC5A6011B, 179.698, 17.7833, 32.805, 0.029702, 0, 0, -0.999559, False, '2005-02-09 10:00:00'); /* Mammet Foundry Portal */
 /* @teleloc 0xC5A6011B [179.697998 17.783300 32.805000] 0.029702 0.000000 0.000000 -0.999559 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

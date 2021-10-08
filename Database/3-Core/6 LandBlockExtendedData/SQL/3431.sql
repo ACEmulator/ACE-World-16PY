@@ -33,7 +33,7 @@ VALUES (0x73431003, 22053, 0x34310000, 101.751, 108.904, 76.1277, 0.318517, 0, 0
 /* @teleloc 0x34310000 [101.750999 108.903999 76.127701] 0.318517 0.000000 0.000000 -0.947917 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73431004, 22053, 0x34310000, 100.022, 105.067, 76.0962, 0.0958409, 0, 0, -0.995397,  True, '2005-02-09 10:00:00'); /* Assailer */
+VALUES (0x73431004, 22053, 0x34310000, 100.022, 105.067, 76.0962, 0.095841, 0, 0, -0.995397,  True, '2005-02-09 10:00:00'); /* Assailer */
 /* @teleloc 0x34310000 [100.022003 105.067001 76.096199] 0.095841 0.000000 0.000000 -0.995397 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

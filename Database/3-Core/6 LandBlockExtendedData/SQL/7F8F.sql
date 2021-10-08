@@ -40,7 +40,7 @@ VALUES (0x77F8F007,   412, 0x7F8F0000, 161.575, 176.302, 124, -0.707107, 0, 0, -
 /* @teleloc 0x7F8F0000 [161.574997 176.302002 124.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77F8F008, 12050, 0x7F8F011D, 157.52, 185.984, 124.005, -0.0975845, 0, 0, -0.995227,  True, '2005-02-09 10:00:00'); /* Agent of the Arcanum */
+VALUES (0x77F8F008, 12050, 0x7F8F011D, 157.52, 185.984, 124.005, -0.097585, 0, 0, -0.995227,  True, '2005-02-09 10:00:00'); /* Agent of the Arcanum */
 /* @teleloc 0x7F8F011D [157.520004 185.983994 124.004997] -0.097585 0.000000 0.000000 -0.995227 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

@@ -5,7 +5,7 @@ VALUES (0x703A4000,   237, 0x03A40102, 70, -460, -17.971, 0.714421, 0, 0, -0.699
 /* @teleloc 0x03A40102 [70.000000 -460.000000 -17.971001] 0.714421 0.000000 0.000000 -0.699716 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x703A4001, 12149, 0x03A40109, 90, -410, -17.995, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Surface */
+VALUES (0x703A4001, 12149, 0x03A40109, 90, -410, -17.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Surface */
 /* @teleloc 0x03A40109 [90.000000 -410.000000 -17.995001] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -185,11 +185,11 @@ VALUES (0x703A401E, 0x703A4014, '2005-02-09 10:00:00') /* Sneaky Simulacrum (121
      , (0x703A401E, 0x703A4020, '2005-02-09 10:00:00') /* Sneaky Simulacrum (12133) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x703A401F, 12134, 0x03A401B5, 99.7914, -393.921, -5.995, -0.0237454, 0, 0, -0.999718,  True, '2005-02-09 10:00:00'); /* Subtle Simulacrum */
+VALUES (0x703A401F, 12134, 0x03A401B5, 99.7914, -393.921, -5.995, -0.023745, 0, 0, -0.999718,  True, '2005-02-09 10:00:00'); /* Subtle Simulacrum */
 /* @teleloc 0x03A401B5 [99.791397 -393.920990 -5.995000] -0.023745 0.000000 0.000000 -0.999718 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x703A4020, 12133, 0x03A401B5, 100.385, -391.985, -5.995, 0.00125231, 0, 0, -0.999999,  True, '2005-02-09 10:00:00'); /* Sneaky Simulacrum */
+VALUES (0x703A4020, 12133, 0x03A401B5, 100.385, -391.985, -5.995, 0.001252, 0, 0, -0.999999,  True, '2005-02-09 10:00:00'); /* Sneaky Simulacrum */
 /* @teleloc 0x03A401B5 [100.385002 -391.984985 -5.995000] 0.001252 0.000000 0.000000 -0.999999 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -217,11 +217,11 @@ VALUES (0x703A4026, 12133, 0x03A401C4, 120.835, -370.326, -5.995, 0.884021, 0, 0
 /* @teleloc 0x03A401C4 [120.834999 -370.325989 -5.995000] 0.884021 0.000000 0.000000 -0.467447 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x703A4027, 12133, 0x03A401C8, 133.873, -341.252, -5.995, 0.999669, 0, 0, -0.0257444,  True, '2005-02-09 10:00:00'); /* Sneaky Simulacrum */
+VALUES (0x703A4027, 12133, 0x03A401C8, 133.873, -341.252, -5.995, 0.999669, 0, 0, -0.025744,  True, '2005-02-09 10:00:00'); /* Sneaky Simulacrum */
 /* @teleloc 0x03A401C8 [133.873001 -341.252014 -5.995000] 0.999669 0.000000 0.000000 -0.025744 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x703A4028, 12133, 0x03A401C8, 131.242, -339.621, -5.995, 0.998473, 0, 0, 0.0552406,  True, '2005-02-09 10:00:00'); /* Sneaky Simulacrum */
+VALUES (0x703A4028, 12133, 0x03A401C8, 131.242, -339.621, -5.995, 0.998473, 0, 0, 0.055241,  True, '2005-02-09 10:00:00'); /* Sneaky Simulacrum */
 /* @teleloc 0x03A401C8 [131.242004 -339.621002 -5.995000] 0.998473 0.000000 0.000000 0.055241 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -273,7 +273,7 @@ VALUES (0x703A4034, 12133, 0x03A40205, 93.5068, -259.746, 0.005, -0.562002, 0, 0
 /* @teleloc 0x03A40205 [93.506798 -259.746002 0.005000] -0.562002 0.000000 0.000000 0.827136 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x703A4035, 12134, 0x03A40205, 89.9751, -258.33, 0.005, 0.0781161, 0, 0, 0.996944,  True, '2005-02-09 10:00:00'); /* Subtle Simulacrum */
+VALUES (0x703A4035, 12134, 0x03A40205, 89.9751, -258.33, 0.005, 0.078116, 0, 0, 0.996944,  True, '2005-02-09 10:00:00'); /* Subtle Simulacrum */
 /* @teleloc 0x03A40205 [89.975098 -258.329987 0.005000] 0.078116 0.000000 0.000000 0.996944 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

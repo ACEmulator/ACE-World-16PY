@@ -5,7 +5,7 @@ VALUES (0x7E333000, 12519, 0xE3330000, 148.04, 91.1334, 118.005, 0.9313, 0, 0, 0
 /* @teleloc 0xE3330000 [148.039993 91.133400 118.004997] 0.931300 0.000000 0.000000 0.364254 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E333001, 12562, 0xE3330000, 156.285, 92.8838, 118.005, 0.99864, 0, 0, -0.0521444, False, '2005-02-09 10:00:00'); /* Vesayan Overlook Portal */
+VALUES (0x7E333001, 12562, 0xE3330000, 156.285, 92.8838, 118.005, 0.99864, 0, 0, -0.052144, False, '2005-02-09 10:00:00'); /* Vesayan Overlook Portal */
 /* @teleloc 0xE3330000 [156.285004 92.883797 118.004997] 0.998640 0.000000 0.000000 -0.052144 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -13,7 +13,7 @@ VALUES (0x7E333002, 12515, 0xE3330000, 164.688, 92.1864, 118.005, 0.946956, 0, 0
 /* @teleloc 0xE3330000 [164.688004 92.186401 118.004997] 0.946956 0.000000 0.000000 -0.321363 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E333003, 12774, 0xE3330000, 155.64, 83.5881, 118.005, 0.999894, 0, 0, 0.0145729, False, '2005-02-09 10:00:00'); /* Settlement Portals */
+VALUES (0x7E333003, 12774, 0xE3330000, 155.64, 83.5881, 118.005, 0.999894, 0, 0, 0.014573, False, '2005-02-09 10:00:00'); /* Settlement Portals */
 /* @teleloc 0xE3330000 [155.639999 83.588097 118.004997] 0.999894 0.000000 0.000000 0.014573 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

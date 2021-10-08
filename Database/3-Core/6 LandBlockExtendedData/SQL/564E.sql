@@ -77,7 +77,7 @@ VALUES (0x7564E012,   195, 0x564E0141, 69.7626, -14.655, -29.945, 0.999896, 0, 0
 /* @teleloc 0x564E0141 [69.762604 -14.655000 -29.945000] 0.999896 0.000000 0.000000 0.014424 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7564E013,   194, 0x564E0147, 72.0682, -39.4311, -29.99, -0.00513804, 0, 0, -0.999987,  True, '2005-02-09 10:00:00'); /* Copper Golem */
+VALUES (0x7564E013,   194, 0x564E0147, 72.0682, -39.4311, -29.99, -0.005138, 0, 0, -0.999987,  True, '2005-02-09 10:00:00'); /* Copper Golem */
 /* @teleloc 0x564E0147 [72.068199 -39.431099 -29.990000] -0.005138 0.000000 0.000000 -0.999987 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -173,7 +173,7 @@ VALUES (0x7564E02A,   202, 0x564E0212, 22.3763, -129.116, -5.945, -0.922755, 0, 
 /* @teleloc 0x564E0212 [22.376301 -129.115997 -5.945000] -0.922755 0.000000 0.000000 -0.385388 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7564E02B,   194, 0x564E0218, 31.1546, -118.302, -5.99, 0.0457802, 0, 0, 0.998952,  True, '2005-02-09 10:00:00'); /* Copper Golem */
+VALUES (0x7564E02B,   194, 0x564E0218, 31.1546, -118.302, -5.99, 0.04578, 0, 0, 0.998952,  True, '2005-02-09 10:00:00'); /* Copper Golem */
 /* @teleloc 0x564E0218 [31.154600 -118.302002 -5.990000] 0.045780 0.000000 0.000000 0.998952 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

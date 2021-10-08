@@ -25,7 +25,7 @@ VALUES (0x7070F005, 25861, 0x070F0105, 129.39, 87.3676, 185.055, -0.160132, 0, 0
 /* @teleloc 0x070F0105 [129.389999 87.367599 185.054993] -0.160132 0.000000 0.000000 -0.987096 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7070F006, 25861, 0x070F0000, 132.618, 83.0841, 187.805, 0.999993, 0, 0, -0.00367635,  True, '2005-02-09 10:00:00'); /* Graal Margul */
+VALUES (0x7070F006, 25861, 0x070F0000, 132.618, 83.0841, 187.805, 0.999993, 0, 0, -0.003676,  True, '2005-02-09 10:00:00'); /* Graal Margul */
 /* @teleloc 0x070F0000 [132.617996 83.084099 187.804993] 0.999993 0.000000 0.000000 -0.003676 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

@@ -28,7 +28,7 @@ VALUES (0x78C58007,   153, 0x8C580119, 180.009, 60, 30.005, 0.707107, 0, 0, -0.7
 /* @teleloc 0x8C580119 [180.009003 60.000000 30.004999] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78C58008,  4648, 0x8C580000, 156.56, 69.0543, 31.908, -0.00956966, 0, 0, -0.999954, False, '2005-02-09 10:00:00'); /* Al-Arqas Outpost  */
+VALUES (0x78C58008,  4648, 0x8C580000, 156.56, 69.0543, 31.908, -0.00957, 0, 0, -0.999954, False, '2005-02-09 10:00:00'); /* Al-Arqas Outpost  */
 /* @teleloc 0x8C580000 [156.559998 69.054298 31.908001] -0.009570 0.000000 0.000000 -0.999954 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

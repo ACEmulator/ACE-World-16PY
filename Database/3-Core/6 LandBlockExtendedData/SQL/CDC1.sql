@@ -18,15 +18,15 @@ VALUES (0x7CDC1018, 0x7CDC1019, '2005-02-09 10:00:00') /* Chill (21165) */
      , (0x7CDC1018, 0x7CDC101F, '2005-02-09 10:00:00') /* Shivver (14518) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CDC1019, 21165, 0xCDC10000, 74.1741, 64.445, 0.005, -0.0439141, 0, 0, -0.999035,  True, '2005-02-09 10:00:00'); /* Chill */
+VALUES (0x7CDC1019, 21165, 0xCDC10000, 74.1741, 64.445, 0.005, -0.043914, 0, 0, -0.999035,  True, '2005-02-09 10:00:00'); /* Chill */
 /* @teleloc 0xCDC10000 [74.174103 64.445000 0.005000] -0.043914 0.000000 0.000000 -0.999035 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CDC101A, 21165, 0xCDC10000, 70.2257, 69.0117, 0.005, -0.0439141, 0, 0, -0.999035,  True, '2005-02-09 10:00:00'); /* Chill */
+VALUES (0x7CDC101A, 21165, 0xCDC10000, 70.2257, 69.0117, 0.005, -0.043914, 0, 0, -0.999035,  True, '2005-02-09 10:00:00'); /* Chill */
 /* @teleloc 0xCDC10000 [70.225700 69.011703 0.005000] -0.043914 0.000000 0.000000 -0.999035 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CDC101B, 21165, 0xCDC10000, 70.6009, 81.1869, 0.005, 0.998166, 0, 0, 0.0605376,  True, '2005-02-09 10:00:00'); /* Chill */
+VALUES (0x7CDC101B, 21165, 0xCDC10000, 70.6009, 81.1869, 0.005, 0.998166, 0, 0, 0.060538,  True, '2005-02-09 10:00:00'); /* Chill */
 /* @teleloc 0xCDC10000 [70.600899 81.186897 0.005000] 0.998166 0.000000 0.000000 0.060538 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -34,15 +34,15 @@ VALUES (0x7CDC101C, 21165, 0xCDC10000, 85.2419, 74.2179, 0.005, 0.777379, 0, 0, 
 /* @teleloc 0xCDC10000 [85.241898 74.217903 0.005000] 0.777379 0.000000 0.000000 -0.629032 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CDC101D, 14518, 0xCDC10000, 82.55, 70.3019, 0.00700001, 0.597587, 0, 0, -0.801804,  True, '2005-02-09 10:00:00'); /* Shivver */
+VALUES (0x7CDC101D, 14518, 0xCDC10000, 82.55, 70.3019, 0.007, 0.597587, 0, 0, -0.801804,  True, '2005-02-09 10:00:00'); /* Shivver */
 /* @teleloc 0xCDC10000 [82.550003 70.301903 0.007000] 0.597587 0.000000 0.000000 -0.801804 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CDC101E, 14518, 0xCDC10000, 76.2977, 65.4277, 0.00700001, 0.0749845, 0, 0, -0.997185,  True, '2005-02-09 10:00:00'); /* Shivver */
+VALUES (0x7CDC101E, 14518, 0xCDC10000, 76.2977, 65.4277, 0.007, 0.074985, 0, 0, -0.997185,  True, '2005-02-09 10:00:00'); /* Shivver */
 /* @teleloc 0xCDC10000 [76.297699 65.427696 0.007000] 0.074984 0.000000 0.000000 -0.997185 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CDC101F, 14518, 0xCDC10000, 65.084, 72.7267, 0.00700001, -0.691435, 0, 0, -0.722439,  True, '2005-02-09 10:00:00'); /* Shivver */
+VALUES (0x7CDC101F, 14518, 0xCDC10000, 65.084, 72.7267, 0.007, -0.691435, 0, 0, -0.722439,  True, '2005-02-09 10:00:00'); /* Shivver */
 /* @teleloc 0xCDC10000 [65.084000 72.726700 0.007000] -0.691435 0.000000 0.000000 -0.722439 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

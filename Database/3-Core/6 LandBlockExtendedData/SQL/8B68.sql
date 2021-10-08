@@ -1,11 +1,11 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x8B68;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78B68008,   204, 0x8B680102, 14.6677, 98.3024, 4.8075, -0.0616829, 0, 0, -0.998096,  True, '2005-02-09 10:00:00'); /* Lich */
+VALUES (0x78B68008,   204, 0x8B680102, 14.6677, 98.3024, 4.8075, -0.061683, 0, 0, -0.998096,  True, '2005-02-09 10:00:00'); /* Lich */
 /* @teleloc 0x8B680102 [14.667700 98.302399 4.807500] -0.061683 0.000000 0.000000 -0.998096 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78B6800A,  9188, 0x8B680102, 12.3051, 98.5788, 4.805, 0.99993, 0, 0, -0.0118458, False, '2005-02-09 10:00:00'); /* Tomb of The Dead */
+VALUES (0x78B6800A,  9188, 0x8B680102, 12.3051, 98.5788, 4.805, 0.99993, 0, 0, -0.011846, False, '2005-02-09 10:00:00'); /* Tomb of The Dead */
 /* @teleloc 0x8B680102 [12.305100 98.578796 4.805000] 0.999930 0.000000 0.000000 -0.011846 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -17,7 +17,7 @@ VALUES (0x78B6800C,   204, 0x8B680103, 14.563, 85.284, 10.056, -0.182356, 0, 0, 
 /* @teleloc 0x8B680103 [14.563000 85.283997 10.056000] -0.182356 0.000000 0.000000 -0.983233 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78B6800D,   204, 0x8B680102, 10.1092, 94.2919, 4.8075, 0.00968137, 0, 0, -0.999953,  True, '2005-02-09 10:00:00'); /* Lich */
+VALUES (0x78B6800D,   204, 0x8B680102, 10.1092, 94.2919, 4.8075, 0.009681, 0, 0, -0.999953,  True, '2005-02-09 10:00:00'); /* Lich */
 /* @teleloc 0x8B680102 [10.109200 94.291901 4.807500] 0.009681 0.000000 0.000000 -0.999953 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

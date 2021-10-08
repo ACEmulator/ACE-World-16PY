@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xB56F;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B56F000,  5391, 0xB56F0000, 84.5, 108.5, 22, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Festival Stone */
+VALUES (0x7B56F000,  5391, 0xB56F0000, 84.5, 108.5, 22, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Festival Stone */
 /* @teleloc 0xB56F0000 [84.500000 108.500000 22.000000] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -29,7 +29,7 @@ VALUES (0x7B56F006,  6076, 0xB56F0000, 67, 123, 22.005, -0.707107, 0, 0, -0.7071
 /* @teleloc 0xB56F0000 [67.000000 123.000000 22.004999] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B56F007,  7923, 0xB56F0000, 34.9712, 71.0167, 22.005, 0.999874, 0, 0, -0.0158543, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
+VALUES (0x7B56F007,  7923, 0xB56F0000, 34.9712, 71.0167, 22.005, 0.999874, 0, 0, -0.015854, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
 /* @teleloc 0xB56F0000 [34.971199 71.016701 22.004999] 0.999874 0.000000 0.000000 -0.015854 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)

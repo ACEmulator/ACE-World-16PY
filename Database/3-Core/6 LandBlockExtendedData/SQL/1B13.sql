@@ -1,15 +1,15 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x1B13;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71B13000, 30685, 0x1B130000, 3.08678, 88.844, 0.00824997, -0.586647, 0, 0, 0.809842,  True, '2005-02-09 10:00:00'); /* Withered Banderling Paragon */
+VALUES (0x71B13000, 30685, 0x1B130000, 3.08678, 88.844, 0.00825, -0.586647, 0, 0, 0.809842,  True, '2005-02-09 10:00:00'); /* Withered Banderling Paragon */
 /* @teleloc 0x1B130000 [3.086780 88.844002 0.008250] -0.586647 0.000000 0.000000 0.809842 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71B13001, 30685, 0x1B130000, 2.4714, 78.4341, 0.00824997, -0.88928, 0, 0, 0.457364,  True, '2005-02-09 10:00:00'); /* Withered Banderling Paragon */
+VALUES (0x71B13001, 30685, 0x1B130000, 2.4714, 78.4341, 0.00825, -0.88928, 0, 0, 0.457364,  True, '2005-02-09 10:00:00'); /* Withered Banderling Paragon */
 /* @teleloc 0x1B130000 [2.471400 78.434097 0.008250] -0.889280 0.000000 0.000000 0.457364 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71B13002, 30685, 0x1B130000, 2.05424, 84.3781, 0.00824997, -0.760106, 0, 0, 0.649799,  True, '2005-02-09 10:00:00'); /* Withered Banderling Paragon */
+VALUES (0x71B13002, 30685, 0x1B130000, 2.05424, 84.3781, 0.00825, -0.760106, 0, 0, 0.649799,  True, '2005-02-09 10:00:00'); /* Withered Banderling Paragon */
 /* @teleloc 0x1B130000 [2.054240 84.378098 0.008250] -0.760106 0.000000 0.000000 0.649799 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -46,11 +46,11 @@ VALUES (0x71B13003, 0x71B13000, '2005-02-09 10:00:00') /* Withered Banderling Pa
      , (0x71B13003, 0x71B13021, '2005-02-09 10:00:00') /* Withered Drudge Seraph (30680) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71B13004, 30685, 0x1B130000, 5.42052, 92.2775, 0.00824997, 0.884829, 0, 0, -0.465917,  True, '2005-02-09 10:00:00'); /* Withered Banderling Paragon */
+VALUES (0x71B13004, 30685, 0x1B130000, 5.42052, 92.2775, 0.00825, 0.884829, 0, 0, -0.465917,  True, '2005-02-09 10:00:00'); /* Withered Banderling Paragon */
 /* @teleloc 0x1B130000 [5.420520 92.277496 0.008250] 0.884829 0.000000 0.000000 -0.465917 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71B13005, 30685, 0x1B130000, 1.94116, 73.61, 0.00824997, 0.523868, 0, 0, -0.8518,  True, '2005-02-09 10:00:00'); /* Withered Banderling Paragon */
+VALUES (0x71B13005, 30685, 0x1B130000, 1.94116, 73.61, 0.00825, 0.523868, 0, 0, -0.8518,  True, '2005-02-09 10:00:00'); /* Withered Banderling Paragon */
 /* @teleloc 0x1B130000 [1.941160 73.610001 0.008250] 0.523868 0.000000 0.000000 -0.851800 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -70,11 +70,11 @@ VALUES (0x71B13009, 30683, 0x1B130000, 27.2817, 155.906, -0.09285, 0.848665, 0, 
 /* @teleloc 0x1B130000 [27.281700 155.906006 -0.092850] 0.848665 0.000000 0.000000 -0.528931 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71B1300A, 30683, 0x1B130000, 19.2677, 117.265, 0.00714999, 0.65821, 0, 0, -0.752835,  True, '2005-02-09 10:00:00'); /* Withered Banderling Hierophant */
+VALUES (0x71B1300A, 30683, 0x1B130000, 19.2677, 117.265, 0.00715, 0.65821, 0, 0, -0.752835,  True, '2005-02-09 10:00:00'); /* Withered Banderling Hierophant */
 /* @teleloc 0x1B130000 [19.267700 117.264999 0.007150] 0.658210 0.000000 0.000000 -0.752835 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71B1300B, 30685, 0x1B130000, 20.4057, 108.807, 0.00824997, -0.610875, 0, 0, 0.791727,  True, '2005-02-09 10:00:00'); /* Withered Banderling Paragon */
+VALUES (0x71B1300B, 30685, 0x1B130000, 20.4057, 108.807, 0.00825, -0.610875, 0, 0, 0.791727,  True, '2005-02-09 10:00:00'); /* Withered Banderling Paragon */
 /* @teleloc 0x1B130000 [20.405701 108.806999 0.008250] -0.610875 0.000000 0.000000 0.791727 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -82,11 +82,11 @@ VALUES (0x71B1300C, 30685, 0x1B130000, 104.231, 110.547, 0.694167, 0.971928, 0, 
 /* @teleloc 0x1B130000 [104.231003 110.546997 0.694167] 0.971928 0.000000 0.000000 -0.235278 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71B1300D, 30685, 0x1B130000, 87.037, 114.598, 0.00824995, 0.980448, 0, 0, 0.196778,  True, '2005-02-09 10:00:00'); /* Withered Banderling Paragon */
+VALUES (0x71B1300D, 30685, 0x1B130000, 87.037, 114.598, 0.00825, 0.980448, 0, 0, 0.196778,  True, '2005-02-09 10:00:00'); /* Withered Banderling Paragon */
 /* @teleloc 0x1B130000 [87.037003 114.598000 0.008250] 0.980448 0.000000 0.000000 0.196778 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71B1300E, 30685, 0x1B130000, 82.3892, 98.1768, 0.00824995, 0.287013, 0, 0, 0.957927,  True, '2005-02-09 10:00:00'); /* Withered Banderling Paragon */
+VALUES (0x71B1300E, 30685, 0x1B130000, 82.3892, 98.1768, 0.00825, 0.287013, 0, 0, 0.957927,  True, '2005-02-09 10:00:00'); /* Withered Banderling Paragon */
 /* @teleloc 0x1B130000 [82.389198 98.176804 0.008250] 0.287013 0.000000 0.000000 0.957927 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -94,15 +94,15 @@ VALUES (0x71B1300F, 30685, 0x1B130000, 104.382, 92.8371, 0.70675, -0.394601, 0, 
 /* @teleloc 0x1B130000 [104.382004 92.837097 0.706750] -0.394601 0.000000 0.000000 0.918853 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71B13010, 30683, 0x1B130000, 91.2812, 107.467, 0.00714999, -0.999988, 0, 0, 0.00484848,  True, '2005-02-09 10:00:00'); /* Withered Banderling Hierophant */
+VALUES (0x71B13010, 30683, 0x1B130000, 91.2812, 107.467, 0.00715, -0.999988, 0, 0, 0.004848,  True, '2005-02-09 10:00:00'); /* Withered Banderling Hierophant */
 /* @teleloc 0x1B130000 [91.281197 107.467003 0.007150] -0.999988 0.000000 0.000000 0.004848 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71B13011, 30683, 0x1B130000, 94.4279, 104.737, 0.00714999, -0.79314, 0, 0, 0.609039,  True, '2005-02-09 10:00:00'); /* Withered Banderling Hierophant */
+VALUES (0x71B13011, 30683, 0x1B130000, 94.4279, 104.737, 0.00715, -0.79314, 0, 0, 0.609039,  True, '2005-02-09 10:00:00'); /* Withered Banderling Hierophant */
 /* @teleloc 0x1B130000 [94.427902 104.737000 0.007150] -0.793140 0.000000 0.000000 0.609039 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71B13012, 30683, 0x1B130000, 90.7821, 102.917, 0.00714999, -0.0185707, 0, 0, -0.999828,  True, '2005-02-09 10:00:00'); /* Withered Banderling Hierophant */
+VALUES (0x71B13012, 30683, 0x1B130000, 90.7821, 102.917, 0.00715, -0.018571, 0, 0, -0.999828,  True, '2005-02-09 10:00:00'); /* Withered Banderling Hierophant */
 /* @teleloc 0x1B130000 [90.782097 102.917000 0.007150] -0.018571 0.000000 0.000000 -0.999828 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -118,11 +118,11 @@ VALUES (0x71B13016, 30685, 0x1B130000, 29.3224, 49.1647, -0.09175, -0.488342, 0,
 /* @teleloc 0x1B130000 [29.322399 49.164700 -0.091750] -0.488342 0.000000 0.000000 0.872652 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71B13017, 30685, 0x1B130000, 10.0788, 17.9195, 0.00824997, -0.891942, 0, 0, 0.452149,  True, '2005-02-09 10:00:00'); /* Withered Banderling Paragon */
+VALUES (0x71B13017, 30685, 0x1B130000, 10.0788, 17.9195, 0.00825, -0.891942, 0, 0, 0.452149,  True, '2005-02-09 10:00:00'); /* Withered Banderling Paragon */
 /* @teleloc 0x1B130000 [10.078800 17.919500 0.008250] -0.891942 0.000000 0.000000 0.452149 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71B13019, 30680, 0x1B130000, 159.407, 40.9954, 3.98936, -0.995328, 0, 0, 0.0965565,  True, '2005-02-09 10:00:00'); /* Withered Drudge Seraph */
+VALUES (0x71B13019, 30680, 0x1B130000, 159.407, 40.9954, 3.98936, -0.995328, 0, 0, 0.096557,  True, '2005-02-09 10:00:00'); /* Withered Drudge Seraph */
 /* @teleloc 0x1B130000 [159.406998 40.995399 3.989360] -0.995328 0.000000 0.000000 0.096556 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -130,15 +130,15 @@ VALUES (0x71B1301B, 30680, 0x1B130000, 161.461, 37.3751, 4.03006, 0.580997, 0, 0
 /* @teleloc 0x1B130000 [161.460999 37.375099 4.030060] 0.580997 0.000000 0.000000 -0.813906 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71B1301F, 30682, 0x1B130000, 113.516, 39.893, 0.00524994, 0.971223, 0, 0, -0.238171,  True, '2005-02-09 10:00:00'); /* Withered Drudge Seraph Mystic */
+VALUES (0x71B1301F, 30682, 0x1B130000, 113.516, 39.893, 0.00525, 0.971223, 0, 0, -0.238171,  True, '2005-02-09 10:00:00'); /* Withered Drudge Seraph Mystic */
 /* @teleloc 0x1B130000 [113.515999 39.893002 0.005250] 0.971223 0.000000 0.000000 -0.238171 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71B13020, 30680, 0x1B130000, 113.865, 42.095, 0.00524995, 0.995909, 0, 0, -0.0903592,  True, '2005-02-09 10:00:00'); /* Withered Drudge Seraph */
+VALUES (0x71B13020, 30680, 0x1B130000, 113.865, 42.095, 0.00525, 0.995909, 0, 0, -0.090359,  True, '2005-02-09 10:00:00'); /* Withered Drudge Seraph */
 /* @teleloc 0x1B130000 [113.864998 42.095001 0.005250] 0.995909 0.000000 0.000000 -0.090359 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71B13021, 30680, 0x1B130000, 110.168, 42.7714, 0.00524995, 0.990966, 0, 0, 0.134112,  True, '2005-02-09 10:00:00'); /* Withered Drudge Seraph */
+VALUES (0x71B13021, 30680, 0x1B130000, 110.168, 42.7714, 0.00525, 0.990966, 0, 0, 0.134112,  True, '2005-02-09 10:00:00'); /* Withered Drudge Seraph */
 /* @teleloc 0x1B130000 [110.167999 42.771400 0.005250] 0.990966 0.000000 0.000000 0.134112 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -177,11 +177,11 @@ VALUES (0x71B13026, 30686, 0x1B130000, 134.745, 185.921, 4.46392, 0.999443, 0, 0
 /* @teleloc 0x1B130000 [134.744995 185.921005 4.463920] 0.999443 0.000000 0.000000 0.033373 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71B13027, 30682, 0x1B130000, 76.9506, 157.373, 0.00524995, -0.970248, 0, 0, 0.242114,  True, '2005-02-09 10:00:00'); /* Withered Drudge Seraph Mystic */
+VALUES (0x71B13027, 30682, 0x1B130000, 76.9506, 157.373, 0.00525, -0.970248, 0, 0, 0.242114,  True, '2005-02-09 10:00:00'); /* Withered Drudge Seraph Mystic */
 /* @teleloc 0x1B130000 [76.950600 157.373001 0.005250] -0.970248 0.000000 0.000000 0.242114 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71B13028, 30682, 0x1B130000, 78.0576, 155.196, 0.00524995, -0.970248, 0, 0, 0.242114,  True, '2005-02-09 10:00:00'); /* Withered Drudge Seraph Mystic */
+VALUES (0x71B13028, 30682, 0x1B130000, 78.0576, 155.196, 0.00525, -0.970248, 0, 0, 0.242114,  True, '2005-02-09 10:00:00'); /* Withered Drudge Seraph Mystic */
 /* @teleloc 0x1B130000 [78.057602 155.195999 0.005250] -0.970248 0.000000 0.000000 0.242114 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -201,11 +201,11 @@ VALUES (0x71B1302C, 30689, 0x1B130000, 149.324, 109.746, 8.48646, -0.989704, 0, 
 /* @teleloc 0x1B130000 [149.324005 109.746002 8.486460] -0.989704 0.000000 0.000000 0.143129 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71B1302D, 30689, 0x1B130000, 151.925, 109.727, 9.13505, -0.99998, 0, 0, -0.00637766,  True, '2005-02-09 10:00:00'); /* Withered Raider Prefect */
+VALUES (0x71B1302D, 30689, 0x1B130000, 151.925, 109.727, 9.13505, -0.99998, 0, 0, -0.006378,  True, '2005-02-09 10:00:00'); /* Withered Raider Prefect */
 /* @teleloc 0x1B130000 [151.925003 109.726997 9.135050] -0.999980 0.000000 0.000000 -0.006378 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71B1302E, 30691, 0x1B130000, 150.173, 112.97, 8.96749, -0.99998, 0, 0, -0.00637766,  True, '2005-02-09 10:00:00'); /* Withered Raider Justicar */
+VALUES (0x71B1302E, 30691, 0x1B130000, 150.173, 112.97, 8.96749, -0.99998, 0, 0, -0.006378,  True, '2005-02-09 10:00:00'); /* Withered Raider Justicar */
 /* @teleloc 0x1B130000 [150.173004 112.970001 8.967490] -0.999980 0.000000 0.000000 -0.006378 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

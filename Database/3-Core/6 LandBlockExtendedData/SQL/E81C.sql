@@ -13,11 +13,11 @@ VALUES (0x7E81C003,  4246, 0xE81C0000, 98.5148, 128.902, 0.004552, -0.484919, 0,
 /* @teleloc 0xE81C0000 [98.514801 128.901993 0.004552] -0.484919 0.000000 0.000000 0.874559 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E81C004, 27854, 0xE81C0100, 105.033, 147.25, -5.1952, -0.0762956, 0, 0, -0.997085,  True, '2005-02-09 10:00:00'); /* Fetid Moarsman */
+VALUES (0x7E81C004, 27854, 0xE81C0100, 105.033, 147.25, -5.1952, -0.076296, 0, 0, -0.997085,  True, '2005-02-09 10:00:00'); /* Fetid Moarsman */
 /* @teleloc 0xE81C0100 [105.032997 147.250000 -5.195200] -0.076296 0.000000 0.000000 -0.997085 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E81C005, 27854, 0xE81C0000, 102.38, 135.36, 3.90545, -0.0748411, 0, 0, 0.997195,  True, '2005-02-09 10:00:00'); /* Fetid Moarsman */
+VALUES (0x7E81C005, 27854, 0xE81C0000, 102.38, 135.36, 3.90545, -0.074841, 0, 0, 0.997195,  True, '2005-02-09 10:00:00'); /* Fetid Moarsman */
 /* @teleloc 0xE81C0000 [102.379997 135.360001 3.905450] -0.074841 0.000000 0.000000 0.997195 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

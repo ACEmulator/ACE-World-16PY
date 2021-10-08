@@ -21,7 +21,7 @@ VALUES (0x777DA001, 0x777DA000, '2005-02-09 10:00:00') /* Crude Statue (30626) *
      , (0x777DA001, 0x777DA00A, '2005-02-09 10:00:00') /* Amethyst Gromnie (25596) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x777DA002, 30638, 0x77DA0000, 43.865, 121.266, 216.358, 0.997275, 0, 0, 0.0737721,  True, '2005-02-09 10:00:00'); /* Banderling Spirit Dancer */
+VALUES (0x777DA002, 30638, 0x77DA0000, 43.865, 121.266, 216.358, 0.997275, 0, 0, 0.073772,  True, '2005-02-09 10:00:00'); /* Banderling Spirit Dancer */
 /* @teleloc 0x77DA0000 [43.865002 121.265999 216.358002] 0.997275 0.000000 0.000000 0.073772 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

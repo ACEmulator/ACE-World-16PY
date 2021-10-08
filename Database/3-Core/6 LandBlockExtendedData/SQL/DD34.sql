@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xDD34;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DD34000,  6409, 0xDD340100, 153.964, 102.008, 134.879, -0.999868, 0, 0, -0.0162596,  True, '2005-02-09 10:00:00'); /* Hastily Scrawled Note */
+VALUES (0x7DD34000,  6409, 0xDD340100, 153.964, 102.008, 134.879, -0.999868, 0, 0, -0.01626,  True, '2005-02-09 10:00:00'); /* Hastily Scrawled Note */
 /* @teleloc 0xDD340100 [153.964005 102.008003 134.878998] -0.999868 0.000000 0.000000 -0.016260 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -9,7 +9,7 @@ VALUES (0x7DD34001,  6407, 0xDD340100, 153.221, 101.627, 134.87, -0.957883, 0, 0
 /* @teleloc 0xDD340100 [153.220993 101.626999 134.869995] -0.957883 0.000000 0.000000 -0.287160 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DD34002,  6318, 0xDD340100, 156.236, 102.922, 134.816, -0.998975, 0, 0, 0.0452717,  True, '2005-02-09 10:00:00'); /* Minor Sparking Stone */
+VALUES (0x7DD34002,  6318, 0xDD340100, 156.236, 102.922, 134.816, -0.998975, 0, 0, 0.045272,  True, '2005-02-09 10:00:00'); /* Minor Sparking Stone */
 /* @teleloc 0xDD340100 [156.235992 102.921997 134.815994] -0.998975 0.000000 0.000000 0.045272 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

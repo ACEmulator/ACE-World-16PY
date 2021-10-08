@@ -67,7 +67,7 @@ VALUES (0x702B100E, 23564, 0x02B1014D, 229.021, -208.786, -23.995, -0.006864, 0,
 /* @teleloc 0x02B1014D [229.020996 -208.785995 -23.995001] -0.006864 0.000000 0.000000 0.999976 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702B100F,  2609, 0x02B10152, 240, -133, -23.995, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Lever */
+VALUES (0x702B100F,  2609, 0x02B10152, 240, -133, -23.995, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Lever */
 /* @teleloc 0x02B10152 [240.000000 -133.000000 -23.995001] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -103,11 +103,11 @@ VALUES (0x702B1017, 23564, 0x02B10199, 59.9519, -142.743, -17.995, 0.328866, 0, 
 /* @teleloc 0x02B10199 [59.951900 -142.742996 -17.995001] 0.328866 0.000000 0.000000 0.944377 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702B1018,  2609, 0x02B1019E, 60, -283.5, -17.995, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Lever */
+VALUES (0x702B1018,  2609, 0x02B1019E, 60, -283.5, -17.995, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Lever */
 /* @teleloc 0x02B1019E [60.000000 -283.500000 -17.995001] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702B1019, 23564, 0x02B1019F, 60.1983, -287.308, -17.995, 0.0105366, 0, 0, -0.999944,  True, '2005-02-09 10:00:00'); /* Tenebrous Shadow */
+VALUES (0x702B1019, 23564, 0x02B1019F, 60.1983, -287.308, -17.995, 0.010537, 0, 0, -0.999944,  True, '2005-02-09 10:00:00'); /* Tenebrous Shadow */
 /* @teleloc 0x02B1019F [60.198299 -287.308014 -17.995001] 0.010537 0.000000 0.000000 -0.999944 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -175,7 +175,7 @@ VALUES (0x702B1029, 23563, 0x02B1024E, 39.1972, -389.896, 0.0042, 0.09083, 0, 0,
 /* @teleloc 0x02B1024E [39.197201 -389.895996 0.004200] 0.090830 0.000000 0.000000 -0.995866 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702B102A, 23564, 0x02B1024E, 38.9463, -386.905, 0.005, -0.0839461, 0, 0, -0.99647,  True, '2005-02-09 10:00:00'); /* Tenebrous Shadow */
+VALUES (0x702B102A, 23564, 0x02B1024E, 38.9463, -386.905, 0.005, -0.083946, 0, 0, -0.99647,  True, '2005-02-09 10:00:00'); /* Tenebrous Shadow */
 /* @teleloc 0x02B1024E [38.946301 -386.904999 0.005000] -0.083946 0.000000 0.000000 -0.996470 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -190,7 +190,7 @@ VALUES (0x702B102C,  8848, 0x02B10258, 50, -510, 0.005, 1, 0, 0, 0, False, '2005
 /* @teleloc 0x02B10258 [50.000000 -510.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702B102D,  2609, 0x02B10260, 70, -413.5, 0.059, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Lever */
+VALUES (0x702B102D,  2609, 0x02B10260, 70, -413.5, 0.059, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Lever */
 /* @teleloc 0x02B10260 [70.000000 -413.500000 0.059000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -206,7 +206,7 @@ VALUES (0x702B1030, 23563, 0x02B10262, 70.3389, -428.327, 0.0042, 0.100607, 0, 0
 /* @teleloc 0x02B10262 [70.338898 -428.326996 0.004200] 0.100607 0.000000 0.000000 -0.994926 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702B1031,  7924, 0x02B10268, 70, -490, 0.005, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
+VALUES (0x702B1031,  7924, 0x02B10268, 70, -490, 0.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x02B10268 [70.000000 -490.000000 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -275,7 +275,7 @@ VALUES (0x702B1035,  8848, 0x02B10283, 130, -510, 0.005, 1, 0, 0, 0, False, '200
 /* @teleloc 0x02B10283 [130.000000 -510.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702B1036,  2609, 0x02B10284, 140, -373, 0.005, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Lever */
+VALUES (0x702B1036,  2609, 0x02B10284, 140, -373, 0.005, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Lever */
 /* @teleloc 0x02B10284 [140.000000 -373.000000 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

@@ -24,9 +24,9 @@ VALUES (0x7DA56004, 14930, 0xDA56010C, 14.5106, 133.249, 20.005, -0.695126, 0, 0
 /* @teleloc 0xDA56010C [14.510600 133.248993 20.004999] -0.695126 0.000000 0.000000 -0.718888 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DA56007,  4041, 0xDA560118, 179.932, 30.6932, 13.66, 0.999965, 0, 0, 0.00837919, False, '2005-02-09 10:00:00'); /* Portal to Kara */
+VALUES (0x7DA56007,  4041, 0xDA560118, 179.932, 30.6932, 13.66, 0.999965, 0, 0, 0.008379, False, '2005-02-09 10:00:00'); /* Portal to Kara */
 /* @teleloc 0xDA560118 [179.932007 30.693199 13.660000] 0.999965 0.000000 0.000000 0.008379 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DA56008,  8554, 0xDA560113, 12.1054, 31.1764, 13.66, 0.999987, 0, 0, -0.00503824, False, '2005-02-09 10:00:00'); /* Portal to Kryst */
+VALUES (0x7DA56008,  8554, 0xDA560113, 12.1054, 31.1764, 13.66, 0.999987, 0, 0, -0.005038, False, '2005-02-09 10:00:00'); /* Portal to Kryst */
 /* @teleloc 0xDA560113 [12.105400 31.176399 13.660000] 0.999987 0.000000 0.000000 -0.005038 */

@@ -25,7 +25,7 @@ VALUES (0x7029A005,  9380, 0x029A012B, 250.745, -152.947, -5.971, 0.999687, 0, 0
 /* @teleloc 0x029A012B [250.744995 -152.947006 -5.971000] 0.999687 0.000000 0.000000 0.024997 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7029A006,  9509, 0x029A0130, 250, -200, -5.995, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Surface Portal */
+VALUES (0x7029A006,  9509, 0x029A0130, 250, -200, -5.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Surface Portal */
 /* @teleloc 0x029A0130 [250.000000 -200.000000 -5.995000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -234,7 +234,7 @@ VALUES (0x7029A02A, 0x7029A002, '2005-02-09 10:00:00') /* Sotiris Hollow Minion 
      , (0x7029A02A, 0x7029A007, '2005-02-09 10:00:00') /* Sotiris Hollow Minion (8270) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7029A02B,  9507, 0x029A01F2, 170, -230, 0.005, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Gredaline Consulate */
+VALUES (0x7029A02B,  9507, 0x029A01F2, 170, -230, 0.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Gredaline Consulate */
 /* @teleloc 0x029A01F2 [170.000000 -230.000000 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -286,7 +286,7 @@ VALUES (0x7029A037,  1610, 0x029A024D, 192.741, -8.59936, 6.005, 0.577021, 0, 0,
 /* @teleloc 0x029A024D [192.740997 -8.599360 6.005000] 0.577021 0.000000 0.000000 0.816729 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7029A038,  1610, 0x029A024F, 191.538, -29.644, 6.005, -0.995417, 0, 0, -0.0956319,  True, '2005-02-09 10:00:00'); /* Drudge Ravener */
+VALUES (0x7029A038,  1610, 0x029A024F, 191.538, -29.644, 6.005, -0.995417, 0, 0, -0.095632,  True, '2005-02-09 10:00:00'); /* Drudge Ravener */
 /* @teleloc 0x029A024F [191.537994 -29.643999 6.005000] -0.995417 0.000000 0.000000 -0.095632 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

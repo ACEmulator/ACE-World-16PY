@@ -21,5 +21,5 @@ VALUES (0x7D599005,  5629, 0xD5990120, 174.892, 173.984, 384.005, -0.707107, 0, 
 /* @teleloc 0xD5990120 [174.891998 173.983994 384.005005] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D599006, 24516, 0xD599014C, 154.045, 174.304, 374.005, 0.0590049, 0, 0, 0.998258, False, '2005-02-09 10:00:00'); /* Asheron's Sanctum */
+VALUES (0x7D599006, 24516, 0xD599014C, 154.045, 174.304, 374.005, 0.059005, 0, 0, 0.998258, False, '2005-02-09 10:00:00'); /* Asheron's Sanctum */
 /* @teleloc 0xD599014C [154.044998 174.304001 374.005005] 0.059005 0.000000 0.000000 0.998258 */

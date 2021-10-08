@@ -1,11 +1,11 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x9E59;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79E59000,  1761, 0x9E590100, 107.925, 28.5479, 38.805, 0.0207947, 0, 0, 0.999784,  True, '2005-02-09 10:00:00'); /* Skeleton Captain */
+VALUES (0x79E59000,  1761, 0x9E590100, 107.925, 28.5479, 38.805, 0.020795, 0, 0, 0.999784,  True, '2005-02-09 10:00:00'); /* Skeleton Captain */
 /* @teleloc 0x9E590100 [107.925003 28.547899 38.805000] 0.020795 0.000000 0.000000 0.999784 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79E59001,  1760, 0x9E590100, 105.659, 27.1888, 38.805, -0.0955758, 0, 0, -0.995422,  True, '2005-02-09 10:00:00'); /* Skeleton Warrior */
+VALUES (0x79E59001,  1760, 0x9E590100, 105.659, 27.1888, 38.805, -0.095576, 0, 0, -0.995422,  True, '2005-02-09 10:00:00'); /* Skeleton Warrior */
 /* @teleloc 0x9E590100 [105.658997 27.188801 38.805000] -0.095576 0.000000 0.000000 -0.995422 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

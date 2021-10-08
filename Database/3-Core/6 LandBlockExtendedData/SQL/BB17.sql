@@ -5,7 +5,7 @@ VALUES (0x7BB17000, 12569, 0xBB170000, 100.557, 172.413, 131.488, 0.973211, 0, 0
 /* @teleloc 0xBB170000 [100.556999 172.412994 131.488007] 0.973211 0.000000 0.000000 0.229912 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB17001, 12531, 0xBB170000, 109.006, 172.432, 132.197, 0.999838, 0, 0, -0.0180118, False, '2005-02-09 10:00:00'); /* North Adjamaer Cottages Portal */
+VALUES (0x7BB17001, 12531, 0xBB170000, 109.006, 172.432, 132.197, 0.999838, 0, 0, -0.018012, False, '2005-02-09 10:00:00'); /* North Adjamaer Cottages Portal */
 /* @teleloc 0xBB170000 [109.005997 172.432007 132.197006] 0.999838 0.000000 0.000000 -0.018012 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

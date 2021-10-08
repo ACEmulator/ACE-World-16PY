@@ -47,7 +47,7 @@ VALUES (0x75317017,  7346, 0x53170000, 180.563, 32.9449, 43.6361, -0.523746, 0, 
 /* @teleloc 0x53170000 [180.563004 32.944901 43.636101] -0.523746 0.000000 0.000000 0.851874 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75317018,  7090, 0x53170000, 179.719, 98.3393, 40.833, -0.0546248, 0, 0, 0.998507,  True, '2005-02-09 10:00:00'); /* Augmented Drudge */
+VALUES (0x75317018,  7090, 0x53170000, 179.719, 98.3393, 40.833, -0.054625, 0, 0, 0.998507,  True, '2005-02-09 10:00:00'); /* Augmented Drudge */
 /* @teleloc 0x53170000 [179.718994 98.339302 40.833000] -0.054625 0.000000 0.000000 0.998507 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -63,9 +63,9 @@ VALUES (0x7531701B,  7089, 0x53170000, 180.96, 101.854, 40.4367, 0.284092, 0, 0,
 /* @teleloc 0x53170000 [180.960007 101.853996 40.436699] 0.284092 0.000000 0.000000 -0.958797 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7531701C,  1917, 0x53170000, 178.026, 36.6428, 44.1084, -0.999997, 0, 0, 0.00250771, False, '2005-02-09 10:00:00'); /* Chest */
+VALUES (0x7531701C,  1917, 0x53170000, 178.026, 36.6428, 44.1084, -0.999997, 0, 0, 0.002508, False, '2005-02-09 10:00:00'); /* Chest */
 /* @teleloc 0x53170000 [178.026001 36.642799 44.108398] -0.999997 0.000000 0.000000 0.002508 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7531701D,  7089, 0x53170000, 178.103, 99.089, 40.9052, 0.0879459, 0, 0, -0.996125,  True, '2005-02-09 10:00:00'); /* Altered Drudge */
+VALUES (0x7531701D,  7089, 0x53170000, 178.103, 99.089, 40.9052, 0.087946, 0, 0, -0.996125,  True, '2005-02-09 10:00:00'); /* Altered Drudge */
 /* @teleloc 0x53170000 [178.102997 99.088997 40.905201] 0.087946 0.000000 0.000000 -0.996125 */

@@ -53,7 +53,7 @@ VALUES (0x7564800E, 23082, 0x5648011D, 160, -100, -11.99, 0.974794, 0, 0, -0.223
 /* @teleloc 0x5648011D [160.000000 -100.000000 -11.990000] 0.974794 0.000000 0.000000 -0.223106 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7564800F, 23082, 0x56480120, 160, -110, -11.99, 0.995004, 0, 0, -0.0998331,  True, '2005-02-09 10:00:00'); /* Nubilous Golem */
+VALUES (0x7564800F, 23082, 0x56480120, 160, -110, -11.99, 0.995004, 0, 0, -0.099833,  True, '2005-02-09 10:00:00'); /* Nubilous Golem */
 /* @teleloc 0x56480120 [160.000000 -110.000000 -11.990000] 0.995004 0.000000 0.000000 -0.099833 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -220,7 +220,7 @@ VALUES (0x75648037, 22933, 0x564801DF, 150, -90, 0.01, 0.796084, 0, 0, 0.605186,
 /* @teleloc 0x564801DF [150.000000 -90.000000 0.010000] 0.796084 0.000000 0.000000 0.605186 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75648038, 22933, 0x564801E2, 150, -100, 0.01, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Mist Golem */
+VALUES (0x75648038, 22933, 0x564801E2, 150, -100, 0.01, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Mist Golem */
 /* @teleloc 0x564801E2 [150.000000 -100.000000 0.010000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

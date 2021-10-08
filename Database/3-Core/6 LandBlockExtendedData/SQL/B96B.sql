@@ -40,7 +40,7 @@ VALUES (0x7B96B00A,  5065, 0xB96B0106, 80.6309, 186.991, 4.805, -0.258587, 0, 0,
 /* @teleloc 0xB96B0106 [80.630898 186.990997 4.805000] -0.258587 0.000000 0.000000 0.965988 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B96B00C,  5108, 0xB96B0000, 109.569, 171.25, 6.005, -0.995838, 0, 0, 0.0911373, False, '2005-02-09 10:00:00'); /* LIFESTONES SIGN */
+VALUES (0x7B96B00C,  5108, 0xB96B0000, 109.569, 171.25, 6.005, -0.995838, 0, 0, 0.091137, False, '2005-02-09 10:00:00'); /* LIFESTONES SIGN */
 /* @teleloc 0xB96B0000 [109.569000 171.250000 6.005000] -0.995838 0.000000 0.000000 0.091137 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

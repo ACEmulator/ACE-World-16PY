@@ -383,7 +383,7 @@ VALUES (0x75D48054, 22942, 0x5D480176, 45.8822, -17.0885, 18.005, -0.615914, 0, 
 /* @teleloc 0x5D480176 [45.882198 -17.088499 18.004999] -0.615914 0.000000 0.000000 -0.787813 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75D48055, 22940, 0x5D480182, 57.0108, -5.98572, 18.005, -0.999971, 0, 0, -0.00758652,  True, '2005-02-09 10:00:00'); /* Gem of Lowering Quickness */
+VALUES (0x75D48055, 22940, 0x5D480182, 57.0108, -5.98572, 18.005, -0.999971, 0, 0, -0.007587,  True, '2005-02-09 10:00:00'); /* Gem of Lowering Quickness */
 /* @teleloc 0x5D480182 [57.010799 -5.985720 18.004999] -0.999971 0.000000 0.000000 -0.007587 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

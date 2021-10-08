@@ -86,23 +86,23 @@ VALUES (0x7F62800E,  7334, 0xF6280000, 163.455, 9.70159, 38.8135, -0.954373, 0, 
 /* @teleloc 0xF6280000 [163.455002 9.701590 38.813499] -0.954373 0.000000 0.000000 -0.298618 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F62800F,  7334, 0xF6280000, 125.872, 177.502, 0.00499997, -0.93631, 0, 0, 0.351175,  True, '2005-02-09 10:00:00'); /* Skeleton Bone Knight */
+VALUES (0x7F62800F,  7334, 0xF6280000, 125.872, 177.502, 0.005, -0.93631, 0, 0, 0.351175,  True, '2005-02-09 10:00:00'); /* Skeleton Bone Knight */
 /* @teleloc 0xF6280000 [125.872002 177.501999 0.005000] -0.936310 0.000000 0.000000 0.351175 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F628010,  7334, 0xF6280000, 129.723, 175.161, 0.00499997, -0.93631, 0, 0, 0.351175,  True, '2005-02-09 10:00:00'); /* Skeleton Bone Knight */
+VALUES (0x7F628010,  7334, 0xF6280000, 129.723, 175.161, 0.005, -0.93631, 0, 0, 0.351175,  True, '2005-02-09 10:00:00'); /* Skeleton Bone Knight */
 /* @teleloc 0xF6280000 [129.723007 175.160995 0.005000] -0.936310 0.000000 0.000000 0.351175 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F628011,  7334, 0xF6280000, 126.009, 173.659, 0.00499997, -0.93631, 0, 0, 0.351175,  True, '2005-02-09 10:00:00'); /* Skeleton Bone Knight */
+VALUES (0x7F628011,  7334, 0xF6280000, 126.009, 173.659, 0.005, -0.93631, 0, 0, 0.351175,  True, '2005-02-09 10:00:00'); /* Skeleton Bone Knight */
 /* @teleloc 0xF6280000 [126.009003 173.658997 0.005000] -0.936310 0.000000 0.000000 0.351175 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F628012,  7121, 0xF6280000, 123.689, 174.989, 0.00499997, -0.78273, 0, 0, 0.622361,  True, '2005-02-09 10:00:00'); /* Skeleton Bone Lord */
+VALUES (0x7F628012,  7121, 0xF6280000, 123.689, 174.989, 0.005, -0.78273, 0, 0, 0.622361,  True, '2005-02-09 10:00:00'); /* Skeleton Bone Lord */
 /* @teleloc 0xF6280000 [123.689003 174.988998 0.005000] -0.782730 0.000000 0.000000 0.622361 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F628013,  7121, 0xF6280000, 3.33936, 179.566, 22.005, 0.00540606, 0, 0, 0.999985,  True, '2005-02-09 10:00:00'); /* Skeleton Bone Lord */
+VALUES (0x7F628013,  7121, 0xF6280000, 3.33936, 179.566, 22.005, 0.005406, 0, 0, 0.999985,  True, '2005-02-09 10:00:00'); /* Skeleton Bone Lord */
 /* @teleloc 0xF6280000 [3.339360 179.565994 22.004999] 0.005406 0.000000 0.000000 0.999985 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

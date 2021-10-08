@@ -21,7 +21,7 @@ VALUES (0x75465004, 15835, 0x54650103, 9.989, -19.993, 0.005, 0, 0, 0, -1, False
 /* @teleloc 0x54650103 [9.989000 -19.993000 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75465005, 16896, 0x54650103, 9.896, -22.874, 0.005, 0.999994, 0, 0, -0.00356878, False, '2005-02-09 10:00:00'); /* Marin Court */
+VALUES (0x75465005, 16896, 0x54650103, 9.896, -22.874, 0.005, 0.999994, 0, 0, -0.003569, False, '2005-02-09 10:00:00'); /* Marin Court */
 /* @teleloc 0x54650103 [9.896000 -22.874001 0.005000] 0.999994 0.000000 0.000000 -0.003569 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -37,7 +37,7 @@ VALUES (0x75465008, 15836, 0x5465011A, 20.0126, -39.9954, 0.005, 1, 0, 0, 0, Fal
 /* @teleloc 0x5465011A [20.012600 -39.995399 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75465009, 16897, 0x5465011A, 20.1048, -37.6937, 0.005, 0.00485005, 0, 0, 0.999988, False, '2005-02-09 10:00:00'); /* Ruadnar Court */
+VALUES (0x75465009, 16897, 0x5465011A, 20.1048, -37.6937, 0.005, 0.00485, 0, 0, 0.999988, False, '2005-02-09 10:00:00'); /* Ruadnar Court */
 /* @teleloc 0x5465011A [20.104799 -37.693699 0.005000] 0.004850 0.000000 0.000000 0.999988 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

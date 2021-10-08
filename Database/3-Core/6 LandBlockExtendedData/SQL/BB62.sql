@@ -41,7 +41,7 @@ VALUES (0x7BB6201D,   947, 0xBB620115, 62.3816, 36.0785, 6.05561, -0.983132, 0, 
 /* @teleloc 0xBB620115 [62.381599 36.078499 6.055610] -0.983132 0.000000 0.000000 -0.182900 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB6201E,   947, 0xBB620115, 57.9787, 34.9865, 6.04638, 0.998981, 0, 0, -0.0451414,  True, '2005-02-09 10:00:00'); /* Barker Mosswart */
+VALUES (0x7BB6201E,   947, 0xBB620115, 57.9787, 34.9865, 6.04638, 0.998981, 0, 0, -0.045141,  True, '2005-02-09 10:00:00'); /* Barker Mosswart */
 /* @teleloc 0xBB620115 [57.978699 34.986500 6.046380] 0.998981 0.000000 0.000000 -0.045141 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -77,7 +77,7 @@ VALUES (0x7BB62021, 0x7BB62004, '2005-02-09 10:00:00') /* Mosswart Shaman (1619)
      , (0x7BB62021, 0x7BB6202B, '2005-02-09 10:00:00') /* Barker Mosswart (947) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB62022,   198, 0xBB620100, 65.8366, 33.9701, -4.389, 0.0434876, 0, 0, 0.999054,  True, '2005-02-09 10:00:00'); /* Limestone Golem */
+VALUES (0x7BB62022,   198, 0xBB620100, 65.8366, 33.9701, -4.389, 0.043488, 0, 0, 0.999054,  True, '2005-02-09 10:00:00'); /* Limestone Golem */
 /* @teleloc 0xBB620100 [65.836601 33.970100 -4.389000] 0.043488 0.000000 0.000000 0.999054 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

@@ -17,7 +17,7 @@ VALUES (0x74EA1003,  1606, 0x4EA10000, 140.032, 11.3884, 17.0636, -0.74524, 0, 0
 /* @teleloc 0x4EA10000 [140.031998 11.388400 17.063601] -0.745240 0.000000 0.000000 -0.666797 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74EA1004,  1607, 0x4EA10000, 130.208, 11.9236, 17.0203, -0.0158938, 0, 0, -0.999874,  True, '2005-02-09 10:00:00'); /* Auroch Fire Bull */
+VALUES (0x74EA1004,  1607, 0x4EA10000, 130.208, 11.9236, 17.0203, -0.015894, 0, 0, -0.999874,  True, '2005-02-09 10:00:00'); /* Auroch Fire Bull */
 /* @teleloc 0x4EA10000 [130.207993 11.923600 17.020300] -0.015894 0.000000 0.000000 -0.999874 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

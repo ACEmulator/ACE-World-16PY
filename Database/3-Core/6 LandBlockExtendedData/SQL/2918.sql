@@ -41,7 +41,7 @@ VALUES (0x72918010, 24484, 0x29180000, 158.498, 65.4026, 56.005, -0.821193, 0, 0
 /* @teleloc 0x29180000 [158.498001 65.402603 56.005001] -0.821193 0.000000 0.000000 0.570651 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72918011, 24484, 0x29180000, 171.868, 86.5134, 56.005, -0.997302, 0, 0, -0.0734133,  True, '2005-02-09 10:00:00'); /* Small Sandstone Golem */
+VALUES (0x72918011, 24484, 0x29180000, 171.868, 86.5134, 56.005, -0.997302, 0, 0, -0.073413,  True, '2005-02-09 10:00:00'); /* Small Sandstone Golem */
 /* @teleloc 0x29180000 [171.867996 86.513397 56.005001] -0.997302 0.000000 0.000000 -0.073413 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -57,11 +57,11 @@ VALUES (0x72918014, 24484, 0x29180000, 177.709, 94.8824, 56.005, -0.441874, 0, 0
 /* @teleloc 0x29180000 [177.709000 94.882401 56.005001] -0.441874 0.000000 0.000000 -0.897077 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72918015, 24484, 0x29180000, 173.601, 97.9405, 56.005, -0.0326808, 0, 0, -0.999466,  True, '2005-02-09 10:00:00'); /* Small Sandstone Golem */
+VALUES (0x72918015, 24484, 0x29180000, 173.601, 97.9405, 56.005, -0.032681, 0, 0, -0.999466,  True, '2005-02-09 10:00:00'); /* Small Sandstone Golem */
 /* @teleloc 0x29180000 [173.600998 97.940498 56.005001] -0.032681 0.000000 0.000000 -0.999466 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72918016, 24484, 0x29180000, 170.625, 98.1353, 56.005, 0.0921823, 0, 0, -0.995742,  True, '2005-02-09 10:00:00'); /* Small Sandstone Golem */
+VALUES (0x72918016, 24484, 0x29180000, 170.625, 98.1353, 56.005, 0.092182, 0, 0, -0.995742,  True, '2005-02-09 10:00:00'); /* Small Sandstone Golem */
 /* @teleloc 0x29180000 [170.625000 98.135300 56.005001] 0.092182 0.000000 0.000000 -0.995742 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -77,7 +77,7 @@ VALUES (0x72918019, 24484, 0x29180000, 168.017, 88.5111, 56.005, 0.875908, 0, 0,
 /* @teleloc 0x29180000 [168.016998 88.511101 56.005001] 0.875908 0.000000 0.000000 -0.482479 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7291801A, 24484, 0x29180000, 185.485, 98.9473, 56.005, 0.999384, 0, 0, 0.0350889,  True, '2005-02-09 10:00:00'); /* Small Sandstone Golem */
+VALUES (0x7291801A, 24484, 0x29180000, 185.485, 98.9473, 56.005, 0.999384, 0, 0, 0.035089,  True, '2005-02-09 10:00:00'); /* Small Sandstone Golem */
 /* @teleloc 0x29180000 [185.485001 98.947304 56.005001] 0.999384 0.000000 0.000000 0.035089 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

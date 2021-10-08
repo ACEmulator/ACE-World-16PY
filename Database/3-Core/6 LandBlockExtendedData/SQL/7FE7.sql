@@ -5,7 +5,7 @@ VALUES (0x77FE7000,  1987, 0x7FE70000, 112.662, 92.1732, 32.4, -0.50226, 0, 0, -
 /* @teleloc 0x7FE70000 [112.662003 92.173203 32.400002] -0.502260 0.000000 0.000000 -0.864717 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77FE7001,  1987, 0x7FE70000, 105.116, 109.253, 32.4, -0.0511878, 0, 0, -0.998689,  True, '2005-02-09 10:00:00'); /* Ghost Wisp */
+VALUES (0x77FE7001,  1987, 0x7FE70000, 105.116, 109.253, 32.4, -0.051188, 0, 0, -0.998689,  True, '2005-02-09 10:00:00'); /* Ghost Wisp */
 /* @teleloc 0x7FE70000 [105.115997 109.252998 32.400002] -0.051188 0.000000 0.000000 -0.998689 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

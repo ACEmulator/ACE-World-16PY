@@ -53,11 +53,11 @@ VALUES (0x75B9C00A, 23631, 0x5B9C0000, 105.902, 115.642, 102.688, -0.733086, 0, 
 /* @teleloc 0x5B9C0000 [105.902000 115.641998 102.688004] -0.733086 0.000000 0.000000 0.680136 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75B9C00B,   509, 0x5B9C0000, 119.04, 151.61, 14.005, 0.997169, 0, 0, -0.0751883, False, '2005-02-09 10:00:00'); /* Life Stone */
+VALUES (0x75B9C00B,   509, 0x5B9C0000, 119.04, 151.61, 14.005, 0.997169, 0, 0, -0.075188, False, '2005-02-09 10:00:00'); /* Life Stone */
 /* @teleloc 0x5B9C0000 [119.040001 151.610001 14.005000] 0.997169 0.000000 0.000000 -0.075188 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75B9C00C, 27555, 0x5B9C0000, 109.207, 146.662, 14.005, 0.0195611, 0, 0, -0.999809, False, '2005-02-09 10:00:00'); /* Pricilla the Healer */
+VALUES (0x75B9C00C, 27555, 0x5B9C0000, 109.207, 146.662, 14.005, 0.019561, 0, 0, -0.999809, False, '2005-02-09 10:00:00'); /* Pricilla the Healer */
 /* @teleloc 0x5B9C0000 [109.207001 146.662003 14.005000] 0.019561 0.000000 0.000000 -0.999809 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

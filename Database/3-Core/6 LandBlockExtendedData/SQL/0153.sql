@@ -41,7 +41,7 @@ VALUES (0x70153009,  4109, 0x0153013F, 32.7961, -77.9736, -53.989, 1, 0, 0, 0,  
 /* @teleloc 0x0153013F [32.796101 -77.973602 -53.988998] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7015300A,  4109, 0x01530147, 33.7884, -122.231, -53.989, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Carrion Shreth */
+VALUES (0x7015300A,  4109, 0x01530147, 33.7884, -122.231, -53.989, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Carrion Shreth */
 /* @teleloc 0x01530147 [33.788399 -122.231003 -53.988998] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -81,7 +81,7 @@ VALUES (0x70153013,  4109, 0x015301AC, 5.71873, -29.7205, -29.989, 0.707107, 0, 
 /* @teleloc 0x015301AC [5.718730 -29.720501 -29.989000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70153014,  4109, 0x015301B2, 16.5338, -27.1802, -29.989, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Carrion Shreth */
+VALUES (0x70153014,  4109, 0x015301B2, 16.5338, -27.1802, -29.989, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Carrion Shreth */
 /* @teleloc 0x015301B2 [16.533800 -27.180201 -29.989000] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -101,7 +101,7 @@ VALUES (0x70153018,  4109, 0x01530204, 40, -70, -29.989, 1, 0, 0, 0,  True, '200
 /* @teleloc 0x01530204 [40.000000 -70.000000 -29.989000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70153019,  4109, 0x0153020A, 51.6014, -31.9722, -29.989, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Carrion Shreth */
+VALUES (0x70153019,  4109, 0x0153020A, 51.6014, -31.9722, -29.989, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Carrion Shreth */
 /* @teleloc 0x0153020A [51.601398 -31.972200 -29.989000] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

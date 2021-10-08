@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xED12;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7ED12000,  7081, 0xED120000, 33.86, 139.494, -0.0831997, -0.0489709, 0, 0, -0.9988,  True, '2005-02-09 10:00:00'); /* Plate Armoredillo */
+VALUES (0x7ED12000,  7081, 0xED120000, 33.86, 139.494, -0.0832, -0.048971, 0, 0, -0.9988,  True, '2005-02-09 10:00:00'); /* Plate Armoredillo */
 /* @teleloc 0xED120000 [33.860001 139.494003 -0.083200] -0.048971 0.000000 0.000000 -0.998800 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

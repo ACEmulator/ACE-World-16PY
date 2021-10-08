@@ -9,7 +9,7 @@ VALUES (0x7A66C008, 21164, 0xA66C0100, 82.645, 141.481, 16.7914, 0.192175, 0, 0,
 /* @teleloc 0xA66C0100 [82.644997 141.481003 16.791401] 0.192175 0.000000 0.000000 -0.981361 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A66C009, 21164, 0xA66C0000, 83.6881, 125.571, 22.518, -0.0782945, 0, 0, 0.99693,  True, '2005-02-09 10:00:00'); /* Gout */
+VALUES (0x7A66C009, 21164, 0xA66C0000, 83.6881, 125.571, 22.518, -0.078295, 0, 0, 0.99693,  True, '2005-02-09 10:00:00'); /* Gout */
 /* @teleloc 0xA66C0000 [83.688103 125.570999 22.518000] -0.078295 0.000000 0.000000 0.996930 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -17,7 +17,7 @@ VALUES (0x7A66C00A, 21164, 0xA66C0100, 85.1157, 141.328, 16.7914, 0.146165, 0, 0
 /* @teleloc 0xA66C0100 [85.115700 141.328003 16.791401] 0.146165 0.000000 0.000000 -0.989260 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A66C00B, 21164, 0xA66C0000, 82.2517, 125.347, 22.417, -0.0782945, 0, 0, 0.99693,  True, '2005-02-09 10:00:00'); /* Gout */
+VALUES (0x7A66C00B, 21164, 0xA66C0000, 82.2517, 125.347, 22.417, -0.078295, 0, 0, 0.99693,  True, '2005-02-09 10:00:00'); /* Gout */
 /* @teleloc 0xA66C0000 [82.251701 125.347000 22.417000] -0.078295 0.000000 0.000000 0.996930 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

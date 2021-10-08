@@ -16,7 +16,7 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x7DC3C002, 0x7DC3C001, '2005-02-09 10:00:00') /* Jaizen Tan (9546) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DC3C003,  5085, 0xDC3C0100, 83.6986, 9.40472, 15.705, 0.999967, 0, 0, 0.0081536, False, '2005-02-09 10:00:00'); /* Linkable Item Gen - 25 seconds */
+VALUES (0x7DC3C003,  5085, 0xDC3C0100, 83.6986, 9.40472, 15.705, 0.999967, 0, 0, 0.008154, False, '2005-02-09 10:00:00'); /* Linkable Item Gen - 25 seconds */
 /* @teleloc 0xDC3C0100 [83.698601 9.404720 15.705000] 0.999967 0.000000 0.000000 0.008154 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)

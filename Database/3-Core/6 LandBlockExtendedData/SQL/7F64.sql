@@ -13,7 +13,7 @@ VALUES (0x77F64005,  1631, 0x7F640000, 104.847, 17.9573, 22.5086, -0.762561, 0, 
 /* @teleloc 0x7F640000 [104.847000 17.957300 22.508600] -0.762561 0.000000 0.000000 -0.646917 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77F64006,  1632, 0x7F640000, 102.745, 20.4233, 22.3031, -0.0852135, 0, 0, -0.996363,  True, '2005-02-09 10:00:00'); /* Drudge Slave */
+VALUES (0x77F64006,  1632, 0x7F640000, 102.745, 20.4233, 22.3031, -0.085214, 0, 0, -0.996363,  True, '2005-02-09 10:00:00'); /* Drudge Slave */
 /* @teleloc 0x7F640000 [102.745003 20.423300 22.303101] -0.085213 0.000000 0.000000 -0.996363 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

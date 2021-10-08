@@ -1,11 +1,11 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xDB77;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB77005,  6881, 0xDB770100, 84.0426, 104.053, 32.082, 0.0184344, 0, 0, -0.99983, False, '2005-02-09 10:00:00'); /* Door */
+VALUES (0x7DB77005,  6881, 0xDB770100, 84.0426, 104.053, 32.082, 0.018434, 0, 0, -0.99983, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0xDB770100 [84.042603 104.053001 32.082001] 0.018434 0.000000 0.000000 -0.999830 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB77006,  6883, 0xDB770000, 81.1429, 105.185, 47.205, 0.0500897, 0, 0, -0.998745, False, '2005-02-09 10:00:00'); /* Event - Dryreach Prisoner Belongings */
+VALUES (0x7DB77006,  6883, 0xDB770000, 81.1429, 105.185, 47.205, 0.05009, 0, 0, -0.998745, False, '2005-02-09 10:00:00'); /* Event - Dryreach Prisoner Belongings */
 /* @teleloc 0xDB770000 [81.142899 105.184998 47.205002] 0.050090 0.000000 0.000000 -0.998745 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

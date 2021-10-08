@@ -23,7 +23,7 @@ VALUES (0x7E51D000, 0x7E51D007, '2005-02-09 10:00:00') /* Mosswart Idolator (842
      , (0x7E51D000, 0x7E51D016, '2005-02-09 10:00:00') /* Mosswart Idolator (8428) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E51D001,  7924, 0xE51D0000, 118.919, 131.862, 19.8478, -0.996031, 0, 0, 0.0890073, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
+VALUES (0x7E51D001,  7924, 0xE51D0000, 118.919, 131.862, 19.8478, -0.996031, 0, 0, 0.089007, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0xE51D0000 [118.918999 131.862000 19.847799] -0.996031 0.000000 0.000000 0.089007 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -34,7 +34,7 @@ VALUES (0x7E51D001, 0x7E51D002, '2005-02-09 10:00:00') /* Idol (8466) */
      , (0x7E51D001, 0x7E51D006, '2005-02-09 10:00:00') /* Mosswart Zealot (8429) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E51D002,  8466, 0xE51D0000, 122.618, 128.973, 20.0831, -0.0848662, 0, 0, 0.996392,  True, '2005-02-09 10:00:00'); /* Idol */
+VALUES (0x7E51D002,  8466, 0xE51D0000, 122.618, 128.973, 20.0831, -0.084866, 0, 0, 0.996392,  True, '2005-02-09 10:00:00'); /* Idol */
 /* @teleloc 0xE51D0000 [122.617996 128.973007 20.083099] -0.084866 0.000000 0.000000 0.996392 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -70,49 +70,49 @@ VALUES (0x7E51D00A,  8427, 0xE51D0000, 160.959, 53.9398, 18.9966, 0.298708, 0, 0
 /* @teleloc 0xE51D0000 [160.959000 53.939800 18.996599] 0.298708 0.000000 0.000000 -0.954345 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E51D00B,  8427, 0xE51D0000, 174.085, 161.694, 0.00660002, -0.443873, 0, 0, 0.89609,  True, '2005-02-09 10:00:00'); /* Mosswart Fanatic */
+VALUES (0x7E51D00B,  8427, 0xE51D0000, 174.085, 161.694, 0.0066, -0.443873, 0, 0, 0.89609,  True, '2005-02-09 10:00:00'); /* Mosswart Fanatic */
 /* @teleloc 0xE51D0000 [174.085007 161.694000 0.006600] -0.443873 0.000000 0.000000 0.896090 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E51D00C,  8428, 0xE51D0000, 175.099, 163.827, 0.00660002, -0.352195, 0, 0, 0.935927,  True, '2005-02-09 10:00:00'); /* Mosswart Idolator */
+VALUES (0x7E51D00C,  8428, 0xE51D0000, 175.099, 163.827, 0.0066, -0.352195, 0, 0, 0.935927,  True, '2005-02-09 10:00:00'); /* Mosswart Idolator */
 /* @teleloc 0xE51D0000 [175.098999 163.826996 0.006600] -0.352195 0.000000 0.000000 0.935927 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E51D00D,  8428, 0xE51D0000, 173.434, 163.406, 0.00660002, -0.352195, 0, 0, 0.935927,  True, '2005-02-09 10:00:00'); /* Mosswart Idolator */
+VALUES (0x7E51D00D,  8428, 0xE51D0000, 173.434, 163.406, 0.0066, -0.352195, 0, 0, 0.935927,  True, '2005-02-09 10:00:00'); /* Mosswart Idolator */
 /* @teleloc 0xE51D0000 [173.434006 163.406006 0.006600] -0.352195 0.000000 0.000000 0.935927 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E51D00E,  8428, 0xE51D0000, 171.289, 160.098, 0.00660002, -0.846787, 0, 0, 0.531932,  True, '2005-02-09 10:00:00'); /* Mosswart Idolator */
+VALUES (0x7E51D00E,  8428, 0xE51D0000, 171.289, 160.098, 0.0066, -0.846787, 0, 0, 0.531932,  True, '2005-02-09 10:00:00'); /* Mosswart Idolator */
 /* @teleloc 0xE51D0000 [171.289001 160.098007 0.006600] -0.846787 0.000000 0.000000 0.531932 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E51D00F,  8428, 0xE51D0000, 57.308, 137.908, 0.00659999, -0.269628, 0, 0, -0.962965,  True, '2005-02-09 10:00:00'); /* Mosswart Idolator */
+VALUES (0x7E51D00F,  8428, 0xE51D0000, 57.308, 137.908, 0.0066, -0.269628, 0, 0, -0.962965,  True, '2005-02-09 10:00:00'); /* Mosswart Idolator */
 /* @teleloc 0xE51D0000 [57.307999 137.908005 0.006600] -0.269628 0.000000 0.000000 -0.962965 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E51D010,  8428, 0xE51D0000, 59.7185, 136.136, 0.00659999, -0.341025, 0, 0, -0.940054,  True, '2005-02-09 10:00:00'); /* Mosswart Idolator */
+VALUES (0x7E51D010,  8428, 0xE51D0000, 59.7185, 136.136, 0.0066, -0.341025, 0, 0, -0.940054,  True, '2005-02-09 10:00:00'); /* Mosswart Idolator */
 /* @teleloc 0xE51D0000 [59.718498 136.136002 0.006600] -0.341025 0.000000 0.000000 -0.940054 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E51D011,  8427, 0xE51D0000, 57.6308, 134.185, 0.00659999, -0.997757, 0, 0, -0.066947,  True, '2005-02-09 10:00:00'); /* Mosswart Fanatic */
+VALUES (0x7E51D011,  8427, 0xE51D0000, 57.6308, 134.185, 0.0066, -0.997757, 0, 0, -0.066947,  True, '2005-02-09 10:00:00'); /* Mosswart Fanatic */
 /* @teleloc 0xE51D0000 [57.630798 134.184998 0.006600] -0.997757 0.000000 0.000000 -0.066947 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E51D012,  8427, 0xE51D0000, 55.1406, 135.176, 0.00659999, -0.900475, 0, 0, 0.434908,  True, '2005-02-09 10:00:00'); /* Mosswart Fanatic */
+VALUES (0x7E51D012,  8427, 0xE51D0000, 55.1406, 135.176, 0.0066, -0.900475, 0, 0, 0.434908,  True, '2005-02-09 10:00:00'); /* Mosswart Fanatic */
 /* @teleloc 0xE51D0000 [55.140598 135.175995 0.006600] -0.900475 0.000000 0.000000 0.434908 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E51D013,  8427, 0xE51D0000, 64.5608, 39.3431, 0.00659999, -0.644766, 0, 0, 0.76438,  True, '2005-02-09 10:00:00'); /* Mosswart Fanatic */
+VALUES (0x7E51D013,  8427, 0xE51D0000, 64.5608, 39.3431, 0.0066, -0.644766, 0, 0, 0.76438,  True, '2005-02-09 10:00:00'); /* Mosswart Fanatic */
 /* @teleloc 0xE51D0000 [64.560799 39.343102 0.006600] -0.644766 0.000000 0.000000 0.764380 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E51D014,  8427, 0xE51D0000, 66.5533, 41.4266, 0.00659999, -0.644766, 0, 0, 0.76438,  True, '2005-02-09 10:00:00'); /* Mosswart Fanatic */
+VALUES (0x7E51D014,  8427, 0xE51D0000, 66.5533, 41.4266, 0.0066, -0.644766, 0, 0, 0.76438,  True, '2005-02-09 10:00:00'); /* Mosswart Fanatic */
 /* @teleloc 0xE51D0000 [66.553299 41.426601 0.006600] -0.644766 0.000000 0.000000 0.764380 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E51D015,  8428, 0xE51D0000, 66.3815, 37.5757, 0.00659999, 0.830444, 0, 0, -0.557103,  True, '2005-02-09 10:00:00'); /* Mosswart Idolator */
+VALUES (0x7E51D015,  8428, 0xE51D0000, 66.3815, 37.5757, 0.0066, 0.830444, 0, 0, -0.557103,  True, '2005-02-09 10:00:00'); /* Mosswart Idolator */
 /* @teleloc 0xE51D0000 [66.381500 37.575699 0.006600] 0.830444 0.000000 0.000000 -0.557103 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E51D016,  8428, 0xE51D0000, 67.7005, 39.1229, 0.00659999, 0.786366, 0, 0, -0.617761,  True, '2005-02-09 10:00:00'); /* Mosswart Idolator */
+VALUES (0x7E51D016,  8428, 0xE51D0000, 67.7005, 39.1229, 0.0066, 0.786366, 0, 0, -0.617761,  True, '2005-02-09 10:00:00'); /* Mosswart Idolator */
 /* @teleloc 0xE51D0000 [67.700500 39.122898 0.006600] 0.786366 0.000000 0.000000 -0.617761 */

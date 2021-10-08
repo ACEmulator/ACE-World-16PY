@@ -28,7 +28,7 @@ VALUES (0x7B973007,  4537, 0xB9730000, 145.517, 16.105, 40.005, -0.679515, 0, 0,
 /* @teleloc 0xB9730000 [145.516998 16.105000 40.005001] -0.679515 0.000000 0.000000 -0.733662 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B973009,  5064, 0xB9730100, 129.502, 8.17398, 44.405, 0.0672586, 0, 0, 0.997736,  True, '2005-02-09 10:00:00'); /* Lou Ei  */
+VALUES (0x7B973009,  5064, 0xB9730100, 129.502, 8.17398, 44.405, 0.067259, 0, 0, 0.997736,  True, '2005-02-09 10:00:00'); /* Lou Ei  */
 /* @teleloc 0xB9730100 [129.501999 8.173980 44.404999] 0.067259 0.000000 0.000000 0.997736 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -36,5 +36,5 @@ VALUES (0x7B97300A,  5108, 0xB9730000, 150.37, 12.1585, 40.005, 0.987439, 0, 0, 
 /* @teleloc 0xB9730000 [150.369995 12.158500 40.005001] 0.987439 0.000000 0.000000 -0.158003 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B97300C,  5080, 0xB9730000, 140.684, 11.9603, 40.005, -0.0337246, 0, 0, -0.999431, False, '2005-02-09 10:00:00'); /* North Yanshi Outpost */
+VALUES (0x7B97300C,  5080, 0xB9730000, 140.684, 11.9603, 40.005, -0.033725, 0, 0, -0.999431, False, '2005-02-09 10:00:00'); /* North Yanshi Outpost */
 /* @teleloc 0xB9730000 [140.684006 11.960300 40.005001] -0.033725 0.000000 0.000000 -0.999431 */

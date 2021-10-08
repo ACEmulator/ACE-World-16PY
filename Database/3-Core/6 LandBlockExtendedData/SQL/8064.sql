@@ -12,11 +12,11 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x78064001, 0x78064004, '2005-02-09 10:00:00') /* Ahyara (5177) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78064002,  4676, 0x80640000, 140.068, 163.032, 28.3777, -0.997157, 0, 0, -0.0753527, False, '2005-02-09 10:00:00'); /* Yaraq Outpost */
+VALUES (0x78064002,  4676, 0x80640000, 140.068, 163.032, 28.3777, -0.997157, 0, 0, -0.075353, False, '2005-02-09 10:00:00'); /* Yaraq Outpost */
 /* @teleloc 0x80640000 [140.067993 163.031998 28.377701] -0.997157 0.000000 0.000000 -0.075353 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78064003,  4676, 0x80640000, 151.126, 172.613, 28.005, 0.995039, 0, 0, -0.0994901, False, '2005-02-09 10:00:00'); /* Yaraq Outpost */
+VALUES (0x78064003,  4676, 0x80640000, 151.126, 172.613, 28.005, 0.995039, 0, 0, -0.09949, False, '2005-02-09 10:00:00'); /* Yaraq Outpost */
 /* @teleloc 0x80640000 [151.126007 172.613007 28.004999] 0.995039 0.000000 0.000000 -0.099490 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

@@ -21,7 +21,7 @@ VALUES (0x75A43008,  7098, 0x5A430142, 58.1721, -39.8101, 0.01, 0.998869, 0, 0, 
 /* @teleloc 0x5A430142 [58.172100 -39.810101 0.010000] 0.998869 0.000000 0.000000 -0.047553 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75A43009,  7924, 0x5A43014A, 49.0304, -0.281438, 6.005, 0.0207946, 0, 0, 0.999784, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
+VALUES (0x75A43009,  7924, 0x5A43014A, 49.0304, -0.281438, 6.005, 0.020795, 0, 0, 0.999784, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
 /* @teleloc 0x5A43014A [49.030399 -0.281438 6.005000] 0.020795 0.000000 0.000000 0.999784 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -47,11 +47,11 @@ VALUES (0x75A43012, 19538, 0x5A43011E, 1.89656, -1.68708, 0.1005, 1, 0, 0, 0,  T
 /* @teleloc 0x5A43011E [1.896560 -1.687080 0.100500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75A43013, 19538, 0x5A430129, 21.9558, 0.0314971, 0.007, -0.710119, 0, 0, 0.704082,  True, '2005-02-09 10:00:00'); /* Blizzard */
+VALUES (0x75A43013, 19538, 0x5A430129, 21.9558, 0.031497, 0.007, -0.710119, 0, 0, 0.704082,  True, '2005-02-09 10:00:00'); /* Blizzard */
 /* @teleloc 0x5A430129 [21.955799 0.031497 0.007000] -0.710119 0.000000 0.000000 0.704082 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75A43014, 19538, 0x5A430140, 50.7909, -38.8049, 0.007, -0.997935, 0, 0, 0.0642329,  True, '2005-02-09 10:00:00'); /* Blizzard */
+VALUES (0x75A43014, 19538, 0x5A430140, 50.7909, -38.8049, 0.007, -0.997935, 0, 0, 0.064233,  True, '2005-02-09 10:00:00'); /* Blizzard */
 /* @teleloc 0x5A430140 [50.790901 -38.804901 0.007000] -0.997935 0.000000 0.000000 0.064233 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -70,7 +70,7 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x75A43017, 0x75A43018, '2005-02-09 10:00:00') /* Diamond Golem Suzerain (22002) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75A43018, 22002, 0x5A430103, 9.70693, -57.509, -11.9825, -0.999977, 0, 0, -0.00671041,  True, '2005-02-09 10:00:00'); /* Diamond Golem Suzerain */
+VALUES (0x75A43018, 22002, 0x5A430103, 9.70693, -57.509, -11.9825, -0.999977, 0, 0, -0.00671,  True, '2005-02-09 10:00:00'); /* Diamond Golem Suzerain */
 /* @teleloc 0x5A430103 [9.706930 -57.508999 -11.982500] -0.999977 0.000000 0.000000 -0.006710 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

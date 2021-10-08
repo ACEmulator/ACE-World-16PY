@@ -53,7 +53,7 @@ VALUES (0x7EB1000C,  4248, 0xEB100000, 4.59087, 163.612, 0.256913, 0.492205, 0, 
 /* @teleloc 0xEB100000 [4.590870 163.612000 0.256913] 0.492205 0.000000 0.000000 -0.870479 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7EB1000D,  4248, 0xEB100000, 12.298, 179.728, -0.09328, 0.998639, 0, 0, -0.0521538,  True, '2005-02-09 10:00:00'); /* Putrid Moarsman */
+VALUES (0x7EB1000D,  4248, 0xEB100000, 12.298, 179.728, -0.09328, 0.998639, 0, 0, -0.052154,  True, '2005-02-09 10:00:00'); /* Putrid Moarsman */
 /* @teleloc 0xEB100000 [12.298000 179.727997 -0.093280] 0.998639 0.000000 0.000000 -0.052154 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -65,7 +65,7 @@ VALUES (0x7EB1000F,  4248, 0xEB100000, 46.0518, 169.056, -0.09328, -0.712393, 0,
 /* @teleloc 0xEB100000 [46.051800 169.056000 -0.093280] -0.712393 0.000000 0.000000 -0.701780 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7EB10010,  4248, 0xEB100000, 42.1602, 146.093, 1.52007, -0.0512138, 0, 0, -0.998688,  True, '2005-02-09 10:00:00'); /* Putrid Moarsman */
+VALUES (0x7EB10010,  4248, 0xEB100000, 42.1602, 146.093, 1.52007, -0.051214, 0, 0, -0.998688,  True, '2005-02-09 10:00:00'); /* Putrid Moarsman */
 /* @teleloc 0xEB100000 [42.160198 146.093002 1.520070] -0.051214 0.000000 0.000000 -0.998688 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -73,7 +73,7 @@ VALUES (0x7EB10011,  4248, 0xEB100000, 20.7139, 112.785, 7.45904, -0.516624, 0, 
 /* @teleloc 0xEB100000 [20.713900 112.785004 7.459040] -0.516624 0.000000 0.000000 -0.856213 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7EB10012,  4248, 0xEB100000, 23.324, 87.3989, 11.5905, 0.996429, 0, 0, -0.0844319,  True, '2005-02-09 10:00:00'); /* Putrid Moarsman */
+VALUES (0x7EB10012,  4248, 0xEB100000, 23.324, 87.3989, 11.5905, 0.996429, 0, 0, -0.084432,  True, '2005-02-09 10:00:00'); /* Putrid Moarsman */
 /* @teleloc 0xEB100000 [23.323999 87.398903 11.590500] 0.996429 0.000000 0.000000 -0.084432 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -81,11 +81,11 @@ VALUES (0x7EB10013,  4248, 0xEB100000, 42.1709, 98.8693, 8.00672, 0.872973, 0, 0
 /* @teleloc 0xEB100000 [42.170898 98.869301 8.006720] 0.872973 0.000000 0.000000 -0.487769 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7EB10014,  4248, 0xEB100000, 29.3203, 66.3269, 23.0307, -0.999986, 0, 0, 0.00529153,  True, '2005-02-09 10:00:00'); /* Putrid Moarsman */
+VALUES (0x7EB10014,  4248, 0xEB100000, 29.3203, 66.3269, 23.0307, -0.999986, 0, 0, 0.005292,  True, '2005-02-09 10:00:00'); /* Putrid Moarsman */
 /* @teleloc 0xEB100000 [29.320299 66.326897 23.030701] -0.999986 0.000000 0.000000 0.005292 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7EB10015,  4248, 0xEB100000, 24.4246, 66.3787, 20.5612, -0.999986, 0, 0, 0.00529153,  True, '2005-02-09 10:00:00'); /* Putrid Moarsman */
+VALUES (0x7EB10015,  4248, 0xEB100000, 24.4246, 66.3787, 20.5612, -0.999986, 0, 0, 0.005292,  True, '2005-02-09 10:00:00'); /* Putrid Moarsman */
 /* @teleloc 0xEB100000 [24.424601 66.378700 20.561199] -0.999986 0.000000 0.000000 0.005292 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -101,7 +101,7 @@ VALUES (0x7EB10018, 27856, 0xEB100000, 22.806, 108.569, 7.807, -0.970411, 0, 0, 
 /* @teleloc 0xEB100000 [22.806000 108.569000 7.807000] -0.970411 0.000000 0.000000 0.241459 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7EB10019, 27856, 0xEB100000, 26.9805, 129.628, 5.04495, -0.998544, 0, 0, -0.0539498,  True, '2005-02-09 10:00:00'); /* Miry Moarsman */
+VALUES (0x7EB10019, 27856, 0xEB100000, 26.9805, 129.628, 5.04495, -0.998544, 0, 0, -0.05395,  True, '2005-02-09 10:00:00'); /* Miry Moarsman */
 /* @teleloc 0xEB100000 [26.980499 129.628006 5.044950] -0.998544 0.000000 0.000000 -0.053950 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -109,7 +109,7 @@ VALUES (0x7EB1001A, 27856, 0xEB100000, 12.2969, 139.682, 0.725747, -0.877674, 0,
 /* @teleloc 0xEB100000 [12.296900 139.682007 0.725747] -0.877674 0.000000 0.000000 -0.479258 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7EB1001B, 27856, 0xEB100000, 12.8116, 147.31, 0.232329, -0.99876, 0, 0, -0.0497886,  True, '2005-02-09 10:00:00'); /* Miry Moarsman */
+VALUES (0x7EB1001B, 27856, 0xEB100000, 12.8116, 147.31, 0.232329, -0.99876, 0, 0, -0.049789,  True, '2005-02-09 10:00:00'); /* Miry Moarsman */
 /* @teleloc 0xEB100000 [12.811600 147.309998 0.232329] -0.998760 0.000000 0.000000 -0.049789 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -149,11 +149,11 @@ VALUES (0x7EB10024, 27857, 0xEB100101, 29.5176, 98.8279, 3.206, -0.99961, 0, 0, 
 /* @teleloc 0xEB100101 [29.517599 98.827904 3.206000] -0.999610 0.000000 0.000000 0.027916 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7EB10025, 27857, 0xEB100102, 26.4516, 110.164, 3.206, -0.0682596, 0, 0, 0.997668,  True, '2005-02-09 10:00:00'); /* Muck Glutton */
+VALUES (0x7EB10025, 27857, 0xEB100102, 26.4516, 110.164, 3.206, -0.06826, 0, 0, 0.997668,  True, '2005-02-09 10:00:00'); /* Muck Glutton */
 /* @teleloc 0xEB100102 [26.451599 110.164001 3.206000] -0.068260 0.000000 0.000000 0.997668 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7EB10026, 27857, 0xEB100100, 33.7791, 109.67, 3.206, 0.0893439, 0, 0, -0.996001,  True, '2005-02-09 10:00:00'); /* Muck Glutton */
+VALUES (0x7EB10026, 27857, 0xEB100100, 33.7791, 109.67, 3.206, 0.089344, 0, 0, -0.996001,  True, '2005-02-09 10:00:00'); /* Muck Glutton */
 /* @teleloc 0xEB100100 [33.779099 109.669998 3.206000] 0.089344 0.000000 0.000000 -0.996001 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -161,7 +161,7 @@ VALUES (0x7EB10027, 27861, 0xEB100000, 12.7351, 156.912, 0.390394, -0.281161, 0,
 /* @teleloc 0xEB100000 [12.735100 156.912003 0.390394] -0.281161 0.000000 0.000000 0.959661 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7EB10028,  4219, 0xEB100000, 29.7976, 106.183, 14.9797, 0.999687, 0, 0, 0.0249974, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 7 Min.) */
+VALUES (0x7EB10028,  4219, 0xEB100000, 29.7976, 106.183, 14.9797, 0.999687, 0, 0, 0.024997, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 7 Min.) */
 /* @teleloc 0xEB100000 [29.797600 106.182999 14.979700] 0.999687 0.000000 0.000000 0.024997 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -254,7 +254,7 @@ VALUES (0x7EB10034, 11534, 0xEB10010D, 88.7477, 37.3354, 70.3777, -0.633361, 0, 
 /* @teleloc 0xEB10010D [88.747704 37.335400 70.377701] -0.633361 0.000000 0.000000 -0.773857 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7EB10035, 11534, 0xEB10010A, 84.4369, 41.4025, 70.035, 0.00239518, 0, 0, -0.999997,  True, '2005-02-09 10:00:00'); /* Enku Zefir */
+VALUES (0x7EB10035, 11534, 0xEB10010A, 84.4369, 41.4025, 70.035, 0.002395, 0, 0, -0.999997,  True, '2005-02-09 10:00:00'); /* Enku Zefir */
 /* @teleloc 0xEB10010A [84.436897 41.402500 70.035004] 0.002395 0.000000 0.000000 -0.999997 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

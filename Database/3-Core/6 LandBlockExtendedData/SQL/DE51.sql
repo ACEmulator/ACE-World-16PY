@@ -13,7 +13,7 @@ VALUES (0x7DE51002,  4525, 0xDE510000, 52.407, 121.53, 16, 0.723479, 0, 0, -0.69
 /* @teleloc 0xDE510000 [52.407001 121.529999 16.000000] 0.723479 0.000000 0.000000 -0.690347 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DE51003,  4559, 0xDE51010A, 38.0053, 130.046, 17.605, 0.999934, 0, 0, -0.0114983, False, '2005-02-09 10:00:00'); /* Oi Ra the Shopkeeper */
+VALUES (0x7DE51003,  4559, 0xDE51010A, 38.0053, 130.046, 17.605, 0.999934, 0, 0, -0.011498, False, '2005-02-09 10:00:00'); /* Oi Ra the Shopkeeper */
 /* @teleloc 0xDE51010A [38.005299 130.046005 17.605000] 0.999934 0.000000 0.000000 -0.011498 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

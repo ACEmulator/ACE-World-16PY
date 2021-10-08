@@ -25,7 +25,7 @@ VALUES (0x78088005,  2576, 0x80880100, 43.2649, 138.673, 342.805, -0.907936, 0, 
 /* @teleloc 0x80880100 [43.264900 138.673004 342.804993] -0.907936 0.000000 0.000000 -0.419109 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78088006,  2576, 0x80880100, 39.2811, 138.737, 342.805, -0.998748, 0, 0, 0.0500267,  True, '2005-02-09 10:00:00'); /* Wild Monouga */
+VALUES (0x78088006,  2576, 0x80880100, 39.2811, 138.737, 342.805, -0.998748, 0, 0, 0.050027,  True, '2005-02-09 10:00:00'); /* Wild Monouga */
 /* @teleloc 0x80880100 [39.281101 138.737000 342.804993] -0.998748 0.000000 0.000000 0.050027 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

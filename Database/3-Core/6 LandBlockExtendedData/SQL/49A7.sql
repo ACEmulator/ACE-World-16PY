@@ -34,7 +34,7 @@ VALUES (0x749A7004, 11633, 0x49A70000, 78.5653, 76.0861, 75.485, -0.964405, 0, 0
 /* @teleloc 0x49A70000 [78.565300 76.086098 75.485001] -0.964405 0.000000 0.000000 0.264430 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x749A7005, 11632, 0x49A70000, 84.2865, 74.3325, 75.0051, -0.999845, 0, 0, 0.0176116,  True, '2005-02-09 10:00:00'); /* Crafter of Knives */
+VALUES (0x749A7005, 11632, 0x49A70000, 84.2865, 74.3325, 75.0051, -0.999845, 0, 0, 0.017612,  True, '2005-02-09 10:00:00'); /* Crafter of Knives */
 /* @teleloc 0x49A70000 [84.286499 74.332497 75.005096] -0.999845 0.000000 0.000000 0.017612 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -54,7 +54,7 @@ VALUES (0x749A7009, 11628, 0x49A70000, 89.214, 90.8423, 74.4588, -0.360738, 0, 0
 /* @teleloc 0x49A70000 [89.213997 90.842300 74.458801] -0.360738 0.000000 0.000000 -0.932667 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x749A700A, 11627, 0x49A70000, 84.0574, 93.3022, 74.2891, 0.0220108, 0, 0, -0.999758,  True, '2005-02-09 10:00:00'); /* Crafter of Blades */
+VALUES (0x749A700A, 11627, 0x49A70000, 84.0574, 93.3022, 74.2891, 0.022011, 0, 0, -0.999758,  True, '2005-02-09 10:00:00'); /* Crafter of Blades */
 /* @teleloc 0x49A70000 [84.057404 93.302200 74.289101] 0.022011 0.000000 0.000000 -0.999758 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

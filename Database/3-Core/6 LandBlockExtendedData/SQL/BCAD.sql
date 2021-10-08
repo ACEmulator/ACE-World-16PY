@@ -45,7 +45,7 @@ VALUES (0x7BCAD00A, 11697, 0xBCAD0115, 155.009, 128.235, 122.265, 0.385906, 0, 0
 /* @teleloc 0xBCAD0115 [155.009003 128.235001 122.264999] 0.385906 0.000000 0.000000 -0.922538 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BCAD00B,  9686, 0xBCAD0115, 151.048, 132.654, 123.675, 0.999998, 0, -0.00174532, 0,  True, '2005-02-09 10:00:00'); /* Wall Hook */
+VALUES (0x7BCAD00B,  9686, 0xBCAD0115, 151.048, 132.654, 123.675, 0.999998, 0, -0.001745, 0,  True, '2005-02-09 10:00:00'); /* Wall Hook */
 /* @teleloc 0xBCAD0115 [151.048004 132.654007 123.675003] 0.999998 0.000000 -0.001745 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -57,7 +57,7 @@ VALUES (0x7BCAD00D,   412, 0xBCAD011E, 140.29, 132.3, 126.8, 0.707107, 0, 0, -0.
 /* @teleloc 0xBCAD011E [140.289993 132.300003 126.800003] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BCAD00E,  9686, 0xBCAD011E, 131.685, 134.639, 128.75, 0.999994, -0.00349065, 0, 0,  True, '2005-02-09 10:00:00'); /* Wall Hook */
+VALUES (0x7BCAD00E,  9686, 0xBCAD011E, 131.685, 134.639, 128.75, 0.999994, -0.003491, 0, 0,  True, '2005-02-09 10:00:00'); /* Wall Hook */
 /* @teleloc 0xBCAD011E [131.684998 134.639008 128.750000] 0.999994 -0.003491 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -81,7 +81,7 @@ VALUES (0x7BCAD013,  9686, 0xBCAD011E, 123.209, 129.336, 128.75, -0.707107, 0, 0
 /* @teleloc 0xBCAD011E [123.209000 129.335999 128.750000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BCAD014,  9686, 0xBCAD011E, 128.959, 134.639, 128.75, 0.999994, -0.00349065, 0, 0,  True, '2005-02-09 10:00:00'); /* Wall Hook */
+VALUES (0x7BCAD014,  9686, 0xBCAD011E, 128.959, 134.639, 128.75, 0.999994, -0.003491, 0, 0,  True, '2005-02-09 10:00:00'); /* Wall Hook */
 /* @teleloc 0xBCAD011E [128.959000 134.639008 128.750000] 0.999994 -0.003491 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -359,7 +359,7 @@ VALUES (0x7BCAD043, 0x7BCAD01E, '2005-02-09 10:00:00') /* Floor Hook (11697) */
      , (0x7BCAD043, 0x7BCAD070, '2005-02-09 10:00:00') /* Roof Hook (12678) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BCAD044, 13070, 0xBCAD0175, 126.003, 157.429, 122.005, -0.0457982, 0, 0, 0.998951, False, '2005-02-09 10:00:00'); /* Mansion */
+VALUES (0x7BCAD044, 13070, 0xBCAD0175, 126.003, 157.429, 122.005, -0.045798, 0, 0, 0.998951, False, '2005-02-09 10:00:00'); /* Mansion */
 /* @teleloc 0xBCAD0175 [126.002998 157.429001 122.004997] -0.045798 0.000000 0.000000 0.998951 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -391,11 +391,11 @@ VALUES (0x7BCAD044, 0x7BCAD030, '2005-02-09 10:00:00') /* Floor Hook (11697) */
      , (0x7BCAD044, 0x7BCAD07E, '2005-02-09 10:00:00') /* Yard Hook (12679) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BCAD045, 10707, 0xBCAD0000, 93.6439, 11.4507, 106.443, 0.0564504, 0, 0, 0.998405,  True, '2005-02-09 10:00:00'); /* BootSpot */
+VALUES (0x7BCAD045, 10707, 0xBCAD0000, 93.6439, 11.4507, 106.443, 0.05645, 0, 0, 0.998405,  True, '2005-02-09 10:00:00'); /* BootSpot */
 /* @teleloc 0xBCAD0000 [93.643898 11.450700 106.443001] 0.056450 0.000000 0.000000 0.998405 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BCAD046, 11730, 0xBCAD0152, 150.853, 148.58, 98.005, 0.0443716, 0, 0, 0.999015,  True, '2005-02-09 10:00:00'); /* House Portal */
+VALUES (0x7BCAD046, 11730, 0xBCAD0152, 150.853, 148.58, 98.005, 0.044372, 0, 0, 0.999015,  True, '2005-02-09 10:00:00'); /* House Portal */
 /* @teleloc 0xBCAD0152 [150.852997 148.580002 98.004997] 0.044372 0.000000 0.000000 0.999015 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -430,7 +430,7 @@ VALUES (0x7BCAD04D,  9686, 0xBCAD010C, 164.606, 136.923, 146.25, 0.707107, 0, 0,
 /* @teleloc 0xBCAD010C [164.606003 136.923004 146.250000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BCAD04E,  9686, 0xBCAD0115, 149.977, 127.5, 124.925, 0, -0.00174532, 0, -0.999998,  True, '2005-02-09 10:00:00'); /* Wall Hook */
+VALUES (0x7BCAD04E,  9686, 0xBCAD0115, 149.977, 127.5, 124.925, 0, -0.001745, 0, -0.999998,  True, '2005-02-09 10:00:00'); /* Wall Hook */
 /* @teleloc 0xBCAD0115 [149.977005 127.500000 124.925003] 0.000000 -0.001745 0.000000 -0.999998 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

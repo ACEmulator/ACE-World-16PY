@@ -5,7 +5,7 @@ VALUES (0x7B9EE000,  7365, 0xB9EE0000, 21.4632, 124.002, 171.673, 0.295536, 0, 0
 /* @teleloc 0xB9EE0000 [21.463200 124.001999 171.673004] 0.295536 0.000000 0.000000 0.955332 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B9EE001,  7216, 0xB9EE0000, 55.4413, 97.8376, 168.91, -0.0508977, 0, 0, -0.998704, False, '2005-02-09 10:00:00'); /* Aerlinthe Ash West Mix Gen */
+VALUES (0x7B9EE001,  7216, 0xB9EE0000, 55.4413, 97.8376, 168.91, -0.050898, 0, 0, -0.998704, False, '2005-02-09 10:00:00'); /* Aerlinthe Ash West Mix Gen */
 /* @teleloc 0xB9EE0000 [55.441299 97.837601 168.910004] -0.050898 0.000000 0.000000 -0.998704 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -33,19 +33,19 @@ VALUES (0x7B9EE007,  7216, 0xB9EE0000, 111.348, 115.501, 172.86, -0.925568, 0, 0
 /* @teleloc 0xB9EE0000 [111.348000 115.500999 172.860001] -0.925568 0.000000 0.000000 -0.378582 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B9EE008,  7365, 0xB9EE0000, 143.391, 15.6895, 111.259, 0.999992, 0, 0, 0.00400601, False, '2005-02-09 10:00:00'); /* Erupt Tenkarrdun Gen */
+VALUES (0x7B9EE008,  7365, 0xB9EE0000, 143.391, 15.6895, 111.259, 0.999992, 0, 0, 0.004006, False, '2005-02-09 10:00:00'); /* Erupt Tenkarrdun Gen */
 /* @teleloc 0xB9EE0000 [143.391006 15.689500 111.259003] 0.999992 0.000000 0.000000 0.004006 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B9EE009,  7365, 0xB9EE0000, 148.171, 58.7452, 138.42, 0.995396, 0, 0, -0.0958466, False, '2005-02-09 10:00:00'); /* Erupt Tenkarrdun Gen */
+VALUES (0x7B9EE009,  7365, 0xB9EE0000, 148.171, 58.7452, 138.42, 0.995396, 0, 0, -0.095847, False, '2005-02-09 10:00:00'); /* Erupt Tenkarrdun Gen */
 /* @teleloc 0xB9EE0000 [148.171005 58.745201 138.419998] 0.995396 0.000000 0.000000 -0.095847 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B9EE00A,  7365, 0xB9EE0000, 139.138, 105.807, 158.483, 0.998126, 0, 0, 0.0611995, False, '2005-02-09 10:00:00'); /* Erupt Tenkarrdun Gen */
+VALUES (0x7B9EE00A,  7365, 0xB9EE0000, 139.138, 105.807, 158.483, 0.998126, 0, 0, 0.0612, False, '2005-02-09 10:00:00'); /* Erupt Tenkarrdun Gen */
 /* @teleloc 0xB9EE0000 [139.138000 105.806999 158.483002] 0.998126 0.000000 0.000000 0.061200 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B9EE00B,  7365, 0xB9EE0000, 151.991, 130.326, 171.94, 0.997237, 0, 0, -0.0742886, False, '2005-02-09 10:00:00'); /* Erupt Tenkarrdun Gen */
+VALUES (0x7B9EE00B,  7365, 0xB9EE0000, 151.991, 130.326, 171.94, 0.997237, 0, 0, -0.074289, False, '2005-02-09 10:00:00'); /* Erupt Tenkarrdun Gen */
 /* @teleloc 0xB9EE0000 [151.990997 130.326004 171.940002] 0.997237 0.000000 0.000000 -0.074289 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

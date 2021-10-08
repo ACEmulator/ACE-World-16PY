@@ -13,11 +13,11 @@ VALUES (0x7EA3D002,   720, 0xEA3D0000, 9.5, 171.325, 78.025, 1, 0, 0, 0, False, 
 /* @teleloc 0xEA3D0000 [9.500000 171.324997 78.025002] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7EA3D005,  4524, 0xEA3D0000, 19.4616, 170.999, 78, -0.999983, 0, 0, -0.00587523, False, '2005-02-09 10:00:00'); /* Nanto Outpost */
+VALUES (0x7EA3D005,  4524, 0xEA3D0000, 19.4616, 170.999, 78, -0.999983, 0, 0, -0.005875, False, '2005-02-09 10:00:00'); /* Nanto Outpost */
 /* @teleloc 0xEA3D0000 [19.461599 170.998993 78.000000] -0.999983 0.000000 0.000000 -0.005875 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7EA3D006,   509, 0xEA3D0000, 30.032, 182.433, 78.5093, 0.9974, 0, 0, -0.0720601, False, '2005-02-09 10:00:00'); /* Life Stone */
+VALUES (0x7EA3D006,   509, 0xEA3D0000, 30.032, 182.433, 78.5093, 0.9974, 0, 0, -0.07206, False, '2005-02-09 10:00:00'); /* Life Stone */
 /* @teleloc 0xEA3D0000 [30.032000 182.432999 78.509300] 0.997400 0.000000 0.000000 -0.072060 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -25,11 +25,11 @@ VALUES (0x7EA3D007,  4557, 0xEA3D0102, 8.5529, 178.616, 78.005, -0.349541, 0, 0,
 /* @teleloc 0xEA3D0102 [8.552900 178.615997 78.004997] -0.349541 0.000000 0.000000 0.936921 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7EA3D008,  4524, 0xEA3D0000, 8.51959, 164.874, 78.5224, -0.999983, 0, 0, -0.00587523, False, '2005-02-09 10:00:00'); /* Nanto Outpost */
+VALUES (0x7EA3D008,  4524, 0xEA3D0000, 8.51959, 164.874, 78.5224, -0.999983, 0, 0, -0.005875, False, '2005-02-09 10:00:00'); /* Nanto Outpost */
 /* @teleloc 0xEA3D0000 [8.519590 164.873993 78.522400] -0.999983 0.000000 0.000000 -0.005875 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7EA3D009,  4524, 0xEA3D0000, 2.82445, 171.398, 78, -0.999983, 0, 0, -0.00587523, False, '2005-02-09 10:00:00'); /* Nanto Outpost */
+VALUES (0x7EA3D009,  4524, 0xEA3D0000, 2.82445, 171.398, 78, -0.999983, 0, 0, -0.005875, False, '2005-02-09 10:00:00'); /* Nanto Outpost */
 /* @teleloc 0xEA3D0000 [2.824450 171.397995 78.000000] -0.999983 0.000000 0.000000 -0.005875 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

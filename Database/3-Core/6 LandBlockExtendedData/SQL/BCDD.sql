@@ -13,7 +13,7 @@ VALUES (0x7BCDD002,  2577, 0xBCDD0000, 101.744, 170.074, -0.895, 0.687568, 0, 0,
 /* @teleloc 0xBCDD0000 [101.744003 170.074005 -0.895000] 0.687568 0.000000 0.000000 -0.726120 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BCDD003,  2577, 0xBCDD0000, 101.701, 162.356, -0.895, -0.0168647, 0, 0, -0.999858,  True, '2005-02-09 10:00:00'); /* Shallows Shark */
+VALUES (0x7BCDD003,  2577, 0xBCDD0000, 101.701, 162.356, -0.895, -0.016865, 0, 0, -0.999858,  True, '2005-02-09 10:00:00'); /* Shallows Shark */
 /* @teleloc 0xBCDD0000 [101.700996 162.356003 -0.895000] -0.016865 0.000000 0.000000 -0.999858 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -49,7 +49,7 @@ VALUES (0x7BCDD00B,  2579, 0xBCDD0000, 69.66, 146.419, -0.895, 0.986242, 0, 0, -
 /* @teleloc 0xBCDD0000 [69.660004 146.419006 -0.895000] 0.986242 0.000000 0.000000 -0.165309 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BCDD00C,  1154, 0xBCDD0000, 117.02, 100.47, -0.095, -0.0429888, 0, 0, -0.999076, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator */
+VALUES (0x7BCDD00C,  1154, 0xBCDD0000, 117.02, 100.47, -0.095, -0.042989, 0, 0, -0.999076, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xBCDD0000 [117.019997 100.470001 -0.095000] -0.042989 0.000000 0.000000 -0.999076 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)

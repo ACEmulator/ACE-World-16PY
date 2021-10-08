@@ -9,7 +9,7 @@ VALUES (0x79521001, 12774, 0x95210000, 132.788, 179.53, 122.005, -0.368664, 0, 0
 /* @teleloc 0x95210000 [132.787994 179.529999 122.004997] -0.368664 0.000000 0.000000 -0.929563 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79521002, 14289, 0x95210000, 139.109, 166.067, 122.488, 0.00137467, 0, 0, -0.999999, False, '2005-02-09 10:00:00'); /* Villalabar Portal */
+VALUES (0x79521002, 14289, 0x95210000, 139.109, 166.067, 122.488, 0.001375, 0, 0, -0.999999, False, '2005-02-09 10:00:00'); /* Villalabar Portal */
 /* @teleloc 0x95210000 [139.108994 166.067001 122.487999] 0.001375 0.000000 0.000000 -0.999999 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -37,11 +37,11 @@ VALUES (0x79521009, 14642, 0x95210000, 150.378, 160.839, 124.327, 0.278761, 0, 0
 /* @teleloc 0x95210000 [150.378006 160.839005 124.327003] 0.278761 0.000000 0.000000 -0.960361 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7952100A, 14667, 0x95210000, 140.447, 156.377, 124.911, 0.00750335, 0, 0, -0.999972, False, '2005-02-09 10:00:00'); /* Southern Park Portal */
+VALUES (0x7952100A, 14667, 0x95210000, 140.447, 156.377, 124.911, 0.007503, 0, 0, -0.999972, False, '2005-02-09 10:00:00'); /* Southern Park Portal */
 /* @teleloc 0x95210000 [140.447006 156.376999 124.911003] 0.007503 0.000000 0.000000 -0.999972 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7952100B, 14644, 0x95210000, 132.425, 156.264, 124.939, 0.00750335, 0, 0, -0.999972, False, '2005-02-09 10:00:00'); /* Linvak Tukal Foothills Settlement Portal */
+VALUES (0x7952100B, 14644, 0x95210000, 132.425, 156.264, 124.939, 0.007503, 0, 0, -0.999972, False, '2005-02-09 10:00:00'); /* Linvak Tukal Foothills Settlement Portal */
 /* @teleloc 0x95210000 [132.425003 156.264008 124.939003] 0.007503 0.000000 0.000000 -0.999972 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

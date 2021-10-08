@@ -61,7 +61,7 @@ VALUES (0x702E900E,  7550, 0x02E90130, 141.716, -457.543, -11.99, 0.98881, 0, 0,
 /* @teleloc 0x02E90130 [141.716003 -457.542999 -11.990000] 0.988810 0.000000 0.000000 -0.149179 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702E900F,  7550, 0x02E90130, 138.115, -455.613, -11.99, 0.99892, 0, 0, 0.0464709,  True, '2005-02-09 10:00:00'); /* Amploth Raider */
+VALUES (0x702E900F,  7550, 0x02E90130, 138.115, -455.613, -11.99, 0.99892, 0, 0, 0.046471,  True, '2005-02-09 10:00:00'); /* Amploth Raider */
 /* @teleloc 0x02E90130 [138.115005 -455.613007 -11.990000] 0.998920 0.000000 0.000000 0.046471 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -80,11 +80,11 @@ VALUES (0x702E9012,  2131, 0x02E90131, 150, -338.173, -11.995, 1, 0, 0, 0,  True
 /* @teleloc 0x02E90131 [150.000000 -338.173004 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702E9013,  7550, 0x02E90132, 149.998, -350.238, -11.99, -0.998275, 0, 0, -0.0587041,  True, '2005-02-09 10:00:00'); /* Amploth Raider */
+VALUES (0x702E9013,  7550, 0x02E90132, 149.998, -350.238, -11.99, -0.998275, 0, 0, -0.058704,  True, '2005-02-09 10:00:00'); /* Amploth Raider */
 /* @teleloc 0x02E90132 [149.998001 -350.238007 -11.990000] -0.998275 0.000000 0.000000 -0.058704 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702E9014,  7550, 0x02E90132, 151.22, -351.9, -11.99, -0.999998, 0, 0, 0.00215948,  True, '2005-02-09 10:00:00'); /* Amploth Raider */
+VALUES (0x702E9014,  7550, 0x02E90132, 151.22, -351.9, -11.99, -0.999998, 0, 0, 0.002159,  True, '2005-02-09 10:00:00'); /* Amploth Raider */
 /* @teleloc 0x02E90132 [151.220001 -351.899994 -11.990000] -0.999998 0.000000 0.000000 0.002159 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -129,7 +129,7 @@ VALUES (0x702E9018,  7550, 0x02E90140, 202.765, -455.155, -11.99, 0.994118, 0, 0
 /* @teleloc 0x02E90140 [202.764999 -455.154999 -11.990000] 0.994118 0.000000 0.000000 0.108299 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702E9019,  7622, 0x02E90140, 200.362, -460.848, -11.995, -0.998411, 0, 0, -0.0563599, False, '2005-02-09 10:00:00'); /* Chorizite Deposit Low Quality Generator */
+VALUES (0x702E9019,  7622, 0x02E90140, 200.362, -460.848, -11.995, -0.998411, 0, 0, -0.05636, False, '2005-02-09 10:00:00'); /* Chorizite Deposit Low Quality Generator */
 /* @teleloc 0x02E90140 [200.362000 -460.847992 -11.995000] -0.998411 0.000000 0.000000 -0.056360 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -216,7 +216,7 @@ VALUES (0x702E902D,  7550, 0x02E901B7, 169.229, -308.166, -5.99, 0.999444, 0, 0,
 /* @teleloc 0x02E901B7 [169.229004 -308.165985 -5.990000] 0.999444 0.000000 0.000000 0.033327 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702E902E,  7550, 0x02E901B7, 170.879, -309.589, -5.99, 0.999965, 0, 0, 0.00833296,  True, '2005-02-09 10:00:00'); /* Amploth Raider */
+VALUES (0x702E902E,  7550, 0x02E901B7, 170.879, -309.589, -5.99, 0.999965, 0, 0, 0.008333,  True, '2005-02-09 10:00:00'); /* Amploth Raider */
 /* @teleloc 0x02E901B7 [170.878998 -309.588989 -5.990000] 0.999965 0.000000 0.000000 0.008333 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -256,11 +256,11 @@ VALUES (0x702E9037,  7553, 0x02E901F3, 131.908, -64.8308, 0.055, 0.90475, 0, 0, 
 /* @teleloc 0x02E901F3 [131.908005 -64.830803 0.055000] 0.904750 0.000000 0.000000 -0.425944 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702E9038,  7609, 0x02E901FF, 142.5, -8.55714E-08, 0.005, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Surface Portal */
+VALUES (0x702E9038,  7609, 0x02E901FF, 142.5, -0, 0.005, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Surface Portal */
 /* @teleloc 0x02E901FF [142.500000 -0.000000 0.005000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702E9039,  3955, 0x02E9020D, 148.504, -31.3805, 0.005, -0.0386512, 0, 0, 0.999253, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen (15 min.) */
+VALUES (0x702E9039,  3955, 0x02E9020D, 148.504, -31.3805, 0.005, -0.038651, 0, 0, 0.999253, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen (15 min.) */
 /* @teleloc 0x02E9020D [148.503998 -31.380501 0.005000] -0.038651 0.000000 0.000000 0.999253 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)

@@ -17,5 +17,5 @@ VALUES (0x73EC5003,  1370, 0x3EC50100, 9.37887, 58.3311, 8.005, 0.508375, 0, 0, 
 /* @teleloc 0x3EC50100 [9.378870 58.331100 8.005000] 0.508375 0.000000 0.000000 0.861136 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73EC5004,  1375, 0x3EC50100, 10.7782, 63.5042, 8.005, 0.0867251, 0, 0, -0.996232, False, '2005-02-09 10:00:00'); /* Blacksmith */
+VALUES (0x73EC5004,  1375, 0x3EC50100, 10.7782, 63.5042, 8.005, 0.086725, 0, 0, -0.996232, False, '2005-02-09 10:00:00'); /* Blacksmith */
 /* @teleloc 0x3EC50100 [10.778200 63.504200 8.005000] 0.086725 0.000000 0.000000 -0.996232 */

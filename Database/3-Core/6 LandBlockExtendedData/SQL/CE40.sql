@@ -25,7 +25,7 @@ VALUES (0x7CE40005, 14271, 0xCE400000, 132.461, 157.395, 59.9272, -0.950748, 0, 
 /* @teleloc 0xCE400000 [132.460999 157.395004 59.927200] -0.950748 0.000000 0.000000 -0.309964 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CE40006, 14287, 0xCE400000, 139.896, 123.799, 63.3464, 0.0554383, 0, 0, -0.998462, False, '2005-02-09 10:00:00'); /* Tattered Ridge Portal */
+VALUES (0x7CE40006, 14287, 0xCE400000, 139.896, 123.799, 63.3464, 0.055438, 0, 0, -0.998462, False, '2005-02-09 10:00:00'); /* Tattered Ridge Portal */
 /* @teleloc 0xCE400000 [139.895996 123.799004 63.346401] 0.055438 0.000000 0.000000 -0.998462 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

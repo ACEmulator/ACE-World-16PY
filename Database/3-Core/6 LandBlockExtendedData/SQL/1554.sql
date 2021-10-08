@@ -9,7 +9,7 @@ VALUES (0x71554001,  7360, 0x15540000, 122.232, 116.421, 88.1958, 0.978097, 0, 0
 /* @teleloc 0x15540000 [122.232002 116.420998 88.195801] 0.978097 0.000000 0.000000 0.208151 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71554003,  7358, 0x15540000, 59.9074, 180.362, 83.7634, -0.0577322, 0, 0, -0.998332, False, '2005-02-09 10:00:00'); /* Erupt Lethe FX Gen */
+VALUES (0x71554003,  7358, 0x15540000, 59.9074, 180.362, 83.7634, -0.057732, 0, 0, -0.998332, False, '2005-02-09 10:00:00'); /* Erupt Lethe FX Gen */
 /* @teleloc 0x15540000 [59.907398 180.362000 83.763397] -0.057732 0.000000 0.000000 -0.998332 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -29,7 +29,7 @@ VALUES (0x7155400B,  7360, 0x15540000, 45.3586, 145.535, 110.102, 0.53905, 0, 0,
 /* @teleloc 0x15540000 [45.358601 145.535004 110.101997] 0.539050 0.000000 0.000000 -0.842274 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7155400D,  7357, 0x15540000, 58.2128, 85.1981, 122.005, 0.0130949, 0, 0, -0.999914, False, '2005-02-09 10:00:00'); /* Erupt Lethe Boss Gen */
+VALUES (0x7155400D,  7357, 0x15540000, 58.2128, 85.1981, 122.005, 0.013095, 0, 0, -0.999914, False, '2005-02-09 10:00:00'); /* Erupt Lethe Boss Gen */
 /* @teleloc 0x15540000 [58.212799 85.198097 122.004997] 0.013095 0.000000 0.000000 -0.999914 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -37,7 +37,7 @@ VALUES (0x7155400E,  7360, 0x15540000, 36.3461, 110.49, 134.604, 0.635104, 0, 0,
 /* @teleloc 0x15540000 [36.346100 110.489998 134.604004] 0.635104 0.000000 0.000000 -0.772427 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7155400F,  7360, 0x15540000, 30.4672, 157.561, 97.7112, -0.0269319, 0, 0, -0.999637, False, '2005-02-09 10:00:00'); /* Erupt Lethe Gen */
+VALUES (0x7155400F,  7360, 0x15540000, 30.4672, 157.561, 97.7112, -0.026932, 0, 0, -0.999637, False, '2005-02-09 10:00:00'); /* Erupt Lethe Gen */
 /* @teleloc 0x15540000 [30.467199 157.561005 97.711197] -0.026932 0.000000 0.000000 -0.999637 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

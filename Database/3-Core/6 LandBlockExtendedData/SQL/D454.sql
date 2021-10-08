@@ -18,11 +18,11 @@ VALUES (0x7D454008, 0x7D454009, '2005-02-09 10:00:00') /* Hunter Shreth (4111) *
      , (0x7D454008, 0x7D45400F, '2005-02-09 10:00:00') /* Vorous Shreth (4112) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D454009,  4111, 0xD4540000, 161.664, 66.6471, 80.011, -0.999681, 0, 0, -0.0252414,  True, '2005-02-09 10:00:00'); /* Hunter Shreth */
+VALUES (0x7D454009,  4111, 0xD4540000, 161.664, 66.6471, 80.011, -0.999681, 0, 0, -0.025241,  True, '2005-02-09 10:00:00'); /* Hunter Shreth */
 /* @teleloc 0xD4540000 [161.664001 66.647102 80.011002] -0.999681 0.000000 0.000000 -0.025241 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D45400A,  4111, 0xD4540000, 156.822, 60.4375, 83.7546, -0.999868, 0, 0, -0.0162233,  True, '2005-02-09 10:00:00'); /* Hunter Shreth */
+VALUES (0x7D45400A,  4111, 0xD4540000, 156.822, 60.4375, 83.7546, -0.999868, 0, 0, -0.016223,  True, '2005-02-09 10:00:00'); /* Hunter Shreth */
 /* @teleloc 0xD4540000 [156.822006 60.437500 83.754601] -0.999868 0.000000 0.000000 -0.016223 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -30,7 +30,7 @@ VALUES (0x7D45400B,  4111, 0xD4540000, 146.066, 62.0855, 80.005, 0.740853, 0, 0,
 /* @teleloc 0xD4540000 [146.065994 62.085499 80.004997] 0.740853 0.000000 0.000000 -0.671667 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D45400C,  4111, 0xD4540000, 159.032, 52.2034, 80.011, 0.00444781, 0, 0, -0.99999,  True, '2005-02-09 10:00:00'); /* Hunter Shreth */
+VALUES (0x7D45400C,  4111, 0xD4540000, 159.032, 52.2034, 80.011, 0.004448, 0, 0, -0.99999,  True, '2005-02-09 10:00:00'); /* Hunter Shreth */
 /* @teleloc 0xD4540000 [159.031998 52.203400 80.011002] 0.004448 0.000000 0.000000 -0.999990 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

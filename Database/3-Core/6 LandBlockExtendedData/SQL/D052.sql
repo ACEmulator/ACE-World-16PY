@@ -29,7 +29,7 @@ VALUES (0x7D05201D,  5683, 0xD0520000, 175.38, 12.0808, 238.005, -0.694379, 0, 0
 /* @teleloc 0xD0520000 [175.380005 12.080800 238.005005] -0.694379 0.000000 0.000000 -0.719609 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D05201E,  2610, 0xD0520000, 156.217, 39.4299, 238.012, -0.0191472, 0, 0, -0.999817,  True, '2005-02-09 10:00:00'); /* Kilif Zefir */
+VALUES (0x7D05201E,  2610, 0xD0520000, 156.217, 39.4299, 238.012, -0.019147, 0, 0, -0.999817,  True, '2005-02-09 10:00:00'); /* Kilif Zefir */
 /* @teleloc 0xD0520000 [156.216995 39.429901 238.011993] -0.019147 0.000000 0.000000 -0.999817 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -41,11 +41,11 @@ VALUES (0x7D052020,  2611, 0xD0520108, 150.518, 37.7341, 240.015, -0.553278, 0, 
 /* @teleloc 0xD0520108 [150.518005 37.734100 240.014999] -0.553278 0.000000 0.000000 -0.832997 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D052021,  2611, 0xD0520102, 135.336, 49.7774, 231.67, 0.0113505, 0, 0, 0.999936,  True, '2005-02-09 10:00:00'); /* Zofrit Zefir */
+VALUES (0x7D052021,  2611, 0xD0520102, 135.336, 49.7774, 231.67, 0.011351, 0, 0, 0.999936,  True, '2005-02-09 10:00:00'); /* Zofrit Zefir */
 /* @teleloc 0xD0520102 [135.335999 49.777401 231.669998] 0.011351 0.000000 0.000000 0.999936 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D052022,  2611, 0xD0520108, 149.275, 40.5447, 240.015, -0.0861874, 0, 0, -0.996279,  True, '2005-02-09 10:00:00'); /* Zofrit Zefir */
+VALUES (0x7D052022,  2611, 0xD0520108, 149.275, 40.5447, 240.015, -0.086187, 0, 0, -0.996279,  True, '2005-02-09 10:00:00'); /* Zofrit Zefir */
 /* @teleloc 0xD0520108 [149.274994 40.544701 240.014999] -0.086187 0.000000 0.000000 -0.996279 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -122,5 +122,5 @@ VALUES (0x7D05202E, 0x7D05200C, '2005-02-09 10:00:00') /* Kilif Zefir (2610) */
      , (0x7D05202E, 0x7D05202D, '2005-02-09 10:00:00') /* Kilif Zefir (2610) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D05202F, 24678, 0xD0520102, 136.594, 53.356, 231.66, 0.998885, 0, 0, -0.0472107, False, '2005-02-09 10:00:00'); /* Runed Chest */
+VALUES (0x7D05202F, 24678, 0xD0520102, 136.594, 53.356, 231.66, 0.998885, 0, 0, -0.047211, False, '2005-02-09 10:00:00'); /* Runed Chest */
 /* @teleloc 0xD0520102 [136.593994 53.355999 231.660004] 0.998885 0.000000 0.000000 -0.047211 */

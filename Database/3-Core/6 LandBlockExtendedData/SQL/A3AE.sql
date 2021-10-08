@@ -14,7 +14,7 @@ VALUES (0x7A3AE004, 22807, 0xA3AE0000, 132.6, 113.72, 46.005, -0.965807, 0, 0, 0
 /* @teleloc 0xA3AE0000 [132.600006 113.720001 46.005001] -0.965807 0.000000 0.000000 0.259262 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A3AE005,  7978, 0xA3AE0000, 130.239, 104.9, 46.005, 0.0057355, 0, 0, 0.999984,  True, '2005-02-09 10:00:00'); /* Scrawed Grievver */
+VALUES (0x7A3AE005,  7978, 0xA3AE0000, 130.239, 104.9, 46.005, 0.005736, 0, 0, 0.999984,  True, '2005-02-09 10:00:00'); /* Scrawed Grievver */
 /* @teleloc 0xA3AE0000 [130.238998 104.900002 46.005001] 0.005735 0.000000 0.000000 0.999984 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

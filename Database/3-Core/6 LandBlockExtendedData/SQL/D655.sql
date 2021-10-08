@@ -17,7 +17,7 @@ VALUES (0x7D655003,   722, 0xD6550000, 156, 102.475, 44, 1, 0, 0, 0, False, '200
 /* @teleloc 0xD6550000 [156.000000 102.474998 44.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D655004,   722, 0xD6550000, 156, 113.525, 44, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+VALUES (0x7D655004,   722, 0xD6550000, 156, 113.525, 44, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0xD6550000 [156.000000 113.525002 44.000000] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -25,7 +25,7 @@ VALUES (0x7D655005,  4488, 0xD6550000, 107.927, 74.467, 52.005, 1, 0, 0, 0, Fals
 /* @teleloc 0xD6550000 [107.927002 74.467003 52.005001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D655006,  5079, 0xD6550000, 158.61, 100.624, 44.005, -0.999624, 0, 0, 0.0274335, False, '2005-02-09 10:00:00'); /* West Shoushi Outpost */
+VALUES (0x7D655006,  5079, 0xD6550000, 158.61, 100.624, 44.005, -0.999624, 0, 0, 0.027434, False, '2005-02-09 10:00:00'); /* West Shoushi Outpost */
 /* @teleloc 0xD6550000 [158.610001 100.624001 44.005001] -0.999624 0.000000 0.000000 0.027433 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -37,7 +37,7 @@ VALUES (0x7D655008,  4525, 0xD6550000, 170.444, 100.543, 44.005, -0.030218, 0, 0
 /* @teleloc 0xD6550000 [170.444000 100.542999 44.005001] -0.030218 0.000000 0.000000 -0.999543 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D655009,  4525, 0xD6550000, 183.382, 99.485, 44.005, -0.0841851, 0, 0, -0.99645, False, '2005-02-09 10:00:00'); /* Shoushi Outpost */
+VALUES (0x7D655009,  4525, 0xD6550000, 183.382, 99.485, 44.005, -0.084185, 0, 0, -0.99645, False, '2005-02-09 10:00:00'); /* Shoushi Outpost */
 /* @teleloc 0xD6550000 [183.382004 99.485001 44.005001] -0.084185 0.000000 0.000000 -0.996450 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -45,7 +45,7 @@ VALUES (0x7D65500A,   509, 0xD6550000, 151.276, 81.7088, 44.005, -0.125403, 0, 0
 /* @teleloc 0xD6550000 [151.276001 81.708801 44.005001] -0.125403 0.000000 0.000000 0.992106 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D65500B,  4525, 0xD6550000, 151.919, 91.883, 44.005, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Shoushi Outpost */
+VALUES (0x7D65500B,  4525, 0xD6550000, 151.919, 91.883, 44.005, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Shoushi Outpost */
 /* @teleloc 0xD6550000 [151.919006 91.883003 44.005001] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -57,7 +57,7 @@ VALUES (0x7D65500D,  5108, 0xD6550000, 153.556, 85.7578, 44.005, -0.172368, 0, 0
 /* @teleloc 0xD6550000 [153.556000 85.757797 44.005001] -0.172368 0.000000 0.000000 -0.985033 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D65500E,  5142, 0xD6550000, 107.622, 71.0277, 52.005, -0.998231, 0, 0, 0.0594489, False, '2005-02-09 10:00:00'); /* IMPORTANT SIGN  */
+VALUES (0x7D65500E,  5142, 0xD6550000, 107.622, 71.0277, 52.005, -0.998231, 0, 0, 0.059449, False, '2005-02-09 10:00:00'); /* IMPORTANT SIGN  */
 /* @teleloc 0xD6550000 [107.622002 71.027702 52.005001] -0.998231 0.000000 0.000000 0.059449 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

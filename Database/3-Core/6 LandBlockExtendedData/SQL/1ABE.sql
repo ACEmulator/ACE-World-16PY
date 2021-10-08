@@ -37,7 +37,7 @@ VALUES (0x71ABE008, 12100, 0x1ABE0000, 183.5, 15.5, 148.005, 0.92388, 0, 0, -0.3
 /* @teleloc 0x1ABE0000 [183.500000 15.500000 148.005005] 0.923880 0.000000 0.000000 -0.382683 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71ABE009, 12089, 0x1ABE0000, 180, 19, 148.005, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Northwest Menhir Broken Stone 1 Gen */
+VALUES (0x71ABE009, 12089, 0x1ABE0000, 180, 19, 148.005, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Northwest Menhir Broken Stone 1 Gen */
 /* @teleloc 0x1ABE0000 [180.000000 19.000000 148.005005] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -53,7 +53,7 @@ VALUES (0x71ABE00C, 12089, 0x1ABE0000, 187, 12, 148.005, -0.707107, 0, 0, -0.707
 /* @teleloc 0x1ABE0000 [187.000000 12.000000 148.005005] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71ABE00D, 12094, 0x1ABE0000, 180, 19, 148.005, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Northwest Menhir Stone 1 Gen */
+VALUES (0x71ABE00D, 12094, 0x1ABE0000, 180, 19, 148.005, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Northwest Menhir Stone 1 Gen */
 /* @teleloc 0x1ABE0000 [180.000000 19.000000 148.005005] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

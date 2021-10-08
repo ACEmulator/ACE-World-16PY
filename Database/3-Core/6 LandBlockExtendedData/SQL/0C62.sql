@@ -83,15 +83,15 @@ VALUES (0x70C6201E, 24318, 0x0C620000, 52.5872, 30.4942, -0.095, 0.698581, 0, 0,
 /* @teleloc 0x0C620000 [52.587200 30.494200 -0.095000] 0.698581 0.000000 0.000000 -0.715531 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70C6201F, 24318, 0x0C620000, 46.8046, 23.7027, -0.095, 0.0876118, 0, 0, -0.996155,  True, '2005-02-09 10:00:00'); /* Skeletal Swashbuckler */
+VALUES (0x70C6201F, 24318, 0x0C620000, 46.8046, 23.7027, -0.095, 0.087612, 0, 0, -0.996155,  True, '2005-02-09 10:00:00'); /* Skeletal Swashbuckler */
 /* @teleloc 0x0C620000 [46.804600 23.702700 -0.095000] 0.087612 0.000000 0.000000 -0.996155 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70C62020, 24318, 0x0C620000, 42.5989, 20.8925, -0.095, 0.0876118, 0, 0, -0.996155,  True, '2005-02-09 10:00:00'); /* Skeletal Swashbuckler */
+VALUES (0x70C62020, 24318, 0x0C620000, 42.5989, 20.8925, -0.095, 0.087612, 0, 0, -0.996155,  True, '2005-02-09 10:00:00'); /* Skeletal Swashbuckler */
 /* @teleloc 0x0C620000 [42.598900 20.892500 -0.095000] 0.087612 0.000000 0.000000 -0.996155 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70C62021, 24318, 0x0C620000, 36.2363, 19.7174, -0.095, 0.0876118, 0, 0, -0.996155,  True, '2005-02-09 10:00:00'); /* Skeletal Swashbuckler */
+VALUES (0x70C62021, 24318, 0x0C620000, 36.2363, 19.7174, -0.095, 0.087612, 0, 0, -0.996155,  True, '2005-02-09 10:00:00'); /* Skeletal Swashbuckler */
 /* @teleloc 0x0C620000 [36.236301 19.717400 -0.095000] 0.087612 0.000000 0.000000 -0.996155 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

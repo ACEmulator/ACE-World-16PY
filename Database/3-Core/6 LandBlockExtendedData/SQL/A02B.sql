@@ -13,7 +13,7 @@ VALUES (0x7A02B002,   387, 0xA02B0000, 113.774, 161.441, 255.831, 0.781422, 0, 0
 /* @teleloc 0xA02B0000 [113.774002 161.440994 255.830994] 0.781422 0.000000 0.000000 -0.624003 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A02B003,   387, 0xA02B0000, 110.758, 136.618, 270.926, -0.0655123, 0, 0, -0.997852, False, '2005-02-09 10:00:00'); /* Lugian Generator */
+VALUES (0x7A02B003,   387, 0xA02B0000, 110.758, 136.618, 270.926, -0.065512, 0, 0, -0.997852, False, '2005-02-09 10:00:00'); /* Lugian Generator */
 /* @teleloc 0xA02B0000 [110.758003 136.617996 270.925995] -0.065512 0.000000 0.000000 -0.997852 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

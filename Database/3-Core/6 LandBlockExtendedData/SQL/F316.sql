@@ -5,7 +5,7 @@ VALUES (0x7F316000,   412, 0xF3160105, 130.24, 180.95, 140.01, 0.707107, 0, 0, -
 /* @teleloc 0xF3160105 [130.240005 180.949997 140.009995] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F316001,  7111, 0xF3160000, 117.654, 145.641, 114.91, 0.998794, 0, 0, -0.0490906,  True, '2005-02-09 10:00:00'); /* Faisi Sclavus */
+VALUES (0x7F316001,  7111, 0xF3160000, 117.654, 145.641, 114.91, 0.998794, 0, 0, -0.049091,  True, '2005-02-09 10:00:00'); /* Faisi Sclavus */
 /* @teleloc 0xF3160000 [117.653999 145.641006 114.910004] 0.998794 0.000000 0.000000 -0.049091 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

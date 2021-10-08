@@ -65,7 +65,7 @@ VALUES (0x7977E00F, 15173, 0x977E0000, 4.19522, 35.8363, 30.005, 0.978111, 0, 0,
 /* @teleloc 0x977E0000 [4.195220 35.836300 30.004999] 0.978111 0.000000 0.000000 0.208084 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7977E010, 15182, 0x977E0000, 39.4327, 76.8093, 30.005, 0.996312, 0, 0, -0.0858051, False, '2005-02-09 10:00:00'); /* Palm-of-Stone Villas Portal */
+VALUES (0x7977E010, 15182, 0x977E0000, 39.4327, 76.8093, 30.005, 0.996312, 0, 0, -0.085805, False, '2005-02-09 10:00:00'); /* Palm-of-Stone Villas Portal */
 /* @teleloc 0x977E0000 [39.432701 76.809303 30.004999] 0.996312 0.000000 0.000000 -0.085805 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

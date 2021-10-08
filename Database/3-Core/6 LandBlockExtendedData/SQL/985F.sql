@@ -9,7 +9,7 @@ VALUES (0x7985F000, 0x7985F001, '2005-02-09 10:00:00') /* Skeleton (1759) */
      , (0x7985F000, 0x7985F002, '2005-02-09 10:00:00') /* Skeleton (1759) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7985F001,  1759, 0x985F0000, 166.974, 103.975, 10.0922, 0.0614807, 0, 0, -0.998108,  True, '2005-02-09 10:00:00'); /* Skeleton */
+VALUES (0x7985F001,  1759, 0x985F0000, 166.974, 103.975, 10.0922, 0.061481, 0, 0, -0.998108,  True, '2005-02-09 10:00:00'); /* Skeleton */
 /* @teleloc 0x985F0000 [166.973999 103.974998 10.092200] 0.061481 0.000000 0.000000 -0.998108 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

@@ -29,15 +29,15 @@ VALUES (0x7806B006,  1760, 0x806B0100, 152.326, 170.12, 1.66, -0.668926, 0, 0, 0
 /* @teleloc 0x806B0100 [152.326004 170.119995 1.660000] -0.668926 0.000000 0.000000 0.743329 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7806B007,  1760, 0x806B0100, 155.547, 173.252, 1.66, -0.0452477, 0, 0, 0.998976,  True, '2005-02-09 10:00:00'); /* Skeleton Warrior */
+VALUES (0x7806B007,  1760, 0x806B0100, 155.547, 173.252, 1.66, -0.045248, 0, 0, 0.998976,  True, '2005-02-09 10:00:00'); /* Skeleton Warrior */
 /* @teleloc 0x806B0100 [155.546997 173.251999 1.660000] -0.045248 0.000000 0.000000 0.998976 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7806B008,  1760, 0x806B0100, 156.893, 173.375, 1.66, -0.0452477, 0, 0, 0.998976,  True, '2005-02-09 10:00:00'); /* Skeleton Warrior */
+VALUES (0x7806B008,  1760, 0x806B0100, 156.893, 173.375, 1.66, -0.045248, 0, 0, 0.998976,  True, '2005-02-09 10:00:00'); /* Skeleton Warrior */
 /* @teleloc 0x806B0100 [156.893005 173.375000 1.660000] -0.045248 0.000000 0.000000 0.998976 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7806B009,  1154, 0x806B0100, 156.048, 165.887, 1.66, -0.0452477, 0, 0, 0.998976, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator */
+VALUES (0x7806B009,  1154, 0x806B0100, 156.048, 165.887, 1.66, -0.045248, 0, 0, 0.998976, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x806B0100 [156.048004 165.886993 1.660000] -0.045248 0.000000 0.000000 0.998976 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
@@ -54,15 +54,15 @@ VALUES (0x7806B009, 0x7806B000, '2005-02-09 10:00:00') /* Skeleton (1759) */
      , (0x7806B009, 0x7806B00E, '2005-02-09 10:00:00') /* Skeleton (1759) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7806B00A,  1943, 0x806B0100, 157.631, 177.816, 1.66, -0.999589, 0, 0, 0.0286542, False, '2005-02-09 10:00:00'); /* Chest */
+VALUES (0x7806B00A,  1943, 0x806B0100, 157.631, 177.816, 1.66, -0.999589, 0, 0, 0.028654, False, '2005-02-09 10:00:00'); /* Chest */
 /* @teleloc 0x806B0100 [157.630997 177.815994 1.660000] -0.999589 0.000000 0.000000 0.028654 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7806B00B,  1930, 0x806B0100, 154.315, 177.839, 1.66, -1, 0, 0, 0.000533082, False, '2005-02-09 10:00:00'); /* Chest */
+VALUES (0x7806B00B,  1930, 0x806B0100, 154.315, 177.839, 1.66, -1, 0, 0, 0.000533, False, '2005-02-09 10:00:00'); /* Chest */
 /* @teleloc 0x806B0100 [154.315002 177.839005 1.660000] -1.000000 0.000000 0.000000 0.000533 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7806B00C, 27244, 0x806B0100, 156.006, 177.567, 1.66, -1, 0, 0, 0.000533082, False, '2005-02-09 10:00:00'); /* Chest */
+VALUES (0x7806B00C, 27244, 0x806B0100, 156.006, 177.567, 1.66, -1, 0, 0, 0.000533, False, '2005-02-09 10:00:00'); /* Chest */
 /* @teleloc 0x806B0100 [156.005997 177.567001 1.660000] -1.000000 0.000000 0.000000 0.000533 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

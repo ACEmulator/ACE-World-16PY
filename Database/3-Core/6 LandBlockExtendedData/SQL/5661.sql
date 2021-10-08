@@ -21,7 +21,7 @@ VALUES (0x75661004, 19365, 0x56610103, 9.989, -19.993, 0.005, 0, 0, 0, -1, False
 /* @teleloc 0x56610103 [9.989000 -19.993000 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75661005, 19387, 0x56610103, 9.896, -22.874, 0.005, 0.999994, 0, 0, -0.00356878, False, '2005-02-09 10:00:00'); /* Ivory Gate */
+VALUES (0x75661005, 19387, 0x56610103, 9.896, -22.874, 0.005, 0.999994, 0, 0, -0.003569, False, '2005-02-09 10:00:00'); /* Ivory Gate */
 /* @teleloc 0x56610103 [9.896000 -22.874001 0.005000] 0.999994 0.000000 0.000000 -0.003569 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -37,7 +37,7 @@ VALUES (0x75661008, 19366, 0x5661011A, 20.013, -39.995, 0.005, 1, 0, 0, 0, False
 /* @teleloc 0x5661011A [20.013000 -39.994999 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75661009, 19388, 0x5661011A, 20.105, -37.694, 0.005, -0.00485148, 0, 0, -0.999988, False, '2005-02-09 10:00:00'); /* Larkspur Gardens */
+VALUES (0x75661009, 19388, 0x5661011A, 20.105, -37.694, 0.005, -0.004851, 0, 0, -0.999988, False, '2005-02-09 10:00:00'); /* Larkspur Gardens */
 /* @teleloc 0x5661011A [20.105000 -37.694000 0.005000] -0.004851 0.000000 0.000000 -0.999988 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

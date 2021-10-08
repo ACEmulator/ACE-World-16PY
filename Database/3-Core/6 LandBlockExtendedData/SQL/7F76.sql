@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x7F76;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77F76000,  9141, 0x7F760000, 83.6836, 11.5084, 10.005, 0.0586926, 0, 0, -0.998276, False, '2005-02-09 10:00:00'); /* North Tumerok Vanguard Outpost */
+VALUES (0x77F76000,  9141, 0x7F760000, 83.6836, 11.5084, 10.005, 0.058693, 0, 0, -0.998276, False, '2005-02-09 10:00:00'); /* North Tumerok Vanguard Outpost */
 /* @teleloc 0x7F760000 [83.683601 11.508400 10.005000] 0.058693 0.000000 0.000000 -0.998276 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

@@ -38,5 +38,5 @@ VALUES (0x7CFA0007,  1351, 0xCFA00108, 47.8053, 68.5322, 1.205, 1, 0, 0, 0, Fals
 /* @teleloc 0xCFA00108 [47.805302 68.532204 1.205000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CFA0008,  1351, 0xCFA0010B, 48.0379, 51.9126, 1.205, 0.0140578, 0, 0, -0.999901, False, '2005-02-09 10:00:00'); /* Sign */
+VALUES (0x7CFA0008,  1351, 0xCFA0010B, 48.0379, 51.9126, 1.205, 0.014058, 0, 0, -0.999901, False, '2005-02-09 10:00:00'); /* Sign */
 /* @teleloc 0xCFA0010B [48.037899 51.912601 1.205000] 0.014058 0.000000 0.000000 -0.999901 */

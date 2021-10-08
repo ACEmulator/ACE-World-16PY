@@ -1,19 +1,19 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x2545;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72545000,  8127, 0x25450000, 129.674, 123.416, 0.00500003, 0.714544, 0, 0, -0.69959, False, '2005-02-09 10:00:00'); /* Menhir Mana Field */
+VALUES (0x72545000,  8127, 0x25450000, 129.674, 123.416, 0.005, 0.714544, 0, 0, -0.69959, False, '2005-02-09 10:00:00'); /* Menhir Mana Field */
 /* @teleloc 0x25450000 [129.673996 123.416000 0.005000] 0.714544 0.000000 0.000000 -0.699590 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72545001,  8127, 0x25450000, 123.652, 130.034, 0.00500003, 0.714544, 0, 0, -0.69959, False, '2005-02-09 10:00:00'); /* Menhir Mana Field */
+VALUES (0x72545001,  8127, 0x25450000, 123.652, 130.034, 0.005, 0.714544, 0, 0, -0.69959, False, '2005-02-09 10:00:00'); /* Menhir Mana Field */
 /* @teleloc 0x25450000 [123.652000 130.033997 0.005000] 0.714544 0.000000 0.000000 -0.699590 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72545002,  8127, 0x25450000, 129.876, 136.755, 0.00500003, 0.714544, 0, 0, -0.69959, False, '2005-02-09 10:00:00'); /* Menhir Mana Field */
+VALUES (0x72545002,  8127, 0x25450000, 129.876, 136.755, 0.005, 0.714544, 0, 0, -0.69959, False, '2005-02-09 10:00:00'); /* Menhir Mana Field */
 /* @teleloc 0x25450000 [129.876007 136.755005 0.005000] 0.714544 0.000000 0.000000 -0.699590 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72545003,  8127, 0x25450000, 136.595, 130.07, 0.00500003, 0.714544, 0, 0, -0.69959, False, '2005-02-09 10:00:00'); /* Menhir Mana Field */
+VALUES (0x72545003,  8127, 0x25450000, 136.595, 130.07, 0.005, 0.714544, 0, 0, -0.69959, False, '2005-02-09 10:00:00'); /* Menhir Mana Field */
 /* @teleloc 0x25450000 [136.595001 130.070007 0.005000] 0.714544 0.000000 0.000000 -0.699590 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -21,7 +21,7 @@ VALUES (0x72545004, 21551, 0x25450000, 117.483, 129.968, 0.0065, -0.708441, 0, 0
 /* @teleloc 0x25450000 [117.483002 129.968002 0.006500] -0.708441 0.000000 0.000000 0.705770 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72545005, 21550, 0x25450000, 129.894, 141.773, 0.0065, -0.0719033, 0, 0, 0.997412,  True, '2005-02-09 10:00:00'); /* Stasis Wisp */
+VALUES (0x72545005, 21550, 0x25450000, 129.894, 141.773, 0.0065, -0.071903, 0, 0, 0.997412,  True, '2005-02-09 10:00:00'); /* Stasis Wisp */
 /* @teleloc 0x25450000 [129.893997 141.772995 0.006500] -0.071903 0.000000 0.000000 0.997412 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -29,7 +29,7 @@ VALUES (0x72545006, 21549, 0x25450000, 142.041, 129.992, 0.0065, 0.706259, 0, 0,
 /* @teleloc 0x25450000 [142.041000 129.992004 0.006500] 0.706259 0.000000 0.000000 0.707953 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72545007, 21552, 0x25450000, 130.007, 117.876, 0.0065, 0.999901, 0, 0, -0.0140766,  True, '2005-02-09 10:00:00'); /* Tempest Wisp */
+VALUES (0x72545007, 21552, 0x25450000, 130.007, 117.876, 0.0065, 0.999901, 0, 0, -0.014077,  True, '2005-02-09 10:00:00'); /* Tempest Wisp */
 /* @teleloc 0x25450000 [130.007004 117.875999 0.006500] 0.999901 0.000000 0.000000 -0.014077 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

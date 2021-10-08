@@ -65,11 +65,11 @@ VALUES (0x75456012, 20018, 0x5456010B, 109.615, -90.2345, -35.9745, 1, 0, 0, 0, 
 /* @teleloc 0x5456010B [109.614998 -90.234497 -35.974499] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75456014, 20018, 0x5456010D, 110, -100, -35.995, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Scuttling Grievver Pit Hotspot */
+VALUES (0x75456014, 20018, 0x5456010D, 110, -100, -35.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Scuttling Grievver Pit Hotspot */
 /* @teleloc 0x5456010D [110.000000 -100.000000 -35.994999] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75456015, 20018, 0x5456010E, 109.615, -109.765, -35.9745, 1, 0, 0, -4.37114E-08, False, '2005-02-09 10:00:00'); /* Scuttling Grievver Pit Hotspot */
+VALUES (0x75456015, 20018, 0x5456010E, 109.615, -109.765, -35.9745, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Scuttling Grievver Pit Hotspot */
 /* @teleloc 0x5456010E [109.614998 -109.764999 -35.974499] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -77,7 +77,7 @@ VALUES (0x75456016, 12701, 0x5456010F, 123.924, -99.8711, -41.2631, 0.698038, 0,
 /* @teleloc 0x5456010F [123.924004 -99.871101 -41.263100] 0.698038 0.000000 0.000000 -0.716061 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75456017,  7978, 0x54560116, 29.822, -78.2392, -29.995, 0.995988, 0, 0, -0.0894886,  True, '2005-02-09 10:00:00'); /* Scrawed Grievver */
+VALUES (0x75456017,  7978, 0x54560116, 29.822, -78.2392, -29.995, 0.995988, 0, 0, -0.089489,  True, '2005-02-09 10:00:00'); /* Scrawed Grievver */
 /* @teleloc 0x54560116 [29.822001 -78.239197 -29.995001] 0.995988 0.000000 0.000000 -0.089489 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -129,7 +129,7 @@ VALUES (0x7545602D,  7978, 0x5456015C, 22.9447, -39.0488, -24, 0.428039, 0, 0, 0
 /* @teleloc 0x5456015C [22.944700 -39.048801 -24.000000] 0.428039 0.000000 0.000000 0.903760 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545602F,  7979, 0x54560163, 31.2592, -21.1379, -24, 0.0273071, 0, 0, -0.999627,  True, '2005-02-09 10:00:00'); /* Virulent Grievver */
+VALUES (0x7545602F,  7979, 0x54560163, 31.2592, -21.1379, -24, 0.027307, 0, 0, -0.999627,  True, '2005-02-09 10:00:00'); /* Virulent Grievver */
 /* @teleloc 0x54560163 [31.259199 -21.137899 -24.000000] 0.027307 0.000000 0.000000 -0.999627 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -185,7 +185,7 @@ VALUES (0x75456043,  7978, 0x545601D4, 108.211, -59.9311, -17.995, 0.947089, 0, 
 /* @teleloc 0x545601D4 [108.210999 -59.931099 -17.995001] 0.947089 0.000000 0.000000 -0.320971 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75456044,  7978, 0x545601D4, 110.271, -57.4736, -18, -0.999903, 0, 0, 0.0138982,  True, '2005-02-09 10:00:00'); /* Scrawed Grievver */
+VALUES (0x75456044,  7978, 0x545601D4, 110.271, -57.4736, -18, -0.999903, 0, 0, 0.013898,  True, '2005-02-09 10:00:00'); /* Scrawed Grievver */
 /* @teleloc 0x545601D4 [110.271004 -57.473598 -18.000000] -0.999903 0.000000 0.000000 0.013898 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -221,7 +221,7 @@ VALUES (0x75456051,  7979, 0x54560214, 158.299, -70.1545, -17.995, 0.47213, 0, 0
 /* @teleloc 0x54560214 [158.298996 -70.154503 -17.995001] 0.472130 0.000000 0.000000 0.881529 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75456053, 19474, 0x54560219, 160.243, -75.4862, -17.995, -0.999993, 0, 0, 0.0038601, False, '2005-02-09 10:00:00'); /* Scuttling Sound Hotspot */
+VALUES (0x75456053, 19474, 0x54560219, 160.243, -75.4862, -17.995, -0.999993, 0, 0, 0.00386, False, '2005-02-09 10:00:00'); /* Scuttling Sound Hotspot */
 /* @teleloc 0x54560219 [160.242996 -75.486198 -17.995001] -0.999993 0.000000 0.000000 0.003860 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

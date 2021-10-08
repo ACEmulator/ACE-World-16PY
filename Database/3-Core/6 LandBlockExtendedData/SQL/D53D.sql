@@ -38,15 +38,15 @@ VALUES (0x7D53D010,  5651, 0xD53D0000, 46.1183, 170.129, 340.005, 0.372555, 0, 0
 /* @teleloc 0xD53D0000 [46.118301 170.128998 340.005005] 0.372555 0.000000 0.000000 -0.928010 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D53D012, 24672, 0xD53D0000, 34.7761, 176.646, 355.205, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Runed Chest */
+VALUES (0x7D53D012, 24672, 0xD53D0000, 34.7761, 176.646, 355.205, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Runed Chest */
 /* @teleloc 0xD53D0000 [34.776100 176.645996 355.204987] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D53D013, 24681, 0xD53D0000, 37.5314, 176.649, 355.205, -4.37114E-08, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Runed Chest */
+VALUES (0x7D53D013, 24681, 0xD53D0000, 37.5314, 176.649, 355.205, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Runed Chest */
 /* @teleloc 0xD53D0000 [37.531399 176.649002 355.204987] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D53D014,  4217, 0xD53D0000, 34.0544, 177.47, 355.208, -0.996038, 0, 0, -0.0889316,  True, '2005-02-09 10:00:00'); /* Dark Revenant */
+VALUES (0x7D53D014,  4217, 0xD53D0000, 34.0544, 177.47, 355.208, -0.996038, 0, 0, -0.088932,  True, '2005-02-09 10:00:00'); /* Dark Revenant */
 /* @teleloc 0xD53D0000 [34.054401 177.470001 355.208008] -0.996038 0.000000 0.000000 -0.088932 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

@@ -13,7 +13,7 @@ VALUES (0x7354F002, 20632, 0x354F0000, 78.1834, 173.503, 159.58, -0.818432, 0, 0
 /* @teleloc 0x354F0000 [78.183403 173.503006 159.580002] -0.818432 0.000000 0.000000 -0.574604 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7354F003, 20633, 0x354F0000, 83.2612, 170.991, 159.584, -0.998659, 0, 0, 0.0517638, False, '2005-02-09 10:00:00'); /* Warlock of the Blood */
+VALUES (0x7354F003, 20633, 0x354F0000, 83.2612, 170.991, 159.584, -0.998659, 0, 0, 0.051764, False, '2005-02-09 10:00:00'); /* Warlock of the Blood */
 /* @teleloc 0x354F0000 [83.261200 170.990997 159.584000] -0.998659 0.000000 0.000000 0.051764 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

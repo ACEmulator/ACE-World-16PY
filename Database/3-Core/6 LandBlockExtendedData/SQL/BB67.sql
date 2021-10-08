@@ -27,7 +27,7 @@ VALUES (0x7BB67004, 0x7BB67000, '2005-02-09 10:00:00') /* Swamp Gromnie (1616) *
      , (0x7BB67004, 0x7BB67003, '2005-02-09 10:00:00') /* Swamp Gromnie (1616) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB67005,   965, 0xBB670000, 32.6545, 79.9617, 6.005, 0.0875772, 0, 0, -0.996158, False, '2005-02-09 10:00:00'); /* Zombie Generator */
+VALUES (0x7BB67005,   965, 0xBB670000, 32.6545, 79.9617, 6.005, 0.087577, 0, 0, -0.996158, False, '2005-02-09 10:00:00'); /* Zombie Generator */
 /* @teleloc 0xBB670000 [32.654499 79.961700 6.005000] 0.087577 0.000000 0.000000 -0.996158 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

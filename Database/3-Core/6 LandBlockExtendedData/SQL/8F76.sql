@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x8F76;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78F76000,   886, 0x8F760000, 177.709, 8.78546, 60.005, 0.0936071, 0, 0, -0.995609, False, '2005-02-09 10:00:00'); /* Spiny Armoredillo Generator */
+VALUES (0x78F76000,   886, 0x8F760000, 177.709, 8.78546, 60.005, 0.093607, 0, 0, -0.995609, False, '2005-02-09 10:00:00'); /* Spiny Armoredillo Generator */
 /* @teleloc 0x8F760000 [177.709000 8.785460 60.005001] 0.093607 0.000000 0.000000 -0.995609 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -9,7 +9,7 @@ VALUES (0x78F76001,   886, 0x8F760000, 169.02, 17.2074, 60.005, -0.139241, 0, 0,
 /* @teleloc 0x8F760000 [169.020004 17.207399 60.005001] -0.139241 0.000000 0.000000 -0.990259 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78F76002,   886, 0x8F760000, 165.333, 5.66342, 60.005, 0.0584839, 0, 0, -0.998288, False, '2005-02-09 10:00:00'); /* Spiny Armoredillo Generator */
+VALUES (0x78F76002,   886, 0x8F760000, 165.333, 5.66342, 60.005, 0.058484, 0, 0, -0.998288, False, '2005-02-09 10:00:00'); /* Spiny Armoredillo Generator */
 /* @teleloc 0x8F760000 [165.332993 5.663420 60.005001] 0.058484 0.000000 0.000000 -0.998288 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

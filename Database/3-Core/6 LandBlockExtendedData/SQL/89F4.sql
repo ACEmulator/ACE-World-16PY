@@ -9,7 +9,7 @@ VALUES (0x789F4001,  1386, 0x89F40100, 25.8642, 129.475, -0.34, 0.988562, 0, 0, 
 /* @teleloc 0x89F40100 [25.864201 129.475006 -0.340000] 0.988562 0.000000 0.000000 -0.150817 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x789F4002,  1371, 0x89F40100, 26.4141, 133.94, -0.34, -0.0929638, 0, 0, -0.995669, False, '2005-02-09 10:00:00'); /* Archmage */
+VALUES (0x789F4002,  1371, 0x89F40100, 26.4141, 133.94, -0.34, -0.092964, 0, 0, -0.995669, False, '2005-02-09 10:00:00'); /* Archmage */
 /* @teleloc 0x89F40100 [26.414101 133.940002 -0.340000] -0.092964 0.000000 0.000000 -0.995669 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

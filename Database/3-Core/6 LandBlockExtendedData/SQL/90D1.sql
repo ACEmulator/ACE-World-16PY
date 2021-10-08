@@ -1,11 +1,11 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x90D1;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x790D1000,  5393, 0x90D10000, 112.186, 30.7524, 277.905, -0.0163486, 0, 0, -0.999866, False, '2005-02-09 10:00:00'); /* Festival Stone */
+VALUES (0x790D1000,  5393, 0x90D10000, 112.186, 30.7524, 277.905, -0.016349, 0, 0, -0.999866, False, '2005-02-09 10:00:00'); /* Festival Stone */
 /* @teleloc 0x90D10000 [112.185997 30.752399 277.904999] -0.016349 0.000000 0.000000 -0.999866 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x790D1001,  7355, 0x90D10000, 49.1241, 5.43807, 277.105, 0.0833727, 0, 0, -0.996518, False, '2005-02-09 10:00:00'); /* Erupt Esper Gen */
+VALUES (0x790D1001,  7355, 0x90D10000, 49.1241, 5.43807, 277.105, 0.083373, 0, 0, -0.996518, False, '2005-02-09 10:00:00'); /* Erupt Esper Gen */
 /* @teleloc 0x90D10000 [49.124100 5.438070 277.105011] 0.083373 0.000000 0.000000 -0.996518 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -17,7 +17,7 @@ VALUES (0x790D1004,  7355, 0x90D10000, 41.9994, 89.6926, 277.105, -0.181147, 0, 
 /* @teleloc 0x90D10000 [41.999401 89.692596 277.105011] -0.181147 0.000000 0.000000 0.983456 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x790D1005,  7354, 0x90D10000, 12.363, 155.976, 278, 1, 0, 0, -0.000689492, False, '2005-02-09 10:00:00'); /* Erupt Esper FX Gen */
+VALUES (0x790D1005,  7354, 0x90D10000, 12.363, 155.976, 278, 1, 0, 0, -0.000689, False, '2005-02-09 10:00:00'); /* Erupt Esper FX Gen */
 /* @teleloc 0x90D10000 [12.363000 155.975998 278.000000] 1.000000 0.000000 0.000000 -0.000689 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

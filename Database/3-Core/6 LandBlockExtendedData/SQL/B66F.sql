@@ -29,7 +29,7 @@ VALUES (0x7B66F006,  2612, 0xB66F0000, 92.018, 104.123, 43.0171, 0.709855, 0, 0,
 /* @teleloc 0xB66F0000 [92.017998 104.123001 43.017101] 0.709855 0.000000 0.000000 -0.704347 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B66F007,  2612, 0xB66F0000, 101.39, 95.2633, 41.5575, 0.0767173, 0, 0, -0.997053,  True, '2005-02-09 10:00:00'); /* Outcast Monouga */
+VALUES (0x7B66F007,  2612, 0xB66F0000, 101.39, 95.2633, 41.5575, 0.076717, 0, 0, -0.997053,  True, '2005-02-09 10:00:00'); /* Outcast Monouga */
 /* @teleloc 0xB66F0000 [101.389999 95.263298 41.557499] 0.076717 0.000000 0.000000 -0.997053 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
