@@ -28,6 +28,6 @@ VALUES (21195,   1,   33557879) /* Setup */
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (21195, -1, 14517, 230, 1, 1, 1, 4, -1, 0, 0, 0, -1, 1, 0, 1, 0, 0, -0) /* Generate Frost (14517) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (21195, -1, 14518, 230, 1, 1, 1, 4, -1, 0, 0, 0, -2, 0, 0, -0.70710677, 0, -0, -0.70710677) /* Generate Shivver (14518) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (21195, -1, 14518, 200, 1, 1, 1, 4, -1, 0, 0, 0, 2, 0, 0, 0.70710677, 0, 0, -0.70710677) /* Generate Shivver (14518) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (21195, -1, 20191, 180, 1, 1, 1, 4, -1, 0, 0, 0, 1, -1, 0, -4.371139E-08, 0, -0, -1) /* Generate Horripal (20191) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+     , (21195, -1, 14518, 230, 1, 1, 1, 4, -1, 0, 0, 0, -2, 0, 0, -0.707107, 0, -0, -0.707107) /* Generate Shivver (14518) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (21195, -1, 14518, 200, 1, 1, 1, 4, -1, 0, 0, 0, 2, 0, 0, 0.707107, 0, 0, -0.707107) /* Generate Shivver (14518) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (21195, -1, 20191, 180, 1, 1, 1, 4, -1, 0, 0, 0, 1, -1, 0, -0, 0, -0, -1) /* Generate Horripal (20191) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

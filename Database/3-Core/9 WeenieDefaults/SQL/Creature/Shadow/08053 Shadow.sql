@@ -179,7 +179,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'You think you hear a voice say, "You can''t... stop... change..."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (8053,  3 /* Death */, 0.049999997, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (8053,  3 /* Death */,   0.05, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -187,7 +187,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'A hate-filled voice tells you, "The One is almost upon you... The stars begin to fall..."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (8053,  3 /* Death */, 0.06999999, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (8053,  3 /* Death */,   0.07, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -195,7 +195,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'The Shadow hisses in fury, and in your mind you hear the words "I have touched a power you cannot begin to fathom! Give yourself to it as I once did... you will be mighty among your kind."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (8053,  3 /* Death */, 0.07999999, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (8053,  3 /* Death */,   0.08, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

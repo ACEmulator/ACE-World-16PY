@@ -124,7 +124,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Your vision swims. For a moment, you seem to stand in creaking jungle. You are running, swinging a sword wreathed in astral flames. A hundred men around you roar as one. There! At last, the ornate blue spires rise before you. Ridiculous lizard-men flap towards you, their eyes glowing. Women dressed in the skins of animals raise their hands, and the ground erupts. You swim forward, wading through a rain of earth and a razor wind of flying thorns. The noise of falling water becomes deafening.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (14573,  7 /* Use */, 0.35999998, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (14573,  7 /* Use */,   0.36, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

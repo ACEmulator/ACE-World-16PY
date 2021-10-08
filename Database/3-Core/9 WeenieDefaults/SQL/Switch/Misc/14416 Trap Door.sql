@@ -37,4 +37,4 @@ VALUES (14416,   1,   33555231) /* Setup */
      , (14416,  28,       2365) /* Spell - something you're gonna fear for a long time */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14416,  16,          0) /* ActivationTarget */;
+VALUES (14416,  16, 0x00000000) /* ActivationTarget */;

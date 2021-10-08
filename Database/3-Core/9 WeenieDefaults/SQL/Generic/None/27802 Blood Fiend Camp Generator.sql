@@ -25,7 +25,7 @@ VALUES (27802,   1,   33555051) /* Setup */
      , (27802,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27802, 0.25, 27799, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 4, 0, 0, 0.9238795, 0, 0, -0.38268346) /* Generate Blood Fiend (27799) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (27802, 0.5, 27799, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 1, 0, 0.8870108, 0, 0, -0.4617486) /* Generate Blood Fiend (27799) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (27802, 0.75, 27799, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0.4, 0.5, 0, 0.70710677, 0, 0, -0.70710677) /* Generate Blood Fiend (27799) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (27802, 1, 27799, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, -2, 0, 0.9659258, 0, 0, -0.25881904) /* Generate Blood Fiend (27799) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (27802, 0.25, 27799, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 4, 0, 0, 0.92388, 0, 0, -0.382684) /* Generate Blood Fiend (27799) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (27802, 0.5, 27799, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 1, 0, 0.887011, 0, 0, -0.461749) /* Generate Blood Fiend (27799) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (27802, 0.75, 27799, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0.4, 0.5, 0, 0.707107, 0, 0, -0.707107) /* Generate Blood Fiend (27799) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (27802, 1, 27799, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, -2, 0, 0.965926, 0, 0, -0.258819) /* Generate Blood Fiend (27799) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

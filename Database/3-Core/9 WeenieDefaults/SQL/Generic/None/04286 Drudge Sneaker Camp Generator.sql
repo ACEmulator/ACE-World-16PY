@@ -25,8 +25,8 @@ VALUES (4286,   1,   33555051) /* Setup */
      , (4286,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4286, 0.2, 940, 1800, 1, -1, 1, 4, -1, 0, 0, 0, 4, 0, 0, -4.371139E-08, 0, -0, -1) /* Generate Drudge Sneaker (940) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (4286, 0.4, 940, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 2.4, 0, 0.70710677, 0, 0, -0.70710677) /* Generate Drudge Sneaker (940) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (4286, 0.6, 193, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, -2.4, 0, 0.76604444, 0, 0, -0.6427876) /* Generate Drudge Slinker (193) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (4286, 0.8, 7, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, -2, 0, 0.81915206, 0, 0, -0.57357645) /* Generate Drudge Skulker (7) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+VALUES (4286, 0.2, 940, 1800, 1, -1, 1, 4, -1, 0, 0, 0, 4, 0, 0, -0, 0, -0, -1) /* Generate Drudge Sneaker (940) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (4286, 0.4, 940, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 2.4, 0, 0.707107, 0, 0, -0.707107) /* Generate Drudge Sneaker (940) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (4286, 0.6, 193, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, -2.4, 0, 0.766044, 0, 0, -0.642788) /* Generate Drudge Slinker (193) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (4286, 0.8, 7, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, -2, 0, 0.819152, 0, 0, -0.573577) /* Generate Drudge Skulker (7) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (4286, 1, 4179, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 1, 0, 0, 1, 0, 0, -0) /* Generate Bonfire (4179) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

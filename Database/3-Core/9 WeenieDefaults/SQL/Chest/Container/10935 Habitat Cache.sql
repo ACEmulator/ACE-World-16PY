@@ -54,7 +54,7 @@ VALUES (10935,   1,   33557001) /* Setup */
      , (10935,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10935,  16,          0) /* ActivationTarget */;
+VALUES (10935,  16, 0x00000000) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (10935, -1, 11006, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Flimsy Hilt (11006) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

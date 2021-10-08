@@ -27,7 +27,7 @@ VALUES (28397,  22, True ) /* Inscribable */
      , (28397,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28397,   5, -0.033333) /* ManaRate */;
+VALUES (28397,   5,  -0.033) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28397,   1, 'Tears of Jvikti Kheval') /* Name */

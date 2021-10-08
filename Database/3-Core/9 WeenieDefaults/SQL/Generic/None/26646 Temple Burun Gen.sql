@@ -31,7 +31,7 @@ VALUES (26646, 0.1, 26016, 600, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /*
      , (26646, 0.4, 26016, 600, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Burun Ruuk Ruffian (26016) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (26646, 0.5, 26013, 600, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Burun Ruuk Adherent (26013) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (26646, 0.6, 26013, 600, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Burun Ruuk Adherent (26013) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (26646, 0.70000005, 26013, 600, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Burun Ruuk Adherent (26013) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (26646, 0.8000001, 26015, 600, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Burun Ruuk Lout (26015) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (26646, 0.9000001, 26015, 600, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Burun Ruuk Lout (26015) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (26646, 1.0000001, 26015, 600, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Burun Ruuk Lout (26015) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+     , (26646, 0.7, 26013, 600, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Burun Ruuk Adherent (26013) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (26646, 0.8, 26015, 600, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Burun Ruuk Lout (26015) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (26646, 0.9, 26015, 600, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Burun Ruuk Lout (26015) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (26646, 1, 26015, 600, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Burun Ruuk Lout (26015) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

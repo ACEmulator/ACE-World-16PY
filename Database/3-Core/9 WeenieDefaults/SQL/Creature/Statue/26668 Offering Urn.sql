@@ -72,7 +72,7 @@ VALUES (26668,   1,   33558608) /* Setup */
      , (26668,  22,  872415274) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (26668,  16, 1985241235) /* ActivationTarget */;
+VALUES (26668,  16, 0x76546093) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (26668,   1, 380, 0, 0) /* Strength */

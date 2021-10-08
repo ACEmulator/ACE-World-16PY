@@ -31,4 +31,4 @@ VALUES (8420,   1,   33554714) /* Setup */
      , (8420,   8,  100667474) /* Icon */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8420,  16,          0) /* ActivationTarget */;
+VALUES (8420,  16, 0x00000000) /* ActivationTarget */;

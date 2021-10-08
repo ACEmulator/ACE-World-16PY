@@ -30,4 +30,4 @@ VALUES (4143,   1,   33555034) /* Setup */
      , (4143,  23,        149) /* UseSound - TriggerActivated */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4143,  16,          0) /* ActivationTarget */;
+VALUES (4143,  16, 0x00000000) /* ActivationTarget */;

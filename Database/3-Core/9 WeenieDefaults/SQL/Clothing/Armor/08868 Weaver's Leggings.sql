@@ -23,7 +23,7 @@ VALUES (8868,  22, True ) /* Inscribable */
      , (8868,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8868,  12,   1E-06) /* Shade */
+VALUES (8868,  12,       0) /* Shade */
      , (8868,  13,       2) /* ArmorModVsSlash */
      , (8868,  14,       2) /* ArmorModVsPierce */
      , (8868,  15,       2) /* ArmorModVsBludgeon */

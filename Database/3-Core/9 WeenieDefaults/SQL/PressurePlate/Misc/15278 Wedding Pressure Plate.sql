@@ -29,4 +29,4 @@ VALUES (15278,   1,   33557621) /* Setup */
      , (15278,  23,        149) /* UseSound - TriggerActivated */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15278,  16,          0) /* ActivationTarget */;
+VALUES (15278,  16, 0x00000000) /* ActivationTarget */;

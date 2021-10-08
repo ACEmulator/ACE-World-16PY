@@ -35,4 +35,4 @@ VALUES (11735,   1,   33556907) /* Setup */
      , (11735,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11735,  16,          0) /* ActivationTarget */;
+VALUES (11735,  16, 0x00000000) /* ActivationTarget */;

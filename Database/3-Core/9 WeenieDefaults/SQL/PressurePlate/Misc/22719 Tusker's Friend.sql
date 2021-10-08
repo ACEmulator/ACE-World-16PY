@@ -35,7 +35,7 @@ VALUES (22719,   1,   33555536) /* Setup */
      , (22719,  23,        149) /* UseSound - TriggerActivated */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22719,  16,          0) /* ActivationTarget */;
+VALUES (22719,  16, 0x00000000) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (22719, 31, 0, 3, 0, 325, 0, 1373.2180518023797) /* CreatureEnchantment Specialized */

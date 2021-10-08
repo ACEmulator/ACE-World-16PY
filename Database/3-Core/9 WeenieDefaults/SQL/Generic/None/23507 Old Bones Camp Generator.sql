@@ -25,9 +25,9 @@ VALUES (23507,   1,   33555051) /* Setup */
      , (23507,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23507, 0.2, 4266, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 4, 0, 0, 0.9238795, 0, 0, -0.38268346) /* Generate Old Bones (4266) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (23507, 0.4, 4266, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 1, 0, 0.8870108, 0, 0, -0.4617486) /* Generate Old Bones (4266) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (23507, 0.6, 4266, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0.4, 0.5, 0, 0.70710677, 0, 0, -0.70710677) /* Generate Old Bones (4266) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (23507, 0.8, 4266, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, -2, 0, 0.9659258, 0, 0, -0.25881904) /* Generate Old Bones (4266) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (23507, 0.90000004, 4266, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 1, -3, 0, 0.976296, 0, 0, -0.21643962) /* Generate Old Bones (4266) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (23507, 1, 4380, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 0, 0.9914449, 0, 0, -0.1305262) /* Generate Bones (4380) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (23507, 0.2, 4266, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 4, 0, 0, 0.92388, 0, 0, -0.382684) /* Generate Old Bones (4266) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (23507, 0.4, 4266, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 1, 0, 0.887011, 0, 0, -0.461749) /* Generate Old Bones (4266) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (23507, 0.6, 4266, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0.4, 0.5, 0, 0.707107, 0, 0, -0.707107) /* Generate Old Bones (4266) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (23507, 0.8, 4266, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, -2, 0, 0.965926, 0, 0, -0.258819) /* Generate Old Bones (4266) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (23507, 0.9, 4266, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 1, -3, 0, 0.976296, 0, 0, -0.21644) /* Generate Old Bones (4266) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (23507, 1, 4380, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 0, 0.991445, 0, 0, -0.130526) /* Generate Bones (4380) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

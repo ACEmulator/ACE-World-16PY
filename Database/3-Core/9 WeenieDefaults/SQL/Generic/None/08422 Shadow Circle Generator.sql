@@ -25,11 +25,11 @@ VALUES (8422,   1,   33555051) /* Setup */
      , (8422,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8422, -1, 8423, 120, 1, 1, 1, 4, -1, 0, 0, 0, 1.4, -1.4, 0, 0.94551855, 0, 0, -0.32556814) /* Generate Small Shadow Child (8423) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (8422, -1, 8423, 120, 1, 1, 1, 4, -1, 0, 0, 0, 0, -2, 0, 0.76604444, 0, 0, -0.6427876) /* Generate Small Shadow Child (8423) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (8422, -1, 8423, 120, 1, 1, 1, 4, -1, 0, 0, 0, -1.4, -1.4, 0, 0.47715876, 0, 0, -0.87881714) /* Generate Small Shadow Child (8423) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (8422, -1, 8423, 120, 1, 1, 1, 4, -1, 0, 0, 0, -2, 0, 0, 0.06975651, 0, 0, -0.9975641) /* Generate Small Shadow Child (8423) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (8422, -1, 8423, 120, 1, 1, 1, 4, -1, 0, 0, 0, -1.4, 1.4, 0, -0.19936791, 0, -0, -0.97992474) /* Generate Small Shadow Child (8423) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (8422, -1, 8423, 120, 1, 1, 1, 4, -1, 0, 0, 0, 0, 2, 0, -0.6018151, 0, -0, -0.7986355) /* Generate Small Shadow Child (8423) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (8422, -1, 8423, 120, 1, 1, 1, 4, -1, 0, 0, 0, 1.4, 1.4, 0, -0.87881714, 0, -0, -0.47715873) /* Generate Small Shadow Child (8423) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+VALUES (8422, -1, 8423, 120, 1, 1, 1, 4, -1, 0, 0, 0, 1.4, -1.4, 0, 0.945519, 0, 0, -0.325568) /* Generate Small Shadow Child (8423) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (8422, -1, 8423, 120, 1, 1, 1, 4, -1, 0, 0, 0, 0, -2, 0, 0.766044, 0, 0, -0.642788) /* Generate Small Shadow Child (8423) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (8422, -1, 8423, 120, 1, 1, 1, 4, -1, 0, 0, 0, -1.4, -1.4, 0, 0.477159, 0, 0, -0.878817) /* Generate Small Shadow Child (8423) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (8422, -1, 8423, 120, 1, 1, 1, 4, -1, 0, 0, 0, -2, 0, 0, 0.069757, 0, 0, -0.997564) /* Generate Small Shadow Child (8423) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (8422, -1, 8423, 120, 1, 1, 1, 4, -1, 0, 0, 0, -1.4, 1.4, 0, -0.199368, 0, -0, -0.979925) /* Generate Small Shadow Child (8423) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (8422, -1, 8423, 120, 1, 1, 1, 4, -1, 0, 0, 0, 0, 2, 0, -0.601815, 0, -0, -0.798636) /* Generate Small Shadow Child (8423) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (8422, -1, 8423, 120, 1, 1, 1, 4, -1, 0, 0, 0, 1.4, 1.4, 0, -0.878817, 0, -0, -0.477159) /* Generate Small Shadow Child (8423) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (8422, -1, 8423, 120, 1, 1, 1, 4, -1, 0, 0, 0, 2, 0, 0, 1, 0, 0, -0) /* Generate Small Shadow Child (8423) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

@@ -36,12 +36,12 @@ VALUES (11732,   1,   33555536) /* Setup */
      , (11732,  23,        154) /* UseSound - TriggerActivated3 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11732,  16,          0) /* ActivationTarget */;
+VALUES (11732,  16, 0x00000000) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11732, -1, 11733, 180, 1, 1, 1, 4, -1, 0, 0, 0, 1, -1, 6, -0.9238795, 0, -0, -0.3826835) /* Generate Big Cave-In Rock (11733) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (11732, -1, 11733, 180, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 6, 0.70710677, 0, 0, -0.70710677) /* Generate Big Cave-In Rock (11733) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (11732, -1, 11734, 180, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1, 6, -4.371139E-08, 0, -0, -1) /* Generate Cave-In Rock (11734) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (11732, -1, 11734, 180, 1, 1, 1, 4, -1, 0, 0, 0, 3, -1, 6, 0.38268343, 0, 0, -0.9238795) /* Generate Cave-In Rock (11734) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (11732, -1, 11734, 180, 1, 1, 1, 4, -1, 0, 0, 0, -1, -3, 6, 0.9238795, 0, 0, -0.38268346) /* Generate Cave-In Rock (11734) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+VALUES (11732, -1, 11733, 180, 1, 1, 1, 4, -1, 0, 0, 0, 1, -1, 6, -0.92388, 0, -0, -0.382684) /* Generate Big Cave-In Rock (11733) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (11732, -1, 11733, 180, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 6, 0.707107, 0, 0, -0.707107) /* Generate Big Cave-In Rock (11733) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (11732, -1, 11734, 180, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1, 6, -0, 0, -0, -1) /* Generate Cave-In Rock (11734) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (11732, -1, 11734, 180, 1, 1, 1, 4, -1, 0, 0, 0, 3, -1, 6, 0.382683, 0, 0, -0.92388) /* Generate Cave-In Rock (11734) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (11732, -1, 11734, 180, 1, 1, 1, 4, -1, 0, 0, 0, -1, -3, 6, 0.92388, 0, 0, -0.382684) /* Generate Cave-In Rock (11734) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (11732, -1, 11734, 180, 1, 1, 1, 4, -1, 0, 0, 0, 2, 3, 6, 1, 0, 0, -0) /* Generate Cave-In Rock (11734) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

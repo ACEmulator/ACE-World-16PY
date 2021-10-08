@@ -55,4 +55,4 @@ VALUES (21198,   1,   33554742) /* Setup */
      , (21198,  36,  234881044) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21198,  38,          0) /* AllowedWielder */;
+VALUES (21198,  38, 0x00000000) /* AllowedWielder */;

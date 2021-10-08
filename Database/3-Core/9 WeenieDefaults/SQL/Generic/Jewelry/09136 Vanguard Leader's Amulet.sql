@@ -24,7 +24,7 @@ VALUES (9136,  22, True ) /* Inscribable */
      , (9136,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9136,   5, -0.033333) /* ManaRate */
+VALUES (9136,   5,  -0.033) /* ManaRate */
      , (9136,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

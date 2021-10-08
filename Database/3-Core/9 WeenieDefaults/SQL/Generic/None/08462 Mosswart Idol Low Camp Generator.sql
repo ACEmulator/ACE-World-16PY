@@ -26,7 +26,7 @@ VALUES (8462,   1,   33555051) /* Setup */
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8462, 0.2, 8590, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, -0) /* Generate Idol Gen (8590) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (8462, 0.4, 8428, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2, 0, 0, -0.6691306, 0, -0, -0.74314475) /* Generate Mosswart Idolator (8428) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (8462, 0.6, 8428, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -1.4, 1.4, 0, 0.5150381, 0, 0, -0.8571673) /* Generate Mosswart Idolator (8428) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (8462, 0.8, 8427, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, 2, 0, 0.061048508, 0, 0, -0.9981348) /* Generate Mosswart Fanatic (8427) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (8462, 1, 8427, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2, -2, 0, -0.6691306, 0, -0, -0.74314475) /* Generate Mosswart Fanatic (8427) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+     , (8462, 0.4, 8428, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2, 0, 0, -0.669131, 0, -0, -0.743145) /* Generate Mosswart Idolator (8428) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (8462, 0.6, 8428, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -1.4, 1.4, 0, 0.515038, 0, 0, -0.857167) /* Generate Mosswart Idolator (8428) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (8462, 0.8, 8427, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, 2, 0, 0.061049, 0, 0, -0.998135) /* Generate Mosswart Fanatic (8427) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (8462, 1, 8427, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2, -2, 0, -0.669131, 0, -0, -0.743145) /* Generate Mosswart Fanatic (8427) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

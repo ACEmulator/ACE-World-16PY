@@ -417,7 +417,7 @@ VALUES (@parent_id,  0,   3 /* Give */, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NU
      , (@parent_id, 100,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 2624 /* Trade Note (5,000) */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (22491,  6 /* Give */, 0.95000005, 22457 /* Fabled Tusker Paw */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (22491,  6 /* Give */,   0.95, 22457 /* Fabled Tusker Paw */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -525,7 +525,7 @@ VALUES (@parent_id,  0,   3 /* Give */, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NU
      , (@parent_id, 100,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 2625 /* Trade Note (10,000) */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (22491,  6 /* Give */, 0.99000007, 22457 /* Fabled Tusker Paw */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (22491,  6 /* Give */,   0.99, 22457 /* Fabled Tusker Paw */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -633,7 +633,7 @@ VALUES (@parent_id,  0,   3 /* Give */, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NU
      , (@parent_id, 100,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 2626 /* Trade Note (50,000) */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (22491,  6 /* Give */, 1.0000001, 22457 /* Fabled Tusker Paw */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (22491,  6 /* Give */,      1, 22457 /* Fabled Tusker Paw */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1065,7 +1065,7 @@ VALUES (@parent_id,  0,   3 /* Give */, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NU
      , (@parent_id, 100,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 2624 /* Trade Note (5,000) */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (22491,  6 /* Give */, 0.95000005, 22456 /* Fabled Tusker Paw */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (22491,  6 /* Give */,   0.95, 22456 /* Fabled Tusker Paw */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1173,7 +1173,7 @@ VALUES (@parent_id,  0,   3 /* Give */, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NU
      , (@parent_id, 100,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 2625 /* Trade Note (10,000) */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (22491,  6 /* Give */, 0.99000007, 22456 /* Fabled Tusker Paw */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (22491,  6 /* Give */,   0.99, 22456 /* Fabled Tusker Paw */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1281,7 +1281,7 @@ VALUES (@parent_id,  0,   3 /* Give */, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NU
      , (@parent_id, 100,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 2626 /* Trade Note (50,000) */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (22491,  6 /* Give */, 1.0000001, 22456 /* Fabled Tusker Paw */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (22491,  6 /* Give */,      1, 22456 /* Fabled Tusker Paw */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1710,7 +1710,7 @@ VALUES (@parent_id,  0,   3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL
      , (@parent_id, 99,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 2624 /* Trade Note (5,000) */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (22491,  6 /* Give */, 0.95000005, 22455 /* Fabled Tusker Paw */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (22491,  6 /* Give */,   0.95, 22455 /* Fabled Tusker Paw */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1817,7 +1817,7 @@ VALUES (@parent_id,  0,   3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL
      , (@parent_id, 99,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 2625 /* Trade Note (10,000) */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (22491,  6 /* Give */, 0.99000007, 22455 /* Fabled Tusker Paw */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (22491,  6 /* Give */,   0.99, 22455 /* Fabled Tusker Paw */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1924,7 +1924,7 @@ VALUES (@parent_id,  0,   3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL
      , (@parent_id, 99,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 2626 /* Trade Note (50,000) */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (22491,  6 /* Give */, 1.0000001, 22455 /* Fabled Tusker Paw */, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (22491,  6 /* Give */,      1, 22455 /* Fabled Tusker Paw */, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

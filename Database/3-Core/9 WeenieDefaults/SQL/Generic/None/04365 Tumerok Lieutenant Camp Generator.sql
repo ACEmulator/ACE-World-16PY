@@ -25,11 +25,11 @@ VALUES (4365,   1,   33555051) /* Setup */
      , (4365,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4365, 0.2, 229, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -5, -2, 0, 0.70710677, 0, 0, -0.70710677) /* Generate Tumerok Officer (229) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (4365, 0.3, 229, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 5, -2, 0, -4.371139E-08, 0, -0, -1) /* Generate Tumerok Officer (229) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (4365, 0.35000002, 229, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 1.4, -2.4, 0, 0.9238795, 0, 0, -0.38268346) /* Generate Tumerok Officer (229) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (4365, 0.55, 233, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -1.2, -4.6, 0, 0.70710677, 0, 0, -0.70710677) /* Generate Tumerok Warrior (233) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (4365, 0.65000004, 233, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -7.2, 4.6, 0, 0.90630776, 0, 0, -0.42261827) /* Generate Tumerok Warrior (233) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (4365, 0.85, 231, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -6.2, -2, 0, 0.70710677, 0, 0, -0.70710677) /* Generate Tumerok Priest (231) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (4365, 0.90000004, 1919, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -4, -1, 0, 0.70710677, 0, 0, -0.70710677) /* Generate Chest (1919) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (4365, 1, 4179, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 3, 0, 0, 0.99904823, 0, 0, -0.043619387) /* Generate Bonfire (4179) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (4365, 0.2, 229, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -5, -2, 0, 0.707107, 0, 0, -0.707107) /* Generate Tumerok Officer (229) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (4365, 0.3, 229, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 5, -2, 0, -0, 0, -0, -1) /* Generate Tumerok Officer (229) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (4365, 0.35, 229, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 1.4, -2.4, 0, 0.92388, 0, 0, -0.382684) /* Generate Tumerok Officer (229) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (4365, 0.55, 233, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -1.2, -4.6, 0, 0.707107, 0, 0, -0.707107) /* Generate Tumerok Warrior (233) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (4365, 0.65, 233, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -7.2, 4.6, 0, 0.906308, 0, 0, -0.422618) /* Generate Tumerok Warrior (233) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (4365, 0.85, 231, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -6.2, -2, 0, 0.707107, 0, 0, -0.707107) /* Generate Tumerok Priest (231) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (4365, 0.9, 1919, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -4, -1, 0, 0.707107, 0, 0, -0.707107) /* Generate Chest (1919) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (4365, 1, 4179, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 3, 0, 0, 0.999048, 0, 0, -0.043619) /* Generate Bonfire (4179) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

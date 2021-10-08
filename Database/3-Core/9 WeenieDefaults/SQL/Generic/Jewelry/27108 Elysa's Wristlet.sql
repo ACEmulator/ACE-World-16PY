@@ -28,7 +28,7 @@ VALUES (27108,  22, True ) /* Inscribable */
      , (27108,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27108,   5, -0.033333) /* ManaRate */;
+VALUES (27108,   5,  -0.033) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27108,   1, 'Elysa''s Wristlet') /* Name */

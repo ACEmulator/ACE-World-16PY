@@ -27,7 +27,7 @@ VALUES (25971,  22, True ) /* Inscribable */
      , (25971,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25971,   5, -0.033333) /* ManaRate */;
+VALUES (25971,   5,  -0.033) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25971,   1, 'Periapt of Endless Sight') /* Name */

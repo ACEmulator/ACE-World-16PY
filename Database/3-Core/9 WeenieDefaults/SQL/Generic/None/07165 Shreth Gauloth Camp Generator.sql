@@ -25,8 +25,8 @@ VALUES (7165,   1,   33555051) /* Setup */
      , (7165,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7165, 0.3, 7113, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -1, 2, 0, 0.7372773, 0, 0, -0.67559016) /* Generate Gauloth Shreth (7113) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (7165, 0.6, 7113, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.8, -1.8, 0, 0.7372773, 0, 0, -0.67559016) /* Generate Gauloth Shreth (7113) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (7165, 0.85, 7113, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 1.4, 2.2, 0, 0.6293204, 0, 0, -0.777146) /* Generate Gauloth Shreth (7113) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (7165, 0.95000005, 7113, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1, 0, -0.1736482, 0, -0, -0.9848077) /* Generate Gauloth Shreth (7113) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (7165, 1, 4180, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0.2, 0, 0, -0.1736482, 0, -0, -0.9848077) /* Generate Corpse (4180) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (7165, 0.3, 7113, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -1, 2, 0, 0.737277, 0, 0, -0.67559) /* Generate Gauloth Shreth (7113) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (7165, 0.6, 7113, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.8, -1.8, 0, 0.737277, 0, 0, -0.67559) /* Generate Gauloth Shreth (7113) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (7165, 0.85, 7113, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 1.4, 2.2, 0, 0.62932, 0, 0, -0.777146) /* Generate Gauloth Shreth (7113) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (7165, 0.95, 7113, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1, 0, -0.173648, 0, -0, -0.984808) /* Generate Gauloth Shreth (7113) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (7165, 1, 4180, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0.2, 0, 0, -0.173648, 0, -0, -0.984808) /* Generate Corpse (4180) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

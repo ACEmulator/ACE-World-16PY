@@ -25,7 +25,7 @@ VALUES (7156,   1,   33555051) /* Setup */
      , (7156,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7156, 0.4, 7119, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 8, 1, 0, 0.9238795, 0, 0, -0.38268346) /* Generate Imperial Mu-miyah (7119) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (7156, 0.6, 7117, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -8, -1, 0, 0.25881907, 0, 0, -0.9659258) /* Generate Guardian Mu-miyah (7117) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (7156, 0.8, 7117, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0.4, 4, 0, -0.76604444, 0, -0, -0.64278764) /* Generate Guardian Mu-miyah (7117) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (7156, 1, 7119, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 4, -5, 0, -0.08715577, 0, -0, -0.9961947) /* Generate Imperial Mu-miyah (7119) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (7156, 0.4, 7119, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 8, 1, 0, 0.92388, 0, 0, -0.382684) /* Generate Imperial Mu-miyah (7119) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (7156, 0.6, 7117, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -8, -1, 0, 0.258819, 0, 0, -0.965926) /* Generate Guardian Mu-miyah (7117) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (7156, 0.8, 7117, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0.4, 4, 0, -0.766044, 0, -0, -0.642788) /* Generate Guardian Mu-miyah (7117) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (7156, 1, 7119, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 4, -5, 0, -0.087156, 0, -0, -0.996195) /* Generate Imperial Mu-miyah (7119) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

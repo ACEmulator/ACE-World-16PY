@@ -34,7 +34,7 @@ VALUES (23145,   1,   33555536) /* Setup */
      , (23145,   8,  100668114) /* Icon */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23145,  16,          0) /* ActivationTarget */;
+VALUES (23145,  16, 0x00000000) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
 VALUES (23145, 31, 0, 3, 0, 325, 0, 1419.8562665044024) /* CreatureEnchantment Specialized */

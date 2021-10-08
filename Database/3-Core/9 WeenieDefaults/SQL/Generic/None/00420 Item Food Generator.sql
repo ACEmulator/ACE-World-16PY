@@ -31,7 +31,7 @@ VALUES (420, 0.1, 547, 900, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Gen
      , (420, 0.4, 261, 900, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Cheese (261) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
      , (420, 0.5, 548, 900, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Bowl of Rice (548) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
      , (420, 0.6, 260, 900, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Cabbage (260) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
-     , (420, 0.70000005, 264, 900, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Grapes (264) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
-     , (420, 0.8000001, 546, 900, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Egg (546) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
-     , (420, 0.9000001, 258, 900, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Apple (258) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
-     , (420, 1.0000001, 259, 900, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Bread (259) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */;
+     , (420, 0.7, 264, 900, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Grapes (264) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
+     , (420, 0.8, 546, 900, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Egg (546) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
+     , (420, 0.9, 258, 900, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Apple (258) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
+     , (420, 1, 259, 900, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Bread (259) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */;

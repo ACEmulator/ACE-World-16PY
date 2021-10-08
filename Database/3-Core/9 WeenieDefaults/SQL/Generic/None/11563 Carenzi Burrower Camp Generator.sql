@@ -34,7 +34,7 @@ VALUES (11563, 0.1, 11492, 1800, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /
      , (11563, 0.4, 11492, 1800, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Carenzi Burrower (11492) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (11563, 0.5, 11492, 1800, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Carenzi Burrower (11492) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (11563, 0.6, 11492, 1800, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Carenzi Burrower (11492) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (11563, 0.70000005, 11492, 1800, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Carenzi Burrower (11492) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (11563, 0.8000001, 11492, 1800, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Carenzi Burrower (11492) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (11563, 0.9000001, 11492, 1800, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Carenzi Burrower (11492) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (11563, 1.0000001, 11492, 1800, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Carenzi Burrower (11492) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
+     , (11563, 0.7, 11492, 1800, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Carenzi Burrower (11492) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (11563, 0.8, 11492, 1800, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Carenzi Burrower (11492) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (11563, 0.9, 11492, 1800, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Carenzi Burrower (11492) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (11563, 1, 11492, 1800, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Carenzi Burrower (11492) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

@@ -25,6 +25,6 @@ VALUES (4274,   1,   33555051) /* Setup */
      , (4274,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4274, 0.7, 223, 2700, 1, -1, 1, 4, -1, 0, 0, 0, 3, 1, 0, 0.95371693, 0, 0, -0.3007058) /* Generate Reedshark Pup (223) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+VALUES (4274, 0.7, 223, 2700, 1, -1, 1, 4, -1, 0, 0, 0, 3, 1, 0, 0.953717, 0, 0, -0.300706) /* Generate Reedshark Pup (223) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (4274, 0.8, 223, 2700, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 2.4, 0, 1, 0, 0, -0) /* Generate Reedshark Pup (223) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (4274, 1, 221, 2700, 1, 1, 1, 4, -1, 0, 0, 0, 1.4, -1.4, 0, 0.70710677, 0, 0, -0.70710677) /* Generate Adult Reedshark (221) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+     , (4274, 1, 221, 2700, 1, 1, 1, 4, -1, 0, 0, 0, 1.4, -1.4, 0, 0.707107, 0, 0, -0.707107) /* Generate Adult Reedshark (221) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

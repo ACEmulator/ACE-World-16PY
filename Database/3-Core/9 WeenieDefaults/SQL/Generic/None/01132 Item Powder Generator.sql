@@ -30,9 +30,9 @@ VALUES (1132, 0.1, 782, 900, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Ge
      , (1132, 0.4, 785, 900, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Powdered Bloodstone (785) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
      , (1132, 0.5, 786, 900, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Powdered Carnelian (786) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
      , (1132, 0.6, 626, 900, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Powdered Hematite (626) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
-     , (1132, 0.70000005, 787, 900, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Powdered Lapis Lazuli (787) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
-     , (1132, 0.8000001, 788, 900, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Powdered Malachite (788) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
-     , (1132, 0.8500001, 789, 900, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Powdered Moonstone (789) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
-     , (1132, 0.9000001, 790, 900, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Powdered Onyx (790) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
-     , (1132, 0.9500001, 791, 900, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Powdered Quartz (791) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
-     , (1132, 1.0000001, 792, 900, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Powdered Turquoise (792) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */;
+     , (1132, 0.7, 787, 900, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Powdered Lapis Lazuli (787) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
+     , (1132, 0.8, 788, 900, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Powdered Malachite (788) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
+     , (1132, 0.85, 789, 900, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Powdered Moonstone (789) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
+     , (1132, 0.9, 790, 900, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Powdered Onyx (790) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
+     , (1132, 0.95, 791, 900, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Powdered Quartz (791) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
+     , (1132, 1, 792, 900, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Powdered Turquoise (792) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */;

@@ -143,7 +143,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'A shrill voice says in your mind, "Is she fallen? How was this temple freed?"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (21486,  7 /* Use */, 0.70000005, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (21486,  7 /* Use */,    0.7, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -151,7 +151,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'A light breeze and the scent of rotting meat wash over you. Your stomach threatens to revolt for a moment. You see a ceremonial robe upon your body and feel the cold of stone on your back. A slender woman with gentle features stands above you holding a curved dagger. She mutters in a language that you do not know and plunges the dagger into your heart. As life ebbs, you hear a gentle song being sung about you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (21486,  7 /* Use */, 0.8000001, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (21486,  7 /* Use */,    0.8, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -159,7 +159,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'A snake-man dresses you in a fine silken robe. Nearby a woman cries, at her feet a small child with golden eyes attempts to stifle the tears which brim at his eyes. You smile, and turn from them and are led toward an altar by the snake-man.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (21486,  7 /* Use */, 0.8900001, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (21486,  7 /* Use */,   0.89, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -167,7 +167,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'There is the smell of something sweet nearby. The moons are large and high above your head. Four spires the color of sea-foam rise about you, and a chill wind blows. You taste blood, and the heady scent of sage fills your senses. You cough and shower yourself in blood.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (21486,  7 /* Use */, 0.9000001, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (21486,  7 /* Use */,    0.9, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

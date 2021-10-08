@@ -31,7 +31,7 @@ VALUES (425, 0.1, 361, 700, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Gen
      , (425, 0.4, 356, 700, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Tofun (356) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
      , (425, 0.5, 327, 700, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Ken (327) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
      , (425, 0.6, 336, 700, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Ono (336) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
-     , (425, 0.70000005, 362, 700, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Yari (362) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
-     , (425, 0.8000001, 43, 700, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Yoroi Breastplate (43) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
-     , (425, 0.9000001, 84, 700, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Studded Leather Leggings (84) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
-     , (425, 1.0000001, 77, 700, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Kabuton (77) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */;
+     , (425, 0.7, 362, 700, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Yari (362) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
+     , (425, 0.8, 43, 700, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Yoroi Breastplate (43) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
+     , (425, 0.9, 84, 700, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Studded Leather Leggings (84) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
+     , (425, 1, 77, 700, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Kabuton (77) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */;

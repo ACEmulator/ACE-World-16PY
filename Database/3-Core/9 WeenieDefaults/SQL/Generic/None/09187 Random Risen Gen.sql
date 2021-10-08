@@ -28,6 +28,6 @@ INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_C
 VALUES (9187, 0.25, 9185, 1800, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Tomb of the Dead Risen Gen (9185) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (9187, 0.45, 9185, 1800, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Tomb of the Dead Risen Gen (9185) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (9187, 0.65, 9185, 1800, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Tomb of the Dead Risen Gen (9185) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (9187, 0.84999996, 9185, 1800, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Tomb of the Dead Risen Gen (9185) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (9187, 0.85, 9185, 1800, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Tomb of the Dead Risen Gen (9185) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (9187, 0.95, 9184, 1800, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Tomb of The Dead Risen Knight Gen (9184) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (9187, 1, 4382, 1800, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Corpse (4382) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

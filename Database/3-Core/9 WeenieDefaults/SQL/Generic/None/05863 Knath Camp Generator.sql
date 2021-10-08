@@ -25,9 +25,9 @@ VALUES (5863,   1,   33555051) /* Setup */
      , (5863,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5863, 0.1, 1536, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 8, 1, 0, 0.9238795, 0, 0, -0.38268346) /* Generate K'nath Z'bog (1536) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (5863, 0.3, 2569, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -8, -1, 0, 0.25881907, 0, 0, -0.9659258) /* Generate K'nath N'gell (2569) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (5863, 0.5, 2570, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0.4, 4, 0, -0.76604444, 0, -0, -0.64278764) /* Generate K'nath S'tath (2570) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (5863, 0.7, 2571, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 4, -5, 0, -0.08715577, 0, -0, -0.9961947) /* Generate K'nath N'osaj (2571) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (5863, 0.9, 2572, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -4, -5, 0, 0.42261824, 0, 0, -0.9063078) /* Generate K'nath D'Nob (2572) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (5863, 1, 2573, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 4, 5, 0, 0.34202015, 0, 0, -0.9396926) /* Generate K'nath T'aed (2573) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (5863, 0.1, 1536, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 8, 1, 0, 0.92388, 0, 0, -0.382684) /* Generate K'nath Z'bog (1536) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (5863, 0.3, 2569, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -8, -1, 0, 0.258819, 0, 0, -0.965926) /* Generate K'nath N'gell (2569) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (5863, 0.5, 2570, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0.4, 4, 0, -0.766044, 0, -0, -0.642788) /* Generate K'nath S'tath (2570) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (5863, 0.7, 2571, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 4, -5, 0, -0.087156, 0, -0, -0.996195) /* Generate K'nath N'osaj (2571) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (5863, 0.9, 2572, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -4, -5, 0, 0.422618, 0, 0, -0.906308) /* Generate K'nath D'Nob (2572) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (5863, 1, 2573, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 4, 5, 0, 0.34202, 0, 0, -0.939693) /* Generate K'nath T'aed (2573) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

@@ -25,6 +25,6 @@ VALUES (27143,   1,   33555051) /* Setup */
      , (27143,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27143, 0.333, 27132, 10, 1, -1, 1, 4, -1, 0, 0, 1648755122, 470.78, -350.069, -23.995, -0.70710677, 0, -0, -0.70710677) /* Generate Burun Ruuk Seer Watcher (27132) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (27143, 0.666, 27132, 10, 1, -1, 1, 4, -1, 0, 0, 1648755093, 347.759, -388.251, -23.995, -0.70710677, 0, -0, -0.70710677) /* Generate Burun Ruuk Seer Watcher (27132) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (27143, 0.999, 27132, 10, 1, -1, 1, 4, -1, 0, 0, 1648755036, 311.981, -331.365, -23.995, -0.70710677, 0, -0, -0.70710677) /* Generate Burun Ruuk Seer Watcher (27132) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (27143, 0.333, 27132, 10, 1, -1, 1, 4, -1, 0, 0, 0x624601B2, 470.78, -350.069, -23.995, -0.707107, 0, -0, -0.707107) /* Generate Burun Ruuk Seer Watcher (27132) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (27143, 0.666, 27132, 10, 1, -1, 1, 4, -1, 0, 0, 0x62460195, 347.759, -388.251, -23.995, -0.707107, 0, -0, -0.707107) /* Generate Burun Ruuk Seer Watcher (27132) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (27143, 0.999, 27132, 10, 1, -1, 1, 4, -1, 0, 0, 0x6246015C, 311.981, -331.365, -23.995, -0.707107, 0, -0, -0.707107) /* Generate Burun Ruuk Seer Watcher (27132) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

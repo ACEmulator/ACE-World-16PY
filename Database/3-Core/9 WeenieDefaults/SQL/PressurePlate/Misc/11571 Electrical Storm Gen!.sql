@@ -36,10 +36,10 @@ VALUES (11571,   1,   33555536) /* Setup */
      , (11571,  23,        152) /* UseSound - TriggerActivated1 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11571,  16,          0) /* ActivationTarget */;
+VALUES (11571,  16, 0x00000000) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11571, -1, 7095, 900, 1, 1, 1, 4, -1, 0, 0, 0, -3, 0, 20, 0.70710677, 0, 0, -0.70710677) /* Generate Scathisa (7095) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (11571, -1, 7095, 900, 1, 1, 1, 4, -1, 0, 0, 0, 3, 0, 20, -0.70710677, 0, -0, -0.70710677) /* Generate Scathisa (7095) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+VALUES (11571, -1, 7095, 900, 1, 1, 1, 4, -1, 0, 0, 0, -3, 0, 20, 0.707107, 0, 0, -0.707107) /* Generate Scathisa (7095) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (11571, -1, 7095, 900, 1, 1, 1, 4, -1, 0, 0, 0, 3, 0, 20, -0.707107, 0, -0, -0.707107) /* Generate Scathisa (7095) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (11571, -1, 7094, 900, 1, 1, 1, 4, -1, 0, 0, 0, 0, -3, 20, 1, 0, 0, -0) /* Generate Synnast (7094) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (11571, -1, 7094, 900, 1, 1, 1, 4, -1, 0, 0, 0, 0, 3, 20, -4.371139E-08, 0, -0, -1) /* Generate Synnast (7094) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+     , (11571, -1, 7094, 900, 1, 1, 1, 4, -1, 0, 0, 0, 0, 3, 20, -0, 0, -0, -1) /* Generate Synnast (7094) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

@@ -30,7 +30,7 @@ VALUES (12759,  15, True ) /* LightsStatus */
      , (12759,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12759,   5, -0.03333) /* ManaRate */
+VALUES (12759,   5,  -0.033) /* ManaRate */
      , (12759,  29,       1) /* WeaponDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

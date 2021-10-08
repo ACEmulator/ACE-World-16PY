@@ -26,7 +26,7 @@ VALUES (25372,  22, True ) /* Inscribable */
      , (25372,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25372,   5, -0.0166) /* ManaRate */;
+VALUES (25372,   5,  -0.017) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25372,   1, 'Nuhmudira''s Bracelet') /* Name */

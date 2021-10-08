@@ -79,7 +79,7 @@ VALUES (27917,   1,   33558814) /* Setup */
      , (27917,  35,         23) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27917,  16, 1978990654) /* ActivationTarget */;
+VALUES (27917,  16, 0x75F5003E) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27917,   1, 330, 0, 0) /* Strength */

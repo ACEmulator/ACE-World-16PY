@@ -144,7 +144,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'You are sitting at a table in this very room as a chill shakes you to your soul. You feel breath brush against your neck. You turn but there is no one to be seen. The candles flicker as a breeze fills the room. You gently close your book and call upon fire to form beside you. A minor elemental appears. A small prism within your robes turns to dust.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (21487, 12 /* QuestSuccess */, 0.70000005, NULL, NULL, NULL, 'YalainBookGiven', NULL, NULL, NULL);
+VALUES (21487, 12 /* QuestSuccess */,    0.7, NULL, NULL, NULL, 'YalainBookGiven', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -152,7 +152,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'You stumble as the staircase shifts beneath your feet. You maintain your balance as they slide to the far wall.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (21487, 12 /* QuestSuccess */, 0.90000004, NULL, NULL, NULL, 'YalainBookGiven', NULL, NULL, NULL);
+VALUES (21487, 12 /* QuestSuccess */,    0.9, NULL, NULL, NULL, 'YalainBookGiven', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

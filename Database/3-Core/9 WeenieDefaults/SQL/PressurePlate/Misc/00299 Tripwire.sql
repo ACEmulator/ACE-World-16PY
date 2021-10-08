@@ -23,4 +23,4 @@ VALUES (299,   1,   33554667) /* Setup */
      , (299,   8,  100667507) /* Icon */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (299,  16,          0) /* ActivationTarget */;
+VALUES (299,  16, 0x00000000) /* ActivationTarget */;

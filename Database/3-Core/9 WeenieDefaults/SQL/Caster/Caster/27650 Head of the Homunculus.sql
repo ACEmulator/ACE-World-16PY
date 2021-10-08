@@ -31,7 +31,7 @@ VALUES (27650,  22, True ) /* Inscribable */
      , (27650,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27650,   5, -0.0333) /* ManaRate */
+VALUES (27650,   5,  -0.033) /* ManaRate */
      , (27650,  29,       1) /* WeaponDefense */
      , (27650,  39,       1) /* DefaultScale */
      , (27650, 144,    0.12) /* ManaConversionMod */;

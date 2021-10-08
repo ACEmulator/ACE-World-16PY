@@ -30,7 +30,7 @@ VALUES (25895,  15, True ) /* LightsStatus */
      , (25895,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25895,   5, -0.0333) /* ManaRate */
+VALUES (25895,   5,  -0.033) /* ManaRate */
      , (25895,  29,       1) /* WeaponDefense */
      , (25895,  76,     0.2) /* Translucency */
      , (25895, 144,    0.15) /* ManaConversionMod */;

@@ -29,4 +29,4 @@ VALUES (15302,   1,   33557594) /* Setup */
      , (15302,  24,  268435537) /* UseTargetAnimation - Twitch1 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15302,  16,          0) /* ActivationTarget */;
+VALUES (15302,  16, 0x00000000) /* ActivationTarget */;

@@ -127,7 +127,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Your vision swim
      , (@parent_id,  4,  18 /* DirectBroadcast */, 1, 1, NULL, 'The man laughs, a bitter thing. "The same way we take our smug notes. We don''t hide away in hunting blinds, you know. The life masters create flesh glamors for us. I''ve strolled through the markets, smelling the crops." He rubs his head, chin ducking with some faint embarrassment. "Being that short takes some getting used to."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (14572,  7 /* Use */, 0.35999998, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (14572,  7 /* Use */,   0.36, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

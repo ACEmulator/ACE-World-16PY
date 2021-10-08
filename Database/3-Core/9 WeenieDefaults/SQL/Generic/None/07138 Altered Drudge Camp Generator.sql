@@ -25,8 +25,8 @@ VALUES (7138,   1,   33555051) /* Setup */
      , (7138,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7138, 0.25, 7089, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2, 1, 0, 0.9238795, 0, 0, -0.38268346) /* Generate Altered Drudge (7089) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (7138, 0.48000002, 7089, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -1.4, 2.4, 0, 0.9238795, 0, 0, -0.38268346) /* Generate Altered Drudge (7089) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (7138, 0.73, 7335, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 1, 2.4, 0, 0.70710677, 0, 0, -0.70710677) /* Generate Altered Drudge (7335) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (7138, 0.96000004, 7335, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 1, 2.4, 0, 0.7372773, 0, 0, -0.67559016) /* Generate Altered Drudge (7335) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+VALUES (7138, 0.25, 7089, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2, 1, 0, 0.92388, 0, 0, -0.382684) /* Generate Altered Drudge (7089) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (7138, 0.48, 7089, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -1.4, 2.4, 0, 0.92388, 0, 0, -0.382684) /* Generate Altered Drudge (7089) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (7138, 0.73, 7335, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 1, 2.4, 0, 0.707107, 0, 0, -0.707107) /* Generate Altered Drudge (7335) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (7138, 0.96, 7335, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 1, 2.4, 0, 0.737277, 0, 0, -0.67559) /* Generate Altered Drudge (7335) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (7138, 1, 4179, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 1, 0, 0, 1, 0, 0, -0) /* Generate Bonfire (4179) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

@@ -72,7 +72,7 @@ VALUES (26635,   1,   33558607) /* Setup */
      , (26635,  22,  872415274) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (26635,  16, 1985237070) /* ActivationTarget */;
+VALUES (26635,  16, 0x7654504E) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (26635,   1, 380, 0, 0) /* Strength */
@@ -164,7 +164,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 3047 /* Matron's Barb */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (26635, 12 /* QuestSuccess */, 0.70000005, NULL, NULL, NULL, 'TempleAppeasementChosen', NULL, NULL, NULL);
+VALUES (26635, 12 /* QuestSuccess */,    0.7, NULL, NULL, NULL, 'TempleAppeasementChosen', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

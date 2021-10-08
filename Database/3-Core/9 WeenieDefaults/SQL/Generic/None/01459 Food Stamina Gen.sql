@@ -27,5 +27,5 @@ VALUES (1459,   1,   33555051) /* Setup */
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1459, 0.1, 1452, 900, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Super Cheese (1452) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
      , (1459, 0.4, 1445, 900, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Fresh Fish (1445) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
-     , (1459, 0.70000005, 1447, 900, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Tart Apple (1447) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
+     , (1459, 0.7, 1447, 900, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Tart Apple (1447) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
      , (1459, 1, 1448, 900, 1, 1, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Wheat Bread (1448) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Scatter */;

@@ -30,4 +30,4 @@ VALUES (4313, 0.2, 8, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 4, 0, 0, 1, 0, 0, -0) /* Ge
      , (4313, 0.6, 8, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 3, -2.4, 0, 1, 0, 0, -0) /* Generate Creeper Mosswart (8) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (4313, 0.8, 8, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -1, -2, 0, 1, 0, 0, -0) /* Generate Creeper Mosswart (8) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (4313, 0.98, 8, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, 1, 0, 1, 0, 0, -0) /* Generate Creeper Mosswart (8) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (4313, 1, 6118, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 1.5, 0, 0, 0.99904823, 0, 0, -0.043619387) /* Generate Pile of Short Sticks (6118) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+     , (4313, 1, 6118, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 1.5, 0, 0, 0.999048, 0, 0, -0.043619) /* Generate Pile of Short Sticks (6118) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

@@ -33,7 +33,7 @@ VALUES (25689,   1,   33555536) /* Setup */
      , (25689,   8,  100668114) /* Icon */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25689,  16,          0) /* ActivationTarget */;
+VALUES (25689,  16, 0x00000000) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (25689,  8 /* Activation */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

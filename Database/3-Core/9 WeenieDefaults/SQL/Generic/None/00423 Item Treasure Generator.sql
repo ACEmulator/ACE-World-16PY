@@ -31,6 +31,6 @@ VALUES (423, 0.1, 621, 900, 1, 3, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Gen
      , (423, 0.4, 623, 900, 1, 3, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Heavy Necklace (623) (x1 up to max of 3) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
      , (423, 0.5, 297, 900, 1, 3, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Ring (297) (x1 up to max of 3) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
      , (423, 0.6, 142, 900, 1, 3, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Chalice (142) (x1 up to max of 3) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
-     , (423, 0.70000005, 622, 900, 1, 3, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Necklace (622) (x1 up to max of 3) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
-     , (423, 0.8000001, 280, 900, 1, 3, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Gem (280) (x1 up to max of 3) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
-     , (423, 0.9000001, 624, 900, 1, 3, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Ring (624) (x1 up to max of 3) - Regenerate upon PickUp - Location to (re)Generate: Scatter */;
+     , (423, 0.7, 622, 900, 1, 3, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Necklace (622) (x1 up to max of 3) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
+     , (423, 0.8, 280, 900, 1, 3, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Gem (280) (x1 up to max of 3) - Regenerate upon PickUp - Location to (re)Generate: Scatter */
+     , (423, 0.9, 624, 900, 1, 3, 2, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Ring (624) (x1 up to max of 3) - Regenerate upon PickUp - Location to (re)Generate: Scatter */;

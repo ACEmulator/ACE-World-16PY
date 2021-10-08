@@ -49,7 +49,7 @@ VALUES (30732,   1,   33555022) /* Setup */
      , (30732,  28,         68) /* Spell - Shock Wave V */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30732,  38, 4294967295) /* AllowedWielder */;
+VALUES (30732,  38, 0xFFFFFFFF) /* AllowedWielder */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30732,   634,      2)  /* War Magic Mastery Self VI */;

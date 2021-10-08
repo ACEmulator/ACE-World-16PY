@@ -28,7 +28,7 @@ VALUES (10894,   1,   33558338) /* Setup */
      , (10894,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10894,  16,          0) /* ActivationTarget */;
+VALUES (10894,  16, 0x00000000) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (10894,  8 /* Activation */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

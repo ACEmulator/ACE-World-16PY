@@ -26,6 +26,6 @@ VALUES (24492,   1,   33555051) /* Setup */
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24492, 0.8, 24483, 60, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Small Obsidian Golem (24483) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (24492, 0.90000004, 24479, 60, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Small Granite Golem (24479) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (24492, 0.95000005, 24480, 60, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Small Iron Golem (24480) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (24492, 0.9, 24479, 60, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Small Granite Golem (24479) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (24492, 0.95, 24480, 60, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Small Iron Golem (24480) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (24492, 1, 24478, 60, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Small Coral Golem (24478) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;
