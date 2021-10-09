@@ -45,10 +45,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30871,   1, 'Mace of the Fallen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30871,   1,   33559271) /* Setup */
-     , (30871,   3,  536870932) /* SoundTable */
-     , (30871,   8,  100677503) /* Icon */
-     , (30871,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30871,   1, 0x020012E7) /* Setup */
+     , (30871,   3, 0x20000014) /* SoundTable */
+     , (30871,   8, 0x0600377F) /* Icon */
+     , (30871,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30871,  2096,      2)  /* Aura of Infected Caress */

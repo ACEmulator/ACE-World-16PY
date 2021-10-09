@@ -31,9 +31,9 @@ VALUES (7079,   1, 'Braided Sclavus Tongues') /* Name */
      , (7079,  16, 'Three Sclavus tongues braided together.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7079,   1,   33554817) /* Setup */
-     , (7079,   3,  536870932) /* SoundTable */
-     , (7079,   6,   67111919) /* PaletteBase */
-     , (7079,   7,  268435832) /* ClothingBase */
-     , (7079,   8,  100670686) /* Icon */
-     , (7079,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7079,   1, 0x02000181) /* Setup */
+     , (7079,   3, 0x20000014) /* SoundTable */
+     , (7079,   6, 0x04000BEF) /* PaletteBase */
+     , (7079,   7, 0x10000178) /* ClothingBase */
+     , (7079,   8, 0x06001CDE) /* Icon */
+     , (7079,  22, 0x3400002B) /* PhysicsEffectTable */;

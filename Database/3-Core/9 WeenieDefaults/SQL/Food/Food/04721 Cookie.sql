@@ -28,7 +28,7 @@ VALUES (4721,   1, 'Cookie') /* Name */
      , (4721,  20, 'Cookies') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4721,   1,   33556032) /* Setup */
-     , (4721,   3,  536870932) /* SoundTable */
-     , (4721,   8,  100670038) /* Icon */
-     , (4721,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4721,   1, 0x02000640) /* Setup */
+     , (4721,   3, 0x20000014) /* SoundTable */
+     , (4721,   8, 0x06001A56) /* Icon */
+     , (4721,  22, 0x3400002B) /* PhysicsEffectTable */;

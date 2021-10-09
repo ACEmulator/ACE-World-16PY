@@ -50,14 +50,14 @@ VALUES (28068,   1, 'Guardian''s Uniform') /* Name */
      , (28068,  16, 'A reward for your efforts to learn more of the Burun and their treaty with the Renegades.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28068,   1,   33554854) /* Setup */
-     , (28068,   3,  536870932) /* SoundTable */
-     , (28068,   6,   67108990) /* PaletteBase */
-     , (28068,   7,  268436840) /* ClothingBase */
-     , (28068,   8,  100667351) /* Icon */
-     , (28068,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28068,   1, 0x020001A6) /* Setup */
+     , (28068,   3, 0x20000014) /* SoundTable */
+     , (28068,   6, 0x0400007E) /* PaletteBase */
+     , (28068,   7, 0x10000568) /* ClothingBase */
+     , (28068,   8, 0x06000FD7) /* Icon */
+     , (28068,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28068,   243,      2)  /* Invulnerability Other V */
-     , (28068,   254,      2)  /* Impregnability Other V */
-     , (28068,  1485,      2)  /* Impenetrability V */;
+VALUES (28068,  1485,      2)  /* Impenetrability V */
+     , (28068,   243,      2)  /* Invulnerability Other V */
+     , (28068,   254,      2)  /* Impregnability Other V */;

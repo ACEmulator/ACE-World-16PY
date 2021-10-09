@@ -23,7 +23,7 @@ VALUES (11689,   1, 'Little Green Seeds') /* Name */
      , (11689,  15, 'A few small seeds, found on a Shreth. They do not seem to have any apparent use.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11689,   1,   33557130) /* Setup */
-     , (11689,   3,  536870932) /* SoundTable */
-     , (11689,   8,  100671704) /* Icon */
-     , (11689,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11689,   1, 0x02000A8A) /* Setup */
+     , (11689,   3, 0x20000014) /* SoundTable */
+     , (11689,   8, 0x060020D8) /* Icon */
+     , (11689,  22, 0x3400002B) /* PhysicsEffectTable */;

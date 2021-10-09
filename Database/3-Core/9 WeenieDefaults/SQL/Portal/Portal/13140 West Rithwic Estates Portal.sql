@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13140,   1, 'West Rithwic Estates Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13140,   1,   33554867) /* Setup */
-     , (13140,   2,  150994947) /* MotionTable */
-     , (13140,   8,  100667499) /* Icon */;
+VALUES (13140,   1, 0x020001B3) /* Setup */
+     , (13140,   2, 0x09000003) /* MotionTable */
+     , (13140,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (13140, 2, 3146645539, 103.85, 68.121, 48.268, 0.9993123, 0, 0, -0.03707974) /* Destination */
-/* @teleloc 0xBB8E0023 [103.850000 68.121000 48.268000] 0.999312 0.000000 0.000000 -0.037080 */;
+VALUES (13140, 2, 0xBB8E0023, 103.85, 68.121, 48.268, 0.999312, 0, 0, -0.03708) /* Destination */
+/* @teleloc 0xBB8E0023 [103.849998 68.121002 48.268002] 0.999312 0.000000 0.000000 -0.037080 */;

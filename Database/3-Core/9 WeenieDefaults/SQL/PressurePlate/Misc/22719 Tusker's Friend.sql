@@ -29,17 +29,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22719,   1, 'Tusker''s Friend') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22719,   1,   33555536) /* Setup */
-     , (22719,   2,  150994977) /* MotionTable */
-     , (22719,   8,  100668114) /* Icon */
+VALUES (22719,   1, 0x02000450) /* Setup */
+     , (22719,   2, 0x09000021) /* MotionTable */
+     , (22719,   8, 0x060012D2) /* Icon */
      , (22719,  23,        149) /* UseSound - TriggerActivated */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22719,  16,          0) /* ActivationTarget */;
+VALUES (22719,  16, 0x00000000) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (22719, 31, 0, 3, 0, 325, 0, 1373.21805180238) /* CreatureEnchantment Specialized */
-     , (22719, 33, 0, 3, 0, 325, 0, 1373.21805180238) /* LifeMagic           Specialized */;
+VALUES (22719, 31, 0, 3, 0, 325, 0, 1373.2180518023797) /* CreatureEnchantment Specialized */
+     , (22719, 33, 0, 3, 0, 325, 0, 1373.2180518023797) /* LifeMagic           Specialized */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (22719,  8 /* Activation */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

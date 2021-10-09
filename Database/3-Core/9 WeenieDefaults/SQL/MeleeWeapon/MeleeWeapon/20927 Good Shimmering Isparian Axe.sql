@@ -50,16 +50,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20927,   1, 'Good Shimmering Isparian Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20927,   1,   33556256) /* Setup */
-     , (20927,   3,  536870932) /* SoundTable */
-     , (20927,   6,   67111919) /* PaletteBase */
-     , (20927,   7,  268436419) /* ClothingBase */
-     , (20927,   8,  100673204) /* Icon */
-     , (20927,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20927,   1, 0x02000720) /* Setup */
+     , (20927,   3, 0x20000014) /* SoundTable */
+     , (20927,   6, 0x04000BEF) /* PaletteBase */
+     , (20927,   7, 0x100003C3) /* ClothingBase */
+     , (20927,   8, 0x060026B4) /* Icon */
+     , (20927,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20927,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20927,  1312,      2)  /* Armor Self VI */
-     , (20927,  1590,      2)  /* Aura of Heart Seeker Self IV */
+VALUES (20927,  1590,      2)  /* Aura of Heart Seeker Self IV */
      , (20927,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (20927,  1312,      2)  /* Armor Self VI */
      , (20927,  2675,      2)  /* Feeble Light Weapon Aptitude */;

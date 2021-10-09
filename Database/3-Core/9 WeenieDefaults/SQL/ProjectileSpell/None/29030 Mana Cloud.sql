@@ -27,9 +27,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29030,   1, 'Mana Cloud') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29030,   1,   33555469) /* Setup */
-     , (29030,   3,  536870966) /* SoundTable */
-     , (29030,   8,  100667494) /* Icon */
-     , (29030,  22,  872415406) /* PhysicsEffectTable */
+VALUES (29030,   1, 0x0200040D) /* Setup */
+     , (29030,   3, 0x20000036) /* SoundTable */
+     , (29030,   8, 0x06001066) /* Icon */
+     , (29030,  22, 0x340000AE) /* PhysicsEffectTable */
      , (29030,  28,         28) /* Spell - Frost Bolt I */
      , (29030,  30,         90) /* PhysicsScript - ProjectileCollision */;

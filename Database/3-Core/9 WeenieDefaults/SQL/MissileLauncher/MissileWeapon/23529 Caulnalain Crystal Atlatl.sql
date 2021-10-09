@@ -18,7 +18,7 @@ VALUES (23529,   1,        256) /* ItemType - MissileWeapon */
      , (23529,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (23529,  49,         30) /* WeaponTime */
      , (23529,  50,         32) /* AmmoType - AtlatlCrystal */
-     , (23529,  51,          2) /* CombatUse - Missle */
+     , (23529,  51,          2) /* CombatUse - Missile */
      , (23529,  60,        120) /* WeaponRange */
      , (23529,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23529, 106,        200) /* ItemSpellcraft */
@@ -47,15 +47,15 @@ VALUES (23529,   1, 'Caulnalain Crystal Atlatl') /* Name */
      , (23529,  16, 'An atlatl imbued with the essence of the Caulnalain Crystal. Uses crystal-tipped darts.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23529,   1,   33557433) /* Setup */
-     , (23529,   3,  536870932) /* SoundTable */
-     , (23529,   6,   67111919) /* PaletteBase */
-     , (23529,   7,  268436042) /* ClothingBase */
-     , (23529,   8,  100674033) /* Icon */
-     , (23529,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23529,   1, 0x02000BB9) /* Setup */
+     , (23529,   3, 0x20000014) /* SoundTable */
+     , (23529,   6, 0x04000BEF) /* PaletteBase */
+     , (23529,   7, 0x1000024A) /* ClothingBase */
+     , (23529,   8, 0x060029F1) /* Icon */
+     , (23529,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23529,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23529,   536,      2)  /* Missile Weapon Mastery Other IV */
-     , (23529,  1614,      2)  /* Aura of Blood Drinker Self IV */
+VALUES (23529,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (23529,   536,      2)  /* Missile Weapon Mastery Other IV */
      , (23529,  1625,      2)  /* Aura of Swift Killer Self IV */;

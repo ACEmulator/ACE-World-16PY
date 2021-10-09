@@ -25,7 +25,7 @@ VALUES (2706,   1, 'Scroll of Imperil Other VI') /* Name */
      , (2706,  16, 'When learned, this spell decreases the target''s natural armor by 200 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2706,   1,   33554826) /* Setup */
-     , (2706,   8,  100676928) /* Icon */
-     , (2706,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2706,   1, 0x0200018A) /* Setup */
+     , (2706,   8, 0x06003540) /* Icon */
+     , (2706,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2706,  28,       1327) /* Spell - Imperil Other VI */;

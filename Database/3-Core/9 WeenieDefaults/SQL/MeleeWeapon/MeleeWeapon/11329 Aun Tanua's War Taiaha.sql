@@ -32,7 +32,7 @@ VALUES (11329,  22, True ) /* Inscribable */
      , (11329,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11329,   5, -0.0333333) /* ManaRate */
+VALUES (11329,   5,  -0.033) /* ManaRate */
      , (11329,  21,     1.3) /* WeaponLength */
      , (11329,  22,     0.6) /* DamageVariance */
      , (11329,  29,    1.03) /* WeaponDefense */
@@ -48,13 +48,13 @@ VALUES (11329,   1, 'Aun Tanua''s War Taiaha') /* Name */
      , (11329,  16, 'A lovingly carved taiaha, fused to a living figurine. The creature slowly opens its eyes and glares at you.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11329,   1,   33557310) /* Setup */
-     , (11329,   3,  536870932) /* SoundTable */
-     , (11329,   8,  100672030) /* Icon */
-     , (11329,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11329,   1, 0x02000B3E) /* Setup */
+     , (11329,   3, 0x20000014) /* SoundTable */
+     , (11329,   8, 0x0600221E) /* Icon */
+     , (11329,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11329,   185,      2)  /* Rejuvenation Other III */
+VALUES (11329,  1613,      2)  /* Aura of Blood Drinker Self III */
      , (11329,   366,      2)  /* Light Weapon Mastery Other III */
-     , (11329,  1613,      2)  /* Aura of Blood Drinker Self III */
-     , (11329,  1623,      2)  /* Aura of Swift Killer Self II */;
+     , (11329,  1623,      2)  /* Aura of Swift Killer Self II */
+     , (11329,   185,      2)  /* Rejuvenation Other III */;

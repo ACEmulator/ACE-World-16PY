@@ -31,10 +31,10 @@ VALUES (8313,   1, 'Vitriol Pea') /* Name */
      , (8313,  16, 'A concentrated vitriol pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8313,   1,   33555209) /* Setup */
-     , (8313,   3,  536870932) /* SoundTable */
-     , (8313,   6,   67111919) /* PaletteBase */
-     , (8313,   7,  268435719) /* ClothingBase */
-     , (8313,   8,  100671037) /* Icon */
-     , (8313,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8313,   1, 0x02000309) /* Setup */
+     , (8313,   3, 0x20000014) /* SoundTable */
+     , (8313,   6, 0x04000BEF) /* PaletteBase */
+     , (8313,   7, 0x10000107) /* ClothingBase */
+     , (8313,   8, 0x06001E3D) /* Icon */
+     , (8313,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8313,  29,        160) /* SpellComponent */;

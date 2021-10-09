@@ -31,7 +31,7 @@ VALUES (24736,   1, 'Crucible with Gypsum Potion') /* Name */
      , (24736,  20, 'Crucibles with Gypsum Potion') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24736,   1,   33555966) /* Setup */
-     , (24736,   3,  536870932) /* SoundTable */
-     , (24736,   8,  100674461) /* Icon */
-     , (24736,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24736,   1, 0x020005FE) /* Setup */
+     , (24736,   3, 0x20000014) /* SoundTable */
+     , (24736,   8, 0x06002B9D) /* Icon */
+     , (24736,  22, 0x3400002B) /* PhysicsEffectTable */;

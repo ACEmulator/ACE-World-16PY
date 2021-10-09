@@ -22,5 +22,5 @@ VALUES (12668,   1, 'Vesayan Overlook') /* Name */
      , (12668,  16, 'Welcome to Vesayan Overlook') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12668,   1,   33557463) /* Setup */
-     , (12668,   8,  100668115) /* Icon */;
+VALUES (12668,   1, 0x02000BD7) /* Setup */
+     , (12668,   8, 0x060012D3) /* Icon */;

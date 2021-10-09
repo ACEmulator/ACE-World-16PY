@@ -26,5 +26,5 @@ VALUES (19250,   1, 'Bronze Nuts and Bolts from a Statue') /* Name */
      , (19250,  33, 'NutBoltShadow') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19250,   1,   33557679) /* Setup */
-     , (19250,   8,  100672954) /* Icon */;
+VALUES (19250,   1, 0x02000CAF) /* Setup */
+     , (19250,   8, 0x060025BA) /* Icon */;

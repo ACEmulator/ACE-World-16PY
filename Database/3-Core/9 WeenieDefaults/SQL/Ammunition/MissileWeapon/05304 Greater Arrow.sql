@@ -40,9 +40,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5304,   1, 'Greater Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5304,   1,   33554724) /* Setup */
-     , (5304,   3,  536870932) /* SoundTable */
-     , (5304,   6,   67111919) /* PaletteBase */
-     , (5304,   7,  268436303) /* ClothingBase */
-     , (5304,   8,  100670200) /* Icon */
-     , (5304,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5304,   1, 0x02000124) /* Setup */
+     , (5304,   3, 0x20000014) /* SoundTable */
+     , (5304,   6, 0x04000BEF) /* PaletteBase */
+     , (5304,   7, 0x1000034F) /* ClothingBase */
+     , (5304,   8, 0x06001AF8) /* Icon */
+     , (5304,  22, 0x3400002B) /* PhysicsEffectTable */;

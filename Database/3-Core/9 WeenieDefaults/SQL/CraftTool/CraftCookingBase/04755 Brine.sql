@@ -24,7 +24,7 @@ VALUES (4755,   1, 'Brine') /* Name */
      , (4755,  20, 'Jars of Brine') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4755,   1,   33555970) /* Setup */
-     , (4755,   3,  536870932) /* SoundTable */
-     , (4755,   8,  100669947) /* Icon */
-     , (4755,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4755,   1, 0x02000602) /* Setup */
+     , (4755,   3, 0x20000014) /* SoundTable */
+     , (4755,   8, 0x060019FB) /* Icon */
+     , (4755,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -71,12 +71,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14562,   1, 'Quiddity Rift') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14562,   1,   33557518) /* Setup */
-     , (14562,   2,  150995087) /* MotionTable */
-     , (14562,   3,  536871001) /* SoundTable */
-     , (14562,   4,  805306407) /* CombatTable */
-     , (14562,   8,  100672522) /* Icon */
-     , (14562,  22,  872415375) /* PhysicsEffectTable */
+VALUES (14562,   1, 0x02000C0E) /* Setup */
+     , (14562,   2, 0x0900008F) /* MotionTable */
+     , (14562,   3, 0x20000059) /* SoundTable */
+     , (14562,   4, 0x30000027) /* CombatTable */
+     , (14562,   8, 0x0600240A) /* Icon */
+     , (14562,  22, 0x3400008F) /* PhysicsEffectTable */
      , (14562,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -93,15 +93,15 @@ VALUES (14562,   1,   280, 0, 0, 350) /* MaxHealth */
      , (14562,   5,   500, 0, 0, 720) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (14562,  6, 0, 3, 0, 375, 0, 896.154882810495) /* MeleeDefense        Specialized */
-     , (14562,  7, 0, 3, 0, 445, 0, 896.154882810495) /* MissileDefense      Specialized */
-     , (14562, 13, 0, 3, 0, 310, 0, 896.154882810495) /* UnarmedCombat       Specialized */
-     , (14562, 15, 0, 3, 0, 260, 0, 896.154882810495) /* MagicDefense        Specialized */
-     , (14562, 20, 0, 3, 0, 100, 0, 896.154882810495) /* Deception           Specialized */
-     , (14562, 24, 0, 3, 0,  10, 0, 896.154882810495) /* Run                 Specialized */
-     , (14562, 31, 0, 3, 0, 275, 0, 896.154882810495) /* CreatureEnchantment Specialized */
-     , (14562, 33, 0, 3, 0, 275, 0, 896.154882810495) /* LifeMagic           Specialized */
-     , (14562, 34, 0, 3, 0, 275, 0, 896.154882810495) /* WarMagic            Specialized */;
+VALUES (14562,  6, 0, 3, 0, 375, 0, 896.1548828104953) /* MeleeDefense        Specialized */
+     , (14562,  7, 0, 3, 0, 445, 0, 896.1548828104953) /* MissileDefense      Specialized */
+     , (14562, 13, 0, 3, 0, 310, 0, 896.1548828104953) /* UnarmedCombat       Specialized */
+     , (14562, 15, 0, 3, 0, 260, 0, 896.1548828104953) /* MagicDefense        Specialized */
+     , (14562, 20, 0, 3, 0, 100, 0, 896.1548828104953) /* Deception           Specialized */
+     , (14562, 24, 0, 3, 0,  10, 0, 896.1548828104953) /* Run                 Specialized */
+     , (14562, 31, 0, 3, 0, 275, 0, 896.1548828104953) /* CreatureEnchantment Specialized */
+     , (14562, 33, 0, 3, 0, 275, 0, 896.1548828104953) /* LifeMagic           Specialized */
+     , (14562, 34, 0, 3, 0, 275, 0, 896.1548828104953) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (14562,  0, 64, 95, 0.75,  300,  300,  300,  300,  357,  300,  834,  300,    0, 1,  0.5,  0.2,    0,  0.5,  0.2,    0,    0,    0,    0,    0,    0,    0) /* Head */
@@ -113,12 +113,12 @@ VALUES (14562,  0, 64, 95, 0.75,  300,  300,  300,  300,  357,  300,  834,  300,
      , (14562, 22, 64, 95, 0.75,  300,  300,  300,  300,  357,  300,  834,  300,    0, 2,    0,    0,    0,    0,    0,    0,  0.1,  0.1,    0,  0.1,  0.1,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (14562,    80,  2.115)  /* Lightning Bolt VI */
-     , (14562,   519,  2.115)  /* Acid Protection Self V */
-     , (14562,  1022,  2.115)  /* Bludgeoning Protection Self V */
+VALUES (14562,   519,  2.115)  /* Acid Protection Self V */
      , (14562,  1093,  2.115)  /* Fire Protection Self V */
+     , (14562,    80,  2.115)  /* Lightning Bolt VI */
+     , (14562,  1137,  2.115)  /* Piercing Protection Self V */
      , (14562,  1113,  2.115)  /* Blade Protection Self V */
-     , (14562,  1137,  2.115)  /* Piercing Protection Self V */;
+     , (14562,  1022,  2.115)  /* Bludgeoning Protection Self V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (14562,  94) /* ATTACK_NOTIFICATION_EVENT */

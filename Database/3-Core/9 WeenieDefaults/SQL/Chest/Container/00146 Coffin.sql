@@ -33,8 +33,8 @@ VALUES (146,   1, 'Coffin') /* Name */
      , (146,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (146,   1,   33554638) /* Setup */
-     , (146,   2,  150994980) /* MotionTable */
-     , (146,   3,  536870950) /* SoundTable */
-     , (146,   8,  100667426) /* Icon */
-     , (146,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (146,   1, 0x020000CE) /* Setup */
+     , (146,   2, 0x09000024) /* MotionTable */
+     , (146,   3, 0x20000026) /* SoundTable */
+     , (146,   8, 0x06001022) /* Icon */
+     , (146,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -65,12 +65,12 @@ VALUES (22510,   1, 'Tusker Kin') /* Name */
      , (22510,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22510,   1,   33554433) /* Setup */
-     , (22510,   2,  150994945) /* MotionTable */
-     , (22510,   3,  536870913) /* SoundTable */
-     , (22510,   4,  805306368) /* CombatTable */
-     , (22510,   8,  100667446) /* Icon */
-     , (22510,  22,  872415236) /* PhysicsEffectTable */
+VALUES (22510,   1, 0x02000001) /* Setup */
+     , (22510,   2, 0x09000001) /* MotionTable */
+     , (22510,   3, 0x20000001) /* SoundTable */
+     , (22510,   4, 0x30000000) /* CombatTable */
+     , (22510,   8, 0x06001036) /* Icon */
+     , (22510,  22, 0x34000004) /* PhysicsEffectTable */
      , (22510,  32,        416) /* WieldedTreasureType - 
                                    Wield Clean, Dry Towel (10758) | Palette: Blue (2) | Probability: 50%
                                    Wield Clean, Dry Towel (10758) | Palette: Green (8) | Probability: 50% */
@@ -90,23 +90,23 @@ VALUES (22510,   1,    25, 0, 0, 50) /* MaxHealth */
      , (22510,   5,    40, 0, 0, 170) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (22510,  1, 0, 3, 0,  20, 0, 1356.93506359831) /* Axe                 Specialized */
-     , (22510,  2, 0, 3, 0,  20, 0, 1356.93506359831) /* Bow                 Specialized */
-     , (22510,  4, 0, 3, 0,  20, 0, 1356.93506359831) /* Dagger              Specialized */
-     , (22510,  5, 0, 3, 0,  20, 0, 1356.93506359831) /* Mace                Specialized */
-     , (22510,  6, 0, 3, 0,  23, 0, 1356.93506359831) /* MeleeDefense        Specialized */
-     , (22510,  7, 0, 3, 0,  45, 0, 1356.93506359831) /* MissileDefense      Specialized */
-     , (22510,  9, 0, 3, 0,  20, 0, 1356.93506359831) /* Spear               Specialized */
-     , (22510, 10, 0, 3, 0,  20, 0, 1356.93506359831) /* Staff               Specialized */
-     , (22510, 11, 0, 3, 0,  20, 0, 1356.93506359831) /* Sword               Specialized */
-     , (22510, 13, 0, 3, 0,  20, 0, 1356.93506359831) /* UnarmedCombat       Specialized */
-     , (22510, 15, 0, 3, 0,  25, 0, 1356.93506359831) /* MagicDefense        Specialized */
-     , (22510, 20, 0, 3, 0, 150, 0, 1356.93506359831) /* Deception           Specialized */
-     , (22510, 24, 0, 3, 0,  20, 0, 1356.93506359831) /* Run                 Specialized */
-     , (22510, 31, 0, 3, 0,  15, 0, 1356.93506359831) /* CreatureEnchantment Specialized */
-     , (22510, 32, 0, 3, 0,  15, 0, 1356.93506359831) /* ItemEnchantment     Specialized */
-     , (22510, 33, 0, 3, 0,  15, 0, 1356.93506359831) /* LifeMagic           Specialized */
-     , (22510, 34, 0, 3, 0,  15, 0, 1356.93506359831) /* WarMagic            Specialized */;
+VALUES (22510,  1, 0, 3, 0,  20, 0, 1356.935063598308) /* Axe                 Specialized */
+     , (22510,  2, 0, 3, 0,  20, 0, 1356.935063598308) /* Bow                 Specialized */
+     , (22510,  4, 0, 3, 0,  20, 0, 1356.935063598308) /* Dagger              Specialized */
+     , (22510,  5, 0, 3, 0,  20, 0, 1356.935063598308) /* Mace                Specialized */
+     , (22510,  6, 0, 3, 0,  23, 0, 1356.935063598308) /* MeleeDefense        Specialized */
+     , (22510,  7, 0, 3, 0,  45, 0, 1356.935063598308) /* MissileDefense      Specialized */
+     , (22510,  9, 0, 3, 0,  20, 0, 1356.935063598308) /* Spear               Specialized */
+     , (22510, 10, 0, 3, 0,  20, 0, 1356.935063598308) /* Staff               Specialized */
+     , (22510, 11, 0, 3, 0,  20, 0, 1356.935063598308) /* Sword               Specialized */
+     , (22510, 13, 0, 3, 0,  20, 0, 1356.935063598308) /* UnarmedCombat       Specialized */
+     , (22510, 15, 0, 3, 0,  25, 0, 1356.935063598308) /* MagicDefense        Specialized */
+     , (22510, 20, 0, 3, 0, 150, 0, 1356.935063598308) /* Deception           Specialized */
+     , (22510, 24, 0, 3, 0,  20, 0, 1356.935063598308) /* Run                 Specialized */
+     , (22510, 31, 0, 3, 0,  15, 0, 1356.935063598308) /* CreatureEnchantment Specialized */
+     , (22510, 32, 0, 3, 0,  15, 0, 1356.935063598308) /* ItemEnchantment     Specialized */
+     , (22510, 33, 0, 3, 0,  15, 0, 1356.935063598308) /* LifeMagic           Specialized */
+     , (22510, 34, 0, 3, 0,  15, 0, 1356.935063598308) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (22510,  0,  4,  0,    0,  140,  126,  140,  154,   56,   56,  140,   84,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -121,15 +121,15 @@ VALUES (22510,  0,  4,  0,    0,  140,  126,  140,  154,   56,   56,  140,   84,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22510,    24,      2)  /* Armor Self I */
-     , (22510,    25,   2.12)  /* Imperil Other I */
-     , (22510,    27,   2.12)  /* Flame Bolt I */
-     , (22510,    28,   2.12)  /* Frost Bolt I */
-     , (22510,    58,   2.12)  /* Acid Stream I */
      , (22510,    64,   2.12)  /* Shock Wave I */
+     , (22510,    27,   2.12)  /* Flame Bolt I */
      , (22510,    75,   2.12)  /* Lightning Bolt I */
      , (22510,    86,   2.12)  /* Force Bolt I */
+     , (22510,    28,   2.12)  /* Frost Bolt I */
      , (22510,    92,   2.12)  /* Whirling Blade I */
-     , (22510,  1048,   2.04)  /* Bludgeoning Vulnerability Other I */;
+     , (22510,  1048,   2.04)  /* Bludgeoning Vulnerability Other I */
+     , (22510,    25,   2.12)  /* Imperil Other I */
+     , (22510,    58,   2.12)  /* Acid Stream I */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (22510,  94) /* ATTACK_NOTIFICATION_EVENT */

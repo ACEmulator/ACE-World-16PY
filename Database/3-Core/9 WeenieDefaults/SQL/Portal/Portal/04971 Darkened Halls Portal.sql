@@ -26,10 +26,10 @@ VALUES (4971,   1, 'Darkened Halls Portal') /* Name */
      , (4971,  37, 'PortalDarklightPermissionGiven') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4971,   1,   33555923) /* Setup */
-     , (4971,   2,  150994947) /* MotionTable */
-     , (4971,   8,  100667499) /* Icon */;
+VALUES (4971,   1, 0x020005D3) /* Setup */
+     , (4971,   2, 0x09000003) /* MotionTable */
+     , (4971,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4971, 2, 21234100, 30, -50, 12, -4.371139E-08, 0, 0, -1) /* Destination */
-/* @teleloc 0x014401B4 [30.000000 -50.000000 12.000000] 0.000000 0.000000 0.000000 -1.000000 */;
+VALUES (4971, 2, 0x014401B4, 30, -50, 12, -0, 0, -0, -1) /* Destination */
+/* @teleloc 0x014401B4 [30.000000 -50.000000 12.000000] -0.000000 0.000000 -0.000000 -1.000000 */;

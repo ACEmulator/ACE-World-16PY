@@ -36,11 +36,11 @@ VALUES (26256,   1, 'Mahara Cottages Portal Gem') /* Name */
      , (26256,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26256,   1,   33556769) /* Setup */
-     , (26256,   3,  536870932) /* SoundTable */
-     , (26256,   6,   67111919) /* PaletteBase */
-     , (26256,   7,  268435723) /* ClothingBase */
-     , (26256,   8,  100675760) /* Icon */
-     , (26256,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26256,   1, 0x02000921) /* Setup */
+     , (26256,   3, 0x20000014) /* SoundTable */
+     , (26256,   6, 0x04000BEF) /* PaletteBase */
+     , (26256,   7, 0x1000010B) /* ClothingBase */
+     , (26256,   8, 0x060030B0) /* Icon */
+     , (26256,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26256,  28,        157) /* Spell - Summon Primary Portal I */
      , (26256,  31,      15171) /* LinkedPortalOne - Mahara Cottages Portal */;

@@ -46,13 +46,13 @@ VALUES (21198,   1, 'Ulgrim''s Sword') /* Name */
      , (21198,  25, 'Ulgrim the Unpleasant') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21198,   1,   33554742) /* Setup */
-     , (21198,   3,  536870932) /* SoundTable */
-     , (21198,   6,   67111919) /* PaletteBase */
-     , (21198,   7,  268436346) /* ClothingBase */
-     , (21198,   8,  100668915) /* Icon */
-     , (21198,  22,  872415275) /* PhysicsEffectTable */
-     , (21198,  36,  234881044) /* MutateFilter */;
+VALUES (21198,   1, 0x02000136) /* Setup */
+     , (21198,   3, 0x20000014) /* SoundTable */
+     , (21198,   6, 0x04000BEF) /* PaletteBase */
+     , (21198,   7, 0x1000037A) /* ClothingBase */
+     , (21198,   8, 0x060015F3) /* Icon */
+     , (21198,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (21198,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21198,  38,          0) /* AllowedWielder */;
+VALUES (21198,  38, 0x00000000) /* AllowedWielder */;

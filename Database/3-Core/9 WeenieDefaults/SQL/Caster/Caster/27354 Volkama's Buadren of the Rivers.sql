@@ -33,7 +33,7 @@ VALUES (27354,  22, True ) /* Inscribable */
      , (27354,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27354,   5, -0.033333) /* ManaRate */
+VALUES (27354,   5,  -0.033) /* ManaRate */
      , (27354,  29,    1.08) /* WeaponDefense */
      , (27354,  39,     1.1) /* DefaultScale */;
 
@@ -42,14 +42,14 @@ VALUES (27354,   1, 'Volkama''s Buadren of the Rivers') /* Name */
      , (27354,  16, 'A buadren fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27354,   1,   33558670) /* Setup */
-     , (27354,   3,  536870932) /* SoundTable */
-     , (27354,   6,   67113336) /* PaletteBase */
-     , (27354,   7,  268436254) /* ClothingBase */
-     , (27354,   8,  100676360) /* Icon */
-     , (27354,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27354,   1, 0x0200108E) /* Setup */
+     , (27354,   3, 0x20000014) /* SoundTable */
+     , (27354,   6, 0x04001178) /* PaletteBase */
+     , (27354,   7, 0x1000031E) /* ClothingBase */
+     , (27354,   8, 0x06003308) /* Icon */
+     , (27354,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27354,  2470,      2)  /* Greater Still Water */
-     , (27354,  2473,      2)  /* Greater Torrent */
-     , (27354,  3224,      2)  /* Greater Cascade */;
+VALUES (27354,  3224,      2)  /* Greater Cascade */
+     , (27354,  2470,      2)  /* Greater Still Water */
+     , (27354,  2473,      2)  /* Greater Torrent */;

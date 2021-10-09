@@ -39,9 +39,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3598,   1, 'Armor Piercing Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3598,   1,   33554724) /* Setup */
-     , (3598,   3,  536870932) /* SoundTable */
-     , (3598,   6,   67111919) /* PaletteBase */
-     , (3598,   7,  268436303) /* ClothingBase */
-     , (3598,   8,  100670194) /* Icon */
-     , (3598,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3598,   1, 0x02000124) /* Setup */
+     , (3598,   3, 0x20000014) /* SoundTable */
+     , (3598,   6, 0x04000BEF) /* PaletteBase */
+     , (3598,   7, 0x1000034F) /* ClothingBase */
+     , (3598,   8, 0x06001AF2) /* Icon */
+     , (3598,  22, 0x3400002B) /* PhysicsEffectTable */;

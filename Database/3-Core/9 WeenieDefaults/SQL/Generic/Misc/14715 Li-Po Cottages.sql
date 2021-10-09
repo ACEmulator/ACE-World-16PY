@@ -22,5 +22,5 @@ VALUES (14715,   1, 'Li-Po Cottages') /* Name */
      , (14715,  16, 'Welcome to Li-Po Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14715,   1,   33557463) /* Setup */
-     , (14715,   8,  100668115) /* Icon */;
+VALUES (14715,   1, 0x02000BD7) /* Setup */
+     , (14715,   8, 0x060012D3) /* Icon */;

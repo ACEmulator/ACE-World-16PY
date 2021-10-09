@@ -16,7 +16,7 @@ VALUES (30307,   1,        256) /* ItemType - MissileWeapon */
      , (30307,  48,          3) /* WeaponSkill - Crossbow */
      , (30307,  49,        120) /* WeaponTime */
      , (30307,  50,          2) /* AmmoType - Bolt */
-     , (30307,  51,          2) /* CombatUse - Missle */
+     , (30307,  51,          2) /* CombatUse - Missile */
      , (30307,  52,          2) /* ParentLocation - LeftHand */
      , (30307,  53,          3) /* PlacementPosition - LeftHand */
      , (30307,  60,        192) /* WeaponRange */
@@ -39,9 +39,9 @@ VALUES (30307,   1, 'Iron Bull') /* Name */
      , (30307,  16, 'Describe me here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30307,   1,   33554732) /* Setup */
-     , (30307,   3,  536870932) /* SoundTable */
-     , (30307,   6,   67111919) /* PaletteBase */
-     , (30307,   7,  268435762) /* ClothingBase */
-     , (30307,   8,  100668835) /* Icon */
-     , (30307,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30307,   1, 0x0200012C) /* Setup */
+     , (30307,   3, 0x20000014) /* SoundTable */
+     , (30307,   6, 0x04000BEF) /* PaletteBase */
+     , (30307,   7, 0x10000132) /* ClothingBase */
+     , (30307,   8, 0x060015A3) /* Icon */
+     , (30307,  22, 0x3400002B) /* PhysicsEffectTable */;

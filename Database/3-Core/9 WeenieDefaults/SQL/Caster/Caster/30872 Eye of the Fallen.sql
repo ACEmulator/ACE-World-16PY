@@ -38,11 +38,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30872,   1, 'Eye of the Fallen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30872,   1,   33559279) /* Setup */
-     , (30872,   3,  536870932) /* SoundTable */
-     , (30872,   8,  100677502) /* Icon */
-     , (30872,  22,  872415275) /* PhysicsEffectTable */
-     , (30872,  27, 1073741873) /* UseUserAnimation - MagicHeal */;
+VALUES (30872,   1, 0x020012EF) /* Setup */
+     , (30872,   3, 0x20000014) /* SoundTable */
+     , (30872,   8, 0x0600377E) /* Icon */
+     , (30872,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30872,  27, 0x40000031) /* UseUserAnimation - MagicHeal */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30872,  2287,      2)  /* Nuhmudira's Blessing */

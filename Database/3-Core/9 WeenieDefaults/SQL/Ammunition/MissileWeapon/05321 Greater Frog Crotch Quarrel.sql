@@ -40,9 +40,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5321,   1, 'Greater Frog Crotch Quarrel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5321,   1,   33554730) /* Setup */
-     , (5321,   3,  536870932) /* SoundTable */
-     , (5321,   6,   67111919) /* PaletteBase */
-     , (5321,   7,  268436306) /* ClothingBase */
-     , (5321,   8,  100670245) /* Icon */
-     , (5321,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5321,   1, 0x0200012A) /* Setup */
+     , (5321,   3, 0x20000014) /* SoundTable */
+     , (5321,   6, 0x04000BEF) /* PaletteBase */
+     , (5321,   7, 0x10000352) /* ClothingBase */
+     , (5321,   8, 0x06001B25) /* Icon */
+     , (5321,  22, 0x3400002B) /* PhysicsEffectTable */;

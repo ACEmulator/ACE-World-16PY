@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14272,   1, 'Midsong Cottages Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14272,   1,   33554867) /* Setup */
-     , (14272,   2,  150994947) /* MotionTable */
-     , (14272,   8,  100667499) /* Icon */;
+VALUES (14272,   1, 0x020001B3) /* Setup */
+     , (14272,   2, 0x09000003) /* MotionTable */
+     , (14272,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14272, 2, 2105409598, 175.322, 135.799, 32.858, -0.5771522, 0, 0, -0.8166366) /* Destination */
-/* @teleloc 0x7D7E003E [175.322000 135.799000 32.858000] -0.577152 0.000000 0.000000 -0.816637 */;
+VALUES (14272, 2, 0x7D7E003E, 175.322, 135.799, 32.858, -0.577152, 0, -0, -0.816637) /* Destination */
+/* @teleloc 0x7D7E003E [175.322006 135.798996 32.858002] -0.577152 0.000000 -0.000000 -0.816637 */;

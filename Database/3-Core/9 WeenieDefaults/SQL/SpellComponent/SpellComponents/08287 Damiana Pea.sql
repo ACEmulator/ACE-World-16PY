@@ -30,10 +30,10 @@ VALUES (8287,   1, 'Damiana Pea') /* Name */
      , (8287,  16, 'A concentrated damiana pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8287,   1,   33554817) /* Setup */
-     , (8287,   3,  536870932) /* SoundTable */
-     , (8287,   6,   67111919) /* PaletteBase */
-     , (8287,   7,  268435720) /* ClothingBase */
-     , (8287,   8,  100671044) /* Icon */
-     , (8287,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8287,   1, 0x02000181) /* Setup */
+     , (8287,   3, 0x20000014) /* SoundTable */
+     , (8287,   6, 0x04000BEF) /* PaletteBase */
+     , (8287,   7, 0x10000108) /* ClothingBase */
+     , (8287,   8, 0x06001E44) /* Icon */
+     , (8287,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8287,  29,        122) /* SpellComponent */;

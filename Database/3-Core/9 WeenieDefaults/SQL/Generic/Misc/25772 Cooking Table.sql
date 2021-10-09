@@ -23,5 +23,5 @@ VALUES (25772,   1, 'Cooking Table') /* Name */
      , (25772,  16, 'A table with various cooking supplies and tools on it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25772,   1,   33558529) /* Setup */
-     , (25772,   8,  100675555) /* Icon */;
+VALUES (25772,   1, 0x02001001) /* Setup */
+     , (25772,   8, 0x06002FE3) /* Icon */;

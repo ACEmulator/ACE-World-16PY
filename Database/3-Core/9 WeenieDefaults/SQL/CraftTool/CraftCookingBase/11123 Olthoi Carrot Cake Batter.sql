@@ -30,7 +30,7 @@ VALUES (11123,   1, 'Olthoi Carrot Cake Batter') /* Name */
      , (11123,  20, 'Batches of Olthoi Carrot Cake Batter') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11123,   1,   33555968) /* Setup */
-     , (11123,   3,  536870932) /* SoundTable */
-     , (11123,   8,  100671759) /* Icon */
-     , (11123,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11123,   1, 0x02000600) /* Setup */
+     , (11123,   3, 0x20000014) /* SoundTable */
+     , (11123,   8, 0x0600210F) /* Icon */
+     , (11123,  22, 0x3400002B) /* PhysicsEffectTable */;

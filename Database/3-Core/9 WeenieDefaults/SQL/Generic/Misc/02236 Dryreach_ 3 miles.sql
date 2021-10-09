@@ -22,5 +22,5 @@ VALUES (2236,   1, 'Dryreach: 3 miles') /* Name */
      , (2236,  16, 'Town of Dryreach: 3 miles.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2236,   1,   33555088) /* Setup */
-     , (2236,   8,  100668115) /* Icon */;
+VALUES (2236,   1, 0x02000290) /* Setup */
+     , (2236,   8, 0x060012D3) /* Icon */;

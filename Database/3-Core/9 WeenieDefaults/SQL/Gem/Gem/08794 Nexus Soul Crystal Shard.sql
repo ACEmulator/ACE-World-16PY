@@ -34,10 +34,10 @@ VALUES (8794,   1, 'Nexus Soul Crystal Shard') /* Name */
      , (8794,  33, 'ShardSoulCrystal') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8794,   1,   33556406) /* Setup */
-     , (8794,   3,  536870932) /* SoundTable */
-     , (8794,   6,   67111919) /* PaletteBase */
-     , (8794,   7,  268435994) /* ClothingBase */
-     , (8794,   8,  100671235) /* Icon */
-     , (8794,  22,  872415275) /* PhysicsEffectTable */
-     , (8794,  36,  234881046) /* MutateFilter */;
+VALUES (8794,   1, 0x020007B6) /* Setup */
+     , (8794,   3, 0x20000014) /* SoundTable */
+     , (8794,   6, 0x04000BEF) /* PaletteBase */
+     , (8794,   7, 0x1000021A) /* ClothingBase */
+     , (8794,   8, 0x06001F03) /* Icon */
+     , (8794,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8794,  36, 0x0E000016) /* MutateFilter */;

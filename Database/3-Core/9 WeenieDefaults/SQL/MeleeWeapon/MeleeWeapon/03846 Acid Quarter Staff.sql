@@ -38,11 +38,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3846,   1, 'Acid Quarter Staff') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3846,   1,   33555770) /* Setup */
-     , (3846,   3,  536870932) /* SoundTable */
-     , (3846,   6,   67111919) /* PaletteBase */
-     , (3846,   7,  268435795) /* ClothingBase */
-     , (3846,   8,  100667602) /* Icon */
-     , (3846,  22,  872415275) /* PhysicsEffectTable */
-     , (3846,  36,  234881053) /* MutateFilter */
-     , (3846,  46,  939524110) /* TsysMutationFilter */;
+VALUES (3846,   1, 0x0200053A) /* Setup */
+     , (3846,   3, 0x20000014) /* SoundTable */
+     , (3846,   6, 0x04000BEF) /* PaletteBase */
+     , (3846,   7, 0x10000153) /* ClothingBase */
+     , (3846,   8, 0x060010D2) /* Icon */
+     , (3846,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3846,  36, 0x0E00001D) /* MutateFilter */
+     , (3846,  46, 0x3800000E) /* TsysMutationFilter */;

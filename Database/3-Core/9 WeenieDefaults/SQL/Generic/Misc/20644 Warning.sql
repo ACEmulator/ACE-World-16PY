@@ -22,5 +22,5 @@ VALUES (20644,   1, 'Warning') /* Name */
      , (20644,  16, 'Precarious Sojourn Portal. You must visit Slithe Tradittor near Lytelthorpe before using this portal!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20644,   1,   33555088) /* Setup */
-     , (20644,   8,  100668115) /* Icon */;
+VALUES (20644,   1, 0x02000290) /* Setup */
+     , (20644,   8, 0x060012D3) /* Icon */;

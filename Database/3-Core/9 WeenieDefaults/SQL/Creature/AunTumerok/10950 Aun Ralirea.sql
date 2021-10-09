@@ -71,14 +71,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10950,   1, 'Aun Ralirea') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10950,   1,   33557117) /* Setup */
-     , (10950,   2,  150994954) /* MotionTable */
-     , (10950,   3,  536870931) /* SoundTable */
-     , (10950,   4,  805306380) /* CombatTable */
-     , (10950,   6,   67113280) /* PaletteBase */
-     , (10950,   7,  268436193) /* ClothingBase */
-     , (10950,   8,  100671756) /* Icon */
-     , (10950,  22,  872415270) /* PhysicsEffectTable */
+VALUES (10950,   1, 0x02000A7D) /* Setup */
+     , (10950,   2, 0x0900000A) /* MotionTable */
+     , (10950,   3, 0x20000013) /* SoundTable */
+     , (10950,   4, 0x3000000C) /* CombatTable */
+     , (10950,   6, 0x04001140) /* PaletteBase */
+     , (10950,   7, 0x100002E1) /* ClothingBase */
+     , (10950,   8, 0x0600210C) /* Icon */
+     , (10950,  22, 0x34000026) /* PhysicsEffectTable */
      , (10950,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -126,43 +126,43 @@ VALUES (10950,  0,  4,  0,    0,  250,  250,  250,  250,  250,  250,  250,  250,
      , (10950,  8,  4, 35, 0.75,  250,  250,  250,  250,  250,  250,  250,  250,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10950,    62,  2.015)  /* Acid Stream V */
-     , (10950,    63,  2.003)  /* Acid Stream VI */
+VALUES (10950,  1223,  2.012)  /* Mana Drain Other V */
+     , (10950,  1159,  2.009)  /* Heal Self IV */
+     , (10950,  1175,  2.012)  /* Harm Other V */
+     , (10950,   260,  2.011)  /* Impregnability Self V */
+     , (10950,  1160,  2.009)  /* Heal Self V */
      , (10950,    68,  2.015)  /* Shock Wave V */
      , (10950,    69,  2.003)  /* Shock Wave VI */
+     , (10950,   266,  2.012)  /* Defenselessness Other V */
+     , (10950,   137,  2.015)  /* Frost Volley V */
      , (10950,    73,  2.015)  /* Frost Bolt V */
      , (10950,    74,  2.003)  /* Frost Bolt VI */
-     , (10950,    79,  2.015)  /* Lightning Bolt V */
-     , (10950,    80,  2.003)  /* Lightning Bolt VI */
-     , (10950,    84,  2.015)  /* Flame Bolt V */
-     , (10950,    85,  2.003)  /* Flame Bolt VI */
-     , (10950,    90,  2.015)  /* Force Bolt V */
-     , (10950,    91,  2.003)  /* Force Bolt VI */
-     , (10950,    96,  2.015)  /* Whirling Blade V */
-     , (10950,    97,  2.003)  /* Whirling Blade VI */
-     , (10950,   105,  2.015)  /* Shock Blast V */
-     , (10950,   106,  2.003)  /* Shock Blast VI */
-     , (10950,   137,  2.015)  /* Frost Volley V */
      , (10950,   138,  2.003)  /* Frost Volley VI */
      , (10950,   141,  2.015)  /* Lightning Volley V */
      , (10950,   142,  2.003)  /* Lightning Volley VI */
+     , (10950,    79,  2.015)  /* Lightning Bolt V */
+     , (10950,    80,  2.003)  /* Lightning Bolt VI */
      , (10950,   145,  2.015)  /* Flame Volley V */
      , (10950,   146,  2.003)  /* Flame Volley VI */
-     , (10950,   153,  2.015)  /* Blade Volley V */
-     , (10950,   154,  2.003)  /* Blade Volley VI */
-     , (10950,   233,  2.012)  /* Vulnerability Other V */
-     , (10950,   248,  2.011)  /* Invulnerability Self V */
-     , (10950,   260,  2.011)  /* Impregnability Self V */
-     , (10950,   266,  2.012)  /* Defenselessness Other V */
+     , (10950,    84,  2.015)  /* Flame Bolt V */
+     , (10950,    85,  2.003)  /* Flame Bolt VI */
      , (10950,   278,  2.011)  /* Magic Resistance Self V */
-     , (10950,   284,  2.012)  /* Magic Yield Other V */
-     , (10950,  1159,  2.009)  /* Heal Self IV */
-     , (10950,  1160,  2.009)  /* Heal Self V */
-     , (10950,  1175,  2.012)  /* Harm Other V */
+     , (10950,   153,  2.015)  /* Blade Volley V */
+     , (10950,    90,  2.015)  /* Force Bolt V */
+     , (10950,   154,  2.003)  /* Blade Volley VI */
+     , (10950,    91,  2.003)  /* Force Bolt VI */
      , (10950,  1199,  2.012)  /* Enfeeble Other V */
-     , (10950,  1223,  2.012)  /* Mana Drain Other V */
+     , (10950,   284,  2.012)  /* Magic Yield Other V */
+     , (10950,    96,  2.015)  /* Whirling Blade V */
+     , (10950,    97,  2.003)  /* Whirling Blade VI */
+     , (10950,   105,  2.015)  /* Shock Blast V */
+     , (10950,   233,  2.012)  /* Vulnerability Other V */
+     , (10950,   106,  2.003)  /* Shock Blast VI */
+     , (10950,   248,  2.011)  /* Invulnerability Self V */
      , (10950,  1331,  2.011)  /* Strength Self V */
-     , (10950,  1401,  2.011)  /* Quickness Self V */;
+     , (10950,  1401,  2.011)  /* Quickness Self V */
+     , (10950,    62,  2.015)  /* Acid Stream V */
+     , (10950,    63,  2.003)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (10950,  94) /* ATTACK_NOTIFICATION_EVENT */
@@ -178,7 +178,7 @@ VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'ChampionKillQuest1', 
      , (@parent_id,  1,  17 /* LocalBroadcast */, 0, 0, NULL, 'The mighty Ralirea sags from %s''s fatal blow. "Ah, Mirakah," he murmurs. "I shall not be able to fill our stores this winter. But I will meet you at the lodge, my love... at last..." So saying, the hunter passes like the wind over sea.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (10950,  5 /* HeartBeat */,   0.01, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (10950,  5 /* HeartBeat */,   0.01, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -186,7 +186,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'Ralirea pokes the wood of his fire with a stick, and a swarm of embers ascend like fireflies. The hunter watches them, and sighs. "Ever do they fade," he murmurs.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (10950,  5 /* HeartBeat */,   0.02, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (10950,  5 /* HeartBeat */,   0.02, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -194,7 +194,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'Ralirea looks away toward the distant sea, and murmurs, "Somewhere..."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (10950,  5 /* HeartBeat */,   0.03, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (10950,  5 /* HeartBeat */,   0.03, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -202,7 +202,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'Ralirea grasps the small clay figurine that dangles from his neck, and holds it before the flickering light of the fire.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (10950,  5 /* HeartBeat */,   0.04, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (10950,  5 /* HeartBeat */,   0.04, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -216,7 +216,7 @@ VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'Ralirea sings, "T
      , (@parent_id,  6,  17 /* LocalBroadcast */, 1, 0, NULL, 'The colors of faded dreams."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (10950,  5 /* HeartBeat */,   0.05, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (10950,  5 /* HeartBeat */,   0.05, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

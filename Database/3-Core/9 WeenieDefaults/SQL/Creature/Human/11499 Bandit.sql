@@ -60,15 +60,15 @@ VALUES (11499,   1, 'Bandit') /* Name */
      , (11499,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11499,   1,   33554433) /* Setup */
-     , (11499,   2,  150994945) /* MotionTable */
-     , (11499,   3,  536870913) /* SoundTable */
-     , (11499,   4,  805306368) /* CombatTable */
-     , (11499,   8,  100667446) /* Icon */
-     , (11499,  22,  872415236) /* PhysicsEffectTable */
+VALUES (11499,   1, 0x02000001) /* Setup */
+     , (11499,   2, 0x09000001) /* MotionTable */
+     , (11499,   3, 0x20000001) /* SoundTable */
+     , (11499,   4, 0x30000000) /* CombatTable */
+     , (11499,   8, 0x06001036) /* Icon */
+     , (11499,  22, 0x34000004) /* PhysicsEffectTable */
      , (11499,  32,        364) /* WieldedTreasureType - 
                                    Wield Boots (2606) | Probability: 40%
-                                   Wield Leather Boots (115) | Probability: 30%
+                                   Wield Leather Boots (115) | Probability: 30.000002%
                                    Wield Studded Leather Boots (116) | Probability: 20%
                                    Wield Steel Toed Boots (7897) | Probability: 10%
                                    Wield Doublet (2596) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.641%
@@ -414,17 +414,17 @@ VALUES (11499,   1,    15, 0, 0, 35) /* MaxHealth */
      , (11499,   5,     0, 0, 0, 20) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (11499,  1, 0, 3, 0,   6, 0, 747.766235639979) /* Axe                 Specialized */
-     , (11499,  2, 0, 3, 0,   5, 0, 747.766235639979) /* Bow                 Specialized */
-     , (11499,  5, 0, 3, 0,   6, 0, 747.766235639979) /* Mace                Specialized */
-     , (11499,  6, 0, 3, 0,   5, 0, 747.766235639979) /* MeleeDefense        Specialized */
-     , (11499,  7, 0, 3, 0,  35, 0, 747.766235639979) /* MissileDefense      Specialized */
-     , (11499,  9, 0, 3, 0,   6, 0, 747.766235639979) /* Spear               Specialized */
-     , (11499, 10, 0, 3, 0,   6, 0, 747.766235639979) /* Staff               Specialized */
-     , (11499, 11, 0, 3, 0,   6, 0, 747.766235639979) /* Sword               Specialized */
-     , (11499, 15, 0, 3, 0,  30, 0, 747.766235639979) /* MagicDefense        Specialized */
-     , (11499, 20, 0, 3, 0, 150, 0, 747.766235639979) /* Deception           Specialized */
-     , (11499, 24, 0, 3, 0,  20, 0, 747.766235639979) /* Run                 Specialized */;
+VALUES (11499,  1, 0, 3, 0,   6, 0, 747.7662356399786) /* Axe                 Specialized */
+     , (11499,  2, 0, 3, 0,   5, 0, 747.7662356399786) /* Bow                 Specialized */
+     , (11499,  5, 0, 3, 0,   6, 0, 747.7662356399786) /* Mace                Specialized */
+     , (11499,  6, 0, 3, 0,   5, 0, 747.7662356399786) /* MeleeDefense        Specialized */
+     , (11499,  7, 0, 3, 0,  35, 0, 747.7662356399786) /* MissileDefense      Specialized */
+     , (11499,  9, 0, 3, 0,   6, 0, 747.7662356399786) /* Spear               Specialized */
+     , (11499, 10, 0, 3, 0,   6, 0, 747.7662356399786) /* Staff               Specialized */
+     , (11499, 11, 0, 3, 0,   6, 0, 747.7662356399786) /* Sword               Specialized */
+     , (11499, 15, 0, 3, 0,  30, 0, 747.7662356399786) /* MagicDefense        Specialized */
+     , (11499, 20, 0, 3, 0, 150, 0, 747.7662356399786) /* Deception           Specialized */
+     , (11499, 24, 0, 3, 0,  20, 0, 747.7662356399786) /* Run                 Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (11499,  0,  4,  0,    0,   25,   23,   25,   28,   10,   10,   25,   15,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

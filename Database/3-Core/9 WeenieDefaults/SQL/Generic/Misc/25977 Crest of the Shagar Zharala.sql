@@ -28,10 +28,10 @@ VALUES (25977,   1, 'Crest of the Shagar Zharala') /* Name */
      , (25977,  33, 'PickedUpZharalimEmblem') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25977,   1,   33554683) /* Setup */
-     , (25977,   3,  536870932) /* SoundTable */
-     , (25977,   6,   67111919) /* PaletteBase */
-     , (25977,   7,  268435832) /* ClothingBase */
-     , (25977,   8,  100675674) /* Icon */
-     , (25977,  22,  872415275) /* PhysicsEffectTable */
-     , (25977,  36,  234881046) /* MutateFilter */;
+VALUES (25977,   1, 0x020000FB) /* Setup */
+     , (25977,   3, 0x20000014) /* SoundTable */
+     , (25977,   6, 0x04000BEF) /* PaletteBase */
+     , (25977,   7, 0x10000178) /* ClothingBase */
+     , (25977,   8, 0x0600305A) /* Icon */
+     , (25977,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (25977,  36, 0x0E000016) /* MutateFilter */;

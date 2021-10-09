@@ -46,13 +46,13 @@ VALUES (28218,   1, 'Sable Tooth Dirk') /* Name */
      , (28218,  16, 'A dirk crafted from the tooth of a sable gromnie.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28218,   1,   33558829) /* Setup */
-     , (28218,   3,  536870932) /* SoundTable */
-     , (28218,   8,  100676802) /* Icon */
-     , (28218,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28218,   1, 0x0200112D) /* Setup */
+     , (28218,   3, 0x20000014) /* SoundTable */
+     , (28218,   8, 0x060034C2) /* Icon */
+     , (28218,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28218,  1590,      2)  /* Aura of Heart Seeker Self IV */
-     , (28218,  1602,      2)  /* Aura of Defender Self III */
+VALUES (28218,  1602,      2)  /* Aura of Defender Self III */
+     , (28218,  1590,      2)  /* Aura of Heart Seeker Self IV */
      , (28218,  1614,      2)  /* Aura of Blood Drinker Self IV */
      , (28218,  1624,      2)  /* Aura of Swift Killer Self III */;

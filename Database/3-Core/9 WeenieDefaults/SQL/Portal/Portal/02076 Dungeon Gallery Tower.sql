@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2076,   1, 'Dungeon Gallery Tower') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2076,   1,   33554867) /* Setup */
-     , (2076,   2,  150994947) /* MotionTable */
-     , (2076,   8,  100667499) /* Icon */;
+VALUES (2076,   1, 0x020001B3) /* Setup */
+     , (2076,   2, 0x09000003) /* MotionTable */
+     , (2076,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2076, 2, 28115222, 29.94, -32.6, 0, 0.9999619, 0, 0, -0.008726535) /* Destination */
-/* @teleloc 0x01AD0116 [29.940000 -32.600000 0.000000] 0.999962 0.000000 0.000000 -0.008727 */;
+VALUES (2076, 2, 0x01AD0116, 29.94, -32.6, 0, 0.999962, 0, 0, -0.008727) /* Destination */
+/* @teleloc 0x01AD0116 [29.940001 -32.599998 0.000000] 0.999962 0.000000 0.000000 -0.008727 */;

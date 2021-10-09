@@ -25,7 +25,7 @@ VALUES (3158,   1, 'Scroll of Axe Ineptitude Other II') /* Name */
      , (3158,  16, 'When learned, this spell decreases the target''s Axe skill by 20%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3158,   1,   33554826) /* Setup */
-     , (3158,   8,  100676449) /* Icon */
-     , (3158,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3158,   1, 0x0200018A) /* Setup */
+     , (3158,   8, 0x06003361) /* Icon */
+     , (3158,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3158,  28,        305) /* Spell - Light Weapon Ineptitude Other II */;

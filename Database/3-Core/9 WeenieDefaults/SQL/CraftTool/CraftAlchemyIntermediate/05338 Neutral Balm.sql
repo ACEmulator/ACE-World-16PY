@@ -26,7 +26,7 @@ VALUES (5338,   1, 'Neutral Balm') /* Name */
      , (5338,  20, 'Neutral Balms') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5338,   1,   33555963) /* Setup */
-     , (5338,   3,  536870932) /* SoundTable */
-     , (5338,   8,  100670004) /* Icon */
-     , (5338,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5338,   1, 0x020005FB) /* Setup */
+     , (5338,   3, 0x20000014) /* SoundTable */
+     , (5338,   8, 0x06001A34) /* Icon */
+     , (5338,  22, 0x3400002B) /* PhysicsEffectTable */;

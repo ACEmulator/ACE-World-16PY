@@ -22,7 +22,7 @@ VALUES (499,   1, 'The True Shot') /* Name */
      , (499,  16, 'The True Shot ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (499,   1,   33555088) /* Setup */
-     , (499,   6,   67111092) /* PaletteBase */
-     , (499,   7,  268435654) /* ClothingBase */
-     , (499,   8,  100668115) /* Icon */;
+VALUES (499,   1, 0x02000290) /* Setup */
+     , (499,   6, 0x040008B4) /* PaletteBase */
+     , (499,   7, 0x100000C6) /* ClothingBase */
+     , (499,   8, 0x060012D3) /* Icon */;

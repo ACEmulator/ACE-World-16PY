@@ -25,7 +25,7 @@ VALUES (2923,   1, 'Scroll of Bludgeoning Volley V') /* Name */
      , (2923,  16, 'When learned, this spell shoots three shock waves toward the target. Each wave does 13-25 points of bludgeoning damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2923,   1,   33554826) /* Setup */
-     , (2923,   8,  100677008) /* Icon */
-     , (2923,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2923,   1, 0x0200018A) /* Setup */
+     , (2923,   8, 0x06003590) /* Icon */
+     , (2923,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2923,  28,        133) /* Spell - Bludgeoning Volley V */;

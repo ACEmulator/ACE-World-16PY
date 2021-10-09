@@ -30,8 +30,8 @@ VALUES (24570,   1, 'Corall Gate') /* Name */
      , (24570,  16, 'Please keep this gate closed so the Aurochs don''t escape.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24570,   1,   33555381) /* Setup */
-     , (24570,   2,  150994979) /* MotionTable */
-     , (24570,   3,  536870947) /* SoundTable */
-     , (24570,   8,  100668183) /* Icon */
-     , (24570,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24570,   1, 0x020003B5) /* Setup */
+     , (24570,   2, 0x09000023) /* MotionTable */
+     , (24570,   3, 0x20000023) /* SoundTable */
+     , (24570,   8, 0x06001317) /* Icon */
+     , (24570,  22, 0x3400002B) /* PhysicsEffectTable */;

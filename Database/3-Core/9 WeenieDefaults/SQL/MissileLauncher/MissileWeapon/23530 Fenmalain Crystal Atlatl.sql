@@ -18,7 +18,7 @@ VALUES (23530,   1,        256) /* ItemType - MissileWeapon */
      , (23530,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (23530,  49,         30) /* WeaponTime */
      , (23530,  50,         32) /* AmmoType - AtlatlCrystal */
-     , (23530,  51,          2) /* CombatUse - Missle */
+     , (23530,  51,          2) /* CombatUse - Missile */
      , (23530,  60,        120) /* WeaponRange */
      , (23530,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23530, 106,        200) /* ItemSpellcraft */
@@ -47,15 +47,15 @@ VALUES (23530,   1, 'Fenmalain Crystal Atlatl') /* Name */
      , (23530,  16, 'An atlatl imbued with the essence of the Fenmalain Crystal. Uses crystal-tipped darts.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23530,   1,   33557433) /* Setup */
-     , (23530,   3,  536870932) /* SoundTable */
-     , (23530,   6,   67111919) /* PaletteBase */
-     , (23530,   7,  268436042) /* ClothingBase */
-     , (23530,   8,  100674034) /* Icon */
-     , (23530,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23530,   1, 0x02000BB9) /* Setup */
+     , (23530,   3, 0x20000014) /* SoundTable */
+     , (23530,   6, 0x04000BEF) /* PaletteBase */
+     , (23530,   7, 0x1000024A) /* ClothingBase */
+     , (23530,   8, 0x060029F2) /* Icon */
+     , (23530,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23530,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23530,   535,      2)  /* Missile Weapon Mastery Other III */
-     , (23530,  1613,      2)  /* Aura of Blood Drinker Self III */
+VALUES (23530,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (23530,   535,      2)  /* Missile Weapon Mastery Other III */
      , (23530,  1624,      2)  /* Aura of Swift Killer Self III */;

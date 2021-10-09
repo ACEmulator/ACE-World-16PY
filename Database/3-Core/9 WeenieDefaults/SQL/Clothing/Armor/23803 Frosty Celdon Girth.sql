@@ -32,7 +32,7 @@ VALUES (23803,  22, True ) /* Inscribable */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23803,   5,  -0.025) /* ManaRate */
-     , (23803,  12, 0.232225) /* Shade */
+     , (23803,  12,   0.232) /* Shade */
      , (23803,  13,     1.3) /* ArmorModVsSlash */
      , (23803,  14,       1) /* ArmorModVsPierce */
      , (23803,  15,       1) /* ArmorModVsBludgeon */
@@ -47,12 +47,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23803,   1, 'Frosty Celdon Girth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23803,   1,   33554647) /* Setup */
-     , (23803,   3,  536870932) /* SoundTable */
-     , (23803,   6,   67108990) /* PaletteBase */
-     , (23803,   7,  268435843) /* ClothingBase */
-     , (23803,   8,  100674070) /* Icon */
-     , (23803,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23803,   1, 0x020000D7) /* Setup */
+     , (23803,   3, 0x20000014) /* SoundTable */
+     , (23803,   6, 0x0400007E) /* PaletteBase */
+     , (23803,   7, 0x10000183) /* ClothingBase */
+     , (23803,   8, 0x06002A16) /* Icon */
+     , (23803,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23803,  2612,      2)  /* Major Frost Ward */;

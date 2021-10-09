@@ -25,12 +25,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5444,   1, 'Warmtide Festival Stone Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5444,   1,   33554867) /* Setup */
-     , (5444,   2,  150994947) /* MotionTable */
-     , (5444,   6,   67109370) /* PaletteBase */
-     , (5444,   7,  268435652) /* ClothingBase */
-     , (5444,   8,  100667499) /* Icon */;
+VALUES (5444,   1, 0x020001B3) /* Setup */
+     , (5444,   2, 0x09000003) /* MotionTable */
+     , (5444,   6, 0x040001FA) /* PaletteBase */
+     , (5444,   7, 0x100000C4) /* ClothingBase */
+     , (5444,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5444, 2, 2036662323, 152.3, 49.3, 50, 0.9832549, 0, 0, -0.1822355) /* Destination */
-/* @teleloc 0x79650033 [152.300000 49.300000 50.000000] 0.983255 0.000000 0.000000 -0.182236 */;
+VALUES (5444, 2, 0x79650033, 152.3, 49.3, 50, 0.983255, 0, 0, -0.182236) /* Destination */
+/* @teleloc 0x79650033 [152.300003 49.299999 50.000000] 0.983255 0.000000 0.000000 -0.182236 */;

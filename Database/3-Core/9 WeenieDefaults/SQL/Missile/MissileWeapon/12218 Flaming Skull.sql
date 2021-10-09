@@ -20,7 +20,7 @@ VALUES (12218,   1,        256) /* ItemType - MissileWeapon */
      , (12218,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (12218,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (12218,  49,         10) /* WeaponTime */
-     , (12218,  51,          2) /* CombatUse - Missle */
+     , (12218,  51,          2) /* CombatUse - Missile */
      , (12218,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (12218, 150,        103) /* HookPlacement - Hook */
      , (12218, 151,         11) /* HookType - Floor, Wall, Yard */;
@@ -43,7 +43,7 @@ VALUES (12218,   1, 'Flaming Skull') /* Name */
      , (12218,  16, 'It''s a skull, that burns within with a strange supernatural flame.  You can sense a strange, latent magic within it.  When it is thrown in combat, it will mystically replenish itself, tapping into the magic until it is exhausted.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12218,   1,   33557366) /* Setup */
-     , (12218,   3,  536870932) /* SoundTable */
-     , (12218,   8,  100672174) /* Icon */
-     , (12218,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12218,   1, 0x02000B76) /* Setup */
+     , (12218,   3, 0x20000014) /* SoundTable */
+     , (12218,   8, 0x060022AE) /* Icon */
+     , (12218,  22, 0x3400002B) /* PhysicsEffectTable */;

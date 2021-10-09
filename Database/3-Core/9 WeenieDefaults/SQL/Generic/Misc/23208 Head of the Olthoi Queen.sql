@@ -23,6 +23,6 @@ VALUES (23208,   1, 'Head of the Olthoi Queen') /* Name */
      , (23208,  16, 'The head of the Olthoi Queen.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23208,   1,   33557148) /* Setup */
-     , (23208,   3,  536870932) /* SoundTable */
-     , (23208,   8,  100671782) /* Icon */;
+VALUES (23208,   1, 0x02000A9C) /* Setup */
+     , (23208,   3, 0x20000014) /* SoundTable */
+     , (23208,   8, 0x06002126) /* Icon */;

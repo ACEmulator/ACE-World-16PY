@@ -38,11 +38,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3902,   1, 'Lightning Tungi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3902,   1,   33555805) /* Setup */
-     , (3902,   3,  536870932) /* SoundTable */
-     , (3902,   6,   67111919) /* PaletteBase */
-     , (3902,   7,  268435774) /* ClothingBase */
-     , (3902,   8,  100667618) /* Icon */
-     , (3902,  22,  872415275) /* PhysicsEffectTable */
-     , (3902,  36,  234881053) /* MutateFilter */
-     , (3902,  46,  939524098) /* TsysMutationFilter */;
+VALUES (3902,   1, 0x0200055D) /* Setup */
+     , (3902,   3, 0x20000014) /* SoundTable */
+     , (3902,   6, 0x04000BEF) /* PaletteBase */
+     , (3902,   7, 0x1000013E) /* ClothingBase */
+     , (3902,   8, 0x060010E2) /* Icon */
+     , (3902,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3902,  36, 0x0E00001D) /* MutateFilter */
+     , (3902,  46, 0x38000002) /* TsysMutationFilter */;

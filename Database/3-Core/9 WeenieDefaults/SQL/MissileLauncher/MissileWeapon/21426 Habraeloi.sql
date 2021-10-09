@@ -17,7 +17,7 @@ VALUES (21426,   1,        256) /* ItemType - MissileWeapon */
      , (21426,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (21426,  49,         75) /* WeaponTime */
      , (21426,  50,          4) /* AmmoType - Atlatl */
-     , (21426,  51,          2) /* CombatUse - Missle */
+     , (21426,  51,          2) /* CombatUse - Missile */
      , (21426,  60,        120) /* WeaponRange */
      , (21426,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (21426, 106,        250) /* ItemSpellcraft */
@@ -49,14 +49,14 @@ VALUES (21426,   1, 'Habraeloi') /* Name */
      , (21426,  15, 'An atlatl constructed from obsidian and cerulean colored stone.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21426,   1,   33557957) /* Setup */
-     , (21426,   3,  536870932) /* SoundTable */
-     , (21426,   8,  100673484) /* Icon */
-     , (21426,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21426,   1, 0x02000DC5) /* Setup */
+     , (21426,   3, 0x20000014) /* SoundTable */
+     , (21426,   8, 0x060027CC) /* Icon */
+     , (21426,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21426,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21426,   537,      2)  /* Missile Weapon Mastery Other V */
-     , (21426,  1604,      2)  /* Aura of Defender Self V */
+VALUES (21426,  1604,      2)  /* Aura of Defender Self V */
      , (21426,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (21426,  1624,      2)  /* Aura of Swift Killer Self III */;
+     , (21426,  1624,      2)  /* Aura of Swift Killer Self III */
+     , (21426,   537,      2)  /* Missile Weapon Mastery Other V */;

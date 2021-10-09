@@ -40,10 +40,10 @@ VALUES (10892,   1, 'Olthoi Cistern') /* Name */
      , (10892,  14, 'There is an opening in the top of the cistern that you might be able to reach into.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10892,   1,   33557286) /* Setup */
-     , (10892,   2,  150995240) /* MotionTable */
-     , (10892,   8,  100674304) /* Icon */
-     , (10892,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (10892,   1, 0x02000B26) /* Setup */
+     , (10892,   2, 0x09000128) /* MotionTable */
+     , (10892,   8, 0x06002B00) /* Icon */
+     , (10892,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (10892, 1, 10919, 5, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Mysterious Tumerok Artifact (10919) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

@@ -24,7 +24,7 @@ VALUES (20430,   1, 'Scroll of Dissolving Vortex') /* Name */
      , (20430,  15, 'When learned, this spell shoots five streams of acid outward from the caster. Each stream does 40-80 points of acid damage to the first thing it hits.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20430,   1,   33554826) /* Setup */
-     , (20430,   8,  100677026) /* Icon */
-     , (20430,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20430,   1, 0x0200018A) /* Setup */
+     , (20430,   8, 0x060035A2) /* Icon */
+     , (20430,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20430,  28,       2120) /* Spell - Dissolving Vortex */;

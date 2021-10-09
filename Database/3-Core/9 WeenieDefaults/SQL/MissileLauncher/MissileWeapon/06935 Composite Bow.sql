@@ -17,7 +17,7 @@ VALUES (6935,   1,        256) /* ItemType - MissileWeapon */
      , (6935,  48,          2) /* WeaponSkill - Bow */
      , (6935,  49,         40) /* WeaponTime */
      , (6935,  50,          1) /* AmmoType - Arrow */
-     , (6935,  51,          2) /* CombatUse - Missle */
+     , (6935,  51,          2) /* CombatUse - Missile */
      , (6935,  52,          2) /* ParentLocation - LeftHand */
      , (6935,  53,          3) /* PlacementPosition - LeftHand */
      , (6935,  60,        192) /* WeaponRange */
@@ -40,9 +40,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6935,   1, 'Composite Bow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6935,   1,   33556601) /* Setup */
-     , (6935,   3,  536870932) /* SoundTable */
-     , (6935,   6,   67112869) /* PaletteBase */
-     , (6935,   7,  268436003) /* ClothingBase */
-     , (6935,   8,  100670672) /* Icon */
-     , (6935,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6935,   1, 0x02000879) /* Setup */
+     , (6935,   3, 0x20000014) /* SoundTable */
+     , (6935,   6, 0x04000FA5) /* PaletteBase */
+     , (6935,   7, 0x10000223) /* ClothingBase */
+     , (6935,   8, 0x06001CD0) /* Icon */
+     , (6935,  22, 0x3400002B) /* PhysicsEffectTable */;

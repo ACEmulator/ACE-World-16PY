@@ -31,7 +31,7 @@ VALUES (11842,   1, 'Mask Symbol') /* Name */
      , (11842,  16, 'A Mask Symbol.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11842,   1,   33557248) /* Setup */
-     , (11842,   3,  536870932) /* SoundTable */
-     , (11842,   8,  100671966) /* Icon */
-     , (11842,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11842,   1, 0x02000B00) /* Setup */
+     , (11842,   3, 0x20000014) /* SoundTable */
+     , (11842,   8, 0x060021DE) /* Icon */
+     , (11842,  22, 0x3400002B) /* PhysicsEffectTable */;

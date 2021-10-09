@@ -36,11 +36,11 @@ VALUES (26349,   1, 'Secluded Valley Cottages Portal Gem') /* Name */
      , (26349,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26349,   1,   33556769) /* Setup */
-     , (26349,   3,  536870932) /* SoundTable */
-     , (26349,   6,   67111919) /* PaletteBase */
-     , (26349,   7,  268435723) /* ClothingBase */
-     , (26349,   8,  100675760) /* Icon */
-     , (26349,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26349,   1, 0x02000921) /* Setup */
+     , (26349,   3, 0x20000014) /* SoundTable */
+     , (26349,   6, 0x04000BEF) /* PaletteBase */
+     , (26349,   7, 0x1000010B) /* ClothingBase */
+     , (26349,   8, 0x060030B0) /* Icon */
+     , (26349,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26349,  28,        157) /* Spell - Summon Primary Portal I */
      , (26349,  31,      19158) /* LinkedPortalOne - Secluded Valley Cottages Portal */;

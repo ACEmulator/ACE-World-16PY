@@ -24,7 +24,7 @@ VALUES (1565,   1, 'Scroll of Primary Portal Tie') /* Name */
      , (1565,  15, 'When learned, this spell links the caster to a targeted portal.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1565,   1,   33554826) /* Setup */
-     , (1565,   8,  100676673) /* Icon */
-     , (1565,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1565,   1, 0x0200018A) /* Setup */
+     , (1565,   8, 0x06003441) /* Icon */
+     , (1565,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1565,  28,         47) /* Spell - Primary Portal Tie */;

@@ -50,16 +50,16 @@ VALUES (8960,   1, 'Sword of Lost Hope') /* Name */
      , (8960,  16, 'The Sword of Lost Hope, with a faint blue radiance.  The weapon seems to coruscate with the power of Ilservian''s blood.  The Light has been forever dimmed, and the weapon is now empowered by the essence of the Hopeslayer.  It will no longer accept infusions of light.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8960,   1,   33556949) /* Setup */
-     , (8960,   3,  536870932) /* SoundTable */
-     , (8960,   6,   67111919) /* PaletteBase */
-     , (8960,   7,  268436109) /* ClothingBase */
-     , (8960,   8,  100671325) /* Icon */
-     , (8960,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8960,   1, 0x020009D5) /* Setup */
+     , (8960,   3, 0x20000014) /* SoundTable */
+     , (8960,   6, 0x04000BEF) /* PaletteBase */
+     , (8960,   7, 0x1000028D) /* ClothingBase */
+     , (8960,   8, 0x06001F5D) /* Icon */
+     , (8960,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8960,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8960,  1335,      2)  /* Strength Other IV */
-     , (8960,  1406,      2)  /* Quickness Other IV */
-     , (8960,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (8960,  1625,      2)  /* Aura of Swift Killer Self IV */;
+VALUES (8960,  1615,      2)  /* Aura of Blood Drinker Self V */
+     , (8960,  1625,      2)  /* Aura of Swift Killer Self IV */
+     , (8960,  1335,      2)  /* Strength Other IV */
+     , (8960,  1406,      2)  /* Quickness Other IV */;

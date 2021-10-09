@@ -44,14 +44,14 @@ VALUES (28159,   1, 'Ruby Oculus') /* Name */
      , (28159,  16, 'A solidifed ruby gromnie eye.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28159,   1,   33554809) /* Setup */
-     , (28159,   3,  536870932) /* SoundTable */
-     , (28159,   6,   67108990) /* PaletteBase */
-     , (28159,   7,  268436858) /* ClothingBase */
-     , (28159,   8,  100674136) /* Icon */
-     , (28159,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28159,   1, 0x02000179) /* Setup */
+     , (28159,   3, 0x20000014) /* SoundTable */
+     , (28159,   6, 0x0400007E) /* PaletteBase */
+     , (28159,   7, 0x1000057A) /* ClothingBase */
+     , (28159,   8, 0x06002A58) /* Icon */
+     , (28159,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28159,  1096,      2)  /* Fire Protection Other VI */
-     , (28159,  1997,      2)  /* Life Giver */
-     , (28159,  2618,      2)  /* Minor Flame Ward */;
+     , (28159,  2618,      2)  /* Minor Flame Ward */
+     , (28159,  1997,      2)  /* Life Giver */;

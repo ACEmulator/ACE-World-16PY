@@ -24,7 +24,7 @@ VALUES (24659,   1, 'Young Brood Queen Metathorax') /* Name */
      , (24659,  33, 'PickedUpBroodQueenMetathorax') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24659,   1,   33556593) /* Setup */
-     , (24659,   3,  536870932) /* SoundTable */
-     , (24659,   8,  100674522) /* Icon */
-     , (24659,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24659,   1, 0x02000871) /* Setup */
+     , (24659,   3, 0x20000014) /* SoundTable */
+     , (24659,   8, 0x06002BDA) /* Icon */
+     , (24659,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -17,7 +17,7 @@ VALUES (23907,   1,        256) /* ItemType - MissileWeapon */
      , (23907,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (23907,  49,         40) /* WeaponTime */
      , (23907,  50,          4) /* AmmoType - Atlatl */
-     , (23907,  51,          2) /* CombatUse - Missle */
+     , (23907,  51,          2) /* CombatUse - Missile */
      , (23907,  60,        140) /* WeaponRange */
      , (23907,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (23907, 106,        400) /* ItemSpellcraft */
@@ -52,16 +52,16 @@ VALUES (23907,   1, 'Assault Atlatl') /* Name */
      , (23907,  16, 'A reward for defeating the leaders of the Mask Clan.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23907,   1,   33558205) /* Setup */
-     , (23907,   3,  536870932) /* SoundTable */
-     , (23907,   6,   67111919) /* PaletteBase */
-     , (23907,   7,  268436199) /* ClothingBase */
-     , (23907,   8,  100674081) /* Icon */
-     , (23907,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23907,   1, 0x02000EBD) /* Setup */
+     , (23907,   3, 0x20000014) /* SoundTable */
+     , (23907,   6, 0x04000BEF) /* PaletteBase */
+     , (23907,   7, 0x100002E7) /* ClothingBase */
+     , (23907,   8, 0x06002A21) /* Icon */
+     , (23907,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23907,  30,         88) /* PhysicsScript - Create */
      , (23907,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23907,  1377,      2)  /* Coordination Self V */
-     , (23907,  1614,      2)  /* Aura of Blood Drinker Self IV */
-     , (23907,  2004,      2)  /* Warrior's Vitality */;
+VALUES (23907,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (23907,  2004,      2)  /* Warrior's Vitality */
+     , (23907,  1377,      2)  /* Coordination Self V */;

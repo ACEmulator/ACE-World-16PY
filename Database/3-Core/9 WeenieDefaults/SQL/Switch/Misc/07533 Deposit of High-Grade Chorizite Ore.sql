@@ -26,7 +26,7 @@ VALUES (7533,   1, 'Deposit of High-Grade Chorizite Ore') /* Name */
      , (7533,  14, 'Mine this for chorizite ore.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7533,   1,   33556172) /* Setup */
-     , (7533,   3,  536870932) /* SoundTable */
-     , (7533,   8,  100670766) /* Icon */
-     , (7533,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7533,   1, 0x020006CC) /* Setup */
+     , (7533,   3, 0x20000014) /* SoundTable */
+     , (7533,   8, 0x06001D2E) /* Icon */
+     , (7533,  22, 0x3400002B) /* PhysicsEffectTable */;

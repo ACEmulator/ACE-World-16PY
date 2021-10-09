@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13107,   1, 'Greenvale Settlement Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13107,   1,   33554867) /* Setup */
-     , (13107,   2,  150994947) /* MotionTable */
-     , (13107,   8,  100667499) /* Icon */;
+VALUES (13107,   1, 0x020001B3) /* Setup */
+     , (13107,   2, 0x09000003) /* MotionTable */
+     , (13107,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (13107, 2, 2380464164, 99.386, 79.361, 42.496, 0.9720328, 0, 0, -0.2348453) /* Destination */
-/* @teleloc 0x8DE30024 [99.386000 79.361000 42.496000] 0.972033 0.000000 0.000000 -0.234845 */;
+VALUES (13107, 2, 0x8DE30024, 99.386, 79.361, 42.496, 0.972033, 0, 0, -0.234845) /* Destination */
+/* @teleloc 0x8DE30024 [99.386002 79.361000 42.495998] 0.972033 0.000000 0.000000 -0.234845 */;

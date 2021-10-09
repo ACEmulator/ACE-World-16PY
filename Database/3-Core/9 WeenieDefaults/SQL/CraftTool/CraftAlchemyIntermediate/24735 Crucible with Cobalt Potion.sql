@@ -31,7 +31,7 @@ VALUES (24735,   1, 'Crucible with Cobalt Potion') /* Name */
      , (24735,  20, 'Crucible') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24735,   1,   33555966) /* Setup */
-     , (24735,   3,  536870932) /* SoundTable */
-     , (24735,   8,  100674470) /* Icon */
-     , (24735,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24735,   1, 0x020005FE) /* Setup */
+     , (24735,   3, 0x20000014) /* SoundTable */
+     , (24735,   8, 0x06002BA6) /* Icon */
+     , (24735,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -31,7 +31,7 @@ VALUES (11361,   1, 'Embroidered Bag') /* Name */
      , (11361,  16, 'A beautifully embroidered bag sewn to protect Kithless Siraluun feathers from damage. It is empty.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11361,   1,   33554769) /* Setup */
-     , (11361,   3,  536870932) /* SoundTable */
-     , (11361,   8,  100671838) /* Icon */
-     , (11361,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11361,   1, 0x02000151) /* Setup */
+     , (11361,   3, 0x20000014) /* SoundTable */
+     , (11361,   8, 0x0600215E) /* Icon */
+     , (11361,  22, 0x3400002B) /* PhysicsEffectTable */;

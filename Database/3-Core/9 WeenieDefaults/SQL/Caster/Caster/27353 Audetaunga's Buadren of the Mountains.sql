@@ -33,7 +33,7 @@ VALUES (27353,  22, True ) /* Inscribable */
      , (27353,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27353,   5, -0.033333) /* ManaRate */
+VALUES (27353,   5,  -0.033) /* ManaRate */
      , (27353,  29,    1.08) /* WeaponDefense */
      , (27353,  39,     1.1) /* DefaultScale */
      , (27353, 144,     0.1) /* ManaConversionMod */;
@@ -43,12 +43,12 @@ VALUES (27353,   1, 'Audetaunga''s Buadren of the Mountains') /* Name */
      , (27353,  16, 'A buadren fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27353,   1,   33558670) /* Setup */
-     , (27353,   3,  536870932) /* SoundTable */
-     , (27353,   6,   67113336) /* PaletteBase */
-     , (27353,   7,  268436248) /* ClothingBase */
-     , (27353,   8,  100676359) /* Icon */
-     , (27353,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27353,   1, 0x0200108E) /* Setup */
+     , (27353,   3, 0x20000014) /* SoundTable */
+     , (27353,   6, 0x04001178) /* PaletteBase */
+     , (27353,   7, 0x10000318) /* ClothingBase */
+     , (27353,   8, 0x06003307) /* Icon */
+     , (27353,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27353,  2440,      2)  /* Greater Stone Cliffs */

@@ -23,10 +23,10 @@ VALUES (760,   1, 'Realgar') /* Name */
      , (760,  20, 'Realgar Potions') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (760,   1,   33555209) /* Setup */
-     , (760,   3,  536870932) /* SoundTable */
-     , (760,   6,   67111919) /* PaletteBase */
-     , (760,   7,  268435719) /* ClothingBase */
-     , (760,   8,  100669713) /* Icon */
-     , (760,  22,  872415275) /* PhysicsEffectTable */
+VALUES (760,   1, 0x02000309) /* Setup */
+     , (760,   3, 0x20000014) /* SoundTable */
+     , (760,   6, 0x04000BEF) /* PaletteBase */
+     , (760,   7, 0x10000107) /* ClothingBase */
+     , (760,   8, 0x06001911) /* Icon */
+     , (760,  22, 0x3400002B) /* PhysicsEffectTable */
      , (760,  29,         44) /* SpellComponent */;

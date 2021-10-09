@@ -26,7 +26,7 @@ VALUES (1541,   1, 'Weathered Key') /* Name */
      , (1541,  16, 'This weathered-looking key unlocks a door in the Sylsfear Dungeon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1541,   1,   33554784) /* Setup */
-     , (1541,   3,  536870932) /* SoundTable */
-     , (1541,   8,  100668441) /* Icon */
-     , (1541,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1541,   1, 0x02000160) /* Setup */
+     , (1541,   3, 0x20000014) /* SoundTable */
+     , (1541,   8, 0x06001419) /* Icon */
+     , (1541,  22, 0x3400002B) /* PhysicsEffectTable */;

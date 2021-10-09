@@ -31,7 +31,7 @@ VALUES (9477,   1, 'Monty''s Golden Key') /* Name */
      , (9477,  16, 'A large, garish, golden key, a prize in Monty''s Den of Iniquity.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9477,   1,   33557005) /* Setup */
-     , (9477,   3,  536870932) /* SoundTable */
-     , (9477,   8,  100671519) /* Icon */
-     , (9477,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9477,   1, 0x02000A0D) /* Setup */
+     , (9477,   3, 0x20000014) /* SoundTable */
+     , (9477,   8, 0x0600201F) /* Icon */
+     , (9477,  22, 0x3400002B) /* PhysicsEffectTable */;

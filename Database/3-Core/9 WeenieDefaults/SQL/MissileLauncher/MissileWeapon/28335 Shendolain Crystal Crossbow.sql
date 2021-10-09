@@ -18,7 +18,7 @@ VALUES (28335,   1,        256) /* ItemType - MissileWeapon */
      , (28335,  48,          3) /* WeaponSkill - Crossbow */
      , (28335,  49,        120) /* WeaponTime */
      , (28335,  50,         16) /* AmmoType - BoltCrystal */
-     , (28335,  51,          2) /* CombatUse - Missle */
+     , (28335,  51,          2) /* CombatUse - Missile */
      , (28335,  52,          2) /* ParentLocation - LeftHand */
      , (28335,  53,          3) /* PlacementPosition - LeftHand */
      , (28335,  60,        180) /* WeaponRange */
@@ -53,12 +53,12 @@ VALUES (28335,   1, 'Shendolain Crystal Crossbow') /* Name */
      , (28335,  15, 'A crossbow imbued with the essence of the Shendolain Crystal. Uses crystal-tipped quarrels.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28335,   1,   33554733) /* Setup */
-     , (28335,   3,  536870932) /* SoundTable */
-     , (28335,   6,   67111919) /* PaletteBase */
-     , (28335,   7,  268436042) /* ClothingBase */
-     , (28335,   8,  100671008) /* Icon */
-     , (28335,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28335,   1, 0x0200012D) /* Setup */
+     , (28335,   3, 0x20000014) /* SoundTable */
+     , (28335,   6, 0x04000BEF) /* PaletteBase */
+     , (28335,   7, 0x1000024A) /* ClothingBase */
+     , (28335,   8, 0x06001E20) /* Icon */
+     , (28335,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28335,   489,      2)  /* Missile Weapon Mastery Other V */

@@ -25,7 +25,7 @@ VALUES (3151,   1, 'Scroll of Armor Tinkering Expertise Self V') /* Name */
      , (3151,  16, 'When learned, this spell increases the caster''s Armor Tinkering skill by 100%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3151,   1,   33554826) /* Setup */
-     , (3151,   8,  100676477) /* Icon */
-     , (3151,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3151,   1, 0x0200018A) /* Setup */
+     , (3151,   8, 0x0600337D) /* Icon */
+     , (3151,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3151,  28,        706) /* Spell - Armor Tinkering Expertise Self V */;

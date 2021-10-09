@@ -26,10 +26,10 @@ VALUES (6029,   1, 'Precepts of the Tenebrous Edge') /* Name */
      , (6029,  16, 'A book from the private chambers of Hamud ibn Rafik.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6029,   1,   33554772) /* Setup */
-     , (6029,   3,  536870932) /* SoundTable */
-     , (6029,   8,  100667470) /* Icon */
-     , (6029,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6029,   1, 0x02000154) /* Setup */
+     , (6029,   3, 0x20000014) /* SoundTable */
+     , (6029,   8, 0x0600104E) /* Icon */
+     , (6029,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (6029, 2, 1000);

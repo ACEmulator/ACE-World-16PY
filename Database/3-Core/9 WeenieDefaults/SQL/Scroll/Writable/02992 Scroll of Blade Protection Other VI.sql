@@ -25,7 +25,7 @@ VALUES (2992,   1, 'Scroll of Blade Protection Other VI') /* Name */
      , (2992,  16, 'When learned, this spell reduces damage the target takes from Slashing by 60%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2992,   1,   33554826) /* Setup */
-     , (2992,   8,  100676954) /* Icon */
-     , (2992,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2992,   1, 0x0200018A) /* Setup */
+     , (2992,   8, 0x0600355A) /* Icon */
+     , (2992,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2992,  28,       1120) /* Spell - Blade Protection Other VI */;

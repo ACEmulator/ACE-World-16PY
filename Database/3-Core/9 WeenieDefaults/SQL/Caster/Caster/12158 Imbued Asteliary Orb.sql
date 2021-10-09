@@ -39,16 +39,16 @@ VALUES (12158,   1, 'Imbued Asteliary Orb') /* Name */
      , (12158,  16, 'An orb enchanted with powerful magic, taken from the Asteliary dungeon and imbued with the power of the Asteliary gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12158,   1,   33557354) /* Setup */
-     , (12158,   3,  536870932) /* SoundTable */
-     , (12158,   6,   67111919) /* PaletteBase */
-     , (12158,   7,  268436262) /* ClothingBase */
-     , (12158,   8,  100672137) /* Icon */
-     , (12158,  22,  872415275) /* PhysicsEffectTable */
-     , (12158,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (12158,   1, 0x02000B6A) /* Setup */
+     , (12158,   3, 0x20000014) /* SoundTable */
+     , (12158,   6, 0x04000BEF) /* PaletteBase */
+     , (12158,   7, 0x10000326) /* ClothingBase */
+     , (12158,   8, 0x06002289) /* Icon */
+     , (12158,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (12158,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (12158,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12158,   658,      2)  /* Mana Conversion Mastery Self VI */
-     , (12158,  1426,      2)  /* Focus Self VI */
-     , (12158,  1450,      2)  /* Willpower Self VI */;
+     , (12158,  1450,      2)  /* Willpower Self VI */
+     , (12158,  1426,      2)  /* Focus Self VI */;

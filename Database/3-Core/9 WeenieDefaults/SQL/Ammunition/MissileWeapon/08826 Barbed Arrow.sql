@@ -41,9 +41,9 @@ VALUES (8826,   1, 'Barbed Arrow') /* Name */
      , (8826,  16, 'A barbed arrow.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8826,   1,   33554724) /* Setup */
-     , (8826,   3,  536870932) /* SoundTable */
-     , (8826,   6,   67111919) /* PaletteBase */
-     , (8826,   7,  268436303) /* ClothingBase */
-     , (8826,   8,  100671227) /* Icon */
-     , (8826,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8826,   1, 0x02000124) /* Setup */
+     , (8826,   3, 0x20000014) /* SoundTable */
+     , (8826,   6, 0x04000BEF) /* PaletteBase */
+     , (8826,   7, 0x1000034F) /* ClothingBase */
+     , (8826,   8, 0x06001EFB) /* Icon */
+     , (8826,  22, 0x3400002B) /* PhysicsEffectTable */;

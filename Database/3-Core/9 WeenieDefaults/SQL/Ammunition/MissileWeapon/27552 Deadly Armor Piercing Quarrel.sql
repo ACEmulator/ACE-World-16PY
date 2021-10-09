@@ -42,9 +42,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27552,   1, 'Deadly Armor Piercing Quarrel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27552,   1,   33554730) /* Setup */
-     , (27552,   3,  536870932) /* SoundTable */
-     , (27552,   6,   67111919) /* PaletteBase */
-     , (27552,   7,  268436306) /* ClothingBase */
-     , (27552,   8,  100672649) /* Icon */
-     , (27552,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27552,   1, 0x0200012A) /* Setup */
+     , (27552,   3, 0x20000014) /* SoundTable */
+     , (27552,   6, 0x04000BEF) /* PaletteBase */
+     , (27552,   7, 0x10000352) /* ClothingBase */
+     , (27552,   8, 0x06002489) /* Icon */
+     , (27552,  22, 0x3400002B) /* PhysicsEffectTable */;

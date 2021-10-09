@@ -35,12 +35,12 @@ VALUES (11759,   1, 'Hafted Mask Banner with Symbol') /* Name */
      , (11759,  16, 'A hafted, symbol tipped banner with a mask on it.  It is in almost perfect condition, and the colors are quite vibrant.  As you gaze at the mask, it almost seems to be gazing back.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11759,   1,   33557255) /* Setup */
-     , (11759,   6,   67113338) /* PaletteBase */
-     , (11759,   7,  268436214) /* ClothingBase */
-     , (11759,   8,  100671914) /* Icon */
-     , (11759,  22,  872415275) /* PhysicsEffectTable */
-     , (11759,  27, 1073742049) /* UseUserAnimation - UseMagicWand */;
+VALUES (11759,   1, 0x02000B07) /* Setup */
+     , (11759,   6, 0x0400117A) /* PaletteBase */
+     , (11759,   7, 0x100002F6) /* ClothingBase */
+     , (11759,   8, 0x060021AA) /* Icon */
+     , (11759,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11759,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11759,   656,      2)  /* Mana Conversion Mastery Self IV */

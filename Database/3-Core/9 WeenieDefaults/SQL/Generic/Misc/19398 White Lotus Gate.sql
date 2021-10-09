@@ -22,5 +22,5 @@ VALUES (19398,   1, 'White Lotus Gate') /* Name */
      , (19398,  16, 'White Lotus Gate') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19398,   1,   33557685) /* Setup */
-     , (19398,   8,  100667499) /* Icon */;
+VALUES (19398,   1, 0x02000CB5) /* Setup */
+     , (19398,   8, 0x0600106B) /* Icon */;

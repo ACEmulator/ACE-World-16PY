@@ -43,11 +43,11 @@ VALUES (9689,   1, 'Altar of the Tumerok Spear') /* Name */
      , (9689,  16, 'The Altar of the Tumerok Spear') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9689,   1,   33554556) /* Setup */
-     , (9689,   2,  150994948) /* MotionTable */
-     , (9689,   3,  536870945) /* SoundTable */
-     , (9689,   8,  100667424) /* Icon */
-     , (9689,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9689,   1, 0x0200007C) /* Setup */
+     , (9689,   2, 0x09000004) /* MotionTable */
+     , (9689,   3, 0x20000021) /* SoundTable */
+     , (9689,   8, 0x06001020) /* Icon */
+     , (9689,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (9689, -1, 9671, 60, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Tumerok Spear (9671) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

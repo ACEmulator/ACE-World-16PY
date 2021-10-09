@@ -30,7 +30,7 @@ VALUES (5809,   1, 'Hearty Mana Famous Pizza') /* Name */
      , (5809,  20, 'Hearty Mana Famous Pizzas') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5809,   1,   33555979) /* Setup */
-     , (5809,   3,  536870932) /* SoundTable */
-     , (5809,   8,  100670304) /* Icon */
-     , (5809,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5809,   1, 0x0200060B) /* Setup */
+     , (5809,   3, 0x20000014) /* SoundTable */
+     , (5809,   8, 0x06001B60) /* Icon */
+     , (5809,  22, 0x3400002B) /* PhysicsEffectTable */;

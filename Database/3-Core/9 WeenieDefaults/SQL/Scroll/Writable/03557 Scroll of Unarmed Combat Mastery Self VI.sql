@@ -25,7 +25,7 @@ VALUES (3557,   1, 'Scroll of Unarmed Combat Mastery Self VI') /* Name */
      , (3557,  16, 'When learned, this spell increases the caster''s Unarmed Combat skill by 150%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3557,   1,   33554826) /* Setup */
-     , (3557,   8,  100676478) /* Icon */
-     , (3557,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3557,   1, 0x0200018A) /* Setup */
+     , (3557,   8, 0x0600337E) /* Icon */
+     , (3557,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3557,  28,        448) /* Spell - Light Weapon Mastery Self VI */;

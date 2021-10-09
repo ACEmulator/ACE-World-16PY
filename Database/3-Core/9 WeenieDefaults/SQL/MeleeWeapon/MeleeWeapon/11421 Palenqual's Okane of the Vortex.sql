@@ -38,7 +38,7 @@ VALUES (11421,  22, True ) /* Inscribable */
      , (11421,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11421,   5, -0.03333) /* ManaRate */
+VALUES (11421,   5,  -0.033) /* ManaRate */
      , (11421,  21,     0.4) /* WeaponLength */
      , (11421,  22,    0.33) /* DamageVariance */
      , (11421,  29,    1.08) /* WeaponDefense */
@@ -53,21 +53,21 @@ VALUES (11421,   1, 'Palenqual''s Okane of the Vortex') /* Name */
      , (11421,  16, 'An okane fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11421,   1,   33557234) /* Setup */
-     , (11421,   3,  536870932) /* SoundTable */
-     , (11421,   6,   67113336) /* PaletteBase */
-     , (11421,   7,  268436253) /* ClothingBase */
-     , (11421,   8,  100672078) /* Icon */
-     , (11421,  22,  872415275) /* PhysicsEffectTable */
-     , (11421,  36,  234881044) /* MutateFilter */;
+VALUES (11421,   1, 0x02000AF2) /* Setup */
+     , (11421,   3, 0x20000014) /* SoundTable */
+     , (11421,   6, 0x04001178) /* PaletteBase */
+     , (11421,   7, 0x1000031D) /* ClothingBase */
+     , (11421,   8, 0x0600224E) /* Icon */
+     , (11421,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11421,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11421,  2438,      2)  /* Lesser Rockslide */
      , (11421,  2441,      2)  /* Lesser Stone Cliffs */
+     , (11421,  2460,      2)  /* Cascade */
      , (11421,  2444,      2)  /* Lesser Strength of Earth */
      , (11421,  2447,      2)  /* Lesser Growth */
      , (11421,  2450,      2)  /* Lesser Hunter's Acumen */
      , (11421,  2453,      2)  /* Lesser Thorns */
-     , (11421,  2460,      2)  /* Cascade */
      , (11421,  2472,      2)  /* Still Water */
      , (11421,  2475,      2)  /* Torrent */;

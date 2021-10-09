@@ -25,7 +25,7 @@ VALUES (3266,   1, 'Scroll of Fealty Self V') /* Name */
      , (3266,  16, 'When learned, this spell increases the caster''s Loyalty skill by 100%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3266,   1,   33554826) /* Setup */
-     , (3266,   8,  100676446) /* Icon */
-     , (3266,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3266,   1, 0x0200018A) /* Setup */
+     , (3266,   8, 0x0600335E) /* Icon */
+     , (3266,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3266,  28,        950) /* Spell - Fealty Self V */;

@@ -24,7 +24,7 @@ VALUES (20262,   1, 'Scroll of Purge All Magic Other') /* Name */
      , (20262,  15, 'When learned, this spell dispels 2-6 negative enchantments of level 5 or lower from the target.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20262,   1,   33554826) /* Setup */
-     , (20262,   8,  100669877) /* Icon */
-     , (20262,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20262,   1, 0x0200018A) /* Setup */
+     , (20262,   8, 0x060019B5) /* Icon */
+     , (20262,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20262,  28,       1873) /* Spell - Purge All Magic Other */;

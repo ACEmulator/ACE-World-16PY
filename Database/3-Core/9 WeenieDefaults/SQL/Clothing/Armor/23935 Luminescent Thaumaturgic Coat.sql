@@ -47,21 +47,21 @@ VALUES (23935,   1, 'Luminescent Thaumaturgic Coat') /* Name */
      , (23935,  16, 'A richly enchanted and ornate coat once worn by the Sentinels of Perfect Light, an order dedicated to aiding Lord Asheron against the darkness. The seal of the Lightbringer adorns the chestplate.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23935,   1,   33554644) /* Setup */
-     , (23935,   3,  536870932) /* SoundTable */
-     , (23935,   6,   67108990) /* PaletteBase */
-     , (23935,   7,  268436555) /* ClothingBase */
-     , (23935,   8,  100674126) /* Icon */
-     , (23935,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23935,   1, 0x020000D4) /* Setup */
+     , (23935,   3, 0x20000014) /* SoundTable */
+     , (23935,   6, 0x0400007E) /* PaletteBase */
+     , (23935,   7, 0x1000044B) /* ClothingBase */
+     , (23935,   8, 0x06002A4E) /* Icon */
+     , (23935,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23935,   664,      2)  /* Mana Conversion Mastery Other VI */
-     , (23935,  2350,      2)  /* Greater Decay Durance */
-     , (23935,  2351,      2)  /* Greater Consumption Durance */
-     , (23935,  2352,      2)  /* Greater Stasis Durance */
-     , (23935,  2353,      2)  /* Greater Stimulation Durance */
-     , (23935,  2376,      2)  /* Glimpse of Annihilation */
+VALUES (23935,  2350,      2)  /* Greater Decay Durance */
      , (23935,  2948,      2)  /* Hieromancer's Great Ward */
+     , (23935,  2352,      2)  /* Greater Stasis Durance */
+     , (23935,  2376,      2)  /* Glimpse of Annihilation */
+     , (23935,  2962,      2)  /* Greater Slashing Durance */
      , (23935,  2960,      2)  /* Greater Bludgeoning Durance */
+     , (23935,  2351,      2)  /* Greater Consumption Durance */
      , (23935,  2961,      2)  /* Greater Piercing Durance */
-     , (23935,  2962,      2)  /* Greater Slashing Durance */;
+     , (23935,   664,      2)  /* Mana Conversion Mastery Other VI */
+     , (23935,  2353,      2)  /* Greater Stimulation Durance */;

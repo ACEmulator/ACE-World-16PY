@@ -66,13 +66,13 @@ VALUES (22139,   1, 'Elysa Strathelar') /* Name */
      , (22139,   5, 'High Queen') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22139,   1,   33554510) /* Setup */
-     , (22139,   2,  150994945) /* MotionTable */
-     , (22139,   3,  536870914) /* SoundTable */
-     , (22139,   4,  805306368) /* CombatTable */
-     , (22139,   6,   67108990) /* PaletteBase */
-     , (22139,   7,  268436485) /* ClothingBase */
-     , (22139,   8,  100667446) /* Icon */;
+VALUES (22139,   1, 0x0200004E) /* Setup */
+     , (22139,   2, 0x09000001) /* MotionTable */
+     , (22139,   3, 0x20000002) /* SoundTable */
+     , (22139,   4, 0x30000000) /* CombatTable */
+     , (22139,   6, 0x0400007E) /* PaletteBase */
+     , (22139,   7, 0x10000405) /* ClothingBase */
+     , (22139,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22139,   1, 190, 0, 0) /* Strength */
@@ -88,41 +88,41 @@ VALUES (22139,   1,   180, 0, 0, 280) /* MaxHealth */
      , (22139,   5,    80, 0, 0, 280) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (22139,  1, 0, 3, 0, 200, 0, 1332.95874137666) /* Axe                 Specialized */
-     , (22139,  2, 0, 3, 0, 255, 0, 1332.95874137666) /* Bow                 Specialized */
-     , (22139,  3, 0, 3, 0, 200, 0, 1332.95874137666) /* Crossbow            Specialized */
-     , (22139,  4, 0, 3, 0, 100, 0, 1332.95874137666) /* Dagger              Specialized */
-     , (22139,  5, 0, 3, 0, 200, 0, 1332.95874137666) /* Mace                Specialized */
-     , (22139,  6, 0, 3, 0, 180, 0, 1332.95874137666) /* MeleeDefense        Specialized */
-     , (22139,  7, 0, 3, 0, 180, 0, 1332.95874137666) /* MissileDefense      Specialized */
-     , (22139,  9, 0, 3, 0, 200, 0, 1332.95874137666) /* Spear               Specialized */
-     , (22139, 10, 0, 3, 0, 200, 0, 1332.95874137666) /* Staff               Specialized */
-     , (22139, 11, 0, 3, 0, 350, 0, 1332.95874137666) /* Sword               Specialized */
-     , (22139, 12, 0, 3, 0, 200, 0, 1332.95874137666) /* ThrownWeapon        Specialized */
-     , (22139, 13, 0, 3, 0, 200, 0, 1332.95874137666) /* UnarmedCombat       Specialized */
-     , (22139, 14, 0, 3, 0, 200, 0, 1332.95874137666) /* ArcaneLore          Specialized */
-     , (22139, 15, 0, 3, 0, 163, 0, 1332.95874137666) /* MagicDefense        Specialized */
-     , (22139, 16, 0, 3, 0, 200, 0, 1332.95874137666) /* ManaConversion      Specialized */
-     , (22139, 18, 0, 3, 0, 200, 0, 1332.95874137666) /* ItemTinkering       Specialized */
-     , (22139, 19, 0, 3, 0, 200, 0, 1332.95874137666) /* AssessPerson        Specialized */
-     , (22139, 20, 0, 3, 0, 100, 0, 1332.95874137666) /* Deception           Specialized */
-     , (22139, 21, 0, 3, 0, 200, 0, 1332.95874137666) /* Healing             Specialized */
-     , (22139, 22, 0, 3, 0, 200, 0, 1332.95874137666) /* Jump                Specialized */
-     , (22139, 23, 0, 3, 0, 200, 0, 1332.95874137666) /* Lockpick            Specialized */
-     , (22139, 24, 0, 3, 0, 200, 0, 1332.95874137666) /* Run                 Specialized */
-     , (22139, 27, 0, 3, 0, 200, 0, 1332.95874137666) /* AssessCreature      Specialized */
-     , (22139, 28, 0, 3, 0, 200, 0, 1332.95874137666) /* WeaponTinkering     Specialized */
-     , (22139, 29, 0, 3, 0,  20, 0, 1332.95874137666) /* ArmorTinkering      Specialized */
-     , (22139, 30, 0, 3, 0, 200, 0, 1332.95874137666) /* MagicItemTinkering  Specialized */
-     , (22139, 31, 0, 3, 0, 150, 0, 1332.95874137666) /* CreatureEnchantment Specialized */
-     , (22139, 32, 0, 3, 0, 200, 0, 1332.95874137666) /* ItemEnchantment     Specialized */
-     , (22139, 33, 0, 3, 0, 200, 0, 1332.95874137666) /* LifeMagic           Specialized */
-     , (22139, 34, 0, 3, 0, 700, 0, 1332.95874137666) /* WarMagic            Specialized */
-     , (22139, 35, 0, 3, 0, 450, 0, 1332.95874137666) /* Leadership          Specialized */
-     , (22139, 36, 0, 3, 0, 900, 0, 1332.95874137666) /* Loyalty             Specialized */
-     , (22139, 37, 0, 3, 0, 180, 0, 1332.95874137666) /* Fletching           Specialized */
-     , (22139, 38, 0, 3, 0, 400, 0, 1332.95874137666) /* Alchemy             Specialized */
-     , (22139, 39, 0, 3, 0, 900, 0, 1332.95874137666) /* Cooking             Specialized */;
+VALUES (22139,  1, 0, 3, 0, 200, 0, 1332.958741376656) /* Axe                 Specialized */
+     , (22139,  2, 0, 3, 0, 255, 0, 1332.958741376656) /* Bow                 Specialized */
+     , (22139,  3, 0, 3, 0, 200, 0, 1332.958741376656) /* Crossbow            Specialized */
+     , (22139,  4, 0, 3, 0, 100, 0, 1332.958741376656) /* Dagger              Specialized */
+     , (22139,  5, 0, 3, 0, 200, 0, 1332.958741376656) /* Mace                Specialized */
+     , (22139,  6, 0, 3, 0, 180, 0, 1332.958741376656) /* MeleeDefense        Specialized */
+     , (22139,  7, 0, 3, 0, 180, 0, 1332.958741376656) /* MissileDefense      Specialized */
+     , (22139,  9, 0, 3, 0, 200, 0, 1332.958741376656) /* Spear               Specialized */
+     , (22139, 10, 0, 3, 0, 200, 0, 1332.958741376656) /* Staff               Specialized */
+     , (22139, 11, 0, 3, 0, 350, 0, 1332.958741376656) /* Sword               Specialized */
+     , (22139, 12, 0, 3, 0, 200, 0, 1332.958741376656) /* ThrownWeapon        Specialized */
+     , (22139, 13, 0, 3, 0, 200, 0, 1332.958741376656) /* UnarmedCombat       Specialized */
+     , (22139, 14, 0, 3, 0, 200, 0, 1332.958741376656) /* ArcaneLore          Specialized */
+     , (22139, 15, 0, 3, 0, 163, 0, 1332.958741376656) /* MagicDefense        Specialized */
+     , (22139, 16, 0, 3, 0, 200, 0, 1332.958741376656) /* ManaConversion      Specialized */
+     , (22139, 18, 0, 3, 0, 200, 0, 1332.958741376656) /* ItemTinkering       Specialized */
+     , (22139, 19, 0, 3, 0, 200, 0, 1332.958741376656) /* AssessPerson        Specialized */
+     , (22139, 20, 0, 3, 0, 100, 0, 1332.958741376656) /* Deception           Specialized */
+     , (22139, 21, 0, 3, 0, 200, 0, 1332.958741376656) /* Healing             Specialized */
+     , (22139, 22, 0, 3, 0, 200, 0, 1332.958741376656) /* Jump                Specialized */
+     , (22139, 23, 0, 3, 0, 200, 0, 1332.958741376656) /* Lockpick            Specialized */
+     , (22139, 24, 0, 3, 0, 200, 0, 1332.958741376656) /* Run                 Specialized */
+     , (22139, 27, 0, 3, 0, 200, 0, 1332.958741376656) /* AssessCreature      Specialized */
+     , (22139, 28, 0, 3, 0, 200, 0, 1332.958741376656) /* WeaponTinkering     Specialized */
+     , (22139, 29, 0, 3, 0,  20, 0, 1332.958741376656) /* ArmorTinkering      Specialized */
+     , (22139, 30, 0, 3, 0, 200, 0, 1332.958741376656) /* MagicItemTinkering  Specialized */
+     , (22139, 31, 0, 3, 0, 150, 0, 1332.958741376656) /* CreatureEnchantment Specialized */
+     , (22139, 32, 0, 3, 0, 200, 0, 1332.958741376656) /* ItemEnchantment     Specialized */
+     , (22139, 33, 0, 3, 0, 200, 0, 1332.958741376656) /* LifeMagic           Specialized */
+     , (22139, 34, 0, 3, 0, 700, 0, 1332.958741376656) /* WarMagic            Specialized */
+     , (22139, 35, 0, 3, 0, 450, 0, 1332.958741376656) /* Leadership          Specialized */
+     , (22139, 36, 0, 3, 0, 900, 0, 1332.958741376656) /* Loyalty             Specialized */
+     , (22139, 37, 0, 3, 0, 180, 0, 1332.958741376656) /* Fletching           Specialized */
+     , (22139, 38, 0, 3, 0, 400, 0, 1332.958741376656) /* Alchemy             Specialized */
+     , (22139, 39, 0, 3, 0, 900, 0, 1332.958741376656) /* Cooking             Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (22139,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -136,30 +136,30 @@ VALUES (22139,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (22139,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (22139,  5 /* HeartBeat */,      1, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (22139,  5 /* HeartBeat */,      1, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   6 /* Move */, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 7, 0, 0, -4.371139E-08, 0, 0, -1)
-     , (@parent_id,  1,   6 /* Move */, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 14, 0, 0, -4.371139E-08, 0, 0, -1)
-     , (@parent_id,  2,   6 /* Move */, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 21, 0, 0, -4.371139E-08, 0, 0, -1)
-     , (@parent_id,  3,   6 /* Move */, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 28, 0, 0, -4.371139E-08, 0, 0, -1)
-     , (@parent_id,  4,   5 /* Motion */, 220, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+VALUES (@parent_id,  0,   6 /* Move */, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 7, 0, 0, -0, 0, -0, -1)
+     , (@parent_id,  1,   6 /* Move */, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 14, 0, 0, -0, 0, -0, -1)
+     , (@parent_id,  2,   6 /* Move */, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 21, 0, 0, -0, 0, -0, -1)
+     , (@parent_id,  3,   6 /* Move */, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 28, 0, 0, -0, 0, -0, -1)
+     , (@parent_id,  4,   5 /* Motion */, 220, 1, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  5,   8 /* Say */, 0, 0, NULL, 'Through your efforts we have succeeded in defeating Gaerlan and holding the Harbinger at bay. But our fight is not yet done. We have earned this respite, and I truly hope that this time of peace continues to grow.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  6,   8 /* Say */, 5, 0, NULL, 'In the coming months I intend to see universities built so that future generations of our children born on this world can learn of the dangers that we faced and the sacrifices that were made to make this land ours.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  7,   8 /* Say */, 5, 0, NULL, 'Together with the Arcanum, headed now by Ciandra, we shall establish the first such university in the newly rebuilt town of Arwic.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  8,   8 /* Say */, 3, 0, NULL, 'There scholars will come not from just the races of Ispar but also from the Tumerok and Lugian settlements. We are a diverse people that over time may set aside our differences and come to exist peacefully.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  9,   8 /* Say */, 3, 0, NULL, 'The process will be slow and will not be without its difficulties but I believe that we can overcome anything that we shall face in the future.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 10,   8 /* Say */, 3, 0, NULL, 'Please join me now in honoring all of those that have been lost to us in the years that we have come to Dereth. Their company may have been taken from us, but their spirits and their acts shall live forever within our memories.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 11,   5 /* Motion */, 3, 1, 1124073708 /* BowDeepState */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 12,   5 /* Motion */, 4, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 11,   5 /* Motion */, 3, 1, 0x430000EC /* BowDeepState */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 12,   5 /* Motion */, 4, 1, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 13,   8 /* Say */, 20, 0, NULL, 'I wish to acknowledge the efforts of Sir Candeth Martine who through valor and a courage, that proved to be unshakable, knowingly sacrificed himself so that we could stand against Gaerlan.  Without his efforts the world we know here would still be covered in a blanket of elemental beings.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 14,   8 /* Say */, 5, 0, NULL, 'Nuhmudira, as she imprisoned Gaerlan, stated this best. This land is ours now. We have fought against great enemies and emerged victorious. We have met the challenges of Dereth and stood proud at each test.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 15,   8 /* Say */, 3, 0, NULL, 'My thanks, to the true heroes of Dereth!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 16,   5 /* Motion */, 0.5, 1, 1124073793 /* PointRightState */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 17,   5 /* Motion */, 3, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id, 18,   5 /* Motion */, 9000, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+     , (@parent_id, 16,   5 /* Motion */, 0.5, 1, 0x43000141 /* PointRightState */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 17,   5 /* Motion */, 3, 1, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id, 18,   5 /* Motion */, 9000, 1, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22139, 2,  8891,  0, 0, 0, False) /* Create Elysa's Longbow (8891) for Wield */;

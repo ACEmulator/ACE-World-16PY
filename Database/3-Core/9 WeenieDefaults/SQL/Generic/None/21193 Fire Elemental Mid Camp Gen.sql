@@ -22,11 +22,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21193,   1, 'Fire Elemental Mid Camp Gen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21193,   1,   33555051) /* Setup */
-     , (21193,   8,  100667494) /* Icon */;
+VALUES (21193,   1, 0x0200026B) /* Setup */
+     , (21193,   8, 0x06001066) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21193, -1, 7607, 1200, 1, 1, 1, 4, -1, 0, 0, 0, -1, 1, 0, 1, 0, 0, 0) /* Generate Ember (7607) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (21193, -1, 21163, 1200, 1, 1, 1, 4, -1, 0, 0, 0, -2, 0, 0, -0.7071068, 0, 0, -0.7071068) /* Generate Flamma (21163) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (21193, -1, 21163, 1200, 1, 1, 1, 4, -1, 0, 0, 0, 2, 0, 0, 0.7071068, 0, 0, -0.7071068) /* Generate Flamma (21163) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (21193, -1, 21164, 1200, 1, 1, 1, 4, -1, 0, 0, 0, 1, -1, 0, -4.371139E-08, 0, 0, -1) /* Generate Gout (21164) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (21193, -1, 7607, 1200, 1, 1, 1, 4, -1, 0, 0, 0, -1, 1, 0, 1, 0, 0, -0) /* Generate Ember (7607) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (21193, -1, 21163, 1200, 1, 1, 1, 4, -1, 0, 0, 0, -2, 0, 0, -0.707107, 0, -0, -0.707107) /* Generate Flamma (21163) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (21193, -1, 21163, 1200, 1, 1, 1, 4, -1, 0, 0, 0, 2, 0, 0, 0.707107, 0, 0, -0.707107) /* Generate Flamma (21163) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (21193, -1, 21164, 1200, 1, 1, 1, 4, -1, 0, 0, 0, 1, -1, 0, -0, 0, -0, -1) /* Generate Gout (21164) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

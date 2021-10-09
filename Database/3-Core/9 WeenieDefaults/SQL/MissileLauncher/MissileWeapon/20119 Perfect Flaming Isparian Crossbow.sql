@@ -19,7 +19,7 @@ VALUES (20119,   1,        256) /* ItemType - MissileWeapon */
      , (20119,  48,          3) /* WeaponSkill - Crossbow */
      , (20119,  49,         90) /* WeaponTime */
      , (20119,  50,          2) /* AmmoType - Bolt */
-     , (20119,  51,          2) /* CombatUse - Missle */
+     , (20119,  51,          2) /* CombatUse - Missile */
      , (20119,  52,          2) /* ParentLocation - LeftHand */
      , (20119,  53,          3) /* PlacementPosition - LeftHand */
      , (20119,  60,        195) /* WeaponRange */
@@ -53,17 +53,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20119,   1, 'Perfect Flaming Isparian Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20119,   1,   33557774) /* Setup */
-     , (20119,   3,  536870932) /* SoundTable */
-     , (20119,   6,   67111919) /* PaletteBase */
-     , (20119,   7,  268436396) /* ClothingBase */
-     , (20119,   8,  100673026) /* Icon */
-     , (20119,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20119,   1, 0x02000D0E) /* Setup */
+     , (20119,   3, 0x20000014) /* SoundTable */
+     , (20119,   6, 0x04000BEF) /* PaletteBase */
+     , (20119,   7, 0x100003AC) /* ClothingBase */
+     , (20119,   8, 0x06002602) /* Icon */
+     , (20119,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20119,  37,          3) /* ItemSkillLimit - Crossbow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20119,  1094,      2)  /* Fire Protection Self VI */
-     , (20119,  1331,      2)  /* Strength Self V */
+     , (20119,  2688,      2)  /* Moderate Missile Weapon Aptitude */
      , (20119,  1605,      2)  /* Aura of Defender Self VI */
      , (20119,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (20119,  2688,      2)  /* Moderate Missile Weapon Aptitude */;
+     , (20119,  1331,      2)  /* Strength Self V */;

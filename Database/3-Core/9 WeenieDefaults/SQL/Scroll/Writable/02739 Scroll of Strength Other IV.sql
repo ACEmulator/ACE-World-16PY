@@ -25,7 +25,7 @@ VALUES (2739,   1, 'Scroll of Strength Other IV') /* Name */
      , (2739,  16, 'When learned, this spell increases the target''s Strength by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2739,   1,   33554826) /* Setup */
-     , (2739,   8,  100676474) /* Icon */
-     , (2739,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2739,   1, 0x0200018A) /* Setup */
+     , (2739,   8, 0x0600337A) /* Icon */
+     , (2739,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2739,  28,       1335) /* Spell - Strength Other IV */;

@@ -31,7 +31,7 @@ VALUES (11833,   1, 'Gromnie Symbol') /* Name */
      , (11833,  16, 'A Gromnie Symbol.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11833,   1,   33557248) /* Setup */
-     , (11833,   3,  536870932) /* SoundTable */
-     , (11833,   8,  100671965) /* Icon */
-     , (11833,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11833,   1, 0x02000B00) /* Setup */
+     , (11833,   3, 0x20000014) /* SoundTable */
+     , (11833,   8, 0x060021DD) /* Icon */
+     , (11833,  22, 0x3400002B) /* PhysicsEffectTable */;

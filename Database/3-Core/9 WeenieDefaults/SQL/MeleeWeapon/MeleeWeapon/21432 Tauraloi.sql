@@ -49,15 +49,15 @@ VALUES (21432,   1, 'Tauraloi') /* Name */
      , (21432,  15, 'A spear constructed from obsidian and cerulean colored stone.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21432,   1,   33557965) /* Setup */
-     , (21432,   3,  536870932) /* SoundTable */
-     , (21432,   8,  100673492) /* Icon */
-     , (21432,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21432,   1, 0x02000DCD) /* Setup */
+     , (21432,   3, 0x20000014) /* SoundTable */
+     , (21432,   8, 0x060027D4) /* Icon */
+     , (21432,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21432,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21432,   368,      2)  /* Light Weapon Mastery Other V */
+VALUES (21432,  1604,      2)  /* Aura of Defender Self V */
      , (21432,  1591,      2)  /* Aura of Heart Seeker Self V */
-     , (21432,  1604,      2)  /* Aura of Defender Self V */
      , (21432,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (21432,  1624,      2)  /* Aura of Swift Killer Self III */;
+     , (21432,  1624,      2)  /* Aura of Swift Killer Self III */
+     , (21432,   368,      2)  /* Light Weapon Mastery Other V */;

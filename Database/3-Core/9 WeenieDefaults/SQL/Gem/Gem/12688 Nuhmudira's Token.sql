@@ -27,10 +27,10 @@ VALUES (12688,   1, 'Nuhmudira''s Token') /* Name */
      , (12688,  15, 'A token from Nuhmudira to be given either to an Arcanum Agent for a Writ of Refuge or an Arcanum Envoy for access to items for your home.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12688,   1,   33557280) /* Setup */
-     , (12688,   3,  536870932) /* SoundTable */
-     , (12688,   6,   67111092) /* PaletteBase */
-     , (12688,   7,  268436298) /* ClothingBase */
-     , (12688,   8,  100672348) /* Icon */
-     , (12688,  22,  872415275) /* PhysicsEffectTable */
-     , (12688,  36,  234881046) /* MutateFilter */;
+VALUES (12688,   1, 0x02000B20) /* Setup */
+     , (12688,   3, 0x20000014) /* SoundTable */
+     , (12688,   6, 0x040008B4) /* PaletteBase */
+     , (12688,   7, 0x1000034A) /* ClothingBase */
+     , (12688,   8, 0x0600235C) /* Icon */
+     , (12688,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (12688,  36, 0x0E000016) /* MutateFilter */;

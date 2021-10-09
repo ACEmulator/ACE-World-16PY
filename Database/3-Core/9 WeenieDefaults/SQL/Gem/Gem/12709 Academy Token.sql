@@ -27,9 +27,9 @@ VALUES (12709,   1, 'Academy Token') /* Name */
      , (12709,  15, 'A brass token stamped with the sigil of the Strathelar Training Academy. Return this item to the Guard in the Practice Area in order to be given your next mission.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12709,   1,   33557280) /* Setup */
-     , (12709,   3,  536870932) /* SoundTable */
-     , (12709,   6,   67111092) /* PaletteBase */
-     , (12709,   7,  268436301) /* ClothingBase */
-     , (12709,   8,  100672371) /* Icon */
-     , (12709,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12709,   1, 0x02000B20) /* Setup */
+     , (12709,   3, 0x20000014) /* SoundTable */
+     , (12709,   6, 0x040008B4) /* PaletteBase */
+     , (12709,   7, 0x1000034D) /* ClothingBase */
+     , (12709,   8, 0x06002373) /* Icon */
+     , (12709,  22, 0x3400002B) /* PhysicsEffectTable */;

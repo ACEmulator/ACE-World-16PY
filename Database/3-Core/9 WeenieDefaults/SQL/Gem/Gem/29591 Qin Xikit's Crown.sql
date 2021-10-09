@@ -34,10 +34,10 @@ VALUES (29591,   1, 'Qin Xikit''s Crown') /* Name */
      , (29591,  16, 'A crown once worn by Qin Xikit, not the key to opening the portal to her island. Perhaps if this were placed onto a dais that had a fitting for the crown it would open the way to her island.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29591,   1,   33554809) /* Setup */
-     , (29591,   3,  536870932) /* SoundTable */
-     , (29591,   6,   67111919) /* PaletteBase */
-     , (29591,   7,  268435723) /* ClothingBase */
-     , (29591,   8,  100675772) /* Icon */
-     , (29591,  22,  872415275) /* PhysicsEffectTable */
-     , (29591,  36,  234881046) /* MutateFilter */;
+VALUES (29591,   1, 0x02000179) /* Setup */
+     , (29591,   3, 0x20000014) /* SoundTable */
+     , (29591,   6, 0x04000BEF) /* PaletteBase */
+     , (29591,   7, 0x1000010B) /* ClothingBase */
+     , (29591,   8, 0x060030BC) /* Icon */
+     , (29591,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29591,  36, 0x0E000016) /* MutateFilter */;

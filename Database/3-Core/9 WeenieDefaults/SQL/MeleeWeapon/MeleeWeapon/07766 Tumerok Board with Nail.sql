@@ -37,8 +37,8 @@ VALUES (7766,   1, 'Tumerok Board with Nail') /* Name */
      , (7766,  16, 'A bigger board with bigger nail.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7766,   1,   33556638) /* Setup */
-     , (7766,   3,  536870932) /* SoundTable */
-     , (7766,   8,  100670757) /* Icon */
-     , (7766,  22,  872415275) /* PhysicsEffectTable */
-     , (7766,  36,  234881044) /* MutateFilter */;
+VALUES (7766,   1, 0x0200089E) /* Setup */
+     , (7766,   3, 0x20000014) /* SoundTable */
+     , (7766,   8, 0x06001D25) /* Icon */
+     , (7766,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (7766,  36, 0x0E000014) /* MutateFilter */;

@@ -24,7 +24,7 @@ VALUES (20252,   1, 'Scroll of Belly of Lead') /* Name */
      , (20252,  15, 'When learned, this spell decreases the target''s Quickness by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20252,   1,   33554826) /* Setup */
-     , (20252,   8,  100676469) /* Icon */
-     , (20252,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20252,   1, 0x0200018A) /* Setup */
+     , (20252,   8, 0x06003375) /* Icon */
+     , (20252,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20252,  28,       2084) /* Spell - Belly of Lead */;

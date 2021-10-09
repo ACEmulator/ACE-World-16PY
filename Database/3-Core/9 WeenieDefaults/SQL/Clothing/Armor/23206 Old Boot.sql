@@ -43,9 +43,9 @@ VALUES (23206,   1, 'Old Boot') /* Name */
      , (23206,  15, 'An old boot you caught while fishing.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23206,   1,   33558279) /* Setup */
-     , (23206,   3,  536870932) /* SoundTable */
-     , (23206,   6,   67108990) /* PaletteBase */
-     , (23206,   7,  268436539) /* ClothingBase */
-     , (23206,   8,  100674230) /* Icon */
-     , (23206,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23206,   1, 0x02000F07) /* Setup */
+     , (23206,   3, 0x20000014) /* SoundTable */
+     , (23206,   6, 0x0400007E) /* PaletteBase */
+     , (23206,   7, 0x1000043B) /* ClothingBase */
+     , (23206,   8, 0x06002AB6) /* Icon */
+     , (23206,  22, 0x3400002B) /* PhysicsEffectTable */;

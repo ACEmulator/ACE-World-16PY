@@ -61,12 +61,12 @@ VALUES (22515,   1, 'Tusker Worshipper') /* Name */
      , (22515,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22515,   1,   33554510) /* Setup */
-     , (22515,   2,  150994945) /* MotionTable */
-     , (22515,   3,  536870914) /* SoundTable */
-     , (22515,   4,  805306368) /* CombatTable */
-     , (22515,   8,  100667446) /* Icon */
-     , (22515,  22,  872415236) /* PhysicsEffectTable */
+VALUES (22515,   1, 0x0200004E) /* Setup */
+     , (22515,   2, 0x09000001) /* MotionTable */
+     , (22515,   3, 0x20000002) /* SoundTable */
+     , (22515,   4, 0x30000000) /* CombatTable */
+     , (22515,   8, 0x06001036) /* Icon */
+     , (22515,  22, 0x34000004) /* PhysicsEffectTable */
      , (22515,  32,        418) /* WieldedTreasureType - 
                                    Wield Clean, Dry Towel (10758) | Palette: Blue (2) | Probability: 50%
                                    Wield Clean, Dry Towel (10758) | Palette: Green (8) | Probability: 50%
@@ -94,18 +94,18 @@ VALUES (22515,   1,   130, 0, 0, 170) /* MaxHealth */
      , (22515,   5,     0, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (22515,  1, 0, 3, 0, 170, 0, 1357.49040417) /* Axe                 Specialized */
-     , (22515,  4, 0, 3, 0, 170, 0, 1357.49040417) /* Dagger              Specialized */
-     , (22515,  5, 0, 3, 0, 170, 0, 1357.49040417) /* Mace                Specialized */
-     , (22515,  6, 0, 3, 0, 210, 0, 1357.49040417) /* MeleeDefense        Specialized */
-     , (22515,  7, 0, 3, 0, 320, 0, 1357.49040417) /* MissileDefense      Specialized */
-     , (22515,  9, 0, 3, 0, 170, 0, 1357.49040417) /* Spear               Specialized */
-     , (22515, 10, 0, 3, 0, 170, 0, 1357.49040417) /* Staff               Specialized */
-     , (22515, 11, 0, 3, 0, 170, 0, 1357.49040417) /* Sword               Specialized */
-     , (22515, 13, 0, 3, 0, 170, 0, 1357.49040417) /* UnarmedCombat       Specialized */
-     , (22515, 15, 0, 3, 0, 205, 0, 1357.49040417) /* MagicDefense        Specialized */
-     , (22515, 20, 0, 3, 0,  50, 0, 1357.49040417) /* Deception           Specialized */
-     , (22515, 24, 0, 3, 0,  50, 0, 1357.49040417) /* Run                 Specialized */;
+VALUES (22515,  1, 0, 3, 0, 170, 0, 1357.4904041699963) /* Axe                 Specialized */
+     , (22515,  4, 0, 3, 0, 170, 0, 1357.4904041699963) /* Dagger              Specialized */
+     , (22515,  5, 0, 3, 0, 170, 0, 1357.4904041699963) /* Mace                Specialized */
+     , (22515,  6, 0, 3, 0, 210, 0, 1357.4904041699963) /* MeleeDefense        Specialized */
+     , (22515,  7, 0, 3, 0, 320, 0, 1357.4904041699963) /* MissileDefense      Specialized */
+     , (22515,  9, 0, 3, 0, 170, 0, 1357.4904041699963) /* Spear               Specialized */
+     , (22515, 10, 0, 3, 0, 170, 0, 1357.4904041699963) /* Staff               Specialized */
+     , (22515, 11, 0, 3, 0, 170, 0, 1357.4904041699963) /* Sword               Specialized */
+     , (22515, 13, 0, 3, 0, 170, 0, 1357.4904041699963) /* UnarmedCombat       Specialized */
+     , (22515, 15, 0, 3, 0, 205, 0, 1357.4904041699963) /* MagicDefense        Specialized */
+     , (22515, 20, 0, 3, 0,  50, 0, 1357.4904041699963) /* Deception           Specialized */
+     , (22515, 24, 0, 3, 0,  50, 0, 1357.4904041699963) /* Run                 Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (22515,  0,  4,  0,    0,  260,  234,  260,  286,  104,  104,  260,  156,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

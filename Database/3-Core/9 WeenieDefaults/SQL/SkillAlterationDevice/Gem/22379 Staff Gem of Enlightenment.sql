@@ -13,7 +13,7 @@ VALUES (22379,   1,       2048) /* ItemType - Gem */
      , (22379,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22379, 114,          1) /* Attuned - Attuned */
      , (22379, 185,          1) /* TypeOfAlteration */
-     , (22379, 186,         10) /* SkillToBeAltered */;
+     , (22379, 186,         10) /* SkillToBeAltered - Staff */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22379,  22, True ) /* Inscribable */
@@ -25,8 +25,8 @@ VALUES (22379,   1, 'Staff Gem of Enlightenment') /* Name */
      , (22379,  33, 'SkillAlterationGemPickedUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22379,   1,   33558088) /* Setup */
-     , (22379,   6,   67111919) /* PaletteBase */
-     , (22379,   7,  268435723) /* ClothingBase */
-     , (22379,   8,  100673788) /* Icon */
-     , (22379,  50,  100673782) /* IconOverlay */;
+VALUES (22379,   1, 0x02000E48) /* Setup */
+     , (22379,   6, 0x04000BEF) /* PaletteBase */
+     , (22379,   7, 0x1000010B) /* ClothingBase */
+     , (22379,   8, 0x060028FC) /* Icon */
+     , (22379,  50, 0x060028F6) /* IconOverlay */;

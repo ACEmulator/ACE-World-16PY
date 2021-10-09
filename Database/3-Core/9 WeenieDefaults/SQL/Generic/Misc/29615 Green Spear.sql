@@ -29,9 +29,9 @@ VALUES (29615,   1, 'Green Spear') /* Name */
      , (29615,  16, 'A decorative green spear.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29615,   1,   33559064) /* Setup */
-     , (29615,   3,  536870932) /* SoundTable */
-     , (29615,   6,   67111919) /* PaletteBase */
-     , (29615,   7,  268435768) /* ClothingBase */
-     , (29615,   8,  100669005) /* Icon */
-     , (29615,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29615,   1, 0x02001218) /* Setup */
+     , (29615,   3, 0x20000014) /* SoundTable */
+     , (29615,   6, 0x04000BEF) /* PaletteBase */
+     , (29615,   7, 0x10000138) /* ClothingBase */
+     , (29615,   8, 0x0600164D) /* Icon */
+     , (29615,  22, 0x3400002B) /* PhysicsEffectTable */;

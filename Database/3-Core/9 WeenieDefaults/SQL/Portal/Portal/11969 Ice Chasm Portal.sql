@@ -25,10 +25,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11969,   1, 'Ice Chasm Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11969,   1,   33555925) /* Setup */
-     , (11969,   2,  150994947) /* MotionTable */
-     , (11969,   8,  100667499) /* Icon */;
+VALUES (11969,   1, 0x020005D5) /* Setup */
+     , (11969,   2, 0x09000003) /* MotionTable */
+     , (11969,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11969, 2, 61276918, 160, -120, -30, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0x03A702F6 [160.000000 -120.000000 -30.000000] 1.000000 0.000000 0.000000 0.000000 */;
+VALUES (11969, 2, 0x03A702F6, 160, -120, -30, 1, 0, 0, -0) /* Destination */
+/* @teleloc 0x03A702F6 [160.000000 -120.000000 -30.000000] 1.000000 0.000000 0.000000 -0.000000 */;

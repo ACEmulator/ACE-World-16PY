@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6590,   1, 'So. Forest Shadow Spire Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6590,   1,   33554867) /* Setup */
-     , (6590,   2,  150994947) /* MotionTable */
-     , (6590,   8,  100667499) /* Icon */;
+VALUES (6590,   1, 0x020001B3) /* Setup */
+     , (6590,   2, 0x09000003) /* MotionTable */
+     , (6590,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6590, 2, 2509766697, 140.2, 15.9, 224, -0.3173047, 0, 0, -0.9483237) /* Destination */
-/* @teleloc 0x95980029 [140.200000 15.900000 224.000000] -0.317305 0.000000 0.000000 -0.948324 */;
+VALUES (6590, 2, 0x95980029, 140.2, 15.9, 224, -0.317305, 0, -0, -0.948324) /* Destination */
+/* @teleloc 0x95980029 [140.199997 15.900000 224.000000] -0.317305 0.000000 -0.000000 -0.948324 */;

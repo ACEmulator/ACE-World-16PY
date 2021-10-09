@@ -17,7 +17,7 @@ VALUES (27366,   1,        256) /* ItemType - MissileWeapon */
      , (27366,  48,          3) /* WeaponSkill - Crossbow */
      , (27366,  49,         60) /* WeaponTime */
      , (27366,  50,          2) /* AmmoType - Bolt */
-     , (27366,  51,          2) /* CombatUse - Missle */
+     , (27366,  51,          2) /* CombatUse - Missile */
      , (27366,  52,          2) /* ParentLocation - LeftHand */
      , (27366,  53,          3) /* PlacementPosition - LeftHand */
      , (27366,  60,        160) /* WeaponRange */
@@ -40,7 +40,7 @@ VALUES (27366,  22, True ) /* Inscribable */
      , (27366,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27366,   5, -0.033333) /* ManaRate */
+VALUES (27366,   5,  -0.033) /* ManaRate */
      , (27366,  26,    24.9) /* MaximumVelocity */
      , (27366,  29,    1.08) /* WeaponDefense */
      , (27366,  39,       1) /* DefaultScale */
@@ -54,14 +54,14 @@ VALUES (27366,   1, 'Volkama''s Kalindan of the Rivers') /* Name */
      , (27366,  16, 'A kalindan fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27366,   1,   33558668) /* Setup */
-     , (27366,   3,  536870932) /* SoundTable */
-     , (27366,   6,   67113336) /* PaletteBase */
-     , (27366,   7,  268436254) /* ClothingBase */
-     , (27366,   8,  100676343) /* Icon */
-     , (27366,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27366,   1, 0x0200108C) /* Setup */
+     , (27366,   3, 0x20000014) /* SoundTable */
+     , (27366,   6, 0x04001178) /* PaletteBase */
+     , (27366,   7, 0x1000031E) /* ClothingBase */
+     , (27366,   8, 0x060032F7) /* Icon */
+     , (27366,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27366,  2470,      2)  /* Greater Still Water */
-     , (27366,  2473,      2)  /* Greater Torrent */
-     , (27366,  3233,      2)  /* Greater Cascade */;
+     , (27366,  3233,      2)  /* Greater Cascade */
+     , (27366,  2473,      2)  /* Greater Torrent */;

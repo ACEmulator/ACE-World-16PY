@@ -39,12 +39,12 @@ VALUES (12236,   1, 'Energy Crystal') /* Name */
      , (12236,  33, 'HouseDeedUltra') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12236,   1,   33557374) /* Setup */
-     , (12236,   3,  536870932) /* SoundTable */
-     , (12236,   8,  100672184) /* Icon */
-     , (12236,  22,  872415275) /* PhysicsEffectTable */
-     , (12236,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
-     , (12236,  36,  234881046) /* MutateFilter */;
+VALUES (12236,   1, 0x02000B7E) /* Setup */
+     , (12236,   3, 0x20000014) /* SoundTable */
+     , (12236,   8, 0x060022B8) /* Icon */
+     , (12236,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (12236,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
+     , (12236,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12236,   561,      2)  /* Creature Enchantment Mastery Self V */

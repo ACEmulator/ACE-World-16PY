@@ -27,7 +27,7 @@ VALUES (27905,   1, 'Mosswart War Paint') /* Name */
      , (27905,  33, 'MosswartExodusWarPaint') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27905,   1,   33556751) /* Setup */
-     , (27905,   3,  536870932) /* SoundTable */
-     , (27905,   8,  100676602) /* Icon */
-     , (27905,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27905,   1, 0x0200090F) /* Setup */
+     , (27905,   3, 0x20000014) /* SoundTable */
+     , (27905,   8, 0x060033FA) /* Icon */
+     , (27905,  22, 0x3400002B) /* PhysicsEffectTable */;

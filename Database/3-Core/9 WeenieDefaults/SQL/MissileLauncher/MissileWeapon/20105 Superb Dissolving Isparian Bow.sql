@@ -19,7 +19,7 @@ VALUES (20105,   1,        256) /* ItemType - MissileWeapon */
      , (20105,  48,          2) /* WeaponSkill - Bow */
      , (20105,  49,         40) /* WeaponTime */
      , (20105,  50,          1) /* AmmoType - Arrow */
-     , (20105,  51,          2) /* CombatUse - Missle */
+     , (20105,  51,          2) /* CombatUse - Missile */
      , (20105,  52,          2) /* ParentLocation - LeftHand */
      , (20105,  53,          3) /* PlacementPosition - LeftHand */
      , (20105,  60,        175) /* WeaponRange */
@@ -50,17 +50,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20105,   1, 'Superb Dissolving Isparian Bow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20105,   1,   33557754) /* Setup */
-     , (20105,   3,  536870932) /* SoundTable */
-     , (20105,   6,   67111919) /* PaletteBase */
-     , (20105,   7,  268436394) /* ClothingBase */
-     , (20105,   8,  100673015) /* Icon */
-     , (20105,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20105,   1, 0x02000CFA) /* Setup */
+     , (20105,   3, 0x20000014) /* SoundTable */
+     , (20105,   6, 0x04000BEF) /* PaletteBase */
+     , (20105,   7, 0x100003AA) /* ClothingBase */
+     , (20105,   8, 0x060025F7) /* Icon */
+     , (20105,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20105,  37,          2) /* ItemSkillLimit - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20105,   518,      2)  /* Acid Protection Self IV */
+VALUES (20105,  1604,      2)  /* Aura of Defender Self V */
      , (20105,  1351,      2)  /* Endurance Self III */
-     , (20105,  1604,      2)  /* Aura of Defender Self V */
+     , (20105,   518,      2)  /* Acid Protection Self IV */
      , (20105,  1615,      2)  /* Aura of Blood Drinker Self V */
      , (20105,  2540,      2)  /* Minor Missile Weapon Aptitude */;

@@ -23,5 +23,5 @@ VALUES (5070,   1, 'East Lytelthorpe Outpost') /* Name */
      , (5070,  16, 'Welcome to the East Lytelthorpe Outpost.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5070,   1,   33555088) /* Setup */
-     , (5070,   8,  100668115) /* Icon */;
+VALUES (5070,   1, 0x02000290) /* Setup */
+     , (5070,   8, 0x060012D3) /* Icon */;

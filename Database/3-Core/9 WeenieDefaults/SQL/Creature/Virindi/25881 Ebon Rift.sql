@@ -71,12 +71,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25881,   1, 'Ebon Rift') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25881,   1,   33558549) /* Setup */
-     , (25881,   2,  150995087) /* MotionTable */
-     , (25881,   3,  536871001) /* SoundTable */
-     , (25881,   4,  805306407) /* CombatTable */
-     , (25881,   8,  100671702) /* Icon */
-     , (25881,  22,  872415375) /* PhysicsEffectTable */
+VALUES (25881,   1, 0x02001015) /* Setup */
+     , (25881,   2, 0x0900008F) /* MotionTable */
+     , (25881,   3, 0x20000059) /* SoundTable */
+     , (25881,   4, 0x30000027) /* CombatTable */
+     , (25881,   8, 0x060020D6) /* Icon */
+     , (25881,  22, 0x3400008F) /* PhysicsEffectTable */
      , (25881,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -93,15 +93,15 @@ VALUES (25881,   1,   720, 0, 0, 800) /* MaxHealth */
      , (25881,   5,   530, 0, 0, 800) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (25881,  6, 0, 3, 0, 410, 0, 1678.40421544981) /* MeleeDefense        Specialized */
-     , (25881,  7, 0, 3, 0, 485, 0, 1678.40421544981) /* MissileDefense      Specialized */
-     , (25881, 13, 0, 3, 0, 380, 0, 1678.40421544981) /* UnarmedCombat       Specialized */
-     , (25881, 15, 0, 3, 0, 295, 0, 1678.40421544981) /* MagicDefense        Specialized */
-     , (25881, 20, 0, 3, 0, 100, 0, 1678.40421544981) /* Deception           Specialized */
-     , (25881, 24, 0, 3, 0,  10, 0, 1678.40421544981) /* Run                 Specialized */
-     , (25881, 31, 0, 3, 0, 250, 0, 1678.40421544981) /* CreatureEnchantment Specialized */
-     , (25881, 33, 0, 3, 0, 250, 0, 1678.40421544981) /* LifeMagic           Specialized */
-     , (25881, 34, 0, 3, 0, 250, 0, 1678.40421544981) /* WarMagic            Specialized */;
+VALUES (25881,  6, 0, 3, 0, 410, 0, 1678.4042154498068) /* MeleeDefense        Specialized */
+     , (25881,  7, 0, 3, 0, 485, 0, 1678.4042154498068) /* MissileDefense      Specialized */
+     , (25881, 13, 0, 3, 0, 380, 0, 1678.4042154498068) /* UnarmedCombat       Specialized */
+     , (25881, 15, 0, 3, 0, 295, 0, 1678.4042154498068) /* MagicDefense        Specialized */
+     , (25881, 20, 0, 3, 0, 100, 0, 1678.4042154498068) /* Deception           Specialized */
+     , (25881, 24, 0, 3, 0,  10, 0, 1678.4042154498068) /* Run                 Specialized */
+     , (25881, 31, 0, 3, 0, 250, 0, 1678.4042154498068) /* CreatureEnchantment Specialized */
+     , (25881, 33, 0, 3, 0, 250, 0, 1678.4042154498068) /* LifeMagic           Specialized */
+     , (25881, 34, 0, 3, 0, 250, 0, 1678.4042154498068) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (25881,  0,  5, 60, 0.75,  750,  750,  750,  750,  750,  750,  750,  750,    0, 1,  0.5,  0.2,    0,  0.5,  0.2,    0,    0,    0,    0,    0,    0,    0) /* Head */
@@ -113,13 +113,13 @@ VALUES (25881,  0,  5, 60, 0.75,  750,  750,  750,  750,  750,  750,  750,  750,
      , (25881, 22, 64, 60, 0.75,  750,  750,  750,  750,  750,  750,  750,  750,    0, 2,    0,    0,    0,    0,    0,    0,  0.1,  0.1,    0,  0.1,  0.1,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25881,   102,  2.115)  /* Acid Blast VI */
-     , (25881,  1023,  2.115)  /* Bludgeoning Protection Self VI */
-     , (25881,  1035,  2.115)  /* Cold Protection Self VI */
-     , (25881,  1071,  2.115)  /* Lightning Protection Self VI */
-     , (25881,  1114,  2.115)  /* Blade Protection Self VI */
+VALUES (25881,  1035,  2.115)  /* Cold Protection Self VI */
      , (25881,  1138,  2.115)  /* Piercing Protection Self VI */
-     , (25881,  2716,  2.115)  /* Acid Arc VI */;
+     , (25881,   102,  2.115)  /* Acid Blast VI */
+     , (25881,  2716,  2.115)  /* Acid Arc VI */
+     , (25881,  1114,  2.115)  /* Blade Protection Self VI */
+     , (25881,  1071,  2.115)  /* Lightning Protection Self VI */
+     , (25881,  1023,  2.115)  /* Bludgeoning Protection Self VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (25881,  94) /* ATTACK_NOTIFICATION_EVENT */
@@ -130,7 +130,7 @@ VALUES (25881, 9, 30823,  0, 0, 0.03, False) /* Create Broken Black Marrow Key (
      , (25881, 9,     0,  0, 0, 0.97, False) /* Create nothing for ContainTreasure */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25881, 0.25, 25858, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1, 9, 0.8191521, 0, 0, -0.5735765) /* Generate Soiled Doll (25858) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (25881, 0.5, 25855, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 3.4, 9, 0.9659258, 0, 0, -0.258819) /* Generate Cosseted Doll (25855) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (25881, 0.75, 25878, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, -1.4, 9, 0.9961947, 0, 0, -0.08715574) /* Generate Infested Rat (25878) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (25881, 1, 25873, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -2, 9, 0.9961947, 0, 0, -0.08715574) /* Generate Glissnal Nefane (25873) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (25881, 0.25, 25858, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1, 9, 0.819152, 0, 0, -0.573577) /* Generate Soiled Doll (25858) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (25881, 0.5, 25855, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 3.4, 9, 0.965926, 0, 0, -0.258819) /* Generate Cosseted Doll (25855) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (25881, 0.75, 25878, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, -1.4, 9, 0.996195, 0, 0, -0.087156) /* Generate Infested Rat (25878) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (25881, 1, 25873, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -2, 9, 0.996195, 0, 0, -0.087156) /* Generate Glissnal Nefane (25873) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

@@ -54,13 +54,13 @@ VALUES (25622,   1, 'Frozen Weeping Mace') /* Name */
      , (25622,  15, 'A mace infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25622,   1,   33558482) /* Setup */
-     , (25622,   3,  536870932) /* SoundTable */
-     , (25622,   6,   67114522) /* PaletteBase */
-     , (25622,   7,  268436698) /* ClothingBase */
-     , (25622,   8,  100674898) /* Icon */
-     , (25622,  22,  872415275) /* PhysicsEffectTable */
-     , (25622,  36,  234881044) /* MutateFilter */;
+VALUES (25622,   1, 0x02000FD2) /* Setup */
+     , (25622,   3, 0x20000014) /* SoundTable */
+     , (25622,   6, 0x0400161A) /* PaletteBase */
+     , (25622,   7, 0x100004DA) /* ClothingBase */
+     , (25622,   8, 0x06002D52) /* Icon */
+     , (25622,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (25622,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25622,  2690,      2)  /* Moderate Light Weapon Aptitude */

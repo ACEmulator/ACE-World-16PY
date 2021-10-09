@@ -37,12 +37,12 @@ VALUES (27387,   1, 'Dark Monolith') /* Name */
      , (27387,  16, 'A strange crystal found in the remains of a golem. It is shaped like a mote, but has obvious portal magics surrounding it. While holding it you sense a distant source of power somewhere below.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27387,   1,   33556769) /* Setup */
-     , (27387,   3,  536870932) /* SoundTable */
-     , (27387,   6,   67111919) /* PaletteBase */
-     , (27387,   7,  268435723) /* ClothingBase */
-     , (27387,   8,  100668364) /* Icon */
-     , (27387,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27387,   1, 0x02000921) /* Setup */
+     , (27387,   3, 0x20000014) /* SoundTable */
+     , (27387,   6, 0x04000BEF) /* PaletteBase */
+     , (27387,   7, 0x1000010B) /* ClothingBase */
+     , (27387,   8, 0x060013CC) /* Icon */
+     , (27387,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27387,  28,        157) /* Spell - Summon Primary Portal I */
      , (27387,  31,      27398) /* LinkedPortalOne - Dark Monolith */
-     , (27387,  50,  100676404) /* IconOverlay */;
+     , (27387,  50, 0x06003334) /* IconOverlay */;

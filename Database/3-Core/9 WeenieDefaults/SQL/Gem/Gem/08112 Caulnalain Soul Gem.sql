@@ -32,9 +32,9 @@ VALUES (8112,   1, 'Caulnalain Soul Gem') /* Name */
      , (8112,  16, 'The heart of the Caulnalain Soul Crystal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8112,   1,   33554809) /* Setup */
-     , (8112,   3,  536870932) /* SoundTable */
-     , (8112,   6,   67111919) /* PaletteBase */
-     , (8112,   7,  268435723) /* ClothingBase */
-     , (8112,   8,  100670987) /* Icon */
-     , (8112,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8112,   1, 0x02000179) /* Setup */
+     , (8112,   3, 0x20000014) /* SoundTable */
+     , (8112,   6, 0x04000BEF) /* PaletteBase */
+     , (8112,   7, 0x1000010B) /* ClothingBase */
+     , (8112,   8, 0x06001E0B) /* Icon */
+     , (8112,  22, 0x3400002B) /* PhysicsEffectTable */;

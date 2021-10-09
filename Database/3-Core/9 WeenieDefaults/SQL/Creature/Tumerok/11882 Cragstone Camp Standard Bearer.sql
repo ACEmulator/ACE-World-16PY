@@ -62,14 +62,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11882,   1, 'Cragstone Camp Standard Bearer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11882,   1,   33554496) /* Setup */
-     , (11882,   2,  150994954) /* MotionTable */
-     , (11882,   3,  536870931) /* SoundTable */
-     , (11882,   4,  805306380) /* CombatTable */
-     , (11882,   6,   67109314) /* PaletteBase */
-     , (11882,   7,  268435647) /* ClothingBase */
-     , (11882,   8,  100667452) /* Icon */
-     , (11882,  22,  872415270) /* PhysicsEffectTable */
+VALUES (11882,   1, 0x02000040) /* Setup */
+     , (11882,   2, 0x0900000A) /* MotionTable */
+     , (11882,   3, 0x20000013) /* SoundTable */
+     , (11882,   4, 0x3000000C) /* CombatTable */
+     , (11882,   6, 0x040001C2) /* PaletteBase */
+     , (11882,   7, 0x100000BF) /* ClothingBase */
+     , (11882,   8, 0x0600103C) /* Icon */
+     , (11882,  22, 0x34000026) /* PhysicsEffectTable */
      , (11882,  31,      11843) /* LinkedPortalOne - Cragstone Advance Camp Portal */
      , (11882,  32,        226) /* WieldedTreasureType - 
                                    Wield 5x Javelin (320) | Probability: 10%
@@ -107,7 +107,7 @@ VALUES (11882,   1,   33554496) /* Setup */
                                    Wield Tofun (356) | Probability: 6%
                                    Wield War Hammer (359) | Probability: 10%
                                    Wield Yari (362) | Probability: 10%
-                                   Wield Large Kite Shield (92) | Probability: 30%
+                                   Wield Large Kite Shield (92) | Probability: 30.000002%
                                    Wield Kite Shield (91) | Probability: 20%
                                    Wield Large Round Shield (94) | Probability: 20% */
      , (11882,  35,        197) /* DeathTreasureType - Loot Tier: 2 */;
@@ -126,19 +126,19 @@ VALUES (11882,   1,    35, 0, 0, 78) /* MaxHealth */
      , (11882,   5,     0, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (11882,  1, 0, 2, 0,  75, 0, 769.992660571982) /* Axe                 Trained */
-     , (11882,  2, 0, 2, 0,  65, 0, 769.992660571982) /* Bow                 Trained */
-     , (11882,  3, 0, 2, 0,  65, 0, 769.992660571982) /* Crossbow            Trained */
-     , (11882,  4, 0, 2, 0,  75, 0, 769.992660571982) /* Dagger              Trained */
-     , (11882,  5, 0, 2, 0,  75, 0, 769.992660571982) /* Mace                Trained */
-     , (11882,  6, 0, 2, 0,  70, 0, 769.992660571982) /* MeleeDefense        Trained */
-     , (11882,  7, 0, 2, 0,  65, 0, 769.992660571982) /* MissileDefense      Trained */
-     , (11882, 10, 0, 2, 0,  75, 0, 769.992660571982) /* Staff               Trained */
-     , (11882, 11, 0, 2, 0,  75, 0, 769.992660571982) /* Sword               Trained */
-     , (11882, 13, 0, 2, 0,  90, 0, 769.992660571982) /* UnarmedCombat       Trained */
-     , (11882, 15, 0, 2, 0,  46, 0, 769.992660571982) /* MagicDefense        Trained */
-     , (11882, 20, 0, 2, 0,  30, 0, 769.992660571982) /* Deception           Trained */
-     , (11882, 24, 0, 2, 0,  60, 0, 769.992660571982) /* Run                 Trained */;
+VALUES (11882,  1, 0, 2, 0,  75, 0, 769.9926605719816) /* Axe                 Trained */
+     , (11882,  2, 0, 2, 0,  65, 0, 769.9926605719816) /* Bow                 Trained */
+     , (11882,  3, 0, 2, 0,  65, 0, 769.9926605719816) /* Crossbow            Trained */
+     , (11882,  4, 0, 2, 0,  75, 0, 769.9926605719816) /* Dagger              Trained */
+     , (11882,  5, 0, 2, 0,  75, 0, 769.9926605719816) /* Mace                Trained */
+     , (11882,  6, 0, 2, 0,  70, 0, 769.9926605719816) /* MeleeDefense        Trained */
+     , (11882,  7, 0, 2, 0,  65, 0, 769.9926605719816) /* MissileDefense      Trained */
+     , (11882, 10, 0, 2, 0,  75, 0, 769.9926605719816) /* Staff               Trained */
+     , (11882, 11, 0, 2, 0,  75, 0, 769.9926605719816) /* Sword               Trained */
+     , (11882, 13, 0, 2, 0,  90, 0, 769.9926605719816) /* UnarmedCombat       Trained */
+     , (11882, 15, 0, 2, 0,  46, 0, 769.9926605719816) /* MagicDefense        Trained */
+     , (11882, 20, 0, 2, 0,  30, 0, 769.9926605719816) /* Deception           Trained */
+     , (11882, 24, 0, 2, 0,  60, 0, 769.9926605719816) /* Run                 Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (11882,  0,  4,  0,    0,   90,   90,   90,   90,   90,   90,   90,   90,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

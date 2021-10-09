@@ -25,10 +25,10 @@ VALUES (11953,   1, 'Portal to Bluespire') /* Name */
      , (11953,  16, 'This portal goes to the town of Bluespire on the island of Marae Lassel. This is a good town for characters over level 10.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11953,   1,   33554867) /* Setup */
-     , (11953,   2,  150994947) /* MotionTable */
-     , (11953,   8,  100667499) /* Icon */;
+VALUES (11953,   1, 0x020001B3) /* Setup */
+     , (11953,   2, 0x09000003) /* MotionTable */
+     , (11953,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11953, 2, 565182487, 48.19, 165.89, 0.005, -0.08361714, 0, 0, -0.9964979) /* Destination */
-/* @teleloc 0x21B00017 [48.190000 165.890000 0.005000] -0.083617 0.000000 0.000000 -0.996498 */;
+VALUES (11953, 2, 0x21B00017, 48.19, 165.89, 0.005, -0.083617, 0, -0, -0.996498) /* Destination */
+/* @teleloc 0x21B00017 [48.189999 165.889999 0.005000] -0.083617 0.000000 -0.000000 -0.996498 */;

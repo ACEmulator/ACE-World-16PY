@@ -27,7 +27,7 @@ VALUES (27897,   1, 'A Musty Key') /* Name */
      , (27897,  33, 'MosswartExodusSpearKey') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27897,   1,   33554784) /* Setup */
-     , (27897,   3,  536870932) /* SoundTable */
-     , (27897,   8,  100670820) /* Icon */
-     , (27897,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27897,   1, 0x02000160) /* Setup */
+     , (27897,   3, 0x20000014) /* SoundTable */
+     , (27897,   8, 0x06001D64) /* Icon */
+     , (27897,  22, 0x3400002B) /* PhysicsEffectTable */;

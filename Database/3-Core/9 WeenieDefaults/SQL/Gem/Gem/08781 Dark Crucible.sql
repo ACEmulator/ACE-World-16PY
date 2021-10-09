@@ -32,10 +32,10 @@ VALUES (8781,   1, 'Dark Crucible') /* Name */
      , (8781,  16, 'A magical artifact resulting from the combination of the Dark Singularity and the Skull of Avoren Palacost.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8781,   1,   33556925) /* Setup */
-     , (8781,   3,  536870932) /* SoundTable */
-     , (8781,   6,   67111919) /* PaletteBase */
-     , (8781,   7,  268435723) /* ClothingBase */
-     , (8781,   8,  100671220) /* Icon */
-     , (8781,  22,  872415275) /* PhysicsEffectTable */
-     , (8781,  36,  234881046) /* MutateFilter */;
+VALUES (8781,   1, 0x020009BD) /* Setup */
+     , (8781,   3, 0x20000014) /* SoundTable */
+     , (8781,   6, 0x04000BEF) /* PaletteBase */
+     , (8781,   7, 0x1000010B) /* ClothingBase */
+     , (8781,   8, 0x06001EF4) /* Icon */
+     , (8781,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8781,  36, 0x0E000016) /* MutateFilter */;

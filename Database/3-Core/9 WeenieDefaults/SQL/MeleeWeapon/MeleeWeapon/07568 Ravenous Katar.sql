@@ -48,13 +48,13 @@ VALUES (7568,   1, 'Ravenous Katar') /* Name */
      , (7568,  16, 'A katar crafted from pure chorizite, imbued with powerful magic, but resistant to further enchantment. (Note: This weapon is unenchantable.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7568,   1,   33556655) /* Setup */
-     , (7568,   3,  536870932) /* SoundTable */
-     , (7568,   6,   67111919) /* PaletteBase */
-     , (7568,   7,  268435789) /* ClothingBase */
-     , (7568,   8,  100668925) /* Icon */
-     , (7568,  22,  872415275) /* PhysicsEffectTable */
-     , (7568,  36,  234881044) /* MutateFilter */
+VALUES (7568,   1, 0x020008AF) /* Setup */
+     , (7568,   3, 0x20000014) /* SoundTable */
+     , (7568,   6, 0x04000BEF) /* PaletteBase */
+     , (7568,   7, 0x1000014D) /* ClothingBase */
+     , (7568,   8, 0x060015FD) /* Icon */
+     , (7568,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (7568,  36, 0x0E000014) /* MutateFilter */
      , (7568,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

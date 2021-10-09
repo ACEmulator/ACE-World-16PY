@@ -25,53 +25,53 @@ VALUES (25304,  22, True ) /* Inscribable */
      , (25304,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25304,   5,       0) /* ManaRate */;
+VALUES (25304,   5,      -0) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25304,   1, 'Bracelet of Creature Enchantments') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25304,   1,   33554683) /* Setup */
-     , (25304,   3,  536870932) /* SoundTable */
-     , (25304,   6,   67111919) /* PaletteBase */
-     , (25304,   7,  268436286) /* ClothingBase */
-     , (25304,   8,  100672215) /* Icon */
-     , (25304,  22,  872415275) /* PhysicsEffectTable */
-     , (25304,  36,  234881046) /* MutateFilter */;
+VALUES (25304,   1, 0x020000FB) /* Setup */
+     , (25304,   3, 0x20000014) /* SoundTable */
+     , (25304,   6, 0x04000BEF) /* PaletteBase */
+     , (25304,   7, 0x1000033E) /* ClothingBase */
+     , (25304,   8, 0x060022D7) /* Icon */
+     , (25304,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (25304,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25304,   242,      2)  /* Invulnerability Other IV */
-     , (25304,   253,      2)  /* Impregnability Other IV */
-     , (25304,   271,      2)  /* Magic Resistance Other IV */
-     , (25304,   295,      2)  /* Light Weapon Mastery Other IV */
-     , (25304,   319,      2)  /* Finesse Weapon Mastery Other IV */
-     , (25304,   343,      2)  /* Light Weapon Mastery Other IV */
-     , (25304,   367,      2)  /* Light Weapon Mastery Other IV */
+VALUES (25304,   271,      2)  /* Magic Resistance Other IV */
      , (25304,   391,      2)  /* Light Weapon Mastery Other IV */
-     , (25304,   415,      2)  /* Heavy Weapon Mastery Other IV */
-     , (25304,   440,      2)  /* Light Weapon Mastery Other IV */
-     , (25304,   464,      2)  /* Missile Weapon Mastery Other IV */
-     , (25304,   488,      2)  /* Missile Weapon Mastery Other IV */
-     , (25304,   536,      2)  /* Missile Weapon Mastery Other IV */
-     , (25304,   566,      2)  /* Creature Enchantment Mastery Other IV */
-     , (25304,   590,      2)  /* Item Enchantment Mastery Other IV */
-     , (25304,   614,      2)  /* Life Magic Mastery Other IV */
-     , (25304,   638,      2)  /* War Magic Mastery Other IV */
-     , (25304,   662,      2)  /* Mana Conversion Mastery Other IV */
-     , (25304,   687,      2)  /* Arcane Enlightenment Other IV */
-     , (25304,   711,      2)  /* Armor Tinkering Expertise Other IV */
-     , (25304,   735,      2)  /* Item Tinkering Expertise Other IV */
-     , (25304,   759,      2)  /* Magic Item Tinkering Expertise Other IV */
-     , (25304,   783,      2)  /* Weapon Tinkering Expertise Other IV */
-     , (25304,   807,      2)  /* Monster Attunement Other IV */
+     , (25304,   319,      2)  /* Finesse Weapon Mastery Other IV */
      , (25304,   833,      2)  /* Person Attunement Other IV */
-     , (25304,   859,      2)  /* Deception Mastery Other IV */
-     , (25304,   883,      2)  /* Healing Mastery Other IV */
+     , (25304,   711,      2)  /* Armor Tinkering Expertise Other IV */
      , (25304,   907,      2)  /* Leadership Mastery Other IV */
-     , (25304,   931,      2)  /* Lockpick Mastery Other IV */
-     , (25304,   955,      2)  /* Fealty Other IV */
-     , (25304,   979,      2)  /* Jumping Mastery Other IV */
-     , (25304,   991,      2)  /* Sprint Other IV */
-     , (25304,  1712,      2)  /* Cooking Mastery Other IV */
      , (25304,  1736,      2)  /* Fletching Mastery Other IV */
-     , (25304,  1760,      2)  /* Alchemy Mastery Other IV */;
+     , (25304,   590,      2)  /* Item Enchantment Mastery Other IV */
+     , (25304,   783,      2)  /* Weapon Tinkering Expertise Other IV */
+     , (25304,   464,      2)  /* Missile Weapon Mastery Other IV */
+     , (25304,   979,      2)  /* Jumping Mastery Other IV */
+     , (25304,   662,      2)  /* Mana Conversion Mastery Other IV */
+     , (25304,   343,      2)  /* Light Weapon Mastery Other IV */
+     , (25304,   536,      2)  /* Missile Weapon Mastery Other IV */
+     , (25304,  1760,      2)  /* Alchemy Mastery Other IV */
+     , (25304,   859,      2)  /* Deception Mastery Other IV */
+     , (25304,   415,      2)  /* Heavy Weapon Mastery Other IV */
+     , (25304,   991,      2)  /* Sprint Other IV */
+     , (25304,   735,      2)  /* Item Tinkering Expertise Other IV */
+     , (25304,   931,      2)  /* Lockpick Mastery Other IV */
+     , (25304,   614,      2)  /* Life Magic Mastery Other IV */
+     , (25304,   807,      2)  /* Monster Attunement Other IV */
+     , (25304,   295,      2)  /* Light Weapon Mastery Other IV */
+     , (25304,   488,      2)  /* Missile Weapon Mastery Other IV */
+     , (25304,   367,      2)  /* Light Weapon Mastery Other IV */
+     , (25304,   687,      2)  /* Arcane Enlightenment Other IV */
+     , (25304,  1712,      2)  /* Cooking Mastery Other IV */
+     , (25304,   242,      2)  /* Invulnerability Other IV */
+     , (25304,   883,      2)  /* Healing Mastery Other IV */
+     , (25304,   566,      2)  /* Creature Enchantment Mastery Other IV */
+     , (25304,   759,      2)  /* Magic Item Tinkering Expertise Other IV */
+     , (25304,   440,      2)  /* Light Weapon Mastery Other IV */
+     , (25304,   955,      2)  /* Fealty Other IV */
+     , (25304,   253,      2)  /* Impregnability Other IV */
+     , (25304,   638,      2)  /* War Magic Mastery Other IV */;

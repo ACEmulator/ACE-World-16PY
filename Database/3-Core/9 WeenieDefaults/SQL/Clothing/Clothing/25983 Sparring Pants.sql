@@ -35,9 +35,9 @@ VALUES (25983,   1, 'Sparring Pants') /* Name */
      , (25983,  16, 'Loose pants typically worn while sparring.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25983,   1,   33554653) /* Setup */
-     , (25983,   3,  536870932) /* SoundTable */
-     , (25983,   6,   67108990) /* PaletteBase */
-     , (25983,   7,  268436783) /* ClothingBase */
-     , (25983,   8,  100667371) /* Icon */
-     , (25983,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25983,   1, 0x020000DD) /* Setup */
+     , (25983,   3, 0x20000014) /* SoundTable */
+     , (25983,   6, 0x0400007E) /* PaletteBase */
+     , (25983,   7, 0x1000052F) /* ClothingBase */
+     , (25983,   8, 0x06000FEB) /* Icon */
+     , (25983,  22, 0x3400002B) /* PhysicsEffectTable */;

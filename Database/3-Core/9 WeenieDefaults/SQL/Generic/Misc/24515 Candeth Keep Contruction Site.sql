@@ -22,5 +22,5 @@ VALUES (24515,   1, 'Candeth Keep Contruction Site') /* Name */
      , (24515,  16, 'CONTRUCTION SITE: Please wear a helmet at all times. The Alliance has chosen this spot as the location for the new town of Candeth Keep. We ask that you please stay out of the way of our construction and planning crew. Thank you.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24515,   1,   33558342) /* Setup */
-     , (24515,   8,  100668115) /* Icon */;
+VALUES (24515,   1, 0x02000F46) /* Setup */
+     , (24515,   8, 0x060012D3) /* Icon */;

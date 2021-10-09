@@ -22,5 +22,5 @@ VALUES (928,   1, 'Mayoi: 1 mile') /* Name */
      , (928,  16, 'Village of Mayoi: 1 mile.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (928,   1,   33555986) /* Setup */
-     , (928,   8,  100668115) /* Icon */;
+VALUES (928,   1, 0x02000612) /* Setup */
+     , (928,   8, 0x060012D3) /* Icon */;

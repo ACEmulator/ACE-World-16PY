@@ -24,7 +24,7 @@ VALUES (20582,   1, 'Scroll of Anadil''s Boon') /* Name */
      , (20582,  15, 'When learned, this spell increases the target''s Staff skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20582,   1,   33554826) /* Setup */
-     , (20582,   8,  100676473) /* Icon */
-     , (20582,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20582,   1, 0x0200018A) /* Setup */
+     , (20582,   8, 0x06003379) /* Icon */
+     , (20582,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20582,  28,       2304) /* Spell - Light Weapon Mastery Other VII */;

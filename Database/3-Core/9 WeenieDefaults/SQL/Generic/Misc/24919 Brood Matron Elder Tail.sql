@@ -24,7 +24,7 @@ VALUES (24919,   1, 'Brood Matron Elder Tail') /* Name */
      , (24919,  33, 'PickedUpBroodMatronTail') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24919,   1,   33556593) /* Setup */
-     , (24919,   3,  536870932) /* SoundTable */
-     , (24919,   8,  100674521) /* Icon */
-     , (24919,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24919,   1, 0x02000871) /* Setup */
+     , (24919,   3, 0x20000014) /* SoundTable */
+     , (24919,   8, 0x06002BD9) /* Icon */
+     , (24919,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -25,10 +25,10 @@ VALUES (5010,   1, 'Necklace') /* Name */
      , (5010,  16, 'This necklace has been badly damaged and is probably not worth much.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5010,   1,   33554689) /* Setup */
-     , (5010,   3,  536870932) /* SoundTable */
-     , (5010,   6,   67111919) /* PaletteBase */
-     , (5010,   7,  268435749) /* ClothingBase */
-     , (5010,   8,  100668752) /* Icon */
-     , (5010,  22,  872415275) /* PhysicsEffectTable */
-     , (5010,  36,  234881046) /* MutateFilter */;
+VALUES (5010,   1, 0x02000101) /* Setup */
+     , (5010,   3, 0x20000014) /* SoundTable */
+     , (5010,   6, 0x04000BEF) /* PaletteBase */
+     , (5010,   7, 0x10000125) /* ClothingBase */
+     , (5010,   8, 0x06001550) /* Icon */
+     , (5010,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (5010,  36, 0x0E000016) /* MutateFilter */;

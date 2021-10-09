@@ -65,11 +65,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28966,   1, 'Sarcophgus of Xi Ru') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28966,   1,   33558975) /* Setup */
-     , (28966,   2,  150995261) /* MotionTable */
-     , (28966,   3,  536870932) /* SoundTable */
-     , (28966,   8,  100677069) /* Icon */
-     , (28966,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28966,   1, 0x020011BF) /* Setup */
+     , (28966,   2, 0x0900013D) /* MotionTable */
+     , (28966,   3, 0x20000014) /* SoundTable */
+     , (28966,   8, 0x060035CD) /* Icon */
+     , (28966,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28966,   1, 340, 0, 0) /* Strength */
@@ -85,10 +85,10 @@ VALUES (28966,   1,  4825, 0, 0, 5000) /* MaxHealth */
      , (28966,   5,  4450, 0, 0, 5000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (28966,  6, 0, 2, 0,   1, 0, 2081.93297302845) /* MeleeDefense        Trained */
-     , (28966,  7, 0, 2, 0,   1, 0, 2081.93297302845) /* MissileDefense      Trained */
-     , (28966, 13, 0, 2, 0,   1, 0, 2081.93297302845) /* UnarmedCombat       Trained */
-     , (28966, 20, 0, 3, 0, 999, 0, 2081.93297302845) /* Deception           Specialized */;
+VALUES (28966,  6, 0, 2, 0,   1, 0, 2081.9329730284526) /* MeleeDefense        Trained */
+     , (28966,  7, 0, 2, 0,   1, 0, 2081.9329730284526) /* MissileDefense      Trained */
+     , (28966, 13, 0, 2, 0,   1, 0, 2081.9329730284526) /* UnarmedCombat       Trained */
+     , (28966, 20, 0, 3, 0, 999, 0, 2081.9329730284526) /* Deception           Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (28966,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -123,7 +123,7 @@ VALUES (28966, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'RoadsNuhmudira3
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 28985 /* Remains of Xi Ru */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 28985 /* Remains of Xi Ru */, 1, 0 /* Undef */, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  1,  22 /* StampQuest */, 0, 1, NULL, 'RoadsTask3', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  2,  18 /* DirectBroadcast */, 0, 1, NULL, 'You reach into the sarcophagus and begin to collect the bones of this woman. There are no adornments to her corpse. There is only a simple mosaic on the inside of the coffin. A sun, a star, a tree and what appears to be a world. The motif repeats along the entirety of the coffin. You get an ill feeling in the back of your mind and feel sick to your stomach. Your thoughts trail to the natural order of all there is and you suddenly feel as though you have disrupted that order.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  3,  18 /* DirectBroadcast */, 2, 1, NULL, 'The feeling passes, but the thought lingers in your mind for a long moment.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

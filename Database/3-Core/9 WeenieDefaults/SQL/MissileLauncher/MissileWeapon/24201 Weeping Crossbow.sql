@@ -18,7 +18,7 @@ VALUES (24201,   1,        256) /* ItemType - MissileWeapon */
      , (24201,  48,          3) /* WeaponSkill - Crossbow */
      , (24201,  49,         90) /* WeaponTime */
      , (24201,  50,          2) /* AmmoType - Bolt */
-     , (24201,  51,          2) /* CombatUse - Missle */
+     , (24201,  51,          2) /* CombatUse - Missile */
      , (24201,  52,          2) /* ParentLocation - LeftHand */
      , (24201,  53,          3) /* PlacementPosition - LeftHand */
      , (24201,  60,        195) /* WeaponRange */
@@ -56,14 +56,14 @@ VALUES (24201,   1, 'Weeping Crossbow') /* Name */
      , (24201,  15, 'A crossbow infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24201,   1,   33558299) /* Setup */
-     , (24201,   3,  536870932) /* SoundTable */
-     , (24201,   8,  100674266) /* Icon */
-     , (24201,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24201,   1, 0x02000F1B) /* Setup */
+     , (24201,   3, 0x20000014) /* SoundTable */
+     , (24201,   8, 0x06002ADA) /* Icon */
+     , (24201,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24201,  2688,      2)  /* Moderate Missile Weapon Aptitude */
+VALUES (24201,  2967,      2)  /* Aura of The Speedy Hunter */
+     , (24201,  2688,      2)  /* Moderate Missile Weapon Aptitude */
      , (24201,  2964,      2)  /* Aura of Hunter's Mark */
      , (24201,  2966,      2)  /* Aura of Murderous Thirst */
-     , (24201,  2967,      2)  /* Aura of The Speedy Hunter */
      , (24201,  2968,      2)  /* Vision of the Hunter */;

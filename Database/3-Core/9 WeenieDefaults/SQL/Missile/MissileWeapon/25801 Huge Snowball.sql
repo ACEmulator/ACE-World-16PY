@@ -21,7 +21,7 @@ VALUES (25801,   1,        256) /* ItemType - MissileWeapon */
      , (25801,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (25801,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (25801,  49,         20) /* WeaponTime */
-     , (25801,  51,          2) /* CombatUse - Missle */
+     , (25801,  51,          2) /* CombatUse - Missile */
      , (25801,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (25801, 150,        103) /* HookPlacement - Hook */
      , (25801, 151,          2) /* HookType - Wall */;
@@ -46,9 +46,9 @@ VALUES (25801,   1, 'Huge Snowball') /* Name */
      , (25801,  16, 'You could really surprise someone with this.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25801,   1,   33556225) /* Setup */
-     , (25801,   3,  536870932) /* SoundTable */
-     , (25801,   6,   67111928) /* PaletteBase */
-     , (25801,   7,  268435857) /* ClothingBase */
-     , (25801,   8,  100670281) /* Icon */
-     , (25801,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25801,   1, 0x02000701) /* Setup */
+     , (25801,   3, 0x20000014) /* SoundTable */
+     , (25801,   6, 0x04000BF8) /* PaletteBase */
+     , (25801,   7, 0x10000191) /* ClothingBase */
+     , (25801,   8, 0x06001B49) /* Icon */
+     , (25801,  22, 0x3400002B) /* PhysicsEffectTable */;

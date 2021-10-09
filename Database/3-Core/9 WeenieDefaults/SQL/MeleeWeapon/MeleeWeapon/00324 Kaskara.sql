@@ -36,11 +36,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (324,   1, 'Kaskara') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (324,   1,   33554533) /* Setup */
-     , (324,   3,  536870932) /* SoundTable */
-     , (324,   6,   67111919) /* PaletteBase */
-     , (324,   7,  268435769) /* ClothingBase */
-     , (324,   8,  100669025) /* Icon */
-     , (324,  22,  872415275) /* PhysicsEffectTable */
-     , (324,  36,  234881053) /* MutateFilter */
-     , (324,  46,  939524101) /* TsysMutationFilter */;
+VALUES (324,   1, 0x02000065) /* Setup */
+     , (324,   3, 0x20000014) /* SoundTable */
+     , (324,   6, 0x04000BEF) /* PaletteBase */
+     , (324,   7, 0x10000139) /* ClothingBase */
+     , (324,   8, 0x06001661) /* Icon */
+     , (324,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (324,  36, 0x0E00001D) /* MutateFilter */
+     , (324,  46, 0x38000005) /* TsysMutationFilter */;

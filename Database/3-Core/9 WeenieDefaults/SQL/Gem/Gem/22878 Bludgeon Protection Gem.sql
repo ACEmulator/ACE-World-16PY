@@ -34,11 +34,11 @@ VALUES (22878,   1, 'Bludgeon Protection Gem') /* Name */
      , (22878,  15, 'A gem of bludgeoning protection VI') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22878,   1,   33554809) /* Setup */
-     , (22878,   3,  536870932) /* SoundTable */
-     , (22878,   6,   67111919) /* PaletteBase */
-     , (22878,   7,  268435723) /* ClothingBase */
-     , (22878,   8,  100673900) /* Icon */
-     , (22878,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22878,   1, 0x02000179) /* Setup */
+     , (22878,   3, 0x20000014) /* SoundTable */
+     , (22878,   6, 0x04000BEF) /* PaletteBase */
+     , (22878,   7, 0x1000010B) /* ClothingBase */
+     , (22878,   8, 0x0600296C) /* Icon */
+     , (22878,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22878,  28,       1029) /* Spell - Bludgeoning Protection Other VI */
-     , (22878,  36,  234881046) /* MutateFilter */;
+     , (22878,  36, 0x0E000016) /* MutateFilter */;

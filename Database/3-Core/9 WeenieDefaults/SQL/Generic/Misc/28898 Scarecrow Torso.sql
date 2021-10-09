@@ -30,9 +30,9 @@ VALUES (28898,   1, 'Scarecrow Torso') /* Name */
      , (28898,  15, 'A scarecrow''s torso, with one arm still attached.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28898,   1,   33558997) /* Setup */
-     , (28898,   3,  536870932) /* SoundTable */
-     , (28898,   6,   67108990) /* PaletteBase */
-     , (28898,   7,  268436866) /* ClothingBase */
-     , (28898,   8,  100677088) /* Icon */
-     , (28898,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28898,   1, 0x020011D5) /* Setup */
+     , (28898,   3, 0x20000014) /* SoundTable */
+     , (28898,   6, 0x0400007E) /* PaletteBase */
+     , (28898,   7, 0x10000582) /* ClothingBase */
+     , (28898,   8, 0x060035E0) /* Icon */
+     , (28898,  22, 0x3400002B) /* PhysicsEffectTable */;

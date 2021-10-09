@@ -31,10 +31,10 @@ VALUES (8309,   1, 'Realgar Pea') /* Name */
      , (8309,  16, 'A concentrated realgar pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8309,   1,   33555209) /* Setup */
-     , (8309,   3,  536870932) /* SoundTable */
-     , (8309,   6,   67111919) /* PaletteBase */
-     , (8309,   7,  268435719) /* ClothingBase */
-     , (8309,   8,  100671047) /* Icon */
-     , (8309,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8309,   1, 0x02000309) /* Setup */
+     , (8309,   3, 0x20000014) /* SoundTable */
+     , (8309,   6, 0x04000BEF) /* PaletteBase */
+     , (8309,   7, 0x10000107) /* ClothingBase */
+     , (8309,   8, 0x06001E47) /* Icon */
+     , (8309,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8309,  29,        156) /* SpellComponent */;

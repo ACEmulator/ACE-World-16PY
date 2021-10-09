@@ -24,7 +24,7 @@ VALUES (20594,   1, 'Scroll of Wrath of the Hieromancer') /* Name */
      , (20594,  15, 'When learned, this spell decreases the target''s War Magic skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20594,   1,   33554826) /* Setup */
-     , (20594,   8,  100676479) /* Icon */
-     , (20594,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20594,   1, 0x0200018A) /* Setup */
+     , (20594,   8, 0x0600337F) /* Icon */
+     , (20594,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20594,  28,       2320) /* Spell - Wrath of the Hieromancer */;

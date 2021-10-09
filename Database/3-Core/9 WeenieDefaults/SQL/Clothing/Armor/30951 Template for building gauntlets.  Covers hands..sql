@@ -40,11 +40,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30951,   1, 'Template for building gauntlets.  Covers hands.') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30951,   1,   33554648) /* Setup */
-     , (30951,   3,  536870932) /* SoundTable */
-     , (30951,   6,   67108990) /* PaletteBase */
-     , (30951,   7,  268435464) /* ClothingBase */
-     , (30951,   8,  100667340) /* Icon */
-     , (30951,  22,  872415275) /* PhysicsEffectTable */
-     , (30951,  36,  234881042) /* MutateFilter */
-     , (30951,  46,  939524146) /* TsysMutationFilter */;
+VALUES (30951,   1, 0x020000D8) /* Setup */
+     , (30951,   3, 0x20000014) /* SoundTable */
+     , (30951,   6, 0x0400007E) /* PaletteBase */
+     , (30951,   7, 0x10000008) /* ClothingBase */
+     , (30951,   8, 0x06000FCC) /* Icon */
+     , (30951,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30951,  36, 0x0E000012) /* MutateFilter */
+     , (30951,  46, 0x38000032) /* TsysMutationFilter */;

@@ -68,18 +68,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27917,   1, 'Hezhit') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27917,   1,   33558814) /* Setup */
-     , (27917,   2,  150994967) /* MotionTable */
-     , (27917,   3,  536870934) /* SoundTable */
-     , (27917,   4,  805306368) /* CombatTable */
-     , (27917,   6,   67115246) /* PaletteBase */
-     , (27917,   7,  268436834) /* ClothingBase */
-     , (27917,   8,  100676639) /* Icon */
-     , (27917,  22,  872415272) /* PhysicsEffectTable */
+VALUES (27917,   1, 0x0200111E) /* Setup */
+     , (27917,   2, 0x09000017) /* MotionTable */
+     , (27917,   3, 0x20000016) /* SoundTable */
+     , (27917,   4, 0x30000000) /* CombatTable */
+     , (27917,   6, 0x040018EE) /* PaletteBase */
+     , (27917,   7, 0x10000562) /* ClothingBase */
+     , (27917,   8, 0x0600341F) /* Icon */
+     , (27917,  22, 0x34000028) /* PhysicsEffectTable */
      , (27917,  35,         23) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27917,  16, 1978990654) /* ActivationTarget */;
+VALUES (27917,  16, 0x75F5003E) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27917,   1, 330, 0, 0) /* Strength */
@@ -95,24 +95,24 @@ VALUES (27917,   1,  5355, 0, 0, 5500) /* MaxHealth */
      , (27917,   5,  1180, 0, 0, 1500) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (27917,  1, 0, 3, 0, 345, 0, 1967.09296804322) /* Axe                 Specialized */
-     , (27917,  2, 0, 3, 0, 175, 0, 1967.09296804322) /* Bow                 Specialized */
-     , (27917,  3, 0, 3, 0, 175, 0, 1967.09296804322) /* Crossbow            Specialized */
-     , (27917,  4, 0, 3, 0, 300, 0, 1967.09296804322) /* Dagger              Specialized */
-     , (27917,  5, 0, 3, 0, 345, 0, 1967.09296804322) /* Mace                Specialized */
-     , (27917,  6, 0, 3, 0, 348, 0, 1967.09296804322) /* MeleeDefense        Specialized */
-     , (27917,  7, 0, 3, 0, 441, 0, 1967.09296804322) /* MissileDefense      Specialized */
-     , (27917,  9, 0, 3, 0, 345, 0, 1967.09296804322) /* Spear               Specialized */
-     , (27917, 10, 0, 3, 0, 345, 0, 1967.09296804322) /* Staff               Specialized */
-     , (27917, 11, 0, 3, 0, 345, 0, 1967.09296804322) /* Sword               Specialized */
-     , (27917, 13, 0, 3, 0, 345, 0, 1967.09296804322) /* UnarmedCombat       Specialized */
-     , (27917, 14, 0, 3, 0, 240, 0, 1967.09296804322) /* ArcaneLore          Specialized */
-     , (27917, 15, 0, 3, 0, 284, 0, 1967.09296804322) /* MagicDefense        Specialized */
-     , (27917, 20, 0, 3, 0,  90, 0, 1967.09296804322) /* Deception           Specialized */
-     , (27917, 31, 0, 3, 0, 180, 0, 1967.09296804322) /* CreatureEnchantment Specialized */
-     , (27917, 32, 0, 3, 0, 180, 0, 1967.09296804322) /* ItemEnchantment     Specialized */
-     , (27917, 33, 0, 3, 0, 180, 0, 1967.09296804322) /* LifeMagic           Specialized */
-     , (27917, 34, 0, 3, 0, 180, 0, 1967.09296804322) /* WarMagic            Specialized */;
+VALUES (27917,  1, 0, 3, 0, 345, 0, 1967.0929680432248) /* Axe                 Specialized */
+     , (27917,  2, 0, 3, 0, 175, 0, 1967.0929680432248) /* Bow                 Specialized */
+     , (27917,  3, 0, 3, 0, 175, 0, 1967.0929680432248) /* Crossbow            Specialized */
+     , (27917,  4, 0, 3, 0, 300, 0, 1967.0929680432248) /* Dagger              Specialized */
+     , (27917,  5, 0, 3, 0, 345, 0, 1967.0929680432248) /* Mace                Specialized */
+     , (27917,  6, 0, 3, 0, 348, 0, 1967.0929680432248) /* MeleeDefense        Specialized */
+     , (27917,  7, 0, 3, 0, 441, 0, 1967.0929680432248) /* MissileDefense      Specialized */
+     , (27917,  9, 0, 3, 0, 345, 0, 1967.0929680432248) /* Spear               Specialized */
+     , (27917, 10, 0, 3, 0, 345, 0, 1967.0929680432248) /* Staff               Specialized */
+     , (27917, 11, 0, 3, 0, 345, 0, 1967.0929680432248) /* Sword               Specialized */
+     , (27917, 13, 0, 3, 0, 345, 0, 1967.0929680432248) /* UnarmedCombat       Specialized */
+     , (27917, 14, 0, 3, 0, 240, 0, 1967.0929680432248) /* ArcaneLore          Specialized */
+     , (27917, 15, 0, 3, 0, 284, 0, 1967.0929680432248) /* MagicDefense        Specialized */
+     , (27917, 20, 0, 3, 0,  90, 0, 1967.0929680432248) /* Deception           Specialized */
+     , (27917, 31, 0, 3, 0, 180, 0, 1967.0929680432248) /* CreatureEnchantment Specialized */
+     , (27917, 32, 0, 3, 0, 180, 0, 1967.0929680432248) /* ItemEnchantment     Specialized */
+     , (27917, 33, 0, 3, 0, 180, 0, 1967.0929680432248) /* LifeMagic           Specialized */
+     , (27917, 34, 0, 3, 0, 180, 0, 1967.0929680432248) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (27917,  0,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -126,33 +126,33 @@ VALUES (27917,  0,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,
      , (27917,  8,  4, 180,  0.5,  500,  525,  650,  500,  650,  500,  525,  600,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27917,    63,   2.04)  /* Acid Stream VI */
-     , (27917,    69,   2.04)  /* Shock Wave VI */
-     , (27917,    74,   2.04)  /* Frost Bolt VI */
-     , (27917,    80,   2.04)  /* Lightning Bolt VI */
-     , (27917,    85,   2.04)  /* Flame Bolt VI */
-     , (27917,    91,   2.04)  /* Force Bolt VI */
-     , (27917,    97,   2.04)  /* Whirling Blade VI */
-     , (27917,   176,  2.011)  /* Fester Other VI */
-     , (27917,   526,  2.011)  /* Acid Vulnerability Other VI */
-     , (27917,  1053,  2.011)  /* Bludgeoning Vulnerability Other VI */
+VALUES (27917,  1840,   2.01)  /* Bed of Blades */
+     , (27917,  3273,   2.01)  /* Prison */
      , (27917,  1065,  2.011)  /* Cold Vulnerability Other VI */
+     , (27917,    69,   2.04)  /* Shock Wave VI */
      , (27917,  1089,  2.011)  /* Lightning Vulnerability Other VI */
-     , (27917,  1108,  2.011)  /* Fire Vulnerability Other VI */
-     , (27917,  1132,  2.011)  /* Blade Vulnerability Other VI */
      , (27917,  1156,  2.011)  /* Piercing Vulnerability Other VI */
-     , (27917,  1241,   2.01)  /* Drain Health Other V */
-     , (27917,  1840,   2.01)  /* Bed of Blades */
-     , (27917,  1842,   2.01)  /* Spike Strafe */
+     , (27917,  3278,   2.01)  /* Prison */
+     , (27917,    74,   2.04)  /* Frost Bolt VI */
      , (27917,  3270,   2.01)  /* Hezhit's Safety */
      , (27917,  3271,   2.01)  /* Hezhit's Safety */
      , (27917,  3272,   2.01)  /* Hezhit's Safety */
-     , (27917,  3273,   2.01)  /* Prison */
      , (27917,  3274,   2.01)  /* Prison */
      , (27917,  3275,   2.01)  /* Prison */
      , (27917,  3276,   2.01)  /* Prison */
      , (27917,  3277,   2.01)  /* Prison */
-     , (27917,  3278,   2.01)  /* Prison */;
+     , (27917,   526,  2.011)  /* Acid Vulnerability Other VI */
+     , (27917,  1132,  2.011)  /* Blade Vulnerability Other VI */
+     , (27917,    80,   2.04)  /* Lightning Bolt VI */
+     , (27917,  1108,  2.011)  /* Fire Vulnerability Other VI */
+     , (27917,    85,   2.04)  /* Flame Bolt VI */
+     , (27917,  1241,   2.01)  /* Drain Health Other V */
+     , (27917,    91,   2.04)  /* Force Bolt VI */
+     , (27917,  1053,  2.011)  /* Bludgeoning Vulnerability Other VI */
+     , (27917,    97,   2.04)  /* Whirling Blade VI */
+     , (27917,   176,  2.011)  /* Fester Other VI */
+     , (27917,  1842,   2.01)  /* Spike Strafe */
+     , (27917,    63,   2.04)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (27917,  94) /* ATTACK_NOTIFICATION_EVENT */

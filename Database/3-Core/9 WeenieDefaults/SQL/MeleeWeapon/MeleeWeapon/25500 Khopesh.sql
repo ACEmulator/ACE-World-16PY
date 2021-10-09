@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25500,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25500,   5,       0) /* ManaRate */
+VALUES (25500,   5,      -0) /* ManaRate */
      , (25500,  21,    0.68) /* WeaponLength */
      , (25500,  22,     0.5) /* DamageVariance */
      , (25500,  29,       1) /* WeaponDefense */
@@ -42,13 +42,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25500,   1, 'Khopesh') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25500,   1,   33558444) /* Setup */
-     , (25500,   3,  536870932) /* SoundTable */
-     , (25500,   6,   67111919) /* PaletteBase */
-     , (25500,   8,  100674849) /* Icon */
-     , (25500,  22,  872415275) /* PhysicsEffectTable */
-     , (25500,  36,  234881044) /* MutateFilter */;
+VALUES (25500,   1, 0x02000FAC) /* Setup */
+     , (25500,   3, 0x20000014) /* SoundTable */
+     , (25500,   6, 0x04000BEF) /* PaletteBase */
+     , (25500,   8, 0x06002D21) /* Icon */
+     , (25500,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (25500,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25500,  2096,      2)  /* Aura of Infected Caress */
-     , (25500,  2116,      2)  /* Aura of Atlan's Alacrity */;
+VALUES (25500,  2116,      2)  /* Aura of Atlan's Alacrity */
+     , (25500,  2096,      2)  /* Aura of Infected Caress */;

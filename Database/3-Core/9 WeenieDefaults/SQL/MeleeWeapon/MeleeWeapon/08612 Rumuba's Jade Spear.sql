@@ -45,14 +45,14 @@ VALUES (8612,   1, 'Rumuba''s Jade Spear') /* Name */
      , (8612,  16, 'A light, well-balanced spear, the head carved from jade by Rumuba the Mosswart.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8612,   1,   33556901) /* Setup */
-     , (8612,   3,  536870932) /* SoundTable */
-     , (8612,   6,   67111919) /* PaletteBase */
-     , (8612,   7,  268436091) /* ClothingBase */
-     , (8612,   8,  100671208) /* Icon */
-     , (8612,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8612,   1, 0x020009A5) /* Setup */
+     , (8612,   3, 0x20000014) /* SoundTable */
+     , (8612,   6, 0x04000BEF) /* PaletteBase */
+     , (8612,   7, 0x1000027B) /* ClothingBase */
+     , (8612,   8, 0x06001EE8) /* Icon */
+     , (8612,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8612,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8612,   367,      2)  /* Light Weapon Mastery Other IV */
-     , (8612,  1615,      2)  /* Aura of Blood Drinker Self V */;
+VALUES (8612,  1615,      2)  /* Aura of Blood Drinker Self V */
+     , (8612,   367,      2)  /* Light Weapon Mastery Other IV */;

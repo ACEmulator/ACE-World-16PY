@@ -25,12 +25,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5452,   1, 'Leafdawning Festival Stone Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5452,   1,   33554867) /* Setup */
-     , (5452,   2,  150994947) /* MotionTable */
-     , (5452,   6,   67109370) /* PaletteBase */
-     , (5452,   7,  268435652) /* ClothingBase */
-     , (5452,   8,  100667499) /* Icon */;
+VALUES (5452,   1, 0x020001B3) /* Setup */
+     , (5452,   2, 0x09000003) /* MotionTable */
+     , (5452,   6, 0x040001FA) /* PaletteBase */
+     , (5452,   7, 0x100000C4) /* ClothingBase */
+     , (5452,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5452, 2, 3280732173, 28.8, 112.6, 40, -0.2672383, 0, 0, -0.9636305) /* Destination */
-/* @teleloc 0xC38C000D [28.800000 112.600000 40.000000] -0.267238 0.000000 0.000000 -0.963631 */;
+VALUES (5452, 2, 0xC38C000D, 28.8, 112.6, 40, -0.267238, 0, -0, -0.963631) /* Destination */
+/* @teleloc 0xC38C000D [28.799999 112.599998 40.000000] -0.267238 0.000000 -0.000000 -0.963630 */;

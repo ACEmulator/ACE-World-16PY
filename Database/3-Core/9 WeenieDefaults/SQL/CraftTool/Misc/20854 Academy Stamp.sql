@@ -33,11 +33,11 @@ VALUES (20854,   1, 'Academy Stamp') /* Name */
      , (20854,  15, 'A stamp with the symbol of the Academy Guard.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20854,   1,   33556922) /* Setup */
-     , (20854,   3,  536870932) /* SoundTable */
-     , (20854,   6,   67111092) /* PaletteBase */
-     , (20854,   7,  268436417) /* ClothingBase */
-     , (20854,   8,  100673243) /* Icon */
-     , (20854,  22,  872415275) /* PhysicsEffectTable */
-     , (20854,  50,  100673093) /* IconOverlay */
-     , (20854,  51,  100673082) /* IconOverlaySecondary */;
+VALUES (20854,   1, 0x020009BA) /* Setup */
+     , (20854,   3, 0x20000014) /* SoundTable */
+     , (20854,   6, 0x040008B4) /* PaletteBase */
+     , (20854,   7, 0x100003C1) /* ClothingBase */
+     , (20854,   8, 0x060026DB) /* Icon */
+     , (20854,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (20854,  50, 0x06002645) /* IconOverlay */
+     , (20854,  51, 0x0600263A) /* IconOverlaySecondary */;

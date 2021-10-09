@@ -31,7 +31,7 @@ VALUES (11861,   1, 'Reedshark Spear-Head') /* Name */
      , (11861,  16, 'A Reedshark Spear-Head.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11861,   1,   33557247) /* Setup */
-     , (11861,   3,  536870932) /* SoundTable */
-     , (11861,   8,  100671961) /* Icon */
-     , (11861,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11861,   1, 0x02000AFF) /* Setup */
+     , (11861,   3, 0x20000014) /* SoundTable */
+     , (11861,   8, 0x060021D9) /* Icon */
+     , (11861,  22, 0x3400002B) /* PhysicsEffectTable */;

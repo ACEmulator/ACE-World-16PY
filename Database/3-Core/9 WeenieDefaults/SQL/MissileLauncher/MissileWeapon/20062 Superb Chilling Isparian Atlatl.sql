@@ -19,7 +19,7 @@ VALUES (20062,   1,        256) /* ItemType - MissileWeapon */
      , (20062,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (20062,  49,         15) /* WeaponTime */
      , (20062,  50,          4) /* AmmoType - Atlatl */
-     , (20062,  51,          2) /* CombatUse - Missle */
+     , (20062,  51,          2) /* CombatUse - Missile */
      , (20062,  60,        120) /* WeaponRange */
      , (20062,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (20062, 106,        300) /* ItemSpellcraft */
@@ -50,17 +50,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20062,   1, 'Superb Chilling Isparian Atlatl') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20062,   1,   33557797) /* Setup */
-     , (20062,   3,  536870932) /* SoundTable */
-     , (20062,   6,   67111919) /* PaletteBase */
-     , (20062,   7,  268436393) /* ClothingBase */
-     , (20062,   8,  100672999) /* Icon */
-     , (20062,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20062,   1, 0x02000D25) /* Setup */
+     , (20062,   3, 0x20000014) /* SoundTable */
+     , (20062,   6, 0x04000BEF) /* PaletteBase */
+     , (20062,   7, 0x100003A9) /* ClothingBase */
+     , (20062,   8, 0x060025E7) /* Icon */
+     , (20062,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20062,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20062,  1035,      2)  /* Cold Protection Self VI */
-     , (20062,  1377,      2)  /* Coordination Self V */
-     , (20062,  1604,      2)  /* Aura of Defender Self V */
+VALUES (20062,  1604,      2)  /* Aura of Defender Self V */
+     , (20062,  2567,      2)  /* Minor Missile Weapon Aptitude */
+     , (20062,  1035,      2)  /* Cold Protection Self VI */
      , (20062,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (20062,  2567,      2)  /* Minor Missile Weapon Aptitude */;
+     , (20062,  1377,      2)  /* Coordination Self V */;

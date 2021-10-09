@@ -19,7 +19,7 @@ VALUES (8001,   1,        256) /* ItemType - MissileWeapon */
      , (8001,  48,          2) /* WeaponSkill - Bow */
      , (8001,  49,         60) /* WeaponTime */
      , (8001,  50,          8) /* AmmoType - ArrowCrystal */
-     , (8001,  51,          2) /* CombatUse - Missle */
+     , (8001,  51,          2) /* CombatUse - Missile */
      , (8001,  52,          2) /* ParentLocation - LeftHand */
      , (8001,  53,          3) /* PlacementPosition - LeftHand */
      , (8001,  60,        192) /* WeaponRange */
@@ -51,15 +51,15 @@ VALUES (8001,   1, 'Caulnalain Soul Crystal Bow') /* Name */
      , (8001,  16, 'A bow imbued with the essence of the Caulnalain Soul Crystal. Uses crystal-tipped arrows.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8001,   1,   33554729) /* Setup */
-     , (8001,   3,  536870932) /* SoundTable */
-     , (8001,   6,   67111919) /* PaletteBase */
-     , (8001,   7,  268436042) /* ClothingBase */
-     , (8001,   8,  100670996) /* Icon */
-     , (8001,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8001,   1, 0x02000129) /* Setup */
+     , (8001,   3, 0x20000014) /* SoundTable */
+     , (8001,   6, 0x04000BEF) /* PaletteBase */
+     , (8001,   7, 0x1000024A) /* ClothingBase */
+     , (8001,   8, 0x06001E14) /* Icon */
+     , (8001,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8001,  37,          2) /* ItemSkillLimit - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8001,   465,      2)  /* Missile Weapon Mastery Other V */
-     , (8001,  1615,      2)  /* Aura of Blood Drinker Self V */
+VALUES (8001,  1615,      2)  /* Aura of Blood Drinker Self V */
+     , (8001,   465,      2)  /* Missile Weapon Mastery Other V */
      , (8001,  1626,      2)  /* Aura of Swift Killer Self V */;

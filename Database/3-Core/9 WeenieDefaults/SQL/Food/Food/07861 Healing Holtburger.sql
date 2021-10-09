@@ -33,7 +33,7 @@ VALUES (7861,   1, 'Healing Holtburger') /* Name */
      , (7861,  20, 'Healing Holtburgers') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7861,   1,   33556680) /* Setup */
-     , (7861,   3,  536870932) /* SoundTable */
-     , (7861,   8,  100670859) /* Icon */
-     , (7861,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7861,   1, 0x020008C8) /* Setup */
+     , (7861,   3, 0x20000014) /* SoundTable */
+     , (7861,   8, 0x06001D8B) /* Icon */
+     , (7861,  22, 0x3400002B) /* PhysicsEffectTable */;

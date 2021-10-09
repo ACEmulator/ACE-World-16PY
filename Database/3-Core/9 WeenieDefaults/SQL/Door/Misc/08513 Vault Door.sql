@@ -37,8 +37,8 @@ VALUES (8513,   1, 'Vault Door') /* Name */
      , (8513,  17, 'As the door swings back in its courses, you hear a mellifluous voice in your mind. You cannot understand it at first, but it soon seems to speak in Roulean. "Here within may be found the final words of Sarvien, last king of Dericost."') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8513,   1,   33556905) /* Setup */
-     , (8513,   2,  150995078) /* MotionTable */
-     , (8513,   3,  536870947) /* SoundTable */
-     , (8513,   8,  100668183) /* Icon */
-     , (8513,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8513,   1, 0x020009A9) /* Setup */
+     , (8513,   2, 0x09000086) /* MotionTable */
+     , (8513,   3, 0x20000023) /* SoundTable */
+     , (8513,   8, 0x06001317) /* Icon */
+     , (8513,  22, 0x3400002B) /* PhysicsEffectTable */;

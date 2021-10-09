@@ -45,16 +45,16 @@ VALUES (23615,   1, 'Diamond Shield') /* Name */
      , (23615,  16, 'A shield made of diamond.  It is incredibly resilient, and seems to be nigh unbreakable.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23615,   1,   33557043) /* Setup */
-     , (23615,   3,  536870932) /* SoundTable */
-     , (23615,   6,   67111919) /* PaletteBase */
-     , (23615,   7,  268436256) /* ClothingBase */
-     , (23615,   8,  100674092) /* Icon */
-     , (23615,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23615,   1, 0x02000A33) /* Setup */
+     , (23615,   3, 0x20000014) /* SoundTable */
+     , (23615,   6, 0x04000BEF) /* PaletteBase */
+     , (23615,   7, 0x10000320) /* ClothingBase */
+     , (23615,   8, 0x06002A2C) /* Icon */
+     , (23615,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23615,   249,      2)  /* Invulnerability Self VI */
-     , (23615,  1023,      2)  /* Bludgeoning Protection Self VI */
-     , (23615,  1114,      2)  /* Blade Protection Self VI */
+VALUES (23615,  1023,      2)  /* Bludgeoning Protection Self VI */
+     , (23615,  1485,      2)  /* Impenetrability V */
      , (23615,  1138,      2)  /* Piercing Protection Self VI */
-     , (23615,  1485,      2)  /* Impenetrability V */;
+     , (23615,  1114,      2)  /* Blade Protection Self VI */
+     , (23615,   249,      2)  /* Invulnerability Self VI */;

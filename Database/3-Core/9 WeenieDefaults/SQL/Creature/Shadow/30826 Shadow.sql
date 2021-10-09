@@ -62,13 +62,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30826,   1, 'Shadow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30826,   1,   33557003) /* Setup */
-     , (30826,   2,  150994950) /* MotionTable */
-     , (30826,   3,  536870922) /* SoundTable */
-     , (30826,   4,  805306371) /* CombatTable */
-     , (30826,   6,   67113158) /* PaletteBase */
-     , (30826,   7,  268436892) /* ClothingBase */
-     , (30826,   8,  100677374) /* Icon */;
+VALUES (30826,   1, 0x02000A0B) /* Setup */
+     , (30826,   2, 0x09000006) /* MotionTable */
+     , (30826,   3, 0x2000000A) /* SoundTable */
+     , (30826,   4, 0x30000003) /* CombatTable */
+     , (30826,   6, 0x040010C6) /* PaletteBase */
+     , (30826,   7, 0x1000059C) /* ClothingBase */
+     , (30826,   8, 0x060036FE) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30826,   1, 400, 0, 0) /* Strength */

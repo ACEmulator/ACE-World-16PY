@@ -30,7 +30,7 @@ VALUES (29531,  22, True ) /* Inscribable */
      , (29531, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29531,   5, -0.0166) /* ManaRate */
+VALUES (29531,   5,  -0.017) /* ManaRate */
      , (29531,  12,    0.66) /* Shade */
      , (29531,  13,     1.2) /* ArmorModVsSlash */
      , (29531,  14,     1.2) /* ArmorModVsPierce */
@@ -46,16 +46,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29531,   1, 'Noble Helm of Brilliance') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29531,   1,   33559080) /* Setup */
-     , (29531,   3,  536870932) /* SoundTable */
-     , (29531,   6,   67108990) /* PaletteBase */
-     , (29531,   7,  268436879) /* ClothingBase */
-     , (29531,   8,  100674952) /* Icon */
-     , (29531,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29531,   1, 0x02001228) /* Setup */
+     , (29531,   3, 0x20000014) /* SoundTable */
+     , (29531,   6, 0x0400007E) /* PaletteBase */
+     , (29531,   7, 0x1000058F) /* ClothingBase */
+     , (29531,   8, 0x06002D88) /* Icon */
+     , (29531,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29531,   466,      2)  /* Missile Weapon Mastery Other VI */
-     , (29531,   490,      2)  /* Missile Weapon Mastery Other VI */
+VALUES (29531,   490,      2)  /* Missile Weapon Mastery Other VI */
+     , (29531,   466,      2)  /* Missile Weapon Mastery Other VI */
      , (29531,   538,      2)  /* Missile Weapon Mastery Other VI */
-     , (29531,  2108,      2)  /* Brogard's Defiance */
-     , (29531,  3572,      2)  /* Inner Brilliance */;
+     , (29531,  3572,      2)  /* Inner Brilliance */
+     , (29531,  2108,      2)  /* Brogard's Defiance */;

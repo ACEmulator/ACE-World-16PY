@@ -26,10 +26,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6550,   1, 'Gateway') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6550,   1,   33555923) /* Setup */
-     , (6550,   2,  150994947) /* MotionTable */
-     , (6550,   8,  100667499) /* Icon */;
+VALUES (6550,   1, 0x020005D3) /* Setup */
+     , (6550,   2, 0x09000003) /* MotionTable */
+     , (6550,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6550, 2, 3210608899, 128.7, 129.2, 169.7, 0.8571673, 0, 0, -0.5150381) /* Destination */
-/* @teleloc 0xBF5E0103 [128.700000 129.200000 169.700000] 0.857167 0.000000 0.000000 -0.515038 */;
+VALUES (6550, 2, 0xBF5E0103, 128.7, 129.2, 169.7, 0.857167, 0, 0, -0.515038) /* Destination */
+/* @teleloc 0xBF5E0103 [128.699997 129.199997 169.699997] 0.857167 0.000000 0.000000 -0.515038 */;

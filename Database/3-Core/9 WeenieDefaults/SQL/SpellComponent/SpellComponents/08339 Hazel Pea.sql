@@ -31,10 +31,10 @@ VALUES (8339,   1, 'Hazel Pea') /* Name */
      , (8339,  16, 'A concentrated hazel pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8339,   1,   33555207) /* Setup */
-     , (8339,   3,  536870932) /* SoundTable */
-     , (8339,   6,   67111919) /* PaletteBase */
-     , (8339,   7,  268435722) /* ClothingBase */
-     , (8339,   8,  100671089) /* Icon */
-     , (8339,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8339,   1, 0x02000307) /* Setup */
+     , (8339,   3, 0x20000014) /* SoundTable */
+     , (8339,   6, 0x04000BEF) /* PaletteBase */
+     , (8339,   7, 0x1000010A) /* ClothingBase */
+     , (8339,   8, 0x06001E71) /* Icon */
+     , (8339,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8339,  29,        171) /* SpellComponent */;

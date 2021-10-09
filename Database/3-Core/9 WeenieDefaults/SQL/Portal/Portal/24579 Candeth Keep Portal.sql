@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24579,   1, 'Candeth Keep Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24579,   1,   33554867) /* Setup */
-     , (24579,   2,  150994947) /* MotionTable */
-     , (24579,   8,  100667499) /* Icon */;
+VALUES (24579,   1, 0x020001B3) /* Setup */
+     , (24579,   2, 0x09000003) /* MotionTable */
+     , (24579,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24579, 2, 722599977, 120.642, 1.549, 10.112, 0.0871558, 0, 0, -0.9961947) /* Destination */
-/* @teleloc 0x2B120029 [120.642000 1.549000 10.112000] 0.087156 0.000000 0.000000 -0.996195 */;
+VALUES (24579, 2, 0x2B120029, 120.642, 1.549, 10.112, 0.087156, 0, 0, -0.996195) /* Destination */
+/* @teleloc 0x2B120029 [120.641998 1.549000 10.112000] 0.087156 0.000000 0.000000 -0.996195 */;

@@ -18,7 +18,7 @@ VALUES (8005,   1,        256) /* ItemType - MissileWeapon */
      , (8005,  48,          3) /* WeaponSkill - Crossbow */
      , (8005,  49,        120) /* WeaponTime */
      , (8005,  50,         16) /* AmmoType - BoltCrystal */
-     , (8005,  51,          2) /* CombatUse - Missle */
+     , (8005,  51,          2) /* CombatUse - Missile */
      , (8005,  52,          2) /* ParentLocation - LeftHand */
      , (8005,  53,          3) /* PlacementPosition - LeftHand */
      , (8005,  60,        180) /* WeaponRange */
@@ -50,15 +50,15 @@ VALUES (8005,   1, 'Fenmalain Crystal Crossbow') /* Name */
      , (8005,  16, 'A crossbow imbued with the essence of the Fenmalain Crystal. Uses crystal-tipped quarrels.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8005,   1,   33554733) /* Setup */
-     , (8005,   3,  536870932) /* SoundTable */
-     , (8005,   6,   67111919) /* PaletteBase */
-     , (8005,   7,  268436042) /* ClothingBase */
-     , (8005,   8,  100671005) /* Icon */
-     , (8005,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8005,   1, 0x0200012D) /* Setup */
+     , (8005,   3, 0x20000014) /* SoundTable */
+     , (8005,   6, 0x04000BEF) /* PaletteBase */
+     , (8005,   7, 0x1000024A) /* ClothingBase */
+     , (8005,   8, 0x06001E1D) /* Icon */
+     , (8005,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8005,  37,          3) /* ItemSkillLimit - Crossbow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8005,   487,      2)  /* Missile Weapon Mastery Other III */
-     , (8005,  1613,      2)  /* Aura of Blood Drinker Self III */
-     , (8005,  1624,      2)  /* Aura of Swift Killer Self III */;
+VALUES (8005,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (8005,  1624,      2)  /* Aura of Swift Killer Self III */
+     , (8005,   487,      2)  /* Missile Weapon Mastery Other III */;

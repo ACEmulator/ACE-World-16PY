@@ -68,11 +68,11 @@ VALUES (26722,   1, 'Axefall Glen Merchant') /* Name */
      , (26722,   5, 'Merchant') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26722,   1,   33554433) /* Setup */
-     , (26722,   2,  150994945) /* MotionTable */
-     , (26722,   3,  536870913) /* SoundTable */
-     , (26722,   4,  805306368) /* CombatTable */
-     , (26722,   8,  100667446) /* Icon */;
+VALUES (26722,   1, 0x02000001) /* Setup */
+     , (26722,   2, 0x09000001) /* MotionTable */
+     , (26722,   3, 0x20000001) /* SoundTable */
+     , (26722,   4, 0x30000000) /* CombatTable */
+     , (26722,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (26722,   1,  90, 0, 0) /* Strength */

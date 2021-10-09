@@ -30,9 +30,9 @@ VALUES (8648,   1, 'Argenory Plant') /* Name */
      , (8648,  20, 'Argenory Plants') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8648,   1,   33556750) /* Setup */
-     , (8648,   3,  536870932) /* SoundTable */
-     , (8648,   6,   67111919) /* PaletteBase */
-     , (8648,   7,  268436033) /* ClothingBase */
-     , (8648,   8,  100670767) /* Icon */
-     , (8648,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8648,   1, 0x0200090E) /* Setup */
+     , (8648,   3, 0x20000014) /* SoundTable */
+     , (8648,   6, 0x04000BEF) /* PaletteBase */
+     , (8648,   7, 0x10000241) /* ClothingBase */
+     , (8648,   8, 0x06001D2F) /* Icon */
+     , (8648,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -32,9 +32,9 @@ VALUES (15745,   1, 'Elixir of Summer') /* Name */
      , (15745,  20, 'Elixirs of Summer') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15745,   1,   33555965) /* Setup */
-     , (15745,   3,  536870932) /* SoundTable */
-     , (15745,   6,   67111919) /* PaletteBase */
-     , (15745,   7,  268435814) /* ClothingBase */
-     , (15745,   8,  100672784) /* Icon */
-     , (15745,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15745,   1, 0x020005FD) /* Setup */
+     , (15745,   3, 0x20000014) /* SoundTable */
+     , (15745,   6, 0x04000BEF) /* PaletteBase */
+     , (15745,   7, 0x10000166) /* ClothingBase */
+     , (15745,   8, 0x06002510) /* Icon */
+     , (15745,  22, 0x3400002B) /* PhysicsEffectTable */;

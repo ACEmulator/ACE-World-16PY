@@ -13,7 +13,7 @@ VALUES (22357,   1,       2048) /* ItemType - Gem */
      , (22357,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22357, 114,          1) /* Attuned - Attuned */
      , (22357, 185,          1) /* TypeOfAlteration */
-     , (22357, 186,         31) /* SkillToBeAltered */;
+     , (22357, 186,         31) /* SkillToBeAltered - CreatureEnchantment */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22357,  22, True ) /* Inscribable */
@@ -25,8 +25,8 @@ VALUES (22357,   1, 'Creature Enchantment Gem of Enlightenment') /* Name */
      , (22357,  33, 'SkillAlterationGemPickedUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22357,   1,   33558088) /* Setup */
-     , (22357,   6,   67111919) /* PaletteBase */
-     , (22357,   7,  268435723) /* ClothingBase */
-     , (22357,   8,  100673788) /* Icon */
-     , (22357,  50,  100673761) /* IconOverlay */;
+VALUES (22357,   1, 0x02000E48) /* Setup */
+     , (22357,   6, 0x04000BEF) /* PaletteBase */
+     , (22357,   7, 0x1000010B) /* ClothingBase */
+     , (22357,   8, 0x060028FC) /* Icon */
+     , (22357,  50, 0x060028E1) /* IconOverlay */;

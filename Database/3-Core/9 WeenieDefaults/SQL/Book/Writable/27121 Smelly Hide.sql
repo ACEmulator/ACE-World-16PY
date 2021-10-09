@@ -27,10 +27,10 @@ VALUES (27121,   1, 'Smelly Hide') /* Name */
      , (27121,  33, 'OrdersTorgluukPickedUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27121,   1,   33558644) /* Setup */
-     , (27121,   3,  536870932) /* SoundTable */
-     , (27121,   8,  100675924) /* Icon */
-     , (27121,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27121,   1, 0x02001074) /* Setup */
+     , (27121,   3, 0x20000014) /* SoundTable */
+     , (27121,   8, 0x06003154) /* Icon */
+     , (27121,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (27121, 1, 1000);

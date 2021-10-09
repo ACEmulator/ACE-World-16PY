@@ -22,5 +22,5 @@ VALUES (14681,   1, 'Al-Nosaj') /* Name */
      , (14681,  16, 'Welcome to Al-Nosaj') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14681,   1,   33557463) /* Setup */
-     , (14681,   8,  100668115) /* Icon */;
+VALUES (14681,   1, 0x02000BD7) /* Setup */
+     , (14681,   8, 0x060012D3) /* Icon */;

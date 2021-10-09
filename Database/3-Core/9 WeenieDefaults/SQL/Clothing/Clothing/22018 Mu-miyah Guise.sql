@@ -38,10 +38,10 @@ VALUES (22018,   1, 'Mu-miyah Guise') /* Name */
      , (22018,  16, 'A finely crafted mu-miyah costume that is only missing the head. The smell of mold and old dirt lingers despite the glues used to hold the costume together. There is a thin line of padding that has been added to the interior to protect the wearer from touching the aged bandages.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22018,   1,   33558017) /* Setup */
-     , (22018,   3,  536870932) /* SoundTable */
-     , (22018,   6,   67108990) /* PaletteBase */
-     , (22018,   7,  268436471) /* ClothingBase */
-     , (22018,   8,  100673716) /* Icon */
-     , (22018,  22,  872415275) /* PhysicsEffectTable */
-     , (22018,  36,  234881046) /* MutateFilter */;
+VALUES (22018,   1, 0x02000E01) /* Setup */
+     , (22018,   3, 0x20000014) /* SoundTable */
+     , (22018,   6, 0x0400007E) /* PaletteBase */
+     , (22018,   7, 0x100003F7) /* ClothingBase */
+     , (22018,   8, 0x060028B4) /* Icon */
+     , (22018,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (22018,  36, 0x0E000016) /* MutateFilter */;

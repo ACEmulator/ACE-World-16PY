@@ -40,9 +40,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7665,   1, 'Lesser Amuli Coat of Flame') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7665,   1,   33554854) /* Setup */
-     , (7665,   3,  536870932) /* SoundTable */
-     , (7665,   6,   67108990) /* PaletteBase */
-     , (7665,   7,  268435873) /* ClothingBase */
-     , (7665,   8,  100670437) /* Icon */
-     , (7665,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7665,   1, 0x020001A6) /* Setup */
+     , (7665,   3, 0x20000014) /* SoundTable */
+     , (7665,   6, 0x0400007E) /* PaletteBase */
+     , (7665,   7, 0x100001A1) /* ClothingBase */
+     , (7665,   8, 0x06001BE5) /* Icon */
+     , (7665,  22, 0x3400002B) /* PhysicsEffectTable */;

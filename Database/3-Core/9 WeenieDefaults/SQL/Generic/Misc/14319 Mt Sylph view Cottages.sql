@@ -22,5 +22,5 @@ VALUES (14319,   1, 'Mt Sylph view Cottages') /* Name */
      , (14319,  16, 'Welcome to Mt Sylph view Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14319,   1,   33557463) /* Setup */
-     , (14319,   8,  100668115) /* Icon */;
+VALUES (14319,   1, 0x02000BD7) /* Setup */
+     , (14319,   8, 0x060012D3) /* Icon */;

@@ -34,5 +34,5 @@ VALUES (4979,   1, 'Sewer') /* Name */
      , (4979,  17, 'You suffer %i damage from the sewer''s noxious fumes!') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4979,   1,   33555561) /* Setup */
-     , (4979,   8,  100667465) /* Icon */;
+VALUES (4979,   1, 0x02000469) /* Setup */
+     , (4979,   8, 0x06001049) /* Icon */;

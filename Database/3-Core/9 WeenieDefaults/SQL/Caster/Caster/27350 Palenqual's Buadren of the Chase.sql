@@ -33,7 +33,7 @@ VALUES (27350,  22, True ) /* Inscribable */
      , (27350,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27350,   5, -0.033333) /* ManaRate */
+VALUES (27350,   5,  -0.033) /* ManaRate */
      , (27350,  29,    1.08) /* WeaponDefense */
      , (27350,  39,     1.1) /* DefaultScale */
      , (27350, 144,    0.06) /* ManaConversionMod */
@@ -44,18 +44,18 @@ VALUES (27350,   1, 'Palenqual''s Buadren of the Chase') /* Name */
      , (27350,  16, 'A buadren fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27350,   1,   33558670) /* Setup */
-     , (27350,   3,  536870932) /* SoundTable */
-     , (27350,   6,   67113336) /* PaletteBase */
-     , (27350,   7,  268436250) /* ClothingBase */
-     , (27350,   8,  100676363) /* Icon */
-     , (27350,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27350,   1, 0x0200108E) /* Setup */
+     , (27350,   3, 0x20000014) /* SoundTable */
+     , (27350,   6, 0x04001178) /* PaletteBase */
+     , (27350,   7, 0x1000031A) /* ClothingBase */
+     , (27350,   8, 0x0600330B) /* Icon */
+     , (27350,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27350,  2441,      2)  /* Lesser Stone Cliffs */
      , (27350,  2444,      2)  /* Lesser Strength of Earth */
      , (27350,  2448,      2)  /* Growth */
      , (27350,  2451,      2)  /* Hunter's Acumen */
+     , (27350,  3225,      2)  /* Lesser Cascade */
      , (27350,  2471,      2)  /* Lesser Still Water */
-     , (27350,  2474,      2)  /* Lesser Torrent */
-     , (27350,  3225,      2)  /* Lesser Cascade */;
+     , (27350,  2474,      2)  /* Lesser Torrent */;

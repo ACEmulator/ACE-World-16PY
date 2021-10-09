@@ -25,7 +25,7 @@ VALUES (24225,   1, 'Grub Bite') /* Name */
      , (24225,  20, 'Grub Bites') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24225,   1,   33558332) /* Setup */
-     , (24225,   3,  536870932) /* SoundTable */
-     , (24225,   8,  100674289) /* Icon */
-     , (24225,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24225,   1, 0x02000F3C) /* Setup */
+     , (24225,   3, 0x20000014) /* SoundTable */
+     , (24225,   8, 0x06002AF1) /* Icon */
+     , (24225,  22, 0x3400002B) /* PhysicsEffectTable */;

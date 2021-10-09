@@ -30,7 +30,7 @@ VALUES (23270,   1, 'Three Eyed Guppy') /* Name */
      , (23270,  20, 'Three Eyed Guppies') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23270,   1,   33554674) /* Setup */
-     , (23270,   3,  536870932) /* SoundTable */
-     , (23270,   8,  100667461) /* Icon */
-     , (23270,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23270,   1, 0x020000F2) /* Setup */
+     , (23270,   3, 0x20000014) /* SoundTable */
+     , (23270,   8, 0x06001045) /* Icon */
+     , (23270,  22, 0x3400002B) /* PhysicsEffectTable */;

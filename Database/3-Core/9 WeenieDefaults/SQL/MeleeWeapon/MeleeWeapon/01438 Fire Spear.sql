@@ -41,14 +41,14 @@ VALUES (1438,   1, 'Fire Spear') /* Name */
      , (1438,  16, 'A flaming spear wrestled from the grasp of a treacherous banderling rogue.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1438,   1,   33555412) /* Setup */
-     , (1438,   8,  100667609) /* Icon */
-     , (1438,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1438,   1, 0x020003D4) /* Setup */
+     , (1438,   8, 0x060010D9) /* Icon */
+     , (1438,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1438,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1438,  1095,      2)  /* Fire Protection Other V */
+VALUES (1438,  1604,      2)  /* Aura of Defender Self V */
+     , (1438,  1095,      2)  /* Fire Protection Other V */
      , (1438,  1591,      2)  /* Aura of Heart Seeker Self V */
-     , (1438,  1604,      2)  /* Aura of Defender Self V */
      , (1438,  1615,      2)  /* Aura of Blood Drinker Self V */
      , (1438,  1626,      2)  /* Aura of Swift Killer Self V */;

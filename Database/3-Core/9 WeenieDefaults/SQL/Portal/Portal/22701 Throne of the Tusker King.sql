@@ -24,13 +24,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22701,   1, 'Throne of the Tusker King') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22701,   1,   33554867) /* Setup */
-     , (22701,   2,  150994947) /* MotionTable */
-     , (22701,   8,  100667499) /* Icon */;
+VALUES (22701,   1, 0x020001B3) /* Setup */
+     , (22701,   2, 0x09000003) /* MotionTable */
+     , (22701,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22701, 2, 1598292391, 230.034, -136.066, 0.005, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0x5F4401A7 [230.034000 -136.066000 0.005000] 1.000000 0.000000 0.000000 0.000000 */;
+VALUES (22701, 2, 0x5F4401A7, 230.034, -136.066, 0.005, 1, 0, 0, -0) /* Destination */
+/* @teleloc 0x5F4401A7 [230.033997 -136.065994 0.005000] 1.000000 0.000000 0.000000 -0.000000 */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (22701,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

@@ -30,9 +30,9 @@ VALUES (5816,   1, 'Hearty Mana Carrot Cake') /* Name */
      , (5816,  20, 'Hearty Mana Carrot Cake') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5816,   1,   33555193) /* Setup */
-     , (5816,   3,  536870932) /* SoundTable */
-     , (5816,   6,   67111928) /* PaletteBase */
-     , (5816,   7,  268435860) /* ClothingBase */
-     , (5816,   8,  100670292) /* Icon */
-     , (5816,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5816,   1, 0x020002F9) /* Setup */
+     , (5816,   3, 0x20000014) /* SoundTable */
+     , (5816,   6, 0x04000BF8) /* PaletteBase */
+     , (5816,   7, 0x10000194) /* ClothingBase */
+     , (5816,   8, 0x06001B54) /* Icon */
+     , (5816,  22, 0x3400002B) /* PhysicsEffectTable */;

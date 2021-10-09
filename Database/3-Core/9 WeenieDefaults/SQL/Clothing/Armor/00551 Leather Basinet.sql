@@ -39,11 +39,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (551,   1, 'Leather Basinet') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (551,   1,   33555048) /* Setup */
-     , (551,   3,  536870932) /* SoundTable */
-     , (551,   6,   67108990) /* PaletteBase */
-     , (551,   7,  268435512) /* ClothingBase */
-     , (551,   8,  100668241) /* Icon */
-     , (551,  22,  872415275) /* PhysicsEffectTable */
-     , (551,  36,  234881042) /* MutateFilter */
-     , (551,  46,  939524146) /* TsysMutationFilter */;
+VALUES (551,   1, 0x02000268) /* Setup */
+     , (551,   3, 0x20000014) /* SoundTable */
+     , (551,   6, 0x0400007E) /* PaletteBase */
+     , (551,   7, 0x10000038) /* ClothingBase */
+     , (551,   8, 0x06001351) /* Icon */
+     , (551,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (551,  36, 0x0E000012) /* MutateFilter */
+     , (551,  46, 0x38000032) /* TsysMutationFilter */;

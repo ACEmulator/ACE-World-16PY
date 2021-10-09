@@ -31,9 +31,9 @@ VALUES (8236,   1, 'Spiced Pumpkin') /* Name */
      , (8236,  20, 'Bowls of Spiced Pumpkin') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8236,   1,   33555968) /* Setup */
-     , (8236,   3,  536870932) /* SoundTable */
-     , (8236,   6,   67111919) /* PaletteBase */
-     , (8236,   7,  268436047) /* ClothingBase */
-     , (8236,   8,  100671013) /* Icon */
-     , (8236,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8236,   1, 0x02000600) /* Setup */
+     , (8236,   3, 0x20000014) /* SoundTable */
+     , (8236,   6, 0x04000BEF) /* PaletteBase */
+     , (8236,   7, 0x1000024F) /* ClothingBase */
+     , (8236,   8, 0x06001E25) /* Icon */
+     , (8236,  22, 0x3400002B) /* PhysicsEffectTable */;

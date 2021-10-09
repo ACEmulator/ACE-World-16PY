@@ -21,7 +21,7 @@ VALUES (23872,   1,        256) /* ItemType - MissileWeapon */
      , (23872,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (23872,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (23872,  49,         10) /* WeaponTime */
-     , (23872,  51,          2) /* CombatUse - Missle */
+     , (23872,  51,          2) /* CombatUse - Missile */
      , (23872,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (23872, 150,        103) /* HookPlacement - Hook */
      , (23872, 151,          2) /* HookType - Wall */
@@ -46,7 +46,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23872,   1, 'Greater Frost Spike') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23872,   1,   33558220) /* Setup */
-     , (23872,   3,  536870932) /* SoundTable */
-     , (23872,   8,  100674057) /* Icon */
-     , (23872,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23872,   1, 0x02000ECC) /* Setup */
+     , (23872,   3, 0x20000014) /* SoundTable */
+     , (23872,   8, 0x06002A09) /* Icon */
+     , (23872,  22, 0x3400002B) /* PhysicsEffectTable */;

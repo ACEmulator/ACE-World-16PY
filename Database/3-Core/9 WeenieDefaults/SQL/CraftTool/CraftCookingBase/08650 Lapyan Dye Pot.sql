@@ -32,9 +32,9 @@ VALUES (8650,   1, 'Lapyan Dye Pot') /* Name */
      , (8650,  20, 'Lapyan Dye Pots') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8650,   1,   33556753) /* Setup */
-     , (8650,   3,  536870932) /* SoundTable */
-     , (8650,   6,   67111919) /* PaletteBase */
-     , (8650,   7,  268436036) /* ClothingBase */
-     , (8650,   8,  100670264) /* Icon */
-     , (8650,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8650,   1, 0x02000911) /* Setup */
+     , (8650,   3, 0x20000014) /* SoundTable */
+     , (8650,   6, 0x04000BEF) /* PaletteBase */
+     , (8650,   7, 0x10000244) /* ClothingBase */
+     , (8650,   8, 0x06001B38) /* Icon */
+     , (8650,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15201,   1, 'Wolfenvale Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15201,   1,   33554867) /* Setup */
-     , (15201,   2,  150994947) /* MotionTable */
-     , (15201,   8,  100667499) /* Icon */;
+VALUES (15201,   1, 0x020001B3) /* Setup */
+     , (15201,   2, 0x09000003) /* MotionTable */
+     , (15201,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15201, 2, 1537605659, 93.221, 57.735, 48.542, 0.6557625, 0, 0, -0.7549673) /* Destination */
-/* @teleloc 0x5BA6001B [93.221000 57.735000 48.542000] 0.655763 0.000000 0.000000 -0.754967 */;
+VALUES (15201, 2, 0x5BA6001B, 93.221, 57.735, 48.542, 0.655763, 0, 0, -0.754967) /* Destination */
+/* @teleloc 0x5BA6001B [93.221001 57.735001 48.542000] 0.655762 0.000000 0.000000 -0.754967 */;

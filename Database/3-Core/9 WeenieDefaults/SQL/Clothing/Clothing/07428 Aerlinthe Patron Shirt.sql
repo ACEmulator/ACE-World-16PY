@@ -43,13 +43,13 @@ VALUES (7428,   1, 'Aerlinthe Patron Shirt') /* Name */
      , (7428,  16, 'A shirt purchased on Aerlinthe Island.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7428,   1,   33554883) /* Setup */
-     , (7428,   3,  536870932) /* SoundTable */
-     , (7428,   6,   67108990) /* PaletteBase */
-     , (7428,   7,  268436011) /* ClothingBase */
-     , (7428,   8,  100670734) /* Icon */
-     , (7428,  22,  872415275) /* PhysicsEffectTable */
-     , (7428,  36,  234881046) /* MutateFilter */;
+VALUES (7428,   1, 0x020001C3) /* Setup */
+     , (7428,   3, 0x20000014) /* SoundTable */
+     , (7428,   6, 0x0400007E) /* PaletteBase */
+     , (7428,   7, 0x1000022B) /* ClothingBase */
+     , (7428,   8, 0x06001D0E) /* Icon */
+     , (7428,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (7428,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7428,   955,      2)  /* Fealty Other IV */;

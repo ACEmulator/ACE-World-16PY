@@ -28,10 +28,10 @@ VALUES (9586,   1, 'Mace Skill Puzzle Piece') /* Name */
      , (9586,  16, 'A Mace skill puzzle piece.  Combine it with a Skill Puzzle Base Piece.  This item requires Mace skill to assemble.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9586,   1,   33554669) /* Setup */
-     , (9586,   3,  536870932) /* SoundTable */
-     , (9586,   6,   67111928) /* PaletteBase */
-     , (9586,   7,  268436178) /* ClothingBase */
-     , (9586,   8,  100671546) /* Icon */
-     , (9586,  22,  872415275) /* PhysicsEffectTable */
-     , (9586,  36,  234881046) /* MutateFilter */;
+VALUES (9586,   1, 0x020000ED) /* Setup */
+     , (9586,   3, 0x20000014) /* SoundTable */
+     , (9586,   6, 0x04000BF8) /* PaletteBase */
+     , (9586,   7, 0x100002D2) /* ClothingBase */
+     , (9586,   8, 0x0600203A) /* Icon */
+     , (9586,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (9586,  36, 0x0E000016) /* MutateFilter */;

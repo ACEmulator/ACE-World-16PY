@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13130,   1, 'Snowy Valley Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13130,   1,   33554867) /* Setup */
-     , (13130,   2,  150994947) /* MotionTable */
-     , (13130,   8,  100667499) /* Icon */;
+VALUES (13130,   1, 0x020001B3) /* Setup */
+     , (13130,   2, 0x09000003) /* MotionTable */
+     , (13130,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (13130, 2, 1961492505, 76.575, 20.397, 109.287, -0.9920226, 0, 0, -0.1260605) /* Destination */
-/* @teleloc 0x74EA0019 [76.575000 20.397000 109.287000] -0.992023 0.000000 0.000000 -0.126061 */;
+VALUES (13130, 2, 0x74EA0019, 76.575, 20.397, 109.287, -0.992023, 0, -0, -0.126061) /* Destination */
+/* @teleloc 0x74EA0019 [76.574997 20.396999 109.287003] -0.992023 0.000000 -0.000000 -0.126061 */;

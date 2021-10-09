@@ -41,9 +41,9 @@ VALUES (9421,   1, 'Lugian Scepter') /* Name */
      , (9421,  33, 'ScepterLugian') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9421,   1,   33557013) /* Setup */
-     , (9421,   3,  536870932) /* SoundTable */
-     , (9421,   6,   67111919) /* PaletteBase */
-     , (9421,   7,  268436169) /* ClothingBase */
-     , (9421,   8,  100671505) /* Icon */
-     , (9421,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9421,   1, 0x02000A15) /* Setup */
+     , (9421,   3, 0x20000014) /* SoundTable */
+     , (9421,   6, 0x04000BEF) /* PaletteBase */
+     , (9421,   7, 0x100002C9) /* ClothingBase */
+     , (9421,   8, 0x06002011) /* Icon */
+     , (9421,  22, 0x3400002B) /* PhysicsEffectTable */;

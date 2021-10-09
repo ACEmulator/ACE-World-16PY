@@ -25,7 +25,7 @@ VALUES (3481,   1, 'Scroll of Spear Mastery Other V') /* Name */
      , (3481,  16, 'When learned, this spell increases the target''s Spear skill by 100%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3481,   1,   33554826) /* Setup */
-     , (3481,   8,  100676472) /* Icon */
-     , (3481,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3481,   1, 0x0200018A) /* Setup */
+     , (3481,   8, 0x06003378) /* Icon */
+     , (3481,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3481,  28,        368) /* Spell - Light Weapon Mastery Other V */;

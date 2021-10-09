@@ -19,7 +19,7 @@ VALUES (20046,   1,        256) /* ItemType - MissileWeapon */
      , (20046,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (20046,  49,         15) /* WeaponTime */
      , (20046,  50,          4) /* AmmoType - Atlatl */
-     , (20046,  51,          2) /* CombatUse - Missle */
+     , (20046,  51,          2) /* CombatUse - Missile */
      , (20046,  60,        120) /* WeaponRange */
      , (20046,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (20046, 106,        100) /* ItemSpellcraft */
@@ -48,17 +48,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20046,   1, 'Perfect Chilling Isparian Atlatl') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20046,   1,   33557797) /* Setup */
-     , (20046,   3,  536870932) /* SoundTable */
-     , (20046,   6,   67111919) /* PaletteBase */
-     , (20046,   7,  268436393) /* ClothingBase */
-     , (20046,   8,  100672999) /* Icon */
-     , (20046,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20046,   1, 0x02000D25) /* Setup */
+     , (20046,   3, 0x20000014) /* SoundTable */
+     , (20046,   6, 0x04000BEF) /* PaletteBase */
+     , (20046,   7, 0x100003A9) /* ClothingBase */
+     , (20046,   8, 0x060025E7) /* Icon */
+     , (20046,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20046,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20046,  1033,      2)  /* Cold Protection Self IV */
-     , (20046,  1375,      2)  /* Coordination Self III */
-     , (20046,  1605,      2)  /* Aura of Defender Self VI */
+VALUES (20046,  1605,      2)  /* Aura of Defender Self VI */
+     , (20046,  2695,      2)  /* Moderate Missile Weapon Aptitude */
+     , (20046,  1033,      2)  /* Cold Protection Self IV */
      , (20046,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (20046,  2695,      2)  /* Moderate Missile Weapon Aptitude */;
+     , (20046,  1375,      2)  /* Coordination Self III */;

@@ -32,8 +32,8 @@ VALUES (24769,   1, 'Treated Gypsum and Frankincense Crucible') /* Name */
      , (24769,  20, 'Treated Gypsum and Frankincense Crucibles') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24769,   1,   33555966) /* Setup */
-     , (24769,   3,  536870932) /* SoundTable */
-     , (24769,   8,  100674461) /* Icon */
-     , (24769,  22,  872415275) /* PhysicsEffectTable */
-     , (24769,  50,  100674415) /* IconOverlay */;
+VALUES (24769,   1, 0x020005FE) /* Setup */
+     , (24769,   3, 0x20000014) /* SoundTable */
+     , (24769,   8, 0x06002B9D) /* Icon */
+     , (24769,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24769,  50, 0x06002B6F) /* IconOverlay */;

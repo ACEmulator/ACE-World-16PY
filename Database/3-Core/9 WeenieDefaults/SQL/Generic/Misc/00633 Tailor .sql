@@ -22,7 +22,7 @@ VALUES (633,   1, 'Tailor ') /* Name */
      , (633,  16, 'Tailor') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (633,   1,   33555088) /* Setup */
-     , (633,   6,   67111092) /* PaletteBase */
-     , (633,   7,  268435668) /* ClothingBase */
-     , (633,   8,  100668115) /* Icon */;
+VALUES (633,   1, 0x02000290) /* Setup */
+     , (633,   6, 0x040008B4) /* PaletteBase */
+     , (633,   7, 0x100000D4) /* ClothingBase */
+     , (633,   8, 0x060012D3) /* Icon */;

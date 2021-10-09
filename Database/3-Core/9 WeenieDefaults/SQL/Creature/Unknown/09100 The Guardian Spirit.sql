@@ -65,12 +65,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9100,   1, 'The Guardian Spirit') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9100,   1,   33556633) /* Setup */
-     , (9100,   2,  150994993) /* MotionTable */
-     , (9100,   3,  536871006) /* SoundTable */
-     , (9100,   4,  805306398) /* CombatTable */
-     , (9100,   8,  100668442) /* Icon */
-     , (9100,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (9100,   1, 0x02000899) /* Setup */
+     , (9100,   2, 0x09000031) /* MotionTable */
+     , (9100,   3, 0x2000005E) /* SoundTable */
+     , (9100,   4, 0x3000001E) /* CombatTable */
+     , (9100,   8, 0x0600141A) /* Icon */
+     , (9100,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9100,   1,  10, 0, 0) /* Strength */
@@ -103,20 +103,20 @@ VALUES (9100,  0,  8,  3,  0.5, 9000, 1800000, 1800000, 1800000, 1800000, 180000
      , (9100, 21, 64,  0,    0, 9000, 1800000, 1800000, 1800000, 1800000, 1800000, 1800000, 1800000,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9100,   198,   2.17)  /* Exhaustion Other V */
-     , (9100,   232,   2.17)  /* Vulnerability Other IV */
-     , (9100,   307,   2.17)  /* Light Weapon Ineptitude Other IV */
+VALUES (9100,   232,   2.17)  /* Vulnerability Other IV */
+     , (9100,   897,   2.33)  /* Healing Ineptitude Other VI */
+     , (9100,   476,   2.17)  /* Missile Weapon Ineptitude Other IV */
+     , (9100,   452,   2.17)  /* Light Weapon Ineptitude Other IV */
+     , (9100,  1242,   2.67)  /* Drain Health Other VI */
+     , (9100,   198,   2.17)  /* Exhaustion Other V */
      , (9100,   355,   2.17)  /* Light Weapon Ineptitude Other IV */
      , (9100,   403,   2.17)  /* Light Weapon Ineptitude Other IV */
-     , (9100,   427,   2.17)  /* Heavy Weapon Ineptitude Other IV */
-     , (9100,   452,   2.17)  /* Light Weapon Ineptitude Other IV */
-     , (9100,   476,   2.17)  /* Missile Weapon Ineptitude Other IV */
-     , (9100,   500,   2.17)  /* Missile Weapon Ineptitude Other IV */
-     , (9100,   897,   2.33)  /* Healing Ineptitude Other VI */
-     , (9100,  1004,   2.33)  /* Leaden Feet Other V */
      , (9100,  1174,    2.1)  /* Harm Other IV */
-     , (9100,  1242,   2.67)  /* Drain Health Other VI */
-     , (9100,  1394,   2.17)  /* Clumsiness Other IV */;
+     , (9100,   427,   2.17)  /* Heavy Weapon Ineptitude Other IV */
+     , (9100,  1004,   2.33)  /* Leaden Feet Other V */
+     , (9100,  1394,   2.17)  /* Clumsiness Other IV */
+     , (9100,   307,   2.17)  /* Light Weapon Ineptitude Other IV */
+     , (9100,   500,   2.17)  /* Missile Weapon Ineptitude Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (9100,  94) /* ATTACK_NOTIFICATION_EVENT */

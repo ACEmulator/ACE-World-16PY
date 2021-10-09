@@ -40,14 +40,14 @@ VALUES (14568,   1, 'Buadren') /* Name */
      , (14568,  15, 'A Tumerok drum enhanced with the Heart of Oak spell by Aun Tikakhe.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14568,   1,   33557297) /* Setup */
-     , (14568,   3,  536870932) /* SoundTable */
-     , (14568,   6,   67113783) /* PaletteBase */
-     , (14568,   7,  268436324) /* ClothingBase */
-     , (14568,   8,  100672519) /* Icon */
-     , (14568,  22,  872415275) /* PhysicsEffectTable */
-     , (14568,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
-     , (14568,  36,  234881046) /* MutateFilter */;
+VALUES (14568,   1, 0x02000B31) /* Setup */
+     , (14568,   3, 0x20000014) /* SoundTable */
+     , (14568,   6, 0x04001337) /* PaletteBase */
+     , (14568,   7, 0x10000364) /* ClothingBase */
+     , (14568,   8, 0x06002407) /* Icon */
+     , (14568,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (14568,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
+     , (14568,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (14568,  2638,      2)  /* Heart of Oak */;

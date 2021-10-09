@@ -29,7 +29,7 @@ VALUES (5216,   1, 'Healing Beef Noodle') /* Name */
      , (5216,  20, 'Bowls of Healing Beef Noodle ') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5216,   1,   33554668) /* Setup */
-     , (5216,   3,  536870932) /* SoundTable */
-     , (5216,   8,  100670181) /* Icon */
-     , (5216,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5216,   1, 0x020000EC) /* Setup */
+     , (5216,   3, 0x20000014) /* SoundTable */
+     , (5216,   8, 0x06001AE5) /* Icon */
+     , (5216,  22, 0x3400002B) /* PhysicsEffectTable */;

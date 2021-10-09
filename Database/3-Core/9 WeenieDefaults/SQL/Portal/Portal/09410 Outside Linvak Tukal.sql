@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9410,   1, 'Outside Linvak Tukal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9410,   1,   33554867) /* Setup */
-     , (9410,   2,  150994947) /* MotionTable */
-     , (9410,   8,  100667499) /* Icon */;
+VALUES (9410,   1, 0x020001B3) /* Setup */
+     , (9410,   2, 0x09000003) /* MotionTable */
+     , (9410,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9410, 2, 2720006191, 139, 146.3, 321.6, -0.9996798, 0, 0, -0.02530463) /* Destination */
-/* @teleloc 0xA220002F [139.000000 146.300000 321.600000] -0.999680 0.000000 0.000000 -0.025305 */;
+VALUES (9410, 2, 0xA220002F, 139, 146.3, 321.6, -0.99968, 0, -0, -0.025305) /* Destination */
+/* @teleloc 0xA220002F [139.000000 146.300003 321.600006] -0.999680 0.000000 -0.000000 -0.025305 */;

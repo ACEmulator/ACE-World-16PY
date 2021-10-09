@@ -25,7 +25,7 @@ VALUES (5949,   1, 'Scroll of Cooking Ineptitude Other VI') /* Name */
      , (5949,  16, 'When learned, this spell decreases the target''s Cooking skill by 60%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5949,   1,   33554826) /* Setup */
-     , (5949,   8,  100676451) /* Icon */
-     , (5949,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5949,   1, 0x0200018A) /* Setup */
+     , (5949,   8, 0x06003363) /* Icon */
+     , (5949,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5949,  28,       1726) /* Spell - Cooking Ineptitude Other VI */;

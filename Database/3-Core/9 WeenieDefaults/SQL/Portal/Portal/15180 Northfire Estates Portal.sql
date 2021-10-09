@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15180,   1, 'Northfire Estates Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15180,   1,   33554867) /* Setup */
-     , (15180,   2,  150994947) /* MotionTable */
-     , (15180,   8,  100667499) /* Icon */;
+VALUES (15180,   1, 0x020001B3) /* Setup */
+     , (15180,   2, 0x09000003) /* MotionTable */
+     , (15180,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15180, 2, 1558642715, 95.115, 57.211, 37.164, -0.9702111, 0, 0, -0.2422608) /* Destination */
-/* @teleloc 0x5CE7001B [95.115000 57.211000 37.164000] -0.970211 0.000000 0.000000 -0.242261 */;
+VALUES (15180, 2, 0x5CE7001B, 95.115, 57.211, 37.164, -0.970211, 0, -0, -0.242261) /* Destination */
+/* @teleloc 0x5CE7001B [95.114998 57.210999 37.164001] -0.970211 0.000000 -0.000000 -0.242261 */;

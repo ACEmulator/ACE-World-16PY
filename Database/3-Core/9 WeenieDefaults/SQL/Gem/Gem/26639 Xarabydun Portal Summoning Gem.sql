@@ -36,11 +36,11 @@ VALUES (26639,   1, 'Xarabydun Portal Summoning Gem') /* Name */
      , (26639,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26639,   1,   33556769) /* Setup */
-     , (26639,   3,  536870932) /* SoundTable */
-     , (26639,   6,   67111919) /* PaletteBase */
-     , (26639,   7,  268435723) /* ClothingBase */
-     , (26639,   8,  100674856) /* Icon */
-     , (26639,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26639,   1, 0x02000921) /* Setup */
+     , (26639,   3, 0x20000014) /* SoundTable */
+     , (26639,   6, 0x04000BEF) /* PaletteBase */
+     , (26639,   7, 0x1000010B) /* ClothingBase */
+     , (26639,   8, 0x06002D28) /* Icon */
+     , (26639,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26639,  28,        157) /* Spell - Summon Primary Portal I */
      , (26639,  31,      28269) /* LinkedPortalOne - Portal to Xarabydun */;

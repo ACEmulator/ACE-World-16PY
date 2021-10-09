@@ -24,8 +24,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2530,   1, 'Using Food Sign') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2530,   1,   33555088) /* Setup */
-     , (2530,   8,  100668115) /* Icon */;
+VALUES (2530,   1, 0x02000290) /* Setup */
+     , (2530,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (2530, 1, 1000);

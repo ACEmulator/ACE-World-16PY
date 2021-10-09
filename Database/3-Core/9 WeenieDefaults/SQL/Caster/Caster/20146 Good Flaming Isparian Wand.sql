@@ -41,18 +41,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20146,   1, 'Good Flaming Isparian Wand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20146,   1,   33557789) /* Setup */
-     , (20146,   3,  536870932) /* SoundTable */
-     , (20146,   6,   67111919) /* PaletteBase */
-     , (20146,   7,  268436395) /* ClothingBase */
-     , (20146,   8,  100672996) /* Icon */
-     , (20146,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20146,   1, 0x02000D1D) /* Setup */
+     , (20146,   3, 0x20000014) /* SoundTable */
+     , (20146,   6, 0x04000BEF) /* PaletteBase */
+     , (20146,   7, 0x100003AB) /* ClothingBase */
+     , (20146,   8, 0x060025E4) /* Icon */
+     , (20146,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20146,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20146,   632,      2)  /* War Magic Mastery Self IV */
+VALUES (20146,  1092,      2)  /* Fire Protection Self IV */
+     , (20146,  2680,      2)  /* Feeble Mana Conversion Prowess */
+     , (20146,   632,      2)  /* War Magic Mastery Self IV */
      , (20146,   656,      2)  /* Mana Conversion Mastery Self IV */
-     , (20146,  1092,      2)  /* Fire Protection Self IV */
-     , (20146,  1424,      2)  /* Focus Self IV */
      , (20146,  1448,      2)  /* Willpower Self IV */
-     , (20146,  2680,      2)  /* Feeble Mana Conversion Prowess */;
+     , (20146,  1424,      2)  /* Focus Self IV */;

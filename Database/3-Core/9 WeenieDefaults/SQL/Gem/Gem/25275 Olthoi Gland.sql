@@ -32,10 +32,10 @@ VALUES (25275,   1, 'Olthoi Gland') /* Name */
      , (25275,  33, 'GlandCollected') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25275,   1,   33554809) /* Setup */
-     , (25275,   3,  536870932) /* SoundTable */
-     , (25275,   6,   67111919) /* PaletteBase */
-     , (25275,   7,  268435723) /* ClothingBase */
-     , (25275,   8,  100674711) /* Icon */
-     , (25275,  22,  872415275) /* PhysicsEffectTable */
-     , (25275,  36,  234881046) /* MutateFilter */;
+VALUES (25275,   1, 0x02000179) /* Setup */
+     , (25275,   3, 0x20000014) /* SoundTable */
+     , (25275,   6, 0x04000BEF) /* PaletteBase */
+     , (25275,   7, 0x1000010B) /* ClothingBase */
+     , (25275,   8, 0x06002C97) /* Icon */
+     , (25275,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (25275,  36, 0x0E000016) /* MutateFilter */;

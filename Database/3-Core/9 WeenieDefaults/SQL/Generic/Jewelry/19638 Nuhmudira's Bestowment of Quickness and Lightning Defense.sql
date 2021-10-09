@@ -41,15 +41,15 @@ VALUES (19638,   1, 'Nuhmudira''s Bestowment of Quickness and Lightning Defense'
      , (19638,  16, 'A red gorget, crafted from a strong metal, imbued with an elixir of speed and elixir of autumn. As you hold the gorget in your hand you feel a soft vibration.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19638,   1,   33554687) /* Setup */
-     , (19638,   3,  536870932) /* SoundTable */
-     , (19638,   6,   67111919) /* PaletteBase */
-     , (19638,   7,  268436388) /* ClothingBase */
-     , (19638,   8,  100668632) /* Icon */
-     , (19638,  22,  872415275) /* PhysicsEffectTable */
-     , (19638,  36,  234881046) /* MutateFilter */;
+VALUES (19638,   1, 0x020000FF) /* Setup */
+     , (19638,   3, 0x20000014) /* SoundTable */
+     , (19638,   6, 0x04000BEF) /* PaletteBase */
+     , (19638,   7, 0x100003A4) /* ClothingBase */
+     , (19638,   8, 0x060014D8) /* Icon */
+     , (19638,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (19638,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19638,  1076,      2)  /* Lightning Protection Other V */
-     , (19638,  1407,      2)  /* Quickness Other V */
-     , (19638,  2669,      2)  /* Nuhmudiras Bestowment */;
+VALUES (19638,  2669,      2)  /* Nuhmudiras Bestowment */
+     , (19638,  1076,      2)  /* Lightning Protection Other V */
+     , (19638,  1407,      2)  /* Quickness Other V */;

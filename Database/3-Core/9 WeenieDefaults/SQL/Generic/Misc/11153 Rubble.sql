@@ -26,5 +26,5 @@ VALUES (11153,   1, 'Rubble') /* Name */
      , (11153,  33, 'MenhirRubbleCPickUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11153,   1,   33556735) /* Setup */
-     , (11153,   8,  100670227) /* Icon */;
+VALUES (11153,   1, 0x020008FF) /* Setup */
+     , (11153,   8, 0x06001B13) /* Icon */;

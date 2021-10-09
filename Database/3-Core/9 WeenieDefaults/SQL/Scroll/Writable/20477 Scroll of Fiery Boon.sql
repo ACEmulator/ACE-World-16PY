@@ -24,7 +24,7 @@ VALUES (20477,   1, 'Scroll of Fiery Boon') /* Name */
      , (20477,  15, 'When learned, this spell reduces damage the target takes from fire by 65%.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20477,   1,   33554826) /* Setup */
-     , (20477,   8,  100676949) /* Icon */
-     , (20477,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20477,   1, 0x0200018A) /* Setup */
+     , (20477,   8, 0x06003555) /* Icon */
+     , (20477,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20477,  28,       2156) /* Spell - Fiery Boon */;

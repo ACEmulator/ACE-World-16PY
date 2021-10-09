@@ -54,17 +54,17 @@ VALUES (25610,   1, 'Frozen Weeping Axe') /* Name */
      , (25610,  15, 'An axe infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25610,   1,   33558470) /* Setup */
-     , (25610,   3,  536870932) /* SoundTable */
-     , (25610,   6,   67114522) /* PaletteBase */
-     , (25610,   7,  268436698) /* ClothingBase */
-     , (25610,   8,  100674885) /* Icon */
-     , (25610,  22,  872415275) /* PhysicsEffectTable */
-     , (25610,  36,  234881044) /* MutateFilter */;
+VALUES (25610,   1, 0x02000FC6) /* Setup */
+     , (25610,   3, 0x20000014) /* SoundTable */
+     , (25610,   6, 0x0400161A) /* PaletteBase */
+     , (25610,   7, 0x100004DA) /* ClothingBase */
+     , (25610,   8, 0x06002D45) /* Icon */
+     , (25610,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (25610,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25610,  2686,      2)  /* Moderate Light Weapon Aptitude */
-     , (25610,  2963,      2)  /* Aura of Hunter's Cunning */
+VALUES (25610,  2963,      2)  /* Aura of Hunter's Cunning */
      , (25610,  2964,      2)  /* Aura of Hunter's Mark */
      , (25610,  2966,      2)  /* Aura of Murderous Thirst */
-     , (25610,  2967,      2)  /* Aura of The Speedy Hunter */;
+     , (25610,  2967,      2)  /* Aura of The Speedy Hunter */
+     , (25610,  2686,      2)  /* Moderate Light Weapon Aptitude */;

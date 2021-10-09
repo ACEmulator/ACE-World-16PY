@@ -26,7 +26,7 @@ VALUES (28525,   1, 'Sealed Missive') /* Name */
      , (28525,  16, 'This sealed missive was given to you by MacNiall the Unruled. You should return this to Captain K''rank in Linvak Tukal. Opening the missive would be a great betrayal of trust.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28525,   1,   33554776) /* Setup */
-     , (28525,   3,  536870932) /* SoundTable */
-     , (28525,   8,  100668176) /* Icon */
-     , (28525,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28525,   1, 0x02000158) /* Setup */
+     , (28525,   3, 0x20000014) /* SoundTable */
+     , (28525,   8, 0x06001310) /* Icon */
+     , (28525,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -22,7 +22,7 @@ VALUES (803,   1, 'Jade Sepent') /* Name */
      , (803,  16, 'Jade Serpent') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (803,   1,   33555088) /* Setup */
-     , (803,   6,   67111092) /* PaletteBase */
-     , (803,   7,  268435659) /* ClothingBase */
-     , (803,   8,  100668115) /* Icon */;
+VALUES (803,   1, 0x02000290) /* Setup */
+     , (803,   6, 0x040008B4) /* PaletteBase */
+     , (803,   7, 0x100000CB) /* ClothingBase */
+     , (803,   8, 0x060012D3) /* Icon */;

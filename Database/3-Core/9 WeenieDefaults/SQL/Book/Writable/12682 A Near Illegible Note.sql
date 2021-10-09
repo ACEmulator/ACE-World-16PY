@@ -28,10 +28,10 @@ VALUES (12682,   1, 'A Near Illegible Note') /* Name */
      , (12682,  37, 'KilledMenacet') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12682,   1,   33554773) /* Setup */
-     , (12682,   3,  536870932) /* SoundTable */
-     , (12682,   8,  100668176) /* Icon */
-     , (12682,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12682,   1, 0x02000155) /* Setup */
+     , (12682,   3, 0x20000014) /* SoundTable */
+     , (12682,   8, 0x06001310) /* Icon */
+     , (12682,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (12682,  9 /* Generation */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

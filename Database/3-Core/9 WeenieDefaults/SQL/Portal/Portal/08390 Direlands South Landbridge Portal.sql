@@ -25,10 +25,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8390,   1, 'Direlands South Landbridge Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8390,   1,   33555926) /* Setup */
-     , (8390,   2,  150994947) /* MotionTable */
-     , (8390,   8,  100667499) /* Icon */;
+VALUES (8390,   1, 0x020005D6) /* Setup */
+     , (8390,   2, 0x09000003) /* MotionTable */
+     , (8390,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8390, 2, 1729560603, 81.1, 48.8, 2.7, 0.9396926, 0, 0, -0.3420201) /* Destination */
-/* @teleloc 0x6717001B [81.100000 48.800000 2.700000] 0.939693 0.000000 0.000000 -0.342020 */;
+VALUES (8390, 2, 0x6717001B, 81.1, 48.8, 2.7, 0.939693, 0, 0, -0.34202) /* Destination */
+/* @teleloc 0x6717001B [81.099998 48.799999 2.700000] 0.939693 0.000000 0.000000 -0.342020 */;

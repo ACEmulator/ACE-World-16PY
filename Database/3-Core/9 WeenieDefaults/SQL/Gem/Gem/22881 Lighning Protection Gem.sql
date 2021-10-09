@@ -34,11 +34,11 @@ VALUES (22881,   1, 'Lighning Protection Gem') /* Name */
      , (22881,  15, 'A gem of lightning protection VI') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22881,   1,   33554809) /* Setup */
-     , (22881,   3,  536870932) /* SoundTable */
-     , (22881,   6,   67111919) /* PaletteBase */
-     , (22881,   7,  268435723) /* ClothingBase */
-     , (22881,   8,  100673905) /* Icon */
-     , (22881,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22881,   1, 0x02000179) /* Setup */
+     , (22881,   3, 0x20000014) /* SoundTable */
+     , (22881,   6, 0x04000BEF) /* PaletteBase */
+     , (22881,   7, 0x1000010B) /* ClothingBase */
+     , (22881,   8, 0x06002971) /* Icon */
+     , (22881,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22881,  28,       1077) /* Spell - Lightning Protection Other VI */
-     , (22881,  36,  234881046) /* MutateFilter */;
+     , (22881,  36, 0x0E000016) /* MutateFilter */;

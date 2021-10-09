@@ -22,5 +22,5 @@ VALUES (4510,   1, 'The Oak Talisman') /* Name */
      , (4510,  16, 'The Oak Talisman') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4510,   1,   33555594) /* Setup */
-     , (4510,   8,  100668115) /* Icon */;
+VALUES (4510,   1, 0x0200048A) /* Setup */
+     , (4510,   8, 0x060012D3) /* Icon */;

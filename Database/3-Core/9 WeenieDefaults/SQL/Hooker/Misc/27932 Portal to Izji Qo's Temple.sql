@@ -13,7 +13,7 @@ VALUES (27932,   1,        128) /* ItemType - Misc */
      , (27932,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27932, 150,        103) /* HookPlacement - Hook */
      , (27932, 151,          9) /* HookType - Floor, Yard */
-     , (27932, 197,          4) /* HookGroup */;
+     , (27932, 197,          4) /* HookGroup - PortalItems */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27932,  13, True ) /* Ethereal */
@@ -28,8 +28,8 @@ VALUES (27932,   1, 'Portal to Izji Qo''s Temple') /* Name */
      , (27932,  16, 'This device seems to act as a portal beacon. It must be hooked on a powerful geomantic force, such as a mansion, to activate the magical properties.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27932,   1,   33558645) /* Setup */
-     , (27932,   8,  100675779) /* Icon */;
+VALUES (27932,   1, 0x02001075) /* Setup */
+     , (27932,   8, 0x060030C3) /* Icon */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (27932,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

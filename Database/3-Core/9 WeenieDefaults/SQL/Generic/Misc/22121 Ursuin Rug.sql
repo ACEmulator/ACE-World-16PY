@@ -21,5 +21,5 @@ VALUES (22121,   1, 'Ursuin Rug') /* Name */
      , (22121,  15, 'An Ursuin hide Rug') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22121,   1,   33557140) /* Setup */
-     , (22121,   8,  100671820) /* Icon */;
+VALUES (22121,   1, 0x02000A94) /* Setup */
+     , (22121,   8, 0x0600214C) /* Icon */;

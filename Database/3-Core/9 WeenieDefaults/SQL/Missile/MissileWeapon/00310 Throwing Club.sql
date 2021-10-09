@@ -20,7 +20,7 @@ VALUES (310,   1,        256) /* ItemType - MissileWeapon */
      , (310,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (310,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (310,  49,         20) /* WeaponTime */
-     , (310,  51,          2) /* CombatUse - Missle */
+     , (310,  51,          2) /* CombatUse - Missile */
      , (310,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (310, 150,        103) /* HookPlacement - Hook */
      , (310, 151,          2) /* HookType - Wall */;
@@ -41,7 +41,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (310,   1, 'Throwing Club') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (310,   1,   33554731) /* Setup */
-     , (310,   3,  536870932) /* SoundTable */
-     , (310,   8,  100669762) /* Icon */
-     , (310,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (310,   1, 0x0200012B) /* Setup */
+     , (310,   3, 0x20000014) /* SoundTable */
+     , (310,   8, 0x06001942) /* Icon */
+     , (310,  22, 0x3400002B) /* PhysicsEffectTable */;

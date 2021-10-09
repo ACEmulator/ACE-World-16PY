@@ -30,7 +30,7 @@ VALUES (11126,   1, 'Olthoi Batter') /* Name */
      , (11126,  20, 'Batches of Olthoi Batter') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11126,   1,   33555968) /* Setup */
-     , (11126,   3,  536870932) /* SoundTable */
-     , (11126,   8,  100671757) /* Icon */
-     , (11126,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11126,   1, 0x02000600) /* Setup */
+     , (11126,   3, 0x20000014) /* SoundTable */
+     , (11126,   8, 0x0600210D) /* Icon */
+     , (11126,  22, 0x3400002B) /* PhysicsEffectTable */;

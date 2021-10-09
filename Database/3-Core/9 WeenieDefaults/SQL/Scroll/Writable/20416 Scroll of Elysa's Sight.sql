@@ -24,7 +24,7 @@ VALUES (20416,   1, 'Scroll of Elysa''s Sight') /* Name */
      , (20416,  15, 'When learned, this spell increases a weapon''s Attack Skill modifier by 17.0 percentage points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20416,   1,   33554826) /* Setup */
-     , (20416,   8,  100676660) /* Icon */
-     , (20416,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20416,   1, 0x0200018A) /* Setup */
+     , (20416,   8, 0x06003434) /* Icon */
+     , (20416,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20416,  28,       2106) /* Spell - Aura of Elysa's Sight */;

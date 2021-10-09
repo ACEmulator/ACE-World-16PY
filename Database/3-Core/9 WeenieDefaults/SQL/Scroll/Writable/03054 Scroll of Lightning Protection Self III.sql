@@ -25,7 +25,7 @@ VALUES (3054,   1, 'Scroll of Lightning Protection Self III') /* Name */
      , (3054,  16, 'When learned, this spell Reduces damage the caster takes from Lighting by 33%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3054,   1,   33554826) /* Setup */
-     , (3054,   8,  100676948) /* Icon */
-     , (3054,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3054,   1, 0x0200018A) /* Setup */
+     , (3054,   8, 0x06003554) /* Icon */
+     , (3054,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3054,  28,       1068) /* Spell - Lightning Protection Self III */;

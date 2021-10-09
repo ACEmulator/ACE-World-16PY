@@ -22,5 +22,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20638,   1, 'Gout of Elemental Frost') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20638,   1,   33557548) /* Setup */
-     , (20638,   8,  100667494) /* Icon */;
+VALUES (20638,   1, 0x02000C2C) /* Setup */
+     , (20638,   8, 0x06001066) /* Icon */;

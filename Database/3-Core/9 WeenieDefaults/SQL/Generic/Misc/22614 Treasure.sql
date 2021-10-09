@@ -26,7 +26,7 @@ VALUES (22614,   1, 'Treasure') /* Name */
      , (22614,  33, 'PickedUpPhatLewt') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22614,   1,   33558212) /* Setup */
-     , (22614,   3,  536870932) /* SoundTable */
-     , (22614,   8,  100674084) /* Icon */
-     , (22614,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22614,   1, 0x02000EC4) /* Setup */
+     , (22614,   3, 0x20000014) /* SoundTable */
+     , (22614,   8, 0x06002A24) /* Icon */
+     , (22614,  22, 0x3400002B) /* PhysicsEffectTable */;

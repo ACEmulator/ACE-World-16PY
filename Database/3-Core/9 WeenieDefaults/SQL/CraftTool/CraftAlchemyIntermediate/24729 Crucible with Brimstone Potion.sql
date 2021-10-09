@@ -31,7 +31,7 @@ VALUES (24729,   1, 'Crucible with Brimstone Potion') /* Name */
      , (24729,  20, 'Crucibles with Brimstone Potion') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24729,   1,   33555966) /* Setup */
-     , (24729,   3,  536870932) /* SoundTable */
-     , (24729,   8,  100674469) /* Icon */
-     , (24729,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24729,   1, 0x020005FE) /* Setup */
+     , (24729,   3, 0x20000014) /* SoundTable */
+     , (24729,   8, 0x06002BA5) /* Icon */
+     , (24729,  22, 0x3400002B) /* PhysicsEffectTable */;

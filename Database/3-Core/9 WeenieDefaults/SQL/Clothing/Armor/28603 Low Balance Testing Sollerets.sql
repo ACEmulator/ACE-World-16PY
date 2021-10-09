@@ -28,7 +28,7 @@ VALUES (28603,  22, True ) /* Inscribable */
      , (28603,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28603,   5,       0) /* ManaRate */
+VALUES (28603,   5,      -0) /* ManaRate */
      , (28603,  12,    0.66) /* Shade */
      , (28603,  13,       1) /* ArmorModVsSlash */
      , (28603,  14,       1) /* ArmorModVsPierce */
@@ -45,19 +45,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28603,   1, 'Low Balance Testing Sollerets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28603,   1,   33554654) /* Setup */
-     , (28603,   3,  536870932) /* SoundTable */
-     , (28603,   6,   67108990) /* PaletteBase */
-     , (28603,   7,  268436752) /* ClothingBase */
-     , (28603,   8,  100675590) /* Icon */
-     , (28603,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28603,   1, 0x020000DE) /* Setup */
+     , (28603,   3, 0x20000014) /* SoundTable */
+     , (28603,   6, 0x0400007E) /* PaletteBase */
+     , (28603,   7, 0x10000510) /* ClothingBase */
+     , (28603,   8, 0x06003006) /* Icon */
+     , (28603,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28603,  1483,      2)  /* Impenetrability III */
-     , (28603,  1495,      2)  /* Acid Bane III */
-     , (28603,  1513,      2)  /* Bludgeon Bane III */
-     , (28603,  1525,      2)  /* Frost Bane III */
-     , (28603,  1537,      2)  /* Lightning Bane III */
+VALUES (28603,  1537,      2)  /* Lightning Bane III */
+     , (28603,  1483,      2)  /* Impenetrability III */
      , (28603,  1549,      2)  /* Flame Bane III */
      , (28603,  1559,      2)  /* Blade Bane III */
-     , (28603,  1571,      2)  /* Piercing Bane III */;
+     , (28603,  1495,      2)  /* Acid Bane III */
+     , (28603,  1571,      2)  /* Piercing Bane III */
+     , (28603,  1513,      2)  /* Bludgeon Bane III */
+     , (28603,  1525,      2)  /* Frost Bane III */;

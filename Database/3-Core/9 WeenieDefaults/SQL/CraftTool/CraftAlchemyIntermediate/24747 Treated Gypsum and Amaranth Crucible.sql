@@ -32,8 +32,8 @@ VALUES (24747,   1, 'Treated Gypsum and Amaranth Crucible') /* Name */
      , (24747,  20, 'Treated Gypsum and Amaranth Crucibles') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24747,   1,   33555966) /* Setup */
-     , (24747,   3,  536870932) /* SoundTable */
-     , (24747,   8,  100674461) /* Icon */
-     , (24747,  22,  872415275) /* PhysicsEffectTable */
-     , (24747,  50,  100674416) /* IconOverlay */;
+VALUES (24747,   1, 0x020005FE) /* Setup */
+     , (24747,   3, 0x20000014) /* SoundTable */
+     , (24747,   8, 0x06002B9D) /* Icon */
+     , (24747,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24747,  50, 0x06002B70) /* IconOverlay */;

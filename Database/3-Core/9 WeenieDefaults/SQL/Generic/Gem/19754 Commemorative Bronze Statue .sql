@@ -29,10 +29,10 @@ VALUES (19754,   1, 'Commemorative Bronze Statue ') /* Name */
      , (19754,  15, 'A large commemorative statue of a Zharalim crafted by the Arcanum Tinker, in reward for destroying the statues threatening the city of Zhaikhal.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19754,   1,   33554433) /* Setup */
-     , (19754,   2,  150995206) /* MotionTable */
-     , (19754,   6,   67108990) /* PaletteBase */
-     , (19754,   7,  268436376) /* ClothingBase */
-     , (19754,   8,  100667446) /* Icon */
-     , (19754,  22,  872415349) /* PhysicsEffectTable */
-     , (19754,  36,  234881046) /* MutateFilter */;
+VALUES (19754,   1, 0x02000001) /* Setup */
+     , (19754,   2, 0x09000106) /* MotionTable */
+     , (19754,   6, 0x0400007E) /* PaletteBase */
+     , (19754,   7, 0x10000398) /* ClothingBase */
+     , (19754,   8, 0x06001036) /* Icon */
+     , (19754,  22, 0x34000075) /* PhysicsEffectTable */
+     , (19754,  36, 0x0E000016) /* MutateFilter */;

@@ -68,14 +68,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28054,   1, 'Lady Aerfalle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28054,   1,   33558819) /* Setup */
-     , (28054,   2,  150994945) /* MotionTable */
-     , (28054,   3,  536870914) /* SoundTable */
-     , (28054,   4,  805306368) /* CombatTable */
-     , (28054,   6,   67115272) /* PaletteBase */
-     , (28054,   7,  268436837) /* ClothingBase */
-     , (28054,   8,  100667942) /* Icon */
-     , (28054,  22,  872415272) /* PhysicsEffectTable */
+VALUES (28054,   1, 0x02001123) /* Setup */
+     , (28054,   2, 0x09000001) /* MotionTable */
+     , (28054,   3, 0x20000002) /* SoundTable */
+     , (28054,   4, 0x30000000) /* CombatTable */
+     , (28054,   6, 0x04001908) /* PaletteBase */
+     , (28054,   7, 0x10000565) /* ClothingBase */
+     , (28054,   8, 0x06001226) /* Icon */
+     , (28054,  22, 0x34000028) /* PhysicsEffectTable */
      , (28054,  35,         29) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -92,25 +92,25 @@ VALUES (28054,   1,  4850, 0, 0, 5000) /* MaxHealth */
      , (28054,   5,  1700, 0, 0, 2000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (28054,  1, 0, 3, 0, 363, 0, 1983.21355336759) /* Axe                 Specialized */
-     , (28054,  2, 0, 3, 0, 120, 0, 1983.21355336759) /* Bow                 Specialized */
-     , (28054,  3, 0, 3, 0, 120, 0, 1983.21355336759) /* Crossbow            Specialized */
-     , (28054,  4, 0, 3, 0, 363, 0, 1983.21355336759) /* Dagger              Specialized */
-     , (28054,  5, 0, 3, 0, 363, 0, 1983.21355336759) /* Mace                Specialized */
-     , (28054,  6, 0, 3, 0, 371, 0, 1983.21355336759) /* MeleeDefense        Specialized */
-     , (28054,  7, 0, 3, 0, 441, 0, 1983.21355336759) /* MissileDefense      Specialized */
-     , (28054,  9, 0, 3, 0, 363, 0, 1983.21355336759) /* Spear               Specialized */
-     , (28054, 10, 0, 3, 0, 363, 0, 1983.21355336759) /* Staff               Specialized */
-     , (28054, 11, 0, 3, 0, 363, 0, 1983.21355336759) /* Sword               Specialized */
-     , (28054, 13, 0, 3, 0, 363, 0, 1983.21355336759) /* UnarmedCombat       Specialized */
-     , (28054, 14, 0, 3, 0, 230, 0, 1983.21355336759) /* ArcaneLore          Specialized */
-     , (28054, 15, 0, 3, 0, 288, 0, 1983.21355336759) /* MagicDefense        Specialized */
-     , (28054, 16, 0, 3, 0, 300, 0, 1983.21355336759) /* ManaConversion      Specialized */
-     , (28054, 20, 0, 3, 0, 300, 0, 1983.21355336759) /* Deception           Specialized */
-     , (28054, 31, 0, 3, 0, 300, 0, 1983.21355336759) /* CreatureEnchantment Specialized */
-     , (28054, 32, 0, 3, 0, 300, 0, 1983.21355336759) /* ItemEnchantment     Specialized */
-     , (28054, 33, 0, 3, 0, 300, 0, 1983.21355336759) /* LifeMagic           Specialized */
-     , (28054, 34, 0, 3, 0, 300, 0, 1983.21355336759) /* WarMagic            Specialized */;
+VALUES (28054,  1, 0, 3, 0, 363, 0, 1983.2135533675946) /* Axe                 Specialized */
+     , (28054,  2, 0, 3, 0, 120, 0, 1983.2135533675946) /* Bow                 Specialized */
+     , (28054,  3, 0, 3, 0, 120, 0, 1983.2135533675946) /* Crossbow            Specialized */
+     , (28054,  4, 0, 3, 0, 363, 0, 1983.2135533675946) /* Dagger              Specialized */
+     , (28054,  5, 0, 3, 0, 363, 0, 1983.2135533675946) /* Mace                Specialized */
+     , (28054,  6, 0, 3, 0, 371, 0, 1983.2135533675946) /* MeleeDefense        Specialized */
+     , (28054,  7, 0, 3, 0, 441, 0, 1983.2135533675946) /* MissileDefense      Specialized */
+     , (28054,  9, 0, 3, 0, 363, 0, 1983.2135533675946) /* Spear               Specialized */
+     , (28054, 10, 0, 3, 0, 363, 0, 1983.2135533675946) /* Staff               Specialized */
+     , (28054, 11, 0, 3, 0, 363, 0, 1983.2135533675946) /* Sword               Specialized */
+     , (28054, 13, 0, 3, 0, 363, 0, 1983.2135533675946) /* UnarmedCombat       Specialized */
+     , (28054, 14, 0, 3, 0, 230, 0, 1983.2135533675946) /* ArcaneLore          Specialized */
+     , (28054, 15, 0, 3, 0, 288, 0, 1983.2135533675946) /* MagicDefense        Specialized */
+     , (28054, 16, 0, 3, 0, 300, 0, 1983.2135533675946) /* ManaConversion      Specialized */
+     , (28054, 20, 0, 3, 0, 300, 0, 1983.2135533675946) /* Deception           Specialized */
+     , (28054, 31, 0, 3, 0, 300, 0, 1983.2135533675946) /* CreatureEnchantment Specialized */
+     , (28054, 32, 0, 3, 0, 300, 0, 1983.2135533675946) /* ItemEnchantment     Specialized */
+     , (28054, 33, 0, 3, 0, 300, 0, 1983.2135533675946) /* LifeMagic           Specialized */
+     , (28054, 34, 0, 3, 0, 300, 0, 1983.2135533675946) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (28054,  0,  4,  0,    0,  440,  440,  440,  440,  440,  484,  484,  440,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -124,40 +124,40 @@ VALUES (28054,  0,  4,  0,    0,  440,  440,  440,  440,  440,  484,  484,  440,
      , (28054,  8,  4, 200,  0.4,  480,  480,  480,  480,  480,  528,  528,  480,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28054,  2053,      2)  /* Executor's Blessing */
+VALUES (28054,  3109,   2.05)  /* Liquefy Flesh */
      , (28054,  2121,   2.08)  /* Corrosive Flash */
-     , (28054,  2122,   2.08)  /* Disintegration */
-     , (28054,  2128,   2.08)  /* Ilservian's Flame */
-     , (28054,  2129,   2.08)  /* Sizzling Fury */
-     , (28054,  2149,      2)  /* Caustic Blessing */
-     , (28054,  2151,      2)  /* Blessing of the Blade Turner */
-     , (28054,  2153,      2)  /* Blessing of the Mace Turner */
-     , (28054,  2155,      2)  /* Icy Blessing */
-     , (28054,  2157,      2)  /* Fiery Blessing */
-     , (28054,  2159,      2)  /* Storm's Blessing */
-     , (28054,  2161,      2)  /* Blessing of the Arrow Turner */
      , (28054,  2281,      2)  /* Aura of Resistance */
-     , (28054,  2328,   2.01)  /* Vitality Siphon */
-     , (28054,  2329,   2.01)  /* Essence Void */
+     , (28054,  2153,      2)  /* Blessing of the Mace Turner */
      , (28054,  2370,   2.02)  /* Gift of Rotting Flesh */
      , (28054,  2371,   2.02)  /* Curse of Mortal Flesh */
      , (28054,  2372,   2.02)  /* Price of Immortality */
+     , (28054,  2053,      2)  /* Executor's Blessing */
+     , (28054,  2328,   2.01)  /* Vitality Siphon */
+     , (28054,  3091,   2.02)  /* Thin Skin */
      , (28054,  2697,   2.02)  /* Aerfalle's Touch */
+     , (28054,  3110,   2.05)  /* Sear Flesh */
+     , (28054,  2122,   2.08)  /* Disintegration */
+     , (28054,  3180,      2)  /* Eradicate All Magic Self */
+     , (28054,  2128,   2.08)  /* Ilservian's Flame */
      , (28054,  2698,   2.02)  /* Aerfalle's Embrace */
+     , (28054,  2129,   2.08)  /* Sizzling Fury */
      , (28054,  2705,   2.02)  /* Aerfalle's Enforcement */
      , (28054,  2706,   2.02)  /* Aerfalle's Gaze */
+     , (28054,  2329,   2.01)  /* Essence Void */
      , (28054,  2717,   2.08)  /* Acid Arc VII */
-     , (28054,  2745,   2.08)  /* Flame Arc VII */
      , (28054,  3043,   2.02)  /* Kiss of the Grave */
-     , (28054,  3056,   2.02)  /* Death's Vice */
-     , (28054,  3059,   2.02)  /* Enervation */
      , (28054,  3060,   2.02)  /* Poison Blood */
+     , (28054,  2149,      2)  /* Caustic Blessing */
+     , (28054,  2151,      2)  /* Blessing of the Blade Turner */
+     , (28054,  2155,      2)  /* Icy Blessing */
+     , (28054,  2157,      2)  /* Fiery Blessing */
+     , (28054,  2159,      2)  /* Storm's Blessing */
+     , (28054,  3056,   2.02)  /* Death's Vice */
+     , (28054,  2161,      2)  /* Blessing of the Arrow Turner */
+     , (28054,  3059,   2.02)  /* Enervation */
      , (28054,  3061,   2.02)  /* Taint Mana */
-     , (28054,  3067,   2.02)  /* Matron's Curse */
-     , (28054,  3091,   2.02)  /* Thin Skin */
-     , (28054,  3109,   2.05)  /* Liquefy Flesh */
-     , (28054,  3110,   2.05)  /* Sear Flesh */
-     , (28054,  3180,      2)  /* Eradicate All Magic Self */;
+     , (28054,  2745,   2.08)  /* Flame Arc VII */
+     , (28054,  3067,   2.02)  /* Matron's Curse */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (28054,  94) /* ATTACK_NOTIFICATION_EVENT */

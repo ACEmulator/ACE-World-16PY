@@ -25,12 +25,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5459,   1, 'Coldeve Festival Stone Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5459,   1,   33554867) /* Setup */
-     , (5459,   2,  150994947) /* MotionTable */
-     , (5459,   6,   67109370) /* PaletteBase */
-     , (5459,   7,  268435652) /* ClothingBase */
-     , (5459,   8,  100667499) /* Icon */;
+VALUES (5459,   1, 0x020001B3) /* Setup */
+     , (5459,   2, 0x09000003) /* MotionTable */
+     , (5459,   6, 0x040001FA) /* PaletteBase */
+     , (5459,   7, 0x100000C4) /* ClothingBase */
+     , (5459,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5459, 2, 3155623998, 169.1, 133.2, 173.9, 0.601815, 0, 0, -0.7986355) /* Destination */
-/* @teleloc 0xBC17003E [169.100000 133.200000 173.900000] 0.601815 0.000000 0.000000 -0.798636 */;
+VALUES (5459, 2, 0xBC17003E, 169.1, 133.2, 173.9, 0.601815, 0, 0, -0.798636) /* Destination */
+/* @teleloc 0xBC17003E [169.100006 133.199997 173.899994] 0.601815 0.000000 0.000000 -0.798635 */;

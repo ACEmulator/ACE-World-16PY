@@ -49,17 +49,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20007,   1, 'Superb Chilling Isparian Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20007,   1,   33556345) /* Setup */
-     , (20007,   3,  536870932) /* SoundTable */
-     , (20007,   6,   67111919) /* PaletteBase */
-     , (20007,   7,  268436385) /* ClothingBase */
-     , (20007,   8,  100672944) /* Icon */
-     , (20007,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20007,   1, 0x02000779) /* Setup */
+     , (20007,   3, 0x20000014) /* SoundTable */
+     , (20007,   6, 0x04000BEF) /* PaletteBase */
+     , (20007,   7, 0x100003A1) /* ClothingBase */
+     , (20007,   8, 0x060025B0) /* Icon */
+     , (20007,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20007,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20007,  1033,      2)  /* Cold Protection Self IV */
-     , (20007,  1375,      2)  /* Coordination Self III */
+VALUES (20007,  1375,      2)  /* Coordination Self III */
+     , (20007,  2566,      2)  /* Minor Heavy Weapon Aptitude */
      , (20007,  1591,      2)  /* Aura of Heart Seeker Self V */
      , (20007,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (20007,  2566,      2)  /* Minor Heavy Weapon Aptitude */;
+     , (20007,  1033,      2)  /* Cold Protection Self IV */;

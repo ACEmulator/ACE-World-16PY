@@ -25,12 +25,12 @@ VALUES (12049,   1, 'Rotted Golem Tooth') /* Name */
      , (12049,  33, 'TheTooth') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12049,   1,   33554817) /* Setup */
-     , (12049,   3,  536870932) /* SoundTable */
-     , (12049,   6,   67111919) /* PaletteBase */
-     , (12049,   7,  268435720) /* ClothingBase */
-     , (12049,   8,  100670078) /* Icon */
-     , (12049,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12049,   1, 0x02000181) /* Setup */
+     , (12049,   3, 0x20000014) /* SoundTable */
+     , (12049,   6, 0x04000BEF) /* PaletteBase */
+     , (12049,   7, 0x10000108) /* ClothingBase */
+     , (12049,   8, 0x06001A7E) /* Icon */
+     , (12049,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (12049, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'TheTooth', NULL, NULL, NULL);

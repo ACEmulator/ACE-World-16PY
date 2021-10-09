@@ -38,11 +38,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15880,   1, 'Bronze Long Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15880,   1,   33554533) /* Setup */
-     , (15880,   3,  536870932) /* SoundTable */
-     , (15880,   6,   67111919) /* PaletteBase */
-     , (15880,   7,  268435769) /* ClothingBase */
-     , (15880,   8,  100669025) /* Icon */
-     , (15880,  22,  872415275) /* PhysicsEffectTable */
-     , (15880,  36,  234881044) /* MutateFilter */
-     , (15880,  46,  939524101) /* TsysMutationFilter */;
+VALUES (15880,   1, 0x02000065) /* Setup */
+     , (15880,   3, 0x20000014) /* SoundTable */
+     , (15880,   6, 0x04000BEF) /* PaletteBase */
+     , (15880,   7, 0x10000139) /* ClothingBase */
+     , (15880,   8, 0x06001661) /* Icon */
+     , (15880,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (15880,  36, 0x0E000014) /* MutateFilter */
+     , (15880,  46, 0x38000005) /* TsysMutationFilter */;

@@ -38,7 +38,7 @@ VALUES (27361,  22, True ) /* Inscribable */
      , (27361,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27361,   5, -0.033333) /* ManaRate */
+VALUES (27361,   5,  -0.033) /* ManaRate */
      , (27361,  21,    0.95) /* WeaponLength */
      , (27361,  22,     0.5) /* DamageVariance */
      , (27361,  29,    1.08) /* WeaponDefense */
@@ -52,12 +52,12 @@ VALUES (27361,   1, 'Palenqual''s Ukira of the Vortex') /* Name */
      , (27361,  16, 'An ukira fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27361,   1,   33558666) /* Setup */
-     , (27361,   3,  536870932) /* SoundTable */
-     , (27361,   6,   67113336) /* PaletteBase */
-     , (27361,   7,  268436253) /* ClothingBase */
-     , (27361,   8,  100676356) /* Icon */
-     , (27361,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27361,   1, 0x0200108A) /* Setup */
+     , (27361,   3, 0x20000014) /* SoundTable */
+     , (27361,   6, 0x04001178) /* PaletteBase */
+     , (27361,   7, 0x1000031D) /* ClothingBase */
+     , (27361,   8, 0x06003304) /* Icon */
+     , (27361,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27361,  2438,      2)  /* Lesser Rockslide */
@@ -65,7 +65,7 @@ VALUES (27361,  2438,      2)  /* Lesser Rockslide */
      , (27361,  2444,      2)  /* Lesser Strength of Earth */
      , (27361,  2447,      2)  /* Lesser Growth */
      , (27361,  2450,      2)  /* Lesser Hunter's Acumen */
+     , (27361,  3226,      2)  /* Cascade */
      , (27361,  2453,      2)  /* Lesser Thorns */
      , (27361,  2472,      2)  /* Still Water */
-     , (27361,  2475,      2)  /* Torrent */
-     , (27361,  3226,      2)  /* Cascade */;
+     , (27361,  2475,      2)  /* Torrent */;

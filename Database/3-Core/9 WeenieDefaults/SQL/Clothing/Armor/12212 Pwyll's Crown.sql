@@ -29,7 +29,7 @@ VALUES (12212,  22, True ) /* Inscribable */
      , (12212,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12212,   5, -0.0333) /* ManaRate */
+VALUES (12212,   5,  -0.033) /* ManaRate */
      , (12212,  12,    0.66) /* Shade */
      , (12212,  13,     1.4) /* ArmorModVsSlash */
      , (12212,  14,     1.2) /* ArmorModVsPierce */
@@ -47,16 +47,16 @@ VALUES (12212,   1, 'Pwyll''s Crown') /* Name */
      , (12212,  19, 'Aluvian') /* ItemHeritageGroupRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12212,   1,   33557384) /* Setup */
-     , (12212,   3,  536870932) /* SoundTable */
-     , (12212,   6,   67108990) /* PaletteBase */
-     , (12212,   7,  268436287) /* ClothingBase */
-     , (12212,   8,  100672216) /* Icon */
-     , (12212,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12212,   1, 0x02000B88) /* Setup */
+     , (12212,   3, 0x20000014) /* SoundTable */
+     , (12212,   6, 0x0400007E) /* PaletteBase */
+     , (12212,   7, 0x1000033F) /* ClothingBase */
+     , (12212,   8, 0x060022D8) /* Icon */
+     , (12212,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12212,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12212,   248,      2)  /* Invulnerability Self V */
-     , (12212,   326,      2)  /* Finesse Weapon Mastery Self V */
+VALUES (12212,   326,      2)  /* Finesse Weapon Mastery Self V */
+     , (12212,  1311,      2)  /* Armor Self V */
      , (12212,   680,      2)  /* Arcane Enlightenment Self III */
-     , (12212,  1311,      2)  /* Armor Self V */;
+     , (12212,   248,      2)  /* Invulnerability Self V */;

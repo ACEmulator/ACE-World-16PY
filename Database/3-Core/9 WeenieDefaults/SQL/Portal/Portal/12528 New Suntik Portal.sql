@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12528,   1, 'New Suntik Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12528,   1,   33554867) /* Setup */
-     , (12528,   2,  150994947) /* MotionTable */
-     , (12528,   8,  100667499) /* Icon */;
+VALUES (12528,   1, 0x020001B3) /* Setup */
+     , (12528,   2, 0x09000003) /* MotionTable */
+     , (12528,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12528, 2, 2224422960, 135.243, 183.293, 124.005, 0.03256206, 0, 0, -0.9994697) /* Destination */
-/* @teleloc 0x84960030 [135.243000 183.293000 124.005000] 0.032562 0.000000 0.000000 -0.999470 */;
+VALUES (12528, 2, 0x84960030, 135.243, 183.293, 124.005, 0.032562, 0, 0, -0.99947) /* Destination */
+/* @teleloc 0x84960030 [135.242996 183.292999 124.004997] 0.032562 0.000000 0.000000 -0.999470 */;

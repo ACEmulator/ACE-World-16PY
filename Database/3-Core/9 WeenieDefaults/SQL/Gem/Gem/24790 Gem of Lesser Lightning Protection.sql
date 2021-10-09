@@ -35,11 +35,11 @@ VALUES (24790,   1, 'Gem of Lesser Lightning Protection') /* Name */
      , (24790,  20, 'Gems of Lesser Lightning Protection') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24790,   1,   33554809) /* Setup */
-     , (24790,   3,  536870932) /* SoundTable */
-     , (24790,   6,   67111919) /* PaletteBase */
-     , (24790,   7,  268435723) /* ClothingBase */
-     , (24790,   8,  100674447) /* Icon */
-     , (24790,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24790,   1, 0x02000179) /* Setup */
+     , (24790,   3, 0x20000014) /* SoundTable */
+     , (24790,   6, 0x04000BEF) /* PaletteBase */
+     , (24790,   7, 0x1000010B) /* ClothingBase */
+     , (24790,   8, 0x06002B8F) /* Icon */
+     , (24790,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24790,  28,       1074) /* Spell - Lightning Protection Other III */
-     , (24790,  36,  234881046) /* MutateFilter */;
+     , (24790,  36, 0x0E000016) /* MutateFilter */;

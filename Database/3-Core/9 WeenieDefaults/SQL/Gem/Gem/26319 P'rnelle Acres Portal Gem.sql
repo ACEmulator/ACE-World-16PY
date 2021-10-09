@@ -36,11 +36,11 @@ VALUES (26319,   1, 'P''rnelle Acres Portal Gem') /* Name */
      , (26319,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26319,   1,   33556769) /* Setup */
-     , (26319,   3,  536870932) /* SoundTable */
-     , (26319,   6,   67111919) /* PaletteBase */
-     , (26319,   7,  268435723) /* ClothingBase */
-     , (26319,   8,  100675760) /* Icon */
-     , (26319,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26319,   1, 0x02000921) /* Setup */
+     , (26319,   3, 0x20000014) /* SoundTable */
+     , (26319,   6, 0x04000BEF) /* PaletteBase */
+     , (26319,   7, 0x1000010B) /* ClothingBase */
+     , (26319,   8, 0x060030B0) /* Icon */
+     , (26319,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26319,  28,        157) /* Spell - Summon Primary Portal I */
      , (26319,  31,      15183) /* LinkedPortalOne - P'rnelle Acres Portal */;

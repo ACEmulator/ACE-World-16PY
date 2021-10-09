@@ -29,7 +29,7 @@ VALUES (9376,   1, 'Wrapped Bundle of Greater Frost Arrowheads') /* Name */
      , (9376,  20, 'Wrapped Bundles of Greater Frost Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9376,   1,   33557030) /* Setup */
-     , (9376,   3,  536870932) /* SoundTable */
-     , (9376,   8,  100671605) /* Icon */
-     , (9376,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9376,   1, 0x02000A26) /* Setup */
+     , (9376,   3, 0x20000014) /* SoundTable */
+     , (9376,   8, 0x06002075) /* Icon */
+     , (9376,  22, 0x3400002B) /* PhysicsEffectTable */;

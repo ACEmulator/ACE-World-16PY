@@ -65,12 +65,12 @@ VALUES (21545,   1, 'Door') /* Name */
      , (21545,  15, 'A locked door, impossible to pick.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21545,   1,   33557970) /* Setup */
-     , (21545,   2,  150995221) /* MotionTable */
-     , (21545,   3,  536871001) /* SoundTable */
-     , (21545,   4,  805306372) /* CombatTable */
-     , (21545,   8,  100673480) /* Icon */
-     , (21545,  22,  872415339) /* PhysicsEffectTable */;
+VALUES (21545,   1, 0x02000DD2) /* Setup */
+     , (21545,   2, 0x09000115) /* MotionTable */
+     , (21545,   3, 0x20000059) /* SoundTable */
+     , (21545,   4, 0x30000004) /* CombatTable */
+     , (21545,   8, 0x060027C8) /* Icon */
+     , (21545,  22, 0x3400006B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (21545,   1,   1, 0, 0) /* Strength */
@@ -86,9 +86,9 @@ VALUES (21545,   1,  7999, 0, 0, 8000) /* MaxHealth */
      , (21545,   5,     0, 0, 0, 1) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (21545,  6, 0, 2, 0,   1, 0, 1313.93200882679) /* MeleeDefense        Trained */
-     , (21545,  7, 0, 2, 0,   1, 0, 1313.93200882679) /* MissileDefense      Trained */
-     , (21545, 15, 0, 3, 0, 999, 0, 1313.93200882679) /* MagicDefense        Specialized */;
+VALUES (21545,  6, 0, 2, 0,   1, 0, 1313.9320088267852) /* MeleeDefense        Trained */
+     , (21545,  7, 0, 2, 0,   1, 0, 1313.9320088267852) /* MissileDefense      Trained */
+     , (21545, 15, 0, 3, 0, 999, 0, 1313.9320088267852) /* MagicDefense        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (21545,  0,  4,  0,    0,  200,  200,  200,  200,  200,  200,  200,  200,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

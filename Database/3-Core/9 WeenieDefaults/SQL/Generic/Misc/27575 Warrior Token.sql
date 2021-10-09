@@ -27,9 +27,9 @@ VALUES (27575,   1, 'Warrior Token') /* Name */
      , (27575,  15, 'A token of your completion of the Warrior Quest.  Please give this back to Behdo in order for him to change your title to Warrior Vanquisher.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27575,   1,   33554817) /* Setup */
-     , (27575,   3,  536870932) /* SoundTable */
-     , (27575,   6,   67111919) /* PaletteBase */
-     , (27575,   7,  268435832) /* ClothingBase */
-     , (27575,   8,  100672061) /* Icon */
-     , (27575,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27575,   1, 0x02000181) /* Setup */
+     , (27575,   3, 0x20000014) /* SoundTable */
+     , (27575,   6, 0x04000BEF) /* PaletteBase */
+     , (27575,   7, 0x10000178) /* ClothingBase */
+     , (27575,   8, 0x0600223D) /* Icon */
+     , (27575,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -25,7 +25,7 @@ VALUES (5492,   1, 'Scroll of Flame Blast III') /* Name */
      , (5492,  16, 'When learned, this spell shoots three bolts of flame outward from the caster. Each bolt does 6-10 points of fire damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5492,   1,   33554826) /* Setup */
-     , (5492,   8,  100677022) /* Icon */
-     , (5492,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5492,   1, 0x0200018A) /* Setup */
+     , (5492,   8, 0x0600359E) /* Icon */
+     , (5492,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5492,  28,        115) /* Spell - Flame Blast III */;

@@ -29,6 +29,6 @@ VALUES (28909,   1, 'Lightweight Arrowshaft') /* Name */
      , (28909,  20, 'Lightweight Arrowshafts') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28909,   1,   33557505) /* Setup */
-     , (28909,   8,  100670015) /* Icon */
-     , (28909,  50,  100677049) /* IconOverlay */;
+VALUES (28909,   1, 0x02000C01) /* Setup */
+     , (28909,   8, 0x06001A3F) /* Icon */
+     , (28909,  50, 0x060035B9) /* IconOverlay */;

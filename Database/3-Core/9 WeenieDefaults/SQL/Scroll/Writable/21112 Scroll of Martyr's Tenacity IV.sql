@@ -24,7 +24,7 @@ VALUES (21112,   1, 'Scroll of Martyr''s Tenacity IV') /* Name */
      , (21112,  15, 'When learned, this spell drains one-quarter of the casters Stamina into a bolt of energy which shoots at the target.  The bolt does 95% of the amount drained.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21112,   1,   33554826) /* Setup */
-     , (21112,   8,  100676936) /* Icon */
-     , (21112,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21112,   1, 0x0200018A) /* Setup */
+     , (21112,   8, 0x06003548) /* Icon */
+     , (21112,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21112,  28,       2770) /* Spell - Martyr's Tenacity IV */;

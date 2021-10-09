@@ -24,7 +24,7 @@ VALUES (20259,   1, 'Scroll of Extinguish All Magic Other') /* Name */
      , (20259,  15, 'When learned, this spell dispels 1-3 negative enchantments of level 2 or lower from the target.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20259,   1,   33554826) /* Setup */
-     , (20259,   8,  100669877) /* Icon */
-     , (20259,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20259,   1, 0x0200018A) /* Setup */
+     , (20259,   8, 0x060019B5) /* Icon */
+     , (20259,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20259,  28,       1855) /* Spell - Extinguish All Magic Other */;

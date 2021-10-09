@@ -26,11 +26,11 @@ VALUES (0x75462005, 15755, 0x54620119, 33.5, -10, 0.005, 0.707107, 0, 0, -0.7071
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75462006, 15790, 0x54620119, 29.7525, -6.79775, 0.079, -0.782665, 0, 0, -0.622443,  True, '2005-02-09 10:00:00'); /* A Hastily Scrawled Note */
-/* @teleloc 0x54620119 [29.752500 -6.797750 0.079000] -0.782665 0.000000 0.000000 -0.622443 */
+/* @teleloc 0x54620119 [29.752501 -6.797750 0.079000] -0.782665 0.000000 0.000000 -0.622443 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75462007, 15759, 0x5462011A, 28.8947, -20.6798, 0.005, -0.782665, 0, 0, -0.622443, False, '2005-02-09 10:00:00'); /* Linkable Item Generator */
-/* @teleloc 0x5462011A [28.894700 -20.679800 0.005000] -0.782665 0.000000 0.000000 -0.622443 */
+/* @teleloc 0x5462011A [28.894699 -20.679800 0.005000] -0.782665 0.000000 0.000000 -0.622443 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x75462007, 0x75462000, '2005-02-09 10:00:00') /* A Hastily Scrawled Note (15793) */

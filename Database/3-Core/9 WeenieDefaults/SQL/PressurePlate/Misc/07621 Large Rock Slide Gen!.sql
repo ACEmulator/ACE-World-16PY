@@ -27,13 +27,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7621,   1, 'Large Rock Slide Gen!') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7621,   1,   33555536) /* Setup */
-     , (7621,   2,  150994977) /* MotionTable */
-     , (7621,   8,  100668114) /* Icon */
-     , (7621,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7621,   1, 0x02000450) /* Setup */
+     , (7621,   2, 0x09000021) /* MotionTable */
+     , (7621,   8, 0x060012D2) /* Icon */
+     , (7621,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7621,  16,          0) /* ActivationTarget */;
+VALUES (7621,  16, 0x00000000) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7621, -1, 7619, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 0, 0.7071068, 0, 0, -0.7071068) /* Generate Granite Golem (7619) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (7621, -1, 7619, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 0, 0.707107, 0, 0, -0.707107) /* Generate Granite Golem (7619) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

@@ -54,15 +54,15 @@ VALUES (24198,   1, 'Weeping Axe') /* Name */
      , (24198,  15, 'An axe infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24198,   1,   33558291) /* Setup */
-     , (24198,   3,  536870932) /* SoundTable */
-     , (24198,   8,  100674263) /* Icon */
-     , (24198,  22,  872415275) /* PhysicsEffectTable */
-     , (24198,  36,  234881044) /* MutateFilter */;
+VALUES (24198,   1, 0x02000F13) /* Setup */
+     , (24198,   3, 0x20000014) /* SoundTable */
+     , (24198,   8, 0x06002AD7) /* Icon */
+     , (24198,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24198,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24198,  2686,      2)  /* Moderate Light Weapon Aptitude */
-     , (24198,  2963,      2)  /* Aura of Hunter's Cunning */
+VALUES (24198,  2963,      2)  /* Aura of Hunter's Cunning */
      , (24198,  2964,      2)  /* Aura of Hunter's Mark */
      , (24198,  2966,      2)  /* Aura of Murderous Thirst */
-     , (24198,  2967,      2)  /* Aura of The Speedy Hunter */;
+     , (24198,  2967,      2)  /* Aura of The Speedy Hunter */
+     , (24198,  2686,      2)  /* Moderate Light Weapon Aptitude */;

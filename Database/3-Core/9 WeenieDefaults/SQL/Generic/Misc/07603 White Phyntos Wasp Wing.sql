@@ -26,9 +26,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7603,   1, 'White Phyntos Wasp Wing') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7603,   1,   33558524) /* Setup */
-     , (7603,   3,  536870932) /* SoundTable */
-     , (7603,   6,   67109312) /* PaletteBase */
-     , (7603,   7,  268435546) /* ClothingBase */
-     , (7603,   8,  100670755) /* Icon */
-     , (7603,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7603,   1, 0x02000FFC) /* Setup */
+     , (7603,   3, 0x20000014) /* SoundTable */
+     , (7603,   6, 0x040001C0) /* PaletteBase */
+     , (7603,   7, 0x1000005A) /* ClothingBase */
+     , (7603,   8, 0x06001D23) /* Icon */
+     , (7603,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -28,10 +28,10 @@ VALUES (11675,   1, 'Advanced Alchemy Skill Puzzle Piece') /* Name */
      , (11675,  16, 'An Advanced Alchemy skill puzzle piece.  Combine it with a Skill Puzzle Base Piece.  This item requires Alchemy skill to assemble.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11675,   1,   33554669) /* Setup */
-     , (11675,   3,  536870932) /* SoundTable */
-     , (11675,   6,   67111928) /* PaletteBase */
-     , (11675,   7,  268436178) /* ClothingBase */
-     , (11675,   8,  100671705) /* Icon */
-     , (11675,  22,  872415275) /* PhysicsEffectTable */
-     , (11675,  36,  234881046) /* MutateFilter */;
+VALUES (11675,   1, 0x020000ED) /* Setup */
+     , (11675,   3, 0x20000014) /* SoundTable */
+     , (11675,   6, 0x04000BF8) /* PaletteBase */
+     , (11675,   7, 0x100002D2) /* ClothingBase */
+     , (11675,   8, 0x060020D9) /* Icon */
+     , (11675,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11675,  36, 0x0E000016) /* MutateFilter */;

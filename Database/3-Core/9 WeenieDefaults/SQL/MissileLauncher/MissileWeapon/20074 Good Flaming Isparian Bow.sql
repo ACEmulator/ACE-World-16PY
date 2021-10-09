@@ -19,7 +19,7 @@ VALUES (20074,   1,        256) /* ItemType - MissileWeapon */
      , (20074,  48,          2) /* WeaponSkill - Bow */
      , (20074,  49,         40) /* WeaponTime */
      , (20074,  50,          1) /* AmmoType - Arrow */
-     , (20074,  51,          2) /* CombatUse - Missle */
+     , (20074,  51,          2) /* CombatUse - Missile */
      , (20074,  52,          2) /* ParentLocation - LeftHand */
      , (20074,  53,          3) /* PlacementPosition - LeftHand */
      , (20074,  60,        175) /* WeaponRange */
@@ -50,17 +50,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20074,   1, 'Good Flaming Isparian Bow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20074,   1,   33557759) /* Setup */
-     , (20074,   3,  536870932) /* SoundTable */
-     , (20074,   6,   67111919) /* PaletteBase */
-     , (20074,   7,  268436394) /* ClothingBase */
-     , (20074,   8,  100673016) /* Icon */
-     , (20074,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20074,   1, 0x02000CFF) /* Setup */
+     , (20074,   3, 0x20000014) /* SoundTable */
+     , (20074,   6, 0x04000BEF) /* PaletteBase */
+     , (20074,   7, 0x100003AA) /* ClothingBase */
+     , (20074,   8, 0x060025F8) /* Icon */
+     , (20074,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20074,  37,          2) /* ItemSkillLimit - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20074,  1092,      2)  /* Fire Protection Self IV */
-     , (20074,  1329,      2)  /* Strength Self III */
-     , (20074,  1603,      2)  /* Aura of Defender Self IV */
+VALUES (20074,  1603,      2)  /* Aura of Defender Self IV */
      , (20074,  1614,      2)  /* Aura of Blood Drinker Self IV */
-     , (20074,  2676,      2)  /* Feeble Missile Weapon Aptitude */;
+     , (20074,  1092,      2)  /* Fire Protection Self IV */
+     , (20074,  2676,      2)  /* Feeble Missile Weapon Aptitude */
+     , (20074,  1329,      2)  /* Strength Self III */;

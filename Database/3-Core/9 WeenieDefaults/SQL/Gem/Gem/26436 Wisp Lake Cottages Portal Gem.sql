@@ -36,11 +36,11 @@ VALUES (26436,   1, 'Wisp Lake Cottages Portal Gem') /* Name */
      , (26436,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26436,   1,   33556769) /* Setup */
-     , (26436,   3,  536870932) /* SoundTable */
-     , (26436,   6,   67111919) /* PaletteBase */
-     , (26436,   7,  268435723) /* ClothingBase */
-     , (26436,   8,  100675760) /* Icon */
-     , (26436,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26436,   1, 0x02000921) /* Setup */
+     , (26436,   3, 0x20000014) /* SoundTable */
+     , (26436,   6, 0x04000BEF) /* PaletteBase */
+     , (26436,   7, 0x1000010B) /* ClothingBase */
+     , (26436,   8, 0x060030B0) /* Icon */
+     , (26436,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26436,  28,        157) /* Spell - Summon Primary Portal I */
      , (26436,  31,      13141) /* LinkedPortalOne - Wisp Lake Cottages Portal */;

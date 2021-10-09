@@ -46,14 +46,14 @@ VALUES (27841,   1, 'Bound Singularity Scepter of War Magic') /* Name */
      , (27841,  15, 'A scepter imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27841,   1,   33558795) /* Setup */
-     , (27841,   6,   67111919) /* PaletteBase */
-     , (27841,   7,  268435755) /* ClothingBase */
-     , (27841,   8,  100676590) /* Icon */
-     , (27841,  22,  872415275) /* PhysicsEffectTable */
-     , (27841,  27, 1073742049) /* UseUserAnimation - UseMagicWand */;
+VALUES (27841,   1, 0x0200110B) /* Setup */
+     , (27841,   6, 0x04000BEF) /* PaletteBase */
+     , (27841,   7, 0x1000012B) /* ClothingBase */
+     , (27841,   8, 0x060033EE) /* Icon */
+     , (27841,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27841,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27841,   211,      2)  /* Mana Renewal Other VI */
-     , (27841,   664,      2)  /* Mana Conversion Mastery Other VI */
-     , (27841,  1432,      2)  /* Focus Other VI */;
+VALUES (27841,  1432,      2)  /* Focus Other VI */
+     , (27841,   211,      2)  /* Mana Renewal Other VI */
+     , (27841,   664,      2)  /* Mana Conversion Mastery Other VI */;

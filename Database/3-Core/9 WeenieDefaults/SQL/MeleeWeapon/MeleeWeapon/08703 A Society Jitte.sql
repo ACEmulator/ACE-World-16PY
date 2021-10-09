@@ -42,15 +42,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8703,   1, 'A Society Jitte') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8703,   1,   33554740) /* Setup */
-     , (8703,   3,  536870932) /* SoundTable */
-     , (8703,   6,   67111919) /* PaletteBase */
-     , (8703,   7,  268435786) /* ClothingBase */
-     , (8703,   8,  100668895) /* Icon */
-     , (8703,  22,  872415275) /* PhysicsEffectTable */
-     , (8703,  36,  234881044) /* MutateFilter */
-     , (8703,  50,  100675463) /* IconOverlay */;
+VALUES (8703,   1, 0x02000134) /* Setup */
+     , (8703,   3, 0x20000014) /* SoundTable */
+     , (8703,   6, 0x04000BEF) /* PaletteBase */
+     , (8703,   7, 0x1000014A) /* ClothingBase */
+     , (8703,   8, 0x060015DF) /* Icon */
+     , (8703,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8703,  36, 0x0E000014) /* MutateFilter */
+     , (8703,  50, 0x06002F87) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8703,   341,      2)  /* Light Weapon Mastery Other II */
-     , (8703,  1612,      2)  /* Aura of Blood Drinker Self II */;
+VALUES (8703,  1612,      2)  /* Aura of Blood Drinker Self II */
+     , (8703,   341,      2)  /* Light Weapon Mastery Other II */;

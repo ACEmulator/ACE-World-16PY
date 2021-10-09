@@ -22,5 +22,5 @@ VALUES (15247,   1, 'Palm-of-Stone Villas') /* Name */
      , (15247,  16, 'Welcome to Palm-of-Stone Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15247,   1,   33557463) /* Setup */
-     , (15247,   8,  100668115) /* Icon */;
+VALUES (15247,   1, 0x02000BD7) /* Setup */
+     , (15247,   8, 0x060012D3) /* Icon */;

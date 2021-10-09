@@ -27,7 +27,7 @@ VALUES (4760,   1, 'Dough') /* Name */
      , (4760,  20, 'Batches of Dough') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4760,   1,   33555968) /* Setup */
-     , (4760,   3,  536870932) /* SoundTable */
-     , (4760,   8,  100669954) /* Icon */
-     , (4760,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4760,   1, 0x02000600) /* Setup */
+     , (4760,   3, 0x20000014) /* SoundTable */
+     , (4760,   8, 0x06001A02) /* Icon */
+     , (4760,  22, 0x3400002B) /* PhysicsEffectTable */;

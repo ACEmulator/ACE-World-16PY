@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23549,   1, 'Crystal Shard Sentinel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23549,   1,   33556226) /* Setup */
-     , (23549,   2,  150995097) /* MotionTable */
-     , (23549,   3,  536871001) /* SoundTable */
-     , (23549,   4,  805306407) /* CombatTable */
-     , (23549,   6,   67111919) /* PaletteBase */
-     , (23549,   7,  268435869) /* ClothingBase */
-     , (23549,   8,  100670395) /* Icon */
-     , (23549,  22,  872415348) /* PhysicsEffectTable */
+VALUES (23549,   1, 0x02000702) /* Setup */
+     , (23549,   2, 0x09000099) /* MotionTable */
+     , (23549,   3, 0x20000059) /* SoundTable */
+     , (23549,   4, 0x30000027) /* CombatTable */
+     , (23549,   6, 0x04000BEF) /* PaletteBase */
+     , (23549,   7, 0x1000019D) /* ClothingBase */
+     , (23549,   8, 0x06001BBB) /* Icon */
+     , (23549,  22, 0x34000074) /* PhysicsEffectTable */
      , (23549,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -90,13 +90,13 @@ VALUES (23549,   1,    90, 0, 0, 200) /* MaxHealth */
      , (23549,   5,   150, 0, 0, 500) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (23549,  6, 0, 3, 0, 250, 0, 1455.61093113788) /* MeleeDefense        Specialized */
-     , (23549,  7, 0, 3, 0, 550, 0, 1455.61093113788) /* MissileDefense      Specialized */
-     , (23549, 13, 0, 3, 0, 350, 0, 1455.61093113788) /* UnarmedCombat       Specialized */
-     , (23549, 15, 0, 3, 0, 400, 0, 1455.61093113788) /* MagicDefense        Specialized */
-     , (23549, 20, 0, 3, 0, 200, 0, 1455.61093113788) /* Deception           Specialized */
-     , (23549, 24, 0, 3, 0, 100, 0, 1455.61093113788) /* Run                 Specialized */
-     , (23549, 34, 0, 3, 0, 144, 0, 1455.61093113788) /* WarMagic            Specialized */;
+VALUES (23549,  6, 0, 3, 0, 250, 0, 1455.6109311378782) /* MeleeDefense        Specialized */
+     , (23549,  7, 0, 3, 0, 550, 0, 1455.6109311378782) /* MissileDefense      Specialized */
+     , (23549, 13, 0, 3, 0, 350, 0, 1455.6109311378782) /* UnarmedCombat       Specialized */
+     , (23549, 15, 0, 3, 0, 400, 0, 1455.6109311378782) /* MagicDefense        Specialized */
+     , (23549, 20, 0, 3, 0, 200, 0, 1455.6109311378782) /* Deception           Specialized */
+     , (23549, 24, 0, 3, 0, 100, 0, 1455.6109311378782) /* Run                 Specialized */
+     , (23549, 34, 0, 3, 0, 144, 0, 1455.6109311378782) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (23549,  0,  4, 25, 0.75,  250,  250,  250,  250,  298, 25000,  695,  250,    0, 1,  0.5,  0.2,    0,  0.5,  0.2,    0,    0,    0,    0,    0,    0,    0) /* Head */
@@ -108,14 +108,14 @@ VALUES (23549,  0,  4, 25, 0.75,  250,  250,  250,  250,  298, 25000,  695,  250
      , (23549, 17,  4, 25, 0.75,  250,  250,  250,  250,  298, 25000,  695,  250,    0, 2,    0,    0,    0,    0,    0,    0,  0.1,  0.1,    0,  0.1,  0.1,    0) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23549,  2121,  2.125)  /* Corrosive Flash */
+VALUES (23549,  2137,  2.125)  /* Sudden Frost */
      , (23549,  2129,  2.125)  /* Sizzling Fury */
-     , (23549,  2137,  2.125)  /* Sudden Frost */
-     , (23549,  2141,  2.125)  /* Lhen's Flare */
+     , (23549,  2121,  2.125)  /* Corrosive Flash */
      , (23549,  2717,  2.125)  /* Acid Arc VII */
      , (23549,  2731,  2.125)  /* Frost Arc VII */
-     , (23549,  2737,  2.125)  /* Lightning Arc VI */
-     , (23549,  2745,  2.125)  /* Flame Arc VII */;
+     , (23549,  2141,  2.125)  /* Lhen's Flare */
+     , (23549,  2745,  2.125)  /* Flame Arc VII */
+     , (23549,  2737,  2.125)  /* Lightning Arc VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (23549,  94) /* ATTACK_NOTIFICATION_EVENT */

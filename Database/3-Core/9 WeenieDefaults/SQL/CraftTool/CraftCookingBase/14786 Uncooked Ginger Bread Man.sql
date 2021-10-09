@@ -28,9 +28,9 @@ VALUES (14786,   1, 'Uncooked Ginger Bread Man') /* Name */
      , (14786,  20, 'Uncooked Ginger Bread Men') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14786,   1,   33555968) /* Setup */
-     , (14786,   3,  536870932) /* SoundTable */
-     , (14786,   6,   67111928) /* PaletteBase */
-     , (14786,   7,  268436334) /* ClothingBase */
-     , (14786,   8,  100672540) /* Icon */
-     , (14786,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14786,   1, 0x02000600) /* Setup */
+     , (14786,   3, 0x20000014) /* SoundTable */
+     , (14786,   6, 0x04000BF8) /* PaletteBase */
+     , (14786,   7, 0x1000036E) /* ClothingBase */
+     , (14786,   8, 0x0600241C) /* Icon */
+     , (14786,  22, 0x3400002B) /* PhysicsEffectTable */;

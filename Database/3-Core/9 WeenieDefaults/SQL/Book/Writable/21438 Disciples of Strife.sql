@@ -22,11 +22,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21438,   1, 'Disciples of Strife') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21438,   1,   33556929) /* Setup */
-     , (21438,   3,  536870932) /* SoundTable */
-     , (21438,   7,  268436456) /* ClothingBase */
-     , (21438,   8,  100673473) /* Icon */
-     , (21438,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21438,   1, 0x020009C1) /* Setup */
+     , (21438,   3, 0x20000014) /* SoundTable */
+     , (21438,   7, 0x100003E8) /* ClothingBase */
+     , (21438,   8, 0x060027C1) /* Icon */
+     , (21438,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (21438, 11, 1000);

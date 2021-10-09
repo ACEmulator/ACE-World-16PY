@@ -27,10 +27,10 @@ VALUES (4955,   1, 'Stone Cathedral') /* Name */
      , (4955,  16, 'This is a good adventure for someone who is newly arrived in Dereth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4955,   1,   33555922) /* Setup */
-     , (4955,   2,  150994947) /* MotionTable */
-     , (4955,   8,  100667499) /* Icon */;
+VALUES (4955,   1, 0x020005D2) /* Setup */
+     , (4955,   2, 0x09000003) /* MotionTable */
+     , (4955,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4955, 2, 22282622, 30, -10, -6, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0x0154017E [30.000000 -10.000000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */;
+VALUES (4955, 2, 0x0154017E, 30, -10, -6, 1, 0, 0, -0) /* Destination */
+/* @teleloc 0x0154017E [30.000000 -10.000000 -6.000000] 1.000000 0.000000 0.000000 -0.000000 */;

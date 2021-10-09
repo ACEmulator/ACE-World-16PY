@@ -22,5 +22,5 @@ VALUES (13157,   1, 'Far Claw Villas') /* Name */
      , (13157,  16, 'Welcome to Far Claw Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13157,   1,   33557463) /* Setup */
-     , (13157,   8,  100668115) /* Icon */;
+VALUES (13157,   1, 0x02000BD7) /* Setup */
+     , (13157,   8, 0x060012D3) /* Icon */;

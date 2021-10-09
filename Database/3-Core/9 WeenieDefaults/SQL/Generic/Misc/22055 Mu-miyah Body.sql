@@ -27,9 +27,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22055,   1, 'Mu-miyah Body') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22055,   1,   33558017) /* Setup */
-     , (22055,   3,  536870932) /* SoundTable */
-     , (22055,   6,   67108990) /* PaletteBase */
-     , (22055,   7,  268436471) /* ClothingBase */
-     , (22055,   8,  100673682) /* Icon */
-     , (22055,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22055,   1, 0x02000E01) /* Setup */
+     , (22055,   3, 0x20000014) /* SoundTable */
+     , (22055,   6, 0x0400007E) /* PaletteBase */
+     , (22055,   7, 0x100003F7) /* ClothingBase */
+     , (22055,   8, 0x06002892) /* Icon */
+     , (22055,  22, 0x3400002B) /* PhysicsEffectTable */;

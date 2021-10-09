@@ -30,9 +30,9 @@ VALUES (14881,   1, 'Martinate Trove Key') /* Name */
      , (14881,  16, 'A key that shines with virindi energy. The energy is slightly skewed.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14881,   1,   33557000) /* Setup */
-     , (14881,   3,  536870932) /* SoundTable */
-     , (14881,   6,   67111346) /* PaletteBase */
-     , (14881,   7,  268436150) /* ClothingBase */
-     , (14881,   8,  100672605) /* Icon */
-     , (14881,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14881,   1, 0x02000A08) /* Setup */
+     , (14881,   3, 0x20000014) /* SoundTable */
+     , (14881,   6, 0x040009B2) /* PaletteBase */
+     , (14881,   7, 0x100002B6) /* ClothingBase */
+     , (14881,   8, 0x0600245D) /* Icon */
+     , (14881,  22, 0x3400002B) /* PhysicsEffectTable */;

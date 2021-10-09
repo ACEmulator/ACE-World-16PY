@@ -25,10 +25,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10732,   1, 'Director''s Chambers Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10732,   1,   33555926) /* Setup */
-     , (10732,   2,  150994947) /* MotionTable */
-     , (10732,   8,  100667499) /* Icon */;
+VALUES (10732,   1, 0x020005D6) /* Setup */
+     , (10732,   2, 0x09000003) /* MotionTable */
+     , (10732,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10732, 2, 43254017, 0, -70, 0, 0.7071068, 0, 0, -0.7071068) /* Destination */
+VALUES (10732, 2, 0x02940101, 0, -70, 0, 0.707107, 0, 0, -0.707107) /* Destination */
 /* @teleloc 0x02940101 [0.000000 -70.000000 0.000000] 0.707107 0.000000 0.000000 -0.707107 */;

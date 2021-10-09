@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19279,   1, 'Bronze Statue of a Sclavus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19279,   1,   33555608) /* Setup */
-     , (19279,   2,  150995186) /* MotionTable */
-     , (19279,   3,  536871052) /* SoundTable */
-     , (19279,   4,  805306393) /* CombatTable */
-     , (19279,   6,   67111936) /* PaletteBase */
-     , (19279,   7,  268435727) /* ClothingBase */
-     , (19279,   8,  100669120) /* Icon */
-     , (19279,  22,  872415349) /* PhysicsEffectTable */
+VALUES (19279,   1, 0x02000498) /* Setup */
+     , (19279,   2, 0x090000F2) /* MotionTable */
+     , (19279,   3, 0x2000008C) /* SoundTable */
+     , (19279,   4, 0x30000019) /* CombatTable */
+     , (19279,   6, 0x04000C00) /* PaletteBase */
+     , (19279,   7, 0x1000010F) /* ClothingBase */
+     , (19279,   8, 0x060016C0) /* Icon */
+     , (19279,  22, 0x34000075) /* PhysicsEffectTable */
      , (19279,  32,        400) /* WieldedTreasureType - 
                                    Wield Bronze Heavy Crossbow (15875) | Probability: 67%
                                    Wield 20x Greater Acid Quarrel (5314) | Probability: 16%
@@ -99,23 +99,23 @@ VALUES (19279,   1,   150, 0, 0, 265) /* MaxHealth */
      , (19279,   5,   150, 0, 0, 380) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (19279,  1, 0, 3, 0, 190, 0, 1113.88034720644) /* Axe                 Specialized */
-     , (19279,  2, 0, 3, 0, 210, 0, 1113.88034720644) /* Bow                 Specialized */
-     , (19279,  3, 0, 3, 0, 210, 0, 1113.88034720644) /* Crossbow            Specialized */
-     , (19279,  4, 0, 3, 0, 190, 0, 1113.88034720644) /* Dagger              Specialized */
-     , (19279,  5, 0, 3, 0, 190, 0, 1113.88034720644) /* Mace                Specialized */
-     , (19279,  6, 0, 3, 0, 190, 0, 1113.88034720644) /* MeleeDefense        Specialized */
-     , (19279,  7, 0, 3, 0, 210, 0, 1113.88034720644) /* MissileDefense      Specialized */
-     , (19279, 10, 0, 3, 0, 190, 0, 1113.88034720644) /* Staff               Specialized */
-     , (19279, 11, 0, 3, 0, 190, 0, 1113.88034720644) /* Sword               Specialized */
-     , (19279, 13, 0, 3, 0, 190, 0, 1113.88034720644) /* UnarmedCombat       Specialized */
-     , (19279, 14, 0, 3, 0, 190, 0, 1113.88034720644) /* ArcaneLore          Specialized */
-     , (19279, 15, 0, 3, 0, 190, 0, 1113.88034720644) /* MagicDefense        Specialized */
-     , (19279, 20, 0, 3, 0,  90, 0, 1113.88034720644) /* Deception           Specialized */
-     , (19279, 24, 0, 3, 0,  40, 0, 1113.88034720644) /* Run                 Specialized */
-     , (19279, 31, 0, 3, 0, 139, 0, 1113.88034720644) /* CreatureEnchantment Specialized */
-     , (19279, 33, 0, 3, 0, 139, 0, 1113.88034720644) /* LifeMagic           Specialized */
-     , (19279, 34, 0, 3, 0, 190, 0, 1113.88034720644) /* WarMagic            Specialized */;
+VALUES (19279,  1, 0, 3, 0, 190, 0, 1113.8803472064396) /* Axe                 Specialized */
+     , (19279,  2, 0, 3, 0, 210, 0, 1113.8803472064396) /* Bow                 Specialized */
+     , (19279,  3, 0, 3, 0, 210, 0, 1113.8803472064396) /* Crossbow            Specialized */
+     , (19279,  4, 0, 3, 0, 190, 0, 1113.8803472064396) /* Dagger              Specialized */
+     , (19279,  5, 0, 3, 0, 190, 0, 1113.8803472064396) /* Mace                Specialized */
+     , (19279,  6, 0, 3, 0, 190, 0, 1113.8803472064396) /* MeleeDefense        Specialized */
+     , (19279,  7, 0, 3, 0, 210, 0, 1113.8803472064396) /* MissileDefense      Specialized */
+     , (19279, 10, 0, 3, 0, 190, 0, 1113.8803472064396) /* Staff               Specialized */
+     , (19279, 11, 0, 3, 0, 190, 0, 1113.8803472064396) /* Sword               Specialized */
+     , (19279, 13, 0, 3, 0, 190, 0, 1113.8803472064396) /* UnarmedCombat       Specialized */
+     , (19279, 14, 0, 3, 0, 190, 0, 1113.8803472064396) /* ArcaneLore          Specialized */
+     , (19279, 15, 0, 3, 0, 190, 0, 1113.8803472064396) /* MagicDefense        Specialized */
+     , (19279, 20, 0, 3, 0,  90, 0, 1113.8803472064396) /* Deception           Specialized */
+     , (19279, 24, 0, 3, 0,  40, 0, 1113.8803472064396) /* Run                 Specialized */
+     , (19279, 31, 0, 3, 0, 139, 0, 1113.8803472064396) /* CreatureEnchantment Specialized */
+     , (19279, 33, 0, 3, 0, 139, 0, 1113.8803472064396) /* LifeMagic           Specialized */
+     , (19279, 34, 0, 3, 0, 190, 0, 1113.8803472064396) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (19279,  0,  4,  0,    0,  210,   63,   63,  105,  126,  126,  126,  126,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -129,18 +129,18 @@ VALUES (19279,  0,  4,  0,    0,  210,   63,   63,  105,  126,  126,  126,  126,
      , (19279,  8,  4, 25, 0.75,  220,   66,   66,  110,  132,  132,  132,  132,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19279,    63,  2.093)  /* Acid Stream VI */
-     , (19279,    80,  2.093)  /* Lightning Bolt VI */
-     , (19279,    85,  2.093)  /* Flame Bolt VI */
-     , (19279,   142,   2.02)  /* Lightning Volley VI */
-     , (19279,   199,   2.01)  /* Exhaustion Other VI */
-     , (19279,   249,  2.007)  /* Invulnerability Self VI */
+VALUES (19279,   142,   2.02)  /* Lightning Volley VI */
      , (19279,   261,  2.007)  /* Impregnability Self VI */
-     , (19279,   279,  2.007)  /* Magic Resistance Self VI */
+     , (19279,   199,   2.01)  /* Exhaustion Other VI */
+     , (19279,    85,  2.093)  /* Flame Bolt VI */
      , (19279,  1161,   2.04)  /* Heal Self VI */
-     , (19279,  1176,   2.01)  /* Harm Other VI */
+     , (19279,   279,  2.007)  /* Magic Resistance Self VI */
+     , (19279,    80,  2.093)  /* Lightning Bolt VI */
      , (19279,  1200,   2.01)  /* Enfeeble Other VI */
-     , (19279,  1265,   2.01)  /* Drain Mana Other VI */;
+     , (19279,  1176,   2.01)  /* Harm Other VI */
+     , (19279,  1265,   2.01)  /* Drain Mana Other VI */
+     , (19279,   249,  2.007)  /* Invulnerability Self VI */
+     , (19279,    63,  2.093)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (19279,  94) /* ATTACK_NOTIFICATION_EVENT */

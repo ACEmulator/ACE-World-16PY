@@ -27,7 +27,7 @@ VALUES (15413,   1, 'Bundle of Deadly Armor Piercing Arrowheads') /* Name */
      , (15413,  20, 'Bundles of Deadly Armor Piercing Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15413,   1,   33555958) /* Setup */
-     , (15413,   3,  536870932) /* SoundTable */
-     , (15413,   8,  100672669) /* Icon */
-     , (15413,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15413,   1, 0x020005F6) /* Setup */
+     , (15413,   3, 0x20000014) /* SoundTable */
+     , (15413,   8, 0x0600249D) /* Icon */
+     , (15413,  22, 0x3400002B) /* PhysicsEffectTable */;

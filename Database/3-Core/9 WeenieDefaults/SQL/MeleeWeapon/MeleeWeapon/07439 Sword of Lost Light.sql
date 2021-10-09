@@ -46,14 +46,14 @@ VALUES (7439,   1, 'Sword of Lost Light') /* Name */
      , (7439,  16, 'The Sword of Lost Light, infused with blue fire from Mount Lethe.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7439,   1,   33555927) /* Setup */
-     , (7439,   3,  536870932) /* SoundTable */
-     , (7439,   8,  100669772) /* Icon */
-     , (7439,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7439,   1, 0x020005D7) /* Setup */
+     , (7439,   3, 0x20000014) /* SoundTable */
+     , (7439,   8, 0x0600194C) /* Icon */
+     , (7439,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7439,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7439,  1335,      2)  /* Strength Other IV */
-     , (7439,  1406,      2)  /* Quickness Other IV */
-     , (7439,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (7439,  1625,      2)  /* Aura of Swift Killer Self IV */;
+VALUES (7439,  1615,      2)  /* Aura of Blood Drinker Self V */
+     , (7439,  1625,      2)  /* Aura of Swift Killer Self IV */
+     , (7439,  1335,      2)  /* Strength Other IV */
+     , (7439,  1406,      2)  /* Quickness Other IV */;

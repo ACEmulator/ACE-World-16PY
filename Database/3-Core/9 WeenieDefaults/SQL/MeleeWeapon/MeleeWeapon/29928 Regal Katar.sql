@@ -34,7 +34,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29928,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29928,   5, -0.0333) /* ManaRate */
+VALUES (29928,   5,  -0.033) /* ManaRate */
      , (29928,  21,    0.52) /* WeaponLength */
      , (29928,  22,     0.5) /* DamageVariance */
      , (29928,  29,     1.1) /* WeaponDefense */
@@ -47,15 +47,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29928,   1, 'Regal Katar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29928,   1,   33559050) /* Setup */
-     , (29928,   3,  536870932) /* SoundTable */
-     , (29928,   8,  100676979) /* Icon */
-     , (29928,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29928,   1, 0x0200120A) /* Setup */
+     , (29928,   3, 0x20000014) /* SoundTable */
+     , (29928,   8, 0x06003573) /* Icon */
+     , (29928,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29928,   243,      2)  /* Invulnerability Other V */
+VALUES (29928,  1604,      2)  /* Aura of Defender Self V */
      , (29928,  1359,      2)  /* Endurance Other V */
-     , (29928,  1591,      2)  /* Aura of Heart Seeker Self V */
-     , (29928,  1604,      2)  /* Aura of Defender Self V */
      , (29928,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (29928,  1625,      2)  /* Aura of Swift Killer Self IV */;
+     , (29928,   243,      2)  /* Invulnerability Other V */
+     , (29928,  1625,      2)  /* Aura of Swift Killer Self IV */
+     , (29928,  1591,      2)  /* Aura of Heart Seeker Self V */;

@@ -27,10 +27,10 @@ VALUES (19242,   1, 'Oxidized Statue ') /* Name */
      , (19242,  16, 'A small oxidized statue of Thorsten Cragstone crafted by the Arcanum Tinker, in reward for keeping the statues that continue to threaten the cities of Dereth at bay.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19242,   1,   33554433) /* Setup */
-     , (19242,   2,  150995205) /* MotionTable */
-     , (19242,   6,   67108990) /* PaletteBase */
-     , (19242,   7,  268436375) /* ClothingBase */
-     , (19242,   8,  100667446) /* Icon */
-     , (19242,  22,  872415349) /* PhysicsEffectTable */
-     , (19242,  36,  234881046) /* MutateFilter */;
+VALUES (19242,   1, 0x02000001) /* Setup */
+     , (19242,   2, 0x09000105) /* MotionTable */
+     , (19242,   6, 0x0400007E) /* PaletteBase */
+     , (19242,   7, 0x10000397) /* ClothingBase */
+     , (19242,   8, 0x06001036) /* Icon */
+     , (19242,  22, 0x34000075) /* PhysicsEffectTable */
+     , (19242,  36, 0x0E000016) /* MutateFilter */;

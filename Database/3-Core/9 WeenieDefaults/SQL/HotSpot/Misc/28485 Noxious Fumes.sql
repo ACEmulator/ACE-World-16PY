@@ -39,6 +39,6 @@ VALUES (28485,   1, 'Noxious Fumes') /* Name */
      , (28485,  17, 'You lose %i health, as noxious fumes eat away at your lungs.') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28485,   1,   33556024) /* Setup */
-     , (28485,   3,  536871007) /* SoundTable */
-     , (28485,   8,  100667465) /* Icon */;
+VALUES (28485,   1, 0x02000638) /* Setup */
+     , (28485,   3, 0x2000005F) /* SoundTable */
+     , (28485,   8, 0x06001049) /* Icon */;

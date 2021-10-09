@@ -39,11 +39,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8488,   1, 'Armet') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8488,   1,   33556856) /* Setup */
-     , (8488,   3,  536870932) /* SoundTable */
-     , (8488,   6,   67108990) /* PaletteBase */
-     , (8488,   7,  268436075) /* ClothingBase */
-     , (8488,   8,  100667343) /* Icon */
-     , (8488,  22,  872415275) /* PhysicsEffectTable */
-     , (8488,  36,  234881042) /* MutateFilter */
-     , (8488,  46,  939524146) /* TsysMutationFilter */;
+VALUES (8488,   1, 0x02000978) /* Setup */
+     , (8488,   3, 0x20000014) /* SoundTable */
+     , (8488,   6, 0x0400007E) /* PaletteBase */
+     , (8488,   7, 0x1000026B) /* ClothingBase */
+     , (8488,   8, 0x06000FCF) /* Icon */
+     , (8488,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8488,  36, 0x0E000012) /* MutateFilter */
+     , (8488,  46, 0x38000032) /* TsysMutationFilter */;

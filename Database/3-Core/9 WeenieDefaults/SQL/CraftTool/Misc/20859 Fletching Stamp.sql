@@ -33,11 +33,11 @@ VALUES (20859,   1, 'Fletching Stamp') /* Name */
      , (20859,  15, 'A stamp with the symbol of Fletching.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20859,   1,   33556922) /* Setup */
-     , (20859,   3,  536870932) /* SoundTable */
-     , (20859,   6,   67111092) /* PaletteBase */
-     , (20859,   7,  268436417) /* ClothingBase */
-     , (20859,   8,  100673243) /* Icon */
-     , (20859,  22,  872415275) /* PhysicsEffectTable */
-     , (20859,  50,  100673148) /* IconOverlay */
-     , (20859,  51,  100673082) /* IconOverlaySecondary */;
+VALUES (20859,   1, 0x020009BA) /* Setup */
+     , (20859,   3, 0x20000014) /* SoundTable */
+     , (20859,   6, 0x040008B4) /* PaletteBase */
+     , (20859,   7, 0x100003C1) /* ClothingBase */
+     , (20859,   8, 0x060026DB) /* Icon */
+     , (20859,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (20859,  50, 0x0600267C) /* IconOverlay */
+     , (20859,  51, 0x0600263A) /* IconOverlaySecondary */;

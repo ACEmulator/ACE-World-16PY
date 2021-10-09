@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11881,   1, 'High Tumerok') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11881,   1,   33554496) /* Setup */
-     , (11881,   2,  150994954) /* MotionTable */
-     , (11881,   3,  536870931) /* SoundTable */
-     , (11881,   4,  805306380) /* CombatTable */
-     , (11881,   6,   67109314) /* PaletteBase */
-     , (11881,   7,  268436630) /* ClothingBase */
-     , (11881,   8,  100667452) /* Icon */
-     , (11881,  22,  872415270) /* PhysicsEffectTable */
+VALUES (11881,   1, 0x02000040) /* Setup */
+     , (11881,   2, 0x0900000A) /* MotionTable */
+     , (11881,   3, 0x20000013) /* SoundTable */
+     , (11881,   4, 0x3000000C) /* CombatTable */
+     , (11881,   6, 0x040001C2) /* PaletteBase */
+     , (11881,   7, 0x10000496) /* ClothingBase */
+     , (11881,   8, 0x0600103C) /* Icon */
+     , (11881,  22, 0x34000026) /* PhysicsEffectTable */
      , (11881,  32,        372) /* WieldedTreasureType - 
                                    Wield 5x Javelin (320) | Probability: 10%
                                    Wield 5x Djarid (317) | Probability: 10%
@@ -116,24 +116,24 @@ VALUES (11881,   1,    70, 0, 0, 160) /* MaxHealth */
      , (11881,   5,     0, 0, 0, 140) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (11881,  1, 0, 3, 0, 150, 0, 769.91044009296) /* Axe                 Specialized */
-     , (11881,  2, 0, 3, 0, 140, 0, 769.91044009296) /* Bow                 Specialized */
-     , (11881,  3, 0, 3, 0, 140, 0, 769.91044009296) /* Crossbow            Specialized */
-     , (11881,  4, 0, 3, 0,  80, 0, 769.91044009296) /* Dagger              Specialized */
-     , (11881,  5, 0, 3, 0, 150, 0, 769.91044009296) /* Mace                Specialized */
-     , (11881,  6, 0, 3, 0, 120, 0, 769.91044009296) /* MeleeDefense        Specialized */
-     , (11881,  7, 0, 3, 0, 275, 0, 769.91044009296) /* MissileDefense      Specialized */
-     , (11881,  9, 0, 3, 0, 150, 0, 769.91044009296) /* Spear               Specialized */
-     , (11881, 10, 0, 3, 0, 150, 0, 769.91044009296) /* Staff               Specialized */
-     , (11881, 11, 0, 3, 0, 150, 0, 769.91044009296) /* Sword               Specialized */
-     , (11881, 13, 0, 3, 0, 150, 0, 769.91044009296) /* UnarmedCombat       Specialized */
-     , (11881, 14, 0, 2, 0, 250, 0, 769.91044009296) /* ArcaneLore          Trained */
-     , (11881, 15, 0, 3, 0, 130, 0, 769.91044009296) /* MagicDefense        Specialized */
-     , (11881, 20, 0, 2, 0,  40, 0, 769.91044009296) /* Deception           Trained */
-     , (11881, 24, 0, 2, 0,  45, 0, 769.91044009296) /* Run                 Trained */
-     , (11881, 31, 0, 3, 0, 100, 0, 769.91044009296) /* CreatureEnchantment Specialized */
-     , (11881, 33, 0, 3, 0, 100, 0, 769.91044009296) /* LifeMagic           Specialized */
-     , (11881, 34, 0, 3, 0, 100, 0, 769.91044009296) /* WarMagic            Specialized */;
+VALUES (11881,  1, 0, 3, 0, 150, 0, 769.9104400929598) /* Axe                 Specialized */
+     , (11881,  2, 0, 3, 0, 140, 0, 769.9104400929598) /* Bow                 Specialized */
+     , (11881,  3, 0, 3, 0, 140, 0, 769.9104400929598) /* Crossbow            Specialized */
+     , (11881,  4, 0, 3, 0,  80, 0, 769.9104400929598) /* Dagger              Specialized */
+     , (11881,  5, 0, 3, 0, 150, 0, 769.9104400929598) /* Mace                Specialized */
+     , (11881,  6, 0, 3, 0, 120, 0, 769.9104400929598) /* MeleeDefense        Specialized */
+     , (11881,  7, 0, 3, 0, 275, 0, 769.9104400929598) /* MissileDefense      Specialized */
+     , (11881,  9, 0, 3, 0, 150, 0, 769.9104400929598) /* Spear               Specialized */
+     , (11881, 10, 0, 3, 0, 150, 0, 769.9104400929598) /* Staff               Specialized */
+     , (11881, 11, 0, 3, 0, 150, 0, 769.9104400929598) /* Sword               Specialized */
+     , (11881, 13, 0, 3, 0, 150, 0, 769.9104400929598) /* UnarmedCombat       Specialized */
+     , (11881, 14, 0, 2, 0, 250, 0, 769.9104400929598) /* ArcaneLore          Trained */
+     , (11881, 15, 0, 3, 0, 130, 0, 769.9104400929598) /* MagicDefense        Specialized */
+     , (11881, 20, 0, 2, 0,  40, 0, 769.9104400929598) /* Deception           Trained */
+     , (11881, 24, 0, 2, 0,  45, 0, 769.9104400929598) /* Run                 Trained */
+     , (11881, 31, 0, 3, 0, 100, 0, 769.9104400929598) /* CreatureEnchantment Specialized */
+     , (11881, 33, 0, 3, 0, 100, 0, 769.9104400929598) /* LifeMagic           Specialized */
+     , (11881, 34, 0, 3, 0, 100, 0, 769.9104400929598) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (11881,  0,  4,  0,    0,  220,  220,  220,  220,  220,  220,  220,  220,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -147,29 +147,29 @@ VALUES (11881,  0,  4,  0,    0,  220,  220,  220,  220,  220,  220,  220,  220,
      , (11881,  8,  4, 20, 0.75,  100,  100,  100,  100,  100,  100,  100,  100,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11881,    62,  2.014)  /* Acid Stream V */
-     , (11881,    68,  2.014)  /* Shock Wave V */
-     , (11881,    73,  2.014)  /* Frost Bolt V */
-     , (11881,    79,  2.014)  /* Lightning Bolt V */
-     , (11881,    84,  2.014)  /* Flame Bolt V */
-     , (11881,    90,  2.014)  /* Force Bolt V */
-     , (11881,    96,  2.014)  /* Whirling Blade V */
-     , (11881,   137,  2.004)  /* Frost Volley V */
-     , (11881,   141,  2.004)  /* Lightning Volley V */
-     , (11881,   145,  2.004)  /* Flame Volley V */
-     , (11881,   153,  2.004)  /* Blade Volley V */
-     , (11881,   232,  2.007)  /* Vulnerability Other IV */
-     , (11881,   247,  2.004)  /* Invulnerability Self IV */
+VALUES (11881,    68,  2.014)  /* Shock Wave V */
      , (11881,   259,  2.004)  /* Impregnability Self IV */
      , (11881,   265,  2.007)  /* Defenselessness Other IV */
-     , (11881,   277,  2.004)  /* Magic Resistance Self IV */
-     , (11881,   283,  2.007)  /* Magic Yield Other IV */
-     , (11881,  1159,   2.02)  /* Heal Self IV */
-     , (11881,  1174,  2.007)  /* Harm Other IV */
-     , (11881,  1198,  2.007)  /* Enfeeble Other IV */
      , (11881,  1222,  2.007)  /* Mana Drain Other IV */
+     , (11881,  1159,   2.02)  /* Heal Self IV */
+     , (11881,   137,  2.004)  /* Frost Volley V */
+     , (11881,    73,  2.014)  /* Frost Bolt V */
+     , (11881,   141,  2.004)  /* Lightning Volley V */
+     , (11881,    79,  2.014)  /* Lightning Bolt V */
+     , (11881,   145,  2.004)  /* Flame Volley V */
+     , (11881,    84,  2.014)  /* Flame Bolt V */
+     , (11881,   277,  2.004)  /* Magic Resistance Self IV */
+     , (11881,  1174,  2.007)  /* Harm Other IV */
+     , (11881,   153,  2.004)  /* Blade Volley V */
+     , (11881,    90,  2.014)  /* Force Bolt V */
+     , (11881,   283,  2.007)  /* Magic Yield Other IV */
+     , (11881,    96,  2.014)  /* Whirling Blade V */
+     , (11881,   232,  2.007)  /* Vulnerability Other IV */
+     , (11881,  1198,  2.007)  /* Enfeeble Other IV */
      , (11881,  1330,  2.004)  /* Strength Self IV */
-     , (11881,  1400,  2.004)  /* Quickness Self IV */;
+     , (11881,   247,  2.004)  /* Invulnerability Self IV */
+     , (11881,  1400,  2.004)  /* Quickness Self IV */
+     , (11881,    62,  2.014)  /* Acid Stream V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (11881,  94) /* ATTACK_NOTIFICATION_EVENT */

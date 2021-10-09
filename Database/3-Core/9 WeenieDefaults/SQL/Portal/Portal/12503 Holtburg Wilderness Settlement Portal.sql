@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12503,   1, 'Holtburg Wilderness Settlement Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12503,   1,   33554867) /* Setup */
-     , (12503,   2,  150994947) /* MotionTable */
-     , (12503,   8,  100667499) /* Icon */;
+VALUES (12503,   1, 0x020001B3) /* Setup */
+     , (12503,   2, 0x09000003) /* MotionTable */
+     , (12503,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12503, 2, 3132227611, 84.766, 69.389, 85.787, 0.9460203, 0, 0, -0.3241073) /* Destination */
-/* @teleloc 0xBAB2001B [84.766000 69.389000 85.787000] 0.946020 0.000000 0.000000 -0.324107 */;
+VALUES (12503, 2, 0xBAB2001B, 84.766, 69.389, 85.787, 0.94602, 0, 0, -0.324107) /* Destination */
+/* @teleloc 0xBAB2001B [84.765999 69.389000 85.787003] 0.946020 0.000000 0.000000 -0.324107 */;

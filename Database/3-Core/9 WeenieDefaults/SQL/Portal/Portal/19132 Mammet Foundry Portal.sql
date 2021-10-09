@@ -26,10 +26,10 @@ VALUES (19132,   1, 'Mammet Foundry Portal') /* Name */
      , (19132,  37, 'CloneKillerHigh') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19132,   1,   33555925) /* Setup */
-     , (19132,   2,  150994947) /* MotionTable */
-     , (19132,   8,  100667499) /* Icon */;
+VALUES (19132,   1, 0x020005D5) /* Setup */
+     , (19132,   2, 0x09000003) /* MotionTable */
+     , (19132,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19132, 2, 1415053919, 10, -110, 6.005, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0x5458025F [10.000000 -110.000000 6.005000] 1.000000 0.000000 0.000000 0.000000 */;
+VALUES (19132, 2, 0x5458025F, 10, -110, 6.005, 1, 0, 0, -0) /* Destination */
+/* @teleloc 0x5458025F [10.000000 -110.000000 6.005000] 1.000000 0.000000 0.000000 -0.000000 */;

@@ -32,7 +32,7 @@ VALUES (23794,  22, True ) /* Inscribable */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23794,   5,  -0.025) /* ManaRate */
-     , (23794,  12, 0.232225) /* Shade */
+     , (23794,  12,   0.232) /* Shade */
      , (23794,  13,     1.3) /* ArmorModVsSlash */
      , (23794,  14,       1) /* ArmorModVsPierce */
      , (23794,  15,       1) /* ArmorModVsBludgeon */
@@ -47,12 +47,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23794,   1, 'Charged Celdon Breastplate') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23794,   1,   33554642) /* Setup */
-     , (23794,   3,  536870932) /* SoundTable */
-     , (23794,   6,   67108990) /* PaletteBase */
-     , (23794,   7,  268435848) /* ClothingBase */
-     , (23794,   8,  100674069) /* Icon */
-     , (23794,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23794,   1, 0x020000D2) /* Setup */
+     , (23794,   3, 0x20000014) /* SoundTable */
+     , (23794,   6, 0x0400007E) /* PaletteBase */
+     , (23794,   7, 0x10000188) /* ClothingBase */
+     , (23794,   8, 0x06002A15) /* Icon */
+     , (23794,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23794,  2615,      2)  /* Major Storm Ward */;

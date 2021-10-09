@@ -64,13 +64,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14577,   1, 'Aun Tikakhe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14577,   1,   33557175) /* Setup */
-     , (14577,   2,  150995136) /* MotionTable */
-     , (14577,   3,  536870931) /* SoundTable */
-     , (14577,   4,  805306380) /* CombatTable */
-     , (14577,   6,   67113280) /* PaletteBase */
-     , (14577,   7,  268436193) /* ClothingBase */
-     , (14577,   8,  100671756) /* Icon */
+VALUES (14577,   1, 0x02000AB7) /* Setup */
+     , (14577,   2, 0x090000C0) /* MotionTable */
+     , (14577,   3, 0x20000013) /* SoundTable */
+     , (14577,   4, 0x3000000C) /* CombatTable */
+     , (14577,   6, 0x04001140) /* PaletteBase */
+     , (14577,   7, 0x100002E1) /* ClothingBase */
+     , (14577,   8, 0x0600210C) /* Icon */
      , (14577,  32,        380) /* WieldedTreasureType - 
                                    Wield Buadren (11971) | Probability: 100% */;
 
@@ -88,22 +88,22 @@ VALUES (14577,   1,    50, 0, 0, 185) /* MaxHealth */
      , (14577,   5,     0, 0, 0, 230) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (14577,  1, 0, 2, 0,  50, 0, 897.529950221036) /* Axe                 Trained */
-     , (14577,  4, 0, 3, 0,  50, 0, 897.529950221036) /* Dagger              Specialized */
-     , (14577,  5, 0, 2, 0,  50, 0, 897.529950221036) /* Mace                Trained */
-     , (14577,  6, 0, 2, 0,  75, 0, 897.529950221036) /* MeleeDefense        Trained */
-     , (14577,  7, 0, 2, 0,  60, 0, 897.529950221036) /* MissileDefense      Trained */
-     , (14577,  9, 0, 2, 0,  50, 0, 897.529950221036) /* Spear               Trained */
-     , (14577, 10, 0, 2, 0,  50, 0, 897.529950221036) /* Staff               Trained */
-     , (14577, 11, 0, 2, 0,  50, 0, 897.529950221036) /* Sword               Trained */
-     , (14577, 13, 0, 2, 0,  90, 0, 897.529950221036) /* UnarmedCombat       Trained */
-     , (14577, 14, 0, 2, 0, 190, 0, 897.529950221036) /* ArcaneLore          Trained */
-     , (14577, 15, 0, 2, 0,  90, 0, 897.529950221036) /* MagicDefense        Trained */
-     , (14577, 20, 0, 3, 0,  50, 0, 897.529950221036) /* Deception           Specialized */
-     , (14577, 24, 0, 2, 0,  20, 0, 897.529950221036) /* Run                 Trained */
-     , (14577, 31, 0, 2, 0,  10, 0, 897.529950221036) /* CreatureEnchantment Trained */
-     , (14577, 33, 0, 3, 0,  10, 0, 897.529950221036) /* LifeMagic           Specialized */
-     , (14577, 34, 0, 3, 0,  10, 0, 897.529950221036) /* WarMagic            Specialized */;
+VALUES (14577,  1, 0, 2, 0,  50, 0, 897.5299502210362) /* Axe                 Trained */
+     , (14577,  4, 0, 3, 0,  50, 0, 897.5299502210362) /* Dagger              Specialized */
+     , (14577,  5, 0, 2, 0,  50, 0, 897.5299502210362) /* Mace                Trained */
+     , (14577,  6, 0, 2, 0,  75, 0, 897.5299502210362) /* MeleeDefense        Trained */
+     , (14577,  7, 0, 2, 0,  60, 0, 897.5299502210362) /* MissileDefense      Trained */
+     , (14577,  9, 0, 2, 0,  50, 0, 897.5299502210362) /* Spear               Trained */
+     , (14577, 10, 0, 2, 0,  50, 0, 897.5299502210362) /* Staff               Trained */
+     , (14577, 11, 0, 2, 0,  50, 0, 897.5299502210362) /* Sword               Trained */
+     , (14577, 13, 0, 2, 0,  90, 0, 897.5299502210362) /* UnarmedCombat       Trained */
+     , (14577, 14, 0, 2, 0, 190, 0, 897.5299502210362) /* ArcaneLore          Trained */
+     , (14577, 15, 0, 2, 0,  90, 0, 897.5299502210362) /* MagicDefense        Trained */
+     , (14577, 20, 0, 3, 0,  50, 0, 897.5299502210362) /* Deception           Specialized */
+     , (14577, 24, 0, 2, 0,  20, 0, 897.5299502210362) /* Run                 Trained */
+     , (14577, 31, 0, 2, 0,  10, 0, 897.5299502210362) /* CreatureEnchantment Trained */
+     , (14577, 33, 0, 3, 0,  10, 0, 897.5299502210362) /* LifeMagic           Specialized */
+     , (14577, 34, 0, 3, 0,  10, 0, 897.5299502210362) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (14577,  0,  4,  0,    0,   60,   60,   60,   60,   60,   60,   60,   60,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -122,11 +122,11 @@ VALUES (14577,  1 /* Refuse */,      1, 14589 /* Ebon Mattekar Hide */, NULL, NU
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  1,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  2,  18 /* DirectBroadcast */, 1, 1, NULL, 'Tikakhe inspects the hide for any small imperfections and finds none.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'This hide will do nicely to create a drumhead for your buadren. Use this Tanning Oil on it to make it into a suitable leather. Once you complete your drum, give it to me and I will enjoin Mighty Oak to infuse it with his keh.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  4,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 14551 /* Tanning Oil */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+     , (@parent_id,  4,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 14551 /* Tanning Oil */, 1, 0 /* Undef */, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (14577,  1 /* Refuse */,      1, 14588 /* Tree Trunk */, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -225,12 +225,12 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 1, 1, NULL, 'It is as I have forseen. Aulakhe is the first among us to combine the medicine of our people and yours. The spirit of Aun Tanua has returned to fight the battles of his people once more. This buadren is infused with Tanua''s own keh. If carried with reverence, he will aid you in your struggles as well.  Take our gift with pride, and  know that you have done the Tonk of Timaru a great service this day.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (14577,  5 /* HeartBeat */,   0.98, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (14577,  5 /* HeartBeat */,   0.98, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1124073755 /* AFKState */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x4300011B /* AFKState */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (14577,  6 /* Give */,      1, 14861 /* Buadren */, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -238,9 +238,9 @@ VALUES (14577,  6 /* Give */,      1, 14861 /* Buadren */, NULL, NULL, NULL, NUL
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  1,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  2,  36 /* InqIntStat */, 0, 1, NULL, 'level_test', NULL, 70, 9999, NULL, NULL, NULL, NULL, 25, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+     , (@parent_id,  2,  36 /* InqIntStat */, 0, 1, NULL, 'level_test', NULL, 70, 9999, NULL, NULL, NULL, NULL, 25 /* PropertyInt.Level */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (14577,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -248,7 +248,7 @@ VALUES (14577,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  1,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  2,  31 /* EraseQuest */, 0, 1, NULL, 'TanningOilTanuaGiven', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  3,  10 /* Tell */, 1, 1, NULL, 'When Aulakhe first came and told me he was leaving Timaru, I knew I could not let him go alone. We have journeyed across the breadth of Dereth on our quest, and I have seen much that could be used to create semblances of the items we had back on Palenqual.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
@@ -270,7 +270,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 1, 1, NULL, 'Tikakhe slowly t
      , (@parent_id,  3,  10 /* Tell */, 2, 1, NULL, 'A last tale to tell before my work is done: I must tell you that this was merely a test, to prove to us that you are the warrior that we have journeyed from Palenqual to find. Aun Aulakhe''s has undertaken a grave mission for our people, and we shall not return to our beloved Timaru until it is accomplished. Speak to him now--I will let him know that you have been chosen.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  4,  18 /* DirectBroadcast */, 2, 1, NULL, 'Aun Tikakhe pauses a moment to take you into his confidence.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  5,  10 /* Tell */, 2, 1, NULL, 'Although he is still young and untested, my heart believes Aulakhe is destined one day to become the most gifted of our Aulauan, surpassing even his father, Shimauri. You would do well to guard this buadren safely--there may come a time when Aulakhe may be able to enhance it once more.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  6,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 14568 /* Buadren */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  6,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 14568 /* Buadren */, 1, 0 /* Undef */, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  7,  22 /* StampQuest */, 0, 1, NULL, 'BuadrenInvokingGiven', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
@@ -283,5 +283,5 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 1, 1, NULL, 'Tikakhe slowly t
      , (@parent_id,  1,  10 /* Tell */, 2, 1, NULL, 'The spirits of this land are indeed generous. I could not have made a better buadren myself. Wait one moment, while I invoke the keh of Mighty Oak!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  2,  18 /* DirectBroadcast */, 2, 1, NULL, 'Beating gently upon the buadren, Tikakhe slowly murmurs a prayer to the anima of his choosing. A quiet descends upon the forest, and the trees themselves bend to listen to Tikakhe''s call. Abruptly, a soft glow permeates the drum, one that is gone as suddenly as it came.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  3,  10 /* Tell */, 2, 1, NULL, 'A last tale to tell before my work is done: my budhi Aun Aulakhe has undertaken a grave mission for our people, and we shall not return to our beloved Timaru until it is accomplished. Speak to him when you have gained in experience and strength - I will let him know that when that day comes he can take you into his confidence. Until then, guard this buadren safely--if you aid us in the days to come, Aula may be able to enhance it once more.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  4,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 14568 /* Buadren */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  4,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 14568 /* Buadren */, 1, 0 /* Undef */, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  5,  22 /* StampQuest */, 0, 1, NULL, 'BuadrenInvokingGiven', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

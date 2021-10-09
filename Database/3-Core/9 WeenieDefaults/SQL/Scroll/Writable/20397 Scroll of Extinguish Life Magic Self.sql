@@ -24,7 +24,7 @@ VALUES (20397,   1, 'Scroll of Extinguish Life Magic Self') /* Name */
      , (20397,  15, 'When learned, this spell dispels 3-6 negative Life Magic enchantments of level 2 or lower from the caster.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20397,   1,   33554826) /* Setup */
-     , (20397,   8,  100676935) /* Icon */
-     , (20397,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20397,   1, 0x0200018A) /* Setup */
+     , (20397,   8, 0x06003547) /* Icon */
+     , (20397,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20397,  28,       1966) /* Spell - Extinguish Life Magic Self */;

@@ -17,7 +17,7 @@ VALUES (8691,   1,        256) /* ItemType - MissileWeapon */
      , (8691,  48,          3) /* WeaponSkill - Crossbow */
      , (8691,  49,        120) /* WeaponTime */
      , (8691,  50,          2) /* AmmoType - Bolt */
-     , (8691,  51,          2) /* CombatUse - Missle */
+     , (8691,  51,          2) /* CombatUse - Missile */
      , (8691,  52,          2) /* ParentLocation - LeftHand */
      , (8691,  53,          3) /* PlacementPosition - LeftHand */
      , (8691,  60,        192) /* WeaponRange */
@@ -44,14 +44,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8691,   1, 'A Society Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8691,   1,   33554732) /* Setup */
-     , (8691,   3,  536870932) /* SoundTable */
-     , (8691,   6,   67111919) /* PaletteBase */
-     , (8691,   7,  268435762) /* ClothingBase */
-     , (8691,   8,  100668835) /* Icon */
-     , (8691,  22,  872415275) /* PhysicsEffectTable */
-     , (8691,  50,  100675463) /* IconOverlay */;
+VALUES (8691,   1, 0x0200012C) /* Setup */
+     , (8691,   3, 0x20000014) /* SoundTable */
+     , (8691,   6, 0x04000BEF) /* PaletteBase */
+     , (8691,   7, 0x10000132) /* ClothingBase */
+     , (8691,   8, 0x060015A3) /* Icon */
+     , (8691,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8691,  50, 0x06002F87) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8691,   486,      2)  /* Missile Weapon Mastery Other II */
-     , (8691,  1612,      2)  /* Aura of Blood Drinker Self II */;
+VALUES (8691,  1612,      2)  /* Aura of Blood Drinker Self II */
+     , (8691,   486,      2)  /* Missile Weapon Mastery Other II */;

@@ -45,18 +45,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6159,   1, 'Superior Sparking Atlan Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6159,   1,   33556306) /* Setup */
-     , (6159,   3,  536870932) /* SoundTable */
-     , (6159,   6,   67111919) /* PaletteBase */
-     , (6159,   7,  268435885) /* ClothingBase */
-     , (6159,   8,  100670511) /* Icon */
-     , (6159,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6159,   1, 0x02000752) /* Setup */
+     , (6159,   3, 0x20000014) /* SoundTable */
+     , (6159,   6, 0x04000BEF) /* PaletteBase */
+     , (6159,   7, 0x100001AD) /* ClothingBase */
+     , (6159,   8, 0x06001C2F) /* Icon */
+     , (6159,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6159,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6159,  1068,      2)  /* Lightning Protection Self III */
-     , (6159,  1351,      2)  /* Endurance Self III */
-     , (6159,  1589,      2)  /* Aura of Heart Seeker Self III */
+VALUES (6159,  1351,      2)  /* Endurance Self III */
      , (6159,  1602,      2)  /* Aura of Defender Self III */
+     , (6159,  1589,      2)  /* Aura of Heart Seeker Self III */
      , (6159,  1613,      2)  /* Aura of Blood Drinker Self III */
-     , (6159,  1624,      2)  /* Aura of Swift Killer Self III */;
+     , (6159,  1624,      2)  /* Aura of Swift Killer Self III */
+     , (6159,  1068,      2)  /* Lightning Protection Self III */;

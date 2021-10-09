@@ -23,5 +23,5 @@ VALUES (4128,   1, 'Campfire') /* Name */
      , (4128,  14, 'Drop this item on the landscape to start a campfire.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4128,   1,   33555886) /* Setup */
-     , (4128,   8,  100669743) /* Icon */;
+VALUES (4128,   1, 0x020005AE) /* Setup */
+     , (4128,   8, 0x0600192F) /* Icon */;

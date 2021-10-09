@@ -27,17 +27,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7430,   1, 'Soul Fearing Fellows Gen!') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7430,   1,   33555536) /* Setup */
-     , (7430,   2,  150994977) /* MotionTable */
-     , (7430,   8,  100668114) /* Icon */
-     , (7430,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7430,   1, 0x02000450) /* Setup */
+     , (7430,   2, 0x09000021) /* MotionTable */
+     , (7430,   8, 0x060012D2) /* Icon */
+     , (7430,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7430,  16,          0) /* ActivationTarget */;
+VALUES (7430,  16, 0x00000000) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7430, -1, 7433, 240, 1, 1, 1, 4, -1, 0, 0, 0, -30, 10, 0, -0.6360782, 0, 0, -0.7716245) /* Generate Lesser Acolyte (7433) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (7430, -1, 204, 240, 1, 1, 1, 4, -1, 0, 0, 0, 2, -7.8, 0, -0.6360782, 0, 0, -0.7716245) /* Generate Lich (204) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (7430, -1, 16, 240, 1, 1, 1, 4, -1, 0, 0, 0, -4, -8, 0, -0.6360782, 0, 0, -0.7716245) /* Generate Undead (16) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (7430, -1, 16, 240, 1, 1, 1, 4, -1, 0, 0, 0, -3, -8, 0, -0.6360782, 0, 0, -0.7716245) /* Generate Undead (16) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (7430, -1, 16, 240, 1, 1, 1, 4, -1, 0, 0, 0, -2, -5, 0, -0.6360782, 0, 0, -0.7716245) /* Generate Undead (16) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (7430, -1, 7433, 240, 1, 1, 1, 4, -1, 0, 0, 0, -30, 10, 0, -0.636078, 0, -0, -0.771625) /* Generate Lesser Acolyte (7433) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (7430, -1, 204, 240, 1, 1, 1, 4, -1, 0, 0, 0, 2, -7.8, 0, -0.636078, 0, -0, -0.771625) /* Generate Lich (204) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (7430, -1, 16, 240, 1, 1, 1, 4, -1, 0, 0, 0, -4, -8, 0, -0.636078, 0, -0, -0.771625) /* Generate Undead (16) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (7430, -1, 16, 240, 1, 1, 1, 4, -1, 0, 0, 0, -3, -8, 0, -0.636078, 0, -0, -0.771625) /* Generate Undead (16) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (7430, -1, 16, 240, 1, 1, 1, 4, -1, 0, 0, 0, -2, -5, 0, -0.636078, 0, -0, -0.771625) /* Generate Undead (16) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

@@ -25,10 +25,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8897,   1, 'Platinum Scarab') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8897,   1,   33555211) /* Setup */
-     , (8897,   3,  536870932) /* SoundTable */
-     , (8897,   6,   67111919) /* PaletteBase */
-     , (8897,   7,  268435721) /* ClothingBase */
-     , (8897,   8,  100671329) /* Icon */
-     , (8897,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8897,   1, 0x0200030B) /* Setup */
+     , (8897,   3, 0x20000014) /* SoundTable */
+     , (8897,   6, 0x04000BEF) /* PaletteBase */
+     , (8897,   7, 0x10000109) /* ClothingBase */
+     , (8897,   8, 0x06001F61) /* Icon */
+     , (8897,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8897,  29,        112) /* SpellComponent */;

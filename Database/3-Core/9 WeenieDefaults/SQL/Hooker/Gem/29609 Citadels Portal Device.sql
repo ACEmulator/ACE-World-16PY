@@ -13,7 +13,7 @@ VALUES (29609,   1,       2048) /* ItemType - Gem */
      , (29609,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29609, 150,        103) /* HookPlacement - Hook */
      , (29609, 151,          9) /* HookType - Floor, Yard */
-     , (29609, 197,          4) /* HookGroup */;
+     , (29609, 197,          4) /* HookGroup - PortalItems */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29609,  22, True ) /* Inscribable */;
@@ -23,10 +23,10 @@ VALUES (29609,   1, 'Citadels Portal Device') /* Name */
      , (29609,  16, 'This device was fashioned by Shoyanen Kenchu under the direction of High Queen Elysa Strathelar. The magic of the device can only be activated if placed on a mansion hook. The magic has yet to be perfected so the device may deliver the user to one of three locations: Ridge Citadel, Hills Citadel or Wilderness Citadel.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29609,   1,   33559075) /* Setup */
-     , (29609,   3,  536870932) /* SoundTable */
-     , (29609,   8,  100677183) /* Icon */
-     , (29609,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29609,   1, 0x02001223) /* Setup */
+     , (29609,   3, 0x20000014) /* SoundTable */
+     , (29609,   8, 0x0600363F) /* Icon */
+     , (29609,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (29609,  7 /* Use */,  0.333, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

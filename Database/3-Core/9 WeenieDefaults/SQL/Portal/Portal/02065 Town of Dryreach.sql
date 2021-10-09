@@ -25,10 +25,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2065,   1, 'Town of Dryreach') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2065,   1,   33555923) /* Setup */
-     , (2065,   2,  150994947) /* MotionTable */
-     , (2065,   8,  100667499) /* Icon */;
+VALUES (2065,   1, 0x020005D3) /* Setup */
+     , (2065,   2, 0x09000003) /* MotionTable */
+     , (2065,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2065, 2, 3681878075, 186, 65, 36, -0.7518399, 0, 0, -0.6593457) /* Destination */
-/* @teleloc 0xDB75003B [186.000000 65.000000 36.000000] -0.751840 0.000000 0.000000 -0.659346 */;
+VALUES (2065, 2, 0xDB75003B, 186, 65, 36, -0.75184, 0, -0, -0.659346) /* Destination */
+/* @teleloc 0xDB75003B [186.000000 65.000000 36.000000] -0.751840 0.000000 -0.000000 -0.659346 */;

@@ -22,5 +22,5 @@ VALUES (19387,   1, 'Ivory Gate') /* Name */
      , (19387,  16, 'Ivory Gate') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19387,   1,   33557695) /* Setup */
-     , (19387,   8,  100667499) /* Icon */;
+VALUES (19387,   1, 0x02000CBF) /* Setup */
+     , (19387,   8, 0x0600106B) /* Icon */;

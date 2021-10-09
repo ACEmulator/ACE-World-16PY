@@ -22,7 +22,7 @@ VALUES (8449,   1, 'The Wildsong Inn') /* Name */
      , (8449,  16, 'The WildSong Inn') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8449,   1,   33555594) /* Setup */
-     , (8449,   6,   67111782) /* PaletteBase */
-     , (8449,   7,  268435688) /* ClothingBase */
-     , (8449,   8,  100668115) /* Icon */;
+VALUES (8449,   1, 0x0200048A) /* Setup */
+     , (8449,   6, 0x04000B66) /* PaletteBase */
+     , (8449,   7, 0x100000E8) /* ClothingBase */
+     , (8449,   8, 0x060012D3) /* Icon */;

@@ -69,14 +69,14 @@ VALUES (6784,   1, 'Shadow Captain') /* Name */
      , (6784,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6784,   1,   33556251) /* Setup */
-     , (6784,   2,  150995091) /* MotionTable */
-     , (6784,   3,  536870914) /* SoundTable */
-     , (6784,   4,  805306368) /* CombatTable */
-     , (6784,   6,   67108990) /* PaletteBase */
-     , (6784,   7,  268435871) /* ClothingBase */
-     , (6784,   8,  100670398) /* Icon */
-     , (6784,  22,  872415331) /* PhysicsEffectTable */;
+VALUES (6784,   1, 0x0200071B) /* Setup */
+     , (6784,   2, 0x09000093) /* MotionTable */
+     , (6784,   3, 0x20000002) /* SoundTable */
+     , (6784,   4, 0x30000000) /* CombatTable */
+     , (6784,   6, 0x0400007E) /* PaletteBase */
+     , (6784,   7, 0x1000019F) /* ClothingBase */
+     , (6784,   8, 0x06001BBE) /* Icon */
+     , (6784,  22, 0x34000063) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6784,   1, 190, 0, 0) /* Strength */
@@ -122,28 +122,28 @@ VALUES (6784,  0,  4,  0,    0,  190,  190,  160,  169,  133,  190,  141,  160, 
      , (6784,  8,  4, 45, 0.75,  190,  190,  160,  169,  133,  190,  141,  160,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6784,    73,  2.032)  /* Frost Bolt V */
+VALUES (6784,    90,  2.032)  /* Force Bolt V */
+     , (6784,   656,  2.006)  /* Mana Conversion Mastery Self IV */
+     , (6784,   608,  2.006)  /* Life Magic Mastery Self IV */
+     , (6784,  1158,   2.02)  /* Heal Self III */
+     , (6784,   145,  2.003)  /* Flame Volley V */
+     , (6784,   137,  2.003)  /* Frost Volley V */
+     , (6784,    73,  2.032)  /* Frost Bolt V */
+     , (6784,  1419,  2.023)  /* Slowness Other V */
+     , (6784,   141,  2.003)  /* Lightning Volley V */
      , (6784,    79,  2.032)  /* Lightning Bolt V */
      , (6784,    84,  2.032)  /* Flame Bolt V */
-     , (6784,    90,  2.032)  /* Force Bolt V */
-     , (6784,    96,  2.032)  /* Whirling Blade V */
-     , (6784,   137,  2.003)  /* Frost Volley V */
-     , (6784,   141,  2.003)  /* Lightning Volley V */
-     , (6784,   145,  2.003)  /* Flame Volley V */
      , (6784,   149,  2.003)  /* Force Volley V */
-     , (6784,   153,  2.003)  /* Blade Volley V */
-     , (6784,   233,  2.023)  /* Vulnerability Other V */
-     , (6784,   278,  2.006)  /* Magic Resistance Self V */
-     , (6784,   284,  2.023)  /* Magic Yield Other V */
-     , (6784,   608,  2.006)  /* Life Magic Mastery Self IV */
-     , (6784,   627,  2.023)  /* Life Magic Ineptitude Other V */
-     , (6784,   656,  2.006)  /* Mana Conversion Mastery Self IV */
-     , (6784,  1158,   2.02)  /* Heal Self III */
      , (6784,  1174,  2.023)  /* Harm Other IV */
+     , (6784,   278,  2.006)  /* Magic Resistance Self V */
      , (6784,  1240,  2.011)  /* Drain Health Other IV */
      , (6784,  1241,  2.023)  /* Drain Health Other V */
+     , (6784,   153,  2.003)  /* Blade Volley V */
+     , (6784,   284,  2.023)  /* Magic Yield Other V */
+     , (6784,   233,  2.023)  /* Vulnerability Other V */
      , (6784,  1310,  2.006)  /* Armor Self IV */
-     , (6784,  1419,  2.023)  /* Slowness Other V */
+     , (6784,    96,  2.032)  /* Whirling Blade V */
+     , (6784,   627,  2.023)  /* Life Magic Ineptitude Other V */
      , (6784,  1467,  2.023)  /* Feeblemind Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

@@ -22,5 +22,5 @@ VALUES (469,   1, 'Crossroads Sign') /* Name */
      , (469,  16, 'North: Arwic, 2 1/4 miles. South: Eastham, 1 mile.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (469,   1,   33555088) /* Setup */
-     , (469,   8,  100668115) /* Icon */;
+VALUES (469,   1, 0x02000290) /* Setup */
+     , (469,   8, 0x060012D3) /* Icon */;

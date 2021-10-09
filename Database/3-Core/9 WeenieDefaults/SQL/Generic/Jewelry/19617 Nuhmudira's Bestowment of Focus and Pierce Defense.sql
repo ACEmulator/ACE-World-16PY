@@ -41,15 +41,15 @@ VALUES (19617,   1, 'Nuhmudira''s Bestowment of Focus and Pierce Defense') /* Na
      , (19617,  16, 'A red gorget, crafted from a strong metal, imbued with an elixir of single mind and elixir of plasmic being. As you hold the gorget in your hand you feel a soft vibration.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19617,   1,   33554687) /* Setup */
-     , (19617,   3,  536870932) /* SoundTable */
-     , (19617,   6,   67111919) /* PaletteBase */
-     , (19617,   7,  268436388) /* ClothingBase */
-     , (19617,   8,  100668632) /* Icon */
-     , (19617,  22,  872415275) /* PhysicsEffectTable */
-     , (19617,  36,  234881046) /* MutateFilter */;
+VALUES (19617,   1, 0x020000FF) /* Setup */
+     , (19617,   3, 0x20000014) /* SoundTable */
+     , (19617,   6, 0x04000BEF) /* PaletteBase */
+     , (19617,   7, 0x100003A4) /* ClothingBase */
+     , (19617,   8, 0x060014D8) /* Icon */
+     , (19617,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (19617,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19617,  1143,      2)  /* Piercing Protection Other V */
-     , (19617,  1431,      2)  /* Focus Other V */
+VALUES (19617,  1431,      2)  /* Focus Other V */
+     , (19617,  1143,      2)  /* Piercing Protection Other V */
      , (19617,  2669,      2)  /* Nuhmudiras Bestowment */;

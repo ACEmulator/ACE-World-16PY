@@ -22,5 +22,5 @@ VALUES (19178,   1, 'Jeweled Thorn Estates') /* Name */
      , (19178,  16, 'Welcome to Jeweled Thorn Estates') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19178,   1,   33557463) /* Setup */
-     , (19178,   8,  100668115) /* Icon */;
+VALUES (19178,   1, 0x02000BD7) /* Setup */
+     , (19178,   8, 0x060012D3) /* Icon */;

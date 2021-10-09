@@ -23,7 +23,7 @@ VALUES (8789,  22, True ) /* Inscribable */
      , (8789,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8789,   5, -0.033333) /* ManaRate */
+VALUES (8789,   5,  -0.033) /* ManaRate */
      , (8789,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -32,15 +32,15 @@ VALUES (8789,   1, 'Virindi Servant''s Amulet') /* Name */
      , (8789,  33, 'VirindiMasterAmulet') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8789,   1,   33554680) /* Setup */
-     , (8789,   3,  536870932) /* SoundTable */
-     , (8789,   6,   67111919) /* PaletteBase */
-     , (8789,   7,  268436095) /* ClothingBase */
-     , (8789,   8,  100671247) /* Icon */
-     , (8789,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8789,   1, 0x020000F8) /* Setup */
+     , (8789,   3, 0x20000014) /* SoundTable */
+     , (8789,   6, 0x04000BEF) /* PaletteBase */
+     , (8789,   7, 0x1000027F) /* ClothingBase */
+     , (8789,   8, 0x06001F0F) /* Icon */
+     , (8789,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8789,   592,      2)  /* Item Enchantment Mastery Other VI */
+VALUES (8789,  2975,      2)  /* Moderate Item Enchantment Aptitude */
      , (8789,   664,      2)  /* Mana Conversion Mastery Other VI */
-     , (8789,  2560,      2)  /* Minor Mana Conversion Prowess */
-     , (8789,  2975,      2)  /* Moderate Item Enchantment Aptitude */;
+     , (8789,   592,      2)  /* Item Enchantment Mastery Other VI */
+     , (8789,  2560,      2)  /* Minor Mana Conversion Prowess */;

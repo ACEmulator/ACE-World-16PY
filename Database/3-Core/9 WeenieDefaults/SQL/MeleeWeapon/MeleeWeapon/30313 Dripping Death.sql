@@ -36,9 +36,9 @@ VALUES (30313,   1, 'Dripping Death') /* Name */
      , (30313,  16, 'Describe me here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30313,   1,   33554746) /* Setup */
-     , (30313,   3,  536870932) /* SoundTable */
-     , (30313,   6,   67111919) /* PaletteBase */
-     , (30313,   7,  268435792) /* ClothingBase */
-     , (30313,   8,  100668955) /* Icon */
-     , (30313,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30313,   1, 0x0200013A) /* Setup */
+     , (30313,   3, 0x20000014) /* SoundTable */
+     , (30313,   6, 0x04000BEF) /* PaletteBase */
+     , (30313,   7, 0x10000150) /* ClothingBase */
+     , (30313,   8, 0x0600161B) /* Icon */
+     , (30313,  22, 0x3400002B) /* PhysicsEffectTable */;

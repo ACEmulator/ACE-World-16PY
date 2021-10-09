@@ -28,7 +28,7 @@ VALUES (22774,   1, 'Sliced Nanners') /* Name */
      , (22774,  15, 'Nanners that have painstakingly been sliced into bite size pieces.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22774,   1,   33558106) /* Setup */
-     , (22774,   3,  536870932) /* SoundTable */
-     , (22774,   8,  100673825) /* Icon */
-     , (22774,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22774,   1, 0x02000E5A) /* Setup */
+     , (22774,   3, 0x20000014) /* SoundTable */
+     , (22774,   8, 0x06002921) /* Icon */
+     , (22774,  22, 0x3400002B) /* PhysicsEffectTable */;

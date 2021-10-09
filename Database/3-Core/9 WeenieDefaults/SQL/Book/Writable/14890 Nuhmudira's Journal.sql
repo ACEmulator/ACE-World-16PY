@@ -25,12 +25,12 @@ VALUES (14890,   1, 'Nuhmudira''s Journal') /* Name */
      , (14890,  16, 'A book that has had many pages torn out. Only seven remain intact. The last stained with blood. It is in Nuhmudira''s own hand.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14890,   1,   33556929) /* Setup */
-     , (14890,   3,  536870932) /* SoundTable */
-     , (14890,   6,   67113005) /* PaletteBase */
-     , (14890,   7,  268436341) /* ClothingBase */
-     , (14890,   8,  100672608) /* Icon */
-     , (14890,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14890,   1, 0x020009C1) /* Setup */
+     , (14890,   3, 0x20000014) /* SoundTable */
+     , (14890,   6, 0x0400102D) /* PaletteBase */
+     , (14890,   7, 0x10000375) /* ClothingBase */
+     , (14890,   8, 0x06002460) /* Icon */
+     , (14890,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (14890, 19, 1000);

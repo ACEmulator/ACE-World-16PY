@@ -50,11 +50,11 @@ VALUES (15447,   1, 'Deadly Hollow Axe') /* Name */
      , (15447,  16, 'An axe crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon is unenchantable and ignores modified armor and protection values.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15447,   1,   33556651) /* Setup */
-     , (15447,   3,  536870932) /* SoundTable */
-     , (15447,   6,   67111919) /* PaletteBase */
-     , (15447,   7,  268435779) /* ClothingBase */
-     , (15447,   8,  100668985) /* Icon */
-     , (15447,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15447,   1, 0x020008AB) /* Setup */
+     , (15447,   3, 0x20000014) /* SoundTable */
+     , (15447,   6, 0x04000BEF) /* PaletteBase */
+     , (15447,   7, 0x10000143) /* ClothingBase */
+     , (15447,   8, 0x06001639) /* Icon */
+     , (15447,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15447,  30,         88) /* PhysicsScript - Create */
-     , (15447,  36,  234881044) /* MutateFilter */;
+     , (15447,  36, 0x0E000014) /* MutateFilter */;

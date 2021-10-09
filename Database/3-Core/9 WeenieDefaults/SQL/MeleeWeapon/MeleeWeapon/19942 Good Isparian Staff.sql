@@ -48,15 +48,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19942,   1, 'Good Isparian Staff') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19942,   1,   33556261) /* Setup */
-     , (19942,   3,  536870932) /* SoundTable */
-     , (19942,   6,   67111919) /* PaletteBase */
-     , (19942,   7,  268436384) /* ClothingBase */
-     , (19942,   8,  100672935) /* Icon */
-     , (19942,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19942,   1, 0x02000725) /* Setup */
+     , (19942,   3, 0x20000014) /* SoundTable */
+     , (19942,   6, 0x04000BEF) /* PaletteBase */
+     , (19942,   7, 0x100003A0) /* ClothingBase */
+     , (19942,   8, 0x060025A7) /* Icon */
+     , (19942,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19942,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19942,  1590,      2)  /* Aura of Heart Seeker Self IV */
-     , (19942,  1614,      2)  /* Aura of Blood Drinker Self IV */
-     , (19942,  2682,      2)  /* Feeble Light Weapon Aptitude */;
+VALUES (19942,  2682,      2)  /* Feeble Light Weapon Aptitude */
+     , (19942,  1590,      2)  /* Aura of Heart Seeker Self IV */
+     , (19942,  1614,      2)  /* Aura of Blood Drinker Self IV */;

@@ -37,9 +37,9 @@ VALUES (29574,   1, 'Salvaged Emerald') /* Name */
      , (29574,  15, 'Chips of emerald material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29574,   1,   33554817) /* Setup */
-     , (29574,   3,  536870932) /* SoundTable */
-     , (29574,   6,   67111919) /* PaletteBase */
-     , (29574,   7,  268436874) /* ClothingBase */
-     , (29574,   8,  100677152) /* Icon */
-     , (29574,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29574,   1, 0x02000181) /* Setup */
+     , (29574,   3, 0x20000014) /* SoundTable */
+     , (29574,   6, 0x04000BEF) /* PaletteBase */
+     , (29574,   7, 0x1000058A) /* ClothingBase */
+     , (29574,   8, 0x06003620) /* Icon */
+     , (29574,  22, 0x3400002B) /* PhysicsEffectTable */;

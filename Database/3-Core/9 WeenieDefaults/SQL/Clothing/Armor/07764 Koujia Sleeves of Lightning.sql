@@ -40,9 +40,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7764,   1, 'Koujia Sleeves of Lightning') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7764,   1,   33554655) /* Setup */
-     , (7764,   3,  536870932) /* SoundTable */
-     , (7764,   6,   67108990) /* PaletteBase */
-     , (7764,   7,  268435851) /* ClothingBase */
-     , (7764,   8,  100670468) /* Icon */
-     , (7764,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7764,   1, 0x020000DF) /* Setup */
+     , (7764,   3, 0x20000014) /* SoundTable */
+     , (7764,   6, 0x0400007E) /* PaletteBase */
+     , (7764,   7, 0x1000018B) /* ClothingBase */
+     , (7764,   8, 0x06001C04) /* Icon */
+     , (7764,  22, 0x3400002B) /* PhysicsEffectTable */;

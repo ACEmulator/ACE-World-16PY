@@ -21,7 +21,7 @@ VALUES (27876,   1,        256) /* ItemType - MissileWeapon */
      , (27876,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (27876,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (27876,  49,         20) /* WeaponTime */
-     , (27876,  51,          2) /* CombatUse - Missle */
+     , (27876,  51,          2) /* CombatUse - Missile */
      , (27876,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -44,7 +44,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27876,   1, 'Muck Ball') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27876,   1,   33558785) /* Setup */
-     , (27876,   3,  536870932) /* SoundTable */
-     , (27876,   8,  100676576) /* Icon */
-     , (27876,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27876,   1, 0x02001101) /* Setup */
+     , (27876,   3, 0x20000014) /* SoundTable */
+     , (27876,   8, 0x060033E0) /* Icon */
+     , (27876,  22, 0x3400002B) /* PhysicsEffectTable */;

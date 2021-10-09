@@ -49,17 +49,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19778,   1, 'Perfect Coruscating Isparian Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19778,   1,   33556306) /* Setup */
-     , (19778,   3,  536870932) /* SoundTable */
-     , (19778,   6,   67111919) /* PaletteBase */
-     , (19778,   7,  268436377) /* ClothingBase */
-     , (19778,   8,  100672887) /* Icon */
-     , (19778,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19778,   1, 0x02000752) /* Setup */
+     , (19778,   3, 0x20000014) /* SoundTable */
+     , (19778,   6, 0x04000BEF) /* PaletteBase */
+     , (19778,   7, 0x10000399) /* ClothingBase */
+     , (19778,   8, 0x06002577) /* Icon */
+     , (19778,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19778,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19778,  1069,      2)  /* Lightning Protection Self IV */
-     , (19778,  1399,      2)  /* Quickness Self III */
-     , (19778,  1592,      2)  /* Aura of Heart Seeker Self VI */
+VALUES (19778,  1592,      2)  /* Aura of Heart Seeker Self VI */
      , (19778,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (19778,  2686,      2)  /* Moderate Light Weapon Aptitude */;
+     , (19778,  1069,      2)  /* Lightning Protection Self IV */
+     , (19778,  2686,      2)  /* Moderate Light Weapon Aptitude */
+     , (19778,  1399,      2)  /* Quickness Self III */;

@@ -42,13 +42,13 @@ VALUES (23593,   1, 'Robe of the Tundra') /* Name */
      , (23593,  16, 'A robe crafted from a mattekar hide.  It has some natural padding in it that makes it stronger and more resistant to damage.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23593,   1,   33554854) /* Setup */
-     , (23593,   3,  536870932) /* SoundTable */
-     , (23593,   6,   67108990) /* PaletteBase */
-     , (23593,   7,  268436263) /* ClothingBase */
-     , (23593,   8,  100674100) /* Icon */
-     , (23593,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23593,   1, 0x020001A6) /* Setup */
+     , (23593,   3, 0x20000014) /* SoundTable */
+     , (23593,   6, 0x0400007E) /* PaletteBase */
+     , (23593,   7, 0x10000327) /* ClothingBase */
+     , (23593,   8, 0x06002A34) /* Icon */
+     , (23593,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23593,  1330,      2)  /* Strength Self IV */
-     , (23593,  1484,      2)  /* Impenetrability IV */;
+VALUES (23593,  1484,      2)  /* Impenetrability IV */
+     , (23593,  1330,      2)  /* Strength Self IV */;

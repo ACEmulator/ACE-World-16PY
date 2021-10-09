@@ -25,5 +25,5 @@ VALUES (25768,   1, 'Aluvian Hanging Rug') /* Name */
      , (25768,  16, 'An Aluvian rug set with rungs so that it can be hung on a wall hook.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25768,   1,   33558525) /* Setup */
-     , (25768,   8,  100675558) /* Icon */;
+VALUES (25768,   1, 0x02000FFD) /* Setup */
+     , (25768,   8, 0x06002FE6) /* Icon */;

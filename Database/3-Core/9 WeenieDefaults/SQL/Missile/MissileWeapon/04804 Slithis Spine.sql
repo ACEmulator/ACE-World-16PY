@@ -21,7 +21,7 @@ VALUES (4804,   1,        256) /* ItemType - MissileWeapon */
      , (4804,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (4804,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (4804,  49,         20) /* WeaponTime */
-     , (4804,  51,          2) /* CombatUse - Missle */
+     , (4804,  51,          2) /* CombatUse - Missile */
      , (4804,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -42,7 +42,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4804,   1, 'Slithis Spine') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4804,   1,   33556900) /* Setup */
-     , (4804,   3,  536870932) /* SoundTable */
-     , (4804,   8,  100671205) /* Icon */
-     , (4804,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4804,   1, 0x020009A4) /* Setup */
+     , (4804,   3, 0x20000014) /* SoundTable */
+     , (4804,   8, 0x06001EE5) /* Icon */
+     , (4804,  22, 0x3400002B) /* PhysicsEffectTable */;

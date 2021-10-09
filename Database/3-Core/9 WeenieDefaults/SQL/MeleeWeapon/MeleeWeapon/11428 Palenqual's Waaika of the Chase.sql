@@ -38,7 +38,7 @@ VALUES (11428,  22, True ) /* Inscribable */
      , (11428,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11428,   5, -0.03333) /* ManaRate */
+VALUES (11428,   5,  -0.033) /* ManaRate */
      , (11428,  21,    0.62) /* WeaponLength */
      , (11428,  22,    0.52) /* DamageVariance */
      , (11428,  29,    1.08) /* WeaponDefense */
@@ -52,21 +52,21 @@ VALUES (11428,   1, 'Palenqual''s Waaika of the Chase') /* Name */
      , (11428,  16, 'A waaika fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11428,   1,   33557235) /* Setup */
-     , (11428,   3,  536870932) /* SoundTable */
-     , (11428,   6,   67113336) /* PaletteBase */
-     , (11428,   7,  268436250) /* ClothingBase */
-     , (11428,   8,  100672082) /* Icon */
-     , (11428,  22,  872415275) /* PhysicsEffectTable */
-     , (11428,  36,  234881044) /* MutateFilter */;
+VALUES (11428,   1, 0x02000AF3) /* Setup */
+     , (11428,   3, 0x20000014) /* SoundTable */
+     , (11428,   6, 0x04001178) /* PaletteBase */
+     , (11428,   7, 0x1000031A) /* ClothingBase */
+     , (11428,   8, 0x06002252) /* Icon */
+     , (11428,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11428,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11428,  2438,      2)  /* Lesser Rockslide */
+VALUES (11428,  2462,      2)  /* Lesser Cascade */
+     , (11428,  2454,      2)  /* Thorns */
+     , (11428,  2438,      2)  /* Lesser Rockslide */
      , (11428,  2441,      2)  /* Lesser Stone Cliffs */
      , (11428,  2444,      2)  /* Lesser Strength of Earth */
      , (11428,  2448,      2)  /* Growth */
      , (11428,  2451,      2)  /* Hunter's Acumen */
-     , (11428,  2454,      2)  /* Thorns */
-     , (11428,  2462,      2)  /* Lesser Cascade */
      , (11428,  2471,      2)  /* Lesser Still Water */
      , (11428,  2474,      2)  /* Lesser Torrent */;

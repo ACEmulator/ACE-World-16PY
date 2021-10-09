@@ -48,16 +48,16 @@ VALUES (28219,   1, 'Ebon Tooth Katar') /* Name */
      , (28219,  15, 'A katar crafted from the tooth of an ebon gromnie.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28219,   1,   33558831) /* Setup */
-     , (28219,   3,  536870932) /* SoundTable */
-     , (28219,   6,   67112869) /* PaletteBase */
-     , (28219,   7,  268436846) /* ClothingBase */
-     , (28219,   8,  100676800) /* Icon */
-     , (28219,  22,  872415275) /* PhysicsEffectTable */
-     , (28219,  36,  234881044) /* MutateFilter */;
+VALUES (28219,   1, 0x0200112F) /* Setup */
+     , (28219,   3, 0x20000014) /* SoundTable */
+     , (28219,   6, 0x04000FA5) /* PaletteBase */
+     , (28219,   7, 0x1000056E) /* ClothingBase */
+     , (28219,   8, 0x060034C0) /* Icon */
+     , (28219,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (28219,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28219,  1591,      2)  /* Aura of Heart Seeker Self V */
-     , (28219,  1603,      2)  /* Aura of Defender Self IV */
+VALUES (28219,  1603,      2)  /* Aura of Defender Self IV */
+     , (28219,  1591,      2)  /* Aura of Heart Seeker Self V */
      , (28219,  1615,      2)  /* Aura of Blood Drinker Self V */
      , (28219,  1624,      2)  /* Aura of Swift Killer Self III */;

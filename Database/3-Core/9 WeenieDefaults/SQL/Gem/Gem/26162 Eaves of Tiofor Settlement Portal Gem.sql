@@ -36,11 +36,11 @@ VALUES (26162,   1, 'Eaves of Tiofor Settlement Portal Gem') /* Name */
      , (26162,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26162,   1,   33556769) /* Setup */
-     , (26162,   3,  536870932) /* SoundTable */
-     , (26162,   6,   67111919) /* PaletteBase */
-     , (26162,   7,  268435723) /* ClothingBase */
-     , (26162,   8,  100675760) /* Icon */
-     , (26162,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26162,   1, 0x02000921) /* Setup */
+     , (26162,   3, 0x20000014) /* SoundTable */
+     , (26162,   6, 0x04000BEF) /* PaletteBase */
+     , (26162,   7, 0x1000010B) /* ClothingBase */
+     , (26162,   8, 0x060030B0) /* Icon */
+     , (26162,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26162,  28,        157) /* Spell - Summon Primary Portal I */
      , (26162,  31,      12494) /* LinkedPortalOne - Eaves of Tiofor Settlement Portal */;

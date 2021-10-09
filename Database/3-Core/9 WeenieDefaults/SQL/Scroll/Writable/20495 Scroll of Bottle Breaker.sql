@@ -24,7 +24,7 @@ VALUES (20495,   1, 'Scroll of Bottle Breaker') /* Name */
      , (20495,  15, 'When learned, this spell decreases the target''s Alchemy skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20495,   1,   33554826) /* Setup */
-     , (20495,   8,  100676480) /* Icon */
-     , (20495,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20495,   1, 0x0200018A) /* Setup */
+     , (20495,   8, 0x06003380) /* Icon */
+     , (20495,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20495,  28,       2188) /* Spell - Bottle Breaker */;

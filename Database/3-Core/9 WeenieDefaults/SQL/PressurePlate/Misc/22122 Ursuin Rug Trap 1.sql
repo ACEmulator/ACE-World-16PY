@@ -28,9 +28,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22122,   1, 'Ursuin Rug Trap 1') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22122,   1,   33555536) /* Setup */
-     , (22122,   2,  150994977) /* MotionTable */
-     , (22122,   8,  100668114) /* Icon */;
+VALUES (22122,   1, 0x02000450) /* Setup */
+     , (22122,   2, 0x09000021) /* MotionTable */
+     , (22122,   8, 0x060012D2) /* Icon */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (22122,  8 /* Activation */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

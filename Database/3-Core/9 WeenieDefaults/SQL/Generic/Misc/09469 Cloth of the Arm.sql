@@ -27,9 +27,9 @@ VALUES (9469,   1, 'Cloth of the Arm') /* Name */
      , (9469,  33, 'LugianClothArm') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9469,   1,   33555194) /* Setup */
-     , (9469,   3,  536870932) /* SoundTable */
-     , (9469,   6,   67111092) /* PaletteBase */
-     , (9469,   7,  268436165) /* ClothingBase */
-     , (9469,   8,  100671495) /* Icon */
-     , (9469,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9469,   1, 0x020002FA) /* Setup */
+     , (9469,   3, 0x20000014) /* SoundTable */
+     , (9469,   6, 0x040008B4) /* PaletteBase */
+     , (9469,   7, 0x100002C5) /* ClothingBase */
+     , (9469,   8, 0x06002007) /* Icon */
+     , (9469,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -30,10 +30,10 @@ VALUES (30139,   1, 'Rune of Frost Bane') /* Name */
      , (30139,  16, 'A lovely template for a rare magical gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30139,   1,   33554809) /* Setup */
-     , (30139,   3,  536870932) /* SoundTable */
-     , (30139,   6,   67111919) /* PaletteBase */
-     , (30139,   7,  268435723) /* ClothingBase */
-     , (30139,   8,  100674739) /* Icon */
-     , (30139,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30139,   1, 0x02000179) /* Setup */
+     , (30139,   3, 0x20000014) /* SoundTable */
+     , (30139,   6, 0x04000BEF) /* PaletteBase */
+     , (30139,   7, 0x1000010B) /* ClothingBase */
+     , (30139,   8, 0x06002CB3) /* Icon */
+     , (30139,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30139,  28,       2104) /* Spell - Gelidite's Bane */;

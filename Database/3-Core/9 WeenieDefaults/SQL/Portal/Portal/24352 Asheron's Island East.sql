@@ -25,10 +25,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24352,   1, 'Asheron''s Island East') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24352,   1,   33555925) /* Setup */
-     , (24352,   2,  150994947) /* MotionTable */
-     , (24352,   8,  100667499) /* Icon */;
+VALUES (24352,   1, 0x020005D5) /* Setup */
+     , (24352,   2, 0x09000003) /* MotionTable */
+     , (24352,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24352, 2, 3700949008, 44.004, 169.82, -0.095, -0.3178179, 0, 0, -0.9481518) /* Destination */
-/* @teleloc 0xDC980010 [44.004000 169.820000 -0.095000] -0.317818 0.000000 0.000000 -0.948152 */;
+VALUES (24352, 2, 0xDC980010, 44.004, 169.82, -0.095, -0.317818, 0, -0, -0.948152) /* Destination */
+/* @teleloc 0xDC980010 [44.004002 169.820007 -0.095000] -0.317818 0.000000 -0.000000 -0.948152 */;

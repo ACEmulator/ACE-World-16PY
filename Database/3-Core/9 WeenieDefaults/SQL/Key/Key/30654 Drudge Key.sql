@@ -24,7 +24,7 @@ VALUES (30654,   1, 'Drudge Key') /* Name */
      , (30654,  16, 'A key. Most likely used to open a door.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30654,   1,   33554784) /* Setup */
-     , (30654,   3,  536870932) /* SoundTable */
-     , (30654,   8,  100677396) /* Icon */
-     , (30654,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30654,   1, 0x02000160) /* Setup */
+     , (30654,   3, 0x20000014) /* SoundTable */
+     , (30654,   8, 0x06003714) /* Icon */
+     , (30654,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -23,7 +23,7 @@ VALUES (24234,   1, 'Olthoi Crest') /* Name */
      , (24234,  15, 'A crest from a deceased Olthoi') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24234,   1,   33556593) /* Setup */
-     , (24234,   3,  536870932) /* SoundTable */
-     , (24234,   8,  100674293) /* Icon */
-     , (24234,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24234,   1, 0x02000871) /* Setup */
+     , (24234,   3, 0x20000014) /* SoundTable */
+     , (24234,   8, 0x06002AF5) /* Icon */
+     , (24234,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -29,10 +29,10 @@ VALUES (19745,   1, 'Commemorative Bronze Statue') /* Name */
      , (19745,  15, 'A large commemorative statue of a Reedshark crafted by the Arcanum Tinker, in reward for destroying the statues threatening the cities of Yanshi and Nanto.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19745,   1,   33554489) /* Setup */
-     , (19745,   2,  150995208) /* MotionTable */
-     , (19745,   6,   67109313) /* PaletteBase */
-     , (19745,   7,  268436370) /* ClothingBase */
-     , (19745,   8,  100667939) /* Icon */
-     , (19745,  22,  872415386) /* PhysicsEffectTable */
-     , (19745,  36,  234881046) /* MutateFilter */;
+VALUES (19745,   1, 0x02000039) /* Setup */
+     , (19745,   2, 0x09000108) /* MotionTable */
+     , (19745,   6, 0x040001C1) /* PaletteBase */
+     , (19745,   7, 0x10000392) /* ClothingBase */
+     , (19745,   8, 0x06001223) /* Icon */
+     , (19745,  22, 0x3400009A) /* PhysicsEffectTable */
+     , (19745,  36, 0x0E000016) /* MutateFilter */;

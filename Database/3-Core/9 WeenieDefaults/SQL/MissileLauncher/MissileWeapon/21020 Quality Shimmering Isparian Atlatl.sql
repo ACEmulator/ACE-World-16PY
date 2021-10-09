@@ -18,7 +18,7 @@ VALUES (21020,   1,        256) /* ItemType - MissileWeapon */
      , (21020,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (21020,  49,         15) /* WeaponTime */
      , (21020,  50,          4) /* AmmoType - Atlatl */
-     , (21020,  51,          2) /* CombatUse - Missle */
+     , (21020,  51,          2) /* CombatUse - Missile */
      , (21020,  60,        120) /* WeaponRange */
      , (21020,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (21020, 106,        300) /* ItemSpellcraft */
@@ -50,15 +50,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21020,   1, 'Quality Shimmering Isparian Atlatl') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21020,   1,   33557745) /* Setup */
-     , (21020,   3,  536870932) /* SoundTable */
-     , (21020,   6,   67111919) /* PaletteBase */
-     , (21020,   7,  268436418) /* ClothingBase */
-     , (21020,   8,  100673201) /* Icon */
-     , (21020,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21020,   1, 0x02000CF1) /* Setup */
+     , (21020,   3, 0x20000014) /* SoundTable */
+     , (21020,   6, 0x04000BEF) /* PaletteBase */
+     , (21020,   7, 0x100003C2) /* ClothingBase */
+     , (21020,   8, 0x060026B1) /* Icon */
+     , (21020,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21020,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21020,  1312,      2)  /* Armor Self VI */
-     , (21020,  1602,      2)  /* Aura of Defender Self III */
-     , (21020,  1613,      2)  /* Aura of Blood Drinker Self III */;
+VALUES (21020,  1602,      2)  /* Aura of Defender Self III */
+     , (21020,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (21020,  1312,      2)  /* Armor Self VI */;

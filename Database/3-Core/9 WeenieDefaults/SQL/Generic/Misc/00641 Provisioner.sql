@@ -22,7 +22,7 @@ VALUES (641,   1, 'Provisioner') /* Name */
      , (641,  16, 'Provisioner') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (641,   1,   33555088) /* Setup */
-     , (641,   6,   67111092) /* PaletteBase */
-     , (641,   7,  268435656) /* ClothingBase */
-     , (641,   8,  100668115) /* Icon */;
+VALUES (641,   1, 0x02000290) /* Setup */
+     , (641,   6, 0x040008B4) /* PaletteBase */
+     , (641,   7, 0x100000C8) /* ClothingBase */
+     , (641,   8, 0x060012D3) /* Icon */;

@@ -24,7 +24,7 @@ VALUES (20463,   1, 'Scroll of Evisceration') /* Name */
      , (20463,  15, 'When learned, this spell shoots a magical blade at the target. The bolt does 110-180 points of slashing damage to the first thing it hits.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20463,   1,   33554826) /* Setup */
-     , (20463,   8,  100677028) /* Icon */
-     , (20463,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20463,   1, 0x0200018A) /* Setup */
+     , (20463,   8, 0x060035A4) /* Icon */
+     , (20463,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20463,  28,       2146) /* Spell - Evisceration */;

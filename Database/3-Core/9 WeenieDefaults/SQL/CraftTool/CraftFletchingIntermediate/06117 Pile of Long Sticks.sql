@@ -29,7 +29,7 @@ VALUES (6117,   1, 'Pile of Long Sticks') /* Name */
      , (6117,  20, 'Piles of Long Sticks') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6117,   1,   33556409) /* Setup */
-     , (6117,   3,  536870932) /* SoundTable */
-     , (6117,   8,  100670473) /* Icon */
-     , (6117,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6117,   1, 0x020007B9) /* Setup */
+     , (6117,   3, 0x20000014) /* SoundTable */
+     , (6117,   8, 0x06001C09) /* Icon */
+     , (6117,  22, 0x3400002B) /* PhysicsEffectTable */;

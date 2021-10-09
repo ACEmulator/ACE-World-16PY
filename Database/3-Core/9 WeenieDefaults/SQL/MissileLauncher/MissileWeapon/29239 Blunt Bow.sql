@@ -18,7 +18,7 @@ VALUES (29239,   1,        256) /* ItemType - MissileWeapon */
      , (29239,  48,          2) /* WeaponSkill - Bow */
      , (29239,  49,         45) /* WeaponTime */
      , (29239,  50,          1) /* AmmoType - Arrow */
-     , (29239,  51,          2) /* CombatUse - Missle */
+     , (29239,  51,          2) /* CombatUse - Missile */
      , (29239,  52,          2) /* ParentLocation - LeftHand */
      , (29239,  53,          3) /* PlacementPosition - LeftHand */
      , (29239,  60,        192) /* WeaponRange */
@@ -45,11 +45,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29239,   1, 'Blunt Bow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29239,   1,   33559030) /* Setup */
-     , (29239,   3,  536870932) /* SoundTable */
-     , (29239,   6,   67115373) /* PaletteBase */
-     , (29239,   7,  268436873) /* ClothingBase */
-     , (29239,   8,  100668815) /* Icon */
-     , (29239,  22,  872415275) /* PhysicsEffectTable */
-     , (29239,  36,  234881053) /* MutateFilter */
-     , (29239,  46,  939524167) /* TsysMutationFilter */;
+VALUES (29239,   1, 0x020011F6) /* Setup */
+     , (29239,   3, 0x20000014) /* SoundTable */
+     , (29239,   6, 0x0400196D) /* PaletteBase */
+     , (29239,   7, 0x10000589) /* ClothingBase */
+     , (29239,   8, 0x0600158F) /* Icon */
+     , (29239,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29239,  36, 0x0E00001D) /* MutateFilter */
+     , (29239,  46, 0x38000047) /* TsysMutationFilter */;

@@ -25,10 +25,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5447,   1, 'Darktide Festival Stone Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5447,   1,   33555925) /* Setup */
-     , (5447,   2,  150994947) /* MotionTable */
-     , (5447,   8,  100667499) /* Icon */;
+VALUES (5447,   1, 0x020005D5) /* Setup */
+     , (5447,   2, 0x09000003) /* MotionTable */
+     , (5447,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5447, 2, 238288959, 175.5, 146.8, 34, 0.9135454, 0, 0, -0.4067366) /* Destination */
-/* @teleloc 0x0E34003F [175.500000 146.800000 34.000000] 0.913545 0.000000 0.000000 -0.406737 */;
+VALUES (5447, 2, 0x0E34003F, 175.5, 146.8, 34, 0.913545, 0, 0, -0.406737) /* Destination */
+/* @teleloc 0x0E34003F [175.500000 146.800003 34.000000] 0.913545 0.000000 0.000000 -0.406737 */;

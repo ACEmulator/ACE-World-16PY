@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1347,   1, 'A Rat Nest') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1347,   1,   33554867) /* Setup */
-     , (1347,   2,  150994947) /* MotionTable */
-     , (1347,   8,  100667499) /* Icon */;
+VALUES (1347,   1, 0x020001B3) /* Setup */
+     , (1347,   2, 0x09000003) /* MotionTable */
+     , (1347,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1347, 2, 31261023, 30.1, -66.6, 0, 0.9997986, 0, 0, -0.02006983) /* Destination */
-/* @teleloc 0x01DD015F [30.100000 -66.600000 0.000000] 0.999799 0.000000 0.000000 -0.020070 */;
+VALUES (1347, 2, 0x01DD015F, 30.1, -66.6, 0, 0.999799, 0, 0, -0.02007) /* Destination */
+/* @teleloc 0x01DD015F [30.100000 -66.599998 0.000000] 0.999799 0.000000 0.000000 -0.020070 */;

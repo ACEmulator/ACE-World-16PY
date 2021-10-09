@@ -47,16 +47,16 @@ VALUES (12139,   1, 'Imbued Helm of the Simulacra') /* Name */
      , (12139,  16, 'A helm imbued with the power of the Asteliary Gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12139,   1,   33556883) /* Setup */
-     , (12139,   3,  536870932) /* SoundTable */
-     , (12139,   6,   67108990) /* PaletteBase */
-     , (12139,   7,  268436261) /* ClothingBase */
-     , (12139,   8,  100672133) /* Icon */
-     , (12139,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12139,   1, 0x02000993) /* Setup */
+     , (12139,   3, 0x20000014) /* SoundTable */
+     , (12139,   6, 0x0400007E) /* PaletteBase */
+     , (12139,   7, 0x10000325) /* ClothingBase */
+     , (12139,   8, 0x06002285) /* Icon */
+     , (12139,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12139,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12139,   248,      2)  /* Invulnerability Self V */
-     , (12139,   260,      2)  /* Impregnability Self V */
+VALUES (12139,   260,      2)  /* Impregnability Self V */
+     , (12139,  1485,      2)  /* Impenetrability V */
      , (12139,   278,      2)  /* Magic Resistance Self V */
-     , (12139,  1485,      2)  /* Impenetrability V */;
+     , (12139,   248,      2)  /* Invulnerability Self V */;

@@ -19,7 +19,7 @@ VALUES (20073,   1,        256) /* ItemType - MissileWeapon */
      , (20073,  48,          2) /* WeaponSkill - Bow */
      , (20073,  49,         40) /* WeaponTime */
      , (20073,  50,          1) /* AmmoType - Arrow */
-     , (20073,  51,          2) /* CombatUse - Missle */
+     , (20073,  51,          2) /* CombatUse - Missile */
      , (20073,  52,          2) /* ParentLocation - LeftHand */
      , (20073,  53,          3) /* PlacementPosition - LeftHand */
      , (20073,  60,        175) /* WeaponRange */
@@ -52,17 +52,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20073,   1, 'Good Flaming Isparian Bow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20073,   1,   33557759) /* Setup */
-     , (20073,   3,  536870932) /* SoundTable */
-     , (20073,   6,   67111919) /* PaletteBase */
-     , (20073,   7,  268436394) /* ClothingBase */
-     , (20073,   8,  100673016) /* Icon */
-     , (20073,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20073,   1, 0x02000CFF) /* Setup */
+     , (20073,   3, 0x20000014) /* SoundTable */
+     , (20073,   6, 0x04000BEF) /* PaletteBase */
+     , (20073,   7, 0x100003AA) /* ClothingBase */
+     , (20073,   8, 0x060025F8) /* Icon */
+     , (20073,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20073,  37,          2) /* ItemSkillLimit - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20073,  1094,      2)  /* Fire Protection Self VI */
+VALUES (20073,  1603,      2)  /* Aura of Defender Self IV */
+     , (20073,  1094,      2)  /* Fire Protection Self VI */
      , (20073,  1331,      2)  /* Strength Self V */
-     , (20073,  1603,      2)  /* Aura of Defender Self IV */
      , (20073,  1614,      2)  /* Aura of Blood Drinker Self IV */
      , (20073,  2676,      2)  /* Feeble Missile Weapon Aptitude */;

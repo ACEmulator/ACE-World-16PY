@@ -38,10 +38,10 @@ VALUES (11463,   1, 'Tewhate') /* Name */
      , (11463,  16, 'A beautifully carved axe. Fuse this with a triple totem to create one of Palenqual''s living weapons.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11463,   1,   33557233) /* Setup */
-     , (11463,   3,  536870932) /* SoundTable */
-     , (11463,   6,   67113336) /* PaletteBase */
-     , (11463,   7,  268436252) /* ClothingBase */
-     , (11463,   8,  100672070) /* Icon */
-     , (11463,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11463,   1, 0x02000AF1) /* Setup */
+     , (11463,   3, 0x20000014) /* SoundTable */
+     , (11463,   6, 0x04001178) /* PaletteBase */
+     , (11463,   7, 0x1000031C) /* ClothingBase */
+     , (11463,   8, 0x06002246) /* Icon */
+     , (11463,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11463,  30,         88) /* PhysicsScript - Create */;

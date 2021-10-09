@@ -29,11 +29,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4915,   1, 'Sho Wand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4915,   1,   33555999) /* Setup */
-     , (4915,   3,  536870932) /* SoundTable */
-     , (4915,   6,   67111919) /* PaletteBase */
-     , (4915,   7,  268435831) /* ClothingBase */
-     , (4915,   8,  100667509) /* Icon */
-     , (4915,  22,  872415275) /* PhysicsEffectTable */
-     , (4915,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
-     , (4915,  36,  234881046) /* MutateFilter */;
+VALUES (4915,   1, 0x0200061F) /* Setup */
+     , (4915,   3, 0x20000014) /* SoundTable */
+     , (4915,   6, 0x04000BEF) /* PaletteBase */
+     , (4915,   7, 0x10000177) /* ClothingBase */
+     , (4915,   8, 0x06001075) /* Icon */
+     , (4915,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (4915,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
+     , (4915,  36, 0x0E000016) /* MutateFilter */;

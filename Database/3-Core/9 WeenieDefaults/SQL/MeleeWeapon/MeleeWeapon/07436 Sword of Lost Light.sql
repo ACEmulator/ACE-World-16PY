@@ -46,15 +46,15 @@ VALUES (7436,   1, 'Sword of Lost Light') /* Name */
      , (7436,  16, 'The Sword of Lost Light, infused with white fire from Mount Esper and red fire from Mount Tenkarrdun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7436,   1,   33555927) /* Setup */
-     , (7436,   3,  536870932) /* SoundTable */
-     , (7436,   8,  100669772) /* Icon */
-     , (7436,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7436,   1, 0x020005D7) /* Setup */
+     , (7436,   3, 0x20000014) /* SoundTable */
+     , (7436,   8, 0x0600194C) /* Icon */
+     , (7436,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7436,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7436,   415,      2)  /* Heavy Weapon Mastery Other IV */
+VALUES (7436,  1406,      2)  /* Quickness Other IV */
      , (7436,  1358,      2)  /* Endurance Other IV */
-     , (7436,  1406,      2)  /* Quickness Other IV */
      , (7436,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (7436,  1625,      2)  /* Aura of Swift Killer Self IV */;
+     , (7436,  1625,      2)  /* Aura of Swift Killer Self IV */
+     , (7436,   415,      2)  /* Heavy Weapon Mastery Other IV */;

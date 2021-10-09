@@ -27,9 +27,9 @@ VALUES (19414,   1, 'Horn of Vigilance Base') /* Name */
      , (19414,  15, 'Horn of Vigilance Base.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19414,   1,   33557833) /* Setup */
-     , (19414,   3,  536870932) /* SoundTable */
-     , (19414,   6,   67111919) /* PaletteBase */
-     , (19414,   7,  268436348) /* ClothingBase */
-     , (19414,   8,  100673050) /* Icon */
-     , (19414,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19414,   1, 0x02000D49) /* Setup */
+     , (19414,   3, 0x20000014) /* SoundTable */
+     , (19414,   6, 0x04000BEF) /* PaletteBase */
+     , (19414,   7, 0x1000037C) /* ClothingBase */
+     , (19414,   8, 0x0600261A) /* Icon */
+     , (19414,  22, 0x3400002B) /* PhysicsEffectTable */;

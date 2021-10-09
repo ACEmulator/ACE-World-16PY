@@ -37,12 +37,12 @@ VALUES (27392,   1, 'Oubliette') /* Name */
      , (27392,  16, 'Deliver all non-viable test subjects to the oubliette for disposal. This stone is imprinted with the location. The Director also requests a status report on the one surviving subject there. Its tenacity is of interest.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27392,   1,   33556769) /* Setup */
-     , (27392,   3,  536870932) /* SoundTable */
-     , (27392,   6,   67111919) /* PaletteBase */
-     , (27392,   7,  268435723) /* ClothingBase */
-     , (27392,   8,  100668364) /* Icon */
-     , (27392,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27392,   1, 0x02000921) /* Setup */
+     , (27392,   3, 0x20000014) /* SoundTable */
+     , (27392,   6, 0x04000BEF) /* PaletteBase */
+     , (27392,   7, 0x1000010B) /* ClothingBase */
+     , (27392,   8, 0x060013CC) /* Icon */
+     , (27392,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27392,  28,        157) /* Spell - Summon Primary Portal I */
      , (27392,  31,      27403) /* LinkedPortalOne - Oubliette */
-     , (27392,  50,  100676404) /* IconOverlay */;
+     , (27392,  50, 0x06003334) /* IconOverlay */;

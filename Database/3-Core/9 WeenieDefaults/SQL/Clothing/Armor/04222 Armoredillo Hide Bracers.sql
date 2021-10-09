@@ -37,9 +37,9 @@ VALUES (4222,   1, 'Armoredillo Hide Bracers') /* Name */
      , (4222,  15, 'Bracers crafted from the hide of an Armoredillo.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4222,   1,   33554641) /* Setup */
-     , (4222,   3,  536870932) /* SoundTable */
-     , (4222,   6,   67108990) /* PaletteBase */
-     , (4222,   7,  268436690) /* ClothingBase */
-     , (4222,   8,  100674975) /* Icon */
-     , (4222,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4222,   1, 0x020000D1) /* Setup */
+     , (4222,   3, 0x20000014) /* SoundTable */
+     , (4222,   6, 0x0400007E) /* PaletteBase */
+     , (4222,   7, 0x100004D2) /* ClothingBase */
+     , (4222,   8, 0x06002D9F) /* Icon */
+     , (4222,  22, 0x3400002B) /* PhysicsEffectTable */;

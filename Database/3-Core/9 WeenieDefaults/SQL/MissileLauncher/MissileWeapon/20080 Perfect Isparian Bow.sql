@@ -19,7 +19,7 @@ VALUES (20080,   1,        256) /* ItemType - MissileWeapon */
      , (20080,  48,          2) /* WeaponSkill - Bow */
      , (20080,  49,         40) /* WeaponTime */
      , (20080,  50,          1) /* AmmoType - Arrow */
-     , (20080,  51,          2) /* CombatUse - Missle */
+     , (20080,  51,          2) /* CombatUse - Missile */
      , (20080,  52,          2) /* ParentLocation - LeftHand */
      , (20080,  53,          3) /* PlacementPosition - LeftHand */
      , (20080,  60,        175) /* WeaponRange */
@@ -50,12 +50,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20080,   1, 'Perfect Isparian Bow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20080,   1,   33557729) /* Setup */
-     , (20080,   3,  536870932) /* SoundTable */
-     , (20080,   6,   67111919) /* PaletteBase */
-     , (20080,   7,  268436394) /* ClothingBase */
-     , (20080,   8,  100673010) /* Icon */
-     , (20080,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20080,   1, 0x02000CE1) /* Setup */
+     , (20080,   3, 0x20000014) /* SoundTable */
+     , (20080,   6, 0x04000BEF) /* PaletteBase */
+     , (20080,   7, 0x100003AA) /* ClothingBase */
+     , (20080,   8, 0x060025F2) /* Icon */
+     , (20080,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20080,  37,          2) /* ItemSkillLimit - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

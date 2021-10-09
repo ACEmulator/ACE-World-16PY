@@ -75,13 +75,13 @@ VALUES (24593,   1, 'Aun Oreilauri the Healer') /* Name */
      , (24593,  24, 'Candeth Keep') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24593,   1,   33557117) /* Setup */
-     , (24593,   2,  150994954) /* MotionTable */
-     , (24593,   3,  536870931) /* SoundTable */
-     , (24593,   4,  805306380) /* CombatTable */
-     , (24593,   6,   67113280) /* PaletteBase */
-     , (24593,   7,  268436193) /* ClothingBase */
-     , (24593,   8,  100671756) /* Icon */;
+VALUES (24593,   1, 0x02000A7D) /* Setup */
+     , (24593,   2, 0x0900000A) /* MotionTable */
+     , (24593,   3, 0x20000013) /* SoundTable */
+     , (24593,   4, 0x3000000C) /* CombatTable */
+     , (24593,   6, 0x04001140) /* PaletteBase */
+     , (24593,   7, 0x100002E1) /* ClothingBase */
+     , (24593,   8, 0x0600210C) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24593,   1, 111, 0, 0) /* Strength */
@@ -97,9 +97,9 @@ VALUES (24593,   1,   259, 0, 0, 348) /* MaxHealth */
      , (24593,   5,   175, 0, 0, 334) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (24593, 14, 0, 2, 0, 210, 0, 1564.82686069954) /* ArcaneLore          Trained */
-     , (24593, 31, 0, 2, 0, 200, 0, 1564.82686069954) /* CreatureEnchantment Trained */
-     , (24593, 33, 0, 2, 0, 250, 0, 1564.82686069954) /* LifeMagic           Trained */;
+VALUES (24593, 14, 0, 2, 0, 210, 0, 1564.8268606995448) /* ArcaneLore          Trained */
+     , (24593, 31, 0, 2, 0, 200, 0, 1564.8268606995448) /* CreatureEnchantment Trained */
+     , (24593, 33, 0, 2, 0, 250, 0, 1564.8268606995448) /* LifeMagic           Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (24593,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

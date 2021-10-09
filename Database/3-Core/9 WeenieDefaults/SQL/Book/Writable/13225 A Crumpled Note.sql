@@ -26,10 +26,10 @@ VALUES (13225,   1, 'A Crumpled Note') /* Name */
      , (13225,  33, 'HollowNoteAcademyPickUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13225,   1,   33554773) /* Setup */
-     , (13225,   3,  536870932) /* SoundTable */
-     , (13225,   8,  100672433) /* Icon */
-     , (13225,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (13225,   1, 0x02000155) /* Setup */
+     , (13225,   3, 0x20000014) /* SoundTable */
+     , (13225,   8, 0x060023B1) /* Icon */
+     , (13225,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (13225, 1, 1000);

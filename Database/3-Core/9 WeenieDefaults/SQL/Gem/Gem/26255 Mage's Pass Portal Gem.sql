@@ -36,11 +36,11 @@ VALUES (26255,   1, 'Mage''s Pass Portal Gem') /* Name */
      , (26255,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26255,   1,   33556769) /* Setup */
-     , (26255,   3,  536870932) /* SoundTable */
-     , (26255,   6,   67111919) /* PaletteBase */
-     , (26255,   7,  268435723) /* ClothingBase */
-     , (26255,   8,  100675760) /* Icon */
-     , (26255,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26255,   1, 0x02000921) /* Setup */
+     , (26255,   3, 0x20000014) /* SoundTable */
+     , (26255,   6, 0x04000BEF) /* PaletteBase */
+     , (26255,   7, 0x1000010B) /* ClothingBase */
+     , (26255,   8, 0x060030B0) /* Icon */
+     , (26255,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26255,  28,        157) /* Spell - Summon Primary Portal I */
      , (26255,  31,      14271) /* LinkedPortalOne - Mage's Pass Portal */;

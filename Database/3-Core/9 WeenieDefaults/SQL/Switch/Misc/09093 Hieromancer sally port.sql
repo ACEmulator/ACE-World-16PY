@@ -29,8 +29,8 @@ VALUES (9093,   1, 'Hieromancer sally port') /* Name */
      , (9093,  22, 'The portal egress has not recharged yet!') /* ActivationFailure */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9093,   1,   33554669) /* Setup */
-     , (9093,   3,  536870932) /* SoundTable */
-     , (9093,   8,  100667494) /* Icon */
-     , (9093,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9093,   1, 0x020000ED) /* Setup */
+     , (9093,   3, 0x20000014) /* SoundTable */
+     , (9093,   8, 0x06001066) /* Icon */
+     , (9093,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9093,  28,       2364) /* Spell - Egress */;

@@ -45,18 +45,18 @@ VALUES (28059,   1, 'War Staff of Aerfalle') /* Name */
      , (28059,  33, 'UberAerfalleStaffObtained') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28059,   1,   33556630) /* Setup */
-     , (28059,   3,  536870932) /* SoundTable */
-     , (28059,   6,   67111919) /* PaletteBase */
-     , (28059,   7,  268436016) /* ClothingBase */
-     , (28059,   8,  100670752) /* Icon */
-     , (28059,  22,  872415275) /* PhysicsEffectTable */
-     , (28059,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (28059,   1, 0x02000896) /* Setup */
+     , (28059,   3, 0x20000014) /* SoundTable */
+     , (28059,   6, 0x04000BEF) /* PaletteBase */
+     , (28059,   7, 0x10000230) /* ClothingBase */
+     , (28059,   8, 0x06001D20) /* Icon */
+     , (28059,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (28059,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (28059,  28,       2123) /* Spell - Celdiseth's Searing */
-     , (28059,  36,  234881046) /* MutateFilter */
+     , (28059,  36, 0x0E000016) /* MutateFilter */
      , (28059,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28059,   616,      2)  /* Life Magic Mastery Other VI */
-     , (28059,   909,      2)  /* Leadership Mastery Other VI */
-     , (28059,  2322,      2)  /* Hieromancer's Boon */;
+VALUES (28059,   909,      2)  /* Leadership Mastery Other VI */
+     , (28059,  2322,      2)  /* Hieromancer's Boon */
+     , (28059,   616,      2)  /* Life Magic Mastery Other VI */;

@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14652,   1, 'Mistdweller Villas Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14652,   1,   33554867) /* Setup */
-     , (14652,   2,  150994947) /* MotionTable */
-     , (14652,   8,  100667499) /* Icon */;
+VALUES (14652,   1, 0x020001B3) /* Setup */
+     , (14652,   2, 0x09000003) /* MotionTable */
+     , (14652,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14652, 2, 2443509806, 135.67, 123.794, 20.699, 0.09780039, 0, 0, -0.9952061) /* Destination */
-/* @teleloc 0x91A5002E [135.670000 123.794000 20.699000] 0.097800 0.000000 0.000000 -0.995206 */;
+VALUES (14652, 2, 0x91A5002E, 135.67, 123.794, 20.699, 0.0978, 0, 0, -0.995206) /* Destination */
+/* @teleloc 0x91A5002E [135.669998 123.793999 20.698999] 0.097800 0.000000 0.000000 -0.995206 */;

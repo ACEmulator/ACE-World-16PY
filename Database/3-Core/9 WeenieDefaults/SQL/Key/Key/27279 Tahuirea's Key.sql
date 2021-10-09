@@ -26,7 +26,7 @@ VALUES (27279,   1, 'Tahuirea''s Key') /* Name */
      , (27279,  16, 'A key made from what seems to be Siraluun Bones. Small, bright feathers adorn the holding end of it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27279,   1,   33554784) /* Setup */
-     , (27279,   3,  536870932) /* SoundTable */
-     , (27279,   8,  100676394) /* Icon */
-     , (27279,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27279,   1, 0x02000160) /* Setup */
+     , (27279,   3, 0x20000014) /* SoundTable */
+     , (27279,   8, 0x0600332A) /* Icon */
+     , (27279,  22, 0x3400002B) /* PhysicsEffectTable */;

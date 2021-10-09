@@ -22,5 +22,5 @@ VALUES (14683,   1, 'Bleached Skull Wastes Settlement') /* Name */
      , (14683,  16, 'Welcome to Bleached Skull Wastes Settlement') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14683,   1,   33557463) /* Setup */
-     , (14683,   8,  100668115) /* Icon */;
+VALUES (14683,   1, 0x02000BD7) /* Setup */
+     , (14683,   8, 0x060012D3) /* Icon */;

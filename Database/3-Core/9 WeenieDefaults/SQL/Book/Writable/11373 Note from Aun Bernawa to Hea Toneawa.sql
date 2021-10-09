@@ -25,10 +25,10 @@ VALUES (11373,   1, 'Note from Aun Bernawa to Hea Toneawa') /* Name */
      , (11373,  16, 'A note from Aun Bernawa for delivery to Hea Toneawa, post-haste.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11373,   1,   33554773) /* Setup */
-     , (11373,   3,  536870932) /* SoundTable */
-     , (11373,   8,  100668176) /* Icon */
-     , (11373,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11373,   1, 0x02000155) /* Setup */
+     , (11373,   3, 0x20000014) /* SoundTable */
+     , (11373,   8, 0x06001310) /* Icon */
+     , (11373,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (11373, 1, 1000);

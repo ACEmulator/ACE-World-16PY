@@ -22,5 +22,5 @@ VALUES (14312,   1, 'Jackcat Canyon') /* Name */
      , (14312,  16, 'Welcome to Jackcat Canyon') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14312,   1,   33557463) /* Setup */
-     , (14312,   8,  100668115) /* Icon */;
+VALUES (14312,   1, 0x02000BD7) /* Setup */
+     , (14312,   8, 0x060012D3) /* Icon */;

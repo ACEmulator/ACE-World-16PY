@@ -49,15 +49,15 @@ VALUES (24612,   1, 'Sword of Lost Light') /* Name */
      , (24612,  16, 'The Sword of Lost Light, infused with white fire from Mount Esper.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24612,   1,   33558416) /* Setup */
-     , (24612,   3,  536870932) /* SoundTable */
-     , (24612,   8,  100674513) /* Icon */
-     , (24612,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24612,   1, 0x02000F90) /* Setup */
+     , (24612,   3, 0x20000014) /* SoundTable */
+     , (24612,   8, 0x06002BD1) /* Icon */
+     , (24612,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24612,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24612,  1377,      2)  /* Coordination Self V */
+VALUES (24612,  1604,      2)  /* Aura of Defender Self V */
      , (24612,  1591,      2)  /* Aura of Heart Seeker Self V */
-     , (24612,  1604,      2)  /* Aura of Defender Self V */
      , (24612,  1615,      2)  /* Aura of Blood Drinker Self V */
+     , (24612,  1377,      2)  /* Coordination Self V */
      , (24612,  1624,      2)  /* Aura of Swift Killer Self III */;

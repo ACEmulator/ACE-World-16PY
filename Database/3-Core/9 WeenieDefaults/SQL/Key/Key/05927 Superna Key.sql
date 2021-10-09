@@ -26,7 +26,7 @@ VALUES (5927,   1, 'Superna Key') /* Name */
      , (5927,  16, 'This key was found in the Northeast room of the Impious Temple.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5927,   1,   33554784) /* Setup */
-     , (5927,   3,  536870932) /* SoundTable */
-     , (5927,   8,  100668441) /* Icon */
-     , (5927,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5927,   1, 0x02000160) /* Setup */
+     , (5927,   3, 0x20000014) /* SoundTable */
+     , (5927,   8, 0x06001419) /* Icon */
+     , (5927,  22, 0x3400002B) /* PhysicsEffectTable */;

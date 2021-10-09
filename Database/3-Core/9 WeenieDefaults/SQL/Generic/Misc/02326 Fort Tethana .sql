@@ -22,5 +22,5 @@ VALUES (2326,   1, 'Fort Tethana ') /* Name */
      , (2326,  16, 'Welcome to Fort Tethana, the fort located in a forsaken land.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2326,   1,   33555088) /* Setup */
-     , (2326,   8,  100668115) /* Icon */;
+VALUES (2326,   1, 0x02000290) /* Setup */
+     , (2326,   8, 0x060012D3) /* Icon */;

@@ -22,5 +22,5 @@ VALUES (25769,   1, 'Large Gharu''ndim Rug') /* Name */
      , (25769,  15, 'A large Gharu''ndim rug.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25769,   1,   33558248) /* Setup */
-     , (25769,   8,  100675559) /* Icon */;
+VALUES (25769,   1, 0x02000EE8) /* Setup */
+     , (25769,   8, 0x06002FE7) /* Icon */;

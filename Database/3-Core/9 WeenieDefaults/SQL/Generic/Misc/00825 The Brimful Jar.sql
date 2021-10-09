@@ -22,7 +22,7 @@ VALUES (825,   1, 'The Brimful Jar') /* Name */
      , (825,  16, 'The Brimful Jar') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (825,   1,   33555088) /* Setup */
-     , (825,   6,   67111092) /* PaletteBase */
-     , (825,   7,  268435656) /* ClothingBase */
-     , (825,   8,  100668115) /* Icon */;
+VALUES (825,   1, 0x02000290) /* Setup */
+     , (825,   6, 0x040008B4) /* PaletteBase */
+     , (825,   7, 0x100000C8) /* ClothingBase */
+     , (825,   8, 0x060012D3) /* Icon */;

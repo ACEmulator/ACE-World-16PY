@@ -30,7 +30,7 @@ VALUES (29515,  22, True ) /* Inscribable */
      , (29515, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29515,   5, -0.0166) /* ManaRate */
+VALUES (29515,   5,  -0.017) /* ManaRate */
      , (29515,  12,    0.66) /* Shade */
      , (29515,  13,     1.2) /* ArmorModVsSlash */
      , (29515,  14,     1.2) /* ArmorModVsPierce */
@@ -46,17 +46,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29515,   1, 'Noble Coat of Balance') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29515,   1,   33554642) /* Setup */
-     , (29515,   3,  536870932) /* SoundTable */
-     , (29515,   6,   67108990) /* PaletteBase */
-     , (29515,   7,  268436877) /* ClothingBase */
-     , (29515,   8,  100675042) /* Icon */
-     , (29515,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29515,   1, 0x020000D2) /* Setup */
+     , (29515,   3, 0x20000014) /* SoundTable */
+     , (29515,   6, 0x0400007E) /* PaletteBase */
+     , (29515,   7, 0x1000058D) /* ClothingBase */
+     , (29515,   8, 0x06002DE2) /* Icon */
+     , (29515,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29515,   297,      2)  /* Light Weapon Mastery Other VI */
+     , (29515,   417,      2)  /* Heavy Weapon Mastery Other VI */
      , (29515,   345,      2)  /* Light Weapon Mastery Other VI */
      , (29515,   393,      2)  /* Light Weapon Mastery Other VI */
-     , (29515,   417,      2)  /* Heavy Weapon Mastery Other VI */
      , (29515,  2108,      2)  /* Brogard's Defiance */
      , (29515,  3575,      2)  /* Perfect Balance */;

@@ -47,15 +47,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24567,   1, 'Quadruple-bladed Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24567,   1,   33558379) /* Setup */
-     , (24567,   3,  536870932) /* SoundTable */
-     , (24567,   6,   67111919) /* PaletteBase */
-     , (24567,   7,  268435779) /* ClothingBase */
-     , (24567,   8,  100674408) /* Icon */
-     , (24567,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24567,   1, 0x02000F6B) /* Setup */
+     , (24567,   3, 0x20000014) /* SoundTable */
+     , (24567,   6, 0x04000BEF) /* PaletteBase */
+     , (24567,   7, 0x10000143) /* ClothingBase */
+     , (24567,   8, 0x06002B68) /* Icon */
+     , (24567,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24567,  30,         88) /* PhysicsScript - Create */
-     , (24567,  36,  234881053) /* MutateFilter */
-     , (24567,  46,  939524098) /* TsysMutationFilter */;
+     , (24567,  36, 0x0E00001D) /* MutateFilter */
+     , (24567,  46, 0x38000002) /* TsysMutationFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24567,  1616,      2)  /* Aura of Blood Drinker Self VI */;

@@ -26,7 +26,7 @@ VALUES (6436,   1, 'Wedding Chest Key') /* Name */
      , (6436,  16, 'A simple key that opens the Wedding Chest in the Wedding Hall.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6436,   1,   33554784) /* Setup */
-     , (6436,   3,  536870932) /* SoundTable */
-     , (6436,   8,  100668439) /* Icon */
-     , (6436,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6436,   1, 0x02000160) /* Setup */
+     , (6436,   3, 0x20000014) /* SoundTable */
+     , (6436,   8, 0x06001417) /* Icon */
+     , (6436,  22, 0x3400002B) /* PhysicsEffectTable */;

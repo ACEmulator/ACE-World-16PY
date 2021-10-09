@@ -25,13 +25,13 @@ VALUES (2620,   1, 'Advocate Fane') /* Name */
      , (2620,  18, 'Congratulations. You completed the advocate quest.') /* UseMessage */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2620,   1,   33555638) /* Setup */
-     , (2620,   2,  150995056) /* MotionTable */
-     , (2620,   3,  536870964) /* SoundTable */
-     , (2620,   6,   67111919) /* PaletteBase */
-     , (2620,   7,  268435731) /* ClothingBase */
-     , (2620,   8,  100669873) /* Icon */
-     , (2620,  25,  268435537) /* UseTargetSuccessAnimation - Twitch1 */
-     , (2620,  26,  268435538) /* UseTargetFailureAnimation - Twitch2 */
-     , (2620,  27,  318767229) /* UseUserAnimation - BowDeep */
+VALUES (2620,   1, 0x020004B6) /* Setup */
+     , (2620,   2, 0x09000070) /* MotionTable */
+     , (2620,   3, 0x20000034) /* SoundTable */
+     , (2620,   6, 0x04000BEF) /* PaletteBase */
+     , (2620,   7, 0x10000113) /* ClothingBase */
+     , (2620,   8, 0x060019B1) /* Icon */
+     , (2620,  25, 0x10000051) /* UseTargetSuccessAnimation - Twitch1 */
+     , (2620,  26, 0x10000052) /* UseTargetFailureAnimation - Twitch2 */
+     , (2620,  27, 0x1300007D) /* UseUserAnimation - BowDeep */
      , (2620,  38,       3653) /* UseCreateItem - The Advocates' Tome */;

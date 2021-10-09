@@ -33,7 +33,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25501,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25501,   5, -0.0166) /* ManaRate */
+VALUES (25501,   5,  -0.017) /* ManaRate */
      , (25501,  21,    0.62) /* WeaponLength */
      , (25501,  22,    0.25) /* DamageVariance */
      , (25501,  29,    1.14) /* WeaponDefense */
@@ -45,12 +45,12 @@ VALUES (25501,   1, 'Renegade Mace') /* Name */
      , (25501,  16, 'An acid mace crafted by the Renegades. The head appears to have been skillfully carved out and the cavity contains elemental acid. Despite it''s delicate look the mace is unusually strong and resilient.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25501,   1,   33558438) /* Setup */
-     , (25501,   3,  536870932) /* SoundTable */
-     , (25501,   8,  100674810) /* Icon */
-     , (25501,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25501,   1, 0x02000FA6) /* Setup */
+     , (25501,   3, 0x20000014) /* SoundTable */
+     , (25501,   8, 0x06002CFA) /* Icon */
+     , (25501,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25501,  1332,      2)  /* Strength Self VI */
-     , (25501,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (25501,  1627,      2)  /* Aura of Swift Killer Self VI */;
+VALUES (25501,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (25501,  1627,      2)  /* Aura of Swift Killer Self VI */
+     , (25501,  1332,      2)  /* Strength Self VI */;

@@ -25,7 +25,7 @@ VALUES (5981,   1, 'Scroll of Alchemy Ineptitude Other II') /* Name */
      , (5981,  16, 'When learned, this spell decreases the target''s Alchemy skill by 20%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5981,   1,   33554826) /* Setup */
-     , (5981,   8,  100676480) /* Icon */
-     , (5981,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5981,   1, 0x0200018A) /* Setup */
+     , (5981,   8, 0x06003380) /* Icon */
+     , (5981,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5981,  28,       1770) /* Spell - Alchemy Ineptitude Other II */;

@@ -45,18 +45,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6227,   1, 'Peerless Shivering Atlan Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6227,   1,   33556382) /* Setup */
-     , (6227,   3,  536870932) /* SoundTable */
-     , (6227,   6,   67111919) /* PaletteBase */
-     , (6227,   7,  268435961) /* ClothingBase */
-     , (6227,   8,  100670538) /* Icon */
-     , (6227,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6227,   1, 0x0200079E) /* Setup */
+     , (6227,   3, 0x20000014) /* SoundTable */
+     , (6227,   6, 0x04000BEF) /* PaletteBase */
+     , (6227,   7, 0x100001F9) /* ClothingBase */
+     , (6227,   8, 0x06001C4A) /* Icon */
+     , (6227,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6227,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6227,  1033,      2)  /* Cold Protection Self IV */
-     , (6227,  1400,      2)  /* Quickness Self IV */
+VALUES (6227,  1603,      2)  /* Aura of Defender Self IV */
+     , (6227,  1033,      2)  /* Cold Protection Self IV */
      , (6227,  1590,      2)  /* Aura of Heart Seeker Self IV */
-     , (6227,  1603,      2)  /* Aura of Defender Self IV */
      , (6227,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (6227,  1400,      2)  /* Quickness Self IV */
      , (6227,  1625,      2)  /* Aura of Swift Killer Self IV */;

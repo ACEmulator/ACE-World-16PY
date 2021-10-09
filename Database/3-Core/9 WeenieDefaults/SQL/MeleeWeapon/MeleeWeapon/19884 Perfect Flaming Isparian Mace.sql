@@ -49,17 +49,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19884,   1, 'Perfect Flaming Isparian Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19884,   1,   33556328) /* Setup */
-     , (19884,   3,  536870932) /* SoundTable */
-     , (19884,   6,   67111919) /* PaletteBase */
-     , (19884,   7,  268436382) /* ClothingBase */
-     , (19884,   8,  100672921) /* Icon */
-     , (19884,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19884,   1, 0x02000768) /* Setup */
+     , (19884,   3, 0x20000014) /* SoundTable */
+     , (19884,   6, 0x04000BEF) /* PaletteBase */
+     , (19884,   7, 0x1000039E) /* ClothingBase */
+     , (19884,   8, 0x06002599) /* Icon */
+     , (19884,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19884,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19884,  1092,      2)  /* Fire Protection Self IV */
-     , (19884,  1329,      2)  /* Strength Self III */
+     , (19884,  2690,      2)  /* Moderate Light Weapon Aptitude */
      , (19884,  1592,      2)  /* Aura of Heart Seeker Self VI */
-     , (19884,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (19884,  2690,      2)  /* Moderate Light Weapon Aptitude */;
+     , (19884,  1329,      2)  /* Strength Self III */
+     , (19884,  1616,      2)  /* Aura of Blood Drinker Self VI */;

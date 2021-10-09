@@ -22,7 +22,7 @@ VALUES (24582,   1, 'Rkos and Ry''zir''s Metalworks') /* Name */
      , (24582,  16, 'The finest armor and weapons in the land. Our armor''s unbreakable and our weapons unstoppable.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24582,   1,   33555088) /* Setup */
-     , (24582,   6,   67111092) /* PaletteBase */
-     , (24582,   7,  268435653) /* ClothingBase */
-     , (24582,   8,  100668115) /* Icon */;
+VALUES (24582,   1, 0x02000290) /* Setup */
+     , (24582,   6, 0x040008B4) /* PaletteBase */
+     , (24582,   7, 0x100000C5) /* ClothingBase */
+     , (24582,   8, 0x060012D3) /* Icon */;

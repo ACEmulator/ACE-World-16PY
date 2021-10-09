@@ -71,12 +71,12 @@ VALUES (28254,   1, 'Giant Phyntos Hive') /* Name */
      , (28254,  15, 'A hollowed out tree trunk that has a Phyntos Wasp Hive in it.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28254,   1,   33558821) /* Setup */
-     , (28254,   2,  150995305) /* MotionTable */
-     , (28254,   3,  536870993) /* SoundTable */
-     , (28254,   4,  805306372) /* CombatTable */
-     , (28254,   8,  100676680) /* Icon */
-     , (28254,  22,  872415339) /* PhysicsEffectTable */
+VALUES (28254,   1, 0x02001125) /* Setup */
+     , (28254,   2, 0x09000169) /* MotionTable */
+     , (28254,   3, 0x20000051) /* SoundTable */
+     , (28254,   4, 0x30000004) /* CombatTable */
+     , (28254,   8, 0x06003448) /* Icon */
+     , (28254,  22, 0x3400006B) /* PhysicsEffectTable */
      , (28254,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -93,9 +93,9 @@ VALUES (28254,   1,   445, 0, 0, 550) /* MaxHealth */
      , (28254,   5,   150, 0, 0, 300) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (28254,  6, 0, 3, 0, 325, 0, 2005.63525142409) /* MeleeDefense        Specialized */
-     , (28254,  7, 0, 3, 0, 420, 0, 2005.63525142409) /* MissileDefense      Specialized */
-     , (28254, 15, 0, 3, 0, 267, 0, 2005.63525142409) /* MagicDefense        Specialized */;
+VALUES (28254,  6, 0, 3, 0, 325, 0, 2005.635251424089) /* MeleeDefense        Specialized */
+     , (28254,  7, 0, 3, 0, 420, 0, 2005.635251424089) /* MissileDefense      Specialized */
+     , (28254, 15, 0, 3, 0, 267, 0, 2005.635251424089) /* MagicDefense        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (28254,  0,  4,  0,    0,  500,  750,  750,  750,  750,  500,  750,  750,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

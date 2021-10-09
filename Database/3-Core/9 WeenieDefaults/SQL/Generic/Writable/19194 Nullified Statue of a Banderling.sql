@@ -26,9 +26,9 @@ VALUES (19194,   1, 'Nullified Statue of a Banderling') /* Name */
      , (19194,  15, 'This nullified shell is all that remains of the living Statue of a Banderling that once threatened our peaceful town. Destroyed through the sole efforts of the citizens of Dereth, it remains as a testament to their valor. This land is yours now.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19194,   1,   33554481) /* Setup */
-     , (19194,   2,  150995161) /* MotionTable */
-     , (19194,   3,  536871052) /* SoundTable */
-     , (19194,   6,   67109303) /* PaletteBase */
-     , (19194,   7,  268435549) /* ClothingBase */
-     , (19194,   8,  100667453) /* Icon */;
+VALUES (19194,   1, 0x02000031) /* Setup */
+     , (19194,   2, 0x090000D9) /* MotionTable */
+     , (19194,   3, 0x2000008C) /* SoundTable */
+     , (19194,   6, 0x040001B7) /* PaletteBase */
+     , (19194,   7, 0x1000005D) /* ClothingBase */
+     , (19194,   8, 0x0600103D) /* Icon */;

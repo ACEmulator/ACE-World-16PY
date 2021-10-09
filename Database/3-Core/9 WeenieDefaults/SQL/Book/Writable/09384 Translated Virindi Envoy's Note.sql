@@ -25,10 +25,10 @@ VALUES (9384,   1, 'Translated Virindi Envoy''s Note') /* Name */
      , (9384,  16, 'A note translated by Diyas al-Yat, from a fragment of obsidian found in the possession of a Virindi.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9384,   1,   33554773) /* Setup */
-     , (9384,   3,  536870932) /* SoundTable */
-     , (9384,   8,  100668176) /* Icon */
-     , (9384,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9384,   1, 0x02000155) /* Setup */
+     , (9384,   3, 0x20000014) /* SoundTable */
+     , (9384,   8, 0x06001310) /* Icon */
+     , (9384,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (9384, 2, 1000);

@@ -33,9 +33,9 @@ VALUES (14758,   1, 'Peppermint Chocolate Bar') /* Name */
      , (14758,  20, 'Peppermint Chocolate Bars') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14758,   1,   33555677) /* Setup */
-     , (14758,   3,  536870932) /* SoundTable */
-     , (14758,   6,   67111919) /* PaletteBase */
-     , (14758,   7,  268435979) /* ClothingBase */
-     , (14758,   8,  100672534) /* Icon */
-     , (14758,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14758,   1, 0x020004DD) /* Setup */
+     , (14758,   3, 0x20000014) /* SoundTable */
+     , (14758,   6, 0x04000BEF) /* PaletteBase */
+     , (14758,   7, 0x1000020B) /* ClothingBase */
+     , (14758,   8, 0x06002416) /* Icon */
+     , (14758,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -25,20 +25,20 @@ VALUES (27105,  22, True ) /* Inscribable */
      , (27105,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27105,   5, -0.033333) /* ManaRate */;
+VALUES (27105,   5,  -0.033) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27105,   1, 'Elysa''s Bangle') /* Name */
      , (27105,  16, 'This bracelet is gifted for your service to the Queen. The information you gathered to obtain this bracelet will prove invaluable.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27105,   1,   33554683) /* Setup */
-     , (27105,   3,  536870932) /* SoundTable */
-     , (27105,   6,   67111919) /* PaletteBase */
-     , (27105,   7,  268436286) /* ClothingBase */
-     , (27105,   8,  100675930) /* Icon */
-     , (27105,  22,  872415275) /* PhysicsEffectTable */
-     , (27105,  36,  234881046) /* MutateFilter */;
+VALUES (27105,   1, 0x020000FB) /* Setup */
+     , (27105,   3, 0x20000014) /* SoundTable */
+     , (27105,   6, 0x04000BEF) /* PaletteBase */
+     , (27105,   7, 0x1000033E) /* ClothingBase */
+     , (27105,   8, 0x0600315A) /* Icon */
+     , (27105,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27105,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27105,   270,      2)  /* Magic Resistance Other III */;

@@ -25,7 +25,7 @@ VALUES (9662,   1, 'Scroll of Drain Mana Other III') /* Name */
      , (9662,  16, 'When learned, this spell drains one-quarter of the target''s Mana and gives 50% of that to the caster.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9662,   1,   33554826) /* Setup */
-     , (9662,   8,  100676932) /* Icon */
-     , (9662,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9662,   1, 0x0200018A) /* Setup */
+     , (9662,   8, 0x06003544) /* Icon */
+     , (9662,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9662,  28,       1262) /* Spell - Drain Mana Other III */;

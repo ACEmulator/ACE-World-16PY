@@ -29,7 +29,7 @@ VALUES (5303,   1, 'Hearty Mana Rabbit Stew') /* Name */
      , (5303,  20, 'Bowls of Hearty Mana Rabbit Stew ') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5303,   1,   33555968) /* Setup */
-     , (5303,   3,  536870932) /* SoundTable */
-     , (5303,   8,  100670175) /* Icon */
-     , (5303,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5303,   1, 0x02000600) /* Setup */
+     , (5303,   3, 0x20000014) /* SoundTable */
+     , (5303,   8, 0x06001ADF) /* Icon */
+     , (5303,  22, 0x3400002B) /* PhysicsEffectTable */;

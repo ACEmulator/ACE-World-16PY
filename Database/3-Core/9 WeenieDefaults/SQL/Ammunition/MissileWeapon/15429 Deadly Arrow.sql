@@ -43,9 +43,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15429,   1, 'Deadly Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15429,   1,   33554724) /* Setup */
-     , (15429,   3,  536870932) /* SoundTable */
-     , (15429,   6,   67111919) /* PaletteBase */
-     , (15429,   7,  268436303) /* ClothingBase */
-     , (15429,   8,  100672667) /* Icon */
-     , (15429,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15429,   1, 0x02000124) /* Setup */
+     , (15429,   3, 0x20000014) /* SoundTable */
+     , (15429,   6, 0x04000BEF) /* PaletteBase */
+     , (15429,   7, 0x1000034F) /* ClothingBase */
+     , (15429,   8, 0x0600249B) /* Icon */
+     , (15429,  22, 0x3400002B) /* PhysicsEffectTable */;

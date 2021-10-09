@@ -25,7 +25,7 @@ VALUES (12232,  22, True ) /* Inscribable */
      , (12232,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12232,   5, -0.033333) /* ManaRate */;
+VALUES (12232,   5,  -0.033) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12232,   1, 'Doll Leader''s Charm') /* Name */
@@ -34,15 +34,15 @@ VALUES (12232,   1, 'Doll Leader''s Charm') /* Name */
      , (12232,  33, 'CharmDollOct01') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12232,   1,   33554683) /* Setup */
-     , (12232,   3,  536870932) /* SoundTable */
-     , (12232,   6,   67111919) /* PaletteBase */
-     , (12232,   7,  268436286) /* ClothingBase */
-     , (12232,   8,  100672215) /* Icon */
-     , (12232,  22,  872415275) /* PhysicsEffectTable */
-     , (12232,  36,  234881046) /* MutateFilter */
+VALUES (12232,   1, 0x020000FB) /* Setup */
+     , (12232,   3, 0x20000014) /* SoundTable */
+     , (12232,   6, 0x04000BEF) /* PaletteBase */
+     , (12232,   7, 0x1000033E) /* ClothingBase */
+     , (12232,   8, 0x060022D7) /* Icon */
+     , (12232,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (12232,  36, 0x0E000016) /* MutateFilter */
      , (12232,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12232,   632,      2)  /* War Magic Mastery Self IV */
-     , (12232,  1424,      2)  /* Focus Self IV */;
+VALUES (12232,  1424,      2)  /* Focus Self IV */
+     , (12232,   632,      2)  /* War Magic Mastery Self IV */;

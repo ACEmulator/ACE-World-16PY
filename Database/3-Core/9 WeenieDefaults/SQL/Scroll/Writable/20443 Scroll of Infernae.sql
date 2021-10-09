@@ -24,7 +24,7 @@ VALUES (20443,   1, 'Scroll of Infernae') /* Name */
      , (20443,  15, 'When learned, this spell shoots five bolts of flame toward the target. Each bolt does 40-80 points of fire damage to the first thing it hits.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20443,   1,   33554826) /* Setup */
-     , (20443,   8,  100677022) /* Icon */
-     , (20443,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20443,   1, 0x0200018A) /* Setup */
+     , (20443,   8, 0x0600359E) /* Icon */
+     , (20443,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20443,  28,       2130) /* Spell - Infernae */;

@@ -31,7 +31,7 @@ VALUES (5940,   1, 'Smelting Pot') /* Name */
      , (5940,  16, 'A crude pot used to heat ore to super high temperature. The smelting pot has seen better days.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5940,   1,   33555972) /* Setup */
-     , (5940,   3,  536870932) /* SoundTable */
-     , (5940,   8,  100669994) /* Icon */
-     , (5940,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5940,   1, 0x02000604) /* Setup */
+     , (5940,   3, 0x20000014) /* SoundTable */
+     , (5940,   8, 0x06001A2A) /* Icon */
+     , (5940,  22, 0x3400002B) /* PhysicsEffectTable */;

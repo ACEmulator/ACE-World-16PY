@@ -44,14 +44,14 @@ VALUES (28156,   1, 'Teal Oculus') /* Name */
      , (28156,  16, 'A solidifed adolescent azure gromnie eye.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28156,   1,   33554809) /* Setup */
-     , (28156,   3,  536870932) /* SoundTable */
-     , (28156,   6,   67108990) /* PaletteBase */
-     , (28156,   7,  268436858) /* ClothingBase */
-     , (28156,   8,  100674136) /* Icon */
-     , (28156,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28156,   1, 0x02000179) /* Setup */
+     , (28156,   3, 0x20000014) /* SoundTable */
+     , (28156,   6, 0x0400007E) /* PaletteBase */
+     , (28156,   7, 0x1000057A) /* ClothingBase */
+     , (28156,   8, 0x06002A58) /* Icon */
+     , (28156,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28156,  2148,      2)  /* Caustic Boon */
-     , (28156,  2616,      2)  /* Minor Acid Ward */
-     , (28156,  3371,      2)  /* Greater Life Giver */;
+     , (28156,  3371,      2)  /* Greater Life Giver */
+     , (28156,  2616,      2)  /* Minor Acid Ward */;

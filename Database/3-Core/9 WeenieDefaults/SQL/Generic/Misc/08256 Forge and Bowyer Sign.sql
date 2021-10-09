@@ -23,7 +23,7 @@ VALUES (8256,   1, 'Forge and Bowyer Sign') /* Name */
      , (8256,  16, 'The House of Artifice. Ashaira bint Maisa, Smith. Hanra ibn Zarib, Bowyer. Purveyors of fine-crafted equipment for the warrior and archer since 11 P.Y.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8256,   1,   33555909) /* Setup */
-     , (8256,   6,   67111860) /* PaletteBase */
-     , (8256,   7,  268435818) /* ClothingBase */
-     , (8256,   8,  100668115) /* Icon */;
+VALUES (8256,   1, 0x020005C5) /* Setup */
+     , (8256,   6, 0x04000BB4) /* PaletteBase */
+     , (8256,   7, 0x1000016A) /* ClothingBase */
+     , (8256,   8, 0x060012D3) /* Icon */;

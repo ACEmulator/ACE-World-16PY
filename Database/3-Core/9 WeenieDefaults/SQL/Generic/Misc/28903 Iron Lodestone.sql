@@ -23,5 +23,5 @@ VALUES (28903,   1, 'Iron Lodestone') /* Name */
      , (28903,  16, 'A small iron lodestone.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28903,   1,   33557505) /* Setup */
-     , (28903,   8,  100677039) /* Icon */;
+VALUES (28903,   1, 0x02000C01) /* Setup */
+     , (28903,   8, 0x060035AF) /* Icon */;

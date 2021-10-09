@@ -28,9 +28,9 @@ VALUES (9128,   1, 'Torn Mosswart Shroud') /* Name */
      , (9128,  33, 'MosswartTornShroud') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9128,   1,   33554817) /* Setup */
-     , (9128,   3,  536870932) /* SoundTable */
-     , (9128,   6,   67111919) /* PaletteBase */
-     , (9128,   7,  268435832) /* ClothingBase */
-     , (9128,   8,  100671378) /* Icon */
-     , (9128,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9128,   1, 0x02000181) /* Setup */
+     , (9128,   3, 0x20000014) /* SoundTable */
+     , (9128,   6, 0x04000BEF) /* PaletteBase */
+     , (9128,   7, 0x10000178) /* ClothingBase */
+     , (9128,   8, 0x06001F92) /* Icon */
+     , (9128,  22, 0x3400002B) /* PhysicsEffectTable */;

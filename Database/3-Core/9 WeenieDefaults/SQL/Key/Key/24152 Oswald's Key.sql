@@ -26,7 +26,7 @@ VALUES (24152,   1, 'Oswald''s Key') /* Name */
      , (24152,  14, 'Use this item on a locked door or chest to unlock it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24152,   1,   33554784) /* Setup */
-     , (24152,   3,  536870932) /* SoundTable */
-     , (24152,   8,  100674257) /* Icon */
-     , (24152,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24152,   1, 0x02000160) /* Setup */
+     , (24152,   3, 0x20000014) /* SoundTable */
+     , (24152,   8, 0x06002AD1) /* Icon */
+     , (24152,  22, 0x3400002B) /* PhysicsEffectTable */;

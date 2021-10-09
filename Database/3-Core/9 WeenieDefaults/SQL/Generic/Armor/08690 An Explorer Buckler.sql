@@ -43,13 +43,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8690,   1, 'An Explorer Buckler') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8690,   1,   33554786) /* Setup */
-     , (8690,   3,  536870932) /* SoundTable */
-     , (8690,   6,   67111919) /* PaletteBase */
-     , (8690,   7,  268435807) /* ClothingBase */
-     , (8690,   8,  100668451) /* Icon */
-     , (8690,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8690,   1, 0x02000162) /* Setup */
+     , (8690,   3, 0x20000014) /* SoundTable */
+     , (8690,   6, 0x04000BEF) /* PaletteBase */
+     , (8690,   7, 0x1000015F) /* ClothingBase */
+     , (8690,   8, 0x06001423) /* Icon */
+     , (8690,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8690,   241,      2)  /* Invulnerability Other III */
-     , (8690,  1483,      2)  /* Impenetrability III */;
+VALUES (8690,  1483,      2)  /* Impenetrability III */
+     , (8690,   241,      2)  /* Invulnerability Other III */;

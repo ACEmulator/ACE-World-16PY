@@ -28,9 +28,9 @@ VALUES (30538,   1, 'Pass to the Night Club') /* Name */
      , (30538,  16, 'A pass into the exclusive Night Club!  Give this to the master of any of the three gambling dens near Holtburg, Yaraq, or Shoushi to gain entry to the Night Club. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30538,   1,   33557006) /* Setup */
-     , (30538,   3,  536870932) /* SoundTable */
-     , (30538,   6,   67113173) /* PaletteBase */
-     , (30538,   7,  268436162) /* ClothingBase */
-     , (30538,   8,  100671476) /* Icon */
-     , (30538,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30538,   1, 0x02000A0E) /* Setup */
+     , (30538,   3, 0x20000014) /* SoundTable */
+     , (30538,   6, 0x040010D5) /* PaletteBase */
+     , (30538,   7, 0x100002C2) /* ClothingBase */
+     , (30538,   8, 0x06001FF4) /* Icon */
+     , (30538,  22, 0x3400002B) /* PhysicsEffectTable */;

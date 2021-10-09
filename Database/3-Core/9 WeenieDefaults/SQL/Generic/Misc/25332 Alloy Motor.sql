@@ -25,8 +25,8 @@ VALUES (25332,   1, 'Alloy Motor') /* Name */
      , (25332,  33, 'UndeadMechanismPickup18') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25332,   1,   33558439) /* Setup */
-     , (25332,   3,  536870932) /* SoundTable */
-     , (25332,   6,   67111919) /* PaletteBase */
-     , (25332,   8,  100674826) /* Icon */
-     , (25332,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25332,   1, 0x02000FA7) /* Setup */
+     , (25332,   3, 0x20000014) /* SoundTable */
+     , (25332,   6, 0x04000BEF) /* PaletteBase */
+     , (25332,   8, 0x06002D0A) /* Icon */
+     , (25332,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -27,8 +27,8 @@ VALUES (11443,   1, 'Hoeroa Talisman') /* Name */
      , (11443,  16, 'A small talisman carved with the image of a staff.  If given to Aun Imeitanua, he will bestow a hoeroa in exchange.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11443,   1,   33554680) /* Setup */
-     , (11443,   3,  536870932) /* SoundTable */
-     , (11443,   8,  100671829) /* Icon */
-     , (11443,  22,  872415275) /* PhysicsEffectTable */
-     , (11443,  36,  234881046) /* MutateFilter */;
+VALUES (11443,   1, 0x020000F8) /* Setup */
+     , (11443,   3, 0x20000014) /* SoundTable */
+     , (11443,   8, 0x06002155) /* Icon */
+     , (11443,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11443,  36, 0x0E000016) /* MutateFilter */;

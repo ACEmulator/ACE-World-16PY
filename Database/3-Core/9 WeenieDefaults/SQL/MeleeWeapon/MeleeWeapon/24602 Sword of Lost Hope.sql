@@ -49,17 +49,17 @@ VALUES (24602,   1, 'Sword of Lost Hope') /* Name */
      , (24602,  16, 'The Sword of Lost Hope.  The weapon seems to coruscate with the power of Ilservian''s blood.  The Light has been forever dimmed, and the weapon is now empowered by the essence of the Hopeslayer.  It will no longer accept infusions of light.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24602,   1,   33558420) /* Setup */
-     , (24602,   3,  536870932) /* SoundTable */
-     , (24602,   6,   67111919) /* PaletteBase */
-     , (24602,   7,  268436109) /* ClothingBase */
-     , (24602,   8,  100671325) /* Icon */
-     , (24602,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24602,   1, 0x02000F94) /* Setup */
+     , (24602,   3, 0x20000014) /* SoundTable */
+     , (24602,   6, 0x04000BEF) /* PaletteBase */
+     , (24602,   7, 0x1000028D) /* ClothingBase */
+     , (24602,   8, 0x06001F5D) /* Icon */
+     , (24602,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24602,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24602,  1310,      2)  /* Armor Self IV */
-     , (24602,  1590,      2)  /* Aura of Heart Seeker Self IV */
      , (24602,  1603,      2)  /* Aura of Defender Self IV */
+     , (24602,  1590,      2)  /* Aura of Heart Seeker Self IV */
      , (24602,  1614,      2)  /* Aura of Blood Drinker Self IV */
      , (24602,  1624,      2)  /* Aura of Swift Killer Self III */;

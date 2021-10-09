@@ -46,15 +46,15 @@ VALUES (12250,   1, 'Lugian Warlord''s Scepter') /* Name */
      , (12250,  33, 'ScepterLugianOct01') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12250,   1,   33557377) /* Setup */
-     , (12250,   3,  536870932) /* SoundTable */
-     , (12250,   6,   67111919) /* PaletteBase */
-     , (12250,   7,  268436276) /* ClothingBase */
-     , (12250,   8,  100672191) /* Icon */
-     , (12250,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12250,   1, 0x02000B81) /* Setup */
+     , (12250,   3, 0x20000014) /* SoundTable */
+     , (12250,   6, 0x04000BEF) /* PaletteBase */
+     , (12250,   7, 0x10000334) /* ClothingBase */
+     , (12250,   8, 0x060022BF) /* Icon */
+     , (12250,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12250,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12250,   902,      2)  /* Leadership Mastery Self V */
-     , (12250,  1330,      2)  /* Strength Self IV */
-     , (12250,  1614,      2)  /* Aura of Blood Drinker Self IV */;
+     , (12250,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (12250,  1330,      2)  /* Strength Self IV */;

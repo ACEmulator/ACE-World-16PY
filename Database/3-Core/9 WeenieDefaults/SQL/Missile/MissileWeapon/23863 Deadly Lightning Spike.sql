@@ -21,7 +21,7 @@ VALUES (23863,   1,        256) /* ItemType - MissileWeapon */
      , (23863,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (23863,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (23863,  49,         10) /* WeaponTime */
-     , (23863,  51,          2) /* CombatUse - Missle */
+     , (23863,  51,          2) /* CombatUse - Missile */
      , (23863,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (23863, 150,        103) /* HookPlacement - Hook */
      , (23863, 151,          2) /* HookType - Wall */
@@ -46,7 +46,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23863,   1, 'Deadly Lightning Spike') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23863,   1,   33558218) /* Setup */
-     , (23863,   3,  536870932) /* SoundTable */
-     , (23863,   8,  100674051) /* Icon */
-     , (23863,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23863,   1, 0x02000ECA) /* Setup */
+     , (23863,   3, 0x20000014) /* SoundTable */
+     , (23863,   8, 0x06002A03) /* Icon */
+     , (23863,  22, 0x3400002B) /* PhysicsEffectTable */;

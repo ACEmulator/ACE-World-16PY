@@ -28,7 +28,7 @@ VALUES (4719,   1, 'Chicken Stew') /* Name */
      , (4719,  20, 'Bowls of Chicken Stew') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4719,   1,   33555968) /* Setup */
-     , (4719,   3,  536870932) /* SoundTable */
-     , (4719,   8,  100669951) /* Icon */
-     , (4719,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4719,   1, 0x02000600) /* Setup */
+     , (4719,   3, 0x20000014) /* SoundTable */
+     , (4719,   8, 0x060019FF) /* Icon */
+     , (4719,  22, 0x3400002B) /* PhysicsEffectTable */;

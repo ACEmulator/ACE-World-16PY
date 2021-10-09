@@ -25,9 +25,9 @@ VALUES (28450,   1, 'Morgluuk''s Head') /* Name */
      , (28450,  16, 'Morgluuk''s head has been set on a pike here to remind all Isparians of a time when the Burun threatened to take this world from us. They failed, and this head is to warn future Burun that they will suffer the same fate as their once fearsome leader.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28450,   1,   33558855) /* Setup */
-     , (28450,   3,  536870932) /* SoundTable */
-     , (28450,   6,   67114919) /* PaletteBase */
-     , (28450,   7,  268436789) /* ClothingBase */
-     , (28450,   8,  100676955) /* Icon */
-     , (28450,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28450,   1, 0x02001147) /* Setup */
+     , (28450,   3, 0x20000014) /* SoundTable */
+     , (28450,   6, 0x040017A7) /* PaletteBase */
+     , (28450,   7, 0x10000535) /* ClothingBase */
+     , (28450,   8, 0x0600355B) /* Icon */
+     , (28450,  22, 0x3400002B) /* PhysicsEffectTable */;

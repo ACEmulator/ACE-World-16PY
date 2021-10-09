@@ -27,10 +27,10 @@ VALUES (8733,   1, 'Stamped Yaraq Lucky Gold Letter') /* Name */
      , (8733,  15, 'A bright gold piece of paper with some writing and a big stamp on it.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8733,   1,   33556919) /* Setup */
-     , (8733,   3,  536870932) /* SoundTable */
-     , (8733,   8,  100671214) /* Icon */
-     , (8733,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8733,   1, 0x020009B7) /* Setup */
+     , (8733,   3, 0x20000014) /* SoundTable */
+     , (8733,   8, 0x06001EEE) /* Icon */
+     , (8733,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (8733, 2, 1000);

@@ -37,12 +37,12 @@ VALUES (10974,   1, 'Ahruenga Portal Gem') /* Name */
      , (10974,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10974,   1,   33556769) /* Setup */
-     , (10974,   3,  536870932) /* SoundTable */
-     , (10974,   6,   67111919) /* PaletteBase */
-     , (10974,   7,  268435723) /* ClothingBase */
-     , (10974,   8,  100670993) /* Icon */
-     , (10974,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10974,   1, 0x02000921) /* Setup */
+     , (10974,   3, 0x20000014) /* SoundTable */
+     , (10974,   6, 0x04000BEF) /* PaletteBase */
+     , (10974,   7, 0x1000010B) /* ClothingBase */
+     , (10974,   8, 0x06001E11) /* Icon */
+     , (10974,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10974,  28,        157) /* Spell - Summon Primary Portal I */
      , (10974,  31,      10982) /* LinkedPortalOne - Ahurenga Portal */
-     , (10974,  36,  234881046) /* MutateFilter */;
+     , (10974,  36, 0x0E000016) /* MutateFilter */;

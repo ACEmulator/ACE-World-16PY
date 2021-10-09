@@ -30,9 +30,9 @@ VALUES (24872,   1, 'Golden Gromnie') /* Name */
      , (24872,  16, 'The gromnie appears to be nailed to the floor... twice.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24872,   1,   33554487) /* Setup */
-     , (24872,   2,  150995122) /* MotionTable */
-     , (24872,   6,   67109547) /* PaletteBase */
-     , (24872,   7,  268436171) /* ClothingBase */
-     , (24872,   8,  100671514) /* Icon */
-     , (24872,  22,  872415260) /* PhysicsEffectTable */;
+VALUES (24872,   1, 0x02000037) /* Setup */
+     , (24872,   2, 0x090000B2) /* MotionTable */
+     , (24872,   6, 0x040002AB) /* PaletteBase */
+     , (24872,   7, 0x100002CB) /* ClothingBase */
+     , (24872,   8, 0x0600201A) /* Icon */
+     , (24872,  22, 0x3400001C) /* PhysicsEffectTable */;

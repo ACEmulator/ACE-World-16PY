@@ -29,7 +29,7 @@ VALUES (5246,   1, 'Mana Pizza') /* Name */
      , (5246,  20, 'Mana Pizzas') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5246,   1,   33555979) /* Setup */
-     , (5246,   3,  536870932) /* SoundTable */
-     , (5246,   8,  100669967) /* Icon */
-     , (5246,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5246,   1, 0x0200060B) /* Setup */
+     , (5246,   3, 0x20000014) /* SoundTable */
+     , (5246,   8, 0x06001A0F) /* Icon */
+     , (5246,  22, 0x3400002B) /* PhysicsEffectTable */;

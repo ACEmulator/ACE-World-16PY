@@ -27,8 +27,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7278,   1, 'Force Bolt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7278,   1,   33556605) /* Setup */
-     , (7278,   3,  536870971) /* SoundTable */
-     , (7278,   8,  100667494) /* Icon */
+VALUES (7278,   1, 0x0200087D) /* Setup */
+     , (7278,   3, 0x2000003B) /* SoundTable */
+     , (7278,   8, 0x06001066) /* Icon */
      , (7278,  28,         86) /* Spell - Force Bolt I */
      , (7278,  30,         90) /* PhysicsScript - ProjectileCollision */;

@@ -26,5 +26,5 @@ VALUES (19756,   1, 'Unique Bronze Nuts and Bolts from a Native Cast') /* Name *
      , (19756,  37, 'EventShadowKiller') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19756,   1,   33557679) /* Setup */
-     , (19756,   8,  100672954) /* Icon */;
+VALUES (19756,   1, 0x02000CAF) /* Setup */
+     , (19756,   8, 0x060025BA) /* Icon */;

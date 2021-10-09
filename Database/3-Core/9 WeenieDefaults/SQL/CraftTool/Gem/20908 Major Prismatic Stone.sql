@@ -35,9 +35,9 @@ VALUES (20908,   1, 'Major Prismatic Stone') /* Name */
      , (20908,  16, 'A shimmering stone that houses the power of all elements within. The stone shimmers at the edges. It looks as though it may be fitted into an Isparian Weapon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20908,   1,   33556407) /* Setup */
-     , (20908,   3,  536870932) /* SoundTable */
-     , (20908,   6,   67111919) /* PaletteBase */
-     , (20908,   7,  268436429) /* ClothingBase */
-     , (20908,   8,  100673211) /* Icon */
-     , (20908,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (20908,   1, 0x020007B7) /* Setup */
+     , (20908,   3, 0x20000014) /* SoundTable */
+     , (20908,   6, 0x04000BEF) /* PaletteBase */
+     , (20908,   7, 0x100003CD) /* ClothingBase */
+     , (20908,   8, 0x060026BB) /* Icon */
+     , (20908,  22, 0x3400002B) /* PhysicsEffectTable */;

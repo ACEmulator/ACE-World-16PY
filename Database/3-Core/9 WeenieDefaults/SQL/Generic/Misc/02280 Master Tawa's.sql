@@ -22,5 +22,5 @@ VALUES (2280,   1, 'Master Tawa''s') /* Name */
      , (2280,  16, 'Master Tawa''s') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2280,   1,   33555594) /* Setup */
-     , (2280,   8,  100668115) /* Icon */;
+VALUES (2280,   1, 0x0200048A) /* Setup */
+     , (2280,   8, 0x060012D3) /* Icon */;

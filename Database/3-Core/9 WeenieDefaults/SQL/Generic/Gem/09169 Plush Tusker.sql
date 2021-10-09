@@ -28,10 +28,10 @@ VALUES (9169,   1, 'Plush Tusker') /* Name */
      , (9169,  16, 'Plush tusker: He''ll keep you safe at night! Wash in warm water; tumble dry; keep away from flame or sharp, pointy objects.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9169,   1,   33556836) /* Setup */
-     , (9169,   2,  150995111) /* MotionTable */
-     , (9169,   6,   67113135) /* PaletteBase */
-     , (9169,   7,  268436131) /* ClothingBase */
-     , (9169,   8,  100667443) /* Icon */
-     , (9169,  22,  872415271) /* PhysicsEffectTable */
-     , (9169,  36,  234881046) /* MutateFilter */;
+VALUES (9169,   1, 0x02000964) /* Setup */
+     , (9169,   2, 0x090000A7) /* MotionTable */
+     , (9169,   6, 0x040010AF) /* PaletteBase */
+     , (9169,   7, 0x100002A3) /* ClothingBase */
+     , (9169,   8, 0x06001033) /* Icon */
+     , (9169,  22, 0x34000027) /* PhysicsEffectTable */
+     , (9169,  36, 0x0E000016) /* MutateFilter */;

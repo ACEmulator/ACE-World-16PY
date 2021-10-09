@@ -31,10 +31,10 @@ VALUES (8343,   1, 'Rowan Pea') /* Name */
      , (8343,  16, 'A concentrated rowan pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8343,   1,   33555207) /* Setup */
-     , (8343,   3,  536870932) /* SoundTable */
-     , (8343,   6,   67111919) /* PaletteBase */
-     , (8343,   7,  268435722) /* ClothingBase */
-     , (8343,   8,  100671086) /* Icon */
-     , (8343,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8343,   1, 0x02000307) /* Setup */
+     , (8343,   3, 0x20000014) /* SoundTable */
+     , (8343,   6, 0x04000BEF) /* PaletteBase */
+     , (8343,   7, 0x1000010A) /* ClothingBase */
+     , (8343,   8, 0x06001E6E) /* Icon */
+     , (8343,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8343,  29,        172) /* SpellComponent */;

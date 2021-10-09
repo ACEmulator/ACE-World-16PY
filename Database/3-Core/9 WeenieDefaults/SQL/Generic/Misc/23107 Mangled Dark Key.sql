@@ -26,7 +26,7 @@ VALUES (23107,   1, 'Mangled Dark Key') /* Name */
      , (23107,  15, 'This key looks to have been carved from granite, but it''s been twisted with years of misuse and neglect. With some clever locksmithing, however, and perhaps an intricate carving tool, you may be able to straighten it out.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23107,   1,   33554784) /* Setup */
-     , (23107,   3,  536870932) /* SoundTable */
-     , (23107,   8,  100673959) /* Icon */
-     , (23107,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23107,   1, 0x02000160) /* Setup */
+     , (23107,   3, 0x20000014) /* SoundTable */
+     , (23107,   8, 0x060029A7) /* Icon */
+     , (23107,  22, 0x3400002B) /* PhysicsEffectTable */;

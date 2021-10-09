@@ -23,5 +23,5 @@ VALUES (31219,   1, 'Eastwatch Outpost') /* Name */
      , (31219,  16, 'Welcome to the Eastwatch Outpost.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31219,   1,   33555088) /* Setup */
-     , (31219,   8,  100668115) /* Icon */;
+VALUES (31219,   1, 0x02000290) /* Setup */
+     , (31219,   8, 0x060012D3) /* Icon */;

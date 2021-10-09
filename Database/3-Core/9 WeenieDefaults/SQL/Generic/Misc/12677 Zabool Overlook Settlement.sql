@@ -22,5 +22,5 @@ VALUES (12677,   1, 'Zabool Overlook Settlement') /* Name */
      , (12677,  16, 'Welcome to Zabool Overlook Settlement') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12677,   1,   33557463) /* Setup */
-     , (12677,   8,  100668115) /* Icon */;
+VALUES (12677,   1, 0x02000BD7) /* Setup */
+     , (12677,   8, 0x060012D3) /* Icon */;

@@ -33,9 +33,9 @@ VALUES (6621,   1, 'Scintillating Gem') /* Name */
      , (6621,  16, 'A large, scintillating gem with swirls of orange and black.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6621,   1,   33554809) /* Setup */
-     , (6621,   3,  536870932) /* SoundTable */
-     , (6621,   6,   67111919) /* PaletteBase */
-     , (6621,   7,  268435723) /* ClothingBase */
-     , (6621,   8,  100671527) /* Icon */
-     , (6621,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6621,   1, 0x02000179) /* Setup */
+     , (6621,   3, 0x20000014) /* SoundTable */
+     , (6621,   6, 0x04000BEF) /* PaletteBase */
+     , (6621,   7, 0x1000010B) /* ClothingBase */
+     , (6621,   8, 0x06002027) /* Icon */
+     , (6621,  22, 0x3400002B) /* PhysicsEffectTable */;

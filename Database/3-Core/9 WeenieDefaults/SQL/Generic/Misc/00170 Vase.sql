@@ -19,7 +19,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (170,   1, 'Vase') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (170,   1,   33555092) /* Setup */
-     , (170,   3,  536870932) /* SoundTable */
-     , (170,   8,  100668109) /* Icon */
-     , (170,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (170,   1, 0x02000294) /* Setup */
+     , (170,   3, 0x20000014) /* SoundTable */
+     , (170,   8, 0x060012CD) /* Icon */
+     , (170,  22, 0x3400002B) /* PhysicsEffectTable */;

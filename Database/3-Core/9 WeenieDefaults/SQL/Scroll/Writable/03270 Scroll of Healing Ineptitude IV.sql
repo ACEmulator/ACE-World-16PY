@@ -25,7 +25,7 @@ VALUES (3270,   1, 'Scroll of Healing Ineptitude IV') /* Name */
      , (3270,  16, 'When learned, this spell decreases the target''s Healing skill by 43%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3270,   1,   33554826) /* Setup */
-     , (3270,   8,  100676459) /* Icon */
-     , (3270,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3270,   1, 0x0200018A) /* Setup */
+     , (3270,   8, 0x0600336B) /* Icon */
+     , (3270,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3270,  28,        895) /* Spell - Healing Ineptitude Other IV */;

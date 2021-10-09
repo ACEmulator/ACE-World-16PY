@@ -31,10 +31,10 @@ VALUES (8812,   1, 'Esard''s Life Magic Scroll') /* Name */
      , (8812,  33, 'GredalineArcaneRestoration') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8812,   1,   33555391) /* Setup */
-     , (8812,   3,  536870932) /* SoundTable */
-     , (8812,   8,  100671183) /* Icon */
-     , (8812,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8812,   1, 0x020003BF) /* Setup */
+     , (8812,   3, 0x20000014) /* SoundTable */
+     , (8812,   8, 0x06001ECF) /* Icon */
+     , (8812,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (8812, 1, 1000);

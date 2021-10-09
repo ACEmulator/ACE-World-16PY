@@ -22,7 +22,7 @@ VALUES (878,   1, 'Weaver Chueh') /* Name */
      , (878,  16, 'Weaver Chueh') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (878,   1,   33555594) /* Setup */
-     , (878,   6,   67111782) /* PaletteBase */
-     , (878,   7,  268435693) /* ClothingBase */
-     , (878,   8,  100668115) /* Icon */;
+VALUES (878,   1, 0x0200048A) /* Setup */
+     , (878,   6, 0x04000B66) /* PaletteBase */
+     , (878,   7, 0x100000ED) /* ClothingBase */
+     , (878,   8, 0x060012D3) /* Icon */;

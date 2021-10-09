@@ -38,12 +38,12 @@ VALUES (22019,   1, 'Sclavus Guise') /* Name */
      , (22019,  16, 'A finely crafted sclavus costume that is only missing the head.  The inside is padded so that the rough skin of the sclavus does not rub up against the wearer.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22019,   1,   33558003) /* Setup */
-     , (22019,   3,  536870932) /* SoundTable */
-     , (22019,   6,   67108990) /* PaletteBase */
-     , (22019,   7,  268436472) /* ClothingBase */
-     , (22019,   8,  100673717) /* Icon */
-     , (22019,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22019,   1, 0x02000DF3) /* Setup */
+     , (22019,   3, 0x20000014) /* SoundTable */
+     , (22019,   6, 0x0400007E) /* PaletteBase */
+     , (22019,   7, 0x100003F8) /* ClothingBase */
+     , (22019,   8, 0x060028B5) /* Icon */
+     , (22019,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (22019, 25 /* Wield */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

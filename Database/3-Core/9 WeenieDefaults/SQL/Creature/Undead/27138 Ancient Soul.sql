@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27138,   1, 'Ancient Soul') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27138,   1,   33558436) /* Setup */
-     , (27138,   2,  150994967) /* MotionTable */
-     , (27138,   3,  536870934) /* SoundTable */
-     , (27138,   4,  805306368) /* CombatTable */
-     , (27138,   6,   67114480) /* PaletteBase */
-     , (27138,   7,  268436673) /* ClothingBase */
-     , (27138,   8,  100674805) /* Icon */
-     , (27138,  22,  872415272) /* PhysicsEffectTable */
+VALUES (27138,   1, 0x02000FA4) /* Setup */
+     , (27138,   2, 0x09000017) /* MotionTable */
+     , (27138,   3, 0x20000016) /* SoundTable */
+     , (27138,   4, 0x30000000) /* CombatTable */
+     , (27138,   6, 0x040015F0) /* PaletteBase */
+     , (27138,   7, 0x100004C1) /* ClothingBase */
+     , (27138,   8, 0x06002CF5) /* Icon */
+     , (27138,  22, 0x34000028) /* PhysicsEffectTable */
      , (27138,  32,        447) /* WieldedTreasureType - 
                                    Wield Khopesh (25500) | Probability: 98% */
      , (27138,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
@@ -123,23 +123,23 @@ VALUES (27138,  0,  4,  0,    0,  500,  525,  650,  500,  650,  500,  525,  600,
      , (27138,  8,  4, 250,  0.5,  500,  525,  650,  500,  650,  500,  525,  600,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27138,    63,   2.01)  /* Acid Stream VI */
-     , (27138,    69,   2.01)  /* Shock Wave VI */
-     , (27138,    74,   2.01)  /* Frost Bolt VI */
-     , (27138,    80,   2.01)  /* Lightning Bolt VI */
-     , (27138,    85,   2.01)  /* Flame Bolt VI */
-     , (27138,    91,   2.01)  /* Force Bolt VI */
-     , (27138,    97,   2.01)  /* Whirling Blade VI */
-     , (27138,   176,  2.011)  /* Fester Other VI */
-     , (27138,   526,  2.011)  /* Acid Vulnerability Other VI */
-     , (27138,  1053,  2.011)  /* Bludgeoning Vulnerability Other VI */
+VALUES (27138,    85,   2.01)  /* Flame Bolt VI */
      , (27138,  1065,  2.011)  /* Cold Vulnerability Other VI */
+     , (27138,    69,   2.01)  /* Shock Wave VI */
      , (27138,  1089,  2.011)  /* Lightning Vulnerability Other VI */
      , (27138,  1108,  2.011)  /* Fire Vulnerability Other VI */
      , (27138,  1132,  2.011)  /* Blade Vulnerability Other VI */
+     , (27138,    80,   2.01)  /* Lightning Bolt VI */
      , (27138,  1156,  2.011)  /* Piercing Vulnerability Other VI */
+     , (27138,    74,   2.01)  /* Frost Bolt VI */
+     , (27138,   526,  2.011)  /* Acid Vulnerability Other VI */
+     , (27138,    91,   2.01)  /* Force Bolt VI */
+     , (27138,  1053,  2.011)  /* Bludgeoning Vulnerability Other VI */
+     , (27138,    97,   2.01)  /* Whirling Blade VI */
+     , (27138,   176,  2.011)  /* Fester Other VI */
      , (27138,  1840,   2.01)  /* Bed of Blades */
-     , (27138,  1842,   2.01)  /* Spike Strafe */;
+     , (27138,  1842,   2.01)  /* Spike Strafe */
+     , (27138,    63,   2.01)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (27138,  94) /* ATTACK_NOTIFICATION_EVENT */

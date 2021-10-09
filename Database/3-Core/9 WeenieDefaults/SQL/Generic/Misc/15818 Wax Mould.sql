@@ -29,9 +29,9 @@ VALUES (15818,   1, 'Wax Mould') /* Name */
      , (15818,  16, 'A finely detailed wax mould of Thorsten Cragstone''s Armor.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15818,   1,   33554669) /* Setup */
-     , (15818,   3,  536870932) /* SoundTable */
-     , (15818,   6,   67111919) /* PaletteBase */
-     , (15818,   7,  268436364) /* ClothingBase */
-     , (15818,   8,  100672826) /* Icon */
-     , (15818,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15818,   1, 0x020000ED) /* Setup */
+     , (15818,   3, 0x20000014) /* SoundTable */
+     , (15818,   6, 0x04000BEF) /* PaletteBase */
+     , (15818,   7, 0x1000038C) /* ClothingBase */
+     , (15818,   8, 0x0600253A) /* Icon */
+     , (15818,  22, 0x3400002B) /* PhysicsEffectTable */;

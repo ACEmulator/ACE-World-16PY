@@ -25,7 +25,7 @@ VALUES (28007,   1, 'Spirit Drinker Scroll VI') /* Name */
      , (28007,  16, 'When learned, this spell increases a caster''s damage mod by 0.06 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28007,   1,   33554826) /* Setup */
-     , (28007,   8,  100676674) /* Icon */
-     , (28007,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28007,   1, 0x0200018A) /* Setup */
+     , (28007,   8, 0x06003442) /* Icon */
+     , (28007,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28007,  28,       3258) /* Spell - Aura of Spirit Drinker Self VI */;

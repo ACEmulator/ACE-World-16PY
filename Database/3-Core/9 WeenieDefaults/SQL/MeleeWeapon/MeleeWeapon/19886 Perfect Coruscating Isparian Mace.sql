@@ -49,17 +49,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19886,   1, 'Perfect Coruscating Isparian Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19886,   1,   33556327) /* Setup */
-     , (19886,   3,  536870932) /* SoundTable */
-     , (19886,   6,   67111919) /* PaletteBase */
-     , (19886,   7,  268436382) /* ClothingBase */
-     , (19886,   8,  100672917) /* Icon */
-     , (19886,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19886,   1, 0x02000767) /* Setup */
+     , (19886,   3, 0x20000014) /* SoundTable */
+     , (19886,   6, 0x04000BEF) /* PaletteBase */
+     , (19886,   7, 0x1000039E) /* ClothingBase */
+     , (19886,   8, 0x06002595) /* Icon */
+     , (19886,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19886,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19886,  1069,      2)  /* Lightning Protection Self IV */
-     , (19886,  1399,      2)  /* Quickness Self III */
+VALUES (19886,  2690,      2)  /* Moderate Light Weapon Aptitude */
      , (19886,  1592,      2)  /* Aura of Heart Seeker Self VI */
      , (19886,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (19886,  2690,      2)  /* Moderate Light Weapon Aptitude */;
+     , (19886,  1069,      2)  /* Lightning Protection Self IV */
+     , (19886,  1399,      2)  /* Quickness Self III */;

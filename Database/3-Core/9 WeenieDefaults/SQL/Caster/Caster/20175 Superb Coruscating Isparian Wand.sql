@@ -41,18 +41,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20175,   1, 'Superb Coruscating Isparian Wand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20175,   1,   33557787) /* Setup */
-     , (20175,   3,  536870932) /* SoundTable */
-     , (20175,   6,   67111919) /* PaletteBase */
-     , (20175,   7,  268436395) /* ClothingBase */
-     , (20175,   8,  100672992) /* Icon */
-     , (20175,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20175,   1, 0x02000D1B) /* Setup */
+     , (20175,   3, 0x20000014) /* SoundTable */
+     , (20175,   6, 0x04000BEF) /* PaletteBase */
+     , (20175,   7, 0x100003AB) /* ClothingBase */
+     , (20175,   8, 0x060025E0) /* Icon */
+     , (20175,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20175,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20175,   584,      2)  /* Item Enchantment Mastery Self IV */
+     , (20175,  2560,      2)  /* Minor Mana Conversion Prowess */
      , (20175,   657,      2)  /* Mana Conversion Mastery Self V */
-     , (20175,  1069,      2)  /* Lightning Protection Self IV */
-     , (20175,  1425,      2)  /* Focus Self V */
      , (20175,  1449,      2)  /* Willpower Self V */
-     , (20175,  2560,      2)  /* Minor Mana Conversion Prowess */;
+     , (20175,  1425,      2)  /* Focus Self V */
+     , (20175,  1069,      2)  /* Lightning Protection Self IV */;

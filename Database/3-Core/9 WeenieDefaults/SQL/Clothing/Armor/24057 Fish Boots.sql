@@ -40,9 +40,9 @@ VALUES (24057,   1, 'Fish Boots') /* Name */
      , (24057,  16, 'Scaly, yet comforable.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24057,   1,   33558223) /* Setup */
-     , (24057,   3,  536870932) /* SoundTable */
-     , (24057,   6,   67108990) /* PaletteBase */
-     , (24057,   7,  268435542) /* ClothingBase */
-     , (24057,   8,  100674086) /* Icon */
-     , (24057,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24057,   1, 0x02000ECF) /* Setup */
+     , (24057,   3, 0x20000014) /* SoundTable */
+     , (24057,   6, 0x0400007E) /* PaletteBase */
+     , (24057,   7, 0x10000056) /* ClothingBase */
+     , (24057,   8, 0x06002A26) /* Icon */
+     , (24057,  22, 0x3400002B) /* PhysicsEffectTable */;

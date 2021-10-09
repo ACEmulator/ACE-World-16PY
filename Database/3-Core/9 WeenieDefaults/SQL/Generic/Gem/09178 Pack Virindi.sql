@@ -29,10 +29,10 @@ VALUES (9178,   1, 'Pack Virindi') /* Name */
      , (9178,  16, 'Removable mask! Magic-Cyborg-Ninja sickles! Pack Virindi even flies (somehow...)!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9178,   1,   33554497) /* Setup */
-     , (9178,   2,  150995118) /* MotionTable */
-     , (9178,   6,   67113135) /* PaletteBase */
-     , (9178,   7,  268436139) /* ClothingBase */
-     , (9178,   8,  100667943) /* Icon */
-     , (9178,  22,  872415273) /* PhysicsEffectTable */
-     , (9178,  36,  234881046) /* MutateFilter */;
+VALUES (9178,   1, 0x02000041) /* Setup */
+     , (9178,   2, 0x090000AE) /* MotionTable */
+     , (9178,   6, 0x040010AF) /* PaletteBase */
+     , (9178,   7, 0x100002AB) /* ClothingBase */
+     , (9178,   8, 0x06001227) /* Icon */
+     , (9178,  22, 0x34000029) /* PhysicsEffectTable */
+     , (9178,  36, 0x0E000016) /* MutateFilter */;

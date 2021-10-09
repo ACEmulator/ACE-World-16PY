@@ -13,7 +13,7 @@ VALUES (22343,   1,       2048) /* ItemType - Gem */
      , (22343,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22343, 114,          1) /* Attuned - Attuned */
      , (22343, 185,          2) /* TypeOfAlteration */
-     , (22343, 186,          9) /* SkillToBeAltered */;
+     , (22343, 186,          9) /* SkillToBeAltered - Spear */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22343,  22, True ) /* Inscribable */
@@ -25,8 +25,8 @@ VALUES (22343,   1, 'Spear Gem of Forgetfulness') /* Name */
      , (22343,  33, 'SkillAlterationGemPickedUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22343,   1,   33558087) /* Setup */
-     , (22343,   6,   67111919) /* PaletteBase */
-     , (22343,   7,  268435723) /* ClothingBase */
-     , (22343,   8,  100673789) /* Icon */
-     , (22343,  50,  100673781) /* IconOverlay */;
+VALUES (22343,   1, 0x02000E47) /* Setup */
+     , (22343,   6, 0x04000BEF) /* PaletteBase */
+     , (22343,   7, 0x1000010B) /* ClothingBase */
+     , (22343,   8, 0x060028FD) /* Icon */
+     , (22343,  50, 0x060028F5) /* IconOverlay */;

@@ -30,7 +30,7 @@ VALUES (25814,   1, 'Crystals of Grace') /* Name */
      , (25814,  15, 'These crystals appeared to be fit together to form sollerets when you found them, but they come apart easily.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25814,   1,   33557971) /* Setup */
-     , (25814,   3,  536870932) /* SoundTable */
-     , (25814,   8,  100675649) /* Icon */
-     , (25814,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25814,   1, 0x02000DD3) /* Setup */
+     , (25814,   3, 0x20000014) /* SoundTable */
+     , (25814,   8, 0x06003041) /* Icon */
+     , (25814,  22, 0x3400002B) /* PhysicsEffectTable */;

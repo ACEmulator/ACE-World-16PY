@@ -38,9 +38,9 @@ VALUES (4230,   1, 'Mattekar Hide Sleeves') /* Name */
      , (4230,  15, 'Sleeves crafted from the hide of a Mattekar.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4230,   1,   33554655) /* Setup */
-     , (4230,   3,  536870932) /* SoundTable */
-     , (4230,   6,   67108990) /* PaletteBase */
-     , (4230,   7,  268435502) /* ClothingBase */
-     , (4230,   8,  100669513) /* Icon */
-     , (4230,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4230,   1, 0x020000DF) /* Setup */
+     , (4230,   3, 0x20000014) /* SoundTable */
+     , (4230,   6, 0x0400007E) /* PaletteBase */
+     , (4230,   7, 0x1000002E) /* ClothingBase */
+     , (4230,   8, 0x06001849) /* Icon */
+     , (4230,  22, 0x3400002B) /* PhysicsEffectTable */;

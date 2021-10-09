@@ -6,7 +6,7 @@ VALUES (0x77E64000,   794, 0x7E640000, 16.8134, 2.98519, 17.0177, -0.967679, 0, 
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E64001,  1110, 0x7E640000, 50.5739, 98.7056, 13.7855, 0.92388, 0, 0, -0.382683, False, '2005-02-09 10:00:00'); /* Yaraq */
-/* @teleloc 0x7E640000 [50.573900 98.705600 13.785500] 0.923880 0.000000 0.000000 -0.382683 */
+/* @teleloc 0x7E640000 [50.573898 98.705597 13.785500] 0.923880 0.000000 0.000000 -0.382683 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E64003,  9461, 0x7E64011E, 115.5, 108, 15.205, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Arshid's Golden Chest */
@@ -26,7 +26,7 @@ VALUES (0x77E64006,  9502, 0x7E64011B, 114, 109, 12.005, -0.707107, 0, 0, -0.707
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E64007,  3955, 0x7E640119, 112.061, 107.916, 12.005, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen (15 min.) */
-/* @teleloc 0x7E640119 [112.061000 107.916000 12.005000] 0.707107 0.000000 0.000000 -0.707107 */
+/* @teleloc 0x7E640119 [112.060997 107.916000 12.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x77E64007, 0x77E64005, '2005-02-09 10:00:00') /* Gharu'ndim Mid-Stakes Gamesmaster (9502) */
@@ -38,12 +38,12 @@ VALUES (0x77E64007, 0x77E64005, '2005-02-09 10:00:00') /* Gharu'ndim Mid-Stakes 
      , (0x77E64007, 0x77E6400C, '2005-02-09 10:00:00') /* Arshid al-Qiyid (9493) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77E64008,  9499, 0x7E640111, 109, 114, 12.005, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Gharu'ndim Low-Stakes Gamesmaster */
-/* @teleloc 0x7E640111 [109.000000 114.000000 12.005000] 0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x77E64008,  9499, 0x7E640111, 109, 114, 12.005, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Gharu'ndim Low-Stakes Gamesmaster */
+/* @teleloc 0x7E640111 [109.000000 114.000000 12.005000] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77E64009,  9499, 0x7E640111, 107, 114, 12.005, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Gharu'ndim Low-Stakes Gamesmaster */
-/* @teleloc 0x7E640111 [107.000000 114.000000 12.005000] 0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x77E64009,  9499, 0x7E640111, 107, 114, 12.005, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Gharu'ndim Low-Stakes Gamesmaster */
+/* @teleloc 0x7E640111 [107.000000 114.000000 12.005000] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E6400A,  9496, 0x7E640113, 109, 102, 12.005, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Gharu'ndim High-Stakes Gamesmaster */
@@ -59,16 +59,16 @@ VALUES (0x77E6400C,  9493, 0x7E640119, 106.5, 108, 12.005, -0.718648, 0, 0, -0.6
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E6400D, 12308, 0x7E640119, 111.2, 104.8, 12.005, -0.92388, 0, 0, -0.382683, False, '2005-02-09 10:00:00'); /* Pawn Shopkeep */
-/* @teleloc 0x7E640119 [111.200000 104.800000 12.005000] -0.923880 0.000000 0.000000 -0.382683 */
+/* @teleloc 0x7E640119 [111.199997 104.800003 12.005000] -0.923880 0.000000 0.000000 -0.382683 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E6400E,  9505, 0x7E640119, 111.2, 111.2, 12.005, -0.382683, 0, 0, -0.92388, False, '2005-02-09 10:00:00'); /* Ashadi bint Samaq */
-/* @teleloc 0x7E640119 [111.200000 111.200000 12.005000] -0.382683 0.000000 0.000000 -0.923880 */
+/* @teleloc 0x7E640119 [111.199997 111.199997 12.005000] -0.382683 0.000000 0.000000 -0.923880 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E64010,  8401, 0x7E640124, 35.9586, 16.3243, 8.66, -0.017171, 0, 0, 0.999853, False, '2005-02-09 10:00:00'); /* Portal to Linvak Tukal */
-/* @teleloc 0x7E640124 [35.958600 16.324300 8.660000] -0.017171 0.000000 0.000000 0.999853 */
+/* @teleloc 0x7E640124 [35.958599 16.324301 8.660000] -0.017171 0.000000 0.000000 0.999853 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77E64011,  1032, 0x7E64011F, 36.0142, 176.596, 7.66, -0.99999, 0, 0, 0.00436268, False, '2005-02-09 10:00:00'); /* Portal to Zaikhal */
-/* @teleloc 0x7E64011F [36.014200 176.596000 7.660000] -0.999990 0.000000 0.000000 0.004363 */
+VALUES (0x77E64011,  1032, 0x7E64011F, 36.0142, 176.596, 7.66, -0.99999, 0, 0, 0.004363, False, '2005-02-09 10:00:00'); /* Portal to Zaikhal */
+/* @teleloc 0x7E64011F [36.014198 176.595993 7.660000] -0.999990 0.000000 0.000000 0.004363 */

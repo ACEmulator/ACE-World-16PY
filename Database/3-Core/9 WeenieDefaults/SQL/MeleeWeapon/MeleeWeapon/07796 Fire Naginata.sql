@@ -37,11 +37,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7796,   1, 'Fire Naginata') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7796,   1,   33556665) /* Setup */
-     , (7796,   3,  536870932) /* SoundTable */
-     , (7796,   6,   67111919) /* PaletteBase */
-     , (7796,   7,  268436012) /* ClothingBase */
-     , (7796,   8,  100670761) /* Icon */
-     , (7796,  22,  872415275) /* PhysicsEffectTable */
-     , (7796,  36,  234881053) /* MutateFilter */
-     , (7796,  46,  939524103) /* TsysMutationFilter */;
+VALUES (7796,   1, 0x020008B9) /* Setup */
+     , (7796,   3, 0x20000014) /* SoundTable */
+     , (7796,   6, 0x04000BEF) /* PaletteBase */
+     , (7796,   7, 0x1000022C) /* ClothingBase */
+     , (7796,   8, 0x06001D29) /* Icon */
+     , (7796,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (7796,  36, 0x0E00001D) /* MutateFilter */
+     , (7796,  46, 0x38000007) /* TsysMutationFilter */;

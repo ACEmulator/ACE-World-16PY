@@ -26,10 +26,10 @@ VALUES (19130,   1, 'Colossus Foundry Portal') /* Name */
      , (19130,  37, 'CloneKillerExtreme') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19130,   1,   33555925) /* Setup */
-     , (19130,   2,  150994947) /* MotionTable */
-     , (19130,   8,  100667499) /* Icon */;
+VALUES (19130,   1, 0x020005D5) /* Setup */
+     , (19130,   2, 0x09000003) /* MotionTable */
+     , (19130,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19130, 2, 1414988229, 160, -90, 0, -0.7071068, 0, 0, -0.7071068) /* Destination */
-/* @teleloc 0x545701C5 [160.000000 -90.000000 0.000000] -0.707107 0.000000 0.000000 -0.707107 */;
+VALUES (19130, 2, 0x545701C5, 160, -90, 0, -0.707107, 0, -0, -0.707107) /* Destination */
+/* @teleloc 0x545701C5 [160.000000 -90.000000 0.000000] -0.707107 0.000000 -0.000000 -0.707107 */;

@@ -20,7 +20,7 @@ VALUES (5572,   1,        256) /* ItemType - MissileWeapon */
      , (5572,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (5572,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (5572,  49,         20) /* WeaponTime */
-     , (5572,  51,          2) /* CombatUse - Missle */
+     , (5572,  51,          2) /* CombatUse - Missile */
      , (5572,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (5572, 150,        103) /* HookPlacement - Hook */
      , (5572, 151,          2) /* HookType - Wall */;
@@ -36,7 +36,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5572,   1, 'Djarid') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5572,   1,   33554738) /* Setup */
-     , (5572,   3,  536870932) /* SoundTable */
-     , (5572,   8,  100667593) /* Icon */
-     , (5572,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5572,   1, 0x02000132) /* Setup */
+     , (5572,   3, 0x20000014) /* SoundTable */
+     , (5572,   8, 0x060010C9) /* Icon */
+     , (5572,  22, 0x3400002B) /* PhysicsEffectTable */;

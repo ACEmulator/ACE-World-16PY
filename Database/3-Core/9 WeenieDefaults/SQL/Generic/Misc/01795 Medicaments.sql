@@ -23,7 +23,7 @@ VALUES (1795,   1, 'Medicaments') /* Name */
      , (1795,  16, 'Medicaments') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1795,   1,   33555909) /* Setup */
-     , (1795,   6,   67111860) /* PaletteBase */
-     , (1795,   7,  268435822) /* ClothingBase */
-     , (1795,   8,  100668115) /* Icon */;
+VALUES (1795,   1, 0x020005C5) /* Setup */
+     , (1795,   6, 0x04000BB4) /* PaletteBase */
+     , (1795,   7, 0x1000016E) /* ClothingBase */
+     , (1795,   8, 0x060012D3) /* Icon */;

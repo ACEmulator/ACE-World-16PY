@@ -27,10 +27,10 @@ VALUES (29649,   1, 'Clue Card') /* Name */
      , (29649,  33, 'ClueCardPickedUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29649,   1,   33554773) /* Setup */
-     , (29649,   3,  536870932) /* SoundTable */
-     , (29649,   8,  100668176) /* Icon */
-     , (29649,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29649,   1, 0x02000155) /* Setup */
+     , (29649,   3, 0x20000014) /* SoundTable */
+     , (29649,   8, 0x06001310) /* Icon */
+     , (29649,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (29649, 10 /* PickUp */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -111,7 +111,7 @@ VALUES (@parent_id,  0,  13 /* TextDirect */, 0, 1, NULL, 'It''s also a fruit.',
      , (@parent_id,  1,  22 /* StampQuest */, 0, 1, NULL, 'ColorPuzzleOrangeRiddle', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (29649, 32 /* GotoSet */, 0.9999999, NULL, NULL, NULL, 'pick_riddle', NULL, NULL, NULL);
+VALUES (29649, 32 /* GotoSet */,      1, NULL, NULL, NULL, 'pick_riddle', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

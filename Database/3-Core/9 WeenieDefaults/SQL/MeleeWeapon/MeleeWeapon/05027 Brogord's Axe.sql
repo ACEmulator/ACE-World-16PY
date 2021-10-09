@@ -40,10 +40,10 @@ VALUES (5027,   1, 'Brogord''s Axe') /* Name */
      , (5027,  33, 'AxeBrogordQuest') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5027,   1,   33554725) /* Setup */
-     , (5027,   3,  536870932) /* SoundTable */
-     , (5027,   6,   67111919) /* PaletteBase */
-     , (5027,   7,  268435779) /* ClothingBase */
-     , (5027,   8,  100668985) /* Icon */
-     , (5027,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5027,   1, 0x02000125) /* Setup */
+     , (5027,   3, 0x20000014) /* SoundTable */
+     , (5027,   6, 0x04000BEF) /* PaletteBase */
+     , (5027,   7, 0x10000143) /* ClothingBase */
+     , (5027,   8, 0x06001639) /* Icon */
+     , (5027,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5027,  30,         88) /* PhysicsScript - Create */;

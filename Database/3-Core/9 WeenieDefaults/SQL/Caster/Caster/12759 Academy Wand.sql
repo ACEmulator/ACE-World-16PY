@@ -30,7 +30,7 @@ VALUES (12759,  15, True ) /* LightsStatus */
      , (12759,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12759,   5, -0.03333) /* ManaRate */
+VALUES (12759,   5,  -0.033) /* ManaRate */
      , (12759,  29,       1) /* WeaponDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -38,16 +38,16 @@ VALUES (12759,   1, 'Academy Wand') /* Name */
      , (12759,  15, 'An enhanced wand crafted in the Training Academy. This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12759,   1,   33558231) /* Setup */
-     , (12759,   3,  536870932) /* SoundTable */
-     , (12759,   6,   67111919) /* PaletteBase */
-     , (12759,   7,  268436547) /* ClothingBase */
-     , (12759,   8,  100674109) /* Icon */
-     , (12759,  22,  872415275) /* PhysicsEffectTable */
-     , (12759,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
-     , (12759,  36,  234881046) /* MutateFilter */;
+VALUES (12759,   1, 0x02000ED7) /* Setup */
+     , (12759,   3, 0x20000014) /* SoundTable */
+     , (12759,   6, 0x04000BEF) /* PaletteBase */
+     , (12759,   7, 0x10000443) /* ClothingBase */
+     , (12759,   8, 0x06002A3D) /* Icon */
+     , (12759,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (12759,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
+     , (12759,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12759,   659,      2)  /* Mana Conversion Mastery Other I */
+VALUES (12759,  1451,      2)  /* Willpower Other I */
      , (12759,  1427,      2)  /* Focus Other I */
-     , (12759,  1451,      2)  /* Willpower Other I */;
+     , (12759,   659,      2)  /* Mana Conversion Mastery Other I */;

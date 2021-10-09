@@ -47,20 +47,20 @@ VALUES (8527,   1, 'Staff of the Nomads') /* Name */
      , (8527,  16, 'A sturdy wooden staff, worn smooth. Anadil has cast Blood Drinker VI on this weapon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8527,   1,   33555022) /* Setup */
-     , (8527,   3,  536870932) /* SoundTable */
-     , (8527,   6,   67111919) /* PaletteBase */
-     , (8527,   7,  268435796) /* ClothingBase */
-     , (8527,   8,  100668709) /* Icon */
-     , (8527,  22,  872415275) /* PhysicsEffectTable */
-     , (8527,  36,  234881044) /* MutateFilter */
+VALUES (8527,   1, 0x0200024E) /* Setup */
+     , (8527,   3, 0x20000014) /* SoundTable */
+     , (8527,   6, 0x04000BEF) /* PaletteBase */
+     , (8527,   7, 0x10000154) /* ClothingBase */
+     , (8527,   8, 0x06001525) /* Icon */
+     , (8527,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8527,  36, 0x0E000014) /* MutateFilter */
      , (8527,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8527,   270,      2)  /* Magic Resistance Other III */
-     , (8527,   391,      2)  /* Light Weapon Mastery Other IV */
-     , (8527,   992,      2)  /* Sprint Other V */
+VALUES (8527,   391,      2)  /* Light Weapon Mastery Other IV */
      , (8527,  1314,      2)  /* Armor Other III */
-     , (8527,  1358,      2)  /* Endurance Other IV */
+     , (8527,   270,      2)  /* Magic Resistance Other III */
      , (8527,  1382,      2)  /* Coordination Other IV */
+     , (8527,   992,      2)  /* Sprint Other V */
+     , (8527,  1358,      2)  /* Endurance Other IV */
      , (8527,  2009,      2)  /* Warrior's Greater Vigor */;

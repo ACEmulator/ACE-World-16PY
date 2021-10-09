@@ -44,12 +44,12 @@ VALUES (11766,   1, 'Reinforced Gromnie Banner with Crest') /* Name */
      , (11766,  16, 'A reinforced, crest tipped banner with a gromnie on it.  It is in almost perfect condition, and the colors are quite vibrant.  As you gaze at the gromnie, it almost seems to be gazing back.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11766,   1,   33557253) /* Setup */
-     , (11766,   3,  536870932) /* SoundTable */
-     , (11766,   6,   67113338) /* PaletteBase */
-     , (11766,   7,  268436210) /* ClothingBase */
-     , (11766,   8,  100671919) /* Icon */
-     , (11766,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11766,   1, 0x02000B05) /* Setup */
+     , (11766,   3, 0x20000014) /* SoundTable */
+     , (11766,   6, 0x0400117A) /* PaletteBase */
+     , (11766,   7, 0x100002F2) /* ClothingBase */
+     , (11766,   8, 0x060021AF) /* Icon */
+     , (11766,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11766,  1311,      2)  /* Armor Self V */;

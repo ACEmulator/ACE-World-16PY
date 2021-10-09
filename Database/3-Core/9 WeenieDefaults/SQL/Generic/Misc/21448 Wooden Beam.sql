@@ -18,5 +18,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21448,   1, 'Wooden Beam') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21448,   1,   33554924) /* Setup */
-     , (21448,   8,  100669105) /* Icon */;
+VALUES (21448,   1, 0x020001EC) /* Setup */
+     , (21448,   8, 0x060016B1) /* Icon */;

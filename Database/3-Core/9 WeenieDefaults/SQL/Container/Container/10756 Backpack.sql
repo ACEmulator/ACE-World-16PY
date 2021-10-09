@@ -28,12 +28,12 @@ VALUES (10756,   1, 'Backpack') /* Name */
      , (10756,  15, 'Property of the National Bank of Dereth.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10756,   1,   33554769) /* Setup */
-     , (10756,   3,  536870932) /* SoundTable */
-     , (10756,   6,   67111919) /* PaletteBase */
-     , (10756,   7,  268435867) /* ClothingBase */
-     , (10756,   8,  100670383) /* Icon */
-     , (10756,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (10756,   1, 0x02000151) /* Setup */
+     , (10756,   3, 0x20000014) /* SoundTable */
+     , (10756,   6, 0x04000BEF) /* PaletteBase */
+     , (10756,   7, 0x1000019B) /* ClothingBase */
+     , (10756,   8, 0x06001BAF) /* Icon */
+     , (10756,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (10756, 1,  2625, 100, 0, 1, False) /* Create Trade Note (10,000) (2625) for Contain */

@@ -39,17 +39,17 @@ VALUES (8552,   1, 'The Healer''s Heart') /* Name */
      , (8552,  16, 'A magical orb found in the cathedral of Ithaenc. This artifact was crafted by Lady Adja, a member of the Yalaini Council of Five, for use by her religious order.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8552,   1,   33556909) /* Setup */
-     , (8552,   3,  536870932) /* SoundTable */
-     , (8552,   6,   67111928) /* PaletteBase */
-     , (8552,   7,  268436041) /* ClothingBase */
-     , (8552,   8,  100671213) /* Icon */
-     , (8552,  22,  872415275) /* PhysicsEffectTable */
-     , (8552,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (8552,   1, 0x020009AD) /* Setup */
+     , (8552,   3, 0x20000014) /* SoundTable */
+     , (8552,   6, 0x04000BF8) /* PaletteBase */
+     , (8552,   7, 0x10000249) /* ClothingBase */
+     , (8552,   8, 0x06001EED) /* Icon */
+     , (8552,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8552,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (8552,  28,       1166) /* Spell - Heal Other VI */
      , (8552,  37,         33) /* ItemSkillLimit - LifeMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8552,   170,      2)  /* Regeneration Self VI */
+VALUES (8552,  1997,      2)  /* Life Giver */
      , (8552,   879,      2)  /* Healing Mastery Self VI */
-     , (8552,  1997,      2)  /* Life Giver */;
+     , (8552,   170,      2)  /* Regeneration Self VI */;

@@ -23,11 +23,11 @@ VALUES (23477,   1, 'Fishing Made Easy') /* Name */
      , (23477,  15, 'Instructions on fishing.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23477,   1,   33554826) /* Setup */
-     , (23477,   3,  536870932) /* SoundTable */
-     , (23477,   8,  100672101) /* Icon */
-     , (23477,  22,  872415275) /* PhysicsEffectTable */
-     , (23477,  50,  100674177) /* IconOverlay */;
+VALUES (23477,   1, 0x0200018A) /* Setup */
+     , (23477,   3, 0x20000014) /* SoundTable */
+     , (23477,   8, 0x06002265) /* Icon */
+     , (23477,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (23477,  50, 0x06002A81) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (23477, 5, 1000);

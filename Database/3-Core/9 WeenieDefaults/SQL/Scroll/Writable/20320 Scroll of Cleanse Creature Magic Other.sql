@@ -24,7 +24,7 @@ VALUES (20320,   1, 'Scroll of Cleanse Creature Magic Other') /* Name */
      , (20320,  15, 'When learned, this spell dispels 3-6 negative Creature Magic enchantments of level 3 or lower from the target.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20320,   1,   33554826) /* Setup */
-     , (20320,   8,  100676647) /* Icon */
-     , (20320,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20320,   1, 0x0200018A) /* Setup */
+     , (20320,   8, 0x06003427) /* Icon */
+     , (20320,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20320,  28,       1897) /* Spell - Cleanse Creature Magic Other */;

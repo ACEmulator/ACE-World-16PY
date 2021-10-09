@@ -32,8 +32,8 @@ VALUES (24765,   1, 'Treated Turpeth and Frankincense Crucible') /* Name */
      , (24765,  20, 'Treated Turpeth and Frankincense Crucibles') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24765,   1,   33555966) /* Setup */
-     , (24765,   3,  536870932) /* SoundTable */
-     , (24765,   8,  100674471) /* Icon */
-     , (24765,  22,  872415275) /* PhysicsEffectTable */
-     , (24765,  50,  100674415) /* IconOverlay */;
+VALUES (24765,   1, 0x020005FE) /* Setup */
+     , (24765,   3, 0x20000014) /* SoundTable */
+     , (24765,   8, 0x06002BA7) /* Icon */
+     , (24765,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24765,  50, 0x06002B6F) /* IconOverlay */;

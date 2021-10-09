@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11325,   1, 'Tumerok Cavern') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11325,   1,   33555922) /* Setup */
-     , (11325,   2,  150994947) /* MotionTable */
-     , (11325,   8,  100667499) /* Icon */;
+VALUES (11325,   1, 0x020005D2) /* Setup */
+     , (11325,   2, 0x09000003) /* MotionTable */
+     , (11325,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11325, 2, 43123225, 34.4, -27.7, 0, -0.444635, 0, 0, -0.8957118) /* Destination */
-/* @teleloc 0x02920219 [34.400000 -27.700000 0.000000] -0.444635 0.000000 0.000000 -0.895712 */;
+VALUES (11325, 2, 0x02920219, 34.4, -27.7, 0, -0.444635, 0, -0, -0.895712) /* Destination */
+/* @teleloc 0x02920219 [34.400002 -27.700001 0.000000] -0.444635 0.000000 -0.000000 -0.895712 */;

@@ -32,11 +32,11 @@ VALUES (30798,   1, 'Black Marrow Tea') /* Name */
      , (30798,  15, 'A thick, black tea made by Samuel of Eastham. The tea does not look like a very healthy drink.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30798,   1,   33554663) /* Setup */
-     , (30798,   3,  536870932) /* SoundTable */
-     , (30798,   8,  100677488) /* Icon */
-     , (30798,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30798,   1, 0x020000E7) /* Setup */
+     , (30798,   3, 0x20000014) /* SoundTable */
+     , (30798,   8, 0x06003770) /* Icon */
+     , (30798,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30798,  23,         64) /* UseSound - Eat1 */
-     , (30798,  27,  318767233) /* UseUserAnimation - MimeEat */
+     , (30798,  27, 0x13000081) /* UseUserAnimation - MimeEat */
      , (30798,  28,       3799) /* Spell - Black Marrow Bliss */
-     , (30798,  36,  234881046) /* MutateFilter */;
+     , (30798,  36, 0x0E000016) /* MutateFilter */;

@@ -40,10 +40,10 @@ VALUES (22729,   1, 'Aphus Lassel Portal Gem') /* Name */
      , (22729,  15, 'A gem teeming with portal energy. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22729,   1,   33556769) /* Setup */
-     , (22729,   3,  536870932) /* SoundTable */
-     , (22729,   6,   67111919) /* PaletteBase */
-     , (22729,   7,  268435723) /* ClothingBase */
-     , (22729,   8,  100673478) /* Icon */
-     , (22729,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22729,   1, 0x02000921) /* Setup */
+     , (22729,   3, 0x20000014) /* SoundTable */
+     , (22729,   6, 0x04000BEF) /* PaletteBase */
+     , (22729,   7, 0x1000010B) /* ClothingBase */
+     , (22729,   8, 0x060027C6) /* Icon */
+     , (22729,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22729,  28,       2936) /* Spell - Entrance to Tusker Island */;

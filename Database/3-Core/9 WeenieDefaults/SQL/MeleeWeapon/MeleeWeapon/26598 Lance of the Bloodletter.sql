@@ -45,17 +45,17 @@ VALUES (26598,   1, 'Lance of the Bloodletter') /* Name */
      , (26598,  15, 'A lance used to end the life of sacrifices during potent Falatacot blood rites.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26598,   1,   33558594) /* Setup */
-     , (26598,   3,  536870932) /* SoundTable */
-     , (26598,   6,   67114956) /* PaletteBase */
-     , (26598,   7,  268436792) /* ClothingBase */
-     , (26598,   8,  100675774) /* Icon */
-     , (26598,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (26598,   1, 0x02001042) /* Setup */
+     , (26598,   3, 0x20000014) /* SoundTable */
+     , (26598,   6, 0x040017CC) /* PaletteBase */
+     , (26598,   7, 0x10000538) /* ClothingBase */
+     , (26598,   8, 0x060030BE) /* Icon */
+     , (26598,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26598,  1317,      2)  /* Armor Other VI */
-     , (26598,  1384,      2)  /* Coordination Other VI */
+VALUES (26598,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (26598,  2692,      2)  /* Moderate Light Weapon Aptitude */
      , (26598,  1605,      2)  /* Aura of Defender Self VI */
-     , (26598,  1616,      2)  /* Aura of Blood Drinker Self VI */
      , (26598,  1627,      2)  /* Aura of Swift Killer Self VI */
-     , (26598,  2692,      2)  /* Moderate Light Weapon Aptitude */;
+     , (26598,  1317,      2)  /* Armor Other VI */
+     , (26598,  1384,      2)  /* Coordination Other VI */;

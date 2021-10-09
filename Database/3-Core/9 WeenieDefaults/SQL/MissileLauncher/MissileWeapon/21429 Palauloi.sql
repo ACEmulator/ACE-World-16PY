@@ -17,7 +17,7 @@ VALUES (21429,   1,        256) /* ItemType - MissileWeapon */
      , (21429,  48,          3) /* WeaponSkill - Crossbow */
      , (21429,  49,        100) /* WeaponTime */
      , (21429,  50,          2) /* AmmoType - Bolt */
-     , (21429,  51,          2) /* CombatUse - Missle */
+     , (21429,  51,          2) /* CombatUse - Missile */
      , (21429,  52,          2) /* ParentLocation - LeftHand */
      , (21429,  53,          3) /* PlacementPosition - LeftHand */
      , (21429,  60,        120) /* WeaponRange */
@@ -51,10 +51,10 @@ VALUES (21429,   1, 'Palauloi') /* Name */
      , (21429,  15, 'A crossbow constructed from obsidian and cerulean colored stone.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21429,   1,   33557969) /* Setup */
-     , (21429,   3,  536870932) /* SoundTable */
-     , (21429,   8,  100673496) /* Icon */
-     , (21429,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21429,   1, 0x02000DD1) /* Setup */
+     , (21429,   3, 0x20000014) /* SoundTable */
+     , (21429,   8, 0x060027D8) /* Icon */
+     , (21429,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21429,  37,          3) /* ItemSkillLimit - Crossbow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

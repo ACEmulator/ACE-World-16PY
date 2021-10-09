@@ -22,5 +22,5 @@ VALUES (15707,   1, 'Rytheran Dale') /* Name */
      , (15707,  16, 'Welcome to Rytheran Dale') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15707,   1,   33557463) /* Setup */
-     , (15707,   8,  100668115) /* Icon */;
+VALUES (15707,   1, 0x02000BD7) /* Setup */
+     , (15707,   8, 0x060012D3) /* Icon */;

@@ -24,7 +24,7 @@ VALUES (20503,   1, 'Scroll of Jibril''s Vitae') /* Name */
      , (20503,  15, 'When learned, this spell decreases the target''s Armor Tinkering skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20503,   1,   33554826) /* Setup */
-     , (20503,   8,  100676477) /* Icon */
-     , (20503,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20503,   1, 0x0200018A) /* Setup */
+     , (20503,   8, 0x0600337D) /* Icon */
+     , (20503,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20503,  28,       2198) /* Spell - Jibril's Vitae */;

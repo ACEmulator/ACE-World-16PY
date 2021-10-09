@@ -24,7 +24,7 @@ VALUES (20292,   1, 'Scroll of Purge All Magic Self') /* Name */
      , (20292,  15, 'When learned, this spell dispels all enchantments of level 5 or lower from the caster.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20292,   1,   33554826) /* Setup */
-     , (20292,   8,  100669877) /* Icon */
-     , (20292,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20292,   1, 0x0200018A) /* Setup */
+     , (20292,   8, 0x060019B5) /* Icon */
+     , (20292,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20292,  28,       1874) /* Spell - Purge All Magic Self */;

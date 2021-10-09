@@ -22,5 +22,5 @@ VALUES (12671,   1, 'Wi Badlands Settlement') /* Name */
      , (12671,  16, 'Welcome to Wi Badlands Settlement') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12671,   1,   33557463) /* Setup */
-     , (12671,   8,  100668115) /* Icon */;
+VALUES (12671,   1, 0x02000BD7) /* Setup */
+     , (12671,   8, 0x060012D3) /* Icon */;

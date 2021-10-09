@@ -42,13 +42,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8699,   1, 'A Pair Of Society Leather Leggings') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8699,   1,   33554856) /* Setup */
-     , (8699,   3,  536870932) /* SoundTable */
-     , (8699,   6,   67108990) /* PaletteBase */
-     , (8699,   7,  268435533) /* ClothingBase */
-     , (8699,   8,  100669496) /* Icon */
-     , (8699,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8699,   1, 0x020001A8) /* Setup */
+     , (8699,   3, 0x20000014) /* SoundTable */
+     , (8699,   6, 0x0400007E) /* PaletteBase */
+     , (8699,   7, 0x1000004D) /* ClothingBase */
+     , (8699,   8, 0x06001838) /* Icon */
+     , (8699,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8699,  1116,      2)  /* Blade Protection Other II */
-     , (8699,  1482,      2)  /* Impenetrability II */;
+VALUES (8699,  1482,      2)  /* Impenetrability II */
+     , (8699,  1116,      2)  /* Blade Protection Other II */;

@@ -45,18 +45,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6224,   1, 'Fine Stinging Atlan Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6224,   1,   33556355) /* Setup */
-     , (6224,   3,  536870932) /* SoundTable */
-     , (6224,   6,   67111919) /* PaletteBase */
-     , (6224,   7,  268435934) /* ClothingBase */
-     , (6224,   8,  100670524) /* Icon */
-     , (6224,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6224,   1, 0x02000783) /* Setup */
+     , (6224,   3, 0x20000014) /* SoundTable */
+     , (6224,   6, 0x04000BEF) /* PaletteBase */
+     , (6224,   7, 0x100001DE) /* ClothingBase */
+     , (6224,   8, 0x06001C3C) /* Icon */
+     , (6224,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6224,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6224,   518,      2)  /* Acid Protection Self IV */
-     , (6224,  1376,      2)  /* Coordination Self IV */
+VALUES (6224,  1603,      2)  /* Aura of Defender Self IV */
+     , (6224,   518,      2)  /* Acid Protection Self IV */
      , (6224,  1590,      2)  /* Aura of Heart Seeker Self IV */
-     , (6224,  1603,      2)  /* Aura of Defender Self IV */
      , (6224,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (6224,  1376,      2)  /* Coordination Self IV */
      , (6224,  1625,      2)  /* Aura of Swift Killer Self IV */;

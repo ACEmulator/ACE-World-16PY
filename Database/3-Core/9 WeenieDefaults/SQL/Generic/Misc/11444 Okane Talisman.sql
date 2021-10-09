@@ -27,8 +27,8 @@ VALUES (11444,   1, 'Okane Talisman') /* Name */
      , (11444,  16, 'A small talisman carved with the image of a dagger.  If given to Aun Imeitanua, he will bestow an Okane in exchange.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11444,   1,   33554680) /* Setup */
-     , (11444,   3,  536870932) /* SoundTable */
-     , (11444,   8,  100671826) /* Icon */
-     , (11444,  22,  872415275) /* PhysicsEffectTable */
-     , (11444,  36,  234881046) /* MutateFilter */;
+VALUES (11444,   1, 0x020000F8) /* Setup */
+     , (11444,   3, 0x20000014) /* SoundTable */
+     , (11444,   8, 0x06002152) /* Icon */
+     , (11444,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11444,  36, 0x0E000016) /* MutateFilter */;

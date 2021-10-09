@@ -36,6 +36,6 @@ VALUES (14546,   1, 'Putrescent Air') /* Name */
      , (14546,  17, 'Toxic air singes your lungs for %i points of damage!') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14546,   1,   33556024) /* Setup */
-     , (14546,   3,  536870996) /* SoundTable */
-     , (14546,   8,  100667465) /* Icon */;
+VALUES (14546,   1, 0x02000638) /* Setup */
+     , (14546,   3, 0x20000054) /* SoundTable */
+     , (14546,   8, 0x06001049) /* Icon */;

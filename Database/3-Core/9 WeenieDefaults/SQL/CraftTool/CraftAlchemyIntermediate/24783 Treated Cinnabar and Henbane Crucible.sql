@@ -32,8 +32,8 @@ VALUES (24783,   1, 'Treated Cinnabar and Henbane Crucible') /* Name */
      , (24783,  20, 'Treated Cinnabar and Henbane Crucibles') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24783,   1,   33555966) /* Setup */
-     , (24783,   3,  536870932) /* SoundTable */
-     , (24783,   8,  100674462) /* Icon */
-     , (24783,  22,  872415275) /* PhysicsEffectTable */
-     , (24783,  50,  100674414) /* IconOverlay */;
+VALUES (24783,   1, 0x020005FE) /* Setup */
+     , (24783,   3, 0x20000014) /* SoundTable */
+     , (24783,   8, 0x06002B9E) /* Icon */
+     , (24783,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24783,  50, 0x06002B6E) /* IconOverlay */;

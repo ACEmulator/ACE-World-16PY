@@ -30,7 +30,7 @@ VALUES (27761,  22, True ) /* Inscribable */
      , (27761,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27761,   5, -0.033333) /* ManaRate */
+VALUES (27761,   5,  -0.033) /* ManaRate */
      , (27761,  12,    0.66) /* Shade */
      , (27761,  13,     0.8) /* ArmorModVsSlash */
      , (27761,  14,     0.8) /* ArmorModVsPierce */
@@ -47,12 +47,12 @@ VALUES (27761,   1, 'Adjanite Crown') /* Name */
      , (27761,  15, 'An Emerald crown with trio of cameos representing Adjanite Priestesses embedded on its brow.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27761,   1,   33557995) /* Setup */
-     , (27761,   3,  536870932) /* SoundTable */
-     , (27761,   6,   67108990) /* PaletteBase */
-     , (27761,   7,  268436833) /* ClothingBase */
-     , (27761,   8,  100676628) /* Icon */
-     , (27761,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27761,   1, 0x02000DEB) /* Setup */
+     , (27761,   3, 0x20000014) /* SoundTable */
+     , (27761,   6, 0x0400007E) /* PaletteBase */
+     , (27761,   7, 0x10000561) /* ClothingBase */
+     , (27761,   8, 0x06003414) /* Icon */
+     , (27761,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27761,  3246,      2)  /* Adja's Benefaction */

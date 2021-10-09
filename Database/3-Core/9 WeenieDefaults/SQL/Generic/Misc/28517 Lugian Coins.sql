@@ -27,9 +27,9 @@ VALUES (28517,   1, 'Lugian Coins') /* Name */
      , (28517,  16, 'These stone slabs are apparently the coins that are typically used by Lugians. They were given to you by Gorak, in payment of an axe that you delivered to him from Captain K''rank in Linvak Tukal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28517,   1,   33554817) /* Setup */
-     , (28517,   3,  536870932) /* SoundTable */
-     , (28517,   6,   67111919) /* PaletteBase */
-     , (28517,   7,  268435832) /* ClothingBase */
-     , (28517,   8,  100676971) /* Icon */
-     , (28517,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28517,   1, 0x02000181) /* Setup */
+     , (28517,   3, 0x20000014) /* SoundTable */
+     , (28517,   6, 0x04000BEF) /* PaletteBase */
+     , (28517,   7, 0x10000178) /* ClothingBase */
+     , (28517,   8, 0x0600356B) /* Icon */
+     , (28517,  22, 0x3400002B) /* PhysicsEffectTable */;

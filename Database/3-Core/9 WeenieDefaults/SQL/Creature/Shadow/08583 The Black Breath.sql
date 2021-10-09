@@ -68,12 +68,12 @@ VALUES (8583,   1, 'The Black Breath') /* Name */
      , (8583,   3, 'Male') /* Sex */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8583,   1,   33556913) /* Setup */
-     , (8583,   2,  150994968) /* MotionTable */
-     , (8583,   3,  536870985) /* SoundTable */
-     , (8583,   4,  805306376) /* CombatTable */
-     , (8583,   8,  100670397) /* Icon */
-     , (8583,  22,  872415331) /* PhysicsEffectTable */
+VALUES (8583,   1, 0x020009B1) /* Setup */
+     , (8583,   2, 0x09000018) /* MotionTable */
+     , (8583,   3, 0x20000049) /* SoundTable */
+     , (8583,   4, 0x30000008) /* CombatTable */
+     , (8583,   8, 0x06001BBD) /* Icon */
+     , (8583,  22, 0x34000063) /* PhysicsEffectTable */
      , (8583,  35,        181) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -90,23 +90,23 @@ VALUES (8583,   1,   630, 0, 0, 858) /* MaxHealth */
      , (8583,   5,   300, 0, 0, 700) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (8583,  1, 0, 2, 0, 110, 0, 593.63804843002) /* Axe                 Trained */
-     , (8583,  2, 0, 3, 0,  90, 0, 593.63804843002) /* Bow                 Specialized */
-     , (8583,  3, 0, 2, 0,  90, 0, 593.63804843002) /* Crossbow            Trained */
-     , (8583,  4, 0, 3, 0, 110, 0, 593.63804843002) /* Dagger              Specialized */
-     , (8583,  5, 0, 2, 0, 110, 0, 593.63804843002) /* Mace                Trained */
-     , (8583,  6, 0, 3, 0,  80, 0, 593.63804843002) /* MeleeDefense        Specialized */
-     , (8583,  7, 0, 3, 0,  90, 0, 593.63804843002) /* MissileDefense      Specialized */
-     , (8583,  9, 0, 3, 0, 110, 0, 593.63804843002) /* Spear               Specialized */
-     , (8583, 10, 0, 2, 0, 110, 0, 593.63804843002) /* Staff               Trained */
-     , (8583, 11, 0, 3, 0, 110, 0, 593.63804843002) /* Sword               Specialized */
-     , (8583, 13, 0, 3, 0, 310, 0, 593.63804843002) /* UnarmedCombat       Specialized */
-     , (8583, 14, 0, 2, 0, 230, 0, 593.63804843002) /* ArcaneLore          Trained */
-     , (8583, 15, 0, 3, 0, 200, 0, 593.63804843002) /* MagicDefense        Specialized */
-     , (8583, 20, 0, 3, 0, 150, 0, 593.63804843002) /* Deception           Specialized */
-     , (8583, 31, 0, 3, 0, 330, 0, 593.63804843002) /* CreatureEnchantment Specialized */
-     , (8583, 33, 0, 3, 0, 330, 0, 593.63804843002) /* LifeMagic           Specialized */
-     , (8583, 34, 0, 3, 0, 350, 0, 593.63804843002) /* WarMagic            Specialized */;
+VALUES (8583,  1, 0, 2, 0, 110, 0, 593.6380484300199) /* Axe                 Trained */
+     , (8583,  2, 0, 3, 0,  90, 0, 593.6380484300199) /* Bow                 Specialized */
+     , (8583,  3, 0, 2, 0,  90, 0, 593.6380484300199) /* Crossbow            Trained */
+     , (8583,  4, 0, 3, 0, 110, 0, 593.6380484300199) /* Dagger              Specialized */
+     , (8583,  5, 0, 2, 0, 110, 0, 593.6380484300199) /* Mace                Trained */
+     , (8583,  6, 0, 3, 0,  80, 0, 593.6380484300199) /* MeleeDefense        Specialized */
+     , (8583,  7, 0, 3, 0,  90, 0, 593.6380484300199) /* MissileDefense      Specialized */
+     , (8583,  9, 0, 3, 0, 110, 0, 593.6380484300199) /* Spear               Specialized */
+     , (8583, 10, 0, 2, 0, 110, 0, 593.6380484300199) /* Staff               Trained */
+     , (8583, 11, 0, 3, 0, 110, 0, 593.6380484300199) /* Sword               Specialized */
+     , (8583, 13, 0, 3, 0, 310, 0, 593.6380484300199) /* UnarmedCombat       Specialized */
+     , (8583, 14, 0, 2, 0, 230, 0, 593.6380484300199) /* ArcaneLore          Trained */
+     , (8583, 15, 0, 3, 0, 200, 0, 593.6380484300199) /* MagicDefense        Specialized */
+     , (8583, 20, 0, 3, 0, 150, 0, 593.6380484300199) /* Deception           Specialized */
+     , (8583, 31, 0, 3, 0, 330, 0, 593.6380484300199) /* CreatureEnchantment Specialized */
+     , (8583, 33, 0, 3, 0, 330, 0, 593.6380484300199) /* LifeMagic           Specialized */
+     , (8583, 34, 0, 3, 0, 350, 0, 593.6380484300199) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (8583,  0, 32,  0,    0, 9000, 9000, 5850, 6930, 3420, 9000, 3960, 5850,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

@@ -28,10 +28,10 @@ VALUES (11667,   1, 'Completed Advanced Dagger Skill Puzzle') /* Name */
      , (11667,  16, 'A completed Advanced Dagger Skill Puzzle.  Turn in to a Bestower Examiner to receive a title.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11667,   1,   33557028) /* Setup */
-     , (11667,   3,  536870932) /* SoundTable */
-     , (11667,   6,   67113173) /* PaletteBase */
-     , (11667,   7,  268436162) /* ClothingBase */
-     , (11667,   8,  100671728) /* Icon */
-     , (11667,  22,  872415275) /* PhysicsEffectTable */
-     , (11667,  36,  234881046) /* MutateFilter */;
+VALUES (11667,   1, 0x02000A24) /* Setup */
+     , (11667,   3, 0x20000014) /* SoundTable */
+     , (11667,   6, 0x040010D5) /* PaletteBase */
+     , (11667,   7, 0x100002C2) /* ClothingBase */
+     , (11667,   8, 0x060020F0) /* Icon */
+     , (11667,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11667,  36, 0x0E000016) /* MutateFilter */;

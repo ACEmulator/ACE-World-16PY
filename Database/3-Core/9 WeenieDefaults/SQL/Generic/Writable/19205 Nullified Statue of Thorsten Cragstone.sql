@@ -26,9 +26,9 @@ VALUES (19205,   1, 'Nullified Statue of Thorsten Cragstone') /* Name */
      , (19205,  15, 'This nullified shell is all that remains of the living Statue of Thorsten Cragstone that once threatened our peaceful town. Destroyed through the sole efforts of the citizens of Dereth, it remains as a testament to their valor. This land is yours now.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19205,   1,   33554433) /* Setup */
-     , (19205,   2,  150995176) /* MotionTable */
-     , (19205,   3,  536871052) /* SoundTable */
-     , (19205,   6,   67108990) /* PaletteBase */
-     , (19205,   7,  268436347) /* ClothingBase */
-     , (19205,   8,  100667446) /* Icon */;
+VALUES (19205,   1, 0x02000001) /* Setup */
+     , (19205,   2, 0x090000E8) /* MotionTable */
+     , (19205,   3, 0x2000008C) /* SoundTable */
+     , (19205,   6, 0x0400007E) /* PaletteBase */
+     , (19205,   7, 0x1000037B) /* ClothingBase */
+     , (19205,   8, 0x06001036) /* Icon */;

@@ -31,13 +31,13 @@ VALUES (27895,   1, 'Leerargh''s Necklace') /* Name */
      , (27895,  16, 'A replica of the fabled Mosswart hero''s necklace. There is a small stamp that reads: A Ketnan Product.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27895,   1,   33554680) /* Setup */
-     , (27895,   3,  536870932) /* SoundTable */
-     , (27895,   6,   67111919) /* PaletteBase */
-     , (27895,   7,  268436095) /* ClothingBase */
-     , (27895,   8,  100676616) /* Icon */
-     , (27895,  22,  872415275) /* PhysicsEffectTable */
-     , (27895,  36,  234881046) /* MutateFilter */;
+VALUES (27895,   1, 0x020000F8) /* Setup */
+     , (27895,   3, 0x20000014) /* SoundTable */
+     , (27895,   6, 0x04000BEF) /* PaletteBase */
+     , (27895,   7, 0x1000027F) /* ClothingBase */
+     , (27895,   8, 0x06003408) /* Icon */
+     , (27895,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27895,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27895,   160,      2)  /* Regeneration Other II */

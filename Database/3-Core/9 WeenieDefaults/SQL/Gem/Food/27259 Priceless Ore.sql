@@ -32,10 +32,10 @@ VALUES (27259,   1, 'Priceless Ore') /* Name */
      , (27259,  16, 'A chunk of Crystaline Ore. It seems to shimmer and feels warm to the touch.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27259,   1,   33554817) /* Setup */
-     , (27259,   3,  536870932) /* SoundTable */
-     , (27259,   6,   67111919) /* PaletteBase */
-     , (27259,   7,  268435832) /* ClothingBase */
-     , (27259,   8,  100676396) /* Icon */
-     , (27259,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27259,   1, 0x02000181) /* Setup */
+     , (27259,   3, 0x20000014) /* SoundTable */
+     , (27259,   6, 0x04000BEF) /* PaletteBase */
+     , (27259,   7, 0x10000178) /* ClothingBase */
+     , (27259,   8, 0x0600332C) /* Icon */
+     , (27259,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27259,  28,       3207) /* Spell - Ore Fire */;

@@ -27,21 +27,21 @@ VALUES (28393,  22, True ) /* Inscribable */
      , (28393,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28393,   5, -0.033333) /* ManaRate */;
+VALUES (28393,   5,  -0.033) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28393,   1, 'Manacle of Biting Pain') /* Name */
      , (28393,  16, 'A single green manacle with vicious looking spikes pointing inward.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28393,   1,   33558878) /* Setup */
-     , (28393,   3,  536870932) /* SoundTable */
-     , (28393,   6,   67114956) /* PaletteBase */
-     , (28393,   7,  268436792) /* ClothingBase */
-     , (28393,   8,  100677003) /* Icon */
-     , (28393,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28393,   1, 0x0200115E) /* Setup */
+     , (28393,   3, 0x20000014) /* SoundTable */
+     , (28393,   6, 0x040017CC) /* PaletteBase */
+     , (28393,   7, 0x10000538) /* ClothingBase */
+     , (28393,   8, 0x0600358B) /* Icon */
+     , (28393,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28393,   272,      2)  /* Magic Resistance Other V */
-     , (28393,  3376,      2)  /* Lesser Vision Beyond the Grave */
-     , (28393,  3407,      2)  /* Lesser Evil Thirst */;
+VALUES (28393,  3407,      2)  /* Lesser Evil Thirst */
+     , (28393,   272,      2)  /* Magic Resistance Other V */
+     , (28393,  3376,      2)  /* Lesser Vision Beyond the Grave */;

@@ -22,5 +22,5 @@ VALUES (13162,   1, 'Iceea Hills Estates') /* Name */
      , (13162,  16, 'Welcome to Iceea Hills Estates') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13162,   1,   33557463) /* Setup */
-     , (13162,   8,  100668115) /* Icon */;
+VALUES (13162,   1, 0x02000BD7) /* Setup */
+     , (13162,   8, 0x060012D3) /* Icon */;

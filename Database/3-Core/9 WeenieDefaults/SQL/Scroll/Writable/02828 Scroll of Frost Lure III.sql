@@ -25,7 +25,7 @@ VALUES (2828,   1, 'Scroll of Frost Lure III') /* Name */
      , (2828,  16, 'When learned, this spell decreases a shield or piece of armor''s resistance to cold damage by 50%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2828,   1,   33554826) /* Setup */
-     , (2828,   8,  100676667) /* Icon */
-     , (2828,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2828,   1, 0x0200018A) /* Setup */
+     , (2828,   8, 0x0600343B) /* Icon */
+     , (2828,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2828,  28,       1519) /* Spell - Frost Lure III */;

@@ -23,7 +23,7 @@ VALUES (1075,   1, 'Yaraq Market') /* Name */
      , (1075,  16, 'Yaraq Market') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1075,   1,   33555909) /* Setup */
-     , (1075,   6,   67111860) /* PaletteBase */
-     , (1075,   7,  268435823) /* ClothingBase */
-     , (1075,   8,  100668115) /* Icon */;
+VALUES (1075,   1, 0x020005C5) /* Setup */
+     , (1075,   6, 0x04000BB4) /* PaletteBase */
+     , (1075,   7, 0x1000016F) /* ClothingBase */
+     , (1075,   8, 0x060012D3) /* Icon */;

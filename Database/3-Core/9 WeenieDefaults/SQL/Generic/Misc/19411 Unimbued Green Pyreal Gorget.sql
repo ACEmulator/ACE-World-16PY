@@ -27,9 +27,9 @@ VALUES (19411,   1, 'Unimbued Green Pyreal Gorget') /* Name */
      , (19411,  15, 'A green gorget, crafted from a strong metal. As you hold the gorget in your hand you feel a quick and heavy vibration.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19411,   1,   33554687) /* Setup */
-     , (19411,   3,  536870932) /* SoundTable */
-     , (19411,   6,   67111919) /* PaletteBase */
-     , (19411,   7,  268436388) /* ClothingBase */
-     , (19411,   8,  100668632) /* Icon */
-     , (19411,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19411,   1, 0x020000FF) /* Setup */
+     , (19411,   3, 0x20000014) /* SoundTable */
+     , (19411,   6, 0x04000BEF) /* PaletteBase */
+     , (19411,   7, 0x100003A4) /* ClothingBase */
+     , (19411,   8, 0x060014D8) /* Icon */
+     , (19411,  22, 0x3400002B) /* PhysicsEffectTable */;

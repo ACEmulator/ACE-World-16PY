@@ -39,15 +39,15 @@ VALUES (25583,   1, 'Polestar') /* Name */
      , (25583,  16, 'The staff almost guides your hand towards your targets.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25583,   1,   33558500) /* Setup */
-     , (25583,   3,  536870932) /* SoundTable */
-     , (25583,   6,   67111919) /* PaletteBase */
-     , (25583,   8,  100675046) /* Icon */
-     , (25583,  22,  872415275) /* PhysicsEffectTable */
-     , (25583,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (25583,   1, 0x02000FE4) /* Setup */
+     , (25583,   3, 0x20000014) /* SoundTable */
+     , (25583,   6, 0x04000BEF) /* PaletteBase */
+     , (25583,   8, 0x06002DE6) /* Icon */
+     , (25583,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (25583,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (25583,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25583,   211,      2)  /* Mana Renewal Other VI */
+VALUES (25583,  2627,      2)  /* Minor Mana Gain */
      , (25583,  2569,      2)  /* Minor War Magic Aptitude */
-     , (25583,  2627,      2)  /* Minor Mana Gain */;
+     , (25583,   211,      2)  /* Mana Renewal Other VI */;

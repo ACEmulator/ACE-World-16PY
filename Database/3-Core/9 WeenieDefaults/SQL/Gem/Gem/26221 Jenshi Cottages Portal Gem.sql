@@ -36,11 +36,11 @@ VALUES (26221,   1, 'Jenshi Cottages Portal Gem') /* Name */
      , (26221,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26221,   1,   33556769) /* Setup */
-     , (26221,   3,  536870932) /* SoundTable */
-     , (26221,   6,   67111919) /* PaletteBase */
-     , (26221,   7,  268435723) /* ClothingBase */
-     , (26221,   8,  100675760) /* Icon */
-     , (26221,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26221,   1, 0x02000921) /* Setup */
+     , (26221,   3, 0x20000014) /* SoundTable */
+     , (26221,   6, 0x04000BEF) /* PaletteBase */
+     , (26221,   7, 0x1000010B) /* ClothingBase */
+     , (26221,   8, 0x060030B0) /* Icon */
+     , (26221,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26221,  28,        157) /* Spell - Summon Primary Portal I */
      , (26221,  31,      15163) /* LinkedPortalOne - Jenshi Cottages Portal */;

@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13133,   1, 'South Shoushi Villas Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13133,   1,   33554867) /* Setup */
-     , (13133,   2,  150994947) /* MotionTable */
-     , (13133,   8,  100667499) /* Icon */;
+VALUES (13133,   1, 0x020001B3) /* Setup */
+     , (13133,   2, 0x09000003) /* MotionTable */
+     , (13133,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (13133, 2, 3595304966, 20.441, 127.326, 35.708, 0.6911788, 0, 0, -0.7226838) /* Destination */
-/* @teleloc 0xD64C0006 [20.441000 127.326000 35.708000] 0.691179 0.000000 0.000000 -0.722684 */;
+VALUES (13133, 2, 0xD64C0006, 20.441, 127.326, 35.708, 0.691179, 0, 0, -0.722684) /* Destination */
+/* @teleloc 0xD64C0006 [20.441000 127.325996 35.708000] 0.691179 0.000000 0.000000 -0.722684 */;

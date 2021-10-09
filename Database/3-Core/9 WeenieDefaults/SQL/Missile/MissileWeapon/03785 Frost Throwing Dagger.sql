@@ -21,7 +21,7 @@ VALUES (3785,   1,        256) /* ItemType - MissileWeapon */
      , (3785,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (3785,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (3785,  49,         10) /* WeaponTime */
-     , (3785,  51,          2) /* CombatUse - Missle */
+     , (3785,  51,          2) /* CombatUse - Missile */
      , (3785,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (3785, 150,        103) /* HookPlacement - Hook */
      , (3785, 151,          2) /* HookType - Wall */;
@@ -41,7 +41,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3785,   1, 'Frost Throwing Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3785,   1,   33555718) /* Setup */
-     , (3785,   3,  536870932) /* SoundTable */
-     , (3785,   8,  100667590) /* Icon */
-     , (3785,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3785,   1, 0x02000506) /* Setup */
+     , (3785,   3, 0x20000014) /* SoundTable */
+     , (3785,   8, 0x060010C6) /* Icon */
+     , (3785,  22, 0x3400002B) /* PhysicsEffectTable */;

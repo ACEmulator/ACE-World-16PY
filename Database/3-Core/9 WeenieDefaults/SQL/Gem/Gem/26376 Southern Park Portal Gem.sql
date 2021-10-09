@@ -36,11 +36,11 @@ VALUES (26376,   1, 'Southern Park Portal Gem') /* Name */
      , (26376,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26376,   1,   33556769) /* Setup */
-     , (26376,   3,  536870932) /* SoundTable */
-     , (26376,   6,   67111919) /* PaletteBase */
-     , (26376,   7,  268435723) /* ClothingBase */
-     , (26376,   8,  100675760) /* Icon */
-     , (26376,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26376,   1, 0x02000921) /* Setup */
+     , (26376,   3, 0x20000014) /* SoundTable */
+     , (26376,   6, 0x04000BEF) /* PaletteBase */
+     , (26376,   7, 0x1000010B) /* ClothingBase */
+     , (26376,   8, 0x060030B0) /* Icon */
+     , (26376,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26376,  28,        157) /* Spell - Summon Primary Portal I */
      , (26376,  31,      14667) /* LinkedPortalOne - Southern Park Portal */;

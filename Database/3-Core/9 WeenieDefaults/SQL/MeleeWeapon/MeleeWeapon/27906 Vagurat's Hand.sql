@@ -34,7 +34,7 @@ VALUES (27906,  22, True ) /* Inscribable */
      , (27906,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27906,   5, -0.0333) /* ManaRate */
+VALUES (27906,   5,  -0.033) /* ManaRate */
      , (27906,  21,    0.62) /* WeaponLength */
      , (27906,  22,     0.5) /* DamageVariance */
      , (27906,  29,    1.03) /* WeaponDefense */
@@ -45,13 +45,13 @@ VALUES (27906,   1, 'Vagurat''s Hand') /* Name */
      , (27906,  16, 'A mace crafted to look like the Mosswart relic, The Hand of Vagurat. A small stamp on the hilt reads: A Ketnan Product.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27906,   1,   33558801) /* Setup */
-     , (27906,   3,  536870932) /* SoundTable */
-     , (27906,   8,  100676621) /* Icon */
-     , (27906,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27906,   1, 0x02001111) /* Setup */
+     , (27906,   3, 0x20000014) /* SoundTable */
+     , (27906,   8, 0x0600340D) /* Icon */
+     , (27906,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27906,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27906,   341,      2)  /* Light Weapon Mastery Other II */
-     , (27906,  1588,      2)  /* Aura of Heart Seeker Self II */
-     , (27906,  1612,      2)  /* Aura of Blood Drinker Self II */;
+VALUES (27906,  1588,      2)  /* Aura of Heart Seeker Self II */
+     , (27906,  1612,      2)  /* Aura of Blood Drinker Self II */
+     , (27906,   341,      2)  /* Light Weapon Mastery Other II */;

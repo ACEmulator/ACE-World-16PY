@@ -22,5 +22,5 @@ VALUES (15227,   1, 'Inquisitor''s Dale Cottages') /* Name */
      , (15227,  16, 'Welcome to Inquisitor''s Dale Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15227,   1,   33557463) /* Setup */
-     , (15227,   8,  100668115) /* Icon */;
+VALUES (15227,   1, 0x02000BD7) /* Setup */
+     , (15227,   8, 0x060012D3) /* Icon */;

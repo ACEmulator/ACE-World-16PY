@@ -27,10 +27,10 @@ VALUES (25575,   1, 'Obsidian Shard') /* Name */
      , (25575,  15, 'An obsidian shard with strange symbols carved into the rock. Typically these are used for transferring Virindi writings.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25575,   1,   33555391) /* Setup */
-     , (25575,   3,  536870932) /* SoundTable */
-     , (25575,   8,  100671183) /* Icon */
-     , (25575,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25575,   1, 0x020003BF) /* Setup */
+     , (25575,   3, 0x20000014) /* SoundTable */
+     , (25575,   8, 0x06001ECF) /* Icon */
+     , (25575,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (25575, 1, 1000);

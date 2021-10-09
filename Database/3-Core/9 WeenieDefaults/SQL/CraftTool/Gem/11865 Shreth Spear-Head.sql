@@ -31,7 +31,7 @@ VALUES (11865,   1, 'Shreth Spear-Head') /* Name */
      , (11865,  16, 'A Shreth Spear-Head.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11865,   1,   33557247) /* Setup */
-     , (11865,   3,  536870932) /* SoundTable */
-     , (11865,   8,  100671963) /* Icon */
-     , (11865,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11865,   1, 0x02000AFF) /* Setup */
+     , (11865,   3, 0x20000014) /* SoundTable */
+     , (11865,   8, 0x060021DB) /* Icon */
+     , (11865,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -19,7 +19,7 @@ VALUES (20049,   1,        256) /* ItemType - MissileWeapon */
      , (20049,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (20049,  49,         15) /* WeaponTime */
      , (20049,  50,          4) /* AmmoType - Atlatl */
-     , (20049,  51,          2) /* CombatUse - Missle */
+     , (20049,  51,          2) /* CombatUse - Missile */
      , (20049,  60,        120) /* WeaponRange */
      , (20049,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (20049, 106,        300) /* ItemSpellcraft */
@@ -50,17 +50,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20049,   1, 'Perfect Coruscating Isparian Atlatl') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20049,   1,   33557802) /* Setup */
-     , (20049,   3,  536870932) /* SoundTable */
-     , (20049,   6,   67111919) /* PaletteBase */
-     , (20049,   7,  268436393) /* ClothingBase */
-     , (20049,   8,  100673002) /* Icon */
-     , (20049,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20049,   1, 0x02000D2A) /* Setup */
+     , (20049,   3, 0x20000014) /* SoundTable */
+     , (20049,   6, 0x04000BEF) /* PaletteBase */
+     , (20049,   7, 0x100003A9) /* ClothingBase */
+     , (20049,   8, 0x060025EA) /* Icon */
+     , (20049,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20049,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20049,  1071,      2)  /* Lightning Protection Self VI */
+VALUES (20049,  1605,      2)  /* Aura of Defender Self VI */
+     , (20049,  2695,      2)  /* Moderate Missile Weapon Aptitude */
      , (20049,  1401,      2)  /* Quickness Self V */
-     , (20049,  1605,      2)  /* Aura of Defender Self VI */
      , (20049,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (20049,  2695,      2)  /* Moderate Missile Weapon Aptitude */;
+     , (20049,  1071,      2)  /* Lightning Protection Self VI */;

@@ -37,8 +37,8 @@ VALUES (1114,   1, 'Simple Lockbox') /* Name */
      , (1114,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1114,   1,   33554556) /* Setup */
-     , (1114,   2,  150994948) /* MotionTable */
-     , (1114,   3,  536870945) /* SoundTable */
-     , (1114,   8,  100667424) /* Icon */
-     , (1114,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1114,   1, 0x0200007C) /* Setup */
+     , (1114,   2, 0x09000004) /* MotionTable */
+     , (1114,   3, 0x20000021) /* SoundTable */
+     , (1114,   8, 0x06001020) /* Icon */
+     , (1114,  22, 0x3400002B) /* PhysicsEffectTable */;

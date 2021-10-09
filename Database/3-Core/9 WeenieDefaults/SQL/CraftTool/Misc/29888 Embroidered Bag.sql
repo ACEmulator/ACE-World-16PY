@@ -30,7 +30,7 @@ VALUES (29888,   1, 'Embroidered Bag') /* Name */
      , (29888,  16, 'A nearly empty embroidered bag.  There is only one small bundle of Timber Siraluun feathers in it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29888,   1,   33554769) /* Setup */
-     , (29888,   3,  536870932) /* SoundTable */
-     , (29888,   8,  100671838) /* Icon */
-     , (29888,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29888,   1, 0x02000151) /* Setup */
+     , (29888,   3, 0x20000014) /* SoundTable */
+     , (29888,   8, 0x0600215E) /* Icon */
+     , (29888,  22, 0x3400002B) /* PhysicsEffectTable */;

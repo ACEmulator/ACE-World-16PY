@@ -22,7 +22,7 @@ VALUES (4422,   1, 'The Roasted Shreth') /* Name */
      , (4422,  16, 'The Roasted Shreth') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4422,   1,   33555593) /* Setup */
-     , (4422,   6,   67111092) /* PaletteBase */
-     , (4422,   7,  268435678) /* ClothingBase */
-     , (4422,   8,  100668115) /* Icon */;
+VALUES (4422,   1, 0x02000489) /* Setup */
+     , (4422,   6, 0x040008B4) /* PaletteBase */
+     , (4422,   7, 0x100000DE) /* ClothingBase */
+     , (4422,   8, 0x060012D3) /* Icon */;

@@ -19,7 +19,7 @@ VALUES (20063,   1,        256) /* ItemType - MissileWeapon */
      , (20063,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (20063,  49,         15) /* WeaponTime */
      , (20063,  50,          4) /* AmmoType - Atlatl */
-     , (20063,  51,          2) /* CombatUse - Missle */
+     , (20063,  51,          2) /* CombatUse - Missile */
      , (20063,  60,        120) /* WeaponRange */
      , (20063,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (20063, 106,        100) /* ItemSpellcraft */
@@ -48,17 +48,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20063,   1, 'Superb Chilling Isparian Atlatl') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20063,   1,   33557797) /* Setup */
-     , (20063,   3,  536870932) /* SoundTable */
-     , (20063,   6,   67111919) /* PaletteBase */
-     , (20063,   7,  268436393) /* ClothingBase */
-     , (20063,   8,  100672999) /* Icon */
-     , (20063,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20063,   1, 0x02000D25) /* Setup */
+     , (20063,   3, 0x20000014) /* SoundTable */
+     , (20063,   6, 0x04000BEF) /* PaletteBase */
+     , (20063,   7, 0x100003A9) /* ClothingBase */
+     , (20063,   8, 0x060025E7) /* Icon */
+     , (20063,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20063,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20063,  1033,      2)  /* Cold Protection Self IV */
-     , (20063,  1375,      2)  /* Coordination Self III */
-     , (20063,  1604,      2)  /* Aura of Defender Self V */
+VALUES (20063,  1604,      2)  /* Aura of Defender Self V */
+     , (20063,  2567,      2)  /* Minor Missile Weapon Aptitude */
      , (20063,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (20063,  2567,      2)  /* Minor Missile Weapon Aptitude */;
+     , (20063,  1033,      2)  /* Cold Protection Self IV */
+     , (20063,  1375,      2)  /* Coordination Self III */;

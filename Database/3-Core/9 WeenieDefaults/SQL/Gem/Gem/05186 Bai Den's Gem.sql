@@ -29,9 +29,9 @@ VALUES (5186,   1, 'Bai Den''s Gem') /* Name */
      , (5186,  33, 'GemBaiDenQuest') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5186,   1,   33554809) /* Setup */
-     , (5186,   3,  536870932) /* SoundTable */
-     , (5186,   6,   67111919) /* PaletteBase */
-     , (5186,   7,  268435723) /* ClothingBase */
-     , (5186,   8,  100668360) /* Icon */
-     , (5186,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5186,   1, 0x02000179) /* Setup */
+     , (5186,   3, 0x20000014) /* SoundTable */
+     , (5186,   6, 0x04000BEF) /* PaletteBase */
+     , (5186,   7, 0x1000010B) /* ClothingBase */
+     , (5186,   8, 0x060013C8) /* Icon */
+     , (5186,  22, 0x3400002B) /* PhysicsEffectTable */;

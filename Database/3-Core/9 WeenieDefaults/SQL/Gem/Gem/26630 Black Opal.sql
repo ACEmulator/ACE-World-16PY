@@ -28,10 +28,10 @@ VALUES (26630,   1, 'Black Opal') /* Name */
      , (26630,  33, 'TempleSacredStone') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26630,   1,   33554809) /* Setup */
-     , (26630,   3,  536870932) /* SoundTable */
-     , (26630,   6,   67111919) /* PaletteBase */
-     , (26630,   7,  268435723) /* ClothingBase */
-     , (26630,   8,  100674739) /* Icon */
-     , (26630,  22,  872415275) /* PhysicsEffectTable */
-     , (26630,  36,  234881046) /* MutateFilter */;
+VALUES (26630,   1, 0x02000179) /* Setup */
+     , (26630,   3, 0x20000014) /* SoundTable */
+     , (26630,   6, 0x04000BEF) /* PaletteBase */
+     , (26630,   7, 0x1000010B) /* ClothingBase */
+     , (26630,   8, 0x06002CB3) /* Icon */
+     , (26630,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (26630,  36, 0x0E000016) /* MutateFilter */;

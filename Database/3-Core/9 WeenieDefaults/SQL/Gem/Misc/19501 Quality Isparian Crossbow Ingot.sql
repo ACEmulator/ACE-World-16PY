@@ -31,9 +31,9 @@ VALUES (19501,   1, 'Quality Isparian Crossbow Ingot') /* Name */
      , (19501,  16, 'An diamond infused ingot, enhanced and stamped with an crossbow glyph.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19501,   1,   33555677) /* Setup */
-     , (19501,   3,  536870932) /* SoundTable */
-     , (19501,   6,   67111919) /* PaletteBase */
-     , (19501,   7,  268435723) /* ClothingBase */
-     , (19501,   8,  100672973) /* Icon */
-     , (19501,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19501,   1, 0x020004DD) /* Setup */
+     , (19501,   3, 0x20000014) /* SoundTable */
+     , (19501,   6, 0x04000BEF) /* PaletteBase */
+     , (19501,   7, 0x1000010B) /* ClothingBase */
+     , (19501,   8, 0x060025CD) /* Icon */
+     , (19501,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -43,13 +43,13 @@ VALUES (11982,   1, 'Obsidian Axe') /* Name */
      , (11982,  16, 'An Axe made with a sharpened piece of volcanic rock.  The blade seems to be unevenly cut, however it is still quite sharp.  The handle seems to a be a worn, old Golem Jo.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11982,   1,   33557334) /* Setup */
-     , (11982,   3,  536870932) /* SoundTable */
-     , (11982,   8,  100672107) /* Icon */
-     , (11982,  22,  872415275) /* PhysicsEffectTable */
-     , (11982,  36,  234881044) /* MutateFilter */
+VALUES (11982,   1, 0x02000B56) /* Setup */
+     , (11982,   3, 0x20000014) /* SoundTable */
+     , (11982,   8, 0x0600226B) /* Icon */
+     , (11982,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11982,  36, 0x0E000014) /* MutateFilter */
      , (11982,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11982,  1021,      2)  /* Bludgeoning Protection Self IV */
-     , (11982,  1614,      2)  /* Aura of Blood Drinker Self IV */;
+VALUES (11982,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (11982,  1021,      2)  /* Bludgeoning Protection Self IV */;

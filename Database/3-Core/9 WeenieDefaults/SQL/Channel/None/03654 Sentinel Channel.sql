@@ -14,5 +14,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3654,   1, 'Sentinel Channel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3654,   1,   33555632) /* Setup */
-     , (3654,   8,  100667444) /* Icon */;
+VALUES (3654,   1, 0x020004B0) /* Setup */
+     , (3654,   8, 0x06001034) /* Icon */;

@@ -24,7 +24,7 @@ VALUES (12253,   1, 'Monougat') /* Name */
      , (12253,  20, 'Chunks of Monougat') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12253,   1,   33555968) /* Setup */
-     , (12253,   3,  536870932) /* SoundTable */
-     , (12253,   8,  100672210) /* Icon */
-     , (12253,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12253,   1, 0x02000600) /* Setup */
+     , (12253,   3, 0x20000014) /* SoundTable */
+     , (12253,   8, 0x060022D2) /* Icon */
+     , (12253,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -36,6 +36,6 @@ VALUES (8127,   1, 'Menhir Mana Field') /* Name */
      , (8127,  17, 'You feel a great swell of power rise from the ground beneath you, restoring %i points of your mana.') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8127,   1,   33556024) /* Setup */
-     , (8127,   3,  536871008) /* SoundTable */
-     , (8127,   8,  100667465) /* Icon */;
+VALUES (8127,   1, 0x02000638) /* Setup */
+     , (8127,   3, 0x20000060) /* SoundTable */
+     , (8127,   8, 0x06001049) /* Icon */;

@@ -28,10 +28,10 @@ VALUES (30658,   1, 'Flying Machine Instructions') /* Name */
      , (30658,  16, 'Give these instructions to the Drudge Flying Machine in order to fly it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30658,   1,   33554773) /* Setup */
-     , (30658,   3,  536870932) /* SoundTable */
-     , (30658,   8,  100674008) /* Icon */
-     , (30658,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30658,   1, 0x02000155) /* Setup */
+     , (30658,   3, 0x20000014) /* SoundTable */
+     , (30658,   8, 0x060029D8) /* Icon */
+     , (30658,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (30658, 1, 1000);

@@ -34,7 +34,7 @@ VALUES (25960,   1, 'Woven Tassel of Far Sight') /* Name */
      , (25960,  33, 'PickedUpTasselMissile') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25960,   1,   33554784) /* Setup */
-     , (25960,   3,  536870932) /* SoundTable */
-     , (25960,   8,  100675675) /* Icon */
-     , (25960,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25960,   1, 0x02000160) /* Setup */
+     , (25960,   3, 0x20000014) /* SoundTable */
+     , (25960,   8, 0x0600305B) /* Icon */
+     , (25960,  22, 0x3400002B) /* PhysicsEffectTable */;

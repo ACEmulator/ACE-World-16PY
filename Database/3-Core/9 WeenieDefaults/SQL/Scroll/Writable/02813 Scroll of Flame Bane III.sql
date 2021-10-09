@@ -25,7 +25,7 @@ VALUES (2813,   1, 'Scroll of Flame Bane III') /* Name */
      , (2813,  16, 'When learned, this spell increases a shield or piece of armor''s resistance to fire damage by 50%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2813,   1,   33554826) /* Setup */
-     , (2813,   8,  100676651) /* Icon */
-     , (2813,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2813,   1, 0x0200018A) /* Setup */
+     , (2813,   8, 0x0600342B) /* Icon */
+     , (2813,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2813,  28,       1549) /* Spell - Flame Bane III */;

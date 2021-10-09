@@ -17,4 +17,4 @@ VALUES (0x702CF002, 0x702CF003, '2005-02-09 10:00:00') /* Virindi Servant (23) *
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702CF003,    23, 0x02CF01A0, 43.2581, -2.12732, 18.029, -0.53426, 0, 0, -0.84532,  True, '2005-02-09 10:00:00'); /* Virindi Servant */
-/* @teleloc 0x02CF01A0 [43.258100 -2.127320 18.029000] -0.534260 0.000000 0.000000 -0.845320 */
+/* @teleloc 0x02CF01A0 [43.258099 -2.127320 18.028999] -0.534260 0.000000 0.000000 -0.845320 */

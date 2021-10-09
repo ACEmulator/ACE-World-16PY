@@ -27,9 +27,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8635,   1, 'Electric Discharge') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8635,   1,   33555440) /* Setup */
-     , (8635,   3,  536870968) /* SoundTable */
-     , (8635,   8,  100667494) /* Icon */
-     , (8635,  22,  872415239) /* PhysicsEffectTable */
+VALUES (8635,   1, 0x020003F0) /* Setup */
+     , (8635,   3, 0x20000038) /* SoundTable */
+     , (8635,   8, 0x06001066) /* Icon */
+     , (8635,  22, 0x34000007) /* PhysicsEffectTable */
      , (8635,  28,         75) /* Spell - Lightning Bolt I */
      , (8635,  30,         90) /* PhysicsScript - ProjectileCollision */;

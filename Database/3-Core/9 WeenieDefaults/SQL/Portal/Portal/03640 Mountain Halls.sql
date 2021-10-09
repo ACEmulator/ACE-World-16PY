@@ -25,10 +25,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3640,   1, 'Mountain Halls') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3640,   1,   33555923) /* Setup */
-     , (3640,   2,  150994947) /* MotionTable */
-     , (3640,   8,  100667499) /* Icon */;
+VALUES (3640,   1, 0x020005D3) /* Setup */
+     , (3640,   2, 0x09000003) /* MotionTable */
+     , (3640,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3640, 2, 26345896, 19.855, -29.907, 0, -0.02265252, 0, 0, -0.9997434) /* Destination */
-/* @teleloc 0x019201A8 [19.855000 -29.907000 0.000000] -0.022653 0.000000 0.000000 -0.999743 */;
+VALUES (3640, 2, 0x019201A8, 19.855, -29.907, 0, -0.022653, 0, -0, -0.999743) /* Destination */
+/* @teleloc 0x019201A8 [19.855000 -29.907000 0.000000] -0.022653 0.000000 -0.000000 -0.999743 */;

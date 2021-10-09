@@ -33,11 +33,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7933,   1, 'Gem of Portal Sending') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7933,   1,   33554809) /* Setup */
-     , (7933,   3,  536870932) /* SoundTable */
-     , (7933,   6,   67111919) /* PaletteBase */
-     , (7933,   7,  268435723) /* ClothingBase */
-     , (7933,   8,  100670731) /* Icon */
-     , (7933,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7933,   1, 0x02000179) /* Setup */
+     , (7933,   3, 0x20000014) /* SoundTable */
+     , (7933,   6, 0x04000BEF) /* PaletteBase */
+     , (7933,   7, 0x1000010B) /* ClothingBase */
+     , (7933,   8, 0x06001D0B) /* Icon */
+     , (7933,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7933,  28,       2984) /* Spell - Lyceum of Kivik Lir */
-     , (7933,  36,  234881046) /* MutateFilter */;
+     , (7933,  36, 0x0E000016) /* MutateFilter */;

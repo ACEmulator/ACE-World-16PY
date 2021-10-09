@@ -49,17 +49,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20009,   1, 'Superb Flaming Isparian Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20009,   1,   33556349) /* Setup */
-     , (20009,   3,  536870932) /* SoundTable */
-     , (20009,   6,   67111919) /* PaletteBase */
-     , (20009,   7,  268436385) /* ClothingBase */
-     , (20009,   8,  100672951) /* Icon */
-     , (20009,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20009,   1, 0x0200077D) /* Setup */
+     , (20009,   3, 0x20000014) /* SoundTable */
+     , (20009,   6, 0x04000BEF) /* PaletteBase */
+     , (20009,   7, 0x100003A1) /* ClothingBase */
+     , (20009,   8, 0x060025B7) /* Icon */
+     , (20009,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20009,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20009,  1092,      2)  /* Fire Protection Self IV */
-     , (20009,  1329,      2)  /* Strength Self III */
+     , (20009,  2566,      2)  /* Minor Heavy Weapon Aptitude */
      , (20009,  1591,      2)  /* Aura of Heart Seeker Self V */
      , (20009,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (20009,  2566,      2)  /* Minor Heavy Weapon Aptitude */;
+     , (20009,  1329,      2)  /* Strength Self III */;

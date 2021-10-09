@@ -30,10 +30,10 @@ VALUES (30177,   1, 'Hieroglyph of Thrown Weapons Mastery') /* Name */
      , (30177,  16, 'A lovely template for a rare magical gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30177,   1,   33554809) /* Setup */
-     , (30177,   3,  536870932) /* SoundTable */
-     , (30177,   6,   67111919) /* PaletteBase */
-     , (30177,   7,  268435723) /* ClothingBase */
-     , (30177,   8,  100674739) /* Icon */
-     , (30177,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30177,   1, 0x02000179) /* Setup */
+     , (30177,   3, 0x20000014) /* SoundTable */
+     , (30177,   6, 0x04000BEF) /* PaletteBase */
+     , (30177,   7, 0x1000010B) /* ClothingBase */
+     , (30177,   8, 0x06002CB3) /* Icon */
+     , (30177,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30177,  28,       2313) /* Spell - Missile Weapon Mastery Self VII */;

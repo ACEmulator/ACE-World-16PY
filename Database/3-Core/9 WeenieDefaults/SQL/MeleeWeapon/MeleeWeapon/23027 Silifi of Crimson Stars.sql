@@ -53,16 +53,16 @@ VALUES (23027,   1, 'Silifi of Crimson Stars') /* Name */
      , (23027,  16, 'The Silifi of Crimson Stars, its blade repaired using the spine of a Plate Armoredillo. It is fitted with the rubies Al-Khur, Yujazik, and Sulmada.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23027,   1,   33556553) /* Setup */
-     , (23027,   3,  536870932) /* SoundTable */
-     , (23027,   6,   67111919) /* PaletteBase */
-     , (23027,   7,  268435986) /* ClothingBase */
-     , (23027,   8,  100670611) /* Icon */
-     , (23027,  22,  872415275) /* PhysicsEffectTable */
-     , (23027,  36,  234881044) /* MutateFilter */
+VALUES (23027,   1, 0x02000849) /* Setup */
+     , (23027,   3, 0x20000014) /* SoundTable */
+     , (23027,   6, 0x04000BEF) /* PaletteBase */
+     , (23027,   7, 0x10000212) /* ClothingBase */
+     , (23027,   8, 0x06001C93) /* Icon */
+     , (23027,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (23027,  36, 0x0E000014) /* MutateFilter */
      , (23027,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23027,  1096,      2)  /* Fire Protection Other VI */
-     , (23027,  1384,      2)  /* Coordination Other VI */
-     , (23027,  1616,      2)  /* Aura of Blood Drinker Self VI */;
+     , (23027,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (23027,  1384,      2)  /* Coordination Other VI */;

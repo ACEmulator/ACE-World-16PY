@@ -24,10 +24,10 @@ VALUES (24102,   1, 'A Note from Aerbax') /* Name */
      , (24102,  16, 'A note left by Aerbax.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24102,   1,   33554773) /* Setup */
-     , (24102,   3,  536870932) /* SoundTable */
-     , (24102,   8,  100674008) /* Icon */
-     , (24102,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24102,   1, 0x02000155) /* Setup */
+     , (24102,   3, 0x20000014) /* SoundTable */
+     , (24102,   8, 0x060029D8) /* Icon */
+     , (24102,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (24102, 2, 1000);

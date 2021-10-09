@@ -30,9 +30,9 @@ VALUES (7076,   1, 'Shaped Fire Auroch Horn') /* Name */
      , (7076,  16, 'The shaped horn of a departed Fire Auroch.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7076,   1,   33556594) /* Setup */
-     , (7076,   3,  536870932) /* SoundTable */
-     , (7076,   6,   67112869) /* PaletteBase */
-     , (7076,   7,  268435999) /* ClothingBase */
-     , (7076,   8,  100670679) /* Icon */
-     , (7076,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7076,   1, 0x02000872) /* Setup */
+     , (7076,   3, 0x20000014) /* SoundTable */
+     , (7076,   6, 0x04000FA5) /* PaletteBase */
+     , (7076,   7, 0x1000021F) /* ClothingBase */
+     , (7076,   8, 0x06001CD7) /* Icon */
+     , (7076,  22, 0x3400002B) /* PhysicsEffectTable */;

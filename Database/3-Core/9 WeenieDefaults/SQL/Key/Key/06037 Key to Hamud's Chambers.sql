@@ -26,6 +26,6 @@ VALUES (6037,   1, 'Key to Hamud''s Chambers') /* Name */
      , (6037,  16, 'A key given by Devana bint Hamudi to her father''s home in the Mountain Fortress.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6037,   1,   33554784) /* Setup */
-     , (6037,   8,  100668441) /* Icon */
-     , (6037,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6037,   1, 0x02000160) /* Setup */
+     , (6037,   8, 0x06001419) /* Icon */
+     , (6037,  22, 0x3400002B) /* PhysicsEffectTable */;

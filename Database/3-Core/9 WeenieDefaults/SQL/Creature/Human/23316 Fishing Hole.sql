@@ -62,10 +62,10 @@ VALUES (23316,   1, 'Fishing Hole') /* Name */
      , (23316,  15, 'Some water that looks like it might have fish in it.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23316,   1,   33558285) /* Setup */
-     , (23316,   2,  150995234) /* MotionTable */
-     , (23316,   3,  536870913) /* SoundTable */
-     , (23316,   8,  100674235) /* Icon */;
+VALUES (23316,   1, 0x02000F0D) /* Setup */
+     , (23316,   2, 0x09000122) /* MotionTable */
+     , (23316,   3, 0x20000001) /* SoundTable */
+     , (23316,   8, 0x06002ABB) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23316,   1, 200, 0, 0) /* Strength */
@@ -158,7 +158,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 3, 1, NULL, 'There''s nothing like the fresh air and fishing.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (23316, 12 /* QuestSuccess */, 0.8000001, NULL, NULL, NULL, 'WieldingFishingPole', NULL, NULL, NULL);
+VALUES (23316, 12 /* QuestSuccess */,    0.8, NULL, NULL, NULL, 'WieldingFishingPole', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -167,7 +167,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 3, 1, NULL, 'You caught somet
      , (@parent_id,  1,  18 /* DirectBroadcast */, 1, 1, NULL, 'Give CapFez', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (23316, 12 /* QuestSuccess */, 0.9000001, NULL, NULL, NULL, 'WieldingFishingPole', NULL, NULL, NULL);
+VALUES (23316, 12 /* QuestSuccess */,    0.9, NULL, NULL, NULL, 'WieldingFishingPole', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

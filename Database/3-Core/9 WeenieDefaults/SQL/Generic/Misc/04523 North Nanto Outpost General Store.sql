@@ -22,7 +22,7 @@ VALUES (4523,   1, 'North Nanto Outpost General Store') /* Name */
      , (4523,  16, 'North Nanto Outpost General Store') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4523,   1,   33555088) /* Setup */
-     , (4523,   6,   67111092) /* PaletteBase */
-     , (4523,   7,  268435656) /* ClothingBase */
-     , (4523,   8,  100668115) /* Icon */;
+VALUES (4523,   1, 0x02000290) /* Setup */
+     , (4523,   6, 0x040008B4) /* PaletteBase */
+     , (4523,   7, 0x100000C8) /* ClothingBase */
+     , (4523,   8, 0x060012D3) /* Icon */;

@@ -18,7 +18,7 @@ VALUES (8560,   1,        256) /* ItemType - MissileWeapon */
      , (8560,  48,          2) /* WeaponSkill - Bow */
      , (8560,  49,         10) /* WeaponTime */
      , (8560,  50,          1) /* AmmoType - Arrow */
-     , (8560,  51,          2) /* CombatUse - Missle */
+     , (8560,  51,          2) /* CombatUse - Missile */
      , (8560,  52,          2) /* ParentLocation - LeftHand */
      , (8560,  53,          3) /* PlacementPosition - LeftHand */
      , (8560,  60,        192) /* WeaponRange */
@@ -40,9 +40,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8560,   1, 'Dericostian Longbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8560,   1,   33556600) /* Setup */
-     , (8560,   3,  536870932) /* SoundTable */
-     , (8560,   6,   67112869) /* PaletteBase */
-     , (8560,   7,  268436002) /* ClothingBase */
-     , (8560,   8,  100670670) /* Icon */
-     , (8560,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8560,   1, 0x02000878) /* Setup */
+     , (8560,   3, 0x20000014) /* SoundTable */
+     , (8560,   6, 0x04000FA5) /* PaletteBase */
+     , (8560,   7, 0x10000222) /* ClothingBase */
+     , (8560,   8, 0x06001CCE) /* Icon */
+     , (8560,  22, 0x3400002B) /* PhysicsEffectTable */;

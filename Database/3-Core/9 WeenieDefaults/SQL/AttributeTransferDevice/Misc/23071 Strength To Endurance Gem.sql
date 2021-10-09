@@ -25,7 +25,7 @@ VALUES (23071,   1, 'Strength To Endurance Gem') /* Name */
      , (23071,  14, 'Use this gem to transfer up to 10 points of your Strength into your Endurance.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23071,   1,   33558087) /* Setup */
-     , (23071,   6,   67111919) /* PaletteBase */
-     , (23071,   7,  268435723) /* ClothingBase */
-     , (23071,   8,  100673957) /* Icon */;
+VALUES (23071,   1, 0x02000E47) /* Setup */
+     , (23071,   6, 0x04000BEF) /* PaletteBase */
+     , (23071,   7, 0x1000010B) /* ClothingBase */
+     , (23071,   8, 0x060029A5) /* Icon */;

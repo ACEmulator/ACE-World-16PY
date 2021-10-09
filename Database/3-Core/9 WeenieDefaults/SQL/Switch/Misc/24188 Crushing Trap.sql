@@ -30,8 +30,8 @@ VALUES (24188,   1, 'Crushing Trap') /* Name */
      , (24188,  22, 'You hear a faint clicking sound.') /* ActivationFailure */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24188,   1,   33554667) /* Setup */
-     , (24188,   3,  536870932) /* SoundTable */
-     , (24188,   8,  100667494) /* Icon */
-     , (24188,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24188,   1, 0x020000EB) /* Setup */
+     , (24188,   3, 0x20000014) /* SoundTable */
+     , (24188,   8, 0x06001066) /* Icon */
+     , (24188,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24188,  28,       2144) /* Spell - Crushing Shame */;

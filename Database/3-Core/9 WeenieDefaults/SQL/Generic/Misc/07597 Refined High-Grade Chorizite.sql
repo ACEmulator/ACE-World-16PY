@@ -25,9 +25,9 @@ VALUES (7597,   1, 'Refined High-Grade Chorizite') /* Name */
      , (7597,  16, 'A refined chunk of high-grade chorizite.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7597,   1,   33554817) /* Setup */
-     , (7597,   3,  536870932) /* SoundTable */
-     , (7597,   6,   67111919) /* PaletteBase */
-     , (7597,   7,  268435832) /* ClothingBase */
-     , (7597,   8,  100670769) /* Icon */
-     , (7597,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7597,   1, 0x02000181) /* Setup */
+     , (7597,   3, 0x20000014) /* SoundTable */
+     , (7597,   6, 0x04000BEF) /* PaletteBase */
+     , (7597,   7, 0x10000178) /* ClothingBase */
+     , (7597,   8, 0x06001D31) /* Icon */
+     , (7597,  22, 0x3400002B) /* PhysicsEffectTable */;

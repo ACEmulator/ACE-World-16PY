@@ -44,12 +44,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1270,   1, 'Bandit Shield') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1270,   1,   33554786) /* Setup */
-     , (1270,   3,  536870932) /* SoundTable */
-     , (1270,   6,   67111919) /* PaletteBase */
-     , (1270,   7,  268435607) /* ClothingBase */
-     , (1270,   8,  100667361) /* Icon */
-     , (1270,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1270,   1, 0x02000162) /* Setup */
+     , (1270,   3, 0x20000014) /* SoundTable */
+     , (1270,   6, 0x04000BEF) /* PaletteBase */
+     , (1270,   7, 0x10000097) /* ClothingBase */
+     , (1270,   8, 0x06000FE1) /* Icon */
+     , (1270,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1270,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30539,   1, 'Monty''s Den of Iniquity') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30539,   1,   33554867) /* Setup */
-     , (30539,   2,  150994947) /* MotionTable */
-     , (30539,   8,  100667499) /* Icon */;
+VALUES (30539,   1, 0x020001B3) /* Setup */
+     , (30539,   2, 0x09000003) /* MotionTable */
+     , (30539,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30539, 2, 2847014941, 84, 102, 94, -4.371139E-08, 0, 0, -1) /* Destination */
-/* @teleloc 0xA9B2001D [84.000000 102.000000 94.000000] 0.000000 0.000000 0.000000 -1.000000 */;
+VALUES (30539, 2, 0xA9B2001D, 84, 102, 94, -0, 0, -0, -1) /* Destination */
+/* @teleloc 0xA9B2001D [84.000000 102.000000 94.000000] -0.000000 0.000000 -0.000000 -1.000000 */;

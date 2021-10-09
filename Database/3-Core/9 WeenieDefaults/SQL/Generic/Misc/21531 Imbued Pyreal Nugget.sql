@@ -27,9 +27,9 @@ VALUES (21531,   1, 'Imbued Pyreal Nugget') /* Name */
      , (21531,  15, 'A glowing nugget of pyreal.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21531,   1,   33554669) /* Setup */
-     , (21531,   3,  536870932) /* SoundTable */
-     , (21531,   6,   67111919) /* PaletteBase */
-     , (21531,   7,  268435968) /* ClothingBase */
-     , (21531,   8,  100670485) /* Icon */
-     , (21531,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21531,   1, 0x020000ED) /* Setup */
+     , (21531,   3, 0x20000014) /* SoundTable */
+     , (21531,   6, 0x04000BEF) /* PaletteBase */
+     , (21531,   7, 0x10000200) /* ClothingBase */
+     , (21531,   8, 0x06001C15) /* Icon */
+     , (21531,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -64,11 +64,11 @@ VALUES (20915,   1, 'Kira Sojini') /* Name */
      , (20915,   5, 'Blacksmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20915,   1,   33554510) /* Setup */
-     , (20915,   2,  150994945) /* MotionTable */
-     , (20915,   3,  536870914) /* SoundTable */
-     , (20915,   4,  805306368) /* CombatTable */
-     , (20915,   8,  100667446) /* Icon */;
+VALUES (20915,   1, 0x0200004E) /* Setup */
+     , (20915,   2, 0x09000001) /* MotionTable */
+     , (20915,   3, 0x20000002) /* SoundTable */
+     , (20915,   4, 0x30000000) /* CombatTable */
+     , (20915,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (20915,   1, 120, 0, 0) /* Strength */
@@ -84,12 +84,12 @@ VALUES (20915,   1,    90, 0, 0, 180) /* MaxHealth */
      , (20915,   5,    45, 0, 0, 125) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (20915,  6, 0, 2, 0,   4, 0, 1267.08788780305) /* MeleeDefense        Trained */
-     , (20915,  7, 0, 2, 0,   5, 0, 1267.08788780305) /* MissileDefense      Trained */
-     , (20915, 13, 0, 2, 0,   5, 0, 1267.08788780305) /* UnarmedCombat       Trained */
-     , (20915, 31, 0, 3, 0, 200, 0, 1267.08788780305) /* CreatureEnchantment Specialized */
-     , (20915, 32, 0, 3, 0, 200, 0, 1267.08788780305) /* ItemEnchantment     Specialized */
-     , (20915, 33, 0, 3, 0, 200, 0, 1267.08788780305) /* LifeMagic           Specialized */;
+VALUES (20915,  6, 0, 2, 0,   4, 0, 1267.0878878030542) /* MeleeDefense        Trained */
+     , (20915,  7, 0, 2, 0,   5, 0, 1267.0878878030542) /* MissileDefense      Trained */
+     , (20915, 13, 0, 2, 0,   5, 0, 1267.0878878030542) /* UnarmedCombat       Trained */
+     , (20915, 31, 0, 3, 0, 200, 0, 1267.0878878030542) /* CreatureEnchantment Specialized */
+     , (20915, 32, 0, 3, 0, 200, 0, 1267.0878878030542) /* ItemEnchantment     Specialized */
+     , (20915, 33, 0, 3, 0, 200, 0, 1267.0878878030542) /* LifeMagic           Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (20915,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -108,7 +108,7 @@ VALUES (20915,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  1,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  2,  10 /* Tell */, 1, 1, NULL, 'It was you people that brought Martine to his end. You and your meddling. Why couldn''t you have left him alone?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  3,  10 /* Tell */, 3, 1, NULL, 'He was finally becoming happy, but then you had to come down here and cause your ruckus and look where we are now.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)

@@ -28,7 +28,7 @@ VALUES (29830,   1, 'Strand Siraluun Claw Hairbrush') /* Name */
      , (29830,  16, 'A hairbrush made from the claw of a Strand Siraluun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29830,   1,   33554817) /* Setup */
-     , (29830,   6,   67111919) /* PaletteBase */
-     , (29830,   7,  268435832) /* ClothingBase */
-     , (29830,   8,  100677312) /* Icon */;
+VALUES (29830,   1, 0x02000181) /* Setup */
+     , (29830,   6, 0x04000BEF) /* PaletteBase */
+     , (29830,   7, 0x10000178) /* ClothingBase */
+     , (29830,   8, 0x060036C0) /* Icon */;

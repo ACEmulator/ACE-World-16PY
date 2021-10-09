@@ -38,7 +38,7 @@ VALUES (11429,  22, True ) /* Inscribable */
      , (11429,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11429,   5, -0.03333) /* ManaRate */
+VALUES (11429,   5,  -0.033) /* ManaRate */
      , (11429,  21,     1.5) /* WeaponLength */
      , (11429,  22,    0.54) /* DamageVariance */
      , (11429,  29,    1.08) /* WeaponDefense */
@@ -51,13 +51,13 @@ VALUES (11429,   1, 'Tanae''s Taiaha of the Forests') /* Name */
      , (11429,  16, 'A taiaha fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11429,   1,   33557236) /* Setup */
-     , (11429,   3,  536870932) /* SoundTable */
-     , (11429,   6,   67113336) /* PaletteBase */
-     , (11429,   7,  268436251) /* ClothingBase */
-     , (11429,   8,  100672090) /* Icon */
-     , (11429,  22,  872415275) /* PhysicsEffectTable */
-     , (11429,  36,  234881044) /* MutateFilter */;
+VALUES (11429,   1, 0x02000AF4) /* Setup */
+     , (11429,   3, 0x20000014) /* SoundTable */
+     , (11429,   6, 0x04001178) /* PaletteBase */
+     , (11429,   7, 0x1000031B) /* ClothingBase */
+     , (11429,   8, 0x0600225A) /* Icon */
+     , (11429,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11429,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11429,  2446,      2)  /* Greater Growth */

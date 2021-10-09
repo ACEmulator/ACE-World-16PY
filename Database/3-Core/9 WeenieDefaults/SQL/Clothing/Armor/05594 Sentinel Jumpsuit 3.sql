@@ -37,9 +37,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5594,   1, 'Sentinel Jumpsuit 3') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5594,   1,   33554854) /* Setup */
-     , (5594,   3,  536870932) /* SoundTable */
-     , (5594,   6,   67108990) /* PaletteBase */
-     , (5594,   7,  268435838) /* ClothingBase */
-     , (5594,   8,  100667354) /* Icon */
-     , (5594,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5594,   1, 0x020001A6) /* Setup */
+     , (5594,   3, 0x20000014) /* SoundTable */
+     , (5594,   6, 0x0400007E) /* PaletteBase */
+     , (5594,   7, 0x1000017E) /* ClothingBase */
+     , (5594,   8, 0x06000FDA) /* Icon */
+     , (5594,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -22,5 +22,5 @@ VALUES (12589,   1, 'Celdiseth''s Beach Settlement') /* Name */
      , (12589,  16, 'Welcome to Celdiseth''s Beach Settlement') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12589,   1,   33557463) /* Setup */
-     , (12589,   8,  100668115) /* Icon */;
+VALUES (12589,   1, 0x02000BD7) /* Setup */
+     , (12589,   8, 0x060012D3) /* Icon */;

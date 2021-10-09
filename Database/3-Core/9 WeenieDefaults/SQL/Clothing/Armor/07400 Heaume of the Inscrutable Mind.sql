@@ -27,7 +27,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7400,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7400,   5, -0.0417) /* ManaRate */
+VALUES (7400,   5,  -0.042) /* ManaRate */
      , (7400,  12,     0.2) /* Shade */
      , (7400,  13,     1.3) /* ArmorModVsSlash */
      , (7400,  14,       1) /* ArmorModVsPierce */
@@ -45,16 +45,16 @@ VALUES (7400,   1, 'Heaume of the Inscrutable Mind') /* Name */
      , (7400,  16, 'A heaume of lightweight material, enchanted such that the head of whoever wears it will become nearly transparent. The original purpose of this Empyrean relic is obscure.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7400,   1,   33556856) /* Setup */
-     , (7400,   3,  536870932) /* SoundTable */
-     , (7400,   6,   67108990) /* PaletteBase */
-     , (7400,   7,  268436075) /* ClothingBase */
-     , (7400,   8,  100667349) /* Icon */
-     , (7400,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7400,   1, 0x02000978) /* Setup */
+     , (7400,   3, 0x20000014) /* SoundTable */
+     , (7400,   6, 0x0400007E) /* PaletteBase */
+     , (7400,   7, 0x1000026B) /* ClothingBase */
+     , (7400,   8, 0x06000FD5) /* Icon */
+     , (7400,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7400,  37,         31) /* ItemSkillLimit - CreatureEnchantment */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7400,   282,      2)  /* Magic Yield Other III */
+     , (7400,  1430,      2)  /* Focus Other IV */
      , (7400,   688,      2)  /* Arcane Enlightenment Other V */
-     , (7400,  1340,      2)  /* Weakness Other III */
-     , (7400,  1430,      2)  /* Focus Other IV */;
+     , (7400,  1340,      2)  /* Weakness Other III */;

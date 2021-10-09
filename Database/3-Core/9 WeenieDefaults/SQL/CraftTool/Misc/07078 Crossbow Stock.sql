@@ -29,7 +29,7 @@ VALUES (7078,   1, 'Crossbow Stock') /* Name */
      , (7078,  16, 'A wooden crossbow stock.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7078,   1,   33556602) /* Setup */
-     , (7078,   3,  536870932) /* SoundTable */
-     , (7078,   8,  100670696) /* Icon */
-     , (7078,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7078,   1, 0x0200087A) /* Setup */
+     , (7078,   3, 0x20000014) /* SoundTable */
+     , (7078,   8, 0x06001CE8) /* Icon */
+     , (7078,  22, 0x3400002B) /* PhysicsEffectTable */;

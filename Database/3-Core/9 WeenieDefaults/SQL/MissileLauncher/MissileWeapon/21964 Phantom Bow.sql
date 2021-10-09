@@ -18,7 +18,7 @@ VALUES (21964,   1,        256) /* ItemType - MissileWeapon */
      , (21964,  48,          2) /* WeaponSkill - Bow */
      , (21964,  49,         30) /* WeaponTime */
      , (21964,  50,         64) /* AmmoType - ArrowChorizite */
-     , (21964,  51,          2) /* CombatUse - Missle */
+     , (21964,  51,          2) /* CombatUse - Missile */
      , (21964,  52,          2) /* ParentLocation - LeftHand */
      , (21964,  53,          3) /* PlacementPosition - LeftHand */
      , (21964,  60,        175) /* WeaponRange */
@@ -49,10 +49,10 @@ VALUES (21964,   1, 'Phantom Bow') /* Name */
      , (21964,  16, 'A bow with a ghostly hue crafted from pure chorizite, resitant to any enchantment. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21964,   1,   33554728) /* Setup */
-     , (21964,   3,  536870932) /* SoundTable */
-     , (21964,   6,   67111919) /* PaletteBase */
-     , (21964,   7,  268435759) /* ClothingBase */
-     , (21964,   8,  100668815) /* Icon */
-     , (21964,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21964,   1, 0x02000128) /* Setup */
+     , (21964,   3, 0x20000014) /* SoundTable */
+     , (21964,   6, 0x04000BEF) /* PaletteBase */
+     , (21964,   7, 0x1000012F) /* ClothingBase */
+     , (21964,   8, 0x0600158F) /* Icon */
+     , (21964,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21964,  30,         88) /* PhysicsScript - Create */;

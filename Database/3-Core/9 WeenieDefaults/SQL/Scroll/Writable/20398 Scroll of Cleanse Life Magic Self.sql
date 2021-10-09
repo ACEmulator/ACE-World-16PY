@@ -24,7 +24,7 @@ VALUES (20398,   1, 'Scroll of Cleanse Life Magic Self') /* Name */
      , (20398,  15, 'When learned, this spell dispels 3-6 negative Life Magic enchantments of level 3 or lower from the caster.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20398,   1,   33554826) /* Setup */
-     , (20398,   8,  100676935) /* Icon */
-     , (20398,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20398,   1, 0x0200018A) /* Setup */
+     , (20398,   8, 0x06003547) /* Icon */
+     , (20398,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20398,  28,       1972) /* Spell - Cleanse Life Magic Self */;

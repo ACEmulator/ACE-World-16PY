@@ -19,7 +19,7 @@ VALUES (20118,   1,        256) /* ItemType - MissileWeapon */
      , (20118,  48,          3) /* WeaponSkill - Crossbow */
      , (20118,  49,         90) /* WeaponTime */
      , (20118,  50,          2) /* AmmoType - Bolt */
-     , (20118,  51,          2) /* CombatUse - Missle */
+     , (20118,  51,          2) /* CombatUse - Missile */
      , (20118,  52,          2) /* ParentLocation - LeftHand */
      , (20118,  53,          3) /* PlacementPosition - LeftHand */
      , (20118,  60,        195) /* WeaponRange */
@@ -51,17 +51,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20118,   1, 'Perfect Chilling Isparian Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20118,   1,   33557767) /* Setup */
-     , (20118,   3,  536870932) /* SoundTable */
-     , (20118,   6,   67111919) /* PaletteBase */
-     , (20118,   7,  268436396) /* ClothingBase */
-     , (20118,   8,  100673019) /* Icon */
-     , (20118,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20118,   1, 0x02000D07) /* Setup */
+     , (20118,   3, 0x20000014) /* SoundTable */
+     , (20118,   6, 0x04000BEF) /* PaletteBase */
+     , (20118,   7, 0x100003AC) /* ClothingBase */
+     , (20118,   8, 0x060025FB) /* Icon */
+     , (20118,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20118,  37,          3) /* ItemSkillLimit - Crossbow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20118,  1033,      2)  /* Cold Protection Self IV */
-     , (20118,  1375,      2)  /* Coordination Self III */
+VALUES (20118,  2688,      2)  /* Moderate Missile Weapon Aptitude */
      , (20118,  1605,      2)  /* Aura of Defender Self VI */
+     , (20118,  1033,      2)  /* Cold Protection Self IV */
      , (20118,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (20118,  2688,      2)  /* Moderate Missile Weapon Aptitude */;
+     , (20118,  1375,      2)  /* Coordination Self III */;

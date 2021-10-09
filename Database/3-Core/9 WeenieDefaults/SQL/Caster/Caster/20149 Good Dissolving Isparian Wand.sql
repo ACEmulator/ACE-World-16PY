@@ -43,21 +43,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20149,   1, 'Good Dissolving Isparian Wand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20149,   1,   33557783) /* Setup */
-     , (20149,   3,  536870932) /* SoundTable */
-     , (20149,   6,   67111919) /* PaletteBase */
-     , (20149,   7,  268436395) /* ClothingBase */
-     , (20149,   8,  100672995) /* Icon */
-     , (20149,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20149,   1, 0x02000D17) /* Setup */
+     , (20149,   3, 0x20000014) /* SoundTable */
+     , (20149,   6, 0x04000BEF) /* PaletteBase */
+     , (20149,   7, 0x100003AB) /* ClothingBase */
+     , (20149,   8, 0x060025E3) /* Icon */
+     , (20149,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20149,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20149,   520,      2)  /* Acid Protection Self VI */
+VALUES (20149,   656,      2)  /* Mana Conversion Mastery Self IV */
+     , (20149,  2680,      2)  /* Feeble Mana Conversion Prowess */
+     , (20149,   632,      2)  /* War Magic Mastery Self IV */
      , (20149,   560,      2)  /* Creature Enchantment Mastery Self IV */
      , (20149,   584,      2)  /* Item Enchantment Mastery Self IV */
-     , (20149,   610,      2)  /* Life Magic Mastery Self VI */
-     , (20149,   632,      2)  /* War Magic Mastery Self IV */
-     , (20149,   656,      2)  /* Mana Conversion Mastery Self IV */
-     , (20149,  1424,      2)  /* Focus Self IV */
+     , (20149,   520,      2)  /* Acid Protection Self VI */
      , (20149,  1448,      2)  /* Willpower Self IV */
-     , (20149,  2680,      2)  /* Feeble Mana Conversion Prowess */;
+     , (20149,  1424,      2)  /* Focus Self IV */
+     , (20149,   610,      2)  /* Life Magic Mastery Self VI */;

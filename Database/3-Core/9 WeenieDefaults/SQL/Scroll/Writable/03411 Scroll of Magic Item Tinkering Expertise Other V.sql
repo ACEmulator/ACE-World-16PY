@@ -25,7 +25,7 @@ VALUES (3411,   1, 'Scroll of Magic Item Tinkering Expertise Other V') /* Name *
      , (3411,  16, 'When learned, this spell increases the target''s Magic Item Tinkering skill by 100%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3411,   1,   33554826) /* Setup */
-     , (3411,   8,  100676477) /* Icon */
-     , (3411,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3411,   1, 0x0200018A) /* Setup */
+     , (3411,   8, 0x0600337D) /* Icon */
+     , (3411,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3411,  28,        760) /* Spell - Magic Item Tinkering Expertise Other V */;

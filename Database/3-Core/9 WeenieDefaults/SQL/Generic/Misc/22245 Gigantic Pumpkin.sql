@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22245,   1, 'Gigantic Pumpkin') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22245,   1,   33556809) /* Setup */
-     , (22245,   3,  536870932) /* SoundTable */
-     , (22245,   6,   67112968) /* PaletteBase */
-     , (22245,   7,  268436044) /* ClothingBase */
-     , (22245,   8,  100671015) /* Icon */
-     , (22245,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22245,   1, 0x02000949) /* Setup */
+     , (22245,   3, 0x20000014) /* SoundTable */
+     , (22245,   6, 0x04001008) /* PaletteBase */
+     , (22245,   7, 0x1000024C) /* ClothingBase */
+     , (22245,   8, 0x06001E27) /* Icon */
+     , (22245,  22, 0x3400002B) /* PhysicsEffectTable */;

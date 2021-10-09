@@ -38,7 +38,7 @@ VALUES (27346,  22, True ) /* Inscribable */
      , (27346,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27346,   5, -0.033333) /* ManaRate */
+VALUES (27346,   5,  -0.033) /* ManaRate */
      , (27346,  21,    0.52) /* WeaponLength */
      , (27346,  22,     0.5) /* DamageVariance */
      , (27346,  29,    1.08) /* WeaponDefense */
@@ -52,20 +52,20 @@ VALUES (27346,   1, 'Palenqual''s Korua of the Heights') /* Name */
      , (27346,  16, 'A korua fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27346,   1,   33558664) /* Setup */
-     , (27346,   3,  536870932) /* SoundTable */
-     , (27346,   6,   67113336) /* PaletteBase */
-     , (27346,   7,  268436249) /* ClothingBase */
-     , (27346,   8,  100676368) /* Icon */
-     , (27346,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27346,   1, 0x02001088) /* Setup */
+     , (27346,   3, 0x20000014) /* SoundTable */
+     , (27346,   6, 0x04001178) /* PaletteBase */
+     , (27346,   7, 0x10000319) /* ClothingBase */
+     , (27346,   8, 0x06003310) /* Icon */
+     , (27346,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27346,  2439,      2)  /* Rockslide */
-     , (27346,  2442,      2)  /* Stone Cliffs */
-     , (27346,  2445,      2)  /* Strength of Earth */
+VALUES (27346,  2471,      2)  /* Lesser Still Water */
      , (27346,  2447,      2)  /* Lesser Growth */
-     , (27346,  2450,      2)  /* Lesser Hunter's Acumen */
-     , (27346,  2453,      2)  /* Lesser Thorns */
-     , (27346,  2471,      2)  /* Lesser Still Water */
+     , (27346,  2439,      2)  /* Rockslide */
      , (27346,  2474,      2)  /* Lesser Torrent */
+     , (27346,  2450,      2)  /* Lesser Hunter's Acumen */
+     , (27346,  2442,      2)  /* Stone Cliffs */
+     , (27346,  2453,      2)  /* Lesser Thorns */
+     , (27346,  2445,      2)  /* Strength of Earth */
      , (27346,  3231,      2)  /* Lesser Cascade */;

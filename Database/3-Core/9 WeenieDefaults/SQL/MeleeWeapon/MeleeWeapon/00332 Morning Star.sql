@@ -36,11 +36,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (332,   1, 'Morning Star') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (332,   1,   33554748) /* Setup */
-     , (332,   3,  536870932) /* SoundTable */
-     , (332,   6,   67111919) /* PaletteBase */
-     , (332,   7,  268435764) /* ClothingBase */
-     , (332,   8,  100668965) /* Icon */
-     , (332,  22,  872415275) /* PhysicsEffectTable */
-     , (332,  36,  234881053) /* MutateFilter */
-     , (332,  46,  939524099) /* TsysMutationFilter */;
+VALUES (332,   1, 0x0200013C) /* Setup */
+     , (332,   3, 0x20000014) /* SoundTable */
+     , (332,   6, 0x04000BEF) /* PaletteBase */
+     , (332,   7, 0x10000134) /* ClothingBase */
+     , (332,   8, 0x06001625) /* Icon */
+     , (332,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (332,  36, 0x0E00001D) /* MutateFilter */
+     , (332,  46, 0x38000003) /* TsysMutationFilter */;

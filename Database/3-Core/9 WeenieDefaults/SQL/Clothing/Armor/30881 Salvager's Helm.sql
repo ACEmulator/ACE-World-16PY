@@ -47,12 +47,12 @@ VALUES (30881,   1, 'Salvager''s Helm') /* Name */
      , (30881,  33, 'BossHelmAcquired0205') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30881,   1,   33555248) /* Setup */
-     , (30881,   3,  536870932) /* SoundTable */
-     , (30881,   6,   67108990) /* PaletteBase */
-     , (30881,   7,  268435629) /* ClothingBase */
-     , (30881,   8,  100667343) /* Icon */
-     , (30881,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30881,   1, 0x02000330) /* Setup */
+     , (30881,   3, 0x20000014) /* SoundTable */
+     , (30881,   6, 0x0400007E) /* PaletteBase */
+     , (30881,   7, 0x100000AD) /* ClothingBase */
+     , (30881,   8, 0x06000FCF) /* Icon */
+     , (30881,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30881,  3809,      2)  /* Minor Salvaging Aptitude */;

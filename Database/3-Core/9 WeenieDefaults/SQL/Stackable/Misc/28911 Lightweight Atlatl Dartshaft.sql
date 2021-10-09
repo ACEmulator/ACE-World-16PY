@@ -29,6 +29,6 @@ VALUES (28911,   1, 'Lightweight Atlatl Dartshaft') /* Name */
      , (28911,  20, 'Lightweight Atlatl Dartshafts') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28911,   1,   33557505) /* Setup */
-     , (28911,   8,  100672599) /* Icon */
-     , (28911,  50,  100677049) /* IconOverlay */;
+VALUES (28911,   1, 0x02000C01) /* Setup */
+     , (28911,   8, 0x06002457) /* Icon */
+     , (28911,  50, 0x060035B9) /* IconOverlay */;

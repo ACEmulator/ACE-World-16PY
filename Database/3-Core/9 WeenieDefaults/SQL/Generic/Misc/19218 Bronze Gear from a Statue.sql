@@ -26,5 +26,5 @@ VALUES (19218,   1, 'Bronze Gear from a Statue') /* Name */
      , (19218,  33, 'GearReedshark') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19218,   1,   33557681) /* Setup */
-     , (19218,   8,  100672956) /* Icon */;
+VALUES (19218,   1, 0x02000CB1) /* Setup */
+     , (19218,   8, 0x060025BC) /* Icon */;

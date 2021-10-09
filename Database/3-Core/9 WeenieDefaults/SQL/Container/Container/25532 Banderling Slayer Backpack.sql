@@ -28,9 +28,9 @@ VALUES (25532,   1, 'Banderling Slayer Backpack') /* Name */
      , (25532,  16, 'This backpack, sewn from the scalp of a Banderling Slayer, provides comfort as well as carrying space.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25532,   1,   33558496) /* Setup */
-     , (25532,   3,  536870932) /* SoundTable */
-     , (25532,   6,   67114021) /* PaletteBase */
-     , (25532,   7,  268436610) /* ClothingBase */
-     , (25532,   8,  100674956) /* Icon */
-     , (25532,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25532,   1, 0x02000FE0) /* Setup */
+     , (25532,   3, 0x20000014) /* SoundTable */
+     , (25532,   6, 0x04001425) /* PaletteBase */
+     , (25532,   7, 0x10000482) /* ClothingBase */
+     , (25532,   8, 0x06002D8C) /* Icon */
+     , (25532,  22, 0x3400002B) /* PhysicsEffectTable */;

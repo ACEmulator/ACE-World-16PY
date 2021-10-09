@@ -34,7 +34,7 @@ VALUES (2143,   1, 'Thorsten Cragstone''s Tomb') /* Name */
      , (2143,  16, 'Though plain, this tomb radiates an aura of power and majesty.  Surely Thorsten Cragstone''s presence can be felt here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2143,   1,   33554638) /* Setup */
-     , (2143,   8,  100668103) /* Icon */
-     , (2143,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2143,   1, 0x020000CE) /* Setup */
+     , (2143,   8, 0x060012C7) /* Icon */
+     , (2143,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2143,  28,       1163) /* Spell - Heal Other III */;

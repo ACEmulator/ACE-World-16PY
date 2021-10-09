@@ -43,18 +43,18 @@ VALUES (5917,   1, 'Suikan Creature Master Robe') /* Name */
      , (5917,  19, 'Sho') /* ItemHeritageGroupRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5917,   1,   33554854) /* Setup */
-     , (5917,   3,  536870932) /* SoundTable */
-     , (5917,   6,   67108990) /* PaletteBase */
-     , (5917,   7,  268435864) /* ClothingBase */
-     , (5917,   8,  100670375) /* Icon */
-     , (5917,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5917,   1, 0x020001A6) /* Setup */
+     , (5917,   3, 0x20000014) /* SoundTable */
+     , (5917,   6, 0x0400007E) /* PaletteBase */
+     , (5917,   7, 0x10000198) /* ClothingBase */
+     , (5917,   8, 0x06001BA7) /* Icon */
+     , (5917,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5917,  37,         31) /* ItemSkillLimit - CreatureEnchantment */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5917,   566,      2)  /* Creature Enchantment Mastery Other IV */
-     , (5917,   595,      2)  /* Item Enchantment Ineptitude Other III */
-     , (5917,   625,      2)  /* Life Magic Ineptitude Other III */
+VALUES (5917,   625,      2)  /* Life Magic Ineptitude Other III */
+     , (5917,  1484,      2)  /* Impenetrability IV */
      , (5917,   649,      2)  /* War Magic Ineptitude Other III */
+     , (5917,   595,      2)  /* Item Enchantment Ineptitude Other III */
      , (5917,  1453,      2)  /* Willpower Other III */
-     , (5917,  1484,      2)  /* Impenetrability IV */;
+     , (5917,   566,      2)  /* Creature Enchantment Mastery Other IV */;

@@ -32,8 +32,8 @@ VALUES (24761,   1, 'Treated Cinnabar and Eyebright Crucible') /* Name */
      , (24761,  20, 'Treated Cinnabar and Eyebright Crucibles') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24761,   1,   33555966) /* Setup */
-     , (24761,   3,  536870932) /* SoundTable */
-     , (24761,   8,  100674462) /* Icon */
-     , (24761,  22,  872415275) /* PhysicsEffectTable */
-     , (24761,  50,  100674413) /* IconOverlay */;
+VALUES (24761,   1, 0x020005FE) /* Setup */
+     , (24761,   3, 0x20000014) /* SoundTable */
+     , (24761,   8, 0x06002B9E) /* Icon */
+     , (24761,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24761,  50, 0x06002B6D) /* IconOverlay */;

@@ -17,7 +17,7 @@ VALUES (27177,   1,        256) /* ItemType - MissileWeapon */
      , (27177,  48,          2) /* WeaponSkill - Bow */
      , (27177,  49,         40) /* WeaponTime */
      , (27177,  50,          1) /* AmmoType - Arrow */
-     , (27177,  51,          2) /* CombatUse - Missle */
+     , (27177,  51,          2) /* CombatUse - Missile */
      , (27177,  52,          2) /* ParentLocation - LeftHand */
      , (27177,  53,          3) /* PlacementPosition - LeftHand */
      , (27177,  60,        200) /* WeaponRange */
@@ -53,18 +53,18 @@ VALUES (27177,   1, 'Bladed Bow of Impaling') /* Name */
      , (27177,  16, 'This Falatacot bow was likely used in hunting or combat, bladed edges appear to have allowed the bow to be used in close-combat as well.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27177,   1,   33558633) /* Setup */
-     , (27177,   3,  536870932) /* SoundTable */
-     , (27177,   6,   67114956) /* PaletteBase */
-     , (27177,   7,  268436792) /* ClothingBase */
-     , (27177,   8,  100675922) /* Icon */
-     , (27177,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27177,   1, 0x02001069) /* Setup */
+     , (27177,   3, 0x20000014) /* SoundTable */
+     , (27177,   6, 0x040017CC) /* PaletteBase */
+     , (27177,   7, 0x10000538) /* ClothingBase */
+     , (27177,   8, 0x06003152) /* Icon */
+     , (27177,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27177,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27177,   243,      2)  /* Invulnerability Other V */
-     , (27177,  1383,      2)  /* Coordination Other V */
-     , (27177,  1604,      2)  /* Aura of Defender Self V */
+VALUES (27177,  1604,      2)  /* Aura of Defender Self V */
      , (27177,  1616,      2)  /* Aura of Blood Drinker Self VI */
      , (27177,  1627,      2)  /* Aura of Swift Killer Self VI */
+     , (27177,  1383,      2)  /* Coordination Other V */
+     , (27177,   243,      2)  /* Invulnerability Other V */
      , (27177,  2540,      2)  /* Minor Missile Weapon Aptitude */;

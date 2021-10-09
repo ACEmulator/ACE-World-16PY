@@ -22,5 +22,5 @@ VALUES (13155,   1, 'East Rithwic Estates') /* Name */
      , (13155,  16, 'Welcome to East Rithwic Estates') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13155,   1,   33557463) /* Setup */
-     , (13155,   8,  100668115) /* Icon */;
+VALUES (13155,   1, 0x02000BD7) /* Setup */
+     , (13155,   8, 0x060012D3) /* Icon */;

@@ -36,9 +36,9 @@ VALUES (6355,   1, 'Pyreal Sliver') /* Name */
      , (6355,  16, 'A sliver of pyreal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6355,   1,   33556406) /* Setup */
-     , (6355,   3,  536870932) /* SoundTable */
-     , (6355,   6,   67111919) /* PaletteBase */
-     , (6355,   7,  268435966) /* ClothingBase */
-     , (6355,   8,  100670507) /* Icon */
-     , (6355,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6355,   1, 0x020007B6) /* Setup */
+     , (6355,   3, 0x20000014) /* SoundTable */
+     , (6355,   6, 0x04000BEF) /* PaletteBase */
+     , (6355,   7, 0x100001FE) /* ClothingBase */
+     , (6355,   8, 0x06001C2B) /* Icon */
+     , (6355,  22, 0x3400002B) /* PhysicsEffectTable */;

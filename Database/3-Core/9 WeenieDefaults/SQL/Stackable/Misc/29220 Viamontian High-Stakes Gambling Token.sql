@@ -29,9 +29,9 @@ VALUES (29220,   1, 'Viamontian High-Stakes Gambling Token') /* Name */
      , (29220,  16, 'Good at all Viamontian gambling establishments.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29220,   1,   33557006) /* Setup */
-     , (29220,   3,  536870932) /* SoundTable */
-     , (29220,   6,   67113173) /* PaletteBase */
-     , (29220,   7,  268436162) /* ClothingBase */
-     , (29220,   8,  100671525) /* Icon */
-     , (29220,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29220,   1, 0x02000A0E) /* Setup */
+     , (29220,   3, 0x20000014) /* SoundTable */
+     , (29220,   6, 0x040010D5) /* PaletteBase */
+     , (29220,   7, 0x100002C2) /* ClothingBase */
+     , (29220,   8, 0x06002025) /* Icon */
+     , (29220,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -23,10 +23,10 @@ VALUES (28111,   1, 'Of the Burun') /* Name */
      , (28111,  16, 'A quickly written note from Aun Laokhe outlining his feelings on the Burun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28111,   1,   33554773) /* Setup */
-     , (28111,   3,  536870932) /* SoundTable */
-     , (28111,   8,  100668176) /* Icon */
-     , (28111,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28111,   1, 0x02000155) /* Setup */
+     , (28111,   3, 0x20000014) /* SoundTable */
+     , (28111,   8, 0x06001310) /* Icon */
+     , (28111,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (28111, 4, 1000);

@@ -26,5 +26,5 @@ VALUES (19733,   1, 'Unique Bronze Coil from a Native Cast') /* Name */
      , (19733,  37, 'EventZharalimKiller') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19733,   1,   33557680) /* Setup */
-     , (19733,   8,  100672955) /* Icon */;
+VALUES (19733,   1, 0x02000CB0) /* Setup */
+     , (19733,   8, 0x060025BB) /* Icon */;

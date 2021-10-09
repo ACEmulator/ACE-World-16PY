@@ -22,5 +22,5 @@ VALUES (12620,   1, 'Lithaenean Cottages') /* Name */
      , (12620,  16, 'Welcome to Lithaenean Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12620,   1,   33557463) /* Setup */
-     , (12620,   8,  100668115) /* Icon */;
+VALUES (12620,   1, 0x02000BD7) /* Setup */
+     , (12620,   8, 0x060012D3) /* Icon */;

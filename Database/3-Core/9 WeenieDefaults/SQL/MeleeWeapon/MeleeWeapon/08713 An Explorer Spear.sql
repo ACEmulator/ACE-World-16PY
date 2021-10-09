@@ -42,15 +42,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8713,   1, 'An Explorer Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8713,   1,   33554756) /* Setup */
-     , (8713,   3,  536870932) /* SoundTable */
-     , (8713,   6,   67111919) /* PaletteBase */
-     , (8713,   7,  268435768) /* ClothingBase */
-     , (8713,   8,  100669005) /* Icon */
-     , (8713,  22,  872415275) /* PhysicsEffectTable */
-     , (8713,  36,  234881044) /* MutateFilter */
-     , (8713,  50,  100675462) /* IconOverlay */;
+VALUES (8713,   1, 0x02000144) /* Setup */
+     , (8713,   3, 0x20000014) /* SoundTable */
+     , (8713,   6, 0x04000BEF) /* PaletteBase */
+     , (8713,   7, 0x10000138) /* ClothingBase */
+     , (8713,   8, 0x0600164D) /* Icon */
+     , (8713,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8713,  36, 0x0E000014) /* MutateFilter */
+     , (8713,  50, 0x06002F86) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8713,   366,      2)  /* Light Weapon Mastery Other III */
-     , (8713,  1613,      2)  /* Aura of Blood Drinker Self III */;
+VALUES (8713,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (8713,   366,      2)  /* Light Weapon Mastery Other III */;

@@ -32,7 +32,7 @@ VALUES (7880,   1, 'Spicy Sausage') /* Name */
      , (7880,  20, 'Spicy Sausages') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7880,   1,   33556682) /* Setup */
-     , (7880,   3,  536870932) /* SoundTable */
-     , (7880,   8,  100670874) /* Icon */
-     , (7880,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7880,   1, 0x020008CA) /* Setup */
+     , (7880,   3, 0x20000014) /* SoundTable */
+     , (7880,   8, 0x06001D9A) /* Icon */
+     , (7880,  22, 0x3400002B) /* PhysicsEffectTable */;

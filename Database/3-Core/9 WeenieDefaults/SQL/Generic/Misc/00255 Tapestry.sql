@@ -15,7 +15,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (255,   1, 'Tapestry') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (255,   1,   33554822) /* Setup */
-     , (255,   3,  536870932) /* SoundTable */
-     , (255,   8,  100668160) /* Icon */
-     , (255,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (255,   1, 0x02000186) /* Setup */
+     , (255,   3, 0x20000014) /* SoundTable */
+     , (255,   8, 0x06001300) /* Icon */
+     , (255,  22, 0x3400002B) /* PhysicsEffectTable */;

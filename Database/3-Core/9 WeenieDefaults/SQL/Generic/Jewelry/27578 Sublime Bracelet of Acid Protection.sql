@@ -39,13 +39,13 @@ VALUES (27578,   1, 'Sublime Bracelet of Acid Protection') /* Name */
      , (27578,  15, 'A bracelet of acid protection, given by Behdo Yii for completing the Mutilator quest.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27578,   1,   33554683) /* Setup */
-     , (27578,   3,  536870932) /* SoundTable */
-     , (27578,   6,   67111919) /* PaletteBase */
-     , (27578,   7,  268435738) /* ClothingBase */
-     , (27578,   8,  100668622) /* Icon */
-     , (27578,  22,  872415275) /* PhysicsEffectTable */
-     , (27578,  36,  234881046) /* MutateFilter */;
+VALUES (27578,   1, 0x020000FB) /* Setup */
+     , (27578,   3, 0x20000014) /* SoundTable */
+     , (27578,   6, 0x04000BEF) /* PaletteBase */
+     , (27578,   7, 0x1000011A) /* ClothingBase */
+     , (27578,   8, 0x060014CE) /* Icon */
+     , (27578,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27578,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27578,   244,      2)  /* Invulnerability Other VI */

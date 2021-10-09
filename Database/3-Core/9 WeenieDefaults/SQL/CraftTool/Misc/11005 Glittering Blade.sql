@@ -33,7 +33,7 @@ VALUES (11005,   1, 'Glittering Blade') /* Name */
      , (11005,  33, 'championquest02') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11005,   1,   33557231) /* Setup */
-     , (11005,   3,  536870932) /* SoundTable */
-     , (11005,   8,  100671866) /* Icon */
-     , (11005,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11005,   1, 0x02000AEF) /* Setup */
+     , (11005,   3, 0x20000014) /* SoundTable */
+     , (11005,   8, 0x0600217A) /* Icon */
+     , (11005,  22, 0x3400002B) /* PhysicsEffectTable */;

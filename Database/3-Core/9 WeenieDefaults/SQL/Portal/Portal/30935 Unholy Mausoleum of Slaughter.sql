@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30935,   1, 'Unholy Mausoleum of Slaughter') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30935,   1,   33554867) /* Setup */
-     , (30935,   2,  150994947) /* MotionTable */
-     , (30935,   8,  100667499) /* Icon */;
+VALUES (30935,   1, 0x020001B3) /* Setup */
+     , (30935,   2, 0x09000003) /* MotionTable */
+     , (30935,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30935, 2, 2621874, 50, -40, -17.995, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0x002801B2 [50.000000 -40.000000 -17.995000] 1.000000 0.000000 0.000000 0.000000 */;
+VALUES (30935, 2, 0x002801B2, 50, -40, -17.995, 1, 0, 0, -0) /* Destination */
+/* @teleloc 0x002801B2 [50.000000 -40.000000 -17.995001] 1.000000 0.000000 0.000000 -0.000000 */;

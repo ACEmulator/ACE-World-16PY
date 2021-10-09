@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24323,   1, 'Undead Sailor') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24323,   1,   33554839) /* Setup */
-     , (24323,   2,  150994967) /* MotionTable */
-     , (24323,   3,  536870934) /* SoundTable */
-     , (24323,   4,  805306368) /* CombatTable */
-     , (24323,   6,   67110722) /* PaletteBase */
-     , (24323,   7,  268436626) /* ClothingBase */
-     , (24323,   8,  100667942) /* Icon */
-     , (24323,  22,  872415272) /* PhysicsEffectTable */
+VALUES (24323,   1, 0x02000197) /* Setup */
+     , (24323,   2, 0x09000017) /* MotionTable */
+     , (24323,   3, 0x20000016) /* SoundTable */
+     , (24323,   4, 0x30000000) /* CombatTable */
+     , (24323,   6, 0x04000742) /* PaletteBase */
+     , (24323,   7, 0x10000492) /* ClothingBase */
+     , (24323,   8, 0x06001226) /* Icon */
+     , (24323,  22, 0x34000028) /* PhysicsEffectTable */
      , (24323,  32,        203) /* WieldedTreasureType - 
                                    Wield Yumi (23734) | Probability: 20%
                                    Wield 20x Deadly Arrow (15429) | Probability: 100%
@@ -104,23 +104,23 @@ VALUES (24323,   1,   275, 0, 0, 425) /* MaxHealth */
      , (24323,   5,   100, 0, 0, 300) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (24323,  1, 0, 3, 0, 300, 0, 1546.4994151155) /* Axe                 Specialized */
-     , (24323,  2, 0, 3, 0, 160, 0, 1546.4994151155) /* Bow                 Specialized */
-     , (24323,  3, 0, 3, 0, 160, 0, 1546.4994151155) /* Crossbow            Specialized */
-     , (24323,  4, 0, 3, 0, 300, 0, 1546.4994151155) /* Dagger              Specialized */
-     , (24323,  5, 0, 3, 0, 300, 0, 1546.4994151155) /* Mace                Specialized */
-     , (24323,  6, 0, 3, 0, 325, 0, 1546.4994151155) /* MeleeDefense        Specialized */
-     , (24323,  7, 0, 3, 0, 430, 0, 1546.4994151155) /* MissileDefense      Specialized */
-     , (24323,  9, 0, 3, 0, 300, 0, 1546.4994151155) /* Spear               Specialized */
-     , (24323, 10, 0, 3, 0, 300, 0, 1546.4994151155) /* Staff               Specialized */
-     , (24323, 11, 0, 3, 0, 300, 0, 1546.4994151155) /* Sword               Specialized */
-     , (24323, 13, 0, 3, 0, 300, 0, 1546.4994151155) /* UnarmedCombat       Specialized */
-     , (24323, 14, 0, 3, 0, 240, 0, 1546.4994151155) /* ArcaneLore          Specialized */
-     , (24323, 15, 0, 3, 0, 290, 0, 1546.4994151155) /* MagicDefense        Specialized */
-     , (24323, 20, 0, 3, 0,  90, 0, 1546.4994151155) /* Deception           Specialized */
-     , (24323, 31, 0, 3, 0, 205, 0, 1546.4994151155) /* CreatureEnchantment Specialized */
-     , (24323, 33, 0, 3, 0, 205, 0, 1546.4994151155) /* LifeMagic           Specialized */
-     , (24323, 34, 0, 3, 0, 205, 0, 1546.4994151155) /* WarMagic            Specialized */;
+VALUES (24323,  1, 0, 3, 0, 300, 0, 1546.4994151155033) /* Axe                 Specialized */
+     , (24323,  2, 0, 3, 0, 160, 0, 1546.4994151155033) /* Bow                 Specialized */
+     , (24323,  3, 0, 3, 0, 160, 0, 1546.4994151155033) /* Crossbow            Specialized */
+     , (24323,  4, 0, 3, 0, 300, 0, 1546.4994151155033) /* Dagger              Specialized */
+     , (24323,  5, 0, 3, 0, 300, 0, 1546.4994151155033) /* Mace                Specialized */
+     , (24323,  6, 0, 3, 0, 325, 0, 1546.4994151155033) /* MeleeDefense        Specialized */
+     , (24323,  7, 0, 3, 0, 430, 0, 1546.4994151155033) /* MissileDefense      Specialized */
+     , (24323,  9, 0, 3, 0, 300, 0, 1546.4994151155033) /* Spear               Specialized */
+     , (24323, 10, 0, 3, 0, 300, 0, 1546.4994151155033) /* Staff               Specialized */
+     , (24323, 11, 0, 3, 0, 300, 0, 1546.4994151155033) /* Sword               Specialized */
+     , (24323, 13, 0, 3, 0, 300, 0, 1546.4994151155033) /* UnarmedCombat       Specialized */
+     , (24323, 14, 0, 3, 0, 240, 0, 1546.4994151155033) /* ArcaneLore          Specialized */
+     , (24323, 15, 0, 3, 0, 290, 0, 1546.4994151155033) /* MagicDefense        Specialized */
+     , (24323, 20, 0, 3, 0,  90, 0, 1546.4994151155033) /* Deception           Specialized */
+     , (24323, 31, 0, 3, 0, 205, 0, 1546.4994151155033) /* CreatureEnchantment Specialized */
+     , (24323, 33, 0, 3, 0, 205, 0, 1546.4994151155033) /* LifeMagic           Specialized */
+     , (24323, 34, 0, 3, 0, 205, 0, 1546.4994151155033) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (24323,  0,  4,  0,    0,  340,  340,  340,  340,  340,  340,  340,  340,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -134,28 +134,28 @@ VALUES (24323,  0,  4,  0,    0,  340,  340,  340,  340,  340,  340,  340,  340,
      , (24323,  8,  4, 100, 0.75,  340,  340,  340,  340,  340,  340,  340,  340,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24323,    63,   2.01)  /* Acid Stream VI */
-     , (24323,    69,   2.01)  /* Shock Wave VI */
-     , (24323,    74,   2.01)  /* Frost Bolt VI */
-     , (24323,    80,   2.01)  /* Lightning Bolt VI */
-     , (24323,    85,   2.01)  /* Flame Bolt VI */
-     , (24323,    91,   2.01)  /* Force Bolt VI */
-     , (24323,    97,   2.01)  /* Whirling Blade VI */
-     , (24323,   130,   2.01)  /* Acid Volley VI */
+VALUES (24323,   146,   2.01)  /* Flame Volley VI */
+     , (24323,  1254,  2.025)  /* Drain Stamina Other VI */
      , (24323,   138,   2.01)  /* Frost Volley VI */
+     , (24323,    74,   2.01)  /* Frost Bolt VI */
+     , (24323,   130,   2.01)  /* Acid Volley VI */
+     , (24323,    85,   2.01)  /* Flame Bolt VI */
+     , (24323,    69,   2.01)  /* Shock Wave VI */
+     , (24323,  1420,  2.011)  /* Slowness Other VI */
      , (24323,   142,   2.01)  /* Lightning Volley VI */
-     , (24323,   146,   2.01)  /* Flame Volley VI */
+     , (24323,    80,   2.01)  /* Lightning Bolt VI */
+     , (24323,  1242,  2.025)  /* Drain Health Other VI */
+     , (24323,    91,   2.01)  /* Force Bolt VI */
+     , (24323,  1372,  2.011)  /* Frailty Other VI */
+     , (24323,    97,   2.01)  /* Whirling Blade VI */
+     , (24323,  1444,  2.011)  /* Bafflement Other VI */
      , (24323,   170,  2.025)  /* Regeneration Self VI */
      , (24323,   176,  2.011)  /* Fester Other VI */
-     , (24323,  1242,  2.025)  /* Drain Health Other VI */
-     , (24323,  1254,  2.025)  /* Drain Stamina Other VI */
      , (24323,  1265,  2.025)  /* Drain Mana Other VI */
-     , (24323,  1343,  2.011)  /* Weakness Other VI */
-     , (24323,  1372,  2.011)  /* Frailty Other VI */
      , (24323,  1396,  2.011)  /* Clumsiness Other VI */
-     , (24323,  1420,  2.011)  /* Slowness Other VI */
-     , (24323,  1444,  2.011)  /* Bafflement Other VI */
-     , (24323,  1468,  2.011)  /* Feeblemind Other VI */;
+     , (24323,  1468,  2.011)  /* Feeblemind Other VI */
+     , (24323,  1343,  2.011)  /* Weakness Other VI */
+     , (24323,    63,   2.01)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (24323,  94) /* ATTACK_NOTIFICATION_EVENT */

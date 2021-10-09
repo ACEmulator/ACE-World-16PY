@@ -34,6 +34,6 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2026,   1, 'Alatar''s Battle Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2026,   1,   33554725) /* Setup */
-     , (2026,   8,  100667606) /* Icon */
-     , (2026,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (2026,   1, 0x02000125) /* Setup */
+     , (2026,   8, 0x060010D6) /* Icon */
+     , (2026,  22, 0x3400002B) /* PhysicsEffectTable */;

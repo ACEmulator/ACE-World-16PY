@@ -21,12 +21,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14421,   1, 'Trap Door') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14421,   1,   33557479) /* Setup */
-     , (14421,   2,  150995152) /* MotionTable */
-     , (14421,   3,  536870947) /* SoundTable */
-     , (14421,   8,  100672468) /* Icon */
-     , (14421,  22,  872415275) /* PhysicsEffectTable */
-     , (14421,  24,  268435537) /* UseTargetAnimation - Twitch1 */;
+VALUES (14421,   1, 0x02000BE7) /* Setup */
+     , (14421,   2, 0x090000D0) /* MotionTable */
+     , (14421,   3, 0x20000023) /* SoundTable */
+     , (14421,   8, 0x060023D4) /* Icon */
+     , (14421,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (14421,  24, 0x10000051) /* UseTargetAnimation - Twitch1 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14421,  16,          0) /* ActivationTarget */;
+VALUES (14421,  16, 0x00000000) /* ActivationTarget */;

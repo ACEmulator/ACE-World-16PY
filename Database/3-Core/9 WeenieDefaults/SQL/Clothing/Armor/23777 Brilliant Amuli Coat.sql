@@ -32,7 +32,7 @@ VALUES (23777,  22, True ) /* Inscribable */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23777,   5,  -0.025) /* ManaRate */
-     , (23777,  12, 0.232225) /* Shade */
+     , (23777,  12,   0.232) /* Shade */
      , (23777,  13,       1) /* ArmorModVsSlash */
      , (23777,  14,     1.1) /* ArmorModVsPierce */
      , (23777,  15,       1) /* ArmorModVsBludgeon */
@@ -47,12 +47,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23777,   1, 'Brilliant Amuli Coat') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23777,   1,   33554854) /* Setup */
-     , (23777,   3,  536870932) /* SoundTable */
-     , (23777,   6,   67108990) /* PaletteBase */
-     , (23777,   7,  268435873) /* ClothingBase */
-     , (23777,   8,  100674067) /* Icon */
-     , (23777,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23777,   1, 0x020001A6) /* Setup */
+     , (23777,   3, 0x20000014) /* SoundTable */
+     , (23777,   6, 0x0400007E) /* PaletteBase */
+     , (23777,   7, 0x100001A1) /* ClothingBase */
+     , (23777,   8, 0x06002A13) /* Icon */
+     , (23777,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23777,  2571,      2)  /* Major Armor */;

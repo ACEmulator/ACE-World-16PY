@@ -29,7 +29,7 @@ VALUES (1537,   1, 'Treasure Chest Key') /* Name */
      , (1537,  33, 'ColierMineTreasureKey') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1537,   1,   33554784) /* Setup */
-     , (1537,   3,  536870932) /* SoundTable */
-     , (1537,   8,  100668439) /* Icon */
-     , (1537,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1537,   1, 0x02000160) /* Setup */
+     , (1537,   3, 0x20000014) /* SoundTable */
+     , (1537,   8, 0x06001417) /* Icon */
+     , (1537,  22, 0x3400002B) /* PhysicsEffectTable */;

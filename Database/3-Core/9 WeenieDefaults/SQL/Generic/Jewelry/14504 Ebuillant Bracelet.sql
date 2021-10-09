@@ -32,7 +32,7 @@ VALUES (14504,  22, True ) /* Inscribable */
      , (14504,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14504,   5, -0.033333) /* ManaRate */;
+VALUES (14504,   5,  -0.033) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14504,   1, 'Ebuillant Bracelet') /* Name */
@@ -40,16 +40,16 @@ VALUES (14504,   1, 'Ebuillant Bracelet') /* Name */
      , (14504,  33, 'BraceletEbuillantPickup') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14504,   1,   33554683) /* Setup */
-     , (14504,   3,  536870932) /* SoundTable */
-     , (14504,   6,   67111919) /* PaletteBase */
-     , (14504,   7,  268436286) /* ClothingBase */
-     , (14504,   8,  100672503) /* Icon */
-     , (14504,  22,  872415275) /* PhysicsEffectTable */
-     , (14504,  36,  234881046) /* MutateFilter */;
+VALUES (14504,   1, 0x020000FB) /* Setup */
+     , (14504,   3, 0x20000014) /* SoundTable */
+     , (14504,   6, 0x04000BEF) /* PaletteBase */
+     , (14504,   7, 0x1000033E) /* ClothingBase */
+     , (14504,   8, 0x060023F7) /* Icon */
+     , (14504,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (14504,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (14504,   272,      2)  /* Magic Resistance Other V */
+VALUES (14504,  2642,      2)  /* Consumption */
      , (14504,   514,      2)  /* Acid Protection Other VI */
-     , (14504,  2580,      2)  /* Minor Endurance */
-     , (14504,  2642,      2)  /* Consumption */;
+     , (14504,   272,      2)  /* Magic Resistance Other V */
+     , (14504,  2580,      2)  /* Minor Endurance */;

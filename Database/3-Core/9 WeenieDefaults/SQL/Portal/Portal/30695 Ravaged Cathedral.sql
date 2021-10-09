@@ -25,10 +25,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30695,   1, 'Ravaged Cathedral') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30695,   1,   33555925) /* Setup */
-     , (30695,   2,  150994947) /* MotionTable */
-     , (30695,   8,  100667499) /* Icon */;
+VALUES (30695,   1, 0x020005D5) /* Setup */
+     , (30695,   2, 0x09000003) /* MotionTable */
+     , (30695,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30695, 2, 1442250, 12.2668, -59.989, 12.005, 0.7796003, 0, 0, -0.6262773) /* Destination */
-/* @teleloc 0x001601CA [12.266800 -59.989000 12.005000] 0.779600 0.000000 0.000000 -0.626277 */;
+VALUES (30695, 2, 0x001601CA, 12.2668, -59.989, 12.005, 0.7796, 0, 0, -0.626277) /* Destination */
+/* @teleloc 0x001601CA [12.266800 -59.988998 12.005000] 0.779600 0.000000 0.000000 -0.626277 */;

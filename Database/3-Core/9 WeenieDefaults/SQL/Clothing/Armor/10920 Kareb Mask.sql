@@ -49,12 +49,12 @@ VALUES (10920,   1, 'Kareb Mask') /* Name */
      , (10920,  16, 'A mask carved in tribute to the mythical Tumerok trickster, Karab. Cloaked behind his mysterious visage, you feel capable of taking over the world! But maybe you''ll take a nice nap first.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10920,   1,   33558334) /* Setup */
-     , (10920,   3,  536870932) /* SoundTable */
-     , (10920,   6,   67108990) /* PaletteBase */
-     , (10920,   7,  268436596) /* ClothingBase */
-     , (10920,   8,  100674298) /* Icon */
-     , (10920,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (10920,   1, 0x02000F3E) /* Setup */
+     , (10920,   3, 0x20000014) /* SoundTable */
+     , (10920,   6, 0x0400007E) /* PaletteBase */
+     , (10920,   7, 0x10000474) /* ClothingBase */
+     , (10920,   8, 0x06002AFA) /* Icon */
+     , (10920,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10920,   247,      2)  /* Invulnerability Self IV */

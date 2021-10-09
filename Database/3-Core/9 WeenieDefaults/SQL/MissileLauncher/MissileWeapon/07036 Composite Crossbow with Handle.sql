@@ -18,7 +18,7 @@ VALUES (7036,   1,        256) /* ItemType - MissileWeapon */
      , (7036,  48,          3) /* WeaponSkill - Crossbow */
      , (7036,  49,         90) /* WeaponTime */
      , (7036,  50,          2) /* AmmoType - Bolt */
-     , (7036,  51,          2) /* CombatUse - Missle */
+     , (7036,  51,          2) /* CombatUse - Missile */
      , (7036,  52,          2) /* ParentLocation - LeftHand */
      , (7036,  53,          3) /* PlacementPosition - LeftHand */
      , (7036,  60,        192) /* WeaponRange */
@@ -50,14 +50,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7036,   1, 'Composite Crossbow with Handle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7036,   1,   33556596) /* Setup */
-     , (7036,   3,  536870932) /* SoundTable */
-     , (7036,   6,   67112869) /* PaletteBase */
-     , (7036,   7,  268436004) /* ClothingBase */
-     , (7036,   8,  100670692) /* Icon */
-     , (7036,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7036,   1, 0x02000874) /* Setup */
+     , (7036,   3, 0x20000014) /* SoundTable */
+     , (7036,   6, 0x04000FA5) /* PaletteBase */
+     , (7036,   7, 0x10000224) /* ClothingBase */
+     , (7036,   8, 0x06001CE4) /* Icon */
+     , (7036,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7036,  37,          3) /* ItemSkillLimit - Crossbow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7036,   487,      2)  /* Missile Weapon Mastery Other III */
-     , (7036,  1613,      2)  /* Aura of Blood Drinker Self III */;
+VALUES (7036,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (7036,   487,      2)  /* Missile Weapon Mastery Other III */;

@@ -24,7 +24,7 @@ VALUES (24930,   1, 'Brood Queen Nymph Crest') /* Name */
      , (24930,  33, 'PickedUpBroodQueenCrest') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24930,   1,   33556593) /* Setup */
-     , (24930,   3,  536870932) /* SoundTable */
-     , (24930,   8,  100674516) /* Icon */
-     , (24930,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24930,   1, 0x02000871) /* Setup */
+     , (24930,   3, 0x20000014) /* SoundTable */
+     , (24930,   8, 0x06002BD4) /* Icon */
+     , (24930,  22, 0x3400002B) /* PhysicsEffectTable */;

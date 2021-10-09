@@ -25,59 +25,59 @@ VALUES (29948,  22, True ) /* Inscribable */
      , (29948,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29948,   5,       0) /* ManaRate */;
+VALUES (29948,   5,      -0) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29948,   1, 'Bracelet of Creature Enchantments') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29948,   1,   33554683) /* Setup */
-     , (29948,   3,  536870932) /* SoundTable */
-     , (29948,   6,   67111919) /* PaletteBase */
-     , (29948,   7,  268436286) /* ClothingBase */
-     , (29948,   8,  100672215) /* Icon */
-     , (29948,  22,  872415275) /* PhysicsEffectTable */
-     , (29948,  36,  234881046) /* MutateFilter */;
+VALUES (29948,   1, 0x020000FB) /* Setup */
+     , (29948,   3, 0x20000014) /* SoundTable */
+     , (29948,   6, 0x04000BEF) /* PaletteBase */
+     , (29948,   7, 0x1000033E) /* ClothingBase */
+     , (29948,   8, 0x060022D7) /* Icon */
+     , (29948,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29948,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29948,  2536,      2)  /* Minor Alchemical Prowess */
-     , (29948,  2537,      2)  /* Minor Arcane Prowess */
-     , (29948,  2538,      2)  /* Minor Armor Tinkering Expertise */
-     , (29948,  2539,      2)  /* Minor Light Weapon Aptitude */
-     , (29948,  2540,      2)  /* Minor Missile Weapon Aptitude */
-     , (29948,  2541,      2)  /* Minor Cooking Prowess */
-     , (29948,  2542,      2)  /* Minor Creature Enchantment Aptitude */
-     , (29948,  2543,      2)  /* Minor Missile Weapon Aptitude */
-     , (29948,  2544,      2)  /* Minor Finesse Weapon Aptitude */
+VALUES (29948,  2553,      2)  /* Minor Jumping Prowess */
+     , (29948,  2568,      2)  /* Minor Light Weapon Aptitude */
      , (29948,  2545,      2)  /* Minor Deception Prowess */
-     , (29948,  2546,      2)  /* Minor Fealty */
-     , (29948,  2547,      2)  /* Minor Fletching Prowess */
-     , (29948,  2548,      2)  /* Minor Healing Prowess */
-     , (29948,  2549,      2)  /* Minor Impregnability */
-     , (29948,  2550,      2)  /* Minor Invulnerability */
-     , (29948,  2551,      2)  /* Minor Item Enchantment Aptitude */
-     , (29948,  2552,      2)  /* Minor Item Tinkering Expertise */
-     , (29948,  2553,      2)  /* Minor Jumping Prowess */
-     , (29948,  2554,      2)  /* Minor Leadership */
-     , (29948,  2555,      2)  /* Minor Life Magic Aptitude */
-     , (29948,  2556,      2)  /* Minor Lockpick Prowess */
-     , (29948,  2557,      2)  /* Minor Light Weapon Aptitude */
-     , (29948,  2558,      2)  /* Minor Magic Item Tinkering Expertise */
-     , (29948,  2559,      2)  /* Minor Magic Resistance */
      , (29948,  2560,      2)  /* Minor Mana Conversion Prowess */
      , (29948,  2561,      2)  /* Minor Monster Attunement */
      , (29948,  2562,      2)  /* Minor Person Attunement */
+     , (29948,  2542,      2)  /* Minor Creature Enchantment Aptitude */
      , (29948,  2563,      2)  /* Minor Light Weapon Aptitude */
+     , (29948,  2549,      2)  /* Minor Impregnability */
      , (29948,  2564,      2)  /* Minor Sprint */
      , (29948,  2565,      2)  /* Minor Light Weapon Aptitude */
      , (29948,  2566,      2)  /* Minor Heavy Weapon Aptitude */
      , (29948,  2567,      2)  /* Minor Missile Weapon Aptitude */
-     , (29948,  2568,      2)  /* Minor Light Weapon Aptitude */
      , (29948,  2569,      2)  /* Minor War Magic Aptitude */
+     , (29948,  2543,      2)  /* Minor Missile Weapon Aptitude */
      , (29948,  2570,      2)  /* Minor Weapon Tinkering Expertise */
+     , (29948,  2558,      2)  /* Minor Magic Item Tinkering Expertise */
      , (29948,  2579,      2)  /* Minor Coordination */
      , (29948,  2580,      2)  /* Minor Endurance */
      , (29948,  2581,      2)  /* Minor Focus */
+     , (29948,  2539,      2)  /* Minor Light Weapon Aptitude */
      , (29948,  2582,      2)  /* Minor Quickness */
+     , (29948,  2546,      2)  /* Minor Fealty */
      , (29948,  2583,      2)  /* Minor Strength */
-     , (29948,  2584,      2)  /* Minor Willpower */;
+     , (29948,  2584,      2)  /* Minor Willpower */
+     , (29948,  2536,      2)  /* Minor Alchemical Prowess */
+     , (29948,  2537,      2)  /* Minor Arcane Prowess */
+     , (29948,  2538,      2)  /* Minor Armor Tinkering Expertise */
+     , (29948,  2540,      2)  /* Minor Missile Weapon Aptitude */
+     , (29948,  2541,      2)  /* Minor Cooking Prowess */
+     , (29948,  2544,      2)  /* Minor Finesse Weapon Aptitude */
+     , (29948,  2547,      2)  /* Minor Fletching Prowess */
+     , (29948,  2548,      2)  /* Minor Healing Prowess */
+     , (29948,  2550,      2)  /* Minor Invulnerability */
+     , (29948,  2551,      2)  /* Minor Item Enchantment Aptitude */
+     , (29948,  2552,      2)  /* Minor Item Tinkering Expertise */
+     , (29948,  2554,      2)  /* Minor Leadership */
+     , (29948,  2555,      2)  /* Minor Life Magic Aptitude */
+     , (29948,  2556,      2)  /* Minor Lockpick Prowess */
+     , (29948,  2557,      2)  /* Minor Light Weapon Aptitude */
+     , (29948,  2559,      2)  /* Minor Magic Resistance */;

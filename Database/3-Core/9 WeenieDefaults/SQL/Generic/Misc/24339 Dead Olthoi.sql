@@ -24,8 +24,8 @@ VALUES (24339,   1, 'Dead Olthoi') /* Name */
      , (24339,  16, 'The olthoi''s shell looks unusually thin and pliant. You think you see things moving under the surface.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24339,   1,   33558341) /* Setup */
-     , (24339,   3,  536870932) /* SoundTable */
-     , (24339,   6,   67113236) /* PaletteBase */
-     , (24339,   7,  268436599) /* ClothingBase */
-     , (24339,   8,  100667623) /* Icon */;
+VALUES (24339,   1, 0x02000F45) /* Setup */
+     , (24339,   3, 0x20000014) /* SoundTable */
+     , (24339,   6, 0x04001114) /* PaletteBase */
+     , (24339,   7, 0x10000477) /* ClothingBase */
+     , (24339,   8, 0x060010E7) /* Icon */;

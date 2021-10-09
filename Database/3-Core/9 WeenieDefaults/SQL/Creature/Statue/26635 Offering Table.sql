@@ -64,15 +64,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26635,   1, 'Offering Table') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26635,   1,   33558607) /* Setup */
-     , (26635,   2,  150995279) /* MotionTable */
-     , (26635,   3,  536871052) /* SoundTable */
-     , (26635,   4,  805306398) /* CombatTable */
-     , (26635,   8,  100675788) /* Icon */
-     , (26635,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (26635,   1, 0x0200104F) /* Setup */
+     , (26635,   2, 0x0900014F) /* MotionTable */
+     , (26635,   3, 0x2000008C) /* SoundTable */
+     , (26635,   4, 0x3000001E) /* CombatTable */
+     , (26635,   8, 0x060030CC) /* Icon */
+     , (26635,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (26635,  16, 1985237070) /* ActivationTarget */;
+VALUES (26635,  16, 0x7654504E) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (26635,   1, 380, 0, 0) /* Strength */
@@ -88,10 +88,10 @@ VALUES (26635,   1,   200, 0, 0, 370) /* MaxHealth */
      , (26635,   5,   201, 0, 0, 486) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (26635, 31, 0, 3, 0, 500, 0, 1798.66173441933) /* CreatureEnchantment Specialized */
-     , (26635, 32, 0, 3, 0, 500, 0, 1798.66173441933) /* ItemEnchantment     Specialized */
-     , (26635, 33, 0, 3, 0, 500, 0, 1798.66173441933) /* LifeMagic           Specialized */
-     , (26635, 34, 0, 3, 0, 500, 0, 1798.66173441933) /* WarMagic            Specialized */;
+VALUES (26635, 31, 0, 3, 0, 500, 0, 1798.661734419331) /* CreatureEnchantment Specialized */
+     , (26635, 32, 0, 3, 0, 500, 0, 1798.661734419331) /* ItemEnchantment     Specialized */
+     , (26635, 33, 0, 3, 0, 500, 0, 1798.661734419331) /* LifeMagic           Specialized */
+     , (26635, 34, 0, 3, 0, 500, 0, 1798.661734419331) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (26635,  0,  8,  3,  0.5,   20,   16,   16,   16,   20,   20,   20,   20,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
@@ -177,7 +177,7 @@ VALUES (26635, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'TempleAppeaseme
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 26505 /* Gem of Appeasement */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 26505 /* Gem of Appeasement */, 1, 0 /* Undef */, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (26635, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'TempleAppeasementComplete', NULL, NULL, NULL);

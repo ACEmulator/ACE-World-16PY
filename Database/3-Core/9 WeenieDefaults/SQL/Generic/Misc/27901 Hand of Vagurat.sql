@@ -27,7 +27,7 @@ VALUES (27901,   1, 'Hand of Vagurat') /* Name */
      , (27901,  33, 'MosswartExodusHand') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27901,   1,   33558801) /* Setup */
-     , (27901,   3,  536870932) /* SoundTable */
-     , (27901,   8,  100676622) /* Icon */
-     , (27901,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27901,   1, 0x02001111) /* Setup */
+     , (27901,   3, 0x20000014) /* SoundTable */
+     , (27901,   8, 0x0600340E) /* Icon */
+     , (27901,  22, 0x3400002B) /* PhysicsEffectTable */;

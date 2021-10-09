@@ -15,7 +15,7 @@ VALUES (2021,   1,        256) /* ItemType - MissileWeapon */
      , (2021,  48,          3) /* WeaponSkill - Crossbow */
      , (2021,  49,         90) /* WeaponTime */
      , (2021,  50,          2) /* AmmoType - Bolt */
-     , (2021,  51,          2) /* CombatUse - Missle */
+     , (2021,  51,          2) /* CombatUse - Missile */
      , (2021,  52,          2) /* ParentLocation - LeftHand */
      , (2021,  53,          3) /* PlacementPosition - LeftHand */
      , (2021,  60,        250) /* WeaponRange */
@@ -37,6 +37,6 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2021,   1, 'Pariah''s Heavy Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2021,   1,   33554732) /* Setup */
-     , (2021,   8,  100668161) /* Icon */
-     , (2021,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (2021,   1, 0x0200012C) /* Setup */
+     , (2021,   8, 0x06001301) /* Icon */
+     , (2021,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -37,7 +37,7 @@ VALUES (11461,   1, 'Palenqual''s Totem of the Chase') /* Name */
      , (11461,  16, 'A triple totem representing three of the animas found on Palenqual. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11461,   1,   33557275) /* Setup */
-     , (11461,   3,  536870932) /* SoundTable */
-     , (11461,   8,  100672020) /* Icon */
-     , (11461,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11461,   1, 0x02000B1B) /* Setup */
+     , (11461,   3, 0x20000014) /* SoundTable */
+     , (11461,   8, 0x06002214) /* Icon */
+     , (11461,  22, 0x3400002B) /* PhysicsEffectTable */;

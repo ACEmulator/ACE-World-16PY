@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31181,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31181,   5,       0) /* ManaRate */
+VALUES (31181,   5,      -0) /* ManaRate */
      , (31181,  29,    1.08) /* WeaponDefense */
      , (31181, 144,    0.13) /* ManaConversionMod */
      , (31181, 152,    1.02) /* ElementalDamageMod */;
@@ -41,13 +41,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31181,   1, 'Frost Sceptre') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31181,   1,   33559227) /* Setup */
-     , (31181,   3,  536870932) /* SoundTable */
-     , (31181,   6,   67115357) /* PaletteBase */
-     , (31181,   7,  268436902) /* ClothingBase */
-     , (31181,   8,  100668792) /* Icon */
-     , (31181,  22,  872415275) /* PhysicsEffectTable */
-     , (31181,  27, 1073742049) /* UseUserAnimation - UseMagicWand */;
+VALUES (31181,   1, 0x020012BB) /* Setup */
+     , (31181,   3, 0x20000014) /* SoundTable */
+     , (31181,   6, 0x0400195D) /* PaletteBase */
+     , (31181,   7, 0x100005A6) /* ClothingBase */
+     , (31181,   8, 0x06001578) /* Icon */
+     , (31181,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (31181,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31181,  2101,      2)  /* Aura of Cragstone's Will */

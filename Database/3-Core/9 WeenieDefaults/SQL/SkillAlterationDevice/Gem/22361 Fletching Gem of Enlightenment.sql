@@ -13,7 +13,7 @@ VALUES (22361,   1,       2048) /* ItemType - Gem */
      , (22361,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22361, 114,          1) /* Attuned - Attuned */
      , (22361, 185,          1) /* TypeOfAlteration */
-     , (22361, 186,         37) /* SkillToBeAltered */;
+     , (22361, 186,         37) /* SkillToBeAltered - Fletching */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22361,  22, True ) /* Inscribable */
@@ -25,8 +25,8 @@ VALUES (22361,   1, 'Fletching Gem of Enlightenment') /* Name */
      , (22361,  33, 'SkillAlterationGemPickedUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22361,   1,   33558088) /* Setup */
-     , (22361,   6,   67111919) /* PaletteBase */
-     , (22361,   7,  268435723) /* ClothingBase */
-     , (22361,   8,  100673788) /* Icon */
-     , (22361,  50,  100673765) /* IconOverlay */;
+VALUES (22361,   1, 0x02000E48) /* Setup */
+     , (22361,   6, 0x04000BEF) /* PaletteBase */
+     , (22361,   7, 0x1000010B) /* ClothingBase */
+     , (22361,   8, 0x060028FC) /* Icon */
+     , (22361,  50, 0x060028E5) /* IconOverlay */;

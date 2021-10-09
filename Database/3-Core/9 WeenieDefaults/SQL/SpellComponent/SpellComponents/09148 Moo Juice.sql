@@ -23,10 +23,10 @@ VALUES (9148,   1, 'Moo Juice') /* Name */
      , (9148,  20, 'Moo Juices') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9148,   1,   33555209) /* Setup */
-     , (9148,   3,  536870932) /* SoundTable */
-     , (9148,   6,   67111919) /* PaletteBase */
-     , (9148,   7,  268435719) /* ClothingBase */
-     , (9148,   8,  100668493) /* Icon */
-     , (9148,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9148,   1, 0x02000309) /* Setup */
+     , (9148,   3, 0x20000014) /* SoundTable */
+     , (9148,   6, 0x04000BEF) /* PaletteBase */
+     , (9148,   7, 0x10000107) /* ClothingBase */
+     , (9148,   8, 0x0600144D) /* Icon */
+     , (9148,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9148,  29,        113) /* SpellComponent */;

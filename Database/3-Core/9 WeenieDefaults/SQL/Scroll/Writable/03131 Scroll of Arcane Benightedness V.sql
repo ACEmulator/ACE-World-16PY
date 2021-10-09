@@ -25,7 +25,7 @@ VALUES (3131,   1, 'Scroll of Arcane Benightedness V') /* Name */
      , (3131,  16, 'When learned, this spell decreases the caster''s Arcane Lore skill by 50%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3131,   1,   33554826) /* Setup */
-     , (3131,   8,  100676447) /* Icon */
-     , (3131,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3131,   1, 0x0200018A) /* Setup */
+     , (3131,   8, 0x0600335F) /* Icon */
+     , (3131,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3131,  28,        700) /* Spell - Arcane Benightedness Other V */;

@@ -19,7 +19,7 @@ VALUES (20120,   1,        256) /* ItemType - MissileWeapon */
      , (20120,  48,          3) /* WeaponSkill - Crossbow */
      , (20120,  49,         90) /* WeaponTime */
      , (20120,  50,          2) /* AmmoType - Bolt */
-     , (20120,  51,          2) /* CombatUse - Missle */
+     , (20120,  51,          2) /* CombatUse - Missile */
      , (20120,  52,          2) /* ParentLocation - LeftHand */
      , (20120,  53,          3) /* PlacementPosition - LeftHand */
      , (20120,  60,        195) /* WeaponRange */
@@ -51,17 +51,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20120,   1, 'Perfect Flaming Isparian Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20120,   1,   33557774) /* Setup */
-     , (20120,   3,  536870932) /* SoundTable */
-     , (20120,   6,   67111919) /* PaletteBase */
-     , (20120,   7,  268436396) /* ClothingBase */
-     , (20120,   8,  100673026) /* Icon */
-     , (20120,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20120,   1, 0x02000D0E) /* Setup */
+     , (20120,   3, 0x20000014) /* SoundTable */
+     , (20120,   6, 0x04000BEF) /* PaletteBase */
+     , (20120,   7, 0x100003AC) /* ClothingBase */
+     , (20120,   8, 0x06002602) /* Icon */
+     , (20120,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20120,  37,          3) /* ItemSkillLimit - Crossbow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20120,  1092,      2)  /* Fire Protection Self IV */
-     , (20120,  1329,      2)  /* Strength Self III */
+VALUES (20120,  2688,      2)  /* Moderate Missile Weapon Aptitude */
+     , (20120,  1092,      2)  /* Fire Protection Self IV */
      , (20120,  1605,      2)  /* Aura of Defender Self VI */
-     , (20120,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (20120,  2688,      2)  /* Moderate Missile Weapon Aptitude */;
+     , (20120,  1329,      2)  /* Strength Self III */
+     , (20120,  1616,      2)  /* Aura of Blood Drinker Self VI */;

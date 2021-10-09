@@ -26,5 +26,5 @@ VALUES (30484,   1, 'Bronze Candlestick') /* Name */
      , (30484,  33, 'HoltburgRedoubtCandlestick1204') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30484,   1,   33554694) /* Setup */
-     , (30484,   8,  100668158) /* Icon */;
+VALUES (30484,   1, 0x02000106) /* Setup */
+     , (30484,   8, 0x060012FE) /* Icon */;

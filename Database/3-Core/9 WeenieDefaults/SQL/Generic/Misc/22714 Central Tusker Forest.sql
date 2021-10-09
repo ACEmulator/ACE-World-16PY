@@ -22,7 +22,7 @@ VALUES (22714,   1, 'Central Tusker Forest') /* Name */
      , (22714,  16, 'Central Tusker Forest, the tougher ones live there. -Brighteyes, the Tailor. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22714,   1,   33558115) /* Setup */
-     , (22714,   6,   67114046) /* PaletteBase */
-     , (22714,   7,  268436510) /* ClothingBase */
-     , (22714,   8,  100668115) /* Icon */;
+VALUES (22714,   1, 0x02000E63) /* Setup */
+     , (22714,   6, 0x0400143E) /* PaletteBase */
+     , (22714,   7, 0x1000041E) /* ClothingBase */
+     , (22714,   8, 0x060012D3) /* Icon */;

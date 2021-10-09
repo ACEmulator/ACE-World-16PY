@@ -29,7 +29,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25463,   1, 'Tumerok Corpse') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25463,   1,   33558432) /* Setup */
-     , (25463,   6,   67109314) /* PaletteBase */
-     , (25463,   7,  268436630) /* ClothingBase */
-     , (25463,   8,  100674806) /* Icon */;
+VALUES (25463,   1, 0x02000FA0) /* Setup */
+     , (25463,   6, 0x040001C2) /* PaletteBase */
+     , (25463,   7, 0x10000496) /* ClothingBase */
+     , (25463,   8, 0x06002CF6) /* Icon */;

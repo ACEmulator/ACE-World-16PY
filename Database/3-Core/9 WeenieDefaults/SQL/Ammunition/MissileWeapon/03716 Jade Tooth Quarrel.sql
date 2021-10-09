@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3716,   1, 'Jade Tooth Quarrel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3716,   1,   33554730) /* Setup */
-     , (3716,   3,  536870932) /* SoundTable */
-     , (3716,   8,  100667584) /* Icon */
-     , (3716,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3716,   1, 0x0200012A) /* Setup */
+     , (3716,   3, 0x20000014) /* SoundTable */
+     , (3716,   8, 0x060010C0) /* Icon */
+     , (3716,  22, 0x3400002B) /* PhysicsEffectTable */;

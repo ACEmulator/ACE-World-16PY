@@ -34,8 +34,8 @@ VALUES (5411,   1, 'The Blademasters') /* Name */
      , (5411,  32, 'no man or woman on Dereth has attained a level of swordsmanship worthy of this honor.') /* ScoreNoEntry */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5411,   1,   33554771) /* Setup */
-     , (5411,   8,  100668117) /* Icon */;
+VALUES (5411,   1, 0x02000153) /* Setup */
+     , (5411,   8, 0x060012D5) /* Icon */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (5411, 2, 2000);

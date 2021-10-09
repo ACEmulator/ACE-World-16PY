@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27136,   1, 'Ithik Stalk') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27136,   1,   33555670) /* Setup */
-     , (27136,   2,  150995067) /* MotionTable */
-     , (27136,   3,  536871015) /* SoundTable */
-     , (27136,   4,  805306404) /* CombatTable */
-     , (27136,   6,   67112864) /* PaletteBase */
-     , (27136,   7,  268436087) /* ClothingBase */
-     , (27136,   8,  100671186) /* Icon */
-     , (27136,  22,  872415332) /* PhysicsEffectTable */
+VALUES (27136,   1, 0x020004D6) /* Setup */
+     , (27136,   2, 0x0900007B) /* MotionTable */
+     , (27136,   3, 0x20000067) /* SoundTable */
+     , (27136,   4, 0x30000024) /* CombatTable */
+     , (27136,   6, 0x04000FA0) /* PaletteBase */
+     , (27136,   7, 0x10000277) /* ClothingBase */
+     , (27136,   8, 0x06001ED2) /* Icon */
+     , (27136,  22, 0x34000064) /* PhysicsEffectTable */
      , (27136,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -91,15 +91,15 @@ VALUES (27136,   1,    80, 0, 0, 150) /* MaxHealth */
      , (27136,   5,   100, 0, 0, 250) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (27136,  6, 0, 3, 0, 100, 0, 1870.87779359692) /* MeleeDefense        Specialized */
-     , (27136,  7, 0, 3, 0, 190, 0, 1870.87779359692) /* MissileDefense      Specialized */
-     , (27136, 12, 0, 3, 0,  50, 0, 1870.87779359692) /* ThrownWeapon        Specialized */
-     , (27136, 13, 0, 3, 0, 100, 0, 1870.87779359692) /* UnarmedCombat       Specialized */
-     , (27136, 14, 0, 3, 0, 120, 0, 1870.87779359692) /* ArcaneLore          Specialized */
-     , (27136, 15, 0, 3, 0, 110, 0, 1870.87779359692) /* MagicDefense        Specialized */
-     , (27136, 20, 0, 3, 0, 100, 0, 1870.87779359692) /* Deception           Specialized */
-     , (27136, 31, 0, 3, 0,  70, 0, 1870.87779359692) /* CreatureEnchantment Specialized */
-     , (27136, 33, 0, 3, 0,  70, 0, 1870.87779359692) /* LifeMagic           Specialized */;
+VALUES (27136,  6, 0, 3, 0, 100, 0, 1870.8777935969151) /* MeleeDefense        Specialized */
+     , (27136,  7, 0, 3, 0, 190, 0, 1870.8777935969151) /* MissileDefense      Specialized */
+     , (27136, 12, 0, 3, 0,  50, 0, 1870.8777935969151) /* ThrownWeapon        Specialized */
+     , (27136, 13, 0, 3, 0, 100, 0, 1870.8777935969151) /* UnarmedCombat       Specialized */
+     , (27136, 14, 0, 3, 0, 120, 0, 1870.8777935969151) /* ArcaneLore          Specialized */
+     , (27136, 15, 0, 3, 0, 110, 0, 1870.8777935969151) /* MagicDefense        Specialized */
+     , (27136, 20, 0, 3, 0, 100, 0, 1870.8777935969151) /* Deception           Specialized */
+     , (27136, 31, 0, 3, 0,  70, 0, 1870.8777935969151) /* CreatureEnchantment Specialized */
+     , (27136, 33, 0, 3, 0,  70, 0, 1870.8777935969151) /* LifeMagic           Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (27136,  0, 16, 20, 0.75,  150,  108,   81,   31,   31,  108,   81,    9,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */

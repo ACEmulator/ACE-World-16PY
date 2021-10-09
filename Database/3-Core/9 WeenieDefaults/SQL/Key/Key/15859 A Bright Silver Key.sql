@@ -24,9 +24,9 @@ VALUES (15859,   1, 'A Bright Silver Key') /* Name */
      , (15859,  14, 'Use this item on a reward chest to unlock it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15859,   1,   33554784) /* Setup */
-     , (15859,   3,  536870932) /* SoundTable */
-     , (15859,   6,   67111919) /* PaletteBase */
-     , (15859,   7,  268436363) /* ClothingBase */
-     , (15859,   8,  100672823) /* Icon */
-     , (15859,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15859,   1, 0x02000160) /* Setup */
+     , (15859,   3, 0x20000014) /* SoundTable */
+     , (15859,   6, 0x04000BEF) /* PaletteBase */
+     , (15859,   7, 0x1000038B) /* ClothingBase */
+     , (15859,   8, 0x06002537) /* Icon */
+     , (15859,  22, 0x3400002B) /* PhysicsEffectTable */;

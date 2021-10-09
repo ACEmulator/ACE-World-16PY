@@ -30,10 +30,10 @@ VALUES (5936,   1, 'Broken Staff') /* Name */
      , (5936,  16, 'This staff is crafted from a strange alloy. The staff is clearly broken. There are several areas where the alloy has been exposed to corrosives.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5936,   1,   33555022) /* Setup */
-     , (5936,   3,  536870932) /* SoundTable */
-     , (5936,   6,   67111919) /* PaletteBase */
-     , (5936,   7,  268435796) /* ClothingBase */
-     , (5936,   8,  100668702) /* Icon */
-     , (5936,  22,  872415275) /* PhysicsEffectTable */
-     , (5936,  36,  234881046) /* MutateFilter */;
+VALUES (5936,   1, 0x0200024E) /* Setup */
+     , (5936,   3, 0x20000014) /* SoundTable */
+     , (5936,   6, 0x04000BEF) /* PaletteBase */
+     , (5936,   7, 0x10000154) /* ClothingBase */
+     , (5936,   8, 0x0600151E) /* Icon */
+     , (5936,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (5936,  36, 0x0E000016) /* MutateFilter */;

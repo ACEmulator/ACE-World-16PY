@@ -38,10 +38,10 @@ VALUES (28859,   1, 'Armored Undead Guise') /* Name */
      , (28859,  16, 'A finely-built armored undead costume.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28859,   1,   33559006) /* Setup */
-     , (28859,   3,  536870932) /* SoundTable */
-     , (28859,   6,   67108990) /* PaletteBase */
-     , (28859,   7,  268436864) /* ClothingBase */
-     , (28859,   8,  100677085) /* Icon */
-     , (28859,  22,  872415275) /* PhysicsEffectTable */
-     , (28859,  36,  234881046) /* MutateFilter */;
+VALUES (28859,   1, 0x020011DE) /* Setup */
+     , (28859,   3, 0x20000014) /* SoundTable */
+     , (28859,   6, 0x0400007E) /* PaletteBase */
+     , (28859,   7, 0x10000580) /* ClothingBase */
+     , (28859,   8, 0x060035DD) /* Icon */
+     , (28859,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (28859,  36, 0x0E000016) /* MutateFilter */;

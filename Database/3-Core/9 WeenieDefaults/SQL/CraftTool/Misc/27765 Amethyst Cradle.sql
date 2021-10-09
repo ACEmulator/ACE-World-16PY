@@ -34,7 +34,7 @@ VALUES (27765,   1, 'Amethyst Cradle') /* Name */
      , (27765,  33, 'PickedUpAmethystCradle') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27765,   1,   33558810) /* Setup */
-     , (27765,   3,  536870932) /* SoundTable */
-     , (27765,   8,  100676627) /* Icon */
-     , (27765,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27765,   1, 0x0200111A) /* Setup */
+     , (27765,   3, 0x20000014) /* SoundTable */
+     , (27765,   8, 0x06003413) /* Icon */
+     , (27765,  22, 0x3400002B) /* PhysicsEffectTable */;

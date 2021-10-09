@@ -48,15 +48,15 @@ VALUES (24460,   1, 'Knifer''s Gauntlets') /* Name */
      , (24460,  16, 'These gauntlets have been carved from Sunstone and fitted with an amulet with the essence of the knifer.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24460,   1,   33554648) /* Setup */
-     , (24460,   3,  536870932) /* SoundTable */
-     , (24460,   6,   67108990) /* PaletteBase */
-     , (24460,   7,  268436636) /* ClothingBase */
-     , (24460,   8,  100674342) /* Icon */
-     , (24460,  22,  872415275) /* PhysicsEffectTable */
-     , (24460,  36,  234881046) /* MutateFilter */;
+VALUES (24460,   1, 0x020000D8) /* Setup */
+     , (24460,   3, 0x20000014) /* SoundTable */
+     , (24460,   6, 0x0400007E) /* PaletteBase */
+     , (24460,   7, 0x1000049C) /* ClothingBase */
+     , (24460,   8, 0x06002B26) /* Icon */
+     , (24460,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24460,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24460,  1384,      2)  /* Coordination Other VI */
+VALUES (24460,  2689,      2)  /* Moderate Finesse Weapon Aptitude */
      , (24460,  1485,      2)  /* Impenetrability V */
-     , (24460,  2689,      2)  /* Moderate Finesse Weapon Aptitude */;
+     , (24460,  1384,      2)  /* Coordination Other VI */;

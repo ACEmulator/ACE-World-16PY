@@ -34,9 +34,9 @@ VALUES (11839,   1, 'Reinforced Banner Haft') /* Name */
      , (11839,  16, 'A reinforced banner haft with a worn handle.  If joined with either a Serpent or Falcon banner, it will raise it''s value substantially.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11839,   1,   33557244) /* Setup */
-     , (11839,   3,  536870932) /* SoundTable */
-     , (11839,   6,   67113338) /* PaletteBase */
-     , (11839,   7,  268436221) /* ClothingBase */
-     , (11839,   8,  100671951) /* Icon */
-     , (11839,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11839,   1, 0x02000AFC) /* Setup */
+     , (11839,   3, 0x20000014) /* SoundTable */
+     , (11839,   6, 0x0400117A) /* PaletteBase */
+     , (11839,   7, 0x100002FD) /* ClothingBase */
+     , (11839,   8, 0x060021CF) /* Icon */
+     , (11839,  22, 0x3400002B) /* PhysicsEffectTable */;

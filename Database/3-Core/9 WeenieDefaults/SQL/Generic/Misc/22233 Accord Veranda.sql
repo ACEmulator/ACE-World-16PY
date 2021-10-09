@@ -22,5 +22,5 @@ VALUES (22233,   1, 'Accord Veranda') /* Name */
      , (22233,  16, 'Accord Veranda') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22233,   1,   33558047) /* Setup */
-     , (22233,   8,  100667499) /* Icon */;
+VALUES (22233,   1, 0x02000E1F) /* Setup */
+     , (22233,   8, 0x0600106B) /* Icon */;

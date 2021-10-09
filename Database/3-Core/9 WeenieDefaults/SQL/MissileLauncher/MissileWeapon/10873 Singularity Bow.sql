@@ -18,7 +18,7 @@ VALUES (10873,   1,        256) /* ItemType - MissileWeapon */
      , (10873,  48,          2) /* WeaponSkill - Bow */
      , (10873,  49,         50) /* WeaponTime */
      , (10873,  50,          1) /* AmmoType - Arrow */
-     , (10873,  51,          2) /* CombatUse - Missle */
+     , (10873,  51,          2) /* CombatUse - Missile */
      , (10873,  52,          2) /* ParentLocation - LeftHand */
      , (10873,  53,          3) /* PlacementPosition - LeftHand */
      , (10873,  60,        192) /* WeaponRange */
@@ -50,12 +50,12 @@ VALUES (10873,   1, 'Singularity Bow') /* Name */
      , (10873,  15, 'A bow imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10873,   1,   33557312) /* Setup */
-     , (10873,   3,  536870932) /* SoundTable */
-     , (10873,   6,   67111919) /* PaletteBase */
-     , (10873,   7,  268436238) /* ClothingBase */
-     , (10873,   8,  100672042) /* Icon */
-     , (10873,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10873,   1, 0x02000B40) /* Setup */
+     , (10873,   3, 0x20000014) /* SoundTable */
+     , (10873,   6, 0x04000BEF) /* PaletteBase */
+     , (10873,   7, 0x1000030E) /* ClothingBase */
+     , (10873,   8, 0x0600222A) /* Icon */
+     , (10873,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10873,  37,          2) /* ItemSkillLimit - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

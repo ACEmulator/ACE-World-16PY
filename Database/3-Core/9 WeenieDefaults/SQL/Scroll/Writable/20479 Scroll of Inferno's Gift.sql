@@ -24,7 +24,7 @@ VALUES (20479,   1, 'Scroll of Inferno''s Gift') /* Name */
      , (20479,  15, 'When learned, this spell increases damage the target takes from Fire by 185%.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20479,   1,   33554826) /* Setup */
-     , (20479,   8,  100676949) /* Icon */
-     , (20479,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20479,   1, 0x0200018A) /* Setup */
+     , (20479,   8, 0x06003555) /* Icon */
+     , (20479,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20479,  28,       2170) /* Spell - Inferno's Gift */;

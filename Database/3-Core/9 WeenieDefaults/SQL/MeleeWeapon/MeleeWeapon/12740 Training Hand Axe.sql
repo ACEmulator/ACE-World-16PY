@@ -39,10 +39,10 @@ VALUES (12740,   1, 'Training Hand Axe') /* Name */
      , (12740,  15, 'A basic hand axe forged in the Strathelar Training Academy. This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12740,   1,   33554727) /* Setup */
-     , (12740,   3,  536870932) /* SoundTable */
-     , (12740,   6,   67111919) /* PaletteBase */
-     , (12740,   7,  268435837) /* ClothingBase */
-     , (12740,   8,  100670216) /* Icon */
-     , (12740,  22,  872415275) /* PhysicsEffectTable */
-     , (12740,  36,  234881044) /* MutateFilter */;
+VALUES (12740,   1, 0x02000127) /* Setup */
+     , (12740,   3, 0x20000014) /* SoundTable */
+     , (12740,   6, 0x04000BEF) /* PaletteBase */
+     , (12740,   7, 0x1000017D) /* ClothingBase */
+     , (12740,   8, 0x06001B08) /* Icon */
+     , (12740,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (12740,  36, 0x0E000014) /* MutateFilter */;

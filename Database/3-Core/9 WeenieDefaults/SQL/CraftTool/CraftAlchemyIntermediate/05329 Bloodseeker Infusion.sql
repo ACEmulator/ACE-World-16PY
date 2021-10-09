@@ -28,9 +28,9 @@ VALUES (5329,   1, 'Bloodseeker Infusion') /* Name */
      , (5329,  20, 'Bloodseeker Infusions') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5329,   1,   33555965) /* Setup */
-     , (5329,   3,  536870932) /* SoundTable */
-     , (5329,   6,   67111919) /* PaletteBase */
-     , (5329,   7,  268435814) /* ClothingBase */
-     , (5329,   8,  100669997) /* Icon */
-     , (5329,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5329,   1, 0x020005FD) /* Setup */
+     , (5329,   3, 0x20000014) /* SoundTable */
+     , (5329,   6, 0x04000BEF) /* PaletteBase */
+     , (5329,   7, 0x10000166) /* ClothingBase */
+     , (5329,   8, 0x06001A2D) /* Icon */
+     , (5329,  22, 0x3400002B) /* PhysicsEffectTable */;

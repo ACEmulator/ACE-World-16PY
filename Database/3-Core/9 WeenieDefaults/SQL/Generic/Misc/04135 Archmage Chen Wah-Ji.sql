@@ -22,5 +22,5 @@ VALUES (4135,   1, 'Archmage Chen Wah-Ji') /* Name */
      , (4135,  16, 'Chen Wah-Ji') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4135,   1,   33555594) /* Setup */
-     , (4135,   8,  100668115) /* Icon */;
+VALUES (4135,   1, 0x0200048A) /* Setup */
+     , (4135,   8, 0x060012D3) /* Icon */;

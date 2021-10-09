@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1033,   1, 'Zaikhal Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1033,   1,   33554867) /* Setup */
-     , (1033,   2,  150994947) /* MotionTable */
-     , (1033,   8,  100667499) /* Icon */;
+VALUES (1033,   1, 0x020001B3) /* Setup */
+     , (1033,   2, 0x09000003) /* MotionTable */
+     , (1033,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1033, 2, 2156920851, 64.863, 55.687, 124.005, -0.9298825, 0, 0, -0.3678568) /* Destination */
-/* @teleloc 0x80900013 [64.863000 55.687000 124.005000] -0.929883 0.000000 0.000000 -0.367857 */;
+VALUES (1033, 2, 0x80900013, 64.863, 55.687, 124.005, -0.929883, 0, -0, -0.367857) /* Destination */
+/* @teleloc 0x80900013 [64.862999 55.687000 124.004997] -0.929882 0.000000 -0.000000 -0.367857 */;

@@ -25,7 +25,7 @@ VALUES (9378,   1, 'Wrapped Bundle of Quarrelshafts') /* Name */
      , (9378,  20, 'Wrapped Bundles of Quarrelshafts') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9378,   1,   33557032) /* Setup */
-     , (9378,   3,  536870932) /* SoundTable */
-     , (9378,   8,  100671609) /* Icon */
-     , (9378,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9378,   1, 0x02000A28) /* Setup */
+     , (9378,   3, 0x20000014) /* SoundTable */
+     , (9378,   8, 0x06002079) /* Icon */
+     , (9378,  22, 0x3400002B) /* PhysicsEffectTable */;

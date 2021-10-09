@@ -45,16 +45,16 @@ VALUES (29817,   1, 'Untamed Siraluun Dress') /* Name */
      , (29817,  16, 'A formal gown woven from the plumes of an Untamed Siraluun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29817,   1,   33554854) /* Setup */
-     , (29817,   3,  536870932) /* SoundTable */
-     , (29817,   6,   67108990) /* PaletteBase */
-     , (29817,   7,  268436236) /* ClothingBase */
-     , (29817,   8,  100677288) /* Icon */
-     , (29817,  22,  872415275) /* PhysicsEffectTable */
-     , (29817,  36,  234881046) /* MutateFilter */;
+VALUES (29817,   1, 0x020001A6) /* Setup */
+     , (29817,   3, 0x20000014) /* SoundTable */
+     , (29817,   6, 0x0400007E) /* PaletteBase */
+     , (29817,   7, 0x1000030C) /* ClothingBase */
+     , (29817,   8, 0x060036A8) /* Icon */
+     , (29817,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29817,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29817,   909,      2)  /* Leadership Mastery Other VI */
-     , (29817,   957,      2)  /* Fealty Other VI */
+VALUES (29817,   957,      2)  /* Fealty Other VI */
+     , (29817,   909,      2)  /* Leadership Mastery Other VI */
      , (29817,  2013,      2)  /* Wizard's Greater Intellect */
      , (29817,  2554,      2)  /* Minor Leadership */;

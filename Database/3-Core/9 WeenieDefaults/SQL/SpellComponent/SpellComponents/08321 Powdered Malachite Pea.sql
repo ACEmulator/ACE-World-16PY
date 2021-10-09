@@ -31,10 +31,10 @@ VALUES (8321,   1, 'Powdered Malachite Pea') /* Name */
      , (8321,  16, 'A concentrated powdered malachite pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8321,   1,   33555208) /* Setup */
-     , (8321,   3,  536870932) /* SoundTable */
-     , (8321,   6,   67111919) /* PaletteBase */
-     , (8321,   7,  268435778) /* ClothingBase */
-     , (8321,   8,  100671075) /* Icon */
-     , (8321,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8321,   1, 0x02000308) /* Setup */
+     , (8321,   3, 0x20000014) /* SoundTable */
+     , (8321,   6, 0x04000BEF) /* PaletteBase */
+     , (8321,   7, 0x10000142) /* ClothingBase */
+     , (8321,   8, 0x06001E63) /* Icon */
+     , (8321,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8321,  29,        144) /* SpellComponent */;

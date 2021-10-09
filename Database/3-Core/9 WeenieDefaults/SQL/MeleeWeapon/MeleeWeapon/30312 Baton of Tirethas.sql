@@ -36,9 +36,9 @@ VALUES (30312,   1, 'Baton of Tirethas') /* Name */
      , (30312,  16, 'Describe me here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30312,   1,   33554746) /* Setup */
-     , (30312,   3,  536870932) /* SoundTable */
-     , (30312,   6,   67111919) /* PaletteBase */
-     , (30312,   7,  268435792) /* ClothingBase */
-     , (30312,   8,  100668955) /* Icon */
-     , (30312,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30312,   1, 0x0200013A) /* Setup */
+     , (30312,   3, 0x20000014) /* SoundTable */
+     , (30312,   6, 0x04000BEF) /* PaletteBase */
+     , (30312,   7, 0x10000150) /* ClothingBase */
+     , (30312,   8, 0x0600161B) /* Icon */
+     , (30312,  22, 0x3400002B) /* PhysicsEffectTable */;

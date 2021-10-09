@@ -25,5 +25,5 @@ VALUES (11932,   1, 'Ornate Fountain') /* Name */
      , (11932,  15, 'This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11932,   1,   33557155) /* Setup */
-     , (11932,   8,  100671774) /* Icon */;
+VALUES (11932,   1, 0x02000AA3) /* Setup */
+     , (11932,   8, 0x0600211E) /* Icon */;

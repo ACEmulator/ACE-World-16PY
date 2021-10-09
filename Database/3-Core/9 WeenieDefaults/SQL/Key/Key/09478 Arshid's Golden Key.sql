@@ -31,7 +31,7 @@ VALUES (9478,   1, 'Arshid''s Golden Key') /* Name */
      , (9478,  16, 'A large, garish, golden key, a prize in Arshid''s Den of Iniquity.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9478,   1,   33557005) /* Setup */
-     , (9478,   3,  536870932) /* SoundTable */
-     , (9478,   8,  100671520) /* Icon */
-     , (9478,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9478,   1, 0x02000A0D) /* Setup */
+     , (9478,   3, 0x20000014) /* SoundTable */
+     , (9478,   8, 0x06002020) /* Icon */
+     , (9478,  22, 0x3400002B) /* PhysicsEffectTable */;

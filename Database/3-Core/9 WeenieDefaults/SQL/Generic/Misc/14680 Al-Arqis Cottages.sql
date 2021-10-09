@@ -22,5 +22,5 @@ VALUES (14680,   1, 'Al-Arqis Cottages') /* Name */
      , (14680,  16, 'Welcome to Al-Arqis Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14680,   1,   33557463) /* Setup */
-     , (14680,   8,  100668115) /* Icon */;
+VALUES (14680,   1, 0x02000BD7) /* Setup */
+     , (14680,   8, 0x060012D3) /* Icon */;

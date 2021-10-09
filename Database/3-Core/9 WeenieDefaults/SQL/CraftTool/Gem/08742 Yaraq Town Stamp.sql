@@ -34,7 +34,7 @@ VALUES (8742,   1, 'Yaraq Town Stamp') /* Name */
      , (8742,  33, 'NewbieQuestStampYaraq') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8742,   1,   33556922) /* Setup */
-     , (8742,   3,  536870932) /* SoundTable */
-     , (8742,   8,  100671218) /* Icon */
-     , (8742,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8742,   1, 0x020009BA) /* Setup */
+     , (8742,   3, 0x20000014) /* SoundTable */
+     , (8742,   8, 0x06001EF2) /* Icon */
+     , (8742,  22, 0x3400002B) /* PhysicsEffectTable */;

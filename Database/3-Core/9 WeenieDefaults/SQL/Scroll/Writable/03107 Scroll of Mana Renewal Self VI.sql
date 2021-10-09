@@ -25,7 +25,7 @@ VALUES (3107,   1, 'Scroll of Mana Renewal Self VI') /* Name */
      , (3107,  16, 'When learned, this spell increases the caster''s natural mana rate by 200%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3107,   1,   33554826) /* Setup */
-     , (3107,   8,  100676939) /* Icon */
-     , (3107,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3107,   1, 0x0200018A) /* Setup */
+     , (3107,   8, 0x0600354B) /* Icon */
+     , (3107,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3107,  28,        217) /* Spell - Mana Renewal Self VI */;

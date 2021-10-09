@@ -42,15 +42,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8697,   1, 'A Society Katar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8697,   1,   33554743) /* Setup */
-     , (8697,   3,  536870932) /* SoundTable */
-     , (8697,   6,   67111919) /* PaletteBase */
-     , (8697,   7,  268435789) /* ClothingBase */
-     , (8697,   8,  100668925) /* Icon */
-     , (8697,  22,  872415275) /* PhysicsEffectTable */
-     , (8697,  36,  234881044) /* MutateFilter */
-     , (8697,  50,  100675463) /* IconOverlay */;
+VALUES (8697,   1, 0x02000137) /* Setup */
+     , (8697,   3, 0x20000014) /* SoundTable */
+     , (8697,   6, 0x04000BEF) /* PaletteBase */
+     , (8697,   7, 0x1000014D) /* ClothingBase */
+     , (8697,   8, 0x060015FD) /* Icon */
+     , (8697,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8697,  36, 0x0E000014) /* MutateFilter */
+     , (8697,  50, 0x06002F87) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8697,   438,      2)  /* Light Weapon Mastery Other II */
-     , (8697,  1612,      2)  /* Aura of Blood Drinker Self II */;
+VALUES (8697,  1612,      2)  /* Aura of Blood Drinker Self II */
+     , (8697,   438,      2)  /* Light Weapon Mastery Other II */;

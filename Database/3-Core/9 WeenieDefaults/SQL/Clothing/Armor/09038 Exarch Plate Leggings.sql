@@ -43,23 +43,23 @@ VALUES (9038,   1, 'Exarch Plate Leggings') /* Name */
      , (9038,  16, 'A heavily enchanted set of crystalline leggings, of the type once worn into battle by the Exarchs of the Yalaini Order of Hieromancers') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9038,   1,   33554856) /* Setup */
-     , (9038,   3,  536870932) /* SoundTable */
-     , (9038,   6,   67108990) /* PaletteBase */
-     , (9038,   7,  268436118) /* ClothingBase */
-     , (9038,   8,  100670419) /* Icon */
-     , (9038,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9038,   1, 0x020001A8) /* Setup */
+     , (9038,   3, 0x20000014) /* SoundTable */
+     , (9038,   6, 0x0400007E) /* PaletteBase */
+     , (9038,   7, 0x10000296) /* ClothingBase */
+     , (9038,   8, 0x06001BD3) /* Icon */
+     , (9038,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9038,  41,         34) /* ItemSpecializedOnly - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9038,   992,      2)  /* Sprint Other V */
+VALUES (9038,  2354,      2)  /* Lesser Piercing Durance */
+     , (9038,   992,      2)  /* Sprint Other V */
+     , (9038,  2378,      2)  /* Beast Murmur */
      , (9038,  1337,      2)  /* Strength Other VI */
      , (9038,  2349,      2)  /* Hieromancer's Ward */
      , (9038,  2350,      2)  /* Greater Decay Durance */
      , (9038,  2351,      2)  /* Greater Consumption Durance */
      , (9038,  2352,      2)  /* Greater Stasis Durance */
      , (9038,  2353,      2)  /* Greater Stimulation Durance */
-     , (9038,  2354,      2)  /* Lesser Piercing Durance */
      , (9038,  2355,      2)  /* Lesser Slashing Durance */
-     , (9038,  2356,      2)  /* Lesser Bludgeoning Durance */
-     , (9038,  2378,      2)  /* Beast Murmur */;
+     , (9038,  2356,      2)  /* Lesser Bludgeoning Durance */;

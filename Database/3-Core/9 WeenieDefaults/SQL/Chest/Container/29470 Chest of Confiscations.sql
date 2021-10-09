@@ -43,11 +43,11 @@ VALUES (29470,   1, 'Chest of Confiscations') /* Name */
      , (29470,  16, 'A rusty old chest, inscribed with Dericostian runes. There is a suspicious glow near the lock.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29470,   1,   33554556) /* Setup */
-     , (29470,   2,  150994948) /* MotionTable */
-     , (29470,   3,  536870945) /* SoundTable */
-     , (29470,   8,  100667424) /* Icon */
-     , (29470,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29470,   1, 0x0200007C) /* Setup */
+     , (29470,   2, 0x09000004) /* MotionTable */
+     , (29470,   3, 0x20000021) /* SoundTable */
+     , (29470,   8, 0x06001020) /* Icon */
+     , (29470,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (29470, -1, 9010, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Unreadable Scroll (9010) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

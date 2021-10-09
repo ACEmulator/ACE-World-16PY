@@ -32,8 +32,8 @@ VALUES (24775,   1, 'Treated Verdigris and Henbane Crucible') /* Name */
      , (24775,  20, 'Treated Verdigris and Henbane Crucibles') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24775,   1,   33555966) /* Setup */
-     , (24775,   3,  536870932) /* SoundTable */
-     , (24775,   8,  100674465) /* Icon */
-     , (24775,  22,  872415275) /* PhysicsEffectTable */
-     , (24775,  50,  100674414) /* IconOverlay */;
+VALUES (24775,   1, 0x020005FE) /* Setup */
+     , (24775,   3, 0x20000014) /* SoundTable */
+     , (24775,   8, 0x06002BA1) /* Icon */
+     , (24775,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24775,  50, 0x06002B6E) /* IconOverlay */;

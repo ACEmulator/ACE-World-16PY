@@ -21,7 +21,7 @@ VALUES (5768,   1,        256) /* ItemType - MissileWeapon */
      , (5768,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (5768,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (5768,  49,         20) /* WeaponTime */
-     , (5768,  51,          2) /* CombatUse - Missle */
+     , (5768,  51,          2) /* CombatUse - Missile */
      , (5768,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (5768, 150,        103) /* HookPlacement - Hook */
      , (5768, 151,          2) /* HookType - Wall */;
@@ -46,9 +46,9 @@ VALUES (5768,   1, 'Poofy Snowball') /* Name */
      , (5768,  16, 'A lightweight ball made of clean, extra fluffy snow.  Harmless fun for light Player Killer play.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5768,   1,   33556225) /* Setup */
-     , (5768,   3,  536870932) /* SoundTable */
-     , (5768,   6,   67111928) /* PaletteBase */
-     , (5768,   7,  268435857) /* ClothingBase */
-     , (5768,   8,  100670281) /* Icon */
-     , (5768,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5768,   1, 0x02000701) /* Setup */
+     , (5768,   3, 0x20000014) /* SoundTable */
+     , (5768,   6, 0x04000BF8) /* PaletteBase */
+     , (5768,   7, 0x10000191) /* ClothingBase */
+     , (5768,   8, 0x06001B49) /* Icon */
+     , (5768,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -48,15 +48,15 @@ VALUES (24462,   1, 'Macer''s Gauntlets') /* Name */
      , (24462,  16, 'These gauntlets have been carved from Sunstone and fitted with an amulet with the essence of the macer.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24462,   1,   33554648) /* Setup */
-     , (24462,   3,  536870932) /* SoundTable */
-     , (24462,   6,   67108990) /* PaletteBase */
-     , (24462,   7,  268436636) /* ClothingBase */
-     , (24462,   8,  100674339) /* Icon */
-     , (24462,  22,  872415275) /* PhysicsEffectTable */
-     , (24462,  36,  234881046) /* MutateFilter */;
+VALUES (24462,   1, 0x020000D8) /* Setup */
+     , (24462,   3, 0x20000014) /* SoundTable */
+     , (24462,   6, 0x0400007E) /* PaletteBase */
+     , (24462,   7, 0x1000049C) /* ClothingBase */
+     , (24462,   8, 0x06002B23) /* Icon */
+     , (24462,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24462,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24462,  1384,      2)  /* Coordination Other VI */
+VALUES (24462,  2690,      2)  /* Moderate Light Weapon Aptitude */
      , (24462,  1485,      2)  /* Impenetrability V */
-     , (24462,  2690,      2)  /* Moderate Light Weapon Aptitude */;
+     , (24462,  1384,      2)  /* Coordination Other VI */;

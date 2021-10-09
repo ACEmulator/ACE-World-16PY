@@ -25,20 +25,20 @@ VALUES (27107,  22, True ) /* Inscribable */
      , (27107,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27107,   5, -0.033333) /* ManaRate */;
+VALUES (27107,   5,  -0.033) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27107,   1, 'Elysa''s Wristlet') /* Name */
      , (27107,  16, 'This wristlet was a gift for returning important information from the invaders from another world.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27107,   1,   33554683) /* Setup */
-     , (27107,   3,  536870932) /* SoundTable */
-     , (27107,   6,   67111919) /* PaletteBase */
-     , (27107,   7,  268436286) /* ClothingBase */
-     , (27107,   8,  100675928) /* Icon */
-     , (27107,  22,  872415275) /* PhysicsEffectTable */
-     , (27107,  36,  234881046) /* MutateFilter */;
+VALUES (27107,   1, 0x020000FB) /* Setup */
+     , (27107,   3, 0x20000014) /* SoundTable */
+     , (27107,   6, 0x04000BEF) /* PaletteBase */
+     , (27107,   7, 0x1000033E) /* ClothingBase */
+     , (27107,   8, 0x06003158) /* Icon */
+     , (27107,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27107,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27107,  1314,      2)  /* Armor Other III */;

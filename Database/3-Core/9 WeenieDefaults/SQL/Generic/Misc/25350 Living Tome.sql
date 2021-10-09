@@ -21,8 +21,8 @@ VALUES (25350,   1, 'Living Tome') /* Name */
      , (25350,  16, 'This book seems to live and pulse of its own accord.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25350,   1,   33558443) /* Setup */
-     , (25350,   2,  150995251) /* MotionTable */
-     , (25350,   3,  536870942) /* SoundTable */
-     , (25350,   8,  100674847) /* Icon */
-     , (25350,  22,  872415269) /* PhysicsEffectTable */;
+VALUES (25350,   1, 0x02000FAB) /* Setup */
+     , (25350,   2, 0x09000133) /* MotionTable */
+     , (25350,   3, 0x2000001E) /* SoundTable */
+     , (25350,   8, 0x06002D1F) /* Icon */
+     , (25350,  22, 0x34000025) /* PhysicsEffectTable */;

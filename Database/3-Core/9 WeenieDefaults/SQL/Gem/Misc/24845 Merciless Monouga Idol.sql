@@ -26,10 +26,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24845,   1, 'Merciless Monouga Idol') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24845,   1,   33556903) /* Setup */
-     , (24845,   3,  536870932) /* SoundTable */
-     , (24845,   6,   67111919) /* PaletteBase */
-     , (24845,   7,  268435723) /* ClothingBase */
-     , (24845,   8,  100674497) /* Icon */
-     , (24845,  22,  872415275) /* PhysicsEffectTable */
-     , (24845,  36,  234881046) /* MutateFilter */;
+VALUES (24845,   1, 0x020009A7) /* Setup */
+     , (24845,   3, 0x20000014) /* SoundTable */
+     , (24845,   6, 0x04000BEF) /* PaletteBase */
+     , (24845,   7, 0x1000010B) /* ClothingBase */
+     , (24845,   8, 0x06002BC1) /* Icon */
+     , (24845,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24845,  36, 0x0E000016) /* MutateFilter */;

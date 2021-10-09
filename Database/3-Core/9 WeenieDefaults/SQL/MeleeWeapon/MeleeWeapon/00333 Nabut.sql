@@ -37,11 +37,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (333,   1, 'Nabut') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (333,   1,   33554749) /* Setup */
-     , (333,   3,  536870932) /* SoundTable */
-     , (333,   6,   67111919) /* PaletteBase */
-     , (333,   7,  268435795) /* ClothingBase */
-     , (333,   8,  100669105) /* Icon */
-     , (333,  22,  872415275) /* PhysicsEffectTable */
-     , (333,  36,  234881053) /* MutateFilter */
-     , (333,  46,  939524110) /* TsysMutationFilter */;
+VALUES (333,   1, 0x0200013D) /* Setup */
+     , (333,   3, 0x20000014) /* SoundTable */
+     , (333,   6, 0x04000BEF) /* PaletteBase */
+     , (333,   7, 0x10000153) /* ClothingBase */
+     , (333,   8, 0x060016B1) /* Icon */
+     , (333,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (333,  36, 0x0E00001D) /* MutateFilter */
+     , (333,  46, 0x3800000E) /* TsysMutationFilter */;

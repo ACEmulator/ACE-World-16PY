@@ -17,7 +17,7 @@ VALUES (31092,   1,        256) /* ItemType - MissileWeapon */
      , (31092,  48,          2) /* WeaponSkill - Bow */
      , (31092,  49,         45) /* WeaponTime */
      , (31092,  50,          1) /* AmmoType - Arrow */
-     , (31092,  51,          2) /* CombatUse - Missle */
+     , (31092,  51,          2) /* CombatUse - Missile */
      , (31092,  52,          2) /* ParentLocation - LeftHand */
      , (31092,  53,          3) /* PlacementPosition - LeftHand */
      , (31092,  60,        192) /* WeaponRange */
@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31092,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31092,   5,       0) /* ManaRate */
+VALUES (31092,   5,      -0) /* ManaRate */
      , (31092,  26,    27.3) /* MaximumVelocity */
      , (31092,  29,       1) /* WeaponDefense */
      , (31092,  62,       1) /* WeaponOffense */
@@ -42,12 +42,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31092,   1, 'Longbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31092,   1,   33554728) /* Setup */
-     , (31092,   3,  536870932) /* SoundTable */
-     , (31092,   6,   67111919) /* PaletteBase */
-     , (31092,   7,  268435759) /* ClothingBase */
-     , (31092,   8,  100668815) /* Icon */
-     , (31092,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31092,   1, 0x02000128) /* Setup */
+     , (31092,   3, 0x20000014) /* SoundTable */
+     , (31092,   6, 0x04000BEF) /* PaletteBase */
+     , (31092,   7, 0x1000012F) /* ClothingBase */
+     , (31092,   8, 0x0600158F) /* Icon */
+     , (31092,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31092,  1602,      2)  /* Aura of Defender Self III */

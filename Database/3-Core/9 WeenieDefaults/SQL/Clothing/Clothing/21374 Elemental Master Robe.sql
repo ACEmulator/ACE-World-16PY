@@ -47,16 +47,16 @@ VALUES (21374,   1, 'Elemental Master Robe') /* Name */
      , (21374,  15, 'A black robe trimmed in red, it is lined with an unknown material but feels like the perfect insulator.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21374,   1,   33554854) /* Setup */
-     , (21374,   3,  536870932) /* SoundTable */
-     , (21374,   6,   67108990) /* PaletteBase */
-     , (21374,   7,  268436460) /* ClothingBase */
-     , (21374,   8,  100673470) /* Icon */
-     , (21374,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21374,   1, 0x020001A6) /* Setup */
+     , (21374,   3, 0x20000014) /* SoundTable */
+     , (21374,   6, 0x0400007E) /* PaletteBase */
+     , (21374,   7, 0x100003EC) /* ClothingBase */
+     , (21374,   8, 0x060027BE) /* Icon */
+     , (21374,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21374,  1316,      2)  /* Armor Other V */
-     , (21374,  1486,      2)  /* Impenetrability VI */
+VALUES (21374,  1486,      2)  /* Impenetrability VI */
+     , (21374,  1316,      2)  /* Armor Other V */
      , (21374,  2616,      2)  /* Minor Acid Ward */
      , (21374,  2618,      2)  /* Minor Flame Ward */
      , (21374,  2619,      2)  /* Minor Frost Ward */

@@ -34,7 +34,7 @@ VALUES (6325,   1, 'Mace Glyph') /* Name */
      , (6325,  16, 'A glyph with the image of a mace emblazoned upon it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6325,   1,   33556438) /* Setup */
-     , (6325,   3,  536870932) /* SoundTable */
-     , (6325,   8,  100670479) /* Icon */
-     , (6325,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6325,   1, 0x020007D6) /* Setup */
+     , (6325,   3, 0x20000014) /* SoundTable */
+     , (6325,   8, 0x06001C0F) /* Icon */
+     , (6325,  22, 0x3400002B) /* PhysicsEffectTable */;

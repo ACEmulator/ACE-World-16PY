@@ -42,20 +42,20 @@ VALUES (26532,   1, 'Ixir''s Staff of Eyes') /* Name */
      , (26532,  15, 'A staff with an ever watchful eye once used by the High Matriarch Ixir Zi.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26532,   1,   33558596) /* Setup */
-     , (26532,   3,  536870932) /* SoundTable */
-     , (26532,   6,   67114956) /* PaletteBase */
-     , (26532,   7,  268436792) /* ClothingBase */
-     , (26532,   8,  100675776) /* Icon */
-     , (26532,  22,  872415275) /* PhysicsEffectTable */
-     , (26532,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (26532,   1, 0x02001044) /* Setup */
+     , (26532,   3, 0x20000014) /* SoundTable */
+     , (26532,   6, 0x040017CC) /* PaletteBase */
+     , (26532,   7, 0x10000538) /* ClothingBase */
+     , (26532,   8, 0x060030C0) /* Icon */
+     , (26532,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (26532,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (26532,  28,       3071) /* Spell - Ward of Rebirth */
-     , (26532,  36,  234881046) /* MutateFilter */;
+     , (26532,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26532,   188,      2)  /* Rejuvenation Other VI */
+VALUES (26532,  1456,      2)  /* Willpower Other VI */
+     , (26532,  1432,      2)  /* Focus Other VI */
      , (26532,   211,      2)  /* Mana Renewal Other VI */
      , (26532,  1360,      2)  /* Endurance Other VI */
-     , (26532,  1432,      2)  /* Focus Other VI */
-     , (26532,  1456,      2)  /* Willpower Other VI */
-     , (26532,  2975,      2)  /* Moderate Item Enchantment Aptitude */;
+     , (26532,  2975,      2)  /* Moderate Item Enchantment Aptitude */
+     , (26532,   188,      2)  /* Rejuvenation Other VI */;

@@ -27,8 +27,8 @@ VALUES (27271,   1, 'Honorary Windreave Title Token') /* Name */
      , (27271,  15, 'An ornate Aun token given by Aun Tiularea in recognition of your hunting prowess. Return this token to him for the title - Honorary Windreave.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27271,   1,   33557280) /* Setup */
-     , (27271,   3,  536870932) /* SoundTable */
-     , (27271,   8,  100671832) /* Icon */
-     , (27271,  22,  872415275) /* PhysicsEffectTable */
-     , (27271,  36,  234881046) /* MutateFilter */;
+VALUES (27271,   1, 0x02000B20) /* Setup */
+     , (27271,   3, 0x20000014) /* SoundTable */
+     , (27271,   8, 0x06002158) /* Icon */
+     , (27271,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27271,  36, 0x0E000016) /* MutateFilter */;

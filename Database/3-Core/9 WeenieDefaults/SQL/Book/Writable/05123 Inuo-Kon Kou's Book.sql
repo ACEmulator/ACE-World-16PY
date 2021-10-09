@@ -29,10 +29,10 @@ VALUES (5123,   1, 'Inuo-Kon Kou''s Book') /* Name */
      , (5123,  33, 'BookKouQuest') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5123,   1,   33554772) /* Setup */
-     , (5123,   3,  536870932) /* SoundTable */
-     , (5123,   8,  100667470) /* Icon */
-     , (5123,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5123,   1, 0x02000154) /* Setup */
+     , (5123,   3, 0x20000014) /* SoundTable */
+     , (5123,   8, 0x0600104E) /* Icon */
+     , (5123,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (5123, 1, 1000);

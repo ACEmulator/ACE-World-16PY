@@ -37,9 +37,9 @@ VALUES (4223,   1, 'Armoredillo Hide Breastplate') /* Name */
      , (4223,  15, 'Breastplate crafted from the hide of an Armoredillo.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4223,   1,   33554642) /* Setup */
-     , (4223,   3,  536870932) /* SoundTable */
-     , (4223,   6,   67108990) /* PaletteBase */
-     , (4223,   7,  268436693) /* ClothingBase */
-     , (4223,   8,  100674964) /* Icon */
-     , (4223,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4223,   1, 0x020000D2) /* Setup */
+     , (4223,   3, 0x20000014) /* SoundTable */
+     , (4223,   6, 0x0400007E) /* PaletteBase */
+     , (4223,   7, 0x100004D5) /* ClothingBase */
+     , (4223,   8, 0x06002D94) /* Icon */
+     , (4223,  22, 0x3400002B) /* PhysicsEffectTable */;

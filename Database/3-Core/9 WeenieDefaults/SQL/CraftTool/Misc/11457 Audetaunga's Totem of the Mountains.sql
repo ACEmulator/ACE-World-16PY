@@ -37,7 +37,7 @@ VALUES (11457,   1, 'Audetaunga''s Totem of the Mountains') /* Name */
      , (11457,  16, 'A triple totem representing Audetaunga, the anima of Palenqual''s mountains. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11457,   1,   33557271) /* Setup */
-     , (11457,   3,  536870932) /* SoundTable */
-     , (11457,   8,  100672022) /* Icon */
-     , (11457,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11457,   1, 0x02000B17) /* Setup */
+     , (11457,   3, 0x20000014) /* SoundTable */
+     , (11457,   8, 0x06002216) /* Icon */
+     , (11457,  22, 0x3400002B) /* PhysicsEffectTable */;

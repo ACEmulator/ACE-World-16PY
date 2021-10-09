@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27498,   1, 'Gotrok Juggernaut') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27498,   1,   33557003) /* Setup */
-     , (27498,   2,  150994950) /* MotionTable */
-     , (27498,   3,  536870922) /* SoundTable */
-     , (27498,   4,  805306371) /* CombatTable */
-     , (27498,   6,   67113158) /* PaletteBase */
-     , (27498,   7,  268436618) /* ClothingBase */
-     , (27498,   8,  100667447) /* Icon */
-     , (27498,  22,  872415262) /* PhysicsEffectTable */
+VALUES (27498,   1, 0x02000A0B) /* Setup */
+     , (27498,   2, 0x09000006) /* MotionTable */
+     , (27498,   3, 0x2000000A) /* SoundTable */
+     , (27498,   4, 0x30000003) /* CombatTable */
+     , (27498,   6, 0x040010C6) /* PaletteBase */
+     , (27498,   7, 0x1000048A) /* ClothingBase */
+     , (27498,   8, 0x06001037) /* Icon */
+     , (27498,  22, 0x3400001E) /* PhysicsEffectTable */
      , (27498,  32,        436) /* WieldedTreasureType - 
                                    Wield Rock (24885) | Probability: 100%
                                    Wield Lugian Axe (24884) | Probability: 50%

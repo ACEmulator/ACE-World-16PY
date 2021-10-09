@@ -27,8 +27,8 @@ VALUES (27269,   1, 'Tracker Title Token') /* Name */
      , (27269,  15, 'An ornate Aun token given by Aun Aukherea in recognition of your hunting prowess. Return this token to him for the title - Tracker.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27269,   1,   33557280) /* Setup */
-     , (27269,   3,  536870932) /* SoundTable */
-     , (27269,   8,  100671832) /* Icon */
-     , (27269,  22,  872415275) /* PhysicsEffectTable */
-     , (27269,  36,  234881046) /* MutateFilter */;
+VALUES (27269,   1, 0x02000B20) /* Setup */
+     , (27269,   3, 0x20000014) /* SoundTable */
+     , (27269,   8, 0x06002158) /* Icon */
+     , (27269,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27269,  36, 0x0E000016) /* MutateFilter */;

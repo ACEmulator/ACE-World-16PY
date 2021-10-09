@@ -22,7 +22,7 @@ VALUES (637,   1, 'Blacksmith ') /* Name */
      , (637,  16, 'Blacksmith') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (637,   1,   33555088) /* Setup */
-     , (637,   6,   67111092) /* PaletteBase */
-     , (637,   7,  268435653) /* ClothingBase */
-     , (637,   8,  100668115) /* Icon */;
+VALUES (637,   1, 0x02000290) /* Setup */
+     , (637,   6, 0x040008B4) /* PaletteBase */
+     , (637,   7, 0x100000C5) /* ClothingBase */
+     , (637,   8, 0x060012D3) /* Icon */;

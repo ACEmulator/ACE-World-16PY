@@ -32,8 +32,8 @@ VALUES (24755,   1, 'Treated Colcothar and Eyebright Crucible') /* Name */
      , (24755,  20, 'Treated Colcothar and Eyebright Crucibles') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24755,   1,   33555966) /* Setup */
-     , (24755,   3,  536870932) /* SoundTable */
-     , (24755,   8,  100674468) /* Icon */
-     , (24755,  22,  872415275) /* PhysicsEffectTable */
-     , (24755,  50,  100674413) /* IconOverlay */;
+VALUES (24755,   1, 0x020005FE) /* Setup */
+     , (24755,   3, 0x20000014) /* SoundTable */
+     , (24755,   8, 0x06002BA4) /* Icon */
+     , (24755,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24755,  50, 0x06002B6D) /* IconOverlay */;

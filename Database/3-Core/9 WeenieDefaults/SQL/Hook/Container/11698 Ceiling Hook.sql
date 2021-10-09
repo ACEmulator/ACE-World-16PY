@@ -32,6 +32,6 @@ VALUES (11698,   1, 'Ceiling Hook') /* Name */
      , (11698,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11698,   1,   33557132) /* Setup */
-     , (11698,   8,  100671680) /* Icon */
-     , (11698,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11698,   1, 0x02000A8C) /* Setup */
+     , (11698,   8, 0x060020C0) /* Icon */
+     , (11698,  22, 0x3400002B) /* PhysicsEffectTable */;

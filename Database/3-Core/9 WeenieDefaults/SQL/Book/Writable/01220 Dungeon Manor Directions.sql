@@ -22,10 +22,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1220,   1, 'Dungeon Manor Directions') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1220,   1,   33554773) /* Setup */
-     , (1220,   3,  536870932) /* SoundTable */
-     , (1220,   8,  100668176) /* Icon */
-     , (1220,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1220,   1, 0x02000155) /* Setup */
+     , (1220,   3, 0x20000014) /* SoundTable */
+     , (1220,   8, 0x06001310) /* Icon */
+     , (1220,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (1220, 2, 1000);

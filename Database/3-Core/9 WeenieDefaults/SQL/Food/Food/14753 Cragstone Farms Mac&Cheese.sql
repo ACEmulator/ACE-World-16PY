@@ -29,7 +29,7 @@ VALUES (14753,   1, 'Cragstone Farms Mac&Cheese') /* Name */
      , (14753,  20, 'Bowls of Mac&Cheese') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14753,   1,   33554668) /* Setup */
-     , (14753,   3,  536870932) /* SoundTable */
-     , (14753,   8,  100672560) /* Icon */
-     , (14753,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14753,   1, 0x020000EC) /* Setup */
+     , (14753,   3, 0x20000014) /* SoundTable */
+     , (14753,   8, 0x06002430) /* Icon */
+     , (14753,  22, 0x3400002B) /* PhysicsEffectTable */;

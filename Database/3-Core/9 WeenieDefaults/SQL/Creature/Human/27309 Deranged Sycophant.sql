@@ -64,12 +64,12 @@ VALUES (27309,   1, 'Deranged Sycophant') /* Name */
      , (27309,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27309,   1,   33554433) /* Setup */
-     , (27309,   2,  150994945) /* MotionTable */
-     , (27309,   3,  536870913) /* SoundTable */
-     , (27309,   4,  805306368) /* CombatTable */
-     , (27309,   8,  100667446) /* Icon */
-     , (27309,  22,  872415236) /* PhysicsEffectTable */
+VALUES (27309,   1, 0x02000001) /* Setup */
+     , (27309,   2, 0x09000001) /* MotionTable */
+     , (27309,   3, 0x20000001) /* SoundTable */
+     , (27309,   4, 0x30000000) /* CombatTable */
+     , (27309,   8, 0x06001036) /* Icon */
+     , (27309,  22, 0x34000004) /* PhysicsEffectTable */
      , (27309,  32,        416) /* WieldedTreasureType - 
                                    Wield Clean, Dry Towel (10758) | Palette: Blue (2) | Probability: 50%
                                    Wield Clean, Dry Towel (10758) | Palette: Green (8) | Probability: 50% */
@@ -89,22 +89,22 @@ VALUES (27309,   1,   240, 0, 0, 350) /* MaxHealth */
      , (27309,   5,   150, 0, 0, 390) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (27309,  1, 0, 3, 0, 340, 0, 1891.57511315734) /* Axe                 Specialized */
-     , (27309,  4, 0, 3, 0, 240, 0, 1891.57511315734) /* Dagger              Specialized */
-     , (27309,  5, 0, 3, 0, 340, 0, 1891.57511315734) /* Mace                Specialized */
-     , (27309,  6, 0, 3, 0, 390, 0, 1891.57511315734) /* MeleeDefense        Specialized */
-     , (27309,  7, 0, 3, 0, 440, 0, 1891.57511315734) /* MissileDefense      Specialized */
-     , (27309,  9, 0, 3, 0, 340, 0, 1891.57511315734) /* Spear               Specialized */
-     , (27309, 10, 0, 3, 0, 340, 0, 1891.57511315734) /* Staff               Specialized */
-     , (27309, 11, 0, 3, 0, 340, 0, 1891.57511315734) /* Sword               Specialized */
-     , (27309, 13, 0, 3, 0, 340, 0, 1891.57511315734) /* UnarmedCombat       Specialized */
-     , (27309, 15, 0, 3, 0, 286, 0, 1891.57511315734) /* MagicDefense        Specialized */
-     , (27309, 20, 0, 3, 0,  50, 0, 1891.57511315734) /* Deception           Specialized */
-     , (27309, 24, 0, 3, 0, 100, 0, 1891.57511315734) /* Run                 Specialized */
-     , (27309, 31, 0, 3, 0, 300, 0, 1891.57511315734) /* CreatureEnchantment Specialized */
-     , (27309, 32, 0, 3, 0, 300, 0, 1891.57511315734) /* ItemEnchantment     Specialized */
-     , (27309, 33, 0, 3, 0, 300, 0, 1891.57511315734) /* LifeMagic           Specialized */
-     , (27309, 34, 0, 3, 0, 300, 0, 1891.57511315734) /* WarMagic            Specialized */;
+VALUES (27309,  1, 0, 3, 0, 340, 0, 1891.5751131573352) /* Axe                 Specialized */
+     , (27309,  4, 0, 3, 0, 240, 0, 1891.5751131573352) /* Dagger              Specialized */
+     , (27309,  5, 0, 3, 0, 340, 0, 1891.5751131573352) /* Mace                Specialized */
+     , (27309,  6, 0, 3, 0, 390, 0, 1891.5751131573352) /* MeleeDefense        Specialized */
+     , (27309,  7, 0, 3, 0, 440, 0, 1891.5751131573352) /* MissileDefense      Specialized */
+     , (27309,  9, 0, 3, 0, 340, 0, 1891.5751131573352) /* Spear               Specialized */
+     , (27309, 10, 0, 3, 0, 340, 0, 1891.5751131573352) /* Staff               Specialized */
+     , (27309, 11, 0, 3, 0, 340, 0, 1891.5751131573352) /* Sword               Specialized */
+     , (27309, 13, 0, 3, 0, 340, 0, 1891.5751131573352) /* UnarmedCombat       Specialized */
+     , (27309, 15, 0, 3, 0, 286, 0, 1891.5751131573352) /* MagicDefense        Specialized */
+     , (27309, 20, 0, 3, 0,  50, 0, 1891.5751131573352) /* Deception           Specialized */
+     , (27309, 24, 0, 3, 0, 100, 0, 1891.5751131573352) /* Run                 Specialized */
+     , (27309, 31, 0, 3, 0, 300, 0, 1891.5751131573352) /* CreatureEnchantment Specialized */
+     , (27309, 32, 0, 3, 0, 300, 0, 1891.5751131573352) /* ItemEnchantment     Specialized */
+     , (27309, 33, 0, 3, 0, 300, 0, 1891.5751131573352) /* LifeMagic           Specialized */
+     , (27309, 34, 0, 3, 0, 300, 0, 1891.5751131573352) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (27309,  0,  4,  0,    0,  350,  525,  700,  350,  490,  700,  263,  420,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -118,22 +118,22 @@ VALUES (27309,  0,  4,  0,    0,  350,  525,  700,  350,  490,  700,  263,  420,
      , (27309,  8,  4, 100, 0.75,  350,  525,  700,  350,  490,  700,  263,  420,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27309,  2073,   2.08)  /* Adja's Intervention */
+VALUES (27309,  2752,   2.06)  /* Shock Arc VII */
      , (27309,  2122,   2.06)  /* Disintegration */
-     , (27309,  2128,   2.06)  /* Ilservian's Flame */
-     , (27309,  2132,   2.06)  /* The Spike */
+     , (27309,  2073,   2.08)  /* Adja's Intervention */
+     , (27309,  2759,   2.06)  /* Blade Arc VII */
      , (27309,  2136,   2.06)  /* Icy Torment */
+     , (27309,  2128,   2.06)  /* Ilservian's Flame */
      , (27309,  2140,   2.06)  /* Alset's Coil */
+     , (27309,  2132,   2.06)  /* The Spike */
+     , (27309,  2717,   2.06)  /* Acid Arc VII */
      , (27309,  2144,   2.06)  /* Crushing Shame */
      , (27309,  2146,   2.06)  /* Evisceration */
-     , (27309,  2717,   2.06)  /* Acid Arc VII */
      , (27309,  2724,   2.06)  /* Force Arc VII */
      , (27309,  2731,   2.06)  /* Frost Arc VII */
+     , (27309,  3185,   2.08)  /* Eradicate Creature Magic Self */
      , (27309,  2738,   2.06)  /* Lightning Arc VII */
-     , (27309,  2745,   2.06)  /* Flame Arc VII */
-     , (27309,  2752,   2.06)  /* Shock Arc VII */
-     , (27309,  2759,   2.06)  /* Blade Arc VII */
-     , (27309,  3185,   2.08)  /* Eradicate Creature Magic Self */;
+     , (27309,  2745,   2.06)  /* Flame Arc VII */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (27309,  94) /* ATTACK_NOTIFICATION_EVENT */

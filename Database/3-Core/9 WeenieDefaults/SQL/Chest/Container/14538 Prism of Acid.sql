@@ -44,13 +44,13 @@ VALUES (14538,   1, 'Prism of Acid') /* Name */
      , (14538,  16, 'A shattered prism containing dark green  highlights. Noxious fumes well up from the prism, and the air about it feels damp.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14538,   1,   33557489) /* Setup */
-     , (14538,   2,  150995154) /* MotionTable */
-     , (14538,   3,  536871049) /* SoundTable */
-     , (14538,   6,   67112808) /* PaletteBase */
-     , (14538,   7,  268436323) /* ClothingBase */
-     , (14538,   8,  100672489) /* Icon */
-     , (14538,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14538,   1, 0x02000BF1) /* Setup */
+     , (14538,   2, 0x090000D2) /* MotionTable */
+     , (14538,   3, 0x20000089) /* SoundTable */
+     , (14538,   6, 0x04000F68) /* PaletteBase */
+     , (14538,   7, 0x10000363) /* ClothingBase */
+     , (14538,   8, 0x060023E9) /* Icon */
+     , (14538,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (14538,  8 /* Activation */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

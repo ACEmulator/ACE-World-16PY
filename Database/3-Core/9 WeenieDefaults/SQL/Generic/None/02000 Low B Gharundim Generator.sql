@@ -21,8 +21,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2000,   1, 'Low B Gharundim Generator') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2000,   1,   33555051) /* Setup */
-     , (2000,   8,  100667494) /* Icon */;
+VALUES (2000,   1, 0x0200026B) /* Setup */
+     , (2000,   8, 0x06001066) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2000, 0.02, 4306, 1200, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Banderling Scout Camp Generator (4306) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
@@ -35,7 +35,7 @@ VALUES (2000, 0.02, 4306, 1200, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /*
      , (2000, 0.43, 4326, 1200, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Skeleton Camp Generator (4326) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (2000, 0.53, 4362, 1200, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Tumerok Worker Camp Generator (4362) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (2000, 0.59, 4175, 1200, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Monouga Camp Generator (4175) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (2000, 0.6800001, 1766, 1200, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Stony Armoredillo (1766) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
+     , (2000, 0.68, 1766, 1200, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Stony Armoredillo (1766) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (2000, 0.7, 6, 1200, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Banderling Scout (6) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (2000, 0.78, 11537, 1200, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Virtuous Doll (11537) (x1 up to max of 2) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (2000, 0.8, 215, 1200, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Blue Phyntos Wasp (215) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */

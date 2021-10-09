@@ -26,7 +26,7 @@ VALUES (27296,   1, 'Wretched Key') /* Name */
      , (27296,  16, 'This key appears to be used to open a door in the Orphanage.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27296,   1,   33554784) /* Setup */
-     , (27296,   3,  536870932) /* SoundTable */
-     , (27296,   8,  100675676) /* Icon */
-     , (27296,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27296,   1, 0x02000160) /* Setup */
+     , (27296,   3, 0x20000014) /* SoundTable */
+     , (27296,   8, 0x0600305C) /* Icon */
+     , (27296,  22, 0x3400002B) /* PhysicsEffectTable */;

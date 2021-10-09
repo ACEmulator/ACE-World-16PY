@@ -27,11 +27,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26529,   1, 'Sacrificial Edge') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26529,   1,   33558626) /* Setup */
-     , (26529,   3,  536870971) /* SoundTable */
-     , (26529,   6,   67111919) /* PaletteBase */
-     , (26529,   7,  268436097) /* ClothingBase */
-     , (26529,   8,  100667494) /* Icon */
-     , (26529,  22,  872415251) /* PhysicsEffectTable */
+VALUES (26529,   1, 0x02001062) /* Setup */
+     , (26529,   3, 0x2000003B) /* SoundTable */
+     , (26529,   6, 0x04000BEF) /* PaletteBase */
+     , (26529,   7, 0x10000281) /* ClothingBase */
+     , (26529,   8, 0x06001066) /* Icon */
+     , (26529,  22, 0x34000013) /* PhysicsEffectTable */
      , (26529,  28,       3122) /* Spell - Sacrificial Edge */
      , (26529,  30,         90) /* PhysicsScript - ProjectileCollision */;

@@ -22,7 +22,7 @@ VALUES (2265,   1, 'Seven Stars Tower') /* Name */
      , (2265,  16, 'Seven Stars Tower') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2265,   1,   33555088) /* Setup */
-     , (2265,   6,   67111092) /* PaletteBase */
-     , (2265,   7,  268435669) /* ClothingBase */
-     , (2265,   8,  100668115) /* Icon */;
+VALUES (2265,   1, 0x02000290) /* Setup */
+     , (2265,   6, 0x040008B4) /* PaletteBase */
+     , (2265,   7, 0x100000D5) /* ClothingBase */
+     , (2265,   8, 0x060012D3) /* Icon */;

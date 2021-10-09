@@ -54,11 +54,11 @@ VALUES (24203,   1, 'Weeping Mace') /* Name */
      , (24203,  15, 'A mace infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24203,   1,   33558295) /* Setup */
-     , (24203,   3,  536870932) /* SoundTable */
-     , (24203,   8,  100674269) /* Icon */
-     , (24203,  22,  872415275) /* PhysicsEffectTable */
-     , (24203,  36,  234881044) /* MutateFilter */;
+VALUES (24203,   1, 0x02000F17) /* Setup */
+     , (24203,   3, 0x20000014) /* SoundTable */
+     , (24203,   8, 0x06002ADD) /* Icon */
+     , (24203,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24203,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24203,  2690,      2)  /* Moderate Light Weapon Aptitude */

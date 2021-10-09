@@ -30,9 +30,9 @@ VALUES (11555,   1, 'Relanim Plant') /* Name */
      , (11555,  20, 'Relanim Plants') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11555,   1,   33556750) /* Setup */
-     , (11555,   3,  536870932) /* SoundTable */
-     , (11555,   6,   67111919) /* PaletteBase */
-     , (11555,   7,  268436033) /* ClothingBase */
-     , (11555,   8,  100670767) /* Icon */
-     , (11555,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11555,   1, 0x0200090E) /* Setup */
+     , (11555,   3, 0x20000014) /* SoundTable */
+     , (11555,   6, 0x04000BEF) /* PaletteBase */
+     , (11555,   7, 0x10000241) /* ClothingBase */
+     , (11555,   8, 0x06001D2F) /* Icon */
+     , (11555,  22, 0x3400002B) /* PhysicsEffectTable */;

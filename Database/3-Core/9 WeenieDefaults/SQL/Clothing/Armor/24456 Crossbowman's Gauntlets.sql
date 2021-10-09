@@ -48,15 +48,15 @@ VALUES (24456,   1, 'Crossbowman''s Gauntlets') /* Name */
      , (24456,  16, 'These gauntlets have been carved from Sunstone and fitted with an amulet with the essence of the crossbowman.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24456,   1,   33554648) /* Setup */
-     , (24456,   3,  536870932) /* SoundTable */
-     , (24456,   6,   67108990) /* PaletteBase */
-     , (24456,   7,  268436636) /* ClothingBase */
-     , (24456,   8,  100674343) /* Icon */
-     , (24456,  22,  872415275) /* PhysicsEffectTable */
-     , (24456,  36,  234881046) /* MutateFilter */;
+VALUES (24456,   1, 0x020000D8) /* Setup */
+     , (24456,   3, 0x20000014) /* SoundTable */
+     , (24456,   6, 0x0400007E) /* PaletteBase */
+     , (24456,   7, 0x1000049C) /* ClothingBase */
+     , (24456,   8, 0x06002B27) /* Icon */
+     , (24456,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24456,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24456,  1384,      2)  /* Coordination Other VI */
-     , (24456,  1485,      2)  /* Impenetrability V */
-     , (24456,  2688,      2)  /* Moderate Missile Weapon Aptitude */;
+VALUES (24456,  1485,      2)  /* Impenetrability V */
+     , (24456,  2688,      2)  /* Moderate Missile Weapon Aptitude */
+     , (24456,  1384,      2)  /* Coordination Other VI */;

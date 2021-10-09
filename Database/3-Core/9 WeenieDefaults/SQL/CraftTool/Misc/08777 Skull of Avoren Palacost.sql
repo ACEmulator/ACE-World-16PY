@@ -34,8 +34,8 @@ VALUES (8777,   1, 'Skull of Avoren Palacost') /* Name */
      , (8777,  33, 'HopeslayerSkull') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8777,   1,   33556924) /* Setup */
-     , (8777,   3,  536870932) /* SoundTable */
-     , (8777,   8,  100671219) /* Icon */
-     , (8777,  22,  872415275) /* PhysicsEffectTable */
-     , (8777,  36,  234881046) /* MutateFilter */;
+VALUES (8777,   1, 0x020009BC) /* Setup */
+     , (8777,   3, 0x20000014) /* SoundTable */
+     , (8777,   8, 0x06001EF3) /* Icon */
+     , (8777,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8777,  36, 0x0E000016) /* MutateFilter */;

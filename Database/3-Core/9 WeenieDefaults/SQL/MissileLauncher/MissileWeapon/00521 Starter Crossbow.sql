@@ -15,7 +15,7 @@ VALUES (521,   1,        256) /* ItemType - MissileWeapon */
      , (521,  48,          3) /* WeaponSkill - Crossbow */
      , (521,  49,         60) /* WeaponTime */
      , (521,  50,          2) /* AmmoType - Bolt */
-     , (521,  51,          2) /* CombatUse - Missle */
+     , (521,  51,          2) /* CombatUse - Missile */
      , (521,  52,          2) /* ParentLocation - LeftHand */
      , (521,  53,          3) /* PlacementPosition - LeftHand */
      , (521,  60,        160) /* WeaponRange */
@@ -38,7 +38,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (521,   1, 'Starter Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (521,   1,   33554733) /* Setup */
-     , (521,   3,  536870932) /* SoundTable */
-     , (521,   8,  100668162) /* Icon */
-     , (521,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (521,   1, 0x0200012D) /* Setup */
+     , (521,   3, 0x20000014) /* SoundTable */
+     , (521,   8, 0x06001302) /* Icon */
+     , (521,  22, 0x3400002B) /* PhysicsEffectTable */;

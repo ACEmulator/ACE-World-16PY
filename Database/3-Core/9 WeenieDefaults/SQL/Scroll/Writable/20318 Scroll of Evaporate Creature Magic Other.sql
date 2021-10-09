@@ -24,7 +24,7 @@ VALUES (20318,   1, 'Scroll of Evaporate Creature Magic Other') /* Name */
      , (20318,  15, 'When learned, this spell dispels 3-6 negative Creature Magic enchantments of level 1 from the target.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20318,   1,   33554826) /* Setup */
-     , (20318,   8,  100676647) /* Icon */
-     , (20318,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20318,   1, 0x0200018A) /* Setup */
+     , (20318,   8, 0x06003427) /* Icon */
+     , (20318,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20318,  28,       1885) /* Spell - Evaporate Creature Magic Other */;

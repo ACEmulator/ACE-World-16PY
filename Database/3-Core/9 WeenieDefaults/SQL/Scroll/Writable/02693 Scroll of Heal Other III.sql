@@ -25,7 +25,7 @@ VALUES (2693,   1, 'Scroll of Heal Other III') /* Name */
      , (2693,  16, 'When learned, this spell restores 16-30 points of the target''s Health.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2693,   1,   33554826) /* Setup */
-     , (2693,   8,  100676931) /* Icon */
-     , (2693,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2693,   1, 0x0200018A) /* Setup */
+     , (2693,   8, 0x06003543) /* Icon */
+     , (2693,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2693,  28,       1163) /* Spell - Heal Other III */;

@@ -64,12 +64,12 @@ VALUES (25723,   1, 'Tree') /* Name */
      , (25723,  15, 'A tree, looking much like all the others.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25723,   1,   33558278) /* Setup */
-     , (25723,   2,  150995147) /* MotionTable */
-     , (25723,   3,  536871052) /* SoundTable */
-     , (25723,   4,  805306398) /* CombatTable */
-     , (25723,   8,  100667499) /* Icon */
-     , (25723,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (25723,   1, 0x02000F06) /* Setup */
+     , (25723,   2, 0x090000CB) /* MotionTable */
+     , (25723,   3, 0x2000008C) /* SoundTable */
+     , (25723,   4, 0x3000001E) /* CombatTable */
+     , (25723,   8, 0x0600106B) /* Icon */
+     , (25723,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25723,   1, 380, 0, 0) /* Strength */
@@ -85,14 +85,14 @@ VALUES (25723,   1,   200, 0, 0, 370) /* MaxHealth */
      , (25723,   5,   201, 0, 0, 486) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (25723, 14, 0, 3, 0, 200, 0, 1659.93983328812) /* ArcaneLore          Specialized */
-     , (25723, 16, 0, 3, 0, 200, 0, 1659.93983328812) /* ManaConversion      Specialized */
-     , (25723, 20, 0, 3, 0, 900, 0, 1659.93983328812) /* Deception           Specialized */
-     , (25723, 22, 0, 3, 0, 200, 0, 1659.93983328812) /* Jump                Specialized */
-     , (25723, 24, 0, 3, 0, 200, 0, 1659.93983328812) /* Run                 Specialized */
-     , (25723, 31, 0, 3, 0, 900, 0, 1659.93983328812) /* CreatureEnchantment Specialized */
-     , (25723, 33, 0, 3, 0, 900, 0, 1659.93983328812) /* LifeMagic           Specialized */
-     , (25723, 34, 0, 3, 0, 900, 0, 1659.93983328812) /* WarMagic            Specialized */;
+VALUES (25723, 14, 0, 3, 0, 200, 0, 1659.9398332881242) /* ArcaneLore          Specialized */
+     , (25723, 16, 0, 3, 0, 200, 0, 1659.9398332881242) /* ManaConversion      Specialized */
+     , (25723, 20, 0, 3, 0, 900, 0, 1659.9398332881242) /* Deception           Specialized */
+     , (25723, 22, 0, 3, 0, 200, 0, 1659.9398332881242) /* Jump                Specialized */
+     , (25723, 24, 0, 3, 0, 200, 0, 1659.9398332881242) /* Run                 Specialized */
+     , (25723, 31, 0, 3, 0, 900, 0, 1659.9398332881242) /* CreatureEnchantment Specialized */
+     , (25723, 33, 0, 3, 0, 900, 0, 1659.9398332881242) /* LifeMagic           Specialized */
+     , (25723, 34, 0, 3, 0, 900, 0, 1659.9398332881242) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (25723,  0,  4,  0,    0,  200,  158,  158,  160,  200,  200,  200,  200,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -120,11 +120,11 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,  13 /* TextDirect */, 0, 1, NULL, 'You think, "I was rattled. I found myself unable to find the forest for the trees. I ran my hands along the bark, searching for any type of clue that might help me understand what the Dame wanted. I should have been listening. Now I was out here playing patty-cake with a tree..."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  1,  52 /* ForceMotion */, 1, 1, 318767230 /* ClapHands */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  2,  52 /* ForceMotion */, 1, 1, 318767257 /* Woah */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  3,  52 /* ForceMotion */, 1, 1, 318767230 /* ClapHands */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  1,  52 /* ForceMotion */, 1, 1, 0x1300007E /* ClapHands */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  2,  52 /* ForceMotion */, 1, 1, 0x13000099 /* Woah */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  3,  52 /* ForceMotion */, 1, 1, 0x1300007E /* ClapHands */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  4,  13 /* TextDirect */, 0.5, 1, NULL, 'You think, "...I felt pretty foolish."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  5,  52 /* ForceMotion */, 1, 1, 318767238 /* Shrug */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+     , (@parent_id,  5,  52 /* ForceMotion */, 1, 1, 0x13000086 /* Shrug */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (25723, 13 /* QuestFailure */,      1, NULL, NULL, NULL, 'DameNoir1', NULL, NULL, NULL);

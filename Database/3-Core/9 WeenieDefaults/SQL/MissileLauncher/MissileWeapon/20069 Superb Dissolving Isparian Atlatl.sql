@@ -19,7 +19,7 @@ VALUES (20069,   1,        256) /* ItemType - MissileWeapon */
      , (20069,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (20069,  49,         15) /* WeaponTime */
      , (20069,  50,          4) /* AmmoType - Atlatl */
-     , (20069,  51,          2) /* CombatUse - Missle */
+     , (20069,  51,          2) /* CombatUse - Missile */
      , (20069,  60,        120) /* WeaponRange */
      , (20069,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (20069, 106,        100) /* ItemSpellcraft */
@@ -48,17 +48,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20069,   1, 'Superb Dissolving Isparian Atlatl') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20069,   1,   33557799) /* Setup */
-     , (20069,   3,  536870932) /* SoundTable */
-     , (20069,   6,   67111919) /* PaletteBase */
-     , (20069,   7,  268436393) /* ClothingBase */
-     , (20069,   8,  100673005) /* Icon */
-     , (20069,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20069,   1, 0x02000D27) /* Setup */
+     , (20069,   3, 0x20000014) /* SoundTable */
+     , (20069,   6, 0x04000BEF) /* PaletteBase */
+     , (20069,   7, 0x100003A9) /* ClothingBase */
+     , (20069,   8, 0x060025ED) /* Icon */
+     , (20069,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20069,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20069,   518,      2)  /* Acid Protection Self IV */
+VALUES (20069,  1604,      2)  /* Aura of Defender Self V */
      , (20069,  1351,      2)  /* Endurance Self III */
-     , (20069,  1604,      2)  /* Aura of Defender Self V */
-     , (20069,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (20069,  2567,      2)  /* Minor Missile Weapon Aptitude */;
+     , (20069,   518,      2)  /* Acid Protection Self IV */
+     , (20069,  2567,      2)  /* Minor Missile Weapon Aptitude */
+     , (20069,  1615,      2)  /* Aura of Blood Drinker Self V */;

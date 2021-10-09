@@ -26,7 +26,7 @@ VALUES (15739,   1, 'Nuhmudira') /* Name */
      , (15739,  15, 'Nuhmudira is too far away to be seen. Thin beams of light penetrate the darkness beneath the place where she is kept captive. An eerie glow surrounds her prison.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15739,   1,   33557593) /* Setup */
-     , (15739,   6,   67108990) /* PaletteBase */
-     , (15739,   7,  268436365) /* ClothingBase */
-     , (15739,   8,  100667446) /* Icon */;
+VALUES (15739,   1, 0x02000C59) /* Setup */
+     , (15739,   6, 0x0400007E) /* PaletteBase */
+     , (15739,   7, 0x1000038D) /* ClothingBase */
+     , (15739,   8, 0x06001036) /* Icon */;

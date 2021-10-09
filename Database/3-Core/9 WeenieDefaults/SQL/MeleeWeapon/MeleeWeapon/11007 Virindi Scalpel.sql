@@ -45,11 +45,11 @@ VALUES (11007,   1, 'Virindi Scalpel') /* Name */
      , (11007,  16, 'A small, flimsy looking blade for precision slicing. It appears to be made of pure diamond. As you peer at it, a swathe of tiny, three-dimensional geometric shapes briefly flash violet within the hilt, and a hollow voice in your mind intones, "Puppet, this reconfiguration has been specially prepared and left for your use. Use on captured meat beings. It will ignore the flesh-enhancing energy patterns they utilize. You will still have to peel their artificial exoskeletons away."') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11007,   1,   33557231) /* Setup */
-     , (11007,   3,  536870932) /* SoundTable */
-     , (11007,   8,  100671865) /* Icon */
-     , (11007,  22,  872415275) /* PhysicsEffectTable */
-     , (11007,  36,  234881044) /* MutateFilter */;
+VALUES (11007,   1, 0x02000AEF) /* Setup */
+     , (11007,   3, 0x20000014) /* SoundTable */
+     , (11007,   8, 0x06002179) /* Icon */
+     , (11007,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11007,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11007,   321,      2)  /* Finesse Weapon Mastery Other VI */

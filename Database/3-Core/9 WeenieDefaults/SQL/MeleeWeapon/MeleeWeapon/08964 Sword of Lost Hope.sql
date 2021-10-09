@@ -50,18 +50,18 @@ VALUES (8964,   1, 'Sword of Lost Hope') /* Name */
      , (8964,  16, 'The Sword of Lost Hope pulses with twisted energy.  The weapon seems to coruscate with the power of Ilservian''s blood.  The Light has been forever dimmed, and the weapon is now empowered by the essence of the Hopeslayer.  It will no longer accept infusions of light.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8964,   1,   33556949) /* Setup */
-     , (8964,   3,  536870932) /* SoundTable */
-     , (8964,   6,   67111919) /* PaletteBase */
-     , (8964,   7,  268436109) /* ClothingBase */
-     , (8964,   8,  100671325) /* Icon */
-     , (8964,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8964,   1, 0x020009D5) /* Setup */
+     , (8964,   3, 0x20000014) /* SoundTable */
+     , (8964,   6, 0x04000BEF) /* PaletteBase */
+     , (8964,   7, 0x1000028D) /* ClothingBase */
+     , (8964,   8, 0x06001F5D) /* Icon */
+     , (8964,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8964,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8964,   415,      2)  /* Heavy Weapon Mastery Other IV */
-     , (8964,  1335,      2)  /* Strength Other IV */
+VALUES (8964,  1406,      2)  /* Quickness Other IV */
      , (8964,  1358,      2)  /* Endurance Other IV */
-     , (8964,  1406,      2)  /* Quickness Other IV */
      , (8964,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (8964,  1625,      2)  /* Aura of Swift Killer Self IV */;
+     , (8964,  1625,      2)  /* Aura of Swift Killer Self IV */
+     , (8964,   415,      2)  /* Heavy Weapon Mastery Other IV */
+     , (8964,  1335,      2)  /* Strength Other IV */;

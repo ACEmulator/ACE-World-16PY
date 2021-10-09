@@ -22,10 +22,10 @@ VALUES (14892,   1, 'Strange Book') /* Name */
      , (14892,  16, 'A strange looking book with the words Don''t Panic inscribed in big friendly letters on the cover.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14892,   1,   33554773) /* Setup */
-     , (14892,   3,  536870932) /* SoundTable */
-     , (14892,   8,  100668176) /* Icon */
-     , (14892,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14892,   1, 0x02000155) /* Setup */
+     , (14892,   3, 0x20000014) /* SoundTable */
+     , (14892,   8, 0x06001310) /* Icon */
+     , (14892,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (14892, 1, 1000);

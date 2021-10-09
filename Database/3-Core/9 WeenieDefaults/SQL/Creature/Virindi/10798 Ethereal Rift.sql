@@ -71,12 +71,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10798,   1, 'Ethereal Rift') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10798,   1,   33557097) /* Setup */
-     , (10798,   2,  150995087) /* MotionTable */
-     , (10798,   3,  536871001) /* SoundTable */
-     , (10798,   4,  805306407) /* CombatTable */
-     , (10798,   8,  100671702) /* Icon */
-     , (10798,  22,  872415375) /* PhysicsEffectTable */
+VALUES (10798,   1, 0x02000A69) /* Setup */
+     , (10798,   2, 0x0900008F) /* MotionTable */
+     , (10798,   3, 0x20000059) /* SoundTable */
+     , (10798,   4, 0x30000027) /* CombatTable */
+     , (10798,   8, 0x060020D6) /* Icon */
+     , (10798,  22, 0x3400008F) /* PhysicsEffectTable */
      , (10798,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -93,15 +93,15 @@ VALUES (10798,   1,    40, 0, 0, 110) /* MaxHealth */
      , (10798,   5,   500, 0, 0, 720) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (10798,  6, 0, 3, 0, 280, 0, 695.675942611233) /* MeleeDefense        Specialized */
-     , (10798,  7, 0, 3, 0, 400, 0, 695.675942611233) /* MissileDefense      Specialized */
-     , (10798, 13, 0, 3, 0, 250, 0, 695.675942611233) /* UnarmedCombat       Specialized */
-     , (10798, 15, 0, 3, 0, 230, 0, 695.675942611233) /* MagicDefense        Specialized */
-     , (10798, 20, 0, 3, 0, 100, 0, 695.675942611233) /* Deception           Specialized */
-     , (10798, 24, 0, 3, 0,  10, 0, 695.675942611233) /* Run                 Specialized */
-     , (10798, 31, 0, 3, 0, 100, 0, 695.675942611233) /* CreatureEnchantment Specialized */
-     , (10798, 33, 0, 3, 0, 100, 0, 695.675942611233) /* LifeMagic           Specialized */
-     , (10798, 34, 0, 3, 0, 100, 0, 695.675942611233) /* WarMagic            Specialized */;
+VALUES (10798,  6, 0, 3, 0, 280, 0, 695.6759426112329) /* MeleeDefense        Specialized */
+     , (10798,  7, 0, 3, 0, 400, 0, 695.6759426112329) /* MissileDefense      Specialized */
+     , (10798, 13, 0, 3, 0, 250, 0, 695.6759426112329) /* UnarmedCombat       Specialized */
+     , (10798, 15, 0, 3, 0, 230, 0, 695.6759426112329) /* MagicDefense        Specialized */
+     , (10798, 20, 0, 3, 0, 100, 0, 695.6759426112329) /* Deception           Specialized */
+     , (10798, 24, 0, 3, 0,  10, 0, 695.6759426112329) /* Run                 Specialized */
+     , (10798, 31, 0, 3, 0, 100, 0, 695.6759426112329) /* CreatureEnchantment Specialized */
+     , (10798, 33, 0, 3, 0, 100, 0, 695.6759426112329) /* LifeMagic           Specialized */
+     , (10798, 34, 0, 3, 0, 100, 0, 695.6759426112329) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (10798,  0, 64, 25, 0.75,  400,  400,  400,  400,  476,  400, 1112,  400,    0, 1,  0.5,  0.2,    0,  0.5,  0.2,    0,    0,    0,    0,    0,    0,    0) /* Head */
@@ -113,19 +113,19 @@ VALUES (10798,  0, 64, 25, 0.75,  400,  400,  400,  400,  476,  400, 1112,  400,
      , (10798, 22, 64, 25, 0.75,  400,  400,  400,  400,  476,  400, 1112,  400,    0, 2,    0,    0,    0,    0,    0,    0,  0.1,  0.1,    0,  0.1,  0.1,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10798,    78,  2.115)  /* Lightning Bolt IV */
-     , (10798,   518,  2.115)  /* Acid Protection Self IV */
+VALUES (10798,  1092,  2.115)  /* Fire Protection Self IV */
      , (10798,  1021,  2.115)  /* Bludgeoning Protection Self IV */
-     , (10798,  1092,  2.115)  /* Fire Protection Self IV */
+     , (10798,  1136,  2.115)  /* Piercing Protection Self IV */
      , (10798,  1112,  2.115)  /* Blade Protection Self IV */
-     , (10798,  1136,  2.115)  /* Piercing Protection Self IV */;
+     , (10798,   518,  2.115)  /* Acid Protection Self IV */
+     , (10798,    78,  2.115)  /* Lightning Bolt IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (10798,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (10798, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10798, 0.5, 10789, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1, 9, 0.8191521, 0, 0, -0.5735765) /* Generate Terebrous Hollow Minion (10789) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (10798, 0.75, 10825, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 3.4, 9, 0.9659258, 0, 0, -0.258819) /* Generate Virindi Observer (10825) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (10798, 0.85, 10790, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, -1.4, 9, 0.9961947, 0, 0, -0.08715574) /* Generate Tumideon Hollow Minion (10790) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (10798, 0.9, 10775, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -2, 9, 0.9961947, 0, 0, -0.08715574) /* Generate Augmented Drudge (10775) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (10798, 0.5, 10789, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1, 9, 0.819152, 0, 0, -0.573577) /* Generate Terebrous Hollow Minion (10789) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (10798, 0.75, 10825, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 3.4, 9, 0.965926, 0, 0, -0.258819) /* Generate Virindi Observer (10825) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (10798, 0.85, 10790, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, -1.4, 9, 0.996195, 0, 0, -0.087156) /* Generate Tumideon Hollow Minion (10790) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (10798, 0.9, 10775, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -2, 9, 0.996195, 0, 0, -0.087156) /* Generate Augmented Drudge (10775) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

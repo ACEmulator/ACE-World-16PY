@@ -24,7 +24,7 @@ VALUES (20523,   1, 'Scroll of Ketnan''s Boon') /* Name */
      , (20523,  15, 'When learned, this spell increases the target''s Deception skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20523,   1,   33554826) /* Setup */
-     , (20523,   8,  100676448) /* Icon */
-     , (20523,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20523,   1, 0x0200018A) /* Setup */
+     , (20523,   8, 0x06003360) /* Icon */
+     , (20523,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20523,  28,       2226) /* Spell - Ketnan's Boon */;

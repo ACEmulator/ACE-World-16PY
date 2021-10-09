@@ -17,5 +17,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28375,   1, 'Falatacot Vault Seal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28375,   1,   33558872) /* Setup */
-     , (28375,   8,  100667494) /* Icon */;
+VALUES (28375,   1, 0x02001158) /* Setup */
+     , (28375,   8, 0x06001066) /* Icon */;

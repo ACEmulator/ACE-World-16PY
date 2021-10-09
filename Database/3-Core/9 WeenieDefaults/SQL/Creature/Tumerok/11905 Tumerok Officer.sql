@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11905,   1, 'Tumerok Officer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11905,   1,   33554496) /* Setup */
-     , (11905,   2,  150994954) /* MotionTable */
-     , (11905,   3,  536870931) /* SoundTable */
-     , (11905,   4,  805306380) /* CombatTable */
-     , (11905,   6,   67109314) /* PaletteBase */
-     , (11905,   7,  268436629) /* ClothingBase */
-     , (11905,   8,  100667452) /* Icon */
-     , (11905,  22,  872415270) /* PhysicsEffectTable */
+VALUES (11905,   1, 0x02000040) /* Setup */
+     , (11905,   2, 0x0900000A) /* MotionTable */
+     , (11905,   3, 0x20000013) /* SoundTable */
+     , (11905,   4, 0x3000000C) /* CombatTable */
+     , (11905,   6, 0x040001C2) /* PaletteBase */
+     , (11905,   7, 0x10000495) /* ClothingBase */
+     , (11905,   8, 0x0600103C) /* Icon */
+     , (11905,  22, 0x34000026) /* PhysicsEffectTable */
      , (11905,  32,        374) /* WieldedTreasureType - 
                                    Wield 5x Javelin (320) | Probability: 10%
                                    Wield 5x Djarid (317) | Probability: 10%
@@ -146,27 +146,27 @@ VALUES (11905,  0,  4,  0,    0,  180,  180,  180,  180,  180,  180,  180,  180,
      , (11905,  8,  4, 20, 0.75,  180,  180,  180,  180,  180,  180,  180,  180,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11905,    61,  2.014)  /* Acid Stream IV */
-     , (11905,    62,  2.003)  /* Acid Stream V */
+VALUES (11905,    68,  2.003)  /* Shock Wave V */
+     , (11905,   259,  2.007)  /* Impregnability Self IV */
+     , (11905,    83,  2.014)  /* Flame Bolt IV */
+     , (11905,  1159,   2.01)  /* Heal Self IV */
      , (11905,    67,  2.014)  /* Shock Wave IV */
-     , (11905,    68,  2.003)  /* Shock Wave V */
+     , (11905,  1158,   2.01)  /* Heal Self III */
      , (11905,    72,  2.014)  /* Frost Bolt IV */
      , (11905,    73,  2.003)  /* Frost Bolt V */
      , (11905,    78,  2.014)  /* Lightning Bolt IV */
      , (11905,    79,  2.003)  /* Lightning Bolt V */
-     , (11905,    83,  2.014)  /* Flame Bolt IV */
      , (11905,    84,  2.003)  /* Flame Bolt V */
+     , (11905,  1173,   2.02)  /* Harm Other III */
+     , (11905,   277,  2.007)  /* Magic Resistance Self IV */
      , (11905,    89,  2.014)  /* Force Bolt IV */
      , (11905,    90,  2.003)  /* Force Bolt V */
      , (11905,    95,  2.014)  /* Whirling Blade IV */
      , (11905,    96,  2.003)  /* Whirling Blade V */
+     , (11905,  1197,   2.02)  /* Enfeeble Other III */
      , (11905,   247,  2.007)  /* Invulnerability Self IV */
-     , (11905,   259,  2.007)  /* Impregnability Self IV */
-     , (11905,   277,  2.007)  /* Magic Resistance Self IV */
-     , (11905,  1158,   2.01)  /* Heal Self III */
-     , (11905,  1159,   2.01)  /* Heal Self IV */
-     , (11905,  1173,   2.02)  /* Harm Other III */
-     , (11905,  1197,   2.02)  /* Enfeeble Other III */;
+     , (11905,    61,  2.014)  /* Acid Stream IV */
+     , (11905,    62,  2.003)  /* Acid Stream V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (11905,  94) /* ATTACK_NOTIFICATION_EVENT */

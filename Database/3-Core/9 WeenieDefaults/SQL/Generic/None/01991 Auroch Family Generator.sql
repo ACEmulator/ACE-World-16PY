@@ -21,14 +21,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1991,   1, 'Auroch Family Generator') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1991,   1,   33555051) /* Setup */
-     , (1991,   8,  100667494) /* Icon */;
+VALUES (1991,   1, 0x0200026B) /* Setup */
+     , (1991,   8, 0x06001066) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1991, 0.1, 182, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 5, 0, 0, 0.9238795, 0, 0, -0.3826835) /* Generate Auroch Yearling (182) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (1991, 0.2, 182, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 4, 4, 0, 0.9238795, 0, 0, -0.3826835) /* Generate Auroch Yearling (182) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (1991, 0.3, 182, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -5, -4, 0, -0.6427876, 0, 0, -0.7660444) /* Generate Auroch Yearling (182) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (1991, 0.4, 182, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -1, 3, 0, 0.9238795, 0, 0, -0.3826835) /* Generate Auroch Yearling (182) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (1991, 0.45, 181, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -1, 0.1, 0, 0.9659258, 0, 0, -0.258819) /* Generate Auroch Cow (181) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (1991, 0.5, 20, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -1.5, 4, 0, 0.9238795, 0, 0, -0.3826835) /* Generate Auroch Bull (20) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (1991, 0.55, 181, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2, 0, 0, 0.9659258, 0, 0, -0.258819) /* Generate Auroch Cow (181) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (1991, 0.1, 182, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 5, 0, 0, 0.92388, 0, 0, -0.382684) /* Generate Auroch Yearling (182) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (1991, 0.2, 182, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 4, 4, 0, 0.92388, 0, 0, -0.382684) /* Generate Auroch Yearling (182) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (1991, 0.3, 182, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -5, -4, 0, -0.642788, 0, -0, -0.766044) /* Generate Auroch Yearling (182) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (1991, 0.4, 182, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -1, 3, 0, 0.92388, 0, 0, -0.382684) /* Generate Auroch Yearling (182) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (1991, 0.45, 181, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -1, 0.1, 0, 0.965926, 0, 0, -0.258819) /* Generate Auroch Cow (181) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (1991, 0.5, 20, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -1.5, 4, 0, 0.92388, 0, 0, -0.382684) /* Generate Auroch Bull (20) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (1991, 0.55, 181, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2, 0, 0, 0.965926, 0, 0, -0.258819) /* Generate Auroch Cow (181) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

@@ -30,7 +30,7 @@ VALUES (7054,   1, 'Bone Handle') /* Name */
      , (7054,  16, 'A handle intricately carved from the bone of the undead.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7054,   1,   33556603) /* Setup */
-     , (7054,   3,  536870932) /* SoundTable */
-     , (7054,   8,  100670668) /* Icon */
-     , (7054,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7054,   1, 0x0200087B) /* Setup */
+     , (7054,   3, 0x20000014) /* SoundTable */
+     , (7054,   8, 0x06001CCC) /* Icon */
+     , (7054,  22, 0x3400002B) /* PhysicsEffectTable */;

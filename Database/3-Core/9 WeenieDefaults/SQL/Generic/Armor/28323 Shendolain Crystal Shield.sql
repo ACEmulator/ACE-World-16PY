@@ -50,16 +50,16 @@ VALUES (28323,   1, 'Shendolain Crystal Shield') /* Name */
      , (28323,  15, 'A shield imbued with the power of the Shendolain Crystal.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28323,   1,   33554786) /* Setup */
-     , (28323,   3,  536870932) /* SoundTable */
-     , (28323,   6,   67111919) /* PaletteBase */
-     , (28323,   7,  268436037) /* ClothingBase */
-     , (28323,   8,  100670978) /* Icon */
-     , (28323,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28323,   1, 0x02000162) /* Setup */
+     , (28323,   3, 0x20000014) /* SoundTable */
+     , (28323,   6, 0x04000BEF) /* PaletteBase */
+     , (28323,   7, 0x10000245) /* ClothingBase */
+     , (28323,   8, 0x06001E02) /* Icon */
+     , (28323,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28323,   248,      2)  /* Invulnerability Self V */
-     , (28323,   260,      2)  /* Impregnability Self V */
+VALUES (28323,   260,      2)  /* Impregnability Self V */
      , (28323,  1485,      2)  /* Impenetrability V */
+     , (28323,   248,      2)  /* Invulnerability Self V */
      , (28323,  2005,      2)  /* Warrior's Greater Vitality */
      , (28323,  2009,      2)  /* Warrior's Greater Vigor */;

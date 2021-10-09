@@ -5,24 +5,24 @@ VALUES (0x75F44000, 22477, 0x5F440101, 0, -30, 0.0132, 0, 0, 0, -1,  True, '2005
 /* @teleloc 0x5F440101 [0.000000 -30.000000 0.013200] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75F44001, 22472, 0x5F440107, 10, -20, 0.0132, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Axer's Wishes */
-/* @teleloc 0x5F440107 [10.000000 -20.000000 0.013200] 0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75F44001, 22472, 0x5F440107, 10, -20, 0.0132, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Axer's Wishes */
+/* @teleloc 0x5F440107 [10.000000 -20.000000 0.013200] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F44002, 22478, 0x5F44010B, 10, -30, 0.0132, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Fletcher's Dreams */
 /* @teleloc 0x5F44010B [10.000000 -30.000000 0.013200] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75F44003, 22484, 0x5F440110, 10, -50, 0.0132, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Statue of Lockpicker's Wish */
-/* @teleloc 0x5F440110 [10.000000 -50.000000 0.013200] 1.000000 0.000000 0.000000 0.000000 */
+VALUES (0x75F44003, 22484, 0x5F440110, 10, -50, 0.0132, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Statue of Lockpicker's Wish */
+/* @teleloc 0x5F440110 [10.000000 -50.000000 0.013200] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F44004, 22489, 0x5F440115, 10, -60, 0.0132, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Statue of Evasive Wishes */
 /* @teleloc 0x5F440115 [10.000000 -60.000000 0.013200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75F44005, 22469, 0x5F440119, 20, -10, 0.0132, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Scholarly Wishes */
-/* @teleloc 0x5F440119 [20.000000 -10.000000 0.013200] 0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75F44005, 22469, 0x5F440119, 20, -10, 0.0132, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Scholarly Wishes */
+/* @teleloc 0x5F440119 [20.000000 -10.000000 0.013200] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F44006, 22473, 0x5F44011D, 20, -20, 0.0132, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Bowman's Wish */
@@ -37,8 +37,8 @@ VALUES (0x75F44008, 22491, 0x5F440128, 20, -40, 0.0132, 0.707107, 0, 0, -0.70710
 /* @teleloc 0x5F440128 [20.000000 -40.000000 0.013200] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75F44009, 22485, 0x5F44012B, 20, -50, 0.0132, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Statue of Macer's Wish */
-/* @teleloc 0x5F44012B [20.000000 -50.000000 0.013200] 1.000000 0.000000 0.000000 0.000000 */
+VALUES (0x75F44009, 22485, 0x5F44012B, 20, -50, 0.0132, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Statue of Macer's Wish */
+/* @teleloc 0x5F44012B [20.000000 -50.000000 0.013200] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4400A, 22490, 0x5F440130, 20, -60, 0.0132, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Statue of Dodge Wishes */
@@ -49,8 +49,8 @@ VALUES (0x75F4400B, 22495, 0x5F440136, 20, -70, 0.0132, 1, 0, 0, 0,  True, '2005
 /* @teleloc 0x5F440136 [20.000000 -70.000000 0.013200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75F4400C, 22468, 0x5F44013A, 30, 0, 0.0132, -4.37114E-08, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Alchemical Wishes */
-/* @teleloc 0x5F44013A [30.000000 0.000000 0.013200] 0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75F4400C, 22468, 0x5F44013A, 30, 0, 0.0132, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Alchemical Wishes */
+/* @teleloc 0x5F44013A [30.000000 0.000000 0.013200] -0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4400D, 22470, 0x5F44013D, 30, -10, 0.0132, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Statue of Armor Tinker's Wish */
@@ -97,8 +97,8 @@ VALUES (0x75F44017, 22491, 0x5F440173, 40, -40, 0.0132, -0.707107, 0, 0, -0.7071
 /* @teleloc 0x5F440173 [40.000000 -40.000000 0.013200] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75F44018, 22487, 0x5F440176, 40, -50, 0.0132, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Statue of Magic Tinker's Wish */
-/* @teleloc 0x5F440176 [40.000000 -50.000000 0.013200] 1.000000 0.000000 0.000000 0.000000 */
+VALUES (0x75F44018, 22487, 0x5F440176, 40, -50, 0.0132, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Statue of Magic Tinker's Wish */
+/* @teleloc 0x5F440176 [40.000000 -50.000000 0.013200] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F44019, 22493, 0x5F44017B, 40, -60, 0.0132, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Statue of Spearman's Wish */
@@ -117,8 +117,8 @@ VALUES (0x75F4401C, 22482, 0x5F440189, 50, -30, 0.0132, 0, 0, 0, -1,  True, '200
 /* @teleloc 0x5F440189 [50.000000 -30.000000 0.013200] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75F4401D, 22488, 0x5F44018E, 50, -50, 0.0132, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Statue of Archmage's Wish */
-/* @teleloc 0x5F44018E [50.000000 -50.000000 0.013200] 1.000000 0.000000 0.000000 0.000000 */
+VALUES (0x75F4401D, 22488, 0x5F44018E, 50, -50, 0.0132, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Statue of Archmage's Wish */
+/* @teleloc 0x5F44018E [50.000000 -50.000000 0.013200] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4401E, 22494, 0x5F440193, 50, -60, 0.0132, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Statue of Staffer's Wish */
@@ -130,11 +130,11 @@ VALUES (0x75F4401F, 22483, 0x5F440197, 60, -30, 0.0132, 0, 0, 0, -1,  True, '200
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F44020, 22656, 0x5F44019D, 130, -47.415, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Arena of the Tusker Hero */
-/* @teleloc 0x5F44019D [130.000000 -47.415000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
+/* @teleloc 0x5F44019D [130.000000 -47.415001 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F44021,  8580, 0x5F4401A1, 230.352, -79.5477, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Waterfall */
-/* @teleloc 0x5F4401A1 [230.352000 -79.547700 0.005000] 1.000000 0.000000 0.000000 0.000000 */
+/* @teleloc 0x5F4401A1 [230.352005 -79.547699 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F44022, 22500, 0x5F4401A2, 230, -91.5, 0.0132, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Oolutanga, the Tusker King */
@@ -142,7 +142,7 @@ VALUES (0x75F44022, 22500, 0x5F4401A2, 230, -91.5, 0.0132, 0, 0, 0, -1,  True, '
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F44023,  5086, 0x5F4401A3, 230.325, -97.5091, 0.005, 0.999993, 0, 0, 0.003737, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen - 30 sec. */
-/* @teleloc 0x5F4401A3 [230.325000 -97.509100 0.005000] 0.999993 0.000000 0.000000 0.003737 */
+/* @teleloc 0x5F4401A3 [230.324997 -97.509102 0.005000] 0.999993 0.000000 0.000000 0.003737 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x75F44023, 0x75F44000, '2005-02-09 10:00:00') /* Statue of Knifer's Wish (22477) */
@@ -184,13 +184,13 @@ VALUES (0x75F44024,   278, 0x5F4401A6, 230, -125.25, 0, 1, 0, 0, 0, False, '2005
 /* @teleloc 0x5F4401A6 [230.000000 -125.250000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75F44025, 22708, 0x5F4401A0, 220.084, -112.341, 0.005, -0.0156759, 0, 0, -0.999877, False, '2005-02-09 10:00:00'); /* Idol of Wishes */
-/* @teleloc 0x5F4401A0 [220.084000 -112.341000 0.005000] -0.015676 0.000000 0.000000 -0.999877 */
+VALUES (0x75F44025, 22708, 0x5F4401A0, 220.084, -112.341, 0.005, -0.015676, 0, 0, -0.999877, False, '2005-02-09 10:00:00'); /* Idol of Wishes */
+/* @teleloc 0x5F4401A0 [220.084000 -112.341003 0.005000] -0.015676 0.000000 0.000000 -0.999877 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75F44026, 22685, 0x5F4401AA, 239.477, -112.149, 0.005, 0.0427559, 0, 0, -0.999086, False, '2005-02-09 10:00:00'); /* Surface */
-/* @teleloc 0x5F4401AA [239.477000 -112.149000 0.005000] 0.042756 0.000000 0.000000 -0.999086 */
+VALUES (0x75F44026, 22685, 0x5F4401AA, 239.477, -112.149, 0.005, 0.042756, 0, 0, -0.999086, False, '2005-02-09 10:00:00'); /* Surface */
+/* @teleloc 0x5F4401AA [239.477005 -112.149002 0.005000] 0.042756 0.000000 0.000000 -0.999086 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F44027, 22684, 0x5F44019A, 61.6234, -50.0506, 0.005, -0.711512, 0, 0, 0.702674, False, '2005-02-09 10:00:00'); /* Throne of the Tusker King */
-/* @teleloc 0x5F44019A [61.623400 -50.050600 0.005000] -0.711512 0.000000 0.000000 0.702674 */
+/* @teleloc 0x5F44019A [61.623402 -50.050598 0.005000] -0.711512 0.000000 0.000000 0.702674 */

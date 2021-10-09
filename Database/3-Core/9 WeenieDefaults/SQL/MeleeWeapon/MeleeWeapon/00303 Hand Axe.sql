@@ -37,11 +37,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (303,   1, 'Hand Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (303,   1,   33554727) /* Setup */
-     , (303,   3,  536870932) /* SoundTable */
-     , (303,   6,   67111919) /* PaletteBase */
-     , (303,   7,  268435837) /* ClothingBase */
-     , (303,   8,  100670216) /* Icon */
-     , (303,  22,  872415275) /* PhysicsEffectTable */
-     , (303,  36,  234881053) /* MutateFilter */
-     , (303,  46,  939524098) /* TsysMutationFilter */;
+VALUES (303,   1, 0x02000127) /* Setup */
+     , (303,   3, 0x20000014) /* SoundTable */
+     , (303,   6, 0x04000BEF) /* PaletteBase */
+     , (303,   7, 0x1000017D) /* ClothingBase */
+     , (303,   8, 0x06001B08) /* Icon */
+     , (303,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (303,  36, 0x0E00001D) /* MutateFilter */
+     , (303,  46, 0x38000002) /* TsysMutationFilter */;

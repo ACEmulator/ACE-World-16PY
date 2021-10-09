@@ -34,7 +34,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29924,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29924,   5, -0.0333) /* ManaRate */
+VALUES (29924,   5,  -0.033) /* ManaRate */
      , (29924,  21,    0.75) /* WeaponLength */
      , (29924,  22,    0.55) /* DamageVariance */
      , (29924,  29,     1.1) /* WeaponDefense */
@@ -47,16 +47,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29924,   1, 'Regal War Maul') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29924,   1,   33559057) /* Setup */
-     , (29924,   3,  536870932) /* SoundTable */
-     , (29924,   8,  100676975) /* Icon */
-     , (29924,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29924,   1, 0x02001211) /* Setup */
+     , (29924,   3, 0x20000014) /* SoundTable */
+     , (29924,   8, 0x0600356F) /* Icon */
+     , (29924,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29924,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29924,   243,      2)  /* Invulnerability Other V */
+VALUES (29924,  1604,      2)  /* Aura of Defender Self V */
      , (29924,  1359,      2)  /* Endurance Other V */
-     , (29924,  1591,      2)  /* Aura of Heart Seeker Self V */
-     , (29924,  1604,      2)  /* Aura of Defender Self V */
      , (29924,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (29924,  1625,      2)  /* Aura of Swift Killer Self IV */;
+     , (29924,   243,      2)  /* Invulnerability Other V */
+     , (29924,  1625,      2)  /* Aura of Swift Killer Self IV */
+     , (29924,  1591,      2)  /* Aura of Heart Seeker Self V */;

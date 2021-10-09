@@ -51,15 +51,15 @@ VALUES (8029,   1, 'Fenmalain Crystal Shield') /* Name */
      , (8029,  16, 'A shield imbued with the power of the Fenmalain Crystal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8029,   1,   33554786) /* Setup */
-     , (8029,   3,  536870932) /* SoundTable */
-     , (8029,   6,   67111919) /* PaletteBase */
-     , (8029,   7,  268436037) /* ClothingBase */
-     , (8029,   8,  100670976) /* Icon */
-     , (8029,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8029,   1, 0x02000162) /* Setup */
+     , (8029,   3, 0x20000014) /* SoundTable */
+     , (8029,   6, 0x04000BEF) /* PaletteBase */
+     , (8029,   7, 0x10000245) /* ClothingBase */
+     , (8029,   8, 0x06001E00) /* Icon */
+     , (8029,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8029,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8029,   246,      2)  /* Invulnerability Self III */
-     , (8029,  2003,      2)  /* Warrior's Lesser Vitality */
+VALUES (8029,  2003,      2)  /* Warrior's Lesser Vitality */
+     , (8029,   246,      2)  /* Invulnerability Self III */
      , (8029,  2007,      2)  /* Warrior's Lesser Vigor */;

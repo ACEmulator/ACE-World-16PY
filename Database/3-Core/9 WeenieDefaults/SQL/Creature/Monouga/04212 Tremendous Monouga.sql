@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4212,   1, 'Tremendous Monouga') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4212,   1,   33555199) /* Setup */
-     , (4212,   2,  150995080) /* MotionTable */
-     , (4212,   3,  536870992) /* SoundTable */
-     , (4212,   4,  805306401) /* CombatTable */
-     , (4212,   6,   67111302) /* PaletteBase */
-     , (4212,   7,  268435726) /* ClothingBase */
-     , (4212,   8,  100669117) /* Icon */
-     , (4212,  22,  872415257) /* PhysicsEffectTable */
+VALUES (4212,   1, 0x020002FF) /* Setup */
+     , (4212,   2, 0x09000088) /* MotionTable */
+     , (4212,   3, 0x20000050) /* SoundTable */
+     , (4212,   4, 0x30000021) /* CombatTable */
+     , (4212,   6, 0x04000986) /* PaletteBase */
+     , (4212,   7, 0x1000010E) /* ClothingBase */
+     , (4212,   8, 0x060016BD) /* Icon */
+     , (4212,  22, 0x34000019) /* PhysicsEffectTable */
      , (4212,  35,         32) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -87,11 +87,11 @@ VALUES (4212,   1, 99550, 0, 0, 100000) /* MaxHealth */
      , (4212,   5,     0, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (4212,  6, 0, 3, 0, 365, 0, 383.366763780855) /* MeleeDefense        Specialized */
-     , (4212,  7, 0, 3, 0, 480, 0, 383.366763780855) /* MissileDefense      Specialized */
-     , (4212, 13, 0, 3, 0, 167, 0, 383.366763780855) /* UnarmedCombat       Specialized */
-     , (4212, 15, 0, 3, 0, 390, 0, 383.366763780855) /* MagicDefense        Specialized */
-     , (4212, 20, 0, 3, 0, 170, 0, 383.366763780855) /* Deception           Specialized */;
+VALUES (4212,  6, 0, 3, 0, 365, 0, 383.36676378085525) /* MeleeDefense        Specialized */
+     , (4212,  7, 0, 3, 0, 480, 0, 383.36676378085525) /* MissileDefense      Specialized */
+     , (4212, 13, 0, 3, 0, 167, 0, 383.36676378085525) /* UnarmedCombat       Specialized */
+     , (4212, 15, 0, 3, 0, 390, 0, 383.36676378085525) /* MagicDefense        Specialized */
+     , (4212, 20, 0, 3, 0, 170, 0, 383.36676378085525) /* Deception           Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (4212,  0,  4, 35,    0,  450,  450,  450,  450,  450,  450,  450,  450,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

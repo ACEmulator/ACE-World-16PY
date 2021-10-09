@@ -22,5 +22,5 @@ VALUES (19183,   1, 'Rending Talon Cottages') /* Name */
      , (19183,  16, 'Welcome to Rending Talon Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19183,   1,   33557463) /* Setup */
-     , (19183,   8,  100668115) /* Icon */;
+VALUES (19183,   1, 0x02000BD7) /* Setup */
+     , (19183,   8, 0x060012D3) /* Icon */;

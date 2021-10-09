@@ -43,21 +43,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20143,   1, 'Good Chilling Isparian Wand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20143,   1,   33557781) /* Setup */
-     , (20143,   3,  536870932) /* SoundTable */
-     , (20143,   6,   67111919) /* PaletteBase */
-     , (20143,   7,  268436395) /* ClothingBase */
-     , (20143,   8,  100672989) /* Icon */
-     , (20143,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20143,   1, 0x02000D15) /* Setup */
+     , (20143,   3, 0x20000014) /* SoundTable */
+     , (20143,   6, 0x04000BEF) /* PaletteBase */
+     , (20143,   7, 0x100003AB) /* ClothingBase */
+     , (20143,   8, 0x060025DD) /* Icon */
+     , (20143,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20143,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20143,   562,      2)  /* Creature Enchantment Mastery Self VI */
-     , (20143,   584,      2)  /* Item Enchantment Mastery Self IV */
-     , (20143,   608,      2)  /* Life Magic Mastery Self IV */
+VALUES (20143,   656,      2)  /* Mana Conversion Mastery Self IV */
+     , (20143,  2680,      2)  /* Feeble Mana Conversion Prowess */
      , (20143,   632,      2)  /* War Magic Mastery Self IV */
-     , (20143,   656,      2)  /* Mana Conversion Mastery Self IV */
+     , (20143,   608,      2)  /* Life Magic Mastery Self IV */
+     , (20143,   584,      2)  /* Item Enchantment Mastery Self IV */
      , (20143,  1035,      2)  /* Cold Protection Self VI */
-     , (20143,  1424,      2)  /* Focus Self IV */
      , (20143,  1448,      2)  /* Willpower Self IV */
-     , (20143,  2680,      2)  /* Feeble Mana Conversion Prowess */;
+     , (20143,  1424,      2)  /* Focus Self IV */
+     , (20143,   562,      2)  /* Creature Enchantment Mastery Self VI */;

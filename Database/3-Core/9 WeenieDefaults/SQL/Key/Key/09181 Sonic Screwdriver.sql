@@ -26,7 +26,7 @@ VALUES (9181,   1, 'Sonic Screwdriver') /* Name */
      , (9181,  16, 'A dull silver rod. When the lower handle is pushed inward, the rod makes a high-pitched oscillating sound.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9181,   1,   33554784) /* Setup */
-     , (9181,   3,  536870932) /* SoundTable */
-     , (9181,   8,  100671384) /* Icon */
-     , (9181,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9181,   1, 0x02000160) /* Setup */
+     , (9181,   3, 0x20000014) /* SoundTable */
+     , (9181,   8, 0x06001F98) /* Icon */
+     , (9181,  22, 0x3400002B) /* PhysicsEffectTable */;

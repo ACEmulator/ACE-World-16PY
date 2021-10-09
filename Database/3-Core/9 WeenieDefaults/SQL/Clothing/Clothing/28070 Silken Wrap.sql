@@ -40,13 +40,13 @@ VALUES (28070,   1, 'Silken Wrap') /* Name */
      , (28070,  16, 'A wrap crafted by the tailor To-ping Ra for use under the armor. This wrap has been stitched with pyreal woven thread to enhance the magical qualities of the object.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28070,   1,   33554854) /* Setup */
-     , (28070,   3,  536870932) /* SoundTable */
-     , (28070,   6,   67108990) /* PaletteBase */
-     , (28070,   7,  268436841) /* ClothingBase */
-     , (28070,   8,  100667370) /* Icon */
-     , (28070,  22,  872415275) /* PhysicsEffectTable */
-     , (28070,  36,  234881046) /* MutateFilter */;
+VALUES (28070,   1, 0x020001A6) /* Setup */
+     , (28070,   3, 0x20000014) /* SoundTable */
+     , (28070,   6, 0x0400007E) /* PaletteBase */
+     , (28070,   7, 0x10000569) /* ClothingBase */
+     , (28070,   8, 0x06000FEA) /* Icon */
+     , (28070,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (28070,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28070,  3362,      2)  /* Blessing of the Horn */

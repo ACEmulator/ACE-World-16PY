@@ -22,5 +22,5 @@ VALUES (14727,   1, 'Pine Hillock Settlement') /* Name */
      , (14727,  16, 'Welcome to Pine Hillock Settlement') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14727,   1,   33557463) /* Setup */
-     , (14727,   8,  100668115) /* Icon */;
+VALUES (14727,   1, 0x02000BD7) /* Setup */
+     , (14727,   8, 0x060012D3) /* Icon */;

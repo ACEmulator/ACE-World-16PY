@@ -45,18 +45,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6219,   1, 'Fine Shivering Atlan Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6219,   1,   33556310) /* Setup */
-     , (6219,   3,  536870932) /* SoundTable */
-     , (6219,   6,   67111919) /* PaletteBase */
-     , (6219,   7,  268435889) /* ClothingBase */
-     , (6219,   8,  100670518) /* Icon */
-     , (6219,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6219,   1, 0x02000756) /* Setup */
+     , (6219,   3, 0x20000014) /* SoundTable */
+     , (6219,   6, 0x04000BEF) /* PaletteBase */
+     , (6219,   7, 0x100001B1) /* ClothingBase */
+     , (6219,   8, 0x06001C36) /* Icon */
+     , (6219,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6219,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6219,  1032,      2)  /* Cold Protection Self III */
-     , (6219,  1399,      2)  /* Quickness Self III */
-     , (6219,  1589,      2)  /* Aura of Heart Seeker Self III */
+VALUES (6219,  1399,      2)  /* Quickness Self III */
+     , (6219,  1032,      2)  /* Cold Protection Self III */
      , (6219,  1602,      2)  /* Aura of Defender Self III */
+     , (6219,  1589,      2)  /* Aura of Heart Seeker Self III */
      , (6219,  1613,      2)  /* Aura of Blood Drinker Self III */
      , (6219,  1624,      2)  /* Aura of Swift Killer Self III */;

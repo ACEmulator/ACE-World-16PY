@@ -39,11 +39,11 @@ VALUES (8116,   1, 'Fenmalain Portal Gem') /* Name */
      , (8116,  16, 'This is a portal gem attuned to the energies of the Fenmalain Chamber.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8116,   1,   33556769) /* Setup */
-     , (8116,   3,  536870932) /* SoundTable */
-     , (8116,   6,   67111919) /* PaletteBase */
-     , (8116,   7,  268435723) /* ClothingBase */
-     , (8116,   8,  100670994) /* Icon */
-     , (8116,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8116,   1, 0x02000921) /* Setup */
+     , (8116,   3, 0x20000014) /* SoundTable */
+     , (8116,   6, 0x04000BEF) /* PaletteBase */
+     , (8116,   7, 0x1000010B) /* ClothingBase */
+     , (8116,   8, 0x06001E12) /* Icon */
+     , (8116,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8116,  28,       2001) /* Spell - Portal Sending */
-     , (8116,  36,  234881046) /* MutateFilter */;
+     , (8116,  36, 0x0E000016) /* MutateFilter */;

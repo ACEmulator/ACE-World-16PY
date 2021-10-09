@@ -30,8 +30,8 @@ VALUES (14548,   1, 'Acid Trap') /* Name */
      , (14548,  22, 'You hear a faint clicking sound.') /* ActivationFailure */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14548,   1,   33554667) /* Setup */
-     , (14548,   3,  536870932) /* SoundTable */
-     , (14548,   8,  100667494) /* Icon */
-     , (14548,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14548,   1, 0x020000EB) /* Setup */
+     , (14548,   3, 0x20000014) /* SoundTable */
+     , (14548,   8, 0x06001066) /* Icon */
+     , (14548,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14548,  28,         62) /* Spell - Acid Stream V */;

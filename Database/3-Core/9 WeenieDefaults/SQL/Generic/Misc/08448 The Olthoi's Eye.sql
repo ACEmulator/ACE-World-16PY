@@ -22,7 +22,7 @@ VALUES (8448,   1, 'The Olthoi''s Eye') /* Name */
      , (8448,  16, 'The Olthoi''s Eye') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8448,   1,   33555594) /* Setup */
-     , (8448,   6,   67111782) /* PaletteBase */
-     , (8448,   7,  268435687) /* ClothingBase */
-     , (8448,   8,  100668115) /* Icon */;
+VALUES (8448,   1, 0x0200048A) /* Setup */
+     , (8448,   6, 0x04000B66) /* PaletteBase */
+     , (8448,   7, 0x100000E7) /* ClothingBase */
+     , (8448,   8, 0x060012D3) /* Icon */;

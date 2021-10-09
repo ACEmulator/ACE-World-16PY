@@ -51,16 +51,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19965,   1, 'Quality Coruscating Isparian Staff') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19965,   1,   33556372) /* Setup */
-     , (19965,   3,  536870932) /* SoundTable */
-     , (19965,   6,   67111919) /* PaletteBase */
-     , (19965,   7,  268436384) /* ClothingBase */
-     , (19965,   8,  100672937) /* Icon */
-     , (19965,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19965,   1, 0x02000794) /* Setup */
+     , (19965,   3, 0x20000014) /* SoundTable */
+     , (19965,   6, 0x04000BEF) /* PaletteBase */
+     , (19965,   7, 0x100003A0) /* ClothingBase */
+     , (19965,   8, 0x060025A9) /* Icon */
+     , (19965,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19965,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19965,  1071,      2)  /* Lightning Protection Self VI */
-     , (19965,  1401,      2)  /* Quickness Self V */
-     , (19965,  1589,      2)  /* Aura of Heart Seeker Self III */
-     , (19965,  1613,      2)  /* Aura of Blood Drinker Self III */;
+VALUES (19965,  1589,      2)  /* Aura of Heart Seeker Self III */
+     , (19965,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (19965,  1071,      2)  /* Lightning Protection Self VI */
+     , (19965,  1401,      2)  /* Quickness Self V */;

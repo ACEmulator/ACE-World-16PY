@@ -24,9 +24,9 @@ VALUES (23626,   1, 'Falcon Banner') /* Name */
      , (23626,  16, 'A framed banner with a Falcon on it.  It is somewhat tattered, and the colors seem to be washed out.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23626,   1,   33557239) /* Setup */
-     , (23626,   3,  536870932) /* SoundTable */
-     , (23626,   6,   67113338) /* PaletteBase */
-     , (23626,   7,  268436200) /* ClothingBase */
-     , (23626,   8,  100671888) /* Icon */
-     , (23626,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23626,   1, 0x02000AF7) /* Setup */
+     , (23626,   3, 0x20000014) /* SoundTable */
+     , (23626,   6, 0x0400117A) /* PaletteBase */
+     , (23626,   7, 0x100002E8) /* ClothingBase */
+     , (23626,   8, 0x06002190) /* Icon */
+     , (23626,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -34,7 +34,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31117,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31117,   5,       0) /* ManaRate */
+VALUES (31117,   5,      -0) /* ManaRate */
      , (31117,  21,    0.95) /* WeaponLength */
      , (31117,  22,     0.5) /* DamageVariance */
      , (31117,  29,    1.07) /* WeaponDefense */
@@ -45,15 +45,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31117,   1, 'Flaming Broad Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31117,   1,   33555786) /* Setup */
-     , (31117,   3,  536870932) /* SoundTable */
-     , (31117,   6,   67111919) /* PaletteBase */
-     , (31117,   7,  268435770) /* ClothingBase */
-     , (31117,   8,  100669015) /* Icon */
-     , (31117,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31117,   1, 0x0200054A) /* Setup */
+     , (31117,   3, 0x20000014) /* SoundTable */
+     , (31117,   6, 0x04000BEF) /* PaletteBase */
+     , (31117,   7, 0x1000013A) /* ClothingBase */
+     , (31117,   8, 0x06001657) /* Icon */
+     , (31117,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31117,  1591,      2)  /* Aura of Heart Seeker Self V */
-     , (31117,  1604,      2)  /* Aura of Defender Self V */
+VALUES (31117,  1604,      2)  /* Aura of Defender Self V */
+     , (31117,  1591,      2)  /* Aura of Heart Seeker Self V */
      , (31117,  1615,      2)  /* Aura of Blood Drinker Self V */
      , (31117,  1626,      2)  /* Aura of Swift Killer Self V */;

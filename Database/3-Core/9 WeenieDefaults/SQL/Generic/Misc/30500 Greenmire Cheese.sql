@@ -26,7 +26,7 @@ VALUES (30500,   1, 'Greenmire Cheese') /* Name */
      , (30500,  33, 'ShoushiNenAiCheese1204') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30500,   1,   33554672) /* Setup */
-     , (30500,   3,  536871012) /* SoundTable */
-     , (30500,   8,  100667458) /* Icon */
-     , (30500,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30500,   1, 0x020000F0) /* Setup */
+     , (30500,   3, 0x20000064) /* SoundTable */
+     , (30500,   8, 0x06001042) /* Icon */
+     , (30500,  22, 0x3400002B) /* PhysicsEffectTable */;

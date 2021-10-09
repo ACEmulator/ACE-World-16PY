@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31013,   1, 'CreatureName') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31013,   1,   33557003) /* Setup */
-     , (31013,   2,  150994950) /* MotionTable */
-     , (31013,   3,  536870922) /* SoundTable */
-     , (31013,   4,  805306371) /* CombatTable */
-     , (31013,   6,   67113158) /* PaletteBase */
-     , (31013,   7,  268436158) /* ClothingBase */
-     , (31013,   8,  100667447) /* Icon */
-     , (31013,  22,  872415262) /* PhysicsEffectTable */
+VALUES (31013,   1, 0x02000A0B) /* Setup */
+     , (31013,   2, 0x09000006) /* MotionTable */
+     , (31013,   3, 0x2000000A) /* SoundTable */
+     , (31013,   4, 0x30000003) /* CombatTable */
+     , (31013,   6, 0x040010C6) /* PaletteBase */
+     , (31013,   7, 0x100002BE) /* ClothingBase */
+     , (31013,   8, 0x06001037) /* Icon */
+     , (31013,  22, 0x3400001E) /* PhysicsEffectTable */
      , (31013,  32,        480) /* WieldedTreasureType - 
                                    Wield Stone Hatchet (29964) | Probability: 25%
                                    Wield Stone Mace (29969) | Probability: 25%
@@ -92,17 +92,17 @@ VALUES (31013,   1,  2700, 0, 0, 2908) /* MaxHealth */
      , (31013,   5,     0, 0, 0, 85) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (31013,  1, 0, 3, 0, 170, 0, 2326.83942757857) /* Axe                 Specialized */
-     , (31013,  4, 0, 3, 0, 170, 0, 2326.83942757857) /* Dagger              Specialized */
-     , (31013,  5, 0, 3, 0, 170, 0, 2326.83942757857) /* Mace                Specialized */
-     , (31013,  6, 0, 3, 0, 380, 0, 2326.83942757857) /* MeleeDefense        Specialized */
-     , (31013,  7, 0, 3, 0, 480, 0, 2326.83942757857) /* MissileDefense      Specialized */
-     , (31013,  9, 0, 3, 0, 170, 0, 2326.83942757857) /* Spear               Specialized */
-     , (31013, 10, 0, 3, 0, 170, 0, 2326.83942757857) /* Staff               Specialized */
-     , (31013, 11, 0, 3, 0, 170, 0, 2326.83942757857) /* Sword               Specialized */
-     , (31013, 12, 0, 3, 0, 120, 0, 2326.83942757857) /* ThrownWeapon        Specialized */
-     , (31013, 13, 0, 3, 0, 135, 0, 2326.83942757857) /* UnarmedCombat       Specialized */
-     , (31013, 15, 0, 3, 0, 420, 0, 2326.83942757857) /* MagicDefense        Specialized */;
+VALUES (31013,  1, 0, 3, 0, 170, 0, 2326.839427578572) /* Axe                 Specialized */
+     , (31013,  4, 0, 3, 0, 170, 0, 2326.839427578572) /* Dagger              Specialized */
+     , (31013,  5, 0, 3, 0, 170, 0, 2326.839427578572) /* Mace                Specialized */
+     , (31013,  6, 0, 3, 0, 380, 0, 2326.839427578572) /* MeleeDefense        Specialized */
+     , (31013,  7, 0, 3, 0, 480, 0, 2326.839427578572) /* MissileDefense      Specialized */
+     , (31013,  9, 0, 3, 0, 170, 0, 2326.839427578572) /* Spear               Specialized */
+     , (31013, 10, 0, 3, 0, 170, 0, 2326.839427578572) /* Staff               Specialized */
+     , (31013, 11, 0, 3, 0, 170, 0, 2326.839427578572) /* Sword               Specialized */
+     , (31013, 12, 0, 3, 0, 120, 0, 2326.839427578572) /* ThrownWeapon        Specialized */
+     , (31013, 13, 0, 3, 0, 135, 0, 2326.839427578572) /* UnarmedCombat       Specialized */
+     , (31013, 15, 0, 3, 0, 420, 0, 2326.839427578572) /* MagicDefense        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (31013,  0,  4,  0,    0,  560,  672,  672,  560,  560,  448,  560,  448,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

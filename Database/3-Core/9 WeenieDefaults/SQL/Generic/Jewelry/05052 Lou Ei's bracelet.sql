@@ -29,10 +29,10 @@ VALUES (5052,   1, 'Lou Ei''s bracelet') /* Name */
      , (5052,  33, 'BraceletLouEiQuest') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5052,   1,   33554683) /* Setup */
-     , (5052,   3,  536870932) /* SoundTable */
-     , (5052,   6,   67111919) /* PaletteBase */
-     , (5052,   7,  268435738) /* ClothingBase */
-     , (5052,   8,  100668622) /* Icon */
-     , (5052,  22,  872415275) /* PhysicsEffectTable */
-     , (5052,  36,  234881046) /* MutateFilter */;
+VALUES (5052,   1, 0x020000FB) /* Setup */
+     , (5052,   3, 0x20000014) /* SoundTable */
+     , (5052,   6, 0x04000BEF) /* PaletteBase */
+     , (5052,   7, 0x1000011A) /* ClothingBase */
+     , (5052,   8, 0x060014CE) /* Icon */
+     , (5052,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (5052,  36, 0x0E000016) /* MutateFilter */;

@@ -29,7 +29,7 @@ VALUES (11321,   1, 'Vault Key') /* Name */
      , (11321,  33, 'TanuaCompleted01') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11321,   1,   33554784) /* Setup */
-     , (11321,   3,  536870932) /* SoundTable */
-     , (11321,   8,  100668437) /* Icon */
-     , (11321,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11321,   1, 0x02000160) /* Setup */
+     , (11321,   3, 0x20000014) /* SoundTable */
+     , (11321,   8, 0x06001415) /* Icon */
+     , (11321,  22, 0x3400002B) /* PhysicsEffectTable */;

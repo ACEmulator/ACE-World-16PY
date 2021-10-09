@@ -23,7 +23,7 @@ VALUES (1010,   1, 'House of Lore') /* Name */
      , (1010,  16, 'House of Lore') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1010,   1,   33555909) /* Setup */
-     , (1010,   6,   67111860) /* PaletteBase */
-     , (1010,   7,  268435822) /* ClothingBase */
-     , (1010,   8,  100668115) /* Icon */;
+VALUES (1010,   1, 0x020005C5) /* Setup */
+     , (1010,   6, 0x04000BB4) /* PaletteBase */
+     , (1010,   7, 0x1000016E) /* ClothingBase */
+     , (1010,   8, 0x060012D3) /* Icon */;

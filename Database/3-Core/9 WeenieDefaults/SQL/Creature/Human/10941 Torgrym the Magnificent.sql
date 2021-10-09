@@ -62,12 +62,12 @@ VALUES (10941,   1, 'Torgrym the Magnificent') /* Name */
      , (10941,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10941,   1,   33554433) /* Setup */
-     , (10941,   2,  150994945) /* MotionTable */
-     , (10941,   3,  536870913) /* SoundTable */
-     , (10941,   4,  805306368) /* CombatTable */
-     , (10941,   8,  100667446) /* Icon */
-     , (10941,  22,  872415236) /* PhysicsEffectTable */
+VALUES (10941,   1, 0x02000001) /* Setup */
+     , (10941,   2, 0x09000001) /* MotionTable */
+     , (10941,   3, 0x20000001) /* SoundTable */
+     , (10941,   4, 0x30000000) /* CombatTable */
+     , (10941,   8, 0x06001036) /* Icon */
+     , (10941,  22, 0x34000004) /* PhysicsEffectTable */
      , (10941,  32,        430) /* WieldedTreasureType - 
                                    Wield Doublet (2596) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.641%
                                    Wield Doublet (2596) | Palette: DeepBrown (6) | Shade: 0.67 | Probability: 0.641%
@@ -365,18 +365,18 @@ VALUES (10941,   1,   150, 0, 0, 250) /* MaxHealth */
      , (10941,   5,   150, 0, 0, 390) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (10941,  2, 0, 3, 0,   0, 0, 705.690192444448) /* Bow                 Specialized */
-     , (10941,  4, 0, 3, 0,   0, 0, 705.690192444448) /* Dagger              Specialized */
-     , (10941,  6, 0, 3, 0, 300, 0, 705.690192444448) /* MeleeDefense        Specialized */
-     , (10941,  7, 0, 3, 0, 300, 0, 705.690192444448) /* MissileDefense      Specialized */
-     , (10941, 11, 0, 3, 0,  20, 0, 705.690192444448) /* Sword               Specialized */
-     , (10941, 14, 0, 3, 0, 250, 0, 705.690192444448) /* ArcaneLore          Specialized */
-     , (10941, 15, 0, 3, 0, 265, 0, 705.690192444448) /* MagicDefense        Specialized */
-     , (10941, 20, 0, 3, 0, 150, 0, 705.690192444448) /* Deception           Specialized */
-     , (10941, 24, 0, 3, 0,  20, 0, 705.690192444448) /* Run                 Specialized */
-     , (10941, 31, 0, 3, 0, 250, 0, 705.690192444448) /* CreatureEnchantment Specialized */
-     , (10941, 33, 0, 3, 0, 250, 0, 705.690192444448) /* LifeMagic           Specialized */
-     , (10941, 34, 0, 3, 0, 250, 0, 705.690192444448) /* WarMagic            Specialized */;
+VALUES (10941,  2, 0, 3, 0,   0, 0, 705.6901924444477) /* Bow                 Specialized */
+     , (10941,  4, 0, 3, 0,   0, 0, 705.6901924444477) /* Dagger              Specialized */
+     , (10941,  6, 0, 3, 0, 300, 0, 705.6901924444477) /* MeleeDefense        Specialized */
+     , (10941,  7, 0, 3, 0, 300, 0, 705.6901924444477) /* MissileDefense      Specialized */
+     , (10941, 11, 0, 3, 0,  20, 0, 705.6901924444477) /* Sword               Specialized */
+     , (10941, 14, 0, 3, 0, 250, 0, 705.6901924444477) /* ArcaneLore          Specialized */
+     , (10941, 15, 0, 3, 0, 265, 0, 705.6901924444477) /* MagicDefense        Specialized */
+     , (10941, 20, 0, 3, 0, 150, 0, 705.6901924444477) /* Deception           Specialized */
+     , (10941, 24, 0, 3, 0,  20, 0, 705.6901924444477) /* Run                 Specialized */
+     , (10941, 31, 0, 3, 0, 250, 0, 705.6901924444477) /* CreatureEnchantment Specialized */
+     , (10941, 33, 0, 3, 0, 250, 0, 705.6901924444477) /* LifeMagic           Specialized */
+     , (10941, 34, 0, 3, 0, 250, 0, 705.6901924444477) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (10941,  0,  4,  0,    0,  225,  203,  225,  248,   90,   90,  225,  135,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -390,30 +390,30 @@ VALUES (10941,  0,  4,  0,    0,  225,  203,  225,  248,   90,   90,  225,  135,
      , (10941,  8,  4,  2, 0.75,  225,  203,  225,  248,   90,   90,  225,  135,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10941,    63,   2.12)  /* Acid Stream VI */
-     , (10941,   176,   2.05)  /* Fester Other VI */
-     , (10941,   234,   2.05)  /* Vulnerability Other VI */
-     , (10941,   267,   2.05)  /* Defenselessness Other VI */
-     , (10941,   284,   2.05)  /* Magic Yield Other V */
-     , (10941,   526,   2.05)  /* Acid Vulnerability Other VI */
-     , (10941,  1053,   2.05)  /* Bludgeoning Vulnerability Other VI */
-     , (10941,  1065,   2.05)  /* Cold Vulnerability Other VI */
-     , (10941,  1089,   2.05)  /* Lightning Vulnerability Other VI */
+VALUES (10941,  1089,   2.05)  /* Lightning Vulnerability Other VI */
+     , (10941,  2128,   2.05)  /* Ilservian's Flame */
      , (10941,  1108,   2.05)  /* Fire Vulnerability Other VI */
-     , (10941,  1132,   2.05)  /* Blade Vulnerability Other VI */
      , (10941,  1156,   2.05)  /* Piercing Vulnerability Other VI */
      , (10941,  1176,   2.05)  /* Harm Other VI */
-     , (10941,  1241,   2.05)  /* Drain Health Other V */
-     , (10941,  1327,   2.05)  /* Imperil Other VI */
      , (10941,  1343,   2.05)  /* Weakness Other VI */
-     , (10941,  2073,   2.05)  /* Adja's Intervention */
-     , (10941,  2128,   2.05)  /* Ilservian's Flame */
+     , (10941,   267,   2.05)  /* Defenselessness Other VI */
      , (10941,  2132,   2.05)  /* The Spike */
-     , (10941,  2136,   2.05)  /* Icy Torment */
      , (10941,  2140,   2.05)  /* Alset's Coil */
+     , (10941,   526,   2.05)  /* Acid Vulnerability Other VI */
+     , (10941,  2765,   2.05)  /* Martyr's Hecatomb VI */
+     , (10941,   176,   2.05)  /* Fester Other VI */
+     , (10941,  2136,   2.05)  /* Icy Torment */
+     , (10941,  1241,   2.05)  /* Drain Health Other V */
+     , (10941,  2073,   2.05)  /* Adja's Intervention */
+     , (10941,   284,   2.05)  /* Magic Yield Other V */
+     , (10941,  1053,   2.05)  /* Bludgeoning Vulnerability Other VI */
      , (10941,  2144,   2.05)  /* Crushing Shame */
      , (10941,  2146,   2.05)  /* Evisceration */
-     , (10941,  2765,   2.05)  /* Martyr's Hecatomb VI */;
+     , (10941,  1065,   2.05)  /* Cold Vulnerability Other VI */
+     , (10941,   234,   2.05)  /* Vulnerability Other VI */
+     , (10941,  1132,   2.05)  /* Blade Vulnerability Other VI */
+     , (10941,  1327,   2.05)  /* Imperil Other VI */
+     , (10941,    63,   2.12)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (10941,  94) /* ATTACK_NOTIFICATION_EVENT */

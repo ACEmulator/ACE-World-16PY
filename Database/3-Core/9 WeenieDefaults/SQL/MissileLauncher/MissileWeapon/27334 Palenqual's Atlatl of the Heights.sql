@@ -17,7 +17,7 @@ VALUES (27334,   1,        256) /* ItemType - MissileWeapon */
      , (27334,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (27334,  49,         15) /* WeaponTime */
      , (27334,  50,          4) /* AmmoType - Atlatl */
-     , (27334,  51,          2) /* CombatUse - Missle */
+     , (27334,  51,          2) /* CombatUse - Missile */
      , (27334,  60,        120) /* WeaponRange */
      , (27334,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27334, 106,        250) /* ItemSpellcraft */
@@ -38,7 +38,7 @@ VALUES (27334,  22, True ) /* Inscribable */
      , (27334,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27334,   5, -0.033333) /* ManaRate */
+VALUES (27334,   5,  -0.033) /* ManaRate */
      , (27334,  26,    24.9) /* MaximumVelocity */
      , (27334,  29,    1.08) /* WeaponDefense */
      , (27334,  62,    1.08) /* WeaponOffense */
@@ -51,20 +51,20 @@ VALUES (27334,   1, 'Palenqual''s Atlatl of the Heights') /* Name */
      , (27334,  16, 'An atlatl fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27334,   1,   33558660) /* Setup */
-     , (27334,   3,  536870932) /* SoundTable */
-     , (27334,   6,   67113336) /* PaletteBase */
-     , (27334,   7,  268436249) /* ClothingBase */
-     , (27334,   8,  100676385) /* Icon */
-     , (27334,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27334,   1, 0x02001084) /* Setup */
+     , (27334,   3, 0x20000014) /* SoundTable */
+     , (27334,   6, 0x04001178) /* PaletteBase */
+     , (27334,   7, 0x10000319) /* ClothingBase */
+     , (27334,   8, 0x06003321) /* Icon */
+     , (27334,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27334,  2439,      2)  /* Rockslide */
-     , (27334,  2442,      2)  /* Stone Cliffs */
-     , (27334,  2445,      2)  /* Strength of Earth */
+VALUES (27334,  2471,      2)  /* Lesser Still Water */
      , (27334,  2447,      2)  /* Lesser Growth */
-     , (27334,  2450,      2)  /* Lesser Hunter's Acumen */
-     , (27334,  2453,      2)  /* Lesser Thorns */
-     , (27334,  2471,      2)  /* Lesser Still Water */
+     , (27334,  2439,      2)  /* Rockslide */
      , (27334,  2474,      2)  /* Lesser Torrent */
+     , (27334,  2450,      2)  /* Lesser Hunter's Acumen */
+     , (27334,  2442,      2)  /* Stone Cliffs */
+     , (27334,  2453,      2)  /* Lesser Thorns */
+     , (27334,  2445,      2)  /* Strength of Earth */
      , (27334,  3219,      2)  /* Lesser Cascade */;

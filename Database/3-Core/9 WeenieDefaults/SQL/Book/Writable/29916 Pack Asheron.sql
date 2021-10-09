@@ -33,12 +33,12 @@ VALUES (29916,   1, 'Pack Asheron') /* Name */
      , (29916,  16, 'Lord Asheron Realadain of Knorr') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29916,   1,   33559084) /* Setup */
-     , (29916,   3,  536870932) /* SoundTable */
-     , (29916,   6,   67112626) /* PaletteBase */
-     , (29916,   7,  268436402) /* ClothingBase */
-     , (29916,   8,  100673074) /* Icon */
-     , (29916,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29916,   1, 0x0200122C) /* Setup */
+     , (29916,   3, 0x20000014) /* SoundTable */
+     , (29916,   6, 0x04000EB2) /* PaletteBase */
+     , (29916,   7, 0x100003B2) /* ClothingBase */
+     , (29916,   8, 0x06002632) /* Icon */
+     , (29916,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (29916, 4, 1000);

@@ -25,8 +25,8 @@ VALUES (22212,   1, 'Ursuin Rug Alive Rug 1 Gen') /* Name */
      , (22212,  34, 'UrsuinRugAliveRug1') /* GeneratorEvent */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22212,   1,   33555051) /* Setup */
-     , (22212,   8,  100667494) /* Icon */;
+VALUES (22212,   1, 0x0200026B) /* Setup */
+     , (22212,   8, 0x06001066) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22212, -1, 22121, 0, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Ursuin Rug (22121) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

@@ -24,7 +24,7 @@ VALUES (20487,   1, 'Scroll of Decrepitude''s Grasp') /* Name */
      , (20487,  15, 'When learned, this spell decrease target''s natural healing rate by 60%.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20487,   1,   33554826) /* Setup */
-     , (20487,   8,  100676941) /* Icon */
-     , (20487,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20487,   1, 0x0200018A) /* Setup */
+     , (20487,   8, 0x0600354D) /* Icon */
+     , (20487,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20487,  28,       2178) /* Spell - Decrepitude's Grasp */;

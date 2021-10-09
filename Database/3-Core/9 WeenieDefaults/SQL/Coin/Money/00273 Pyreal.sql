@@ -21,5 +21,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (273,   1, 'Pyreal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (273,   1,   33557367) /* Setup */
-     , (273,   8,  100672159) /* Icon */;
+VALUES (273,   1, 0x02000B77) /* Setup */
+     , (273,   8, 0x0600229F) /* Icon */;

@@ -49,13 +49,13 @@ VALUES (27451,   1, 'Gibbering Claw') /* Name */
      , (27451,  33, 'PickedUpClawGibbering') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27451,   1,   33558689) /* Setup */
-     , (27451,   3,  536870932) /* SoundTable */
-     , (27451,   8,  100676421) /* Icon */
-     , (27451,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27451,   1, 0x020010A1) /* Setup */
+     , (27451,   3, 0x20000014) /* SoundTable */
+     , (27451,   8, 0x06003345) /* Icon */
+     , (27451,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27451,  1591,      2)  /* Aura of Heart Seeker Self V */
-     , (27451,  1604,      2)  /* Aura of Defender Self V */
+VALUES (27451,  1604,      2)  /* Aura of Defender Self V */
+     , (27451,  1624,      2)  /* Aura of Swift Killer Self III */
      , (27451,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (27451,  1624,      2)  /* Aura of Swift Killer Self III */;
+     , (27451,  1591,      2)  /* Aura of Heart Seeker Self V */;

@@ -22,5 +22,5 @@ VALUES (4509,   1, 'Nanto: 4 miles') /* Name */
      , (4509,  16, 'Town of Nanto: 4 miles.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4509,   1,   33555986) /* Setup */
-     , (4509,   8,  100668115) /* Icon */;
+VALUES (4509,   1, 0x02000612) /* Setup */
+     , (4509,   8, 0x060012D3) /* Icon */;

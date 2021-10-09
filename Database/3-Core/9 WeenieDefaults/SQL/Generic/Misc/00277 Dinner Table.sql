@@ -20,5 +20,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (277,   1, 'Dinner Table') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (277,   1,   33554719) /* Setup */
-     , (277,   8,  100667505) /* Icon */;
+VALUES (277,   1, 0x0200011F) /* Setup */
+     , (277,   8, 0x06001071) /* Icon */;

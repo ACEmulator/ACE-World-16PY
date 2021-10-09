@@ -45,16 +45,16 @@ VALUES (6385,   1, 'EmoteTest Sword') /* Name */
      , (6385,  33, 'EmoteTestSwordQuest') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6385,   1,   33555927) /* Setup */
-     , (6385,   3,  536870932) /* SoundTable */
-     , (6385,   8,  100669772) /* Icon */
-     , (6385,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6385,   1, 0x020005D7) /* Setup */
+     , (6385,   3, 0x20000014) /* SoundTable */
+     , (6385,   8, 0x0600194C) /* Icon */
+     , (6385,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6385,  2096,      2)  /* Aura of Infected Caress */
+VALUES (6385,  2116,      2)  /* Aura of Atlan's Alacrity */
+     , (6385,  2096,      2)  /* Aura of Infected Caress */
      , (6385,  2101,      2)  /* Aura of Cragstone's Will */
-     , (6385,  2106,      2)  /* Aura of Elysa's Sight */
-     , (6385,  2116,      2)  /* Aura of Atlan's Alacrity */;
+     , (6385,  2106,      2)  /* Aura of Elysa's Sight */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (6385, 10 /* PickUp */,    0.5, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -113,7 +113,7 @@ VALUES (6385, 32 /* GotoSet */,   0.66, NULL, NULL, NULL, 'do_something_odd', NU
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  34 /* AddCharacterTitle */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,  34 /* AddCharacterTitle */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Invalid */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (6385, 32 /* GotoSet */,      1, NULL, NULL, NULL, 'do_something_odd', NULL, NULL, NULL);

@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12497,   1, 'Filos'' Font Cottages Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12497,   1,   33554867) /* Setup */
-     , (12497,   2,  150994947) /* MotionTable */
-     , (12497,   8,  100667499) /* Icon */;
+VALUES (12497,   1, 0x020001B3) /* Setup */
+     , (12497,   2, 0x09000003) /* MotionTable */
+     , (12497,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12497, 2, 3465543722, 124.833, 44.92, 28.005, -0.9627838, 0, 0, -0.2702727) /* Destination */
-/* @teleloc 0xCE90002A [124.833000 44.920000 28.005000] -0.962784 0.000000 0.000000 -0.270273 */;
+VALUES (12497, 2, 0xCE90002A, 124.833, 44.92, 28.005, -0.962784, 0, -0, -0.270273) /* Destination */
+/* @teleloc 0xCE90002A [124.833000 44.919998 28.004999] -0.962784 0.000000 -0.000000 -0.270273 */;

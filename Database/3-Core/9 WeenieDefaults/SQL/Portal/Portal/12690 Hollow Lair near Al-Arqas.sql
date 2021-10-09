@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12690,   1, 'Hollow Lair near Al-Arqas') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12690,   1,   33554867) /* Setup */
-     , (12690,   2,  150994947) /* MotionTable */
-     , (12690,   8,  100667499) /* Icon */;
+VALUES (12690,   1, 0x020001B3) /* Setup */
+     , (12690,   2, 0x09000003) /* MotionTable */
+     , (12690,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12690, 2, 2780037171, 158.08, 66.886, 48.5, 0.8637739, 0, 0, -0.5038795) /* Destination */
-/* @teleloc 0xA5B40033 [158.080000 66.886000 48.500000] 0.863774 0.000000 0.000000 -0.503880 */;
+VALUES (12690, 2, 0xA5B40033, 158.08, 66.886, 48.5, 0.863774, 0, 0, -0.50388) /* Destination */
+/* @teleloc 0xA5B40033 [158.080002 66.886002 48.500000] 0.863774 0.000000 0.000000 -0.503880 */;

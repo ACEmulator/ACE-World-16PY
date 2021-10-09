@@ -21,5 +21,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2116,   1, 'Khayyaban Clue Generator') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2116,   1,   33555051) /* Setup */
-     , (2116,   8,  100667494) /* Icon */;
+VALUES (2116,   1, 0x0200026B) /* Setup */
+     , (2116,   8, 0x06001066) /* Icon */;

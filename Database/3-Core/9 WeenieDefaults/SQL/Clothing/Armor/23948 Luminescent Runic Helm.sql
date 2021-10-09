@@ -47,21 +47,21 @@ VALUES (23948,   1, 'Luminescent Runic Helm') /* Name */
      , (23948,  15, 'This helm was worn by Sentinels of Perfect Light. They are modeled after the helms worn by the armies of Lord Atlan against the swelling darkness. The helm has a single setting for an orb.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23948,   1,   33558266) /* Setup */
-     , (23948,   3,  536870932) /* SoundTable */
-     , (23948,   6,   67108990) /* PaletteBase */
-     , (23948,   7,  268436561) /* ClothingBase */
-     , (23948,   8,  100674138) /* Icon */
-     , (23948,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23948,   1, 0x02000EFA) /* Setup */
+     , (23948,   3, 0x20000014) /* SoundTable */
+     , (23948,   6, 0x0400007E) /* PaletteBase */
+     , (23948,   7, 0x10000451) /* ClothingBase */
+     , (23948,   8, 0x06002A5A) /* Icon */
+     , (23948,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23948,  1360,      2)  /* Endurance Other VI */
-     , (23948,  2350,      2)  /* Greater Decay Durance */
-     , (23948,  2351,      2)  /* Greater Consumption Durance */
-     , (23948,  2352,      2)  /* Greater Stasis Durance */
-     , (23948,  2353,      2)  /* Greater Stimulation Durance */
+VALUES (23948,  2350,      2)  /* Greater Decay Durance */
      , (23948,  2948,      2)  /* Hieromancer's Great Ward */
+     , (23948,  1360,      2)  /* Endurance Other VI */
      , (23948,  2958,      2)  /* Blessing of the Priestess */
      , (23948,  2960,      2)  /* Greater Bludgeoning Durance */
+     , (23948,  2351,      2)  /* Greater Consumption Durance */
      , (23948,  2961,      2)  /* Greater Piercing Durance */
-     , (23948,  2962,      2)  /* Greater Slashing Durance */;
+     , (23948,  2352,      2)  /* Greater Stasis Durance */
+     , (23948,  2962,      2)  /* Greater Slashing Durance */
+     , (23948,  2353,      2)  /* Greater Stimulation Durance */;

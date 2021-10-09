@@ -22,5 +22,5 @@ VALUES (12574,   1, 'Aimaru Plains Cottages') /* Name */
      , (12574,  16, 'Welcome to Aimaru Plains Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12574,   1,   33557463) /* Setup */
-     , (12574,   8,  100668115) /* Icon */;
+VALUES (12574,   1, 0x02000BD7) /* Setup */
+     , (12574,   8, 0x060012D3) /* Icon */;

@@ -49,16 +49,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19818,   1, 'Quality Chilling Isparian Claw') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19818,   1,   33556317) /* Setup */
-     , (19818,   3,  536870932) /* SoundTable */
-     , (19818,   6,   67111919) /* PaletteBase */
-     , (19818,   7,  268436380) /* ClothingBase */
-     , (19818,   8,  100672904) /* Icon */
-     , (19818,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19818,   1, 0x0200075D) /* Setup */
+     , (19818,   3, 0x20000014) /* SoundTable */
+     , (19818,   6, 0x04000BEF) /* PaletteBase */
+     , (19818,   7, 0x1000039C) /* ClothingBase */
+     , (19818,   8, 0x06002588) /* Icon */
+     , (19818,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19818,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19818,  1033,      2)  /* Cold Protection Self IV */
-     , (19818,  1375,      2)  /* Coordination Self III */
      , (19818,  1589,      2)  /* Aura of Heart Seeker Self III */
-     , (19818,  1613,      2)  /* Aura of Blood Drinker Self III */;
+     , (19818,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (19818,  1375,      2)  /* Coordination Self III */;

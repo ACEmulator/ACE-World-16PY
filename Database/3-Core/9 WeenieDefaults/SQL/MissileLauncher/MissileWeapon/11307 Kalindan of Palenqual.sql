@@ -17,7 +17,7 @@ VALUES (11307,   1,        256) /* ItemType - MissileWeapon */
      , (11307,  48,          3) /* WeaponSkill - Crossbow */
      , (11307,  49,         90) /* WeaponTime */
      , (11307,  50,          2) /* AmmoType - Bolt */
-     , (11307,  51,          2) /* CombatUse - Missle */
+     , (11307,  51,          2) /* CombatUse - Missile */
      , (11307,  52,          2) /* ParentLocation - LeftHand */
      , (11307,  53,          3) /* PlacementPosition - LeftHand */
      , (11307,  60,        180) /* WeaponRange */
@@ -48,15 +48,15 @@ VALUES (11307,   1, 'Kalindan of Palenqual') /* Name */
      , (11307,  16, 'The Kalindan of Palenqual, an Aun Tumerok relic. This missile weapon was given to the Aun xuta by spirits called the Deru. It is the embodiment of Marae Lassel''s spirit - a single great totem for the island as a whole. Three Tumerok fetishes are attached to this weapon; those of Timaru, Carenzi, and Storm.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11307,   1,   33557238) /* Setup */
-     , (11307,   3,  536870932) /* SoundTable */
-     , (11307,   8,  100671872) /* Icon */
-     , (11307,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11307,   1, 0x02000AF6) /* Setup */
+     , (11307,   3, 0x20000014) /* SoundTable */
+     , (11307,   8, 0x06002180) /* Icon */
+     , (11307,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11307,   170,      2)  /* Regeneration Self VI */
-     , (11307,  1378,      2)  /* Coordination Self VI */
-     , (11307,  1605,      2)  /* Aura of Defender Self VI */
+VALUES (11307,  1605,      2)  /* Aura of Defender Self VI */
      , (11307,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (11307,  2415,      2)  /* Eye of the Hunter */
-     , (11307,  2430,      2)  /* Timaru's Shelter */;
+     , (11307,  2430,      2)  /* Timaru's Shelter */
+     , (11307,  1378,      2)  /* Coordination Self VI */
+     , (11307,   170,      2)  /* Regeneration Self VI */
+     , (11307,  2415,      2)  /* Eye of the Hunter */;

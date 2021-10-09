@@ -47,16 +47,16 @@ VALUES (24171,   1, 'Oswald''s Dirk') /* Name */
      , (24171,  15, 'A very sharp and light dirk capable of multiple blows at once.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24171,   1,   33558325) /* Setup */
-     , (24171,   3,  536870932) /* SoundTable */
-     , (24171,   8,  100674287) /* Icon */
-     , (24171,  22,  872415275) /* PhysicsEffectTable */
-     , (24171,  36,  234881044) /* MutateFilter */;
+VALUES (24171,   1, 0x02000F35) /* Setup */
+     , (24171,   3, 0x20000014) /* SoundTable */
+     , (24171,   8, 0x06002AEF) /* Icon */
+     , (24171,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24171,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24171,  1408,      2)  /* Quickness Other VI */
-     , (24171,  1592,      2)  /* Aura of Heart Seeker Self VI */
+VALUES (24171,  1625,      2)  /* Aura of Swift Killer Self IV */
+     , (24171,  1408,      2)  /* Quickness Other VI */
+     , (24171,  2521,      2)  /* Major Lockpick Prowess */
      , (24171,  1604,      2)  /* Aura of Defender Self V */
-     , (24171,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (24171,  1625,      2)  /* Aura of Swift Killer Self IV */
-     , (24171,  2521,      2)  /* Major Lockpick Prowess */;
+     , (24171,  1592,      2)  /* Aura of Heart Seeker Self VI */
+     , (24171,  1616,      2)  /* Aura of Blood Drinker Self VI */;

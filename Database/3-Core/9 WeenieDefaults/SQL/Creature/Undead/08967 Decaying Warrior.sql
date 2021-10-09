@@ -68,14 +68,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8967,   1, 'Decaying Warrior') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8967,   1,   33554839) /* Setup */
-     , (8967,   2,  150994967) /* MotionTable */
-     , (8967,   3,  536870934) /* SoundTable */
-     , (8967,   4,  805306368) /* CombatTable */
-     , (8967,   6,   67110722) /* PaletteBase */
-     , (8967,   7,  268435558) /* ClothingBase */
-     , (8967,   8,  100667942) /* Icon */
-     , (8967,  22,  872415272) /* PhysicsEffectTable */
+VALUES (8967,   1, 0x02000197) /* Setup */
+     , (8967,   2, 0x09000017) /* MotionTable */
+     , (8967,   3, 0x20000016) /* SoundTable */
+     , (8967,   4, 0x30000000) /* CombatTable */
+     , (8967,   6, 0x04000742) /* PaletteBase */
+     , (8967,   7, 0x10000066) /* ClothingBase */
+     , (8967,   8, 0x06001226) /* Icon */
+     , (8967,  22, 0x34000028) /* PhysicsEffectTable */
      , (8967,  32,        248) /* WieldedTreasureType - 
                                    Wield 6x Throwing Axe (304) | Probability: 10%
                                    Wield Nayin (334) | Probability: 10%
@@ -84,7 +84,7 @@ VALUES (8967,   1,   33554839) /* Setup */
                                    Wield 20x Arrow (300) | Probability: 100%
                                    Wield Yumi (363) | Probability: 10%
                                    Wield 14x Arrow (300) | Probability: 100%
-                                   Wield Heavy Crossbow (311) | Probability: 60%
+                                   Wield Heavy Crossbow (311) | Probability: 60.000004%
                                    Wield 15x Quarrel (305) | Probability: 100%
                                    Wield Battle Axe (301) | Probability: 14%
                                    Wield Broad Sword (350) | Probability: 7%
@@ -98,7 +98,7 @@ VALUES (8967,   1,   33554839) /* Setup */
                                    Wield Silifi (344) | Probability: 13%
                                    Wield Tachi (353) | Probability: 6%
                                    Wield Takuba (354) | Probability: 6%
-                                   Wield Large Kite Shield (92) | Probability: 30%
+                                   Wield Large Kite Shield (92) | Probability: 30.000002%
                                    Wield Kite Shield (91) | Probability: 20%
                                    Wield Large Round Shield (94) | Probability: 20% */;
 
@@ -146,39 +146,39 @@ VALUES (8967,  0,  4,  0,    0,   70,   56,   21,   39,   13,   35,   39,   47, 
      , (8967,  8,  4,  3, 0.75,   90,   72,   27,   50,   16,   45,   50,   60,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8967,    60,  2.029)  /* Acid Stream III */
-     , (8967,    61,  2.011)  /* Acid Stream IV */
+VALUES (8967,  1262,   2.02)  /* Drain Mana Other III */
+     , (8967,    82,  2.029)  /* Flame Bolt III */
      , (8967,    66,  2.029)  /* Shock Wave III */
+     , (8967,    83,  2.011)  /* Flame Bolt IV */
      , (8967,    67,  2.011)  /* Shock Wave IV */
      , (8967,    71,  2.029)  /* Frost Bolt III */
      , (8967,    72,  2.011)  /* Frost Bolt IV */
-     , (8967,    77,  2.029)  /* Lightning Bolt III */
+     , (8967,  1369,  2.009)  /* Frailty Other III */
      , (8967,    78,  2.011)  /* Lightning Bolt IV */
-     , (8967,    82,  2.029)  /* Flame Bolt III */
-     , (8967,    83,  2.011)  /* Flame Bolt IV */
+     , (8967,  1417,  2.009)  /* Slowness Other III */
+     , (8967,    77,  2.029)  /* Lightning Bolt III */
+     , (8967,  1239,   2.02)  /* Drain Health Other III */
      , (8967,    88,  2.029)  /* Force Bolt III */
      , (8967,    89,  2.011)  /* Force Bolt IV */
      , (8967,    94,  2.029)  /* Whirling Blade III */
      , (8967,    95,  2.011)  /* Whirling Blade IV */
-     , (8967,   173,  2.009)  /* Fester Other III */
-     , (8967,  1239,   2.02)  /* Drain Health Other III */
-     , (8967,  1251,   2.02)  /* Drain Stamina Other III */
-     , (8967,  1262,   2.02)  /* Drain Mana Other III */
-     , (8967,  1340,  2.009)  /* Weakness Other III */
-     , (8967,  1369,  2.009)  /* Frailty Other III */
-     , (8967,  1393,  2.009)  /* Clumsiness Other III */
-     , (8967,  1417,  2.009)  /* Slowness Other III */
      , (8967,  1441,  2.009)  /* Bafflement Other III */
-     , (8967,  1466,  2.009)  /* Feeblemind Other IV */;
+     , (8967,  1251,   2.02)  /* Drain Stamina Other III */
+     , (8967,   173,  2.009)  /* Fester Other III */
+     , (8967,  1393,  2.009)  /* Clumsiness Other III */
+     , (8967,    61,  2.011)  /* Acid Stream IV */
+     , (8967,  1466,  2.009)  /* Feeblemind Other IV */
+     , (8967,  1340,  2.009)  /* Weakness Other III */
+     , (8967,    60,  2.029)  /* Acid Stream III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (8967,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (8967, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (8967,  5 /* HeartBeat */,   0.05, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (8967,  5 /* HeartBeat */,   0.05, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767249 /* Cringe */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x13000091 /* Cringe */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

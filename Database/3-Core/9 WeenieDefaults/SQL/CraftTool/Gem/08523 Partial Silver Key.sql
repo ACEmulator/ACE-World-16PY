@@ -31,7 +31,7 @@ VALUES (8523,   1, 'Partial Silver Key') /* Name */
      , (8523,  16, 'A partially rebuilt silver key. Underneath the tarnish of years, you can see beautiful engravings which call to mind the trees of Ithaenc island.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8523,   1,   33554784) /* Setup */
-     , (8523,   3,  536870932) /* SoundTable */
-     , (8523,   8,  100670627) /* Icon */
-     , (8523,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8523,   1, 0x02000160) /* Setup */
+     , (8523,   3, 0x20000014) /* SoundTable */
+     , (8523,   8, 0x06001CA3) /* Icon */
+     , (8523,  22, 0x3400002B) /* PhysicsEffectTable */;

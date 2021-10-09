@@ -25,8 +25,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23883,   1, 'Ulgrim''s Island') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23883,   1,   33556189) /* Setup */
-     , (23883,   8,  100668115) /* Icon */;
+VALUES (23883,   1, 0x020006DD) /* Setup */
+     , (23883,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (23883, 3, 1000);

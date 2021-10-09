@@ -26,10 +26,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (16908,   1, 'Settlement Portals') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (16908,   1,   33557660) /* Setup */
-     , (16908,   6,   67108990) /* PaletteBase */
-     , (16908,   7,  268436299) /* ClothingBase */
-     , (16908,   8,  100668115) /* Icon */;
+VALUES (16908,   1, 0x02000C9C) /* Setup */
+     , (16908,   6, 0x0400007E) /* PaletteBase */
+     , (16908,   7, 0x1000034B) /* ClothingBase */
+     , (16908,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (16908, 1, 1000);

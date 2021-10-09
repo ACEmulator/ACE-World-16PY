@@ -29,8 +29,8 @@ VALUES (14455,   1, 'Trap Door') /* Name */
      , (14455,  22, 'The trap door is stuck. Try again.') /* ActivationFailure */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14455,   1,   33554809) /* Setup */
-     , (14455,   3,  536870932) /* SoundTable */
-     , (14455,   8,  100667499) /* Icon */
-     , (14455,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14455,   1, 0x02000179) /* Setup */
+     , (14455,   3, 0x20000014) /* SoundTable */
+     , (14455,   8, 0x0600106B) /* Icon */
+     , (14455,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14455,  28,       2631) /* Spell - Secret Descent */;

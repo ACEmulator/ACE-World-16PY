@@ -24,7 +24,7 @@ VALUES (20571,   1, 'Scroll of Kaluhc''s Boon') /* Name */
      , (20571,  15, 'When learned, this spell increases the target''s Assess Person skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20571,   1,   33554826) /* Setup */
-     , (20571,   8,  100676448) /* Icon */
-     , (20571,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20571,   1, 0x0200018A) /* Setup */
+     , (20571,   8, 0x06003360) /* Icon */
+     , (20571,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20571,  28,       2292) /* Spell - Kaluhc's Boon */;

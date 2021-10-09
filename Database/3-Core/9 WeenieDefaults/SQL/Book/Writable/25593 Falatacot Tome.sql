@@ -27,11 +27,11 @@ VALUES (25593,   1, 'Falatacot Tome') /* Name */
      , (25593,  33, 'PickedUpJournalVitriaka') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25593,   1,   33556929) /* Setup */
-     , (25593,   3,  536870932) /* SoundTable */
-     , (25593,   7,  268436459) /* ClothingBase */
-     , (25593,   8,  100675050) /* Icon */
-     , (25593,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25593,   1, 0x020009C1) /* Setup */
+     , (25593,   3, 0x20000014) /* SoundTable */
+     , (25593,   7, 0x100003EB) /* ClothingBase */
+     , (25593,   8, 0x06002DEA) /* Icon */
+     , (25593,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (25593, 1, 1000);

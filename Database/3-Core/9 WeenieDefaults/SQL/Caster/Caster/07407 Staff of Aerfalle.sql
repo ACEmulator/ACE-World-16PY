@@ -46,18 +46,18 @@ VALUES (7407,   1, 'Staff of Aerfalle') /* Name */
      , (7407,  33, 'AerfalleStaffObtained') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7407,   1,   33556630) /* Setup */
-     , (7407,   3,  536870932) /* SoundTable */
-     , (7407,   6,   67111919) /* PaletteBase */
-     , (7407,   7,  268436016) /* ClothingBase */
-     , (7407,   8,  100670752) /* Icon */
-     , (7407,  22,  872415275) /* PhysicsEffectTable */
-     , (7407,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (7407,   1, 0x02000896) /* Setup */
+     , (7407,   3, 0x20000014) /* SoundTable */
+     , (7407,   6, 0x04000BEF) /* PaletteBase */
+     , (7407,   7, 0x10000230) /* ClothingBase */
+     , (7407,   8, 0x06001D20) /* Icon */
+     , (7407,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (7407,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (7407,  28,       1794) /* Spell - Acid Streak V */
-     , (7407,  36,  234881046) /* MutateFilter */
+     , (7407,  36, 0x0E000016) /* MutateFilter */
      , (7407,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7407,   615,      2)  /* Life Magic Mastery Other V */
+VALUES (7407,   908,      2)  /* Leadership Mastery Other V */
      , (7407,   639,      2)  /* War Magic Mastery Other V */
-     , (7407,   908,      2)  /* Leadership Mastery Other V */;
+     , (7407,   615,      2)  /* Life Magic Mastery Other V */;

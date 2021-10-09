@@ -24,7 +24,7 @@ VALUES (20298,   1, 'Scroll of Purge Creature Magic Other') /* Name */
      , (20298,  15, 'When learned, this spell dispels 2-6 negative Creature Magic enchantments of level 5 or lower from the target.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20298,   1,   33554826) /* Setup */
-     , (20298,   8,  100676647) /* Icon */
-     , (20298,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20298,   1, 0x0200018A) /* Setup */
+     , (20298,   8, 0x06003427) /* Icon */
+     , (20298,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20298,  28,       1909) /* Spell - Purge Creature Magic Other */;

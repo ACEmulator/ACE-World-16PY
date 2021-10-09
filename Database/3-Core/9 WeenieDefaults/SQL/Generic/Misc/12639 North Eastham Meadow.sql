@@ -22,5 +22,5 @@ VALUES (12639,   1, 'North Eastham Meadow') /* Name */
      , (12639,  16, 'Welcome to North Eastham Meadow') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12639,   1,   33557463) /* Setup */
-     , (12639,   8,  100668115) /* Icon */;
+VALUES (12639,   1, 0x02000BD7) /* Setup */
+     , (12639,   8, 0x060012D3) /* Icon */;

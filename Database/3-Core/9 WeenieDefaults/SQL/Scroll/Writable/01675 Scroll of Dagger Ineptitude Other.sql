@@ -25,7 +25,7 @@ VALUES (1675,   1, 'Scroll of Dagger Ineptitude Other') /* Name */
      , (1675,  16, 'When learned, this spell decreases the target''s Dagger skill by 9%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1675,   1,   33554826) /* Setup */
-     , (1675,   8,  100676455) /* Icon */
-     , (1675,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1675,   1, 0x0200018A) /* Setup */
+     , (1675,   8, 0x06003367) /* Icon */
+     , (1675,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1675,  28,        328) /* Spell - Finesse Weapon Ineptitude Other I */;

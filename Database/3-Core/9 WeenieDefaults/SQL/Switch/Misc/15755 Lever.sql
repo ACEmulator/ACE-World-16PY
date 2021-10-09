@@ -22,12 +22,12 @@ VALUES (15755,   1, 'Lever') /* Name */
      , (15755,  16, 'A lever, mounted on the floor. Pulling this lever will abandon Nuhmudira to her fate.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15755,   1,   33557627) /* Setup */
-     , (15755,   2,  150995055) /* MotionTable */
-     , (15755,   3,  536870980) /* SoundTable */
-     , (15755,   8,  100667624) /* Icon */
-     , (15755,  22,  872415275) /* PhysicsEffectTable */
-     , (15755,  24,  268435537) /* UseTargetAnimation - Twitch1 */;
+VALUES (15755,   1, 0x02000C7B) /* Setup */
+     , (15755,   2, 0x0900006F) /* MotionTable */
+     , (15755,   3, 0x20000044) /* SoundTable */
+     , (15755,   8, 0x060010E8) /* Icon */
+     , (15755,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (15755,  24, 0x10000051) /* UseTargetAnimation - Twitch1 */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (15755,  8 /* Activation */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

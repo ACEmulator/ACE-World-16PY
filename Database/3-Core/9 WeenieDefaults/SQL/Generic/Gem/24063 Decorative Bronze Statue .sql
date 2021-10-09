@@ -26,9 +26,9 @@ VALUES (24063,   1, 'Decorative Bronze Statue ') /* Name */
      , (24063,  16, 'A small decorative statue of a Virindi crafted by the Arcanum Tinker, in reward for destroying the statues threatening the cities of Dereth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24063,   1,   33554497) /* Setup */
-     , (24063,   2,  150995213) /* MotionTable */
-     , (24063,   6,   67111346) /* PaletteBase */
-     , (24063,   7,  268436139) /* ClothingBase */
-     , (24063,   8,  100667943) /* Icon */
-     , (24063,  22,  872415273) /* PhysicsEffectTable */;
+VALUES (24063,   1, 0x02000041) /* Setup */
+     , (24063,   2, 0x0900010D) /* MotionTable */
+     , (24063,   6, 0x040009B2) /* PaletteBase */
+     , (24063,   7, 0x100002AB) /* ClothingBase */
+     , (24063,   8, 0x06001227) /* Icon */
+     , (24063,  22, 0x34000029) /* PhysicsEffectTable */;

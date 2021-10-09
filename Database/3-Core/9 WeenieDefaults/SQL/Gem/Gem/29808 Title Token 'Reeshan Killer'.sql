@@ -27,10 +27,10 @@ VALUES (29808,   1, 'Title Token ''Reeshan Killer''') /* Name */
      , (29808,  15, 'You may turn this token in to Guard Ellyon in Cragstone to change your title to ''Reeshan Killer''.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29808,   1,   33557280) /* Setup */
-     , (29808,   3,  536870932) /* SoundTable */
-     , (29808,   6,   67111092) /* PaletteBase */
-     , (29808,   7,  268436298) /* ClothingBase */
-     , (29808,   8,  100677157) /* Icon */
-     , (29808,  22,  872415275) /* PhysicsEffectTable */
-     , (29808,  36,  234881046) /* MutateFilter */;
+VALUES (29808,   1, 0x02000B20) /* Setup */
+     , (29808,   3, 0x20000014) /* SoundTable */
+     , (29808,   6, 0x040008B4) /* PaletteBase */
+     , (29808,   7, 0x1000034A) /* ClothingBase */
+     , (29808,   8, 0x06003625) /* Icon */
+     , (29808,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29808,  36, 0x0E000016) /* MutateFilter */;

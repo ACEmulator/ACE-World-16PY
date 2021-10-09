@@ -21,5 +21,5 @@ VALUES (267,   1, 'Bedroll') /* Name */
      , (267,  15, 'You can use this item on floor hooks.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (267,   1,   33555056) /* Setup */
-     , (267,   8,  100672423) /* Icon */;
+VALUES (267,   1, 0x02000270) /* Setup */
+     , (267,   8, 0x060023A7) /* Icon */;

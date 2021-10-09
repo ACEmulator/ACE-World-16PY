@@ -32,15 +32,15 @@ VALUES (30458,   1, 'Band of Shielding') /* Name */
      , (30458,  33, 'RingShieldingWestAcquired1204') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30458,   1,   33554691) /* Setup */
-     , (30458,   3,  536870932) /* SoundTable */
-     , (30458,   6,   67111919) /* PaletteBase */
-     , (30458,   7,  268435753) /* ClothingBase */
-     , (30458,   8,  100677351) /* Icon */
-     , (30458,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30458,   1, 0x02000103) /* Setup */
+     , (30458,   3, 0x20000014) /* SoundTable */
+     , (30458,   6, 0x04000BEF) /* PaletteBase */
+     , (30458,   7, 0x10000129) /* ClothingBase */
+     , (30458,   8, 0x060036E7) /* Icon */
+     , (30458,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30458,   279,      2)  /* Magic Resistance Self VI */
-     , (30458,  1094,      2)  /* Fire Protection Self VI */
+VALUES (30458,  1094,      2)  /* Fire Protection Self VI */
+     , (30458,   279,      2)  /* Magic Resistance Self VI */
      , (30458,  1114,      2)  /* Blade Protection Self VI */
      , (30458,  2811,      2)  /* Moderate Magic Resistance */;

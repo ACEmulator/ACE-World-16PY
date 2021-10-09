@@ -62,14 +62,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11525,   1, 'Tonk Puh') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11525,   1,   33554496) /* Setup */
-     , (11525,   2,  150994954) /* MotionTable */
-     , (11525,   3,  536870931) /* SoundTable */
-     , (11525,   4,  805306380) /* CombatTable */
-     , (11525,   6,   67109314) /* PaletteBase */
-     , (11525,   7,  268435647) /* ClothingBase */
-     , (11525,   8,  100667452) /* Icon */
-     , (11525,  22,  872415270) /* PhysicsEffectTable */
+VALUES (11525,   1, 0x02000040) /* Setup */
+     , (11525,   2, 0x0900000A) /* MotionTable */
+     , (11525,   3, 0x20000013) /* SoundTable */
+     , (11525,   4, 0x3000000C) /* CombatTable */
+     , (11525,   6, 0x040001C2) /* PaletteBase */
+     , (11525,   7, 0x100000BF) /* ClothingBase */
+     , (11525,   8, 0x0600103C) /* Icon */
+     , (11525,  22, 0x34000026) /* PhysicsEffectTable */
      , (11525,  32,        229) /* WieldedTreasureType - 
                                    Wield 10x Throwing Dart (316) | Probability: 10%
                                    Wield 10x Shouken (343) | Probability: 5%
@@ -95,7 +95,7 @@ VALUES (11525,   1,   33554496) /* Setup */
                                    Wield Simi (345) | Probability: 5%
                                    Wield Spear (348) | Probability: 5%
                                    Wield Tofun (356) | Probability: 10%
-                                   Wield Yaoji (361) | Probability: 15%
+                                   Wield Yaoji (361) | Probability: 15.000001%
                                    Wield Yari (362) | Probability: 5% */
      , (11525,  35,        230) /* DeathTreasureType - Loot Tier: 2 */;
 
@@ -113,19 +113,19 @@ VALUES (11525,   1,    10, 0, 0, 48) /* MaxHealth */
      , (11525,   5,     0, 0, 0, 30) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (11525,  1, 0, 3, 0,  60, 0, 750.001497914269) /* Axe                 Specialized */
-     , (11525,  2, 0, 3, 0,  40, 0, 750.001497914269) /* Bow                 Specialized */
-     , (11525,  3, 0, 3, 0,  50, 0, 750.001497914269) /* Crossbow            Specialized */
-     , (11525,  4, 0, 3, 0,  60, 0, 750.001497914269) /* Dagger              Specialized */
-     , (11525,  5, 0, 3, 0,  60, 0, 750.001497914269) /* Mace                Specialized */
-     , (11525,  6, 0, 3, 0,  50, 0, 750.001497914269) /* MeleeDefense        Specialized */
-     , (11525,  7, 0, 3, 0,  50, 0, 750.001497914269) /* MissileDefense      Specialized */
-     , (11525, 10, 0, 3, 0,  60, 0, 750.001497914269) /* Staff               Specialized */
-     , (11525, 11, 0, 3, 0,  60, 0, 750.001497914269) /* Sword               Specialized */
-     , (11525, 13, 0, 3, 0,  60, 0, 750.001497914269) /* UnarmedCombat       Specialized */
-     , (11525, 15, 0, 3, 0,  71, 0, 750.001497914269) /* MagicDefense        Specialized */
-     , (11525, 20, 0, 3, 0,  10, 0, 750.001497914269) /* Deception           Specialized */
-     , (11525, 24, 0, 3, 0,  60, 0, 750.001497914269) /* Run                 Specialized */;
+VALUES (11525,  1, 0, 3, 0,  60, 0, 750.0014979142687) /* Axe                 Specialized */
+     , (11525,  2, 0, 3, 0,  40, 0, 750.0014979142687) /* Bow                 Specialized */
+     , (11525,  3, 0, 3, 0,  50, 0, 750.0014979142687) /* Crossbow            Specialized */
+     , (11525,  4, 0, 3, 0,  60, 0, 750.0014979142687) /* Dagger              Specialized */
+     , (11525,  5, 0, 3, 0,  60, 0, 750.0014979142687) /* Mace                Specialized */
+     , (11525,  6, 0, 3, 0,  50, 0, 750.0014979142687) /* MeleeDefense        Specialized */
+     , (11525,  7, 0, 3, 0,  50, 0, 750.0014979142687) /* MissileDefense      Specialized */
+     , (11525, 10, 0, 3, 0,  60, 0, 750.0014979142687) /* Staff               Specialized */
+     , (11525, 11, 0, 3, 0,  60, 0, 750.0014979142687) /* Sword               Specialized */
+     , (11525, 13, 0, 3, 0,  60, 0, 750.0014979142687) /* UnarmedCombat       Specialized */
+     , (11525, 15, 0, 3, 0,  71, 0, 750.0014979142687) /* MagicDefense        Specialized */
+     , (11525, 20, 0, 3, 0,  10, 0, 750.0014979142687) /* Deception           Specialized */
+     , (11525, 24, 0, 3, 0,  60, 0, 750.0014979142687) /* Run                 Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (11525,  0,  4,  0,    0,   20,   20,   20,   20,   20,   20,   20,   20,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

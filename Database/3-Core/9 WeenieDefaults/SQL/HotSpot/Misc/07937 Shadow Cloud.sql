@@ -38,6 +38,6 @@ VALUES (7937,   1, 'Shadow Cloud') /* Name */
      , (7937,  17, 'The black mist boils %i points of flesh from your bones!') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7937,   1,   33556025) /* Setup */
-     , (7937,   3,  536871007) /* SoundTable */
-     , (7937,   8,  100667465) /* Icon */;
+VALUES (7937,   1, 0x02000639) /* Setup */
+     , (7937,   3, 0x2000005F) /* SoundTable */
+     , (7937,   8, 0x06001049) /* Icon */;

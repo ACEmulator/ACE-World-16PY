@@ -51,16 +51,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19893,   1, 'Quality Coruscating Isparian Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19893,   1,   33556364) /* Setup */
-     , (19893,   3,  536870932) /* SoundTable */
-     , (19893,   6,   67111919) /* PaletteBase */
-     , (19893,   7,  268436382) /* ClothingBase */
-     , (19893,   8,  100672917) /* Icon */
-     , (19893,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19893,   1, 0x0200078C) /* Setup */
+     , (19893,   3, 0x20000014) /* SoundTable */
+     , (19893,   6, 0x04000BEF) /* PaletteBase */
+     , (19893,   7, 0x1000039E) /* ClothingBase */
+     , (19893,   8, 0x06002595) /* Icon */
+     , (19893,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19893,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19893,  1071,      2)  /* Lightning Protection Self VI */
-     , (19893,  1401,      2)  /* Quickness Self V */
-     , (19893,  1589,      2)  /* Aura of Heart Seeker Self III */
-     , (19893,  1613,      2)  /* Aura of Blood Drinker Self III */;
+VALUES (19893,  1589,      2)  /* Aura of Heart Seeker Self III */
+     , (19893,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (19893,  1071,      2)  /* Lightning Protection Self VI */
+     , (19893,  1401,      2)  /* Quickness Self V */;

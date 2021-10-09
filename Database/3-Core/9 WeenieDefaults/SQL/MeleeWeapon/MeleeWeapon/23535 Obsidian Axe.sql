@@ -44,14 +44,14 @@ VALUES (23535,   1, 'Obsidian Axe') /* Name */
      , (23535,  16, 'An Axe made with a sharpened piece of volcanic rock.  The blade seems to be unevenly cut, however it is still quite sharp.  The fiery interior can be seen through cracks in the stone. The handle seems to a be a worn, old Golem Jo.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23535,   1,   33557334) /* Setup */
-     , (23535,   3,  536870932) /* SoundTable */
-     , (23535,   8,  100674095) /* Icon */
-     , (23535,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23535,   1, 0x02000B56) /* Setup */
+     , (23535,   3, 0x20000014) /* SoundTable */
+     , (23535,   8, 0x06002A2F) /* Icon */
+     , (23535,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23535,  1022,      2)  /* Bludgeoning Protection Self V */
-     , (23535,  1590,      2)  /* Aura of Heart Seeker Self IV */
-     , (23535,  1604,      2)  /* Aura of Defender Self V */
+VALUES (23535,  1604,      2)  /* Aura of Defender Self V */
      , (23535,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (23535,  1626,      2)  /* Aura of Swift Killer Self V */;
+     , (23535,  1626,      2)  /* Aura of Swift Killer Self V */
+     , (23535,  1590,      2)  /* Aura of Heart Seeker Self IV */
+     , (23535,  1022,      2)  /* Bludgeoning Protection Self V */;

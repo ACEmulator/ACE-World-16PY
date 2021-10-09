@@ -22,5 +22,5 @@ VALUES (15240,   1, 'Midhill Cottages') /* Name */
      , (15240,  16, 'Welcome to Midhill Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15240,   1,   33557463) /* Setup */
-     , (15240,   8,  100668115) /* Icon */;
+VALUES (15240,   1, 0x02000BD7) /* Setup */
+     , (15240,   8, 0x060012D3) /* Icon */;

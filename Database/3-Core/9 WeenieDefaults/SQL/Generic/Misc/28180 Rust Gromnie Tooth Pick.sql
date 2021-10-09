@@ -28,7 +28,7 @@ VALUES (28180,   1, 'Rust Gromnie Tooth Pick') /* Name */
      , (28180,  16, 'A pick made from the tooth of a rust gromnie.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28180,   1,   33554817) /* Setup */
-     , (28180,   6,   67111919) /* PaletteBase */
-     , (28180,   7,  268435832) /* ClothingBase */
-     , (28180,   8,  100676795) /* Icon */;
+VALUES (28180,   1, 0x02000181) /* Setup */
+     , (28180,   6, 0x04000BEF) /* PaletteBase */
+     , (28180,   7, 0x10000178) /* ClothingBase */
+     , (28180,   8, 0x060034BB) /* Icon */;

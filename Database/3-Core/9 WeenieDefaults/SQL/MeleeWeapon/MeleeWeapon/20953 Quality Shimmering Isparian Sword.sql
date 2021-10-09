@@ -51,15 +51,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20953,   1, 'Quality Shimmering Isparian Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20953,   1,   33556262) /* Setup */
-     , (20953,   3,  536870932) /* SoundTable */
-     , (20953,   6,   67111919) /* PaletteBase */
-     , (20953,   7,  268436426) /* ClothingBase */
-     , (20953,   8,  100673209) /* Icon */
-     , (20953,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20953,   1, 0x02000726) /* Setup */
+     , (20953,   3, 0x20000014) /* SoundTable */
+     , (20953,   6, 0x04000BEF) /* PaletteBase */
+     , (20953,   7, 0x100003CA) /* ClothingBase */
+     , (20953,   8, 0x060026B9) /* Icon */
+     , (20953,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20953,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20953,  1312,      2)  /* Armor Self VI */
-     , (20953,  1589,      2)  /* Aura of Heart Seeker Self III */
-     , (20953,  1613,      2)  /* Aura of Blood Drinker Self III */;
+VALUES (20953,  1589,      2)  /* Aura of Heart Seeker Self III */
+     , (20953,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (20953,  1312,      2)  /* Armor Self VI */;

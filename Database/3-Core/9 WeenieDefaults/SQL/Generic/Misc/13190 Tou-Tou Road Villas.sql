@@ -22,5 +22,5 @@ VALUES (13190,   1, 'Tou-Tou Road Villas') /* Name */
      , (13190,  16, 'Welcome to Tou-Tou Road Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13190,   1,   33557463) /* Setup */
-     , (13190,   8,  100668115) /* Icon */;
+VALUES (13190,   1, 0x02000BD7) /* Setup */
+     , (13190,   8, 0x060012D3) /* Icon */;

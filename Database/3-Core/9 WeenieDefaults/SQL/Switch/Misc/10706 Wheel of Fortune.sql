@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10706,   1, 'Wheel of Fortune') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10706,   1,   33557041) /* Setup */
-     , (10706,   2,  150995126) /* MotionTable */
-     , (10706,   3,  536871027) /* SoundTable */
-     , (10706,   8,  100667624) /* Icon */
-     , (10706,  22,  872415275) /* PhysicsEffectTable */
-     , (10706,  24,  268435537) /* UseTargetAnimation - Twitch1 */;
+VALUES (10706,   1, 0x02000A31) /* Setup */
+     , (10706,   2, 0x090000B6) /* MotionTable */
+     , (10706,   3, 0x20000073) /* SoundTable */
+     , (10706,   8, 0x060010E8) /* Icon */
+     , (10706,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (10706,  24, 0x10000051) /* UseTargetAnimation - Twitch1 */;

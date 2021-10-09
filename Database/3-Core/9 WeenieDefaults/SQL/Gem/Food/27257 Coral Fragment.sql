@@ -30,8 +30,8 @@ VALUES (27257,   1, 'Coral Fragment') /* Name */
      , (27257,  16, 'A piece of magically imbued coral. It seems to shiver with a life of its own.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27257,   1,   33554817) /* Setup */
-     , (27257,   3,  536870932) /* SoundTable */
-     , (27257,   8,  100676393) /* Icon */
-     , (27257,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27257,   1, 0x02000181) /* Setup */
+     , (27257,   3, 0x20000014) /* SoundTable */
+     , (27257,   8, 0x06003329) /* Icon */
+     , (27257,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27257,  28,       3206) /* Spell - Enliven */;

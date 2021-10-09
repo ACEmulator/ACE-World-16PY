@@ -28,9 +28,9 @@ VALUES (19535,   1, 'Diamond Oil') /* Name */
      , (19535,  16, 'A decanter of diamond oil. Created by adding diamond powder to a vial of essence taken from a font beneath Dereth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19535,   1,   33555965) /* Setup */
-     , (19535,   3,  536870932) /* SoundTable */
-     , (19535,   6,   67111919) /* PaletteBase */
-     , (19535,   7,  268435814) /* ClothingBase */
-     , (19535,   8,  100672869) /* Icon */
-     , (19535,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19535,   1, 0x020005FD) /* Setup */
+     , (19535,   3, 0x20000014) /* SoundTable */
+     , (19535,   6, 0x04000BEF) /* PaletteBase */
+     , (19535,   7, 0x10000166) /* ClothingBase */
+     , (19535,   8, 0x06002565) /* Icon */
+     , (19535,  22, 0x3400002B) /* PhysicsEffectTable */;

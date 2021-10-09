@@ -31,7 +31,7 @@ VALUES (6822,   1, 'Western Spires Key Front') /* Name */
      , (6822,  16, 'The front section of an incomplete skeletal key, assembled from two fragments found in shadow spires. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6822,   1,   33554784) /* Setup */
-     , (6822,   3,  536870932) /* SoundTable */
-     , (6822,   8,  100670627) /* Icon */
-     , (6822,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6822,   1, 0x02000160) /* Setup */
+     , (6822,   3, 0x20000014) /* SoundTable */
+     , (6822,   8, 0x06001CA3) /* Icon */
+     , (6822,  22, 0x3400002B) /* PhysicsEffectTable */;

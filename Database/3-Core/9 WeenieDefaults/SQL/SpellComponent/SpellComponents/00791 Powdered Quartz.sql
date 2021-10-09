@@ -26,10 +26,10 @@ VALUES (791,   1, 'Powdered Quartz') /* Name */
      , (791,  20, 'Powdered Quartz') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (791,   1,   33555208) /* Setup */
-     , (791,   3,  536870932) /* SoundTable */
-     , (791,   6,   67111919) /* PaletteBase */
-     , (791,   7,  268435778) /* ClothingBase */
-     , (791,   8,  100669705) /* Icon */
-     , (791,  22,  872415275) /* PhysicsEffectTable */
+VALUES (791,   1, 0x02000308) /* Setup */
+     , (791,   3, 0x20000014) /* SoundTable */
+     , (791,   6, 0x04000BEF) /* PaletteBase */
+     , (791,   7, 0x10000142) /* ClothingBase */
+     , (791,   8, 0x06001909) /* Icon */
+     , (791,  22, 0x3400002B) /* PhysicsEffectTable */
      , (791,  29,         35) /* SpellComponent */;

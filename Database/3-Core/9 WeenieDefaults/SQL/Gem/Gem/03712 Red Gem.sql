@@ -32,11 +32,11 @@ VALUES (3712,   1, 'Red Gem') /* Name */
      , (3712,  16, 'Red Virindi Gem of Strength.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3712,   1,   33554809) /* Setup */
-     , (3712,   3,  536870932) /* SoundTable */
-     , (3712,   6,   67111919) /* PaletteBase */
-     , (3712,   7,  268435723) /* ClothingBase */
-     , (3712,   8,  100668364) /* Icon */
-     , (3712,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3712,   1, 0x02000179) /* Setup */
+     , (3712,   3, 0x20000014) /* SoundTable */
+     , (3712,   6, 0x04000BEF) /* PaletteBase */
+     , (3712,   7, 0x1000010B) /* ClothingBase */
+     , (3712,   8, 0x060013CC) /* Icon */
+     , (3712,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3712,  28,       1336) /* Spell - Strength Other V */
-     , (3712,  36,  234881046) /* MutateFilter */;
+     , (3712,  36, 0x0E000016) /* MutateFilter */;

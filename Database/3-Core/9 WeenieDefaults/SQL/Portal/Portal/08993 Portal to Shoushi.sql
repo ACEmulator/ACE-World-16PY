@@ -25,10 +25,10 @@ VALUES (8993,   1, 'Portal to Shoushi') /* Name */
      , (8993,  16, 'This portal goes to Shoushi, a Sho town where many new adventurers enter Dereth. This is a good town for characters of all levels.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8993,   1,   33554867) /* Setup */
-     , (8993,   2,  150994947) /* MotionTable */
-     , (8993,   8,  100667499) /* Icon */;
+VALUES (8993,   1, 0x020001B3) /* Setup */
+     , (8993,   2, 0x09000003) /* MotionTable */
+     , (8993,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8993, 2, 3663003677, 84.8, 99, 20, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0xDA55001D [84.800000 99.000000 20.000000] 1.000000 0.000000 0.000000 0.000000 */;
+VALUES (8993, 2, 0xDA55001D, 84.8, 99, 20, 1, 0, 0, -0) /* Destination */
+/* @teleloc 0xDA55001D [84.800003 99.000000 20.000000] 1.000000 0.000000 0.000000 -0.000000 */;

@@ -26,10 +26,10 @@ VALUES (781,   1, 'Yarrow') /* Name */
      , (781,  20, 'Sacks of Yarrow') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (781,   1,   33554817) /* Setup */
-     , (781,   3,  536870932) /* SoundTable */
-     , (781,   6,   67111919) /* PaletteBase */
-     , (781,   7,  268435720) /* ClothingBase */
-     , (781,   8,  100668433) /* Icon */
-     , (781,  22,  872415275) /* PhysicsEffectTable */
+VALUES (781,   1, 0x02000181) /* Setup */
+     , (781,   3, 0x20000014) /* SoundTable */
+     , (781,   6, 0x04000BEF) /* PaletteBase */
+     , (781,   7, 0x10000108) /* ClothingBase */
+     , (781,   8, 0x06001411) /* Icon */
+     , (781,  22, 0x3400002B) /* PhysicsEffectTable */
      , (781,  29,         24) /* SpellComponent */;

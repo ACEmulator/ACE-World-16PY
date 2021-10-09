@@ -35,12 +35,12 @@ VALUES (11758,   1, 'Hafted Gromnie Banner with Symbol') /* Name */
      , (11758,  16, 'A hafted, symbol tipped banner with a gromnie on it.  It is in almost perfect condition, and the colors are quite vibrant.  As you gaze at the gromnie, it almost seems to be gazing back.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11758,   1,   33557255) /* Setup */
-     , (11758,   6,   67113338) /* PaletteBase */
-     , (11758,   7,  268436213) /* ClothingBase */
-     , (11758,   8,  100671913) /* Icon */
-     , (11758,  22,  872415275) /* PhysicsEffectTable */
-     , (11758,  27, 1073742049) /* UseUserAnimation - UseMagicWand */;
+VALUES (11758,   1, 0x02000B07) /* Setup */
+     , (11758,   6, 0x0400117A) /* PaletteBase */
+     , (11758,   7, 0x100002F5) /* ClothingBase */
+     , (11758,   8, 0x060021A9) /* Icon */
+     , (11758,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11758,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11758,   656,      2)  /* Mana Conversion Mastery Self IV */

@@ -26,7 +26,7 @@ VALUES (5135,   1, 'Library Key') /* Name */
      , (5135,  16, 'A bronze key used in Musansayn''s Vaults.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5135,   1,   33554784) /* Setup */
-     , (5135,   3,  536870932) /* SoundTable */
-     , (5135,   8,  100668439) /* Icon */
-     , (5135,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5135,   1, 0x02000160) /* Setup */
+     , (5135,   3, 0x20000014) /* SoundTable */
+     , (5135,   8, 0x06001417) /* Icon */
+     , (5135,  22, 0x3400002B) /* PhysicsEffectTable */;

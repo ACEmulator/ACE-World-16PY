@@ -23,7 +23,7 @@ VALUES (30256,   1, 'Arshid''s Golden Keyring') /* Name */
      , (30256,  16, 'A lovely template for a rare magical key.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30256,   1,   33554784) /* Setup */
-     , (30256,   3,  536870932) /* SoundTable */
-     , (30256,   8,  100667485) /* Icon */
-     , (30256,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30256,   1, 0x02000160) /* Setup */
+     , (30256,   3, 0x20000014) /* SoundTable */
+     , (30256,   8, 0x0600105D) /* Icon */
+     , (30256,  22, 0x3400002B) /* PhysicsEffectTable */;

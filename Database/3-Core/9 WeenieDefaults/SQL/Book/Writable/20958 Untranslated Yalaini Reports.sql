@@ -25,12 +25,12 @@ VALUES (20958,   1, 'Untranslated Yalaini Reports') /* Name */
      , (20958,  16, 'A set of letters that have been bound within a book.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20958,   1,   33556929) /* Setup */
-     , (20958,   3,  536870932) /* SoundTable */
-     , (20958,   6,   67113005) /* PaletteBase */
-     , (20958,   7,  268436360) /* ClothingBase */
-     , (20958,   8,  100673196) /* Icon */
-     , (20958,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (20958,   1, 0x020009C1) /* Setup */
+     , (20958,   3, 0x20000014) /* SoundTable */
+     , (20958,   6, 0x0400102D) /* PaletteBase */
+     , (20958,   7, 0x10000388) /* ClothingBase */
+     , (20958,   8, 0x060026AC) /* Icon */
+     , (20958,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (20958, 1, 1000);

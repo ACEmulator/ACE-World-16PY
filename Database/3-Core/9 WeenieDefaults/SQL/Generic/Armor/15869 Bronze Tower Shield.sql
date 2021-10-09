@@ -39,9 +39,9 @@ VALUES (15869,   1, 'Bronze Tower Shield') /* Name */
      , (15869,  33, 'ShieldTowerStatuePickUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15869,   1,   33554785) /* Setup */
-     , (15869,   3,  536870932) /* SoundTable */
-     , (15869,   6,   67111919) /* PaletteBase */
-     , (15869,   7,  268435611) /* ClothingBase */
-     , (15869,   8,  100667362) /* Icon */
-     , (15869,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15869,   1, 0x02000161) /* Setup */
+     , (15869,   3, 0x20000014) /* SoundTable */
+     , (15869,   6, 0x04000BEF) /* PaletteBase */
+     , (15869,   7, 0x1000009B) /* ClothingBase */
+     , (15869,   8, 0x06000FE2) /* Icon */
+     , (15869,  22, 0x3400002B) /* PhysicsEffectTable */;

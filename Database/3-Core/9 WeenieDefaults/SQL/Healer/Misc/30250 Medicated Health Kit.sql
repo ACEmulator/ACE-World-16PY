@@ -28,7 +28,7 @@ VALUES (30250,   1, 'Medicated Health Kit') /* Name */
      , (30250,  16, 'A lovely template for a rare magical healing kit.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30250,   1,   33555194) /* Setup */
-     , (30250,   6,   67111092) /* PaletteBase */
-     , (30250,   7,  268436502) /* ClothingBase */
-     , (30250,   8,  100676336) /* Icon */;
+VALUES (30250,   1, 0x020002FA) /* Setup */
+     , (30250,   6, 0x040008B4) /* PaletteBase */
+     , (30250,   7, 0x10000416) /* ClothingBase */
+     , (30250,   8, 0x060032F0) /* Icon */;

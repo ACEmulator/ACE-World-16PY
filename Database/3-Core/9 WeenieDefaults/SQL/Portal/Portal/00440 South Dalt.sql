@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (440,   1, 'South Dalt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (440,   1,   33554867) /* Setup */
-     , (440,   2,  150994947) /* MotionTable */
-     , (440,   8,  100667499) /* Icon */;
+VALUES (440,   1, 0x020001B3) /* Setup */
+     , (440,   2, 0x09000003) /* MotionTable */
+     , (440,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (440, 2, 2408644625, 55, 3.9, 224, 0.9366722, 0, 0, -0.3502074) /* Destination */
+VALUES (440, 2, 0x8F910011, 55, 3.9, 224, 0.936672, 0, 0, -0.350207) /* Destination */
 /* @teleloc 0x8F910011 [55.000000 3.900000 224.000000] 0.936672 0.000000 0.000000 -0.350207 */;

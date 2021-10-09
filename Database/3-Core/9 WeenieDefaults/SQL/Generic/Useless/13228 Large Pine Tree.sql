@@ -22,7 +22,7 @@ VALUES (13228,   1, 'Large Pine Tree') /* Name */
      , (13228,  15, 'You can use this item on floor and yard hooks.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13228,   1,   33557457) /* Setup */
-     , (13228,   3,  536870932) /* SoundTable */
-     , (13228,   8,  100672427) /* Icon */
-     , (13228,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (13228,   1, 0x02000BD1) /* Setup */
+     , (13228,   3, 0x20000014) /* SoundTable */
+     , (13228,   8, 0x060023AB) /* Icon */
+     , (13228,  22, 0x3400002B) /* PhysicsEffectTable */;

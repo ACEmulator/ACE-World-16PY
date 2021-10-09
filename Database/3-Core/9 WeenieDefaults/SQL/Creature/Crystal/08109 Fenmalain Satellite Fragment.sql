@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8109,   1, 'Fenmalain Satellite Fragment') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8109,   1,   33556731) /* Setup */
-     , (8109,   2,  150995096) /* MotionTable */
-     , (8109,   3,  536871001) /* SoundTable */
-     , (8109,   4,  805306407) /* CombatTable */
-     , (8109,   6,   67111919) /* PaletteBase */
-     , (8109,   7,  268435859) /* ClothingBase */
-     , (8109,   8,  100670394) /* Icon */
-     , (8109,  22,  872415348) /* PhysicsEffectTable */
+VALUES (8109,   1, 0x020008FB) /* Setup */
+     , (8109,   2, 0x09000098) /* MotionTable */
+     , (8109,   3, 0x20000059) /* SoundTable */
+     , (8109,   4, 0x30000027) /* CombatTable */
+     , (8109,   6, 0x04000BEF) /* PaletteBase */
+     , (8109,   7, 0x10000193) /* ClothingBase */
+     , (8109,   8, 0x06001BBA) /* Icon */
+     , (8109,  22, 0x34000074) /* PhysicsEffectTable */
      , (8109,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -112,19 +112,19 @@ VALUES (8109,  0,  4, 25, 0.75,   50,   55,   50,   45,   55,  100,  100,   50, 
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8109,     6,   2.04)  /* Heal Self I */
-     , (8109,     7,  2.044)  /* Harm Other I */
-     , (8109,    24,   2.04)  /* Armor Self I */
-     , (8109,    75,  2.115)  /* Lightning Bolt I */
-     , (8109,    76,  2.031)  /* Lightning Bolt II */
-     , (8109,   165,  2.032)  /* Regeneration Self I */
+     , (8109,  1415,  2.044)  /* Slowness Other I */
      , (8109,   275,  2.032)  /* Magic Resistance Self II */
-     , (8109,   280,  2.044)  /* Magic Yield Other I */
-     , (8109,   606,  2.032)  /* Life Magic Mastery Self II */
-     , (8109,   623,  2.044)  /* Life Magic Ineptitude Other I */
      , (8109,   654,  2.032)  /* Mana Conversion Mastery Self II */
-     , (8109,  1084,  2.044)  /* Lightning Vulnerability Other I */
+     , (8109,    76,  2.031)  /* Lightning Bolt II */
+     , (8109,     7,  2.044)  /* Harm Other I */
+     , (8109,   280,  2.044)  /* Magic Yield Other I */
+     , (8109,    75,  2.115)  /* Lightning Bolt I */
      , (8109,  1237,  2.044)  /* Drain Health Other I */
-     , (8109,  1415,  2.044)  /* Slowness Other I */;
+     , (8109,    24,   2.04)  /* Armor Self I */
+     , (8109,   606,  2.032)  /* Life Magic Mastery Self II */
+     , (8109,   165,  2.032)  /* Regeneration Self I */
+     , (8109,   623,  2.044)  /* Life Magic Ineptitude Other I */
+     , (8109,  1084,  2.044)  /* Lightning Vulnerability Other I */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (8109,  94) /* ATTACK_NOTIFICATION_EVENT */

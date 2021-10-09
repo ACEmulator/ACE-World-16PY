@@ -32,8 +32,8 @@ VALUES (30998,   1, 'Academy Practice Area Door') /* Name */
      , (30998,  14, 'To unlock this door, double-click on the Greeter''s Key, then click on the door. Double-click on the door again to open it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30998,   1,   33555930) /* Setup */
-     , (30998,   2,  150995078) /* MotionTable */
-     , (30998,   3,  536870946) /* SoundTable */
-     , (30998,   8,  100668183) /* Icon */
-     , (30998,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30998,   1, 0x020005DA) /* Setup */
+     , (30998,   2, 0x09000086) /* MotionTable */
+     , (30998,   3, 0x20000022) /* SoundTable */
+     , (30998,   8, 0x06001317) /* Icon */
+     , (30998,  22, 0x3400002B) /* PhysicsEffectTable */;

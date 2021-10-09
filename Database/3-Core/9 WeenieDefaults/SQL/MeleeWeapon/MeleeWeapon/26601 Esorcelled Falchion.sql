@@ -45,17 +45,17 @@ VALUES (26601,   1, 'Esorcelled Falchion') /* Name */
      , (26601,  15, 'A strange blade once used by the Falatacot.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26601,   1,   33558592) /* Setup */
-     , (26601,   3,  536870932) /* SoundTable */
-     , (26601,   6,   67114956) /* PaletteBase */
-     , (26601,   7,  268436792) /* ClothingBase */
-     , (26601,   8,  100675773) /* Icon */
-     , (26601,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (26601,   1, 0x02001040) /* Setup */
+     , (26601,   3, 0x20000014) /* SoundTable */
+     , (26601,   6, 0x040017CC) /* PaletteBase */
+     , (26601,   7, 0x10000538) /* ClothingBase */
+     , (26601,   8, 0x060030BD) /* Icon */
+     , (26601,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26601,   164,      2)  /* Regeneration Other VI */
+VALUES (26601,  1605,      2)  /* Aura of Defender Self VI */
+     , (26601,   164,      2)  /* Regeneration Other VI */
+     , (26601,  2694,      2)  /* Moderate Heavy Weapon Aptitude */
      , (26601,  1360,      2)  /* Endurance Other VI */
-     , (26601,  1605,      2)  /* Aura of Defender Self VI */
      , (26601,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (26601,  1627,      2)  /* Aura of Swift Killer Self VI */
-     , (26601,  2694,      2)  /* Moderate Heavy Weapon Aptitude */;
+     , (26601,  1627,      2)  /* Aura of Swift Killer Self VI */;

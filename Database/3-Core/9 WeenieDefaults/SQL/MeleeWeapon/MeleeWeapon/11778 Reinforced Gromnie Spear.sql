@@ -44,12 +44,12 @@ VALUES (11778,   1, 'Reinforced Gromnie Spear') /* Name */
      , (11778,  16, 'A reinforced, spear-tipped banner with a gromnie on it.  It is in almost perfect condition, and the colors are quite vibrant.  As you gaze at the gromnie, it almost seems to be gazing back.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11778,   1,   33557254) /* Setup */
-     , (11778,   3,  536870932) /* SoundTable */
-     , (11778,   6,   67113338) /* PaletteBase */
-     , (11778,   7,  268436210) /* ClothingBase */
-     , (11778,   8,  100671931) /* Icon */
-     , (11778,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11778,   1, 0x02000B06) /* Setup */
+     , (11778,   3, 0x20000014) /* SoundTable */
+     , (11778,   6, 0x0400117A) /* PaletteBase */
+     , (11778,   7, 0x100002F2) /* ClothingBase */
+     , (11778,   8, 0x060021BB) /* Icon */
+     , (11778,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11778,  1311,      2)  /* Armor Self V */;

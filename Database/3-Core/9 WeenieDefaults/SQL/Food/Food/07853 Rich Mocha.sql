@@ -29,8 +29,8 @@ VALUES (7853,   1, 'Rich Mocha') /* Name */
      , (7853,  20, 'Cups of Rich Mocha') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7853,   1,   33554662) /* Setup */
-     , (7853,   3,  536870932) /* SoundTable */
-     , (7853,   8,  100670870) /* Icon */
-     , (7853,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7853,   1, 0x020000E6) /* Setup */
+     , (7853,   3, 0x20000014) /* SoundTable */
+     , (7853,   8, 0x06001D96) /* Icon */
+     , (7853,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7853,  23,         65) /* UseSound - Drink1 */;

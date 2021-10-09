@@ -29,9 +29,9 @@ VALUES (14509,   1, 'Hammer of Fire') /* Name */
      , (14509,  33, 'KeyHammerEmpyreanFirePickup') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14509,   1,   33557488) /* Setup */
-     , (14509,   3,  536870932) /* SoundTable */
-     , (14509,   6,   67111919) /* PaletteBase */
-     , (14509,   7,  268436325) /* ClothingBase */
-     , (14509,   8,  100672500) /* Icon */
-     , (14509,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14509,   1, 0x02000BF0) /* Setup */
+     , (14509,   3, 0x20000014) /* SoundTable */
+     , (14509,   6, 0x04000BEF) /* PaletteBase */
+     , (14509,   7, 0x10000365) /* ClothingBase */
+     , (14509,   8, 0x060023F4) /* Icon */
+     , (14509,  22, 0x3400002B) /* PhysicsEffectTable */;

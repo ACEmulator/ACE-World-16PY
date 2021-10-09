@@ -18,7 +18,7 @@ VALUES (20043,   1,        256) /* ItemType - MissileWeapon */
      , (20043,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (20043,  49,         15) /* WeaponTime */
      , (20043,  50,          4) /* AmmoType - Atlatl */
-     , (20043,  51,          2) /* CombatUse - Missle */
+     , (20043,  51,          2) /* CombatUse - Missile */
      , (20043,  60,        120) /* WeaponRange */
      , (20043,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (20043, 106,        100) /* ItemSpellcraft */
@@ -47,12 +47,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20043,   1, 'Quality Isparian Atlatl') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20043,   1,   33557745) /* Setup */
-     , (20043,   3,  536870932) /* SoundTable */
-     , (20043,   6,   67111919) /* PaletteBase */
-     , (20043,   7,  268436393) /* ClothingBase */
-     , (20043,   8,  100673000) /* Icon */
-     , (20043,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20043,   1, 0x02000CF1) /* Setup */
+     , (20043,   3, 0x20000014) /* SoundTable */
+     , (20043,   6, 0x04000BEF) /* PaletteBase */
+     , (20043,   7, 0x100003A9) /* ClothingBase */
+     , (20043,   8, 0x060025E8) /* Icon */
+     , (20043,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20043,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

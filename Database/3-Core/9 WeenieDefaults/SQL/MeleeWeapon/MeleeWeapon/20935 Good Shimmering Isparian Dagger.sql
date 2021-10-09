@@ -51,16 +51,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20935,   1, 'Good Shimmering Isparian Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20935,   1,   33557746) /* Setup */
-     , (20935,   3,  536870932) /* SoundTable */
-     , (20935,   6,   67111919) /* PaletteBase */
-     , (20935,   7,  268436421) /* ClothingBase */
-     , (20935,   8,  100673206) /* Icon */
-     , (20935,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20935,   1, 0x02000CF2) /* Setup */
+     , (20935,   3, 0x20000014) /* SoundTable */
+     , (20935,   6, 0x04000BEF) /* PaletteBase */
+     , (20935,   7, 0x100003C5) /* ClothingBase */
+     , (20935,   8, 0x060026B6) /* Icon */
+     , (20935,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20935,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20935,  1312,      2)  /* Armor Self VI */
-     , (20935,  1590,      2)  /* Aura of Heart Seeker Self IV */
+VALUES (20935,  1590,      2)  /* Aura of Heart Seeker Self IV */
      , (20935,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (20935,  1312,      2)  /* Armor Self VI */
      , (20935,  2678,      2)  /* Feeble Finesse Weapon Aptitude */;

@@ -22,5 +22,5 @@ VALUES (15242,   1, 'Nalib Cavana Settlement') /* Name */
      , (15242,  16, 'Welcome to Nalib Cavana Settlement') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15242,   1,   33557463) /* Setup */
-     , (15242,   8,  100668115) /* Icon */;
+VALUES (15242,   1, 0x02000BD7) /* Setup */
+     , (15242,   8, 0x060012D3) /* Icon */;

@@ -49,17 +49,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19770,   1, 'Good Dissolving Isparian Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19770,   1,   33556304) /* Setup */
-     , (19770,   3,  536870932) /* SoundTable */
-     , (19770,   6,   67111919) /* PaletteBase */
-     , (19770,   7,  268436377) /* ClothingBase */
-     , (19770,   8,  100672890) /* Icon */
-     , (19770,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19770,   1, 0x02000750) /* Setup */
+     , (19770,   3, 0x20000014) /* SoundTable */
+     , (19770,   6, 0x04000BEF) /* PaletteBase */
+     , (19770,   7, 0x10000399) /* ClothingBase */
+     , (19770,   8, 0x0600257A) /* Icon */
+     , (19770,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19770,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19770,   518,      2)  /* Acid Protection Self IV */
-     , (19770,  1351,      2)  /* Endurance Self III */
+VALUES (19770,  1351,      2)  /* Endurance Self III */
+     , (19770,   518,      2)  /* Acid Protection Self IV */
      , (19770,  1590,      2)  /* Aura of Heart Seeker Self IV */
      , (19770,  1614,      2)  /* Aura of Blood Drinker Self IV */
      , (19770,  2675,      2)  /* Feeble Light Weapon Aptitude */;

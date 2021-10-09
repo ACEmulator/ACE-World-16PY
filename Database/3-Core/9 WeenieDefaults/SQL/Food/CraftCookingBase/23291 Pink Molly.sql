@@ -31,9 +31,9 @@ VALUES (23291,   1, 'Pink Molly') /* Name */
      , (23291,  20, 'Pink Mollies') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23291,   1,   33558282) /* Setup */
-     , (23291,   3,  536870932) /* SoundTable */
-     , (23291,   6,   67114203) /* PaletteBase */
-     , (23291,   7,  268436583) /* ClothingBase */
-     , (23291,   8,  100674216) /* Icon */
-     , (23291,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23291,   1, 0x02000F0A) /* Setup */
+     , (23291,   3, 0x20000014) /* SoundTable */
+     , (23291,   6, 0x040014DB) /* PaletteBase */
+     , (23291,   7, 0x10000467) /* ClothingBase */
+     , (23291,   8, 0x06002AA8) /* Icon */
+     , (23291,  22, 0x3400002B) /* PhysicsEffectTable */;

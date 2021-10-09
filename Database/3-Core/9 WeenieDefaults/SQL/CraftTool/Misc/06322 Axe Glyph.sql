@@ -34,7 +34,7 @@ VALUES (6322,   1, 'Axe Glyph') /* Name */
      , (6322,  16, 'A glyph with the image of an axe emblazoned upon it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6322,   1,   33556438) /* Setup */
-     , (6322,   3,  536870932) /* SoundTable */
-     , (6322,   8,  100670476) /* Icon */
-     , (6322,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6322,   1, 0x020007D6) /* Setup */
+     , (6322,   3, 0x20000014) /* SoundTable */
+     , (6322,   8, 0x06001C0C) /* Icon */
+     , (6322,  22, 0x3400002B) /* PhysicsEffectTable */;

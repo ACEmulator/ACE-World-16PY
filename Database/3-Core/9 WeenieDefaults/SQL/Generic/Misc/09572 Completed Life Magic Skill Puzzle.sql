@@ -28,8 +28,8 @@ VALUES (9572,   1, 'Completed Life Magic Skill Puzzle') /* Name */
      , (9572,  16, 'A completed Life Magic Skill Puzzle.  Turn in to a Bestower Examiner to receive a title.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9572,   1,   33557028) /* Setup */
-     , (9572,   3,  536870932) /* SoundTable */
-     , (9572,   8,  100671562) /* Icon */
-     , (9572,  22,  872415275) /* PhysicsEffectTable */
-     , (9572,  36,  234881046) /* MutateFilter */;
+VALUES (9572,   1, 0x02000A24) /* Setup */
+     , (9572,   3, 0x20000014) /* SoundTable */
+     , (9572,   8, 0x0600204A) /* Icon */
+     , (9572,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (9572,  36, 0x0E000016) /* MutateFilter */;

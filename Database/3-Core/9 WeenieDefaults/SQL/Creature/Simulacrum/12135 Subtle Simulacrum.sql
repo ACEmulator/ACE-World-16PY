@@ -65,12 +65,12 @@ VALUES (12135,   1, 'Subtle Simulacrum') /* Name */
      , (12135,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12135,   1,   33554510) /* Setup */
-     , (12135,   2,  150995141) /* MotionTable */
-     , (12135,   3,  536871045) /* SoundTable */
-     , (12135,   4,  805306368) /* CombatTable */
-     , (12135,   8,  100667446) /* Icon */
-     , (12135,  22,  872415381) /* PhysicsEffectTable */
+VALUES (12135,   1, 0x0200004E) /* Setup */
+     , (12135,   2, 0x090000C5) /* MotionTable */
+     , (12135,   3, 0x20000085) /* SoundTable */
+     , (12135,   4, 0x30000000) /* CombatTable */
+     , (12135,   8, 0x06001036) /* Icon */
+     , (12135,  22, 0x34000095) /* PhysicsEffectTable */
      , (12135,  32,        372) /* WieldedTreasureType - 
                                    Wield 5x Javelin (320) | Probability: 10%
                                    Wield 5x Djarid (317) | Probability: 10%
@@ -144,54 +144,54 @@ VALUES (12135,  0,  4,  0,    0,  270,  270,  270,  270,  270,  270,  270,  270,
      , (12135,  8,  4,  2, 0.75,  250,  250,  250,  250,  250,  250,  250,  250,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12135,    60,  2.011)  /* Acid Stream III */
-     , (12135,    61,  2.017)  /* Acid Stream IV */
-     , (12135,    66,  2.011)  /* Shock Wave III */
-     , (12135,    67,  2.017)  /* Shock Wave IV */
-     , (12135,    71,  2.011)  /* Frost Bolt III */
+VALUES (12135,   136,  2.011)  /* Frost Volley IV */
      , (12135,    72,  2.017)  /* Frost Bolt IV */
-     , (12135,    77,  2.011)  /* Lightning Bolt III */
-     , (12135,    78,  2.017)  /* Lightning Bolt IV */
-     , (12135,    82,  2.011)  /* Flame Bolt III */
-     , (12135,    83,  2.017)  /* Flame Bolt IV */
-     , (12135,    88,  2.011)  /* Force Bolt III */
-     , (12135,    89,  2.017)  /* Force Bolt IV */
-     , (12135,    94,  2.011)  /* Whirling Blade III */
-     , (12135,    95,  2.017)  /* Whirling Blade IV */
      , (12135,   128,  2.011)  /* Acid Volley IV */
+     , (12135,  1666,  2.032)  /* Stamina to Health Self III */
+     , (12135,    66,  2.011)  /* Shock Wave III */
+     , (12135,    83,  2.017)  /* Flame Bolt IV */
+     , (12135,  1159,   2.09)  /* Heal Self IV */
      , (12135,   131,  2.017)  /* Bludgeoning Volley III */
+     , (12135,    67,  2.017)  /* Shock Wave IV */
      , (12135,   135,  2.017)  /* Frost Volley III */
-     , (12135,   136,  2.011)  /* Frost Volley IV */
+     , (12135,    71,  2.011)  /* Frost Bolt III */
+     , (12135,  1417,  2.023)  /* Slowness Other III */
      , (12135,   139,  2.017)  /* Lightning Volley III */
+     , (12135,    95,  2.017)  /* Whirling Blade IV */
+     , (12135,  1292,  2.032)  /* Mana to Health Self III */
      , (12135,   140,  2.011)  /* Lightning Volley IV */
+     , (12135,    77,  2.011)  /* Lightning Bolt III */
+     , (12135,  1678,  2.032)  /* Stamina to Mana Self III */
+     , (12135,  1369,  2.023)  /* Frailty Other III */
+     , (12135,    78,  2.017)  /* Lightning Bolt IV */
      , (12135,   143,  2.017)  /* Flame Volley III */
      , (12135,   144,  2.011)  /* Flame Volley IV */
-     , (12135,   151,  2.017)  /* Blade Volley III */
-     , (12135,   246,  2.032)  /* Invulnerability Self III */
-     , (12135,   282,  2.023)  /* Magic Yield Other III */
-     , (12135,  1050,   2.09)  /* Bludgeoning Vulnerability Other III */
-     , (12135,  1159,   2.09)  /* Heal Self IV */
-     , (12135,  1173,  2.023)  /* Harm Other III */
-     , (12135,  1197,  2.023)  /* Enfeeble Other III */
-     , (12135,  1239,  2.032)  /* Drain Health Other III */
      , (12135,  1262,  2.023)  /* Drain Mana Other III */
-     , (12135,  1292,  2.032)  /* Mana to Health Self III */
-     , (12135,  1369,  2.023)  /* Frailty Other III */
-     , (12135,  1417,  2.023)  /* Slowness Other III */
-     , (12135,  1666,  2.032)  /* Stamina to Health Self III */
-     , (12135,  1678,  2.032)  /* Stamina to Mana Self III */;
+     , (12135,    82,  2.011)  /* Flame Bolt III */
+     , (12135,  1173,  2.023)  /* Harm Other III */
+     , (12135,  1239,  2.032)  /* Drain Health Other III */
+     , (12135,   151,  2.017)  /* Blade Volley III */
+     , (12135,    88,  2.011)  /* Force Bolt III */
+     , (12135,    89,  2.017)  /* Force Bolt IV */
+     , (12135,   282,  2.023)  /* Magic Yield Other III */
+     , (12135,   246,  2.032)  /* Invulnerability Self III */
+     , (12135,  1050,   2.09)  /* Bludgeoning Vulnerability Other III */
+     , (12135,    94,  2.011)  /* Whirling Blade III */
+     , (12135,  1197,  2.023)  /* Enfeeble Other III */
+     , (12135,    60,  2.011)  /* Acid Stream III */
+     , (12135,    61,  2.017)  /* Acid Stream IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (12135,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (12135, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12135,  5 /* HeartBeat */,    0.1, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (12135,  5 /* HeartBeat */,    0.1, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767229 /* BowDeep */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x1300007D /* BowDeep */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12135, 2,  5850,  0, 9, 0, False) /* Create Faran Robe (5850) for Wield */

@@ -24,7 +24,7 @@ VALUES (20565,   1, 'Scroll of Nuhmudira''s Boon') /* Name */
      , (20565,  15, 'When learned, this spell increases the target''s Mana Conversion skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20565,   1,   33554826) /* Setup */
-     , (20565,   8,  100676466) /* Icon */
-     , (20565,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20565,   1, 0x0200018A) /* Setup */
+     , (20565,   8, 0x06003372) /* Icon */
+     , (20565,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20565,  28,       2286) /* Spell - Nuhmudira's Boon */;

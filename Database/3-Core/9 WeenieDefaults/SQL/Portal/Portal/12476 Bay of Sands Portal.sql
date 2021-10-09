@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12476,   1, 'Bay of Sands Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12476,   1,   33554867) /* Setup */
-     , (12476,   2,  150994947) /* MotionTable */
-     , (12476,   8,  100667499) /* Icon */;
+VALUES (12476,   1, 0x020001B3) /* Setup */
+     , (12476,   2, 0x09000003) /* MotionTable */
+     , (12476,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12476, 2, 2038497285, 15.782, 111.462, 0.717, 0.7145765, 0, 0, -0.6995573) /* Destination */
-/* @teleloc 0x79810005 [15.782000 111.462000 0.717000] 0.714577 0.000000 0.000000 -0.699557 */;
+VALUES (12476, 2, 0x79810005, 15.782, 111.462, 0.717, 0.714577, 0, 0, -0.699557) /* Destination */
+/* @teleloc 0x79810005 [15.782000 111.461998 0.717000] 0.714577 0.000000 0.000000 -0.699557 */;

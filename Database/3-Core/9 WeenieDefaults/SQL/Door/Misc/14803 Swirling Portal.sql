@@ -30,10 +30,10 @@ VALUES (14803,   1, 'Swirling Portal') /* Name */
      , (14803,  14, 'Use this item to open it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14803,   1,   33557511) /* Setup */
-     , (14803,   2,  150995155) /* MotionTable */
-     , (14803,   3,  536871050) /* SoundTable */
-     , (14803,   6,   67111868) /* PaletteBase */
-     , (14803,   7,  268436329) /* ClothingBase */
-     , (14803,   8,  100667499) /* Icon */
-     , (14803,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14803,   1, 0x02000C07) /* Setup */
+     , (14803,   2, 0x090000D3) /* MotionTable */
+     , (14803,   3, 0x2000008A) /* SoundTable */
+     , (14803,   6, 0x04000BBC) /* PaletteBase */
+     , (14803,   7, 0x10000369) /* ClothingBase */
+     , (14803,   8, 0x0600106B) /* Icon */
+     , (14803,  22, 0x3400002B) /* PhysicsEffectTable */;

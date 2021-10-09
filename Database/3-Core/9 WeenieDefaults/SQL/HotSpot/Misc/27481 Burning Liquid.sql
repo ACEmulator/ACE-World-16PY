@@ -39,6 +39,6 @@ VALUES (27481,   1, 'Burning Liquid') /* Name */
      , (27481,  17, 'You lose %i health, as hot liquid is dropped on you from above.') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27481,   1,   33556024) /* Setup */
-     , (27481,   3,  536871007) /* SoundTable */
-     , (27481,   8,  100667465) /* Icon */;
+VALUES (27481,   1, 0x02000638) /* Setup */
+     , (27481,   3, 0x2000005F) /* SoundTable */
+     , (27481,   8, 0x06001049) /* Icon */;

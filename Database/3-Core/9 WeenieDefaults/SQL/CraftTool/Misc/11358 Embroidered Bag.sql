@@ -34,7 +34,7 @@ VALUES (11358,   1, 'Embroidered Bag') /* Name */
      , (11358,  15, 'A beautifully embroidered bag nearly filled with three bundles of Kithless Siraluun feathers.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11358,   1,   33554769) /* Setup */
-     , (11358,   3,  536870932) /* SoundTable */
-     , (11358,   8,  100671838) /* Icon */
-     , (11358,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11358,   1, 0x02000151) /* Setup */
+     , (11358,   3, 0x20000014) /* SoundTable */
+     , (11358,   8, 0x0600215E) /* Icon */
+     , (11358,  22, 0x3400002B) /* PhysicsEffectTable */;

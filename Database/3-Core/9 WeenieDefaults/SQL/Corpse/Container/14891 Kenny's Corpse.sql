@@ -27,7 +27,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14891,   1, 'Kenny''s Corpse') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14891,   1,   33555324) /* Setup */
-     , (14891,   2,  150994945) /* MotionTable */
-     , (14891,   8,  100667504) /* Icon */
-     , (14891,  22,  872415342) /* PhysicsEffectTable */;
+VALUES (14891,   1, 0x0200037C) /* Setup */
+     , (14891,   2, 0x09000001) /* MotionTable */
+     , (14891,   8, 0x06001070) /* Icon */
+     , (14891,  22, 0x3400006E) /* PhysicsEffectTable */;

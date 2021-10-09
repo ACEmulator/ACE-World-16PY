@@ -38,7 +38,7 @@ VALUES (11439,  22, True ) /* Inscribable */
      , (11439,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11439,   5, -0.03333) /* ManaRate */
+VALUES (11439,   5,  -0.033) /* ManaRate */
      , (11439,  21,    1.33) /* WeaponLength */
      , (11439,  22,    0.57) /* DamageVariance */
      , (11439,  29,    1.08) /* WeaponDefense */
@@ -52,13 +52,13 @@ VALUES (11439,   1, 'Palenqual''s Hoeroa of the Vortex') /* Name */
      , (11439,  16, 'A hoeroa fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11439,   1,   33557237) /* Setup */
-     , (11439,   3,  536870932) /* SoundTable */
-     , (11439,   6,   67113336) /* PaletteBase */
-     , (11439,   7,  268436253) /* ClothingBase */
-     , (11439,   8,  100672099) /* Icon */
-     , (11439,  22,  872415275) /* PhysicsEffectTable */
-     , (11439,  36,  234881044) /* MutateFilter */;
+VALUES (11439,   1, 0x02000AF5) /* Setup */
+     , (11439,   3, 0x20000014) /* SoundTable */
+     , (11439,   6, 0x04001178) /* PaletteBase */
+     , (11439,   7, 0x1000031D) /* ClothingBase */
+     , (11439,   8, 0x06002263) /* Icon */
+     , (11439,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11439,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11439,  2438,      2)  /* Lesser Rockslide */
@@ -66,7 +66,7 @@ VALUES (11439,  2438,      2)  /* Lesser Rockslide */
      , (11439,  2444,      2)  /* Lesser Strength of Earth */
      , (11439,  2447,      2)  /* Lesser Growth */
      , (11439,  2450,      2)  /* Lesser Hunter's Acumen */
-     , (11439,  2453,      2)  /* Lesser Thorns */
      , (11439,  2469,      2)  /* Cascade */
+     , (11439,  2453,      2)  /* Lesser Thorns */
      , (11439,  2472,      2)  /* Still Water */
      , (11439,  2475,      2)  /* Torrent */;

@@ -22,5 +22,5 @@ VALUES (997,   1, 'Samsur: 3 miles') /* Name */
      , (997,  16, 'Town of Samsur: 3 miles.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (997,   1,   33555985) /* Setup */
-     , (997,   8,  100668115) /* Icon */;
+VALUES (997,   1, 0x02000611) /* Setup */
+     , (997,   8, 0x060012D3) /* Icon */;

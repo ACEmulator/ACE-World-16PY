@@ -26,10 +26,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21915,   1, 'Gaerlan Effect') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21915,   1,   33557846) /* Setup */
-     , (21915,   2,  150995222) /* MotionTable */
-     , (21915,   3,  536870913) /* SoundTable */
-     , (21915,   6,   67112626) /* PaletteBase */
-     , (21915,   7,  268436403) /* ClothingBase */
-     , (21915,   8,  100673073) /* Icon */
-     , (21915,  22,  872415236) /* PhysicsEffectTable */;
+VALUES (21915,   1, 0x02000D56) /* Setup */
+     , (21915,   2, 0x09000116) /* MotionTable */
+     , (21915,   3, 0x20000001) /* SoundTable */
+     , (21915,   6, 0x04000EB2) /* PaletteBase */
+     , (21915,   7, 0x100003B3) /* ClothingBase */
+     , (21915,   8, 0x06002631) /* Icon */
+     , (21915,  22, 0x34000004) /* PhysicsEffectTable */;

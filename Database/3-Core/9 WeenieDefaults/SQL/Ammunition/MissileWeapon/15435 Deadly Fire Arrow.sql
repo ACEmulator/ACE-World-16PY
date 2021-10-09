@@ -46,9 +46,9 @@ VALUES (15435,   1, 'Deadly Fire Arrow') /* Name */
      , (15435,  16, 'A flaming arrow that appears to do fire damage.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15435,   1,   33555406) /* Setup */
-     , (15435,   3,  536870932) /* SoundTable */
-     , (15435,   6,   67111919) /* PaletteBase */
-     , (15435,   7,  268436303) /* ClothingBase */
-     , (15435,   8,  100672663) /* Icon */
-     , (15435,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15435,   1, 0x020003CE) /* Setup */
+     , (15435,   3, 0x20000014) /* SoundTable */
+     , (15435,   6, 0x04000BEF) /* PaletteBase */
+     , (15435,   7, 0x1000034F) /* ClothingBase */
+     , (15435,   8, 0x06002497) /* Icon */
+     , (15435,  22, 0x3400002B) /* PhysicsEffectTable */;

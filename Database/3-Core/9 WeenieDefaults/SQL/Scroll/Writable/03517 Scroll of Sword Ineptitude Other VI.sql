@@ -25,7 +25,7 @@ VALUES (3517,   1, 'Scroll of Sword Ineptitude Other VI') /* Name */
      , (3517,  16, 'When learned, this spell decreases the target''s Sword skill by 60%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3517,   1,   33554826) /* Setup */
-     , (3517,   8,  100676475) /* Icon */
-     , (3517,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3517,   1, 0x0200018A) /* Setup */
+     , (3517,   8, 0x0600337B) /* Icon */
+     , (3517,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3517,  28,        429) /* Spell - Heavy Weapon Ineptitude Other VI */;

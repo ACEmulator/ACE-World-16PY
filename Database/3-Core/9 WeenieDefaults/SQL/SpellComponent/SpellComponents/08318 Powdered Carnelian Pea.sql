@@ -31,10 +31,10 @@ VALUES (8318,   1, 'Powdered Carnelian Pea') /* Name */
      , (8318,  16, 'A concentrated powdered carnelian pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8318,   1,   33555208) /* Setup */
-     , (8318,   3,  536870932) /* SoundTable */
-     , (8318,   6,   67111919) /* PaletteBase */
-     , (8318,   7,  268435778) /* ClothingBase */
-     , (8318,   8,  100671073) /* Icon */
-     , (8318,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8318,   1, 0x02000308) /* Setup */
+     , (8318,   3, 0x20000014) /* SoundTable */
+     , (8318,   6, 0x04000BEF) /* PaletteBase */
+     , (8318,   7, 0x10000142) /* ClothingBase */
+     , (8318,   8, 0x06001E61) /* Icon */
+     , (8318,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8318,  29,        141) /* SpellComponent */;

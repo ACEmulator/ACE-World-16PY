@@ -16,7 +16,7 @@ VALUES (9597,   1,        256) /* ItemType - MissileWeapon */
      , (9597,  48,          2) /* WeaponSkill - Bow */
      , (9597,  49,         50) /* WeaponTime */
      , (9597,  50,          1) /* AmmoType - Arrow */
-     , (9597,  51,          2) /* CombatUse - Missle */
+     , (9597,  51,          2) /* CombatUse - Missile */
      , (9597,  52,          2) /* ParentLocation - LeftHand */
      , (9597,  53,          3) /* PlacementPosition - LeftHand */
      , (9597,  60,        200) /* WeaponRange */
@@ -47,14 +47,14 @@ VALUES (9597,   1, 'Bow of the Quiddity') /* Name */
      , (9597,  16, 'A weapon made of a strange pulsating energy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9597,   1,   33557111) /* Setup */
-     , (9597,   3,  536870932) /* SoundTable */
-     , (9597,   8,  100671694) /* Icon */
-     , (9597,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9597,   1, 0x02000A77) /* Setup */
+     , (9597,   3, 0x20000014) /* SoundTable */
+     , (9597,   8, 0x060020CE) /* Icon */
+     , (9597,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9597,  37,          2) /* ItemSkillLimit - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9597,  1590,      2)  /* Aura of Heart Seeker Self IV */
-     , (9597,  1603,      2)  /* Aura of Defender Self IV */
+VALUES (9597,  1603,      2)  /* Aura of Defender Self IV */
      , (9597,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (9597,  1625,      2)  /* Aura of Swift Killer Self IV */;
+     , (9597,  1625,      2)  /* Aura of Swift Killer Self IV */
+     , (9597,  1590,      2)  /* Aura of Heart Seeker Self IV */;

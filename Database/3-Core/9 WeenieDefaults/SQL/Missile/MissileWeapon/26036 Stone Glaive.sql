@@ -21,7 +21,7 @@ VALUES (26036,   1,        256) /* ItemType - MissileWeapon */
      , (26036,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (26036,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (26036,  49,         20) /* WeaponTime */
-     , (26036,  51,          2) /* CombatUse - Missle */
+     , (26036,  51,          2) /* CombatUse - Missile */
      , (26036,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -40,7 +40,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26036,   1, 'Stone Glaive') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26036,   1,   33558585) /* Setup */
-     , (26036,   3,  536870932) /* SoundTable */
-     , (26036,   8,  100675767) /* Icon */
-     , (26036,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (26036,   1, 0x02001039) /* Setup */
+     , (26036,   3, 0x20000014) /* SoundTable */
+     , (26036,   8, 0x060030B7) /* Icon */
+     , (26036,  22, 0x3400002B) /* PhysicsEffectTable */;

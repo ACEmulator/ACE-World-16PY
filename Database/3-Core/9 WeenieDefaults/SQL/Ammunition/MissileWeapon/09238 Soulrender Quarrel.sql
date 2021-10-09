@@ -41,7 +41,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9238,   1, 'Soulrender Quarrel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9238,   1,   33556990) /* Setup */
-     , (9238,   3,  536870932) /* SoundTable */
-     , (9238,   8,  100671404) /* Icon */
-     , (9238,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9238,   1, 0x020009FE) /* Setup */
+     , (9238,   3, 0x20000014) /* SoundTable */
+     , (9238,   8, 0x06001FAC) /* Icon */
+     , (9238,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -48,15 +48,15 @@ VALUES (24458,   1, 'Hatchetman''s Gauntlets') /* Name */
      , (24458,  16, 'These gauntlets have been carved from Sunstone and fitted with an amulet with the essence of the axer.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24458,   1,   33554648) /* Setup */
-     , (24458,   3,  536870932) /* SoundTable */
-     , (24458,   6,   67108990) /* PaletteBase */
-     , (24458,   7,  268436636) /* ClothingBase */
-     , (24458,   8,  100674334) /* Icon */
-     , (24458,  22,  872415275) /* PhysicsEffectTable */
-     , (24458,  36,  234881046) /* MutateFilter */;
+VALUES (24458,   1, 0x020000D8) /* Setup */
+     , (24458,   3, 0x20000014) /* SoundTable */
+     , (24458,   6, 0x0400007E) /* PaletteBase */
+     , (24458,   7, 0x1000049C) /* ClothingBase */
+     , (24458,   8, 0x06002B1E) /* Icon */
+     , (24458,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24458,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24458,  1384,      2)  /* Coordination Other VI */
-     , (24458,  1485,      2)  /* Impenetrability V */
+VALUES (24458,  1485,      2)  /* Impenetrability V */
+     , (24458,  1384,      2)  /* Coordination Other VI */
      , (24458,  2686,      2)  /* Moderate Light Weapon Aptitude */;

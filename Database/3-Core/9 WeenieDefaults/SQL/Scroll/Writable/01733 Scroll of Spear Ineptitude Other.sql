@@ -25,7 +25,7 @@ VALUES (1733,   1, 'Scroll of Spear Ineptitude Other') /* Name */
      , (1733,  16, 'When learned, this spell decreases the target''s Spear skill by 9%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1733,   1,   33554826) /* Setup */
-     , (1733,   8,  100676472) /* Icon */
-     , (1733,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1733,   1, 0x0200018A) /* Setup */
+     , (1733,   8, 0x06003378) /* Icon */
+     , (1733,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1733,  28,        376) /* Spell - Light Weapon Ineptitude Other I */;

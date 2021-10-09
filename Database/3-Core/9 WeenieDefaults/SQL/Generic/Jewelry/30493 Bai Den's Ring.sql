@@ -24,9 +24,9 @@ VALUES (30493,   1, 'Bai Den''s Ring') /* Name */
      , (30493,  33, 'ShoushiBraidRing1204') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30493,   1,   33554691) /* Setup */
-     , (30493,   3,  536870932) /* SoundTable */
-     , (30493,   6,   67111919) /* PaletteBase */
-     , (30493,   7,  268435753) /* ClothingBase */
-     , (30493,   8,  100668662) /* Icon */
-     , (30493,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30493,   1, 0x02000103) /* Setup */
+     , (30493,   3, 0x20000014) /* SoundTable */
+     , (30493,   6, 0x04000BEF) /* PaletteBase */
+     , (30493,   7, 0x10000129) /* ClothingBase */
+     , (30493,   8, 0x060014F6) /* Icon */
+     , (30493,  22, 0x3400002B) /* PhysicsEffectTable */;

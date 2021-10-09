@@ -42,17 +42,17 @@ VALUES (23890,   1, 'Assault Orb') /* Name */
      , (23890,  16, 'A reward for defeating the leaders of the Falcon Clan.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23890,   1,   33558211) /* Setup */
-     , (23890,   3,  536870932) /* SoundTable */
-     , (23890,   6,   67111919) /* PaletteBase */
-     , (23890,   7,  268436199) /* ClothingBase */
-     , (23890,   8,  100671741) /* Icon */
-     , (23890,  22,  872415275) /* PhysicsEffectTable */
-     , (23890,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (23890,   1, 0x02000EC3) /* Setup */
+     , (23890,   3, 0x20000014) /* SoundTable */
+     , (23890,   6, 0x04000BEF) /* PaletteBase */
+     , (23890,   7, 0x100002E7) /* ClothingBase */
+     , (23890,   8, 0x060020FD) /* Icon */
+     , (23890,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (23890,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (23890,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23890,   215,      2)  /* Mana Renewal Self IV */
-     , (23890,   656,      2)  /* Mana Conversion Mastery Self IV */
+VALUES (23890,   656,      2)  /* Mana Conversion Mastery Self IV */
      , (23890,  1425,      2)  /* Focus Self V */
+     , (23890,   215,      2)  /* Mana Renewal Self IV */
      , (23890,  2013,      2)  /* Wizard's Greater Intellect */;

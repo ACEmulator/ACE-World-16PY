@@ -33,8 +33,8 @@ VALUES (22207,   1, 'Storage') /* Name */
      , (22207,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22207,   1,   33557143) /* Setup */
-     , (22207,   2,  150994948) /* MotionTable */
-     , (22207,   3,  536870945) /* SoundTable */
-     , (22207,   8,  100671885) /* Icon */
-     , (22207,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22207,   1, 0x02000A97) /* Setup */
+     , (22207,   2, 0x09000004) /* MotionTable */
+     , (22207,   3, 0x20000021) /* SoundTable */
+     , (22207,   8, 0x0600218D) /* Icon */
+     , (22207,  22, 0x3400002B) /* PhysicsEffectTable */;

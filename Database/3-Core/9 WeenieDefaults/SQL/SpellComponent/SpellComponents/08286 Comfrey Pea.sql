@@ -30,10 +30,10 @@ VALUES (8286,   1, 'Comfrey Pea') /* Name */
      , (8286,  16, 'A concentrated comfrey pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8286,   1,   33554817) /* Setup */
-     , (8286,   3,  536870932) /* SoundTable */
-     , (8286,   6,   67111919) /* PaletteBase */
-     , (8286,   7,  268435720) /* ClothingBase */
-     , (8286,   8,  100671043) /* Icon */
-     , (8286,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8286,   1, 0x02000181) /* Setup */
+     , (8286,   3, 0x20000014) /* SoundTable */
+     , (8286,   6, 0x04000BEF) /* PaletteBase */
+     , (8286,   7, 0x10000108) /* ClothingBase */
+     , (8286,   8, 0x06001E43) /* Icon */
+     , (8286,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8286,  29,        135) /* SpellComponent */;

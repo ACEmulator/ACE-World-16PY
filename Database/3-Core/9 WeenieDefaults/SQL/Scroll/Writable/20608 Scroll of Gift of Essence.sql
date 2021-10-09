@@ -24,7 +24,7 @@ VALUES (20608,   1, 'Scroll of Gift of Essence') /* Name */
      , (20608,  15, 'When learned, this spell drains one-quarter of the caster''s Mana and gives 175% of that to the target.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20608,   1,   33554826) /* Setup */
-     , (20608,   8,  100676929) /* Icon */
-     , (20608,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20608,   1, 0x0200018A) /* Setup */
+     , (20608,   8, 0x06003541) /* Icon */
+     , (20608,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20608,  28,       2336) /* Spell - Gift of Essence */;

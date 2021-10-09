@@ -18,7 +18,7 @@ VALUES (28233,   1,        256) /* ItemType - MissileWeapon */
      , (28233,  48,          3) /* WeaponSkill - Crossbow */
      , (28233,  49,        120) /* WeaponTime */
      , (28233,  50,          2) /* AmmoType - Bolt */
-     , (28233,  51,          2) /* CombatUse - Missle */
+     , (28233,  51,          2) /* CombatUse - Missile */
      , (28233,  52,          2) /* ParentLocation - LeftHand */
      , (28233,  53,          3) /* PlacementPosition - LeftHand */
      , (28233,  60,        192) /* WeaponRange */
@@ -42,11 +42,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28233,   1, 'Prickly Heavy Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28233,   1,   33554732) /* Setup */
-     , (28233,   3,  536870932) /* SoundTable */
-     , (28233,   6,   67111919) /* PaletteBase */
-     , (28233,   7,  268435762) /* ClothingBase */
-     , (28233,   8,  100668835) /* Icon */
-     , (28233,  22,  872415275) /* PhysicsEffectTable */
-     , (28233,  36,  234881053) /* MutateFilter */
-     , (28233,  46,  939524105) /* TsysMutationFilter */;
+VALUES (28233,   1, 0x0200012C) /* Setup */
+     , (28233,   3, 0x20000014) /* SoundTable */
+     , (28233,   6, 0x04000BEF) /* PaletteBase */
+     , (28233,   7, 0x10000132) /* ClothingBase */
+     , (28233,   8, 0x060015A3) /* Icon */
+     , (28233,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (28233,  36, 0x0E00001D) /* MutateFilter */
+     , (28233,  46, 0x38000009) /* TsysMutationFilter */;

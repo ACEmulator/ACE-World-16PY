@@ -49,10 +49,10 @@ VALUES (21356,   1, 'Phantom Mace') /* Name */
      , (21356,  16, 'A mace with a ghostly head crafted from pure chorizite, resistant to any enchantment. (Note: This weapon is unenchantable.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21356,   1,   33556654) /* Setup */
-     , (21356,   3,  536870932) /* SoundTable */
-     , (21356,   6,   67111919) /* PaletteBase */
-     , (21356,   7,  268435792) /* ClothingBase */
-     , (21356,   8,  100668955) /* Icon */
-     , (21356,  22,  872415275) /* PhysicsEffectTable */
-     , (21356,  36,  234881044) /* MutateFilter */;
+VALUES (21356,   1, 0x020008AE) /* Setup */
+     , (21356,   3, 0x20000014) /* SoundTable */
+     , (21356,   6, 0x04000BEF) /* PaletteBase */
+     , (21356,   7, 0x10000150) /* ClothingBase */
+     , (21356,   8, 0x0600161B) /* Icon */
+     , (21356,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (21356,  36, 0x0E000014) /* MutateFilter */;

@@ -22,5 +22,5 @@ VALUES (19383,   1, 'Forsythian Gardens') /* Name */
      , (19383,  16, 'Forsythian Gardens') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19383,   1,   33557690) /* Setup */
-     , (19383,   8,  100667499) /* Icon */;
+VALUES (19383,   1, 0x02000CBA) /* Setup */
+     , (19383,   8, 0x0600106B) /* Icon */;

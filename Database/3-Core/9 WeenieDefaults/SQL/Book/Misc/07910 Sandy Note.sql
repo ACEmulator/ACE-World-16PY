@@ -27,10 +27,10 @@ VALUES (7910,   1, 'Sandy Note') /* Name */
      , (7910,  16, 'A sheet of paper covered with Dericostian runes. You cannot read this, and must bring it to a translator.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7910,   1,   33554773) /* Setup */
-     , (7910,   3,  536870932) /* SoundTable */
-     , (7910,   8,  100668176) /* Icon */
-     , (7910,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7910,   1, 0x02000155) /* Setup */
+     , (7910,   3, 0x20000014) /* SoundTable */
+     , (7910,   8, 0x06001310) /* Icon */
+     , (7910,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (7910, 1, 1000);

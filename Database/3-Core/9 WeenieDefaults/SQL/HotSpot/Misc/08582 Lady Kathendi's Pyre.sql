@@ -36,6 +36,6 @@ VALUES (8582,   1, 'Lady Kathendi''s Pyre') /* Name */
      , (8582,  17, 'You feel a strange presence about you. A voice in your mind says, "Remember me Ithaenc," and the memory of flames burns you for %i points of damage.') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8582,   1,   33556024) /* Setup */
-     , (8582,   3,  536871019) /* SoundTable */
-     , (8582,   8,  100667465) /* Icon */;
+VALUES (8582,   1, 0x02000638) /* Setup */
+     , (8582,   3, 0x2000006B) /* SoundTable */
+     , (8582,   8, 0x06001049) /* Icon */;

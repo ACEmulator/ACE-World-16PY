@@ -22,5 +22,5 @@ VALUES (5420,   1, 'Glenden West Healer') /* Name */
      , (5420,  16, 'Glenden West Healer') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5420,   1,   33555984) /* Setup */
-     , (5420,   8,  100668115) /* Icon */;
+VALUES (5420,   1, 0x02000610) /* Setup */
+     , (5420,   8, 0x060012D3) /* Icon */;

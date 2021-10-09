@@ -33,16 +33,16 @@ VALUES (28056,   1, 'Ring of the Watchman') /* Name */
      , (28056,  16, 'A small ring of pale silver, taken from the finger of the Relic Watchman on Aerlinthe Island.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28056,   1,   33554691) /* Setup */
-     , (28056,   3,  536870932) /* SoundTable */
-     , (28056,   6,   67111919) /* PaletteBase */
-     , (28056,   7,  268436015) /* ClothingBase */
-     , (28056,   8,  100670751) /* Icon */
-     , (28056,  22,  872415275) /* PhysicsEffectTable */
-     , (28056,  36,  234881046) /* MutateFilter */
+VALUES (28056,   1, 0x02000103) /* Setup */
+     , (28056,   3, 0x20000014) /* SoundTable */
+     , (28056,   6, 0x04000BEF) /* PaletteBase */
+     , (28056,   7, 0x1000022F) /* ClothingBase */
+     , (28056,   8, 0x06001D1F) /* Icon */
+     , (28056,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (28056,  36, 0x0E000016) /* MutateFilter */
      , (28056,  37,         31) /* ItemSkillLimit - CreatureEnchantment */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28056,   567,      2)  /* Creature Enchantment Mastery Other V */
-     , (28056,   591,      2)  /* Item Enchantment Mastery Other V */
-     , (28056,   663,      2)  /* Mana Conversion Mastery Other V */;
+     , (28056,   663,      2)  /* Mana Conversion Mastery Other V */
+     , (28056,   591,      2)  /* Item Enchantment Mastery Other V */;

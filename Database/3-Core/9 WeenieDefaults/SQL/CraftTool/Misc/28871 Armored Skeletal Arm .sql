@@ -32,7 +32,7 @@ VALUES (28871,   1, 'Armored Skeletal Arm ') /* Name */
      , (28871,  15, 'An armored skeleton arm.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28871,   1,   33559013) /* Setup */
-     , (28871,   3,  536870932) /* SoundTable */
-     , (28871,   8,  100677100) /* Icon */
-     , (28871,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28871,   1, 0x020011E5) /* Setup */
+     , (28871,   3, 0x20000014) /* SoundTable */
+     , (28871,   8, 0x060035EC) /* Icon */
+     , (28871,  22, 0x3400002B) /* PhysicsEffectTable */;

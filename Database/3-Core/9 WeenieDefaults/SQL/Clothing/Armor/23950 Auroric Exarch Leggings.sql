@@ -47,22 +47,22 @@ VALUES (23950,   1, 'Auroric Exarch Leggings') /* Name */
      , (23950,  16, 'A richly enchanted and ornate pair of leggings once worn by the Sentinels of Perfect Light, an order dedicated to aiding Lord Asheron against the darkness.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23950,   1,   33554856) /* Setup */
-     , (23950,   3,  536870932) /* SoundTable */
-     , (23950,   6,   67108990) /* PaletteBase */
-     , (23950,   7,  268436558) /* ClothingBase */
-     , (23950,   8,  100674118) /* Icon */
-     , (23950,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23950,   1, 0x020001A8) /* Setup */
+     , (23950,   3, 0x20000014) /* SoundTable */
+     , (23950,   6, 0x0400007E) /* PaletteBase */
+     , (23950,   7, 0x1000044E) /* ClothingBase */
+     , (23950,   8, 0x06002A46) /* Icon */
+     , (23950,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23950,   992,      2)  /* Sprint Other V */
-     , (23950,  1337,      2)  /* Strength Other VI */
-     , (23950,  2350,      2)  /* Greater Decay Durance */
-     , (23950,  2351,      2)  /* Greater Consumption Durance */
-     , (23950,  2352,      2)  /* Greater Stasis Durance */
-     , (23950,  2353,      2)  /* Greater Stimulation Durance */
-     , (23950,  2378,      2)  /* Beast Murmur */
+VALUES (23950,  2350,      2)  /* Greater Decay Durance */
      , (23950,  2948,      2)  /* Hieromancer's Great Ward */
+     , (23950,   992,      2)  /* Sprint Other V */
      , (23950,  2960,      2)  /* Greater Bludgeoning Durance */
+     , (23950,  2378,      2)  /* Beast Murmur */
+     , (23950,  2351,      2)  /* Greater Consumption Durance */
      , (23950,  2961,      2)  /* Greater Piercing Durance */
-     , (23950,  2962,      2)  /* Greater Slashing Durance */;
+     , (23950,  2352,      2)  /* Greater Stasis Durance */
+     , (23950,  2962,      2)  /* Greater Slashing Durance */
+     , (23950,  2353,      2)  /* Greater Stimulation Durance */
+     , (23950,  1337,      2)  /* Strength Other VI */;

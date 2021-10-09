@@ -37,9 +37,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6593,   1, 'Celdon Shadow Breastplate') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6593,   1,   33554642) /* Setup */
-     , (6593,   3,  536870932) /* SoundTable */
-     , (6593,   6,   67108990) /* PaletteBase */
-     , (6593,   7,  268435848) /* ClothingBase */
-     , (6593,   8,  100670403) /* Icon */
-     , (6593,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6593,   1, 0x020000D2) /* Setup */
+     , (6593,   3, 0x20000014) /* SoundTable */
+     , (6593,   6, 0x0400007E) /* PaletteBase */
+     , (6593,   7, 0x10000188) /* ClothingBase */
+     , (6593,   8, 0x06001BC3) /* Icon */
+     , (6593,  22, 0x3400002B) /* PhysicsEffectTable */;

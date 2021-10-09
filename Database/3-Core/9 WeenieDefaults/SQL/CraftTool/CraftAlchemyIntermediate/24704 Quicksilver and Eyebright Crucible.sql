@@ -31,8 +31,8 @@ VALUES (24704,   1, 'Quicksilver and Eyebright Crucible') /* Name */
      , (24704,  20, 'Quicksilver and Eyebright Crucibles') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24704,   1,   33555966) /* Setup */
-     , (24704,   3,  536870932) /* SoundTable */
-     , (24704,   8,  100674464) /* Icon */
-     , (24704,  22,  872415275) /* PhysicsEffectTable */
-     , (24704,  50,  100674413) /* IconOverlay */;
+VALUES (24704,   1, 0x020005FE) /* Setup */
+     , (24704,   3, 0x20000014) /* SoundTable */
+     , (24704,   8, 0x06002BA0) /* Icon */
+     , (24704,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24704,  50, 0x06002B6D) /* IconOverlay */;

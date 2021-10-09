@@ -35,9 +35,9 @@ VALUES (9541,   1, 'Pink Marshmallow Eep') /* Name */
      , (9541,  14, 'Use this item to eat it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9541,   1,   33558128) /* Setup */
-     , (9541,   3,  536870932) /* SoundTable */
-     , (9541,   6,   67109300) /* PaletteBase */
-     , (9541,   7,  268435725) /* ClothingBase */
-     , (9541,   8,  100671533) /* Icon */
-     , (9541,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9541,   1, 0x02000E70) /* Setup */
+     , (9541,   3, 0x20000014) /* SoundTable */
+     , (9541,   6, 0x040001B4) /* PaletteBase */
+     , (9541,   7, 0x1000010D) /* ClothingBase */
+     , (9541,   8, 0x0600202D) /* Icon */
+     , (9541,  22, 0x3400002B) /* PhysicsEffectTable */;

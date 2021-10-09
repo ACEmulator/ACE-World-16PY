@@ -47,22 +47,22 @@ VALUES (23931,   1, 'Auroric Exarch Coat') /* Name */
      , (23931,  16, 'A richly enchanted and ornate coat once worn by the Sentinels of Perfect Light, an order dedicated to aiding Lord Asheron against the darkness. The seal of the Lightbringer adorns the chestplate.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23931,   1,   33554644) /* Setup */
-     , (23931,   3,  536870932) /* SoundTable */
-     , (23931,   6,   67108990) /* PaletteBase */
-     , (23931,   7,  268436554) /* ClothingBase */
-     , (23931,   8,  100674121) /* Icon */
-     , (23931,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23931,   1, 0x020000D4) /* Setup */
+     , (23931,   3, 0x20000014) /* SoundTable */
+     , (23931,   6, 0x0400007E) /* PaletteBase */
+     , (23931,   7, 0x1000044A) /* ClothingBase */
+     , (23931,   8, 0x06002A49) /* Icon */
+     , (23931,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23931,   664,      2)  /* Mana Conversion Mastery Other VI */
+VALUES (23931,  2350,      2)  /* Greater Decay Durance */
      , (23931,   908,      2)  /* Leadership Mastery Other V */
-     , (23931,  2350,      2)  /* Greater Decay Durance */
-     , (23931,  2351,      2)  /* Greater Consumption Durance */
-     , (23931,  2352,      2)  /* Greater Stasis Durance */
-     , (23931,  2353,      2)  /* Greater Stimulation Durance */
-     , (23931,  2377,      2)  /* Vision of Annihilation */
      , (23931,  2948,      2)  /* Hieromancer's Great Ward */
+     , (23931,   664,      2)  /* Mana Conversion Mastery Other VI */
+     , (23931,  2377,      2)  /* Vision of Annihilation */
      , (23931,  2960,      2)  /* Greater Bludgeoning Durance */
+     , (23931,  2351,      2)  /* Greater Consumption Durance */
      , (23931,  2961,      2)  /* Greater Piercing Durance */
-     , (23931,  2962,      2)  /* Greater Slashing Durance */;
+     , (23931,  2962,      2)  /* Greater Slashing Durance */
+     , (23931,  2352,      2)  /* Greater Stasis Durance */
+     , (23931,  2353,      2)  /* Greater Stimulation Durance */;

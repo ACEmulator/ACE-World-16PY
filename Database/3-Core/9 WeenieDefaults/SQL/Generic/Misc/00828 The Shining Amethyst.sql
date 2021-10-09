@@ -22,7 +22,7 @@ VALUES (828,   1, 'The Shining Amethyst') /* Name */
      , (828,  16, 'The Shining Amethyst') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (828,   1,   33555088) /* Setup */
-     , (828,   6,   67111092) /* PaletteBase */
-     , (828,   7,  268435662) /* ClothingBase */
-     , (828,   8,  100668115) /* Icon */;
+VALUES (828,   1, 0x02000290) /* Setup */
+     , (828,   6, 0x040008B4) /* PaletteBase */
+     , (828,   7, 0x100000CE) /* ClothingBase */
+     , (828,   8, 0x060012D3) /* Icon */;

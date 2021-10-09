@@ -22,5 +22,5 @@ VALUES (12608,   1, 'Glenden Hills North Settlement') /* Name */
      , (12608,  16, 'Welcome to Glenden Hills North Settlement') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12608,   1,   33557463) /* Setup */
-     , (12608,   8,  100668115) /* Icon */;
+VALUES (12608,   1, 0x02000BD7) /* Setup */
+     , (12608,   8, 0x060012D3) /* Icon */;

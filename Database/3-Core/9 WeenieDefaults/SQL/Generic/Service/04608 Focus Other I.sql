@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4608,   1, 'Focus Other I') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4608,   1,   33554667) /* Setup */
-     , (4608,   8,  100668277) /* Icon */
-     , (4608,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4608,   1, 0x020000EB) /* Setup */
+     , (4608,   8, 0x06001375) /* Icon */
+     , (4608,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4608,  28,       1427) /* Spell - Focus Other I */;

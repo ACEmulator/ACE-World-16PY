@@ -27,9 +27,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29033,   1, 'White Spore Cloud') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29033,   1,   33555469) /* Setup */
-     , (29033,   3,  536870966) /* SoundTable */
-     , (29033,   8,  100667494) /* Icon */
-     , (29033,  22,  872415407) /* PhysicsEffectTable */
+VALUES (29033,   1, 0x0200040D) /* Setup */
+     , (29033,   3, 0x20000036) /* SoundTable */
+     , (29033,   8, 0x06001066) /* Icon */
+     , (29033,  22, 0x340000AF) /* PhysicsEffectTable */
      , (29033,  28,         28) /* Spell - Frost Bolt I */
      , (29033,  30,         90) /* PhysicsScript - ProjectileCollision */;

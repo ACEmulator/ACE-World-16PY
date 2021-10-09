@@ -25,7 +25,7 @@ VALUES (1687,   1, 'Scroll of Bow Mastery Self') /* Name */
      , (1687,  16, 'When learned, this spell increases the caster''s Bow skill by 10%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1687,   1,   33554826) /* Setup */
-     , (1687,   8,  100676450) /* Icon */
-     , (1687,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1687,   1, 0x0200018A) /* Setup */
+     , (1687,   8, 0x06003362) /* Icon */
+     , (1687,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1687,  28,        467) /* Spell - Missile Weapon Mastery Self I */;

@@ -29,7 +29,7 @@ VALUES (8206,  22, True ) /* Inscribable */
      , (8206,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8206,   5, -0.0333) /* ManaRate */
+VALUES (8206,   5,  -0.033) /* ManaRate */
      , (8206,  12,    0.66) /* Shade */
      , (8206,  13,     1.3) /* ArmorModVsSlash */
      , (8206,  14,     1.3) /* ArmorModVsPierce */
@@ -47,12 +47,12 @@ VALUES (8206,   1, 'Ogre Mask') /* Name */
      , (8206,  19, 'Sho') /* ItemHeritageGroupRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8206,   1,   33556862) /* Setup */
-     , (8206,   3,  536870932) /* SoundTable */
-     , (8206,   6,   67108990) /* PaletteBase */
-     , (8206,   7,  268436080) /* ClothingBase */
-     , (8206,   8,  100671134) /* Icon */
-     , (8206,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8206,   1, 0x0200097E) /* Setup */
+     , (8206,   3, 0x20000014) /* SoundTable */
+     , (8206,   6, 0x0400007E) /* PaletteBase */
+     , (8206,   7, 0x10000270) /* ClothingBase */
+     , (8206,   8, 0x06001E9E) /* Icon */
+     , (8206,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8206,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

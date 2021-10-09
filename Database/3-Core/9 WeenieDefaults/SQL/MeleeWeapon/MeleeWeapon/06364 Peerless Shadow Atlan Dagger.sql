@@ -44,18 +44,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6364,   1, 'Peerless Shadow Atlan Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6364,   1,   33556309) /* Setup */
-     , (6364,   3,  536870932) /* SoundTable */
-     , (6364,   6,   67111919) /* PaletteBase */
-     , (6364,   7,  268435888) /* ClothingBase */
-     , (6364,   8,  100670523) /* Icon */
-     , (6364,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6364,   1, 0x02000755) /* Setup */
+     , (6364,   3, 0x20000014) /* SoundTable */
+     , (6364,   6, 0x04000BEF) /* PaletteBase */
+     , (6364,   7, 0x100001B0) /* ClothingBase */
+     , (6364,   8, 0x06001C3B) /* Icon */
+     , (6364,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6364,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6364,   265,      2)  /* Defenselessness Other IV */
-     , (6364,   957,      2)  /* Fealty Other VI */
-     , (6364,  1468,      2)  /* Feeblemind Other VI */
-     , (6364,  1590,      2)  /* Aura of Heart Seeker Self IV */
      , (6364,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (6364,  1623,      2)  /* Aura of Swift Killer Self II */;
+     , (6364,  1623,      2)  /* Aura of Swift Killer Self II */
+     , (6364,  1590,      2)  /* Aura of Heart Seeker Self IV */
+     , (6364,  1468,      2)  /* Feeblemind Other VI */
+     , (6364,   957,      2)  /* Fealty Other VI */;

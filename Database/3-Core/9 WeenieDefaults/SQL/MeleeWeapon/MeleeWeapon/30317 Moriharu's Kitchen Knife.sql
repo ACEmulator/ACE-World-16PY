@@ -37,9 +37,9 @@ VALUES (30317,   1, 'Moriharu''s Kitchen Knife') /* Name */
      , (30317,  16, 'Describe me here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30317,   1,   33554735) /* Setup */
-     , (30317,   3,  536870932) /* SoundTable */
-     , (30317,   6,   67111919) /* PaletteBase */
-     , (30317,   7,  268435783) /* ClothingBase */
-     , (30317,   8,  100668875) /* Icon */
-     , (30317,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30317,   1, 0x0200012F) /* Setup */
+     , (30317,   3, 0x20000014) /* SoundTable */
+     , (30317,   6, 0x04000BEF) /* PaletteBase */
+     , (30317,   7, 0x10000147) /* ClothingBase */
+     , (30317,   8, 0x060015CB) /* Icon */
+     , (30317,  22, 0x3400002B) /* PhysicsEffectTable */;

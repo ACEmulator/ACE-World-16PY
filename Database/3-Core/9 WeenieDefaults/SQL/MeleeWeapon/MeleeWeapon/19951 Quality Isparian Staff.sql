@@ -48,12 +48,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19951,   1, 'Quality Isparian Staff') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19951,   1,   33556261) /* Setup */
-     , (19951,   3,  536870932) /* SoundTable */
-     , (19951,   6,   67111919) /* PaletteBase */
-     , (19951,   7,  268436384) /* ClothingBase */
-     , (19951,   8,  100672935) /* Icon */
-     , (19951,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19951,   1, 0x02000725) /* Setup */
+     , (19951,   3, 0x20000014) /* SoundTable */
+     , (19951,   6, 0x04000BEF) /* PaletteBase */
+     , (19951,   7, 0x100003A0) /* ClothingBase */
+     , (19951,   8, 0x060025A7) /* Icon */
+     , (19951,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19951,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

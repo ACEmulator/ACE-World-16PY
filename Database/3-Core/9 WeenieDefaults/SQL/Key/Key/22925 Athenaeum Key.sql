@@ -25,9 +25,9 @@ VALUES (22925,   1, 'Athenaeum Key') /* Name */
      , (22925,  14, 'Use this item on a locked door or chest to unlock it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22925,   1,   33557000) /* Setup */
-     , (22925,   3,  536870932) /* SoundTable */
-     , (22925,   6,   67111346) /* PaletteBase */
-     , (22925,   7,  268436150) /* ClothingBase */
-     , (22925,   8,  100671457) /* Icon */
-     , (22925,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22925,   1, 0x02000A08) /* Setup */
+     , (22925,   3, 0x20000014) /* SoundTable */
+     , (22925,   6, 0x040009B2) /* PaletteBase */
+     , (22925,   7, 0x100002B6) /* ClothingBase */
+     , (22925,   8, 0x06001FE1) /* Icon */
+     , (22925,  22, 0x3400002B) /* PhysicsEffectTable */;

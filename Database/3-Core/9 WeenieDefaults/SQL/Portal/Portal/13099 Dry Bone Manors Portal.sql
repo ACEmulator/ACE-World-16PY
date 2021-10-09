@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13099,   1, 'Dry Bone Manors Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13099,   1,   33554867) /* Setup */
-     , (13099,   2,  150994947) /* MotionTable */
-     , (13099,   8,  100667499) /* Icon */;
+VALUES (13099,   1, 0x020001B3) /* Setup */
+     , (13099,   2, 0x09000003) /* MotionTable */
+     , (13099,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (13099, 2, 2522480701, 179.332, 109.692, 10.202, -0.7075385, 0, 0, -0.7066747) /* Destination */
-/* @teleloc 0x965A003D [179.332000 109.692000 10.202000] -0.707539 0.000000 0.000000 -0.706675 */;
+VALUES (13099, 2, 0x965A003D, 179.332, 109.692, 10.202, -0.707539, 0, -0, -0.706675) /* Destination */
+/* @teleloc 0x965A003D [179.332001 109.692001 10.202000] -0.707539 0.000000 -0.000000 -0.706675 */;

@@ -23,8 +23,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3695,   1, 'Gold Tumerok Insignia') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3695,   1,   33554680) /* Setup */
-     , (3695,   3,  536870932) /* SoundTable */
-     , (3695,   8,  100667330) /* Icon */
-     , (3695,  22,  872415275) /* PhysicsEffectTable */
-     , (3695,  36,  234881046) /* MutateFilter */;
+VALUES (3695,   1, 0x020000F8) /* Setup */
+     , (3695,   3, 0x20000014) /* SoundTable */
+     , (3695,   8, 0x06000FC2) /* Icon */
+     , (3695,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3695,  36, 0x0E000016) /* MutateFilter */;

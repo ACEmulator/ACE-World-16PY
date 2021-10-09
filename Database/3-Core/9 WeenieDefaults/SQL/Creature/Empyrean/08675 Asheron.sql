@@ -62,12 +62,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8675,   1, 'Asheron') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8675,   1,   33556936) /* Setup */
-     , (8675,   2,  150994945) /* MotionTable */
-     , (8675,   3,  536870913) /* SoundTable */
-     , (8675,   4,  805306368) /* CombatTable */
-     , (8675,   8,  100671249) /* Icon */
-     , (8675,  22,  872415236) /* PhysicsEffectTable */;
+VALUES (8675,   1, 0x020009C8) /* Setup */
+     , (8675,   2, 0x09000001) /* MotionTable */
+     , (8675,   3, 0x20000001) /* SoundTable */
+     , (8675,   4, 0x30000000) /* CombatTable */
+     , (8675,   8, 0x06001F11) /* Icon */
+     , (8675,  22, 0x34000004) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8675,   1, 400, 0, 0) /* Strength */
@@ -83,41 +83,41 @@ VALUES (8675,   1,     0, 0, 0, 305) /* MaxHealth */
      , (8675,   5,     0, 0, 0, 600) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (8675,  1, 0, 3, 0, 200, 0, 598.707343386876) /* Axe                 Specialized */
-     , (8675,  2, 0, 3, 0, 200, 0, 598.707343386876) /* Bow                 Specialized */
-     , (8675,  3, 0, 3, 0, 200, 0, 598.707343386876) /* Crossbow            Specialized */
-     , (8675,  4, 0, 3, 0, 200, 0, 598.707343386876) /* Dagger              Specialized */
-     , (8675,  5, 0, 3, 0, 200, 0, 598.707343386876) /* Mace                Specialized */
-     , (8675,  6, 0, 3, 0,   0, 0, 598.707343386876) /* MeleeDefense        Specialized */
-     , (8675,  7, 0, 3, 0, 200, 0, 598.707343386876) /* MissileDefense      Specialized */
-     , (8675,  9, 0, 3, 0, 200, 0, 598.707343386876) /* Spear               Specialized */
-     , (8675, 10, 0, 3, 0, 200, 0, 598.707343386876) /* Staff               Specialized */
-     , (8675, 11, 0, 3, 0, 200, 0, 598.707343386876) /* Sword               Specialized */
-     , (8675, 12, 0, 3, 0, 200, 0, 598.707343386876) /* ThrownWeapon        Specialized */
-     , (8675, 13, 0, 3, 0, 900, 0, 598.707343386876) /* UnarmedCombat       Specialized */
-     , (8675, 14, 0, 3, 0, 200, 0, 598.707343386876) /* ArcaneLore          Specialized */
-     , (8675, 15, 0, 3, 0, 220, 0, 598.707343386876) /* MagicDefense        Specialized */
-     , (8675, 16, 0, 3, 0, 200, 0, 598.707343386876) /* ManaConversion      Specialized */
-     , (8675, 18, 0, 3, 0, 200, 0, 598.707343386876) /* ItemTinkering       Specialized */
-     , (8675, 19, 0, 3, 0, 200, 0, 598.707343386876) /* AssessPerson        Specialized */
-     , (8675, 20, 0, 3, 0, 100, 0, 598.707343386876) /* Deception           Specialized */
-     , (8675, 21, 0, 3, 0, 200, 0, 598.707343386876) /* Healing             Specialized */
-     , (8675, 22, 0, 3, 0, 200, 0, 598.707343386876) /* Jump                Specialized */
-     , (8675, 23, 0, 3, 0, 200, 0, 598.707343386876) /* Lockpick            Specialized */
-     , (8675, 24, 0, 3, 0, 200, 0, 598.707343386876) /* Run                 Specialized */
-     , (8675, 27, 0, 3, 0, 200, 0, 598.707343386876) /* AssessCreature      Specialized */
-     , (8675, 28, 0, 3, 0, 200, 0, 598.707343386876) /* WeaponTinkering     Specialized */
-     , (8675, 29, 0, 3, 0,  20, 0, 598.707343386876) /* ArmorTinkering      Specialized */
-     , (8675, 30, 0, 3, 0, 200, 0, 598.707343386876) /* MagicItemTinkering  Specialized */
-     , (8675, 31, 0, 3, 0, 900, 0, 598.707343386876) /* CreatureEnchantment Specialized */
-     , (8675, 32, 0, 3, 0, 900, 0, 598.707343386876) /* ItemEnchantment     Specialized */
-     , (8675, 33, 0, 3, 0, 900, 0, 598.707343386876) /* LifeMagic           Specialized */
-     , (8675, 34, 0, 3, 0, 900, 0, 598.707343386876) /* WarMagic            Specialized */
-     , (8675, 35, 0, 3, 0, 900, 0, 598.707343386876) /* Leadership          Specialized */
-     , (8675, 36, 0, 3, 0, 900, 0, 598.707343386876) /* Loyalty             Specialized */
-     , (8675, 37, 0, 3, 0, 400, 0, 598.707343386876) /* Fletching           Specialized */
-     , (8675, 38, 0, 3, 0, 400, 0, 598.707343386876) /* Alchemy             Specialized */
-     , (8675, 39, 0, 3, 0, 900, 0, 598.707343386876) /* Cooking             Specialized */;
+VALUES (8675,  1, 0, 3, 0, 200, 0, 598.7073433868757) /* Axe                 Specialized */
+     , (8675,  2, 0, 3, 0, 200, 0, 598.7073433868757) /* Bow                 Specialized */
+     , (8675,  3, 0, 3, 0, 200, 0, 598.7073433868757) /* Crossbow            Specialized */
+     , (8675,  4, 0, 3, 0, 200, 0, 598.7073433868757) /* Dagger              Specialized */
+     , (8675,  5, 0, 3, 0, 200, 0, 598.7073433868757) /* Mace                Specialized */
+     , (8675,  6, 0, 3, 0,   0, 0, 598.7073433868757) /* MeleeDefense        Specialized */
+     , (8675,  7, 0, 3, 0, 200, 0, 598.7073433868757) /* MissileDefense      Specialized */
+     , (8675,  9, 0, 3, 0, 200, 0, 598.7073433868757) /* Spear               Specialized */
+     , (8675, 10, 0, 3, 0, 200, 0, 598.7073433868757) /* Staff               Specialized */
+     , (8675, 11, 0, 3, 0, 200, 0, 598.7073433868757) /* Sword               Specialized */
+     , (8675, 12, 0, 3, 0, 200, 0, 598.7073433868757) /* ThrownWeapon        Specialized */
+     , (8675, 13, 0, 3, 0, 900, 0, 598.7073433868757) /* UnarmedCombat       Specialized */
+     , (8675, 14, 0, 3, 0, 200, 0, 598.7073433868757) /* ArcaneLore          Specialized */
+     , (8675, 15, 0, 3, 0, 220, 0, 598.7073433868757) /* MagicDefense        Specialized */
+     , (8675, 16, 0, 3, 0, 200, 0, 598.7073433868757) /* ManaConversion      Specialized */
+     , (8675, 18, 0, 3, 0, 200, 0, 598.7073433868757) /* ItemTinkering       Specialized */
+     , (8675, 19, 0, 3, 0, 200, 0, 598.7073433868757) /* AssessPerson        Specialized */
+     , (8675, 20, 0, 3, 0, 100, 0, 598.7073433868757) /* Deception           Specialized */
+     , (8675, 21, 0, 3, 0, 200, 0, 598.7073433868757) /* Healing             Specialized */
+     , (8675, 22, 0, 3, 0, 200, 0, 598.7073433868757) /* Jump                Specialized */
+     , (8675, 23, 0, 3, 0, 200, 0, 598.7073433868757) /* Lockpick            Specialized */
+     , (8675, 24, 0, 3, 0, 200, 0, 598.7073433868757) /* Run                 Specialized */
+     , (8675, 27, 0, 3, 0, 200, 0, 598.7073433868757) /* AssessCreature      Specialized */
+     , (8675, 28, 0, 3, 0, 200, 0, 598.7073433868757) /* WeaponTinkering     Specialized */
+     , (8675, 29, 0, 3, 0,  20, 0, 598.7073433868757) /* ArmorTinkering      Specialized */
+     , (8675, 30, 0, 3, 0, 200, 0, 598.7073433868757) /* MagicItemTinkering  Specialized */
+     , (8675, 31, 0, 3, 0, 900, 0, 598.7073433868757) /* CreatureEnchantment Specialized */
+     , (8675, 32, 0, 3, 0, 900, 0, 598.7073433868757) /* ItemEnchantment     Specialized */
+     , (8675, 33, 0, 3, 0, 900, 0, 598.7073433868757) /* LifeMagic           Specialized */
+     , (8675, 34, 0, 3, 0, 900, 0, 598.7073433868757) /* WarMagic            Specialized */
+     , (8675, 35, 0, 3, 0, 900, 0, 598.7073433868757) /* Leadership          Specialized */
+     , (8675, 36, 0, 3, 0, 900, 0, 598.7073433868757) /* Loyalty             Specialized */
+     , (8675, 37, 0, 3, 0, 400, 0, 598.7073433868757) /* Fletching           Specialized */
+     , (8675, 38, 0, 3, 0, 400, 0, 598.7073433868757) /* Alchemy             Specialized */
+     , (8675, 39, 0, 3, 0, 900, 0, 598.7073433868757) /* Cooking             Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (8675,  0,  4,  0,    0,  900,  810,  900,  990,  360,  360,  900,  540,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -131,35 +131,35 @@ VALUES (8675,  0,  4,  0,    0,  900,  810,  900,  990,  360,  360,  900,  540, 
      , (8675,  8,  4, 25, 0.75,  900,  810,  900,  990,  360,  360,  900,  540,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8675,    63,   2.04)  /* Acid Stream VI */
-     , (8675,    69,   2.04)  /* Shock Wave VI */
-     , (8675,    74,   2.04)  /* Frost Bolt VI */
-     , (8675,    80,   2.04)  /* Lightning Bolt VI */
+VALUES (8675,  1783,   2.04)  /* Searing Disc */
      , (8675,    85,   2.04)  /* Flame Bolt VI */
-     , (8675,    97,   2.04)  /* Whirling Blade VI */
-     , (8675,   170,      2)  /* Regeneration Self VI */
-     , (8675,   279,      2)  /* Magic Resistance Self VI */
-     , (8675,   520,      2)  /* Acid Protection Self VI */
-     , (8675,  1023,      2)  /* Bludgeoning Protection Self VI */
-     , (8675,  1035,      2)  /* Cold Protection Self VI */
-     , (8675,  1071,      2)  /* Lightning Protection Self VI */
-     , (8675,  1094,      2)  /* Fire Protection Self VI */
-     , (8675,  1114,      2)  /* Blade Protection Self VI */
-     , (8675,  1138,      2)  /* Piercing Protection Self VI */
-     , (8675,  1242,   2.04)  /* Drain Health Other VI */
+     , (8675,    69,   2.04)  /* Shock Wave VI */
      , (8675,  1254,   2.04)  /* Drain Stamina Other VI */
-     , (8675,  1265,  2.004)  /* Drain Mana Other VI */
+     , (8675,    74,   2.04)  /* Frost Bolt VI */
+     , (8675,   520,      2)  /* Acid Protection Self VI */
+     , (8675,  1788,   2.04)  /* Eye of the Storm */
+     , (8675,   170,      2)  /* Regeneration Self VI */
+     , (8675,  1094,      2)  /* Fire Protection Self VI */
+     , (8675,  1801,   2.04)  /* Flame Streak VI */
+     , (8675,    63,   2.04)  /* Acid Stream VI */
+     , (8675,  1035,      2)  /* Cold Protection Self VI */
+     , (8675,   279,      2)  /* Magic Resistance Self VI */
+     , (8675,    80,   2.04)  /* Lightning Bolt VI */
+     , (8675,  1242,   2.04)  /* Drain Health Other VI */
+     , (8675,  1114,      2)  /* Blade Protection Self VI */
+     , (8675,  1882,      2)  /* Nullify All Magic Self */
      , (8675,  1312,      2)  /* Armor Self VI */
+     , (8675,    97,   2.04)  /* Whirling Blade VI */
+     , (8675,  1071,      2)  /* Lightning Protection Self VI */
+     , (8675,  1841,   2.04)  /* Slithering Flames */
      , (8675,  1327,   2.04)  /* Imperil Other VI */
-     , (8675,  1783,   2.04)  /* Searing Disc */
+     , (8675,  1265,  2.004)  /* Drain Mana Other VI */
+     , (8675,  1138,      2)  /* Piercing Protection Self VI */
      , (8675,  1784,   2.04)  /* Horizon's Blades */
      , (8675,  1785,   2.04)  /* Cassius' Ring of Fire */
      , (8675,  1786,   2.04)  /* Nuhmudira's Spines */
-     , (8675,  1788,   2.04)  /* Eye of the Storm */
      , (8675,  1789,   2.04)  /* Tectonic Rifts */
-     , (8675,  1801,   2.04)  /* Flame Streak VI */
-     , (8675,  1841,   2.04)  /* Slithering Flames */
-     , (8675,  1882,      2)  /* Nullify All Magic Self */;
+     , (8675,  1023,      2)  /* Bludgeoning Protection Self VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (8675, 414) /* PLAYER_DEATH_EVENT */;

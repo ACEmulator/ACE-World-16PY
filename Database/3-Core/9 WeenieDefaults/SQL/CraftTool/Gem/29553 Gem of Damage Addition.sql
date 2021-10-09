@@ -31,9 +31,9 @@ VALUES (29553,   1, 'Gem of Damage Addition') /* Name */
      , (29553,  16, 'This gem can be added to the Burun slaying variant of the noble sword, mace, axe, katar, spear, staff and dagger. If so, it will enhance the base damage of the weapon. The weapon will then only be wieldable by the crafter.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29553,   1,   33554809) /* Setup */
-     , (29553,   3,  536870932) /* SoundTable */
-     , (29553,   6,   67111919) /* PaletteBase */
-     , (29553,   7,  268435723) /* ClothingBase */
-     , (29553,   8,  100677133) /* Icon */
-     , (29553,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29553,   1, 0x02000179) /* Setup */
+     , (29553,   3, 0x20000014) /* SoundTable */
+     , (29553,   6, 0x04000BEF) /* PaletteBase */
+     , (29553,   7, 0x1000010B) /* ClothingBase */
+     , (29553,   8, 0x0600360D) /* Icon */
+     , (29553,  22, 0x3400002B) /* PhysicsEffectTable */;

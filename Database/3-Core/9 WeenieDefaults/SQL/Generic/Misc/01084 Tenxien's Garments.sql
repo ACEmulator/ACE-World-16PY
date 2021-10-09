@@ -22,7 +22,7 @@ VALUES (1084,   1, 'Tenxien''s Garments') /* Name */
      , (1084,  16, 'Tenxien''s Garments') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1084,   1,   33555088) /* Setup */
-     , (1084,   6,   67111092) /* PaletteBase */
-     , (1084,   7,  268435668) /* ClothingBase */
-     , (1084,   8,  100668115) /* Icon */;
+VALUES (1084,   1, 0x02000290) /* Setup */
+     , (1084,   6, 0x040008B4) /* PaletteBase */
+     , (1084,   7, 0x100000D4) /* ClothingBase */
+     , (1084,   8, 0x060012D3) /* Icon */;

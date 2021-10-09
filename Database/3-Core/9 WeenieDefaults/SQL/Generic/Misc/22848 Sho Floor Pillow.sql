@@ -23,5 +23,5 @@ VALUES (22848,   1, 'Sho Floor Pillow') /* Name */
      , (22848,  15, 'A beautifully sewn Sho pillow.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22848,   1,   33558153) /* Setup */
-     , (22848,   8,  100673915) /* Icon */;
+VALUES (22848,   1, 0x02000E89) /* Setup */
+     , (22848,   8, 0x0600297B) /* Icon */;

@@ -29,7 +29,7 @@ VALUES (22000,   1, 'Wrapped Bundle of Deadly Chorizite Arrowheads') /* Name */
      , (22000,  20, 'Wrapped Bundles of Deadly Chorizite Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22000,   1,   33557030) /* Setup */
-     , (22000,   3,  536870932) /* SoundTable */
-     , (22000,   8,  100673593) /* Icon */
-     , (22000,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22000,   1, 0x02000A26) /* Setup */
+     , (22000,   3, 0x20000014) /* SoundTable */
+     , (22000,   8, 0x06002839) /* Icon */
+     , (22000,  22, 0x3400002B) /* PhysicsEffectTable */;

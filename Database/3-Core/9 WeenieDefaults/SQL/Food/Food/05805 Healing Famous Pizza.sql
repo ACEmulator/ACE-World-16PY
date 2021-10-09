@@ -30,7 +30,7 @@ VALUES (5805,   1, 'Healing Famous Pizza') /* Name */
      , (5805,  20, 'Healing Famous Pizzas') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5805,   1,   33555979) /* Setup */
-     , (5805,   3,  536870932) /* SoundTable */
-     , (5805,   8,  100670304) /* Icon */
-     , (5805,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5805,   1, 0x0200060B) /* Setup */
+     , (5805,   3, 0x20000014) /* SoundTable */
+     , (5805,   8, 0x06001B60) /* Icon */
+     , (5805,  22, 0x3400002B) /* PhysicsEffectTable */;

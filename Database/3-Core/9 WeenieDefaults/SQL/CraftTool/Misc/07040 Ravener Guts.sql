@@ -29,9 +29,9 @@ VALUES (7040,   1, 'Ravener Guts') /* Name */
      , (7040,  16, 'The guts of a departed Drudge Ravener.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7040,   1,   33554817) /* Setup */
-     , (7040,   3,  536870932) /* SoundTable */
-     , (7040,   6,   67111919) /* PaletteBase */
-     , (7040,   7,  268435832) /* ClothingBase */
-     , (7040,   8,  100670667) /* Icon */
-     , (7040,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7040,   1, 0x02000181) /* Setup */
+     , (7040,   3, 0x20000014) /* SoundTable */
+     , (7040,   6, 0x04000BEF) /* PaletteBase */
+     , (7040,   7, 0x10000178) /* ClothingBase */
+     , (7040,   8, 0x06001CCB) /* Icon */
+     , (7040,  22, 0x3400002B) /* PhysicsEffectTable */;

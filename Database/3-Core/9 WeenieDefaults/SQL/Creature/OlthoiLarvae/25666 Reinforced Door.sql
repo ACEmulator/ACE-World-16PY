@@ -65,12 +65,12 @@ VALUES (25666,   1, 'Reinforced Door') /* Name */
      , (25666,  15, 'A locked door, impossible to pick.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25666,   1,   33558512) /* Setup */
-     , (25666,   2,  150995221) /* MotionTable */
-     , (25666,   3,  536871001) /* SoundTable */
-     , (25666,   4,  805306372) /* CombatTable */
-     , (25666,   8,  100673480) /* Icon */
-     , (25666,  22,  872415339) /* PhysicsEffectTable */;
+VALUES (25666,   1, 0x02000FF0) /* Setup */
+     , (25666,   2, 0x09000115) /* MotionTable */
+     , (25666,   3, 0x20000059) /* SoundTable */
+     , (25666,   4, 0x30000004) /* CombatTable */
+     , (25666,   8, 0x060027C8) /* Icon */
+     , (25666,  22, 0x3400006B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25666,   1,   1, 0, 0) /* Strength */
@@ -86,9 +86,9 @@ VALUES (25666,   1,  3000, 0, 0, 3001) /* MaxHealth */
      , (25666,   5,     0, 0, 0, 1) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (25666,  6, 0, 2, 0,   1, 0, 1654.35949326628) /* MeleeDefense        Trained */
-     , (25666,  7, 0, 2, 0,   1, 0, 1654.35949326628) /* MissileDefense      Trained */
-     , (25666, 15, 0, 3, 0,   1, 0, 1654.35949326628) /* MagicDefense        Specialized */;
+VALUES (25666,  6, 0, 2, 0,   1, 0, 1654.3594932662772) /* MeleeDefense        Trained */
+     , (25666,  7, 0, 2, 0,   1, 0, 1654.3594932662772) /* MissileDefense      Trained */
+     , (25666, 15, 0, 3, 0,   1, 0, 1654.3594932662772) /* MagicDefense        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (25666,  0,  4,  0,    0,  200,  200,  200,  200,  200,  200,  200,  200,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

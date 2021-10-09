@@ -28,7 +28,7 @@ VALUES (4737,   1, 'Mushroom Pie') /* Name */
      , (4737,  20, 'Mushroom Pies') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4737,   1,   33555978) /* Setup */
-     , (4737,   3,  536870932) /* SoundTable */
-     , (4737,   8,  100669964) /* Icon */
-     , (4737,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4737,   1, 0x0200060A) /* Setup */
+     , (4737,   3, 0x20000014) /* SoundTable */
+     , (4737,   8, 0x06001A0C) /* Icon */
+     , (4737,  22, 0x3400002B) /* PhysicsEffectTable */;

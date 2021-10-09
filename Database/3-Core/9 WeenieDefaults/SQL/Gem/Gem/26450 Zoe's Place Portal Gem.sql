@@ -36,11 +36,11 @@ VALUES (26450,   1, 'Zoe''s Place Portal Gem') /* Name */
      , (26450,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26450,   1,   33556769) /* Setup */
-     , (26450,   3,  536870932) /* SoundTable */
-     , (26450,   6,   67111919) /* PaletteBase */
-     , (26450,   7,  268435723) /* ClothingBase */
-     , (26450,   8,  100675760) /* Icon */
-     , (26450,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26450,   1, 0x02000921) /* Setup */
+     , (26450,   3, 0x20000014) /* SoundTable */
+     , (26450,   6, 0x04000BEF) /* PaletteBase */
+     , (26450,   7, 0x1000010B) /* ClothingBase */
+     , (26450,   8, 0x060030B0) /* Icon */
+     , (26450,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26450,  28,        157) /* Spell - Summon Primary Portal I */
      , (26450,  31,      14295) /* LinkedPortalOne - Zoe's Place Portal */;

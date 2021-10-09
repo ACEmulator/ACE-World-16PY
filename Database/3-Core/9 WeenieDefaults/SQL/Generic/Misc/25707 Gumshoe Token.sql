@@ -23,7 +23,7 @@ VALUES (25707,   1, 'Gumshoe Token') /* Name */
      , (25707,  16, 'A token handed to me by Dame Brinna O''Shea. She said I''d get a new title for my sleuthing with this. She said she''d call me a gumshoe.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25707,   1,   33558276) /* Setup */
-     , (25707,   3,  536870932) /* SoundTable */
-     , (25707,   8,  100675522) /* Icon */
-     , (25707,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25707,   1, 0x02000F04) /* Setup */
+     , (25707,   3, 0x20000014) /* SoundTable */
+     , (25707,   8, 0x06002FC2) /* Icon */
+     , (25707,  22, 0x3400002B) /* PhysicsEffectTable */;

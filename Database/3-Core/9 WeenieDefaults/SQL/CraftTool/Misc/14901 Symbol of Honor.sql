@@ -33,7 +33,7 @@ VALUES (14901,   1, 'Symbol of Honor') /* Name */
      , (14901,  33, 'MarriageSymbolHonor') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14901,   1,   33557613) /* Setup */
-     , (14901,   3,  536870932) /* SoundTable */
-     , (14901,   8,  100672702) /* Icon */
-     , (14901,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14901,   1, 0x02000C6D) /* Setup */
+     , (14901,   3, 0x20000014) /* SoundTable */
+     , (14901,   8, 0x060024BE) /* Icon */
+     , (14901,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -19,7 +19,7 @@ VALUES (20090,   1,        256) /* ItemType - MissileWeapon */
      , (20090,  48,          2) /* WeaponSkill - Bow */
      , (20090,  49,         40) /* WeaponTime */
      , (20090,  50,          1) /* AmmoType - Arrow */
-     , (20090,  51,          2) /* CombatUse - Missle */
+     , (20090,  51,          2) /* CombatUse - Missile */
      , (20090,  52,          2) /* ParentLocation - LeftHand */
      , (20090,  53,          3) /* PlacementPosition - LeftHand */
      , (20090,  60,        175) /* WeaponRange */
@@ -50,16 +50,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20090,   1, 'Quality Chilling Isparian Bow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20090,   1,   33557752) /* Setup */
-     , (20090,   3,  536870932) /* SoundTable */
-     , (20090,   6,   67111919) /* PaletteBase */
-     , (20090,   7,  268436394) /* ClothingBase */
-     , (20090,   8,  100673009) /* Icon */
-     , (20090,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20090,   1, 0x02000CF8) /* Setup */
+     , (20090,   3, 0x20000014) /* SoundTable */
+     , (20090,   6, 0x04000BEF) /* PaletteBase */
+     , (20090,   7, 0x100003AA) /* ClothingBase */
+     , (20090,   8, 0x060025F1) /* Icon */
+     , (20090,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20090,  37,          2) /* ItemSkillLimit - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20090,  1033,      2)  /* Cold Protection Self IV */
-     , (20090,  1375,      2)  /* Coordination Self III */
+VALUES (20090,  1375,      2)  /* Coordination Self III */
      , (20090,  1602,      2)  /* Aura of Defender Self III */
+     , (20090,  1033,      2)  /* Cold Protection Self IV */
      , (20090,  1613,      2)  /* Aura of Blood Drinker Self III */;

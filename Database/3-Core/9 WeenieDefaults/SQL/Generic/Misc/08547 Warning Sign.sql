@@ -22,5 +22,5 @@ VALUES (8547,   1, 'Warning Sign') /* Name */
      , (8547,  16, 'WARNING! All of the portals leading into the Xarabydun complex are limited to those of the 25th level and below. If you are close to this point, be mindful of your experience gain within our tunnels! -- Fazyad ibn Raymar') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8547,   1,   33555088) /* Setup */
-     , (8547,   8,  100668115) /* Icon */;
+VALUES (8547,   1, 0x02000290) /* Setup */
+     , (8547,   8, 0x060012D3) /* Icon */;

@@ -29,10 +29,10 @@ VALUES (9177,   1, 'Pack Scarecrow') /* Name */
      , (9177,  16, 'Sure fire fun at parties! Scarecrow... stands there. Amaze your friends with his amazing... standing ability! Watch their envy as their little friends all move around and annoy them while your scarecrow stands silent and proud.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9177,   1,   33556868) /* Setup */
-     , (9177,   2,  150995145) /* MotionTable */
-     , (9177,   6,   67113135) /* PaletteBase */
-     , (9177,   7,  268436138) /* ClothingBase */
-     , (9177,   8,  100671141) /* Icon */
-     , (9177,  22,  872415368) /* PhysicsEffectTable */
-     , (9177,  36,  234881046) /* MutateFilter */;
+VALUES (9177,   1, 0x02000984) /* Setup */
+     , (9177,   2, 0x090000C9) /* MotionTable */
+     , (9177,   6, 0x040010AF) /* PaletteBase */
+     , (9177,   7, 0x100002AA) /* ClothingBase */
+     , (9177,   8, 0x06001EA5) /* Icon */
+     , (9177,  22, 0x34000088) /* PhysicsEffectTable */
+     , (9177,  36, 0x0E000016) /* MutateFilter */;

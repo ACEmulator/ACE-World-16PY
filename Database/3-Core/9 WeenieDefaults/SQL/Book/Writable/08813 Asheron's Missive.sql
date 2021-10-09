@@ -24,10 +24,10 @@ VALUES (8813,   1, 'Asheron''s Missive') /* Name */
      , (8813,  16, 'A book made of fine vellum and bound in leather, written by the hand of Asheron.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8813,   1,   33556929) /* Setup */
-     , (8813,   3,  536870932) /* SoundTable */
-     , (8813,   8,  100671237) /* Icon */
-     , (8813,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8813,   1, 0x020009C1) /* Setup */
+     , (8813,   3, 0x20000014) /* SoundTable */
+     , (8813,   8, 0x06001F05) /* Icon */
+     , (8813,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (8813, 7, 1000);

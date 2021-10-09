@@ -24,7 +24,7 @@ VALUES (20457,   1, 'Scroll of Lightning Barrage') /* Name */
      , (20457,  15, 'When learned, this spell rains nine bolts of lightning down at the area around the target. Each bolt does 60-120 points of electric damage to the first thing it hits.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20457,   1,   33554826) /* Setup */
-     , (20457,   8,  100677013) /* Icon */
-     , (20457,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20457,   1, 0x0200018A) /* Setup */
+     , (20457,   8, 0x06003595) /* Icon */
+     , (20457,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20457,  28,       1837) /* Spell - Lightning Barrage */;

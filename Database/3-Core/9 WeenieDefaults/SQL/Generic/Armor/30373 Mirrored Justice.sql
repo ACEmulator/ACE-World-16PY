@@ -38,9 +38,9 @@ VALUES (30373,   1, 'Mirrored Justice') /* Name */
      , (30373,  16, 'Describe me here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30373,   1,   33554788) /* Setup */
-     , (30373,   3,  536870932) /* SoundTable */
-     , (30373,   6,   67111919) /* PaletteBase */
-     , (30373,   7,  268435610) /* ClothingBase */
-     , (30373,   8,  100668151) /* Icon */
-     , (30373,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30373,   1, 0x02000164) /* Setup */
+     , (30373,   3, 0x20000014) /* SoundTable */
+     , (30373,   6, 0x04000BEF) /* PaletteBase */
+     , (30373,   7, 0x1000009A) /* ClothingBase */
+     , (30373,   8, 0x060012F7) /* Icon */
+     , (30373,  22, 0x3400002B) /* PhysicsEffectTable */;

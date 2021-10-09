@@ -30,7 +30,7 @@ VALUES (27449,   1, 'Ancient Key') /* Name */
      , (27449,  33, 'novquest1') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27449,   1,   33554784) /* Setup */
-     , (27449,   3,  536870932) /* SoundTable */
-     , (27449,   8,  100670820) /* Icon */
-     , (27449,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27449,   1, 0x02000160) /* Setup */
+     , (27449,   3, 0x20000014) /* SoundTable */
+     , (27449,   8, 0x06001D64) /* Icon */
+     , (27449,  22, 0x3400002B) /* PhysicsEffectTable */;

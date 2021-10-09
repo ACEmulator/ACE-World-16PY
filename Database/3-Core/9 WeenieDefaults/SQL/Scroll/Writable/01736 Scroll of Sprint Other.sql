@@ -25,7 +25,7 @@ VALUES (1736,   1, 'Scroll of Sprint Other') /* Name */
      , (1736,  16, 'When learned, this spell increases the target''s Run skill by 10%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1736,   1,   33554826) /* Setup */
-     , (1736,   8,  100676470) /* Icon */
-     , (1736,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1736,   1, 0x0200018A) /* Setup */
+     , (1736,   8, 0x06003376) /* Icon */
+     , (1736,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1736,  28,        988) /* Spell - Sprint Other I */;

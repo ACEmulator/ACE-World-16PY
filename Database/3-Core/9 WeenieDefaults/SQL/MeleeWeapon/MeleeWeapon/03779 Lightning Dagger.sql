@@ -37,10 +37,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3779,   1, 'Lightning Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3779,   1,   33555707) /* Setup */
-     , (3779,   3,  536870932) /* SoundTable */
-     , (3779,   6,   67111919) /* PaletteBase */
-     , (3779,   7,  268435783) /* ClothingBase */
-     , (3779,   8,  100667589) /* Icon */
-     , (3779,  22,  872415275) /* PhysicsEffectTable */
-     , (3779,  36,  234881044) /* MutateFilter */;
+VALUES (3779,   1, 0x020004FB) /* Setup */
+     , (3779,   3, 0x20000014) /* SoundTable */
+     , (3779,   6, 0x04000BEF) /* PaletteBase */
+     , (3779,   7, 0x10000147) /* ClothingBase */
+     , (3779,   8, 0x060010C5) /* Icon */
+     , (3779,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3779,  36, 0x0E000014) /* MutateFilter */;

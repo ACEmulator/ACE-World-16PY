@@ -49,17 +49,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19899,   1, 'Superb Chilling Isparian Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19899,   1,   33556324) /* Setup */
-     , (19899,   3,  536870932) /* SoundTable */
-     , (19899,   6,   67111919) /* PaletteBase */
-     , (19899,   7,  268436382) /* ClothingBase */
-     , (19899,   8,  100672914) /* Icon */
-     , (19899,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19899,   1, 0x02000764) /* Setup */
+     , (19899,   3, 0x20000014) /* SoundTable */
+     , (19899,   6, 0x04000BEF) /* PaletteBase */
+     , (19899,   7, 0x1000039E) /* ClothingBase */
+     , (19899,   8, 0x06002592) /* Icon */
+     , (19899,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19899,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19899,  1033,      2)  /* Cold Protection Self IV */
-     , (19899,  1375,      2)  /* Coordination Self III */
-     , (19899,  1591,      2)  /* Aura of Heart Seeker Self V */
+VALUES (19899,  1591,      2)  /* Aura of Heart Seeker Self V */
      , (19899,  1615,      2)  /* Aura of Blood Drinker Self V */
+     , (19899,  1033,      2)  /* Cold Protection Self IV */
+     , (19899,  1375,      2)  /* Coordination Self III */
      , (19899,  2557,      2)  /* Minor Light Weapon Aptitude */;

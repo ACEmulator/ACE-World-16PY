@@ -47,15 +47,15 @@ VALUES (27652,   1, 'Horned Lugian Helm') /* Name */
      , (27652,  33, 'RenegadeHelmGeneral') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27652,   1,   33558742) /* Setup */
-     , (27652,   3,  536870932) /* SoundTable */
-     , (27652,   6,   67108990) /* PaletteBase */
-     , (27652,   7,  268436824) /* ClothingBase */
-     , (27652,   8,  100676488) /* Icon */
-     , (27652,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27652,   1, 0x020010D6) /* Setup */
+     , (27652,   3, 0x20000014) /* SoundTable */
+     , (27652,   6, 0x0400007E) /* PaletteBase */
+     , (27652,   7, 0x10000558) /* ClothingBase */
+     , (27652,   8, 0x06003388) /* Icon */
+     , (27652,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27652,  2086,      2)  /* Might of the 5 Mules */
-     , (27652,  2280,      2)  /* Web of Resistance */
      , (27652,  2663,      2)  /* Moderate Strength */
+     , (27652,  2280,      2)  /* Web of Resistance */
      , (27652,  2811,      2)  /* Moderate Magic Resistance */;

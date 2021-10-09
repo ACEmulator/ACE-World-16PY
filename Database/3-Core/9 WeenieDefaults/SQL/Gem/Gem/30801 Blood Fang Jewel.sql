@@ -36,9 +36,9 @@ VALUES (30801,   1, 'Blood Fang Jewel') /* Name */
      , (30801,  15, 'A blood red jewel in the shape of a fang. Odd etchings running the length of the jewel suggest that it has a Dericostian origin.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30801,   1,   33559266) /* Setup */
-     , (30801,   3,  536870932) /* SoundTable */
-     , (30801,   8,  100677494) /* Icon */
-     , (30801,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30801,   1, 0x020012E2) /* Setup */
+     , (30801,   3, 0x20000014) /* SoundTable */
+     , (30801,   8, 0x06003776) /* Icon */
+     , (30801,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30801,  28,        157) /* Spell - Summon Primary Portal I */
      , (30801,  31,       7210) /* LinkedPortalOne - Obsidian Rim Portal */;

@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (139,   1, 'Small Belt Pouch') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (139,   1,   33554825) /* Setup */
-     , (139,   3,  536870932) /* SoundTable */
-     , (139,   6,   67111919) /* PaletteBase */
-     , (139,   7,  268436724) /* ClothingBase */
-     , (139,   8,  100667408) /* Icon */
-     , (139,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (139,   1, 0x02000189) /* Setup */
+     , (139,   3, 0x20000014) /* SoundTable */
+     , (139,   6, 0x04000BEF) /* PaletteBase */
+     , (139,   7, 0x100004F4) /* ClothingBase */
+     , (139,   8, 0x06001010) /* Icon */
+     , (139,  22, 0x3400002B) /* PhysicsEffectTable */;

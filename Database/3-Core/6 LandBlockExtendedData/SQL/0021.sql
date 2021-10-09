@@ -37,12 +37,12 @@ VALUES (0x70021008, 29491, 0x00210112, 23, -66, 0.008, -0.021954, 0, 0, -0.99975
 /* @teleloc 0x00210112 [23.000000 -66.000000 0.008000] -0.021954 0.000000 0.000000 -0.999759 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70021009, 29491, 0x00210113, 23, -84, 0.0077, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Knight of Karlun Guard */
-/* @teleloc 0x00210113 [23.000000 -84.000000 0.007700] 1.000000 0.000000 0.000000 0.000000 */
+VALUES (0x70021009, 29491, 0x00210113, 23, -84, 0.0077, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Knight of Karlun Guard */
+/* @teleloc 0x00210113 [23.000000 -84.000000 0.007700] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7002100A, 29491, 0x00210113, 17, -84, 0.008, 1, 0, 0, -4.37114E-08,  True, '2005-02-09 10:00:00'); /* Knight of Karlun Guard */
-/* @teleloc 0x00210113 [17.000000 -84.000000 0.008000] 1.000000 0.000000 0.000000 0.000000 */
+VALUES (0x7002100A, 29491, 0x00210113, 17, -84, 0.008, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Knight of Karlun Guard */
+/* @teleloc 0x00210113 [17.000000 -84.000000 0.008000] 1.000000 0.000000 0.000000 -0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7002100B, 29503, 0x0021013E, 20, -142, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Corcima Castle Central Ward */
@@ -53,15 +53,15 @@ VALUES (0x7002100C, 29491, 0x00210148, 30, -120, 0.008, -0.707107, 0, 0, -0.7071
 /* @teleloc 0x00210148 [30.000000 -120.000000 0.008000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7002100D, 29490, 0x00210158, 20, -2, 6.008, -0.00142271, 0, 0, -0.999999,  True, '2005-02-09 10:00:00'); /* Sir Coretto */
+VALUES (0x7002100D, 29490, 0x00210158, 20, -2, 6.008, -0.001423, 0, 0, -0.999999,  True, '2005-02-09 10:00:00'); /* Sir Coretto */
 /* @teleloc 0x00210158 [20.000000 -2.000000 6.008000] -0.001423 0.000000 0.000000 -0.999999 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7002100E, 29491, 0x00210158, 17, -1.02686E-07, 6.008, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Knight of Karlun Guard */
-/* @teleloc 0x00210158 [17.000000 0.000000 6.008000] 0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7002100E, 29491, 0x00210158, 17, -0, 6.008, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Knight of Karlun Guard */
+/* @teleloc 0x00210158 [17.000000 -0.000000 6.008000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7002100F, 29491, 0x00210158, 23, 1.02686E-07, 6.008, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Knight of Karlun Guard */
+VALUES (0x7002100F, 29491, 0x00210158, 23, 0, 6.008, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Knight of Karlun Guard */
 /* @teleloc 0x00210158 [23.000000 0.000000 6.008000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

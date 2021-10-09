@@ -24,7 +24,7 @@ VALUES (20569,   1, 'Scroll of Topheron''s Blessing') /* Name */
      , (20569,  15, 'When learned, this spell increases the caster''s Assess Monster skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20569,   1,   33554826) /* Setup */
-     , (20569,   8,  100676448) /* Icon */
-     , (20569,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20569,   1, 0x0200018A) /* Setup */
+     , (20569,   8, 0x06003360) /* Icon */
+     , (20569,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20569,  28,       2289) /* Spell - Topheron's Blessing */;

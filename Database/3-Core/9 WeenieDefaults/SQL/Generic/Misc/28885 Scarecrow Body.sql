@@ -29,9 +29,9 @@ VALUES (28885,   1, 'Scarecrow Body') /* Name */
      , (28885,  15, 'A complete Scarecrow body.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28885,   1,   33559001) /* Setup */
-     , (28885,   3,  536870932) /* SoundTable */
-     , (28885,   6,   67108990) /* PaletteBase */
-     , (28885,   7,  268436866) /* ClothingBase */
-     , (28885,   8,  100677084) /* Icon */
-     , (28885,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28885,   1, 0x020011D9) /* Setup */
+     , (28885,   3, 0x20000014) /* SoundTable */
+     , (28885,   6, 0x0400007E) /* PaletteBase */
+     , (28885,   7, 0x10000582) /* ClothingBase */
+     , (28885,   8, 0x060035DC) /* Icon */
+     , (28885,  22, 0x3400002B) /* PhysicsEffectTable */;

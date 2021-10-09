@@ -20,7 +20,7 @@ VALUES (5577,   1,        256) /* ItemType - MissileWeapon */
      , (5577,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (5577,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (5577,  49,         20) /* WeaponTime */
-     , (5577,  51,          2) /* CombatUse - Missle */
+     , (5577,  51,          2) /* CombatUse - Missile */
      , (5577,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (5577, 150,        103) /* HookPlacement - Hook */
      , (5577, 151,          2) /* HookType - Wall */;
@@ -40,7 +40,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5577,   1, 'Javelin') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5577,   1,   33554738) /* Setup */
-     , (5577,   3,  536870932) /* SoundTable */
-     , (5577,   8,  100667593) /* Icon */
-     , (5577,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5577,   1, 0x02000132) /* Setup */
+     , (5577,   3, 0x20000014) /* SoundTable */
+     , (5577,   8, 0x060010C9) /* Icon */
+     , (5577,  22, 0x3400002B) /* PhysicsEffectTable */;

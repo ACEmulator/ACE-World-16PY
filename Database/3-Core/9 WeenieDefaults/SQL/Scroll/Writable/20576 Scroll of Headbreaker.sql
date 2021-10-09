@@ -24,7 +24,7 @@ VALUES (20576,   1, 'Scroll of Headbreaker') /* Name */
      , (20576,  15, 'When learned, this spell decreases the target''s Spear skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20576,   1,   33554826) /* Setup */
-     , (20576,   8,  100676472) /* Icon */
-     , (20576,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20576,   1, 0x0200018A) /* Setup */
+     , (20576,   8, 0x06003378) /* Icon */
+     , (20576,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20576,  28,       2296) /* Spell - Light Weapon Ineptitude Other VII */;

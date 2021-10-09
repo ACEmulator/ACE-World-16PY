@@ -26,7 +26,7 @@ VALUES (5037,   1, 'Tumerok Key') /* Name */
      , (5037,  16, 'A key to the old Tumerok armory within the Cave of Alabree.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5037,   1,   33554784) /* Setup */
-     , (5037,   3,  536870932) /* SoundTable */
-     , (5037,   8,  100667485) /* Icon */
-     , (5037,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5037,   1, 0x02000160) /* Setup */
+     , (5037,   3, 0x20000014) /* SoundTable */
+     , (5037,   8, 0x0600105D) /* Icon */
+     , (5037,  22, 0x3400002B) /* PhysicsEffectTable */;

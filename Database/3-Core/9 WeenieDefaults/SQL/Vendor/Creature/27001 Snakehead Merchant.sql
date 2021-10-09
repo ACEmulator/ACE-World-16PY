@@ -68,11 +68,11 @@ VALUES (27001,   1, 'Snakehead Merchant') /* Name */
      , (27001,   5, 'Merchant') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27001,   1,   33554433) /* Setup */
-     , (27001,   2,  150994945) /* MotionTable */
-     , (27001,   3,  536870913) /* SoundTable */
-     , (27001,   4,  805306368) /* CombatTable */
-     , (27001,   8,  100667446) /* Icon */;
+VALUES (27001,   1, 0x02000001) /* Setup */
+     , (27001,   2, 0x09000001) /* MotionTable */
+     , (27001,   3, 0x20000001) /* SoundTable */
+     , (27001,   4, 0x30000000) /* CombatTable */
+     , (27001,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27001,   1,  90, 0, 0) /* Strength */

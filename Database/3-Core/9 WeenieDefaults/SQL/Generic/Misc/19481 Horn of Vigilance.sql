@@ -21,5 +21,5 @@ VALUES (19481,   1, 'Horn of Vigilance') /* Name */
      , (19481,  15, 'Horn of Vigilance.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19481,   1,   33557153) /* Setup */
-     , (19481,   8,  100673049) /* Icon */;
+VALUES (19481,   1, 0x02000AA1) /* Setup */
+     , (19481,   8, 0x06002619) /* Icon */;

@@ -31,7 +31,7 @@ VALUES (27650,  22, True ) /* Inscribable */
      , (27650,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27650,   5, -0.0333) /* ManaRate */
+VALUES (27650,   5,  -0.033) /* ManaRate */
      , (27650,  29,       1) /* WeaponDefense */
      , (27650,  39,       1) /* DefaultScale */
      , (27650, 144,    0.12) /* ManaConversionMod */;
@@ -42,11 +42,11 @@ VALUES (27650,   1, 'Head of the Homunculus') /* Name */
      , (27650,  16, 'A small stone head. It appears to be staring at you.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27650,   1,   33558746) /* Setup */
-     , (27650,   3,  536870932) /* SoundTable */
-     , (27650,   8,  100676535) /* Icon */
-     , (27650,  22,  872415275) /* PhysicsEffectTable */
-     , (27650,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (27650,   1, 0x020010DA) /* Setup */
+     , (27650,   3, 0x20000014) /* SoundTable */
+     , (27650,   8, 0x060033B7) /* Icon */
+     , (27650,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27650,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (27650,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

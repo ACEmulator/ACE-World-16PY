@@ -29,12 +29,12 @@ VALUES (8161,   1, 'Potion and Powder Pouch') /* Name */
      , (8161,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8161,   1,   33554817) /* Setup */
-     , (8161,   3,  536870932) /* SoundTable */
-     , (8161,   6,   67111919) /* PaletteBase */
-     , (8161,   7,  268435833) /* ClothingBase */
-     , (8161,   8,  100667436) /* Icon */
-     , (8161,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8161,   1, 0x02000181) /* Setup */
+     , (8161,   3, 0x20000014) /* SoundTable */
+     , (8161,   6, 0x04000BEF) /* PaletteBase */
+     , (8161,   7, 0x10000179) /* ClothingBase */
+     , (8161,   8, 0x0600102C) /* Icon */
+     , (8161,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8161, 1,   782, 50, 0, 0, False) /* Create Powdered Agate (782) for Contain */

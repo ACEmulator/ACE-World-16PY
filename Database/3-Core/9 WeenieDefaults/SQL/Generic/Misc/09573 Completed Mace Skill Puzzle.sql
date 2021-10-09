@@ -28,8 +28,8 @@ VALUES (9573,   1, 'Completed Mace Skill Puzzle') /* Name */
      , (9573,  16, 'A completed Mace Skill Puzzle.  Turn in to a Bestower Examiner to receive a title.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9573,   1,   33557028) /* Setup */
-     , (9573,   3,  536870932) /* SoundTable */
-     , (9573,   8,  100671563) /* Icon */
-     , (9573,  22,  872415275) /* PhysicsEffectTable */
-     , (9573,  36,  234881046) /* MutateFilter */;
+VALUES (9573,   1, 0x02000A24) /* Setup */
+     , (9573,   3, 0x20000014) /* SoundTable */
+     , (9573,   8, 0x0600204B) /* Icon */
+     , (9573,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (9573,  36, 0x0E000016) /* MutateFilter */;

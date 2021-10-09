@@ -22,5 +22,5 @@ VALUES (472,   1, 'Eastham: 2 miles') /* Name */
      , (472,  16, 'Village of Eastham: 2 miles.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (472,   1,   33555984) /* Setup */
-     , (472,   8,  100668115) /* Icon */;
+VALUES (472,   1, 0x02000610) /* Setup */
+     , (472,   8, 0x060012D3) /* Icon */;

@@ -31,10 +31,10 @@ VALUES (8332,   1, 'Alder Pea') /* Name */
      , (8332,  16, 'A concentrated alder pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8332,   1,   33555207) /* Setup */
-     , (8332,   3,  536870932) /* SoundTable */
-     , (8332,   6,   67111919) /* PaletteBase */
-     , (8332,   7,  268435722) /* ClothingBase */
-     , (8332,   8,  100671091) /* Icon */
-     , (8332,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8332,   1, 0x02000307) /* Setup */
+     , (8332,   3, 0x20000014) /* SoundTable */
+     , (8332,   6, 0x04000BEF) /* PaletteBase */
+     , (8332,   7, 0x1000010A) /* ClothingBase */
+     , (8332,   8, 0x06001E73) /* Icon */
+     , (8332,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8332,  29,        165) /* SpellComponent */;

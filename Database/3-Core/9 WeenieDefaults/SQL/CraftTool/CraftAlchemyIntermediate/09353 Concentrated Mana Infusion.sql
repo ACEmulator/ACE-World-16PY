@@ -32,9 +32,9 @@ VALUES (9353,   1, 'Concentrated Mana Infusion') /* Name */
      , (9353,  20, 'Concentrated Mana Infusions') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9353,   1,   33555965) /* Setup */
-     , (9353,   3,  536870932) /* SoundTable */
-     , (9353,   6,   67111919) /* PaletteBase */
-     , (9353,   7,  268435814) /* ClothingBase */
-     , (9353,   8,  100671579) /* Icon */
-     , (9353,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9353,   1, 0x020005FD) /* Setup */
+     , (9353,   3, 0x20000014) /* SoundTable */
+     , (9353,   6, 0x04000BEF) /* PaletteBase */
+     , (9353,   7, 0x10000166) /* ClothingBase */
+     , (9353,   8, 0x0600205B) /* Icon */
+     , (9353,  22, 0x3400002B) /* PhysicsEffectTable */;

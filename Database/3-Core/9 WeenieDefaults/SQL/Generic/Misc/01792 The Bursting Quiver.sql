@@ -23,7 +23,7 @@ VALUES (1792,   1, 'The Bursting Quiver') /* Name */
      , (1792,  16, 'The Bursting Quiver') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1792,   1,   33555909) /* Setup */
-     , (1792,   6,   67111860) /* PaletteBase */
-     , (1792,   7,  268435819) /* ClothingBase */
-     , (1792,   8,  100668115) /* Icon */;
+VALUES (1792,   1, 0x020005C5) /* Setup */
+     , (1792,   6, 0x04000BB4) /* PaletteBase */
+     , (1792,   7, 0x1000016B) /* ClothingBase */
+     , (1792,   8, 0x060012D3) /* Icon */;

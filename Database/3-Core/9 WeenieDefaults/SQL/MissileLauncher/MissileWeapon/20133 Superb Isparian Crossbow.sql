@@ -19,7 +19,7 @@ VALUES (20133,   1,        256) /* ItemType - MissileWeapon */
      , (20133,  48,          3) /* WeaponSkill - Crossbow */
      , (20133,  49,         90) /* WeaponTime */
      , (20133,  50,          2) /* AmmoType - Bolt */
-     , (20133,  51,          2) /* CombatUse - Missle */
+     , (20133,  51,          2) /* CombatUse - Missile */
      , (20133,  52,          2) /* ParentLocation - LeftHand */
      , (20133,  53,          3) /* PlacementPosition - LeftHand */
      , (20133,  60,        195) /* WeaponRange */
@@ -51,12 +51,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20133,   1, 'Superb Isparian Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20133,   1,   33557730) /* Setup */
-     , (20133,   3,  536870932) /* SoundTable */
-     , (20133,   6,   67111919) /* PaletteBase */
-     , (20133,   7,  268436396) /* ClothingBase */
-     , (20133,   8,  100673020) /* Icon */
-     , (20133,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20133,   1, 0x02000CE2) /* Setup */
+     , (20133,   3, 0x20000014) /* SoundTable */
+     , (20133,   6, 0x04000BEF) /* PaletteBase */
+     , (20133,   7, 0x100003AC) /* ClothingBase */
+     , (20133,   8, 0x060025FC) /* Icon */
+     , (20133,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20133,  37,          3) /* ItemSkillLimit - Crossbow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

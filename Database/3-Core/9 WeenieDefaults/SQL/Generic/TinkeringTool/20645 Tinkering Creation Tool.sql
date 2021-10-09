@@ -23,5 +23,5 @@ VALUES (20645,   1, 'Tinkering Creation Tool') /* Name */
      , (20645,  15, 'This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20645,   1,   33554722) /* Setup */
-     , (20645,   8,  100667478) /* Icon */;
+VALUES (20645,   1, 0x02000122) /* Setup */
+     , (20645,   8, 0x06001056) /* Icon */;

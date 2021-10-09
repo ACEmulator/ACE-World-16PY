@@ -17,7 +17,7 @@ VALUES (27176,   1,        256) /* ItemType - MissileWeapon */
      , (27176,  48,          2) /* WeaponSkill - Bow */
      , (27176,  49,         40) /* WeaponTime */
      , (27176,  50,          1) /* AmmoType - Arrow */
-     , (27176,  51,          2) /* CombatUse - Missle */
+     , (27176,  51,          2) /* CombatUse - Missile */
      , (27176,  52,          2) /* ParentLocation - LeftHand */
      , (27176,  53,          3) /* PlacementPosition - LeftHand */
      , (27176,  60,        200) /* WeaponRange */
@@ -53,17 +53,17 @@ VALUES (27176,   1, 'Bladed Bow of Impaling') /* Name */
      , (27176,  16, 'This Falatacot bow was likely used in hunting or combat, bladed edges appear to have allowed the bow to be used in close-combat as well.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27176,   1,   33558633) /* Setup */
-     , (27176,   3,  536870932) /* SoundTable */
-     , (27176,   6,   67114956) /* PaletteBase */
-     , (27176,   7,  268436792) /* ClothingBase */
-     , (27176,   8,  100675922) /* Icon */
-     , (27176,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27176,   1, 0x02001069) /* Setup */
+     , (27176,   3, 0x20000014) /* SoundTable */
+     , (27176,   6, 0x040017CC) /* PaletteBase */
+     , (27176,   7, 0x10000538) /* ClothingBase */
+     , (27176,   8, 0x06003152) /* Icon */
+     , (27176,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27176,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27176,  1383,      2)  /* Coordination Other V */
-     , (27176,  1603,      2)  /* Aura of Defender Self IV */
+VALUES (27176,  1603,      2)  /* Aura of Defender Self IV */
      , (27176,  1615,      2)  /* Aura of Blood Drinker Self V */
+     , (27176,  1383,      2)  /* Coordination Other V */
      , (27176,  1626,      2)  /* Aura of Swift Killer Self V */
      , (27176,  2676,      2)  /* Feeble Missile Weapon Aptitude */;

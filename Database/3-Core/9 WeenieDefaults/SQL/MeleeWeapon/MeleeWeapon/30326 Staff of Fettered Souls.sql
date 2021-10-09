@@ -37,9 +37,9 @@ VALUES (30326,   1, 'Staff of Fettered Souls') /* Name */
      , (30326,  16, 'Describe me here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30326,   1,   33554749) /* Setup */
-     , (30326,   3,  536870932) /* SoundTable */
-     , (30326,   6,   67111919) /* PaletteBase */
-     , (30326,   7,  268435795) /* ClothingBase */
-     , (30326,   8,  100669105) /* Icon */
-     , (30326,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30326,   1, 0x0200013D) /* Setup */
+     , (30326,   3, 0x20000014) /* SoundTable */
+     , (30326,   6, 0x04000BEF) /* PaletteBase */
+     , (30326,   7, 0x10000153) /* ClothingBase */
+     , (30326,   8, 0x060016B1) /* Icon */
+     , (30326,  22, 0x3400002B) /* PhysicsEffectTable */;

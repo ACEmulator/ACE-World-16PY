@@ -50,10 +50,10 @@ VALUES (21362,   1, 'Deadly Hollow Staff') /* Name */
      , (21362,  16, 'A staff crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon is unenchantable and ignores modified armor and protection values.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21362,   1,   33556647) /* Setup */
-     , (21362,   3,  536870932) /* SoundTable */
-     , (21362,   6,   67111919) /* PaletteBase */
-     , (21362,   7,  268435795) /* ClothingBase */
-     , (21362,   8,  100669105) /* Icon */
-     , (21362,  22,  872415275) /* PhysicsEffectTable */
-     , (21362,  36,  234881044) /* MutateFilter */;
+VALUES (21362,   1, 0x020008A7) /* Setup */
+     , (21362,   3, 0x20000014) /* SoundTable */
+     , (21362,   6, 0x04000BEF) /* PaletteBase */
+     , (21362,   7, 0x10000153) /* ClothingBase */
+     , (21362,   8, 0x060016B1) /* Icon */
+     , (21362,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (21362,  36, 0x0E000014) /* MutateFilter */;

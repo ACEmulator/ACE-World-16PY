@@ -24,9 +24,9 @@ VALUES (30357,   1, 'Golden Snake Choker') /* Name */
      , (30357,  16, 'Describe me here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30357,   1,   33554680) /* Setup */
-     , (30357,   3,  536870932) /* SoundTable */
-     , (30357,   6,   67111919) /* PaletteBase */
-     , (30357,   7,  268435735) /* ClothingBase */
-     , (30357,   8,  100668602) /* Icon */
-     , (30357,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30357,   1, 0x020000F8) /* Setup */
+     , (30357,   3, 0x20000014) /* SoundTable */
+     , (30357,   6, 0x04000BEF) /* PaletteBase */
+     , (30357,   7, 0x10000117) /* ClothingBase */
+     , (30357,   8, 0x060014BA) /* Icon */
+     , (30357,  22, 0x3400002B) /* PhysicsEffectTable */;

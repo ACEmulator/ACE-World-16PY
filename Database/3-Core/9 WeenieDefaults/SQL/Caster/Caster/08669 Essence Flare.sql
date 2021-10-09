@@ -40,19 +40,19 @@ VALUES (8669,   1, 'Essence Flare') /* Name */
      , (8669,  16, 'A flaring essence formerly trapped in a wisp.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8669,   1,   33556935) /* Setup */
-     , (8669,   3,  536870932) /* SoundTable */
-     , (8669,   6,   67111928) /* PaletteBase */
-     , (8669,   7,  268436041) /* ClothingBase */
-     , (8669,   8,  100671241) /* Icon */
-     , (8669,  22,  872415275) /* PhysicsEffectTable */
-     , (8669,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (8669,   1, 0x020009C7) /* Setup */
+     , (8669,   3, 0x20000014) /* SoundTable */
+     , (8669,   6, 0x04000BF8) /* PaletteBase */
+     , (8669,   7, 0x10000249) /* ClothingBase */
+     , (8669,   8, 0x06001F09) /* Icon */
+     , (8669,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8669,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (8669,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8669,   170,      2)  /* Regeneration Self VI */
+VALUES (8669,   217,      2)  /* Mana Renewal Self VI */
      , (8669,   193,      2)  /* Rejuvenation Self VI */
-     , (8669,   217,      2)  /* Mana Renewal Self VI */
+     , (8669,   170,      2)  /* Regeneration Self VI */
+     , (8669,  2011,      2)  /* Wizard's Lesser Intellect */
      , (8669,  2003,      2)  /* Warrior's Lesser Vitality */
-     , (8669,  2007,      2)  /* Warrior's Lesser Vigor */
-     , (8669,  2011,      2)  /* Wizard's Lesser Intellect */;
+     , (8669,  2007,      2)  /* Warrior's Lesser Vigor */;

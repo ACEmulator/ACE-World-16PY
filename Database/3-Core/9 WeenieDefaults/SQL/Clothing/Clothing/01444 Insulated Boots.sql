@@ -37,8 +37,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1444,   1, 'Insulated Boots') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1444,   1,   33554640) /* Setup */
-     , (1444,   6,   67108990) /* PaletteBase */
-     , (1444,   7,  268435463) /* ClothingBase */
-     , (1444,   8,  100667310) /* Icon */
-     , (1444,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1444,   1, 0x020000D0) /* Setup */
+     , (1444,   6, 0x0400007E) /* PaletteBase */
+     , (1444,   7, 0x10000007) /* ClothingBase */
+     , (1444,   8, 0x06000FAE) /* Icon */
+     , (1444,  22, 0x3400002B) /* PhysicsEffectTable */;

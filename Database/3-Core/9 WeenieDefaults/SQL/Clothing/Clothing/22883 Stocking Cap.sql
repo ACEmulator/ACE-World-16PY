@@ -27,7 +27,7 @@ VALUES (22883,  22, True ) /* Inscribable */
      , (22883, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22883,   5, -0.0166) /* ManaRate */
+VALUES (22883,   5,  -0.017) /* ManaRate */
      , (22883,  12,     0.8) /* Shade */
      , (22883,  13,     0.8) /* ArmorModVsSlash */
      , (22883,  14,     0.8) /* ArmorModVsPierce */
@@ -42,12 +42,12 @@ VALUES (22883,   1, 'Stocking Cap') /* Name */
      , (22883,  15, 'A warm stocking cap of cold protection.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22883,   1,   33558147) /* Setup */
-     , (22883,   3,  536870932) /* SoundTable */
-     , (22883,   6,   67108990) /* PaletteBase */
-     , (22883,   7,  268436533) /* ClothingBase */
-     , (22883,   8,  100673910) /* Icon */
-     , (22883,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22883,   1, 0x02000E83) /* Setup */
+     , (22883,   3, 0x20000014) /* SoundTable */
+     , (22883,   6, 0x0400007E) /* PaletteBase */
+     , (22883,   7, 0x10000435) /* ClothingBase */
+     , (22883,   8, 0x06002976) /* Icon */
+     , (22883,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22883,  1039,      2)  /* Cold Protection Other IV */;

@@ -22,5 +22,5 @@ VALUES (24221,   1, 'Wai Jhou') /* Name */
      , (24221,  16, 'Welcome to the swamp town of Wai Jhou. A restful place of enlightenment.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24221,   1,   33558340) /* Setup */
-     , (24221,   8,  100674307) /* Icon */;
+VALUES (24221,   1, 0x02000F44) /* Setup */
+     , (24221,   8, 0x06002B03) /* Icon */;

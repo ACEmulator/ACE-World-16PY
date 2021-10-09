@@ -19,7 +19,7 @@ VALUES (20064,   1,        256) /* ItemType - MissileWeapon */
      , (20064,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (20064,  49,         15) /* WeaponTime */
      , (20064,  50,          4) /* AmmoType - Atlatl */
-     , (20064,  51,          2) /* CombatUse - Missle */
+     , (20064,  51,          2) /* CombatUse - Missile */
      , (20064,  60,        120) /* WeaponRange */
      , (20064,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (20064, 106,        300) /* ItemSpellcraft */
@@ -50,17 +50,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20064,   1, 'Superb Flaming Isparian Atlatl') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20064,   1,   33557804) /* Setup */
-     , (20064,   3,  536870932) /* SoundTable */
-     , (20064,   6,   67111919) /* PaletteBase */
-     , (20064,   7,  268436393) /* ClothingBase */
-     , (20064,   8,  100673006) /* Icon */
-     , (20064,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20064,   1, 0x02000D2C) /* Setup */
+     , (20064,   3, 0x20000014) /* SoundTable */
+     , (20064,   6, 0x04000BEF) /* PaletteBase */
+     , (20064,   7, 0x100003A9) /* ClothingBase */
+     , (20064,   8, 0x060025EE) /* Icon */
+     , (20064,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20064,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20064,  1094,      2)  /* Fire Protection Self VI */
-     , (20064,  1331,      2)  /* Strength Self V */
      , (20064,  1604,      2)  /* Aura of Defender Self V */
+     , (20064,  2567,      2)  /* Minor Missile Weapon Aptitude */
      , (20064,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (20064,  2567,      2)  /* Minor Missile Weapon Aptitude */;
+     , (20064,  1331,      2)  /* Strength Self V */;

@@ -25,7 +25,7 @@ VALUES (1896,   1, 'Scroll of Hermetic Link') /* Name */
      , (1896,  16, 'When learned, this spell increases a magic casting implement''s mana conversion bonus by 10%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1896,   1,   33554826) /* Setup */
-     , (1896,   8,  100676672) /* Icon */
-     , (1896,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1896,   1, 0x0200018A) /* Setup */
+     , (1896,   8, 0x06003440) /* Icon */
+     , (1896,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1896,  28,       1475) /* Spell - Aura of Hermetic Link Self I */;

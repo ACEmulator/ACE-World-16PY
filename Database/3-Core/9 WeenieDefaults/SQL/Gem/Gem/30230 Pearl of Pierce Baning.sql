@@ -30,10 +30,10 @@ VALUES (30230,   1, 'Pearl of Pierce Baning') /* Name */
      , (30230,  16, 'A lovely template for a rare magical gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30230,   1,   33554809) /* Setup */
-     , (30230,   3,  536870932) /* SoundTable */
-     , (30230,   6,   67111919) /* PaletteBase */
-     , (30230,   7,  268435723) /* ClothingBase */
-     , (30230,   8,  100674739) /* Icon */
-     , (30230,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30230,   1, 0x02000179) /* Setup */
+     , (30230,   3, 0x20000014) /* SoundTable */
+     , (30230,   6, 0x04000BEF) /* PaletteBase */
+     , (30230,   7, 0x1000010B) /* ClothingBase */
+     , (30230,   8, 0x06002CB3) /* Icon */
+     , (30230,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30230,  28,       3728) /* Spell - Prodigal Piercing Bane */;

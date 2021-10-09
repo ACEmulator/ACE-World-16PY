@@ -72,14 +72,14 @@ VALUES (30389,   1, 'Reijiri') /* Name */
      , (30389,   5, 'The Littlest Niffis') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30389,   1,   33556774) /* Setup */
-     , (30389,   2,  150995286) /* MotionTable */
-     , (30389,   3,  536871010) /* SoundTable */
-     , (30389,   4,  805306410) /* CombatTable */
-     , (30389,   6,   67112937) /* PaletteBase */
-     , (30389,   7,  268436039) /* ClothingBase */
-     , (30389,   8,  100670961) /* Icon */
-     , (30389,  22,  872415365) /* PhysicsEffectTable */
+VALUES (30389,   1, 0x02000926) /* Setup */
+     , (30389,   2, 0x09000156) /* MotionTable */
+     , (30389,   3, 0x20000062) /* SoundTable */
+     , (30389,   4, 0x3000002A) /* CombatTable */
+     , (30389,   6, 0x04000FE9) /* PaletteBase */
+     , (30389,   7, 0x10000247) /* ClothingBase */
+     , (30389,   8, 0x06001DF1) /* Icon */
+     , (30389,  22, 0x34000085) /* PhysicsEffectTable */
      , (30389,  35,        465) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -96,15 +96,15 @@ VALUES (30389,   1,  5000, 0, 0, 5267) /* MaxHealth */
      , (30389,   5,   300, 0, 0, 758) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (30389,  6, 0, 3, 0,  76, 0, 2254.94447541476) /* MeleeDefense        Specialized */
-     , (30389,  7, 0, 3, 0,  44, 0, 2254.94447541476) /* MissileDefense      Specialized */
-     , (30389, 13, 0, 3, 0,  80, 0, 2254.94447541476) /* UnarmedCombat       Specialized */
-     , (30389, 14, 0, 3, 0,  55, 0, 2254.94447541476) /* ArcaneLore          Specialized */
-     , (30389, 15, 0, 3, 0,  74, 0, 2254.94447541476) /* MagicDefense        Specialized */
-     , (30389, 20, 0, 3, 0,  50, 0, 2254.94447541476) /* Deception           Specialized */
-     , (30389, 31, 0, 3, 0,  43, 0, 2254.94447541476) /* CreatureEnchantment Specialized */
-     , (30389, 33, 0, 3, 0,  43, 0, 2254.94447541476) /* LifeMagic           Specialized */
-     , (30389, 34, 0, 3, 0,  43, 0, 2254.94447541476) /* WarMagic            Specialized */;
+VALUES (30389,  6, 0, 3, 0,  76, 0, 2254.9444754147635) /* MeleeDefense        Specialized */
+     , (30389,  7, 0, 3, 0,  44, 0, 2254.9444754147635) /* MissileDefense      Specialized */
+     , (30389, 13, 0, 3, 0,  80, 0, 2254.9444754147635) /* UnarmedCombat       Specialized */
+     , (30389, 14, 0, 3, 0,  55, 0, 2254.9444754147635) /* ArcaneLore          Specialized */
+     , (30389, 15, 0, 3, 0,  74, 0, 2254.9444754147635) /* MagicDefense        Specialized */
+     , (30389, 20, 0, 3, 0,  50, 0, 2254.9444754147635) /* Deception           Specialized */
+     , (30389, 31, 0, 3, 0,  43, 0, 2254.9444754147635) /* CreatureEnchantment Specialized */
+     , (30389, 33, 0, 3, 0,  43, 0, 2254.9444754147635) /* LifeMagic           Specialized */
+     , (30389, 34, 0, 3, 0,  43, 0, 2254.9444754147635) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (30389,  0,  4,  1, 0.75,  190,  190,  158,  158,  184,  158,  184,  158,    0, 1, 0.44,  0.3,    0,  0.4,  0.1,    0, 0.44,  0.3,    0,  0.4,  0.1,    0) /* Head */
@@ -127,15 +127,15 @@ VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NU
      , (@parent_id,  1,  18 /* DirectBroadcast */, 0, 1, NULL, '%mn throws the Wallbound Niffis back in your face. It is clear that she is angry with you for rejecting her gift.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (30389,  5 /* HeartBeat */,   0.01, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (30389,  5 /* HeartBeat */,   0.01, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (30389,  5 /* HeartBeat */,   0.02, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (30389,  5 /* HeartBeat */,   0.02, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -143,7 +143,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, '%mn flexes her tentacles.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (30389,  5 /* HeartBeat */,   0.03, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (30389,  5 /* HeartBeat */,   0.03, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -151,7 +151,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, '%mn beats the air rapidly with her wings.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (30389,  5 /* HeartBeat */,  0.031, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (30389,  5 /* HeartBeat */,  0.031, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -167,7 +167,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  1,  18 /* DirectBroadcast */, 0, 1, NULL, '%mn ponders the note for a long moment. She looks you in the eye and your heart breaks at the sadness you glimpse beneath those dark, melancholy orbs. This is a fighter who has abandoned those that love her. And for what? Glory? Acceptance? Approval from those who would use her for naught but entertainment? Or worse, for profit?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  2,  18 /* DirectBroadcast */, 1, 1, NULL, '%mn regards you for a time, then nods her head. You don''t quite understand what passes between you, but you think it feels a little something like gratitude. Perhaps you have helped this poor, small Niffis. Perhaps you have pointed out the path - that path which all of us seek - towards contentment.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  3,   3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 30401 /* Wallbound Niffis */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+     , (@parent_id,  3,   3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 30401 /* Wallbound Niffis */, 1, 0 /* Undef */, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (30389,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

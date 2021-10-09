@@ -26,7 +26,7 @@ VALUES (30633,   1, 'Stone Emblem') /* Name */
      , (30633,  33, 'BanderlingHauntEmblemAcquired0105') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30633,   1,   33554769) /* Setup */
-     , (30633,   3,  536870932) /* SoundTable */
-     , (30633,   8,  100677389) /* Icon */
-     , (30633,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30633,   1, 0x02000151) /* Setup */
+     , (30633,   3, 0x20000014) /* SoundTable */
+     , (30633,   8, 0x0600370D) /* Icon */
+     , (30633,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -22,7 +22,7 @@ VALUES (844,   1, 'Gonjoku''s Goods') /* Name */
      , (844,  16, 'Gonjoku''s Goods') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (844,   1,   33555594) /* Setup */
-     , (844,   6,   67111782) /* PaletteBase */
-     , (844,   7,  268435693) /* ClothingBase */
-     , (844,   8,  100668115) /* Icon */;
+VALUES (844,   1, 0x0200048A) /* Setup */
+     , (844,   6, 0x04000B66) /* PaletteBase */
+     , (844,   7, 0x100000ED) /* ClothingBase */
+     , (844,   8, 0x060012D3) /* Icon */;

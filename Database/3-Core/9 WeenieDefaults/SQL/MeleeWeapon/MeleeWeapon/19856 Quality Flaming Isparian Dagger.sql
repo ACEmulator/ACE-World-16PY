@@ -49,16 +49,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19856,   1, 'Quality Flaming Isparian Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19856,   1,   33557744) /* Setup */
-     , (19856,   3,  536870932) /* SoundTable */
-     , (19856,   6,   67111919) /* PaletteBase */
-     , (19856,   7,  268436378) /* ClothingBase */
-     , (19856,   8,  100673036) /* Icon */
-     , (19856,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19856,   1, 0x02000CF0) /* Setup */
+     , (19856,   3, 0x20000014) /* SoundTable */
+     , (19856,   6, 0x04000BEF) /* PaletteBase */
+     , (19856,   7, 0x1000039A) /* ClothingBase */
+     , (19856,   8, 0x0600260C) /* Icon */
+     , (19856,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19856,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19856,  1092,      2)  /* Fire Protection Self IV */
-     , (19856,  1329,      2)  /* Strength Self III */
      , (19856,  1589,      2)  /* Aura of Heart Seeker Self III */
-     , (19856,  1613,      2)  /* Aura of Blood Drinker Self III */;
+     , (19856,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (19856,  1329,      2)  /* Strength Self III */;

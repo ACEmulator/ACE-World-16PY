@@ -34,9 +34,9 @@ VALUES (23246,   1, 'Large Yellow Fish') /* Name */
      , (23246,  20, 'Large Yellow Fish') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23246,   1,   33554674) /* Setup */
-     , (23246,   3,  536870932) /* SoundTable */
-     , (23246,   6,   67114188) /* PaletteBase */
-     , (23246,   7,  268436573) /* ClothingBase */
-     , (23246,   8,  100674170) /* Icon */
-     , (23246,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23246,   1, 0x020000F2) /* Setup */
+     , (23246,   3, 0x20000014) /* SoundTable */
+     , (23246,   6, 0x040014CC) /* PaletteBase */
+     , (23246,   7, 0x1000045D) /* ClothingBase */
+     , (23246,   8, 0x06002A7A) /* Icon */
+     , (23246,  22, 0x3400002B) /* PhysicsEffectTable */;

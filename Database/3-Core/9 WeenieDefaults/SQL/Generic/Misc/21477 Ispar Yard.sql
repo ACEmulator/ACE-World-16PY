@@ -22,5 +22,5 @@ VALUES (21477,   1, 'Ispar Yard') /* Name */
      , (21477,  16, 'Ispar Yard') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21477,   1,   33557906) /* Setup */
-     , (21477,   8,  100667499) /* Icon */;
+VALUES (21477,   1, 0x02000D92) /* Setup */
+     , (21477,   8, 0x0600106B) /* Icon */;

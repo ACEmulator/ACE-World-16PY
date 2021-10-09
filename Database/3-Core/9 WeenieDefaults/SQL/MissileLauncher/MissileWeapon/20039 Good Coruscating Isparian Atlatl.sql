@@ -19,7 +19,7 @@ VALUES (20039,   1,        256) /* ItemType - MissileWeapon */
      , (20039,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (20039,  49,         15) /* WeaponTime */
      , (20039,  50,          4) /* AmmoType - Atlatl */
-     , (20039,  51,          2) /* CombatUse - Missle */
+     , (20039,  51,          2) /* CombatUse - Missile */
      , (20039,  60,        120) /* WeaponRange */
      , (20039,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (20039, 106,        300) /* ItemSpellcraft */
@@ -50,17 +50,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20039,   1, 'Good Coruscating Isparian Atlatl') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20039,   1,   33557802) /* Setup */
-     , (20039,   3,  536870932) /* SoundTable */
-     , (20039,   6,   67111919) /* PaletteBase */
-     , (20039,   7,  268436393) /* ClothingBase */
-     , (20039,   8,  100673002) /* Icon */
-     , (20039,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20039,   1, 0x02000D2A) /* Setup */
+     , (20039,   3, 0x20000014) /* SoundTable */
+     , (20039,   6, 0x04000BEF) /* PaletteBase */
+     , (20039,   7, 0x100003A9) /* ClothingBase */
+     , (20039,   8, 0x060025EA) /* Icon */
+     , (20039,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20039,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20039,  1071,      2)  /* Lightning Protection Self VI */
-     , (20039,  1401,      2)  /* Quickness Self V */
-     , (20039,  1603,      2)  /* Aura of Defender Self IV */
+VALUES (20039,  1603,      2)  /* Aura of Defender Self IV */
      , (20039,  1614,      2)  /* Aura of Blood Drinker Self IV */
-     , (20039,  2684,      2)  /* Feeble Missile Weapon Aptitude */;
+     , (20039,  1071,      2)  /* Lightning Protection Self VI */
+     , (20039,  2684,      2)  /* Feeble Missile Weapon Aptitude */
+     , (20039,  1401,      2)  /* Quickness Self V */;

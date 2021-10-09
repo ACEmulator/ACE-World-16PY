@@ -26,7 +26,7 @@ VALUES (4903,   1, 'Key') /* Name */
      , (4903,  16, 'This key is old and made of brass.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4903,   1,   33554784) /* Setup */
-     , (4903,   3,  536870932) /* SoundTable */
-     , (4903,   8,  100668439) /* Icon */
-     , (4903,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4903,   1, 0x02000160) /* Setup */
+     , (4903,   3, 0x20000014) /* SoundTable */
+     , (4903,   8, 0x06001417) /* Icon */
+     , (4903,  22, 0x3400002B) /* PhysicsEffectTable */;

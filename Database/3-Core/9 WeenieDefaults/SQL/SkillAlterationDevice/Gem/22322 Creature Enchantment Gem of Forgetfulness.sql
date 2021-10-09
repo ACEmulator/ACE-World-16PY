@@ -13,7 +13,7 @@ VALUES (22322,   1,       2048) /* ItemType - Gem */
      , (22322,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22322, 114,          1) /* Attuned - Attuned */
      , (22322, 185,          2) /* TypeOfAlteration */
-     , (22322, 186,         31) /* SkillToBeAltered */;
+     , (22322, 186,         31) /* SkillToBeAltered - CreatureEnchantment */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22322,  22, True ) /* Inscribable */
@@ -25,8 +25,8 @@ VALUES (22322,   1, 'Creature Enchantment Gem of Forgetfulness') /* Name */
      , (22322,  33, 'SkillAlterationGemPickedUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22322,   1,   33558087) /* Setup */
-     , (22322,   6,   67111919) /* PaletteBase */
-     , (22322,   7,  268435723) /* ClothingBase */
-     , (22322,   8,  100673789) /* Icon */
-     , (22322,  50,  100673761) /* IconOverlay */;
+VALUES (22322,   1, 0x02000E47) /* Setup */
+     , (22322,   6, 0x04000BEF) /* PaletteBase */
+     , (22322,   7, 0x1000010B) /* ClothingBase */
+     , (22322,   8, 0x060028FD) /* Icon */
+     , (22322,  50, 0x060028E1) /* IconOverlay */;

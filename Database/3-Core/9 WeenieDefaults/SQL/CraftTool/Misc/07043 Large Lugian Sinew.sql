@@ -30,9 +30,9 @@ VALUES (7043,   1, 'Large Lugian Sinew') /* Name */
      , (7043,  16, 'The sinew of a departed large Lugian.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7043,   1,   33554817) /* Setup */
-     , (7043,   3,  536870932) /* SoundTable */
-     , (7043,   6,   67111919) /* PaletteBase */
-     , (7043,   7,  268435832) /* ClothingBase */
-     , (7043,   8,  100670685) /* Icon */
-     , (7043,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7043,   1, 0x02000181) /* Setup */
+     , (7043,   3, 0x20000014) /* SoundTable */
+     , (7043,   6, 0x04000BEF) /* PaletteBase */
+     , (7043,   7, 0x10000178) /* ClothingBase */
+     , (7043,   8, 0x06001CDD) /* Icon */
+     , (7043,  22, 0x3400002B) /* PhysicsEffectTable */;

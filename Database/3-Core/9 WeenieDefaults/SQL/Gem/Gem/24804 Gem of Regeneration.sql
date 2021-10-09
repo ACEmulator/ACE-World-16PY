@@ -35,11 +35,11 @@ VALUES (24804,   1, 'Gem of Regeneration') /* Name */
      , (24804,  20, 'Gems of Regeneration') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24804,   1,   33554809) /* Setup */
-     , (24804,   3,  536870932) /* SoundTable */
-     , (24804,   6,   67111919) /* PaletteBase */
-     , (24804,   7,  268435723) /* ClothingBase */
-     , (24804,   8,  100674422) /* Icon */
-     , (24804,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24804,   1, 0x02000179) /* Setup */
+     , (24804,   3, 0x20000014) /* SoundTable */
+     , (24804,   6, 0x04000BEF) /* PaletteBase */
+     , (24804,   7, 0x1000010B) /* ClothingBase */
+     , (24804,   8, 0x06002B76) /* Icon */
+     , (24804,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24804,  28,        162) /* Spell - Regeneration Other IV */
-     , (24804,  36,  234881046) /* MutateFilter */;
+     , (24804,  36, 0x0E000016) /* MutateFilter */;

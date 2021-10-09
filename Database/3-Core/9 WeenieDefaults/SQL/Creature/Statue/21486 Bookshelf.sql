@@ -63,12 +63,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21486,   1, 'Bookshelf') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21486,   1,   33556844) /* Setup */
-     , (21486,   2,  150995197) /* MotionTable */
-     , (21486,   3,  536871052) /* SoundTable */
-     , (21486,   4,  805306376) /* CombatTable */
-     , (21486,   8,  100668246) /* Icon */
-     , (21486,  22,  872415323) /* PhysicsEffectTable */;
+VALUES (21486,   1, 0x0200096C) /* Setup */
+     , (21486,   2, 0x090000FD) /* MotionTable */
+     , (21486,   3, 0x2000008C) /* SoundTable */
+     , (21486,   4, 0x30000008) /* CombatTable */
+     , (21486,   8, 0x06001356) /* Icon */
+     , (21486,  22, 0x3400005B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (21486,   1, 380, 0, 0) /* Strength */
@@ -151,7 +151,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'A light breeze and the scent of rotting meat wash over you. Your stomach threatens to revolt for a moment. You see a ceremonial robe upon your body and feel the cold of stone on your back. A slender woman with gentle features stands above you holding a curved dagger. She mutters in a language that you do not know and plunges the dagger into your heart. As life ebbs, you hear a gentle song being sung about you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (21486,  7 /* Use */, 0.8000001, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (21486,  7 /* Use */,    0.8, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -159,7 +159,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'A snake-man dresses you in a fine silken robe. Nearby a woman cries, at her feet a small child with golden eyes attempts to stifle the tears which brim at his eyes. You smile, and turn from them and are led toward an altar by the snake-man.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (21486,  7 /* Use */, 0.8900001, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (21486,  7 /* Use */,   0.89, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -167,7 +167,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'There is the smell of something sweet nearby. The moons are large and high above your head. Four spires the color of sea-foam rise about you, and a chill wind blows. You taste blood, and the heady scent of sage fills your senses. You cough and shower yourself in blood.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (21486,  7 /* Use */, 0.9000001, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (21486,  7 /* Use */,    0.9, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

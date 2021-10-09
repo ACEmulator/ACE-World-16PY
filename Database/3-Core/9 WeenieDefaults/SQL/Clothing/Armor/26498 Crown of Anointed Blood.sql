@@ -46,12 +46,12 @@ VALUES (26498,   1, 'Crown of Anointed Blood') /* Name */
      , (26498,  15, 'This veiled crown was likely used during the rites of the Falatacot.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26498,   1,   33558591) /* Setup */
-     , (26498,   3,  536870932) /* SoundTable */
-     , (26498,   6,   67108990) /* PaletteBase */
-     , (26498,   7,  268436791) /* ClothingBase */
-     , (26498,   8,  100675772) /* Icon */
-     , (26498,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (26498,   1, 0x0200103F) /* Setup */
+     , (26498,   3, 0x20000014) /* SoundTable */
+     , (26498,   6, 0x0400007E) /* PaletteBase */
+     , (26498,   7, 0x10000537) /* ClothingBase */
+     , (26498,   8, 0x060030BC) /* Icon */
+     , (26498,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (26498,  3044,      2)  /* Lesser Benediction of Immortality */

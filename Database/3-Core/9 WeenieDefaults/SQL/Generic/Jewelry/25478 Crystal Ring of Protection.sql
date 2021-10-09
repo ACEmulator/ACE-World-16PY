@@ -26,7 +26,7 @@ VALUES (25478,  22, True ) /* Inscribable */
      , (25478,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25478,   5, -0.033333) /* ManaRate */
+VALUES (25478,   5,  -0.033) /* ManaRate */
      , (25478,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -34,11 +34,11 @@ VALUES (25478,   1, 'Crystal Ring of Protection') /* Name */
      , (25478,  16, 'A ring carved of Whispering Venom crystal. When worn, it allows portal passage down to the Lair of the Ancient Queen.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25478,   1,   33554690) /* Setup */
-     , (25478,   3,  536870932) /* SoundTable */
-     , (25478,   6,   67111919) /* PaletteBase */
-     , (25478,   8,  100674800) /* Icon */
-     , (25478,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25478,   1, 0x02000102) /* Setup */
+     , (25478,   3, 0x20000014) /* SoundTable */
+     , (25478,   6, 0x04000BEF) /* PaletteBase */
+     , (25478,   8, 0x06002CF0) /* Icon */
+     , (25478,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25478,   512,      2)  /* Acid Protection Other IV */;

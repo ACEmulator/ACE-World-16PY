@@ -43,13 +43,13 @@ VALUES (9286,   1, 'Directive''s Cache') /* Name */
      , (9286,  16, 'A Virindi cache lies here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9286,   1,   33557001) /* Setup */
-     , (9286,   2,  150995121) /* MotionTable */
-     , (9286,   3,  536871023) /* SoundTable */
-     , (9286,   6,   67111346) /* PaletteBase */
-     , (9286,   7,  268436149) /* ClothingBase */
-     , (9286,   8,  100671463) /* Icon */
-     , (9286,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9286,   1, 0x02000A09) /* Setup */
+     , (9286,   2, 0x090000B1) /* MotionTable */
+     , (9286,   3, 0x2000006F) /* SoundTable */
+     , (9286,   6, 0x040009B2) /* PaletteBase */
+     , (9286,   7, 0x100002B5) /* ClothingBase */
+     , (9286,   8, 0x06001FE7) /* Icon */
+     , (9286,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (9286, 1, 339, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 4 from Death Treasure Table id: 339 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;

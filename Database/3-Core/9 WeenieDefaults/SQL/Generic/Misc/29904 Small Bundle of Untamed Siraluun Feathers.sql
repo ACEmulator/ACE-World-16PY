@@ -25,9 +25,9 @@ VALUES (29904,   1, 'Small Bundle of Untamed Siraluun Feathers') /* Name */
      , (29904,  15, 'A small bundle of Untamed Siraluun Feathers.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29904,   1,   33554817) /* Setup */
-     , (29904,   3,  536870932) /* SoundTable */
-     , (29904,   6,   67111919) /* PaletteBase */
-     , (29904,   7,  268435832) /* ClothingBase */
-     , (29904,   8,  100677300) /* Icon */
-     , (29904,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29904,   1, 0x02000181) /* Setup */
+     , (29904,   3, 0x20000014) /* SoundTable */
+     , (29904,   6, 0x04000BEF) /* PaletteBase */
+     , (29904,   7, 0x10000178) /* ClothingBase */
+     , (29904,   8, 0x060036B4) /* Icon */
+     , (29904,  22, 0x3400002B) /* PhysicsEffectTable */;

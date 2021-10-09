@@ -54,17 +54,17 @@ VALUES (25624,   1, 'Electric Weeping Spear') /* Name */
      , (25624,  15, 'A spear infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25624,   1,   33558478) /* Setup */
-     , (25624,   3,  536870932) /* SoundTable */
-     , (25624,   6,   67114522) /* PaletteBase */
-     , (25624,   7,  268436698) /* ClothingBase */
-     , (25624,   8,  100674903) /* Icon */
-     , (25624,  22,  872415275) /* PhysicsEffectTable */
-     , (25624,  36,  234881044) /* MutateFilter */;
+VALUES (25624,   1, 0x02000FCE) /* Setup */
+     , (25624,   3, 0x20000014) /* SoundTable */
+     , (25624,   6, 0x0400161A) /* PaletteBase */
+     , (25624,   7, 0x100004DA) /* ClothingBase */
+     , (25624,   8, 0x06002D57) /* Icon */
+     , (25624,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (25624,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25624,  2692,      2)  /* Moderate Light Weapon Aptitude */
-     , (25624,  2963,      2)  /* Aura of Hunter's Cunning */
+VALUES (25624,  2963,      2)  /* Aura of Hunter's Cunning */
+     , (25624,  2692,      2)  /* Moderate Light Weapon Aptitude */
      , (25624,  2964,      2)  /* Aura of Hunter's Mark */
      , (25624,  2966,      2)  /* Aura of Murderous Thirst */
      , (25624,  2967,      2)  /* Aura of The Speedy Hunter */;

@@ -38,12 +38,12 @@ VALUES (25823,   1, 'Orb of Splendor') /* Name */
      , (25823,  15, 'This orb is a representation of the splendor of the Firebird as realized by the adherents who follow the path of the Firebird.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25823,   1,   33558566) /* Setup */
-     , (25823,   3,  536870932) /* SoundTable */
-     , (25823,   8,  100675650) /* Icon */
-     , (25823,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25823,   1, 0x02001026) /* Setup */
+     , (25823,   3, 0x20000014) /* SoundTable */
+     , (25823,   8, 0x06003042) /* Icon */
+     , (25823,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25823,   663,      2)  /* Mana Conversion Mastery Other V */
+VALUES (25823,  2581,      2)  /* Minor Focus */
      , (25823,  1431,      2)  /* Focus Other V */
-     , (25823,  2581,      2)  /* Minor Focus */;
+     , (25823,   663,      2)  /* Mana Conversion Mastery Other V */;

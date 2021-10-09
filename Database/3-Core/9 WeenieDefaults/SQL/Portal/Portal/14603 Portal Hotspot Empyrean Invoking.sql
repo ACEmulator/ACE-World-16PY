@@ -28,10 +28,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14603,   1, 'Portal Hotspot Empyrean Invoking') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14603,   1,   33556024) /* Setup */
-     , (14603,   3,  536871008) /* SoundTable */
-     , (14603,   8,  100667499) /* Icon */;
+VALUES (14603,   1, 0x02000638) /* Setup */
+     , (14603,   3, 0x20000060) /* SoundTable */
+     , (14603,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14603, 2, 1382679187, 220, -50, -24, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0x526A0293 [220.000000 -50.000000 -24.000000] 1.000000 0.000000 0.000000 0.000000 */;
+VALUES (14603, 2, 0x526A0293, 220, -50, -24, 1, 0, 0, -0) /* Destination */
+/* @teleloc 0x526A0293 [220.000000 -50.000000 -24.000000] 1.000000 0.000000 0.000000 -0.000000 */;

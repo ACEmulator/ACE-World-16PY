@@ -23,10 +23,10 @@ VALUES (7581,   1, 'Chorizite') /* Name */
      , (7581,  20, 'Chorizite Potions') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7581,   1,   33555209) /* Setup */
-     , (7581,   3,  536870932) /* SoundTable */
-     , (7581,   6,   67111919) /* PaletteBase */
-     , (7581,   7,  268435719) /* ClothingBase */
-     , (7581,   8,  100670735) /* Icon */
-     , (7581,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7581,   1, 0x02000309) /* Setup */
+     , (7581,   3, 0x20000014) /* SoundTable */
+     , (7581,   6, 0x04000BEF) /* PaletteBase */
+     , (7581,   7, 0x10000107) /* ClothingBase */
+     , (7581,   8, 0x06001D0F) /* Icon */
+     , (7581,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7581,  29,        111) /* SpellComponent */;

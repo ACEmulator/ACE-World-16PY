@@ -34,9 +34,9 @@ VALUES (19483,   1, 'Decanter of Essence') /* Name */
      , (19483,  20, 'Decanters of Essence') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19483,   1,   33555965) /* Setup */
-     , (19483,   3,  536870932) /* SoundTable */
-     , (19483,   6,   67111919) /* PaletteBase */
-     , (19483,   7,  268435814) /* ClothingBase */
-     , (19483,   8,  100672970) /* Icon */
-     , (19483,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19483,   1, 0x020005FD) /* Setup */
+     , (19483,   3, 0x20000014) /* SoundTable */
+     , (19483,   6, 0x04000BEF) /* PaletteBase */
+     , (19483,   7, 0x10000166) /* ClothingBase */
+     , (19483,   8, 0x060025CA) /* Icon */
+     , (19483,  22, 0x3400002B) /* PhysicsEffectTable */;

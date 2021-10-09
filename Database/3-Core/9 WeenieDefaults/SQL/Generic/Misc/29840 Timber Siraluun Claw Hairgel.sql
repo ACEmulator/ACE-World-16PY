@@ -28,7 +28,7 @@ VALUES (29840,   1, 'Timber Siraluun Claw Hairgel') /* Name */
      , (29840,  16, 'Hair Gel made from the claw of a Timber Siraluun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29840,   1,   33554817) /* Setup */
-     , (29840,   6,   67111919) /* PaletteBase */
-     , (29840,   7,  268435832) /* ClothingBase */
-     , (29840,   8,  100677302) /* Icon */;
+VALUES (29840,   1, 0x02000181) /* Setup */
+     , (29840,   6, 0x04000BEF) /* PaletteBase */
+     , (29840,   7, 0x10000178) /* ClothingBase */
+     , (29840,   8, 0x060036B6) /* Icon */;

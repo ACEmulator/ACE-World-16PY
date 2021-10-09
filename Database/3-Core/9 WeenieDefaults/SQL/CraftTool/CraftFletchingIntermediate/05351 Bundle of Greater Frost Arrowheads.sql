@@ -27,7 +27,7 @@ VALUES (5351,   1, 'Bundle of Greater Frost Arrowheads') /* Name */
      , (5351,  20, 'Bundles of Greater Frost Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5351,   1,   33555958) /* Setup */
-     , (5351,   3,  536870932) /* SoundTable */
-     , (5351,   8,  100670209) /* Icon */
-     , (5351,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5351,   1, 0x020005F6) /* Setup */
+     , (5351,   3, 0x20000014) /* SoundTable */
+     , (5351,   8, 0x06001B01) /* Icon */
+     , (5351,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -24,7 +24,7 @@ VALUES (20573,   1, 'Scroll of Introversion') /* Name */
      , (20573,  15, 'When learned, this spell decreases the target''s Assess Person skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20573,   1,   33554826) /* Setup */
-     , (20573,   8,  100676448) /* Icon */
-     , (20573,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20573,   1, 0x0200018A) /* Setup */
+     , (20573,   8, 0x06003360) /* Icon */
+     , (20573,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20573,  28,       2294) /* Spell - Introversion */;

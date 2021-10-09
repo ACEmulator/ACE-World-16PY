@@ -38,11 +38,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30514,   1, 'Template for greaves.  Covers lower legs.') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30514,   1,   33554641) /* Setup */
-     , (30514,   3,  536870932) /* SoundTable */
-     , (30514,   6,   67108990) /* PaletteBase */
-     , (30514,   7,  268435543) /* ClothingBase */
-     , (30514,   8,  100668122) /* Icon */
-     , (30514,  22,  872415275) /* PhysicsEffectTable */
-     , (30514,  36,  234881042) /* MutateFilter */
-     , (30514,  46,  939524146) /* TsysMutationFilter */;
+VALUES (30514,   1, 0x020000D1) /* Setup */
+     , (30514,   3, 0x20000014) /* SoundTable */
+     , (30514,   6, 0x0400007E) /* PaletteBase */
+     , (30514,   7, 0x10000057) /* ClothingBase */
+     , (30514,   8, 0x060012DA) /* Icon */
+     , (30514,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30514,  36, 0x0E000012) /* MutateFilter */
+     , (30514,  46, 0x38000032) /* TsysMutationFilter */;

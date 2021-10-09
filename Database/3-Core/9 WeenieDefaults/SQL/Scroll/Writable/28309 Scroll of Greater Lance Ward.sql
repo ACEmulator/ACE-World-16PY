@@ -24,7 +24,7 @@ VALUES (28309,   1, 'Scroll of Greater Lance Ward') /* Name */
      , (28309,  15, 'When learned, this spell reduces damage all fellowship members take from Piercing by 60%.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28309,   1,   33554826) /* Setup */
-     , (28309,   8,  100676953) /* Icon */
-     , (28309,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28309,   1, 0x0200018A) /* Setup */
+     , (28309,   8, 0x06003559) /* Icon */
+     , (28309,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28309,  28,       3346) /* Spell - Greater Lance Ward */;

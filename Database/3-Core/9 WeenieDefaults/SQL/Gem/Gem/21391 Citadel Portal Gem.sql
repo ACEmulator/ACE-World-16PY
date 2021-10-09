@@ -41,10 +41,10 @@ VALUES (21391,   1, 'Citadel Portal Gem') /* Name */
      , (21391,  15, 'A gem teeming with portal energy. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21391,   1,   33556769) /* Setup */
-     , (21391,   3,  536870932) /* SoundTable */
-     , (21391,   6,   67111919) /* PaletteBase */
-     , (21391,   7,  268435723) /* ClothingBase */
-     , (21391,   8,  100673478) /* Icon */
-     , (21391,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21391,   1, 0x02000921) /* Setup */
+     , (21391,   3, 0x20000014) /* SoundTable */
+     , (21391,   6, 0x04000BEF) /* PaletteBase */
+     , (21391,   7, 0x1000010B) /* ClothingBase */
+     , (21391,   8, 0x060027C6) /* Icon */
+     , (21391,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21391,  28,       2796) /* Spell - Citadel Surface */;

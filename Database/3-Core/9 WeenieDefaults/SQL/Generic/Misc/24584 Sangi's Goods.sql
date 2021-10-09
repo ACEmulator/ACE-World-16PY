@@ -22,7 +22,7 @@ VALUES (24584,   1, 'Sangi''s Goods') /* Name */
      , (24584,  16, 'Nearly fresh produce and goods guaranteed.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24584,   1,   33555088) /* Setup */
-     , (24584,   6,   67111092) /* PaletteBase */
-     , (24584,   7,  268435656) /* ClothingBase */
-     , (24584,   8,  100668115) /* Icon */;
+VALUES (24584,   1, 0x02000290) /* Setup */
+     , (24584,   6, 0x040008B4) /* PaletteBase */
+     , (24584,   7, 0x100000C8) /* ClothingBase */
+     , (24584,   8, 0x060012D3) /* Icon */;

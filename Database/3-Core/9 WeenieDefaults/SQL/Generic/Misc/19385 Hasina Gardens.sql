@@ -22,5 +22,5 @@ VALUES (19385,   1, 'Hasina Gardens') /* Name */
      , (19385,  16, 'Hasina Gardens') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19385,   1,   33557693) /* Setup */
-     , (19385,   8,  100667499) /* Icon */;
+VALUES (19385,   1, 0x02000CBD) /* Setup */
+     , (19385,   8, 0x0600106B) /* Icon */;

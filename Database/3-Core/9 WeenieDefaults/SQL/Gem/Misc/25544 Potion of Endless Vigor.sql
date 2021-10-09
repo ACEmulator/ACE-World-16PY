@@ -31,11 +31,11 @@ VALUES (25544,   1, 'Potion of Endless Vigor') /* Name */
      , (25544,  20, 'Potions of Endless Vigor') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25544,   1,   33554603) /* Setup */
-     , (25544,   3,  536870932) /* SoundTable */
-     , (25544,   6,   67111919) /* PaletteBase */
-     , (25544,   7,  268435816) /* ClothingBase */
-     , (25544,   8,  100675051) /* Icon */
-     , (25544,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25544,   1, 0x020000AB) /* Setup */
+     , (25544,   3, 0x20000014) /* SoundTable */
+     , (25544,   6, 0x04000BEF) /* PaletteBase */
+     , (25544,   7, 0x10000168) /* ClothingBase */
+     , (25544,   8, 0x06002DEB) /* Icon */
+     , (25544,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25544,  23,         65) /* UseSound - Drink1 */
      , (25544,  28,       2980) /* Spell - Endless Vigor */;

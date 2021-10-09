@@ -32,9 +32,9 @@ VALUES (15749,   1, 'Elixir of Plasmic Being') /* Name */
      , (15749,  20, 'Elixirs of Plasmic Being') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15749,   1,   33555965) /* Setup */
-     , (15749,   3,  536870932) /* SoundTable */
-     , (15749,   6,   67111919) /* PaletteBase */
-     , (15749,   7,  268435814) /* ClothingBase */
-     , (15749,   8,  100672788) /* Icon */
-     , (15749,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15749,   1, 0x020005FD) /* Setup */
+     , (15749,   3, 0x20000014) /* SoundTable */
+     , (15749,   6, 0x04000BEF) /* PaletteBase */
+     , (15749,   7, 0x10000166) /* ClothingBase */
+     , (15749,   8, 0x06002514) /* Icon */
+     , (15749,  22, 0x3400002B) /* PhysicsEffectTable */;

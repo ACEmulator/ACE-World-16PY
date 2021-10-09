@@ -34,9 +34,9 @@ VALUES (19400,   1, 'New Atlatl Glyph') /* Name */
      , (19400,  16, 'A glyph with the image of an atlatl emblazoned upon it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19400,   1,   33556438) /* Setup */
-     , (19400,   3,  536870932) /* SoundTable */
-     , (19400,   6,   67111092) /* PaletteBase */
-     , (19400,   7,  268436386) /* ClothingBase */
-     , (19400,   8,  100672870) /* Icon */
-     , (19400,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19400,   1, 0x020007D6) /* Setup */
+     , (19400,   3, 0x20000014) /* SoundTable */
+     , (19400,   6, 0x040008B4) /* PaletteBase */
+     , (19400,   7, 0x100003A2) /* ClothingBase */
+     , (19400,   8, 0x06002566) /* Icon */
+     , (19400,  22, 0x3400002B) /* PhysicsEffectTable */;

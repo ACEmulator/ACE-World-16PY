@@ -36,9 +36,9 @@ VALUES (5190,   1, 'Lou Ka''s Yaoji') /* Name */
      , (5190,  33, 'YaojiLouKaQuest') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5190,   1,   33554765) /* Setup */
-     , (5190,   3,  536870932) /* SoundTable */
-     , (5190,   6,   67111919) /* PaletteBase */
-     , (5190,   7,  268435775) /* ClothingBase */
-     , (5190,   8,  100669075) /* Icon */
-     , (5190,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5190,   1, 0x0200014D) /* Setup */
+     , (5190,   3, 0x20000014) /* SoundTable */
+     , (5190,   6, 0x04000BEF) /* PaletteBase */
+     , (5190,   7, 0x1000013F) /* ClothingBase */
+     , (5190,   8, 0x06001693) /* Icon */
+     , (5190,  22, 0x3400002B) /* PhysicsEffectTable */;

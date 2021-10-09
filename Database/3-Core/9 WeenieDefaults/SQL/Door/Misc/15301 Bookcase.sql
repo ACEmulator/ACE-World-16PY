@@ -29,11 +29,11 @@ VALUES (15301,   1, 'Bookcase') /* Name */
      , (15301,  15, 'A bookcase filled with well kept tomes.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15301,   1,   33557590) /* Setup */
-     , (15301,   2,  150995157) /* MotionTable */
-     , (15301,   3,  536871051) /* SoundTable */
-     , (15301,   8,  100668246) /* Icon */
-     , (15301,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15301,   1, 0x02000C56) /* Setup */
+     , (15301,   2, 0x090000D5) /* MotionTable */
+     , (15301,   3, 0x2000008B) /* SoundTable */
+     , (15301,   8, 0x06001356) /* Icon */
+     , (15301,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (15301,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

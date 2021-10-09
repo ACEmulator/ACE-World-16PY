@@ -17,7 +17,7 @@ VALUES (27342,   1,        256) /* ItemType - MissileWeapon */
      , (27342,  48,          2) /* WeaponSkill - Bow */
      , (27342,  49,         45) /* WeaponTime */
      , (27342,  50,          1) /* AmmoType - Arrow */
-     , (27342,  51,          2) /* CombatUse - Missle */
+     , (27342,  51,          2) /* CombatUse - Missile */
      , (27342,  52,          2) /* ParentLocation - LeftHand */
      , (27342,  53,          3) /* PlacementPosition - LeftHand */
      , (27342,  60,        175) /* WeaponRange */
@@ -40,7 +40,7 @@ VALUES (27342,  22, True ) /* Inscribable */
      , (27342,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27342,   5, -0.033333) /* ManaRate */
+VALUES (27342,   5,  -0.033) /* ManaRate */
      , (27342,  26,    27.3) /* MaximumVelocity */
      , (27342,  29,    1.08) /* WeaponDefense */
      , (27342,  62,    1.08) /* WeaponOffense */
@@ -53,14 +53,14 @@ VALUES (27342,   1, 'Volkama''s Panaq of the Rivers') /* Name */
      , (27342,  16, 'A panaq fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27342,   1,   33558662) /* Setup */
-     , (27342,   3,  536870932) /* SoundTable */
-     , (27342,   6,   67113336) /* PaletteBase */
-     , (27342,   7,  268436254) /* ClothingBase */
-     , (27342,   8,  100676376) /* Icon */
-     , (27342,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27342,   1, 0x02001086) /* Setup */
+     , (27342,   3, 0x20000014) /* SoundTable */
+     , (27342,   6, 0x04001178) /* PaletteBase */
+     , (27342,   7, 0x1000031E) /* ClothingBase */
+     , (27342,   8, 0x06003318) /* Icon */
+     , (27342,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27342,  2470,      2)  /* Greater Still Water */
-     , (27342,  2473,      2)  /* Greater Torrent */
-     , (27342,  3221,      2)  /* Greater Cascade */;
+VALUES (27342,  3221,      2)  /* Greater Cascade */
+     , (27342,  2470,      2)  /* Greater Still Water */
+     , (27342,  2473,      2)  /* Greater Torrent */;

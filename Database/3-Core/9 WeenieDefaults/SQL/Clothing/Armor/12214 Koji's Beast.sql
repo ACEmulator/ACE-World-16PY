@@ -29,7 +29,7 @@ VALUES (12214,  22, True ) /* Inscribable */
      , (12214,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12214,   5, -0.0333) /* ManaRate */
+VALUES (12214,   5,  -0.033) /* ManaRate */
      , (12214,  12,    0.66) /* Shade */
      , (12214,  13,     1.3) /* ArmorModVsSlash */
      , (12214,  14,     1.3) /* ArmorModVsPierce */
@@ -47,16 +47,16 @@ VALUES (12214,   1, 'Koji''s Beast') /* Name */
      , (12214,  19, 'Sho') /* ItemHeritageGroupRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12214,   1,   33557386) /* Setup */
-     , (12214,   3,  536870932) /* SoundTable */
-     , (12214,   6,   67108990) /* PaletteBase */
-     , (12214,   7,  268436289) /* ClothingBase */
-     , (12214,   8,  100672218) /* Icon */
-     , (12214,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12214,   1, 0x02000B8A) /* Setup */
+     , (12214,   3, 0x20000014) /* SoundTable */
+     , (12214,   6, 0x0400007E) /* PaletteBase */
+     , (12214,   7, 0x10000341) /* ClothingBase */
+     , (12214,   8, 0x060022DA) /* Icon */
+     , (12214,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12214,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12214,   248,      2)  /* Invulnerability Self V */
-     , (12214,   276,      2)  /* Magic Resistance Self III */
+VALUES (12214,   276,      2)  /* Magic Resistance Self III */
+     , (12214,  1311,      2)  /* Armor Self V */
      , (12214,   447,      2)  /* Light Weapon Mastery Self V */
-     , (12214,  1311,      2)  /* Armor Self V */;
+     , (12214,   248,      2)  /* Invulnerability Self V */;

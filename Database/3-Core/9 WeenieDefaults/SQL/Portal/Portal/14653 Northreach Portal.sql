@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14653,   1, 'Northreach Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14653,   1,   33554867) /* Setup */
-     , (14653,   2,  150994947) /* MotionTable */
-     , (14653,   8,  100667499) /* Icon */;
+VALUES (14653,   1, 0x020001B3) /* Setup */
+     , (14653,   2, 0x09000003) /* MotionTable */
+     , (14653,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14653, 2, 2884042796, 130.279, 89.124, 0.095, 0.8791834, 0, 0, -0.4764836) /* Destination */
-/* @teleloc 0xABE7002C [130.279000 89.124000 0.095000] 0.879183 0.000000 0.000000 -0.476484 */;
+VALUES (14653, 2, 0xABE7002C, 130.279, 89.124, 0.095, 0.879183, 0, 0, -0.476484) /* Destination */
+/* @teleloc 0xABE7002C [130.279007 89.124001 0.095000] 0.879183 0.000000 0.000000 -0.476484 */;

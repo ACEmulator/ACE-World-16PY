@@ -22,7 +22,7 @@ VALUES (726,   1, 'Food and Attire') /* Name */
      , (726,  16, 'Food and Attire') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (726,   1,   33555088) /* Setup */
-     , (726,   6,   67111092) /* PaletteBase */
-     , (726,   7,  268435656) /* ClothingBase */
-     , (726,   8,  100668115) /* Icon */;
+VALUES (726,   1, 0x02000290) /* Setup */
+     , (726,   6, 0x040008B4) /* PaletteBase */
+     , (726,   7, 0x100000C8) /* ClothingBase */
+     , (726,   8, 0x060012D3) /* Icon */;

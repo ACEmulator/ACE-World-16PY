@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12540,   1, 'Samsur Butte Cottages Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12540,   1,   33554867) /* Setup */
-     , (12540,   2,  150994947) /* MotionTable */
-     , (12540,   8,  100667499) /* Icon */;
+VALUES (12540,   1, 0x020001B3) /* Setup */
+     , (12540,   2, 0x09000003) /* MotionTable */
+     , (12540,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12540, 2, 2457272371, 157.02, 64.692, 60.614, 0.7384789, 0, 0, -0.6742766) /* Destination */
-/* @teleloc 0x92770033 [157.020000 64.692000 60.614000] 0.738479 0.000000 0.000000 -0.674277 */;
+VALUES (12540, 2, 0x92770033, 157.02, 64.692, 60.614, 0.738479, 0, 0, -0.674277) /* Destination */
+/* @teleloc 0x92770033 [157.020004 64.692001 60.613998] 0.738479 0.000000 0.000000 -0.674277 */;

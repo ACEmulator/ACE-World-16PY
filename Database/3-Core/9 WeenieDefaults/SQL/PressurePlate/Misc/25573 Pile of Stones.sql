@@ -28,17 +28,17 @@ VALUES (25573,   1, 'Pile of Stones') /* Name */
      , (25573,  17, 'As you shuffle through the stones, the sounds alert the inhabitants of the cavern.') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25573,   1,   33558434) /* Setup */
-     , (25573,   2,  150995252) /* MotionTable */
-     , (25573,   8,  100674798) /* Icon */
-     , (25573,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25573,   1, 0x02000FA2) /* Setup */
+     , (25573,   2, 0x09000134) /* MotionTable */
+     , (25573,   8, 0x06002CEE) /* Icon */
+     , (25573,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25573,  16,          0) /* ActivationTarget */;
+VALUES (25573,  16, 0x00000000) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25573, -1, 25562, 600, 1, 1, 1, 4, -1, 0, 0, 0, -0.1, -0.1, 0, -0.6360782, 0, 0, -0.7716245) /* Generate Banderling Champion (25562) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (25573, -1, 22898, 600, 1, 1, 1, 4, -1, 0, 0, 0, -0.1, -0.1, 0, -0.6360782, 0, 0, -0.7716245) /* Generate Banderling Paragon (22898) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (25573, -1, 22898, 600, 1, 1, 1, 4, -1, 0, 0, 0, -0.1, -0.1, 0, -0.6360782, 0, 0, -0.7716245) /* Generate Banderling Paragon (22898) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (25573, -1, 22897, 600, 1, 1, 1, 4, -1, 0, 0, 0, -0.1, -0.1, 0, -0.6360782, 0, 0, -0.7716245) /* Generate Banderling Hierophant (22897) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (25573, -1, 22897, 600, 1, 1, 1, 4, -1, 0, 0, 0, -0.1, -0.1, 0, -0.6360782, 0, 0, -0.7716245) /* Generate Banderling Hierophant (22897) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (25573, -1, 25562, 600, 1, 1, 1, 4, -1, 0, 0, 0, -0.1, -0.1, 0, -0.636078, 0, -0, -0.771625) /* Generate Banderling Champion (25562) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (25573, -1, 22898, 600, 1, 1, 1, 4, -1, 0, 0, 0, -0.1, -0.1, 0, -0.636078, 0, -0, -0.771625) /* Generate Banderling Paragon (22898) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (25573, -1, 22898, 600, 1, 1, 1, 4, -1, 0, 0, 0, -0.1, -0.1, 0, -0.636078, 0, -0, -0.771625) /* Generate Banderling Paragon (22898) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (25573, -1, 22897, 600, 1, 1, 1, 4, -1, 0, 0, 0, -0.1, -0.1, 0, -0.636078, 0, -0, -0.771625) /* Generate Banderling Hierophant (22897) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (25573, -1, 22897, 600, 1, 1, 1, 4, -1, 0, 0, 0, -0.1, -0.1, 0, -0.636078, 0, -0, -0.771625) /* Generate Banderling Hierophant (22897) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

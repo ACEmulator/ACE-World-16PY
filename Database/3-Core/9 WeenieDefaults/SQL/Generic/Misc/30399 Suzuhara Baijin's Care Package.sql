@@ -24,7 +24,7 @@ VALUES (30399,   1, 'Suzuhara Baijin''s Care Package') /* Name */
      , (30399,  33, 'SuzuharaPackageAcquired1204') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30399,   1,   33559120) /* Setup */
-     , (30399,   3,  536870932) /* SoundTable */
-     , (30399,   8,  100667416) /* Icon */
-     , (30399,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30399,   1, 0x02001250) /* Setup */
+     , (30399,   3, 0x20000014) /* SoundTable */
+     , (30399,   8, 0x06001018) /* Icon */
+     , (30399,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -29,7 +29,7 @@ VALUES (8790,   1, 'Obsidian Key') /* Name */
      , (8790,  33, 'HopeslayerObsidianKey') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8790,   1,   33554784) /* Setup */
-     , (8790,   3,  536870932) /* SoundTable */
-     , (8790,   8,  100671245) /* Icon */
-     , (8790,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8790,   1, 0x02000160) /* Setup */
+     , (8790,   3, 0x20000014) /* SoundTable */
+     , (8790,   8, 0x06001F0D) /* Icon */
+     , (8790,  22, 0x3400002B) /* PhysicsEffectTable */;

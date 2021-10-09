@@ -24,7 +24,7 @@ VALUES (7518,   1, 'Scroll of Slithering Flames') /* Name */
      , (7518,  15, 'When learned, this spell sends a wall of five balls of fire, two high, slowly towards the target. Each ball does 30-60 points of fire damage to the first thing it hits. The wall is created 2 meters in front of the caster. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7518,   1,   33554826) /* Setup */
-     , (7518,   8,  100677020) /* Icon */
-     , (7518,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7518,   1, 0x0200018A) /* Setup */
+     , (7518,   8, 0x0600359C) /* Icon */
+     , (7518,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7518,  28,       1841) /* Spell - Slithering Flames */;

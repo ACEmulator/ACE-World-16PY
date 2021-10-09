@@ -22,7 +22,7 @@ VALUES (22709,   1, 'Tusker King''s Island') /* Name */
      , (22709,  16, 'Tusker King Bobo''s Island. Don''t go here unless you have fought and survived a horde of guards, and I mean a horde. The tuskers across this channel are deadly as are the other denizens of the land. Beware for the Tusker is king here. --Brighteyes, the Tailor.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22709,   1,   33558115) /* Setup */
-     , (22709,   6,   67114046) /* PaletteBase */
-     , (22709,   7,  268436512) /* ClothingBase */
-     , (22709,   8,  100668115) /* Icon */;
+VALUES (22709,   1, 0x02000E63) /* Setup */
+     , (22709,   6, 0x0400143E) /* PaletteBase */
+     , (22709,   7, 0x10000420) /* ClothingBase */
+     , (22709,   8, 0x060012D3) /* Icon */;

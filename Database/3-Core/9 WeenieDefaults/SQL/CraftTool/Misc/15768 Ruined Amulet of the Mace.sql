@@ -35,10 +35,10 @@ VALUES (15768,   1, 'Ruined Amulet of the Mace') /* Name */
      , (15768,  16, 'An Amulet crafted in pyreal that bears the symbol of a mace. The amulet is damaged, seemingly beyond repair.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15768,   1,   33554680) /* Setup */
-     , (15768,   3,  536870932) /* SoundTable */
-     , (15768,   6,   67111919) /* PaletteBase */
-     , (15768,   7,  268436095) /* ClothingBase */
-     , (15768,   8,  100672813) /* Icon */
-     , (15768,  22,  872415275) /* PhysicsEffectTable */
-     , (15768,  36,  234881046) /* MutateFilter */;
+VALUES (15768,   1, 0x020000F8) /* Setup */
+     , (15768,   3, 0x20000014) /* SoundTable */
+     , (15768,   6, 0x04000BEF) /* PaletteBase */
+     , (15768,   7, 0x1000027F) /* ClothingBase */
+     , (15768,   8, 0x0600252D) /* Icon */
+     , (15768,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (15768,  36, 0x0E000016) /* MutateFilter */;

@@ -45,18 +45,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7461,   1, 'Superior Atlan Spear of Black Fire') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7461,   1,   33557395) /* Setup */
-     , (7461,   3,  536870932) /* SoundTable */
-     , (7461,   6,   67111919) /* PaletteBase */
-     , (7461,   7,  268435909) /* ClothingBase */
-     , (7461,   8,  100670553) /* Icon */
-     , (7461,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7461,   1, 0x02000B93) /* Setup */
+     , (7461,   3, 0x20000014) /* SoundTable */
+     , (7461,   6, 0x04000BEF) /* PaletteBase */
+     , (7461,   7, 0x100001C5) /* ClothingBase */
+     , (7461,   8, 0x06001C59) /* Icon */
+     , (7461,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7461,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7461,   375,      2)  /* Light Weapon Mastery Self VI */
-     , (7461,  1592,      2)  /* Aura of Heart Seeker Self VI */
+VALUES (7461,  1846,      2)  /* Curse of Black Fire */
      , (7461,  1605,      2)  /* Aura of Defender Self VI */
+     , (7461,  1592,      2)  /* Aura of Heart Seeker Self VI */
      , (7461,  1616,      2)  /* Aura of Blood Drinker Self VI */
      , (7461,  1627,      2)  /* Aura of Swift Killer Self VI */
-     , (7461,  1846,      2)  /* Curse of Black Fire */;
+     , (7461,   375,      2)  /* Light Weapon Mastery Self VI */;

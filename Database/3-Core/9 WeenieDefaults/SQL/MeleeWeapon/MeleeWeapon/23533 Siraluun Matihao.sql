@@ -45,14 +45,14 @@ VALUES (23533,   1, 'Siraluun Matihao') /* Name */
      , (23533,  16, 'A matihao crafted with the guidance of Siraluun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23533,   1,   33557229) /* Setup */
-     , (23533,   3,  536870932) /* SoundTable */
-     , (23533,   8,  100671864) /* Icon */
-     , (23533,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23533,   1, 0x02000AED) /* Setup */
+     , (23533,   3, 0x20000014) /* SoundTable */
+     , (23533,   8, 0x06002178) /* Icon */
+     , (23533,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23533,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23533,   441,      2)  /* Light Weapon Mastery Other V */
-     , (23533,  1407,      2)  /* Quickness Other V */
+VALUES (23533,  1615,      2)  /* Aura of Blood Drinker Self V */
      , (23533,  1590,      2)  /* Aura of Heart Seeker Self IV */
-     , (23533,  1615,      2)  /* Aura of Blood Drinker Self V */;
+     , (23533,   441,      2)  /* Light Weapon Mastery Other V */
+     , (23533,  1407,      2)  /* Quickness Other V */;

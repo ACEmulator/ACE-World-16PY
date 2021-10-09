@@ -39,9 +39,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23322,   1, 'Rusted Nekode') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23322,   1,   33555996) /* Setup */
-     , (23322,   3,  536870932) /* SoundTable */
-     , (23322,   6,   67111919) /* PaletteBase */
-     , (23322,   7,  268435828) /* ClothingBase */
-     , (23322,   8,  100674224) /* Icon */
-     , (23322,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23322,   1, 0x0200061C) /* Setup */
+     , (23322,   3, 0x20000014) /* SoundTable */
+     , (23322,   6, 0x04000BEF) /* PaletteBase */
+     , (23322,   7, 0x10000174) /* ClothingBase */
+     , (23322,   8, 0x06002AB0) /* Icon */
+     , (23322,  22, 0x3400002B) /* PhysicsEffectTable */;

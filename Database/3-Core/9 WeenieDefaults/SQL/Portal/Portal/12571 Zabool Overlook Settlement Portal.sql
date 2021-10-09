@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12571,   1, 'Zabool Overlook Settlement Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12571,   1,   33554867) /* Setup */
-     , (12571,   2,  150994947) /* MotionTable */
-     , (12571,   8,  100667499) /* Icon */;
+VALUES (12571,   1, 0x020001B3) /* Setup */
+     , (12571,   2, 0x09000003) /* MotionTable */
+     , (12571,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12571, 2, 2610626615, 165.828, 162.06, 76.005, -0.2070921, 0, 0, -0.9783214) /* Destination */
-/* @teleloc 0x9B9B0037 [165.828000 162.060000 76.005000] -0.207092 0.000000 0.000000 -0.978321 */;
+VALUES (12571, 2, 0x9B9B0037, 165.828, 162.06, 76.005, -0.207092, 0, -0, -0.978321) /* Destination */
+/* @teleloc 0x9B9B0037 [165.828003 162.059998 76.004997] -0.207092 0.000000 -0.000000 -0.978321 */;

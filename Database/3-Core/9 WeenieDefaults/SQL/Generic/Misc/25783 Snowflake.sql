@@ -26,7 +26,7 @@ VALUES (25783,   1, 'Snowflake') /* Name */
      , (25783,  16, 'A huge snowflake. It''s intricate beauty is breathtaking. A unique and delicate piece of artwork.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25783,   1,   33558516) /* Setup */
-     , (25783,   3,  536870932) /* SoundTable */
-     , (25783,   8,  100675518) /* Icon */
-     , (25783,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25783,   1, 0x02000FF4) /* Setup */
+     , (25783,   3, 0x20000014) /* SoundTable */
+     , (25783,   8, 0x06002FBE) /* Icon */
+     , (25783,  22, 0x3400002B) /* PhysicsEffectTable */;

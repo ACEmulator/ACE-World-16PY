@@ -35,12 +35,12 @@ VALUES (11760,   1, 'Hafted Reedshark Banner with Symbol') /* Name */
      , (11760,  16, 'A hafted, symbol tipped banner with a reedshark on it.  It is relatively well kept, and the colors seem even and pure.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11760,   1,   33557261) /* Setup */
-     , (11760,   6,   67113338) /* PaletteBase */
-     , (11760,   7,  268436233) /* ClothingBase */
-     , (11760,   8,  100671915) /* Icon */
-     , (11760,  22,  872415275) /* PhysicsEffectTable */
-     , (11760,  27, 1073742049) /* UseUserAnimation - UseMagicWand */;
+VALUES (11760,   1, 0x02000B0D) /* Setup */
+     , (11760,   6, 0x0400117A) /* PaletteBase */
+     , (11760,   7, 0x10000309) /* ClothingBase */
+     , (11760,   8, 0x060021AB) /* Icon */
+     , (11760,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11760,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11760,   656,      2)  /* Mana Conversion Mastery Self IV */

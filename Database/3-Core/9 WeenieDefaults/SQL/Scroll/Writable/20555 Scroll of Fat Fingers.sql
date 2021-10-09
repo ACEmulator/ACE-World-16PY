@@ -24,7 +24,7 @@ VALUES (20555,   1, 'Scroll of Fat Fingers') /* Name */
      , (20555,  15, 'When learned, this spell decreases the target''s Lockpick skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20555,   1,   33554826) /* Setup */
-     , (20555,   8,  100676463) /* Icon */
-     , (20555,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20555,   1, 0x0200018A) /* Setup */
+     , (20555,   8, 0x0600336F) /* Icon */
+     , (20555,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20555,  28,       2268) /* Spell - Fat Fingers */;

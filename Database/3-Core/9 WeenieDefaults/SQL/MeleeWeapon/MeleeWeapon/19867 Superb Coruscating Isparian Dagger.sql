@@ -49,17 +49,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19867,   1, 'Superb Coruscating Isparian Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19867,   1,   33557742) /* Setup */
-     , (19867,   3,  536870932) /* SoundTable */
-     , (19867,   6,   67111919) /* PaletteBase */
-     , (19867,   7,  268436378) /* ClothingBase */
-     , (19867,   8,  100673032) /* Icon */
-     , (19867,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19867,   1, 0x02000CEE) /* Setup */
+     , (19867,   3, 0x20000014) /* SoundTable */
+     , (19867,   6, 0x04000BEF) /* PaletteBase */
+     , (19867,   7, 0x1000039A) /* ClothingBase */
+     , (19867,   8, 0x06002608) /* Icon */
+     , (19867,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19867,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19867,  1069,      2)  /* Lightning Protection Self IV */
-     , (19867,  1399,      2)  /* Quickness Self III */
-     , (19867,  1591,      2)  /* Aura of Heart Seeker Self V */
+VALUES (19867,  1591,      2)  /* Aura of Heart Seeker Self V */
      , (19867,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (19867,  2544,      2)  /* Minor Finesse Weapon Aptitude */;
+     , (19867,  1069,      2)  /* Lightning Protection Self IV */
+     , (19867,  2544,      2)  /* Minor Finesse Weapon Aptitude */
+     , (19867,  1399,      2)  /* Quickness Self III */;

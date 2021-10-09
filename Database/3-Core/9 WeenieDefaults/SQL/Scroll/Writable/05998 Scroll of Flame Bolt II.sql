@@ -25,7 +25,7 @@ VALUES (5998,   1, 'Scroll of Flame Bolt II') /* Name */
      , (5998,  16, 'When learned, this spell shoots a bolt of flame at the target. The bolt does 13-25 points of piercing damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5998,   1,   33554826) /* Setup */
-     , (5998,   8,  100677022) /* Icon */
-     , (5998,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5998,   1, 0x0200018A) /* Setup */
+     , (5998,   8, 0x0600359E) /* Icon */
+     , (5998,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5998,  28,         81) /* Spell - Flame Bolt II */;

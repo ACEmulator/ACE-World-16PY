@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10763,   1, 'Holtburg Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10763,   1,   33554867) /* Setup */
-     , (10763,   2,  150994947) /* MotionTable */
-     , (10763,   8,  100667499) /* Icon */;
+VALUES (10763,   1, 0x020001B3) /* Setup */
+     , (10763,   2, 0x09000003) /* MotionTable */
+     , (10763,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10763, 2, 2947940377, 87.4, 6.2, 99.3, -0.9921147, 0, 0, -0.1253332) /* Destination */
-/* @teleloc 0xAFB60019 [87.400000 6.200000 99.300000] -0.992115 0.000000 0.000000 -0.125333 */;
+VALUES (10763, 2, 0xAFB60019, 87.4, 6.2, 99.3, -0.992115, 0, -0, -0.125333) /* Destination */
+/* @teleloc 0xAFB60019 [87.400002 6.200000 99.300003] -0.992115 0.000000 -0.000000 -0.125333 */;

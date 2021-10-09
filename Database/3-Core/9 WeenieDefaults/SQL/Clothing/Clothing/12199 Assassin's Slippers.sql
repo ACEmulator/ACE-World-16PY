@@ -36,9 +36,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12199,   1, 'Assassin''s Slippers') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12199,   1,   33554654) /* Setup */
-     , (12199,   3,  536870932) /* SoundTable */
-     , (12199,   6,   67108990) /* PaletteBase */
-     , (12199,   7,  268435717) /* ClothingBase */
-     , (12199,   8,  100667325) /* Icon */
-     , (12199,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12199,   1, 0x020000DE) /* Setup */
+     , (12199,   3, 0x20000014) /* SoundTable */
+     , (12199,   6, 0x0400007E) /* PaletteBase */
+     , (12199,   7, 0x10000105) /* ClothingBase */
+     , (12199,   8, 0x06000FBD) /* Icon */
+     , (12199,  22, 0x3400002B) /* PhysicsEffectTable */;

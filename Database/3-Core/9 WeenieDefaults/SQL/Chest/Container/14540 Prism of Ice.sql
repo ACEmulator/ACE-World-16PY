@@ -44,13 +44,13 @@ VALUES (14540,   1, 'Prism of Ice') /* Name */
      , (14540,  16, 'A shattered prism containing deep blue highlights. A palpable feeling of cold emanates from with the prism.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14540,   1,   33557489) /* Setup */
-     , (14540,   2,  150995154) /* MotionTable */
-     , (14540,   3,  536871049) /* SoundTable */
-     , (14540,   6,   67112808) /* PaletteBase */
-     , (14540,   7,  268436323) /* ClothingBase */
-     , (14540,   8,  100672489) /* Icon */
-     , (14540,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14540,   1, 0x02000BF1) /* Setup */
+     , (14540,   2, 0x090000D2) /* MotionTable */
+     , (14540,   3, 0x20000089) /* SoundTable */
+     , (14540,   6, 0x04000F68) /* PaletteBase */
+     , (14540,   7, 0x10000363) /* ClothingBase */
+     , (14540,   8, 0x060023E9) /* Icon */
+     , (14540,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (14540,  8 /* Activation */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

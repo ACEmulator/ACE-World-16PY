@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14259,   1, 'Dillo Butte Settlement Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14259,   1,   33554867) /* Setup */
-     , (14259,   2,  150994947) /* MotionTable */
-     , (14259,   8,  100667499) /* Icon */;
+VALUES (14259,   1, 0x020001B3) /* Setup */
+     , (14259,   2, 0x09000003) /* MotionTable */
+     , (14259,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14259, 2, 2626486323, 150.027, 66.824, 108.436, 0.6075907, 0, 0, -0.7942503) /* Destination */
-/* @teleloc 0x9C8D0033 [150.027000 66.824000 108.436000] 0.607591 0.000000 0.000000 -0.794250 */;
+VALUES (14259, 2, 0x9C8D0033, 150.027, 66.824, 108.436, 0.607591, 0, 0, -0.79425) /* Destination */
+/* @teleloc 0x9C8D0033 [150.026993 66.823997 108.435997] 0.607591 0.000000 0.000000 -0.794250 */;

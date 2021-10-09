@@ -23,7 +23,7 @@ VALUES (8255,   1, 'Archmage Sign') /* Name */
      , (8255,  16, 'Chamber of Paradox. Zarri ibn Khaybi, Thaumaturgist of the Left Hand. WARNING!! Intense Empyrean-relic magilectrical activity within. Customers are warned to beware of static shocks and frizzy hair.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8255,   1,   33555909) /* Setup */
-     , (8255,   6,   67111860) /* PaletteBase */
-     , (8255,   7,  268435824) /* ClothingBase */
-     , (8255,   8,  100668115) /* Icon */;
+VALUES (8255,   1, 0x020005C5) /* Setup */
+     , (8255,   6, 0x04000BB4) /* PaletteBase */
+     , (8255,   7, 0x10000170) /* ClothingBase */
+     , (8255,   8, 0x060012D3) /* Icon */;

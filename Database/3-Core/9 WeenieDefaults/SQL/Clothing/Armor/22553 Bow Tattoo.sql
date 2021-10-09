@@ -47,17 +47,17 @@ VALUES (22553,   1, 'Bow Tattoo') /* Name */
      , (22553,  16, 'A vial of tattoo ink infused with the power of raining death. When painted on the upper arms the ink will act as armor and will grant the wearer the power of raining death.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22553,   1,   33554641) /* Setup */
-     , (22553,   3,  536870932) /* SoundTable */
-     , (22553,   6,   67108990) /* PaletteBase */
-     , (22553,   7,  268436523) /* ClothingBase */
-     , (22553,   8,  100668172) /* Icon */
-     , (22553,  22,  872415275) /* PhysicsEffectTable */
-     , (22553,  50,  100673759) /* IconOverlay */;
+VALUES (22553,   1, 0x020000D1) /* Setup */
+     , (22553,   3, 0x20000014) /* SoundTable */
+     , (22553,   6, 0x0400007E) /* PaletteBase */
+     , (22553,   7, 0x1000042B) /* ClothingBase */
+     , (22553,   8, 0x0600130C) /* Icon */
+     , (22553,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (22553,  50, 0x060028DF) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22553,   466,      2)  /* Missile Weapon Mastery Other VI */
-     , (22553,  1144,      2)  /* Piercing Protection Other VI */
+VALUES (22553,  1485,      2)  /* Impenetrability V */
+     , (22553,  2687,      2)  /* Moderate Missile Weapon Aptitude */
+     , (22553,   466,      2)  /* Missile Weapon Mastery Other VI */
      , (22553,  1384,      2)  /* Coordination Other VI */
-     , (22553,  1485,      2)  /* Impenetrability V */
-     , (22553,  2687,      2)  /* Moderate Missile Weapon Aptitude */;
+     , (22553,  1144,      2)  /* Piercing Protection Other VI */;

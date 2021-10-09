@@ -49,17 +49,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19977,   1, 'Superb Dissolving Isparian Staff') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19977,   1,   33556339) /* Setup */
-     , (19977,   3,  536870932) /* SoundTable */
-     , (19977,   6,   67111919) /* PaletteBase */
-     , (19977,   7,  268436384) /* ClothingBase */
-     , (19977,   8,  100672940) /* Icon */
-     , (19977,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19977,   1, 0x02000773) /* Setup */
+     , (19977,   3, 0x20000014) /* SoundTable */
+     , (19977,   6, 0x04000BEF) /* PaletteBase */
+     , (19977,   7, 0x100003A0) /* ClothingBase */
+     , (19977,   8, 0x060025AC) /* Icon */
+     , (19977,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19977,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19977,   518,      2)  /* Acid Protection Self IV */
+VALUES (19977,  2565,      2)  /* Minor Light Weapon Aptitude */
      , (19977,  1351,      2)  /* Endurance Self III */
+     , (19977,   518,      2)  /* Acid Protection Self IV */
      , (19977,  1591,      2)  /* Aura of Heart Seeker Self V */
-     , (19977,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (19977,  2565,      2)  /* Minor Light Weapon Aptitude */;
+     , (19977,  1615,      2)  /* Aura of Blood Drinker Self V */;

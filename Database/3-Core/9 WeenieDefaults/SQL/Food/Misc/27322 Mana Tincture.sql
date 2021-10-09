@@ -27,10 +27,10 @@ VALUES (27322,   1, 'Mana Tincture') /* Name */
      , (27322,  14, 'Use this item to drink it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27322,   1,   33554603) /* Setup */
-     , (27322,   3,  536870932) /* SoundTable */
-     , (27322,   6,   67111919) /* PaletteBase */
-     , (27322,   7,  268435816) /* ClothingBase */
-     , (27322,   8,  100676323) /* Icon */
-     , (27322,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27322,   1, 0x020000AB) /* Setup */
+     , (27322,   3, 0x20000014) /* SoundTable */
+     , (27322,   6, 0x04000BEF) /* PaletteBase */
+     , (27322,   7, 0x10000168) /* ClothingBase */
+     , (27322,   8, 0x060032E3) /* Icon */
+     , (27322,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27322,  23,         65) /* UseSound - Drink1 */;

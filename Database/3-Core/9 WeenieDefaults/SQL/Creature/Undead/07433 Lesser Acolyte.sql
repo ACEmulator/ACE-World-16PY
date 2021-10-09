@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7433,   1, 'Lesser Acolyte') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7433,   1,   33554839) /* Setup */
-     , (7433,   2,  150994967) /* MotionTable */
-     , (7433,   3,  536870934) /* SoundTable */
-     , (7433,   4,  805306368) /* CombatTable */
-     , (7433,   6,   67110722) /* PaletteBase */
-     , (7433,   7,  268435558) /* ClothingBase */
-     , (7433,   8,  100667942) /* Icon */
-     , (7433,  22,  872415272) /* PhysicsEffectTable */
+VALUES (7433,   1, 0x02000197) /* Setup */
+     , (7433,   2, 0x09000017) /* MotionTable */
+     , (7433,   3, 0x20000016) /* SoundTable */
+     , (7433,   4, 0x30000000) /* CombatTable */
+     , (7433,   6, 0x04000742) /* PaletteBase */
+     , (7433,   7, 0x10000066) /* ClothingBase */
+     , (7433,   8, 0x06001226) /* Icon */
+     , (7433,  22, 0x34000028) /* PhysicsEffectTable */
      , (7433,  31,       7341) /* LinkedPortalOne - Soul-Fearing Vestry Dungeon */
      , (7433,  32,        296) /* WieldedTreasureType - 
                                    Wield Yumi (23735) | Probability: 50%
@@ -85,8 +85,8 @@ VALUES (7433,   1,   33554839) /* Setup */
      , (7433,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7433, 12, 1896939577, 190.1, 21.1, 94, -0.7071068, 0, 0, -0.7071068) /* PortalSummonLoc */
-/* @teleloc 0x71110039 [190.100000 21.100000 94.000000] -0.707107 0.000000 0.000000 -0.707107 */;
+VALUES (7433, 12, 0x71110039, 190.1, 21.1, 94, -0.707107, 0, -0, -0.707107) /* PortalSummonLoc */
+/* @teleloc 0x71110039 [190.100006 21.100000 94.000000] -0.707107 0.000000 -0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7433,   1, 120, 0, 0) /* Strength */
@@ -132,30 +132,30 @@ VALUES (7433,  0,  4,  0,    0,   70,   56,   21,   39,   13,   35,   39,   47, 
      , (7433,  8,  4,  3, 0.75,   90,   72,   27,   50,   16,   45,   50,   60,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7433,    60,  2.029)  /* Acid Stream III */
-     , (7433,    61,  2.011)  /* Acid Stream IV */
+VALUES (7433,  1262,   2.02)  /* Drain Mana Other III */
+     , (7433,    82,  2.029)  /* Flame Bolt III */
      , (7433,    66,  2.029)  /* Shock Wave III */
+     , (7433,    83,  2.011)  /* Flame Bolt IV */
      , (7433,    67,  2.011)  /* Shock Wave IV */
      , (7433,    71,  2.029)  /* Frost Bolt III */
      , (7433,    72,  2.011)  /* Frost Bolt IV */
-     , (7433,    77,  2.029)  /* Lightning Bolt III */
+     , (7433,  1369,  2.009)  /* Frailty Other III */
      , (7433,    78,  2.011)  /* Lightning Bolt IV */
-     , (7433,    82,  2.029)  /* Flame Bolt III */
-     , (7433,    83,  2.011)  /* Flame Bolt IV */
+     , (7433,  1417,  2.009)  /* Slowness Other III */
+     , (7433,    77,  2.029)  /* Lightning Bolt III */
+     , (7433,  1239,   2.02)  /* Drain Health Other III */
      , (7433,    88,  2.029)  /* Force Bolt III */
      , (7433,    89,  2.011)  /* Force Bolt IV */
      , (7433,    94,  2.029)  /* Whirling Blade III */
      , (7433,    95,  2.011)  /* Whirling Blade IV */
-     , (7433,   173,  2.009)  /* Fester Other III */
-     , (7433,  1239,   2.02)  /* Drain Health Other III */
-     , (7433,  1251,   2.02)  /* Drain Stamina Other III */
-     , (7433,  1262,   2.02)  /* Drain Mana Other III */
-     , (7433,  1340,  2.009)  /* Weakness Other III */
-     , (7433,  1369,  2.009)  /* Frailty Other III */
-     , (7433,  1393,  2.009)  /* Clumsiness Other III */
-     , (7433,  1417,  2.009)  /* Slowness Other III */
      , (7433,  1441,  2.009)  /* Bafflement Other III */
-     , (7433,  1466,  2.009)  /* Feeblemind Other IV */;
+     , (7433,  1251,   2.02)  /* Drain Stamina Other III */
+     , (7433,   173,  2.009)  /* Fester Other III */
+     , (7433,  1393,  2.009)  /* Clumsiness Other III */
+     , (7433,    61,  2.011)  /* Acid Stream IV */
+     , (7433,  1466,  2.009)  /* Feeblemind Other IV */
+     , (7433,  1340,  2.009)  /* Weakness Other III */
+     , (7433,    60,  2.029)  /* Acid Stream III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (7433, 414) /* PLAYER_DEATH_EVENT */;
@@ -170,7 +170,7 @@ VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'Magic swirls arou
      , (@parent_id,  1,  19 /* CastSpellInstant */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 157 /* Summon Primary Portal I */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (7433,  5 /* HeartBeat */,   0.09, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (7433,  5 /* HeartBeat */,   0.09, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

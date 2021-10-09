@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12492,   1, 'East Sawato Settlement Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12492,   1,   33554867) /* Setup */
-     , (12492,   2,  150994947) /* MotionTable */
-     , (12492,   8,  100667499) /* Icon */;
+VALUES (12492,   1, 0x020001B3) /* Setup */
+     , (12492,   2, 0x09000003) /* MotionTable */
+     , (12492,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12492, 2, 3478913048, 69.258, 182.433, 20.005, 0.06312184, 0, 0, -0.9980058) /* Destination */
-/* @teleloc 0xCF5C0018 [69.258000 182.433000 20.005000] 0.063122 0.000000 0.000000 -0.998006 */;
+VALUES (12492, 2, 0xCF5C0018, 69.258, 182.433, 20.005, 0.063122, 0, 0, -0.998006) /* Destination */
+/* @teleloc 0xCF5C0018 [69.258003 182.432999 20.004999] 0.063122 0.000000 0.000000 -0.998006 */;

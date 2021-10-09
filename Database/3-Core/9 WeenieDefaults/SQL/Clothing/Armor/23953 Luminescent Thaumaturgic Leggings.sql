@@ -47,21 +47,21 @@ VALUES (23953,   1, 'Luminescent Thaumaturgic Leggings') /* Name */
      , (23953,  16, 'A richly enchanted and ornate pair of leggings once worn by the Sentinels of Perfect Light, an order dedicated to aiding Lord Asheron against the darkness.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23953,   1,   33554856) /* Setup */
-     , (23953,   3,  536870932) /* SoundTable */
-     , (23953,   6,   67108990) /* PaletteBase */
-     , (23953,   7,  268436559) /* ClothingBase */
-     , (23953,   8,  100674142) /* Icon */
-     , (23953,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23953,   1, 0x020001A8) /* Setup */
+     , (23953,   3, 0x20000014) /* SoundTable */
+     , (23953,   6, 0x0400007E) /* PaletteBase */
+     , (23953,   7, 0x1000044F) /* ClothingBase */
+     , (23953,   8, 0x06002A5E) /* Icon */
+     , (23953,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23953,  1337,      2)  /* Strength Other VI */
-     , (23953,  2350,      2)  /* Greater Decay Durance */
-     , (23953,  2351,      2)  /* Greater Consumption Durance */
-     , (23953,  2352,      2)  /* Greater Stasis Durance */
-     , (23953,  2353,      2)  /* Greater Stimulation Durance */
-     , (23953,  2379,      2)  /* Beast Whisper */
+VALUES (23953,  2350,      2)  /* Greater Decay Durance */
      , (23953,  2948,      2)  /* Hieromancer's Great Ward */
+     , (23953,  2379,      2)  /* Beast Whisper */
      , (23953,  2960,      2)  /* Greater Bludgeoning Durance */
+     , (23953,  2351,      2)  /* Greater Consumption Durance */
      , (23953,  2961,      2)  /* Greater Piercing Durance */
-     , (23953,  2962,      2)  /* Greater Slashing Durance */;
+     , (23953,  2352,      2)  /* Greater Stasis Durance */
+     , (23953,  2962,      2)  /* Greater Slashing Durance */
+     , (23953,  2353,      2)  /* Greater Stimulation Durance */
+     , (23953,  1337,      2)  /* Strength Other VI */;

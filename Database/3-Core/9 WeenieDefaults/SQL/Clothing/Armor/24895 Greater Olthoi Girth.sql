@@ -41,11 +41,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24895,   1, 'Greater Olthoi Girth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24895,   1,   33554647) /* Setup */
-     , (24895,   3,  536870932) /* SoundTable */
-     , (24895,   6,   67108990) /* PaletteBase */
-     , (24895,   7,  268436655) /* ClothingBase */
-     , (24895,   8,  100674600) /* Icon */
-     , (24895,  22,  872415275) /* PhysicsEffectTable */
-     , (24895,  36,  234881046) /* MutateFilter */
-     , (24895,  46,  939524130) /* TsysMutationFilter */;
+VALUES (24895,   1, 0x020000D7) /* Setup */
+     , (24895,   3, 0x20000014) /* SoundTable */
+     , (24895,   6, 0x0400007E) /* PaletteBase */
+     , (24895,   7, 0x100004AF) /* ClothingBase */
+     , (24895,   8, 0x06002C28) /* Icon */
+     , (24895,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24895,  36, 0x0E000016) /* MutateFilter */
+     , (24895,  46, 0x38000022) /* TsysMutationFilter */;

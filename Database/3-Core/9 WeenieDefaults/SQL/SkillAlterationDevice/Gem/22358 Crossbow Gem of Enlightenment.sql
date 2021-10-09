@@ -13,7 +13,7 @@ VALUES (22358,   1,       2048) /* ItemType - Gem */
      , (22358,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22358, 114,          1) /* Attuned - Attuned */
      , (22358, 185,          1) /* TypeOfAlteration */
-     , (22358, 186,          3) /* SkillToBeAltered */;
+     , (22358, 186,          3) /* SkillToBeAltered - Crossbow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22358,  22, True ) /* Inscribable */
@@ -25,8 +25,8 @@ VALUES (22358,   1, 'Crossbow Gem of Enlightenment') /* Name */
      , (22358,  33, 'SkillAlterationGemPickedUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22358,   1,   33558088) /* Setup */
-     , (22358,   6,   67111919) /* PaletteBase */
-     , (22358,   7,  268435723) /* ClothingBase */
-     , (22358,   8,  100673788) /* Icon */
-     , (22358,  50,  100673762) /* IconOverlay */;
+VALUES (22358,   1, 0x02000E48) /* Setup */
+     , (22358,   6, 0x04000BEF) /* PaletteBase */
+     , (22358,   7, 0x1000010B) /* ClothingBase */
+     , (22358,   8, 0x060028FC) /* Icon */
+     , (22358,  50, 0x060028E2) /* IconOverlay */;

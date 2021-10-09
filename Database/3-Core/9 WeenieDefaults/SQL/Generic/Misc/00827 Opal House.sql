@@ -22,7 +22,7 @@ VALUES (827,   1, 'Opal House') /* Name */
      , (827,  16, 'Opal House') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (827,   1,   33555088) /* Setup */
-     , (827,   6,   67111092) /* PaletteBase */
-     , (827,   7,  268435659) /* ClothingBase */
-     , (827,   8,  100668115) /* Icon */;
+VALUES (827,   1, 0x02000290) /* Setup */
+     , (827,   6, 0x040008B4) /* PaletteBase */
+     , (827,   7, 0x100000CB) /* ClothingBase */
+     , (827,   8, 0x060012D3) /* Icon */;

@@ -28,10 +28,10 @@ VALUES (8263,   1, 'Tumideon Obsidian Shard') /* Name */
      , (8263,  16, 'A piece of obsidian etched with arcane symbols.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8263,   1,   33555391) /* Setup */
-     , (8263,   3,  536870932) /* SoundTable */
-     , (8263,   8,  100671184) /* Icon */
-     , (8263,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8263,   1, 0x020003BF) /* Setup */
+     , (8263,   3, 0x20000014) /* SoundTable */
+     , (8263,   8, 0x06001ED0) /* Icon */
+     , (8263,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (8263, 1, 1000);

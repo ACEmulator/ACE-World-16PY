@@ -22,7 +22,7 @@ VALUES (4518,   1, 'The Nanto Scribe') /* Name */
      , (4518,  16, 'Lashi Oi, The Nanto Scribe') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4518,   1,   33555594) /* Setup */
-     , (4518,   6,   67111782) /* PaletteBase */
-     , (4518,   7,  268435692) /* ClothingBase */
-     , (4518,   8,  100668115) /* Icon */;
+VALUES (4518,   1, 0x0200048A) /* Setup */
+     , (4518,   6, 0x04000B66) /* PaletteBase */
+     , (4518,   7, 0x100000EC) /* ClothingBase */
+     , (4518,   8, 0x060012D3) /* Icon */;

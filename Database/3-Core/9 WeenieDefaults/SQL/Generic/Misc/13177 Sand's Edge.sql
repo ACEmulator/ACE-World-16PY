@@ -22,5 +22,5 @@ VALUES (13177,   1, 'Sand''s Edge') /* Name */
      , (13177,  16, 'Welcome to Sand''s Edge') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13177,   1,   33557463) /* Setup */
-     , (13177,   8,  100668115) /* Icon */;
+VALUES (13177,   1, 0x02000BD7) /* Setup */
+     , (13177,   8, 0x060012D3) /* Icon */;

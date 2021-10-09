@@ -71,13 +71,13 @@ VALUES (11407,   1, 'Aun Mireona the Shopkeep') /* Name */
      , (11407,  24, 'Timaru') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11407,   1,   33557117) /* Setup */
-     , (11407,   2,  150994954) /* MotionTable */
-     , (11407,   3,  536870931) /* SoundTable */
-     , (11407,   4,  805306380) /* CombatTable */
-     , (11407,   6,   67113280) /* PaletteBase */
-     , (11407,   7,  268436193) /* ClothingBase */
-     , (11407,   8,  100671756) /* Icon */;
+VALUES (11407,   1, 0x02000A7D) /* Setup */
+     , (11407,   2, 0x0900000A) /* MotionTable */
+     , (11407,   3, 0x20000013) /* SoundTable */
+     , (11407,   4, 0x3000000C) /* CombatTable */
+     , (11407,   6, 0x04001140) /* PaletteBase */
+     , (11407,   7, 0x100002E1) /* ClothingBase */
+     , (11407,   8, 0x0600210C) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11407,   1,  80, 0, 0) /* Strength */
@@ -93,9 +93,9 @@ VALUES (11407,   1,    10, 0, 0, 55) /* MaxHealth */
      , (11407,   5,    10, 0, 0, 70) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (11407,  6, 0, 2, 0,   2, 0, 737.625663071927) /* MeleeDefense        Trained */
-     , (11407,  7, 0, 2, 0,   2, 0, 737.625663071927) /* MissileDefense      Trained */
-     , (11407, 13, 0, 2, 0,   2, 0, 737.625663071927) /* UnarmedCombat       Trained */;
+VALUES (11407,  6, 0, 2, 0,   2, 0, 737.6256630719266) /* MeleeDefense        Trained */
+     , (11407,  7, 0, 2, 0,   2, 0, 737.6256630719266) /* MissileDefense      Trained */
+     , (11407, 13, 0, 2, 0,   2, 0, 737.6256630719266) /* UnarmedCombat       Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (11407,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -147,7 +147,7 @@ VALUES (11407, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'MaraeFinalRewar
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 318767229 /* BowDeep */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x1300007D /* BowDeep */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  1,  18 /* DirectBroadcast */, 1, 1, NULL, 'Aun Mireona tells you, "Queenslayer %s. To see you does this heart of mine much good. If you are here, Timaru is safe."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)

@@ -23,7 +23,7 @@ VALUES (6869,   1, 'Jewel of the Desert') /* Name */
      , (6869,  16, 'The Jewel of the Desert') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6869,   1,   33555909) /* Setup */
-     , (6869,   6,   67111860) /* PaletteBase */
-     , (6869,   7,  268435823) /* ClothingBase */
-     , (6869,   8,  100668115) /* Icon */;
+VALUES (6869,   1, 0x020005C5) /* Setup */
+     , (6869,   6, 0x04000BB4) /* PaletteBase */
+     , (6869,   7, 0x1000016F) /* ClothingBase */
+     , (6869,   8, 0x060012D3) /* Icon */;

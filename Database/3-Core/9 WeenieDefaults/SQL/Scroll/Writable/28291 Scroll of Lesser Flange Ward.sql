@@ -24,7 +24,7 @@ VALUES (28291,   1, 'Scroll of Lesser Flange Ward') /* Name */
      , (28291,  15, 'When learned, this spell reduces damage that all fellowship members take from Bludgeoning by 43%.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28291,   1,   33554826) /* Setup */
-     , (28291,   8,  100676952) /* Icon */
-     , (28291,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28291,   1, 0x0200018A) /* Setup */
+     , (28291,   8, 0x06003558) /* Icon */
+     , (28291,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28291,  28,       3328) /* Spell - Lesser Flange Ward */;

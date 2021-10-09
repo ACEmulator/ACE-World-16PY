@@ -29,7 +29,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23679,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23679,   5,       0) /* ManaRate */
+VALUES (23679,   5,      -0) /* ManaRate */
      , (23679,  21,    0.52) /* WeaponLength */
      , (23679,  22,    0.75) /* DamageVariance */
      , (23679,  29,       1) /* WeaponDefense */
@@ -39,14 +39,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23679,   1, 'Nekode') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23679,   1,   33555996) /* Setup */
-     , (23679,   3,  536870932) /* SoundTable */
-     , (23679,   6,   67111919) /* PaletteBase */
-     , (23679,   7,  268435828) /* ClothingBase */
-     , (23679,   8,  100670026) /* Icon */
-     , (23679,  22,  872415275) /* PhysicsEffectTable */
-     , (23679,  36,  234881053) /* MutateFilter */
-     , (23679,  46,  939524102) /* TsysMutationFilter */;
+VALUES (23679,   1, 0x0200061C) /* Setup */
+     , (23679,   3, 0x20000014) /* SoundTable */
+     , (23679,   6, 0x04000BEF) /* PaletteBase */
+     , (23679,   7, 0x10000174) /* ClothingBase */
+     , (23679,   8, 0x06001A4A) /* Icon */
+     , (23679,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (23679,  36, 0x0E00001D) /* MutateFilter */
+     , (23679,  46, 0x38000006) /* TsysMutationFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23679,  1616,      2)  /* Aura of Blood Drinker Self VI */

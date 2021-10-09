@@ -45,16 +45,16 @@ VALUES (26599,   1, 'Esorcelled Falchion') /* Name */
      , (26599,  15, 'A strange blade once used by the Falatacot.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26599,   1,   33558592) /* Setup */
-     , (26599,   3,  536870932) /* SoundTable */
-     , (26599,   6,   67114956) /* PaletteBase */
-     , (26599,   7,  268436792) /* ClothingBase */
-     , (26599,   8,  100675773) /* Icon */
-     , (26599,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (26599,   1, 0x02001040) /* Setup */
+     , (26599,   3, 0x20000014) /* SoundTable */
+     , (26599,   6, 0x040017CC) /* PaletteBase */
+     , (26599,   7, 0x10000538) /* ClothingBase */
+     , (26599,   8, 0x060030BD) /* Icon */
+     , (26599,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26599,  1359,      2)  /* Endurance Other V */
-     , (26599,  1603,      2)  /* Aura of Defender Self IV */
+VALUES (26599,  1603,      2)  /* Aura of Defender Self IV */
+     , (26599,  1359,      2)  /* Endurance Other V */
+     , (26599,  2683,      2)  /* Feeble Heavy Weapon Aptitude */
      , (26599,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (26599,  1625,      2)  /* Aura of Swift Killer Self IV */
-     , (26599,  2683,      2)  /* Feeble Heavy Weapon Aptitude */;
+     , (26599,  1625,      2)  /* Aura of Swift Killer Self IV */;

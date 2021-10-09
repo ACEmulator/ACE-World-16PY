@@ -65,12 +65,12 @@ VALUES (22512,   1, 'Tusker Minion') /* Name */
      , (22512,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22512,   1,   33554433) /* Setup */
-     , (22512,   2,  150994945) /* MotionTable */
-     , (22512,   3,  536870913) /* SoundTable */
-     , (22512,   4,  805306368) /* CombatTable */
-     , (22512,   8,  100667446) /* Icon */
-     , (22512,  22,  872415236) /* PhysicsEffectTable */
+VALUES (22512,   1, 0x02000001) /* Setup */
+     , (22512,   2, 0x09000001) /* MotionTable */
+     , (22512,   3, 0x20000001) /* SoundTable */
+     , (22512,   4, 0x30000000) /* CombatTable */
+     , (22512,   8, 0x06001036) /* Icon */
+     , (22512,  22, 0x34000004) /* PhysicsEffectTable */
      , (22512,  32,        416) /* WieldedTreasureType - 
                                    Wield Clean, Dry Towel (10758) | Palette: Blue (2) | Probability: 50%
                                    Wield Clean, Dry Towel (10758) | Palette: Green (8) | Probability: 50% */
@@ -90,17 +90,17 @@ VALUES (22512,   1,    55, 0, 0, 90) /* MaxHealth */
      , (22512,   5,    30, 0, 0, 190) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (22512,  4, 0, 3, 0, 108, 0, 1357.15885457065) /* Dagger              Specialized */
-     , (22512,  6, 0, 3, 0,  85, 0, 1357.15885457065) /* MeleeDefense        Specialized */
-     , (22512,  7, 0, 3, 0, 180, 0, 1357.15885457065) /* MissileDefense      Specialized */
-     , (22512, 11, 0, 3, 0, 108, 0, 1357.15885457065) /* Sword               Specialized */
-     , (22512, 15, 0, 3, 0, 100, 0, 1357.15885457065) /* MagicDefense        Specialized */
-     , (22512, 20, 0, 3, 0, 150, 0, 1357.15885457065) /* Deception           Specialized */
-     , (22512, 24, 0, 3, 0,  20, 0, 1357.15885457065) /* Run                 Specialized */
-     , (22512, 31, 0, 3, 0,  75, 0, 1357.15885457065) /* CreatureEnchantment Specialized */
-     , (22512, 32, 0, 3, 0,  75, 0, 1357.15885457065) /* ItemEnchantment     Specialized */
-     , (22512, 33, 0, 3, 0,  75, 0, 1357.15885457065) /* LifeMagic           Specialized */
-     , (22512, 34, 0, 3, 0,  75, 0, 1357.15885457065) /* WarMagic            Specialized */;
+VALUES (22512,  4, 0, 3, 0, 108, 0, 1357.1588545706472) /* Dagger              Specialized */
+     , (22512,  6, 0, 3, 0,  85, 0, 1357.1588545706472) /* MeleeDefense        Specialized */
+     , (22512,  7, 0, 3, 0, 180, 0, 1357.1588545706472) /* MissileDefense      Specialized */
+     , (22512, 11, 0, 3, 0, 108, 0, 1357.1588545706472) /* Sword               Specialized */
+     , (22512, 15, 0, 3, 0, 100, 0, 1357.1588545706472) /* MagicDefense        Specialized */
+     , (22512, 20, 0, 3, 0, 150, 0, 1357.1588545706472) /* Deception           Specialized */
+     , (22512, 24, 0, 3, 0,  20, 0, 1357.1588545706472) /* Run                 Specialized */
+     , (22512, 31, 0, 3, 0,  75, 0, 1357.1588545706472) /* CreatureEnchantment Specialized */
+     , (22512, 32, 0, 3, 0,  75, 0, 1357.1588545706472) /* ItemEnchantment     Specialized */
+     , (22512, 33, 0, 3, 0,  75, 0, 1357.1588545706472) /* LifeMagic           Specialized */
+     , (22512, 34, 0, 3, 0,  75, 0, 1357.1588545706472) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (22512,  0,  4,  0,    0,  200,  180,  200,  220,   80,   80,  200,  120,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -114,16 +114,16 @@ VALUES (22512,  0,  4,  0,    0,  200,  180,  200,  220,   80,   80,  200,  120,
      , (22512,  8,  4,  2, 0.75,  200,  180,  200,  220,   80,   80,  200,  120,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22512,    60,   2.12)  /* Acid Stream III */
+VALUES (22512,  1309,      2)  /* Armor Self III */
+     , (22512,    82,   2.12)  /* Flame Bolt III */
      , (22512,    66,   2.12)  /* Shock Wave III */
+     , (22512,  1324,   2.12)  /* Imperil Other III */
      , (22512,    71,   2.12)  /* Frost Bolt III */
      , (22512,    77,   2.12)  /* Lightning Bolt III */
-     , (22512,    82,   2.12)  /* Flame Bolt III */
      , (22512,    88,   2.12)  /* Force Bolt III */
      , (22512,    94,   2.12)  /* Whirling Blade III */
      , (22512,  1050,   2.04)  /* Bludgeoning Vulnerability Other III */
-     , (22512,  1309,      2)  /* Armor Self III */
-     , (22512,  1324,   2.12)  /* Imperil Other III */;
+     , (22512,    60,   2.12)  /* Acid Stream III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (22512,  94) /* ATTACK_NOTIFICATION_EVENT */

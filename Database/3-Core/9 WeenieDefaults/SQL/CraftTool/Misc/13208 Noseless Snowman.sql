@@ -34,5 +34,5 @@ VALUES (13208,   1, 'Noseless Snowman') /* Name */
      , (13208,  16, 'A partially constructed snowman. Looks like it''s missing a nose.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13208,   1,   33557447) /* Setup */
-     , (13208,   8,  100672419) /* Icon */;
+VALUES (13208,   1, 0x02000BC7) /* Setup */
+     , (13208,   8, 0x060023A3) /* Icon */;

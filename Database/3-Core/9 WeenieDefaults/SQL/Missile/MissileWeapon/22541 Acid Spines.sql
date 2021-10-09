@@ -22,7 +22,7 @@ VALUES (22541,   1,        256) /* ItemType - MissileWeapon */
      , (22541,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (22541,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (22541,  49,         10) /* WeaponTime */
-     , (22541,  51,          2) /* CombatUse - Missle */
+     , (22541,  51,          2) /* CombatUse - Missile */
      , (22541,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -44,7 +44,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22541,   1, 'Acid Spines') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22541,   1,   33558114) /* Setup */
-     , (22541,   3,  536870932) /* SoundTable */
-     , (22541,   8,  100671205) /* Icon */
-     , (22541,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22541,   1, 0x02000E62) /* Setup */
+     , (22541,   3, 0x20000014) /* SoundTable */
+     , (22541,   8, 0x06001EE5) /* Icon */
+     , (22541,  22, 0x3400002B) /* PhysicsEffectTable */;

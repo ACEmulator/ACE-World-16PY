@@ -24,7 +24,7 @@ VALUES (22858,   1, 'Tumerok Torch') /* Name */
      , (22858,  14, 'This item can be used on floor and yard hooks.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22858,   1,   33557177) /* Setup */
-     , (22858,   3,  536870932) /* SoundTable */
-     , (22858,   8,  100673919) /* Icon */
-     , (22858,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22858,   1, 0x02000AB9) /* Setup */
+     , (22858,   3, 0x20000014) /* SoundTable */
+     , (22858,   8, 0x0600297F) /* Icon */
+     , (22858,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10990,   1, 'Fort Tethana House Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10990,   1,   33554867) /* Setup */
-     , (10990,   2,  150994947) /* MotionTable */
-     , (10990,   8,  100667499) /* Icon */;
+VALUES (10990,   1, 0x020001B3) /* Setup */
+     , (10990,   2, 0x09000003) /* MotionTable */
+     , (10990,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10990, 2, 645988381, 77.7, 108.1, 240, -0.5224985, 0, 0, -0.8526402) /* Destination */
-/* @teleloc 0x2681001D [77.700000 108.100000 240.000000] -0.522499 0.000000 0.000000 -0.852640 */;
+VALUES (10990, 2, 0x2681001D, 77.7, 108.1, 240, -0.522499, 0, -0, -0.85264) /* Destination */
+/* @teleloc 0x2681001D [77.699997 108.099998 240.000000] -0.522498 0.000000 -0.000000 -0.852640 */;

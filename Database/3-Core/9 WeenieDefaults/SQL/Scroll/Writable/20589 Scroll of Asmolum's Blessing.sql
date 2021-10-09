@@ -24,7 +24,7 @@ VALUES (20589,   1, 'Scroll of Asmolum''s Blessing') /* Name */
      , (20589,  15, 'When learned, this spell increases the caster''s Thrown Weapons skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20589,   1,   33554826) /* Setup */
-     , (20589,   8,  100676476) /* Icon */
-     , (20589,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20589,   1, 0x0200018A) /* Setup */
+     , (20589,   8, 0x0600337C) /* Icon */
+     , (20589,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20589,  28,       2313) /* Spell - Missile Weapon Mastery Self VII */;

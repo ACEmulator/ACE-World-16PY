@@ -23,10 +23,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15278,   1, 'Wedding Pressure Plate') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15278,   1,   33557621) /* Setup */
-     , (15278,   2,  150995177) /* MotionTable */
-     , (15278,   8,  100672699) /* Icon */
+VALUES (15278,   1, 0x02000C75) /* Setup */
+     , (15278,   2, 0x090000E9) /* MotionTable */
+     , (15278,   8, 0x060024BB) /* Icon */
      , (15278,  23,        149) /* UseSound - TriggerActivated */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15278,  16,          0) /* ActivationTarget */;
+VALUES (15278,  16, 0x00000000) /* ActivationTarget */;

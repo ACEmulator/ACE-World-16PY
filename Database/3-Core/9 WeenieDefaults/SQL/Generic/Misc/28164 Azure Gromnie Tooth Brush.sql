@@ -28,7 +28,7 @@ VALUES (28164,   1, 'Azure Gromnie Tooth Brush') /* Name */
      , (28164,  16, 'A brush made from the tooth of an azure gromnie.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28164,   1,   33554817) /* Setup */
-     , (28164,   6,   67111919) /* PaletteBase */
-     , (28164,   7,  268435832) /* ClothingBase */
-     , (28164,   8,  100676769) /* Icon */;
+VALUES (28164,   1, 0x02000181) /* Setup */
+     , (28164,   6, 0x04000BEF) /* PaletteBase */
+     , (28164,   7, 0x10000178) /* ClothingBase */
+     , (28164,   8, 0x060034A1) /* Icon */;

@@ -22,5 +22,5 @@ VALUES (15213,   1, 'Caerlin Cottages') /* Name */
      , (15213,  16, 'Welcome to Caerlin Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15213,   1,   33557463) /* Setup */
-     , (15213,   8,  100668115) /* Icon */;
+VALUES (15213,   1, 0x02000BD7) /* Setup */
+     , (15213,   8, 0x060012D3) /* Icon */;

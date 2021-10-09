@@ -21,12 +21,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4285,   1, 'Drudge Skulker Camp Generator') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4285,   1,   33555051) /* Setup */
-     , (4285,   8,  100667494) /* Icon */;
+VALUES (4285,   1, 0x0200026B) /* Setup */
+     , (4285,   8, 0x06001066) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4285, 0.2, 7, 1800, 1, -1, 1, 4, -1, 0, 0, 0, 4, 0, 0, 0.8870108, 0, 0, -0.4617486) /* Generate Drudge Skulker (7) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (4285, 0.4, 7, 1800, 1, -1, 1, 4, -1, 0, 0, 0, 2.4, 2.4, 0, 0.9396926, 0, 0, -0.3420201) /* Generate Drudge Skulker (7) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (4285, 0.6, 7, 1800, 1, -1, 1, 4, -1, 0, 0, 0, 2.4, -2.4, 0, -4.371139E-08, 0, 0, -1) /* Generate Drudge Skulker (7) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (4285, 0.8, 7, 1800, 1, -1, 1, 4, -1, 0, 0, 0, 0, -2, 0, -4.371139E-08, 0, 0, -1) /* Generate Drudge Skulker (7) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (4285, 1, 4179, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0) /* Generate Bonfire (4179) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (4285, 0.2, 7, 1800, 1, -1, 1, 4, -1, 0, 0, 0, 4, 0, 0, 0.887011, 0, 0, -0.461749) /* Generate Drudge Skulker (7) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (4285, 0.4, 7, 1800, 1, -1, 1, 4, -1, 0, 0, 0, 2.4, 2.4, 0, 0.939693, 0, 0, -0.34202) /* Generate Drudge Skulker (7) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (4285, 0.6, 7, 1800, 1, -1, 1, 4, -1, 0, 0, 0, 2.4, -2.4, 0, -0, 0, -0, -1) /* Generate Drudge Skulker (7) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (4285, 0.8, 7, 1800, 1, -1, 1, 4, -1, 0, 0, 0, 0, -2, 0, -0, 0, -0, -1) /* Generate Drudge Skulker (7) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (4285, 1, 4179, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 1, 0, 0, 1, 0, 0, -0) /* Generate Bonfire (4179) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

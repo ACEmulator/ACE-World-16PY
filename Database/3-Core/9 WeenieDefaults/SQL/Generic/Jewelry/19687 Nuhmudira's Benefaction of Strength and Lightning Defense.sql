@@ -41,15 +41,15 @@ VALUES (19687,   1, 'Nuhmudira''s Benefaction of Strength and Lightning Defense'
      , (19687,  16, 'A green gorget, crafted from a strong metal, imbued with an elixir of might and elixir of autumn. As you hold the gorget in your hand you feel a soft vibration.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19687,   1,   33554687) /* Setup */
-     , (19687,   3,  536870932) /* SoundTable */
-     , (19687,   6,   67111919) /* PaletteBase */
-     , (19687,   7,  268436388) /* ClothingBase */
-     , (19687,   8,  100668632) /* Icon */
-     , (19687,  22,  872415275) /* PhysicsEffectTable */
-     , (19687,  36,  234881046) /* MutateFilter */;
+VALUES (19687,   1, 0x020000FF) /* Setup */
+     , (19687,   3, 0x20000014) /* SoundTable */
+     , (19687,   6, 0x04000BEF) /* PaletteBase */
+     , (19687,   7, 0x100003A4) /* ClothingBase */
+     , (19687,   8, 0x060014D8) /* Icon */
+     , (19687,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (19687,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19687,  1074,      2)  /* Lightning Protection Other III */
-     , (19687,  1334,      2)  /* Strength Other III */
-     , (19687,  2668,      2)  /* Nuhmudiras Benefaction */;
+     , (19687,  2668,      2)  /* Nuhmudiras Benefaction */
+     , (19687,  1334,      2)  /* Strength Other III */;

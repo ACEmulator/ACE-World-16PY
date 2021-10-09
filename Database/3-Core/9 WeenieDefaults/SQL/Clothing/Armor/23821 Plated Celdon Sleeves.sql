@@ -32,7 +32,7 @@ VALUES (23821,  22, True ) /* Inscribable */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23821,   5,  -0.025) /* ManaRate */
-     , (23821,  12, 0.232225) /* Shade */
+     , (23821,  12,   0.232) /* Shade */
      , (23821,  13,     1.3) /* ArmorModVsSlash */
      , (23821,  14,       1) /* ArmorModVsPierce */
      , (23821,  15,       1) /* ArmorModVsBludgeon */
@@ -47,12 +47,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23821,   1, 'Plated Celdon Sleeves') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23821,   1,   33554655) /* Setup */
-     , (23821,   3,  536870932) /* SoundTable */
-     , (23821,   6,   67108990) /* PaletteBase */
-     , (23821,   7,  268435847) /* ClothingBase */
-     , (23821,   8,  100674072) /* Icon */
-     , (23821,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23821,   1, 0x020000DF) /* Setup */
+     , (23821,   3, 0x20000014) /* SoundTable */
+     , (23821,   6, 0x0400007E) /* PaletteBase */
+     , (23821,   7, 0x10000187) /* ClothingBase */
+     , (23821,   8, 0x06002A18) /* Icon */
+     , (23821,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23821,  2610,      2)  /* Major Bludgeoning Ward */;

@@ -22,5 +22,5 @@ VALUES (12586,   1, 'Broadacre Cottages') /* Name */
      , (12586,  16, 'Welcome to Broadacre Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12586,   1,   33557463) /* Setup */
-     , (12586,   8,  100668115) /* Icon */;
+VALUES (12586,   1, 0x02000BD7) /* Setup */
+     , (12586,   8, 0x060012D3) /* Icon */;

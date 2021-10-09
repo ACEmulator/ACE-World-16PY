@@ -26,7 +26,7 @@ VALUES (5498,   1, 'Water of Lethe') /* Name */
      , (5498,  33, 'TakeWaterLethe') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5498,   1,   33554603) /* Setup */
-     , (5498,   3,  536870932) /* SoundTable */
-     , (5498,   8,  100669972) /* Icon */
-     , (5498,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5498,   1, 0x020000AB) /* Setup */
+     , (5498,   3, 0x20000014) /* SoundTable */
+     , (5498,   8, 0x06001A14) /* Icon */
+     , (5498,  22, 0x3400002B) /* PhysicsEffectTable */;

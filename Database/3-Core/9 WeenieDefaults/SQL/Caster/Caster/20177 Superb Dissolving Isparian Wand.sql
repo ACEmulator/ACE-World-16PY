@@ -41,18 +41,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20177,   1, 'Superb Dissolving Isparian Wand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20177,   1,   33557784) /* Setup */
-     , (20177,   3,  536870932) /* SoundTable */
-     , (20177,   6,   67111919) /* PaletteBase */
-     , (20177,   7,  268436395) /* ClothingBase */
-     , (20177,   8,  100672995) /* Icon */
-     , (20177,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20177,   1, 0x02000D18) /* Setup */
+     , (20177,   3, 0x20000014) /* SoundTable */
+     , (20177,   6, 0x04000BEF) /* PaletteBase */
+     , (20177,   7, 0x100003AB) /* ClothingBase */
+     , (20177,   8, 0x060025E3) /* Icon */
+     , (20177,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20177,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20177,   518,      2)  /* Acid Protection Self IV */
-     , (20177,   608,      2)  /* Life Magic Mastery Self IV */
+VALUES (20177,   608,      2)  /* Life Magic Mastery Self IV */
+     , (20177,  2560,      2)  /* Minor Mana Conversion Prowess */
+     , (20177,   518,      2)  /* Acid Protection Self IV */
      , (20177,   657,      2)  /* Mana Conversion Mastery Self V */
-     , (20177,  1425,      2)  /* Focus Self V */
      , (20177,  1449,      2)  /* Willpower Self V */
-     , (20177,  2560,      2)  /* Minor Mana Conversion Prowess */;
+     , (20177,  1425,      2)  /* Focus Self V */;

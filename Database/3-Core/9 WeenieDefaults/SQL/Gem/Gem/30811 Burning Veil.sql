@@ -38,11 +38,11 @@ VALUES (30811,   1, 'Burning Veil') /* Name */
      , (30811,  15, 'A horribly damaged crown decorated with a handful of sparkling gems.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30811,   1,   33554685) /* Setup */
-     , (30811,   3,  536870932) /* SoundTable */
-     , (30811,   6,   67108990) /* PaletteBase */
-     , (30811,   7,  268435509) /* ClothingBase */
-     , (30811,   8,  100677493) /* Icon */
-     , (30811,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30811,   1, 0x020000FD) /* Setup */
+     , (30811,   3, 0x20000014) /* SoundTable */
+     , (30811,   6, 0x0400007E) /* PaletteBase */
+     , (30811,   7, 0x10000035) /* ClothingBase */
+     , (30811,   8, 0x06003775) /* Icon */
+     , (30811,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30811,  28,        157) /* Spell - Summon Primary Portal I */
      , (30811,  31,      30821) /* LinkedPortalOne - Center of the Singularity Caul */;

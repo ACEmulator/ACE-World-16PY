@@ -22,5 +22,5 @@ VALUES (15218,   1, 'Dovetail Valley Villas') /* Name */
      , (15218,  16, 'Welcome to Dovetail Valley Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15218,   1,   33557463) /* Setup */
-     , (15218,   8,  100668115) /* Icon */;
+VALUES (15218,   1, 0x02000BD7) /* Setup */
+     , (15218,   8, 0x060012D3) /* Icon */;

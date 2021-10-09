@@ -30,7 +30,7 @@ VALUES (5778,   1, 'Whittling Knife') /* Name */
      , (5778,  20, 'Whittling Knives') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5778,   1,   33555971) /* Setup */
-     , (5778,   3,  536870932) /* SoundTable */
-     , (5778,   8,  100670317) /* Icon */
-     , (5778,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5778,   1, 0x02000603) /* Setup */
+     , (5778,   3, 0x20000014) /* SoundTable */
+     , (5778,   8, 0x06001B6D) /* Icon */
+     , (5778,  22, 0x3400002B) /* PhysicsEffectTable */;

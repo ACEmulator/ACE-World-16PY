@@ -28,7 +28,7 @@ VALUES (29854,   1, 'Strand Siraluun Claw Scissors') /* Name */
      , (29854,  16, 'A pair of scissors made from the claw of a Strand Siraluun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29854,   1,   33554817) /* Setup */
-     , (29854,   6,   67111919) /* PaletteBase */
-     , (29854,   7,  268435832) /* ClothingBase */
-     , (29854,   8,  100677320) /* Icon */;
+VALUES (29854,   1, 0x02000181) /* Setup */
+     , (29854,   6, 0x04000BEF) /* PaletteBase */
+     , (29854,   7, 0x10000178) /* ClothingBase */
+     , (29854,   8, 0x060036C8) /* Icon */;

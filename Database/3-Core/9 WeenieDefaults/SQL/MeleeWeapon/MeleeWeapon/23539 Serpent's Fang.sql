@@ -44,15 +44,15 @@ VALUES (23539,   1, 'Serpent''s Fang') /* Name */
      , (23539,  16, 'A spear crafted in the semblance of a large snake.  The eyes seem to be crafted from some sort of gems, and acid drips from the fangs.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23539,   1,   33557337) /* Setup */
-     , (23539,   3,  536870932) /* SoundTable */
-     , (23539,   8,  100674087) /* Icon */
-     , (23539,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23539,   1, 0x02000B59) /* Setup */
+     , (23539,   3, 0x20000014) /* SoundTable */
+     , (23539,   8, 0x06002A27) /* Icon */
+     , (23539,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23539,   248,      2)  /* Invulnerability Self V */
+VALUES (23539,  1605,      2)  /* Aura of Defender Self VI */
      , (23539,  1592,      2)  /* Aura of Heart Seeker Self VI */
-     , (23539,  1605,      2)  /* Aura of Defender Self VI */
-     , (23539,  1616,      2)  /* Aura of Blood Drinker Self VI */
      , (23539,  1624,      2)  /* Aura of Swift Killer Self III */
+     , (23539,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (23539,   248,      2)  /* Invulnerability Self V */
      , (23539,  2005,      2)  /* Warrior's Greater Vitality */;

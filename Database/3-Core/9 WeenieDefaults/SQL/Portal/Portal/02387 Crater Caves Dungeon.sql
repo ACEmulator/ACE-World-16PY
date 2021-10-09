@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2387,   1, 'Crater Caves Dungeon') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2387,   1,   33555926) /* Setup */
-     , (2387,   2,  150994947) /* MotionTable */
-     , (2387,   8,  100667499) /* Icon */;
+VALUES (2387,   1, 0x020005D6) /* Setup */
+     , (2387,   2, 0x09000003) /* MotionTable */
+     , (2387,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2387, 2, 26870474, 40, -150, 0, -0.04361942, 0, 0, -0.9990482) /* Destination */
-/* @teleloc 0x019A02CA [40.000000 -150.000000 0.000000] -0.043619 0.000000 0.000000 -0.999048 */;
+VALUES (2387, 2, 0x019A02CA, 40, -150, 0, -0.043619, 0, -0, -0.999048) /* Destination */
+/* @teleloc 0x019A02CA [40.000000 -150.000000 0.000000] -0.043619 0.000000 -0.000000 -0.999048 */;

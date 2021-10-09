@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21145,   1, 'Gaerlan''s Citadel Ground') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21145,   1,   33554867) /* Setup */
-     , (21145,   2,  150994947) /* MotionTable */
-     , (21145,   8,  100667499) /* Icon */;
+VALUES (21145,   1, 0x020001B3) /* Setup */
+     , (21145,   2, 0x09000003) /* MotionTable */
+     , (21145,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21145, 2, 3083206686, 82.445, 134.516, 244, -4.371139E-08, 0, 0, -1) /* Destination */
-/* @teleloc 0xB7C6001E [82.445000 134.516000 244.000000] 0.000000 0.000000 0.000000 -1.000000 */;
+VALUES (21145, 2, 0xB7C6001E, 82.445, 134.516, 244, -0, 0, -0, -1) /* Destination */
+/* @teleloc 0xB7C6001E [82.445000 134.516006 244.000000] -0.000000 0.000000 -0.000000 -1.000000 */;

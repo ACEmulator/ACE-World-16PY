@@ -21,7 +21,7 @@ VALUES (10997,   1,        256) /* ItemType - MissileWeapon */
      , (10997,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (10997,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (10997,  49,         40) /* WeaponTime */
-     , (10997,  51,          2) /* CombatUse - Missle */
+     , (10997,  51,          2) /* CombatUse - Missile */
      , (10997,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (10997, 150,        103) /* HookPlacement - Hook */
      , (10997, 151,          2) /* HookType - Wall */;
@@ -45,7 +45,7 @@ VALUES (10997,   1, 'Ebon Spine Harpoon') /* Name */
      , (10997,  16, 'A lightweight harpoon made from the spine of an ebon gromnie found on the Marcescent Plateau of Marae Lassel, and bound in bands of coldly glittering chorizite. This example can be used as a thrown weapon. It was crafted with fine balance by the famed Tumerok hunter Ralirea, of the Aun xuta, and rewards a talented user. The hunters of the Aun often use these weapons in hunting and fishing.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10997,   1,   33557452) /* Setup */
-     , (10997,   3,  536870932) /* SoundTable */
-     , (10997,   8,  100671860) /* Icon */
-     , (10997,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (10997,   1, 0x02000BCC) /* Setup */
+     , (10997,   3, 0x20000014) /* SoundTable */
+     , (10997,   8, 0x06002174) /* Icon */
+     , (10997,  22, 0x3400002B) /* PhysicsEffectTable */;

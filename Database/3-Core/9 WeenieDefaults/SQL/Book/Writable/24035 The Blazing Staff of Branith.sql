@@ -22,10 +22,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24035,   1, 'The Blazing Staff of Branith') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24035,   1,   33554773) /* Setup */
-     , (24035,   3,  536870932) /* SoundTable */
-     , (24035,   8,  100668176) /* Icon */
-     , (24035,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24035,   1, 0x02000155) /* Setup */
+     , (24035,   3, 0x20000014) /* SoundTable */
+     , (24035,   8, 0x06001310) /* Icon */
+     , (24035,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (24035, 2, 1000);

@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8563,   1, 'Lich') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8563,   1,   33554839) /* Setup */
-     , (8563,   2,  150994967) /* MotionTable */
-     , (8563,   3,  536870934) /* SoundTable */
-     , (8563,   4,  805306368) /* CombatTable */
-     , (8563,   6,   67110722) /* PaletteBase */
-     , (8563,   7,  268435558) /* ClothingBase */
-     , (8563,   8,  100667942) /* Icon */
-     , (8563,  22,  872415272) /* PhysicsEffectTable */
+VALUES (8563,   1, 0x02000197) /* Setup */
+     , (8563,   2, 0x09000017) /* MotionTable */
+     , (8563,   3, 0x20000016) /* SoundTable */
+     , (8563,   4, 0x30000000) /* CombatTable */
+     , (8563,   6, 0x04000742) /* PaletteBase */
+     , (8563,   7, 0x10000066) /* ClothingBase */
+     , (8563,   8, 0x06001226) /* Icon */
+     , (8563,  22, 0x34000028) /* PhysicsEffectTable */
      , (8563,  32,        336) /* WieldedTreasureType - 
                                    Wield Dericostian Longbow (8560) | Probability: 100%
                                    Wield 20x Arrow (300) | Probability: 100% */
@@ -124,30 +124,30 @@ VALUES (8563,  0,  4,  0,    0,   70,   56,   21,   39,   13,   35,   39,   47, 
      , (8563,  8,  4,  3, 0.75,   90,   72,   27,   50,   16,   45,   50,   60,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8563,    60,  2.029)  /* Acid Stream III */
-     , (8563,    61,  2.011)  /* Acid Stream IV */
+VALUES (8563,  1262,   2.02)  /* Drain Mana Other III */
+     , (8563,    82,  2.029)  /* Flame Bolt III */
      , (8563,    66,  2.029)  /* Shock Wave III */
+     , (8563,    83,  2.011)  /* Flame Bolt IV */
      , (8563,    67,  2.011)  /* Shock Wave IV */
      , (8563,    71,  2.029)  /* Frost Bolt III */
      , (8563,    72,  2.011)  /* Frost Bolt IV */
-     , (8563,    77,  2.029)  /* Lightning Bolt III */
+     , (8563,  1369,  2.009)  /* Frailty Other III */
      , (8563,    78,  2.011)  /* Lightning Bolt IV */
-     , (8563,    82,  2.029)  /* Flame Bolt III */
-     , (8563,    83,  2.011)  /* Flame Bolt IV */
+     , (8563,  1417,  2.009)  /* Slowness Other III */
+     , (8563,    77,  2.029)  /* Lightning Bolt III */
+     , (8563,  1239,   2.02)  /* Drain Health Other III */
      , (8563,    88,  2.029)  /* Force Bolt III */
      , (8563,    89,  2.011)  /* Force Bolt IV */
      , (8563,    94,  2.029)  /* Whirling Blade III */
      , (8563,    95,  2.011)  /* Whirling Blade IV */
-     , (8563,   173,  2.009)  /* Fester Other III */
-     , (8563,  1239,   2.02)  /* Drain Health Other III */
-     , (8563,  1251,   2.02)  /* Drain Stamina Other III */
-     , (8563,  1262,   2.02)  /* Drain Mana Other III */
-     , (8563,  1340,  2.009)  /* Weakness Other III */
-     , (8563,  1369,  2.009)  /* Frailty Other III */
-     , (8563,  1393,  2.009)  /* Clumsiness Other III */
-     , (8563,  1417,  2.009)  /* Slowness Other III */
      , (8563,  1441,  2.009)  /* Bafflement Other III */
-     , (8563,  1466,  2.009)  /* Feeblemind Other IV */;
+     , (8563,  1251,   2.02)  /* Drain Stamina Other III */
+     , (8563,   173,  2.009)  /* Fester Other III */
+     , (8563,  1393,  2.009)  /* Clumsiness Other III */
+     , (8563,    61,  2.011)  /* Acid Stream IV */
+     , (8563,  1466,  2.009)  /* Feeblemind Other IV */
+     , (8563,  1340,  2.009)  /* Weakness Other III */
+     , (8563,    60,  2.029)  /* Acid Stream III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (8563,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12475,   1, 'Ayn Tayan Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12475,   1,   33554867) /* Setup */
-     , (12475,   2,  150994947) /* MotionTable */
-     , (12475,   8,  100667499) /* Icon */;
+VALUES (12475,   1, 0x020001B3) /* Setup */
+     , (12475,   2, 0x09000003) /* MotionTable */
+     , (12475,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12475, 2, 3293446190, 126.536, 125.914, 29.409, 0.3598095, 0, 0, -0.9330258) /* Destination */
-/* @teleloc 0xC44E002E [126.536000 125.914000 29.409000] 0.359810 0.000000 0.000000 -0.933026 */;
+VALUES (12475, 2, 0xC44E002E, 126.536, 125.914, 29.409, 0.35981, 0, 0, -0.933026) /* Destination */
+/* @teleloc 0xC44E002E [126.536003 125.914001 29.409000] 0.359810 0.000000 0.000000 -0.933026 */;

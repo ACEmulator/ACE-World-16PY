@@ -30,10 +30,10 @@ VALUES (27260,   1, 'Tasty Pudding') /* Name */
      , (27260,  16, 'A hearty pudding made from carenzi meat and spices found on the Marescent Plateau.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27260,   1,   33555968) /* Setup */
-     , (27260,   3,  536870932) /* SoundTable */
-     , (27260,   8,  100676397) /* Icon */
-     , (27260,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27260,   1, 0x02000600) /* Setup */
+     , (27260,   3, 0x20000014) /* SoundTable */
+     , (27260,   8, 0x0600332D) /* Icon */
+     , (27260,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27260,  23,         64) /* UseSound - Eat1 */
-     , (27260,  27,  318767233) /* UseUserAnimation - MimeEat */
+     , (27260,  27, 0x13000081) /* UseUserAnimation - MimeEat */
      , (27260,  28,       3205) /* Spell - Good Eating */;

@@ -43,11 +43,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27880,   1, 'Bone Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27880,   1,   33558783) /* Setup */
-     , (27880,   3,  536870932) /* SoundTable */
-     , (27880,   8,  100676577) /* Icon */
-     , (27880,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27880,   1, 0x020010FF) /* Setup */
+     , (27880,   3, 0x20000014) /* SoundTable */
+     , (27880,   8, 0x060033E1) /* Icon */
+     , (27880,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27880,  2096,      2)  /* Aura of Infected Caress */
-     , (27880,  2116,      2)  /* Aura of Atlan's Alacrity */;
+VALUES (27880,  2116,      2)  /* Aura of Atlan's Alacrity */
+     , (27880,  2096,      2)  /* Aura of Infected Caress */;

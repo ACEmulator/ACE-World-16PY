@@ -28,9 +28,9 @@ VALUES (27900,   1, 'Mire Witch Loincloth') /* Name */
      , (27900,  33, 'MosswartExodusCloth') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27900,   1,   33554647) /* Setup */
-     , (27900,   3,  536870932) /* SoundTable */
-     , (27900,   6,   67108990) /* PaletteBase */
-     , (27900,   7,  268436831) /* ClothingBase */
-     , (27900,   8,  100676606) /* Icon */
-     , (27900,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27900,   1, 0x020000D7) /* Setup */
+     , (27900,   3, 0x20000014) /* SoundTable */
+     , (27900,   6, 0x0400007E) /* PaletteBase */
+     , (27900,   7, 0x1000055F) /* ClothingBase */
+     , (27900,   8, 0x060033FE) /* Icon */
+     , (27900,  22, 0x3400002B) /* PhysicsEffectTable */;

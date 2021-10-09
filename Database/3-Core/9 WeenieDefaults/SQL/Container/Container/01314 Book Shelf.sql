@@ -32,10 +32,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1314,   1, 'Book Shelf') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1314,   1,   33554819) /* Setup */
-     , (1314,   3,  536870932) /* SoundTable */
-     , (1314,   8,  100668246) /* Icon */
-     , (1314,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1314,   1, 0x02000183) /* Setup */
+     , (1314,   3, 0x20000014) /* SoundTable */
+     , (1314,   8, 0x06001356) /* Icon */
+     , (1314,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1314, 1, 365, 1800, 1, 5, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Parchment (365) (x1 up to max of 5) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

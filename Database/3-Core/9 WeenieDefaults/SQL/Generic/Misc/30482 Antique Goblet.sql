@@ -27,9 +27,9 @@ VALUES (30482,   1, 'Antique Goblet') /* Name */
      , (30482,  33, 'HoltburgRedoubtGoblet1204') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30482,   1,   33554663) /* Setup */
-     , (30482,   3,  536871012) /* SoundTable */
-     , (30482,   6,   67111919) /* PaletteBase */
-     , (30482,   7,  268435745) /* ClothingBase */
-     , (30482,   8,  100668672) /* Icon */
-     , (30482,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30482,   1, 0x020000E7) /* Setup */
+     , (30482,   3, 0x20000064) /* SoundTable */
+     , (30482,   6, 0x04000BEF) /* PaletteBase */
+     , (30482,   7, 0x10000121) /* ClothingBase */
+     , (30482,   8, 0x06001500) /* Icon */
+     , (30482,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -32,9 +32,9 @@ VALUES (9357,   1, 'Concentrated Victual Infusion') /* Name */
      , (9357,  20, 'Concentrated Victual Infusions') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9357,   1,   33555965) /* Setup */
-     , (9357,   3,  536870932) /* SoundTable */
-     , (9357,   6,   67111919) /* PaletteBase */
-     , (9357,   7,  268435814) /* ClothingBase */
-     , (9357,   8,  100671581) /* Icon */
-     , (9357,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9357,   1, 0x020005FD) /* Setup */
+     , (9357,   3, 0x20000014) /* SoundTable */
+     , (9357,   6, 0x04000BEF) /* PaletteBase */
+     , (9357,   7, 0x10000166) /* ClothingBase */
+     , (9357,   8, 0x0600205D) /* Icon */
+     , (9357,  22, 0x3400002B) /* PhysicsEffectTable */;

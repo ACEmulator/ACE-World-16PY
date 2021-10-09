@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14675,   1, 'Vulture''s Eye Villas Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14675,   1,   33554867) /* Setup */
-     , (14675,   2,  150994947) /* MotionTable */
-     , (14675,   8,  100667499) /* Icon */;
+VALUES (14675,   1, 0x020001B3) /* Setup */
+     , (14675,   2, 0x09000003) /* MotionTable */
+     , (14675,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14675, 2, 2691563554, 114.578, 27.556, 26.005, -0.9978629, 0, 0, -0.06534224) /* Destination */
-/* @teleloc 0xA06E0022 [114.578000 27.556000 26.005000] -0.997863 0.000000 0.000000 -0.065342 */;
+VALUES (14675, 2, 0xA06E0022, 114.578, 27.556, 26.005, -0.997863, 0, -0, -0.065342) /* Destination */
+/* @teleloc 0xA06E0022 [114.578003 27.556000 26.004999] -0.997863 0.000000 -0.000000 -0.065342 */;

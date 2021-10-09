@@ -19,7 +19,7 @@ VALUES (20068,   1,        256) /* ItemType - MissileWeapon */
      , (20068,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (20068,  49,         15) /* WeaponTime */
      , (20068,  50,          4) /* AmmoType - Atlatl */
-     , (20068,  51,          2) /* CombatUse - Missle */
+     , (20068,  51,          2) /* CombatUse - Missile */
      , (20068,  60,        120) /* WeaponRange */
      , (20068,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (20068, 106,        300) /* ItemSpellcraft */
@@ -50,17 +50,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20068,   1, 'Superb Dissolving Isparian Atlatl') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20068,   1,   33557799) /* Setup */
-     , (20068,   3,  536870932) /* SoundTable */
-     , (20068,   6,   67111919) /* PaletteBase */
-     , (20068,   7,  268436393) /* ClothingBase */
-     , (20068,   8,  100673005) /* Icon */
-     , (20068,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20068,   1, 0x02000D27) /* Setup */
+     , (20068,   3, 0x20000014) /* SoundTable */
+     , (20068,   6, 0x04000BEF) /* PaletteBase */
+     , (20068,   7, 0x100003A9) /* ClothingBase */
+     , (20068,   8, 0x060025ED) /* Icon */
+     , (20068,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20068,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20068,   520,      2)  /* Acid Protection Self VI */
-     , (20068,  1353,      2)  /* Endurance Self V */
      , (20068,  1604,      2)  /* Aura of Defender Self V */
-     , (20068,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (20068,  2567,      2)  /* Minor Missile Weapon Aptitude */;
+     , (20068,  2567,      2)  /* Minor Missile Weapon Aptitude */
+     , (20068,  1353,      2)  /* Endurance Self V */
+     , (20068,  1615,      2)  /* Aura of Blood Drinker Self V */;

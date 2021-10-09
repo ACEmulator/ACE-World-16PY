@@ -47,13 +47,13 @@ VALUES (6753,   1, 'Silifi of Crimson Stars') /* Name */
      , (6753,  16, 'The Silifi of Crimson Stars, its blade repaired using the spine of a Shore Armoredillo. It is fitted with the ruby Al-Shajar. There are notches for two more.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6753,   1,   33556553) /* Setup */
-     , (6753,   3,  536870932) /* SoundTable */
-     , (6753,   6,   67111919) /* PaletteBase */
-     , (6753,   7,  268435986) /* ClothingBase */
-     , (6753,   8,  100670611) /* Icon */
-     , (6753,  22,  872415275) /* PhysicsEffectTable */
-     , (6753,  36,  234881044) /* MutateFilter */
+VALUES (6753,   1, 0x02000849) /* Setup */
+     , (6753,   3, 0x20000014) /* SoundTable */
+     , (6753,   6, 0x04000BEF) /* PaletteBase */
+     , (6753,   7, 0x10000212) /* ClothingBase */
+     , (6753,   8, 0x06001C93) /* Icon */
+     , (6753,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (6753,  36, 0x0E000014) /* MutateFilter */
      , (6753,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

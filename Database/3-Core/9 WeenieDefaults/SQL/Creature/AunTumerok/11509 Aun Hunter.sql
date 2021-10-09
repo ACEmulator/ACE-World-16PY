@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11509,   1, 'Aun Hunter') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11509,   1,   33557117) /* Setup */
-     , (11509,   2,  150994954) /* MotionTable */
-     , (11509,   3,  536870931) /* SoundTable */
-     , (11509,   4,  805306380) /* CombatTable */
-     , (11509,   6,   67113280) /* PaletteBase */
-     , (11509,   7,  268436193) /* ClothingBase */
-     , (11509,   8,  100671756) /* Icon */
-     , (11509,  22,  872415270) /* PhysicsEffectTable */
+VALUES (11509,   1, 0x02000A7D) /* Setup */
+     , (11509,   2, 0x0900000A) /* MotionTable */
+     , (11509,   3, 0x20000013) /* SoundTable */
+     , (11509,   4, 0x3000000C) /* CombatTable */
+     , (11509,   6, 0x04001140) /* PaletteBase */
+     , (11509,   7, 0x100002E1) /* ClothingBase */
+     , (11509,   8, 0x0600210C) /* Icon */
+     , (11509,  22, 0x34000026) /* PhysicsEffectTable */
      , (11509,  32,        378) /* WieldedTreasureType - 
                                    Wield Shortbow (307) | Probability: 22%
                                    Wield 25x Armor Piercing Arrow (3598) | Probability: 100%
@@ -102,19 +102,19 @@ VALUES (11509,   1,    40, 0, 0, 80) /* MaxHealth */
      , (11509,   5,     0, 0, 0, 70) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (11509,  1, 0, 3, 0,  50, 0, 748.618900464066) /* Axe                 Specialized */
-     , (11509,  2, 0, 3, 0,  25, 0, 748.618900464066) /* Bow                 Specialized */
-     , (11509,  3, 0, 3, 0,  25, 0, 748.618900464066) /* Crossbow            Specialized */
-     , (11509,  4, 0, 3, 0,  50, 0, 748.618900464066) /* Dagger              Specialized */
-     , (11509,  5, 0, 3, 0,  50, 0, 748.618900464066) /* Mace                Specialized */
-     , (11509,  6, 0, 3, 0,  56, 0, 748.618900464066) /* MeleeDefense        Specialized */
-     , (11509,  7, 0, 3, 0, 100, 0, 748.618900464066) /* MissileDefense      Specialized */
-     , (11509,  9, 0, 3, 0,  50, 0, 748.618900464066) /* Spear               Specialized */
-     , (11509, 11, 0, 3, 0,  50, 0, 748.618900464066) /* Sword               Specialized */
-     , (11509, 13, 0, 3, 0,  50, 0, 748.618900464066) /* UnarmedCombat       Specialized */
-     , (11509, 15, 0, 3, 0,  62, 0, 748.618900464066) /* MagicDefense        Specialized */
-     , (11509, 20, 0, 2, 0,  30, 0, 748.618900464066) /* Deception           Trained */
-     , (11509, 24, 0, 3, 0,  25, 0, 748.618900464066) /* Run                 Specialized */;
+VALUES (11509,  1, 0, 3, 0,  50, 0, 748.6189004640661) /* Axe                 Specialized */
+     , (11509,  2, 0, 3, 0,  25, 0, 748.6189004640661) /* Bow                 Specialized */
+     , (11509,  3, 0, 3, 0,  25, 0, 748.6189004640661) /* Crossbow            Specialized */
+     , (11509,  4, 0, 3, 0,  50, 0, 748.6189004640661) /* Dagger              Specialized */
+     , (11509,  5, 0, 3, 0,  50, 0, 748.6189004640661) /* Mace                Specialized */
+     , (11509,  6, 0, 3, 0,  56, 0, 748.6189004640661) /* MeleeDefense        Specialized */
+     , (11509,  7, 0, 3, 0, 100, 0, 748.6189004640661) /* MissileDefense      Specialized */
+     , (11509,  9, 0, 3, 0,  50, 0, 748.6189004640661) /* Spear               Specialized */
+     , (11509, 11, 0, 3, 0,  50, 0, 748.6189004640661) /* Sword               Specialized */
+     , (11509, 13, 0, 3, 0,  50, 0, 748.6189004640661) /* UnarmedCombat       Specialized */
+     , (11509, 15, 0, 3, 0,  62, 0, 748.6189004640661) /* MagicDefense        Specialized */
+     , (11509, 20, 0, 2, 0,  30, 0, 748.6189004640661) /* Deception           Trained */
+     , (11509, 24, 0, 3, 0,  25, 0, 748.6189004640661) /* Run                 Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (11509,  0,  4,  0,    0,   70,   70,   70,   70,   70,   70,   70,   70,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

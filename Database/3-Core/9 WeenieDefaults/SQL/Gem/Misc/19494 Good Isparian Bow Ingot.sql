@@ -31,9 +31,9 @@ VALUES (19494,   1, 'Good Isparian Bow Ingot') /* Name */
      , (19494,  16, 'An diamond infused ingot, enhanced and stamped with an bow glyph.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19494,   1,   33555677) /* Setup */
-     , (19494,   3,  536870932) /* SoundTable */
-     , (19494,   6,   67111919) /* PaletteBase */
-     , (19494,   7,  268435723) /* ClothingBase */
-     , (19494,   8,  100672971) /* Icon */
-     , (19494,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19494,   1, 0x020004DD) /* Setup */
+     , (19494,   3, 0x20000014) /* SoundTable */
+     , (19494,   6, 0x04000BEF) /* PaletteBase */
+     , (19494,   7, 0x1000010B) /* ClothingBase */
+     , (19494,   8, 0x060025CB) /* Icon */
+     , (19494,  22, 0x3400002B) /* PhysicsEffectTable */;

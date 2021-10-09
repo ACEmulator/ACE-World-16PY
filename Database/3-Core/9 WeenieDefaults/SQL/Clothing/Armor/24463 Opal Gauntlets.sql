@@ -29,7 +29,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24463,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24463,   5, -0.0166) /* ManaRate */
+VALUES (24463,   5,  -0.017) /* ManaRate */
      , (24463,  12,    0.66) /* Shade */
      , (24463,  13,     0.8) /* ArmorModVsSlash */
      , (24463,  14,     0.8) /* ArmorModVsPierce */
@@ -47,13 +47,13 @@ VALUES (24463,   1, 'Opal Gauntlets') /* Name */
      , (24463,  16, 'These gauntlets have been carved from Opal to fit the human hand. They are mystical in nature.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24463,   1,   33554648) /* Setup */
-     , (24463,   3,  536870932) /* SoundTable */
-     , (24463,   6,   67108990) /* PaletteBase */
-     , (24463,   7,  268436635) /* ClothingBase */
-     , (24463,   8,  100674344) /* Icon */
-     , (24463,  22,  872415275) /* PhysicsEffectTable */
-     , (24463,  36,  234881046) /* MutateFilter */;
+VALUES (24463,   1, 0x020000D8) /* Setup */
+     , (24463,   3, 0x20000014) /* SoundTable */
+     , (24463,   6, 0x0400007E) /* PaletteBase */
+     , (24463,   7, 0x1000049B) /* ClothingBase */
+     , (24463,   8, 0x06002B28) /* Icon */
+     , (24463,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24463,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24463,  1484,      2)  /* Impenetrability IV */

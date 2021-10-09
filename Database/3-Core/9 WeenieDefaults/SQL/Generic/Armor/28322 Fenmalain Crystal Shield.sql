@@ -47,16 +47,16 @@ VALUES (28322,   1, 'Fenmalain Crystal Shield') /* Name */
      , (28322,  15, 'A shield imbued with the power of the Fenmalain Crystal.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28322,   1,   33554786) /* Setup */
-     , (28322,   3,  536870932) /* SoundTable */
-     , (28322,   6,   67111919) /* PaletteBase */
-     , (28322,   7,  268436037) /* ClothingBase */
-     , (28322,   8,  100670976) /* Icon */
-     , (28322,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28322,   1, 0x02000162) /* Setup */
+     , (28322,   3, 0x20000014) /* SoundTable */
+     , (28322,   6, 0x04000BEF) /* PaletteBase */
+     , (28322,   7, 0x10000245) /* ClothingBase */
+     , (28322,   8, 0x06001E00) /* Icon */
+     , (28322,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28322,   246,      2)  /* Invulnerability Self III */
-     , (28322,   258,      2)  /* Impregnability Self III */
+VALUES (28322,   258,      2)  /* Impregnability Self III */
      , (28322,  1483,      2)  /* Impenetrability III */
      , (28322,  2003,      2)  /* Warrior's Lesser Vitality */
+     , (28322,   246,      2)  /* Invulnerability Self III */
      , (28322,  2007,      2)  /* Warrior's Lesser Vigor */;

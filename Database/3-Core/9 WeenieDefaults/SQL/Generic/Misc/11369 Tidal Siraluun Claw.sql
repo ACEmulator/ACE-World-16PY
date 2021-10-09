@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11369,   1, 'Tidal Siraluun Claw') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11369,   1,   33554817) /* Setup */
-     , (11369,   3,  536870932) /* SoundTable */
-     , (11369,   6,   67111919) /* PaletteBase */
-     , (11369,   7,  268435832) /* ClothingBase */
-     , (11369,   8,  100671852) /* Icon */
-     , (11369,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11369,   1, 0x02000181) /* Setup */
+     , (11369,   3, 0x20000014) /* SoundTable */
+     , (11369,   6, 0x04000BEF) /* PaletteBase */
+     , (11369,   7, 0x10000178) /* ClothingBase */
+     , (11369,   8, 0x0600216C) /* Icon */
+     , (11369,  22, 0x3400002B) /* PhysicsEffectTable */;

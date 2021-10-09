@@ -30,7 +30,7 @@ VALUES (29538,  22, True ) /* Inscribable */
      , (29538, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29538,   5, -0.0166) /* ManaRate */
+VALUES (29538,   5,  -0.017) /* ManaRate */
      , (29538,  12,    0.66) /* Shade */
      , (29538,  13,     1.2) /* ArmorModVsSlash */
      , (29538,  14,     1.2) /* ArmorModVsPierce */
@@ -46,17 +46,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29538,   1, 'Noble Leggings of Brilliance') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29538,   1,   33554856) /* Setup */
-     , (29538,   3,  536870932) /* SoundTable */
-     , (29538,   6,   67108990) /* PaletteBase */
-     , (29538,   7,  268436878) /* ClothingBase */
-     , (29538,   8,  100675043) /* Icon */
-     , (29538,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29538,   1, 0x020001A8) /* Setup */
+     , (29538,   3, 0x20000014) /* SoundTable */
+     , (29538,   6, 0x0400007E) /* PaletteBase */
+     , (29538,   7, 0x1000058E) /* ClothingBase */
+     , (29538,   8, 0x06002DE3) /* Icon */
+     , (29538,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29538,   568,      2)  /* Creature Enchantment Mastery Other VI */
-     , (29538,   592,      2)  /* Item Enchantment Mastery Other VI */
      , (29538,   616,      2)  /* Life Magic Mastery Other VI */
+     , (29538,   592,      2)  /* Item Enchantment Mastery Other VI */
      , (29538,   640,      2)  /* War Magic Mastery Other VI */
-     , (29538,  2108,      2)  /* Brogard's Defiance */
-     , (29538,  3572,      2)  /* Inner Brilliance */;
+     , (29538,  3572,      2)  /* Inner Brilliance */
+     , (29538,  2108,      2)  /* Brogard's Defiance */;

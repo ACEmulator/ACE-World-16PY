@@ -22,5 +22,5 @@ VALUES (13166,   1, 'Naqut Dreams Villas') /* Name */
      , (13166,  16, 'Welcome to Naqut Dreams Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13166,   1,   33557463) /* Setup */
-     , (13166,   8,  100668115) /* Icon */;
+VALUES (13166,   1, 0x02000BD7) /* Setup */
+     , (13166,   8, 0x060012D3) /* Icon */;

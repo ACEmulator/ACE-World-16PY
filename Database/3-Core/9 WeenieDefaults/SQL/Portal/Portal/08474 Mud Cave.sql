@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8474,   1, 'Mud Cave') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8474,   1,   33555922) /* Setup */
-     , (8474,   2,  150994947) /* MotionTable */
-     , (8474,   8,  100667499) /* Icon */;
+VALUES (8474,   1, 0x020005D2) /* Setup */
+     , (8474,   2, 0x09000003) /* MotionTable */
+     , (8474,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8474, 2, 46203262, 138.298, -28.02, 6.005, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0x02C1017E [138.298000 -28.020000 6.005000] 1.000000 0.000000 0.000000 0.000000 */;
+VALUES (8474, 2, 0x02C1017E, 138.298, -28.02, 6.005, 1, 0, 0, -0) /* Destination */
+/* @teleloc 0x02C1017E [138.298004 -28.020000 6.005000] 1.000000 0.000000 0.000000 -0.000000 */;

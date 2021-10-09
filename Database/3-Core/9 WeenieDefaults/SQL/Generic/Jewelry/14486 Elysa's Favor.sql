@@ -36,14 +36,14 @@ VALUES (14486,   1, 'Elysa''s Favor') /* Name */
      , (14486,  15, 'Elysa''s gift to you, in recognition for your brave service for the kingdom.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14486,   1,   33554691) /* Setup */
-     , (14486,   3,  536870932) /* SoundTable */
-     , (14486,   6,   67111919) /* PaletteBase */
-     , (14486,   7,  268436318) /* ClothingBase */
-     , (14486,   8,  100672473) /* Icon */
-     , (14486,  22,  872415275) /* PhysicsEffectTable */
-     , (14486,  36,  234881046) /* MutateFilter */;
+VALUES (14486,   1, 0x02000103) /* Setup */
+     , (14486,   3, 0x20000014) /* SoundTable */
+     , (14486,   6, 0x04000BEF) /* PaletteBase */
+     , (14486,   7, 0x1000035E) /* ClothingBase */
+     , (14486,   8, 0x060023D9) /* Icon */
+     , (14486,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (14486,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (14486,  1997,      2)  /* Life Giver */
-     , (14486,  2578,      2)  /* Minor Armor */;
+VALUES (14486,  2578,      2)  /* Minor Armor */
+     , (14486,  1997,      2)  /* Life Giver */;

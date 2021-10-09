@@ -24,7 +24,7 @@ VALUES (20601,   1, 'Scroll of Essence Void') /* Name */
      , (20601,  15, 'When learned, this spell drains one-quarter of the target''s Mana and gives 175% of that to the caster.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20601,   1,   33554826) /* Setup */
-     , (20601,   8,  100676932) /* Icon */
-     , (20601,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20601,   1, 0x0200018A) /* Setup */
+     , (20601,   8, 0x06003544) /* Icon */
+     , (20601,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20601,  28,       2329) /* Spell - Essence Void */;

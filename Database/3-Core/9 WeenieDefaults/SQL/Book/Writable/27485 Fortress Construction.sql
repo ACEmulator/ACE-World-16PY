@@ -25,10 +25,10 @@ VALUES (27485,   1, 'Fortress Construction') /* Name */
      , (27485,  16, 'Orders sent to Commander Kamenua. These might have some worth if given to Aun Laokhe.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27485,   1,   33554773) /* Setup */
-     , (27485,   3,  536870932) /* SoundTable */
-     , (27485,   8,  100668176) /* Icon */
-     , (27485,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27485,   1, 0x02000155) /* Setup */
+     , (27485,   3, 0x20000014) /* SoundTable */
+     , (27485,   8, 0x06001310) /* Icon */
+     , (27485,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (27485, 2, 1000);

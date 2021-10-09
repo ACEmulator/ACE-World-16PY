@@ -32,10 +32,10 @@ VALUES (28833,   1, 'Academy Mana Potion') /* Name */
      , (28833,  33, 'ManaPickup') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28833,   1,   33554603) /* Setup */
-     , (28833,   3,  536870932) /* SoundTable */
-     , (28833,   6,   67111919) /* PaletteBase */
-     , (28833,   7,  268435816) /* ClothingBase */
-     , (28833,   8,  100670837) /* Icon */
-     , (28833,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28833,   1, 0x020000AB) /* Setup */
+     , (28833,   3, 0x20000014) /* SoundTable */
+     , (28833,   6, 0x04000BEF) /* PaletteBase */
+     , (28833,   7, 0x10000168) /* ClothingBase */
+     , (28833,   8, 0x06001D75) /* Icon */
+     , (28833,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28833,  23,         65) /* UseSound - Drink1 */;

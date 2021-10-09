@@ -68,14 +68,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7348,   1, 'Lesser Acolyte') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7348,   1,   33554839) /* Setup */
-     , (7348,   2,  150994967) /* MotionTable */
-     , (7348,   3,  536870934) /* SoundTable */
-     , (7348,   4,  805306368) /* CombatTable */
-     , (7348,   6,   67110722) /* PaletteBase */
-     , (7348,   7,  268435558) /* ClothingBase */
-     , (7348,   8,  100667942) /* Icon */
-     , (7348,  22,  872415272) /* PhysicsEffectTable */
+VALUES (7348,   1, 0x02000197) /* Setup */
+     , (7348,   2, 0x09000017) /* MotionTable */
+     , (7348,   3, 0x20000016) /* SoundTable */
+     , (7348,   4, 0x30000000) /* CombatTable */
+     , (7348,   6, 0x04000742) /* PaletteBase */
+     , (7348,   7, 0x10000066) /* ClothingBase */
+     , (7348,   8, 0x06001226) /* Icon */
+     , (7348,  22, 0x34000028) /* PhysicsEffectTable */
      , (7348,  31,       7343) /* LinkedPortalOne - Soul-Fearing Vestry Dungeon (Area 2) */
      , (7348,  32,        248) /* WieldedTreasureType - 
                                    Wield 6x Throwing Axe (304) | Probability: 10%
@@ -85,7 +85,7 @@ VALUES (7348,   1,   33554839) /* Setup */
                                    Wield 20x Arrow (300) | Probability: 100%
                                    Wield Yumi (363) | Probability: 10%
                                    Wield 14x Arrow (300) | Probability: 100%
-                                   Wield Heavy Crossbow (311) | Probability: 60%
+                                   Wield Heavy Crossbow (311) | Probability: 60.000004%
                                    Wield 15x Quarrel (305) | Probability: 100%
                                    Wield Battle Axe (301) | Probability: 14%
                                    Wield Broad Sword (350) | Probability: 7%
@@ -99,14 +99,14 @@ VALUES (7348,   1,   33554839) /* Setup */
                                    Wield Silifi (344) | Probability: 13%
                                    Wield Tachi (353) | Probability: 6%
                                    Wield Takuba (354) | Probability: 6%
-                                   Wield Large Kite Shield (92) | Probability: 30%
+                                   Wield Large Kite Shield (92) | Probability: 30.000002%
                                    Wield Kite Shield (91) | Probability: 20%
                                    Wield Large Round Shield (94) | Probability: 20% */
      , (7348,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7348, 12, 49218003, 190.4, -34.6, -12, 1, 0, 0, 0) /* PortalSummonLoc */
-/* @teleloc 0x02EF01D3 [190.400000 -34.600000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */;
+VALUES (7348, 12, 0x02EF01D3, 190.4, -34.6, -12, 1, 0, 0, -0) /* PortalSummonLoc */
+/* @teleloc 0x02EF01D3 [190.399994 -34.599998 -12.000000] 1.000000 0.000000 0.000000 -0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7348,   1, 150, 0, 0) /* Strength */
@@ -152,30 +152,30 @@ VALUES (7348,  0,  4,  0,    0,   70,   56,   21,   39,   13,   35,   39,   47, 
      , (7348,  8,  4,  3, 0.75,   90,   72,   27,   50,   16,   45,   50,   60,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7348,    60,  2.029)  /* Acid Stream III */
-     , (7348,    61,  2.011)  /* Acid Stream IV */
+VALUES (7348,  1262,   2.02)  /* Drain Mana Other III */
+     , (7348,    82,  2.029)  /* Flame Bolt III */
      , (7348,    66,  2.029)  /* Shock Wave III */
+     , (7348,    83,  2.011)  /* Flame Bolt IV */
      , (7348,    67,  2.011)  /* Shock Wave IV */
      , (7348,    71,  2.029)  /* Frost Bolt III */
      , (7348,    72,  2.011)  /* Frost Bolt IV */
-     , (7348,    77,  2.029)  /* Lightning Bolt III */
+     , (7348,  1369,  2.009)  /* Frailty Other III */
      , (7348,    78,  2.011)  /* Lightning Bolt IV */
-     , (7348,    82,  2.029)  /* Flame Bolt III */
-     , (7348,    83,  2.011)  /* Flame Bolt IV */
+     , (7348,  1417,  2.009)  /* Slowness Other III */
+     , (7348,    77,  2.029)  /* Lightning Bolt III */
+     , (7348,  1239,   2.02)  /* Drain Health Other III */
      , (7348,    88,  2.029)  /* Force Bolt III */
      , (7348,    89,  2.011)  /* Force Bolt IV */
      , (7348,    94,  2.029)  /* Whirling Blade III */
      , (7348,    95,  2.011)  /* Whirling Blade IV */
-     , (7348,   173,  2.009)  /* Fester Other III */
-     , (7348,  1239,   2.02)  /* Drain Health Other III */
-     , (7348,  1251,   2.02)  /* Drain Stamina Other III */
-     , (7348,  1262,   2.02)  /* Drain Mana Other III */
-     , (7348,  1340,  2.009)  /* Weakness Other III */
-     , (7348,  1369,  2.009)  /* Frailty Other III */
-     , (7348,  1393,  2.009)  /* Clumsiness Other III */
-     , (7348,  1417,  2.009)  /* Slowness Other III */
      , (7348,  1441,  2.009)  /* Bafflement Other III */
-     , (7348,  1466,  2.009)  /* Feeblemind Other IV */;
+     , (7348,  1251,   2.02)  /* Drain Stamina Other III */
+     , (7348,   173,  2.009)  /* Fester Other III */
+     , (7348,  1393,  2.009)  /* Clumsiness Other III */
+     , (7348,    61,  2.011)  /* Acid Stream IV */
+     , (7348,  1466,  2.009)  /* Feeblemind Other IV */
+     , (7348,  1340,  2.009)  /* Weakness Other III */
+     , (7348,    60,  2.029)  /* Acid Stream III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (7348, 414) /* PLAYER_DEATH_EVENT */;

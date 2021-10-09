@@ -25,30 +25,30 @@ VALUES (23143,  22, True ) /* Inscribable */
      , (23143,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23143,   5,       0) /* ManaRate */
+VALUES (23143,   5,      -0) /* ManaRate */
      , (23143,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23143,   1, 'Ring of Life Magic Protections') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23143,   1,   33554691) /* Setup */
-     , (23143,   3,  536870932) /* SoundTable */
-     , (23143,   6,   67111919) /* PaletteBase */
-     , (23143,   7,  268436318) /* ClothingBase */
-     , (23143,   8,  100672480) /* Icon */
-     , (23143,  22,  872415275) /* PhysicsEffectTable */
-     , (23143,  36,  234881046) /* MutateFilter */;
+VALUES (23143,   1, 0x02000103) /* Setup */
+     , (23143,   3, 0x20000014) /* SoundTable */
+     , (23143,   6, 0x04000BEF) /* PaletteBase */
+     , (23143,   7, 0x1000035E) /* ClothingBase */
+     , (23143,   8, 0x060023E0) /* Icon */
+     , (23143,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (23143,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23143,  2052,      2)  /* Executor's Boon */
-     , (23143,  2148,      2)  /* Caustic Boon */
-     , (23143,  2150,      2)  /* Boon of the Blade Turner */
-     , (23143,  2152,      2)  /* Boon of the Mace Turner */
-     , (23143,  2155,      2)  /* Icy Blessing */
-     , (23143,  2157,      2)  /* Fiery Blessing */
-     , (23143,  2159,      2)  /* Storm's Blessing */
-     , (23143,  2160,      2)  /* Boon of the Arrow Turner */
+VALUES (23143,  2148,      2)  /* Caustic Boon */
+     , (23143,  2052,      2)  /* Executor's Boon */
      , (23143,  2183,      2)  /* Battlemage's Blessing */
      , (23143,  2185,      2)  /* Robustify */
-     , (23143,  2187,      2)  /* Unflinching Persistence */;
+     , (23143,  2155,      2)  /* Icy Blessing */
+     , (23143,  2187,      2)  /* Unflinching Persistence */
+     , (23143,  2150,      2)  /* Boon of the Blade Turner */
+     , (23143,  2152,      2)  /* Boon of the Mace Turner */
+     , (23143,  2157,      2)  /* Fiery Blessing */
+     , (23143,  2159,      2)  /* Storm's Blessing */
+     , (23143,  2160,      2)  /* Boon of the Arrow Turner */;

@@ -31,9 +31,9 @@ VALUES (4134,   1, 'Russet Rat Tail') /* Name */
      , (4134,  14, 'This has no apparent use.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4134,   1,   33554817) /* Setup */
-     , (4134,   3,  536870932) /* SoundTable */
-     , (4134,   6,   67111919) /* PaletteBase */
-     , (4134,   7,  268435832) /* ClothingBase */
-     , (4134,   8,  100670066) /* Icon */
-     , (4134,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4134,   1, 0x02000181) /* Setup */
+     , (4134,   3, 0x20000014) /* SoundTable */
+     , (4134,   6, 0x04000BEF) /* PaletteBase */
+     , (4134,   7, 0x10000178) /* ClothingBase */
+     , (4134,   8, 0x06001A72) /* Icon */
+     , (4134,  22, 0x3400002B) /* PhysicsEffectTable */;

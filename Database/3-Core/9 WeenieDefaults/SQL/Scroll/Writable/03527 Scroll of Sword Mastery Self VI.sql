@@ -25,7 +25,7 @@ VALUES (3527,   1, 'Scroll of Sword Mastery Self VI') /* Name */
      , (3527,  16, 'When learned, this spell increases the caster''s Sword skill by 150%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3527,   1,   33554826) /* Setup */
-     , (3527,   8,  100676475) /* Icon */
-     , (3527,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3527,   1, 0x0200018A) /* Setup */
+     , (3527,   8, 0x0600337B) /* Icon */
+     , (3527,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3527,  28,        423) /* Spell - Heavy Weapon Mastery Self VI */;

@@ -64,13 +64,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25683,   1, 'Jaenyn, Stone Shaper') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25683,   1,   33554839) /* Setup */
-     , (25683,   2,  150994967) /* MotionTable */
-     , (25683,   3,  536870934) /* SoundTable */
-     , (25683,   4,  805306368) /* CombatTable */
-     , (25683,   6,   67110722) /* PaletteBase */
-     , (25683,   7,  268436626) /* ClothingBase */
-     , (25683,   8,  100667942) /* Icon */;
+VALUES (25683,   1, 0x02000197) /* Setup */
+     , (25683,   2, 0x09000017) /* MotionTable */
+     , (25683,   3, 0x20000016) /* SoundTable */
+     , (25683,   4, 0x30000000) /* CombatTable */
+     , (25683,   6, 0x04000742) /* PaletteBase */
+     , (25683,   7, 0x10000492) /* ClothingBase */
+     , (25683,   8, 0x06001226) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25683,   1, 350, 0, 0) /* Strength */
@@ -86,9 +86,9 @@ VALUES (25683,   1,  4800, 0, 0, 5000) /* MaxHealth */
      , (25683,   5,  4460, 0, 0, 5000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (25683,  6, 0, 2, 0,   1, 0, 1655.9407403063) /* MeleeDefense        Trained */
-     , (25683,  7, 0, 2, 0,   1, 0, 1655.9407403063) /* MissileDefense      Trained */
-     , (25683, 13, 0, 2, 0,   1, 0, 1655.9407403063) /* UnarmedCombat       Trained */;
+VALUES (25683,  6, 0, 2, 0,   1, 0, 1655.9407403062983) /* MeleeDefense        Trained */
+     , (25683,  7, 0, 2, 0,   1, 0, 1655.9407403062983) /* MissileDefense      Trained */
+     , (25683, 13, 0, 2, 0,   1, 0, 1655.9407403062983) /* UnarmedCombat       Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (25683,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

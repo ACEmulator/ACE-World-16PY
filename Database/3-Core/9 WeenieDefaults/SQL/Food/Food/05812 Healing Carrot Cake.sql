@@ -30,9 +30,9 @@ VALUES (5812,   1, 'Healing Carrot Cake') /* Name */
      , (5812,  20, 'Healing Carrot Cakes') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5812,   1,   33555193) /* Setup */
-     , (5812,   3,  536870932) /* SoundTable */
-     , (5812,   6,   67111928) /* PaletteBase */
-     , (5812,   7,  268435860) /* ClothingBase */
-     , (5812,   8,  100670292) /* Icon */
-     , (5812,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5812,   1, 0x020002F9) /* Setup */
+     , (5812,   3, 0x20000014) /* SoundTable */
+     , (5812,   6, 0x04000BF8) /* PaletteBase */
+     , (5812,   7, 0x10000194) /* ClothingBase */
+     , (5812,   8, 0x06001B54) /* Icon */
+     , (5812,  22, 0x3400002B) /* PhysicsEffectTable */;

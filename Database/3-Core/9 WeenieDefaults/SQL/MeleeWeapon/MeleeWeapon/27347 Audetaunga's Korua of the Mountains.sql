@@ -38,7 +38,7 @@ VALUES (27347,  22, True ) /* Inscribable */
      , (27347,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27347,   5, -0.033333) /* ManaRate */
+VALUES (27347,   5,  -0.033) /* ManaRate */
      , (27347,  21,    0.52) /* WeaponLength */
      , (27347,  22,     0.5) /* DamageVariance */
      , (27347,  29,    1.08) /* WeaponDefense */
@@ -52,12 +52,12 @@ VALUES (27347,   1, 'Audetaunga''s Korua of the Mountains') /* Name */
      , (27347,  16, 'A korua fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27347,   1,   33558664) /* Setup */
-     , (27347,   3,  536870932) /* SoundTable */
-     , (27347,   6,   67113336) /* PaletteBase */
-     , (27347,   7,  268436248) /* ClothingBase */
-     , (27347,   8,  100676367) /* Icon */
-     , (27347,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27347,   1, 0x02001088) /* Setup */
+     , (27347,   3, 0x20000014) /* SoundTable */
+     , (27347,   6, 0x04001178) /* PaletteBase */
+     , (27347,   7, 0x10000318) /* ClothingBase */
+     , (27347,   8, 0x0600330F) /* Icon */
+     , (27347,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27347,  2437,      2)  /* Greater Rockslide */

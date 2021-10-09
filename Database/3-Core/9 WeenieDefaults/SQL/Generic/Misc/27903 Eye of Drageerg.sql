@@ -27,7 +27,7 @@ VALUES (27903,   1, 'Eye of Drageerg') /* Name */
      , (27903,  33, 'MosswartExodusEye') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27903,   1,   33558802) /* Setup */
-     , (27903,   3,  536870932) /* SoundTable */
-     , (27903,   8,  100676617) /* Icon */
-     , (27903,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27903,   1, 0x02001112) /* Setup */
+     , (27903,   3, 0x20000014) /* SoundTable */
+     , (27903,   8, 0x06003409) /* Icon */
+     , (27903,  22, 0x3400002B) /* PhysicsEffectTable */;

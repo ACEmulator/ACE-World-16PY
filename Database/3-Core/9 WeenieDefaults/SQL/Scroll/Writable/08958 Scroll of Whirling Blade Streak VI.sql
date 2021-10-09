@@ -25,7 +25,7 @@ VALUES (8958,   1, 'Scroll of Whirling Blade Streak VI') /* Name */
      , (8958,  16, 'When learned, this spell sends a magical blade streaking towards the target. The bolt does 32-60 points of slashing damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8958,   1,   33554826) /* Setup */
-     , (8958,   8,  100677028) /* Icon */
-     , (8958,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8958,   1, 0x0200018A) /* Setup */
+     , (8958,   8, 0x060035A4) /* Icon */
+     , (8958,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8958,  28,       1831) /* Spell - Whirling Blade Streak VI */;

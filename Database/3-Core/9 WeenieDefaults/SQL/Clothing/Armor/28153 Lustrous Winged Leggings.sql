@@ -45,15 +45,15 @@ VALUES (28153,   1, 'Lustrous Winged Leggings') /* Name */
      , (28153,  16, 'A pair of winged leggings crafted from the hide of an adolescent ivory gromnie.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28153,   1,   33554856) /* Setup */
-     , (28153,   3,  536870932) /* SoundTable */
-     , (28153,   6,   67108990) /* PaletteBase */
-     , (28153,   7,  268436848) /* ClothingBase */
-     , (28153,   8,  100670443) /* Icon */
-     , (28153,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28153,   1, 0x020001A8) /* Setup */
+     , (28153,   3, 0x20000014) /* SoundTable */
+     , (28153,   6, 0x0400007E) /* PaletteBase */
+     , (28153,   7, 0x10000570) /* ClothingBase */
+     , (28153,   8, 0x06001BEB) /* Icon */
+     , (28153,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28153,  1486,      2)  /* Impenetrability VI */
-     , (28153,  2553,      2)  /* Minor Jumping Prowess */
      , (28153,  2580,      2)  /* Minor Endurance */
+     , (28153,  2553,      2)  /* Minor Jumping Prowess */
      , (28153,  2618,      2)  /* Minor Flame Ward */;

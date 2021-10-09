@@ -31,9 +31,9 @@ VALUES (8234,   1, 'Pumpkin Liquid') /* Name */
      , (8234,  20, 'Bowls of Pumpkin Liquid') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8234,   1,   33555968) /* Setup */
-     , (8234,   3,  536870932) /* SoundTable */
-     , (8234,   6,   67111919) /* PaletteBase */
-     , (8234,   7,  268436047) /* ClothingBase */
-     , (8234,   8,  100671012) /* Icon */
-     , (8234,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8234,   1, 0x02000600) /* Setup */
+     , (8234,   3, 0x20000014) /* SoundTable */
+     , (8234,   6, 0x04000BEF) /* PaletteBase */
+     , (8234,   7, 0x1000024F) /* ClothingBase */
+     , (8234,   8, 0x06001E24) /* Icon */
+     , (8234,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -26,5 +26,5 @@ VALUES (30483,   1, 'Bronze Lamp') /* Name */
      , (30483,  33, 'HoltburgRedoubtLamp1204') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30483,   1,   33554699) /* Setup */
-     , (30483,   8,  100668159) /* Icon */;
+VALUES (30483,   1, 0x0200010B) /* Setup */
+     , (30483,   8, 0x060012FF) /* Icon */;

@@ -29,7 +29,7 @@ VALUES (5271,   1, 'Hearty Healing Beef Stew') /* Name */
      , (5271,  20, 'Bowls of Hearty Healing Beef Stew ') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5271,   1,   33555968) /* Setup */
-     , (5271,   3,  536870932) /* SoundTable */
-     , (5271,   8,  100669946) /* Icon */
-     , (5271,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5271,   1, 0x02000600) /* Setup */
+     , (5271,   3, 0x20000014) /* SoundTable */
+     , (5271,   8, 0x060019FA) /* Icon */
+     , (5271,  22, 0x3400002B) /* PhysicsEffectTable */;

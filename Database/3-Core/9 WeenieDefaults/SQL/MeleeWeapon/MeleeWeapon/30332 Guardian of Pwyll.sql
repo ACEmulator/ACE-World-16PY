@@ -37,9 +37,9 @@ VALUES (30332,   1, 'Guardian of Pwyll') /* Name */
      , (30332,  16, 'Describe me here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30332,   1,   33554758) /* Setup */
-     , (30332,   3,  536870932) /* SoundTable */
-     , (30332,   6,   67111919) /* PaletteBase */
-     , (30332,   7,  268435770) /* ClothingBase */
-     , (30332,   8,  100669015) /* Icon */
-     , (30332,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30332,   1, 0x02000146) /* Setup */
+     , (30332,   3, 0x20000014) /* SoundTable */
+     , (30332,   6, 0x04000BEF) /* PaletteBase */
+     , (30332,   7, 0x1000013A) /* ClothingBase */
+     , (30332,   8, 0x06001657) /* Icon */
+     , (30332,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -27,19 +27,19 @@ VALUES (28398,  22, True ) /* Inscribable */
      , (28398,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28398,   5, -0.033333) /* ManaRate */;
+VALUES (28398,   5,  -0.033) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28398,   1, 'Tears of Jvikti Kheval') /* Name */
      , (28398,  16, 'A pair of earings made from the tears of the priestess Jvikti Kheval.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28398,   1,   33558877) /* Setup */
-     , (28398,   3,  536870932) /* SoundTable */
-     , (28398,   6,   67114956) /* PaletteBase */
-     , (28398,   7,  268436792) /* ClothingBase */
-     , (28398,   8,  100677002) /* Icon */
-     , (28398,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28398,   1, 0x0200115D) /* Setup */
+     , (28398,   3, 0x20000014) /* SoundTable */
+     , (28398,   6, 0x040017CC) /* PaletteBase */
+     , (28398,   7, 0x10000538) /* ClothingBase */
+     , (28398,   8, 0x0600358A) /* Icon */
+     , (28398,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28398,  3405,      2)  /* Gift of the Fiazhat */

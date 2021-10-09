@@ -25,30 +25,30 @@ VALUES (25308,  22, True ) /* Inscribable */
      , (25308,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25308,   5,       0) /* ManaRate */
+VALUES (25308,   5,      -0) /* ManaRate */
      , (25308,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25308,   1, 'Ring of Life Magic Protections') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25308,   1,   33554691) /* Setup */
-     , (25308,   3,  536870932) /* SoundTable */
-     , (25308,   6,   67111919) /* PaletteBase */
-     , (25308,   7,  268436318) /* ClothingBase */
-     , (25308,   8,  100672480) /* Icon */
-     , (25308,  22,  872415275) /* PhysicsEffectTable */
-     , (25308,  36,  234881046) /* MutateFilter */;
+VALUES (25308,   1, 0x02000103) /* Setup */
+     , (25308,   3, 0x20000014) /* SoundTable */
+     , (25308,   6, 0x04000BEF) /* PaletteBase */
+     , (25308,   7, 0x1000035E) /* ClothingBase */
+     , (25308,   8, 0x060023E0) /* Icon */
+     , (25308,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (25308,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25308,    20,      2)  /* Fire Protection Self I */
-     , (25308,    23,      2)  /* Armor Other I */
-     , (25308,    54,      2)  /* Rejuvenation Self I */
-     , (25308,   165,      2)  /* Regeneration Self I */
-     , (25308,   212,      2)  /* Mana Renewal Self I */
-     , (25308,   509,      2)  /* Acid Protection Other I */
+VALUES (25308,   212,      2)  /* Mana Renewal Self I */
+     , (25308,    20,      2)  /* Fire Protection Self I */
      , (25308,  1024,      2)  /* Bludgeoning Protection Other I */
      , (25308,  1030,      2)  /* Cold Protection Self I */
-     , (25308,  1066,      2)  /* Lightning Protection Self I */
+     , (25308,  1139,      2)  /* Piercing Protection Other I */
      , (25308,  1115,      2)  /* Blade Protection Other I */
-     , (25308,  1139,      2)  /* Piercing Protection Other I */;
+     , (25308,    23,      2)  /* Armor Other I */
+     , (25308,   165,      2)  /* Regeneration Self I */
+     , (25308,  1066,      2)  /* Lightning Protection Self I */
+     , (25308,    54,      2)  /* Rejuvenation Self I */
+     , (25308,   509,      2)  /* Acid Protection Other I */;

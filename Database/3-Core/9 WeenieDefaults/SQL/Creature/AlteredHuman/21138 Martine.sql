@@ -65,14 +65,14 @@ VALUES (21138,   1, 'Martine') /* Name */
      , (21138,   5, 'Altered Human') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21138,   1,   33557825) /* Setup */
-     , (21138,   2,  150995198) /* MotionTable */
-     , (21138,   3,  536870913) /* SoundTable */
-     , (21138,   4,  805306368) /* CombatTable */
-     , (21138,   6,   67108990) /* PaletteBase */
-     , (21138,   7,  268436397) /* ClothingBase */
-     , (21138,   8,  100667446) /* Icon */
-     , (21138,  22,  872415236) /* PhysicsEffectTable */;
+VALUES (21138,   1, 0x02000D41) /* Setup */
+     , (21138,   2, 0x090000FE) /* MotionTable */
+     , (21138,   3, 0x20000001) /* SoundTable */
+     , (21138,   4, 0x30000000) /* CombatTable */
+     , (21138,   6, 0x0400007E) /* PaletteBase */
+     , (21138,   7, 0x100003AD) /* ClothingBase */
+     , (21138,   8, 0x06001036) /* Icon */
+     , (21138,  22, 0x34000004) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (21138,   1, 290, 0, 0) /* Strength */
@@ -88,12 +88,12 @@ VALUES (21138,   1,  8210, 0, 0, 8355) /* MaxHealth */
      , (21138,   5,  3500, 0, 0, 4000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (21138,  6, 0, 2, 0,   4, 0, 1289.86401911981) /* MeleeDefense        Trained */
-     , (21138,  7, 0, 2, 0,   5, 0, 1289.86401911981) /* MissileDefense      Trained */
-     , (21138, 13, 0, 2, 0,   5, 0, 1289.86401911981) /* UnarmedCombat       Trained */
-     , (21138, 31, 0, 3, 0, 200, 0, 1289.86401911981) /* CreatureEnchantment Specialized */
-     , (21138, 32, 0, 3, 0, 200, 0, 1289.86401911981) /* ItemEnchantment     Specialized */
-     , (21138, 33, 0, 3, 0, 200, 0, 1289.86401911981) /* LifeMagic           Specialized */;
+VALUES (21138,  6, 0, 2, 0,   4, 0, 1289.864019119814) /* MeleeDefense        Trained */
+     , (21138,  7, 0, 2, 0,   5, 0, 1289.864019119814) /* MissileDefense      Trained */
+     , (21138, 13, 0, 2, 0,   5, 0, 1289.864019119814) /* UnarmedCombat       Trained */
+     , (21138, 31, 0, 3, 0, 200, 0, 1289.864019119814) /* CreatureEnchantment Specialized */
+     , (21138, 32, 0, 3, 0, 200, 0, 1289.864019119814) /* ItemEnchantment     Specialized */
+     , (21138, 33, 0, 3, 0, 200, 0, 1289.864019119814) /* LifeMagic           Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (21138,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -107,12 +107,12 @@ VALUES (21138,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (21138,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (21138,  5 /* HeartBeat */,      1, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (21138,  5 /* HeartBeat */,      1, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,  11 /* Turn */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, -0.6427876, 0, 0, -0.7660444)
+VALUES (@parent_id,  0,  11 /* Turn */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, -0.642788, 0, -0, -0.766044)
      , (@parent_id,  1,  17 /* LocalBroadcast */, 5, 0, NULL, 'Martine surveys the area.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  2,   8 /* Say */, 15, 0, NULL, 'A decisive victory. Gaerlan will not allow us to seize his power passively. There will be more resistance as we edge closer to taking his seat of power. New pitfalls will appear, and we must all be prepared.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  3,   8 /* Say */, 15, 0, NULL, 'With this second crystal shattered we have drawn much attention to our efforts. He will surely become desperate soon.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)

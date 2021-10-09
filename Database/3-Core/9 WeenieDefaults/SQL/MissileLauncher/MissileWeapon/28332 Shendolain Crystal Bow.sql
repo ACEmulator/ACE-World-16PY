@@ -18,7 +18,7 @@ VALUES (28332,   1,        256) /* ItemType - MissileWeapon */
      , (28332,  48,          2) /* WeaponSkill - Bow */
      , (28332,  49,         60) /* WeaponTime */
      , (28332,  50,          8) /* AmmoType - ArrowCrystal */
-     , (28332,  51,          2) /* CombatUse - Missle */
+     , (28332,  51,          2) /* CombatUse - Missile */
      , (28332,  52,          2) /* ParentLocation - LeftHand */
      , (28332,  53,          3) /* PlacementPosition - LeftHand */
      , (28332,  60,        180) /* WeaponRange */
@@ -53,12 +53,12 @@ VALUES (28332,   1, 'Shendolain Crystal Bow') /* Name */
      , (28332,  15, 'A bow imbued with the essence of the Shendolain Crystal. Uses crystal-tipped arrows.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28332,   1,   33554729) /* Setup */
-     , (28332,   3,  536870932) /* SoundTable */
-     , (28332,   6,   67111919) /* PaletteBase */
-     , (28332,   7,  268436042) /* ClothingBase */
-     , (28332,   8,  100671000) /* Icon */
-     , (28332,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28332,   1, 0x02000129) /* Setup */
+     , (28332,   3, 0x20000014) /* SoundTable */
+     , (28332,   6, 0x04000BEF) /* PaletteBase */
+     , (28332,   7, 0x1000024A) /* ClothingBase */
+     , (28332,   8, 0x06001E18) /* Icon */
+     , (28332,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28332,   465,      2)  /* Missile Weapon Mastery Other V */

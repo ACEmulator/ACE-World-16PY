@@ -40,11 +40,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30002,   1, 'Bone Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30002,   1,   33558584) /* Setup */
-     , (30002,   3,  536870932) /* SoundTable */
-     , (30002,   8,  100675766) /* Icon */
-     , (30002,  22,  872415275) /* PhysicsEffectTable */
-     , (30002,  36,  234881044) /* MutateFilter */;
+VALUES (30002,   1, 0x02001038) /* Setup */
+     , (30002,   3, 0x20000014) /* SoundTable */
+     , (30002,   8, 0x060030B6) /* Icon */
+     , (30002,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30002,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30002,  1616,      2)  /* Aura of Blood Drinker Self VI */

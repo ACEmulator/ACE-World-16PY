@@ -33,10 +33,10 @@ VALUES (20992,   1, 'Salvaged Satin') /* Name */
      , (20992,  15, 'A bolt of satin material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20992,   1,   33554817) /* Setup */
-     , (20992,   3,  536870932) /* SoundTable */
-     , (20992,   6,   67111919) /* PaletteBase */
-     , (20992,   7,  268436430) /* ClothingBase */
-     , (20992,   8,  100667436) /* Icon */
-     , (20992,  22,  872415275) /* PhysicsEffectTable */
-     , (20992,  50,  100673298) /* IconOverlay */;
+VALUES (20992,   1, 0x02000181) /* Setup */
+     , (20992,   3, 0x20000014) /* SoundTable */
+     , (20992,   6, 0x04000BEF) /* PaletteBase */
+     , (20992,   7, 0x100003CE) /* ClothingBase */
+     , (20992,   8, 0x0600102C) /* Icon */
+     , (20992,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (20992,  50, 0x06002712) /* IconOverlay */;

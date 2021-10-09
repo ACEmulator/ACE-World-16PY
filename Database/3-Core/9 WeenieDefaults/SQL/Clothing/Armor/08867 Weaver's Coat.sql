@@ -28,7 +28,7 @@ VALUES (8867,  22, True ) /* Inscribable */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8867,   5,  -0.001) /* ManaRate */
-     , (8867,  12,   1E-05) /* Shade */
+     , (8867,  12,       0) /* Shade */
      , (8867,  13,       2) /* ArmorModVsSlash */
      , (8867,  14,       2) /* ArmorModVsPierce */
      , (8867,  15,       2) /* ArmorModVsBludgeon */
@@ -45,12 +45,12 @@ VALUES (8867,   1, 'Weaver''s Coat') /* Name */
      , (8867,  16, 'A coat woven from the flaxen strands of time. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8867,   1,   33554854) /* Setup */
-     , (8867,   3,  536870932) /* SoundTable */
-     , (8867,   6,   67108990) /* PaletteBase */
-     , (8867,   7,  268435873) /* ClothingBase */
-     , (8867,   8,  100670435) /* Icon */
-     , (8867,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8867,   1, 0x020001A6) /* Setup */
+     , (8867,   3, 0x20000014) /* SoundTable */
+     , (8867,   6, 0x0400007E) /* PaletteBase */
+     , (8867,   7, 0x100001A1) /* ClothingBase */
+     , (8867,   8, 0x06001BE3) /* Icon */
+     , (8867,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8867,  2048,      2)  /* Boon of the Demon */;

@@ -66,20 +66,20 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23092,   1, 'Revered Tumerok Shaman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23092,   1,   33554496) /* Setup */
-     , (23092,   2,  150994954) /* MotionTable */
-     , (23092,   3,  536870931) /* SoundTable */
-     , (23092,   4,  805306380) /* CombatTable */
-     , (23092,   6,   67109314) /* PaletteBase */
-     , (23092,   7,  268436631) /* ClothingBase */
-     , (23092,   8,  100667452) /* Icon */
-     , (23092,  22,  872415270) /* PhysicsEffectTable */
+VALUES (23092,   1, 0x02000040) /* Setup */
+     , (23092,   2, 0x0900000A) /* MotionTable */
+     , (23092,   3, 0x20000013) /* SoundTable */
+     , (23092,   4, 0x3000000C) /* CombatTable */
+     , (23092,   6, 0x040001C2) /* PaletteBase */
+     , (23092,   7, 0x10000497) /* ClothingBase */
+     , (23092,   8, 0x0600103C) /* Icon */
+     , (23092,  22, 0x34000026) /* PhysicsEffectTable */
      , (23092,  32,        426) /* WieldedTreasureType - 
-                                   Wield Tachi (23136) | Probability: 30%
+                                   Wield Tachi (23136) | Probability: 30.000002%
                                    Wield Kite Shield (23135) | Probability: 100%
-                                   Wield Yumi (23137) | Probability: 30%
+                                   Wield Yumi (23137) | Probability: 30.000002%
                                    Wield 20x Deadly Arrow (15429) | Probability: 100%
-                                   Wield Heavy Crossbow (23131) | Probability: 30%
+                                   Wield Heavy Crossbow (23131) | Probability: 30.000002%
                                    Wield 50x Deadly Quarrel (15438) | Probability: 100% */
      , (23092,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
@@ -97,24 +97,24 @@ VALUES (23092,   1,  4850, 0, 0, 5000) /* MaxHealth */
      , (23092,   5,  4650, 0, 0, 5000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (23092,  1, 0, 3, 0, 285, 0, 1415.50914012155) /* Axe                 Specialized */
-     , (23092,  2, 0, 3, 0, 240, 0, 1415.50914012155) /* Bow                 Specialized */
-     , (23092,  3, 0, 3, 0, 240, 0, 1415.50914012155) /* Crossbow            Specialized */
-     , (23092,  4, 0, 3, 0, 285, 0, 1415.50914012155) /* Dagger              Specialized */
-     , (23092,  5, 0, 3, 0, 285, 0, 1415.50914012155) /* Mace                Specialized */
-     , (23092,  6, 0, 3, 0, 320, 0, 1415.50914012155) /* MeleeDefense        Specialized */
-     , (23092,  7, 0, 3, 0, 430, 0, 1415.50914012155) /* MissileDefense      Specialized */
-     , (23092,  9, 0, 3, 0, 285, 0, 1415.50914012155) /* Spear               Specialized */
-     , (23092, 10, 0, 3, 0, 285, 0, 1415.50914012155) /* Staff               Specialized */
-     , (23092, 11, 0, 3, 0, 285, 0, 1415.50914012155) /* Sword               Specialized */
-     , (23092, 13, 0, 3, 0, 285, 0, 1415.50914012155) /* UnarmedCombat       Specialized */
-     , (23092, 14, 0, 3, 0, 300, 0, 1415.50914012155) /* ArcaneLore          Specialized */
-     , (23092, 15, 0, 3, 0, 295, 0, 1415.50914012155) /* MagicDefense        Specialized */
-     , (23092, 20, 0, 3, 0, 150, 0, 1415.50914012155) /* Deception           Specialized */
-     , (23092, 24, 0, 3, 0,  60, 0, 1415.50914012155) /* Run                 Specialized */
-     , (23092, 31, 0, 3, 0, 230, 0, 1415.50914012155) /* CreatureEnchantment Specialized */
-     , (23092, 33, 0, 3, 0, 230, 0, 1415.50914012155) /* LifeMagic           Specialized */
-     , (23092, 34, 0, 3, 0, 230, 0, 1415.50914012155) /* WarMagic            Specialized */;
+VALUES (23092,  1, 0, 3, 0, 285, 0, 1415.5091401215516) /* Axe                 Specialized */
+     , (23092,  2, 0, 3, 0, 240, 0, 1415.5091401215516) /* Bow                 Specialized */
+     , (23092,  3, 0, 3, 0, 240, 0, 1415.5091401215516) /* Crossbow            Specialized */
+     , (23092,  4, 0, 3, 0, 285, 0, 1415.5091401215516) /* Dagger              Specialized */
+     , (23092,  5, 0, 3, 0, 285, 0, 1415.5091401215516) /* Mace                Specialized */
+     , (23092,  6, 0, 3, 0, 320, 0, 1415.5091401215516) /* MeleeDefense        Specialized */
+     , (23092,  7, 0, 3, 0, 430, 0, 1415.5091401215516) /* MissileDefense      Specialized */
+     , (23092,  9, 0, 3, 0, 285, 0, 1415.5091401215516) /* Spear               Specialized */
+     , (23092, 10, 0, 3, 0, 285, 0, 1415.5091401215516) /* Staff               Specialized */
+     , (23092, 11, 0, 3, 0, 285, 0, 1415.5091401215516) /* Sword               Specialized */
+     , (23092, 13, 0, 3, 0, 285, 0, 1415.5091401215516) /* UnarmedCombat       Specialized */
+     , (23092, 14, 0, 3, 0, 300, 0, 1415.5091401215516) /* ArcaneLore          Specialized */
+     , (23092, 15, 0, 3, 0, 295, 0, 1415.5091401215516) /* MagicDefense        Specialized */
+     , (23092, 20, 0, 3, 0, 150, 0, 1415.5091401215516) /* Deception           Specialized */
+     , (23092, 24, 0, 3, 0,  60, 0, 1415.5091401215516) /* Run                 Specialized */
+     , (23092, 31, 0, 3, 0, 230, 0, 1415.5091401215516) /* CreatureEnchantment Specialized */
+     , (23092, 33, 0, 3, 0, 230, 0, 1415.5091401215516) /* LifeMagic           Specialized */
+     , (23092, 34, 0, 3, 0, 230, 0, 1415.5091401215516) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (23092,  0,  4,  0,    0,  450,  450,  450,  450,  450,  450,  450,  450,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -128,26 +128,26 @@ VALUES (23092,  0,  4,  0,    0,  450,  450,  450,  450,  450,  450,  450,  450,
      , (23092,  8,  4, 55, 0.75,  450,  450,  450,  450,  450,  450,  450,  450,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23092,    63,  2.015)  /* Acid Stream VI */
+VALUES (23092,    85,  2.015)  /* Flame Bolt VI */
+     , (23092,  1161,  2.009)  /* Heal Self VI */
      , (23092,    69,  2.015)  /* Shock Wave VI */
+     , (23092,   146,  2.015)  /* Flame Volley VI */
+     , (23092,   138,  2.015)  /* Frost Volley VI */
      , (23092,    74,  2.015)  /* Frost Bolt VI */
+     , (23092,   267,  2.012)  /* Defenselessness Other VI */
+     , (23092,   142,  2.015)  /* Lightning Volley VI */
      , (23092,    80,  2.015)  /* Lightning Bolt VI */
-     , (23092,    85,  2.015)  /* Flame Bolt VI */
+     , (23092,  1176,  2.012)  /* Harm Other VI */
+     , (23092,   154,  2.015)  /* Blade Volley VI */
      , (23092,    91,  2.015)  /* Force Bolt VI */
+     , (23092,   285,  2.012)  /* Magic Yield Other VI */
      , (23092,    97,  2.015)  /* Whirling Blade VI */
      , (23092,   106,  2.015)  /* Shock Blast VI */
-     , (23092,   138,  2.015)  /* Frost Volley VI */
-     , (23092,   142,  2.015)  /* Lightning Volley VI */
-     , (23092,   146,  2.015)  /* Flame Volley VI */
-     , (23092,   154,  2.015)  /* Blade Volley VI */
      , (23092,   234,  2.012)  /* Vulnerability Other VI */
-     , (23092,   267,  2.012)  /* Defenselessness Other VI */
-     , (23092,   285,  2.012)  /* Magic Yield Other VI */
-     , (23092,  1161,  2.009)  /* Heal Self VI */
-     , (23092,  1176,  2.012)  /* Harm Other VI */
      , (23092,  1200,  2.012)  /* Enfeeble Other VI */
      , (23092,  1265,  2.012)  /* Drain Mana Other VI */
-     , (23092,  1468,  2.012)  /* Feeblemind Other VI */;
+     , (23092,  1468,  2.012)  /* Feeblemind Other VI */
+     , (23092,    63,  2.015)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (23092,  94) /* ATTACK_NOTIFICATION_EVENT */

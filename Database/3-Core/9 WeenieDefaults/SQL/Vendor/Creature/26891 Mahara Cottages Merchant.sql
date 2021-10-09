@@ -68,11 +68,11 @@ VALUES (26891,   1, 'Mahara Cottages Merchant') /* Name */
      , (26891,   5, 'Merchant') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26891,   1,   33554433) /* Setup */
-     , (26891,   2,  150994945) /* MotionTable */
-     , (26891,   3,  536870913) /* SoundTable */
-     , (26891,   4,  805306368) /* CombatTable */
-     , (26891,   8,  100667446) /* Icon */;
+VALUES (26891,   1, 0x02000001) /* Setup */
+     , (26891,   2, 0x09000001) /* MotionTable */
+     , (26891,   3, 0x20000001) /* SoundTable */
+     , (26891,   4, 0x30000000) /* CombatTable */
+     , (26891,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (26891,   1,  90, 0, 0) /* Strength */

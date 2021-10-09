@@ -22,5 +22,5 @@ VALUES (15249,   1, 'Regina Cottages') /* Name */
      , (15249,  16, 'Welcome to Regina Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15249,   1,   33557463) /* Setup */
-     , (15249,   8,  100668115) /* Icon */;
+VALUES (15249,   1, 0x02000BD7) /* Setup */
+     , (15249,   8, 0x060012D3) /* Icon */;

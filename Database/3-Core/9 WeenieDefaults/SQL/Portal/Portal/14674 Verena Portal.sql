@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14674,   1, 'Verena Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14674,   1,   33554867) /* Setup */
-     , (14674,   2,  150994947) /* MotionTable */
-     , (14674,   8,  100667499) /* Icon */;
+VALUES (14674,   1, 0x020001B3) /* Setup */
+     , (14674,   2, 0x09000003) /* MotionTable */
+     , (14674,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14674, 2, 1640628262, 103.765, 124.468, 67.22, 0.5470521, 0, 0, -0.8370985) /* Destination */
-/* @teleloc 0x61CA0026 [103.765000 124.468000 67.220000] 0.547052 0.000000 0.000000 -0.837099 */;
+VALUES (14674, 2, 0x61CA0026, 103.765, 124.468, 67.22, 0.547052, 0, 0, -0.837099) /* Destination */
+/* @teleloc 0x61CA0026 [103.764999 124.468002 67.220001] 0.547052 0.000000 0.000000 -0.837099 */;

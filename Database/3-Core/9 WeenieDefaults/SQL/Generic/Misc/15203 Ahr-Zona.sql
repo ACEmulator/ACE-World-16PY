@@ -22,5 +22,5 @@ VALUES (15203,   1, 'Ahr-Zona') /* Name */
      , (15203,  16, 'Welcome to Ahr-Zona') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15203,   1,   33557463) /* Setup */
-     , (15203,   8,  100668115) /* Icon */;
+VALUES (15203,   1, 0x02000BD7) /* Setup */
+     , (15203,   8, 0x060012D3) /* Icon */;

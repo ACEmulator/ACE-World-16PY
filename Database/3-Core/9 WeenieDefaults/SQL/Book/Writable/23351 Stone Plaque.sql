@@ -25,8 +25,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23351,   1, 'Stone Plaque') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23351,   1,   33558179) /* Setup */
-     , (23351,   8,  100667494) /* Icon */;
+VALUES (23351,   1, 0x02000EA3) /* Setup */
+     , (23351,   8, 0x06001066) /* Icon */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (23351, 1, 1000);

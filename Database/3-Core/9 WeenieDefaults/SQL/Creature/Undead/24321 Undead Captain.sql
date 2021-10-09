@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24321,   1, 'Undead Captain') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24321,   1,   33554839) /* Setup */
-     , (24321,   2,  150994967) /* MotionTable */
-     , (24321,   3,  536870934) /* SoundTable */
-     , (24321,   4,  805306368) /* CombatTable */
-     , (24321,   6,   67110722) /* PaletteBase */
-     , (24321,   7,  268436626) /* ClothingBase */
-     , (24321,   8,  100667942) /* Icon */
-     , (24321,  22,  872415272) /* PhysicsEffectTable */
+VALUES (24321,   1, 0x02000197) /* Setup */
+     , (24321,   2, 0x09000017) /* MotionTable */
+     , (24321,   3, 0x20000016) /* SoundTable */
+     , (24321,   4, 0x30000000) /* CombatTable */
+     , (24321,   6, 0x04000742) /* PaletteBase */
+     , (24321,   7, 0x10000492) /* ClothingBase */
+     , (24321,   8, 0x06001226) /* Icon */
+     , (24321,  22, 0x34000028) /* PhysicsEffectTable */
      , (24321,  32,        199) /* WieldedTreasureType - 
                                    Wield Yumi (23733) | Probability: 6%
                                    Wield 20x Deadly Armor Piercing Arrow (15431) | Probability: 100%
@@ -116,20 +116,20 @@ VALUES (24321,   1,   290, 0, 0, 443) /* MaxHealth */
      , (24321,   5,   150, 0, 0, 450) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (24321,  1, 0, 3, 0, 310, 0, 1546.20226065409) /* Axe                 Specialized */
-     , (24321,  2, 0, 3, 0, 175, 0, 1546.20226065409) /* Bow                 Specialized */
-     , (24321,  3, 0, 3, 0, 175, 0, 1546.20226065409) /* Crossbow            Specialized */
-     , (24321,  4, 0, 3, 0, 300, 0, 1546.20226065409) /* Dagger              Specialized */
-     , (24321,  5, 0, 3, 0, 310, 0, 1546.20226065409) /* Mace                Specialized */
-     , (24321,  6, 0, 3, 0, 330, 0, 1546.20226065409) /* MeleeDefense        Specialized */
-     , (24321,  7, 0, 3, 0, 435, 0, 1546.20226065409) /* MissileDefense      Specialized */
-     , (24321,  9, 0, 3, 0, 310, 0, 1546.20226065409) /* Spear               Specialized */
-     , (24321, 10, 0, 3, 0, 310, 0, 1546.20226065409) /* Staff               Specialized */
-     , (24321, 11, 0, 3, 0, 310, 0, 1546.20226065409) /* Sword               Specialized */
-     , (24321, 13, 0, 3, 0, 310, 0, 1546.20226065409) /* UnarmedCombat       Specialized */
-     , (24321, 14, 0, 2, 0, 150, 0, 1546.20226065409) /* ArcaneLore          Trained */
-     , (24321, 15, 0, 3, 0, 280, 0, 1546.20226065409) /* MagicDefense        Specialized */
-     , (24321, 20, 0, 2, 0,  90, 0, 1546.20226065409) /* Deception           Trained */;
+VALUES (24321,  1, 0, 3, 0, 310, 0, 1546.202260654091) /* Axe                 Specialized */
+     , (24321,  2, 0, 3, 0, 175, 0, 1546.202260654091) /* Bow                 Specialized */
+     , (24321,  3, 0, 3, 0, 175, 0, 1546.202260654091) /* Crossbow            Specialized */
+     , (24321,  4, 0, 3, 0, 300, 0, 1546.202260654091) /* Dagger              Specialized */
+     , (24321,  5, 0, 3, 0, 310, 0, 1546.202260654091) /* Mace                Specialized */
+     , (24321,  6, 0, 3, 0, 330, 0, 1546.202260654091) /* MeleeDefense        Specialized */
+     , (24321,  7, 0, 3, 0, 435, 0, 1546.202260654091) /* MissileDefense      Specialized */
+     , (24321,  9, 0, 3, 0, 310, 0, 1546.202260654091) /* Spear               Specialized */
+     , (24321, 10, 0, 3, 0, 310, 0, 1546.202260654091) /* Staff               Specialized */
+     , (24321, 11, 0, 3, 0, 310, 0, 1546.202260654091) /* Sword               Specialized */
+     , (24321, 13, 0, 3, 0, 310, 0, 1546.202260654091) /* UnarmedCombat       Specialized */
+     , (24321, 14, 0, 2, 0, 150, 0, 1546.202260654091) /* ArcaneLore          Trained */
+     , (24321, 15, 0, 3, 0, 280, 0, 1546.202260654091) /* MagicDefense        Specialized */
+     , (24321, 20, 0, 2, 0,  90, 0, 1546.202260654091) /* Deception           Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (24321,  0,  4,  0,    0,  410,  410,  410,  410,  410,  410,  410,  410,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -171,7 +171,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Our seafaring days may be over, but our booty still litters these shores.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24321,  3 /* Death */, 0.05999999, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (24321,  3 /* Death */,   0.06, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -179,7 +179,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Ye''ll not rid the world of me and mine that easy. We''ll be back and mark ye with our weapons for sure.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24321,  3 /* Death */, 0.06999999, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (24321,  3 /* Death */,   0.07, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

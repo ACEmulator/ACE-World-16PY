@@ -37,10 +37,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28611,   1, 'Viamontian Laced Boots') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28611,   1,   33554640) /* Setup */
-     , (28611,   3,  536870932) /* SoundTable */
-     , (28611,   6,   67108990) /* PaletteBase */
-     , (28611,   7,  268435695) /* ClothingBase */
-     , (28611,   8,  100667310) /* Icon */
-     , (28611,  22,  872415275) /* PhysicsEffectTable */
-     , (28611,  36,  234881046) /* MutateFilter */;
+VALUES (28611,   1, 0x020000D0) /* Setup */
+     , (28611,   3, 0x20000014) /* SoundTable */
+     , (28611,   6, 0x0400007E) /* PaletteBase */
+     , (28611,   7, 0x100000EF) /* ClothingBase */
+     , (28611,   8, 0x06000FAE) /* Icon */
+     , (28611,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (28611,  36, 0x0E000016) /* MutateFilter */;

@@ -47,12 +47,12 @@ VALUES (25843,   1, 'Nefane Shield') /* Name */
      , (25843,  15, 'This shield was carved from the shell of a corrupted Nefane. Some elements of the natural magic of the creature remains within the shield.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25843,   1,   33558556) /* Setup */
-     , (25843,   3,  536870932) /* SoundTable */
-     , (25843,   6,   67114787) /* PaletteBase */
-     , (25843,   7,  268436757) /* ClothingBase */
-     , (25843,   8,  100675625) /* Icon */
-     , (25843,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25843,   1, 0x0200101C) /* Setup */
+     , (25843,   3, 0x20000014) /* SoundTable */
+     , (25843,   6, 0x04001723) /* PaletteBase */
+     , (25843,   7, 0x10000515) /* ClothingBase */
+     , (25843,   8, 0x06003029) /* Icon */
+     , (25843,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25843,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

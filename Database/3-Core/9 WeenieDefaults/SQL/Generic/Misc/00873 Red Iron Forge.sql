@@ -22,7 +22,7 @@ VALUES (873,   1, 'Red Iron Forge') /* Name */
      , (873,  16, 'Red Iron Forge') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (873,   1,   33555594) /* Setup */
-     , (873,   6,   67111782) /* PaletteBase */
-     , (873,   7,  268435686) /* ClothingBase */
-     , (873,   8,  100668115) /* Icon */;
+VALUES (873,   1, 0x0200048A) /* Setup */
+     , (873,   6, 0x04000B66) /* PaletteBase */
+     , (873,   7, 0x100000E6) /* ClothingBase */
+     , (873,   8, 0x060012D3) /* Icon */;

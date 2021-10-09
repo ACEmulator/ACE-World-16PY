@@ -29,7 +29,7 @@ VALUES (25338,  22, True ) /* Inscribable */
      , (25338,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25338,   5, -0.0333) /* ManaRate */
+VALUES (25338,   5,  -0.033) /* ManaRate */
      , (25338,  12,    0.66) /* Shade */
      , (25338,  13,     1.3) /* ArmorModVsSlash */
      , (25338,  14,     1.3) /* ArmorModVsPierce */
@@ -47,19 +47,19 @@ VALUES (25338,   1, 'Koji''s Visage') /* Name */
      , (25338,  19, 'Sho') /* ItemHeritageGroupRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25338,   1,   33558446) /* Setup */
-     , (25338,   3,  536870932) /* SoundTable */
-     , (25338,   6,   67108990) /* PaletteBase */
-     , (25338,   7,  268436676) /* ClothingBase */
-     , (25338,   8,  100674855) /* Icon */
-     , (25338,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25338,   1, 0x02000FAE) /* Setup */
+     , (25338,   3, 0x20000014) /* SoundTable */
+     , (25338,   6, 0x0400007E) /* PaletteBase */
+     , (25338,   7, 0x100004C4) /* ClothingBase */
+     , (25338,   8, 0x06002D27) /* Icon */
+     , (25338,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25338,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25338,   249,      2)  /* Invulnerability Self VI */
-     , (25338,   278,      2)  /* Magic Resistance Self V */
-     , (25338,   448,      2)  /* Light Weapon Mastery Self VI */
-     , (25338,  1312,      2)  /* Armor Self VI */
+VALUES (25338,   448,      2)  /* Light Weapon Mastery Self VI */
      , (25338,  1485,      2)  /* Impenetrability V */
+     , (25338,  2696,      2)  /* Moderate Light Weapon Aptitude */
      , (25338,  2550,      2)  /* Minor Invulnerability */
-     , (25338,  2696,      2)  /* Moderate Light Weapon Aptitude */;
+     , (25338,   278,      2)  /* Magic Resistance Self V */
+     , (25338,  1312,      2)  /* Armor Self VI */
+     , (25338,   249,      2)  /* Invulnerability Self VI */;

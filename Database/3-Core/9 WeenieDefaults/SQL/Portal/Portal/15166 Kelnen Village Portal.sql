@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15166,   1, 'Kelnen Village Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15166,   1,   33554867) /* Setup */
-     , (15166,   2,  150994947) /* MotionTable */
-     , (15166,   8,  100667499) /* Icon */;
+VALUES (15166,   1, 0x020001B3) /* Setup */
+     , (15166,   2, 0x09000003) /* MotionTable */
+     , (15166,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15166, 2, 3007643666, 59.626, 34.955, 28.005, 0.9952393, 0, 0, -0.09746135) /* Destination */
-/* @teleloc 0xB3450012 [59.626000 34.955000 28.005000] 0.995239 0.000000 0.000000 -0.097461 */;
+VALUES (15166, 2, 0xB3450012, 59.626, 34.955, 28.005, 0.995239, 0, 0, -0.097461) /* Destination */
+/* @teleloc 0xB3450012 [59.625999 34.955002 28.004999] 0.995239 0.000000 0.000000 -0.097461 */;

@@ -14,5 +14,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4177,   1, 'Local Spell Economy') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4177,   1,   33554705) /* Setup */
-     , (4177,   8,  100667509) /* Icon */;
+VALUES (4177,   1, 0x02000111) /* Setup */
+     , (4177,   8, 0x06001075) /* Icon */;

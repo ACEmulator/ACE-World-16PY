@@ -22,5 +22,5 @@ VALUES (14330,   1, 'Stone Scar Settlement') /* Name */
      , (14330,  16, 'Welcome to Stone Scar Settlement') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14330,   1,   33557463) /* Setup */
-     , (14330,   8,  100668115) /* Icon */;
+VALUES (14330,   1, 0x02000BD7) /* Setup */
+     , (14330,   8, 0x060012D3) /* Icon */;

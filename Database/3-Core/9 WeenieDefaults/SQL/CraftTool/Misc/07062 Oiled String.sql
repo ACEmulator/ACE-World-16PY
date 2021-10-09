@@ -33,9 +33,9 @@ VALUES (7062,   1, 'Oiled String') /* Name */
      , (7062,  16, 'A piece of braided string coated with blooddrinker oil.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7062,   1,   33554817) /* Setup */
-     , (7062,   3,  536870932) /* SoundTable */
-     , (7062,   6,   67111919) /* PaletteBase */
-     , (7062,   7,  268435832) /* ClothingBase */
-     , (7062,   8,  100670729) /* Icon */
-     , (7062,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7062,   1, 0x02000181) /* Setup */
+     , (7062,   3, 0x20000014) /* SoundTable */
+     , (7062,   6, 0x04000BEF) /* PaletteBase */
+     , (7062,   7, 0x10000178) /* ClothingBase */
+     , (7062,   8, 0x06001D09) /* Icon */
+     , (7062,  22, 0x3400002B) /* PhysicsEffectTable */;

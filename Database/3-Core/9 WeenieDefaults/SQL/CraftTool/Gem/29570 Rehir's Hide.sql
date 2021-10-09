@@ -34,9 +34,9 @@ VALUES (29570,   1, 'Rehir''s Hide') /* Name */
      , (29570,  33, 'RehirBeaten') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29570,   1,   33554817) /* Setup */
-     , (29570,   3,  536870932) /* SoundTable */
-     , (29570,   6,   67111919) /* PaletteBase */
-     , (29570,   7,  268435832) /* ClothingBase */
-     , (29570,   8,  100677162) /* Icon */
-     , (29570,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29570,   1, 0x02000181) /* Setup */
+     , (29570,   3, 0x20000014) /* SoundTable */
+     , (29570,   6, 0x04000BEF) /* PaletteBase */
+     , (29570,   7, 0x10000178) /* ClothingBase */
+     , (29570,   8, 0x0600362A) /* Icon */
+     , (29570,  22, 0x3400002B) /* PhysicsEffectTable */;

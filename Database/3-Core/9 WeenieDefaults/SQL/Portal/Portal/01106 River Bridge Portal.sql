@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1106,   1, 'River Bridge Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1106,   1,   33554867) /* Setup */
-     , (1106,   2,  150994947) /* MotionTable */
-     , (1106,   8,  100667499) /* Icon */;
+VALUES (1106,   1, 0x020001B3) /* Setup */
+     , (1106,   2, 0x09000003) /* MotionTable */
+     , (1106,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1106, 2, 3148021785, 72.1, 23, 7.6, 0.9945219, 0, 0, -0.1045285) /* Destination */
-/* @teleloc 0xBBA30019 [72.100000 23.000000 7.600000] 0.994522 0.000000 0.000000 -0.104529 */;
+VALUES (1106, 2, 0xBBA30019, 72.1, 23, 7.6, 0.994522, 0, 0, -0.104529) /* Destination */
+/* @teleloc 0xBBA30019 [72.099998 23.000000 7.600000] 0.994522 0.000000 0.000000 -0.104528 */;

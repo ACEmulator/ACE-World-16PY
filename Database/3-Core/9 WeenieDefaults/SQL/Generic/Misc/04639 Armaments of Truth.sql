@@ -23,7 +23,7 @@ VALUES (4639,   1, 'Armaments of Truth') /* Name */
      , (4639,  16, 'Armaments of Truth') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4639,   1,   33555909) /* Setup */
-     , (4639,   6,   67111860) /* PaletteBase */
-     , (4639,   7,  268435818) /* ClothingBase */
-     , (4639,   8,  100668115) /* Icon */;
+VALUES (4639,   1, 0x020005C5) /* Setup */
+     , (4639,   6, 0x04000BB4) /* PaletteBase */
+     , (4639,   7, 0x1000016A) /* ClothingBase */
+     , (4639,   8, 0x060012D3) /* Icon */;

@@ -22,5 +22,5 @@ VALUES (14331,   1, 'Taralla') /* Name */
      , (14331,  16, 'Welcome to Taralla') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14331,   1,   33557463) /* Setup */
-     , (14331,   8,  100668115) /* Icon */;
+VALUES (14331,   1, 0x02000BD7) /* Setup */
+     , (14331,   8, 0x060012D3) /* Icon */;

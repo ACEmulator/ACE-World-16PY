@@ -31,7 +31,7 @@ VALUES (22030,   1, 'Sclavus Leg') /* Name */
      , (22030,  14, 'Use this on a sclavus torso fitted with arms or one fitted with arms and a leg.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22030,   1,   33558033) /* Setup */
-     , (22030,   3,  536870932) /* SoundTable */
-     , (22030,   8,  100673696) /* Icon */
-     , (22030,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22030,   1, 0x02000E11) /* Setup */
+     , (22030,   3, 0x20000014) /* SoundTable */
+     , (22030,   8, 0x060028A0) /* Icon */
+     , (22030,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -23,7 +23,7 @@ VALUES (23468,   1, 'Large Fish Title Token') /* Name */
      , (23468,  16, 'Hand this token to a Tackle Master to get the Title of Pro Fisherman.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23468,   1,   33558276) /* Setup */
-     , (23468,   3,  536870932) /* SoundTable */
-     , (23468,   8,  100674183) /* Icon */
-     , (23468,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23468,   1, 0x02000F04) /* Setup */
+     , (23468,   3, 0x20000014) /* SoundTable */
+     , (23468,   8, 0x06002A87) /* Icon */
+     , (23468,  22, 0x3400002B) /* PhysicsEffectTable */;

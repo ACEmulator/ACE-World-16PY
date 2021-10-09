@@ -29,9 +29,9 @@ VALUES (28359,   1, 'Emblem of Blackened Weald') /* Name */
      , (28359,  15, 'A round emblem made from two fragments of Blackened Wood.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28359,   1,   33555194) /* Setup */
-     , (28359,   3,  536870932) /* SoundTable */
-     , (28359,   6,   67111092) /* PaletteBase */
-     , (28359,   7,  268436400) /* ClothingBase */
-     , (28359,   8,  100676991) /* Icon */
-     , (28359,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28359,   1, 0x020002FA) /* Setup */
+     , (28359,   3, 0x20000014) /* SoundTable */
+     , (28359,   6, 0x040008B4) /* PaletteBase */
+     , (28359,   7, 0x100003B0) /* ClothingBase */
+     , (28359,   8, 0x0600357F) /* Icon */
+     , (28359,  22, 0x3400002B) /* PhysicsEffectTable */;

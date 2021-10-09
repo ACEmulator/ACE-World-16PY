@@ -24,7 +24,7 @@ VALUES (20238,   1, 'Scroll of Anemia') /* Name */
      , (20238,  15, 'When learned, this spell drains 50-100 points of the target''s Stamina.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20238,   1,   33554826) /* Setup */
-     , (20238,   8,  100676933) /* Icon */
-     , (20238,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20238,   1, 0x0200018A) /* Setup */
+     , (20238,   8, 0x06003545) /* Icon */
+     , (20238,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20238,  28,       2062) /* Spell - Anemia */;

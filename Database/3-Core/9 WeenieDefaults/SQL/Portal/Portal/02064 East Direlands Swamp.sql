@@ -25,10 +25,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2064,   1, 'East Direlands Swamp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2064,   1,   33555923) /* Setup */
-     , (2064,   2,  150994947) /* MotionTable */
-     , (2064,   8,  100667499) /* Icon */;
+VALUES (2064,   1, 0x020005D3) /* Setup */
+     , (2064,   2, 0x09000003) /* MotionTable */
+     , (2064,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2064, 2, 994902071, 163.769, 144.452, 34.91, 0.4888039, 0, 0, -0.8723937) /* Destination */
-/* @teleloc 0x3B4D0037 [163.769000 144.452000 34.910000] 0.488804 0.000000 0.000000 -0.872394 */;
+VALUES (2064, 2, 0x3B4D0037, 163.769, 144.452, 34.91, 0.488804, 0, 0, -0.872394) /* Destination */
+/* @teleloc 0x3B4D0037 [163.768997 144.451996 34.910000] 0.488804 0.000000 0.000000 -0.872394 */;

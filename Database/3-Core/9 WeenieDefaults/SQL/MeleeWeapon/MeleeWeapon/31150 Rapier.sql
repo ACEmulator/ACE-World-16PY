@@ -33,7 +33,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31150,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31150,   5,       0) /* ManaRate */
+VALUES (31150,   5,      -0) /* ManaRate */
      , (31150,  21,    0.95) /* WeaponLength */
      , (31150,  22,     0.5) /* DamageVariance */
      , (31150,  29,    1.12) /* WeaponDefense */
@@ -44,15 +44,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31150,   1, 'Rapier') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31150,   1,   33556588) /* Setup */
-     , (31150,   3,  536870932) /* SoundTable */
-     , (31150,   6,   67111919) /* PaletteBase */
-     , (31150,   7,  268435997) /* ClothingBase */
-     , (31150,   8,  100670656) /* Icon */
-     , (31150,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31150,   1, 0x0200086C) /* Setup */
+     , (31150,   3, 0x20000014) /* SoundTable */
+     , (31150,   6, 0x04000BEF) /* PaletteBase */
+     , (31150,   7, 0x1000021D) /* ClothingBase */
+     , (31150,   8, 0x06001CC0) /* Icon */
+     , (31150,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31150,  2096,      2)  /* Aura of Infected Caress */
+VALUES (31150,  2116,      2)  /* Aura of Atlan's Alacrity */
+     , (31150,  2096,      2)  /* Aura of Infected Caress */
      , (31150,  2101,      2)  /* Aura of Cragstone's Will */
-     , (31150,  2106,      2)  /* Aura of Elysa's Sight */
-     , (31150,  2116,      2)  /* Aura of Atlan's Alacrity */;
+     , (31150,  2106,      2)  /* Aura of Elysa's Sight */;

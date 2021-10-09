@@ -25,7 +25,7 @@ VALUES (4793,   1, 'Brentsella''s Key') /* Name */
      , (4793,  15, 'Brentsella''s Key') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4793,   1,   33554784) /* Setup */
-     , (4793,   3,  536870932) /* SoundTable */
-     , (4793,   8,  100667486) /* Icon */
-     , (4793,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4793,   1, 0x02000160) /* Setup */
+     , (4793,   3, 0x20000014) /* SoundTable */
+     , (4793,   8, 0x0600105E) /* Icon */
+     , (4793,  22, 0x3400002B) /* PhysicsEffectTable */;

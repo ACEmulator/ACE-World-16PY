@@ -36,11 +36,11 @@ VALUES (26344,   1, 'Sands-of-the-Skull Cottages Portal Gem') /* Name */
      , (26344,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26344,   1,   33556769) /* Setup */
-     , (26344,   3,  536870932) /* SoundTable */
-     , (26344,   6,   67111919) /* PaletteBase */
-     , (26344,   7,  268435723) /* ClothingBase */
-     , (26344,   8,  100675760) /* Icon */
-     , (26344,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26344,   1, 0x02000921) /* Setup */
+     , (26344,   3, 0x20000014) /* SoundTable */
+     , (26344,   6, 0x04000BEF) /* PaletteBase */
+     , (26344,   7, 0x1000010B) /* ClothingBase */
+     , (26344,   8, 0x060030B0) /* Icon */
+     , (26344,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26344,  28,        157) /* Spell - Summon Primary Portal I */
      , (26344,  31,      14664) /* LinkedPortalOne - Sands-of-the-Skull Cottages Portal */;

@@ -36,6 +36,6 @@ VALUES (7800,   1, 'Geyser') /* Name */
      , (7800,  17, 'You suffer %i damage from the geyser.') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7800,   1,   33555403) /* Setup */
-     , (7800,   3,  536870994) /* SoundTable */
-     , (7800,   8,  100667465) /* Icon */;
+VALUES (7800,   1, 0x020003CB) /* Setup */
+     , (7800,   3, 0x20000052) /* SoundTable */
+     , (7800,   8, 0x06001049) /* Icon */;

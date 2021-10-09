@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1125,   1, 'Holtburg Dungeon') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1125,   1,   33554867) /* Setup */
-     , (1125,   2,  150994947) /* MotionTable */
-     , (1125,   8,  100667499) /* Icon */;
+VALUES (1125,   1, 0x020001B3) /* Setup */
+     , (1125,   2, 0x09000003) /* MotionTable */
+     , (1125,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1125, 2, 32899721, 96.7, -10, 0, -0.7192791, 0, 0, -0.6947212) /* Destination */
-/* @teleloc 0x01F60289 [96.700000 -10.000000 0.000000] -0.719279 0.000000 0.000000 -0.694721 */;
+VALUES (1125, 2, 0x01F60289, 96.7, -10, 0, -0.719279, 0, -0, -0.694721) /* Destination */
+/* @teleloc 0x01F60289 [96.699997 -10.000000 0.000000] -0.719279 0.000000 -0.000000 -0.694721 */;

@@ -45,13 +45,13 @@ VALUES (29230,   1, 'Ishaq''s Mace') /* Name */
      , (29230,  16, 'This mace was received as a reward for helping Ishaq the Natural Philosopher recover his lost key, thus allowing him to continue work on his manuscript, Volume 12 of "The Peculiar Nature and Behavior of Derethian Fauna with Especial Emphasis on Cross-World Speciation".') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29230,   1,   33559118) /* Setup */
-     , (29230,   3,  536870932) /* SoundTable */
-     , (29230,   8,  100677363) /* Icon */
-     , (29230,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29230,   1, 0x0200124E) /* Setup */
+     , (29230,   3, 0x20000014) /* SoundTable */
+     , (29230,   8, 0x060036F3) /* Icon */
+     , (29230,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29230,  1592,      2)  /* Aura of Heart Seeker Self VI */
+VALUES (29230,  2600,      2)  /* Minor Defender */
+     , (29230,  2603,      2)  /* Minor Heart Thirst */
      , (29230,  2096,      2)  /* Aura of Infected Caress */
-     , (29230,  2600,      2)  /* Minor Defender */
-     , (29230,  2603,      2)  /* Minor Heart Thirst */;
+     , (29230,  1592,      2)  /* Aura of Heart Seeker Self VI */;

@@ -22,7 +22,7 @@ VALUES (874,   1, 'Healer Kouxao') /* Name */
      , (874,  16, 'Healer Kouxao') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (874,   1,   33555594) /* Setup */
-     , (874,   6,   67111782) /* PaletteBase */
-     , (874,   7,  268435689) /* ClothingBase */
-     , (874,   8,  100668115) /* Icon */;
+VALUES (874,   1, 0x0200048A) /* Setup */
+     , (874,   6, 0x04000B66) /* PaletteBase */
+     , (874,   7, 0x100000E9) /* ClothingBase */
+     , (874,   8, 0x060012D3) /* Icon */;

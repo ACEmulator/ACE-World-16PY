@@ -40,9 +40,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23325,   1, 'Rusted Trident') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23325,   1,   33556641) /* Setup */
-     , (23325,   3,  536870932) /* SoundTable */
-     , (23325,   6,   67111919) /* PaletteBase */
-     , (23325,   7,  268436013) /* ClothingBase */
-     , (23325,   8,  100674229) /* Icon */
-     , (23325,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23325,   1, 0x020008A1) /* Setup */
+     , (23325,   3, 0x20000014) /* SoundTable */
+     , (23325,   6, 0x04000BEF) /* PaletteBase */
+     , (23325,   7, 0x1000022D) /* ClothingBase */
+     , (23325,   8, 0x06002AB5) /* Icon */
+     , (23325,  22, 0x3400002B) /* PhysicsEffectTable */;

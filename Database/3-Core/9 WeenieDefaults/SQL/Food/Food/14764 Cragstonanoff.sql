@@ -29,7 +29,7 @@ VALUES (14764,   1, 'Cragstonanoff') /* Name */
      , (14764,  20, 'Bowls of Cragstonanoff') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14764,   1,   33554668) /* Setup */
-     , (14764,   3,  536870932) /* SoundTable */
-     , (14764,   8,  100672545) /* Icon */
-     , (14764,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14764,   1, 0x020000EC) /* Setup */
+     , (14764,   3, 0x20000014) /* SoundTable */
+     , (14764,   8, 0x06002421) /* Icon */
+     , (14764,  22, 0x3400002B) /* PhysicsEffectTable */;

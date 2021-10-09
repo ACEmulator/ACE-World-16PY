@@ -63,12 +63,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28408,   1, 'Eye of the Watcher') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28408,   1,   33558604) /* Setup */
-     , (28408,   2,  150995275) /* MotionTable */
-     , (28408,   3,  536871052) /* SoundTable */
-     , (28408,   4,  805306398) /* CombatTable */
-     , (28408,   8,  100675798) /* Icon */
-     , (28408,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (28408,   1, 0x0200104C) /* Setup */
+     , (28408,   2, 0x0900014B) /* MotionTable */
+     , (28408,   3, 0x2000008C) /* SoundTable */
+     , (28408,   4, 0x3000001E) /* CombatTable */
+     , (28408,   8, 0x060030D6) /* Icon */
+     , (28408,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28408,   1, 380, 0, 0) /* Strength */
@@ -84,10 +84,10 @@ VALUES (28408,   1,   200, 0, 0, 370) /* MaxHealth */
      , (28408,   5,   201, 0, 0, 486) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (28408, 31, 0, 3, 0, 500, 0, 2021.06835656107) /* CreatureEnchantment Specialized */
-     , (28408, 32, 0, 3, 0, 500, 0, 2021.06835656107) /* ItemEnchantment     Specialized */
-     , (28408, 33, 0, 3, 0, 500, 0, 2021.06835656107) /* LifeMagic           Specialized */
-     , (28408, 34, 0, 3, 0, 500, 0, 2021.06835656107) /* WarMagic            Specialized */;
+VALUES (28408, 31, 0, 3, 0, 500, 0, 2021.0683565610727) /* CreatureEnchantment Specialized */
+     , (28408, 32, 0, 3, 0, 500, 0, 2021.0683565610727) /* ItemEnchantment     Specialized */
+     , (28408, 33, 0, 3, 0, 500, 0, 2021.0683565610727) /* LifeMagic           Specialized */
+     , (28408, 34, 0, 3, 0, 500, 0, 2021.0683565610727) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (28408,  0,  8,  3,  0.5,   20,   16,   16,   16,   20,   20,   20,   20,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */

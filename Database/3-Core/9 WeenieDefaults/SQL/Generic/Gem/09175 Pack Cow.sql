@@ -31,10 +31,10 @@ VALUES (9175,   1, 'Pack Cow') /* Name */
      , (9175,  16, 'Special, limited-edition, pre-patch, hoary, gold-foil wrap, embossed lettering, signed and numbered by the author... Cow.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9175,   1,   33554438) /* Setup */
-     , (9175,   2,  150995116) /* MotionTable */
-     , (9175,   6,   67113135) /* PaletteBase */
-     , (9175,   7,  268436136) /* ClothingBase */
-     , (9175,   8,  100667444) /* Icon */
-     , (9175,  22,  872415256) /* PhysicsEffectTable */
-     , (9175,  36,  234881046) /* MutateFilter */;
+VALUES (9175,   1, 0x02000006) /* Setup */
+     , (9175,   2, 0x090000AC) /* MotionTable */
+     , (9175,   6, 0x040010AF) /* PaletteBase */
+     , (9175,   7, 0x100002A8) /* ClothingBase */
+     , (9175,   8, 0x06001034) /* Icon */
+     , (9175,  22, 0x34000018) /* PhysicsEffectTable */
+     , (9175,  36, 0x0E000016) /* MutateFilter */;

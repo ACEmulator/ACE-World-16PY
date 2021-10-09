@@ -25,10 +25,10 @@ VALUES (6412,   1, 'A Journal') /* Name */
      , (6412,  16, 'A translation of a small book found in the Artifex Vault.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6412,   1,   33554771) /* Setup */
-     , (6412,   3,  536870932) /* SoundTable */
-     , (6412,   8,  100668117) /* Icon */
-     , (6412,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6412,   1, 0x02000153) /* Setup */
+     , (6412,   3, 0x20000014) /* SoundTable */
+     , (6412,   8, 0x060012D5) /* Icon */
+     , (6412,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (6412, 15, 1000);

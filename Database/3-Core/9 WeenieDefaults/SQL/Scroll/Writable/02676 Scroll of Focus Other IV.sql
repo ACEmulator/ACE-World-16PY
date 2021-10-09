@@ -25,7 +25,7 @@ VALUES (2676,   1, 'Scroll of Focus Other IV') /* Name */
      , (2676,  16, 'When learned, this spell increases the target''s Focus by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2676,   1,   33554826) /* Setup */
-     , (2676,   8,  100676458) /* Icon */
-     , (2676,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2676,   1, 0x0200018A) /* Setup */
+     , (2676,   8, 0x0600336A) /* Icon */
+     , (2676,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2676,  28,       1430) /* Spell - Focus Other IV */;

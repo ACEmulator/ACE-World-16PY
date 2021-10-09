@@ -28,7 +28,7 @@ VALUES (28843,   1, 'Cake') /* Name */
      , (28843,  20, 'Slices of Cake') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28843,   1,   33555193) /* Setup */
-     , (28843,   3,  536870932) /* SoundTable */
-     , (28843,   8,  100667457) /* Icon */
-     , (28843,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28843,   1, 0x020002F9) /* Setup */
+     , (28843,   3, 0x20000014) /* SoundTable */
+     , (28843,   8, 0x06001041) /* Icon */
+     , (28843,  22, 0x3400002B) /* PhysicsEffectTable */;

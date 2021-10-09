@@ -25,7 +25,7 @@ VALUES (2640,   1, 'Scroll of Clumsiness Other III') /* Name */
      , (2640,  16, 'When learned, this spell decreases the target''s Coordination by 30 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2640,   1,   33554826) /* Setup */
-     , (2640,   8,  100676452) /* Icon */
-     , (2640,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2640,   1, 0x0200018A) /* Setup */
+     , (2640,   8, 0x06003364) /* Icon */
+     , (2640,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2640,  28,       1393) /* Spell - Clumsiness Other III */;

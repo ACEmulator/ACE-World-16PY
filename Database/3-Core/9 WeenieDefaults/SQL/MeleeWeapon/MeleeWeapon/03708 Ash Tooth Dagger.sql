@@ -36,9 +36,9 @@ VALUES (3708,   1, 'Ash Tooth Dagger') /* Name */
      , (3708,  16, 'A dagger made from the tooth of an Ash Gromnie. Lightning flickers from the blade.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3708,   1,   33555707) /* Setup */
-     , (3708,   3,  536870932) /* SoundTable */
-     , (3708,   6,   67111919) /* PaletteBase */
-     , (3708,   7,  268435783) /* ClothingBase */
-     , (3708,   8,  100667589) /* Icon */
-     , (3708,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3708,   1, 0x020004FB) /* Setup */
+     , (3708,   3, 0x20000014) /* SoundTable */
+     , (3708,   6, 0x04000BEF) /* PaletteBase */
+     , (3708,   7, 0x10000147) /* ClothingBase */
+     , (3708,   8, 0x060010C5) /* Icon */
+     , (3708,  22, 0x3400002B) /* PhysicsEffectTable */;

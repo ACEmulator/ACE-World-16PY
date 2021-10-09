@@ -27,5 +27,5 @@ VALUES (30253,   1, 'Limitless Lockpick') /* Name */
      , (30253,  16, 'A lovely template for a rare.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30253,   1,   33554790) /* Setup */
-     , (30253,   8,  100670828) /* Icon */;
+VALUES (30253,   1, 0x02000166) /* Setup */
+     , (30253,   8, 0x06001D6C) /* Icon */;

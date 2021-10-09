@@ -24,7 +24,7 @@ VALUES (20423,   1, 'Scroll of Archer''s Bane') /* Name */
      , (20423,  15, 'When learned, this spell increases a shield or piece of armor''s resistance to piercing damage by 170%.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20423,   1,   33554826) /* Setup */
-     , (20423,   8,  100676654) /* Icon */
-     , (20423,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20423,   1, 0x0200018A) /* Setup */
+     , (20423,   8, 0x0600342E) /* Icon */
+     , (20423,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20423,  28,       2113) /* Spell - Archer's Bane */;

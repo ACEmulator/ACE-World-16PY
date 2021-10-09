@@ -46,15 +46,15 @@ VALUES (28528,   1, 'Well-Balanced Lugian Axe') /* Name */
      , (28528,  16, 'Crafted for Gorak.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28528,   1,   33558379) /* Setup */
-     , (28528,   3,  536870932) /* SoundTable */
-     , (28528,   6,   67111919) /* PaletteBase */
-     , (28528,   8,  100674408) /* Icon */
-     , (28528,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28528,   1, 0x02000F6B) /* Setup */
+     , (28528,   3, 0x20000014) /* SoundTable */
+     , (28528,   6, 0x04000BEF) /* PaletteBase */
+     , (28528,   8, 0x06002B68) /* Icon */
+     , (28528,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28528,  30,         88) /* PhysicsScript - Create */
      , (28528,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28528,  1591,      2)  /* Aura of Heart Seeker Self V */
-     , (28528,  1604,      2)  /* Aura of Defender Self V */
-     , (28528,  1616,      2)  /* Aura of Blood Drinker Self VI */;
+VALUES (28528,  1604,      2)  /* Aura of Defender Self V */
+     , (28528,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (28528,  1591,      2)  /* Aura of Heart Seeker Self V */;

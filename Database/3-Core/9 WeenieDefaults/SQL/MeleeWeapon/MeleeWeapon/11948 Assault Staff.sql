@@ -46,12 +46,12 @@ VALUES (11948,   1, 'Assault Staff') /* Name */
      , (11948,  16, 'A staff given as a reward for defeating the leaders of the Mask Clan.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11948,   1,   33557206) /* Setup */
-     , (11948,   3,  536870932) /* SoundTable */
-     , (11948,   6,   67111919) /* PaletteBase */
-     , (11948,   7,  268436199) /* ClothingBase */
-     , (11948,   8,  100671748) /* Icon */
-     , (11948,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11948,   1, 0x02000AD6) /* Setup */
+     , (11948,   3, 0x20000014) /* SoundTable */
+     , (11948,   6, 0x04000BEF) /* PaletteBase */
+     , (11948,   7, 0x100002E7) /* ClothingBase */
+     , (11948,   8, 0x06002104) /* Icon */
+     , (11948,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11948,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

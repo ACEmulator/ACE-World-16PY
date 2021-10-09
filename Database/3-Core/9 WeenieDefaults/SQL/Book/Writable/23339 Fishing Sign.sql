@@ -23,8 +23,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23339,   1, 'Fishing Sign') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23339,   1,   33555088) /* Setup */
-     , (23339,   8,  100668115) /* Icon */;
+VALUES (23339,   1, 0x02000290) /* Setup */
+     , (23339,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (23339, 1, 1000);

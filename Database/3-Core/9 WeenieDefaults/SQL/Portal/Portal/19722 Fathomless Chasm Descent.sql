@@ -26,10 +26,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19722,   1, 'Fathomless Chasm Descent') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19722,   1,   33556212) /* Setup */
-     , (19722,   2,  150994947) /* MotionTable */
-     , (19722,   8,  100667499) /* Icon */;
+VALUES (19722,   1, 0x020006F4) /* Setup */
+     , (19722,   2, 0x09000003) /* MotionTable */
+     , (19722,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19722, 2, 1415578439, 50, -200, 36.2778, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0x54600347 [50.000000 -200.000000 36.277800] 1.000000 0.000000 0.000000 0.000000 */;
+VALUES (19722, 2, 0x54600347, 50, -200, 36.2778, 1, 0, 0, -0) /* Destination */
+/* @teleloc 0x54600347 [50.000000 -200.000000 36.277802] 1.000000 0.000000 0.000000 -0.000000 */;

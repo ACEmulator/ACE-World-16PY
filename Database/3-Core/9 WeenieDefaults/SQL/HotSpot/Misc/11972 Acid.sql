@@ -37,6 +37,6 @@ VALUES (11972,   1, 'Acid') /* Name */
      , (11972,  17, 'You suffer %i damage from being submerged in acid!') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11972,   1,   33556024) /* Setup */
-     , (11972,   3,  536870994) /* SoundTable */
-     , (11972,   8,  100667465) /* Icon */;
+VALUES (11972,   1, 0x02000638) /* Setup */
+     , (11972,   3, 0x20000052) /* SoundTable */
+     , (11972,   8, 0x06001049) /* Icon */;

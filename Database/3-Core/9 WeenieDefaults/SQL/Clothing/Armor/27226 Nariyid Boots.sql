@@ -40,11 +40,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27226,   1, 'Nariyid Boots') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27226,   1,   33554654) /* Setup */
-     , (27226,   3,  536870932) /* SoundTable */
-     , (27226,   6,   67108990) /* PaletteBase */
-     , (27226,   7,  268436812) /* ClothingBase */
-     , (27226,   8,  100676176) /* Icon */
-     , (27226,  22,  872415275) /* PhysicsEffectTable */
-     , (27226,  36,  234881042) /* MutateFilter */
-     , (27226,  46,  939524146) /* TsysMutationFilter */;
+VALUES (27226,   1, 0x020000DE) /* Setup */
+     , (27226,   3, 0x20000014) /* SoundTable */
+     , (27226,   6, 0x0400007E) /* PaletteBase */
+     , (27226,   7, 0x1000054C) /* ClothingBase */
+     , (27226,   8, 0x06003250) /* Icon */
+     , (27226,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27226,  36, 0x0E000012) /* MutateFilter */
+     , (27226,  46, 0x38000032) /* TsysMutationFilter */;

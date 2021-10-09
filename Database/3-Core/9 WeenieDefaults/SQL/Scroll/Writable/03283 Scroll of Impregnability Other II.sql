@@ -25,7 +25,7 @@ VALUES (3283,   1, 'Scroll of Impregnability Other II') /* Name */
      , (3283,  16, 'When learned, this spell increases the target''s Missile Defense skill by 25%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3283,   1,   33554826) /* Setup */
-     , (3283,   8,  100676468) /* Icon */
-     , (3283,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3283,   1, 0x0200018A) /* Setup */
+     , (3283,   8, 0x06003374) /* Icon */
+     , (3283,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3283,  28,        251) /* Spell - Impregnability Other II */;

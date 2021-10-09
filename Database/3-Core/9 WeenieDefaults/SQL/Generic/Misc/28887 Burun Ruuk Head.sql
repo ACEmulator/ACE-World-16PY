@@ -26,8 +26,8 @@ VALUES (28887,   1, 'Burun Ruuk Head') /* Name */
      , (28887,  15, 'A slimy, gore-encrusted Burun Ruuk head.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28887,   1,   33558994) /* Setup */
-     , (28887,   3,  536870932) /* SoundTable */
-     , (28887,   8,  100677081) /* Icon */
-     , (28887,  22,  872415275) /* PhysicsEffectTable */
-     , (28887,  36,  234881046) /* MutateFilter */;
+VALUES (28887,   1, 0x020011D2) /* Setup */
+     , (28887,   3, 0x20000014) /* SoundTable */
+     , (28887,   8, 0x060035D9) /* Icon */
+     , (28887,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (28887,  36, 0x0E000016) /* MutateFilter */;

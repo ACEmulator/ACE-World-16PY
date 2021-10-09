@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4992,   1, 'Ferundi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4992,   1,   33554839) /* Setup */
-     , (4992,   2,  150994967) /* MotionTable */
-     , (4992,   3,  536870934) /* SoundTable */
-     , (4992,   4,  805306368) /* CombatTable */
-     , (4992,   6,   67110722) /* PaletteBase */
-     , (4992,   7,  268435558) /* ClothingBase */
-     , (4992,   8,  100667942) /* Icon */
-     , (4992,  22,  872415272) /* PhysicsEffectTable */;
+VALUES (4992,   1, 0x02000197) /* Setup */
+     , (4992,   2, 0x09000017) /* MotionTable */
+     , (4992,   3, 0x20000016) /* SoundTable */
+     , (4992,   4, 0x30000000) /* CombatTable */
+     , (4992,   6, 0x04000742) /* PaletteBase */
+     , (4992,   7, 0x10000066) /* ClothingBase */
+     , (4992,   8, 0x06001226) /* Icon */
+     , (4992,  22, 0x34000028) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4992,   1, 120, 0, 0) /* Strength */
@@ -86,16 +86,16 @@ VALUES (4992,   1,   200, 0, 0, 263) /* MaxHealth */
      , (4992,   5,   200, 0, 0, 350) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (4992,  6, 0, 2, 0, 150, 0, 408.406072300463) /* MeleeDefense        Trained */
-     , (4992,  7, 0, 2, 0, 120, 0, 408.406072300463) /* MissileDefense      Trained */
-     , (4992, 10, 0, 3, 0, 150, 0, 408.406072300463) /* Staff               Specialized */
-     , (4992, 13, 0, 3, 0, 150, 0, 408.406072300463) /* UnarmedCombat       Specialized */
-     , (4992, 14, 0, 2, 0, 150, 0, 408.406072300463) /* ArcaneLore          Trained */
-     , (4992, 15, 0, 2, 0, 125, 0, 408.406072300463) /* MagicDefense        Trained */
-     , (4992, 20, 0, 2, 0,  50, 0, 408.406072300463) /* Deception           Trained */
-     , (4992, 31, 0, 2, 0, 150, 0, 408.406072300463) /* CreatureEnchantment Trained */
-     , (4992, 33, 0, 2, 0, 150, 0, 408.406072300463) /* LifeMagic           Trained */
-     , (4992, 34, 0, 2, 0, 150, 0, 408.406072300463) /* WarMagic            Trained */;
+VALUES (4992,  6, 0, 2, 0, 150, 0, 408.4060723004626) /* MeleeDefense        Trained */
+     , (4992,  7, 0, 2, 0, 120, 0, 408.4060723004626) /* MissileDefense      Trained */
+     , (4992, 10, 0, 3, 0, 150, 0, 408.4060723004626) /* Staff               Specialized */
+     , (4992, 13, 0, 3, 0, 150, 0, 408.4060723004626) /* UnarmedCombat       Specialized */
+     , (4992, 14, 0, 2, 0, 150, 0, 408.4060723004626) /* ArcaneLore          Trained */
+     , (4992, 15, 0, 2, 0, 125, 0, 408.4060723004626) /* MagicDefense        Trained */
+     , (4992, 20, 0, 2, 0,  50, 0, 408.4060723004626) /* Deception           Trained */
+     , (4992, 31, 0, 2, 0, 150, 0, 408.4060723004626) /* CreatureEnchantment Trained */
+     , (4992, 33, 0, 2, 0, 150, 0, 408.4060723004626) /* LifeMagic           Trained */
+     , (4992, 34, 0, 2, 0, 150, 0, 408.4060723004626) /* WarMagic            Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (4992,  0,  4,  0,    0,  110,   88,   46,   68, 11000,   55,   68,   77,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -109,31 +109,31 @@ VALUES (4992,  0,  4,  0,    0,  110,   88,   46,   68, 11000,   55,   68,   77,
      , (4992,  8,  4,  3, 0.75,  130,  104,   55,   81, 13000,   65,   81,   91,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (4992,    71,  2.005)  /* Frost Bolt III */
-     , (4992,    72,  2.005)  /* Frost Bolt IV */
-     , (4992,   107,  2.005)  /* Frost Blast III */
-     , (4992,   108,  2.005)  /* Frost Blast IV */
-     , (4992,   135,  2.005)  /* Frost Volley III */
-     , (4992,   136,  2.005)  /* Frost Volley IV */
-     , (4992,   174,   2.01)  /* Fester Other IV */
-     , (4992,   232,   2.02)  /* Vulnerability Other IV */
-     , (4992,   355,   2.02)  /* Light Weapon Ineptitude Other IV */
-     , (4992,   650,   2.02)  /* War Magic Ineptitude Other IV */
-     , (4992,  1051,   2.02)  /* Bludgeoning Vulnerability Other IV */
+VALUES (4992,  1310,   2.01)  /* Armor Self IV */
      , (4992,  1093,   2.01)  /* Fire Protection Self V */
+     , (4992,   135,  2.005)  /* Frost Volley III */
+     , (4992,    71,  2.005)  /* Frost Bolt III */
+     , (4992,  1352,   2.01)  /* Endurance Self IV */
      , (4992,  1160,   2.02)  /* Heal Self V */
      , (4992,  1180,   2.01)  /* Revitalize Self IV */
-     , (4992,  1240,   2.01)  /* Drain Health Other IV */
+     , (4992,   650,   2.02)  /* War Magic Ineptitude Other IV */
      , (4992,  1252,   2.01)  /* Drain Stamina Other IV */
-     , (4992,  1263,   2.01)  /* Drain Mana Other IV */
-     , (4992,  1310,   2.01)  /* Armor Self IV */
-     , (4992,  1341,   2.01)  /* Weakness Other IV */
-     , (4992,  1352,   2.01)  /* Endurance Self IV */
-     , (4992,  1370,   2.01)  /* Frailty Other IV */
-     , (4992,  1394,   2.01)  /* Clumsiness Other IV */
+     , (4992,   136,  2.005)  /* Frost Volley IV */
+     , (4992,    72,  2.005)  /* Frost Bolt IV */
      , (4992,  1418,   2.01)  /* Slowness Other IV */
+     , (4992,  1240,   2.01)  /* Drain Health Other IV */
+     , (4992,  1370,   2.01)  /* Frailty Other IV */
+     , (4992,  1051,   2.02)  /* Bludgeoning Vulnerability Other IV */
      , (4992,  1442,   2.01)  /* Bafflement Other IV */
-     , (4992,  1466,   2.01)  /* Feeblemind Other IV */;
+     , (4992,   355,   2.02)  /* Light Weapon Ineptitude Other IV */
+     , (4992,   232,   2.02)  /* Vulnerability Other IV */
+     , (4992,   107,  2.005)  /* Frost Blast III */
+     , (4992,   108,  2.005)  /* Frost Blast IV */
+     , (4992,   174,   2.01)  /* Fester Other IV */
+     , (4992,  1263,   2.01)  /* Drain Mana Other IV */
+     , (4992,  1394,   2.01)  /* Clumsiness Other IV */
+     , (4992,  1466,   2.01)  /* Feeblemind Other IV */
+     , (4992,  1341,   2.01)  /* Weakness Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (4992,  94) /* ATTACK_NOTIFICATION_EVENT */

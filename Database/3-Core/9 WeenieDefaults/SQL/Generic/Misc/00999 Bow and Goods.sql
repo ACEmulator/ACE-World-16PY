@@ -23,7 +23,7 @@ VALUES (999,   1, 'Bow and Goods') /* Name */
      , (999,  16, 'Bows and Goods') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (999,   1,   33555909) /* Setup */
-     , (999,   6,   67111860) /* PaletteBase */
-     , (999,   7,  268435819) /* ClothingBase */
-     , (999,   8,  100668115) /* Icon */;
+VALUES (999,   1, 0x020005C5) /* Setup */
+     , (999,   6, 0x04000BB4) /* PaletteBase */
+     , (999,   7, 0x1000016B) /* ClothingBase */
+     , (999,   8, 0x060012D3) /* Icon */;

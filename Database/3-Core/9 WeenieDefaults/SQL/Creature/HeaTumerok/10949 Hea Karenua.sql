@@ -68,14 +68,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10949,   1, 'Hea Karenua') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10949,   1,   33554496) /* Setup */
-     , (10949,   2,  150994954) /* MotionTable */
-     , (10949,   3,  536870931) /* SoundTable */
-     , (10949,   4,  805306380) /* CombatTable */
-     , (10949,   6,   67109314) /* PaletteBase */
-     , (10949,   7,  268436628) /* ClothingBase */
-     , (10949,   8,  100667452) /* Icon */
-     , (10949,  22,  872415270) /* PhysicsEffectTable */
+VALUES (10949,   1, 0x02000040) /* Setup */
+     , (10949,   2, 0x0900000A) /* MotionTable */
+     , (10949,   3, 0x20000013) /* SoundTable */
+     , (10949,   4, 0x3000000C) /* CombatTable */
+     , (10949,   6, 0x040001C2) /* PaletteBase */
+     , (10949,   7, 0x10000494) /* ClothingBase */
+     , (10949,   8, 0x0600103C) /* Icon */
+     , (10949,  22, 0x34000026) /* PhysicsEffectTable */
      , (10949,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -92,24 +92,24 @@ VALUES (10949,   1,   180, 0, 0, 330) /* MaxHealth */
      , (10949,   5,     0, 0, 0, 270) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (10949,  1, 0, 3, 0, 210, 0, 706.309213726971) /* Axe                 Specialized */
-     , (10949,  2, 0, 3, 0, 130, 0, 706.309213726971) /* Bow                 Specialized */
-     , (10949,  3, 0, 3, 0, 130, 0, 706.309213726971) /* Crossbow            Specialized */
-     , (10949,  4, 0, 3, 0, 200, 0, 706.309213726971) /* Dagger              Specialized */
-     , (10949,  5, 0, 3, 0, 210, 0, 706.309213726971) /* Mace                Specialized */
-     , (10949,  6, 0, 3, 0, 200, 0, 706.309213726971) /* MeleeDefense        Specialized */
-     , (10949,  7, 0, 3, 0, 335, 0, 706.309213726971) /* MissileDefense      Specialized */
-     , (10949,  9, 0, 3, 0, 210, 0, 706.309213726971) /* Spear               Specialized */
-     , (10949, 10, 0, 3, 0, 210, 0, 706.309213726971) /* Staff               Specialized */
-     , (10949, 11, 0, 3, 0, 210, 0, 706.309213726971) /* Sword               Specialized */
-     , (10949, 13, 0, 3, 0, 210, 0, 706.309213726971) /* UnarmedCombat       Specialized */
-     , (10949, 14, 0, 2, 0, 300, 0, 706.309213726971) /* ArcaneLore          Trained */
-     , (10949, 15, 0, 3, 0, 200, 0, 706.309213726971) /* MagicDefense        Specialized */
-     , (10949, 20, 0, 3, 0, 150, 0, 706.309213726971) /* Deception           Specialized */
-     , (10949, 24, 0, 2, 0,  60, 0, 706.309213726971) /* Run                 Trained */
-     , (10949, 31, 0, 3, 0, 100, 0, 706.309213726971) /* CreatureEnchantment Specialized */
-     , (10949, 33, 0, 3, 0, 100, 0, 706.309213726971) /* LifeMagic           Specialized */
-     , (10949, 34, 0, 3, 0, 100, 0, 706.309213726971) /* WarMagic            Specialized */;
+VALUES (10949,  1, 0, 3, 0, 210, 0, 706.3092137269708) /* Axe                 Specialized */
+     , (10949,  2, 0, 3, 0, 130, 0, 706.3092137269708) /* Bow                 Specialized */
+     , (10949,  3, 0, 3, 0, 130, 0, 706.3092137269708) /* Crossbow            Specialized */
+     , (10949,  4, 0, 3, 0, 200, 0, 706.3092137269708) /* Dagger              Specialized */
+     , (10949,  5, 0, 3, 0, 210, 0, 706.3092137269708) /* Mace                Specialized */
+     , (10949,  6, 0, 3, 0, 200, 0, 706.3092137269708) /* MeleeDefense        Specialized */
+     , (10949,  7, 0, 3, 0, 335, 0, 706.3092137269708) /* MissileDefense      Specialized */
+     , (10949,  9, 0, 3, 0, 210, 0, 706.3092137269708) /* Spear               Specialized */
+     , (10949, 10, 0, 3, 0, 210, 0, 706.3092137269708) /* Staff               Specialized */
+     , (10949, 11, 0, 3, 0, 210, 0, 706.3092137269708) /* Sword               Specialized */
+     , (10949, 13, 0, 3, 0, 210, 0, 706.3092137269708) /* UnarmedCombat       Specialized */
+     , (10949, 14, 0, 2, 0, 300, 0, 706.3092137269708) /* ArcaneLore          Trained */
+     , (10949, 15, 0, 3, 0, 200, 0, 706.3092137269708) /* MagicDefense        Specialized */
+     , (10949, 20, 0, 3, 0, 150, 0, 706.3092137269708) /* Deception           Specialized */
+     , (10949, 24, 0, 2, 0,  60, 0, 706.3092137269708) /* Run                 Trained */
+     , (10949, 31, 0, 3, 0, 100, 0, 706.3092137269708) /* CreatureEnchantment Specialized */
+     , (10949, 33, 0, 3, 0, 100, 0, 706.3092137269708) /* LifeMagic           Specialized */
+     , (10949, 34, 0, 3, 0, 100, 0, 706.3092137269708) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (10949,  0,  4,  0,    0,  250,  250,  250,  250,  250,  250,  250,  250,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -123,54 +123,54 @@ VALUES (10949,  0,  4,  0,    0,  250,  250,  250,  250,  250,  250,  250,  250,
      , (10949,  8,  4, 35, 0.75,  250,  250,  250,  250,  250,  250,  250,  250,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10949,    63,  2.003)  /* Acid Stream VI */
-     , (10949,    69,  2.003)  /* Shock Wave VI */
-     , (10949,    74,  2.003)  /* Frost Bolt VI */
+VALUES (10949,   279,      2)  /* Magic Resistance Self VI */
+     , (10949,  1156,  2.015)  /* Piercing Vulnerability Other VI */
      , (10949,    80,  2.003)  /* Lightning Bolt VI */
-     , (10949,    84,  2.015)  /* Flame Bolt V */
-     , (10949,    85,  2.003)  /* Flame Bolt VI */
-     , (10949,    91,  2.003)  /* Force Bolt VI */
-     , (10949,    96,  2.015)  /* Whirling Blade V */
-     , (10949,    97,  2.003)  /* Whirling Blade VI */
-     , (10949,   105,  2.015)  /* Shock Blast V */
+     , (10949,   897,  2.015)  /* Healing Ineptitude Other VI */
+     , (10949,   677,  2.015)  /* Mana Conversion Ineptitude Other VI */
+     , (10949,  1223,  2.012)  /* Mana Drain Other V */
+     , (10949,  1159,  2.009)  /* Heal Self IV */
+     , (10949,  1175,  2.012)  /* Harm Other V */
+     , (10949,   260,  2.011)  /* Impregnability Self V */
+     , (10949,    69,  2.003)  /* Shock Wave VI */
+     , (10949,   146,  2.003)  /* Flame Volley VI */
+     , (10949,   520,      2)  /* Acid Protection Self VI */
      , (10949,   106,  2.003)  /* Shock Blast VI */
+     , (10949,  1094,      2)  /* Fire Protection Self VI */
+     , (10949,  1160,  2.009)  /* Heal Self V */
+     , (10949,   266,  2.012)  /* Defenselessness Other V */
+     , (10949,    74,  2.003)  /* Frost Bolt VI */
      , (10949,   138,  2.003)  /* Frost Volley VI */
+     , (10949,  1071,      2)  /* Lightning Protection Self VI */
+     , (10949,  1199,  2.012)  /* Enfeeble Other V */
+     , (10949,   284,  2.012)  /* Magic Yield Other V */
+     , (10949,  1866,  2.015)  /* Devour All Magic Other */
+     , (10949,    63,  2.003)  /* Acid Stream VI */
+     , (10949,  1035,      2)  /* Cold Protection Self VI */
      , (10949,   141,  2.015)  /* Lightning Volley V */
+     , (10949,  1138,      2)  /* Piercing Protection Self VI */
      , (10949,   142,  2.003)  /* Lightning Volley VI */
      , (10949,   145,  2.015)  /* Flame Volley V */
-     , (10949,   146,  2.003)  /* Flame Volley VI */
-     , (10949,   153,  2.015)  /* Blade Volley V */
-     , (10949,   154,  2.003)  /* Blade Volley VI */
+     , (10949,    84,  2.015)  /* Flame Bolt V */
+     , (10949,   105,  2.015)  /* Shock Blast V */
      , (10949,   233,  2.012)  /* Vulnerability Other V */
-     , (10949,   248,  2.011)  /* Invulnerability Self V */
-     , (10949,   260,  2.011)  /* Impregnability Self V */
-     , (10949,   266,  2.012)  /* Defenselessness Other V */
+     , (10949,  1876,      2)  /* Purge All Magic Self */
+     , (10949,    85,  2.003)  /* Flame Bolt VI */
      , (10949,   278,  2.011)  /* Magic Resistance Self V */
-     , (10949,   279,      2)  /* Magic Resistance Self VI */
-     , (10949,   284,  2.012)  /* Magic Yield Other V */
-     , (10949,   520,      2)  /* Acid Protection Self VI */
-     , (10949,   677,  2.015)  /* Mana Conversion Ineptitude Other VI */
-     , (10949,   897,  2.015)  /* Healing Ineptitude Other VI */
-     , (10949,  1005,  2.015)  /* Leaden Feet Other VI */
+     , (10949,   153,  2.015)  /* Blade Volley V */
      , (10949,  1023,      2)  /* Bludgeoning Protection Self VI */
-     , (10949,  1035,      2)  /* Cold Protection Self VI */
-     , (10949,  1053,  2.015)  /* Bludgeoning Vulnerability Other VI */
-     , (10949,  1071,      2)  /* Lightning Protection Self VI */
-     , (10949,  1094,      2)  /* Fire Protection Self VI */
-     , (10949,  1114,      2)  /* Blade Protection Self VI */
-     , (10949,  1138,      2)  /* Piercing Protection Self VI */
-     , (10949,  1156,  2.015)  /* Piercing Vulnerability Other VI */
-     , (10949,  1159,  2.009)  /* Heal Self IV */
-     , (10949,  1160,  2.009)  /* Heal Self V */
-     , (10949,  1175,  2.012)  /* Harm Other V */
-     , (10949,  1199,  2.012)  /* Enfeeble Other V */
-     , (10949,  1223,  2.012)  /* Mana Drain Other V */
+     , (10949,   154,  2.003)  /* Blade Volley VI */
      , (10949,  1242,      2)  /* Drain Health Other VI */
+     , (10949,  1114,      2)  /* Blade Protection Self VI */
      , (10949,  1312,      2)  /* Armor Self VI */
+     , (10949,    91,  2.003)  /* Force Bolt VI */
+     , (10949,  1053,  2.015)  /* Bludgeoning Vulnerability Other VI */
+     , (10949,    96,  2.015)  /* Whirling Blade V */
+     , (10949,    97,  2.003)  /* Whirling Blade VI */
+     , (10949,  1005,  2.015)  /* Leaden Feet Other VI */
+     , (10949,   248,  2.011)  /* Invulnerability Self V */
      , (10949,  1331,  2.011)  /* Strength Self V */
-     , (10949,  1401,  2.011)  /* Quickness Self V */
-     , (10949,  1866,  2.015)  /* Devour All Magic Other */
-     , (10949,  1876,      2)  /* Purge All Magic Self */;
+     , (10949,  1401,  2.011)  /* Quickness Self V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (10949,  94) /* ATTACK_NOTIFICATION_EVENT */

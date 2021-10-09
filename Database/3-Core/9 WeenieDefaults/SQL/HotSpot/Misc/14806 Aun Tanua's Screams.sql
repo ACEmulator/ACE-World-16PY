@@ -36,6 +36,6 @@ VALUES (14806,   1, 'Aun Tanua''s Screams') /* Name */
      , (14806,  17, 'Suddenly, you hear a lone Tumerok''s anguished scream from the depths of portal space, and you nearly jump out of your skin for %i points of damage!') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14806,   1,   33556024) /* Setup */
-     , (14806,   3,  536871047) /* SoundTable */
-     , (14806,   8,  100667465) /* Icon */;
+VALUES (14806,   1, 0x02000638) /* Setup */
+     , (14806,   3, 0x20000087) /* SoundTable */
+     , (14806,   8, 0x06001049) /* Icon */;

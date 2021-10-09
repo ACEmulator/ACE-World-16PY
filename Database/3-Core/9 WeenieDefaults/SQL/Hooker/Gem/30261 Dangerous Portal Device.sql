@@ -13,7 +13,7 @@ VALUES (30261,   1,       2048) /* ItemType - Gem */
      , (30261,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30261, 150,        103) /* HookPlacement - Hook */
      , (30261, 151,          9) /* HookType - Floor, Yard */
-     , (30261, 197,          4) /* HookGroup */;
+     , (30261, 197,          4) /* HookGroup - PortalItems */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30261,  22, True ) /* Inscribable */;
@@ -23,10 +23,10 @@ VALUES (30261,   1, 'Dangerous Portal Device') /* Name */
      , (30261,  16, 'This device was fashioned by Shoyanen Kenchu under the direction of High Queen Elysa Strathelar. The magic of the device can only be activated if placed on a mansion hook. The magic has yet to be perfected so the device may deliver the user to one of three locations: Center of the Obsidian Plains, Valley of Death or Western Aphus Lassel.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30261,   1,   33559074) /* Setup */
-     , (30261,   3,  536870932) /* SoundTable */
-     , (30261,   8,  100677182) /* Icon */
-     , (30261,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30261,   1, 0x02001222) /* Setup */
+     , (30261,   3, 0x20000014) /* SoundTable */
+     , (30261,   8, 0x0600363E) /* Icon */
+     , (30261,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (30261,  7 /* Use */,  0.333, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

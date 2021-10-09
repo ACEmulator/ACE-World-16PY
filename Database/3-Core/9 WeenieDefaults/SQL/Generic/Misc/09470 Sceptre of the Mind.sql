@@ -27,7 +27,7 @@ VALUES (9470,   1, 'Sceptre of the Mind') /* Name */
      , (9470,  33, 'LugianStaffMind') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9470,   1,   33557011) /* Setup */
-     , (9470,   3,  536870932) /* SoundTable */
-     , (9470,   8,  100671498) /* Icon */
-     , (9470,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9470,   1, 0x02000A13) /* Setup */
+     , (9470,   3, 0x20000014) /* SoundTable */
+     , (9470,   8, 0x0600200A) /* Icon */
+     , (9470,  22, 0x3400002B) /* PhysicsEffectTable */;

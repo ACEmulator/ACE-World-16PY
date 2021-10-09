@@ -60,12 +60,12 @@ VALUES (10940,   1, 'Itala the Knife') /* Name */
      , (10940,   4, 'Sho') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10940,   1,   33554510) /* Setup */
-     , (10940,   2,  150994945) /* MotionTable */
-     , (10940,   3,  536870914) /* SoundTable */
-     , (10940,   4,  805306368) /* CombatTable */
-     , (10940,   8,  100667446) /* Icon */
-     , (10940,  22,  872415236) /* PhysicsEffectTable */
+VALUES (10940,   1, 0x0200004E) /* Setup */
+     , (10940,   2, 0x09000001) /* MotionTable */
+     , (10940,   3, 0x20000002) /* SoundTable */
+     , (10940,   4, 0x30000000) /* CombatTable */
+     , (10940,   8, 0x06001036) /* Icon */
+     , (10940,  22, 0x34000004) /* PhysicsEffectTable */
      , (10940,  32,        428) /* WieldedTreasureType - 
                                    Wield Doublet (2596) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.641%
                                    Wield Doublet (2596) | Palette: DeepBrown (6) | Shade: 0.67 | Probability: 0.641%
@@ -365,13 +365,13 @@ VALUES (10940,   1,   150, 0, 0, 245) /* MaxHealth */
      , (10940,   5,     0, 0, 0, 80) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (10940,  4, 0, 3, 0, 230, 0, 705.613113201323) /* Dagger              Specialized */
-     , (10940,  6, 0, 3, 0, 300, 0, 705.613113201323) /* MeleeDefense        Specialized */
-     , (10940,  7, 0, 3, 0, 400, 0, 705.613113201323) /* MissileDefense      Specialized */
-     , (10940, 14, 0, 3, 0, 250, 0, 705.613113201323) /* ArcaneLore          Specialized */
-     , (10940, 15, 0, 3, 0, 300, 0, 705.613113201323) /* MagicDefense        Specialized */
-     , (10940, 20, 0, 3, 0, 150, 0, 705.613113201323) /* Deception           Specialized */
-     , (10940, 24, 0, 3, 0,  20, 0, 705.613113201323) /* Run                 Specialized */;
+VALUES (10940,  4, 0, 3, 0, 230, 0, 705.6131132013226) /* Dagger              Specialized */
+     , (10940,  6, 0, 3, 0, 300, 0, 705.6131132013226) /* MeleeDefense        Specialized */
+     , (10940,  7, 0, 3, 0, 400, 0, 705.6131132013226) /* MissileDefense      Specialized */
+     , (10940, 14, 0, 3, 0, 250, 0, 705.6131132013226) /* ArcaneLore          Specialized */
+     , (10940, 15, 0, 3, 0, 300, 0, 705.6131132013226) /* MagicDefense        Specialized */
+     , (10940, 20, 0, 3, 0, 150, 0, 705.6131132013226) /* Deception           Specialized */
+     , (10940, 24, 0, 3, 0,  20, 0, 705.6131132013226) /* Run                 Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (10940,  0,  4,  0,    0,  225,  203,  225,  248,   90,   90,  225,  135,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

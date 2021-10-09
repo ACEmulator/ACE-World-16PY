@@ -31,9 +31,9 @@ VALUES (23853,   1, 'Seared Shard') /* Name */
      , (23853,  16, 'A seared shard.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23853,   1,   33558200) /* Setup */
-     , (23853,   3,  536870932) /* SoundTable */
-     , (23853,   6,   67114165) /* PaletteBase */
-     , (23853,   7,  268435723) /* ClothingBase */
-     , (23853,   8,  100674040) /* Icon */
-     , (23853,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23853,   1, 0x02000EB8) /* Setup */
+     , (23853,   3, 0x20000014) /* SoundTable */
+     , (23853,   6, 0x040014B5) /* PaletteBase */
+     , (23853,   7, 0x1000010B) /* ClothingBase */
+     , (23853,   8, 0x060029F8) /* Icon */
+     , (23853,  22, 0x3400002B) /* PhysicsEffectTable */;

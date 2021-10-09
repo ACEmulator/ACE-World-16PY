@@ -31,10 +31,10 @@ VALUES (8308,   1, 'Quicksilver Pea') /* Name */
      , (8308,  16, 'A concentrated quicksilver pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8308,   1,   33555209) /* Setup */
-     , (8308,   3,  536870932) /* SoundTable */
-     , (8308,   6,   67111919) /* PaletteBase */
-     , (8308,   7,  268435719) /* ClothingBase */
-     , (8308,   8,  100671060) /* Icon */
-     , (8308,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8308,   1, 0x02000309) /* Setup */
+     , (8308,   3, 0x20000014) /* SoundTable */
+     , (8308,   6, 0x04000BEF) /* PaletteBase */
+     , (8308,   7, 0x10000107) /* ClothingBase */
+     , (8308,   8, 0x06001E54) /* Icon */
+     , (8308,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8308,  29,       1555) /* SpellComponent */;

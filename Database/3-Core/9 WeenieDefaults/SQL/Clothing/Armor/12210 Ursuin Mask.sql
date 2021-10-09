@@ -39,9 +39,9 @@ VALUES (12210,   1, 'Ursuin Mask') /* Name */
      , (12210,  16, 'A finely stitched and cured Ursuin head, complete with cushions around the neck for active use.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12210,   1,   33557365) /* Setup */
-     , (12210,   3,  536870932) /* SoundTable */
-     , (12210,   6,   67108990) /* PaletteBase */
-     , (12210,   7,  268436269) /* ClothingBase */
-     , (12210,   8,  100672165) /* Icon */
-     , (12210,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12210,   1, 0x02000B75) /* Setup */
+     , (12210,   3, 0x20000014) /* SoundTable */
+     , (12210,   6, 0x0400007E) /* PaletteBase */
+     , (12210,   7, 0x1000032D) /* ClothingBase */
+     , (12210,   8, 0x060022A5) /* Icon */
+     , (12210,  22, 0x3400002B) /* PhysicsEffectTable */;

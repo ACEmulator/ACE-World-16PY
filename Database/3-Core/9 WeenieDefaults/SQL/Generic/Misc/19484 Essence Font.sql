@@ -22,7 +22,7 @@ VALUES (19484,   1, 'Essence Font') /* Name */
      , (19484,  16, 'A rushing fountain of pure mana.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19484,   1,   33557824) /* Setup */
-     , (19484,   3,  536870932) /* SoundTable */
-     , (19484,   8,  100671324) /* Icon */
-     , (19484,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19484,   1, 0x02000D40) /* Setup */
+     , (19484,   3, 0x20000014) /* SoundTable */
+     , (19484,   8, 0x06001F5C) /* Icon */
+     , (19484,  22, 0x3400002B) /* PhysicsEffectTable */;

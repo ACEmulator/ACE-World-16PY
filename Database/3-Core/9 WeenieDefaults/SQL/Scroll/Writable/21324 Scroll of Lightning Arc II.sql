@@ -24,7 +24,7 @@ VALUES (21324,   1, 'Scroll of Lightning Arc II') /* Name */
      , (21324,  15, 'When learned, this spell shoots a bolt of lighting at the target. The bolt does 13-25 points of electrical damage to the first thing it hits.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21324,   1,   33554826) /* Setup */
-     , (21324,   8,  100677013) /* Icon */
-     , (21324,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21324,   1, 0x0200018A) /* Setup */
+     , (21324,   8, 0x06003595) /* Icon */
+     , (21324,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21324,  28,       2733) /* Spell - Lightning Arc II */;

@@ -27,7 +27,7 @@ VALUES (23995,   1, 'Key to the Sentinel Cache') /* Name */
      , (23995,  33, 'KeyKnorrSentinelPickedUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23995,   1,   33554784) /* Setup */
-     , (23995,   3,  536870932) /* SoundTable */
-     , (23995,   8,  100674151) /* Icon */
-     , (23995,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23995,   1, 0x02000160) /* Setup */
+     , (23995,   3, 0x20000014) /* SoundTable */
+     , (23995,   8, 0x06002A67) /* Icon */
+     , (23995,  22, 0x3400002B) /* PhysicsEffectTable */;

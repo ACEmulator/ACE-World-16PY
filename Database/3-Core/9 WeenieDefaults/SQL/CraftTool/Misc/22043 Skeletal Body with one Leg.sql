@@ -33,7 +33,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22043,   1, 'Skeletal Body with one Leg') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22043,   1,   33558007) /* Setup */
-     , (22043,   3,  536870932) /* SoundTable */
-     , (22043,   8,  100673706) /* Icon */
-     , (22043,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22043,   1, 0x02000DF7) /* Setup */
+     , (22043,   3, 0x20000014) /* SoundTable */
+     , (22043,   8, 0x060028AA) /* Icon */
+     , (22043,  22, 0x3400002B) /* PhysicsEffectTable */;

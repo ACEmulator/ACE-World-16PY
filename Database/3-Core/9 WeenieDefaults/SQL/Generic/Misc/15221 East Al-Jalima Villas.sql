@@ -22,5 +22,5 @@ VALUES (15221,   1, 'East Al-Jalima Villas') /* Name */
      , (15221,  16, 'Welcome to East Al-Jalima Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15221,   1,   33557463) /* Setup */
-     , (15221,   8,  100668115) /* Icon */;
+VALUES (15221,   1, 0x02000BD7) /* Setup */
+     , (15221,   8, 0x060012D3) /* Icon */;

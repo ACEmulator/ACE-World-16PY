@@ -26,7 +26,7 @@ VALUES (25372,  22, True ) /* Inscribable */
      , (25372,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25372,   5, -0.0166) /* ManaRate */;
+VALUES (25372,   5,  -0.017) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25372,   1, 'Nuhmudira''s Bracelet') /* Name */
@@ -35,14 +35,14 @@ VALUES (25372,   1, 'Nuhmudira''s Bracelet') /* Name */
      , (25372,  16, 'A bracelet, forged of silver. Several gems line the raised edges of the bracelet. A single, polished sapphire is set in the center of the bracelet.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25372,   1,   33554683) /* Setup */
-     , (25372,   3,  536870932) /* SoundTable */
-     , (25372,   6,   67111919) /* PaletteBase */
-     , (25372,   7,  268436286) /* ClothingBase */
-     , (25372,   8,  100674846) /* Icon */
-     , (25372,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25372,   1, 0x020000FB) /* Setup */
+     , (25372,   3, 0x20000014) /* SoundTable */
+     , (25372,   6, 0x04000BEF) /* PaletteBase */
+     , (25372,   7, 0x1000033E) /* ClothingBase */
+     , (25372,   8, 0x06002D1E) /* Icon */
+     , (25372,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25372,  1426,      2)  /* Focus Self VI */
+VALUES (25372,  2624,      2)  /* Major Mana Gain */
      , (25372,  1450,      2)  /* Willpower Self VI */
-     , (25372,  2624,      2)  /* Major Mana Gain */;
+     , (25372,  1426,      2)  /* Focus Self VI */;

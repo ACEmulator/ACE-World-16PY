@@ -30,7 +30,7 @@ VALUES (21920,   1, 'Ornate Seal') /* Name */
      , (21920,  16, 'An ornate seal with odd glyphs and sigils.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21920,   1,   33557973) /* Setup */
-     , (21920,   3,  536870932) /* SoundTable */
-     , (21920,   8,  100673500) /* Icon */
-     , (21920,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21920,   1, 0x02000DD5) /* Setup */
+     , (21920,   3, 0x20000014) /* SoundTable */
+     , (21920,   8, 0x060027DC) /* Icon */
+     , (21920,  22, 0x3400002B) /* PhysicsEffectTable */;

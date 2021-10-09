@@ -52,18 +52,18 @@ VALUES (24601,   1, 'Sword of Lost Hope') /* Name */
      , (24601,  16, 'The Sword of Lost Hope glows with a faint bluish-white radiance.  The weapon seems to coruscate with the power of Ilservian''s blood.  The Light has been forever dimmed, and the weapon is now empowered by the essence of the Hopeslayer.  It will no longer accept infusions of light.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24601,   1,   33558420) /* Setup */
-     , (24601,   3,  536870932) /* SoundTable */
-     , (24601,   6,   67114437) /* PaletteBase */
-     , (24601,   8,  100671325) /* Icon */
-     , (24601,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24601,   1, 0x02000F94) /* Setup */
+     , (24601,   3, 0x20000014) /* SoundTable */
+     , (24601,   6, 0x040015C5) /* PaletteBase */
+     , (24601,   8, 0x06001F5D) /* Icon */
+     , (24601,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24601,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24601,  1312,      2)  /* Armor Self VI */
-     , (24601,  1332,      2)  /* Strength Self VI */
-     , (24601,  1378,      2)  /* Coordination Self VI */
-     , (24601,  1592,      2)  /* Aura of Heart Seeker Self VI */
+VALUES (24601,  1332,      2)  /* Strength Self VI */
      , (24601,  1605,      2)  /* Aura of Defender Self VI */
+     , (24601,  1592,      2)  /* Aura of Heart Seeker Self VI */
+     , (24601,  1624,      2)  /* Aura of Swift Killer Self III */
      , (24601,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (24601,  1624,      2)  /* Aura of Swift Killer Self III */;
+     , (24601,  1312,      2)  /* Armor Self VI */
+     , (24601,  1378,      2)  /* Coordination Self VI */;

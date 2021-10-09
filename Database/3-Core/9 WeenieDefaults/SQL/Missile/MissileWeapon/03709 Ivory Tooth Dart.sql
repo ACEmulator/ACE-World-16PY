@@ -20,7 +20,7 @@ VALUES (3709,   1,        256) /* ItemType - MissileWeapon */
      , (3709,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (3709,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (3709,  49,         10) /* WeaponTime */
-     , (3709,  51,          2) /* CombatUse - Missle */
+     , (3709,  51,          2) /* CombatUse - Missile */
      , (3709,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (3709, 150,        103) /* HookPlacement - Hook */
      , (3709, 151,          2) /* HookType - Wall */;
@@ -37,7 +37,7 @@ VALUES (3709,   1, 'Ivory Tooth Dart') /* Name */
      , (3709,  15, 'Dart made from the tooth of an Ivory Gromnie.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3709,   1,   33554737) /* Setup */
-     , (3709,   3,  536870932) /* SoundTable */
-     , (3709,   8,  100667591) /* Icon */
-     , (3709,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3709,   1, 0x02000131) /* Setup */
+     , (3709,   3, 0x20000014) /* SoundTable */
+     , (3709,   8, 0x060010C7) /* Icon */
+     , (3709,  22, 0x3400002B) /* PhysicsEffectTable */;

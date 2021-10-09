@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12481,   1, 'Broken Sword Bethel Settlement Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12481,   1,   33554867) /* Setup */
-     , (12481,   2,  150994947) /* MotionTable */
-     , (12481,   8,  100667499) /* Icon */;
+VALUES (12481,   1, 0x020001B3) /* Setup */
+     , (12481,   2, 0x09000003) /* MotionTable */
+     , (12481,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12481, 2, 2909405243, 186.255, 69.088, 27.762, -0.7126936, 0, 0, -0.7014755) /* Destination */
-/* @teleloc 0xAD6A003B [186.255000 69.088000 27.762000] -0.712694 0.000000 0.000000 -0.701476 */;
+VALUES (12481, 2, 0xAD6A003B, 186.255, 69.088, 27.762, -0.712694, 0, -0, -0.701476) /* Destination */
+/* @teleloc 0xAD6A003B [186.255005 69.087997 27.761999] -0.712694 0.000000 -0.000000 -0.701476 */;

@@ -16,7 +16,7 @@ VALUES (28990,   1,        256) /* ItemType - MissileWeapon */
      , (28990,  48,          3) /* WeaponSkill - Crossbow */
      , (28990,  49,        120) /* WeaponTime */
      , (28990,  50,          2) /* AmmoType - Bolt */
-     , (28990,  51,          2) /* CombatUse - Missle */
+     , (28990,  51,          2) /* CombatUse - Missile */
      , (28990,  52,          2) /* ParentLocation - LeftHand */
      , (28990,  53,          3) /* PlacementPosition - LeftHand */
      , (28990,  60,        192) /* WeaponRange */
@@ -36,7 +36,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28990,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28990,   5, -0.0333) /* ManaRate */
+VALUES (28990,   5,  -0.033) /* ManaRate */
      , (28990,  26,    27.3) /* MaximumVelocity */
      , (28990,  29,    1.09) /* WeaponDefense */
      , (28990,  39,       1) /* DefaultScale */
@@ -50,14 +50,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28990,   1, 'Burun Slaying Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28990,   1,   33558922) /* Setup */
-     , (28990,   3,  536870932) /* SoundTable */
-     , (28990,   8,  100676977) /* Icon */
-     , (28990,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28990,   1, 0x0200118A) /* Setup */
+     , (28990,   3, 0x20000014) /* SoundTable */
+     , (28990,   8, 0x06003571) /* Icon */
+     , (28990,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28990,   243,      2)  /* Invulnerability Other V */
+VALUES (28990,  1604,      2)  /* Aura of Defender Self V */
      , (28990,  1359,      2)  /* Endurance Other V */
-     , (28990,  1604,      2)  /* Aura of Defender Self V */
      , (28990,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (28990,   243,      2)  /* Invulnerability Other V */
      , (28990,  1625,      2)  /* Aura of Swift Killer Self IV */;

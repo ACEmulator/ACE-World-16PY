@@ -37,9 +37,9 @@ VALUES (30331,   1, 'Desert Wyrm') /* Name */
      , (30331,  16, 'Describe me here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30331,   1,   33554758) /* Setup */
-     , (30331,   3,  536870932) /* SoundTable */
-     , (30331,   6,   67111919) /* PaletteBase */
-     , (30331,   7,  268435770) /* ClothingBase */
-     , (30331,   8,  100669015) /* Icon */
-     , (30331,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30331,   1, 0x02000146) /* Setup */
+     , (30331,   3, 0x20000014) /* SoundTable */
+     , (30331,   6, 0x04000BEF) /* PaletteBase */
+     , (30331,   7, 0x1000013A) /* ClothingBase */
+     , (30331,   8, 0x06001657) /* Icon */
+     , (30331,  22, 0x3400002B) /* PhysicsEffectTable */;

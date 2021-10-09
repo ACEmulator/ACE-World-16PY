@@ -22,5 +22,5 @@ VALUES (14726,   1, 'Pine Deep') /* Name */
      , (14726,  16, 'Welcome to Pine Deep') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14726,   1,   33557463) /* Setup */
-     , (14726,   8,  100668115) /* Icon */;
+VALUES (14726,   1, 0x02000BD7) /* Setup */
+     , (14726,   8, 0x060012D3) /* Icon */;

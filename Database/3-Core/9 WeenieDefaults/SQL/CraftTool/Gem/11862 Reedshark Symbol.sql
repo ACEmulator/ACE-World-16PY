@@ -31,7 +31,7 @@ VALUES (11862,   1, 'Reedshark Symbol') /* Name */
      , (11862,  16, 'A Reedshark Symbol.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11862,   1,   33557248) /* Setup */
-     , (11862,   3,  536870932) /* SoundTable */
-     , (11862,   8,  100671967) /* Icon */
-     , (11862,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11862,   1, 0x02000B00) /* Setup */
+     , (11862,   3, 0x20000014) /* SoundTable */
+     , (11862,   8, 0x060021DF) /* Icon */
+     , (11862,  22, 0x3400002B) /* PhysicsEffectTable */;

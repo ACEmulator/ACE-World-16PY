@@ -25,8 +25,8 @@ VALUES (28281,   1, 'Aerfalle Uber Gen') /* Name */
      , (28281,  34, 'AerfalleUberGen') /* GeneratorEvent */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28281,   1,   33555051) /* Setup */
-     , (28281,   8,  100667494) /* Icon */;
+VALUES (28281,   1, 0x0200026B) /* Setup */
+     , (28281,   8, 0x06001066) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28281, -1, 25807, 300, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Chimera (25807) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
@@ -35,4 +35,4 @@ VALUES (28281, -1, 25807, 300, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* 
      , (28281, -1, 22905, 300, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Lich Oppressor (22905) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (28281, -1, 22905, 300, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Lich Oppressor (22905) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
      , (28281, -1, 28054, 300, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Lady Aerfalle (28054) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */
-     , (28281, -1, 28060, 120, 1, 1, 1, 4, -1, 0, 0, 32834188, 82.696, -117.687, 6.005, -0.4373195, 0, 0, -0.8993062) /* Generate Ghost of Galaeral (28060) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+     , (28281, -1, 28060, 120, 1, 1, 1, 4, -1, 0, 0, 0x01F5028C, 82.696, -117.687, 6.005, -0.43732, 0, -0, -0.899306) /* Generate Ghost of Galaeral (28060) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

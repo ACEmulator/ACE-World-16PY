@@ -36,10 +36,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12187,   1, 'Assassin''s Acid Jambiya') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12187,   1,   33555710) /* Setup */
-     , (12187,   3,  536870932) /* SoundTable */
-     , (12187,   6,   67111919) /* PaletteBase */
-     , (12187,   7,  268435784) /* ClothingBase */
-     , (12187,   8,  100667592) /* Icon */
-     , (12187,  22,  872415275) /* PhysicsEffectTable */
-     , (12187,  36,  234881044) /* MutateFilter */;
+VALUES (12187,   1, 0x020004FE) /* Setup */
+     , (12187,   3, 0x20000014) /* SoundTable */
+     , (12187,   6, 0x04000BEF) /* PaletteBase */
+     , (12187,   7, 0x10000148) /* ClothingBase */
+     , (12187,   8, 0x060010C8) /* Icon */
+     , (12187,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (12187,  36, 0x0E000014) /* MutateFilter */;

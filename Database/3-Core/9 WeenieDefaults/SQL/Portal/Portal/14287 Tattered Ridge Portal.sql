@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14287,   1, 'Tattered Ridge Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14287,   1,   33554867) /* Setup */
-     , (14287,   2,  150994947) /* MotionTable */
-     , (14287,   8,  100667499) /* Icon */;
+VALUES (14287,   1, 0x020001B3) /* Setup */
+     , (14287,   2, 0x09000003) /* MotionTable */
+     , (14287,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14287, 2, 3056861244, 179.744, 81.92, 176.941, -0.6557426, 0, 0, -0.7549846) /* Destination */
-/* @teleloc 0xB634003C [179.744000 81.920000 176.941000] -0.655743 0.000000 0.000000 -0.754985 */;
+VALUES (14287, 2, 0xB634003C, 179.744, 81.92, 176.941, -0.655743, 0, -0, -0.754985) /* Destination */
+/* @teleloc 0xB634003C [179.744003 81.919998 176.940994] -0.655743 0.000000 -0.000000 -0.754985 */;

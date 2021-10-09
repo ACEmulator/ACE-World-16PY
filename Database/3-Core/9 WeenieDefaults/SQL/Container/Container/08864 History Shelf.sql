@@ -34,10 +34,10 @@ VALUES (8864,   1, 'History Shelf') /* Name */
      , (8864,  15, 'This shelf houses free public copies of the history of Dereth.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8864,   1,   33556844) /* Setup */
-     , (8864,   3,  536870932) /* SoundTable */
-     , (8864,   8,  100668246) /* Icon */
-     , (8864,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8864,   1, 0x0200096C) /* Setup */
+     , (8864,   3, 0x20000014) /* SoundTable */
+     , (8864,   8, 0x06001356) /* Icon */
+     , (8864,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8864, -1, 8863, 60, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate General History of Dereth Vol. XI (8863) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

@@ -16,7 +16,7 @@ VALUES (24556,   1,        256) /* ItemType - MissileWeapon */
      , (24556,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (24556,  49,         15) /* WeaponTime */
      , (24556,  50,          4) /* AmmoType - Atlatl */
-     , (24556,  51,          2) /* CombatUse - Missle */
+     , (24556,  51,          2) /* CombatUse - Missile */
      , (24556,  60,        192) /* WeaponRange */
      , (24556,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24556, 106,        400) /* ItemSpellcraft */
@@ -45,13 +45,13 @@ VALUES (24556,   1, 'Tumerok Hunting Brace') /* Name */
      , (24556,  33, 'GotAtlatlRenegadeRaids') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24556,   1,   33558380) /* Setup */
-     , (24556,   3,  536870932) /* SoundTable */
-     , (24556,   8,  100674409) /* Icon */
-     , (24556,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24556,   1, 0x02000F6C) /* Setup */
+     , (24556,   3, 0x20000014) /* SoundTable */
+     , (24556,   8, 0x06002B69) /* Icon */
+     , (24556,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24556,  1604,      2)  /* Aura of Defender Self V */
-     , (24556,  1616,      2)  /* Aura of Blood Drinker Self VI */
      , (24556,  2567,      2)  /* Minor Missile Weapon Aptitude */
+     , (24556,  1616,      2)  /* Aura of Blood Drinker Self VI */
      , (24556,  2579,      2)  /* Minor Coordination */;

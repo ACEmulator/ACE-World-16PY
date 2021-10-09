@@ -20,6 +20,6 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15273,   1, 'Nuhmudira''s Mansion') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15273,   1,   33557167) /* Setup */
-     , (15273,   2,  150995158) /* MotionTable */
-     , (15273,   8,  100671884) /* Icon */;
+VALUES (15273,   1, 0x02000AAF) /* Setup */
+     , (15273,   2, 0x090000D6) /* MotionTable */
+     , (15273,   8, 0x0600218C) /* Icon */;

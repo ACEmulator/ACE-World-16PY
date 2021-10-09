@@ -37,9 +37,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (122,   1, 'Soft Leather Gloves') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (122,   1,   33554648) /* Setup */
-     , (122,   6,   67108990) /* PaletteBase */
-     , (122,   7,  268435464) /* ClothingBase */
-     , (122,   8,  100667319) /* Icon */
-     , (122,  22,  872415275) /* PhysicsEffectTable */
-     , (122,  36,  234881046) /* MutateFilter */;
+VALUES (122,   1, 0x020000D8) /* Setup */
+     , (122,   6, 0x0400007E) /* PaletteBase */
+     , (122,   7, 0x10000008) /* ClothingBase */
+     , (122,   8, 0x06000FB7) /* Icon */
+     , (122,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (122,  36, 0x0E000016) /* MutateFilter */;

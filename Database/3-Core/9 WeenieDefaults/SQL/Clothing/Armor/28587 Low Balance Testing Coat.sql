@@ -28,8 +28,8 @@ VALUES (28587,  22, True ) /* Inscribable */
      , (28587,  84, True ) /* IgnoreCloIcons */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28587,   5,       0) /* ManaRate */
-     , (28587,  12, 0.232225) /* Shade */
+VALUES (28587,   5,      -0) /* ManaRate */
+     , (28587,  12,   0.232) /* Shade */
      , (28587,  13,       1) /* ArmorModVsSlash */
      , (28587,  14,       1) /* ArmorModVsPierce */
      , (28587,  15,       1) /* ArmorModVsBludgeon */
@@ -44,19 +44,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28587,   1, 'Low Balance Testing Coat') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28587,   1,   33554854) /* Setup */
-     , (28587,   3,  536870932) /* SoundTable */
-     , (28587,   6,   67108990) /* PaletteBase */
-     , (28587,   7,  268435873) /* ClothingBase */
-     , (28587,   8,  100674067) /* Icon */
-     , (28587,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28587,   1, 0x020001A6) /* Setup */
+     , (28587,   3, 0x20000014) /* SoundTable */
+     , (28587,   6, 0x0400007E) /* PaletteBase */
+     , (28587,   7, 0x100001A1) /* ClothingBase */
+     , (28587,   8, 0x06002A13) /* Icon */
+     , (28587,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28587,  1483,      2)  /* Impenetrability III */
-     , (28587,  1495,      2)  /* Acid Bane III */
-     , (28587,  1513,      2)  /* Bludgeon Bane III */
-     , (28587,  1525,      2)  /* Frost Bane III */
-     , (28587,  1537,      2)  /* Lightning Bane III */
+VALUES (28587,  1537,      2)  /* Lightning Bane III */
+     , (28587,  1483,      2)  /* Impenetrability III */
      , (28587,  1549,      2)  /* Flame Bane III */
      , (28587,  1559,      2)  /* Blade Bane III */
-     , (28587,  1571,      2)  /* Piercing Bane III */;
+     , (28587,  1495,      2)  /* Acid Bane III */
+     , (28587,  1571,      2)  /* Piercing Bane III */
+     , (28587,  1513,      2)  /* Bludgeon Bane III */
+     , (28587,  1525,      2)  /* Frost Bane III */;

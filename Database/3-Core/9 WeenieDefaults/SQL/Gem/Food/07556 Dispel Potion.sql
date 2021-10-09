@@ -34,13 +34,13 @@ VALUES (7556,   1, 'Dispel Potion') /* Name */
      , (7556,  16, 'A potion capable of dispelling negative enchantments of level 4 or lower.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7556,   1,   33554603) /* Setup */
-     , (7556,   3,  536870932) /* SoundTable */
-     , (7556,   6,   67111919) /* PaletteBase */
-     , (7556,   7,  268435996) /* ClothingBase */
-     , (7556,   8,  100670741) /* Icon */
-     , (7556,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7556,   1, 0x020000AB) /* Setup */
+     , (7556,   3, 0x20000014) /* SoundTable */
+     , (7556,   6, 0x04000BEF) /* PaletteBase */
+     , (7556,   7, 0x1000021C) /* ClothingBase */
+     , (7556,   8, 0x06001D15) /* Icon */
+     , (7556,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7556,  23,         65) /* UseSound - Drink1 */
-     , (7556,  27,  318767233) /* UseUserAnimation - MimeEat */
+     , (7556,  27, 0x13000081) /* UseUserAnimation - MimeEat */
      , (7556,  28,       1867) /* Spell - Devour All Magic Other */
-     , (7556,  36,  234881046) /* MutateFilter */;
+     , (7556,  36, 0x0E000016) /* MutateFilter */;

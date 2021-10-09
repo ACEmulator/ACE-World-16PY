@@ -39,11 +39,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (77,   1, 'Kabuton') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (77,   1,   33554652) /* Setup */
-     , (77,   3,  536870932) /* SoundTable */
-     , (77,   6,   67108990) /* PaletteBase */
-     , (77,   7,  268435490) /* ClothingBase */
-     , (77,   8,  100667944) /* Icon */
-     , (77,  22,  872415275) /* PhysicsEffectTable */
-     , (77,  36,  234881042) /* MutateFilter */
-     , (77,  46,  939524146) /* TsysMutationFilter */;
+VALUES (77,   1, 0x020000DC) /* Setup */
+     , (77,   3, 0x20000014) /* SoundTable */
+     , (77,   6, 0x0400007E) /* PaletteBase */
+     , (77,   7, 0x10000022) /* ClothingBase */
+     , (77,   8, 0x06001228) /* Icon */
+     , (77,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (77,  36, 0x0E000012) /* MutateFilter */
+     , (77,  46, 0x38000032) /* TsysMutationFilter */;

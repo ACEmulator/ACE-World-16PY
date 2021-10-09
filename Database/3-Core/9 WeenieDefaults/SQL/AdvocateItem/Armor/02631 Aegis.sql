@@ -37,9 +37,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2631,   1, 'Aegis') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2631,   1,   33555834) /* Setup */
-     , (2631,   3,  536870932) /* SoundTable */
-     , (2631,   6,   67111919) /* PaletteBase */
-     , (2631,   7,  268435801) /* ClothingBase */
-     , (2631,   8,  100668151) /* Icon */
-     , (2631,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (2631,   1, 0x0200057A) /* Setup */
+     , (2631,   3, 0x20000014) /* SoundTable */
+     , (2631,   6, 0x04000BEF) /* PaletteBase */
+     , (2631,   7, 0x10000159) /* ClothingBase */
+     , (2631,   8, 0x060012F7) /* Icon */
+     , (2631,  22, 0x3400002B) /* PhysicsEffectTable */;

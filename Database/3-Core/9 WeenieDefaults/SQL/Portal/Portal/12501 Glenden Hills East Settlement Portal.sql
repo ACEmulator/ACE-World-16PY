@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12501,   1, 'Glenden Hills East Settlement Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12501,   1,   33554867) /* Setup */
-     , (12501,   2,  150994947) /* MotionTable */
-     , (12501,   8,  100667499) /* Icon */;
+VALUES (12501,   1, 0x020001B3) /* Setup */
+     , (12501,   2, 0x09000003) /* MotionTable */
+     , (12501,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12501, 2, 2795962382, 40.031, 125.674, 127.915, 0.7297508, 0, 0, -0.6837132) /* Destination */
-/* @teleloc 0xA6A7000E [40.031000 125.674000 127.915000] 0.729751 0.000000 0.000000 -0.683713 */;
+VALUES (12501, 2, 0xA6A7000E, 40.031, 125.674, 127.915, 0.729751, 0, 0, -0.683713) /* Destination */
+/* @teleloc 0xA6A7000E [40.030998 125.674004 127.915001] 0.729751 0.000000 0.000000 -0.683713 */;

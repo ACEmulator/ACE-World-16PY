@@ -24,7 +24,7 @@ VALUES (24572,   1, 'Life Stone') /* Name */
      , (24572,  33, 'UsedLifestoneCandethKeep') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24572,   1,   33558189) /* Setup */
-     , (24572,   2,  150995232) /* MotionTable */
-     , (24572,   3,  536870932) /* SoundTable */
-     , (24572,   8,  100668245) /* Icon */;
+VALUES (24572,   1, 0x02000EAD) /* Setup */
+     , (24572,   2, 0x09000120) /* MotionTable */
+     , (24572,   3, 0x20000014) /* SoundTable */
+     , (24572,   8, 0x06001355) /* Icon */;

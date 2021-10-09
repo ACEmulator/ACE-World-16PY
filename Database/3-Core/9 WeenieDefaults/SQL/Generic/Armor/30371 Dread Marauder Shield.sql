@@ -38,9 +38,9 @@ VALUES (30371,   1, 'Dread Marauder Shield') /* Name */
      , (30371,  16, 'Describe me here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30371,   1,   33554788) /* Setup */
-     , (30371,   3,  536870932) /* SoundTable */
-     , (30371,   6,   67111919) /* PaletteBase */
-     , (30371,   7,  268435610) /* ClothingBase */
-     , (30371,   8,  100668151) /* Icon */
-     , (30371,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30371,   1, 0x02000164) /* Setup */
+     , (30371,   3, 0x20000014) /* SoundTable */
+     , (30371,   6, 0x04000BEF) /* PaletteBase */
+     , (30371,   7, 0x1000009A) /* ClothingBase */
+     , (30371,   8, 0x060012F7) /* Icon */
+     , (30371,  22, 0x3400002B) /* PhysicsEffectTable */;

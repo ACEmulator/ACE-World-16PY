@@ -51,17 +51,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19845,   1, 'Perfect Chilling Isparian Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19845,   1,   33557734) /* Setup */
-     , (19845,   3,  536870932) /* SoundTable */
-     , (19845,   6,   67111919) /* PaletteBase */
-     , (19845,   7,  268436378) /* ClothingBase */
-     , (19845,   8,  100673029) /* Icon */
-     , (19845,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19845,   1, 0x02000CE6) /* Setup */
+     , (19845,   3, 0x20000014) /* SoundTable */
+     , (19845,   6, 0x04000BEF) /* PaletteBase */
+     , (19845,   7, 0x1000039A) /* ClothingBase */
+     , (19845,   8, 0x06002605) /* Icon */
+     , (19845,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19845,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19845,  1035,      2)  /* Cold Protection Self VI */
-     , (19845,  1377,      2)  /* Coordination Self V */
+     , (19845,  2689,      2)  /* Moderate Finesse Weapon Aptitude */
      , (19845,  1592,      2)  /* Aura of Heart Seeker Self VI */
-     , (19845,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (19845,  2689,      2)  /* Moderate Finesse Weapon Aptitude */;
+     , (19845,  1377,      2)  /* Coordination Self V */
+     , (19845,  1616,      2)  /* Aura of Blood Drinker Self VI */;

@@ -33,11 +33,11 @@ VALUES (20862,   1, 'Olthoi Stamp') /* Name */
      , (20862,  15, 'A stamp with the symbol of an Olthoi.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20862,   1,   33556922) /* Setup */
-     , (20862,   3,  536870932) /* SoundTable */
-     , (20862,   6,   67111092) /* PaletteBase */
-     , (20862,   7,  268436417) /* ClothingBase */
-     , (20862,   8,  100673243) /* Icon */
-     , (20862,  22,  872415275) /* PhysicsEffectTable */
-     , (20862,  50,  100673181) /* IconOverlay */
-     , (20862,  51,  100673082) /* IconOverlaySecondary */;
+VALUES (20862,   1, 0x020009BA) /* Setup */
+     , (20862,   3, 0x20000014) /* SoundTable */
+     , (20862,   6, 0x040008B4) /* PaletteBase */
+     , (20862,   7, 0x100003C1) /* ClothingBase */
+     , (20862,   8, 0x060026DB) /* Icon */
+     , (20862,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (20862,  50, 0x0600269D) /* IconOverlay */
+     , (20862,  51, 0x0600263A) /* IconOverlaySecondary */;

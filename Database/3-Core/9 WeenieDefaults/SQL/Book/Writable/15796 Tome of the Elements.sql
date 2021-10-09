@@ -25,10 +25,10 @@ VALUES (15796,   1, 'Tome of the Elements') /* Name */
      , (15796,  16, 'A tome of four distinct colors, fasted in an iron bound leather binding. Surprising light for such a large tome, the book bears no scent of age, though it is written in an old form of Empyrean. It has been translated for ease of reading.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15796,   1,   33556929) /* Setup */
-     , (15796,   3,  536870932) /* SoundTable */
-     , (15796,   8,  100672794) /* Icon */
-     , (15796,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15796,   1, 0x020009C1) /* Setup */
+     , (15796,   3, 0x20000014) /* SoundTable */
+     , (15796,   8, 0x0600251A) /* Icon */
+     , (15796,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (15796, 44, 1000);

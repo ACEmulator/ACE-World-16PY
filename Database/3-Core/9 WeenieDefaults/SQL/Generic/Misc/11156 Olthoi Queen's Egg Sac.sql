@@ -21,7 +21,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11156,   1, 'Olthoi Queen''s Egg Sac') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11156,   1,   33557285) /* Setup */
-     , (11156,   3,  536870932) /* SoundTable */
-     , (11156,   8,  100671287) /* Icon */
-     , (11156,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11156,   1, 0x02000B25) /* Setup */
+     , (11156,   3, 0x20000014) /* SoundTable */
+     , (11156,   8, 0x06001F37) /* Icon */
+     , (11156,  22, 0x3400002B) /* PhysicsEffectTable */;

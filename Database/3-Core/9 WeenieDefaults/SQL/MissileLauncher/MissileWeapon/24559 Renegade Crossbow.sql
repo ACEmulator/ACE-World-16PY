@@ -16,7 +16,7 @@ VALUES (24559,   1,        256) /* ItemType - MissileWeapon */
      , (24559,  48,          3) /* WeaponSkill - Crossbow */
      , (24559,  49,         60) /* WeaponTime */
      , (24559,  50,          2) /* AmmoType - Bolt */
-     , (24559,  51,          2) /* CombatUse - Missle */
+     , (24559,  51,          2) /* CombatUse - Missile */
      , (24559,  52,          2) /* ParentLocation - LeftHand */
      , (24559,  53,          3) /* PlacementPosition - LeftHand */
      , (24559,  60,        192) /* WeaponRange */
@@ -51,11 +51,11 @@ VALUES (24559,   1, 'Renegade Crossbow') /* Name */
      , (24559,  33, 'GotCrossBowRenegadeRaids') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24559,   1,   33558377) /* Setup */
-     , (24559,   3,  536870932) /* SoundTable */
-     , (24559,   6,   67111919) /* PaletteBase */
-     , (24559,   8,  100674394) /* Icon */
-     , (24559,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24559,   1, 0x02000F69) /* Setup */
+     , (24559,   3, 0x20000014) /* SoundTable */
+     , (24559,   6, 0x04000BEF) /* PaletteBase */
+     , (24559,   8, 0x06002B5A) /* Icon */
+     , (24559,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24559,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

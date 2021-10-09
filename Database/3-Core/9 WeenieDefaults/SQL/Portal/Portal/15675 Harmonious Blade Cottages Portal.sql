@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15675,   1, 'Harmonious Blade Cottages Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15675,   1,   33554867) /* Setup */
-     , (15675,   2,  150994947) /* MotionTable */
-     , (15675,   8,  100667499) /* Icon */;
+VALUES (15675,   1, 0x020001B3) /* Setup */
+     , (15675,   2, 0x09000003) /* MotionTable */
+     , (15675,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15675, 2, 1671561245, 83.922, 110.079, 54.005, -0.964336, 0, 0, -0.2646811) /* Destination */
-/* @teleloc 0x63A2001D [83.922000 110.079000 54.005000] -0.964336 0.000000 0.000000 -0.264681 */;
+VALUES (15675, 2, 0x63A2001D, 83.922, 110.079, 54.005, -0.964336, 0, -0, -0.264681) /* Destination */
+/* @teleloc 0x63A2001D [83.921997 110.079002 54.005001] -0.964336 0.000000 -0.000000 -0.264681 */;

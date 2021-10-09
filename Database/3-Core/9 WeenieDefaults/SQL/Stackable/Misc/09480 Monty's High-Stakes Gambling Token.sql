@@ -29,9 +29,9 @@ VALUES (9480,   1, 'Monty''s High-Stakes Gambling Token') /* Name */
      , (9480,  16, 'A red gambling token from Monty''s Den of Iniquity.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9480,   1,   33557006) /* Setup */
-     , (9480,   3,  536870932) /* SoundTable */
-     , (9480,   6,   67113173) /* PaletteBase */
-     , (9480,   7,  268436162) /* ClothingBase */
-     , (9480,   8,  100671476) /* Icon */
-     , (9480,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9480,   1, 0x02000A0E) /* Setup */
+     , (9480,   3, 0x20000014) /* SoundTable */
+     , (9480,   6, 0x040010D5) /* PaletteBase */
+     , (9480,   7, 0x100002C2) /* ClothingBase */
+     , (9480,   8, 0x06001FF4) /* Icon */
+     , (9480,  22, 0x3400002B) /* PhysicsEffectTable */;

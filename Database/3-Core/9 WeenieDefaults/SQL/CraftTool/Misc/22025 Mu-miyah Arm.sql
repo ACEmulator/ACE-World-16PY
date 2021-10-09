@@ -32,9 +32,9 @@ VALUES (22025,   1, 'Mu-miyah Arm') /* Name */
      , (22025,  14, 'Attach this arm to a mu-miyah torso, or a mu-miyah torso already fitted with an arm.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22025,   1,   33558028) /* Setup */
-     , (22025,   3,  536870932) /* SoundTable */
-     , (22025,   6,   67108990) /* PaletteBase */
-     , (22025,   7,  268436480) /* ClothingBase */
-     , (22025,   8,  100673683) /* Icon */
-     , (22025,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22025,   1, 0x02000E0C) /* Setup */
+     , (22025,   3, 0x20000014) /* SoundTable */
+     , (22025,   6, 0x0400007E) /* PaletteBase */
+     , (22025,   7, 0x10000400) /* ClothingBase */
+     , (22025,   8, 0x06002893) /* Icon */
+     , (22025,  22, 0x3400002B) /* PhysicsEffectTable */;

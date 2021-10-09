@@ -32,7 +32,7 @@ VALUES (25954,  22, True ) /* Inscribable */
      , (25954,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25954,   5, -0.0333) /* ManaRate */
+VALUES (25954,   5,  -0.033) /* ManaRate */
      , (25954,  12,    0.66) /* Shade */
      , (25954,  13,       1) /* ArmorModVsSlash */
      , (25954,  14,     1.2) /* ArmorModVsPierce */
@@ -49,14 +49,14 @@ VALUES (25954,   1, 'Shadow''s Mind') /* Name */
      , (25954,  16, 'A facial wrap that protects your face from sandstorms, and occludes your face from the eyes of others. It is rumored that these were the same masks worn by the Shagar Zharala during their assassination of King Laszko. This particular wrap appears to have a Woven Tassel of Sound Mind attached to it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25954,   1,   33556861) /* Setup */
-     , (25954,   3,  536870932) /* SoundTable */
-     , (25954,   6,   67108990) /* PaletteBase */
-     , (25954,   7,  268436079) /* ClothingBase */
-     , (25954,   8,  100671133) /* Icon */
-     , (25954,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25954,   1, 0x0200097D) /* Setup */
+     , (25954,   3, 0x20000014) /* SoundTable */
+     , (25954,   6, 0x0400007E) /* PaletteBase */
+     , (25954,   7, 0x1000026F) /* ClothingBase */
+     , (25954,   8, 0x06001E9D) /* Icon */
+     , (25954,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25954,   657,      2)  /* Mana Conversion Mastery Self V */
-     , (25954,  1425,      2)  /* Focus Self V */
-     , (25954,  1449,      2)  /* Willpower Self V */;
+     , (25954,  1449,      2)  /* Willpower Self V */
+     , (25954,  1425,      2)  /* Focus Self V */;

@@ -24,7 +24,7 @@ VALUES (20315,   1, 'Scroll of Devour Creature Magic Self') /* Name */
      , (20315,  15, 'When learned, this spell dispels 2-4 positive Creature Magic enchantments of level 4 or lower from the caster.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20315,   1,   33554826) /* Setup */
-     , (20315,   8,  100676647) /* Icon */
-     , (20315,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20315,   1, 0x0200018A) /* Setup */
+     , (20315,   8, 0x06003427) /* Icon */
+     , (20315,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20315,  28,       1905) /* Spell - Devour Creature Magic Self */;

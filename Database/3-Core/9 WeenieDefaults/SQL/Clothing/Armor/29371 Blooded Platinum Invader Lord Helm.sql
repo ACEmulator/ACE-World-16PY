@@ -29,7 +29,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29371,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29371,   5, -0.0333) /* ManaRate */
+VALUES (29371,   5,  -0.033) /* ManaRate */
      , (29371,  12,    0.66) /* Shade */
      , (29371,  13,     1.3) /* ArmorModVsSlash */
      , (29371,  14,       1) /* ArmorModVsPierce */
@@ -47,15 +47,15 @@ VALUES (29371,   1, 'Blooded Platinum Invader Lord Helm') /* Name */
      , (29371,  33, 'HelmSimulacra') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29371,   1,   33556883) /* Setup */
-     , (29371,   3,  536870932) /* SoundTable */
-     , (29371,   6,   67108990) /* PaletteBase */
-     , (29371,   7,  268436261) /* ClothingBase */
-     , (29371,   8,  100672134) /* Icon */
-     , (29371,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29371,   1, 0x02000993) /* Setup */
+     , (29371,   3, 0x20000014) /* SoundTable */
+     , (29371,   6, 0x0400007E) /* PaletteBase */
+     , (29371,   7, 0x10000325) /* ClothingBase */
+     , (29371,   8, 0x06002286) /* Icon */
+     , (29371,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29371,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29371,   247,      2)  /* Invulnerability Self IV */
-     , (29371,   259,      2)  /* Impregnability Self IV */
+VALUES (29371,   259,      2)  /* Impregnability Self IV */
+     , (29371,   247,      2)  /* Invulnerability Self IV */
      , (29371,  1484,      2)  /* Impenetrability IV */;

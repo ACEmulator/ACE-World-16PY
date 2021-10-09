@@ -69,12 +69,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24864,   1, 'Iorik Eye Stalk') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24864,   1,   33558409) /* Setup */
-     , (24864,   2,  150995067) /* MotionTable */
-     , (24864,   3,  536871015) /* SoundTable */
-     , (24864,   4,  805306404) /* CombatTable */
-     , (24864,   8,  100671186) /* Icon */
-     , (24864,  22,  872415332) /* PhysicsEffectTable */
+VALUES (24864,   1, 0x02000F89) /* Setup */
+     , (24864,   2, 0x0900007B) /* MotionTable */
+     , (24864,   3, 0x20000067) /* SoundTable */
+     , (24864,   4, 0x30000024) /* CombatTable */
+     , (24864,   8, 0x06001ED2) /* Icon */
+     , (24864,  22, 0x34000064) /* PhysicsEffectTable */
      , (24864,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -91,15 +91,15 @@ VALUES (24864,   1,   350, 0, 0, 480) /* MaxHealth */
      , (24864,   5,   250, 0, 0, 550) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (24864,  6, 0, 3, 0, 315, 0, 1602.02205669963) /* MeleeDefense        Specialized */
-     , (24864,  7, 0, 3, 0, 410, 0, 1602.02205669963) /* MissileDefense      Specialized */
-     , (24864, 12, 0, 3, 0, 180, 0, 1602.02205669963) /* ThrownWeapon        Specialized */
-     , (24864, 13, 0, 3, 0, 330, 0, 1602.02205669963) /* UnarmedCombat       Specialized */
-     , (24864, 14, 0, 3, 0, 190, 0, 1602.02205669963) /* ArcaneLore          Specialized */
-     , (24864, 15, 0, 3, 0, 250, 0, 1602.02205669963) /* MagicDefense        Specialized */
-     , (24864, 20, 0, 3, 0, 225, 0, 1602.02205669963) /* Deception           Specialized */
-     , (24864, 31, 0, 3, 0, 225, 0, 1602.02205669963) /* CreatureEnchantment Specialized */
-     , (24864, 33, 0, 3, 0, 225, 0, 1602.02205669963) /* LifeMagic           Specialized */;
+VALUES (24864,  6, 0, 3, 0, 315, 0, 1602.0220566996327) /* MeleeDefense        Specialized */
+     , (24864,  7, 0, 3, 0, 410, 0, 1602.0220566996327) /* MissileDefense      Specialized */
+     , (24864, 12, 0, 3, 0, 180, 0, 1602.0220566996327) /* ThrownWeapon        Specialized */
+     , (24864, 13, 0, 3, 0, 330, 0, 1602.0220566996327) /* UnarmedCombat       Specialized */
+     , (24864, 14, 0, 3, 0, 190, 0, 1602.0220566996327) /* ArcaneLore          Specialized */
+     , (24864, 15, 0, 3, 0, 250, 0, 1602.0220566996327) /* MagicDefense        Specialized */
+     , (24864, 20, 0, 3, 0, 225, 0, 1602.0220566996327) /* Deception           Specialized */
+     , (24864, 31, 0, 3, 0, 225, 0, 1602.0220566996327) /* CreatureEnchantment Specialized */
+     , (24864, 33, 0, 3, 0, 225, 0, 1602.0220566996327) /* LifeMagic           Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (24864,  0, 64, 150, 0.75,  450,  383,  383,  450,  405,  450,  428,  225,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
@@ -108,13 +108,13 @@ VALUES (24864,  0, 64, 150, 0.75,  450,  383,  383,  450,  405,  450,  428,  225
      , (24864, 25,  4, 150, 0.75,  480,  408,  408,  480,  432,  480,  456,  240,    0, 3,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* LowerTentacle */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24864,   176,   2.03)  /* Fester Other VI */
+VALUES (24864,  1265,   2.03)  /* Drain Mana Other VI */
+     , (24864,  2763,   2.05)  /* Martyr's Hecatomb IV */
      , (24864,  1161,  2.015)  /* Heal Self VI */
      , (24864,  1176,   2.15)  /* Harm Other VI */
      , (24864,  1242,  2.015)  /* Drain Health Other VI */
-     , (24864,  1265,   2.03)  /* Drain Mana Other VI */
      , (24864,  1312,   2.03)  /* Armor Self VI */
-     , (24864,  2763,   2.05)  /* Martyr's Hecatomb IV */;
+     , (24864,   176,   2.03)  /* Fester Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (24864,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -27,7 +27,7 @@ VALUES (24357,   1, 'Brood Matron Pincer') /* Name */
      , (24357,  33, 'BroodMatronPincerPickedUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24357,   1,   33554817) /* Setup */
-     , (24357,   3,  536870932) /* SoundTable */
-     , (24357,   8,  100674332) /* Icon */
-     , (24357,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24357,   1, 0x02000181) /* Setup */
+     , (24357,   3, 0x20000014) /* SoundTable */
+     , (24357,   8, 0x06002B1C) /* Icon */
+     , (24357,  22, 0x3400002B) /* PhysicsEffectTable */;

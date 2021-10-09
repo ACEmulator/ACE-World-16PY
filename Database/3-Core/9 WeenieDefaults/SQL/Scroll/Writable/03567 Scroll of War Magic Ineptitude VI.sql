@@ -25,7 +25,7 @@ VALUES (3567,   1, 'Scroll of War Magic Ineptitude VI') /* Name */
      , (3567,  16, 'When learned, this spell decreases the target''s War Magic skill by 60%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3567,   1,   33554826) /* Setup */
-     , (3567,   8,  100676479) /* Icon */
-     , (3567,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3567,   1, 0x0200018A) /* Setup */
+     , (3567,   8, 0x0600337F) /* Icon */
+     , (3567,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3567,  28,        652) /* Spell - War Magic Ineptitude Other VI */;

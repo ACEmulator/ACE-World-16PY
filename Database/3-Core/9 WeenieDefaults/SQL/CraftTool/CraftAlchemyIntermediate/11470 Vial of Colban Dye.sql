@@ -32,9 +32,9 @@ VALUES (11470,   1, 'Vial of Colban Dye') /* Name */
      , (11470,  20, 'Vials of Colban Dye') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11470,   1,   33556751) /* Setup */
-     , (11470,   3,  536870932) /* SoundTable */
-     , (11470,   6,   67111919) /* PaletteBase */
-     , (11470,   7,  268436034) /* ClothingBase */
-     , (11470,   8,  100670001) /* Icon */
-     , (11470,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11470,   1, 0x0200090F) /* Setup */
+     , (11470,   3, 0x20000014) /* SoundTable */
+     , (11470,   6, 0x04000BEF) /* PaletteBase */
+     , (11470,   7, 0x10000242) /* ClothingBase */
+     , (11470,   8, 0x06001A31) /* Icon */
+     , (11470,  22, 0x3400002B) /* PhysicsEffectTable */;

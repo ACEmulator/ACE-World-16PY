@@ -37,11 +37,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27227,   1, 'Nariyid Breastplate') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27227,   1,   33554642) /* Setup */
-     , (27227,   3,  536870932) /* SoundTable */
-     , (27227,   6,   67108990) /* PaletteBase */
-     , (27227,   7,  268436811) /* ClothingBase */
-     , (27227,   8,  100676156) /* Icon */
-     , (27227,  22,  872415275) /* PhysicsEffectTable */
-     , (27227,  36,  234881042) /* MutateFilter */
-     , (27227,  46,  939524146) /* TsysMutationFilter */;
+VALUES (27227,   1, 0x020000D2) /* Setup */
+     , (27227,   3, 0x20000014) /* SoundTable */
+     , (27227,   6, 0x0400007E) /* PaletteBase */
+     , (27227,   7, 0x1000054B) /* ClothingBase */
+     , (27227,   8, 0x0600323C) /* Icon */
+     , (27227,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27227,  36, 0x0E000012) /* MutateFilter */
+     , (27227,  46, 0x38000032) /* TsysMutationFilter */;

@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15163,   1, 'Jenshi Cottages Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15163,   1,   33554867) /* Setup */
-     , (15163,   2,  150994947) /* MotionTable */
-     , (15163,   8,  100667499) /* Icon */;
+VALUES (15163,   1, 0x020001B3) /* Setup */
+     , (15163,   2, 0x09000003) /* MotionTable */
+     , (15163,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15163, 2, 3078160397, 45.513, 97.37, 24.005, 0.4560111, 0, 0, -0.8899741) /* Destination */
-/* @teleloc 0xB779000D [45.513000 97.370000 24.005000] 0.456011 0.000000 0.000000 -0.889974 */;
+VALUES (15163, 2, 0xB779000D, 45.513, 97.37, 24.005, 0.456011, 0, 0, -0.889974) /* Destination */
+/* @teleloc 0xB779000D [45.513000 97.370003 24.004999] 0.456011 0.000000 0.000000 -0.889974 */;

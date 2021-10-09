@@ -22,5 +22,5 @@ VALUES (21482,   1, 'Xao Wu Gardens') /* Name */
      , (21482,  16, 'Xao Wu Gardens') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21482,   1,   33557900) /* Setup */
-     , (21482,   8,  100667499) /* Icon */;
+VALUES (21482,   1, 0x02000D8C) /* Setup */
+     , (21482,   8, 0x0600106B) /* Icon */;

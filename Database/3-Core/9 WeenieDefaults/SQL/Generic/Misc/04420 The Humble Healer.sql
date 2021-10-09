@@ -22,7 +22,7 @@ VALUES (4420,   1, 'The Humble Healer') /* Name */
      , (4420,  16, 'The Humble Healer') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4420,   1,   33555088) /* Setup */
-     , (4420,   6,   67111092) /* PaletteBase */
-     , (4420,   7,  268435657) /* ClothingBase */
-     , (4420,   8,  100668115) /* Icon */;
+VALUES (4420,   1, 0x02000290) /* Setup */
+     , (4420,   6, 0x040008B4) /* PaletteBase */
+     , (4420,   7, 0x100000C9) /* ClothingBase */
+     , (4420,   8, 0x060012D3) /* Icon */;

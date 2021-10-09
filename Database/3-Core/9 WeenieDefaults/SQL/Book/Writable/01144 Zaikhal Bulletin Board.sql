@@ -25,8 +25,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1144,   1, 'Zaikhal Bulletin Board') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1144,   1,   33555088) /* Setup */
-     , (1144,   8,  100668115) /* Icon */;
+VALUES (1144,   1, 0x02000290) /* Setup */
+     , (1144,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (1144, 100, 1000);

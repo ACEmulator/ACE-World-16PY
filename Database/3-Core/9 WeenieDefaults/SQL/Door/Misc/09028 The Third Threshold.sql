@@ -31,8 +31,8 @@ VALUES (9028,   1, 'The Third Threshold') /* Name */
      , (9028,  17, 'The door swings wide, and a melodious voice in your mind says, "Beyond lays the last and most grueling test. Once you jump into the abyss, you may not return this way. You must enter the test grounds again later."') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9028,   1,   33555953) /* Setup */
-     , (9028,   2,  150995078) /* MotionTable */
-     , (9028,   3,  536870947) /* SoundTable */
-     , (9028,   8,  100668183) /* Icon */
-     , (9028,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9028,   1, 0x020005F1) /* Setup */
+     , (9028,   2, 0x09000086) /* MotionTable */
+     , (9028,   3, 0x20000023) /* SoundTable */
+     , (9028,   8, 0x06001317) /* Icon */
+     , (9028,  22, 0x3400002B) /* PhysicsEffectTable */;

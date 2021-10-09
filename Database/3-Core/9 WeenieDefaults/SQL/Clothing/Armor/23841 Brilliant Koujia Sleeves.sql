@@ -47,12 +47,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23841,   1, 'Brilliant Koujia Sleeves') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23841,   1,   33554655) /* Setup */
-     , (23841,   3,  536870932) /* SoundTable */
-     , (23841,   6,   67108990) /* PaletteBase */
-     , (23841,   7,  268435851) /* ClothingBase */
-     , (23841,   8,  100674075) /* Icon */
-     , (23841,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23841,   1, 0x020000DF) /* Setup */
+     , (23841,   3, 0x20000014) /* SoundTable */
+     , (23841,   6, 0x0400007E) /* PaletteBase */
+     , (23841,   7, 0x1000018B) /* ClothingBase */
+     , (23841,   8, 0x06002A1B) /* Icon */
+     , (23841,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23841,  2571,      2)  /* Major Armor */;

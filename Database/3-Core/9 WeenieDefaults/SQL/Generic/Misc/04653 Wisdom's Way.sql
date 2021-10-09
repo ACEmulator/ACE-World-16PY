@@ -23,7 +23,7 @@ VALUES (4653,   1, 'Wisdom''s Way') /* Name */
      , (4653,  16, 'Wisdom''s Way') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4653,   1,   33555909) /* Setup */
-     , (4653,   6,   67111860) /* PaletteBase */
-     , (4653,   7,  268435824) /* ClothingBase */
-     , (4653,   8,  100668115) /* Icon */;
+VALUES (4653,   1, 0x020005C5) /* Setup */
+     , (4653,   6, 0x04000BB4) /* PaletteBase */
+     , (4653,   7, 0x10000170) /* ClothingBase */
+     , (4653,   8, 0x060012D3) /* Icon */;

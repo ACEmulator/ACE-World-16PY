@@ -26,7 +26,7 @@ VALUES (25559,   1, 'Hollow Minion''s Face') /* Name */
      , (25559,  16, 'A piece of tattered cloth and metal with a face cut into it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25559,   1,   33554817) /* Setup */
-     , (25559,   3,  536870932) /* SoundTable */
-     , (25559,   8,  100674950) /* Icon */
-     , (25559,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25559,   1, 0x02000181) /* Setup */
+     , (25559,   3, 0x20000014) /* SoundTable */
+     , (25559,   8, 0x06002D86) /* Icon */
+     , (25559,  22, 0x3400002B) /* PhysicsEffectTable */;

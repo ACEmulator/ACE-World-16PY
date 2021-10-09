@@ -60,15 +60,15 @@ VALUES (11500,   1, 'Brigand') /* Name */
      , (11500,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11500,   1,   33554433) /* Setup */
-     , (11500,   2,  150994945) /* MotionTable */
-     , (11500,   3,  536870913) /* SoundTable */
-     , (11500,   4,  805306368) /* CombatTable */
-     , (11500,   8,  100667446) /* Icon */
-     , (11500,  22,  872415236) /* PhysicsEffectTable */
+VALUES (11500,   1, 0x02000001) /* Setup */
+     , (11500,   2, 0x09000001) /* MotionTable */
+     , (11500,   3, 0x20000001) /* SoundTable */
+     , (11500,   4, 0x30000000) /* CombatTable */
+     , (11500,   8, 0x06001036) /* Icon */
+     , (11500,  22, 0x34000004) /* PhysicsEffectTable */
      , (11500,  32,        364) /* WieldedTreasureType - 
                                    Wield Boots (2606) | Probability: 40%
-                                   Wield Leather Boots (115) | Probability: 30%
+                                   Wield Leather Boots (115) | Probability: 30.000002%
                                    Wield Studded Leather Boots (116) | Probability: 20%
                                    Wield Steel Toed Boots (7897) | Probability: 10%
                                    Wield Doublet (2596) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.641%
@@ -440,13 +440,13 @@ VALUES (11500,  0,  4,  0,    0,   90,   81,   90,   99,   36,   36,   90,   54,
      , (11500,  8,  4,  2, 0.75,   95,   86,   95,  105,   38,   38,   95,   57,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11500,    27,  2.011)  /* Flame Bolt I */
-     , (11500,    28,  2.011)  /* Frost Bolt I */
-     , (11500,    58,  2.011)  /* Acid Stream I */
-     , (11500,    64,  2.011)  /* Shock Wave I */
+VALUES (11500,    64,  2.011)  /* Shock Wave I */
+     , (11500,    27,  2.011)  /* Flame Bolt I */
      , (11500,    75,  2.011)  /* Lightning Bolt I */
      , (11500,    86,  2.011)  /* Force Bolt I */
-     , (11500,    92,  2.011)  /* Whirling Blade I */;
+     , (11500,    92,  2.011)  /* Whirling Blade I */
+     , (11500,    28,  2.011)  /* Frost Bolt I */
+     , (11500,    58,  2.011)  /* Acid Stream I */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (11500,  94) /* ATTACK_NOTIFICATION_EVENT */

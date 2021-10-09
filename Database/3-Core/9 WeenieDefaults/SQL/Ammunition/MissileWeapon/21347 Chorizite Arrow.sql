@@ -42,9 +42,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21347,   1, 'Chorizite Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21347,   1,   33558045) /* Setup */
-     , (21347,   3,  536870932) /* SoundTable */
-     , (21347,   6,   67111919) /* PaletteBase */
-     , (21347,   7,  268436303) /* ClothingBase */
-     , (21347,   8,  100673584) /* Icon */
-     , (21347,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21347,   1, 0x02000E1D) /* Setup */
+     , (21347,   3, 0x20000014) /* SoundTable */
+     , (21347,   6, 0x04000BEF) /* PaletteBase */
+     , (21347,   7, 0x1000034F) /* ClothingBase */
+     , (21347,   8, 0x06002830) /* Icon */
+     , (21347,  22, 0x3400002B) /* PhysicsEffectTable */;

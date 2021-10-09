@@ -22,5 +22,5 @@ VALUES (12634,   1, 'New Suntik') /* Name */
      , (12634,  16, 'Welcome to New Suntik') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12634,   1,   33557463) /* Setup */
-     , (12634,   8,  100668115) /* Icon */;
+VALUES (12634,   1, 0x02000BD7) /* Setup */
+     , (12634,   8, 0x060012D3) /* Icon */;

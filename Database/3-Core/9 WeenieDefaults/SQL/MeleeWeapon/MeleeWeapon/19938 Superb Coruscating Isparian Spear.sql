@@ -51,17 +51,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19938,   1, 'Superb Coruscating Isparian Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19938,   1,   33556368) /* Setup */
-     , (19938,   3,  536870932) /* SoundTable */
-     , (19938,   6,   67111919) /* PaletteBase */
-     , (19938,   7,  268436383) /* ClothingBase */
-     , (19938,   8,  100672927) /* Icon */
-     , (19938,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19938,   1, 0x02000790) /* Setup */
+     , (19938,   3, 0x20000014) /* SoundTable */
+     , (19938,   6, 0x04000BEF) /* PaletteBase */
+     , (19938,   7, 0x1000039F) /* ClothingBase */
+     , (19938,   8, 0x0600259F) /* Icon */
+     , (19938,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19938,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19938,  1071,      2)  /* Lightning Protection Self VI */
-     , (19938,  1401,      2)  /* Quickness Self V */
-     , (19938,  1591,      2)  /* Aura of Heart Seeker Self V */
+VALUES (19938,  1591,      2)  /* Aura of Heart Seeker Self V */
      , (19938,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (19938,  2563,      2)  /* Minor Light Weapon Aptitude */;
+     , (19938,  2563,      2)  /* Minor Light Weapon Aptitude */
+     , (19938,  1071,      2)  /* Lightning Protection Self VI */
+     , (19938,  1401,      2)  /* Quickness Self V */;

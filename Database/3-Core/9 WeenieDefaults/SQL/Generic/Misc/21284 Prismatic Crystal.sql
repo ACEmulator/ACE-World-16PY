@@ -24,5 +24,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21284,   1, 'Prismatic Crystal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21284,   1,   33557879) /* Setup */
-     , (21284,   8,  100673212) /* Icon */;
+VALUES (21284,   1, 0x02000D77) /* Setup */
+     , (21284,   8, 0x060026BC) /* Icon */;

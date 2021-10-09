@@ -28,7 +28,7 @@ VALUES (22072,   1, 'Jade Gromnie Tooth Pick') /* Name */
      , (22072,  16, 'A pick made from the tooth of a jade gromnie.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22072,   1,   33554817) /* Setup */
-     , (22072,   6,   67111919) /* PaletteBase */
-     , (22072,   7,  268435832) /* ClothingBase */
-     , (22072,   8,  100676794) /* Icon */;
+VALUES (22072,   1, 0x02000181) /* Setup */
+     , (22072,   6, 0x04000BEF) /* PaletteBase */
+     , (22072,   7, 0x10000178) /* ClothingBase */
+     , (22072,   8, 0x060034BA) /* Icon */;

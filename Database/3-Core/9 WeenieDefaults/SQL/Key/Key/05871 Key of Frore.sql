@@ -26,6 +26,6 @@ VALUES (5871,   1, 'Key of Frore') /* Name */
      , (5871,  16, 'This smooth, frosted blue key is used to unlock the lower gates of Frore.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5871,   1,   33554784) /* Setup */
-     , (5871,   8,  100668441) /* Icon */
-     , (5871,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5871,   1, 0x02000160) /* Setup */
+     , (5871,   8, 0x06001419) /* Icon */
+     , (5871,  22, 0x3400002B) /* PhysicsEffectTable */;

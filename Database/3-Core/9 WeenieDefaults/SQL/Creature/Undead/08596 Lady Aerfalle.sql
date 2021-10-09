@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8596,   1, 'Lady Aerfalle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8596,   1,   33554839) /* Setup */
-     , (8596,   2,  150994945) /* MotionTable */
-     , (8596,   3,  536870934) /* SoundTable */
-     , (8596,   4,  805306368) /* CombatTable */
-     , (8596,   6,   67108990) /* PaletteBase */
-     , (8596,   7,  268436018) /* ClothingBase */
-     , (8596,   8,  100667942) /* Icon */
-     , (8596,  22,  872415272) /* PhysicsEffectTable */;
+VALUES (8596,   1, 0x02000197) /* Setup */
+     , (8596,   2, 0x09000001) /* MotionTable */
+     , (8596,   3, 0x20000016) /* SoundTable */
+     , (8596,   4, 0x30000000) /* CombatTable */
+     , (8596,   6, 0x0400007E) /* PaletteBase */
+     , (8596,   7, 0x10000232) /* ClothingBase */
+     , (8596,   8, 0x06001226) /* Icon */
+     , (8596,  22, 0x34000028) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8596,   1, 230, 0, 0) /* Strength */
@@ -90,23 +90,23 @@ VALUES (8596,   1,   150, 0, 0, 285) /* MaxHealth */
      , (8596,   5,   300, 0, 0, 575) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (8596,  1, 0, 3, 0, 130, 0, 594.308385592692) /* Axe                 Specialized */
-     , (8596,  2, 0, 3, 0, 120, 0, 594.308385592692) /* Bow                 Specialized */
-     , (8596,  3, 0, 3, 0, 120, 0, 594.308385592692) /* Crossbow            Specialized */
-     , (8596,  4, 0, 3, 0, 130, 0, 594.308385592692) /* Dagger              Specialized */
-     , (8596,  5, 0, 3, 0, 130, 0, 594.308385592692) /* Mace                Specialized */
-     , (8596,  6, 0, 3, 0, 135, 0, 594.308385592692) /* MeleeDefense        Specialized */
-     , (8596,  7, 0, 3, 0, 120, 0, 594.308385592692) /* MissileDefense      Specialized */
-     , (8596,  9, 0, 3, 0, 130, 0, 594.308385592692) /* Spear               Specialized */
-     , (8596, 10, 0, 3, 0, 130, 0, 594.308385592692) /* Staff               Specialized */
-     , (8596, 11, 0, 3, 0, 130, 0, 594.308385592692) /* Sword               Specialized */
-     , (8596, 13, 0, 3, 0, 200, 0, 594.308385592692) /* UnarmedCombat       Specialized */
-     , (8596, 14, 0, 3, 0, 230, 0, 594.308385592692) /* ArcaneLore          Specialized */
-     , (8596, 15, 0, 3, 0, 182, 0, 594.308385592692) /* MagicDefense        Specialized */
-     , (8596, 20, 0, 3, 0,  90, 0, 594.308385592692) /* Deception           Specialized */
-     , (8596, 31, 0, 3, 0, 230, 0, 594.308385592692) /* CreatureEnchantment Specialized */
-     , (8596, 33, 0, 3, 0, 230, 0, 594.308385592692) /* LifeMagic           Specialized */
-     , (8596, 34, 0, 3, 0, 230, 0, 594.308385592692) /* WarMagic            Specialized */;
+VALUES (8596,  1, 0, 3, 0, 130, 0, 594.3083855926923) /* Axe                 Specialized */
+     , (8596,  2, 0, 3, 0, 120, 0, 594.3083855926923) /* Bow                 Specialized */
+     , (8596,  3, 0, 3, 0, 120, 0, 594.3083855926923) /* Crossbow            Specialized */
+     , (8596,  4, 0, 3, 0, 130, 0, 594.3083855926923) /* Dagger              Specialized */
+     , (8596,  5, 0, 3, 0, 130, 0, 594.3083855926923) /* Mace                Specialized */
+     , (8596,  6, 0, 3, 0, 135, 0, 594.3083855926923) /* MeleeDefense        Specialized */
+     , (8596,  7, 0, 3, 0, 120, 0, 594.3083855926923) /* MissileDefense      Specialized */
+     , (8596,  9, 0, 3, 0, 130, 0, 594.3083855926923) /* Spear               Specialized */
+     , (8596, 10, 0, 3, 0, 130, 0, 594.3083855926923) /* Staff               Specialized */
+     , (8596, 11, 0, 3, 0, 130, 0, 594.3083855926923) /* Sword               Specialized */
+     , (8596, 13, 0, 3, 0, 200, 0, 594.3083855926923) /* UnarmedCombat       Specialized */
+     , (8596, 14, 0, 3, 0, 230, 0, 594.3083855926923) /* ArcaneLore          Specialized */
+     , (8596, 15, 0, 3, 0, 182, 0, 594.3083855926923) /* MagicDefense        Specialized */
+     , (8596, 20, 0, 3, 0,  90, 0, 594.3083855926923) /* Deception           Specialized */
+     , (8596, 31, 0, 3, 0, 230, 0, 594.3083855926923) /* CreatureEnchantment Specialized */
+     , (8596, 33, 0, 3, 0, 230, 0, 594.3083855926923) /* LifeMagic           Specialized */
+     , (8596, 34, 0, 3, 0, 230, 0, 594.3083855926923) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (8596,  0,  4,  0,    0,  210,  168,  111,  143,   27,  105,  143,  153,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -120,39 +120,39 @@ VALUES (8596,  0,  4,  0,    0,  210,  168,  111,  143,   27,  105,  143,  153, 
      , (8596,  8,  4,  3, 0.75,  220,  176,  117,  150,   29,  110,  150,  161,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8596,    62,  2.028)  /* Acid Stream V */
-     , (8596,    63,   2.01)  /* Acid Stream VI */
+VALUES (8596,  1342,  2.013)  /* Weakness Other V */
+     , (8596,  1253,   2.03)  /* Drain Stamina Other V */
+     , (8596,   137,  2.028)  /* Frost Volley V */
+     , (8596,    73,  2.028)  /* Frost Bolt V */
+     , (8596,   129,  2.028)  /* Acid Volley V */
+     , (8596,   138,   2.01)  /* Frost Volley VI */
+     , (8596,    74,   2.01)  /* Frost Bolt VI */
+     , (8596,   130,   2.01)  /* Acid Volley VI */
      , (8596,    68,  2.028)  /* Shock Wave V */
      , (8596,    69,   2.01)  /* Shock Wave VI */
-     , (8596,    73,  2.028)  /* Frost Bolt V */
-     , (8596,    74,   2.01)  /* Frost Bolt VI */
-     , (8596,    79,  2.028)  /* Lightning Bolt V */
      , (8596,    80,   2.01)  /* Lightning Bolt VI */
-     , (8596,    84,  2.028)  /* Flame Bolt V */
-     , (8596,    85,   2.01)  /* Flame Bolt VI */
-     , (8596,    90,  2.028)  /* Force Bolt V */
-     , (8596,    91,   2.01)  /* Force Bolt VI */
-     , (8596,    96,  2.028)  /* Whirling Blade V */
-     , (8596,    97,   2.01)  /* Whirling Blade VI */
-     , (8596,   129,  2.028)  /* Acid Volley V */
-     , (8596,   130,   2.01)  /* Acid Volley VI */
-     , (8596,   137,  2.028)  /* Frost Volley V */
-     , (8596,   138,   2.01)  /* Frost Volley VI */
+     , (8596,  1419,  2.013)  /* Slowness Other V */
      , (8596,   141,  2.028)  /* Lightning Volley V */
      , (8596,   142,   2.01)  /* Lightning Volley VI */
+     , (8596,    79,  2.028)  /* Lightning Bolt V */
      , (8596,   145,  2.028)  /* Flame Volley V */
      , (8596,   146,   2.01)  /* Flame Volley VI */
+     , (8596,    84,  2.028)  /* Flame Bolt V */
+     , (8596,    85,   2.01)  /* Flame Bolt VI */
+     , (8596,  1241,   2.03)  /* Drain Health Other V */
+     , (8596,    90,  2.028)  /* Force Bolt V */
+     , (8596,    96,  2.028)  /* Whirling Blade V */
+     , (8596,  1371,  2.013)  /* Frailty Other V */
+     , (8596,    91,   2.01)  /* Force Bolt VI */
+     , (8596,    97,   2.01)  /* Whirling Blade VI */
+     , (8596,  1443,  2.013)  /* Bafflement Other V */
      , (8596,   169,   2.03)  /* Regeneration Self V */
      , (8596,   175,  2.013)  /* Fester Other V */
-     , (8596,  1241,   2.03)  /* Drain Health Other V */
-     , (8596,  1253,   2.03)  /* Drain Stamina Other V */
      , (8596,  1264,   2.03)  /* Drain Mana Other V */
-     , (8596,  1342,  2.013)  /* Weakness Other V */
-     , (8596,  1371,  2.013)  /* Frailty Other V */
      , (8596,  1395,  2.013)  /* Clumsiness Other V */
-     , (8596,  1419,  2.013)  /* Slowness Other V */
-     , (8596,  1443,  2.013)  /* Bafflement Other V */
-     , (8596,  1467,  2.013)  /* Feeblemind Other V */;
+     , (8596,  1467,  2.013)  /* Feeblemind Other V */
+     , (8596,    62,  2.028)  /* Acid Stream V */
+     , (8596,    63,   2.01)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (8596,  94) /* ATTACK_NOTIFICATION_EVENT */
@@ -167,12 +167,12 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'The cold, luminous eyesockets of the Lady of Aerlinthe regard you balefully. "Fools!" she hisses. "You will destroy us all! If you must have the key, protect that which we do!" So saying, the light in her rotted skull dies, and her spirit wafts back to the north to gather its strength.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (8596,  5 /* HeartBeat */,    0.8, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (8596,  5 /* HeartBeat */,    0.8, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1124073756 /* MeditateState */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x4300011C /* MeditateState */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8596, 1,  8521,  0, 0, 1, False) /* Create Snapped Silver Key (8521) for Contain */

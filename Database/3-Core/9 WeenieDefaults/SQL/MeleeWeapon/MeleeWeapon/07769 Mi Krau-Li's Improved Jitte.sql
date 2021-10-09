@@ -47,14 +47,14 @@ VALUES (7769,   1, 'Mi Krau-Li''s Improved Jitte') /* Name */
      , (7769,  16, 'An powerful jitte, made by Mi Krau-Li. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7769,   1,   33554740) /* Setup */
-     , (7769,   3,  536870932) /* SoundTable */
-     , (7769,   6,   67111919) /* PaletteBase */
-     , (7769,   7,  268435786) /* ClothingBase */
-     , (7769,   8,  100668895) /* Icon */
-     , (7769,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7769,   1, 0x02000134) /* Setup */
+     , (7769,   3, 0x20000014) /* SoundTable */
+     , (7769,   6, 0x04000BEF) /* PaletteBase */
+     , (7769,   7, 0x1000014A) /* ClothingBase */
+     , (7769,   8, 0x060015DF) /* Icon */
+     , (7769,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7769,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7769,   342,      2)  /* Light Weapon Mastery Other III */
-     , (7769,  1614,      2)  /* Aura of Blood Drinker Self IV */;
+VALUES (7769,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (7769,   342,      2)  /* Light Weapon Mastery Other III */;

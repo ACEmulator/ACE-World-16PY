@@ -22,7 +22,7 @@ VALUES (11731,   1,        256) /* ItemType - MissileWeapon */
      , (11731,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (11731,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (11731,  49,         10) /* WeaponTime */
-     , (11731,  51,          2) /* CombatUse - Missle */
+     , (11731,  51,          2) /* CombatUse - Missile */
      , (11731,  93,     134164) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn, Inelastic */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -44,8 +44,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11731,   1, 'Spitball') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11731,   1,   33555469) /* Setup */
-     , (11731,   3,  536870969) /* SoundTable */
-     , (11731,   8,  100667590) /* Icon */
-     , (11731,  22,  872415380) /* PhysicsEffectTable */
+VALUES (11731,   1, 0x0200040D) /* Setup */
+     , (11731,   3, 0x20000039) /* SoundTable */
+     , (11731,   8, 0x060010C6) /* Icon */
+     , (11731,  22, 0x34000094) /* PhysicsEffectTable */
      , (11731,  30,         90) /* PhysicsScript - ProjectileCollision */;

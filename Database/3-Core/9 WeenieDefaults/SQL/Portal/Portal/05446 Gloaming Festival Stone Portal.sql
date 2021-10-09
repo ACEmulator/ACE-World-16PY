@@ -25,12 +25,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5446,   1, 'Gloaming Festival Stone Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5446,   1,   33554867) /* Setup */
-     , (5446,   2,  150994947) /* MotionTable */
-     , (5446,   6,   67109370) /* PaletteBase */
-     , (5446,   7,  268435652) /* ClothingBase */
-     , (5446,   8,  100667499) /* Icon */;
+VALUES (5446,   1, 0x020001B3) /* Setup */
+     , (5446,   2, 0x09000003) /* MotionTable */
+     , (5446,   6, 0x040001FA) /* PaletteBase */
+     , (5446,   7, 0x100000C4) /* ClothingBase */
+     , (5446,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5446, 2, 662306880, 173.5, 189.8, 380, 0.4539905, 0, 0, -0.8910065) /* Destination */
-/* @teleloc 0x277A0040 [173.500000 189.800000 380.000000] 0.453991 0.000000 0.000000 -0.891007 */;
+VALUES (5446, 2, 0x277A0040, 173.5, 189.8, 380, 0.453991, 0, 0, -0.891007) /* Destination */
+/* @teleloc 0x277A0040 [173.500000 189.800003 380.000000] 0.453991 0.000000 0.000000 -0.891007 */;

@@ -40,9 +40,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24550,   1, 'Greater Barbed Atlatl Dart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24550,   1,   33557434) /* Setup */
-     , (24550,   3,  536870932) /* SoundTable */
-     , (24550,   6,   67111919) /* PaletteBase */
-     , (24550,   7,  268436305) /* ClothingBase */
-     , (24550,   8,  100674388) /* Icon */
-     , (24550,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24550,   1, 0x02000BBA) /* Setup */
+     , (24550,   3, 0x20000014) /* SoundTable */
+     , (24550,   6, 0x04000BEF) /* PaletteBase */
+     , (24550,   7, 0x10000351) /* ClothingBase */
+     , (24550,   8, 0x06002B54) /* Icon */
+     , (24550,  22, 0x3400002B) /* PhysicsEffectTable */;

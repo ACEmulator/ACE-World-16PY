@@ -25,7 +25,7 @@ VALUES (3325,   1, 'Scroll of Item Tinkering Expertise Self IV') /* Name */
      , (3325,  16, 'When learned, this spell increases the caster''s Item Tinkering skill by 75%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3325,   1,   33554826) /* Setup */
-     , (3325,   8,  100676477) /* Icon */
-     , (3325,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3325,   1, 0x0200018A) /* Setup */
+     , (3325,   8, 0x0600337D) /* Icon */
+     , (3325,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3325,  28,        729) /* Spell - Item Tinkering Expertise Self IV */;

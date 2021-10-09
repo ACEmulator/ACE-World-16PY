@@ -26,10 +26,10 @@ VALUES (11012,   1, 'Martine''s Note') /* Name */
      , (11012,  16, 'A letter from Candeth Martine, addressed to Hea Arantah of Ahurenga.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11012,   1,   33554773) /* Setup */
-     , (11012,   3,  536870932) /* SoundTable */
-     , (11012,   8,  100668176) /* Icon */
-     , (11012,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11012,   1, 0x02000155) /* Setup */
+     , (11012,   3, 0x20000014) /* SoundTable */
+     , (11012,   8, 0x06001310) /* Icon */
+     , (11012,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (11012, 1, 1000);

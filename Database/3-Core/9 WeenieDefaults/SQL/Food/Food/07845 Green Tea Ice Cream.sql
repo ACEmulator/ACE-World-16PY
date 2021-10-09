@@ -29,9 +29,9 @@ VALUES (7845,   1, 'Green Tea Ice Cream') /* Name */
      , (7845,  20, 'Bowls of Green Tea Ice Cream') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7845,   1,   33554668) /* Setup */
-     , (7845,   3,  536870932) /* SoundTable */
-     , (7845,   6,   67111928) /* PaletteBase */
-     , (7845,   7,  268436021) /* ClothingBase */
-     , (7845,   8,  100670862) /* Icon */
-     , (7845,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7845,   1, 0x020000EC) /* Setup */
+     , (7845,   3, 0x20000014) /* SoundTable */
+     , (7845,   6, 0x04000BF8) /* PaletteBase */
+     , (7845,   7, 0x10000235) /* ClothingBase */
+     , (7845,   8, 0x06001D8E) /* Icon */
+     , (7845,  22, 0x3400002B) /* PhysicsEffectTable */;

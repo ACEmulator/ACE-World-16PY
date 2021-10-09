@@ -30,10 +30,10 @@ VALUES (30095,   1, 'Foolproof Black Garnet') /* Name */
      , (30095,  16, 'A lovely template for a rare.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30095,   1,   33554817) /* Setup */
-     , (30095,   3,  536870932) /* SoundTable */
-     , (30095,   6,   67111919) /* PaletteBase */
-     , (30095,   7,  268436430) /* ClothingBase */
-     , (30095,   8,  100667436) /* Icon */
-     , (30095,  22,  872415275) /* PhysicsEffectTable */
-     , (30095,  50,  100673260) /* IconOverlay */;
+VALUES (30095,   1, 0x02000181) /* Setup */
+     , (30095,   3, 0x20000014) /* SoundTable */
+     , (30095,   6, 0x04000BEF) /* PaletteBase */
+     , (30095,   7, 0x100003CE) /* ClothingBase */
+     , (30095,   8, 0x0600102C) /* Icon */
+     , (30095,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30095,  50, 0x060026EC) /* IconOverlay */;

@@ -24,7 +24,7 @@ VALUES (20509,   1, 'Scroll of Strathelar''s Blessing') /* Name */
      , (20509,  15, 'When learned, this spell increases the caster''s Bow skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20509,   1,   33554826) /* Setup */
-     , (20509,   8,  100676450) /* Icon */
-     , (20509,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20509,   1, 0x0200018A) /* Setup */
+     , (20509,   8, 0x06003362) /* Icon */
+     , (20509,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20509,  28,       2207) /* Spell - Missile Weapon Mastery Self VII */;

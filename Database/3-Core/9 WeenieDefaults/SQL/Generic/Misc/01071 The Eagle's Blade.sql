@@ -23,7 +23,7 @@ VALUES (1071,   1, 'The Eagle''s Blade') /* Name */
      , (1071,  16, 'The Eagle''s Blade') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1071,   1,   33555909) /* Setup */
-     , (1071,   6,   67111860) /* PaletteBase */
-     , (1071,   7,  268435818) /* ClothingBase */
-     , (1071,   8,  100668115) /* Icon */;
+VALUES (1071,   1, 0x020005C5) /* Setup */
+     , (1071,   6, 0x04000BB4) /* PaletteBase */
+     , (1071,   7, 0x1000016A) /* ClothingBase */
+     , (1071,   8, 0x060012D3) /* Icon */;

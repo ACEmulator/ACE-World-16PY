@@ -47,18 +47,18 @@ VALUES (22558,   1, 'Mana Conversion Tattoo') /* Name */
      , (22558,  16, 'A vial of tattoo ink infused with the power of the sheltered spirit. When painted on the upper arms the ink will act as armor and will grant the wearer the power of the sheltered spirit.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22558,   1,   33554641) /* Setup */
-     , (22558,   3,  536870932) /* SoundTable */
-     , (22558,   6,   67108990) /* PaletteBase */
-     , (22558,   7,  268436518) /* ClothingBase */
-     , (22558,   8,  100668172) /* Icon */
-     , (22558,  22,  872415275) /* PhysicsEffectTable */
-     , (22558,  50,  100673777) /* IconOverlay */;
+VALUES (22558,   1, 0x020000D1) /* Setup */
+     , (22558,   3, 0x20000014) /* SoundTable */
+     , (22558,   6, 0x0400007E) /* PaletteBase */
+     , (22558,   7, 0x10000426) /* ClothingBase */
+     , (22558,   8, 0x0600130C) /* Icon */
+     , (22558,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (22558,  50, 0x060028F1) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22558,   664,      2)  /* Mana Conversion Mastery Other VI */
+VALUES (22558,  2691,      2)  /* Moderate Mana Conversion Prowess */
      , (22558,  1317,      2)  /* Armor Other VI */
-     , (22558,  1432,      2)  /* Focus Other VI */
-     , (22558,  1456,      2)  /* Willpower Other VI */
+     , (22558,   664,      2)  /* Mana Conversion Mastery Other VI */
      , (22558,  1485,      2)  /* Impenetrability V */
-     , (22558,  2691,      2)  /* Moderate Mana Conversion Prowess */;
+     , (22558,  1456,      2)  /* Willpower Other VI */
+     , (22558,  1432,      2)  /* Focus Other VI */;

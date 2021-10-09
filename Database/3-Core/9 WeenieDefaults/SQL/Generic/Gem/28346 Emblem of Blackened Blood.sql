@@ -29,9 +29,9 @@ VALUES (28346,   1, 'Emblem of Blackened Blood') /* Name */
      , (28346,  15, 'A round emblem made from wood and solidified blood.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28346,   1,   33555194) /* Setup */
-     , (28346,   3,  536870932) /* SoundTable */
-     , (28346,   6,   67111092) /* PaletteBase */
-     , (28346,   7,  268436400) /* ClothingBase */
-     , (28346,   8,  100676996) /* Icon */
-     , (28346,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28346,   1, 0x020002FA) /* Setup */
+     , (28346,   3, 0x20000014) /* SoundTable */
+     , (28346,   6, 0x040008B4) /* PaletteBase */
+     , (28346,   7, 0x100003B0) /* ClothingBase */
+     , (28346,   8, 0x06003584) /* Icon */
+     , (28346,  22, 0x3400002B) /* PhysicsEffectTable */;

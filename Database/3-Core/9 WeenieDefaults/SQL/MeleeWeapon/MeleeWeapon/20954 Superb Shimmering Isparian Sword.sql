@@ -51,16 +51,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20954,   1, 'Superb Shimmering Isparian Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20954,   1,   33556262) /* Setup */
-     , (20954,   3,  536870932) /* SoundTable */
-     , (20954,   6,   67111919) /* PaletteBase */
-     , (20954,   7,  268436426) /* ClothingBase */
-     , (20954,   8,  100673209) /* Icon */
-     , (20954,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20954,   1, 0x02000726) /* Setup */
+     , (20954,   3, 0x20000014) /* SoundTable */
+     , (20954,   6, 0x04000BEF) /* PaletteBase */
+     , (20954,   7, 0x100003CA) /* ClothingBase */
+     , (20954,   8, 0x060026B9) /* Icon */
+     , (20954,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20954,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20954,  1312,      2)  /* Armor Self VI */
+VALUES (20954,  2566,      2)  /* Minor Heavy Weapon Aptitude */
      , (20954,  1591,      2)  /* Aura of Heart Seeker Self V */
      , (20954,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (20954,  2566,      2)  /* Minor Heavy Weapon Aptitude */;
+     , (20954,  1312,      2)  /* Armor Self VI */;

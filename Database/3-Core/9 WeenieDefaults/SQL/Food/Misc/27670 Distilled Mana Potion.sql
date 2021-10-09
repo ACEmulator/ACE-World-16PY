@@ -27,10 +27,10 @@ VALUES (27670,   1, 'Distilled Mana Potion') /* Name */
      , (27670,  16, 'A flute of cool liquid. The contents of this flute teem with energy and feel as though they are swirling within the container.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27670,   1,   33554603) /* Setup */
-     , (27670,   3,  536870932) /* SoundTable */
-     , (27670,   6,   67111919) /* PaletteBase */
-     , (27670,   7,  268435816) /* ClothingBase */
-     , (27670,   8,  100676519) /* Icon */
-     , (27670,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27670,   1, 0x020000AB) /* Setup */
+     , (27670,   3, 0x20000014) /* SoundTable */
+     , (27670,   6, 0x04000BEF) /* PaletteBase */
+     , (27670,   7, 0x10000168) /* ClothingBase */
+     , (27670,   8, 0x060033A7) /* Icon */
+     , (27670,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27670,  23,         65) /* UseSound - Drink1 */;

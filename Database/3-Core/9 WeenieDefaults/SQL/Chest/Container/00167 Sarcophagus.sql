@@ -33,8 +33,8 @@ VALUES (167,   1, 'Sarcophagus') /* Name */
      , (167,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (167,   1,   33554638) /* Setup */
-     , (167,   2,  150994980) /* MotionTable */
-     , (167,   3,  536870949) /* SoundTable */
-     , (167,   8,  100668103) /* Icon */
-     , (167,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (167,   1, 0x020000CE) /* Setup */
+     , (167,   2, 0x09000024) /* MotionTable */
+     , (167,   3, 0x20000025) /* SoundTable */
+     , (167,   8, 0x060012C7) /* Icon */
+     , (167,  22, 0x3400002B) /* PhysicsEffectTable */;

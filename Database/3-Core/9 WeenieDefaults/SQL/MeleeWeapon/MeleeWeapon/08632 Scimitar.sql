@@ -36,10 +36,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8632,   1, 'Scimitar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8632,   1,   33554750) /* Setup */
-     , (8632,   3,  536870932) /* SoundTable */
-     , (8632,   6,   67111919) /* PaletteBase */
-     , (8632,   7,  268435765) /* ClothingBase */
-     , (8632,   8,  100668975) /* Icon */
-     , (8632,  22,  872415275) /* PhysicsEffectTable */
-     , (8632,  36,  234881044) /* MutateFilter */;
+VALUES (8632,   1, 0x0200013E) /* Setup */
+     , (8632,   3, 0x20000014) /* SoundTable */
+     , (8632,   6, 0x04000BEF) /* PaletteBase */
+     , (8632,   7, 0x10000135) /* ClothingBase */
+     , (8632,   8, 0x0600162F) /* Icon */
+     , (8632,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8632,  36, 0x0E000014) /* MutateFilter */;

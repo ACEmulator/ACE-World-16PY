@@ -63,12 +63,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24296,   1, 'Olthoi Brood Matron') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24296,   1,   33557165) /* Setup */
-     , (24296,   2,  150995135) /* MotionTable */
-     , (24296,   3,  536871037) /* SoundTable */
-     , (24296,   4,  805306419) /* CombatTable */
-     , (24296,   8,  100667623) /* Icon */
-     , (24296,  22,  872415379) /* PhysicsEffectTable */
+VALUES (24296,   1, 0x02000AAD) /* Setup */
+     , (24296,   2, 0x090000BF) /* MotionTable */
+     , (24296,   3, 0x2000007D) /* SoundTable */
+     , (24296,   4, 0x30000033) /* CombatTable */
+     , (24296,   8, 0x060010E7) /* Icon */
+     , (24296,  22, 0x34000093) /* PhysicsEffectTable */
      , (24296,  30,         86) /* PhysicsScript - BreatheAcid */
      , (24296,  35,        452) /* DeathTreasureType - Loot Tier: 5 */;
 
@@ -86,13 +86,13 @@ VALUES (24296,   1,   420, 0, 0, 600) /* MaxHealth */
      , (24296,   5,    10, 0, 0, 170) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (24296,  6, 0, 3, 0, 370, 0, 1542.84164424536) /* MeleeDefense        Specialized */
-     , (24296,  7, 0, 3, 0, 460, 0, 1542.84164424536) /* MissileDefense      Specialized */
-     , (24296, 13, 0, 3, 0, 350, 0, 1542.84164424536) /* UnarmedCombat       Specialized */
-     , (24296, 15, 0, 3, 0, 320, 0, 1542.84164424536) /* MagicDefense        Specialized */
-     , (24296, 20, 0, 2, 0, 500, 0, 1542.84164424536) /* Deception           Trained */
-     , (24296, 22, 0, 2, 0, 200, 0, 1542.84164424536) /* Jump                Trained */
-     , (24296, 24, 0, 2, 0,  50, 0, 1542.84164424536) /* Run                 Trained */;
+VALUES (24296,  6, 0, 3, 0, 370, 0, 1542.841644245361) /* MeleeDefense        Specialized */
+     , (24296,  7, 0, 3, 0, 460, 0, 1542.841644245361) /* MissileDefense      Specialized */
+     , (24296, 13, 0, 3, 0, 350, 0, 1542.841644245361) /* UnarmedCombat       Specialized */
+     , (24296, 15, 0, 3, 0, 320, 0, 1542.841644245361) /* MagicDefense        Specialized */
+     , (24296, 20, 0, 2, 0, 500, 0, 1542.841644245361) /* Deception           Trained */
+     , (24296, 22, 0, 2, 0, 200, 0, 1542.841644245361) /* Jump                Trained */
+     , (24296, 24, 0, 2, 0,  50, 0, 1542.841644245361) /* Run                 Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (24296,  0,  2, 80, 0.75,  400,  440,  320,  320,  400,  440,  440,  400,    0, 1,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0) /* Head */
@@ -108,17 +108,17 @@ VALUES (24296,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (24296, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24296,  5 /* HeartBeat */,   0.15, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (24296,  5 /* HeartBeat */,   0.15, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24296,  5 /* HeartBeat */,   0.15, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (24296,  5 /* HeartBeat */,   0.15, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

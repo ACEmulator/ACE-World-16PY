@@ -24,7 +24,7 @@ VALUES (20612,   1, 'Scroll of Mana to Stamina Other VII') /* Name */
      , (20612,  15, 'When learned, this spell drains one-half of the target''s Mana and gives 175% of that to his/her stamina.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20612,   1,   33554826) /* Setup */
-     , (20612,   8,  100676945) /* Icon */
-     , (20612,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20612,   1, 0x0200018A) /* Setup */
+     , (20612,   8, 0x06003551) /* Icon */
+     , (20612,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20612,  28,       2340) /* Spell - Mana to Stamina Other VII */;

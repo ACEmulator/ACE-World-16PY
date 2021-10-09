@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1650,   1, 'Red Taper') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1650,   1,   33555445) /* Setup */
-     , (1650,   3,  536870932) /* SoundTable */
-     , (1650,   6,   67111410) /* PaletteBase */
-     , (1650,   7,  268435641) /* ClothingBase */
-     , (1650,   8,  100668326) /* Icon */
-     , (1650,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1650,   1, 0x020003F5) /* Setup */
+     , (1650,   3, 0x20000014) /* SoundTable */
+     , (1650,   6, 0x040009F2) /* PaletteBase */
+     , (1650,   7, 0x100000B9) /* ClothingBase */
+     , (1650,   8, 0x060013A6) /* Icon */
+     , (1650,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1650,  29,         63) /* SpellComponent */;

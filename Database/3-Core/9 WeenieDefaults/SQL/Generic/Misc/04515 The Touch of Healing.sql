@@ -22,7 +22,7 @@ VALUES (4515,   1, 'The Touch of Healing') /* Name */
      , (4515,  16, 'The Touch of Healing') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4515,   1,   33555594) /* Setup */
-     , (4515,   6,   67111782) /* PaletteBase */
-     , (4515,   7,  268435689) /* ClothingBase */
-     , (4515,   8,  100668115) /* Icon */;
+VALUES (4515,   1, 0x0200048A) /* Setup */
+     , (4515,   6, 0x04000B66) /* PaletteBase */
+     , (4515,   7, 0x100000E9) /* ClothingBase */
+     , (4515,   8, 0x060012D3) /* Icon */;

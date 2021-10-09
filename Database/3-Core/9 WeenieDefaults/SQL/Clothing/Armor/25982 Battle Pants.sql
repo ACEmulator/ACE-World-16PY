@@ -38,9 +38,9 @@ VALUES (25982,   1, 'Battle Pants') /* Name */
      , (25982,  16, 'Loose pants originally used to protect the legs from carenzi while running like a mite through Marae Lassal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25982,   1,   33554856) /* Setup */
-     , (25982,   3,  536870932) /* SoundTable */
-     , (25982,   6,   67108990) /* PaletteBase */
-     , (25982,   7,  268436781) /* ClothingBase */
-     , (25982,   8,  100675714) /* Icon */
-     , (25982,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25982,   1, 0x020001A8) /* Setup */
+     , (25982,   3, 0x20000014) /* SoundTable */
+     , (25982,   6, 0x0400007E) /* PaletteBase */
+     , (25982,   7, 0x1000052D) /* ClothingBase */
+     , (25982,   8, 0x06003082) /* Icon */
+     , (25982,  22, 0x3400002B) /* PhysicsEffectTable */;

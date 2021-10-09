@@ -69,14 +69,14 @@ VALUES (8053,   1, 'Shadow') /* Name */
      , (8053,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8053,   1,   33554433) /* Setup */
-     , (8053,   2,  150994945) /* MotionTable */
-     , (8053,   3,  536870913) /* SoundTable */
-     , (8053,   4,  805306368) /* CombatTable */
-     , (8053,   6,   67111797) /* PaletteBase */
-     , (8053,   7,  268435632) /* ClothingBase */
-     , (8053,   8,  100670397) /* Icon */
-     , (8053,  22,  872415331) /* PhysicsEffectTable */
+VALUES (8053,   1, 0x02000001) /* Setup */
+     , (8053,   2, 0x09000001) /* MotionTable */
+     , (8053,   3, 0x20000001) /* SoundTable */
+     , (8053,   4, 0x30000000) /* CombatTable */
+     , (8053,   6, 0x04000B75) /* PaletteBase */
+     , (8053,   7, 0x100000B0) /* ClothingBase */
+     , (8053,   8, 0x06001BBD) /* Icon */
+     , (8053,  22, 0x34000063) /* PhysicsEffectTable */
      , (8053,  32,        175) /* WieldedTreasureType - 
                                    Wield Yumi (23735) | Probability: 20%
                                    Wield 14x Fire Arrow (1437) | Probability: 100%
@@ -107,23 +107,23 @@ VALUES (8053,   1,    70, 0, 0, 138) /* MaxHealth */
      , (8053,   5,   300, 0, 0, 360) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (8053,  1, 0, 2, 0, 110, 0, 567.901523866777) /* Axe                 Trained */
-     , (8053,  2, 0, 3, 0,  90, 0, 567.901523866777) /* Bow                 Specialized */
-     , (8053,  3, 0, 2, 0,  90, 0, 567.901523866777) /* Crossbow            Trained */
-     , (8053,  4, 0, 3, 0, 110, 0, 567.901523866777) /* Dagger              Specialized */
-     , (8053,  5, 0, 2, 0, 110, 0, 567.901523866777) /* Mace                Trained */
-     , (8053,  6, 0, 3, 0,  80, 0, 567.901523866777) /* MeleeDefense        Specialized */
-     , (8053,  7, 0, 3, 0,  90, 0, 567.901523866777) /* MissileDefense      Specialized */
-     , (8053,  9, 0, 3, 0, 110, 0, 567.901523866777) /* Spear               Specialized */
-     , (8053, 10, 0, 2, 0, 110, 0, 567.901523866777) /* Staff               Trained */
-     , (8053, 11, 0, 3, 0, 110, 0, 567.901523866777) /* Sword               Specialized */
-     , (8053, 13, 0, 2, 0, 110, 0, 567.901523866777) /* UnarmedCombat       Trained */
-     , (8053, 14, 0, 2, 0, 230, 0, 567.901523866777) /* ArcaneLore          Trained */
-     , (8053, 15, 0, 2, 0, 200, 0, 567.901523866777) /* MagicDefense        Trained */
-     , (8053, 20, 0, 3, 0, 150, 0, 567.901523866777) /* Deception           Specialized */
-     , (8053, 31, 0, 2, 0, 230, 0, 567.901523866777) /* CreatureEnchantment Trained */
-     , (8053, 33, 0, 2, 0, 230, 0, 567.901523866777) /* LifeMagic           Trained */
-     , (8053, 34, 0, 2, 0, 250, 0, 567.901523866777) /* WarMagic            Trained */;
+VALUES (8053,  1, 0, 2, 0, 110, 0, 567.9015238667771) /* Axe                 Trained */
+     , (8053,  2, 0, 3, 0,  90, 0, 567.9015238667771) /* Bow                 Specialized */
+     , (8053,  3, 0, 2, 0,  90, 0, 567.9015238667771) /* Crossbow            Trained */
+     , (8053,  4, 0, 3, 0, 110, 0, 567.9015238667771) /* Dagger              Specialized */
+     , (8053,  5, 0, 2, 0, 110, 0, 567.9015238667771) /* Mace                Trained */
+     , (8053,  6, 0, 3, 0,  80, 0, 567.9015238667771) /* MeleeDefense        Specialized */
+     , (8053,  7, 0, 3, 0,  90, 0, 567.9015238667771) /* MissileDefense      Specialized */
+     , (8053,  9, 0, 3, 0, 110, 0, 567.9015238667771) /* Spear               Specialized */
+     , (8053, 10, 0, 2, 0, 110, 0, 567.9015238667771) /* Staff               Trained */
+     , (8053, 11, 0, 3, 0, 110, 0, 567.9015238667771) /* Sword               Specialized */
+     , (8053, 13, 0, 2, 0, 110, 0, 567.9015238667771) /* UnarmedCombat       Trained */
+     , (8053, 14, 0, 2, 0, 230, 0, 567.9015238667771) /* ArcaneLore          Trained */
+     , (8053, 15, 0, 2, 0, 200, 0, 567.9015238667771) /* MagicDefense        Trained */
+     , (8053, 20, 0, 3, 0, 150, 0, 567.9015238667771) /* Deception           Specialized */
+     , (8053, 31, 0, 2, 0, 230, 0, 567.9015238667771) /* CreatureEnchantment Trained */
+     , (8053, 33, 0, 2, 0, 230, 0, 567.9015238667771) /* LifeMagic           Trained */
+     , (8053, 34, 0, 2, 0, 250, 0, 567.9015238667771) /* WarMagic            Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (8053,  0,  4,  0,    0,   90,   90,   58,   69,   34,   90,   40,   58,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -137,26 +137,26 @@ VALUES (8053,  0,  4,  0,    0,   90,   90,   58,   69,   34,   90,   40,   58, 
      , (8053,  8,  4, 25, 0.75,   90,   90,   58,   69,   34,   90,   40,   58,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8053,    72,  2.048)  /* Frost Bolt IV */
-     , (8053,    78,  2.048)  /* Lightning Bolt IV */
-     , (8053,    83,  2.048)  /* Flame Bolt IV */
-     , (8053,    89,  2.048)  /* Force Bolt IV */
-     , (8053,    95,  2.048)  /* Whirling Blade IV */
-     , (8053,   136,  2.008)  /* Frost Volley IV */
-     , (8053,   140,  2.008)  /* Lightning Volley IV */
+VALUES (8053,  1667,  2.011)  /* Stamina to Health Self IV */
      , (8053,   144,  2.008)  /* Flame Volley IV */
-     , (8053,   148,  2.008)  /* Force Volley IV */
-     , (8053,   152,  2.008)  /* Blade Volley IV */
-     , (8053,   232,  2.013)  /* Vulnerability Other IV */
-     , (8053,   265,  2.013)  /* Defenselessness Other IV */
-     , (8053,   283,  2.013)  /* Magic Yield Other IV */
-     , (8053,  1240,  2.011)  /* Drain Health Other IV */
      , (8053,  1252,  2.011)  /* Drain Stamina Other IV */
-     , (8053,  1263,  2.011)  /* Drain Mana Other IV */
+     , (8053,   136,  2.008)  /* Frost Volley IV */
+     , (8053,    72,  2.048)  /* Frost Bolt IV */
      , (8053,  1293,  2.011)  /* Mana to Health Self IV */
-     , (8053,  1667,  2.011)  /* Stamina to Health Self IV */
+     , (8053,   265,  2.013)  /* Defenselessness Other IV */
+     , (8053,   140,  2.008)  /* Lightning Volley IV */
+     , (8053,    78,  2.048)  /* Lightning Bolt IV */
      , (8053,  1679,  2.011)  /* Stamina to Mana Self IV */
-     , (8053,  1702,  2.011)  /* Health to Mana Self IV */;
+     , (8053,    83,  2.048)  /* Flame Bolt IV */
+     , (8053,   148,  2.008)  /* Force Volley IV */
+     , (8053,  1240,  2.011)  /* Drain Health Other IV */
+     , (8053,   152,  2.008)  /* Blade Volley IV */
+     , (8053,    89,  2.048)  /* Force Bolt IV */
+     , (8053,   283,  2.013)  /* Magic Yield Other IV */
+     , (8053,    95,  2.048)  /* Whirling Blade IV */
+     , (8053,  1702,  2.011)  /* Health to Mana Self IV */
+     , (8053,   232,  2.013)  /* Vulnerability Other IV */
+     , (8053,  1263,  2.011)  /* Drain Mana Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (8053,  94) /* ATTACK_NOTIFICATION_EVENT */
@@ -187,7 +187,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'A hate-filled voice tells you, "The One is almost upon you... The stars begin to fall..."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (8053,  3 /* Death */, 0.06999999, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (8053,  3 /* Death */,   0.07, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -195,7 +195,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'The Shadow hisses in fury, and in your mind you hear the words "I have touched a power you cannot begin to fathom! Give yourself to it as I once did... you will be mighty among your kind."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (8053,  3 /* Death */, 0.07999999, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (8053,  3 /* Death */,   0.08, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

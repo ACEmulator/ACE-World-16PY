@@ -24,7 +24,7 @@ VALUES (20382,   1, 'Scroll of Purge Life Magic Other') /* Name */
      , (20382,  15, 'When learned, this spell dispels 2-6 positive Life Magic enchantments of level 5 or lower from the target.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20382,   1,   33554826) /* Setup */
-     , (20382,   8,  100676935) /* Icon */
-     , (20382,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20382,   1, 0x0200018A) /* Setup */
+     , (20382,   8, 0x06003547) /* Icon */
+     , (20382,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20382,  28,       1980) /* Spell - Purge Life Magic Other */;

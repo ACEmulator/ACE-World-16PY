@@ -37,9 +37,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6609,   1, 'Greater Celdon Shadow Leggings') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6609,   1,   33554856) /* Setup */
-     , (6609,   3,  536870932) /* SoundTable */
-     , (6609,   6,   67108990) /* PaletteBase */
-     , (6609,   7,  268435844) /* ClothingBase */
-     , (6609,   8,  100670419) /* Icon */
-     , (6609,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6609,   1, 0x020001A8) /* Setup */
+     , (6609,   3, 0x20000014) /* SoundTable */
+     , (6609,   6, 0x0400007E) /* PaletteBase */
+     , (6609,   7, 0x10000184) /* ClothingBase */
+     , (6609,   8, 0x06001BD3) /* Icon */
+     , (6609,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -28,12 +28,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2548,   1, 'Sceptre') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2548,   1,   33554704) /* Setup */
-     , (2548,   3,  536870932) /* SoundTable */
-     , (2548,   6,   67111919) /* PaletteBase */
-     , (2548,   7,  268435755) /* ClothingBase */
-     , (2548,   8,  100668792) /* Icon */
-     , (2548,  22,  872415275) /* PhysicsEffectTable */
-     , (2548,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
-     , (2548,  36,  234881046) /* MutateFilter */
-     , (2548,  46,  939524144) /* TsysMutationFilter */;
+VALUES (2548,   1, 0x02000110) /* Setup */
+     , (2548,   3, 0x20000014) /* SoundTable */
+     , (2548,   6, 0x04000BEF) /* PaletteBase */
+     , (2548,   7, 0x1000012B) /* ClothingBase */
+     , (2548,   8, 0x06001578) /* Icon */
+     , (2548,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (2548,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
+     , (2548,  36, 0x0E000016) /* MutateFilter */
+     , (2548,  46, 0x38000030) /* TsysMutationFilter */;

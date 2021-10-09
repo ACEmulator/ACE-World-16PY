@@ -25,9 +25,9 @@ VALUES (22253,   1, 'Ulgrim''s Scroll') /* Name */
      , (22253,  16, 'A partially digested sheet of paper, apparently the remains of a spell scroll.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22253,   1,   33554826) /* Setup */
-     , (22253,   8,  100673883) /* Icon */
-     , (22253,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22253,   1, 0x0200018A) /* Setup */
+     , (22253,   8, 0x0600295B) /* Icon */
+     , (22253,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (22253, 1, 1000);

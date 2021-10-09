@@ -24,7 +24,7 @@ VALUES (28569,   1, 'Scroll of Lesser Conveyic Chant') /* Name */
      , (28569,  15, 'Use this scroll to learn Lesser Conveyic Chant.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28569,   1,   33554826) /* Setup */
-     , (28569,   8,  100676466) /* Icon */
-     , (28569,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28569,   1, 0x0200018A) /* Setup */
+     , (28569,   8, 0x06003372) /* Icon */
+     , (28569,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28569,  28,       3396) /* Spell - Lesser Conveyic Chant */;

@@ -22,5 +22,5 @@ VALUES (12617,   1, 'Leafdawning Settlement') /* Name */
      , (12617,  16, 'Welcome to Leafdawning Settlement') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12617,   1,   33557463) /* Setup */
-     , (12617,   8,  100668115) /* Icon */;
+VALUES (12617,   1, 0x02000BD7) /* Setup */
+     , (12617,   8, 0x060012D3) /* Icon */;

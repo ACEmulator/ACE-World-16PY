@@ -24,7 +24,7 @@ VALUES (20488,   1, 'Scroll of Energy Flux') /* Name */
      , (20488,  15, 'When learned, this spell decreases target''s natural mana rate by 60%.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20488,   1,   33554826) /* Setup */
-     , (20488,   8,  100676939) /* Icon */
-     , (20488,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20488,   1, 0x0200018A) /* Setup */
+     , (20488,   8, 0x0600354B) /* Icon */
+     , (20488,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20488,  28,       2180) /* Spell - Energy Flux */;

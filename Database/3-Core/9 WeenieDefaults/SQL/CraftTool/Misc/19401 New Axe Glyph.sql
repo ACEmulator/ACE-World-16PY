@@ -34,9 +34,9 @@ VALUES (19401,   1, 'New Axe Glyph') /* Name */
      , (19401,  16, 'A glyph with the image of an axe emblazoned upon it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19401,   1,   33556438) /* Setup */
-     , (19401,   3,  536870932) /* SoundTable */
-     , (19401,   6,   67111092) /* PaletteBase */
-     , (19401,   7,  268436386) /* ClothingBase */
-     , (19401,   8,  100672871) /* Icon */
-     , (19401,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19401,   1, 0x020007D6) /* Setup */
+     , (19401,   3, 0x20000014) /* SoundTable */
+     , (19401,   6, 0x040008B4) /* PaletteBase */
+     , (19401,   7, 0x100003A2) /* ClothingBase */
+     , (19401,   8, 0x06002567) /* Icon */
+     , (19401,  22, 0x3400002B) /* PhysicsEffectTable */;

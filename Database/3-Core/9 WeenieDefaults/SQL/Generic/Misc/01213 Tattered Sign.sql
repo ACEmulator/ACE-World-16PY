@@ -22,5 +22,5 @@ VALUES (1213,   1, 'Tattered Sign') /* Name */
      , (1213,  16, 'You should Heed this Warning: Turn back now! You are trotting in the wrong direction! Riches of gold and splendor can be found on the other path.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1213,   1,   33555088) /* Setup */
-     , (1213,   8,  100668115) /* Icon */;
+VALUES (1213,   1, 0x02000290) /* Setup */
+     , (1213,   8, 0x060012D3) /* Icon */;

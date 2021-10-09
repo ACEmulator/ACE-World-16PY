@@ -31,7 +31,7 @@ VALUES (24734,   1, 'Crucible with Vitriol Potion') /* Name */
      , (24734,  20, 'Crucibles with Vitriol Potion') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24734,   1,   33555966) /* Setup */
-     , (24734,   3,  536870932) /* SoundTable */
-     , (24734,   8,  100674463) /* Icon */
-     , (24734,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24734,   1, 0x020005FE) /* Setup */
+     , (24734,   3, 0x20000014) /* SoundTable */
+     , (24734,   8, 0x06002B9F) /* Icon */
+     , (24734,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -25,7 +25,7 @@ VALUES (1868,   1, 'Scroll of Mana to Health') /* Name */
      , (1868,  16, 'When learned, this spell drains one-half of the target''s Mana and gives 15% of that to his/her Health.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1868,   1,   33554826) /* Setup */
-     , (1868,   8,  100676942) /* Icon */
-     , (1868,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1868,   1, 0x0200018A) /* Setup */
+     , (1868,   8, 0x0600354E) /* Icon */
+     , (1868,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1868,  28,       1290) /* Spell - Mana to Health Self I */;

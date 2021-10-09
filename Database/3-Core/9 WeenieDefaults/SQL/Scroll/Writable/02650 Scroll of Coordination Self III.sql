@@ -25,7 +25,7 @@ VALUES (2650,   1, 'Scroll of Coordination Self III') /* Name */
      , (2650,  16, 'When learned, this spell increases the caster''s Coordination by 30 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2650,   1,   33554826) /* Setup */
-     , (2650,   8,  100676452) /* Icon */
-     , (2650,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2650,   1, 0x0200018A) /* Setup */
+     , (2650,   8, 0x06003364) /* Icon */
+     , (2650,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2650,  28,       1375) /* Spell - Coordination Self III */;

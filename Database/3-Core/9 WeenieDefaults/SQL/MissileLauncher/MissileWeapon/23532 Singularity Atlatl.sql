@@ -18,7 +18,7 @@ VALUES (23532,   1,        256) /* ItemType - MissileWeapon */
      , (23532,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (23532,  49,         25) /* WeaponTime */
      , (23532,  50,          4) /* AmmoType - Atlatl */
-     , (23532,  51,          2) /* CombatUse - Missle */
+     , (23532,  51,          2) /* CombatUse - Missile */
      , (23532,  60,        152) /* WeaponRange */
      , (23532,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23532, 106,        200) /* ItemSpellcraft */
@@ -48,12 +48,12 @@ VALUES (23532,   1, 'Singularity Atlatl') /* Name */
      , (23532,  16, 'An atlatl imbued with Singularity energy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23532,   1,   33558193) /* Setup */
-     , (23532,   3,  536870932) /* SoundTable */
-     , (23532,   6,   67111919) /* PaletteBase */
-     , (23532,   7,  268436238) /* ClothingBase */
-     , (23532,   8,  100674026) /* Icon */
-     , (23532,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23532,   1, 0x02000EB1) /* Setup */
+     , (23532,   3, 0x20000014) /* SoundTable */
+     , (23532,   6, 0x04000BEF) /* PaletteBase */
+     , (23532,   7, 0x1000030E) /* ClothingBase */
+     , (23532,   8, 0x060029EA) /* Icon */
+     , (23532,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23532,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

@@ -22,5 +22,5 @@ VALUES (15234,   1, 'Last-Stop-Before-Dires Villas') /* Name */
      , (15234,  16, 'Welcome to Last-Stop-Before-Dires Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15234,   1,   33557463) /* Setup */
-     , (15234,   8,  100668115) /* Icon */;
+VALUES (15234,   1, 0x02000BD7) /* Setup */
+     , (15234,   8, 0x060012D3) /* Icon */;

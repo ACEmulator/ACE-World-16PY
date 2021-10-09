@@ -26,9 +26,9 @@ VALUES (14553,   1, 'Hollowed-Out Tree Trunk') /* Name */
      , (14553,  15, 'A small, hollowed-out tree trunk, suitable for making a drum casing. One could wrap a Tanned Ebon Mattekar Hide around this item to make the beginnings of a drum.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14553,   1,   33557553) /* Setup */
-     , (14553,   3,  536870932) /* SoundTable */
-     , (14553,   6,   67112776) /* PaletteBase */
-     , (14553,   7,  268436330) /* ClothingBase */
-     , (14553,   8,  100672529) /* Icon */
-     , (14553,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14553,   1, 0x02000C31) /* Setup */
+     , (14553,   3, 0x20000014) /* SoundTable */
+     , (14553,   6, 0x04000F48) /* PaletteBase */
+     , (14553,   7, 0x1000036A) /* ClothingBase */
+     , (14553,   8, 0x06002411) /* Icon */
+     , (14553,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -22,12 +22,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21445,   1, 'Leather Bound Tome') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21445,   1,   33556929) /* Setup */
-     , (21445,   3,  536870932) /* SoundTable */
-     , (21445,   6,   67111092) /* PaletteBase */
-     , (21445,   7,  268436459) /* ClothingBase */
-     , (21445,   8,  100673477) /* Icon */
-     , (21445,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21445,   1, 0x020009C1) /* Setup */
+     , (21445,   3, 0x20000014) /* SoundTable */
+     , (21445,   6, 0x040008B4) /* PaletteBase */
+     , (21445,   7, 0x100003EB) /* ClothingBase */
+     , (21445,   8, 0x060027C5) /* Icon */
+     , (21445,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (21445, 1, 1000);

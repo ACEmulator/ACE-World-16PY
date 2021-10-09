@@ -24,7 +24,7 @@ VALUES (20586,   1, 'Scroll of MacNiall''s Blessing') /* Name */
      , (20586,  15, 'When learned, this spell increases the caster''s Sword skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20586,   1,   33554826) /* Setup */
-     , (20586,   8,  100676475) /* Icon */
-     , (20586,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20586,   1, 0x0200018A) /* Setup */
+     , (20586,   8, 0x0600337B) /* Icon */
+     , (20586,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20586,  28,       2309) /* Spell - Heavy Weapon Mastery Self VII */;

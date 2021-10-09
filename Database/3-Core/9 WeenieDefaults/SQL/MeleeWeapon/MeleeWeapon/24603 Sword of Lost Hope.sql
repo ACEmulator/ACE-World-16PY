@@ -52,17 +52,17 @@ VALUES (24603,   1, 'Sword of Lost Hope') /* Name */
      , (24603,  16, 'The Sword of Lost Hope glows with a faint red radiance.  The weapon seems to coruscate with the power of Ilservian''s blood.  The Light has been forever dimmed, and the weapon is now empowered by the essence of the Hopeslayer.  It will no longer accept infusions of light.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24603,   1,   33558420) /* Setup */
-     , (24603,   3,  536870932) /* SoundTable */
-     , (24603,   6,   67114437) /* PaletteBase */
-     , (24603,   8,  100671325) /* Icon */
-     , (24603,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24603,   1, 0x02000F94) /* Setup */
+     , (24603,   3, 0x20000014) /* SoundTable */
+     , (24603,   6, 0x040015C5) /* PaletteBase */
+     , (24603,   8, 0x06001F5D) /* Icon */
+     , (24603,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24603,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24603,   422,      2)  /* Heavy Weapon Mastery Self V */
-     , (24603,  1311,      2)  /* Armor Self V */
+VALUES (24603,  1604,      2)  /* Aura of Defender Self V */
      , (24603,  1591,      2)  /* Aura of Heart Seeker Self V */
-     , (24603,  1604,      2)  /* Aura of Defender Self V */
+     , (24603,   422,      2)  /* Heavy Weapon Mastery Self V */
      , (24603,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (24603,  1624,      2)  /* Aura of Swift Killer Self III */;
+     , (24603,  1624,      2)  /* Aura of Swift Killer Self III */
+     , (24603,  1311,      2)  /* Armor Self V */;

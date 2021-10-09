@@ -51,17 +51,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19907,   1, 'Good Chilling Isparian Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19907,   1,   33556383) /* Setup */
-     , (19907,   3,  536870932) /* SoundTable */
-     , (19907,   6,   67111919) /* PaletteBase */
-     , (19907,   7,  268436383) /* ClothingBase */
-     , (19907,   8,  100672924) /* Icon */
-     , (19907,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19907,   1, 0x0200079F) /* Setup */
+     , (19907,   3, 0x20000014) /* SoundTable */
+     , (19907,   6, 0x04000BEF) /* PaletteBase */
+     , (19907,   7, 0x1000039F) /* ClothingBase */
+     , (19907,   8, 0x0600259C) /* Icon */
+     , (19907,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19907,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19907,  1035,      2)  /* Cold Protection Self VI */
-     , (19907,  1377,      2)  /* Coordination Self V */
+VALUES (19907,  2681,      2)  /* Feeble Light Weapon Aptitude */
+     , (19907,  1035,      2)  /* Cold Protection Self VI */
      , (19907,  1590,      2)  /* Aura of Heart Seeker Self IV */
      , (19907,  1614,      2)  /* Aura of Blood Drinker Self IV */
-     , (19907,  2681,      2)  /* Feeble Light Weapon Aptitude */;
+     , (19907,  1377,      2)  /* Coordination Self V */;

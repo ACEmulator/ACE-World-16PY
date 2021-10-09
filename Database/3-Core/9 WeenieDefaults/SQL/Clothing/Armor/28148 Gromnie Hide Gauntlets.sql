@@ -40,9 +40,9 @@ VALUES (28148,   1, 'Gromnie Hide Gauntlets') /* Name */
      , (28148,  16, 'A pair of gauntlets crafted from the hide of an azure gromnie.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28148,   1,   33554648) /* Setup */
-     , (28148,   3,  536870932) /* SoundTable */
-     , (28148,   6,   67108990) /* PaletteBase */
-     , (28148,   7,  268436847) /* ClothingBase */
-     , (28148,   8,  100667340) /* Icon */
-     , (28148,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28148,   1, 0x020000D8) /* Setup */
+     , (28148,   3, 0x20000014) /* SoundTable */
+     , (28148,   6, 0x0400007E) /* PaletteBase */
+     , (28148,   7, 0x1000056F) /* ClothingBase */
+     , (28148,   8, 0x06000FCC) /* Icon */
+     , (28148,  22, 0x3400002B) /* PhysicsEffectTable */;

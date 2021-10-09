@@ -22,11 +22,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21440,   1, 'Disciples of Stasis') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21440,   1,   33556929) /* Setup */
-     , (21440,   3,  536870932) /* SoundTable */
-     , (21440,   7,  268436457) /* ClothingBase */
-     , (21440,   8,  100673474) /* Icon */
-     , (21440,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21440,   1, 0x020009C1) /* Setup */
+     , (21440,   3, 0x20000014) /* SoundTable */
+     , (21440,   7, 0x100003E9) /* ClothingBase */
+     , (21440,   8, 0x060027C2) /* Icon */
+     , (21440,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (21440, 18, 1000);

@@ -48,15 +48,15 @@ VALUES (24454,   1, 'Artificer''s Gauntlets') /* Name */
      , (24454,  16, 'These gauntlets have been carved from Sunstone and fitted with an amulet with the essence of the artificer.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24454,   1,   33554648) /* Setup */
-     , (24454,   3,  536870932) /* SoundTable */
-     , (24454,   6,   67108990) /* PaletteBase */
-     , (24454,   7,  268436636) /* ClothingBase */
-     , (24454,   8,  100674341) /* Icon */
-     , (24454,  22,  872415275) /* PhysicsEffectTable */
-     , (24454,  36,  234881046) /* MutateFilter */;
+VALUES (24454,   1, 0x020000D8) /* Setup */
+     , (24454,   3, 0x20000014) /* SoundTable */
+     , (24454,   6, 0x0400007E) /* PaletteBase */
+     , (24454,   7, 0x1000049C) /* ClothingBase */
+     , (24454,   8, 0x06002B25) /* Icon */
+     , (24454,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24454,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24454,  1456,      2)  /* Willpower Other VI */
+VALUES (24454,  2975,      2)  /* Moderate Item Enchantment Aptitude */
      , (24454,  1485,      2)  /* Impenetrability V */
-     , (24454,  2975,      2)  /* Moderate Item Enchantment Aptitude */;
+     , (24454,  1456,      2)  /* Willpower Other VI */;

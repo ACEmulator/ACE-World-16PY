@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8122,   1, 'Sahoni Arsanc') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8122,   1,   33554839) /* Setup */
-     , (8122,   2,  150994967) /* MotionTable */
-     , (8122,   3,  536870934) /* SoundTable */
-     , (8122,   4,  805306368) /* CombatTable */
-     , (8122,   6,   67110722) /* PaletteBase */
-     , (8122,   7,  268435558) /* ClothingBase */
-     , (8122,   8,  100667942) /* Icon */
-     , (8122,  22,  872415272) /* PhysicsEffectTable */
+VALUES (8122,   1, 0x02000197) /* Setup */
+     , (8122,   2, 0x09000017) /* MotionTable */
+     , (8122,   3, 0x20000016) /* SoundTable */
+     , (8122,   4, 0x30000000) /* CombatTable */
+     , (8122,   6, 0x04000742) /* PaletteBase */
+     , (8122,   7, 0x10000066) /* ClothingBase */
+     , (8122,   8, 0x06001226) /* Icon */
+     , (8122,  22, 0x34000028) /* PhysicsEffectTable */
      , (8122,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -119,30 +119,30 @@ VALUES (8122,  0,  4,  0,    0,  100,  100,  120,  120,  120,  100,  120,  120, 
      , (8122,  8,  4, 30, 0.75,  100,  100,  120,  120,  120,  100,  120,  120,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8122,    59,   2.03)  /* Acid Stream II */
-     , (8122,    60,   2.01)  /* Acid Stream III */
+VALUES (8122,    81,   2.03)  /* Flame Bolt II */
      , (8122,    65,   2.03)  /* Shock Wave II */
+     , (8122,  1262,   2.02)  /* Drain Mana Other III */
+     , (8122,    82,   2.01)  /* Flame Bolt III */
      , (8122,    66,   2.01)  /* Shock Wave III */
+     , (8122,  1417,   2.01)  /* Slowness Other III */
      , (8122,    70,   2.03)  /* Frost Bolt II */
      , (8122,    71,   2.01)  /* Frost Bolt III */
      , (8122,    76,   2.03)  /* Lightning Bolt II */
      , (8122,    77,   2.01)  /* Lightning Bolt III */
-     , (8122,    81,   2.03)  /* Flame Bolt II */
-     , (8122,    82,   2.01)  /* Flame Bolt III */
-     , (8122,    87,   2.03)  /* Force Bolt II */
-     , (8122,    88,   2.01)  /* Force Bolt III */
-     , (8122,    93,   2.03)  /* Whirling Blade II */
-     , (8122,    94,   2.01)  /* Whirling Blade III */
-     , (8122,   173,   2.01)  /* Fester Other III */
      , (8122,  1239,   2.02)  /* Drain Health Other III */
      , (8122,  1251,   2.02)  /* Drain Stamina Other III */
-     , (8122,  1262,   2.02)  /* Drain Mana Other III */
-     , (8122,  1340,   2.01)  /* Weakness Other III */
+     , (8122,    87,   2.03)  /* Force Bolt II */
+     , (8122,    88,   2.01)  /* Force Bolt III */
      , (8122,  1369,   2.01)  /* Frailty Other III */
-     , (8122,  1393,   2.01)  /* Clumsiness Other III */
-     , (8122,  1417,   2.01)  /* Slowness Other III */
+     , (8122,    93,   2.03)  /* Whirling Blade II */
+     , (8122,    94,   2.01)  /* Whirling Blade III */
      , (8122,  1441,   2.01)  /* Bafflement Other III */
-     , (8122,  1465,   2.01)  /* Feeblemind Other III */;
+     , (8122,   173,   2.01)  /* Fester Other III */
+     , (8122,  1393,   2.01)  /* Clumsiness Other III */
+     , (8122,  1465,   2.01)  /* Feeblemind Other III */
+     , (8122,    59,   2.03)  /* Acid Stream II */
+     , (8122,  1340,   2.01)  /* Weakness Other III */
+     , (8122,    60,   2.01)  /* Acid Stream III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (8122,  94) /* ATTACK_NOTIFICATION_EVENT */

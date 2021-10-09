@@ -26,10 +26,10 @@ VALUES (771,   1, 'Frankincense') /* Name */
      , (771,  20, 'Sacks of Frankincense') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (771,   1,   33554817) /* Setup */
-     , (771,   3,  536870932) /* SoundTable */
-     , (771,   6,   67111919) /* PaletteBase */
-     , (771,   7,  268435720) /* ClothingBase */
-     , (771,   8,  100668422) /* Icon */
-     , (771,  22,  872415275) /* PhysicsEffectTable */
+VALUES (771,   1, 0x02000181) /* Setup */
+     , (771,   3, 0x20000014) /* SoundTable */
+     , (771,   6, 0x04000BEF) /* PaletteBase */
+     , (771,   7, 0x10000108) /* ClothingBase */
+     , (771,   8, 0x06001406) /* Icon */
+     , (771,  22, 0x3400002B) /* PhysicsEffectTable */
      , (771,  29,         20) /* SpellComponent */;

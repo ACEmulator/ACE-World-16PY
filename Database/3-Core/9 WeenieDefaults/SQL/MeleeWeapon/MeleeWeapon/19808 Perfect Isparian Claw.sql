@@ -48,15 +48,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19808,   1, 'Perfect Isparian Claw') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19808,   1,   33556258) /* Setup */
-     , (19808,   3,  536870932) /* SoundTable */
-     , (19808,   6,   67111919) /* PaletteBase */
-     , (19808,   7,  268436380) /* ClothingBase */
-     , (19808,   8,  100672905) /* Icon */
-     , (19808,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19808,   1, 0x02000722) /* Setup */
+     , (19808,   3, 0x20000014) /* SoundTable */
+     , (19808,   6, 0x04000BEF) /* PaletteBase */
+     , (19808,   7, 0x1000039C) /* ClothingBase */
+     , (19808,   8, 0x06002589) /* Icon */
+     , (19808,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19808,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19808,  1592,      2)  /* Aura of Heart Seeker Self VI */
-     , (19808,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (19808,  2696,      2)  /* Moderate Light Weapon Aptitude */;
+VALUES (19808,  2696,      2)  /* Moderate Light Weapon Aptitude */
+     , (19808,  1592,      2)  /* Aura of Heart Seeker Self VI */
+     , (19808,  1616,      2)  /* Aura of Blood Drinker Self VI */;

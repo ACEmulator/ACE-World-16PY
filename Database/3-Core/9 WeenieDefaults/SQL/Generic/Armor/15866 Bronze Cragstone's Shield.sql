@@ -39,9 +39,9 @@ VALUES (15866,   1, 'Bronze Cragstone''s Shield') /* Name */
      , (15866,  33, 'ShieldCragstoneStatuePickUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15866,   1,   33554788) /* Setup */
-     , (15866,   3,  536870932) /* SoundTable */
-     , (15866,   6,   67111919) /* PaletteBase */
-     , (15866,   7,  268436349) /* ClothingBase */
-     , (15866,   8,  100667360) /* Icon */
-     , (15866,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15866,   1, 0x02000164) /* Setup */
+     , (15866,   3, 0x20000014) /* SoundTable */
+     , (15866,   6, 0x04000BEF) /* PaletteBase */
+     , (15866,   7, 0x1000037D) /* ClothingBase */
+     , (15866,   8, 0x06000FE0) /* Icon */
+     , (15866,  22, 0x3400002B) /* PhysicsEffectTable */;

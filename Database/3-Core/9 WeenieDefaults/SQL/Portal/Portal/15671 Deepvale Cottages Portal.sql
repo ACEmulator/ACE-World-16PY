@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15671,   1, 'Deepvale Cottages Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15671,   1,   33554867) /* Setup */
-     , (15671,   2,  150994947) /* MotionTable */
-     , (15671,   8,  100667499) /* Icon */;
+VALUES (15671,   1, 0x020001B3) /* Setup */
+     , (15671,   2, 0x09000003) /* MotionTable */
+     , (15671,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15671, 2, 1638662172, 72.766, 78.076, 42.005, 0.8387989, 0, 0, -0.5444414) /* Destination */
-/* @teleloc 0x61AC001C [72.766000 78.076000 42.005000] 0.838799 0.000000 0.000000 -0.544441 */;
+VALUES (15671, 2, 0x61AC001C, 72.766, 78.076, 42.005, 0.838799, 0, 0, -0.544441) /* Destination */
+/* @teleloc 0x61AC001C [72.765999 78.075996 42.005001] 0.838799 0.000000 0.000000 -0.544441 */;

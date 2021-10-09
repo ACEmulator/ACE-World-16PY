@@ -41,13 +41,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23691,   1, 'Frost Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23691,   1,   33555822) /* Setup */
-     , (23691,   3,  536870932) /* SoundTable */
-     , (23691,   6,   67111919) /* PaletteBase */
-     , (23691,   7,  268435768) /* ClothingBase */
-     , (23691,   8,  100667609) /* Icon */
-     , (23691,  22,  872415275) /* PhysicsEffectTable */
-     , (23691,  36,  234881044) /* MutateFilter */;
+VALUES (23691,   1, 0x0200056E) /* Setup */
+     , (23691,   3, 0x20000014) /* SoundTable */
+     , (23691,   6, 0x04000BEF) /* PaletteBase */
+     , (23691,   7, 0x10000138) /* ClothingBase */
+     , (23691,   8, 0x060010D9) /* Icon */
+     , (23691,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (23691,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23691,  1616,      2)  /* Aura of Blood Drinker Self VI */

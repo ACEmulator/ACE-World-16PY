@@ -29,7 +29,7 @@ VALUES (9371,   1, 'Wrapped Bundle of Greater Blunt Arrowheads') /* Name */
      , (9371,  20, 'Wrapped Bundles of Greater Blunt Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9371,   1,   33557030) /* Setup */
-     , (9371,   3,  536870932) /* SoundTable */
-     , (9371,   8,  100671601) /* Icon */
-     , (9371,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9371,   1, 0x02000A26) /* Setup */
+     , (9371,   3, 0x20000014) /* SoundTable */
+     , (9371,   8, 0x06002071) /* Icon */
+     , (9371,  22, 0x3400002B) /* PhysicsEffectTable */;

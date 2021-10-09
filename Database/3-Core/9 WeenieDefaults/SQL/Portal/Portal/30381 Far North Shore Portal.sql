@@ -25,10 +25,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30381,   1, 'Far North Shore Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30381,   1,   33555923) /* Setup */
-     , (30381,   2,  150994947) /* MotionTable */
-     , (30381,   8,  100667499) /* Icon */;
+VALUES (30381,   1, 0x020005D3) /* Setup */
+     , (30381,   2, 0x09000003) /* MotionTable */
+     , (30381,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30381, 2, 2749956126, 84, 132, 36.5, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0xA3E9001E [84.000000 132.000000 36.500000] 1.000000 0.000000 0.000000 0.000000 */;
+VALUES (30381, 2, 0xA3E9001E, 84, 132, 36.5, 1, 0, 0, -0) /* Destination */
+/* @teleloc 0xA3E9001E [84.000000 132.000000 36.500000] 1.000000 0.000000 0.000000 -0.000000 */;

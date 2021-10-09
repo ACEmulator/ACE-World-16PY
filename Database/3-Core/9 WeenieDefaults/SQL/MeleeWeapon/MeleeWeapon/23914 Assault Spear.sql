@@ -51,16 +51,16 @@ VALUES (23914,   1, 'Assault Spear') /* Name */
      , (23914,  16, 'A reward for defeating the leaders of the Gromnie Clan.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23914,   1,   33557205) /* Setup */
-     , (23914,   3,  536870932) /* SoundTable */
-     , (23914,   6,   67111919) /* PaletteBase */
-     , (23914,   7,  268436199) /* ClothingBase */
-     , (23914,   8,  100671747) /* Icon */
-     , (23914,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23914,   1, 0x02000AD5) /* Setup */
+     , (23914,   3, 0x20000014) /* SoundTable */
+     , (23914,   6, 0x04000BEF) /* PaletteBase */
+     , (23914,   7, 0x100002E7) /* ClothingBase */
+     , (23914,   8, 0x06002103) /* Icon */
+     , (23914,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23914,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23914,  1331,      2)  /* Strength Self V */
-     , (23914,  1590,      2)  /* Aura of Heart Seeker Self IV */
+VALUES (23914,  1590,      2)  /* Aura of Heart Seeker Self IV */
+     , (23914,  1331,      2)  /* Strength Self V */
      , (23914,  1614,      2)  /* Aura of Blood Drinker Self IV */
      , (23914,  2004,      2)  /* Warrior's Vitality */;

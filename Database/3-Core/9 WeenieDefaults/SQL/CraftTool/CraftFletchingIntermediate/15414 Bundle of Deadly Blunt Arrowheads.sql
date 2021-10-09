@@ -27,7 +27,7 @@ VALUES (15414,   1, 'Bundle of Deadly Blunt Arrowheads') /* Name */
      , (15414,  20, 'Bundles of Deadly Blunt Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15414,   1,   33555958) /* Setup */
-     , (15414,   3,  536870932) /* SoundTable */
-     , (15414,   8,  100672670) /* Icon */
-     , (15414,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15414,   1, 0x020005F6) /* Setup */
+     , (15414,   3, 0x20000014) /* SoundTable */
+     , (15414,   8, 0x0600249E) /* Icon */
+     , (15414,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -28,10 +28,10 @@ VALUES (23355,   1, 'A Note from Tamian Wilmot') /* Name */
      , (23355,  33, 'TowerDungeonAccess') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23355,   1,   33554773) /* Setup */
-     , (23355,   3,  536870932) /* SoundTable */
-     , (23355,   8,  100674008) /* Icon */
-     , (23355,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23355,   1, 0x02000155) /* Setup */
+     , (23355,   3, 0x20000014) /* SoundTable */
+     , (23355,   8, 0x060029D8) /* Icon */
+     , (23355,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (23355, 3, 1000);

@@ -32,7 +32,7 @@ VALUES (23782,  22, True ) /* Inscribable */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23782,   5,  -0.025) /* ManaRate */
-     , (23782,  12, 0.232225) /* Shade */
+     , (23782,  12,   0.232) /* Shade */
      , (23782,  13,       1) /* ArmorModVsSlash */
      , (23782,  14,     1.1) /* ArmorModVsPierce */
      , (23782,  15,       1) /* ArmorModVsBludgeon */
@@ -47,12 +47,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23782,   1, 'Scored Amuli Coat') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23782,   1,   33554854) /* Setup */
-     , (23782,   3,  536870932) /* SoundTable */
-     , (23782,   6,   67108990) /* PaletteBase */
-     , (23782,   7,  268435873) /* ClothingBase */
-     , (23782,   8,  100674067) /* Icon */
-     , (23782,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23782,   1, 0x020001A6) /* Setup */
+     , (23782,   3, 0x20000014) /* SoundTable */
+     , (23782,   6, 0x0400007E) /* PaletteBase */
+     , (23782,   7, 0x100001A1) /* ClothingBase */
+     , (23782,   8, 0x06002A13) /* Icon */
+     , (23782,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23782,  2609,      2)  /* Major Acid Ward */;

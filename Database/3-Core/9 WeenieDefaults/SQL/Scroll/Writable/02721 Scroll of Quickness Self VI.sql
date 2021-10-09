@@ -25,7 +25,7 @@ VALUES (2721,   1, 'Scroll of Quickness Self VI') /* Name */
      , (2721,  16, 'When learned, this spell increases the caster''s Quickness by 60 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2721,   1,   33554826) /* Setup */
-     , (2721,   8,  100676469) /* Icon */
-     , (2721,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2721,   1, 0x0200018A) /* Setup */
+     , (2721,   8, 0x06003375) /* Icon */
+     , (2721,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2721,  28,       1402) /* Spell - Quickness Self VI */;

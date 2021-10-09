@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12517,   1, 'Maitland  Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12517,   1,   33554867) /* Setup */
-     , (12517,   2,  150994947) /* MotionTable */
-     , (12517,   8,  100667499) /* Icon */;
+VALUES (12517,   1, 0x020001B3) /* Setup */
+     , (12517,   2, 0x09000003) /* MotionTable */
+     , (12517,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12517, 2, 2275344435, 152.05, 55.753, 120.676, -0.9625972, 0, 0, -0.2709365) /* Destination */
-/* @teleloc 0x879F0033 [152.050000 55.753000 120.676000] -0.962597 0.000000 0.000000 -0.270937 */;
+VALUES (12517, 2, 0x879F0033, 152.05, 55.753, 120.676, -0.962597, 0, -0, -0.270937) /* Destination */
+/* @teleloc 0x879F0033 [152.050003 55.752998 120.676003] -0.962597 0.000000 -0.000000 -0.270937 */;

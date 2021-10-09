@@ -22,5 +22,5 @@ VALUES (15691,   1, 'Artifice Cottages') /* Name */
      , (15691,  16, 'Welcome to Artifice Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15691,   1,   33557463) /* Setup */
-     , (15691,   8,  100668115) /* Icon */;
+VALUES (15691,   1, 0x02000BD7) /* Setup */
+     , (15691,   8, 0x060012D3) /* Icon */;

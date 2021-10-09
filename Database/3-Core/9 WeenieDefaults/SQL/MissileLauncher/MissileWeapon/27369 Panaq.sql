@@ -16,7 +16,7 @@ VALUES (27369,   1,        256) /* ItemType - MissileWeapon */
      , (27369,  48,          2) /* WeaponSkill - Bow */
      , (27369,  49,         45) /* WeaponTime */
      , (27369,  50,          1) /* AmmoType - Arrow */
-     , (27369,  51,          2) /* CombatUse - Missle */
+     , (27369,  51,          2) /* CombatUse - Missile */
      , (27369,  52,          2) /* ParentLocation - LeftHand */
      , (27369,  53,          3) /* PlacementPosition - LeftHand */
      , (27369,  60,        175) /* WeaponRange */
@@ -41,9 +41,9 @@ VALUES (27369,   1, 'Panaq') /* Name */
      , (27369,  16, 'A beautifully carved bow. Fuse this with a triple totem to create one of Palenqual''s living weapons.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27369,   1,   33558662) /* Setup */
-     , (27369,   3,  536870932) /* SoundTable */
-     , (27369,   6,   67113336) /* PaletteBase */
-     , (27369,   7,  268436252) /* ClothingBase */
-     , (27369,   8,  100676374) /* Icon */
-     , (27369,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27369,   1, 0x02001086) /* Setup */
+     , (27369,   3, 0x20000014) /* SoundTable */
+     , (27369,   6, 0x04001178) /* PaletteBase */
+     , (27369,   7, 0x1000031C) /* ClothingBase */
+     , (27369,   8, 0x06003316) /* Icon */
+     , (27369,  22, 0x3400002B) /* PhysicsEffectTable */;

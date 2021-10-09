@@ -22,7 +22,7 @@ VALUES (872,   1, 'Rayyib''s Defense') /* Name */
      , (872,  16, 'Rayyib''s Defense') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (872,   1,   33555594) /* Setup */
-     , (872,   6,   67111782) /* PaletteBase */
-     , (872,   7,  268435686) /* ClothingBase */
-     , (872,   8,  100668115) /* Icon */;
+VALUES (872,   1, 0x0200048A) /* Setup */
+     , (872,   6, 0x04000B66) /* PaletteBase */
+     , (872,   7, 0x100000E6) /* ClothingBase */
+     , (872,   8, 0x060012D3) /* Icon */;

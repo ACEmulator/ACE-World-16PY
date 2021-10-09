@@ -30,7 +30,7 @@ VALUES (29518,  22, True ) /* Inscribable */
      , (29518, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29518,   5, -0.0166) /* ManaRate */
+VALUES (29518,   5,  -0.017) /* ManaRate */
      , (29518,  12,    0.66) /* Shade */
      , (29518,  13,     1.2) /* ArmorModVsSlash */
      , (29518,  14,     1.2) /* ArmorModVsPierce */
@@ -46,17 +46,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29518,   1, 'Noble Coat of Speed') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29518,   1,   33554642) /* Setup */
-     , (29518,   3,  536870932) /* SoundTable */
-     , (29518,   6,   67108990) /* PaletteBase */
-     , (29518,   7,  268436877) /* ClothingBase */
-     , (29518,   8,  100675042) /* Icon */
-     , (29518,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29518,   1, 0x020000D2) /* Setup */
+     , (29518,   3, 0x20000014) /* SoundTable */
+     , (29518,   6, 0x0400007E) /* PaletteBase */
+     , (29518,   7, 0x1000058D) /* ClothingBase */
+     , (29518,   8, 0x06002DE2) /* Icon */
+     , (29518,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29518,   297,      2)  /* Light Weapon Mastery Other VI */
+     , (29518,   417,      2)  /* Heavy Weapon Mastery Other VI */
      , (29518,   345,      2)  /* Light Weapon Mastery Other VI */
      , (29518,   393,      2)  /* Light Weapon Mastery Other VI */
-     , (29518,   417,      2)  /* Heavy Weapon Mastery Other VI */
-     , (29518,  2108,      2)  /* Brogard's Defiance */
-     , (29518,  3577,      2)  /* Perfect Speed */;
+     , (29518,  3577,      2)  /* Perfect Speed */
+     , (29518,  2108,      2)  /* Brogard's Defiance */;

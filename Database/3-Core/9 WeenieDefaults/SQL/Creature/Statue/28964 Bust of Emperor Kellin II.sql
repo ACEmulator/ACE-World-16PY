@@ -65,12 +65,12 @@ VALUES (28964,   1, 'Bust of Emperor Kellin II') /* Name */
      , (28964,  16, 'A well carved bust of Emperor Kellin II. It is masterfully crafted and looks very well made. Jif Loz may know more about this.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28964,   1,   33558984) /* Setup */
-     , (28964,   2,  150995147) /* MotionTable */
-     , (28964,   3,  536871052) /* SoundTable */
-     , (28964,   4,  805306398) /* CombatTable */
-     , (28964,   8,  100677073) /* Icon */
-     , (28964,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (28964,   1, 0x020011C8) /* Setup */
+     , (28964,   2, 0x090000CB) /* MotionTable */
+     , (28964,   3, 0x2000008C) /* SoundTable */
+     , (28964,   4, 0x3000001E) /* CombatTable */
+     , (28964,   8, 0x060035D1) /* Icon */
+     , (28964,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28964,   1, 380, 0, 0) /* Strength */
@@ -86,7 +86,7 @@ VALUES (28964,   1,   200, 0, 0, 370) /* MaxHealth */
      , (28964,   5,   201, 0, 0, 486) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (28964, 32, 0, 3, 0, 900, 0, 2081.64945639026) /* ItemEnchantment     Specialized */;
+VALUES (28964, 32, 0, 3, 0, 900, 0, 2081.649456390255) /* ItemEnchantment     Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (28964,  0,  8,  3,  0.5,   20,   16,   16,   16,   20,   20,   20,   20,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */

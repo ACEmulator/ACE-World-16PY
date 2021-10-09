@@ -45,18 +45,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6175,   1, 'Peerless Smoldering Atlan Claw') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6175,   1,   33556321) /* Setup */
-     , (6175,   3,  536870932) /* SoundTable */
-     , (6175,   6,   67111919) /* PaletteBase */
-     , (6175,   7,  268435900) /* ClothingBase */
-     , (6175,   8,  100670535) /* Icon */
-     , (6175,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6175,   1, 0x02000761) /* Setup */
+     , (6175,   3, 0x20000014) /* SoundTable */
+     , (6175,   6, 0x04000BEF) /* PaletteBase */
+     , (6175,   7, 0x100001BC) /* ClothingBase */
+     , (6175,   8, 0x06001C47) /* Icon */
+     , (6175,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6175,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6175,  1091,      2)  /* Fire Protection Self III */
-     , (6175,  1329,      2)  /* Strength Self III */
+VALUES (6175,  1602,      2)  /* Aura of Defender Self III */
      , (6175,  1589,      2)  /* Aura of Heart Seeker Self III */
-     , (6175,  1602,      2)  /* Aura of Defender Self III */
      , (6175,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (6175,  1091,      2)  /* Fire Protection Self III */
+     , (6175,  1329,      2)  /* Strength Self III */
      , (6175,  1624,      2)  /* Aura of Swift Killer Self III */;

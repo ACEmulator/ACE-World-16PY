@@ -35,10 +35,10 @@ VALUES (15766,   1, 'Ruined Amulet of the Right Hand') /* Name */
      , (15766,  16, 'An Amulet crafted in pyreal that bears the symbol of item enchantment. The amulet is damaged, seemingly beyond repair.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15766,   1,   33554680) /* Setup */
-     , (15766,   3,  536870932) /* SoundTable */
-     , (15766,   6,   67111919) /* PaletteBase */
-     , (15766,   7,  268436095) /* ClothingBase */
-     , (15766,   8,  100672811) /* Icon */
-     , (15766,  22,  872415275) /* PhysicsEffectTable */
-     , (15766,  36,  234881046) /* MutateFilter */;
+VALUES (15766,   1, 0x020000F8) /* Setup */
+     , (15766,   3, 0x20000014) /* SoundTable */
+     , (15766,   6, 0x04000BEF) /* PaletteBase */
+     , (15766,   7, 0x1000027F) /* ClothingBase */
+     , (15766,   8, 0x0600252B) /* Icon */
+     , (15766,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (15766,  36, 0x0E000016) /* MutateFilter */;

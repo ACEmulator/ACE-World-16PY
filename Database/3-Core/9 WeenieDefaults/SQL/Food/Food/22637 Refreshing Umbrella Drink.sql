@@ -24,8 +24,8 @@ VALUES (22637,   1, 'Refreshing Umbrella Drink') /* Name */
      , (22637,  14, 'Use this item to drink it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22637,   1,   33558105) /* Setup */
-     , (22637,   3,  536870932) /* SoundTable */
-     , (22637,   8,  100673813) /* Icon */
-     , (22637,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22637,   1, 0x02000E59) /* Setup */
+     , (22637,   3, 0x20000014) /* SoundTable */
+     , (22637,   8, 0x06002915) /* Icon */
+     , (22637,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22637,  23,         65) /* UseSound - Drink1 */;

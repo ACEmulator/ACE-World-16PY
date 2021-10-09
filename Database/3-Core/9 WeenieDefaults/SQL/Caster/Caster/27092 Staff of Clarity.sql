@@ -39,14 +39,14 @@ VALUES (27092,   1, 'Staff of Clarity') /* Name */
      , (27092,  15, 'When you must strike, do not leave room for a return blow.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27092,   1,   33557010) /* Setup */
-     , (27092,   8,  100671492) /* Icon */
-     , (27092,  22,  872415275) /* PhysicsEffectTable */
-     , (27092,  27, 1073742049) /* UseUserAnimation - UseMagicWand */;
+VALUES (27092,   1, 0x02000A12) /* Setup */
+     , (27092,   8, 0x06002004) /* Icon */
+     , (27092,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27092,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27092,   211,      2)  /* Mana Renewal Other VI */
+VALUES (27092,   664,      2)  /* Mana Conversion Mastery Other VI */
      , (27092,   640,      2)  /* War Magic Mastery Other VI */
-     , (27092,   664,      2)  /* Mana Conversion Mastery Other VI */
      , (27092,  2387,      2)  /* Determination */
+     , (27092,   211,      2)  /* Mana Renewal Other VI */
      , (27092,  2392,      2)  /* Serenity */;

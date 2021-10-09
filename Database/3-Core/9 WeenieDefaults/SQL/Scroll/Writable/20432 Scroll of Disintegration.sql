@@ -24,7 +24,7 @@ VALUES (20432,   1, 'Scroll of Disintegration') /* Name */
      , (20432,  15, 'When learned, this spell shoots a stream of acid at the target. The stream does 110-180 points of acid damage to the first thing it hits.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20432,   1,   33554826) /* Setup */
-     , (20432,   8,  100677026) /* Icon */
-     , (20432,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20432,   1, 0x0200018A) /* Setup */
+     , (20432,   8, 0x060035A2) /* Icon */
+     , (20432,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20432,  28,       2122) /* Spell - Disintegration */;

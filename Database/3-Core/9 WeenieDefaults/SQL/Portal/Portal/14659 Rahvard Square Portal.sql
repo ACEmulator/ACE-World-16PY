@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14659,   1, 'Rahvard Square Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14659,   1,   33554867) /* Setup */
-     , (14659,   2,  150994947) /* MotionTable */
-     , (14659,   8,  100667499) /* Icon */;
+VALUES (14659,   1, 0x020001B3) /* Setup */
+     , (14659,   2, 0x09000003) /* MotionTable */
+     , (14659,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14659, 2, 1304428581, 111.576, 111.622, 8.001, -0.6464833, 0, 0, -0.7629281) /* Destination */
-/* @teleloc 0x4DC00025 [111.576000 111.622000 8.001000] -0.646483 0.000000 0.000000 -0.762928 */;
+VALUES (14659, 2, 0x4DC00025, 111.576, 111.622, 8.001, -0.646483, 0, -0, -0.762928) /* Destination */
+/* @teleloc 0x4DC00025 [111.575996 111.622002 8.001000] -0.646483 0.000000 -0.000000 -0.762928 */;

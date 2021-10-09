@@ -46,11 +46,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24904,   1, 'Lesser Olthoi Sollerets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24904,   1,   33554654) /* Setup */
-     , (24904,   3,  536870932) /* SoundTable */
-     , (24904,   6,   67108990) /* PaletteBase */
-     , (24904,   7,  268436652) /* ClothingBase */
-     , (24904,   8,  100674544) /* Icon */
-     , (24904,  22,  872415275) /* PhysicsEffectTable */
-     , (24904,  36,  234881046) /* MutateFilter */
-     , (24904,  46,  939524130) /* TsysMutationFilter */;
+VALUES (24904,   1, 0x020000DE) /* Setup */
+     , (24904,   3, 0x20000014) /* SoundTable */
+     , (24904,   6, 0x0400007E) /* PaletteBase */
+     , (24904,   7, 0x100004AC) /* ClothingBase */
+     , (24904,   8, 0x06002BF0) /* Icon */
+     , (24904,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24904,  36, 0x0E000016) /* MutateFilter */
+     , (24904,  46, 0x38000022) /* TsysMutationFilter */;

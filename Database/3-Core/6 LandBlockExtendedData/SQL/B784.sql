@@ -6,15 +6,15 @@ VALUES (0x7B784000,   412, 0xB7840000, 86.1185, 61.9716, 30, -0.292373, 0, 0, -0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B784001,  1115, 0xB7840102, 85.6589, 56.4704, 29.205, -0.300771, 0, 0, -0.953696, False, '2005-02-09 10:00:00'); /* Book Shelf */
-/* @teleloc 0xB7840102 [85.658900 56.470400 29.205000] -0.300771 0.000000 0.000000 -0.953696 */
+/* @teleloc 0xB7840102 [85.658897 56.470402 29.205000] -0.300771 0.000000 0.000000 -0.953696 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B784002,   176, 0xB7840000, 89.5057, 58.9856, 30.005, 0.231178, 0, 0, 0.972911, False, '2005-02-09 10:00:00'); /* Wine Cask */
-/* @teleloc 0xB7840000 [89.505700 58.985600 30.005000] 0.231178 0.000000 0.000000 0.972911 */
+/* @teleloc 0xB7840000 [89.505699 58.985600 30.004999] 0.231178 0.000000 0.000000 0.972911 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B784003, 20204, 0xB7840102, 82.8288, 61.0066, 29.205, -0.316551, 0, 0, 0.948575,  True, '2005-02-09 10:00:00'); /* Slithe Tradittor */
-/* @teleloc 0xB7840102 [82.828800 61.006600 29.205000] -0.316551 0.000000 0.000000 0.948575 */
+/* @teleloc 0xB7840102 [82.828796 61.006599 29.205000] -0.316551 0.000000 0.000000 0.948575 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B784004,  7923, 0xB7840102, 83.18, 60.1115, 29.205, 0.95473, 0, 0, 0.297473, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */

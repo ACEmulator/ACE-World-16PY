@@ -29,8 +29,8 @@ VALUES (4139,   1, 'Door') /* Name */
      , (4139,  14, 'This door cannot be activated from here.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4139,   1,   33555023) /* Setup */
-     , (4139,   2,  150994966) /* MotionTable */
-     , (4139,   3,  536870946) /* SoundTable */
-     , (4139,   8,  100668183) /* Icon */
-     , (4139,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4139,   1, 0x0200024F) /* Setup */
+     , (4139,   2, 0x09000016) /* MotionTable */
+     , (4139,   3, 0x20000022) /* SoundTable */
+     , (4139,   8, 0x06001317) /* Icon */
+     , (4139,  22, 0x3400002B) /* PhysicsEffectTable */;

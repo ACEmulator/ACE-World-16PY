@@ -29,13 +29,13 @@ VALUES (10898,   1, 'Pressure Plate - Olthoi Noble') /* Name */
      , (10898,  17, 'You step on a small grub squishing it beneath your heel. It''s scream echos from the caves walls.') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10898,   1,   33555536) /* Setup */
-     , (10898,   2,  150994977) /* MotionTable */
-     , (10898,   8,  100668114) /* Icon */
-     , (10898,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (10898,   1, 0x02000450) /* Setup */
+     , (10898,   2, 0x09000021) /* MotionTable */
+     , (10898,   8, 0x060012D2) /* Icon */
+     , (10898,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10898,  16,          0) /* ActivationTarget */;
+VALUES (10898,  16, 0x00000000) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10898, -1, 10905, 120, 1, 1, 1, 4, -1, 0, 0, 0, 0, 3, 0, -4.371139E-08, 0, 0, -1) /* Generate Olthoi Noble (10905) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (10898, -1, 10905, 120, 1, 1, 1, 4, -1, 0, 0, 0, 0, 3, 0, -0, 0, -0, -1) /* Generate Olthoi Noble (10905) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

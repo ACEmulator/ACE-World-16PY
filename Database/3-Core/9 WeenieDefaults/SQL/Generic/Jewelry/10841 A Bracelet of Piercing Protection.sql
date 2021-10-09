@@ -36,13 +36,13 @@ VALUES (10841,   1, 'A Bracelet of Piercing Protection') /* Name */
      , (10841,  15, 'A bracelet of piercing protection, given by Behdo Yii for completing the Soldier quest.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10841,   1,   33554683) /* Setup */
-     , (10841,   3,  536870932) /* SoundTable */
-     , (10841,   6,   67111919) /* PaletteBase */
-     , (10841,   7,  268435738) /* ClothingBase */
-     , (10841,   8,  100668622) /* Icon */
-     , (10841,  22,  872415275) /* PhysicsEffectTable */
-     , (10841,  36,  234881046) /* MutateFilter */;
+VALUES (10841,   1, 0x020000FB) /* Setup */
+     , (10841,   3, 0x20000014) /* SoundTable */
+     , (10841,   6, 0x04000BEF) /* PaletteBase */
+     , (10841,   7, 0x1000011A) /* ClothingBase */
+     , (10841,   8, 0x060014CE) /* Icon */
+     , (10841,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (10841,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10841,   241,      2)  /* Invulnerability Other III */

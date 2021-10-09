@@ -46,12 +46,12 @@ VALUES (6687,   1, 'Silifi of Crimson Stars') /* Name */
      , (6687,  16, 'The Silifi of Crimson Stars, its blade repaired using the spine of a Bronze Armoredillo. It is fitted with the rubies Yujazik and Sulmada. There is a notch for one more.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6687,   1,   33556553) /* Setup */
-     , (6687,   3,  536870932) /* SoundTable */
-     , (6687,   6,   67111919) /* PaletteBase */
-     , (6687,   7,  268435986) /* ClothingBase */
-     , (6687,   8,  100670611) /* Icon */
-     , (6687,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6687,   1, 0x02000849) /* Setup */
+     , (6687,   3, 0x20000014) /* SoundTable */
+     , (6687,   6, 0x04000BEF) /* PaletteBase */
+     , (6687,   7, 0x10000212) /* ClothingBase */
+     , (6687,   8, 0x06001C93) /* Icon */
+     , (6687,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6687,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

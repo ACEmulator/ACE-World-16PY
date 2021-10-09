@@ -26,9 +26,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7399,   1, 'Black Boulder') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7399,   1,   33554669) /* Setup */
-     , (7399,   3,  536870932) /* SoundTable */
-     , (7399,   6,   67111928) /* PaletteBase */
-     , (7399,   7,  268436017) /* ClothingBase */
-     , (7399,   8,  100670819) /* Icon */
-     , (7399,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7399,   1, 0x020000ED) /* Setup */
+     , (7399,   3, 0x20000014) /* SoundTable */
+     , (7399,   6, 0x04000BF8) /* PaletteBase */
+     , (7399,   7, 0x10000231) /* ClothingBase */
+     , (7399,   8, 0x06001D63) /* Icon */
+     , (7399,  22, 0x3400002B) /* PhysicsEffectTable */;

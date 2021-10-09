@@ -38,11 +38,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22167,   1, 'Frost Quarter Staff') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22167,   1,   33558069) /* Setup */
-     , (22167,   3,  536870932) /* SoundTable */
-     , (22167,   6,   67111919) /* PaletteBase */
-     , (22167,   7,  268436486) /* ClothingBase */
-     , (22167,   8,  100667602) /* Icon */
-     , (22167,  22,  872415275) /* PhysicsEffectTable */
-     , (22167,  36,  234881053) /* MutateFilter */
-     , (22167,  46,  939524110) /* TsysMutationFilter */;
+VALUES (22167,   1, 0x02000E35) /* Setup */
+     , (22167,   3, 0x20000014) /* SoundTable */
+     , (22167,   6, 0x04000BEF) /* PaletteBase */
+     , (22167,   7, 0x10000406) /* ClothingBase */
+     , (22167,   8, 0x060010D2) /* Icon */
+     , (22167,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (22167,  36, 0x0E00001D) /* MutateFilter */
+     , (22167,  46, 0x3800000E) /* TsysMutationFilter */;

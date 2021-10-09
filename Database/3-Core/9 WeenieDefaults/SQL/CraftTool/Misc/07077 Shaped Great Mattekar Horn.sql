@@ -32,9 +32,9 @@ VALUES (7077,   1, 'Shaped Great Mattekar Horn') /* Name */
      , (7077,  16, 'The shaped horn of a departed Great Mattekar.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7077,   1,   33556594) /* Setup */
-     , (7077,   3,  536870932) /* SoundTable */
-     , (7077,   6,   67112869) /* PaletteBase */
-     , (7077,   7,  268435999) /* ClothingBase */
-     , (7077,   8,  100670680) /* Icon */
-     , (7077,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7077,   1, 0x02000872) /* Setup */
+     , (7077,   3, 0x20000014) /* SoundTable */
+     , (7077,   6, 0x04000FA5) /* PaletteBase */
+     , (7077,   7, 0x1000021F) /* ClothingBase */
+     , (7077,   8, 0x06001CD8) /* Icon */
+     , (7077,  22, 0x3400002B) /* PhysicsEffectTable */;

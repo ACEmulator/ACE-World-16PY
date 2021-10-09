@@ -27,8 +27,8 @@ VALUES (22132,   1, 'Harbinger Arm Token') /* Name */
      , (22132,  33, 'HarbingerWarriorWait') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22132,   1,   33558027) /* Setup */
-     , (22132,   3,  536870932) /* SoundTable */
-     , (22132,   8,  100673483) /* Icon */
-     , (22132,  22,  872415275) /* PhysicsEffectTable */
-     , (22132,  36,  234881046) /* MutateFilter */;
+VALUES (22132,   1, 0x02000E0B) /* Setup */
+     , (22132,   3, 0x20000014) /* SoundTable */
+     , (22132,   8, 0x060027CB) /* Icon */
+     , (22132,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (22132,  36, 0x0E000016) /* MutateFilter */;

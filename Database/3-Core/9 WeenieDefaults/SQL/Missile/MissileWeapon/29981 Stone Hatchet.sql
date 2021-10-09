@@ -21,7 +21,7 @@ VALUES (29981,   1,        256) /* ItemType - MissileWeapon */
      , (29981,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (29981,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (29981,  49,         20) /* WeaponTime */
-     , (29981,  51,          2) /* CombatUse - Missle */
+     , (29981,  51,          2) /* CombatUse - Missile */
      , (29981,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -40,7 +40,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29981,   1, 'Stone Hatchet') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29981,   1,   33558588) /* Setup */
-     , (29981,   3,  536870932) /* SoundTable */
-     , (29981,   8,  100675762) /* Icon */
-     , (29981,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29981,   1, 0x0200103C) /* Setup */
+     , (29981,   3, 0x20000014) /* SoundTable */
+     , (29981,   8, 0x060030B2) /* Icon */
+     , (29981,  22, 0x3400002B) /* PhysicsEffectTable */;

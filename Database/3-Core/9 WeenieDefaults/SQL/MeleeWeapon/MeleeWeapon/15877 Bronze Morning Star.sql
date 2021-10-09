@@ -38,9 +38,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15877,   1, 'Bronze Morning Star') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15877,   1,   33554748) /* Setup */
-     , (15877,   3,  536870932) /* SoundTable */
-     , (15877,   6,   67111919) /* PaletteBase */
-     , (15877,   7,  268435764) /* ClothingBase */
-     , (15877,   8,  100668965) /* Icon */
-     , (15877,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15877,   1, 0x0200013C) /* Setup */
+     , (15877,   3, 0x20000014) /* SoundTable */
+     , (15877,   6, 0x04000BEF) /* PaletteBase */
+     , (15877,   7, 0x10000134) /* ClothingBase */
+     , (15877,   8, 0x06001625) /* Icon */
+     , (15877,  22, 0x3400002B) /* PhysicsEffectTable */;

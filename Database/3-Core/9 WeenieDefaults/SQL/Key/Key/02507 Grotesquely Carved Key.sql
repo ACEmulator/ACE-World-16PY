@@ -26,7 +26,7 @@ VALUES (2507,   1, 'Grotesquely Carved Key') /* Name */
      , (2507,  16, 'This key holds the misshapen figures of beasts and people.  It is used somewhere in the Swamp Temple of the Direlands.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2507,   1,   33554784) /* Setup */
-     , (2507,   3,  536870932) /* SoundTable */
-     , (2507,   8,  100667486) /* Icon */
-     , (2507,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (2507,   1, 0x02000160) /* Setup */
+     , (2507,   3, 0x20000014) /* SoundTable */
+     , (2507,   8, 0x0600105E) /* Icon */
+     , (2507,  22, 0x3400002B) /* PhysicsEffectTable */;

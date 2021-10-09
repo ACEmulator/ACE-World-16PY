@@ -29,7 +29,7 @@ VALUES (5247,   1, 'Mana Rabbit Noodle') /* Name */
      , (5247,  20, 'Bowls of Mana Rabbit Noodle ') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5247,   1,   33554668) /* Setup */
-     , (5247,   3,  536870932) /* SoundTable */
-     , (5247,   8,  100670305) /* Icon */
-     , (5247,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5247,   1, 0x020000EC) /* Setup */
+     , (5247,   3, 0x20000014) /* SoundTable */
+     , (5247,   8, 0x06001B61) /* Icon */
+     , (5247,  22, 0x3400002B) /* PhysicsEffectTable */;

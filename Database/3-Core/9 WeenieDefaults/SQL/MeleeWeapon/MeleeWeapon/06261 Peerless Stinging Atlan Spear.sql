@@ -45,18 +45,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6261,   1, 'Peerless Stinging Atlan Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6261,   1,   33556332) /* Setup */
-     , (6261,   3,  536870932) /* SoundTable */
-     , (6261,   6,   67111919) /* PaletteBase */
-     , (6261,   7,  268435911) /* ClothingBase */
-     , (6261,   8,  100670554) /* Icon */
-     , (6261,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6261,   1, 0x0200076C) /* Setup */
+     , (6261,   3, 0x20000014) /* SoundTable */
+     , (6261,   6, 0x04000BEF) /* PaletteBase */
+     , (6261,   7, 0x100001C7) /* ClothingBase */
+     , (6261,   8, 0x06001C5A) /* Icon */
+     , (6261,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6261,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6261,   517,      2)  /* Acid Protection Self III */
-     , (6261,  1375,      2)  /* Coordination Self III */
-     , (6261,  1589,      2)  /* Aura of Heart Seeker Self III */
+VALUES (6261,  1375,      2)  /* Coordination Self III */
      , (6261,  1602,      2)  /* Aura of Defender Self III */
+     , (6261,   517,      2)  /* Acid Protection Self III */
+     , (6261,  1589,      2)  /* Aura of Heart Seeker Self III */
      , (6261,  1613,      2)  /* Aura of Blood Drinker Self III */
      , (6261,  1624,      2)  /* Aura of Swift Killer Self III */;

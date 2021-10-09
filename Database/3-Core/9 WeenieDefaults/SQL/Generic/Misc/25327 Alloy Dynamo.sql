@@ -25,8 +25,8 @@ VALUES (25327,   1, 'Alloy Dynamo') /* Name */
      , (25327,  33, 'UndeadMechanismPickup13') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25327,   1,   33558439) /* Setup */
-     , (25327,   3,  536870932) /* SoundTable */
-     , (25327,   6,   67111919) /* PaletteBase */
-     , (25327,   8,  100674831) /* Icon */
-     , (25327,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25327,   1, 0x02000FA7) /* Setup */
+     , (25327,   3, 0x20000014) /* SoundTable */
+     , (25327,   6, 0x04000BEF) /* PaletteBase */
+     , (25327,   8, 0x06002D0F) /* Icon */
+     , (25327,  22, 0x3400002B) /* PhysicsEffectTable */;

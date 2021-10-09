@@ -32,7 +32,7 @@ VALUES (5904,   1, 'Crystal Device') /* Name */
      , (5904,  16, 'An unusual magical device, resembling a shattered key. It appears to have been grafted on to the side of the Great Work crystal by magical means. It is warm to the touch, and looks like it would complete Mairisa bint Fuda''s Shattered Key.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5904,   1,   33554809) /* Setup */
-     , (5904,   3,  536870932) /* SoundTable */
-     , (5904,   8,  100667482) /* Icon */
-     , (5904,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5904,   1, 0x02000179) /* Setup */
+     , (5904,   3, 0x20000014) /* SoundTable */
+     , (5904,   8, 0x0600105A) /* Icon */
+     , (5904,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -24,7 +24,7 @@ VALUES (20540,   1, 'Scroll of Celcynd''s Boon') /* Name */
      , (20540,  15, 'When learned, this spell increases the target''s Item Enchantment skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20540,   1,   33554826) /* Setup */
-     , (20540,   8,  100676460) /* Icon */
-     , (20540,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20540,   1, 0x0200018A) /* Setup */
+     , (20540,   8, 0x0600336C) /* Icon */
+     , (20540,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20540,  28,       2248) /* Spell - Celcynd's Boon */;

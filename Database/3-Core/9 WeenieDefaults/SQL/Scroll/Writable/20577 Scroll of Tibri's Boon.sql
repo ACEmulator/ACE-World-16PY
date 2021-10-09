@@ -24,7 +24,7 @@ VALUES (20577,   1, 'Scroll of Tibri''s Boon') /* Name */
      , (20577,  15, 'When learned, this spell increases the target''s Spear skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20577,   1,   33554826) /* Setup */
-     , (20577,   8,  100676472) /* Icon */
-     , (20577,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20577,   1, 0x0200018A) /* Setup */
+     , (20577,   8, 0x06003378) /* Icon */
+     , (20577,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20577,  28,       2298) /* Spell - Light Weapon Mastery Other VII */;

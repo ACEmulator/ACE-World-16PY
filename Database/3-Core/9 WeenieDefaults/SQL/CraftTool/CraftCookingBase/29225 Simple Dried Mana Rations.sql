@@ -25,7 +25,7 @@ VALUES (29225,   1, 'Simple Dried Mana Rations') /* Name */
      , (29225,  20, 'Simple Dried Mana Rations') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29225,   1,   33554817) /* Setup */
-     , (29225,   3,  536870932) /* SoundTable */
-     , (29225,   8,  100674003) /* Icon */
-     , (29225,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29225,   1, 0x02000181) /* Setup */
+     , (29225,   3, 0x20000014) /* SoundTable */
+     , (29225,   8, 0x060029D3) /* Icon */
+     , (29225,  22, 0x3400002B) /* PhysicsEffectTable */;

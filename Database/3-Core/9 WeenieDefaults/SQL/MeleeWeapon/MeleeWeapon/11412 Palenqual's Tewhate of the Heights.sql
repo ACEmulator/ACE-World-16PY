@@ -37,7 +37,7 @@ VALUES (11412,  22, True ) /* Inscribable */
      , (11412,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11412,   5, -0.03333) /* ManaRate */
+VALUES (11412,   5,  -0.033) /* ManaRate */
      , (11412,  21,    0.75) /* WeaponLength */
      , (11412,  22,     0.5) /* DamageVariance */
      , (11412,  29,    1.08) /* WeaponDefense */
@@ -51,22 +51,22 @@ VALUES (11412,   1, 'Palenqual''s Tewhate of the Heights') /* Name */
      , (11412,  16, 'A tewhate fused to a triple totem.  It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11412,   1,   33557233) /* Setup */
-     , (11412,   3,  536870932) /* SoundTable */
-     , (11412,   6,   67113336) /* PaletteBase */
-     , (11412,   7,  268436249) /* ClothingBase */
-     , (11412,   8,  100672067) /* Icon */
-     , (11412,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11412,   1, 0x02000AF1) /* Setup */
+     , (11412,   3, 0x20000014) /* SoundTable */
+     , (11412,   6, 0x04001178) /* PaletteBase */
+     , (11412,   7, 0x10000319) /* ClothingBase */
+     , (11412,   8, 0x06002243) /* Icon */
+     , (11412,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11412,  30,         88) /* PhysicsScript - Create */
-     , (11412,  36,  234881044) /* MutateFilter */;
+     , (11412,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11412,  2439,      2)  /* Rockslide */
-     , (11412,  2442,      2)  /* Stone Cliffs */
-     , (11412,  2445,      2)  /* Strength of Earth */
+VALUES (11412,  2471,      2)  /* Lesser Still Water */
      , (11412,  2447,      2)  /* Lesser Growth */
+     , (11412,  2439,      2)  /* Rockslide */
+     , (11412,  2474,      2)  /* Lesser Torrent */
      , (11412,  2450,      2)  /* Lesser Hunter's Acumen */
+     , (11412,  2442,      2)  /* Stone Cliffs */
      , (11412,  2453,      2)  /* Lesser Thorns */
-     , (11412,  2456,      2)  /* Lesser Cascade */
-     , (11412,  2471,      2)  /* Lesser Still Water */
-     , (11412,  2474,      2)  /* Lesser Torrent */;
+     , (11412,  2445,      2)  /* Strength of Earth */
+     , (11412,  2456,      2)  /* Lesser Cascade */;

@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3630,   1, 'Carved Cave Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3630,   1,   33555923) /* Setup */
-     , (3630,   2,  150994947) /* MotionTable */
-     , (3630,   8,  100667499) /* Icon */;
+VALUES (3630,   1, 0x020005D3) /* Setup */
+     , (3630,   2, 0x09000003) /* MotionTable */
+     , (3630,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3630, 2, 26149468, 70.548, -77.66, 0, -0.05229237, 0, 0, -0.9986318) /* Destination */
-/* @teleloc 0x018F025C [70.548000 -77.660000 0.000000] -0.052292 0.000000 0.000000 -0.998632 */;
+VALUES (3630, 2, 0x018F025C, 70.548, -77.66, 0, -0.052292, 0, -0, -0.998632) /* Destination */
+/* @teleloc 0x018F025C [70.547997 -77.660004 0.000000] -0.052292 0.000000 -0.000000 -0.998632 */;

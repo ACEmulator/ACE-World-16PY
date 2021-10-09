@@ -36,11 +36,11 @@ VALUES (26141,   1, 'Dovetail Valley Villas Portal Gem') /* Name */
      , (26141,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26141,   1,   33556769) /* Setup */
-     , (26141,   3,  536870932) /* SoundTable */
-     , (26141,   6,   67111919) /* PaletteBase */
-     , (26141,   7,  268435723) /* ClothingBase */
-     , (26141,   8,  100675760) /* Icon */
-     , (26141,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26141,   1, 0x02000921) /* Setup */
+     , (26141,   3, 0x20000014) /* SoundTable */
+     , (26141,   6, 0x04000BEF) /* PaletteBase */
+     , (26141,   7, 0x1000010B) /* ClothingBase */
+     , (26141,   8, 0x060030B0) /* Icon */
+     , (26141,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26141,  28,        157) /* Spell - Summon Primary Portal I */
      , (26141,  31,      15153) /* LinkedPortalOne - Dovetail Valley Villas Portal */;

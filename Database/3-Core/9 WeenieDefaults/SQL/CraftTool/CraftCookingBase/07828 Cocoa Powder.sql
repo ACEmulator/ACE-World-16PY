@@ -31,9 +31,9 @@ VALUES (7828,   1, 'Cocoa Powder') /* Name */
      , (7828,  20, 'Jars of Cocoa Powder') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7828,   1,   33555208) /* Setup */
-     , (7828,   3,  536870932) /* SoundTable */
-     , (7828,   6,   67111919) /* PaletteBase */
-     , (7828,   7,  268436024) /* ClothingBase */
-     , (7828,   8,  100670855) /* Icon */
-     , (7828,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7828,   1, 0x02000308) /* Setup */
+     , (7828,   3, 0x20000014) /* SoundTable */
+     , (7828,   6, 0x04000BEF) /* PaletteBase */
+     , (7828,   7, 0x10000238) /* ClothingBase */
+     , (7828,   8, 0x06001D87) /* Icon */
+     , (7828,  22, 0x3400002B) /* PhysicsEffectTable */;

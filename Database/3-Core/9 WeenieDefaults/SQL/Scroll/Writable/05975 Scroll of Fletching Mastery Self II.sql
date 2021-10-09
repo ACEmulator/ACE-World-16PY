@@ -25,7 +25,7 @@ VALUES (5975,   1, 'Scroll of Fletching Mastery Self II') /* Name */
      , (5975,  16, 'When learned, this spell increases the caster''s Fletching skill by 25%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5975,   1,   33554826) /* Setup */
-     , (5975,   8,  100676457) /* Icon */
-     , (5975,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5975,   1, 0x0200018A) /* Setup */
+     , (5975,   8, 0x06003369) /* Icon */
+     , (5975,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5975,  28,       1740) /* Spell - Fletching Mastery Self II */;

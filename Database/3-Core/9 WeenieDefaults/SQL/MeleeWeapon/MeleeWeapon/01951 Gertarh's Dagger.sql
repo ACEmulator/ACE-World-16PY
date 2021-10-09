@@ -38,9 +38,9 @@ VALUES (1951,   1, 'Gertarh''s Dagger') /* Name */
      , (1951,   8, 'Gertarh') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1951,   1,   33554735) /* Setup */
-     , (1951,   3,  536870932) /* SoundTable */
-     , (1951,   6,   67111919) /* PaletteBase */
-     , (1951,   7,  268435783) /* ClothingBase */
-     , (1951,   8,  100667589) /* Icon */
-     , (1951,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1951,   1, 0x0200012F) /* Setup */
+     , (1951,   3, 0x20000014) /* SoundTable */
+     , (1951,   6, 0x04000BEF) /* PaletteBase */
+     , (1951,   7, 0x10000147) /* ClothingBase */
+     , (1951,   8, 0x060010C5) /* Icon */
+     , (1951,  22, 0x3400002B) /* PhysicsEffectTable */;

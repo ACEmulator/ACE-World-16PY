@@ -49,11 +49,11 @@ VALUES (21353,   1, 'Phantom Axe') /* Name */
      , (21353,  16, 'An axe with a ghostly blade crafted from pure chorizite, resistant to any enchantment. (Note: This weapon is unenchantable.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21353,   1,   33556657) /* Setup */
-     , (21353,   3,  536870932) /* SoundTable */
-     , (21353,   6,   67111919) /* PaletteBase */
-     , (21353,   7,  268435779) /* ClothingBase */
-     , (21353,   8,  100668985) /* Icon */
-     , (21353,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21353,   1, 0x020008B1) /* Setup */
+     , (21353,   3, 0x20000014) /* SoundTable */
+     , (21353,   6, 0x04000BEF) /* PaletteBase */
+     , (21353,   7, 0x10000143) /* ClothingBase */
+     , (21353,   8, 0x06001639) /* Icon */
+     , (21353,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21353,  30,         88) /* PhysicsScript - Create */
-     , (21353,  36,  234881044) /* MutateFilter */;
+     , (21353,  36, 0x0E000014) /* MutateFilter */;

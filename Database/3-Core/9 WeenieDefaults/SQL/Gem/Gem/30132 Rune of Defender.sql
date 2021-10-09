@@ -30,10 +30,10 @@ VALUES (30132,   1, 'Rune of Defender') /* Name */
      , (30132,  16, 'A lovely template for a rare magical gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30132,   1,   33554809) /* Setup */
-     , (30132,   3,  536870932) /* SoundTable */
-     , (30132,   6,   67111919) /* PaletteBase */
-     , (30132,   7,  268435723) /* ClothingBase */
-     , (30132,   8,  100674739) /* Icon */
-     , (30132,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30132,   1, 0x02000179) /* Setup */
+     , (30132,   3, 0x20000014) /* SoundTable */
+     , (30132,   6, 0x04000BEF) /* PaletteBase */
+     , (30132,   7, 0x1000010B) /* ClothingBase */
+     , (30132,   8, 0x06002CB3) /* Icon */
+     , (30132,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30132,  28,       2101) /* Spell - Aura of Cragstone's Will */;

@@ -34,7 +34,7 @@ VALUES (12122,  22, True ) /* Inscribable */
      , (12122,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12122,   5, -0.03333) /* ManaRate */
+VALUES (12122,   5,  -0.033) /* ManaRate */
      , (12122,  21,     1.5) /* WeaponLength */
      , (12122,  22,     0.6) /* DamageVariance */
      , (12122,  29,    1.05) /* WeaponDefense */
@@ -46,20 +46,20 @@ VALUES (12122,   1, 'Palenqual''s Taiaha') /* Name */
      , (12122,  16, 'A taiaha fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12122,   1,   33557236) /* Setup */
-     , (12122,   3,  536870932) /* SoundTable */
-     , (12122,   8,  100672034) /* Icon */
-     , (12122,  22,  872415275) /* PhysicsEffectTable */
-     , (12122,  36,  234881044) /* MutateFilter */
+VALUES (12122,   1, 0x02000AF4) /* Setup */
+     , (12122,   3, 0x20000014) /* SoundTable */
+     , (12122,   8, 0x06002222) /* Icon */
+     , (12122,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (12122,  36, 0x0E000014) /* MutateFilter */
      , (12122,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12122,  2438,      2)  /* Lesser Rockslide */
+VALUES (12122,  2454,      2)  /* Thorns */
+     , (12122,  2438,      2)  /* Lesser Rockslide */
+     , (12122,  2465,      2)  /* Lesser Cascade */
      , (12122,  2441,      2)  /* Lesser Stone Cliffs */
      , (12122,  2444,      2)  /* Lesser Strength of Earth */
      , (12122,  2448,      2)  /* Growth */
      , (12122,  2451,      2)  /* Hunter's Acumen */
-     , (12122,  2454,      2)  /* Thorns */
-     , (12122,  2465,      2)  /* Lesser Cascade */
      , (12122,  2471,      2)  /* Lesser Still Water */
      , (12122,  2474,      2)  /* Lesser Torrent */;

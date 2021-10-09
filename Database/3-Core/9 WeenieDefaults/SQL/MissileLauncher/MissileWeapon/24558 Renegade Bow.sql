@@ -16,7 +16,7 @@ VALUES (24558,   1,        256) /* ItemType - MissileWeapon */
      , (24558,  48,          2) /* WeaponSkill - Bow */
      , (24558,  49,         45) /* WeaponTime */
      , (24558,  50,          1) /* AmmoType - Arrow */
-     , (24558,  51,          2) /* CombatUse - Missle */
+     , (24558,  51,          2) /* CombatUse - Missile */
      , (24558,  52,          2) /* ParentLocation - LeftHand */
      , (24558,  53,          3) /* PlacementPosition - LeftHand */
      , (24558,  60,        200) /* WeaponRange */
@@ -51,11 +51,11 @@ VALUES (24558,   1, 'Renegade Bow') /* Name */
      , (24558,  33, 'GotBowRenegadeRaids') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24558,   1,   33558376) /* Setup */
-     , (24558,   3,  536870932) /* SoundTable */
-     , (24558,   6,   67111919) /* PaletteBase */
-     , (24558,   8,  100674387) /* Icon */
-     , (24558,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24558,   1, 0x02000F68) /* Setup */
+     , (24558,   3, 0x20000014) /* SoundTable */
+     , (24558,   6, 0x04000BEF) /* PaletteBase */
+     , (24558,   8, 0x06002B53) /* Icon */
+     , (24558,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24558,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

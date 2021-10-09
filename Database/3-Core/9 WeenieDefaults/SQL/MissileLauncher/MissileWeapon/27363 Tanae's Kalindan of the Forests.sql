@@ -17,7 +17,7 @@ VALUES (27363,   1,        256) /* ItemType - MissileWeapon */
      , (27363,  48,          3) /* WeaponSkill - Crossbow */
      , (27363,  49,         60) /* WeaponTime */
      , (27363,  50,          2) /* AmmoType - Bolt */
-     , (27363,  51,          2) /* CombatUse - Missle */
+     , (27363,  51,          2) /* CombatUse - Missile */
      , (27363,  52,          2) /* ParentLocation - LeftHand */
      , (27363,  53,          3) /* PlacementPosition - LeftHand */
      , (27363,  60,        160) /* WeaponRange */
@@ -40,7 +40,7 @@ VALUES (27363,  22, True ) /* Inscribable */
      , (27363,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27363,   5, -0.033333) /* ManaRate */
+VALUES (27363,   5,  -0.033) /* ManaRate */
      , (27363,  26,    24.9) /* MaximumVelocity */
      , (27363,  29,    1.08) /* WeaponDefense */
      , (27363,  39,       1) /* DefaultScale */
@@ -54,12 +54,12 @@ VALUES (27363,   1, 'Tanae''s Kalindan of the Forests') /* Name */
      , (27363,  16, 'A kalindan fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27363,   1,   33558668) /* Setup */
-     , (27363,   3,  536870932) /* SoundTable */
-     , (27363,   6,   67113336) /* PaletteBase */
-     , (27363,   7,  268436251) /* ClothingBase */
-     , (27363,   8,  100676344) /* Icon */
-     , (27363,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27363,   1, 0x0200108C) /* Setup */
+     , (27363,   3, 0x20000014) /* SoundTable */
+     , (27363,   6, 0x04001178) /* PaletteBase */
+     , (27363,   7, 0x1000031B) /* ClothingBase */
+     , (27363,   8, 0x060032F8) /* Icon */
+     , (27363,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27363,  2446,      2)  /* Greater Growth */

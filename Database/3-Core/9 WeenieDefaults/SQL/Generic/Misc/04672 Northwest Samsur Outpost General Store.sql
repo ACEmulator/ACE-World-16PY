@@ -23,7 +23,7 @@ VALUES (4672,   1, 'Northwest Samsur Outpost General Store') /* Name */
      , (4672,  16, 'Northwest Samsur Outpost General Store') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4672,   1,   33555909) /* Setup */
-     , (4672,   6,   67111860) /* PaletteBase */
-     , (4672,   7,  268435820) /* ClothingBase */
-     , (4672,   8,  100668115) /* Icon */;
+VALUES (4672,   1, 0x020005C5) /* Setup */
+     , (4672,   6, 0x04000BB4) /* PaletteBase */
+     , (4672,   7, 0x1000016C) /* ClothingBase */
+     , (4672,   8, 0x060012D3) /* Icon */;

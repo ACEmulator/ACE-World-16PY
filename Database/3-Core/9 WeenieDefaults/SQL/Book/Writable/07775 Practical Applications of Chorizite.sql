@@ -24,10 +24,10 @@ VALUES (7775,   1, 'Practical Applications of Chorizite') /* Name */
      , (7775,  16, 'A book on the uses of anti-magic ore.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7775,   1,   33554771) /* Setup */
-     , (7775,   3,  536870932) /* SoundTable */
-     , (7775,   8,  100668117) /* Icon */
-     , (7775,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7775,   1, 0x02000153) /* Setup */
+     , (7775,   3, 0x20000014) /* SoundTable */
+     , (7775,   8, 0x060012D5) /* Icon */
+     , (7775,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (7775, 6, 1000);

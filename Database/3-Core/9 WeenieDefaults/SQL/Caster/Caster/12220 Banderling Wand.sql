@@ -31,8 +31,8 @@ VALUES (12220,   1, 'Banderling Wand') /* Name */
      , (12220,  16, 'A wand with a shrunken banderling head on it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12220,   1,   33557368) /* Setup */
-     , (12220,   3,  536870932) /* SoundTable */
-     , (12220,   8,  100672178) /* Icon */
-     , (12220,  22,  872415275) /* PhysicsEffectTable */
-     , (12220,  36,  234881046) /* MutateFilter */;
+VALUES (12220,   1, 0x02000B78) /* Setup */
+     , (12220,   3, 0x20000014) /* SoundTable */
+     , (12220,   8, 0x060022B2) /* Icon */
+     , (12220,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (12220,  36, 0x0E000016) /* MutateFilter */;

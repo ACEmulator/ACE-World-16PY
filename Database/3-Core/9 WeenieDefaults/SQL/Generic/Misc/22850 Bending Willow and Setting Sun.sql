@@ -23,7 +23,7 @@ VALUES (22850,   1, 'Bending Willow and Setting Sun') /* Name */
      , (22850,  15, 'This item can be used on wall hooks.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22850,   1,   33558152) /* Setup */
-     , (22850,   3,  536870932) /* SoundTable */
-     , (22850,   8,  100673917) /* Icon */
-     , (22850,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22850,   1, 0x02000E88) /* Setup */
+     , (22850,   3, 0x20000014) /* SoundTable */
+     , (22850,   8, 0x0600297D) /* Icon */
+     , (22850,  22, 0x3400002B) /* PhysicsEffectTable */;

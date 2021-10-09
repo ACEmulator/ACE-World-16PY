@@ -27,10 +27,10 @@ VALUES (29806,   1, 'Title Token ''Kingslayer''') /* Name */
      , (29806,  15, 'You may turn this token in to Guard Devon in Cragstone to change your title to ''Kingslayer''.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29806,   1,   33557280) /* Setup */
-     , (29806,   3,  536870932) /* SoundTable */
-     , (29806,   6,   67111092) /* PaletteBase */
-     , (29806,   7,  268436298) /* ClothingBase */
-     , (29806,   8,  100677172) /* Icon */
-     , (29806,  22,  872415275) /* PhysicsEffectTable */
-     , (29806,  36,  234881046) /* MutateFilter */;
+VALUES (29806,   1, 0x02000B20) /* Setup */
+     , (29806,   3, 0x20000014) /* SoundTable */
+     , (29806,   6, 0x040008B4) /* PaletteBase */
+     , (29806,   7, 0x1000034A) /* ClothingBase */
+     , (29806,   8, 0x06003634) /* Icon */
+     , (29806,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29806,  36, 0x0E000016) /* MutateFilter */;

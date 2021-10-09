@@ -26,8 +26,8 @@ VALUES (23126,   1, 'Wah Chon''s Winter Lager') /* Name */
      , (23126,  20, 'Mugs of Winter Lager') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23126,   1,   33556854) /* Setup */
-     , (23126,   3,  536870932) /* SoundTable */
-     , (23126,   8,  100671131) /* Icon */
-     , (23126,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23126,   1, 0x02000976) /* Setup */
+     , (23126,   3, 0x20000014) /* SoundTable */
+     , (23126,   8, 0x06001E9B) /* Icon */
+     , (23126,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23126,  23,         65) /* UseSound - Drink1 */;

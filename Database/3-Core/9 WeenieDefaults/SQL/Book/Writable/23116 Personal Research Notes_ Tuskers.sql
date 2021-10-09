@@ -22,10 +22,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23116,   1, 'Personal Research Notes: Tuskers') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23116,   1,   33554771) /* Setup */
-     , (23116,   3,  536870932) /* SoundTable */
-     , (23116,   8,  100668117) /* Icon */
-     , (23116,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23116,   1, 0x02000153) /* Setup */
+     , (23116,   3, 0x20000014) /* SoundTable */
+     , (23116,   8, 0x060012D5) /* Icon */
+     , (23116,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (23116, 16, 1000);

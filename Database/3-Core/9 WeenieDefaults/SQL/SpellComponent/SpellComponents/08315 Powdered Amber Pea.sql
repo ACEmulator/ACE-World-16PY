@@ -31,10 +31,10 @@ VALUES (8315,   1, 'Powdered Amber Pea') /* Name */
      , (8315,  16, 'A concentrated powdered amber pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8315,   1,   33555208) /* Setup */
-     , (8315,   3,  536870932) /* SoundTable */
-     , (8315,   6,   67111919) /* PaletteBase */
-     , (8315,   7,  268435778) /* ClothingBase */
-     , (8315,   8,  100671072) /* Icon */
-     , (8315,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8315,   1, 0x02000308) /* Setup */
+     , (8315,   3, 0x20000014) /* SoundTable */
+     , (8315,   6, 0x04000BEF) /* PaletteBase */
+     , (8315,   7, 0x10000142) /* ClothingBase */
+     , (8315,   8, 0x06001E60) /* Icon */
+     , (8315,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8315,  29,        138) /* SpellComponent */;

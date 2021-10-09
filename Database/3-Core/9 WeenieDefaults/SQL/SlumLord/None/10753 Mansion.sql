@@ -21,9 +21,9 @@ VALUES (10753,   1, 'Mansion') /* Name */
      , (10753,  34, 'MansionEventTest') /* GeneratorEvent */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10753,   1,   33557167) /* Setup */
-     , (10753,   2,  150995128) /* MotionTable */
-     , (10753,   8,  100671884) /* Icon */;
+VALUES (10753,   1, 0x02000AAF) /* Setup */
+     , (10753,   2, 0x090000B8) /* MotionTable */
+     , (10753,   8, 0x0600218C) /* Icon */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (10753, 16,   273, 10000000, 0, 0, False) /* Create Pyreal (273) for HouseBuy */

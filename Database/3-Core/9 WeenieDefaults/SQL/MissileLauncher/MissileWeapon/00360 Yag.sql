@@ -16,7 +16,7 @@ VALUES (360,   1,        256) /* ItemType - MissileWeapon */
      , (360,  48,          2) /* WeaponSkill - Bow */
      , (360,  49,         30) /* WeaponTime */
      , (360,  50,          1) /* AmmoType - Arrow */
-     , (360,  51,          2) /* CombatUse - Missle */
+     , (360,  51,          2) /* CombatUse - Missile */
      , (360,  52,          2) /* ParentLocation - LeftHand */
      , (360,  53,          3) /* PlacementPosition - LeftHand */
      , (360,  60,        140) /* WeaponRange */
@@ -39,11 +39,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (360,   1, 'Yag') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (360,   1,   33554729) /* Setup */
-     , (360,   3,  536870932) /* SoundTable */
-     , (360,   6,   67111919) /* PaletteBase */
-     , (360,   7,  268435760) /* ClothingBase */
-     , (360,   8,  100668825) /* Icon */
-     , (360,  22,  872415275) /* PhysicsEffectTable */
-     , (360,  36,  234881053) /* MutateFilter */
-     , (360,  46,  939524104) /* TsysMutationFilter */;
+VALUES (360,   1, 0x02000129) /* Setup */
+     , (360,   3, 0x20000014) /* SoundTable */
+     , (360,   6, 0x04000BEF) /* PaletteBase */
+     , (360,   7, 0x10000130) /* ClothingBase */
+     , (360,   8, 0x06001599) /* Icon */
+     , (360,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (360,  36, 0x0E00001D) /* MutateFilter */
+     , (360,  46, 0x38000008) /* TsysMutationFilter */;

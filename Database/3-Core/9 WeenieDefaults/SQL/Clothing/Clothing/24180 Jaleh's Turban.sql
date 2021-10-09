@@ -39,10 +39,10 @@ VALUES (24180,   1, 'Jaleh''s Turban') /* Name */
      , (24180,  33, 'TurbanJalehTaken') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24180,   1,   33554855) /* Setup */
-     , (24180,   3,  536870932) /* SoundTable */
-     , (24180,   6,   67108990) /* PaletteBase */
-     , (24180,   7,  268435488) /* ClothingBase */
-     , (24180,   8,  100674279) /* Icon */
-     , (24180,  22,  872415275) /* PhysicsEffectTable */
-     , (24180,  36,  234881046) /* MutateFilter */;
+VALUES (24180,   1, 0x020001A7) /* Setup */
+     , (24180,   3, 0x20000014) /* SoundTable */
+     , (24180,   6, 0x0400007E) /* PaletteBase */
+     , (24180,   7, 0x10000020) /* ClothingBase */
+     , (24180,   8, 0x06002AE7) /* Icon */
+     , (24180,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24180,  36, 0x0E000016) /* MutateFilter */;

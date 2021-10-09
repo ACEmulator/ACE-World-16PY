@@ -38,9 +38,9 @@ VALUES (15896,   1, 'Ben Ten''s Tachi') /* Name */
      , (15896,  33, 'TachiStatuePickUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15896,   1,   33554742) /* Setup */
-     , (15896,   3,  536870932) /* SoundTable */
-     , (15896,   6,   67111919) /* PaletteBase */
-     , (15896,   7,  268436346) /* ClothingBase */
-     , (15896,   8,  100668915) /* Icon */
-     , (15896,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15896,   1, 0x02000136) /* Setup */
+     , (15896,   3, 0x20000014) /* SoundTable */
+     , (15896,   6, 0x04000BEF) /* PaletteBase */
+     , (15896,   7, 0x1000037A) /* ClothingBase */
+     , (15896,   8, 0x060015F3) /* Icon */
+     , (15896,  22, 0x3400002B) /* PhysicsEffectTable */;

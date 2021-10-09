@@ -28,8 +28,8 @@ VALUES (9566,   1, 'Completed Axe Skill Puzzle') /* Name */
      , (9566,  16, 'A completed Axe Skill Puzzle.  Turn in to a Bestower Examiner to receive a title.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9566,   1,   33557028) /* Setup */
-     , (9566,   3,  536870932) /* SoundTable */
-     , (9566,   8,  100671554) /* Icon */
-     , (9566,  22,  872415275) /* PhysicsEffectTable */
-     , (9566,  36,  234881046) /* MutateFilter */;
+VALUES (9566,   1, 0x02000A24) /* Setup */
+     , (9566,   3, 0x20000014) /* SoundTable */
+     , (9566,   8, 0x06002042) /* Icon */
+     , (9566,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (9566,  36, 0x0E000016) /* MutateFilter */;

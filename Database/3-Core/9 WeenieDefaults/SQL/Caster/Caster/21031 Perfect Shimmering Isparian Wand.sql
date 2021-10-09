@@ -42,16 +42,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21031,   1, 'Perfect Shimmering Isparian Wand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21031,   1,   33557731) /* Setup */
-     , (21031,   3,  536870932) /* SoundTable */
-     , (21031,   7,  268436427) /* ClothingBase */
-     , (21031,   8,  100673203) /* Icon */
-     , (21031,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21031,   1, 0x02000CE3) /* Setup */
+     , (21031,   3, 0x20000014) /* SoundTable */
+     , (21031,   7, 0x100003CB) /* ClothingBase */
+     , (21031,   8, 0x060026B3) /* Icon */
+     , (21031,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21031,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21031,   658,      2)  /* Mana Conversion Mastery Self VI */
-     , (21031,  1312,      2)  /* Armor Self VI */
+VALUES (21031,  1450,      2)  /* Willpower Self VI */
      , (21031,  1426,      2)  /* Focus Self VI */
-     , (21031,  1450,      2)  /* Willpower Self VI */
-     , (21031,  2691,      2)  /* Moderate Mana Conversion Prowess */;
+     , (21031,  2691,      2)  /* Moderate Mana Conversion Prowess */
+     , (21031,   658,      2)  /* Mana Conversion Mastery Self VI */
+     , (21031,  1312,      2)  /* Armor Self VI */;

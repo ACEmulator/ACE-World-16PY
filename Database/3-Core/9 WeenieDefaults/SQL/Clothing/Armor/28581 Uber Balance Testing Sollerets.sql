@@ -28,7 +28,7 @@ VALUES (28581,  22, True ) /* Inscribable */
      , (28581,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28581,   5,       0) /* ManaRate */
+VALUES (28581,   5,      -0) /* ManaRate */
      , (28581,  12,    0.66) /* Shade */
      , (28581,  13,       1) /* ArmorModVsSlash */
      , (28581,  14,       1) /* ArmorModVsPierce */
@@ -45,19 +45,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28581,   1, 'Uber Balance Testing Sollerets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28581,   1,   33554654) /* Setup */
-     , (28581,   3,  536870932) /* SoundTable */
-     , (28581,   6,   67108990) /* PaletteBase */
-     , (28581,   7,  268436752) /* ClothingBase */
-     , (28581,   8,  100675590) /* Icon */
-     , (28581,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28581,   1, 0x020000DE) /* Setup */
+     , (28581,   3, 0x20000014) /* SoundTable */
+     , (28581,   6, 0x0400007E) /* PaletteBase */
+     , (28581,   7, 0x10000510) /* ClothingBase */
+     , (28581,   8, 0x06003006) /* Icon */
+     , (28581,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28581,  2092,      2)  /* Olthoi's Bane */
+VALUES (28581,  2113,      2)  /* Archer's Bane */
+     , (28581,  2108,      2)  /* Brogard's Defiance */
+     , (28581,  2092,      2)  /* Olthoi's Bane */
+     , (28581,  2110,      2)  /* Astyrrian's Bane */
+     , (28581,  2102,      2)  /* Inferno's Bane */
      , (28581,  2094,      2)  /* Swordsman's Bane */
      , (28581,  2098,      2)  /* Tusker's Bane */
-     , (28581,  2102,      2)  /* Inferno's Bane */
-     , (28581,  2104,      2)  /* Gelidite's Bane */
-     , (28581,  2108,      2)  /* Brogard's Defiance */
-     , (28581,  2110,      2)  /* Astyrrian's Bane */
-     , (28581,  2113,      2)  /* Archer's Bane */;
+     , (28581,  2104,      2)  /* Gelidite's Bane */;

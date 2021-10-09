@@ -33,7 +33,7 @@ VALUES (7865,   1, 'Hearty Mana Holtburger') /* Name */
      , (7865,  20, 'Hearty Mana Holtburgers') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7865,   1,   33556680) /* Setup */
-     , (7865,   3,  536870932) /* SoundTable */
-     , (7865,   8,  100670859) /* Icon */
-     , (7865,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7865,   1, 0x020008C8) /* Setup */
+     , (7865,   3, 0x20000014) /* SoundTable */
+     , (7865,   8, 0x06001D8B) /* Icon */
+     , (7865,  22, 0x3400002B) /* PhysicsEffectTable */;

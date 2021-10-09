@@ -42,10 +42,10 @@ VALUES (25529,   1, 'Sturdy Reedshark Robe') /* Name */
      , (25529,  15, 'A robe crafted from the leathery hide of a Reedshark Slasher. The hide has been treated and crafted into a fairly useful robe.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25529,   1,   33554854) /* Setup */
-     , (25529,   3,  536870932) /* SoundTable */
-     , (25529,   6,   67108990) /* PaletteBase */
-     , (25529,   7,  268436695) /* ClothingBase */
-     , (25529,   8,  100675041) /* Icon */
-     , (25529,  22,  872415275) /* PhysicsEffectTable */
-     , (25529,  36,  234881046) /* MutateFilter */;
+VALUES (25529,   1, 0x020001A6) /* Setup */
+     , (25529,   3, 0x20000014) /* SoundTable */
+     , (25529,   6, 0x0400007E) /* PaletteBase */
+     , (25529,   7, 0x100004D7) /* ClothingBase */
+     , (25529,   8, 0x06002DE1) /* Icon */
+     , (25529,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (25529,  36, 0x0E000016) /* MutateFilter */;

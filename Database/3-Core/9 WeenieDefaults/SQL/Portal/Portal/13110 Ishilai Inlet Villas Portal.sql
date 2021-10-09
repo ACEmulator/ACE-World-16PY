@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13110,   1, 'Ishilai Inlet Villas Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13110,   1,   33554867) /* Setup */
-     , (13110,   2,  150994947) /* MotionTable */
-     , (13110,   8,  100667499) /* Icon */;
+VALUES (13110,   1, 0x020001B3) /* Setup */
+     , (13110,   2, 0x09000003) /* MotionTable */
+     , (13110,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (13110, 2, 3205824565, 164.993, 107.482, 136.005, -0.595559, 0, 0, -0.8033116) /* Destination */
-/* @teleloc 0xBF150035 [164.993000 107.482000 136.005000] -0.595559 0.000000 0.000000 -0.803312 */;
+VALUES (13110, 2, 0xBF150035, 164.993, 107.482, 136.005, -0.595559, 0, -0, -0.803312) /* Destination */
+/* @teleloc 0xBF150035 [164.992996 107.482002 136.005005] -0.595559 0.000000 -0.000000 -0.803312 */;

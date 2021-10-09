@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7122,   1, 'Great Skeleton') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7122,   1,   33555464) /* Setup */
-     , (7122,   2,  150994981) /* MotionTable */
-     , (7122,   3,  536870942) /* SoundTable */
-     , (7122,   4,  805306368) /* CombatTable */
-     , (7122,   6,   67111266) /* PaletteBase */
-     , (7122,   7,  268435646) /* ClothingBase */
-     , (7122,   8,  100669124) /* Icon */
-     , (7122,  22,  872415269) /* PhysicsEffectTable */
+VALUES (7122,   1, 0x02000408) /* Setup */
+     , (7122,   2, 0x09000025) /* MotionTable */
+     , (7122,   3, 0x2000001E) /* SoundTable */
+     , (7122,   4, 0x30000000) /* CombatTable */
+     , (7122,   6, 0x04000962) /* PaletteBase */
+     , (7122,   7, 0x100000BE) /* ClothingBase */
+     , (7122,   8, 0x060016C4) /* Icon */
+     , (7122,  22, 0x34000025) /* PhysicsEffectTable */
      , (7122,  32,        288) /* WieldedTreasureType - 
                                    Wield Yumi (23734) | Probability: 50%
                                    Wield 16x Deadly Acid Arrow (15430) | Probability: 100%
@@ -127,9 +127,9 @@ VALUES (7122,  0,  4,  0,    0,   90,   43,   32,   45,   22,   77,   29,   44, 
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7122,  1241,   2.08)  /* Drain Health Other V */
-     , (7122,  1342,  2.067)  /* Weakness Other V */
      , (7122,  1395,  2.067)  /* Clumsiness Other V */
-     , (7122,  1443,  2.067)  /* Bafflement Other V */;
+     , (7122,  1443,  2.067)  /* Bafflement Other V */
+     , (7122,  1342,  2.067)  /* Weakness Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (7122,  94) /* ATTACK_NOTIFICATION_EVENT */
@@ -152,12 +152,12 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'As it collapses, the Great Skeleton''s jaw rattles one last time, "Where fly the banners of Dericost now? Ah, perhaps the Winds were right so long ago..."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (7122,  5 /* HeartBeat */,    0.8, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (7122,  5 /* HeartBeat */,    0.8, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x41000014 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7122, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */

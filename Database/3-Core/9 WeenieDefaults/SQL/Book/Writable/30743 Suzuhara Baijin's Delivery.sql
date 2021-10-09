@@ -25,10 +25,10 @@ VALUES (30743,   1, 'Suzuhara Baijin''s Delivery') /* Name */
      , (30743,  16, 'A plea for help from Suzuhara Baijin of Stonehold. This quest is designed for level 60+ characters.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30743,   1,   33554773) /* Setup */
-     , (30743,   3,  536870932) /* SoundTable */
-     , (30743,   8,  100675751) /* Icon */
-     , (30743,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30743,   1, 0x02000155) /* Setup */
+     , (30743,   3, 0x20000014) /* SoundTable */
+     , (30743,   8, 0x060030A7) /* Icon */
+     , (30743,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (30743, 1, 1000);

@@ -27,8 +27,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8419,   1, 'Button') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8419,   1,   33554714) /* Setup */
-     , (8419,   8,  100667474) /* Icon */;
+VALUES (8419,   1, 0x0200011A) /* Setup */
+     , (8419,   8, 0x06001052) /* Icon */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8419,  16,          0) /* ActivationTarget */;
+VALUES (8419,  16, 0x00000000) /* ActivationTarget */;

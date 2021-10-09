@@ -31,9 +31,9 @@ VALUES (19520,   1, 'Superb Isparian Spear Ingot') /* Name */
      , (19520,  16, 'An diamond infused ingot, enhanced and stamped with an spear glyph.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19520,   1,   33555677) /* Setup */
-     , (19520,   3,  536870932) /* SoundTable */
-     , (19520,   6,   67111919) /* PaletteBase */
-     , (19520,   7,  268435723) /* ClothingBase */
-     , (19520,   8,  100672974) /* Icon */
-     , (19520,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19520,   1, 0x020004DD) /* Setup */
+     , (19520,   3, 0x20000014) /* SoundTable */
+     , (19520,   6, 0x04000BEF) /* PaletteBase */
+     , (19520,   7, 0x1000010B) /* ClothingBase */
+     , (19520,   8, 0x060025CE) /* Icon */
+     , (19520,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -38,10 +38,10 @@ VALUES (15883,   1, 'Bronze Battle Axe') /* Name */
      , (15883,  33, 'AxeBattleStatuePickUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15883,   1,   33554725) /* Setup */
-     , (15883,   3,  536870932) /* SoundTable */
-     , (15883,   6,   67111919) /* PaletteBase */
-     , (15883,   7,  268435779) /* ClothingBase */
-     , (15883,   8,  100668985) /* Icon */
-     , (15883,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15883,   1, 0x02000125) /* Setup */
+     , (15883,   3, 0x20000014) /* SoundTable */
+     , (15883,   6, 0x04000BEF) /* PaletteBase */
+     , (15883,   7, 0x10000143) /* ClothingBase */
+     , (15883,   8, 0x06001639) /* Icon */
+     , (15883,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15883,  30,         88) /* PhysicsScript - Create */;

@@ -34,11 +34,11 @@ VALUES (22880,   1, 'Fire Protection Gem') /* Name */
      , (22880,  15, 'A gem of fire protection VI') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22880,   1,   33554809) /* Setup */
-     , (22880,   3,  536870932) /* SoundTable */
-     , (22880,   6,   67111919) /* PaletteBase */
-     , (22880,   7,  268435723) /* ClothingBase */
-     , (22880,   8,  100673902) /* Icon */
-     , (22880,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22880,   1, 0x02000179) /* Setup */
+     , (22880,   3, 0x20000014) /* SoundTable */
+     , (22880,   6, 0x04000BEF) /* PaletteBase */
+     , (22880,   7, 0x1000010B) /* ClothingBase */
+     , (22880,   8, 0x0600296E) /* Icon */
+     , (22880,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22880,  28,       1096) /* Spell - Fire Protection Other VI */
-     , (22880,  36,  234881046) /* MutateFilter */;
+     , (22880,  36, 0x0E000016) /* MutateFilter */;

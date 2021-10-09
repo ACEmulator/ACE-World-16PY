@@ -47,18 +47,18 @@ VALUES (22563,   1, 'Sword Tattoo') /* Name */
      , (22563,  16, 'A vial of tattoo ink infused with the power of crashing blades. When painted on the upper arms the ink will act as armor and will grant the wearer the power of crashing blades.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22563,   1,   33554641) /* Setup */
-     , (22563,   3,  536870932) /* SoundTable */
-     , (22563,   6,   67108990) /* PaletteBase */
-     , (22563,   7,  268436529) /* ClothingBase */
-     , (22563,   8,  100668172) /* Icon */
-     , (22563,  22,  872415275) /* PhysicsEffectTable */
-     , (22563,  50,  100673783) /* IconOverlay */;
+VALUES (22563,   1, 0x020000D1) /* Setup */
+     , (22563,   3, 0x20000014) /* SoundTable */
+     , (22563,   6, 0x0400007E) /* PaletteBase */
+     , (22563,   7, 0x10000431) /* ClothingBase */
+     , (22563,   8, 0x0600130C) /* Icon */
+     , (22563,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (22563,  50, 0x060028F7) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22563,   417,      2)  /* Heavy Weapon Mastery Other VI */
-     , (22563,  1120,      2)  /* Blade Protection Other VI */
-     , (22563,  1337,      2)  /* Strength Other VI */
-     , (22563,  1384,      2)  /* Coordination Other VI */
+VALUES (22563,  1120,      2)  /* Blade Protection Other VI */
+     , (22563,  2694,      2)  /* Moderate Heavy Weapon Aptitude */
+     , (22563,   417,      2)  /* Heavy Weapon Mastery Other VI */
      , (22563,  1485,      2)  /* Impenetrability V */
-     , (22563,  2694,      2)  /* Moderate Heavy Weapon Aptitude */;
+     , (22563,  1384,      2)  /* Coordination Other VI */
+     , (22563,  1337,      2)  /* Strength Other VI */;

@@ -34,9 +34,9 @@ VALUES (23241,   1, 'Large Pink Fish') /* Name */
      , (23241,  20, 'Large Pink Fish') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23241,   1,   33554674) /* Setup */
-     , (23241,   3,  536870932) /* SoundTable */
-     , (23241,   6,   67114188) /* PaletteBase */
-     , (23241,   7,  268436569) /* ClothingBase */
-     , (23241,   8,  100674159) /* Icon */
-     , (23241,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23241,   1, 0x020000F2) /* Setup */
+     , (23241,   3, 0x20000014) /* SoundTable */
+     , (23241,   6, 0x040014CC) /* PaletteBase */
+     , (23241,   7, 0x10000459) /* ClothingBase */
+     , (23241,   8, 0x06002A6F) /* Icon */
+     , (23241,  22, 0x3400002B) /* PhysicsEffectTable */;

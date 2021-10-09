@@ -22,5 +22,5 @@ VALUES (14684,   1, 'Bleak Valley') /* Name */
      , (14684,  16, 'Welcome to Bleak Valley') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14684,   1,   33557463) /* Setup */
-     , (14684,   8,  100668115) /* Icon */;
+VALUES (14684,   1, 0x02000BD7) /* Setup */
+     , (14684,   8, 0x060012D3) /* Icon */;

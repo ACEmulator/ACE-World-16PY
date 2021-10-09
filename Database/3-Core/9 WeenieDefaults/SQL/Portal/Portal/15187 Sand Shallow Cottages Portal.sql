@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15187,   1, 'Sand Shallow Cottages Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15187,   1,   33554867) /* Setup */
-     , (15187,   2,  150994947) /* MotionTable */
-     , (15187,   8,  100667499) /* Icon */;
+VALUES (15187,   1, 0x020001B3) /* Setup */
+     , (15187,   2, 0x09000003) /* MotionTable */
+     , (15187,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15187, 2, 2154758182, 101.837, 120.313, 17.058, -0.4799938, 0, 0, -0.8772718) /* Destination */
-/* @teleloc 0x806F0026 [101.837000 120.313000 17.058000] -0.479994 0.000000 0.000000 -0.877272 */;
+VALUES (15187, 2, 0x806F0026, 101.837, 120.313, 17.058, -0.479994, 0, -0, -0.877272) /* Destination */
+/* @teleloc 0x806F0026 [101.836998 120.313004 17.058001] -0.479994 0.000000 -0.000000 -0.877272 */;

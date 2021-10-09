@@ -51,17 +51,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19959,   1, 'Perfect Dissolving Isparian Staff') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19959,   1,   33556371) /* Setup */
-     , (19959,   3,  536870932) /* SoundTable */
-     , (19959,   6,   67111919) /* PaletteBase */
-     , (19959,   7,  268436384) /* ClothingBase */
-     , (19959,   8,  100672940) /* Icon */
-     , (19959,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19959,   1, 0x02000793) /* Setup */
+     , (19959,   3, 0x20000014) /* SoundTable */
+     , (19959,   6, 0x04000BEF) /* PaletteBase */
+     , (19959,   7, 0x100003A0) /* ClothingBase */
+     , (19959,   8, 0x060025AC) /* Icon */
+     , (19959,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19959,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19959,   520,      2)  /* Acid Protection Self VI */
-     , (19959,  1353,      2)  /* Endurance Self V */
+VALUES (19959,  2693,      2)  /* Moderate Light Weapon Aptitude */
+     , (19959,   520,      2)  /* Acid Protection Self VI */
      , (19959,  1592,      2)  /* Aura of Heart Seeker Self VI */
      , (19959,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (19959,  2693,      2)  /* Moderate Light Weapon Aptitude */;
+     , (19959,  1353,      2)  /* Endurance Self V */;

@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19162,   1, 'Tusker Notch Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19162,   1,   33554867) /* Setup */
-     , (19162,   2,  150994947) /* MotionTable */
-     , (19162,   8,  100667499) /* Icon */;
+VALUES (19162,   1, 0x020001B3) /* Setup */
+     , (19162,   2, 0x09000003) /* MotionTable */
+     , (19162,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19162, 2, 2225864740, 108.657, 89.048, 104.115, -0.5388225, 0, 0, -0.8424193) /* Destination */
-/* @teleloc 0x84AC0024 [108.657000 89.048000 104.115000] -0.538823 0.000000 0.000000 -0.842419 */;
+VALUES (19162, 2, 0x84AC0024, 108.657, 89.048, 104.115, -0.538823, 0, -0, -0.842419) /* Destination */
+/* @teleloc 0x84AC0024 [108.656998 89.047997 104.114998] -0.538823 0.000000 -0.000000 -0.842419 */;

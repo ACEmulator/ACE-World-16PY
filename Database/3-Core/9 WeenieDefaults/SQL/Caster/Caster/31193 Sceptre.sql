@@ -26,7 +26,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31193,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31193,   5,       0) /* ManaRate */
+VALUES (31193,   5,      -0) /* ManaRate */
      , (31193,  29,       1) /* WeaponDefense */
      , (31193, 144,    0.02) /* ManaConversionMod */;
 
@@ -34,14 +34,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31193,   1, 'Sceptre') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31193,   1,   33554704) /* Setup */
-     , (31193,   3,  536870932) /* SoundTable */
-     , (31193,   6,   67111919) /* PaletteBase */
-     , (31193,   7,  268435755) /* ClothingBase */
-     , (31193,   8,  100668792) /* Icon */
-     , (31193,  22,  872415275) /* PhysicsEffectTable */
-     , (31193,  27, 1073742049) /* UseUserAnimation - UseMagicWand */;
+VALUES (31193,   1, 0x02000110) /* Setup */
+     , (31193,   3, 0x20000014) /* SoundTable */
+     , (31193,   6, 0x04000BEF) /* PaletteBase */
+     , (31193,   7, 0x1000012B) /* ClothingBase */
+     , (31193,   8, 0x06001578) /* Icon */
+     , (31193,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (31193,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31193,  1477,      2)  /* Aura of Hermetic Link Self III */
-     , (31193,  1602,      2)  /* Aura of Defender Self III */;
+VALUES (31193,  1602,      2)  /* Aura of Defender Self III */
+     , (31193,  1477,      2)  /* Aura of Hermetic Link Self III */;

@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12515,   1, 'Lugian Meadows Settlement Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12515,   1,   33554867) /* Setup */
-     , (12515,   2,  150994947) /* MotionTable */
-     , (12515,   8,  100667499) /* Icon */;
+VALUES (12515,   1, 0x020001B3) /* Setup */
+     , (12515,   2, 0x09000003) /* MotionTable */
+     , (12515,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12515, 2, 3508666419, 157.493, 56.902, 68.521, -0.8599591, 0, 0, -0.5103629) /* Destination */
-/* @teleloc 0xD1220033 [157.493000 56.902000 68.521000] -0.859959 0.000000 0.000000 -0.510363 */;
+VALUES (12515, 2, 0xD1220033, 157.493, 56.902, 68.521, -0.859959, 0, -0, -0.510363) /* Destination */
+/* @teleloc 0xD1220033 [157.492996 56.902000 68.521004] -0.859959 0.000000 -0.000000 -0.510363 */;

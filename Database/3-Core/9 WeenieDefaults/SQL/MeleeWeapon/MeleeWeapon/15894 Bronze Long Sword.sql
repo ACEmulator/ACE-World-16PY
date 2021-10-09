@@ -38,9 +38,9 @@ VALUES (15894,   1, 'Bronze Long Sword') /* Name */
      , (15894,  33, 'SwordLongStatuePickUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15894,   1,   33554533) /* Setup */
-     , (15894,   3,  536870932) /* SoundTable */
-     , (15894,   6,   67111919) /* PaletteBase */
-     , (15894,   7,  268435769) /* ClothingBase */
-     , (15894,   8,  100669025) /* Icon */
-     , (15894,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15894,   1, 0x02000065) /* Setup */
+     , (15894,   3, 0x20000014) /* SoundTable */
+     , (15894,   6, 0x04000BEF) /* PaletteBase */
+     , (15894,   7, 0x10000139) /* ClothingBase */
+     , (15894,   8, 0x06001661) /* Icon */
+     , (15894,  22, 0x3400002B) /* PhysicsEffectTable */;

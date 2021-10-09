@@ -21,7 +21,7 @@ VALUES (5762,   1,        256) /* ItemType - MissileWeapon */
      , (5762,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (5762,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (5762,  49,         20) /* WeaponTime */
-     , (5762,  51,          2) /* CombatUse - Missle */
+     , (5762,  51,          2) /* CombatUse - Missile */
      , (5762,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (5762, 150,        103) /* HookPlacement - Hook */
      , (5762, 151,          2) /* HookType - Wall */;
@@ -45,9 +45,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5762,   1, 'Snowball') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5762,   1,   33556223) /* Setup */
-     , (5762,   3,  536870932) /* SoundTable */
-     , (5762,   6,   67111928) /* PaletteBase */
-     , (5762,   7,  268435841) /* ClothingBase */
-     , (5762,   8,  100670277) /* Icon */
-     , (5762,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5762,   1, 0x020006FF) /* Setup */
+     , (5762,   3, 0x20000014) /* SoundTable */
+     , (5762,   6, 0x04000BF8) /* PaletteBase */
+     , (5762,   7, 0x10000181) /* ClothingBase */
+     , (5762,   8, 0x06001B45) /* Icon */
+     , (5762,  22, 0x3400002B) /* PhysicsEffectTable */;

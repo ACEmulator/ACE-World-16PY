@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8673,   1, 'Risen Knight') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8673,   1,   33554839) /* Setup */
-     , (8673,   2,  150994967) /* MotionTable */
-     , (8673,   3,  536870934) /* SoundTable */
-     , (8673,   4,  805306368) /* CombatTable */
-     , (8673,   6,   67110722) /* PaletteBase */
-     , (8673,   7,  268435558) /* ClothingBase */
-     , (8673,   8,  100667942) /* Icon */
-     , (8673,  22,  872415272) /* PhysicsEffectTable */
+VALUES (8673,   1, 0x02000197) /* Setup */
+     , (8673,   2, 0x09000017) /* MotionTable */
+     , (8673,   3, 0x20000016) /* SoundTable */
+     , (8673,   4, 0x30000000) /* CombatTable */
+     , (8673,   6, 0x04000742) /* PaletteBase */
+     , (8673,   7, 0x10000066) /* ClothingBase */
+     , (8673,   8, 0x06001226) /* Icon */
+     , (8673,  22, 0x34000028) /* PhysicsEffectTable */
      , (8673,  32,        249) /* WieldedTreasureType - 
                                    Wield 4x Throwing Club (23654) | Probability: 10%
                                    Wield Yumi (23735) | Probability: 10%
@@ -88,12 +88,12 @@ VALUES (8673,   1,   33554839) /* Setup */
                                    Wield 14x Fire Quarrel (4188) | Probability: 100%
                                    Wield Heavy Crossbow (23666) | Probability: 10%
                                    Wield 16x Acid Quarrel (4185) | Probability: 100%
-                                   Wield Katar (23675) | Probability: 15%
-                                   Wield Cestus (23638) | Probability: 15%
-                                   Wield Nekode (23681) | Probability: 15%
-                                   Wield Spear (23697) | Probability: 15%
-                                   Wield Tachi (23701) | Probability: 15%
-                                   Wield Yari (23731) | Probability: 15%
+                                   Wield Katar (23675) | Probability: 15.000001%
+                                   Wield Cestus (23638) | Probability: 15.000001%
+                                   Wield Nekode (23681) | Probability: 15.000001%
+                                   Wield Spear (23697) | Probability: 15.000001%
+                                   Wield Tachi (23701) | Probability: 15.000001%
+                                   Wield Yari (23731) | Probability: 15.000001%
                                    Wield Kite Shield (23685) | Probability: 50%
                                    Wield Tower Shield (95) | Probability: 25% */
      , (8673,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
@@ -167,7 +167,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'As the ancient mage collapses in viscera and rot, it groans, "It was near Anadil''s encampment all along..."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (8673,  3 /* Death */, 0.05999999, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (8673,  3 /* Death */,   0.06, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -175,7 +175,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'In your mind, the ancient mage whispers, "Listen to me, outlander. The Dark Spawn did not seek to make a binding on Aerlinthe... they sought... to break... one." The pale fire in the creature''s eye fades before it can say more.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (8673,  3 /* Death */, 0.06999999, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (8673,  3 /* Death */,   0.07, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

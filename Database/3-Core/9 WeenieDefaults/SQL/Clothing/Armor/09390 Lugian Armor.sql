@@ -41,9 +41,9 @@ VALUES (9390,   1, 'Lugian Armor') /* Name */
      , (9390,  33, 'HauberkLugian') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9390,   1,   33554644) /* Setup */
-     , (9390,   3,  536870932) /* SoundTable */
-     , (9390,   6,   67108990) /* PaletteBase */
-     , (9390,   7,  268436168) /* ClothingBase */
-     , (9390,   8,  100671500) /* Icon */
-     , (9390,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9390,   1, 0x020000D4) /* Setup */
+     , (9390,   3, 0x20000014) /* SoundTable */
+     , (9390,   6, 0x0400007E) /* PaletteBase */
+     , (9390,   7, 0x100002C8) /* ClothingBase */
+     , (9390,   8, 0x0600200C) /* Icon */
+     , (9390,  22, 0x3400002B) /* PhysicsEffectTable */;

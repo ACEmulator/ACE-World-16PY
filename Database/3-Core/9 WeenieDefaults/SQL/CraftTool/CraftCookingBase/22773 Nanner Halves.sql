@@ -28,9 +28,9 @@ VALUES (22773,   1, 'Nanner Halves') /* Name */
      , (22773,  20, 'Nanner Halves') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22773,   1,   33554668) /* Setup */
-     , (22773,   3,  536870932) /* SoundTable */
-     , (22773,   6,   67111092) /* PaletteBase */
-     , (22773,   7,  268436504) /* ClothingBase */
-     , (22773,   8,  100673826) /* Icon */
-     , (22773,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22773,   1, 0x020000EC) /* Setup */
+     , (22773,   3, 0x20000014) /* SoundTable */
+     , (22773,   6, 0x040008B4) /* PaletteBase */
+     , (22773,   7, 0x10000418) /* ClothingBase */
+     , (22773,   8, 0x06002922) /* Icon */
+     , (22773,  22, 0x3400002B) /* PhysicsEffectTable */;

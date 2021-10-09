@@ -29,7 +29,7 @@ VALUES (29218,   1, 'Viamontian Mid-Stakes Gambling Token') /* Name */
      , (29218,  16, 'Good at all Viamontian gambling establishments.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29218,   1,   33557006) /* Setup */
-     , (29218,   3,  536870932) /* SoundTable */
-     , (29218,   8,  100671521) /* Icon */
-     , (29218,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29218,   1, 0x02000A0E) /* Setup */
+     , (29218,   3, 0x20000014) /* SoundTable */
+     , (29218,   8, 0x06002021) /* Icon */
+     , (29218,  22, 0x3400002B) /* PhysicsEffectTable */;

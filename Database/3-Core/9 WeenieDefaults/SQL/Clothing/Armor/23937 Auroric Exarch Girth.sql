@@ -47,22 +47,22 @@ VALUES (23937,   1, 'Auroric Exarch Girth') /* Name */
      , (23937,  16, 'A richly enchanted and ornate girth once worn by the Sentinels of Perfect Light, an order dedicated to aiding Lord Asheron against the darkness.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23937,   1,   33554647) /* Setup */
-     , (23937,   3,  536870932) /* SoundTable */
-     , (23937,   6,   67108990) /* PaletteBase */
-     , (23937,   7,  268436556) /* ClothingBase */
-     , (23937,   8,  100674133) /* Icon */
-     , (23937,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23937,   1, 0x020000D7) /* Setup */
+     , (23937,   3, 0x20000014) /* SoundTable */
+     , (23937,   6, 0x0400007E) /* PaletteBase */
+     , (23937,   7, 0x1000044C) /* ClothingBase */
+     , (23937,   8, 0x06002A55) /* Icon */
+     , (23937,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23937,   211,      2)  /* Mana Renewal Other VI */
-     , (23937,   273,      2)  /* Magic Resistance Other VI */
-     , (23937,  2350,      2)  /* Greater Decay Durance */
-     , (23937,  2351,      2)  /* Greater Consumption Durance */
-     , (23937,  2352,      2)  /* Greater Stasis Durance */
-     , (23937,  2353,      2)  /* Greater Stimulation Durance */
-     , (23937,  2380,      2)  /* Grip of Instrumentality */
+VALUES (23937,  2350,      2)  /* Greater Decay Durance */
      , (23937,  2948,      2)  /* Hieromancer's Great Ward */
+     , (23937,  2380,      2)  /* Grip of Instrumentality */
+     , (23937,   211,      2)  /* Mana Renewal Other VI */
      , (23937,  2960,      2)  /* Greater Bludgeoning Durance */
+     , (23937,  2351,      2)  /* Greater Consumption Durance */
      , (23937,  2961,      2)  /* Greater Piercing Durance */
-     , (23937,  2962,      2)  /* Greater Slashing Durance */;
+     , (23937,   273,      2)  /* Magic Resistance Other VI */
+     , (23937,  2962,      2)  /* Greater Slashing Durance */
+     , (23937,  2352,      2)  /* Greater Stasis Durance */
+     , (23937,  2353,      2)  /* Greater Stimulation Durance */;

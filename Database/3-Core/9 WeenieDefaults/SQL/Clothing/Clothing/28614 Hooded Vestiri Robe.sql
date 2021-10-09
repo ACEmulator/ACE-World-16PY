@@ -34,10 +34,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28614,   1, 'Hooded Vestiri Robe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28614,   1,   33554854) /* Setup */
-     , (28614,   3,  536870932) /* SoundTable */
-     , (28614,   6,   67108990) /* PaletteBase */
-     , (28614,   7,  268435854) /* ClothingBase */
-     , (28614,   8,  100670354) /* Icon */
-     , (28614,  22,  872415275) /* PhysicsEffectTable */
-     , (28614,  36,  234881046) /* MutateFilter */;
+VALUES (28614,   1, 0x020001A6) /* Setup */
+     , (28614,   3, 0x20000014) /* SoundTable */
+     , (28614,   6, 0x0400007E) /* PaletteBase */
+     , (28614,   7, 0x1000018E) /* ClothingBase */
+     , (28614,   8, 0x06001B92) /* Icon */
+     , (28614,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (28614,  36, 0x0E000016) /* MutateFilter */;

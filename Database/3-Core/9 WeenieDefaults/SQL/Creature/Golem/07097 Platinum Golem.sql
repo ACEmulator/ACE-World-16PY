@@ -68,14 +68,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7097,   1, 'Platinum Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7097,   1,   33556426) /* Setup */
-     , (7097,   2,  150995073) /* MotionTable */
-     , (7097,   3,  536870933) /* SoundTable */
-     , (7097,   4,  805306376) /* CombatTable */
-     , (7097,   6,   67112775) /* PaletteBase */
-     , (7097,   7,  268436615) /* ClothingBase */
-     , (7097,   8,  100667940) /* Icon */
-     , (7097,  22,  872415325) /* PhysicsEffectTable */
+VALUES (7097,   1, 0x020007CA) /* Setup */
+     , (7097,   2, 0x09000081) /* MotionTable */
+     , (7097,   3, 0x20000015) /* SoundTable */
+     , (7097,   4, 0x30000008) /* CombatTable */
+     , (7097,   6, 0x04000F47) /* PaletteBase */
+     , (7097,   7, 0x10000487) /* ClothingBase */
+     , (7097,   8, 0x06001224) /* Icon */
+     , (7097,  22, 0x3400005D) /* PhysicsEffectTable */
      , (7097,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -92,17 +92,17 @@ VALUES (7097,   1,   310, 0, 0, 500) /* MaxHealth */
      , (7097,   5,   200, 0, 0, 600) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (7097,  6, 0, 3, 0, 300, 0, 519.148099968476) /* MeleeDefense        Specialized */
-     , (7097,  7, 0, 3, 0, 429, 0, 519.148099968476) /* MissileDefense      Specialized */
-     , (7097, 13, 0, 3, 0, 275, 0, 519.148099968476) /* UnarmedCombat       Specialized */
-     , (7097, 14, 0, 3, 0, 300, 0, 519.148099968476) /* ArcaneLore          Specialized */
-     , (7097, 15, 0, 3, 0, 265, 0, 519.148099968476) /* MagicDefense        Specialized */
-     , (7097, 20, 0, 3, 0, 100, 0, 519.148099968476) /* Deception           Specialized */
-     , (7097, 22, 0, 3, 0,  10, 0, 519.148099968476) /* Jump                Specialized */
-     , (7097, 24, 0, 3, 0,  10, 0, 519.148099968476) /* Run                 Specialized */
-     , (7097, 31, 0, 3, 0, 190, 0, 519.148099968476) /* CreatureEnchantment Specialized */
-     , (7097, 33, 0, 3, 0, 190, 0, 519.148099968476) /* LifeMagic           Specialized */
-     , (7097, 34, 0, 3, 0, 190, 0, 519.148099968476) /* WarMagic            Specialized */;
+VALUES (7097,  6, 0, 3, 0, 300, 0, 519.1480999684758) /* MeleeDefense        Specialized */
+     , (7097,  7, 0, 3, 0, 429, 0, 519.1480999684758) /* MissileDefense      Specialized */
+     , (7097, 13, 0, 3, 0, 275, 0, 519.1480999684758) /* UnarmedCombat       Specialized */
+     , (7097, 14, 0, 3, 0, 300, 0, 519.1480999684758) /* ArcaneLore          Specialized */
+     , (7097, 15, 0, 3, 0, 265, 0, 519.1480999684758) /* MagicDefense        Specialized */
+     , (7097, 20, 0, 3, 0, 100, 0, 519.1480999684758) /* Deception           Specialized */
+     , (7097, 22, 0, 3, 0,  10, 0, 519.1480999684758) /* Jump                Specialized */
+     , (7097, 24, 0, 3, 0,  10, 0, 519.1480999684758) /* Run                 Specialized */
+     , (7097, 31, 0, 3, 0, 190, 0, 519.1480999684758) /* CreatureEnchantment Specialized */
+     , (7097, 33, 0, 3, 0, 190, 0, 519.1480999684758) /* LifeMagic           Specialized */
+     , (7097, 34, 0, 3, 0, 190, 0, 519.1480999684758) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (7097,  0,  4,  0,    0,  300,  240,  240,  240,  300,  300,  300,  300,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -116,33 +116,33 @@ VALUES (7097,  0,  4,  0,    0,  300,  240,  240,  240,  300,  300,  300,  300, 
      , (7097,  8,  4, 130, 0.75,  300,  240,  240,  240,  300,  300,  300,  300,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7097,    69,  2.055)  /* Shock Wave VI */
+VALUES (7097,  1265,   2.01)  /* Drain Mana Other VI */
+     , (7097,    69,  2.055)  /* Shock Wave VI */
+     , (7097,  2763,   2.01)  /* Martyr's Hecatomb IV */
+     , (7097,  1242,   2.01)  /* Drain Health Other VI */
      , (7097,    91,  2.008)  /* Force Bolt VI */
      , (7097,    97,  2.055)  /* Whirling Blade VI */
-     , (7097,   170,      2)  /* Regeneration Self VI */
      , (7097,   234,    2.1)  /* Vulnerability Other VI */
-     , (7097,  1242,   2.01)  /* Drain Health Other VI */
+     , (7097,   170,      2)  /* Regeneration Self VI */
      , (7097,  1254,   2.01)  /* Drain Stamina Other VI */
-     , (7097,  1265,   2.01)  /* Drain Mana Other VI */
      , (7097,  2164,   2.08)  /* Swordsman's Gift */
      , (7097,  2166,   2.08)  /* Tusker's Gift */
-     , (7097,  2174,   2.08)  /* Archer's Gift */
-     , (7097,  2763,   2.01)  /* Martyr's Hecatomb IV */;
+     , (7097,  2174,   2.08)  /* Archer's Gift */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (7097,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (7097, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (7097,  5 /* HeartBeat */,  0.075, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (7097,  5 /* HeartBeat */,  0.075, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (7097,  5 /* HeartBeat */,  0.001, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (7097,  5 /* HeartBeat */,  0.001, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -150,13 +150,13 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'I hear and obey.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (7097,  5 /* HeartBeat */,      1, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (7097,  5 /* HeartBeat */,      1, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  1,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  1,   5 /* Motion */, 0, 1, 0x41000014 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (7097, 16 /* KillTaunt */,   0.15, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

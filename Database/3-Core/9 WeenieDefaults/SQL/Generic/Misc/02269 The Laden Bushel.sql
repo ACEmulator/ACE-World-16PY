@@ -22,7 +22,7 @@ VALUES (2269,   1, 'The Laden Bushel') /* Name */
      , (2269,  16, 'The Laden Bushel') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2269,   1,   33555088) /* Setup */
-     , (2269,   6,   67111092) /* PaletteBase */
-     , (2269,   7,  268435656) /* ClothingBase */
-     , (2269,   8,  100668115) /* Icon */;
+VALUES (2269,   1, 0x02000290) /* Setup */
+     , (2269,   6, 0x040008B4) /* PaletteBase */
+     , (2269,   7, 0x100000C8) /* ClothingBase */
+     , (2269,   8, 0x060012D3) /* Icon */;

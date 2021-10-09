@@ -34,9 +34,9 @@ VALUES (29569,   1, 'Reeshan''s Hide') /* Name */
      , (29569,  33, 'ReeshanBeaten') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29569,   1,   33554817) /* Setup */
-     , (29569,   3,  536870932) /* SoundTable */
-     , (29569,   6,   67111919) /* PaletteBase */
-     , (29569,   7,  268435832) /* ClothingBase */
-     , (29569,   8,  100677163) /* Icon */
-     , (29569,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29569,   1, 0x02000181) /* Setup */
+     , (29569,   3, 0x20000014) /* SoundTable */
+     , (29569,   6, 0x04000BEF) /* PaletteBase */
+     , (29569,   7, 0x10000178) /* ClothingBase */
+     , (29569,   8, 0x0600362B) /* Icon */
+     , (29569,  22, 0x3400002B) /* PhysicsEffectTable */;

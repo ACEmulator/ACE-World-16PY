@@ -31,8 +31,8 @@ VALUES (9030,   1, 'The Second Threshold') /* Name */
      , (9030,  17, 'The door swings wide, and a melodious voice in your mind says, "Beyond lays the second test, more difficult than the previous. Once you jump into the abyss, you may not return this way. You must enter the test grounds again later."') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9030,   1,   33555953) /* Setup */
-     , (9030,   2,  150995078) /* MotionTable */
-     , (9030,   3,  536870947) /* SoundTable */
-     , (9030,   8,  100668183) /* Icon */
-     , (9030,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9030,   1, 0x020005F1) /* Setup */
+     , (9030,   2, 0x09000086) /* MotionTable */
+     , (9030,   3, 0x20000023) /* SoundTable */
+     , (9030,   8, 0x06001317) /* Icon */
+     , (9030,  22, 0x3400002B) /* PhysicsEffectTable */;

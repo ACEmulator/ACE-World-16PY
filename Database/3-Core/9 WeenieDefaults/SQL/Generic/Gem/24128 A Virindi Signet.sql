@@ -24,5 +24,5 @@ VALUES (24128,   1, 'A Virindi Signet') /* Name */
      , (24128,  33, 'PickedUpVirindiSignet') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24128,   1,   33554809) /* Setup */
-     , (24128,   8,  100674253) /* Icon */;
+VALUES (24128,   1, 0x02000179) /* Setup */
+     , (24128,   8, 0x06002ACD) /* Icon */;

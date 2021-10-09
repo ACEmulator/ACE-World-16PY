@@ -22,5 +22,5 @@ VALUES (12606,   1, 'Gaerwel Edge Settlement') /* Name */
      , (12606,  16, 'Welcome to Gaerwel Edge Settlement') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12606,   1,   33557463) /* Setup */
-     , (12606,   8,  100668115) /* Icon */;
+VALUES (12606,   1, 0x02000BD7) /* Setup */
+     , (12606,   8, 0x060012D3) /* Icon */;

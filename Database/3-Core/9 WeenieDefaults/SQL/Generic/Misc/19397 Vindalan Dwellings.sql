@@ -22,5 +22,5 @@ VALUES (19397,   1, 'Vindalan Dwellings') /* Name */
      , (19397,  16, 'Vindalan Dwellings') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19397,   1,   33557689) /* Setup */
-     , (19397,   8,  100667499) /* Icon */;
+VALUES (19397,   1, 0x02000CB9) /* Setup */
+     , (19397,   8, 0x0600106B) /* Icon */;

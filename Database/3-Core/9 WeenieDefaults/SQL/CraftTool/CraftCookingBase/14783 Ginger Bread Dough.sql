@@ -27,9 +27,9 @@ VALUES (14783,   1, 'Ginger Bread Dough') /* Name */
      , (14783,  20, 'Batches of Ginger Bread Dough') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14783,   1,   33555968) /* Setup */
-     , (14783,   3,  536870932) /* SoundTable */
-     , (14783,   6,   67111928) /* PaletteBase */
-     , (14783,   7,  268436334) /* ClothingBase */
-     , (14783,   8,  100672546) /* Icon */
-     , (14783,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14783,   1, 0x02000600) /* Setup */
+     , (14783,   3, 0x20000014) /* SoundTable */
+     , (14783,   6, 0x04000BF8) /* PaletteBase */
+     , (14783,   7, 0x1000036E) /* ClothingBase */
+     , (14783,   8, 0x06002422) /* Icon */
+     , (14783,  22, 0x3400002B) /* PhysicsEffectTable */;

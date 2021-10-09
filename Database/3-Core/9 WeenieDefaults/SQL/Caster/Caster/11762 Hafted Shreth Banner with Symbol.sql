@@ -35,12 +35,12 @@ VALUES (11762,   1, 'Hafted Shreth Banner with Symbol') /* Name */
      , (11762,  16, 'A hafted, symbol tipped banner with a shreth on it.  It is relatively well kept, and the colors seem even and pure.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11762,   1,   33557261) /* Setup */
-     , (11762,   6,   67113338) /* PaletteBase */
-     , (11762,   7,  268436234) /* ClothingBase */
-     , (11762,   8,  100671917) /* Icon */
-     , (11762,  22,  872415275) /* PhysicsEffectTable */
-     , (11762,  27, 1073742049) /* UseUserAnimation - UseMagicWand */;
+VALUES (11762,   1, 0x02000B0D) /* Setup */
+     , (11762,   6, 0x0400117A) /* PaletteBase */
+     , (11762,   7, 0x1000030A) /* ClothingBase */
+     , (11762,   8, 0x060021AD) /* Icon */
+     , (11762,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11762,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11762,   656,      2)  /* Mana Conversion Mastery Self IV */

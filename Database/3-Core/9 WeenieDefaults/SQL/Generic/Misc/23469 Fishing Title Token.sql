@@ -23,7 +23,7 @@ VALUES (23469,   1, 'Fishing Title Token') /* Name */
      , (23469,  15, 'Handing this token to a Tackle Master to get the Title of Fisherman.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23469,   1,   33558276) /* Setup */
-     , (23469,   3,  536870932) /* SoundTable */
-     , (23469,   8,  100674183) /* Icon */
-     , (23469,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23469,   1, 0x02000F04) /* Setup */
+     , (23469,   3, 0x20000014) /* SoundTable */
+     , (23469,   8, 0x06002A87) /* Icon */
+     , (23469,  22, 0x3400002B) /* PhysicsEffectTable */;

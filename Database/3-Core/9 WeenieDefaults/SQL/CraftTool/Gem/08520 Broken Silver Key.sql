@@ -29,7 +29,7 @@ VALUES (8520,   1, 'Broken Silver Key') /* Name */
      , (8520,  16, 'A broken silver key. Underneath the tarnish of years, you can see beautiful engravings which call to mind the trees of Ithaenc island.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8520,   1,   33554784) /* Setup */
-     , (8520,   3,  536870932) /* SoundTable */
-     , (8520,   8,  100670630) /* Icon */
-     , (8520,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8520,   1, 0x02000160) /* Setup */
+     , (8520,   3, 0x20000014) /* SoundTable */
+     , (8520,   8, 0x06001CA6) /* Icon */
+     , (8520,  22, 0x3400002B) /* PhysicsEffectTable */;

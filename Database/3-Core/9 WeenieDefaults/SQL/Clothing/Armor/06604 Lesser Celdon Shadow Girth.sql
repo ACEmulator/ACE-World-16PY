@@ -37,9 +37,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6604,   1, 'Lesser Celdon Shadow Girth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6604,   1,   33554647) /* Setup */
-     , (6604,   3,  536870932) /* SoundTable */
-     , (6604,   6,   67108990) /* PaletteBase */
-     , (6604,   7,  268435843) /* ClothingBase */
-     , (6604,   8,  100670411) /* Icon */
-     , (6604,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6604,   1, 0x020000D7) /* Setup */
+     , (6604,   3, 0x20000014) /* SoundTable */
+     , (6604,   6, 0x0400007E) /* PaletteBase */
+     , (6604,   7, 0x10000183) /* ClothingBase */
+     , (6604,   8, 0x06001BCB) /* Icon */
+     , (6604,  22, 0x3400002B) /* PhysicsEffectTable */;

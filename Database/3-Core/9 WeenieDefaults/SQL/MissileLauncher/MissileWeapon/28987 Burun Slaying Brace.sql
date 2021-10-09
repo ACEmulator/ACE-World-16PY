@@ -16,7 +16,7 @@ VALUES (28987,   1,        256) /* ItemType - MissileWeapon */
      , (28987,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (28987,  49,         30) /* WeaponTime */
      , (28987,  50,          4) /* AmmoType - Atlatl */
-     , (28987,  51,          2) /* CombatUse - Missle */
+     , (28987,  51,          2) /* CombatUse - Missile */
      , (28987,  60,        120) /* WeaponRange */
      , (28987,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28987, 106,        275) /* ItemSpellcraft */
@@ -34,7 +34,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28987,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28987,   5, -0.0333) /* ManaRate */
+VALUES (28987,   5,  -0.033) /* ManaRate */
      , (28987,  26,    24.9) /* MaximumVelocity */
      , (28987,  29,    1.09) /* WeaponDefense */
      , (28987,  39,       1) /* DefaultScale */
@@ -48,14 +48,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28987,   1, 'Burun Slaying Brace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28987,   1,   33558930) /* Setup */
-     , (28987,   3,  536870932) /* SoundTable */
-     , (28987,   8,  100676974) /* Icon */
-     , (28987,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28987,   1, 0x02001192) /* Setup */
+     , (28987,   3, 0x20000014) /* SoundTable */
+     , (28987,   8, 0x0600356E) /* Icon */
+     , (28987,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28987,   243,      2)  /* Invulnerability Other V */
+VALUES (28987,  1604,      2)  /* Aura of Defender Self V */
      , (28987,  1359,      2)  /* Endurance Other V */
-     , (28987,  1604,      2)  /* Aura of Defender Self V */
      , (28987,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (28987,   243,      2)  /* Invulnerability Other V */
      , (28987,  1625,      2)  /* Aura of Swift Killer Self IV */;

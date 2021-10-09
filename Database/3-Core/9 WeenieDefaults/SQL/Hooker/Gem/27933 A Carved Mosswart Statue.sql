@@ -14,7 +14,7 @@ VALUES (27933,   1,       2048) /* ItemType - Gem */
      , (27933,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27933, 150,        103) /* HookPlacement - Hook */
      , (27933, 151,          9) /* HookType - Floor, Yard */
-     , (27933, 197,         32) /* HookGroup */;
+     , (27933, 197,         32) /* HookGroup - SpellTeachingItems */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27933,  22, True ) /* Inscribable */;
@@ -24,12 +24,12 @@ VALUES (27933,   1, 'A Carved Mosswart Statue') /* Name */
      , (27933,  16, 'This stone throbs with magical power. To the trained item mage, the magic within the stone appears to be attuned to the School of the Right Hand. Perhaps if one were attuned to Item Magic in some way, they could benefit from using this stone.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27933,   1,   33558824) /* Setup */
-     , (27933,   3,  536870932) /* SoundTable */
-     , (27933,   6,   67113400) /* PaletteBase */
-     , (27933,   7,  268436845) /* ClothingBase */
-     , (27933,   8,  100676717) /* Icon */
-     , (27933,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27933,   1, 0x02001128) /* Setup */
+     , (27933,   3, 0x20000014) /* SoundTable */
+     , (27933,   6, 0x040011B8) /* PaletteBase */
+     , (27933,   7, 0x1000056D) /* ClothingBase */
+     , (27933,   8, 0x0600346D) /* Icon */
+     , (27933,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (27933,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

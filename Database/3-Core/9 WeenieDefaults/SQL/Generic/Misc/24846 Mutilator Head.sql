@@ -27,9 +27,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24846,   1, 'Mutilator Head') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24846,   1,   33557719) /* Setup */
-     , (24846,   3,  536870932) /* SoundTable */
-     , (24846,   6,   67113236) /* PaletteBase */
-     , (24846,   7,  268436196) /* ClothingBase */
-     , (24846,   8,  100674489) /* Icon */
-     , (24846,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24846,   1, 0x02000CD7) /* Setup */
+     , (24846,   3, 0x20000014) /* SoundTable */
+     , (24846,   6, 0x04001114) /* PaletteBase */
+     , (24846,   7, 0x100002E4) /* ClothingBase */
+     , (24846,   8, 0x06002BB9) /* Icon */
+     , (24846,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -22,5 +22,5 @@ VALUES (4892,   1, 'Note from Aleval') /* Name */
      , (4892,  16, 'This door locked by order of Lord Aleval of Lytelthorpe.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4892,   1,   33555088) /* Setup */
-     , (4892,   8,  100668115) /* Icon */;
+VALUES (4892,   1, 0x02000290) /* Setup */
+     , (4892,   8, 0x060012D3) /* Icon */;

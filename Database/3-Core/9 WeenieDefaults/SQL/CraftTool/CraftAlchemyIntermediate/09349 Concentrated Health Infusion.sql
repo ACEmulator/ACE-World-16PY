@@ -32,9 +32,9 @@ VALUES (9349,   1, 'Concentrated Health Infusion') /* Name */
      , (9349,  20, 'Concentrated Health Infusions') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9349,   1,   33555965) /* Setup */
-     , (9349,   3,  536870932) /* SoundTable */
-     , (9349,   6,   67111919) /* PaletteBase */
-     , (9349,   7,  268435814) /* ClothingBase */
-     , (9349,   8,  100671578) /* Icon */
-     , (9349,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9349,   1, 0x020005FD) /* Setup */
+     , (9349,   3, 0x20000014) /* SoundTable */
+     , (9349,   6, 0x04000BEF) /* PaletteBase */
+     , (9349,   7, 0x10000166) /* ClothingBase */
+     , (9349,   8, 0x0600205A) /* Icon */
+     , (9349,  22, 0x3400002B) /* PhysicsEffectTable */;

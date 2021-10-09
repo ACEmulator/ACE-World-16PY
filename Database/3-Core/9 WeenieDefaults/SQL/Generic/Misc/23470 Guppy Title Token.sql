@@ -23,7 +23,7 @@ VALUES (23470,   1, 'Guppy Title Token') /* Name */
      , (23470,  16, 'Hand this token to a Tackle Master to get the Title of Guppy Master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23470,   1,   33558276) /* Setup */
-     , (23470,   3,  536870932) /* SoundTable */
-     , (23470,   8,  100674183) /* Icon */
-     , (23470,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23470,   1, 0x02000F04) /* Setup */
+     , (23470,   3, 0x20000014) /* SoundTable */
+     , (23470,   8, 0x06002A87) /* Icon */
+     , (23470,  22, 0x3400002B) /* PhysicsEffectTable */;

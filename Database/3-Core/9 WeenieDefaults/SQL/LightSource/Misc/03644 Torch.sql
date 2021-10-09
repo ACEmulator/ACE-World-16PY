@@ -24,6 +24,6 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3644,   1, 'Torch') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3644,   1,   33555053) /* Setup */
-     , (3644,   8,  100667506) /* Icon */
-     , (3644,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3644,   1, 0x0200026D) /* Setup */
+     , (3644,   8, 0x06001072) /* Icon */
+     , (3644,  22, 0x3400002B) /* PhysicsEffectTable */;

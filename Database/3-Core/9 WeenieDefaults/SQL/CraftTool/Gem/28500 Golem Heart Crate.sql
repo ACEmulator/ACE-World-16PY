@@ -33,9 +33,9 @@ VALUES (28500,   1, 'Golem Heart Crate') /* Name */
      , (28500,  16, 'A crate with six empty slots. Each are labeled for one of the different golem hearts that the crate is meant to hold. The first slot appears to be reserved for a Granite Golem heart.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28500,   1,   33554930) /* Setup */
-     , (28500,   3,  536870932) /* SoundTable */
-     , (28500,   6,   67111919) /* PaletteBase */
-     , (28500,   7,  268435723) /* ClothingBase */
-     , (28500,   8,  100676970) /* Icon */
-     , (28500,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28500,   1, 0x020001F2) /* Setup */
+     , (28500,   3, 0x20000014) /* SoundTable */
+     , (28500,   6, 0x04000BEF) /* PaletteBase */
+     , (28500,   7, 0x1000010B) /* ClothingBase */
+     , (28500,   8, 0x0600356A) /* Icon */
+     , (28500,  22, 0x3400002B) /* PhysicsEffectTable */;

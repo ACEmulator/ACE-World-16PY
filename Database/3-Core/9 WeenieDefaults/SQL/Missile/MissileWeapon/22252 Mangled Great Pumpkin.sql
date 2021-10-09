@@ -21,7 +21,7 @@ VALUES (22252,   1,        256) /* ItemType - MissileWeapon */
      , (22252,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (22252,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (22252,  49,         10) /* WeaponTime */
-     , (22252,  51,          2) /* CombatUse - Missle */
+     , (22252,  51,          2) /* CombatUse - Missile */
      , (22252,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (22252, 150,        103) /* HookPlacement - Hook */
      , (22252, 151,         11) /* HookType - Floor, Wall, Yard */;
@@ -44,9 +44,9 @@ VALUES (22252,   1, 'Mangled Great Pumpkin') /* Name */
      , (22252,  15, 'A sad attempt to make something of a pumpkin.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22252,   1,   33556809) /* Setup */
-     , (22252,   3,  536870932) /* SoundTable */
-     , (22252,   6,   67112968) /* PaletteBase */
-     , (22252,   7,  268436045) /* ClothingBase */
-     , (22252,   8,  100671021) /* Icon */
-     , (22252,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22252,   1, 0x02000949) /* Setup */
+     , (22252,   3, 0x20000014) /* SoundTable */
+     , (22252,   6, 0x04001008) /* PaletteBase */
+     , (22252,   7, 0x1000024D) /* ClothingBase */
+     , (22252,   8, 0x06001E2D) /* Icon */
+     , (22252,  22, 0x3400002B) /* PhysicsEffectTable */;

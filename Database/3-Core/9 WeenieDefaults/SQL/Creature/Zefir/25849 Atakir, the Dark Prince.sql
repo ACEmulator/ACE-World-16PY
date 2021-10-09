@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25849,   1, 'Atakir, the Dark Prince') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25849,   1,   33555610) /* Setup */
-     , (25849,   2,  150995049) /* MotionTable */
-     , (25849,   3,  536870975) /* SoundTable */
-     , (25849,   4,  805306396) /* CombatTable */
-     , (25849,   6,   67109305) /* PaletteBase */
-     , (25849,   7,  268436729) /* ClothingBase */
-     , (25849,   8,  100669123) /* Icon */
-     , (25849,  22,  872415279) /* PhysicsEffectTable */
+VALUES (25849,   1, 0x0200049A) /* Setup */
+     , (25849,   2, 0x09000069) /* MotionTable */
+     , (25849,   3, 0x2000003F) /* SoundTable */
+     , (25849,   4, 0x3000001C) /* CombatTable */
+     , (25849,   6, 0x040001B9) /* PaletteBase */
+     , (25849,   7, 0x100004F9) /* ClothingBase */
+     , (25849,   8, 0x060016C3) /* Icon */
+     , (25849,  22, 0x3400002F) /* PhysicsEffectTable */
      , (25849,  35,         32) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -88,17 +88,17 @@ VALUES (25849,   1,  9775, 0, 0, 10000) /* MaxHealth */
      , (25849,   5,  7700, 0, 0, 8000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (25849,  6, 0, 3, 0, 305, 0, 1674.13277655184) /* MeleeDefense        Specialized */
-     , (25849,  7, 0, 3, 0, 432, 0, 1674.13277655184) /* MissileDefense      Specialized */
-     , (25849, 13, 0, 3, 0, 285, 0, 1674.13277655184) /* UnarmedCombat       Specialized */
-     , (25849, 14, 0, 3, 0,  50, 0, 1674.13277655184) /* ArcaneLore          Specialized */
-     , (25849, 15, 0, 3, 0, 325, 0, 1674.13277655184) /* MagicDefense        Specialized */
-     , (25849, 20, 0, 3, 0,  20, 0, 1674.13277655184) /* Deception           Specialized */
-     , (25849, 22, 0, 3, 0,  70, 0, 1674.13277655184) /* Jump                Specialized */
-     , (25849, 24, 0, 3, 0,  10, 0, 1674.13277655184) /* Run                 Specialized */
-     , (25849, 31, 0, 3, 0, 245, 0, 1674.13277655184) /* CreatureEnchantment Specialized */
-     , (25849, 33, 0, 3, 0, 245, 0, 1674.13277655184) /* LifeMagic           Specialized */
-     , (25849, 34, 0, 3, 0, 245, 0, 1674.13277655184) /* WarMagic            Specialized */;
+VALUES (25849,  6, 0, 3, 0, 305, 0, 1674.1327765518354) /* MeleeDefense        Specialized */
+     , (25849,  7, 0, 3, 0, 432, 0, 1674.1327765518354) /* MissileDefense      Specialized */
+     , (25849, 13, 0, 3, 0, 285, 0, 1674.1327765518354) /* UnarmedCombat       Specialized */
+     , (25849, 14, 0, 3, 0,  50, 0, 1674.1327765518354) /* ArcaneLore          Specialized */
+     , (25849, 15, 0, 3, 0, 325, 0, 1674.1327765518354) /* MagicDefense        Specialized */
+     , (25849, 20, 0, 3, 0,  20, 0, 1674.1327765518354) /* Deception           Specialized */
+     , (25849, 22, 0, 3, 0,  70, 0, 1674.1327765518354) /* Jump                Specialized */
+     , (25849, 24, 0, 3, 0,  10, 0, 1674.1327765518354) /* Run                 Specialized */
+     , (25849, 31, 0, 3, 0, 245, 0, 1674.1327765518354) /* CreatureEnchantment Specialized */
+     , (25849, 33, 0, 3, 0, 245, 0, 1674.1327765518354) /* LifeMagic           Specialized */
+     , (25849, 34, 0, 3, 0, 245, 0, 1674.1327765518354) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (25849,  0,  2, 175,  0.5,  500,  700,  400,  750,  300,  475,  375,  325,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
@@ -107,21 +107,21 @@ VALUES (25849,  0,  2, 175,  0.5,  500,  700,  400,  750,  300,  475,  375,  325
      , (25849, 21,  4,  0,    0,  500,  700,  400,  750,  300,  475,  375,  325,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25849,    97,   2.03)  /* Whirling Blade VI */
-     , (25849,   285,   2.02)  /* Magic Yield Other VI */
-     , (25849,  1240,      2)  /* Drain Health Other IV */
-     , (25849,  1264,   2.01)  /* Drain Mana Other V */
-     , (25849,  1492,  2.005)  /* Brittlemail VI */
-     , (25849,  1557,  2.005)  /* Blade Lure VI */
-     , (25849,  1611,  2.005)  /* Lure Blade VI */
-     , (25849,  1621,  2.005)  /* Blood Loather VI */
-     , (25849,  1633,  2.005)  /* Leaden Weapon VI */
-     , (25849,  2073,   2.03)  /* Adja's Intervention */
-     , (25849,  2074,   2.02)  /* Gossamer Flesh */
-     , (25849,  2174,   2.02)  /* Archer's Gift */
-     , (25849,  2318,   2.02)  /* Gravity Well */
+VALUES (25849,  2073,   2.03)  /* Adja's Intervention */
      , (25849,  3000,  2.015)  /* Ire of the Dark Prince */
-     , (25849,  3003,  2.015)  /* Dark Wave */;
+     , (25849,  1611,  2.005)  /* Lure Blade VI */
+     , (25849,  2318,   2.02)  /* Gravity Well */
+     , (25849,  1557,  2.005)  /* Blade Lure VI */
+     , (25849,  1621,  2.005)  /* Blood Loather VI */
+     , (25849,  1492,  2.005)  /* Brittlemail VI */
+     , (25849,  1240,      2)  /* Drain Health Other IV */
+     , (25849,  2074,   2.02)  /* Gossamer Flesh */
+     , (25849,   285,   2.02)  /* Magic Yield Other VI */
+     , (25849,    97,   2.03)  /* Whirling Blade VI */
+     , (25849,  1633,  2.005)  /* Leaden Weapon VI */
+     , (25849,  1264,   2.01)  /* Drain Mana Other V */
+     , (25849,  3003,  2.015)  /* Dark Wave */
+     , (25849,  2174,   2.02)  /* Archer's Gift */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (25849,  94) /* ATTACK_NOTIFICATION_EVENT */

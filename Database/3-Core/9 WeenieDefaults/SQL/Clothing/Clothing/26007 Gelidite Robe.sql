@@ -48,13 +48,13 @@ VALUES (26007,   1, 'Gelidite Robe') /* Name */
      , (26007,  16, 'An icy blue robe, worn by the Gelidites of Frore when they walked the living world. This artifact is several millennia old.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26007,   1,   33554854) /* Setup */
-     , (26007,   3,  536870932) /* SoundTable */
-     , (26007,   6,   67108990) /* PaletteBase */
-     , (26007,   7,  268436779) /* ClothingBase */
-     , (26007,   8,  100670352) /* Icon */
-     , (26007,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (26007,   1, 0x020001A6) /* Setup */
+     , (26007,   3, 0x20000014) /* SoundTable */
+     , (26007,   6, 0x0400007E) /* PaletteBase */
+     , (26007,   7, 0x1000052B) /* ClothingBase */
+     , (26007,   8, 0x06001B90) /* Icon */
+     , (26007,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26007,  1527,      2)  /* Frost Bane V */
-     , (26007,  1551,      2)  /* Flame Bane V */;
+VALUES (26007,  1551,      2)  /* Flame Bane V */
+     , (26007,  1527,      2)  /* Frost Bane V */;

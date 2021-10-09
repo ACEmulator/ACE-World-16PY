@@ -50,15 +50,15 @@ VALUES (27829,   1, 'Bound Singularity Dagger') /* Name */
      , (27829,  15, 'A dagger imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27829,   1,   33558791) /* Setup */
-     , (27829,   3,  536870932) /* SoundTable */
-     , (27829,   6,   67111919) /* PaletteBase */
-     , (27829,   7,  268436240) /* ClothingBase */
-     , (27829,   8,  100676580) /* Icon */
-     , (27829,  22,  872415275) /* PhysicsEffectTable */
-     , (27829,  36,  234881044) /* MutateFilter */;
+VALUES (27829,   1, 0x02001107) /* Setup */
+     , (27829,   3, 0x20000014) /* SoundTable */
+     , (27829,   6, 0x04000BEF) /* PaletteBase */
+     , (27829,   7, 0x10000310) /* ClothingBase */
+     , (27829,   8, 0x060033E4) /* Icon */
+     , (27829,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27829,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27829,  1384,      2)  /* Coordination Other VI */
-     , (27829,  1592,      2)  /* Aura of Heart Seeker Self VI */
-     , (27829,  1616,      2)  /* Aura of Blood Drinker Self VI */;
+VALUES (27829,  1592,      2)  /* Aura of Heart Seeker Self VI */
+     , (27829,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (27829,  1384,      2)  /* Coordination Other VI */;

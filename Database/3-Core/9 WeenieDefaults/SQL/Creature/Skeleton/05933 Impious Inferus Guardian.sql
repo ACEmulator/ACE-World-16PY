@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5933,   1, 'Impious Inferus Guardian') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5933,   1,   33554521) /* Setup */
-     , (5933,   2,  150994981) /* MotionTable */
-     , (5933,   3,  536870942) /* SoundTable */
-     , (5933,   4,  805306368) /* CombatTable */
-     , (5933,   6,   67111266) /* PaletteBase */
-     , (5933,   7,  268435646) /* ClothingBase */
-     , (5933,   8,  100669124) /* Icon */
-     , (5933,  22,  872415269) /* PhysicsEffectTable */
+VALUES (5933,   1, 0x02000059) /* Setup */
+     , (5933,   2, 0x09000025) /* MotionTable */
+     , (5933,   3, 0x2000001E) /* SoundTable */
+     , (5933,   4, 0x30000000) /* CombatTable */
+     , (5933,   6, 0x04000962) /* PaletteBase */
+     , (5933,   7, 0x100000BE) /* ClothingBase */
+     , (5933,   8, 0x060016C4) /* Icon */
+     , (5933,  22, 0x34000025) /* PhysicsEffectTable */
      , (5933,  32,        287) /* WieldedTreasureType - 
                                    Wield Yumi (23736) | Probability: 50%
                                    Wield 16x Greater Fire Arrow (5305) | Probability: 100%
@@ -94,22 +94,22 @@ VALUES (5933,   1,    75, 0, 0, 140) /* MaxHealth */
      , (5933,   5,   100, 0, 0, 250) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (5933,  1, 0, 3, 0, 117, 0, 448.157374837797) /* Axe                 Specialized */
-     , (5933,  2, 0, 3, 0, 160, 0, 448.157374837797) /* Bow                 Specialized */
-     , (5933,  3, 0, 3, 0, 160, 0, 448.157374837797) /* Crossbow            Specialized */
-     , (5933,  4, 0, 3, 0, 123, 0, 448.157374837797) /* Dagger              Specialized */
-     , (5933,  5, 0, 3, 0, 117, 0, 448.157374837797) /* Mace                Specialized */
-     , (5933,  6, 0, 3, 0, 153, 0, 448.157374837797) /* MeleeDefense        Specialized */
-     , (5933,  7, 0, 3, 0, 240, 0, 448.157374837797) /* MissileDefense      Specialized */
-     , (5933,  9, 0, 3, 0, 117, 0, 448.157374837797) /* Spear               Specialized */
-     , (5933, 10, 0, 3, 0, 117, 0, 448.157374837797) /* Staff               Specialized */
-     , (5933, 11, 0, 3, 0, 117, 0, 448.157374837797) /* Sword               Specialized */
-     , (5933, 13, 0, 3, 0, 117, 0, 448.157374837797) /* UnarmedCombat       Specialized */
-     , (5933, 15, 0, 3, 0, 122, 0, 448.157374837797) /* MagicDefense        Specialized */
-     , (5933, 20, 0, 3, 0,  70, 0, 448.157374837797) /* Deception           Specialized */
-     , (5933, 31, 0, 3, 0, 105, 0, 448.157374837797) /* CreatureEnchantment Specialized */
-     , (5933, 33, 0, 3, 0, 105, 0, 448.157374837797) /* LifeMagic           Specialized */
-     , (5933, 34, 0, 3, 0, 105, 0, 448.157374837797) /* WarMagic            Specialized */;
+VALUES (5933,  1, 0, 3, 0, 117, 0, 448.1573748377968) /* Axe                 Specialized */
+     , (5933,  2, 0, 3, 0, 160, 0, 448.1573748377968) /* Bow                 Specialized */
+     , (5933,  3, 0, 3, 0, 160, 0, 448.1573748377968) /* Crossbow            Specialized */
+     , (5933,  4, 0, 3, 0, 123, 0, 448.1573748377968) /* Dagger              Specialized */
+     , (5933,  5, 0, 3, 0, 117, 0, 448.1573748377968) /* Mace                Specialized */
+     , (5933,  6, 0, 3, 0, 153, 0, 448.1573748377968) /* MeleeDefense        Specialized */
+     , (5933,  7, 0, 3, 0, 240, 0, 448.1573748377968) /* MissileDefense      Specialized */
+     , (5933,  9, 0, 3, 0, 117, 0, 448.1573748377968) /* Spear               Specialized */
+     , (5933, 10, 0, 3, 0, 117, 0, 448.1573748377968) /* Staff               Specialized */
+     , (5933, 11, 0, 3, 0, 117, 0, 448.1573748377968) /* Sword               Specialized */
+     , (5933, 13, 0, 3, 0, 117, 0, 448.1573748377968) /* UnarmedCombat       Specialized */
+     , (5933, 15, 0, 3, 0, 122, 0, 448.1573748377968) /* MagicDefense        Specialized */
+     , (5933, 20, 0, 3, 0,  70, 0, 448.1573748377968) /* Deception           Specialized */
+     , (5933, 31, 0, 3, 0, 105, 0, 448.1573748377968) /* CreatureEnchantment Specialized */
+     , (5933, 33, 0, 3, 0, 105, 0, 448.1573748377968) /* LifeMagic           Specialized */
+     , (5933, 34, 0, 3, 0, 105, 0, 448.1573748377968) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (5933,  0,  4,  0,    0,  150,  165,  165,  135,  105,  225,  225,  225,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -123,27 +123,27 @@ VALUES (5933,  0,  4,  0,    0,  150,  165,  165,  135,  105,  225,  225,  225, 
      , (5933,  8,  4, 75, 0.75,  150,  165,  165,  135,  105,  225,  225,  225,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5933,    82,   2.15)  /* Flame Bolt III */
-     , (5933,   115,   2.15)  /* Flame Blast III */
+VALUES (5933,  1465,   2.02)  /* Feeblemind Other III */
+     , (5933,  1393,   2.02)  /* Clumsiness Other III */
+     , (5933,  1441,   2.02)  /* Bafflement Other III */
+     , (5933,  1369,   2.02)  /* Frailty Other III */
+     , (5933,  1417,   2.02)  /* Slowness Other III */
      , (5933,   143,   2.15)  /* Flame Volley III */
      , (5933,  1340,   2.02)  /* Weakness Other III */
-     , (5933,  1369,   2.02)  /* Frailty Other III */
-     , (5933,  1393,   2.02)  /* Clumsiness Other III */
-     , (5933,  1417,   2.02)  /* Slowness Other III */
-     , (5933,  1441,   2.02)  /* Bafflement Other III */
-     , (5933,  1465,   2.02)  /* Feeblemind Other III */;
+     , (5933,    82,   2.15)  /* Flame Bolt III */
+     , (5933,   115,   2.15)  /* Flame Blast III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (5933,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (5933, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (5933,  5 /* HeartBeat */,    0.8, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (5933,  5 /* HeartBeat */,    0.8, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x41000014 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5933, 9,  3687,  0, 0, 0.05, False) /* Create Skeleton's Skull (3687) for ContainTreasure */

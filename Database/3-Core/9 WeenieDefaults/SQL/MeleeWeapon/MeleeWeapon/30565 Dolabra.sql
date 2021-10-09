@@ -36,12 +36,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30565,   1, 'Dolabra') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30565,   1,   33554725) /* Setup */
-     , (30565,   3,  536870932) /* SoundTable */
-     , (30565,   6,   67111919) /* PaletteBase */
-     , (30565,   7,  268435779) /* ClothingBase */
-     , (30565,   8,  100668985) /* Icon */
-     , (30565,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30565,   1, 0x02000125) /* Setup */
+     , (30565,   3, 0x20000014) /* SoundTable */
+     , (30565,   6, 0x04000BEF) /* PaletteBase */
+     , (30565,   7, 0x10000143) /* ClothingBase */
+     , (30565,   8, 0x06001639) /* Icon */
+     , (30565,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30565,  30,         88) /* PhysicsScript - Create */
-     , (30565,  36,  234881053) /* MutateFilter */
-     , (30565,  46,  939524098) /* TsysMutationFilter */;
+     , (30565,  36, 0x0E00001D) /* MutateFilter */
+     , (30565,  46, 0x38000002) /* TsysMutationFilter */;

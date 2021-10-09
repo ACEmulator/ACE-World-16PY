@@ -26,7 +26,7 @@ VALUES (14450,   1, 'Captured Adventurer ') /* Name */
      , (14450,  15, 'Bound and tortured in the Hollow Minions'' device, this poor, emaciated captive is paralyzed with agony.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14450,   1,   33557476) /* Setup */
-     , (14450,   6,   67108990) /* PaletteBase */
-     , (14450,   7,  268436314) /* ClothingBase */
-     , (14450,   8,  100667446) /* Icon */;
+VALUES (14450,   1, 0x02000BE4) /* Setup */
+     , (14450,   6, 0x0400007E) /* PaletteBase */
+     , (14450,   7, 0x1000035A) /* ClothingBase */
+     , (14450,   8, 0x06001036) /* Icon */;

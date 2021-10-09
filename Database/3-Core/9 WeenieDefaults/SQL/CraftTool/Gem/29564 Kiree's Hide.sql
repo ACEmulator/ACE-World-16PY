@@ -34,9 +34,9 @@ VALUES (29564,   1, 'Kiree''s Hide') /* Name */
      , (29564,  33, 'KireeBeaten') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29564,   1,   33554817) /* Setup */
-     , (29564,   3,  536870932) /* SoundTable */
-     , (29564,   6,   67111919) /* PaletteBase */
-     , (29564,   7,  268435832) /* ClothingBase */
-     , (29564,   8,  100677164) /* Icon */
-     , (29564,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29564,   1, 0x02000181) /* Setup */
+     , (29564,   3, 0x20000014) /* SoundTable */
+     , (29564,   6, 0x04000BEF) /* PaletteBase */
+     , (29564,   7, 0x10000178) /* ClothingBase */
+     , (29564,   8, 0x0600362C) /* Icon */
+     , (29564,  22, 0x3400002B) /* PhysicsEffectTable */;

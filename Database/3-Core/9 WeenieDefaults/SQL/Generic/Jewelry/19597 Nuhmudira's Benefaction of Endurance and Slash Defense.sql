@@ -41,15 +41,15 @@ VALUES (19597,   1, 'Nuhmudira''s Benefaction of Endurance and Slash Defense') /
      , (19597,  16, 'A green gorget, crafted from a strong metal, imbued with an elixir of vigor and elixir of crystal skin. As you hold the gorget in your hand you feel a soft vibration.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19597,   1,   33554687) /* Setup */
-     , (19597,   3,  536870932) /* SoundTable */
-     , (19597,   6,   67111919) /* PaletteBase */
-     , (19597,   7,  268436388) /* ClothingBase */
-     , (19597,   8,  100668632) /* Icon */
-     , (19597,  22,  872415275) /* PhysicsEffectTable */
-     , (19597,  36,  234881046) /* MutateFilter */;
+VALUES (19597,   1, 0x020000FF) /* Setup */
+     , (19597,   3, 0x20000014) /* SoundTable */
+     , (19597,   6, 0x04000BEF) /* PaletteBase */
+     , (19597,   7, 0x100003A4) /* ClothingBase */
+     , (19597,   8, 0x060014D8) /* Icon */
+     , (19597,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (19597,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19597,  1117,      2)  /* Blade Protection Other III */
-     , (19597,  1357,      2)  /* Endurance Other III */
+VALUES (19597,  1357,      2)  /* Endurance Other III */
+     , (19597,  1117,      2)  /* Blade Protection Other III */
      , (19597,  2668,      2)  /* Nuhmudiras Benefaction */;

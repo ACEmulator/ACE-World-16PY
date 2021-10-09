@@ -50,15 +50,15 @@ VALUES (24028,   1, 'Crescent Moons') /* Name */
      , (24028,  15, 'This weapon was wielded by the Sentinels of Perfect Light in their stance against the darkness after the return of Asheron to the Knorr Lyceum. The blades have been crafted to represent the crescent shape of Alb''arel and Rez''arel.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24028,   1,   33558267) /* Setup */
-     , (24028,   3,  536870932) /* SoundTable */
-     , (24028,   8,  100674150) /* Icon */
-     , (24028,  22,  872415275) /* PhysicsEffectTable */
-     , (24028,  36,  234881044) /* MutateFilter */;
+VALUES (24028,   1, 0x02000EFB) /* Setup */
+     , (24028,   3, 0x20000014) /* SoundTable */
+     , (24028,   8, 0x06002A66) /* Icon */
+     , (24028,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24028,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24028,  1337,      2)  /* Strength Other VI */
-     , (24028,  1591,      2)  /* Aura of Heart Seeker Self V */
-     , (24028,  1605,      2)  /* Aura of Defender Self VI */
+VALUES (24028,  1605,      2)  /* Aura of Defender Self VI */
+     , (24028,  2949,      2)  /* Lightbringer's Way */
+     , (24028,  1337,      2)  /* Strength Other VI */
      , (24028,  1624,      2)  /* Aura of Swift Killer Self III */
-     , (24028,  2949,      2)  /* Lightbringer's Way */;
+     , (24028,  1591,      2)  /* Aura of Heart Seeker Self V */;

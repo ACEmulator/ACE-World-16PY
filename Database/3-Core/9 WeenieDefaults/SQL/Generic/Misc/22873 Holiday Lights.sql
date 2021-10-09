@@ -29,7 +29,7 @@ VALUES (22873,   1, 'Holiday Lights') /* Name */
      , (22873,  15, 'A small reflective bauble with dancing colored lights around it. Don''t drop it unless you want to lose it. This item will quickly disappear if dropped on the ground -- it will even disappear from inside a pack, if that pack is dropped on the ground.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22873,   1,   33558157) /* Setup */
-     , (22873,   3,  536870932) /* SoundTable */
-     , (22873,   8,  100673908) /* Icon */
-     , (22873,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22873,   1, 0x02000E8D) /* Setup */
+     , (22873,   3, 0x20000014) /* SoundTable */
+     , (22873,   8, 0x06002974) /* Icon */
+     , (22873,  22, 0x3400002B) /* PhysicsEffectTable */;

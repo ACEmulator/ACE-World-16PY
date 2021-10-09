@@ -30,9 +30,9 @@ VALUES (23364,   1, 'Deteriorated Aegis') /* Name */
      , (23364,  33, 'DeterioratedAegisPickup') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23364,   1,   33555654) /* Setup */
-     , (23364,   3,  536870932) /* SoundTable */
-     , (23364,   6,   67111919) /* PaletteBase */
-     , (23364,   7,  268435732) /* ClothingBase */
-     , (23364,   8,  100668151) /* Icon */
-     , (23364,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23364,   1, 0x020004C6) /* Setup */
+     , (23364,   3, 0x20000014) /* SoundTable */
+     , (23364,   6, 0x04000BEF) /* PaletteBase */
+     , (23364,   7, 0x10000114) /* ClothingBase */
+     , (23364,   8, 0x060012F7) /* Icon */
+     , (23364,  22, 0x3400002B) /* PhysicsEffectTable */;

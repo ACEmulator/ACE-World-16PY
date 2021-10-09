@@ -25,7 +25,7 @@ VALUES (1582,   1, 'Scroll of Regenerate Stamina') /* Name */
      , (1582,  16, 'When learned, this spell increases the rate at which the caster regains Stamina by 25%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1582,   1,   33554826) /* Setup */
-     , (1582,   8,  100676940) /* Icon */
-     , (1582,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1582,   1, 0x0200018A) /* Setup */
+     , (1582,   8, 0x0600354C) /* Icon */
+     , (1582,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1582,  28,         54) /* Spell - Rejuvenation Self I */;

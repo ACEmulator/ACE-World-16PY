@@ -51,16 +51,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20944,   1, 'Perfect Shimmering Isparian Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20944,   1,   33556260) /* Setup */
-     , (20944,   3,  536870932) /* SoundTable */
-     , (20944,   6,   67111919) /* PaletteBase */
-     , (20944,   7,  268436424) /* ClothingBase */
-     , (20944,   8,  100673208) /* Icon */
-     , (20944,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20944,   1, 0x02000724) /* Setup */
+     , (20944,   3, 0x20000014) /* SoundTable */
+     , (20944,   6, 0x04000BEF) /* PaletteBase */
+     , (20944,   7, 0x100003C8) /* ClothingBase */
+     , (20944,   8, 0x060026B8) /* Icon */
+     , (20944,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20944,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20944,  1312,      2)  /* Armor Self VI */
-     , (20944,  1592,      2)  /* Aura of Heart Seeker Self VI */
+VALUES (20944,  1592,      2)  /* Aura of Heart Seeker Self VI */
      , (20944,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (20944,  2692,      2)  /* Moderate Light Weapon Aptitude */;
+     , (20944,  2692,      2)  /* Moderate Light Weapon Aptitude */
+     , (20944,  1312,      2)  /* Armor Self VI */;

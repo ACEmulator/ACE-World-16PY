@@ -24,7 +24,7 @@ VALUES (20615,   1, 'Scroll of Rushed Recovery') /* Name */
      , (20615,  15, 'When learned, this spell drains one-half of the caster''s Stamina and gives 175% of that to his/her Health.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20615,   1,   33554826) /* Setup */
-     , (20615,   8,  100676946) /* Icon */
-     , (20615,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20615,   1, 0x0200018A) /* Setup */
+     , (20615,   8, 0x06003552) /* Icon */
+     , (20615,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20615,  28,       2343) /* Spell - Rushed Recovery */;

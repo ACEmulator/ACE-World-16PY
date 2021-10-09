@@ -32,8 +32,8 @@ VALUES (22918,   1, 'Aerbax''s Anteroom') /* Name */
      , (22918,  14, 'Use this item to open it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22918,   1,   33555953) /* Setup */
-     , (22918,   2,  150995078) /* MotionTable */
-     , (22918,   3,  536870946) /* SoundTable */
-     , (22918,   8,  100668183) /* Icon */
-     , (22918,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22918,   1, 0x020005F1) /* Setup */
+     , (22918,   2, 0x09000086) /* MotionTable */
+     , (22918,   3, 0x20000022) /* SoundTable */
+     , (22918,   8, 0x06001317) /* Icon */
+     , (22918,  22, 0x3400002B) /* PhysicsEffectTable */;

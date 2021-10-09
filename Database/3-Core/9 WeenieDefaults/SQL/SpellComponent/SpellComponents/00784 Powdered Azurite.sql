@@ -26,10 +26,10 @@ VALUES (784,   1, 'Powdered Azurite') /* Name */
      , (784,  20, 'Powdered Azurites') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (784,   1,   33555208) /* Setup */
-     , (784,   3,  536870932) /* SoundTable */
-     , (784,   6,   67111919) /* PaletteBase */
-     , (784,   7,  268435778) /* ClothingBase */
-     , (784,   8,  100669703) /* Icon */
-     , (784,  22,  872415275) /* PhysicsEffectTable */
+VALUES (784,   1, 0x02000308) /* Setup */
+     , (784,   3, 0x20000014) /* SoundTable */
+     , (784,   6, 0x04000BEF) /* PaletteBase */
+     , (784,   7, 0x10000142) /* ClothingBase */
+     , (784,   8, 0x06001907) /* Icon */
+     , (784,  22, 0x3400002B) /* PhysicsEffectTable */
      , (784,  29,         27) /* SpellComponent */;

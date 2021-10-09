@@ -26,10 +26,10 @@ VALUES (785,   1, 'Powdered Bloodstone') /* Name */
      , (785,  20, 'Powdered Bloodstones') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (785,   1,   33555208) /* Setup */
-     , (785,   3,  536870932) /* SoundTable */
-     , (785,   6,   67111919) /* PaletteBase */
-     , (785,   7,  268435778) /* ClothingBase */
-     , (785,   8,  100668379) /* Icon */
-     , (785,  22,  872415275) /* PhysicsEffectTable */
+VALUES (785,   1, 0x02000308) /* Setup */
+     , (785,   3, 0x20000014) /* SoundTable */
+     , (785,   6, 0x04000BEF) /* PaletteBase */
+     , (785,   7, 0x10000142) /* ClothingBase */
+     , (785,   8, 0x060013DB) /* Icon */
+     , (785,  22, 0x3400002B) /* PhysicsEffectTable */
      , (785,  29,         28) /* SpellComponent */;

@@ -44,9 +44,9 @@ VALUES (7995,   1, 'Crystal-tip Arrow') /* Name */
      , (7995,  16, 'A crystal-tipped arrow that appears to do fire damage.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7995,   1,   33556747) /* Setup */
-     , (7995,   3,  536870932) /* SoundTable */
-     , (7995,   6,   67111919) /* PaletteBase */
-     , (7995,   7,  268436303) /* ClothingBase */
-     , (7995,   8,  100670968) /* Icon */
-     , (7995,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7995,   1, 0x0200090B) /* Setup */
+     , (7995,   3, 0x20000014) /* SoundTable */
+     , (7995,   6, 0x04000BEF) /* PaletteBase */
+     , (7995,   7, 0x1000034F) /* ClothingBase */
+     , (7995,   8, 0x06001DF8) /* Icon */
+     , (7995,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -19,7 +19,7 @@ VALUES (20101,   1,        256) /* ItemType - MissileWeapon */
      , (20101,  48,          2) /* WeaponSkill - Bow */
      , (20101,  49,         40) /* WeaponTime */
      , (20101,  50,          1) /* AmmoType - Arrow */
-     , (20101,  51,          2) /* CombatUse - Missle */
+     , (20101,  51,          2) /* CombatUse - Missile */
      , (20101,  52,          2) /* ParentLocation - LeftHand */
      , (20101,  53,          3) /* PlacementPosition - LeftHand */
      , (20101,  60,        175) /* WeaponRange */
@@ -50,17 +50,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20101,   1, 'Superb Flaming Isparian Bow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20101,   1,   33557759) /* Setup */
-     , (20101,   3,  536870932) /* SoundTable */
-     , (20101,   6,   67111919) /* PaletteBase */
-     , (20101,   7,  268436394) /* ClothingBase */
-     , (20101,   8,  100673016) /* Icon */
-     , (20101,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20101,   1, 0x02000CFF) /* Setup */
+     , (20101,   3, 0x20000014) /* SoundTable */
+     , (20101,   6, 0x04000BEF) /* PaletteBase */
+     , (20101,   7, 0x100003AA) /* ClothingBase */
+     , (20101,   8, 0x060025F8) /* Icon */
+     , (20101,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20101,  37,          2) /* ItemSkillLimit - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20101,  1092,      2)  /* Fire Protection Self IV */
-     , (20101,  1329,      2)  /* Strength Self III */
      , (20101,  1604,      2)  /* Aura of Defender Self V */
      , (20101,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (20101,  2540,      2)  /* Minor Missile Weapon Aptitude */;
+     , (20101,  2540,      2)  /* Minor Missile Weapon Aptitude */
+     , (20101,  1329,      2)  /* Strength Self III */;

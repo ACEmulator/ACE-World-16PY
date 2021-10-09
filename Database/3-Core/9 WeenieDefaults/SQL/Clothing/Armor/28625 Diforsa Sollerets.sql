@@ -40,11 +40,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28625,   1, 'Diforsa Sollerets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28625,   1,   33554654) /* Setup */
-     , (28625,   3,  536870932) /* SoundTable */
-     , (28625,   6,   67108990) /* PaletteBase */
-     , (28625,   7,  268435540) /* ClothingBase */
-     , (28625,   8,  100667309) /* Icon */
-     , (28625,  22,  872415275) /* PhysicsEffectTable */
-     , (28625,  36,  234881042) /* MutateFilter */
-     , (28625,  46,  939524146) /* TsysMutationFilter */;
+VALUES (28625,   1, 0x020000DE) /* Setup */
+     , (28625,   3, 0x20000014) /* SoundTable */
+     , (28625,   6, 0x0400007E) /* PaletteBase */
+     , (28625,   7, 0x10000054) /* ClothingBase */
+     , (28625,   8, 0x06000FAD) /* Icon */
+     , (28625,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (28625,  36, 0x0E000012) /* MutateFilter */
+     , (28625,  46, 0x38000032) /* TsysMutationFilter */;

@@ -18,7 +18,7 @@ VALUES (7310,   1,        256) /* ItemType - MissileWeapon */
      , (7310,  48,          3) /* WeaponSkill - Crossbow */
      , (7310,  49,         20) /* WeaponTime */
      , (7310,  50,          2) /* AmmoType - Bolt */
-     , (7310,  51,          2) /* CombatUse - Missle */
+     , (7310,  51,          2) /* CombatUse - Missile */
      , (7310,  52,          2) /* ParentLocation - LeftHand */
      , (7310,  53,          3) /* PlacementPosition - LeftHand */
      , (7310,  60,        192) /* WeaponRange */
@@ -39,9 +39,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7310,   1, 'Heavy Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7310,   1,   33554732) /* Setup */
-     , (7310,   3,  536870932) /* SoundTable */
-     , (7310,   6,   67111919) /* PaletteBase */
-     , (7310,   7,  268435762) /* ClothingBase */
-     , (7310,   8,  100668835) /* Icon */
-     , (7310,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7310,   1, 0x0200012C) /* Setup */
+     , (7310,   3, 0x20000014) /* SoundTable */
+     , (7310,   6, 0x04000BEF) /* PaletteBase */
+     , (7310,   7, 0x10000132) /* ClothingBase */
+     , (7310,   8, 0x060015A3) /* Icon */
+     , (7310,  22, 0x3400002B) /* PhysicsEffectTable */;

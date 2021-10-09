@@ -28,9 +28,9 @@ VALUES (9413,   1, 'Dread Mattekar Paw') /* Name */
      , (9413,  16, 'A Large Dread Mattekar paw.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9413,   1,   33557018) /* Setup */
-     , (9413,   3,  536870932) /* SoundTable */
-     , (9413,   6,   67111893) /* PaletteBase */
-     , (9413,   7,  268436173) /* ClothingBase */
-     , (9413,   8,  100671518) /* Icon */
-     , (9413,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9413,   1, 0x02000A1A) /* Setup */
+     , (9413,   3, 0x20000014) /* SoundTable */
+     , (9413,   6, 0x04000BD5) /* PaletteBase */
+     , (9413,   7, 0x100002CD) /* ClothingBase */
+     , (9413,   8, 0x0600201E) /* Icon */
+     , (9413,  22, 0x3400002B) /* PhysicsEffectTable */;

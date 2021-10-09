@@ -38,10 +38,10 @@ VALUES (12739,   1, 'Training Dagger') /* Name */
      , (12739,  15, 'A basic dagger forged in the Strathelar Training Academy. This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12739,   1,   33554735) /* Setup */
-     , (12739,   3,  536870932) /* SoundTable */
-     , (12739,   6,   67111919) /* PaletteBase */
-     , (12739,   7,  268435783) /* ClothingBase */
-     , (12739,   8,  100668875) /* Icon */
-     , (12739,  22,  872415275) /* PhysicsEffectTable */
-     , (12739,  36,  234881044) /* MutateFilter */;
+VALUES (12739,   1, 0x0200012F) /* Setup */
+     , (12739,   3, 0x20000014) /* SoundTable */
+     , (12739,   6, 0x04000BEF) /* PaletteBase */
+     , (12739,   7, 0x10000147) /* ClothingBase */
+     , (12739,   8, 0x060015CB) /* Icon */
+     , (12739,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (12739,  36, 0x0E000014) /* MutateFilter */;

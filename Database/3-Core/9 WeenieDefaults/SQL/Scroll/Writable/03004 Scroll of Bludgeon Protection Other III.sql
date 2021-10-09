@@ -25,7 +25,7 @@ VALUES (3004,   1, 'Scroll of Bludgeon Protection Other III') /* Name */
      , (3004,  16, 'When learned, this spell reduces damage the target takes from Bludgeoning by 33%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3004,   1,   33554826) /* Setup */
-     , (3004,   8,  100676952) /* Icon */
-     , (3004,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3004,   1, 0x0200018A) /* Setup */
+     , (3004,   8, 0x06003558) /* Icon */
+     , (3004,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3004,  28,       1026) /* Spell - Bludgeoning Protection Other III */;

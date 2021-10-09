@@ -29,5 +29,5 @@ VALUES (28900,   1, 'Powdered Iron') /* Name */
      , (28900,  20, 'Powdered Iron') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28900,   1,   33557505) /* Setup */
-     , (28900,   8,  100677043) /* Icon */;
+VALUES (28900,   1, 0x02000C01) /* Setup */
+     , (28900,   8, 0x060035B3) /* Icon */;

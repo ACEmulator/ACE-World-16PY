@@ -34,15 +34,15 @@ VALUES (25540,   1, 'Cabalist Charm Necklace') /* Name */
      , (25540,  16, 'A powerful charm crafted by Drudge Cabalists. The magic within the necklace is now freed.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25540,   1,   33554683) /* Setup */
-     , (25540,   3,  536870932) /* SoundTable */
-     , (25540,   6,   67111919) /* PaletteBase */
-     , (25540,   7,  268435832) /* ClothingBase */
-     , (25540,   8,  100674480) /* Icon */
-     , (25540,  22,  872415275) /* PhysicsEffectTable */
-     , (25540,  36,  234881046) /* MutateFilter */;
+VALUES (25540,   1, 0x020000FB) /* Setup */
+     , (25540,   3, 0x20000014) /* SoundTable */
+     , (25540,   6, 0x04000BEF) /* PaletteBase */
+     , (25540,   7, 0x10000178) /* ClothingBase */
+     , (25540,   8, 0x06002BB0) /* Icon */
+     , (25540,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (25540,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25540,  2012,      2)  /* Wizard's Intellect */
-     , (25540,  2581,      2)  /* Minor Focus */
-     , (25540,  2584,      2)  /* Minor Willpower */;
+VALUES (25540,  2581,      2)  /* Minor Focus */
+     , (25540,  2584,      2)  /* Minor Willpower */
+     , (25540,  2012,      2)  /* Wizard's Intellect */;

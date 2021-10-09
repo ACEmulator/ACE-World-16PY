@@ -41,12 +41,12 @@ VALUES (25374,   1, 'Energy Crystal') /* Name */
      , (25374,  16, 'Teeming with power this triangle seems to be carved perfectly, if it was carved at all. Instead it seems to be a perfect pyramid of power.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25374,   1,   33557374) /* Setup */
-     , (25374,   3,  536870932) /* SoundTable */
-     , (25374,   8,  100672184) /* Icon */
-     , (25374,  22,  872415275) /* PhysicsEffectTable */
-     , (25374,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
-     , (25374,  36,  234881046) /* MutateFilter */;
+VALUES (25374,   1, 0x02000B7E) /* Setup */
+     , (25374,   3, 0x20000014) /* SoundTable */
+     , (25374,   8, 0x060022B8) /* Icon */
+     , (25374,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (25374,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
+     , (25374,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25374,   561,      2)  /* Creature Enchantment Mastery Self V */

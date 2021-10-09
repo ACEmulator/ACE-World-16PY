@@ -41,11 +41,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24891,   1, 'Greater Olthoi Breastplate') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24891,   1,   33554642) /* Setup */
-     , (24891,   3,  536870932) /* SoundTable */
-     , (24891,   6,   67108990) /* PaletteBase */
-     , (24891,   7,  268436658) /* ClothingBase */
-     , (24891,   8,  100674611) /* Icon */
-     , (24891,  22,  872415275) /* PhysicsEffectTable */
-     , (24891,  36,  234881046) /* MutateFilter */
-     , (24891,  46,  939524130) /* TsysMutationFilter */;
+VALUES (24891,   1, 0x020000D2) /* Setup */
+     , (24891,   3, 0x20000014) /* SoundTable */
+     , (24891,   6, 0x0400007E) /* PaletteBase */
+     , (24891,   7, 0x100004B2) /* ClothingBase */
+     , (24891,   8, 0x06002C33) /* Icon */
+     , (24891,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24891,  36, 0x0E000016) /* MutateFilter */
+     , (24891,  46, 0x38000022) /* TsysMutationFilter */;

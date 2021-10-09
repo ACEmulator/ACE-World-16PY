@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15172,   1, 'Mattekar Slopes Cottages Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15172,   1,   33554867) /* Setup */
-     , (15172,   2,  150994947) /* MotionTable */
-     , (15172,   8,  100667499) /* Icon */;
+VALUES (15172,   1, 0x020001B3) /* Setup */
+     , (15172,   2, 0x09000003) /* MotionTable */
+     , (15172,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15172, 2, 2770927660, 136.508, 89.074, 183.562, -0.9663401, 0, 0, -0.2572678) /* Destination */
-/* @teleloc 0xA529002C [136.508000 89.074000 183.562000] -0.966340 0.000000 0.000000 -0.257268 */;
+VALUES (15172, 2, 0xA529002C, 136.508, 89.074, 183.562, -0.96634, 0, -0, -0.257268) /* Destination */
+/* @teleloc 0xA529002C [136.507996 89.073997 183.561996] -0.966340 0.000000 -0.000000 -0.257268 */;

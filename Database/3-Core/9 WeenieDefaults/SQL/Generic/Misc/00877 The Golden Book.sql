@@ -22,7 +22,7 @@ VALUES (877,   1, 'The Golden Book') /* Name */
      , (877,  16, 'The Golden Book') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (877,   1,   33555594) /* Setup */
-     , (877,   6,   67111782) /* PaletteBase */
-     , (877,   7,  268435692) /* ClothingBase */
-     , (877,   8,  100668115) /* Icon */;
+VALUES (877,   1, 0x0200048A) /* Setup */
+     , (877,   6, 0x04000B66) /* PaletteBase */
+     , (877,   7, 0x100000EC) /* ClothingBase */
+     , (877,   8, 0x060012D3) /* Icon */;

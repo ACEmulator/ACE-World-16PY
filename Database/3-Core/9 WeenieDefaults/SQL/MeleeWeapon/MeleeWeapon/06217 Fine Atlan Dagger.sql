@@ -39,9 +39,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6217,   1, 'Fine Atlan Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6217,   1,   33556257) /* Setup */
-     , (6217,   3,  536870932) /* SoundTable */
-     , (6217,   6,   67111919) /* PaletteBase */
-     , (6217,   7,  268435876) /* ClothingBase */
-     , (6217,   8,  100670519) /* Icon */
-     , (6217,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6217,   1, 0x02000721) /* Setup */
+     , (6217,   3, 0x20000014) /* SoundTable */
+     , (6217,   6, 0x04000BEF) /* PaletteBase */
+     , (6217,   7, 0x100001A4) /* ClothingBase */
+     , (6217,   8, 0x06001C37) /* Icon */
+     , (6217,  22, 0x3400002B) /* PhysicsEffectTable */;

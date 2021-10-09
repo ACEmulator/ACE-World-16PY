@@ -40,11 +40,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22216,   1, 'Staff of Nullification') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22216,   1,   33555407) /* Setup */
-     , (22216,   3,  536870932) /* SoundTable */
-     , (22216,   6,   67111919) /* PaletteBase */
-     , (22216,   7,  268435795) /* ClothingBase */
-     , (22216,   8,  100667602) /* Icon */
-     , (22216,  22,  872415275) /* PhysicsEffectTable */
-     , (22216,  36,  234881053) /* MutateFilter */
-     , (22216,  46,  939524110) /* TsysMutationFilter */;
+VALUES (22216,   1, 0x020003CF) /* Setup */
+     , (22216,   3, 0x20000014) /* SoundTable */
+     , (22216,   6, 0x04000BEF) /* PaletteBase */
+     , (22216,   7, 0x10000153) /* ClothingBase */
+     , (22216,   8, 0x060010D2) /* Icon */
+     , (22216,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (22216,  36, 0x0E00001D) /* MutateFilter */
+     , (22216,  46, 0x3800000E) /* TsysMutationFilter */;

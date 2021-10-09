@@ -16,7 +16,7 @@ VALUES (150,   1,        256) /* ItemType - MissileWeapon */
      , (150,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (150,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (150,  49,         10) /* WeaponTime */
-     , (150,  51,          2) /* CombatUse - Missle */
+     , (150,  51,          2) /* CombatUse - Missile */
      , (150,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (150, 150,        103) /* HookPlacement - Hook */
      , (150, 151,          1) /* HookType - Floor */
@@ -40,10 +40,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (150,   1, 'Flagon') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (150,   1,   33555093) /* Setup */
-     , (150,   3,  536871012) /* SoundTable */
-     , (150,   6,   67111092) /* PaletteBase */
-     , (150,   7,  268435743) /* ClothingBase */
-     , (150,   8,  100668772) /* Icon */
-     , (150,  22,  872415275) /* PhysicsEffectTable */
-     , (150,  36,  234881046) /* MutateFilter */;
+VALUES (150,   1, 0x02000295) /* Setup */
+     , (150,   3, 0x20000064) /* SoundTable */
+     , (150,   6, 0x040008B4) /* PaletteBase */
+     , (150,   7, 0x1000011F) /* ClothingBase */
+     , (150,   8, 0x06001564) /* Icon */
+     , (150,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (150,  36, 0x0E000016) /* MutateFilter */;

@@ -47,16 +47,16 @@ VALUES (11941,   1, 'Assault Axe') /* Name */
      , (11941,  16, 'A axe given as a reward for defeating the leaders of the Reedshark Clan. The blade seems especially sharp.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11941,   1,   33557200) /* Setup */
-     , (11941,   3,  536870932) /* SoundTable */
-     , (11941,   6,   67111919) /* PaletteBase */
-     , (11941,   7,  268436199) /* ClothingBase */
-     , (11941,   8,  100671742) /* Icon */
-     , (11941,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11941,   1, 0x02000AD0) /* Setup */
+     , (11941,   3, 0x20000014) /* SoundTable */
+     , (11941,   6, 0x04000BEF) /* PaletteBase */
+     , (11941,   7, 0x100002E7) /* ClothingBase */
+     , (11941,   8, 0x060020FE) /* Icon */
+     , (11941,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11941,  30,         88) /* PhysicsScript - Create */
      , (11941,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11941,  1400,      2)  /* Quickness Self IV */
-     , (11941,  1590,      2)  /* Aura of Heart Seeker Self IV */
-     , (11941,  1614,      2)  /* Aura of Blood Drinker Self IV */;
+VALUES (11941,  1590,      2)  /* Aura of Heart Seeker Self IV */
+     , (11941,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (11941,  1400,      2)  /* Quickness Self IV */;

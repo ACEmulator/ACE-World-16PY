@@ -13,7 +13,7 @@ VALUES (22382,   1,       2048) /* ItemType - Gem */
      , (22382,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22382, 114,          1) /* Attuned - Attuned */
      , (22382, 185,          1) /* TypeOfAlteration */
-     , (22382, 186,         13) /* SkillToBeAltered */;
+     , (22382, 186,         13) /* SkillToBeAltered - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22382,  22, True ) /* Inscribable */
@@ -25,8 +25,8 @@ VALUES (22382,   1, 'Unarmed Combat Gem of Enlightenment') /* Name */
      , (22382,  33, 'SkillAlterationGemPickedUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22382,   1,   33558088) /* Setup */
-     , (22382,   6,   67111919) /* PaletteBase */
-     , (22382,   7,  268435723) /* ClothingBase */
-     , (22382,   8,  100673788) /* Icon */
-     , (22382,  50,  100673785) /* IconOverlay */;
+VALUES (22382,   1, 0x02000E48) /* Setup */
+     , (22382,   6, 0x04000BEF) /* PaletteBase */
+     , (22382,   7, 0x1000010B) /* ClothingBase */
+     , (22382,   8, 0x060028FC) /* Icon */
+     , (22382,  50, 0x060028F9) /* IconOverlay */;

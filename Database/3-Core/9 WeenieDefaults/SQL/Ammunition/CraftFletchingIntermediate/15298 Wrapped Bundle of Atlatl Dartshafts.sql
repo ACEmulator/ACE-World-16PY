@@ -25,7 +25,7 @@ VALUES (15298,   1, 'Wrapped Bundle of Atlatl Dartshafts') /* Name */
      , (15298,  20, 'Wrapped Bundles of Atlatl Dartshafts') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15298,   1,   33557604) /* Setup */
-     , (15298,   3,  536870932) /* SoundTable */
-     , (15298,   8,  100672611) /* Icon */
-     , (15298,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15298,   1, 0x02000C64) /* Setup */
+     , (15298,   3, 0x20000014) /* SoundTable */
+     , (15298,   8, 0x06002463) /* Icon */
+     , (15298,  22, 0x3400002B) /* PhysicsEffectTable */;

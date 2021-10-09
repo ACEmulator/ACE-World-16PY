@@ -30,7 +30,7 @@ VALUES (25813,   1, 'Brazier of Power') /* Name */
      , (25813,  15, 'The heat of the fire bent this brazier into the perfect shape for a shield.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25813,   1,   33557971) /* Setup */
-     , (25813,   3,  536870932) /* SoundTable */
-     , (25813,   8,  100675647) /* Icon */
-     , (25813,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25813,   1, 0x02000DD3) /* Setup */
+     , (25813,   3, 0x20000014) /* SoundTable */
+     , (25813,   8, 0x0600303F) /* Icon */
+     , (25813,  22, 0x3400002B) /* PhysicsEffectTable */;

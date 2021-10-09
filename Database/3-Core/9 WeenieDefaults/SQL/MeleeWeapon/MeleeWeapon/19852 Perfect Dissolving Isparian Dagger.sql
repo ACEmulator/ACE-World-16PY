@@ -49,17 +49,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19852,   1, 'Perfect Dissolving Isparian Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19852,   1,   33557739) /* Setup */
-     , (19852,   3,  536870932) /* SoundTable */
-     , (19852,   6,   67111919) /* PaletteBase */
-     , (19852,   7,  268436378) /* ClothingBase */
-     , (19852,   8,  100673035) /* Icon */
-     , (19852,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19852,   1, 0x02000CEB) /* Setup */
+     , (19852,   3, 0x20000014) /* SoundTable */
+     , (19852,   6, 0x04000BEF) /* PaletteBase */
+     , (19852,   7, 0x1000039A) /* ClothingBase */
+     , (19852,   8, 0x0600260B) /* Icon */
+     , (19852,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19852,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19852,   518,      2)  /* Acid Protection Self IV */
+VALUES (19852,  2689,      2)  /* Moderate Finesse Weapon Aptitude */
      , (19852,  1351,      2)  /* Endurance Self III */
+     , (19852,   518,      2)  /* Acid Protection Self IV */
      , (19852,  1592,      2)  /* Aura of Heart Seeker Self VI */
-     , (19852,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (19852,  2689,      2)  /* Moderate Finesse Weapon Aptitude */;
+     , (19852,  1616,      2)  /* Aura of Blood Drinker Self VI */;

@@ -44,14 +44,14 @@ VALUES (24467,   1, 'Sunstone Gauntlets') /* Name */
      , (24467,  16, 'These gauntlets have been carved from Sunstone to fit the human hand. They are mystical in nature and have a grooved slot about the size of a small amulet.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24467,   1,   33554648) /* Setup */
-     , (24467,   3,  536870932) /* SoundTable */
-     , (24467,   6,   67108990) /* PaletteBase */
-     , (24467,   7,  268436636) /* ClothingBase */
-     , (24467,   8,  100674345) /* Icon */
-     , (24467,  22,  872415275) /* PhysicsEffectTable */
-     , (24467,  36,  234881046) /* MutateFilter */;
+VALUES (24467,   1, 0x020000D8) /* Setup */
+     , (24467,   3, 0x20000014) /* SoundTable */
+     , (24467,   6, 0x0400007E) /* PaletteBase */
+     , (24467,   7, 0x1000049C) /* ClothingBase */
+     , (24467,   8, 0x06002B29) /* Icon */
+     , (24467,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24467,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24467,  1383,      2)  /* Coordination Other V */
-     , (24467,  1485,      2)  /* Impenetrability V */;
+VALUES (24467,  1485,      2)  /* Impenetrability V */
+     , (24467,  1383,      2)  /* Coordination Other V */;

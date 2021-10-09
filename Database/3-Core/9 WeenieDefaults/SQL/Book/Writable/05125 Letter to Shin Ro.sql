@@ -25,10 +25,10 @@ VALUES (5125,   1, 'Letter to Shin Ro') /* Name */
      , (5125,   8, 'Naqib of Suntik') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5125,   1,   33554773) /* Setup */
-     , (5125,   3,  536870932) /* SoundTable */
-     , (5125,   8,  100667503) /* Icon */
-     , (5125,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5125,   1, 0x02000155) /* Setup */
+     , (5125,   3, 0x20000014) /* SoundTable */
+     , (5125,   8, 0x0600106F) /* Icon */
+     , (5125,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (5125, 1, 1000);

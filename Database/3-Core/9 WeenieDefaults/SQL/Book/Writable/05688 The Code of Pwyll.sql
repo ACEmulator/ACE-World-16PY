@@ -24,10 +24,10 @@ VALUES (5688,   1, 'The Code of Pwyll') /* Name */
      , (5688,  16, 'A copy of the Code of Pwyll, bought from the Cragstone Library.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5688,   1,   33554771) /* Setup */
-     , (5688,   3,  536870932) /* SoundTable */
-     , (5688,   8,  100668117) /* Icon */
-     , (5688,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5688,   1, 0x02000153) /* Setup */
+     , (5688,   3, 0x20000014) /* SoundTable */
+     , (5688,   8, 0x060012D5) /* Icon */
+     , (5688,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (5688, 3, 1000);

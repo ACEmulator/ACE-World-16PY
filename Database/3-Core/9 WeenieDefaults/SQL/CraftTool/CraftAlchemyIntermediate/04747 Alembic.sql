@@ -25,7 +25,7 @@ VALUES (4747,   1, 'Alembic') /* Name */
      , (4747,  14, 'This item is used in alchemy.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4747,   1,   33555963) /* Setup */
-     , (4747,   3,  536870932) /* SoundTable */
-     , (4747,   8,  100669991) /* Icon */
-     , (4747,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4747,   1, 0x020005FB) /* Setup */
+     , (4747,   3, 0x20000014) /* SoundTable */
+     , (4747,   8, 0x06001A27) /* Icon */
+     , (4747,  22, 0x3400002B) /* PhysicsEffectTable */;

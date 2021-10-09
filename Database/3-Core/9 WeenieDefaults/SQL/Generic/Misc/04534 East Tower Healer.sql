@@ -22,7 +22,7 @@ VALUES (4534,   1, 'East Tower Healer') /* Name */
      , (4534,  16, 'East Tower Healer') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4534,   1,   33555594) /* Setup */
-     , (4534,   6,   67111782) /* PaletteBase */
-     , (4534,   7,  268435693) /* ClothingBase */
-     , (4534,   8,  100668115) /* Icon */;
+VALUES (4534,   1, 0x0200048A) /* Setup */
+     , (4534,   6, 0x04000B66) /* PaletteBase */
+     , (4534,   7, 0x100000ED) /* ClothingBase */
+     , (4534,   8, 0x060012D3) /* Icon */;

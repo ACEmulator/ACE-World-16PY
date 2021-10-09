@@ -67,10 +67,10 @@ VALUES (28980,   1, 'Urn') /* Name */
      , (28980,  15, 'A simple looking amphorae that has been sealed.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28980,   1,   33558976) /* Setup */
-     , (28980,   2,  150995278) /* MotionTable */
-     , (28980,   3,  536871052) /* SoundTable */
-     , (28980,   8,  100677067) /* Icon */;
+VALUES (28980,   1, 0x020011C0) /* Setup */
+     , (28980,   2, 0x0900014E) /* MotionTable */
+     , (28980,   3, 0x2000008C) /* SoundTable */
+     , (28980,   8, 0x060035CB) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28980,   1, 340, 0, 0) /* Strength */
@@ -86,10 +86,10 @@ VALUES (28980,   1,  4825, 0, 0, 5000) /* MaxHealth */
      , (28980,   5,  4450, 0, 0, 5000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (28980,  6, 0, 2, 0,   1, 0, 2084.02825656327) /* MeleeDefense        Trained */
-     , (28980,  7, 0, 2, 0,   1, 0, 2084.02825656327) /* MissileDefense      Trained */
-     , (28980, 13, 0, 2, 0,   1, 0, 2084.02825656327) /* UnarmedCombat       Trained */
-     , (28980, 20, 0, 3, 0, 999, 0, 2084.02825656327) /* Deception           Specialized */;
+VALUES (28980,  6, 0, 2, 0,   1, 0, 2084.028256563272) /* MeleeDefense        Trained */
+     , (28980,  7, 0, 2, 0,   1, 0, 2084.028256563272) /* MissileDefense      Trained */
+     , (28980, 13, 0, 2, 0,   1, 0, 2084.028256563272) /* UnarmedCombat       Trained */
+     , (28980, 20, 0, 3, 0, 999, 0, 2084.028256563272) /* Deception           Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (28980,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -124,7 +124,7 @@ VALUES (28980, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'RoadsNuhmudira2
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 28986 /* Burial Urn */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+VALUES (@parent_id,  0,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 28986 /* Burial Urn */, 1, 0 /* Undef */, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  1,  22 /* StampQuest */, 0, 1, NULL, 'RoadsTask2', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  2,  18 /* DirectBroadcast */, 0, 1, NULL, 'As you take the urn into your hands, you cannot help but think that this is a sacred place. A place that long ago was set as a memoriam to a person that did much to better this world and performed deeds that make your life seem infinitely inconsequential. The feeling passes, but the thought lingers in your mind for a long moment.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

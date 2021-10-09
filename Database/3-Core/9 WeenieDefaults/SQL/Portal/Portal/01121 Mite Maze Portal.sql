@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1121,   1, 'Mite Maze Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1121,   1,   33554867) /* Setup */
-     , (1121,   2,  150994947) /* MotionTable */
-     , (1121,   8,  100667499) /* Icon */;
+VALUES (1121,   1, 0x020001B3) /* Setup */
+     , (1121,   2, 0x09000003) /* MotionTable */
+     , (1121,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1121, 2, 33030612, 6.1, -101.6, 0, 0.7431448, 0, 0, -0.6691306) /* Destination */
-/* @teleloc 0x01F801D4 [6.100000 -101.600000 0.000000] 0.743145 0.000000 0.000000 -0.669131 */;
+VALUES (1121, 2, 0x01F801D4, 6.1, -101.6, 0, 0.743145, 0, 0, -0.669131) /* Destination */
+/* @teleloc 0x01F801D4 [6.100000 -101.599998 0.000000] 0.743145 0.000000 0.000000 -0.669131 */;

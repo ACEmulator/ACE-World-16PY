@@ -22,7 +22,7 @@ VALUES (826,   1, 'The Sisters Kai') /* Name */
      , (826,  16, 'The Sisters Kai') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (826,   1,   33555088) /* Setup */
-     , (826,   6,   67111092) /* PaletteBase */
-     , (826,   7,  268435657) /* ClothingBase */
-     , (826,   8,  100668115) /* Icon */;
+VALUES (826,   1, 0x02000290) /* Setup */
+     , (826,   6, 0x040008B4) /* PaletteBase */
+     , (826,   7, 0x100000C9) /* ClothingBase */
+     , (826,   8, 0x060012D3) /* Icon */;

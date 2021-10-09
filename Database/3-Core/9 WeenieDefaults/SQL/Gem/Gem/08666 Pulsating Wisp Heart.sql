@@ -33,10 +33,10 @@ VALUES (8666,   1, 'Pulsating Wisp Heart') /* Name */
      , (8666,  16, 'A pulsating wisp heart that seems to contain a large amount of stolen energy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8666,   1,   33556932) /* Setup */
-     , (8666,   3,  536870932) /* SoundTable */
-     , (8666,   6,   67111919) /* PaletteBase */
-     , (8666,   7,  268435723) /* ClothingBase */
-     , (8666,   8,  100671244) /* Icon */
-     , (8666,  22,  872415275) /* PhysicsEffectTable */
-     , (8666,  36,  234881046) /* MutateFilter */;
+VALUES (8666,   1, 0x020009C4) /* Setup */
+     , (8666,   3, 0x20000014) /* SoundTable */
+     , (8666,   6, 0x04000BEF) /* PaletteBase */
+     , (8666,   7, 0x1000010B) /* ClothingBase */
+     , (8666,   8, 0x06001F0C) /* Icon */
+     , (8666,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8666,  36, 0x0E000016) /* MutateFilter */;

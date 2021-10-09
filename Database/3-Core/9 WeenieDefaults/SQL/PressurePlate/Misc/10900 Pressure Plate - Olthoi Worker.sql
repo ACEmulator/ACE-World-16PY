@@ -29,12 +29,12 @@ VALUES (10900,   1, 'Pressure Plate - Olthoi Worker') /* Name */
      , (10900,  17, 'You foot splashes down into a puddle of slime. Some olthoi nearby are disturbed by the sound.') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10900,   1,   33555536) /* Setup */
-     , (10900,   2,  150994977) /* MotionTable */
-     , (10900,   8,  100668114) /* Icon */;
+VALUES (10900,   1, 0x02000450) /* Setup */
+     , (10900,   2, 0x09000021) /* MotionTable */
+     , (10900,   8, 0x060012D2) /* Icon */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10900,  16,          0) /* ActivationTarget */;
+VALUES (10900,  16, 0x00000000) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10900, -1, 10911, 120, 1, 1, 1, 4, -1, 0, 0, 0, 0, 3, 0, -4.371139E-08, 0, 0, -1) /* Generate Olthoi Worker (10911) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (10900, -1, 10911, 120, 1, 1, 1, 4, -1, 0, 0, 0, 0, 3, 0, -0, 0, -0, -1) /* Generate Olthoi Worker (10911) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

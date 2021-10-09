@@ -37,11 +37,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30519,   1, 'Template for breast armor. Covers chest only.') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30519,   1,   33554642) /* Setup */
-     , (30519,   3,  536870932) /* SoundTable */
-     , (30519,   6,   67108990) /* PaletteBase */
-     , (30519,   7,  268435541) /* ClothingBase */
-     , (30519,   8,  100667350) /* Icon */
-     , (30519,  22,  872415275) /* PhysicsEffectTable */
-     , (30519,  36,  234881042) /* MutateFilter */
-     , (30519,  46,  939524146) /* TsysMutationFilter */;
+VALUES (30519,   1, 0x020000D2) /* Setup */
+     , (30519,   3, 0x20000014) /* SoundTable */
+     , (30519,   6, 0x0400007E) /* PaletteBase */
+     , (30519,   7, 0x10000055) /* ClothingBase */
+     , (30519,   8, 0x06000FD6) /* Icon */
+     , (30519,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30519,  36, 0x0E000012) /* MutateFilter */
+     , (30519,  46, 0x38000032) /* TsysMutationFilter */;

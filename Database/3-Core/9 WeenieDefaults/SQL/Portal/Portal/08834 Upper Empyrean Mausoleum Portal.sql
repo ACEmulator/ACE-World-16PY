@@ -25,10 +25,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8834,   1, 'Upper Empyrean Mausoleum Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8834,   1,   33555923) /* Setup */
-     , (8834,   2,  150994947) /* MotionTable */
-     , (8834,   8,  100667499) /* Icon */;
+VALUES (8834,   1, 0x020005D3) /* Setup */
+     , (8834,   2, 0x09000003) /* MotionTable */
+     , (8834,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8834, 2, 44827364, 550.2, -138.1, 0, -0.9999813, 0, 0, -0.006108636) /* Destination */
-/* @teleloc 0x02AC02E4 [550.200000 -138.100000 0.000000] -0.999981 0.000000 0.000000 -0.006109 */;
+VALUES (8834, 2, 0x02AC02E4, 550.2, -138.1, 0, -0.999981, 0, -0, -0.006109) /* Destination */
+/* @teleloc 0x02AC02E4 [550.200012 -138.100006 0.000000] -0.999981 0.000000 -0.000000 -0.006109 */;

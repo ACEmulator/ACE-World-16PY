@@ -36,6 +36,6 @@ VALUES (10933,   1, 'Palisade Wall Hotspot') /* Name */
      , (10933,  17, 'The sharpened stakes of the palisade wall impale you for %i points of damage!') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10933,   1,   33556024) /* Setup */
-     , (10933,   3,  536871028) /* SoundTable */
-     , (10933,   8,  100667465) /* Icon */;
+VALUES (10933,   1, 0x02000638) /* Setup */
+     , (10933,   3, 0x20000074) /* SoundTable */
+     , (10933,   8, 0x06001049) /* Icon */;

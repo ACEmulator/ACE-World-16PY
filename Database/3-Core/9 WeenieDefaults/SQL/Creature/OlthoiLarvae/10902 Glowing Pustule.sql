@@ -66,12 +66,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10902,   1, 'Glowing Pustule') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10902,   1,   33558339) /* Setup */
-     , (10902,   2,  150995239) /* MotionTable */
-     , (10902,   3,  536871069) /* SoundTable */
-     , (10902,   4,  805306369) /* CombatTable */
-     , (10902,   8,  100674306) /* Icon */
-     , (10902,  22,  872415265) /* PhysicsEffectTable */
+VALUES (10902,   1, 0x02000F43) /* Setup */
+     , (10902,   2, 0x09000127) /* MotionTable */
+     , (10902,   3, 0x2000009D) /* SoundTable */
+     , (10902,   4, 0x30000001) /* CombatTable */
+     , (10902,   8, 0x06002B02) /* Icon */
+     , (10902,  22, 0x34000021) /* PhysicsEffectTable */
      , (10902,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -88,7 +88,7 @@ VALUES (10902,   1,    50, 0, 0, 115) /* MaxHealth */
      , (10902,   5,     0, 0, 0, 30) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (10902, 32, 0, 3, 0, 200, 0, 702.269919576549) /* ItemEnchantment     Specialized */;
+VALUES (10902, 32, 0, 3, 0, 200, 0, 702.2699195765489) /* ItemEnchantment     Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (10902,  0,  4, 35, 0.75,   90,   56,   72,   54,   56,   56,   29,   10,    0, 1,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0,  0.1,    0,    0) /* Head */

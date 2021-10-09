@@ -27,9 +27,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1633,   1, 'Acid Stream') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1633,   1,   33555446) /* Setup */
-     , (1633,   3,  536870969) /* SoundTable */
-     , (1633,   8,  100667494) /* Icon */
-     , (1633,  22,  872415243) /* PhysicsEffectTable */
+VALUES (1633,   1, 0x020003F6) /* Setup */
+     , (1633,   3, 0x20000039) /* SoundTable */
+     , (1633,   8, 0x06001066) /* Icon */
+     , (1633,  22, 0x3400000B) /* PhysicsEffectTable */
      , (1633,  28,         58) /* Spell - Acid Stream I */
      , (1633,  30,         90) /* PhysicsScript - ProjectileCollision */;

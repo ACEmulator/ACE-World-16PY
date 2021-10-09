@@ -23,7 +23,7 @@ VALUES (6866,   1, 'A Human Archmage') /* Name */
      , (6866,  16, 'A Human Archmage') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6866,   1,   33555909) /* Setup */
-     , (6866,   6,   67111860) /* PaletteBase */
-     , (6866,   7,  268435824) /* ClothingBase */
-     , (6866,   8,  100668115) /* Icon */;
+VALUES (6866,   1, 0x020005C5) /* Setup */
+     , (6866,   6, 0x04000BB4) /* PaletteBase */
+     , (6866,   7, 0x10000170) /* ClothingBase */
+     , (6866,   8, 0x060012D3) /* Icon */;

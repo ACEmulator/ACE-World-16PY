@@ -24,7 +24,7 @@ VALUES (22856,   1, 'Sho Lantern') /* Name */
      , (22856,  14, 'This item can be used on floor and yard hooks.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22856,   1,   33556250) /* Setup */
-     , (22856,   3,  536870932) /* SoundTable */
-     , (22856,   8,  100673914) /* Icon */
-     , (22856,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22856,   1, 0x0200071A) /* Setup */
+     , (22856,   3, 0x20000014) /* SoundTable */
+     , (22856,   8, 0x0600297A) /* Icon */
+     , (22856,  22, 0x3400002B) /* PhysicsEffectTable */;

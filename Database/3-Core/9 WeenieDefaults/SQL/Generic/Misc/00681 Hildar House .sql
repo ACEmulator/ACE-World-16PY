@@ -22,7 +22,7 @@ VALUES (681,   1, 'Hildar House ') /* Name */
      , (681,  16, 'Hildar House') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (681,   1,   33555088) /* Setup */
-     , (681,   6,   67111092) /* PaletteBase */
-     , (681,   7,  268435657) /* ClothingBase */
-     , (681,   8,  100668115) /* Icon */;
+VALUES (681,   1, 0x02000290) /* Setup */
+     , (681,   6, 0x040008B4) /* PaletteBase */
+     , (681,   7, 0x100000C9) /* ClothingBase */
+     , (681,   8, 0x060012D3) /* Icon */;

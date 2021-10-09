@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20922,   1, 'Martine''s Throne Room') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20922,   1,   33554867) /* Setup */
-     , (20922,   2,  150994947) /* MotionTable */
-     , (20922,   8,  100667499) /* Icon */;
+VALUES (20922,   1, 0x020001B3) /* Setup */
+     , (20922,   2, 0x09000003) /* MotionTable */
+     , (20922,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (20922, 2, 1449132423, 149.661, -94.0258, 12, -4.371139E-08, 0, 0, -1) /* Destination */
-/* @teleloc 0x56600187 [149.661000 -94.025800 12.000000] 0.000000 0.000000 0.000000 -1.000000 */;
+VALUES (20922, 2, 0x56600187, 149.661, -94.0258, 12, -0, 0, -0, -1) /* Destination */
+/* @teleloc 0x56600187 [149.660995 -94.025803 12.000000] -0.000000 0.000000 -0.000000 -1.000000 */;

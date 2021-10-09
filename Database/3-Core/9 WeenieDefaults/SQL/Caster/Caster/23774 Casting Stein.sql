@@ -39,9 +39,9 @@ VALUES (23774,   1, 'Casting Stein') /* Name */
      , (23774,  16, 'A magical beer stein that can be used to focus magic.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23774,   1,   33558217) /* Setup */
-     , (23774,   3,  536870932) /* SoundTable */
-     , (23774,   8,  100671129) /* Icon */
-     , (23774,  22,  872415275) /* PhysicsEffectTable */
-     , (23774,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (23774,   1, 0x02000EC9) /* Setup */
+     , (23774,   3, 0x20000014) /* SoundTable */
+     , (23774,   8, 0x06001E99) /* Icon */
+     , (23774,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (23774,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (23774,  28,       1679) /* Spell - Stamina to Mana Self IV */;

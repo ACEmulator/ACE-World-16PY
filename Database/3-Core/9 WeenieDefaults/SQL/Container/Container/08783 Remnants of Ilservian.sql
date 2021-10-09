@@ -37,12 +37,12 @@ VALUES (8783,   1, 'Remnants of Ilservian') /* Name */
      , (8783,  16, 'The remnants of the man that was once Ilservian Palacost.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8783,   1,   33556938) /* Setup */
-     , (8783,   3,  536870932) /* SoundTable */
-     , (8783,   6,   67110722) /* PaletteBase */
-     , (8783,   7,  268435558) /* ClothingBase */
-     , (8783,   8,  100667504) /* Icon */
-     , (8783,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8783,   1, 0x020009CA) /* Setup */
+     , (8783,   3, 0x20000014) /* SoundTable */
+     , (8783,   6, 0x04000742) /* PaletteBase */
+     , (8783,   7, 0x10000066) /* ClothingBase */
+     , (8783,   8, 0x06001070) /* Icon */
+     , (8783,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8783, -1, 8790, 30000, 6, 6, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Obsidian Key (8790) (x6 up to max of 6) - Regenerate upon PickUp - Location to (re)Generate: Contain */

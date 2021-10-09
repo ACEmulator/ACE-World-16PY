@@ -27,10 +27,10 @@ VALUES (19239,   1, 'Decorative Bronze Statue ') /* Name */
      , (19239,  16, 'A small decorative statue of a Skeleton crafted by the Arcanum Tinker, in reward for destroying the statues threatening the cities of Dereth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19239,   1,   33554521) /* Setup */
-     , (19239,   2,  150995211) /* MotionTable */
-     , (19239,   6,   67111266) /* PaletteBase */
-     , (19239,   7,  268436372) /* ClothingBase */
-     , (19239,   8,  100669124) /* Icon */
-     , (19239,  22,  872415349) /* PhysicsEffectTable */
-     , (19239,  36,  234881046) /* MutateFilter */;
+VALUES (19239,   1, 0x02000059) /* Setup */
+     , (19239,   2, 0x0900010B) /* MotionTable */
+     , (19239,   6, 0x04000962) /* PaletteBase */
+     , (19239,   7, 0x10000394) /* ClothingBase */
+     , (19239,   8, 0x060016C4) /* Icon */
+     , (19239,  22, 0x34000075) /* PhysicsEffectTable */
+     , (19239,  36, 0x0E000016) /* MutateFilter */;

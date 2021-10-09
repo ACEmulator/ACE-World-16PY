@@ -25,5 +25,5 @@ VALUES (27433,   1, 'Map of Auberean') /* Name */
      , (27433,  33, 'PickedUpMapAuberean') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27433,   1,   33558686) /* Setup */
-     , (27433,   8,  100676418) /* Icon */;
+VALUES (27433,   1, 0x0200109E) /* Setup */
+     , (27433,   8, 0x06003342) /* Icon */;

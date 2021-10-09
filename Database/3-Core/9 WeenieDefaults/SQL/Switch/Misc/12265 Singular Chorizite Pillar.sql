@@ -28,9 +28,9 @@ VALUES (12265,   1, 'Singular Chorizite Pillar') /* Name */
      , (12265,  16, 'A pillar of Singular Chorizite stockpiled by the Virindi and their allies.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12265,   1,   33557379) /* Setup */
-     , (12265,   3,  536870932) /* SoundTable */
-     , (12265,   6,   67113398) /* PaletteBase */
-     , (12265,   7,  268436279) /* ClothingBase */
-     , (12265,   8,  100672195) /* Icon */
-     , (12265,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12265,   1, 0x02000B83) /* Setup */
+     , (12265,   3, 0x20000014) /* SoundTable */
+     , (12265,   6, 0x040011B6) /* PaletteBase */
+     , (12265,   7, 0x10000337) /* ClothingBase */
+     , (12265,   8, 0x060022C3) /* Icon */
+     , (12265,  22, 0x3400002B) /* PhysicsEffectTable */;

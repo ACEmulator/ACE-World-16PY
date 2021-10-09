@@ -41,9 +41,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5306,   1, 'Greater Acid Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5306,   1,   33555787) /* Setup */
-     , (5306,   3,  536870932) /* SoundTable */
-     , (5306,   6,   67111919) /* PaletteBase */
-     , (5306,   7,  268436303) /* ClothingBase */
-     , (5306,   8,  100670186) /* Icon */
-     , (5306,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5306,   1, 0x0200054B) /* Setup */
+     , (5306,   3, 0x20000014) /* SoundTable */
+     , (5306,   6, 0x04000BEF) /* PaletteBase */
+     , (5306,   7, 0x1000034F) /* ClothingBase */
+     , (5306,   8, 0x06001AEA) /* Icon */
+     , (5306,  22, 0x3400002B) /* PhysicsEffectTable */;

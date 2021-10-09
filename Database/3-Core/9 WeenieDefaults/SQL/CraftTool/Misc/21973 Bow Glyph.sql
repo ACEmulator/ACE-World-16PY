@@ -34,7 +34,7 @@ VALUES (21973,   1, 'Bow Glyph') /* Name */
      , (21973,  16, 'A glyph with the image of a bow emblazoned upon it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21973,   1,   33556438) /* Setup */
-     , (21973,   3,  536870932) /* SoundTable */
-     , (21973,   8,  100673580) /* Icon */
-     , (21973,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21973,   1, 0x020007D6) /* Setup */
+     , (21973,   3, 0x20000014) /* SoundTable */
+     , (21973,   8, 0x0600282C) /* Icon */
+     , (21973,  22, 0x3400002B) /* PhysicsEffectTable */;

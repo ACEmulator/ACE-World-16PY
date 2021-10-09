@@ -21,7 +21,7 @@ VALUES (5573,   1,        256) /* ItemType - MissileWeapon */
      , (5573,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (5573,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (5573,  49,         20) /* WeaponTime */
-     , (5573,  51,          2) /* CombatUse - Missle */
+     , (5573,  51,          2) /* CombatUse - Missile */
      , (5573,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (5573, 150,        103) /* HookPlacement - Hook */
      , (5573, 151,          2) /* HookType - Wall */;
@@ -41,7 +41,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5573,   1, 'Acid Javelin') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5573,   1,   33555720) /* Setup */
-     , (5573,   3,  536870932) /* SoundTable */
-     , (5573,   8,  100667593) /* Icon */
-     , (5573,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5573,   1, 0x02000508) /* Setup */
+     , (5573,   3, 0x20000014) /* SoundTable */
+     , (5573,   8, 0x060010C9) /* Icon */
+     , (5573,  22, 0x3400002B) /* PhysicsEffectTable */;

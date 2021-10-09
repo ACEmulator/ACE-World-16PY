@@ -25,10 +25,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22667,   1, 'Tusker Cavern') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22667,   1,   33555923) /* Setup */
-     , (22667,   2,  150994947) /* MotionTable */
-     , (22667,   8,  100667499) /* Icon */;
+VALUES (22667,   1, 0x020005D3) /* Setup */
+     , (22667,   2, 0x09000003) /* MotionTable */
+     , (22667,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22667, 2, 1547895410, 90.2216, -136.362, 12.005, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0x5C430272 [90.221600 -136.362000 12.005000] 1.000000 0.000000 0.000000 0.000000 */;
+VALUES (22667, 2, 0x5C430272, 90.2216, -136.362, 12.005, 1, 0, 0, -0) /* Destination */
+/* @teleloc 0x5C430272 [90.221603 -136.362000 12.005000] 1.000000 0.000000 0.000000 -0.000000 */;

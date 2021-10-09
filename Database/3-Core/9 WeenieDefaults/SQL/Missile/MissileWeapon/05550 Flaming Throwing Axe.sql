@@ -21,7 +21,7 @@ VALUES (5550,   1,        256) /* ItemType - MissileWeapon */
      , (5550,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (5550,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (5550,  49,         20) /* WeaponTime */
-     , (5550,  51,          2) /* CombatUse - Missle */
+     , (5550,  51,          2) /* CombatUse - Missile */
      , (5550,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (5550, 150,        103) /* HookPlacement - Hook */
      , (5550, 151,          2) /* HookType - Wall */;
@@ -42,7 +42,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5550,   1, 'Flaming Throwing Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5550,   1,   33555714) /* Setup */
-     , (5550,   3,  536870932) /* SoundTable */
-     , (5550,   8,  100667581) /* Icon */
-     , (5550,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5550,   1, 0x02000502) /* Setup */
+     , (5550,   3, 0x20000014) /* SoundTable */
+     , (5550,   8, 0x060010BD) /* Icon */
+     , (5550,  22, 0x3400002B) /* PhysicsEffectTable */;

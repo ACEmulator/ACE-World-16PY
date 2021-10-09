@@ -32,9 +32,9 @@ VALUES (15743,   1, 'Elixir of Nimbleness') /* Name */
      , (15743,  20, 'Elixirs of Nimbleness') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15743,   1,   33555965) /* Setup */
-     , (15743,   3,  536870932) /* SoundTable */
-     , (15743,   6,   67111919) /* PaletteBase */
-     , (15743,   7,  268435814) /* ClothingBase */
-     , (15743,   8,  100672782) /* Icon */
-     , (15743,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15743,   1, 0x020005FD) /* Setup */
+     , (15743,   3, 0x20000014) /* SoundTable */
+     , (15743,   6, 0x04000BEF) /* PaletteBase */
+     , (15743,   7, 0x10000166) /* ClothingBase */
+     , (15743,   8, 0x0600250E) /* Icon */
+     , (15743,  22, 0x3400002B) /* PhysicsEffectTable */;

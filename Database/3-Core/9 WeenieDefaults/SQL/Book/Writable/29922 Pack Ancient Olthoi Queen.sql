@@ -33,12 +33,12 @@ VALUES (29922,   1, 'Pack Ancient Olthoi Queen') /* Name */
      , (29922,  16, 'The Ancient Olthoi Queen, brood mistress of all Olthoi on Auberean') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29922,   1,   33559086) /* Setup */
-     , (29922,   3,  536870932) /* SoundTable */
-     , (29922,   6,   67113288) /* PaletteBase */
-     , (29922,   7,  268436646) /* ClothingBase */
-     , (29922,   8,  100667623) /* Icon */
-     , (29922,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29922,   1, 0x0200122E) /* Setup */
+     , (29922,   3, 0x20000014) /* SoundTable */
+     , (29922,   6, 0x04001148) /* PaletteBase */
+     , (29922,   7, 0x100004A6) /* ClothingBase */
+     , (29922,   8, 0x060010E7) /* Icon */
+     , (29922,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (29922, 4, 1000);

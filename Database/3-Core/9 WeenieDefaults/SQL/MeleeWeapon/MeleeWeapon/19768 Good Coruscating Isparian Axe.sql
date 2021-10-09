@@ -49,17 +49,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19768,   1, 'Good Coruscating Isparian Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19768,   1,   33556306) /* Setup */
-     , (19768,   3,  536870932) /* SoundTable */
-     , (19768,   6,   67111919) /* PaletteBase */
-     , (19768,   7,  268436377) /* ClothingBase */
-     , (19768,   8,  100672887) /* Icon */
-     , (19768,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19768,   1, 0x02000752) /* Setup */
+     , (19768,   3, 0x20000014) /* SoundTable */
+     , (19768,   6, 0x04000BEF) /* PaletteBase */
+     , (19768,   7, 0x10000399) /* ClothingBase */
+     , (19768,   8, 0x06002577) /* Icon */
+     , (19768,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19768,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19768,  1069,      2)  /* Lightning Protection Self IV */
-     , (19768,  1399,      2)  /* Quickness Self III */
-     , (19768,  1590,      2)  /* Aura of Heart Seeker Self IV */
+VALUES (19768,  1590,      2)  /* Aura of Heart Seeker Self IV */
      , (19768,  1614,      2)  /* Aura of Blood Drinker Self IV */
-     , (19768,  2675,      2)  /* Feeble Light Weapon Aptitude */;
+     , (19768,  1069,      2)  /* Lightning Protection Self IV */
+     , (19768,  2675,      2)  /* Feeble Light Weapon Aptitude */
+     , (19768,  1399,      2)  /* Quickness Self III */;

@@ -22,7 +22,7 @@ VALUES (4501,   1, 'The Tree of Healing') /* Name */
      , (4501,  16, 'The Tree of Healing') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4501,   1,   33555594) /* Setup */
-     , (4501,   6,   67111782) /* PaletteBase */
-     , (4501,   7,  268435693) /* ClothingBase */
-     , (4501,   8,  100668115) /* Icon */;
+VALUES (4501,   1, 0x0200048A) /* Setup */
+     , (4501,   6, 0x04000B66) /* PaletteBase */
+     , (4501,   7, 0x100000ED) /* ClothingBase */
+     , (4501,   8, 0x060012D3) /* Icon */;

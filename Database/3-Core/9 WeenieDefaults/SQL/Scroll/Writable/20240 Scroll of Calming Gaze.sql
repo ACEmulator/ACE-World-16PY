@@ -24,7 +24,7 @@ VALUES (20240,   1, 'Scroll of Calming Gaze') /* Name */
      , (20240,  15, 'When learned, this spell increases the target''s Focus by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20240,   1,   33554826) /* Setup */
-     , (20240,   8,  100676458) /* Icon */
-     , (20240,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20240,   1, 0x0200018A) /* Setup */
+     , (20240,   8, 0x0600336A) /* Icon */
+     , (20240,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20240,  28,       2066) /* Spell - Calming Gaze */;

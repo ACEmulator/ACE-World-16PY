@@ -23,7 +23,7 @@ VALUES (30919,   1, 'Broken Poniard') /* Name */
      , (30919,  16, 'The broken blade of a Viamontian poniard.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30919,   1,   33554769) /* Setup */
-     , (30919,   3,  536870932) /* SoundTable */
-     , (30919,   8,  100677458) /* Icon */
-     , (30919,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30919,   1, 0x02000151) /* Setup */
+     , (30919,   3, 0x20000014) /* SoundTable */
+     , (30919,   8, 0x06003752) /* Icon */
+     , (30919,  22, 0x3400002B) /* PhysicsEffectTable */;

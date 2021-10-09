@@ -26,10 +26,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11847,   1, 'Cragstone Middle Guard Tower Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11847,   1,   33555923) /* Setup */
-     , (11847,   2,  150994947) /* MotionTable */
-     , (11847,   8,  100667499) /* Icon */;
+VALUES (11847,   1, 0x020005D3) /* Setup */
+     , (11847,   2, 0x09000003) /* MotionTable */
+     , (11847,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11847, 2, 2979987713, 57.6, 58, 122, 0.8660254, 0, 0, -0.5) /* Destination */
-/* @teleloc 0xB19F0101 [57.600000 58.000000 122.000000] 0.866025 0.000000 0.000000 -0.500000 */;
+VALUES (11847, 2, 0xB19F0101, 57.6, 58, 122, 0.866025, 0, 0, -0.5) /* Destination */
+/* @teleloc 0xB19F0101 [57.599998 58.000000 122.000000] 0.866025 0.000000 0.000000 -0.500000 */;

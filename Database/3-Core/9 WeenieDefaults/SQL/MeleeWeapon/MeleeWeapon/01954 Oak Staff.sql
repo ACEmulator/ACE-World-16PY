@@ -38,9 +38,9 @@ VALUES (1954,   1, 'Oak Staff') /* Name */
      , (1954,  16, 'This staff is shaped from heavy oak.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1954,   1,   33554749) /* Setup */
-     , (1954,   3,  536870932) /* SoundTable */
-     , (1954,   6,   67111919) /* PaletteBase */
-     , (1954,   7,  268435795) /* ClothingBase */
-     , (1954,   8,  100667602) /* Icon */
-     , (1954,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1954,   1, 0x0200013D) /* Setup */
+     , (1954,   3, 0x20000014) /* SoundTable */
+     , (1954,   6, 0x04000BEF) /* PaletteBase */
+     , (1954,   7, 0x10000153) /* ClothingBase */
+     , (1954,   8, 0x060010D2) /* Icon */
+     , (1954,  22, 0x3400002B) /* PhysicsEffectTable */;

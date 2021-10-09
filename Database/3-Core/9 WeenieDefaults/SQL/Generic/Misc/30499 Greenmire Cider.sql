@@ -27,9 +27,9 @@ VALUES (30499,   1, 'Greenmire Cider') /* Name */
      , (30499,  33, 'ShoushiNenAiCider1204') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30499,   1,   33554602) /* Setup */
-     , (30499,   3,  536871012) /* SoundTable */
-     , (30499,   6,   67111919) /* PaletteBase */
-     , (30499,   7,  268435733) /* ClothingBase */
-     , (30499,   8,  100667410) /* Icon */
-     , (30499,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30499,   1, 0x020000AA) /* Setup */
+     , (30499,   3, 0x20000064) /* SoundTable */
+     , (30499,   6, 0x04000BEF) /* PaletteBase */
+     , (30499,   7, 0x10000115) /* ClothingBase */
+     , (30499,   8, 0x06001012) /* Icon */
+     , (30499,  22, 0x3400002B) /* PhysicsEffectTable */;

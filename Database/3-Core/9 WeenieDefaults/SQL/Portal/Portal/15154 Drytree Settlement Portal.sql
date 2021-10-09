@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15154,   1, 'Drytree Settlement Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15154,   1,   33554867) /* Setup */
-     , (15154,   2,  150994947) /* MotionTable */
-     , (15154,   8,  100667499) /* Icon */;
+VALUES (15154,   1, 0x020001B3) /* Setup */
+     , (15154,   2, 0x09000003) /* MotionTable */
+     , (15154,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15154, 2, 2725511196, 79.673, 81.305, 38.005, 0.7542055, 0, 0, -0.6566385) /* Destination */
-/* @teleloc 0xA274001C [79.673000 81.305000 38.005000] 0.754206 0.000000 0.000000 -0.656639 */;
+VALUES (15154, 2, 0xA274001C, 79.673, 81.305, 38.005, 0.754206, 0, 0, -0.656639) /* Destination */
+/* @teleloc 0xA274001C [79.672997 81.305000 38.005001] 0.754205 0.000000 0.000000 -0.656639 */;

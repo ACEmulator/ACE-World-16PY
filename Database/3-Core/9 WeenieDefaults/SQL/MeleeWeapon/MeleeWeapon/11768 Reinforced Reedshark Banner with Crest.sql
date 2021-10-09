@@ -44,12 +44,12 @@ VALUES (11768,   1, 'Reinforced Reedshark Banner with Crest') /* Name */
      , (11768,  16, 'A reinforced, crest tipped banner with a reedshark on it.  It is relatively well kept, and the colors seem even and pure.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11768,   1,   33557259) /* Setup */
-     , (11768,   3,  536870932) /* SoundTable */
-     , (11768,   6,   67113338) /* PaletteBase */
-     , (11768,   7,  268436229) /* ClothingBase */
-     , (11768,   8,  100671921) /* Icon */
-     , (11768,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11768,   1, 0x02000B0B) /* Setup */
+     , (11768,   3, 0x20000014) /* SoundTable */
+     , (11768,   6, 0x0400117A) /* PaletteBase */
+     , (11768,   7, 0x10000305) /* ClothingBase */
+     , (11768,   8, 0x060021B1) /* Icon */
+     , (11768,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11768,  1400,      2)  /* Quickness Self IV */;

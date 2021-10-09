@@ -39,14 +39,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20142,   1, 'Good Isparian Wand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20142,   1,   33557731) /* Setup */
-     , (20142,   3,  536870932) /* SoundTable */
-     , (20142,   8,  100672990) /* Icon */
-     , (20142,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20142,   1, 0x02000CE3) /* Setup */
+     , (20142,   3, 0x20000014) /* SoundTable */
+     , (20142,   8, 0x060025DE) /* Icon */
+     , (20142,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20142,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20142,   656,      2)  /* Mana Conversion Mastery Self IV */
-     , (20142,  1424,      2)  /* Focus Self IV */
+VALUES (20142,  2680,      2)  /* Feeble Mana Conversion Prowess */
+     , (20142,   656,      2)  /* Mana Conversion Mastery Self IV */
      , (20142,  1448,      2)  /* Willpower Self IV */
-     , (20142,  2680,      2)  /* Feeble Mana Conversion Prowess */;
+     , (20142,  1424,      2)  /* Focus Self IV */;

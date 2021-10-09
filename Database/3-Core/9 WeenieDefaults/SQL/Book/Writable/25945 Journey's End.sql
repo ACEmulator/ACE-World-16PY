@@ -23,10 +23,10 @@ VALUES (25945,   1, 'Journey''s End') /* Name */
      , (25945,  15, 'A well-written note.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25945,   1,   33554773) /* Setup */
-     , (25945,   3,  536870932) /* SoundTable */
-     , (25945,   8,  100668176) /* Icon */
-     , (25945,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25945,   1, 0x02000155) /* Setup */
+     , (25945,   3, 0x20000014) /* SoundTable */
+     , (25945,   8, 0x06001310) /* Icon */
+     , (25945,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (25945, 1, 1000);

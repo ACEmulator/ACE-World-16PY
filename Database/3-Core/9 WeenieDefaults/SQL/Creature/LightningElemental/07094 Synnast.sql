@@ -64,12 +64,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7094,   1, 'Synnast') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7094,   1,   33556140) /* Setup */
-     , (7094,   2,  150995087) /* MotionTable */
-     , (7094,   3,  536871002) /* SoundTable */
-     , (7094,   4,  805306368) /* CombatTable */
-     , (7094,   8,  100670581) /* Icon */
-     , (7094,  22,  872415349) /* PhysicsEffectTable */
+VALUES (7094,   1, 0x020006AC) /* Setup */
+     , (7094,   2, 0x0900008F) /* MotionTable */
+     , (7094,   3, 0x2000005A) /* SoundTable */
+     , (7094,   4, 0x30000000) /* CombatTable */
+     , (7094,   8, 0x06001C75) /* Icon */
+     , (7094,  22, 0x34000075) /* PhysicsEffectTable */
      , (7094,  35,        464) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -110,15 +110,15 @@ VALUES (7094,  0, 64,  0,    0,  220,  183,  183,  183,  189,  163,  220, 22000,
      , (7094,  8, 64, 50, 0.75,  220,  183,  183,  183,  189,  163,  220, 22000,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7094,    80,  2.004)  /* Lightning Bolt VI */
-     , (7094,   142,  2.004)  /* Lightning Volley VI */
+VALUES (7094,  1161,  2.013)  /* Heal Self VI */
+     , (7094,  1089,  2.017)  /* Lightning Vulnerability Other VI */
      , (7094,   170,  2.008)  /* Regeneration Self VI */
      , (7094,   234,  2.017)  /* Vulnerability Other VI */
-     , (7094,   279,  2.008)  /* Magic Resistance Self VI */
      , (7094,   520,  2.008)  /* Acid Protection Self VI */
-     , (7094,  1089,  2.017)  /* Lightning Vulnerability Other VI */
-     , (7094,  1161,  2.013)  /* Heal Self VI */
      , (7094,  1242,  2.008)  /* Drain Health Other VI */
+     , (7094,   142,  2.004)  /* Lightning Volley VI */
+     , (7094,   279,  2.008)  /* Magic Resistance Self VI */
+     , (7094,    80,  2.004)  /* Lightning Bolt VI */
      , (7094,  1312,  2.008)  /* Armor Self VI */
      , (7094,  1327,  2.017)  /* Imperil Other VI */;
 

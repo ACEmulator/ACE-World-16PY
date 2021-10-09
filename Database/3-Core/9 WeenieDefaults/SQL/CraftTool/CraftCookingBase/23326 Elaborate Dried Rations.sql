@@ -24,7 +24,7 @@ VALUES (23326,   1, 'Elaborate Dried Rations') /* Name */
      , (23326,  20, 'Elaborate Dried Rations') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23326,   1,   33554817) /* Setup */
-     , (23326,   3,  536870932) /* SoundTable */
-     , (23326,   8,  100674002) /* Icon */
-     , (23326,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23326,   1, 0x02000181) /* Setup */
+     , (23326,   3, 0x20000014) /* SoundTable */
+     , (23326,   8, 0x060029D2) /* Icon */
+     , (23326,  22, 0x3400002B) /* PhysicsEffectTable */;

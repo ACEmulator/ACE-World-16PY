@@ -27,7 +27,7 @@ VALUES (24142,   1, 'Half Empty Cider') /* Name */
      , (24142,  33, 'CoveOswaldTaken') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24142,   1,   33554665) /* Setup */
-     , (24142,   3,  536870932) /* SoundTable */
-     , (24142,   8,  100667432) /* Icon */
-     , (24142,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24142,   1, 0x020000E9) /* Setup */
+     , (24142,   3, 0x20000014) /* SoundTable */
+     , (24142,   8, 0x06001028) /* Icon */
+     , (24142,  22, 0x3400002B) /* PhysicsEffectTable */;

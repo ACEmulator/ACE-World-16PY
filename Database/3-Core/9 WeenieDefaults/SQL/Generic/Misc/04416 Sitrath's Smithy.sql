@@ -22,7 +22,7 @@ VALUES (4416,   1, 'Sitrath''s Smithy') /* Name */
      , (4416,  16, 'Sitrath''s Smithy') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4416,   1,   33555593) /* Setup */
-     , (4416,   6,   67111092) /* PaletteBase */
-     , (4416,   7,  268435670) /* ClothingBase */
-     , (4416,   8,  100668115) /* Icon */;
+VALUES (4416,   1, 0x02000489) /* Setup */
+     , (4416,   6, 0x040008B4) /* PaletteBase */
+     , (4416,   7, 0x100000D6) /* ClothingBase */
+     , (4416,   8, 0x060012D3) /* Icon */;

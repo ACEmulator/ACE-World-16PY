@@ -39,7 +39,7 @@ VALUES (10996,   1, 'Ebon Spine Harpoon') /* Name */
      , (10996,  16, 'A hefty harpoon made from the spine of an ebon gromnie found on the Marcescent Plateau of Marae Lassel, and bound in bands of coldly glittering chorizite. This example can be used as a spear. It was crafted with fine balance by the famed Tumerok hunter Ralirea, of the Aun xuta, and rewards a talented user. The hunters of the Aun often use these weapons in hunting and fishing.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10996,   1,   33557227) /* Setup */
-     , (10996,   3,  536870932) /* SoundTable */
-     , (10996,   8,  100671859) /* Icon */
-     , (10996,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (10996,   1, 0x02000AEB) /* Setup */
+     , (10996,   3, 0x20000014) /* SoundTable */
+     , (10996,   8, 0x06002173) /* Icon */
+     , (10996,  22, 0x3400002B) /* PhysicsEffectTable */;

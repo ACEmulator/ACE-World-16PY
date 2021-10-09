@@ -28,7 +28,7 @@ VALUES (4764,   1, 'Noodle Cutter') /* Name */
      , (4764,  14, 'This item is used in cooking.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4764,   1,   33554745) /* Setup */
-     , (4764,   3,  536870932) /* SoundTable */
-     , (4764,   8,  100670005) /* Icon */
-     , (4764,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4764,   1, 0x02000139) /* Setup */
+     , (4764,   3, 0x20000014) /* SoundTable */
+     , (4764,   8, 0x06001A35) /* Icon */
+     , (4764,  22, 0x3400002B) /* PhysicsEffectTable */;

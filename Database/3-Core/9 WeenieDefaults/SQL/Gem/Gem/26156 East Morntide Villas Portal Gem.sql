@@ -36,11 +36,11 @@ VALUES (26156,   1, 'East Morntide Villas Portal Gem') /* Name */
      , (26156,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26156,   1,   33556769) /* Setup */
-     , (26156,   3,  536870932) /* SoundTable */
-     , (26156,   6,   67111919) /* PaletteBase */
-     , (26156,   7,  268435723) /* ClothingBase */
-     , (26156,   8,  100675760) /* Icon */
-     , (26156,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26156,   1, 0x02000921) /* Setup */
+     , (26156,   3, 0x20000014) /* SoundTable */
+     , (26156,   6, 0x04000BEF) /* PaletteBase */
+     , (26156,   7, 0x1000010B) /* ClothingBase */
+     , (26156,   8, 0x060030B0) /* Icon */
+     , (26156,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26156,  28,        157) /* Spell - Summon Primary Portal I */
      , (26156,  31,      14623) /* LinkedPortalOne - East Morntide Villas Portal */;

@@ -36,9 +36,9 @@ VALUES (4229,   1, 'Reedshark Hide Leggings') /* Name */
      , (4229,  15, 'Leggings crafted from the hide of a Reed Shark.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4229,   1,   33554856) /* Setup */
-     , (4229,   3,  536870932) /* SoundTable */
-     , (4229,   6,   67108990) /* PaletteBase */
-     , (4229,   7,  268435533) /* ClothingBase */
-     , (4229,   8,  100667352) /* Icon */
-     , (4229,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4229,   1, 0x020001A8) /* Setup */
+     , (4229,   3, 0x20000014) /* SoundTable */
+     , (4229,   6, 0x0400007E) /* PaletteBase */
+     , (4229,   7, 0x1000004D) /* ClothingBase */
+     , (4229,   8, 0x06000FD8) /* Icon */
+     , (4229,  22, 0x3400002B) /* PhysicsEffectTable */;

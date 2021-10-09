@@ -34,7 +34,7 @@ VALUES (8900,   1, 'Unfinished Bandit Blade Hilt') /* Name */
      , (8900,  16, 'An unfinished, but well-crafted, blade hilt.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8900,   1,   33556952) /* Setup */
-     , (8900,   3,  536870932) /* SoundTable */
-     , (8900,   8,  100671328) /* Icon */
-     , (8900,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8900,   1, 0x020009D8) /* Setup */
+     , (8900,   3, 0x20000014) /* SoundTable */
+     , (8900,   8, 0x06001F60) /* Icon */
+     , (8900,  22, 0x3400002B) /* PhysicsEffectTable */;

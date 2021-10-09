@@ -21,5 +21,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7196,   1, 'Cooking pit') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7196,   1,   33555281) /* Setup */
-     , (7196,   8,  100667494) /* Icon */;
+VALUES (7196,   1, 0x02000351) /* Setup */
+     , (7196,   8, 0x06001066) /* Icon */;

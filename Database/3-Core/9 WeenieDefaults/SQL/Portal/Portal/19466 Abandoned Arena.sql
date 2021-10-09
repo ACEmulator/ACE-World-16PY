@@ -23,6 +23,6 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19466,   1, 'Abandoned Arena') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19466,   1,   33554867) /* Setup */
-     , (19466,   2,  150994947) /* MotionTable */
-     , (19466,   8,  100667499) /* Icon */;
+VALUES (19466,   1, 0x020001B3) /* Setup */
+     , (19466,   2, 0x09000003) /* MotionTable */
+     , (19466,   8, 0x0600106B) /* Icon */;

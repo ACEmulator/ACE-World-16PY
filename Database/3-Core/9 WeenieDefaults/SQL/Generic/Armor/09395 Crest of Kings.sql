@@ -46,13 +46,13 @@ VALUES (9395,   1, 'Crest of Kings') /* Name */
      , (9395,  16, 'A large carved shield, with a detailed picture of a mattekar upon it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9395,   1,   33557014) /* Setup */
-     , (9395,   3,  536870932) /* SoundTable */
-     , (9395,   8,  100671513) /* Icon */
-     , (9395,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9395,   1, 0x02000A16) /* Setup */
+     , (9395,   3, 0x20000014) /* SoundTable */
+     , (9395,   8, 0x06002019) /* Icon */
+     , (9395,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9395,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9395,   517,      2)  /* Acid Protection Self III */
-     , (9395,  1091,      2)  /* Fire Protection Self III */
-     , (9395,  1135,      2)  /* Piercing Protection Self III */;
+VALUES (9395,  1091,      2)  /* Fire Protection Self III */
+     , (9395,  1135,      2)  /* Piercing Protection Self III */
+     , (9395,   517,      2)  /* Acid Protection Self III */;

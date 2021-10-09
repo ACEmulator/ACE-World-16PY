@@ -25,10 +25,10 @@ VALUES (8508,   1, 'Translated Letter') /* Name */
      , (8508,  16, 'The translation of a note found in Lady Adja''s chest in the Ithaenc Cathedral.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8508,   1,   33554773) /* Setup */
-     , (8508,   3,  536870932) /* SoundTable */
-     , (8508,   8,  100668176) /* Icon */
-     , (8508,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8508,   1, 0x02000155) /* Setup */
+     , (8508,   3, 0x20000014) /* SoundTable */
+     , (8508,   8, 0x06001310) /* Icon */
+     , (8508,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (8508, 6, 1000);

@@ -29,7 +29,7 @@ VALUES (11332,   1, 'Aun Papileona''s Key') /* Name */
      , (11332,  33, 'BethelCompleted02') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11332,   1,   33554784) /* Setup */
-     , (11332,   3,  536870932) /* SoundTable */
-     , (11332,   8,  100670820) /* Icon */
-     , (11332,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11332,   1, 0x02000160) /* Setup */
+     , (11332,   3, 0x20000014) /* SoundTable */
+     , (11332,   8, 0x06001D64) /* Icon */
+     , (11332,  22, 0x3400002B) /* PhysicsEffectTable */;

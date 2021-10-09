@@ -22,5 +22,5 @@ VALUES (19179,   1, 'Lanadryll Cottages') /* Name */
      , (19179,  16, 'Welcome to Lanadryll Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19179,   1,   33557463) /* Setup */
-     , (19179,   8,  100668115) /* Icon */;
+VALUES (19179,   1, 0x02000BD7) /* Setup */
+     , (19179,   8, 0x060012D3) /* Icon */;

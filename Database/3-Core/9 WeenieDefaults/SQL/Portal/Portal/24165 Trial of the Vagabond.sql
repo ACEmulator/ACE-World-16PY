@@ -24,13 +24,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24165,   1, 'Trial of the Vagabond') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24165,   1,   33554867) /* Setup */
-     , (24165,   2,  150994947) /* MotionTable */
-     , (24165,   8,  100667499) /* Icon */;
+VALUES (24165,   1, 0x020001B3) /* Setup */
+     , (24165,   2, 0x09000003) /* MotionTable */
+     , (24165,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24165, 2, 1598357775, 30, -180, 0, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0x5F45010F [30.000000 -180.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */;
+VALUES (24165, 2, 0x5F45010F, 30, -180, 0, 1, 0, 0, -0) /* Destination */
+/* @teleloc 0x5F45010F [30.000000 -180.000000 0.000000] 1.000000 0.000000 0.000000 -0.000000 */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (24165,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

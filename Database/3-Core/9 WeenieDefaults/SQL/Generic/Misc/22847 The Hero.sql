@@ -23,7 +23,7 @@ VALUES (22847,   1, 'The Hero') /* Name */
      , (22847,  15, 'This item can be used on wall hooks.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22847,   1,   33558156) /* Setup */
-     , (22847,   3,  536870932) /* SoundTable */
-     , (22847,   8,  100673913) /* Icon */
-     , (22847,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22847,   1, 0x02000E8C) /* Setup */
+     , (22847,   3, 0x20000014) /* SoundTable */
+     , (22847,   8, 0x06002979) /* Icon */
+     , (22847,  22, 0x3400002B) /* PhysicsEffectTable */;

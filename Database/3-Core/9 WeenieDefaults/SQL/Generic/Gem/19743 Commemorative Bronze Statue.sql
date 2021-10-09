@@ -29,9 +29,9 @@ VALUES (19743,   1, 'Commemorative Bronze Statue') /* Name */
      , (19743,  15, 'A large commemorative statue  of a Gromnie crafted by the Arcanum Tinker, in reward for destroying the statues threatening the cities of Samsur and Al-Arqas.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19743,   1,   33554487) /* Setup */
-     , (19743,   2,  150995203) /* MotionTable */
-     , (19743,   6,   67109547) /* PaletteBase */
-     , (19743,   7,  268436171) /* ClothingBase */
-     , (19743,   8,  100667938) /* Icon */
-     , (19743,  22,  872415384) /* PhysicsEffectTable */;
+VALUES (19743,   1, 0x02000037) /* Setup */
+     , (19743,   2, 0x09000103) /* MotionTable */
+     , (19743,   6, 0x040002AB) /* PaletteBase */
+     , (19743,   7, 0x100002CB) /* ClothingBase */
+     , (19743,   8, 0x06001222) /* Icon */
+     , (19743,  22, 0x34000098) /* PhysicsEffectTable */;

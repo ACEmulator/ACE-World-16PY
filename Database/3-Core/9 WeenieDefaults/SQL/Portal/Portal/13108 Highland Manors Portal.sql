@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13108,   1, 'Highland Manors Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13108,   1,   33554867) /* Setup */
-     , (13108,   2,  150994947) /* MotionTable */
-     , (13108,   8,  100667499) /* Icon */;
+VALUES (13108,   1, 0x020001B3) /* Setup */
+     , (13108,   2, 0x09000003) /* MotionTable */
+     , (13108,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (13108, 2, 2496528420, 113.133, 92.646, 220.005, -0.6709573, 0, 0, -0.741496) /* Destination */
-/* @teleloc 0x94CE0024 [113.133000 92.646000 220.005000] -0.670957 0.000000 0.000000 -0.741496 */;
+VALUES (13108, 2, 0x94CE0024, 113.133, 92.646, 220.005, -0.670957, 0, -0, -0.741496) /* Destination */
+/* @teleloc 0x94CE0024 [113.133003 92.646004 220.005005] -0.670957 0.000000 -0.000000 -0.741496 */;

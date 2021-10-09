@@ -39,11 +39,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (552,   1, 'Scalemail Basinet') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (552,   1,   33555048) /* Setup */
-     , (552,   3,  536870932) /* SoundTable */
-     , (552,   6,   67108990) /* PaletteBase */
-     , (552,   7,  268435515) /* ClothingBase */
-     , (552,   8,  100668242) /* Icon */
-     , (552,  22,  872415275) /* PhysicsEffectTable */
-     , (552,  36,  234881042) /* MutateFilter */
-     , (552,  46,  939524146) /* TsysMutationFilter */;
+VALUES (552,   1, 0x02000268) /* Setup */
+     , (552,   3, 0x20000014) /* SoundTable */
+     , (552,   6, 0x0400007E) /* PaletteBase */
+     , (552,   7, 0x1000003B) /* ClothingBase */
+     , (552,   8, 0x06001352) /* Icon */
+     , (552,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (552,  36, 0x0E000012) /* MutateFilter */
+     , (552,  46, 0x38000032) /* TsysMutationFilter */;

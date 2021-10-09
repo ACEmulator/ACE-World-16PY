@@ -22,5 +22,5 @@ VALUES (19389,   1, 'Maru Veranda') /* Name */
      , (19389,  16, 'Maru Veranda') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19389,   1,   33557691) /* Setup */
-     , (19389,   8,  100667499) /* Icon */;
+VALUES (19389,   1, 0x02000CBB) /* Setup */
+     , (19389,   8, 0x0600106B) /* Icon */;

@@ -25,7 +25,7 @@ VALUES (3193,   1, 'Scroll of Creature Enchantment Mastery Other II') /* Name */
      , (3193,  16, 'When learned, this spell increases the target''s Creature Enchantment skill by 25%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3193,   1,   33554826) /* Setup */
-     , (3193,   8,  100676453) /* Icon */
-     , (3193,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3193,   1, 0x0200018A) /* Setup */
+     , (3193,   8, 0x06003365) /* Icon */
+     , (3193,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3193,  28,        564) /* Spell - Creature Enchantment Mastery Other II */;

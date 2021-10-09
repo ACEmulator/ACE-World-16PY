@@ -22,5 +22,5 @@ VALUES (15700,   1, 'Gharu''n Victory Villas') /* Name */
      , (15700,  16, 'Welcome to Gharu''n Victory Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15700,   1,   33557463) /* Setup */
-     , (15700,   8,  100668115) /* Icon */;
+VALUES (15700,   1, 0x02000BD7) /* Setup */
+     , (15700,   8, 0x060012D3) /* Icon */;

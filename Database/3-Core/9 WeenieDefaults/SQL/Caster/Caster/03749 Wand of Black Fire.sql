@@ -36,13 +36,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3749,   1, 'Wand of Black Fire') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3749,   1,   33558258) /* Setup */
-     , (3749,   3,  536870932) /* SoundTable */
-     , (3749,   6,   67111919) /* PaletteBase */
-     , (3749,   7,  268435758) /* ClothingBase */
-     , (3749,   8,  100674115) /* Icon */
-     , (3749,  22,  872415275) /* PhysicsEffectTable */
-     , (3749,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (3749,   1, 0x02000EF2) /* Setup */
+     , (3749,   3, 0x20000014) /* SoundTable */
+     , (3749,   6, 0x04000BEF) /* PaletteBase */
+     , (3749,   7, 0x1000012E) /* ClothingBase */
+     , (3749,   8, 0x06002A43) /* Icon */
+     , (3749,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3749,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (3749,  28,        145) /* Spell - Flame Volley V */
      , (3749,  37,         34) /* ItemSkillLimit - WarMagic */;
 

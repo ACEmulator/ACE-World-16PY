@@ -37,12 +37,12 @@ VALUES (27394,   1, 'Resting Place') /* Name */
      , (27394,  16, 'We must put aside our disputes and cooperate with the decomposing masses. The Interlopers spread further and invade more of our resting places every season. We will make plans in the meeting place of old, my map room. May his Eternal Splendor rule forever. - Ward of the Retreat') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27394,   1,   33556769) /* Setup */
-     , (27394,   3,  536870932) /* SoundTable */
-     , (27394,   6,   67111919) /* PaletteBase */
-     , (27394,   7,  268435723) /* ClothingBase */
-     , (27394,   8,  100676445) /* Icon */
-     , (27394,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27394,   1, 0x02000921) /* Setup */
+     , (27394,   3, 0x20000014) /* SoundTable */
+     , (27394,   6, 0x04000BEF) /* PaletteBase */
+     , (27394,   7, 0x1000010B) /* ClothingBase */
+     , (27394,   8, 0x0600335D) /* Icon */
+     , (27394,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27394,  28,        157) /* Spell - Summon Primary Portal I */
      , (27394,  31,      27405) /* LinkedPortalOne - Resting Place */
-     , (27394,  50,  100676404) /* IconOverlay */;
+     , (27394,  50, 0x06003334) /* IconOverlay */;

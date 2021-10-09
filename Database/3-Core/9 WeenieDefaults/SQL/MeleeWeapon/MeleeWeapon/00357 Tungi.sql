@@ -37,11 +37,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (357,   1, 'Tungi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (357,   1,   33554938) /* Setup */
-     , (357,   3,  536870932) /* SoundTable */
-     , (357,   6,   67111919) /* PaletteBase */
-     , (357,   7,  268435774) /* ClothingBase */
-     , (357,   8,  100669055) /* Icon */
-     , (357,  22,  872415275) /* PhysicsEffectTable */
-     , (357,  36,  234881053) /* MutateFilter */
-     , (357,  46,  939524098) /* TsysMutationFilter */;
+VALUES (357,   1, 0x020001FA) /* Setup */
+     , (357,   3, 0x20000014) /* SoundTable */
+     , (357,   6, 0x04000BEF) /* PaletteBase */
+     , (357,   7, 0x1000013E) /* ClothingBase */
+     , (357,   8, 0x0600167F) /* Icon */
+     , (357,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (357,  36, 0x0E00001D) /* MutateFilter */
+     , (357,  46, 0x38000002) /* TsysMutationFilter */;

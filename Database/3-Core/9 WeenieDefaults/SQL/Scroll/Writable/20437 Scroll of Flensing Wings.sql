@@ -24,7 +24,7 @@ VALUES (20437,   1, 'Scroll of Flensing Wings') /* Name */
      , (20437,  15, 'When learned, this spell shoots five whirling blades toward the target. Each blade does 40-80 points of Slashing damage to the first thing it hits.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20437,   1,   33554826) /* Setup */
-     , (20437,   8,  100677028) /* Icon */
-     , (20437,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20437,   1, 0x0200018A) /* Setup */
+     , (20437,   8, 0x060035A4) /* Icon */
+     , (20437,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20437,  28,       2125) /* Spell - Flensing Wings */;

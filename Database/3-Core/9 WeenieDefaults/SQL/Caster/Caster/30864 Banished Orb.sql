@@ -33,12 +33,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30864,   1, 'Banished Orb') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30864,   1,   33559253) /* Setup */
-     , (30864,   3,  536870932) /* SoundTable */
-     , (30864,   8,  100677486) /* Icon */
-     , (30864,  22,  872415275) /* PhysicsEffectTable */
-     , (30864,  27, 1073741873) /* UseUserAnimation - MagicHeal */;
+VALUES (30864,   1, 0x020012D5) /* Setup */
+     , (30864,   3, 0x20000014) /* SoundTable */
+     , (30864,   8, 0x0600376E) /* Icon */
+     , (30864,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30864,  27, 0x40000031) /* UseUserAnimation - MagicHeal */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30864,   658,      2)  /* Mana Conversion Mastery Self VI */
-     , (30864,  2569,      2)  /* Minor War Magic Aptitude */;
+VALUES (30864,  2569,      2)  /* Minor War Magic Aptitude */
+     , (30864,   658,      2)  /* Mana Conversion Mastery Self VI */;

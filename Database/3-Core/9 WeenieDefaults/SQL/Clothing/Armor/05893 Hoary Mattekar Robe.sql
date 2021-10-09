@@ -38,10 +38,10 @@ VALUES (5893,   1, 'Hoary Mattekar Robe') /* Name */
      , (5893,  15, 'Rare, lightweight, but warm robe crafted from the hide of the elusive Hoary Mattekar, rumored to appear only under certain conditions.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5893,   1,   33554854) /* Setup */
-     , (5893,   3,  536870932) /* SoundTable */
-     , (5893,   6,   67108990) /* PaletteBase */
-     , (5893,   7,  268436244) /* ClothingBase */
-     , (5893,   8,  100667351) /* Icon */
-     , (5893,  22,  872415275) /* PhysicsEffectTable */
-     , (5893,  36,  234881046) /* MutateFilter */;
+VALUES (5893,   1, 0x020001A6) /* Setup */
+     , (5893,   3, 0x20000014) /* SoundTable */
+     , (5893,   6, 0x0400007E) /* PaletteBase */
+     , (5893,   7, 0x10000314) /* ClothingBase */
+     , (5893,   8, 0x06000FD7) /* Icon */
+     , (5893,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (5893,  36, 0x0E000016) /* MutateFilter */;

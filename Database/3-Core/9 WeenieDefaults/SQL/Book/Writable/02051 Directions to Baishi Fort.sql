@@ -22,10 +22,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2051,   1, 'Directions to Baishi Fort') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2051,   1,   33554773) /* Setup */
-     , (2051,   3,  536870932) /* SoundTable */
-     , (2051,   8,  100668176) /* Icon */
-     , (2051,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (2051,   1, 0x02000155) /* Setup */
+     , (2051,   3, 0x20000014) /* SoundTable */
+     , (2051,   8, 0x06001310) /* Icon */
+     , (2051,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (2051, 1, 1000);

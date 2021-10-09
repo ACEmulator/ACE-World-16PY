@@ -25,7 +25,7 @@ VALUES (3274,   1, 'Scroll of Healing Mastery Other III') /* Name */
      , (3274,  16, 'When learned, this spell increases the target''s Healing skill by 50%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3274,   1,   33554826) /* Setup */
-     , (3274,   8,  100676459) /* Icon */
-     , (3274,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3274,   1, 0x0200018A) /* Setup */
+     , (3274,   8, 0x0600336B) /* Icon */
+     , (3274,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3274,  28,        882) /* Spell - Healing Mastery Other III */;

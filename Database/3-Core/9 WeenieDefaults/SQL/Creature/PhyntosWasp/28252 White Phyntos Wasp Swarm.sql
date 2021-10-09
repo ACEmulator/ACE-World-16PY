@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28252,   1, 'White Phyntos Wasp Swarm') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28252,   1,   33558818) /* Setup */
-     , (28252,   2,  150995304) /* MotionTable */
-     , (28252,   3,  536870926) /* SoundTable */
-     , (28252,   4,  805306385) /* CombatTable */
-     , (28252,   6,   67115262) /* PaletteBase */
-     , (28252,   7,  268436836) /* ClothingBase */
-     , (28252,   8,  100667450) /* Icon */
-     , (28252,  22,  872415266) /* PhysicsEffectTable */
+VALUES (28252,   1, 0x02001122) /* Setup */
+     , (28252,   2, 0x09000168) /* MotionTable */
+     , (28252,   3, 0x2000000E) /* SoundTable */
+     , (28252,   4, 0x30000011) /* CombatTable */
+     , (28252,   6, 0x040018FE) /* PaletteBase */
+     , (28252,   7, 0x10000564) /* ClothingBase */
+     , (28252,   8, 0x0600103A) /* Icon */
+     , (28252,  22, 0x34000022) /* PhysicsEffectTable */
      , (28252,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -87,15 +87,15 @@ VALUES (28252,   1,   150, 0, 0, 200) /* MaxHealth */
      , (28252,   5,     0, 0, 0, 90) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (28252,  6, 0, 3, 0, 230, 0, 2005.35829593191) /* MeleeDefense        Specialized */
-     , (28252,  7, 0, 3, 0, 345, 0, 2005.35829593191) /* MissileDefense      Specialized */
-     , (28252, 13, 0, 3, 0, 220, 0, 2005.35829593191) /* UnarmedCombat       Specialized */
-     , (28252, 14, 0, 3, 0, 285, 0, 2005.35829593191) /* ArcaneLore          Specialized */
-     , (28252, 15, 0, 3, 0, 230, 0, 2005.35829593191) /* MagicDefense        Specialized */
-     , (28252, 20, 0, 3, 0,   5, 0, 2005.35829593191) /* Deception           Specialized */
-     , (28252, 22, 0, 3, 0, 800, 0, 2005.35829593191) /* Jump                Specialized */
-     , (28252, 24, 0, 3, 0,  70, 0, 2005.35829593191) /* Run                 Specialized */
-     , (28252, 34, 0, 3, 0, 175, 0, 2005.35829593191) /* WarMagic            Specialized */;
+VALUES (28252,  6, 0, 3, 0, 230, 0, 2005.3582959319076) /* MeleeDefense        Specialized */
+     , (28252,  7, 0, 3, 0, 345, 0, 2005.3582959319076) /* MissileDefense      Specialized */
+     , (28252, 13, 0, 3, 0, 220, 0, 2005.3582959319076) /* UnarmedCombat       Specialized */
+     , (28252, 14, 0, 3, 0, 285, 0, 2005.3582959319076) /* ArcaneLore          Specialized */
+     , (28252, 15, 0, 3, 0, 230, 0, 2005.3582959319076) /* MagicDefense        Specialized */
+     , (28252, 20, 0, 3, 0,   5, 0, 2005.3582959319076) /* Deception           Specialized */
+     , (28252, 22, 0, 3, 0, 800, 0, 2005.3582959319076) /* Jump                Specialized */
+     , (28252, 24, 0, 3, 0,  70, 0, 2005.3582959319076) /* Run                 Specialized */
+     , (28252, 34, 0, 3, 0, 175, 0, 2005.3582959319076) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (28252,  0,  2, 25,  0.5,  140,  112,  112,   70,   90,   90,   90,   24,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */

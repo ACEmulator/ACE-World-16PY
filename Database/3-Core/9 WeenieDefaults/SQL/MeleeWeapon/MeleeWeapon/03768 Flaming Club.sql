@@ -39,12 +39,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3768,   1, 'Flaming Club') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3768,   1,   33555698) /* Setup */
-     , (3768,   3,  536870932) /* SoundTable */
-     , (3768,   6,   67111919) /* PaletteBase */
-     , (3768,   7,  268435761) /* ClothingBase */
-     , (3768,   8,  100667587) /* Icon */
-     , (3768,  22,  872415289) /* PhysicsEffectTable */
+VALUES (3768,   1, 0x020004F2) /* Setup */
+     , (3768,   3, 0x20000014) /* SoundTable */
+     , (3768,   6, 0x04000BEF) /* PaletteBase */
+     , (3768,   7, 0x10000131) /* ClothingBase */
+     , (3768,   8, 0x060010C3) /* Icon */
+     , (3768,  22, 0x34000039) /* PhysicsEffectTable */
      , (3768,  30,         84) /* PhysicsScript - BreatheFlame */
-     , (3768,  36,  234881053) /* MutateFilter */
-     , (3768,  46,  939524099) /* TsysMutationFilter */;
+     , (3768,  36, 0x0E00001D) /* MutateFilter */
+     , (3768,  46, 0x38000003) /* TsysMutationFilter */;

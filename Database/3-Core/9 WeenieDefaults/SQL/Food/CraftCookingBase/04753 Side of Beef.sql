@@ -25,7 +25,7 @@ VALUES (4753,   1, 'Side of Beef') /* Name */
      , (4753,  20, 'Sides of Beef') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4753,   1,   33556233) /* Setup */
-     , (4753,   3,  536870932) /* SoundTable */
-     , (4753,   8,  100670310) /* Icon */
-     , (4753,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4753,   1, 0x02000709) /* Setup */
+     , (4753,   3, 0x20000014) /* SoundTable */
+     , (4753,   8, 0x06001B66) /* Icon */
+     , (4753,  22, 0x3400002B) /* PhysicsEffectTable */;

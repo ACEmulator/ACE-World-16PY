@@ -41,13 +41,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23728,   1, 'Frost Yari') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23728,   1,   33555823) /* Setup */
-     , (23728,   3,  536870932) /* SoundTable */
-     , (23728,   6,   67111919) /* PaletteBase */
-     , (23728,   7,  268435777) /* ClothingBase */
-     , (23728,   8,  100667579) /* Icon */
-     , (23728,  22,  872415275) /* PhysicsEffectTable */
-     , (23728,  36,  234881044) /* MutateFilter */;
+VALUES (23728,   1, 0x0200056F) /* Setup */
+     , (23728,   3, 0x20000014) /* SoundTable */
+     , (23728,   6, 0x04000BEF) /* PaletteBase */
+     , (23728,   7, 0x10000141) /* ClothingBase */
+     , (23728,   8, 0x060010BB) /* Icon */
+     , (23728,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (23728,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23728,  1614,      2)  /* Aura of Blood Drinker Self IV */

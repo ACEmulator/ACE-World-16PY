@@ -36,9 +36,9 @@ VALUES (6329,   1, 'Pyreal Bar') /* Name */
      , (6329,  16, 'A bar of pyreal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6329,   1,   33555677) /* Setup */
-     , (6329,   3,  536870932) /* SoundTable */
-     , (6329,   6,   67111919) /* PaletteBase */
-     , (6329,   7,  268435967) /* ClothingBase */
-     , (6329,   8,  100670488) /* Icon */
-     , (6329,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6329,   1, 0x020004DD) /* Setup */
+     , (6329,   3, 0x20000014) /* SoundTable */
+     , (6329,   6, 0x04000BEF) /* PaletteBase */
+     , (6329,   7, 0x100001FF) /* ClothingBase */
+     , (6329,   8, 0x06001C18) /* Icon */
+     , (6329,  22, 0x3400002B) /* PhysicsEffectTable */;

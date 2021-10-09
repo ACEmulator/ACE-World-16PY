@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19303,   1, 'Bronze Statue of Ben Ten') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19303,   1,   33554510) /* Setup */
-     , (19303,   2,  150995187) /* MotionTable */
-     , (19303,   3,  536871052) /* SoundTable */
-     , (19303,   4,  805306368) /* CombatTable */
-     , (19303,   6,   67108990) /* PaletteBase */
-     , (19303,   7,  268436345) /* ClothingBase */
-     , (19303,   8,  100667446) /* Icon */
-     , (19303,  22,  872415349) /* PhysicsEffectTable */
+VALUES (19303,   1, 0x0200004E) /* Setup */
+     , (19303,   2, 0x090000F3) /* MotionTable */
+     , (19303,   3, 0x2000008C) /* SoundTable */
+     , (19303,   4, 0x30000000) /* CombatTable */
+     , (19303,   6, 0x0400007E) /* PaletteBase */
+     , (19303,   7, 0x10000379) /* ClothingBase */
+     , (19303,   8, 0x06001036) /* Icon */
+     , (19303,  22, 0x34000075) /* PhysicsEffectTable */
      , (19303,  32,        398) /* WieldedTreasureType - 
                                    Wield Ben Ten's Tachi (15391) | Probability: 100% */
      , (19303,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
@@ -91,16 +91,16 @@ VALUES (19303,   1,   160, 0, 0, 235) /* MaxHealth */
      , (19303,   5,     0, 0, 0, 180) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (19303,  2, 0, 3, 0, 130, 0, 1115.18788091171) /* Bow                 Specialized */
-     , (19303,  4, 0, 3, 0, 100, 0, 1115.18788091171) /* Dagger              Specialized */
-     , (19303,  6, 0, 3, 0, 110, 0, 1115.18788091171) /* MeleeDefense        Specialized */
-     , (19303,  7, 0, 3, 0, 231, 0, 1115.18788091171) /* MissileDefense      Specialized */
-     , (19303, 11, 0, 3, 0, 100, 0, 1115.18788091171) /* Sword               Specialized */
-     , (19303, 15, 0, 3, 0, 129, 0, 1115.18788091171) /* MagicDefense        Specialized */
-     , (19303, 24, 0, 3, 0, 100, 0, 1115.18788091171) /* Run                 Specialized */
-     , (19303, 31, 0, 3, 0,  95, 0, 1115.18788091171) /* CreatureEnchantment Specialized */
-     , (19303, 33, 0, 3, 0,  95, 0, 1115.18788091171) /* LifeMagic           Specialized */
-     , (19303, 34, 0, 3, 0,  95, 0, 1115.18788091171) /* WarMagic            Specialized */;
+VALUES (19303,  2, 0, 3, 0, 130, 0, 1115.1878809117102) /* Bow                 Specialized */
+     , (19303,  4, 0, 3, 0, 100, 0, 1115.1878809117102) /* Dagger              Specialized */
+     , (19303,  6, 0, 3, 0, 110, 0, 1115.1878809117102) /* MeleeDefense        Specialized */
+     , (19303,  7, 0, 3, 0, 231, 0, 1115.1878809117102) /* MissileDefense      Specialized */
+     , (19303, 11, 0, 3, 0, 100, 0, 1115.1878809117102) /* Sword               Specialized */
+     , (19303, 15, 0, 3, 0, 129, 0, 1115.1878809117102) /* MagicDefense        Specialized */
+     , (19303, 24, 0, 3, 0, 100, 0, 1115.1878809117102) /* Run                 Specialized */
+     , (19303, 31, 0, 3, 0,  95, 0, 1115.1878809117102) /* CreatureEnchantment Specialized */
+     , (19303, 33, 0, 3, 0,  95, 0, 1115.1878809117102) /* LifeMagic           Specialized */
+     , (19303, 34, 0, 3, 0,  95, 0, 1115.1878809117102) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (19303,  0,  4,  0,    0,  140,  168,  168,  182,  168,  168,  112,  140,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

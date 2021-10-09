@@ -38,11 +38,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22157,   1, 'Frost Jo') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22157,   1,   33558078) /* Setup */
-     , (22157,   3,  536870932) /* SoundTable */
-     , (22157,   6,   67111919) /* PaletteBase */
-     , (22157,   7,  268436488) /* ClothingBase */
-     , (22157,   8,  100667602) /* Icon */
-     , (22157,  22,  872415275) /* PhysicsEffectTable */
-     , (22157,  36,  234881053) /* MutateFilter */
-     , (22157,  46,  939524110) /* TsysMutationFilter */;
+VALUES (22157,   1, 0x02000E3E) /* Setup */
+     , (22157,   3, 0x20000014) /* SoundTable */
+     , (22157,   6, 0x04000BEF) /* PaletteBase */
+     , (22157,   7, 0x10000408) /* ClothingBase */
+     , (22157,   8, 0x060010D2) /* Icon */
+     , (22157,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (22157,  36, 0x0E00001D) /* MutateFilter */
+     , (22157,  46, 0x3800000E) /* TsysMutationFilter */;

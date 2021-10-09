@@ -34,7 +34,7 @@ VALUES (23127,  15, True ) /* LightsStatus */
      , (23127,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23127,   5,       0) /* ManaRate */
+VALUES (23127,   5,      -0) /* ManaRate */
      , (23127,  21,    0.68) /* WeaponLength */
      , (23127,  22,     0.4) /* DamageVariance */
      , (23127,  29,       1) /* WeaponDefense */
@@ -45,15 +45,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23127,   1, 'Flaming Club') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23127,   1,   33555698) /* Setup */
-     , (23127,   3,  536870932) /* SoundTable */
-     , (23127,   6,   67111919) /* PaletteBase */
-     , (23127,   7,  268435761) /* ClothingBase */
-     , (23127,   8,  100667587) /* Icon */
-     , (23127,  22,  872415289) /* PhysicsEffectTable */
+VALUES (23127,   1, 0x020004F2) /* Setup */
+     , (23127,   3, 0x20000014) /* SoundTable */
+     , (23127,   6, 0x04000BEF) /* PaletteBase */
+     , (23127,   7, 0x10000131) /* ClothingBase */
+     , (23127,   8, 0x060010C3) /* Icon */
+     , (23127,  22, 0x34000039) /* PhysicsEffectTable */
      , (23127,  30,         84) /* PhysicsScript - BreatheFlame */
-     , (23127,  36,  234881044) /* MutateFilter */;
+     , (23127,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23127,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (23127,  1624,      2)  /* Aura of Swift Killer Self III */;
+VALUES (23127,  1624,      2)  /* Aura of Swift Killer Self III */
+     , (23127,  1616,      2)  /* Aura of Blood Drinker Self VI */;

@@ -27,7 +27,7 @@ VALUES (14451,   1, 'Unconscious Body') /* Name */
      , (14451,  15, 'All your attempts to revive this poor adventurer are to no avail.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14451,   1,   33557477) /* Setup */
-     , (14451,   6,   67108990) /* PaletteBase */
-     , (14451,   7,  268436315) /* ClothingBase */
-     , (14451,   8,  100667446) /* Icon */;
+VALUES (14451,   1, 0x02000BE5) /* Setup */
+     , (14451,   6, 0x0400007E) /* PaletteBase */
+     , (14451,   7, 0x1000035B) /* ClothingBase */
+     , (14451,   8, 0x06001036) /* Icon */;

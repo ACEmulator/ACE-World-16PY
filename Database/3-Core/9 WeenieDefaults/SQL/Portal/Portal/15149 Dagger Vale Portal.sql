@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15149,   1, 'Dagger Vale Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15149,   1,   33554867) /* Setup */
-     , (15149,   2,  150994947) /* MotionTable */
-     , (15149,   8,  100667499) /* Icon */;
+VALUES (15149,   1, 0x020001B3) /* Setup */
+     , (15149,   2, 0x09000003) /* MotionTable */
+     , (15149,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15149, 2, 2749825053, 77.642, 107.465, 55.535, 0.5086132, 0, 0, -0.8609951) /* Destination */
-/* @teleloc 0xA3E7001D [77.642000 107.465000 55.535000] 0.508613 0.000000 0.000000 -0.860995 */;
+VALUES (15149, 2, 0xA3E7001D, 77.642, 107.465, 55.535, 0.508613, 0, 0, -0.860995) /* Destination */
+/* @teleloc 0xA3E7001D [77.641998 107.464996 55.535000] 0.508613 0.000000 0.000000 -0.860995 */;

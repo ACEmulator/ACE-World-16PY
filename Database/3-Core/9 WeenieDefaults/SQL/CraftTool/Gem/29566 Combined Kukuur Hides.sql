@@ -33,9 +33,9 @@ VALUES (29566,   1, 'Combined Kukuur Hides') /* Name */
      , (29566,  16, 'Three Kukuur hides have been placed together Reeshan''s, Kiree''s and Broodu''s.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29566,   1,   33554817) /* Setup */
-     , (29566,   3,  536870932) /* SoundTable */
-     , (29566,   6,   67111919) /* PaletteBase */
-     , (29566,   7,  268435832) /* ClothingBase */
-     , (29566,   8,  100677169) /* Icon */
-     , (29566,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29566,   1, 0x02000181) /* Setup */
+     , (29566,   3, 0x20000014) /* SoundTable */
+     , (29566,   6, 0x04000BEF) /* PaletteBase */
+     , (29566,   7, 0x10000178) /* ClothingBase */
+     , (29566,   8, 0x06003631) /* Icon */
+     , (29566,  22, 0x3400002B) /* PhysicsEffectTable */;

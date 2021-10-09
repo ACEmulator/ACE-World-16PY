@@ -22,7 +22,7 @@ VALUES (6383,   1,        256) /* ItemType - MissileWeapon */
      , (6383,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (6383,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (6383,  49,         10) /* WeaponTime */
-     , (6383,  51,          2) /* CombatUse - Missle */
+     , (6383,  51,          2) /* CombatUse - Missile */
      , (6383,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -44,8 +44,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6383,   1, 'Ball of Electricity') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6383,   1,   33555469) /* Setup */
-     , (6383,   3,  536870968) /* SoundTable */
-     , (6383,   8,  100667590) /* Icon */
-     , (6383,  22,  872415239) /* PhysicsEffectTable */
+VALUES (6383,   1, 0x0200040D) /* Setup */
+     , (6383,   3, 0x20000038) /* SoundTable */
+     , (6383,   8, 0x060010C6) /* Icon */
+     , (6383,  22, 0x34000007) /* PhysicsEffectTable */
      , (6383,  30,         90) /* PhysicsScript - ProjectileCollision */;

@@ -37,9 +37,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2019,   1, 'Trothyr''s Shield') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2019,   1,   33554786) /* Setup */
-     , (2019,   3,  536870932) /* SoundTable */
-     , (2019,   6,   67111919) /* PaletteBase */
-     , (2019,   7,  268435602) /* ClothingBase */
-     , (2019,   8,  100667361) /* Icon */
-     , (2019,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (2019,   1, 0x02000162) /* Setup */
+     , (2019,   3, 0x20000014) /* SoundTable */
+     , (2019,   6, 0x04000BEF) /* PaletteBase */
+     , (2019,   7, 0x10000092) /* ClothingBase */
+     , (2019,   8, 0x06000FE1) /* Icon */
+     , (2019,  22, 0x3400002B) /* PhysicsEffectTable */;

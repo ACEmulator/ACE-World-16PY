@@ -26,9 +26,9 @@ VALUES (24060,   1, 'Decorative Bronze Statue ') /* Name */
      , (24060,  16, 'A small decorative statue of a Reedshark crafted by the Arcanum Tinker, in reward for destroying the statues threatening the cities of Dereth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24060,   1,   33554489) /* Setup */
-     , (24060,   2,  150995208) /* MotionTable */
-     , (24060,   6,   67109313) /* PaletteBase */
-     , (24060,   7,  268436370) /* ClothingBase */
-     , (24060,   8,  100667939) /* Icon */
-     , (24060,  22,  872415386) /* PhysicsEffectTable */;
+VALUES (24060,   1, 0x02000039) /* Setup */
+     , (24060,   2, 0x09000108) /* MotionTable */
+     , (24060,   6, 0x040001C1) /* PaletteBase */
+     , (24060,   7, 0x10000392) /* ClothingBase */
+     , (24060,   8, 0x06001223) /* Icon */
+     , (24060,  22, 0x3400009A) /* PhysicsEffectTable */;

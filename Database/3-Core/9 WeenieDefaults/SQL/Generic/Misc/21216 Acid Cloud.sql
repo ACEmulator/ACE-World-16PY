@@ -22,5 +22,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21216,   1, 'Acid Cloud') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21216,   1,   33557281) /* Setup */
-     , (21216,   8,  100667494) /* Icon */;
+VALUES (21216,   1, 0x02000B21) /* Setup */
+     , (21216,   8, 0x06001066) /* Icon */;

@@ -28,7 +28,7 @@ VALUES (25798,   1, 'Scold''s Heart') /* Name */
      , (25798,  33, 'PickedUpGolemHeartMagmaDFD') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25798,   1,   33558517) /* Setup */
-     , (25798,   3,  536870932) /* SoundTable */
-     , (25798,   8,  100675515) /* Icon */
-     , (25798,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25798,   1, 0x02000FF5) /* Setup */
+     , (25798,   3, 0x20000014) /* SoundTable */
+     , (25798,   8, 0x06002FBB) /* Icon */
+     , (25798,  22, 0x3400002B) /* PhysicsEffectTable */;

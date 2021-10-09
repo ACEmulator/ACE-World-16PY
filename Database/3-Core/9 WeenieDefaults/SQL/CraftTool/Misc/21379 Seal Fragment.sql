@@ -31,7 +31,7 @@ VALUES (21379,   1, 'Seal Fragment') /* Name */
      , (21379,  33, 'ProvingGroundsRollingDeath') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21379,   1,   33557974) /* Setup */
-     , (21379,   3,  536870932) /* SoundTable */
-     , (21379,   8,  100673503) /* Icon */
-     , (21379,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21379,   1, 0x02000DD6) /* Setup */
+     , (21379,   3, 0x20000014) /* SoundTable */
+     , (21379,   8, 0x060027DF) /* Icon */
+     , (21379,  22, 0x3400002B) /* PhysicsEffectTable */;

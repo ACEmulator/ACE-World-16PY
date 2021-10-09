@@ -49,17 +49,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20013,   1, 'Superb Dissolving Isparian Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20013,   1,   33556346) /* Setup */
-     , (20013,   3,  536870932) /* SoundTable */
-     , (20013,   6,   67111919) /* PaletteBase */
-     , (20013,   7,  268436385) /* ClothingBase */
-     , (20013,   8,  100672950) /* Icon */
-     , (20013,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20013,   1, 0x0200077A) /* Setup */
+     , (20013,   3, 0x20000014) /* SoundTable */
+     , (20013,   6, 0x04000BEF) /* PaletteBase */
+     , (20013,   7, 0x100003A1) /* ClothingBase */
+     , (20013,   8, 0x060025B6) /* Icon */
+     , (20013,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20013,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20013,   518,      2)  /* Acid Protection Self IV */
-     , (20013,  1351,      2)  /* Endurance Self III */
+VALUES (20013,  1351,      2)  /* Endurance Self III */
+     , (20013,  2566,      2)  /* Minor Heavy Weapon Aptitude */
+     , (20013,   518,      2)  /* Acid Protection Self IV */
      , (20013,  1591,      2)  /* Aura of Heart Seeker Self V */
-     , (20013,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (20013,  2566,      2)  /* Minor Heavy Weapon Aptitude */;
+     , (20013,  1615,      2)  /* Aura of Blood Drinker Self V */;

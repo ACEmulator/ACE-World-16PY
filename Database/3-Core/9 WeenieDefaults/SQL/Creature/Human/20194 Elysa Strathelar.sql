@@ -67,14 +67,14 @@ VALUES (20194,   1, 'Elysa Strathelar') /* Name */
      , (20194,   5, 'Archer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20194,   1,   33554510) /* Setup */
-     , (20194,   2,  150994945) /* MotionTable */
-     , (20194,   3,  536870914) /* SoundTable */
-     , (20194,   4,  805306368) /* CombatTable */
-     , (20194,   6,   67108990) /* PaletteBase */
-     , (20194,   7,  268436404) /* ClothingBase */
-     , (20194,   8,  100667446) /* Icon */
-     , (20194,  22,  872415236) /* PhysicsEffectTable */;
+VALUES (20194,   1, 0x0200004E) /* Setup */
+     , (20194,   2, 0x09000001) /* MotionTable */
+     , (20194,   3, 0x20000002) /* SoundTable */
+     , (20194,   4, 0x30000000) /* CombatTable */
+     , (20194,   6, 0x0400007E) /* PaletteBase */
+     , (20194,   7, 0x100003B4) /* ClothingBase */
+     , (20194,   8, 0x06001036) /* Icon */
+     , (20194,  22, 0x34000004) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (20194,   1, 190, 0, 0) /* Strength */
@@ -90,41 +90,41 @@ VALUES (20194,   1,   180, 0, 0, 280) /* MaxHealth */
      , (20194,   5,    80, 0, 0, 280) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (20194,  1, 0, 3, 0, 200, 0, 1227.00231461185) /* Axe                 Specialized */
-     , (20194,  2, 0, 3, 0, 255, 0, 1227.00231461185) /* Bow                 Specialized */
-     , (20194,  3, 0, 3, 0, 200, 0, 1227.00231461185) /* Crossbow            Specialized */
-     , (20194,  4, 0, 3, 0, 100, 0, 1227.00231461185) /* Dagger              Specialized */
-     , (20194,  5, 0, 3, 0, 200, 0, 1227.00231461185) /* Mace                Specialized */
-     , (20194,  6, 0, 3, 0, 180, 0, 1227.00231461185) /* MeleeDefense        Specialized */
-     , (20194,  7, 0, 3, 0, 180, 0, 1227.00231461185) /* MissileDefense      Specialized */
-     , (20194,  9, 0, 3, 0, 200, 0, 1227.00231461185) /* Spear               Specialized */
-     , (20194, 10, 0, 3, 0, 200, 0, 1227.00231461185) /* Staff               Specialized */
-     , (20194, 11, 0, 3, 0, 350, 0, 1227.00231461185) /* Sword               Specialized */
-     , (20194, 12, 0, 3, 0, 200, 0, 1227.00231461185) /* ThrownWeapon        Specialized */
-     , (20194, 13, 0, 3, 0, 200, 0, 1227.00231461185) /* UnarmedCombat       Specialized */
-     , (20194, 14, 0, 3, 0, 200, 0, 1227.00231461185) /* ArcaneLore          Specialized */
-     , (20194, 15, 0, 3, 0, 163, 0, 1227.00231461185) /* MagicDefense        Specialized */
-     , (20194, 16, 0, 3, 0, 200, 0, 1227.00231461185) /* ManaConversion      Specialized */
-     , (20194, 18, 0, 3, 0, 200, 0, 1227.00231461185) /* ItemTinkering       Specialized */
-     , (20194, 19, 0, 3, 0, 200, 0, 1227.00231461185) /* AssessPerson        Specialized */
-     , (20194, 20, 0, 3, 0, 100, 0, 1227.00231461185) /* Deception           Specialized */
-     , (20194, 21, 0, 3, 0, 200, 0, 1227.00231461185) /* Healing             Specialized */
-     , (20194, 22, 0, 3, 0, 200, 0, 1227.00231461185) /* Jump                Specialized */
-     , (20194, 23, 0, 3, 0, 200, 0, 1227.00231461185) /* Lockpick            Specialized */
-     , (20194, 24, 0, 3, 0, 200, 0, 1227.00231461185) /* Run                 Specialized */
-     , (20194, 27, 0, 3, 0, 200, 0, 1227.00231461185) /* AssessCreature      Specialized */
-     , (20194, 28, 0, 3, 0, 200, 0, 1227.00231461185) /* WeaponTinkering     Specialized */
-     , (20194, 29, 0, 3, 0,  20, 0, 1227.00231461185) /* ArmorTinkering      Specialized */
-     , (20194, 30, 0, 3, 0, 200, 0, 1227.00231461185) /* MagicItemTinkering  Specialized */
-     , (20194, 31, 0, 3, 0, 150, 0, 1227.00231461185) /* CreatureEnchantment Specialized */
-     , (20194, 32, 0, 3, 0, 200, 0, 1227.00231461185) /* ItemEnchantment     Specialized */
-     , (20194, 33, 0, 3, 0, 200, 0, 1227.00231461185) /* LifeMagic           Specialized */
-     , (20194, 34, 0, 3, 0, 700, 0, 1227.00231461185) /* WarMagic            Specialized */
-     , (20194, 35, 0, 3, 0, 150, 0, 1227.00231461185) /* Leadership          Specialized */
-     , (20194, 36, 0, 3, 0, 900, 0, 1227.00231461185) /* Loyalty             Specialized */
-     , (20194, 37, 0, 3, 0, 180, 0, 1227.00231461185) /* Fletching           Specialized */
-     , (20194, 38, 0, 3, 0, 400, 0, 1227.00231461185) /* Alchemy             Specialized */
-     , (20194, 39, 0, 3, 0, 900, 0, 1227.00231461185) /* Cooking             Specialized */;
+VALUES (20194,  1, 0, 3, 0, 200, 0, 1227.0023146118488) /* Axe                 Specialized */
+     , (20194,  2, 0, 3, 0, 255, 0, 1227.0023146118488) /* Bow                 Specialized */
+     , (20194,  3, 0, 3, 0, 200, 0, 1227.0023146118488) /* Crossbow            Specialized */
+     , (20194,  4, 0, 3, 0, 100, 0, 1227.0023146118488) /* Dagger              Specialized */
+     , (20194,  5, 0, 3, 0, 200, 0, 1227.0023146118488) /* Mace                Specialized */
+     , (20194,  6, 0, 3, 0, 180, 0, 1227.0023146118488) /* MeleeDefense        Specialized */
+     , (20194,  7, 0, 3, 0, 180, 0, 1227.0023146118488) /* MissileDefense      Specialized */
+     , (20194,  9, 0, 3, 0, 200, 0, 1227.0023146118488) /* Spear               Specialized */
+     , (20194, 10, 0, 3, 0, 200, 0, 1227.0023146118488) /* Staff               Specialized */
+     , (20194, 11, 0, 3, 0, 350, 0, 1227.0023146118488) /* Sword               Specialized */
+     , (20194, 12, 0, 3, 0, 200, 0, 1227.0023146118488) /* ThrownWeapon        Specialized */
+     , (20194, 13, 0, 3, 0, 200, 0, 1227.0023146118488) /* UnarmedCombat       Specialized */
+     , (20194, 14, 0, 3, 0, 200, 0, 1227.0023146118488) /* ArcaneLore          Specialized */
+     , (20194, 15, 0, 3, 0, 163, 0, 1227.0023146118488) /* MagicDefense        Specialized */
+     , (20194, 16, 0, 3, 0, 200, 0, 1227.0023146118488) /* ManaConversion      Specialized */
+     , (20194, 18, 0, 3, 0, 200, 0, 1227.0023146118488) /* ItemTinkering       Specialized */
+     , (20194, 19, 0, 3, 0, 200, 0, 1227.0023146118488) /* AssessPerson        Specialized */
+     , (20194, 20, 0, 3, 0, 100, 0, 1227.0023146118488) /* Deception           Specialized */
+     , (20194, 21, 0, 3, 0, 200, 0, 1227.0023146118488) /* Healing             Specialized */
+     , (20194, 22, 0, 3, 0, 200, 0, 1227.0023146118488) /* Jump                Specialized */
+     , (20194, 23, 0, 3, 0, 200, 0, 1227.0023146118488) /* Lockpick            Specialized */
+     , (20194, 24, 0, 3, 0, 200, 0, 1227.0023146118488) /* Run                 Specialized */
+     , (20194, 27, 0, 3, 0, 200, 0, 1227.0023146118488) /* AssessCreature      Specialized */
+     , (20194, 28, 0, 3, 0, 200, 0, 1227.0023146118488) /* WeaponTinkering     Specialized */
+     , (20194, 29, 0, 3, 0,  20, 0, 1227.0023146118488) /* ArmorTinkering      Specialized */
+     , (20194, 30, 0, 3, 0, 200, 0, 1227.0023146118488) /* MagicItemTinkering  Specialized */
+     , (20194, 31, 0, 3, 0, 150, 0, 1227.0023146118488) /* CreatureEnchantment Specialized */
+     , (20194, 32, 0, 3, 0, 200, 0, 1227.0023146118488) /* ItemEnchantment     Specialized */
+     , (20194, 33, 0, 3, 0, 200, 0, 1227.0023146118488) /* LifeMagic           Specialized */
+     , (20194, 34, 0, 3, 0, 700, 0, 1227.0023146118488) /* WarMagic            Specialized */
+     , (20194, 35, 0, 3, 0, 150, 0, 1227.0023146118488) /* Leadership          Specialized */
+     , (20194, 36, 0, 3, 0, 900, 0, 1227.0023146118488) /* Loyalty             Specialized */
+     , (20194, 37, 0, 3, 0, 180, 0, 1227.0023146118488) /* Fletching           Specialized */
+     , (20194, 38, 0, 3, 0, 400, 0, 1227.0023146118488) /* Alchemy             Specialized */
+     , (20194, 39, 0, 3, 0, 900, 0, 1227.0023146118488) /* Cooking             Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (20194,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -138,8 +138,8 @@ VALUES (20194,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,
      , (20194,  8,  4,  2, 0.75,    0,    0,    0,    0,    0,    0,    0,    0,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20194,  1635,   2.04)  /* Lifestone Recall */
-     , (20194,  2645,   2.04)  /* Portal Recall */;
+VALUES (20194,  2645,   2.04)  /* Portal Recall */
+     , (20194,  1635,   2.04)  /* Lifestone Recall */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (20194, 414) /* PLAYER_DEATH_EVENT */;

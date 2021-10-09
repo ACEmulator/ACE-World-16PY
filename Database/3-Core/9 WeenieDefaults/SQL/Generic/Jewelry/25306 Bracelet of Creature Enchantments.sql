@@ -25,53 +25,53 @@ VALUES (25306,  22, True ) /* Inscribable */
      , (25306,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25306,   5,       0) /* ManaRate */;
+VALUES (25306,   5,      -0) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25306,   1, 'Bracelet of Creature Enchantments') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25306,   1,   33554683) /* Setup */
-     , (25306,   3,  536870932) /* SoundTable */
-     , (25306,   6,   67111919) /* PaletteBase */
-     , (25306,   7,  268436286) /* ClothingBase */
-     , (25306,   8,  100672215) /* Icon */
-     , (25306,  22,  872415275) /* PhysicsEffectTable */
-     , (25306,  36,  234881046) /* MutateFilter */;
+VALUES (25306,   1, 0x020000FB) /* Setup */
+     , (25306,   3, 0x20000014) /* SoundTable */
+     , (25306,   6, 0x04000BEF) /* PaletteBase */
+     , (25306,   7, 0x1000033E) /* ClothingBase */
+     , (25306,   8, 0x060022D7) /* Icon */
+     , (25306,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (25306,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25306,   244,      2)  /* Invulnerability Other VI */
-     , (25306,   255,      2)  /* Impregnability Other VI */
-     , (25306,   273,      2)  /* Magic Resistance Other VI */
-     , (25306,   297,      2)  /* Light Weapon Mastery Other VI */
-     , (25306,   321,      2)  /* Finesse Weapon Mastery Other VI */
-     , (25306,   345,      2)  /* Light Weapon Mastery Other VI */
-     , (25306,   369,      2)  /* Light Weapon Mastery Other VI */
-     , (25306,   393,      2)  /* Light Weapon Mastery Other VI */
-     , (25306,   417,      2)  /* Heavy Weapon Mastery Other VI */
-     , (25306,   442,      2)  /* Light Weapon Mastery Other VI */
-     , (25306,   466,      2)  /* Missile Weapon Mastery Other VI */
-     , (25306,   490,      2)  /* Missile Weapon Mastery Other VI */
-     , (25306,   538,      2)  /* Missile Weapon Mastery Other VI */
-     , (25306,   568,      2)  /* Creature Enchantment Mastery Other VI */
+VALUES (25306,   321,      2)  /* Finesse Weapon Mastery Other VI */
      , (25306,   592,      2)  /* Item Enchantment Mastery Other VI */
-     , (25306,   616,      2)  /* Life Magic Mastery Other VI */
-     , (25306,   640,      2)  /* War Magic Mastery Other VI */
      , (25306,   664,      2)  /* Mana Conversion Mastery Other VI */
-     , (25306,   689,      2)  /* Arcane Enlightenment Other VI */
-     , (25306,   713,      2)  /* Armor Tinkering Expertise Other VI */
-     , (25306,   737,      2)  /* Item Tinkering Expertise Other VI */
-     , (25306,   761,      2)  /* Magic Item Tinkering Expertise Other VI */
-     , (25306,   785,      2)  /* Weapon Tinkering Expertise Other VI */
-     , (25306,   809,      2)  /* Monster Attunement Other VI */
+     , (25306,   393,      2)  /* Light Weapon Mastery Other VI */
+     , (25306,   369,      2)  /* Light Weapon Mastery Other VI */
+     , (25306,   640,      2)  /* War Magic Mastery Other VI */
      , (25306,   835,      2)  /* Person Attunement Other VI */
-     , (25306,   861,      2)  /* Deception Mastery Other VI */
-     , (25306,   885,      2)  /* Healing Mastery Other VI */
-     , (25306,   909,      2)  /* Leadership Mastery Other VI */
-     , (25306,   933,      2)  /* Lockpick Mastery Other VI */
-     , (25306,   957,      2)  /* Fealty Other VI */
-     , (25306,   981,      2)  /* Jumping Mastery Other VI */
-     , (25306,   993,      2)  /* Sprint Other VI */
-     , (25306,  1714,      2)  /* Cooking Mastery Other VI */
+     , (25306,   713,      2)  /* Armor Tinkering Expertise Other VI */
      , (25306,  1738,      2)  /* Fletching Mastery Other VI */
-     , (25306,  1762,      2)  /* Alchemy Mastery Other VI */;
+     , (25306,   909,      2)  /* Leadership Mastery Other VI */
+     , (25306,   785,      2)  /* Weapon Tinkering Expertise Other VI */
+     , (25306,   273,      2)  /* Magic Resistance Other VI */
+     , (25306,   466,      2)  /* Missile Weapon Mastery Other VI */
+     , (25306,   981,      2)  /* Jumping Mastery Other VI */
+     , (25306,   616,      2)  /* Life Magic Mastery Other VI */
+     , (25306,   345,      2)  /* Light Weapon Mastery Other VI */
+     , (25306,   538,      2)  /* Missile Weapon Mastery Other VI */
+     , (25306,   861,      2)  /* Deception Mastery Other VI */
+     , (25306,   417,      2)  /* Heavy Weapon Mastery Other VI */
+     , (25306,   993,      2)  /* Sprint Other VI */
+     , (25306,   737,      2)  /* Item Tinkering Expertise Other VI */
+     , (25306,   244,      2)  /* Invulnerability Other VI */
+     , (25306,   933,      2)  /* Lockpick Mastery Other VI */
+     , (25306,  1762,      2)  /* Alchemy Mastery Other VI */
+     , (25306,   809,      2)  /* Monster Attunement Other VI */
+     , (25306,   568,      2)  /* Creature Enchantment Mastery Other VI */
+     , (25306,   297,      2)  /* Light Weapon Mastery Other VI */
+     , (25306,   490,      2)  /* Missile Weapon Mastery Other VI */
+     , (25306,   689,      2)  /* Arcane Enlightenment Other VI */
+     , (25306,   885,      2)  /* Healing Mastery Other VI */
+     , (25306,  1714,      2)  /* Cooking Mastery Other VI */
+     , (25306,   761,      2)  /* Magic Item Tinkering Expertise Other VI */
+     , (25306,   442,      2)  /* Light Weapon Mastery Other VI */
+     , (25306,   957,      2)  /* Fealty Other VI */
+     , (25306,   255,      2)  /* Impregnability Other VI */;

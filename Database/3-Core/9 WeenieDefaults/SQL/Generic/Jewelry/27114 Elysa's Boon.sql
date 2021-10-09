@@ -36,14 +36,14 @@ VALUES (27114,   1, 'Elysa''s Boon') /* Name */
      , (27114,  16, 'A ring given as reward for learning about a new threat to Dereth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27114,   1,   33554691) /* Setup */
-     , (27114,   3,  536870932) /* SoundTable */
-     , (27114,   6,   67111919) /* PaletteBase */
-     , (27114,   7,  268436318) /* ClothingBase */
-     , (27114,   8,  100675933) /* Icon */
-     , (27114,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27114,   1, 0x02000103) /* Setup */
+     , (27114,   3, 0x20000014) /* SoundTable */
+     , (27114,   6, 0x04000BEF) /* PaletteBase */
+     , (27114,   7, 0x1000035E) /* ClothingBase */
+     , (27114,   8, 0x0600315D) /* Icon */
+     , (27114,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27114,   162,      2)  /* Regeneration Other IV */
+VALUES (27114,   209,      2)  /* Mana Renewal Other IV */
      , (27114,   186,      2)  /* Rejuvenation Other IV */
-     , (27114,   209,      2)  /* Mana Renewal Other IV */;
+     , (27114,   162,      2)  /* Regeneration Other IV */;

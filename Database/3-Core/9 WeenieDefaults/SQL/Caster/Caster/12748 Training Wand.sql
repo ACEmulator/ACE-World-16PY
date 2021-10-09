@@ -30,11 +30,11 @@ VALUES (12748,   1, 'Training Wand') /* Name */
      , (12748,  15, 'A basic wand forged in the Strathelar Training Academy. This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12748,   1,   33558231) /* Setup */
-     , (12748,   3,  536870932) /* SoundTable */
-     , (12748,   6,   67111919) /* PaletteBase */
-     , (12748,   7,  268436546) /* ClothingBase */
-     , (12748,   8,  100674108) /* Icon */
-     , (12748,  22,  872415275) /* PhysicsEffectTable */
-     , (12748,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
-     , (12748,  36,  234881046) /* MutateFilter */;
+VALUES (12748,   1, 0x02000ED7) /* Setup */
+     , (12748,   3, 0x20000014) /* SoundTable */
+     , (12748,   6, 0x04000BEF) /* PaletteBase */
+     , (12748,   7, 0x10000442) /* ClothingBase */
+     , (12748,   8, 0x06002A3C) /* Icon */
+     , (12748,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (12748,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
+     , (12748,  36, 0x0E000016) /* MutateFilter */;

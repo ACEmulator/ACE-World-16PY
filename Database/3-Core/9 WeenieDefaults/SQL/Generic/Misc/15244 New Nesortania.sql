@@ -22,5 +22,5 @@ VALUES (15244,   1, 'New Nesortania') /* Name */
      , (15244,  16, 'Welcome to New Nesortania') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15244,   1,   33557463) /* Setup */
-     , (15244,   8,  100668115) /* Icon */;
+VALUES (15244,   1, 0x02000BD7) /* Setup */
+     , (15244,   8, 0x060012D3) /* Icon */;

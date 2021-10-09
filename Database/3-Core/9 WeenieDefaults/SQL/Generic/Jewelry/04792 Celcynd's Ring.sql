@@ -30,10 +30,10 @@ VALUES (4792,   1, 'Celcynd''s Ring') /* Name */
      , (4792,  16, 'A plain, thin, fragile-looking ring.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4792,   1,   33554691) /* Setup */
-     , (4792,   3,  536870932) /* SoundTable */
-     , (4792,   6,   67111919) /* PaletteBase */
-     , (4792,   7,  268435753) /* ClothingBase */
-     , (4792,   8,  100667317) /* Icon */
-     , (4792,  22,  872415275) /* PhysicsEffectTable */
-     , (4792,  36,  234881046) /* MutateFilter */;
+VALUES (4792,   1, 0x02000103) /* Setup */
+     , (4792,   3, 0x20000014) /* SoundTable */
+     , (4792,   6, 0x04000BEF) /* PaletteBase */
+     , (4792,   7, 0x10000129) /* ClothingBase */
+     , (4792,   8, 0x06000FB5) /* Icon */
+     , (4792,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (4792,  36, 0x0E000016) /* MutateFilter */;

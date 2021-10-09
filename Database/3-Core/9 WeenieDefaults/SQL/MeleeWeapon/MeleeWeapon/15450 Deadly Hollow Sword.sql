@@ -50,10 +50,10 @@ VALUES (15450,   1, 'Deadly Hollow Sword') /* Name */
      , (15450,  16, 'A sword crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon is unenchantable and ignores modified armor and protection values.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15450,   1,   33556645) /* Setup */
-     , (15450,   3,  536870932) /* SoundTable */
-     , (15450,   6,   67111919) /* PaletteBase */
-     , (15450,   7,  268435788) /* ClothingBase */
-     , (15450,   8,  100668915) /* Icon */
-     , (15450,  22,  872415275) /* PhysicsEffectTable */
-     , (15450,  36,  234881044) /* MutateFilter */;
+VALUES (15450,   1, 0x020008A5) /* Setup */
+     , (15450,   3, 0x20000014) /* SoundTable */
+     , (15450,   6, 0x04000BEF) /* PaletteBase */
+     , (15450,   7, 0x1000014C) /* ClothingBase */
+     , (15450,   8, 0x060015F3) /* Icon */
+     , (15450,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (15450,  36, 0x0E000014) /* MutateFilter */;

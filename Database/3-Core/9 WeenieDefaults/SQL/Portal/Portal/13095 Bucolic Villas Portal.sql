@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13095,   1, 'Bucolic Villas Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13095,   1,   33554867) /* Setup */
-     , (13095,   2,  150994947) /* MotionTable */
-     , (13095,   8,  100667499) /* Icon */;
+VALUES (13095,   1, 0x020001B3) /* Setup */
+     , (13095,   2, 0x09000003) /* MotionTable */
+     , (13095,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (13095, 2, 2461204537, 181.326, 12.571, 87.721, -0.9097512, 0, 0, -0.4151539) /* Destination */
-/* @teleloc 0x92B30039 [181.326000 12.571000 87.721000] -0.909751 0.000000 0.000000 -0.415154 */;
+VALUES (13095, 2, 0x92B30039, 181.326, 12.571, 87.721, -0.909751, 0, -0, -0.415154) /* Destination */
+/* @teleloc 0x92B30039 [181.326004 12.571000 87.721001] -0.909751 0.000000 -0.000000 -0.415154 */;

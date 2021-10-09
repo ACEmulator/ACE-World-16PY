@@ -22,7 +22,7 @@ VALUES (2275,   1, 'Weaver Zhoyong') /* Name */
      , (2275,  16, 'Weaver Zhoyong') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2275,   1,   33555088) /* Setup */
-     , (2275,   6,   67111092) /* PaletteBase */
-     , (2275,   7,  268435668) /* ClothingBase */
-     , (2275,   8,  100668115) /* Icon */;
+VALUES (2275,   1, 0x02000290) /* Setup */
+     , (2275,   6, 0x040008B4) /* PaletteBase */
+     , (2275,   7, 0x100000D4) /* ClothingBase */
+     , (2275,   8, 0x060012D3) /* Icon */;

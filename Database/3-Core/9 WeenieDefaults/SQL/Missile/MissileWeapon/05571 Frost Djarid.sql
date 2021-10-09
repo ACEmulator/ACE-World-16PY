@@ -21,7 +21,7 @@ VALUES (5571,   1,        256) /* ItemType - MissileWeapon */
      , (5571,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (5571,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (5571,  49,         20) /* WeaponTime */
-     , (5571,  51,          2) /* CombatUse - Missle */
+     , (5571,  51,          2) /* CombatUse - Missile */
      , (5571,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (5571, 150,        103) /* HookPlacement - Hook */
      , (5571, 151,          2) /* HookType - Wall */;
@@ -37,7 +37,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5571,   1, 'Frost Djarid') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5571,   1,   33555737) /* Setup */
-     , (5571,   3,  536870932) /* SoundTable */
-     , (5571,   8,  100667593) /* Icon */
-     , (5571,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5571,   1, 0x02000519) /* Setup */
+     , (5571,   3, 0x20000014) /* SoundTable */
+     , (5571,   8, 0x060010C9) /* Icon */
+     , (5571,  22, 0x3400002B) /* PhysicsEffectTable */;

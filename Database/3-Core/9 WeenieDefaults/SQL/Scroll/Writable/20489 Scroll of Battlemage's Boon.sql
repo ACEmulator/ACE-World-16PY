@@ -24,7 +24,7 @@ VALUES (20489,   1, 'Scroll of Battlemage''s Boon') /* Name */
      , (20489,  15, 'When learned, this spell increases the target''s natural mana rate by 115%.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20489,   1,   33554826) /* Setup */
-     , (20489,   8,  100676939) /* Icon */
-     , (20489,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20489,   1, 0x0200018A) /* Setup */
+     , (20489,   8, 0x0600354B) /* Icon */
+     , (20489,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20489,  28,       2182) /* Spell - Battlemage's Boon */;

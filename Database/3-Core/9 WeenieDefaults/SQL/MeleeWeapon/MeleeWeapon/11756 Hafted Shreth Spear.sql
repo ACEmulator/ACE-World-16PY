@@ -44,12 +44,12 @@ VALUES (11756,   1, 'Hafted Shreth Spear') /* Name */
      , (11756,  16, 'A hafted, spear-tipped banner with a shreth on it.  It is relatively well kept, and the colors seem even and pure.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11756,   1,   33557260) /* Setup */
-     , (11756,   3,  536870932) /* SoundTable */
-     , (11756,   6,   67113338) /* PaletteBase */
-     , (11756,   7,  268436234) /* ClothingBase */
-     , (11756,   8,  100671911) /* Icon */
-     , (11756,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11756,   1, 0x02000B0C) /* Setup */
+     , (11756,   3, 0x20000014) /* SoundTable */
+     , (11756,   6, 0x0400117A) /* PaletteBase */
+     , (11756,   7, 0x1000030A) /* ClothingBase */
+     , (11756,   8, 0x060021A7) /* Icon */
+     , (11756,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11756,  2004,      2)  /* Warrior's Vitality */;

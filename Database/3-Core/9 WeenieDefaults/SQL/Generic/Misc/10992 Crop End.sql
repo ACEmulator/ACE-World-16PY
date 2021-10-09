@@ -24,7 +24,7 @@ VALUES (10992,   1, 'Crop End') /* Name */
      , (10992,  33, 'championquest05') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10992,   1,   33557226) /* Setup */
-     , (10992,   3,  536870932) /* SoundTable */
-     , (10992,   8,  100671858) /* Icon */
-     , (10992,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (10992,   1, 0x02000AEA) /* Setup */
+     , (10992,   3, 0x20000014) /* SoundTable */
+     , (10992,   8, 0x06002172) /* Icon */
+     , (10992,  22, 0x3400002B) /* PhysicsEffectTable */;

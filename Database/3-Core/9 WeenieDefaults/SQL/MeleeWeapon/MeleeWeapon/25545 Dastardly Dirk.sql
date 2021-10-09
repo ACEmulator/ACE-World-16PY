@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25545,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25545,   5, -0.01666) /* ManaRate */
+VALUES (25545,   5,  -0.017) /* ManaRate */
      , (25545,  21,     0.4) /* WeaponLength */
      , (25545,  22,     0.5) /* DamageVariance */
      , (25545,  29,    1.11) /* WeaponDefense */
@@ -44,11 +44,11 @@ VALUES (25545,   1, 'Dastardly Dirk') /* Name */
      , (25545,  15, 'This dirk, a filed down shin bone from an ancient skeleton, radiates a significant amount of heat. Flames erupt from the bone when wielded.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25545,   1,   33558497) /* Setup */
-     , (25545,   3,  536870932) /* SoundTable */
-     , (25545,   6,   67111919) /* PaletteBase */
-     , (25545,   8,  100674963) /* Icon */
-     , (25545,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25545,   1, 0x02000FE1) /* Setup */
+     , (25545,   3, 0x20000014) /* SoundTable */
+     , (25545,   6, 0x04000BEF) /* PaletteBase */
+     , (25545,   8, 0x06002D93) /* Icon */
+     , (25545,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25545,  1096,      2)  /* Fire Protection Other VI */

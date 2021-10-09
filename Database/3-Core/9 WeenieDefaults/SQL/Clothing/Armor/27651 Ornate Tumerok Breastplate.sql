@@ -47,12 +47,12 @@ VALUES (27651,   1, 'Ornate Tumerok Breastplate') /* Name */
      , (27651,  33, 'RenegadeBreastplateGeneral') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27651,   1,   33554642) /* Setup */
-     , (27651,   3,  536870932) /* SoundTable */
-     , (27651,   6,   67108990) /* PaletteBase */
-     , (27651,   7,  268436826) /* ClothingBase */
-     , (27651,   8,  100676500) /* Icon */
-     , (27651,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27651,   1, 0x020000D2) /* Setup */
+     , (27651,   3, 0x20000014) /* SoundTable */
+     , (27651,   6, 0x0400007E) /* PaletteBase */
+     , (27651,   7, 0x1000055A) /* ClothingBase */
+     , (27651,   8, 0x06003394) /* Icon */
+     , (27651,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27651,  2242,      2)  /* Web of Deflection */

@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14638,   1, 'Jasmine Meadow Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14638,   1,   33554867) /* Setup */
-     , (14638,   2,  150994947) /* MotionTable */
-     , (14638,   8,  100667499) /* Icon */;
+VALUES (14638,   1, 0x020001B3) /* Setup */
+     , (14638,   2, 0x09000003) /* MotionTable */
+     , (14638,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14638, 2, 3175546909, 80.866, 102.108, 37.496, 0.5809089, 0, 0, -0.8139686) /* Destination */
-/* @teleloc 0xBD47001D [80.866000 102.108000 37.496000] 0.580909 0.000000 0.000000 -0.813969 */;
+VALUES (14638, 2, 0xBD47001D, 80.866, 102.108, 37.496, 0.580909, 0, 0, -0.813969) /* Destination */
+/* @teleloc 0xBD47001D [80.865997 102.108002 37.495998] 0.580909 0.000000 0.000000 -0.813969 */;

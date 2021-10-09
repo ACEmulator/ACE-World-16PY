@@ -24,7 +24,7 @@ VALUES (28015,   1, 'Scroll of Pacification') /* Name */
      , (28015,  15, 'When learned, this spell decreases a caster''s damage mod by 0.07 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28015,   1,   33554826) /* Setup */
-     , (28015,   8,  100676675) /* Icon */
-     , (28015,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28015,   1, 0x0200018A) /* Setup */
+     , (28015,   8, 0x06003443) /* Icon */
+     , (28015,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28015,  28,       3266) /* Spell - Spirit Pacification */;

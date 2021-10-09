@@ -29,7 +29,7 @@ VALUES (5258,   1, 'Hearty Fish Noodle') /* Name */
      , (5258,  20, 'Bowls of Hearty Fish Noodle ') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5258,   1,   33554668) /* Setup */
-     , (5258,   3,  536870932) /* SoundTable */
-     , (5258,   8,  100669966) /* Icon */
-     , (5258,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5258,   1, 0x020000EC) /* Setup */
+     , (5258,   3, 0x20000014) /* SoundTable */
+     , (5258,   8, 0x06001A0E) /* Icon */
+     , (5258,  22, 0x3400002B) /* PhysicsEffectTable */;

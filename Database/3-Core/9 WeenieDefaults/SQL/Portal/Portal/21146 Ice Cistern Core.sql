@@ -26,10 +26,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21146,   1, 'Ice Cistern Core') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21146,   1,   33555923) /* Setup */
-     , (21146,   2,  150994947) /* MotionTable */
-     , (21146,   8,  100667499) /* Icon */;
+VALUES (21146,   1, 0x020005D3) /* Setup */
+     , (21146,   2, 0x09000003) /* MotionTable */
+     , (21146,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21146, 2, 1448673648, 40, -130, 24.0756, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0x56590170 [40.000000 -130.000000 24.075600] 1.000000 0.000000 0.000000 0.000000 */;
+VALUES (21146, 2, 0x56590170, 40, -130, 24.0756, 1, 0, 0, -0) /* Destination */
+/* @teleloc 0x56590170 [40.000000 -130.000000 24.075600] 1.000000 0.000000 0.000000 -0.000000 */;

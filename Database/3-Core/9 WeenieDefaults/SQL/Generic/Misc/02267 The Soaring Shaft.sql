@@ -22,7 +22,7 @@ VALUES (2267,   1, 'The Soaring Shaft') /* Name */
      , (2267,  16, 'The Soaring Shaft') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2267,   1,   33555088) /* Setup */
-     , (2267,   6,   67111092) /* PaletteBase */
-     , (2267,   7,  268435654) /* ClothingBase */
-     , (2267,   8,  100668115) /* Icon */;
+VALUES (2267,   1, 0x02000290) /* Setup */
+     , (2267,   6, 0x040008B4) /* PaletteBase */
+     , (2267,   7, 0x100000C6) /* ClothingBase */
+     , (2267,   8, 0x060012D3) /* Icon */;

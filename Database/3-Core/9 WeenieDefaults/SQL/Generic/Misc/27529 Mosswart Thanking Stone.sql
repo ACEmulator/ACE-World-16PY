@@ -26,7 +26,7 @@ VALUES (27529,   1, 'Mosswart Thanking Stone') /* Name */
      , (27529,  16, 'A small stone carved with the stylized face of a smiling Mosswart. These are given by Mosswarts as a gesture of thanks.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27529,   1,   33558698) /* Setup */
-     , (27529,   3,  536870932) /* SoundTable */
-     , (27529,   8,  100676432) /* Icon */
-     , (27529,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27529,   1, 0x020010AA) /* Setup */
+     , (27529,   3, 0x20000014) /* SoundTable */
+     , (27529,   8, 0x06003350) /* Icon */
+     , (27529,  22, 0x3400002B) /* PhysicsEffectTable */;

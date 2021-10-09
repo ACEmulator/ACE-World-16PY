@@ -37,7 +37,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4189,   1, 'Practice Quarrel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4189,   1,   33554730) /* Setup */
-     , (4189,   3,  536870932) /* SoundTable */
-     , (4189,   8,  100667584) /* Icon */
-     , (4189,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4189,   1, 0x0200012A) /* Setup */
+     , (4189,   3, 0x20000014) /* SoundTable */
+     , (4189,   8, 0x060010C0) /* Icon */
+     , (4189,  22, 0x3400002B) /* PhysicsEffectTable */;

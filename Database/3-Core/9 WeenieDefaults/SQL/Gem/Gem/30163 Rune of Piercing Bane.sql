@@ -30,10 +30,10 @@ VALUES (30163,   1, 'Rune of Piercing Bane') /* Name */
      , (30163,  16, 'A lovely template for a rare magical gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30163,   1,   33554809) /* Setup */
-     , (30163,   3,  536870932) /* SoundTable */
-     , (30163,   6,   67111919) /* PaletteBase */
-     , (30163,   7,  268435723) /* ClothingBase */
-     , (30163,   8,  100674739) /* Icon */
-     , (30163,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30163,   1, 0x02000179) /* Setup */
+     , (30163,   3, 0x20000014) /* SoundTable */
+     , (30163,   6, 0x04000BEF) /* PaletteBase */
+     , (30163,   7, 0x1000010B) /* ClothingBase */
+     , (30163,   8, 0x06002CB3) /* Icon */
+     , (30163,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30163,  28,       2113) /* Spell - Archer's Bane */;

@@ -22,5 +22,5 @@ VALUES (12633,   1, 'New Colier') /* Name */
      , (12633,  16, 'Welcome to New Colier') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12633,   1,   33557463) /* Setup */
-     , (12633,   8,  100668115) /* Icon */;
+VALUES (12633,   1, 0x02000BD7) /* Setup */
+     , (12633,   8, 0x060012D3) /* Icon */;

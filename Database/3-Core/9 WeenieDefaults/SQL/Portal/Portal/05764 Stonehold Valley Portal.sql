@@ -25,10 +25,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5764,   1, 'Stonehold Valley Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5764,   1,   33555923) /* Setup */
-     , (5764,   2,  150994947) /* MotionTable */
-     , (5764,   8,  100667499) /* Icon */;
+VALUES (5764,   1, 0x020005D3) /* Setup */
+     , (5764,   2, 0x09000003) /* MotionTable */
+     , (5764,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5764, 2, 1590820869, 12, 108, 20.5, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0x5ED20005 [12.000000 108.000000 20.500000] 1.000000 0.000000 0.000000 0.000000 */;
+VALUES (5764, 2, 0x5ED20005, 12, 108, 20.5, 1, 0, 0, -0) /* Destination */
+/* @teleloc 0x5ED20005 [12.000000 108.000000 20.500000] 1.000000 0.000000 0.000000 -0.000000 */;

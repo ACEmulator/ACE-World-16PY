@@ -44,13 +44,13 @@ VALUES (24174,   1, 'Jaleh''s Chain Shirt') /* Name */
      , (24174,  15, 'This chain mail shirt has been modified with a silken lining. It seems to breath better and offer better protection from heat and cold') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24174,   1,   33554883) /* Setup */
-     , (24174,   3,  536870932) /* SoundTable */
-     , (24174,   6,   67108990) /* PaletteBase */
-     , (24174,   7,  268436594) /* ClothingBase */
-     , (24174,   8,  100667335) /* Icon */
-     , (24174,  22,  872415275) /* PhysicsEffectTable */
-     , (24174,  36,  234881042) /* MutateFilter */;
+VALUES (24174,   1, 0x020001C3) /* Setup */
+     , (24174,   3, 0x20000014) /* SoundTable */
+     , (24174,   6, 0x0400007E) /* PaletteBase */
+     , (24174,   7, 0x10000472) /* ClothingBase */
+     , (24174,   8, 0x06000FC7) /* Icon */
+     , (24174,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24174,  36, 0x0E000012) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24174,  1485,      2)  /* Impenetrability V */

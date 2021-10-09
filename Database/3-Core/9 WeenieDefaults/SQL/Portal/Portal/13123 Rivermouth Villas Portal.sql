@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13123,   1, 'Rivermouth Villas Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13123,   1,   33554867) /* Setup */
-     , (13123,   2,  150994947) /* MotionTable */
-     , (13123,   8,  100667499) /* Icon */;
+VALUES (13123,   1, 0x020001B3) /* Setup */
+     , (13123,   2, 0x09000003) /* MotionTable */
+     , (13123,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (13123, 2, 1086259248, 126.541, 174.326, 7.478, -0.08734732, 0, 0, -0.9961779) /* Destination */
-/* @teleloc 0x40BF0030 [126.541000 174.326000 7.478000] -0.087347 0.000000 0.000000 -0.996178 */;
+VALUES (13123, 2, 0x40BF0030, 126.541, 174.326, 7.478, -0.087347, 0, -0, -0.996178) /* Destination */
+/* @teleloc 0x40BF0030 [126.541000 174.326004 7.478000] -0.087347 0.000000 -0.000000 -0.996178 */;

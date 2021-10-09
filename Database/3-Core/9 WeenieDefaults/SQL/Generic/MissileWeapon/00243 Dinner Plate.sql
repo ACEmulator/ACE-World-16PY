@@ -16,7 +16,7 @@ VALUES (243,   1,        256) /* ItemType - MissileWeapon */
      , (243,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (243,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (243,  49,         10) /* WeaponTime */
-     , (243,  51,          2) /* CombatUse - Missle */
+     , (243,  51,          2) /* CombatUse - Missile */
      , (243,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (243, 150,        103) /* HookPlacement - Hook */
      , (243, 151,          2) /* HookType - Wall */
@@ -40,10 +40,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (243,   1, 'Dinner Plate') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (243,   1,   33554928) /* Setup */
-     , (243,   3,  536871012) /* SoundTable */
-     , (243,   6,   67111092) /* PaletteBase */
-     , (243,   7,  268435752) /* ClothingBase */
-     , (243,   8,  100668742) /* Icon */
-     , (243,  22,  872415275) /* PhysicsEffectTable */
-     , (243,  36,  234881046) /* MutateFilter */;
+VALUES (243,   1, 0x020001F0) /* Setup */
+     , (243,   3, 0x20000064) /* SoundTable */
+     , (243,   6, 0x040008B4) /* PaletteBase */
+     , (243,   7, 0x10000128) /* ClothingBase */
+     , (243,   8, 0x06001546) /* Icon */
+     , (243,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (243,  36, 0x0E000016) /* MutateFilter */;

@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12526,   1, 'Narziz Cottages Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12526,   1,   33554867) /* Setup */
-     , (12526,   2,  150994947) /* MotionTable */
-     , (12526,   8,  100667499) /* Icon */;
+VALUES (12526,   1, 0x020001B3) /* Setup */
+     , (12526,   2, 0x09000003) /* MotionTable */
+     , (12526,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12526, 2, 2825322529, 98.353, 7.199, 40.605, -0.9929696, 0, 0, -0.1183693) /* Destination */
-/* @teleloc 0xA8670021 [98.353000 7.199000 40.605000] -0.992970 0.000000 0.000000 -0.118369 */;
+VALUES (12526, 2, 0xA8670021, 98.353, 7.199, 40.605, -0.99297, 0, -0, -0.118369) /* Destination */
+/* @teleloc 0xA8670021 [98.352997 7.199000 40.605000] -0.992970 0.000000 -0.000000 -0.118369 */;

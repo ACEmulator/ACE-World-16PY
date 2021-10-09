@@ -22,5 +22,5 @@ VALUES (15689,   1, 'Ardent Realm') /* Name */
      , (15689,  16, 'Welcome to Ardent Realm') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15689,   1,   33557463) /* Setup */
-     , (15689,   8,  100668115) /* Icon */;
+VALUES (15689,   1, 0x02000BD7) /* Setup */
+     , (15689,   8, 0x060012D3) /* Icon */;

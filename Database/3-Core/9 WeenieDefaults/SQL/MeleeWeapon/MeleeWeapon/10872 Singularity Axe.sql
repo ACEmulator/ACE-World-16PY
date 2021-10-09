@@ -47,14 +47,14 @@ VALUES (10872,   1, 'Singularity Axe') /* Name */
      , (10872,  15, 'An axe imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10872,   1,   33557311) /* Setup */
-     , (10872,   3,  536870932) /* SoundTable */
-     , (10872,   6,   67111919) /* PaletteBase */
-     , (10872,   7,  268436125) /* ClothingBase */
-     , (10872,   8,  100672041) /* Icon */
-     , (10872,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10872,   1, 0x02000B3F) /* Setup */
+     , (10872,   3, 0x20000014) /* SoundTable */
+     , (10872,   6, 0x04000BEF) /* PaletteBase */
+     , (10872,   7, 0x1000029D) /* ClothingBase */
+     , (10872,   8, 0x06002229) /* Icon */
+     , (10872,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10872,  30,         88) /* PhysicsScript - Create */
-     , (10872,  36,  234881044) /* MutateFilter */
+     , (10872,  36, 0x0E000014) /* MutateFilter */
      , (10872,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

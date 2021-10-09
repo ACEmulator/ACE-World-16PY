@@ -24,8 +24,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (508,   1, 'Tutorial (Part 5)') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (508,   1,   33555088) /* Setup */
-     , (508,   8,  100668115) /* Icon */;
+VALUES (508,   1, 0x02000290) /* Setup */
+     , (508,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (508, 5, 1000);

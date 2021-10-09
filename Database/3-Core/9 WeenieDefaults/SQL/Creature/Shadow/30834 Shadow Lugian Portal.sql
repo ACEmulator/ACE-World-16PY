@@ -71,17 +71,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30834,   1, 'Shadow Lugian Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30834,   1,   33559251) /* Setup */
-     , (30834,   2,  150995332) /* MotionTable */
-     , (30834,   3,  536871015) /* SoundTable */
-     , (30834,   4,  805306404) /* CombatTable */
-     , (30834,   8,  100677463) /* Icon */
-     , (30834,  22,  872415331) /* PhysicsEffectTable */
+VALUES (30834,   1, 0x020012D3) /* Setup */
+     , (30834,   2, 0x09000184) /* MotionTable */
+     , (30834,   3, 0x20000067) /* SoundTable */
+     , (30834,   4, 0x30000024) /* CombatTable */
+     , (30834,   8, 0x06003757) /* Icon */
+     , (30834,  22, 0x34000063) /* PhysicsEffectTable */
      , (30834,  31,      30844) /* LinkedPortalOne - Purple Portal Template */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30834, 12, 445514003, -198, -25, 88.405, 1, 0, 0, 0) /* PortalSummonLoc */
-/* @teleloc 0x1A8E0113 [-198.000000 -25.000000 88.405000] 1.000000 0.000000 0.000000 0.000000 */;
+VALUES (30834, 12, 0x1A8E0113, -198, -25, 88.405, 1, 0, 0, -0) /* PortalSummonLoc */
+/* @teleloc 0x1A8E0113 [-198.000000 -25.000000 88.404999] 1.000000 0.000000 0.000000 -0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30834,   1, 100, 0, 0) /* Strength */
@@ -97,10 +97,10 @@ VALUES (30834,   1,  5000, 0, 0, 5050) /* MaxHealth */
      , (30834,   5, 10000, 0, 0, 10100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (30834, 31, 0, 3, 0, 3000, 0, 2304.74129132057) /* CreatureEnchantment Specialized */
-     , (30834, 32, 0, 3, 0, 3000, 0, 2304.74129132057) /* ItemEnchantment     Specialized */
-     , (30834, 33, 0, 3, 0, 3000, 0, 2304.74129132057) /* LifeMagic           Specialized */
-     , (30834, 34, 0, 3, 0, 3000, 0, 2304.74129132057) /* WarMagic            Specialized */;
+VALUES (30834, 31, 0, 3, 0, 3000, 0, 2304.741291320572) /* CreatureEnchantment Specialized */
+     , (30834, 32, 0, 3, 0, 3000, 0, 2304.741291320572) /* ItemEnchantment     Specialized */
+     , (30834, 33, 0, 3, 0, 3000, 0, 2304.741291320572) /* LifeMagic           Specialized */
+     , (30834, 34, 0, 3, 0, 3000, 0, 2304.741291320572) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (30834,  0,  2,  0, 0.75,  150,  150,  150,  150,  150,  150,  150,  150,    0, 1,  0.4,  0.1,    0,  0.4,  0.1,    0,    0,    0,    0,    0,    0,    0) /* Head */
@@ -111,17 +111,17 @@ VALUES (30834,  0,  2,  0, 0.75,  150,  150,  150,  150,  150,  150,  150,  150,
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30834,  1198,   2.02)  /* Enfeeble Other IV */
      , (30834,  1222,   2.02)  /* Mana Drain Other IV */
-     , (30834,  1341,   2.02)  /* Weakness Other IV */
-     , (30834,  1370,   2.03)  /* Frailty Other IV */
      , (30834,  1394,   2.02)  /* Clumsiness Other IV */
-     , (30834,  1418,   2.02)  /* Slowness Other IV */
      , (30834,  1442,   2.03)  /* Bafflement Other IV */
-     , (30834,  1466,   2.02)  /* Feeblemind Other IV */
-     , (30834,  1839,    2.2)  /* Blistering Creeper */
+     , (30834,  1370,   2.03)  /* Frailty Other IV */
+     , (30834,  1418,   2.02)  /* Slowness Other IV */
      , (30834,  1841,    2.2)  /* Slithering Flames */
+     , (30834,  2188,   2.02)  /* Bottle Breaker */
+     , (30834,  1839,    2.2)  /* Blistering Creeper */
      , (30834,  1843,    2.2)  /* Foon-Ki's Glacial Floe */
      , (30834,  1844,    2.2)  /* Os' Wall */
-     , (30834,  2188,   2.02)  /* Bottle Breaker */;
+     , (30834,  1466,   2.02)  /* Feeblemind Other IV */
+     , (30834,  1341,   2.02)  /* Weakness Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (30834,  94) /* ATTACK_NOTIFICATION_EVENT */

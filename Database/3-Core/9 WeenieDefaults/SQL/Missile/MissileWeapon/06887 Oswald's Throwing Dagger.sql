@@ -21,7 +21,7 @@ VALUES (6887,   1,        256) /* ItemType - MissileWeapon */
      , (6887,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (6887,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (6887,  49,         10) /* WeaponTime */
-     , (6887,  51,          2) /* CombatUse - Missle */
+     , (6887,  51,          2) /* CombatUse - Missile */
      , (6887,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (6887, 150,        103) /* HookPlacement - Hook */
      , (6887, 151,          2) /* HookType - Wall */;
@@ -43,7 +43,7 @@ VALUES (6887,   1, 'Oswald''s Throwing Dagger') /* Name */
      , (6887,  16, 'An electric throwing dagger that once belonged to the infamous assassin Oswald.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6887,   1,   33555697) /* Setup */
-     , (6887,   3,  536870932) /* SoundTable */
-     , (6887,   8,  100667590) /* Icon */
-     , (6887,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6887,   1, 0x020004F1) /* Setup */
+     , (6887,   3, 0x20000014) /* SoundTable */
+     , (6887,   8, 0x060010C6) /* Icon */
+     , (6887,  22, 0x3400002B) /* PhysicsEffectTable */;

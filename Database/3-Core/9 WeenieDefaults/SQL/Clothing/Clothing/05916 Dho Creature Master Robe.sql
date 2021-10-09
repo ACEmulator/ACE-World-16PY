@@ -43,18 +43,18 @@ VALUES (5916,   1, 'Dho Creature Master Robe') /* Name */
      , (5916,  19, 'Gharu''ndim') /* ItemHeritageGroupRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5916,   1,   33554854) /* Setup */
-     , (5916,   3,  536870932) /* SoundTable */
-     , (5916,   6,   67108990) /* PaletteBase */
-     , (5916,   7,  268435855) /* ClothingBase */
-     , (5916,   8,  100670366) /* Icon */
-     , (5916,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5916,   1, 0x020001A6) /* Setup */
+     , (5916,   3, 0x20000014) /* SoundTable */
+     , (5916,   6, 0x0400007E) /* PaletteBase */
+     , (5916,   7, 0x1000018F) /* ClothingBase */
+     , (5916,   8, 0x06001B9E) /* Icon */
+     , (5916,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5916,  37,         31) /* ItemSkillLimit - CreatureEnchantment */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5916,   566,      2)  /* Creature Enchantment Mastery Other IV */
-     , (5916,   595,      2)  /* Item Enchantment Ineptitude Other III */
-     , (5916,   625,      2)  /* Life Magic Ineptitude Other III */
+VALUES (5916,   625,      2)  /* Life Magic Ineptitude Other III */
+     , (5916,  1484,      2)  /* Impenetrability IV */
      , (5916,   649,      2)  /* War Magic Ineptitude Other III */
+     , (5916,   595,      2)  /* Item Enchantment Ineptitude Other III */
      , (5916,  1453,      2)  /* Willpower Other III */
-     , (5916,  1484,      2)  /* Impenetrability IV */;
+     , (5916,   566,      2)  /* Creature Enchantment Mastery Other IV */;

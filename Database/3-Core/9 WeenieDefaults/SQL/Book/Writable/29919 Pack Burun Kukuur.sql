@@ -32,10 +32,10 @@ VALUES (29919,   1, 'Pack Burun Kukuur') /* Name */
      , (29919,  16, 'A Burun Kukuur, one of the great King Toads of their race') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29919,   1,   33559088) /* Setup */
-     , (29919,   3,  536870932) /* SoundTable */
-     , (29919,   8,  100677029) /* Icon */
-     , (29919,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29919,   1, 0x02001230) /* Setup */
+     , (29919,   3, 0x20000014) /* SoundTable */
+     , (29919,   8, 0x060035A5) /* Icon */
+     , (29919,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (29919, 4, 1000);

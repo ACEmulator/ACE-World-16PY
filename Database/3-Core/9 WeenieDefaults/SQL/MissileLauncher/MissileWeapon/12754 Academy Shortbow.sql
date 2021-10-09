@@ -17,7 +17,7 @@ VALUES (12754,   1,        256) /* ItemType - MissileWeapon */
      , (12754,  48,          2) /* WeaponSkill - Bow */
      , (12754,  49,         30) /* WeaponTime */
      , (12754,  50,          1) /* AmmoType - Arrow */
-     , (12754,  51,          2) /* CombatUse - Missle */
+     , (12754,  51,          2) /* CombatUse - Missile */
      , (12754,  52,          2) /* ParentLocation - LeftHand */
      , (12754,  53,          3) /* PlacementPosition - LeftHand */
      , (12754,  60,        155) /* WeaponRange */
@@ -41,9 +41,9 @@ VALUES (12754,   1, 'Academy Shortbow') /* Name */
      , (12754,  15, 'An enhanced shortbow crafted in the Training Academy. This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12754,   1,   33554729) /* Setup */
-     , (12754,   3,  536870932) /* SoundTable */
-     , (12754,   6,   67111919) /* PaletteBase */
-     , (12754,   7,  268435760) /* ClothingBase */
-     , (12754,   8,  100668825) /* Icon */
-     , (12754,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12754,   1, 0x02000129) /* Setup */
+     , (12754,   3, 0x20000014) /* SoundTable */
+     , (12754,   6, 0x04000BEF) /* PaletteBase */
+     , (12754,   7, 0x10000130) /* ClothingBase */
+     , (12754,   8, 0x06001599) /* Icon */
+     , (12754,  22, 0x3400002B) /* PhysicsEffectTable */;

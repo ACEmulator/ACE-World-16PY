@@ -25,7 +25,7 @@ VALUES (22134,   1, 'Antique Platter') /* Name */
      , (22134,  16, 'A fine porcelain platter which belongs to Frest Greelving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22134,   1,   33554930) /* Setup */
-     , (22134,   3,  536870932) /* SoundTable */
-     , (22134,   8,  100668119) /* Icon */
-     , (22134,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22134,   1, 0x020001F2) /* Setup */
+     , (22134,   3, 0x20000014) /* SoundTable */
+     , (22134,   8, 0x060012D7) /* Icon */
+     , (22134,  22, 0x3400002B) /* PhysicsEffectTable */;

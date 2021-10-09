@@ -34,6 +34,6 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2040,   1, 'Koji''s Tachi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2040,   1,   33554742) /* Setup */
-     , (2040,   8,  100667934) /* Icon */
-     , (2040,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (2040,   1, 0x02000136) /* Setup */
+     , (2040,   8, 0x0600121E) /* Icon */
+     , (2040,  22, 0x3400002B) /* PhysicsEffectTable */;

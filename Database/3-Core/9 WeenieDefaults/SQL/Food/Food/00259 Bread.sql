@@ -28,7 +28,7 @@ VALUES (259,   1, 'Bread') /* Name */
      , (259,  20, 'Loaves of Bread') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (259,   1,   33554806) /* Setup */
-     , (259,   3,  536870932) /* SoundTable */
-     , (259,   8,  100667455) /* Icon */
-     , (259,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (259,   1, 0x02000176) /* Setup */
+     , (259,   3, 0x20000014) /* SoundTable */
+     , (259,   8, 0x0600103F) /* Icon */
+     , (259,  22, 0x3400002B) /* PhysicsEffectTable */;

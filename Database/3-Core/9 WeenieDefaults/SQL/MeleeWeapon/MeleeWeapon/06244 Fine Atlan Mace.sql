@@ -39,9 +39,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6244,   1, 'Fine Atlan Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6244,   1,   33556259) /* Setup */
-     , (6244,   3,  536870932) /* SoundTable */
-     , (6244,   6,   67111919) /* PaletteBase */
-     , (6244,   7,  268435878) /* ClothingBase */
-     , (6244,   8,  100670539) /* Icon */
-     , (6244,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6244,   1, 0x02000723) /* Setup */
+     , (6244,   3, 0x20000014) /* SoundTable */
+     , (6244,   6, 0x04000BEF) /* PaletteBase */
+     , (6244,   7, 0x100001A6) /* ClothingBase */
+     , (6244,   8, 0x06001C4B) /* Icon */
+     , (6244,  22, 0x3400002B) /* PhysicsEffectTable */;

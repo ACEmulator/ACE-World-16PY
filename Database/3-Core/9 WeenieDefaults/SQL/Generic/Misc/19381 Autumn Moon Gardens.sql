@@ -22,5 +22,5 @@ VALUES (19381,   1, 'Autumn Moon Gardens') /* Name */
      , (19381,  16, 'Autumn Moon Gardens') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19381,   1,   33557684) /* Setup */
-     , (19381,   8,  100667499) /* Icon */;
+VALUES (19381,   1, 0x02000CB4) /* Setup */
+     , (19381,   8, 0x0600106B) /* Icon */;

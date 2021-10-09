@@ -15,7 +15,7 @@ VALUES (24238,   1,        256) /* ItemType - MissileWeapon */
      , (24238,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (24238,  49,         15) /* WeaponTime */
      , (24238,  50,          4) /* AmmoType - Atlatl */
-     , (24238,  51,          2) /* CombatUse - Missle */
+     , (24238,  51,          2) /* CombatUse - Missile */
      , (24238,  60,        120) /* WeaponRange */
      , (24238,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24238, 106,        250) /* ItemSpellcraft */
@@ -41,13 +41,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24238,   1, 'Olthoi Atlatl') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24238,   1,   33558328) /* Setup */
-     , (24238,   3,  536870932) /* SoundTable */
-     , (24238,   8,  100674296) /* Icon */
-     , (24238,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24238,   1, 0x02000F38) /* Setup */
+     , (24238,   3, 0x20000014) /* SoundTable */
+     , (24238,   8, 0x06002AF8) /* Icon */
+     , (24238,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24238,  1604,      2)  /* Aura of Defender Self V */
-     , (24238,  1616,      2)  /* Aura of Blood Drinker Self VI */
      , (24238,  2567,      2)  /* Minor Missile Weapon Aptitude */
+     , (24238,  1616,      2)  /* Aura of Blood Drinker Self VI */
      , (24238,  2579,      2)  /* Minor Coordination */;

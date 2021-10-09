@@ -33,7 +33,7 @@ VALUES (25799,  22, True ) /* Inscribable */
      , (25799,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25799,   5, -0.0334) /* ManaRate */
+VALUES (25799,   5,  -0.033) /* ManaRate */
      , (25799,  21,     0.4) /* WeaponLength */
      , (25799,  22,     0.7) /* DamageVariance */
      , (25799,  29,    1.03) /* WeaponDefense */
@@ -46,10 +46,10 @@ VALUES (25799,   1, 'Carrot Dagger') /* Name */
      , (25799,  16, 'A frozen Carrot, weighted perfectly for wielding like a dagger.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25799,   1,   33558522) /* Setup */
-     , (25799,   3,  536870932) /* SoundTable */
-     , (25799,   8,  100675520) /* Icon */
-     , (25799,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25799,   1, 0x02000FFA) /* Setup */
+     , (25799,   3, 0x20000014) /* SoundTable */
+     , (25799,   8, 0x06002FC0) /* Icon */
+     , (25799,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25799,  1614,      2)  /* Aura of Blood Drinker Self IV */

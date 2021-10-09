@@ -51,16 +51,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19925,   1, 'Quality Chilling Isparian Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19925,   1,   33556383) /* Setup */
-     , (19925,   3,  536870932) /* SoundTable */
-     , (19925,   6,   67111919) /* PaletteBase */
-     , (19925,   7,  268436383) /* ClothingBase */
-     , (19925,   8,  100672924) /* Icon */
-     , (19925,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19925,   1, 0x0200079F) /* Setup */
+     , (19925,   3, 0x20000014) /* SoundTable */
+     , (19925,   6, 0x04000BEF) /* PaletteBase */
+     , (19925,   7, 0x1000039F) /* ClothingBase */
+     , (19925,   8, 0x0600259C) /* Icon */
+     , (19925,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19925,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19925,  1035,      2)  /* Cold Protection Self VI */
-     , (19925,  1377,      2)  /* Coordination Self V */
-     , (19925,  1589,      2)  /* Aura of Heart Seeker Self III */
-     , (19925,  1613,      2)  /* Aura of Blood Drinker Self III */;
+VALUES (19925,  1589,      2)  /* Aura of Heart Seeker Self III */
+     , (19925,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (19925,  1035,      2)  /* Cold Protection Self VI */
+     , (19925,  1377,      2)  /* Coordination Self V */;

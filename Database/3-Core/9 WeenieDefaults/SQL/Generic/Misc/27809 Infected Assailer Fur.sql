@@ -25,7 +25,7 @@ VALUES (27809,   1, 'Infected Assailer Fur') /* Name */
      , (27809,  33, 'GotTuskerFur') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27809,   1,   33554817) /* Setup */
-     , (27809,   3,  536870932) /* SoundTable */
-     , (27809,   8,  100676575) /* Icon */
-     , (27809,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27809,   1, 0x02000181) /* Setup */
+     , (27809,   3, 0x20000014) /* SoundTable */
+     , (27809,   8, 0x060033DF) /* Icon */
+     , (27809,  22, 0x3400002B) /* PhysicsEffectTable */;

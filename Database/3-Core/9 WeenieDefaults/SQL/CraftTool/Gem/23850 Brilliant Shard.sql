@@ -31,9 +31,9 @@ VALUES (23850,   1, 'Brilliant Shard') /* Name */
      , (23850,  16, 'A brilliant shard.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23850,   1,   33558199) /* Setup */
-     , (23850,   3,  536870932) /* SoundTable */
-     , (23850,   6,   67114163) /* PaletteBase */
-     , (23850,   7,  268435723) /* ClothingBase */
-     , (23850,   8,  100674037) /* Icon */
-     , (23850,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23850,   1, 0x02000EB7) /* Setup */
+     , (23850,   3, 0x20000014) /* SoundTable */
+     , (23850,   6, 0x040014B3) /* PaletteBase */
+     , (23850,   7, 0x1000010B) /* ClothingBase */
+     , (23850,   8, 0x060029F5) /* Icon */
+     , (23850,  22, 0x3400002B) /* PhysicsEffectTable */;

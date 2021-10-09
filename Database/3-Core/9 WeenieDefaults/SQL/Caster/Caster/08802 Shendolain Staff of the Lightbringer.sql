@@ -37,11 +37,11 @@ VALUES (8802,   1, 'Shendolain Staff of the Lightbringer') /* Name */
      , (8802,  15, 'A trophy from the banishment of Bael''Zharon.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8802,   1,   33556940) /* Setup */
-     , (8802,   3,  536870932) /* SoundTable */
-     , (8802,   6,   67111919) /* PaletteBase */
-     , (8802,   7,  268436103) /* ClothingBase */
-     , (8802,   8,  100671281) /* Icon */
-     , (8802,  22,  872415275) /* PhysicsEffectTable */
-     , (8802,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
-     , (8802,  36,  234881046) /* MutateFilter */;
+VALUES (8802,   1, 0x020009CC) /* Setup */
+     , (8802,   3, 0x20000014) /* SoundTable */
+     , (8802,   6, 0x04000BEF) /* PaletteBase */
+     , (8802,   7, 0x10000287) /* ClothingBase */
+     , (8802,   8, 0x06001F31) /* Icon */
+     , (8802,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8802,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
+     , (8802,  36, 0x0E000016) /* MutateFilter */;

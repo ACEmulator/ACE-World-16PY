@@ -28,7 +28,7 @@ VALUES (22069,   1, 'Swamp Gromnie Tooth Paste') /* Name */
      , (22069,  16, 'A paste made from the tooth of a swamp gromnie.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22069,   1,   33554817) /* Setup */
-     , (22069,   6,   67111919) /* PaletteBase */
-     , (22069,   7,  268435832) /* ClothingBase */
-     , (22069,   8,  100676787) /* Icon */;
+VALUES (22069,   1, 0x02000181) /* Setup */
+     , (22069,   6, 0x04000BEF) /* PaletteBase */
+     , (22069,   7, 0x10000178) /* ClothingBase */
+     , (22069,   8, 0x060034B3) /* Icon */;

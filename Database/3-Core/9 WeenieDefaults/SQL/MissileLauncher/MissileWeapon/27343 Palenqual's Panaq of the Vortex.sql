@@ -17,7 +17,7 @@ VALUES (27343,   1,        256) /* ItemType - MissileWeapon */
      , (27343,  48,          2) /* WeaponSkill - Bow */
      , (27343,  49,         45) /* WeaponTime */
      , (27343,  50,          1) /* AmmoType - Arrow */
-     , (27343,  51,          2) /* CombatUse - Missle */
+     , (27343,  51,          2) /* CombatUse - Missile */
      , (27343,  52,          2) /* ParentLocation - LeftHand */
      , (27343,  53,          3) /* PlacementPosition - LeftHand */
      , (27343,  60,        175) /* WeaponRange */
@@ -40,7 +40,7 @@ VALUES (27343,  22, True ) /* Inscribable */
      , (27343,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27343,   5, -0.033333) /* ManaRate */
+VALUES (27343,   5,  -0.033) /* ManaRate */
      , (27343,  26,    27.3) /* MaximumVelocity */
      , (27343,  29,    1.08) /* WeaponDefense */
      , (27343,  62,    1.08) /* WeaponOffense */
@@ -53,20 +53,20 @@ VALUES (27343,   1, 'Palenqual''s Panaq of the Vortex') /* Name */
      , (27343,  16, 'A panaq fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27343,   1,   33558662) /* Setup */
-     , (27343,   3,  536870932) /* SoundTable */
-     , (27343,   6,   67113336) /* PaletteBase */
-     , (27343,   7,  268436253) /* ClothingBase */
-     , (27343,   8,  100676380) /* Icon */
-     , (27343,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27343,   1, 0x02001086) /* Setup */
+     , (27343,   3, 0x20000014) /* SoundTable */
+     , (27343,   6, 0x04001178) /* PaletteBase */
+     , (27343,   7, 0x1000031D) /* ClothingBase */
+     , (27343,   8, 0x0600331C) /* Icon */
+     , (27343,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27343,  2438,      2)  /* Lesser Rockslide */
      , (27343,  2441,      2)  /* Lesser Stone Cliffs */
      , (27343,  2444,      2)  /* Lesser Strength of Earth */
+     , (27343,  3220,      2)  /* Cascade */
      , (27343,  2447,      2)  /* Lesser Growth */
      , (27343,  2450,      2)  /* Lesser Hunter's Acumen */
      , (27343,  2453,      2)  /* Lesser Thorns */
      , (27343,  2472,      2)  /* Still Water */
-     , (27343,  2475,      2)  /* Torrent */
-     , (27343,  3220,      2)  /* Cascade */;
+     , (27343,  2475,      2)  /* Torrent */;

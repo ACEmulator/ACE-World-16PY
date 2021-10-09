@@ -31,10 +31,10 @@ VALUES (8335,   1, 'Blackthorn Pea') /* Name */
      , (8335,  16, 'A concentrated blackthorn pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8335,   1,   33555207) /* Setup */
-     , (8335,   3,  536870932) /* SoundTable */
-     , (8335,   6,   67111919) /* PaletteBase */
-     , (8335,   7,  268435722) /* ClothingBase */
-     , (8335,   8,  100671087) /* Icon */
-     , (8335,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8335,   1, 0x02000307) /* Setup */
+     , (8335,   3, 0x20000014) /* SoundTable */
+     , (8335,   6, 0x04000BEF) /* PaletteBase */
+     , (8335,   7, 0x1000010A) /* ClothingBase */
+     , (8335,   8, 0x06001E6F) /* Icon */
+     , (8335,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8335,  29,        162) /* SpellComponent */;

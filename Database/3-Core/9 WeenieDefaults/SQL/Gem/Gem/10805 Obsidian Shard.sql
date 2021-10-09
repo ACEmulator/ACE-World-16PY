@@ -30,8 +30,8 @@ VALUES (10805,   1, 'Obsidian Shard') /* Name */
      , (10805,  16, 'A chunk of polished volcanic rock.  As you look at it, you can see what seems to be movement just under its surface.  You feel a strange pressure in the back of your mind, but it slowly recedes.  (Bring it to Diyas in Zaikhal)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10805,   1,   33555391) /* Setup */
-     , (10805,   3,  536870932) /* SoundTable */
-     , (10805,   8,  100671395) /* Icon */
-     , (10805,  22,  872415275) /* PhysicsEffectTable */
-     , (10805,  36,  234881046) /* MutateFilter */;
+VALUES (10805,   1, 0x020003BF) /* Setup */
+     , (10805,   3, 0x20000014) /* SoundTable */
+     , (10805,   8, 0x06001FA3) /* Icon */
+     , (10805,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (10805,  36, 0x0E000016) /* MutateFilter */;

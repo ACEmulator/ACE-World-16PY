@@ -23,7 +23,7 @@ VALUES (28828,   1, 'Philanthropist Title Token') /* Name */
      , (28828,  15, 'Give this token to a member of the Guild of Bestowers, and they will grant you the title of "Philanthropist".') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28828,   1,   33554802) /* Setup */
-     , (28828,   3,  536870932) /* SoundTable */
-     , (28828,   8,  100676406) /* Icon */
-     , (28828,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28828,   1, 0x02000172) /* Setup */
+     , (28828,   3, 0x20000014) /* SoundTable */
+     , (28828,   8, 0x06003336) /* Icon */
+     , (28828,  22, 0x3400002B) /* PhysicsEffectTable */;

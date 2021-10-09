@@ -22,7 +22,7 @@ VALUES (823,   1, 'Smith Wah') /* Name */
      , (823,  16, 'Smith Wah') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (823,   1,   33555088) /* Setup */
-     , (823,   6,   67111092) /* PaletteBase */
-     , (823,   7,  268435653) /* ClothingBase */
-     , (823,   8,  100668115) /* Icon */;
+VALUES (823,   1, 0x02000290) /* Setup */
+     , (823,   6, 0x040008B4) /* PaletteBase */
+     , (823,   7, 0x100000C5) /* ClothingBase */
+     , (823,   8, 0x060012D3) /* Icon */;

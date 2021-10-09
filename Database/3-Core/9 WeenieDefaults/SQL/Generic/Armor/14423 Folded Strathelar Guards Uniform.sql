@@ -39,10 +39,10 @@ VALUES (14423,   1, 'Folded Strathelar Guards Uniform') /* Name */
      , (14423,  15, 'A Strathelar Guards unifom.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14423,   1,   33557480) /* Setup */
-     , (14423,   3,  536870932) /* SoundTable */
-     , (14423,   6,   67108990) /* PaletteBase */
-     , (14423,   7,  268436316) /* ClothingBase */
-     , (14423,   8,  100672470) /* Icon */
-     , (14423,  22,  872415275) /* PhysicsEffectTable */
-     , (14423,  36,  234881046) /* MutateFilter */;
+VALUES (14423,   1, 0x02000BE8) /* Setup */
+     , (14423,   3, 0x20000014) /* SoundTable */
+     , (14423,   6, 0x0400007E) /* PaletteBase */
+     , (14423,   7, 0x1000035C) /* ClothingBase */
+     , (14423,   8, 0x060023D6) /* Icon */
+     , (14423,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (14423,  36, 0x0E000016) /* MutateFilter */;

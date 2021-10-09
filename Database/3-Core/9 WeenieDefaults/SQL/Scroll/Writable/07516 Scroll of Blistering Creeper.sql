@@ -24,7 +24,7 @@ VALUES (7516,   1, 'Scroll of Blistering Creeper') /* Name */
      , (7516,  15, 'When learned, this spell sends a wall of five balls of acid, two high, slowly towards the target. Each ball does 30-60 points of acid damage to the first thing it hits. The wall is created 2 meters in front of the caster. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7516,   1,   33554826) /* Setup */
-     , (7516,   8,  100677025) /* Icon */
-     , (7516,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7516,   1, 0x0200018A) /* Setup */
+     , (7516,   8, 0x060035A1) /* Icon */
+     , (7516,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7516,  28,       1839) /* Spell - Blistering Creeper */;

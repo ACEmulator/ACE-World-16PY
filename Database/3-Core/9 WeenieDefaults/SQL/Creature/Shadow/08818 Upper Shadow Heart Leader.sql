@@ -70,14 +70,14 @@ VALUES (8818,   1, 'Upper Shadow Heart Leader') /* Name */
      , (8818,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8818,   1,   33554433) /* Setup */
-     , (8818,   2,  150994945) /* MotionTable */
-     , (8818,   3,  536870913) /* SoundTable */
-     , (8818,   4,  805306368) /* CombatTable */
-     , (8818,   6,   67111797) /* PaletteBase */
-     , (8818,   7,  268435632) /* ClothingBase */
-     , (8818,   8,  100670397) /* Icon */
-     , (8818,  22,  872415331) /* PhysicsEffectTable */
+VALUES (8818,   1, 0x02000001) /* Setup */
+     , (8818,   2, 0x09000001) /* MotionTable */
+     , (8818,   3, 0x20000001) /* SoundTable */
+     , (8818,   4, 0x30000000) /* CombatTable */
+     , (8818,   6, 0x04000B75) /* PaletteBase */
+     , (8818,   7, 0x100000B0) /* ClothingBase */
+     , (8818,   8, 0x06001BBD) /* Icon */
+     , (8818,  22, 0x34000063) /* PhysicsEffectTable */
      , (8818,  32,        178) /* WieldedTreasureType - 
                                    Wield Yumi (23734) | Probability: 20%
                                    Wield 14x Deadly Fire Arrow (15435) | Probability: 100%
@@ -139,25 +139,25 @@ VALUES (8818,  0,  4,  0,    0,  460,  460,  368,  391,  276,  506,  322,  345, 
      , (8818,  8,  4, 60, 0.75,  460,  460,  368,  391,  276,  506,  322,  345,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8818,    74,  2.032)  /* Frost Bolt VI */
+VALUES (8818,    85,  2.032)  /* Flame Bolt VI */
+     , (8818,  1161,   2.02)  /* Heal Self VI */
+     , (8818,   146,  2.003)  /* Flame Volley VI */
+     , (8818,  1254,  2.011)  /* Drain Stamina Other VI */
+     , (8818,   138,  2.003)  /* Frost Volley VI */
+     , (8818,    74,  2.032)  /* Frost Bolt VI */
+     , (8818,   267,  2.023)  /* Defenselessness Other VI */
+     , (8818,  1420,  2.023)  /* Slowness Other VI */
+     , (8818,   142,  2.003)  /* Lightning Volley VI */
      , (8818,    80,  2.032)  /* Lightning Bolt VI */
-     , (8818,    85,  2.032)  /* Flame Bolt VI */
+     , (8818,   285,  2.023)  /* Magic Yield Other VI */
+     , (8818,  1242,  2.011)  /* Drain Health Other VI */
+     , (8818,   154,  2.003)  /* Blade Volley VI */
+     , (8818,  1312,  2.006)  /* Armor Self VI */
      , (8818,    91,  2.032)  /* Force Bolt VI */
      , (8818,    97,  2.032)  /* Whirling Blade VI */
-     , (8818,   138,  2.003)  /* Frost Volley VI */
-     , (8818,   142,  2.003)  /* Lightning Volley VI */
-     , (8818,   146,  2.003)  /* Flame Volley VI */
-     , (8818,   154,  2.003)  /* Blade Volley VI */
      , (8818,   234,  2.023)  /* Vulnerability Other VI */
-     , (8818,   267,  2.023)  /* Defenselessness Other VI */
-     , (8818,   285,  2.023)  /* Magic Yield Other VI */
-     , (8818,   628,  2.023)  /* Life Magic Ineptitude Other VI */
-     , (8818,  1161,   2.02)  /* Heal Self VI */
-     , (8818,  1242,  2.011)  /* Drain Health Other VI */
-     , (8818,  1254,  2.011)  /* Drain Stamina Other VI */
      , (8818,  1265,  2.011)  /* Drain Mana Other VI */
-     , (8818,  1312,  2.006)  /* Armor Self VI */
-     , (8818,  1420,  2.023)  /* Slowness Other VI */
+     , (8818,   628,  2.023)  /* Life Magic Ineptitude Other VI */
      , (8818,  1468,  2.023)  /* Feeblemind Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

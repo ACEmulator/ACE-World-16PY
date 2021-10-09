@@ -25,7 +25,7 @@ VALUES (9011,   1, 'Scroll of Lightning Volley III') /* Name */
      , (9011,  16, 'When learned, this spell shoots a bolt of lightning at the target. The bolt does 6-10 points of electrical damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9011,   1,   33554826) /* Setup */
-     , (9011,   8,  100677013) /* Icon */
-     , (9011,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9011,   1, 0x0200018A) /* Setup */
+     , (9011,   8, 0x06003595) /* Icon */
+     , (9011,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9011,  28,        139) /* Spell - Lightning Volley III */;

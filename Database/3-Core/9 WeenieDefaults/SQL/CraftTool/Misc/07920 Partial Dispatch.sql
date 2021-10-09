@@ -28,7 +28,7 @@ VALUES (7920,   1, 'Partial Dispatch') /* Name */
      , (7920,  16, 'Two matched sheaves of paper, covered with Dericostian runes, recovered from powerful undead. The runes appear to be cut off, as if some of the message were still missing.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7920,   1,   33554773) /* Setup */
-     , (7920,   3,  536870932) /* SoundTable */
-     , (7920,   8,  100667493) /* Icon */
-     , (7920,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7920,   1, 0x02000155) /* Setup */
+     , (7920,   3, 0x20000014) /* SoundTable */
+     , (7920,   8, 0x06001065) /* Icon */
+     , (7920,  22, 0x3400002B) /* PhysicsEffectTable */;

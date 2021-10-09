@@ -34,11 +34,11 @@ VALUES (10959,   1, 'Pepper Jack Cheese') /* Name */
      , (10959,  16, 'A wheel of spicy cheese, guaranteed to make your lips numb. This wonderous dairy product was a favorite of the Empyrean Talespinner Mistral Tersicor, who was fond of saying, "Cheese makes a gathering."') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10959,   1,   33554672) /* Setup */
-     , (10959,   3,  536870932) /* SoundTable */
-     , (10959,   8,  100671763) /* Icon */
-     , (10959,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10959,   1, 0x020000F0) /* Setup */
+     , (10959,   3, 0x20000014) /* SoundTable */
+     , (10959,   8, 0x06002113) /* Icon */
+     , (10959,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10959,  23,         64) /* UseSound - Eat1 */
-     , (10959,  27,  318767233) /* UseUserAnimation - MimeEat */
+     , (10959,  27, 0x13000081) /* UseUserAnimation - MimeEat */
      , (10959,  28,       1035) /* Spell - Cold Protection Self VI */
-     , (10959,  36,  234881046) /* MutateFilter */;
+     , (10959,  36, 0x0E000016) /* MutateFilter */;

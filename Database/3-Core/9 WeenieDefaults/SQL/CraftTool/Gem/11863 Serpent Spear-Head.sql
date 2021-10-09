@@ -31,7 +31,7 @@ VALUES (11863,   1, 'Serpent Spear-Head') /* Name */
      , (11863,  16, 'A Serpent Spear-Head.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11863,   1,   33557247) /* Setup */
-     , (11863,   3,  536870932) /* SoundTable */
-     , (11863,   8,  100671962) /* Icon */
-     , (11863,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11863,   1, 0x02000AFF) /* Setup */
+     , (11863,   3, 0x20000014) /* SoundTable */
+     , (11863,   8, 0x060021DA) /* Icon */
+     , (11863,  22, 0x3400002B) /* PhysicsEffectTable */;

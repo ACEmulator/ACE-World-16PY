@@ -48,15 +48,15 @@ VALUES (27095,   1, 'Spear of Purity') /* Name */
      , (27095,  15, 'Bask in the glow of your purity. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27095,   1,   33557008) /* Setup */
-     , (27095,   8,  100671499) /* Icon */
-     , (27095,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27095,   1, 0x02000A10) /* Setup */
+     , (27095,   8, 0x0600200B) /* Icon */
+     , (27095,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27095,  1614,      2)  /* Aura of Blood Drinker Self IV */
+VALUES (27095,  2391,      2)  /* Prowess */
+     , (27095,  1614,      2)  /* Aura of Blood Drinker Self IV */
      , (27095,  2387,      2)  /* Determination */
      , (27095,  2388,      2)  /* Caution */
      , (27095,  2389,      2)  /* Vigor */
      , (27095,  2390,      2)  /* Haste */
-     , (27095,  2391,      2)  /* Prowess */
      , (27095,  2392,      2)  /* Serenity */;

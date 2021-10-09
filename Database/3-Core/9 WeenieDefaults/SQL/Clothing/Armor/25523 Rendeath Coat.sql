@@ -38,9 +38,9 @@ VALUES (25523,   1, 'Rendeath Coat') /* Name */
      , (25523,  16, 'This coat has been reinforced with bone structures and metal strapping. The main body of the coat came from the hide of a Rendeath Shreth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25523,   1,   33554854) /* Setup */
-     , (25523,   3,  536870932) /* SoundTable */
-     , (25523,   6,   67108990) /* PaletteBase */
-     , (25523,   7,  268436696) /* ClothingBase */
-     , (25523,   8,  100675042) /* Icon */
-     , (25523,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25523,   1, 0x020001A6) /* Setup */
+     , (25523,   3, 0x20000014) /* SoundTable */
+     , (25523,   6, 0x0400007E) /* PaletteBase */
+     , (25523,   7, 0x100004D8) /* ClothingBase */
+     , (25523,   8, 0x06002DE2) /* Icon */
+     , (25523,  22, 0x3400002B) /* PhysicsEffectTable */;

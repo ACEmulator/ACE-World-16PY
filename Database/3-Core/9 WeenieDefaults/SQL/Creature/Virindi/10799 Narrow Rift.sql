@@ -71,12 +71,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10799,   1, 'Narrow Rift') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10799,   1,   33557102) /* Setup */
-     , (10799,   2,  150995087) /* MotionTable */
-     , (10799,   3,  536871001) /* SoundTable */
-     , (10799,   4,  805306407) /* CombatTable */
-     , (10799,   8,  100671702) /* Icon */
-     , (10799,  22,  872415375) /* PhysicsEffectTable */
+VALUES (10799,   1, 0x02000A6E) /* Setup */
+     , (10799,   2, 0x0900008F) /* MotionTable */
+     , (10799,   3, 0x20000059) /* SoundTable */
+     , (10799,   4, 0x30000027) /* CombatTable */
+     , (10799,   8, 0x060020D6) /* Icon */
+     , (10799,  22, 0x3400008F) /* PhysicsEffectTable */
      , (10799,  35,        463) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -114,12 +114,12 @@ VALUES (10799,  0, 64,  5, 0.75,  250,  250,  250,  250,  298, 25000,  695,  250
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10799,    77,  2.115)  /* Lightning Bolt III */
-     , (10799,   276,  2.032)  /* Magic Resistance Self III */
-     , (10799,   282,  2.044)  /* Magic Yield Other III */
      , (10799,   607,  2.032)  /* Life Magic Mastery Self III */
+     , (10799,   282,  2.044)  /* Magic Yield Other III */
+     , (10799,  1173,  2.044)  /* Harm Other III */
      , (10799,   655,  2.032)  /* Mana Conversion Mastery Self III */
-     , (10799,  1086,  2.044)  /* Lightning Vulnerability Other III */
-     , (10799,  1173,  2.044)  /* Harm Other III */;
+     , (10799,   276,  2.032)  /* Magic Resistance Self III */
+     , (10799,  1086,  2.044)  /* Lightning Vulnerability Other III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (10799,  94) /* ATTACK_NOTIFICATION_EVENT */
@@ -135,7 +135,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'You feel the ene
      , (@parent_id,  1,  22 /* StampQuest */, 0, 1, NULL, 'VirindiChimera', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10799, 0.25, 10769, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1, 9, 0.8191521, 0, 0, -0.5735765) /* Generate Battered Doll (10769) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (10799, 0.5, 10769, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 3.4, 9, 0.9659258, 0, 0, -0.258819) /* Generate Battered Doll (10769) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (10799, 0.75, 10772, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, -1.4, 9, 0.9961947, 0, 0, -0.08715574) /* Generate Beaten Doll (10772) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (10799, 1, 10774, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -2, 9, 0.9961947, 0, 0, -0.08715574) /* Generate Broken Doll (10774) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (10799, 0.25, 10769, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1, 9, 0.819152, 0, 0, -0.573577) /* Generate Battered Doll (10769) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (10799, 0.5, 10769, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 3.4, 9, 0.965926, 0, 0, -0.258819) /* Generate Battered Doll (10769) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (10799, 0.75, 10772, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, -1.4, 9, 0.996195, 0, 0, -0.087156) /* Generate Beaten Doll (10772) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (10799, 1, 10774, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -2, 9, 0.996195, 0, 0, -0.087156) /* Generate Broken Doll (10774) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

@@ -25,7 +25,7 @@ VALUES (2784,   1, 'Blood Drinker Scroll IV') /* Name */
      , (2784,  16, 'When learned, this spell increases a weapon''s damage value by 12 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2784,   1,   33554826) /* Setup */
-     , (2784,   8,  100676655) /* Icon */
-     , (2784,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2784,   1, 0x0200018A) /* Setup */
+     , (2784,   8, 0x0600342F) /* Icon */
+     , (2784,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2784,  28,       1614) /* Spell - Aura of Blood Drinker Self IV */;

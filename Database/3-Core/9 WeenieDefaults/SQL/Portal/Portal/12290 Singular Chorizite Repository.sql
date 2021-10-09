@@ -25,10 +25,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12290,   1, 'Singular Chorizite Repository') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12290,   1,   33555923) /* Setup */
-     , (12290,   2,  150994947) /* MotionTable */
-     , (12290,   8,  100667499) /* Icon */;
+VALUES (12290,   1, 0x020005D3) /* Setup */
+     , (12290,   2, 0x09000003) /* MotionTable */
+     , (12290,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12290, 2, 60818047, 90, -540, 0, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0x03A0027F [90.000000 -540.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */;
+VALUES (12290, 2, 0x03A0027F, 90, -540, 0, 1, 0, 0, -0) /* Destination */
+/* @teleloc 0x03A0027F [90.000000 -540.000000 0.000000] 1.000000 0.000000 0.000000 -0.000000 */;

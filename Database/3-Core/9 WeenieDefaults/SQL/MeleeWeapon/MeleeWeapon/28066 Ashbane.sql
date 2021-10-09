@@ -39,7 +39,7 @@ VALUES (28066,   1, 'Ashbane') /* Name */
      , (28066,  16, 'A flaming sword, wrought from magically-reinforced silver. Its ivory haft is inscribed ''Ashbane,'' and bears the name of Leikotha Arenir. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28066,   1,   33558823) /* Setup */
-     , (28066,   3,  536870932) /* SoundTable */
-     , (28066,   8,  100671001) /* Icon */
-     , (28066,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28066,   1, 0x02001127) /* Setup */
+     , (28066,   3, 0x20000014) /* SoundTable */
+     , (28066,   8, 0x06001E19) /* Icon */
+     , (28066,  22, 0x3400002B) /* PhysicsEffectTable */;

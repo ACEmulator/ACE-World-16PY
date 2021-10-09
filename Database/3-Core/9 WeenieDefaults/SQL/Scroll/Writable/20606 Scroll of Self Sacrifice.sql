@@ -24,7 +24,7 @@ VALUES (20606,   1, 'Scroll of Self Sacrifice') /* Name */
      , (20606,  15, 'When learned, this spell drains one-half of the caster''s Health and gives 175% of that to his/her Stamina.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20606,   1,   33554826) /* Setup */
-     , (20606,   8,  100676947) /* Icon */
-     , (20606,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20606,   1, 0x0200018A) /* Setup */
+     , (20606,   8, 0x06003553) /* Icon */
+     , (20606,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20606,  28,       2334) /* Spell - Self Sacrifice */;

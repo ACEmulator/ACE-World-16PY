@@ -14,7 +14,7 @@ VALUES (25284,   1,       8192) /* ItemType - Writable */
      , (25284,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25284, 150,        103) /* HookPlacement - Hook */
      , (25284, 151,          2) /* HookType - Wall */
-     , (25284, 197,          8) /* HookGroup */;
+     , (25284, 197,          8) /* HookGroup - WritableItems */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25284,  13, True ) /* Ethereal */
@@ -32,8 +32,8 @@ VALUES (25284,   1, 'Chalk Board') /* Name */
      , (25284,  16, 'A Chalk Board that anyone can write on.  The last person to write on this will be listed as the author.  This item may be placed on wall hooks.  Mansions may only have 3 Chalk Boards, Villas and Cottages may only have 1.  You may not hook this in an apartment.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25284,   1,   33558530) /* Setup */
-     , (25284,   8,  100675551) /* Icon */;
+VALUES (25284,   1, 0x02001002) /* Setup */
+     , (25284,   8, 0x06002FDF) /* Icon */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (25284, 1, 1000);

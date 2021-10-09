@@ -21,12 +21,12 @@ VALUES (14468,   1, 'Candle') /* Name */
      , (14468,  15, 'This candle is firmly mounted into the wall.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14468,   1,   33557481) /* Setup */
-     , (14468,   2,  150995153) /* MotionTable */
-     , (14468,   3,  536870980) /* SoundTable */
-     , (14468,   8,  100667478) /* Icon */
-     , (14468,  22,  872415275) /* PhysicsEffectTable */
-     , (14468,  24,  268435537) /* UseTargetAnimation - Twitch1 */;
+VALUES (14468,   1, 0x02000BE9) /* Setup */
+     , (14468,   2, 0x090000D1) /* MotionTable */
+     , (14468,   3, 0x20000044) /* SoundTable */
+     , (14468,   8, 0x06001056) /* Icon */
+     , (14468,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (14468,  24, 0x10000051) /* UseTargetAnimation - Twitch1 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14468,  16,          0) /* ActivationTarget */;
+VALUES (14468,  16, 0x00000000) /* ActivationTarget */;

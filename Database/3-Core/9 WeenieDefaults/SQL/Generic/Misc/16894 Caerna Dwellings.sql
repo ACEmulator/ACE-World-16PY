@@ -22,5 +22,5 @@ VALUES (16894,   1, 'Caerna Dwellings') /* Name */
      , (16894,  16, 'Caerna Dwellings') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (16894,   1,   33557649) /* Setup */
-     , (16894,   8,  100672342) /* Icon */;
+VALUES (16894,   1, 0x02000C91) /* Setup */
+     , (16894,   8, 0x06002356) /* Icon */;

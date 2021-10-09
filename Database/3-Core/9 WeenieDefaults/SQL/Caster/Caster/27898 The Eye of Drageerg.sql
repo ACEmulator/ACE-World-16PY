@@ -37,15 +37,15 @@ VALUES (27898,   1, 'The Eye of Drageerg') /* Name */
      , (27898,  16, 'An overly large replica of the Mosswart hero Drageerg''s eye.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27898,   1,   33558802) /* Setup */
-     , (27898,   3,  536870932) /* SoundTable */
-     , (27898,   8,  100676618) /* Icon */
-     , (27898,  22,  872415275) /* PhysicsEffectTable */
-     , (27898,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (27898,   1, 0x02001112) /* Setup */
+     , (27898,   3, 0x20000014) /* SoundTable */
+     , (27898,   8, 0x0600340A) /* Icon */
+     , (27898,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27898,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (27898,  28,       1050) /* Spell - Bludgeoning Vulnerability Other III */
      , (27898,  37,         33) /* ItemSkillLimit - LifeMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27898,   208,      2)  /* Mana Renewal Other III */
-     , (27898,   565,      2)  /* Creature Enchantment Mastery Other III */
-     , (27898,  1477,      2)  /* Aura of Hermetic Link Self III */;
+VALUES (27898,  1477,      2)  /* Aura of Hermetic Link Self III */
+     , (27898,   208,      2)  /* Mana Renewal Other III */
+     , (27898,   565,      2)  /* Creature Enchantment Mastery Other III */;

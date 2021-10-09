@@ -44,9 +44,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20965,   1, 'Deadly Acid Atlatl Dart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20965,   1,   33557602) /* Setup */
-     , (20965,   3,  536870932) /* SoundTable */
-     , (20965,   6,   67111919) /* PaletteBase */
-     , (20965,   7,  268436305) /* ClothingBase */
-     , (20965,   8,  100672677) /* Icon */
-     , (20965,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (20965,   1, 0x02000C62) /* Setup */
+     , (20965,   3, 0x20000014) /* SoundTable */
+     , (20965,   6, 0x04000BEF) /* PaletteBase */
+     , (20965,   7, 0x10000351) /* ClothingBase */
+     , (20965,   8, 0x060024A5) /* Icon */
+     , (20965,  22, 0x3400002B) /* PhysicsEffectTable */;

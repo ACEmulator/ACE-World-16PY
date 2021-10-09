@@ -22,5 +22,5 @@ VALUES (15233,   1, 'Lady Maila Estates') /* Name */
      , (15233,  16, 'Welcome to Lady Maila Estates') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15233,   1,   33557463) /* Setup */
-     , (15233,   8,  100668115) /* Icon */;
+VALUES (15233,   1, 0x02000BD7) /* Setup */
+     , (15233,   8, 0x060012D3) /* Icon */;

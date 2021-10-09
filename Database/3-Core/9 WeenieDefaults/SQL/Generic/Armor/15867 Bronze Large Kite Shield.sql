@@ -39,9 +39,9 @@ VALUES (15867,   1, 'Bronze Large Kite Shield') /* Name */
      , (15867,  33, 'ShieldKiteStatuePickUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15867,   1,   33554788) /* Setup */
-     , (15867,   3,  536870932) /* SoundTable */
-     , (15867,   6,   67111919) /* PaletteBase */
-     , (15867,   7,  268436349) /* ClothingBase */
-     , (15867,   8,  100667360) /* Icon */
-     , (15867,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15867,   1, 0x02000164) /* Setup */
+     , (15867,   3, 0x20000014) /* SoundTable */
+     , (15867,   6, 0x04000BEF) /* PaletteBase */
+     , (15867,   7, 0x1000037D) /* ClothingBase */
+     , (15867,   8, 0x06000FE0) /* Icon */
+     , (15867,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -34,8 +34,8 @@ VALUES (5409,   1, 'Book Of The Champions') /* Name */
      , (5409,  32, 'Unfortunately, no one in Dereth is wizened enough to appear within these pages.') /* ScoreNoEntry */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5409,   1,   33554771) /* Setup */
-     , (5409,   8,  100668117) /* Icon */;
+VALUES (5409,   1, 0x02000153) /* Setup */
+     , (5409,   8, 0x060012D5) /* Icon */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (5409, 2, 2000);

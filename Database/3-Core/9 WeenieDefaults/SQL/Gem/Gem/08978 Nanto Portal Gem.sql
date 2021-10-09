@@ -37,12 +37,12 @@ VALUES (8978,   1, 'Nanto Portal Gem') /* Name */
      , (8978,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8978,   1,   33556769) /* Setup */
-     , (8978,   3,  536870932) /* SoundTable */
-     , (8978,   6,   67111919) /* PaletteBase */
-     , (8978,   7,  268435723) /* ClothingBase */
-     , (8978,   8,  100674864) /* Icon */
-     , (8978,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8978,   1, 0x02000921) /* Setup */
+     , (8978,   3, 0x20000014) /* SoundTable */
+     , (8978,   6, 0x04000BEF) /* PaletteBase */
+     , (8978,   7, 0x1000010B) /* ClothingBase */
+     , (8978,   8, 0x06002D30) /* Icon */
+     , (8978,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8978,  28,        157) /* Spell - Summon Primary Portal I */
      , (8978,  31,       8990) /* LinkedPortalOne - Nanto Portal */
-     , (8978,  36,  234881046) /* MutateFilter */;
+     , (8978,  36, 0x0E000016) /* MutateFilter */;

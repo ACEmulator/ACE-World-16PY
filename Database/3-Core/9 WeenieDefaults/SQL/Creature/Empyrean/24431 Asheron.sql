@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24431,   1, 'Asheron') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24431,   1,   33556936) /* Setup */
-     , (24431,   2,  150995214) /* MotionTable */
-     , (24431,   3,  536870913) /* SoundTable */
-     , (24431,   4,  805306368) /* CombatTable */
-     , (24431,   6,   67112626) /* PaletteBase */
-     , (24431,   7,  268436402) /* ClothingBase */
-     , (24431,   8,  100673074) /* Icon */
-     , (24431,  22,  872415236) /* PhysicsEffectTable */;
+VALUES (24431,   1, 0x020009C8) /* Setup */
+     , (24431,   2, 0x0900010E) /* MotionTable */
+     , (24431,   3, 0x20000001) /* SoundTable */
+     , (24431,   4, 0x30000000) /* CombatTable */
+     , (24431,   6, 0x04000EB2) /* PaletteBase */
+     , (24431,   7, 0x100003B2) /* ClothingBase */
+     , (24431,   8, 0x06002632) /* Icon */
+     , (24431,  22, 0x34000004) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24431,   1, 400, 0, 0) /* Strength */
@@ -86,13 +86,13 @@ VALUES (24431,   1,   495, 0, 0, 800) /* MaxHealth */
      , (24431,   5,  4400, 0, 0, 5000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (24431, 14, 0, 3, 0, 200, 0, 1551.02257662955) /* ArcaneLore          Specialized */
-     , (24431, 16, 0, 3, 0, 200, 0, 1551.02257662955) /* ManaConversion      Specialized */
-     , (24431, 22, 0, 3, 0, 200, 0, 1551.02257662955) /* Jump                Specialized */
-     , (24431, 24, 0, 3, 0, 200, 0, 1551.02257662955) /* Run                 Specialized */
-     , (24431, 31, 0, 3, 0, 900, 0, 1551.02257662955) /* CreatureEnchantment Specialized */
-     , (24431, 33, 0, 3, 0, 900, 0, 1551.02257662955) /* LifeMagic           Specialized */
-     , (24431, 34, 0, 3, 0, 900, 0, 1551.02257662955) /* WarMagic            Specialized */;
+VALUES (24431, 14, 0, 3, 0, 200, 0, 1551.0225766295462) /* ArcaneLore          Specialized */
+     , (24431, 16, 0, 3, 0, 200, 0, 1551.0225766295462) /* ManaConversion      Specialized */
+     , (24431, 22, 0, 3, 0, 200, 0, 1551.0225766295462) /* Jump                Specialized */
+     , (24431, 24, 0, 3, 0, 200, 0, 1551.0225766295462) /* Run                 Specialized */
+     , (24431, 31, 0, 3, 0, 900, 0, 1551.0225766295462) /* CreatureEnchantment Specialized */
+     , (24431, 33, 0, 3, 0, 900, 0, 1551.0225766295462) /* LifeMagic           Specialized */
+     , (24431, 34, 0, 3, 0, 900, 0, 1551.0225766295462) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (24431,  0,  4,  0,    0,  900,  810,  900,  990,  360,  360,  900,  540,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -111,7 +111,7 @@ VALUES (24431,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  1,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  2,  21 /* InqQuest */, 0, 1, NULL, 'AsheronInvasionSpoken', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
@@ -131,7 +131,7 @@ SET @parent_id = LAST_INSERT_ID();
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,  10 /* Tell */, 0, 1, NULL, 'Welcome. I had never thought that I would see Isparians here, aside from Elysa and Borelean. But I see that you have made your way across my island and through the Olthoi Hordes.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  1,  10 /* Tell */, 3, 1, NULL, 'I have fashioned this book to explain everything that I know at this time about the resurgence of the Olthoi. I am indebted to you once more for your actions.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  2,   3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 24358 /* Olthoi Resurgent */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  2,   3 /* Give */, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 24358 /* Olthoi Resurgent */, 1, 0 /* Undef */, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  3,  22 /* StampQuest */, 1, 1, NULL, 'AsheronInvasionSpoken', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  4,  10 /* Tell */, 2, 1, NULL, 'I am not quite sure what caused them to come here, but I am quite sure that it relates directly to the evidence turned up at Knorr.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  5,  10 /* Tell */, 2, 1, NULL, 'Oh yes, I am well aware that you have been making your way through my familial estate; while I am not happy about your intrusion there, this world is as much yours as it is mine now.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)

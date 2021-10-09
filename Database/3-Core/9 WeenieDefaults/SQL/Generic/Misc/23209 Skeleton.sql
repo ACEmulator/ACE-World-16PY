@@ -21,7 +21,7 @@ VALUES (23209,   1, 'Skeleton') /* Name */
      , (23209,  16, 'A full set of skeleton bones. Wonder who this was?') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23209,   1,   33558449) /* Setup */
-     , (23209,   3,  536870942) /* SoundTable */
-     , (23209,   8,  100669124) /* Icon */
-     , (23209,  22,  872415269) /* PhysicsEffectTable */;
+VALUES (23209,   1, 0x02000FB1) /* Setup */
+     , (23209,   3, 0x2000001E) /* SoundTable */
+     , (23209,   8, 0x060016C4) /* Icon */
+     , (23209,  22, 0x34000025) /* PhysicsEffectTable */;

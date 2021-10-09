@@ -31,10 +31,10 @@ VALUES (8322,   1, 'Powdered Moonstone Pea') /* Name */
      , (8322,  16, 'A concentrated powdered moonstone pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8322,   1,   33555208) /* Setup */
-     , (8322,   3,  536870932) /* SoundTable */
-     , (8322,   6,   67111919) /* PaletteBase */
-     , (8322,   7,  268435778) /* ClothingBase */
-     , (8322,   8,  100671077) /* Icon */
-     , (8322,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8322,   1, 0x02000308) /* Setup */
+     , (8322,   3, 0x20000014) /* SoundTable */
+     , (8322,   6, 0x04000BEF) /* PaletteBase */
+     , (8322,   7, 0x10000142) /* ClothingBase */
+     , (8322,   8, 0x06001E65) /* Icon */
+     , (8322,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8322,  29,        145) /* SpellComponent */;

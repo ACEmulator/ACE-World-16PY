@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30395,   1, 'Portal to the Beach Fort') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30395,   1,   33555924) /* Setup */
-     , (30395,   2,  150994947) /* MotionTable */
-     , (30395,   8,  100667499) /* Icon */;
+VALUES (30395,   1, 0x020005D4) /* Setup */
+     , (30395,   2, 0x09000003) /* MotionTable */
+     , (30395,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30395, 2, 1121845260, 25, 84.5, 0.005, -0.6819983, 0, 0, -0.7313537) /* Destination */
-/* @teleloc 0x42DE000C [25.000000 84.500000 0.005000] -0.681998 0.000000 0.000000 -0.731354 */;
+VALUES (30395, 2, 0x42DE000C, 25, 84.5, 0.005, -0.681998, 0, -0, -0.731354) /* Destination */
+/* @teleloc 0x42DE000C [25.000000 84.500000 0.005000] -0.681998 0.000000 -0.000000 -0.731354 */;

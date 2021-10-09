@@ -22,5 +22,5 @@ VALUES (12602,   1, 'Faranar Foothills') /* Name */
      , (12602,  16, 'Welcome to Faranar Foothills') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12602,   1,   33557463) /* Setup */
-     , (12602,   8,  100668115) /* Icon */;
+VALUES (12602,   1, 0x02000BD7) /* Setup */
+     , (12602,   8, 0x060012D3) /* Icon */;

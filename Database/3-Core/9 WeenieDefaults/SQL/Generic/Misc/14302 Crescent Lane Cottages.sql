@@ -22,5 +22,5 @@ VALUES (14302,   1, 'Crescent Lane Cottages') /* Name */
      , (14302,  16, 'Welcome to Crescent Lane Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14302,   1,   33557463) /* Setup */
-     , (14302,   8,  100668115) /* Icon */;
+VALUES (14302,   1, 0x02000BD7) /* Setup */
+     , (14302,   8, 0x060012D3) /* Icon */;

@@ -43,9 +43,9 @@ VALUES (27548,   1, 'Deadly Armor Piercing Arrow') /* Name */
      , (27548,  16, 'This test arrow has even larger physics than the other.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27548,   1,   33558683) /* Setup */
-     , (27548,   3,  536870932) /* SoundTable */
-     , (27548,   6,   67111919) /* PaletteBase */
-     , (27548,   7,  268436303) /* ClothingBase */
-     , (27548,   8,  100672659) /* Icon */
-     , (27548,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27548,   1, 0x0200109B) /* Setup */
+     , (27548,   3, 0x20000014) /* SoundTable */
+     , (27548,   6, 0x04000BEF) /* PaletteBase */
+     , (27548,   7, 0x1000034F) /* ClothingBase */
+     , (27548,   8, 0x06002493) /* Icon */
+     , (27548,  22, 0x3400002B) /* PhysicsEffectTable */;

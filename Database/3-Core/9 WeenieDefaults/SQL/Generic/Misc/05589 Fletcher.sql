@@ -22,7 +22,7 @@ VALUES (5589,   1, 'Fletcher') /* Name */
      , (5589,  16, 'Fletcher') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5589,   1,   33555088) /* Setup */
-     , (5589,   6,   67111092) /* PaletteBase */
-     , (5589,   7,  268435654) /* ClothingBase */
-     , (5589,   8,  100668115) /* Icon */;
+VALUES (5589,   1, 0x02000290) /* Setup */
+     , (5589,   6, 0x040008B4) /* PaletteBase */
+     , (5589,   7, 0x100000C6) /* ClothingBase */
+     , (5589,   8, 0x060012D3) /* Icon */;

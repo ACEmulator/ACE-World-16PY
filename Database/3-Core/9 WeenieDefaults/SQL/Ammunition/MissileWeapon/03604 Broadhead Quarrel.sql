@@ -39,9 +39,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3604,   1, 'Broadhead Quarrel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3604,   1,   33554730) /* Setup */
-     , (3604,   3,  536870932) /* SoundTable */
-     , (3604,   6,   67111919) /* PaletteBase */
-     , (3604,   7,  268436306) /* ClothingBase */
-     , (3604,   8,  100670236) /* Icon */
-     , (3604,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3604,   1, 0x0200012A) /* Setup */
+     , (3604,   3, 0x20000014) /* SoundTable */
+     , (3604,   6, 0x04000BEF) /* PaletteBase */
+     , (3604,   7, 0x10000352) /* ClothingBase */
+     , (3604,   8, 0x06001B1C) /* Icon */
+     , (3604,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -28,7 +28,7 @@ VALUES (29480,   1, 'Key of Confiscations') /* Name */
      , (29480,  33, 'KeyAerfalle') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29480,   1,   33554784) /* Setup */
-     , (29480,   3,  536870932) /* SoundTable */
-     , (29480,   8,  100668441) /* Icon */
-     , (29480,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29480,   1, 0x02000160) /* Setup */
+     , (29480,   3, 0x20000014) /* SoundTable */
+     , (29480,   8, 0x06001419) /* Icon */
+     , (29480,  22, 0x3400002B) /* PhysicsEffectTable */;

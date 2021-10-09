@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12500,   1, 'Gaerwel Edge Settlement Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12500,   1,   33554867) /* Setup */
-     , (12500,   2,  150994947) /* MotionTable */
-     , (12500,   8,  100667499) /* Icon */;
+VALUES (12500,   1, 0x020001B3) /* Setup */
+     , (12500,   2, 0x09000003) /* MotionTable */
+     , (12500,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12500, 2, 3464953859, 3.87, 56.396, 22.328, 0.6356674, 0, 0, -0.7719631) /* Destination */
-/* @teleloc 0xCE870003 [3.870000 56.396000 22.328000] 0.635667 0.000000 0.000000 -0.771963 */;
+VALUES (12500, 2, 0xCE870003, 3.87, 56.396, 22.328, 0.635667, 0, 0, -0.771963) /* Destination */
+/* @teleloc 0xCE870003 [3.870000 56.396000 22.327999] 0.635667 0.000000 0.000000 -0.771963 */;

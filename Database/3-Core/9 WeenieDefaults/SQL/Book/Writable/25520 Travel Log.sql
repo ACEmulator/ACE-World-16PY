@@ -23,11 +23,11 @@ VALUES (25520,   1, 'Travel Log') /* Name */
      , (25520,  16, 'A well worn log book full of notes.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25520,   1,   33556929) /* Setup */
-     , (25520,   3,  536870932) /* SoundTable */
-     , (25520,   7,  268436459) /* ClothingBase */
-     , (25520,   8,  100673476) /* Icon */
-     , (25520,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25520,   1, 0x020009C1) /* Setup */
+     , (25520,   3, 0x20000014) /* SoundTable */
+     , (25520,   7, 0x100003EB) /* ClothingBase */
+     , (25520,   8, 0x060027C4) /* Icon */
+     , (25520,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (25520, 6, 1000);

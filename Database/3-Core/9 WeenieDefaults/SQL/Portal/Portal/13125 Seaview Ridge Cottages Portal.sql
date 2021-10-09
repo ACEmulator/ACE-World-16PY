@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13125,   1, 'Seaview Ridge Cottages Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13125,   1,   33554867) /* Setup */
-     , (13125,   2,  150994947) /* MotionTable */
-     , (13125,   8,  100667499) /* Icon */;
+VALUES (13125,   1, 0x020001B3) /* Setup */
+     , (13125,   2, 0x09000003) /* MotionTable */
+     , (13125,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (13125, 2, 1861025838, 121.852, 140.823, 66.115, -0.06043021, 0, 0, -0.9981724) /* Destination */
-/* @teleloc 0x6EED002E [121.852000 140.823000 66.115000] -0.060430 0.000000 0.000000 -0.998172 */;
+VALUES (13125, 2, 0x6EED002E, 121.852, 140.823, 66.115, -0.06043, 0, -0, -0.998172) /* Destination */
+/* @teleloc 0x6EED002E [121.851997 140.822998 66.114998] -0.060430 0.000000 -0.000000 -0.998172 */;

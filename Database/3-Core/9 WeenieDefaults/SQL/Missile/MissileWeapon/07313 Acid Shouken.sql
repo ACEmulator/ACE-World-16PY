@@ -21,7 +21,7 @@ VALUES (7313,   1,        256) /* ItemType - MissileWeapon */
      , (7313,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (7313,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (7313,  49,         10) /* WeaponTime */
-     , (7313,  51,          2) /* CombatUse - Missle */
+     , (7313,  51,          2) /* CombatUse - Missile */
      , (7313,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -40,7 +40,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7313,   1, 'Acid Shouken') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7313,   1,   33555772) /* Setup */
-     , (7313,   3,  536870932) /* SoundTable */
-     , (7313,   8,  100667605) /* Icon */
-     , (7313,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7313,   1, 0x0200053C) /* Setup */
+     , (7313,   3, 0x20000014) /* SoundTable */
+     , (7313,   8, 0x060010D5) /* Icon */
+     , (7313,  22, 0x3400002B) /* PhysicsEffectTable */;

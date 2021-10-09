@@ -44,14 +44,14 @@ VALUES (6798,   1, 'Nexus Koujia Breastplate') /* Name */
      , (6798,  16, 'A magnificent Koujia breastplate, infused with the essence of the Nexus Crystal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6798,   1,   33554642) /* Setup */
-     , (6798,   3,  536870932) /* SoundTable */
-     , (6798,   6,   67108990) /* PaletteBase */
-     , (6798,   7,  268435852) /* ClothingBase */
-     , (6798,   8,  100670451) /* Icon */
-     , (6798,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6798,   1, 0x020000D2) /* Setup */
+     , (6798,   3, 0x20000014) /* SoundTable */
+     , (6798,   6, 0x0400007E) /* PaletteBase */
+     , (6798,   7, 0x1000018C) /* ClothingBase */
+     , (6798,   8, 0x06001BF3) /* Icon */
+     , (6798,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6798,   209,      2)  /* Mana Renewal Other IV */
+VALUES (6798,   909,      2)  /* Leadership Mastery Other VI */
      , (6798,   272,      2)  /* Magic Resistance Other V */
-     , (6798,   909,      2)  /* Leadership Mastery Other VI */;
+     , (6798,   209,      2)  /* Mana Renewal Other IV */;

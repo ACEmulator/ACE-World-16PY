@@ -25,7 +25,7 @@ VALUES (1694,   1, 'Scroll of Deception Ineptitude') /* Name */
      , (1694,  16, 'When learned, this spell decreases the target''s Deception skill by 9%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1694,   1,   33554826) /* Setup */
-     , (1694,   8,  100676448) /* Icon */
-     , (1694,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1694,   1, 0x0200018A) /* Setup */
+     , (1694,   8, 0x06003360) /* Icon */
+     , (1694,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1694,  28,        868) /* Spell - Deception Ineptitude Other I */;

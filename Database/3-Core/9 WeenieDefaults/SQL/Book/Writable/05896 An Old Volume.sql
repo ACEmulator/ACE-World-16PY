@@ -24,10 +24,10 @@ VALUES (5896,   1, 'An Old Volume') /* Name */
      , (5896,  16, 'An incredibly old book, partially preserved by frigid temperatures, written in Empyrean characters and organized in the format of a journal.  Handle with care!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5896,   1,   33554771) /* Setup */
-     , (5896,   3,  536870932) /* SoundTable */
-     , (5896,   8,  100668117) /* Icon */
-     , (5896,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5896,   1, 0x02000153) /* Setup */
+     , (5896,   3, 0x20000014) /* SoundTable */
+     , (5896,   8, 0x060012D5) /* Icon */
+     , (5896,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (5896, 1, 1000);

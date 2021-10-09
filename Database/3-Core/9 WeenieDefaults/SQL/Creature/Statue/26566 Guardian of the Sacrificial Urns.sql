@@ -63,12 +63,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26566,   1, 'Guardian of the Sacrificial Urns') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26566,   1,   33558612) /* Setup */
-     , (26566,   2,  150995147) /* MotionTable */
-     , (26566,   3,  536871052) /* SoundTable */
-     , (26566,   4,  805306398) /* CombatTable */
-     , (26566,   8,  100675780) /* Icon */
-     , (26566,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (26566,   1, 0x02001054) /* Setup */
+     , (26566,   2, 0x090000CB) /* MotionTable */
+     , (26566,   3, 0x2000008C) /* SoundTable */
+     , (26566,   4, 0x3000001E) /* CombatTable */
+     , (26566,   8, 0x060030C4) /* Icon */
+     , (26566,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (26566,   1, 380, 0, 0) /* Strength */
@@ -157,7 +157,7 @@ VALUES (@parent_id,  0,  65 /* FellowBroadcast */, 0, 1, NULL, 'A disembodied vo
      , (@parent_id,  3,  22 /* StampQuest */, 0, 1, NULL, 'TempleWitChosen', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  4,  65 /* FellowBroadcast */, 5, 1, NULL, '"A Matron, has four servants and six consorts. She must offer the High Matron half of those who serve her and half of her partners. Half of the servants that are sent will survive upon return, and each consort that returns will become a servant. How many consorts will the Matron have once her offering is complete?"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  5,  65 /* FellowBroadcast */, 5, 1, NULL, '"Collect the remains of prior offerings from within this hallway. Place the amount of offerings you believe is the answer inside this satchel."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  6,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 26511 /* Satchel */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  6,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 26511 /* Satchel */, 1, 0 /* Undef */, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  7,  65 /* FellowBroadcast */, 3, 1, NULL, '"Bring the filled satchel to the statue at the end this hall and it shall judge you. Be warned the spirits of the dead are restless."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)

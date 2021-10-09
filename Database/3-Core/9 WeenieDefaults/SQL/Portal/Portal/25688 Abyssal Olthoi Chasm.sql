@@ -25,10 +25,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25688,   1, 'Abyssal Olthoi Chasm') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25688,   1,   33555925) /* Setup */
-     , (25688,   2,  150994947) /* MotionTable */
-     , (25688,   8,  100667499) /* Icon */;
+VALUES (25688,   1, 0x020005D5) /* Setup */
+     , (25688,   2, 0x09000003) /* MotionTable */
+     , (25688,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25688, 2, 1565393647, 70, -18.4296, 0.005, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0x5D4E02EF [70.000000 -18.429600 0.005000] 1.000000 0.000000 0.000000 0.000000 */;
+VALUES (25688, 2, 0x5D4E02EF, 70, -18.4296, 0.005, 1, 0, 0, -0) /* Destination */
+/* @teleloc 0x5D4E02EF [70.000000 -18.429600 0.005000] 1.000000 0.000000 0.000000 -0.000000 */;

@@ -32,8 +32,8 @@ VALUES (24753,   1, 'Treated Verdigris and Eyebright Crucible') /* Name */
      , (24753,  20, 'Treated Verdigris and Eyebright Crucibles') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24753,   1,   33555966) /* Setup */
-     , (24753,   3,  536870932) /* SoundTable */
-     , (24753,   8,  100674465) /* Icon */
-     , (24753,  22,  872415275) /* PhysicsEffectTable */
-     , (24753,  50,  100674413) /* IconOverlay */;
+VALUES (24753,   1, 0x020005FE) /* Setup */
+     , (24753,   3, 0x20000014) /* SoundTable */
+     , (24753,   8, 0x06002BA1) /* Icon */
+     , (24753,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24753,  50, 0x06002B6D) /* IconOverlay */;

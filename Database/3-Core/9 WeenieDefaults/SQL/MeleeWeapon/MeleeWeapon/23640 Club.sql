@@ -41,13 +41,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23640,   1, 'Club') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23640,   1,   33554731) /* Setup */
-     , (23640,   3,  536870932) /* SoundTable */
-     , (23640,   6,   67111919) /* PaletteBase */
-     , (23640,   7,  268435761) /* ClothingBase */
-     , (23640,   8,  100668855) /* Icon */
-     , (23640,  22,  872415275) /* PhysicsEffectTable */
-     , (23640,  36,  234881044) /* MutateFilter */;
+VALUES (23640,   1, 0x0200012B) /* Setup */
+     , (23640,   3, 0x20000014) /* SoundTable */
+     , (23640,   6, 0x04000BEF) /* PaletteBase */
+     , (23640,   7, 0x10000131) /* ClothingBase */
+     , (23640,   8, 0x060015B7) /* Icon */
+     , (23640,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (23640,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23640,  1616,      2)  /* Aura of Blood Drinker Self VI */

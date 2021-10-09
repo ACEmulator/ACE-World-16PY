@@ -38,9 +38,9 @@ VALUES (13239,   1, 'Leather Cap') /* Name */
      , (13239,  33, 'CapAcademyPickup') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13239,   1,   33554643) /* Setup */
-     , (13239,   3,  536870932) /* SoundTable */
-     , (13239,   6,   67108990) /* PaletteBase */
-     , (13239,   7,  268435465) /* ClothingBase */
-     , (13239,   8,  100667313) /* Icon */
-     , (13239,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (13239,   1, 0x020000D3) /* Setup */
+     , (13239,   3, 0x20000014) /* SoundTable */
+     , (13239,   6, 0x0400007E) /* PaletteBase */
+     , (13239,   7, 0x10000009) /* ClothingBase */
+     , (13239,   8, 0x06000FB1) /* Icon */
+     , (13239,  22, 0x3400002B) /* PhysicsEffectTable */;

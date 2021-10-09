@@ -25,7 +25,7 @@ VALUES (3398,   1, 'Scroll of Mace Mastery Other II') /* Name */
      , (3398,  16, 'When learned, this spell increases the target''s Mace skill by 25%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3398,   1,   33554826) /* Setup */
-     , (3398,   8,  100676464) /* Icon */
-     , (3398,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3398,   1, 0x0200018A) /* Setup */
+     , (3398,   8, 0x06003370) /* Icon */
+     , (3398,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3398,  28,        341) /* Spell - Light Weapon Mastery Other II */;

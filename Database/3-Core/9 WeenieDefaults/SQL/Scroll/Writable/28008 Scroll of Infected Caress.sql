@@ -24,7 +24,7 @@ VALUES (28008,   1, 'Scroll of Infected Caress') /* Name */
      , (28008,  15, 'When learned, this spell increases a caster''s damage mod by 0.07 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28008,   1,   33554826) /* Setup */
-     , (28008,   8,  100676674) /* Icon */
-     , (28008,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28008,   1, 0x0200018A) /* Setup */
+     , (28008,   8, 0x06003442) /* Icon */
+     , (28008,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28008,  28,       3259) /* Spell - Aura of Infected Spirit Caress */;

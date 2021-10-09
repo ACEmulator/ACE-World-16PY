@@ -26,7 +26,7 @@ VALUES (5368,   1, 'Tumerok Key') /* Name */
      , (5368,  16, 'A stone key from the Under-Cove Crypt, half-covered by mold.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5368,   1,   33554784) /* Setup */
-     , (5368,   3,  536870932) /* SoundTable */
-     , (5368,   8,  100667485) /* Icon */
-     , (5368,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5368,   1, 0x02000160) /* Setup */
+     , (5368,   3, 0x20000014) /* SoundTable */
+     , (5368,   8, 0x0600105D) /* Icon */
+     , (5368,  22, 0x3400002B) /* PhysicsEffectTable */;

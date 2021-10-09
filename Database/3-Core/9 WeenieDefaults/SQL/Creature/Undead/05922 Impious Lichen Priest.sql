@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5922,   1, 'Impious Lichen Priest') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5922,   1,   33554839) /* Setup */
-     , (5922,   2,  150994967) /* MotionTable */
-     , (5922,   3,  536870934) /* SoundTable */
-     , (5922,   4,  805306368) /* CombatTable */
-     , (5922,   6,   67110722) /* PaletteBase */
-     , (5922,   7,  268435558) /* ClothingBase */
-     , (5922,   8,  100667942) /* Icon */
-     , (5922,  22,  872415272) /* PhysicsEffectTable */
+VALUES (5922,   1, 0x02000197) /* Setup */
+     , (5922,   2, 0x09000017) /* MotionTable */
+     , (5922,   3, 0x20000016) /* SoundTable */
+     , (5922,   4, 0x30000000) /* CombatTable */
+     , (5922,   6, 0x04000742) /* PaletteBase */
+     , (5922,   7, 0x10000066) /* ClothingBase */
+     , (5922,   8, 0x06001226) /* Icon */
+     , (5922,  22, 0x34000028) /* PhysicsEffectTable */
      , (5922,  32,        287) /* WieldedTreasureType - 
                                    Wield Yumi (23736) | Probability: 50%
                                    Wield 16x Greater Fire Arrow (5305) | Probability: 100%
@@ -94,20 +94,20 @@ VALUES (5922,   1,    85, 0, 0, 170) /* MaxHealth */
      , (5922,   5,    90, 0, 0, 250) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (5922,  1, 0, 3, 0,  97, 0, 447.714135319604) /* Axe                 Specialized */
-     , (5922,  5, 0, 3, 0,  97, 0, 447.714135319604) /* Mace                Specialized */
-     , (5922,  6, 0, 3, 0, 133, 0, 447.714135319604) /* MeleeDefense        Specialized */
-     , (5922,  7, 0, 3, 0, 228, 0, 447.714135319604) /* MissileDefense      Specialized */
-     , (5922,  9, 0, 3, 0,  97, 0, 447.714135319604) /* Spear               Specialized */
-     , (5922, 10, 0, 3, 0,  97, 0, 447.714135319604) /* Staff               Specialized */
-     , (5922, 11, 0, 3, 0,  97, 0, 447.714135319604) /* Sword               Specialized */
-     , (5922, 13, 0, 3, 0,  97, 0, 447.714135319604) /* UnarmedCombat       Specialized */
-     , (5922, 14, 0, 2, 0, 200, 0, 447.714135319604) /* ArcaneLore          Trained */
-     , (5922, 15, 0, 3, 0, 119, 0, 447.714135319604) /* MagicDefense        Specialized */
-     , (5922, 20, 0, 2, 0,  50, 0, 447.714135319604) /* Deception           Trained */
-     , (5922, 31, 0, 3, 0, 100, 0, 447.714135319604) /* CreatureEnchantment Specialized */
-     , (5922, 33, 0, 3, 0, 100, 0, 447.714135319604) /* LifeMagic           Specialized */
-     , (5922, 34, 0, 3, 0, 100, 0, 447.714135319604) /* WarMagic            Specialized */;
+VALUES (5922,  1, 0, 3, 0,  97, 0, 447.7141353196044) /* Axe                 Specialized */
+     , (5922,  5, 0, 3, 0,  97, 0, 447.7141353196044) /* Mace                Specialized */
+     , (5922,  6, 0, 3, 0, 133, 0, 447.7141353196044) /* MeleeDefense        Specialized */
+     , (5922,  7, 0, 3, 0, 228, 0, 447.7141353196044) /* MissileDefense      Specialized */
+     , (5922,  9, 0, 3, 0,  97, 0, 447.7141353196044) /* Spear               Specialized */
+     , (5922, 10, 0, 3, 0,  97, 0, 447.7141353196044) /* Staff               Specialized */
+     , (5922, 11, 0, 3, 0,  97, 0, 447.7141353196044) /* Sword               Specialized */
+     , (5922, 13, 0, 3, 0,  97, 0, 447.7141353196044) /* UnarmedCombat       Specialized */
+     , (5922, 14, 0, 2, 0, 200, 0, 447.7141353196044) /* ArcaneLore          Trained */
+     , (5922, 15, 0, 3, 0, 119, 0, 447.7141353196044) /* MagicDefense        Specialized */
+     , (5922, 20, 0, 2, 0,  50, 0, 447.7141353196044) /* Deception           Trained */
+     , (5922, 31, 0, 3, 0, 100, 0, 447.7141353196044) /* CreatureEnchantment Specialized */
+     , (5922, 33, 0, 3, 0, 100, 0, 447.7141353196044) /* LifeMagic           Specialized */
+     , (5922, 34, 0, 3, 0, 100, 0, 447.7141353196044) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (5922,  0,  4,  0,    0,  170,  170,  204,  204,  221,  170,  272,  255,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -121,17 +121,17 @@ VALUES (5922,  0,  4,  0,    0,  170,  170,  204,  204,  221,  170,  272,  255, 
      , (5922,  8,  4, 80, 0.75,  170,  170,  204,  204,  221,  170,  272,  255,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5922,   174,   2.02)  /* Fester Other IV */
-     , (5922,  1239,   2.04)  /* Drain Health Other III */
-     , (5922,  1252,   2.04)  /* Drain Stamina Other IV */
-     , (5922,  1263,   2.04)  /* Drain Mana Other IV */
-     , (5922,  1323,    2.1)  /* Imperil Other II */
-     , (5922,  1341,   2.02)  /* Weakness Other IV */
-     , (5922,  1370,   2.02)  /* Frailty Other IV */
-     , (5922,  1394,   2.02)  /* Clumsiness Other IV */
-     , (5922,  1418,   2.02)  /* Slowness Other IV */
+VALUES (5922,  1394,   2.02)  /* Clumsiness Other IV */
      , (5922,  1442,   2.02)  /* Bafflement Other IV */
-     , (5922,  1466,   2.02)  /* Feeblemind Other IV */;
+     , (5922,  1370,   2.02)  /* Frailty Other IV */
+     , (5922,  1418,   2.02)  /* Slowness Other IV */
+     , (5922,  1263,   2.04)  /* Drain Mana Other IV */
+     , (5922,  1239,   2.04)  /* Drain Health Other III */
+     , (5922,  1323,    2.1)  /* Imperil Other II */
+     , (5922,  1252,   2.04)  /* Drain Stamina Other IV */
+     , (5922,   174,   2.02)  /* Fester Other IV */
+     , (5922,  1466,   2.02)  /* Feeblemind Other IV */
+     , (5922,  1341,   2.02)  /* Weakness Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (5922,  94) /* ATTACK_NOTIFICATION_EVENT */

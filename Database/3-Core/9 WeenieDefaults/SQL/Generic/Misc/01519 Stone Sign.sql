@@ -22,5 +22,5 @@ VALUES (1519,   1, 'Stone Sign') /* Name */
      , (1519,  16, 'Entering village of Treville.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1519,   1,   33555229) /* Setup */
-     , (1519,   8,  100667494) /* Icon */;
+VALUES (1519,   1, 0x0200031D) /* Setup */
+     , (1519,   8, 0x06001066) /* Icon */;

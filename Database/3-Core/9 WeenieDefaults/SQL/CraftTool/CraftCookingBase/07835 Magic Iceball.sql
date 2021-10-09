@@ -29,9 +29,9 @@ VALUES (7835,   1, 'Magic Iceball') /* Name */
      , (7835,  20, 'Magic Iceballs') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7835,   1,   33556223) /* Setup */
-     , (7835,   3,  536870932) /* SoundTable */
-     , (7835,   6,   67111928) /* PaletteBase */
-     , (7835,   7,  268435841) /* ClothingBase */
-     , (7835,   8,  100670860) /* Icon */
-     , (7835,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7835,   1, 0x020006FF) /* Setup */
+     , (7835,   3, 0x20000014) /* SoundTable */
+     , (7835,   6, 0x04000BF8) /* PaletteBase */
+     , (7835,   7, 0x10000181) /* ClothingBase */
+     , (7835,   8, 0x06001D8C) /* Icon */
+     , (7835,  22, 0x3400002B) /* PhysicsEffectTable */;

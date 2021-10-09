@@ -27,7 +27,7 @@ VALUES (21393,  22, True ) /* Inscribable */
      , (21393,  84, True ) /* IgnoreCloIcons */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21393,   5, -0.0333) /* ManaRate */
+VALUES (21393,   5,  -0.033) /* ManaRate */
      , (21393,  39,       2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -35,12 +35,12 @@ VALUES (21393,   1, 'Daulan Faur') /* Name */
      , (21393,  15, 'A black necklace with a blue stone setting.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21393,   1,   33554689) /* Setup */
-     , (21393,   3,  536870932) /* SoundTable */
-     , (21393,   6,   67111919) /* PaletteBase */
-     , (21393,   7,  268435749) /* ClothingBase */
-     , (21393,   8,  100673498) /* Icon */
-     , (21393,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21393,   1, 0x02000101) /* Setup */
+     , (21393,   3, 0x20000014) /* SoundTable */
+     , (21393,   6, 0x04000BEF) /* PaletteBase */
+     , (21393,   7, 0x10000125) /* ClothingBase */
+     , (21393,   8, 0x060027DA) /* Icon */
+     , (21393,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21393,   272,      2)  /* Magic Resistance Other V */

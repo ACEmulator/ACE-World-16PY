@@ -29,7 +29,7 @@ VALUES (9364,   1, 'Wrapped Bundle of Lightning Arrowheads') /* Name */
      , (9364,  20, 'Wrapped Bundles of Lightning Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9364,   1,   33557030) /* Setup */
-     , (9364,   3,  536870932) /* SoundTable */
-     , (9364,   8,  100671608) /* Icon */
-     , (9364,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9364,   1, 0x02000A26) /* Setup */
+     , (9364,   3, 0x20000014) /* SoundTable */
+     , (9364,   8, 0x06002078) /* Icon */
+     , (9364,  22, 0x3400002B) /* PhysicsEffectTable */;

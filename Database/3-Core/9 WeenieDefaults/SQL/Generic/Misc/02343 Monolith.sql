@@ -22,5 +22,5 @@ VALUES (2343,   1, 'Monolith') /* Name */
      , (2343,  16, 'Beware! You are now entering the forsaken town of Colier. The hazards awaiting in Colier outweigh any rewards one might find there. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2343,   1,   33555229) /* Setup */
-     , (2343,   8,  100668115) /* Icon */;
+VALUES (2343,   1, 0x0200031D) /* Setup */
+     , (2343,   8, 0x060012D3) /* Icon */;

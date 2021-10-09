@@ -28,7 +28,7 @@ VALUES (7398,   1, 'Laboratory Key') /* Name */
      , (7398,  33, 'sylsfeartreasurekey') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7398,   1,   33554784) /* Setup */
-     , (7398,   3,  536870932) /* SoundTable */
-     , (7398,   8,  100667486) /* Icon */
-     , (7398,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7398,   1, 0x02000160) /* Setup */
+     , (7398,   3, 0x20000014) /* SoundTable */
+     , (7398,   8, 0x0600105E) /* Icon */
+     , (7398,  22, 0x3400002B) /* PhysicsEffectTable */;

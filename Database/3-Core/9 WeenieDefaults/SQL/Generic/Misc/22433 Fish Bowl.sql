@@ -26,5 +26,5 @@ VALUES (22433,   1, 'Fish Bowl') /* Name */
      , (22433,  15, 'An empty glass bowl.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22433,   1,   33554929) /* Setup */
-     , (22433,   8,  100668612) /* Icon */;
+VALUES (22433,   1, 0x020001F1) /* Setup */
+     , (22433,   8, 0x060014C4) /* Icon */;

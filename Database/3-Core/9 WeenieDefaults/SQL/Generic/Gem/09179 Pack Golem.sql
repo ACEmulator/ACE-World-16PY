@@ -27,8 +27,8 @@ VALUES (9179,   1, 'Pack Golem') /* Name */
      , (9179,  16, 'Your very own Wood Golem! Real wood construction and realistic facial moss. Hand milled and assembled in the hills of Ispar by a lonely old man in his workshop.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9179,   1,   33556428) /* Setup */
-     , (9179,   2,  150995144) /* MotionTable */
-     , (9179,   8,  100667940) /* Icon */
-     , (9179,  22,  872415326) /* PhysicsEffectTable */
-     , (9179,  36,  234881046) /* MutateFilter */;
+VALUES (9179,   1, 0x020007CC) /* Setup */
+     , (9179,   2, 0x090000C8) /* MotionTable */
+     , (9179,   8, 0x06001224) /* Icon */
+     , (9179,  22, 0x3400005E) /* PhysicsEffectTable */
+     , (9179,  36, 0x0E000016) /* MutateFilter */;

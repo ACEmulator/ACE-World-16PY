@@ -28,7 +28,7 @@ VALUES (4732,   1, 'Fried Steak') /* Name */
      , (4732,  20, 'Fried Steaks') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4732,   1,   33554678) /* Setup */
-     , (4732,   3,  536870932) /* SoundTable */
-     , (4732,   8,  100670271) /* Icon */
-     , (4732,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4732,   1, 0x020000F6) /* Setup */
+     , (4732,   3, 0x20000014) /* SoundTable */
+     , (4732,   8, 0x06001B3F) /* Icon */
+     , (4732,  22, 0x3400002B) /* PhysicsEffectTable */;

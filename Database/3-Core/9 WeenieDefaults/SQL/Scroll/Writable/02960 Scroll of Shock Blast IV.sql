@@ -25,7 +25,7 @@ VALUES (2960,   1, 'Scroll of Shock Blast IV') /* Name */
      , (2960,  16, 'When learned, this spell shoots three shock waves outward from the caster. Each wave does 11-20 points of damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2960,   1,   33554826) /* Setup */
-     , (2960,   8,  100677008) /* Icon */
-     , (2960,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2960,   1, 0x0200018A) /* Setup */
+     , (2960,   8, 0x06003590) /* Icon */
+     , (2960,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2960,  28,        104) /* Spell - Shock Blast IV */;

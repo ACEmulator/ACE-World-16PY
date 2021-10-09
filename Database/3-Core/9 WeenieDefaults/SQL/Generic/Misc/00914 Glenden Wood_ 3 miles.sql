@@ -22,5 +22,5 @@ VALUES (914,   1, 'Glenden Wood: 3 miles') /* Name */
      , (914,  16, 'Village of Glenden Wood: 3 miles.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (914,   1,   33555984) /* Setup */
-     , (914,   8,  100668115) /* Icon */;
+VALUES (914,   1, 0x02000610) /* Setup */
+     , (914,   8, 0x060012D3) /* Icon */;

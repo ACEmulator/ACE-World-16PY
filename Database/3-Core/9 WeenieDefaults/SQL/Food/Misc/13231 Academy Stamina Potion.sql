@@ -32,10 +32,10 @@ VALUES (13231,   1, 'Academy Stamina Potion') /* Name */
      , (13231,  33, 'StaminaPickUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13231,   1,   33554603) /* Setup */
-     , (13231,   3,  536870932) /* SoundTable */
-     , (13231,   6,   67111919) /* PaletteBase */
-     , (13231,   7,  268435816) /* ClothingBase */
-     , (13231,   8,  100670840) /* Icon */
-     , (13231,  22,  872415275) /* PhysicsEffectTable */
+VALUES (13231,   1, 0x020000AB) /* Setup */
+     , (13231,   3, 0x20000014) /* SoundTable */
+     , (13231,   6, 0x04000BEF) /* PaletteBase */
+     , (13231,   7, 0x10000168) /* ClothingBase */
+     , (13231,   8, 0x06001D78) /* Icon */
+     , (13231,  22, 0x3400002B) /* PhysicsEffectTable */
      , (13231,  23,         65) /* UseSound - Drink1 */;

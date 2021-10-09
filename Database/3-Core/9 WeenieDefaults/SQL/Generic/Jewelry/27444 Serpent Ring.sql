@@ -35,13 +35,13 @@ VALUES (27444,   1, 'Serpent Ring') /* Name */
      , (27444,  15, 'A small green snake biting its tail making a ring.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27444,   1,   33554691) /* Setup */
-     , (27444,   3,  536870932) /* SoundTable */
-     , (27444,   6,   67111919) /* PaletteBase */
-     , (27444,   7,  268436318) /* ClothingBase */
-     , (27444,   8,  100676407) /* Icon */
-     , (27444,  22,  872415275) /* PhysicsEffectTable */
-     , (27444,  36,  234881046) /* MutateFilter */;
+VALUES (27444,   1, 0x02000103) /* Setup */
+     , (27444,   3, 0x20000014) /* SoundTable */
+     , (27444,   6, 0x04000BEF) /* PaletteBase */
+     , (27444,   7, 0x1000035E) /* ClothingBase */
+     , (27444,   8, 0x06003337) /* Icon */
+     , (27444,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27444,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27444,   512,      2)  /* Acid Protection Other IV */

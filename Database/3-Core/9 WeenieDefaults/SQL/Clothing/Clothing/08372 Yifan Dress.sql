@@ -34,10 +34,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8372,   1, 'Yifan Dress') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8372,   1,   33554854) /* Setup */
-     , (8372,   3,  536870932) /* SoundTable */
-     , (8372,   6,   67108990) /* PaletteBase */
-     , (8372,   7,  268436077) /* ClothingBase */
-     , (8372,   8,  100670349) /* Icon */
-     , (8372,  22,  872415275) /* PhysicsEffectTable */
-     , (8372,  36,  234881046) /* MutateFilter */;
+VALUES (8372,   1, 0x020001A6) /* Setup */
+     , (8372,   3, 0x20000014) /* SoundTable */
+     , (8372,   6, 0x0400007E) /* PaletteBase */
+     , (8372,   7, 0x1000026D) /* ClothingBase */
+     , (8372,   8, 0x06001B8D) /* Icon */
+     , (8372,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8372,  36, 0x0E000016) /* MutateFilter */;

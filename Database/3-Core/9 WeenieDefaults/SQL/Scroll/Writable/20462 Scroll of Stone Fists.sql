@@ -24,7 +24,7 @@ VALUES (20462,   1, 'Scroll of Stone Fists') /* Name */
      , (20462,  15, 'When learned, this spell rains nine boulders down at the area around the target. Each boulder does 60-120 points of bludgeoning damage to the first thing it hits.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20462,   1,   33554826) /* Setup */
-     , (20462,   8,  100677008) /* Icon */
-     , (20462,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20462,   1, 0x0200018A) /* Setup */
+     , (20462,   8, 0x06003590) /* Icon */
+     , (20462,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20462,  28,       1838) /* Spell - Stone Fists */;

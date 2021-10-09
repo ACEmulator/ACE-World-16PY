@@ -46,16 +46,16 @@ VALUES (9419,   1, 'Scepter of Might') /* Name */
      , (9419,  16, 'A large carved scepter, it is made from both stone and gems.  It seems to refract light, magnifying the multifaceted gems into miniature suns.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9419,   1,   33557013) /* Setup */
-     , (9419,   3,  536870932) /* SoundTable */
-     , (9419,   6,   67111919) /* PaletteBase */
-     , (9419,   7,  268436169) /* ClothingBase */
-     , (9419,   8,  100671509) /* Icon */
-     , (9419,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9419,   1, 0x02000A15) /* Setup */
+     , (9419,   3, 0x20000014) /* SoundTable */
+     , (9419,   6, 0x04000BEF) /* PaletteBase */
+     , (9419,   7, 0x100002C9) /* ClothingBase */
+     , (9419,   8, 0x06002015) /* Icon */
+     , (9419,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9419,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9419,  1093,      2)  /* Fire Protection Self V */
+     , (9419,  1613,      2)  /* Aura of Blood Drinker Self III */
      , (9419,  1309,      2)  /* Armor Self III */
-     , (9419,  1329,      2)  /* Strength Self III */
-     , (9419,  1613,      2)  /* Aura of Blood Drinker Self III */;
+     , (9419,  1329,      2)  /* Strength Self III */;

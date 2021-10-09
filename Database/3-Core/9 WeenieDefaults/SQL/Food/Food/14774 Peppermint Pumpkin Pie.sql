@@ -28,9 +28,9 @@ VALUES (14774,   1, 'Peppermint Pumpkin Pie') /* Name */
      , (14774,  15, 'A lumpy orange pie sold by Ulgrim the Unpleasant.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14774,   1,   33555978) /* Setup */
-     , (14774,   3,  536870932) /* SoundTable */
-     , (14774,   6,   67111928) /* PaletteBase */
-     , (14774,   7,  268436336) /* ClothingBase */
-     , (14774,   8,  100672577) /* Icon */
-     , (14774,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14774,   1, 0x0200060A) /* Setup */
+     , (14774,   3, 0x20000014) /* SoundTable */
+     , (14774,   6, 0x04000BF8) /* PaletteBase */
+     , (14774,   7, 0x10000370) /* ClothingBase */
+     , (14774,   8, 0x06002441) /* Icon */
+     , (14774,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -31,10 +31,10 @@ VALUES (8327,   1, 'Gold Pea') /* Name */
      , (8327,  16, 'A concentrated gold pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8327,   1,   33555211) /* Setup */
-     , (8327,   3,  536870932) /* SoundTable */
-     , (8327,   6,   67111919) /* PaletteBase */
-     , (8327,   7,  268435721) /* ClothingBase */
-     , (8327,   8,  100671081) /* Icon */
-     , (8327,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8327,   1, 0x0200030B) /* Setup */
+     , (8327,   3, 0x20000014) /* SoundTable */
+     , (8327,   6, 0x04000BEF) /* PaletteBase */
+     , (8327,   7, 0x10000109) /* ClothingBase */
+     , (8327,   8, 0x06001E69) /* Icon */
+     , (8327,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8327,  29,        117) /* SpellComponent */;

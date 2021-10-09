@@ -38,10 +38,10 @@ VALUES (12745,   1, 'Training Spear') /* Name */
      , (12745,  15, 'A basic spear forged in the Strathelar Training Academy. This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12745,   1,   33554756) /* Setup */
-     , (12745,   3,  536870932) /* SoundTable */
-     , (12745,   6,   67111919) /* PaletteBase */
-     , (12745,   7,  268435768) /* ClothingBase */
-     , (12745,   8,  100669005) /* Icon */
-     , (12745,  22,  872415275) /* PhysicsEffectTable */
-     , (12745,  36,  234881044) /* MutateFilter */;
+VALUES (12745,   1, 0x02000144) /* Setup */
+     , (12745,   3, 0x20000014) /* SoundTable */
+     , (12745,   6, 0x04000BEF) /* PaletteBase */
+     , (12745,   7, 0x10000138) /* ClothingBase */
+     , (12745,   8, 0x0600164D) /* Icon */
+     , (12745,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (12745,  36, 0x0E000014) /* MutateFilter */;

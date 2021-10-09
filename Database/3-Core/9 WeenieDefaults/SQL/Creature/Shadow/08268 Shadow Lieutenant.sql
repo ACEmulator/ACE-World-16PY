@@ -70,14 +70,14 @@ VALUES (8268,   1, 'Shadow Lieutenant') /* Name */
      , (8268,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8268,   1,   33554433) /* Setup */
-     , (8268,   2,  150994945) /* MotionTable */
-     , (8268,   3,  536870913) /* SoundTable */
-     , (8268,   4,  805306368) /* CombatTable */
-     , (8268,   6,   67111797) /* PaletteBase */
-     , (8268,   7,  268435632) /* ClothingBase */
-     , (8268,   8,  100670397) /* Icon */
-     , (8268,  22,  872415331) /* PhysicsEffectTable */
+VALUES (8268,   1, 0x02000001) /* Setup */
+     , (8268,   2, 0x09000001) /* MotionTable */
+     , (8268,   3, 0x20000001) /* SoundTable */
+     , (8268,   4, 0x30000000) /* CombatTable */
+     , (8268,   6, 0x04000B75) /* PaletteBase */
+     , (8268,   7, 0x100000B0) /* ClothingBase */
+     , (8268,   8, 0x06001BBD) /* Icon */
+     , (8268,  22, 0x34000063) /* PhysicsEffectTable */
      , (8268,  32,        175) /* WieldedTreasureType - 
                                    Wield Yumi (23735) | Probability: 20%
                                    Wield 14x Fire Arrow (1437) | Probability: 100%
@@ -139,26 +139,26 @@ VALUES (8268,  0,  4,  0,    0,  130,  130,   99,  109,   74,  130,   81,   99, 
      , (8268,  8,  4, 30, 0.75,   60,   60,   46,   50,   34,   60,   37,   46,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8268,    73,  2.036)  /* Frost Bolt V */
-     , (8268,    79,  2.036)  /* Lightning Bolt V */
-     , (8268,    84,  2.036)  /* Flame Bolt V */
-     , (8268,    90,  2.036)  /* Force Bolt V */
-     , (8268,    96,  2.036)  /* Whirling Blade V */
-     , (8268,   137,  2.005)  /* Frost Volley V */
-     , (8268,   141,  2.005)  /* Lightning Volley V */
+VALUES (8268,  1668,  2.009)  /* Stamina to Health Self V */
      , (8268,   145,  2.005)  /* Flame Volley V */
-     , (8268,   149,  2.005)  /* Force Volley V */
      , (8268,   153,  2.005)  /* Blade Volley V */
-     , (8268,   233,   2.01)  /* Vulnerability Other V */
-     , (8268,   266,   2.01)  /* Defenselessness Other V */
-     , (8268,   284,   2.01)  /* Magic Yield Other V */
-     , (8268,  1241,  2.009)  /* Drain Health Other V */
-     , (8268,  1253,  2.009)  /* Drain Stamina Other V */
-     , (8268,  1264,  2.009)  /* Drain Mana Other V */
      , (8268,  1294,  2.009)  /* Mana to Health Self V */
-     , (8268,  1668,  2.009)  /* Stamina to Health Self V */
+     , (8268,   266,   2.01)  /* Defenselessness Other V */
+     , (8268,  1253,  2.009)  /* Drain Stamina Other V */
+     , (8268,   137,  2.005)  /* Frost Volley V */
+     , (8268,    73,  2.036)  /* Frost Bolt V */
+     , (8268,   141,  2.005)  /* Lightning Volley V */
+     , (8268,    79,  2.036)  /* Lightning Bolt V */
      , (8268,  1680,  2.009)  /* Stamina to Mana Self V */
-     , (8268,  1703,  2.009)  /* Health to Mana Self V */;
+     , (8268,    84,  2.036)  /* Flame Bolt V */
+     , (8268,   149,  2.005)  /* Force Volley V */
+     , (8268,  1241,  2.009)  /* Drain Health Other V */
+     , (8268,    90,  2.036)  /* Force Bolt V */
+     , (8268,   284,   2.01)  /* Magic Yield Other V */
+     , (8268,    96,  2.036)  /* Whirling Blade V */
+     , (8268,  1703,  2.009)  /* Health to Mana Self V */
+     , (8268,   233,   2.01)  /* Vulnerability Other V */
+     , (8268,  1264,  2.009)  /* Drain Mana Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (8268,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -25,10 +25,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11221,   1, 'Small Hive Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11221,   1,   33555926) /* Setup */
-     , (11221,   2,  150994947) /* MotionTable */
-     , (11221,   8,  100667499) /* Icon */;
+VALUES (11221,   1, 0x020005D6) /* Setup */
+     , (11221,   2, 0x09000003) /* MotionTable */
+     , (11221,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11221, 2, 42598975, 110, -20, -30, -0.7660444, 0, 0, -0.6427876) /* Destination */
-/* @teleloc 0x028A023F [110.000000 -20.000000 -30.000000] -0.766044 0.000000 0.000000 -0.642788 */;
+VALUES (11221, 2, 0x028A023F, 110, -20, -30, -0.766044, 0, -0, -0.642788) /* Destination */
+/* @teleloc 0x028A023F [110.000000 -20.000000 -30.000000] -0.766044 0.000000 -0.000000 -0.642788 */;

@@ -42,11 +42,11 @@ VALUES (22824,   1, 'Abandoned Mines Portal Sending Gem') /* Name */
      , (22824,  15, 'A glowing red gem.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22824,   1,   33556769) /* Setup */
-     , (22824,   3,  536870932) /* SoundTable */
-     , (22824,   6,   67111919) /* PaletteBase */
-     , (22824,   7,  268435723) /* ClothingBase */
-     , (22824,   8,  100672368) /* Icon */
-     , (22824,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22824,   1, 0x02000921) /* Setup */
+     , (22824,   3, 0x20000014) /* SoundTable */
+     , (22824,   6, 0x04000BEF) /* PaletteBase */
+     , (22824,   7, 0x1000010B) /* ClothingBase */
+     , (22824,   8, 0x06002370) /* Icon */
+     , (22824,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22824,  28,       2942) /* Spell - Free Ride to the Abandoned Mine */
-     , (22824,  36,  234881046) /* MutateFilter */;
+     , (22824,  36, 0x0E000016) /* MutateFilter */;

@@ -49,14 +49,14 @@ VALUES (22990,   1, 'Silifi of Crimson Stars') /* Name */
      , (22990,  16, 'The Silifi of Crimson Stars, its blade repaired using the spine of a Island Armoredillo. It is fitted with the rubies Mahwan and Yujazik. There is a notch for one more.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22990,   1,   33556553) /* Setup */
-     , (22990,   3,  536870932) /* SoundTable */
-     , (22990,   6,   67111919) /* PaletteBase */
-     , (22990,   7,  268435986) /* ClothingBase */
-     , (22990,   8,  100670611) /* Icon */
-     , (22990,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22990,   1, 0x02000849) /* Setup */
+     , (22990,   3, 0x20000014) /* SoundTable */
+     , (22990,   6, 0x04000BEF) /* PaletteBase */
+     , (22990,   7, 0x10000212) /* ClothingBase */
+     , (22990,   8, 0x06001C93) /* Icon */
+     , (22990,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22990,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22990,  1096,      2)  /* Fire Protection Other VI */
-     , (22990,  1605,      2)  /* Aura of Defender Self VI */;
+VALUES (22990,  1605,      2)  /* Aura of Defender Self VI */
+     , (22990,  1096,      2)  /* Fire Protection Other VI */;

@@ -24,7 +24,7 @@ VALUES (20436,   1, 'Scroll of Squall of Swords') /* Name */
      , (20436,  15, 'When learned, this spell rains nine whirling blades down at the area around the target. Each blade does 60-120 points of slashing damage to the first thing it hits.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20436,   1,   33554826) /* Setup */
-     , (20436,   8,  100677028) /* Icon */
-     , (20436,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20436,   1, 0x0200018A) /* Setup */
+     , (20436,   8, 0x060035A4) /* Icon */
+     , (20436,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20436,  28,       1833) /* Spell - Squall of Swords */;

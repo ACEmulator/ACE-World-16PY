@@ -34,7 +34,7 @@ VALUES (29909,  22, True ) /* Inscribable */
      , (29909,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29909,   5, -0.03333) /* ManaRate */
+VALUES (29909,   5,  -0.033) /* ManaRate */
      , (29909,  21,     0.4) /* WeaponLength */
      , (29909,  22,     0.5) /* DamageVariance */
      , (29909,  29,    1.08) /* WeaponDefense */
@@ -48,14 +48,14 @@ VALUES (29909,   1, 'Badlands Siraluun Okane') /* Name */
      , (29909,  16, 'A beautifully detailed okane crafted from the claw of a Badlands Siraluun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29909,   1,   33559109) /* Setup */
-     , (29909,   3,  536870932) /* SoundTable */
-     , (29909,   8,  100677336) /* Icon */
-     , (29909,  22,  872415275) /* PhysicsEffectTable */
-     , (29909,  36,  234881044) /* MutateFilter */;
+VALUES (29909,   1, 0x02001245) /* Setup */
+     , (29909,   3, 0x20000014) /* SoundTable */
+     , (29909,   8, 0x060036D8) /* Icon */
+     , (29909,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29909,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29909,  1592,      2)  /* Aura of Heart Seeker Self VI */
-     , (29909,  1604,      2)  /* Aura of Defender Self V */
-     , (29909,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (29909,  1624,      2)  /* Aura of Swift Killer Self III */;
+VALUES (29909,  1604,      2)  /* Aura of Defender Self V */
+     , (29909,  1592,      2)  /* Aura of Heart Seeker Self VI */
+     , (29909,  1624,      2)  /* Aura of Swift Killer Self III */
+     , (29909,  1616,      2)  /* Aura of Blood Drinker Self VI */;

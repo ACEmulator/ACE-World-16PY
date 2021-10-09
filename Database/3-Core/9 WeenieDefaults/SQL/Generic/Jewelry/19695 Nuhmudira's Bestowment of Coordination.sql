@@ -39,13 +39,13 @@ VALUES (19695,   1, 'Nuhmudira''s Bestowment of Coordination') /* Name */
      , (19695,  16, 'A red gorget, crafted from a strong metal, imbued with an elixir of nimbleness. As you hold the gorget in your hand you feel a soft vibration.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19695,   1,   33554687) /* Setup */
-     , (19695,   3,  536870932) /* SoundTable */
-     , (19695,   6,   67111919) /* PaletteBase */
-     , (19695,   7,  268436388) /* ClothingBase */
-     , (19695,   8,  100668632) /* Icon */
-     , (19695,  22,  872415275) /* PhysicsEffectTable */
-     , (19695,  36,  234881046) /* MutateFilter */;
+VALUES (19695,   1, 0x020000FF) /* Setup */
+     , (19695,   3, 0x20000014) /* SoundTable */
+     , (19695,   6, 0x04000BEF) /* PaletteBase */
+     , (19695,   7, 0x100003A4) /* ClothingBase */
+     , (19695,   8, 0x060014D8) /* Icon */
+     , (19695,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (19695,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19695,  1383,      2)  /* Coordination Other V */

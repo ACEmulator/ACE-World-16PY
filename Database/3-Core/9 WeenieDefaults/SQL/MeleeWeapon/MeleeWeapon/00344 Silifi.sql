@@ -37,11 +37,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (344,   1, 'Silifi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (344,   1,   33554753) /* Setup */
-     , (344,   3,  536870932) /* SoundTable */
-     , (344,   6,   67111919) /* PaletteBase */
-     , (344,   7,  268435767) /* ClothingBase */
-     , (344,   8,  100668985) /* Icon */
-     , (344,  22,  872415275) /* PhysicsEffectTable */
-     , (344,  36,  234881053) /* MutateFilter */
-     , (344,  46,  939524098) /* TsysMutationFilter */;
+VALUES (344,   1, 0x02000141) /* Setup */
+     , (344,   3, 0x20000014) /* SoundTable */
+     , (344,   6, 0x04000BEF) /* PaletteBase */
+     , (344,   7, 0x10000137) /* ClothingBase */
+     , (344,   8, 0x06001639) /* Icon */
+     , (344,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (344,  36, 0x0E00001D) /* MutateFilter */
+     , (344,  46, 0x38000002) /* TsysMutationFilter */;

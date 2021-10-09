@@ -42,11 +42,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24627,   1, 'Fine Olthoi Pauldrons') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24627,   1,   33554641) /* Setup */
-     , (24627,   3,  536870932) /* SoundTable */
-     , (24627,   6,   67108990) /* PaletteBase */
-     , (24627,   7,  268436651) /* ClothingBase */
-     , (24627,   8,  100674589) /* Icon */
-     , (24627,  22,  872415275) /* PhysicsEffectTable */
-     , (24627,  36,  234881046) /* MutateFilter */
-     , (24627,  46,  939524130) /* TsysMutationFilter */;
+VALUES (24627,   1, 0x020000D1) /* Setup */
+     , (24627,   3, 0x20000014) /* SoundTable */
+     , (24627,   6, 0x0400007E) /* PaletteBase */
+     , (24627,   7, 0x100004AB) /* ClothingBase */
+     , (24627,   8, 0x06002C1D) /* Icon */
+     , (24627,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24627,  36, 0x0E000016) /* MutateFilter */
+     , (24627,  46, 0x38000022) /* TsysMutationFilter */;

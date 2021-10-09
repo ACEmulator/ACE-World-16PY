@@ -45,18 +45,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6135,   1, 'Superior Sparking Atlan Staff') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6135,   1,   33556372) /* Setup */
-     , (6135,   3,  536870932) /* SoundTable */
-     , (6135,   6,   67111919) /* PaletteBase */
-     , (6135,   7,  268435951) /* ClothingBase */
-     , (6135,   8,  100670561) /* Icon */
-     , (6135,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6135,   1, 0x02000794) /* Setup */
+     , (6135,   3, 0x20000014) /* SoundTable */
+     , (6135,   6, 0x04000BEF) /* PaletteBase */
+     , (6135,   7, 0x100001EF) /* ClothingBase */
+     , (6135,   8, 0x06001C61) /* Icon */
+     , (6135,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6135,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6135,  1069,      2)  /* Lightning Protection Self IV */
+     , (6135,  1603,      2)  /* Aura of Defender Self IV */
+     , (6135,  1625,      2)  /* Aura of Swift Killer Self IV */
      , (6135,  1352,      2)  /* Endurance Self IV */
      , (6135,  1590,      2)  /* Aura of Heart Seeker Self IV */
-     , (6135,  1603,      2)  /* Aura of Defender Self IV */
-     , (6135,  1614,      2)  /* Aura of Blood Drinker Self IV */
-     , (6135,  1625,      2)  /* Aura of Swift Killer Self IV */;
+     , (6135,  1614,      2)  /* Aura of Blood Drinker Self IV */;

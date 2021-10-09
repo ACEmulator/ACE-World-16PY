@@ -22,5 +22,5 @@ VALUES (14316,   1, 'Mage''s Pass') /* Name */
      , (14316,  16, 'Welcome to Mage''s Pass') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14316,   1,   33557463) /* Setup */
-     , (14316,   8,  100668115) /* Icon */;
+VALUES (14316,   1, 0x02000BD7) /* Setup */
+     , (14316,   8, 0x060012D3) /* Icon */;

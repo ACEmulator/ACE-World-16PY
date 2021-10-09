@@ -71,14 +71,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12020,   1, 'Cold One') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12020,   1,   33555608) /* Setup */
-     , (12020,   2,  150995048) /* MotionTable */
-     , (12020,   3,  536870977) /* SoundTable */
-     , (12020,   4,  805306393) /* CombatTable */
-     , (12020,   6,   67111936) /* PaletteBase */
-     , (12020,   7,  268435727) /* ClothingBase */
-     , (12020,   8,  100669120) /* Icon */
-     , (12020,  22,  872415280) /* PhysicsEffectTable */
+VALUES (12020,   1, 0x02000498) /* Setup */
+     , (12020,   2, 0x09000068) /* MotionTable */
+     , (12020,   3, 0x20000041) /* SoundTable */
+     , (12020,   4, 0x30000019) /* CombatTable */
+     , (12020,   6, 0x04000C00) /* PaletteBase */
+     , (12020,   7, 0x1000010F) /* ClothingBase */
+     , (12020,   8, 0x060016C0) /* Icon */
+     , (12020,  22, 0x34000030) /* PhysicsEffectTable */
      , (12020,  32,        376) /* WieldedTreasureType - 
                                    Wield 5x Javelin (8620) | Probability: 25%
                                    Wield 4x Acid Javelin (8621) | Probability: 25%
@@ -86,7 +86,7 @@ VALUES (12020,   1,   33555608) /* Setup */
                                    Wield Large Kite Shield (92) | Probability: 10%
                                    Wield Kite Shield (91) | Probability: 10%
                                    Wield Large Round Shield (94) | Probability: 20%
-                                   Wield Tower Shield (95) | Probability: 15% */
+                                   Wield Tower Shield (95) | Probability: 15.000001% */
      , (12020,  35,         19) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -133,18 +133,18 @@ VALUES (12020,  0,  4,  0,    0,  610,  488,  415,  415,  427,  415,  415,  415,
      , (12020,  8,  4, 25, 0.75,  620,  496,  422,  422,  434,  422,  422,  422,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12020,    63,  2.093)  /* Acid Stream VI */
-     , (12020,    80,  2.093)  /* Lightning Bolt VI */
-     , (12020,    85,  2.093)  /* Flame Bolt VI */
-     , (12020,   142,   2.02)  /* Lightning Volley VI */
-     , (12020,   199,   2.01)  /* Exhaustion Other VI */
-     , (12020,   249,  2.007)  /* Invulnerability Self VI */
+VALUES (12020,   142,   2.02)  /* Lightning Volley VI */
      , (12020,   261,  2.007)  /* Impregnability Self VI */
-     , (12020,   279,  2.007)  /* Magic Resistance Self VI */
+     , (12020,   199,   2.01)  /* Exhaustion Other VI */
+     , (12020,    85,  2.093)  /* Flame Bolt VI */
      , (12020,  1161,   2.04)  /* Heal Self VI */
-     , (12020,  1176,   2.01)  /* Harm Other VI */
+     , (12020,   279,  2.007)  /* Magic Resistance Self VI */
+     , (12020,    80,  2.093)  /* Lightning Bolt VI */
      , (12020,  1200,   2.01)  /* Enfeeble Other VI */
-     , (12020,  1265,   2.01)  /* Drain Mana Other VI */;
+     , (12020,  1176,   2.01)  /* Harm Other VI */
+     , (12020,  1265,   2.01)  /* Drain Mana Other VI */
+     , (12020,   249,  2.007)  /* Invulnerability Self VI */
+     , (12020,    63,  2.093)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (12020,  94) /* ATTACK_NOTIFICATION_EVENT */

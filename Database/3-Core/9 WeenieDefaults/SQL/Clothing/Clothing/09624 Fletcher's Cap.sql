@@ -35,10 +35,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9624,   1, 'Fletcher''s Cap') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9624,   1,   33557035) /* Setup */
-     , (9624,   3,  536870932) /* SoundTable */
-     , (9624,   6,   67108990) /* PaletteBase */
-     , (9624,   7,  268436181) /* ClothingBase */
-     , (9624,   8,  100671628) /* Icon */
-     , (9624,  22,  872415275) /* PhysicsEffectTable */
-     , (9624,  36,  234881046) /* MutateFilter */;
+VALUES (9624,   1, 0x02000A2B) /* Setup */
+     , (9624,   3, 0x20000014) /* SoundTable */
+     , (9624,   6, 0x0400007E) /* PaletteBase */
+     , (9624,   7, 0x100002D5) /* ClothingBase */
+     , (9624,   8, 0x0600208C) /* Icon */
+     , (9624,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (9624,  36, 0x0E000016) /* MutateFilter */;

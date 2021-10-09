@@ -36,6 +36,6 @@ VALUES (5749,   1, 'Volcano Heat') /* Name */
      , (5749,  17, 'Intense heat burns you for %i points of damage!') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5749,   1,   33556025) /* Setup */
-     , (5749,   3,  536870994) /* SoundTable */
-     , (5749,   8,  100667465) /* Icon */;
+VALUES (5749,   1, 0x02000639) /* Setup */
+     , (5749,   3, 0x20000052) /* SoundTable */
+     , (5749,   8, 0x06001049) /* Icon */;

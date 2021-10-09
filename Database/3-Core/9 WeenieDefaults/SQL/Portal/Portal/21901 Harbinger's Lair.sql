@@ -26,10 +26,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21901,   1, 'Harbinger''s Lair') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21901,   1,   33555925) /* Setup */
-     , (21901,   2,  150994947) /* MotionTable */
-     , (21901,   8,  100667499) /* Icon */;
+VALUES (21901,   1, 0x020005D5) /* Setup */
+     , (21901,   2, 0x09000003) /* MotionTable */
+     , (21901,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21901, 2, 1497825547, 9.755, -93.593, 0.005, 0.7071068, 0, 0, -0.7071068) /* Destination */
-/* @teleloc 0x5947010B [9.755000 -93.593000 0.005000] 0.707107 0.000000 0.000000 -0.707107 */;
+VALUES (21901, 2, 0x5947010B, 9.755, -93.593, 0.005, 0.707107, 0, 0, -0.707107) /* Destination */
+/* @teleloc 0x5947010B [9.755000 -93.593002 0.005000] 0.707107 0.000000 0.000000 -0.707107 */;

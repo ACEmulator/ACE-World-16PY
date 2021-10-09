@@ -28,9 +28,9 @@ VALUES (22618,   1, 'Nanner Chips') /* Name */
      , (22618,  15, 'A dried nanner treat.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22618,   1,   33555968) /* Setup */
-     , (22618,   3,  536870932) /* SoundTable */
-     , (22618,   6,   67111919) /* PaletteBase */
-     , (22618,   7,  268436503) /* ClothingBase */
-     , (22618,   8,  100673806) /* Icon */
-     , (22618,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22618,   1, 0x02000600) /* Setup */
+     , (22618,   3, 0x20000014) /* SoundTable */
+     , (22618,   6, 0x04000BEF) /* PaletteBase */
+     , (22618,   7, 0x10000417) /* ClothingBase */
+     , (22618,   8, 0x0600290E) /* Icon */
+     , (22618,  22, 0x3400002B) /* PhysicsEffectTable */;

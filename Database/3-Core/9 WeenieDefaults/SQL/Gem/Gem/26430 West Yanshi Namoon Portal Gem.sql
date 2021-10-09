@@ -36,11 +36,11 @@ VALUES (26430,   1, 'West Yanshi Namoon Portal Gem') /* Name */
      , (26430,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26430,   1,   33556769) /* Setup */
-     , (26430,   3,  536870932) /* SoundTable */
-     , (26430,   6,   67111919) /* PaletteBase */
-     , (26430,   7,  268435723) /* ClothingBase */
-     , (26430,   8,  100675760) /* Icon */
-     , (26430,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26430,   1, 0x02000921) /* Setup */
+     , (26430,   3, 0x20000014) /* SoundTable */
+     , (26430,   6, 0x04000BEF) /* PaletteBase */
+     , (26430,   7, 0x1000010B) /* ClothingBase */
+     , (26430,   8, 0x060030B0) /* Icon */
+     , (26430,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26430,  28,        157) /* Spell - Summon Primary Portal I */
      , (26430,  31,      14291) /* LinkedPortalOne - West Yanshi Namoon Portal */;

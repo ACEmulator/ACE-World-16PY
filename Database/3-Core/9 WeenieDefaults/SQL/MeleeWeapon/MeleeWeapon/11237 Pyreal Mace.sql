@@ -37,8 +37,8 @@ VALUES (11237,   1, 'Pyreal Mace') /* Name */
      , (11237,  16, 'A mace with a small loop at the end, allowing it to be hung from something. There is a fine inscription along its length - "Marae Edare," in the script of Yalain.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11237,   1,   33557230) /* Setup */
-     , (11237,   3,  536870932) /* SoundTable */
-     , (11237,   8,  100672027) /* Icon */
-     , (11237,  22,  872415275) /* PhysicsEffectTable */
-     , (11237,  36,  234881044) /* MutateFilter */;
+VALUES (11237,   1, 0x02000AEE) /* Setup */
+     , (11237,   3, 0x20000014) /* SoundTable */
+     , (11237,   8, 0x0600221B) /* Icon */
+     , (11237,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11237,  36, 0x0E000014) /* MutateFilter */;

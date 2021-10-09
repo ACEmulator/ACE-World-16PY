@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (433,   1, 'Base of Mt. Alphus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (433,   1,   33554867) /* Setup */
-     , (433,   2,  150994947) /* MotionTable */
-     , (433,   8,  100667499) /* Icon */;
+VALUES (433,   1, 0x020001B3) /* Setup */
+     , (433,   2, 0x09000003) /* MotionTable */
+     , (433,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (433, 2, 2492923952, 131.7, 170.3, 109.8, 0.9636304, 0, 0, -0.2672384) /* Destination */
-/* @teleloc 0x94970030 [131.700000 170.300000 109.800000] 0.963630 0.000000 0.000000 -0.267238 */;
+VALUES (433, 2, 0x94970030, 131.7, 170.3, 109.8, 0.96363, 0, 0, -0.267238) /* Destination */
+/* @teleloc 0x94970030 [131.699997 170.300003 109.800003] 0.963630 0.000000 0.000000 -0.267238 */;

@@ -24,7 +24,7 @@ VALUES (20362,   1, 'Scroll of Cleanse Item Magic') /* Name */
      , (20362,  15, 'When learned, this spell dispels 2-4 Item Magic enchantments of level 3 or lower from the caster.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20362,   1,   33554826) /* Setup */
-     , (20362,   8,  100676659) /* Icon */
-     , (20362,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20362,   1, 0x0200018A) /* Setup */
+     , (20362,   8, 0x06003433) /* Icon */
+     , (20362,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20362,  28,       1934) /* Spell - Cleanse Item Magic */;

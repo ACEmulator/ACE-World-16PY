@@ -22,5 +22,5 @@ VALUES (12584,   1, 'Bluewater Cottages') /* Name */
      , (12584,  16, 'Welcome to Bluewater Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12584,   1,   33557463) /* Setup */
-     , (12584,   8,  100668115) /* Icon */;
+VALUES (12584,   1, 0x02000BD7) /* Setup */
+     , (12584,   8, 0x060012D3) /* Icon */;

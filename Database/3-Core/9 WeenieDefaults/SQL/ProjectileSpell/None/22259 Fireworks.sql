@@ -28,9 +28,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22259,   1, 'Fireworks') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22259,   1,   33555469) /* Setup */
-     , (22259,   3,  536870971) /* SoundTable */
-     , (22259,   8,  100667494) /* Icon */
-     , (22259,  22,  872415241) /* PhysicsEffectTable */
+VALUES (22259,   1, 0x0200040D) /* Setup */
+     , (22259,   3, 0x2000003B) /* SoundTable */
+     , (22259,   8, 0x06001066) /* Icon */
+     , (22259,  22, 0x34000009) /* PhysicsEffectTable */
      , (22259,  28,         86) /* Spell - Force Bolt I */
      , (22259,  30,         90) /* PhysicsScript - ProjectileCollision */;

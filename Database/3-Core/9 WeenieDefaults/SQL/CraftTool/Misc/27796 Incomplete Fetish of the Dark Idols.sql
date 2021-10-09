@@ -32,7 +32,7 @@ VALUES (27796,   1, 'Incomplete Fetish of the Dark Idols') /* Name */
      , (27796,  16, 'An incomplete magical fetish.  A single Ancient Diamond idol has been affixed to one end of the cord.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27796,   1,   33558781) /* Setup */
-     , (27796,   3,  536870932) /* SoundTable */
-     , (27796,   8,  100676572) /* Icon */
-     , (27796,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27796,   1, 0x020010FD) /* Setup */
+     , (27796,   3, 0x20000014) /* SoundTable */
+     , (27796,   8, 0x060033DC) /* Icon */
+     , (27796,  22, 0x3400002B) /* PhysicsEffectTable */;

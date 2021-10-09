@@ -30,10 +30,10 @@ VALUES (8293,   1, 'Henbane Pea') /* Name */
      , (8293,  16, 'A concentrated henbane pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8293,   1,   33554817) /* Setup */
-     , (8293,   3,  536870932) /* SoundTable */
-     , (8293,   6,   67111919) /* PaletteBase */
-     , (8293,   7,  268435720) /* ClothingBase */
-     , (8293,   8,  100671051) /* Icon */
-     , (8293,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8293,   1, 0x02000181) /* Setup */
+     , (8293,   3, 0x20000014) /* SoundTable */
+     , (8293,   6, 0x04000BEF) /* PaletteBase */
+     , (8293,   7, 0x10000108) /* ClothingBase */
+     , (8293,   8, 0x06001E4B) /* Icon */
+     , (8293,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8293,  29,        134) /* SpellComponent */;

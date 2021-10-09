@@ -35,10 +35,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (124,   1, 'Jerkin') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (124,   1,   33554854) /* Setup */
-     , (124,   3,  536870932) /* SoundTable */
-     , (124,   6,   67108990) /* PaletteBase */
-     , (124,   7,  268435485) /* ClothingBase */
-     , (124,   8,  100667351) /* Icon */
-     , (124,  22,  872415275) /* PhysicsEffectTable */
-     , (124,  36,  234881046) /* MutateFilter */;
+VALUES (124,   1, 0x020001A6) /* Setup */
+     , (124,   3, 0x20000014) /* SoundTable */
+     , (124,   6, 0x0400007E) /* PaletteBase */
+     , (124,   7, 0x1000001D) /* ClothingBase */
+     , (124,   8, 0x06000FD7) /* Icon */
+     , (124,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (124,  36, 0x0E000016) /* MutateFilter */;

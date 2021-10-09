@@ -23,7 +23,7 @@ VALUES (4643,   1, 'House of Treasure') /* Name */
      , (4643,  16, 'House of Treasure') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4643,   1,   33555909) /* Setup */
-     , (4643,   6,   67111860) /* PaletteBase */
-     , (4643,   7,  268435823) /* ClothingBase */
-     , (4643,   8,  100668115) /* Icon */;
+VALUES (4643,   1, 0x020005C5) /* Setup */
+     , (4643,   6, 0x04000BB4) /* PaletteBase */
+     , (4643,   7, 0x1000016F) /* ClothingBase */
+     , (4643,   8, 0x060012D3) /* Icon */;

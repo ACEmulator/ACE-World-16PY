@@ -26,8 +26,8 @@ VALUES (28888,   1, 'Chittick Head') /* Name */
      , (28888,  15, 'The stench emanating from this Chittick head is overwhelming.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28888,   1,   33559014) /* Setup */
-     , (28888,   3,  536870932) /* SoundTable */
-     , (28888,   8,  100677103) /* Icon */
-     , (28888,  22,  872415275) /* PhysicsEffectTable */
-     , (28888,  36,  234881046) /* MutateFilter */;
+VALUES (28888,   1, 0x020011E6) /* Setup */
+     , (28888,   3, 0x20000014) /* SoundTable */
+     , (28888,   8, 0x060035EF) /* Icon */
+     , (28888,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (28888,  36, 0x0E000016) /* MutateFilter */;

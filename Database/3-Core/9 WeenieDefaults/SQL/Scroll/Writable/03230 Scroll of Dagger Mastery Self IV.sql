@@ -25,7 +25,7 @@ VALUES (3230,   1, 'Scroll of Dagger Mastery Self IV') /* Name */
      , (3230,  16, 'When learned, this spell increases the caster''s Dagger skill by 75%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3230,   1,   33554826) /* Setup */
-     , (3230,   8,  100676455) /* Icon */
-     , (3230,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3230,   1, 0x0200018A) /* Setup */
+     , (3230,   8, 0x06003367) /* Icon */
+     , (3230,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3230,  28,        325) /* Spell - Finesse Weapon Mastery Self IV */;

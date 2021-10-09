@@ -26,10 +26,10 @@ VALUES (29510,   1, 'Page from a journal') /* Name */
      , (29510,  15, 'This is a letter that all newcomers arrive with.  Save this letter for a little while.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29510,   1,   33554773) /* Setup */
-     , (29510,   3,  536870932) /* SoundTable */
-     , (29510,   8,  100672431) /* Icon */
-     , (29510,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29510,   1, 0x02000155) /* Setup */
+     , (29510,   3, 0x20000014) /* SoundTable */
+     , (29510,   8, 0x060023AF) /* Icon */
+     , (29510,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (29510, 1, 1000);

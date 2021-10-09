@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15158,   1, 'Genem Causland Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15158,   1,   33554867) /* Setup */
-     , (15158,   2,  150994947) /* MotionTable */
-     , (15158,   8,  100667499) /* Icon */;
+VALUES (15158,   1, 0x020001B3) /* Setup */
+     , (15158,   2, 0x09000003) /* MotionTable */
+     , (15158,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15158, 2, 1890189348, 106.404, 89.186, 54.573, -0.3759737, 0, 0, -0.9266304) /* Destination */
-/* @teleloc 0x70AA0024 [106.404000 89.186000 54.573000] -0.375974 0.000000 0.000000 -0.926630 */;
+VALUES (15158, 2, 0x70AA0024, 106.404, 89.186, 54.573, -0.375974, 0, -0, -0.92663) /* Destination */
+/* @teleloc 0x70AA0024 [106.403999 89.185997 54.573002] -0.375974 0.000000 -0.000000 -0.926630 */;

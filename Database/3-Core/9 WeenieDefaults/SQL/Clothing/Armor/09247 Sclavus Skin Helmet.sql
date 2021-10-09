@@ -38,9 +38,9 @@ VALUES (9247,   1, 'Sclavus Skin Helmet') /* Name */
      , (9247,  16, 'A helmet reinforced by the skin shed from a potent Sclavus.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9247,   1,   33556992) /* Setup */
-     , (9247,   3,  536870932) /* SoundTable */
-     , (9247,   6,   67108990) /* PaletteBase */
-     , (9247,   7,  268436147) /* ClothingBase */
-     , (9247,   8,  100668243) /* Icon */
-     , (9247,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9247,   1, 0x02000A00) /* Setup */
+     , (9247,   3, 0x20000014) /* SoundTable */
+     , (9247,   6, 0x0400007E) /* PaletteBase */
+     , (9247,   7, 0x100002B3) /* ClothingBase */
+     , (9247,   8, 0x06001353) /* Icon */
+     , (9247,  22, 0x3400002B) /* PhysicsEffectTable */;

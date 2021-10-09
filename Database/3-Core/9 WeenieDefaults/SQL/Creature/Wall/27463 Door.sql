@@ -65,12 +65,12 @@ VALUES (27463,   1, 'Door') /* Name */
      , (27463,  15, 'A locked door, impossible to pick.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27463,   1,   33558701) /* Setup */
-     , (27463,   2,  150995297) /* MotionTable */
-     , (27463,   3,  536871001) /* SoundTable */
-     , (27463,   4,  805306372) /* CombatTable */
-     , (27463,   8,  100671984) /* Icon */
-     , (27463,  22,  872415339) /* PhysicsEffectTable */;
+VALUES (27463,   1, 0x020010AD) /* Setup */
+     , (27463,   2, 0x09000161) /* MotionTable */
+     , (27463,   3, 0x20000059) /* SoundTable */
+     , (27463,   4, 0x30000004) /* CombatTable */
+     , (27463,   8, 0x060021F0) /* Icon */
+     , (27463,  22, 0x3400006B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27463,   1,   1, 0, 0) /* Strength */
@@ -86,9 +86,9 @@ VALUES (27463,   1, 19999, 0, 0, 20000) /* MaxHealth */
      , (27463,   5,     0, 0, 0, 1) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (27463,  6, 0, 2, 0,   1, 0, 1913.0511830385) /* MeleeDefense        Trained */
-     , (27463,  7, 0, 2, 0,   1, 0, 1913.0511830385) /* MissileDefense      Trained */
-     , (27463, 15, 0, 3, 0,   1, 0, 1913.0511830385) /* MagicDefense        Specialized */;
+VALUES (27463,  6, 0, 2, 0,   1, 0, 1913.0511830384962) /* MeleeDefense        Trained */
+     , (27463,  7, 0, 2, 0,   1, 0, 1913.0511830384962) /* MissileDefense      Trained */
+     , (27463, 15, 0, 3, 0,   1, 0, 1913.0511830384962) /* MagicDefense        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (27463,  0,  4,  0,    0,  400,  400,  400,  400,  400,  400,  400,  400,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

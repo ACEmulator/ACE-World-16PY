@@ -25,7 +25,7 @@ VALUES (3382,   1, 'Scroll of Lockpick Ineptitude VI') /* Name */
      , (3382,  16, 'When learned, this spell decreases the target''s Lockpick skill by 60%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3382,   1,   33554826) /* Setup */
-     , (3382,   8,  100676463) /* Icon */
-     , (3382,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3382,   1, 0x0200018A) /* Setup */
+     , (3382,   8, 0x0600336F) /* Icon */
+     , (3382,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3382,  28,        945) /* Spell - Lockpick Ineptitude Other VI */;

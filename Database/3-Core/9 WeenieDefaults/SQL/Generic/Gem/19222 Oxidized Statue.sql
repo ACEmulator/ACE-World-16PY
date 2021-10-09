@@ -27,10 +27,10 @@ VALUES (19222,   1, 'Oxidized Statue') /* Name */
      , (19222,  16, 'A small oxidized statue of Ben Ten crafted by the Arcanum Tinker, in reward for keeping the statues that continue to threaten the cities of Dereth at bay.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19222,   1,   33554510) /* Setup */
-     , (19222,   2,  150995204) /* MotionTable */
-     , (19222,   6,   67108990) /* PaletteBase */
-     , (19222,   7,  268436374) /* ClothingBase */
-     , (19222,   8,  100667446) /* Icon */
-     , (19222,  22,  872415349) /* PhysicsEffectTable */
-     , (19222,  36,  234881046) /* MutateFilter */;
+VALUES (19222,   1, 0x0200004E) /* Setup */
+     , (19222,   2, 0x09000104) /* MotionTable */
+     , (19222,   6, 0x0400007E) /* PaletteBase */
+     , (19222,   7, 0x10000396) /* ClothingBase */
+     , (19222,   8, 0x06001036) /* Icon */
+     , (19222,  22, 0x34000075) /* PhysicsEffectTable */
+     , (19222,  36, 0x0E000016) /* MutateFilter */;

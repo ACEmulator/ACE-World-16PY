@@ -38,11 +38,11 @@ VALUES (9191,   1, 'Gem of Cleansing') /* Name */
      , (9191,  20, 'Gems of Cleansing') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9191,   1,   33554809) /* Setup */
-     , (9191,   3,  536870932) /* SoundTable */
-     , (9191,   6,   67111919) /* PaletteBase */
-     , (9191,   7,  268435723) /* ClothingBase */
-     , (9191,   8,  100671406) /* Icon */
-     , (9191,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9191,   1, 0x02000179) /* Setup */
+     , (9191,   3, 0x20000014) /* SoundTable */
+     , (9191,   6, 0x04000BEF) /* PaletteBase */
+     , (9191,   7, 0x1000010B) /* ClothingBase */
+     , (9191,   8, 0x06001FAE) /* Icon */
+     , (9191,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9191,  28,       1876) /* Spell - Purge All Magic Self */
-     , (9191,  36,  234881046) /* MutateFilter */;
+     , (9191,  36, 0x0E000016) /* MutateFilter */;

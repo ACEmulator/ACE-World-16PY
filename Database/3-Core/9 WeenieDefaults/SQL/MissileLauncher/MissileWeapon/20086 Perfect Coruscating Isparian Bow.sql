@@ -19,7 +19,7 @@ VALUES (20086,   1,        256) /* ItemType - MissileWeapon */
      , (20086,  48,          2) /* WeaponSkill - Bow */
      , (20086,  49,         40) /* WeaponTime */
      , (20086,  50,          1) /* AmmoType - Arrow */
-     , (20086,  51,          2) /* CombatUse - Missle */
+     , (20086,  51,          2) /* CombatUse - Missile */
      , (20086,  52,          2) /* ParentLocation - LeftHand */
      , (20086,  53,          3) /* PlacementPosition - LeftHand */
      , (20086,  60,        175) /* WeaponRange */
@@ -50,17 +50,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20086,   1, 'Perfect Coruscating Isparian Bow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20086,   1,   33557757) /* Setup */
-     , (20086,   3,  536870932) /* SoundTable */
-     , (20086,   6,   67111919) /* PaletteBase */
-     , (20086,   7,  268436394) /* ClothingBase */
-     , (20086,   8,  100673012) /* Icon */
-     , (20086,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20086,   1, 0x02000CFD) /* Setup */
+     , (20086,   3, 0x20000014) /* SoundTable */
+     , (20086,   6, 0x04000BEF) /* PaletteBase */
+     , (20086,   7, 0x100003AA) /* ClothingBase */
+     , (20086,   8, 0x060025F4) /* Icon */
+     , (20086,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20086,  37,          2) /* ItemSkillLimit - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20086,  1069,      2)  /* Lightning Protection Self IV */
-     , (20086,  1399,      2)  /* Quickness Self III */
-     , (20086,  1605,      2)  /* Aura of Defender Self VI */
+VALUES (20086,  1605,      2)  /* Aura of Defender Self VI */
      , (20086,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (20086,  2687,      2)  /* Moderate Missile Weapon Aptitude */;
+     , (20086,  2687,      2)  /* Moderate Missile Weapon Aptitude */
+     , (20086,  1069,      2)  /* Lightning Protection Self IV */
+     , (20086,  1399,      2)  /* Quickness Self III */;

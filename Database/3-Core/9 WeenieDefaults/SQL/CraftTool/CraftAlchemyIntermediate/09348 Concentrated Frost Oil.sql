@@ -32,9 +32,9 @@ VALUES (9348,   1, 'Concentrated Frost Oil') /* Name */
      , (9348,  20, 'Vials of Concentrated Frost Oil') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9348,   1,   33555967) /* Setup */
-     , (9348,   3,  536870932) /* SoundTable */
-     , (9348,   6,   67111919) /* PaletteBase */
-     , (9348,   7,  268435815) /* ClothingBase */
-     , (9348,   8,  100671586) /* Icon */
-     , (9348,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9348,   1, 0x020005FF) /* Setup */
+     , (9348,   3, 0x20000014) /* SoundTable */
+     , (9348,   6, 0x04000BEF) /* PaletteBase */
+     , (9348,   7, 0x10000167) /* ClothingBase */
+     , (9348,   8, 0x06002062) /* Icon */
+     , (9348,  22, 0x3400002B) /* PhysicsEffectTable */;

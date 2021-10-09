@@ -30,7 +30,7 @@ VALUES (21923,   1, 'Combined Seal Fragment') /* Name */
      , (21923,  15, 'A combined seal fragment with odd glyphs and sigils.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21923,   1,   33557976) /* Setup */
-     , (21923,   3,  536870932) /* SoundTable */
-     , (21923,   8,  100673504) /* Icon */
-     , (21923,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21923,   1, 0x02000DD8) /* Setup */
+     , (21923,   3, 0x20000014) /* SoundTable */
+     , (21923,   8, 0x060027E0) /* Icon */
+     , (21923,  22, 0x3400002B) /* PhysicsEffectTable */;

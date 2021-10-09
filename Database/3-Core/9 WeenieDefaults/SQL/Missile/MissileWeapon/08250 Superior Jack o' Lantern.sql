@@ -21,7 +21,7 @@ VALUES (8250,   1,        256) /* ItemType - MissileWeapon */
      , (8250,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (8250,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (8250,  49,         10) /* WeaponTime */
-     , (8250,  51,          2) /* CombatUse - Missle */
+     , (8250,  51,          2) /* CombatUse - Missile */
      , (8250,  93,     134164) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn, Inelastic */
      , (8250, 150,        103) /* HookPlacement - Hook */
      , (8250, 151,         11) /* HookType - Floor, Wall, Yard */;
@@ -46,9 +46,9 @@ VALUES (8250,   1, 'Superior Jack o'' Lantern') /* Name */
      , (8250,  20, 'Superior Jack o'' Lanterns') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8250,   1,   33556812) /* Setup */
-     , (8250,   3,  536870932) /* SoundTable */
-     , (8250,   6,   67112968) /* PaletteBase */
-     , (8250,   7,  268436044) /* ClothingBase */
-     , (8250,   8,  100671020) /* Icon */
-     , (8250,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8250,   1, 0x0200094C) /* Setup */
+     , (8250,   3, 0x20000014) /* SoundTable */
+     , (8250,   6, 0x04001008) /* PaletteBase */
+     , (8250,   7, 0x1000024C) /* ClothingBase */
+     , (8250,   8, 0x06001E2C) /* Icon */
+     , (8250,  22, 0x3400002B) /* PhysicsEffectTable */;

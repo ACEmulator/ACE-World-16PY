@@ -38,7 +38,7 @@ VALUES (27344,  22, True ) /* Inscribable */
      , (27344,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27344,   5, -0.033333) /* ManaRate */
+VALUES (27344,   5,  -0.033) /* ManaRate */
      , (27344,  21,    0.52) /* WeaponLength */
      , (27344,  22,     0.5) /* DamageVariance */
      , (27344,  29,    1.08) /* WeaponDefense */
@@ -52,20 +52,20 @@ VALUES (27344,   1, 'Palenqual''s Korua of the Chase') /* Name */
      , (27344,  16, 'A korua fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27344,   1,   33558664) /* Setup */
-     , (27344,   3,  536870932) /* SoundTable */
-     , (27344,   6,   67113336) /* PaletteBase */
-     , (27344,   7,  268436250) /* ClothingBase */
-     , (27344,   8,  100676369) /* Icon */
-     , (27344,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27344,   1, 0x02001088) /* Setup */
+     , (27344,   3, 0x20000014) /* SoundTable */
+     , (27344,   6, 0x04001178) /* PaletteBase */
+     , (27344,   7, 0x1000031A) /* ClothingBase */
+     , (27344,   8, 0x06003311) /* Icon */
+     , (27344,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27344,  2438,      2)  /* Lesser Rockslide */
+VALUES (27344,  2454,      2)  /* Thorns */
+     , (27344,  2438,      2)  /* Lesser Rockslide */
      , (27344,  2441,      2)  /* Lesser Stone Cliffs */
      , (27344,  2444,      2)  /* Lesser Strength of Earth */
+     , (27344,  3231,      2)  /* Lesser Cascade */
      , (27344,  2448,      2)  /* Growth */
      , (27344,  2451,      2)  /* Hunter's Acumen */
-     , (27344,  2454,      2)  /* Thorns */
      , (27344,  2471,      2)  /* Lesser Still Water */
-     , (27344,  2474,      2)  /* Lesser Torrent */
-     , (27344,  3231,      2)  /* Lesser Cascade */;
+     , (27344,  2474,      2)  /* Lesser Torrent */;

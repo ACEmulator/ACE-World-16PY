@@ -64,13 +64,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14575,   1, 'Aun Tanua') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14575,   1,   33557117) /* Setup */
-     , (14575,   2,  150994954) /* MotionTable */
-     , (14575,   3,  536870931) /* SoundTable */
-     , (14575,   4,  805306380) /* CombatTable */
-     , (14575,   6,   67113280) /* PaletteBase */
-     , (14575,   7,  268436193) /* ClothingBase */
-     , (14575,   8,  100671756) /* Icon */;
+VALUES (14575,   1, 0x02000A7D) /* Setup */
+     , (14575,   2, 0x0900000A) /* MotionTable */
+     , (14575,   3, 0x20000013) /* SoundTable */
+     , (14575,   4, 0x3000000C) /* CombatTable */
+     , (14575,   6, 0x04001140) /* PaletteBase */
+     , (14575,   7, 0x100002E1) /* ClothingBase */
+     , (14575,   8, 0x0600210C) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (14575,   1, 220, 0, 0) /* Strength */
@@ -86,19 +86,19 @@ VALUES (14575,   1,    70, 0, 0, 160) /* MaxHealth */
      , (14575,   5,     0, 0, 0, 140) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (14575,  1, 0, 2, 0, 153, 0, 897.304128501573) /* Axe                 Trained */
-     , (14575,  4, 0, 2, 0, 153, 0, 897.304128501573) /* Dagger              Trained */
-     , (14575,  5, 0, 3, 0, 153, 0, 897.304128501573) /* Mace                Specialized */
-     , (14575,  6, 0, 2, 0, 137, 0, 897.304128501573) /* MeleeDefense        Trained */
-     , (14575,  7, 0, 2, 0, 142, 0, 897.304128501573) /* MissileDefense      Trained */
-     , (14575,  9, 0, 2, 0, 153, 0, 897.304128501573) /* Spear               Trained */
-     , (14575, 10, 0, 2, 0, 153, 0, 897.304128501573) /* Staff               Trained */
-     , (14575, 11, 0, 3, 0, 153, 0, 897.304128501573) /* Sword               Specialized */
-     , (14575, 13, 0, 2, 0, 153, 0, 897.304128501573) /* UnarmedCombat       Trained */
-     , (14575, 14, 0, 2, 0, 150, 0, 897.304128501573) /* ArcaneLore          Trained */
-     , (14575, 15, 0, 2, 0, 189, 0, 897.304128501573) /* MagicDefense        Trained */
-     , (14575, 20, 0, 2, 0,  40, 0, 897.304128501573) /* Deception           Trained */
-     , (14575, 24, 0, 2, 0,  40, 0, 897.304128501573) /* Run                 Trained */;
+VALUES (14575,  1, 0, 2, 0, 153, 0, 897.3041285015726) /* Axe                 Trained */
+     , (14575,  4, 0, 2, 0, 153, 0, 897.3041285015726) /* Dagger              Trained */
+     , (14575,  5, 0, 3, 0, 153, 0, 897.3041285015726) /* Mace                Specialized */
+     , (14575,  6, 0, 2, 0, 137, 0, 897.3041285015726) /* MeleeDefense        Trained */
+     , (14575,  7, 0, 2, 0, 142, 0, 897.3041285015726) /* MissileDefense      Trained */
+     , (14575,  9, 0, 2, 0, 153, 0, 897.3041285015726) /* Spear               Trained */
+     , (14575, 10, 0, 2, 0, 153, 0, 897.3041285015726) /* Staff               Trained */
+     , (14575, 11, 0, 3, 0, 153, 0, 897.3041285015726) /* Sword               Specialized */
+     , (14575, 13, 0, 2, 0, 153, 0, 897.3041285015726) /* UnarmedCombat       Trained */
+     , (14575, 14, 0, 2, 0, 150, 0, 897.3041285015726) /* ArcaneLore          Trained */
+     , (14575, 15, 0, 2, 0, 189, 0, 897.3041285015726) /* MagicDefense        Trained */
+     , (14575, 20, 0, 2, 0,  40, 0, 897.3041285015726) /* Deception           Trained */
+     , (14575, 24, 0, 2, 0,  40, 0, 897.3041285015726) /* Run                 Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (14575,  0,  4,  0,    0,  220,  220,  220,  220,  220,  220,  220,  220,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -117,7 +117,7 @@ VALUES (14575,  6 /* Give */,      1, 14566 /* Akiekie Ember */, NULL, NULL, NUL
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  1,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  2,  18 /* DirectBroadcast */, 1, 1, NULL, 'Aun Tanua gently cups the ember in his clawed hands, and as its glow warms his skin, his past gradually seeps into memory. For the first instant in an endless monotony of time, he remembers. Ezheret. Palenqual. Timaru. Home.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  3,  18 /* DirectBroadcast */, 3, 1, NULL, 'As determination and strength return to the old warrior''s stance, he turns to you once more.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
@@ -126,7 +126,7 @@ VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NU
      , (@parent_id,  6,  10 /* Tell */, 2, 1, NULL, 'There is but one way to let my brothers envision my fate, and I must ask one more favor of you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  7,  18 /* DirectBroadcast */, 2, 1, NULL, 'Aun Tanua lifts the akiekie ember to his face and softly blows across its faintly glowing surface. As his keh suffuses the ember, it suddenly fans into a flame. He holds it a moment longer, then relinquishes it to your care.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  8,  22 /* StampQuest */, 0, 1, NULL, 'EmberBrightGivenNew', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  9,   3 /* Give */, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 14567 /* Burning Akiekie Ember */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  9,   3 /* Give */, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 14567 /* Burning Akiekie Ember */, 1, 0 /* Undef */, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id, 10,  10 /* Tell */, 1, 1, NULL, 'Give this to the one that sent you here to me. He will understand its intent and what should be done. Go now, and if you ever tread upon the shores of Palenqual, let her know I am with her.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
@@ -135,7 +135,7 @@ VALUES (14575,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  1,  12 /* TurnToTarget */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  2,  18 /* DirectBroadcast */, 1, 1, NULL, 'Aun Tanua slowly turns towards you, surprise barely flickering across his careworn eyes.  He almost reaches out to touch your arm, but conditioned imprints of lightning-pain, years of throwing his fading body against electric walls, jolts a recoil through his frame.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  3,  10 /* Tell */, 3, 1, NULL, 'A face. I see a face. Not Tonk. Not Atua ngamaru. I see a face.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)

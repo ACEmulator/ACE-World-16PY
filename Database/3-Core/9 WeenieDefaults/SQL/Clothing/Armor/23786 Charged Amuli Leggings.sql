@@ -46,12 +46,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23786,   1, 'Charged Amuli Leggings') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23786,   1,   33554856) /* Setup */
-     , (23786,   3,  536870932) /* SoundTable */
-     , (23786,   6,   67108990) /* PaletteBase */
-     , (23786,   7,  268435872) /* ClothingBase */
-     , (23786,   8,  100674068) /* Icon */
-     , (23786,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23786,   1, 0x020001A8) /* Setup */
+     , (23786,   3, 0x20000014) /* SoundTable */
+     , (23786,   6, 0x0400007E) /* PaletteBase */
+     , (23786,   7, 0x100001A0) /* ClothingBase */
+     , (23786,   8, 0x06002A14) /* Icon */
+     , (23786,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23786,  2615,      2)  /* Major Storm Ward */;

@@ -44,10 +44,10 @@ VALUES (8524,   1, 'Asmolum''s Dagger') /* Name */
      , (8524,  16, 'A vicious looking dagger of Dericostian design, with a cruel serrated edge. This weapon is unenchantable and ignores modified armor and protection values.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8524,   1,   33554744) /* Setup */
-     , (8524,   3,  536870932) /* SoundTable */
-     , (8524,   6,   67111919) /* PaletteBase */
-     , (8524,   7,  268435790) /* ClothingBase */
-     , (8524,   8,  100668935) /* Icon */
-     , (8524,  22,  872415275) /* PhysicsEffectTable */
-     , (8524,  36,  234881044) /* MutateFilter */;
+VALUES (8524,   1, 0x02000138) /* Setup */
+     , (8524,   3, 0x20000014) /* SoundTable */
+     , (8524,   6, 0x04000BEF) /* PaletteBase */
+     , (8524,   7, 0x1000014E) /* ClothingBase */
+     , (8524,   8, 0x06001607) /* Icon */
+     , (8524,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8524,  36, 0x0E000014) /* MutateFilter */;

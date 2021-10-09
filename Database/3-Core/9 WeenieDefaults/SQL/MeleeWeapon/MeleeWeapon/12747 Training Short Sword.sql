@@ -39,10 +39,10 @@ VALUES (12747,   1, 'Training Short Sword') /* Name */
      , (12747,  15, 'A basic short sword forged in the Strathelar Training Academy. This item can be placed on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12747,   1,   33554760) /* Setup */
-     , (12747,   3,  536870932) /* SoundTable */
-     , (12747,   6,   67111919) /* PaletteBase */
-     , (12747,   7,  268435772) /* ClothingBase */
-     , (12747,   8,  100669035) /* Icon */
-     , (12747,  22,  872415275) /* PhysicsEffectTable */
-     , (12747,  36,  234881044) /* MutateFilter */;
+VALUES (12747,   1, 0x02000148) /* Setup */
+     , (12747,   3, 0x20000014) /* SoundTable */
+     , (12747,   6, 0x04000BEF) /* PaletteBase */
+     , (12747,   7, 0x1000013C) /* ClothingBase */
+     , (12747,   8, 0x0600166B) /* Icon */
+     , (12747,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (12747,  36, 0x0E000014) /* MutateFilter */;

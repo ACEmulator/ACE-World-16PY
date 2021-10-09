@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11508,   1, 'Aun Elder Shaman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11508,   1,   33557175) /* Setup */
-     , (11508,   2,  150995136) /* MotionTable */
-     , (11508,   3,  536870931) /* SoundTable */
-     , (11508,   4,  805306380) /* CombatTable */
-     , (11508,   6,   67113280) /* PaletteBase */
-     , (11508,   7,  268436193) /* ClothingBase */
-     , (11508,   8,  100671756) /* Icon */
-     , (11508,  22,  872415270) /* PhysicsEffectTable */
+VALUES (11508,   1, 0x02000AB7) /* Setup */
+     , (11508,   2, 0x090000C0) /* MotionTable */
+     , (11508,   3, 0x20000013) /* SoundTable */
+     , (11508,   4, 0x3000000C) /* CombatTable */
+     , (11508,   6, 0x04001140) /* PaletteBase */
+     , (11508,   7, 0x100002E1) /* ClothingBase */
+     , (11508,   8, 0x0600210C) /* Icon */
+     , (11508,  22, 0x34000026) /* PhysicsEffectTable */
      , (11508,  32,        380) /* WieldedTreasureType - 
                                    Wield Buadren (11971) | Probability: 100% */
      , (11508,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
@@ -122,57 +122,57 @@ VALUES (11508,  0,  4,  0,    0,  300,  300,  300,  300,  300,  300,  300,  300,
      , (11508,  8,  4, 35, 0.75,  300,  300,  300,  300,  300,  300,  300,  300,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11508,    62,  2.015)  /* Acid Stream V */
-     , (11508,    63,  2.003)  /* Acid Stream VI */
+VALUES (11508,  1223,  2.012)  /* Mana Drain Other V */
+     , (11508,  1159,  2.009)  /* Heal Self IV */
+     , (11508,  1175,  2.012)  /* Harm Other V */
+     , (11508,   260,  2.011)  /* Impregnability Self V */
+     , (11508,  1160,  2.009)  /* Heal Self V */
      , (11508,    68,  2.015)  /* Shock Wave V */
      , (11508,    69,  2.003)  /* Shock Wave VI */
+     , (11508,   266,  2.012)  /* Defenselessness Other V */
+     , (11508,   137,  2.015)  /* Frost Volley V */
      , (11508,    73,  2.015)  /* Frost Bolt V */
      , (11508,    74,  2.003)  /* Frost Bolt VI */
-     , (11508,    79,  2.015)  /* Lightning Bolt V */
-     , (11508,    80,  2.003)  /* Lightning Bolt VI */
-     , (11508,    84,  2.015)  /* Flame Bolt V */
-     , (11508,    85,  2.003)  /* Flame Bolt VI */
-     , (11508,    90,  2.015)  /* Force Bolt V */
-     , (11508,    91,  2.003)  /* Force Bolt VI */
-     , (11508,    96,  2.015)  /* Whirling Blade V */
-     , (11508,    97,  2.003)  /* Whirling Blade VI */
-     , (11508,   105,  2.015)  /* Shock Blast V */
-     , (11508,   106,  2.003)  /* Shock Blast VI */
-     , (11508,   137,  2.015)  /* Frost Volley V */
      , (11508,   138,  2.003)  /* Frost Volley VI */
      , (11508,   141,  2.015)  /* Lightning Volley V */
      , (11508,   142,  2.003)  /* Lightning Volley VI */
+     , (11508,    79,  2.015)  /* Lightning Bolt V */
+     , (11508,    80,  2.003)  /* Lightning Bolt VI */
      , (11508,   145,  2.015)  /* Flame Volley V */
      , (11508,   146,  2.003)  /* Flame Volley VI */
-     , (11508,   153,  2.015)  /* Blade Volley V */
-     , (11508,   154,  2.003)  /* Blade Volley VI */
-     , (11508,   233,  2.012)  /* Vulnerability Other V */
-     , (11508,   248,  2.011)  /* Invulnerability Self V */
-     , (11508,   260,  2.011)  /* Impregnability Self V */
-     , (11508,   266,  2.012)  /* Defenselessness Other V */
+     , (11508,    84,  2.015)  /* Flame Bolt V */
+     , (11508,    85,  2.003)  /* Flame Bolt VI */
      , (11508,   278,  2.011)  /* Magic Resistance Self V */
-     , (11508,   284,  2.012)  /* Magic Yield Other V */
-     , (11508,  1159,  2.009)  /* Heal Self IV */
-     , (11508,  1160,  2.009)  /* Heal Self V */
-     , (11508,  1175,  2.012)  /* Harm Other V */
+     , (11508,   153,  2.015)  /* Blade Volley V */
+     , (11508,    90,  2.015)  /* Force Bolt V */
+     , (11508,   154,  2.003)  /* Blade Volley VI */
+     , (11508,    91,  2.003)  /* Force Bolt VI */
      , (11508,  1199,  2.012)  /* Enfeeble Other V */
-     , (11508,  1223,  2.012)  /* Mana Drain Other V */
+     , (11508,   284,  2.012)  /* Magic Yield Other V */
+     , (11508,    96,  2.015)  /* Whirling Blade V */
+     , (11508,    97,  2.003)  /* Whirling Blade VI */
+     , (11508,   105,  2.015)  /* Shock Blast V */
+     , (11508,   233,  2.012)  /* Vulnerability Other V */
+     , (11508,   106,  2.003)  /* Shock Blast VI */
+     , (11508,   248,  2.011)  /* Invulnerability Self V */
      , (11508,  1331,  2.011)  /* Strength Self V */
-     , (11508,  1401,  2.011)  /* Quickness Self V */;
+     , (11508,  1401,  2.011)  /* Quickness Self V */
+     , (11508,    62,  2.015)  /* Acid Stream V */
+     , (11508,    63,  2.003)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (11508,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (11508, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (11508,  5 /* HeartBeat */,    0.9, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (11508,  5 /* HeartBeat */,    0.9, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   4 /* MoveHome */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 1, 0, 0, 0)
-     , (@parent_id,  1,   5 /* Motion */, 0, 1, 301990043 /* YMCA */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  2,   5 /* Motion */, 0, 1, 1124073755 /* AFKState */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,   4 /* MoveHome */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 1, 0, 0, -0)
+     , (@parent_id,  1,   5 /* Motion */, 0, 1, 0x1200009B /* YMCA */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  2,   5 /* Motion */, 0, 1, 0x4300011B /* AFKState */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11508, 2, 11971,  0, 0, 1, False) /* Create Buadren (11971) for Wield */

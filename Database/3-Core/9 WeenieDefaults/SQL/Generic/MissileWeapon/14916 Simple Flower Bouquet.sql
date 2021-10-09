@@ -15,7 +15,7 @@ VALUES (14916,   1,        256) /* ItemType - MissileWeapon */
      , (14916,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (14916,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (14916,  49,         10) /* WeaponTime */
-     , (14916,  51,          2) /* CombatUse - Missle */
+     , (14916,  51,          2) /* CombatUse - Missile */
      , (14916,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (14916, 150,        103) /* HookPlacement - Hook */
      , (14916, 151,          2) /* HookType - Wall */;
@@ -40,8 +40,8 @@ VALUES (14916,   1, 'Simple Flower Bouquet') /* Name */
      , (14916,  16, 'A small floral arrangement.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14916,   1,   33557616) /* Setup */
-     , (14916,   3,  536871012) /* SoundTable */
-     , (14916,   8,  100672709) /* Icon */
-     , (14916,  22,  872415275) /* PhysicsEffectTable */
-     , (14916,  36,  234881046) /* MutateFilter */;
+VALUES (14916,   1, 0x02000C70) /* Setup */
+     , (14916,   3, 0x20000064) /* SoundTable */
+     , (14916,   8, 0x060024C5) /* Icon */
+     , (14916,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (14916,  36, 0x0E000016) /* MutateFilter */;

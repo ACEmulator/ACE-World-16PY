@@ -49,18 +49,18 @@ VALUES (27186,   1, 'Fist of Massacre') /* Name */
      , (27186,  16, 'Crafted by the Faltacot, this stunning and sharp blade looks as though it could easily pierce flesh.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27186,   1,   33558635) /* Setup */
-     , (27186,   3,  536870932) /* SoundTable */
-     , (27186,   6,   67114956) /* PaletteBase */
-     , (27186,   7,  268436792) /* ClothingBase */
-     , (27186,   8,  100675920) /* Icon */
-     , (27186,  22,  872415275) /* PhysicsEffectTable */
-     , (27186,  36,  234881044) /* MutateFilter */;
+VALUES (27186,   1, 0x0200106B) /* Setup */
+     , (27186,   3, 0x20000014) /* SoundTable */
+     , (27186,   6, 0x040017CC) /* PaletteBase */
+     , (27186,   7, 0x10000538) /* ClothingBase */
+     , (27186,   8, 0x06003150) /* Icon */
+     , (27186,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27186,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27186,  1144,      2)  /* Piercing Protection Other VI */
+VALUES (27186,  1605,      2)  /* Aura of Defender Self VI */
+     , (27186,  2696,      2)  /* Moderate Light Weapon Aptitude */
      , (27186,  1337,      2)  /* Strength Other VI */
-     , (27186,  1605,      2)  /* Aura of Defender Self VI */
      , (27186,  1616,      2)  /* Aura of Blood Drinker Self VI */
      , (27186,  1625,      2)  /* Aura of Swift Killer Self IV */
-     , (27186,  2696,      2)  /* Moderate Light Weapon Aptitude */;
+     , (27186,  1144,      2)  /* Piercing Protection Other VI */;

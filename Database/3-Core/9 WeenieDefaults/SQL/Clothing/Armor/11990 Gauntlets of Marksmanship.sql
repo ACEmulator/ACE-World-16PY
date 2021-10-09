@@ -45,15 +45,15 @@ VALUES (11990,   1, 'Gauntlets of Marksmanship') /* Name */
      , (11990,  16, 'It seems these gauntlets were crafted in order to aid the wearer in firing either bows or crossbows.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11990,   1,   33554648) /* Setup */
-     , (11990,   3,  536870932) /* SoundTable */
-     , (11990,   6,   67108990) /* PaletteBase */
-     , (11990,   7,  268436108) /* ClothingBase */
-     , (11990,   8,  100672152) /* Icon */
-     , (11990,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11990,   1, 0x020000D8) /* Setup */
+     , (11990,   3, 0x20000014) /* SoundTable */
+     , (11990,   6, 0x0400007E) /* PaletteBase */
+     , (11990,   7, 0x1000028C) /* ClothingBase */
+     , (11990,   8, 0x06002298) /* Icon */
+     , (11990,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11990,   246,      2)  /* Invulnerability Self III */
+VALUES (11990,   495,      2)  /* Missile Weapon Mastery Self V */
      , (11990,   471,      2)  /* Missile Weapon Mastery Self V */
-     , (11990,   495,      2)  /* Missile Weapon Mastery Self V */
-     , (11990,  1375,      2)  /* Coordination Self III */;
+     , (11990,  1375,      2)  /* Coordination Self III */
+     , (11990,   246,      2)  /* Invulnerability Self III */;

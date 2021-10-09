@@ -39,9 +39,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15281,   1, 'Blunt Atlatl Dart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15281,   1,   33557434) /* Setup */
-     , (15281,   3,  536870932) /* SoundTable */
-     , (15281,   6,   67111919) /* PaletteBase */
-     , (15281,   7,  268436305) /* ClothingBase */
-     , (15281,   8,  100672582) /* Icon */
-     , (15281,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15281,   1, 0x02000BBA) /* Setup */
+     , (15281,   3, 0x20000014) /* SoundTable */
+     , (15281,   6, 0x04000BEF) /* PaletteBase */
+     , (15281,   7, 0x10000351) /* ClothingBase */
+     , (15281,   8, 0x06002446) /* Icon */
+     , (15281,  22, 0x3400002B) /* PhysicsEffectTable */;

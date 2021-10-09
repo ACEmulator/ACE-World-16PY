@@ -31,10 +31,10 @@ VALUES (8640,   1, 'Orb') /* Name */
      , (8640,  15, 'This Orb is invisible to players, visible to admins.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8640,   1,   33556945) /* Setup */
-     , (8640,   3,  536870932) /* SoundTable */
-     , (8640,   6,   67111928) /* PaletteBase */
-     , (8640,   7,  268435751) /* ClothingBase */
-     , (8640,   8,  100668722) /* Icon */
-     , (8640,  22,  872415275) /* PhysicsEffectTable */
-     , (8640,  36,  234881046) /* MutateFilter */;
+VALUES (8640,   1, 0x020009D1) /* Setup */
+     , (8640,   3, 0x20000014) /* SoundTable */
+     , (8640,   6, 0x04000BF8) /* PaletteBase */
+     , (8640,   7, 0x10000127) /* ClothingBase */
+     , (8640,   8, 0x06001532) /* Icon */
+     , (8640,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8640,  36, 0x0E000016) /* MutateFilter */;

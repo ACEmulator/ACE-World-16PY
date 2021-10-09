@@ -38,11 +38,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15872,   1, 'Bronze Quintessence Sickle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15872,   1,   33557067) /* Setup */
-     , (15872,   3,  536870932) /* SoundTable */
-     , (15872,   6,   67111919) /* PaletteBase */
-     , (15872,   7,  268436189) /* ClothingBase */
-     , (15872,   8,  100671670) /* Icon */
-     , (15872,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15872,   1, 0x02000A4B) /* Setup */
+     , (15872,   3, 0x20000014) /* SoundTable */
+     , (15872,   6, 0x04000BEF) /* PaletteBase */
+     , (15872,   7, 0x100002DD) /* ClothingBase */
+     , (15872,   8, 0x060020B6) /* Icon */
+     , (15872,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15872,  30,         88) /* PhysicsScript - Create */
-     , (15872,  36,  234881044) /* MutateFilter */;
+     , (15872,  36, 0x0E000014) /* MutateFilter */;

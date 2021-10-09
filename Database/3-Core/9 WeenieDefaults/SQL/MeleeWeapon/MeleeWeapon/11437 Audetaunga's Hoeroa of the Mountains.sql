@@ -38,7 +38,7 @@ VALUES (11437,  22, True ) /* Inscribable */
      , (11437,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11437,   5, -0.03333) /* ManaRate */
+VALUES (11437,   5,  -0.033) /* ManaRate */
      , (11437,  21,    1.33) /* WeaponLength */
      , (11437,  22,    0.57) /* DamageVariance */
      , (11437,  29,    1.08) /* WeaponDefense */
@@ -52,13 +52,13 @@ VALUES (11437,   1, 'Audetaunga''s Hoeroa of the Mountains') /* Name */
      , (11437,  16, 'A hoeroa fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11437,   1,   33557237) /* Setup */
-     , (11437,   3,  536870932) /* SoundTable */
-     , (11437,   6,   67113336) /* PaletteBase */
-     , (11437,   7,  268436248) /* ClothingBase */
-     , (11437,   8,  100672094) /* Icon */
-     , (11437,  22,  872415275) /* PhysicsEffectTable */
-     , (11437,  36,  234881044) /* MutateFilter */;
+VALUES (11437,   1, 0x02000AF5) /* Setup */
+     , (11437,   3, 0x20000014) /* SoundTable */
+     , (11437,   6, 0x04001178) /* PaletteBase */
+     , (11437,   7, 0x10000318) /* ClothingBase */
+     , (11437,   8, 0x0600225E) /* Icon */
+     , (11437,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11437,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11437,  2437,      2)  /* Greater Rockslide */

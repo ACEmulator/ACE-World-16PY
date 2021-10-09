@@ -49,17 +49,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19840,   1, 'Good Coruscating Isparian Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19840,   1,   33557742) /* Setup */
-     , (19840,   3,  536870932) /* SoundTable */
-     , (19840,   6,   67111919) /* PaletteBase */
-     , (19840,   7,  268436378) /* ClothingBase */
-     , (19840,   8,  100673032) /* Icon */
-     , (19840,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19840,   1, 0x02000CEE) /* Setup */
+     , (19840,   3, 0x20000014) /* SoundTable */
+     , (19840,   6, 0x04000BEF) /* PaletteBase */
+     , (19840,   7, 0x1000039A) /* ClothingBase */
+     , (19840,   8, 0x06002608) /* Icon */
+     , (19840,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19840,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19840,  1069,      2)  /* Lightning Protection Self IV */
-     , (19840,  1399,      2)  /* Quickness Self III */
-     , (19840,  1590,      2)  /* Aura of Heart Seeker Self IV */
+VALUES (19840,  1590,      2)  /* Aura of Heart Seeker Self IV */
      , (19840,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (19840,  1069,      2)  /* Lightning Protection Self IV */
+     , (19840,  1399,      2)  /* Quickness Self III */
      , (19840,  2678,      2)  /* Feeble Finesse Weapon Aptitude */;

@@ -22,7 +22,7 @@ VALUES (4426,   1, 'Dafrida the Tailor') /* Name */
      , (4426,  16, 'Dafrida the Tailor') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4426,   1,   33555088) /* Setup */
-     , (4426,   6,   67111092) /* PaletteBase */
-     , (4426,   7,  268435668) /* ClothingBase */
-     , (4426,   8,  100668115) /* Icon */;
+VALUES (4426,   1, 0x02000290) /* Setup */
+     , (4426,   6, 0x040008B4) /* PaletteBase */
+     , (4426,   7, 0x100000D4) /* ClothingBase */
+     , (4426,   8, 0x060012D3) /* Icon */;

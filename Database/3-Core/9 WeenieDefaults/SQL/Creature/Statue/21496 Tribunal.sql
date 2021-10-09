@@ -64,12 +64,12 @@ VALUES (21496,   1, 'Tribunal') /* Name */
      , (21496,  15, 'A very large empyrean head. It appears to be watching you.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21496,   1,   33555377) /* Setup */
-     , (21496,   2,  150995147) /* MotionTable */
-     , (21496,   3,  536871052) /* SoundTable */
-     , (21496,   4,  805306398) /* CombatTable */
-     , (21496,   8,  100667624) /* Icon */
-     , (21496,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (21496,   1, 0x020003B1) /* Setup */
+     , (21496,   2, 0x090000CB) /* MotionTable */
+     , (21496,   3, 0x2000008C) /* SoundTable */
+     , (21496,   4, 0x3000001E) /* CombatTable */
+     , (21496,   8, 0x060010E8) /* Icon */
+     , (21496,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (21496,   1, 380, 0, 0) /* Strength */
@@ -197,7 +197,7 @@ VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'RiddleHole', NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 0, 1, NULL, 'I cannot exist when I''m full, and I grow when you empty my contents. What am I?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (21496, 13 /* QuestFailure */, 0.5000001, NULL, NULL, NULL, 'HasSphinxRiddle', NULL, NULL, NULL);
+VALUES (21496, 13 /* QuestFailure */,    0.5, NULL, NULL, NULL, 'HasSphinxRiddle', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -207,7 +207,7 @@ VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'RiddleFlame', NULL, N
      , (@parent_id,  2,  10 /* Tell */, 0, 1, NULL, 'I can be an old love, but mostly a lost passion. My life grows as you feed me, but when I drink water I die. What am I?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (21496, 13 /* QuestFailure */, 0.5500001, NULL, NULL, NULL, 'HasSphinxRiddle', NULL, NULL, NULL);
+VALUES (21496, 13 /* QuestFailure */,   0.55, NULL, NULL, NULL, 'HasSphinxRiddle', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -217,7 +217,7 @@ VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'RiddleMan', NULL, NUL
      , (@parent_id,  2,  10 /* Tell */, 0, 1, NULL, 'What is it that has one voice but becomes four-footed, two-footed, and three-footed?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (21496, 13 /* QuestFailure */, 0.6000001, NULL, NULL, NULL, 'HasSphinxRiddle', NULL, NULL, NULL);
+VALUES (21496, 13 /* QuestFailure */,    0.6, NULL, NULL, NULL, 'HasSphinxRiddle', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -227,7 +227,7 @@ VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'RiddleSunlight', NULL
      , (@parent_id,  2,  10 /* Tell */, 0, 1, NULL, 'I pass through the water and never get wet. What am I?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (21496, 13 /* QuestFailure */, 0.6500001, NULL, NULL, NULL, 'HasSphinxRiddle', NULL, NULL, NULL);
+VALUES (21496, 13 /* QuestFailure */,   0.65, NULL, NULL, NULL, 'HasSphinxRiddle', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -237,7 +237,7 @@ VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'RiddleWind', NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 0, 1, NULL, 'I whip, and I whistle all the day long, sometimes my voice can sound as a song. I never grow tired but sometimes grow weak, and I change without warning and cause door to creak. What am I?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (21496, 13 /* QuestFailure */, 0.7000001, NULL, NULL, NULL, 'HasSphinxRiddle', NULL, NULL, NULL);
+VALUES (21496, 13 /* QuestFailure */,    0.7, NULL, NULL, NULL, 'HasSphinxRiddle', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -247,7 +247,7 @@ VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'RiddleBed', NULL, NUL
      , (@parent_id,  2,  10 /* Tell */, 0, 1, NULL, 'I''ve legs, and a foot, and also a head. But I cannot think nor move on my own. What am I?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (21496, 13 /* QuestFailure */, 0.7500001, NULL, NULL, NULL, 'HasSphinxRiddle', NULL, NULL, NULL);
+VALUES (21496, 13 /* QuestFailure */,   0.75, NULL, NULL, NULL, 'HasSphinxRiddle', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -257,7 +257,7 @@ VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'RiddleMushroom', NULL
      , (@parent_id,  2,  10 /* Tell */, 0, 1, NULL, 'I am a room without walls, windows or doors. What am I?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (21496, 13 /* QuestFailure */, 0.8000001, NULL, NULL, NULL, 'HasSphinxRiddle', NULL, NULL, NULL);
+VALUES (21496, 13 /* QuestFailure */,    0.8, NULL, NULL, NULL, 'HasSphinxRiddle', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -267,7 +267,7 @@ VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'RiddleEyes', NULL, NU
      , (@parent_id,  2,  10 /* Tell */, 0, 1, NULL, 'I never grow, but can become very wide, and everything falls into darkness when I hide. What am I?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (21496, 13 /* QuestFailure */, 0.8500001, NULL, NULL, NULL, 'HasSphinxRiddle', NULL, NULL, NULL);
+VALUES (21496, 13 /* QuestFailure */,   0.85, NULL, NULL, NULL, 'HasSphinxRiddle', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -277,7 +277,7 @@ VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'RiddleBlack', NULL, N
      , (@parent_id,  2,  10 /* Tell */, 0, 1, NULL, 'I am void, and absence, I am not a color. What am I?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (21496, 13 /* QuestFailure */, 0.9000002, NULL, NULL, NULL, 'HasSphinxRiddle', NULL, NULL, NULL);
+VALUES (21496, 13 /* QuestFailure */,    0.9, NULL, NULL, NULL, 'HasSphinxRiddle', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -287,7 +287,7 @@ VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'RiddleSilence', NULL,
      , (@parent_id,  2,  10 /* Tell */, 0, 1, NULL, 'You will break me if you name me. What am I?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (21496, 13 /* QuestFailure */, 0.9500002, NULL, NULL, NULL, 'HasSphinxRiddle', NULL, NULL, NULL);
+VALUES (21496, 13 /* QuestFailure */,   0.95, NULL, NULL, NULL, 'HasSphinxRiddle', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

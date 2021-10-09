@@ -22,5 +22,5 @@ VALUES (4496,   1, 'Lin: 2 miles') /* Name */
      , (4496,  16, 'The forest town of Lin: 2 miles.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4496,   1,   33555986) /* Setup */
-     , (4496,   8,  100668115) /* Icon */;
+VALUES (4496,   1, 0x02000612) /* Setup */
+     , (4496,   8, 0x060012D3) /* Icon */;

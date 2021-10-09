@@ -35,9 +35,9 @@ VALUES (23985,   1, 'Infused Plate Leggings') /* Name */
      , (23985,  15, 'A once vibrant pair of leggings worn by the Order of Heiromancers teeming with an unknown power.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23985,   1,   33554669) /* Setup */
-     , (23985,   3,  536870932) /* SoundTable */
-     , (23985,   6,   67111919) /* PaletteBase */
-     , (23985,   7,  268435968) /* ClothingBase */
-     , (23985,   8,  100674148) /* Icon */
-     , (23985,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23985,   1, 0x020000ED) /* Setup */
+     , (23985,   3, 0x20000014) /* SoundTable */
+     , (23985,   6, 0x04000BEF) /* PaletteBase */
+     , (23985,   7, 0x10000200) /* ClothingBase */
+     , (23985,   8, 0x06002A64) /* Icon */
+     , (23985,  22, 0x3400002B) /* PhysicsEffectTable */;

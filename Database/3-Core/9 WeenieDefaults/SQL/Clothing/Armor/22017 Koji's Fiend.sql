@@ -29,7 +29,7 @@ VALUES (22017,  22, True ) /* Inscribable */
      , (22017,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22017,   5, -0.0333) /* ManaRate */
+VALUES (22017,   5,  -0.033) /* ManaRate */
      , (22017,  12,    0.66) /* Shade */
      , (22017,  13,     1.3) /* ArmorModVsSlash */
      , (22017,  14,     1.3) /* ArmorModVsPierce */
@@ -47,18 +47,18 @@ VALUES (22017,   1, 'Koji''s Fiend') /* Name */
      , (22017,  19, 'Sho') /* ItemHeritageGroupRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22017,   1,   33558083) /* Setup */
-     , (22017,   3,  536870932) /* SoundTable */
-     , (22017,   6,   67108990) /* PaletteBase */
-     , (22017,   7,  268436491) /* ClothingBase */
-     , (22017,   8,  100673594) /* Icon */
-     , (22017,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22017,   1, 0x02000E43) /* Setup */
+     , (22017,   3, 0x20000014) /* SoundTable */
+     , (22017,   6, 0x0400007E) /* PaletteBase */
+     , (22017,   7, 0x1000040B) /* ClothingBase */
+     , (22017,   8, 0x0600283A) /* Icon */
+     , (22017,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22017,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22017,   249,      2)  /* Invulnerability Self VI */
-     , (22017,   277,      2)  /* Magic Resistance Self IV */
+VALUES (22017,  1484,      2)  /* Impenetrability IV */
      , (22017,   448,      2)  /* Light Weapon Mastery Self VI */
+     , (22017,  2568,      2)  /* Minor Light Weapon Aptitude */
+     , (22017,   277,      2)  /* Magic Resistance Self IV */
      , (22017,  1312,      2)  /* Armor Self VI */
-     , (22017,  1484,      2)  /* Impenetrability IV */
-     , (22017,  2568,      2)  /* Minor Light Weapon Aptitude */;
+     , (22017,   249,      2)  /* Invulnerability Self VI */;

@@ -42,13 +42,13 @@ VALUES (9031,   1, 'Sasalia''s Dress') /* Name */
      , (9031,  16, 'A long blue dress.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9031,   1,   33554854) /* Setup */
-     , (9031,   3,  536870932) /* SoundTable */
-     , (9031,   6,   67108990) /* PaletteBase */
-     , (9031,   7,  268436077) /* ClothingBase */
-     , (9031,   8,  100670348) /* Icon */
-     , (9031,  22,  872415275) /* PhysicsEffectTable */
-     , (9031,  36,  234881046) /* MutateFilter */
+VALUES (9031,   1, 0x020001A6) /* Setup */
+     , (9031,   3, 0x20000014) /* SoundTable */
+     , (9031,   6, 0x0400007E) /* PaletteBase */
+     , (9031,   7, 0x1000026D) /* ClothingBase */
+     , (9031,   8, 0x06001B8C) /* Icon */
+     , (9031,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (9031,  36, 0x0E000016) /* MutateFilter */
      , (9031,  37,         39) /* ItemSkillLimit - Cooking */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

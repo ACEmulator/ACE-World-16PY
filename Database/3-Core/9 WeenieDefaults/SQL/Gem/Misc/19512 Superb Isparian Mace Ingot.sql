@@ -31,9 +31,9 @@ VALUES (19512,   1, 'Superb Isparian Mace Ingot') /* Name */
      , (19512,  16, 'An diamond infused ingot, enhanced and stamped with an mace glyph.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19512,   1,   33555677) /* Setup */
-     , (19512,   3,  536870932) /* SoundTable */
-     , (19512,   6,   67111919) /* PaletteBase */
-     , (19512,   7,  268435723) /* ClothingBase */
-     , (19512,   8,  100672974) /* Icon */
-     , (19512,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19512,   1, 0x020004DD) /* Setup */
+     , (19512,   3, 0x20000014) /* SoundTable */
+     , (19512,   6, 0x04000BEF) /* PaletteBase */
+     , (19512,   7, 0x1000010B) /* ClothingBase */
+     , (19512,   8, 0x060025CE) /* Icon */
+     , (19512,  22, 0x3400002B) /* PhysicsEffectTable */;

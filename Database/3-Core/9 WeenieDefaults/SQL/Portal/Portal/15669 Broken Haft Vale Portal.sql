@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15669,   1, 'Broken Haft Vale Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15669,   1,   33554867) /* Setup */
-     , (15669,   2,  150994947) /* MotionTable */
-     , (15669,   8,  100667499) /* Icon */;
+VALUES (15669,   1, 0x020001B3) /* Setup */
+     , (15669,   2, 0x09000003) /* MotionTable */
+     , (15669,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15669, 2, 3302555677, 83.73, 117.971, 82.005, 0.4291006, 0, 0, -0.9032567) /* Destination */
-/* @teleloc 0xC4D9001D [83.730000 117.971000 82.005000] 0.429101 0.000000 0.000000 -0.903257 */;
+VALUES (15669, 2, 0xC4D9001D, 83.73, 117.971, 82.005, 0.429101, 0, 0, -0.903257) /* Destination */
+/* @teleloc 0xC4D9001D [83.730003 117.971001 82.004997] 0.429101 0.000000 0.000000 -0.903257 */;

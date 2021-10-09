@@ -26,7 +26,7 @@ VALUES (15820,   1, 'Thorsten Cragstone''s Armor') /* Name */
      , (15820,  15, 'Thorsten Cragstone''s suit of armor. You can see a small puncture hole where the Olthoi Queen pierced his heart.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15820,   1,   33557213) /* Setup */
-     , (15820,   3,  536870932) /* SoundTable */
-     , (15820,   8,  100671781) /* Icon */
-     , (15820,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15820,   1, 0x02000ADD) /* Setup */
+     , (15820,   3, 0x20000014) /* SoundTable */
+     , (15820,   8, 0x06002125) /* Icon */
+     , (15820,  22, 0x3400002B) /* PhysicsEffectTable */;

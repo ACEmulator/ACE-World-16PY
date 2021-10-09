@@ -24,8 +24,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3660,   1, 'Advocate Sign') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3660,   1,   33555088) /* Setup */
-     , (3660,   8,  100668115) /* Icon */;
+VALUES (3660,   1, 0x02000290) /* Setup */
+     , (3660,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (3660, 1, 1000);

@@ -30,9 +30,9 @@ VALUES (5759,   1, 'Fruitcake') /* Name */
      , (5759,  20, 'Fruitcakes') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5759,   1,   33555193) /* Setup */
-     , (5759,   3,  536870932) /* SoundTable */
-     , (5759,   6,   67111928) /* PaletteBase */
-     , (5759,   7,  268435861) /* ClothingBase */
-     , (5759,   8,  100670293) /* Icon */
-     , (5759,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5759,   1, 0x020002F9) /* Setup */
+     , (5759,   3, 0x20000014) /* SoundTable */
+     , (5759,   6, 0x04000BF8) /* PaletteBase */
+     , (5759,   7, 0x10000195) /* ClothingBase */
+     , (5759,   8, 0x06001B55) /* Icon */
+     , (5759,  22, 0x3400002B) /* PhysicsEffectTable */;

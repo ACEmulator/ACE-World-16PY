@@ -32,12 +32,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27883,   1, 'Zapping Orb') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27883,   1,   33559022) /* Setup */
-     , (27883,   3,  536870932) /* SoundTable */
-     , (27883,   6,   67115357) /* PaletteBase */
-     , (27883,   7,  268436872) /* ClothingBase */
-     , (27883,   8,  100668722) /* Icon */
-     , (27883,  22,  872415275) /* PhysicsEffectTable */
-     , (27883,  27, 1073741873) /* UseUserAnimation - MagicHeal */
-     , (27883,  36,  234881046) /* MutateFilter */
-     , (27883,  46,  939524144) /* TsysMutationFilter */;
+VALUES (27883,   1, 0x020011EE) /* Setup */
+     , (27883,   3, 0x20000014) /* SoundTable */
+     , (27883,   6, 0x0400195D) /* PaletteBase */
+     , (27883,   7, 0x10000588) /* ClothingBase */
+     , (27883,   8, 0x06001532) /* Icon */
+     , (27883,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27883,  27, 0x40000031) /* UseUserAnimation - MagicHeal */
+     , (27883,  36, 0x0E000016) /* MutateFilter */
+     , (27883,  46, 0x38000030) /* TsysMutationFilter */;

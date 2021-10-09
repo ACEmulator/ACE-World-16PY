@@ -25,10 +25,10 @@ VALUES (10960,   1, 'Clay Figurine') /* Name */
      , (10960,  16, 'A small clay totem of a female Tumerok, suspended from a rawhide necklace, taken from the neck of the Aun hunter Ralirea. The base is inscribed "Mirakah."') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10960,   1,   33554689) /* Setup */
-     , (10960,   3,  536870932) /* SoundTable */
-     , (10960,   6,   67111919) /* PaletteBase */
-     , (10960,   7,  268435749) /* ClothingBase */
-     , (10960,   8,  100671846) /* Icon */
-     , (10960,  22,  872415275) /* PhysicsEffectTable */
-     , (10960,  36,  234881046) /* MutateFilter */;
+VALUES (10960,   1, 0x02000101) /* Setup */
+     , (10960,   3, 0x20000014) /* SoundTable */
+     , (10960,   6, 0x04000BEF) /* PaletteBase */
+     , (10960,   7, 0x10000125) /* ClothingBase */
+     , (10960,   8, 0x06002166) /* Icon */
+     , (10960,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (10960,  36, 0x0E000016) /* MutateFilter */;

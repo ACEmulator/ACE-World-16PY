@@ -34,7 +34,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28988,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28988,   5, -0.0333) /* ManaRate */
+VALUES (28988,   5,  -0.033) /* ManaRate */
      , (28988,  21,    0.75) /* WeaponLength */
      , (28988,  22,     0.6) /* DamageVariance */
      , (28988,  29,    1.09) /* WeaponDefense */
@@ -47,16 +47,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28988,   1, 'Burun Slaying War Maul') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28988,   1,   33558931) /* Setup */
-     , (28988,   3,  536870932) /* SoundTable */
-     , (28988,   8,  100676975) /* Icon */
-     , (28988,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28988,   1, 0x02001193) /* Setup */
+     , (28988,   3, 0x20000014) /* SoundTable */
+     , (28988,   8, 0x0600356F) /* Icon */
+     , (28988,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28988,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28988,   243,      2)  /* Invulnerability Other V */
+VALUES (28988,  1604,      2)  /* Aura of Defender Self V */
      , (28988,  1359,      2)  /* Endurance Other V */
-     , (28988,  1591,      2)  /* Aura of Heart Seeker Self V */
-     , (28988,  1604,      2)  /* Aura of Defender Self V */
      , (28988,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (28988,  1625,      2)  /* Aura of Swift Killer Self IV */;
+     , (28988,   243,      2)  /* Invulnerability Other V */
+     , (28988,  1625,      2)  /* Aura of Swift Killer Self IV */
+     , (28988,  1591,      2)  /* Aura of Heart Seeker Self V */;

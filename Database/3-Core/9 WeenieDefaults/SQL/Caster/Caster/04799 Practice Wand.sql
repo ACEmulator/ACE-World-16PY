@@ -33,12 +33,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4799,   1, 'Practice Wand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4799,   1,   33554812) /* Setup */
-     , (4799,   3,  536870932) /* SoundTable */
-     , (4799,   6,   67111919) /* PaletteBase */
-     , (4799,   7,  268435758) /* ClothingBase */
-     , (4799,   8,  100667509) /* Icon */
-     , (4799,  22,  872415275) /* PhysicsEffectTable */
-     , (4799,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (4799,   1, 0x0200017C) /* Setup */
+     , (4799,   3, 0x20000014) /* SoundTable */
+     , (4799,   6, 0x04000BEF) /* PaletteBase */
+     , (4799,   7, 0x1000012E) /* ClothingBase */
+     , (4799,   8, 0x06001075) /* Icon */
+     , (4799,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (4799,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (4799,  28,         27) /* Spell - Flame Bolt I */
-     , (4799,  36,  234881046) /* MutateFilter */;
+     , (4799,  36, 0x0E000016) /* MutateFilter */;

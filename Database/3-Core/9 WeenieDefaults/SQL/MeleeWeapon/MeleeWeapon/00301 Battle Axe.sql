@@ -36,12 +36,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (301,   1, 'Battle Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (301,   1,   33554725) /* Setup */
-     , (301,   3,  536870932) /* SoundTable */
-     , (301,   6,   67111919) /* PaletteBase */
-     , (301,   7,  268435779) /* ClothingBase */
-     , (301,   8,  100668985) /* Icon */
-     , (301,  22,  872415275) /* PhysicsEffectTable */
+VALUES (301,   1, 0x02000125) /* Setup */
+     , (301,   3, 0x20000014) /* SoundTable */
+     , (301,   6, 0x04000BEF) /* PaletteBase */
+     , (301,   7, 0x10000143) /* ClothingBase */
+     , (301,   8, 0x06001639) /* Icon */
+     , (301,  22, 0x3400002B) /* PhysicsEffectTable */
      , (301,  30,         88) /* PhysicsScript - Create */
-     , (301,  36,  234881053) /* MutateFilter */
-     , (301,  46,  939524098) /* TsysMutationFilter */;
+     , (301,  36, 0x0E00001D) /* MutateFilter */
+     , (301,  46, 0x38000002) /* TsysMutationFilter */;

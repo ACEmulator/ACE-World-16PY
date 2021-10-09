@@ -22,5 +22,5 @@ VALUES (22239,   1, 'Setera Gardens') /* Name */
      , (22239,  16, 'Setera Gardens') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22239,   1,   33558062) /* Setup */
-     , (22239,   8,  100667499) /* Icon */;
+VALUES (22239,   1, 0x02000E2E) /* Setup */
+     , (22239,   8, 0x0600106B) /* Icon */;

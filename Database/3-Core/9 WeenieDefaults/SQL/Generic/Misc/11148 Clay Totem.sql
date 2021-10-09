@@ -26,9 +26,9 @@ VALUES (11148,   1, 'Clay Totem') /* Name */
      , (11148,  16, 'A small clay totem of a leering, hateful moon-face, bearing the sigil of Aun Aanaua. It seems to weigh you down immensely. You recognize this item as a traditional Tumerok curse fetish.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11148,   1,   33554689) /* Setup */
-     , (11148,   3,  536870932) /* SoundTable */
-     , (11148,   6,   67111919) /* PaletteBase */
-     , (11148,   7,  268435863) /* ClothingBase */
-     , (11148,   8,  100671772) /* Icon */
-     , (11148,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11148,   1, 0x02000101) /* Setup */
+     , (11148,   3, 0x20000014) /* SoundTable */
+     , (11148,   6, 0x04000BEF) /* PaletteBase */
+     , (11148,   7, 0x10000197) /* ClothingBase */
+     , (11148,   8, 0x0600211C) /* Icon */
+     , (11148,  22, 0x3400002B) /* PhysicsEffectTable */;

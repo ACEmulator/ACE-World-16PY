@@ -19,7 +19,7 @@ VALUES (20122,   1,        256) /* ItemType - MissileWeapon */
      , (20122,  48,          3) /* WeaponSkill - Crossbow */
      , (20122,  49,         90) /* WeaponTime */
      , (20122,  50,          2) /* AmmoType - Bolt */
-     , (20122,  51,          2) /* CombatUse - Missle */
+     , (20122,  51,          2) /* CombatUse - Missile */
      , (20122,  52,          2) /* ParentLocation - LeftHand */
      , (20122,  53,          3) /* PlacementPosition - LeftHand */
      , (20122,  60,        195) /* WeaponRange */
@@ -51,17 +51,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20122,   1, 'Perfect Coruscating Isparian Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20122,   1,   33557772) /* Setup */
-     , (20122,   3,  536870932) /* SoundTable */
-     , (20122,   6,   67111919) /* PaletteBase */
-     , (20122,   7,  268436396) /* ClothingBase */
-     , (20122,   8,  100673022) /* Icon */
-     , (20122,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20122,   1, 0x02000D0C) /* Setup */
+     , (20122,   3, 0x20000014) /* SoundTable */
+     , (20122,   6, 0x04000BEF) /* PaletteBase */
+     , (20122,   7, 0x100003AC) /* ClothingBase */
+     , (20122,   8, 0x060025FE) /* Icon */
+     , (20122,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20122,  37,          3) /* ItemSkillLimit - Crossbow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20122,  1069,      2)  /* Lightning Protection Self IV */
-     , (20122,  1399,      2)  /* Quickness Self III */
+VALUES (20122,  2688,      2)  /* Moderate Missile Weapon Aptitude */
      , (20122,  1605,      2)  /* Aura of Defender Self VI */
      , (20122,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (20122,  2688,      2)  /* Moderate Missile Weapon Aptitude */;
+     , (20122,  1069,      2)  /* Lightning Protection Self IV */
+     , (20122,  1399,      2)  /* Quickness Self III */;

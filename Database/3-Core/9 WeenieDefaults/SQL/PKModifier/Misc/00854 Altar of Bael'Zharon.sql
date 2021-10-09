@@ -28,8 +28,8 @@ VALUES (854,   1, 'Altar of Bael''Zharon') /* Name */
      , (854,  26, 'The altar simply remains silent.') /* UsePkServerError */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (854,   1,   33555289) /* Setup */
-     , (854,   2,  150994990) /* MotionTable */
-     , (854,   3,  536870964) /* SoundTable */
-     , (854,   8,  100668239) /* Icon */
-     , (854,  25,  268435537) /* UseTargetSuccessAnimation - Twitch1 */;
+VALUES (854,   1, 0x02000359) /* Setup */
+     , (854,   2, 0x0900002E) /* MotionTable */
+     , (854,   3, 0x20000034) /* SoundTable */
+     , (854,   8, 0x0600134F) /* Icon */
+     , (854,  25, 0x10000051) /* UseTargetSuccessAnimation - Twitch1 */;

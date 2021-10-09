@@ -24,7 +24,7 @@ VALUES (7520,   1, 'Scroll of Foon-Ki''s Glacial Floe') /* Name */
      , (7520,  15, 'When learned, this spell sends a wall of five balls of frost, two high, slowly towards the target. Each ball does 30-60 points of cold damage to the first thing it hits. The wall is created 2 meters in front of the caster. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7520,   1,   33554826) /* Setup */
-     , (7520,   8,  100677014) /* Icon */
-     , (7520,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7520,   1, 0x0200018A) /* Setup */
+     , (7520,   8, 0x06003596) /* Icon */
+     , (7520,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7520,  28,       1843) /* Spell - Foon-Ki's Glacial Floe */;

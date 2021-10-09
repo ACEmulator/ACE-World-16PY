@@ -50,14 +50,14 @@ VALUES (27819,   1, 'Singularity Axe') /* Name */
      , (27819,  15, 'An axe imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27819,   1,   33556970) /* Setup */
-     , (27819,   3,  536870932) /* SoundTable */
-     , (27819,   6,   67111919) /* PaletteBase */
-     , (27819,   7,  268436125) /* ClothingBase */
-     , (27819,   8,  100671369) /* Icon */
-     , (27819,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27819,   1, 0x020009EA) /* Setup */
+     , (27819,   3, 0x20000014) /* SoundTable */
+     , (27819,   6, 0x04000BEF) /* PaletteBase */
+     , (27819,   7, 0x1000029D) /* ClothingBase */
+     , (27819,   8, 0x06001F89) /* Icon */
+     , (27819,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27819,  30,         88) /* PhysicsScript - Create */
-     , (27819,  36,  234881044) /* MutateFilter */;
+     , (27819,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27819,  1337,      2)  /* Strength Other VI */

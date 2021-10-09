@@ -66,20 +66,20 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22905,   1, 'Lich Oppressor') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22905,   1,   33554839) /* Setup */
-     , (22905,   2,  150994967) /* MotionTable */
-     , (22905,   3,  536870934) /* SoundTable */
-     , (22905,   4,  805306368) /* CombatTable */
-     , (22905,   6,   67110722) /* PaletteBase */
-     , (22905,   7,  268436626) /* ClothingBase */
-     , (22905,   8,  100667942) /* Icon */
-     , (22905,  22,  872415272) /* PhysicsEffectTable */
+VALUES (22905,   1, 0x02000197) /* Setup */
+     , (22905,   2, 0x09000017) /* MotionTable */
+     , (22905,   3, 0x20000016) /* SoundTable */
+     , (22905,   4, 0x30000000) /* CombatTable */
+     , (22905,   6, 0x04000742) /* PaletteBase */
+     , (22905,   7, 0x10000492) /* ClothingBase */
+     , (22905,   8, 0x06001226) /* Icon */
+     , (22905,  22, 0x34000028) /* PhysicsEffectTable */
      , (22905,  32,        426) /* WieldedTreasureType - 
-                                   Wield Tachi (23136) | Probability: 30%
+                                   Wield Tachi (23136) | Probability: 30.000002%
                                    Wield Kite Shield (23135) | Probability: 100%
-                                   Wield Yumi (23137) | Probability: 30%
+                                   Wield Yumi (23137) | Probability: 30.000002%
                                    Wield 20x Deadly Arrow (15429) | Probability: 100%
-                                   Wield Heavy Crossbow (23131) | Probability: 30%
+                                   Wield Heavy Crossbow (23131) | Probability: 30.000002%
                                    Wield 50x Deadly Quarrel (15438) | Probability: 100% */
      , (22905,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
@@ -97,22 +97,22 @@ VALUES (22905,   1,  3550, 0, 0, 3700) /* MaxHealth */
      , (22905,   5,  2820, 0, 0, 3200) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (22905,  1, 0, 3, 0, 303, 0, 1390.68962940698) /* Axe                 Specialized */
-     , (22905,  2, 0, 3, 0, 200, 0, 1390.68962940698) /* Bow                 Specialized */
-     , (22905,  3, 0, 3, 0, 200, 0, 1390.68962940698) /* Crossbow            Specialized */
-     , (22905,  5, 0, 3, 0, 303, 0, 1390.68962940698) /* Mace                Specialized */
-     , (22905,  6, 0, 3, 0, 330, 0, 1390.68962940698) /* MeleeDefense        Specialized */
-     , (22905,  7, 0, 3, 0, 455, 0, 1390.68962940698) /* MissileDefense      Specialized */
-     , (22905,  9, 0, 3, 0, 303, 0, 1390.68962940698) /* Spear               Specialized */
-     , (22905, 10, 0, 3, 0, 303, 0, 1390.68962940698) /* Staff               Specialized */
-     , (22905, 11, 0, 3, 0, 303, 0, 1390.68962940698) /* Sword               Specialized */
-     , (22905, 13, 0, 3, 0, 303, 0, 1390.68962940698) /* UnarmedCombat       Specialized */
-     , (22905, 14, 0, 3, 0, 200, 0, 1390.68962940698) /* ArcaneLore          Specialized */
-     , (22905, 15, 0, 3, 0, 284, 0, 1390.68962940698) /* MagicDefense        Specialized */
-     , (22905, 20, 0, 3, 0, 150, 0, 1390.68962940698) /* Deception           Specialized */
-     , (22905, 31, 0, 3, 0, 225, 0, 1390.68962940698) /* CreatureEnchantment Specialized */
-     , (22905, 33, 0, 3, 0, 225, 0, 1390.68962940698) /* LifeMagic           Specialized */
-     , (22905, 34, 0, 3, 0, 225, 0, 1390.68962940698) /* WarMagic            Specialized */;
+VALUES (22905,  1, 0, 3, 0, 303, 0, 1390.689629406978) /* Axe                 Specialized */
+     , (22905,  2, 0, 3, 0, 200, 0, 1390.689629406978) /* Bow                 Specialized */
+     , (22905,  3, 0, 3, 0, 200, 0, 1390.689629406978) /* Crossbow            Specialized */
+     , (22905,  5, 0, 3, 0, 303, 0, 1390.689629406978) /* Mace                Specialized */
+     , (22905,  6, 0, 3, 0, 330, 0, 1390.689629406978) /* MeleeDefense        Specialized */
+     , (22905,  7, 0, 3, 0, 455, 0, 1390.689629406978) /* MissileDefense      Specialized */
+     , (22905,  9, 0, 3, 0, 303, 0, 1390.689629406978) /* Spear               Specialized */
+     , (22905, 10, 0, 3, 0, 303, 0, 1390.689629406978) /* Staff               Specialized */
+     , (22905, 11, 0, 3, 0, 303, 0, 1390.689629406978) /* Sword               Specialized */
+     , (22905, 13, 0, 3, 0, 303, 0, 1390.689629406978) /* UnarmedCombat       Specialized */
+     , (22905, 14, 0, 3, 0, 200, 0, 1390.689629406978) /* ArcaneLore          Specialized */
+     , (22905, 15, 0, 3, 0, 284, 0, 1390.689629406978) /* MagicDefense        Specialized */
+     , (22905, 20, 0, 3, 0, 150, 0, 1390.689629406978) /* Deception           Specialized */
+     , (22905, 31, 0, 3, 0, 225, 0, 1390.689629406978) /* CreatureEnchantment Specialized */
+     , (22905, 33, 0, 3, 0, 225, 0, 1390.689629406978) /* LifeMagic           Specialized */
+     , (22905, 34, 0, 3, 0, 225, 0, 1390.689629406978) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (22905,  0,  4,  0,    0,  500,  400,  275,  350,  125,  300,  350,  375,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -126,30 +126,30 @@ VALUES (22905,  0,  4,  0,    0,  500,  400,  275,  350,  125,  300,  350,  375,
      , (22905,  8,  4, 80, 0.75,  500,  400,  275,  350,  125,  300,  350,  375,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22905,    63,  2.037)  /* Acid Stream VI */
+VALUES (22905,  2054,  2.037)  /* Synaptic Misfire */
+     , (22905,  2074,  2.037)  /* Gossamer Flesh */
+     , (22905,  2138,  2.037)  /* Blizzard */
+     , (22905,  2130,  2.037)  /* Infernae */
+     , (22905,  2162,  2.037)  /* Olthoi's Gift */
+     , (22905,  1254,  2.037)  /* Drain Stamina Other VI */
      , (22905,    74,  2.037)  /* Frost Bolt VI */
+     , (22905,  2123,  2.037)  /* Celdiseth's Searing */
+     , (22905,  1783,  2.037)  /* Searing Disc */
      , (22905,    85,  2.037)  /* Flame Bolt VI */
-     , (22905,   176,  2.037)  /* Fester Other VI */
+     , (22905,  2318,  2.037)  /* Gravity Well */
+     , (22905,  2064,  2.037)  /* Self Loathing */
      , (22905,  1176,  2.038)  /* Harm Other VI */
      , (22905,  1242,  2.037)  /* Drain Health Other VI */
-     , (22905,  1254,  2.037)  /* Drain Stamina Other VI */
-     , (22905,  1783,  2.037)  /* Searing Disc */
-     , (22905,  1785,  2.037)  /* Cassius' Ring of Fire */
-     , (22905,  1787,  2.037)  /* Halo of Frost */
-     , (22905,  2054,  2.037)  /* Synaptic Misfire */
-     , (22905,  2064,  2.037)  /* Self Loathing */
-     , (22905,  2074,  2.037)  /* Gossamer Flesh */
-     , (22905,  2123,  2.037)  /* Celdiseth's Searing */
-     , (22905,  2130,  2.037)  /* Infernae */
-     , (22905,  2138,  2.037)  /* Blizzard */
-     , (22905,  2162,  2.037)  /* Olthoi's Gift */
+     , (22905,   176,  2.037)  /* Fester Other VI */
      , (22905,  2164,  2.037)  /* Swordsman's Gift */
+     , (22905,  2228,  2.037)  /* Broadside of a Barn */
      , (22905,  2166,  2.037)  /* Tusker's Gift */
      , (22905,  2168,  2.037)  /* Gelidite's Gift */
+     , (22905,  1785,  2.037)  /* Cassius' Ring of Fire */
      , (22905,  2170,  2.037)  /* Inferno's Gift */
+     , (22905,  1787,  2.037)  /* Halo of Frost */
      , (22905,  2174,  2.037)  /* Archer's Gift */
-     , (22905,  2228,  2.037)  /* Broadside of a Barn */
-     , (22905,  2318,  2.037)  /* Gravity Well */;
+     , (22905,    63,  2.037)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (22905,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -31,7 +31,7 @@ VALUES (24737,   1, 'Crucible with Quicksilver Potion') /* Name */
      , (24737,  20, 'Crucible with Quicksilver Potion') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24737,   1,   33555966) /* Setup */
-     , (24737,   3,  536870932) /* SoundTable */
-     , (24737,   8,  100674464) /* Icon */
-     , (24737,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24737,   1, 0x020005FE) /* Setup */
+     , (24737,   3, 0x20000014) /* SoundTable */
+     , (24737,   8, 0x06002BA0) /* Icon */
+     , (24737,  22, 0x3400002B) /* PhysicsEffectTable */;

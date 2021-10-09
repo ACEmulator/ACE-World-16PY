@@ -41,10 +41,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27865,   1, 'Stone Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27865,   1,   33558786) /* Setup */
-     , (27865,   3,  536870932) /* SoundTable */
-     , (27865,   8,  100676578) /* Icon */
-     , (27865,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27865,   1, 0x02001102) /* Setup */
+     , (27865,   3, 0x20000014) /* SoundTable */
+     , (27865,   8, 0x060033E2) /* Icon */
+     , (27865,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27865,  1614,      2)  /* Aura of Blood Drinker Self IV */

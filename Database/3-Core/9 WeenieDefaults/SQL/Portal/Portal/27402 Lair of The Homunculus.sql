@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27402,   1, 'Lair of The Homunculus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27402,   1,   33555924) /* Setup */
-     , (27402,   2,  150994947) /* MotionTable */
-     , (27402,   8,  100667499) /* Icon */;
+VALUES (27402,   1, 0x020005D4) /* Setup */
+     , (27402,   2, 0x09000003) /* MotionTable */
+     , (27402,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27402, 2, 1665795028, 97.2029, -77.2247, 0.005, 0.3826834, 0, 0, -0.9238795) /* Destination */
-/* @teleloc 0x634A03D4 [97.202900 -77.224700 0.005000] 0.382683 0.000000 0.000000 -0.923880 */;
+VALUES (27402, 2, 0x634A03D4, 97.2029, -77.2247, 0.005, 0.382683, 0, 0, -0.92388) /* Destination */
+/* @teleloc 0x634A03D4 [97.202904 -77.224701 0.005000] 0.382683 0.000000 0.000000 -0.923880 */;

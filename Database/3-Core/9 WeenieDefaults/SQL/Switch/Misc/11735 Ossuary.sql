@@ -29,10 +29,10 @@ VALUES (11735,   1, 'Ossuary') /* Name */
      , (11735,  17, 'As you approach the coffin, a cool, detached contralto voice echoes through the hall. She speaks in an Empyrean dialect; soon enough her voice forms recognizable words within your mind. "Here is the chevaird Ghalin Surconit, laid where he fell before the servants of our prey. We were nearly there, my trueblood. You shall be avenged. So swears Lady Rajael."') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11735,   1,   33556907) /* Setup */
-     , (11735,   3,  536870932) /* SoundTable */
-     , (11735,   8,  100671209) /* Icon */
-     , (11735,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11735,   1, 0x020009AB) /* Setup */
+     , (11735,   3, 0x20000014) /* SoundTable */
+     , (11735,   8, 0x06001EE9) /* Icon */
+     , (11735,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11735,  16,          0) /* ActivationTarget */;
+VALUES (11735,  16, 0x00000000) /* ActivationTarget */;

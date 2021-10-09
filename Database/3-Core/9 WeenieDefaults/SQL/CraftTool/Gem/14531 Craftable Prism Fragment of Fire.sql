@@ -30,9 +30,9 @@ VALUES (14531,   1, 'Craftable Prism Fragment of Fire') /* Name */
      , (14531,  16, 'A fragment taken from a fire prism.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14531,   1,   33557506) /* Setup */
-     , (14531,   3,  536870932) /* SoundTable */
-     , (14531,   6,   67112808) /* PaletteBase */
-     , (14531,   7,  268436323) /* ClothingBase */
-     , (14531,   8,  100672510) /* Icon */
-     , (14531,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14531,   1, 0x02000C02) /* Setup */
+     , (14531,   3, 0x20000014) /* SoundTable */
+     , (14531,   6, 0x04000F68) /* PaletteBase */
+     , (14531,   7, 0x10000363) /* ClothingBase */
+     , (14531,   8, 0x060023FE) /* Icon */
+     , (14531,  22, 0x3400002B) /* PhysicsEffectTable */;

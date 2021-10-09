@@ -16,7 +16,7 @@ VALUES (27373,   1,        256) /* ItemType - MissileWeapon */
      , (27373,  48,          3) /* WeaponSkill - Crossbow */
      , (27373,  49,         60) /* WeaponTime */
      , (27373,  50,          2) /* AmmoType - Bolt */
-     , (27373,  51,          2) /* CombatUse - Missle */
+     , (27373,  51,          2) /* CombatUse - Missile */
      , (27373,  52,          2) /* ParentLocation - LeftHand */
      , (27373,  53,          3) /* PlacementPosition - LeftHand */
      , (27373,  60,        160) /* WeaponRange */
@@ -42,9 +42,9 @@ VALUES (27373,   1, 'Kalindan') /* Name */
      , (27373,  16, 'A beautifully carved crossbow. Fuse this with a triple totem to create one of Palenqual''s living weapons.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27373,   1,   33558668) /* Setup */
-     , (27373,   3,  536870932) /* SoundTable */
-     , (27373,   6,   67113336) /* PaletteBase */
-     , (27373,   7,  268436252) /* ClothingBase */
-     , (27373,   8,  100676340) /* Icon */
-     , (27373,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27373,   1, 0x0200108C) /* Setup */
+     , (27373,   3, 0x20000014) /* SoundTable */
+     , (27373,   6, 0x04001178) /* PaletteBase */
+     , (27373,   7, 0x1000031C) /* ClothingBase */
+     , (27373,   8, 0x060032F4) /* Icon */
+     , (27373,  22, 0x3400002B) /* PhysicsEffectTable */;

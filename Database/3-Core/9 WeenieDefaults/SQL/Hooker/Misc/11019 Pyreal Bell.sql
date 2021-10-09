@@ -13,7 +13,7 @@ VALUES (11019,   1,        128) /* ItemType - Misc */
      , (11019,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11019, 150,        103) /* HookPlacement - Hook */
      , (11019, 151,          4) /* HookType - Ceiling */
-     , (11019, 197,          1) /* HookGroup */;
+     , (11019, 197,          1) /* HookGroup - NoisemakingItems */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11019,  13, True ) /* Ethereal */
@@ -28,11 +28,11 @@ VALUES (11019,   1, 'Pyreal Bell') /* Name */
      , (11019,  16, 'A reforged Yalaini bell. If rung, its noise is enough to make the very stones beneath you shake.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11019,   1,   33557215) /* Setup */
-     , (11019,   3,  536871076) /* SoundTable */
-     , (11019,   6,   67113334) /* PaletteBase */
-     , (11019,   8,  100671824) /* Icon */
-     , (11019,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11019,   1, 0x02000ADF) /* Setup */
+     , (11019,   3, 0x200000A4) /* SoundTable */
+     , (11019,   6, 0x04001176) /* PaletteBase */
+     , (11019,   8, 0x06002150) /* Icon */
+     , (11019,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (11019,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

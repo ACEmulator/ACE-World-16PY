@@ -25,7 +25,7 @@ VALUES (3366,   1, 'Scroll of Life Magic Ineptitude V') /* Name */
      , (3366,  16, 'When learned, this spell decreases the target''s Life Magic skill by 50%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3366,   1,   33554826) /* Setup */
-     , (3366,   8,  100676462) /* Icon */
-     , (3366,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3366,   1, 0x0200018A) /* Setup */
+     , (3366,   8, 0x0600336E) /* Icon */
+     , (3366,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3366,  28,        627) /* Spell - Life Magic Ineptitude Other V */;

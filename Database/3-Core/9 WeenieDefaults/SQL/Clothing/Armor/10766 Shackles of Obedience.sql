@@ -46,16 +46,16 @@ VALUES (10766,   1, 'Shackles of Obedience') /* Name */
      , (10766,  33, 'VirindiManacles') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10766,   1,   33554641) /* Setup */
-     , (10766,   3,  536870932) /* SoundTable */
-     , (10766,   6,   67108990) /* PaletteBase */
-     , (10766,   7,  268436191) /* ClothingBase */
-     , (10766,   8,  100667331) /* Icon */
-     , (10766,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (10766,   1, 0x020000D1) /* Setup */
+     , (10766,   3, 0x20000014) /* SoundTable */
+     , (10766,   6, 0x0400007E) /* PaletteBase */
+     , (10766,   7, 0x100002DF) /* ClothingBase */
+     , (10766,   8, 0x06000FC3) /* Icon */
+     , (10766,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10766,   951,      2)  /* Fealty Self VI */
-     , (10766,  1329,      2)  /* Strength Self III */
+VALUES (10766,  1460,      2)  /* Feeblemind Self IV */
      , (10766,  1436,      2)  /* Bafflement Self IV */
-     , (10766,  1460,      2)  /* Feeblemind Self IV */
-     , (10766,  1484,      2)  /* Impenetrability IV */;
+     , (10766,  1484,      2)  /* Impenetrability IV */
+     , (10766,  1329,      2)  /* Strength Self III */
+     , (10766,   951,      2)  /* Fealty Self VI */;

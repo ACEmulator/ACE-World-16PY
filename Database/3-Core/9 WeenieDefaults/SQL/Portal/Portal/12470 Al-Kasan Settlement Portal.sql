@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12470,   1, 'Al-Kasan Settlement Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12470,   1,   33554867) /* Setup */
-     , (12470,   2,  150994947) /* MotionTable */
-     , (12470,   8,  100667499) /* Icon */;
+VALUES (12470,   1, 0x020001B3) /* Setup */
+     , (12470,   2, 0x09000003) /* MotionTable */
+     , (12470,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12470, 2, 2337603632, 127.721, 175.309, 15.798, -0.1952105, 0, 0, -0.9807613) /* Destination */
-/* @teleloc 0x8B550030 [127.721000 175.309000 15.798000] -0.195211 0.000000 0.000000 -0.980761 */;
+VALUES (12470, 2, 0x8B550030, 127.721, 175.309, 15.798, -0.195211, 0, -0, -0.980761) /* Destination */
+/* @teleloc 0x8B550030 [127.721001 175.309006 15.798000] -0.195211 0.000000 -0.000000 -0.980761 */;

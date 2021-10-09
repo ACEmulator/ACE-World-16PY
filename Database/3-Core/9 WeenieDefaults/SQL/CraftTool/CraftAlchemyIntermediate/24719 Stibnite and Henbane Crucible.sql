@@ -31,8 +31,8 @@ VALUES (24719,   1, 'Stibnite and Henbane Crucible') /* Name */
      , (24719,  20, 'Stubnite and Henbane Crucibles') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24719,   1,   33555966) /* Setup */
-     , (24719,   3,  536870932) /* SoundTable */
-     , (24719,   8,  100674467) /* Icon */
-     , (24719,  22,  872415275) /* PhysicsEffectTable */
-     , (24719,  50,  100674414) /* IconOverlay */;
+VALUES (24719,   1, 0x020005FE) /* Setup */
+     , (24719,   3, 0x20000014) /* SoundTable */
+     , (24719,   8, 0x06002BA3) /* Icon */
+     , (24719,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24719,  50, 0x06002B6E) /* IconOverlay */;

@@ -17,7 +17,7 @@ VALUES (8891,   1,        256) /* ItemType - MissileWeapon */
      , (8891,  48,          2) /* WeaponSkill - Bow */
      , (8891,  49,         30) /* WeaponTime */
      , (8891,  50,          1) /* AmmoType - Arrow */
-     , (8891,  51,          2) /* CombatUse - Missle */
+     , (8891,  51,          2) /* CombatUse - Missile */
      , (8891,  52,          2) /* ParentLocation - LeftHand */
      , (8891,  53,          3) /* PlacementPosition - LeftHand */
      , (8891,  60,        180) /* WeaponRange */
@@ -38,9 +38,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8891,   1, 'Elysa''s Longbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8891,   1,   33556937) /* Setup */
-     , (8891,   3,  536870932) /* SoundTable */
-     , (8891,   6,   67111919) /* PaletteBase */
-     , (8891,   7,  268435759) /* ClothingBase */
-     , (8891,   8,  100668815) /* Icon */
-     , (8891,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8891,   1, 0x020009C9) /* Setup */
+     , (8891,   3, 0x20000014) /* SoundTable */
+     , (8891,   6, 0x04000BEF) /* PaletteBase */
+     , (8891,   7, 0x1000012F) /* ClothingBase */
+     , (8891,   8, 0x0600158F) /* Icon */
+     , (8891,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -34,13 +34,13 @@ VALUES (7406,   1, 'Ring of the Watchman') /* Name */
      , (7406,  16, 'A small ring of pale silver, taken from the finger of a petrified skeleton on Aerlinthe Island.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7406,   1,   33554691) /* Setup */
-     , (7406,   3,  536870932) /* SoundTable */
-     , (7406,   6,   67111919) /* PaletteBase */
-     , (7406,   7,  268436015) /* ClothingBase */
-     , (7406,   8,  100670751) /* Icon */
-     , (7406,  22,  872415275) /* PhysicsEffectTable */
-     , (7406,  36,  234881046) /* MutateFilter */
+VALUES (7406,   1, 0x02000103) /* Setup */
+     , (7406,   3, 0x20000014) /* SoundTable */
+     , (7406,   6, 0x04000BEF) /* PaletteBase */
+     , (7406,   7, 0x1000022F) /* ClothingBase */
+     , (7406,   8, 0x06001D1F) /* Icon */
+     , (7406,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (7406,  36, 0x0E000016) /* MutateFilter */
      , (7406,  37,         31) /* ItemSkillLimit - CreatureEnchantment */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

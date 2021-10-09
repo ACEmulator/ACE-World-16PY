@@ -22,10 +22,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (743,   1, 'Cedar Talisman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (743,   1,   33555207) /* Setup */
-     , (743,   3,  536870932) /* SoundTable */
-     , (743,   6,   67111919) /* PaletteBase */
-     , (743,   7,  268435722) /* ClothingBase */
-     , (743,   8,  100669711) /* Icon */
-     , (743,  22,  872415275) /* PhysicsEffectTable */
+VALUES (743,   1, 0x02000307) /* Setup */
+     , (743,   3, 0x20000014) /* SoundTable */
+     , (743,   6, 0x04000BEF) /* PaletteBase */
+     , (743,   7, 0x1000010A) /* ClothingBase */
+     , (743,   8, 0x0600190F) /* Icon */
+     , (743,  22, 0x3400002B) /* PhysicsEffectTable */
      , (743,  29,         62) /* SpellComponent */;

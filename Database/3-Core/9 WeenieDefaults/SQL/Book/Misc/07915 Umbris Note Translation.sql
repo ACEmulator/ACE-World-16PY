@@ -27,10 +27,10 @@ VALUES (7915,   1, 'Umbris Note Translation') /* Name */
      , (7915,  16, 'The translation of a message carried by powerful Shadows.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7915,   1,   33554773) /* Setup */
-     , (7915,   3,  536870932) /* SoundTable */
-     , (7915,   8,  100668176) /* Icon */
-     , (7915,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7915,   1, 0x02000155) /* Setup */
+     , (7915,   3, 0x20000014) /* SoundTable */
+     , (7915,   8, 0x06001310) /* Icon */
+     , (7915,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (7915, 6, 1000);

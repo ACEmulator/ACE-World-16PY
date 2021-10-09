@@ -36,9 +36,9 @@ VALUES (30314,   1, 'Star of Tukal') /* Name */
      , (30314,  16, 'Describe me here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30314,   1,   33554746) /* Setup */
-     , (30314,   3,  536870932) /* SoundTable */
-     , (30314,   6,   67111919) /* PaletteBase */
-     , (30314,   7,  268435792) /* ClothingBase */
-     , (30314,   8,  100668955) /* Icon */
-     , (30314,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30314,   1, 0x0200013A) /* Setup */
+     , (30314,   3, 0x20000014) /* SoundTable */
+     , (30314,   6, 0x04000BEF) /* PaletteBase */
+     , (30314,   7, 0x10000150) /* ClothingBase */
+     , (30314,   8, 0x0600161B) /* Icon */
+     , (30314,  22, 0x3400002B) /* PhysicsEffectTable */;

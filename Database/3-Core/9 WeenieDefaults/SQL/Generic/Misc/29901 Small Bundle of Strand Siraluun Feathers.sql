@@ -25,9 +25,9 @@ VALUES (29901,   1, 'Small Bundle of Strand Siraluun Feathers') /* Name */
      , (29901,  15, 'A small bundle of Strand Siraluun Feathers.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29901,   1,   33554817) /* Setup */
-     , (29901,   3,  536870932) /* SoundTable */
-     , (29901,   6,   67111919) /* PaletteBase */
-     , (29901,   7,  268435832) /* ClothingBase */
-     , (29901,   8,  100677294) /* Icon */
-     , (29901,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29901,   1, 0x02000181) /* Setup */
+     , (29901,   3, 0x20000014) /* SoundTable */
+     , (29901,   6, 0x04000BEF) /* PaletteBase */
+     , (29901,   7, 0x10000178) /* ClothingBase */
+     , (29901,   8, 0x060036AE) /* Icon */
+     , (29901,  22, 0x3400002B) /* PhysicsEffectTable */;

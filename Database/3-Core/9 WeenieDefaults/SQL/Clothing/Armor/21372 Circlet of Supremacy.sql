@@ -50,12 +50,12 @@ VALUES (21372,   1, 'Circlet of Supremacy') /* Name */
      , (21372,  15, 'A crown made of some luminescent metal.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21372,   1,   33557995) /* Setup */
-     , (21372,   3,  536870932) /* SoundTable */
-     , (21372,   6,   67108990) /* PaletteBase */
-     , (21372,   7,  268436469) /* ClothingBase */
-     , (21372,   8,  100673509) /* Icon */
-     , (21372,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21372,   1, 0x02000DEB) /* Setup */
+     , (21372,   3, 0x20000014) /* SoundTable */
+     , (21372,   6, 0x0400007E) /* PaletteBase */
+     , (21372,   7, 0x100003F5) /* ClothingBase */
+     , (21372,   8, 0x060027E5) /* Icon */
+     , (21372,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21372,  2787,      2)  /* Supremacy */;

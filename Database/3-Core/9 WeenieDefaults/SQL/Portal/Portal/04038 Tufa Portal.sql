@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4038,   1, 'Tufa Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4038,   1,   33554867) /* Setup */
-     , (4038,   2,  150994947) /* MotionTable */
-     , (4038,   8,  100667499) /* Icon */;
+VALUES (4038,   1, 0x020001B3) /* Setup */
+     , (4038,   2, 0x09000003) /* MotionTable */
+     , (4038,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4038, 2, 2272002056, 2, 186.9, 18, -0.7071068, 0, 0, -0.7071068) /* Destination */
-/* @teleloc 0x876C0008 [2.000000 186.900000 18.000000] -0.707107 0.000000 0.000000 -0.707107 */;
+VALUES (4038, 2, 0x876C0008, 2, 186.9, 18, -0.707107, 0, -0, -0.707107) /* Destination */
+/* @teleloc 0x876C0008 [2.000000 186.899994 18.000000] -0.707107 0.000000 -0.000000 -0.707107 */;

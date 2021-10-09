@@ -30,10 +30,10 @@ VALUES (30142,   1, 'Ideograph of Regeneration') /* Name */
      , (30142,  16, 'A lovely template for a rare magical gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30142,   1,   33554809) /* Setup */
-     , (30142,   3,  536870932) /* SoundTable */
-     , (30142,   6,   67111919) /* PaletteBase */
-     , (30142,   7,  268435723) /* ClothingBase */
-     , (30142,   8,  100674739) /* Icon */
-     , (30142,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30142,   1, 0x02000179) /* Setup */
+     , (30142,   3, 0x20000014) /* SoundTable */
+     , (30142,   6, 0x04000BEF) /* PaletteBase */
+     , (30142,   7, 0x1000010B) /* ClothingBase */
+     , (30142,   8, 0x06002CB3) /* Icon */
+     , (30142,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30142,  28,       2185) /* Spell - Robustify */;

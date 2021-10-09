@@ -32,9 +32,9 @@ VALUES (27763,   1, 'Onyx Cutting Tool') /* Name */
      , (27763,  15, 'A brittle-looking Onyx cutting tool. It does not appear as though it would survive multiple uses.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27763,   1,   33554734) /* Setup */
-     , (27763,   3,  536870932) /* SoundTable */
-     , (27763,   6,   67111919) /* PaletteBase */
-     , (27763,   7,  268435782) /* ClothingBase */
-     , (27763,   8,  100676623) /* Icon */
-     , (27763,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27763,   1, 0x0200012E) /* Setup */
+     , (27763,   3, 0x20000014) /* SoundTable */
+     , (27763,   6, 0x04000BEF) /* PaletteBase */
+     , (27763,   7, 0x10000146) /* ClothingBase */
+     , (27763,   8, 0x0600340F) /* Icon */
+     , (27763,  22, 0x3400002B) /* PhysicsEffectTable */;

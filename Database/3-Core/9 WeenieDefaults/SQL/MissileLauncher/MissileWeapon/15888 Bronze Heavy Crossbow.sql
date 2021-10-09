@@ -16,7 +16,7 @@ VALUES (15888,   1,        256) /* ItemType - MissileWeapon */
      , (15888,  48,          3) /* WeaponSkill - Crossbow */
      , (15888,  49,        120) /* WeaponTime */
      , (15888,  50,          2) /* AmmoType - Bolt */
-     , (15888,  51,          2) /* CombatUse - Missle */
+     , (15888,  51,          2) /* CombatUse - Missile */
      , (15888,  52,          2) /* ParentLocation - LeftHand */
      , (15888,  53,          3) /* PlacementPosition - LeftHand */
      , (15888,  60,        192) /* WeaponRange */
@@ -40,9 +40,9 @@ VALUES (15888,   1, 'Bronze Heavy Crossbow') /* Name */
      , (15888,  33, 'XbowStatuePickUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15888,   1,   33554732) /* Setup */
-     , (15888,   3,  536870932) /* SoundTable */
-     , (15888,   6,   67111919) /* PaletteBase */
-     , (15888,   7,  268435762) /* ClothingBase */
-     , (15888,   8,  100668835) /* Icon */
-     , (15888,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15888,   1, 0x0200012C) /* Setup */
+     , (15888,   3, 0x20000014) /* SoundTable */
+     , (15888,   6, 0x04000BEF) /* PaletteBase */
+     , (15888,   7, 0x10000132) /* ClothingBase */
+     , (15888,   8, 0x060015A3) /* Icon */
+     , (15888,  22, 0x3400002B) /* PhysicsEffectTable */;

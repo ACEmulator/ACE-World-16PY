@@ -38,11 +38,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3755,   1, 'Lightning Hand Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3755,   1,   33555703) /* Setup */
-     , (3755,   3,  536870932) /* SoundTable */
-     , (3755,   6,   67111919) /* PaletteBase */
-     , (3755,   7,  268435837) /* ClothingBase */
-     , (3755,   8,  100670216) /* Icon */
-     , (3755,  22,  872415275) /* PhysicsEffectTable */
-     , (3755,  36,  234881053) /* MutateFilter */
-     , (3755,  46,  939524098) /* TsysMutationFilter */;
+VALUES (3755,   1, 0x020004F7) /* Setup */
+     , (3755,   3, 0x20000014) /* SoundTable */
+     , (3755,   6, 0x04000BEF) /* PaletteBase */
+     , (3755,   7, 0x1000017D) /* ClothingBase */
+     , (3755,   8, 0x06001B08) /* Icon */
+     , (3755,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3755,  36, 0x0E00001D) /* MutateFilter */
+     , (3755,  46, 0x38000002) /* TsysMutationFilter */;

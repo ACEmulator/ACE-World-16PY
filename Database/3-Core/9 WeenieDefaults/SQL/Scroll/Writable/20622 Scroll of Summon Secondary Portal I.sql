@@ -24,7 +24,7 @@ VALUES (20622,   1, 'Scroll of Summon Secondary Portal I') /* Name */
      , (20622,  15, 'When learned, this spell summons a portal that goes to the destination of the caster''s linked portal, set with Secondary Portal Tie.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20622,   1,   33554826) /* Setup */
-     , (20622,   8,  100676673) /* Icon */
-     , (20622,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20622,   1, 0x0200018A) /* Setup */
+     , (20622,   8, 0x06003441) /* Icon */
+     , (20622,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20622,  28,       2648) /* Spell - Summon Secondary Portal I */;

@@ -33,9 +33,9 @@ VALUES (7832,   1, 'Bar of Milk Chocolate') /* Name */
      , (7832,  20, 'Bars of Milk Chocolate') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7832,   1,   33555677) /* Setup */
-     , (7832,   3,  536870932) /* SoundTable */
-     , (7832,   6,   67111919) /* PaletteBase */
-     , (7832,   7,  268435979) /* ClothingBase */
-     , (7832,   8,  100670849) /* Icon */
-     , (7832,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7832,   1, 0x020004DD) /* Setup */
+     , (7832,   3, 0x20000014) /* SoundTable */
+     , (7832,   6, 0x04000BEF) /* PaletteBase */
+     , (7832,   7, 0x1000020B) /* ClothingBase */
+     , (7832,   8, 0x06001D81) /* Icon */
+     , (7832,  22, 0x3400002B) /* PhysicsEffectTable */;

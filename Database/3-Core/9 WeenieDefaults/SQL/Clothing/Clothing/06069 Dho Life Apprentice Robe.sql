@@ -43,12 +43,12 @@ VALUES (6069,   1, 'Dho Life Apprentice Robe') /* Name */
      , (6069,  19, 'Gharu''ndim') /* ItemHeritageGroupRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6069,   1,   33554854) /* Setup */
-     , (6069,   3,  536870932) /* SoundTable */
-     , (6069,   6,   67108990) /* PaletteBase */
-     , (6069,   7,  268435855) /* ClothingBase */
-     , (6069,   8,  100670373) /* Icon */
-     , (6069,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6069,   1, 0x020001A6) /* Setup */
+     , (6069,   3, 0x20000014) /* SoundTable */
+     , (6069,   6, 0x0400007E) /* PaletteBase */
+     , (6069,   7, 0x1000018F) /* ClothingBase */
+     , (6069,   8, 0x06001BA5) /* Icon */
+     , (6069,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6069,  37,         33) /* ItemSkillLimit - LifeMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

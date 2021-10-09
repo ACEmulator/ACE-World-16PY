@@ -40,11 +40,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (58,   1, 'Scalemail Gauntlets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (58,   1,   33554648) /* Setup */
-     , (58,   3,  536870932) /* SoundTable */
-     , (58,   6,   67108990) /* PaletteBase */
-     , (58,   7,  268435474) /* ClothingBase */
-     , (58,   8,  100669691) /* Icon */
-     , (58,  22,  872415275) /* PhysicsEffectTable */
-     , (58,  36,  234881042) /* MutateFilter */
-     , (58,  46,  939524146) /* TsysMutationFilter */;
+VALUES (58,   1, 0x020000D8) /* Setup */
+     , (58,   3, 0x20000014) /* SoundTable */
+     , (58,   6, 0x0400007E) /* PaletteBase */
+     , (58,   7, 0x10000012) /* ClothingBase */
+     , (58,   8, 0x060018FB) /* Icon */
+     , (58,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (58,  36, 0x0E000012) /* MutateFilter */
+     , (58,  46, 0x38000032) /* TsysMutationFilter */;

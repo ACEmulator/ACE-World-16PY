@@ -23,7 +23,7 @@ VALUES (1799,   1, 'Bubtil''s Wares') /* Name */
      , (1799,  16, 'Bubtil''s Wares') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1799,   1,   33555909) /* Setup */
-     , (1799,   6,   67111860) /* PaletteBase */
-     , (1799,   7,  268435820) /* ClothingBase */
-     , (1799,   8,  100668115) /* Icon */;
+VALUES (1799,   1, 0x020005C5) /* Setup */
+     , (1799,   6, 0x04000BB4) /* PaletteBase */
+     , (1799,   7, 0x1000016C) /* ClothingBase */
+     , (1799,   8, 0x060012D3) /* Icon */;

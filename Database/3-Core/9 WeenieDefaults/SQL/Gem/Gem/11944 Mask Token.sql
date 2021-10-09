@@ -28,9 +28,9 @@ VALUES (11944,   1, 'Mask Token') /* Name */
      , (11944,  16, 'A token with a Mask head on it.  This was given to you in exchange for your valor.  If you give it to any of the army collectors, they will grant you a gift. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11944,   1,   33557280) /* Setup */
-     , (11944,   3,  536870932) /* SoundTable */
-     , (11944,   6,   67111919) /* PaletteBase */
-     , (11944,   7,  268435723) /* ClothingBase */
-     , (11944,   8,  100671973) /* Icon */
-     , (11944,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11944,   1, 0x02000B20) /* Setup */
+     , (11944,   3, 0x20000014) /* SoundTable */
+     , (11944,   6, 0x04000BEF) /* PaletteBase */
+     , (11944,   7, 0x1000010B) /* ClothingBase */
+     , (11944,   8, 0x060021E5) /* Icon */
+     , (11944,  22, 0x3400002B) /* PhysicsEffectTable */;

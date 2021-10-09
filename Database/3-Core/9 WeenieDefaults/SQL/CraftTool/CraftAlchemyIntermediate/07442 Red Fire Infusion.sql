@@ -34,9 +34,9 @@ VALUES (7442,   1, 'Red Fire Infusion') /* Name */
      , (7442,  33, 'RedFireInfusion') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7442,   1,   33555965) /* Setup */
-     , (7442,   3,  536870932) /* SoundTable */
-     , (7442,   6,   67111919) /* PaletteBase */
-     , (7442,   7,  268435814) /* ClothingBase */
-     , (7442,   8,  100670746) /* Icon */
-     , (7442,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7442,   1, 0x020005FD) /* Setup */
+     , (7442,   3, 0x20000014) /* SoundTable */
+     , (7442,   6, 0x04000BEF) /* PaletteBase */
+     , (7442,   7, 0x10000166) /* ClothingBase */
+     , (7442,   8, 0x06001D1A) /* Icon */
+     , (7442,  22, 0x3400002B) /* PhysicsEffectTable */;

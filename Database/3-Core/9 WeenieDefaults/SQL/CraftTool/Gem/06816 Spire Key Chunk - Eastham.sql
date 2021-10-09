@@ -30,7 +30,7 @@ VALUES (6816,   1, 'Spire Key Chunk - Eastham') /* Name */
      , (6816,  16, 'The front third of a skeletal key, found in the Eastham shadow spire.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6816,   1,   33554784) /* Setup */
-     , (6816,   3,  536870932) /* SoundTable */
-     , (6816,   8,  100670629) /* Icon */
-     , (6816,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6816,   1, 0x02000160) /* Setup */
+     , (6816,   3, 0x20000014) /* SoundTable */
+     , (6816,   8, 0x06001CA5) /* Icon */
+     , (6816,  22, 0x3400002B) /* PhysicsEffectTable */;

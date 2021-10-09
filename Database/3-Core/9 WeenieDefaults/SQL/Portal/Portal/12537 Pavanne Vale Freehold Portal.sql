@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12537,   1, 'Pavanne Vale Freehold Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12537,   1,   33554867) /* Setup */
-     , (12537,   2,  150994947) /* MotionTable */
-     , (12537,   8,  100667499) /* Icon */;
+VALUES (12537,   1, 0x020001B3) /* Setup */
+     , (12537,   2, 0x09000003) /* MotionTable */
+     , (12537,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12537, 2, 2448162856, 106.97, 171.498, 20.005, -0.183797, 0, 0, -0.9829642) /* Destination */
-/* @teleloc 0x91EC0028 [106.970000 171.498000 20.005000] -0.183797 0.000000 0.000000 -0.982964 */;
+VALUES (12537, 2, 0x91EC0028, 106.97, 171.498, 20.005, -0.183797, 0, -0, -0.982964) /* Destination */
+/* @teleloc 0x91EC0028 [106.970001 171.498001 20.004999] -0.183797 0.000000 -0.000000 -0.982964 */;

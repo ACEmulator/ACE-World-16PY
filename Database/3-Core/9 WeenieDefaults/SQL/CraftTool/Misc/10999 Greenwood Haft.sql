@@ -30,7 +30,7 @@ VALUES (10999,   1, 'Greenwood Haft') /* Name */
      , (10999,  33, 'championquest07') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10999,   1,   33557228) /* Setup */
-     , (10999,   3,  536870932) /* SoundTable */
-     , (10999,   8,  100671862) /* Icon */
-     , (10999,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (10999,   1, 0x02000AEC) /* Setup */
+     , (10999,   3, 0x20000014) /* SoundTable */
+     , (10999,   8, 0x06002176) /* Icon */
+     , (10999,  22, 0x3400002B) /* PhysicsEffectTable */;

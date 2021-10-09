@@ -24,7 +24,7 @@ VALUES (20372,   1, 'Scroll of Evaporate Life Magic Self') /* Name */
      , (20372,  15, 'When learned, this spell dispels 1-3 negative Life Magic enchantments of level 1 from the caster.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20372,   1,   33554826) /* Setup */
-     , (20372,   8,  100676935) /* Icon */
-     , (20372,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20372,   1, 0x0200018A) /* Setup */
+     , (20372,   8, 0x06003547) /* Icon */
+     , (20372,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20372,  28,       1960) /* Spell - Evaporate Life Magic Self */;

@@ -25,10 +25,10 @@ VALUES (29795,   1, 'Exit') /* Name */
      , (29795,  37, 'ColorPuzzleCompleted') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29795,   1,   33559046) /* Setup */
-     , (29795,   2,  150995314) /* MotionTable */
-     , (29795,   8,  100667499) /* Icon */;
+VALUES (29795,   1, 0x02001206) /* Setup */
+     , (29795,   2, 0x09000172) /* MotionTable */
+     , (29795,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29795, 2, 23790676, 20, -60, 0.005, -0.7071068, 0, 0, -0.7071068) /* Destination */
-/* @teleloc 0x016B0454 [20.000000 -60.000000 0.005000] -0.707107 0.000000 0.000000 -0.707107 */;
+VALUES (29795, 2, 0x016B0454, 20, -60, 0.005, -0.707107, 0, -0, -0.707107) /* Destination */
+/* @teleloc 0x016B0454 [20.000000 -60.000000 0.005000] -0.707107 0.000000 -0.000000 -0.707107 */;

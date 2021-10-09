@@ -22,7 +22,7 @@ VALUES (728,   1, 'The Overlook') /* Name */
      , (728,  16, 'The Overlook') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (728,   1,   33555088) /* Setup */
-     , (728,   6,   67111092) /* PaletteBase */
-     , (728,   7,  268435662) /* ClothingBase */
-     , (728,   8,  100668115) /* Icon */;
+VALUES (728,   1, 0x02000290) /* Setup */
+     , (728,   6, 0x040008B4) /* PaletteBase */
+     , (728,   7, 0x100000CE) /* ClothingBase */
+     , (728,   8, 0x060012D3) /* Icon */;

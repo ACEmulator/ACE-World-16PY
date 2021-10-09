@@ -34,12 +34,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29260,   1, 'Blunt Sceptre') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29260,   1,   33559231) /* Setup */
-     , (29260,   3,  536870932) /* SoundTable */
-     , (29260,   6,   67115357) /* PaletteBase */
-     , (29260,   7,  268436902) /* ClothingBase */
-     , (29260,   8,  100668792) /* Icon */
-     , (29260,  22,  872415275) /* PhysicsEffectTable */
-     , (29260,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
-     , (29260,  36,  234881046) /* MutateFilter */
-     , (29260,  46,  939524170) /* TsysMutationFilter */;
+VALUES (29260,   1, 0x020012BF) /* Setup */
+     , (29260,   3, 0x20000014) /* SoundTable */
+     , (29260,   6, 0x0400195D) /* PaletteBase */
+     , (29260,   7, 0x100005A6) /* ClothingBase */
+     , (29260,   8, 0x06001578) /* Icon */
+     , (29260,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29260,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
+     , (29260,  36, 0x0E000016) /* MutateFilter */
+     , (29260,  46, 0x3800004A) /* TsysMutationFilter */;

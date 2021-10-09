@@ -36,11 +36,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (359,   1, 'War Hammer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (359,   1,   33554766) /* Setup */
-     , (359,   3,  536870932) /* SoundTable */
-     , (359,   6,   67111919) /* PaletteBase */
-     , (359,   7,  268435776) /* ClothingBase */
-     , (359,   8,  100669065) /* Icon */
-     , (359,  22,  872415275) /* PhysicsEffectTable */
-     , (359,  36,  234881053) /* MutateFilter */
-     , (359,  46,  939524098) /* TsysMutationFilter */;
+VALUES (359,   1, 0x0200014E) /* Setup */
+     , (359,   3, 0x20000014) /* SoundTable */
+     , (359,   6, 0x04000BEF) /* PaletteBase */
+     , (359,   7, 0x10000140) /* ClothingBase */
+     , (359,   8, 0x06001689) /* Icon */
+     , (359,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (359,  36, 0x0E00001D) /* MutateFilter */
+     , (359,  46, 0x38000002) /* TsysMutationFilter */;

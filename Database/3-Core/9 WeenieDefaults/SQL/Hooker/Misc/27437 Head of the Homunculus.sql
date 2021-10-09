@@ -13,7 +13,7 @@ VALUES (27437,   1,        128) /* ItemType - Misc */
      , (27437,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27437, 150,        103) /* HookPlacement - Hook */
      , (27437, 151,          9) /* HookType - Floor, Yard */
-     , (27437, 197,          4) /* HookGroup */;
+     , (27437, 197,          4) /* HookGroup - PortalItems */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27437,  13, True ) /* Ethereal */
@@ -28,8 +28,8 @@ VALUES (27437,   1, 'Head of the Homunculus') /* Name */
      , (27437,  16, 'A small stone head. It appears to be staring at you.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27437,   1,   33558688) /* Setup */
-     , (27437,   8,  100676417) /* Icon */;
+VALUES (27437,   1, 0x020010A0) /* Setup */
+     , (27437,   8, 0x06003341) /* Icon */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (27437,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

@@ -23,7 +23,7 @@ VALUES (1063,   1, 'Tamara''s Armory') /* Name */
      , (1063,  16, 'Tamara''s Armory') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1063,   1,   33555909) /* Setup */
-     , (1063,   6,   67111860) /* PaletteBase */
-     , (1063,   7,  268435817) /* ClothingBase */
-     , (1063,   8,  100668115) /* Icon */;
+VALUES (1063,   1, 0x020005C5) /* Setup */
+     , (1063,   6, 0x04000BB4) /* PaletteBase */
+     , (1063,   7, 0x10000169) /* ClothingBase */
+     , (1063,   8, 0x060012D3) /* Icon */;

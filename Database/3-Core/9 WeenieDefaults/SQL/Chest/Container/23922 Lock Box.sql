@@ -41,11 +41,11 @@ VALUES (23922,   1, 'Lock Box') /* Name */
      , (23922,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23922,   1,   33557119) /* Setup */
-     , (23922,   2,  150994948) /* MotionTable */
-     , (23922,   3,  536870945) /* SoundTable */
-     , (23922,   8,  100671885) /* Icon */
-     , (23922,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23922,   1, 0x02000A7F) /* Setup */
+     , (23922,   2, 0x09000004) /* MotionTable */
+     , (23922,   3, 0x20000021) /* SoundTable */
+     , (23922,   8, 0x0600218D) /* Icon */
+     , (23922,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23922, -1, 23926, 30, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Ring (23926) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

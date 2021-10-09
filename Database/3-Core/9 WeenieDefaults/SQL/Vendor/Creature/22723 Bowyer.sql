@@ -70,11 +70,11 @@ VALUES (22723,   1, 'Bowyer') /* Name */
      , (22723,  24, 'Oolutanga') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22723,   1,   33554510) /* Setup */
-     , (22723,   2,  150994945) /* MotionTable */
-     , (22723,   3,  536870914) /* SoundTable */
-     , (22723,   4,  805306368) /* CombatTable */
-     , (22723,   8,  100667446) /* Icon */;
+VALUES (22723,   1, 0x0200004E) /* Setup */
+     , (22723,   2, 0x09000001) /* MotionTable */
+     , (22723,   3, 0x20000002) /* SoundTable */
+     , (22723,   4, 0x30000000) /* CombatTable */
+     , (22723,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22723,   1,  60, 0, 0) /* Strength */

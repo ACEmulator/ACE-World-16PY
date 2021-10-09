@@ -29,7 +29,7 @@ VALUES (7823,   1, 'Heavy Grinder') /* Name */
      , (7823,  15, 'A simple, sturdy grinder for grinding certain foods.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7823,   1,   33556679) /* Setup */
-     , (7823,   3,  536870932) /* SoundTable */
-     , (7823,   8,  100670878) /* Icon */
-     , (7823,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7823,   1, 0x020008C7) /* Setup */
+     , (7823,   3, 0x20000014) /* SoundTable */
+     , (7823,   8, 0x06001D9E) /* Icon */
+     , (7823,  22, 0x3400002B) /* PhysicsEffectTable */;

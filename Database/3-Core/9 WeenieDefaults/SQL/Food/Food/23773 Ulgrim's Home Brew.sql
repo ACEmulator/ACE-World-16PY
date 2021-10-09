@@ -33,8 +33,8 @@ VALUES (23773,   1, 'Ulgrim''s Home Brew') /* Name */
      , (23773,  33, 'PickedUpUlgrimsStout') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23773,   1,   33556854) /* Setup */
-     , (23773,   3,  536870932) /* SoundTable */
-     , (23773,   8,  100671131) /* Icon */
-     , (23773,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23773,   1, 0x02000976) /* Setup */
+     , (23773,   3, 0x20000014) /* SoundTable */
+     , (23773,   8, 0x06001E9B) /* Icon */
+     , (23773,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23773,  23,         65) /* UseSound - Drink1 */;

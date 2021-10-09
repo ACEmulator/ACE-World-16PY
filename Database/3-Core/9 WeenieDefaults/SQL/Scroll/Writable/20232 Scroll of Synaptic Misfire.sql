@@ -24,7 +24,7 @@ VALUES (20232,   1, 'Scroll of Synaptic Misfire') /* Name */
      , (20232,  15, 'When learned, this spell decreases the target''s Focus by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20232,   1,   33554826) /* Setup */
-     , (20232,   8,  100676458) /* Icon */
-     , (20232,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20232,   1, 0x0200018A) /* Setup */
+     , (20232,   8, 0x0600336A) /* Icon */
+     , (20232,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20232,  28,       2054) /* Spell - Synaptic Misfire */;

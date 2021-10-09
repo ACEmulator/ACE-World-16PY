@@ -24,7 +24,7 @@ VALUES (24931,   1, 'Brood Queen Elder Femur') /* Name */
      , (24931,  33, 'PickedUpBroodQueenFemur') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24931,   1,   33556593) /* Setup */
-     , (24931,   3,  536870932) /* SoundTable */
-     , (24931,   8,  100674514) /* Icon */
-     , (24931,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24931,   1, 0x02000871) /* Setup */
+     , (24931,   3, 0x20000014) /* SoundTable */
+     , (24931,   8, 0x06002BD2) /* Icon */
+     , (24931,  22, 0x3400002B) /* PhysicsEffectTable */;

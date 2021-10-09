@@ -29,7 +29,7 @@ VALUES (8205,  22, True ) /* Inscribable */
      , (8205,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8205,   5, -0.0333) /* ManaRate */
+VALUES (8205,   5,  -0.033) /* ManaRate */
      , (8205,  12,    0.66) /* Shade */
      , (8205,  13,       1) /* ArmorModVsSlash */
      , (8205,  14,     1.2) /* ArmorModVsPierce */
@@ -47,14 +47,14 @@ VALUES (8205,   1, 'Shadow''s Garb') /* Name */
      , (8205,  19, 'Gharu''ndim') /* ItemHeritageGroupRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8205,   1,   33556861) /* Setup */
-     , (8205,   3,  536870932) /* SoundTable */
-     , (8205,   6,   67108990) /* PaletteBase */
-     , (8205,   7,  268436079) /* ClothingBase */
-     , (8205,   8,  100671133) /* Icon */
-     , (8205,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8205,   1, 0x0200097D) /* Setup */
+     , (8205,   3, 0x20000014) /* SoundTable */
+     , (8205,   6, 0x0400007E) /* PaletteBase */
+     , (8205,   7, 0x1000026F) /* ClothingBase */
+     , (8205,   8, 0x06001E9D) /* Icon */
+     , (8205,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8205,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8205,   247,      2)  /* Invulnerability Self IV */
-     , (8205,   397,      2)  /* Light Weapon Mastery Self IV */;
+VALUES (8205,   397,      2)  /* Light Weapon Mastery Self IV */
+     , (8205,   247,      2)  /* Invulnerability Self IV */;

@@ -35,9 +35,9 @@ VALUES (6056,   1, 'Small Shard') /* Name */
      , (6056,  16, 'A small, smooth piece of crystalline shard, with a strange faint glow.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6056,   1,   33556406) /* Setup */
-     , (6056,   3,  536870932) /* SoundTable */
-     , (6056,   6,   67111919) /* PaletteBase */
-     , (6056,   7,  268435994) /* ClothingBase */
-     , (6056,   8,  100670634) /* Icon */
-     , (6056,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6056,   1, 0x020007B6) /* Setup */
+     , (6056,   3, 0x20000014) /* SoundTable */
+     , (6056,   6, 0x04000BEF) /* PaletteBase */
+     , (6056,   7, 0x1000021A) /* ClothingBase */
+     , (6056,   8, 0x06001CAA) /* Icon */
+     , (6056,  22, 0x3400002B) /* PhysicsEffectTable */;

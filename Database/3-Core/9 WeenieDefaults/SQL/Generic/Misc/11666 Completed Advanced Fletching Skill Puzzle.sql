@@ -28,8 +28,8 @@ VALUES (11666,   1, 'Completed Advanced Fletching Skill Puzzle') /* Name */
      , (11666,  16, 'A completed Advanced Fletching Skill Puzzle.  Turn in to a Bestower Examiner to receive a title.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11666,   1,   33557028) /* Setup */
-     , (11666,   3,  536870932) /* SoundTable */
-     , (11666,   8,  100671729) /* Icon */
-     , (11666,  22,  872415275) /* PhysicsEffectTable */
-     , (11666,  36,  234881046) /* MutateFilter */;
+VALUES (11666,   1, 0x02000A24) /* Setup */
+     , (11666,   3, 0x20000014) /* SoundTable */
+     , (11666,   8, 0x060020F1) /* Icon */
+     , (11666,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11666,  36, 0x0E000016) /* MutateFilter */;

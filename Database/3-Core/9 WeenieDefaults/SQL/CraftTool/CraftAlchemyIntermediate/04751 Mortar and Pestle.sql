@@ -27,7 +27,7 @@ VALUES (4751,   1, 'Mortar and Pestle') /* Name */
      , (4751,  20, 'Sets of Mortar and Pestle') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4751,   1,   33555966) /* Setup */
-     , (4751,   3,  536870932) /* SoundTable */
-     , (4751,   8,  100670116) /* Icon */
-     , (4751,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4751,   1, 0x020005FE) /* Setup */
+     , (4751,   3, 0x20000014) /* SoundTable */
+     , (4751,   8, 0x06001AA4) /* Icon */
+     , (4751,  22, 0x3400002B) /* PhysicsEffectTable */;

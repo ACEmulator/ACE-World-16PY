@@ -36,16 +36,16 @@ VALUES (10705,   1, 'Niffis Pearl') /* Name */
      , (10705,  16, 'A large niffis pearl that gleams with an inner light.  ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10705,   1,   33558259) /* Setup */
-     , (10705,   3,  536870932) /* SoundTable */
-     , (10705,   6,   67111928) /* PaletteBase */
-     , (10705,   7,  268436184) /* ClothingBase */
-     , (10705,   8,  100674116) /* Icon */
-     , (10705,  22,  872415275) /* PhysicsEffectTable */
-     , (10705,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (10705,   1, 0x02000EF3) /* Setup */
+     , (10705,   3, 0x20000014) /* SoundTable */
+     , (10705,   6, 0x04000BF8) /* PaletteBase */
+     , (10705,   7, 0x100002D8) /* ClothingBase */
+     , (10705,   8, 0x06002A44) /* Icon */
+     , (10705,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (10705,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (10705,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10705,  1310,      2)  /* Armor Self IV */
+VALUES (10705,  1448,      2)  /* Willpower Self IV */
      , (10705,  1424,      2)  /* Focus Self IV */
-     , (10705,  1448,      2)  /* Willpower Self IV */;
+     , (10705,  1310,      2)  /* Armor Self IV */;

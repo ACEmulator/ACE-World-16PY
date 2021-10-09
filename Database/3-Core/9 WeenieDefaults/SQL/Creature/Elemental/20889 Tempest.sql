@@ -63,12 +63,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20889,   1, 'Tempest') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20889,   1,   33557678) /* Setup */
-     , (20889,   2,  150995087) /* MotionTable */
-     , (20889,   3,  536870998) /* SoundTable */
-     , (20889,   4,  805306368) /* CombatTable */
-     , (20889,   8,  100670274) /* Icon */
-     , (20889,  22,  872415349) /* PhysicsEffectTable */
+VALUES (20889,   1, 0x02000CAE) /* Setup */
+     , (20889,   2, 0x0900008F) /* MotionTable */
+     , (20889,   3, 0x20000056) /* SoundTable */
+     , (20889,   4, 0x30000000) /* CombatTable */
+     , (20889,   8, 0x06001B42) /* Icon */
+     , (20889,  22, 0x34000075) /* PhysicsEffectTable */
      , (20889,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -109,18 +109,18 @@ VALUES (20889,  0, 64,  0,    0,  200,  200,  200,  200,  200,  200,  220,  200,
      , (20889,  8, 64, 75, 0.75,  200,  200,  200,  200,  200,  200,  220,  200,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20889,   276,  2.008)  /* Magic Resistance Self III */
-     , (20889,   518,  2.008)  /* Acid Protection Self IV */
-     , (20889,  1160,  2.013)  /* Heal Self V */
-     , (20889,  1237,  2.008)  /* Drain Health Other I */
-     , (20889,  1788,  2.008)  /* Eye of the Storm */
-     , (20889,  2074,  2.017)  /* Gossamer Flesh */
+VALUES (20889,   518,  2.008)  /* Acid Protection Self IV */
      , (20889,  2084,  2.017)  /* Belly of Lead */
      , (20889,  2140,  2.008)  /* Alset's Coil */
-     , (20889,  2141,  2.008)  /* Lhen's Flare */
      , (20889,  2172,  2.017)  /* Astyrrian's Gift */
+     , (20889,  1160,  2.013)  /* Heal Self V */
+     , (20889,  2141,  2.008)  /* Lhen's Flare */
+     , (20889,  2318,  2.017)  /* Gravity Well */
+     , (20889,   276,  2.008)  /* Magic Resistance Self III */
+     , (20889,  1237,  2.008)  /* Drain Health Other I */
+     , (20889,  2074,  2.017)  /* Gossamer Flesh */
      , (20889,  2228,  2.017)  /* Broadside of a Barn */
-     , (20889,  2318,  2.017)  /* Gravity Well */;
+     , (20889,  1788,  2.008)  /* Eye of the Storm */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (20889,  94) /* ATTACK_NOTIFICATION_EVENT */

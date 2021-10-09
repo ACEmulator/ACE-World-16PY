@@ -35,11 +35,11 @@ VALUES (7316,   1, 'Dansha-Ki''s Gem of Portal Recall') /* Name */
      , (7316,  16, 'A powerful dark streak swirls within this rose quartz gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7316,   1,   33554809) /* Setup */
-     , (7316,   3,  536870932) /* SoundTable */
-     , (7316,   6,   67111919) /* PaletteBase */
-     , (7316,   7,  268435723) /* ClothingBase */
-     , (7316,   8,  100670731) /* Icon */
-     , (7316,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7316,   1, 0x02000179) /* Setup */
+     , (7316,   3, 0x20000014) /* SoundTable */
+     , (7316,   6, 0x04000BEF) /* PaletteBase */
+     , (7316,   7, 0x1000010B) /* ClothingBase */
+     , (7316,   8, 0x06001D0B) /* Icon */
+     , (7316,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7316,  28,       2645) /* Spell - Portal Recall */
-     , (7316,  36,  234881046) /* MutateFilter */;
+     , (7316,  36, 0x0E000016) /* MutateFilter */;

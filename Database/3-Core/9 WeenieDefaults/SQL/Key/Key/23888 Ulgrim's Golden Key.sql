@@ -27,7 +27,7 @@ VALUES (23888,   1, 'Ulgrim''s Golden Key') /* Name */
      , (23888,  16, 'A golden key found in Ulgrim''s Basement.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23888,   1,   33557005) /* Setup */
-     , (23888,   3,  536870932) /* SoundTable */
-     , (23888,   8,  100674103) /* Icon */
-     , (23888,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23888,   1, 0x02000A0D) /* Setup */
+     , (23888,   3, 0x20000014) /* SoundTable */
+     , (23888,   8, 0x06002A37) /* Icon */
+     , (23888,  22, 0x3400002B) /* PhysicsEffectTable */;

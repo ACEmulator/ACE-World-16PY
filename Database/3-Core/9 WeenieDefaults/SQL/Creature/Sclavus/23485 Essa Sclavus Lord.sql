@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23485,   1, 'Essa Sclavus Lord') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23485,   1,   33555608) /* Setup */
-     , (23485,   2,  150995048) /* MotionTable */
-     , (23485,   3,  536870977) /* SoundTable */
-     , (23485,   4,  805306393) /* CombatTable */
-     , (23485,   6,   67111936) /* PaletteBase */
-     , (23485,   7,  268435727) /* ClothingBase */
-     , (23485,   8,  100669120) /* Icon */
-     , (23485,  22,  872415280) /* PhysicsEffectTable */
+VALUES (23485,   1, 0x02000498) /* Setup */
+     , (23485,   2, 0x09000068) /* MotionTable */
+     , (23485,   3, 0x20000041) /* SoundTable */
+     , (23485,   4, 0x30000019) /* CombatTable */
+     , (23485,   6, 0x04000C00) /* PaletteBase */
+     , (23485,   7, 0x1000010F) /* ClothingBase */
+     , (23485,   8, 0x060016C0) /* Icon */
+     , (23485,  22, 0x34000030) /* PhysicsEffectTable */
      , (23485,  32,        165) /* WieldedTreasureType - 
                                    Wield Yumi (23734) | Probability: 80%
                                    Wield 14x Deadly Arrow (15429) | Probability: 100%
@@ -105,22 +105,22 @@ VALUES (23485,   1,   100, 0, 0, 200) /* MaxHealth */
      , (23485,   5,   150, 0, 0, 350) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (23485,  1, 0, 3, 0, 235, 0, 1449.25995762557) /* Axe                 Specialized */
-     , (23485,  2, 0, 3, 0, 175, 0, 1449.25995762557) /* Bow                 Specialized */
-     , (23485,  3, 0, 3, 0, 175, 0, 1449.25995762557) /* Crossbow            Specialized */
-     , (23485,  4, 0, 3, 0, 187, 0, 1449.25995762557) /* Dagger              Specialized */
-     , (23485,  5, 0, 3, 0, 235, 0, 1449.25995762557) /* Mace                Specialized */
-     , (23485,  6, 0, 3, 0, 290, 0, 1449.25995762557) /* MeleeDefense        Specialized */
-     , (23485,  7, 0, 3, 0, 390, 0, 1449.25995762557) /* MissileDefense      Specialized */
-     , (23485, 10, 0, 3, 0, 235, 0, 1449.25995762557) /* Staff               Specialized */
-     , (23485, 11, 0, 3, 0, 235, 0, 1449.25995762557) /* Sword               Specialized */
-     , (23485, 13, 0, 3, 0, 235, 0, 1449.25995762557) /* UnarmedCombat       Specialized */
-     , (23485, 14, 0, 3, 0, 100, 0, 1449.25995762557) /* ArcaneLore          Specialized */
-     , (23485, 15, 0, 3, 0, 240, 0, 1449.25995762557) /* MagicDefense        Specialized */
-     , (23485, 20, 0, 3, 0, 100, 0, 1449.25995762557) /* Deception           Specialized */
-     , (23485, 24, 0, 3, 0,  60, 0, 1449.25995762557) /* Run                 Specialized */
-     , (23485, 31, 0, 3, 0, 165, 0, 1449.25995762557) /* CreatureEnchantment Specialized */
-     , (23485, 34, 0, 3, 0, 165, 0, 1449.25995762557) /* WarMagic            Specialized */;
+VALUES (23485,  1, 0, 3, 0, 235, 0, 1449.2599576255654) /* Axe                 Specialized */
+     , (23485,  2, 0, 3, 0, 175, 0, 1449.2599576255654) /* Bow                 Specialized */
+     , (23485,  3, 0, 3, 0, 175, 0, 1449.2599576255654) /* Crossbow            Specialized */
+     , (23485,  4, 0, 3, 0, 187, 0, 1449.2599576255654) /* Dagger              Specialized */
+     , (23485,  5, 0, 3, 0, 235, 0, 1449.2599576255654) /* Mace                Specialized */
+     , (23485,  6, 0, 3, 0, 290, 0, 1449.2599576255654) /* MeleeDefense        Specialized */
+     , (23485,  7, 0, 3, 0, 390, 0, 1449.2599576255654) /* MissileDefense      Specialized */
+     , (23485, 10, 0, 3, 0, 235, 0, 1449.2599576255654) /* Staff               Specialized */
+     , (23485, 11, 0, 3, 0, 235, 0, 1449.2599576255654) /* Sword               Specialized */
+     , (23485, 13, 0, 3, 0, 235, 0, 1449.2599576255654) /* UnarmedCombat       Specialized */
+     , (23485, 14, 0, 3, 0, 100, 0, 1449.2599576255654) /* ArcaneLore          Specialized */
+     , (23485, 15, 0, 3, 0, 240, 0, 1449.2599576255654) /* MagicDefense        Specialized */
+     , (23485, 20, 0, 3, 0, 100, 0, 1449.2599576255654) /* Deception           Specialized */
+     , (23485, 24, 0, 3, 0,  60, 0, 1449.2599576255654) /* Run                 Specialized */
+     , (23485, 31, 0, 3, 0, 165, 0, 1449.2599576255654) /* CreatureEnchantment Specialized */
+     , (23485, 34, 0, 3, 0, 165, 0, 1449.2599576255654) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (23485,  0,  4,  0,    0,  260,  208,  159,   91,  182,  159,   18,   18,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -134,14 +134,14 @@ VALUES (23485,  0,  4,  0,    0,  260,  208,  159,   91,  182,  159,   18,   18,
      , (23485,  8,  4, 60, 0.75,  260,  208,  159,   91,  182,  159,   18,   18,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23485,    62,   2.02)  /* Acid Stream V */
-     , (23485,    73,   2.02)  /* Frost Bolt V */
-     , (23485,    90,   2.02)  /* Force Bolt V */
-     , (23485,   233,  2.013)  /* Vulnerability Other V */
+VALUES (23485,   233,  2.013)  /* Vulnerability Other V */
      , (23485,   266,  2.013)  /* Defenselessness Other V */
+     , (23485,    73,   2.02)  /* Frost Bolt V */
+     , (23485,  1467,   2.05)  /* Feeblemind Other V */
      , (23485,  1395,   2.05)  /* Clumsiness Other V */
      , (23485,  1419,   2.05)  /* Slowness Other V */
-     , (23485,  1467,   2.05)  /* Feeblemind Other V */;
+     , (23485,    90,   2.02)  /* Force Bolt V */
+     , (23485,    62,   2.02)  /* Acid Stream V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (23485,  94) /* ATTACK_NOTIFICATION_EVENT */

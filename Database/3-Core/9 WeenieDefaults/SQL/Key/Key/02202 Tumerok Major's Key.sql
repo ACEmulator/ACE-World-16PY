@@ -25,7 +25,7 @@ VALUES (2202,   1, 'Tumerok Major''s Key') /* Name */
      , (2202,  16, 'A plain key. There are coordinates scratched on the handle: 8N, 61W') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2202,   1,   33554784) /* Setup */
-     , (2202,   3,  536870932) /* SoundTable */
-     , (2202,   8,  100667486) /* Icon */
-     , (2202,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (2202,   1, 0x02000160) /* Setup */
+     , (2202,   3, 0x20000014) /* SoundTable */
+     , (2202,   8, 0x0600105E) /* Icon */
+     , (2202,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -34,7 +34,7 @@ VALUES (11813,   1, 'Gromnie Crest') /* Name */
      , (11813,  16, 'A Gromnie Crest.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11813,   1,   33557280) /* Setup */
-     , (11813,   3,  536870932) /* SoundTable */
-     , (11813,   8,  100671943) /* Icon */
-     , (11813,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11813,   1, 0x02000B20) /* Setup */
+     , (11813,   3, 0x20000014) /* SoundTable */
+     , (11813,   8, 0x060021C7) /* Icon */
+     , (11813,  22, 0x3400002B) /* PhysicsEffectTable */;

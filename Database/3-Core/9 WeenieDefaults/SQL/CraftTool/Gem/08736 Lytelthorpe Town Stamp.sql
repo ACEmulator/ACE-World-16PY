@@ -34,7 +34,7 @@ VALUES (8736,   1, 'Lytelthorpe Town Stamp') /* Name */
      , (8736,  33, 'NewbieQuestStampLytelthorpe') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8736,   1,   33556922) /* Setup */
-     , (8736,   3,  536870932) /* SoundTable */
-     , (8736,   8,  100671218) /* Icon */
-     , (8736,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8736,   1, 0x020009BA) /* Setup */
+     , (8736,   3, 0x20000014) /* SoundTable */
+     , (8736,   8, 0x06001EF2) /* Icon */
+     , (8736,  22, 0x3400002B) /* PhysicsEffectTable */;

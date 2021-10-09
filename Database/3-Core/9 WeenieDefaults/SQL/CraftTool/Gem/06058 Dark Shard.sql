@@ -32,9 +32,9 @@ VALUES (6058,   1, 'Dark Shard') /* Name */
      , (6058,  16, 'A jet-black shard of something hard and crystalline.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6058,   1,   33554809) /* Setup */
-     , (6058,   3,  536870932) /* SoundTable */
-     , (6058,   6,   67111919) /* PaletteBase */
-     , (6058,   7,  268435723) /* ClothingBase */
-     , (6058,   8,  100670636) /* Icon */
-     , (6058,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6058,   1, 0x02000179) /* Setup */
+     , (6058,   3, 0x20000014) /* SoundTable */
+     , (6058,   6, 0x04000BEF) /* PaletteBase */
+     , (6058,   7, 0x1000010B) /* ClothingBase */
+     , (6058,   8, 0x06001CAC) /* Icon */
+     , (6058,  22, 0x3400002B) /* PhysicsEffectTable */;

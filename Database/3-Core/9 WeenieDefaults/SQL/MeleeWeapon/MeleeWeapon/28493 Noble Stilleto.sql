@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28493,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28493,   5, -0.0333) /* ManaRate */
+VALUES (28493,   5,  -0.033) /* ManaRate */
      , (28493,  21,     0.4) /* WeaponLength */
      , (28493,  22,     0.4) /* DamageVariance */
      , (28493,  29,    1.09) /* WeaponDefense */
@@ -44,15 +44,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28493,   1, 'Noble Stilleto') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28493,   1,   33558864) /* Setup */
-     , (28493,   3,  536870932) /* SoundTable */
-     , (28493,   8,  100676978) /* Icon */
-     , (28493,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28493,   1, 0x02001150) /* Setup */
+     , (28493,   3, 0x20000014) /* SoundTable */
+     , (28493,   8, 0x06003572) /* Icon */
+     , (28493,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28493,   243,      2)  /* Invulnerability Other V */
+VALUES (28493,  1604,      2)  /* Aura of Defender Self V */
      , (28493,  1359,      2)  /* Endurance Other V */
-     , (28493,  1591,      2)  /* Aura of Heart Seeker Self V */
-     , (28493,  1604,      2)  /* Aura of Defender Self V */
      , (28493,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (28493,  1625,      2)  /* Aura of Swift Killer Self IV */;
+     , (28493,   243,      2)  /* Invulnerability Other V */
+     , (28493,  1625,      2)  /* Aura of Swift Killer Self IV */
+     , (28493,  1591,      2)  /* Aura of Heart Seeker Self V */;

@@ -22,5 +22,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20635,   1, 'Gout of Elemental Acid') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20635,   1,   33557547) /* Setup */
-     , (20635,   8,  100667494) /* Icon */;
+VALUES (20635,   1, 0x02000C2B) /* Setup */
+     , (20635,   8, 0x06001066) /* Icon */;

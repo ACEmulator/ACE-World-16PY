@@ -69,13 +69,13 @@ VALUES (11378,   1, 'Hea Timitea the Bowyer') /* Name */
      , (11378,  24, 'Ahurenga') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11378,   1,   33554496) /* Setup */
-     , (11378,   2,  150994954) /* MotionTable */
-     , (11378,   3,  536870931) /* SoundTable */
-     , (11378,   4,  805306380) /* CombatTable */
-     , (11378,   6,   67109314) /* PaletteBase */
-     , (11378,   7,  268435647) /* ClothingBase */
-     , (11378,   8,  100667452) /* Icon */;
+VALUES (11378,   1, 0x02000040) /* Setup */
+     , (11378,   2, 0x0900000A) /* MotionTable */
+     , (11378,   3, 0x20000013) /* SoundTable */
+     , (11378,   4, 0x3000000C) /* CombatTable */
+     , (11378,   6, 0x040001C2) /* PaletteBase */
+     , (11378,   7, 0x100000BF) /* ClothingBase */
+     , (11378,   8, 0x0600103C) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11378,   1,  60, 0, 0) /* Strength */

@@ -31,9 +31,9 @@ VALUES (23906,   1, 'Special Shreth Token') /* Name */
      , (23906,  16, 'A token with a Shreth head on it.  This was given to you in recognition of your patience. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23906,   1,   33557280) /* Setup */
-     , (23906,   3,  536870932) /* SoundTable */
-     , (23906,   6,   67111919) /* PaletteBase */
-     , (23906,   7,  268435723) /* ClothingBase */
-     , (23906,   8,  100674079) /* Icon */
-     , (23906,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23906,   1, 0x02000B20) /* Setup */
+     , (23906,   3, 0x20000014) /* SoundTable */
+     , (23906,   6, 0x04000BEF) /* PaletteBase */
+     , (23906,   7, 0x1000010B) /* ClothingBase */
+     , (23906,   8, 0x06002A1F) /* Icon */
+     , (23906,  22, 0x3400002B) /* PhysicsEffectTable */;

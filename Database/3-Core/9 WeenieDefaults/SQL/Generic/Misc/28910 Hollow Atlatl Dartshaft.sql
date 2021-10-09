@@ -23,6 +23,6 @@ VALUES (28910,   1, 'Hollow Atlatl Dartshaft') /* Name */
      , (28910,  16, 'This atlatl dartshaft has been expertly hollowed out with a whittling knife.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28910,   1,   33557505) /* Setup */
-     , (28910,   8,  100672599) /* Icon */
-     , (28910,  50,  100677048) /* IconOverlay */;
+VALUES (28910,   1, 0x02000C01) /* Setup */
+     , (28910,   8, 0x06002457) /* Icon */
+     , (28910,  50, 0x060035B8) /* IconOverlay */;

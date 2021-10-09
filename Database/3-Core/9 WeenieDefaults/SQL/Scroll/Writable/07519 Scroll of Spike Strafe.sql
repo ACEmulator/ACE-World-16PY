@@ -24,7 +24,7 @@ VALUES (7519,   1, 'Scroll of Spike Strafe') /* Name */
      , (7519,  15, 'When learned, this spell sends a wall of five bolts of force, two high, slowly towards the target. Each bolt does 30-60 points of piercing damage to the first thing it hits. The wall is created 2 meters in front of the caster. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7519,   1,   33554826) /* Setup */
-     , (7519,   8,  100677017) /* Icon */
-     , (7519,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7519,   1, 0x0200018A) /* Setup */
+     , (7519,   8, 0x06003599) /* Icon */
+     , (7519,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7519,  28,       1842) /* Spell - Spike Strafe */;

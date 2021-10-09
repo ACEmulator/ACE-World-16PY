@@ -38,7 +38,7 @@ VALUES (11420,  22, True ) /* Inscribable */
      , (11420,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11420,   5, -0.03333) /* ManaRate */
+VALUES (11420,   5,  -0.033) /* ManaRate */
      , (11420,  21,     0.4) /* WeaponLength */
      , (11420,  22,     0.4) /* DamageVariance */
      , (11420,  29,    1.08) /* WeaponDefense */
@@ -53,13 +53,13 @@ VALUES (11420,   1, 'Volkama''s Okane of the Rivers') /* Name */
      , (11420,  16, 'An okane fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11420,   1,   33557234) /* Setup */
-     , (11420,   3,  536870932) /* SoundTable */
-     , (11420,   6,   67113336) /* PaletteBase */
-     , (11420,   7,  268436254) /* ClothingBase */
-     , (11420,   8,  100672079) /* Icon */
-     , (11420,  22,  872415275) /* PhysicsEffectTable */
-     , (11420,  36,  234881044) /* MutateFilter */;
+VALUES (11420,   1, 0x02000AF2) /* Setup */
+     , (11420,   3, 0x20000014) /* SoundTable */
+     , (11420,   6, 0x04001178) /* PaletteBase */
+     , (11420,   7, 0x1000031E) /* ClothingBase */
+     , (11420,   8, 0x0600224F) /* Icon */
+     , (11420,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11420,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11420,  2458,      2)  /* Greater Cascade */

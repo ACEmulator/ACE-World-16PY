@@ -28,7 +28,7 @@ VALUES (11280,   1, 'Hoeroa of Palenqual') /* Name */
      , (11280,  16, 'The Hoeroa of Palenqual, an Aun Tumerok relic. This melee weapon was given to the Aun xuta by spirits called the Deru. It is the embodiment of Marae Lassel''s spirit - a single great totem for the island as a whole. Three Tumerok fetishes must be added to this weapon in order to use it. The Tonk Totem has already added; there is space for two more.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11280,   1,   33557232) /* Setup */
-     , (11280,   3,  536870932) /* SoundTable */
-     , (11280,   8,  100671869) /* Icon */
-     , (11280,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11280,   1, 0x02000AF0) /* Setup */
+     , (11280,   3, 0x20000014) /* SoundTable */
+     , (11280,   8, 0x0600217D) /* Icon */
+     , (11280,  22, 0x3400002B) /* PhysicsEffectTable */;

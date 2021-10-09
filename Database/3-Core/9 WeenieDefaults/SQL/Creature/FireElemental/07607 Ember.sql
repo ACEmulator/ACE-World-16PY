@@ -64,12 +64,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7607,   1, 'Ember') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7607,   1,   33556131) /* Setup */
-     , (7607,   2,  150995087) /* MotionTable */
-     , (7607,   3,  536870998) /* SoundTable */
-     , (7607,   4,  805306368) /* CombatTable */
-     , (7607,   8,  100670274) /* Icon */
-     , (7607,  22,  872415344) /* PhysicsEffectTable */
+VALUES (7607,   1, 0x020006A3) /* Setup */
+     , (7607,   2, 0x0900008F) /* MotionTable */
+     , (7607,   3, 0x20000056) /* SoundTable */
+     , (7607,   4, 0x30000000) /* CombatTable */
+     , (7607,   8, 0x06001B42) /* Icon */
+     , (7607,  22, 0x34000070) /* PhysicsEffectTable */
      , (7607,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -110,16 +110,16 @@ VALUES (7607,  0, 16,  0,    0,  140,  116,  116,  116,  140, 14000,  120,  104,
      , (7607,  8, 16, 25, 0.75,  140,  116,  116,  116,  140, 14000,  120,  104,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7607,    83,   2.08)  /* Flame Bolt IV */
-     , (7607,   277,      2)  /* Magic Resistance Self IV */
+VALUES (7607,  1159,      2)  /* Heal Self IV */
+     , (7607,    83,   2.08)  /* Flame Bolt IV */
      , (7607,  1033,      2)  /* Cold Protection Self IV */
+     , (7607,  1442,   2.03)  /* Bafflement Other IV */
+     , (7607,  1418,   2.03)  /* Slowness Other IV */
      , (7607,  1106,   2.03)  /* Fire Vulnerability Other IV */
-     , (7607,  1159,      2)  /* Heal Self IV */
+     , (7607,   277,      2)  /* Magic Resistance Self IV */
      , (7607,  1240,      2)  /* Drain Health Other IV */
      , (7607,  1310,      2)  /* Armor Self IV */
-     , (7607,  1325,   2.03)  /* Imperil Other IV */
-     , (7607,  1418,   2.03)  /* Slowness Other IV */
-     , (7607,  1442,   2.03)  /* Bafflement Other IV */;
+     , (7607,  1325,   2.03)  /* Imperil Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (7607,  94) /* ATTACK_NOTIFICATION_EVENT */

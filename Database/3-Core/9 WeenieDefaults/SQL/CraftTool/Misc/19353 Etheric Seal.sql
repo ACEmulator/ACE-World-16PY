@@ -29,7 +29,7 @@ VALUES (19353,   1, 'Etheric Seal') /* Name */
      , (19353,  14, 'Use this seal on a town pedestal to dissolve the stone.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19353,   1,   33557705) /* Setup */
-     , (19353,   3,  536870932) /* SoundTable */
-     , (19353,   8,  100672958) /* Icon */
-     , (19353,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19353,   1, 0x02000CC9) /* Setup */
+     , (19353,   3, 0x20000014) /* SoundTable */
+     , (19353,   8, 0x060025BE) /* Icon */
+     , (19353,  22, 0x3400002B) /* PhysicsEffectTable */;

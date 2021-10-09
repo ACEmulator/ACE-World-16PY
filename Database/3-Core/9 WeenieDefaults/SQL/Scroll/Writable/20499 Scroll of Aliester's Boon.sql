@@ -24,7 +24,7 @@ VALUES (20499,   1, 'Scroll of Aliester''s Boon') /* Name */
      , (20499,  15, 'When learned, this spell increases the target''s Arcane Lore skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20499,   1,   33554826) /* Setup */
-     , (20499,   8,  100676447) /* Icon */
-     , (20499,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20499,   1, 0x0200018A) /* Setup */
+     , (20499,   8, 0x0600335F) /* Icon */
+     , (20499,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20499,  28,       2194) /* Spell - Aliester's Boon */;

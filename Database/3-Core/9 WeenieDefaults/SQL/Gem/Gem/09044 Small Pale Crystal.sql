@@ -34,10 +34,10 @@ VALUES (9044,   1, 'Small Pale Crystal') /* Name */
      , (9044,  16, 'A small pale crystal, taken from a Nephol Golem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9044,   1,   33554809) /* Setup */
-     , (9044,   3,  536870932) /* SoundTable */
-     , (9044,   6,   67111919) /* PaletteBase */
-     , (9044,   7,  268435723) /* ClothingBase */
-     , (9044,   8,  100671334) /* Icon */
-     , (9044,  22,  872415275) /* PhysicsEffectTable */
-     , (9044,  36,  234881046) /* MutateFilter */;
+VALUES (9044,   1, 0x02000179) /* Setup */
+     , (9044,   3, 0x20000014) /* SoundTable */
+     , (9044,   6, 0x04000BEF) /* PaletteBase */
+     , (9044,   7, 0x1000010B) /* ClothingBase */
+     , (9044,   8, 0x06001F66) /* Icon */
+     , (9044,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (9044,  36, 0x0E000016) /* MutateFilter */;

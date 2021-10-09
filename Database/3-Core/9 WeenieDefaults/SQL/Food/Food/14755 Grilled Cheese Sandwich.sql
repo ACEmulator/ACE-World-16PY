@@ -28,9 +28,9 @@ VALUES (14755,   1, 'Grilled Cheese Sandwich') /* Name */
      , (14755,  20, 'Grilled Cheese Sandwiches') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14755,   1,   33557499) /* Setup */
-     , (14755,   3,  536870932) /* SoundTable */
-     , (14755,   6,   67111928) /* PaletteBase */
-     , (14755,   7,  268436337) /* ClothingBase */
-     , (14755,   8,  100672555) /* Icon */
-     , (14755,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14755,   1, 0x02000BFB) /* Setup */
+     , (14755,   3, 0x20000014) /* SoundTable */
+     , (14755,   6, 0x04000BF8) /* PaletteBase */
+     , (14755,   7, 0x10000371) /* ClothingBase */
+     , (14755,   8, 0x0600242B) /* Icon */
+     , (14755,  22, 0x3400002B) /* PhysicsEffectTable */;

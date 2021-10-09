@@ -40,7 +40,7 @@ VALUES (10995,   1, 'Ebon Spine Harpoon') /* Name */
      , (10995,  15, 'A hefty harpoon made from the spine of an ebon gromnie, and bound in bands of chorizite.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10995,   1,   33557227) /* Setup */
-     , (10995,   3,  536870932) /* SoundTable */
-     , (10995,   8,  100671859) /* Icon */
-     , (10995,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (10995,   1, 0x02000AEB) /* Setup */
+     , (10995,   3, 0x20000014) /* SoundTable */
+     , (10995,   8, 0x06002173) /* Icon */
+     , (10995,  22, 0x3400002B) /* PhysicsEffectTable */;

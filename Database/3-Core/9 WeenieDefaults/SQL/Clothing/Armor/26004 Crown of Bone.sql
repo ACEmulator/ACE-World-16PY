@@ -50,15 +50,15 @@ VALUES (26004,   1, 'Crown of Bone') /* Name */
      , (26004,  33, 'PickedUpCrownBaronNuvillus') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26004,   1,   33558577) /* Setup */
-     , (26004,   3,  536870932) /* SoundTable */
-     , (26004,   6,   67108990) /* PaletteBase */
-     , (26004,   7,  268436784) /* ClothingBase */
-     , (26004,   8,  100675753) /* Icon */
-     , (26004,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (26004,   1, 0x02001031) /* Setup */
+     , (26004,   3, 0x20000014) /* SoundTable */
+     , (26004,   6, 0x0400007E) /* PaletteBase */
+     , (26004,   7, 0x10000530) /* ClothingBase */
+     , (26004,   8, 0x060030A9) /* Icon */
+     , (26004,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (26004,   512,      2)  /* Acid Protection Other IV */
      , (26004,   849,      2)  /* Fire Protection Other IV */
-     , (26004,  1039,      2)  /* Cold Protection Other IV */
-     , (26004,  1483,      2)  /* Impenetrability III */;
+     , (26004,  1483,      2)  /* Impenetrability III */
+     , (26004,  1039,      2)  /* Cold Protection Other IV */;

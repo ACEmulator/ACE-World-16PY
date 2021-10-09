@@ -62,12 +62,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7373,   1, 'Tenkarrdun Hellfire') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7373,   1,   33556637) /* Setup */
-     , (7373,   2,  150995087) /* MotionTable */
-     , (7373,   3,  536870998) /* SoundTable */
-     , (7373,   4,  805306368) /* CombatTable */
-     , (7373,   8,  100670274) /* Icon */
-     , (7373,  22,  872415363) /* PhysicsEffectTable */
+VALUES (7373,   1, 0x0200089D) /* Setup */
+     , (7373,   2, 0x0900008F) /* MotionTable */
+     , (7373,   3, 0x20000056) /* SoundTable */
+     , (7373,   4, 0x30000000) /* CombatTable */
+     , (7373,   8, 0x06001B42) /* Icon */
+     , (7373,  22, 0x34000083) /* PhysicsEffectTable */
      , (7373,  35,         25) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -108,17 +108,17 @@ VALUES (7373,  0, 16,  0,    0,  300,  540,  540,  540,  300,  600,  540,  540, 
      , (7373,  8, 16, 160, 0.75,  300,  540,  540,  540,  300,  600,  540,  540,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7373,    84,    2.1)  /* Flame Bolt V */
-     , (7373,    85,    2.1)  /* Flame Bolt VI */
-     , (7373,   278,      2)  /* Magic Resistance Self V */
+VALUES (7373,  1311,      2)  /* Armor Self V */
+     , (7373,    84,    2.1)  /* Flame Bolt V */
+     , (7373,  1160,      2)  /* Heal Self V */
      , (7373,  1034,      2)  /* Cold Protection Self V */
      , (7373,  1107,   2.04)  /* Fire Vulnerability Other V */
-     , (7373,  1160,      2)  /* Heal Self V */
      , (7373,  1241,      2)  /* Drain Health Other V */
-     , (7373,  1311,      2)  /* Armor Self V */
+     , (7373,   278,      2)  /* Magic Resistance Self V */
+     , (7373,    85,    2.1)  /* Flame Bolt VI */
      , (7373,  1326,   2.04)  /* Imperil Other V */
-     , (7373,  1342,   2.05)  /* Weakness Other V */
-     , (7373,  1467,   2.05)  /* Feeblemind Other V */;
+     , (7373,  1467,   2.05)  /* Feeblemind Other V */
+     , (7373,  1342,   2.05)  /* Weakness Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (7373,  94) /* ATTACK_NOTIFICATION_EVENT */

@@ -27,7 +27,7 @@ VALUES (21997,   1, 'Bundle of Chorizite Arrowheads') /* Name */
      , (21997,  20, 'Bundles of Chorizite Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21997,   1,   33555958) /* Setup */
-     , (21997,   3,  536870932) /* SoundTable */
-     , (21997,   8,  100673586) /* Icon */
-     , (21997,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21997,   1, 0x020005F6) /* Setup */
+     , (21997,   3, 0x20000014) /* SoundTable */
+     , (21997,   8, 0x06002832) /* Icon */
+     , (21997,  22, 0x3400002B) /* PhysicsEffectTable */;

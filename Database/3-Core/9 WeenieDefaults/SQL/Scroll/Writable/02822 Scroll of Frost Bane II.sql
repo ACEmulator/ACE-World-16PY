@@ -25,7 +25,7 @@ VALUES (2822,   1, 'Scroll of Frost Bane II') /* Name */
      , (2822,  16, 'When learned, this spell increases a shield or piece of armor''s resistance to cold damage by 25%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2822,   1,   33554826) /* Setup */
-     , (2822,   8,  100676652) /* Icon */
-     , (2822,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2822,   1, 0x0200018A) /* Setup */
+     , (2822,   8, 0x0600342C) /* Icon */
+     , (2822,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2822,  28,       1524) /* Spell - Frost Bane II */;

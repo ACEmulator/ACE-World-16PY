@@ -61,13 +61,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30828,   1, 'Lugian Prisoner') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30828,   1,   33557003) /* Setup */
-     , (30828,   2,  150994950) /* MotionTable */
-     , (30828,   3,  536870922) /* SoundTable */
-     , (30828,   4,  805306371) /* CombatTable */
-     , (30828,   6,   67113158) /* PaletteBase */
-     , (30828,   7,  268436905) /* ClothingBase */
-     , (30828,   8,  100667447) /* Icon */;
+VALUES (30828,   1, 0x02000A0B) /* Setup */
+     , (30828,   2, 0x09000006) /* MotionTable */
+     , (30828,   3, 0x2000000A) /* SoundTable */
+     , (30828,   4, 0x30000003) /* CombatTable */
+     , (30828,   6, 0x040010C6) /* PaletteBase */
+     , (30828,   7, 0x100005A9) /* ClothingBase */
+     , (30828,   8, 0x06001037) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30828,   1, 280, 0, 0) /* Strength */

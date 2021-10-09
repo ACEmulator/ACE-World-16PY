@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29508,   1, 'Maddened Fiun Heart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29508,   1,   33554817) /* Setup */
-     , (29508,   3,  536870932) /* SoundTable */
-     , (29508,   6,   67111919) /* PaletteBase */
-     , (29508,   7,  268435832) /* ClothingBase */
-     , (29508,   8,  100670068) /* Icon */
-     , (29508,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29508,   1, 0x02000181) /* Setup */
+     , (29508,   3, 0x20000014) /* SoundTable */
+     , (29508,   6, 0x04000BEF) /* PaletteBase */
+     , (29508,   7, 0x10000178) /* ClothingBase */
+     , (29508,   8, 0x06001A74) /* Icon */
+     , (29508,  22, 0x3400002B) /* PhysicsEffectTable */;

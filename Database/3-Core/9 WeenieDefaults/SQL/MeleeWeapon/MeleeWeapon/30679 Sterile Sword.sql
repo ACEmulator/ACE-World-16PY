@@ -50,10 +50,10 @@ VALUES (30679,   1, 'Sterile Sword') /* Name */
      , (30679,  33, 'WitheredAtollSword0105') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30679,   1,   33559213) /* Setup */
-     , (30679,   3,  536870932) /* SoundTable */
-     , (30679,   8,  100677399) /* Icon */
-     , (30679,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30679,   1, 0x020012AD) /* Setup */
+     , (30679,   3, 0x20000014) /* SoundTable */
+     , (30679,   8, 0x06003717) /* Icon */
+     , (30679,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30679,  1616,      2)  /* Aura of Blood Drinker Self VI */;

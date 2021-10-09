@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24320,   1, 'Great Revenant') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24320,   1,   33558541) /* Setup */
-     , (24320,   2,  150994967) /* MotionTable */
-     , (24320,   3,  536870934) /* SoundTable */
-     , (24320,   4,  805306368) /* CombatTable */
-     , (24320,   6,   67114692) /* PaletteBase */
-     , (24320,   7,  268436726) /* ClothingBase */
-     , (24320,   8,  100667942) /* Icon */
-     , (24320,  22,  872415272) /* PhysicsEffectTable */
+VALUES (24320,   1, 0x0200100D) /* Setup */
+     , (24320,   2, 0x09000017) /* MotionTable */
+     , (24320,   3, 0x20000016) /* SoundTable */
+     , (24320,   4, 0x30000000) /* CombatTable */
+     , (24320,   6, 0x040016C4) /* PaletteBase */
+     , (24320,   7, 0x100004F6) /* ClothingBase */
+     , (24320,   8, 0x06001226) /* Icon */
+     , (24320,  22, 0x34000028) /* PhysicsEffectTable */
      , (24320,  32,        199) /* WieldedTreasureType - 
                                    Wield Yumi (23733) | Probability: 6%
                                    Wield 20x Deadly Armor Piercing Arrow (15431) | Probability: 100%
@@ -116,20 +116,20 @@ VALUES (24320,   1,   200, 0, 0, 350) /* MaxHealth */
      , (24320,   5,   150, 0, 0, 430) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (24320,  1, 0, 3, 0, 230, 0, 1546.08142782783) /* Axe                 Specialized */
-     , (24320,  2, 0, 3, 0, 130, 0, 1546.08142782783) /* Bow                 Specialized */
-     , (24320,  3, 0, 3, 0, 130, 0, 1546.08142782783) /* Crossbow            Specialized */
-     , (24320,  4, 0, 3, 0, 230, 0, 1546.08142782783) /* Dagger              Specialized */
-     , (24320,  5, 0, 3, 0, 230, 0, 1546.08142782783) /* Mace                Specialized */
-     , (24320,  6, 0, 3, 0, 240, 0, 1546.08142782783) /* MeleeDefense        Specialized */
-     , (24320,  7, 0, 3, 0, 355, 0, 1546.08142782783) /* MissileDefense      Specialized */
-     , (24320,  9, 0, 3, 0, 230, 0, 1546.08142782783) /* Spear               Specialized */
-     , (24320, 10, 0, 3, 0, 230, 0, 1546.08142782783) /* Staff               Specialized */
-     , (24320, 11, 0, 3, 0, 230, 0, 1546.08142782783) /* Sword               Specialized */
-     , (24320, 13, 0, 3, 0, 230, 0, 1546.08142782783) /* UnarmedCombat       Specialized */
-     , (24320, 14, 0, 2, 0, 150, 0, 1546.08142782783) /* ArcaneLore          Trained */
-     , (24320, 15, 0, 3, 0, 204, 0, 1546.08142782783) /* MagicDefense        Specialized */
-     , (24320, 20, 0, 2, 0,  90, 0, 1546.08142782783) /* Deception           Trained */;
+VALUES (24320,  1, 0, 3, 0, 230, 0, 1546.0814278278337) /* Axe                 Specialized */
+     , (24320,  2, 0, 3, 0, 130, 0, 1546.0814278278337) /* Bow                 Specialized */
+     , (24320,  3, 0, 3, 0, 130, 0, 1546.0814278278337) /* Crossbow            Specialized */
+     , (24320,  4, 0, 3, 0, 230, 0, 1546.0814278278337) /* Dagger              Specialized */
+     , (24320,  5, 0, 3, 0, 230, 0, 1546.0814278278337) /* Mace                Specialized */
+     , (24320,  6, 0, 3, 0, 240, 0, 1546.0814278278337) /* MeleeDefense        Specialized */
+     , (24320,  7, 0, 3, 0, 355, 0, 1546.0814278278337) /* MissileDefense      Specialized */
+     , (24320,  9, 0, 3, 0, 230, 0, 1546.0814278278337) /* Spear               Specialized */
+     , (24320, 10, 0, 3, 0, 230, 0, 1546.0814278278337) /* Staff               Specialized */
+     , (24320, 11, 0, 3, 0, 230, 0, 1546.0814278278337) /* Sword               Specialized */
+     , (24320, 13, 0, 3, 0, 230, 0, 1546.0814278278337) /* UnarmedCombat       Specialized */
+     , (24320, 14, 0, 2, 0, 150, 0, 1546.0814278278337) /* ArcaneLore          Trained */
+     , (24320, 15, 0, 3, 0, 204, 0, 1546.0814278278337) /* MagicDefense        Specialized */
+     , (24320, 20, 0, 2, 0,  90, 0, 1546.0814278278337) /* Deception           Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (24320,  0,  4,  0,    0,  330,  330,  330,  330,  330,  330,  330,  330,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

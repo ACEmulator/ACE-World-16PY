@@ -34,7 +34,7 @@ VALUES (28354,   1, 'Fragment of Polished Serpentine') /* Name */
      , (28354,  33, 'GlyphKivikLirShardSerpentine') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28354,   1,   33558874) /* Setup */
-     , (28354,   3,  536870932) /* SoundTable */
-     , (28354,   8,  100676990) /* Icon */
-     , (28354,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28354,   1, 0x0200115A) /* Setup */
+     , (28354,   3, 0x20000014) /* SoundTable */
+     , (28354,   8, 0x0600357E) /* Icon */
+     , (28354,  22, 0x3400002B) /* PhysicsEffectTable */;

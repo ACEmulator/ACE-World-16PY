@@ -40,9 +40,9 @@ VALUES (10871,   1, 'Canescent Mattekar Robe') /* Name */
      , (10871,  15, 'The Canescent Mattekar Robe, brought to you with the finest care by Britana.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10871,   1,   33554854) /* Setup */
-     , (10871,   3,  536870932) /* SoundTable */
-     , (10871,   6,   67108990) /* PaletteBase */
-     , (10871,   7,  268436296) /* ClothingBase */
-     , (10871,   8,  100667351) /* Icon */
-     , (10871,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (10871,   1, 0x020001A6) /* Setup */
+     , (10871,   3, 0x20000014) /* SoundTable */
+     , (10871,   6, 0x0400007E) /* PaletteBase */
+     , (10871,   7, 0x10000348) /* ClothingBase */
+     , (10871,   8, 0x06000FD7) /* Icon */
+     , (10871,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -34,7 +34,7 @@ VALUES (29914,  22, True ) /* Inscribable */
      , (29914,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29914,   5, -0.03333) /* ManaRate */
+VALUES (29914,   5,  -0.033) /* ManaRate */
      , (29914,  21,    1.33) /* WeaponLength */
      , (29914,  22,     0.5) /* DamageVariance */
      , (29914,  29,    1.08) /* WeaponDefense */
@@ -48,14 +48,14 @@ VALUES (29914,   1, 'Untamed Sirluun Pikestaff') /* Name */
      , (29914,  16, 'A beautifully detailed pikestaff crafted from the claw of an Untamed Siraluun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29914,   1,   33559105) /* Setup */
-     , (29914,   3,  536870932) /* SoundTable */
-     , (29914,   8,  100677339) /* Icon */
-     , (29914,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29914,   1, 0x02001241) /* Setup */
+     , (29914,   3, 0x20000014) /* SoundTable */
+     , (29914,   8, 0x060036DB) /* Icon */
+     , (29914,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29914,  1591,      2)  /* Aura of Heart Seeker Self V */
-     , (29914,  1604,      2)  /* Aura of Defender Self V */
+VALUES (29914,  1604,      2)  /* Aura of Defender Self V */
+     , (29914,  1591,      2)  /* Aura of Heart Seeker Self V */
      , (29914,  1615,      2)  /* Aura of Blood Drinker Self V */
      , (29914,  1624,      2)  /* Aura of Swift Killer Self III */
      , (29914,  2487,      2)  /* Spirit Strike */;

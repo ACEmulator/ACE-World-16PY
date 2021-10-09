@@ -24,7 +24,7 @@ VALUES (28566,   1, 'Scroll of Vitaeic Chant') /* Name */
      , (28566,  15, 'Use this scroll to learn Vitaeic Chant.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28566,   1,   33554826) /* Setup */
-     , (28566,   8,  100676462) /* Icon */
-     , (28566,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28566,   1, 0x0200018A) /* Setup */
+     , (28566,   8, 0x0600336E) /* Icon */
+     , (28566,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28566,  28,       3393) /* Spell - Vitaeic Chant */;

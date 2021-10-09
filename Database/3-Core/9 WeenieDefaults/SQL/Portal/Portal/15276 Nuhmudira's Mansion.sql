@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15276,   1, 'Nuhmudira''s Mansion') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15276,   1,   33554867) /* Setup */
-     , (15276,   2,  150994947) /* MotionTable */
-     , (15276,   8,  100667499) /* Icon */;
+VALUES (15276,   1, 0x020001B3) /* Setup */
+     , (15276,   2, 0x09000003) /* MotionTable */
+     , (15276,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15276, 2, 2893676881, 58.86, 77.605, -3.995, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0xAC7A0151 [58.860000 77.605000 -3.995000] 1.000000 0.000000 0.000000 0.000000 */;
+VALUES (15276, 2, 0xAC7A0151, 58.86, 77.605, -3.995, 1, 0, 0, -0) /* Destination */
+/* @teleloc 0xAC7A0151 [58.860001 77.605003 -3.995000] 1.000000 0.000000 0.000000 -0.000000 */;

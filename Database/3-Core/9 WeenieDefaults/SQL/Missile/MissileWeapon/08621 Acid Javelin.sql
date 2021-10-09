@@ -23,7 +23,7 @@ VALUES (8621,   1,        256) /* ItemType - MissileWeapon */
      , (8621,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (8621,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (8621,  49,         20) /* WeaponTime */
-     , (8621,  51,          2) /* CombatUse - Missle */
+     , (8621,  51,          2) /* CombatUse - Missile */
      , (8621,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -42,7 +42,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8621,   1, 'Acid Javelin') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8621,   1,   33555720) /* Setup */
-     , (8621,   3,  536870932) /* SoundTable */
-     , (8621,   8,  100667593) /* Icon */
-     , (8621,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8621,   1, 0x02000508) /* Setup */
+     , (8621,   3, 0x20000014) /* SoundTable */
+     , (8621,   8, 0x060010C9) /* Icon */
+     , (8621,  22, 0x3400002B) /* PhysicsEffectTable */;

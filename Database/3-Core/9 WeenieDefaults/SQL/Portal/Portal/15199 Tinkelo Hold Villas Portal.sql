@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15199,   1, 'Tinkelo Hold Villas Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15199,   1,   33554867) /* Setup */
-     , (15199,   2,  150994947) /* MotionTable */
-     , (15199,   8,  100667499) /* Icon */;
+VALUES (15199,   1, 0x020001B3) /* Setup */
+     , (15199,   2, 0x09000003) /* MotionTable */
+     , (15199,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15199, 2, 2895446049, 110.167, 21.021, 81.05, -0.5151727, 0, 0, -0.8570864) /* Destination */
-/* @teleloc 0xAC950021 [110.167000 21.021000 81.050000] -0.515173 0.000000 0.000000 -0.857086 */;
+VALUES (15199, 2, 0xAC950021, 110.167, 21.021, 81.05, -0.515173, 0, -0, -0.857086) /* Destination */
+/* @teleloc 0xAC950021 [110.167000 21.021000 81.050003] -0.515173 0.000000 -0.000000 -0.857086 */;

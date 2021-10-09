@@ -22,5 +22,5 @@ VALUES (15250,   1, 'Rethux Vale') /* Name */
      , (15250,  16, 'Welcome to Rethux Vale') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15250,   1,   33557463) /* Setup */
-     , (15250,   8,  100668115) /* Icon */;
+VALUES (15250,   1, 0x02000BD7) /* Setup */
+     , (15250,   8, 0x060012D3) /* Icon */;

@@ -30,10 +30,10 @@ VALUES (30146,   1, 'Hieroglyph of  Item Enchantment Mastery') /* Name */
      , (30146,  16, 'A lovely template for a rare magical gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30146,   1,   33554809) /* Setup */
-     , (30146,   3,  536870932) /* SoundTable */
-     , (30146,   6,   67111919) /* PaletteBase */
-     , (30146,   7,  268435723) /* ClothingBase */
-     , (30146,   8,  100674739) /* Icon */
-     , (30146,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30146,   1, 0x02000179) /* Setup */
+     , (30146,   3, 0x20000014) /* SoundTable */
+     , (30146,   6, 0x04000BEF) /* PaletteBase */
+     , (30146,   7, 0x1000010B) /* ClothingBase */
+     , (30146,   8, 0x06002CB3) /* Icon */
+     , (30146,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30146,  28,       2249) /* Spell - Celcynd's Blessing */;

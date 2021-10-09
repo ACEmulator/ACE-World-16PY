@@ -24,7 +24,7 @@ VALUES (20422,   1, 'Scroll of Wi''s Folly') /* Name */
      , (20422,  15, 'When learned, this spell decreases a weapon''s Defense Skill modifier by 17.0 percentage points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20422,   1,   33554826) /* Setup */
-     , (20422,   8,  100676670) /* Icon */
-     , (20422,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20422,   1, 0x0200018A) /* Setup */
+     , (20422,   8, 0x0600343E) /* Icon */
+     , (20422,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20422,  28,       2112) /* Spell - Wi's Folly */;

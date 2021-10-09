@@ -54,15 +54,15 @@ VALUES (24205,   1, 'Weeping Staff') /* Name */
      , (24205,  15, 'A staff infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24205,   1,   33558297) /* Setup */
-     , (24205,   3,  536870932) /* SoundTable */
-     , (24205,   8,  100674262) /* Icon */
-     , (24205,  22,  872415275) /* PhysicsEffectTable */
-     , (24205,  36,  234881044) /* MutateFilter */;
+VALUES (24205,   1, 0x02000F19) /* Setup */
+     , (24205,   3, 0x20000014) /* SoundTable */
+     , (24205,   8, 0x06002AD6) /* Icon */
+     , (24205,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24205,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24205,  2693,      2)  /* Moderate Light Weapon Aptitude */
+VALUES (24205,  2966,      2)  /* Aura of Murderous Thirst */
+     , (24205,  2693,      2)  /* Moderate Light Weapon Aptitude */
      , (24205,  2963,      2)  /* Aura of Hunter's Cunning */
      , (24205,  2964,      2)  /* Aura of Hunter's Mark */
-     , (24205,  2966,      2)  /* Aura of Murderous Thirst */
      , (24205,  2967,      2)  /* Aura of The Speedy Hunter */;

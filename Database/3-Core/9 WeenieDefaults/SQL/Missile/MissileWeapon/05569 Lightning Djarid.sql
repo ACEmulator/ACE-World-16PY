@@ -21,7 +21,7 @@ VALUES (5569,   1,        256) /* ItemType - MissileWeapon */
      , (5569,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (5569,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (5569,  49,         20) /* WeaponTime */
-     , (5569,  51,          2) /* CombatUse - Missle */
+     , (5569,  51,          2) /* CombatUse - Missile */
      , (5569,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (5569, 150,        103) /* HookPlacement - Hook */
      , (5569, 151,          2) /* HookType - Wall */;
@@ -37,7 +37,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5569,   1, 'Lightning Djarid') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5569,   1,   33555723) /* Setup */
-     , (5569,   3,  536870932) /* SoundTable */
-     , (5569,   8,  100667593) /* Icon */
-     , (5569,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5569,   1, 0x0200050B) /* Setup */
+     , (5569,   3, 0x20000014) /* SoundTable */
+     , (5569,   8, 0x060010C9) /* Icon */
+     , (5569,  22, 0x3400002B) /* PhysicsEffectTable */;

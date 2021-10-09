@@ -49,17 +49,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19944,   1, 'Good Chilling Isparian Staff') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19944,   1,   33556338) /* Setup */
-     , (19944,   3,  536870932) /* SoundTable */
-     , (19944,   6,   67111919) /* PaletteBase */
-     , (19944,   7,  268436384) /* ClothingBase */
-     , (19944,   8,  100672934) /* Icon */
-     , (19944,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19944,   1, 0x02000772) /* Setup */
+     , (19944,   3, 0x20000014) /* SoundTable */
+     , (19944,   6, 0x04000BEF) /* PaletteBase */
+     , (19944,   7, 0x100003A0) /* ClothingBase */
+     , (19944,   8, 0x060025A6) /* Icon */
+     , (19944,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19944,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19944,  1033,      2)  /* Cold Protection Self IV */
-     , (19944,  1375,      2)  /* Coordination Self III */
+     , (19944,  2682,      2)  /* Feeble Light Weapon Aptitude */
      , (19944,  1590,      2)  /* Aura of Heart Seeker Self IV */
      , (19944,  1614,      2)  /* Aura of Blood Drinker Self IV */
-     , (19944,  2682,      2)  /* Feeble Light Weapon Aptitude */;
+     , (19944,  1375,      2)  /* Coordination Self III */;

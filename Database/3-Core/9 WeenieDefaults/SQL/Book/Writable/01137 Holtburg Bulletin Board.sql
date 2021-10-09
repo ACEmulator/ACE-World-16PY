@@ -25,10 +25,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1137,   1, 'Holtburg Bulletin Board') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1137,   1,   33555088) /* Setup */
-     , (1137,   6,   67111092) /* PaletteBase */
-     , (1137,   7,  268435655) /* ClothingBase */
-     , (1137,   8,  100668115) /* Icon */;
+VALUES (1137,   1, 0x02000290) /* Setup */
+     , (1137,   6, 0x040008B4) /* PaletteBase */
+     , (1137,   7, 0x100000C7) /* ClothingBase */
+     , (1137,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (1137, 100, 1000);

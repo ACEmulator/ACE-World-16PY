@@ -37,11 +37,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7772,   1, 'Trident') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7772,   1,   33556641) /* Setup */
-     , (7772,   3,  536870932) /* SoundTable */
-     , (7772,   6,   67111919) /* PaletteBase */
-     , (7772,   7,  268436013) /* ClothingBase */
-     , (7772,   8,  100670762) /* Icon */
-     , (7772,  22,  872415275) /* PhysicsEffectTable */
-     , (7772,  36,  234881053) /* MutateFilter */
-     , (7772,  46,  939524103) /* TsysMutationFilter */;
+VALUES (7772,   1, 0x020008A1) /* Setup */
+     , (7772,   3, 0x20000014) /* SoundTable */
+     , (7772,   6, 0x04000BEF) /* PaletteBase */
+     , (7772,   7, 0x1000022D) /* ClothingBase */
+     , (7772,   8, 0x06001D2A) /* Icon */
+     , (7772,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (7772,  36, 0x0E00001D) /* MutateFilter */
+     , (7772,  46, 0x38000007) /* TsysMutationFilter */;

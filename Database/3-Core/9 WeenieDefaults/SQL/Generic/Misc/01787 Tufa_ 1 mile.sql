@@ -22,5 +22,5 @@ VALUES (1787,   1, 'Tufa: 1 mile') /* Name */
      , (1787,  16, 'Town of Tufa: 1 mile.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1787,   1,   33555985) /* Setup */
-     , (1787,   8,  100668115) /* Icon */;
+VALUES (1787,   1, 0x02000611) /* Setup */
+     , (1787,   8, 0x060012D3) /* Icon */;

@@ -22,5 +22,5 @@ VALUES (14701,   1, 'Fearnot Valley Cottages') /* Name */
      , (14701,  16, 'Welcome to FearnotValley Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14701,   1,   33557463) /* Setup */
-     , (14701,   8,  100668115) /* Icon */;
+VALUES (14701,   1, 0x02000BD7) /* Setup */
+     , (14701,   8, 0x060012D3) /* Icon */;

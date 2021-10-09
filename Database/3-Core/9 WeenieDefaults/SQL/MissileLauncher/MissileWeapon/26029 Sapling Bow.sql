@@ -18,7 +18,7 @@ VALUES (26029,   1,        256) /* ItemType - MissileWeapon */
      , (26029,  48,          2) /* WeaponSkill - Bow */
      , (26029,  49,         20) /* WeaponTime */
      , (26029,  50,          1) /* AmmoType - Arrow */
-     , (26029,  51,          2) /* CombatUse - Missle */
+     , (26029,  51,          2) /* CombatUse - Missile */
      , (26029,  52,          2) /* ParentLocation - LeftHand */
      , (26029,  53,          3) /* PlacementPosition - LeftHand */
      , (26029,  60,        192) /* WeaponRange */
@@ -33,7 +33,7 @@ VALUES (26029,  22, True ) /* Inscribable */
      , (26029,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (26029,   5,       0) /* ManaRate */
+VALUES (26029,   5,      -0) /* ManaRate */
      , (26029,  26,    27.3) /* MaximumVelocity */
      , (26029,  29,       1) /* WeaponDefense */
      , (26029,  39,     1.1) /* DefaultScale */
@@ -44,12 +44,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26029,   1, 'Sapling Bow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26029,   1,   33554728) /* Setup */
-     , (26029,   3,  536870932) /* SoundTable */
-     , (26029,   6,   67111919) /* PaletteBase */
-     , (26029,   7,  268435759) /* ClothingBase */
-     , (26029,   8,  100668815) /* Icon */
-     , (26029,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (26029,   1, 0x02000128) /* Setup */
+     , (26029,   3, 0x20000014) /* SoundTable */
+     , (26029,   6, 0x04000BEF) /* PaletteBase */
+     , (26029,   7, 0x1000012F) /* ClothingBase */
+     , (26029,   8, 0x0600158F) /* Icon */
+     , (26029,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (26029,  1613,      2)  /* Aura of Blood Drinker Self III */

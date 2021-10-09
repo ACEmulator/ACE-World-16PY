@@ -26,10 +26,10 @@ VALUES (778,   1, 'Saffron') /* Name */
      , (778,  20, 'Sacks of Saffron') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (778,   1,   33554817) /* Setup */
-     , (778,   3,  536870932) /* SoundTable */
-     , (778,   6,   67111919) /* PaletteBase */
-     , (778,   7,  268435720) /* ClothingBase */
-     , (778,   8,  100668431) /* Icon */
-     , (778,  22,  872415275) /* PhysicsEffectTable */
+VALUES (778,   1, 0x02000181) /* Setup */
+     , (778,   3, 0x20000014) /* SoundTable */
+     , (778,   6, 0x04000BEF) /* PaletteBase */
+     , (778,   7, 0x10000108) /* ClothingBase */
+     , (778,   8, 0x0600140F) /* Icon */
+     , (778,  22, 0x3400002B) /* PhysicsEffectTable */
      , (778,  29,          9) /* SpellComponent */;

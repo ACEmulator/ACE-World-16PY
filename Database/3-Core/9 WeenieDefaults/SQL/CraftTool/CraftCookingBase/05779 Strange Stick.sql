@@ -28,7 +28,7 @@ VALUES (5779,   1, 'Strange Stick') /* Name */
      , (5779,  16, 'An unusual stick with a spicy smell.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5779,   1,   33554749) /* Setup */
-     , (5779,   3,  536870932) /* SoundTable */
-     , (5779,   8,  100670312) /* Icon */
-     , (5779,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5779,   1, 0x0200013D) /* Setup */
+     , (5779,   3, 0x20000014) /* SoundTable */
+     , (5779,   8, 0x06001B68) /* Icon */
+     , (5779,  22, 0x3400002B) /* PhysicsEffectTable */;

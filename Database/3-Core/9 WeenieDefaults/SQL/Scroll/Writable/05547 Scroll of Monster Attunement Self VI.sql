@@ -25,7 +25,7 @@ VALUES (5547,   1, 'Scroll of Monster Attunement Self VI') /* Name */
      , (5547,  16, 'When learned, this spell increases the caster''s Assess Monster skill by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5547,   1,   33554826) /* Setup */
-     , (5547,   8,  100676448) /* Icon */
-     , (5547,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5547,   1, 0x0200018A) /* Setup */
+     , (5547,   8, 0x06003360) /* Icon */
+     , (5547,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5547,  28,        803) /* Spell - Monster Attunement Self VI */;

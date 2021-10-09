@@ -35,6 +35,6 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2020,   1, 'Wari''s Silifi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2020,   1,   33554753) /* Setup */
-     , (2020,   8,  100667606) /* Icon */
-     , (2020,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (2020,   1, 0x02000141) /* Setup */
+     , (2020,   8, 0x060010D6) /* Icon */
+     , (2020,  22, 0x3400002B) /* PhysicsEffectTable */;

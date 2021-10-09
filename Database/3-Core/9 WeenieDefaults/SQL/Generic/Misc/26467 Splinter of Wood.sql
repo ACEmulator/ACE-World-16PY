@@ -27,9 +27,9 @@ VALUES (26467,   1, 'Splinter of Wood') /* Name */
      , (26467,  33, 'SplinterUlgrimCombat') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26467,   1,   33554817) /* Setup */
-     , (26467,   3,  536870932) /* SoundTable */
-     , (26467,   6,   67111919) /* PaletteBase */
-     , (26467,   7,  268435832) /* ClothingBase */
-     , (26467,   8,  100675812) /* Icon */
-     , (26467,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (26467,   1, 0x02000181) /* Setup */
+     , (26467,   3, 0x20000014) /* SoundTable */
+     , (26467,   6, 0x04000BEF) /* PaletteBase */
+     , (26467,   7, 0x10000178) /* ClothingBase */
+     , (26467,   8, 0x060030E4) /* Icon */
+     , (26467,  22, 0x3400002B) /* PhysicsEffectTable */;

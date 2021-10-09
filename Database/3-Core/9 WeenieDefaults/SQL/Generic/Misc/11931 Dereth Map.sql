@@ -23,5 +23,5 @@ VALUES (11931,   1, 'Dereth Map') /* Name */
      , (11931,  15, 'This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11931,   1,   33557150) /* Setup */
-     , (11931,   8,  100671775) /* Icon */;
+VALUES (11931,   1, 0x02000A9E) /* Setup */
+     , (11931,   8, 0x0600211F) /* Icon */;

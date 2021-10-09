@@ -43,10 +43,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27879,   1, 'Bone Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27879,   1,   33558783) /* Setup */
-     , (27879,   3,  536870932) /* SoundTable */
-     , (27879,   8,  100676577) /* Icon */
-     , (27879,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27879,   1, 0x020010FF) /* Setup */
+     , (27879,   3, 0x20000014) /* SoundTable */
+     , (27879,   8, 0x060033E1) /* Icon */
+     , (27879,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27879,  1616,      2)  /* Aura of Blood Drinker Self VI */

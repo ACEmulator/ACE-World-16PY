@@ -27,10 +27,10 @@ VALUES (19238,   1, 'Oxidized Statue ') /* Name */
      , (19238,  16, 'A small oxidized statue of a Shadow crafted by the Arcanum Tinker, in reward for keeping the statues that continue to threaten the cities of Dereth at bay.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19238,   1,   33554510) /* Setup */
-     , (19238,   2,  150995210) /* MotionTable */
-     , (19238,   6,   67108990) /* PaletteBase */
-     , (19238,   7,  268436371) /* ClothingBase */
-     , (19238,   8,  100670397) /* Icon */
-     , (19238,  22,  872415349) /* PhysicsEffectTable */
-     , (19238,  36,  234881046) /* MutateFilter */;
+VALUES (19238,   1, 0x0200004E) /* Setup */
+     , (19238,   2, 0x0900010A) /* MotionTable */
+     , (19238,   6, 0x0400007E) /* PaletteBase */
+     , (19238,   7, 0x10000393) /* ClothingBase */
+     , (19238,   8, 0x06001BBD) /* Icon */
+     , (19238,  22, 0x34000075) /* PhysicsEffectTable */
+     , (19238,  36, 0x0E000016) /* MutateFilter */;

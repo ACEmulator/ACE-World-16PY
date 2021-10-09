@@ -26,5 +26,5 @@ VALUES (30736,   1, 'Bottle of Crystal Champagne') /* Name */
      , (30736,  16, 'If you see this decorative bottle of champagne, you know a party is going on!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30736,   1,   33559222) /* Setup */
-     , (30736,   8,  100677403) /* Icon */;
+VALUES (30736,   1, 0x020012B6) /* Setup */
+     , (30736,   8, 0x0600371B) /* Icon */;

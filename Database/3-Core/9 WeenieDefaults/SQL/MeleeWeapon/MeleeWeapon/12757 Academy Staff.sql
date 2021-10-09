@@ -40,10 +40,10 @@ VALUES (12757,   1, 'Academy Staff') /* Name */
      , (12757,  15, 'An enhanced staff crafted in the Training Academy. This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12757,   1,   33554749) /* Setup */
-     , (12757,   3,  536870932) /* SoundTable */
-     , (12757,   6,   67111919) /* PaletteBase */
-     , (12757,   7,  268435795) /* ClothingBase */
-     , (12757,   8,  100669105) /* Icon */
-     , (12757,  22,  872415275) /* PhysicsEffectTable */
-     , (12757,  36,  234881044) /* MutateFilter */;
+VALUES (12757,   1, 0x0200013D) /* Setup */
+     , (12757,   3, 0x20000014) /* SoundTable */
+     , (12757,   6, 0x04000BEF) /* PaletteBase */
+     , (12757,   7, 0x10000153) /* ClothingBase */
+     , (12757,   8, 0x060016B1) /* Icon */
+     , (12757,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (12757,  36, 0x0E000014) /* MutateFilter */;

@@ -13,7 +13,7 @@ VALUES (22330,   1,       2048) /* ItemType - Gem */
      , (22330,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22330, 114,          1) /* Attuned - Attuned */
      , (22330, 185,          2) /* TypeOfAlteration */
-     , (22330, 186,         22) /* SkillToBeAltered */;
+     , (22330, 186,         22) /* SkillToBeAltered - Jump */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22330,  22, True ) /* Inscribable */
@@ -25,8 +25,8 @@ VALUES (22330,   1, 'Jump Gem of Forgetfulness') /* Name */
      , (22330,  33, 'SkillAlterationGemPickedUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22330,   1,   33558087) /* Setup */
-     , (22330,   6,   67111919) /* PaletteBase */
-     , (22330,   7,  268435723) /* ClothingBase */
-     , (22330,   8,  100673789) /* Icon */
-     , (22330,  50,  100673769) /* IconOverlay */;
+VALUES (22330,   1, 0x02000E47) /* Setup */
+     , (22330,   6, 0x04000BEF) /* PaletteBase */
+     , (22330,   7, 0x1000010B) /* ClothingBase */
+     , (22330,   8, 0x060028FD) /* Icon */
+     , (22330,  50, 0x060028E9) /* IconOverlay */;

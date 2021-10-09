@@ -36,12 +36,12 @@ VALUES (11142,   1, 'Olthoi Pumpkin Pie') /* Name */
      , (11142,  16, 'A lightly baked, browned pumpkin pie made with olthoi Eggs: thick, savory, sweet... purple.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11142,   1,   33555978) /* Setup */
-     , (11142,   3,  536870932) /* SoundTable */
-     , (11142,   6,   67111919) /* PaletteBase */
-     , (11142,   7,  268436048) /* ClothingBase */
-     , (11142,   8,  100671767) /* Icon */
-     , (11142,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11142,   1, 0x0200060A) /* Setup */
+     , (11142,   3, 0x20000014) /* SoundTable */
+     , (11142,   6, 0x04000BEF) /* PaletteBase */
+     , (11142,   7, 0x10000250) /* ClothingBase */
+     , (11142,   8, 0x06002117) /* Icon */
+     , (11142,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11142,  23,         64) /* UseSound - Eat1 */
-     , (11142,  27,  318767233) /* UseUserAnimation - MimeEat */
+     , (11142,  27, 0x13000081) /* UseUserAnimation - MimeEat */
      , (11142,  28,       2420) /* Spell - Panoply of the Queenslayer */;

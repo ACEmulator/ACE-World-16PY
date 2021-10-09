@@ -22,7 +22,7 @@ VALUES (682,   1, 'Gems and Jewels') /* Name */
      , (682,  16, 'Gems and Jewels') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (682,   1,   33555088) /* Setup */
-     , (682,   6,   67111092) /* PaletteBase */
-     , (682,   7,  268435659) /* ClothingBase */
-     , (682,   8,  100668115) /* Icon */;
+VALUES (682,   1, 0x02000290) /* Setup */
+     , (682,   6, 0x040008B4) /* PaletteBase */
+     , (682,   7, 0x100000CB) /* ClothingBase */
+     , (682,   8, 0x060012D3) /* Icon */;

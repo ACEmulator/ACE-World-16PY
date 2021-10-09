@@ -34,15 +34,15 @@ VALUES (31032,   1, 'Banderling Idol') /* Name */
      , (31032,  17, 'A cacophony of voices can be heard growing ever louder until the noise threatens to deafen you.') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31032,   1,   33559205) /* Setup */
-     , (31032,   3,  536870932) /* SoundTable */
-     , (31032,   8,  100677385) /* Icon */
-     , (31032,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31032,   1, 0x020012A5) /* Setup */
+     , (31032,   3, 0x20000014) /* SoundTable */
+     , (31032,   8, 0x06003709) /* Icon */
+     , (31032,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31032,  16,          0) /* ActivationTarget */;
+VALUES (31032,  16, 0x00000000) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31032, -1, 25598, 300, 1, 1, 1, 4, -1, 0, 0, 0, -2, -2, 0, 0.7071068, 0, 0, -0.7071068) /* Generate Ruby Gromnie (25598) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (31032, -1, 25598, 300, 1, 1, 1, 4, -1, 0, 0, 0, 2, -2, 0, 0.7071068, 0, 0, -0.7071068) /* Generate Ruby Gromnie (25598) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (31032, -1, 30639, 300, 1, 1, 1, 4, -1, 0, 0, 0, 0, -8, 0, -0.7071068, 0, 0, -0.7071068) /* Generate Banderling Ancient Spirit (30639) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (31032, -1, 25598, 300, 1, 1, 1, 4, -1, 0, 0, 0, -2, -2, 0, 0.707107, 0, 0, -0.707107) /* Generate Ruby Gromnie (25598) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (31032, -1, 25598, 300, 1, 1, 1, 4, -1, 0, 0, 0, 2, -2, 0, 0.707107, 0, 0, -0.707107) /* Generate Ruby Gromnie (25598) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (31032, -1, 30639, 300, 1, 1, 1, 4, -1, 0, 0, 0, 0, -8, 0, -0.707107, 0, -0, -0.707107) /* Generate Banderling Ancient Spirit (30639) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

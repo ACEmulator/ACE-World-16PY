@@ -27,7 +27,7 @@ VALUES (12708,   1, 'Greeter''s Key') /* Name */
      , (12708,  15, 'The Greeter''s key to the Practice Area Doors.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12708,   1,   33554784) /* Setup */
-     , (12708,   3,  536870932) /* SoundTable */
-     , (12708,   8,  100667485) /* Icon */
-     , (12708,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12708,   1, 0x02000160) /* Setup */
+     , (12708,   3, 0x20000014) /* SoundTable */
+     , (12708,   8, 0x0600105D) /* Icon */
+     , (12708,  22, 0x3400002B) /* PhysicsEffectTable */;

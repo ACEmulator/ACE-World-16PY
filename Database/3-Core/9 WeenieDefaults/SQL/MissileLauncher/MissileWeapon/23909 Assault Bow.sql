@@ -17,7 +17,7 @@ VALUES (23909,   1,        256) /* ItemType - MissileWeapon */
      , (23909,  48,          2) /* WeaponSkill - Bow */
      , (23909,  49,         40) /* WeaponTime */
      , (23909,  50,          1) /* AmmoType - Arrow */
-     , (23909,  51,          2) /* CombatUse - Missle */
+     , (23909,  51,          2) /* CombatUse - Missile */
      , (23909,  52,          2) /* ParentLocation - LeftHand */
      , (23909,  53,          3) /* PlacementPosition - LeftHand */
      , (23909,  60,        200) /* WeaponRange */
@@ -54,16 +54,16 @@ VALUES (23909,   1, 'Assault Bow') /* Name */
      , (23909,  16, 'A reward for defeating the leaders of the Gromnie Clan.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23909,   1,   33558206) /* Setup */
-     , (23909,   3,  536870932) /* SoundTable */
-     , (23909,   6,   67111919) /* PaletteBase */
-     , (23909,   7,  268436199) /* ClothingBase */
-     , (23909,   8,  100671743) /* Icon */
-     , (23909,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23909,   1, 0x02000EBE) /* Setup */
+     , (23909,   3, 0x20000014) /* SoundTable */
+     , (23909,   6, 0x04000BEF) /* PaletteBase */
+     , (23909,   7, 0x100002E7) /* ClothingBase */
+     , (23909,   8, 0x060020FF) /* Icon */
+     , (23909,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23909,  30,         88) /* PhysicsScript - Create */
      , (23909,  37,          2) /* ItemSkillLimit - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23909,  1377,      2)  /* Coordination Self V */
-     , (23909,  1614,      2)  /* Aura of Blood Drinker Self IV */
-     , (23909,  2004,      2)  /* Warrior's Vitality */;
+VALUES (23909,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (23909,  2004,      2)  /* Warrior's Vitality */
+     , (23909,  1377,      2)  /* Coordination Self V */;

@@ -13,7 +13,7 @@ VALUES (28926,   1,       2048) /* ItemType - Gem */
      , (28926,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28926, 114,          1) /* Attuned - Attuned */
      , (28926, 185,          2) /* TypeOfAlteration */
-     , (28926, 186,         40) /* SkillToBeAltered */;
+     , (28926, 186,         40) /* SkillToBeAltered - Salvaging */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28926,  22, True ) /* Inscribable */
@@ -25,8 +25,8 @@ VALUES (28926,   1, 'Salvaging Gem of Forgetfulness') /* Name */
      , (28926,  33, 'SkillAlterationGemPickedUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28926,   1,   33558087) /* Setup */
-     , (28926,   6,   67111919) /* PaletteBase */
-     , (28926,   7,  268435723) /* ClothingBase */
-     , (28926,   8,  100673789) /* Icon */
-     , (28926,  50,  100677037) /* IconOverlay */;
+VALUES (28926,   1, 0x02000E47) /* Setup */
+     , (28926,   6, 0x04000BEF) /* PaletteBase */
+     , (28926,   7, 0x1000010B) /* ClothingBase */
+     , (28926,   8, 0x060028FD) /* Icon */
+     , (28926,  50, 0x060035AD) /* IconOverlay */;

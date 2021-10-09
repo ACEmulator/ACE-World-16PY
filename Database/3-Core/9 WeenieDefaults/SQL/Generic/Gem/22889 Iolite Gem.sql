@@ -24,5 +24,5 @@ VALUES (22889,   1, 'Iolite Gem') /* Name */
      , (22889,  16, 'A gem of pure Iolite') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22889,   1,   33554809) /* Setup */
-     , (22889,   8,  100673904) /* Icon */;
+VALUES (22889,   1, 0x02000179) /* Setup */
+     , (22889,   8, 0x06002970) /* Icon */;

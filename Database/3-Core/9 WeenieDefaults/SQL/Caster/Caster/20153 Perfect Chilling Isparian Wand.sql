@@ -43,21 +43,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20153,   1, 'Perfect Chilling Isparian Wand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20153,   1,   33557781) /* Setup */
-     , (20153,   3,  536870932) /* SoundTable */
-     , (20153,   6,   67111919) /* PaletteBase */
-     , (20153,   7,  268436395) /* ClothingBase */
-     , (20153,   8,  100672989) /* Icon */
-     , (20153,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20153,   1, 0x02000D15) /* Setup */
+     , (20153,   3, 0x20000014) /* SoundTable */
+     , (20153,   6, 0x04000BEF) /* PaletteBase */
+     , (20153,   7, 0x100003AB) /* ClothingBase */
+     , (20153,   8, 0x060025DD) /* Icon */
+     , (20153,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20153,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20153,   562,      2)  /* Creature Enchantment Mastery Self VI */
-     , (20153,   584,      2)  /* Item Enchantment Mastery Self IV */
-     , (20153,   608,      2)  /* Life Magic Mastery Self IV */
-     , (20153,   632,      2)  /* War Magic Mastery Self IV */
-     , (20153,   658,      2)  /* Mana Conversion Mastery Self VI */
-     , (20153,  1035,      2)  /* Cold Protection Self VI */
-     , (20153,  1426,      2)  /* Focus Self VI */
+VALUES (20153,  2691,      2)  /* Moderate Mana Conversion Prowess */
      , (20153,  1450,      2)  /* Willpower Self VI */
-     , (20153,  2691,      2)  /* Moderate Mana Conversion Prowess */;
+     , (20153,  1426,      2)  /* Focus Self VI */
+     , (20153,   632,      2)  /* War Magic Mastery Self IV */
+     , (20153,   608,      2)  /* Life Magic Mastery Self IV */
+     , (20153,   584,      2)  /* Item Enchantment Mastery Self IV */
+     , (20153,  1035,      2)  /* Cold Protection Self VI */
+     , (20153,   562,      2)  /* Creature Enchantment Mastery Self VI */
+     , (20153,   658,      2)  /* Mana Conversion Mastery Self VI */;

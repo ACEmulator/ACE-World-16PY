@@ -28,8 +28,8 @@ VALUES (9574,   1, 'Completed Spear Skill Puzzle') /* Name */
      , (9574,  16, 'A completed Spear Skill Puzzle.  Turn in to a Bestower Examiner to receive a title.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9574,   1,   33557028) /* Setup */
-     , (9574,   3,  536870932) /* SoundTable */
-     , (9574,   8,  100671564) /* Icon */
-     , (9574,  22,  872415275) /* PhysicsEffectTable */
-     , (9574,  36,  234881046) /* MutateFilter */;
+VALUES (9574,   1, 0x02000A24) /* Setup */
+     , (9574,   3, 0x20000014) /* SoundTable */
+     , (9574,   8, 0x0600204C) /* Icon */
+     , (9574,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (9574,  36, 0x0E000016) /* MutateFilter */;

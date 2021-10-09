@@ -23,10 +23,10 @@ VALUES (8581,   1, 'Sir Martine''s Journal') /* Name */
      , (8581,  15, 'A soggy and damp journal') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8581,   1,   33554771) /* Setup */
-     , (8581,   3,  536870932) /* SoundTable */
-     , (8581,   8,  100668117) /* Icon */
-     , (8581,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8581,   1, 0x02000153) /* Setup */
+     , (8581,   3, 0x20000014) /* SoundTable */
+     , (8581,   8, 0x060012D5) /* Icon */
+     , (8581,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (8581, 14, 1000);

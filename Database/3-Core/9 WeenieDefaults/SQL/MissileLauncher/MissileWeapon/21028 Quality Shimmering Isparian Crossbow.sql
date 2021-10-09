@@ -19,7 +19,7 @@ VALUES (21028,   1,        256) /* ItemType - MissileWeapon */
      , (21028,  48,          3) /* WeaponSkill - Crossbow */
      , (21028,  49,         90) /* WeaponTime */
      , (21028,  50,          2) /* AmmoType - Bolt */
-     , (21028,  51,          2) /* CombatUse - Missle */
+     , (21028,  51,          2) /* CombatUse - Missile */
      , (21028,  52,          2) /* ParentLocation - LeftHand */
      , (21028,  53,          3) /* PlacementPosition - LeftHand */
      , (21028,  60,        195) /* WeaponRange */
@@ -53,15 +53,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21028,   1, 'Quality Shimmering Isparian Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21028,   1,   33557730) /* Setup */
-     , (21028,   3,  536870932) /* SoundTable */
-     , (21028,   6,   67111919) /* PaletteBase */
-     , (21028,   7,  268436428) /* ClothingBase */
-     , (21028,   8,  100673202) /* Icon */
-     , (21028,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21028,   1, 0x02000CE2) /* Setup */
+     , (21028,   3, 0x20000014) /* SoundTable */
+     , (21028,   6, 0x04000BEF) /* PaletteBase */
+     , (21028,   7, 0x100003CC) /* ClothingBase */
+     , (21028,   8, 0x060026B2) /* Icon */
+     , (21028,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21028,  37,          3) /* ItemSkillLimit - Crossbow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21028,  1312,      2)  /* Armor Self VI */
-     , (21028,  1602,      2)  /* Aura of Defender Self III */
-     , (21028,  1613,      2)  /* Aura of Blood Drinker Self III */;
+VALUES (21028,  1602,      2)  /* Aura of Defender Self III */
+     , (21028,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (21028,  1312,      2)  /* Armor Self VI */;

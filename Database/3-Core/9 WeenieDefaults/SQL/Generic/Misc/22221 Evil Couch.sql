@@ -23,5 +23,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22221,   1, 'Evil Couch') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22221,   1,   33558039) /* Setup */
-     , (22221,   8,  100673560) /* Icon */;
+VALUES (22221,   1, 0x02000E17) /* Setup */
+     , (22221,   8, 0x06002818) /* Icon */;

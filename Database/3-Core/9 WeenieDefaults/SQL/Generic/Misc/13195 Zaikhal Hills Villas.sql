@@ -22,5 +22,5 @@ VALUES (13195,   1, 'Zaikhal Hills Villas') /* Name */
      , (13195,  16, 'Welcome to Zaikhal Hills Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13195,   1,   33557463) /* Setup */
-     , (13195,   8,  100668115) /* Icon */;
+VALUES (13195,   1, 0x02000BD7) /* Setup */
+     , (13195,   8, 0x060012D3) /* Icon */;

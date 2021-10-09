@@ -44,14 +44,14 @@ VALUES (6797,   1, 'Nexus Celdon Breastplate') /* Name */
      , (6797,  16, 'A magnificent Celdon breastplate, infused with the essence of the Nexus Crystal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6797,   1,   33554642) /* Setup */
-     , (6797,   3,  536870932) /* SoundTable */
-     , (6797,   6,   67108990) /* PaletteBase */
-     , (6797,   7,  268435848) /* ClothingBase */
-     , (6797,   8,  100670403) /* Icon */
-     , (6797,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6797,   1, 0x020000D2) /* Setup */
+     , (6797,   3, 0x20000014) /* SoundTable */
+     , (6797,   6, 0x0400007E) /* PaletteBase */
+     , (6797,   7, 0x10000188) /* ClothingBase */
+     , (6797,   8, 0x06001BC3) /* Icon */
+     , (6797,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6797,   209,      2)  /* Mana Renewal Other IV */
+VALUES (6797,   909,      2)  /* Leadership Mastery Other VI */
      , (6797,   272,      2)  /* Magic Resistance Other V */
-     , (6797,   909,      2)  /* Leadership Mastery Other VI */;
+     , (6797,   209,      2)  /* Mana Renewal Other IV */;

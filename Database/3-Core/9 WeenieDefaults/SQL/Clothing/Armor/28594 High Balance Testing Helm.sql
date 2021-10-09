@@ -27,7 +27,7 @@ VALUES (28594,  22, True ) /* Inscribable */
      , (28594,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28594,   5,       0) /* ManaRate */
+VALUES (28594,   5,      -0) /* ManaRate */
      , (28594,  12,    0.66) /* Shade */
      , (28594,  13,       1) /* ArmorModVsSlash */
      , (28594,  14,       1) /* ArmorModVsPierce */
@@ -43,19 +43,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28594,   1, 'High Balance Testing Helm') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28594,   1,   33558266) /* Setup */
-     , (28594,   3,  536870932) /* SoundTable */
-     , (28594,   6,   67108990) /* PaletteBase */
-     , (28594,   7,  268436561) /* ClothingBase */
-     , (28594,   8,  100674136) /* Icon */
-     , (28594,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28594,   1, 0x02000EFA) /* Setup */
+     , (28594,   3, 0x20000014) /* SoundTable */
+     , (28594,   6, 0x0400007E) /* PaletteBase */
+     , (28594,   7, 0x10000451) /* ClothingBase */
+     , (28594,   8, 0x06002A58) /* Icon */
+     , (28594,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28594,  1486,      2)  /* Impenetrability VI */
-     , (28594,  1498,      2)  /* Acid Bane VI */
-     , (28594,  1516,      2)  /* Bludgeon Bane VI */
-     , (28594,  1528,      2)  /* Frost Bane VI */
-     , (28594,  1540,      2)  /* Lightning Bane VI */
+VALUES (28594,  1540,      2)  /* Lightning Bane VI */
+     , (28594,  1486,      2)  /* Impenetrability VI */
      , (28594,  1552,      2)  /* Flame Bane VI */
      , (28594,  1562,      2)  /* Blade Bane VI */
-     , (28594,  1574,      2)  /* Piercing Bane VI */;
+     , (28594,  1498,      2)  /* Acid Bane VI */
+     , (28594,  1574,      2)  /* Piercing Bane VI */
+     , (28594,  1516,      2)  /* Bludgeon Bane VI */
+     , (28594,  1528,      2)  /* Frost Bane VI */;

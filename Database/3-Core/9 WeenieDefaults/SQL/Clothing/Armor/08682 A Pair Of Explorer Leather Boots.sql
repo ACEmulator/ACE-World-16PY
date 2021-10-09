@@ -44,13 +44,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8682,   1, 'A Pair Of Explorer Leather Boots') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8682,   1,   33556683) /* Setup */
-     , (8682,   3,  536870932) /* SoundTable */
-     , (8682,   6,   67108990) /* PaletteBase */
-     , (8682,   7,  268436710) /* ClothingBase */
-     , (8682,   8,  100667310) /* Icon */
-     , (8682,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8682,   1, 0x020008CB) /* Setup */
+     , (8682,   3, 0x20000014) /* SoundTable */
+     , (8682,   6, 0x0400007E) /* PaletteBase */
+     , (8682,   7, 0x100004E6) /* ClothingBase */
+     , (8682,   8, 0x06000FAE) /* Icon */
+     , (8682,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8682,   990,      2)  /* Sprint Other III */
-     , (8682,  1483,      2)  /* Impenetrability III */;
+VALUES (8682,  1483,      2)  /* Impenetrability III */
+     , (8682,   990,      2)  /* Sprint Other III */;

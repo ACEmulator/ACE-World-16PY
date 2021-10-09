@@ -39,9 +39,9 @@ VALUES (30808,   1, 'Seething Skull') /* Name */
      , (30808,  15, 'A soot covered skull. The eyes emit an eerie bright green glow. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30808,   1,   33555205) /* Setup */
-     , (30808,   3,  536870932) /* SoundTable */
-     , (30808,   8,  100677491) /* Icon */
-     , (30808,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30808,   1, 0x02000305) /* Setup */
+     , (30808,   3, 0x20000014) /* SoundTable */
+     , (30808,   8, 0x06003773) /* Icon */
+     , (30808,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30808,  28,        157) /* Spell - Summon Primary Portal I */
      , (30808,  31,      30818) /* LinkedPortalOne - Floating Bridge */;

@@ -22,5 +22,5 @@ VALUES (24876,   1, 'House of Bones') /* Name */
      , (24876,  16, 'Ivory Crafter collects and shapes bones for practical and mystical use.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24876,   1,   33555088) /* Setup */
-     , (24876,   8,  100668115) /* Icon */;
+VALUES (24876,   1, 0x02000290) /* Setup */
+     , (24876,   8, 0x060012D3) /* Icon */;

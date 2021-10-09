@@ -43,16 +43,16 @@ VALUES (1435,   1, 'Ice Tachi') /* Name */
      , (1435,  15, 'An icy sword, its hilt inlaid with ivory and lapis lazuli.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1435,   1,   33555754) /* Setup */
-     , (1435,   6,   67111919) /* PaletteBase */
-     , (1435,   7,  268435788) /* ClothingBase */
-     , (1435,   8,  100667934) /* Icon */
-     , (1435,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1435,   1, 0x0200052A) /* Setup */
+     , (1435,   6, 0x04000BEF) /* PaletteBase */
+     , (1435,   7, 0x1000014C) /* ClothingBase */
+     , (1435,   8, 0x0600121E) /* Icon */
+     , (1435,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1435,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1435,    49,      2)  /* Aura of Swift Killer Self I */
+VALUES (1435,  1601,      2)  /* Aura of Defender Self II */
      , (1435,  1032,      2)  /* Cold Protection Self III */
      , (1435,  1588,      2)  /* Aura of Heart Seeker Self II */
-     , (1435,  1601,      2)  /* Aura of Defender Self II */
-     , (1435,  1612,      2)  /* Aura of Blood Drinker Self II */;
+     , (1435,  1612,      2)  /* Aura of Blood Drinker Self II */
+     , (1435,    49,      2)  /* Aura of Swift Killer Self I */;

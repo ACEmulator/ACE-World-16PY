@@ -28,7 +28,7 @@ VALUES (4730,   1, 'Fried Fish Filet') /* Name */
      , (4730,  20, 'Fried Fish Filets') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4730,   1,   33555973) /* Setup */
-     , (4730,   3,  536870932) /* SoundTable */
-     , (4730,   8,  100670269) /* Icon */
-     , (4730,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4730,   1, 0x02000605) /* Setup */
+     , (4730,   3, 0x20000014) /* SoundTable */
+     , (4730,   8, 0x06001B3D) /* Icon */
+     , (4730,  22, 0x3400002B) /* PhysicsEffectTable */;

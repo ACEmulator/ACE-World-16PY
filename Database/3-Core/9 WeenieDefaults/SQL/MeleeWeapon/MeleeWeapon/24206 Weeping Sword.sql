@@ -54,11 +54,11 @@ VALUES (24206,   1, 'Weeping Sword') /* Name */
      , (24206,  15, 'A sword infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24206,   1,   33558298) /* Setup */
-     , (24206,   3,  536870932) /* SoundTable */
-     , (24206,   8,  100674264) /* Icon */
-     , (24206,  22,  872415275) /* PhysicsEffectTable */
-     , (24206,  36,  234881044) /* MutateFilter */;
+VALUES (24206,   1, 0x02000F1A) /* Setup */
+     , (24206,   3, 0x20000014) /* SoundTable */
+     , (24206,   8, 0x06002AD8) /* Icon */
+     , (24206,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24206,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24206,  2694,      2)  /* Moderate Heavy Weapon Aptitude */

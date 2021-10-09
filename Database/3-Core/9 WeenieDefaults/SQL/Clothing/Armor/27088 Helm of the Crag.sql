@@ -48,17 +48,17 @@ VALUES (27088,   1, 'Helm of the Crag') /* Name */
      , (27088,  16, 'A large horned helm with the horns of a large mattekar.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27088,   1,   33557002) /* Setup */
-     , (27088,   3,  536870932) /* SoundTable */
-     , (27088,   6,   67108990) /* PaletteBase */
-     , (27088,   7,  268436151) /* ClothingBase */
-     , (27088,   8,  100667349) /* Icon */
-     , (27088,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27088,   1, 0x02000A0A) /* Setup */
+     , (27088,   3, 0x20000014) /* SoundTable */
+     , (27088,   6, 0x0400007E) /* PaletteBase */
+     , (27088,   7, 0x100002B7) /* ClothingBase */
+     , (27088,   8, 0x06000FD5) /* Icon */
+     , (27088,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27088,   883,      2)  /* Healing Mastery Other IV */
+VALUES (27088,  1538,      2)  /* Lightning Bane IV */
      , (27088,  1027,      2)  /* Bludgeoning Protection Other IV */
+     , (27088,  1550,      2)  /* Flame Bane IV */
      , (27088,  1496,      2)  /* Acid Bane IV */
-     , (27088,  1526,      2)  /* Frost Bane IV */
-     , (27088,  1538,      2)  /* Lightning Bane IV */
-     , (27088,  1550,      2)  /* Flame Bane IV */;
+     , (27088,   883,      2)  /* Healing Mastery Other IV */
+     , (27088,  1526,      2)  /* Frost Bane IV */;

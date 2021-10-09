@@ -24,7 +24,7 @@ VALUES (20611,   1, 'Scroll of Energize Vitality') /* Name */
      , (20611,  15, 'When learned, this spell drains one-half of the caster''s Mana and gives 175% of that to his/her Health.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20611,   1,   33554826) /* Setup */
-     , (20611,   8,  100676942) /* Icon */
-     , (20611,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20611,   1, 0x0200018A) /* Setup */
+     , (20611,   8, 0x0600354E) /* Icon */
+     , (20611,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20611,  28,       2339) /* Spell - Energize Vitality */;

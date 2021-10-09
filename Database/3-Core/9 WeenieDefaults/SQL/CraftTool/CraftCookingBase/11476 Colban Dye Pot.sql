@@ -32,9 +32,9 @@ VALUES (11476,   1, 'Colban Dye Pot') /* Name */
      , (11476,  20, 'Colban Dye Pots') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11476,   1,   33556753) /* Setup */
-     , (11476,   3,  536870932) /* SoundTable */
-     , (11476,   6,   67111919) /* PaletteBase */
-     , (11476,   7,  268436036) /* ClothingBase */
-     , (11476,   8,  100670264) /* Icon */
-     , (11476,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11476,   1, 0x02000911) /* Setup */
+     , (11476,   3, 0x20000014) /* SoundTable */
+     , (11476,   6, 0x04000BEF) /* PaletteBase */
+     , (11476,   7, 0x10000244) /* ClothingBase */
+     , (11476,   8, 0x06001B38) /* Icon */
+     , (11476,  22, 0x3400002B) /* PhysicsEffectTable */;

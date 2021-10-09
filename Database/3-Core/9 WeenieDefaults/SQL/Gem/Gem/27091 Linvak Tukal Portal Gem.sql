@@ -37,12 +37,12 @@ VALUES (27091,   1, 'Linvak Tukal Portal Gem') /* Name */
      , (27091,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27091,   1,   33556769) /* Setup */
-     , (27091,   3,  536870932) /* SoundTable */
-     , (27091,   6,   67111919) /* PaletteBase */
-     , (27091,   7,  268435723) /* ClothingBase */
-     , (27091,   8,  100674862) /* Icon */
-     , (27091,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27091,   1, 0x02000921) /* Setup */
+     , (27091,   3, 0x20000014) /* SoundTable */
+     , (27091,   6, 0x04000BEF) /* PaletteBase */
+     , (27091,   7, 0x1000010B) /* ClothingBase */
+     , (27091,   8, 0x06002D2E) /* Icon */
+     , (27091,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27091,  28,        157) /* Spell - Summon Primary Portal I */
      , (27091,  31,       8401) /* LinkedPortalOne - Portal to Linvak Tukal */
-     , (27091,  36,  234881046) /* MutateFilter */;
+     , (27091,  36, 0x0E000016) /* MutateFilter */;

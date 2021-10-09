@@ -41,13 +41,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23703,   1, 'Lightning Tachi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23703,   1,   33555731) /* Setup */
-     , (23703,   3,  536870932) /* SoundTable */
-     , (23703,   6,   67111919) /* PaletteBase */
-     , (23703,   7,  268435788) /* ClothingBase */
-     , (23703,   8,  100667934) /* Icon */
-     , (23703,  22,  872415275) /* PhysicsEffectTable */
-     , (23703,  36,  234881044) /* MutateFilter */;
+VALUES (23703,   1, 0x02000513) /* Setup */
+     , (23703,   3, 0x20000014) /* SoundTable */
+     , (23703,   6, 0x04000BEF) /* PaletteBase */
+     , (23703,   7, 0x1000014C) /* ClothingBase */
+     , (23703,   8, 0x0600121E) /* Icon */
+     , (23703,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (23703,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23703,  1616,      2)  /* Aura of Blood Drinker Self VI */

@@ -22,7 +22,7 @@ VALUES (22712,   1, 'Crude Tusker Painting') /* Name */
      , (22712,  16, 'A childlike painting that shows a Tusker with one hand missing fighting against an enormous Monouga.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22712,   1,   33558139) /* Setup */
-     , (22712,   6,   67111092) /* PaletteBase */
-     , (22712,   7,  268436537) /* ClothingBase */
-     , (22712,   8,  100668115) /* Icon */;
+VALUES (22712,   1, 0x02000E7B) /* Setup */
+     , (22712,   6, 0x040008B4) /* PaletteBase */
+     , (22712,   7, 0x10000439) /* ClothingBase */
+     , (22712,   8, 0x060012D3) /* Icon */;

@@ -44,13 +44,13 @@ VALUES (27128,   1, 'Ancient Armored Bracers') /* Name */
      , (27128,  15, 'This armored bracer appears to have been an ornamental piece. Obviously this is only one part of a complete suit of armor.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27128,   1,   33554641) /* Setup */
-     , (27128,   3,  536870932) /* SoundTable */
-     , (27128,   6,   67108990) /* PaletteBase */
-     , (27128,   7,  268436796) /* ClothingBase */
-     , (27128,   8,  100675918) /* Icon */
-     , (27128,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27128,   1, 0x020000D1) /* Setup */
+     , (27128,   3, 0x20000014) /* SoundTable */
+     , (27128,   6, 0x0400007E) /* PaletteBase */
+     , (27128,   7, 0x1000053C) /* ClothingBase */
+     , (27128,   8, 0x0600314E) /* Icon */
+     , (27128,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27128,  3092,      2)  /* Lesser Skin of the Fiazhat */
-     , (27128,  3153,      2)  /* Lesser Scythe Aegis */;
+VALUES (27128,  3153,      2)  /* Lesser Scythe Aegis */
+     , (27128,  3092,      2)  /* Lesser Skin of the Fiazhat */;

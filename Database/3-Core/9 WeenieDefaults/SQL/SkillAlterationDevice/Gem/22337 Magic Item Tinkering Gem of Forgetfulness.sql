@@ -13,7 +13,7 @@ VALUES (22337,   1,       2048) /* ItemType - Gem */
      , (22337,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22337, 114,          1) /* Attuned - Attuned */
      , (22337, 185,          2) /* TypeOfAlteration */
-     , (22337, 186,         30) /* SkillToBeAltered */;
+     , (22337, 186,         30) /* SkillToBeAltered - MagicItemTinkering */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22337,  22, True ) /* Inscribable */
@@ -25,8 +25,8 @@ VALUES (22337,   1, 'Magic Item Tinkering Gem of Forgetfulness') /* Name */
      , (22337,  33, 'SkillAlterationGemPickedUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22337,   1,   33558087) /* Setup */
-     , (22337,   6,   67111919) /* PaletteBase */
-     , (22337,   7,  268435723) /* ClothingBase */
-     , (22337,   8,  100673789) /* Icon */
-     , (22337,  50,  100673776) /* IconOverlay */;
+VALUES (22337,   1, 0x02000E47) /* Setup */
+     , (22337,   6, 0x04000BEF) /* PaletteBase */
+     , (22337,   7, 0x1000010B) /* ClothingBase */
+     , (22337,   8, 0x060028FD) /* Icon */
+     , (22337,  50, 0x060028F0) /* IconOverlay */;

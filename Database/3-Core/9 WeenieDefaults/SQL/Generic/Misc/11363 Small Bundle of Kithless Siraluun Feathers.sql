@@ -25,9 +25,9 @@ VALUES (11363,   1, 'Small Bundle of Kithless Siraluun Feathers') /* Name */
      , (11363,  15, 'A small bundle of Kithless Siraluun Feathers.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11363,   1,   33554817) /* Setup */
-     , (11363,   3,  536870932) /* SoundTable */
-     , (11363,   6,   67111919) /* PaletteBase */
-     , (11363,   7,  268435832) /* ClothingBase */
-     , (11363,   8,  100671851) /* Icon */
-     , (11363,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11363,   1, 0x02000181) /* Setup */
+     , (11363,   3, 0x20000014) /* SoundTable */
+     , (11363,   6, 0x04000BEF) /* PaletteBase */
+     , (11363,   7, 0x10000178) /* ClothingBase */
+     , (11363,   8, 0x0600216B) /* Icon */
+     , (11363,  22, 0x3400002B) /* PhysicsEffectTable */;

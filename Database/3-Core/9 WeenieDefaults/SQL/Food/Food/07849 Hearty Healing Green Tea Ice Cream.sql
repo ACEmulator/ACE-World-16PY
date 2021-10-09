@@ -30,9 +30,9 @@ VALUES (7849,   1, 'Hearty Healing Green Tea Ice Cream') /* Name */
      , (7849,  20, 'Hearty Healing Green Tea Ice Creams') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7849,   1,   33554668) /* Setup */
-     , (7849,   3,  536870932) /* SoundTable */
-     , (7849,   6,   67111928) /* PaletteBase */
-     , (7849,   7,  268436021) /* ClothingBase */
-     , (7849,   8,  100670862) /* Icon */
-     , (7849,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7849,   1, 0x020000EC) /* Setup */
+     , (7849,   3, 0x20000014) /* SoundTable */
+     , (7849,   6, 0x04000BF8) /* PaletteBase */
+     , (7849,   7, 0x10000235) /* ClothingBase */
+     , (7849,   8, 0x06001D8E) /* Icon */
+     , (7849,  22, 0x3400002B) /* PhysicsEffectTable */;

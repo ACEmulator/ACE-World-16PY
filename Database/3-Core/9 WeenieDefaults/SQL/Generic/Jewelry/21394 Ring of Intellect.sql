@@ -34,14 +34,14 @@ VALUES (21394,   1, 'Ring of Intellect') /* Name */
      , (21394,  15, 'An obsidian ring with a precious sapphire set within.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21394,   1,   33554690) /* Setup */
-     , (21394,   3,  536870932) /* SoundTable */
-     , (21394,   6,   67111919) /* PaletteBase */
-     , (21394,   7,  268435754) /* ClothingBase */
-     , (21394,   8,  100673499) /* Icon */
-     , (21394,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21394,   1, 0x02000102) /* Setup */
+     , (21394,   3, 0x20000014) /* SoundTable */
+     , (21394,   6, 0x04000BEF) /* PaletteBase */
+     , (21394,   7, 0x1000012A) /* ClothingBase */
+     , (21394,   8, 0x060027DB) /* Icon */
+     , (21394,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21394,   663,      2)  /* Mana Conversion Mastery Other V */
-     , (21394,  1455,      2)  /* Willpower Other V */
-     , (21394,  2691,      2)  /* Moderate Mana Conversion Prowess */;
+VALUES (21394,  2691,      2)  /* Moderate Mana Conversion Prowess */
+     , (21394,   663,      2)  /* Mana Conversion Mastery Other V */
+     , (21394,  1455,      2)  /* Willpower Other V */;

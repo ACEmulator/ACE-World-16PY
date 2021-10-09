@@ -22,5 +22,5 @@ VALUES (15238,   1, 'Maythen Geroyu Villas') /* Name */
      , (15238,  16, 'Welcome to Maythen Geroyu Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15238,   1,   33557463) /* Setup */
-     , (15238,   8,  100668115) /* Icon */;
+VALUES (15238,   1, 0x02000BD7) /* Setup */
+     , (15238,   8, 0x060012D3) /* Icon */;

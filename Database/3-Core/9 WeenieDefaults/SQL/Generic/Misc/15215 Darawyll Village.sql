@@ -22,5 +22,5 @@ VALUES (15215,   1, 'Darawyll Village') /* Name */
      , (15215,  16, 'Welcome to Darawyll Village') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15215,   1,   33557463) /* Setup */
-     , (15215,   8,  100668115) /* Icon */;
+VALUES (15215,   1, 0x02000BD7) /* Setup */
+     , (15215,   8, 0x060012D3) /* Icon */;

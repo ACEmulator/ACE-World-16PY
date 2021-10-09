@@ -31,9 +31,9 @@ VALUES (7047,   1, 'Composite Arm') /* Name */
      , (7047,  16, 'A composite arm, made of the sinew of a Lugian and a Fire Auroch horn.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7047,   1,   33556599) /* Setup */
-     , (7047,   3,  536870932) /* SoundTable */
-     , (7047,   6,   67112869) /* PaletteBase */
-     , (7047,   7,  268436000) /* ClothingBase */
-     , (7047,   8,  100670673) /* Icon */
-     , (7047,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7047,   1, 0x02000877) /* Setup */
+     , (7047,   3, 0x20000014) /* SoundTable */
+     , (7047,   6, 0x04000FA5) /* PaletteBase */
+     , (7047,   7, 0x10000220) /* ClothingBase */
+     , (7047,   8, 0x06001CD1) /* Icon */
+     , (7047,  22, 0x3400002B) /* PhysicsEffectTable */;

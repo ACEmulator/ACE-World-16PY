@@ -28,10 +28,10 @@ VALUES (9587,   1, 'Spear Skill Puzzle Piece') /* Name */
      , (9587,  16, 'A Spear skill puzzle piece.  Combine it with a Skill Puzzle Base Piece.  This item requires Spear skill to assemble.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9587,   1,   33554669) /* Setup */
-     , (9587,   3,  536870932) /* SoundTable */
-     , (9587,   6,   67111928) /* PaletteBase */
-     , (9587,   7,  268436178) /* ClothingBase */
-     , (9587,   8,  100671547) /* Icon */
-     , (9587,  22,  872415275) /* PhysicsEffectTable */
-     , (9587,  36,  234881046) /* MutateFilter */;
+VALUES (9587,   1, 0x020000ED) /* Setup */
+     , (9587,   3, 0x20000014) /* SoundTable */
+     , (9587,   6, 0x04000BF8) /* PaletteBase */
+     , (9587,   7, 0x100002D2) /* ClothingBase */
+     , (9587,   8, 0x0600203B) /* Icon */
+     , (9587,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (9587,  36, 0x0E000016) /* MutateFilter */;

@@ -25,9 +25,9 @@ VALUES (29902,   1, 'Small Bundle of Tidal Siraluun Feathers') /* Name */
      , (29902,  15, 'A small bundle of Tidal Siraluun Feathers.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29902,   1,   33554817) /* Setup */
-     , (29902,   3,  536870932) /* SoundTable */
-     , (29902,   6,   67111919) /* PaletteBase */
-     , (29902,   7,  268435832) /* ClothingBase */
-     , (29902,   8,  100677296) /* Icon */
-     , (29902,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29902,   1, 0x02000181) /* Setup */
+     , (29902,   3, 0x20000014) /* SoundTable */
+     , (29902,   6, 0x04000BEF) /* PaletteBase */
+     , (29902,   7, 0x10000178) /* ClothingBase */
+     , (29902,   8, 0x060036B0) /* Icon */
+     , (29902,  22, 0x3400002B) /* PhysicsEffectTable */;

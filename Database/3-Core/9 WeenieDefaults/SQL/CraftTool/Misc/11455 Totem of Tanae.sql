@@ -36,7 +36,7 @@ VALUES (11455,   1, 'Totem of Tanae') /* Name */
      , (11455,  16, 'A beautifully carved greenstone totem of Tanae. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11455,   1,   33557270) /* Setup */
-     , (11455,   3,  536870932) /* SoundTable */
-     , (11455,   8,  100671996) /* Icon */
-     , (11455,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11455,   1, 0x02000B16) /* Setup */
+     , (11455,   3, 0x20000014) /* SoundTable */
+     , (11455,   8, 0x060021FC) /* Icon */
+     , (11455,  22, 0x3400002B) /* PhysicsEffectTable */;

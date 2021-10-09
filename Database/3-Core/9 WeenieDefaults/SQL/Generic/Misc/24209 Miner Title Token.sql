@@ -23,7 +23,7 @@ VALUES (24209,   1, 'Miner Title Token') /* Name */
      , (24209,  15, 'Hand this token to Kreavon to get the Title of Miner.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24209,   1,   33558119) /* Setup */
-     , (24209,   3,  536870932) /* SoundTable */
-     , (24209,   8,  100674309) /* Icon */
-     , (24209,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24209,   1, 0x02000E67) /* Setup */
+     , (24209,   3, 0x20000014) /* SoundTable */
+     , (24209,   8, 0x06002B05) /* Icon */
+     , (24209,  22, 0x3400002B) /* PhysicsEffectTable */;

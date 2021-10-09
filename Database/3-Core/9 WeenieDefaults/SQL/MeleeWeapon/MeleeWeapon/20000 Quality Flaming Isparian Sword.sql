@@ -49,16 +49,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20000,   1, 'Quality Flaming Isparian Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20000,   1,   33556349) /* Setup */
-     , (20000,   3,  536870932) /* SoundTable */
-     , (20000,   6,   67111919) /* PaletteBase */
-     , (20000,   7,  268436385) /* ClothingBase */
-     , (20000,   8,  100672951) /* Icon */
-     , (20000,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20000,   1, 0x0200077D) /* Setup */
+     , (20000,   3, 0x20000014) /* SoundTable */
+     , (20000,   6, 0x04000BEF) /* PaletteBase */
+     , (20000,   7, 0x100003A1) /* ClothingBase */
+     , (20000,   8, 0x060025B7) /* Icon */
+     , (20000,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20000,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20000,  1092,      2)  /* Fire Protection Self IV */
-     , (20000,  1329,      2)  /* Strength Self III */
      , (20000,  1589,      2)  /* Aura of Heart Seeker Self III */
-     , (20000,  1613,      2)  /* Aura of Blood Drinker Self III */;
+     , (20000,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (20000,  1329,      2)  /* Strength Self III */;

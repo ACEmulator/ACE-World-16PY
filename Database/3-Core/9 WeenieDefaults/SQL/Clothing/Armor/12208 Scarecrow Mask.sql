@@ -39,9 +39,9 @@ VALUES (12208,   1, 'Scarecrow Mask') /* Name */
      , (12208,  16, 'A hollowed out pumpkin that, oddly enough, fits right over your head!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12208,   1,   33557361) /* Setup */
-     , (12208,   3,  536870932) /* SoundTable */
-     , (12208,   6,   67108990) /* PaletteBase */
-     , (12208,   7,  268436266) /* ClothingBase */
-     , (12208,   8,  100672162) /* Icon */
-     , (12208,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12208,   1, 0x02000B71) /* Setup */
+     , (12208,   3, 0x20000014) /* SoundTable */
+     , (12208,   6, 0x0400007E) /* PaletteBase */
+     , (12208,   7, 0x1000032A) /* ClothingBase */
+     , (12208,   8, 0x060022A2) /* Icon */
+     , (12208,  22, 0x3400002B) /* PhysicsEffectTable */;

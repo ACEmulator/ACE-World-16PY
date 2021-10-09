@@ -27,5 +27,5 @@ VALUES (27672,   1, 'Carved Gemstone Lockpicks') /* Name */
      , (27672,  16, 'These lockpicks, carved from gems, seem to be perfect in every way. It is as though the pick was waiting to be found within the crystal. They seem to guide your hand with greater ease when used on locked objects.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27672,   1,   33554790) /* Setup */
-     , (27672,   8,  100676522) /* Icon */;
+VALUES (27672,   1, 0x02000166) /* Setup */
+     , (27672,   8, 0x060033AA) /* Icon */;

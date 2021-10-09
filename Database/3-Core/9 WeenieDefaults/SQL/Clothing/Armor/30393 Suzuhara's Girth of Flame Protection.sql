@@ -46,16 +46,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30393,   1, 'Suzuhara''s Girth of Flame Protection') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30393,   1,   33554960) /* Setup */
-     , (30393,   3,  536870932) /* SoundTable */
-     , (30393,   6,   67108990) /* PaletteBase */
-     , (30393,   7,  268436887) /* ClothingBase */
-     , (30393,   8,  100668142) /* Icon */
-     , (30393,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30393,   1, 0x02000210) /* Setup */
+     , (30393,   3, 0x20000014) /* SoundTable */
+     , (30393,   6, 0x0400007E) /* PaletteBase */
+     , (30393,   7, 0x10000597) /* ClothingBase */
+     , (30393,   8, 0x060012EE) /* Icon */
+     , (30393,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30393,   248,      2)  /* Invulnerability Self V */
-     , (30393,   260,      2)  /* Impregnability Self V */
-     , (30393,   278,      2)  /* Magic Resistance Self V */
+VALUES (30393,   260,      2)  /* Impregnability Self V */
      , (30393,  1093,      2)  /* Fire Protection Self V */
-     , (30393,  2618,      2)  /* Minor Flame Ward */;
+     , (30393,   278,      2)  /* Magic Resistance Self V */
+     , (30393,  2618,      2)  /* Minor Flame Ward */
+     , (30393,   248,      2)  /* Invulnerability Self V */;

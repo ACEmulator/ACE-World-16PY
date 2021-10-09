@@ -44,7 +44,7 @@ VALUES (11003,   1, 'Hollow Point Explosive Tipped Arrow') /* Name */
      , (11003,  16, 'An arrow with an explosive chorizite charge at the tip.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11003,   1,   33554724) /* Setup */
-     , (11003,   3,  536870932) /* SoundTable */
-     , (11003,   8,  100667622) /* Icon */
-     , (11003,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11003,   1, 0x02000124) /* Setup */
+     , (11003,   3, 0x20000014) /* SoundTable */
+     , (11003,   8, 0x060010E6) /* Icon */
+     , (11003,  22, 0x3400002B) /* PhysicsEffectTable */;

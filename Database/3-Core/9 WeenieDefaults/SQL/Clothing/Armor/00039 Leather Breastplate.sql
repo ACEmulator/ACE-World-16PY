@@ -37,11 +37,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39,   1, 'Leather Breastplate') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39,   1,   33554642) /* Setup */
-     , (39,   3,  536870932) /* SoundTable */
-     , (39,   6,   67108990) /* PaletteBase */
-     , (39,   7,  268435541) /* ClothingBase */
-     , (39,   8,  100667350) /* Icon */
-     , (39,  22,  872415275) /* PhysicsEffectTable */
-     , (39,  36,  234881042) /* MutateFilter */
-     , (39,  46,  939524146) /* TsysMutationFilter */;
+VALUES (39,   1, 0x020000D2) /* Setup */
+     , (39,   3, 0x20000014) /* SoundTable */
+     , (39,   6, 0x0400007E) /* PaletteBase */
+     , (39,   7, 0x10000055) /* ClothingBase */
+     , (39,   8, 0x06000FD6) /* Icon */
+     , (39,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (39,  36, 0x0E000012) /* MutateFilter */
+     , (39,  46, 0x38000032) /* TsysMutationFilter */;

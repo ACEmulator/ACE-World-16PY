@@ -45,17 +45,17 @@ VALUES (9138,   1, 'Vanguard Leader''s Morningstar') /* Name */
      , (9138,  33, 'TumerokVanguardMorningstar') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9138,   1,   33554748) /* Setup */
-     , (9138,   3,  536870932) /* SoundTable */
-     , (9138,   6,   67111919) /* PaletteBase */
-     , (9138,   7,  268435764) /* ClothingBase */
-     , (9138,   8,  100668965) /* Icon */
-     , (9138,  22,  872415275) /* PhysicsEffectTable */
-     , (9138,  36,  234881044) /* MutateFilter */
+VALUES (9138,   1, 0x0200013C) /* Setup */
+     , (9138,   3, 0x20000014) /* SoundTable */
+     , (9138,   6, 0x04000BEF) /* PaletteBase */
+     , (9138,   7, 0x10000134) /* ClothingBase */
+     , (9138,   8, 0x06001625) /* Icon */
+     , (9138,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (9138,  36, 0x0E000014) /* MutateFilter */
      , (9138,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9138,  1334,      2)  /* Strength Other III */
-     , (9138,  1589,      2)  /* Aura of Heart Seeker Self III */
+VALUES (9138,  1589,      2)  /* Aura of Heart Seeker Self III */
      , (9138,  1613,      2)  /* Aura of Blood Drinker Self III */
-     , (9138,  1624,      2)  /* Aura of Swift Killer Self III */;
+     , (9138,  1624,      2)  /* Aura of Swift Killer Self III */
+     , (9138,  1334,      2)  /* Strength Other III */;

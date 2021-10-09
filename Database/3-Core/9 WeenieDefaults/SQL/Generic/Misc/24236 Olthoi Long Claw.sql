@@ -24,7 +24,7 @@ VALUES (24236,   1, 'Olthoi Long Claw') /* Name */
      , (24236,  33, 'PickedUpOlthoiLongClaw') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24236,   1,   33556593) /* Setup */
-     , (24236,   3,  536870932) /* SoundTable */
-     , (24236,   8,  100674292) /* Icon */
-     , (24236,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24236,   1, 0x02000871) /* Setup */
+     , (24236,   3, 0x20000014) /* SoundTable */
+     , (24236,   8, 0x06002AF4) /* Icon */
+     , (24236,  22, 0x3400002B) /* PhysicsEffectTable */;

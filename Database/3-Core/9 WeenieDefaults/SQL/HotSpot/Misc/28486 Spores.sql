@@ -39,6 +39,6 @@ VALUES (28486,   1, 'Spores') /* Name */
      , (28486,  17, 'You lose %i health, as spores burrow into your eyes, throat and lungs.') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28486,   1,   33556024) /* Setup */
-     , (28486,   3,  536871007) /* SoundTable */
-     , (28486,   8,  100667465) /* Icon */;
+VALUES (28486,   1, 0x02000638) /* Setup */
+     , (28486,   3, 0x2000005F) /* SoundTable */
+     , (28486,   8, 0x06001049) /* Icon */;

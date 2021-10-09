@@ -37,10 +37,10 @@ VALUES (28452,   1, 'Stout Lugian Ale') /* Name */
      , (28452,  16, 'A strong scented cask of Lugian Ale. The froth is hearty and strong and the brew is pungent.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28452,   1,   33554665) /* Setup */
-     , (28452,   3,  536870932) /* SoundTable */
-     , (28452,   8,  100676962) /* Icon */
-     , (28452,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28452,   1, 0x020000E9) /* Setup */
+     , (28452,   3, 0x20000014) /* SoundTable */
+     , (28452,   8, 0x06003562) /* Icon */
+     , (28452,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28452,  23,         64) /* UseSound - Eat1 */
-     , (28452,  27,  318767233) /* UseUserAnimation - MimeEat */
+     , (28452,  27, 0x13000081) /* UseUserAnimation - MimeEat */
      , (28452,  28,       3442) /* Spell - Stamina of the Lugian */;

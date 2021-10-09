@@ -29,9 +29,9 @@ VALUES (14772,   1, 'Peppermint Monougat Chew') /* Name */
      , (14772,  20, 'Peppermint Monougat Chews') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14772,   1,   33555968) /* Setup */
-     , (14772,   3,  536870932) /* SoundTable */
-     , (14772,   6,   67111928) /* PaletteBase */
-     , (14772,   7,  268436333) /* ClothingBase */
-     , (14772,   8,  100672562) /* Icon */
-     , (14772,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14772,   1, 0x02000600) /* Setup */
+     , (14772,   3, 0x20000014) /* SoundTable */
+     , (14772,   6, 0x04000BF8) /* PaletteBase */
+     , (14772,   7, 0x1000036D) /* ClothingBase */
+     , (14772,   8, 0x06002432) /* Icon */
+     , (14772,  22, 0x3400002B) /* PhysicsEffectTable */;

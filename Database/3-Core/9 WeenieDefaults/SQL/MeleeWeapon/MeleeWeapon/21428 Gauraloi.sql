@@ -49,15 +49,15 @@ VALUES (21428,   1, 'Gauraloi') /* Name */
      , (21428,  15, 'A cestus constructed from obsidian and cerulean colored stone.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21428,   1,   33557960) /* Setup */
-     , (21428,   3,  536870932) /* SoundTable */
-     , (21428,   8,  100673487) /* Icon */
-     , (21428,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21428,   1, 0x02000DC8) /* Setup */
+     , (21428,   3, 0x20000014) /* SoundTable */
+     , (21428,   8, 0x060027CF) /* Icon */
+     , (21428,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21428,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21428,   441,      2)  /* Light Weapon Mastery Other V */
-     , (21428,  1591,      2)  /* Aura of Heart Seeker Self V */
      , (21428,  1604,      2)  /* Aura of Defender Self V */
+     , (21428,  1591,      2)  /* Aura of Heart Seeker Self V */
      , (21428,  1615,      2)  /* Aura of Blood Drinker Self V */
      , (21428,  1624,      2)  /* Aura of Swift Killer Self III */;

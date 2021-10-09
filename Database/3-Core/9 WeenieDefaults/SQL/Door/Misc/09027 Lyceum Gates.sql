@@ -30,8 +30,8 @@ VALUES (9027,   1, 'Lyceum Gates') /* Name */
      , (9027,  14, 'This door cannot be activated from here.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9027,   1,   33556905) /* Setup */
-     , (9027,   2,  150995078) /* MotionTable */
-     , (9027,   3,  536870946) /* SoundTable */
-     , (9027,   8,  100668183) /* Icon */
-     , (9027,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9027,   1, 0x020009A9) /* Setup */
+     , (9027,   2, 0x09000086) /* MotionTable */
+     , (9027,   3, 0x20000022) /* SoundTable */
+     , (9027,   8, 0x06001317) /* Icon */
+     , (9027,  22, 0x3400002B) /* PhysicsEffectTable */;

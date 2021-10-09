@@ -28,13 +28,13 @@ VALUES (14416,   1, 'Trap Door') /* Name */
      , (14416,  22, 'The Trap Door is stuck.') /* ActivationFailure */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14416,   1,   33555231) /* Setup */
-     , (14416,   2,  150995055) /* MotionTable */
-     , (14416,   3,  536870981) /* SoundTable */
-     , (14416,   8,  100667624) /* Icon */
-     , (14416,  22,  872415275) /* PhysicsEffectTable */
-     , (14416,  24,  268435537) /* UseTargetAnimation - Twitch1 */
+VALUES (14416,   1, 0x0200031F) /* Setup */
+     , (14416,   2, 0x0900006F) /* MotionTable */
+     , (14416,   3, 0x20000045) /* SoundTable */
+     , (14416,   8, 0x060010E8) /* Icon */
+     , (14416,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (14416,  24, 0x10000051) /* UseTargetAnimation - Twitch1 */
      , (14416,  28,       2365) /* Spell - something you're gonna fear for a long time */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14416,  16,          0) /* ActivationTarget */;
+VALUES (14416,  16, 0x00000000) /* ActivationTarget */;

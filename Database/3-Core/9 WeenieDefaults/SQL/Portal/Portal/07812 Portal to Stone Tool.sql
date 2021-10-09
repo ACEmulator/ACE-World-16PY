@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7812,   1, 'Portal to Stone Tool') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7812,   1,   33554867) /* Setup */
-     , (7812,   2,  150994947) /* MotionTable */
-     , (7812,   8,  100667499) /* Icon */;
+VALUES (7812,   1, 0x020001B3) /* Setup */
+     , (7812,   2, 0x09000003) /* MotionTable */
+     , (7812,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7812, 2, 20382006, 236.4, -80.1, -108, 0.6845471, 0, 0, -0.7289687) /* Destination */
-/* @teleloc 0x01370136 [236.400000 -80.100000 -108.000000] 0.684547 0.000000 0.000000 -0.728969 */;
+VALUES (7812, 2, 0x01370136, 236.4, -80.1, -108, 0.684547, 0, 0, -0.728969) /* Destination */
+/* @teleloc 0x01370136 [236.399994 -80.099998 -108.000000] 0.684547 0.000000 0.000000 -0.728969 */;

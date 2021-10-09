@@ -23,7 +23,7 @@ VALUES (249,   1, 'Into the Unknown') /* Name */
      , (249,  15, 'This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (249,   1,   33557343) /* Setup */
-     , (249,   3,  536870932) /* SoundTable */
-     , (249,   8,  100672345) /* Icon */
-     , (249,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (249,   1, 0x02000B5F) /* Setup */
+     , (249,   3, 0x20000014) /* SoundTable */
+     , (249,   8, 0x06002359) /* Icon */
+     , (249,  22, 0x3400002B) /* PhysicsEffectTable */;

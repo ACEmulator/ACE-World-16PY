@@ -38,11 +38,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28163,   1, 'Round Shield') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28163,   1,   33554786) /* Setup */
-     , (28163,   3,  536870932) /* SoundTable */
-     , (28163,   6,   67111919) /* PaletteBase */
-     , (28163,   7,  268435806) /* ClothingBase */
-     , (28163,   8,  100668415) /* Icon */
-     , (28163,  22,  872415275) /* PhysicsEffectTable */
-     , (28163,  36,  234881043) /* MutateFilter */
-     , (28163,  46,  939524147) /* TsysMutationFilter */;
+VALUES (28163,   1, 0x02000162) /* Setup */
+     , (28163,   3, 0x20000014) /* SoundTable */
+     , (28163,   6, 0x04000BEF) /* PaletteBase */
+     , (28163,   7, 0x1000015E) /* ClothingBase */
+     , (28163,   8, 0x060013FF) /* Icon */
+     , (28163,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (28163,  36, 0x0E000013) /* MutateFilter */
+     , (28163,  46, 0x38000033) /* TsysMutationFilter */;

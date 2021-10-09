@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5127,   1, 'Nanto Rat Lair Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5127,   1,   33554867) /* Setup */
-     , (5127,   2,  150994947) /* MotionTable */
-     , (5127,   8,  100667499) /* Icon */;
+VALUES (5127,   1, 0x020001B3) /* Setup */
+     , (5127,   2, 0x09000003) /* MotionTable */
+     , (5127,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5127, 2, 22806785, 3.272, -32.811, 0, 0.4046469, 0, 0, -0.914473) /* Destination */
-/* @teleloc 0x015C0101 [3.272000 -32.811000 0.000000] 0.404647 0.000000 0.000000 -0.914473 */;
+VALUES (5127, 2, 0x015C0101, 3.272, -32.811, 0, 0.404647, 0, 0, -0.914473) /* Destination */
+/* @teleloc 0x015C0101 [3.272000 -32.811001 0.000000] 0.404647 0.000000 0.000000 -0.914473 */;

@@ -36,12 +36,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3751,   1, 'Lightning Battle Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3751,   1,   33555704) /* Setup */
-     , (3751,   3,  536870932) /* SoundTable */
-     , (3751,   6,   67111919) /* PaletteBase */
-     , (3751,   7,  268435780) /* ClothingBase */
-     , (3751,   8,  100667606) /* Icon */
-     , (3751,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3751,   1, 0x020004F8) /* Setup */
+     , (3751,   3, 0x20000014) /* SoundTable */
+     , (3751,   6, 0x04000BEF) /* PaletteBase */
+     , (3751,   7, 0x10000144) /* ClothingBase */
+     , (3751,   8, 0x060010D6) /* Icon */
+     , (3751,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3751,  30,         88) /* PhysicsScript - Create */
-     , (3751,  36,  234881053) /* MutateFilter */
-     , (3751,  46,  939524098) /* TsysMutationFilter */;
+     , (3751,  36, 0x0E00001D) /* MutateFilter */
+     , (3751,  46, 0x38000002) /* TsysMutationFilter */;

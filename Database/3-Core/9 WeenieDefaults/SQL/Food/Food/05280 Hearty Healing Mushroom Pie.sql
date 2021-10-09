@@ -29,7 +29,7 @@ VALUES (5280,   1, 'Hearty Healing Mushroom Pie') /* Name */
      , (5280,  20, 'Hearty Healing Mushroom Pies') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5280,   1,   33555978) /* Setup */
-     , (5280,   3,  536870932) /* SoundTable */
-     , (5280,   8,  100669964) /* Icon */
-     , (5280,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5280,   1, 0x0200060A) /* Setup */
+     , (5280,   3, 0x20000014) /* SoundTable */
+     , (5280,   8, 0x06001A0C) /* Icon */
+     , (5280,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -45,14 +45,14 @@ VALUES (2032,   1, 'Branith''s Shirt') /* Name */
      , (2032,  16, 'A well-mended leather shirt. Inside the collar is a small tag which reads: Branith.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2032,   1,   33558287) /* Setup */
-     , (2032,   3,  536870932) /* SoundTable */
-     , (2032,   6,   67108990) /* PaletteBase */
-     , (2032,   7,  268436589) /* ClothingBase */
-     , (2032,   8,  100674240) /* Icon */
-     , (2032,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2032,   1, 0x02000F0F) /* Setup */
+     , (2032,   3, 0x20000014) /* SoundTable */
+     , (2032,   6, 0x0400007E) /* PaletteBase */
+     , (2032,   7, 0x1000046D) /* ClothingBase */
+     , (2032,   8, 0x06002AC0) /* Icon */
+     , (2032,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2032,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2032,  1033,      2)  /* Cold Protection Self IV */
-     , (2032,  1092,      2)  /* Fire Protection Self IV */;
+VALUES (2032,  1092,      2)  /* Fire Protection Self IV */
+     , (2032,  1033,      2)  /* Cold Protection Self IV */;

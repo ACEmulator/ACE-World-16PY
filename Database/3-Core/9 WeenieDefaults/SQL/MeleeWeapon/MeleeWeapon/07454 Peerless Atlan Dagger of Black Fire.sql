@@ -45,18 +45,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7454,   1, 'Peerless Atlan Dagger of Black Fire') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7454,   1,   33557400) /* Setup */
-     , (7454,   3,  536870932) /* SoundTable */
-     , (7454,   6,   67111919) /* PaletteBase */
-     , (7454,   7,  268435888) /* ClothingBase */
-     , (7454,   8,  100670523) /* Icon */
-     , (7454,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7454,   1, 0x02000B98) /* Setup */
+     , (7454,   3, 0x20000014) /* SoundTable */
+     , (7454,   6, 0x04000BEF) /* PaletteBase */
+     , (7454,   7, 0x100001B0) /* ClothingBase */
+     , (7454,   8, 0x06001C3B) /* Icon */
+     , (7454,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7454,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7454,   327,      2)  /* Finesse Weapon Mastery Self VI */
-     , (7454,  1592,      2)  /* Aura of Heart Seeker Self VI */
+VALUES (7454,  1846,      2)  /* Curse of Black Fire */
      , (7454,  1605,      2)  /* Aura of Defender Self VI */
+     , (7454,   327,      2)  /* Finesse Weapon Mastery Self VI */
+     , (7454,  1592,      2)  /* Aura of Heart Seeker Self VI */
      , (7454,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (7454,  1627,      2)  /* Aura of Swift Killer Self VI */
-     , (7454,  1846,      2)  /* Curse of Black Fire */;
+     , (7454,  1627,      2)  /* Aura of Swift Killer Self VI */;

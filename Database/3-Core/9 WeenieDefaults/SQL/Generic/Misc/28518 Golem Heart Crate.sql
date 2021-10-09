@@ -27,9 +27,9 @@ VALUES (28518,   1, 'Golem Heart Crate') /* Name */
      , (28518,  16, 'This crate is full of golem hearts, collected at the behest of Captain K''rank in Linvak Tukal. You should return this to him for your reward.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28518,   1,   33554817) /* Setup */
-     , (28518,   3,  536870932) /* SoundTable */
-     , (28518,   6,   67111919) /* PaletteBase */
-     , (28518,   7,  268435832) /* ClothingBase */
-     , (28518,   8,  100676970) /* Icon */
-     , (28518,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28518,   1, 0x02000181) /* Setup */
+     , (28518,   3, 0x20000014) /* SoundTable */
+     , (28518,   6, 0x04000BEF) /* PaletteBase */
+     , (28518,   7, 0x10000178) /* ClothingBase */
+     , (28518,   8, 0x0600356A) /* Icon */
+     , (28518,  22, 0x3400002B) /* PhysicsEffectTable */;

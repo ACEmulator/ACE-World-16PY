@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11340,   1, 'Carenzi Pouchling Pelt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11340,   1,   33554817) /* Setup */
-     , (11340,   3,  536870932) /* SoundTable */
-     , (11340,   6,   67111919) /* PaletteBase */
-     , (11340,   7,  268435832) /* ClothingBase */
-     , (11340,   8,  100671835) /* Icon */
-     , (11340,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11340,   1, 0x02000181) /* Setup */
+     , (11340,   3, 0x20000014) /* SoundTable */
+     , (11340,   6, 0x04000BEF) /* PaletteBase */
+     , (11340,   7, 0x10000178) /* ClothingBase */
+     , (11340,   8, 0x0600215B) /* Icon */
+     , (11340,  22, 0x3400002B) /* PhysicsEffectTable */;

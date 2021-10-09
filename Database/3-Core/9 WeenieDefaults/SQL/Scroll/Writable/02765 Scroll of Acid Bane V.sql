@@ -25,7 +25,7 @@ VALUES (2765,   1, 'Scroll of Acid Bane V') /* Name */
      , (2765,  16, 'When learned, this spell increases a shield or piece of armor''s resistance to acid damage by 100%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2765,   1,   33554826) /* Setup */
-     , (2765,   8,  100676648) /* Icon */
-     , (2765,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2765,   1, 0x0200018A) /* Setup */
+     , (2765,   8, 0x06003428) /* Icon */
+     , (2765,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2765,  28,       1497) /* Spell - Acid Bane V */;

@@ -54,17 +54,17 @@ VALUES (25612,   1, 'Electric Weeping Claw') /* Name */
      , (25612,  15, 'A claw infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25612,   1,   33558484) /* Setup */
-     , (25612,   3,  536870932) /* SoundTable */
-     , (25612,   6,   67114522) /* PaletteBase */
-     , (25612,   7,  268436698) /* ClothingBase */
-     , (25612,   8,  100674888) /* Icon */
-     , (25612,  22,  872415275) /* PhysicsEffectTable */
-     , (25612,  36,  234881044) /* MutateFilter */;
+VALUES (25612,   1, 0x02000FD4) /* Setup */
+     , (25612,   3, 0x20000014) /* SoundTable */
+     , (25612,   6, 0x0400161A) /* PaletteBase */
+     , (25612,   7, 0x100004DA) /* ClothingBase */
+     , (25612,   8, 0x06002D48) /* Icon */
+     , (25612,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (25612,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25612,  2696,      2)  /* Moderate Light Weapon Aptitude */
+VALUES (25612,  2967,      2)  /* Aura of The Speedy Hunter */
+     , (25612,  2696,      2)  /* Moderate Light Weapon Aptitude */
      , (25612,  2963,      2)  /* Aura of Hunter's Cunning */
      , (25612,  2964,      2)  /* Aura of Hunter's Mark */
-     , (25612,  2966,      2)  /* Aura of Murderous Thirst */
-     , (25612,  2967,      2)  /* Aura of The Speedy Hunter */;
+     , (25612,  2966,      2)  /* Aura of Murderous Thirst */;

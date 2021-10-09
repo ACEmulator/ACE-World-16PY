@@ -27,13 +27,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6430,   1, 'Large Pressure Plate') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6430,   1,   33555536) /* Setup */
-     , (6430,   2,  150994977) /* MotionTable */
-     , (6430,   8,  100668114) /* Icon */
-     , (6430,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6430,   1, 0x02000450) /* Setup */
+     , (6430,   2, 0x09000021) /* MotionTable */
+     , (6430,   8, 0x060012D2) /* Icon */
+     , (6430,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6430,  16,          0) /* ActivationTarget */;
+VALUES (6430,  16, 0x00000000) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6430, -1, 3666, 800, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Place Holder Object (3666) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

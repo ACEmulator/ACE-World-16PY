@@ -22,5 +22,5 @@ VALUES (15231,   1, 'Kelnen Village') /* Name */
      , (15231,  16, 'Welcome to Kelnen Village') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15231,   1,   33557463) /* Setup */
-     , (15231,   8,  100668115) /* Icon */;
+VALUES (15231,   1, 0x02000BD7) /* Setup */
+     , (15231,   8, 0x060012D3) /* Icon */;

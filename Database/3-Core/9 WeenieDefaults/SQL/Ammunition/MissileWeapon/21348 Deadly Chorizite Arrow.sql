@@ -46,9 +46,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21348,   1, 'Deadly Chorizite Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21348,   1,   33558045) /* Setup */
-     , (21348,   3,  536870932) /* SoundTable */
-     , (21348,   6,   67111919) /* PaletteBase */
-     , (21348,   7,  268436303) /* ClothingBase */
-     , (21348,   8,  100673585) /* Icon */
-     , (21348,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21348,   1, 0x02000E1D) /* Setup */
+     , (21348,   3, 0x20000014) /* SoundTable */
+     , (21348,   6, 0x04000BEF) /* PaletteBase */
+     , (21348,   7, 0x1000034F) /* ClothingBase */
+     , (21348,   8, 0x06002831) /* Icon */
+     , (21348,  22, 0x3400002B) /* PhysicsEffectTable */;

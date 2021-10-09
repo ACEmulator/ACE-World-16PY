@@ -25,7 +25,7 @@ VALUES (25759,   1, 'Shrubbery') /* Name */
      , (25759,  16, 'A green bush used to decorate yards.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25759,   1,   33558531) /* Setup */
-     , (25759,   3,  536870932) /* SoundTable */
-     , (25759,   8,  100675563) /* Icon */
-     , (25759,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25759,   1, 0x02001003) /* Setup */
+     , (25759,   3, 0x20000014) /* SoundTable */
+     , (25759,   8, 0x06002FEB) /* Icon */
+     , (25759,  22, 0x3400002B) /* PhysicsEffectTable */;

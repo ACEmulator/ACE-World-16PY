@@ -36,11 +36,11 @@ VALUES (26094,   1, 'Bellig Mesa Cottages Portal Gem') /* Name */
      , (26094,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26094,   1,   33556769) /* Setup */
-     , (26094,   3,  536870932) /* SoundTable */
-     , (26094,   6,   67111919) /* PaletteBase */
-     , (26094,   7,  268435723) /* ClothingBase */
-     , (26094,   8,  100675760) /* Icon */
-     , (26094,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26094,   1, 0x02000921) /* Setup */
+     , (26094,   3, 0x20000014) /* SoundTable */
+     , (26094,   6, 0x04000BEF) /* PaletteBase */
+     , (26094,   7, 0x1000010B) /* ClothingBase */
+     , (26094,   8, 0x060030B0) /* Icon */
+     , (26094,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26094,  28,        157) /* Spell - Summon Primary Portal I */
      , (26094,  31,      14612) /* LinkedPortalOne - Bellig Mesa Cottages Portal */;

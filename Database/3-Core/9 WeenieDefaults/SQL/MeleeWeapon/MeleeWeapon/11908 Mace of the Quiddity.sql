@@ -42,15 +42,15 @@ VALUES (11908,   1, 'Mace of the Quiddity') /* Name */
      , (11908,  16, 'A weapon made of a strange pulsating energy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11908,   1,   33557110) /* Setup */
-     , (11908,   3,  536870932) /* SoundTable */
-     , (11908,   8,  100671697) /* Icon */
-     , (11908,  22,  872415275) /* PhysicsEffectTable */
-     , (11908,  36,  234881044) /* MutateFilter */
+VALUES (11908,   1, 0x02000A76) /* Setup */
+     , (11908,   3, 0x20000014) /* SoundTable */
+     , (11908,   8, 0x060020D1) /* Icon */
+     , (11908,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11908,  36, 0x0E000014) /* MutateFilter */
      , (11908,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11908,  1590,      2)  /* Aura of Heart Seeker Self IV */
-     , (11908,  1603,      2)  /* Aura of Defender Self IV */
+VALUES (11908,  1603,      2)  /* Aura of Defender Self IV */
+     , (11908,  1590,      2)  /* Aura of Heart Seeker Self IV */
      , (11908,  1614,      2)  /* Aura of Blood Drinker Self IV */
      , (11908,  1626,      2)  /* Aura of Swift Killer Self V */;

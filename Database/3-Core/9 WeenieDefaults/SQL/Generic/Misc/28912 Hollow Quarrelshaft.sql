@@ -23,6 +23,6 @@ VALUES (28912,   1, 'Hollow Quarrelshaft') /* Name */
      , (28912,  16, 'This quarrelshaft has been expertly hollowed out with a whittling knife.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28912,   1,   33557505) /* Setup */
-     , (28912,   8,  100669990) /* Icon */
-     , (28912,  50,  100677048) /* IconOverlay */;
+VALUES (28912,   1, 0x02000C01) /* Setup */
+     , (28912,   8, 0x06001A26) /* Icon */
+     , (28912,  50, 0x060035B8) /* IconOverlay */;

@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14677,   1, 'West Zaikhal Freehold Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14677,   1,   33554867) /* Setup */
-     , (14677,   2,  150994947) /* MotionTable */
-     , (14677,   8,  100667499) /* Icon */;
+VALUES (14677,   1, 0x020001B3) /* Setup */
+     , (14677,   2, 0x09000003) /* MotionTable */
+     , (14677,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14677, 2, 1939079205, 110.462, 115.974, 76.005, -0.07703228, 0, 0, -0.9970286) /* Destination */
-/* @teleloc 0x73940025 [110.462000 115.974000 76.005000] -0.077032 0.000000 0.000000 -0.997029 */;
+VALUES (14677, 2, 0x73940025, 110.462, 115.974, 76.005, -0.077032, 0, -0, -0.997029) /* Destination */
+/* @teleloc 0x73940025 [110.461998 115.973999 76.004997] -0.077032 0.000000 -0.000000 -0.997029 */;

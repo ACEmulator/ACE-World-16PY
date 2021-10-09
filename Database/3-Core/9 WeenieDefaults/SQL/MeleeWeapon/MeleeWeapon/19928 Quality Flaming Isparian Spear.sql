@@ -49,16 +49,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19928,   1, 'Quality Flaming Isparian Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19928,   1,   33556335) /* Setup */
-     , (19928,   3,  536870932) /* SoundTable */
-     , (19928,   6,   67111919) /* PaletteBase */
-     , (19928,   7,  268436383) /* ClothingBase */
-     , (19928,   8,  100672931) /* Icon */
-     , (19928,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19928,   1, 0x0200076F) /* Setup */
+     , (19928,   3, 0x20000014) /* SoundTable */
+     , (19928,   6, 0x04000BEF) /* PaletteBase */
+     , (19928,   7, 0x1000039F) /* ClothingBase */
+     , (19928,   8, 0x060025A3) /* Icon */
+     , (19928,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19928,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19928,  1092,      2)  /* Fire Protection Self IV */
-     , (19928,  1329,      2)  /* Strength Self III */
      , (19928,  1589,      2)  /* Aura of Heart Seeker Self III */
-     , (19928,  1613,      2)  /* Aura of Blood Drinker Self III */;
+     , (19928,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (19928,  1329,      2)  /* Strength Self III */;

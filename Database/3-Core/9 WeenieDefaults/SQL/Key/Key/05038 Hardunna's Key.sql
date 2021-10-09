@@ -26,7 +26,7 @@ VALUES (5038,   1, 'Hardunna''s Key') /* Name */
      , (5038,  16, 'Hardunna''s key to her family''s chest in the Holtburg Redoubt.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5038,   1,   33554784) /* Setup */
-     , (5038,   3,  536870932) /* SoundTable */
-     , (5038,   8,  100667485) /* Icon */
-     , (5038,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5038,   1, 0x02000160) /* Setup */
+     , (5038,   3, 0x20000014) /* SoundTable */
+     , (5038,   8, 0x0600105D) /* Icon */
+     , (5038,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -31,11 +31,11 @@ VALUES (14861,   1, 'Buadren') /* Name */
      , (14861,  15, 'A Tumerok drum. Aun Tikakhe would be interested in seeing this.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14861,   1,   33557297) /* Setup */
-     , (14861,   3,  536870932) /* SoundTable */
-     , (14861,   6,   67113783) /* PaletteBase */
-     , (14861,   7,  268436324) /* ClothingBase */
-     , (14861,   8,  100672059) /* Icon */
-     , (14861,  22,  872415275) /* PhysicsEffectTable */
-     , (14861,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
-     , (14861,  36,  234881046) /* MutateFilter */;
+VALUES (14861,   1, 0x02000B31) /* Setup */
+     , (14861,   3, 0x20000014) /* SoundTable */
+     , (14861,   6, 0x04001337) /* PaletteBase */
+     , (14861,   7, 0x10000364) /* ClothingBase */
+     , (14861,   8, 0x0600223B) /* Icon */
+     , (14861,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (14861,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
+     , (14861,  36, 0x0E000016) /* MutateFilter */;

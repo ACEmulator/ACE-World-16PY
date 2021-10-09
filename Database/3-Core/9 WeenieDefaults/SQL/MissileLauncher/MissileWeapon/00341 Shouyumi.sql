@@ -16,7 +16,7 @@ VALUES (341,   1,        256) /* ItemType - MissileWeapon */
      , (341,  48,          2) /* WeaponSkill - Bow */
      , (341,  49,         35) /* WeaponTime */
      , (341,  50,          1) /* AmmoType - Arrow */
-     , (341,  51,          2) /* CombatUse - Missle */
+     , (341,  51,          2) /* CombatUse - Missile */
      , (341,  52,          2) /* ParentLocation - LeftHand */
      , (341,  53,          3) /* PlacementPosition - LeftHand */
      , (341,  60,        160) /* WeaponRange */
@@ -39,11 +39,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (341,   1, 'Shouyumi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (341,   1,   33554729) /* Setup */
-     , (341,   3,  536870932) /* SoundTable */
-     , (341,   6,   67111919) /* PaletteBase */
-     , (341,   7,  268435760) /* ClothingBase */
-     , (341,   8,  100668825) /* Icon */
-     , (341,  22,  872415275) /* PhysicsEffectTable */
-     , (341,  36,  234881053) /* MutateFilter */
-     , (341,  46,  939524104) /* TsysMutationFilter */;
+VALUES (341,   1, 0x02000129) /* Setup */
+     , (341,   3, 0x20000014) /* SoundTable */
+     , (341,   6, 0x04000BEF) /* PaletteBase */
+     , (341,   7, 0x10000130) /* ClothingBase */
+     , (341,   8, 0x06001599) /* Icon */
+     , (341,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (341,  36, 0x0E00001D) /* MutateFilter */
+     , (341,  46, 0x38000008) /* TsysMutationFilter */;

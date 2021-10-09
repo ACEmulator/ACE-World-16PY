@@ -25,7 +25,7 @@ VALUES (1691,   1, 'Scroll of Crossbow Ineptitude Other') /* Name */
      , (1691,  16, 'When learned, this spell decreases the target''s Crossbow skill by 9%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1691,   1,   33554826) /* Setup */
-     , (1691,   8,  100676454) /* Icon */
-     , (1691,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1691,   1, 0x0200018A) /* Setup */
+     , (1691,   8, 0x06003366) /* Icon */
+     , (1691,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1691,  28,        497) /* Spell - Missile Weapon Ineptitude Other I */;

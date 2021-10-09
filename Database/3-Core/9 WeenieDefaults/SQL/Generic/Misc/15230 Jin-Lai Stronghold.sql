@@ -22,5 +22,5 @@ VALUES (15230,   1, 'Jin-Lai Stronghold') /* Name */
      , (15230,  16, 'Welcome to Jin-Lai Stronghold') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15230,   1,   33557463) /* Setup */
-     , (15230,   8,  100668115) /* Icon */;
+VALUES (15230,   1, 0x02000BD7) /* Setup */
+     , (15230,   8, 0x060012D3) /* Icon */;

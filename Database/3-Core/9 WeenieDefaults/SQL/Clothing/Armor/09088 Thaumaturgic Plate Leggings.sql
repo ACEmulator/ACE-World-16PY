@@ -44,22 +44,22 @@ VALUES (9088,   1, 'Thaumaturgic Plate Leggings') /* Name */
      , (9088,  16, 'A heavily enchanted set of crystalline leggings, of the type once worn into battle by mages of the Yalaini Order of Hieromancers') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9088,   1,   33554856) /* Setup */
-     , (9088,   3,  536870932) /* SoundTable */
-     , (9088,   6,   67108990) /* PaletteBase */
-     , (9088,   7,  268436115) /* ClothingBase */
-     , (9088,   8,  100670419) /* Icon */
-     , (9088,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9088,   1, 0x020001A8) /* Setup */
+     , (9088,   3, 0x20000014) /* SoundTable */
+     , (9088,   6, 0x0400007E) /* PaletteBase */
+     , (9088,   7, 0x10000293) /* ClothingBase */
+     , (9088,   8, 0x06001BD3) /* Icon */
+     , (9088,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9088,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9088,  1337,      2)  /* Strength Other VI */
+VALUES (9088,  2355,      2)  /* Lesser Slashing Durance */
+     , (9088,  2379,      2)  /* Beast Whisper */
+     , (9088,  1337,      2)  /* Strength Other VI */
      , (9088,  2349,      2)  /* Hieromancer's Ward */
      , (9088,  2350,      2)  /* Greater Decay Durance */
      , (9088,  2351,      2)  /* Greater Consumption Durance */
      , (9088,  2352,      2)  /* Greater Stasis Durance */
      , (9088,  2353,      2)  /* Greater Stimulation Durance */
      , (9088,  2354,      2)  /* Lesser Piercing Durance */
-     , (9088,  2355,      2)  /* Lesser Slashing Durance */
-     , (9088,  2356,      2)  /* Lesser Bludgeoning Durance */
-     , (9088,  2379,      2)  /* Beast Whisper */;
+     , (9088,  2356,      2)  /* Lesser Bludgeoning Durance */;

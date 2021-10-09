@@ -49,16 +49,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19824,   1, 'Quality Dissolving Isparian Claw') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19824,   1,   33556318) /* Setup */
-     , (19824,   3,  536870932) /* SoundTable */
-     , (19824,   6,   67111919) /* PaletteBase */
-     , (19824,   7,  268436380) /* ClothingBase */
-     , (19824,   8,  100672910) /* Icon */
-     , (19824,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19824,   1, 0x0200075E) /* Setup */
+     , (19824,   3, 0x20000014) /* SoundTable */
+     , (19824,   6, 0x04000BEF) /* PaletteBase */
+     , (19824,   7, 0x1000039C) /* ClothingBase */
+     , (19824,   8, 0x0600258E) /* Icon */
+     , (19824,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19824,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19824,   518,      2)  /* Acid Protection Self IV */
-     , (19824,  1351,      2)  /* Endurance Self III */
+VALUES (19824,  1351,      2)  /* Endurance Self III */
+     , (19824,   518,      2)  /* Acid Protection Self IV */
      , (19824,  1589,      2)  /* Aura of Heart Seeker Self III */
      , (19824,  1613,      2)  /* Aura of Blood Drinker Self III */;

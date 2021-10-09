@@ -17,7 +17,7 @@ VALUES (23545,   1,        256) /* ItemType - MissileWeapon */
      , (23545,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (23545,  49,         15) /* WeaponTime */
      , (23545,  50,          4) /* AmmoType - Atlatl */
-     , (23545,  51,          2) /* CombatUse - Missle */
+     , (23545,  51,          2) /* CombatUse - Missile */
      , (23545,  60,        192) /* WeaponRange */
      , (23545,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23545, 106,        150) /* ItemSpellcraft */
@@ -42,14 +42,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23545,   1, 'A Society Atlatl') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23545,   1,   33557433) /* Setup */
-     , (23545,   3,  536870932) /* SoundTable */
-     , (23545,   6,   67111919) /* PaletteBase */
-     , (23545,   7,  268436304) /* ClothingBase */
-     , (23545,   8,  100672372) /* Icon */
-     , (23545,  22,  872415275) /* PhysicsEffectTable */
-     , (23545,  50,  100675463) /* IconOverlay */;
+VALUES (23545,   1, 0x02000BB9) /* Setup */
+     , (23545,   3, 0x20000014) /* SoundTable */
+     , (23545,   6, 0x04000BEF) /* PaletteBase */
+     , (23545,   7, 0x10000350) /* ClothingBase */
+     , (23545,   8, 0x06002374) /* Icon */
+     , (23545,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (23545,  50, 0x06002F87) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23545,   534,      2)  /* Missile Weapon Mastery Other II */
-     , (23545,  1612,      2)  /* Aura of Blood Drinker Self II */;
+VALUES (23545,  1612,      2)  /* Aura of Blood Drinker Self II */
+     , (23545,   534,      2)  /* Missile Weapon Mastery Other II */;

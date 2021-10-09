@@ -29,7 +29,7 @@ VALUES (12213,  22, True ) /* Inscribable */
      , (12213,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12213,   5, -0.0333) /* ManaRate */
+VALUES (12213,   5,  -0.033) /* ManaRate */
      , (12213,  12,    0.66) /* Shade */
      , (12213,  13,       1) /* ArmorModVsSlash */
      , (12213,  14,     1.2) /* ArmorModVsPierce */
@@ -47,16 +47,16 @@ VALUES (12213,   1, 'Veil of Darkness') /* Name */
      , (12213,  19, 'Gharu''ndim') /* ItemHeritageGroupRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12213,   1,   33557385) /* Setup */
-     , (12213,   3,  536870932) /* SoundTable */
-     , (12213,   6,   67108990) /* PaletteBase */
-     , (12213,   7,  268436288) /* ClothingBase */
-     , (12213,   8,  100672217) /* Icon */
-     , (12213,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12213,   1, 0x02000B89) /* Setup */
+     , (12213,   3, 0x20000014) /* SoundTable */
+     , (12213,   6, 0x0400007E) /* PaletteBase */
+     , (12213,   7, 0x10000340) /* ClothingBase */
+     , (12213,   8, 0x060022D9) /* Icon */
+     , (12213,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12213,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12213,   248,      2)  /* Invulnerability Self V */
+VALUES (12213,   876,      2)  /* Healing Mastery Self III */
      , (12213,   398,      2)  /* Light Weapon Mastery Self V */
-     , (12213,   876,      2)  /* Healing Mastery Self III */
-     , (12213,  1311,      2)  /* Armor Self V */;
+     , (12213,  1311,      2)  /* Armor Self V */
+     , (12213,   248,      2)  /* Invulnerability Self V */;

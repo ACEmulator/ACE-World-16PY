@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4611,   1, 'Willpower Other II') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4611,   1,   33554667) /* Setup */
-     , (4611,   8,  100668296) /* Icon */
-     , (4611,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4611,   1, 0x020000EB) /* Setup */
+     , (4611,   8, 0x06001388) /* Icon */
+     , (4611,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4611,  28,       1452) /* Spell - Willpower Other II */;

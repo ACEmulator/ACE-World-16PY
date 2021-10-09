@@ -47,15 +47,15 @@ VALUES (10882,   1, 'Singularity Spear') /* Name */
      , (10882,  15, 'A spear imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10882,   1,   33557318) /* Setup */
-     , (10882,   3,  536870932) /* SoundTable */
-     , (10882,   6,   67111919) /* PaletteBase */
-     , (10882,   7,  268436126) /* ClothingBase */
-     , (10882,   8,  100672047) /* Icon */
-     , (10882,  22,  872415275) /* PhysicsEffectTable */
-     , (10882,  36,  234881044) /* MutateFilter */
+VALUES (10882,   1, 0x02000B46) /* Setup */
+     , (10882,   3, 0x20000014) /* SoundTable */
+     , (10882,   6, 0x04000BEF) /* PaletteBase */
+     , (10882,   7, 0x1000029E) /* ClothingBase */
+     , (10882,   8, 0x0600222F) /* Icon */
+     , (10882,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (10882,  36, 0x0E000014) /* MutateFilter */
      , (10882,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10882,  1384,      2)  /* Coordination Other VI */
-     , (10882,  1616,      2)  /* Aura of Blood Drinker Self VI */;
+VALUES (10882,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (10882,  1384,      2)  /* Coordination Other VI */;

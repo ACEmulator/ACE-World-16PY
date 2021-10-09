@@ -31,9 +31,9 @@ VALUES (6340,   1, 'Superb Infused Pyreal Ingot') /* Name */
      , (6340,  16, 'A pyreal ingot of exceedingly high quality infused with the essence of a claw.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6340,   1,   33555677) /* Setup */
-     , (6340,   3,  536870932) /* SoundTable */
-     , (6340,   6,   67111919) /* PaletteBase */
-     , (6340,   7,  268435723) /* ClothingBase */
-     , (6340,   8,  100670501) /* Icon */
-     , (6340,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6340,   1, 0x020004DD) /* Setup */
+     , (6340,   3, 0x20000014) /* SoundTable */
+     , (6340,   6, 0x04000BEF) /* PaletteBase */
+     , (6340,   7, 0x1000010B) /* ClothingBase */
+     , (6340,   8, 0x06001C25) /* Icon */
+     , (6340,  22, 0x3400002B) /* PhysicsEffectTable */;

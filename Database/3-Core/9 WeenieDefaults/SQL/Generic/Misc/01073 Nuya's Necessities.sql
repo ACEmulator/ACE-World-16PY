@@ -23,7 +23,7 @@ VALUES (1073,   1, 'Nuya''s Necessities') /* Name */
      , (1073,  16, 'Nuya''s Necessities                                                -Groceries                                                                    Arlad''s Fineries                                                          -Tailored Goods                                                Mulad''s Soothing Salves                                      -Healing                                                               -Potions                                                                     -Enhancement Services') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1073,   1,   33555909) /* Setup */
-     , (1073,   6,   67111860) /* PaletteBase */
-     , (1073,   7,  268435821) /* ClothingBase */
-     , (1073,   8,  100668115) /* Icon */;
+VALUES (1073,   1, 0x020005C5) /* Setup */
+     , (1073,   6, 0x04000BB4) /* PaletteBase */
+     , (1073,   7, 0x1000016D) /* ClothingBase */
+     , (1073,   8, 0x060012D3) /* Icon */;

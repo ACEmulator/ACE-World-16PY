@@ -30,7 +30,7 @@ VALUES (7917,   1, 'Tattered Scrap of Paper') /* Name */
      , (7917,  16, 'A small sheaf of paper, covered with Dericostian runes, recovered from a powerful undead. The runes appear to be cut off, as if most of the message were missing.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7917,   1,   33554773) /* Setup */
-     , (7917,   3,  536870932) /* SoundTable */
-     , (7917,   8,  100667493) /* Icon */
-     , (7917,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7917,   1, 0x02000155) /* Setup */
+     , (7917,   3, 0x20000014) /* SoundTable */
+     , (7917,   8, 0x06001065) /* Icon */
+     , (7917,  22, 0x3400002B) /* PhysicsEffectTable */;

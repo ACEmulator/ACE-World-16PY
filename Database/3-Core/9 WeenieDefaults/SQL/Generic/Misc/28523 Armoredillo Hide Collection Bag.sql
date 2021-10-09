@@ -27,9 +27,9 @@ VALUES (28523,   1, 'Armoredillo Hide Collection Bag') /* Name */
      , (28523,  16, 'A large lugian sack for collecting armoredillo hides. The sack is currently full. You should return this to Captain K''rank. He offered you a reward for your work.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28523,   1,   33554817) /* Setup */
-     , (28523,   3,  536870932) /* SoundTable */
-     , (28523,   6,   67111919) /* PaletteBase */
-     , (28523,   7,  268435832) /* ClothingBase */
-     , (28523,   8,  100676968) /* Icon */
-     , (28523,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28523,   1, 0x02000181) /* Setup */
+     , (28523,   3, 0x20000014) /* SoundTable */
+     , (28523,   6, 0x04000BEF) /* PaletteBase */
+     , (28523,   7, 0x10000178) /* ClothingBase */
+     , (28523,   8, 0x06003568) /* Icon */
+     , (28523,  22, 0x3400002B) /* PhysicsEffectTable */;

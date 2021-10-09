@@ -48,13 +48,13 @@ VALUES (7574,   1, 'Ravenous Spear') /* Name */
      , (7574,  16, 'A spear crafted from pure chorizite, imbued with powerful magic, but resistant to further enchantment. (Note: This weapon is unenchantable.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7574,   1,   33556653) /* Setup */
-     , (7574,   3,  536870932) /* SoundTable */
-     , (7574,   6,   67111919) /* PaletteBase */
-     , (7574,   7,  268435768) /* ClothingBase */
-     , (7574,   8,  100669005) /* Icon */
-     , (7574,  22,  872415275) /* PhysicsEffectTable */
-     , (7574,  36,  234881044) /* MutateFilter */
+VALUES (7574,   1, 0x020008AD) /* Setup */
+     , (7574,   3, 0x20000014) /* SoundTable */
+     , (7574,   6, 0x04000BEF) /* PaletteBase */
+     , (7574,   7, 0x10000138) /* ClothingBase */
+     , (7574,   8, 0x0600164D) /* Icon */
+     , (7574,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (7574,  36, 0x0E000014) /* MutateFilter */
      , (7574,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

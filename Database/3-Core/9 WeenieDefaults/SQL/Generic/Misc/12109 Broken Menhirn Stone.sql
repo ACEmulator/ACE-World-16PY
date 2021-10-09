@@ -22,7 +22,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12109,   1, 'Broken Menhirn Stone') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12109,   1,   33556734) /* Setup */
-     , (12109,   3,  536870932) /* SoundTable */
-     , (12109,   8,  100670227) /* Icon */
-     , (12109,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12109,   1, 0x020008FE) /* Setup */
+     , (12109,   3, 0x20000014) /* SoundTable */
+     , (12109,   8, 0x06001B13) /* Icon */
+     , (12109,  22, 0x3400002B) /* PhysicsEffectTable */;

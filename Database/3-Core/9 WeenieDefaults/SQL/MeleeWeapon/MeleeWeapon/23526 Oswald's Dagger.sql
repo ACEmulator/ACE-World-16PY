@@ -47,16 +47,16 @@ VALUES (23526,   1, 'Oswald''s Dagger') /* Name */
      , (23526,  15, 'A well-worn dagger, its blade stained with Banderling blood.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23526,   1,   33555707) /* Setup */
-     , (23526,   3,  536870932) /* SoundTable */
-     , (23526,   6,   67111919) /* PaletteBase */
-     , (23526,   7,  268435783) /* ClothingBase */
-     , (23526,   8,  100668878) /* Icon */
-     , (23526,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23526,   1, 0x020004FB) /* Setup */
+     , (23526,   3, 0x20000014) /* SoundTable */
+     , (23526,   6, 0x04000BEF) /* PaletteBase */
+     , (23526,   7, 0x10000147) /* ClothingBase */
+     , (23526,   8, 0x060015CE) /* Icon */
+     , (23526,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23526,   854,      2)  /* Deception Mastery Self V */
-     , (23526,  1591,      2)  /* Aura of Heart Seeker Self V */
+VALUES (23526,  1591,      2)  /* Aura of Heart Seeker Self V */
      , (23526,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (23526,  1782,      2)  /* Gertarh's Curse */
-     , (23526,  2582,      2)  /* Minor Quickness */;
+     , (23526,   854,      2)  /* Deception Mastery Self V */
+     , (23526,  2582,      2)  /* Minor Quickness */
+     , (23526,  1782,      2)  /* Gertarh's Curse */;

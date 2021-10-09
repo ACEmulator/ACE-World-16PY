@@ -22,7 +22,7 @@ VALUES (4136,   1, 'The Gentle Hand') /* Name */
      , (4136,  16, 'The Gentle Hand                                                     -Healing                                                                    -Potions                                                                     -Enhancement Services') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4136,   1,   33555594) /* Setup */
-     , (4136,   6,   67111782) /* PaletteBase */
-     , (4136,   7,  268435689) /* ClothingBase */
-     , (4136,   8,  100668115) /* Icon */;
+VALUES (4136,   1, 0x0200048A) /* Setup */
+     , (4136,   6, 0x04000B66) /* PaletteBase */
+     , (4136,   7, 0x100000E9) /* ClothingBase */
+     , (4136,   8, 0x060012D3) /* Icon */;

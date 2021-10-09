@@ -24,7 +24,7 @@ VALUES (21296,   1, 'Scroll of Blade Arc II') /* Name */
      , (21296,  15, 'When learned, this spell shoots a magical blade at the target. The bolt does 13-25 points of slashing damage to the first thing it hits.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21296,   1,   33554826) /* Setup */
-     , (21296,   8,  100677028) /* Icon */
-     , (21296,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21296,   1, 0x0200018A) /* Setup */
+     , (21296,   8, 0x060035A4) /* Icon */
+     , (21296,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21296,  28,       2754) /* Spell - Blade Arc II */;

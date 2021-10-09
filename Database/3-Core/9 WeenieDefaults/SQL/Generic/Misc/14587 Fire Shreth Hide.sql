@@ -25,9 +25,9 @@ VALUES (14587,   1, 'Fire Shreth Hide') /* Name */
      , (14587,  15, 'One could use a noodle cutter to slice leather straps from this hide.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14587,   1,   33554817) /* Setup */
-     , (14587,   3,  536870932) /* SoundTable */
-     , (14587,   6,   67111919) /* PaletteBase */
-     , (14587,   7,  268435832) /* ClothingBase */
-     , (14587,   8,  100672525) /* Icon */
-     , (14587,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14587,   1, 0x02000181) /* Setup */
+     , (14587,   3, 0x20000014) /* SoundTable */
+     , (14587,   6, 0x04000BEF) /* PaletteBase */
+     , (14587,   7, 0x10000178) /* ClothingBase */
+     , (14587,   8, 0x0600240D) /* Icon */
+     , (14587,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -36,14 +36,14 @@ VALUES (25946,   1, 'Dark Sapphire Ring') /* Name */
      , (25946,  33, 'RingMaelstrom') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25946,   1,   33554691) /* Setup */
-     , (25946,   3,  536870932) /* SoundTable */
-     , (25946,   6,   67111919) /* PaletteBase */
-     , (25946,   7,  268436318) /* ClothingBase */
-     , (25946,   8,  100675658) /* Icon */
-     , (25946,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25946,   1, 0x02000103) /* Setup */
+     , (25946,   3, 0x20000014) /* SoundTable */
+     , (25946,   6, 0x04000BEF) /* PaletteBase */
+     , (25946,   7, 0x1000035E) /* ClothingBase */
+     , (25946,   8, 0x0600304A) /* Icon */
+     , (25946,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25946,   244,      2)  /* Invulnerability Other VI */
-     , (25946,  1432,      2)  /* Focus Other VI */
-     , (25946,  2090,      2)  /* Bolstered Will */;
+VALUES (25946,  1432,      2)  /* Focus Other VI */
+     , (25946,  2090,      2)  /* Bolstered Will */
+     , (25946,   244,      2)  /* Invulnerability Other VI */;

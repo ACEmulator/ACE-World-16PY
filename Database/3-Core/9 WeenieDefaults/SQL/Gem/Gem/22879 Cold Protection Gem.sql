@@ -34,11 +34,11 @@ VALUES (22879,   1, 'Cold Protection Gem') /* Name */
      , (22879,  15, 'A gem of cold protection VI') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22879,   1,   33554809) /* Setup */
-     , (22879,   3,  536870932) /* SoundTable */
-     , (22879,   6,   67111919) /* PaletteBase */
-     , (22879,   7,  268435723) /* ClothingBase */
-     , (22879,   8,  100673901) /* Icon */
-     , (22879,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22879,   1, 0x02000179) /* Setup */
+     , (22879,   3, 0x20000014) /* SoundTable */
+     , (22879,   6, 0x04000BEF) /* PaletteBase */
+     , (22879,   7, 0x1000010B) /* ClothingBase */
+     , (22879,   8, 0x0600296D) /* Icon */
+     , (22879,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22879,  28,       1041) /* Spell - Cold Protection Other VI */
-     , (22879,  36,  234881046) /* MutateFilter */;
+     , (22879,  36, 0x0E000016) /* MutateFilter */;

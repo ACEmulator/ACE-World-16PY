@@ -32,9 +32,9 @@ VALUES (9346,   1, 'Concentrated Fire Oil') /* Name */
      , (9346,  20, 'Vials of Concentrated Fire Oil') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9346,   1,   33555967) /* Setup */
-     , (9346,   3,  536870932) /* SoundTable */
-     , (9346,   6,   67111919) /* PaletteBase */
-     , (9346,   7,  268435815) /* ClothingBase */
-     , (9346,   8,  100671585) /* Icon */
-     , (9346,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9346,   1, 0x020005FF) /* Setup */
+     , (9346,   3, 0x20000014) /* SoundTable */
+     , (9346,   6, 0x04000BEF) /* PaletteBase */
+     , (9346,   7, 0x10000167) /* ClothingBase */
+     , (9346,   8, 0x06002061) /* Icon */
+     , (9346,  22, 0x3400002B) /* PhysicsEffectTable */;

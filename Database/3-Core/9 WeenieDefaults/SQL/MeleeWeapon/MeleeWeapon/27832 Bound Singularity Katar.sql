@@ -50,13 +50,13 @@ VALUES (27832,   1, 'Bound Singularity Katar') /* Name */
      , (27832,  15, 'A katar imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27832,   1,   33558792) /* Setup */
-     , (27832,   3,  536870932) /* SoundTable */
-     , (27832,   6,   67111919) /* PaletteBase */
-     , (27832,   7,  268436241) /* ClothingBase */
-     , (27832,   8,  100676592) /* Icon */
-     , (27832,  22,  872415275) /* PhysicsEffectTable */
-     , (27832,  36,  234881044) /* MutateFilter */;
+VALUES (27832,   1, 0x02001108) /* Setup */
+     , (27832,   3, 0x20000014) /* SoundTable */
+     , (27832,   6, 0x04000BEF) /* PaletteBase */
+     , (27832,   7, 0x10000311) /* ClothingBase */
+     , (27832,   8, 0x060033F0) /* Icon */
+     , (27832,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27832,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27832,  1337,      2)  /* Strength Other VI */

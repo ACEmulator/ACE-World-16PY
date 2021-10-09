@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1335,   1, 'A Drudge Nest') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1335,   1,   33554867) /* Setup */
-     , (1335,   2,  150994947) /* MotionTable */
-     , (1335,   8,  100667499) /* Icon */;
+VALUES (1335,   1, 0x020001B3) /* Setup */
+     , (1335,   2, 0x09000003) /* MotionTable */
+     , (1335,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1335, 2, 30933256, 21.4, -1.3, 0, 0.2334454, 0, 0, -0.9723699) /* Destination */
+VALUES (1335, 2, 0x01D80108, 21.4, -1.3, 0, 0.233445, 0, 0, -0.97237) /* Destination */
 /* @teleloc 0x01D80108 [21.400000 -1.300000 0.000000] 0.233445 0.000000 0.000000 -0.972370 */;

@@ -38,7 +38,7 @@ VALUES (11427,  22, True ) /* Inscribable */
      , (11427,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11427,   5, -0.03333) /* ManaRate */
+VALUES (11427,   5,  -0.033) /* ManaRate */
      , (11427,  21,    0.62) /* WeaponLength */
      , (11427,  22,    0.52) /* DamageVariance */
      , (11427,  29,    1.08) /* WeaponDefense */
@@ -52,21 +52,21 @@ VALUES (11427,   1, 'Palenqual''s Waaika of the Vortex') /* Name */
      , (11427,  16, 'A waaika fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11427,   1,   33557235) /* Setup */
-     , (11427,   3,  536870932) /* SoundTable */
-     , (11427,   6,   67113336) /* PaletteBase */
-     , (11427,   7,  268436253) /* ClothingBase */
-     , (11427,   8,  100672085) /* Icon */
-     , (11427,  22,  872415275) /* PhysicsEffectTable */
-     , (11427,  36,  234881044) /* MutateFilter */;
+VALUES (11427,   1, 0x02000AF3) /* Setup */
+     , (11427,   3, 0x20000014) /* SoundTable */
+     , (11427,   6, 0x04001178) /* PaletteBase */
+     , (11427,   7, 0x1000031D) /* ClothingBase */
+     , (11427,   8, 0x06002255) /* Icon */
+     , (11427,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11427,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11427,  2438,      2)  /* Lesser Rockslide */
      , (11427,  2441,      2)  /* Lesser Stone Cliffs */
      , (11427,  2444,      2)  /* Lesser Strength of Earth */
+     , (11427,  2463,      2)  /* Cascade */
      , (11427,  2447,      2)  /* Lesser Growth */
      , (11427,  2450,      2)  /* Lesser Hunter's Acumen */
      , (11427,  2453,      2)  /* Lesser Thorns */
-     , (11427,  2463,      2)  /* Cascade */
      , (11427,  2472,      2)  /* Still Water */
      , (11427,  2475,      2)  /* Torrent */;

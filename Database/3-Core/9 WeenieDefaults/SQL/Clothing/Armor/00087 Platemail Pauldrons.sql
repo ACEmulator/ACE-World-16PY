@@ -38,11 +38,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (87,   1, 'Platemail Pauldrons') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (87,   1,   33554641) /* Setup */
-     , (87,   3,  536870932) /* SoundTable */
-     , (87,   6,   67108990) /* PaletteBase */
-     , (87,   7,  268435536) /* ClothingBase */
-     , (87,   8,  100668172) /* Icon */
-     , (87,  22,  872415275) /* PhysicsEffectTable */
-     , (87,  36,  234881042) /* MutateFilter */
-     , (87,  46,  939524146) /* TsysMutationFilter */;
+VALUES (87,   1, 0x020000D1) /* Setup */
+     , (87,   3, 0x20000014) /* SoundTable */
+     , (87,   6, 0x0400007E) /* PaletteBase */
+     , (87,   7, 0x10000050) /* ClothingBase */
+     , (87,   8, 0x0600130C) /* Icon */
+     , (87,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (87,  36, 0x0E000012) /* MutateFilter */
+     , (87,  46, 0x38000032) /* TsysMutationFilter */;

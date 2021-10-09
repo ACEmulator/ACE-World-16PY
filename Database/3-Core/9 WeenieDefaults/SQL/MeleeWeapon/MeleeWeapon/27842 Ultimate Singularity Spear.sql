@@ -53,13 +53,13 @@ VALUES (27842,   1, 'Ultimate Singularity Spear') /* Name */
      , (27842,  15, 'A spear imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27842,   1,   33557318) /* Setup */
-     , (27842,   3,  536870932) /* SoundTable */
-     , (27842,   6,   67111919) /* PaletteBase */
-     , (27842,   7,  268436126) /* ClothingBase */
-     , (27842,   8,  100672047) /* Icon */
-     , (27842,  22,  872415275) /* PhysicsEffectTable */
-     , (27842,  36,  234881044) /* MutateFilter */;
+VALUES (27842,   1, 0x02000B46) /* Setup */
+     , (27842,   3, 0x20000014) /* SoundTable */
+     , (27842,   6, 0x04000BEF) /* PaletteBase */
+     , (27842,   7, 0x1000029E) /* ClothingBase */
+     , (27842,   8, 0x0600222F) /* Icon */
+     , (27842,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27842,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27842,  1337,      2)  /* Strength Other VI */

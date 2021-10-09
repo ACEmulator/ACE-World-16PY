@@ -28,7 +28,7 @@ VALUES (4723,   1, 'Fish Kebab') /* Name */
      , (4723,  20, 'Fish Kebabs') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4723,   1,   33555981) /* Setup */
-     , (4723,   3,  536870932) /* SoundTable */
-     , (4723,   8,  100669956) /* Icon */
-     , (4723,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4723,   1, 0x0200060D) /* Setup */
+     , (4723,   3, 0x20000014) /* SoundTable */
+     , (4723,   8, 0x06001A04) /* Icon */
+     , (4723,  22, 0x3400002B) /* PhysicsEffectTable */;

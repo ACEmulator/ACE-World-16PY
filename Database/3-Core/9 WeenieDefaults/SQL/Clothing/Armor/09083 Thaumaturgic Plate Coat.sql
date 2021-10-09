@@ -44,22 +44,22 @@ VALUES (9083,   1, 'Thaumaturgic Plate Coat') /* Name */
      , (9083,  16, 'A heavily enchanted crystalline coat, of the type once worn into battle by mages of the Yalaini Order of Hieromancers. The seal of the Yalaini Seaborne Empire is embossed on its chest.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9083,   1,   33554644) /* Setup */
-     , (9083,   3,  536870932) /* SoundTable */
-     , (9083,   6,   67108990) /* PaletteBase */
-     , (9083,   7,  268436113) /* ClothingBase */
-     , (9083,   8,  100670403) /* Icon */
-     , (9083,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9083,   1, 0x020000D4) /* Setup */
+     , (9083,   3, 0x20000014) /* SoundTable */
+     , (9083,   6, 0x0400007E) /* PaletteBase */
+     , (9083,   7, 0x10000291) /* ClothingBase */
+     , (9083,   8, 0x06001BC3) /* Icon */
+     , (9083,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9083,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9083,   664,      2)  /* Mana Conversion Mastery Other VI */
+VALUES (9083,  2352,      2)  /* Greater Stasis Durance */
+     , (9083,  2376,      2)  /* Glimpse of Annihilation */
+     , (9083,  2353,      2)  /* Greater Stimulation Durance */
+     , (9083,   664,      2)  /* Mana Conversion Mastery Other VI */
      , (9083,  2349,      2)  /* Hieromancer's Ward */
      , (9083,  2350,      2)  /* Greater Decay Durance */
      , (9083,  2351,      2)  /* Greater Consumption Durance */
-     , (9083,  2352,      2)  /* Greater Stasis Durance */
-     , (9083,  2353,      2)  /* Greater Stimulation Durance */
      , (9083,  2354,      2)  /* Lesser Piercing Durance */
      , (9083,  2355,      2)  /* Lesser Slashing Durance */
-     , (9083,  2356,      2)  /* Lesser Bludgeoning Durance */
-     , (9083,  2376,      2)  /* Glimpse of Annihilation */;
+     , (9083,  2356,      2)  /* Lesser Bludgeoning Durance */;

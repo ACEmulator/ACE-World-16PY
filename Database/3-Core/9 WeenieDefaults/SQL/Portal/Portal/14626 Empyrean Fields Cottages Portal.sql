@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14626,   1, 'Empyrean Fields Cottages Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14626,   1,   33554867) /* Setup */
-     , (14626,   2,  150994947) /* MotionTable */
-     , (14626,   8,  100667499) /* Icon */;
+VALUES (14626,   1, 0x020001B3) /* Setup */
+     , (14626,   2, 0x09000003) /* MotionTable */
+     , (14626,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14626, 2, 3041853478, 100.376, 123.276, 5.732, -0.1513726, 0, 0, -0.9884768) /* Destination */
-/* @teleloc 0xB54F0026 [100.376000 123.276000 5.732000] -0.151373 0.000000 0.000000 -0.988477 */;
+VALUES (14626, 2, 0xB54F0026, 100.376, 123.276, 5.732, -0.151373, 0, -0, -0.988477) /* Destination */
+/* @teleloc 0xB54F0026 [100.375999 123.276001 5.732000] -0.151373 0.000000 -0.000000 -0.988477 */;

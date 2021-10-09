@@ -22,5 +22,5 @@ VALUES (15406,   1, 'Zon-Atara') /* Name */
      , (15406,  16, 'Welcome to Zon-Atara') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15406,   1,   33557463) /* Setup */
-     , (15406,   8,  100668115) /* Icon */;
+VALUES (15406,   1, 0x02000BD7) /* Setup */
+     , (15406,   8, 0x060012D3) /* Icon */;

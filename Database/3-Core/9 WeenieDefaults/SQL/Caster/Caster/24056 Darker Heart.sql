@@ -40,19 +40,19 @@ VALUES (24056,   1, 'Darker Heart') /* Name */
      , (24056,  16, 'The blackened, flaring heart of a powerful wisp.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24056,   1,   33556933) /* Setup */
-     , (24056,   3,  536870932) /* SoundTable */
-     , (24056,   6,   67111928) /* PaletteBase */
-     , (24056,   7,  268436041) /* ClothingBase */
-     , (24056,   8,  100671239) /* Icon */
-     , (24056,  22,  872415275) /* PhysicsEffectTable */
-     , (24056,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (24056,   1, 0x020009C5) /* Setup */
+     , (24056,   3, 0x20000014) /* SoundTable */
+     , (24056,   6, 0x04000BF8) /* PaletteBase */
+     , (24056,   7, 0x10000249) /* ClothingBase */
+     , (24056,   8, 0x06001F07) /* Icon */
+     , (24056,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24056,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (24056,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24056,   170,      2)  /* Regeneration Self VI */
-     , (24056,   193,      2)  /* Rejuvenation Self VI */
+VALUES (24056,  2012,      2)  /* Wizard's Intellect */
      , (24056,   217,      2)  /* Mana Renewal Self VI */
      , (24056,  2004,      2)  /* Warrior's Vitality */
+     , (24056,   193,      2)  /* Rejuvenation Self VI */
      , (24056,  2008,      2)  /* Warrior's Vigor */
-     , (24056,  2012,      2)  /* Wizard's Intellect */;
+     , (24056,   170,      2)  /* Regeneration Self VI */;

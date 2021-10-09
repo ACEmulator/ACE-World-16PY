@@ -13,7 +13,7 @@ VALUES (22352,   1,       2048) /* ItemType - Gem */
      , (22352,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22352, 114,          1) /* Attuned - Attuned */
      , (22352, 185,          1) /* TypeOfAlteration */
-     , (22352, 186,         29) /* SkillToBeAltered */;
+     , (22352, 186,         29) /* SkillToBeAltered - ArmorTinkering */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22352,  22, True ) /* Inscribable */
@@ -25,8 +25,8 @@ VALUES (22352,   1, 'Armor Tinkering Gem of Enlightenment') /* Name */
      , (22352,  33, 'SkillAlterationGemPickedUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22352,   1,   33558088) /* Setup */
-     , (22352,   6,   67111919) /* PaletteBase */
-     , (22352,   7,  268435723) /* ClothingBase */
-     , (22352,   8,  100673788) /* Icon */
-     , (22352,  50,  100673755) /* IconOverlay */;
+VALUES (22352,   1, 0x02000E48) /* Setup */
+     , (22352,   6, 0x04000BEF) /* PaletteBase */
+     , (22352,   7, 0x1000010B) /* ClothingBase */
+     , (22352,   8, 0x060028FC) /* Icon */
+     , (22352,  50, 0x060028DB) /* IconOverlay */;

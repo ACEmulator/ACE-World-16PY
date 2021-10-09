@@ -25,5 +25,5 @@ VALUES (23344,   1, 'A Glass Token') /* Name */
      , (23344,  15, 'A Glass Token- You could use this to get a spear.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23344,   1,   33554784) /* Setup */
-     , (23344,   8,  100674012) /* Icon */;
+VALUES (23344,   1, 0x02000160) /* Setup */
+     , (23344,   8, 0x060029DC) /* Icon */;

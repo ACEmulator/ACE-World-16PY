@@ -29,7 +29,7 @@ VALUES (9486,   1, 'Monty''s Mid-Stakes Gambling Token') /* Name */
      , (9486,  16, 'A blue gambling token from Monty''s Den of Iniquity.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9486,   1,   33557006) /* Setup */
-     , (9486,   3,  536870932) /* SoundTable */
-     , (9486,   8,  100671477) /* Icon */
-     , (9486,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9486,   1, 0x02000A0E) /* Setup */
+     , (9486,   3, 0x20000014) /* SoundTable */
+     , (9486,   8, 0x06001FF5) /* Icon */
+     , (9486,  22, 0x3400002B) /* PhysicsEffectTable */;

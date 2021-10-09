@@ -17,7 +17,7 @@ VALUES (27367,   1,        256) /* ItemType - MissileWeapon */
      , (27367,  48,          3) /* WeaponSkill - Crossbow */
      , (27367,  49,         60) /* WeaponTime */
      , (27367,  50,          2) /* AmmoType - Bolt */
-     , (27367,  51,          2) /* CombatUse - Missle */
+     , (27367,  51,          2) /* CombatUse - Missile */
      , (27367,  52,          2) /* ParentLocation - LeftHand */
      , (27367,  53,          3) /* PlacementPosition - LeftHand */
      , (27367,  60,        160) /* WeaponRange */
@@ -40,7 +40,7 @@ VALUES (27367,  22, True ) /* Inscribable */
      , (27367,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27367,   5, -0.033333) /* ManaRate */
+VALUES (27367,   5,  -0.033) /* ManaRate */
      , (27367,  26,    24.9) /* MaximumVelocity */
      , (27367,  29,    1.08) /* WeaponDefense */
      , (27367,  39,       1) /* DefaultScale */
@@ -54,12 +54,12 @@ VALUES (27367,   1, 'Palenqual''s Kalindan of the Vortex') /* Name */
      , (27367,  16, 'A kalindan fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27367,   1,   33558668) /* Setup */
-     , (27367,   3,  536870932) /* SoundTable */
-     , (27367,   6,   67113336) /* PaletteBase */
-     , (27367,   7,  268436253) /* ClothingBase */
-     , (27367,   8,  100676346) /* Icon */
-     , (27367,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27367,   1, 0x0200108C) /* Setup */
+     , (27367,   3, 0x20000014) /* SoundTable */
+     , (27367,   6, 0x04001178) /* PaletteBase */
+     , (27367,   7, 0x1000031D) /* ClothingBase */
+     , (27367,   8, 0x060032FA) /* Icon */
+     , (27367,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27367,  2438,      2)  /* Lesser Rockslide */
@@ -68,6 +68,6 @@ VALUES (27367,  2438,      2)  /* Lesser Rockslide */
      , (27367,  2447,      2)  /* Lesser Growth */
      , (27367,  2450,      2)  /* Lesser Hunter's Acumen */
      , (27367,  2453,      2)  /* Lesser Thorns */
-     , (27367,  2472,      2)  /* Still Water */
      , (27367,  2475,      2)  /* Torrent */
-     , (27367,  3232,      2)  /* Cascade */;
+     , (27367,  3232,      2)  /* Cascade */
+     , (27367,  2472,      2)  /* Still Water */;

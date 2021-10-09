@@ -45,14 +45,14 @@ VALUES (9115,   1, 'Singularity Axe') /* Name */
      , (9115,  16, 'A gift from Martine: May you het and hew and not tire, but never forget that Death is dire.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9115,   1,   33556970) /* Setup */
-     , (9115,   3,  536870932) /* SoundTable */
-     , (9115,   6,   67111919) /* PaletteBase */
-     , (9115,   7,  268436125) /* ClothingBase */
-     , (9115,   8,  100671369) /* Icon */
-     , (9115,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9115,   1, 0x020009EA) /* Setup */
+     , (9115,   3, 0x20000014) /* SoundTable */
+     , (9115,   6, 0x04000BEF) /* PaletteBase */
+     , (9115,   7, 0x1000029D) /* ClothingBase */
+     , (9115,   8, 0x06001F89) /* Icon */
+     , (9115,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9115,  30,         88) /* PhysicsScript - Create */
-     , (9115,  36,  234881044) /* MutateFilter */
+     , (9115,  36, 0x0E000014) /* MutateFilter */
      , (9115,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

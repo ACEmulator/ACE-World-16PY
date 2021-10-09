@@ -22,5 +22,5 @@ VALUES (19380,   1, 'Atrium Residential Halls') /* Name */
      , (19380,  16, 'Atrium Residential Halls') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19380,   1,   33557703) /* Setup */
-     , (19380,   8,  100667499) /* Icon */;
+VALUES (19380,   1, 0x02000CC7) /* Setup */
+     , (19380,   8, 0x0600106B) /* Icon */;

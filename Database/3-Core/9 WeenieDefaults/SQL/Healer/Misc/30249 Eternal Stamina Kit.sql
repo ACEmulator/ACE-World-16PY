@@ -28,7 +28,7 @@ VALUES (30249,   1, 'Eternal Stamina Kit') /* Name */
      , (30249,  16, 'A lovely template for a rare.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30249,   1,   33555194) /* Setup */
-     , (30249,   6,   67111092) /* PaletteBase */
-     , (30249,   7,  268436502) /* ClothingBase */
-     , (30249,   8,  100676336) /* Icon */;
+VALUES (30249,   1, 0x020002FA) /* Setup */
+     , (30249,   6, 0x040008B4) /* PaletteBase */
+     , (30249,   7, 0x10000416) /* ClothingBase */
+     , (30249,   8, 0x060032F0) /* Icon */;

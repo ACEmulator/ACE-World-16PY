@@ -31,10 +31,10 @@ VALUES (8314,   1, 'Powdered Agate Pea') /* Name */
      , (8314,  16, 'A concentrated powdered agate pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8314,   1,   33555208) /* Setup */
-     , (8314,   3,  536870932) /* SoundTable */
-     , (8314,   6,   67111919) /* PaletteBase */
-     , (8314,   7,  268435778) /* ClothingBase */
-     , (8314,   8,  100671068) /* Icon */
-     , (8314,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8314,   1, 0x02000308) /* Setup */
+     , (8314,   3, 0x20000014) /* SoundTable */
+     , (8314,   6, 0x04000BEF) /* PaletteBase */
+     , (8314,   7, 0x10000142) /* ClothingBase */
+     , (8314,   8, 0x06001E5C) /* Icon */
+     , (8314,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8314,  29,        137) /* SpellComponent */;

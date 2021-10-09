@@ -28,7 +28,7 @@ VALUES (29848,   1, 'Timber Siraluun Claw Hairpin') /* Name */
      , (29848,  16, 'A hairpin made from the claw of a Timber Siraluun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29848,   1,   33554817) /* Setup */
-     , (29848,   6,   67111919) /* PaletteBase */
-     , (29848,   7,  268435832) /* ClothingBase */
-     , (29848,   8,  100677326) /* Icon */;
+VALUES (29848,   1, 0x02000181) /* Setup */
+     , (29848,   6, 0x04000BEF) /* PaletteBase */
+     , (29848,   7, 0x10000178) /* ClothingBase */
+     , (29848,   8, 0x060036CE) /* Icon */;

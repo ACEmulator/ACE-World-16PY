@@ -28,9 +28,9 @@ VALUES (7857,   1, 'Chocolate Cake Batter') /* Name */
      , (7857,  20, 'Bowls of Chocolate Cake Batter') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7857,   1,   33555968) /* Setup */
-     , (7857,   3,  536870932) /* SoundTable */
-     , (7857,   6,   67111919) /* PaletteBase */
-     , (7857,   7,  268436027) /* ClothingBase */
-     , (7857,   8,  100670846) /* Icon */
-     , (7857,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7857,   1, 0x02000600) /* Setup */
+     , (7857,   3, 0x20000014) /* SoundTable */
+     , (7857,   6, 0x04000BEF) /* PaletteBase */
+     , (7857,   7, 0x1000023B) /* ClothingBase */
+     , (7857,   8, 0x06001D7E) /* Icon */
+     , (7857,  22, 0x3400002B) /* PhysicsEffectTable */;

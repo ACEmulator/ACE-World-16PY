@@ -17,7 +17,7 @@ VALUES (12752,   1,        256) /* ItemType - MissileWeapon */
      , (12752,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (12752,  49,         12) /* WeaponTime */
      , (12752,  50,          4) /* AmmoType - Atlatl */
-     , (12752,  51,          2) /* CombatUse - Missle */
+     , (12752,  51,          2) /* CombatUse - Missile */
      , (12752,  60,        130) /* WeaponRange */
      , (12752,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12752, 150,        103) /* HookPlacement - Hook */
@@ -39,9 +39,9 @@ VALUES (12752,   1, 'Academy Atlatl') /* Name */
      , (12752,  15, 'An enhanced atlatl crafted in the Training Academy. This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12752,   1,   33557433) /* Setup */
-     , (12752,   3,  536870932) /* SoundTable */
-     , (12752,   6,   67111919) /* PaletteBase */
-     , (12752,   7,  268436304) /* ClothingBase */
-     , (12752,   8,  100672372) /* Icon */
-     , (12752,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12752,   1, 0x02000BB9) /* Setup */
+     , (12752,   3, 0x20000014) /* SoundTable */
+     , (12752,   6, 0x04000BEF) /* PaletteBase */
+     , (12752,   7, 0x10000350) /* ClothingBase */
+     , (12752,   8, 0x06002374) /* Icon */
+     , (12752,  22, 0x3400002B) /* PhysicsEffectTable */;

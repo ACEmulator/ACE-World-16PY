@@ -31,9 +31,9 @@ VALUES (6660,   1, 'The Ruby Al-Shajar') /* Name */
      , (6660,  33, 'CrimsonRuby1') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6660,   1,   33554809) /* Setup */
-     , (6660,   3,  536870932) /* SoundTable */
-     , (6660,   6,   67111919) /* PaletteBase */
-     , (6660,   7,  268435723) /* ClothingBase */
-     , (6660,   8,  100670639) /* Icon */
-     , (6660,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6660,   1, 0x02000179) /* Setup */
+     , (6660,   3, 0x20000014) /* SoundTable */
+     , (6660,   6, 0x04000BEF) /* PaletteBase */
+     , (6660,   7, 0x1000010B) /* ClothingBase */
+     , (6660,   8, 0x06001CAF) /* Icon */
+     , (6660,  22, 0x3400002B) /* PhysicsEffectTable */;

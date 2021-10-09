@@ -26,6 +26,6 @@ VALUES (1446,   1, 'Fire Auroch Meat') /* Name */
      , (1446,  20, 'Fire Auroch Steaks') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1446,   1,   33554678) /* Setup */
-     , (1446,   8,  100667464) /* Icon */
-     , (1446,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1446,   1, 0x020000F6) /* Setup */
+     , (1446,   8, 0x06001048) /* Icon */
+     , (1446,  22, 0x3400002B) /* PhysicsEffectTable */;

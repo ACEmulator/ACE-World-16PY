@@ -33,11 +33,11 @@ VALUES (6893,   1, 'Miyako''s Moonstone') /* Name */
      , (6893,  16, 'A lovely gem that captures the light and concentrates it into a gleaming stripe in the gem''s center.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6893,   1,   33554809) /* Setup */
-     , (6893,   3,  536870932) /* SoundTable */
-     , (6893,   6,   67111919) /* PaletteBase */
-     , (6893,   7,  268435723) /* ClothingBase */
-     , (6893,   8,  100668365) /* Icon */
-     , (6893,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6893,   1, 0x02000179) /* Setup */
+     , (6893,   3, 0x20000014) /* SoundTable */
+     , (6893,   6, 0x04000BEF) /* PaletteBase */
+     , (6893,   7, 0x1000010B) /* ClothingBase */
+     , (6893,   8, 0x060013CD) /* Icon */
+     , (6893,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6893,  28,       1310) /* Spell - Armor Self IV */
-     , (6893,  36,  234881046) /* MutateFilter */;
+     , (6893,  36, 0x0E000016) /* MutateFilter */;

@@ -19,7 +19,7 @@ VALUES (20038,   1,        256) /* ItemType - MissileWeapon */
      , (20038,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (20038,  49,         15) /* WeaponTime */
      , (20038,  50,          4) /* AmmoType - Atlatl */
-     , (20038,  51,          2) /* CombatUse - Missle */
+     , (20038,  51,          2) /* CombatUse - Missile */
      , (20038,  60,        120) /* WeaponRange */
      , (20038,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (20038, 106,        100) /* ItemSpellcraft */
@@ -48,17 +48,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20038,   1, 'Good Flaming Isparian Atlatl') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20038,   1,   33557804) /* Setup */
-     , (20038,   3,  536870932) /* SoundTable */
-     , (20038,   6,   67111919) /* PaletteBase */
-     , (20038,   7,  268436393) /* ClothingBase */
-     , (20038,   8,  100673006) /* Icon */
-     , (20038,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20038,   1, 0x02000D2C) /* Setup */
+     , (20038,   3, 0x20000014) /* SoundTable */
+     , (20038,   6, 0x04000BEF) /* PaletteBase */
+     , (20038,   7, 0x100003A9) /* ClothingBase */
+     , (20038,   8, 0x060025EE) /* Icon */
+     , (20038,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20038,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20038,  1092,      2)  /* Fire Protection Self IV */
-     , (20038,  1329,      2)  /* Strength Self III */
-     , (20038,  1603,      2)  /* Aura of Defender Self IV */
+VALUES (20038,  1603,      2)  /* Aura of Defender Self IV */
      , (20038,  1614,      2)  /* Aura of Blood Drinker Self IV */
-     , (20038,  2684,      2)  /* Feeble Missile Weapon Aptitude */;
+     , (20038,  1092,      2)  /* Fire Protection Self IV */
+     , (20038,  2684,      2)  /* Feeble Missile Weapon Aptitude */
+     , (20038,  1329,      2)  /* Strength Self III */;

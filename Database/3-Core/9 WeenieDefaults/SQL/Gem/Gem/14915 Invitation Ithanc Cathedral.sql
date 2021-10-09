@@ -38,10 +38,10 @@ VALUES (14915,   1, 'Invitation Ithanc Cathedral') /* Name */
      , (14915,  16, 'A wedding invitation.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14915,   1,   33557625) /* Setup */
-     , (14915,   3,  536870932) /* SoundTable */
-     , (14915,   8,  100674867) /* Icon */
-     , (14915,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14915,   1, 0x02000C79) /* Setup */
+     , (14915,   3, 0x20000014) /* SoundTable */
+     , (14915,   8, 0x06002D33) /* Icon */
+     , (14915,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14915,  28,        157) /* Spell - Summon Primary Portal I */
      , (14915,  31,      14926) /* LinkedPortalOne - Cathedral Wedding Portal */
-     , (14915,  36,  234881046) /* MutateFilter */;
+     , (14915,  36, 0x0E000016) /* MutateFilter */;

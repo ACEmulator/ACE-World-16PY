@@ -22,7 +22,7 @@ VALUES (700,   1, 'Belthew''s Baubles') /* Name */
      , (700,  16, 'Belthew''s Baubles') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (700,   1,   33555593) /* Setup */
-     , (700,   6,   67111092) /* PaletteBase */
-     , (700,   7,  268435675) /* ClothingBase */
-     , (700,   8,  100668115) /* Icon */;
+VALUES (700,   1, 0x02000489) /* Setup */
+     , (700,   6, 0x040008B4) /* PaletteBase */
+     , (700,   7, 0x100000DB) /* ClothingBase */
+     , (700,   8, 0x060012D3) /* Icon */;

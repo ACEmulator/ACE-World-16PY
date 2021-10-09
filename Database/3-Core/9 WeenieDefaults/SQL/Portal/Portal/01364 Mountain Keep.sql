@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1364,   1, 'Mountain Keep') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1364,   1,   33555923) /* Setup */
-     , (1364,   2,  150994947) /* MotionTable */
-     , (1364,   8,  100667499) /* Icon */;
+VALUES (1364,   1, 0x020005D3) /* Setup */
+     , (1364,   2, 0x09000003) /* MotionTable */
+     , (1364,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1364, 2, 30540535, 47.9, -69.9, 12, 0.7150829, 0, 0, -0.6990396) /* Destination */
-/* @teleloc 0x01D202F7 [47.900000 -69.900000 12.000000] 0.715083 0.000000 0.000000 -0.699040 */;
+VALUES (1364, 2, 0x01D202F7, 47.9, -69.9, 12, 0.715083, 0, 0, -0.69904) /* Destination */
+/* @teleloc 0x01D202F7 [47.900002 -69.900002 12.000000] 0.715083 0.000000 0.000000 -0.699040 */;

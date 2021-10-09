@@ -47,12 +47,12 @@ VALUES (27089,   1, 'Crest of Kings') /* Name */
      , (27089,  16, 'A large carved shield, with a detailed picture of a mattekar upon it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27089,   1,   33557014) /* Setup */
-     , (27089,   3,  536870932) /* SoundTable */
-     , (27089,   8,  100671513) /* Icon */
-     , (27089,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27089,   1, 0x02000A16) /* Setup */
+     , (27089,   3, 0x20000014) /* SoundTable */
+     , (27089,   8, 0x06002019) /* Icon */
+     , (27089,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27089,   512,      2)  /* Acid Protection Other IV */
-     , (27089,   849,      2)  /* Fire Protection Other IV */
-     , (27089,  1142,      2)  /* Piercing Protection Other IV */;
+VALUES (27089,  1142,      2)  /* Piercing Protection Other IV */
+     , (27089,   512,      2)  /* Acid Protection Other IV */
+     , (27089,   849,      2)  /* Fire Protection Other IV */;

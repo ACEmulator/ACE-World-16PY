@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14610,   1, 'Al-Arqis Cottages Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14610,   1,   33554867) /* Setup */
-     , (14610,   2,  150994947) /* MotionTable */
-     , (14610,   8,  100667499) /* Icon */;
+VALUES (14610,   1, 0x020001B3) /* Setup */
+     , (14610,   2, 0x09000003) /* MotionTable */
+     , (14610,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14610, 2, 2087714819, 18.033, 53.732, 9.985, 0.9924747, 0, 0, -0.1224495) /* Destination */
-/* @teleloc 0x7C700003 [18.033000 53.732000 9.985000] 0.992475 0.000000 0.000000 -0.122450 */;
+VALUES (14610, 2, 0x7C700003, 18.033, 53.732, 9.985, 0.992475, 0, 0, -0.12245) /* Destination */
+/* @teleloc 0x7C700003 [18.033001 53.731998 9.985000] 0.992475 0.000000 0.000000 -0.122450 */;

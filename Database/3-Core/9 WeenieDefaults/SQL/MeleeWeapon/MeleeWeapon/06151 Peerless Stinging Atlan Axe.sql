@@ -45,18 +45,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6151,   1, 'Peerless Stinging Atlan Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6151,   1,   33556351) /* Setup */
-     , (6151,   3,  536870932) /* SoundTable */
-     , (6151,   6,   67111919) /* PaletteBase */
-     , (6151,   7,  268435930) /* ClothingBase */
-     , (6151,   8,  100670514) /* Icon */
-     , (6151,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6151,   1, 0x0200077F) /* Setup */
+     , (6151,   3, 0x20000014) /* SoundTable */
+     , (6151,   6, 0x04000BEF) /* PaletteBase */
+     , (6151,   7, 0x100001DA) /* ClothingBase */
+     , (6151,   8, 0x06001C32) /* Icon */
+     , (6151,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6151,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6151,   518,      2)  /* Acid Protection Self IV */
-     , (6151,  1376,      2)  /* Coordination Self IV */
+VALUES (6151,  1603,      2)  /* Aura of Defender Self IV */
+     , (6151,   518,      2)  /* Acid Protection Self IV */
      , (6151,  1590,      2)  /* Aura of Heart Seeker Self IV */
-     , (6151,  1603,      2)  /* Aura of Defender Self IV */
      , (6151,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (6151,  1376,      2)  /* Coordination Self IV */
      , (6151,  1625,      2)  /* Aura of Swift Killer Self IV */;

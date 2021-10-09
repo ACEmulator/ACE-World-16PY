@@ -28,7 +28,7 @@ VALUES (22067,   1, 'Ivory Gromnie Tooth Paste') /* Name */
      , (22067,  16, 'A paste made from the tooth of an ivory gromnie.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22067,   1,   33554817) /* Setup */
-     , (22067,   6,   67111919) /* PaletteBase */
-     , (22067,   7,  268435832) /* ClothingBase */
-     , (22067,   8,  100676783) /* Icon */;
+VALUES (22067,   1, 0x02000181) /* Setup */
+     , (22067,   6, 0x04000BEF) /* PaletteBase */
+     , (22067,   7, 0x10000178) /* ClothingBase */
+     , (22067,   8, 0x060034AF) /* Icon */;

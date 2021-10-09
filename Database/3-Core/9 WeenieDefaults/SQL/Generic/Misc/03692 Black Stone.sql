@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3692,   1, 'Black Stone') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3692,   1,   33554809) /* Setup */
-     , (3692,   3,  536870932) /* SoundTable */
-     , (3692,   6,   67111919) /* PaletteBase */
-     , (3692,   7,  268435723) /* ClothingBase */
-     , (3692,   8,  100670073) /* Icon */
-     , (3692,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3692,   1, 0x02000179) /* Setup */
+     , (3692,   3, 0x20000014) /* SoundTable */
+     , (3692,   6, 0x04000BEF) /* PaletteBase */
+     , (3692,   7, 0x1000010B) /* ClothingBase */
+     , (3692,   8, 0x06001A79) /* Icon */
+     , (3692,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -25,7 +25,7 @@ VALUES (3534,   1, 'Scroll of Thrown Weapon Mastery Other III') /* Name */
      , (3534,  16, 'When learned, this spell increases the target''s Thrown Weapons skill by 50%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3534,   1,   33554826) /* Setup */
-     , (3534,   8,  100676476) /* Icon */
-     , (3534,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3534,   1, 0x0200018A) /* Setup */
+     , (3534,   8, 0x0600337C) /* Icon */
+     , (3534,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3534,  28,        535) /* Spell - Missile Weapon Mastery Other III */;

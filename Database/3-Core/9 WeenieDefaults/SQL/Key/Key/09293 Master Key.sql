@@ -30,9 +30,9 @@ VALUES (9293,   1, 'Master Key') /* Name */
      , (9293,  16, 'A key that shines with Virindi energy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9293,   1,   33557000) /* Setup */
-     , (9293,   3,  536870932) /* SoundTable */
-     , (9293,   6,   67111346) /* PaletteBase */
-     , (9293,   7,  268436150) /* ClothingBase */
-     , (9293,   8,  100671461) /* Icon */
-     , (9293,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9293,   1, 0x02000A08) /* Setup */
+     , (9293,   3, 0x20000014) /* SoundTable */
+     , (9293,   6, 0x040009B2) /* PaletteBase */
+     , (9293,   7, 0x100002B6) /* ClothingBase */
+     , (9293,   8, 0x06001FE5) /* Icon */
+     , (9293,  22, 0x3400002B) /* PhysicsEffectTable */;

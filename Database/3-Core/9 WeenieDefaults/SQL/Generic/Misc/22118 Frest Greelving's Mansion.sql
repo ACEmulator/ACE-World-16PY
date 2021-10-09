@@ -20,6 +20,6 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22118,   1, 'Frest Greelving''s Mansion') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22118,   1,   33557167) /* Setup */
-     , (22118,   2,  150995158) /* MotionTable */
-     , (22118,   8,  100671884) /* Icon */;
+VALUES (22118,   1, 0x02000AAF) /* Setup */
+     , (22118,   2, 0x090000D6) /* MotionTable */
+     , (22118,   8, 0x0600218C) /* Icon */;

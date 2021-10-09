@@ -23,5 +23,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19456,   1, 'Thighbone') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19456,   1,   33556593) /* Setup */
-     , (19456,   8,  100670681) /* Icon */;
+VALUES (19456,   1, 0x02000871) /* Setup */
+     , (19456,   8, 0x06001CD9) /* Icon */;

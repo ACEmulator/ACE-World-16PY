@@ -35,9 +35,9 @@ VALUES (9476,   1, 'Strong Benevolence') /* Name */
      , (9476,  16, 'Knowing your enemy only goes so far: One must have the passion to strike. Be a shining spear in the night.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9476,   1,   33557007) /* Setup */
-     , (9476,   3,  536870932) /* SoundTable */
-     , (9476,   6,   67111919) /* PaletteBase */
-     , (9476,   7,  268436164) /* ClothingBase */
-     , (9476,   8,  100671489) /* Icon */
-     , (9476,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9476,   1, 0x02000A0F) /* Setup */
+     , (9476,   3, 0x20000014) /* SoundTable */
+     , (9476,   6, 0x04000BEF) /* PaletteBase */
+     , (9476,   7, 0x100002C4) /* ClothingBase */
+     , (9476,   8, 0x06002001) /* Icon */
+     , (9476,  22, 0x3400002B) /* PhysicsEffectTable */;

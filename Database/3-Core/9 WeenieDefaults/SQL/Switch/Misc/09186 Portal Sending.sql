@@ -29,8 +29,8 @@ VALUES (9186,   1, 'Portal Sending') /* Name */
      , (9186,  22, 'The portal egress has not recharged yet!') /* ActivationFailure */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9186,   1,   33554669) /* Setup */
-     , (9186,   3,  536870932) /* SoundTable */
-     , (9186,   8,  100667494) /* Icon */
-     , (9186,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9186,   1, 0x020000ED) /* Setup */
+     , (9186,   3, 0x20000014) /* SoundTable */
+     , (9186,   8, 0x06001066) /* Icon */
+     , (9186,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9186,  28,       2368) /* Spell - a powerful force */;

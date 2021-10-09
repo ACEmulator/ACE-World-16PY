@@ -30,7 +30,7 @@ VALUES (29540,  22, True ) /* Inscribable */
      , (29540, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29540,   5, -0.0166) /* ManaRate */
+VALUES (29540,   5,  -0.017) /* ManaRate */
      , (29540,  12,    0.66) /* Shade */
      , (29540,  13,     1.2) /* ArmorModVsSlash */
      , (29540,  14,     1.2) /* ArmorModVsPierce */
@@ -46,17 +46,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29540,   1, 'Noble Leggings of Will') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29540,   1,   33554856) /* Setup */
-     , (29540,   3,  536870932) /* SoundTable */
-     , (29540,   6,   67108990) /* PaletteBase */
-     , (29540,   7,  268436878) /* ClothingBase */
-     , (29540,   8,  100675043) /* Icon */
-     , (29540,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29540,   1, 0x020001A8) /* Setup */
+     , (29540,   3, 0x20000014) /* SoundTable */
+     , (29540,   6, 0x0400007E) /* PaletteBase */
+     , (29540,   7, 0x1000058E) /* ClothingBase */
+     , (29540,   8, 0x06002DE3) /* Icon */
+     , (29540,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29540,   568,      2)  /* Creature Enchantment Mastery Other VI */
-     , (29540,   592,      2)  /* Item Enchantment Mastery Other VI */
      , (29540,   616,      2)  /* Life Magic Mastery Other VI */
+     , (29540,   592,      2)  /* Item Enchantment Mastery Other VI */
      , (29540,   640,      2)  /* War Magic Mastery Other VI */
-     , (29540,  2108,      2)  /* Brogard's Defiance */
-     , (29540,  3574,      2)  /* Inner Will */;
+     , (29540,  3574,      2)  /* Inner Will */
+     , (29540,  2108,      2)  /* Brogard's Defiance */;

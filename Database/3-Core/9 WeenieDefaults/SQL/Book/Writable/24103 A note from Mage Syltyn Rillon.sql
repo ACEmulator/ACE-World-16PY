@@ -25,8 +25,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24103,   1, 'A note from Mage Syltyn Rillon') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24103,   1,   33558173) /* Setup */
-     , (24103,   8,  100674008) /* Icon */;
+VALUES (24103,   1, 0x02000E9D) /* Setup */
+     , (24103,   8, 0x060029D8) /* Icon */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (24103, 1, 1000);

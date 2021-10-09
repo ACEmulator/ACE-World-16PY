@@ -28,8 +28,8 @@ VALUES (11668,   1, 'Completed Advanced Creature Enchantment Skill Puzzle') /* N
      , (11668,  16, 'A completed Advanced Creature Enchantment Skill Puzzle.  Turn in to a Bestower Examiner to receive a title.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11668,   1,   33557028) /* Setup */
-     , (11668,   3,  536870932) /* SoundTable */
-     , (11668,   8,  100671726) /* Icon */
-     , (11668,  22,  872415275) /* PhysicsEffectTable */
-     , (11668,  36,  234881046) /* MutateFilter */;
+VALUES (11668,   1, 0x02000A24) /* Setup */
+     , (11668,   3, 0x20000014) /* SoundTable */
+     , (11668,   8, 0x060020EE) /* Icon */
+     , (11668,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11668,  36, 0x0E000016) /* MutateFilter */;

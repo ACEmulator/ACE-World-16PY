@@ -18,7 +18,7 @@ VALUES (27817,   1,        256) /* ItemType - MissileWeapon */
      , (27817,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (27817,  49,         25) /* WeaponTime */
      , (27817,  50,          4) /* AmmoType - Atlatl */
-     , (27817,  51,          2) /* CombatUse - Missle */
+     , (27817,  51,          2) /* CombatUse - Missile */
      , (27817,  60,        152) /* WeaponRange */
      , (27817,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27817, 106,        200) /* ItemSpellcraft */
@@ -51,14 +51,14 @@ VALUES (27817,   1, 'Bound Singularity Atlatl') /* Name */
      , (27817,  15, 'An atlatl imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27817,   1,   33558787) /* Setup */
-     , (27817,   3,  536870932) /* SoundTable */
-     , (27817,   6,   67111919) /* PaletteBase */
-     , (27817,   7,  268436238) /* ClothingBase */
-     , (27817,   8,  100676583) /* Icon */
-     , (27817,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27817,   1, 0x02001103) /* Setup */
+     , (27817,   3, 0x20000014) /* SoundTable */
+     , (27817,   6, 0x04000BEF) /* PaletteBase */
+     , (27817,   7, 0x1000030E) /* ClothingBase */
+     , (27817,   8, 0x060033E7) /* Icon */
+     , (27817,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27817,  1337,      2)  /* Strength Other VI */
-     , (27817,  1605,      2)  /* Aura of Defender Self VI */
+VALUES (27817,  1605,      2)  /* Aura of Defender Self VI */
+     , (27817,  1337,      2)  /* Strength Other VI */
      , (27817,  1616,      2)  /* Aura of Blood Drinker Self VI */;

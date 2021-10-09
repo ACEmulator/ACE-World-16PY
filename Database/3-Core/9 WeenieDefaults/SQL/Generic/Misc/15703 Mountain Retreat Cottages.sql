@@ -22,5 +22,5 @@ VALUES (15703,   1, 'Mountain Retreat Cottages') /* Name */
      , (15703,  16, 'Welcome to Mountain Retreat Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15703,   1,   33557463) /* Setup */
-     , (15703,   8,  100668115) /* Icon */;
+VALUES (15703,   1, 0x02000BD7) /* Setup */
+     , (15703,   8, 0x060012D3) /* Icon */;

@@ -42,16 +42,16 @@ VALUES (8883,   1, 'Staff of Aerfalle') /* Name */
      , (8883,  16, 'A staff made from the petrified wood of Aerlinthe, taken from the claws of the Dark Magus of that island. This artifact is several centuries old.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8883,   1,   33555649) /* Setup */
-     , (8883,   3,  536870932) /* SoundTable */
-     , (8883,   8,  100670752) /* Icon */
-     , (8883,  22,  872415275) /* PhysicsEffectTable */
-     , (8883,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (8883,   1, 0x020004C1) /* Setup */
+     , (8883,   3, 0x20000014) /* SoundTable */
+     , (8883,   8, 0x06001D20) /* Icon */
+     , (8883,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8883,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (8883,  28,       1794) /* Spell - Acid Streak V */
-     , (8883,  36,  234881046) /* MutateFilter */
+     , (8883,  36, 0x0E000016) /* MutateFilter */
      , (8883,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8883,   615,      2)  /* Life Magic Mastery Other V */
+VALUES (8883,   908,      2)  /* Leadership Mastery Other V */
      , (8883,   639,      2)  /* War Magic Mastery Other V */
-     , (8883,   908,      2)  /* Leadership Mastery Other V */;
+     , (8883,   615,      2)  /* Life Magic Mastery Other V */;

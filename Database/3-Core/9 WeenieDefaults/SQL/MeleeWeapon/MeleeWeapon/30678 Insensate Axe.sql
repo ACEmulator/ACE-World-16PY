@@ -49,10 +49,10 @@ VALUES (30678,   1, 'Insensate Axe') /* Name */
      , (30678,  33, 'WitheredAtollAxe0105') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30678,   1,   33559215) /* Setup */
-     , (30678,   3,  536870932) /* SoundTable */
-     , (30678,   8,  100677400) /* Icon */
-     , (30678,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30678,   1, 0x020012AF) /* Setup */
+     , (30678,   3, 0x20000014) /* SoundTable */
+     , (30678,   8, 0x06003718) /* Icon */
+     , (30678,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30678,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

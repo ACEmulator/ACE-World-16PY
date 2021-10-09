@@ -40,8 +40,8 @@ VALUES (10993,   1, 'Crop') /* Name */
      , (10993,  16, 'This is the monster only version of this weapon. You shouldn''t be able to read this, naughty spawn.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10993,   1,   33557226) /* Setup */
-     , (10993,   3,  536870932) /* SoundTable */
-     , (10993,   8,  100671856) /* Icon */
-     , (10993,  22,  872415275) /* PhysicsEffectTable */
-     , (10993,  36,  234881044) /* MutateFilter */;
+VALUES (10993,   1, 0x02000AEA) /* Setup */
+     , (10993,   3, 0x20000014) /* SoundTable */
+     , (10993,   8, 0x06002170) /* Icon */
+     , (10993,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (10993,  36, 0x0E000014) /* MutateFilter */;

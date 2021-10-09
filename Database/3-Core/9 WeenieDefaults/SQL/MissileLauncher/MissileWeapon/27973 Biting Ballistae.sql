@@ -17,7 +17,7 @@ VALUES (27973,   1,        256) /* ItemType - MissileWeapon */
      , (27973,  48,          3) /* WeaponSkill - Crossbow */
      , (27973,  49,        100) /* WeaponTime */
      , (27973,  50,          2) /* AmmoType - Bolt */
-     , (27973,  51,          2) /* CombatUse - Missle */
+     , (27973,  51,          2) /* CombatUse - Missile */
      , (27973,  52,          2) /* ParentLocation - LeftHand */
      , (27973,  53,          3) /* PlacementPosition - LeftHand */
      , (27973,  60,        192) /* WeaponRange */
@@ -50,16 +50,16 @@ VALUES (27973,   1, 'Biting Ballistae') /* Name */
      , (27973,  16, 'A Crossbow crafted in Falatacot times. This weapon was crafted for the sole purpose of killing.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27973,   1,   33558750) /* Setup */
-     , (27973,   3,  536870932) /* SoundTable */
-     , (27973,   6,   67114956) /* PaletteBase */
-     , (27973,   7,  268436792) /* ClothingBase */
-     , (27973,   8,  100676552) /* Icon */
-     , (27973,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27973,   1, 0x020010DE) /* Setup */
+     , (27973,   3, 0x20000014) /* SoundTable */
+     , (27973,   6, 0x040017CC) /* PaletteBase */
+     , (27973,   7, 0x10000538) /* ClothingBase */
+     , (27973,   8, 0x060033C8) /* Icon */
+     , (27973,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27973,  1384,      2)  /* Coordination Other VI */
-     , (27973,  1604,      2)  /* Aura of Defender Self V */
+VALUES (27973,  1604,      2)  /* Aura of Defender Self V */
      , (27973,  1616,      2)  /* Aura of Blood Drinker Self VI */
      , (27973,  1626,      2)  /* Aura of Swift Killer Self V */
+     , (27973,  1384,      2)  /* Coordination Other VI */
      , (27973,  2543,      2)  /* Minor Missile Weapon Aptitude */;

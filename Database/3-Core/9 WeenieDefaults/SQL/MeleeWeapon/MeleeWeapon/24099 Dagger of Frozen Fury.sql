@@ -44,15 +44,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24099,   1, 'Dagger of Frozen Fury') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24099,   1,   33558264) /* Setup */
-     , (24099,   3,  536870932) /* SoundTable */
-     , (24099,   6,   67111919) /* PaletteBase */
-     , (24099,   7,  268435783) /* ClothingBase */
-     , (24099,   8,  100674255) /* Icon */
-     , (24099,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24099,   1, 0x02000EF8) /* Setup */
+     , (24099,   3, 0x20000014) /* SoundTable */
+     , (24099,   6, 0x04000BEF) /* PaletteBase */
+     , (24099,   7, 0x10000147) /* ClothingBase */
+     , (24099,   8, 0x06002ACF) /* Icon */
+     , (24099,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24099,  1040,      2)  /* Cold Protection Other V */
+VALUES (24099,  1604,      2)  /* Aura of Defender Self V */
      , (24099,  1591,      2)  /* Aura of Heart Seeker Self V */
-     , (24099,  1604,      2)  /* Aura of Defender Self V */
-     , (24099,  1615,      2)  /* Aura of Blood Drinker Self V */;
+     , (24099,  1615,      2)  /* Aura of Blood Drinker Self V */
+     , (24099,  1040,      2)  /* Cold Protection Other V */;

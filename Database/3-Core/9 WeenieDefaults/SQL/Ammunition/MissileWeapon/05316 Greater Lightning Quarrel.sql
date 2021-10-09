@@ -41,9 +41,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5316,   1, 'Greater Lightning Quarrel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5316,   1,   33555695) /* Setup */
-     , (5316,   3,  536870932) /* SoundTable */
-     , (5316,   6,   67111919) /* PaletteBase */
-     , (5316,   7,  268436306) /* ClothingBase */
-     , (5316,   8,  100670250) /* Icon */
-     , (5316,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5316,   1, 0x020004EF) /* Setup */
+     , (5316,   3, 0x20000014) /* SoundTable */
+     , (5316,   6, 0x04000BEF) /* PaletteBase */
+     , (5316,   7, 0x10000352) /* ClothingBase */
+     , (5316,   8, 0x06001B2A) /* Icon */
+     , (5316,  22, 0x3400002B) /* PhysicsEffectTable */;

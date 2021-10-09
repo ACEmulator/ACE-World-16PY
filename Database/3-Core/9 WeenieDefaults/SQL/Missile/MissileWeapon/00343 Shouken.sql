@@ -20,7 +20,7 @@ VALUES (343,   1,        256) /* ItemType - MissileWeapon */
      , (343,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (343,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (343,  49,         10) /* WeaponTime */
-     , (343,  51,          2) /* CombatUse - Missle */
+     , (343,  51,          2) /* CombatUse - Missile */
      , (343,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (343, 150,        103) /* HookPlacement - Hook */
      , (343, 151,          2) /* HookType - Wall */;
@@ -41,7 +41,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (343,   1, 'Shouken') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (343,   1,   33554752) /* Setup */
-     , (343,   3,  536870932) /* SoundTable */
-     , (343,   8,  100667605) /* Icon */
-     , (343,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (343,   1, 0x02000140) /* Setup */
+     , (343,   3, 0x20000014) /* SoundTable */
+     , (343,   8, 0x060010D5) /* Icon */
+     , (343,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -26,7 +26,7 @@ VALUES (27648,  22, True ) /* Inscribable */
      , (27648,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27648,   5, -0.0333) /* ManaRate */
+VALUES (27648,   5,  -0.033) /* ManaRate */
      , (27648,  29,       1) /* WeaponDefense */
      , (27648,  39,       1) /* DefaultScale */
      , (27648, 144,    0.06) /* ManaConversionMod */;
@@ -37,18 +37,18 @@ VALUES (27648,   1, 'Head of the Homunculus') /* Name */
      , (27648,  16, 'A small stone head. There are two small indentations where its eyes were removed.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27648,   1,   33558744) /* Setup */
-     , (27648,   3,  536870932) /* SoundTable */
-     , (27648,   8,  100676533) /* Icon */
-     , (27648,  22,  872415275) /* PhysicsEffectTable */
-     , (27648,  27, 1073742049) /* UseUserAnimation - UseMagicWand */;
+VALUES (27648,   1, 0x020010D8) /* Setup */
+     , (27648,   3, 0x20000014) /* SoundTable */
+     , (27648,   8, 0x060033B5) /* Icon */
+     , (27648,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27648,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27648,   591,      2)  /* Item Enchantment Mastery Other V */
-     , (27648,   615,      2)  /* Life Magic Mastery Other V */
+VALUES (27648,   615,      2)  /* Life Magic Mastery Other V */
      , (27648,   663,      2)  /* Mana Conversion Mastery Other V */
-     , (27648,  1431,      2)  /* Focus Other V */
-     , (27648,  2581,      2)  /* Minor Focus */;
+     , (27648,   591,      2)  /* Item Enchantment Mastery Other V */
+     , (27648,  2581,      2)  /* Minor Focus */
+     , (27648,  1431,      2)  /* Focus Other V */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (27648, 25 /* Wield */,   0.05, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

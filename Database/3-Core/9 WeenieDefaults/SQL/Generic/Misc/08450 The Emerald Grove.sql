@@ -22,7 +22,7 @@ VALUES (8450,   1, 'The Emerald Grove') /* Name */
      , (8450,  16, 'The Emerald Grove') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8450,   1,   33555594) /* Setup */
-     , (8450,   6,   67111782) /* PaletteBase */
-     , (8450,   7,  268435690) /* ClothingBase */
-     , (8450,   8,  100668115) /* Icon */;
+VALUES (8450,   1, 0x0200048A) /* Setup */
+     , (8450,   6, 0x04000B66) /* PaletteBase */
+     , (8450,   7, 0x100000EA) /* ClothingBase */
+     , (8450,   8, 0x060012D3) /* Icon */;

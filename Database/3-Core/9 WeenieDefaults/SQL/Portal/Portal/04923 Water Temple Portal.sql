@@ -26,10 +26,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4923,   1, 'Water Temple Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4923,   1,   33555922) /* Setup */
-     , (4923,   2,  150994947) /* MotionTable */
-     , (4923,   8,  100667499) /* Icon */;
+VALUES (4923,   1, 0x020005D2) /* Setup */
+     , (4923,   2, 0x09000003) /* MotionTable */
+     , (4923,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4923, 2, 23593258, 40, -20, 0, 0.7071068, 0, 0, -0.7071068) /* Destination */
+VALUES (4923, 2, 0x0168012A, 40, -20, 0, 0.707107, 0, 0, -0.707107) /* Destination */
 /* @teleloc 0x0168012A [40.000000 -20.000000 0.000000] 0.707107 0.000000 0.000000 -0.707107 */;

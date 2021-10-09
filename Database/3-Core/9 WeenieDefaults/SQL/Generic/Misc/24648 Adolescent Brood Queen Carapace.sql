@@ -24,7 +24,7 @@ VALUES (24648,   1, 'Adolescent Brood Queen Carapace') /* Name */
      , (24648,  33, 'PickedUpBroodQueenCarapace') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24648,   1,   33556593) /* Setup */
-     , (24648,   3,  536870932) /* SoundTable */
-     , (24648,   8,  100674517) /* Icon */
-     , (24648,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24648,   1, 0x02000871) /* Setup */
+     , (24648,   3, 0x20000014) /* SoundTable */
+     , (24648,   8, 0x06002BD5) /* Icon */
+     , (24648,  22, 0x3400002B) /* PhysicsEffectTable */;

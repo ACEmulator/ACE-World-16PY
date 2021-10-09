@@ -18,7 +18,7 @@ VALUES (23131,   1,        256) /* ItemType - MissileWeapon */
      , (23131,  48,          3) /* WeaponSkill - Crossbow */
      , (23131,  49,         20) /* WeaponTime */
      , (23131,  50,          2) /* AmmoType - Bolt */
-     , (23131,  51,          2) /* CombatUse - Missle */
+     , (23131,  51,          2) /* CombatUse - Missile */
      , (23131,  52,          2) /* ParentLocation - LeftHand */
      , (23131,  53,          3) /* PlacementPosition - LeftHand */
      , (23131,  60,        192) /* WeaponRange */
@@ -33,7 +33,7 @@ VALUES (23131,  22, True ) /* Inscribable */
      , (23131,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23131,   5,       0) /* ManaRate */
+VALUES (23131,   5,      -0) /* ManaRate */
      , (23131,  26,    27.3) /* MaximumVelocity */
      , (23131,  29,       1) /* WeaponDefense */
      , (23131,  39,    1.25) /* DefaultScale */
@@ -44,13 +44,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23131,   1, 'Heavy Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23131,   1,   33554732) /* Setup */
-     , (23131,   3,  536870932) /* SoundTable */
-     , (23131,   6,   67111919) /* PaletteBase */
-     , (23131,   7,  268435762) /* ClothingBase */
-     , (23131,   8,  100668835) /* Icon */
-     , (23131,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23131,   1, 0x0200012C) /* Setup */
+     , (23131,   3, 0x20000014) /* SoundTable */
+     , (23131,   6, 0x04000BEF) /* PaletteBase */
+     , (23131,   7, 0x10000132) /* ClothingBase */
+     , (23131,   8, 0x060015A3) /* Icon */
+     , (23131,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23131,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (23131,  1624,      2)  /* Aura of Swift Killer Self III */;
+VALUES (23131,  1624,      2)  /* Aura of Swift Killer Self III */
+     , (23131,  1616,      2)  /* Aura of Blood Drinker Self VI */;

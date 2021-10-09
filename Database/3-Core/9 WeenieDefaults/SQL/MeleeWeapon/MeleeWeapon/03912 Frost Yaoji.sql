@@ -38,10 +38,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3912,   1, 'Frost Yaoji') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3912,   1,   33555810) /* Setup */
-     , (3912,   3,  536870932) /* SoundTable */
-     , (3912,   6,   67111919) /* PaletteBase */
-     , (3912,   7,  268435775) /* ClothingBase */
-     , (3912,   8,  100667621) /* Icon */
-     , (3912,  22,  872415275) /* PhysicsEffectTable */
-     , (3912,  36,  234881044) /* MutateFilter */;
+VALUES (3912,   1, 0x02000562) /* Setup */
+     , (3912,   3, 0x20000014) /* SoundTable */
+     , (3912,   6, 0x04000BEF) /* PaletteBase */
+     , (3912,   7, 0x1000013F) /* ClothingBase */
+     , (3912,   8, 0x060010E5) /* Icon */
+     , (3912,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3912,  36, 0x0E000014) /* MutateFilter */;

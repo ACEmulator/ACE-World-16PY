@@ -29,16 +29,16 @@ VALUES (9185,   1, 'Tomb of the Dead Risen Gen') /* Name */
      , (9185,  17, 'The dead have been awakened.') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9185,   1,   33555536) /* Setup */
-     , (9185,   2,  150994977) /* MotionTable */
-     , (9185,   8,  100668114) /* Icon */
-     , (9185,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9185,   1, 0x02000450) /* Setup */
+     , (9185,   2, 0x09000021) /* MotionTable */
+     , (9185,   8, 0x060012D2) /* Icon */
+     , (9185,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9185,  16,          0) /* ActivationTarget */;
+VALUES (9185,  16, 0x00000000) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9185, -1, 8672, 240, 1, 1, 1, 4, -1, 0, 0, 0, 0.1, -0.1, 0, -0.6360782, 0, 0, -0.7716245) /* Generate Risen Soldier (8672) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (9185, -1, 8672, 240, 1, 1, 1, 4, -1, 0, 0, 0, -0.1, -0.1, 0, -0.6360782, 0, 0, -0.7716245) /* Generate Risen Soldier (8672) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (9185, -1, 8672, 240, 1, 1, 1, 4, -1, 0, 0, 0, 0.1, -0.1, 0, -0.6360782, 0, 0, -0.7716245) /* Generate Risen Soldier (8672) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (9185, -1, 8672, 240, 1, 1, 1, 4, -1, 0, 0, 0, -0.1, -0.1, 0, -0.6360782, 0, 0, -0.7716245) /* Generate Risen Soldier (8672) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (9185, -1, 8672, 240, 1, 1, 1, 4, -1, 0, 0, 0, 0.1, -0.1, 0, -0.636078, 0, -0, -0.771625) /* Generate Risen Soldier (8672) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (9185, -1, 8672, 240, 1, 1, 1, 4, -1, 0, 0, 0, -0.1, -0.1, 0, -0.636078, 0, -0, -0.771625) /* Generate Risen Soldier (8672) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (9185, -1, 8672, 240, 1, 1, 1, 4, -1, 0, 0, 0, 0.1, -0.1, 0, -0.636078, 0, -0, -0.771625) /* Generate Risen Soldier (8672) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (9185, -1, 8672, 240, 1, 1, 1, 4, -1, 0, 0, 0, -0.1, -0.1, 0, -0.636078, 0, -0, -0.771625) /* Generate Risen Soldier (8672) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

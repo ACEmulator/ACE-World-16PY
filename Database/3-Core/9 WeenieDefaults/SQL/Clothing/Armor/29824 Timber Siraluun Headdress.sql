@@ -47,16 +47,16 @@ VALUES (29824,   1, 'Timber Siraluun Headdress') /* Name */
      , (29824,  16, 'A headdress plaited from the plumes of a Timber Siraluun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29824,   1,   33557288) /* Setup */
-     , (29824,   3,  536870932) /* SoundTable */
-     , (29824,   6,   67108990) /* PaletteBase */
-     , (29824,   7,  268436237) /* ClothingBase */
-     , (29824,   8,  100677282) /* Icon */
-     , (29824,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29824,   1, 0x02000B28) /* Setup */
+     , (29824,   3, 0x20000014) /* SoundTable */
+     , (29824,   6, 0x0400007E) /* PaletteBase */
+     , (29824,   7, 0x1000030D) /* ClothingBase */
+     , (29824,   8, 0x060036A2) /* Icon */
+     , (29824,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29824,   712,      2)  /* Armor Tinkering Expertise Other V */
-     , (29824,   735,      2)  /* Item Tinkering Expertise Other IV */
+VALUES (29824,   783,      2)  /* Weapon Tinkering Expertise Other IV */
+     , (29824,   712,      2)  /* Armor Tinkering Expertise Other V */
      , (29824,   759,      2)  /* Magic Item Tinkering Expertise Other IV */
-     , (29824,   783,      2)  /* Weapon Tinkering Expertise Other IV */
+     , (29824,   735,      2)  /* Item Tinkering Expertise Other IV */
      , (29824,  3503,      2)  /* Arcanum Salvaging Self V */;

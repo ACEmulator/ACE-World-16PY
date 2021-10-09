@@ -65,12 +65,12 @@ VALUES (29590,   1, 'Stomach Wall') /* Name */
      , (29590,  16, 'A throbbing wall of living fleshy material. The gurgling of acid and the presence of half digested corpses alerts you to the fact that this is a stomach wall. You are in the belly of the beast.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29590,   1,   33559079) /* Setup */
-     , (29590,   2,  150995318) /* MotionTable */
-     , (29590,   3,  536871001) /* SoundTable */
-     , (29590,   4,  805306372) /* CombatTable */
-     , (29590,   8,  100677188) /* Icon */
-     , (29590,  22,  872415339) /* PhysicsEffectTable */;
+VALUES (29590,   1, 0x02001227) /* Setup */
+     , (29590,   2, 0x09000176) /* MotionTable */
+     , (29590,   3, 0x20000059) /* SoundTable */
+     , (29590,   4, 0x30000004) /* CombatTable */
+     , (29590,   8, 0x06003644) /* Icon */
+     , (29590,  22, 0x3400006B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29590,   1,   1, 0, 0) /* Strength */
@@ -86,9 +86,9 @@ VALUES (29590,   1, 999999, 0, 0, 1000000) /* MaxHealth */
      , (29590,   5,     0, 0, 0, 1) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (29590,  6, 0, 2, 0,   1, 0, 2158.62530970726) /* MeleeDefense        Trained */
-     , (29590,  7, 0, 2, 0,   1, 0, 2158.62530970726) /* MissileDefense      Trained */
-     , (29590, 15, 0, 3, 0,   1, 0, 2158.62530970726) /* MagicDefense        Specialized */;
+VALUES (29590,  6, 0, 2, 0,   1, 0, 2158.6253097072645) /* MeleeDefense        Trained */
+     , (29590,  7, 0, 2, 0,   1, 0, 2158.6253097072645) /* MissileDefense      Trained */
+     , (29590, 15, 0, 3, 0,   1, 0, 2158.6253097072645) /* MagicDefense        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (29590,  0,  4,  0,    0,  500,  500,  500,  500,  500,  500,  500,  500,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

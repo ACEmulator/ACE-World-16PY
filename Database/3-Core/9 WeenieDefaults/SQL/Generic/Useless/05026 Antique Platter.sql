@@ -26,7 +26,7 @@ VALUES (5026,   1, 'Antique Platter') /* Name */
      , (5026,  33, 'AntiquePlatterQuest') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5026,   1,   33554930) /* Setup */
-     , (5026,   3,  536870932) /* SoundTable */
-     , (5026,   8,  100668119) /* Icon */
-     , (5026,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5026,   1, 0x020001F2) /* Setup */
+     , (5026,   3, 0x20000014) /* SoundTable */
+     , (5026,   8, 0x060012D7) /* Icon */
+     , (5026,  22, 0x3400002B) /* PhysicsEffectTable */;

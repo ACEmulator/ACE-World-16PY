@@ -27,7 +27,7 @@ VALUES (1423,   1, 'Worn Rusty Key') /* Name */
      , (1423,  16, 'A rusty, mysterious key of unknown purpose.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1423,   1,   33554784) /* Setup */
-     , (1423,   3,  536870932) /* SoundTable */
-     , (1423,   8,  100668436) /* Icon */
-     , (1423,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1423,   1, 0x02000160) /* Setup */
+     , (1423,   3, 0x20000014) /* SoundTable */
+     , (1423,   8, 0x06001414) /* Icon */
+     , (1423,  22, 0x3400002B) /* PhysicsEffectTable */;

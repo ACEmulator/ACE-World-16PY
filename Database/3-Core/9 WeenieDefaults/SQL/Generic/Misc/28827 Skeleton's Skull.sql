@@ -25,8 +25,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28827,   1, 'Skeleton''s Skull') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28827,   1,   33555205) /* Setup */
-     , (28827,   3,  536870932) /* SoundTable */
-     , (28827,   8,  100667504) /* Icon */
-     , (28827,  22,  872415275) /* PhysicsEffectTable */
-     , (28827,  36,  234881046) /* MutateFilter */;
+VALUES (28827,   1, 0x02000305) /* Setup */
+     , (28827,   3, 0x20000014) /* SoundTable */
+     , (28827,   8, 0x06001070) /* Icon */
+     , (28827,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (28827,  36, 0x0E000016) /* MutateFilter */;

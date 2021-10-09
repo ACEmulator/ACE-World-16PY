@@ -48,18 +48,18 @@ VALUES (27189,   1, 'Vein-Thirst Kukri') /* Name */
      , (27189,  15, 'This Falatacot weapon appears to be an ornamental or sacrificial one. Curved and sharp, the blade seems alive in some way.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27189,   1,   33558634) /* Setup */
-     , (27189,   3,  536870932) /* SoundTable */
-     , (27189,   6,   67114956) /* PaletteBase */
-     , (27189,   7,  268436792) /* ClothingBase */
-     , (27189,   8,  100675921) /* Icon */
-     , (27189,  22,  872415275) /* PhysicsEffectTable */
-     , (27189,  36,  234881044) /* MutateFilter */;
+VALUES (27189,   1, 0x0200106A) /* Setup */
+     , (27189,   3, 0x20000014) /* SoundTable */
+     , (27189,   6, 0x040017CC) /* PaletteBase */
+     , (27189,   7, 0x10000538) /* ClothingBase */
+     , (27189,   8, 0x06003151) /* Icon */
+     , (27189,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27189,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27189,  1119,      2)  /* Blade Protection Other V */
-     , (27189,  1407,      2)  /* Quickness Other V */
-     , (27189,  1604,      2)  /* Aura of Defender Self V */
+VALUES (27189,  1604,      2)  /* Aura of Defender Self V */
      , (27189,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (27189,  1407,      2)  /* Quickness Other V */
      , (27189,  1626,      2)  /* Aura of Swift Killer Self V */
+     , (27189,  1119,      2)  /* Blade Protection Other V */
      , (27189,  2544,      2)  /* Minor Finesse Weapon Aptitude */;

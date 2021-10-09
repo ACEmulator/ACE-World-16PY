@@ -29,7 +29,7 @@ VALUES (9487,   1, 'Arshid''s Mid-Stakes Gambling Token') /* Name */
      , (9487,  16, 'A blue gambling token from Arshid''s Den of Iniquity.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9487,   1,   33557006) /* Setup */
-     , (9487,   3,  536870932) /* SoundTable */
-     , (9487,   8,  100671522) /* Icon */
-     , (9487,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9487,   1, 0x02000A0E) /* Setup */
+     , (9487,   3, 0x20000014) /* SoundTable */
+     , (9487,   8, 0x06002022) /* Icon */
+     , (9487,  22, 0x3400002B) /* PhysicsEffectTable */;

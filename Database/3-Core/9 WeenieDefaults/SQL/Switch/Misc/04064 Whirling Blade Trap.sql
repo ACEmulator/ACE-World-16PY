@@ -30,8 +30,8 @@ VALUES (4064,   1, 'Whirling Blade Trap') /* Name */
      , (4064,  22, 'You hear a faint clicking sound.') /* ActivationFailure */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4064,   1,   33554667) /* Setup */
-     , (4064,   3,  536870932) /* SoundTable */
-     , (4064,   8,  100667494) /* Icon */
-     , (4064,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4064,   1, 0x020000EB) /* Setup */
+     , (4064,   3, 0x20000014) /* SoundTable */
+     , (4064,   8, 0x06001066) /* Icon */
+     , (4064,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4064,  28,         94) /* Spell - Whirling Blade III */;

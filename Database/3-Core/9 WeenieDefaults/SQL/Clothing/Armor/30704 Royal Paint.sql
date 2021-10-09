@@ -44,16 +44,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30704,   1, 'Royal Paint') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30704,   1,   33554641) /* Setup */
-     , (30704,   3,  536870932) /* SoundTable */
-     , (30704,   6,   67108990) /* PaletteBase */
-     , (30704,   7,  268436891) /* ClothingBase */
-     , (30704,   8,  100668412) /* Icon */
-     , (30704,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30704,   1, 0x020000D1) /* Setup */
+     , (30704,   3, 0x20000014) /* SoundTable */
+     , (30704,   6, 0x0400007E) /* PaletteBase */
+     , (30704,   7, 0x1000059B) /* ClothingBase */
+     , (30704,   8, 0x060013FC) /* Icon */
+     , (30704,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30704,   209,      2)  /* Mana Renewal Other IV */
-     , (30704,  1136,      2)  /* Piercing Protection Self IV */
+VALUES (30704,  1448,      2)  /* Willpower Self IV */
+     , (30704,  2581,      2)  /* Minor Focus */
      , (30704,  1424,      2)  /* Focus Self IV */
-     , (30704,  1448,      2)  /* Willpower Self IV */
-     , (30704,  2581,      2)  /* Minor Focus */;
+     , (30704,   209,      2)  /* Mana Renewal Other IV */
+     , (30704,  1136,      2)  /* Piercing Protection Self IV */;

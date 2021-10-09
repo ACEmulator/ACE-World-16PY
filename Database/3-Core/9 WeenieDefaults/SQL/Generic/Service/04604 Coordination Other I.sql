@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4604,   1, 'Coordination Other I') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4604,   1,   33554667) /* Setup */
-     , (4604,   8,  100668268) /* Icon */
-     , (4604,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4604,   1, 0x020000EB) /* Setup */
+     , (4604,   8, 0x0600136C) /* Icon */
+     , (4604,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4604,  28,       1379) /* Spell - Coordination Other I */;

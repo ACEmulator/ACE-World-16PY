@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12547,   1, 'Sonel Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12547,   1,   33554867) /* Setup */
-     , (12547,   2,  150994947) /* MotionTable */
-     , (12547,   8,  100667499) /* Icon */;
+VALUES (12547,   1, 0x020001B3) /* Setup */
+     , (12547,   2, 0x09000003) /* MotionTable */
+     , (12547,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12547, 2, 1390346259, 58.821, 62.124, 64.084, 0.9071469, 0, 0, -0.4208142) /* Destination */
-/* @teleloc 0x52DF0013 [58.821000 62.124000 64.084000] 0.907147 0.000000 0.000000 -0.420814 */;
+VALUES (12547, 2, 0x52DF0013, 58.821, 62.124, 64.084, 0.907147, 0, 0, -0.420814) /* Destination */
+/* @teleloc 0x52DF0013 [58.820999 62.124001 64.084000] 0.907147 0.000000 0.000000 -0.420814 */;

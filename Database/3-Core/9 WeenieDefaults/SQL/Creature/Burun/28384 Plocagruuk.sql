@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28384,   1, 'Plocagruuk') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28384,   1,   33558582) /* Setup */
-     , (28384,   2,  150995272) /* MotionTable */
-     , (28384,   3,  536871083) /* SoundTable */
-     , (28384,   4,  805306427) /* CombatTable */
-     , (28384,   6,   67114919) /* PaletteBase */
-     , (28384,   7,  268436789) /* ClothingBase */
-     , (28384,   8,  100675761) /* Icon */
-     , (28384,  22,  872415402) /* PhysicsEffectTable */
+VALUES (28384,   1, 0x02001036) /* Setup */
+     , (28384,   2, 0x09000148) /* MotionTable */
+     , (28384,   3, 0x200000AB) /* SoundTable */
+     , (28384,   4, 0x3000003B) /* CombatTable */
+     , (28384,   6, 0x040017A7) /* PaletteBase */
+     , (28384,   7, 0x10000535) /* ClothingBase */
+     , (28384,   8, 0x060030B1) /* Icon */
+     , (28384,  22, 0x340000AA) /* PhysicsEffectTable */
      , (28384,  32,        471) /* WieldedTreasureType - 
                                    Wield Stone Axe (26026) | Probability: 20%
                                    Wield Bone Dagger (27123) | Probability: 20%
@@ -97,24 +97,24 @@ VALUES (28384,   1,  6860, 0, 0, 7000) /* MaxHealth */
      , (28384,   5,  1180, 0, 0, 1500) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (28384,  1, 0, 3, 0, 383, 0, 2017.75571827599) /* Axe                 Specialized */
-     , (28384,  2, 0, 3, 0, 180, 0, 2017.75571827599) /* Bow                 Specialized */
-     , (28384,  3, 0, 3, 0, 180, 0, 2017.75571827599) /* Crossbow            Specialized */
-     , (28384,  4, 0, 3, 0, 312, 0, 2017.75571827599) /* Dagger              Specialized */
-     , (28384,  5, 0, 3, 0, 383, 0, 2017.75571827599) /* Mace                Specialized */
-     , (28384,  6, 0, 3, 0, 333, 0, 2017.75571827599) /* MeleeDefense        Specialized */
-     , (28384,  7, 0, 3, 0, 444, 0, 2017.75571827599) /* MissileDefense      Specialized */
-     , (28384,  9, 0, 3, 0, 383, 0, 2017.75571827599) /* Spear               Specialized */
-     , (28384, 10, 0, 3, 0, 383, 0, 2017.75571827599) /* Staff               Specialized */
-     , (28384, 11, 0, 3, 0, 383, 0, 2017.75571827599) /* Sword               Specialized */
-     , (28384, 13, 0, 3, 0, 383, 0, 2017.75571827599) /* UnarmedCombat       Specialized */
-     , (28384, 14, 0, 3, 0, 240, 0, 2017.75571827599) /* ArcaneLore          Specialized */
-     , (28384, 15, 0, 3, 0, 308, 0, 2017.75571827599) /* MagicDefense        Specialized */
-     , (28384, 20, 0, 3, 0,  90, 0, 2017.75571827599) /* Deception           Specialized */
-     , (28384, 31, 0, 3, 0, 213, 0, 2017.75571827599) /* CreatureEnchantment Specialized */
-     , (28384, 32, 0, 3, 0, 213, 0, 2017.75571827599) /* ItemEnchantment     Specialized */
-     , (28384, 33, 0, 3, 0, 213, 0, 2017.75571827599) /* LifeMagic           Specialized */
-     , (28384, 34, 0, 3, 0, 213, 0, 2017.75571827599) /* WarMagic            Specialized */;
+VALUES (28384,  1, 0, 3, 0, 383, 0, 2017.755718275991) /* Axe                 Specialized */
+     , (28384,  2, 0, 3, 0, 180, 0, 2017.755718275991) /* Bow                 Specialized */
+     , (28384,  3, 0, 3, 0, 180, 0, 2017.755718275991) /* Crossbow            Specialized */
+     , (28384,  4, 0, 3, 0, 312, 0, 2017.755718275991) /* Dagger              Specialized */
+     , (28384,  5, 0, 3, 0, 383, 0, 2017.755718275991) /* Mace                Specialized */
+     , (28384,  6, 0, 3, 0, 333, 0, 2017.755718275991) /* MeleeDefense        Specialized */
+     , (28384,  7, 0, 3, 0, 444, 0, 2017.755718275991) /* MissileDefense      Specialized */
+     , (28384,  9, 0, 3, 0, 383, 0, 2017.755718275991) /* Spear               Specialized */
+     , (28384, 10, 0, 3, 0, 383, 0, 2017.755718275991) /* Staff               Specialized */
+     , (28384, 11, 0, 3, 0, 383, 0, 2017.755718275991) /* Sword               Specialized */
+     , (28384, 13, 0, 3, 0, 383, 0, 2017.755718275991) /* UnarmedCombat       Specialized */
+     , (28384, 14, 0, 3, 0, 240, 0, 2017.755718275991) /* ArcaneLore          Specialized */
+     , (28384, 15, 0, 3, 0, 308, 0, 2017.755718275991) /* MagicDefense        Specialized */
+     , (28384, 20, 0, 3, 0,  90, 0, 2017.755718275991) /* Deception           Specialized */
+     , (28384, 31, 0, 3, 0, 213, 0, 2017.755718275991) /* CreatureEnchantment Specialized */
+     , (28384, 32, 0, 3, 0, 213, 0, 2017.755718275991) /* ItemEnchantment     Specialized */
+     , (28384, 33, 0, 3, 0, 213, 0, 2017.755718275991) /* LifeMagic           Specialized */
+     , (28384, 34, 0, 3, 0, 213, 0, 2017.755718275991) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (28384,  0,  4,  0,    0,  600,  630,  780,  600,  780,  600,  630,  720,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -128,25 +128,25 @@ VALUES (28384,  0,  4,  0,    0,  600,  630,  780,  600,  780,  600,  630,  720,
      , (28384,  8,  4, 190,  0.5,  600,  630,  780,  600,  780,  600,  630,  720,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28384,   176,  2.011)  /* Fester Other VI */
-     , (28384,   526,  2.011)  /* Acid Vulnerability Other VI */
-     , (28384,  1053,  2.011)  /* Bludgeoning Vulnerability Other VI */
-     , (28384,  1132,  2.011)  /* Blade Vulnerability Other VI */
+VALUES (28384,  2144,   2.04)  /* Crushing Shame */
      , (28384,  1156,  2.011)  /* Piercing Vulnerability Other VI */
-     , (28384,  1241,   2.01)  /* Drain Health Other V */
-     , (28384,  1327,  2.011)  /* Imperil Other VI */
+     , (28384,  2146,   2.04)  /* Evisceration */
      , (28384,  2122,   2.04)  /* Disintegration */
      , (28384,  2132,   2.04)  /* The Spike */
-     , (28384,  2144,   2.04)  /* Crushing Shame */
-     , (28384,  2146,   2.04)  /* Evisceration */
-     , (28384,  3372,   2.05)  /* Debilitating Spore */
-     , (28384,  3373,   2.05)  /* Diseased Air */
      , (28384,  3375,  2.005)  /* Fungal Bloom */
+     , (28384,   526,  2.011)  /* Acid Vulnerability Other VI */
+     , (28384,  3426,   2.05)  /* Greater Withering */
+     , (28384,  1241,   2.01)  /* Drain Health Other V */
+     , (28384,  1053,  2.011)  /* Bludgeoning Vulnerability Other VI */
+     , (28384,  3435,   2.05)  /* Greater Mucor Blight */
+     , (28384,  3372,   2.05)  /* Debilitating Spore */
+     , (28384,  1132,  2.011)  /* Blade Vulnerability Other VI */
+     , (28384,  3373,   2.05)  /* Diseased Air */
+     , (28384,  1327,  2.011)  /* Imperil Other VI */
+     , (28384,   176,  2.011)  /* Fester Other VI */
      , (28384,  3381,   2.05)  /* Debilitating Spore */
      , (28384,  3382,   2.05)  /* Diseased Air */
-     , (28384,  3383,   2.05)  /* Fungal Bloom */
-     , (28384,  3426,   2.05)  /* Greater Withering */
-     , (28384,  3435,   2.05)  /* Greater Mucor Blight */;
+     , (28384,  3383,   2.05)  /* Fungal Bloom */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (28384,  94) /* ATTACK_NOTIFICATION_EVENT */

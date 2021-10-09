@@ -67,14 +67,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28551,   1, 'Sparkling Dual Fragment') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28551,   1,   33556730) /* Setup */
-     , (28551,   2,  150995097) /* MotionTable */
-     , (28551,   3,  536871001) /* SoundTable */
-     , (28551,   4,  805306407) /* CombatTable */
-     , (28551,   6,   67111919) /* PaletteBase */
-     , (28551,   7,  268435859) /* ClothingBase */
-     , (28551,   8,  100670395) /* Icon */
-     , (28551,  22,  872415348) /* PhysicsEffectTable */
+VALUES (28551,   1, 0x020008FA) /* Setup */
+     , (28551,   2, 0x09000099) /* MotionTable */
+     , (28551,   3, 0x20000059) /* SoundTable */
+     , (28551,   4, 0x30000027) /* CombatTable */
+     , (28551,   6, 0x04000BEF) /* PaletteBase */
+     , (28551,   7, 0x10000193) /* ClothingBase */
+     , (28551,   8, 0x06001BBB) /* Icon */
+     , (28551,  22, 0x34000074) /* PhysicsEffectTable */
      , (28551,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -91,15 +91,15 @@ VALUES (28551,   1,   280, 0, 0, 380) /* MaxHealth */
      , (28551,   5,   200, 0, 0, 400) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (28551,  6, 0, 3, 0, 293, 0, 2038.37397124697) /* MeleeDefense        Specialized */
-     , (28551,  7, 0, 3, 0, 390, 0, 2038.37397124697) /* MissileDefense      Specialized */
-     , (28551, 13, 0, 3, 0, 278, 0, 2038.37397124697) /* UnarmedCombat       Specialized */
-     , (28551, 15, 0, 3, 0, 211, 0, 2038.37397124697) /* MagicDefense        Specialized */
-     , (28551, 20, 0, 3, 0, 100, 0, 2038.37397124697) /* Deception           Specialized */
-     , (28551, 24, 0, 2, 0,  10, 0, 2038.37397124697) /* Run                 Trained */
-     , (28551, 31, 0, 3, 0, 180, 0, 2038.37397124697) /* CreatureEnchantment Specialized */
-     , (28551, 33, 0, 3, 0, 180, 0, 2038.37397124697) /* LifeMagic           Specialized */
-     , (28551, 34, 0, 3, 0, 180, 0, 2038.37397124697) /* WarMagic            Specialized */;
+VALUES (28551,  6, 0, 3, 0, 293, 0, 2038.3739712469667) /* MeleeDefense        Specialized */
+     , (28551,  7, 0, 3, 0, 390, 0, 2038.3739712469667) /* MissileDefense      Specialized */
+     , (28551, 13, 0, 3, 0, 278, 0, 2038.3739712469667) /* UnarmedCombat       Specialized */
+     , (28551, 15, 0, 3, 0, 211, 0, 2038.3739712469667) /* MagicDefense        Specialized */
+     , (28551, 20, 0, 3, 0, 100, 0, 2038.3739712469667) /* Deception           Specialized */
+     , (28551, 24, 0, 2, 0,  10, 0, 2038.3739712469667) /* Run                 Trained */
+     , (28551, 31, 0, 3, 0, 180, 0, 2038.3739712469667) /* CreatureEnchantment Specialized */
+     , (28551, 33, 0, 3, 0, 180, 0, 2038.3739712469667) /* LifeMagic           Specialized */
+     , (28551, 34, 0, 3, 0, 180, 0, 2038.3739712469667) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (28551,  0,  4, 50, 0.75,  170,  170,  170,  170,  202, 17000,  473,  170,    0, 1,  0.5,  0.2,    0,  0.5,  0.2,    0,    0,    0,    0,    0,    0,    0) /* Head */
@@ -111,20 +111,20 @@ VALUES (28551,  0,  4, 50, 0.75,  170,  170,  170,  170,  202, 17000,  473,  170
      , (28551, 17,  4, 50, 0.75,  170,  170,  170,  170,  202, 17000,  473,  170,    0, 2,    0,    0,    0,    0,    0,    0,  0.1,  0.1,    0,  0.1,  0.1,    0) /* Tail */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28551,    83,  2.115)  /* Flame Bolt IV */
-     , (28551,    84,  2.031)  /* Flame Bolt V */
-     , (28551,   168,  2.032)  /* Regeneration Self IV */
-     , (28551,   277,  2.032)  /* Magic Resistance Self IV */
-     , (28551,   283,  2.042)  /* Magic Yield Other IV */
-     , (28551,   608,  2.032)  /* Life Magic Mastery Self IV */
-     , (28551,   626,  2.042)  /* Life Magic Ineptitude Other IV */
+VALUES (28551,  1174,  2.042)  /* Harm Other IV */
      , (28551,   656,  2.032)  /* Mana Conversion Mastery Self IV */
-     , (28551,  1106,  2.042)  /* Fire Vulnerability Other IV */
+     , (28551,   608,  2.032)  /* Life Magic Mastery Self IV */
      , (28551,  1158,   2.04)  /* Heal Self III */
-     , (28551,  1174,  2.042)  /* Harm Other IV */
+     , (28551,  1419,  2.042)  /* Slowness Other V */
+     , (28551,  1106,  2.042)  /* Fire Vulnerability Other IV */
+     , (28551,   277,  2.032)  /* Magic Resistance Self IV */
+     , (28551,    83,  2.115)  /* Flame Bolt IV */
      , (28551,  1240,  2.042)  /* Drain Health Other IV */
+     , (28551,    84,  2.031)  /* Flame Bolt V */
+     , (28551,   283,  2.042)  /* Magic Yield Other IV */
      , (28551,  1310,   2.04)  /* Armor Self IV */
-     , (28551,  1419,  2.042)  /* Slowness Other V */;
+     , (28551,   626,  2.042)  /* Life Magic Ineptitude Other IV */
+     , (28551,   168,  2.032)  /* Regeneration Self IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (28551,  94) /* ATTACK_NOTIFICATION_EVENT */

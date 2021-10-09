@@ -20,7 +20,7 @@ VALUES (26056,   1, 'Apology Token') /* Name */
      , (26056,  16, 'Make certain that you have room for two items in your main pack, then hand this token to a town crier to receive our apology.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26056,   1,   33557280) /* Setup */
-     , (26056,   3,  536870932) /* SoundTable */
-     , (26056,   8,  100675759) /* Icon */
-     , (26056,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (26056,   1, 0x02000B20) /* Setup */
+     , (26056,   3, 0x20000014) /* SoundTable */
+     , (26056,   8, 0x060030AF) /* Icon */
+     , (26056,  22, 0x3400002B) /* PhysicsEffectTable */;

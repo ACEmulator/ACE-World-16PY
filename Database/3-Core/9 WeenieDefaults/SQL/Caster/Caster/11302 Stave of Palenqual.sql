@@ -39,17 +39,17 @@ VALUES (11302,   1, 'Stave of Palenqual') /* Name */
      , (11302,  16, 'The Stave of Palenqual, an Aun Tumerok relic. This magic caster was given to the Aun xuta single great totem for the island as a whole. Three Tumerok fetishes are attached to this weapon; those of Carenzi, Siraluun, and Storm.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11302,   1,   33557232) /* Setup */
-     , (11302,   3,  536870932) /* SoundTable */
-     , (11302,   6,   67111919) /* PaletteBase */
-     , (11302,   8,  100671868) /* Icon */
-     , (11302,  22,  872415275) /* PhysicsEffectTable */
-     , (11302,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (11302,   1, 0x02000AF0) /* Setup */
+     , (11302,   3, 0x20000014) /* SoundTable */
+     , (11302,   6, 0x04000BEF) /* PaletteBase */
+     , (11302,   8, 0x0600217C) /* Icon */
+     , (11302,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11302,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (11302,  28,       1836) /* Spell - Avalanche */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11302,   217,      2)  /* Mana Renewal Self VI */
-     , (11302,   658,      2)  /* Mana Conversion Mastery Self VI */
-     , (11302,  1426,      2)  /* Focus Self VI */
+VALUES (11302,  2581,      2)  /* Minor Focus */
      , (11302,  1480,      2)  /* Aura of Hermetic Link Self VI */
-     , (11302,  2581,      2)  /* Minor Focus */;
+     , (11302,  1426,      2)  /* Focus Self VI */
+     , (11302,   658,      2)  /* Mana Conversion Mastery Self VI */
+     , (11302,   217,      2)  /* Mana Renewal Self VI */;

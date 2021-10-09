@@ -29,7 +29,7 @@ VALUES (4748,   1, 'Aqua Incanta') /* Name */
      , (4748,  20, 'Vials of Aqua Incanta') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4748,   1,   33555963) /* Setup */
-     , (4748,   3,  536870932) /* SoundTable */
-     , (4748,   8,  100669992) /* Icon */
-     , (4748,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4748,   1, 0x020005FB) /* Setup */
+     , (4748,   3, 0x20000014) /* SoundTable */
+     , (4748,   8, 0x06001A28) /* Icon */
+     , (4748,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -49,15 +49,15 @@ VALUES (21433,   1, 'Falauloi') /* Name */
      , (21433,  15, 'A staff constructed from obsidian and cerulean colored stone.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21433,   1,   33557966) /* Setup */
-     , (21433,   3,  536870932) /* SoundTable */
-     , (21433,   8,  100673493) /* Icon */
-     , (21433,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21433,   1, 0x02000DCE) /* Setup */
+     , (21433,   3, 0x20000014) /* SoundTable */
+     , (21433,   8, 0x060027D5) /* Icon */
+     , (21433,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21433,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21433,   392,      2)  /* Light Weapon Mastery Other V */
+VALUES (21433,  1604,      2)  /* Aura of Defender Self V */
+     , (21433,   392,      2)  /* Light Weapon Mastery Other V */
      , (21433,  1591,      2)  /* Aura of Heart Seeker Self V */
-     , (21433,  1604,      2)  /* Aura of Defender Self V */
      , (21433,  1615,      2)  /* Aura of Blood Drinker Self V */
      , (21433,  1624,      2)  /* Aura of Swift Killer Self III */;

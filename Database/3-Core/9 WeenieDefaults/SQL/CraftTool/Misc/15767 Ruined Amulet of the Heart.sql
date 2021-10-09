@@ -35,10 +35,10 @@ VALUES (15767,   1, 'Ruined Amulet of the Heart') /* Name */
      , (15767,  16, 'An Amulet crafted in pyreal that bears the symbol of life magic. The amulet is damaged, seemingly beyond repair.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15767,   1,   33554680) /* Setup */
-     , (15767,   3,  536870932) /* SoundTable */
-     , (15767,   6,   67111919) /* PaletteBase */
-     , (15767,   7,  268436095) /* ClothingBase */
-     , (15767,   8,  100672812) /* Icon */
-     , (15767,  22,  872415275) /* PhysicsEffectTable */
-     , (15767,  36,  234881046) /* MutateFilter */;
+VALUES (15767,   1, 0x020000F8) /* Setup */
+     , (15767,   3, 0x20000014) /* SoundTable */
+     , (15767,   6, 0x04000BEF) /* PaletteBase */
+     , (15767,   7, 0x1000027F) /* ClothingBase */
+     , (15767,   8, 0x0600252C) /* Icon */
+     , (15767,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (15767,  36, 0x0E000016) /* MutateFilter */;

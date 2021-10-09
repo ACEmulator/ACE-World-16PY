@@ -25,12 +25,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4203,   1, 'Walled Portals') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4203,   1,   33554867) /* Setup */
-     , (4203,   2,  150994947) /* MotionTable */
-     , (4203,   6,   67109370) /* PaletteBase */
-     , (4203,   7,  268435652) /* ClothingBase */
-     , (4203,   8,  100667499) /* Icon */;
+VALUES (4203,   1, 0x020001B3) /* Setup */
+     , (4203,   2, 0x09000003) /* MotionTable */
+     , (4203,   6, 0x040001FA) /* PaletteBase */
+     , (4203,   7, 0x100000C4) /* ClothingBase */
+     , (4203,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4203, 2, 576978957, 36.3, 96.9, 120, 0.02617699, 0, 0, -0.9996573) /* Destination */
-/* @teleloc 0x2264000D [36.300000 96.900000 120.000000] 0.026177 0.000000 0.000000 -0.999657 */;
+VALUES (4203, 2, 0x2264000D, 36.3, 96.9, 120, 0.026177, 0, 0, -0.999657) /* Destination */
+/* @teleloc 0x2264000D [36.299999 96.900002 120.000000] 0.026177 0.000000 0.000000 -0.999657 */;

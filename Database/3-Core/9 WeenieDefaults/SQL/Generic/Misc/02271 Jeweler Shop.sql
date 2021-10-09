@@ -22,7 +22,7 @@ VALUES (2271,   1, 'Jeweler Shop') /* Name */
      , (2271,  16, 'Jeweler Shop') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2271,   1,   33555088) /* Setup */
-     , (2271,   6,   67111092) /* PaletteBase */
-     , (2271,   7,  268435659) /* ClothingBase */
-     , (2271,   8,  100668115) /* Icon */;
+VALUES (2271,   1, 0x02000290) /* Setup */
+     , (2271,   6, 0x040008B4) /* PaletteBase */
+     , (2271,   7, 0x100000CB) /* ClothingBase */
+     , (2271,   8, 0x060012D3) /* Icon */;

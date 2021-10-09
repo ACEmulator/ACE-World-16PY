@@ -22,5 +22,5 @@ VALUES (14320,   1, 'Nal Wadi Cottages') /* Name */
      , (14320,  16, 'Welcome to Nal Wadi Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14320,   1,   33557463) /* Setup */
-     , (14320,   8,  100668115) /* Icon */;
+VALUES (14320,   1, 0x02000BD7) /* Setup */
+     , (14320,   8, 0x060012D3) /* Icon */;

@@ -22,7 +22,7 @@ VALUES (25776,   1, 'Fat Vase') /* Name */
      , (25776,  14, 'This item can be used on floor and yard hooks.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25776,   1,   33558536) /* Setup */
-     , (25776,   3,  536870932) /* SoundTable */
-     , (25776,   8,  100675570) /* Icon */
-     , (25776,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25776,   1, 0x02001008) /* Setup */
+     , (25776,   3, 0x20000014) /* SoundTable */
+     , (25776,   8, 0x06002FF2) /* Icon */
+     , (25776,  22, 0x3400002B) /* PhysicsEffectTable */;

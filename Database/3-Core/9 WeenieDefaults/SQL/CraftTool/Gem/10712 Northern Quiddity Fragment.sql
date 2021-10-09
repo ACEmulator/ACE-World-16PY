@@ -36,10 +36,10 @@ VALUES (10712,   1, 'Northern Quiddity Fragment') /* Name */
      , (10712,  33, 'QuiddityFragNorth') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10712,   1,   33557049) /* Setup */
-     , (10712,   3,  536870932) /* SoundTable */
-     , (10712,   6,   67111928) /* PaletteBase */
-     , (10712,   7,  268436041) /* ClothingBase */
-     , (10712,   8,  100671665) /* Icon */
-     , (10712,  22,  872415275) /* PhysicsEffectTable */
-     , (10712,  36,  234881046) /* MutateFilter */;
+VALUES (10712,   1, 0x02000A39) /* Setup */
+     , (10712,   3, 0x20000014) /* SoundTable */
+     , (10712,   6, 0x04000BF8) /* PaletteBase */
+     , (10712,   7, 0x10000249) /* ClothingBase */
+     , (10712,   8, 0x060020B1) /* Icon */
+     , (10712,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (10712,  36, 0x0E000016) /* MutateFilter */;

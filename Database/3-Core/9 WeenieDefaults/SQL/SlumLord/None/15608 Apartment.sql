@@ -18,9 +18,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15608,   1, 'Apartment') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15608,   1,   33557626) /* Setup */
-     , (15608,   2,  150995178) /* MotionTable */
-     , (15608,   8,  100671884) /* Icon */;
+VALUES (15608,   1, 0x02000C7A) /* Setup */
+     , (15608,   2, 0x090000EA) /* MotionTable */
+     , (15608,   8, 0x0600218C) /* Icon */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (15608, 16,   273, 100000, 0, 0, False) /* Create Pyreal (273) for HouseBuy */

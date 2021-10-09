@@ -26,10 +26,10 @@ VALUES (29327,   1, 'Combat and Spellcasting Guide') /* Name */
      , (29327,  16, 'A guide to Combat and Spellcasting. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29327,   1,   33554771) /* Setup */
-     , (29327,   3,  536870932) /* SoundTable */
-     , (29327,   8,  100668117) /* Icon */
-     , (29327,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29327,   1, 0x02000153) /* Setup */
+     , (29327,   3, 0x20000014) /* SoundTable */
+     , (29327,   8, 0x060012D5) /* Icon */
+     , (29327,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (29327, 5, 1000);

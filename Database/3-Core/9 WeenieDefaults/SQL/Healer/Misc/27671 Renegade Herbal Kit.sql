@@ -28,5 +28,5 @@ VALUES (27671,   1, 'Renegade Herbal Kit') /* Name */
      , (27671,  16, 'A hard roll of foul smelling salts and ores that serve as healing agents for the renegades.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27671,   1,   33555194) /* Setup */
-     , (27671,   8,  100676523) /* Icon */;
+VALUES (27671,   1, 0x020002FA) /* Setup */
+     , (27671,   8, 0x060033AB) /* Icon */;

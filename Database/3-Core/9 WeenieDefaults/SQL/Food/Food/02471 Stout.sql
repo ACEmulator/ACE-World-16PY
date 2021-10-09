@@ -28,8 +28,8 @@ VALUES (2471,   1, 'Stout') /* Name */
      , (2471,  20, 'Mugs of Stout') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2471,   1,   33554665) /* Setup */
-     , (2471,   3,  536870932) /* SoundTable */
-     , (2471,   8,  100667432) /* Icon */
-     , (2471,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2471,   1, 0x020000E9) /* Setup */
+     , (2471,   3, 0x20000014) /* SoundTable */
+     , (2471,   8, 0x06001028) /* Icon */
+     , (2471,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2471,  23,         65) /* UseSound - Drink1 */;

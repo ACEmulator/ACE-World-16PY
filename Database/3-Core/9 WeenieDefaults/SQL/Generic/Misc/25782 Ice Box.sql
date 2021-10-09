@@ -23,7 +23,7 @@ VALUES (25782,   1, 'Ice Box') /* Name */
      , (25782,  16, 'A frozen box that emanates cold. You have no idea what it could be used for other than to keep your house cool during the summer.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25782,   1,   33558515) /* Setup */
-     , (25782,   3,  536870932) /* SoundTable */
-     , (25782,   8,  100675519) /* Icon */
-     , (25782,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25782,   1, 0x02000FF3) /* Setup */
+     , (25782,   3, 0x20000014) /* SoundTable */
+     , (25782,   8, 0x06002FBF) /* Icon */
+     , (25782,  22, 0x3400002B) /* PhysicsEffectTable */;

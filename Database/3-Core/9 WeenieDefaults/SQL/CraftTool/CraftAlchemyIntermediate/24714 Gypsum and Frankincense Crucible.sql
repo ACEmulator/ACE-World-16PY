@@ -31,8 +31,8 @@ VALUES (24714,   1, 'Gypsum and Frankincense Crucible') /* Name */
      , (24714,  20, 'Gypsum and Frankincense Crucibles') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24714,   1,   33555966) /* Setup */
-     , (24714,   3,  536870932) /* SoundTable */
-     , (24714,   8,  100674461) /* Icon */
-     , (24714,  22,  872415275) /* PhysicsEffectTable */
-     , (24714,  50,  100674415) /* IconOverlay */;
+VALUES (24714,   1, 0x020005FE) /* Setup */
+     , (24714,   3, 0x20000014) /* SoundTable */
+     , (24714,   8, 0x06002B9D) /* Icon */
+     , (24714,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24714,  50, 0x06002B6F) /* IconOverlay */;

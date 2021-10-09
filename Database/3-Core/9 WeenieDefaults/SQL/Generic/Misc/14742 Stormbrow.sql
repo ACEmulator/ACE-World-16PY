@@ -22,5 +22,5 @@ VALUES (14742,   1, 'Stormbrow') /* Name */
      , (14742,  16, 'Welcome to Stormbrow') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14742,   1,   33557463) /* Setup */
-     , (14742,   8,  100668115) /* Icon */;
+VALUES (14742,   1, 0x02000BD7) /* Setup */
+     , (14742,   8, 0x060012D3) /* Icon */;

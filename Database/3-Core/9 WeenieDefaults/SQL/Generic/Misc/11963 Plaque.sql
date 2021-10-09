@@ -26,5 +26,5 @@ VALUES (11963,   1, 'Plaque') /* Name */
      , (11963,  16, 'Archery Range, storage premises, and palestra are for authorized persons only. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11963,   1,   33557262) /* Setup */
-     , (11963,   8,  100668115) /* Icon */;
+VALUES (11963,   1, 0x02000B0E) /* Setup */
+     , (11963,   8, 0x060012D3) /* Icon */;

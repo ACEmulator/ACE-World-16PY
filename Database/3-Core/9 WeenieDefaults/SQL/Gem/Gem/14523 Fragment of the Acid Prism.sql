@@ -29,10 +29,10 @@ VALUES (14523,   1, 'Fragment of the Acid Prism') /* Name */
      , (14523,  33, 'PrismFragmentAcidPickup') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14523,   1,   33557506) /* Setup */
-     , (14523,   3,  536870932) /* SoundTable */
-     , (14523,   6,   67112808) /* PaletteBase */
-     , (14523,   7,  268436323) /* ClothingBase */
-     , (14523,   8,  100672509) /* Icon */
-     , (14523,  22,  872415275) /* PhysicsEffectTable */
-     , (14523,  36,  234881046) /* MutateFilter */;
+VALUES (14523,   1, 0x02000C02) /* Setup */
+     , (14523,   3, 0x20000014) /* SoundTable */
+     , (14523,   6, 0x04000F68) /* PaletteBase */
+     , (14523,   7, 0x10000363) /* ClothingBase */
+     , (14523,   8, 0x060023FD) /* Icon */
+     , (14523,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (14523,  36, 0x0E000016) /* MutateFilter */;

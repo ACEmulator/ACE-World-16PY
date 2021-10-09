@@ -13,7 +13,7 @@ VALUES (22381,   1,       2048) /* ItemType - Gem */
      , (22381,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22381, 114,          1) /* Attuned - Attuned */
      , (22381, 185,          1) /* TypeOfAlteration */
-     , (22381, 186,         12) /* SkillToBeAltered */;
+     , (22381, 186,         12) /* SkillToBeAltered - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22381,  22, True ) /* Inscribable */
@@ -25,8 +25,8 @@ VALUES (22381,   1, 'Thrown Weapon Gem of Enlightenment') /* Name */
      , (22381,  33, 'SkillAlterationGemPickedUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22381,   1,   33558088) /* Setup */
-     , (22381,   6,   67111919) /* PaletteBase */
-     , (22381,   7,  268435723) /* ClothingBase */
-     , (22381,   8,  100673788) /* Icon */
-     , (22381,  50,  100673784) /* IconOverlay */;
+VALUES (22381,   1, 0x02000E48) /* Setup */
+     , (22381,   6, 0x04000BEF) /* PaletteBase */
+     , (22381,   7, 0x1000010B) /* ClothingBase */
+     , (22381,   8, 0x060028FC) /* Icon */
+     , (22381,  50, 0x060028F8) /* IconOverlay */;

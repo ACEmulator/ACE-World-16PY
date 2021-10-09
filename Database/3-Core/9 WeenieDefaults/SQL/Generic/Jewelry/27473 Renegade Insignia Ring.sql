@@ -27,7 +27,7 @@ VALUES (27473,  22, True ) /* Inscribable */
      , (27473,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27473,   5, -0.033333) /* ManaRate */
+VALUES (27473,   5,  -0.033) /* ManaRate */
      , (27473,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -35,12 +35,12 @@ VALUES (27473,   1, 'Renegade Insignia Ring') /* Name */
      , (27473,  16, 'A ring crafted for use by Commander Kamenua of the Renegade army.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27473,   1,   33554690) /* Setup */
-     , (27473,   3,  536870932) /* SoundTable */
-     , (27473,   6,   67111919) /* PaletteBase */
-     , (27473,   8,  100676424) /* Icon */
-     , (27473,  22,  872415275) /* PhysicsEffectTable */
-     , (27473,  36,  234881046) /* MutateFilter */;
+VALUES (27473,   1, 0x02000102) /* Setup */
+     , (27473,   3, 0x20000014) /* SoundTable */
+     , (27473,   6, 0x04000BEF) /* PaletteBase */
+     , (27473,   8, 0x06003348) /* Icon */
+     , (27473,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27473,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27473,   466,      2)  /* Missile Weapon Mastery Other VI */

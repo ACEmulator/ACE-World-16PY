@@ -66,10 +66,10 @@ VALUES (24263,   1, 'Jojii Shrine') /* Name */
      , (24263,  16, 'A simple shrine to Jojii.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24263,   1,   33558344) /* Setup */
-     , (24263,   2,  150995196) /* MotionTable */
-     , (24263,   3,  536870932) /* SoundTable */
-     , (24263,   8,  100674324) /* Icon */;
+VALUES (24263,   1, 0x02000F48) /* Setup */
+     , (24263,   2, 0x090000FC) /* MotionTable */
+     , (24263,   3, 0x20000014) /* SoundTable */
+     , (24263,   8, 0x06002B14) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24263,   1, 200, 0, 0) /* Strength */
@@ -85,9 +85,9 @@ VALUES (24263,   1,   150, 0, 0, 275) /* MaxHealth */
      , (24263,   5,    80, 0, 0, 110) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (24263,  6, 0, 2, 0,   1, 0, 1538.42480883852) /* MeleeDefense        Trained */
-     , (24263,  7, 0, 2, 0,   1, 0, 1538.42480883852) /* MissileDefense      Trained */
-     , (24263, 13, 0, 2, 0,   1, 0, 1538.42480883852) /* UnarmedCombat       Trained */;
+VALUES (24263,  6, 0, 2, 0,   1, 0, 1538.4248088385152) /* MeleeDefense        Trained */
+     , (24263,  7, 0, 2, 0,   1, 0, 1538.4248088385152) /* MissileDefense      Trained */
+     , (24263, 13, 0, 2, 0,   1, 0, 1538.4248088385152) /* UnarmedCombat       Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (24263,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -225,7 +225,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '5', NULL, NULL, 
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.05999999, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.06, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -235,7 +235,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '6', NULL, NULL, 
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.06999999, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.07, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -245,7 +245,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '7', NULL, NULL, 
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.07999999, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.08, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -255,7 +255,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '8', NULL, NULL, 
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.08999999, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.09, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -265,7 +265,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '9', NULL, NULL, 
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.09999999, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,    0.1, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -505,7 +505,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '33', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.3399999, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.34, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -515,7 +515,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '34', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.3499999, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.35, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -525,7 +525,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '35', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.3599999, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.36, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -535,7 +535,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '36', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.3699999, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.37, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -545,7 +545,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '37', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.3799999, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.38, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -555,7 +555,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '38', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.3899999, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.39, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -565,7 +565,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '39', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.3999999, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,    0.4, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -575,7 +575,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '40', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.4099999, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.41, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -585,7 +585,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '41', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.4199999, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.42, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -595,7 +595,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '42', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.4299999, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.43, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -605,7 +605,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '43', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.4399998, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.44, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -615,7 +615,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '44', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.4499998, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.45, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -625,7 +625,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '45', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.4599998, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.46, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -635,7 +635,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '46', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.4699998, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.47, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -645,7 +645,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '47', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.4799998, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.48, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -655,7 +655,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '48', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.4899998, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.49, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -665,7 +665,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '49', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.4999998, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,    0.5, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -675,7 +675,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '50', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.5099998, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.51, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -685,7 +685,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '51', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.5199998, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.52, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -695,7 +695,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '52', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.5299998, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.53, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -705,7 +705,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '53', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.5399998, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.54, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -715,7 +715,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '54', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.5499998, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.55, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -725,7 +725,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '55', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.5599998, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.56, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -735,7 +735,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '56', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.5699998, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.57, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -745,7 +745,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '57', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.5799997, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.58, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -755,7 +755,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '58', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.5899997, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.59, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -765,7 +765,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '59', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.5999997, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,    0.6, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -775,7 +775,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '60', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.6099997, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.61, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -785,7 +785,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '61', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.6199997, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.62, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -795,7 +795,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '62', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.6299997, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.63, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -805,7 +805,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '63', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.6399997, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.64, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -815,7 +815,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '64', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.6499997, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.65, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -825,7 +825,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '65', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.6599997, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.66, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -835,7 +835,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '66', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.6699997, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.67, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -845,7 +845,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '67', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.6799996, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.68, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -855,7 +855,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '68', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.6899996, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.69, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -865,7 +865,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '69', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.6999996, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,    0.7, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -875,7 +875,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '70', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.7099996, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.71, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -885,7 +885,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '71', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.7199996, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.72, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -895,7 +895,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '72', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.7299996, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.73, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -905,7 +905,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '73', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.7399996, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.74, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -915,7 +915,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '74', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.7499996, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.75, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -925,7 +925,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '75', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.7599996, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.76, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -935,7 +935,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '76', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.7699996, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.77, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -945,7 +945,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '77', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.7799996, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.78, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -955,7 +955,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '78', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.7899995, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.79, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -965,7 +965,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '79', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.7999995, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,    0.8, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -975,7 +975,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '80', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.8099995, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.81, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -985,7 +985,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '81', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.8199995, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.82, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -995,7 +995,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '82', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.8299995, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.83, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1005,7 +1005,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '83', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.8399995, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.84, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1015,7 +1015,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '84', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.8499995, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.85, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1025,7 +1025,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '85', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.8599995, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.86, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1035,7 +1035,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '86', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.8699995, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.87, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1045,7 +1045,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '87', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.8799995, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */,   0.88, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1055,7 +1055,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '88', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.8899994, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */, 0.889999, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1065,7 +1065,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '89', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.8999994, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */, 0.899999, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1075,7 +1075,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '90', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.9099994, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */, 0.909999, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1085,7 +1085,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '91', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.9199994, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */, 0.919999, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1095,7 +1095,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '92', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.9299994, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */, 0.929999, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1105,7 +1105,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '93', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.9399994, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */, 0.939999, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1115,7 +1115,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '94', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.9499994, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */, 0.949999, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1125,7 +1125,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '95', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.9599994, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */, 0.959999, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1135,7 +1135,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '96', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.9699994, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */, 0.969999, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1145,7 +1145,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '97', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.9799994, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */, 0.979999, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1155,7 +1155,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '98', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.9899994, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */, 0.989999, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1165,7 +1165,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, '99', NULL, NULL,
      , (@parent_id,  2,  30 /* InqQuestSolves */, 0, 1, NULL, 'FortuneCounter@Number1', NULL, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 13 /* QuestFailure */, 0.9999993, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
+VALUES (24263, 13 /* QuestFailure */, 0.999999, NULL, NULL, NULL, 'FortuneCounter', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1221,7 +1221,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Someone in your 
      , (@parent_id,  1,  67 /* Goto */, 0, 1, NULL, 'GetLuckyNumbers', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 32 /* GotoSet */, 0.09999999, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
+VALUES (24263, 32 /* GotoSet */,    0.1, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1374,7 +1374,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Actions will spe
      , (@parent_id,  1,  67 /* Goto */, 0, 1, NULL, 'GetLuckyNumbers', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 32 /* GotoSet */, 0.4400001, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
+VALUES (24263, 32 /* GotoSet */,   0.44, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1383,7 +1383,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Danger lurks in 
      , (@parent_id,  1,  67 /* Goto */, 0, 1, NULL, 'GetLuckyNumbers', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 32 /* GotoSet */, 0.4600001, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
+VALUES (24263, 32 /* GotoSet */,   0.46, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1392,7 +1392,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Carry a torch to
      , (@parent_id,  1,  67 /* Goto */, 0, 1, NULL, 'GetLuckyNumbers', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 32 /* GotoSet */, 0.4800001, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
+VALUES (24263, 32 /* GotoSet */,   0.48, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1401,7 +1401,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'A boulder that f
      , (@parent_id,  1,  67 /* Goto */, 0, 1, NULL, 'GetLuckyNumbers', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 32 /* GotoSet */, 0.5000001, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
+VALUES (24263, 32 /* GotoSet */,    0.5, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1455,7 +1455,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'If you give a ma
      , (@parent_id,  1,  67 /* Goto */, 0, 1, NULL, 'GetLuckyNumbers', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 32 /* GotoSet */, 0.6199999, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
+VALUES (24263, 32 /* GotoSet */,   0.62, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1464,7 +1464,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'You will lose so
      , (@parent_id,  1,  67 /* Goto */, 0, 1, NULL, 'GetLuckyNumbers', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 32 /* GotoSet */, 0.6399999, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
+VALUES (24263, 32 /* GotoSet */,   0.64, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1473,7 +1473,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Follow the white
      , (@parent_id,  1,  67 /* Goto */, 0, 1, NULL, 'GetLuckyNumbers', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 32 /* GotoSet */, 0.6599999, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
+VALUES (24263, 32 /* GotoSet */,   0.66, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1482,7 +1482,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Don''t worry abo
      , (@parent_id,  1,  67 /* Goto */, 0, 1, NULL, 'GetLuckyNumbers', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 32 /* GotoSet */, 0.6799999, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
+VALUES (24263, 32 /* GotoSet */,   0.68, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1491,7 +1491,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'It may snow tomo
      , (@parent_id,  1,  67 /* Goto */, 0, 1, NULL, 'GetLuckyNumbers', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 32 /* GotoSet */, 0.6999999, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
+VALUES (24263, 32 /* GotoSet */,    0.7, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1500,7 +1500,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Save at Lifeston
      , (@parent_id,  1,  67 /* Goto */, 0, 1, NULL, 'GetLuckyNumbers', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 32 /* GotoSet */, 0.7199998, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
+VALUES (24263, 32 /* GotoSet */,   0.72, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1509,7 +1509,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Beware the claws
      , (@parent_id,  1,  67 /* Goto */, 0, 1, NULL, 'GetLuckyNumbers', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 32 /* GotoSet */, 0.7399998, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
+VALUES (24263, 32 /* GotoSet */,   0.74, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1518,7 +1518,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Pay the Town Cri
      , (@parent_id,  1,  67 /* Goto */, 0, 1, NULL, 'GetLuckyNumbers', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 32 /* GotoSet */, 0.7599998, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
+VALUES (24263, 32 /* GotoSet */,   0.76, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1527,7 +1527,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Got Sub?', NULL,
      , (@parent_id,  1,  67 /* Goto */, 0, 1, NULL, 'GetLuckyNumbers', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 32 /* GotoSet */, 0.7799998, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
+VALUES (24263, 32 /* GotoSet */,   0.78, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1536,7 +1536,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Mmm... go PKLite
      , (@parent_id,  1,  67 /* Goto */, 0, 1, NULL, 'GetLuckyNumbers', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 32 /* GotoSet */, 0.7999998, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
+VALUES (24263, 32 /* GotoSet */,    0.8, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1545,7 +1545,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'You will scream 
      , (@parent_id,  1,  67 /* Goto */, 0, 1, NULL, 'GetLuckyNumbers', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 32 /* GotoSet */, 0.8199998, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
+VALUES (24263, 32 /* GotoSet */,   0.82, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1554,7 +1554,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Sometimes the re
      , (@parent_id,  1,  67 /* Goto */, 0, 1, NULL, 'GetLuckyNumbers', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 32 /* GotoSet */, 0.8399997, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
+VALUES (24263, 32 /* GotoSet */,   0.84, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1563,7 +1563,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Beware the ideas
      , (@parent_id,  1,  67 /* Goto */, 0, 1, NULL, 'GetLuckyNumbers', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 32 /* GotoSet */, 0.8599997, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
+VALUES (24263, 32 /* GotoSet */,   0.86, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1572,7 +1572,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'A wise man seldo
      , (@parent_id,  1,  67 /* Goto */, 0, 1, NULL, 'GetLuckyNumbers', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 32 /* GotoSet */, 0.8799997, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
+VALUES (24263, 32 /* GotoSet */,   0.88, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1581,7 +1581,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'You will help an
      , (@parent_id,  1,  67 /* Goto */, 0, 1, NULL, 'GetLuckyNumbers', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 32 /* GotoSet */, 0.8999997, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
+VALUES (24263, 32 /* GotoSet */,    0.9, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1590,7 +1590,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Harmony is found
      , (@parent_id,  1,  67 /* Goto */, 0, 1, NULL, 'GetLuckyNumbers', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 32 /* GotoSet */, 0.9199997, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
+VALUES (24263, 32 /* GotoSet */,   0.92, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1599,7 +1599,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Oui ryja ymud uv
      , (@parent_id,  1,  67 /* Goto */, 0, 1, NULL, 'GetLuckyNumbers', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 32 /* GotoSet */, 0.9399996, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
+VALUES (24263, 32 /* GotoSet */,   0.94, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1608,7 +1608,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Don''t ask, don'
      , (@parent_id,  1,  67 /* Goto */, 0, 1, NULL, 'GetLuckyNumbers', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 32 /* GotoSet */, 0.9599996, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
+VALUES (24263, 32 /* GotoSet */,   0.96, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1617,7 +1617,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'Always expect th
      , (@parent_id,  1,  67 /* Goto */, 0, 1, NULL, 'GetLuckyNumbers', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 32 /* GotoSet */, 0.9799996, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
+VALUES (24263, 32 /* GotoSet */,   0.98, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -1626,7 +1626,7 @@ VALUES (@parent_id,  0,  18 /* DirectBroadcast */, 0, 1, NULL, 'True wisdom come
      , (@parent_id,  1,  67 /* Goto */, 0, 1, NULL, 'GetLuckyNumbers', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24263, 32 /* GotoSet */, 0.9999996, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
+VALUES (24263, 32 /* GotoSet */,      1, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

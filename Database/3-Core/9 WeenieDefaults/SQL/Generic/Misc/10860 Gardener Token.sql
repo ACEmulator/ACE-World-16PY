@@ -27,9 +27,9 @@ VALUES (10860,   1, 'Gardener Token') /* Name */
      , (10860,  15, 'A token of your completion of the Gardener Quest.  Please give this back to Behdo in order for him to change your title to Gardener Weeder.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10860,   1,   33554817) /* Setup */
-     , (10860,   3,  536870932) /* SoundTable */
-     , (10860,   6,   67111919) /* PaletteBase */
-     , (10860,   7,  268435832) /* ClothingBase */
-     , (10860,   8,  100672061) /* Icon */
-     , (10860,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (10860,   1, 0x02000181) /* Setup */
+     , (10860,   3, 0x20000014) /* SoundTable */
+     , (10860,   6, 0x04000BEF) /* PaletteBase */
+     , (10860,   7, 0x10000178) /* ClothingBase */
+     , (10860,   8, 0x0600223D) /* Icon */
+     , (10860,  22, 0x3400002B) /* PhysicsEffectTable */;

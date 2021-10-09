@@ -22,7 +22,7 @@ VALUES (5439,   1, 'Tower Tavern') /* Name */
      , (5439,  16, 'Tower Tavern') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5439,   1,   33555594) /* Setup */
-     , (5439,   6,   67111782) /* PaletteBase */
-     , (5439,   7,  268435691) /* ClothingBase */
-     , (5439,   8,  100668115) /* Icon */;
+VALUES (5439,   1, 0x0200048A) /* Setup */
+     , (5439,   6, 0x04000B66) /* PaletteBase */
+     , (5439,   7, 0x100000EB) /* ClothingBase */
+     , (5439,   8, 0x060012D3) /* Icon */;

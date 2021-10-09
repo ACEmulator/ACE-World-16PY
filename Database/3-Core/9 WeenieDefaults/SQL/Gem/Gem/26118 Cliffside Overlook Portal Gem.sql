@@ -36,11 +36,11 @@ VALUES (26118,   1, 'Cliffside Overlook Portal Gem') /* Name */
      , (26118,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26118,   1,   33556769) /* Setup */
-     , (26118,   3,  536870932) /* SoundTable */
-     , (26118,   6,   67111919) /* PaletteBase */
-     , (26118,   7,  268435723) /* ClothingBase */
-     , (26118,   8,  100675760) /* Icon */
-     , (26118,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26118,   1, 0x02000921) /* Setup */
+     , (26118,   3, 0x20000014) /* SoundTable */
+     , (26118,   6, 0x04000BEF) /* PaletteBase */
+     , (26118,   7, 0x1000010B) /* ClothingBase */
+     , (26118,   8, 0x060030B0) /* Icon */
+     , (26118,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26118,  28,        157) /* Spell - Summon Primary Portal I */
      , (26118,  31,      14256) /* LinkedPortalOne - Cliffside Overlook Portal */;

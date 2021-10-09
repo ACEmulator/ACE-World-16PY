@@ -27,7 +27,7 @@ VALUES (4765,   1, 'Raw Noodles') /* Name */
      , (4765,  20, 'Batches of Raw Noodles') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4765,   1,   33554817) /* Setup */
-     , (4765,   3,  536870932) /* SoundTable */
-     , (4765,   8,  100670183) /* Icon */
-     , (4765,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4765,   1, 0x02000181) /* Setup */
+     , (4765,   3, 0x20000014) /* SoundTable */
+     , (4765,   8, 0x06001AE7) /* Icon */
+     , (4765,  22, 0x3400002B) /* PhysicsEffectTable */;

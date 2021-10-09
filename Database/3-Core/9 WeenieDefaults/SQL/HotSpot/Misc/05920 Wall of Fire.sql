@@ -36,6 +36,6 @@ VALUES (5920,   1, 'Wall of Fire') /* Name */
      , (5920,  17, 'The wall of fire burns you for %i points of damage!') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5920,   1,   33556217) /* Setup */
-     , (5920,   3,  536870996) /* SoundTable */
-     , (5920,   8,  100667465) /* Icon */;
+VALUES (5920,   1, 0x020006F9) /* Setup */
+     , (5920,   3, 0x20000054) /* SoundTable */
+     , (5920,   8, 0x06001049) /* Icon */;

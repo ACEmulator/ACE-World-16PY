@@ -29,11 +29,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25582,   1, 'Magic Wall') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25582,   1,   33558503) /* Setup */
-     , (25582,   2,  150995259) /* MotionTable */
-     , (25582,   3,  536871053) /* SoundTable */
-     , (25582,   8,  100668183) /* Icon */
-     , (25582,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25582,   1, 0x02000FE7) /* Setup */
+     , (25582,   2, 0x0900013B) /* MotionTable */
+     , (25582,   3, 0x2000008D) /* SoundTable */
+     , (25582,   8, 0x06001317) /* Icon */
+     , (25582,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (25582,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

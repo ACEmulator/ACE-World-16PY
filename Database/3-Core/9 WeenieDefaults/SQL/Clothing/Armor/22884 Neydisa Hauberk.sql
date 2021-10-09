@@ -29,7 +29,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22884,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22884,   5, -0.0333) /* ManaRate */
+VALUES (22884,   5,  -0.033) /* ManaRate */
      , (22884,  12,     0.1) /* Shade */
      , (22884,  13,       1) /* ArmorModVsSlash */
      , (22884,  14,       1) /* ArmorModVsPierce */
@@ -45,11 +45,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22884,   1, 'Neydisa Hauberk') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22884,   1,   33554644) /* Setup */
-     , (22884,   6,   67108990) /* PaletteBase */
-     , (22884,   7,  268435462) /* ClothingBase */
-     , (22884,   8,  100667335) /* Icon */
-     , (22884,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22884,   1, 0x020000D4) /* Setup */
+     , (22884,   6, 0x0400007E) /* PaletteBase */
+     , (22884,   7, 0x10000006) /* ClothingBase */
+     , (22884,   8, 0x06000FC7) /* Icon */
+     , (22884,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22884,  1401,      2)  /* Quickness Self V */;

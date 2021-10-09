@@ -65,19 +65,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21383,   1, 'Gaerlan') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21383,   1,   33557846) /* Setup */
-     , (21383,   2,  150995218) /* MotionTable */
-     , (21383,   3,  536870913) /* SoundTable */
-     , (21383,   4,  805306368) /* CombatTable */
-     , (21383,   6,   67112626) /* PaletteBase */
-     , (21383,   7,  268436453) /* ClothingBase */
-     , (21383,   8,  100673073) /* Icon */
-     , (21383,  22,  872415236) /* PhysicsEffectTable */
+VALUES (21383,   1, 0x02000D56) /* Setup */
+     , (21383,   2, 0x09000112) /* MotionTable */
+     , (21383,   3, 0x20000001) /* SoundTable */
+     , (21383,   4, 0x30000000) /* CombatTable */
+     , (21383,   6, 0x04000EB2) /* PaletteBase */
+     , (21383,   7, 0x100003E5) /* ClothingBase */
+     , (21383,   8, 0x06002631) /* Icon */
+     , (21383,  22, 0x34000004) /* PhysicsEffectTable */
      , (21383,  31,      21422) /* LinkedPortalOne - Gaerlan's Inner Sanctum */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21383, 12, 1497694474, 28.638, -59.181, -24, -0.7071068, 0, 0, -0.7071068) /* PortalSummonLoc */
-/* @teleloc 0x5945010A [28.638000 -59.181000 -24.000000] -0.707107 0.000000 0.000000 -0.707107 */;
+VALUES (21383, 12, 0x5945010A, 28.638, -59.181, -24, -0.707107, 0, -0, -0.707107) /* PortalSummonLoc */
+/* @teleloc 0x5945010A [28.638000 -59.181000 -24.000000] -0.707107 0.000000 -0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (21383,   1, 500, 0, 0) /* Strength */
@@ -93,19 +93,19 @@ VALUES (21383,   1, 29695, 0, 0, 30000) /* MaxHealth */
      , (21383,   5,  1500, 0, 0, 2000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (21383,  6, 0, 3, 0, 222, 0, 1302.16224335242) /* MeleeDefense        Specialized */
-     , (21383,  7, 0, 3, 0, 405, 0, 1302.16224335242) /* MissileDefense      Specialized */
-     , (21383, 11, 0, 3, 0, 148, 0, 1302.16224335242) /* Sword               Specialized */
-     , (21383, 13, 0, 3, 0, 148, 0, 1302.16224335242) /* UnarmedCombat       Specialized */
-     , (21383, 15, 0, 3, 0, 177, 0, 1302.16224335242) /* MagicDefense        Specialized */
-     , (21383, 16, 0, 3, 0, 200, 0, 1302.16224335242) /* ManaConversion      Specialized */
-     , (21383, 21, 0, 3, 0, 200, 0, 1302.16224335242) /* Healing             Specialized */
-     , (21383, 22, 0, 3, 0, 200, 0, 1302.16224335242) /* Jump                Specialized */
-     , (21383, 24, 0, 3, 0, 400, 0, 1302.16224335242) /* Run                 Specialized */
-     , (21383, 31, 0, 3, 0, 120, 0, 1302.16224335242) /* CreatureEnchantment Specialized */
-     , (21383, 32, 0, 3, 0, 120, 0, 1302.16224335242) /* ItemEnchantment     Specialized */
-     , (21383, 33, 0, 3, 0, 120, 0, 1302.16224335242) /* LifeMagic           Specialized */
-     , (21383, 34, 0, 3, 0, 120, 0, 1302.16224335242) /* WarMagic            Specialized */;
+VALUES (21383,  6, 0, 3, 0, 222, 0, 1302.162243352419) /* MeleeDefense        Specialized */
+     , (21383,  7, 0, 3, 0, 405, 0, 1302.162243352419) /* MissileDefense      Specialized */
+     , (21383, 11, 0, 3, 0, 148, 0, 1302.162243352419) /* Sword               Specialized */
+     , (21383, 13, 0, 3, 0, 148, 0, 1302.162243352419) /* UnarmedCombat       Specialized */
+     , (21383, 15, 0, 3, 0, 177, 0, 1302.162243352419) /* MagicDefense        Specialized */
+     , (21383, 16, 0, 3, 0, 200, 0, 1302.162243352419) /* ManaConversion      Specialized */
+     , (21383, 21, 0, 3, 0, 200, 0, 1302.162243352419) /* Healing             Specialized */
+     , (21383, 22, 0, 3, 0, 200, 0, 1302.162243352419) /* Jump                Specialized */
+     , (21383, 24, 0, 3, 0, 400, 0, 1302.162243352419) /* Run                 Specialized */
+     , (21383, 31, 0, 3, 0, 120, 0, 1302.162243352419) /* CreatureEnchantment Specialized */
+     , (21383, 32, 0, 3, 0, 120, 0, 1302.162243352419) /* ItemEnchantment     Specialized */
+     , (21383, 33, 0, 3, 0, 120, 0, 1302.162243352419) /* LifeMagic           Specialized */
+     , (21383, 34, 0, 3, 0, 120, 0, 1302.162243352419) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (21383,  0,  4,  0,    0,  600,  600,  600,  600, 12000, 12000, 12000, 12000,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -119,14 +119,14 @@ VALUES (21383,  0,  4,  0,    0,  600,  600,  600,  600, 12000, 12000, 12000, 12
      , (21383,  8,  4, 25, 0.75,  600,  600,  600,  600, 12000, 12000, 12000, 12000,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21383,    63,   2.02)  /* Acid Stream VI */
-     , (21383,   234,   2.01)  /* Vulnerability Other VI */
-     , (21383,   285,   2.01)  /* Magic Yield Other VI */
-     , (21383,   526,   2.01)  /* Acid Vulnerability Other VI */
+VALUES (21383,   234,   2.01)  /* Vulnerability Other VI */
+     , (21383,  1795,   2.02)  /* Acid Streak VI */
      , (21383,  1327,   2.01)  /* Imperil Other VI */
-     , (21383,  1370,   2.01)  /* Frailty Other IV */
+     , (21383,   526,   2.01)  /* Acid Vulnerability Other VI */
      , (21383,  1783,   2.02)  /* Searing Disc */
-     , (21383,  1795,   2.02)  /* Acid Streak VI */;
+     , (21383,  1370,   2.01)  /* Frailty Other IV */
+     , (21383,   285,   2.01)  /* Magic Yield Other VI */
+     , (21383,    63,   2.02)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (21383, 414) /* PLAYER_DEATH_EVENT */;

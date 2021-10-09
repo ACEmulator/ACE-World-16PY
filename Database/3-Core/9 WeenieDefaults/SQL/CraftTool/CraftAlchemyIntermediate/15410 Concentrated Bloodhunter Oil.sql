@@ -32,9 +32,9 @@ VALUES (15410,   1, 'Concentrated Bloodhunter Oil') /* Name */
      , (15410,  20, 'Vials of Concentrated Bloodhunter Oil') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15410,   1,   33555967) /* Setup */
-     , (15410,   3,  536870932) /* SoundTable */
-     , (15410,   6,   67111919) /* PaletteBase */
-     , (15410,   7,  268435815) /* ClothingBase */
-     , (15410,   8,  100672645) /* Icon */
-     , (15410,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15410,   1, 0x020005FF) /* Setup */
+     , (15410,   3, 0x20000014) /* SoundTable */
+     , (15410,   6, 0x04000BEF) /* PaletteBase */
+     , (15410,   7, 0x10000167) /* ClothingBase */
+     , (15410,   8, 0x06002485) /* Icon */
+     , (15410,  22, 0x3400002B) /* PhysicsEffectTable */;

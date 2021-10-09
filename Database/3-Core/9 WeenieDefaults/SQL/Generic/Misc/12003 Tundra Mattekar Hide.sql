@@ -28,9 +28,9 @@ VALUES (12003,   1, 'Tundra Mattekar Hide') /* Name */
      , (12003,  16, 'A large and smelly hide of a mattekar.  If you bring it to a leather crafter, they could probably make something with it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12003,   1,   33554817) /* Setup */
-     , (12003,   3,  536870932) /* SoundTable */
-     , (12003,   6,   67111919) /* PaletteBase */
-     , (12003,   7,  268435832) /* ClothingBase */
-     , (12003,   8,  100672102) /* Icon */
-     , (12003,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12003,   1, 0x02000181) /* Setup */
+     , (12003,   3, 0x20000014) /* SoundTable */
+     , (12003,   6, 0x04000BEF) /* PaletteBase */
+     , (12003,   7, 0x10000178) /* ClothingBase */
+     , (12003,   8, 0x06002266) /* Icon */
+     , (12003,  22, 0x3400002B) /* PhysicsEffectTable */;

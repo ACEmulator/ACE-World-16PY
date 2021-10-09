@@ -13,7 +13,7 @@ VALUES (22340,   1,       2048) /* ItemType - Gem */
      , (22340,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22340, 114,          1) /* Attuned - Attuned */
      , (22340, 185,          2) /* TypeOfAlteration */
-     , (22340, 186,          7) /* SkillToBeAltered */;
+     , (22340, 186,          7) /* SkillToBeAltered - MissileDefense */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22340,  22, True ) /* Inscribable */
@@ -25,8 +25,8 @@ VALUES (22340,   1, 'Missile Defense Gem of Forgetfulness') /* Name */
      , (22340,  33, 'SkillAlterationGemPickedUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22340,   1,   33558087) /* Setup */
-     , (22340,   6,   67111919) /* PaletteBase */
-     , (22340,   7,  268435723) /* ClothingBase */
-     , (22340,   8,  100673789) /* Icon */
-     , (22340,  50,  100673779) /* IconOverlay */;
+VALUES (22340,   1, 0x02000E47) /* Setup */
+     , (22340,   6, 0x04000BEF) /* PaletteBase */
+     , (22340,   7, 0x1000010B) /* ClothingBase */
+     , (22340,   8, 0x060028FD) /* Icon */
+     , (22340,  50, 0x060028F3) /* IconOverlay */;

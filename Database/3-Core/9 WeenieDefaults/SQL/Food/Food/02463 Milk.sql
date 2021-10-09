@@ -26,10 +26,10 @@ VALUES (2463,   1, 'Milk') /* Name */
      , (2463,  20, 'Bottles of Milk') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2463,   1,   33554602) /* Setup */
-     , (2463,   3,  536870932) /* SoundTable */
-     , (2463,   6,   67111919) /* PaletteBase */
-     , (2463,   7,  268435733) /* ClothingBase */
-     , (2463,   8,  100668493) /* Icon */
-     , (2463,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2463,   1, 0x020000AA) /* Setup */
+     , (2463,   3, 0x20000014) /* SoundTable */
+     , (2463,   6, 0x04000BEF) /* PaletteBase */
+     , (2463,   7, 0x10000115) /* ClothingBase */
+     , (2463,   8, 0x0600144D) /* Icon */
+     , (2463,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2463,  23,         65) /* UseSound - Drink1 */;

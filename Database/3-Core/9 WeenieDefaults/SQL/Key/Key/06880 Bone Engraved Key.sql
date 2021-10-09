@@ -26,6 +26,6 @@ VALUES (6880,   1, 'Bone Engraved Key') /* Name */
      , (6880,  16, 'A key engraved from sun bleached bone.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6880,   1,   33554784) /* Setup */
-     , (6880,   8,  100668441) /* Icon */
-     , (6880,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6880,   1, 0x02000160) /* Setup */
+     , (6880,   8, 0x06001419) /* Icon */
+     , (6880,  22, 0x3400002B) /* PhysicsEffectTable */;

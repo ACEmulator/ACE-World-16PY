@@ -51,17 +51,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19809,   1, 'Perfect Chilling Isparian Claw') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19809,   1,   33556381) /* Setup */
-     , (19809,   3,  536870932) /* SoundTable */
-     , (19809,   6,   67111919) /* PaletteBase */
-     , (19809,   7,  268436380) /* ClothingBase */
-     , (19809,   8,  100672904) /* Icon */
-     , (19809,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19809,   1, 0x0200079D) /* Setup */
+     , (19809,   3, 0x20000014) /* SoundTable */
+     , (19809,   6, 0x04000BEF) /* PaletteBase */
+     , (19809,   7, 0x1000039C) /* ClothingBase */
+     , (19809,   8, 0x06002588) /* Icon */
+     , (19809,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19809,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19809,  1035,      2)  /* Cold Protection Self VI */
-     , (19809,  1377,      2)  /* Coordination Self V */
+VALUES (19809,  2696,      2)  /* Moderate Light Weapon Aptitude */
+     , (19809,  1035,      2)  /* Cold Protection Self VI */
      , (19809,  1592,      2)  /* Aura of Heart Seeker Self VI */
-     , (19809,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (19809,  2696,      2)  /* Moderate Light Weapon Aptitude */;
+     , (19809,  1377,      2)  /* Coordination Self V */
+     , (19809,  1616,      2)  /* Aura of Blood Drinker Self VI */;

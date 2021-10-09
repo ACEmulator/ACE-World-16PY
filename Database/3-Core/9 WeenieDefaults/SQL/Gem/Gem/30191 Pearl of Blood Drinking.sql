@@ -30,10 +30,10 @@ VALUES (30191,   1, 'Pearl of Blood Drinking') /* Name */
      , (30191,  16, 'A lovely template for a rare magical gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30191,   1,   33554809) /* Setup */
-     , (30191,   3,  536870932) /* SoundTable */
-     , (30191,   6,   67111919) /* PaletteBase */
-     , (30191,   7,  268435723) /* ClothingBase */
-     , (30191,   8,  100674739) /* Icon */
-     , (30191,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30191,   1, 0x02000179) /* Setup */
+     , (30191,   3, 0x20000014) /* SoundTable */
+     , (30191,   6, 0x04000BEF) /* PaletteBase */
+     , (30191,   7, 0x1000010B) /* ClothingBase */
+     , (30191,   8, 0x06002CB3) /* Icon */
+     , (30191,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30191,  28,       3688) /* Spell - Prodigal Blood Drinker */;

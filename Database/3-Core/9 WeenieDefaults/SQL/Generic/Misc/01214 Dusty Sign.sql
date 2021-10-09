@@ -22,5 +22,5 @@ VALUES (1214,   1, 'Dusty Sign') /* Name */
      , (1214,  16, 'Only a fool would travel beyond this door. Turn back now before it is too late. You are heading down the wrong path!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1214,   1,   33555088) /* Setup */
-     , (1214,   8,  100668115) /* Icon */;
+VALUES (1214,   1, 0x02000290) /* Setup */
+     , (1214,   8, 0x060012D3) /* Icon */;

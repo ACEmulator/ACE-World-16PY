@@ -22,7 +22,7 @@ VALUES (2270,   1, 'Physician') /* Name */
      , (2270,  16, 'Physician') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2270,   1,   33555088) /* Setup */
-     , (2270,   6,   67111092) /* PaletteBase */
-     , (2270,   7,  268435657) /* ClothingBase */
-     , (2270,   8,  100668115) /* Icon */;
+VALUES (2270,   1, 0x02000290) /* Setup */
+     , (2270,   6, 0x040008B4) /* PaletteBase */
+     , (2270,   7, 0x100000C9) /* ClothingBase */
+     , (2270,   8, 0x060012D3) /* Icon */;

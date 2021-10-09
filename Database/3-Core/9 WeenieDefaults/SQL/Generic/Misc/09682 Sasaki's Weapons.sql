@@ -22,7 +22,7 @@ VALUES (9682,   1, 'Sasaki''s Weapons') /* Name */
      , (9682,  16, 'Sasaki''s Weapons') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9682,   1,   33555088) /* Setup */
-     , (9682,   6,   67111092) /* PaletteBase */
-     , (9682,   7,  268435653) /* ClothingBase */
-     , (9682,   8,  100668115) /* Icon */;
+VALUES (9682,   1, 0x02000290) /* Setup */
+     , (9682,   6, 0x040008B4) /* PaletteBase */
+     , (9682,   7, 0x100000C5) /* ClothingBase */
+     , (9682,   8, 0x060012D3) /* Icon */;

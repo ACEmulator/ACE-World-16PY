@@ -22,5 +22,5 @@ VALUES (15258,   1, 'South Siege Villas') /* Name */
      , (15258,  16, 'Welcome to South Siege Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15258,   1,   33557463) /* Setup */
-     , (15258,   8,  100668115) /* Icon */;
+VALUES (15258,   1, 0x02000BD7) /* Setup */
+     , (15258,   8, 0x060012D3) /* Icon */;

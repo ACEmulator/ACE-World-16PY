@@ -19,7 +19,7 @@ VALUES (20111,   1,        256) /* ItemType - MissileWeapon */
      , (20111,  48,          3) /* WeaponSkill - Crossbow */
      , (20111,  49,         90) /* WeaponTime */
      , (20111,  50,          2) /* AmmoType - Bolt */
-     , (20111,  51,          2) /* CombatUse - Missle */
+     , (20111,  51,          2) /* CombatUse - Missile */
      , (20111,  52,          2) /* ParentLocation - LeftHand */
      , (20111,  53,          3) /* PlacementPosition - LeftHand */
      , (20111,  60,        195) /* WeaponRange */
@@ -53,17 +53,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20111,   1, 'Good Coruscating Isparian Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20111,   1,   33557772) /* Setup */
-     , (20111,   3,  536870932) /* SoundTable */
-     , (20111,   6,   67111919) /* PaletteBase */
-     , (20111,   7,  268436396) /* ClothingBase */
-     , (20111,   8,  100673022) /* Icon */
-     , (20111,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20111,   1, 0x02000D0C) /* Setup */
+     , (20111,   3, 0x20000014) /* SoundTable */
+     , (20111,   6, 0x04000BEF) /* PaletteBase */
+     , (20111,   7, 0x100003AC) /* ClothingBase */
+     , (20111,   8, 0x060025FE) /* Icon */
+     , (20111,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20111,  37,          3) /* ItemSkillLimit - Crossbow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20111,  1071,      2)  /* Lightning Protection Self VI */
-     , (20111,  1401,      2)  /* Quickness Self V */
-     , (20111,  1603,      2)  /* Aura of Defender Self IV */
+VALUES (20111,  1603,      2)  /* Aura of Defender Self IV */
      , (20111,  1614,      2)  /* Aura of Blood Drinker Self IV */
-     , (20111,  2677,      2)  /* Feeble Missile Weapon Aptitude */;
+     , (20111,  2677,      2)  /* Feeble Missile Weapon Aptitude */
+     , (20111,  1071,      2)  /* Lightning Protection Self VI */
+     , (20111,  1401,      2)  /* Quickness Self V */;

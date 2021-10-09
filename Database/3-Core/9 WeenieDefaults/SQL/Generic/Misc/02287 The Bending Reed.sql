@@ -22,7 +22,7 @@ VALUES (2287,   1, 'The Bending Reed') /* Name */
      , (2287,  16, 'The Bending Reed') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2287,   1,   33555594) /* Setup */
-     , (2287,   6,   67111782) /* PaletteBase */
-     , (2287,   7,  268435691) /* ClothingBase */
-     , (2287,   8,  100668115) /* Icon */;
+VALUES (2287,   1, 0x0200048A) /* Setup */
+     , (2287,   6, 0x04000B66) /* PaletteBase */
+     , (2287,   7, 0x100000EB) /* ClothingBase */
+     , (2287,   8, 0x060012D3) /* Icon */;

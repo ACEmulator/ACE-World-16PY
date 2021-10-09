@@ -29,7 +29,7 @@ VALUES (5232,   1, 'Healing Rabbit Stew') /* Name */
      , (5232,  20, 'Bowls of Healing Rabbit Stew ') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5232,   1,   33555968) /* Setup */
-     , (5232,   3,  536870932) /* SoundTable */
-     , (5232,   8,  100670175) /* Icon */
-     , (5232,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5232,   1, 0x02000600) /* Setup */
+     , (5232,   3, 0x20000014) /* SoundTable */
+     , (5232,   8, 0x06001ADF) /* Icon */
+     , (5232,  22, 0x3400002B) /* PhysicsEffectTable */;

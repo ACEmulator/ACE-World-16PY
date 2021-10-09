@@ -28,7 +28,7 @@ VALUES (29841,   1, 'Untamed Siraluun Claw Hairgel') /* Name */
      , (29841,  16, 'Hair Gel made from the claw of an Untamed Siraluun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29841,   1,   33554817) /* Setup */
-     , (29841,   6,   67111919) /* PaletteBase */
-     , (29841,   7,  268435832) /* ClothingBase */
-     , (29841,   8,  100677301) /* Icon */;
+VALUES (29841,   1, 0x02000181) /* Setup */
+     , (29841,   6, 0x04000BEF) /* PaletteBase */
+     , (29841,   7, 0x10000178) /* ClothingBase */
+     , (29841,   8, 0x060036B5) /* Icon */;

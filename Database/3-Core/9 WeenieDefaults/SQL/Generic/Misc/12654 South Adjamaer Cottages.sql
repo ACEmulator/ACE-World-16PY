@@ -22,5 +22,5 @@ VALUES (12654,   1, 'South Adjamaer Cottages') /* Name */
      , (12654,  16, 'Welcome to South Adjamaer Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12654,   1,   33557463) /* Setup */
-     , (12654,   8,  100668115) /* Icon */;
+VALUES (12654,   1, 0x02000BD7) /* Setup */
+     , (12654,   8, 0x060012D3) /* Icon */;

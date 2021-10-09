@@ -17,7 +17,7 @@ VALUES (10916,   1,        256) /* ItemType - MissileWeapon */
      , (10916,  48,          2) /* WeaponSkill - Bow */
      , (10916,  49,         45) /* WeaponTime */
      , (10916,  50,          1) /* AmmoType - Arrow */
-     , (10916,  51,          2) /* CombatUse - Missle */
+     , (10916,  51,          2) /* CombatUse - Missile */
      , (10916,  52,          2) /* ParentLocation - LeftHand */
      , (10916,  53,          3) /* PlacementPosition - LeftHand */
      , (10916,  60,        192) /* WeaponRange */
@@ -48,14 +48,14 @@ VALUES (10916,   1, 'Panaq') /* Name */
      , (10916,  16, 'A traditional ranged weapon of the Tumerok. It has a rough-hewn yet elegant appearance.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10916,   1,   33557225) /* Setup */
-     , (10916,   3,  536870932) /* SoundTable */
-     , (10916,   8,  100674303) /* Icon */
-     , (10916,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10916,   1, 0x02000AE9) /* Setup */
+     , (10916,   3, 0x20000014) /* SoundTable */
+     , (10916,   8, 0x06002AFF) /* Icon */
+     , (10916,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10916,  37,          2) /* ItemSkillLimit - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10916,  1310,      2)  /* Armor Self IV */
-     , (10916,  1376,      2)  /* Coordination Self IV */
      , (10916,  1603,      2)  /* Aura of Defender Self IV */
-     , (10916,  1614,      2)  /* Aura of Blood Drinker Self IV */;
+     , (10916,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (10916,  1376,      2)  /* Coordination Self IV */;

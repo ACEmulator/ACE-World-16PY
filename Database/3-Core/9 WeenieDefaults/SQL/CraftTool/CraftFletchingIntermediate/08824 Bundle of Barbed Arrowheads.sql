@@ -29,7 +29,7 @@ VALUES (8824,   1, 'Bundle of Barbed Arrowheads') /* Name */
      , (8824,  20, 'Bundles of Barbed Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8824,   1,   33555958) /* Setup */
-     , (8824,   3,  536870932) /* SoundTable */
-     , (8824,   8,  100671229) /* Icon */
-     , (8824,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8824,   1, 0x020005F6) /* Setup */
+     , (8824,   3, 0x20000014) /* SoundTable */
+     , (8824,   8, 0x06001EFD) /* Icon */
+     , (8824,  22, 0x3400002B) /* PhysicsEffectTable */;

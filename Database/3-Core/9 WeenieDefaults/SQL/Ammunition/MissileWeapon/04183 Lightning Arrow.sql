@@ -40,9 +40,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4183,   1, 'Lightning Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4183,   1,   33555709) /* Setup */
-     , (4183,   3,  536870932) /* SoundTable */
-     , (4183,   6,   67111919) /* PaletteBase */
-     , (4183,   7,  268436303) /* ClothingBase */
-     , (4183,   8,  100670168) /* Icon */
-     , (4183,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4183,   1, 0x020004FD) /* Setup */
+     , (4183,   3, 0x20000014) /* SoundTable */
+     , (4183,   6, 0x04000BEF) /* PaletteBase */
+     , (4183,   7, 0x1000034F) /* ClothingBase */
+     , (4183,   8, 0x06001AD8) /* Icon */
+     , (4183,  22, 0x3400002B) /* PhysicsEffectTable */;

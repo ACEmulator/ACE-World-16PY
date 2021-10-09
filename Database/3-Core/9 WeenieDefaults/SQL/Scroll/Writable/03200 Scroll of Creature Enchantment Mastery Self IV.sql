@@ -25,7 +25,7 @@ VALUES (3200,   1, 'Scroll of Creature Enchantment Mastery Self IV') /* Name */
      , (3200,  16, 'When learned, this spell increases the caster''s Creature Enchantment skill by 75%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3200,   1,   33554826) /* Setup */
-     , (3200,   8,  100676453) /* Icon */
-     , (3200,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3200,   1, 0x0200018A) /* Setup */
+     , (3200,   8, 0x06003365) /* Icon */
+     , (3200,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3200,  28,        560) /* Spell - Creature Enchantment Mastery Self IV */;

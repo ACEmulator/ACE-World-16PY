@@ -52,16 +52,16 @@ VALUES (25313,   1, 'Walking Boots') /* Name */
      , (25313,  16, 'These boots were made for walking. They can also be dyed.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25313,   1,   33558440) /* Setup */
-     , (25313,   3,  536870932) /* SoundTable */
-     , (25313,   6,   67108990) /* PaletteBase */
-     , (25313,   7,  268436674) /* ClothingBase */
-     , (25313,   8,  100674821) /* Icon */
-     , (25313,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25313,   1, 0x02000FA8) /* Setup */
+     , (25313,   3, 0x20000014) /* SoundTable */
+     , (25313,   6, 0x0400007E) /* PaletteBase */
+     , (25313,   7, 0x100004C2) /* ClothingBase */
+     , (25313,   8, 0x06002D05) /* Icon */
+     , (25313,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25313,  37,         24) /* ItemSkillLimit - Run */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25313,   987,      2)  /* Sprint Self VI */
-     , (25313,  1402,      2)  /* Quickness Self VI */
-     , (25313,  1485,      2)  /* Impenetrability V */
-     , (25313,  2662,      2)  /* Moderate Quickness */;
+VALUES (25313,  1485,      2)  /* Impenetrability V */
+     , (25313,   987,      2)  /* Sprint Self VI */
+     , (25313,  2662,      2)  /* Moderate Quickness */
+     , (25313,  1402,      2)  /* Quickness Self VI */;

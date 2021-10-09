@@ -28,9 +28,9 @@ VALUES (25340,   1, 'Broken Virindi Observer Mask') /* Name */
      , (25340,  33, 'RegaliaMaskUpper') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25340,   1,   33556827) /* Setup */
-     , (25340,   3,  536870932) /* SoundTable */
-     , (25340,   6,   67108990) /* PaletteBase */
-     , (25340,   7,  268436257) /* ClothingBase */
-     , (25340,   8,  100674850) /* Icon */
-     , (25340,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25340,   1, 0x0200095B) /* Setup */
+     , (25340,   3, 0x20000014) /* SoundTable */
+     , (25340,   6, 0x0400007E) /* PaletteBase */
+     , (25340,   7, 0x10000321) /* ClothingBase */
+     , (25340,   8, 0x06002D22) /* Icon */
+     , (25340,  22, 0x3400002B) /* PhysicsEffectTable */;

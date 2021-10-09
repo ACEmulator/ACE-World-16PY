@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12505,   1, 'Imuth Maer Cottages Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12505,   1,   33554867) /* Setup */
-     , (12505,   2,  150994947) /* MotionTable */
-     , (12505,   8,  100667499) /* Icon */;
+VALUES (12505,   1, 0x020001B3) /* Setup */
+     , (12505,   2, 0x09000003) /* MotionTable */
+     , (12505,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12505, 2, 3412787221, 59.618, 106.768, 64.274, 0.9745934, 0, 0, -0.2239815) /* Destination */
-/* @teleloc 0xCB6B0015 [59.618000 106.768000 64.274000] 0.974593 0.000000 0.000000 -0.223982 */;
+VALUES (12505, 2, 0xCB6B0015, 59.618, 106.768, 64.274, 0.974593, 0, 0, -0.223982) /* Destination */
+/* @teleloc 0xCB6B0015 [59.618000 106.767998 64.274002] 0.974593 0.000000 0.000000 -0.223981 */;

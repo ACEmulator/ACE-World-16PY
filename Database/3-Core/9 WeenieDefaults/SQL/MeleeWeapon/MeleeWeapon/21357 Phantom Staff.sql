@@ -50,10 +50,10 @@ VALUES (21357,   1, 'Phantom Staff') /* Name */
      , (21357,  16, 'A ghostly staff crafted from pure chorizite, resistant to any enchantment. (Note: This weapon is unenchantable.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21357,   1,   33556652) /* Setup */
-     , (21357,   3,  536870932) /* SoundTable */
-     , (21357,   6,   67111919) /* PaletteBase */
-     , (21357,   7,  268435795) /* ClothingBase */
-     , (21357,   8,  100669105) /* Icon */
-     , (21357,  22,  872415275) /* PhysicsEffectTable */
-     , (21357,  36,  234881044) /* MutateFilter */;
+VALUES (21357,   1, 0x020008AC) /* Setup */
+     , (21357,   3, 0x20000014) /* SoundTable */
+     , (21357,   6, 0x04000BEF) /* PaletteBase */
+     , (21357,   7, 0x10000153) /* ClothingBase */
+     , (21357,   8, 0x060016B1) /* Icon */
+     , (21357,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (21357,  36, 0x0E000014) /* MutateFilter */;

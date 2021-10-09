@@ -24,7 +24,7 @@ VALUES (20325,   1, 'Scroll of Extinguish Creature Magic Self') /* Name */
      , (20325,  15, 'When learned, this spell dispels 3-6 negative Creature Magic enchantments of level 2 or lower from the caster.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20325,   1,   33554826) /* Setup */
-     , (20325,   8,  100676647) /* Icon */
-     , (20325,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20325,   1, 0x0200018A) /* Setup */
+     , (20325,   8, 0x06003427) /* Icon */
+     , (20325,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20325,  28,       1894) /* Spell - Extinguish Creature Magic Self */;

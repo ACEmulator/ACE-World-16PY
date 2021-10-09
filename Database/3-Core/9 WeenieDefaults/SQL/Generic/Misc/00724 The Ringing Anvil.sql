@@ -22,7 +22,7 @@ VALUES (724,   1, 'The Ringing Anvil') /* Name */
      , (724,  16, 'The Ringing Anvil') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (724,   1,   33555088) /* Setup */
-     , (724,   6,   67111092) /* PaletteBase */
-     , (724,   7,  268435653) /* ClothingBase */
-     , (724,   8,  100668115) /* Icon */;
+VALUES (724,   1, 0x02000290) /* Setup */
+     , (724,   6, 0x040008B4) /* PaletteBase */
+     , (724,   7, 0x100000C5) /* ClothingBase */
+     , (724,   8, 0x060012D3) /* Icon */;

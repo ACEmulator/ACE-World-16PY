@@ -48,16 +48,16 @@ VALUES (14594,   1, 'Helm of the Elements') /* Name */
      , (14594,  16, 'A plumed helm infused with the power of the Elements. A soft glow surrounds the helm and storms can be seen waxing and waning within the crystal plume. It is unusually light.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14594,   1,   33557509) /* Setup */
-     , (14594,   3,  536870932) /* SoundTable */
-     , (14594,   6,   67108990) /* PaletteBase */
-     , (14594,   7,  268436326) /* ClothingBase */
-     , (14594,   8,  100668243) /* Icon */
-     , (14594,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14594,   1, 0x02000C05) /* Setup */
+     , (14594,   3, 0x20000014) /* SoundTable */
+     , (14594,   6, 0x0400007E) /* PaletteBase */
+     , (14594,   7, 0x10000366) /* ClothingBase */
+     , (14594,   8, 0x06001353) /* Icon */
+     , (14594,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14594,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (14594,   244,      2)  /* Invulnerability Other VI */
+VALUES (14594,  1485,      2)  /* Impenetrability V */
      , (14594,   255,      2)  /* Impregnability Other VI */
-     , (14594,  1485,      2)  /* Impenetrability V */
-     , (14594,  2641,      2)  /* Force to Arms */;
+     , (14594,  2641,      2)  /* Force to Arms */
+     , (14594,   244,      2)  /* Invulnerability Other VI */;

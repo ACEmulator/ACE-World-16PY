@@ -45,15 +45,15 @@ VALUES (29816,   1, 'Timber Siraluun Dress') /* Name */
      , (29816,  16, 'A formal gown woven from the plumes of a Timber Siraluun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29816,   1,   33554854) /* Setup */
-     , (29816,   3,  536870932) /* SoundTable */
-     , (29816,   6,   67108990) /* PaletteBase */
-     , (29816,   7,  268436236) /* ClothingBase */
-     , (29816,   8,  100677289) /* Icon */
-     , (29816,  22,  872415275) /* PhysicsEffectTable */
-     , (29816,  36,  234881046) /* MutateFilter */;
+VALUES (29816,   1, 0x020001A6) /* Setup */
+     , (29816,   3, 0x20000014) /* SoundTable */
+     , (29816,   6, 0x0400007E) /* PaletteBase */
+     , (29816,   7, 0x1000030C) /* ClothingBase */
+     , (29816,   8, 0x060036A9) /* Icon */
+     , (29816,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29816,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29816,   908,      2)  /* Leadership Mastery Other V */
-     , (29816,   956,      2)  /* Fealty Other V */
+VALUES (29816,   956,      2)  /* Fealty Other V */
+     , (29816,   908,      2)  /* Leadership Mastery Other V */
      , (29816,  2012,      2)  /* Wizard's Intellect */;

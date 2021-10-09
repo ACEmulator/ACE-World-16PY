@@ -39,6 +39,6 @@ VALUES (28026,   1, 'Corroding Bile') /* Name */
      , (28026,  17, 'Harmful biles corrodes your flesh for %i points damage!') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28026,   1,   33556024) /* Setup */
-     , (28026,   3,  536871007) /* SoundTable */
-     , (28026,   8,  100667465) /* Icon */;
+VALUES (28026,   1, 0x02000638) /* Setup */
+     , (28026,   3, 0x2000005F) /* SoundTable */
+     , (28026,   8, 0x06001049) /* Icon */;

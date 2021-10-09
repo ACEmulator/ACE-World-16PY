@@ -28,18 +28,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25572,   1, 'Dispel All Trap') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25572,   1,   33555536) /* Setup */
-     , (25572,   2,  150994977) /* MotionTable */
-     , (25572,   8,  100668114) /* Icon */
-     , (25572,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25572,   1, 0x02000450) /* Setup */
+     , (25572,   2, 0x09000021) /* MotionTable */
+     , (25572,   8, 0x060012D2) /* Icon */
+     , (25572,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25572,  23,        149) /* UseSound - TriggerActivated */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25572,  16,          0) /* ActivationTarget */;
+VALUES (25572,  16, 0x00000000) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (25572, 31, 0, 3, 0, 999, 0, 1640.91269605507) /* CreatureEnchantment Specialized */
-     , (25572, 33, 0, 3, 0, 999, 0, 1640.91269605507) /* LifeMagic           Specialized */;
+VALUES (25572, 31, 0, 3, 0, 999, 0, 1640.912696055072) /* CreatureEnchantment Specialized */
+     , (25572, 33, 0, 3, 0, 999, 0, 1640.912696055072) /* LifeMagic           Specialized */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (25572,  8 /* Activation */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

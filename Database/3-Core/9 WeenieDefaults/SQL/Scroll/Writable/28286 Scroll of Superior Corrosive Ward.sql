@@ -24,7 +24,7 @@ VALUES (28286,   1, 'Scroll of Superior Corrosive Ward') /* Name */
      , (28286,  15, 'When learned, this spell reduces damage all fellowship members take from acid by 65%.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28286,   1,   33554826) /* Setup */
-     , (28286,   8,  100676951) /* Icon */
-     , (28286,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28286,   1, 0x0200018A) /* Setup */
+     , (28286,   8, 0x06003557) /* Icon */
+     , (28286,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28286,  28,       3323) /* Spell - Superior Corrosive Ward */;

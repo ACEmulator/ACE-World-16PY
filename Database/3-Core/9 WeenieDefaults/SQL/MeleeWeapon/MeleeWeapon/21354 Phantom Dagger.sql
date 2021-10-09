@@ -49,10 +49,10 @@ VALUES (21354,   1, 'Phantom Dagger') /* Name */
      , (21354,  16, 'A dagger with a ghostly blade crafted from pure chorizite, resistant to any enchantment. (Note: This weapon is unenchantable.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21354,   1,   33556656) /* Setup */
-     , (21354,   3,  536870932) /* SoundTable */
-     , (21354,   6,   67111919) /* PaletteBase */
-     , (21354,   7,  268435783) /* ClothingBase */
-     , (21354,   8,  100668875) /* Icon */
-     , (21354,  22,  872415275) /* PhysicsEffectTable */
-     , (21354,  36,  234881044) /* MutateFilter */;
+VALUES (21354,   1, 0x020008B0) /* Setup */
+     , (21354,   3, 0x20000014) /* SoundTable */
+     , (21354,   6, 0x04000BEF) /* PaletteBase */
+     , (21354,   7, 0x10000147) /* ClothingBase */
+     , (21354,   8, 0x060015CB) /* Icon */
+     , (21354,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (21354,  36, 0x0E000014) /* MutateFilter */;

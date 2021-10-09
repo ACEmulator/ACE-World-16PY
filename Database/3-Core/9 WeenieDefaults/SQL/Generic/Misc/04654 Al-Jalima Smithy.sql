@@ -23,7 +23,7 @@ VALUES (4654,   1, 'Al-Jalima Smithy') /* Name */
      , (4654,  16, 'Al-Jalima Smithy') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4654,   1,   33555909) /* Setup */
-     , (4654,   6,   67111860) /* PaletteBase */
-     , (4654,   7,  268435818) /* ClothingBase */
-     , (4654,   8,  100668115) /* Icon */;
+VALUES (4654,   1, 0x020005C5) /* Setup */
+     , (4654,   6, 0x04000BB4) /* PaletteBase */
+     , (4654,   7, 0x1000016A) /* ClothingBase */
+     , (4654,   8, 0x060012D3) /* Icon */;

@@ -27,9 +27,9 @@ VALUES (25027,   1, 'Keeper of Dereth Token') /* Name */
      , (25027,  15, 'This token will grant the title Keeper of Dereth when turned into the High Queen, or a royal guard who grant this title.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25027,   1,   33557280) /* Setup */
-     , (25027,   3,  536870932) /* SoundTable */
-     , (25027,   6,   67111092) /* PaletteBase */
-     , (25027,   7,  268436301) /* ClothingBase */
-     , (25027,   8,  100674707) /* Icon */
-     , (25027,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25027,   1, 0x02000B20) /* Setup */
+     , (25027,   3, 0x20000014) /* SoundTable */
+     , (25027,   6, 0x040008B4) /* PaletteBase */
+     , (25027,   7, 0x1000034D) /* ClothingBase */
+     , (25027,   8, 0x06002C93) /* Icon */
+     , (25027,  22, 0x3400002B) /* PhysicsEffectTable */;

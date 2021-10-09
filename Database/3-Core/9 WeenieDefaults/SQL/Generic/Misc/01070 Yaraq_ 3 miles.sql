@@ -22,5 +22,5 @@ VALUES (1070,   1, 'Yaraq: 3 miles') /* Name */
      , (1070,  16, 'Town of Yaraq: 3 miles.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1070,   1,   33555088) /* Setup */
-     , (1070,   8,  100668115) /* Icon */;
+VALUES (1070,   1, 0x02000290) /* Setup */
+     , (1070,   8, 0x060012D3) /* Icon */;

@@ -21,9 +21,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13081,   1, 'Mansion') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13081,   1,   33557167) /* Setup */
-     , (13081,   2,  150995128) /* MotionTable */
-     , (13081,   8,  100671884) /* Icon */;
+VALUES (13081,   1, 0x02000AAF) /* Setup */
+     , (13081,   2, 0x090000B8) /* MotionTable */
+     , (13081,   8, 0x0600218C) /* Icon */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (13081, 16,   273, 10000000, 0, 0, False) /* Create Pyreal (273) for HouseBuy */

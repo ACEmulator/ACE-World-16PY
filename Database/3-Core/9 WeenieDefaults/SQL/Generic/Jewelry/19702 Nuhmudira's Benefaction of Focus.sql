@@ -39,13 +39,13 @@ VALUES (19702,   1, 'Nuhmudira''s Benefaction of Focus') /* Name */
      , (19702,  16, 'A green gorget, crafted from a strong metal, imbued with an elixir of single mind. As you hold the gorget in your hand you feel a soft vibration.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19702,   1,   33554687) /* Setup */
-     , (19702,   3,  536870932) /* SoundTable */
-     , (19702,   6,   67111919) /* PaletteBase */
-     , (19702,   7,  268436388) /* ClothingBase */
-     , (19702,   8,  100668632) /* Icon */
-     , (19702,  22,  872415275) /* PhysicsEffectTable */
-     , (19702,  36,  234881046) /* MutateFilter */;
+VALUES (19702,   1, 0x020000FF) /* Setup */
+     , (19702,   3, 0x20000014) /* SoundTable */
+     , (19702,   6, 0x04000BEF) /* PaletteBase */
+     , (19702,   7, 0x100003A4) /* ClothingBase */
+     , (19702,   8, 0x060014D8) /* Icon */
+     , (19702,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (19702,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19702,  1429,      2)  /* Focus Other III */

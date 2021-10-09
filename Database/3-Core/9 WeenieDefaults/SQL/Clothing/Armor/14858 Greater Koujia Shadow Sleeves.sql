@@ -41,9 +41,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14858,   1, 'Greater Koujia Shadow Sleeves') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14858,   1,   33554655) /* Setup */
-     , (14858,   3,  536870932) /* SoundTable */
-     , (14858,   6,   67108990) /* PaletteBase */
-     , (14858,   7,  268435851) /* ClothingBase */
-     , (14858,   8,  100670467) /* Icon */
-     , (14858,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14858,   1, 0x020000DF) /* Setup */
+     , (14858,   3, 0x20000014) /* SoundTable */
+     , (14858,   6, 0x0400007E) /* PaletteBase */
+     , (14858,   7, 0x1000018B) /* ClothingBase */
+     , (14858,   8, 0x06001C03) /* Icon */
+     , (14858,  22, 0x3400002B) /* PhysicsEffectTable */;

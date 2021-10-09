@@ -24,7 +24,7 @@ VALUES (20596,   1, 'Scroll of Hieromancer''s Blessing') /* Name */
      , (20596,  15, 'When learned, this spell increases the caster''s War Magic skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20596,   1,   33554826) /* Setup */
-     , (20596,   8,  100676479) /* Icon */
-     , (20596,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20596,   1, 0x0200018A) /* Setup */
+     , (20596,   8, 0x0600337F) /* Icon */
+     , (20596,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20596,  28,       2323) /* Spell - Hieromancer's Blessing */;

@@ -26,7 +26,7 @@ VALUES (1249,   1, 'Key') /* Name */
      , (1249,  16, 'This rusty key opens a door in the Glenden Wood dungeon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1249,   1,   33554784) /* Setup */
-     , (1249,   3,  536870932) /* SoundTable */
-     , (1249,   8,  100668440) /* Icon */
-     , (1249,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1249,   1, 0x02000160) /* Setup */
+     , (1249,   3, 0x20000014) /* SoundTable */
+     , (1249,   8, 0x06001418) /* Icon */
+     , (1249,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -33,7 +33,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31144,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31144,   5,       0) /* ManaRate */
+VALUES (31144,   5,      -0) /* ManaRate */
      , (31144,  21,    0.95) /* WeaponLength */
      , (31144,  22,     0.5) /* DamageVariance */
      , (31144,  29,    1.07) /* WeaponDefense */
@@ -44,15 +44,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31144,   1, 'Rapier') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31144,   1,   33556588) /* Setup */
-     , (31144,   3,  536870932) /* SoundTable */
-     , (31144,   6,   67111919) /* PaletteBase */
-     , (31144,   7,  268435997) /* ClothingBase */
-     , (31144,   8,  100670656) /* Icon */
-     , (31144,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31144,   1, 0x0200086C) /* Setup */
+     , (31144,   3, 0x20000014) /* SoundTable */
+     , (31144,   6, 0x04000BEF) /* PaletteBase */
+     , (31144,   7, 0x1000021D) /* ClothingBase */
+     , (31144,   8, 0x06001CC0) /* Icon */
+     , (31144,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31144,  1591,      2)  /* Aura of Heart Seeker Self V */
-     , (31144,  1604,      2)  /* Aura of Defender Self V */
+VALUES (31144,  1604,      2)  /* Aura of Defender Self V */
+     , (31144,  1591,      2)  /* Aura of Heart Seeker Self V */
      , (31144,  1615,      2)  /* Aura of Blood Drinker Self V */
      , (31144,  1626,      2)  /* Aura of Swift Killer Self V */;

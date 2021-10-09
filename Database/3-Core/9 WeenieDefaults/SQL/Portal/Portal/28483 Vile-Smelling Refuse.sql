@@ -28,12 +28,12 @@ VALUES (28483,   1, 'Vile-Smelling Refuse') /* Name */
      , (28483,  37, 'EnterBurunCatacombs') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28483,   1,   33558852) /* Setup */
-     , (28483,   8,  100667499) /* Icon */;
+VALUES (28483,   1, 0x02001144) /* Setup */
+     , (28483,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28483, 2, 41616140, 130, -130, 0.005, -0.7071068, 0, 0, -0.7071068) /* Destination */
-/* @teleloc 0x027B030C [130.000000 -130.000000 0.005000] -0.707107 0.000000 0.000000 -0.707107 */;
+VALUES (28483, 2, 0x027B030C, 130, -130, 0.005, -0.707107, 0, -0, -0.707107) /* Destination */
+/* @teleloc 0x027B030C [130.000000 -130.000000 0.005000] -0.707107 0.000000 -0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (28483,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

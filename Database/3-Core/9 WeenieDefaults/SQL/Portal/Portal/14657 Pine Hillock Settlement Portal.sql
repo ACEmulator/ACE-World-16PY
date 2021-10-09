@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14657,   1, 'Pine Hillock Settlement Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14657,   1,   33554867) /* Setup */
-     , (14657,   2,  150994947) /* MotionTable */
-     , (14657,   8,  100667499) /* Icon */;
+VALUES (14657,   1, 0x020001B3) /* Setup */
+     , (14657,   2, 0x09000003) /* MotionTable */
+     , (14657,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14657, 2, 2444754989, 127.147, 102.655, 67.579, -0.5753835, 0, 0, -0.8178837) /* Destination */
-/* @teleloc 0x91B8002D [127.147000 102.655000 67.579000] -0.575384 0.000000 0.000000 -0.817884 */;
+VALUES (14657, 2, 0x91B8002D, 127.147, 102.655, 67.579, -0.575384, 0, -0, -0.817884) /* Destination */
+/* @teleloc 0x91B8002D [127.147003 102.654999 67.579002] -0.575384 0.000000 -0.000000 -0.817884 */;

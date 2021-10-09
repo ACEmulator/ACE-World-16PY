@@ -31,9 +31,9 @@ VALUES (3690,   1, 'Sandy Armoredillo Spine') /* Name */
      , (3690,  14, 'This spine looks as if it could function as the blade of an axe. ') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3690,   1,   33554817) /* Setup */
-     , (3690,   3,  536870932) /* SoundTable */
-     , (3690,   6,   67111919) /* PaletteBase */
-     , (3690,   7,  268435832) /* ClothingBase */
-     , (3690,   8,  100670071) /* Icon */
-     , (3690,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (3690,   1, 0x02000181) /* Setup */
+     , (3690,   3, 0x20000014) /* SoundTable */
+     , (3690,   6, 0x04000BEF) /* PaletteBase */
+     , (3690,   7, 0x10000178) /* ClothingBase */
+     , (3690,   8, 0x06001A77) /* Icon */
+     , (3690,  22, 0x3400002B) /* PhysicsEffectTable */;

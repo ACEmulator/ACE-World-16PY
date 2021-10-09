@@ -23,7 +23,7 @@ VALUES (24210,   1, 'Timberman Title Token') /* Name */
      , (24210,  15, 'Hand this token to Caelis Renning to get the Title of Timberman.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24210,   1,   33558119) /* Setup */
-     , (24210,   3,  536870932) /* SoundTable */
-     , (24210,   8,  100674308) /* Icon */
-     , (24210,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24210,   1, 0x02000E67) /* Setup */
+     , (24210,   3, 0x20000014) /* SoundTable */
+     , (24210,   8, 0x06002B04) /* Icon */
+     , (24210,  22, 0x3400002B) /* PhysicsEffectTable */;

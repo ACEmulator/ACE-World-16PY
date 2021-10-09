@@ -51,17 +51,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19790,   1, 'Superb Chilling Isparian Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19790,   1,   33556379) /* Setup */
-     , (19790,   3,  536870932) /* SoundTable */
-     , (19790,   6,   67111919) /* PaletteBase */
-     , (19790,   7,  268436377) /* ClothingBase */
-     , (19790,   8,  100672884) /* Icon */
-     , (19790,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19790,   1, 0x0200079B) /* Setup */
+     , (19790,   3, 0x20000014) /* SoundTable */
+     , (19790,   6, 0x04000BEF) /* PaletteBase */
+     , (19790,   7, 0x10000399) /* ClothingBase */
+     , (19790,   8, 0x06002574) /* Icon */
+     , (19790,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19790,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19790,  1035,      2)  /* Cold Protection Self VI */
-     , (19790,  1377,      2)  /* Coordination Self V */
      , (19790,  1591,      2)  /* Aura of Heart Seeker Self V */
      , (19790,  1615,      2)  /* Aura of Blood Drinker Self V */
+     , (19790,  1377,      2)  /* Coordination Self V */
      , (19790,  2539,      2)  /* Minor Light Weapon Aptitude */;

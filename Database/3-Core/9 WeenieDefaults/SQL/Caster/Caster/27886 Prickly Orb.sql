@@ -32,12 +32,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27886,   1, 'Prickly Orb') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27886,   1,   33559019) /* Setup */
-     , (27886,   3,  536870932) /* SoundTable */
-     , (27886,   6,   67115357) /* PaletteBase */
-     , (27886,   7,  268436872) /* ClothingBase */
-     , (27886,   8,  100668722) /* Icon */
-     , (27886,  22,  872415275) /* PhysicsEffectTable */
-     , (27886,  27, 1073741873) /* UseUserAnimation - MagicHeal */
-     , (27886,  36,  234881046) /* MutateFilter */
-     , (27886,  46,  939524144) /* TsysMutationFilter */;
+VALUES (27886,   1, 0x020011EB) /* Setup */
+     , (27886,   3, 0x20000014) /* SoundTable */
+     , (27886,   6, 0x0400195D) /* PaletteBase */
+     , (27886,   7, 0x10000588) /* ClothingBase */
+     , (27886,   8, 0x06001532) /* Icon */
+     , (27886,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27886,  27, 0x40000031) /* UseUserAnimation - MagicHeal */
+     , (27886,  36, 0x0E000016) /* MutateFilter */
+     , (27886,  46, 0x38000030) /* TsysMutationFilter */;

@@ -38,7 +38,7 @@ VALUES (11432,  22, True ) /* Inscribable */
      , (11432,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11432,   5, -0.03333) /* ManaRate */
+VALUES (11432,   5,  -0.033) /* ManaRate */
      , (11432,  21,     1.5) /* WeaponLength */
      , (11432,  22,    0.54) /* DamageVariance */
      , (11432,  29,    1.08) /* WeaponDefense */
@@ -51,13 +51,13 @@ VALUES (11432,   1, 'Volkama''s Taiaha of the Rivers') /* Name */
      , (11432,  16, 'A taiaha fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11432,   1,   33557236) /* Setup */
-     , (11432,   3,  536870932) /* SoundTable */
-     , (11432,   6,   67113336) /* PaletteBase */
-     , (11432,   7,  268436254) /* ClothingBase */
-     , (11432,   8,  100672093) /* Icon */
-     , (11432,  22,  872415275) /* PhysicsEffectTable */
-     , (11432,  36,  234881044) /* MutateFilter */;
+VALUES (11432,   1, 0x02000AF4) /* Setup */
+     , (11432,   3, 0x20000014) /* SoundTable */
+     , (11432,   6, 0x04001178) /* PaletteBase */
+     , (11432,   7, 0x1000031E) /* ClothingBase */
+     , (11432,   8, 0x0600225D) /* Icon */
+     , (11432,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11432,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11432,  2464,      2)  /* Greater Cascade */

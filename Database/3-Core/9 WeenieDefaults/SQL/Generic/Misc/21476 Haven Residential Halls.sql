@@ -22,5 +22,5 @@ VALUES (21476,   1, 'Haven Residential Halls') /* Name */
      , (21476,  16, 'Haven Residential Halls') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21476,   1,   33557901) /* Setup */
-     , (21476,   8,  100667499) /* Icon */;
+VALUES (21476,   1, 0x02000D8D) /* Setup */
+     , (21476,   8, 0x0600106B) /* Icon */;

@@ -26,7 +26,7 @@ VALUES (29384,   1, 'Iron Key') /* Name */
      , (29384,  16, 'A small iron key from the Dry Well near Samsur.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29384,   1,   33554784) /* Setup */
-     , (29384,   3,  536870932) /* SoundTable */
-     , (29384,   8,  100667485) /* Icon */
-     , (29384,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29384,   1, 0x02000160) /* Setup */
+     , (29384,   3, 0x20000014) /* SoundTable */
+     , (29384,   8, 0x0600105D) /* Icon */
+     , (29384,  22, 0x3400002B) /* PhysicsEffectTable */;

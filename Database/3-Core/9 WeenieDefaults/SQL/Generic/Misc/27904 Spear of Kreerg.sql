@@ -27,7 +27,7 @@ VALUES (27904,   1, 'Spear of Kreerg') /* Name */
      , (27904,  33, 'MosswartExodusSpear') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27904,   1,   33558800) /* Setup */
-     , (27904,   3,  536870932) /* SoundTable */
-     , (27904,   8,  100676620) /* Icon */
-     , (27904,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27904,   1, 0x02001110) /* Setup */
+     , (27904,   3, 0x20000014) /* SoundTable */
+     , (27904,   8, 0x0600340C) /* Icon */
+     , (27904,  22, 0x3400002B) /* PhysicsEffectTable */;

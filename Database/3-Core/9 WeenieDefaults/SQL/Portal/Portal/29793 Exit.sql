@@ -25,10 +25,10 @@ VALUES (29793,   1, 'Exit') /* Name */
      , (29793,  37, 'NumberPuzzleCompleted') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29793,   1,   33559046) /* Setup */
-     , (29793,   2,  150995314) /* MotionTable */
-     , (29793,   8,  100667499) /* Icon */;
+VALUES (29793,   1, 0x02001206) /* Setup */
+     , (29793,   2, 0x09000172) /* MotionTable */
+     , (29793,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29793, 2, 47776432, 10, -20, 0.005, 0.7071068, 0, 0, -0.7071068) /* Destination */
+VALUES (29793, 2, 0x02D902B0, 10, -20, 0.005, 0.707107, 0, 0, -0.707107) /* Destination */
 /* @teleloc 0x02D902B0 [10.000000 -20.000000 0.005000] 0.707107 0.000000 0.000000 -0.707107 */;

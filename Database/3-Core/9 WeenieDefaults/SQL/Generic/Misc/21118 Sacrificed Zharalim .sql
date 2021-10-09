@@ -26,7 +26,7 @@ VALUES (21118,   1, 'Sacrificed Zharalim ') /* Name */
      , (21118,  15, 'A gharu''ndim warrior, once a proud Zharalim. His body is paled by the loss of all his blood. A puncture wound is apparent through his chest, and two smaller wounds adorn either side of throat.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21118,   1,   33557859) /* Setup */
-     , (21118,   6,   67108990) /* PaletteBase */
-     , (21118,   7,  268436431) /* ClothingBase */
-     , (21118,   8,  100670274) /* Icon */;
+VALUES (21118,   1, 0x02000D63) /* Setup */
+     , (21118,   6, 0x0400007E) /* PaletteBase */
+     , (21118,   7, 0x100003CF) /* ClothingBase */
+     , (21118,   8, 0x06001B42) /* Icon */;

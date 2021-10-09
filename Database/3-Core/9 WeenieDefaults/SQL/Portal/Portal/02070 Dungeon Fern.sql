@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2070,   1, 'Dungeon Fern') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2070,   1,   33554867) /* Setup */
-     , (2070,   2,  150994947) /* MotionTable */
-     , (2070,   8,  100667499) /* Icon */;
+VALUES (2070,   1, 0x020001B3) /* Setup */
+     , (2070,   2, 0x09000003) /* MotionTable */
+     , (2070,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2070, 2, 28508438, 39.7, -0.2, 0, 0.02617699, 0, 0, -0.9996573) /* Destination */
-/* @teleloc 0x01B30116 [39.700000 -0.200000 0.000000] 0.026177 0.000000 0.000000 -0.999657 */;
+VALUES (2070, 2, 0x01B30116, 39.7, -0.2, 0, 0.026177, 0, 0, -0.999657) /* Destination */
+/* @teleloc 0x01B30116 [39.700001 -0.200000 0.000000] 0.026177 0.000000 0.000000 -0.999657 */;

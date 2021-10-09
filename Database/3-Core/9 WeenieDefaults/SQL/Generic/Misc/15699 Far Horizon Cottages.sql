@@ -22,5 +22,5 @@ VALUES (15699,   1, 'Far Horizon Cottages') /* Name */
      , (15699,  16, 'Welcome to Far Horizon Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15699,   1,   33557463) /* Setup */
-     , (15699,   8,  100668115) /* Icon */;
+VALUES (15699,   1, 0x02000BD7) /* Setup */
+     , (15699,   8, 0x060012D3) /* Icon */;

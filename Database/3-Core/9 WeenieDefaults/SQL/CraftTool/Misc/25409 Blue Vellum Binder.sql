@@ -31,8 +31,8 @@ VALUES (25409,   1, 'Blue Vellum Binder') /* Name */
      , (25409,  16, 'A blue vellum binder containing 2 thin sheets of parchment. The parchment is inscribed in an unknown alphabet.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25409,   1,   33554771) /* Setup */
-     , (25409,   3,  536870932) /* SoundTable */
-     , (25409,   6,   67111928) /* PaletteBase */
-     , (25409,   8,  100674843) /* Icon */
-     , (25409,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25409,   1, 0x02000153) /* Setup */
+     , (25409,   3, 0x20000014) /* SoundTable */
+     , (25409,   6, 0x04000BF8) /* PaletteBase */
+     , (25409,   8, 0x06002D1B) /* Icon */
+     , (25409,  22, 0x3400002B) /* PhysicsEffectTable */;

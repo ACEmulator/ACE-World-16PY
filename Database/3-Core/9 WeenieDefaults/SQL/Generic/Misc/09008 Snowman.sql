@@ -19,5 +19,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9008,   1, 'Snowman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9008,   1,   33556221) /* Setup */
-     , (9008,   8,  100669125) /* Icon */;
+VALUES (9008,   1, 0x020006FD) /* Setup */
+     , (9008,   8, 0x060016C5) /* Icon */;

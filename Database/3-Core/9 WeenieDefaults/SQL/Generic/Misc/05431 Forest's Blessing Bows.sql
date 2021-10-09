@@ -22,7 +22,7 @@ VALUES (5431,   1, 'Forest''s Blessing Bows') /* Name */
      , (5431,  16, 'Forest''s Blessing Bows') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5431,   1,   33555594) /* Setup */
-     , (5431,   6,   67111782) /* PaletteBase */
-     , (5431,   7,  268435687) /* ClothingBase */
-     , (5431,   8,  100668115) /* Icon */;
+VALUES (5431,   1, 0x0200048A) /* Setup */
+     , (5431,   6, 0x04000B66) /* PaletteBase */
+     , (5431,   7, 0x100000E7) /* ClothingBase */
+     , (5431,   8, 0x060012D3) /* Icon */;

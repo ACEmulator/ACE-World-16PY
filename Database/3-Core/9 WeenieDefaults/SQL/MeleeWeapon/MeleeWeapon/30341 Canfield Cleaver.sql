@@ -36,10 +36,10 @@ VALUES (30341,   1, 'Canfield Cleaver') /* Name */
      , (30341,  16, 'Describe me here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30341,   1,   33554725) /* Setup */
-     , (30341,   3,  536870932) /* SoundTable */
-     , (30341,   6,   67111919) /* PaletteBase */
-     , (30341,   7,  268435779) /* ClothingBase */
-     , (30341,   8,  100668985) /* Icon */
-     , (30341,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30341,   1, 0x02000125) /* Setup */
+     , (30341,   3, 0x20000014) /* SoundTable */
+     , (30341,   6, 0x04000BEF) /* PaletteBase */
+     , (30341,   7, 0x10000143) /* ClothingBase */
+     , (30341,   8, 0x06001639) /* Icon */
+     , (30341,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30341,  30,         88) /* PhysicsScript - Create */;

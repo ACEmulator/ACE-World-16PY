@@ -49,17 +49,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19946,   1, 'Good Flaming Isparian Staff') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19946,   1,   33556342) /* Setup */
-     , (19946,   3,  536870932) /* SoundTable */
-     , (19946,   6,   67111919) /* PaletteBase */
-     , (19946,   7,  268436384) /* ClothingBase */
-     , (19946,   8,  100672941) /* Icon */
-     , (19946,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19946,   1, 0x02000776) /* Setup */
+     , (19946,   3, 0x20000014) /* SoundTable */
+     , (19946,   6, 0x04000BEF) /* PaletteBase */
+     , (19946,   7, 0x100003A0) /* ClothingBase */
+     , (19946,   8, 0x060025AD) /* Icon */
+     , (19946,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19946,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19946,  1092,      2)  /* Fire Protection Self IV */
-     , (19946,  1329,      2)  /* Strength Self III */
+VALUES (19946,  2682,      2)  /* Feeble Light Weapon Aptitude */
      , (19946,  1590,      2)  /* Aura of Heart Seeker Self IV */
      , (19946,  1614,      2)  /* Aura of Blood Drinker Self IV */
-     , (19946,  2682,      2)  /* Feeble Light Weapon Aptitude */;
+     , (19946,  1092,      2)  /* Fire Protection Self IV */
+     , (19946,  1329,      2)  /* Strength Self III */;

@@ -17,7 +17,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (252,   1, 'Stone Portal Frame') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (252,   1,   33554511) /* Setup */
-     , (252,   3,  536870932) /* SoundTable */
-     , (252,   8,  100667499) /* Icon */
-     , (252,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (252,   1, 0x0200004F) /* Setup */
+     , (252,   3, 0x20000014) /* SoundTable */
+     , (252,   8, 0x0600106B) /* Icon */
+     , (252,  22, 0x3400002B) /* PhysicsEffectTable */;

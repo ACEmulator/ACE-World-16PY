@@ -25,7 +25,7 @@ VALUES (3421,   1, 'Scroll of Magic Item Tinkering Ignorance V') /* Name */
      , (3421,  16, 'When learned, this spell decreases the target''s Magic Item Tinkering skill by 50%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3421,   1,   33554826) /* Setup */
-     , (3421,   8,  100676477) /* Icon */
-     , (3421,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3421,   1, 0x0200018A) /* Setup */
+     , (3421,   8, 0x0600337D) /* Icon */
+     , (3421,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3421,  28,        772) /* Spell - Magic Item Tinkering Ignorance Other V */;

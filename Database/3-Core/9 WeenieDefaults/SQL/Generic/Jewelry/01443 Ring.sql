@@ -23,10 +23,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1443,   1, 'Ring') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1443,   1,   33554691) /* Setup */
-     , (1443,   3,  536870932) /* SoundTable */
-     , (1443,   6,   67111919) /* PaletteBase */
-     , (1443,   7,  268435753) /* ClothingBase */
-     , (1443,   8,  100667317) /* Icon */
-     , (1443,  22,  872415275) /* PhysicsEffectTable */
-     , (1443,  36,  234881046) /* MutateFilter */;
+VALUES (1443,   1, 0x02000103) /* Setup */
+     , (1443,   3, 0x20000014) /* SoundTable */
+     , (1443,   6, 0x04000BEF) /* PaletteBase */
+     , (1443,   7, 0x10000129) /* ClothingBase */
+     , (1443,   8, 0x06000FB5) /* Icon */
+     , (1443,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (1443,  36, 0x0E000016) /* MutateFilter */;

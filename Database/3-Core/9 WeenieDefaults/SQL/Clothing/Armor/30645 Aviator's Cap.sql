@@ -34,7 +34,7 @@ VALUES (30645,  22, True ) /* Inscribable */
      , (30645, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30645,   5, -0.03333) /* ManaRate */
+VALUES (30645,   5,  -0.033) /* ManaRate */
      , (30645,  12,    0.66) /* Shade */
      , (30645,  13,       1) /* ArmorModVsSlash */
      , (30645,  14,     0.8) /* ArmorModVsPierce */
@@ -50,16 +50,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30645,   1, 'Aviator''s Cap') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30645,   1,   33559211) /* Setup */
-     , (30645,   3,  536870932) /* SoundTable */
-     , (30645,   6,   67108990) /* PaletteBase */
-     , (30645,   7,  268436894) /* ClothingBase */
-     , (30645,   8,  100677392) /* Icon */
-     , (30645,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30645,   1, 0x020012AB) /* Setup */
+     , (30645,   3, 0x20000014) /* SoundTable */
+     , (30645,   6, 0x0400007E) /* PaletteBase */
+     , (30645,   7, 0x1000059E) /* ClothingBase */
+     , (30645,   8, 0x06003710) /* Icon */
+     , (30645,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30645,   217,      2)  /* Mana Renewal Self VI */
-     , (30645,  1023,      2)  /* Bludgeoning Protection Self VI */
-     , (30645,  1035,      2)  /* Cold Protection Self VI */
+VALUES (30645,  1035,      2)  /* Cold Protection Self VI */
+     , (30645,  2067,      2)  /* Inner Calm */
      , (30645,  1069,      2)  /* Lightning Protection Self IV */
-     , (30645,  2067,      2)  /* Inner Calm */;
+     , (30645,   217,      2)  /* Mana Renewal Self VI */
+     , (30645,  1023,      2)  /* Bludgeoning Protection Self VI */;

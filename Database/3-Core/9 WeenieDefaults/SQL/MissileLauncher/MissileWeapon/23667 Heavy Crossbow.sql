@@ -18,7 +18,7 @@ VALUES (23667,   1,        256) /* ItemType - MissileWeapon */
      , (23667,  48,          3) /* WeaponSkill - Crossbow */
      , (23667,  49,         20) /* WeaponTime */
      , (23667,  50,          2) /* AmmoType - Bolt */
-     , (23667,  51,          2) /* CombatUse - Missle */
+     , (23667,  51,          2) /* CombatUse - Missile */
      , (23667,  52,          2) /* ParentLocation - LeftHand */
      , (23667,  53,          3) /* PlacementPosition - LeftHand */
      , (23667,  60,        192) /* WeaponRange */
@@ -33,7 +33,7 @@ VALUES (23667,  22, True ) /* Inscribable */
      , (23667,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23667,   5,       0) /* ManaRate */
+VALUES (23667,   5,      -0) /* ManaRate */
      , (23667,  26,    27.3) /* MaximumVelocity */
      , (23667,  29,       1) /* WeaponDefense */
      , (23667,  39,    1.25) /* DefaultScale */
@@ -44,12 +44,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23667,   1, 'Heavy Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23667,   1,   33554732) /* Setup */
-     , (23667,   3,  536870932) /* SoundTable */
-     , (23667,   6,   67111919) /* PaletteBase */
-     , (23667,   7,  268435762) /* ClothingBase */
-     , (23667,   8,  100668835) /* Icon */
-     , (23667,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23667,   1, 0x0200012C) /* Setup */
+     , (23667,   3, 0x20000014) /* SoundTable */
+     , (23667,   6, 0x04000BEF) /* PaletteBase */
+     , (23667,   7, 0x10000132) /* ClothingBase */
+     , (23667,   8, 0x060015A3) /* Icon */
+     , (23667,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23667,  1614,      2)  /* Aura of Blood Drinker Self IV */

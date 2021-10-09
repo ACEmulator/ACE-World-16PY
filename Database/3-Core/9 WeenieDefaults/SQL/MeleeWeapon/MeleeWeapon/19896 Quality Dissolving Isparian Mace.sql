@@ -49,16 +49,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19896,   1, 'Quality Dissolving Isparian Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19896,   1,   33556325) /* Setup */
-     , (19896,   3,  536870932) /* SoundTable */
-     , (19896,   6,   67111919) /* PaletteBase */
-     , (19896,   7,  268436382) /* ClothingBase */
-     , (19896,   8,  100672920) /* Icon */
-     , (19896,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19896,   1, 0x02000765) /* Setup */
+     , (19896,   3, 0x20000014) /* SoundTable */
+     , (19896,   6, 0x04000BEF) /* PaletteBase */
+     , (19896,   7, 0x1000039E) /* ClothingBase */
+     , (19896,   8, 0x06002598) /* Icon */
+     , (19896,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19896,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19896,   518,      2)  /* Acid Protection Self IV */
-     , (19896,  1351,      2)  /* Endurance Self III */
+VALUES (19896,  1351,      2)  /* Endurance Self III */
+     , (19896,   518,      2)  /* Acid Protection Self IV */
      , (19896,  1589,      2)  /* Aura of Heart Seeker Self III */
      , (19896,  1613,      2)  /* Aura of Blood Drinker Self III */;

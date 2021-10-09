@@ -22,7 +22,7 @@ VALUES (680,   1, 'Scildith''s Bows') /* Name */
      , (680,  16, 'Scildith''s Bows') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (680,   1,   33555088) /* Setup */
-     , (680,   6,   67111092) /* PaletteBase */
-     , (680,   7,  268435654) /* ClothingBase */
-     , (680,   8,  100668115) /* Icon */;
+VALUES (680,   1, 0x02000290) /* Setup */
+     , (680,   6, 0x040008B4) /* PaletteBase */
+     , (680,   7, 0x100000C6) /* ClothingBase */
+     , (680,   8, 0x060012D3) /* Icon */;

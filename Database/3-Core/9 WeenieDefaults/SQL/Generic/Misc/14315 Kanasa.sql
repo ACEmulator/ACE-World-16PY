@@ -22,5 +22,5 @@ VALUES (14315,   1, 'Kanasa') /* Name */
      , (14315,  16, 'Welcome to Kanasa') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14315,   1,   33557463) /* Setup */
-     , (14315,   8,  100668115) /* Icon */;
+VALUES (14315,   1, 0x02000BD7) /* Setup */
+     , (14315,   8, 0x060012D3) /* Icon */;

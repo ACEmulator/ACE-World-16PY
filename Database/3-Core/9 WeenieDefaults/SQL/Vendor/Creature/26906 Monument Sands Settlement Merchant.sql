@@ -68,11 +68,11 @@ VALUES (26906,   1, 'Monument Sands Settlement Merchant') /* Name */
      , (26906,   5, 'Merchant') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26906,   1,   33554433) /* Setup */
-     , (26906,   2,  150994945) /* MotionTable */
-     , (26906,   3,  536870913) /* SoundTable */
-     , (26906,   4,  805306368) /* CombatTable */
-     , (26906,   8,  100667446) /* Icon */;
+VALUES (26906,   1, 0x02000001) /* Setup */
+     , (26906,   2, 0x09000001) /* MotionTable */
+     , (26906,   3, 0x20000001) /* SoundTable */
+     , (26906,   4, 0x30000000) /* CombatTable */
+     , (26906,   8, 0x06001036) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (26906,   1,  90, 0, 0) /* Strength */

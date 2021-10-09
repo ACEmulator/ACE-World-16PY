@@ -27,10 +27,10 @@ VALUES (29805,   1, 'Title Token ''Keerik Killer''') /* Name */
      , (29805,  15, 'You may turn this token in to Guard Sorchia in Cragstone to change your title to ''Keerik Killer''.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29805,   1,   33557280) /* Setup */
-     , (29805,   3,  536870932) /* SoundTable */
-     , (29805,   6,   67111092) /* PaletteBase */
-     , (29805,   7,  268436298) /* ClothingBase */
-     , (29805,   8,  100677159) /* Icon */
-     , (29805,  22,  872415275) /* PhysicsEffectTable */
-     , (29805,  36,  234881046) /* MutateFilter */;
+VALUES (29805,   1, 0x02000B20) /* Setup */
+     , (29805,   3, 0x20000014) /* SoundTable */
+     , (29805,   6, 0x040008B4) /* PaletteBase */
+     , (29805,   7, 0x1000034A) /* ClothingBase */
+     , (29805,   8, 0x06003627) /* Icon */
+     , (29805,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29805,  36, 0x0E000016) /* MutateFilter */;

@@ -29,9 +29,9 @@ VALUES (14508,   1, 'Hammer of Acid') /* Name */
      , (14508,  33, 'KeyHammerEmpyreanAcidPickup') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14508,   1,   33557488) /* Setup */
-     , (14508,   3,  536870932) /* SoundTable */
-     , (14508,   6,   67111919) /* PaletteBase */
-     , (14508,   7,  268436325) /* ClothingBase */
-     , (14508,   8,  100672498) /* Icon */
-     , (14508,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14508,   1, 0x02000BF0) /* Setup */
+     , (14508,   3, 0x20000014) /* SoundTable */
+     , (14508,   6, 0x04000BEF) /* PaletteBase */
+     , (14508,   7, 0x10000365) /* ClothingBase */
+     , (14508,   8, 0x060023F2) /* Icon */
+     , (14508,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -32,9 +32,9 @@ VALUES (9340,   1, 'Concentrated Acid Infusion') /* Name */
      , (9340,  20, 'Concentrated Acid Infusions') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9340,   1,   33555965) /* Setup */
-     , (9340,   3,  536870932) /* SoundTable */
-     , (9340,   6,   67111919) /* PaletteBase */
-     , (9340,   7,  268435814) /* ClothingBase */
-     , (9340,   8,  100671573) /* Icon */
-     , (9340,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9340,   1, 0x020005FD) /* Setup */
+     , (9340,   3, 0x20000014) /* SoundTable */
+     , (9340,   6, 0x04000BEF) /* PaletteBase */
+     , (9340,   7, 0x10000166) /* ClothingBase */
+     , (9340,   8, 0x06002055) /* Icon */
+     , (9340,  22, 0x3400002B) /* PhysicsEffectTable */;

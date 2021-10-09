@@ -29,9 +29,9 @@ VALUES (8244,   1, 'Hearty Pumpkin Pie') /* Name */
      , (8244,  15, 'A lightly baked, browned pumpkin pie, thick, savory, sweet.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8244,   1,   33555978) /* Setup */
-     , (8244,   3,  536870932) /* SoundTable */
-     , (8244,   6,   67111919) /* PaletteBase */
-     , (8244,   7,  268436048) /* ClothingBase */
-     , (8244,   8,  100671010) /* Icon */
-     , (8244,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8244,   1, 0x0200060A) /* Setup */
+     , (8244,   3, 0x20000014) /* SoundTable */
+     , (8244,   6, 0x04000BEF) /* PaletteBase */
+     , (8244,   7, 0x10000250) /* ClothingBase */
+     , (8244,   8, 0x06001E22) /* Icon */
+     , (8244,  22, 0x3400002B) /* PhysicsEffectTable */;

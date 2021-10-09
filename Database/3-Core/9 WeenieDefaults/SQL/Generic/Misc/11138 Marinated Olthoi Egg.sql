@@ -23,7 +23,7 @@ VALUES (11138,   1, 'Marinated Olthoi Egg') /* Name */
      , (11138,  16, 'An Olthoi Egg marinated in Hot Sauce.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11138,   1,   33557217) /* Setup */
-     , (11138,   3,  536870932) /* SoundTable */
-     , (11138,   8,  100672036) /* Icon */
-     , (11138,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11138,   1, 0x02000AE1) /* Setup */
+     , (11138,   3, 0x20000014) /* SoundTable */
+     , (11138,   8, 0x06002224) /* Icon */
+     , (11138,  22, 0x3400002B) /* PhysicsEffectTable */;

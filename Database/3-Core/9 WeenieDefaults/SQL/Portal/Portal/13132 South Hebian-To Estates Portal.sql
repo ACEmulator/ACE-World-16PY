@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13132,   1, 'South Hebian-To Estates Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13132,   1,   33554867) /* Setup */
-     , (13132,   2,  150994947) /* MotionTable */
-     , (13132,   8,  100667499) /* Icon */;
+VALUES (13132,   1, 0x020001B3) /* Setup */
+     , (13132,   2, 0x09000003) /* MotionTable */
+     , (13132,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (13132, 2, 3880124438, 53.407, 132.212, 42.942, 0.3807073, 0, 0, -0.9246956) /* Destination */
-/* @teleloc 0xE7460016 [53.407000 132.212000 42.942000] 0.380707 0.000000 0.000000 -0.924696 */;
+VALUES (13132, 2, 0xE7460016, 53.407, 132.212, 42.942, 0.380707, 0, 0, -0.924696) /* Destination */
+/* @teleloc 0xE7460016 [53.407001 132.212006 42.942001] 0.380707 0.000000 0.000000 -0.924696 */;

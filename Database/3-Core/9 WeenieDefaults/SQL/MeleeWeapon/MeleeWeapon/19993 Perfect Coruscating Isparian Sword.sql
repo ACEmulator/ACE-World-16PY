@@ -51,17 +51,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19993,   1, 'Perfect Coruscating Isparian Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19993,   1,   33556376) /* Setup */
-     , (19993,   3,  536870932) /* SoundTable */
-     , (19993,   6,   67111919) /* PaletteBase */
-     , (19993,   7,  268436385) /* ClothingBase */
-     , (19993,   8,  100672947) /* Icon */
-     , (19993,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19993,   1, 0x02000798) /* Setup */
+     , (19993,   3, 0x20000014) /* SoundTable */
+     , (19993,   6, 0x04000BEF) /* PaletteBase */
+     , (19993,   7, 0x100003A1) /* ClothingBase */
+     , (19993,   8, 0x060025B3) /* Icon */
+     , (19993,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19993,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19993,  1071,      2)  /* Lightning Protection Self VI */
+VALUES (19993,  2694,      2)  /* Moderate Heavy Weapon Aptitude */
      , (19993,  1401,      2)  /* Quickness Self V */
      , (19993,  1592,      2)  /* Aura of Heart Seeker Self VI */
      , (19993,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (19993,  2694,      2)  /* Moderate Heavy Weapon Aptitude */;
+     , (19993,  1071,      2)  /* Lightning Protection Self VI */;

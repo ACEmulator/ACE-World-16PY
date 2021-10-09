@@ -22,5 +22,5 @@ VALUES (14689,   1, 'Desert Vanguard Cottages') /* Name */
      , (14689,  16, 'Welcome to Desert Vanguard Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14689,   1,   33557463) /* Setup */
-     , (14689,   8,  100668115) /* Icon */;
+VALUES (14689,   1, 0x02000BD7) /* Setup */
+     , (14689,   8, 0x060012D3) /* Icon */;

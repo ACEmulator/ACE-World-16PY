@@ -19,7 +19,7 @@ VALUES (31087,   1,        256) /* ItemType - MissileWeapon */
      , (31087,  48,          2) /* WeaponSkill - Bow */
      , (31087,  49,         45) /* WeaponTime */
      , (31087,  50,          1) /* AmmoType - Arrow */
-     , (31087,  51,          2) /* CombatUse - Missle */
+     , (31087,  51,          2) /* CombatUse - Missile */
      , (31087,  52,          2) /* ParentLocation - LeftHand */
      , (31087,  53,          3) /* PlacementPosition - LeftHand */
      , (31087,  60,        192) /* WeaponRange */
@@ -39,7 +39,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31087,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31087,   5,       0) /* ManaRate */
+VALUES (31087,   5,      -0) /* ManaRate */
      , (31087,  26,    27.3) /* MaximumVelocity */
      , (31087,  29,    1.12) /* WeaponDefense */
      , (31087,  39,     1.1) /* DefaultScale */
@@ -50,14 +50,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31087,   1, 'Piercing Longbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31087,   1,   33559027) /* Setup */
-     , (31087,   3,  536870932) /* SoundTable */
-     , (31087,   6,   67115373) /* PaletteBase */
-     , (31087,   7,  268436873) /* ClothingBase */
-     , (31087,   8,  100668815) /* Icon */
-     , (31087,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31087,   1, 0x020011F3) /* Setup */
+     , (31087,   3, 0x20000014) /* SoundTable */
+     , (31087,   6, 0x0400196D) /* PaletteBase */
+     , (31087,   7, 0x10000589) /* ClothingBase */
+     , (31087,   8, 0x0600158F) /* Icon */
+     , (31087,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31087,  2096,      2)  /* Aura of Infected Caress */
-     , (31087,  2101,      2)  /* Aura of Cragstone's Will */
-     , (31087,  2116,      2)  /* Aura of Atlan's Alacrity */;
+VALUES (31087,  2116,      2)  /* Aura of Atlan's Alacrity */
+     , (31087,  2096,      2)  /* Aura of Infected Caress */
+     , (31087,  2101,      2)  /* Aura of Cragstone's Will */;

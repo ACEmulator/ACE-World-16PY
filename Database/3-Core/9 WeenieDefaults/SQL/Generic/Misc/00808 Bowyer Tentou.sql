@@ -22,7 +22,7 @@ VALUES (808,   1, 'Bowyer Tentou') /* Name */
      , (808,  16, 'Bowyer Tentou') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (808,   1,   33555088) /* Setup */
-     , (808,   6,   67111092) /* PaletteBase */
-     , (808,   7,  268435654) /* ClothingBase */
-     , (808,   8,  100668115) /* Icon */;
+VALUES (808,   1, 0x02000290) /* Setup */
+     , (808,   6, 0x040008B4) /* PaletteBase */
+     , (808,   7, 0x100000C6) /* ClothingBase */
+     , (808,   8, 0x060012D3) /* Icon */;

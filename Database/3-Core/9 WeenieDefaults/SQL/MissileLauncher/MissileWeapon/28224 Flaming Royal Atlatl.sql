@@ -18,7 +18,7 @@ VALUES (28224,   1,        256) /* ItemType - MissileWeapon */
      , (28224,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (28224,  49,         25) /* WeaponTime */
      , (28224,  50,          4) /* AmmoType - Atlatl */
-     , (28224,  51,          2) /* CombatUse - Missle */
+     , (28224,  51,          2) /* CombatUse - Missile */
      , (28224,  60,        120) /* WeaponRange */
      , (28224,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28224, 150,        103) /* HookPlacement - Hook */
@@ -40,11 +40,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28224,   1, 'Flaming Royal Atlatl') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28224,   1,   33557857) /* Setup */
-     , (28224,   3,  536870932) /* SoundTable */
-     , (28224,   6,   67111919) /* PaletteBase */
-     , (28224,   7,  268436432) /* ClothingBase */
-     , (28224,   8,  100673250) /* Icon */
-     , (28224,  22,  872415275) /* PhysicsEffectTable */
-     , (28224,  36,  234881053) /* MutateFilter */
-     , (28224,  46,  939524106) /* TsysMutationFilter */;
+VALUES (28224,   1, 0x02000D61) /* Setup */
+     , (28224,   3, 0x20000014) /* SoundTable */
+     , (28224,   6, 0x04000BEF) /* PaletteBase */
+     , (28224,   7, 0x100003D0) /* ClothingBase */
+     , (28224,   8, 0x060026E2) /* Icon */
+     , (28224,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (28224,  36, 0x0E00001D) /* MutateFilter */
+     , (28224,  46, 0x3800000A) /* TsysMutationFilter */;

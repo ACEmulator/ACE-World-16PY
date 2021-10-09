@@ -25,7 +25,7 @@ VALUES (9610,   1, 'Scroll of Mana Ineptitude Other III') /* Name */
      , (9610,  16, 'When learned, this spell decreases the target''s Mana Conversion skill by 33%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9610,   1,   33554826) /* Setup */
-     , (9610,   8,  100676466) /* Icon */
-     , (9610,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9610,   1, 0x0200018A) /* Setup */
+     , (9610,   8, 0x06003372) /* Icon */
+     , (9610,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9610,  28,        674) /* Spell - Mana Conversion Ineptitude Other III */;

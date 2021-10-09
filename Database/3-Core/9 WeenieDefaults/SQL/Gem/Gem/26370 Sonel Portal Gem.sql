@@ -36,11 +36,11 @@ VALUES (26370,   1, 'Sonel Portal Gem') /* Name */
      , (26370,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26370,   1,   33556769) /* Setup */
-     , (26370,   3,  536870932) /* SoundTable */
-     , (26370,   6,   67111919) /* PaletteBase */
-     , (26370,   7,  268435723) /* ClothingBase */
-     , (26370,   8,  100675760) /* Icon */
-     , (26370,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26370,   1, 0x02000921) /* Setup */
+     , (26370,   3, 0x20000014) /* SoundTable */
+     , (26370,   6, 0x04000BEF) /* PaletteBase */
+     , (26370,   7, 0x1000010B) /* ClothingBase */
+     , (26370,   8, 0x060030B0) /* Icon */
+     , (26370,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26370,  28,        157) /* Spell - Summon Primary Portal I */
      , (26370,  31,      12547) /* LinkedPortalOne - Sonel Portal */;

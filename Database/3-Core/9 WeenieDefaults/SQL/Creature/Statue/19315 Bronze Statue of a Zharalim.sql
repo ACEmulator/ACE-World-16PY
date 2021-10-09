@@ -65,21 +65,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19315,   1, 'Bronze Statue of a Zharalim') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19315,   1,   33554433) /* Setup */
-     , (19315,   2,  150995187) /* MotionTable */
-     , (19315,   3,  536871052) /* SoundTable */
-     , (19315,   4,  805306368) /* CombatTable */
-     , (19315,   6,   67108990) /* PaletteBase */
-     , (19315,   7,  268436405) /* ClothingBase */
-     , (19315,   8,  100667446) /* Icon */
-     , (19315,  22,  872415349) /* PhysicsEffectTable */
+VALUES (19315,   1, 0x02000001) /* Setup */
+     , (19315,   2, 0x090000F3) /* MotionTable */
+     , (19315,   3, 0x2000008C) /* SoundTable */
+     , (19315,   4, 0x30000000) /* CombatTable */
+     , (19315,   6, 0x0400007E) /* PaletteBase */
+     , (19315,   7, 0x100003B5) /* ClothingBase */
+     , (19315,   8, 0x06001036) /* Icon */
+     , (19315,  22, 0x34000075) /* PhysicsEffectTable */
      , (19315,  32,        404) /* WieldedTreasureType - 
                                    Wield Bronze Longbow (15873) | Probability: 40%
                                    Wield 20x Greater Fire Arrow (5305) | Probability: 25%
                                    Wield 20x Greater Arrow (5304) | Probability: 25%
                                    Wield 20x Greater Frost Arrow (5307) | Probability: 25%
                                    Wield 20x Greater Armor Piercing Arrow (5309) | Probability: 25%
-                                   Wield Bronze Atlatl (15870) | Probability: 60%
+                                   Wield Bronze Atlatl (15870) | Probability: 60.000004%
                                    Wield 20x Armor Piercing Atlatl Dart (15280) | Probability: 16%
                                    Wield 20x Greater Fire Atlatl Dart (15293) | Probability: 16%
                                    Wield 20x Greater Atlatl Dart (15287) | Probability: 17%
@@ -104,16 +104,16 @@ VALUES (19315,   1,   180, 0, 0, 255) /* MaxHealth */
      , (19315,   5,   100, 0, 0, 250) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (19315,  2, 0, 3, 0, 155, 0, 1115.64054133707) /* Bow                 Specialized */
-     , (19315,  4, 0, 3, 0, 142, 0, 1115.64054133707) /* Dagger              Specialized */
-     , (19315,  6, 0, 3, 0, 152, 0, 1115.64054133707) /* MeleeDefense        Specialized */
-     , (19315,  7, 0, 3, 0, 269, 0, 1115.64054133707) /* MissileDefense      Specialized */
-     , (19315, 11, 0, 3, 0, 140, 0, 1115.64054133707) /* Sword               Specialized */
-     , (19315, 15, 0, 3, 0, 140, 0, 1115.64054133707) /* MagicDefense        Specialized */
-     , (19315, 24, 0, 3, 0, 100, 0, 1115.64054133707) /* Run                 Specialized */
-     , (19315, 31, 0, 3, 0, 112, 0, 1115.64054133707) /* CreatureEnchantment Specialized */
-     , (19315, 33, 0, 3, 0, 112, 0, 1115.64054133707) /* LifeMagic           Specialized */
-     , (19315, 34, 0, 3, 0, 112, 0, 1115.64054133707) /* WarMagic            Specialized */;
+VALUES (19315,  2, 0, 3, 0, 155, 0, 1115.6405413370674) /* Bow                 Specialized */
+     , (19315,  4, 0, 3, 0, 142, 0, 1115.6405413370674) /* Dagger              Specialized */
+     , (19315,  6, 0, 3, 0, 152, 0, 1115.6405413370674) /* MeleeDefense        Specialized */
+     , (19315,  7, 0, 3, 0, 269, 0, 1115.6405413370674) /* MissileDefense      Specialized */
+     , (19315, 11, 0, 3, 0, 140, 0, 1115.6405413370674) /* Sword               Specialized */
+     , (19315, 15, 0, 3, 0, 140, 0, 1115.6405413370674) /* MagicDefense        Specialized */
+     , (19315, 24, 0, 3, 0, 100, 0, 1115.6405413370674) /* Run                 Specialized */
+     , (19315, 31, 0, 3, 0, 112, 0, 1115.6405413370674) /* CreatureEnchantment Specialized */
+     , (19315, 33, 0, 3, 0, 112, 0, 1115.6405413370674) /* LifeMagic           Specialized */
+     , (19315, 34, 0, 3, 0, 112, 0, 1115.6405413370674) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (19315,  0,  4,  0,    0,  140,  168,  168,  182,  168,  168,  112,  140,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -134,12 +134,12 @@ VALUES (19315,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (19315, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (19315,  5 /* HeartBeat */,    0.8, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (19315,  5 /* HeartBeat */,    0.8, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1124073756 /* MeditateState */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x4300011C /* MeditateState */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (19315, 9, 19214,  0, 0, 0.05, False) /* Create Bronze Coil from a Statue (19214) for ContainTreasure */

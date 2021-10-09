@@ -29,7 +29,7 @@ VALUES (14778,   1, 'Cookie Cutter') /* Name */
      , (14778,  15, 'A lugian shaped cookie cutter.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14778,   1,   33557497) /* Setup */
-     , (14778,   3,  536870932) /* SoundTable */
-     , (14778,   8,  100672492) /* Icon */
-     , (14778,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14778,   1, 0x02000BF9) /* Setup */
+     , (14778,   3, 0x20000014) /* SoundTable */
+     , (14778,   8, 0x060023EC) /* Icon */
+     , (14778,  22, 0x3400002B) /* PhysicsEffectTable */;

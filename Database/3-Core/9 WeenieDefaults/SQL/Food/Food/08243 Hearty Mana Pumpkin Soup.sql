@@ -30,9 +30,9 @@ VALUES (8243,   1, 'Hearty Mana Pumpkin Soup') /* Name */
      , (8243,  20, 'Bowls of Hearty Mana Pumpkin Soup') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8243,   1,   33554668) /* Setup */
-     , (8243,   3,  536870932) /* SoundTable */
-     , (8243,   6,   67111928) /* PaletteBase */
-     , (8243,   7,  268436049) /* ClothingBase */
-     , (8243,   8,  100671016) /* Icon */
-     , (8243,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8243,   1, 0x020000EC) /* Setup */
+     , (8243,   3, 0x20000014) /* SoundTable */
+     , (8243,   6, 0x04000BF8) /* PaletteBase */
+     , (8243,   7, 0x10000251) /* ClothingBase */
+     , (8243,   8, 0x06001E28) /* Icon */
+     , (8243,  22, 0x3400002B) /* PhysicsEffectTable */;

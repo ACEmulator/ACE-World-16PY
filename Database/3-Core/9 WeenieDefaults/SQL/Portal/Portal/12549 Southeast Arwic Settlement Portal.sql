@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12549,   1, 'Southeast Arwic Settlement Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12549,   1,   33554867) /* Setup */
-     , (12549,   2,  150994947) /* MotionTable */
-     , (12549,   8,  100667499) /* Icon */;
+VALUES (12549,   1, 0x020001B3) /* Setup */
+     , (12549,   2, 0x09000003) /* MotionTable */
+     , (12549,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12549, 2, 3399680003, 18.707, 69.567, 38.005, 0.9410403, 0, 0, -0.3382944) /* Destination */
-/* @teleloc 0xCAA30003 [18.707000 69.567000 38.005000] 0.941040 0.000000 0.000000 -0.338294 */;
+VALUES (12549, 2, 0xCAA30003, 18.707, 69.567, 38.005, 0.94104, 0, 0, -0.338294) /* Destination */
+/* @teleloc 0xCAA30003 [18.707001 69.567001 38.005001] 0.941040 0.000000 0.000000 -0.338294 */;

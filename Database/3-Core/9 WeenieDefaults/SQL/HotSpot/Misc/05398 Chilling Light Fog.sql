@@ -36,5 +36,5 @@ VALUES (5398,   1, 'Chilling Light Fog') /* Name */
      , (5398,  17, 'You suffer %i damage from the frigid air!') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5398,   1,   33555455) /* Setup */
-     , (5398,   8,  100667465) /* Icon */;
+VALUES (5398,   1, 0x020003FF) /* Setup */
+     , (5398,   8, 0x06001049) /* Icon */;

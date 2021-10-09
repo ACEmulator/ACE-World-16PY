@@ -66,19 +66,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24857,   1, 'Harbinger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24857,   1,   33557927) /* Setup */
-     , (24857,   2,  150995217) /* MotionTable */
-     , (24857,   3,  536871059) /* SoundTable */
-     , (24857,   4,  805306368) /* CombatTable */
-     , (24857,   6,   67114004) /* PaletteBase */
-     , (24857,   7,  268436461) /* ClothingBase */
-     , (24857,   8,  100673483) /* Icon */
-     , (24857,  22,  872415331) /* PhysicsEffectTable */
+VALUES (24857,   1, 0x02000DA7) /* Setup */
+     , (24857,   2, 0x09000111) /* MotionTable */
+     , (24857,   3, 0x20000093) /* SoundTable */
+     , (24857,   4, 0x30000000) /* CombatTable */
+     , (24857,   6, 0x04001414) /* PaletteBase */
+     , (24857,   7, 0x100003ED) /* ClothingBase */
+     , (24857,   8, 0x060027CB) /* Icon */
+     , (24857,  22, 0x34000063) /* PhysicsEffectTable */
      , (24857,  31,      24863) /* LinkedPortalOne - Surface */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24857, 12, 1682374918, 112.454, -62.6237, -197.995, 1, 0, 0, 0) /* PortalSummonLoc */
-/* @teleloc 0x64470106 [112.454000 -62.623700 -197.995000] 1.000000 0.000000 0.000000 0.000000 */;
+VALUES (24857, 12, 0x64470106, 112.454, -62.6237, -197.995, 1, 0, 0, -0) /* PortalSummonLoc */
+/* @teleloc 0x64470106 [112.454002 -62.623699 -197.994995] 1.000000 0.000000 0.000000 -0.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24857,   1, 400, 0, 0) /* Strength */
@@ -94,16 +94,16 @@ VALUES (24857,   1, 99960, 0, 0, 100160) /* MaxHealth */
      , (24857,   5, 49600, 0, 0, 50000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (24857,  6, 0, 3, 0, 285, 0, 1598.38205142116) /* MeleeDefense        Specialized */
-     , (24857,  7, 0, 3, 0, 430, 0, 1598.38205142116) /* MissileDefense      Specialized */
-     , (24857, 13, 0, 3, 0, 330, 0, 1598.38205142116) /* UnarmedCombat       Specialized */
-     , (24857, 15, 0, 3, 0, 300, 0, 1598.38205142116) /* MagicDefense        Specialized */
-     , (24857, 16, 0, 3, 0, 350, 0, 1598.38205142116) /* ManaConversion      Specialized */
-     , (24857, 22, 0, 3, 0, 200, 0, 1598.38205142116) /* Jump                Specialized */
-     , (24857, 24, 0, 3, 0, 200, 0, 1598.38205142116) /* Run                 Specialized */
-     , (24857, 31, 0, 3, 0, 450, 0, 1598.38205142116) /* CreatureEnchantment Specialized */
-     , (24857, 33, 0, 3, 0, 450, 0, 1598.38205142116) /* LifeMagic           Specialized */
-     , (24857, 34, 0, 3, 0, 450, 0, 1598.38205142116) /* WarMagic            Specialized */;
+VALUES (24857,  6, 0, 3, 0, 285, 0, 1598.3820514211563) /* MeleeDefense        Specialized */
+     , (24857,  7, 0, 3, 0, 430, 0, 1598.3820514211563) /* MissileDefense      Specialized */
+     , (24857, 13, 0, 3, 0, 330, 0, 1598.3820514211563) /* UnarmedCombat       Specialized */
+     , (24857, 15, 0, 3, 0, 300, 0, 1598.3820514211563) /* MagicDefense        Specialized */
+     , (24857, 16, 0, 3, 0, 350, 0, 1598.3820514211563) /* ManaConversion      Specialized */
+     , (24857, 22, 0, 3, 0, 200, 0, 1598.3820514211563) /* Jump                Specialized */
+     , (24857, 24, 0, 3, 0, 200, 0, 1598.3820514211563) /* Run                 Specialized */
+     , (24857, 31, 0, 3, 0, 450, 0, 1598.3820514211563) /* CreatureEnchantment Specialized */
+     , (24857, 33, 0, 3, 0, 450, 0, 1598.3820514211563) /* LifeMagic           Specialized */
+     , (24857, 34, 0, 3, 0, 450, 0, 1598.3820514211563) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (24857,  0,  4,  0,    0,  450,  450,  450,  450, 45000, 45000, 45000, 45000,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -117,34 +117,34 @@ VALUES (24857,  0,  4,  0,    0,  450,  450,  450,  450, 45000, 45000, 45000, 45
      , (24857,  8,  4, 190, 0.75,  450,  450,  450,  450, 45000, 45000, 45000, 45000,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24857,  1783,   2.02)  /* Searing Disc */
-     , (24857,  1785,   2.02)  /* Cassius' Ring of Fire */
-     , (24857,  1787,   2.02)  /* Halo of Frost */
-     , (24857,  1788,   2.02)  /* Eye of the Storm */
+VALUES (24857,  2700,   2.02)  /* Corrosive Cloud */
      , (24857,  2054,   2.02)  /* Synaptic Misfire */
      , (24857,  2056,   2.02)  /* Ataxia */
-     , (24857,  2064,   2.02)  /* Self Loathing */
-     , (24857,  2088,   2.02)  /* Senescence */
      , (24857,  2122,   2.02)  /* Disintegration */
-     , (24857,  2128,   2.02)  /* Ilservian's Flame */
-     , (24857,  2136,   2.02)  /* Icy Torment */
-     , (24857,  2140,   2.02)  /* Alset's Coil */
-     , (24857,  2162,   2.02)  /* Olthoi's Gift */
-     , (24857,  2168,   2.02)  /* Gelidite's Gift */
-     , (24857,  2170,   2.02)  /* Inferno's Gift */
-     , (24857,  2172,   2.02)  /* Astyrrian's Gift */
-     , (24857,  2282,   2.02)  /* Futility */
      , (24857,  2318,   2.02)  /* Gravity Well */
      , (24857,  2699,   2.02)  /* Auroric Whip */
-     , (24857,  2700,   2.02)  /* Corrosive Cloud */
      , (24857,  2701,   2.02)  /* Elemental Fury */
      , (24857,  2702,   2.02)  /* Elemental Fury */
      , (24857,  2703,   2.02)  /* Elemental Fury */
      , (24857,  2704,   2.02)  /* Elemental Fury */
+     , (24857,  2128,   2.02)  /* Ilservian's Flame */
+     , (24857,  2064,   2.02)  /* Self Loathing */
      , (24857,  2708,   2.02)  /* Stasis Field */
      , (24857,  2710,   2.02)  /* Volcanic Blast */
+     , (24857,  2136,   2.02)  /* Icy Torment */
+     , (24857,  2790,   2.02)  /* Weight of the World */
+     , (24857,  2140,   2.02)  /* Alset's Coil */
      , (24857,  2788,   2.01)  /* Essence Blight */
-     , (24857,  2790,   2.02)  /* Weight of the World */;
+     , (24857,  2088,   2.02)  /* Senescence */
+     , (24857,  2282,   2.02)  /* Futility */
+     , (24857,  2162,   2.02)  /* Olthoi's Gift */
+     , (24857,  1783,   2.02)  /* Searing Disc */
+     , (24857,  2168,   2.02)  /* Gelidite's Gift */
+     , (24857,  1785,   2.02)  /* Cassius' Ring of Fire */
+     , (24857,  2170,   2.02)  /* Inferno's Gift */
+     , (24857,  1787,   2.02)  /* Halo of Frost */
+     , (24857,  1788,   2.02)  /* Eye of the Storm */
+     , (24857,  2172,   2.02)  /* Astyrrian's Gift */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (24857,  94) /* ATTACK_NOTIFICATION_EVENT */

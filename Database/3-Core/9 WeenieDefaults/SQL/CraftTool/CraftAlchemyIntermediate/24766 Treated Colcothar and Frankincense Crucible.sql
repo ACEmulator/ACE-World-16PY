@@ -32,8 +32,8 @@ VALUES (24766,   1, 'Treated Colcothar and Frankincense Crucible') /* Name */
      , (24766,  20, 'Treated Colcothar and Frankincense Crucibles') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24766,   1,   33555966) /* Setup */
-     , (24766,   3,  536870932) /* SoundTable */
-     , (24766,   8,  100674468) /* Icon */
-     , (24766,  22,  872415275) /* PhysicsEffectTable */
-     , (24766,  50,  100674415) /* IconOverlay */;
+VALUES (24766,   1, 0x020005FE) /* Setup */
+     , (24766,   3, 0x20000014) /* SoundTable */
+     , (24766,   8, 0x06002BA4) /* Icon */
+     , (24766,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24766,  50, 0x06002B6F) /* IconOverlay */;

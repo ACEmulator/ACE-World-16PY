@@ -31,7 +31,7 @@ VALUES (5790,   1, 'Spiced Lump') /* Name */
      , (5790,  20, 'Spiced Lumps') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5790,   1,   33556232) /* Setup */
-     , (5790,   3,  536870932) /* SoundTable */
-     , (5790,   8,  100670290) /* Icon */
-     , (5790,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5790,   1, 0x02000708) /* Setup */
+     , (5790,   3, 0x20000014) /* SoundTable */
+     , (5790,   8, 0x06001B52) /* Icon */
+     , (5790,  22, 0x3400002B) /* PhysicsEffectTable */;

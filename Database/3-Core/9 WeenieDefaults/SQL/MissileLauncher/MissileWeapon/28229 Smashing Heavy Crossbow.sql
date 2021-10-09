@@ -18,7 +18,7 @@ VALUES (28229,   1,        256) /* ItemType - MissileWeapon */
      , (28229,  48,          3) /* WeaponSkill - Crossbow */
      , (28229,  49,        120) /* WeaponTime */
      , (28229,  50,          2) /* AmmoType - Bolt */
-     , (28229,  51,          2) /* CombatUse - Missle */
+     , (28229,  51,          2) /* CombatUse - Missile */
      , (28229,  52,          2) /* ParentLocation - LeftHand */
      , (28229,  53,          3) /* PlacementPosition - LeftHand */
      , (28229,  60,        192) /* WeaponRange */
@@ -42,11 +42,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28229,   1, 'Smashing Heavy Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28229,   1,   33554732) /* Setup */
-     , (28229,   3,  536870932) /* SoundTable */
-     , (28229,   6,   67111919) /* PaletteBase */
-     , (28229,   7,  268435762) /* ClothingBase */
-     , (28229,   8,  100668835) /* Icon */
-     , (28229,  22,  872415275) /* PhysicsEffectTable */
-     , (28229,  36,  234881053) /* MutateFilter */
-     , (28229,  46,  939524105) /* TsysMutationFilter */;
+VALUES (28229,   1, 0x0200012C) /* Setup */
+     , (28229,   3, 0x20000014) /* SoundTable */
+     , (28229,   6, 0x04000BEF) /* PaletteBase */
+     , (28229,   7, 0x10000132) /* ClothingBase */
+     , (28229,   8, 0x060015A3) /* Icon */
+     , (28229,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (28229,  36, 0x0E00001D) /* MutateFilter */
+     , (28229,  46, 0x38000009) /* TsysMutationFilter */;

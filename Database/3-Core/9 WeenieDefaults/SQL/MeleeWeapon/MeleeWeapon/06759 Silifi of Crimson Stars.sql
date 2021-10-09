@@ -47,15 +47,15 @@ VALUES (6759,   1, 'Silifi of Crimson Stars') /* Name */
      , (6759,  16, 'The Silifi of Crimson Stars, its blade repaired using the spine of a Shore Armoredillo. It is fitted with the rubies Al-Khur and Sulmada. There is a notch for one more.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6759,   1,   33556553) /* Setup */
-     , (6759,   3,  536870932) /* SoundTable */
-     , (6759,   6,   67111919) /* PaletteBase */
-     , (6759,   7,  268435986) /* ClothingBase */
-     , (6759,   8,  100670611) /* Icon */
-     , (6759,  22,  872415275) /* PhysicsEffectTable */
-     , (6759,  36,  234881044) /* MutateFilter */
+VALUES (6759,   1, 0x02000849) /* Setup */
+     , (6759,   3, 0x20000014) /* SoundTable */
+     , (6759,   6, 0x04000BEF) /* PaletteBase */
+     , (6759,   7, 0x10000212) /* ClothingBase */
+     , (6759,   8, 0x06001C93) /* Icon */
+     , (6759,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (6759,  36, 0x0E000014) /* MutateFilter */
      , (6759,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6759,  1384,      2)  /* Coordination Other VI */
-     , (6759,  1616,      2)  /* Aura of Blood Drinker Self VI */;
+VALUES (6759,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (6759,  1384,      2)  /* Coordination Other VI */;

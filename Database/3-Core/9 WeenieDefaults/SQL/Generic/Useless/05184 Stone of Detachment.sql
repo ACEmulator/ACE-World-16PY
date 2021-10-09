@@ -30,9 +30,9 @@ VALUES (5184,   1, 'Stone of Detachment') /* Name */
      , (5184,  33, 'ShoushiStoneDetachment') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5184,   1,   33556947) /* Setup */
-     , (5184,   3,  536870932) /* SoundTable */
-     , (5184,   6,   67111928) /* PaletteBase */
-     , (5184,   7,  268436041) /* ClothingBase */
-     , (5184,   8,  100671336) /* Icon */
-     , (5184,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5184,   1, 0x020009D3) /* Setup */
+     , (5184,   3, 0x20000014) /* SoundTable */
+     , (5184,   6, 0x04000BF8) /* PaletteBase */
+     , (5184,   7, 0x10000249) /* ClothingBase */
+     , (5184,   8, 0x06001F68) /* Icon */
+     , (5184,  22, 0x3400002B) /* PhysicsEffectTable */;

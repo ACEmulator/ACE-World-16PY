@@ -25,10 +25,10 @@ VALUES (8504,   1, 'Brief Letter') /* Name */
      , (8504,  16, 'The translation of a note carried by Asmolum the Worm near the Ithaenc Cathedral.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8504,   1,   33554773) /* Setup */
-     , (8504,   3,  536870932) /* SoundTable */
-     , (8504,   8,  100668176) /* Icon */
-     , (8504,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8504,   1, 0x02000155) /* Setup */
+     , (8504,   3, 0x20000014) /* SoundTable */
+     , (8504,   8, 0x06001310) /* Icon */
+     , (8504,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (8504, 2, 1000);

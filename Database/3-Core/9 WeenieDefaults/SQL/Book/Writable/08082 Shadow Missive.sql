@@ -25,10 +25,10 @@ VALUES (8082,   1, 'Shadow Missive') /* Name */
      , (8082,  16, 'A translated missive, taken from the hands of a Shadow at the Caulnalain Facility.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8082,   1,   33554773) /* Setup */
-     , (8082,   3,  536870932) /* SoundTable */
-     , (8082,   8,  100668176) /* Icon */
-     , (8082,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8082,   1, 0x02000155) /* Setup */
+     , (8082,   3, 0x20000014) /* SoundTable */
+     , (8082,   8, 0x06001310) /* Icon */
+     , (8082,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (8082, 4, 1000);

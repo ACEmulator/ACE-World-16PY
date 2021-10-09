@@ -24,9 +24,9 @@ VALUES (30362,   1, 'Swift Strike Ring') /* Name */
      , (30362,  16, 'Describe me here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30362,   1,   33554691) /* Setup */
-     , (30362,   3,  536870932) /* SoundTable */
-     , (30362,   6,   67111919) /* PaletteBase */
-     , (30362,   7,  268435753) /* ClothingBase */
-     , (30362,   8,  100668662) /* Icon */
-     , (30362,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30362,   1, 0x02000103) /* Setup */
+     , (30362,   3, 0x20000014) /* SoundTable */
+     , (30362,   6, 0x04000BEF) /* PaletteBase */
+     , (30362,   7, 0x10000129) /* ClothingBase */
+     , (30362,   8, 0x060014F6) /* Icon */
+     , (30362,  22, 0x3400002B) /* PhysicsEffectTable */;

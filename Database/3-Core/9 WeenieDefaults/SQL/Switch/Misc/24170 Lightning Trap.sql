@@ -30,8 +30,8 @@ VALUES (24170,   1, 'Lightning Trap') /* Name */
      , (24170,  22, 'You hear a faint clicking sound.') /* ActivationFailure */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24170,   1,   33554667) /* Setup */
-     , (24170,   3,  536870932) /* SoundTable */
-     , (24170,   8,  100667494) /* Icon */
-     , (24170,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24170,   1, 0x020000EB) /* Setup */
+     , (24170,   3, 0x20000014) /* SoundTable */
+     , (24170,   8, 0x06001066) /* Icon */
+     , (24170,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24170,  28,       2140) /* Spell - Alset's Coil */;

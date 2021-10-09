@@ -44,22 +44,22 @@ VALUES (9087,   1, 'Thaumaturgic Plate Girth') /* Name */
      , (9087,  16, 'A heavily enchanted crystalline girth, of the type once worn into battle by mages of the Yalaini Order of Hieromancers.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9087,   1,   33554647) /* Setup */
-     , (9087,   3,  536870932) /* SoundTable */
-     , (9087,   6,   67108990) /* PaletteBase */
-     , (9087,   7,  268436114) /* ClothingBase */
-     , (9087,   8,  100670411) /* Icon */
-     , (9087,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9087,   1, 0x020000D7) /* Setup */
+     , (9087,   3, 0x20000014) /* SoundTable */
+     , (9087,   6, 0x0400007E) /* PaletteBase */
+     , (9087,   7, 0x10000292) /* ClothingBase */
+     , (9087,   8, 0x06001BCB) /* Icon */
+     , (9087,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9087,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9087,   273,      2)  /* Magic Resistance Other VI */
-     , (9087,  2349,      2)  /* Hieromancer's Ward */
+VALUES (9087,  2349,      2)  /* Hieromancer's Ward */
+     , (9087,  2381,      2)  /* Touch of Instrumentality */
+     , (9087,  2353,      2)  /* Greater Stimulation Durance */
+     , (9087,   273,      2)  /* Magic Resistance Other VI */
      , (9087,  2350,      2)  /* Greater Decay Durance */
      , (9087,  2351,      2)  /* Greater Consumption Durance */
      , (9087,  2352,      2)  /* Greater Stasis Durance */
-     , (9087,  2353,      2)  /* Greater Stimulation Durance */
      , (9087,  2354,      2)  /* Lesser Piercing Durance */
      , (9087,  2355,      2)  /* Lesser Slashing Durance */
-     , (9087,  2356,      2)  /* Lesser Bludgeoning Durance */
-     , (9087,  2381,      2)  /* Touch of Instrumentality */;
+     , (9087,  2356,      2)  /* Lesser Bludgeoning Durance */;

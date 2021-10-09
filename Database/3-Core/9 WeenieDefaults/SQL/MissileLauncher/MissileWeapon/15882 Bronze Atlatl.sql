@@ -16,7 +16,7 @@ VALUES (15882,   1,        256) /* ItemType - MissileWeapon */
      , (15882,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (15882,  49,        150) /* WeaponTime */
      , (15882,  50,          4) /* AmmoType - Atlatl */
-     , (15882,  51,          2) /* CombatUse - Missle */
+     , (15882,  51,          2) /* CombatUse - Missile */
      , (15882,  60,        120) /* WeaponRange */
      , (15882,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (15882, 150,        104) /* HookPlacement - XXXUnknown68 */
@@ -38,9 +38,9 @@ VALUES (15882,   1, 'Bronze Atlatl') /* Name */
      , (15882,  33, 'AtlatlStatuePickUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15882,   1,   33557433) /* Setup */
-     , (15882,   3,  536870932) /* SoundTable */
-     , (15882,   6,   67111919) /* PaletteBase */
-     , (15882,   7,  268436304) /* ClothingBase */
-     , (15882,   8,  100672372) /* Icon */
-     , (15882,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15882,   1, 0x02000BB9) /* Setup */
+     , (15882,   3, 0x20000014) /* SoundTable */
+     , (15882,   6, 0x04000BEF) /* PaletteBase */
+     , (15882,   7, 0x10000350) /* ClothingBase */
+     , (15882,   8, 0x06002374) /* Icon */
+     , (15882,  22, 0x3400002B) /* PhysicsEffectTable */;

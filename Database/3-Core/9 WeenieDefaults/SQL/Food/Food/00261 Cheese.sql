@@ -30,7 +30,7 @@ VALUES (261,   1, 'Cheese') /* Name */
      , (261,  20, 'Hunks of Cheese') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (261,   1,   33554672) /* Setup */
-     , (261,   3,  536870932) /* SoundTable */
-     , (261,   8,  100667458) /* Icon */
-     , (261,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (261,   1, 0x020000F0) /* Setup */
+     , (261,   3, 0x20000014) /* SoundTable */
+     , (261,   8, 0x06001042) /* Icon */
+     , (261,  22, 0x3400002B) /* PhysicsEffectTable */;

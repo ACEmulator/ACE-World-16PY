@@ -24,7 +24,7 @@ VALUES (27774,  22, True ) /* Inscribable */
      , (27774,  84, True ) /* IgnoreCloIcons */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27774,   5, -0.033333) /* ManaRate */
+VALUES (27774,   5,  -0.033) /* ManaRate */
      , (27774,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -33,14 +33,14 @@ VALUES (27774,   1, 'Labyrinthine Necklace') /* Name */
      , (27774,  33, 'PickedUpNecklaceAdjanite') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27774,   1,   33554680) /* Setup */
-     , (27774,   3,  536870932) /* SoundTable */
-     , (27774,   6,   67111919) /* PaletteBase */
-     , (27774,   7,  268435735) /* ClothingBase */
-     , (27774,   8,  100676631) /* Icon */
-     , (27774,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27774,   1, 0x020000F8) /* Setup */
+     , (27774,   3, 0x20000014) /* SoundTable */
+     , (27774,   6, 0x04000BEF) /* PaletteBase */
+     , (27774,   7, 0x10000117) /* ClothingBase */
+     , (27774,   8, 0x06003417) /* Icon */
+     , (27774,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27774,   160,      2)  /* Regeneration Other II */
+VALUES (27774,   207,      2)  /* Mana Renewal Other II */
      , (27774,   184,      2)  /* Rejuvenation Other II */
-     , (27774,   207,      2)  /* Mana Renewal Other II */;
+     , (27774,   160,      2)  /* Regeneration Other II */;

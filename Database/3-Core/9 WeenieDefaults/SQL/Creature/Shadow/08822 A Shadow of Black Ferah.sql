@@ -71,14 +71,14 @@ VALUES (8822,   1, 'A Shadow of Black Ferah') /* Name */
      , (8822,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8822,   1,   33556251) /* Setup */
-     , (8822,   2,  150995091) /* MotionTable */
-     , (8822,   3,  536870914) /* SoundTable */
-     , (8822,   4,  805306408) /* CombatTable */
-     , (8822,   6,   67108990) /* PaletteBase */
-     , (8822,   7,  268435871) /* ClothingBase */
-     , (8822,   8,  100670398) /* Icon */
-     , (8822,  22,  872415331) /* PhysicsEffectTable */
+VALUES (8822,   1, 0x0200071B) /* Setup */
+     , (8822,   2, 0x09000093) /* MotionTable */
+     , (8822,   3, 0x20000002) /* SoundTable */
+     , (8822,   4, 0x30000028) /* CombatTable */
+     , (8822,   6, 0x0400007E) /* PaletteBase */
+     , (8822,   7, 0x1000019F) /* ClothingBase */
+     , (8822,   8, 0x06001BBE) /* Icon */
+     , (8822,  22, 0x34000063) /* PhysicsEffectTable */
      , (8822,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -125,28 +125,28 @@ VALUES (8822,  0,  4,  0,    0,  430,  473,  451,  430,  430,  473,  430,  430, 
      , (8822,  8,  4, 165, 0.75,  430,  473,  451,  430,  430,  473,  430,  430,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8822,    69,  2.032)  /* Shock Wave VI */
-     , (8822,    74,  2.032)  /* Frost Bolt VI */
-     , (8822,    80,  2.032)  /* Lightning Bolt VI */
-     , (8822,    85,  2.032)  /* Flame Bolt VI */
-     , (8822,    97,  2.032)  /* Whirling Blade VI */
-     , (8822,   234,  2.023)  /* Vulnerability Other VI */
-     , (8822,   276,  2.006)  /* Magic Resistance Self III */
-     , (8822,   285,  2.023)  /* Magic Yield Other VI */
-     , (8822,  1053,  2.023)  /* Bludgeoning Vulnerability Other VI */
+VALUES (8822,  2125,  2.003)  /* Flensing Wings */
      , (8822,  1065,  2.023)  /* Cold Vulnerability Other VI */
+     , (8822,    69,  2.032)  /* Shock Wave VI */
      , (8822,  1089,  2.023)  /* Lightning Vulnerability Other VI */
-     , (8822,  1108,  2.023)  /* Fire Vulnerability Other VI */
-     , (8822,  1242,  2.011)  /* Drain Health Other VI */
-     , (8822,  1311,  2.006)  /* Armor Self V */
-     , (8822,  2070,  2.023)  /* Heart Rend */
-     , (8822,  2073,   2.02)  /* Adja's Intervention */
-     , (8822,  2125,  2.003)  /* Flensing Wings */
-     , (8822,  2126,  2.003)  /* Thousand Fists */
+     , (8822,   234,  2.023)  /* Vulnerability Other VI */
      , (8822,  2130,  2.003)  /* Infernae */
-     , (8822,  2138,  2.003)  /* Blizzard */
+     , (8822,    74,  2.032)  /* Frost Bolt VI */
+     , (8822,  2126,  2.003)  /* Thousand Fists */
+     , (8822,  1108,  2.023)  /* Fire Vulnerability Other VI */
+     , (8822,    80,  2.032)  /* Lightning Bolt VI */
+     , (8822,   276,  2.006)  /* Magic Resistance Self III */
+     , (8822,    85,  2.032)  /* Flame Bolt VI */
+     , (8822,  2070,  2.023)  /* Heart Rend */
+     , (8822,  2328,  2.023)  /* Vitality Siphon */
+     , (8822,  2073,   2.02)  /* Adja's Intervention */
      , (8822,  2142,  2.003)  /* Tempest */
-     , (8822,  2328,  2.023)  /* Vitality Siphon */;
+     , (8822,   285,  2.023)  /* Magic Yield Other VI */
+     , (8822,  1242,  2.011)  /* Drain Health Other VI */
+     , (8822,  2138,  2.003)  /* Blizzard */
+     , (8822,  1053,  2.023)  /* Bludgeoning Vulnerability Other VI */
+     , (8822,  1311,  2.006)  /* Armor Self V */
+     , (8822,    97,  2.032)  /* Whirling Blade VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (8822,  94) /* ATTACK_NOTIFICATION_EVENT */

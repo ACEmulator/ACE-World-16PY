@@ -33,11 +33,11 @@ VALUES (23958,   1, 'Mite Stamp') /* Name */
      , (23958,  15, 'A stamp with the stylized discus on it.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23958,   1,   33556922) /* Setup */
-     , (23958,   3,  536870932) /* SoundTable */
-     , (23958,   6,   67111092) /* PaletteBase */
-     , (23958,   7,  268436417) /* ClothingBase */
-     , (23958,   8,  100673243) /* Icon */
-     , (23958,  22,  872415275) /* PhysicsEffectTable */
-     , (23958,  50,  100674242) /* IconOverlay */
-     , (23958,  51,  100673082) /* IconOverlaySecondary */;
+VALUES (23958,   1, 0x020009BA) /* Setup */
+     , (23958,   3, 0x20000014) /* SoundTable */
+     , (23958,   6, 0x040008B4) /* PaletteBase */
+     , (23958,   7, 0x100003C1) /* ClothingBase */
+     , (23958,   8, 0x060026DB) /* Icon */
+     , (23958,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (23958,  50, 0x06002AC2) /* IconOverlay */
+     , (23958,  51, 0x0600263A) /* IconOverlaySecondary */;

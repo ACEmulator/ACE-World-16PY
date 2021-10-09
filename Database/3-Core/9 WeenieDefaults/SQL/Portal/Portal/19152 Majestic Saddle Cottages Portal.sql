@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19152,   1, 'Majestic Saddle Cottages Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19152,   1,   33554867) /* Setup */
-     , (19152,   2,  150994947) /* MotionTable */
-     , (19152,   8,  100667499) /* Icon */;
+VALUES (19152,   1, 0x020001B3) /* Setup */
+     , (19152,   2, 0x09000003) /* MotionTable */
+     , (19152,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19152, 2, 1672478743, 65.12, 146.608, 95.712, 0.4158443, 0, 0, -0.9094358) /* Destination */
-/* @teleloc 0x63B00017 [65.120000 146.608000 95.712000] 0.415844 0.000000 0.000000 -0.909436 */;
+VALUES (19152, 2, 0x63B00017, 65.12, 146.608, 95.712, 0.415844, 0, 0, -0.909436) /* Destination */
+/* @teleloc 0x63B00017 [65.120003 146.608002 95.711998] 0.415844 0.000000 0.000000 -0.909436 */;

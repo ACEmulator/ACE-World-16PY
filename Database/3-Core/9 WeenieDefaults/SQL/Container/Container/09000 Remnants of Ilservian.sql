@@ -35,12 +35,12 @@ VALUES (9000,   1, 'Remnants of Ilservian') /* Name */
      , (9000,  15, 'The remnants of the man that was once Ilservian Palacost.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9000,   1,   33556950) /* Setup */
-     , (9000,   3,  536870932) /* SoundTable */
-     , (9000,   6,   67110722) /* PaletteBase */
-     , (9000,   7,  268435558) /* ClothingBase */
-     , (9000,   8,  100667504) /* Icon */
-     , (9000,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9000,   1, 0x020009D6) /* Setup */
+     , (9000,   3, 0x20000014) /* SoundTable */
+     , (9000,   6, 0x04000742) /* PaletteBase */
+     , (9000,   7, 0x10000066) /* ClothingBase */
+     , (9000,   8, 0x06001070) /* Icon */
+     , (9000,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (9000, -1, 8909, 0, 10, 10, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Blood of the Hopeslayer (8909) (x10 up to max of 10) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

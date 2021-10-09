@@ -21,7 +21,7 @@ VALUES (23277,   1,        256) /* ItemType - MissileWeapon */
      , (23277,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (23277,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (23277,  49,         10) /* WeaponTime */
-     , (23277,  51,          2) /* CombatUse - Missle */
+     , (23277,  51,          2) /* CombatUse - Missile */
      , (23277,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (23277, 150,        103) /* HookPlacement - Hook */
      , (23277, 151,          2) /* HookType - Wall */;
@@ -45,9 +45,9 @@ VALUES (23277,   1, 'Green Minnow') /* Name */
      , (23277,  20, 'Green Minnows') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23277,   1,   33554674) /* Setup */
-     , (23277,   3,  536870932) /* SoundTable */
-     , (23277,   6,   67114188) /* PaletteBase */
-     , (23277,   7,  268436563) /* ClothingBase */
-     , (23277,   8,  100674202) /* Icon */
-     , (23277,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23277,   1, 0x020000F2) /* Setup */
+     , (23277,   3, 0x20000014) /* SoundTable */
+     , (23277,   6, 0x040014CC) /* PaletteBase */
+     , (23277,   7, 0x10000453) /* ClothingBase */
+     , (23277,   8, 0x06002A9A) /* Icon */
+     , (23277,  22, 0x3400002B) /* PhysicsEffectTable */;

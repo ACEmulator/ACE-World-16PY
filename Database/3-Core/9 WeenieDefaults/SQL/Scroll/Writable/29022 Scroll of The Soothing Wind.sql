@@ -24,7 +24,7 @@ VALUES (29022,   1, 'Scroll of The Soothing Wind') /* Name */
      , (29022,  15, 'A scroll imbued with the power of the spell The Soothing Wind.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29022,   1,   33554826) /* Setup */
-     , (29022,   8,  100676941) /* Icon */
-     , (29022,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29022,   1, 0x0200018A) /* Setup */
+     , (29022,   8, 0x0600354D) /* Icon */
+     , (29022,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29022,  28,       3475) /* Spell - The Soothing Wind */;

@@ -38,10 +38,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3911,   1, 'Flaming Yaoji') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3911,   1,   33555818) /* Setup */
-     , (3911,   3,  536870932) /* SoundTable */
-     , (3911,   6,   67111919) /* PaletteBase */
-     , (3911,   7,  268435775) /* ClothingBase */
-     , (3911,   8,  100667621) /* Icon */
-     , (3911,  22,  872415275) /* PhysicsEffectTable */
-     , (3911,  36,  234881044) /* MutateFilter */;
+VALUES (3911,   1, 0x0200056A) /* Setup */
+     , (3911,   3, 0x20000014) /* SoundTable */
+     , (3911,   6, 0x04000BEF) /* PaletteBase */
+     , (3911,   7, 0x1000013F) /* ClothingBase */
+     , (3911,   8, 0x060010E5) /* Icon */
+     , (3911,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3911,  36, 0x0E000014) /* MutateFilter */;

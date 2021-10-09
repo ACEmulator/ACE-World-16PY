@@ -50,15 +50,15 @@ VALUES (23010,   1, 'Silifi of Crimson Stars') /* Name */
      , (23010,  16, 'The Silifi of Crimson Stars, its blade repaired using the spine of a Plate Armoredillo. It is fitted with the rubies Al-Shajar and Mahwan. There is a notch for one more.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23010,   1,   33556553) /* Setup */
-     , (23010,   3,  536870932) /* SoundTable */
-     , (23010,   6,   67111919) /* PaletteBase */
-     , (23010,   7,  268435986) /* ClothingBase */
-     , (23010,   8,  100670611) /* Icon */
-     , (23010,  22,  872415275) /* PhysicsEffectTable */
-     , (23010,  36,  234881044) /* MutateFilter */
+VALUES (23010,   1, 0x02000849) /* Setup */
+     , (23010,   3, 0x20000014) /* SoundTable */
+     , (23010,   6, 0x04000BEF) /* PaletteBase */
+     , (23010,   7, 0x10000212) /* ClothingBase */
+     , (23010,   8, 0x06001C93) /* Icon */
+     , (23010,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (23010,  36, 0x0E000014) /* MutateFilter */
      , (23010,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23010,  1077,      2)  /* Lightning Protection Other VI */
-     , (23010,  1605,      2)  /* Aura of Defender Self VI */;
+VALUES (23010,  1605,      2)  /* Aura of Defender Self VI */
+     , (23010,  1077,      2)  /* Lightning Protection Other VI */;

@@ -39,15 +39,15 @@ VALUES (9601,   1, 'Eye of the Quiddity') /* Name */
      , (9601,  16, 'An orb with a large purple eye in the middle.  Gazing at it makes you dizzy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9601,   1,   33557115) /* Setup */
-     , (9601,   3,  536870932) /* SoundTable */
-     , (9601,   8,  100671692) /* Icon */
-     , (9601,  22,  872415275) /* PhysicsEffectTable */
-     , (9601,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
-     , (9601,  36,  234881046) /* MutateFilter */
+VALUES (9601,   1, 0x02000A7B) /* Setup */
+     , (9601,   3, 0x20000014) /* SoundTable */
+     , (9601,   8, 0x060020CC) /* Icon */
+     , (9601,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (9601,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
+     , (9601,  36, 0x0E000016) /* MutateFilter */
      , (9601,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9601,   586,      2)  /* Item Enchantment Mastery Self VI */
-     , (9601,   608,      2)  /* Life Magic Mastery Self IV */
-     , (9601,   658,      2)  /* Mana Conversion Mastery Self VI */;
+VALUES (9601,   658,      2)  /* Mana Conversion Mastery Self VI */
+     , (9601,   586,      2)  /* Item Enchantment Mastery Self VI */
+     , (9601,   608,      2)  /* Life Magic Mastery Self IV */;

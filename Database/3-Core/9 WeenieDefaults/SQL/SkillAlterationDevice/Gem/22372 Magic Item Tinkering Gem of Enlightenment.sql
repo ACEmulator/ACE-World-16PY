@@ -13,7 +13,7 @@ VALUES (22372,   1,       2048) /* ItemType - Gem */
      , (22372,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22372, 114,          1) /* Attuned - Attuned */
      , (22372, 185,          1) /* TypeOfAlteration */
-     , (22372, 186,         30) /* SkillToBeAltered */;
+     , (22372, 186,         30) /* SkillToBeAltered - MagicItemTinkering */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22372,  22, True ) /* Inscribable */
@@ -25,8 +25,8 @@ VALUES (22372,   1, 'Magic Item Tinkering Gem of Enlightenment') /* Name */
      , (22372,  33, 'SkillAlterationGemPickedUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22372,   1,   33558088) /* Setup */
-     , (22372,   6,   67111919) /* PaletteBase */
-     , (22372,   7,  268435723) /* ClothingBase */
-     , (22372,   8,  100673788) /* Icon */
-     , (22372,  50,  100673776) /* IconOverlay */;
+VALUES (22372,   1, 0x02000E48) /* Setup */
+     , (22372,   6, 0x04000BEF) /* PaletteBase */
+     , (22372,   7, 0x1000010B) /* ClothingBase */
+     , (22372,   8, 0x060028FC) /* Icon */
+     , (22372,  50, 0x060028F0) /* IconOverlay */;

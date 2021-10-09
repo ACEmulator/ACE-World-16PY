@@ -25,7 +25,7 @@ VALUES (2680,   1, 'Scroll of Focus Self V') /* Name */
      , (2680,  16, 'When learned, this spell increases the caster''s Focus by 50 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2680,   1,   33554826) /* Setup */
-     , (2680,   8,  100676458) /* Icon */
-     , (2680,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2680,   1, 0x0200018A) /* Setup */
+     , (2680,   8, 0x0600336A) /* Icon */
+     , (2680,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2680,  28,       1425) /* Spell - Focus Self V */;

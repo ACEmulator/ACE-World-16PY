@@ -29,9 +29,9 @@ VALUES (29618,   1, 'Red Mace') /* Name */
      , (29618,  16, 'A decorative red mace.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29618,   1,   33559065) /* Setup */
-     , (29618,   3,  536870932) /* SoundTable */
-     , (29618,   6,   67111919) /* PaletteBase */
-     , (29618,   7,  268435792) /* ClothingBase */
-     , (29618,   8,  100668955) /* Icon */
-     , (29618,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29618,   1, 0x02001219) /* Setup */
+     , (29618,   3, 0x20000014) /* SoundTable */
+     , (29618,   6, 0x04000BEF) /* PaletteBase */
+     , (29618,   7, 0x10000150) /* ClothingBase */
+     , (29618,   8, 0x0600161B) /* Icon */
+     , (29618,  22, 0x3400002B) /* PhysicsEffectTable */;

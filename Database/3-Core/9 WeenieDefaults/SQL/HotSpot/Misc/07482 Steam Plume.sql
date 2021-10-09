@@ -36,6 +36,6 @@ VALUES (7482,   1, 'Steam Plume') /* Name */
      , (7482,  17, 'You suffer %i damage from the plume of steam') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7482,   1,   33556674) /* Setup */
-     , (7482,   3,  536870994) /* SoundTable */
-     , (7482,   8,  100667465) /* Icon */;
+VALUES (7482,   1, 0x020008C2) /* Setup */
+     , (7482,   3, 0x20000052) /* SoundTable */
+     , (7482,   8, 0x06001049) /* Icon */;

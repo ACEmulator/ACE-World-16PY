@@ -22,7 +22,7 @@ VALUES (24583,   1, 'Shot in the Arm Bowyers') /* Name */
      , (24583,  16, 'Bows, Crossbows, Arrows and Fletching Supplies. Meet the great Marksman Aun Gunditealuan and get pointers.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24583,   1,   33555088) /* Setup */
-     , (24583,   6,   67111092) /* PaletteBase */
-     , (24583,   7,  268435654) /* ClothingBase */
-     , (24583,   8,  100668115) /* Icon */;
+VALUES (24583,   1, 0x02000290) /* Setup */
+     , (24583,   6, 0x040008B4) /* PaletteBase */
+     , (24583,   7, 0x100000C6) /* ClothingBase */
+     , (24583,   8, 0x060012D3) /* Icon */;

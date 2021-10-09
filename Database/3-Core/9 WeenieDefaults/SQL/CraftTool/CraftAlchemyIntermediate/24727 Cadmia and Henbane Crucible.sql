@@ -31,8 +31,8 @@ VALUES (24727,   1, 'Cadmia and Henbane Crucible') /* Name */
      , (24727,  20, 'Cadmia and Henbane Crucibles') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24727,   1,   33555966) /* Setup */
-     , (24727,   3,  536870932) /* SoundTable */
-     , (24727,   8,  100674466) /* Icon */
-     , (24727,  22,  872415275) /* PhysicsEffectTable */
-     , (24727,  50,  100674414) /* IconOverlay */;
+VALUES (24727,   1, 0x020005FE) /* Setup */
+     , (24727,   3, 0x20000014) /* SoundTable */
+     , (24727,   8, 0x06002BA2) /* Icon */
+     , (24727,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24727,  50, 0x06002B6E) /* IconOverlay */;

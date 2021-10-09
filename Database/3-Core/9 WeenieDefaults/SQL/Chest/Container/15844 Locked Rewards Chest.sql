@@ -45,13 +45,13 @@ VALUES (15844,   1, 'Locked Rewards Chest') /* Name */
      , (15844,  16, 'A chest.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15844,   1,   33554556) /* Setup */
-     , (15844,   2,  150994948) /* MotionTable */
-     , (15844,   3,  536870945) /* SoundTable */
-     , (15844,   6,   67111092) /* PaletteBase */
-     , (15844,   7,  268436361) /* ClothingBase */
-     , (15844,   8,  100672822) /* Icon */
-     , (15844,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15844,   1, 0x0200007C) /* Setup */
+     , (15844,   2, 0x09000004) /* MotionTable */
+     , (15844,   3, 0x20000021) /* SoundTable */
+     , (15844,   6, 0x040008B4) /* PaletteBase */
+     , (15844,   7, 0x10000389) /* ClothingBase */
+     , (15844,   8, 0x06002536) /* Icon */
+     , (15844,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (15844, -1, 15857, 30, 20, 20, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Encrusted Bloodstone Jewel (15857) (x20 up to max of 20) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

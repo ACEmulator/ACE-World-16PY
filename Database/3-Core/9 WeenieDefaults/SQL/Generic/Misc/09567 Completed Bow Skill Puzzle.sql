@@ -28,8 +28,8 @@ VALUES (9567,   1, 'Completed Bow Skill Puzzle') /* Name */
      , (9567,  16, 'A completed Bow Skill Puzzle.  Turn in to a Bestower Examiner to receive a title.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9567,   1,   33557028) /* Setup */
-     , (9567,   3,  536870932) /* SoundTable */
-     , (9567,   8,  100671555) /* Icon */
-     , (9567,  22,  872415275) /* PhysicsEffectTable */
-     , (9567,  36,  234881046) /* MutateFilter */;
+VALUES (9567,   1, 0x02000A24) /* Setup */
+     , (9567,   3, 0x20000014) /* SoundTable */
+     , (9567,   8, 0x06002043) /* Icon */
+     , (9567,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (9567,  36, 0x0E000016) /* MutateFilter */;

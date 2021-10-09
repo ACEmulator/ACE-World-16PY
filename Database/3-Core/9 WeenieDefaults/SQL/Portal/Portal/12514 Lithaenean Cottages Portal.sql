@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12514,   1, 'Lithaenean Cottages Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12514,   1,   33554867) /* Setup */
-     , (12514,   2,  150994947) /* MotionTable */
-     , (12514,   8,  100667499) /* Icon */;
+VALUES (12514,   1, 0x020001B3) /* Setup */
+     , (12514,   2, 0x09000003) /* MotionTable */
+     , (12514,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12514, 2, 1388380176, 35.347, 172.789, 0.005, 0.3244043, 0, 0, -0.9459185) /* Destination */
-/* @teleloc 0x52C10010 [35.347000 172.789000 0.005000] 0.324404 0.000000 0.000000 -0.945919 */;
+VALUES (12514, 2, 0x52C10010, 35.347, 172.789, 0.005, 0.324404, 0, 0, -0.945919) /* Destination */
+/* @teleloc 0x52C10010 [35.347000 172.789001 0.005000] 0.324404 0.000000 0.000000 -0.945919 */;

@@ -32,13 +32,13 @@ VALUES (9518,   1, 'Advocate Statue') /* Name */
      , (9518,  16, 'A memorial to those who served.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9518,   1,   33557019) /* Setup */
-     , (9518,   2,  150995124) /* MotionTable */
-     , (9518,   3,  536871026) /* SoundTable */
-     , (9518,   6,   67108990) /* PaletteBase */
-     , (9518,   7,  268436176) /* ClothingBase */
-     , (9518,   8,  100671531) /* Icon */
-     , (9518,  19,  268435537) /* ActivationAnimation - Twitch1 */;
+VALUES (9518,   1, 0x02000A1B) /* Setup */
+     , (9518,   2, 0x090000B4) /* MotionTable */
+     , (9518,   3, 0x20000072) /* SoundTable */
+     , (9518,   6, 0x0400007E) /* PaletteBase */
+     , (9518,   7, 0x100002D0) /* ClothingBase */
+     , (9518,   8, 0x0600202B) /* Icon */
+     , (9518,  19, 0x10000051) /* ActivationAnimation - Twitch1 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (9518, 1, 1000);

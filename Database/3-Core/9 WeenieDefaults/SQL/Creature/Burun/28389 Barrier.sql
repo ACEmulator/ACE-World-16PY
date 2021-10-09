@@ -71,12 +71,12 @@ VALUES (28389,   1, 'Barrier') /* Name */
      , (28389,  15, 'A barrier constructed of muck and slime.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28389,   1,   33558871) /* Setup */
-     , (28389,   2,  150995309) /* MotionTable */
-     , (28389,   3,  536871052) /* SoundTable */
-     , (28389,   4,  805306398) /* CombatTable */
-     , (28389,   8,  100676956) /* Icon */
-     , (28389,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (28389,   1, 0x02001157) /* Setup */
+     , (28389,   2, 0x0900016D) /* MotionTable */
+     , (28389,   3, 0x2000008C) /* SoundTable */
+     , (28389,   4, 0x3000001E) /* CombatTable */
+     , (28389,   8, 0x0600355C) /* Icon */
+     , (28389,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28389,   1,   1, 0, 0) /* Strength */
@@ -92,9 +92,9 @@ VALUES (28389,   1,  7999, 0, 0, 8000) /* MaxHealth */
      , (28389,   5,     0, 0, 0, 1) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (28389,  6, 0, 2, 0,   1, 0, 2018.72124777314) /* MeleeDefense        Trained */
-     , (28389,  7, 0, 2, 0,   1, 0, 2018.72124777314) /* MissileDefense      Trained */
-     , (28389, 15, 0, 3, 0,   1, 0, 2018.72124777314) /* MagicDefense        Specialized */;
+VALUES (28389,  6, 0, 2, 0,   1, 0, 2018.7212477731427) /* MeleeDefense        Trained */
+     , (28389,  7, 0, 2, 0,   1, 0, 2018.7212477731427) /* MissileDefense      Trained */
+     , (28389, 15, 0, 3, 0,   1, 0, 2018.7212477731427) /* MagicDefense        Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (28389,  0,  4,  0,    0,  200,  200,  200,  200,  200,  200,  200,  200,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -112,16 +112,16 @@ VALUES (28389,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (28389, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28389, -1, 26021, 1, 1, 1, 1, 4, -1, 0, 0, 41353770, 108.6, -10.7, 6, -4.371139E-08, 0, 0, -1) /* Generate Burun Ruuk Soothsayer (26021) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (28389, -1, 26021, 1, 1, 1, 1, 4, -1, 0, 0, 41353770, 111.4, -10.6, 6, -4.371139E-08, 0, 0, -1) /* Generate Burun Ruuk Soothsayer (26021) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (28389, -1, 27985, 1, 1, 1, 1, 4, -1, 0, 0, 41353599, 110.1, -26.2, 0, -4.371139E-08, 0, 0, -1) /* Generate Guruk Destroyer (27985) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (28389, -1, 27985, 1, 1, 1, 1, 4, -1, 0, 0, 41353581, 90, -40, 0.005, -4.371139E-08, 0, 0, -1) /* Generate Guruk Destroyer (27985) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (28389, -1, 27985, 1, 1, 1, 1, 4, -1, 0, 0, 41353621, 130, -40, 0.005, -4.371139E-08, 0, 0, -1) /* Generate Guruk Destroyer (27985) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (28389, -1, 27852, 1, 1, 1, 1, 4, -1, 0, 0, 41353623, 130, -50, 0.005, -0.7071068, 0, 0, -0.7071068) /* Generate Guruk Hulk (27852) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (28389, -1, 27852, 1, 1, 1, 1, 4, -1, 0, 0, 41353583, 90, -50, 0.005, 0.7071068, 0, 0, -0.7071068) /* Generate Guruk Hulk (27852) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (28389, -1, 27982, 1, 1, 1, 1, 4, -1, 0, 0, 41353590, 99.371, -40, 0.005, -4.371139E-08, 0, 0, -1) /* Generate Guruk Brute (27982) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (28389, -1, 27982, 1, 1, 1, 1, 4, -1, 0, 0, 41353590, 103.09, -40, 0.005, -4.371139E-08, 0, 0, -1) /* Generate Guruk Brute (27982) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (28389, -1, 27982, 1, 1, 1, 1, 4, -1, 0, 0, 41353606, 116.148, -40, 0.005, -4.371139E-08, 0, 0, -1) /* Generate Guruk Brute (27982) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (28389, -1, 27982, 1, 1, 1, 1, 4, -1, 0, 0, 41353606, 120.629, -40, 0.005, -4.371139E-08, 0, 0, -1) /* Generate Guruk Brute (27982) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (28389, -1, 26021, 1, 1, 1, 1, 4, -1, 0, 0, 41353600, 112.386, -40, 0.045, -4.371139E-08, 0, 0, -1) /* Generate Burun Ruuk Soothsayer (26021) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (28389, -1, 26021, 1, 1, 1, 1, 4, -1, 0, 0, 41353600, 107.839, -40, 0.045, -4.371139E-08, 0, 0, -1) /* Generate Burun Ruuk Soothsayer (26021) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (28389, -1, 26021, 1, 1, 1, 1, 4, -1, 0, 0, 0x0277022A, 108.6, -10.7, 6, -0, 0, -0, -1) /* Generate Burun Ruuk Soothsayer (26021) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (28389, -1, 26021, 1, 1, 1, 1, 4, -1, 0, 0, 0x0277022A, 111.4, -10.6, 6, -0, 0, -0, -1) /* Generate Burun Ruuk Soothsayer (26021) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (28389, -1, 27985, 1, 1, 1, 1, 4, -1, 0, 0, 0x0277017F, 110.1, -26.2, 0, -0, 0, -0, -1) /* Generate Guruk Destroyer (27985) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (28389, -1, 27985, 1, 1, 1, 1, 4, -1, 0, 0, 0x0277016D, 90, -40, 0.005, -0, 0, -0, -1) /* Generate Guruk Destroyer (27985) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (28389, -1, 27985, 1, 1, 1, 1, 4, -1, 0, 0, 0x02770195, 130, -40, 0.005, -0, 0, -0, -1) /* Generate Guruk Destroyer (27985) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (28389, -1, 27852, 1, 1, 1, 1, 4, -1, 0, 0, 0x02770197, 130, -50, 0.005, -0.707107, 0, -0, -0.707107) /* Generate Guruk Hulk (27852) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (28389, -1, 27852, 1, 1, 1, 1, 4, -1, 0, 0, 0x0277016F, 90, -50, 0.005, 0.707107, 0, 0, -0.707107) /* Generate Guruk Hulk (27852) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (28389, -1, 27982, 1, 1, 1, 1, 4, -1, 0, 0, 0x02770176, 99.371, -40, 0.005, -0, 0, -0, -1) /* Generate Guruk Brute (27982) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (28389, -1, 27982, 1, 1, 1, 1, 4, -1, 0, 0, 0x02770176, 103.09, -40, 0.005, -0, 0, -0, -1) /* Generate Guruk Brute (27982) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (28389, -1, 27982, 1, 1, 1, 1, 4, -1, 0, 0, 0x02770186, 116.148, -40, 0.005, -0, 0, -0, -1) /* Generate Guruk Brute (27982) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (28389, -1, 27982, 1, 1, 1, 1, 4, -1, 0, 0, 0x02770186, 120.629, -40, 0.005, -0, 0, -0, -1) /* Generate Guruk Brute (27982) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (28389, -1, 26021, 1, 1, 1, 1, 4, -1, 0, 0, 0x02770180, 112.386, -40, 0.045, -0, 0, -0, -1) /* Generate Burun Ruuk Soothsayer (26021) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (28389, -1, 26021, 1, 1, 1, 1, 4, -1, 0, 0, 0x02770180, 107.839, -40, 0.045, -0, 0, -0, -1) /* Generate Burun Ruuk Soothsayer (26021) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

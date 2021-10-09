@@ -22,7 +22,7 @@ VALUES (22542,   1,        256) /* ItemType - MissileWeapon */
      , (22542,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (22542,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (22542,  49,         10) /* WeaponTime */
-     , (22542,  51,          2) /* CombatUse - Missle */
+     , (22542,  51,          2) /* CombatUse - Missile */
      , (22542,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -44,7 +44,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22542,   1, 'Fire Spines') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22542,   1,   33558113) /* Setup */
-     , (22542,   3,  536870932) /* SoundTable */
-     , (22542,   8,  100671205) /* Icon */
-     , (22542,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22542,   1, 0x02000E61) /* Setup */
+     , (22542,   3, 0x20000014) /* SoundTable */
+     , (22542,   8, 0x06001EE5) /* Icon */
+     , (22542,  22, 0x3400002B) /* PhysicsEffectTable */;

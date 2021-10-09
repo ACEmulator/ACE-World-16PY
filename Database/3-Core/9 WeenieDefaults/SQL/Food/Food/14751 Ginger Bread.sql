@@ -29,9 +29,9 @@ VALUES (14751,   1, 'Ginger Bread') /* Name */
      , (14751,  20, 'Loaves of Ginger Bread') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14751,   1,   33555968) /* Setup */
-     , (14751,   3,  536870932) /* SoundTable */
-     , (14751,   6,   67111928) /* PaletteBase */
-     , (14751,   7,  268436334) /* ClothingBase */
-     , (14751,   8,  100672554) /* Icon */
-     , (14751,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14751,   1, 0x02000600) /* Setup */
+     , (14751,   3, 0x20000014) /* SoundTable */
+     , (14751,   6, 0x04000BF8) /* PaletteBase */
+     , (14751,   7, 0x1000036E) /* ClothingBase */
+     , (14751,   8, 0x0600242A) /* Icon */
+     , (14751,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -28,9 +28,9 @@ VALUES (5795,   1, 'Hot Sauce') /* Name */
      , (5795,  20, 'Jars of Hot Sauce') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5795,   1,   33555967) /* Setup */
-     , (5795,   3,  536870932) /* SoundTable */
-     , (5795,   6,   67111919) /* PaletteBase */
-     , (5795,   7,  268435862) /* ClothingBase */
-     , (5795,   8,  100670316) /* Icon */
-     , (5795,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5795,   1, 0x020005FF) /* Setup */
+     , (5795,   3, 0x20000014) /* SoundTable */
+     , (5795,   6, 0x04000BEF) /* PaletteBase */
+     , (5795,   7, 0x10000196) /* ClothingBase */
+     , (5795,   8, 0x06001B6C) /* Icon */
+     , (5795,  22, 0x3400002B) /* PhysicsEffectTable */;

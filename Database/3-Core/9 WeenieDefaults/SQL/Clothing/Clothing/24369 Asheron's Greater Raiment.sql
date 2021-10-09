@@ -43,13 +43,13 @@ VALUES (24369,   1, 'Asheron''s Greater Raiment') /* Name */
      , (24369,  16, 'Silken raiment woven together to be worn over the entirety of the body. Simple clasps allow for the item to be cinched along the front.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24369,   1,   33554854) /* Setup */
-     , (24369,   3,  536870932) /* SoundTable */
-     , (24369,   6,   67108990) /* PaletteBase */
-     , (24369,   7,  268436640) /* ClothingBase */
-     , (24369,   8,  100667370) /* Icon */
-     , (24369,  22,  872415275) /* PhysicsEffectTable */
-     , (24369,  36,  234881046) /* MutateFilter */;
+VALUES (24369,   1, 0x020001A6) /* Setup */
+     , (24369,   3, 0x20000014) /* SoundTable */
+     , (24369,   6, 0x0400007E) /* PaletteBase */
+     , (24369,   7, 0x100004A0) /* ClothingBase */
+     , (24369,   8, 0x06000FEA) /* Icon */
+     , (24369,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24369,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24369,   514,      2)  /* Acid Protection Other VI */

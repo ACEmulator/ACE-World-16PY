@@ -23,7 +23,7 @@ VALUES (1797,   1, 'The Desert Emerald') /* Name */
      , (1797,  16, 'The Desert Emerald') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1797,   1,   33555909) /* Setup */
-     , (1797,   6,   67111860) /* PaletteBase */
-     , (1797,   7,  268435825) /* ClothingBase */
-     , (1797,   8,  100668115) /* Icon */;
+VALUES (1797,   1, 0x020005C5) /* Setup */
+     , (1797,   6, 0x04000BB4) /* PaletteBase */
+     , (1797,   7, 0x10000171) /* ClothingBase */
+     , (1797,   8, 0x060012D3) /* Icon */;

@@ -27,10 +27,10 @@ VALUES (27787,   1, 'Decaying Tome') /* Name */
      , (27787,  33, 'PickedUpBookMoarsLowUntranslated') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27787,   1,   33554771) /* Setup */
-     , (27787,   3,  536870932) /* SoundTable */
-     , (27787,   8,  100668117) /* Icon */
-     , (27787,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27787,   1, 0x02000153) /* Setup */
+     , (27787,   3, 0x20000014) /* SoundTable */
+     , (27787,   8, 0x060012D5) /* Icon */
+     , (27787,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (27787, 1, 1000);

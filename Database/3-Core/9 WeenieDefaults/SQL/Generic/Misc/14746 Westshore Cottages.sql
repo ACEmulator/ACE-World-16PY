@@ -22,5 +22,5 @@ VALUES (14746,   1, 'Westshore Cottages') /* Name */
      , (14746,  16, 'Welcome to Westshore Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14746,   1,   33557463) /* Setup */
-     , (14746,   8,  100668115) /* Icon */;
+VALUES (14746,   1, 0x02000BD7) /* Setup */
+     , (14746,   8, 0x060012D3) /* Icon */;

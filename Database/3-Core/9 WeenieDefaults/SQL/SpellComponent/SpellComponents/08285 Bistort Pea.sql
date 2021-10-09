@@ -30,10 +30,10 @@ VALUES (8285,   1, 'Bistort Pea') /* Name */
      , (8285,  16, 'A concentrated bistort pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8285,   1,   33554817) /* Setup */
-     , (8285,   3,  536870932) /* SoundTable */
-     , (8285,   6,   67111919) /* PaletteBase */
-     , (8285,   7,  268435720) /* ClothingBase */
-     , (8285,   8,  100671053) /* Icon */
-     , (8285,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8285,   1, 0x02000181) /* Setup */
+     , (8285,   3, 0x20000014) /* SoundTable */
+     , (8285,   6, 0x04000BEF) /* PaletteBase */
+     , (8285,   7, 0x10000108) /* ClothingBase */
+     , (8285,   8, 0x06001E4D) /* Icon */
+     , (8285,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8285,  29,        124) /* SpellComponent */;

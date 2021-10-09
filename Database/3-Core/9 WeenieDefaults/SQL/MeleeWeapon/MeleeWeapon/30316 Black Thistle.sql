@@ -37,9 +37,9 @@ VALUES (30316,   1, 'Black Thistle') /* Name */
      , (30316,  16, 'Describe me here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30316,   1,   33554735) /* Setup */
-     , (30316,   3,  536870932) /* SoundTable */
-     , (30316,   6,   67111919) /* PaletteBase */
-     , (30316,   7,  268435783) /* ClothingBase */
-     , (30316,   8,  100668875) /* Icon */
-     , (30316,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30316,   1, 0x0200012F) /* Setup */
+     , (30316,   3, 0x20000014) /* SoundTable */
+     , (30316,   6, 0x04000BEF) /* PaletteBase */
+     , (30316,   7, 0x10000147) /* ClothingBase */
+     , (30316,   8, 0x060015CB) /* Icon */
+     , (30316,  22, 0x3400002B) /* PhysicsEffectTable */;

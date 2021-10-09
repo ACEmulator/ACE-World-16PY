@@ -25,10 +25,10 @@ VALUES (14446,   1, 'A Folded Note') /* Name */
      , (14446,  15, 'A creased and folded note, addressed to the owner of this house.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14446,   1,   33557474) /* Setup */
-     , (14446,   3,  536870932) /* SoundTable */
-     , (14446,   8,  100672466) /* Icon */
-     , (14446,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14446,   1, 0x02000BE2) /* Setup */
+     , (14446,   3, 0x20000014) /* SoundTable */
+     , (14446,   8, 0x060023D2) /* Icon */
+     , (14446,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (14446, 1, 1000);

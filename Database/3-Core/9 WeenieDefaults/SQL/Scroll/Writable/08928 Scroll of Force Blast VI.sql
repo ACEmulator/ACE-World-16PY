@@ -25,7 +25,7 @@ VALUES (8928,   1, 'Scroll of Force Blast VI') /* Name */
      , (8928,  16, 'When learned, this spell shoots a bolt of force at the target. The bolt does 21-40 points of piercing damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8928,   1,   33554826) /* Setup */
-     , (8928,   8,  100677019) /* Icon */
-     , (8928,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8928,   1, 0x0200018A) /* Setup */
+     , (8928,   8, 0x0600359B) /* Icon */
+     , (8928,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8928,  28,        122) /* Spell - Force Blast VI */;

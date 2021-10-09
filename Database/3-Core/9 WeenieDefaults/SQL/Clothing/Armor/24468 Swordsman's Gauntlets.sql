@@ -48,15 +48,15 @@ VALUES (24468,   1, 'Swordsman''s Gauntlets') /* Name */
      , (24468,  16, 'These gauntlets have been carved from Sunstone and fitted with an amulet with the essence of the swordsman.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24468,   1,   33554648) /* Setup */
-     , (24468,   3,  536870932) /* SoundTable */
-     , (24468,   6,   67108990) /* PaletteBase */
-     , (24468,   7,  268436636) /* ClothingBase */
-     , (24468,   8,  100674335) /* Icon */
-     , (24468,  22,  872415275) /* PhysicsEffectTable */
-     , (24468,  36,  234881046) /* MutateFilter */;
+VALUES (24468,   1, 0x020000D8) /* Setup */
+     , (24468,   3, 0x20000014) /* SoundTable */
+     , (24468,   6, 0x0400007E) /* PaletteBase */
+     , (24468,   7, 0x1000049C) /* ClothingBase */
+     , (24468,   8, 0x06002B1F) /* Icon */
+     , (24468,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24468,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24468,  1384,      2)  /* Coordination Other VI */
+VALUES (24468,  2694,      2)  /* Moderate Heavy Weapon Aptitude */
      , (24468,  1485,      2)  /* Impenetrability V */
-     , (24468,  2694,      2)  /* Moderate Heavy Weapon Aptitude */;
+     , (24468,  1384,      2)  /* Coordination Other VI */;

@@ -60,15 +60,15 @@ VALUES (11505,   1, 'Poacher') /* Name */
      , (11505,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11505,   1,   33554433) /* Setup */
-     , (11505,   2,  150994945) /* MotionTable */
-     , (11505,   3,  536870913) /* SoundTable */
-     , (11505,   4,  805306368) /* CombatTable */
-     , (11505,   8,  100667446) /* Icon */
-     , (11505,  22,  872415236) /* PhysicsEffectTable */
+VALUES (11505,   1, 0x02000001) /* Setup */
+     , (11505,   2, 0x09000001) /* MotionTable */
+     , (11505,   3, 0x20000001) /* SoundTable */
+     , (11505,   4, 0x30000000) /* CombatTable */
+     , (11505,   8, 0x06001036) /* Icon */
+     , (11505,  22, 0x34000004) /* PhysicsEffectTable */
      , (11505,  32,        364) /* WieldedTreasureType - 
                                    Wield Boots (2606) | Probability: 40%
-                                   Wield Leather Boots (115) | Probability: 30%
+                                   Wield Leather Boots (115) | Probability: 30.000002%
                                    Wield Studded Leather Boots (116) | Probability: 20%
                                    Wield Steel Toed Boots (7897) | Probability: 10%
                                    Wield Doublet (2596) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.641%
@@ -414,20 +414,20 @@ VALUES (11505,   1,   130, 0, 0, 190) /* MaxHealth */
      , (11505,   5,     0, 0, 0, 40) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (11505,  1, 0, 3, 0, 160, 0, 748.253818171155) /* Axe                 Specialized */
-     , (11505,  2, 0, 3, 0, 175, 0, 748.253818171155) /* Bow                 Specialized */
-     , (11505,  3, 0, 3, 0, 175, 0, 748.253818171155) /* Crossbow            Specialized */
-     , (11505,  4, 0, 3, 0, 170, 0, 748.253818171155) /* Dagger              Specialized */
-     , (11505,  5, 0, 3, 0, 160, 0, 748.253818171155) /* Mace                Specialized */
-     , (11505,  6, 0, 3, 0, 210, 0, 748.253818171155) /* MeleeDefense        Specialized */
-     , (11505,  7, 0, 3, 0, 315, 0, 748.253818171155) /* MissileDefense      Specialized */
-     , (11505,  9, 0, 3, 0, 160, 0, 748.253818171155) /* Spear               Specialized */
-     , (11505, 10, 0, 3, 0, 160, 0, 748.253818171155) /* Staff               Specialized */
-     , (11505, 11, 0, 3, 0, 160, 0, 748.253818171155) /* Sword               Specialized */
-     , (11505, 13, 0, 3, 0, 160, 0, 748.253818171155) /* UnarmedCombat       Specialized */
-     , (11505, 15, 0, 3, 0, 210, 0, 748.253818171155) /* MagicDefense        Specialized */
-     , (11505, 20, 0, 3, 0, 150, 0, 748.253818171155) /* Deception           Specialized */
-     , (11505, 24, 0, 3, 0,   5, 0, 748.253818171155) /* Run                 Specialized */;
+VALUES (11505,  1, 0, 3, 0, 160, 0, 748.2538181711546) /* Axe                 Specialized */
+     , (11505,  2, 0, 3, 0, 175, 0, 748.2538181711546) /* Bow                 Specialized */
+     , (11505,  3, 0, 3, 0, 175, 0, 748.2538181711546) /* Crossbow            Specialized */
+     , (11505,  4, 0, 3, 0, 170, 0, 748.2538181711546) /* Dagger              Specialized */
+     , (11505,  5, 0, 3, 0, 160, 0, 748.2538181711546) /* Mace                Specialized */
+     , (11505,  6, 0, 3, 0, 210, 0, 748.2538181711546) /* MeleeDefense        Specialized */
+     , (11505,  7, 0, 3, 0, 315, 0, 748.2538181711546) /* MissileDefense      Specialized */
+     , (11505,  9, 0, 3, 0, 160, 0, 748.2538181711546) /* Spear               Specialized */
+     , (11505, 10, 0, 3, 0, 160, 0, 748.2538181711546) /* Staff               Specialized */
+     , (11505, 11, 0, 3, 0, 160, 0, 748.2538181711546) /* Sword               Specialized */
+     , (11505, 13, 0, 3, 0, 160, 0, 748.2538181711546) /* UnarmedCombat       Specialized */
+     , (11505, 15, 0, 3, 0, 210, 0, 748.2538181711546) /* MagicDefense        Specialized */
+     , (11505, 20, 0, 3, 0, 150, 0, 748.2538181711546) /* Deception           Specialized */
+     , (11505, 24, 0, 3, 0,   5, 0, 748.2538181711546) /* Run                 Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (11505,  0,  4,  0,    0,  250,  225,  250,  275,  100,  100,  250,  150,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

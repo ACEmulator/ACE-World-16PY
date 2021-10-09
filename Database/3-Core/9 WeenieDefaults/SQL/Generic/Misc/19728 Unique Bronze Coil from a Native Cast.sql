@@ -26,5 +26,5 @@ VALUES (19728,   1, 'Unique Bronze Coil from a Native Cast') /* Name */
      , (19728,  37, 'EventBanderlingKiller') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19728,   1,   33557680) /* Setup */
-     , (19728,   8,  100672955) /* Icon */;
+VALUES (19728,   1, 0x02000CB0) /* Setup */
+     , (19728,   8, 0x060025BB) /* Icon */;

@@ -37,12 +37,12 @@ VALUES (8980,   1, 'Samsur Portal Gem') /* Name */
      , (8980,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8980,   1,   33556769) /* Setup */
-     , (8980,   3,  536870932) /* SoundTable */
-     , (8980,   6,   67111919) /* PaletteBase */
-     , (8980,   7,  268435723) /* ClothingBase */
-     , (8980,   8,  100674863) /* Icon */
-     , (8980,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8980,   1, 0x02000921) /* Setup */
+     , (8980,   3, 0x20000014) /* SoundTable */
+     , (8980,   6, 0x04000BEF) /* PaletteBase */
+     , (8980,   7, 0x1000010B) /* ClothingBase */
+     , (8980,   8, 0x06002D2F) /* Icon */
+     , (8980,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8980,  28,        157) /* Spell - Summon Primary Portal I */
      , (8980,  31,       8992) /* LinkedPortalOne - Samsur Portal */
-     , (8980,  36,  234881046) /* MutateFilter */;
+     , (8980,  36, 0x0E000016) /* MutateFilter */;

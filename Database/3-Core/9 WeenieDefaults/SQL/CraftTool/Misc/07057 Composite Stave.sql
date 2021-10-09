@@ -31,9 +31,9 @@ VALUES (7057,   1, 'Composite Stave') /* Name */
      , (7057,  16, 'A composite stave.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7057,   1,   33556598) /* Setup */
-     , (7057,   3,  536870932) /* SoundTable */
-     , (7057,   6,   67112869) /* PaletteBase */
-     , (7057,   7,  268436001) /* ClothingBase */
-     , (7057,   8,  100670676) /* Icon */
-     , (7057,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7057,   1, 0x02000876) /* Setup */
+     , (7057,   3, 0x20000014) /* SoundTable */
+     , (7057,   6, 0x04000FA5) /* PaletteBase */
+     , (7057,   7, 0x10000221) /* ClothingBase */
+     , (7057,   8, 0x06001CD4) /* Icon */
+     , (7057,  22, 0x3400002B) /* PhysicsEffectTable */;

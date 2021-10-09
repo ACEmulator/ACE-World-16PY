@@ -32,8 +32,8 @@ VALUES (24776,   1, 'Treated Turpeth and Henbane Crucible') /* Name */
      , (24776,  20, 'Treated Turpeth and Henbane Crucibles') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24776,   1,   33555966) /* Setup */
-     , (24776,   3,  536870932) /* SoundTable */
-     , (24776,   8,  100674471) /* Icon */
-     , (24776,  22,  872415275) /* PhysicsEffectTable */
-     , (24776,  50,  100674414) /* IconOverlay */;
+VALUES (24776,   1, 0x020005FE) /* Setup */
+     , (24776,   3, 0x20000014) /* SoundTable */
+     , (24776,   8, 0x06002BA7) /* Icon */
+     , (24776,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24776,  50, 0x06002B6E) /* IconOverlay */;

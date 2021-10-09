@@ -49,15 +49,15 @@ VALUES (6676,   1, 'Silifi of Crimson Stars') /* Name */
      , (6676,  16, 'The Silifi of Crimson Stars, its blade repaired using the spine of a Bronze Armoredillo. It is fitted with the rubies Al-Khur, Mahwan, and Yujazik.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6676,   1,   33556553) /* Setup */
-     , (6676,   3,  536870932) /* SoundTable */
-     , (6676,   6,   67111919) /* PaletteBase */
-     , (6676,   7,  268435986) /* ClothingBase */
-     , (6676,   8,  100670611) /* Icon */
-     , (6676,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6676,   1, 0x02000849) /* Setup */
+     , (6676,   3, 0x20000014) /* SoundTable */
+     , (6676,   6, 0x04000BEF) /* PaletteBase */
+     , (6676,   7, 0x10000212) /* ClothingBase */
+     , (6676,   8, 0x06001C93) /* Icon */
+     , (6676,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6676,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6676,  1096,      2)  /* Fire Protection Other VI */
-     , (6676,  1605,      2)  /* Aura of Defender Self VI */
+VALUES (6676,  1605,      2)  /* Aura of Defender Self VI */
+     , (6676,  1096,      2)  /* Fire Protection Other VI */
      , (6676,  1616,      2)  /* Aura of Blood Drinker Self VI */;

@@ -41,13 +41,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8695,   1, 'A Society Leather Girth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8695,   1,   33554647) /* Setup */
-     , (8695,   3,  536870932) /* SoundTable */
-     , (8695,   6,   67108990) /* PaletteBase */
-     , (8695,   7,  268435523) /* ClothingBase */
-     , (8695,   8,  100668143) /* Icon */
-     , (8695,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8695,   1, 0x020000D7) /* Setup */
+     , (8695,   3, 0x20000014) /* SoundTable */
+     , (8695,   6, 0x0400007E) /* PaletteBase */
+     , (8695,   7, 0x10000043) /* ClothingBase */
+     , (8695,   8, 0x060012EF) /* Icon */
+     , (8695,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8695,  1140,      2)  /* Piercing Protection Other II */
-     , (8695,  1482,      2)  /* Impenetrability II */;
+VALUES (8695,  1482,      2)  /* Impenetrability II */
+     , (8695,  1140,      2)  /* Piercing Protection Other II */;

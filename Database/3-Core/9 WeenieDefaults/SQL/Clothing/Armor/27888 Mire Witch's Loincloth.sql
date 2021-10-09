@@ -27,7 +27,7 @@ VALUES (27888,  22, True ) /* Inscribable */
      , (27888,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27888,   5, -0.0333) /* ManaRate */
+VALUES (27888,   5,  -0.033) /* ManaRate */
      , (27888,  12,    0.66) /* Shade */
      , (27888,  13,     0.6) /* ArmorModVsSlash */
      , (27888,  14,     0.6) /* ArmorModVsPierce */
@@ -44,15 +44,15 @@ VALUES (27888,   1, 'Mire Witch''s Loincloth') /* Name */
      , (27888,  16, 'A reproduction of the loincloth worn by the first Mosswart Mire Witch. Complete with official mosswart smell. A small tag attached to the garment boasts: An original Ketnan product.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27888,   1,   33554647) /* Setup */
-     , (27888,   3,  536870932) /* SoundTable */
-     , (27888,   6,   67108990) /* PaletteBase */
-     , (27888,   7,  268436831) /* ClothingBase */
-     , (27888,   8,  100676606) /* Icon */
-     , (27888,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27888,   1, 0x020000D7) /* Setup */
+     , (27888,   3, 0x20000014) /* SoundTable */
+     , (27888,   6, 0x0400007E) /* PaletteBase */
+     , (27888,   7, 0x1000055F) /* ClothingBase */
+     , (27888,   8, 0x060033FE) /* Icon */
+     , (27888,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27888,   241,      2)  /* Invulnerability Other III */
-     , (27888,   252,      2)  /* Impregnability Other III */
+VALUES (27888,  1483,      2)  /* Impenetrability III */
      , (27888,  1429,      2)  /* Focus Other III */
-     , (27888,  1483,      2)  /* Impenetrability III */;
+     , (27888,   241,      2)  /* Invulnerability Other III */
+     , (27888,   252,      2)  /* Impregnability Other III */;

@@ -32,7 +32,7 @@ VALUES (9316,   1, 'Intricate Obsidian Key') /* Name */
      , (9316,  16, 'A key that can be used to unlock Large Mnemosynes.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9316,   1,   33554784) /* Setup */
-     , (9316,   3,  536870932) /* SoundTable */
-     , (9316,   8,  100671430) /* Icon */
-     , (9316,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9316,   1, 0x02000160) /* Setup */
+     , (9316,   3, 0x20000014) /* SoundTable */
+     , (9316,   8, 0x06001FC6) /* Icon */
+     , (9316,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7172,   1, 'Zefir Sufut Swarm Generator') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7172,   1,   33555051) /* Setup */
-     , (7172,   8,  100667494) /* Icon */;
+VALUES (7172,   1, 0x0200026B) /* Setup */
+     , (7172,   8, 0x06001066) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7172, 0.2, 7128, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -1.5, 3, 0, 0.9238795, 0, 0, -0.3826835) /* Generate Sufut Zefir (7128) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (7172, 0.5, 7128, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -2.1, 0, 0.8660254, 0, 0, -0.5) /* Generate Sufut Zefir (7128) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (7172, 0.7, 7128, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 3, 4, 0, 0.9914449, 0, 0, -0.1305262) /* Generate Sufut Zefir (7128) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (7172, 0.8, 7128, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 5, 4, 0, 0.9914449, 0, 0, -0.1305262) /* Generate Sufut Zefir (7128) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (7172, 0.9, 7129, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 3, 3, 0, 0.7071068, 0, 0, -0.7071068) /* Generate Nalif Zefir (7129) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (7172, 1, 5779, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 0, 0.9914449, 0, 0, -0.1305262) /* Generate Strange Stick (5779) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (7172, 0.2, 7128, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -1.5, 3, 0, 0.92388, 0, 0, -0.382684) /* Generate Sufut Zefir (7128) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (7172, 0.5, 7128, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -2.1, 0, 0.866025, 0, 0, -0.5) /* Generate Sufut Zefir (7128) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (7172, 0.7, 7128, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 3, 4, 0, 0.991445, 0, 0, -0.130526) /* Generate Sufut Zefir (7128) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (7172, 0.8, 7128, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 5, 4, 0, 0.991445, 0, 0, -0.130526) /* Generate Sufut Zefir (7128) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (7172, 0.9, 7129, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 3, 3, 0, 0.707107, 0, 0, -0.707107) /* Generate Nalif Zefir (7129) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (7172, 1, 5779, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 0, 0.991445, 0, 0, -0.130526) /* Generate Strange Stick (5779) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

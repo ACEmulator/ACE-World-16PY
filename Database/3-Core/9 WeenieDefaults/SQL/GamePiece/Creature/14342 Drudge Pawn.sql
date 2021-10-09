@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14342,   1, 'Drudge Pawn') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14342,   1,   33556445) /* Setup */
-     , (14342,   2,  150994952) /* MotionTable */
-     , (14342,   3,  536870919) /* SoundTable */
-     , (14342,   4,  805306372) /* CombatTable */
-     , (14342,   6,   67112812) /* PaletteBase */
-     , (14342,   7,  268435974) /* ClothingBase */
-     , (14342,   8,  100667445) /* Icon */
-     , (14342,  22,  872415258) /* PhysicsEffectTable */;
+VALUES (14342,   1, 0x020007DD) /* Setup */
+     , (14342,   2, 0x09000008) /* MotionTable */
+     , (14342,   3, 0x20000007) /* SoundTable */
+     , (14342,   4, 0x30000004) /* CombatTable */
+     , (14342,   6, 0x04000F6C) /* PaletteBase */
+     , (14342,   7, 0x10000206) /* ClothingBase */
+     , (14342,   8, 0x06001035) /* Icon */
+     , (14342,  22, 0x3400001A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (14342,   1,  20, 0, 0) /* Strength */
@@ -89,11 +89,11 @@ VALUES (14342,   1,     0, 0, 0, 5) /* MaxHealth */
      , (14342,   5,     0, 0, 0, 15) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (14342,  6, 0, 2, 0,   0, 0, 883.144327617428) /* MeleeDefense        Trained */
-     , (14342,  7, 0, 2, 0,   0, 0, 883.144327617428) /* MissileDefense      Trained */
-     , (14342, 13, 0, 2, 0, 120, 0, 883.144327617428) /* UnarmedCombat       Trained */
-     , (14342, 15, 0, 2, 0,   0, 0, 883.144327617428) /* MagicDefense        Trained */
-     , (14342, 24, 0, 2, 0,  40, 0, 883.144327617428) /* Run                 Trained */;
+VALUES (14342,  6, 0, 2, 0,   0, 0, 883.1443276174277) /* MeleeDefense        Trained */
+     , (14342,  7, 0, 2, 0,   0, 0, 883.1443276174277) /* MissileDefense      Trained */
+     , (14342, 13, 0, 2, 0, 120, 0, 883.1443276174277) /* UnarmedCombat       Trained */
+     , (14342, 15, 0, 2, 0,   0, 0, 883.1443276174277) /* MagicDefense        Trained */
+     , (14342, 24, 0, 2, 0,  40, 0, 883.1443276174277) /* Run                 Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (14342,  0,  4,  0,    0,    3,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

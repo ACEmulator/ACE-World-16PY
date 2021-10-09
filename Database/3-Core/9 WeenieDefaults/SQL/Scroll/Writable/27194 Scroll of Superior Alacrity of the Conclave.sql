@@ -23,7 +23,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27194,   1, 'Scroll of Superior Alacrity of the Conclave') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27194,   1,   33554826) /* Setup */
-     , (27194,   8,  100676452) /* Icon */
-     , (27194,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27194,   1, 0x0200018A) /* Setup */
+     , (27194,   8, 0x06003364) /* Icon */
+     , (27194,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27194,  28,       3158) /* Spell - Superior Alacrity of the Conclave */;

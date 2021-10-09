@@ -25,7 +25,7 @@ VALUES (3424,   1, 'Scroll of Magic Yield Other III') /* Name */
      , (3424,  16, 'When learned, this spell decreases the target''s Magic Defense skill by 33%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3424,   1,   33554826) /* Setup */
-     , (3424,   8,  100676465) /* Icon */
-     , (3424,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3424,   1, 0x0200018A) /* Setup */
+     , (3424,   8, 0x06003371) /* Icon */
+     , (3424,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3424,  28,        282) /* Spell - Magic Yield Other III */;

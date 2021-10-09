@@ -28,7 +28,7 @@ VALUES (11293,   1, 'Kalindan of Palenqual') /* Name */
      , (11293,  16, 'The Kalindan of Palenqual, an Aun Tumerok relic. This missile weapon was given to the Aun xuta by spirits called the Deru. It is the embodiment of Marae Lassel''s spirit - a single great totem for the island as a whole. Three Tumerok fetishes must be added to this weapon in order to use it. The Storm and Tonk Totems have already been added; there is space for one more.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11293,   1,   33557238) /* Setup */
-     , (11293,   3,  536870932) /* SoundTable */
-     , (11293,   8,  100671872) /* Icon */
-     , (11293,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11293,   1, 0x02000AF6) /* Setup */
+     , (11293,   3, 0x20000014) /* SoundTable */
+     , (11293,   8, 0x06002180) /* Icon */
+     , (11293,  22, 0x3400002B) /* PhysicsEffectTable */;

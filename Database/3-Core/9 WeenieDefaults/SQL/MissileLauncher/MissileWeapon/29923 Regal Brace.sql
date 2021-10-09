@@ -16,7 +16,7 @@ VALUES (29923,   1,        256) /* ItemType - MissileWeapon */
      , (29923,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (29923,  49,         30) /* WeaponTime */
      , (29923,  50,          4) /* AmmoType - Atlatl */
-     , (29923,  51,          2) /* CombatUse - Missle */
+     , (29923,  51,          2) /* CombatUse - Missile */
      , (29923,  60,        120) /* WeaponRange */
      , (29923,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29923, 106,        275) /* ItemSpellcraft */
@@ -34,7 +34,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29923,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29923,   5, -0.0333) /* ManaRate */
+VALUES (29923,   5,  -0.033) /* ManaRate */
      , (29923,  26,    24.9) /* MaximumVelocity */
      , (29923,  29,     1.1) /* WeaponDefense */
      , (29923,  39,       1) /* DefaultScale */
@@ -48,14 +48,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29923,   1, 'Regal Brace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29923,   1,   33559056) /* Setup */
-     , (29923,   3,  536870932) /* SoundTable */
-     , (29923,   8,  100676974) /* Icon */
-     , (29923,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29923,   1, 0x02001210) /* Setup */
+     , (29923,   3, 0x20000014) /* SoundTable */
+     , (29923,   8, 0x0600356E) /* Icon */
+     , (29923,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29923,   243,      2)  /* Invulnerability Other V */
+VALUES (29923,  1604,      2)  /* Aura of Defender Self V */
      , (29923,  1359,      2)  /* Endurance Other V */
-     , (29923,  1604,      2)  /* Aura of Defender Self V */
      , (29923,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (29923,   243,      2)  /* Invulnerability Other V */
      , (29923,  1625,      2)  /* Aura of Swift Killer Self IV */;

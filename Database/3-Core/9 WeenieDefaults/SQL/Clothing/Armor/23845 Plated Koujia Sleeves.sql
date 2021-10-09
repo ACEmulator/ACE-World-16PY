@@ -47,12 +47,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23845,   1, 'Plated Koujia Sleeves') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23845,   1,   33554655) /* Setup */
-     , (23845,   3,  536870932) /* SoundTable */
-     , (23845,   6,   67108990) /* PaletteBase */
-     , (23845,   7,  268435851) /* ClothingBase */
-     , (23845,   8,  100674075) /* Icon */
-     , (23845,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23845,   1, 0x020000DF) /* Setup */
+     , (23845,   3, 0x20000014) /* SoundTable */
+     , (23845,   6, 0x0400007E) /* PaletteBase */
+     , (23845,   7, 0x1000018B) /* ClothingBase */
+     , (23845,   8, 0x06002A1B) /* Icon */
+     , (23845,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23845,  2610,      2)  /* Major Bludgeoning Ward */;

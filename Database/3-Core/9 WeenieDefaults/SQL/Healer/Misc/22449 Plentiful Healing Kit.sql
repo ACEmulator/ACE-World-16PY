@@ -29,7 +29,7 @@ VALUES (22449,   1, 'Plentiful Healing Kit') /* Name */
      , (22449,  15, 'A healing kit that has a heady scent.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22449,   1,   33555194) /* Setup */
-     , (22449,   6,   67111092) /* PaletteBase */
-     , (22449,   7,  268436502) /* ClothingBase */
-     , (22449,   8,  100673800) /* Icon */;
+VALUES (22449,   1, 0x020002FA) /* Setup */
+     , (22449,   6, 0x040008B4) /* PaletteBase */
+     , (22449,   7, 0x10000416) /* ClothingBase */
+     , (22449,   8, 0x06002908) /* Icon */;

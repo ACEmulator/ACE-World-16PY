@@ -30,9 +30,9 @@ VALUES (21342,   1, 'Infused Mid-Grade Chorizite Ore') /* Name */
      , (21342,  16, 'A mid-grade chunk of refined chorizite ore infused with the essence of a fletching tool.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21342,   1,   33555677) /* Setup */
-     , (21342,   3,  536870932) /* SoundTable */
-     , (21342,   6,   67111919) /* PaletteBase */
-     , (21342,   7,  268435723) /* ClothingBase */
-     , (21342,   8,  100673578) /* Icon */
-     , (21342,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21342,   1, 0x020004DD) /* Setup */
+     , (21342,   3, 0x20000014) /* SoundTable */
+     , (21342,   6, 0x04000BEF) /* PaletteBase */
+     , (21342,   7, 0x1000010B) /* ClothingBase */
+     , (21342,   8, 0x0600282A) /* Icon */
+     , (21342,  22, 0x3400002B) /* PhysicsEffectTable */;

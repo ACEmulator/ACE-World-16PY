@@ -37,9 +37,9 @@ VALUES (21483,   1, 'Nuhumudira''s Robe') /* Name */
      , (21483,  15, 'A fine robe shimmering with silk fibers.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21483,   1,   33554854) /* Setup */
-     , (21483,   3,  536870932) /* SoundTable */
-     , (21483,   6,   67108990) /* PaletteBase */
-     , (21483,   7,  268436454) /* ClothingBase */
-     , (21483,   8,  100672146) /* Icon */
-     , (21483,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21483,   1, 0x020001A6) /* Setup */
+     , (21483,   3, 0x20000014) /* SoundTable */
+     , (21483,   6, 0x0400007E) /* PaletteBase */
+     , (21483,   7, 0x100003E6) /* ClothingBase */
+     , (21483,   8, 0x06002292) /* Icon */
+     , (21483,  22, 0x3400002B) /* PhysicsEffectTable */;

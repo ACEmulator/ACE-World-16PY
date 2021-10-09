@@ -31,10 +31,10 @@ VALUES (8319,   1, 'Powdered Hematite Pea') /* Name */
      , (8319,  16, 'A concentrated powdered hematite pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8319,   1,   33555208) /* Setup */
-     , (8319,   3,  536870932) /* SoundTable */
-     , (8319,   6,   67111919) /* PaletteBase */
-     , (8319,   7,  268435778) /* ClothingBase */
-     , (8319,   8,  100671071) /* Icon */
-     , (8319,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8319,   1, 0x02000308) /* Setup */
+     , (8319,   3, 0x20000014) /* SoundTable */
+     , (8319,   6, 0x04000BEF) /* PaletteBase */
+     , (8319,   7, 0x10000142) /* ClothingBase */
+     , (8319,   8, 0x06001E5F) /* Icon */
+     , (8319,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8319,  29,        142) /* SpellComponent */;

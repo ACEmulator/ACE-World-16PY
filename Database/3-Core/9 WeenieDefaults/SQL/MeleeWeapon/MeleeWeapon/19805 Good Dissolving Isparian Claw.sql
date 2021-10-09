@@ -51,12 +51,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19805,   1, 'Good Dissolving Isparian Claw') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19805,   1,   33556359) /* Setup */
-     , (19805,   3,  536870932) /* SoundTable */
-     , (19805,   6,   67111919) /* PaletteBase */
-     , (19805,   7,  268436380) /* ClothingBase */
-     , (19805,   8,  100672910) /* Icon */
-     , (19805,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19805,   1, 0x02000787) /* Setup */
+     , (19805,   3, 0x20000014) /* SoundTable */
+     , (19805,   6, 0x04000BEF) /* PaletteBase */
+     , (19805,   7, 0x1000039C) /* ClothingBase */
+     , (19805,   8, 0x0600258E) /* Icon */
+     , (19805,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19805,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

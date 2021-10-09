@@ -25,7 +25,7 @@ VALUES (3570,   1, 'Scroll of War Magic Mastery Other IV') /* Name */
      , (3570,  16, 'When learned, this spell increases the target''s War Magic skill by 75%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3570,   1,   33554826) /* Setup */
-     , (3570,   8,  100676479) /* Icon */
-     , (3570,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3570,   1, 0x0200018A) /* Setup */
+     , (3570,   8, 0x0600337F) /* Icon */
+     , (3570,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3570,  28,        638) /* Spell - War Magic Mastery Other IV */;

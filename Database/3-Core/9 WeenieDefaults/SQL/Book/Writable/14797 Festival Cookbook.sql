@@ -24,10 +24,10 @@ VALUES (14797,   1, 'Festival Cookbook') /* Name */
      , (14797,  16, 'A collection of recipes created during the Festival Season, PY 13.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14797,   1,   33554771) /* Setup */
-     , (14797,   3,  536870932) /* SoundTable */
-     , (14797,   8,  100668117) /* Icon */
-     , (14797,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14797,   1, 0x02000153) /* Setup */
+     , (14797,   3, 0x20000014) /* SoundTable */
+     , (14797,   8, 0x060012D5) /* Icon */
+     , (14797,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (14797, 15, 1000);

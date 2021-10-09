@@ -51,16 +51,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19891,   1, 'Quality Flaming Isparian Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19891,   1,   33556365) /* Setup */
-     , (19891,   3,  536870932) /* SoundTable */
-     , (19891,   6,   67111919) /* PaletteBase */
-     , (19891,   7,  268436382) /* ClothingBase */
-     , (19891,   8,  100672921) /* Icon */
-     , (19891,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19891,   1, 0x0200078D) /* Setup */
+     , (19891,   3, 0x20000014) /* SoundTable */
+     , (19891,   6, 0x04000BEF) /* PaletteBase */
+     , (19891,   7, 0x1000039E) /* ClothingBase */
+     , (19891,   8, 0x06002599) /* Icon */
+     , (19891,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19891,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19891,  1094,      2)  /* Fire Protection Self VI */
-     , (19891,  1331,      2)  /* Strength Self V */
      , (19891,  1589,      2)  /* Aura of Heart Seeker Self III */
-     , (19891,  1613,      2)  /* Aura of Blood Drinker Self III */;
+     , (19891,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (19891,  1331,      2)  /* Strength Self V */;

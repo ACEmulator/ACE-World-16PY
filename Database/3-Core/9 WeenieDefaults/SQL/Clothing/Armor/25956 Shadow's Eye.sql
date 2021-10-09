@@ -32,7 +32,7 @@ VALUES (25956,  22, True ) /* Inscribable */
      , (25956,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25956,   5, -0.0333) /* ManaRate */
+VALUES (25956,   5,  -0.033) /* ManaRate */
      , (25956,  12,    0.66) /* Shade */
      , (25956,  13,       1) /* ArmorModVsSlash */
      , (25956,  14,     1.2) /* ArmorModVsPierce */
@@ -49,15 +49,15 @@ VALUES (25956,   1, 'Shadow''s Eye') /* Name */
      , (25956,  16, 'A facial wrap that protects your face from sandstorms, and occludes your face from the eyes of others. It is rumored that these were the same masks worn by the Shagar Zharala during their assassination of King Laszko. This particular wrap appears to have a Woven Tassel of Far Sight attached to it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25956,   1,   33556861) /* Setup */
-     , (25956,   3,  536870932) /* SoundTable */
-     , (25956,   6,   67108990) /* PaletteBase */
-     , (25956,   7,  268436079) /* ClothingBase */
-     , (25956,   8,  100671133) /* Icon */
-     , (25956,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25956,   1, 0x0200097D) /* Setup */
+     , (25956,   3, 0x20000014) /* SoundTable */
+     , (25956,   6, 0x0400007E) /* PaletteBase */
+     , (25956,   7, 0x1000026F) /* ClothingBase */
+     , (25956,   8, 0x06001E9D) /* Icon */
+     , (25956,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25956,   248,      2)  /* Invulnerability Self V */
-     , (25956,   471,      2)  /* Missile Weapon Mastery Self V */
      , (25956,   495,      2)  /* Missile Weapon Mastery Self V */
+     , (25956,   471,      2)  /* Missile Weapon Mastery Self V */
      , (25956,   543,      2)  /* Missile Weapon Mastery Self V */;

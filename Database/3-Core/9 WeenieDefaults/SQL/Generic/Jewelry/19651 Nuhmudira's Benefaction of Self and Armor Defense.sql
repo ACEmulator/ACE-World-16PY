@@ -41,15 +41,15 @@ VALUES (19651,   1, 'Nuhmudira''s Benefaction of Self and Armor Defense') /* Nam
      , (19651,  16, 'A green gorget, crafted from a strong metal, imbued with an elixir of perseverance and elixir of preservation. As you hold the gorget in your hand you feel a soft vibration.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19651,   1,   33554687) /* Setup */
-     , (19651,   3,  536870932) /* SoundTable */
-     , (19651,   6,   67111919) /* PaletteBase */
-     , (19651,   7,  268436388) /* ClothingBase */
-     , (19651,   8,  100668632) /* Icon */
-     , (19651,  22,  872415275) /* PhysicsEffectTable */
-     , (19651,  36,  234881046) /* MutateFilter */;
+VALUES (19651,   1, 0x020000FF) /* Setup */
+     , (19651,   3, 0x20000014) /* SoundTable */
+     , (19651,   6, 0x04000BEF) /* PaletteBase */
+     , (19651,   7, 0x100003A4) /* ClothingBase */
+     , (19651,   8, 0x060014D8) /* Icon */
+     , (19651,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (19651,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19651,  1314,      2)  /* Armor Other III */
-     , (19651,  1453,      2)  /* Willpower Other III */
-     , (19651,  2668,      2)  /* Nuhmudiras Benefaction */;
+     , (19651,  2668,      2)  /* Nuhmudiras Benefaction */
+     , (19651,  1453,      2)  /* Willpower Other III */;

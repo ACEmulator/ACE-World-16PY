@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (368,   1, 'Zabool Tower Base') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (368,   1,   33554867) /* Setup */
-     , (368,   2,  150994947) /* MotionTable */
-     , (368,   8,  100667499) /* Icon */;
+VALUES (368,   1, 0x020001B3) /* Setup */
+     , (368,   2, 0x09000003) /* MotionTable */
+     , (368,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (368, 2, 30605583, 20.5, -10.3, 0, -0.7229672, 0, 0, -0.6908824) /* Destination */
-/* @teleloc 0x01D3010F [20.500000 -10.300000 0.000000] -0.722967 0.000000 0.000000 -0.690882 */;
+VALUES (368, 2, 0x01D3010F, 20.5, -10.3, 0, -0.722967, 0, -0, -0.690882) /* Destination */
+/* @teleloc 0x01D3010F [20.500000 -10.300000 0.000000] -0.722967 0.000000 -0.000000 -0.690882 */;

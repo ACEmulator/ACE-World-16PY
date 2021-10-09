@@ -37,10 +37,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8633,   1, 'Acid Scimitar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8633,   1,   33555767) /* Setup */
-     , (8633,   3,  536870932) /* SoundTable */
-     , (8633,   6,   67111919) /* PaletteBase */
-     , (8633,   7,  268435765) /* ClothingBase */
-     , (8633,   8,  100667604) /* Icon */
-     , (8633,  22,  872415275) /* PhysicsEffectTable */
-     , (8633,  36,  234881044) /* MutateFilter */;
+VALUES (8633,   1, 0x02000537) /* Setup */
+     , (8633,   3, 0x20000014) /* SoundTable */
+     , (8633,   6, 0x04000BEF) /* PaletteBase */
+     , (8633,   7, 0x10000135) /* ClothingBase */
+     , (8633,   8, 0x060010D4) /* Icon */
+     , (8633,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8633,  36, 0x0E000014) /* MutateFilter */;

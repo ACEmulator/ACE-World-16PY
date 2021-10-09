@@ -30,7 +30,7 @@ VALUES (24683,   1, 'Aqua Vitae') /* Name */
      , (24683,  20, 'Vials of Aqua Vitae') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24683,   1,   33555963) /* Setup */
-     , (24683,   3,  536870932) /* SoundTable */
-     , (24683,   8,  100674417) /* Icon */
-     , (24683,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24683,   1, 0x020005FB) /* Setup */
+     , (24683,   3, 0x20000014) /* SoundTable */
+     , (24683,   8, 0x06002B71) /* Icon */
+     , (24683,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -25,9 +25,9 @@ VALUES (16921,   1, 'Silk') /* Name */
      , (16921,  33, 'GrievverSilk') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (16921,   1,   33554669) /* Setup */
-     , (16921,   3,  536870932) /* SoundTable */
-     , (16921,   6,   67111928) /* PaletteBase */
-     , (16921,   7,  268436389) /* ClothingBase */
-     , (16921,   8,  100672976) /* Icon */
-     , (16921,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (16921,   1, 0x020000ED) /* Setup */
+     , (16921,   3, 0x20000014) /* SoundTable */
+     , (16921,   6, 0x04000BF8) /* PaletteBase */
+     , (16921,   7, 0x100003A5) /* ClothingBase */
+     , (16921,   8, 0x060025D0) /* Icon */
+     , (16921,  22, 0x3400002B) /* PhysicsEffectTable */;

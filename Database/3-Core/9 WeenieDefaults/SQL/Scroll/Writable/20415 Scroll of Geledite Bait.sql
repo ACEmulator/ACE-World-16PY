@@ -24,7 +24,7 @@ VALUES (20415,   1, 'Scroll of Geledite Bait') /* Name */
      , (20415,  15, 'When learned, this spell decreases a shield or piece of armor''s resistance to cold damage by 170%.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20415,   1,   33554826) /* Setup */
-     , (20415,   8,  100676667) /* Icon */
-     , (20415,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20415,   1, 0x0200018A) /* Setup */
+     , (20415,   8, 0x0600343B) /* Icon */
+     , (20415,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20415,  28,       2105) /* Spell - Gelidite Bait */;

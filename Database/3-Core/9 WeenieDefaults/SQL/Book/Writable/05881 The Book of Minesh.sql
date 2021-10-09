@@ -23,10 +23,10 @@ VALUES (5881,   1, 'The Book of Minesh') /* Name */
      , (5881,  16, 'A translation of a book taken from a powerful Revenant in the Lost City of Frore.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5881,   1,   33554771) /* Setup */
-     , (5881,   3,  536870932) /* SoundTable */
-     , (5881,   8,  100668117) /* Icon */
-     , (5881,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5881,   1, 0x02000153) /* Setup */
+     , (5881,   3, 0x20000014) /* SoundTable */
+     , (5881,   8, 0x060012D5) /* Icon */
+     , (5881,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (5881, 18, 1000);

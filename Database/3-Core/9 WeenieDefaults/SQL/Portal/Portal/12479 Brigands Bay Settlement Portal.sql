@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12479,   1, 'Brigands Bay Settlement Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12479,   1,   33554867) /* Setup */
-     , (12479,   2,  150994947) /* MotionTable */
-     , (12479,   8,  100667499) /* Icon */;
+VALUES (12479,   1, 0x020001B3) /* Setup */
+     , (12479,   2, 0x09000003) /* MotionTable */
+     , (12479,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12479, 2, 2786000909, 29.156, 116.995, 16.753, 0.5815907, 0, 0, -0.8134816) /* Destination */
-/* @teleloc 0xA60F000D [29.156000 116.995000 16.753000] 0.581591 0.000000 0.000000 -0.813482 */;
+VALUES (12479, 2, 0xA60F000D, 29.156, 116.995, 16.753, 0.581591, 0, 0, -0.813482) /* Destination */
+/* @teleloc 0xA60F000D [29.156000 116.995003 16.753000] 0.581591 0.000000 0.000000 -0.813482 */;

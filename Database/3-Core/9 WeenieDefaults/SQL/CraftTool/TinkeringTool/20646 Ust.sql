@@ -28,7 +28,7 @@ VALUES (20646,   1, 'Ust') /* Name */
      , (20646,  15, 'A tool used to extract materials from treasure items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20646,   1,   33557852) /* Setup */
-     , (20646,   3,  536870932) /* SoundTable */
-     , (20646,   8,  100673210) /* Icon */
-     , (20646,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (20646,   1, 0x02000D5C) /* Setup */
+     , (20646,   3, 0x20000014) /* SoundTable */
+     , (20646,   8, 0x060026BA) /* Icon */
+     , (20646,  22, 0x3400002B) /* PhysicsEffectTable */;

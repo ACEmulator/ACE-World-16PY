@@ -30,9 +30,9 @@ VALUES (27794,   1, 'Woven Assailer Fur') /* Name */
      , (27794,  16, 'A braided cord of tusker fur, woven by the Neydisa loom.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27794,   1,   33554817) /* Setup */
-     , (27794,   3,  536870932) /* SoundTable */
-     , (27794,   6,   67111919) /* PaletteBase */
-     , (27794,   7,  268435832) /* ClothingBase */
-     , (27794,   8,  100676574) /* Icon */
-     , (27794,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27794,   1, 0x02000181) /* Setup */
+     , (27794,   3, 0x20000014) /* SoundTable */
+     , (27794,   6, 0x04000BEF) /* PaletteBase */
+     , (27794,   7, 0x10000178) /* ClothingBase */
+     , (27794,   8, 0x060033DE) /* Icon */
+     , (27794,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -28,9 +28,9 @@ VALUES (5332,   1, 'Lightning Oil') /* Name */
      , (5332,  20, 'Vials of Lightning Oil') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5332,   1,   33555967) /* Setup */
-     , (5332,   3,  536870932) /* SoundTable */
-     , (5332,   6,   67111919) /* PaletteBase */
-     , (5332,   7,  268435815) /* ClothingBase */
-     , (5332,   8,  100670008) /* Icon */
-     , (5332,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5332,   1, 0x020005FF) /* Setup */
+     , (5332,   3, 0x20000014) /* SoundTable */
+     , (5332,   6, 0x04000BEF) /* PaletteBase */
+     , (5332,   7, 0x10000167) /* ClothingBase */
+     , (5332,   8, 0x06001A38) /* Icon */
+     , (5332,  22, 0x3400002B) /* PhysicsEffectTable */;

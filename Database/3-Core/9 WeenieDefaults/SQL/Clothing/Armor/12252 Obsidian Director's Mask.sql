@@ -47,14 +47,14 @@ VALUES (12252,   1, 'Obsidian Director''s Mask') /* Name */
      , (12252,  33, 'MaskDirectorOct01') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12252,   1,   33556827) /* Setup */
-     , (12252,   3,  536870932) /* SoundTable */
-     , (12252,   6,   67108990) /* PaletteBase */
-     , (12252,   7,  268436258) /* ClothingBase */
-     , (12252,   8,  100672192) /* Icon */
-     , (12252,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12252,   1, 0x0200095B) /* Setup */
+     , (12252,   3, 0x20000014) /* SoundTable */
+     , (12252,   6, 0x0400007E) /* PaletteBase */
+     , (12252,   7, 0x10000322) /* ClothingBase */
+     , (12252,   8, 0x060022C0) /* Icon */
+     , (12252,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12252,   248,      2)  /* Invulnerability Self V */
+VALUES (12252,  1485,      2)  /* Impenetrability V */
      , (12252,  1425,      2)  /* Focus Self V */
-     , (12252,  1485,      2)  /* Impenetrability V */;
+     , (12252,   248,      2)  /* Invulnerability Self V */;

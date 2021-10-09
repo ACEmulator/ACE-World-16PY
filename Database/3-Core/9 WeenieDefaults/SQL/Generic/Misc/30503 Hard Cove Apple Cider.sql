@@ -27,9 +27,9 @@ VALUES (30503,   1, 'Hard Cove Apple Cider') /* Name */
      , (30503,  33, 'YaraqCiderHardCoveApple1204') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30503,   1,   33554602) /* Setup */
-     , (30503,   3,  536871012) /* SoundTable */
-     , (30503,   6,   67111919) /* PaletteBase */
-     , (30503,   7,  268435733) /* ClothingBase */
-     , (30503,   8,  100667410) /* Icon */
-     , (30503,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30503,   1, 0x020000AA) /* Setup */
+     , (30503,   3, 0x20000064) /* SoundTable */
+     , (30503,   6, 0x04000BEF) /* PaletteBase */
+     , (30503,   7, 0x10000115) /* ClothingBase */
+     , (30503,   8, 0x06001012) /* Icon */
+     , (30503,  22, 0x3400002B) /* PhysicsEffectTable */;

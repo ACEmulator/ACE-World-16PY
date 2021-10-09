@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15680,   1, 'Peril''s Edge Cottages Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15680,   1,   33554867) /* Setup */
-     , (15680,   2,  150994947) /* MotionTable */
-     , (15680,   8,  100667499) /* Icon */;
+VALUES (15680,   1, 0x020001B3) /* Setup */
+     , (15680,   2, 0x09000003) /* MotionTable */
+     , (15680,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15680, 2, 1100742685, 74.381, 117.164, 96.005, 0.3779216, 0, 0, -0.9258376) /* Destination */
-/* @teleloc 0x419C001D [74.381000 117.164000 96.005000] 0.377922 0.000000 0.000000 -0.925838 */;
+VALUES (15680, 2, 0x419C001D, 74.381, 117.164, 96.005, 0.377922, 0, 0, -0.925838) /* Destination */
+/* @teleloc 0x419C001D [74.380997 117.164001 96.004997] 0.377922 0.000000 0.000000 -0.925838 */;

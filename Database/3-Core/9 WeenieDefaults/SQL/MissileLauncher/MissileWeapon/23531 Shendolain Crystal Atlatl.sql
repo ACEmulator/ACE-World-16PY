@@ -18,7 +18,7 @@ VALUES (23531,   1,        256) /* ItemType - MissileWeapon */
      , (23531,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (23531,  49,         30) /* WeaponTime */
      , (23531,  50,         32) /* AmmoType - AtlatlCrystal */
-     , (23531,  51,          2) /* CombatUse - Missle */
+     , (23531,  51,          2) /* CombatUse - Missile */
      , (23531,  60,        120) /* WeaponRange */
      , (23531,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23531, 106,        200) /* ItemSpellcraft */
@@ -47,15 +47,15 @@ VALUES (23531,   1, 'Shendolain Crystal Atlatl') /* Name */
      , (23531,  16, 'An atlatl imbued with the essence of the Shendolain Crystal. Uses crystal-tipped darts.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23531,   1,   33557433) /* Setup */
-     , (23531,   3,  536870932) /* SoundTable */
-     , (23531,   6,   67111919) /* PaletteBase */
-     , (23531,   7,  268436042) /* ClothingBase */
-     , (23531,   8,  100674035) /* Icon */
-     , (23531,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23531,   1, 0x02000BB9) /* Setup */
+     , (23531,   3, 0x20000014) /* SoundTable */
+     , (23531,   6, 0x04000BEF) /* PaletteBase */
+     , (23531,   7, 0x1000024A) /* ClothingBase */
+     , (23531,   8, 0x060029F3) /* Icon */
+     , (23531,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23531,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23531,   537,      2)  /* Missile Weapon Mastery Other V */
-     , (23531,  1615,      2)  /* Aura of Blood Drinker Self V */
+VALUES (23531,  1615,      2)  /* Aura of Blood Drinker Self V */
+     , (23531,   537,      2)  /* Missile Weapon Mastery Other V */
      , (23531,  1626,      2)  /* Aura of Swift Killer Self V */;

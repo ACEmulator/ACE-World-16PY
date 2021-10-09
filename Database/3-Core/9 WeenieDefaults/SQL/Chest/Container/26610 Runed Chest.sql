@@ -41,11 +41,11 @@ VALUES (26610,   1, 'Runed Chest') /* Name */
      , (26610,  33, 'ChestQuestLockedNewbiePOIA') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26610,   1,   33558095) /* Setup */
-     , (26610,   2,  150994948) /* MotionTable */
-     , (26610,   3,  536870945) /* SoundTable */
-     , (26610,   8,  100667424) /* Icon */
-     , (26610,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (26610,   1, 0x02000E4F) /* Setup */
+     , (26610,   2, 0x09000004) /* MotionTable */
+     , (26610,   3, 0x20000021) /* SoundTable */
+     , (26610,   8, 0x06001020) /* Icon */
+     , (26610,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (26610, -1, 414, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 1 from Death Treasure Table id: 414 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;

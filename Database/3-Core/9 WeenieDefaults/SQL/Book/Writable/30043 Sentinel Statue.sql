@@ -32,13 +32,13 @@ VALUES (30043,   1, 'Sentinel Statue') /* Name */
      , (30043,  16, 'A memorial to those who served.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30043,   1,   33557020) /* Setup */
-     , (30043,   2,  150995125) /* MotionTable */
-     , (30043,   3,  536871026) /* SoundTable */
-     , (30043,   6,   67108990) /* PaletteBase */
-     , (30043,   7,  268436177) /* ClothingBase */
-     , (30043,   8,  100671531) /* Icon */
-     , (30043,  19,  268435537) /* ActivationAnimation - Twitch1 */;
+VALUES (30043,   1, 0x02000A1C) /* Setup */
+     , (30043,   2, 0x090000B5) /* MotionTable */
+     , (30043,   3, 0x20000072) /* SoundTable */
+     , (30043,   6, 0x0400007E) /* PaletteBase */
+     , (30043,   7, 0x100002D1) /* ClothingBase */
+     , (30043,   8, 0x0600202B) /* Icon */
+     , (30043,  19, 0x10000051) /* ActivationAnimation - Twitch1 */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (30043, 1, 1000);

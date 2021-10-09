@@ -31,7 +31,7 @@ VALUES (24732,   1, 'Crucible with Turpeth Potion') /* Name */
      , (24732,  20, 'Crucibles with Turpeth Potion') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24732,   1,   33555966) /* Setup */
-     , (24732,   3,  536870932) /* SoundTable */
-     , (24732,   8,  100674471) /* Icon */
-     , (24732,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24732,   1, 0x020005FE) /* Setup */
+     , (24732,   3, 0x20000014) /* SoundTable */
+     , (24732,   8, 0x06002BA7) /* Icon */
+     , (24732,  22, 0x3400002B) /* PhysicsEffectTable */;

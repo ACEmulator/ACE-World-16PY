@@ -24,7 +24,7 @@ VALUES (20439,   1, 'Scroll of Silencia''s Scorn') /* Name */
      , (20439,  15, 'When learned, this spell shoots five bolts of flame outward from the caster. Each bolt does 40-80 points of fire damage to the first thing it hits.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20439,   1,   33554826) /* Setup */
-     , (20439,   8,  100677022) /* Icon */
-     , (20439,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20439,   1, 0x0200018A) /* Setup */
+     , (20439,   8, 0x0600359E) /* Icon */
+     , (20439,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20439,  28,       2127) /* Spell - Silencia's Scorn */;

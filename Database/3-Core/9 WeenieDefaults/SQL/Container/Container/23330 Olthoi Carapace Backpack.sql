@@ -27,7 +27,7 @@ VALUES (23330,   1, 'Olthoi Carapace Backpack') /* Name */
      , (23330,  16, 'A large chitinous olthoi carapace crafted into a strong, but very light backpack.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23330,   1,   33557720) /* Setup */
-     , (23330,   3,  536870932) /* SoundTable */
-     , (23330,   8,  100670055) /* Icon */
-     , (23330,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23330,   1, 0x02000CD8) /* Setup */
+     , (23330,   3, 0x20000014) /* SoundTable */
+     , (23330,   8, 0x06001A67) /* Icon */
+     , (23330,  22, 0x3400002B) /* PhysicsEffectTable */;

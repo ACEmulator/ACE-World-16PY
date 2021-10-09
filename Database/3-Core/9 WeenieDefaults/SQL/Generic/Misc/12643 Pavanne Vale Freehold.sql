@@ -22,5 +22,5 @@ VALUES (12643,   1, 'Pavanne Vale Freehold') /* Name */
      , (12643,  16, 'Welcome to Pavanne Vale Freehold') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12643,   1,   33557463) /* Setup */
-     , (12643,   8,  100668115) /* Icon */;
+VALUES (12643,   1, 0x02000BD7) /* Setup */
+     , (12643,   8, 0x060012D3) /* Icon */;

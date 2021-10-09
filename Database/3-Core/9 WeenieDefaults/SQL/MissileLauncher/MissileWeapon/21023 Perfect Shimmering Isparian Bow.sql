@@ -19,7 +19,7 @@ VALUES (21023,   1,        256) /* ItemType - MissileWeapon */
      , (21023,  48,          2) /* WeaponSkill - Bow */
      , (21023,  49,         40) /* WeaponTime */
      , (21023,  50,          1) /* AmmoType - Arrow */
-     , (21023,  51,          2) /* CombatUse - Missle */
+     , (21023,  51,          2) /* CombatUse - Missile */
      , (21023,  52,          2) /* ParentLocation - LeftHand */
      , (21023,  53,          3) /* PlacementPosition - LeftHand */
      , (21023,  60,        175) /* WeaponRange */
@@ -52,16 +52,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21023,   1, 'Perfect Shimmering Isparian Bow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21023,   1,   33557729) /* Setup */
-     , (21023,   3,  536870932) /* SoundTable */
-     , (21023,   6,   67111919) /* PaletteBase */
-     , (21023,   7,  268436420) /* ClothingBase */
-     , (21023,   8,  100673205) /* Icon */
-     , (21023,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21023,   1, 0x02000CE1) /* Setup */
+     , (21023,   3, 0x20000014) /* SoundTable */
+     , (21023,   6, 0x04000BEF) /* PaletteBase */
+     , (21023,   7, 0x100003C4) /* ClothingBase */
+     , (21023,   8, 0x060026B5) /* Icon */
+     , (21023,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21023,  37,          2) /* ItemSkillLimit - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21023,  1312,      2)  /* Armor Self VI */
-     , (21023,  1605,      2)  /* Aura of Defender Self VI */
+VALUES (21023,  1605,      2)  /* Aura of Defender Self VI */
      , (21023,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (21023,  1312,      2)  /* Armor Self VI */
      , (21023,  2687,      2)  /* Moderate Missile Weapon Aptitude */;

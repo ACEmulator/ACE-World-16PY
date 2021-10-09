@@ -45,15 +45,15 @@ VALUES (28150,   1, 'Turquoise Winged Helmet') /* Name */
      , (28150,  16, 'A winged helmet crafted from the hide of an adolescent azure gromnie.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28150,   1,   33558833) /* Setup */
-     , (28150,   3,  536870932) /* SoundTable */
-     , (28150,   6,   67108990) /* PaletteBase */
-     , (28150,   7,  268436852) /* ClothingBase */
-     , (28150,   8,  100668243) /* Icon */
-     , (28150,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28150,   1, 0x02001131) /* Setup */
+     , (28150,   3, 0x20000014) /* SoundTable */
+     , (28150,   6, 0x0400007E) /* PaletteBase */
+     , (28150,   7, 0x10000574) /* ClothingBase */
+     , (28150,   8, 0x06001353) /* Icon */
+     , (28150,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28150,  1486,      2)  /* Impenetrability VI */
+VALUES (28150,  2616,      2)  /* Minor Acid Ward */
      , (28150,  2560,      2)  /* Minor Mana Conversion Prowess */
-     , (28150,  2581,      2)  /* Minor Focus */
-     , (28150,  2616,      2)  /* Minor Acid Ward */;
+     , (28150,  1486,      2)  /* Impenetrability VI */
+     , (28150,  2581,      2)  /* Minor Focus */;

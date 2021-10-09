@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6016,   1, 'Tumerok Priest') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6016,   1,   33554496) /* Setup */
-     , (6016,   2,  150994954) /* MotionTable */
-     , (6016,   3,  536870931) /* SoundTable */
-     , (6016,   4,  805306380) /* CombatTable */
-     , (6016,   6,   67109314) /* PaletteBase */
-     , (6016,   7,  268436630) /* ClothingBase */
-     , (6016,   8,  100667452) /* Icon */
-     , (6016,  22,  872415270) /* PhysicsEffectTable */
+VALUES (6016,   1, 0x02000040) /* Setup */
+     , (6016,   2, 0x0900000A) /* MotionTable */
+     , (6016,   3, 0x20000013) /* SoundTable */
+     , (6016,   4, 0x3000000C) /* CombatTable */
+     , (6016,   6, 0x040001C2) /* PaletteBase */
+     , (6016,   7, 0x10000496) /* ClothingBase */
+     , (6016,   8, 0x0600103C) /* Icon */
+     , (6016,  22, 0x34000026) /* PhysicsEffectTable */
      , (6016,  32,        222) /* WieldedTreasureType - 
                                    Wield Yumi (23736) | Probability: 50%
                                    Wield 20x Greater Arrow (5304) | Probability: 100%
@@ -124,44 +124,44 @@ VALUES (6016,  0,  4,  0,    0,  110,  110,  110,  110,  110,  110,  110,  110, 
      , (6016,  8,  4,  5, 0.75,  110,  110,  110,  110,  110,  110,  110,  110,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6016,    61,  2.033)  /* Acid Stream IV */
-     , (6016,    62,  2.007)  /* Acid Stream V */
+VALUES (6016,    68,  2.007)  /* Shock Wave V */
+     , (6016,   259,  2.027)  /* Impregnability Self IV */
      , (6016,    67,  2.033)  /* Shock Wave IV */
-     , (6016,    68,  2.007)  /* Shock Wave V */
-     , (6016,    72,  2.033)  /* Frost Bolt IV */
      , (6016,    73,  2.007)  /* Frost Bolt V */
-     , (6016,    78,  2.033)  /* Lightning Bolt IV */
-     , (6016,    79,  2.007)  /* Lightning Bolt V */
-     , (6016,    83,  2.033)  /* Flame Bolt IV */
-     , (6016,    84,  2.007)  /* Flame Bolt V */
-     , (6016,    89,  2.033)  /* Force Bolt IV */
-     , (6016,    90,  2.007)  /* Force Bolt V */
-     , (6016,    95,  2.033)  /* Whirling Blade IV */
-     , (6016,    96,  2.007)  /* Whirling Blade V */
-     , (6016,   136,  2.033)  /* Frost Volley IV */
      , (6016,   137,  2.007)  /* Frost Volley V */
+     , (6016,  1157,   2.04)  /* Heal Self II */
+     , (6016,  1222,  2.053)  /* Mana Drain Other IV */
+     , (6016,  1158,   2.04)  /* Heal Self III */
+     , (6016,   136,  2.033)  /* Frost Volley IV */
+     , (6016,    72,  2.033)  /* Frost Bolt IV */
      , (6016,   140,  2.033)  /* Lightning Volley IV */
      , (6016,   141,  2.007)  /* Lightning Volley V */
+     , (6016,    78,  2.033)  /* Lightning Bolt IV */
+     , (6016,    79,  2.007)  /* Lightning Bolt V */
      , (6016,   144,  2.033)  /* Flame Volley IV */
      , (6016,   145,  2.007)  /* Flame Volley V */
-     , (6016,   152,  2.033)  /* Blade Volley IV */
-     , (6016,   153,  2.007)  /* Blade Volley V */
-     , (6016,   247,  2.027)  /* Invulnerability Self IV */
-     , (6016,   259,  2.027)  /* Impregnability Self IV */
+     , (6016,    83,  2.033)  /* Flame Bolt IV */
+     , (6016,    84,  2.007)  /* Flame Bolt V */
      , (6016,   277,  2.027)  /* Magic Resistance Self IV */
-     , (6016,   283,  2.053)  /* Magic Yield Other IV */
-     , (6016,  1157,   2.04)  /* Heal Self II */
-     , (6016,  1158,   2.04)  /* Heal Self III */
      , (6016,  1174,  2.053)  /* Harm Other IV */
+     , (6016,   152,  2.033)  /* Blade Volley IV */
+     , (6016,    89,  2.033)  /* Force Bolt IV */
+     , (6016,   153,  2.007)  /* Blade Volley V */
+     , (6016,    90,  2.007)  /* Force Bolt V */
+     , (6016,   283,  2.053)  /* Magic Yield Other IV */
+     , (6016,    95,  2.033)  /* Whirling Blade IV */
+     , (6016,    96,  2.007)  /* Whirling Blade V */
      , (6016,  1198,  2.053)  /* Enfeeble Other IV */
-     , (6016,  1222,  2.053)  /* Mana Drain Other IV */;
+     , (6016,   247,  2.027)  /* Invulnerability Self IV */
+     , (6016,    61,  2.033)  /* Acid Stream IV */
+     , (6016,    62,  2.007)  /* Acid Stream V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (6016,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (6016, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (6016,  5 /* HeartBeat */,   0.04, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (6016,  5 /* HeartBeat */,   0.04, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

@@ -36,11 +36,11 @@ VALUES (26178,   1, 'Firedew Portal Gem') /* Name */
      , (26178,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26178,   1,   33556769) /* Setup */
-     , (26178,   3,  536870932) /* SoundTable */
-     , (26178,   6,   67111919) /* PaletteBase */
-     , (26178,   7,  268435723) /* ClothingBase */
-     , (26178,   8,  100675760) /* Icon */
-     , (26178,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26178,   1, 0x02000921) /* Setup */
+     , (26178,   3, 0x20000014) /* SoundTable */
+     , (26178,   6, 0x04000BEF) /* PaletteBase */
+     , (26178,   7, 0x1000010B) /* ClothingBase */
+     , (26178,   8, 0x060030B0) /* Icon */
+     , (26178,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26178,  28,        157) /* Spell - Summon Primary Portal I */
      , (26178,  31,      14632) /* LinkedPortalOne - Firedew Portal */;

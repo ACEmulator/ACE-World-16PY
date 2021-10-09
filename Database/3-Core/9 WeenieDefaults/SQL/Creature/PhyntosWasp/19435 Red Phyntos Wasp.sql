@@ -63,15 +63,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19435,   1, 'Red Phyntos Wasp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19435,   1,   33558817) /* Setup */
-     , (19435,   2,  150995303) /* MotionTable */
-     , (19435,   3,  536870926) /* SoundTable */
-     , (19435,   4,  805306385) /* CombatTable */
-     , (19435,   6,   67115262) /* PaletteBase */
-     , (19435,   7,  268436836) /* ClothingBase */
-     , (19435,   8,  100667450) /* Icon */
-     , (19435,  22,  872415266) /* PhysicsEffectTable */
-     , (19435,  35,        153) /* DeathTreasureType */;
+VALUES (19435,   1, 0x02001121) /* Setup */
+     , (19435,   2, 0x09000167) /* MotionTable */
+     , (19435,   3, 0x2000000E) /* SoundTable */
+     , (19435,   4, 0x30000011) /* CombatTable */
+     , (19435,   6, 0x040018FE) /* PaletteBase */
+     , (19435,   7, 0x10000564) /* ClothingBase */
+     , (19435,   8, 0x0600103A) /* Icon */
+     , (19435,  22, 0x34000022) /* PhysicsEffectTable */
+     , (19435,  35,        153) /* DeathTreasureType - 
+                                    Drop 5x Pyreal (273) | Probability: 20% */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19435,   1,  15, 0, 0) /* Strength */
@@ -87,15 +88,15 @@ VALUES (19435,   1,     5, 0, 0, 20) /* MaxHealth */
      , (19435,   5,     0, 0, 0, 5) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (19435,  6, 0, 2, 0,  10, 0, 1120.4593385776) /* MeleeDefense        Trained */
-     , (19435,  7, 0, 2, 0,  30, 0, 1120.4593385776) /* MissileDefense      Trained */
-     , (19435, 13, 0, 2, 0,  25, 0, 1120.4593385776) /* UnarmedCombat       Trained */
-     , (19435, 14, 0, 2, 0,  30, 0, 1120.4593385776) /* ArcaneLore          Trained */
-     , (19435, 15, 0, 2, 0,  14, 0, 1120.4593385776) /* MagicDefense        Trained */
-     , (19435, 20, 0, 2, 0,   5, 0, 1120.4593385776) /* Deception           Trained */
-     , (19435, 22, 0, 2, 0,  80, 0, 1120.4593385776) /* Jump                Trained */
-     , (19435, 24, 0, 2, 0,  40, 0, 1120.4593385776) /* Run                 Trained */
-     , (19435, 34, 0, 2, 0,  17, 0, 1120.4593385776) /* WarMagic            Trained */;
+VALUES (19435,  6, 0, 2, 0,  10, 0, 1120.4593385775972) /* MeleeDefense        Trained */
+     , (19435,  7, 0, 2, 0,  30, 0, 1120.4593385775972) /* MissileDefense      Trained */
+     , (19435, 13, 0, 2, 0,  25, 0, 1120.4593385775972) /* UnarmedCombat       Trained */
+     , (19435, 14, 0, 2, 0,  30, 0, 1120.4593385775972) /* ArcaneLore          Trained */
+     , (19435, 15, 0, 2, 0,  14, 0, 1120.4593385775972) /* MagicDefense        Trained */
+     , (19435, 20, 0, 2, 0,   5, 0, 1120.4593385775972) /* Deception           Trained */
+     , (19435, 22, 0, 2, 0,  80, 0, 1120.4593385775972) /* Jump                Trained */
+     , (19435, 24, 0, 2, 0,  40, 0, 1120.4593385775972) /* Run                 Trained */
+     , (19435, 34, 0, 2, 0,  17, 0, 1120.4593385775972) /* WarMagic            Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (19435,  0,  2,  3,  0.5,   10,    8,    8,    5,    4,    3,    3,    3,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */

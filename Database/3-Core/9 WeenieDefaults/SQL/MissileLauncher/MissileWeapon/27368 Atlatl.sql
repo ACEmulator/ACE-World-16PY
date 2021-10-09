@@ -16,7 +16,7 @@ VALUES (27368,   1,        256) /* ItemType - MissileWeapon */
      , (27368,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (27368,  49,         15) /* WeaponTime */
      , (27368,  50,          4) /* AmmoType - Atlatl */
-     , (27368,  51,          2) /* CombatUse - Missle */
+     , (27368,  51,          2) /* CombatUse - Missile */
      , (27368,  60,        120) /* WeaponRange */
      , (27368,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27368, 114,          1) /* Attuned - Attuned */
@@ -39,9 +39,9 @@ VALUES (27368,   1, 'Atlatl') /* Name */
      , (27368,  16, 'A beautifully carved atlatl. Fuse this with a triple totem to create one of Palenqual''s living weapons.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27368,   1,   33558660) /* Setup */
-     , (27368,   3,  536870932) /* SoundTable */
-     , (27368,   6,   67113336) /* PaletteBase */
-     , (27368,   7,  268436252) /* ClothingBase */
-     , (27368,   8,  100676382) /* Icon */
-     , (27368,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27368,   1, 0x02001084) /* Setup */
+     , (27368,   3, 0x20000014) /* SoundTable */
+     , (27368,   6, 0x04001178) /* PaletteBase */
+     , (27368,   7, 0x1000031C) /* ClothingBase */
+     , (27368,   8, 0x0600331E) /* Icon */
+     , (27368,  22, 0x3400002B) /* PhysicsEffectTable */;

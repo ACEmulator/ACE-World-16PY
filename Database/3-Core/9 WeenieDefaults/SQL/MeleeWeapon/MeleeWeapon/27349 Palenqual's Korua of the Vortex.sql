@@ -38,7 +38,7 @@ VALUES (27349,  22, True ) /* Inscribable */
      , (27349,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27349,   5, -0.033333) /* ManaRate */
+VALUES (27349,   5,  -0.033) /* ManaRate */
      , (27349,  21,    0.52) /* WeaponLength */
      , (27349,  22,     0.5) /* DamageVariance */
      , (27349,  29,    1.08) /* WeaponDefense */
@@ -52,20 +52,20 @@ VALUES (27349,   1, 'Palenqual''s Korua of the Vortex') /* Name */
      , (27349,  16, 'A korua fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27349,   1,   33558664) /* Setup */
-     , (27349,   3,  536870932) /* SoundTable */
-     , (27349,   6,   67113336) /* PaletteBase */
-     , (27349,   7,  268436253) /* ClothingBase */
-     , (27349,   8,  100676372) /* Icon */
-     , (27349,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27349,   1, 0x02001088) /* Setup */
+     , (27349,   3, 0x20000014) /* SoundTable */
+     , (27349,   6, 0x04001178) /* PaletteBase */
+     , (27349,   7, 0x1000031D) /* ClothingBase */
+     , (27349,   8, 0x06003314) /* Icon */
+     , (27349,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27349,  2438,      2)  /* Lesser Rockslide */
      , (27349,  2441,      2)  /* Lesser Stone Cliffs */
      , (27349,  2444,      2)  /* Lesser Strength of Earth */
      , (27349,  2447,      2)  /* Lesser Growth */
+     , (27349,  3229,      2)  /* Cascade */
      , (27349,  2450,      2)  /* Lesser Hunter's Acumen */
      , (27349,  2453,      2)  /* Lesser Thorns */
      , (27349,  2472,      2)  /* Still Water */
-     , (27349,  2475,      2)  /* Torrent */
-     , (27349,  3229,      2)  /* Cascade */;
+     , (27349,  2475,      2)  /* Torrent */;

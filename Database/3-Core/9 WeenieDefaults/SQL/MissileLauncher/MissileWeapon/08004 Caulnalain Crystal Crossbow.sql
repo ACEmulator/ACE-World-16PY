@@ -18,7 +18,7 @@ VALUES (8004,   1,        256) /* ItemType - MissileWeapon */
      , (8004,  48,          3) /* WeaponSkill - Crossbow */
      , (8004,  49,        120) /* WeaponTime */
      , (8004,  50,         16) /* AmmoType - BoltCrystal */
-     , (8004,  51,          2) /* CombatUse - Missle */
+     , (8004,  51,          2) /* CombatUse - Missile */
      , (8004,  52,          2) /* ParentLocation - LeftHand */
      , (8004,  53,          3) /* PlacementPosition - LeftHand */
      , (8004,  60,        180) /* WeaponRange */
@@ -50,15 +50,15 @@ VALUES (8004,   1, 'Caulnalain Crystal Crossbow') /* Name */
      , (8004,  16, 'A crossbow imbued with the essence of the Caulnalain Crystal. Uses crystal-tipped quarrels.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8004,   1,   33554733) /* Setup */
-     , (8004,   3,  536870932) /* SoundTable */
-     , (8004,   6,   67111919) /* PaletteBase */
-     , (8004,   7,  268436042) /* ClothingBase */
-     , (8004,   8,  100671003) /* Icon */
-     , (8004,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8004,   1, 0x0200012D) /* Setup */
+     , (8004,   3, 0x20000014) /* SoundTable */
+     , (8004,   6, 0x04000BEF) /* PaletteBase */
+     , (8004,   7, 0x1000024A) /* ClothingBase */
+     , (8004,   8, 0x06001E1B) /* Icon */
+     , (8004,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8004,  37,          3) /* ItemSkillLimit - Crossbow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8004,   488,      2)  /* Missile Weapon Mastery Other IV */
-     , (8004,  1614,      2)  /* Aura of Blood Drinker Self IV */
-     , (8004,  1625,      2)  /* Aura of Swift Killer Self IV */;
+VALUES (8004,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (8004,  1625,      2)  /* Aura of Swift Killer Self IV */
+     , (8004,   488,      2)  /* Missile Weapon Mastery Other IV */;

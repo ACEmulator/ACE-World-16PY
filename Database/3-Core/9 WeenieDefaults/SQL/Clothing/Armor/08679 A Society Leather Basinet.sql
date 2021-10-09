@@ -43,13 +43,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8679,   1, 'A Society Leather Basinet') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8679,   1,   33555048) /* Setup */
-     , (8679,   3,  536870932) /* SoundTable */
-     , (8679,   6,   67108990) /* PaletteBase */
-     , (8679,   7,  268435512) /* ClothingBase */
-     , (8679,   8,  100668241) /* Icon */
-     , (8679,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8679,   1, 0x02000268) /* Setup */
+     , (8679,   3, 0x20000014) /* SoundTable */
+     , (8679,   6, 0x0400007E) /* PaletteBase */
+     , (8679,   7, 0x10000038) /* ClothingBase */
+     , (8679,   8, 0x06001351) /* Icon */
+     , (8679,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8679,  1313,      2)  /* Armor Other II */
-     , (8679,  1482,      2)  /* Impenetrability II */;
+VALUES (8679,  1482,      2)  /* Impenetrability II */
+     , (8679,  1313,      2)  /* Armor Other II */;

@@ -36,11 +36,11 @@ VALUES (26174,   1, 'Far Claw Villas Portal Gem') /* Name */
      , (26174,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26174,   1,   33556769) /* Setup */
-     , (26174,   3,  536870932) /* SoundTable */
-     , (26174,   6,   67111919) /* PaletteBase */
-     , (26174,   7,  268435723) /* ClothingBase */
-     , (26174,   8,  100675760) /* Icon */
-     , (26174,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26174,   1, 0x02000921) /* Setup */
+     , (26174,   3, 0x20000014) /* SoundTable */
+     , (26174,   6, 0x04000BEF) /* PaletteBase */
+     , (26174,   7, 0x1000010B) /* ClothingBase */
+     , (26174,   8, 0x060030B0) /* Icon */
+     , (26174,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26174,  28,        157) /* Spell - Summon Primary Portal I */
      , (26174,  31,      13104) /* LinkedPortalOne - Far Claw Villas Portal */;

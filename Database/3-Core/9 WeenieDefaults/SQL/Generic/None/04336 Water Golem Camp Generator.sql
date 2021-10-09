@@ -21,11 +21,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4336,   1, 'Water Golem Camp Generator') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4336,   1,   33555051) /* Setup */
-     , (4336,   8,  100667494) /* Icon */;
+VALUES (4336,   1, 0x0200026B) /* Setup */
+     , (4336,   8, 0x06001066) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4336, 0.2, 941, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 4, 0, 0, 0.9238795, 0, 0, -0.3826835) /* Generate Water Golem (941) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (4336, 0.4, 941, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 1, 0, 0.9659258, 0, 0, -0.258819) /* Generate Water Golem (941) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (4336, 0.7, 941, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2.4, 0, 0, -0.6427876, 0, 0, -0.7660444) /* Generate Water Golem (941) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (4336, 1, 941, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, -2, 0, 0.7071068, 0, 0, -0.7071068) /* Generate Water Golem (941) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (4336, 0.2, 941, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 4, 0, 0, 0.92388, 0, 0, -0.382684) /* Generate Water Golem (941) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (4336, 0.4, 941, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 1, 0, 0.965926, 0, 0, -0.258819) /* Generate Water Golem (941) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (4336, 0.7, 941, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2.4, 0, 0, -0.642788, 0, -0, -0.766044) /* Generate Water Golem (941) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (4336, 1, 941, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, -2, 0, 0.707107, 0, 0, -0.707107) /* Generate Water Golem (941) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

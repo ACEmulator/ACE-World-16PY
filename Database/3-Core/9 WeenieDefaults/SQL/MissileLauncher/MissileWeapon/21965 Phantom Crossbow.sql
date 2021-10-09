@@ -18,7 +18,7 @@ VALUES (21965,   1,        256) /* ItemType - MissileWeapon */
      , (21965,  48,          3) /* WeaponSkill - Crossbow */
      , (21965,  49,         60) /* WeaponTime */
      , (21965,  50,        128) /* AmmoType - BoltChorizite */
-     , (21965,  51,          2) /* CombatUse - Missle */
+     , (21965,  51,          2) /* CombatUse - Missile */
      , (21965,  52,          2) /* ParentLocation - LeftHand */
      , (21965,  53,          3) /* PlacementPosition - LeftHand */
      , (21965,  60,        192) /* WeaponRange */
@@ -50,10 +50,10 @@ VALUES (21965,   1, 'Phantom Crossbow') /* Name */
      , (21965,  16, 'A crossbow with a ghostly hue crafted from pure chorizite, resitant to any enchantment.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21965,   1,   33554732) /* Setup */
-     , (21965,   3,  536870932) /* SoundTable */
-     , (21965,   6,   67111919) /* PaletteBase */
-     , (21965,   7,  268435762) /* ClothingBase */
-     , (21965,   8,  100668835) /* Icon */
-     , (21965,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21965,   1, 0x0200012C) /* Setup */
+     , (21965,   3, 0x20000014) /* SoundTable */
+     , (21965,   6, 0x04000BEF) /* PaletteBase */
+     , (21965,   7, 0x10000132) /* ClothingBase */
+     , (21965,   8, 0x060015A3) /* Icon */
+     , (21965,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21965,  30,         88) /* PhysicsScript - Create */;

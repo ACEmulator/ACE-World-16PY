@@ -49,16 +49,16 @@ VALUES (23528,   1, 'Hamud''s Pyreal Katar') /* Name */
      , (23528,  16, 'An exquisitely crafted katar with a damascened blade.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23528,   1,   33556277) /* Setup */
-     , (23528,   3,  536870932) /* SoundTable */
-     , (23528,   6,   67111919) /* PaletteBase */
-     , (23528,   7,  268435978) /* ClothingBase */
-     , (23528,   8,  100668925) /* Icon */
-     , (23528,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23528,   1, 0x02000735) /* Setup */
+     , (23528,   3, 0x20000014) /* SoundTable */
+     , (23528,   6, 0x04000BEF) /* PaletteBase */
+     , (23528,   7, 0x1000020A) /* ClothingBase */
+     , (23528,   8, 0x060015FD) /* Icon */
+     , (23528,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23528,  1407,      2)  /* Quickness Other V */
-     , (23528,  1591,      2)  /* Aura of Heart Seeker Self V */
-     , (23528,  1604,      2)  /* Aura of Defender Self V */
+VALUES (23528,  1604,      2)  /* Aura of Defender Self V */
      , (23528,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (23528,  1623,      2)  /* Aura of Swift Killer Self II */;
+     , (23528,  1591,      2)  /* Aura of Heart Seeker Self V */
+     , (23528,  1623,      2)  /* Aura of Swift Killer Self II */
+     , (23528,  1407,      2)  /* Quickness Other V */;

@@ -25,9 +25,9 @@ VALUES (25901,   1, 'Doomshark Hide') /* Name */
      , (25901,  16, 'A hide carefully cut from the corpse of a doomshark.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25901,   1,   33554817) /* Setup */
-     , (25901,   3,  536870932) /* SoundTable */
-     , (25901,   6,   67111919) /* PaletteBase */
-     , (25901,   7,  268435832) /* ClothingBase */
-     , (25901,   8,  100675632) /* Icon */
-     , (25901,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25901,   1, 0x02000181) /* Setup */
+     , (25901,   3, 0x20000014) /* SoundTable */
+     , (25901,   6, 0x04000BEF) /* PaletteBase */
+     , (25901,   7, 0x10000178) /* ClothingBase */
+     , (25901,   8, 0x06003030) /* Icon */
+     , (25901,  22, 0x3400002B) /* PhysicsEffectTable */;

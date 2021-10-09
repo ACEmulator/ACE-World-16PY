@@ -19,7 +19,7 @@ VALUES (20071,   1,        256) /* ItemType - MissileWeapon */
      , (20071,  48,          2) /* WeaponSkill - Bow */
      , (20071,  49,         40) /* WeaponTime */
      , (20071,  50,          1) /* AmmoType - Arrow */
-     , (20071,  51,          2) /* CombatUse - Missle */
+     , (20071,  51,          2) /* CombatUse - Missile */
      , (20071,  52,          2) /* ParentLocation - LeftHand */
      , (20071,  53,          3) /* PlacementPosition - LeftHand */
      , (20071,  60,        175) /* WeaponRange */
@@ -52,17 +52,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20071,   1, 'Good Chilling Isparian Bow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20071,   1,   33557752) /* Setup */
-     , (20071,   3,  536870932) /* SoundTable */
-     , (20071,   6,   67111919) /* PaletteBase */
-     , (20071,   7,  268436394) /* ClothingBase */
-     , (20071,   8,  100673009) /* Icon */
-     , (20071,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20071,   1, 0x02000CF8) /* Setup */
+     , (20071,   3, 0x20000014) /* SoundTable */
+     , (20071,   6, 0x04000BEF) /* PaletteBase */
+     , (20071,   7, 0x100003AA) /* ClothingBase */
+     , (20071,   8, 0x060025F1) /* Icon */
+     , (20071,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20071,  37,          2) /* ItemSkillLimit - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20071,  1035,      2)  /* Cold Protection Self VI */
-     , (20071,  1377,      2)  /* Coordination Self V */
-     , (20071,  1603,      2)  /* Aura of Defender Self IV */
+VALUES (20071,  1603,      2)  /* Aura of Defender Self IV */
+     , (20071,  1035,      2)  /* Cold Protection Self VI */
      , (20071,  1614,      2)  /* Aura of Blood Drinker Self IV */
-     , (20071,  2676,      2)  /* Feeble Missile Weapon Aptitude */;
+     , (20071,  2676,      2)  /* Feeble Missile Weapon Aptitude */
+     , (20071,  1377,      2)  /* Coordination Self V */;

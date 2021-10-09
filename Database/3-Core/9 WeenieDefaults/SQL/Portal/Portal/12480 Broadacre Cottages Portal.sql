@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12480,   1, 'Broadacre Cottages Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12480,   1,   33554867) /* Setup */
-     , (12480,   2,  150994947) /* MotionTable */
-     , (12480,   8,  100667499) /* Icon */;
+VALUES (12480,   1, 0x020001B3) /* Setup */
+     , (12480,   2, 0x09000003) /* MotionTable */
+     , (12480,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12480, 2, 3463446579, 158.468, 52.971, 41.591, -0.8366209, 0, 0, -0.5477822) /* Destination */
-/* @teleloc 0xCE700033 [158.468000 52.971000 41.591000] -0.836621 0.000000 0.000000 -0.547782 */;
+VALUES (12480, 2, 0xCE700033, 158.468, 52.971, 41.591, -0.836621, 0, -0, -0.547782) /* Destination */
+/* @teleloc 0xCE700033 [158.468002 52.971001 41.591000] -0.836621 0.000000 -0.000000 -0.547782 */;

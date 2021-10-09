@@ -50,15 +50,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20929,   1, 'Quality Shimmering Isparian Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20929,   1,   33556256) /* Setup */
-     , (20929,   3,  536870932) /* SoundTable */
-     , (20929,   6,   67111919) /* PaletteBase */
-     , (20929,   7,  268436419) /* ClothingBase */
-     , (20929,   8,  100673204) /* Icon */
-     , (20929,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20929,   1, 0x02000720) /* Setup */
+     , (20929,   3, 0x20000014) /* SoundTable */
+     , (20929,   6, 0x04000BEF) /* PaletteBase */
+     , (20929,   7, 0x100003C3) /* ClothingBase */
+     , (20929,   8, 0x060026B4) /* Icon */
+     , (20929,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20929,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20929,  1312,      2)  /* Armor Self VI */
-     , (20929,  1589,      2)  /* Aura of Heart Seeker Self III */
-     , (20929,  1613,      2)  /* Aura of Blood Drinker Self III */;
+VALUES (20929,  1589,      2)  /* Aura of Heart Seeker Self III */
+     , (20929,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (20929,  1312,      2)  /* Armor Self VI */;

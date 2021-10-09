@@ -49,15 +49,15 @@ VALUES (21435,   1, 'Shauraloi') /* Name */
      , (21435,  15, 'A warhammer constructed from obsidian and cerulean colored stone.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21435,   1,   33557958) /* Setup */
-     , (21435,   3,  536870932) /* SoundTable */
-     , (21435,   8,  100673485) /* Icon */
-     , (21435,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21435,   1, 0x02000DC6) /* Setup */
+     , (21435,   3, 0x20000014) /* SoundTable */
+     , (21435,   8, 0x060027CD) /* Icon */
+     , (21435,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21435,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21435,   296,      2)  /* Light Weapon Mastery Other V */
+VALUES (21435,  1604,      2)  /* Aura of Defender Self V */
      , (21435,  1591,      2)  /* Aura of Heart Seeker Self V */
-     , (21435,  1604,      2)  /* Aura of Defender Self V */
      , (21435,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (21435,  1624,      2)  /* Aura of Swift Killer Self III */;
+     , (21435,  1624,      2)  /* Aura of Swift Killer Self III */
+     , (21435,   296,      2)  /* Light Weapon Mastery Other V */;

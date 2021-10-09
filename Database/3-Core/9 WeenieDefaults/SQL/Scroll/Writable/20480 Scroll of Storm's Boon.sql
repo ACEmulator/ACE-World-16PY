@@ -24,7 +24,7 @@ VALUES (20480,   1, 'Scroll of Storm''s Boon') /* Name */
      , (20480,  15, 'When learned, this spell reduces damage the target takes from Lightning by 65%.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20480,   1,   33554826) /* Setup */
-     , (20480,   8,  100676948) /* Icon */
-     , (20480,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20480,   1, 0x0200018A) /* Setup */
+     , (20480,   8, 0x06003554) /* Icon */
+     , (20480,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20480,  28,       2158) /* Spell - Storm's Boon */;

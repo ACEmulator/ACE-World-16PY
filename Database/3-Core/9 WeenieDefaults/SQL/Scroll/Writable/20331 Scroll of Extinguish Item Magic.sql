@@ -24,7 +24,7 @@ VALUES (20331,   1, 'Scroll of Extinguish Item Magic') /* Name */
      , (20331,  15, 'When learned, this spell dispels 1-3 negative Item Magic enchantments of level 2 or lower from the target.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20331,   1,   33554826) /* Setup */
-     , (20331,   8,  100676659) /* Icon */
-     , (20331,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20331,   1, 0x0200018A) /* Setup */
+     , (20331,   8, 0x06003433) /* Icon */
+     , (20331,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20331,  28,       1927) /* Spell - Extinguish Item Magic */;

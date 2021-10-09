@@ -32,9 +32,9 @@ VALUES (11471,   1, 'Vial of Relanim Dye') /* Name */
      , (11471,  20, 'Vials of Relanim Dye') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11471,   1,   33556751) /* Setup */
-     , (11471,   3,  536870932) /* SoundTable */
-     , (11471,   6,   67111919) /* PaletteBase */
-     , (11471,   7,  268436034) /* ClothingBase */
-     , (11471,   8,  100669996) /* Icon */
-     , (11471,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11471,   1, 0x0200090F) /* Setup */
+     , (11471,   3, 0x20000014) /* SoundTable */
+     , (11471,   6, 0x04000BEF) /* PaletteBase */
+     , (11471,   7, 0x10000242) /* ClothingBase */
+     , (11471,   8, 0x06001A2C) /* Icon */
+     , (11471,  22, 0x3400002B) /* PhysicsEffectTable */;

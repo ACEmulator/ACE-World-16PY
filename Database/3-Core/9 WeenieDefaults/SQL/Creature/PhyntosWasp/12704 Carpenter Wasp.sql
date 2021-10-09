@@ -61,14 +61,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12704,   1, 'Carpenter Wasp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12704,   1,   33558817) /* Setup */
-     , (12704,   2,  150995303) /* MotionTable */
-     , (12704,   3,  536870926) /* SoundTable */
-     , (12704,   4,  805306385) /* CombatTable */
-     , (12704,   6,   67115262) /* PaletteBase */
-     , (12704,   7,  268436836) /* ClothingBase */
-     , (12704,   8,  100667450) /* Icon */
-     , (12704,  22,  872415266) /* PhysicsEffectTable */;
+VALUES (12704,   1, 0x02001121) /* Setup */
+     , (12704,   2, 0x09000167) /* MotionTable */
+     , (12704,   3, 0x2000000E) /* SoundTable */
+     , (12704,   4, 0x30000011) /* CombatTable */
+     , (12704,   6, 0x040018FE) /* PaletteBase */
+     , (12704,   7, 0x10000564) /* ClothingBase */
+     , (12704,   8, 0x0600103A) /* Icon */
+     , (12704,  22, 0x34000022) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12704,   1,  15, 0, 0) /* Strength */

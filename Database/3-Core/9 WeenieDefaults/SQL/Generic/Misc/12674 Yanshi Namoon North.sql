@@ -22,5 +22,5 @@ VALUES (12674,   1, 'Yanshi Namoon North') /* Name */
      , (12674,  16, 'Welcome to Yanshi Namoon North') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12674,   1,   33557463) /* Setup */
-     , (12674,   8,  100668115) /* Icon */;
+VALUES (12674,   1, 0x02000BD7) /* Setup */
+     , (12674,   8, 0x060012D3) /* Icon */;

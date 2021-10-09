@@ -29,8 +29,8 @@ VALUES (9107,   1, 'An evil trap') /* Name */
      , (9107,  22, 'The portal egress has not recharged yet!') /* ActivationFailure */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9107,   1,   33554669) /* Setup */
-     , (9107,   3,  536870932) /* SoundTable */
-     , (9107,   8,  100667494) /* Icon */
-     , (9107,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9107,   1, 0x020000ED) /* Setup */
+     , (9107,   3, 0x20000014) /* SoundTable */
+     , (9107,   8, 0x06001066) /* Icon */
+     , (9107,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9107,  28,       2365) /* Spell - something you're gonna fear for a long time */;

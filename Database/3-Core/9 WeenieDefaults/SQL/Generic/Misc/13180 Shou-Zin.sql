@@ -22,5 +22,5 @@ VALUES (13180,   1, 'Shou-Zin') /* Name */
      , (13180,  16, 'Welcome to Shou-Zin') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13180,   1,   33557463) /* Setup */
-     , (13180,   8,  100668115) /* Icon */;
+VALUES (13180,   1, 0x02000BD7) /* Setup */
+     , (13180,   8, 0x060012D3) /* Icon */;

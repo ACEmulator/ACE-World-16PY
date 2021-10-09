@@ -39,9 +39,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23321,   1, 'Rusted Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23321,   1,   33554746) /* Setup */
-     , (23321,   3,  536870932) /* SoundTable */
-     , (23321,   6,   67111919) /* PaletteBase */
-     , (23321,   7,  268435792) /* ClothingBase */
-     , (23321,   8,  100674225) /* Icon */
-     , (23321,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23321,   1, 0x0200013A) /* Setup */
+     , (23321,   3, 0x20000014) /* SoundTable */
+     , (23321,   6, 0x04000BEF) /* PaletteBase */
+     , (23321,   7, 0x10000150) /* ClothingBase */
+     , (23321,   8, 0x06002AB1) /* Icon */
+     , (23321,  22, 0x3400002B) /* PhysicsEffectTable */;

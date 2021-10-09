@@ -32,9 +32,9 @@ VALUES (8043,   1, 'Verdalim Dye Pot') /* Name */
      , (8043,  20, 'Verdalim Dye Pots') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8043,   1,   33556753) /* Setup */
-     , (8043,   3,  536870932) /* SoundTable */
-     , (8043,   6,   67111919) /* PaletteBase */
-     , (8043,   7,  268436036) /* ClothingBase */
-     , (8043,   8,  100669996) /* Icon */
-     , (8043,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8043,   1, 0x02000911) /* Setup */
+     , (8043,   3, 0x20000014) /* SoundTable */
+     , (8043,   6, 0x04000BEF) /* PaletteBase */
+     , (8043,   7, 0x10000244) /* ClothingBase */
+     , (8043,   8, 0x06001A2C) /* Icon */
+     , (8043,  22, 0x3400002B) /* PhysicsEffectTable */;

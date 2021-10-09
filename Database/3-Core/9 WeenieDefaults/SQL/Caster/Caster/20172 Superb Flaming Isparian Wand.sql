@@ -43,21 +43,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20172,   1, 'Superb Flaming Isparian Wand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20172,   1,   33557788) /* Setup */
-     , (20172,   3,  536870932) /* SoundTable */
-     , (20172,   6,   67111919) /* PaletteBase */
-     , (20172,   7,  268436395) /* ClothingBase */
-     , (20172,   8,  100672996) /* Icon */
-     , (20172,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20172,   1, 0x02000D1C) /* Setup */
+     , (20172,   3, 0x20000014) /* SoundTable */
+     , (20172,   6, 0x04000BEF) /* PaletteBase */
+     , (20172,   7, 0x100003AB) /* ClothingBase */
+     , (20172,   8, 0x060025E4) /* Icon */
+     , (20172,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20172,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20172,   560,      2)  /* Creature Enchantment Mastery Self IV */
-     , (20172,   584,      2)  /* Item Enchantment Mastery Self IV */
-     , (20172,   608,      2)  /* Life Magic Mastery Self IV */
-     , (20172,   634,      2)  /* War Magic Mastery Self VI */
-     , (20172,   657,      2)  /* Mana Conversion Mastery Self V */
      , (20172,  1094,      2)  /* Fire Protection Self VI */
-     , (20172,  1425,      2)  /* Focus Self V */
+     , (20172,   608,      2)  /* Life Magic Mastery Self IV */
+     , (20172,   584,      2)  /* Item Enchantment Mastery Self IV */
+     , (20172,  2560,      2)  /* Minor Mana Conversion Prowess */
+     , (20172,   657,      2)  /* Mana Conversion Mastery Self V */
      , (20172,  1449,      2)  /* Willpower Self V */
-     , (20172,  2560,      2)  /* Minor Mana Conversion Prowess */;
+     , (20172,  1425,      2)  /* Focus Self V */
+     , (20172,   634,      2)  /* War Magic Mastery Self VI */;

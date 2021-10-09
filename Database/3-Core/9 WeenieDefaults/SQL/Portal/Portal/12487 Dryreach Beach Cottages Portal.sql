@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12487,   1, 'Dryreach Beach Cottages Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12487,   1,   33554867) /* Setup */
-     , (12487,   2,  150994947) /* MotionTable */
-     , (12487,   8,  100667499) /* Icon */;
+VALUES (12487,   1, 0x020001B3) /* Setup */
+     , (12487,   2, 0x09000003) /* MotionTable */
+     , (12487,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12487, 2, 3748593724, 173.78, 76.204, 0.005, -0.8516675, 0, 0, -0.5240826) /* Destination */
-/* @teleloc 0xDF6F003C [173.780000 76.204000 0.005000] -0.851668 0.000000 0.000000 -0.524083 */;
+VALUES (12487, 2, 0xDF6F003C, 173.78, 76.204, 0.005, -0.851668, 0, -0, -0.524083) /* Destination */
+/* @teleloc 0xDF6F003C [173.779999 76.204002 0.005000] -0.851667 0.000000 -0.000000 -0.524083 */;

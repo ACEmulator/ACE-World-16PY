@@ -46,12 +46,12 @@ VALUES (9393,   1, 'Mattekar Arm Guard') /* Name */
      , (9393,  16, 'A Large Mattekar arm guard, it covers your hand while hanging over some of the rest of your arm.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9393,   1,   33557017) /* Setup */
-     , (9393,   3,  536870932) /* SoundTable */
-     , (9393,   6,   67108990) /* PaletteBase */
-     , (9393,   7,  268436172) /* ClothingBase */
-     , (9393,   8,  100671516) /* Icon */
-     , (9393,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9393,   1, 0x02000A19) /* Setup */
+     , (9393,   3, 0x20000014) /* SoundTable */
+     , (9393,   6, 0x0400007E) /* PaletteBase */
+     , (9393,   7, 0x100002CC) /* ClothingBase */
+     , (9393,   8, 0x0600201C) /* Icon */
+     , (9393,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9393,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

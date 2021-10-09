@@ -25,10 +25,10 @@ VALUES (29961,   1, 'Xi Ru''s Remembrance') /* Name */
      , (29961,  37, 'RoadsNuhmudira3') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29961,   1,   33559046) /* Setup */
-     , (29961,   2,  150995314) /* MotionTable */
-     , (29961,   8,  100667499) /* Icon */;
+VALUES (29961,   1, 0x02001206) /* Setup */
+     , (29961,   2, 0x09000172) /* MotionTable */
+     , (29961,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29961, 2, 26608354, 240, -130, 0.005, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0x019602E2 [240.000000 -130.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */;
+VALUES (29961, 2, 0x019602E2, 240, -130, 0.005, 1, 0, 0, -0) /* Destination */
+/* @teleloc 0x019602E2 [240.000000 -130.000000 0.005000] 1.000000 0.000000 0.000000 -0.000000 */;

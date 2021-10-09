@@ -28,9 +28,9 @@ VALUES (20910,   1, 'Gaerlan''s Key') /* Name */
      , (20910,  15, 'A blue key coruscating with foreign energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20910,   1,   33557000) /* Setup */
-     , (20910,   3,  536870932) /* SoundTable */
-     , (20910,   6,   67111346) /* PaletteBase */
-     , (20910,   7,  268436150) /* ClothingBase */
-     , (20910,   8,  100673199) /* Icon */
-     , (20910,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (20910,   1, 0x02000A08) /* Setup */
+     , (20910,   3, 0x20000014) /* SoundTable */
+     , (20910,   6, 0x040009B2) /* PaletteBase */
+     , (20910,   7, 0x100002B6) /* ClothingBase */
+     , (20910,   8, 0x060026AF) /* Icon */
+     , (20910,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -44,12 +44,12 @@ VALUES (11753,   1, 'Hafted Mask Spear') /* Name */
      , (11753,  16, 'A hafted, spear-tipped banner with a mask on it.  It is in almost perfect condition, and the colors are quite vibrant.  As you gaze at the mask, it almost seems to be gazing back.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11753,   1,   33557254) /* Setup */
-     , (11753,   3,  536870932) /* SoundTable */
-     , (11753,   6,   67113338) /* PaletteBase */
-     , (11753,   7,  268436214) /* ClothingBase */
-     , (11753,   8,  100671908) /* Icon */
-     , (11753,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11753,   1, 0x02000B06) /* Setup */
+     , (11753,   3, 0x20000014) /* SoundTable */
+     , (11753,   6, 0x0400117A) /* PaletteBase */
+     , (11753,   7, 0x100002F6) /* ClothingBase */
+     , (11753,   8, 0x060021A4) /* Icon */
+     , (11753,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11753,  2013,      2)  /* Wizard's Greater Intellect */;

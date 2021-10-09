@@ -24,10 +24,10 @@ VALUES (23434,   1, 'Mounted Fish') /* Name */
      , (23434,  14, 'This item can be used on wall hooks.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23434,   1,   33554674) /* Setup */
-     , (23434,   3,  536870932) /* SoundTable */
-     , (23434,   8,  100667461) /* Icon */
-     , (23434,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23434,   1, 0x020000F2) /* Setup */
+     , (23434,   3, 0x20000014) /* SoundTable */
+     , (23434,   8, 0x06001045) /* Icon */
+     , (23434,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (23434, 1, 1000);

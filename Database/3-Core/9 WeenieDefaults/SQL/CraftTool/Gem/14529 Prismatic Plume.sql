@@ -32,9 +32,9 @@ VALUES (14529,   1, 'Prismatic Plume') /* Name */
      , (14529,  16, 'A rainbow plume meant to be placed on a helm.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14529,   1,   33557508) /* Setup */
-     , (14529,   3,  536870932) /* SoundTable */
-     , (14529,   6,   67108990) /* PaletteBase */
-     , (14529,   7,  268436328) /* ClothingBase */
-     , (14529,   8,  100672518) /* Icon */
-     , (14529,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14529,   1, 0x02000C04) /* Setup */
+     , (14529,   3, 0x20000014) /* SoundTable */
+     , (14529,   6, 0x0400007E) /* PaletteBase */
+     , (14529,   7, 0x10000368) /* ClothingBase */
+     , (14529,   8, 0x06002406) /* Icon */
+     , (14529,  22, 0x3400002B) /* PhysicsEffectTable */;

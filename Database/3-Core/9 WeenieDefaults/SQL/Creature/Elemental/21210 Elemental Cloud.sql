@@ -68,12 +68,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21210,   1, 'Elemental Cloud') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21210,   1,   33557885) /* Setup */
-     , (21210,   2,  150994968) /* MotionTable */
-     , (21210,   3,  536870985) /* SoundTable */
-     , (21210,   4,  805306376) /* CombatTable */
-     , (21210,   8,  100673378) /* Icon */
-     , (21210,  22,  872415331) /* PhysicsEffectTable */;
+VALUES (21210,   1, 0x02000D7D) /* Setup */
+     , (21210,   2, 0x09000018) /* MotionTable */
+     , (21210,   3, 0x20000049) /* SoundTable */
+     , (21210,   4, 0x30000008) /* CombatTable */
+     , (21210,   8, 0x06002762) /* Icon */
+     , (21210,  22, 0x34000063) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (21210,   1,  10, 0, 0) /* Strength */
@@ -89,16 +89,16 @@ VALUES (21210,   1,    20, 0, 0, 25) /* MaxHealth */
      , (21210,   5,     0, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (21210,  6, 0, 3, 0, 999, 0, 1293.74770408275) /* MeleeDefense        Specialized */
-     , (21210,  7, 0, 3, 0, 999, 0, 1293.74770408275) /* MissileDefense      Specialized */
-     , (21210, 13, 0, 2, 0,  80, 0, 1293.74770408275) /* UnarmedCombat       Trained */
-     , (21210, 14, 0, 3, 0, 999, 0, 1293.74770408275) /* ArcaneLore          Specialized */
-     , (21210, 15, 0, 3, 0, 999, 0, 1293.74770408275) /* MagicDefense        Specialized */
-     , (21210, 20, 0, 3, 0, 999, 0, 1293.74770408275) /* Deception           Specialized */
-     , (21210, 24, 0, 2, 0,  10, 0, 1293.74770408275) /* Run                 Trained */
-     , (21210, 31, 0, 3, 0, 999, 0, 1293.74770408275) /* CreatureEnchantment Specialized */
-     , (21210, 33, 0, 3, 0, 999, 0, 1293.74770408275) /* LifeMagic           Specialized */
-     , (21210, 34, 0, 3, 0, 999, 0, 1293.74770408275) /* WarMagic            Specialized */;
+VALUES (21210,  6, 0, 3, 0, 999, 0, 1293.7477040827548) /* MeleeDefense        Specialized */
+     , (21210,  7, 0, 3, 0, 999, 0, 1293.7477040827548) /* MissileDefense      Specialized */
+     , (21210, 13, 0, 2, 0,  80, 0, 1293.7477040827548) /* UnarmedCombat       Trained */
+     , (21210, 14, 0, 3, 0, 999, 0, 1293.7477040827548) /* ArcaneLore          Specialized */
+     , (21210, 15, 0, 3, 0, 999, 0, 1293.7477040827548) /* MagicDefense        Specialized */
+     , (21210, 20, 0, 3, 0, 999, 0, 1293.7477040827548) /* Deception           Specialized */
+     , (21210, 24, 0, 2, 0,  10, 0, 1293.7477040827548) /* Run                 Trained */
+     , (21210, 31, 0, 3, 0, 999, 0, 1293.7477040827548) /* CreatureEnchantment Specialized */
+     , (21210, 33, 0, 3, 0, 999, 0, 1293.7477040827548) /* LifeMagic           Specialized */
+     , (21210, 34, 0, 3, 0, 999, 0, 1293.7477040827548) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (21210,  0,  8,  3,  0.5,   20,   20,   20,   20,   16,   16,   16,    4,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
@@ -108,10 +108,10 @@ VALUES (21210,  0,  8,  3,  0.5,   20,   20,   20,   20,   16,   16,   16,    4,
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21210,  2122,   2.23)  /* Disintegration */
-     , (21210,  2128,   2.23)  /* Ilservian's Flame */
+     , (21210,  2701,   2.08)  /* Elemental Fury */
      , (21210,  2136,   2.23)  /* Icy Torment */
-     , (21210,  2140,   2.23)  /* Alset's Coil */
-     , (21210,  2701,   2.08)  /* Elemental Fury */;
+     , (21210,  2128,   2.23)  /* Ilservian's Flame */
+     , (21210,  2140,   2.23)  /* Alset's Coil */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (21210,  94) /* ATTACK_NOTIFICATION_EVENT */

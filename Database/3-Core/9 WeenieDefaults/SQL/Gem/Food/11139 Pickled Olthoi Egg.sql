@@ -36,10 +36,10 @@ VALUES (11139,   1, 'Pickled Olthoi Egg') /* Name */
      , (11139,  16, 'An Olthoi Egg pickled in Brine.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11139,   1,   33557217) /* Setup */
-     , (11139,   3,  536870932) /* SoundTable */
-     , (11139,   8,  100671978) /* Icon */
-     , (11139,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11139,   1, 0x02000AE1) /* Setup */
+     , (11139,   3, 0x20000014) /* SoundTable */
+     , (11139,   8, 0x060021EA) /* Icon */
+     , (11139,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11139,  23,         64) /* UseSound - Eat1 */
-     , (11139,  27,  318767233) /* UseUserAnimation - MimeEat */
+     , (11139,  27, 0x13000081) /* UseUserAnimation - MimeEat */
      , (11139,  28,       2432) /* Spell - Acid Ward */;

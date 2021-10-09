@@ -22,7 +22,7 @@ VALUES (849,   1, 'Konaji''s Jewels') /* Name */
      , (849,  16, 'Konaji''s  Jewels') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (849,   1,   33555594) /* Setup */
-     , (849,   6,   67111782) /* PaletteBase */
-     , (849,   7,  268435690) /* ClothingBase */
-     , (849,   8,  100668115) /* Icon */;
+VALUES (849,   1, 0x0200048A) /* Setup */
+     , (849,   6, 0x04000B66) /* PaletteBase */
+     , (849,   7, 0x100000EA) /* ClothingBase */
+     , (849,   8, 0x060012D3) /* Icon */;

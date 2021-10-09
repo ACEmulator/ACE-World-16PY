@@ -23,5 +23,5 @@ VALUES (22718,   1, 'Tusker Emporium Sign') /* Name */
      , (22718,  16, 'You have reached the Tusker Emporium of Deadly Doom!! (tm)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22718,   1,   33555088) /* Setup */
-     , (22718,   8,  100668115) /* Icon */;
+VALUES (22718,   1, 0x02000290) /* Setup */
+     , (22718,   8, 0x060012D3) /* Icon */;

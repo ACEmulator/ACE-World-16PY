@@ -23,10 +23,10 @@ VALUES (5147,   1, 'Return to Frore') /* Name */
      , (5147,  16, 'A book written by Abrim of Morningthaw, one of the adventurers who rediscovered the Lost City of Frore, and destroyed the powerful magical artifact at its heart.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5147,   1,   33554771) /* Setup */
-     , (5147,   3,  536870932) /* SoundTable */
-     , (5147,   8,  100670970) /* Icon */
-     , (5147,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5147,   1, 0x02000153) /* Setup */
+     , (5147,   3, 0x20000014) /* SoundTable */
+     , (5147,   8, 0x06001DFA) /* Icon */
+     , (5147,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (5147, 8, 1000);

@@ -23,10 +23,10 @@ VALUES (753,   1, 'Brimstone') /* Name */
      , (753,  20, 'Brimstone Potions') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (753,   1,   33555209) /* Setup */
-     , (753,   3,  536870932) /* SoundTable */
-     , (753,   6,   67111919) /* PaletteBase */
-     , (753,   7,  268435719) /* ClothingBase */
-     , (753,   8,  100668375) /* Icon */
-     , (753,  22,  872415275) /* PhysicsEffectTable */
+VALUES (753,   1, 0x02000309) /* Setup */
+     , (753,   3, 0x20000014) /* SoundTable */
+     , (753,   6, 0x04000BEF) /* PaletteBase */
+     , (753,   7, 0x10000107) /* ClothingBase */
+     , (753,   8, 0x060013D7) /* Icon */
+     , (753,  22, 0x3400002B) /* PhysicsEffectTable */
      , (753,  29,         37) /* SpellComponent */;

@@ -40,9 +40,9 @@ VALUES (8792,   1, 'Helm of the Lightbringer') /* Name */
      , (8792,  16, 'A helm given by one of Asheron''s Chosen.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8792,   1,   33556883) /* Setup */
-     , (8792,   3,  536870932) /* SoundTable */
-     , (8792,   6,   67108990) /* PaletteBase */
-     , (8792,   7,  268436098) /* ClothingBase */
-     , (8792,   8,  100671251) /* Icon */
-     , (8792,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8792,   1, 0x02000993) /* Setup */
+     , (8792,   3, 0x20000014) /* SoundTable */
+     , (8792,   6, 0x0400007E) /* PaletteBase */
+     , (8792,   7, 0x10000282) /* ClothingBase */
+     , (8792,   8, 0x06001F13) /* Icon */
+     , (8792,  22, 0x3400002B) /* PhysicsEffectTable */;

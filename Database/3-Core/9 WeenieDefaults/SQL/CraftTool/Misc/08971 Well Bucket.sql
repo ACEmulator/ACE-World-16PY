@@ -35,7 +35,7 @@ VALUES (8971,   1, 'Well Bucket') /* Name */
      , (8971,  33, 'bucketadja') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8971,   1,   33554605) /* Setup */
-     , (8971,   3,  536870932) /* SoundTable */
-     , (8971,   8,  100667422) /* Icon */
-     , (8971,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8971,   1, 0x020000AD) /* Setup */
+     , (8971,   3, 0x20000014) /* SoundTable */
+     , (8971,   8, 0x0600101E) /* Icon */
+     , (8971,  22, 0x3400002B) /* PhysicsEffectTable */;

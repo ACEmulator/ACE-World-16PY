@@ -31,7 +31,7 @@ VALUES (29523,  22, True ) /* Inscribable */
      , (29523, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29523,   5, -0.0166) /* ManaRate */
+VALUES (29523,   5,  -0.017) /* ManaRate */
      , (29523,  12,    0.66) /* Shade */
      , (29523,  13,     1.2) /* ArmorModVsSlash */
      , (29523,  14,     1.2) /* ArmorModVsPierce */
@@ -47,16 +47,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29523,   1, 'Noble Gauntlets of Health') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29523,   1,   33554648) /* Setup */
-     , (29523,   3,  536870932) /* SoundTable */
-     , (29523,   6,   67108990) /* PaletteBase */
-     , (29523,   7,  268436875) /* ClothingBase */
-     , (29523,   8,  100674349) /* Icon */
-     , (29523,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29523,   1, 0x020000D8) /* Setup */
+     , (29523,   3, 0x20000014) /* SoundTable */
+     , (29523,   6, 0x0400007E) /* PaletteBase */
+     , (29523,   7, 0x1000058B) /* ClothingBase */
+     , (29523,   8, 0x06002B2D) /* Icon */
+     , (29523,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29523,   321,      2)  /* Finesse Weapon Mastery Other VI */
-     , (29523,   369,      2)  /* Light Weapon Mastery Other VI */
+VALUES (29523,   369,      2)  /* Light Weapon Mastery Other VI */
+     , (29523,   321,      2)  /* Finesse Weapon Mastery Other VI */
+     , (29523,  3576,      2)  /* Perfect Health */
      , (29523,   442,      2)  /* Light Weapon Mastery Other VI */
-     , (29523,  2108,      2)  /* Brogard's Defiance */
-     , (29523,  3576,      2)  /* Perfect Health */;
+     , (29523,  2108,      2)  /* Brogard's Defiance */;

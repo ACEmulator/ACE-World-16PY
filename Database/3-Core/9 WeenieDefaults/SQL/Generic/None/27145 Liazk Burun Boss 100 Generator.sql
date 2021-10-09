@@ -21,10 +21,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27145,   1, 'Liazk Burun Boss 100 Generator') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27145,   1,   33555051) /* Setup */
-     , (27145,   8,  100667494) /* Icon */;
+VALUES (27145,   1, 0x0200026B) /* Setup */
+     , (27145,   8, 0x06001066) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27145, 0.333, 27133, 10, 1, -1, 1, 4, -1, 0, 0, 1648755034, 310.572, -0.095781, -23.995, -0.7071068, 0, 0, -0.7071068) /* Generate Burun Ruuk Shaman Keeper (27133) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (27145, 0.666, 27133, 10, 1, -1, 1, 4, -1, 0, 0, 1648755091, 349.674, -57.703, -23.995, -0.7071068, 0, 0, -0.7071068) /* Generate Burun Ruuk Shaman Keeper (27133) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (27145, 0.999, 27133, 10, 1, -1, 1, 4, -1, 0, 0, 1648755120, 469.215, -21.9511, -23.995, -0.7071068, 0, 0, -0.7071068) /* Generate Burun Ruuk Shaman Keeper (27133) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (27145, 0.333, 27133, 10, 1, -1, 1, 4, -1, 0, 0, 0x6246015A, 310.572, -0.095781, -23.995, -0.707107, 0, -0, -0.707107) /* Generate Burun Ruuk Shaman Keeper (27133) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (27145, 0.666, 27133, 10, 1, -1, 1, 4, -1, 0, 0, 0x62460193, 349.674, -57.703, -23.995, -0.707107, 0, -0, -0.707107) /* Generate Burun Ruuk Shaman Keeper (27133) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (27145, 0.999, 27133, 10, 1, -1, 1, 4, -1, 0, 0, 0x624601B0, 469.215, -21.9511, -23.995, -0.707107, 0, -0, -0.707107) /* Generate Burun Ruuk Shaman Keeper (27133) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

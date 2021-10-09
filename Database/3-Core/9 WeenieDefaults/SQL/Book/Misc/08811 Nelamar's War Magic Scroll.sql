@@ -31,10 +31,10 @@ VALUES (8811,   1, 'Nelamar''s War Magic Scroll') /* Name */
      , (8811,  33, 'GredalineDarkFlame') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8811,   1,   33555391) /* Setup */
-     , (8811,   3,  536870932) /* SoundTable */
-     , (8811,   8,  100671183) /* Icon */
-     , (8811,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8811,   1, 0x020003BF) /* Setup */
+     , (8811,   3, 0x20000014) /* SoundTable */
+     , (8811,   8, 0x06001ECF) /* Icon */
+     , (8811,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (8811, 1, 1000);

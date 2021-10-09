@@ -24,7 +24,7 @@ VALUES (20433,   1, 'Scroll of Torrential Acid') /* Name */
      , (20433,  15, 'When learned, this spell rains nine streams of acid down at the area around the target. Each stream does 60-120 points of acid damage to the first thing it hits.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20433,   1,   33554826) /* Setup */
-     , (20433,   8,  100677026) /* Icon */
-     , (20433,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20433,   1, 0x0200018A) /* Setup */
+     , (20433,   8, 0x060035A2) /* Icon */
+     , (20433,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20433,  28,       1832) /* Spell - Torrential Acid */;

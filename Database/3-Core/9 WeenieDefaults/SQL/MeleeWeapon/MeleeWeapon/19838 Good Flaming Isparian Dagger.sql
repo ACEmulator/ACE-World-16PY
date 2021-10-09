@@ -49,17 +49,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19838,   1, 'Good Flaming Isparian Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19838,   1,   33557744) /* Setup */
-     , (19838,   3,  536870932) /* SoundTable */
-     , (19838,   6,   67111919) /* PaletteBase */
-     , (19838,   7,  268436378) /* ClothingBase */
-     , (19838,   8,  100673036) /* Icon */
-     , (19838,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19838,   1, 0x02000CF0) /* Setup */
+     , (19838,   3, 0x20000014) /* SoundTable */
+     , (19838,   6, 0x04000BEF) /* PaletteBase */
+     , (19838,   7, 0x1000039A) /* ClothingBase */
+     , (19838,   8, 0x0600260C) /* Icon */
+     , (19838,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19838,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19838,  1092,      2)  /* Fire Protection Self IV */
-     , (19838,  1329,      2)  /* Strength Self III */
-     , (19838,  1590,      2)  /* Aura of Heart Seeker Self IV */
+VALUES (19838,  1590,      2)  /* Aura of Heart Seeker Self IV */
      , (19838,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (19838,  1092,      2)  /* Fire Protection Self IV */
+     , (19838,  1329,      2)  /* Strength Self III */
      , (19838,  2678,      2)  /* Feeble Finesse Weapon Aptitude */;

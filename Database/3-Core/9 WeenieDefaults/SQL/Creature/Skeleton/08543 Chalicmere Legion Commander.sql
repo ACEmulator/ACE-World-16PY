@@ -65,14 +65,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8543,   1, 'Chalicmere Legion Commander') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8543,   1,   33555464) /* Setup */
-     , (8543,   2,  150994981) /* MotionTable */
-     , (8543,   3,  536870942) /* SoundTable */
-     , (8543,   4,  805306368) /* CombatTable */
-     , (8543,   6,   67111266) /* PaletteBase */
-     , (8543,   7,  268435646) /* ClothingBase */
-     , (8543,   8,  100669124) /* Icon */
-     , (8543,  22,  872415269) /* PhysicsEffectTable */
+VALUES (8543,   1, 0x02000408) /* Setup */
+     , (8543,   2, 0x09000025) /* MotionTable */
+     , (8543,   3, 0x2000001E) /* SoundTable */
+     , (8543,   4, 0x30000000) /* CombatTable */
+     , (8543,   6, 0x04000962) /* PaletteBase */
+     , (8543,   7, 0x100000BE) /* ClothingBase */
+     , (8543,   8, 0x060016C4) /* Icon */
+     , (8543,  22, 0x34000025) /* PhysicsEffectTable */
      , (8543,  32,        288) /* WieldedTreasureType - 
                                    Wield Yumi (23734) | Probability: 50%
                                    Wield 16x Deadly Acid Arrow (15430) | Probability: 100%
@@ -94,23 +94,23 @@ VALUES (8543,   1,   198, 0, 0, 330) /* MaxHealth */
      , (8543,   5,   110, 0, 0, 385) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (8543,  1, 0, 2, 0, 154, 0, 592.429014024618) /* Axe                 Trained */
-     , (8543,  2, 0, 3, 0, 154, 0, 592.429014024618) /* Bow                 Specialized */
-     , (8543,  3, 0, 2, 0, 253, 0, 592.429014024618) /* Crossbow            Trained */
-     , (8543,  4, 0, 2, 0, 253, 0, 592.429014024618) /* Dagger              Trained */
-     , (8543,  5, 0, 3, 0, 154, 0, 592.429014024618) /* Mace                Specialized */
-     , (8543,  6, 0, 2, 0, 176, 0, 592.429014024618) /* MeleeDefense        Trained */
-     , (8543,  7, 0, 2, 0, 253, 0, 592.429014024618) /* MissileDefense      Trained */
-     , (8543,  9, 0, 2, 0, 154, 0, 592.429014024618) /* Spear               Trained */
-     , (8543, 10, 0, 2, 0, 154, 0, 592.429014024618) /* Staff               Trained */
-     , (8543, 11, 0, 3, 0, 154, 0, 592.429014024618) /* Sword               Specialized */
-     , (8543, 13, 0, 2, 0, 154, 0, 592.429014024618) /* UnarmedCombat       Trained */
-     , (8543, 14, 0, 3, 0, 220, 0, 592.429014024618) /* ArcaneLore          Specialized */
-     , (8543, 15, 0, 2, 0, 220, 0, 592.429014024618) /* MagicDefense        Trained */
-     , (8543, 20, 0, 2, 0, 132, 0, 592.429014024618) /* Deception           Trained */
-     , (8543, 31, 0, 2, 0, 220, 0, 592.429014024618) /* CreatureEnchantment Trained */
-     , (8543, 33, 0, 2, 0, 220, 0, 592.429014024618) /* LifeMagic           Trained */
-     , (8543, 34, 0, 2, 0, 220, 0, 592.429014024618) /* WarMagic            Trained */;
+VALUES (8543,  1, 0, 2, 0, 154, 0, 592.4290140246183) /* Axe                 Trained */
+     , (8543,  2, 0, 3, 0, 154, 0, 592.4290140246183) /* Bow                 Specialized */
+     , (8543,  3, 0, 2, 0, 253, 0, 592.4290140246183) /* Crossbow            Trained */
+     , (8543,  4, 0, 2, 0, 253, 0, 592.4290140246183) /* Dagger              Trained */
+     , (8543,  5, 0, 3, 0, 154, 0, 592.4290140246183) /* Mace                Specialized */
+     , (8543,  6, 0, 2, 0, 176, 0, 592.4290140246183) /* MeleeDefense        Trained */
+     , (8543,  7, 0, 2, 0, 253, 0, 592.4290140246183) /* MissileDefense      Trained */
+     , (8543,  9, 0, 2, 0, 154, 0, 592.4290140246183) /* Spear               Trained */
+     , (8543, 10, 0, 2, 0, 154, 0, 592.4290140246183) /* Staff               Trained */
+     , (8543, 11, 0, 3, 0, 154, 0, 592.4290140246183) /* Sword               Specialized */
+     , (8543, 13, 0, 2, 0, 154, 0, 592.4290140246183) /* UnarmedCombat       Trained */
+     , (8543, 14, 0, 3, 0, 220, 0, 592.4290140246183) /* ArcaneLore          Specialized */
+     , (8543, 15, 0, 2, 0, 220, 0, 592.4290140246183) /* MagicDefense        Trained */
+     , (8543, 20, 0, 2, 0, 132, 0, 592.4290140246183) /* Deception           Trained */
+     , (8543, 31, 0, 2, 0, 220, 0, 592.4290140246183) /* CreatureEnchantment Trained */
+     , (8543, 33, 0, 2, 0, 220, 0, 592.4290140246183) /* LifeMagic           Trained */
+     , (8543, 34, 0, 2, 0, 220, 0, 592.4290140246183) /* WarMagic            Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (8543,  0,  4,  0,    0,   90,   43,   32,   45,   22,   77,   29,   44,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -124,8 +124,8 @@ VALUES (8543,  0,  4,  0,    0,   90,   43,   32,   45,   22,   77,   29,   44, 
      , (8543,  8,  4,  5, 0.75,   75,   36,   27,   38,   18,   64,   24,   37,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8543,  1240,   2.08)  /* Drain Health Other IV */
-     , (8543,  1343,  2.067)  /* Weakness Other VI */
+VALUES (8543,  1343,  2.067)  /* Weakness Other VI */
+     , (8543,  1240,   2.08)  /* Drain Health Other IV */
      , (8543,  1396,  2.067)  /* Clumsiness Other VI */
      , (8543,  1444,  2.067)  /* Bafflement Other VI */;
 

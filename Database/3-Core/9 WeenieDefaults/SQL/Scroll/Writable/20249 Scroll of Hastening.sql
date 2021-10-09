@@ -24,7 +24,7 @@ VALUES (20249,   1, 'Scroll of Hastening') /* Name */
      , (20249,  15, 'When learned, this spell increases the caster''s Quickness by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20249,   1,   33554826) /* Setup */
-     , (20249,   8,  100676469) /* Icon */
-     , (20249,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20249,   1, 0x0200018A) /* Setup */
+     , (20249,   8, 0x06003375) /* Icon */
+     , (20249,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20249,  28,       2081) /* Spell - Hastening */;

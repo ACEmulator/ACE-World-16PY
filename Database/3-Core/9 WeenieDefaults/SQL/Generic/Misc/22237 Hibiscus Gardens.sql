@@ -22,5 +22,5 @@ VALUES (22237,   1, 'Hibiscus Gardens') /* Name */
      , (22237,  16, 'Hibiscus Gardens') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22237,   1,   33558051) /* Setup */
-     , (22237,   8,  100667499) /* Icon */;
+VALUES (22237,   1, 0x02000E23) /* Setup */
+     , (22237,   8, 0x0600106B) /* Icon */;

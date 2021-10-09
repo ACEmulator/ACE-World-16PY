@@ -26,10 +26,10 @@ VALUES (11207,   1, 'Royal Hive Portal') /* Name */
      , (11207,  37, 'CentralHivePortalOK') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11207,   1,   33555925) /* Setup */
-     , (11207,   2,  150994947) /* MotionTable */
-     , (11207,   8,  100667499) /* Icon */;
+VALUES (11207,   1, 0x020005D5) /* Setup */
+     , (11207,   2, 0x09000003) /* MotionTable */
+     , (11207,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11207, 2, 42467948, 40, -70, -12, 0.7660444, 0, 0, -0.6427876) /* Destination */
+VALUES (11207, 2, 0x0288026C, 40, -70, -12, 0.766044, 0, 0, -0.642788) /* Destination */
 /* @teleloc 0x0288026C [40.000000 -70.000000 -12.000000] 0.766044 0.000000 0.000000 -0.642788 */;

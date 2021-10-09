@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12524,   1, 'Mountain Ridge Abodes Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12524,   1,   33554867) /* Setup */
-     , (12524,   2,  150994947) /* MotionTable */
-     , (12524,   8,  100667499) /* Icon */;
+VALUES (12524,   1, 0x020001B3) /* Setup */
+     , (12524,   2, 0x09000003) /* MotionTable */
+     , (12524,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12524, 2, 2611609637, 108.37, 112.979, 122.59, 0.1921452, 0, 0, -0.9813665) /* Destination */
-/* @teleloc 0x9BAA0025 [108.370000 112.979000 122.590000] 0.192145 0.000000 0.000000 -0.981367 */;
+VALUES (12524, 2, 0x9BAA0025, 108.37, 112.979, 122.59, 0.192145, 0, 0, -0.981367) /* Destination */
+/* @teleloc 0x9BAA0025 [108.370003 112.978996 122.589996] 0.192145 0.000000 0.000000 -0.981367 */;

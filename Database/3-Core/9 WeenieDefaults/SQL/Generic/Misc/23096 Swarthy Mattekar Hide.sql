@@ -28,9 +28,9 @@ VALUES (23096,   1, 'Swarthy Mattekar Hide') /* Name */
      , (23096,  16, 'A large and smelly hide of a mattekar.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23096,   1,   33554817) /* Setup */
-     , (23096,   3,  536870932) /* SoundTable */
-     , (23096,   6,   67111919) /* PaletteBase */
-     , (23096,   7,  268435832) /* ClothingBase */
-     , (23096,   8,  100670051) /* Icon */
-     , (23096,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23096,   1, 0x02000181) /* Setup */
+     , (23096,   3, 0x20000014) /* SoundTable */
+     , (23096,   6, 0x04000BEF) /* PaletteBase */
+     , (23096,   7, 0x10000178) /* ClothingBase */
+     , (23096,   8, 0x06001A63) /* Icon */
+     , (23096,  22, 0x3400002B) /* PhysicsEffectTable */;

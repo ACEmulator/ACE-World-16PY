@@ -25,24 +25,24 @@ VALUES (25297,  22, True ) /* Inscribable */
      , (25297,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25297,   5,       0) /* ManaRate */;
+VALUES (25297,   5,      -0) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25297,   1, 'Bracelet of Creature Enchantments') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25297,   1,   33554683) /* Setup */
-     , (25297,   3,  536870932) /* SoundTable */
-     , (25297,   6,   67111919) /* PaletteBase */
-     , (25297,   7,  268436286) /* ClothingBase */
-     , (25297,   8,  100672215) /* Icon */
-     , (25297,  22,  872415275) /* PhysicsEffectTable */
-     , (25297,  36,  234881046) /* MutateFilter */;
+VALUES (25297,   1, 0x020000FB) /* Setup */
+     , (25297,   3, 0x20000014) /* SoundTable */
+     , (25297,   6, 0x04000BEF) /* PaletteBase */
+     , (25297,   7, 0x1000033E) /* ClothingBase */
+     , (25297,   8, 0x060022D7) /* Icon */
+     , (25297,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (25297,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25297,  1335,      2)  /* Strength Other IV */
-     , (25297,  1358,      2)  /* Endurance Other IV */
+VALUES (25297,  1406,      2)  /* Quickness Other IV */
+     , (25297,  1454,      2)  /* Willpower Other IV */
      , (25297,  1382,      2)  /* Coordination Other IV */
-     , (25297,  1406,      2)  /* Quickness Other IV */
      , (25297,  1430,      2)  /* Focus Other IV */
-     , (25297,  1454,      2)  /* Willpower Other IV */;
+     , (25297,  1358,      2)  /* Endurance Other IV */
+     , (25297,  1335,      2)  /* Strength Other IV */;

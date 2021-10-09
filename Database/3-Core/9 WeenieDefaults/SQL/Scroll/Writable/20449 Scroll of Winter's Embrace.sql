@@ -24,7 +24,7 @@ VALUES (20449,   1, 'Scroll of Winter''s Embrace') /* Name */
      , (20449,  15, 'When learned, this spell shoots five bolts of frost outward from the caster. Each bolt does 40-80 points of cold damage to the first thing it hits.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20449,   1,   33554826) /* Setup */
-     , (20449,   8,  100677016) /* Icon */
-     , (20449,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20449,   1, 0x0200018A) /* Setup */
+     , (20449,   8, 0x06003598) /* Icon */
+     , (20449,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20449,  28,       2135) /* Spell - Winter's Embrace */;

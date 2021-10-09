@@ -25,7 +25,7 @@ VALUES (5124,   1, 'Broken Taper') /* Name */
      , (5124,  16, 'A hopelessly broken and battered taper.  It could never be used for magic.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5124,   1,   33556109) /* Setup */
-     , (5124,   3,  536870932) /* SoundTable */
-     , (5124,   8,  100670226) /* Icon */
-     , (5124,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5124,   1, 0x0200068D) /* Setup */
+     , (5124,   3, 0x20000014) /* SoundTable */
+     , (5124,   8, 0x06001B12) /* Icon */
+     , (5124,  22, 0x3400002B) /* PhysicsEffectTable */;

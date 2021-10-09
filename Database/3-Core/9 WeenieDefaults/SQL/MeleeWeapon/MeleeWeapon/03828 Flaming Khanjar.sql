@@ -39,10 +39,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3828,   1, 'Flaming Khanjar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3828,   1,   33555769) /* Setup */
-     , (3828,   3,  536870932) /* SoundTable */
-     , (3828,   6,   67111919) /* PaletteBase */
-     , (3828,   7,  268435790) /* ClothingBase */
-     , (3828,   8,  100667597) /* Icon */
-     , (3828,  22,  872415275) /* PhysicsEffectTable */
-     , (3828,  36,  234881044) /* MutateFilter */;
+VALUES (3828,   1, 0x02000539) /* Setup */
+     , (3828,   3, 0x20000014) /* SoundTable */
+     , (3828,   6, 0x04000BEF) /* PaletteBase */
+     , (3828,   7, 0x1000014E) /* ClothingBase */
+     , (3828,   8, 0x060010CD) /* Icon */
+     , (3828,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3828,  36, 0x0E000014) /* MutateFilter */;

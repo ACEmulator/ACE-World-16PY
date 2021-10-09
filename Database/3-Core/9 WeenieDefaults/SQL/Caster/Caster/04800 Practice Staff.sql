@@ -34,12 +34,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4800,   1, 'Practice Staff') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4800,   1,   33555022) /* Setup */
-     , (4800,   3,  536870932) /* SoundTable */
-     , (4800,   6,   67111919) /* PaletteBase */
-     , (4800,   7,  268435796) /* ClothingBase */
-     , (4800,   8,  100668702) /* Icon */
-     , (4800,  22,  872415275) /* PhysicsEffectTable */
-     , (4800,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (4800,   1, 0x0200024E) /* Setup */
+     , (4800,   3, 0x20000014) /* SoundTable */
+     , (4800,   6, 0x04000BEF) /* PaletteBase */
+     , (4800,   7, 0x10000154) /* ClothingBase */
+     , (4800,   8, 0x0600151E) /* Icon */
+     , (4800,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (4800,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (4800,  28,         58) /* Spell - Acid Stream I */
-     , (4800,  36,  234881046) /* MutateFilter */;
+     , (4800,  36, 0x0E000016) /* MutateFilter */;

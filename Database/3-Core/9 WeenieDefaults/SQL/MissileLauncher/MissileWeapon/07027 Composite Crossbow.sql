@@ -17,7 +17,7 @@ VALUES (7027,   1,        256) /* ItemType - MissileWeapon */
      , (7027,  48,          3) /* WeaponSkill - Crossbow */
      , (7027,  49,        120) /* WeaponTime */
      , (7027,  50,          2) /* AmmoType - Bolt */
-     , (7027,  51,          2) /* CombatUse - Missle */
+     , (7027,  51,          2) /* CombatUse - Missile */
      , (7027,  52,          2) /* ParentLocation - LeftHand */
      , (7027,  53,          3) /* PlacementPosition - LeftHand */
      , (7027,  60,        192) /* WeaponRange */
@@ -40,9 +40,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7027,   1, 'Composite Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7027,   1,   33556595) /* Setup */
-     , (7027,   3,  536870932) /* SoundTable */
-     , (7027,   6,   67112869) /* PaletteBase */
-     , (7027,   7,  268436006) /* ClothingBase */
-     , (7027,   8,  100670693) /* Icon */
-     , (7027,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7027,   1, 0x02000873) /* Setup */
+     , (7027,   3, 0x20000014) /* SoundTable */
+     , (7027,   6, 0x04000FA5) /* PaletteBase */
+     , (7027,   7, 0x10000226) /* ClothingBase */
+     , (7027,   8, 0x06001CE5) /* Icon */
+     , (7027,  22, 0x3400002B) /* PhysicsEffectTable */;

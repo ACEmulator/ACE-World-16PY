@@ -22,5 +22,5 @@ VALUES (15243,   1, 'New Cannthalo') /* Name */
      , (15243,  16, 'Welcome to New Cannthalo') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15243,   1,   33557463) /* Setup */
-     , (15243,   8,  100668115) /* Icon */;
+VALUES (15243,   1, 0x02000BD7) /* Setup */
+     , (15243,   8, 0x060012D3) /* Icon */;

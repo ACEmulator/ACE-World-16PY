@@ -46,16 +46,16 @@ VALUES (7435,   1, 'Sword of Lost Light') /* Name */
      , (7435,  16, 'The Sword of Lost Light, infused with blue, white, and red fire from the volcanoes of Lethe, Esper, and Tenkarrdun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7435,   1,   33555927) /* Setup */
-     , (7435,   3,  536870932) /* SoundTable */
-     , (7435,   8,  100669772) /* Icon */
-     , (7435,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7435,   1, 0x020005D7) /* Setup */
+     , (7435,   3, 0x20000014) /* SoundTable */
+     , (7435,   8, 0x0600194C) /* Icon */
+     , (7435,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7435,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7435,   415,      2)  /* Heavy Weapon Mastery Other IV */
-     , (7435,  1335,      2)  /* Strength Other IV */
+VALUES (7435,  1406,      2)  /* Quickness Other IV */
      , (7435,  1358,      2)  /* Endurance Other IV */
-     , (7435,  1406,      2)  /* Quickness Other IV */
      , (7435,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (7435,  1625,      2)  /* Aura of Swift Killer Self IV */;
+     , (7435,  1625,      2)  /* Aura of Swift Killer Self IV */
+     , (7435,   415,      2)  /* Heavy Weapon Mastery Other IV */
+     , (7435,  1335,      2)  /* Strength Other IV */;

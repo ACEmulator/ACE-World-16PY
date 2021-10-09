@@ -24,7 +24,7 @@ VALUES (20230,   1, 'Scroll of Executor''s Boon') /* Name */
      , (20230,  15, 'When learned, this spell increases the target''s natural armor by 225 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20230,   1,   33554826) /* Setup */
-     , (20230,   8,  100676928) /* Icon */
-     , (20230,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20230,   1, 0x0200018A) /* Setup */
+     , (20230,   8, 0x06003540) /* Icon */
+     , (20230,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20230,  28,       2052) /* Spell - Executor's Boon */;

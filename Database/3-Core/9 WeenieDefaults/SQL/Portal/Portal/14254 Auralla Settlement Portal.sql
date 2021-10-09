@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14254,   1, 'Auralla Settlement Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14254,   1,   33554867) /* Setup */
-     , (14254,   2,  150994947) /* MotionTable */
-     , (14254,   8,  100667499) /* Icon */;
+VALUES (14254,   1, 0x020001B3) /* Setup */
+     , (14254,   2, 0x09000003) /* MotionTable */
+     , (14254,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14254, 2, 1186988059, 83.189, 66.832, 8.005, 0.9990341, 0, 0, -0.04394186) /* Destination */
-/* @teleloc 0x46C0001B [83.189000 66.832000 8.005000] 0.999034 0.000000 0.000000 -0.043942 */;
+VALUES (14254, 2, 0x46C0001B, 83.189, 66.832, 8.005, 0.999034, 0, 0, -0.043942) /* Destination */
+/* @teleloc 0x46C0001B [83.189003 66.832001 8.005000] 0.999034 0.000000 0.000000 -0.043942 */;

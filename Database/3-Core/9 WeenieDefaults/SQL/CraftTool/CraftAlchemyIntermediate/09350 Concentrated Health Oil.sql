@@ -32,9 +32,9 @@ VALUES (9350,   1, 'Concentrated Health Oil') /* Name */
      , (9350,  20, 'Vials of Concentrated Health Oil') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9350,   1,   33555967) /* Setup */
-     , (9350,   3,  536870932) /* SoundTable */
-     , (9350,   6,   67111919) /* PaletteBase */
-     , (9350,   7,  268435815) /* ClothingBase */
-     , (9350,   8,  100671587) /* Icon */
-     , (9350,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9350,   1, 0x020005FF) /* Setup */
+     , (9350,   3, 0x20000014) /* SoundTable */
+     , (9350,   6, 0x04000BEF) /* PaletteBase */
+     , (9350,   7, 0x10000167) /* ClothingBase */
+     , (9350,   8, 0x06002063) /* Icon */
+     , (9350,  22, 0x3400002B) /* PhysicsEffectTable */;

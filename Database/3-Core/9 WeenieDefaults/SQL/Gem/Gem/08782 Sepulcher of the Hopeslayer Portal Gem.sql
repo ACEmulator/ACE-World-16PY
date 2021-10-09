@@ -38,11 +38,11 @@ VALUES (8782,   1, 'Sepulcher of the Hopeslayer Portal Gem') /* Name */
      , (8782,  16, 'A gem that will create a portal to the Sepulcher of the Hopeslayer.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8782,   1,   33556769) /* Setup */
-     , (8782,   3,  536870932) /* SoundTable */
-     , (8782,   6,   67111919) /* PaletteBase */
-     , (8782,   7,  268435723) /* ClothingBase */
-     , (8782,   8,  100670993) /* Icon */
-     , (8782,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8782,   1, 0x02000921) /* Setup */
+     , (8782,   3, 0x20000014) /* SoundTable */
+     , (8782,   6, 0x04000BEF) /* PaletteBase */
+     , (8782,   7, 0x1000010B) /* ClothingBase */
+     , (8782,   8, 0x06001E11) /* Icon */
+     , (8782,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8782,  28,       2040) /* Spell - The Path to Kelderam's Ward */
      , (8782,  31,       8839) /* LinkedPortalOne - Sepulcher of the Hopeslayer Portal */;

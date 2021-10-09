@@ -34,10 +34,10 @@ VALUES (21079,   1, 'Salvaged Sunstone') /* Name */
      , (21079,  15, 'Chips of sunstone material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21079,   1,   33554817) /* Setup */
-     , (21079,   3,  536870932) /* SoundTable */
-     , (21079,   6,   67111919) /* PaletteBase */
-     , (21079,   7,  268436430) /* ClothingBase */
-     , (21079,   8,  100667436) /* Icon */
-     , (21079,  22,  872415275) /* PhysicsEffectTable */
-     , (21079,  50,  100673303) /* IconOverlay */;
+VALUES (21079,   1, 0x02000181) /* Setup */
+     , (21079,   3, 0x20000014) /* SoundTable */
+     , (21079,   6, 0x04000BEF) /* PaletteBase */
+     , (21079,   7, 0x100003CE) /* ClothingBase */
+     , (21079,   8, 0x0600102C) /* Icon */
+     , (21079,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (21079,  50, 0x06002717) /* IconOverlay */;

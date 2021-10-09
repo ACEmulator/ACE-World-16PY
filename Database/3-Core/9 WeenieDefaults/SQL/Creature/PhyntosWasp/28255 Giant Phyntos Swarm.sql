@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28255,   1, 'Giant Phyntos Swarm') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28255,   1,   33558818) /* Setup */
-     , (28255,   2,  150995304) /* MotionTable */
-     , (28255,   3,  536870926) /* SoundTable */
-     , (28255,   4,  805306385) /* CombatTable */
-     , (28255,   6,   67115262) /* PaletteBase */
-     , (28255,   7,  268436836) /* ClothingBase */
-     , (28255,   8,  100667450) /* Icon */
-     , (28255,  22,  872415266) /* PhysicsEffectTable */
+VALUES (28255,   1, 0x02001122) /* Setup */
+     , (28255,   2, 0x09000168) /* MotionTable */
+     , (28255,   3, 0x2000000E) /* SoundTable */
+     , (28255,   4, 0x30000011) /* CombatTable */
+     , (28255,   6, 0x040018FE) /* PaletteBase */
+     , (28255,   7, 0x10000564) /* ClothingBase */
+     , (28255,   8, 0x0600103A) /* Icon */
+     , (28255,  22, 0x34000022) /* PhysicsEffectTable */
      , (28255,  35,        460) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -87,15 +87,15 @@ VALUES (28255,   1,   395, 0, 0, 500) /* MaxHealth */
      , (28255,   5,   150, 0, 0, 300) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (28255,  6, 0, 3, 0, 325, 0, 2005.7709589965) /* MeleeDefense        Specialized */
-     , (28255,  7, 0, 3, 0, 420, 0, 2005.7709589965) /* MissileDefense      Specialized */
-     , (28255, 13, 0, 3, 0, 318, 0, 2005.7709589965) /* UnarmedCombat       Specialized */
-     , (28255, 14, 0, 3, 0, 285, 0, 2005.7709589965) /* ArcaneLore          Specialized */
-     , (28255, 15, 0, 3, 0, 267, 0, 2005.7709589965) /* MagicDefense        Specialized */
-     , (28255, 20, 0, 3, 0,   5, 0, 2005.7709589965) /* Deception           Specialized */
-     , (28255, 22, 0, 3, 0, 800, 0, 2005.7709589965) /* Jump                Specialized */
-     , (28255, 24, 0, 3, 0,  70, 0, 2005.7709589965) /* Run                 Specialized */
-     , (28255, 34, 0, 3, 0, 235, 0, 2005.7709589965) /* WarMagic            Specialized */;
+VALUES (28255,  6, 0, 3, 0, 325, 0, 2005.770958996503) /* MeleeDefense        Specialized */
+     , (28255,  7, 0, 3, 0, 420, 0, 2005.770958996503) /* MissileDefense      Specialized */
+     , (28255, 13, 0, 3, 0, 318, 0, 2005.770958996503) /* UnarmedCombat       Specialized */
+     , (28255, 14, 0, 3, 0, 285, 0, 2005.770958996503) /* ArcaneLore          Specialized */
+     , (28255, 15, 0, 3, 0, 267, 0, 2005.770958996503) /* MagicDefense        Specialized */
+     , (28255, 20, 0, 3, 0,   5, 0, 2005.770958996503) /* Deception           Specialized */
+     , (28255, 22, 0, 3, 0, 800, 0, 2005.770958996503) /* Jump                Specialized */
+     , (28255, 24, 0, 3, 0,  70, 0, 2005.770958996503) /* Run                 Specialized */
+     , (28255, 34, 0, 3, 0, 235, 0, 2005.770958996503) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (28255,  0,  2, 160,  0.5,  300,  360,  300,  360,  360,  360,  360,  270,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
@@ -104,11 +104,11 @@ VALUES (28255,  0,  2, 160,  0.5,  300,  360,  300,  360,  360,  360,  360,  270
      , (28255, 21,  4,  0,    0,  300,  360,  300,  360,  360,  360,  360,  270,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28255,    62,   2.15)  /* Acid Stream V */
-     , (28255,   102,   2.07)  /* Acid Blast VI */
+VALUES (28255,  1794,   2.07)  /* Acid Streak V */
      , (28255,   130,   2.15)  /* Acid Volley VI */
-     , (28255,  1794,   2.07)  /* Acid Streak V */
-     , (28255,  2715,   2.07)  /* Acid Arc V */;
+     , (28255,  2715,   2.07)  /* Acid Arc V */
+     , (28255,    62,   2.15)  /* Acid Stream V */
+     , (28255,   102,   2.07)  /* Acid Blast VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (28255,  94) /* ATTACK_NOTIFICATION_EVENT */

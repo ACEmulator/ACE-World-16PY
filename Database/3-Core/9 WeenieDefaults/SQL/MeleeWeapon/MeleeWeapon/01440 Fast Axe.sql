@@ -36,6 +36,6 @@ VALUES (1440,   1, 'Fast Axe') /* Name */
      , (1440,  16, 'This battle axe seems easier to wield than others.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1440,   1,   33554725) /* Setup */
-     , (1440,   8,  100667606) /* Icon */
-     , (1440,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1440,   1, 0x02000125) /* Setup */
+     , (1440,   8, 0x060010D6) /* Icon */
+     , (1440,  22, 0x3400002B) /* PhysicsEffectTable */;

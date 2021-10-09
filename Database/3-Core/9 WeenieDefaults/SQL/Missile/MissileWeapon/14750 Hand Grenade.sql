@@ -22,7 +22,7 @@ VALUES (14750,   1,        256) /* ItemType - MissileWeapon */
      , (14750,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (14750,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (14750,  49,          3) /* WeaponTime */
-     , (14750,  51,          2) /* CombatUse - Missle */
+     , (14750,  51,          2) /* CombatUse - Missile */
      , (14750,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (14750, 158,          8) /* WieldRequirements - Training */
      , (14750, 159,         35) /* WieldSkillType - Leadership */
@@ -51,9 +51,9 @@ VALUES (14750,   1, 'Hand Grenade') /* Name */
      , (14750,  15, 'A strange egg shaped object with a pin in the top.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14750,   1,   33554673) /* Setup */
-     , (14750,   3,  536870932) /* SoundTable */
-     , (14750,   6,   67111919) /* PaletteBase */
-     , (14750,   7,  268435986) /* ClothingBase */
-     , (14750,   8,  100667460) /* Icon */
-     , (14750,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14750,   1, 0x020000F1) /* Setup */
+     , (14750,   3, 0x20000014) /* SoundTable */
+     , (14750,   6, 0x04000BEF) /* PaletteBase */
+     , (14750,   7, 0x10000212) /* ClothingBase */
+     , (14750,   8, 0x06001044) /* Icon */
+     , (14750,  22, 0x3400002B) /* PhysicsEffectTable */;

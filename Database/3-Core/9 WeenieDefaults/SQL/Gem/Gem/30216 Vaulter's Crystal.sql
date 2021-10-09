@@ -30,10 +30,10 @@ VALUES (30216,   1, 'Vaulter''s Crystal') /* Name */
      , (30216,  16, 'A lovely template for a rare magical gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30216,   1,   33554809) /* Setup */
-     , (30216,   3,  536870932) /* SoundTable */
-     , (30216,   6,   67111919) /* PaletteBase */
-     , (30216,   7,  268435723) /* ClothingBase */
-     , (30216,   8,  100674739) /* Icon */
-     , (30216,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30216,   1, 0x02000179) /* Setup */
+     , (30216,   3, 0x20000014) /* SoundTable */
+     , (30216,   6, 0x04000BEF) /* PaletteBase */
+     , (30216,   7, 0x1000010B) /* ClothingBase */
+     , (30216,   8, 0x06002CB3) /* Icon */
+     , (30216,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30216,  28,       3715) /* Spell - Prodigal Jumping Mastery */;

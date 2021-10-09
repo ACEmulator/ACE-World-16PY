@@ -37,9 +37,9 @@ VALUES (23962,   1, 'Orb of Infusion') /* Name */
      , (23962,  15, 'A deep red orb with no apparent use.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23962,   1,   33554669) /* Setup */
-     , (23962,   3,  536870932) /* SoundTable */
-     , (23962,   6,   67111928) /* PaletteBase */
-     , (23962,   7,  268435751) /* ClothingBase */
-     , (23962,   8,  100674147) /* Icon */
-     , (23962,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23962,   1, 0x020000ED) /* Setup */
+     , (23962,   3, 0x20000014) /* SoundTable */
+     , (23962,   6, 0x04000BF8) /* PaletteBase */
+     , (23962,   7, 0x10000127) /* ClothingBase */
+     , (23962,   8, 0x06002A63) /* Icon */
+     , (23962,  22, 0x3400002B) /* PhysicsEffectTable */;

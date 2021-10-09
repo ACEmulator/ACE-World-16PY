@@ -24,10 +24,10 @@ VALUES (8208,   1, 'Forgotten Text') /* Name */
      , (8208,  16, 'A moss-encrusted old text, handwritten in elegant Yalaini script.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8208,   1,   33554771) /* Setup */
-     , (8208,   3,  536870932) /* SoundTable */
-     , (8208,   8,  100671116) /* Icon */
-     , (8208,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8208,   1, 0x02000153) /* Setup */
+     , (8208,   3, 0x20000014) /* SoundTable */
+     , (8208,   8, 0x06001E8C) /* Icon */
+     , (8208,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (8208, 1, 1000);

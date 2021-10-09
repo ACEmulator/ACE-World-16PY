@@ -22,5 +22,5 @@ VALUES (13143,   1, 'South Beach Pass Villas') /* Name */
      , (13143,  16, 'Welcome to South Beach Pass Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13143,   1,   33557463) /* Setup */
-     , (13143,   8,  100668115) /* Icon */;
+VALUES (13143,   1, 0x02000BD7) /* Setup */
+     , (13143,   8, 0x060012D3) /* Icon */;

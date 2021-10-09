@@ -41,11 +41,11 @@ VALUES (27657,   1, 'Renegade Chest') /* Name */
      , (27657,  16, 'Well carved and impossible to pick, you will need a specially crafted key to open this. A small etching near the bottom of the chest makes reference to a complex not far from this temple. A small holding, perhaps?') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27657,   1,   33558692) /* Setup */
-     , (27657,   2,  150995293) /* MotionTable */
-     , (27657,   3,  536870950) /* SoundTable */
-     , (27657,   8,  100676428) /* Icon */
-     , (27657,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27657,   1, 0x020010A4) /* Setup */
+     , (27657,   2, 0x0900015D) /* MotionTable */
+     , (27657,   3, 0x20000026) /* SoundTable */
+     , (27657,   8, 0x0600334C) /* Icon */
+     , (27657,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27657, -1, 27681, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Renegade Stone Clasp (27681) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

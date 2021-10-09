@@ -74,13 +74,13 @@ VALUES (11400,   1, 'Aun Dreganaua the Elder Shaman') /* Name */
      , (11400,  24, 'Timaru') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11400,   1,   33557175) /* Setup */
-     , (11400,   2,  150995136) /* MotionTable */
-     , (11400,   3,  536871030) /* SoundTable */
-     , (11400,   4,  805306380) /* CombatTable */
-     , (11400,   6,   67113280) /* PaletteBase */
-     , (11400,   7,  268436193) /* ClothingBase */
-     , (11400,   8,  100671756) /* Icon */
+VALUES (11400,   1, 0x02000AB7) /* Setup */
+     , (11400,   2, 0x090000C0) /* MotionTable */
+     , (11400,   3, 0x20000076) /* SoundTable */
+     , (11400,   4, 0x3000000C) /* CombatTable */
+     , (11400,   6, 0x04001140) /* PaletteBase */
+     , (11400,   7, 0x100002E1) /* ClothingBase */
+     , (11400,   8, 0x0600210C) /* Icon */
      , (11400,  32,        380) /* WieldedTreasureType - 
                                    Wield Buadren (11971) | Probability: 100% */;
 
@@ -98,7 +98,7 @@ VALUES (11400,   1,    95, 0, 0, 145) /* MaxHealth */
      , (11400,   5,    95, 0, 0, 135) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (11400, 33, 0, 3, 0, 100, 0, 736.896450664575) /* LifeMagic           Specialized */;
+VALUES (11400, 33, 0, 3, 0, 100, 0, 736.8964506645748) /* LifeMagic           Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (11400,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

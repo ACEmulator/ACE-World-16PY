@@ -43,21 +43,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20147,   1, 'Good Coruscating Isparian Wand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20147,   1,   33557786) /* Setup */
-     , (20147,   3,  536870932) /* SoundTable */
-     , (20147,   6,   67111919) /* PaletteBase */
-     , (20147,   7,  268436395) /* ClothingBase */
-     , (20147,   8,  100672992) /* Icon */
-     , (20147,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20147,   1, 0x02000D1A) /* Setup */
+     , (20147,   3, 0x20000014) /* SoundTable */
+     , (20147,   6, 0x04000BEF) /* PaletteBase */
+     , (20147,   7, 0x100003AB) /* ClothingBase */
+     , (20147,   8, 0x060025E0) /* Icon */
+     , (20147,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20147,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20147,   560,      2)  /* Creature Enchantment Mastery Self IV */
-     , (20147,   586,      2)  /* Item Enchantment Mastery Self VI */
-     , (20147,   608,      2)  /* Life Magic Mastery Self IV */
-     , (20147,   632,      2)  /* War Magic Mastery Self IV */
+VALUES (20147,   586,      2)  /* Item Enchantment Mastery Self VI */
      , (20147,   656,      2)  /* Mana Conversion Mastery Self IV */
+     , (20147,  2680,      2)  /* Feeble Mana Conversion Prowess */
+     , (20147,   632,      2)  /* War Magic Mastery Self IV */
+     , (20147,   560,      2)  /* Creature Enchantment Mastery Self IV */
+     , (20147,   608,      2)  /* Life Magic Mastery Self IV */
      , (20147,  1071,      2)  /* Lightning Protection Self VI */
-     , (20147,  1424,      2)  /* Focus Self IV */
      , (20147,  1448,      2)  /* Willpower Self IV */
-     , (20147,  2680,      2)  /* Feeble Mana Conversion Prowess */;
+     , (20147,  1424,      2)  /* Focus Self IV */;

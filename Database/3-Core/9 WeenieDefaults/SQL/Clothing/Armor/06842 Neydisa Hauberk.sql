@@ -35,8 +35,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6842,   1, 'Neydisa Hauberk') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6842,   1,   33554644) /* Setup */
-     , (6842,   6,   67108990) /* PaletteBase */
-     , (6842,   7,  268435462) /* ClothingBase */
-     , (6842,   8,  100667335) /* Icon */
-     , (6842,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6842,   1, 0x020000D4) /* Setup */
+     , (6842,   6, 0x0400007E) /* PaletteBase */
+     , (6842,   7, 0x10000006) /* ClothingBase */
+     , (6842,   8, 0x06000FC7) /* Icon */
+     , (6842,  22, 0x3400002B) /* PhysicsEffectTable */;

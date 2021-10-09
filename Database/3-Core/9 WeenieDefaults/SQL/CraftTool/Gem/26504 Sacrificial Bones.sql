@@ -33,9 +33,9 @@ VALUES (26504,   1, 'Sacrificial Bones') /* Name */
      , (26504,  16, 'A small collection of discarded bones.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26504,   1,   33558619) /* Setup */
-     , (26504,   3,  536870932) /* SoundTable */
-     , (26504,   6,   67111266) /* PaletteBase */
-     , (26504,   7,  268435646) /* ClothingBase */
-     , (26504,   8,  100675785) /* Icon */
-     , (26504,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (26504,   1, 0x0200105B) /* Setup */
+     , (26504,   3, 0x20000014) /* SoundTable */
+     , (26504,   6, 0x04000962) /* PaletteBase */
+     , (26504,   7, 0x100000BE) /* ClothingBase */
+     , (26504,   8, 0x060030C9) /* Icon */
+     , (26504,  22, 0x3400002B) /* PhysicsEffectTable */;

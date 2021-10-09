@@ -18,7 +18,7 @@ VALUES (27823,   1,        256) /* ItemType - MissileWeapon */
      , (27823,  48,          2) /* WeaponSkill - Bow */
      , (27823,  49,         50) /* WeaponTime */
      , (27823,  50,          1) /* AmmoType - Arrow */
-     , (27823,  51,          2) /* CombatUse - Missle */
+     , (27823,  51,          2) /* CombatUse - Missile */
      , (27823,  52,          2) /* ParentLocation - LeftHand */
      , (27823,  53,          3) /* PlacementPosition - LeftHand */
      , (27823,  60,        192) /* WeaponRange */
@@ -53,14 +53,14 @@ VALUES (27823,   1, 'Bound Singularity Bow') /* Name */
      , (27823,  15, 'A bow imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27823,   1,   33558789) /* Setup */
-     , (27823,   3,  536870932) /* SoundTable */
-     , (27823,   6,   67111919) /* PaletteBase */
-     , (27823,   7,  268436238) /* ClothingBase */
-     , (27823,   8,  100676581) /* Icon */
-     , (27823,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27823,   1, 0x02001105) /* Setup */
+     , (27823,   3, 0x20000014) /* SoundTable */
+     , (27823,   6, 0x04000BEF) /* PaletteBase */
+     , (27823,   7, 0x1000030E) /* ClothingBase */
+     , (27823,   8, 0x060033E5) /* Icon */
+     , (27823,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27823,  1384,      2)  /* Coordination Other VI */
-     , (27823,  1605,      2)  /* Aura of Defender Self VI */
-     , (27823,  1616,      2)  /* Aura of Blood Drinker Self VI */;
+VALUES (27823,  1605,      2)  /* Aura of Defender Self VI */
+     , (27823,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (27823,  1384,      2)  /* Coordination Other VI */;

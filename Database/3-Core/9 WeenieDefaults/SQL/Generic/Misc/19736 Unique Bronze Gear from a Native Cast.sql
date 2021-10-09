@@ -26,5 +26,5 @@ VALUES (19736,   1, 'Unique Bronze Gear from a Native Cast') /* Name */
      , (19736,  37, 'EventMosswartKiller') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19736,   1,   33557681) /* Setup */
-     , (19736,   8,  100672956) /* Icon */;
+VALUES (19736,   1, 0x02000CB1) /* Setup */
+     , (19736,   8, 0x060025BC) /* Icon */;

@@ -24,7 +24,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25893,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25893,   5, -0.033333) /* ManaRate */
+VALUES (25893,   5,  -0.033) /* ManaRate */
      , (25893,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -32,10 +32,10 @@ VALUES (25893,   1, 'Doll''s Eye') /* Name */
      , (25893,  15, 'The doll''s mask shattered when it was slain, but this circular piece that was once its eye remained intact.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25893,   1,   33558557) /* Setup */
-     , (25893,   3,  536870932) /* SoundTable */
-     , (25893,   8,  100675635) /* Icon */
-     , (25893,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25893,   1, 0x0200101D) /* Setup */
+     , (25893,   3, 0x20000014) /* SoundTable */
+     , (25893,   8, 0x06003033) /* Icon */
+     , (25893,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25893,  2999,      2)  /* Endurance of the Abyss */

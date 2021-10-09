@@ -25,7 +25,7 @@ VALUES (31066,  22, True ) /* Inscribable */
      , (31066, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31066,   5,       0) /* ManaRate */
+VALUES (31066,   5,      -0) /* ManaRate */
      , (31066,  12,    0.33) /* Shade */
      , (31066,  13,     0.8) /* ArmorModVsSlash */
      , (31066,  14,     0.8) /* ArmorModVsPierce */
@@ -40,20 +40,20 @@ VALUES (31066,   1, 'Mid Balance Testing Raiment') /* Name */
      , (31066,  16, 'Silken raiment woven together to be worn over the entirety of the body. Simple clasps allow for the item to be cinched along the front.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31066,   1,   33554854) /* Setup */
-     , (31066,   3,  536870932) /* SoundTable */
-     , (31066,   6,   67108990) /* PaletteBase */
-     , (31066,   7,  268436640) /* ClothingBase */
-     , (31066,   8,  100667370) /* Icon */
-     , (31066,  22,  872415275) /* PhysicsEffectTable */
-     , (31066,  36,  234881046) /* MutateFilter */;
+VALUES (31066,   1, 0x020001A6) /* Setup */
+     , (31066,   3, 0x20000014) /* SoundTable */
+     , (31066,   6, 0x0400007E) /* PaletteBase */
+     , (31066,   7, 0x100004A0) /* ClothingBase */
+     , (31066,   8, 0x06000FEA) /* Icon */
+     , (31066,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (31066,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31066,  1484,      2)  /* Impenetrability IV */
-     , (31066,  1496,      2)  /* Acid Bane IV */
-     , (31066,  1514,      2)  /* Bludgeon Bane IV */
-     , (31066,  1526,      2)  /* Frost Bane IV */
-     , (31066,  1538,      2)  /* Lightning Bane IV */
+VALUES (31066,  1538,      2)  /* Lightning Bane IV */
+     , (31066,  1484,      2)  /* Impenetrability IV */
      , (31066,  1550,      2)  /* Flame Bane IV */
      , (31066,  1560,      2)  /* Blade Bane IV */
-     , (31066,  1572,      2)  /* Piercing Bane IV */;
+     , (31066,  1496,      2)  /* Acid Bane IV */
+     , (31066,  1572,      2)  /* Piercing Bane IV */
+     , (31066,  1514,      2)  /* Bludgeon Bane IV */
+     , (31066,  1526,      2)  /* Frost Bane IV */;

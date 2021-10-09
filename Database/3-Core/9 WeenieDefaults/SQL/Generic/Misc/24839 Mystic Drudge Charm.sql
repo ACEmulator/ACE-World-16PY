@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24839,   1, 'Mystic Drudge Charm') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24839,   1,   33554683) /* Setup */
-     , (24839,   3,  536870932) /* SoundTable */
-     , (24839,   6,   67111919) /* PaletteBase */
-     , (24839,   7,  268435832) /* ClothingBase */
-     , (24839,   8,  100674483) /* Icon */
-     , (24839,  22,  872415275) /* PhysicsEffectTable */
-     , (24839,  36,  234881046) /* MutateFilter */;
+VALUES (24839,   1, 0x020000FB) /* Setup */
+     , (24839,   3, 0x20000014) /* SoundTable */
+     , (24839,   6, 0x04000BEF) /* PaletteBase */
+     , (24839,   7, 0x10000178) /* ClothingBase */
+     , (24839,   8, 0x06002BB3) /* Icon */
+     , (24839,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24839,  36, 0x0E000016) /* MutateFilter */;

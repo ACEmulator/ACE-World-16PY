@@ -26,7 +26,7 @@ VALUES (12147,  15, True ) /* LightsStatus */
      , (12147,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12147,   5, -0.0333) /* ManaRate */
+VALUES (12147,   5,  -0.033) /* ManaRate */
      , (12147,  29,       1) /* WeaponDefense */
      , (12147, 144,    0.05) /* ManaConversionMod */;
 
@@ -36,14 +36,14 @@ VALUES (12147,   1, 'Asteliary Orb') /* Name */
      , (12147,  33, 'OrbAsteliary') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12147,   1,   33557353) /* Setup */
-     , (12147,   3,  536870932) /* SoundTable */
-     , (12147,   8,  100672138) /* Icon */
-     , (12147,  22,  872415275) /* PhysicsEffectTable */
-     , (12147,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (12147,   1, 0x02000B69) /* Setup */
+     , (12147,   3, 0x20000014) /* SoundTable */
+     , (12147,   8, 0x0600228A) /* Icon */
+     , (12147,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (12147,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (12147,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12147,   657,      2)  /* Mana Conversion Mastery Self V */
-     , (12147,  1425,      2)  /* Focus Self V */
-     , (12147,  1449,      2)  /* Willpower Self V */;
+     , (12147,  1449,      2)  /* Willpower Self V */
+     , (12147,  1425,      2)  /* Focus Self V */;

@@ -31,8 +31,8 @@ VALUES (27256,   1, 'Burning Coal') /* Name */
      , (27256,  16, 'A smoldering coal. The center of this rock seems to glow with intense heat, yet the surface is cool to the touch.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27256,   1,   33558517) /* Setup */
-     , (27256,   3,  536870932) /* SoundTable */
-     , (27256,   8,  100676392) /* Icon */
-     , (27256,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27256,   1, 0x02000FF5) /* Setup */
+     , (27256,   3, 0x20000014) /* SoundTable */
+     , (27256,   8, 0x06003328) /* Icon */
+     , (27256,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27256,  28,       3204) /* Spell - Blazing Heart */;

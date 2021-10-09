@@ -45,18 +45,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6133,   1, 'Superior Shivering Atlan Staff') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6133,   1,   33556384) /* Setup */
-     , (6133,   3,  536870932) /* SoundTable */
-     , (6133,   6,   67111919) /* PaletteBase */
-     , (6133,   7,  268435963) /* ClothingBase */
-     , (6133,   8,  100670558) /* Icon */
-     , (6133,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6133,   1, 0x020007A0) /* Setup */
+     , (6133,   3, 0x20000014) /* SoundTable */
+     , (6133,   6, 0x04000BEF) /* PaletteBase */
+     , (6133,   7, 0x100001FB) /* ClothingBase */
+     , (6133,   8, 0x06001C5E) /* Icon */
+     , (6133,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6133,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6133,  1033,      2)  /* Cold Protection Self IV */
-     , (6133,  1400,      2)  /* Quickness Self IV */
+VALUES (6133,  1603,      2)  /* Aura of Defender Self IV */
+     , (6133,  1033,      2)  /* Cold Protection Self IV */
      , (6133,  1590,      2)  /* Aura of Heart Seeker Self IV */
-     , (6133,  1603,      2)  /* Aura of Defender Self IV */
      , (6133,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (6133,  1400,      2)  /* Quickness Self IV */
      , (6133,  1625,      2)  /* Aura of Swift Killer Self IV */;

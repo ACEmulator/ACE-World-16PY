@@ -22,7 +22,7 @@ VALUES (805,   1, 'Zhen''s Tower') /* Name */
      , (805,  16, 'Zhen''s Tower') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (805,   1,   33555088) /* Setup */
-     , (805,   6,   67111092) /* PaletteBase */
-     , (805,   7,  268435669) /* ClothingBase */
-     , (805,   8,  100668115) /* Icon */;
+VALUES (805,   1, 0x02000290) /* Setup */
+     , (805,   6, 0x040008B4) /* PaletteBase */
+     , (805,   7, 0x100000D5) /* ClothingBase */
+     , (805,   8, 0x060012D3) /* Icon */;

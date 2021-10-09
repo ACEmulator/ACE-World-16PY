@@ -25,8 +25,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24853,   1, 'Essence of a Phantasm') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24853,   1,   33555205) /* Setup */
-     , (24853,   3,  536870932) /* SoundTable */
-     , (24853,   8,  100674487) /* Icon */
-     , (24853,  22,  872415275) /* PhysicsEffectTable */
-     , (24853,  36,  234881046) /* MutateFilter */;
+VALUES (24853,   1, 0x02000305) /* Setup */
+     , (24853,   3, 0x20000014) /* SoundTable */
+     , (24853,   8, 0x06002BB7) /* Icon */
+     , (24853,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24853,  36, 0x0E000016) /* MutateFilter */;

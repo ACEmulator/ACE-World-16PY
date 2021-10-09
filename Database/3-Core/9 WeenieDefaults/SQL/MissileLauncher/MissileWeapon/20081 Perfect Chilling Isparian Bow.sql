@@ -19,7 +19,7 @@ VALUES (20081,   1,        256) /* ItemType - MissileWeapon */
      , (20081,  48,          2) /* WeaponSkill - Bow */
      , (20081,  49,         40) /* WeaponTime */
      , (20081,  50,          1) /* AmmoType - Arrow */
-     , (20081,  51,          2) /* CombatUse - Missle */
+     , (20081,  51,          2) /* CombatUse - Missile */
      , (20081,  52,          2) /* ParentLocation - LeftHand */
      , (20081,  53,          3) /* PlacementPosition - LeftHand */
      , (20081,  60,        175) /* WeaponRange */
@@ -52,17 +52,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20081,   1, 'Perfect Chilling Isparian Bow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20081,   1,   33557752) /* Setup */
-     , (20081,   3,  536870932) /* SoundTable */
-     , (20081,   6,   67111919) /* PaletteBase */
-     , (20081,   7,  268436394) /* ClothingBase */
-     , (20081,   8,  100673009) /* Icon */
-     , (20081,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20081,   1, 0x02000CF8) /* Setup */
+     , (20081,   3, 0x20000014) /* SoundTable */
+     , (20081,   6, 0x04000BEF) /* PaletteBase */
+     , (20081,   7, 0x100003AA) /* ClothingBase */
+     , (20081,   8, 0x060025F1) /* Icon */
+     , (20081,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20081,  37,          2) /* ItemSkillLimit - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20081,  1035,      2)  /* Cold Protection Self VI */
-     , (20081,  1377,      2)  /* Coordination Self V */
      , (20081,  1605,      2)  /* Aura of Defender Self VI */
+     , (20081,  1377,      2)  /* Coordination Self V */
      , (20081,  1616,      2)  /* Aura of Blood Drinker Self VI */
      , (20081,  2687,      2)  /* Moderate Missile Weapon Aptitude */;

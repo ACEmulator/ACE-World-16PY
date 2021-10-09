@@ -30,17 +30,17 @@ VALUES (27308,   1, 'The Forbidden') /* Name */
      , (27308,  22, 'The stone beneath your feet moves, but nothing happens.') /* ActivationFailure */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27308,   1,   33555536) /* Setup */
-     , (27308,   2,  150994977) /* MotionTable */
-     , (27308,   8,  100668114) /* Icon */
+VALUES (27308,   1, 0x02000450) /* Setup */
+     , (27308,   2, 0x09000021) /* MotionTable */
+     , (27308,   8, 0x060012D2) /* Icon */
      , (27308,  23,        149) /* UseSound - TriggerActivated */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27308,  16,          0) /* ActivationTarget */;
+VALUES (27308,  16, 0x00000000) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (27308, 31, 0, 3, 0, 500, 0, 1891.44082314905) /* CreatureEnchantment Specialized */
-     , (27308, 33, 0, 3, 0, 500, 0, 1891.44082314905) /* LifeMagic           Specialized */;
+VALUES (27308, 31, 0, 3, 0, 500, 0, 1891.440823149051) /* CreatureEnchantment Specialized */
+     , (27308, 33, 0, 3, 0, 500, 0, 1891.440823149051) /* LifeMagic           Specialized */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (27308,  8 /* Activation */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

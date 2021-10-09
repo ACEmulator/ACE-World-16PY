@@ -37,14 +37,14 @@ VALUES (25371,   1, 'Bracelet of Dark Essence') /* Name */
      , (25371,  16, 'A bracelet, forged in pyreal, stained dark with the taint of corruption. Several diamonds and oddly shaped crystals adorn the thick band of this bracelet. A palpable taint of corruption emanates from within a large white opal that is set into the metal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25371,   1,   33554683) /* Setup */
-     , (25371,   3,  536870932) /* SoundTable */
-     , (25371,   6,   67111919) /* PaletteBase */
-     , (25371,   7,  268436286) /* ClothingBase */
-     , (25371,   8,  100674845) /* Icon */
-     , (25371,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25371,   1, 0x020000FB) /* Setup */
+     , (25371,   3, 0x20000014) /* SoundTable */
+     , (25371,   6, 0x04000BEF) /* PaletteBase */
+     , (25371,   7, 0x1000033E) /* ClothingBase */
+     , (25371,   8, 0x06002D1D) /* Icon */
+     , (25371,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25371,  1450,      2)  /* Willpower Self VI */
-     , (25371,  2623,      2)  /* Major Health Gain */
-     , (25371,  2625,      2)  /* Major Stamina Gain */;
+VALUES (25371,  2625,      2)  /* Major Stamina Gain */
+     , (25371,  1450,      2)  /* Willpower Self VI */
+     , (25371,  2623,      2)  /* Major Health Gain */;

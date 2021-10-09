@@ -36,8 +36,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1453,   1, 'Fire Bracers') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1453,   1,   33554641) /* Setup */
-     , (1453,   6,   67108990) /* PaletteBase */
-     , (1453,   7,  268435468) /* ClothingBase */
-     , (1453,   8,  100667364) /* Icon */
-     , (1453,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1453,   1, 0x020000D1) /* Setup */
+     , (1453,   6, 0x0400007E) /* PaletteBase */
+     , (1453,   7, 0x1000000C) /* ClothingBase */
+     , (1453,   8, 0x06000FE4) /* Icon */
+     , (1453,  22, 0x3400002B) /* PhysicsEffectTable */;

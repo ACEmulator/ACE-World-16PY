@@ -29,7 +29,7 @@ VALUES (14773,   1, 'Stuffed Mushroom') /* Name */
      , (14773,  20, 'Stuffed Mushrooms') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14773,   1,   33557501) /* Setup */
-     , (14773,   3,  536870932) /* SoundTable */
-     , (14773,   8,  100672565) /* Icon */
-     , (14773,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14773,   1, 0x02000BFD) /* Setup */
+     , (14773,   3, 0x20000014) /* SoundTable */
+     , (14773,   8, 0x06002435) /* Icon */
+     , (14773,  22, 0x3400002B) /* PhysicsEffectTable */;

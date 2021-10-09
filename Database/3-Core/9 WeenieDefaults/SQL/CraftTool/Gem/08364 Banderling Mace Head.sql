@@ -33,9 +33,9 @@ VALUES (8364,   1, 'Banderling Mace Head') /* Name */
      , (8364,  33, 'BanderlingMaceHead') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8364,   1,   33554669) /* Setup */
-     , (8364,   3,  536870932) /* SoundTable */
-     , (8364,   6,   67111919) /* PaletteBase */
-     , (8364,   7,  268436017) /* ClothingBase */
-     , (8364,   8,  100671137) /* Icon */
-     , (8364,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8364,   1, 0x020000ED) /* Setup */
+     , (8364,   3, 0x20000014) /* SoundTable */
+     , (8364,   6, 0x04000BEF) /* PaletteBase */
+     , (8364,   7, 0x10000231) /* ClothingBase */
+     , (8364,   8, 0x06001EA1) /* Icon */
+     , (8364,  22, 0x3400002B) /* PhysicsEffectTable */;

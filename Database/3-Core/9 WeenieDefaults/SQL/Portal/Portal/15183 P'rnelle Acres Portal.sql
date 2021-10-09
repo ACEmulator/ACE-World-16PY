@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15183,   1, 'P''rnelle Acres Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15183,   1,   33554867) /* Setup */
-     , (15183,   2,  150994947) /* MotionTable */
-     , (15183,   8,  100667499) /* Icon */;
+VALUES (15183,   1, 0x020001B3) /* Setup */
+     , (15183,   2, 0x09000003) /* MotionTable */
+     , (15183,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15183, 2, 3419799588, 103.811, 90.089, 33.894, -0.574577, 0, 0, -0.8184506) /* Destination */
-/* @teleloc 0xCBD60024 [103.811000 90.089000 33.894000] -0.574577 0.000000 0.000000 -0.818451 */;
+VALUES (15183, 2, 0xCBD60024, 103.811, 90.089, 33.894, -0.574577, 0, -0, -0.818451) /* Destination */
+/* @teleloc 0xCBD60024 [103.810997 90.088997 33.894001] -0.574577 0.000000 -0.000000 -0.818451 */;

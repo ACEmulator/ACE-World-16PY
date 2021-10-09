@@ -28,9 +28,9 @@ VALUES (5322,   1, 'Acid Infusion') /* Name */
      , (5322,  20, 'Acid Infusions') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5322,   1,   33555965) /* Setup */
-     , (5322,   3,  536870932) /* SoundTable */
-     , (5322,   6,   67111919) /* PaletteBase */
-     , (5322,   7,  268435814) /* ClothingBase */
-     , (5322,   8,  100669996) /* Icon */
-     , (5322,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5322,   1, 0x020005FD) /* Setup */
+     , (5322,   3, 0x20000014) /* SoundTable */
+     , (5322,   6, 0x04000BEF) /* PaletteBase */
+     , (5322,   7, 0x10000166) /* ClothingBase */
+     , (5322,   8, 0x06001A2C) /* Icon */
+     , (5322,  22, 0x3400002B) /* PhysicsEffectTable */;

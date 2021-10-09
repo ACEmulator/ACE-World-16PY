@@ -32,9 +32,9 @@ VALUES (21344,   1, 'Chorizite Fletching Tool') /* Name */
      , (21344,  16, 'A fletching tool that can be used to make chorizite arrowheads.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21344,   1,   33554734) /* Setup */
-     , (21344,   3,  536870932) /* SoundTable */
-     , (21344,   6,   67111919) /* PaletteBase */
-     , (21344,   7,  268435782) /* ClothingBase */
-     , (21344,   8,  100673583) /* Icon */
-     , (21344,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21344,   1, 0x0200012E) /* Setup */
+     , (21344,   3, 0x20000014) /* SoundTable */
+     , (21344,   6, 0x04000BEF) /* PaletteBase */
+     , (21344,   7, 0x10000146) /* ClothingBase */
+     , (21344,   8, 0x0600282F) /* Icon */
+     , (21344,  22, 0x3400002B) /* PhysicsEffectTable */;

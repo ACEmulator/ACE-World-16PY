@@ -25,10 +25,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27700,   1, 'Map to Burun Lair') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27700,   1,   33558748) /* Setup */
-     , (27700,   3,  536870932) /* SoundTable */
-     , (27700,   8,  100676545) /* Icon */
-     , (27700,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27700,   1, 0x020010DC) /* Setup */
+     , (27700,   3, 0x20000014) /* SoundTable */
+     , (27700,   8, 0x060033C1) /* Icon */
+     , (27700,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (27700, 1, 1000);

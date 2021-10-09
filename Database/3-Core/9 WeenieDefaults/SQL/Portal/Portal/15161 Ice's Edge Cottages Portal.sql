@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15161,   1, 'Ice''s Edge Cottages Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15161,   1,   33554867) /* Setup */
-     , (15161,   2,  150994947) /* MotionTable */
-     , (15161,   8,  100667499) /* Icon */;
+VALUES (15161,   1, 0x020001B3) /* Setup */
+     , (15161,   2, 0x09000003) /* MotionTable */
+     , (15161,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15161, 2, 1791950884, 99.853, 90.017, 188.005, -0.5989885, 0, 0, -0.8007576) /* Destination */
-/* @teleloc 0x6ACF0024 [99.853000 90.017000 188.005000] -0.598989 0.000000 0.000000 -0.800758 */;
+VALUES (15161, 2, 0x6ACF0024, 99.853, 90.017, 188.005, -0.598989, 0, -0, -0.800758) /* Destination */
+/* @teleloc 0x6ACF0024 [99.852997 90.016998 188.005005] -0.598989 0.000000 -0.000000 -0.800758 */;

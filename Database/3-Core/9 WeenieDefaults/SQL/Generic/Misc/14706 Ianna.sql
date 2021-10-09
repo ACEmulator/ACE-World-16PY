@@ -22,5 +22,5 @@ VALUES (14706,   1, 'Ianna') /* Name */
      , (14706,  16, 'Welcome to Ianna') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14706,   1,   33557463) /* Setup */
-     , (14706,   8,  100668115) /* Icon */;
+VALUES (14706,   1, 0x02000BD7) /* Setup */
+     , (14706,   8, 0x060012D3) /* Icon */;

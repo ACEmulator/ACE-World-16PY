@@ -39,8 +39,8 @@ VALUES (25469,   1, 'Hiyp the Toad''s pickaxe') /* Name */
      , (25469,  33, 'PickedUpHiypPickaxe') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25469,   1,   33554813) /* Setup */
-     , (25469,   3,  536870932) /* SoundTable */
-     , (25469,   8,  100670275) /* Icon */
-     , (25469,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25469,   1, 0x0200017D) /* Setup */
+     , (25469,   3, 0x20000014) /* SoundTable */
+     , (25469,   8, 0x06001B43) /* Icon */
+     , (25469,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25469,  30,         88) /* PhysicsScript - Create */;

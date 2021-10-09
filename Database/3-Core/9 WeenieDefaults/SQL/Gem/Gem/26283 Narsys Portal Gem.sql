@@ -36,11 +36,11 @@ VALUES (26283,   1, 'Narsys Portal Gem') /* Name */
      , (26283,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26283,   1,   33556769) /* Setup */
-     , (26283,   3,  536870932) /* SoundTable */
-     , (26283,   6,   67111919) /* PaletteBase */
-     , (26283,   7,  268435723) /* ClothingBase */
-     , (26283,   8,  100675760) /* Icon */
-     , (26283,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26283,   1, 0x02000921) /* Setup */
+     , (26283,   3, 0x20000014) /* SoundTable */
+     , (26283,   6, 0x04000BEF) /* PaletteBase */
+     , (26283,   7, 0x1000010B) /* ClothingBase */
+     , (26283,   8, 0x060030B0) /* Icon */
+     , (26283,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26283,  28,        157) /* Spell - Summon Primary Portal I */
      , (26283,  31,      14276) /* LinkedPortalOne - Narsys Portal */;

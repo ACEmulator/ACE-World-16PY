@@ -36,9 +36,9 @@ VALUES (23194,   1, 'Sturdy Iron Keyring') /* Name */
      , (23194,  16, 'A crude keyring roughly carved out of a granite golem heart. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23194,   1,   33554790) /* Setup */
-     , (23194,   3,  536870932) /* SoundTable */
-     , (23194,   6,   67111919) /* PaletteBase */
-     , (23194,   7,  268435782) /* ClothingBase */
-     , (23194,   8,  100674001) /* Icon */
-     , (23194,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23194,   1, 0x02000166) /* Setup */
+     , (23194,   3, 0x20000014) /* SoundTable */
+     , (23194,   6, 0x04000BEF) /* PaletteBase */
+     , (23194,   7, 0x10000146) /* ClothingBase */
+     , (23194,   8, 0x060029D1) /* Icon */
+     , (23194,  22, 0x3400002B) /* PhysicsEffectTable */;

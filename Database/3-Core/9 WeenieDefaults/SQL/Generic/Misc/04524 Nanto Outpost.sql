@@ -22,5 +22,5 @@ VALUES (4524,   1, 'Nanto Outpost') /* Name */
      , (4524,  16, 'This way to Nanto!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4524,   1,   33555986) /* Setup */
-     , (4524,   8,  100668115) /* Icon */;
+VALUES (4524,   1, 0x02000612) /* Setup */
+     , (4524,   8, 0x060012D3) /* Icon */;

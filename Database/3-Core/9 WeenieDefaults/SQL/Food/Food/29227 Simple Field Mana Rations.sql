@@ -30,7 +30,7 @@ VALUES (29227,   1, 'Simple Field Mana Rations') /* Name */
      , (29227,  20, 'Simple Field Mana Rations') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29227,   1,   33554817) /* Setup */
-     , (29227,   3,  536870932) /* SoundTable */
-     , (29227,   8,  100674005) /* Icon */
-     , (29227,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29227,   1, 0x02000181) /* Setup */
+     , (29227,   3, 0x20000014) /* SoundTable */
+     , (29227,   8, 0x060029D5) /* Icon */
+     , (29227,  22, 0x3400002B) /* PhysicsEffectTable */;

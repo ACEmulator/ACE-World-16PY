@@ -24,7 +24,7 @@ VALUES (20239,   1, 'Scroll of Self Loathing') /* Name */
      , (20239,  15, 'When learned, this spell decreases the target''s Self by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20239,   1,   33554826) /* Setup */
-     , (20239,   8,  100676471) /* Icon */
-     , (20239,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20239,   1, 0x0200018A) /* Setup */
+     , (20239,   8, 0x06003377) /* Icon */
+     , (20239,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20239,  28,       2064) /* Spell - Self Loathing */;

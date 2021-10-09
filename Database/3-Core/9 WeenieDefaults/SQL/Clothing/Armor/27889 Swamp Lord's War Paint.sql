@@ -26,7 +26,7 @@ VALUES (27889,  22, True ) /* Inscribable */
      , (27889, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27889,   5, -0.0333) /* ManaRate */
+VALUES (27889,   5,  -0.033) /* ManaRate */
      , (27889,  12,    0.66) /* Shade */
      , (27889,  13,       1) /* ArmorModVsSlash */
      , (27889,  14,       1) /* ArmorModVsPierce */
@@ -42,13 +42,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27889,   1, 'Swamp Lord''s War Paint') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27889,   1,   33556751) /* Setup */
-     , (27889,   6,   67108990) /* PaletteBase */
-     , (27889,   7,  268436832) /* ClothingBase */
-     , (27889,   8,  100676599) /* Icon */
-     , (27889,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27889,   1, 0x0200090F) /* Setup */
+     , (27889,   6, 0x0400007E) /* PaletteBase */
+     , (27889,   7, 0x10000560) /* ClothingBase */
+     , (27889,   8, 0x060033F7) /* Icon */
+     , (27889,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27889,   271,      2)  /* Magic Resistance Other IV */
+VALUES (27889,  1484,      2)  /* Impenetrability IV */
      , (27889,  1358,      2)  /* Endurance Other IV */
-     , (27889,  1484,      2)  /* Impenetrability IV */;
+     , (27889,   271,      2)  /* Magic Resistance Other IV */;

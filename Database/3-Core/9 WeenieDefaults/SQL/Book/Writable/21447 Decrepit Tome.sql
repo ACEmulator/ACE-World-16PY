@@ -22,12 +22,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21447,   1, 'Decrepit Tome') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21447,   1,   33556929) /* Setup */
-     , (21447,   3,  536870932) /* SoundTable */
-     , (21447,   6,   67111092) /* PaletteBase */
-     , (21447,   7,  268436459) /* ClothingBase */
-     , (21447,   8,  100673476) /* Icon */
-     , (21447,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21447,   1, 0x020009C1) /* Setup */
+     , (21447,   3, 0x20000014) /* SoundTable */
+     , (21447,   6, 0x040008B4) /* PaletteBase */
+     , (21447,   7, 0x100003EB) /* ClothingBase */
+     , (21447,   8, 0x060027C4) /* Icon */
+     , (21447,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (21447, 1, 1000);

@@ -27,9 +27,9 @@ VALUES (14785,   1, 'Uncooked Ginger Bread Lugian') /* Name */
      , (14785,  20, 'Uncooked Ginger Bread Lugians') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14785,   1,   33555968) /* Setup */
-     , (14785,   3,  536870932) /* SoundTable */
-     , (14785,   6,   67111928) /* PaletteBase */
-     , (14785,   7,  268436334) /* ClothingBase */
-     , (14785,   8,  100672541) /* Icon */
-     , (14785,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14785,   1, 0x02000600) /* Setup */
+     , (14785,   3, 0x20000014) /* SoundTable */
+     , (14785,   6, 0x04000BF8) /* PaletteBase */
+     , (14785,   7, 0x1000036E) /* ClothingBase */
+     , (14785,   8, 0x0600241D) /* Icon */
+     , (14785,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -15,7 +15,7 @@ VALUES (537,   1,        256) /* ItemType - MissileWeapon */
      , (537,  48,          2) /* WeaponSkill - Bow */
      , (537,  49,         40) /* WeaponTime */
      , (537,  50,          1) /* AmmoType - Arrow */
-     , (537,  51,          2) /* CombatUse - Missle */
+     , (537,  51,          2) /* CombatUse - Missile */
      , (537,  52,          2) /* ParentLocation - LeftHand */
      , (537,  53,          3) /* PlacementPosition - LeftHand */
      , (537,  60,        130) /* WeaponRange */
@@ -38,7 +38,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (537,   1, 'Starter Yag') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (537,   1,   33554729) /* Setup */
-     , (537,   3,  536870932) /* SoundTable */
-     , (537,   8,  100667583) /* Icon */
-     , (537,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (537,   1, 0x02000129) /* Setup */
+     , (537,   3, 0x20000014) /* SoundTable */
+     , (537,   8, 0x060010BF) /* Icon */
+     , (537,  22, 0x3400002B) /* PhysicsEffectTable */;

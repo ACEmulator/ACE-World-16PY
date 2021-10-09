@@ -42,15 +42,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8744,   1, 'An Explorer Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8744,   1,   33554759) /* Setup */
-     , (8744,   3,  536870932) /* SoundTable */
-     , (8744,   6,   67111919) /* PaletteBase */
-     , (8744,   7,  268435771) /* ClothingBase */
-     , (8744,   8,  100669015) /* Icon */
-     , (8744,  22,  872415275) /* PhysicsEffectTable */
-     , (8744,  36,  234881044) /* MutateFilter */
-     , (8744,  50,  100675462) /* IconOverlay */;
+VALUES (8744,   1, 0x02000147) /* Setup */
+     , (8744,   3, 0x20000014) /* SoundTable */
+     , (8744,   6, 0x04000BEF) /* PaletteBase */
+     , (8744,   7, 0x1000013B) /* ClothingBase */
+     , (8744,   8, 0x06001657) /* Icon */
+     , (8744,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8744,  36, 0x0E000014) /* MutateFilter */
+     , (8744,  50, 0x06002F86) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8744,   414,      2)  /* Heavy Weapon Mastery Other III */
-     , (8744,  1613,      2)  /* Aura of Blood Drinker Self III */;
+VALUES (8744,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (8744,   414,      2)  /* Heavy Weapon Mastery Other III */;

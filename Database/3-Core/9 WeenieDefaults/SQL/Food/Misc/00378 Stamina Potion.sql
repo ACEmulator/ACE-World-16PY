@@ -30,10 +30,10 @@ VALUES (378,   1, 'Stamina Potion') /* Name */
      , (378,  14, 'Use this item to drink it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (378,   1,   33554603) /* Setup */
-     , (378,   3,  536870932) /* SoundTable */
-     , (378,   6,   67111919) /* PaletteBase */
-     , (378,   7,  268435816) /* ClothingBase */
-     , (378,   8,  100676315) /* Icon */
-     , (378,  22,  872415275) /* PhysicsEffectTable */
+VALUES (378,   1, 0x020000AB) /* Setup */
+     , (378,   3, 0x20000014) /* SoundTable */
+     , (378,   6, 0x04000BEF) /* PaletteBase */
+     , (378,   7, 0x10000168) /* ClothingBase */
+     , (378,   8, 0x060032DB) /* Icon */
+     , (378,  22, 0x3400002B) /* PhysicsEffectTable */
      , (378,  23,         65) /* UseSound - Drink1 */;

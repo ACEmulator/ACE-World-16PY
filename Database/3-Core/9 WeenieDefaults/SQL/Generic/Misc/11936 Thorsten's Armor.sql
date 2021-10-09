@@ -23,5 +23,5 @@ VALUES (11936,   1, 'Thorsten''s Armor') /* Name */
      , (11936,  15, 'This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11936,   1,   33557213) /* Setup */
-     , (11936,   8,  100671781) /* Icon */;
+VALUES (11936,   1, 0x02000ADD) /* Setup */
+     , (11936,   8, 0x06002125) /* Icon */;

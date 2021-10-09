@@ -31,7 +31,7 @@ VALUES (8510,   1, 'Adja''s Memorial') /* Name */
      , (8510,  26, 'The memorial sits silent...') /* UsePkServerError */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8510,   1,   33556908) /* Setup */
-     , (8510,   2,  150994989) /* MotionTable */
-     , (8510,   3,  536870965) /* SoundTable */
-     , (8510,   8,  100671209) /* Icon */;
+VALUES (8510,   1, 0x020009AC) /* Setup */
+     , (8510,   2, 0x0900002D) /* MotionTable */
+     , (8510,   3, 0x20000035) /* SoundTable */
+     , (8510,   8, 0x06001EE9) /* Icon */;

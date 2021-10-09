@@ -29,9 +29,9 @@ VALUES (14752,   1, 'Carrot Cake Soup') /* Name */
      , (14752,  20, 'Bowls of Carrot Cake Soup') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14752,   1,   33554668) /* Setup */
-     , (14752,   3,  536870932) /* SoundTable */
-     , (14752,   6,   67111928) /* PaletteBase */
-     , (14752,   7,  268436020) /* ClothingBase */
-     , (14752,   8,  100672578) /* Icon */
-     , (14752,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14752,   1, 0x020000EC) /* Setup */
+     , (14752,   3, 0x20000014) /* SoundTable */
+     , (14752,   6, 0x04000BF8) /* PaletteBase */
+     , (14752,   7, 0x10000234) /* ClothingBase */
+     , (14752,   8, 0x06002442) /* Icon */
+     , (14752,  22, 0x3400002B) /* PhysicsEffectTable */;

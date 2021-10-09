@@ -37,9 +37,9 @@ VALUES (30496,   1, 'Lou Ka''s Trident') /* Name */
      , (30496,  33, 'ShoushiBraidTrident1204') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30496,   1,   33556641) /* Setup */
-     , (30496,   3,  536870932) /* SoundTable */
-     , (30496,   6,   67111919) /* PaletteBase */
-     , (30496,   7,  268436013) /* ClothingBase */
-     , (30496,   8,  100670762) /* Icon */
-     , (30496,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30496,   1, 0x020008A1) /* Setup */
+     , (30496,   3, 0x20000014) /* SoundTable */
+     , (30496,   6, 0x04000BEF) /* PaletteBase */
+     , (30496,   7, 0x1000022D) /* ClothingBase */
+     , (30496,   8, 0x06001D2A) /* Icon */
+     , (30496,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (137,   1, 'Basket') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (137,   1,   33554927) /* Setup */
-     , (137,   3,  536870932) /* SoundTable */
-     , (137,   6,   67111919) /* PaletteBase */
-     , (137,   7,  268436723) /* ClothingBase */
-     , (137,   8,  100667441) /* Icon */
-     , (137,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (137,   1, 0x020001EF) /* Setup */
+     , (137,   3, 0x20000014) /* SoundTable */
+     , (137,   6, 0x04000BEF) /* PaletteBase */
+     , (137,   7, 0x100004F3) /* ClothingBase */
+     , (137,   8, 0x06001031) /* Icon */
+     , (137,  22, 0x3400002B) /* PhysicsEffectTable */;

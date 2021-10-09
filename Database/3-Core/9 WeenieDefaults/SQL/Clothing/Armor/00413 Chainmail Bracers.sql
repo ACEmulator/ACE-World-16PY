@@ -37,11 +37,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (413,   1, 'Chainmail Bracers') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (413,   1,   33554641) /* Setup */
-     , (413,   3,  536870932) /* SoundTable */
-     , (413,   6,   67108990) /* PaletteBase */
-     , (413,   7,  268435518) /* ClothingBase */
-     , (413,   8,  100668139) /* Icon */
-     , (413,  22,  872415275) /* PhysicsEffectTable */
-     , (413,  36,  234881042) /* MutateFilter */
-     , (413,  46,  939524146) /* TsysMutationFilter */;
+VALUES (413,   1, 0x020000D1) /* Setup */
+     , (413,   3, 0x20000014) /* SoundTable */
+     , (413,   6, 0x0400007E) /* PaletteBase */
+     , (413,   7, 0x1000003E) /* ClothingBase */
+     , (413,   8, 0x060012EB) /* Icon */
+     , (413,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (413,  36, 0x0E000012) /* MutateFilter */
+     , (413,  46, 0x38000032) /* TsysMutationFilter */;

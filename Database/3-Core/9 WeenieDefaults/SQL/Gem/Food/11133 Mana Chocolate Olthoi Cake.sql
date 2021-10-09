@@ -36,12 +36,12 @@ VALUES (11133,   1, 'Mana Chocolate Olthoi Cake') /* Name */
      , (11133,  16, 'Dark, moist, chocolate cake made with Olthoi Eggs.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11133,   1,   33555193) /* Setup */
-     , (11133,   3,  536870932) /* SoundTable */
-     , (11133,   6,   67111928) /* PaletteBase */
-     , (11133,   7,  268435861) /* ClothingBase */
-     , (11133,   8,  100671761) /* Icon */
-     , (11133,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11133,   1, 0x020002F9) /* Setup */
+     , (11133,   3, 0x20000014) /* SoundTable */
+     , (11133,   6, 0x04000BF8) /* PaletteBase */
+     , (11133,   7, 0x10000195) /* ClothingBase */
+     , (11133,   8, 0x06002111) /* Icon */
+     , (11133,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11133,  23,         64) /* UseSound - Eat1 */
-     , (11133,  27,  318767233) /* UseUserAnimation - MimeEat */
+     , (11133,  27, 0x13000081) /* UseUserAnimation - MimeEat */
      , (11133,  28,       2418) /* Spell - Occult Potence */;

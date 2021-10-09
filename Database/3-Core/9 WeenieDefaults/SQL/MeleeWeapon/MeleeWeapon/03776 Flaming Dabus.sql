@@ -37,11 +37,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3776,   1, 'Flaming Dabus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3776,   1,   33555736) /* Setup */
-     , (3776,   3,  536870932) /* SoundTable */
-     , (3776,   6,   67111919) /* PaletteBase */
-     , (3776,   7,  268435793) /* ClothingBase */
-     , (3776,   8,  100667588) /* Icon */
-     , (3776,  22,  872415275) /* PhysicsEffectTable */
-     , (3776,  36,  234881053) /* MutateFilter */
-     , (3776,  46,  939524099) /* TsysMutationFilter */;
+VALUES (3776,   1, 0x02000518) /* Setup */
+     , (3776,   3, 0x20000014) /* SoundTable */
+     , (3776,   6, 0x04000BEF) /* PaletteBase */
+     , (3776,   7, 0x10000151) /* ClothingBase */
+     , (3776,   8, 0x060010C4) /* Icon */
+     , (3776,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3776,  36, 0x0E00001D) /* MutateFilter */
+     , (3776,  46, 0x38000003) /* TsysMutationFilter */;

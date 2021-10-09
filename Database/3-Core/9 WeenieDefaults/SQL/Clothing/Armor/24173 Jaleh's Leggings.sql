@@ -44,14 +44,14 @@ VALUES (24173,   1, 'Jaleh''s Leggings') /* Name */
      , (24173,  16, 'A pair of richly decorated and lightweight amullian pants. The main body of the pants seems to be silk and the trim made of a heavy leather.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24173,   1,   33554856) /* Setup */
-     , (24173,   3,  536870932) /* SoundTable */
-     , (24173,   6,   67108990) /* PaletteBase */
-     , (24173,   7,  268436593) /* ClothingBase */
-     , (24173,   8,  100674273) /* Icon */
-     , (24173,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24173,   1, 0x020001A8) /* Setup */
+     , (24173,   3, 0x20000014) /* SoundTable */
+     , (24173,   6, 0x0400007E) /* PaletteBase */
+     , (24173,   7, 0x10000471) /* ClothingBase */
+     , (24173,   8, 0x06002AE1) /* Icon */
+     , (24173,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24173,   909,      2)  /* Leadership Mastery Other VI */
-     , (24173,   993,      2)  /* Sprint Other VI */
-     , (24173,  1485,      2)  /* Impenetrability V */;
+     , (24173,  1485,      2)  /* Impenetrability V */
+     , (24173,   993,      2)  /* Sprint Other VI */;

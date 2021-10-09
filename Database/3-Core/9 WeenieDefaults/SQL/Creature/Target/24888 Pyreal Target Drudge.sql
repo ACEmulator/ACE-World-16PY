@@ -63,14 +63,14 @@ VALUES (24888,   1, 'Pyreal Target Drudge') /* Name */
      , (24888,  15, 'A simple dummy drudge made of pyreal.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24888,   1,   33556445) /* Setup */
-     , (24888,   2,  150995082) /* MotionTable */
-     , (24888,   3,  536871052) /* SoundTable */
-     , (24888,   4,  805306372) /* CombatTable */
-     , (24888,   6,   67112812) /* PaletteBase */
-     , (24888,   7,  268435972) /* ClothingBase */
-     , (24888,   8,  100667445) /* Icon */
-     , (24888,  22,  872415339) /* PhysicsEffectTable */;
+VALUES (24888,   1, 0x020007DD) /* Setup */
+     , (24888,   2, 0x0900008A) /* MotionTable */
+     , (24888,   3, 0x2000008C) /* SoundTable */
+     , (24888,   4, 0x30000004) /* CombatTable */
+     , (24888,   6, 0x04000F6C) /* PaletteBase */
+     , (24888,   7, 0x10000204) /* ClothingBase */
+     , (24888,   8, 0x06001035) /* Icon */
+     , (24888,  22, 0x3400006B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24888,   1,   1, 0, 0) /* Strength */

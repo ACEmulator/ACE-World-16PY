@@ -70,14 +70,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5867,   1, 'Frisirth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5867,   1,   33554839) /* Setup */
-     , (5867,   2,  150994967) /* MotionTable */
-     , (5867,   3,  536870934) /* SoundTable */
-     , (5867,   4,  805306368) /* CombatTable */
-     , (5867,   6,   67110722) /* PaletteBase */
-     , (5867,   7,  268435558) /* ClothingBase */
-     , (5867,   8,  100667942) /* Icon */
-     , (5867,  22,  872415272) /* PhysicsEffectTable */
+VALUES (5867,   1, 0x02000197) /* Setup */
+     , (5867,   2, 0x09000017) /* MotionTable */
+     , (5867,   3, 0x20000016) /* SoundTable */
+     , (5867,   4, 0x30000000) /* CombatTable */
+     , (5867,   6, 0x04000742) /* PaletteBase */
+     , (5867,   7, 0x10000066) /* ClothingBase */
+     , (5867,   8, 0x06001226) /* Icon */
+     , (5867,  22, 0x34000028) /* PhysicsEffectTable */
      , (5867,  32,        250) /* WieldedTreasureType - 
                                    Wield Katar (23675) | Probability: 25%
                                    Wield Nekode (23681) | Probability: 25%
@@ -100,23 +100,23 @@ VALUES (5867,   1,   150, 0, 0, 285) /* MaxHealth */
      , (5867,   5,   300, 0, 0, 575) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (5867,  1, 0, 3, 0, 125, 0, 444.749183229108) /* Axe                 Specialized */
-     , (5867,  2, 0, 2, 0, 110, 0, 444.749183229108) /* Bow                 Trained */
-     , (5867,  3, 0, 2, 0, 110, 0, 444.749183229108) /* Crossbow            Trained */
-     , (5867,  4, 0, 3, 0, 120, 0, 444.749183229108) /* Dagger              Specialized */
-     , (5867,  5, 0, 3, 0, 120, 0, 444.749183229108) /* Mace                Specialized */
-     , (5867,  6, 0, 2, 0, 135, 0, 444.749183229108) /* MeleeDefense        Trained */
-     , (5867,  7, 0, 2, 0, 120, 0, 444.749183229108) /* MissileDefense      Trained */
-     , (5867,  9, 0, 2, 0, 100, 0, 444.749183229108) /* Spear               Trained */
-     , (5867, 10, 0, 2, 0, 100, 0, 444.749183229108) /* Staff               Trained */
-     , (5867, 11, 0, 3, 0, 120, 0, 444.749183229108) /* Sword               Specialized */
-     , (5867, 13, 0, 2, 0, 200, 0, 444.749183229108) /* UnarmedCombat       Trained */
-     , (5867, 14, 0, 2, 0, 230, 0, 444.749183229108) /* ArcaneLore          Trained */
-     , (5867, 15, 0, 2, 0, 200, 0, 444.749183229108) /* MagicDefense        Trained */
-     , (5867, 20, 0, 2, 0,  90, 0, 444.749183229108) /* Deception           Trained */
-     , (5867, 31, 0, 2, 0, 230, 0, 444.749183229108) /* CreatureEnchantment Trained */
-     , (5867, 33, 0, 2, 0, 230, 0, 444.749183229108) /* LifeMagic           Trained */
-     , (5867, 34, 0, 2, 0, 230, 0, 444.749183229108) /* WarMagic            Trained */;
+VALUES (5867,  1, 0, 3, 0, 125, 0, 444.74918322910787) /* Axe                 Specialized */
+     , (5867,  2, 0, 2, 0, 110, 0, 444.74918322910787) /* Bow                 Trained */
+     , (5867,  3, 0, 2, 0, 110, 0, 444.74918322910787) /* Crossbow            Trained */
+     , (5867,  4, 0, 3, 0, 120, 0, 444.74918322910787) /* Dagger              Specialized */
+     , (5867,  5, 0, 3, 0, 120, 0, 444.74918322910787) /* Mace                Specialized */
+     , (5867,  6, 0, 2, 0, 135, 0, 444.74918322910787) /* MeleeDefense        Trained */
+     , (5867,  7, 0, 2, 0, 120, 0, 444.74918322910787) /* MissileDefense      Trained */
+     , (5867,  9, 0, 2, 0, 100, 0, 444.74918322910787) /* Spear               Trained */
+     , (5867, 10, 0, 2, 0, 100, 0, 444.74918322910787) /* Staff               Trained */
+     , (5867, 11, 0, 3, 0, 120, 0, 444.74918322910787) /* Sword               Specialized */
+     , (5867, 13, 0, 2, 0, 200, 0, 444.74918322910787) /* UnarmedCombat       Trained */
+     , (5867, 14, 0, 2, 0, 230, 0, 444.74918322910787) /* ArcaneLore          Trained */
+     , (5867, 15, 0, 2, 0, 200, 0, 444.74918322910787) /* MagicDefense        Trained */
+     , (5867, 20, 0, 2, 0,  90, 0, 444.74918322910787) /* Deception           Trained */
+     , (5867, 31, 0, 2, 0, 230, 0, 444.74918322910787) /* CreatureEnchantment Trained */
+     , (5867, 33, 0, 2, 0, 230, 0, 444.74918322910787) /* LifeMagic           Trained */
+     , (5867, 34, 0, 2, 0, 230, 0, 444.74918322910787) /* WarMagic            Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (5867,  0,  4,  0,    0,  210,  168,  111,  143,   27,  105,  143,  153,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -130,20 +130,20 @@ VALUES (5867,  0,  4,  0,    0,  210,  168,  111,  143,   27,  105,  143,  153, 
      , (5867,  8,  4,  3, 0.75,  220,  176,  117,  150,   29,  110,  150,  161,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5867,    73,   2.14)  /* Frost Bolt V */
-     , (5867,    74,   2.07)  /* Frost Bolt VI */
+VALUES (5867,  1253,   2.03)  /* Drain Stamina Other V */
      , (5867,   137,   2.14)  /* Frost Volley V */
-     , (5867,   138,   2.04)  /* Frost Volley VI */
+     , (5867,    73,   2.14)  /* Frost Bolt V */
      , (5867,   169,   2.03)  /* Regeneration Self V */
-     , (5867,  1064,  2.013)  /* Cold Vulnerability Other V */
      , (5867,  1093,  2.013)  /* Fire Protection Self V */
-     , (5867,  1241,   2.03)  /* Drain Health Other V */
-     , (5867,  1253,   2.03)  /* Drain Stamina Other V */
-     , (5867,  1264,   2.03)  /* Drain Mana Other V */
-     , (5867,  1371,  2.013)  /* Frailty Other V */
-     , (5867,  1395,  2.013)  /* Clumsiness Other V */
-     , (5867,  1419,  2.013)  /* Slowness Other V */
+     , (5867,   138,   2.04)  /* Frost Volley VI */
+     , (5867,    74,   2.07)  /* Frost Bolt VI */
      , (5867,  1443,  2.013)  /* Bafflement Other V */
+     , (5867,  1371,  2.013)  /* Frailty Other V */
+     , (5867,  1419,  2.013)  /* Slowness Other V */
+     , (5867,  1241,   2.03)  /* Drain Health Other V */
+     , (5867,  1064,  2.013)  /* Cold Vulnerability Other V */
+     , (5867,  1264,   2.03)  /* Drain Mana Other V */
+     , (5867,  1395,  2.013)  /* Clumsiness Other V */
      , (5867,  1467,  2.013)  /* Feeblemind Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

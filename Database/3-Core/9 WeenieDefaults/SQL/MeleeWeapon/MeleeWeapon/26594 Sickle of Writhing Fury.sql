@@ -45,18 +45,18 @@ VALUES (26594,   1, 'Sickle of Writhing Fury') /* Name */
      , (26594,  15, 'A sickle once used for bloodletting in Falatacot rites.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26594,   1,   33558593) /* Setup */
-     , (26594,   3,  536870932) /* SoundTable */
-     , (26594,   6,   67114956) /* PaletteBase */
-     , (26594,   7,  268436792) /* ClothingBase */
-     , (26594,   8,  100675777) /* Icon */
-     , (26594,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26594,   1, 0x02001041) /* Setup */
+     , (26594,   3, 0x20000014) /* SoundTable */
+     , (26594,   6, 0x040017CC) /* PaletteBase */
+     , (26594,   7, 0x10000538) /* ClothingBase */
+     , (26594,   8, 0x060030C1) /* Icon */
+     , (26594,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26594,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26594,   188,      2)  /* Rejuvenation Other VI */
+VALUES (26594,  1605,      2)  /* Aura of Defender Self VI */
      , (26594,  1337,      2)  /* Strength Other VI */
-     , (26594,  1605,      2)  /* Aura of Defender Self VI */
      , (26594,  1616,      2)  /* Aura of Blood Drinker Self VI */
      , (26594,  1627,      2)  /* Aura of Swift Killer Self VI */
-     , (26594,  2686,      2)  /* Moderate Light Weapon Aptitude */;
+     , (26594,  2686,      2)  /* Moderate Light Weapon Aptitude */
+     , (26594,   188,      2)  /* Rejuvenation Other VI */;

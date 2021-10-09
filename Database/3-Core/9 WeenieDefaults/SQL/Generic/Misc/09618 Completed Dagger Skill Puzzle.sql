@@ -28,10 +28,10 @@ VALUES (9618,   1, 'Completed Dagger Skill Puzzle') /* Name */
      , (9618,  16, 'A completed Dagger Skill Puzzle.  Turn in to a Bestower Examiner to receive a title.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9618,   1,   33557028) /* Setup */
-     , (9618,   3,  536870932) /* SoundTable */
-     , (9618,   6,   67113173) /* PaletteBase */
-     , (9618,   7,  268436162) /* ClothingBase */
-     , (9618,   8,  100671559) /* Icon */
-     , (9618,  22,  872415275) /* PhysicsEffectTable */
-     , (9618,  36,  234881046) /* MutateFilter */;
+VALUES (9618,   1, 0x02000A24) /* Setup */
+     , (9618,   3, 0x20000014) /* SoundTable */
+     , (9618,   6, 0x040010D5) /* PaletteBase */
+     , (9618,   7, 0x100002C2) /* ClothingBase */
+     , (9618,   8, 0x06002047) /* Icon */
+     , (9618,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (9618,  36, 0x0E000016) /* MutateFilter */;

@@ -13,7 +13,7 @@ VALUES (22374,   1,       2048) /* ItemType - Gem */
      , (22374,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22374, 114,          1) /* Attuned - Attuned */
      , (22374, 185,          1) /* TypeOfAlteration */
-     , (22374, 186,          6) /* SkillToBeAltered */;
+     , (22374, 186,          6) /* SkillToBeAltered - MeleeDefense */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22374,  22, True ) /* Inscribable */
@@ -25,8 +25,8 @@ VALUES (22374,   1, 'Melee Defense Gem of Enlightenment') /* Name */
      , (22374,  33, 'SkillAlterationGemPickedUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22374,   1,   33558088) /* Setup */
-     , (22374,   6,   67111919) /* PaletteBase */
-     , (22374,   7,  268435723) /* ClothingBase */
-     , (22374,   8,  100673788) /* Icon */
-     , (22374,  50,  100673778) /* IconOverlay */;
+VALUES (22374,   1, 0x02000E48) /* Setup */
+     , (22374,   6, 0x04000BEF) /* PaletteBase */
+     , (22374,   7, 0x1000010B) /* ClothingBase */
+     , (22374,   8, 0x060028FC) /* Icon */
+     , (22374,  50, 0x060028F2) /* IconOverlay */;

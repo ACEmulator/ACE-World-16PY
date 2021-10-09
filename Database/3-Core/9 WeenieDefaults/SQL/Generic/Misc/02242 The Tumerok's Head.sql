@@ -22,7 +22,7 @@ VALUES (2242,   1, 'The Tumerok''s Head') /* Name */
      , (2242,  16, 'The Tumerok''s Head') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2242,   1,   33555088) /* Setup */
-     , (2242,   6,   67111092) /* PaletteBase */
-     , (2242,   7,  268435662) /* ClothingBase */
-     , (2242,   8,  100668115) /* Icon */;
+VALUES (2242,   1, 0x02000290) /* Setup */
+     , (2242,   6, 0x040008B4) /* PaletteBase */
+     , (2242,   7, 0x100000CE) /* ClothingBase */
+     , (2242,   8, 0x060012D3) /* Icon */;

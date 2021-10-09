@@ -34,12 +34,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29263,   1, 'Frost Sceptre') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29263,   1,   33559227) /* Setup */
-     , (29263,   3,  536870932) /* SoundTable */
-     , (29263,   6,   67115357) /* PaletteBase */
-     , (29263,   7,  268436902) /* ClothingBase */
-     , (29263,   8,  100668792) /* Icon */
-     , (29263,  22,  872415275) /* PhysicsEffectTable */
-     , (29263,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
-     , (29263,  36,  234881046) /* MutateFilter */
-     , (29263,  46,  939524170) /* TsysMutationFilter */;
+VALUES (29263,   1, 0x020012BB) /* Setup */
+     , (29263,   3, 0x20000014) /* SoundTable */
+     , (29263,   6, 0x0400195D) /* PaletteBase */
+     , (29263,   7, 0x100005A6) /* ClothingBase */
+     , (29263,   8, 0x06001578) /* Icon */
+     , (29263,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29263,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
+     , (29263,  36, 0x0E000016) /* MutateFilter */
+     , (29263,  46, 0x3800004A) /* TsysMutationFilter */;

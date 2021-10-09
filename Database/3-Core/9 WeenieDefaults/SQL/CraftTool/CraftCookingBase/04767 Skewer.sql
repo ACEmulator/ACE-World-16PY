@@ -26,7 +26,7 @@ VALUES (4767,   1, 'Skewer') /* Name */
      , (4767,  20, 'Skewers') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4767,   1,   33555980) /* Setup */
-     , (4767,   3,  536870932) /* SoundTable */
-     , (4767,   8,  100670013) /* Icon */
-     , (4767,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4767,   1, 0x0200060C) /* Setup */
+     , (4767,   3, 0x20000014) /* SoundTable */
+     , (4767,   8, 0x06001A3D) /* Icon */
+     , (4767,  22, 0x3400002B) /* PhysicsEffectTable */;

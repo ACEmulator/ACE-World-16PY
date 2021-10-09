@@ -26,9 +26,9 @@ VALUES (14554,   1, 'Wrapped Hollowed-Out Tree Trunk') /* Name */
      , (14554,  15, 'One could bind the tanned hide to the hollowed-out tree trunk with leather straps to create a drum.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14554,   1,   33557553) /* Setup */
-     , (14554,   3,  536870932) /* SoundTable */
-     , (14554,   6,   67112776) /* PaletteBase */
-     , (14554,   7,  268436330) /* ClothingBase */
-     , (14554,   8,  100672530) /* Icon */
-     , (14554,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14554,   1, 0x02000C31) /* Setup */
+     , (14554,   3, 0x20000014) /* SoundTable */
+     , (14554,   6, 0x04000F48) /* PaletteBase */
+     , (14554,   7, 0x1000036A) /* ClothingBase */
+     , (14554,   8, 0x06002412) /* Icon */
+     , (14554,  22, 0x3400002B) /* PhysicsEffectTable */;

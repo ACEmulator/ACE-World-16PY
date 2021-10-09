@@ -22,7 +22,7 @@ VALUES (4520,   1, 'Tailor Yajyi') /* Name */
      , (4520,  16, 'Tailor Yajyi') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4520,   1,   33555594) /* Setup */
-     , (4520,   6,   67111782) /* PaletteBase */
-     , (4520,   7,  268435693) /* ClothingBase */
-     , (4520,   8,  100668115) /* Icon */;
+VALUES (4520,   1, 0x0200048A) /* Setup */
+     , (4520,   6, 0x04000B66) /* PaletteBase */
+     , (4520,   7, 0x100000ED) /* ClothingBase */
+     , (4520,   8, 0x060012D3) /* Icon */;

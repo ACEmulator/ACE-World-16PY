@@ -37,7 +37,7 @@ VALUES (27915,   1, 'Ancient Enchanted Philter') /* Name */
      , (27915,  33, 'PhilterHizkRiTaken') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27915,   1,   33555965) /* Setup */
-     , (27915,   3,  536870932) /* SoundTable */
-     , (27915,   8,  100676554) /* Icon */
-     , (27915,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27915,   1, 0x020005FD) /* Setup */
+     , (27915,   3, 0x20000014) /* SoundTable */
+     , (27915,   8, 0x060033CA) /* Icon */
+     , (27915,  22, 0x3400002B) /* PhysicsEffectTable */;

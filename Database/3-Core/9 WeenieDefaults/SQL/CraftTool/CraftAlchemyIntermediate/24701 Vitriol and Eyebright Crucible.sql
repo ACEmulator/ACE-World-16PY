@@ -31,8 +31,8 @@ VALUES (24701,   1, 'Vitriol and Eyebright Crucible') /* Name */
      , (24701,  20, 'Vitriol and Eyebright Crucibles') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24701,   1,   33555966) /* Setup */
-     , (24701,   3,  536870932) /* SoundTable */
-     , (24701,   8,  100674463) /* Icon */
-     , (24701,  22,  872415275) /* PhysicsEffectTable */
-     , (24701,  50,  100674413) /* IconOverlay */;
+VALUES (24701,   1, 0x020005FE) /* Setup */
+     , (24701,   3, 0x20000014) /* SoundTable */
+     , (24701,   8, 0x06002B9F) /* Icon */
+     , (24701,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24701,  50, 0x06002B6D) /* IconOverlay */;

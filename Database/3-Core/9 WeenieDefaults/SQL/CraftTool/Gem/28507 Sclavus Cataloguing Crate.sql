@@ -33,9 +33,9 @@ VALUES (28507,   1, 'Sclavus Cataloguing Crate') /* Name */
      , (28507,  16, 'A functional crate for storing messy materials. The crate has one full bag -- a small Sclavus hide is inside this bag-- and three empty bags. The next bag is labeled Sclavus hide.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28507,   1,   33554930) /* Setup */
-     , (28507,   3,  536870932) /* SoundTable */
-     , (28507,   6,   67111919) /* PaletteBase */
-     , (28507,   7,  268435723) /* ClothingBase */
-     , (28507,   8,  100676965) /* Icon */
-     , (28507,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28507,   1, 0x020001F2) /* Setup */
+     , (28507,   3, 0x20000014) /* SoundTable */
+     , (28507,   6, 0x04000BEF) /* PaletteBase */
+     , (28507,   7, 0x1000010B) /* ClothingBase */
+     , (28507,   8, 0x06003565) /* Icon */
+     , (28507,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -39,9 +39,9 @@ VALUES (8150,   1, 'Mosswart Mask') /* Name */
      , (8150,  16, 'A finely sewed and cured Mosswart head, complete with cushions around the neck for active use.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8150,   1,   33556824) /* Setup */
-     , (8150,   3,  536870932) /* SoundTable */
-     , (8150,   6,   67108990) /* PaletteBase */
-     , (8150,   7,  268436052) /* ClothingBase */
-     , (8150,   8,  100671024) /* Icon */
-     , (8150,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8150,   1, 0x02000958) /* Setup */
+     , (8150,   3, 0x20000014) /* SoundTable */
+     , (8150,   6, 0x0400007E) /* PaletteBase */
+     , (8150,   7, 0x10000254) /* ClothingBase */
+     , (8150,   8, 0x06001E30) /* Icon */
+     , (8150,  22, 0x3400002B) /* PhysicsEffectTable */;

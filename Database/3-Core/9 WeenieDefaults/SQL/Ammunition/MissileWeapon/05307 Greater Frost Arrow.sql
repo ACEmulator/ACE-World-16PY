@@ -41,9 +41,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5307,   1, 'Greater Frost Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5307,   1,   33555689) /* Setup */
-     , (5307,   3,  536870932) /* SoundTable */
-     , (5307,   6,   67111919) /* PaletteBase */
-     , (5307,   7,  268436303) /* ClothingBase */
-     , (5307,   8,  100670167) /* Icon */
-     , (5307,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5307,   1, 0x020004E9) /* Setup */
+     , (5307,   3, 0x20000014) /* SoundTable */
+     , (5307,   6, 0x04000BEF) /* PaletteBase */
+     , (5307,   7, 0x1000034F) /* ClothingBase */
+     , (5307,   8, 0x06001AD7) /* Icon */
+     , (5307,  22, 0x3400002B) /* PhysicsEffectTable */;

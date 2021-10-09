@@ -21,7 +21,7 @@ VALUES (5559,   1,        256) /* ItemType - MissileWeapon */
      , (5559,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (5559,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (5559,  49,         10) /* WeaponTime */
-     , (5559,  51,          2) /* CombatUse - Missle */
+     , (5559,  51,          2) /* CombatUse - Missile */
      , (5559,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (5559, 150,        103) /* HookPlacement - Hook */
      , (5559, 151,          2) /* HookType - Wall */;
@@ -41,7 +41,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5559,   1, 'Lightning Throwing Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5559,   1,   33555697) /* Setup */
-     , (5559,   3,  536870932) /* SoundTable */
-     , (5559,   8,  100667590) /* Icon */
-     , (5559,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5559,   1, 0x020004F1) /* Setup */
+     , (5559,   3, 0x20000014) /* SoundTable */
+     , (5559,   8, 0x060010C6) /* Icon */
+     , (5559,  22, 0x3400002B) /* PhysicsEffectTable */;

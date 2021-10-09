@@ -22,5 +22,5 @@ VALUES (4673,   1, 'Samsur Outpost') /* Name */
      , (4673,  16, 'This way to Samsur!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4673,   1,   33555985) /* Setup */
-     , (4673,   8,  100668115) /* Icon */;
+VALUES (4673,   1, 0x02000611) /* Setup */
+     , (4673,   8, 0x060012D3) /* Icon */;

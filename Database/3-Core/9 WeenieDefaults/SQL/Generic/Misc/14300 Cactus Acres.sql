@@ -22,5 +22,5 @@ VALUES (14300,   1, 'Cactus Acres') /* Name */
      , (14300,  16, 'Welcome to Cactus Acres') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14300,   1,   33557463) /* Setup */
-     , (14300,   8,  100668115) /* Icon */;
+VALUES (14300,   1, 0x02000BD7) /* Setup */
+     , (14300,   8, 0x060012D3) /* Icon */;

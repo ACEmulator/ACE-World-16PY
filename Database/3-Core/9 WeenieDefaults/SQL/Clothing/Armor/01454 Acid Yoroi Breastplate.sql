@@ -36,8 +36,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1454,   1, 'Acid Yoroi Breastplate') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1454,   1,   33554642) /* Setup */
-     , (1454,   6,   67108990) /* PaletteBase */
-     , (1454,   7,  268435493) /* ClothingBase */
-     , (1454,   8,  100668147) /* Icon */
-     , (1454,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1454,   1, 0x020000D2) /* Setup */
+     , (1454,   6, 0x0400007E) /* PaletteBase */
+     , (1454,   7, 0x10000025) /* ClothingBase */
+     , (1454,   8, 0x060012F3) /* Icon */
+     , (1454,  22, 0x3400002B) /* PhysicsEffectTable */;

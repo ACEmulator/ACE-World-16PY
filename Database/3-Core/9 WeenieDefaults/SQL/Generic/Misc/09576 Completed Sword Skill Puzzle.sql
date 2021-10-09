@@ -28,8 +28,8 @@ VALUES (9576,   1, 'Completed Sword Skill Puzzle') /* Name */
      , (9576,  16, 'A completed Sword Skill Puzzle.  Turn in to a Bestower Examiner to receive a title.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9576,   1,   33557028) /* Setup */
-     , (9576,   3,  536870932) /* SoundTable */
-     , (9576,   8,  100671566) /* Icon */
-     , (9576,  22,  872415275) /* PhysicsEffectTable */
-     , (9576,  36,  234881046) /* MutateFilter */;
+VALUES (9576,   1, 0x02000A24) /* Setup */
+     , (9576,   3, 0x20000014) /* SoundTable */
+     , (9576,   8, 0x0600204E) /* Icon */
+     , (9576,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (9576,  36, 0x0E000016) /* MutateFilter */;

@@ -24,7 +24,7 @@ VALUES (20289,   1, 'Scroll of Extinguish All Magic Self') /* Name */
      , (20289,  15, 'When learned, this spell dispels all enchantments of level 2 or lower from the caster.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20289,   1,   33554826) /* Setup */
-     , (20289,   8,  100669877) /* Icon */
-     , (20289,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20289,   1, 0x0200018A) /* Setup */
+     , (20289,   8, 0x060019B5) /* Icon */
+     , (20289,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20289,  28,       1856) /* Spell - Extinguish All Magic Self */;

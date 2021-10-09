@@ -36,11 +36,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30586,   1, 'Flanged Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30586,   1,   33554746) /* Setup */
-     , (30586,   3,  536870932) /* SoundTable */
-     , (30586,   6,   67111919) /* PaletteBase */
-     , (30586,   7,  268435792) /* ClothingBase */
-     , (30586,   8,  100668955) /* Icon */
-     , (30586,  22,  872415275) /* PhysicsEffectTable */
-     , (30586,  36,  234881053) /* MutateFilter */
-     , (30586,  46,  939524099) /* TsysMutationFilter */;
+VALUES (30586,   1, 0x0200013A) /* Setup */
+     , (30586,   3, 0x20000014) /* SoundTable */
+     , (30586,   6, 0x04000BEF) /* PaletteBase */
+     , (30586,   7, 0x10000150) /* ClothingBase */
+     , (30586,   8, 0x0600161B) /* Icon */
+     , (30586,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30586,  36, 0x0E00001D) /* MutateFilter */
+     , (30586,  46, 0x38000003) /* TsysMutationFilter */;

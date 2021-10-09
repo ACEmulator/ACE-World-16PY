@@ -27,8 +27,8 @@ VALUES (27274,   1, 'Platinum Prowler Title Token') /* Name */
      , (27274,  15, 'An ornate Aun token given by Aun Khekierea in recognition of your hunting prowess. Return this token to him for the title - Platinum Prowler.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27274,   1,   33557280) /* Setup */
-     , (27274,   3,  536870932) /* SoundTable */
-     , (27274,   8,  100671832) /* Icon */
-     , (27274,  22,  872415275) /* PhysicsEffectTable */
-     , (27274,  36,  234881046) /* MutateFilter */;
+VALUES (27274,   1, 0x02000B20) /* Setup */
+     , (27274,   3, 0x20000014) /* SoundTable */
+     , (27274,   8, 0x06002158) /* Icon */
+     , (27274,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27274,  36, 0x0E000016) /* MutateFilter */;

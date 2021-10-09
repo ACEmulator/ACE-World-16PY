@@ -36,11 +36,11 @@ VALUES (26070,   1, 'Aloria Portal Gem') /* Name */
      , (26070,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26070,   1,   33556769) /* Setup */
-     , (26070,   3,  536870932) /* SoundTable */
-     , (26070,   6,   67111919) /* PaletteBase */
-     , (26070,   7,  268435723) /* ClothingBase */
-     , (26070,   8,  100675760) /* Icon */
-     , (26070,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26070,   1, 0x02000921) /* Setup */
+     , (26070,   3, 0x20000014) /* SoundTable */
+     , (26070,   6, 0x04000BEF) /* PaletteBase */
+     , (26070,   7, 0x1000010B) /* ClothingBase */
+     , (26070,   8, 0x060030B0) /* Icon */
+     , (26070,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26070,  28,        157) /* Spell - Summon Primary Portal I */
      , (26070,  31,      15140) /* LinkedPortalOne - Aloria Portal */;

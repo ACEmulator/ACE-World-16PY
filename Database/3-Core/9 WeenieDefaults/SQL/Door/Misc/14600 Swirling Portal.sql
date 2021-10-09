@@ -29,10 +29,10 @@ VALUES (14600,   1, 'Swirling Portal') /* Name */
      , (14600,  14, 'This door cannot be activated from here.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14600,   1,   33557514) /* Setup */
-     , (14600,   2,  150995155) /* MotionTable */
-     , (14600,   3,  536871050) /* SoundTable */
-     , (14600,   6,   67111868) /* PaletteBase */
-     , (14600,   7,  268436329) /* ClothingBase */
-     , (14600,   8,  100667499) /* Icon */
-     , (14600,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14600,   1, 0x02000C0A) /* Setup */
+     , (14600,   2, 0x090000D3) /* MotionTable */
+     , (14600,   3, 0x2000008A) /* SoundTable */
+     , (14600,   6, 0x04000BBC) /* PaletteBase */
+     , (14600,   7, 0x10000369) /* ClothingBase */
+     , (14600,   8, 0x0600106B) /* Icon */
+     , (14600,  22, 0x3400002B) /* PhysicsEffectTable */;

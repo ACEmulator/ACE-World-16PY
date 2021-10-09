@@ -17,7 +17,7 @@ VALUES (27362,   1,        256) /* ItemType - MissileWeapon */
      , (27362,  48,          3) /* WeaponSkill - Crossbow */
      , (27362,  49,         60) /* WeaponTime */
      , (27362,  50,          2) /* AmmoType - Bolt */
-     , (27362,  51,          2) /* CombatUse - Missle */
+     , (27362,  51,          2) /* CombatUse - Missile */
      , (27362,  52,          2) /* ParentLocation - LeftHand */
      , (27362,  53,          3) /* PlacementPosition - LeftHand */
      , (27362,  60,        160) /* WeaponRange */
@@ -40,7 +40,7 @@ VALUES (27362,  22, True ) /* Inscribable */
      , (27362,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27362,   5, -0.033333) /* ManaRate */
+VALUES (27362,   5,  -0.033) /* ManaRate */
      , (27362,  26,    24.9) /* MaximumVelocity */
      , (27362,  29,    1.08) /* WeaponDefense */
      , (27362,  39,       1) /* DefaultScale */
@@ -54,20 +54,20 @@ VALUES (27362,   1, 'Palenqual''s Kalindan of the Chase') /* Name */
      , (27362,  16, 'A kalindan fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27362,   1,   33558668) /* Setup */
-     , (27362,   3,  536870932) /* SoundTable */
-     , (27362,   6,   67113336) /* PaletteBase */
-     , (27362,   7,  268436250) /* ClothingBase */
-     , (27362,   8,  100676347) /* Icon */
-     , (27362,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27362,   1, 0x0200108C) /* Setup */
+     , (27362,   3, 0x20000014) /* SoundTable */
+     , (27362,   6, 0x04001178) /* PaletteBase */
+     , (27362,   7, 0x1000031A) /* ClothingBase */
+     , (27362,   8, 0x060032FB) /* Icon */
+     , (27362,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27362,  2438,      2)  /* Lesser Rockslide */
+VALUES (27362,  2454,      2)  /* Thorns */
+     , (27362,  2438,      2)  /* Lesser Rockslide */
      , (27362,  2441,      2)  /* Lesser Stone Cliffs */
      , (27362,  2444,      2)  /* Lesser Strength of Earth */
      , (27362,  2448,      2)  /* Growth */
      , (27362,  2451,      2)  /* Hunter's Acumen */
-     , (27362,  2454,      2)  /* Thorns */
+     , (27362,  3234,      2)  /* Lesser Cascade */
      , (27362,  2471,      2)  /* Lesser Still Water */
-     , (27362,  2474,      2)  /* Lesser Torrent */
-     , (27362,  3234,      2)  /* Lesser Cascade */;
+     , (27362,  2474,      2)  /* Lesser Torrent */;

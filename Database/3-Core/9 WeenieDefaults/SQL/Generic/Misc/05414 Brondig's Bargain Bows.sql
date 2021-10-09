@@ -22,5 +22,5 @@ VALUES (5414,   1, 'Brondig''s Bargain Bows') /* Name */
      , (5414,  16, 'Brondig''s Bargain Bows') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5414,   1,   33555984) /* Setup */
-     , (5414,   8,  100668115) /* Icon */;
+VALUES (5414,   1, 0x02000610) /* Setup */
+     , (5414,   8, 0x060012D3) /* Icon */;

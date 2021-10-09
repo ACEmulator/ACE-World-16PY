@@ -33,7 +33,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28495,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28495,   5, -0.0333) /* ManaRate */
+VALUES (28495,   5,  -0.033) /* ManaRate */
      , (28495,  21,     0.9) /* WeaponLength */
      , (28495,  22,    0.35) /* DamageVariance */
      , (28495,  29,    1.09) /* WeaponDefense */
@@ -45,15 +45,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28495,   1, 'Noble Morning Star') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28495,   1,   33558866) /* Setup */
-     , (28495,   3,  536870932) /* SoundTable */
-     , (28495,   8,  100676980) /* Icon */
-     , (28495,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28495,   1, 0x02001152) /* Setup */
+     , (28495,   3, 0x20000014) /* SoundTable */
+     , (28495,   8, 0x06003574) /* Icon */
+     , (28495,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28495,   243,      2)  /* Invulnerability Other V */
+VALUES (28495,  1604,      2)  /* Aura of Defender Self V */
      , (28495,  1359,      2)  /* Endurance Other V */
-     , (28495,  1591,      2)  /* Aura of Heart Seeker Self V */
-     , (28495,  1604,      2)  /* Aura of Defender Self V */
      , (28495,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (28495,  1625,      2)  /* Aura of Swift Killer Self IV */;
+     , (28495,   243,      2)  /* Invulnerability Other V */
+     , (28495,  1625,      2)  /* Aura of Swift Killer Self IV */
+     , (28495,  1591,      2)  /* Aura of Heart Seeker Self V */;

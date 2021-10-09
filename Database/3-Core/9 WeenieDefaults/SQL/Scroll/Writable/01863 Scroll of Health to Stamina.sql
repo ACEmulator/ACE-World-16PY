@@ -25,7 +25,7 @@ VALUES (1863,   1, 'Scroll of Health to Stamina') /* Name */
      , (1863,  16, 'When learned, this spell drains one-half of the target''s Health and gives 60% of that to his/her Stamina.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1863,   1,   33554826) /* Setup */
-     , (1863,   8,  100676947) /* Icon */
-     , (1863,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1863,   1, 0x0200018A) /* Setup */
+     , (1863,   8, 0x06003553) /* Icon */
+     , (1863,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1863,  28,       1266) /* Spell - Health to Stamina Other I */;

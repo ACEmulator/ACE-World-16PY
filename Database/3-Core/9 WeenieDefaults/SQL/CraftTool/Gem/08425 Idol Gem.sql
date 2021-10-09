@@ -28,9 +28,9 @@ VALUES (8425,   1, 'Idol Gem') /* Name */
      , (8425,  16, 'The glowing eye of a mosswart stone Idol.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8425,   1,   33556903) /* Setup */
-     , (8425,   3,  536870932) /* SoundTable */
-     , (8425,   6,   67111919) /* PaletteBase */
-     , (8425,   7,  268435723) /* ClothingBase */
-     , (8425,   8,  100671207) /* Icon */
-     , (8425,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8425,   1, 0x020009A7) /* Setup */
+     , (8425,   3, 0x20000014) /* SoundTable */
+     , (8425,   6, 0x04000BEF) /* PaletteBase */
+     , (8425,   7, 0x1000010B) /* ClothingBase */
+     , (8425,   8, 0x06001EE7) /* Icon */
+     , (8425,  22, 0x3400002B) /* PhysicsEffectTable */;

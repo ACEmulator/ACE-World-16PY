@@ -15,7 +15,7 @@ VALUES (531,   1,        256) /* ItemType - MissileWeapon */
      , (531,  48,          2) /* WeaponSkill - Bow */
      , (531,  49,         40) /* WeaponTime */
      , (531,  50,          1) /* AmmoType - Arrow */
-     , (531,  51,          2) /* CombatUse - Missle */
+     , (531,  51,          2) /* CombatUse - Missile */
      , (531,  52,          2) /* ParentLocation - LeftHand */
      , (531,  53,          3) /* PlacementPosition - LeftHand */
      , (531,  60,        160) /* WeaponRange */
@@ -38,7 +38,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (531,   1, 'Starter Shouyumi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (531,   1,   33554729) /* Setup */
-     , (531,   3,  536870932) /* SoundTable */
-     , (531,   8,  100667583) /* Icon */
-     , (531,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (531,   1, 0x02000129) /* Setup */
+     , (531,   3, 0x20000014) /* SoundTable */
+     , (531,   8, 0x060010BF) /* Icon */
+     , (531,  22, 0x3400002B) /* PhysicsEffectTable */;

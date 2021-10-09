@@ -32,9 +32,9 @@ VALUES (15851,   1, 'Book Binding') /* Name */
      , (15851,  15, 'A binding that once contained several pages of text, the pages seem to have been removed, or dropped. Two pages have yet to be found.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15851,   1,   33556929) /* Setup */
-     , (15851,   3,  536870932) /* SoundTable */
-     , (15851,   6,   67113005) /* PaletteBase */
-     , (15851,   7,  268436360) /* ClothingBase */
-     , (15851,   8,  100672804) /* Icon */
-     , (15851,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15851,   1, 0x020009C1) /* Setup */
+     , (15851,   3, 0x20000014) /* SoundTable */
+     , (15851,   6, 0x0400102D) /* PaletteBase */
+     , (15851,   7, 0x10000388) /* ClothingBase */
+     , (15851,   8, 0x06002524) /* Icon */
+     , (15851,  22, 0x3400002B) /* PhysicsEffectTable */;

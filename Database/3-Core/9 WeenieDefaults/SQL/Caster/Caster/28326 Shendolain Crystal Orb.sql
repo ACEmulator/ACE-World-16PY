@@ -42,14 +42,14 @@ VALUES (28326,   1, 'Shendolain Crystal Orb') /* Name */
      , (28326,  15, 'An orb imbued with the power of the Shendolain Crystal.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28326,   1,   33556767) /* Setup */
-     , (28326,   3,  536870932) /* SoundTable */
-     , (28326,   6,   67111928) /* PaletteBase */
-     , (28326,   7,  268436041) /* ClothingBase */
-     , (28326,   8,  100670986) /* Icon */
-     , (28326,  22,  872415275) /* PhysicsEffectTable */
-     , (28326,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
-     , (28326,  36,  234881046) /* MutateFilter */;
+VALUES (28326,   1, 0x0200091F) /* Setup */
+     , (28326,   3, 0x20000014) /* SoundTable */
+     , (28326,   6, 0x04000BF8) /* PaletteBase */
+     , (28326,   7, 0x10000249) /* ClothingBase */
+     , (28326,   8, 0x06001E0A) /* Icon */
+     , (28326,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (28326,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
+     , (28326,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28326,   561,      2)  /* Creature Enchantment Mastery Self V */

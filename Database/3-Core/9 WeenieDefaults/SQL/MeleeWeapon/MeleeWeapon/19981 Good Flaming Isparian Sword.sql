@@ -51,17 +51,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19981,   1, 'Good Flaming Isparian Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19981,   1,   33556377) /* Setup */
-     , (19981,   3,  536870932) /* SoundTable */
-     , (19981,   6,   67111919) /* PaletteBase */
-     , (19981,   7,  268436385) /* ClothingBase */
-     , (19981,   8,  100672951) /* Icon */
-     , (19981,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19981,   1, 0x02000799) /* Setup */
+     , (19981,   3, 0x20000014) /* SoundTable */
+     , (19981,   6, 0x04000BEF) /* PaletteBase */
+     , (19981,   7, 0x100003A1) /* ClothingBase */
+     , (19981,   8, 0x060025B7) /* Icon */
+     , (19981,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19981,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19981,  1094,      2)  /* Fire Protection Self VI */
-     , (19981,  1331,      2)  /* Strength Self V */
      , (19981,  1590,      2)  /* Aura of Heart Seeker Self IV */
+     , (19981,  1331,      2)  /* Strength Self V */
      , (19981,  1614,      2)  /* Aura of Blood Drinker Self IV */
      , (19981,  2683,      2)  /* Feeble Heavy Weapon Aptitude */;

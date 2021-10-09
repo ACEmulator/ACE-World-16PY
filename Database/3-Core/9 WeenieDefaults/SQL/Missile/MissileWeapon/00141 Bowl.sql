@@ -21,7 +21,7 @@ VALUES (141,   1,        256) /* ItemType - MissileWeapon */
      , (141,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (141,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (141,  49,         10) /* WeaponTime */
-     , (141,  51,          2) /* CombatUse - Missle */
+     , (141,  51,          2) /* CombatUse - Missile */
      , (141,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (141, 150,        103) /* HookPlacement - Hook */
      , (141, 151,          1) /* HookType - Floor */
@@ -44,10 +44,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (141,   1, 'Bowl') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (141,   1,   33554929) /* Setup */
-     , (141,   3,  536871012) /* SoundTable */
-     , (141,   6,   67111092) /* PaletteBase */
-     , (141,   7,  268435736) /* ClothingBase */
-     , (141,   8,  100668612) /* Icon */
-     , (141,  22,  872415275) /* PhysicsEffectTable */
-     , (141,  36,  234881046) /* MutateFilter */;
+VALUES (141,   1, 0x020001F1) /* Setup */
+     , (141,   3, 0x20000064) /* SoundTable */
+     , (141,   6, 0x040008B4) /* PaletteBase */
+     , (141,   7, 0x10000118) /* ClothingBase */
+     , (141,   8, 0x060014C4) /* Icon */
+     , (141,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (141,  36, 0x0E000016) /* MutateFilter */;

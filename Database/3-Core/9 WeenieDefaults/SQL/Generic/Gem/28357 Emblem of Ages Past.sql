@@ -29,9 +29,9 @@ VALUES (28357,   1, 'Emblem of Ages Past') /* Name */
      , (28357,  15, 'A round emblem made of blackened wood and amber.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28357,   1,   33555194) /* Setup */
-     , (28357,   3,  536870932) /* SoundTable */
-     , (28357,   6,   67111092) /* PaletteBase */
-     , (28357,   7,  268436400) /* ClothingBase */
-     , (28357,   8,  100676993) /* Icon */
-     , (28357,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28357,   1, 0x020002FA) /* Setup */
+     , (28357,   3, 0x20000014) /* SoundTable */
+     , (28357,   6, 0x040008B4) /* PaletteBase */
+     , (28357,   7, 0x100003B0) /* ClothingBase */
+     , (28357,   8, 0x06003581) /* Icon */
+     , (28357,  22, 0x3400002B) /* PhysicsEffectTable */;

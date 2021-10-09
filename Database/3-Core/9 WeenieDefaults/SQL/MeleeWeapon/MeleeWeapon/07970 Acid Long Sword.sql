@@ -39,10 +39,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7970,   1, 'Acid Long Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7970,   1,   33555791) /* Setup */
-     , (7970,   3,  536870932) /* SoundTable */
-     , (7970,   6,   67111919) /* PaletteBase */
-     , (7970,   7,  268435769) /* ClothingBase */
-     , (7970,   8,  100667613) /* Icon */
-     , (7970,  22,  872415275) /* PhysicsEffectTable */
-     , (7970,  36,  234881044) /* MutateFilter */;
+VALUES (7970,   1, 0x0200054F) /* Setup */
+     , (7970,   3, 0x20000014) /* SoundTable */
+     , (7970,   6, 0x04000BEF) /* PaletteBase */
+     , (7970,   7, 0x10000139) /* ClothingBase */
+     , (7970,   8, 0x060010DD) /* Icon */
+     , (7970,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (7970,  36, 0x0E000014) /* MutateFilter */;

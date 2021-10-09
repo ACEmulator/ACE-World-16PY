@@ -24,7 +24,7 @@ VALUES (4768,   1, 'Uncooked Rice') /* Name */
      , (4768,  20, 'Bags of Uncooked Rice') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4768,   1,   33554817) /* Setup */
-     , (4768,   3,  536870932) /* SoundTable */
-     , (4768,   8,  100670182) /* Icon */
-     , (4768,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4768,   1, 0x02000181) /* Setup */
+     , (4768,   3, 0x20000014) /* SoundTable */
+     , (4768,   8, 0x06001AE6) /* Icon */
+     , (4768,  22, 0x3400002B) /* PhysicsEffectTable */;

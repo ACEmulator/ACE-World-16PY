@@ -29,7 +29,7 @@ VALUES (5286,   1, 'Hearty Mana Apple Pie') /* Name */
      , (5286,  20, 'Hearty Mana Apple Pies') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5286,   1,   33555978) /* Setup */
-     , (5286,   3,  536870932) /* SoundTable */
-     , (5286,   8,  100669942) /* Icon */
-     , (5286,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5286,   1, 0x0200060A) /* Setup */
+     , (5286,   3, 0x20000014) /* SoundTable */
+     , (5286,   8, 0x060019F6) /* Icon */
+     , (5286,  22, 0x3400002B) /* PhysicsEffectTable */;

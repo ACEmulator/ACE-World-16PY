@@ -16,7 +16,7 @@ VALUES (30345,   1,        256) /* ItemType - MissileWeapon */
      , (30345,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (30345,  49,         15) /* WeaponTime */
      , (30345,  50,          4) /* AmmoType - Atlatl */
-     , (30345,  51,          2) /* CombatUse - Missle */
+     , (30345,  51,          2) /* CombatUse - Missile */
      , (30345,  60,        120) /* WeaponRange */
      , (30345,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30345, 150,        103) /* HookPlacement - Hook */
@@ -36,9 +36,9 @@ VALUES (30345,   1, 'Dart-Flicker') /* Name */
      , (30345,  16, 'Describe me here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30345,   1,   33557433) /* Setup */
-     , (30345,   3,  536870932) /* SoundTable */
-     , (30345,   6,   67111919) /* PaletteBase */
-     , (30345,   7,  268436304) /* ClothingBase */
-     , (30345,   8,  100672372) /* Icon */
-     , (30345,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30345,   1, 0x02000BB9) /* Setup */
+     , (30345,   3, 0x20000014) /* SoundTable */
+     , (30345,   6, 0x04000BEF) /* PaletteBase */
+     , (30345,   7, 0x10000350) /* ClothingBase */
+     , (30345,   8, 0x06002374) /* Icon */
+     , (30345,  22, 0x3400002B) /* PhysicsEffectTable */;

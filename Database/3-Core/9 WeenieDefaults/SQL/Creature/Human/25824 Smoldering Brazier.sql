@@ -64,11 +64,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25824,   1, 'Smoldering Brazier') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25824,   1,   33558565) /* Setup */
-     , (25824,   2,  150995266) /* MotionTable */
-     , (25824,   3,  536870913) /* SoundTable */
-     , (25824,   4,  805306368) /* CombatTable */
-     , (25824,   8,  100675646) /* Icon */;
+VALUES (25824,   1, 0x02001025) /* Setup */
+     , (25824,   2, 0x09000142) /* MotionTable */
+     , (25824,   3, 0x20000001) /* SoundTable */
+     , (25824,   4, 0x30000000) /* CombatTable */
+     , (25824,   8, 0x0600303E) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25824,   1, 220, 0, 0) /* Strength */
@@ -84,10 +84,10 @@ VALUES (25824,   1,   150, 0, 0, 250) /* MaxHealth */
      , (25824,   5,   150, 0, 0, 300) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (25824,  6, 0, 2, 0,   1, 0, 1670.15841499087) /* MeleeDefense        Trained */
-     , (25824,  7, 0, 2, 0,   1, 0, 1670.15841499087) /* MissileDefense      Trained */
-     , (25824, 13, 0, 2, 0,   1, 0, 1670.15841499087) /* UnarmedCombat       Trained */
-     , (25824, 20, 0, 3, 0, 999, 0, 1670.15841499087) /* Deception           Specialized */;
+VALUES (25824,  6, 0, 2, 0,   1, 0, 1670.1584149908726) /* MeleeDefense        Trained */
+     , (25824,  7, 0, 2, 0,   1, 0, 1670.1584149908726) /* MissileDefense      Trained */
+     , (25824, 13, 0, 2, 0,   1, 0, 1670.1584149908726) /* UnarmedCombat       Trained */
+     , (25824, 20, 0, 3, 0, 999, 0, 1670.1584149908726) /* Deception           Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (25824,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -123,7 +123,7 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,  13 /* TextDirect */, 0, 1, NULL, 'The curvature of the metal basin is perfect for a shield. As you sift the coals and ashes aside you can tell that the heat from the burning embers has created this perfect object.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  1,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 25813 /* Brazier of Power */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  1,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 25813 /* Brazier of Power */, 1, 0 /* Undef */, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  2,  22 /* StampQuest */, 0, 1, NULL, 'EmptySoulShield', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)

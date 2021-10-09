@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4039,   1, 'Cragstone Waterfall Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4039,   1,   33554867) /* Setup */
-     , (4039,   2,  150994947) /* MotionTable */
-     , (4039,   8,  100667499) /* Icon */;
+VALUES (4039,   1, 0x020001B3) /* Setup */
+     , (4039,   2, 0x09000003) /* MotionTable */
+     , (4039,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4039, 2, 3064135697, 56, 1.1, 1.9, -0.9743701, 0, 0, -0.2249511) /* Destination */
-/* @teleloc 0xB6A30011 [56.000000 1.100000 1.900000] -0.974370 0.000000 0.000000 -0.224951 */;
+VALUES (4039, 2, 0xB6A30011, 56, 1.1, 1.9, -0.97437, 0, -0, -0.224951) /* Destination */
+/* @teleloc 0xB6A30011 [56.000000 1.100000 1.900000] -0.974370 0.000000 -0.000000 -0.224951 */;

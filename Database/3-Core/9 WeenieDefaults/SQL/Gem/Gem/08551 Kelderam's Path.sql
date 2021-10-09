@@ -40,15 +40,15 @@ VALUES (8551,   1, 'Kelderam''s Path') /* Name */
      , (8551,  33, 'GemIthaencCatacombs') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8551,   1,   33556769) /* Setup */
-     , (8551,   3,  536870932) /* SoundTable */
-     , (8551,   6,   67111919) /* PaletteBase */
-     , (8551,   7,  268435723) /* ClothingBase */
-     , (8551,   8,  100670993) /* Icon */
-     , (8551,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8551,   1, 0x02000921) /* Setup */
+     , (8551,   3, 0x20000014) /* SoundTable */
+     , (8551,   6, 0x04000BEF) /* PaletteBase */
+     , (8551,   7, 0x1000010B) /* ClothingBase */
+     , (8551,   8, 0x06001E11) /* Icon */
+     , (8551,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8551,  28,       2028) /* Spell - The Path to Kelderam's Ward */
      , (8551,  31,       8534) /* LinkedPortalOne - Kelderam's Path */
-     , (8551,  36,  234881046) /* MutateFilter */;
+     , (8551,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (8551, 12 /* QuestSuccess */,      1, NULL, NULL, NULL, 'GemIthaencCatacombs', NULL, NULL, NULL);

@@ -25,6 +25,6 @@ VALUES (1447,   1, 'Tart Apple') /* Name */
      , (1447,  14, 'Use this item to eat it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1447,   1,   33554667) /* Setup */
-     , (1447,   8,  100667465) /* Icon */
-     , (1447,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (1447,   1, 0x020000EB) /* Setup */
+     , (1447,   8, 0x06001049) /* Icon */
+     , (1447,  22, 0x3400002B) /* PhysicsEffectTable */;

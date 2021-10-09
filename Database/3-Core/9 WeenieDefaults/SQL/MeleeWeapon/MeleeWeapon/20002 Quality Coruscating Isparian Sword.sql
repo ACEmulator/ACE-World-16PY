@@ -49,16 +49,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20002,   1, 'Quality Coruscating Isparian Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20002,   1,   33556348) /* Setup */
-     , (20002,   3,  536870932) /* SoundTable */
-     , (20002,   6,   67111919) /* PaletteBase */
-     , (20002,   7,  268436385) /* ClothingBase */
-     , (20002,   8,  100672947) /* Icon */
-     , (20002,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20002,   1, 0x0200077C) /* Setup */
+     , (20002,   3, 0x20000014) /* SoundTable */
+     , (20002,   6, 0x04000BEF) /* PaletteBase */
+     , (20002,   7, 0x100003A1) /* ClothingBase */
+     , (20002,   8, 0x060025B3) /* Icon */
+     , (20002,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20002,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20002,  1069,      2)  /* Lightning Protection Self IV */
-     , (20002,  1399,      2)  /* Quickness Self III */
-     , (20002,  1589,      2)  /* Aura of Heart Seeker Self III */
-     , (20002,  1613,      2)  /* Aura of Blood Drinker Self III */;
+VALUES (20002,  1589,      2)  /* Aura of Heart Seeker Self III */
+     , (20002,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (20002,  1069,      2)  /* Lightning Protection Self IV */
+     , (20002,  1399,      2)  /* Quickness Self III */;

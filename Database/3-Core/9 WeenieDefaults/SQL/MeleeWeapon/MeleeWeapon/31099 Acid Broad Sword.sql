@@ -34,7 +34,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31099,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31099,   5,       0) /* ManaRate */
+VALUES (31099,   5,      -0) /* ManaRate */
      , (31099,  21,    0.95) /* WeaponLength */
      , (31099,  22,     0.5) /* DamageVariance */
      , (31099,  29,    1.07) /* WeaponDefense */
@@ -45,15 +45,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31099,   1, 'Acid Broad Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31099,   1,   33555814) /* Setup */
-     , (31099,   3,  536870932) /* SoundTable */
-     , (31099,   6,   67111919) /* PaletteBase */
-     , (31099,   7,  268435770) /* ClothingBase */
-     , (31099,   8,  100669015) /* Icon */
-     , (31099,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31099,   1, 0x02000566) /* Setup */
+     , (31099,   3, 0x20000014) /* SoundTable */
+     , (31099,   6, 0x04000BEF) /* PaletteBase */
+     , (31099,   7, 0x1000013A) /* ClothingBase */
+     , (31099,   8, 0x06001657) /* Icon */
+     , (31099,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31099,  1591,      2)  /* Aura of Heart Seeker Self V */
-     , (31099,  1604,      2)  /* Aura of Defender Self V */
+VALUES (31099,  1604,      2)  /* Aura of Defender Self V */
+     , (31099,  1591,      2)  /* Aura of Heart Seeker Self V */
      , (31099,  1615,      2)  /* Aura of Blood Drinker Self V */
      , (31099,  1626,      2)  /* Aura of Swift Killer Self V */;

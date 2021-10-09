@@ -15,7 +15,7 @@ VALUES (30878,   1,        256) /* ItemType - MissileWeapon */
      , (30878,  48,          2) /* WeaponSkill - Bow */
      , (30878,  49,         40) /* WeaponTime */
      , (30878,  50,          1) /* AmmoType - Arrow */
-     , (30878,  51,          2) /* CombatUse - Missle */
+     , (30878,  51,          2) /* CombatUse - Missile */
      , (30878,  52,          2) /* ParentLocation - LeftHand */
      , (30878,  53,          3) /* PlacementPosition - LeftHand */
      , (30878,  60,        175) /* WeaponRange */
@@ -46,10 +46,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30878,   1, 'Banished Bow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30878,   1,   33559258) /* Setup */
-     , (30878,   3,  536870932) /* SoundTable */
-     , (30878,   8,  100677481) /* Icon */
-     , (30878,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30878,   1, 0x020012DA) /* Setup */
+     , (30878,   3, 0x20000014) /* SoundTable */
+     , (30878,   8, 0x06003769) /* Icon */
+     , (30878,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30878,  1616,      2)  /* Aura of Blood Drinker Self VI */

@@ -31,7 +31,7 @@ VALUES (28914,   1, 'Fried Anchovy Dough') /* Name */
      , (28914,  16, 'A lightly-fried, aromatic piece of fried anchovy dough.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28914,   1,   33555968) /* Setup */
-     , (28914,   3,  536870932) /* SoundTable */
-     , (28914,   8,  100677051) /* Icon */
-     , (28914,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28914,   1, 0x02000600) /* Setup */
+     , (28914,   3, 0x20000014) /* SoundTable */
+     , (28914,   8, 0x060035BB) /* Icon */
+     , (28914,  22, 0x3400002B) /* PhysicsEffectTable */;

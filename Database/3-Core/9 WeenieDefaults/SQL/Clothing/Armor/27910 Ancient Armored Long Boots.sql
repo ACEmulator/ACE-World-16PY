@@ -32,7 +32,7 @@ VALUES (27910,  22, True ) /* Inscribable */
      , (27910,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27910,   5, -0.0333) /* ManaRate */
+VALUES (27910,   5,  -0.033) /* ManaRate */
      , (27910,  12,    0.66) /* Shade */
      , (27910,  13,     1.3) /* ArmorModVsSlash */
      , (27910,  14,     0.8) /* ArmorModVsPierce */
@@ -50,13 +50,13 @@ VALUES (27910,   1, 'Ancient Armored Long Boots') /* Name */
      , (27910,  16, 'These armored boots appear to have been an ornamental piece. Obviously this is only one part of a complete suit of armor.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27910,   1,   33556683) /* Setup */
-     , (27910,   3,  536870932) /* SoundTable */
-     , (27910,   6,   67108990) /* PaletteBase */
-     , (27910,   7,  268436829) /* ClothingBase */
-     , (27910,   8,  100676551) /* Icon */
-     , (27910,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27910,   1, 0x020008CB) /* Setup */
+     , (27910,   3, 0x20000014) /* SoundTable */
+     , (27910,   6, 0x0400007E) /* PaletteBase */
+     , (27910,   7, 0x1000055D) /* ClothingBase */
+     , (27910,   8, 0x060033C7) /* Icon */
+     , (27910,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27910,  3094,      2)  /* Skin of the Fiazhat */
-     , (27910,  3310,      2)  /* Inferior Lance Aegis */;
+VALUES (27910,  3310,      2)  /* Inferior Lance Aegis */
+     , (27910,  3094,      2)  /* Skin of the Fiazhat */;

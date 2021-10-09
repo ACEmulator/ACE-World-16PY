@@ -25,7 +25,7 @@ VALUES (3261,   1, 'Scroll of Fealty Other V') /* Name */
      , (3261,  16, 'When learned, this spell increases the target''s Loyalty skill by 100%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3261,   1,   33554826) /* Setup */
-     , (3261,   8,  100676446) /* Icon */
-     , (3261,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3261,   1, 0x0200018A) /* Setup */
+     , (3261,   8, 0x0600335E) /* Icon */
+     , (3261,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3261,  28,        956) /* Spell - Fealty Other V */;

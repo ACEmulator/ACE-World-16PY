@@ -27,7 +27,7 @@ VALUES (28470,   1, 'Reward Key') /* Name */
      , (28470,  16, 'This key was crafted to fit the locks of several special chests within a treasure hold created by High Queen Elysa.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28470,   1,   33554784) /* Setup */
-     , (28470,   3,  536870932) /* SoundTable */
-     , (28470,   8,  100676957) /* Icon */
-     , (28470,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28470,   1, 0x02000160) /* Setup */
+     , (28470,   3, 0x20000014) /* SoundTable */
+     , (28470,   8, 0x0600355D) /* Icon */
+     , (28470,  22, 0x3400002B) /* PhysicsEffectTable */;

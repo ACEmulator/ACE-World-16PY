@@ -26,5 +26,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2436,   1, 'Greater Mana Stone') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2436,   1,   33555640) /* Setup */
-     , (2436,   8,  100676307) /* Icon */;
+VALUES (2436,   1, 0x020004B8) /* Setup */
+     , (2436,   8, 0x060032D3) /* Icon */;

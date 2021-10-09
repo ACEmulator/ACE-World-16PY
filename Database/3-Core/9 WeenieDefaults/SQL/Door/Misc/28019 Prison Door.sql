@@ -32,8 +32,8 @@ VALUES (28019,   1, 'Prison Door') /* Name */
      , (28019,  14, 'Use this item to open it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28019,   1,   33555073) /* Setup */
-     , (28019,   2,  150994966) /* MotionTable */
-     , (28019,   3,  536870946) /* SoundTable */
-     , (28019,   8,  100668434) /* Icon */
-     , (28019,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28019,   1, 0x02000281) /* Setup */
+     , (28019,   2, 0x09000016) /* MotionTable */
+     , (28019,   3, 0x20000022) /* SoundTable */
+     , (28019,   8, 0x06001412) /* Icon */
+     , (28019,  22, 0x3400002B) /* PhysicsEffectTable */;

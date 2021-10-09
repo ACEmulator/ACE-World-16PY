@@ -38,6 +38,6 @@ VALUES (8516,   1, 'The Black Breath') /* Name */
      , (8516,  17, 'The black mist boils %i points of flesh from your bones!') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8516,   1,   33556889) /* Setup */
-     , (8516,   3,  536871007) /* SoundTable */
-     , (8516,   8,  100667465) /* Icon */;
+VALUES (8516,   1, 0x02000999) /* Setup */
+     , (8516,   3, 0x2000005F) /* SoundTable */
+     , (8516,   8, 0x06001049) /* Icon */;

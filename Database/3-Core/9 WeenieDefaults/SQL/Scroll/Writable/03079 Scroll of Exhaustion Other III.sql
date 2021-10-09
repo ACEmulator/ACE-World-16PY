@@ -25,7 +25,7 @@ VALUES (3079,   1, 'Scroll of Exhaustion Other III') /* Name */
      , (3079,  16, 'When learned, this spell decreases the rate at which the target regains Stamina by 43%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3079,   1,   33554826) /* Setup */
-     , (3079,   8,  100676940) /* Icon */
-     , (3079,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3079,   1, 0x0200018A) /* Setup */
+     , (3079,   8, 0x0600354C) /* Icon */
+     , (3079,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3079,  28,        196) /* Spell - Exhaustion Other III */;

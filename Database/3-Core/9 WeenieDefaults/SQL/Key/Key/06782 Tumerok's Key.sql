@@ -26,7 +26,7 @@ VALUES (6782,   1, 'Tumerok''s Key') /* Name */
      , (6782,  16, 'A brass key, inscribed with Tumerok symbols.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6782,   1,   33554784) /* Setup */
-     , (6782,   3,  536870932) /* SoundTable */
-     , (6782,   8,  100668439) /* Icon */
-     , (6782,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6782,   1, 0x02000160) /* Setup */
+     , (6782,   3, 0x20000014) /* SoundTable */
+     , (6782,   8, 0x06001417) /* Icon */
+     , (6782,  22, 0x3400002B) /* PhysicsEffectTable */;

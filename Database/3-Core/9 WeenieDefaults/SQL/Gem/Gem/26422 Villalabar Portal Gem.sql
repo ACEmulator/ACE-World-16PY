@@ -36,11 +36,11 @@ VALUES (26422,   1, 'Villalabar Portal Gem') /* Name */
      , (26422,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26422,   1,   33556769) /* Setup */
-     , (26422,   3,  536870932) /* SoundTable */
-     , (26422,   6,   67111919) /* PaletteBase */
-     , (26422,   7,  268435723) /* ClothingBase */
-     , (26422,   8,  100675760) /* Icon */
-     , (26422,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26422,   1, 0x02000921) /* Setup */
+     , (26422,   3, 0x20000014) /* SoundTable */
+     , (26422,   6, 0x04000BEF) /* PaletteBase */
+     , (26422,   7, 0x1000010B) /* ClothingBase */
+     , (26422,   8, 0x060030B0) /* Icon */
+     , (26422,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26422,  28,        157) /* Spell - Summon Primary Portal I */
      , (26422,  31,      14289) /* LinkedPortalOne - Villalabar Portal */;

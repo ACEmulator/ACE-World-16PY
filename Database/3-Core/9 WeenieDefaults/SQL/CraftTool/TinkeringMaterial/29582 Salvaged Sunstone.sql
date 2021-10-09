@@ -37,9 +37,9 @@ VALUES (29582,   1, 'Salvaged Sunstone') /* Name */
      , (29582,  15, 'Chips of sunstone material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29582,   1,   33554817) /* Setup */
-     , (29582,   3,  536870932) /* SoundTable */
-     , (29582,   6,   67111919) /* PaletteBase */
-     , (29582,   7,  268436874) /* ClothingBase */
-     , (29582,   8,  100677144) /* Icon */
-     , (29582,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29582,   1, 0x02000181) /* Setup */
+     , (29582,   3, 0x20000014) /* SoundTable */
+     , (29582,   6, 0x04000BEF) /* PaletteBase */
+     , (29582,   7, 0x1000058A) /* ClothingBase */
+     , (29582,   8, 0x06003618) /* Icon */
+     , (29582,  22, 0x3400002B) /* PhysicsEffectTable */;

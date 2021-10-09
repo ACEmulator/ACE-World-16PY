@@ -29,10 +29,10 @@ VALUES (19739,   1, 'Commemorative Bronze Statue') /* Name */
      , (19739,  15, 'A large commemorative statue  of Ben Ten crafted by the Arcanum Tinker, in reward for destroying the statues threatening the city of Hebian-To.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19739,   1,   33554510) /* Setup */
-     , (19739,   2,  150995204) /* MotionTable */
-     , (19739,   6,   67108990) /* PaletteBase */
-     , (19739,   7,  268436374) /* ClothingBase */
-     , (19739,   8,  100667446) /* Icon */
-     , (19739,  22,  872415349) /* PhysicsEffectTable */
-     , (19739,  36,  234881046) /* MutateFilter */;
+VALUES (19739,   1, 0x0200004E) /* Setup */
+     , (19739,   2, 0x09000104) /* MotionTable */
+     , (19739,   6, 0x0400007E) /* PaletteBase */
+     , (19739,   7, 0x10000396) /* ClothingBase */
+     , (19739,   8, 0x06001036) /* Icon */
+     , (19739,  22, 0x34000075) /* PhysicsEffectTable */
+     , (19739,  36, 0x0E000016) /* MutateFilter */;

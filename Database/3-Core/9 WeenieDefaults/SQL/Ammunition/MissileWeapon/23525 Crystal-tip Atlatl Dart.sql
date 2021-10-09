@@ -43,9 +43,9 @@ VALUES (23525,   1, 'Crystal-tip Atlatl Dart') /* Name */
      , (23525,  16, 'A crystal-tipped dart that appears to do fire damage.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23525,   1,   33557434) /* Setup */
-     , (23525,   3,  536870932) /* SoundTable */
-     , (23525,   6,   67111919) /* PaletteBase */
-     , (23525,   7,  268436305) /* ClothingBase */
-     , (23525,   8,  100676643) /* Icon */
-     , (23525,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23525,   1, 0x02000BBA) /* Setup */
+     , (23525,   3, 0x20000014) /* SoundTable */
+     , (23525,   6, 0x04000BEF) /* PaletteBase */
+     , (23525,   7, 0x10000351) /* ClothingBase */
+     , (23525,   8, 0x06003423) /* Icon */
+     , (23525,  22, 0x3400002B) /* PhysicsEffectTable */;

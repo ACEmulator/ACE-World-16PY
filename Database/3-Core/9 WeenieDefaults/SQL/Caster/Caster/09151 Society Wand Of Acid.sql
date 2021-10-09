@@ -34,12 +34,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9151,   1, 'Society Wand Of Acid') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9151,   1,   33554812) /* Setup */
-     , (9151,   3,  536870932) /* SoundTable */
-     , (9151,   6,   67111919) /* PaletteBase */
-     , (9151,   7,  268435758) /* ClothingBase */
-     , (9151,   8,  100667508) /* Icon */
-     , (9151,  22,  872415275) /* PhysicsEffectTable */
-     , (9151,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (9151,   1, 0x0200017C) /* Setup */
+     , (9151,   3, 0x20000014) /* SoundTable */
+     , (9151,   6, 0x04000BEF) /* PaletteBase */
+     , (9151,   7, 0x1000012E) /* ClothingBase */
+     , (9151,   8, 0x06001074) /* Icon */
+     , (9151,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (9151,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (9151,  28,         59) /* Spell - Acid Stream II */
-     , (9151,  36,  234881046) /* MutateFilter */;
+     , (9151,  36, 0x0E000016) /* MutateFilter */;

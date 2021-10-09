@@ -25,7 +25,7 @@ VALUES (5664,   1, 'Stone Key') /* Name */
      , (5664,  16, 'A heavy, blackened key, found in the Mage Academy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5664,   1,   33554784) /* Setup */
-     , (5664,   3,  536870932) /* SoundTable */
-     , (5664,   8,  100668441) /* Icon */
-     , (5664,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5664,   1, 0x02000160) /* Setup */
+     , (5664,   3, 0x20000014) /* SoundTable */
+     , (5664,   8, 0x06001419) /* Icon */
+     , (5664,  22, 0x3400002B) /* PhysicsEffectTable */;

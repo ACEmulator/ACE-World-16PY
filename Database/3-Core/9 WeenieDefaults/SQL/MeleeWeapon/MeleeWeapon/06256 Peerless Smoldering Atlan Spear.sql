@@ -45,18 +45,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6256,   1, 'Peerless Smoldering Atlan Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6256,   1,   33556369) /* Setup */
-     , (6256,   3,  536870932) /* SoundTable */
-     , (6256,   6,   67111919) /* PaletteBase */
-     , (6256,   7,  268435948) /* ClothingBase */
-     , (6256,   8,  100670555) /* Icon */
-     , (6256,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6256,   1, 0x02000791) /* Setup */
+     , (6256,   3, 0x20000014) /* SoundTable */
+     , (6256,   6, 0x04000BEF) /* PaletteBase */
+     , (6256,   7, 0x100001EC) /* ClothingBase */
+     , (6256,   8, 0x06001C5B) /* Icon */
+     , (6256,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6256,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6256,  1092,      2)  /* Fire Protection Self IV */
-     , (6256,  1330,      2)  /* Strength Self IV */
+VALUES (6256,  1603,      2)  /* Aura of Defender Self IV */
      , (6256,  1590,      2)  /* Aura of Heart Seeker Self IV */
-     , (6256,  1603,      2)  /* Aura of Defender Self IV */
      , (6256,  1614,      2)  /* Aura of Blood Drinker Self IV */
-     , (6256,  1625,      2)  /* Aura of Swift Killer Self IV */;
+     , (6256,  1092,      2)  /* Fire Protection Self IV */
+     , (6256,  1625,      2)  /* Aura of Swift Killer Self IV */
+     , (6256,  1330,      2)  /* Strength Self IV */;

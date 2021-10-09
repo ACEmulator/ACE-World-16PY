@@ -62,12 +62,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6773,   1, 'Skeleton Lord') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6773,   1,   33555464) /* Setup */
-     , (6773,   2,  150994981) /* MotionTable */
-     , (6773,   3,  536870942) /* SoundTable */
-     , (6773,   4,  805306368) /* CombatTable */
-     , (6773,   8,  100669124) /* Icon */
-     , (6773,  22,  872415269) /* PhysicsEffectTable */
+VALUES (6773,   1, 0x02000408) /* Setup */
+     , (6773,   2, 0x09000025) /* MotionTable */
+     , (6773,   3, 0x2000001E) /* SoundTable */
+     , (6773,   4, 0x30000000) /* CombatTable */
+     , (6773,   8, 0x060016C4) /* Icon */
+     , (6773,  22, 0x34000025) /* PhysicsEffectTable */
      , (6773,  32,        189) /* WieldedTreasureType - 
                                    Wield Battle Axe (301) | Probability: 9%
                                    Wield Broad Sword (350) | Probability: 4%
@@ -90,7 +90,7 @@ VALUES (6773,   1,   33555464) /* Setup */
                                    Wield 20x Arrow (300) | Probability: 100%
                                    Wield Heavy Crossbow (311) | Probability: 11%
                                    Wield 16x Quarrel (305) | Probability: 100%
-                                   Wield Large Kite Shield (92) | Probability: 30%
+                                   Wield Large Kite Shield (92) | Probability: 30.000002%
                                    Wield Kite Shield (91) | Probability: 20%
                                    Wield Large Round Shield (94) | Probability: 20% */
      , (6773,  35,        190) /* DeathTreasureType - Loot Tier: 4 */;
@@ -139,24 +139,24 @@ VALUES (6773,  0,  4,  0,    0,   90,   33,   14,   45,    5,   74,   15,   30, 
      , (6773,  8,  4,  5, 0.75,   75,   28,   12,   38,    4,   62,   13,   25,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6773,    89,  2.105)  /* Force Bolt IV */
-     , (6773,    95,  2.105)  /* Whirling Blade IV */
-     , (6773,  1341,  2.023)  /* Weakness Other IV */
+VALUES (6773,  1394,  2.023)  /* Clumsiness Other IV */
      , (6773,  1370,  2.023)  /* Frailty Other IV */
-     , (6773,  1394,  2.023)  /* Clumsiness Other IV */
-     , (6773,  1418,  2.023)  /* Slowness Other IV */;
+     , (6773,  1418,  2.023)  /* Slowness Other IV */
+     , (6773,    89,  2.105)  /* Force Bolt IV */
+     , (6773,    95,  2.105)  /* Whirling Blade IV */
+     , (6773,  1341,  2.023)  /* Weakness Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (6773,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (6773, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (6773,  5 /* HeartBeat */,    0.8, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (6773,  5 /* HeartBeat */,    0.8, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x41000014 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6773, 8,  6660,  0, 0, 1, False) /* Create The Ruby Al-Shajar (6660) for Treasure */

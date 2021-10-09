@@ -24,10 +24,10 @@ VALUES (6049,   1, 'Memorial') /* Name */
      , (6049,  16, 'A pedestal which bears the final journals of the Tremblant party.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6049,   1,   33556013) /* Setup */
-     , (6049,   3,  536870932) /* SoundTable */
-     , (6049,   8,  100668236) /* Icon */
-     , (6049,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6049,   1, 0x0200062D) /* Setup */
+     , (6049,   3, 0x20000014) /* SoundTable */
+     , (6049,   8, 0x0600134C) /* Icon */
+     , (6049,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (6049, 20, 1000);

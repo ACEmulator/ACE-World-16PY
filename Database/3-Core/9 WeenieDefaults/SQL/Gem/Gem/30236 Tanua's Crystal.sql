@@ -30,10 +30,10 @@ VALUES (30236,   1, 'Tanua''s Crystal') /* Name */
      , (30236,  16, 'A lovely template for a rare magical gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30236,   1,   33554809) /* Setup */
-     , (30236,   3,  536870932) /* SoundTable */
-     , (30236,   6,   67111919) /* PaletteBase */
-     , (30236,   7,  268435723) /* ClothingBase */
-     , (30236,   8,  100674739) /* Icon */
-     , (30236,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30236,   1, 0x02000179) /* Setup */
+     , (30236,   3, 0x20000014) /* SoundTable */
+     , (30236,   6, 0x04000BEF) /* PaletteBase */
+     , (30236,   7, 0x1000010B) /* ClothingBase */
+     , (30236,   8, 0x06002CB3) /* Icon */
+     , (30236,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30236,  28,       3734) /* Spell - Prodigal Light Weapon Mastery */;

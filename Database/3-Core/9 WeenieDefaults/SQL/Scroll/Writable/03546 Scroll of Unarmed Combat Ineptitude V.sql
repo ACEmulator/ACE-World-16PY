@@ -25,7 +25,7 @@ VALUES (3546,   1, 'Scroll of Unarmed Combat Ineptitude V') /* Name */
      , (3546,  16, 'When learned, this spell decreases the target''s Unarmed Combat skill by 50%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3546,   1,   33554826) /* Setup */
-     , (3546,   8,  100676478) /* Icon */
-     , (3546,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3546,   1, 0x0200018A) /* Setup */
+     , (3546,   8, 0x0600337E) /* Icon */
+     , (3546,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3546,  28,        453) /* Spell - Light Weapon Ineptitude Other V */;

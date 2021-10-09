@@ -30,9 +30,9 @@ VALUES (5183,   1, 'Stone of Compassion') /* Name */
      , (5183,  33, 'ShoushiStoneCompassion') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5183,   1,   33556947) /* Setup */
-     , (5183,   3,  536870932) /* SoundTable */
-     , (5183,   6,   67111928) /* PaletteBase */
-     , (5183,   7,  268436041) /* ClothingBase */
-     , (5183,   8,  100671336) /* Icon */
-     , (5183,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5183,   1, 0x020009D3) /* Setup */
+     , (5183,   3, 0x20000014) /* SoundTable */
+     , (5183,   6, 0x04000BF8) /* PaletteBase */
+     , (5183,   7, 0x10000249) /* ClothingBase */
+     , (5183,   8, 0x06001F68) /* Icon */
+     , (5183,  22, 0x3400002B) /* PhysicsEffectTable */;

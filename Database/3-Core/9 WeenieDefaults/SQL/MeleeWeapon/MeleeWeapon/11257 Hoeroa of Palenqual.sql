@@ -47,14 +47,14 @@ VALUES (11257,   1, 'Hoeroa of Palenqual') /* Name */
      , (11257,  16, 'The Hoeroa of Palenqual, an Aun Tumerok relic. This melee weapon was given to the Aun xuta by spirits called the Deru. It is the embodiment of Marae Lassel''s spirit - a single great totem for the island as a whole. Three Tumerok fetishes are attached to this weapon; those of Timaru, Carenzi, and Storm. When aimed accurately, this weapon is capable of doing four times the normal damage.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11257,   1,   33557232) /* Setup */
-     , (11257,   3,  536870932) /* SoundTable */
-     , (11257,   8,  100671869) /* Icon */
-     , (11257,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11257,   1, 0x02000AF0) /* Setup */
+     , (11257,   3, 0x20000014) /* SoundTable */
+     , (11257,   8, 0x0600217D) /* Icon */
+     , (11257,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11257,   193,      2)  /* Rejuvenation Self VI */
-     , (11257,  1332,      2)  /* Strength Self VI */
+     , (11257,  2429,      2)  /* Timaru's Shelter */
      , (11257,  1592,      2)  /* Aura of Heart Seeker Self VI */
      , (11257,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (11257,  2429,      2)  /* Timaru's Shelter */;
+     , (11257,  1332,      2)  /* Strength Self VI */;

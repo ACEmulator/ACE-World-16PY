@@ -38,11 +38,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (95,   1, 'Tower Shield') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (95,   1,   33554785) /* Setup */
-     , (95,   3,  536870932) /* SoundTable */
-     , (95,   6,   67111919) /* PaletteBase */
-     , (95,   7,  268435611) /* ClothingBase */
-     , (95,   8,  100667362) /* Icon */
-     , (95,  22,  872415275) /* PhysicsEffectTable */
-     , (95,  36,  234881043) /* MutateFilter */
-     , (95,  46,  939524147) /* TsysMutationFilter */;
+VALUES (95,   1, 0x02000161) /* Setup */
+     , (95,   3, 0x20000014) /* SoundTable */
+     , (95,   6, 0x04000BEF) /* PaletteBase */
+     , (95,   7, 0x1000009B) /* ClothingBase */
+     , (95,   8, 0x06000FE2) /* Icon */
+     , (95,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (95,  36, 0x0E000013) /* MutateFilter */
+     , (95,  46, 0x38000033) /* TsysMutationFilter */;

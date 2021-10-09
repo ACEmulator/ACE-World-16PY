@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26519,   1, 'Matriarch Kixkti Xri') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26519,   1,   33558437) /* Setup */
-     , (26519,   2,  150994967) /* MotionTable */
-     , (26519,   3,  536870934) /* SoundTable */
-     , (26519,   4,  805306368) /* CombatTable */
-     , (26519,   6,   67114480) /* PaletteBase */
-     , (26519,   7,  268436672) /* ClothingBase */
-     , (26519,   8,  100674805) /* Icon */
-     , (26519,  22,  872415272) /* PhysicsEffectTable */
+VALUES (26519,   1, 0x02000FA5) /* Setup */
+     , (26519,   2, 0x09000017) /* MotionTable */
+     , (26519,   3, 0x20000016) /* SoundTable */
+     , (26519,   4, 0x30000000) /* CombatTable */
+     , (26519,   6, 0x040015F0) /* PaletteBase */
+     , (26519,   7, 0x100004C0) /* ClothingBase */
+     , (26519,   8, 0x06002CF5) /* Icon */
+     , (26519,  22, 0x34000028) /* PhysicsEffectTable */
      , (26519,  32,        447) /* WieldedTreasureType - 
                                    Wield Khopesh (25500) | Probability: 98% */;
 
@@ -91,24 +91,24 @@ VALUES (26519,   1, 14800, 0, 0, 15000) /* MaxHealth */
      , (26519,   5,  4080, 0, 0, 4500) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (26519,  1, 0, 3, 0, 305, 0, 1784.70958028782) /* Axe                 Specialized */
-     , (26519,  2, 0, 3, 0, 100, 0, 1784.70958028782) /* Bow                 Specialized */
-     , (26519,  3, 0, 3, 0, 100, 0, 1784.70958028782) /* Crossbow            Specialized */
-     , (26519,  4, 0, 3, 0, 305, 0, 1784.70958028782) /* Dagger              Specialized */
-     , (26519,  5, 0, 3, 0, 305, 0, 1784.70958028782) /* Mace                Specialized */
-     , (26519,  6, 0, 3, 0, 330, 0, 1784.70958028782) /* MeleeDefense        Specialized */
-     , (26519,  7, 0, 3, 0, 450, 0, 1784.70958028782) /* MissileDefense      Specialized */
-     , (26519,  9, 0, 3, 0, 305, 0, 1784.70958028782) /* Spear               Specialized */
-     , (26519, 10, 0, 3, 0, 305, 0, 1784.70958028782) /* Staff               Specialized */
-     , (26519, 11, 0, 3, 0, 305, 0, 1784.70958028782) /* Sword               Specialized */
-     , (26519, 13, 0, 3, 0, 305, 0, 1784.70958028782) /* UnarmedCombat       Specialized */
-     , (26519, 14, 0, 3, 0, 240, 0, 1784.70958028782) /* ArcaneLore          Specialized */
-     , (26519, 15, 0, 3, 0, 275, 0, 1784.70958028782) /* MagicDefense        Specialized */
-     , (26519, 20, 0, 3, 0,  90, 0, 1784.70958028782) /* Deception           Specialized */
-     , (26519, 31, 0, 3, 0, 300, 0, 1784.70958028782) /* CreatureEnchantment Specialized */
-     , (26519, 32, 0, 3, 0, 300, 0, 1784.70958028782) /* ItemEnchantment     Specialized */
-     , (26519, 33, 0, 3, 0, 300, 0, 1784.70958028782) /* LifeMagic           Specialized */
-     , (26519, 34, 0, 3, 0, 300, 0, 1784.70958028782) /* WarMagic            Specialized */;
+VALUES (26519,  1, 0, 3, 0, 305, 0, 1784.7095802878237) /* Axe                 Specialized */
+     , (26519,  2, 0, 3, 0, 100, 0, 1784.7095802878237) /* Bow                 Specialized */
+     , (26519,  3, 0, 3, 0, 100, 0, 1784.7095802878237) /* Crossbow            Specialized */
+     , (26519,  4, 0, 3, 0, 305, 0, 1784.7095802878237) /* Dagger              Specialized */
+     , (26519,  5, 0, 3, 0, 305, 0, 1784.7095802878237) /* Mace                Specialized */
+     , (26519,  6, 0, 3, 0, 330, 0, 1784.7095802878237) /* MeleeDefense        Specialized */
+     , (26519,  7, 0, 3, 0, 450, 0, 1784.7095802878237) /* MissileDefense      Specialized */
+     , (26519,  9, 0, 3, 0, 305, 0, 1784.7095802878237) /* Spear               Specialized */
+     , (26519, 10, 0, 3, 0, 305, 0, 1784.7095802878237) /* Staff               Specialized */
+     , (26519, 11, 0, 3, 0, 305, 0, 1784.7095802878237) /* Sword               Specialized */
+     , (26519, 13, 0, 3, 0, 305, 0, 1784.7095802878237) /* UnarmedCombat       Specialized */
+     , (26519, 14, 0, 3, 0, 240, 0, 1784.7095802878237) /* ArcaneLore          Specialized */
+     , (26519, 15, 0, 3, 0, 275, 0, 1784.7095802878237) /* MagicDefense        Specialized */
+     , (26519, 20, 0, 3, 0,  90, 0, 1784.7095802878237) /* Deception           Specialized */
+     , (26519, 31, 0, 3, 0, 300, 0, 1784.7095802878237) /* CreatureEnchantment Specialized */
+     , (26519, 32, 0, 3, 0, 300, 0, 1784.7095802878237) /* ItemEnchantment     Specialized */
+     , (26519, 33, 0, 3, 0, 300, 0, 1784.7095802878237) /* LifeMagic           Specialized */
+     , (26519, 34, 0, 3, 0, 300, 0, 1784.7095802878237) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (26519,  0,  4,  0,    0,  650,  650,  650,  650,  650,  650,  650,  650,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -122,21 +122,21 @@ VALUES (26519,  0,  4,  0,    0,  650,  650,  650,  650,  650,  650,  650,  650,
      , (26519,  8,  4, 250,  0.5,  650,  650,  650,  650,  650,  650,  650,  650,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26519,  3058,   2.02)  /* Asphyiaxtion */
-     , (26519,  3059,   2.02)  /* Enervation */
+VALUES (26519,  3080,   2.01)  /* Bruised Flesh */
      , (26519,  3060,   2.02)  /* Poison Blood */
-     , (26519,  3061,   2.02)  /* Taint Mana */
-     , (26519,  3080,   2.01)  /* Bruised Flesh */
      , (26519,  3081,   2.01)  /* Flesh of Cloth */
      , (26519,  3082,   2.01)  /* Exposed Flesh */
-     , (26519,  3083,   2.01)  /* Flesh of Flint */
-     , (26519,  3084,   2.01)  /* Weaken Flesh */
      , (26519,  3091,   2.01)  /* Thin Skin */
+     , (26519,  3083,   2.01)  /* Flesh of Flint */
      , (26519,  3108,   2.02)  /* Flay Soul */
+     , (26519,  3084,   2.01)  /* Weaken Flesh */
      , (26519,  3109,   2.02)  /* Liquefy Flesh */
      , (26519,  3110,   2.02)  /* Sear Flesh */
      , (26519,  3111,   2.02)  /* Soul Hammer */
-     , (26519,  3112,   2.02)  /* Soul Spike */;
+     , (26519,  3061,   2.02)  /* Taint Mana */
+     , (26519,  3112,   2.02)  /* Soul Spike */
+     , (26519,  3058,   2.02)  /* Asphyiaxtion */
+     , (26519,  3059,   2.02)  /* Enervation */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (26519,  94) /* ATTACK_NOTIFICATION_EVENT */

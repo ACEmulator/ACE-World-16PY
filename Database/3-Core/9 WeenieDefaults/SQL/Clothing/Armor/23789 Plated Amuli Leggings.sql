@@ -47,12 +47,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23789,   1, 'Plated Amuli Leggings') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23789,   1,   33554856) /* Setup */
-     , (23789,   3,  536870932) /* SoundTable */
-     , (23789,   6,   67108990) /* PaletteBase */
-     , (23789,   7,  268435872) /* ClothingBase */
-     , (23789,   8,  100674068) /* Icon */
-     , (23789,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23789,   1, 0x020001A8) /* Setup */
+     , (23789,   3, 0x20000014) /* SoundTable */
+     , (23789,   6, 0x0400007E) /* PaletteBase */
+     , (23789,   7, 0x100001A0) /* ClothingBase */
+     , (23789,   8, 0x06002A14) /* Icon */
+     , (23789,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23789,  2610,      2)  /* Major Bludgeoning Ward */;

@@ -20,15 +20,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22865,   1, 'Lever of Testing') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22865,   1,   33555041) /* Setup */
-     , (22865,   2,  150995054) /* MotionTable */
-     , (22865,   3,  536870980) /* SoundTable */
-     , (22865,   8,  100667624) /* Icon */
-     , (22865,  22,  872415275) /* PhysicsEffectTable */
-     , (22865,  24,  268435537) /* UseTargetAnimation - Twitch1 */;
+VALUES (22865,   1, 0x02000261) /* Setup */
+     , (22865,   2, 0x0900006E) /* MotionTable */
+     , (22865,   3, 0x20000044) /* SoundTable */
+     , (22865,   8, 0x060010E8) /* Icon */
+     , (22865,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (22865,  24, 0x10000051) /* UseTargetAnimation - Twitch1 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22865,  16,          0) /* ActivationTarget */;
+VALUES (22865,  16, 0x00000000) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (22865,  8 /* Activation */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

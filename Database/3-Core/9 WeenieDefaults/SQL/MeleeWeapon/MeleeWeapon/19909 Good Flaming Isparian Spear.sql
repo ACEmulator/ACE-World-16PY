@@ -51,17 +51,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19909,   1, 'Good Flaming Isparian Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19909,   1,   33556369) /* Setup */
-     , (19909,   3,  536870932) /* SoundTable */
-     , (19909,   6,   67111919) /* PaletteBase */
-     , (19909,   7,  268436383) /* ClothingBase */
-     , (19909,   8,  100672931) /* Icon */
-     , (19909,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19909,   1, 0x02000791) /* Setup */
+     , (19909,   3, 0x20000014) /* SoundTable */
+     , (19909,   6, 0x04000BEF) /* PaletteBase */
+     , (19909,   7, 0x1000039F) /* ClothingBase */
+     , (19909,   8, 0x060025A3) /* Icon */
+     , (19909,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19909,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19909,  1094,      2)  /* Fire Protection Self VI */
-     , (19909,  1331,      2)  /* Strength Self V */
      , (19909,  1590,      2)  /* Aura of Heart Seeker Self IV */
+     , (19909,  1331,      2)  /* Strength Self V */
      , (19909,  1614,      2)  /* Aura of Blood Drinker Self IV */
      , (19909,  2681,      2)  /* Feeble Light Weapon Aptitude */;

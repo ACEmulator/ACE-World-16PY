@@ -31,10 +31,10 @@ VALUES (8302,   1, 'Brimstone Pea') /* Name */
      , (8302,  16, 'A concentrated brimstone pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8302,   1,   33555209) /* Setup */
-     , (8302,   3,  536870932) /* SoundTable */
-     , (8302,   6,   67111919) /* PaletteBase */
-     , (8302,   7,  268435719) /* ClothingBase */
-     , (8302,   8,  100671065) /* Icon */
-     , (8302,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8302,   1, 0x02000309) /* Setup */
+     , (8302,   3, 0x20000014) /* SoundTable */
+     , (8302,   6, 0x04000BEF) /* PaletteBase */
+     , (8302,   7, 0x10000107) /* ClothingBase */
+     , (8302,   8, 0x06001E59) /* Icon */
+     , (8302,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8302,  29,        149) /* SpellComponent */;

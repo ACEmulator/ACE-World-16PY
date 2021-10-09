@@ -24,7 +24,7 @@ VALUES (27923,   1, 'A Phial of Bloody Tears') /* Name */
      , (27923,  16, 'An ancient philter, filled to the brim with tears of blood, wept at the bottom of a well.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27923,   1,   33555965) /* Setup */
-     , (27923,   3,  536870932) /* SoundTable */
-     , (27923,   8,  100676556) /* Icon */
-     , (27923,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27923,   1, 0x020005FD) /* Setup */
+     , (27923,   3, 0x20000014) /* SoundTable */
+     , (27923,   8, 0x060033CC) /* Icon */
+     , (27923,  22, 0x3400002B) /* PhysicsEffectTable */;

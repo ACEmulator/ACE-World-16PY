@@ -30,9 +30,9 @@ VALUES (23926,   1, 'Ring') /* Name */
      , (23926,  33, 'PickedUpUlgrimsRing') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23926,   1,   33554691) /* Setup */
-     , (23926,   3,  536870932) /* SoundTable */
-     , (23926,   6,   67111919) /* PaletteBase */
-     , (23926,   7,  268435753) /* ClothingBase */
-     , (23926,   8,  100668662) /* Icon */
-     , (23926,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23926,   1, 0x02000103) /* Setup */
+     , (23926,   3, 0x20000014) /* SoundTable */
+     , (23926,   6, 0x04000BEF) /* PaletteBase */
+     , (23926,   7, 0x10000129) /* ClothingBase */
+     , (23926,   8, 0x060014F6) /* Icon */
+     , (23926,  22, 0x3400002B) /* PhysicsEffectTable */;

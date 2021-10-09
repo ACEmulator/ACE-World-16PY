@@ -36,9 +36,9 @@ VALUES (11018,   1, 'Broken Pyreal Bell') /* Name */
      , (11018,  16, 'A bell, fashioned from green-gold Yalaini pyreal alloy. It cannot be rung, as it has no clapper.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11018,   1,   33555677) /* Setup */
-     , (11018,   3,  536870932) /* SoundTable */
-     , (11018,   6,   67111919) /* PaletteBase */
-     , (11018,   7,  268436111) /* ClothingBase */
-     , (11018,   8,  100671824) /* Icon */
-     , (11018,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11018,   1, 0x020004DD) /* Setup */
+     , (11018,   3, 0x20000014) /* SoundTable */
+     , (11018,   6, 0x04000BEF) /* PaletteBase */
+     , (11018,   7, 0x1000028F) /* ClothingBase */
+     , (11018,   8, 0x06002150) /* Icon */
+     , (11018,  22, 0x3400002B) /* PhysicsEffectTable */;

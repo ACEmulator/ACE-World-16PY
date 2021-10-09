@@ -26,9 +26,9 @@ VALUES (29778,   1, 'Balmy Font') /* Name */
      , (29778,  37, 'OnBrowerkQuest') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29778,   1,   33556642) /* Setup */
-     , (29778,   8,  100667499) /* Icon */;
+VALUES (29778,   1, 0x020008A2) /* Setup */
+     , (29778,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29778, 2, 30475219, 50, -50, 0, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0x01D103D3 [50.000000 -50.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */;
+VALUES (29778, 2, 0x01D103D3, 50, -50, 0, 1, 0, 0, -0) /* Destination */
+/* @teleloc 0x01D103D3 [50.000000 -50.000000 0.000000] 1.000000 0.000000 0.000000 -0.000000 */;

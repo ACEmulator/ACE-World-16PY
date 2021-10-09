@@ -25,10 +25,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8830,   1, 'Chakron Gate Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8830,   1,   33555926) /* Setup */
-     , (8830,   2,  150994947) /* MotionTable */
-     , (8830,   8,  100667499) /* Icon */;
+VALUES (8830,   1, 0x020005D6) /* Setup */
+     , (8830,   2, 0x09000003) /* MotionTable */
+     , (8830,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8830, 2, 44958387, 130, -6.3, 0, 0.006981153, 0, 0, -0.9999756) /* Destination */
+VALUES (8830, 2, 0x02AE02B3, 130, -6.3, 0, 0.006981, 0, 0, -0.999976) /* Destination */
 /* @teleloc 0x02AE02B3 [130.000000 -6.300000 0.000000] 0.006981 0.000000 0.000000 -0.999976 */;

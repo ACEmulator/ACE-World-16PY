@@ -29,7 +29,7 @@ VALUES (5268,   1, 'Hearty Healing Apple Pie') /* Name */
      , (5268,  20, 'Hearty Healing Apple Pies') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5268,   1,   33555978) /* Setup */
-     , (5268,   3,  536870932) /* SoundTable */
-     , (5268,   8,  100669942) /* Icon */
-     , (5268,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5268,   1, 0x0200060A) /* Setup */
+     , (5268,   3, 0x20000014) /* SoundTable */
+     , (5268,   8, 0x060019F6) /* Icon */
+     , (5268,  22, 0x3400002B) /* PhysicsEffectTable */;

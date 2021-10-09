@@ -22,5 +22,5 @@ VALUES (12582,   1, 'Bay of Sands') /* Name */
      , (12582,  16, 'Welcome to Bay of Sands') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12582,   1,   33557463) /* Setup */
-     , (12582,   8,  100668115) /* Icon */;
+VALUES (12582,   1, 0x02000BD7) /* Setup */
+     , (12582,   8, 0x060012D3) /* Icon */;

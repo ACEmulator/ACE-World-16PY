@@ -36,7 +36,7 @@ VALUES (30634,  22, True ) /* Inscribable */
      , (30634,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30634,   5, -0.0333) /* ManaRate */
+VALUES (30634,   5,  -0.033) /* ManaRate */
      , (30634,  21,     1.5) /* WeaponLength */
      , (30634,  22,     0.6) /* DamageVariance */
      , (30634,  29,    1.08) /* WeaponDefense */
@@ -48,13 +48,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30634,   1, 'Cyphis Suldow''s Half Moon Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30634,   1,   33559207) /* Setup */
-     , (30634,   3,  536870932) /* SoundTable */
-     , (30634,   8,  100677384) /* Icon */
-     , (30634,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30634,   1, 0x020012A7) /* Setup */
+     , (30634,   3, 0x20000014) /* SoundTable */
+     , (30634,   8, 0x06003708) /* Icon */
+     , (30634,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30634,   375,      2)  /* Light Weapon Mastery Self VI */
+VALUES (30634,  2563,      2)  /* Minor Light Weapon Aptitude */
      , (30634,  1616,      2)  /* Aura of Blood Drinker Self VI */
      , (30634,  1627,      2)  /* Aura of Swift Killer Self VI */
-     , (30634,  2563,      2)  /* Minor Light Weapon Aptitude */;
+     , (30634,   375,      2)  /* Light Weapon Mastery Self VI */;

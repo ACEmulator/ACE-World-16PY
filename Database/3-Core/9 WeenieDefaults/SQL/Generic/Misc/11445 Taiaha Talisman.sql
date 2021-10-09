@@ -27,8 +27,8 @@ VALUES (11445,   1, 'Taiaha Talisman') /* Name */
      , (11445,  16, 'A small talisman carved with the image of a spear.  If given to Aun Imeitanua, he will bestow a taiaha in exchange.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11445,   1,   33554680) /* Setup */
-     , (11445,   3,  536870932) /* SoundTable */
-     , (11445,   8,  100671828) /* Icon */
-     , (11445,  22,  872415275) /* PhysicsEffectTable */
-     , (11445,  36,  234881046) /* MutateFilter */;
+VALUES (11445,   1, 0x020000F8) /* Setup */
+     , (11445,   3, 0x20000014) /* SoundTable */
+     , (11445,   8, 0x06002154) /* Icon */
+     , (11445,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11445,  36, 0x0E000016) /* MutateFilter */;

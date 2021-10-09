@@ -31,10 +31,10 @@ VALUES (27754,   1, 'Expired Mana Potion') /* Name */
      , (27754,  16, 'An odorous bottle of brackish blue liquid.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27754,   1,   33554603) /* Setup */
-     , (27754,   3,  536870932) /* SoundTable */
-     , (27754,   6,   67111919) /* PaletteBase */
-     , (27754,   7,  268435816) /* ClothingBase */
-     , (27754,   8,  100676537) /* Icon */
-     , (27754,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27754,   1, 0x020000AB) /* Setup */
+     , (27754,   3, 0x20000014) /* SoundTable */
+     , (27754,   6, 0x04000BEF) /* PaletteBase */
+     , (27754,   7, 0x10000168) /* ClothingBase */
+     , (27754,   8, 0x060033B9) /* Icon */
+     , (27754,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27754,  23,         65) /* UseSound - Drink1 */;

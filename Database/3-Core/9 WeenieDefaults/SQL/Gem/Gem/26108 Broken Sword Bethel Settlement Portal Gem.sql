@@ -36,11 +36,11 @@ VALUES (26108,   1, 'Broken Sword Bethel Settlement Portal Gem') /* Name */
      , (26108,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26108,   1,   33556769) /* Setup */
-     , (26108,   3,  536870932) /* SoundTable */
-     , (26108,   6,   67111919) /* PaletteBase */
-     , (26108,   7,  268435723) /* ClothingBase */
-     , (26108,   8,  100675760) /* Icon */
-     , (26108,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26108,   1, 0x02000921) /* Setup */
+     , (26108,   3, 0x20000014) /* SoundTable */
+     , (26108,   6, 0x04000BEF) /* PaletteBase */
+     , (26108,   7, 0x1000010B) /* ClothingBase */
+     , (26108,   8, 0x060030B0) /* Icon */
+     , (26108,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26108,  28,        157) /* Spell - Summon Primary Portal I */
      , (26108,  31,      12481) /* LinkedPortalOne - Broken Sword Bethel Settlement Portal */;

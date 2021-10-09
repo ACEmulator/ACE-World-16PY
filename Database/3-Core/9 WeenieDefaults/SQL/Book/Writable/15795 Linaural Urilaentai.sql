@@ -27,12 +27,12 @@ VALUES (15795,   1, 'Linaural Urilaentai') /* Name */
      , (15795,  16, 'A tome of four distinct colors, fasted in an iron bound leather binding. Surprising light for such a large tome, the book bears no scent of age, though it is written in an old for of Empyrean. It can only be translated by one skilled in the Empyrean languages.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15795,   1,   33556929) /* Setup */
-     , (15795,   3,  536870932) /* SoundTable */
-     , (15795,   6,   67113005) /* PaletteBase */
-     , (15795,   7,  268436360) /* ClothingBase */
-     , (15795,   8,  100672794) /* Icon */
-     , (15795,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15795,   1, 0x020009C1) /* Setup */
+     , (15795,   3, 0x20000014) /* SoundTable */
+     , (15795,   6, 0x0400102D) /* PaletteBase */
+     , (15795,   7, 0x10000388) /* ClothingBase */
+     , (15795,   8, 0x0600251A) /* Icon */
+     , (15795,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (15795, 1, 1000);

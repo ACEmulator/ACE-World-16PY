@@ -36,6 +36,6 @@ VALUES (14804,   1, 'Acid') /* Name */
      , (14804,  17, 'You suffer %i points of shocking damage!') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14804,   1,   33557493) /* Setup */
-     , (14804,   3,  536870994) /* SoundTable */
-     , (14804,   8,  100667465) /* Icon */;
+VALUES (14804,   1, 0x02000BF5) /* Setup */
+     , (14804,   3, 0x20000052) /* SoundTable */
+     , (14804,   8, 0x06001049) /* Icon */;

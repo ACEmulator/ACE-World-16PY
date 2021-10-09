@@ -45,18 +45,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6211,   1, 'Superior Smoldering Atlan Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6211,   1,   33556357) /* Setup */
-     , (6211,   3,  536870932) /* SoundTable */
-     , (6211,   6,   67111919) /* PaletteBase */
-     , (6211,   7,  268435936) /* ClothingBase */
-     , (6211,   8,  100670525) /* Icon */
-     , (6211,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6211,   1, 0x02000785) /* Setup */
+     , (6211,   3, 0x20000014) /* SoundTable */
+     , (6211,   6, 0x04000BEF) /* PaletteBase */
+     , (6211,   7, 0x100001E0) /* ClothingBase */
+     , (6211,   8, 0x06001C3D) /* Icon */
+     , (6211,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6211,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6211,  1092,      2)  /* Fire Protection Self IV */
-     , (6211,  1330,      2)  /* Strength Self IV */
+VALUES (6211,  1603,      2)  /* Aura of Defender Self IV */
      , (6211,  1590,      2)  /* Aura of Heart Seeker Self IV */
-     , (6211,  1603,      2)  /* Aura of Defender Self IV */
      , (6211,  1614,      2)  /* Aura of Blood Drinker Self IV */
-     , (6211,  1625,      2)  /* Aura of Swift Killer Self IV */;
+     , (6211,  1092,      2)  /* Fire Protection Self IV */
+     , (6211,  1625,      2)  /* Aura of Swift Killer Self IV */
+     , (6211,  1330,      2)  /* Strength Self IV */;

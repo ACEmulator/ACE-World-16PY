@@ -29,8 +29,8 @@ VALUES (25339,   1, 'Broken Virindi Consul Mask') /* Name */
      , (25339,  33, 'RegaliaMaskExtreme') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25339,   1,   33558445) /* Setup */
-     , (25339,   3,  536870932) /* SoundTable */
-     , (25339,   6,   67108990) /* PaletteBase */
-     , (25339,   8,  100674851) /* Icon */
-     , (25339,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25339,   1, 0x02000FAD) /* Setup */
+     , (25339,   3, 0x20000014) /* SoundTable */
+     , (25339,   6, 0x0400007E) /* PaletteBase */
+     , (25339,   8, 0x06002D23) /* Icon */
+     , (25339,  22, 0x3400002B) /* PhysicsEffectTable */;

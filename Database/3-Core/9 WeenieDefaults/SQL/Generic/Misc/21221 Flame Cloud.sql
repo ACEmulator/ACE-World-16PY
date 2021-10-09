@@ -22,5 +22,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21221,   1, 'Flame Cloud') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21221,   1,   33557282) /* Setup */
-     , (21221,   8,  100667494) /* Icon */;
+VALUES (21221,   1, 0x02000B22) /* Setup */
+     , (21221,   8, 0x06001066) /* Icon */;

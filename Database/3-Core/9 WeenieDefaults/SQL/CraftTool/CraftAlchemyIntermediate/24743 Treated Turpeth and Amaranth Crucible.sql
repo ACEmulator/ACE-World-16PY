@@ -32,8 +32,8 @@ VALUES (24743,   1, 'Treated Turpeth and Amaranth Crucible') /* Name */
      , (24743,  20, 'Treated Turpeth and Amaranth Crucibles') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24743,   1,   33555966) /* Setup */
-     , (24743,   3,  536870932) /* SoundTable */
-     , (24743,   8,  100674471) /* Icon */
-     , (24743,  22,  872415275) /* PhysicsEffectTable */
-     , (24743,  50,  100674416) /* IconOverlay */;
+VALUES (24743,   1, 0x020005FE) /* Setup */
+     , (24743,   3, 0x20000014) /* SoundTable */
+     , (24743,   8, 0x06002BA7) /* Icon */
+     , (24743,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24743,  50, 0x06002B70) /* IconOverlay */;

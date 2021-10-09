@@ -35,9 +35,9 @@ VALUES (14882,   1, 'Ring of a Singularity Key') /* Name */
      , (14882,  33, 'BrokenKeyRingMartine') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14882,   1,   33557000) /* Setup */
-     , (14882,   3,  536870932) /* SoundTable */
-     , (14882,   6,   67111346) /* PaletteBase */
-     , (14882,   7,  268436150) /* ClothingBase */
-     , (14882,   8,  100672606) /* Icon */
-     , (14882,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (14882,   1, 0x02000A08) /* Setup */
+     , (14882,   3, 0x20000014) /* SoundTable */
+     , (14882,   6, 0x040009B2) /* PaletteBase */
+     , (14882,   7, 0x100002B6) /* ClothingBase */
+     , (14882,   8, 0x0600245E) /* Icon */
+     , (14882,  22, 0x3400002B) /* PhysicsEffectTable */;

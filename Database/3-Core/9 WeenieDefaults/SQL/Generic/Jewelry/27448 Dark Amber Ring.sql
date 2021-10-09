@@ -36,14 +36,14 @@ VALUES (27448,   1, 'Dark Amber Ring') /* Name */
      , (27448,  33, 'RingMaelstrom') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27448,   1,   33554691) /* Setup */
-     , (27448,   3,  536870932) /* SoundTable */
-     , (27448,   6,   67111919) /* PaletteBase */
-     , (27448,   7,  268436318) /* ClothingBase */
-     , (27448,   8,  100676414) /* Icon */
-     , (27448,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27448,   1, 0x02000103) /* Setup */
+     , (27448,   3, 0x20000014) /* SoundTable */
+     , (27448,   6, 0x04000BEF) /* PaletteBase */
+     , (27448,   7, 0x1000035E) /* ClothingBase */
+     , (27448,   8, 0x0600333E) /* Icon */
+     , (27448,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27448,   273,      2)  /* Magic Resistance Other VI */
-     , (27448,  1384,      2)  /* Coordination Other VI */
-     , (27448,  2080,      2)  /* Ogfoot */;
+     , (27448,  2080,      2)  /* Ogfoot */
+     , (27448,  1384,      2)  /* Coordination Other VI */;

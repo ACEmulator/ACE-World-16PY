@@ -25,10 +25,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10849,   1, 'Lair of the Eviscerators') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10849,   1,   33555926) /* Setup */
-     , (10849,   2,  150994947) /* MotionTable */
-     , (10849,   8,  100667499) /* Icon */;
+VALUES (10849,   1, 0x020005D6) /* Setup */
+     , (10849,   2, 0x09000003) /* MotionTable */
+     , (10849,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10849, 2, 41747114, 120, -20, 0, -4.371139E-08, 0, 0, -1) /* Destination */
-/* @teleloc 0x027D02AA [120.000000 -20.000000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */;
+VALUES (10849, 2, 0x027D02AA, 120, -20, 0, -0, 0, -0, -1) /* Destination */
+/* @teleloc 0x027D02AA [120.000000 -20.000000 0.000000] -0.000000 0.000000 -0.000000 -1.000000 */;

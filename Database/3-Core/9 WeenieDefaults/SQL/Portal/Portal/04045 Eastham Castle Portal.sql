@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4045,   1, 'Eastham Castle Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4045,   1,   33554867) /* Setup */
-     , (4045,   2,  150994947) /* MotionTable */
-     , (4045,   8,  100667499) /* Icon */;
+VALUES (4045,   1, 0x020001B3) /* Setup */
+     , (4045,   2, 0x09000003) /* MotionTable */
+     , (4045,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4045, 2, 3583574079, 186.2, 151.8, 374, -0.8746197, 0, 0, -0.4848095) /* Destination */
-/* @teleloc 0xD599003F [186.200000 151.800000 374.000000] -0.874620 0.000000 0.000000 -0.484810 */;
+VALUES (4045, 2, 0xD599003F, 186.2, 151.8, 374, -0.87462, 0, -0, -0.48481) /* Destination */
+/* @teleloc 0xD599003F [186.199997 151.800003 374.000000] -0.874620 0.000000 -0.000000 -0.484810 */;

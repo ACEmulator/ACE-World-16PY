@@ -24,7 +24,7 @@ VALUES (20517,   1, 'Scroll of Barnar''s Boon') /* Name */
      , (20517,  15, 'When learned, this spell increases the target''s Crossbow skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20517,   1,   33554826) /* Setup */
-     , (20517,   8,  100676454) /* Icon */
-     , (20517,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20517,   1, 0x0200018A) /* Setup */
+     , (20517,   8, 0x06003366) /* Icon */
+     , (20517,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20517,  28,       2218) /* Spell - Missile Weapon Mastery Other VII */;

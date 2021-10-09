@@ -18,7 +18,7 @@ VALUES (27825,   1,        256) /* ItemType - MissileWeapon */
      , (27825,  48,          3) /* WeaponSkill - Crossbow */
      , (27825,  49,        100) /* WeaponTime */
      , (27825,  50,          2) /* AmmoType - Bolt */
-     , (27825,  51,          2) /* CombatUse - Missle */
+     , (27825,  51,          2) /* CombatUse - Missile */
      , (27825,  52,          2) /* ParentLocation - LeftHand */
      , (27825,  53,          3) /* PlacementPosition - LeftHand */
      , (27825,  60,        192) /* WeaponRange */
@@ -53,14 +53,14 @@ VALUES (27825,   1, 'Singularity Crossbow') /* Name */
      , (27825,  15, 'A crossbow imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27825,   1,   33557321) /* Setup */
-     , (27825,   3,  536870932) /* SoundTable */
-     , (27825,   6,   67111919) /* PaletteBase */
-     , (27825,   7,  268436239) /* ClothingBase */
-     , (27825,   8,  100672604) /* Icon */
-     , (27825,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27825,   1, 0x02000B49) /* Setup */
+     , (27825,   3, 0x20000014) /* SoundTable */
+     , (27825,   6, 0x04000BEF) /* PaletteBase */
+     , (27825,   7, 0x1000030F) /* ClothingBase */
+     , (27825,   8, 0x0600245C) /* Icon */
+     , (27825,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27825,  1384,      2)  /* Coordination Other VI */
-     , (27825,  1605,      2)  /* Aura of Defender Self VI */
-     , (27825,  1616,      2)  /* Aura of Blood Drinker Self VI */;
+VALUES (27825,  1605,      2)  /* Aura of Defender Self VI */
+     , (27825,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (27825,  1384,      2)  /* Coordination Other VI */;

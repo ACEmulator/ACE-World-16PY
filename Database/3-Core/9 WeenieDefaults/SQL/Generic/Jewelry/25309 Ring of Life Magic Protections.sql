@@ -25,30 +25,30 @@ VALUES (25309,  22, True ) /* Inscribable */
      , (25309,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25309,   5,       0) /* ManaRate */
+VALUES (25309,   5,      -0) /* ManaRate */
      , (25309,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25309,   1, 'Ring of Life Magic Protections') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25309,   1,   33554691) /* Setup */
-     , (25309,   3,  536870932) /* SoundTable */
-     , (25309,   6,   67111919) /* PaletteBase */
-     , (25309,   7,  268436318) /* ClothingBase */
-     , (25309,   8,  100672480) /* Icon */
-     , (25309,  22,  872415275) /* PhysicsEffectTable */
-     , (25309,  36,  234881046) /* MutateFilter */;
+VALUES (25309,   1, 0x02000103) /* Setup */
+     , (25309,   3, 0x20000014) /* SoundTable */
+     , (25309,   6, 0x04000BEF) /* PaletteBase */
+     , (25309,   7, 0x1000035E) /* ClothingBase */
+     , (25309,   8, 0x060023E0) /* Icon */
+     , (25309,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (25309,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25309,   166,      2)  /* Regeneration Self II */
-     , (25309,   189,      2)  /* Rejuvenation Self II */
-     , (25309,   213,      2)  /* Mana Renewal Self II */
-     , (25309,   510,      2)  /* Acid Protection Other II */
+VALUES (25309,   213,      2)  /* Mana Renewal Self II */
      , (25309,  1025,      2)  /* Bludgeoning Protection Other II */
-     , (25309,  1031,      2)  /* Cold Protection Self II */
-     , (25309,  1067,      2)  /* Lightning Protection Self II */
+     , (25309,   166,      2)  /* Regeneration Self II */
+     , (25309,  1313,      2)  /* Armor Other II */
      , (25309,  1090,      2)  /* Fire Protection Self II */
-     , (25309,  1116,      2)  /* Blade Protection Other II */
+     , (25309,  1031,      2)  /* Cold Protection Self II */
      , (25309,  1140,      2)  /* Piercing Protection Other II */
-     , (25309,  1313,      2)  /* Armor Other II */;
+     , (25309,  1116,      2)  /* Blade Protection Other II */
+     , (25309,  1067,      2)  /* Lightning Protection Self II */
+     , (25309,   189,      2)  /* Rejuvenation Self II */
+     , (25309,   510,      2)  /* Acid Protection Other II */;

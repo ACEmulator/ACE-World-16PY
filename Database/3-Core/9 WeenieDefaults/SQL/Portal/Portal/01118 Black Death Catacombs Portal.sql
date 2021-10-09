@@ -25,10 +25,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1118,   1, 'Black Death Catacombs Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1118,   1,   33555923) /* Setup */
-     , (1118,   2,  150994947) /* MotionTable */
-     , (1118,   8,  100667499) /* Icon */;
+VALUES (1118,   1, 0x020005D3) /* Setup */
+     , (1118,   2, 0x09000003) /* MotionTable */
+     , (1118,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1118, 2, 1581581175, 40, -160, 72, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0x5E450377 [40.000000 -160.000000 72.000000] 1.000000 0.000000 0.000000 0.000000 */;
+VALUES (1118, 2, 0x5E450377, 40, -160, 72, 1, 0, 0, -0) /* Destination */
+/* @teleloc 0x5E450377 [40.000000 -160.000000 72.000000] 1.000000 0.000000 0.000000 -0.000000 */;

@@ -22,5 +22,5 @@ VALUES (880,   1, 'West Wind Tower') /* Name */
      , (880,  16, 'West Wind Tower') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (880,   1,   33555594) /* Setup */
-     , (880,   8,  100668115) /* Icon */;
+VALUES (880,   1, 0x0200048A) /* Setup */
+     , (880,   8, 0x060012D3) /* Icon */;

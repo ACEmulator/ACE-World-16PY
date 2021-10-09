@@ -38,7 +38,7 @@ VALUES (11423,  22, True ) /* Inscribable */
      , (11423,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11423,   5, -0.03333) /* ManaRate */
+VALUES (11423,   5,  -0.033) /* ManaRate */
      , (11423,  21,    0.62) /* WeaponLength */
      , (11423,  22,    0.52) /* DamageVariance */
      , (11423,  29,    1.08) /* WeaponDefense */
@@ -52,13 +52,13 @@ VALUES (11423,   1, 'Tanae''s Waaika of the Forests') /* Name */
      , (11423,  16, 'A waaika fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11423,   1,   33557235) /* Setup */
-     , (11423,   3,  536870932) /* SoundTable */
-     , (11423,   6,   67113336) /* PaletteBase */
-     , (11423,   7,  268436251) /* ClothingBase */
-     , (11423,   8,  100672083) /* Icon */
-     , (11423,  22,  872415275) /* PhysicsEffectTable */
-     , (11423,  36,  234881044) /* MutateFilter */;
+VALUES (11423,   1, 0x02000AF3) /* Setup */
+     , (11423,   3, 0x20000014) /* SoundTable */
+     , (11423,   6, 0x04001178) /* PaletteBase */
+     , (11423,   7, 0x1000031B) /* ClothingBase */
+     , (11423,   8, 0x06002253) /* Icon */
+     , (11423,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11423,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11423,  2446,      2)  /* Greater Growth */

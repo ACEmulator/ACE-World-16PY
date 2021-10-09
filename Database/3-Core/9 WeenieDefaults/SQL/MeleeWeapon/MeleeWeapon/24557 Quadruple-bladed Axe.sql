@@ -46,11 +46,11 @@ VALUES (24557,   1, 'Quadruple-bladed Axe') /* Name */
      , (24557,  33, 'GotAxeRenegadeRaids') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24557,   1,   33558379) /* Setup */
-     , (24557,   3,  536870932) /* SoundTable */
-     , (24557,   6,   67111919) /* PaletteBase */
-     , (24557,   8,  100674408) /* Icon */
-     , (24557,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24557,   1, 0x02000F6B) /* Setup */
+     , (24557,   3, 0x20000014) /* SoundTable */
+     , (24557,   6, 0x04000BEF) /* PaletteBase */
+     , (24557,   8, 0x06002B68) /* Icon */
+     , (24557,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24557,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

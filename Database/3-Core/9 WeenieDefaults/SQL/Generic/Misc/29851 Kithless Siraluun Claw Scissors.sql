@@ -28,7 +28,7 @@ VALUES (29851,   1, 'Kithless Siraluun Claw Scissors') /* Name */
      , (29851,  16, 'A pair of scissors made from the claw of a Kithless Siraluun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29851,   1,   33554817) /* Setup */
-     , (29851,   6,   67111919) /* PaletteBase */
-     , (29851,   7,  268435832) /* ClothingBase */
-     , (29851,   8,  100677323) /* Icon */;
+VALUES (29851,   1, 0x02000181) /* Setup */
+     , (29851,   6, 0x04000BEF) /* PaletteBase */
+     , (29851,   7, 0x10000178) /* ClothingBase */
+     , (29851,   8, 0x060036CB) /* Icon */;

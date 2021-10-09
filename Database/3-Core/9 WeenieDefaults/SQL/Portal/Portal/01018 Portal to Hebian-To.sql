@@ -25,10 +25,10 @@ VALUES (1018,   1, 'Portal to Hebian-To') /* Name */
      , (1018,  16, 'This portal goes to the Sho capital, Hebian-To. This is a good town for characters over level 10.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1018,   1,   33554867) /* Setup */
-     , (1018,   2,  150994947) /* MotionTable */
-     , (1018,   8,  100667499) /* Icon */;
+VALUES (1018,   1, 0x020001B3) /* Setup */
+     , (1018,   2, 0x09000003) /* MotionTable */
+     , (1018,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1018, 2, 3863871535, 138.304, 161.905, 20.04, 0.9238795, 0, 0, -0.3826835) /* Destination */
-/* @teleloc 0xE64E002F [138.304000 161.905000 20.040000] 0.923880 0.000000 0.000000 -0.382684 */;
+VALUES (1018, 2, 0xE64E002F, 138.304, 161.905, 20.04, 0.92388, 0, 0, -0.382684) /* Destination */
+/* @teleloc 0xE64E002F [138.304001 161.904999 20.040001] 0.923880 0.000000 0.000000 -0.382683 */;

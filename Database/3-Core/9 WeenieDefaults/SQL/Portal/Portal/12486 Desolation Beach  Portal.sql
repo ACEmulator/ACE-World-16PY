@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12486,   1, 'Desolation Beach  Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12486,   1,   33554867) /* Setup */
-     , (12486,   2,  150994947) /* MotionTable */
-     , (12486,   8,  100667499) /* Icon */;
+VALUES (12486,   1, 0x020001B3) /* Setup */
+     , (12486,   2, 0x09000003) /* MotionTable */
+     , (12486,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12486, 2, 1239810052, 19.429, 80.472, 0.005, -0.9202592, 0, 0, -0.3913094) /* Destination */
-/* @teleloc 0x49E60004 [19.429000 80.472000 0.005000] -0.920259 0.000000 0.000000 -0.391309 */;
+VALUES (12486, 2, 0x49E60004, 19.429, 80.472, 0.005, -0.920259, 0, -0, -0.391309) /* Destination */
+/* @teleloc 0x49E60004 [19.429001 80.472000 0.005000] -0.920259 0.000000 -0.000000 -0.391309 */;

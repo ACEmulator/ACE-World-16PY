@@ -35,9 +35,9 @@ VALUES (12261,   1, 'Ecorto''s Chisel') /* Name */
      , (12261,  16, 'A tool provided by Ecorto the Lost Director.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12261,   1,   33557382) /* Setup */
-     , (12261,   3,  536870932) /* SoundTable */
-     , (12261,   6,   67111919) /* PaletteBase */
-     , (12261,   7,  268436285) /* ClothingBase */
-     , (12261,   8,  100672206) /* Icon */
-     , (12261,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12261,   1, 0x02000B86) /* Setup */
+     , (12261,   3, 0x20000014) /* SoundTable */
+     , (12261,   6, 0x04000BEF) /* PaletteBase */
+     , (12261,   7, 0x1000033D) /* ClothingBase */
+     , (12261,   8, 0x060022CE) /* Icon */
+     , (12261,  22, 0x3400002B) /* PhysicsEffectTable */;

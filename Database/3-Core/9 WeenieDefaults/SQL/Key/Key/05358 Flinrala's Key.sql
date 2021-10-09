@@ -26,7 +26,7 @@ VALUES (5358,   1, 'Flinrala''s Key') /* Name */
      , (5358,  16, 'A key to Brogord''s Quarters within the Holtburg Redoubt.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5358,   1,   33554784) /* Setup */
-     , (5358,   3,  536870932) /* SoundTable */
-     , (5358,   8,  100667485) /* Icon */
-     , (5358,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5358,   1, 0x02000160) /* Setup */
+     , (5358,   3, 0x20000014) /* SoundTable */
+     , (5358,   8, 0x0600105D) /* Icon */
+     , (5358,  22, 0x3400002B) /* PhysicsEffectTable */;

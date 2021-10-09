@@ -30,13 +30,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25733,   1, 'An Explorer Necklace Of Focus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25733,   1,   33554689) /* Setup */
-     , (25733,   3,  536870932) /* SoundTable */
-     , (25733,   6,   67111919) /* PaletteBase */
-     , (25733,   7,  268435749) /* ClothingBase */
-     , (25733,   8,  100675468) /* Icon */
-     , (25733,  22,  872415275) /* PhysicsEffectTable */
-     , (25733,  36,  234881046) /* MutateFilter */;
+VALUES (25733,   1, 0x02000101) /* Setup */
+     , (25733,   3, 0x20000014) /* SoundTable */
+     , (25733,   6, 0x04000BEF) /* PaletteBase */
+     , (25733,   7, 0x10000125) /* ClothingBase */
+     , (25733,   8, 0x06002F8C) /* Icon */
+     , (25733,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (25733,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25733,  1429,      2)  /* Focus Other III */;

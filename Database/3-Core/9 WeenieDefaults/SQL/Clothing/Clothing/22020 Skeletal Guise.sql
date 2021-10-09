@@ -39,10 +39,10 @@ VALUES (22020,   1, 'Skeletal Guise') /* Name */
      , (22020,  16, 'A finely crafted skeleton costume that is only missing the head.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22020,   1,   33558008) /* Setup */
-     , (22020,   3,  536870932) /* SoundTable */
-     , (22020,   6,   67108990) /* PaletteBase */
-     , (22020,   7,  268436470) /* ClothingBase */
-     , (22020,   8,  100673718) /* Icon */
-     , (22020,  22,  872415275) /* PhysicsEffectTable */
-     , (22020,  36,  234881046) /* MutateFilter */;
+VALUES (22020,   1, 0x02000DF8) /* Setup */
+     , (22020,   3, 0x20000014) /* SoundTable */
+     , (22020,   6, 0x0400007E) /* PaletteBase */
+     , (22020,   7, 0x100003F6) /* ClothingBase */
+     , (22020,   8, 0x060028B6) /* Icon */
+     , (22020,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (22020,  36, 0x0E000016) /* MutateFilter */;

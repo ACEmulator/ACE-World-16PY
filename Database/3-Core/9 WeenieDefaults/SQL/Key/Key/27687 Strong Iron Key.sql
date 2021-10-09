@@ -27,7 +27,7 @@ VALUES (27687,   1, 'Strong Iron Key') /* Name */
      , (27687,  33, 'RenegadeHealing') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27687,   1,   33554784) /* Setup */
-     , (27687,   3,  536870932) /* SoundTable */
-     , (27687,   8,  100676423) /* Icon */
-     , (27687,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27687,   1, 0x02000160) /* Setup */
+     , (27687,   3, 0x20000014) /* SoundTable */
+     , (27687,   8, 0x06003347) /* Icon */
+     , (27687,  22, 0x3400002B) /* PhysicsEffectTable */;

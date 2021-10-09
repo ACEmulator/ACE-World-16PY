@@ -66,21 +66,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2585,   1, 'Essa Sclavus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2585,   1,   33555608) /* Setup */
-     , (2585,   2,  150995048) /* MotionTable */
-     , (2585,   3,  536870977) /* SoundTable */
-     , (2585,   4,  805306393) /* CombatTable */
-     , (2585,   6,   67111936) /* PaletteBase */
-     , (2585,   7,  268435727) /* ClothingBase */
-     , (2585,   8,  100669120) /* Icon */
-     , (2585,  22,  872415280) /* PhysicsEffectTable */
+VALUES (2585,   1, 0x02000498) /* Setup */
+     , (2585,   2, 0x09000068) /* MotionTable */
+     , (2585,   3, 0x20000041) /* SoundTable */
+     , (2585,   4, 0x30000019) /* CombatTable */
+     , (2585,   6, 0x04000C00) /* PaletteBase */
+     , (2585,   7, 0x1000010F) /* ClothingBase */
+     , (2585,   8, 0x060016C0) /* Icon */
+     , (2585,  22, 0x34000030) /* PhysicsEffectTable */
      , (2585,  32,        169) /* WieldedTreasureType - 
-                                   Wield 5x Javelin (320) | Probability: 60%
+                                   Wield 5x Javelin (320) | Probability: 60.000004%
                                    Wield 4x Djarid (317) | Probability: 40%
                                    Wield Budiaq (308) | Probability: 25%
                                    Wield Spear (348) | Probability: 50%
                                    Wield Yari (362) | Probability: 50%
-                                   Wield Large Kite Shield (92) | Probability: 30%
+                                   Wield Large Kite Shield (92) | Probability: 30.000002%
                                    Wield Kite Shield (91) | Probability: 20%
                                    Wield Large Round Shield (94) | Probability: 20% */
      , (2585,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
@@ -99,22 +99,22 @@ VALUES (2585,   1,    50, 0, 0, 100) /* MaxHealth */
      , (2585,   5,   150, 0, 0, 250) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (2585,  1, 0, 3, 0,  90, 0, 336.593520963615) /* Axe                 Specialized */
-     , (2585,  2, 0, 3, 0, 100, 0, 336.593520963615) /* Bow                 Specialized */
-     , (2585,  3, 0, 3, 0, 100, 0, 336.593520963615) /* Crossbow            Specialized */
-     , (2585,  4, 0, 3, 0,  90, 0, 336.593520963615) /* Dagger              Specialized */
-     , (2585,  5, 0, 3, 0,  90, 0, 336.593520963615) /* Mace                Specialized */
-     , (2585,  6, 0, 3, 0,  64, 0, 336.593520963615) /* MeleeDefense        Specialized */
-     , (2585,  7, 0, 3, 0, 126, 0, 336.593520963615) /* MissileDefense      Specialized */
-     , (2585, 10, 0, 3, 0,  90, 0, 336.593520963615) /* Staff               Specialized */
-     , (2585, 11, 0, 3, 0,  90, 0, 336.593520963615) /* Sword               Specialized */
-     , (2585, 13, 0, 3, 0,  90, 0, 336.593520963615) /* UnarmedCombat       Specialized */
-     , (2585, 14, 0, 3, 0, 100, 0, 336.593520963615) /* ArcaneLore          Specialized */
-     , (2585, 15, 0, 3, 0,  92, 0, 336.593520963615) /* MagicDefense        Specialized */
-     , (2585, 20, 0, 3, 0,  80, 0, 336.593520963615) /* Deception           Specialized */
-     , (2585, 24, 0, 3, 0,  40, 0, 336.593520963615) /* Run                 Specialized */
-     , (2585, 31, 0, 3, 0,  64, 0, 336.593520963615) /* CreatureEnchantment Specialized */
-     , (2585, 34, 0, 3, 0,  64, 0, 336.593520963615) /* WarMagic            Specialized */;
+VALUES (2585,  1, 0, 3, 0,  90, 0, 336.59352096361516) /* Axe                 Specialized */
+     , (2585,  2, 0, 3, 0, 100, 0, 336.59352096361516) /* Bow                 Specialized */
+     , (2585,  3, 0, 3, 0, 100, 0, 336.59352096361516) /* Crossbow            Specialized */
+     , (2585,  4, 0, 3, 0,  90, 0, 336.59352096361516) /* Dagger              Specialized */
+     , (2585,  5, 0, 3, 0,  90, 0, 336.59352096361516) /* Mace                Specialized */
+     , (2585,  6, 0, 3, 0,  64, 0, 336.59352096361516) /* MeleeDefense        Specialized */
+     , (2585,  7, 0, 3, 0, 126, 0, 336.59352096361516) /* MissileDefense      Specialized */
+     , (2585, 10, 0, 3, 0,  90, 0, 336.59352096361516) /* Staff               Specialized */
+     , (2585, 11, 0, 3, 0,  90, 0, 336.59352096361516) /* Sword               Specialized */
+     , (2585, 13, 0, 3, 0,  90, 0, 336.59352096361516) /* UnarmedCombat       Specialized */
+     , (2585, 14, 0, 3, 0, 100, 0, 336.59352096361516) /* ArcaneLore          Specialized */
+     , (2585, 15, 0, 3, 0,  92, 0, 336.59352096361516) /* MagicDefense        Specialized */
+     , (2585, 20, 0, 3, 0,  80, 0, 336.59352096361516) /* Deception           Specialized */
+     , (2585, 24, 0, 3, 0,  40, 0, 336.59352096361516) /* Run                 Specialized */
+     , (2585, 31, 0, 3, 0,  64, 0, 336.59352096361516) /* CreatureEnchantment Specialized */
+     , (2585, 34, 0, 3, 0,  64, 0, 336.59352096361516) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (2585,  0,  4,  0,    0,  110,   88,   67,   39,   77,   67,    8,    8,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -128,14 +128,14 @@ VALUES (2585,  0,  4,  0,    0,  110,   88,   67,   39,   77,   67,    8,    8, 
      , (2585,  8,  4, 20, 0.75,  130,  104,   79,   46,   91,   79,    9,    9,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2585,    60,   2.02)  /* Acid Stream III */
-     , (2585,    71,   2.02)  /* Frost Bolt III */
-     , (2585,    88,   2.02)  /* Force Bolt III */
-     , (2585,   230,  2.013)  /* Vulnerability Other II */
+VALUES (2585,    88,   2.02)  /* Force Bolt III */
      , (2585,   263,  2.013)  /* Defenselessness Other II */
-     , (2585,  1328,   2.05)  /* Strength Self II */
+     , (2585,    71,   2.02)  /* Frost Bolt III */
+     , (2585,  1398,   2.05)  /* Quickness Self II */
      , (2585,  1374,   2.05)  /* Coordination Self II */
-     , (2585,  1398,   2.05)  /* Quickness Self II */;
+     , (2585,   230,  2.013)  /* Vulnerability Other II */
+     , (2585,  1328,   2.05)  /* Strength Self II */
+     , (2585,    60,   2.02)  /* Acid Stream III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (2585,  94) /* ATTACK_NOTIFICATION_EVENT */

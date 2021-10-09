@@ -23,5 +23,5 @@ VALUES (4637,   1, 'Al-Arqas 2 miles Sign') /* Name */
      , (4637,  16, '2 Miles to Al-Arqas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4637,   1,   33555985) /* Setup */
-     , (4637,   8,  100668115) /* Icon */;
+VALUES (4637,   1, 0x02000611) /* Setup */
+     , (4637,   8, 0x060012D3) /* Icon */;

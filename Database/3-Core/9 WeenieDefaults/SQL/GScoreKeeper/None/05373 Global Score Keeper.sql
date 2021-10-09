@@ -14,5 +14,5 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5373,   1, 'Global Score Keeper') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5373,   1,   33555196) /* Setup */
-     , (5373,   8,  100668237) /* Icon */;
+VALUES (5373,   1, 0x020002FC) /* Setup */
+     , (5373,   8, 0x0600134D) /* Icon */;

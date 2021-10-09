@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22116,   1, 'Dark Sarcophagus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22116,   1,   33558043) /* Setup */
-     , (22116,   2,  150995217) /* MotionTable */
-     , (22116,   3,  536870998) /* SoundTable */
-     , (22116,   4,  805306368) /* CombatTable */
-     , (22116,   6,   67114004) /* PaletteBase */
-     , (22116,   7,  268436461) /* ClothingBase */
-     , (22116,   8,  100671209) /* Icon */
-     , (22116,  22,  872415331) /* PhysicsEffectTable */;
+VALUES (22116,   1, 0x02000E1B) /* Setup */
+     , (22116,   2, 0x09000111) /* MotionTable */
+     , (22116,   3, 0x20000056) /* SoundTable */
+     , (22116,   4, 0x30000000) /* CombatTable */
+     , (22116,   6, 0x04001414) /* PaletteBase */
+     , (22116,   7, 0x100003ED) /* ClothingBase */
+     , (22116,   8, 0x06001EE9) /* Icon */
+     , (22116,  22, 0x34000063) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22116,   1,  10, 0, 0) /* Strength */
@@ -89,10 +89,10 @@ VALUES (22116,   1,    20, 0, 0, 25) /* MaxHealth */
      , (22116,   5,     0, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (22116,  6, 0, 2, 0,   1, 0, 1331.70152914525) /* MeleeDefense        Trained */
-     , (22116,  7, 0, 3, 0, 999, 0, 1331.70152914525) /* MissileDefense      Specialized */
-     , (22116, 15, 0, 3, 0, 999, 0, 1331.70152914525) /* MagicDefense        Specialized */
-     , (22116, 33, 0, 3, 0, 400, 0, 1331.70152914525) /* LifeMagic           Specialized */;
+VALUES (22116,  6, 0, 2, 0,   1, 0, 1331.7015291452535) /* MeleeDefense        Trained */
+     , (22116,  7, 0, 3, 0, 999, 0, 1331.7015291452535) /* MissileDefense      Specialized */
+     , (22116, 15, 0, 3, 0, 999, 0, 1331.7015291452535) /* MagicDefense        Specialized */
+     , (22116, 33, 0, 3, 0, 400, 0, 1331.7015291452535) /* LifeMagic           Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (22116,  0,  8,  3,  0.5,   20, 2000, 2000, 2000, 2000,  200, 2000, 2000,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
@@ -101,12 +101,12 @@ VALUES (22116,  0,  8,  3,  0.5,   20, 2000, 2000, 2000, 2000,  200, 2000, 2000,
      , (22116, 21, 64,  3,  0.5,   10, 1000, 1000, 1000, 1000,  100, 1000, 1000,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22116,   174,    2.1)  /* Fester Other IV */
+VALUES (22116,   221,    2.1)  /* Mana Depletion Other IV */
      , (22116,   197,   2.08)  /* Exhaustion Other IV */
-     , (22116,   221,    2.1)  /* Mana Depletion Other IV */
      , (22116,  1240,   2.15)  /* Drain Health Other IV */
      , (22116,  1251,   2.08)  /* Drain Stamina Other III */
-     , (22116,  1262,   2.15)  /* Drain Mana Other III */;
+     , (22116,  1262,   2.15)  /* Drain Mana Other III */
+     , (22116,   174,    2.1)  /* Fester Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (22116,  94) /* ATTACK_NOTIFICATION_EVENT */;

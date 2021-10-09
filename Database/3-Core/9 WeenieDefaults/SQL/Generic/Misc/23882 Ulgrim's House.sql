@@ -25,7 +25,7 @@ VALUES (23882,   1, 'Ulgrim''s House') /* Name */
      , (23882,  16, 'Ulgrim''s House. Be Respectful! -Ulgrim') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23882,   1,   33555088) /* Setup */
-     , (23882,   6,   67111092) /* PaletteBase */
-     , (23882,   7,  268435662) /* ClothingBase */
-     , (23882,   8,  100668115) /* Icon */;
+VALUES (23882,   1, 0x02000290) /* Setup */
+     , (23882,   6, 0x040008B4) /* PaletteBase */
+     , (23882,   7, 0x100000CE) /* ClothingBase */
+     , (23882,   8, 0x060012D3) /* Icon */;

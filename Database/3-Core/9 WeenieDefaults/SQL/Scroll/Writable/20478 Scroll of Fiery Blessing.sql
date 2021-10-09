@@ -24,7 +24,7 @@ VALUES (20478,   1, 'Scroll of Fiery Blessing') /* Name */
      , (20478,  15, 'When learned, this spell reduces damage the caster takes from Fire by 65%.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20478,   1,   33554826) /* Setup */
-     , (20478,   8,  100676949) /* Icon */
-     , (20478,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20478,   1, 0x0200018A) /* Setup */
+     , (20478,   8, 0x06003555) /* Icon */
+     , (20478,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20478,  28,       2157) /* Spell - Fiery Blessing */;

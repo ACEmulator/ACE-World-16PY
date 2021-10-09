@@ -18,7 +18,7 @@ VALUES (7999,   1,        256) /* ItemType - MissileWeapon */
      , (7999,  48,          2) /* WeaponSkill - Bow */
      , (7999,  49,         60) /* WeaponTime */
      , (7999,  50,          8) /* AmmoType - ArrowCrystal */
-     , (7999,  51,          2) /* CombatUse - Missle */
+     , (7999,  51,          2) /* CombatUse - Missile */
      , (7999,  52,          2) /* ParentLocation - LeftHand */
      , (7999,  53,          3) /* PlacementPosition - LeftHand */
      , (7999,  60,        180) /* WeaponRange */
@@ -50,15 +50,15 @@ VALUES (7999,   1, 'Fenmalain Crystal Bow') /* Name */
      , (7999,  16, 'A bow imbued with the essence of the Fenmalain Crystal. Uses crystal-tipped arrows.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7999,   1,   33554729) /* Setup */
-     , (7999,   3,  536870932) /* SoundTable */
-     , (7999,   6,   67111919) /* PaletteBase */
-     , (7999,   7,  268436042) /* ClothingBase */
-     , (7999,   8,  100670998) /* Icon */
-     , (7999,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7999,   1, 0x02000129) /* Setup */
+     , (7999,   3, 0x20000014) /* SoundTable */
+     , (7999,   6, 0x04000BEF) /* PaletteBase */
+     , (7999,   7, 0x1000024A) /* ClothingBase */
+     , (7999,   8, 0x06001E16) /* Icon */
+     , (7999,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7999,  37,          2) /* ItemSkillLimit - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7999,   463,      2)  /* Missile Weapon Mastery Other III */
-     , (7999,  1613,      2)  /* Aura of Blood Drinker Self III */
+VALUES (7999,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (7999,   463,      2)  /* Missile Weapon Mastery Other III */
      , (7999,  1624,      2)  /* Aura of Swift Killer Self III */;

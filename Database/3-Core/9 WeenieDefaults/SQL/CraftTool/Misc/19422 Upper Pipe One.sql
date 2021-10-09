@@ -32,7 +32,7 @@ VALUES (19422,   1, 'Upper Pipe One') /* Name */
      , (19422,  16, 'An Upper Pipe for the Horn of Vigilance.  Mount this atop the Horn Base.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19422,   1,   33557834) /* Setup */
-     , (19422,   3,  536870932) /* SoundTable */
-     , (19422,   8,  100673051) /* Icon */
-     , (19422,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19422,   1, 0x02000D4A) /* Setup */
+     , (19422,   3, 0x20000014) /* SoundTable */
+     , (19422,   8, 0x0600261B) /* Icon */
+     , (19422,  22, 0x3400002B) /* PhysicsEffectTable */;

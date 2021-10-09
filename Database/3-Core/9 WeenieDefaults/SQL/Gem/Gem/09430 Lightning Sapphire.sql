@@ -34,11 +34,11 @@ VALUES (9430,   1, 'Lightning Sapphire') /* Name */
      , (9430,  15, 'A gem of lightning protection.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9430,   1,   33554809) /* Setup */
-     , (9430,   3,  536870932) /* SoundTable */
-     , (9430,   6,   67111919) /* PaletteBase */
-     , (9430,   7,  268435723) /* ClothingBase */
-     , (9430,   8,  100668360) /* Icon */
-     , (9430,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9430,   1, 0x02000179) /* Setup */
+     , (9430,   3, 0x20000014) /* SoundTable */
+     , (9430,   6, 0x04000BEF) /* PaletteBase */
+     , (9430,   7, 0x1000010B) /* ClothingBase */
+     , (9430,   8, 0x060013C8) /* Icon */
+     , (9430,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9430,  28,       2395) /* Spell - Electric Shield */
-     , (9430,  36,  234881046) /* MutateFilter */;
+     , (9430,  36, 0x0E000016) /* MutateFilter */;

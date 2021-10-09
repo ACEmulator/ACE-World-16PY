@@ -30,7 +30,7 @@ VALUES (29530,  22, True ) /* Inscribable */
      , (29530, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29530,   5, -0.0166) /* ManaRate */
+VALUES (29530,   5,  -0.017) /* ManaRate */
      , (29530,  12,    0.66) /* Shade */
      , (29530,  13,     1.2) /* ArmorModVsSlash */
      , (29530,  14,     1.2) /* ArmorModVsPierce */
@@ -46,16 +46,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29530,   1, 'Noble Helm of Health') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29530,   1,   33559080) /* Setup */
-     , (29530,   3,  536870932) /* SoundTable */
-     , (29530,   6,   67108990) /* PaletteBase */
-     , (29530,   7,  268436879) /* ClothingBase */
-     , (29530,   8,  100674952) /* Icon */
-     , (29530,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29530,   1, 0x02001228) /* Setup */
+     , (29530,   3, 0x20000014) /* SoundTable */
+     , (29530,   6, 0x0400007E) /* PaletteBase */
+     , (29530,   7, 0x1000058F) /* ClothingBase */
+     , (29530,   8, 0x06002D88) /* Icon */
+     , (29530,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29530,   466,      2)  /* Missile Weapon Mastery Other VI */
-     , (29530,   490,      2)  /* Missile Weapon Mastery Other VI */
+VALUES (29530,   490,      2)  /* Missile Weapon Mastery Other VI */
+     , (29530,   466,      2)  /* Missile Weapon Mastery Other VI */
      , (29530,   538,      2)  /* Missile Weapon Mastery Other VI */
-     , (29530,  2108,      2)  /* Brogard's Defiance */
-     , (29530,  3576,      2)  /* Perfect Health */;
+     , (29530,  3576,      2)  /* Perfect Health */
+     , (29530,  2108,      2)  /* Brogard's Defiance */;

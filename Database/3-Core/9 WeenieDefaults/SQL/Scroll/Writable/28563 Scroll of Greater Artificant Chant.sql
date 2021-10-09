@@ -24,7 +24,7 @@ VALUES (28563,   1, 'Scroll of Greater Artificant Chant') /* Name */
      , (28563,  15, 'Use this scroll to learn Greater Artificant Chant.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28563,   1,   33554826) /* Setup */
-     , (28563,   8,  100676460) /* Icon */
-     , (28563,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28563,   1, 0x0200018A) /* Setup */
+     , (28563,   8, 0x0600336C) /* Icon */
+     , (28563,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28563,  28,       3390) /* Spell - Greater Artificant Chant */;

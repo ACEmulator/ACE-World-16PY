@@ -29,8 +29,8 @@ VALUES (8228,   1, 'Xarabydun ') /* Name */
      , (8228,  16, 'Welcome to the town of Xarabydun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8228,   1,   33556865) /* Setup */
-     , (8228,   8,  100668115) /* Icon */;
+VALUES (8228,   1, 0x02000981) /* Setup */
+     , (8228,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8228, 1, 5775, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Town Crier (5775) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

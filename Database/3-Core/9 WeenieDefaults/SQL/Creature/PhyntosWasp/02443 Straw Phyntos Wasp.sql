@@ -61,14 +61,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2443,   1, 'Straw Phyntos Wasp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2443,   1,   33554491) /* Setup */
-     , (2443,   2,  150995083) /* MotionTable */
-     , (2443,   3,  536870993) /* SoundTable */
-     , (2443,   6,   67109312) /* PaletteBase */
-     , (2443,   7,  268435835) /* ClothingBase */
-     , (2443,   8,  100667450) /* Icon */
-     , (2443,  22,  872415340) /* PhysicsEffectTable */
-     , (2443,  35,        152) /* DeathTreasureType */;
+VALUES (2443,   1, 0x0200003B) /* Setup */
+     , (2443,   2, 0x0900008B) /* MotionTable */
+     , (2443,   3, 0x20000051) /* SoundTable */
+     , (2443,   6, 0x040001C0) /* PaletteBase */
+     , (2443,   7, 0x1000017B) /* ClothingBase */
+     , (2443,   8, 0x0600103A) /* Icon */
+     , (2443,  22, 0x3400006C) /* PhysicsEffectTable */
+     , (2443,  35,        152) /* DeathTreasureType - 
+                                    Drop Stale Bread (5088) | Probability: 16%
+                                    Drop Old Cheese (5089) | Probability: 16%
+                                    Drop Bruised Apple (5090) | Probability: 16% */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2443,   1,   1, 0, 0) /* Strength */

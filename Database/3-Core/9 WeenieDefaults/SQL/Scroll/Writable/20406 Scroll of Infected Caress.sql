@@ -24,7 +24,7 @@ VALUES (20406,   1, 'Scroll of Infected Caress') /* Name */
      , (20406,  15, 'When learned, this spell increases a weapon''s damage value by 22 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20406,   1,   33554826) /* Setup */
-     , (20406,   8,  100676655) /* Icon */
-     , (20406,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20406,   1, 0x0200018A) /* Setup */
+     , (20406,   8, 0x0600342F) /* Icon */
+     , (20406,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20406,  28,       2096) /* Spell - Aura of Infected Caress */;

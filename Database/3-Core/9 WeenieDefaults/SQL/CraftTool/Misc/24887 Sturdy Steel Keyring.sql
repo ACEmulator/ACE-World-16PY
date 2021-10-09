@@ -36,9 +36,9 @@ VALUES (24887,   1, 'Sturdy Steel Keyring') /* Name */
      , (24887,  16, 'A crude keyring roughly carved out of a coral golem heart. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24887,   1,   33554790) /* Setup */
-     , (24887,   3,  536870932) /* SoundTable */
-     , (24887,   6,   67111919) /* PaletteBase */
-     , (24887,   7,  268435782) /* ClothingBase */
-     , (24887,   8,  100674623) /* Icon */
-     , (24887,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24887,   1, 0x02000166) /* Setup */
+     , (24887,   3, 0x20000014) /* SoundTable */
+     , (24887,   6, 0x04000BEF) /* PaletteBase */
+     , (24887,   7, 0x10000146) /* ClothingBase */
+     , (24887,   8, 0x06002C3F) /* Icon */
+     , (24887,  22, 0x3400002B) /* PhysicsEffectTable */;

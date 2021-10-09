@@ -31,8 +31,8 @@ VALUES (12222,   1, 'Mosswart Wand') /* Name */
      , (12222,  16, 'A wand with a shrunken mosswart head on it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12222,   1,   33557370) /* Setup */
-     , (12222,   3,  536870932) /* SoundTable */
-     , (12222,   8,  100672180) /* Icon */
-     , (12222,  22,  872415275) /* PhysicsEffectTable */
-     , (12222,  36,  234881046) /* MutateFilter */;
+VALUES (12222,   1, 0x02000B7A) /* Setup */
+     , (12222,   3, 0x20000014) /* SoundTable */
+     , (12222,   8, 0x060022B4) /* Icon */
+     , (12222,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (12222,  36, 0x0E000016) /* MutateFilter */;

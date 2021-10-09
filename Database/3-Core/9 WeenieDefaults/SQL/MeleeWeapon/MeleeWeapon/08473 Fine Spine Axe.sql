@@ -36,10 +36,10 @@ VALUES (8473,   1, 'Fine Spine Axe') /* Name */
      , (8473,  16, 'A battle axe shaped out of an armoredillo spine. A cool sea breeze washes over you as you wield it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8473,   1,   33558225) /* Setup */
-     , (8473,   3,  536870932) /* SoundTable */
-     , (8473,   6,   67114170) /* PaletteBase */
-     , (8473,   7,  268435779) /* ClothingBase */
-     , (8473,   8,  100674101) /* Icon */
-     , (8473,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8473,   1, 0x02000ED1) /* Setup */
+     , (8473,   3, 0x20000014) /* SoundTable */
+     , (8473,   6, 0x040014BA) /* PaletteBase */
+     , (8473,   7, 0x10000143) /* ClothingBase */
+     , (8473,   8, 0x06002A35) /* Icon */
+     , (8473,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8473,  30,         88) /* PhysicsScript - Create */;

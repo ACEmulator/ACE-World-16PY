@@ -70,19 +70,19 @@ VALUES (8055,   1, 'Shadow Child') /* Name */
      , (8055,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8055,   1,   33554433) /* Setup */
-     , (8055,   2,  150994945) /* MotionTable */
-     , (8055,   3,  536871090) /* SoundTable */
-     , (8055,   4,  805306368) /* CombatTable */
-     , (8055,   6,   67111797) /* PaletteBase */
-     , (8055,   7,  268435632) /* ClothingBase */
-     , (8055,   8,  100670397) /* Icon */
-     , (8055,  22,  872415331) /* PhysicsEffectTable */
+VALUES (8055,   1, 0x02000001) /* Setup */
+     , (8055,   2, 0x09000001) /* MotionTable */
+     , (8055,   3, 0x200000B2) /* SoundTable */
+     , (8055,   4, 0x30000000) /* CombatTable */
+     , (8055,   6, 0x04000B75) /* PaletteBase */
+     , (8055,   7, 0x100000B0) /* ClothingBase */
+     , (8055,   8, 0x06001BBD) /* Icon */
+     , (8055,  22, 0x34000063) /* PhysicsEffectTable */
      , (8055,  32,         84) /* WieldedTreasureType - 
-                                   Wield Club (309) | Probability: 15%
+                                   Wield Club (309) | Probability: 15.000001%
                                    Wield Dabus (313) | Probability: 3%
                                    Wield Dagger (314) | Probability: 10%
-                                   Wield Kasrullah (325) | Probability: 15%
+                                   Wield Kasrullah (325) | Probability: 15.000001%
                                    Wield Khanjar (328) | Probability: 10%
                                    Wield Mace (331) | Probability: 4%
                                    Wield Short Sword (352) | Probability: 7%
@@ -110,23 +110,23 @@ VALUES (8055,   1,    50, 0, 0, 100) /* MaxHealth */
      , (8055,   5,   200, 0, 0, 210) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (8055,  1, 0, 2, 0,  70, 0, 568.034153501023) /* Axe                 Trained */
-     , (8055,  2, 0, 3, 0,  90, 0, 568.034153501023) /* Bow                 Specialized */
-     , (8055,  3, 0, 2, 0,  90, 0, 568.034153501023) /* Crossbow            Trained */
-     , (8055,  4, 0, 2, 0,  70, 0, 568.034153501023) /* Dagger              Trained */
-     , (8055,  5, 0, 2, 0,  70, 0, 568.034153501023) /* Mace                Trained */
-     , (8055,  6, 0, 2, 0,  80, 0, 568.034153501023) /* MeleeDefense        Trained */
-     , (8055,  7, 0, 2, 0,  90, 0, 568.034153501023) /* MissileDefense      Trained */
-     , (8055,  9, 0, 2, 0,  70, 0, 568.034153501023) /* Spear               Trained */
-     , (8055, 10, 0, 2, 0,  70, 0, 568.034153501023) /* Staff               Trained */
-     , (8055, 11, 0, 2, 0,  70, 0, 568.034153501023) /* Sword               Trained */
-     , (8055, 13, 0, 2, 0,  70, 0, 568.034153501023) /* UnarmedCombat       Trained */
-     , (8055, 14, 0, 2, 0, 180, 0, 568.034153501023) /* ArcaneLore          Trained */
-     , (8055, 15, 0, 2, 0, 177, 0, 568.034153501023) /* MagicDefense        Trained */
-     , (8055, 20, 0, 3, 0, 150, 0, 568.034153501023) /* Deception           Specialized */
-     , (8055, 31, 0, 2, 0, 140, 0, 568.034153501023) /* CreatureEnchantment Trained */
-     , (8055, 33, 0, 2, 0, 120, 0, 568.034153501023) /* LifeMagic           Trained */
-     , (8055, 34, 0, 2, 0, 120, 0, 568.034153501023) /* WarMagic            Trained */;
+VALUES (8055,  1, 0, 2, 0,  70, 0, 568.0341535010227) /* Axe                 Trained */
+     , (8055,  2, 0, 3, 0,  90, 0, 568.0341535010227) /* Bow                 Specialized */
+     , (8055,  3, 0, 2, 0,  90, 0, 568.0341535010227) /* Crossbow            Trained */
+     , (8055,  4, 0, 2, 0,  70, 0, 568.0341535010227) /* Dagger              Trained */
+     , (8055,  5, 0, 2, 0,  70, 0, 568.0341535010227) /* Mace                Trained */
+     , (8055,  6, 0, 2, 0,  80, 0, 568.0341535010227) /* MeleeDefense        Trained */
+     , (8055,  7, 0, 2, 0,  90, 0, 568.0341535010227) /* MissileDefense      Trained */
+     , (8055,  9, 0, 2, 0,  70, 0, 568.0341535010227) /* Spear               Trained */
+     , (8055, 10, 0, 2, 0,  70, 0, 568.0341535010227) /* Staff               Trained */
+     , (8055, 11, 0, 2, 0,  70, 0, 568.0341535010227) /* Sword               Trained */
+     , (8055, 13, 0, 2, 0,  70, 0, 568.0341535010227) /* UnarmedCombat       Trained */
+     , (8055, 14, 0, 2, 0, 180, 0, 568.0341535010227) /* ArcaneLore          Trained */
+     , (8055, 15, 0, 2, 0, 177, 0, 568.0341535010227) /* MagicDefense        Trained */
+     , (8055, 20, 0, 3, 0, 150, 0, 568.0341535010227) /* Deception           Specialized */
+     , (8055, 31, 0, 2, 0, 140, 0, 568.0341535010227) /* CreatureEnchantment Trained */
+     , (8055, 33, 0, 2, 0, 120, 0, 568.0341535010227) /* LifeMagic           Trained */
+     , (8055, 34, 0, 2, 0, 120, 0, 568.0341535010227) /* WarMagic            Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (8055,  0,  4,  0,    0,   80,   80,   49,   59,   24,   80,   30,   49,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -140,26 +140,26 @@ VALUES (8055,  0,  4,  0,    0,   80,   80,   49,   59,   24,   80,   30,   49, 
      , (8055,  8,  4, 20, 0.75,   80,   80,   49,   59,   24,   80,   30,   49,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8055,    71,   2.06)  /* Frost Bolt III */
-     , (8055,    77,   2.06)  /* Lightning Bolt III */
-     , (8055,    82,   2.06)  /* Flame Bolt III */
-     , (8055,    88,   2.06)  /* Force Bolt III */
-     , (8055,    94,   2.06)  /* Whirling Blade III */
-     , (8055,   135,   2.01)  /* Frost Volley III */
-     , (8055,   139,   2.01)  /* Lightning Volley III */
-     , (8055,   143,   2.01)  /* Flame Volley III */
-     , (8055,   147,   2.01)  /* Force Volley III */
-     , (8055,   151,   2.01)  /* Blade Volley III */
-     , (8055,   231,  2.017)  /* Vulnerability Other III */
+VALUES (8055,   139,   2.01)  /* Lightning Volley III */
+     , (8055,  1280,  2.014)  /* Health to Mana Self III */
+     , (8055,  1666,  2.014)  /* Stamina to Health Self III */
+     , (8055,  1292,  2.014)  /* Mana to Health Self III */
      , (8055,   264,  2.017)  /* Defenselessness Other III */
-     , (8055,   282,  2.017)  /* Magic Yield Other III */
+     , (8055,   135,   2.01)  /* Frost Volley III */
+     , (8055,    71,   2.06)  /* Frost Bolt III */
+     , (8055,    77,   2.06)  /* Lightning Bolt III */
+     , (8055,  1678,  2.014)  /* Stamina to Mana Self III */
+     , (8055,   143,   2.01)  /* Flame Volley III */
+     , (8055,  1262,  2.014)  /* Drain Mana Other III */
+     , (8055,    82,   2.06)  /* Flame Bolt III */
+     , (8055,   147,   2.01)  /* Force Volley III */
      , (8055,  1239,  2.014)  /* Drain Health Other III */
      , (8055,  1251,  2.014)  /* Drain Stamina Other III */
-     , (8055,  1262,  2.014)  /* Drain Mana Other III */
-     , (8055,  1280,  2.014)  /* Health to Mana Self III */
-     , (8055,  1292,  2.014)  /* Mana to Health Self III */
-     , (8055,  1666,  2.014)  /* Stamina to Health Self III */
-     , (8055,  1678,  2.014)  /* Stamina to Mana Self III */;
+     , (8055,   151,   2.01)  /* Blade Volley III */
+     , (8055,    88,   2.06)  /* Force Bolt III */
+     , (8055,   282,  2.017)  /* Magic Yield Other III */
+     , (8055,    94,   2.06)  /* Whirling Blade III */
+     , (8055,   231,  2.017)  /* Vulnerability Other III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (8055,  94) /* ATTACK_NOTIFICATION_EVENT */

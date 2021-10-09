@@ -24,7 +24,7 @@ VALUES (21317,   1, 'Scroll of Frost Arc II') /* Name */
      , (21317,  15, 'When learned, this spell shoots a bolt of frost at the target. The bolt does 13-25 points of cold damage to the first thing it hits.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21317,   1,   33554826) /* Setup */
-     , (21317,   8,  100677016) /* Icon */
-     , (21317,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21317,   1, 0x0200018A) /* Setup */
+     , (21317,   8, 0x06003598) /* Icon */
+     , (21317,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21317,  28,       2726) /* Spell - Frost Arc II */;

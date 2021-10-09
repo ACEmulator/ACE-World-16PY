@@ -27,9 +27,9 @@ VALUES (28519,   1, 'Sclavus Cataloguing Crate') /* Name */
      , (28519,  16, 'This crate is now full of the Sclavus parts that Captain K''rank asked you to recover. You should return it to him for a reward. The Sclavus parts smell as though the heat is starting to make them sour.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28519,   1,   33554817) /* Setup */
-     , (28519,   3,  536870932) /* SoundTable */
-     , (28519,   6,   67111919) /* PaletteBase */
-     , (28519,   7,  268435832) /* ClothingBase */
-     , (28519,   8,  100676965) /* Icon */
-     , (28519,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28519,   1, 0x02000181) /* Setup */
+     , (28519,   3, 0x20000014) /* SoundTable */
+     , (28519,   6, 0x04000BEF) /* PaletteBase */
+     , (28519,   7, 0x10000178) /* ClothingBase */
+     , (28519,   8, 0x06003565) /* Icon */
+     , (28519,  22, 0x3400002B) /* PhysicsEffectTable */;

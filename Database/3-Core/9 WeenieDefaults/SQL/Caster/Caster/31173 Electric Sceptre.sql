@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31173,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31173,   5,       0) /* ManaRate */
+VALUES (31173,   5,      -0) /* ManaRate */
      , (31173,  29,    1.08) /* WeaponDefense */
      , (31173, 144,    0.13) /* ManaConversionMod */
      , (31173, 152,    1.02) /* ElementalDamageMod */;
@@ -41,13 +41,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31173,   1, 'Electric Sceptre') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31173,   1,   33559230) /* Setup */
-     , (31173,   3,  536870932) /* SoundTable */
-     , (31173,   6,   67115357) /* PaletteBase */
-     , (31173,   7,  268436902) /* ClothingBase */
-     , (31173,   8,  100668792) /* Icon */
-     , (31173,  22,  872415275) /* PhysicsEffectTable */
-     , (31173,  27, 1073742049) /* UseUserAnimation - UseMagicWand */;
+VALUES (31173,   1, 0x020012BE) /* Setup */
+     , (31173,   3, 0x20000014) /* SoundTable */
+     , (31173,   6, 0x0400195D) /* PaletteBase */
+     , (31173,   7, 0x100005A6) /* ClothingBase */
+     , (31173,   8, 0x06001578) /* Icon */
+     , (31173,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (31173,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31173,  2101,      2)  /* Aura of Cragstone's Will */

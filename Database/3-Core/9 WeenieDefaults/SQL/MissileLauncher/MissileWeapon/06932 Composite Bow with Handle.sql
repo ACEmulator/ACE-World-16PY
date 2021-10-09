@@ -18,7 +18,7 @@ VALUES (6932,   1,        256) /* ItemType - MissileWeapon */
      , (6932,  48,          2) /* WeaponSkill - Bow */
      , (6932,  49,         45) /* WeaponTime */
      , (6932,  50,          1) /* AmmoType - Arrow */
-     , (6932,  51,          2) /* CombatUse - Missle */
+     , (6932,  51,          2) /* CombatUse - Missile */
      , (6932,  52,          2) /* ParentLocation - LeftHand */
      , (6932,  53,          3) /* PlacementPosition - LeftHand */
      , (6932,  60,        192) /* WeaponRange */
@@ -50,14 +50,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6932,   1, 'Composite Bow with Handle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6932,   1,   33556600) /* Setup */
-     , (6932,   3,  536870932) /* SoundTable */
-     , (6932,   6,   67112869) /* PaletteBase */
-     , (6932,   7,  268436002) /* ClothingBase */
-     , (6932,   8,  100670670) /* Icon */
-     , (6932,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6932,   1, 0x02000878) /* Setup */
+     , (6932,   3, 0x20000014) /* SoundTable */
+     , (6932,   6, 0x04000FA5) /* PaletteBase */
+     , (6932,   7, 0x10000222) /* ClothingBase */
+     , (6932,   8, 0x06001CCE) /* Icon */
+     , (6932,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6932,  37,          2) /* ItemSkillLimit - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6932,   463,      2)  /* Missile Weapon Mastery Other III */
-     , (6932,  1613,      2)  /* Aura of Blood Drinker Self III */;
+VALUES (6932,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (6932,   463,      2)  /* Missile Weapon Mastery Other III */;

@@ -24,7 +24,7 @@ VALUES (27200,   1, 'Scroll of Acument of the Conclave') /* Name */
      , (27200,  15, 'A magic scroll.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27200,   1,   33554826) /* Setup */
-     , (27200,   8,  100676458) /* Icon */
-     , (27200,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27200,   1, 0x0200018A) /* Setup */
+     , (27200,   8, 0x0600336A) /* Icon */
+     , (27200,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27200,  28,       3164) /* Spell - Acumen of the Conclave */;

@@ -43,16 +43,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12465,   1, 'Hammer of Might') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12465,   1,   33554766) /* Setup */
-     , (12465,   3,  536870932) /* SoundTable */
-     , (12465,   6,   67111919) /* PaletteBase */
-     , (12465,   7,  268435986) /* ClothingBase */
-     , (12465,   8,  100667619) /* Icon */
-     , (12465,  22,  872415275) /* PhysicsEffectTable */
-     , (12465,  36,  234881044) /* MutateFilter */;
+VALUES (12465,   1, 0x0200014E) /* Setup */
+     , (12465,   3, 0x20000014) /* SoundTable */
+     , (12465,   6, 0x04000BEF) /* PaletteBase */
+     , (12465,   7, 0x10000212) /* ClothingBase */
+     , (12465,   8, 0x060010E3) /* Icon */
+     , (12465,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (12465,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12465,  1592,      2)  /* Aura of Heart Seeker Self VI */
-     , (12465,  1605,      2)  /* Aura of Defender Self VI */
+VALUES (12465,  1605,      2)  /* Aura of Defender Self VI */
+     , (12465,  1592,      2)  /* Aura of Heart Seeker Self VI */
      , (12465,  1616,      2)  /* Aura of Blood Drinker Self VI */
      , (12465,  1627,      2)  /* Aura of Swift Killer Self VI */;

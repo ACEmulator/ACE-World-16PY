@@ -43,14 +43,14 @@ VALUES (29908,   1, 'Tidal Siraluun Tewhate') /* Name */
      , (29908,  16, 'A beautifully detailed tewhate crafted from the claw of a Tidal Siraluun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29908,   1,   33559110) /* Setup */
-     , (29908,   3,  536870932) /* SoundTable */
-     , (29908,   8,  100677334) /* Icon */
-     , (29908,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29908,   1, 0x02001246) /* Setup */
+     , (29908,   3, 0x20000014) /* SoundTable */
+     , (29908,   8, 0x060036D6) /* Icon */
+     , (29908,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29908,  30,         88) /* PhysicsScript - Create */
      , (29908,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29908,   293,      2)  /* Light Weapon Mastery Other II */
-     , (29908,  1588,      2)  /* Aura of Heart Seeker Self II */
-     , (29908,  1612,      2)  /* Aura of Blood Drinker Self II */;
+VALUES (29908,  1588,      2)  /* Aura of Heart Seeker Self II */
+     , (29908,  1612,      2)  /* Aura of Blood Drinker Self II */
+     , (29908,   293,      2)  /* Light Weapon Mastery Other II */;

@@ -29,12 +29,12 @@ VALUES (9170,   1, 'Velveteen Olthoi') /* Name */
      , (9170,  16, 'Fantastic pincer cleaning action! Warning: Velveteen Olthoi may be fatal if swallowed.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9170,   1,   33555486) /* Setup */
-     , (9170,   2,  150995110) /* MotionTable */
-     , (9170,   4,  805306395) /* CombatTable */
-     , (9170,   6,   67113135) /* PaletteBase */
-     , (9170,   7,  268436130) /* ClothingBase */
-     , (9170,   8,  100667623) /* Icon */
-     , (9170,  22,  872415265) /* PhysicsEffectTable */
+VALUES (9170,   1, 0x0200041E) /* Setup */
+     , (9170,   2, 0x090000A6) /* MotionTable */
+     , (9170,   4, 0x3000001B) /* CombatTable */
+     , (9170,   6, 0x040010AF) /* PaletteBase */
+     , (9170,   7, 0x100002A2) /* ClothingBase */
+     , (9170,   8, 0x060010E7) /* Icon */
+     , (9170,  22, 0x34000021) /* PhysicsEffectTable */
      , (9170,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (9170,  36,  234881046) /* MutateFilter */;
+     , (9170,  36, 0x0E000016) /* MutateFilter */;

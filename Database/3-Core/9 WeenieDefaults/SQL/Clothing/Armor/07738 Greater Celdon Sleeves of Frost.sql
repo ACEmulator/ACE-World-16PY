@@ -40,9 +40,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7738,   1, 'Greater Celdon Sleeves of Frost') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7738,   1,   33554655) /* Setup */
-     , (7738,   3,  536870932) /* SoundTable */
-     , (7738,   6,   67108990) /* PaletteBase */
-     , (7738,   7,  268435847) /* ClothingBase */
-     , (7738,   8,  100670424) /* Icon */
-     , (7738,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7738,   1, 0x020000DF) /* Setup */
+     , (7738,   3, 0x20000014) /* SoundTable */
+     , (7738,   6, 0x0400007E) /* PaletteBase */
+     , (7738,   7, 0x10000187) /* ClothingBase */
+     , (7738,   8, 0x06001BD8) /* Icon */
+     , (7738,  22, 0x3400002B) /* PhysicsEffectTable */;

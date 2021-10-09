@@ -27,9 +27,9 @@ VALUES (30488,   1, 'Bag of Rye Seed') /* Name */
      , (30488,  33, 'HoltburgAfrinRye1204') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30488,   1,   33554817) /* Setup */
-     , (30488,   3,  536870932) /* SoundTable */
-     , (30488,   6,   67111919) /* PaletteBase */
-     , (30488,   7,  268435832) /* ClothingBase */
-     , (30488,   8,  100667436) /* Icon */
-     , (30488,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30488,   1, 0x02000181) /* Setup */
+     , (30488,   3, 0x20000014) /* SoundTable */
+     , (30488,   6, 0x04000BEF) /* PaletteBase */
+     , (30488,   7, 0x10000178) /* ClothingBase */
+     , (30488,   8, 0x0600102C) /* Icon */
+     , (30488,  22, 0x3400002B) /* PhysicsEffectTable */;

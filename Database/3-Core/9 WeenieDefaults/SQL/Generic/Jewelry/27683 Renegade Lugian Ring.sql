@@ -26,7 +26,7 @@ VALUES (27683,  22, True ) /* Inscribable */
      , (27683,  23, False) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27683,   5, -0.033333) /* ManaRate */
+VALUES (27683,   5,  -0.033) /* ManaRate */
      , (27683,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -34,12 +34,12 @@ VALUES (27683,   1, 'Renegade Lugian Ring') /* Name */
      , (27683,  16, 'A large gem has been fitted onto a stone ringlet and now serves as a cumbersome ring. The ring has also been enchanted.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27683,   1,   33554690) /* Setup */
-     , (27683,   3,  536870932) /* SoundTable */
-     , (27683,   6,   67111919) /* PaletteBase */
-     , (27683,   8,  100676517) /* Icon */
-     , (27683,  22,  872415275) /* PhysicsEffectTable */
-     , (27683,  36,  234881046) /* MutateFilter */;
+VALUES (27683,   1, 0x02000102) /* Setup */
+     , (27683,   3, 0x20000014) /* SoundTable */
+     , (27683,   6, 0x04000BEF) /* PaletteBase */
+     , (27683,   8, 0x060033A5) /* Icon */
+     , (27683,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27683,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27683,   513,      2)  /* Acid Protection Other V */

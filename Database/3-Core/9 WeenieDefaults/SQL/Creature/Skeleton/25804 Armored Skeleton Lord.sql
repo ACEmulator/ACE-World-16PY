@@ -63,14 +63,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25804,   1, 'Armored Skeleton Lord') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25804,   1,   33558396) /* Setup */
-     , (25804,   2,  150994981) /* MotionTable */
-     , (25804,   3,  536870942) /* SoundTable */
-     , (25804,   4,  805306368) /* CombatTable */
-     , (25804,   6,   67114697) /* PaletteBase */
-     , (25804,   7,  268436644) /* ClothingBase */
-     , (25804,   8,  100669124) /* Icon */
-     , (25804,  22,  872415269) /* PhysicsEffectTable */
+VALUES (25804,   1, 0x02000F7C) /* Setup */
+     , (25804,   2, 0x09000025) /* MotionTable */
+     , (25804,   3, 0x2000001E) /* SoundTable */
+     , (25804,   4, 0x30000000) /* CombatTable */
+     , (25804,   6, 0x040016C9) /* PaletteBase */
+     , (25804,   7, 0x100004A4) /* ClothingBase */
+     , (25804,   8, 0x060016C4) /* Icon */
+     , (25804,  22, 0x34000025) /* PhysicsEffectTable */
      , (25804,  32,        199) /* WieldedTreasureType - 
                                    Wield Yumi (23733) | Probability: 6%
                                    Wield 20x Deadly Armor Piercing Arrow (15431) | Probability: 100%
@@ -113,19 +113,19 @@ VALUES (25804,   1,   335, 0, 0, 475) /* MaxHealth */
      , (25804,   5,   150, 0, 0, 400) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (25804,  1, 0, 3, 0, 310, 0, 1667.46302119455) /* Axe                 Specialized */
-     , (25804,  2, 0, 3, 0, 165, 0, 1667.46302119455) /* Bow                 Specialized */
-     , (25804,  3, 0, 3, 0, 165, 0, 1667.46302119455) /* Crossbow            Specialized */
-     , (25804,  4, 0, 3, 0, 280, 0, 1667.46302119455) /* Dagger              Specialized */
-     , (25804,  5, 0, 3, 0, 310, 0, 1667.46302119455) /* Mace                Specialized */
-     , (25804,  6, 0, 3, 0, 300, 0, 1667.46302119455) /* MeleeDefense        Specialized */
-     , (25804,  7, 0, 3, 0, 415, 0, 1667.46302119455) /* MissileDefense      Specialized */
-     , (25804,  9, 0, 3, 0, 310, 0, 1667.46302119455) /* Spear               Specialized */
-     , (25804, 10, 0, 3, 0, 310, 0, 1667.46302119455) /* Staff               Specialized */
-     , (25804, 11, 0, 3, 0, 310, 0, 1667.46302119455) /* Sword               Specialized */
-     , (25804, 13, 0, 3, 0, 310, 0, 1667.46302119455) /* UnarmedCombat       Specialized */
-     , (25804, 15, 0, 3, 0, 270, 0, 1667.46302119455) /* MagicDefense        Specialized */
-     , (25804, 20, 0, 3, 0, 120, 0, 1667.46302119455) /* Deception           Specialized */;
+VALUES (25804,  1, 0, 3, 0, 310, 0, 1667.4630211945484) /* Axe                 Specialized */
+     , (25804,  2, 0, 3, 0, 165, 0, 1667.4630211945484) /* Bow                 Specialized */
+     , (25804,  3, 0, 3, 0, 165, 0, 1667.4630211945484) /* Crossbow            Specialized */
+     , (25804,  4, 0, 3, 0, 280, 0, 1667.4630211945484) /* Dagger              Specialized */
+     , (25804,  5, 0, 3, 0, 310, 0, 1667.4630211945484) /* Mace                Specialized */
+     , (25804,  6, 0, 3, 0, 300, 0, 1667.4630211945484) /* MeleeDefense        Specialized */
+     , (25804,  7, 0, 3, 0, 415, 0, 1667.4630211945484) /* MissileDefense      Specialized */
+     , (25804,  9, 0, 3, 0, 310, 0, 1667.4630211945484) /* Spear               Specialized */
+     , (25804, 10, 0, 3, 0, 310, 0, 1667.4630211945484) /* Staff               Specialized */
+     , (25804, 11, 0, 3, 0, 310, 0, 1667.4630211945484) /* Sword               Specialized */
+     , (25804, 13, 0, 3, 0, 310, 0, 1667.4630211945484) /* UnarmedCombat       Specialized */
+     , (25804, 15, 0, 3, 0, 270, 0, 1667.4630211945484) /* MagicDefense        Specialized */
+     , (25804, 20, 0, 3, 0, 120, 0, 1667.4630211945484) /* Deception           Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (25804,  0,  4,  0,    0,  400,  400,  400,  400,  400,  400,  400,  400,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -143,12 +143,12 @@ VALUES (25804,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (25804, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (25804,  5 /* HeartBeat */,    0.8, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (25804,  5 /* HeartBeat */,    0.8, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519060 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x41000014 /* Sleeping */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25804, 9,  3687,  0, 0, 0.1, False) /* Create Skeleton's Skull (3687) for ContainTreasure */

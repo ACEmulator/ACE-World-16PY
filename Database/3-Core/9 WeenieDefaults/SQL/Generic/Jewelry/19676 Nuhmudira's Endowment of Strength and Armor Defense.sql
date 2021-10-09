@@ -41,13 +41,13 @@ VALUES (19676,   1, 'Nuhmudira''s Endowment of Strength and Armor Defense') /* N
      , (19676,  16, 'A blue gorget, crafted from a strong metal, imbued with an elixir of might and elixir of preservation. As you hold the gorget in your hand you feel a soft vibration.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19676,   1,   33554687) /* Setup */
-     , (19676,   3,  536870932) /* SoundTable */
-     , (19676,   6,   67111919) /* PaletteBase */
-     , (19676,   7,  268436388) /* ClothingBase */
-     , (19676,   8,  100668632) /* Icon */
-     , (19676,  22,  872415275) /* PhysicsEffectTable */
-     , (19676,  36,  234881046) /* MutateFilter */;
+VALUES (19676,   1, 0x020000FF) /* Setup */
+     , (19676,   3, 0x20000014) /* SoundTable */
+     , (19676,   6, 0x04000BEF) /* PaletteBase */
+     , (19676,   7, 0x100003A4) /* ClothingBase */
+     , (19676,   8, 0x060014D8) /* Icon */
+     , (19676,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (19676,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19676,  1315,      2)  /* Armor Other IV */

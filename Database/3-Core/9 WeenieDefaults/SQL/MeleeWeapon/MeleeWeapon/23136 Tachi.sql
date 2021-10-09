@@ -31,7 +31,7 @@ VALUES (23136,  22, True ) /* Inscribable */
      , (23136,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23136,   5,       0) /* ManaRate */
+VALUES (23136,   5,      -0) /* ManaRate */
      , (23136,  21,     1.1) /* WeaponLength */
      , (23136,  22,     0.5) /* DamageVariance */
      , (23136,  29,       1) /* WeaponDefense */
@@ -41,13 +41,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23136,   1, 'Tachi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23136,   1,   33554742) /* Setup */
-     , (23136,   3,  536870932) /* SoundTable */
-     , (23136,   6,   67111919) /* PaletteBase */
-     , (23136,   7,  268435788) /* ClothingBase */
-     , (23136,   8,  100668915) /* Icon */
-     , (23136,  22,  872415275) /* PhysicsEffectTable */
-     , (23136,  36,  234881044) /* MutateFilter */;
+VALUES (23136,   1, 0x02000136) /* Setup */
+     , (23136,   3, 0x20000014) /* SoundTable */
+     , (23136,   6, 0x04000BEF) /* PaletteBase */
+     , (23136,   7, 0x1000014C) /* ClothingBase */
+     , (23136,   8, 0x060015F3) /* Icon */
+     , (23136,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (23136,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23136,  1616,      2)  /* Aura of Blood Drinker Self VI */

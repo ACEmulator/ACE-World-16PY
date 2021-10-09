@@ -21,8 +21,8 @@ VALUES (15855,   1, 'Gelidite Dais') /* Name */
      , (15855,  16, 'A raised dais forged during the Gelidite age. A feeling of near sentience is emitted from the stone atop the dais.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15855,   1,   33555061) /* Setup */
-     , (15855,   6,   67111092) /* PaletteBase */
-     , (15855,   7,  268436362) /* ClothingBase */
-     , (15855,   8,  100668129) /* Icon */
-     , (15855,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15855,   1, 0x02000275) /* Setup */
+     , (15855,   6, 0x040008B4) /* PaletteBase */
+     , (15855,   7, 0x1000038A) /* ClothingBase */
+     , (15855,   8, 0x060012E1) /* Icon */
+     , (15855,  22, 0x3400002B) /* PhysicsEffectTable */;

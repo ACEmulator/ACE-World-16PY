@@ -34,8 +34,8 @@ VALUES (5375,   1, 'The Heroes') /* Name */
      , (5375,  32, 'no man or woman on Dereth has been deemed worthy of these pages.') /* ScoreNoEntry */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5375,   1,   33555088) /* Setup */
-     , (5375,   8,  100668115) /* Icon */;
+VALUES (5375,   1, 0x02000290) /* Setup */
+     , (5375,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (5375, 2, 2000);

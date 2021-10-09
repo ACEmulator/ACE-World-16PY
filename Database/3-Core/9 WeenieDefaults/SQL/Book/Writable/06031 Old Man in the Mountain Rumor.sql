@@ -24,10 +24,10 @@ VALUES (6031,   1, 'Old Man in the Mountain Rumor') /* Name */
      , (6031,  16, 'A rumor pertaining to the mysterious Old Man of the Mountain.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6031,   1,   33554773) /* Setup */
-     , (6031,   3,  536870932) /* SoundTable */
-     , (6031,   8,  100668176) /* Icon */
-     , (6031,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6031,   1, 0x02000155) /* Setup */
+     , (6031,   3, 0x20000014) /* SoundTable */
+     , (6031,   8, 0x06001310) /* Icon */
+     , (6031,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (6031, 1, 1000);

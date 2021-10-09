@@ -25,22 +25,23 @@ VALUES (29946,  22, True ) /* Inscribable */
      , (29946,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29946,   5,       0) /* ManaRate */;
+VALUES (29946,   5,      -0) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29946,   1, 'Bracelet of Creature Enchantments') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29946,   1,   33554683) /* Setup */
-     , (29946,   3,  536870932) /* SoundTable */
-     , (29946,   6,   67111919) /* PaletteBase */
-     , (29946,   7,  268436286) /* ClothingBase */
-     , (29946,   8,  100672215) /* Icon */
-     , (29946,  22,  872415275) /* PhysicsEffectTable */
-     , (29946,  36,  234881046) /* MutateFilter */;
+VALUES (29946,   1, 0x020000FB) /* Setup */
+     , (29946,   3, 0x20000014) /* SoundTable */
+     , (29946,   6, 0x04000BEF) /* PaletteBase */
+     , (29946,   7, 0x1000033E) /* ClothingBase */
+     , (29946,   8, 0x060022D7) /* Icon */
+     , (29946,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29946,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29946,  2653,      2)  /* Feeble Willpower */
+VALUES (29946,  2677,      2)  /* Feeble Missile Weapon Aptitude */
+     , (29946,  2653,      2)  /* Feeble Willpower */
      , (29946,  2654,      2)  /* Feeble Endurance */
      , (29946,  2655,      2)  /* Feeble Focus */
      , (29946,  2656,      2)  /* Feeble Quickness */
@@ -48,7 +49,6 @@ VALUES (29946,  2653,      2)  /* Feeble Willpower */
      , (29946,  2658,      2)  /* Feeble Coordination */
      , (29946,  2675,      2)  /* Feeble Light Weapon Aptitude */
      , (29946,  2676,      2)  /* Feeble Missile Weapon Aptitude */
-     , (29946,  2677,      2)  /* Feeble Missile Weapon Aptitude */
      , (29946,  2678,      2)  /* Feeble Finesse Weapon Aptitude */
      , (29946,  2679,      2)  /* Feeble Light Weapon Aptitude */
      , (29946,  2680,      2)  /* Feeble Mana Conversion Prowess */

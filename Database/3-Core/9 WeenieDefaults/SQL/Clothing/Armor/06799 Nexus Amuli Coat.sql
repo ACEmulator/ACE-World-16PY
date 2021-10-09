@@ -44,14 +44,14 @@ VALUES (6799,   1, 'Nexus Amuli Coat') /* Name */
      , (6799,  16, 'A magnificent Amuli coat, infused with the essence of the Nexus Crystal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6799,   1,   33554854) /* Setup */
-     , (6799,   3,  536870932) /* SoundTable */
-     , (6799,   6,   67108990) /* PaletteBase */
-     , (6799,   7,  268435873) /* ClothingBase */
-     , (6799,   8,  100670435) /* Icon */
-     , (6799,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6799,   1, 0x020001A6) /* Setup */
+     , (6799,   3, 0x20000014) /* SoundTable */
+     , (6799,   6, 0x0400007E) /* PaletteBase */
+     , (6799,   7, 0x100001A1) /* ClothingBase */
+     , (6799,   8, 0x06001BE3) /* Icon */
+     , (6799,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6799,   209,      2)  /* Mana Renewal Other IV */
+VALUES (6799,   909,      2)  /* Leadership Mastery Other VI */
      , (6799,   272,      2)  /* Magic Resistance Other V */
-     , (6799,   909,      2)  /* Leadership Mastery Other VI */;
+     , (6799,   209,      2)  /* Mana Renewal Other IV */;

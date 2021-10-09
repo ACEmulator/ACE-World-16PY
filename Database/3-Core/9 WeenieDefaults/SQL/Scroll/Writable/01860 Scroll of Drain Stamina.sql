@@ -25,7 +25,7 @@ VALUES (1860,   1, 'Scroll of Drain Stamina') /* Name */
      , (1860,  16, 'When learned, this spell drains one-quarter of the target''s Stamina and gives 20% of that to the caster.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1860,   1,   33554826) /* Setup */
-     , (1860,   8,  100676933) /* Icon */
-     , (1860,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1860,   1, 0x0200018A) /* Setup */
+     , (1860,   8, 0x06003545) /* Icon */
+     , (1860,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1860,  28,       1249) /* Spell - Drain Stamina Other I */;

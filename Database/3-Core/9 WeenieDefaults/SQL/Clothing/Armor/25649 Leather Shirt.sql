@@ -37,11 +37,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25649,   1, 'Leather Shirt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25649,   1,   33554883) /* Setup */
-     , (25649,   3,  536870932) /* SoundTable */
-     , (25649,   6,   67108990) /* PaletteBase */
-     , (25649,   7,  268436700) /* ClothingBase */
-     , (25649,   8,  100675384) /* Icon */
-     , (25649,  22,  872415275) /* PhysicsEffectTable */
-     , (25649,  36,  234881042) /* MutateFilter */
-     , (25649,  46,  939524146) /* TsysMutationFilter */;
+VALUES (25649,   1, 0x020001C3) /* Setup */
+     , (25649,   3, 0x20000014) /* SoundTable */
+     , (25649,   6, 0x0400007E) /* PaletteBase */
+     , (25649,   7, 0x100004DC) /* ClothingBase */
+     , (25649,   8, 0x06002F38) /* Icon */
+     , (25649,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (25649,  36, 0x0E000012) /* MutateFilter */
+     , (25649,  46, 0x38000032) /* TsysMutationFilter */;

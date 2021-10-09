@@ -22,5 +22,5 @@ VALUES (932,   1, 'Shoushi: 3 miles') /* Name */
      , (932,  16, 'Town of Shoushi: 3 miles.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (932,   1,   33555986) /* Setup */
-     , (932,   8,  100668115) /* Icon */;
+VALUES (932,   1, 0x02000612) /* Setup */
+     , (932,   8, 0x060012D3) /* Icon */;

@@ -39,9 +39,9 @@ VALUES (22022,   1, 'Banderling Mask') /* Name */
      , (22022,  16, 'A finely sewed and maintained Banderling head, patched with utmost precision, and conveniently fitted for use.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22022,   1,   33558026) /* Setup */
-     , (22022,   3,  536870932) /* SoundTable */
-     , (22022,   6,   67108990) /* PaletteBase */
-     , (22022,   7,  268436478) /* ClothingBase */
-     , (22022,   8,  100673678) /* Icon */
-     , (22022,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22022,   1, 0x02000E0A) /* Setup */
+     , (22022,   3, 0x20000014) /* SoundTable */
+     , (22022,   6, 0x0400007E) /* PaletteBase */
+     , (22022,   7, 0x100003FE) /* ClothingBase */
+     , (22022,   8, 0x0600288E) /* Icon */
+     , (22022,  22, 0x3400002B) /* PhysicsEffectTable */;

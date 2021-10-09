@@ -27,7 +27,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28578,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28578,   5,       0) /* ManaRate */
+VALUES (28578,   5,      -0) /* ManaRate */
      , (28578,  12,    0.66) /* Shade */
      , (28578,  13,       1) /* ArmorModVsSlash */
      , (28578,  14,       1) /* ArmorModVsPierce */
@@ -44,20 +44,20 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28578,   1, 'Uber Balance Testing Gauntlets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28578,   1,   33554648) /* Setup */
-     , (28578,   3,  536870932) /* SoundTable */
-     , (28578,   6,   67108990) /* PaletteBase */
-     , (28578,   7,  268436636) /* ClothingBase */
-     , (28578,   8,  100674345) /* Icon */
-     , (28578,  22,  872415275) /* PhysicsEffectTable */
-     , (28578,  36,  234881046) /* MutateFilter */;
+VALUES (28578,   1, 0x020000D8) /* Setup */
+     , (28578,   3, 0x20000014) /* SoundTable */
+     , (28578,   6, 0x0400007E) /* PaletteBase */
+     , (28578,   7, 0x1000049C) /* ClothingBase */
+     , (28578,   8, 0x06002B29) /* Icon */
+     , (28578,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (28578,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28578,  2092,      2)  /* Olthoi's Bane */
+VALUES (28578,  2113,      2)  /* Archer's Bane */
+     , (28578,  2108,      2)  /* Brogard's Defiance */
+     , (28578,  2092,      2)  /* Olthoi's Bane */
+     , (28578,  2110,      2)  /* Astyrrian's Bane */
+     , (28578,  2102,      2)  /* Inferno's Bane */
      , (28578,  2094,      2)  /* Swordsman's Bane */
      , (28578,  2098,      2)  /* Tusker's Bane */
-     , (28578,  2102,      2)  /* Inferno's Bane */
-     , (28578,  2104,      2)  /* Gelidite's Bane */
-     , (28578,  2108,      2)  /* Brogard's Defiance */
-     , (28578,  2110,      2)  /* Astyrrian's Bane */
-     , (28578,  2113,      2)  /* Archer's Bane */;
+     , (28578,  2104,      2)  /* Gelidite's Bane */;

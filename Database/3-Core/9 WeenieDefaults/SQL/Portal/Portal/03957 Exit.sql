@@ -25,12 +25,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3957,   1, 'Exit') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3957,   1,   33554867) /* Setup */
-     , (3957,   2,  150994947) /* MotionTable */
-     , (3957,   6,   67109370) /* PaletteBase */
-     , (3957,   7,  268435652) /* ClothingBase */
-     , (3957,   8,  100667499) /* Icon */;
+VALUES (3957,   1, 0x020001B3) /* Setup */
+     , (3957,   2, 0x09000003) /* MotionTable */
+     , (3957,   6, 0x040001FA) /* PaletteBase */
+     , (3957,   7, 0x100000C4) /* ClothingBase */
+     , (3957,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3957, 2, 2190344200, 3.6, 171, 124, -0.9396926, 0, 0, -0.3420202) /* Destination */
-/* @teleloc 0x828E0008 [3.600000 171.000000 124.000000] -0.939693 0.000000 0.000000 -0.342020 */;
+VALUES (3957, 2, 0x828E0008, 3.6, 171, 124, -0.939693, 0, -0, -0.34202) /* Destination */
+/* @teleloc 0x828E0008 [3.600000 171.000000 124.000000] -0.939693 0.000000 -0.000000 -0.342020 */;

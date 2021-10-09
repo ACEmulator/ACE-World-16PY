@@ -41,15 +41,15 @@ VALUES (19631,   1, 'Nuhmudira''s Endowment of Quickness and Bludgeon Defense') 
      , (19631,  16, 'A blue gorget, crafted from a strong metal, imbued with an elixir of speed and elixir of misty form. As you hold the gorget in your hand you feel a soft vibration.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19631,   1,   33554687) /* Setup */
-     , (19631,   3,  536870932) /* SoundTable */
-     , (19631,   6,   67111919) /* PaletteBase */
-     , (19631,   7,  268436388) /* ClothingBase */
-     , (19631,   8,  100668632) /* Icon */
-     , (19631,  22,  872415275) /* PhysicsEffectTable */
-     , (19631,  36,  234881046) /* MutateFilter */;
+VALUES (19631,   1, 0x020000FF) /* Setup */
+     , (19631,   3, 0x20000014) /* SoundTable */
+     , (19631,   6, 0x04000BEF) /* PaletteBase */
+     , (19631,   7, 0x100003A4) /* ClothingBase */
+     , (19631,   8, 0x060014D8) /* Icon */
+     , (19631,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (19631,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19631,  1027,      2)  /* Bludgeoning Protection Other IV */
-     , (19631,  1406,      2)  /* Quickness Other IV */
-     , (19631,  2670,      2)  /* Nuhmudiras Endowment */;
+     , (19631,  2670,      2)  /* Nuhmudiras Endowment */
+     , (19631,  1406,      2)  /* Quickness Other IV */;

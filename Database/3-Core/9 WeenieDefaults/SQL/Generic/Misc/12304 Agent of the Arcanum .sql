@@ -22,5 +22,5 @@ VALUES (12304,   1, 'Agent of the Arcanum ') /* Name */
      , (12304,  16, 'Agent of the Arcanum') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12304,   1,   33557390) /* Setup */
-     , (12304,   8,  100672342) /* Icon */;
+VALUES (12304,   1, 0x02000B8E) /* Setup */
+     , (12304,   8, 0x06002356) /* Icon */;

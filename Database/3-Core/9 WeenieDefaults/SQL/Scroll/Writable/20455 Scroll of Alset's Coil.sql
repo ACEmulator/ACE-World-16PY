@@ -24,7 +24,7 @@ VALUES (20455,   1, 'Scroll of Alset''s Coil') /* Name */
      , (20455,  15, 'When learned, this spell shoots a bolt of lighting at the target. The bolt does 110-180 points of electrical damage to the first thing it hits.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20455,   1,   33554826) /* Setup */
-     , (20455,   8,  100677013) /* Icon */
-     , (20455,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20455,   1, 0x0200018A) /* Setup */
+     , (20455,   8, 0x06003595) /* Icon */
+     , (20455,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20455,  28,       2140) /* Spell - Alset's Coil */;

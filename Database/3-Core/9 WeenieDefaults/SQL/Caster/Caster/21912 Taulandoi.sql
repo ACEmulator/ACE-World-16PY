@@ -41,16 +41,16 @@ VALUES (21912,   1, 'Taulandoi') /* Name */
      , (21912,  15, 'A stave carved from obsidian, a large sapphire rests at the tip.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21912,   1,   33557963) /* Setup */
-     , (21912,   3,  536870932) /* SoundTable */
-     , (21912,   8,  100673490) /* Icon */
-     , (21912,  22,  872415275) /* PhysicsEffectTable */
-     , (21912,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (21912,   1, 0x02000DCB) /* Setup */
+     , (21912,   3, 0x20000014) /* SoundTable */
+     , (21912,   8, 0x060027D2) /* Icon */
+     , (21912,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (21912,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (21912,  28,       2783) /* Spell - Lesser Elemental Fury */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21912,   640,      2)  /* War Magic Mastery Other VI */
-     , (21912,   664,      2)  /* Mana Conversion Mastery Other VI */
-     , (21912,  2581,      2)  /* Minor Focus */
+VALUES (21912,   664,      2)  /* Mana Conversion Mastery Other VI */
      , (21912,  2584,      2)  /* Minor Willpower */
+     , (21912,   640,      2)  /* War Magic Mastery Other VI */
+     , (21912,  2581,      2)  /* Minor Focus */
      , (21912,  2812,      2)  /* Moderate War Magic Aptitude */;

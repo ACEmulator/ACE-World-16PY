@@ -19,7 +19,7 @@ VALUES (20096,   1,        256) /* ItemType - MissileWeapon */
      , (20096,  48,          2) /* WeaponSkill - Bow */
      , (20096,  49,         40) /* WeaponTime */
      , (20096,  50,          1) /* AmmoType - Arrow */
-     , (20096,  51,          2) /* CombatUse - Missle */
+     , (20096,  51,          2) /* CombatUse - Missile */
      , (20096,  52,          2) /* ParentLocation - LeftHand */
      , (20096,  53,          3) /* PlacementPosition - LeftHand */
      , (20096,  60,        175) /* WeaponRange */
@@ -50,16 +50,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20096,   1, 'Quality Dissolving Isparian Bow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20096,   1,   33557754) /* Setup */
-     , (20096,   3,  536870932) /* SoundTable */
-     , (20096,   6,   67111919) /* PaletteBase */
-     , (20096,   7,  268436394) /* ClothingBase */
-     , (20096,   8,  100673015) /* Icon */
-     , (20096,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20096,   1, 0x02000CFA) /* Setup */
+     , (20096,   3, 0x20000014) /* SoundTable */
+     , (20096,   6, 0x04000BEF) /* PaletteBase */
+     , (20096,   7, 0x100003AA) /* ClothingBase */
+     , (20096,   8, 0x060025F7) /* Icon */
+     , (20096,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20096,  37,          2) /* ItemSkillLimit - Bow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20096,   518,      2)  /* Acid Protection Self IV */
-     , (20096,  1351,      2)  /* Endurance Self III */
+VALUES (20096,  1351,      2)  /* Endurance Self III */
+     , (20096,   518,      2)  /* Acid Protection Self IV */
      , (20096,  1602,      2)  /* Aura of Defender Self III */
      , (20096,  1613,      2)  /* Aura of Blood Drinker Self III */;

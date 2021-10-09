@@ -24,7 +24,7 @@ VALUES (20408,   1, 'Scroll of Tusker''s Bane') /* Name */
      , (20408,  15, 'When learned, this spell increases a shield or piece of armor''s resistance to bludgeoning damage by 170%.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20408,   1,   33554826) /* Setup */
-     , (20408,   8,  100676650) /* Icon */
-     , (20408,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20408,   1, 0x0200018A) /* Setup */
+     , (20408,   8, 0x0600342A) /* Icon */
+     , (20408,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20408,  28,       2098) /* Spell - Tusker's Bane */;

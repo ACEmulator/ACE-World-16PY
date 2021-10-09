@@ -34,10 +34,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24267,   1, 'Olthoi Fighter Shorts (Male)') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24267,   1,   33554960) /* Setup */
-     , (24267,   3,  536870932) /* SoundTable */
-     , (24267,   6,   67108990) /* PaletteBase */
-     , (24267,   7,  268436605) /* ClothingBase */
-     , (24267,   8,  100667366) /* Icon */
-     , (24267,  22,  872415275) /* PhysicsEffectTable */
-     , (24267,  36,  234881046) /* MutateFilter */;
+VALUES (24267,   1, 0x02000210) /* Setup */
+     , (24267,   3, 0x20000014) /* SoundTable */
+     , (24267,   6, 0x0400007E) /* PaletteBase */
+     , (24267,   7, 0x1000047D) /* ClothingBase */
+     , (24267,   8, 0x06000FE6) /* Icon */
+     , (24267,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24267,  36, 0x0E000016) /* MutateFilter */;

@@ -25,7 +25,7 @@ VALUES (3163,   1, 'Scroll of Axe Mastery Other II') /* Name */
      , (3163,  16, 'When learned, this spell increases the target''s Axe skill by 25%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3163,   1,   33554826) /* Setup */
-     , (3163,   8,  100676449) /* Icon */
-     , (3163,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3163,   1, 0x0200018A) /* Setup */
+     , (3163,   8, 0x06003361) /* Icon */
+     , (3163,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3163,  28,        293) /* Spell - Light Weapon Mastery Other II */;

@@ -39,15 +39,15 @@ VALUES (8374,   1, 'Ancient Tomb') /* Name */
      , (8374,  17, 'A cold mass of air rises from the desecrated tomb!') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8374,   1,   33554638) /* Setup */
-     , (8374,   2,  150994980) /* MotionTable */
-     , (8374,   3,  536870949) /* SoundTable */
-     , (8374,   8,  100668103) /* Icon */
-     , (8374,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8374,   1, 0x020000CE) /* Setup */
+     , (8374,   2, 0x09000024) /* MotionTable */
+     , (8374,   3, 0x20000025) /* SoundTable */
+     , (8374,   8, 0x060012C7) /* Icon */
+     , (8374,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8374,  16,          0) /* ActivationTarget */;
+VALUES (8374,  16, 0x00000000) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8374, -1, 1987, 1000, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 1.5, -4.371139E-08, 0, 0, -1) /* Generate Ghost Wisp (1987) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+VALUES (8374, -1, 1987, 1000, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 1.5, -0, 0, -0, -1) /* Generate Ghost Wisp (1987) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (8374, -1, 462, 1000, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 3 from Death Treasure Table id: 462 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;

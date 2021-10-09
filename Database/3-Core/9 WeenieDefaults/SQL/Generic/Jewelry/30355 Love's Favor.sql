@@ -24,9 +24,9 @@ VALUES (30355,   1, 'Love''s Favor') /* Name */
      , (30355,  16, 'Describe me here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30355,   1,   33554683) /* Setup */
-     , (30355,   3,  536870932) /* SoundTable */
-     , (30355,   6,   67111919) /* PaletteBase */
-     , (30355,   7,  268435738) /* ClothingBase */
-     , (30355,   8,  100668622) /* Icon */
-     , (30355,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30355,   1, 0x020000FB) /* Setup */
+     , (30355,   3, 0x20000014) /* SoundTable */
+     , (30355,   6, 0x04000BEF) /* PaletteBase */
+     , (30355,   7, 0x1000011A) /* ClothingBase */
+     , (30355,   8, 0x060014CE) /* Icon */
+     , (30355,  22, 0x3400002B) /* PhysicsEffectTable */;

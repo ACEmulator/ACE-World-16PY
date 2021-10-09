@@ -40,13 +40,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22781,   1, 'Jambiya') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22781,   1,   33554887) /* Setup */
-     , (22781,   3,  536870932) /* SoundTable */
-     , (22781,   6,   67111919) /* PaletteBase */
-     , (22781,   7,  268435784) /* ClothingBase */
-     , (22781,   8,  100668885) /* Icon */
-     , (22781,  22,  872415275) /* PhysicsEffectTable */
-     , (22781,  36,  234881044) /* MutateFilter */;
+VALUES (22781,   1, 0x020001C7) /* Setup */
+     , (22781,   3, 0x20000014) /* SoundTable */
+     , (22781,   6, 0x04000BEF) /* PaletteBase */
+     , (22781,   7, 0x10000148) /* ClothingBase */
+     , (22781,   8, 0x060015D5) /* Icon */
+     , (22781,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (22781,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22781,  1614,      2)  /* Aura of Blood Drinker Self IV */

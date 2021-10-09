@@ -26,7 +26,7 @@ VALUES (8017,   1, 'Fenmalain Gate') /* Name */
      , (8017,  14, 'Use the Fenmalain Key on this gate.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8017,   1,   33556740) /* Setup */
-     , (8017,   3,  536870932) /* SoundTable */
-     , (8017,   8,  100670964) /* Icon */
-     , (8017,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8017,   1, 0x02000904) /* Setup */
+     , (8017,   3, 0x20000014) /* SoundTable */
+     , (8017,   8, 0x06001DF4) /* Icon */
+     , (8017,  22, 0x3400002B) /* PhysicsEffectTable */;

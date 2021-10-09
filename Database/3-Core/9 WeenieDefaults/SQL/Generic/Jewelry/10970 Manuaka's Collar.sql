@@ -33,14 +33,14 @@ VALUES (10970,   1, 'Manuaka''s Collar') /* Name */
      , (10970,  16, 'A spiked collar, smelling faintly of Reedshark.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10970,   1,   33554810) /* Setup */
-     , (10970,   3,  536870932) /* SoundTable */
-     , (10970,   6,   67111919) /* PaletteBase */
-     , (10970,   8,  100671855) /* Icon */
-     , (10970,  22,  872415275) /* PhysicsEffectTable */
-     , (10970,  36,  234881046) /* MutateFilter */
+VALUES (10970,   1, 0x0200017A) /* Setup */
+     , (10970,   3, 0x20000014) /* SoundTable */
+     , (10970,   6, 0x04000BEF) /* PaletteBase */
+     , (10970,   8, 0x0600216F) /* Icon */
+     , (10970,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (10970,  36, 0x0E000016) /* MutateFilter */
      , (10970,  37,         36) /* ItemSkillLimit - Loyalty */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10970,   957,      2)  /* Fealty Other VI */
-     , (10970,  1408,      2)  /* Quickness Other VI */;
+VALUES (10970,  1408,      2)  /* Quickness Other VI */
+     , (10970,   957,      2)  /* Fealty Other VI */;

@@ -24,7 +24,7 @@ VALUES (22430,   1, 'Tusker Redeemer Tusk') /* Name */
      , (22430,  33, 'TuskRedeemerPickup') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22430,   1,   33557838) /* Setup */
-     , (22430,   3,  536870932) /* SoundTable */
-     , (22430,   8,  100673056) /* Icon */
-     , (22430,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22430,   1, 0x02000D4E) /* Setup */
+     , (22430,   3, 0x20000014) /* SoundTable */
+     , (22430,   8, 0x06002620) /* Icon */
+     , (22430,  22, 0x3400002B) /* PhysicsEffectTable */;

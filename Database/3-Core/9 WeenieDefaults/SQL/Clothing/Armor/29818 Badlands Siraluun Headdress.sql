@@ -47,20 +47,20 @@ VALUES (29818,   1, 'Badlands Siraluun Headdress') /* Name */
      , (29818,  16, 'A headdress plaited from the plumes of a Badlands Siraluun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29818,   1,   33557288) /* Setup */
-     , (29818,   3,  536870932) /* SoundTable */
-     , (29818,   6,   67108990) /* PaletteBase */
-     , (29818,   7,  268436237) /* ClothingBase */
-     , (29818,   8,  100677287) /* Icon */
-     , (29818,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29818,   1, 0x02000B28) /* Setup */
+     , (29818,   3, 0x20000014) /* SoundTable */
+     , (29818,   6, 0x0400007E) /* PaletteBase */
+     , (29818,   7, 0x1000030D) /* ClothingBase */
+     , (29818,   8, 0x060036A7) /* Icon */
+     , (29818,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29818,   713,      2)  /* Armor Tinkering Expertise Other VI */
-     , (29818,   737,      2)  /* Item Tinkering Expertise Other VI */
-     , (29818,   761,      2)  /* Magic Item Tinkering Expertise Other VI */
-     , (29818,   785,      2)  /* Weapon Tinkering Expertise Other VI */
-     , (29818,  2538,      2)  /* Minor Armor Tinkering Expertise */
+VALUES (29818,   761,      2)  /* Magic Item Tinkering Expertise Other VI */
      , (29818,  2552,      2)  /* Minor Item Tinkering Expertise */
-     , (29818,  2558,      2)  /* Minor Magic Item Tinkering Expertise */
+     , (29818,   737,      2)  /* Item Tinkering Expertise Other VI */
+     , (29818,   713,      2)  /* Armor Tinkering Expertise Other VI */
+     , (29818,   785,      2)  /* Weapon Tinkering Expertise Other VI */
      , (29818,  2570,      2)  /* Minor Weapon Tinkering Expertise */
-     , (29818,  3511,      2)  /* Arcanum Enlightenment VI */;
+     , (29818,  2538,      2)  /* Minor Armor Tinkering Expertise */
+     , (29818,  3511,      2)  /* Arcanum Enlightenment VI */
+     , (29818,  2558,      2)  /* Minor Magic Item Tinkering Expertise */;

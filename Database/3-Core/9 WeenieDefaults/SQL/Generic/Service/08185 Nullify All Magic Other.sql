@@ -20,7 +20,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8185,   1, 'Nullify All Magic Other') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8185,   1,   33554667) /* Setup */
-     , (8185,   8,  100670799) /* Icon */
-     , (8185,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8185,   1, 0x020000EB) /* Setup */
+     , (8185,   8, 0x06001D4F) /* Icon */
+     , (8185,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8185,  28,       1877) /* Spell - Nullify All Magic Other */;

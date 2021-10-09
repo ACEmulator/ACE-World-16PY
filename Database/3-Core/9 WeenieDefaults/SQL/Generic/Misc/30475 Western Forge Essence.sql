@@ -25,7 +25,7 @@ VALUES (30475,   1, 'Western Forge Essence') /* Name */
      , (30475,  33, 'ForgeEssenceWestAcquired1204') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30475,   1,   33554769) /* Setup */
-     , (30475,   3,  536870932) /* SoundTable */
-     , (30475,   8,  100677348) /* Icon */
-     , (30475,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30475,   1, 0x02000151) /* Setup */
+     , (30475,   3, 0x20000014) /* SoundTable */
+     , (30475,   8, 0x060036E4) /* Icon */
+     , (30475,  22, 0x3400002B) /* PhysicsEffectTable */;

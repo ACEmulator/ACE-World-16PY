@@ -66,14 +66,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10807,   1, 'Augmented Tumerok') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10807,   1,   33554496) /* Setup */
-     , (10807,   2,  150994954) /* MotionTable */
-     , (10807,   3,  536870931) /* SoundTable */
-     , (10807,   4,  805306380) /* CombatTable */
-     , (10807,   6,   67109314) /* PaletteBase */
-     , (10807,   7,  268435647) /* ClothingBase */
-     , (10807,   8,  100667452) /* Icon */
-     , (10807,  22,  872415270) /* PhysicsEffectTable */
+VALUES (10807,   1, 0x02000040) /* Setup */
+     , (10807,   2, 0x0900000A) /* MotionTable */
+     , (10807,   3, 0x20000013) /* SoundTable */
+     , (10807,   4, 0x3000000C) /* CombatTable */
+     , (10807,   6, 0x040001C2) /* PaletteBase */
+     , (10807,   7, 0x100000BF) /* ClothingBase */
+     , (10807,   8, 0x0600103C) /* Icon */
+     , (10807,  22, 0x34000026) /* PhysicsEffectTable */
      , (10807,  32,        203) /* WieldedTreasureType - 
                                    Wield Yumi (23734) | Probability: 20%
                                    Wield 20x Deadly Arrow (15429) | Probability: 100%
@@ -135,42 +135,42 @@ VALUES (10807,  0,  4,  0,    0,  270,  270,  270,  270,  270,  270,  270,  270,
      , (10807,  8,  4, 35, 0.75,  270,  270,  270,  270,  270,  270,  270,  270,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10807,    62,  2.015)  /* Acid Stream V */
-     , (10807,    63,  2.003)  /* Acid Stream VI */
+VALUES (10807,    68,  2.015)  /* Shock Wave V */
+     , (10807,   259,  2.011)  /* Impregnability Self IV */
+     , (10807,    83,  2.003)  /* Flame Bolt IV */
+     , (10807,  1159,  2.009)  /* Heal Self IV */
      , (10807,    67,  2.003)  /* Shock Wave IV */
-     , (10807,    68,  2.015)  /* Shock Wave V */
+     , (10807,   265,  2.012)  /* Defenselessness Other IV */
+     , (10807,  1222,  2.012)  /* Mana Drain Other IV */
+     , (10807,   136,  2.003)  /* Frost Volley IV */
      , (10807,    72,  2.003)  /* Frost Bolt IV */
      , (10807,    73,  2.015)  /* Frost Bolt V */
-     , (10807,    78,  2.003)  /* Lightning Bolt IV */
-     , (10807,    79,  2.015)  /* Lightning Bolt V */
-     , (10807,    83,  2.003)  /* Flame Bolt IV */
-     , (10807,    84,  2.015)  /* Flame Bolt V */
-     , (10807,    89,  2.003)  /* Force Bolt IV */
-     , (10807,    90,  2.015)  /* Force Bolt V */
-     , (10807,    95,  2.003)  /* Whirling Blade IV */
-     , (10807,    96,  2.015)  /* Whirling Blade V */
-     , (10807,   104,  2.003)  /* Shock Blast IV */
-     , (10807,   105,  2.015)  /* Shock Blast V */
-     , (10807,   136,  2.003)  /* Frost Volley IV */
      , (10807,   137,  2.015)  /* Frost Volley V */
      , (10807,   140,  2.003)  /* Lightning Volley IV */
      , (10807,   141,  2.015)  /* Lightning Volley V */
+     , (10807,    78,  2.003)  /* Lightning Bolt IV */
+     , (10807,    79,  2.015)  /* Lightning Bolt V */
      , (10807,   144,  2.003)  /* Flame Volley IV */
      , (10807,   145,  2.015)  /* Flame Volley V */
+     , (10807,    84,  2.015)  /* Flame Bolt V */
+     , (10807,   277,  2.011)  /* Magic Resistance Self IV */
+     , (10807,  1174,  2.012)  /* Harm Other IV */
      , (10807,   152,  2.003)  /* Blade Volley IV */
      , (10807,   153,  2.015)  /* Blade Volley V */
-     , (10807,   232,  2.012)  /* Vulnerability Other IV */
-     , (10807,   247,  2.011)  /* Invulnerability Self IV */
-     , (10807,   259,  2.011)  /* Impregnability Self IV */
-     , (10807,   265,  2.012)  /* Defenselessness Other IV */
-     , (10807,   277,  2.011)  /* Magic Resistance Self IV */
+     , (10807,    89,  2.003)  /* Force Bolt IV */
+     , (10807,    90,  2.015)  /* Force Bolt V */
      , (10807,   283,  2.012)  /* Magic Yield Other IV */
-     , (10807,  1159,  2.009)  /* Heal Self IV */
-     , (10807,  1174,  2.012)  /* Harm Other IV */
+     , (10807,    95,  2.003)  /* Whirling Blade IV */
+     , (10807,    96,  2.015)  /* Whirling Blade V */
+     , (10807,   104,  2.003)  /* Shock Blast IV */
+     , (10807,   232,  2.012)  /* Vulnerability Other IV */
+     , (10807,   105,  2.015)  /* Shock Blast V */
      , (10807,  1198,  2.012)  /* Enfeeble Other IV */
-     , (10807,  1222,  2.012)  /* Mana Drain Other IV */
      , (10807,  1330,  2.011)  /* Strength Self IV */
-     , (10807,  1400,  2.011)  /* Quickness Self IV */;
+     , (10807,   247,  2.011)  /* Invulnerability Self IV */
+     , (10807,  1400,  2.011)  /* Quickness Self IV */
+     , (10807,    62,  2.015)  /* Acid Stream V */
+     , (10807,    63,  2.003)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (10807,  94) /* ATTACK_NOTIFICATION_EVENT */

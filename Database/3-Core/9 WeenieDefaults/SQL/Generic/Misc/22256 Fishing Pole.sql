@@ -24,12 +24,12 @@ VALUES (22256,   1, 'Fishing Pole') /* Name */
      , (22256,  15, 'A pole used to catch fish from fishing holes.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22256,   1,   33558280) /* Setup */
-     , (22256,   3,  536870932) /* SoundTable */
-     , (22256,   6,   67111919) /* PaletteBase */
-     , (22256,   7,  268435795) /* ClothingBase */
-     , (22256,   8,  100674232) /* Icon */
-     , (22256,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22256,   1, 0x02000F08) /* Setup */
+     , (22256,   3, 0x20000014) /* SoundTable */
+     , (22256,   6, 0x04000BEF) /* PaletteBase */
+     , (22256,   7, 0x10000153) /* ClothingBase */
+     , (22256,   8, 0x06002AB8) /* Icon */
+     , (22256,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (22256, 25 /* Wield */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

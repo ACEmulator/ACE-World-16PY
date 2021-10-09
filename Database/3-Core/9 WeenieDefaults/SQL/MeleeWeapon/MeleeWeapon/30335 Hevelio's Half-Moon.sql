@@ -37,9 +37,9 @@ VALUES (30335,   1, 'Hevelio''s Half-Moon') /* Name */
      , (30335,  16, 'Describe me here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30335,   1,   33555997) /* Setup */
-     , (30335,   3,  536870932) /* SoundTable */
-     , (30335,   6,   67111919) /* PaletteBase */
-     , (30335,   7,  268435829) /* ClothingBase */
-     , (30335,   8,  100670016) /* Icon */
-     , (30335,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30335,   1, 0x0200061D) /* Setup */
+     , (30335,   3, 0x20000014) /* SoundTable */
+     , (30335,   6, 0x04000BEF) /* PaletteBase */
+     , (30335,   7, 0x10000175) /* ClothingBase */
+     , (30335,   8, 0x06001A40) /* Icon */
+     , (30335,  22, 0x3400002B) /* PhysicsEffectTable */;

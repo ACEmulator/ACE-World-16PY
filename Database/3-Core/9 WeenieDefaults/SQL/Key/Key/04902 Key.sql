@@ -26,7 +26,7 @@ VALUES (4902,   1, 'Key') /* Name */
      , (4902,  16, 'This key opens a door in the Guardian Crypt dungeon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4902,   1,   33554784) /* Setup */
-     , (4902,   3,  536870932) /* SoundTable */
-     , (4902,   8,  100667483) /* Icon */
-     , (4902,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4902,   1, 0x02000160) /* Setup */
+     , (4902,   3, 0x20000014) /* SoundTable */
+     , (4902,   8, 0x0600105B) /* Icon */
+     , (4902,  22, 0x3400002B) /* PhysicsEffectTable */;

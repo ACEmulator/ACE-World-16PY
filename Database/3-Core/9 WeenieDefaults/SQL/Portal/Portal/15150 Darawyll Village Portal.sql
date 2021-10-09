@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15150,   1, 'Darawyll Village Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15150,   1,   33554867) /* Setup */
-     , (15150,   2,  150994947) /* MotionTable */
-     , (15150,   8,  100667499) /* Icon */;
+VALUES (15150,   1, 0x020001B3) /* Setup */
+     , (15150,   2, 0x09000003) /* MotionTable */
+     , (15150,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15150, 2, 2995453971, 60.09, 61.243, 21.109, 0.9171783, 0, 0, -0.398477) /* Destination */
-/* @teleloc 0xB28B0013 [60.090000 61.243000 21.109000] 0.917178 0.000000 0.000000 -0.398477 */;
+VALUES (15150, 2, 0xB28B0013, 60.09, 61.243, 21.109, 0.917178, 0, 0, -0.398477) /* Destination */
+/* @teleloc 0xB28B0013 [60.090000 61.243000 21.108999] 0.917178 0.000000 0.000000 -0.398477 */;

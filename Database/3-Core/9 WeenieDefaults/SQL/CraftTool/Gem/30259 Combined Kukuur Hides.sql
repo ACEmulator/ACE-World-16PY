@@ -32,9 +32,9 @@ VALUES (30259,   1, 'Combined Kukuur Hides') /* Name */
      , (30259,  16, 'Six Kukuur hides have been placed together Reeshan''s, Kiree''s, Broodu''s, Keerik''s, Rehir''s and Browerk''s. Perhaps this can be handed to Guard Devon for some trophy to display your efforts against the Burun Kings.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30259,   1,   33554817) /* Setup */
-     , (30259,   3,  536870932) /* SoundTable */
-     , (30259,   6,   67111919) /* PaletteBase */
-     , (30259,   7,  268435723) /* ClothingBase */
-     , (30259,   8,  100677166) /* Icon */
-     , (30259,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30259,   1, 0x02000181) /* Setup */
+     , (30259,   3, 0x20000014) /* SoundTable */
+     , (30259,   6, 0x04000BEF) /* PaletteBase */
+     , (30259,   7, 0x1000010B) /* ClothingBase */
+     , (30259,   8, 0x0600362E) /* Icon */
+     , (30259,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -71,13 +71,13 @@ VALUES (24590,   1, 'Odvik the Inn Keeper') /* Name */
      , (24590,  24, 'Candeth Keep') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24590,   1,   33557003) /* Setup */
-     , (24590,   2,  150994950) /* MotionTable */
-     , (24590,   3,  536870922) /* SoundTable */
-     , (24590,   4,  805306371) /* CombatTable */
-     , (24590,   6,   67113158) /* PaletteBase */
-     , (24590,   7,  268436152) /* ClothingBase */
-     , (24590,   8,  100667447) /* Icon */;
+VALUES (24590,   1, 0x02000A0B) /* Setup */
+     , (24590,   2, 0x09000006) /* MotionTable */
+     , (24590,   3, 0x2000000A) /* SoundTable */
+     , (24590,   4, 0x30000003) /* CombatTable */
+     , (24590,   6, 0x040010C6) /* PaletteBase */
+     , (24590,   7, 0x100002B8) /* ClothingBase */
+     , (24590,   8, 0x06001037) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24590,   1, 204, 0, 0) /* Strength */

@@ -27,9 +27,9 @@ VALUES (20022,   1, 'Treated Diamond Heart') /* Name */
      , (20022,  16, 'A diamond heart that has been treated with oil of nullification.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20022,   1,   33554817) /* Setup */
-     , (20022,   3,  536870932) /* SoundTable */
-     , (20022,   6,   67111919) /* PaletteBase */
-     , (20022,   7,  268435832) /* ClothingBase */
-     , (20022,   8,  100672883) /* Icon */
-     , (20022,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (20022,   1, 0x02000181) /* Setup */
+     , (20022,   3, 0x20000014) /* SoundTable */
+     , (20022,   6, 0x04000BEF) /* PaletteBase */
+     , (20022,   7, 0x10000178) /* ClothingBase */
+     , (20022,   8, 0x06002573) /* Icon */
+     , (20022,  22, 0x3400002B) /* PhysicsEffectTable */;

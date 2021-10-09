@@ -41,17 +41,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20164,   1, 'Quality Flaming Isparian Wand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20164,   1,   33557789) /* Setup */
-     , (20164,   3,  536870932) /* SoundTable */
-     , (20164,   6,   67111919) /* PaletteBase */
-     , (20164,   7,  268436395) /* ClothingBase */
-     , (20164,   8,  100672996) /* Icon */
-     , (20164,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20164,   1, 0x02000D1D) /* Setup */
+     , (20164,   3, 0x20000014) /* SoundTable */
+     , (20164,   6, 0x04000BEF) /* PaletteBase */
+     , (20164,   7, 0x100003AB) /* ClothingBase */
+     , (20164,   8, 0x060025E4) /* Icon */
+     , (20164,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20164,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20164,   632,      2)  /* War Magic Mastery Self IV */
+VALUES (20164,  1092,      2)  /* Fire Protection Self IV */
      , (20164,   655,      2)  /* Mana Conversion Mastery Self III */
-     , (20164,  1092,      2)  /* Fire Protection Self IV */
+     , (20164,  1447,      2)  /* Willpower Self III */
      , (20164,  1423,      2)  /* Focus Self III */
-     , (20164,  1447,      2)  /* Willpower Self III */;
+     , (20164,   632,      2)  /* War Magic Mastery Self IV */;

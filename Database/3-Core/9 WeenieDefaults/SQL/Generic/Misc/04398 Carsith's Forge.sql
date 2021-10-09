@@ -22,7 +22,7 @@ VALUES (4398,   1, 'Carsith''s Forge') /* Name */
      , (4398,  16, 'Carsith''s Forge') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4398,   1,   33555593) /* Setup */
-     , (4398,   6,   67111092) /* PaletteBase */
-     , (4398,   7,  268435670) /* ClothingBase */
-     , (4398,   8,  100668115) /* Icon */;
+VALUES (4398,   1, 0x02000489) /* Setup */
+     , (4398,   6, 0x040008B4) /* PaletteBase */
+     , (4398,   7, 0x100000D6) /* ClothingBase */
+     , (4398,   8, 0x060012D3) /* Icon */;

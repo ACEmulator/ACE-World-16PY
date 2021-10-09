@@ -51,17 +51,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19871,   1, 'Good Chilling Isparian Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19871,   1,   33556382) /* Setup */
-     , (19871,   3,  536870932) /* SoundTable */
-     , (19871,   6,   67111919) /* PaletteBase */
-     , (19871,   7,  268436382) /* ClothingBase */
-     , (19871,   8,  100672914) /* Icon */
-     , (19871,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19871,   1, 0x0200079E) /* Setup */
+     , (19871,   3, 0x20000014) /* SoundTable */
+     , (19871,   6, 0x04000BEF) /* PaletteBase */
+     , (19871,   7, 0x1000039E) /* ClothingBase */
+     , (19871,   8, 0x06002592) /* Icon */
+     , (19871,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19871,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19871,  1035,      2)  /* Cold Protection Self VI */
-     , (19871,  1377,      2)  /* Coordination Self V */
      , (19871,  1590,      2)  /* Aura of Heart Seeker Self IV */
      , (19871,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (19871,  1377,      2)  /* Coordination Self V */
      , (19871,  2679,      2)  /* Feeble Light Weapon Aptitude */;

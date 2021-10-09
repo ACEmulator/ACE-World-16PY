@@ -40,11 +40,11 @@ VALUES (8999,   1, 'Steel Chest') /* Name */
      , (8999,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8999,   1,   33554556) /* Setup */
-     , (8999,   2,  150994948) /* MotionTable */
-     , (8999,   3,  536870945) /* SoundTable */
-     , (8999,   8,  100667424) /* Icon */
-     , (8999,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8999,   1, 0x0200007C) /* Setup */
+     , (8999,   2, 0x09000004) /* MotionTable */
+     , (8999,   3, 0x20000021) /* SoundTable */
+     , (8999,   8, 0x06001020) /* Icon */
+     , (8999,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8999, -1, 338, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate RANDOMLY GENERATED TREASURE from Loot Tier 6 from Death Treasure Table id: 338 (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */
@@ -57,17 +57,17 @@ VALUES (8999, -1, 338, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Gene
      , (8999, 0.03, 7514, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Scroll of Eye of the Storm (7514) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (8999, 0.035, 7515, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Scroll of Tectonic Rifts (7515) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (8999, 0.04, 7516, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Scroll of Blistering Creeper (7516) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (8999, 0.04499999, 7517, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Scroll of Bed of Blades (7517) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (8999, 0.04999999, 7518, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Scroll of Slithering Flames (7518) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (8999, 0.05499999, 7519, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Scroll of Spike Strafe (7519) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (8999, 0.05999999, 7520, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Scroll of Foon-Ki's Glacial Floe (7520) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (8999, 0.06499999, 7521, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Scroll of Os' Wall (7521) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (8999, 0.06999999, 7522, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Scroll of Hammering Crawler (7522) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (8999, 0.045, 7517, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Scroll of Bed of Blades (7517) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (8999, 0.05, 7518, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Scroll of Slithering Flames (7518) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (8999, 0.055, 7519, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Scroll of Spike Strafe (7519) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (8999, 0.06, 7520, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Scroll of Foon-Ki's Glacial Floe (7520) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (8999, 0.065, 7521, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Scroll of Os' Wall (7521) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (8999, 0.07, 7522, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Scroll of Hammering Crawler (7522) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (8999, 0.075, 20430, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Scroll of Dissolving Vortex (20430) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (8999, 0.08, 20435, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Scroll of Sau Kolin's Sword (20435) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (8999, 0.085, 20439, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Scroll of Silencia's Scorn (20439) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (8999, 0.09, 20444, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Scroll of Stinging Needles (20444) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (8999, 0.09500001, 20449, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Scroll of Winter's Embrace (20449) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (8999, 0.095, 20449, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Scroll of Winter's Embrace (20449) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (8999, 0.1, 20454, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Scroll of Luminous Wrath (20454) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (8999, 0.105, 20459, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Scroll of Pummeling Storm (20459) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (8999, 0.11, 20434, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Scroll of Celdiseth's Searing (20434) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

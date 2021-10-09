@@ -44,11 +44,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30863,   1, 'Banished Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30863,   1,   33559259) /* Setup */
-     , (30863,   3,  536870932) /* SoundTable */
-     , (30863,   8,  100677487) /* Icon */
-     , (30863,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30863,   1, 0x020012DB) /* Setup */
+     , (30863,   3, 0x20000014) /* SoundTable */
+     , (30863,   8, 0x0600376F) /* Icon */
+     , (30863,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30863,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (30863,  2563,      2)  /* Minor Light Weapon Aptitude */;
+VALUES (30863,  2563,      2)  /* Minor Light Weapon Aptitude */
+     , (30863,  1616,      2)  /* Aura of Blood Drinker Self VI */;

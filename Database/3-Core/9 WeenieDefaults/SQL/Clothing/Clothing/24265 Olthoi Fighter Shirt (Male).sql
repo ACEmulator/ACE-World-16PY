@@ -37,10 +37,10 @@ VALUES (24265,   1, 'Olthoi Fighter Shirt (Male)') /* Name */
      , (24265,  16, 'A shirt purchased on Tusker Island.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24265,   1,   33554883) /* Setup */
-     , (24265,   3,  536870932) /* SoundTable */
-     , (24265,   6,   67108990) /* PaletteBase */
-     , (24265,   7,  268436603) /* ClothingBase */
-     , (24265,   8,  100673830) /* Icon */
-     , (24265,  22,  872415275) /* PhysicsEffectTable */
-     , (24265,  36,  234881046) /* MutateFilter */;
+VALUES (24265,   1, 0x020001C3) /* Setup */
+     , (24265,   3, 0x20000014) /* SoundTable */
+     , (24265,   6, 0x0400007E) /* PaletteBase */
+     , (24265,   7, 0x1000047B) /* ClothingBase */
+     , (24265,   8, 0x06002926) /* Icon */
+     , (24265,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24265,  36, 0x0E000016) /* MutateFilter */;

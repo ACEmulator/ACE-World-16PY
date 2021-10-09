@@ -31,10 +31,10 @@ VALUES (30109,   1, 'Invigorating Elixir') /* Name */
      , (30109,  16, 'A lovely template for a rare magical potion.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30109,   1,   33554603) /* Setup */
-     , (30109,   3,  536870932) /* SoundTable */
-     , (30109,   6,   67111919) /* PaletteBase */
-     , (30109,   7,  268435816) /* ClothingBase */
-     , (30109,   8,  100676310) /* Icon */
-     , (30109,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30109,   1, 0x020000AB) /* Setup */
+     , (30109,   3, 0x20000014) /* SoundTable */
+     , (30109,   6, 0x04000BEF) /* PaletteBase */
+     , (30109,   7, 0x10000168) /* ClothingBase */
+     , (30109,   8, 0x060032D6) /* Icon */
+     , (30109,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30109,  23,         65) /* UseSound - Drink1 */;

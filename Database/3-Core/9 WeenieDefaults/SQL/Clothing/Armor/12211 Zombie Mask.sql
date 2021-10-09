@@ -39,9 +39,9 @@ VALUES (12211,   1, 'Zombie Mask') /* Name */
      , (12211,  16, 'A mask made from the head of a zombie.  Its skin is dry, though the mask is very well put together.  The odor of undeath still clings to it, however...') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12211,   1,   33557363) /* Setup */
-     , (12211,   3,  536870932) /* SoundTable */
-     , (12211,   6,   67108990) /* PaletteBase */
-     , (12211,   7,  268436268) /* ClothingBase */
-     , (12211,   8,  100672164) /* Icon */
-     , (12211,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12211,   1, 0x02000B73) /* Setup */
+     , (12211,   3, 0x20000014) /* SoundTable */
+     , (12211,   6, 0x0400007E) /* PaletteBase */
+     , (12211,   7, 0x1000032C) /* ClothingBase */
+     , (12211,   8, 0x060022A4) /* Icon */
+     , (12211,  22, 0x3400002B) /* PhysicsEffectTable */;

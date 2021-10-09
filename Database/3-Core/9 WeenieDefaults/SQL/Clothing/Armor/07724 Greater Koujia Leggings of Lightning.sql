@@ -40,9 +40,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7724,   1, 'Greater Koujia Leggings of Lightning') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7724,   1,   33554856) /* Setup */
-     , (7724,   3,  536870932) /* SoundTable */
-     , (7724,   6,   67108990) /* PaletteBase */
-     , (7724,   7,  268435849) /* ClothingBase */
-     , (7724,   8,  100670460) /* Icon */
-     , (7724,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7724,   1, 0x020001A8) /* Setup */
+     , (7724,   3, 0x20000014) /* SoundTable */
+     , (7724,   6, 0x0400007E) /* PaletteBase */
+     , (7724,   7, 0x10000189) /* ClothingBase */
+     , (7724,   8, 0x06001BFC) /* Icon */
+     , (7724,  22, 0x3400002B) /* PhysicsEffectTable */;

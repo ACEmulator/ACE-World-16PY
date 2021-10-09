@@ -68,14 +68,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30756,   1, 'Ripper Grievver') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30756,   1,   33556698) /* Setup */
-     , (30756,   2,  150995098) /* MotionTable */
-     , (30756,   3,  536871009) /* SoundTable */
-     , (30756,   4,  805306411) /* CombatTable */
-     , (30756,   6,   67112927) /* PaletteBase */
-     , (30756,   7,  268436038) /* ClothingBase */
-     , (30756,   8,  100670960) /* Icon */
-     , (30756,  22,  872415364) /* PhysicsEffectTable */
+VALUES (30756,   1, 0x020008DA) /* Setup */
+     , (30756,   2, 0x0900009A) /* MotionTable */
+     , (30756,   3, 0x20000061) /* SoundTable */
+     , (30756,   4, 0x3000002B) /* CombatTable */
+     , (30756,   6, 0x04000FDF) /* PaletteBase */
+     , (30756,   7, 0x10000246) /* ClothingBase */
+     , (30756,   8, 0x06001DF0) /* Icon */
+     , (30756,  22, 0x34000084) /* PhysicsEffectTable */
      , (30756,  30,         86) /* PhysicsScript - BreatheAcid */
      , (30756,  35,        461) /* DeathTreasureType - Loot Tier: 6 */;
 
@@ -93,15 +93,15 @@ VALUES (30756,   1,   435, 0, 0, 585) /* MaxHealth */
      , (30756,   5,   200, 0, 0, 510) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (30756,  6, 0, 3, 0, 310, 0, 2295.56125041238) /* MeleeDefense        Specialized */
-     , (30756,  7, 0, 3, 0, 420, 0, 2295.56125041238) /* MissileDefense      Specialized */
-     , (30756, 13, 0, 3, 0, 287, 0, 2295.56125041238) /* UnarmedCombat       Specialized */
-     , (30756, 14, 0, 3, 0, 220, 0, 2295.56125041238) /* ArcaneLore          Specialized */
-     , (30756, 15, 0, 3, 0, 320, 0, 2295.56125041238) /* MagicDefense        Specialized */
-     , (30756, 20, 0, 3, 0, 150, 0, 2295.56125041238) /* Deception           Specialized */
-     , (30756, 31, 0, 3, 0, 190, 0, 2295.56125041238) /* CreatureEnchantment Specialized */
-     , (30756, 33, 0, 3, 0, 190, 0, 2295.56125041238) /* LifeMagic           Specialized */
-     , (30756, 34, 0, 3, 0, 190, 0, 2295.56125041238) /* WarMagic            Specialized */;
+VALUES (30756,  6, 0, 3, 0, 310, 0, 2295.561250412381) /* MeleeDefense        Specialized */
+     , (30756,  7, 0, 3, 0, 420, 0, 2295.561250412381) /* MissileDefense      Specialized */
+     , (30756, 13, 0, 3, 0, 287, 0, 2295.561250412381) /* UnarmedCombat       Specialized */
+     , (30756, 14, 0, 3, 0, 220, 0, 2295.561250412381) /* ArcaneLore          Specialized */
+     , (30756, 15, 0, 3, 0, 320, 0, 2295.561250412381) /* MagicDefense        Specialized */
+     , (30756, 20, 0, 3, 0, 150, 0, 2295.561250412381) /* Deception           Specialized */
+     , (30756, 31, 0, 3, 0, 190, 0, 2295.561250412381) /* CreatureEnchantment Specialized */
+     , (30756, 33, 0, 3, 0, 190, 0, 2295.561250412381) /* LifeMagic           Specialized */
+     , (30756, 34, 0, 3, 0, 190, 0, 2295.561250412381) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (30756,  0,  4,  0,    0,  425,  255,  298,  400,  153,  153,  153,  153,    0, 1, 0.33, 0.23,  0.1,  0.1,  0.1,  0.1,  0.1,    0,    0,    0,  0.1,    0) /* Head */
@@ -112,53 +112,53 @@ VALUES (30756,  0,  4,  0,    0,  425,  255,  298,  400,  153,  153,  153,  153,
      , (30756, 22, 32, 125,  0.5,    0,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0) /* Breath */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30756,   279,      2)  /* Magic Resistance Self VI */
-     , (30756,  1161,   2.01)  /* Heal Self VI */
-     , (30756,  1343,   2.02)  /* Weakness Other VI */
-     , (30756,  1372,   2.02)  /* Frailty Other VI */
-     , (30756,  1396,   2.02)  /* Clumsiness Other VI */
-     , (30756,  1420,   2.02)  /* Slowness Other VI */
-     , (30756,  1444,   2.02)  /* Bafflement Other VI */
-     , (30756,  1468,   2.02)  /* Feeblemind Other VI */
+VALUES (30756,  1161,   2.01)  /* Heal Self VI */
      , (30756,  2053,      2)  /* Executor's Blessing */
      , (30756,  2122,   2.03)  /* Disintegration */
+     , (30756,  1444,   2.02)  /* Bafflement Other VI */
+     , (30756,  1372,   2.02)  /* Frailty Other VI */
+     , (30756,  1420,   2.02)  /* Slowness Other VI */
+     , (30756,  2328,   2.01)  /* Vitality Siphon */
+     , (30756,   279,      2)  /* Magic Resistance Self VI */
      , (30756,  2140,   2.03)  /* Alset's Coil */
      , (30756,  2151,      2)  /* Blessing of the Blade Turner */
      , (30756,  2161,      2)  /* Blessing of the Arrow Turner */
-     , (30756,  2328,   2.01)  /* Vitality Siphon */;
+     , (30756,  1396,   2.02)  /* Clumsiness Other VI */
+     , (30756,  1468,   2.02)  /* Feeblemind Other VI */
+     , (30756,  1343,   2.02)  /* Weakness Other VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (30756,  94) /* ATTACK_NOTIFICATION_EVENT */
      , (30756, 414) /* PLAYER_DEATH_EVENT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (30756,  5 /* HeartBeat */,  0.025, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (30756,  5 /* HeartBeat */,  0.025, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000052 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (30756,  5 /* HeartBeat */,   0.03, NULL, 2147483708 /* HandCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (30756,  5 /* HeartBeat */,   0.03, NULL, 0x8000003C /* HandCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (30756,  5 /* HeartBeat */,  0.025, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (30756,  5 /* HeartBeat */,  0.025, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435538 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000052 /* Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (30756,  5 /* HeartBeat */,   0.03, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (30756,  5 /* HeartBeat */,   0.03, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 268435537 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x10000051 /* Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

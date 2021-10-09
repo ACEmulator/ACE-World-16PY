@@ -25,7 +25,7 @@ VALUES (548,   1, 'Bowl of Rice') /* Name */
      , (548,  20, 'Bowls of Rice') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (548,   1,   33554668) /* Setup */
-     , (548,   3,  536870932) /* SoundTable */
-     , (548,   8,  100667413) /* Icon */
-     , (548,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (548,   1, 0x020000EC) /* Setup */
+     , (548,   3, 0x20000014) /* SoundTable */
+     , (548,   8, 0x06001015) /* Icon */
+     , (548,  22, 0x3400002B) /* PhysicsEffectTable */;

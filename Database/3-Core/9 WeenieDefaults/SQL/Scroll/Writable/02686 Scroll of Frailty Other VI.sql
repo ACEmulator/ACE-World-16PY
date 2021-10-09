@@ -25,7 +25,7 @@ VALUES (2686,   1, 'Scroll of Frailty Other VI') /* Name */
      , (2686,  16, 'When learned, this spell decreases the target''s Endurance by 60 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2686,   1,   33554826) /* Setup */
-     , (2686,   8,  100676456) /* Icon */
-     , (2686,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2686,   1, 0x0200018A) /* Setup */
+     , (2686,   8, 0x06003368) /* Icon */
+     , (2686,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2686,  28,       1372) /* Spell - Frailty Other VI */;

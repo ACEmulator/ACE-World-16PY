@@ -13,7 +13,7 @@ VALUES (22365,   1,       2048) /* ItemType - Gem */
      , (22365,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22365, 114,          1) /* Attuned - Attuned */
      , (22365, 185,          1) /* TypeOfAlteration */
-     , (22365, 186,         22) /* SkillToBeAltered */;
+     , (22365, 186,         22) /* SkillToBeAltered - Jump */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22365,  22, True ) /* Inscribable */
@@ -25,8 +25,8 @@ VALUES (22365,   1, 'Jump Gem of Enlightenment') /* Name */
      , (22365,  33, 'SkillAlterationGemPickedUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22365,   1,   33558088) /* Setup */
-     , (22365,   6,   67111919) /* PaletteBase */
-     , (22365,   7,  268435723) /* ClothingBase */
-     , (22365,   8,  100673788) /* Icon */
-     , (22365,  50,  100673769) /* IconOverlay */;
+VALUES (22365,   1, 0x02000E48) /* Setup */
+     , (22365,   6, 0x04000BEF) /* PaletteBase */
+     , (22365,   7, 0x1000010B) /* ClothingBase */
+     , (22365,   8, 0x060028FC) /* Icon */
+     , (22365,  50, 0x060028E9) /* IconOverlay */;

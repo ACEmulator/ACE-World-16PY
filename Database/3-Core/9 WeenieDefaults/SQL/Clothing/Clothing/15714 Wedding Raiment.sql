@@ -36,10 +36,10 @@ VALUES (15714,   1, 'Wedding Raiment') /* Name */
      , (15714,  16, 'The perfect outfit for wedding members. This rainment is dyeable.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15714,   1,   33554854) /* Setup */
-     , (15714,   3,  536870932) /* SoundTable */
-     , (15714,   6,   67108990) /* PaletteBase */
-     , (15714,   7,  268436356) /* ClothingBase */
-     , (15714,   8,  100671176) /* Icon */
-     , (15714,  22,  872415275) /* PhysicsEffectTable */
-     , (15714,  36,  234881046) /* MutateFilter */;
+VALUES (15714,   1, 0x020001A6) /* Setup */
+     , (15714,   3, 0x20000014) /* SoundTable */
+     , (15714,   6, 0x0400007E) /* PaletteBase */
+     , (15714,   7, 0x10000384) /* ClothingBase */
+     , (15714,   8, 0x06001EC8) /* Icon */
+     , (15714,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (15714,  36, 0x0E000016) /* MutateFilter */;

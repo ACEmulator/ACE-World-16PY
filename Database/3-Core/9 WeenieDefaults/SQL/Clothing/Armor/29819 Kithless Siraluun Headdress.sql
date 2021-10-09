@@ -47,16 +47,16 @@ VALUES (29819,   1, 'Kithless Siraluun Headdress') /* Name */
      , (29819,  16, 'A headdress plaited from the plumes of a Kithless Siraluun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29819,   1,   33557288) /* Setup */
-     , (29819,   3,  536870932) /* SoundTable */
-     , (29819,   6,   67108990) /* PaletteBase */
-     , (29819,   7,  268436237) /* ClothingBase */
-     , (29819,   8,  100671999) /* Icon */
-     , (29819,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29819,   1, 0x02000B28) /* Setup */
+     , (29819,   3, 0x20000014) /* SoundTable */
+     , (29819,   6, 0x0400007E) /* PaletteBase */
+     , (29819,   7, 0x1000030D) /* ClothingBase */
+     , (29819,   8, 0x060021FF) /* Icon */
+     , (29819,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29819,   712,      2)  /* Armor Tinkering Expertise Other V */
+VALUES (29819,   760,      2)  /* Magic Item Tinkering Expertise Other V */
      , (29819,   736,      2)  /* Item Tinkering Expertise Other V */
-     , (29819,   760,      2)  /* Magic Item Tinkering Expertise Other V */
-     , (29819,   784,      2)  /* Weapon Tinkering Expertise Other V */
-     , (29819,  3510,      2)  /* Arcanum Enlightenment V */;
+     , (29819,   712,      2)  /* Armor Tinkering Expertise Other V */
+     , (29819,  3510,      2)  /* Arcanum Enlightenment V */
+     , (29819,   784,      2)  /* Weapon Tinkering Expertise Other V */;

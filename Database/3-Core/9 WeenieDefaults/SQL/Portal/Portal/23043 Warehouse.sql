@@ -25,10 +25,10 @@ VALUES (23043,   1, 'Warehouse') /* Name */
      , (23043,  37, 'PICKEDUPVALARACRYSTAL') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23043,   1,   33554867) /* Setup */
-     , (23043,   2,  150994947) /* MotionTable */
-     , (23043,   8,  100667499) /* Icon */;
+VALUES (23043,   1, 0x020001B3) /* Setup */
+     , (23043,   2, 0x09000003) /* MotionTable */
+     , (23043,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23043, 2, 1464533263, 40.1, -7, 0, -0.02268708, 0, 0, -0.9997426) /* Destination */
-/* @teleloc 0x574B010F [40.100000 -7.000000 0.000000] -0.022687 0.000000 0.000000 -0.999743 */;
+VALUES (23043, 2, 0x574B010F, 40.1, -7, 0, -0.022687, 0, -0, -0.999743) /* Destination */
+/* @teleloc 0x574B010F [40.099998 -7.000000 0.000000] -0.022687 0.000000 -0.000000 -0.999743 */;

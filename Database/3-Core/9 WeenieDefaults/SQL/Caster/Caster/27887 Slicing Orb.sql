@@ -32,12 +32,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27887,   1, 'Slicing Orb') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27887,   1,   33559018) /* Setup */
-     , (27887,   3,  536870932) /* SoundTable */
-     , (27887,   6,   67115357) /* PaletteBase */
-     , (27887,   7,  268436872) /* ClothingBase */
-     , (27887,   8,  100668722) /* Icon */
-     , (27887,  22,  872415275) /* PhysicsEffectTable */
-     , (27887,  27, 1073741873) /* UseUserAnimation - MagicHeal */
-     , (27887,  36,  234881046) /* MutateFilter */
-     , (27887,  46,  939524144) /* TsysMutationFilter */;
+VALUES (27887,   1, 0x020011EA) /* Setup */
+     , (27887,   3, 0x20000014) /* SoundTable */
+     , (27887,   6, 0x0400195D) /* PaletteBase */
+     , (27887,   7, 0x10000588) /* ClothingBase */
+     , (27887,   8, 0x06001532) /* Icon */
+     , (27887,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (27887,  27, 0x40000031) /* UseUserAnimation - MagicHeal */
+     , (27887,  36, 0x0E000016) /* MutateFilter */
+     , (27887,  46, 0x38000030) /* TsysMutationFilter */;

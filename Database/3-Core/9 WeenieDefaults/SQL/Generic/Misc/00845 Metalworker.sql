@@ -22,7 +22,7 @@ VALUES (845,   1, 'Metalworker') /* Name */
      , (845,  16, 'Metalworker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (845,   1,   33555594) /* Setup */
-     , (845,   6,   67111782) /* PaletteBase */
-     , (845,   7,  268435686) /* ClothingBase */
-     , (845,   8,  100668115) /* Icon */;
+VALUES (845,   1, 0x0200048A) /* Setup */
+     , (845,   6, 0x04000B66) /* PaletteBase */
+     , (845,   7, 0x100000E6) /* ClothingBase */
+     , (845,   8, 0x060012D3) /* Icon */;

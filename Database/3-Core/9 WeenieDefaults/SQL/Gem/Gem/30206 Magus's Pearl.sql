@@ -30,10 +30,10 @@ VALUES (30206,   1, 'Magus''s Pearl') /* Name */
      , (30206,  16, 'A lovely template for a rare magical gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30206,   1,   33554809) /* Setup */
-     , (30206,   3,  536870932) /* SoundTable */
-     , (30206,   6,   67111919) /* PaletteBase */
-     , (30206,   7,  268435723) /* ClothingBase */
-     , (30206,   8,  100674739) /* Icon */
-     , (30206,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30206,   1, 0x02000179) /* Setup */
+     , (30206,   3, 0x20000014) /* SoundTable */
+     , (30206,   6, 0x04000BEF) /* PaletteBase */
+     , (30206,   7, 0x1000010B) /* ClothingBase */
+     , (30206,   8, 0x06002CB3) /* Icon */
+     , (30206,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30206,  28,       3705) /* Spell - Prodigal Focus */;

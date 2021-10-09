@@ -32,9 +32,9 @@ VALUES (15751,   1, 'Elixir of Speed') /* Name */
      , (15751,  20, 'Elixirs of Speed') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15751,   1,   33555965) /* Setup */
-     , (15751,   3,  536870932) /* SoundTable */
-     , (15751,   6,   67111919) /* PaletteBase */
-     , (15751,   7,  268435814) /* ClothingBase */
-     , (15751,   8,  100672789) /* Icon */
-     , (15751,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15751,   1, 0x020005FD) /* Setup */
+     , (15751,   3, 0x20000014) /* SoundTable */
+     , (15751,   6, 0x04000BEF) /* PaletteBase */
+     , (15751,   7, 0x10000166) /* ClothingBase */
+     , (15751,   8, 0x06002515) /* Icon */
+     , (15751,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -34,12 +34,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2029,   1, 'Sceptre of Syliph') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2029,   1,   33554704) /* Setup */
-     , (2029,   3,  536870932) /* SoundTable */
-     , (2029,   6,   67111919) /* PaletteBase */
-     , (2029,   7,  268435755) /* ClothingBase */
-     , (2029,   8,  100668792) /* Icon */
-     , (2029,  22,  872415275) /* PhysicsEffectTable */
-     , (2029,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (2029,   1, 0x02000110) /* Setup */
+     , (2029,   3, 0x20000014) /* SoundTable */
+     , (2029,   6, 0x04000BEF) /* PaletteBase */
+     , (2029,   7, 0x1000012B) /* ClothingBase */
+     , (2029,   8, 0x06001578) /* Icon */
+     , (2029,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (2029,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (2029,  28,         59) /* Spell - Acid Stream II */
-     , (2029,  36,  234881046) /* MutateFilter */;
+     , (2029,  36, 0x0E000016) /* MutateFilter */;

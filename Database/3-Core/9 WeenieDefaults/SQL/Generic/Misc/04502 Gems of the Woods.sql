@@ -22,7 +22,7 @@ VALUES (4502,   1, 'Gems of the Woods') /* Name */
      , (4502,  16, 'Gems of the Woods') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4502,   1,   33555594) /* Setup */
-     , (4502,   6,   67111782) /* PaletteBase */
-     , (4502,   7,  268435690) /* ClothingBase */
-     , (4502,   8,  100668115) /* Icon */;
+VALUES (4502,   1, 0x0200048A) /* Setup */
+     , (4502,   6, 0x04000B66) /* PaletteBase */
+     , (4502,   7, 0x100000EA) /* ClothingBase */
+     , (4502,   8, 0x060012D3) /* Icon */;

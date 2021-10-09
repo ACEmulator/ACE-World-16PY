@@ -31,10 +31,10 @@ VALUES (8311,   1, 'Turpeth Pea') /* Name */
      , (8311,  16, 'A concentrated turpeth pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8311,   1,   33555209) /* Setup */
-     , (8311,   3,  536870932) /* SoundTable */
-     , (8311,   6,   67111919) /* PaletteBase */
-     , (8311,   7,  268435719) /* ClothingBase */
-     , (8311,   8,  100671041) /* Icon */
-     , (8311,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8311,   1, 0x02000309) /* Setup */
+     , (8311,   3, 0x20000014) /* SoundTable */
+     , (8311,   6, 0x04000BEF) /* PaletteBase */
+     , (8311,   7, 0x10000107) /* ClothingBase */
+     , (8311,   8, 0x06001E41) /* Icon */
+     , (8311,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8311,  29,        158) /* SpellComponent */;

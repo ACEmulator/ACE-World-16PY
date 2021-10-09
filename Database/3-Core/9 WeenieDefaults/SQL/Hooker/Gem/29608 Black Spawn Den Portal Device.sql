@@ -13,7 +13,7 @@ VALUES (29608,   1,       2048) /* ItemType - Gem */
      , (29608,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29608, 150,        103) /* HookPlacement - Hook */
      , (29608, 151,          9) /* HookType - Floor, Yard */
-     , (29608, 197,          4) /* HookGroup */;
+     , (29608, 197,          4) /* HookGroup - PortalItems */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29608,  22, True ) /* Inscribable */;
@@ -23,10 +23,10 @@ VALUES (29608,   1, 'Black Spawn Den Portal Device') /* Name */
      , (29608,  16, 'This device was fashioned by Shoyanen Kenchu under the direction of High Queen Elysa Strathelar. The magic of the device can only be activated if placed on a mansion hook. The magic has yet to be perfected so the device may deliver the user to one of the three Black Spawn Dens.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29608,   1,   33559078) /* Setup */
-     , (29608,   3,  536870932) /* SoundTable */
-     , (29608,   8,  100677186) /* Icon */
-     , (29608,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29608,   1, 0x02001226) /* Setup */
+     , (29608,   3, 0x20000014) /* SoundTable */
+     , (29608,   8, 0x06003642) /* Icon */
+     , (29608,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (29608,  7 /* Use */,  0.333, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

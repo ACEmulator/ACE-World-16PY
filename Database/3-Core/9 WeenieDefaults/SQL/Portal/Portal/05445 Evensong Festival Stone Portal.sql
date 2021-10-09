@@ -25,12 +25,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5445,   1, 'Evensong Festival Stone Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5445,   1,   33554867) /* Setup */
-     , (5445,   2,  150994947) /* MotionTable */
-     , (5445,   6,   67109370) /* PaletteBase */
-     , (5445,   7,  268435652) /* ClothingBase */
-     , (5445,   8,  100667499) /* Icon */;
+VALUES (5445,   1, 0x020001B3) /* Setup */
+     , (5445,   2, 0x09000003) /* MotionTable */
+     , (5445,   6, 0x040001FA) /* PaletteBase */
+     , (5445,   7, 0x100000C4) /* ClothingBase */
+     , (5445,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5445, 2, 2914254860, 44.3, 91.6, 27.9, -0.9636304, 0, 0, -0.2672384) /* Destination */
-/* @teleloc 0xADB4000C [44.300000 91.600000 27.900000] -0.963630 0.000000 0.000000 -0.267238 */;
+VALUES (5445, 2, 0xADB4000C, 44.3, 91.6, 27.9, -0.96363, 0, -0, -0.267238) /* Destination */
+/* @teleloc 0xADB4000C [44.299999 91.599998 27.900000] -0.963630 0.000000 -0.000000 -0.267238 */;

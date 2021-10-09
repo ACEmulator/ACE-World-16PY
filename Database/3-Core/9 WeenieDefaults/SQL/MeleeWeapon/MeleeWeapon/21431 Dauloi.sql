@@ -49,15 +49,15 @@ VALUES (21431,   1, 'Dauloi') /* Name */
      , (21431,  15, 'A morningstar constructed from obsidian and cerulean colored stone.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21431,   1,   33557962) /* Setup */
-     , (21431,   3,  536870932) /* SoundTable */
-     , (21431,   8,  100673489) /* Icon */
-     , (21431,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21431,   1, 0x02000DCA) /* Setup */
+     , (21431,   3, 0x20000014) /* SoundTable */
+     , (21431,   8, 0x060027D1) /* Icon */
+     , (21431,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21431,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21431,   344,      2)  /* Light Weapon Mastery Other V */
+VALUES (21431,  1604,      2)  /* Aura of Defender Self V */
      , (21431,  1591,      2)  /* Aura of Heart Seeker Self V */
-     , (21431,  1604,      2)  /* Aura of Defender Self V */
      , (21431,  1615,      2)  /* Aura of Blood Drinker Self V */
+     , (21431,   344,      2)  /* Light Weapon Mastery Other V */
      , (21431,  1624,      2)  /* Aura of Swift Killer Self III */;

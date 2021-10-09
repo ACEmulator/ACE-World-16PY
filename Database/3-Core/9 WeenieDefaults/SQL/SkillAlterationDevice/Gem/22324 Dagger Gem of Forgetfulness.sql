@@ -13,7 +13,7 @@ VALUES (22324,   1,       2048) /* ItemType - Gem */
      , (22324,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22324, 114,          1) /* Attuned - Attuned */
      , (22324, 185,          2) /* TypeOfAlteration */
-     , (22324, 186,          4) /* SkillToBeAltered */;
+     , (22324, 186,          4) /* SkillToBeAltered - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22324,  22, True ) /* Inscribable */
@@ -25,8 +25,8 @@ VALUES (22324,   1, 'Dagger Gem of Forgetfulness') /* Name */
      , (22324,  33, 'SkillAlterationGemPickedUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22324,   1,   33558087) /* Setup */
-     , (22324,   6,   67111919) /* PaletteBase */
-     , (22324,   7,  268435723) /* ClothingBase */
-     , (22324,   8,  100673789) /* Icon */
-     , (22324,  50,  100673763) /* IconOverlay */;
+VALUES (22324,   1, 0x02000E47) /* Setup */
+     , (22324,   6, 0x04000BEF) /* PaletteBase */
+     , (22324,   7, 0x1000010B) /* ClothingBase */
+     , (22324,   8, 0x060028FD) /* Icon */
+     , (22324,  50, 0x060028E3) /* IconOverlay */;

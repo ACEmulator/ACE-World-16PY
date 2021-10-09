@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22645,   1, 'Mowen Udaun') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22645,   1,   33556836) /* Setup */
-     , (22645,   2,  150994956) /* MotionTable */
-     , (22645,   3,  536870929) /* SoundTable */
-     , (22645,   4,  805306379) /* CombatTable */
-     , (22645,   6,   67113007) /* PaletteBase */
-     , (22645,   7,  268436059) /* ClothingBase */
-     , (22645,   8,  100667443) /* Icon */
-     , (22645,  22,  872415271) /* PhysicsEffectTable */;
+VALUES (22645,   1, 0x02000964) /* Setup */
+     , (22645,   2, 0x0900000C) /* MotionTable */
+     , (22645,   3, 0x20000011) /* SoundTable */
+     , (22645,   4, 0x3000000B) /* CombatTable */
+     , (22645,   6, 0x0400102F) /* PaletteBase */
+     , (22645,   7, 0x1000025B) /* ClothingBase */
+     , (22645,   8, 0x06001033) /* Icon */
+     , (22645,  22, 0x34000027) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22645,   1, 380, 0, 0) /* Strength */
@@ -93,7 +93,7 @@ VALUES (22645,  0,  8,  3,  0.5,   20,   16,   16,   16,   20,   20,   20,   20,
      , (22645, 21, 64,  3,  0.5,   10,    8,    8,    8,   10,   10,   10,   10,    0, 2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Wings */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (22645,  5 /* HeartBeat */,    0.2, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (22645,  5 /* HeartBeat */,    0.2, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -101,7 +101,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,   8 /* Say */, 0, 0, NULL, 'I should be walking around and stuff.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (22645,  5 /* HeartBeat */,    0.4, NULL, 2147483709 /* NonCombat */, 1090519043 /* Ready */, NULL, NULL, NULL, NULL);
+VALUES (22645,  5 /* HeartBeat */,    0.4, NULL, 0x8000003D /* NonCombat */, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

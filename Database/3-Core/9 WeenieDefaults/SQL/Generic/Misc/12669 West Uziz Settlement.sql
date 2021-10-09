@@ -22,5 +22,5 @@ VALUES (12669,   1, 'West Uziz Settlement') /* Name */
      , (12669,  16, 'Welcome to West Uziz Settlement') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12669,   1,   33557463) /* Setup */
-     , (12669,   8,  100668115) /* Icon */;
+VALUES (12669,   1, 0x02000BD7) /* Setup */
+     , (12669,   8, 0x060012D3) /* Icon */;

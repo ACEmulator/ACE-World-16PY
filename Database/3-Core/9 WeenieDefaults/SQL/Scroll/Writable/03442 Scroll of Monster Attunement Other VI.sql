@@ -25,7 +25,7 @@ VALUES (3442,   1, 'Scroll of Monster Attunement Other VI') /* Name */
      , (3442,  16, 'When learned, this spell increases the target''s Assess Monster skill by 150%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3442,   1,   33554826) /* Setup */
-     , (3442,   8,  100676448) /* Icon */
-     , (3442,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3442,   1, 0x0200018A) /* Setup */
+     , (3442,   8, 0x06003360) /* Icon */
+     , (3442,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3442,  28,        809) /* Spell - Monster Attunement Other VI */;

@@ -42,9 +42,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21349,   1, 'Chorizite Atlatl Dart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21349,   1,   33558060) /* Setup */
-     , (21349,   3,  536870932) /* SoundTable */
-     , (21349,   6,   67111919) /* PaletteBase */
-     , (21349,   7,  268436305) /* ClothingBase */
-     , (21349,   8,  100673590) /* Icon */
-     , (21349,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21349,   1, 0x02000E2C) /* Setup */
+     , (21349,   3, 0x20000014) /* SoundTable */
+     , (21349,   6, 0x04000BEF) /* PaletteBase */
+     , (21349,   7, 0x10000351) /* ClothingBase */
+     , (21349,   8, 0x06002836) /* Icon */
+     , (21349,  22, 0x3400002B) /* PhysicsEffectTable */;

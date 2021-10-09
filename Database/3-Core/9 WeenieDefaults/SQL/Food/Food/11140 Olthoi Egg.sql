@@ -30,7 +30,7 @@ VALUES (11140,   1, 'Olthoi Egg') /* Name */
      , (11140,  16, 'An Olthoi egg, ripped from the corpse of the Olthoi Queen. The larvae inside is dead, so don''t bother trying to keep it warm...') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11140,   1,   33557217) /* Setup */
-     , (11140,   3,  536870932) /* SoundTable */
-     , (11140,   8,  100671764) /* Icon */
-     , (11140,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11140,   1, 0x02000AE1) /* Setup */
+     , (11140,   3, 0x20000014) /* SoundTable */
+     , (11140,   8, 0x06002114) /* Icon */
+     , (11140,  22, 0x3400002B) /* PhysicsEffectTable */;

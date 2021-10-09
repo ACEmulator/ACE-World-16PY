@@ -43,14 +43,14 @@ VALUES (31200,   1, 'Suikan War Apprentice Robe') /* Name */
      , (31200,  19, 'Sho') /* ItemHeritageGroupRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31200,   1,   33554854) /* Setup */
-     , (31200,   3,  536870932) /* SoundTable */
-     , (31200,   6,   67108990) /* PaletteBase */
-     , (31200,   7,  268435864) /* ClothingBase */
-     , (31200,   8,  100670382) /* Icon */
-     , (31200,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31200,   1, 0x020001A6) /* Setup */
+     , (31200,   3, 0x20000014) /* SoundTable */
+     , (31200,   6, 0x0400007E) /* PaletteBase */
+     , (31200,   7, 0x10000198) /* ClothingBase */
+     , (31200,   8, 0x06001BAE) /* Icon */
+     , (31200,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31200,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31200,   635,      2)  /* War Magic Mastery Other I */
-     , (31200,  1451,      2)  /* Willpower Other I */;
+VALUES (31200,  1451,      2)  /* Willpower Other I */
+     , (31200,   635,      2)  /* War Magic Mastery Other I */;

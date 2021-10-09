@@ -19,7 +19,7 @@ VALUES (8009,   1,        256) /* ItemType - MissileWeapon */
      , (8009,  48,          3) /* WeaponSkill - Crossbow */
      , (8009,  49,        120) /* WeaponTime */
      , (8009,  50,         16) /* AmmoType - BoltCrystal */
-     , (8009,  51,          2) /* CombatUse - Missle */
+     , (8009,  51,          2) /* CombatUse - Missile */
      , (8009,  52,          2) /* ParentLocation - LeftHand */
      , (8009,  53,          3) /* PlacementPosition - LeftHand */
      , (8009,  60,        192) /* WeaponRange */
@@ -52,15 +52,15 @@ VALUES (8009,   1, 'Shendolain Soul Crystal Crossbow') /* Name */
      , (8009,  16, 'A crossbow imbued with the essence of the Shendolain Soul Crystal. Uses crystal-tipped quarrels.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8009,   1,   33554733) /* Setup */
-     , (8009,   3,  536870932) /* SoundTable */
-     , (8009,   6,   67111919) /* PaletteBase */
-     , (8009,   7,  268436042) /* ClothingBase */
-     , (8009,   8,  100671006) /* Icon */
-     , (8009,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8009,   1, 0x0200012D) /* Setup */
+     , (8009,   3, 0x20000014) /* SoundTable */
+     , (8009,   6, 0x04000BEF) /* PaletteBase */
+     , (8009,   7, 0x1000024A) /* ClothingBase */
+     , (8009,   8, 0x06001E1E) /* Icon */
+     , (8009,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8009,  37,          3) /* ItemSkillLimit - Crossbow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8009,   490,      2)  /* Missile Weapon Mastery Other VI */
-     , (8009,  1616,      2)  /* Aura of Blood Drinker Self VI */
+VALUES (8009,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (8009,   490,      2)  /* Missile Weapon Mastery Other VI */
      , (8009,  1627,      2)  /* Aura of Swift Killer Self VI */;

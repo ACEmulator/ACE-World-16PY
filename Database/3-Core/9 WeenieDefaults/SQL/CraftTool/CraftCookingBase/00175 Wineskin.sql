@@ -31,9 +31,9 @@ VALUES (175,   1, 'Wineskin') /* Name */
      , (175,  14, 'You can use this item on a well or fountain.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (175,   1,   33554799) /* Setup */
-     , (175,   3,  536870932) /* SoundTable */
-     , (175,   6,   67111919) /* PaletteBase */
-     , (175,   8,  100668541) /* Icon */
-     , (175,  22,  872415275) /* PhysicsEffectTable */
-     , (175,  36,  234881046) /* MutateFilter */;
+VALUES (175,   1, 0x0200016F) /* Setup */
+     , (175,   3, 0x20000014) /* SoundTable */
+     , (175,   6, 0x04000BEF) /* PaletteBase */
+     , (175,   8, 0x0600147D) /* Icon */
+     , (175,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (175,  36, 0x0E000016) /* MutateFilter */;

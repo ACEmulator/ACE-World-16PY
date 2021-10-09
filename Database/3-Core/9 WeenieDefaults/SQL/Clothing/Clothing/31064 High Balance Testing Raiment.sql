@@ -25,7 +25,7 @@ VALUES (31064,  22, True ) /* Inscribable */
      , (31064, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31064,   5,       0) /* ManaRate */
+VALUES (31064,   5,      -0) /* ManaRate */
      , (31064,  12,    0.33) /* Shade */
      , (31064,  13,     0.8) /* ArmorModVsSlash */
      , (31064,  14,     0.8) /* ArmorModVsPierce */
@@ -40,20 +40,20 @@ VALUES (31064,   1, 'High Balance Testing Raiment') /* Name */
      , (31064,  16, 'Silken raiment woven together to be worn over the entirety of the body. Simple clasps allow for the item to be cinched along the front.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31064,   1,   33554854) /* Setup */
-     , (31064,   3,  536870932) /* SoundTable */
-     , (31064,   6,   67108990) /* PaletteBase */
-     , (31064,   7,  268436640) /* ClothingBase */
-     , (31064,   8,  100667370) /* Icon */
-     , (31064,  22,  872415275) /* PhysicsEffectTable */
-     , (31064,  36,  234881046) /* MutateFilter */;
+VALUES (31064,   1, 0x020001A6) /* Setup */
+     , (31064,   3, 0x20000014) /* SoundTable */
+     , (31064,   6, 0x0400007E) /* PaletteBase */
+     , (31064,   7, 0x100004A0) /* ClothingBase */
+     , (31064,   8, 0x06000FEA) /* Icon */
+     , (31064,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (31064,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31064,  1486,      2)  /* Impenetrability VI */
-     , (31064,  1498,      2)  /* Acid Bane VI */
-     , (31064,  1516,      2)  /* Bludgeon Bane VI */
-     , (31064,  1528,      2)  /* Frost Bane VI */
-     , (31064,  1540,      2)  /* Lightning Bane VI */
+VALUES (31064,  1540,      2)  /* Lightning Bane VI */
+     , (31064,  1486,      2)  /* Impenetrability VI */
      , (31064,  1552,      2)  /* Flame Bane VI */
      , (31064,  1562,      2)  /* Blade Bane VI */
-     , (31064,  1574,      2)  /* Piercing Bane VI */;
+     , (31064,  1498,      2)  /* Acid Bane VI */
+     , (31064,  1574,      2)  /* Piercing Bane VI */
+     , (31064,  1516,      2)  /* Bludgeon Bane VI */
+     , (31064,  1528,      2)  /* Frost Bane VI */;

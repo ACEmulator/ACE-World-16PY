@@ -24,7 +24,7 @@ VALUES (27191,   1, 'Scroll of Lesser Alacrity of the Conclave') /* Name */
      , (27191,  15, 'A magic scroll.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27191,   1,   33554826) /* Setup */
-     , (27191,   8,  100676452) /* Icon */
-     , (27191,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27191,   1, 0x0200018A) /* Setup */
+     , (27191,   8, 0x06003364) /* Icon */
+     , (27191,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27191,  28,       3155) /* Spell - Lesser Alacrity of the Conclave */;

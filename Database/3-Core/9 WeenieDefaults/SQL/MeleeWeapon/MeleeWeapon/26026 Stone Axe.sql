@@ -40,11 +40,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26026,   1, 'Stone Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26026,   1,   33558583) /* Setup */
-     , (26026,   3,  536870932) /* SoundTable */
-     , (26026,   8,  100675763) /* Icon */
-     , (26026,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (26026,   1, 0x02001037) /* Setup */
+     , (26026,   3, 0x20000014) /* SoundTable */
+     , (26026,   8, 0x060030B3) /* Icon */
+     , (26026,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26026,  2096,      2)  /* Aura of Infected Caress */
-     , (26026,  2116,      2)  /* Aura of Atlan's Alacrity */;
+VALUES (26026,  2116,      2)  /* Aura of Atlan's Alacrity */
+     , (26026,  2096,      2)  /* Aura of Infected Caress */;

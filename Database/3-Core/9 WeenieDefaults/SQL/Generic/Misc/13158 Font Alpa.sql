@@ -22,5 +22,5 @@ VALUES (13158,   1, 'Font Alpa') /* Name */
      , (13158,  16, 'Welcome to Font Alpa') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13158,   1,   33557463) /* Setup */
-     , (13158,   8,  100668115) /* Icon */;
+VALUES (13158,   1, 0x02000BD7) /* Setup */
+     , (13158,   8, 0x060012D3) /* Icon */;

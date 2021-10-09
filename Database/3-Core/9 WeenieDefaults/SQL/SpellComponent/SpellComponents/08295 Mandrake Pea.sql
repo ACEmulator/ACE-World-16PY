@@ -30,10 +30,10 @@ VALUES (8295,   1, 'Mandrake Pea') /* Name */
      , (8295,  16, 'A concentrated mandrake pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8295,   1,   33554817) /* Setup */
-     , (8295,   3,  536870932) /* SoundTable */
-     , (8295,   6,   67111919) /* PaletteBase */
-     , (8295,   7,  268435720) /* ClothingBase */
-     , (8295,   8,  100671054) /* Icon */
-     , (8295,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8295,   1, 0x02000181) /* Setup */
+     , (8295,   3, 0x20000014) /* SoundTable */
+     , (8295,   6, 0x04000BEF) /* PaletteBase */
+     , (8295,   7, 0x10000108) /* ClothingBase */
+     , (8295,   8, 0x06001E4E) /* Icon */
+     , (8295,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8295,  29,        120) /* SpellComponent */;

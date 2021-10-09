@@ -67,19 +67,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30688,   1, 'Withered Revered Tumerok Shaman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30688,   1,   33559217) /* Setup */
-     , (30688,   2,  150994954) /* MotionTable */
-     , (30688,   3,  536870931) /* SoundTable */
-     , (30688,   4,  805306380) /* CombatTable */
-     , (30688,   6,   67109314) /* PaletteBase */
-     , (30688,   7,  268436899) /* ClothingBase */
-     , (30688,   8,  100667452) /* Icon */
-     , (30688,  22,  872415270) /* PhysicsEffectTable */
+VALUES (30688,   1, 0x020012B1) /* Setup */
+     , (30688,   2, 0x0900000A) /* MotionTable */
+     , (30688,   3, 0x20000013) /* SoundTable */
+     , (30688,   4, 0x3000000C) /* CombatTable */
+     , (30688,   6, 0x040001C2) /* PaletteBase */
+     , (30688,   7, 0x100005A3) /* ClothingBase */
+     , (30688,   8, 0x0600103C) /* Icon */
+     , (30688,  22, 0x34000026) /* PhysicsEffectTable */
      , (30688,  32,        490) /* WieldedTreasureType - 
-                                   Wield Tachi (23136) | Probability: 30%
-                                   Wield Yumi (23137) | Probability: 30%
+                                   Wield Tachi (23136) | Probability: 30.000002%
+                                   Wield Yumi (23137) | Probability: 30.000002%
                                    Wield 20x Deadly Arrow (15429) | Probability: 100%
-                                   Wield Heavy Crossbow (23131) | Probability: 30%
+                                   Wield Heavy Crossbow (23131) | Probability: 30.000002%
                                    Wield 50x Deadly Quarrel (15438) | Probability: 100% */
      , (30688,  35,        449) /* DeathTreasureType - Loot Tier: 6 */;
 
@@ -97,24 +97,24 @@ VALUES (30688,   1,  4850, 0, 0, 5000) /* MaxHealth */
      , (30688,   5,  4650, 0, 0, 5000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (30688,  1, 0, 3, 0, 285, 0, 2289.07929180443) /* Axe                 Specialized */
-     , (30688,  2, 0, 3, 0, 240, 0, 2289.07929180443) /* Bow                 Specialized */
-     , (30688,  3, 0, 3, 0, 240, 0, 2289.07929180443) /* Crossbow            Specialized */
-     , (30688,  4, 0, 3, 0, 285, 0, 2289.07929180443) /* Dagger              Specialized */
-     , (30688,  5, 0, 3, 0, 285, 0, 2289.07929180443) /* Mace                Specialized */
-     , (30688,  6, 0, 3, 0, 320, 0, 2289.07929180443) /* MeleeDefense        Specialized */
-     , (30688,  7, 0, 3, 0, 430, 0, 2289.07929180443) /* MissileDefense      Specialized */
-     , (30688,  9, 0, 3, 0, 285, 0, 2289.07929180443) /* Spear               Specialized */
-     , (30688, 10, 0, 3, 0, 285, 0, 2289.07929180443) /* Staff               Specialized */
-     , (30688, 11, 0, 3, 0, 285, 0, 2289.07929180443) /* Sword               Specialized */
-     , (30688, 13, 0, 3, 0, 285, 0, 2289.07929180443) /* UnarmedCombat       Specialized */
-     , (30688, 14, 0, 3, 0, 300, 0, 2289.07929180443) /* ArcaneLore          Specialized */
-     , (30688, 15, 0, 3, 0, 295, 0, 2289.07929180443) /* MagicDefense        Specialized */
-     , (30688, 20, 0, 3, 0, 150, 0, 2289.07929180443) /* Deception           Specialized */
-     , (30688, 24, 0, 3, 0,  60, 0, 2289.07929180443) /* Run                 Specialized */
-     , (30688, 31, 0, 3, 0, 230, 0, 2289.07929180443) /* CreatureEnchantment Specialized */
-     , (30688, 33, 0, 3, 0, 230, 0, 2289.07929180443) /* LifeMagic           Specialized */
-     , (30688, 34, 0, 3, 0, 230, 0, 2289.07929180443) /* WarMagic            Specialized */;
+VALUES (30688,  1, 0, 3, 0, 285, 0, 2289.0792918044326) /* Axe                 Specialized */
+     , (30688,  2, 0, 3, 0, 240, 0, 2289.0792918044326) /* Bow                 Specialized */
+     , (30688,  3, 0, 3, 0, 240, 0, 2289.0792918044326) /* Crossbow            Specialized */
+     , (30688,  4, 0, 3, 0, 285, 0, 2289.0792918044326) /* Dagger              Specialized */
+     , (30688,  5, 0, 3, 0, 285, 0, 2289.0792918044326) /* Mace                Specialized */
+     , (30688,  6, 0, 3, 0, 320, 0, 2289.0792918044326) /* MeleeDefense        Specialized */
+     , (30688,  7, 0, 3, 0, 430, 0, 2289.0792918044326) /* MissileDefense      Specialized */
+     , (30688,  9, 0, 3, 0, 285, 0, 2289.0792918044326) /* Spear               Specialized */
+     , (30688, 10, 0, 3, 0, 285, 0, 2289.0792918044326) /* Staff               Specialized */
+     , (30688, 11, 0, 3, 0, 285, 0, 2289.0792918044326) /* Sword               Specialized */
+     , (30688, 13, 0, 3, 0, 285, 0, 2289.0792918044326) /* UnarmedCombat       Specialized */
+     , (30688, 14, 0, 3, 0, 300, 0, 2289.0792918044326) /* ArcaneLore          Specialized */
+     , (30688, 15, 0, 3, 0, 295, 0, 2289.0792918044326) /* MagicDefense        Specialized */
+     , (30688, 20, 0, 3, 0, 150, 0, 2289.0792918044326) /* Deception           Specialized */
+     , (30688, 24, 0, 3, 0,  60, 0, 2289.0792918044326) /* Run                 Specialized */
+     , (30688, 31, 0, 3, 0, 230, 0, 2289.0792918044326) /* CreatureEnchantment Specialized */
+     , (30688, 33, 0, 3, 0, 230, 0, 2289.0792918044326) /* LifeMagic           Specialized */
+     , (30688, 34, 0, 3, 0, 230, 0, 2289.0792918044326) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (30688,  0,  4,  0,    0,  200,  200,  200,  200,  200,  200,  200,  200,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -128,26 +128,26 @@ VALUES (30688,  0,  4,  0,    0,  200,  200,  200,  200,  200,  200,  200,  200,
      , (30688,  8,  4, 55, 0.75,  200,  200,  200,  200,  200,  200,  200,  200,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30688,    63,  2.015)  /* Acid Stream VI */
+VALUES (30688,    85,  2.015)  /* Flame Bolt VI */
+     , (30688,  1161,  2.009)  /* Heal Self VI */
      , (30688,    69,  2.015)  /* Shock Wave VI */
+     , (30688,   146,  2.015)  /* Flame Volley VI */
+     , (30688,   138,  2.015)  /* Frost Volley VI */
      , (30688,    74,  2.015)  /* Frost Bolt VI */
+     , (30688,   267,  2.012)  /* Defenselessness Other VI */
+     , (30688,   142,  2.015)  /* Lightning Volley VI */
      , (30688,    80,  2.015)  /* Lightning Bolt VI */
-     , (30688,    85,  2.015)  /* Flame Bolt VI */
+     , (30688,  1176,  2.012)  /* Harm Other VI */
+     , (30688,   154,  2.015)  /* Blade Volley VI */
      , (30688,    91,  2.015)  /* Force Bolt VI */
+     , (30688,   285,  2.012)  /* Magic Yield Other VI */
      , (30688,    97,  2.015)  /* Whirling Blade VI */
      , (30688,   106,  2.015)  /* Shock Blast VI */
-     , (30688,   138,  2.015)  /* Frost Volley VI */
-     , (30688,   142,  2.015)  /* Lightning Volley VI */
-     , (30688,   146,  2.015)  /* Flame Volley VI */
-     , (30688,   154,  2.015)  /* Blade Volley VI */
      , (30688,   234,  2.012)  /* Vulnerability Other VI */
-     , (30688,   267,  2.012)  /* Defenselessness Other VI */
-     , (30688,   285,  2.012)  /* Magic Yield Other VI */
-     , (30688,  1161,  2.009)  /* Heal Self VI */
-     , (30688,  1176,  2.012)  /* Harm Other VI */
      , (30688,  1200,  2.012)  /* Enfeeble Other VI */
      , (30688,  1265,  2.012)  /* Drain Mana Other VI */
-     , (30688,  1468,  2.012)  /* Feeblemind Other VI */;
+     , (30688,  1468,  2.012)  /* Feeblemind Other VI */
+     , (30688,    63,  2.015)  /* Acid Stream VI */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (30688,  94) /* ATTACK_NOTIFICATION_EVENT */

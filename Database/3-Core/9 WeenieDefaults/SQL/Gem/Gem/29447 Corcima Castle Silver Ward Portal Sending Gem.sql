@@ -42,11 +42,11 @@ VALUES (29447,   1, 'Corcima Castle Silver Ward Portal Sending Gem') /* Name */
      , (29447,  15, 'A glowing red gem.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29447,   1,   33556769) /* Setup */
-     , (29447,   3,  536870932) /* SoundTable */
-     , (29447,   6,   67111919) /* PaletteBase */
-     , (29447,   7,  268435723) /* ClothingBase */
-     , (29447,   8,  100672368) /* Icon */
-     , (29447,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29447,   1, 0x02000921) /* Setup */
+     , (29447,   3, 0x20000014) /* SoundTable */
+     , (29447,   6, 0x04000BEF) /* PaletteBase */
+     , (29447,   7, 0x1000010B) /* ClothingBase */
+     , (29447,   8, 0x06002370) /* Icon */
+     , (29447,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29447,  28,       2942) /* Spell - Free Ride to the Abandoned Mine */
-     , (29447,  36,  234881046) /* MutateFilter */;
+     , (29447,  36, 0x0E000016) /* MutateFilter */;

@@ -31,7 +31,7 @@ VALUES (26006,  22, True ) /* Inscribable */
      , (26006, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (26006,   5, -0.0333) /* ManaRate */
+VALUES (26006,   5,  -0.033) /* ManaRate */
      , (26006,  12,     0.8) /* Shade */
      , (26006,  13,     1.3) /* ArmorModVsSlash */
      , (26006,  14,       1) /* ArmorModVsPierce */
@@ -47,12 +47,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26006,   1, 'Ice Heaume of Frore') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26006,   1,   33558573) /* Setup */
-     , (26006,   3,  536870932) /* SoundTable */
-     , (26006,   6,   67108990) /* PaletteBase */
-     , (26006,   7,  268436780) /* ClothingBase */
-     , (26006,   8,  100675712) /* Icon */
-     , (26006,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (26006,   1, 0x0200102D) /* Setup */
+     , (26006,   3, 0x20000014) /* SoundTable */
+     , (26006,   6, 0x0400007E) /* PaletteBase */
+     , (26006,   7, 0x1000052C) /* ClothingBase */
+     , (26006,   8, 0x06003080) /* Icon */
+     , (26006,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (26006,  1485,      2)  /* Impenetrability V */

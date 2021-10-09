@@ -28,7 +28,7 @@ VALUES (29117,   1, 'Template for Food items. Stacks to 100') /* Name */
      , (29117,  20, 'Food') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29117,   1,   33555978) /* Setup */
-     , (29117,   3,  536870932) /* SoundTable */
-     , (29117,   8,  100669942) /* Icon */
-     , (29117,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29117,   1, 0x0200060A) /* Setup */
+     , (29117,   3, 0x20000014) /* SoundTable */
+     , (29117,   8, 0x060019F6) /* Icon */
+     , (29117,  22, 0x3400002B) /* PhysicsEffectTable */;

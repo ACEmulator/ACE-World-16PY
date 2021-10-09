@@ -29,9 +29,9 @@ VALUES (9485,   1, 'Gan-Zo''s Low-Stakes Gambling Token') /* Name */
      , (9485,  16, 'A green gambling token from Gan-Zo''s Den of Iniquity.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9485,   1,   33557006) /* Setup */
-     , (9485,   3,  536870932) /* SoundTable */
-     , (9485,   6,   67113173) /* PaletteBase */
-     , (9485,   7,  268436161) /* ClothingBase */
-     , (9485,   8,  100671523) /* Icon */
-     , (9485,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9485,   1, 0x02000A0E) /* Setup */
+     , (9485,   3, 0x20000014) /* SoundTable */
+     , (9485,   6, 0x040010D5) /* PaletteBase */
+     , (9485,   7, 0x100002C1) /* ClothingBase */
+     , (9485,   8, 0x06002023) /* Icon */
+     , (9485,  22, 0x3400002B) /* PhysicsEffectTable */;

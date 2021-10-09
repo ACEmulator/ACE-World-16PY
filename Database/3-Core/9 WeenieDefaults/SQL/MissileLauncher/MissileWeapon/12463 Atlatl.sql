@@ -16,7 +16,7 @@ VALUES (12463,   1,        256) /* ItemType - MissileWeapon */
      , (12463,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (12463,  49,         15) /* WeaponTime */
      , (12463,  50,          4) /* AmmoType - Atlatl */
-     , (12463,  51,          2) /* CombatUse - Missle */
+     , (12463,  51,          2) /* CombatUse - Missile */
      , (12463,  60,        120) /* WeaponRange */
      , (12463,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12463, 150,        103) /* HookPlacement - Hook */
@@ -36,11 +36,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12463,   1, 'Atlatl') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12463,   1,   33557433) /* Setup */
-     , (12463,   3,  536870932) /* SoundTable */
-     , (12463,   6,   67111919) /* PaletteBase */
-     , (12463,   7,  268436304) /* ClothingBase */
-     , (12463,   8,  100672372) /* Icon */
-     , (12463,  22,  872415275) /* PhysicsEffectTable */
-     , (12463,  36,  234881053) /* MutateFilter */
-     , (12463,  46,  939524106) /* TsysMutationFilter */;
+VALUES (12463,   1, 0x02000BB9) /* Setup */
+     , (12463,   3, 0x20000014) /* SoundTable */
+     , (12463,   6, 0x04000BEF) /* PaletteBase */
+     , (12463,   7, 0x10000350) /* ClothingBase */
+     , (12463,   8, 0x06002374) /* Icon */
+     , (12463,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (12463,  36, 0x0E00001D) /* MutateFilter */
+     , (12463,  46, 0x3800000A) /* TsysMutationFilter */;

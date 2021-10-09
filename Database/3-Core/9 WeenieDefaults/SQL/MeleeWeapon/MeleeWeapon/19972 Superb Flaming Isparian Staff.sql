@@ -51,17 +51,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19972,   1, 'Superb Flaming Isparian Staff') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19972,   1,   33556373) /* Setup */
-     , (19972,   3,  536870932) /* SoundTable */
-     , (19972,   6,   67111919) /* PaletteBase */
-     , (19972,   7,  268436384) /* ClothingBase */
-     , (19972,   8,  100672941) /* Icon */
-     , (19972,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19972,   1, 0x02000795) /* Setup */
+     , (19972,   3, 0x20000014) /* SoundTable */
+     , (19972,   6, 0x04000BEF) /* PaletteBase */
+     , (19972,   7, 0x100003A0) /* ClothingBase */
+     , (19972,   8, 0x060025AD) /* Icon */
+     , (19972,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19972,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19972,  1094,      2)  /* Fire Protection Self VI */
-     , (19972,  1331,      2)  /* Strength Self V */
+VALUES (19972,  2565,      2)  /* Minor Light Weapon Aptitude */
+     , (19972,  1094,      2)  /* Fire Protection Self VI */
      , (19972,  1591,      2)  /* Aura of Heart Seeker Self V */
      , (19972,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (19972,  2565,      2)  /* Minor Light Weapon Aptitude */;
+     , (19972,  1331,      2)  /* Strength Self V */;

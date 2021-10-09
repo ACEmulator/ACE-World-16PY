@@ -22,7 +22,7 @@ VALUES (4424,   1, 'The Scholar''s Study	') /* Name */
      , (4424,  16, 'The Scholar''s Study') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4424,   1,   33555088) /* Setup */
-     , (4424,   6,   67111092) /* PaletteBase */
-     , (4424,   7,  268435660) /* ClothingBase */
-     , (4424,   8,  100668115) /* Icon */;
+VALUES (4424,   1, 0x02000290) /* Setup */
+     , (4424,   6, 0x040008B4) /* PaletteBase */
+     , (4424,   7, 0x100000CC) /* ClothingBase */
+     , (4424,   8, 0x060012D3) /* Icon */;

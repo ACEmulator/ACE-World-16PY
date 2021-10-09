@@ -18,7 +18,7 @@ VALUES (23137,   1,        256) /* ItemType - MissileWeapon */
      , (23137,  48,          2) /* WeaponSkill - Bow */
      , (23137,  49,         20) /* WeaponTime */
      , (23137,  50,          1) /* AmmoType - Arrow */
-     , (23137,  51,          2) /* CombatUse - Missle */
+     , (23137,  51,          2) /* CombatUse - Missile */
      , (23137,  52,          2) /* ParentLocation - LeftHand */
      , (23137,  53,          3) /* PlacementPosition - LeftHand */
      , (23137,  60,        192) /* WeaponRange */
@@ -33,7 +33,7 @@ VALUES (23137,  22, True ) /* Inscribable */
      , (23137,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23137,   5,       0) /* ManaRate */
+VALUES (23137,   5,      -0) /* ManaRate */
      , (23137,  26,    27.3) /* MaximumVelocity */
      , (23137,  29,       1) /* WeaponDefense */
      , (23137,  39,     1.1) /* DefaultScale */
@@ -44,13 +44,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23137,   1, 'Yumi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23137,   1,   33554728) /* Setup */
-     , (23137,   3,  536870932) /* SoundTable */
-     , (23137,   6,   67111919) /* PaletteBase */
-     , (23137,   7,  268435759) /* ClothingBase */
-     , (23137,   8,  100668815) /* Icon */
-     , (23137,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23137,   1, 0x02000128) /* Setup */
+     , (23137,   3, 0x20000014) /* SoundTable */
+     , (23137,   6, 0x04000BEF) /* PaletteBase */
+     , (23137,   7, 0x1000012F) /* ClothingBase */
+     , (23137,   8, 0x0600158F) /* Icon */
+     , (23137,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23137,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (23137,  1624,      2)  /* Aura of Swift Killer Self III */;
+VALUES (23137,  1624,      2)  /* Aura of Swift Killer Self III */
+     , (23137,  1616,      2)  /* Aura of Blood Drinker Self VI */;

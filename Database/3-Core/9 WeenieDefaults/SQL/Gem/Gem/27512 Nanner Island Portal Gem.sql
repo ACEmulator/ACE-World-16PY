@@ -42,10 +42,10 @@ VALUES (27512,   1, 'Nanner Island Portal Gem') /* Name */
      , (27512,  15, 'A nanner-colored portal gem, teeming with energy. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27512,   1,   33556769) /* Setup */
-     , (27512,   3,  536870932) /* SoundTable */
-     , (27512,   6,   67111919) /* PaletteBase */
-     , (27512,   7,  268435723) /* ClothingBase */
-     , (27512,   8,  100676422) /* Icon */
-     , (27512,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27512,   1, 0x02000921) /* Setup */
+     , (27512,   3, 0x20000014) /* SoundTable */
+     , (27512,   6, 0x04000BEF) /* PaletteBase */
+     , (27512,   7, 0x1000010B) /* ClothingBase */
+     , (27512,   8, 0x06003346) /* Icon */
+     , (27512,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27512,  28,       3238) /* Spell - Portal to Nanner Island */;

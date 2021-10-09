@@ -26,7 +26,7 @@ VALUES (28527,   1, 'Full Wheel Cart') /* Name */
      , (28527,  16, 'Kreavon, the Lugian collector, filled this cart and handed it back to you for delivery to Captain K''rank. It''s quite heavy, and will likely weigh you down. Best deliver it quickly.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28527,   1,   33556240) /* Setup */
-     , (28527,   3,  536870932) /* SoundTable */
-     , (28527,   8,  100676963) /* Icon */
-     , (28527,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28527,   1, 0x02000710) /* Setup */
+     , (28527,   3, 0x20000014) /* SoundTable */
+     , (28527,   8, 0x06003563) /* Icon */
+     , (28527,  22, 0x3400002B) /* PhysicsEffectTable */;

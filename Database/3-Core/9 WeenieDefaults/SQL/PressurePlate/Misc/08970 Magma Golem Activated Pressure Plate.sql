@@ -28,13 +28,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8970,   1, 'Magma Golem Activated Pressure Plate') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8970,   1,   33555536) /* Setup */
-     , (8970,   2,  150994977) /* MotionTable */
-     , (8970,   8,  100668114) /* Icon */
-     , (8970,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8970,   1, 0x02000450) /* Setup */
+     , (8970,   2, 0x09000021) /* MotionTable */
+     , (8970,   8, 0x060012D2) /* Icon */
+     , (8970,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8970,  16,          0) /* ActivationTarget */;
+VALUES (8970,  16, 0x00000000) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8970, -1, 6645, 480, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Unstable Magma Golem (6645) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */;

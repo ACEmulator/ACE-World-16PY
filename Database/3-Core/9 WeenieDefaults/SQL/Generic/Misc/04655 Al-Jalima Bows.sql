@@ -23,7 +23,7 @@ VALUES (4655,   1, 'Al-Jalima Bows') /* Name */
      , (4655,  16, 'Al-Jalima Bows') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4655,   1,   33555909) /* Setup */
-     , (4655,   6,   67111860) /* PaletteBase */
-     , (4655,   7,  268435819) /* ClothingBase */
-     , (4655,   8,  100668115) /* Icon */;
+VALUES (4655,   1, 0x020005C5) /* Setup */
+     , (4655,   6, 0x04000BB4) /* PaletteBase */
+     , (4655,   7, 0x1000016B) /* ClothingBase */
+     , (4655,   8, 0x060012D3) /* Icon */;

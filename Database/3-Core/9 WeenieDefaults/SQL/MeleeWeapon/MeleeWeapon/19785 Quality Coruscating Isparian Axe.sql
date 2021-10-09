@@ -51,16 +51,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19785,   1, 'Quality Coruscating Isparian Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19785,   1,   33556352) /* Setup */
-     , (19785,   3,  536870932) /* SoundTable */
-     , (19785,   6,   67111919) /* PaletteBase */
-     , (19785,   7,  268436377) /* ClothingBase */
-     , (19785,   8,  100672887) /* Icon */
-     , (19785,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19785,   1, 0x02000780) /* Setup */
+     , (19785,   3, 0x20000014) /* SoundTable */
+     , (19785,   6, 0x04000BEF) /* PaletteBase */
+     , (19785,   7, 0x10000399) /* ClothingBase */
+     , (19785,   8, 0x06002577) /* Icon */
+     , (19785,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19785,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19785,  1071,      2)  /* Lightning Protection Self VI */
-     , (19785,  1401,      2)  /* Quickness Self V */
-     , (19785,  1589,      2)  /* Aura of Heart Seeker Self III */
-     , (19785,  1613,      2)  /* Aura of Blood Drinker Self III */;
+VALUES (19785,  1589,      2)  /* Aura of Heart Seeker Self III */
+     , (19785,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (19785,  1071,      2)  /* Lightning Protection Self VI */
+     , (19785,  1401,      2)  /* Quickness Self V */;

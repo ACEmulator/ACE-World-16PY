@@ -31,8 +31,8 @@ VALUES (24690,   1, 'Vitriol and Amaranth Crucible') /* Name */
      , (24690,  20, 'Vitriol and Amaranth Crucibles') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24690,   1,   33555966) /* Setup */
-     , (24690,   3,  536870932) /* SoundTable */
-     , (24690,   8,  100674463) /* Icon */
-     , (24690,  22,  872415275) /* PhysicsEffectTable */
-     , (24690,  50,  100674416) /* IconOverlay */;
+VALUES (24690,   1, 0x020005FE) /* Setup */
+     , (24690,   3, 0x20000014) /* SoundTable */
+     , (24690,   8, 0x06002B9F) /* Icon */
+     , (24690,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24690,  50, 0x06002B70) /* IconOverlay */;

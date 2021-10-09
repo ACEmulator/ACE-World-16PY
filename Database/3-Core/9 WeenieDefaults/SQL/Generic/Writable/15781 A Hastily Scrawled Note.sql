@@ -25,7 +25,7 @@ VALUES (15781,   1, 'A Hastily Scrawled Note') /* Name */
      , (15781,  16, 'A note hastily written by Nuhmudira. A strange symbol is scribbled at the bottom.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15781,   1,   33554773) /* Setup */
-     , (15781,   3,  536870932) /* SoundTable */
-     , (15781,   8,  100672795) /* Icon */
-     , (15781,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (15781,   1, 0x02000155) /* Setup */
+     , (15781,   3, 0x20000014) /* SoundTable */
+     , (15781,   8, 0x0600251B) /* Icon */
+     , (15781,  22, 0x3400002B) /* PhysicsEffectTable */;

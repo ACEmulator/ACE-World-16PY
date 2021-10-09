@@ -23,7 +23,7 @@ VALUES (4664,   1, 'Safruya''s Bows') /* Name */
      , (4664,  16, 'Safruya''s Bows') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4664,   1,   33555909) /* Setup */
-     , (4664,   6,   67111860) /* PaletteBase */
-     , (4664,   7,  268435819) /* ClothingBase */
-     , (4664,   8,  100668115) /* Icon */;
+VALUES (4664,   1, 0x020005C5) /* Setup */
+     , (4664,   6, 0x04000BB4) /* PaletteBase */
+     , (4664,   7, 0x1000016B) /* ClothingBase */
+     , (4664,   8, 0x060012D3) /* Icon */;

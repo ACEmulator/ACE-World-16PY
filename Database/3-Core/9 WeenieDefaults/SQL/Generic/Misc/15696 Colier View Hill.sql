@@ -22,5 +22,5 @@ VALUES (15696,   1, 'Colier View Hill') /* Name */
      , (15696,  16, 'Welcome to Colier View Hill') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15696,   1,   33557463) /* Setup */
-     , (15696,   8,  100668115) /* Icon */;
+VALUES (15696,   1, 0x02000BD7) /* Setup */
+     , (15696,   8, 0x060012D3) /* Icon */;

@@ -24,7 +24,7 @@ VALUES (20429,   1, 'Scroll of Vagabond''s Gift') /* Name */
      , (20429,  15, 'When learned, this spell decreases a lock''s resistance to picking by 200 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20429,   1,   33554826) /* Setup */
-     , (20429,   8,  100676678) /* Icon */
-     , (20429,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20429,   1, 0x0200018A) /* Setup */
+     , (20429,   8, 0x06003446) /* Icon */
+     , (20429,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20429,  28,       2119) /* Spell - Vagabond's Gift */;

@@ -69,14 +69,14 @@ VALUES (8823,   1, 'Ler Rahn') /* Name */
      , (8823,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8823,   1,   33556251) /* Setup */
-     , (8823,   2,  150995091) /* MotionTable */
-     , (8823,   3,  536870914) /* SoundTable */
-     , (8823,   4,  805306408) /* CombatTable */
-     , (8823,   6,   67108990) /* PaletteBase */
-     , (8823,   7,  268435871) /* ClothingBase */
-     , (8823,   8,  100670398) /* Icon */
-     , (8823,  22,  872415331) /* PhysicsEffectTable */
+VALUES (8823,   1, 0x0200071B) /* Setup */
+     , (8823,   2, 0x09000093) /* MotionTable */
+     , (8823,   3, 0x20000002) /* SoundTable */
+     , (8823,   4, 0x30000028) /* CombatTable */
+     , (8823,   6, 0x0400007E) /* PaletteBase */
+     , (8823,   7, 0x1000019F) /* ClothingBase */
+     , (8823,   8, 0x06001BBE) /* Icon */
+     , (8823,  22, 0x34000063) /* PhysicsEffectTable */
      , (8823,  35,        183) /* DeathTreasureType - Loot Tier: 5 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -93,23 +93,23 @@ VALUES (8823,   1,   500, 0, 0, 620) /* MaxHealth */
      , (8823,   5,   400, 0, 0, 695) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (8823,  1, 0, 2, 0, 180, 0, 608.24822034706) /* Axe                 Trained */
-     , (8823,  2, 0, 3, 0, 220, 0, 608.24822034706) /* Bow                 Specialized */
-     , (8823,  3, 0, 2, 0, 220, 0, 608.24822034706) /* Crossbow            Trained */
-     , (8823,  4, 0, 3, 0, 180, 0, 608.24822034706) /* Dagger              Specialized */
-     , (8823,  5, 0, 2, 0, 180, 0, 608.24822034706) /* Mace                Trained */
-     , (8823,  6, 0, 2, 0, 180, 0, 608.24822034706) /* MeleeDefense        Trained */
-     , (8823,  7, 0, 3, 0, 220, 0, 608.24822034706) /* MissileDefense      Specialized */
-     , (8823,  9, 0, 3, 0, 180, 0, 608.24822034706) /* Spear               Specialized */
-     , (8823, 10, 0, 2, 0, 180, 0, 608.24822034706) /* Staff               Trained */
-     , (8823, 11, 0, 3, 0, 180, 0, 608.24822034706) /* Sword               Specialized */
-     , (8823, 13, 0, 2, 0, 110, 0, 608.24822034706) /* UnarmedCombat       Trained */
-     , (8823, 14, 0, 2, 0, 320, 0, 608.24822034706) /* ArcaneLore          Trained */
-     , (8823, 15, 0, 3, 0, 185, 0, 608.24822034706) /* MagicDefense        Specialized */
-     , (8823, 20, 0, 2, 0, 150, 0, 608.24822034706) /* Deception           Trained */
-     , (8823, 31, 0, 2, 0, 320, 0, 608.24822034706) /* CreatureEnchantment Trained */
-     , (8823, 33, 0, 2, 0, 320, 0, 608.24822034706) /* LifeMagic           Trained */
-     , (8823, 34, 0, 2, 0, 320, 0, 608.24822034706) /* WarMagic            Trained */;
+VALUES (8823,  1, 0, 2, 0, 180, 0, 608.2482203470598) /* Axe                 Trained */
+     , (8823,  2, 0, 3, 0, 220, 0, 608.2482203470598) /* Bow                 Specialized */
+     , (8823,  3, 0, 2, 0, 220, 0, 608.2482203470598) /* Crossbow            Trained */
+     , (8823,  4, 0, 3, 0, 180, 0, 608.2482203470598) /* Dagger              Specialized */
+     , (8823,  5, 0, 2, 0, 180, 0, 608.2482203470598) /* Mace                Trained */
+     , (8823,  6, 0, 2, 0, 180, 0, 608.2482203470598) /* MeleeDefense        Trained */
+     , (8823,  7, 0, 3, 0, 220, 0, 608.2482203470598) /* MissileDefense      Specialized */
+     , (8823,  9, 0, 3, 0, 180, 0, 608.2482203470598) /* Spear               Specialized */
+     , (8823, 10, 0, 2, 0, 180, 0, 608.2482203470598) /* Staff               Trained */
+     , (8823, 11, 0, 3, 0, 180, 0, 608.2482203470598) /* Sword               Specialized */
+     , (8823, 13, 0, 2, 0, 110, 0, 608.2482203470598) /* UnarmedCombat       Trained */
+     , (8823, 14, 0, 2, 0, 320, 0, 608.2482203470598) /* ArcaneLore          Trained */
+     , (8823, 15, 0, 3, 0, 185, 0, 608.2482203470598) /* MagicDefense        Specialized */
+     , (8823, 20, 0, 2, 0, 150, 0, 608.2482203470598) /* Deception           Trained */
+     , (8823, 31, 0, 2, 0, 320, 0, 608.2482203470598) /* CreatureEnchantment Trained */
+     , (8823, 33, 0, 2, 0, 320, 0, 608.2482203470598) /* LifeMagic           Trained */
+     , (8823, 34, 0, 2, 0, 320, 0, 608.2482203470598) /* WarMagic            Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (8823,  0,  4,  0,    0,  230,  230,  198,  209,  175,  230,  179,  198,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -123,28 +123,28 @@ VALUES (8823,  0,  4,  0,    0,  230,  230,  198,  209,  175,  230,  179,  198, 
      , (8823,  8,  4, 45, 0.75,  230,  230,  198,  209,  175,  230,  179,  198,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8823,    73,  2.032)  /* Frost Bolt V */
-     , (8823,    79,  2.032)  /* Lightning Bolt V */
-     , (8823,    84,  2.032)  /* Flame Bolt V */
-     , (8823,    90,  2.032)  /* Force Bolt V */
-     , (8823,    96,  2.032)  /* Whirling Blade V */
-     , (8823,   137,  2.003)  /* Frost Volley V */
-     , (8823,   141,  2.003)  /* Lightning Volley V */
+VALUES (8823,  1159,   2.02)  /* Heal Self IV */
      , (8823,   145,  2.003)  /* Flame Volley V */
-     , (8823,   149,  2.003)  /* Force Volley V */
-     , (8823,   153,  2.003)  /* Blade Volley V */
-     , (8823,   233,  2.023)  /* Vulnerability Other V */
-     , (8823,   278,  2.006)  /* Magic Resistance Self V */
-     , (8823,   285,  2.023)  /* Magic Yield Other VI */
-     , (8823,   609,  2.006)  /* Life Magic Mastery Self V */
-     , (8823,   627,  2.023)  /* Life Magic Ineptitude Other V */
+     , (8823,   137,  2.003)  /* Frost Volley V */
+     , (8823,    73,  2.032)  /* Frost Bolt V */
+     , (8823,  1419,  2.023)  /* Slowness Other V */
+     , (8823,   141,  2.003)  /* Lightning Volley V */
+     , (8823,    79,  2.032)  /* Lightning Bolt V */
      , (8823,   657,  2.006)  /* Mana Conversion Mastery Self V */
-     , (8823,  1159,   2.02)  /* Heal Self IV */
+     , (8823,    84,  2.032)  /* Flame Bolt V */
+     , (8823,   149,  2.003)  /* Force Volley V */
+     , (8823,   278,  2.006)  /* Magic Resistance Self V */
      , (8823,  1175,  2.023)  /* Harm Other V */
      , (8823,  1240,  2.011)  /* Drain Health Other IV */
      , (8823,  1241,  2.023)  /* Drain Health Other V */
+     , (8823,   153,  2.003)  /* Blade Volley V */
+     , (8823,    90,  2.032)  /* Force Bolt V */
+     , (8823,   285,  2.023)  /* Magic Yield Other VI */
      , (8823,  1311,  2.006)  /* Armor Self V */
-     , (8823,  1419,  2.023)  /* Slowness Other V */
+     , (8823,    96,  2.032)  /* Whirling Blade V */
+     , (8823,   609,  2.006)  /* Life Magic Mastery Self V */
+     , (8823,   233,  2.023)  /* Vulnerability Other V */
+     , (8823,   627,  2.023)  /* Life Magic Ineptitude Other V */
      , (8823,  1467,  2.023)  /* Feeblemind Other V */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
@@ -176,7 +176,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'A shrieking, squealing noise fills your head momentarily, pulsating with hatred, but quickly fades away into silence.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (8823,  3 /* Death */, 0.05999999, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (8823,  3 /* Death */,   0.06, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -184,7 +184,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'A shrieking, squealing noise fills your mind, pulsating with hatred. You find yourself standing on an unfamiliar shore. It is a blood-red dawn; the sort Viamont mariners say presage storms. A ripping noise rises, growing until it shakes the air around you. Birds cry, starting from the trees in terror. You raise your eyes to the horizon. Just above the green-blue sea, a black speck crosses the sun, trailing a great tongue of flame.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (8823,  3 /* Death */, 0.06999999, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (8823,  3 /* Death */,   0.07, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 
@@ -192,7 +192,7 @@ INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `dela
 VALUES (@parent_id,  0,  17 /* LocalBroadcast */, 0, 0, NULL, 'A shrieking, squealing noise fills your mind, pulsating with hatred. You stand in a frigid downpour, among a crowd of thin and shivering people. Before you stands a fat, amber-eyed man in sumptuous robes, shielded from the rain by a glittering magical field. He shouts at the crowd, words you cannot comprehend, and thrusts a condemning finger at you again and again. As the vision fades, he gestures in supplication at the cloud-shrouded heavens.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (8823,  3 /* Death */, 0.07999999, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+VALUES (8823,  3 /* Death */,   0.08, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 SET @parent_id = LAST_INSERT_ID();
 

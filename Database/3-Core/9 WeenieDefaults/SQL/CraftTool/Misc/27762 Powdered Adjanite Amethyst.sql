@@ -32,9 +32,9 @@ VALUES (27762,   1, 'Powdered Adjanite Amethyst') /* Name */
      , (27762,  15, 'A pile of finely ground amethyst. The powder sparkles in even the faintest of light.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27762,   1,   33555208) /* Setup */
-     , (27762,   3,  536870932) /* SoundTable */
-     , (27762,   6,   67111919) /* PaletteBase */
-     , (27762,   7,  268435778) /* ClothingBase */
-     , (27762,   8,  100676637) /* Icon */
-     , (27762,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27762,   1, 0x02000308) /* Setup */
+     , (27762,   3, 0x20000014) /* SoundTable */
+     , (27762,   6, 0x04000BEF) /* PaletteBase */
+     , (27762,   7, 0x10000142) /* ClothingBase */
+     , (27762,   8, 0x0600341D) /* Icon */
+     , (27762,  22, 0x3400002B) /* PhysicsEffectTable */;

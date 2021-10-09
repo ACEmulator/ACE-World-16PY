@@ -24,7 +24,7 @@ VALUES (20516,   1, 'Scroll of Itchy Finger') /* Name */
      , (20516,  15, 'When learned, this spell decreases the target''s Crossbow skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20516,   1,   33554826) /* Setup */
-     , (20516,   8,  100676454) /* Icon */
-     , (20516,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20516,   1, 0x0200018A) /* Setup */
+     , (20516,   8, 0x06003366) /* Icon */
+     , (20516,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20516,  28,       2216) /* Spell - Missile Weapon Ineptitude Other VII */;

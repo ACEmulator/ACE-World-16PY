@@ -31,8 +31,8 @@ VALUES (24694,   1, 'Cadmia and Amaranth Crucible') /* Name */
      , (24694,  20, 'Cadmia and Amaranth Crucibles') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24694,   1,   33555966) /* Setup */
-     , (24694,   3,  536870932) /* SoundTable */
-     , (24694,   8,  100674466) /* Icon */
-     , (24694,  22,  872415275) /* PhysicsEffectTable */
-     , (24694,  50,  100674416) /* IconOverlay */;
+VALUES (24694,   1, 0x020005FE) /* Setup */
+     , (24694,   3, 0x20000014) /* SoundTable */
+     , (24694,   8, 0x06002BA2) /* Icon */
+     , (24694,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (24694,  50, 0x06002B70) /* IconOverlay */;

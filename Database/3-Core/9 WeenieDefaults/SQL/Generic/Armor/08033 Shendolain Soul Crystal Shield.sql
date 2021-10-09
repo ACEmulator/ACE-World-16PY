@@ -52,15 +52,15 @@ VALUES (8033,   1, 'Shendolain Soul Crystal Shield') /* Name */
      , (8033,  16, 'A shield imbued with the power of the Shendolain Soul Crystal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8033,   1,   33554786) /* Setup */
-     , (8033,   3,  536870932) /* SoundTable */
-     , (8033,   6,   67111919) /* PaletteBase */
-     , (8033,   7,  268436037) /* ClothingBase */
-     , (8033,   8,  100670977) /* Icon */
-     , (8033,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8033,   1, 0x02000162) /* Setup */
+     , (8033,   3, 0x20000014) /* SoundTable */
+     , (8033,   6, 0x04000BEF) /* PaletteBase */
+     , (8033,   7, 0x10000245) /* ClothingBase */
+     , (8033,   8, 0x06001E01) /* Icon */
+     , (8033,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8033,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8033,   249,      2)  /* Invulnerability Self VI */
-     , (8033,  2006,      2)  /* Warrior's Ultimate Vitality */
-     , (8033,  2010,      2)  /* Warrior's Ultimate Vigor */;
+VALUES (8033,  2006,      2)  /* Warrior's Ultimate Vitality */
+     , (8033,  2010,      2)  /* Warrior's Ultimate Vigor */
+     , (8033,   249,      2)  /* Invulnerability Self VI */;

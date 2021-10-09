@@ -39,10 +39,10 @@ VALUES (12756,   1, 'Academy Spear') /* Name */
      , (12756,  15, 'An enhanced spear crafted in the Training Academy. This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12756,   1,   33554756) /* Setup */
-     , (12756,   3,  536870932) /* SoundTable */
-     , (12756,   6,   67111919) /* PaletteBase */
-     , (12756,   7,  268435768) /* ClothingBase */
-     , (12756,   8,  100669005) /* Icon */
-     , (12756,  22,  872415275) /* PhysicsEffectTable */
-     , (12756,  36,  234881044) /* MutateFilter */;
+VALUES (12756,   1, 0x02000144) /* Setup */
+     , (12756,   3, 0x20000014) /* SoundTable */
+     , (12756,   6, 0x04000BEF) /* PaletteBase */
+     , (12756,   7, 0x10000138) /* ClothingBase */
+     , (12756,   8, 0x0600164D) /* Icon */
+     , (12756,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (12756,  36, 0x0E000014) /* MutateFilter */;

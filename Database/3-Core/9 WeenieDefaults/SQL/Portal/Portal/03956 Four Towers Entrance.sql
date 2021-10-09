@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3956,   1, 'Four Towers Entrance') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3956,   1,   33555923) /* Setup */
-     , (3956,   2,  150994947) /* MotionTable */
-     , (3956,   8,  100667499) /* Icon */;
+VALUES (3956,   1, 0x020005D3) /* Setup */
+     , (3956,   2, 0x09000003) /* MotionTable */
+     , (3956,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3956, 2, 2190344222, 77.6, 122.9, 124, -0.5299193, 0, 0, -0.848048) /* Destination */
-/* @teleloc 0x828E001E [77.600000 122.900000 124.000000] -0.529919 0.000000 0.000000 -0.848048 */;
+VALUES (3956, 2, 0x828E001E, 77.6, 122.9, 124, -0.529919, 0, -0, -0.848048) /* Destination */
+/* @teleloc 0x828E001E [77.599998 122.900002 124.000000] -0.529919 0.000000 -0.000000 -0.848048 */;

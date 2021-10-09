@@ -25,7 +25,7 @@ VALUES (30640,   1, 'Banderling Holy Symbol') /* Name */
      , (30640,  16, 'A crude holy symbol fashioned from a Ring of Vines, Murky Gem and Stone Emblem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30640,   1,   33554784) /* Setup */
-     , (30640,   3,  536870932) /* SoundTable */
-     , (30640,   8,  100677386) /* Icon */
-     , (30640,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30640,   1, 0x02000160) /* Setup */
+     , (30640,   3, 0x20000014) /* SoundTable */
+     , (30640,   8, 0x0600370A) /* Icon */
+     , (30640,  22, 0x3400002B) /* PhysicsEffectTable */;

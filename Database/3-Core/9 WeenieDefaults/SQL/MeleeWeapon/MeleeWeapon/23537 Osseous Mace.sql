@@ -45,16 +45,16 @@ VALUES (23537,   1, 'Osseous Mace') /* Name */
      , (23537,  16, 'The leg of a Relic Bones.  It is inscribed with runes, and the entire bone shines with a ruddy flame.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23537,   1,   33557329) /* Setup */
-     , (23537,   3,  536870932) /* SoundTable */
-     , (23537,   8,  100674096) /* Icon */
-     , (23537,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23537,   1, 0x02000B51) /* Setup */
+     , (23537,   3, 0x20000014) /* SoundTable */
+     , (23537,   8, 0x06002A30) /* Icon */
+     , (23537,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23537,  1035,      2)  /* Cold Protection Self VI */
-     , (23537,  1311,      2)  /* Armor Self V */
-     , (23537,  1592,      2)  /* Aura of Heart Seeker Self VI */
      , (23537,  1605,      2)  /* Aura of Defender Self VI */
+     , (23537,  1592,      2)  /* Aura of Heart Seeker Self VI */
      , (23537,  1616,      2)  /* Aura of Blood Drinker Self VI */
      , (23537,  1625,      2)  /* Aura of Swift Killer Self IV */
+     , (23537,  1311,      2)  /* Armor Self V */
      , (23537,  2486,      2)  /* Blood Thirst */;

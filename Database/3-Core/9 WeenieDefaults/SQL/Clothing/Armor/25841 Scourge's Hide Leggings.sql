@@ -45,12 +45,12 @@ VALUES (25841,   1, 'Scourge''s Hide Leggings') /* Name */
      , (25841,  15, 'These leggings were crafted from the hide of the plague ridden hide of the dreaded rat, Scourge.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25841,   1,   33554856) /* Setup */
-     , (25841,   3,  536870932) /* SoundTable */
-     , (25841,   6,   67108990) /* PaletteBase */
-     , (25841,   7,  268436754) /* ClothingBase */
-     , (25841,   8,  100675610) /* Icon */
-     , (25841,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25841,   1, 0x020001A8) /* Setup */
+     , (25841,   3, 0x20000014) /* SoundTable */
+     , (25841,   6, 0x0400007E) /* PaletteBase */
+     , (25841,   7, 0x10000512) /* ClothingBase */
+     , (25841,   8, 0x0600301A) /* Icon */
+     , (25841,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25841,  2616,      2)  /* Minor Acid Ward */

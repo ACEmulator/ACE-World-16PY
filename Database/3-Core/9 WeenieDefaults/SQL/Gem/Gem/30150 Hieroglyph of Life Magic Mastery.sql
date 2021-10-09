@@ -30,10 +30,10 @@ VALUES (30150,   1, 'Hieroglyph of Life Magic Mastery') /* Name */
      , (30150,  16, 'A lovely template for a rare magical gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30150,   1,   33554809) /* Setup */
-     , (30150,   3,  536870932) /* SoundTable */
-     , (30150,   6,   67111919) /* PaletteBase */
-     , (30150,   7,  268435723) /* ClothingBase */
-     , (30150,   8,  100674739) /* Icon */
-     , (30150,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30150,   1, 0x02000179) /* Setup */
+     , (30150,   3, 0x20000014) /* SoundTable */
+     , (30150,   6, 0x04000BEF) /* PaletteBase */
+     , (30150,   7, 0x1000010B) /* ClothingBase */
+     , (30150,   8, 0x06002CB3) /* Icon */
+     , (30150,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30150,  28,       2267) /* Spell - Harlune's Blessing */;

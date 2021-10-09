@@ -24,8 +24,8 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5107,   1, 'MAGIC TIPS ') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5107,   1,   33556014) /* Setup */
-     , (5107,   8,  100668115) /* Icon */;
+VALUES (5107,   1, 0x0200062E) /* Setup */
+     , (5107,   8, 0x060012D3) /* Icon */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (5107, 1, 1000);

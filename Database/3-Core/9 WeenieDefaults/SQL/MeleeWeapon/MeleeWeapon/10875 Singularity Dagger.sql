@@ -47,13 +47,13 @@ VALUES (10875,   1, 'Singularity Dagger') /* Name */
      , (10875,  15, 'A dagger imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10875,   1,   33557314) /* Setup */
-     , (10875,   3,  536870932) /* SoundTable */
-     , (10875,   6,   67111919) /* PaletteBase */
-     , (10875,   7,  268436240) /* ClothingBase */
-     , (10875,   8,  100672043) /* Icon */
-     , (10875,  22,  872415275) /* PhysicsEffectTable */
-     , (10875,  36,  234881044) /* MutateFilter */
+VALUES (10875,   1, 0x02000B42) /* Setup */
+     , (10875,   3, 0x20000014) /* SoundTable */
+     , (10875,   6, 0x04000BEF) /* PaletteBase */
+     , (10875,   7, 0x10000310) /* ClothingBase */
+     , (10875,   8, 0x0600222B) /* Icon */
+     , (10875,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (10875,  36, 0x0E000014) /* MutateFilter */
      , (10875,  37,          4) /* ItemSkillLimit - Dagger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

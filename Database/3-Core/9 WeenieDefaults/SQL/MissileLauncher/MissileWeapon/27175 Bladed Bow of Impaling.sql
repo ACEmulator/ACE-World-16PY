@@ -17,7 +17,7 @@ VALUES (27175,   1,        256) /* ItemType - MissileWeapon */
      , (27175,  48,          2) /* WeaponSkill - Bow */
      , (27175,  49,         40) /* WeaponTime */
      , (27175,  50,          1) /* AmmoType - Arrow */
-     , (27175,  51,          2) /* CombatUse - Missle */
+     , (27175,  51,          2) /* CombatUse - Missile */
      , (27175,  52,          2) /* ParentLocation - LeftHand */
      , (27175,  53,          3) /* PlacementPosition - LeftHand */
      , (27175,  60,        200) /* WeaponRange */
@@ -53,16 +53,16 @@ VALUES (27175,   1, 'Bladed Bow of Impaling') /* Name */
      , (27175,  16, 'This Falatacot bow was likely used in hunting or combat, bladed edges appear to have allowed the bow to be used in close-combat as well.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27175,   1,   33558633) /* Setup */
-     , (27175,   3,  536870932) /* SoundTable */
-     , (27175,   6,   67114956) /* PaletteBase */
-     , (27175,   7,  268436792) /* ClothingBase */
-     , (27175,   8,  100675922) /* Icon */
-     , (27175,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27175,   1, 0x02001069) /* Setup */
+     , (27175,   3, 0x20000014) /* SoundTable */
+     , (27175,   6, 0x040017CC) /* PaletteBase */
+     , (27175,   7, 0x10000538) /* ClothingBase */
+     , (27175,   8, 0x06003152) /* Icon */
+     , (27175,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27175,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27175,  1381,      2)  /* Coordination Other III */
-     , (27175,  1603,      2)  /* Aura of Defender Self IV */
+VALUES (27175,  1603,      2)  /* Aura of Defender Self IV */
      , (27175,  1614,      2)  /* Aura of Blood Drinker Self IV */
-     , (27175,  1625,      2)  /* Aura of Swift Killer Self IV */;
+     , (27175,  1625,      2)  /* Aura of Swift Killer Self IV */
+     , (27175,  1381,      2)  /* Coordination Other III */;

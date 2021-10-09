@@ -30,8 +30,8 @@ VALUES (4052,   1, 'Shockwave Trap') /* Name */
      , (4052,  22, 'You hear a faint clicking sound.') /* ActivationFailure */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4052,   1,   33554667) /* Setup */
-     , (4052,   3,  536870932) /* SoundTable */
-     , (4052,   8,  100667494) /* Icon */
-     , (4052,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4052,   1, 0x020000EB) /* Setup */
+     , (4052,   3, 0x20000014) /* SoundTable */
+     , (4052,   8, 0x06001066) /* Icon */
+     , (4052,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4052,  28,         64) /* Spell - Shock Wave I */;

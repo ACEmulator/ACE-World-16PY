@@ -43,12 +43,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30263,   1, 'Ancient Armored Helm') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30263,   1,   33559082) /* Setup */
-     , (30263,   3,  536870932) /* SoundTable */
-     , (30263,   6,   67108990) /* PaletteBase */
-     , (30263,   7,  268436884) /* ClothingBase */
-     , (30263,   8,  100677277) /* Icon */
-     , (30263,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30263,   1, 0x0200122A) /* Setup */
+     , (30263,   3, 0x20000014) /* SoundTable */
+     , (30263,   6, 0x0400007E) /* PaletteBase */
+     , (30263,   7, 0x10000594) /* ClothingBase */
+     , (30263,   8, 0x0600369D) /* Icon */
+     , (30263,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30263,  3093,      2)  /* Minor Skin of the Fiazhat */

@@ -25,7 +25,7 @@ VALUES (16922,   1, 'Spool of Silk') /* Name */
      , (16922,  15, 'A spool of fine silk thread.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (16922,   1,   33557711) /* Setup */
-     , (16922,   3,  536870932) /* SoundTable */
-     , (16922,   8,  100672977) /* Icon */
-     , (16922,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (16922,   1, 0x02000CCF) /* Setup */
+     , (16922,   3, 0x20000014) /* SoundTable */
+     , (16922,   8, 0x060025D1) /* Icon */
+     , (16922,  22, 0x3400002B) /* PhysicsEffectTable */;

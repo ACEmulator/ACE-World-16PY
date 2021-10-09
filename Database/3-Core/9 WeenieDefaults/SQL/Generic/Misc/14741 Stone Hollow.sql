@@ -22,5 +22,5 @@ VALUES (14741,   1, 'Stone Hollow') /* Name */
      , (14741,  16, 'Welcome to Stone Hollow') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14741,   1,   33557463) /* Setup */
-     , (14741,   8,  100668115) /* Icon */;
+VALUES (14741,   1, 0x02000BD7) /* Setup */
+     , (14741,   8, 0x060012D3) /* Icon */;

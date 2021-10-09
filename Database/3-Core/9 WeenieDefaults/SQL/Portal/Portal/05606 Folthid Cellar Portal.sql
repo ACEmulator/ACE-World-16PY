@@ -25,10 +25,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5606,   1, 'Folthid Cellar Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5606,   1,   33555923) /* Setup */
-     , (5606,   2,  150994947) /* MotionTable */
-     , (5606,   8,  100667499) /* Icon */;
+VALUES (5606,   1, 0x020005D3) /* Setup */
+     , (5606,   2, 0x09000003) /* MotionTable */
+     , (5606,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5606, 2, 20644659, 60, -80, 0, 0.7193398, 0, 0, -0.6946584) /* Destination */
+VALUES (5606, 2, 0x013B0333, 60, -80, 0, 0.71934, 0, 0, -0.694658) /* Destination */
 /* @teleloc 0x013B0333 [60.000000 -80.000000 0.000000] 0.719340 0.000000 0.000000 -0.694658 */;

@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4035,   1, 'Ghost Town Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4035,   1,   33554867) /* Setup */
-     , (4035,   2,  150994947) /* MotionTable */
-     , (4035,   8,  100667499) /* Icon */;
+VALUES (4035,   1, 0x020001B3) /* Setup */
+     , (4035,   2, 0x09000003) /* MotionTable */
+     , (4035,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4035, 2, 2932211773, 168.6, 104.5, 114.1, 0.6427876, 0, 0, -0.7660444) /* Destination */
-/* @teleloc 0xAEC6003D [168.600000 104.500000 114.100000] 0.642788 0.000000 0.000000 -0.766044 */;
+VALUES (4035, 2, 0xAEC6003D, 168.6, 104.5, 114.1, 0.642788, 0, 0, -0.766044) /* Destination */
+/* @teleloc 0xAEC6003D [168.600006 104.500000 114.099998] 0.642788 0.000000 0.000000 -0.766044 */;

@@ -25,10 +25,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8189,   1, 'Floating Spire') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8189,   1,   33555926) /* Setup */
-     , (8189,   2,  150994947) /* MotionTable */
-     , (8189,   8,  100667499) /* Icon */;
+VALUES (8189,   1, 0x020005D6) /* Setup */
+     , (8189,   2, 0x09000003) /* MotionTable */
+     , (8189,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8189, 2, 679084288, 180, 152, 500, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0x287A0100 [180.000000 152.000000 500.000000] 1.000000 0.000000 0.000000 0.000000 */;
+VALUES (8189, 2, 0x287A0100, 180, 152, 500, 1, 0, 0, -0) /* Destination */
+/* @teleloc 0x287A0100 [180.000000 152.000000 500.000000] 1.000000 0.000000 0.000000 -0.000000 */;

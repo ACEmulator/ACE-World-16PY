@@ -16,7 +16,7 @@ VALUES (30306,   1,        256) /* ItemType - MissileWeapon */
      , (30306,  48,          3) /* WeaponSkill - Crossbow */
      , (30306,  49,        120) /* WeaponTime */
      , (30306,  50,          2) /* AmmoType - Bolt */
-     , (30306,  51,          2) /* CombatUse - Missle */
+     , (30306,  51,          2) /* CombatUse - Missile */
      , (30306,  52,          2) /* ParentLocation - LeftHand */
      , (30306,  53,          3) /* PlacementPosition - LeftHand */
      , (30306,  60,        192) /* WeaponRange */
@@ -39,9 +39,9 @@ VALUES (30306,   1, 'Feathered Razor') /* Name */
      , (30306,  16, 'Describe me here.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30306,   1,   33554732) /* Setup */
-     , (30306,   3,  536870932) /* SoundTable */
-     , (30306,   6,   67111919) /* PaletteBase */
-     , (30306,   7,  268435762) /* ClothingBase */
-     , (30306,   8,  100668835) /* Icon */
-     , (30306,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30306,   1, 0x0200012C) /* Setup */
+     , (30306,   3, 0x20000014) /* SoundTable */
+     , (30306,   6, 0x04000BEF) /* PaletteBase */
+     , (30306,   7, 0x10000132) /* ClothingBase */
+     , (30306,   8, 0x060015A3) /* Icon */
+     , (30306,  22, 0x3400002B) /* PhysicsEffectTable */;

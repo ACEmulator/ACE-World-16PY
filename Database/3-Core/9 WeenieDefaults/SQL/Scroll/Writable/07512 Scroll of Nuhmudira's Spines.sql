@@ -24,7 +24,7 @@ VALUES (7512,   1, 'Scroll of Nuhmudira''s Spines') /* Name */
      , (7512,  15, 'When learned, this spell shoots eight waves of force outward from the caster. Each wave does 40-80 points of piercing damage to the first thing it hits.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7512,   1,   33554826) /* Setup */
-     , (7512,   8,  100677018) /* Icon */
-     , (7512,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7512,   1, 0x0200018A) /* Setup */
+     , (7512,   8, 0x0600359A) /* Icon */
+     , (7512,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7512,  28,       1786) /* Spell - Nuhmudira's Spines */;

@@ -22,5 +22,5 @@ VALUES (22235,   1, 'Celdiseth Court') /* Name */
      , (22235,  16, 'Celdiseth Court') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22235,   1,   33558049) /* Setup */
-     , (22235,   8,  100667499) /* Icon */;
+VALUES (22235,   1, 0x02000E21) /* Setup */
+     , (22235,   8, 0x0600106B) /* Icon */;

@@ -64,12 +64,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8468,   1, 'Sulthis Tendril') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8468,   1,   33555670) /* Setup */
-     , (8468,   2,  150995067) /* MotionTable */
-     , (8468,   3,  536871015) /* SoundTable */
-     , (8468,   4,  805306404) /* CombatTable */
-     , (8468,   8,  100671186) /* Icon */
-     , (8468,  22,  872415332) /* PhysicsEffectTable */
+VALUES (8468,   1, 0x020004D6) /* Setup */
+     , (8468,   2, 0x0900007B) /* MotionTable */
+     , (8468,   3, 0x20000067) /* SoundTable */
+     , (8468,   4, 0x30000024) /* CombatTable */
+     , (8468,   8, 0x06001ED2) /* Icon */
+     , (8468,  22, 0x34000064) /* PhysicsEffectTable */
      , (8468,  35,        462) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
@@ -86,15 +86,15 @@ VALUES (8468,   1,   100, 0, 0, 195) /* MaxHealth */
      , (8468,   5,   200, 0, 0, 400) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (8468,  6, 0, 3, 0, 180, 0, 588.270150949759) /* MeleeDefense        Specialized */
-     , (8468,  7, 0, 3, 0, 315, 0, 588.270150949759) /* MissileDefense      Specialized */
-     , (8468, 12, 0, 3, 0, 100, 0, 588.270150949759) /* ThrownWeapon        Specialized */
-     , (8468, 13, 0, 3, 0, 200, 0, 588.270150949759) /* UnarmedCombat       Specialized */
-     , (8468, 14, 0, 3, 0, 140, 0, 588.270150949759) /* ArcaneLore          Specialized */
-     , (8468, 15, 0, 3, 0, 210, 0, 588.270150949759) /* MagicDefense        Specialized */
-     , (8468, 20, 0, 3, 0, 140, 0, 588.270150949759) /* Deception           Specialized */
-     , (8468, 31, 0, 3, 0, 140, 0, 588.270150949759) /* CreatureEnchantment Specialized */
-     , (8468, 33, 0, 3, 0, 140, 0, 588.270150949759) /* LifeMagic           Specialized */;
+VALUES (8468,  6, 0, 3, 0, 180, 0, 588.2701509497591) /* MeleeDefense        Specialized */
+     , (8468,  7, 0, 3, 0, 315, 0, 588.2701509497591) /* MissileDefense      Specialized */
+     , (8468, 12, 0, 3, 0, 100, 0, 588.2701509497591) /* ThrownWeapon        Specialized */
+     , (8468, 13, 0, 3, 0, 200, 0, 588.2701509497591) /* UnarmedCombat       Specialized */
+     , (8468, 14, 0, 3, 0, 140, 0, 588.2701509497591) /* ArcaneLore          Specialized */
+     , (8468, 15, 0, 3, 0, 210, 0, 588.2701509497591) /* MagicDefense        Specialized */
+     , (8468, 20, 0, 3, 0, 140, 0, 588.2701509497591) /* Deception           Specialized */
+     , (8468, 31, 0, 3, 0, 140, 0, 588.2701509497591) /* CreatureEnchantment Specialized */
+     , (8468, 33, 0, 3, 0, 140, 0, 588.2701509497591) /* LifeMagic           Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (8468,  0,  1, 40, 0.75,  210,  155,   97,   97,   61,  155,   97,   61,    0, 1,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* Head */
@@ -103,11 +103,11 @@ VALUES (8468,  0,  1, 40, 0.75,  210,  155,   97,   97,   61,  155,   97,   61, 
      , (8468, 25,  4, 10, 0.75,  220,  163,  101,  101,   64,  163,  101,   64,    0, 3,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2,  0.2) /* LowerTentacle */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8468,   174,   2.02)  /* Fester Other IV */
+VALUES (8468,  1263,   2.02)  /* Drain Mana Other IV */
      , (8468,  1159,   2.02)  /* Heal Self IV */
      , (8468,  1174,    2.1)  /* Harm Other IV */
-     , (8468,  1263,   2.02)  /* Drain Mana Other IV */
      , (8468,  1310,   2.02)  /* Armor Self IV */
+     , (8468,   174,   2.02)  /* Fester Other IV */
      , (8468,  1466,   2.02)  /* Feeblemind Other IV */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)

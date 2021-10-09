@@ -25,10 +25,10 @@ VALUES (30817,   1, 'Caul Oasis') /* Name */
      , (30817,  37, 'VirindiIsland') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30817,   1,   33554867) /* Setup */
-     , (30817,   2,  150994947) /* MotionTable */
-     , (30817,   8,  100667499) /* Icon */;
+VALUES (30817,   1, 0x020001B3) /* Setup */
+     , (30817,   2, 0x09000003) /* MotionTable */
+     , (30817,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30817, 2, 218562580, 63.685, 84.12, 52.314, -0.7071068, 0, 0, -0.7071068) /* Destination */
-/* @teleloc 0x0D070014 [63.685000 84.120000 52.314000] -0.707107 0.000000 0.000000 -0.707107 */;
+VALUES (30817, 2, 0x0D070014, 63.685, 84.12, 52.314, -0.707107, 0, -0, -0.707107) /* Destination */
+/* @teleloc 0x0D070014 [63.685001 84.120003 52.313999] -0.707107 0.000000 -0.000000 -0.707107 */;

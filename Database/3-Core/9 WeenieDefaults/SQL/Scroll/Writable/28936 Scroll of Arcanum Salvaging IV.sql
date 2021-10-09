@@ -24,7 +24,7 @@ VALUES (28936,   1, 'Scroll of Arcanum Salvaging IV') /* Name */
      , (28936,  15, 'A scroll imbued with the power of the spell Scroll of Arcanum Salvaging IV.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28936,   1,   33554826) /* Setup */
-     , (28936,   8,  100676477) /* Icon */
-     , (28936,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28936,   1, 0x0200018A) /* Setup */
+     , (28936,   8, 0x0600337D) /* Icon */
+     , (28936,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28936,  28,       3502) /* Spell - Arcanum Salvaging Self IV */;

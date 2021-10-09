@@ -16,7 +16,7 @@ VALUES (28989,   1,        256) /* ItemType - MissileWeapon */
      , (28989,  48,          2) /* WeaponSkill - Bow */
      , (28989,  49,         45) /* WeaponTime */
      , (28989,  50,          1) /* AmmoType - Arrow */
-     , (28989,  51,          2) /* CombatUse - Missle */
+     , (28989,  51,          2) /* CombatUse - Missile */
      , (28989,  52,          2) /* ParentLocation - LeftHand */
      , (28989,  53,          3) /* PlacementPosition - LeftHand */
      , (28989,  60,        175) /* WeaponRange */
@@ -36,7 +36,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28989,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28989,   5, -0.0333) /* ManaRate */
+VALUES (28989,   5,  -0.033) /* ManaRate */
      , (28989,  26,    27.3) /* MaximumVelocity */
      , (28989,  29,    1.09) /* WeaponDefense */
      , (28989,  62,       1) /* WeaponOffense */
@@ -49,14 +49,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28989,   1, 'Burun Slaying Longbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28989,   1,   33558932) /* Setup */
-     , (28989,   3,  536870932) /* SoundTable */
-     , (28989,   8,  100676976) /* Icon */
-     , (28989,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28989,   1, 0x02001194) /* Setup */
+     , (28989,   3, 0x20000014) /* SoundTable */
+     , (28989,   8, 0x06003570) /* Icon */
+     , (28989,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28989,   243,      2)  /* Invulnerability Other V */
+VALUES (28989,  1604,      2)  /* Aura of Defender Self V */
      , (28989,  1359,      2)  /* Endurance Other V */
-     , (28989,  1604,      2)  /* Aura of Defender Self V */
      , (28989,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (28989,   243,      2)  /* Invulnerability Other V */
      , (28989,  1625,      2)  /* Aura of Swift Killer Self IV */;

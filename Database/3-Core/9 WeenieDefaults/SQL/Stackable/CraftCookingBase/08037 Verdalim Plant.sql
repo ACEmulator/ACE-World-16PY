@@ -30,9 +30,9 @@ VALUES (8037,   1, 'Verdalim Plant') /* Name */
      , (8037,  20, 'Verdalim Plants') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8037,   1,   33556750) /* Setup */
-     , (8037,   3,  536870932) /* SoundTable */
-     , (8037,   6,   67111919) /* PaletteBase */
-     , (8037,   7,  268436033) /* ClothingBase */
-     , (8037,   8,  100670767) /* Icon */
-     , (8037,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8037,   1, 0x0200090E) /* Setup */
+     , (8037,   3, 0x20000014) /* SoundTable */
+     , (8037,   6, 0x04000BEF) /* PaletteBase */
+     , (8037,   7, 0x10000241) /* ClothingBase */
+     , (8037,   8, 0x06001D2F) /* Icon */
+     , (8037,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -25,7 +25,7 @@ VALUES (3396,   1, 'Scroll of Mace Ineptitude Other V') /* Name */
      , (3396,  16, 'When learned, this spell decreases the target''s Mace skill by 50%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3396,   1,   33554826) /* Setup */
-     , (3396,   8,  100676464) /* Icon */
-     , (3396,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3396,   1, 0x0200018A) /* Setup */
+     , (3396,   8, 0x06003370) /* Icon */
+     , (3396,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3396,  28,        356) /* Spell - Light Weapon Ineptitude Other V */;

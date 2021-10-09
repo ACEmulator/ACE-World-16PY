@@ -33,12 +33,12 @@ VALUES (5672,   1, 'Herbal Tea') /* Name */
      , (5672,  16, 'A strong tea made from mugwort and willow leaves, popular in the Aluvian highlands.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5672,   1,   33554663) /* Setup */
-     , (5672,   3,  536870932) /* SoundTable */
-     , (5672,   6,   67111919) /* PaletteBase */
-     , (5672,   8,  100667430) /* Icon */
-     , (5672,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5672,   1, 0x020000E7) /* Setup */
+     , (5672,   3, 0x20000014) /* SoundTable */
+     , (5672,   6, 0x04000BEF) /* PaletteBase */
+     , (5672,   8, 0x06001026) /* Icon */
+     , (5672,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5672,  23,         65) /* UseSound - Drink1 */
-     , (5672,  27,  318767233) /* UseUserAnimation - MimeEat */
+     , (5672,  27, 0x13000081) /* UseUserAnimation - MimeEat */
      , (5672,  28,         54) /* Spell - Rejuvenation Self I */
-     , (5672,  36,  234881046) /* MutateFilter */;
+     , (5672,  36, 0x0E000016) /* MutateFilter */;

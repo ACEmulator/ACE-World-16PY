@@ -30,10 +30,10 @@ VALUES (30093,   1, 'Infinite Leather') /* Name */
      , (30093,  16, 'A lovely template for a rare.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30093,   1,   33554817) /* Setup */
-     , (30093,   3,  536870932) /* SoundTable */
-     , (30093,   6,   67111919) /* PaletteBase */
-     , (30093,   7,  268436430) /* ClothingBase */
-     , (30093,   8,  100667436) /* Icon */
-     , (30093,  22,  872415275) /* PhysicsEffectTable */
-     , (30093,  50,  100673260) /* IconOverlay */;
+VALUES (30093,   1, 0x02000181) /* Setup */
+     , (30093,   3, 0x20000014) /* SoundTable */
+     , (30093,   6, 0x04000BEF) /* PaletteBase */
+     , (30093,   7, 0x100003CE) /* ClothingBase */
+     , (30093,   8, 0x0600102C) /* Icon */
+     , (30093,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30093,  50, 0x060026EC) /* IconOverlay */;

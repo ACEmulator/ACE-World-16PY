@@ -26,9 +26,9 @@ VALUES (19208,   1, 'Nullified Statue of a Zharalim') /* Name */
      , (19208,  15, 'This nullified shell is all that remains of the living Statue of a Zharalim that once threatened our peaceful town. Destroyed through the sole efforts of the citizens of Dereth, it remains as a testament to their valor. This land is yours now.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19208,   1,   33554433) /* Setup */
-     , (19208,   2,  150995174) /* MotionTable */
-     , (19208,   3,  536871052) /* SoundTable */
-     , (19208,   6,   67108990) /* PaletteBase */
-     , (19208,   7,  268436387) /* ClothingBase */
-     , (19208,   8,  100667446) /* Icon */;
+VALUES (19208,   1, 0x02000001) /* Setup */
+     , (19208,   2, 0x090000E6) /* MotionTable */
+     , (19208,   3, 0x2000008C) /* SoundTable */
+     , (19208,   6, 0x0400007E) /* PaletteBase */
+     , (19208,   7, 0x100003A3) /* ClothingBase */
+     , (19208,   8, 0x06001036) /* Icon */;

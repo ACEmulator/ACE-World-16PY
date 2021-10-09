@@ -26,7 +26,7 @@ VALUES (25479,  22, True ) /* Inscribable */
      , (25479,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25479,   5, -0.033333) /* ManaRate */
+VALUES (25479,   5,  -0.033) /* ManaRate */
      , (25479,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -34,15 +34,15 @@ VALUES (25479,   1, 'Crystal Ring of Quickness') /* Name */
      , (25479,  16, 'A ring carved of Whispering Venom crystal. When worn, it allows portal passage down to the Lair of the Ancient Queen.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25479,   1,   33554690) /* Setup */
-     , (25479,   3,  536870932) /* SoundTable */
-     , (25479,   6,   67111919) /* PaletteBase */
-     , (25479,   8,  100674803) /* Icon */
-     , (25479,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25479,   1, 0x02000102) /* Setup */
+     , (25479,   3, 0x20000014) /* SoundTable */
+     , (25479,   6, 0x04000BEF) /* PaletteBase */
+     , (25479,   8, 0x06002CF3) /* Icon */
+     , (25479,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25479,  1405,      2)  /* Quickness Other III */
-     , (25479,  2583,      2)  /* Minor Strength */;
+VALUES (25479,  2583,      2)  /* Minor Strength */
+     , (25479,  1405,      2)  /* Quickness Other III */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (25479, 25 /* Wield */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

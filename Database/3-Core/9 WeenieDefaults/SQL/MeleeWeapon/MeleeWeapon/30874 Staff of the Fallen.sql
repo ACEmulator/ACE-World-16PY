@@ -45,11 +45,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30874,   1, 'Staff of the Fallen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30874,   1,   33559278) /* Setup */
-     , (30874,   3,  536870932) /* SoundTable */
-     , (30874,   8,  100677511) /* Icon */
-     , (30874,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (30874,   1, 0x020012EE) /* Setup */
+     , (30874,   3, 0x20000014) /* SoundTable */
+     , (30874,   8, 0x06003787) /* Icon */
+     , (30874,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30874,  2096,      2)  /* Aura of Infected Caress */
-     , (30874,  2693,      2)  /* Moderate Light Weapon Aptitude */;
+VALUES (30874,  2693,      2)  /* Moderate Light Weapon Aptitude */
+     , (30874,  2096,      2)  /* Aura of Infected Caress */;

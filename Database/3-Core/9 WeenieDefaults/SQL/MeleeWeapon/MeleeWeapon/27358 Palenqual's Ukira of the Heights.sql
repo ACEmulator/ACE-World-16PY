@@ -38,7 +38,7 @@ VALUES (27358,  22, True ) /* Inscribable */
      , (27358,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27358,   5, -0.033333) /* ManaRate */
+VALUES (27358,   5,  -0.033) /* ManaRate */
      , (27358,  21,    0.95) /* WeaponLength */
      , (27358,  22,     0.5) /* DamageVariance */
      , (27358,  29,    1.08) /* WeaponDefense */
@@ -52,20 +52,20 @@ VALUES (27358,   1, 'Palenqual''s Ukira of the Heights') /* Name */
      , (27358,  16, 'An ukira fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27358,   1,   33558666) /* Setup */
-     , (27358,   3,  536870932) /* SoundTable */
-     , (27358,   6,   67113336) /* PaletteBase */
-     , (27358,   7,  268436249) /* ClothingBase */
-     , (27358,   8,  100676352) /* Icon */
-     , (27358,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27358,   1, 0x0200108A) /* Setup */
+     , (27358,   3, 0x20000014) /* SoundTable */
+     , (27358,   6, 0x04001178) /* PaletteBase */
+     , (27358,   7, 0x10000319) /* ClothingBase */
+     , (27358,   8, 0x06003300) /* Icon */
+     , (27358,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27358,  2439,      2)  /* Rockslide */
-     , (27358,  2442,      2)  /* Stone Cliffs */
-     , (27358,  2445,      2)  /* Strength of Earth */
+VALUES (27358,  2471,      2)  /* Lesser Still Water */
+     , (27358,  3228,      2)  /* Lesser Cascade */
      , (27358,  2447,      2)  /* Lesser Growth */
-     , (27358,  2450,      2)  /* Lesser Hunter's Acumen */
-     , (27358,  2453,      2)  /* Lesser Thorns */
-     , (27358,  2471,      2)  /* Lesser Still Water */
+     , (27358,  2439,      2)  /* Rockslide */
      , (27358,  2474,      2)  /* Lesser Torrent */
-     , (27358,  3228,      2)  /* Lesser Cascade */;
+     , (27358,  2450,      2)  /* Lesser Hunter's Acumen */
+     , (27358,  2442,      2)  /* Stone Cliffs */
+     , (27358,  2453,      2)  /* Lesser Thorns */
+     , (27358,  2445,      2)  /* Strength of Earth */;

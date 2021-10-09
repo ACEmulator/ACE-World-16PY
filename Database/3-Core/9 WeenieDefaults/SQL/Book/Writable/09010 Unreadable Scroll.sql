@@ -27,9 +27,9 @@ VALUES (9010,   1, 'Unreadable Scroll') /* Name */
      , (9010,  33, 'aercyno') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9010,   1,   33554826) /* Setup */
-     , (9010,   8,  100669876) /* Icon */
-     , (9010,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9010,   1, 0x0200018A) /* Setup */
+     , (9010,   8, 0x060019B4) /* Icon */
+     , (9010,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (9010, 1, 1000);

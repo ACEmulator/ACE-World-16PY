@@ -64,14 +64,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11520,   1, 'Hea Nualuan') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11520,   1,   33554496) /* Setup */
-     , (11520,   2,  150994954) /* MotionTable */
-     , (11520,   3,  536870931) /* SoundTable */
-     , (11520,   4,  805306380) /* CombatTable */
-     , (11520,   6,   67109314) /* PaletteBase */
-     , (11520,   7,  268436630) /* ClothingBase */
-     , (11520,   8,  100667452) /* Icon */
-     , (11520,  22,  872415270) /* PhysicsEffectTable */
+VALUES (11520,   1, 0x02000040) /* Setup */
+     , (11520,   2, 0x0900000A) /* MotionTable */
+     , (11520,   3, 0x20000013) /* SoundTable */
+     , (11520,   4, 0x3000000C) /* CombatTable */
+     , (11520,   6, 0x040001C2) /* PaletteBase */
+     , (11520,   7, 0x10000496) /* ClothingBase */
+     , (11520,   8, 0x0600103C) /* Icon */
+     , (11520,  22, 0x34000026) /* PhysicsEffectTable */
      , (11520,  32,        387) /* WieldedTreasureType - 
                                    Wield Blade of the Quiddity (11916) | Probability: 25%
                                    Wield Lance of the Quiddity (11913) | Probability: 25%
@@ -101,19 +101,19 @@ VALUES (11520,   1,   120, 0, 0, 210) /* MaxHealth */
      , (11520,   5,     0, 0, 0, 140) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (11520,  1, 0, 3, 0, 150, 0, 749.595050255493) /* Axe                 Specialized */
-     , (11520,  4, 0, 3, 0,  80, 0, 749.595050255493) /* Dagger              Specialized */
-     , (11520,  5, 0, 3, 0, 150, 0, 749.595050255493) /* Mace                Specialized */
-     , (11520,  6, 0, 3, 0, 205, 0, 749.595050255493) /* MeleeDefense        Specialized */
-     , (11520,  7, 0, 3, 0, 335, 0, 749.595050255493) /* MissileDefense      Specialized */
-     , (11520,  9, 0, 3, 0, 150, 0, 749.595050255493) /* Spear               Specialized */
-     , (11520, 10, 0, 3, 0, 150, 0, 749.595050255493) /* Staff               Specialized */
-     , (11520, 11, 0, 3, 0, 150, 0, 749.595050255493) /* Sword               Specialized */
-     , (11520, 13, 0, 3, 0, 150, 0, 749.595050255493) /* UnarmedCombat       Specialized */
-     , (11520, 14, 0, 2, 0, 250, 0, 749.595050255493) /* ArcaneLore          Trained */
-     , (11520, 15, 0, 3, 0, 223, 0, 749.595050255493) /* MagicDefense        Specialized */
-     , (11520, 20, 0, 2, 0,  40, 0, 749.595050255493) /* Deception           Trained */
-     , (11520, 24, 0, 2, 0,  40, 0, 749.595050255493) /* Run                 Trained */;
+VALUES (11520,  1, 0, 3, 0, 150, 0, 749.5950502554929) /* Axe                 Specialized */
+     , (11520,  4, 0, 3, 0,  80, 0, 749.5950502554929) /* Dagger              Specialized */
+     , (11520,  5, 0, 3, 0, 150, 0, 749.5950502554929) /* Mace                Specialized */
+     , (11520,  6, 0, 3, 0, 205, 0, 749.5950502554929) /* MeleeDefense        Specialized */
+     , (11520,  7, 0, 3, 0, 335, 0, 749.5950502554929) /* MissileDefense      Specialized */
+     , (11520,  9, 0, 3, 0, 150, 0, 749.5950502554929) /* Spear               Specialized */
+     , (11520, 10, 0, 3, 0, 150, 0, 749.5950502554929) /* Staff               Specialized */
+     , (11520, 11, 0, 3, 0, 150, 0, 749.5950502554929) /* Sword               Specialized */
+     , (11520, 13, 0, 3, 0, 150, 0, 749.5950502554929) /* UnarmedCombat       Specialized */
+     , (11520, 14, 0, 2, 0, 250, 0, 749.5950502554929) /* ArcaneLore          Trained */
+     , (11520, 15, 0, 3, 0, 223, 0, 749.5950502554929) /* MagicDefense        Specialized */
+     , (11520, 20, 0, 2, 0,  40, 0, 749.5950502554929) /* Deception           Trained */
+     , (11520, 24, 0, 2, 0,  40, 0, 749.5950502554929) /* Run                 Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (11520,  0,  4,  0,    0,  220,  220,  220,  220,  220,  220,  220,  220,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

@@ -30,7 +30,7 @@ VALUES (28471,  22, True ) /* Inscribable */
      , (28471,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28471,   5, -0.0334) /* ManaRate */
+VALUES (28471,   5,  -0.033) /* ManaRate */
      , (28471,  29,    1.09) /* WeaponDefense */
      , (28471, 144,    0.06) /* ManaConversionMod */
      , (28471, 147,     0.1) /* CriticalFrequency */;
@@ -39,15 +39,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28471,   1, 'Noble Sceptre') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28471,   1,   33558870) /* Setup */
-     , (28471,   3,  536870932) /* SoundTable */
-     , (28471,   8,  100676981) /* Icon */
-     , (28471,  22,  872415275) /* PhysicsEffectTable */
-     , (28471,  27, 1073742049) /* UseUserAnimation - UseMagicWand */;
+VALUES (28471,   1, 0x02001156) /* Setup */
+     , (28471,   3, 0x20000014) /* SoundTable */
+     , (28471,   8, 0x06003575) /* Icon */
+     , (28471,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (28471,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28471,   248,      2)  /* Invulnerability Self V */
-     , (28471,   616,      2)  /* Life Magic Mastery Other VI */
+VALUES (28471,   616,      2)  /* Life Magic Mastery Other VI */
      , (28471,   640,      2)  /* War Magic Mastery Other VI */
+     , (28471,  1479,      2)  /* Aura of Hermetic Link Self V */
      , (28471,  1354,      2)  /* Endurance Self VI */
-     , (28471,  1479,      2)  /* Aura of Hermetic Link Self V */;
+     , (28471,   248,      2)  /* Invulnerability Self V */;

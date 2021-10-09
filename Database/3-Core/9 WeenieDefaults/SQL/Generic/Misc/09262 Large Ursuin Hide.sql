@@ -28,9 +28,9 @@ VALUES (9262,   1, 'Large Ursuin Hide') /* Name */
      , (9262,  16, 'A Large Ursuin hide, it seems to be a bit more colorful, as if favoring the pleasant spring weather.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9262,   1,   33554817) /* Setup */
-     , (9262,   3,  536870932) /* SoundTable */
-     , (9262,   6,   67111919) /* PaletteBase */
-     , (9262,   7,  268435832) /* ClothingBase */
-     , (9262,   8,  100671411) /* Icon */
-     , (9262,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9262,   1, 0x02000181) /* Setup */
+     , (9262,   3, 0x20000014) /* SoundTable */
+     , (9262,   6, 0x04000BEF) /* PaletteBase */
+     , (9262,   7, 0x10000178) /* ClothingBase */
+     , (9262,   8, 0x06001FB3) /* Icon */
+     , (9262,  22, 0x3400002B) /* PhysicsEffectTable */;

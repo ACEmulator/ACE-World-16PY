@@ -25,7 +25,7 @@ VALUES (23065,   1, 'Self To Coordination Gem') /* Name */
      , (23065,  14, 'Use this gem to transfer up to 10 points of your Self into your Coordination.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23065,   1,   33558087) /* Setup */
-     , (23065,   6,   67111919) /* PaletteBase */
-     , (23065,   7,  268435723) /* ClothingBase */
-     , (23065,   8,  100673957) /* Icon */;
+VALUES (23065,   1, 0x02000E47) /* Setup */
+     , (23065,   6, 0x04000BEF) /* PaletteBase */
+     , (23065,   7, 0x1000010B) /* ClothingBase */
+     , (23065,   8, 0x060029A5) /* Icon */;

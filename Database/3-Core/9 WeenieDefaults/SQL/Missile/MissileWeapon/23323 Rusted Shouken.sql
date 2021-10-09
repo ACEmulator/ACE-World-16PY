@@ -20,7 +20,7 @@ VALUES (23323,   1,        256) /* ItemType - MissileWeapon */
      , (23323,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (23323,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (23323,  49,         10) /* WeaponTime */
-     , (23323,  51,          2) /* CombatUse - Missle */
+     , (23323,  51,          2) /* CombatUse - Missile */
      , (23323,  92,        100) /* Structure */
      , (23323,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (23323, 105,          3) /* ItemWorkmanship */
@@ -46,7 +46,7 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23323,   1, 'Rusted Shouken') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23323,   1,   33554752) /* Setup */
-     , (23323,   3,  536870932) /* SoundTable */
-     , (23323,   8,  100674227) /* Icon */
-     , (23323,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23323,   1, 0x02000140) /* Setup */
+     , (23323,   3, 0x20000014) /* SoundTable */
+     , (23323,   8, 0x06002AB3) /* Icon */
+     , (23323,  22, 0x3400002B) /* PhysicsEffectTable */;

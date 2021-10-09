@@ -24,10 +24,10 @@ VALUES (6419,   1, 'The Meeting Halls') /* Name */
      , (6419,  16, 'A list of the Meeting Halls in the settled lands of Dereth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6419,   1,   33554771) /* Setup */
-     , (6419,   3,  536870932) /* SoundTable */
-     , (6419,   8,  100668117) /* Icon */
-     , (6419,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6419,   1, 0x02000153) /* Setup */
+     , (6419,   3, 0x20000014) /* SoundTable */
+     , (6419,   8, 0x060012D5) /* Icon */
+     , (6419,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (6419, 2, 1000);

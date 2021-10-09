@@ -35,9 +35,9 @@ VALUES (6353,   1, 'Pyreal Mote') /* Name */
      , (6353,  16, 'A mote of pyreal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6353,   1,   33556406) /* Setup */
-     , (6353,   3,  536870932) /* SoundTable */
-     , (6353,   6,   67111919) /* PaletteBase */
-     , (6353,   7,  268435966) /* ClothingBase */
-     , (6353,   8,  100670504) /* Icon */
-     , (6353,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (6353,   1, 0x020007B6) /* Setup */
+     , (6353,   3, 0x20000014) /* SoundTable */
+     , (6353,   6, 0x04000BEF) /* PaletteBase */
+     , (6353,   7, 0x100001FE) /* ClothingBase */
+     , (6353,   8, 0x06001C28) /* Icon */
+     , (6353,  22, 0x3400002B) /* PhysicsEffectTable */;

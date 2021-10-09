@@ -45,18 +45,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6248,   1, 'Fine Smoldering Atlan Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6248,   1,   33556328) /* Setup */
-     , (6248,   3,  536870932) /* SoundTable */
-     , (6248,   6,   67111919) /* PaletteBase */
-     , (6248,   7,  268435907) /* ClothingBase */
-     , (6248,   8,  100670545) /* Icon */
-     , (6248,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6248,   1, 0x02000768) /* Setup */
+     , (6248,   3, 0x20000014) /* SoundTable */
+     , (6248,   6, 0x04000BEF) /* PaletteBase */
+     , (6248,   7, 0x100001C3) /* ClothingBase */
+     , (6248,   8, 0x06001C51) /* Icon */
+     , (6248,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6248,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6248,  1091,      2)  /* Fire Protection Self III */
-     , (6248,  1329,      2)  /* Strength Self III */
+VALUES (6248,  1602,      2)  /* Aura of Defender Self III */
      , (6248,  1589,      2)  /* Aura of Heart Seeker Self III */
-     , (6248,  1602,      2)  /* Aura of Defender Self III */
      , (6248,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (6248,  1091,      2)  /* Fire Protection Self III */
+     , (6248,  1329,      2)  /* Strength Self III */
      , (6248,  1624,      2)  /* Aura of Swift Killer Self III */;

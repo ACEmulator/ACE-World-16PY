@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14615,   1, 'Bretslef Cottages Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14615,   1,   33554867) /* Setup */
-     , (14615,   2,  150994947) /* MotionTable */
-     , (14615,   8,  100667499) /* Icon */;
+VALUES (14615,   1, 0x020001B3) /* Setup */
+     , (14615,   2, 0x09000003) /* MotionTable */
+     , (14615,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14615, 2, 2916352021, 52.689, 112.856, 71.009, 0.8032907, 0, 0, -0.5955872) /* Destination */
-/* @teleloc 0xADD40015 [52.689000 112.856000 71.009000] 0.803291 0.000000 0.000000 -0.595587 */;
+VALUES (14615, 2, 0xADD40015, 52.689, 112.856, 71.009, 0.803291, 0, 0, -0.595587) /* Destination */
+/* @teleloc 0xADD40015 [52.688999 112.856003 71.009003] 0.803291 0.000000 0.000000 -0.595587 */;

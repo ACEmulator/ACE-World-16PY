@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15160,   1, 'Howling Wolf Villas Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15160,   1,   33554867) /* Setup */
-     , (15160,   2,  150994947) /* MotionTable */
-     , (15160,   8,  100667499) /* Icon */;
+VALUES (15160,   1, 0x020001B3) /* Setup */
+     , (15160,   2, 0x09000003) /* MotionTable */
+     , (15160,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15160, 2, 2510487586, 101.621, 29.441, 40.005, 0.9208455, 0, 0, -0.3899277) /* Destination */
-/* @teleloc 0x95A30022 [101.621000 29.441000 40.005000] 0.920846 0.000000 0.000000 -0.389928 */;
+VALUES (15160, 2, 0x95A30022, 101.621, 29.441, 40.005, 0.920846, 0, 0, -0.389928) /* Destination */
+/* @teleloc 0x95A30022 [101.621002 29.441000 40.005001] 0.920846 0.000000 0.000000 -0.389928 */;

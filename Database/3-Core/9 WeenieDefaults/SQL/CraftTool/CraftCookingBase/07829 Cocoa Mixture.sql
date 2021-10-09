@@ -31,9 +31,9 @@ VALUES (7829,   1, 'Cocoa Mixture') /* Name */
      , (7829,  20, 'Cocoa Mixtures') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7829,   1,   33555968) /* Setup */
-     , (7829,   3,  536870932) /* SoundTable */
-     , (7829,   6,   67111919) /* PaletteBase */
-     , (7829,   7,  268436027) /* ClothingBase */
-     , (7829,   8,  100670854) /* Icon */
-     , (7829,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (7829,   1, 0x02000600) /* Setup */
+     , (7829,   3, 0x20000014) /* SoundTable */
+     , (7829,   6, 0x04000BEF) /* PaletteBase */
+     , (7829,   7, 0x1000023B) /* ClothingBase */
+     , (7829,   8, 0x06001D86) /* Icon */
+     , (7829,  22, 0x3400002B) /* PhysicsEffectTable */;

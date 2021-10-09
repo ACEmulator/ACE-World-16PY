@@ -26,10 +26,10 @@ VALUES (626,   1, 'Powdered Hematite') /* Name */
      , (626,  20, 'Powdered Hematites') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (626,   1,   33555208) /* Setup */
-     , (626,   3,  536870932) /* SoundTable */
-     , (626,   6,   67111919) /* PaletteBase */
-     , (626,   7,  268435778) /* ClothingBase */
-     , (626,   8,  100668381) /* Icon */
-     , (626,  22,  872415275) /* PhysicsEffectTable */
+VALUES (626,   1, 0x02000308) /* Setup */
+     , (626,   3, 0x20000014) /* SoundTable */
+     , (626,   6, 0x04000BEF) /* PaletteBase */
+     , (626,   7, 0x10000142) /* ClothingBase */
+     , (626,   8, 0x060013DD) /* Icon */
+     , (626,  22, 0x3400002B) /* PhysicsEffectTable */
      , (626,  29,         30) /* SpellComponent */;

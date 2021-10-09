@@ -38,10 +38,10 @@ VALUES (25973,   1, 'Shagraka') /* Name */
      , (25973,  15, 'This stave is a symbol of the sorcerers of the Shagar Zharala. This particular stave was once the property of the Zharalim traitor Rheth Al'' Thok.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25973,   1,   33558572) /* Setup */
-     , (25973,   8,  100675678) /* Icon */
-     , (25973,  22,  872415275) /* PhysicsEffectTable */
-     , (25973,  27, 1073742049) /* UseUserAnimation - UseMagicWand */;
+VALUES (25973,   1, 0x0200102C) /* Setup */
+     , (25973,   8, 0x0600305E) /* Icon */
+     , (25973,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (25973,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25973,  3013,      2)  /* Fruit of the Oasis */

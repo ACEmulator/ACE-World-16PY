@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8615,   1, 'Desert Northern Edge Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8615,   1,   33554867) /* Setup */
-     , (8615,   2,  150994947) /* MotionTable */
-     , (8615,   8,  100667499) /* Icon */;
+VALUES (8615,   1, 0x020001B3) /* Setup */
+     , (8615,   2, 0x09000003) /* MotionTable */
+     , (8615,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8615, 2, 2543124540, 180, 75, 76.3, -0.9999619, 0, 0, -0.008726637) /* Destination */
-/* @teleloc 0x9795003C [180.000000 75.000000 76.300000] -0.999962 0.000000 0.000000 -0.008727 */;
+VALUES (8615, 2, 0x9795003C, 180, 75, 76.3, -0.999962, 0, -0, -0.008727) /* Destination */
+/* @teleloc 0x9795003C [180.000000 75.000000 76.300003] -0.999962 0.000000 -0.000000 -0.008727 */;

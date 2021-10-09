@@ -22,7 +22,7 @@ VALUES (22716,   1, 'South Tusker Forest') /* Name */
      , (22716,  16, 'South Tusker Forest, the weakest live there. -Brighteyes, the Tailor') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22716,   1,   33558115) /* Setup */
-     , (22716,   6,   67114046) /* PaletteBase */
-     , (22716,   7,  268436509) /* ClothingBase */
-     , (22716,   8,  100668115) /* Icon */;
+VALUES (22716,   1, 0x02000E63) /* Setup */
+     , (22716,   6, 0x0400143E) /* PaletteBase */
+     , (22716,   7, 0x1000041D) /* ClothingBase */
+     , (22716,   8, 0x060012D3) /* Icon */;

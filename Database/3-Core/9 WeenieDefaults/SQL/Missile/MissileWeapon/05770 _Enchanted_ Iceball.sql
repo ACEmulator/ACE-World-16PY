@@ -21,7 +21,7 @@ VALUES (5770,   1,        256) /* ItemType - MissileWeapon */
      , (5770,  46,        128) /* DefaultCombatStyle - ThrownWeapon */
      , (5770,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (5770,  49,         20) /* WeaponTime */
-     , (5770,  51,          2) /* CombatUse - Missle */
+     , (5770,  51,          2) /* CombatUse - Missile */
      , (5770,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (5770, 150,        103) /* HookPlacement - Hook */
      , (5770, 151,          2) /* HookType - Wall */;
@@ -46,9 +46,9 @@ VALUES (5770,   1, '"Enchanted" Iceball') /* Name */
      , (5770,  16, 'A ball made of densely packed snow, once partially melted and then re-frozen to form a hard ball of ice, then given a boost.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5770,   1,   33556223) /* Setup */
-     , (5770,   3,  536870932) /* SoundTable */
-     , (5770,   6,   67111928) /* PaletteBase */
-     , (5770,   7,  268435841) /* ClothingBase */
-     , (5770,   8,  100670282) /* Icon */
-     , (5770,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5770,   1, 0x020006FF) /* Setup */
+     , (5770,   3, 0x20000014) /* SoundTable */
+     , (5770,   6, 0x04000BF8) /* PaletteBase */
+     , (5770,   7, 0x10000181) /* ClothingBase */
+     , (5770,   8, 0x06001B4A) /* Icon */
+     , (5770,  22, 0x3400002B) /* PhysicsEffectTable */;

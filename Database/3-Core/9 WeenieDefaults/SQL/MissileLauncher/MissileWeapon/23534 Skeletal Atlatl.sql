@@ -16,7 +16,7 @@ VALUES (23534,   1,        256) /* ItemType - MissileWeapon */
      , (23534,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (23534,  49,         20) /* WeaponTime */
      , (23534,  50,          4) /* AmmoType - Atlatl */
-     , (23534,  51,          2) /* CombatUse - Missle */
+     , (23534,  51,          2) /* CombatUse - Missile */
      , (23534,  60,        120) /* WeaponRange */
      , (23534,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23534, 106,        200) /* ItemSpellcraft */
@@ -41,16 +41,16 @@ VALUES (23534,   1, 'Skeletal Atlatl') /* Name */
      , (23534,  16, 'The radius and ulna of a Lord of Decay, twisted together into an atlatl.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23534,   1,   33558186) /* Setup */
-     , (23534,   3,  536870932) /* SoundTable */
-     , (23534,   6,   67111919) /* PaletteBase */
-     , (23534,   7,  268436304) /* ClothingBase */
-     , (23534,   8,  100674030) /* Icon */
-     , (23534,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23534,   1, 0x02000EAA) /* Setup */
+     , (23534,   3, 0x20000014) /* SoundTable */
+     , (23534,   6, 0x04000BEF) /* PaletteBase */
+     , (23534,   7, 0x10000350) /* ClothingBase */
+     , (23534,   8, 0x060029EE) /* Icon */
+     , (23534,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23534,  37,         12) /* ItemSkillLimit - ThrownWeapon */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23534,   541,      2)  /* Missile Weapon Mastery Self III */
-     , (23534,  1375,      2)  /* Coordination Self III */
+VALUES (23534,  1375,      2)  /* Coordination Self III */
      , (23534,  1602,      2)  /* Aura of Defender Self III */
-     , (23534,  1614,      2)  /* Aura of Blood Drinker Self IV */;
+     , (23534,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (23534,   541,      2)  /* Missile Weapon Mastery Self III */;

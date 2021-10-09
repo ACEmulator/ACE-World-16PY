@@ -23,10 +23,10 @@ VALUES (759,   1, 'Quicksilver') /* Name */
      , (759,  20, 'Quicksilver Potions') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (759,   1,   33555209) /* Setup */
-     , (759,   3,  536870932) /* SoundTable */
-     , (759,   6,   67111919) /* PaletteBase */
-     , (759,   7,  268435719) /* ClothingBase */
-     , (759,   8,  100668370) /* Icon */
-     , (759,  22,  872415275) /* PhysicsEffectTable */
+VALUES (759,   1, 0x02000309) /* Setup */
+     , (759,   3, 0x20000014) /* SoundTable */
+     , (759,   6, 0x04000BEF) /* PaletteBase */
+     , (759,   7, 0x10000107) /* ClothingBase */
+     , (759,   8, 0x060013D2) /* Icon */
+     , (759,  22, 0x3400002B) /* PhysicsEffectTable */
      , (759,  29,         43) /* SpellComponent */;

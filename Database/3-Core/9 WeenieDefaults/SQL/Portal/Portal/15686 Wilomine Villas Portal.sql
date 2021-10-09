@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15686,   1, 'Wilomine Villas Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15686,   1,   33554867) /* Setup */
-     , (15686,   2,  150994947) /* MotionTable */
-     , (15686,   8,  100667499) /* Icon */;
+VALUES (15686,   1, 0x020001B3) /* Setup */
+     , (15686,   2, 0x09000003) /* MotionTable */
+     , (15686,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15686, 2, 1118699532, 45.216, 89.074, 26.845, 0.6725671, 0, 0, -0.7400362) /* Destination */
-/* @teleloc 0x42AE000C [45.216000 89.074000 26.845000] 0.672567 0.000000 0.000000 -0.740036 */;
+VALUES (15686, 2, 0x42AE000C, 45.216, 89.074, 26.845, 0.672567, 0, 0, -0.740036) /* Destination */
+/* @teleloc 0x42AE000C [45.216000 89.073997 26.844999] 0.672567 0.000000 0.000000 -0.740036 */;

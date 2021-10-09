@@ -65,13 +65,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24432,   1, 'Guardian') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24432,   1,   33558367) /* Setup */
-     , (24432,   2,  150994945) /* MotionTable */
-     , (24432,   3,  536870933) /* SoundTable */
-     , (24432,   4,  805306368) /* CombatTable */
-     , (24432,   6,   67112807) /* PaletteBase */
-     , (24432,   7,  268436634) /* ClothingBase */
-     , (24432,   8,  100674350) /* Icon */;
+VALUES (24432,   1, 0x02000F5F) /* Setup */
+     , (24432,   2, 0x09000001) /* MotionTable */
+     , (24432,   3, 0x20000015) /* SoundTable */
+     , (24432,   4, 0x30000000) /* CombatTable */
+     , (24432,   6, 0x04000F67) /* PaletteBase */
+     , (24432,   7, 0x1000049A) /* ClothingBase */
+     , (24432,   8, 0x06002B2E) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24432,   1, 680, 0, 0) /* Strength */
@@ -87,13 +87,13 @@ VALUES (24432,   1,   800, 0, 0, 1120) /* MaxHealth */
      , (24432,   5,   500, 0, 0, 1085) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (24432, 14, 0, 3, 0, 200, 0, 1551.14062740556) /* ArcaneLore          Specialized */
-     , (24432, 16, 0, 3, 0, 200, 0, 1551.14062740556) /* ManaConversion      Specialized */
-     , (24432, 22, 0, 3, 0, 200, 0, 1551.14062740556) /* Jump                Specialized */
-     , (24432, 24, 0, 3, 0, 200, 0, 1551.14062740556) /* Run                 Specialized */
-     , (24432, 31, 0, 3, 0, 900, 0, 1551.14062740556) /* CreatureEnchantment Specialized */
-     , (24432, 33, 0, 3, 0, 900, 0, 1551.14062740556) /* LifeMagic           Specialized */
-     , (24432, 34, 0, 3, 0, 900, 0, 1551.14062740556) /* WarMagic            Specialized */;
+VALUES (24432, 14, 0, 3, 0, 200, 0, 1551.1406274055555) /* ArcaneLore          Specialized */
+     , (24432, 16, 0, 3, 0, 200, 0, 1551.1406274055555) /* ManaConversion      Specialized */
+     , (24432, 22, 0, 3, 0, 200, 0, 1551.1406274055555) /* Jump                Specialized */
+     , (24432, 24, 0, 3, 0, 200, 0, 1551.1406274055555) /* Run                 Specialized */
+     , (24432, 31, 0, 3, 0, 900, 0, 1551.1406274055555) /* CreatureEnchantment Specialized */
+     , (24432, 33, 0, 3, 0, 900, 0, 1551.1406274055555) /* LifeMagic           Specialized */
+     , (24432, 34, 0, 3, 0, 900, 0, 1551.1406274055555) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (24432,  0,  4,  0,    0,  200,  158,  158,  160,  200,  200,  200,  200,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -112,5 +112,5 @@ VALUES (24432,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 1090519043 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+VALUES (@parent_id,  0,   5 /* Motion */, 0, 1, 0x41000003 /* Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  1,  10 /* Tell */, 0, 1, NULL, 'We are here at the behest of Lord Asheron. Our duty is to maintain peace. We ask that you observe our requests so as to not force our hands into action.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

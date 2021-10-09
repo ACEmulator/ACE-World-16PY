@@ -24,7 +24,7 @@ VALUES (20562,   1, 'Scroll of Celdiseth''s Blessing') /* Name */
      , (20562,  15, 'When learned, this spell increases the caster''s Magic Item Tinkering skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20562,   1,   33554826) /* Setup */
-     , (20562,   8,  100676477) /* Icon */
-     , (20562,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20562,   1, 0x0200018A) /* Setup */
+     , (20562,   8, 0x0600337D) /* Icon */
+     , (20562,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20562,  28,       2277) /* Spell - Celdiseth's Blessing */;

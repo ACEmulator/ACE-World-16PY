@@ -23,7 +23,7 @@ VALUES (1003,   1, 'The Golden Vine') /* Name */
      , (1003,  16, 'The Golden Vine') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1003,   1,   33555909) /* Setup */
-     , (1003,   6,   67111860) /* PaletteBase */
-     , (1003,   7,  268435825) /* ClothingBase */
-     , (1003,   8,  100668115) /* Icon */;
+VALUES (1003,   1, 0x020005C5) /* Setup */
+     , (1003,   6, 0x04000BB4) /* PaletteBase */
+     , (1003,   7, 0x10000171) /* ClothingBase */
+     , (1003,   8, 0x060012D3) /* Icon */;

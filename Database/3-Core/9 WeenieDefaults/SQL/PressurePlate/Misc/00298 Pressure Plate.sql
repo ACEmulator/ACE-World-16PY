@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (298,   1, 'Pressure Plate') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (298,   1,   33555034) /* Setup */
-     , (298,   2,  150994977) /* MotionTable */
-     , (298,   8,  100668114) /* Icon */
+VALUES (298,   1, 0x0200025A) /* Setup */
+     , (298,   2, 0x09000021) /* MotionTable */
+     , (298,   8, 0x060012D2) /* Icon */
      , (298,  23,        149) /* UseSound - TriggerActivated */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (298,  16,          0) /* ActivationTarget */;
+VALUES (298,  16, 0x00000000) /* ActivationTarget */;

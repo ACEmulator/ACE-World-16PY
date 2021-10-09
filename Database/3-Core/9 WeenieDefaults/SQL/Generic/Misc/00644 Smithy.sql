@@ -22,7 +22,7 @@ VALUES (644,   1, 'Smithy') /* Name */
      , (644,  16, 'Smithy') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (644,   1,   33555593) /* Setup */
-     , (644,   6,   67111092) /* PaletteBase */
-     , (644,   7,  268435670) /* ClothingBase */
-     , (644,   8,  100668115) /* Icon */;
+VALUES (644,   1, 0x02000489) /* Setup */
+     , (644,   6, 0x040008B4) /* PaletteBase */
+     , (644,   7, 0x100000D6) /* ClothingBase */
+     , (644,   8, 0x060012D3) /* Icon */;

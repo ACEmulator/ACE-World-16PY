@@ -68,14 +68,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7431,   1, 'Lich') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7431,   1,   33554839) /* Setup */
-     , (7431,   2,  150994967) /* MotionTable */
-     , (7431,   3,  536870934) /* SoundTable */
-     , (7431,   4,  805306368) /* CombatTable */
-     , (7431,   6,   67110722) /* PaletteBase */
-     , (7431,   7,  268435558) /* ClothingBase */
-     , (7431,   8,  100667942) /* Icon */
-     , (7431,  22,  872415272) /* PhysicsEffectTable */
+VALUES (7431,   1, 0x02000197) /* Setup */
+     , (7431,   2, 0x09000017) /* MotionTable */
+     , (7431,   3, 0x20000016) /* SoundTable */
+     , (7431,   4, 0x30000000) /* CombatTable */
+     , (7431,   6, 0x04000742) /* PaletteBase */
+     , (7431,   7, 0x10000066) /* ClothingBase */
+     , (7431,   8, 0x06001226) /* Icon */
+     , (7431,  22, 0x34000028) /* PhysicsEffectTable */
      , (7431,  32,        248) /* WieldedTreasureType - 
                                    Wield 6x Throwing Axe (304) | Probability: 10%
                                    Wield Nayin (334) | Probability: 10%
@@ -84,7 +84,7 @@ VALUES (7431,   1,   33554839) /* Setup */
                                    Wield 20x Arrow (300) | Probability: 100%
                                    Wield Yumi (363) | Probability: 10%
                                    Wield 14x Arrow (300) | Probability: 100%
-                                   Wield Heavy Crossbow (311) | Probability: 60%
+                                   Wield Heavy Crossbow (311) | Probability: 60.000004%
                                    Wield 15x Quarrel (305) | Probability: 100%
                                    Wield Battle Axe (301) | Probability: 14%
                                    Wield Broad Sword (350) | Probability: 7%
@@ -98,13 +98,13 @@ VALUES (7431,   1,   33554839) /* Setup */
                                    Wield Silifi (344) | Probability: 13%
                                    Wield Tachi (353) | Probability: 6%
                                    Wield Takuba (354) | Probability: 6%
-                                   Wield Large Kite Shield (92) | Probability: 30%
+                                   Wield Large Kite Shield (92) | Probability: 30.000002%
                                    Wield Kite Shield (91) | Probability: 20%
                                    Wield Large Round Shield (94) | Probability: 20% */
      , (7431,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7431,  16, 1998655488) /* ActivationTarget */;
+VALUES (7431,  16, 0x77211000) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7431,   1, 120, 0, 0) /* Strength */
@@ -150,30 +150,30 @@ VALUES (7431,  0,  4,  0,    0,   70,   56,   21,   39,   13,   35,   39,   47, 
      , (7431,  8,  4,  3, 0.75,   90,   72,   27,   50,   16,   45,   50,   60,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7431,    60,  2.029)  /* Acid Stream III */
-     , (7431,    61,  2.011)  /* Acid Stream IV */
+VALUES (7431,  1262,   2.02)  /* Drain Mana Other III */
+     , (7431,    82,  2.029)  /* Flame Bolt III */
      , (7431,    66,  2.029)  /* Shock Wave III */
+     , (7431,    83,  2.011)  /* Flame Bolt IV */
      , (7431,    67,  2.011)  /* Shock Wave IV */
      , (7431,    71,  2.029)  /* Frost Bolt III */
      , (7431,    72,  2.011)  /* Frost Bolt IV */
-     , (7431,    77,  2.029)  /* Lightning Bolt III */
+     , (7431,  1369,  2.009)  /* Frailty Other III */
      , (7431,    78,  2.011)  /* Lightning Bolt IV */
-     , (7431,    82,  2.029)  /* Flame Bolt III */
-     , (7431,    83,  2.011)  /* Flame Bolt IV */
+     , (7431,  1417,  2.009)  /* Slowness Other III */
+     , (7431,    77,  2.029)  /* Lightning Bolt III */
+     , (7431,  1239,   2.02)  /* Drain Health Other III */
      , (7431,    88,  2.029)  /* Force Bolt III */
      , (7431,    89,  2.011)  /* Force Bolt IV */
      , (7431,    94,  2.029)  /* Whirling Blade III */
      , (7431,    95,  2.011)  /* Whirling Blade IV */
-     , (7431,   173,  2.009)  /* Fester Other III */
-     , (7431,  1239,   2.02)  /* Drain Health Other III */
-     , (7431,  1251,   2.02)  /* Drain Stamina Other III */
-     , (7431,  1262,   2.02)  /* Drain Mana Other III */
-     , (7431,  1340,  2.009)  /* Weakness Other III */
-     , (7431,  1369,  2.009)  /* Frailty Other III */
-     , (7431,  1393,  2.009)  /* Clumsiness Other III */
-     , (7431,  1417,  2.009)  /* Slowness Other III */
      , (7431,  1441,  2.009)  /* Bafflement Other III */
-     , (7431,  1466,  2.009)  /* Feeblemind Other IV */;
+     , (7431,  1251,   2.02)  /* Drain Stamina Other III */
+     , (7431,   173,  2.009)  /* Fester Other III */
+     , (7431,  1393,  2.009)  /* Clumsiness Other III */
+     , (7431,    61,  2.011)  /* Acid Stream IV */
+     , (7431,  1466,  2.009)  /* Feeblemind Other IV */
+     , (7431,  1340,  2.009)  /* Weakness Other III */
+     , (7431,    60,  2.029)  /* Acid Stream III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (7431,  94) /* ATTACK_NOTIFICATION_EVENT */

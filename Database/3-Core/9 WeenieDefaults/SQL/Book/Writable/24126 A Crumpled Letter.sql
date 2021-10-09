@@ -23,10 +23,10 @@ VALUES (24126,   1, 'A Crumpled Letter') /* Name */
      , (24126,  16, 'A gnawed and crumpled letter. It has been torn, folded, mutilated, and bears the marks of mite teeth, but the elegant handwriting is still legible.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24126,   1,   33554773) /* Setup */
-     , (24126,   3,  536870932) /* SoundTable */
-     , (24126,   8,  100667503) /* Icon */
-     , (24126,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24126,   1, 0x02000155) /* Setup */
+     , (24126,   3, 0x20000014) /* SoundTable */
+     , (24126,   8, 0x0600106F) /* Icon */
+     , (24126,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (24126, 8, 1000);

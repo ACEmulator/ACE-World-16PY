@@ -44,12 +44,12 @@ VALUES (11767,   1, 'Reinforced Mask Banner with Crest') /* Name */
      , (11767,  16, 'A reinforced, crest tipped banner with a mask on it.  It is in almost perfect condition, and the colors are quite vibrant.  As you gaze at the mask, it almost seems to be gazing back.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11767,   1,   33557253) /* Setup */
-     , (11767,   3,  536870932) /* SoundTable */
-     , (11767,   6,   67113338) /* PaletteBase */
-     , (11767,   7,  268436211) /* ClothingBase */
-     , (11767,   8,  100671920) /* Icon */
-     , (11767,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11767,   1, 0x02000B05) /* Setup */
+     , (11767,   3, 0x20000014) /* SoundTable */
+     , (11767,   6, 0x0400117A) /* PaletteBase */
+     , (11767,   7, 0x100002F3) /* ClothingBase */
+     , (11767,   8, 0x060021B0) /* Icon */
+     , (11767,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11767,  2013,      2)  /* Wizard's Greater Intellect */;

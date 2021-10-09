@@ -25,10 +25,10 @@ VALUES (21959,   1, 'Proving Grounds Mid') /* Name */
      , (21959,  37, 'ProvingGroundsFloorWalk') /* QuestRestriction */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21959,   1,   33555926) /* Setup */
-     , (21959,   2,  150994947) /* MotionTable */
-     , (21959,   8,  100667499) /* Icon */;
+VALUES (21959,   1, 0x020005D6) /* Setup */
+     , (21959,   2, 0x09000003) /* MotionTable */
+     , (21959,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21959, 2, 1480851945, 20, -33.2, 6.7, 1, 0, 0, 0) /* Destination */
-/* @teleloc 0x584401E9 [20.000000 -33.200000 6.700000] 1.000000 0.000000 0.000000 0.000000 */;
+VALUES (21959, 2, 0x584401E9, 20, -33.2, 6.7, 1, 0, 0, -0) /* Destination */
+/* @teleloc 0x584401E9 [20.000000 -33.200001 6.700000] 1.000000 0.000000 0.000000 -0.000000 */;

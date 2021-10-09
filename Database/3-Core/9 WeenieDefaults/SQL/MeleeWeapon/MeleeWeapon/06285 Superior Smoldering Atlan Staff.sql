@@ -45,18 +45,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6285,   1, 'Superior Smoldering Atlan Staff') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6285,   1,   33556342) /* Setup */
-     , (6285,   3,  536870932) /* SoundTable */
-     , (6285,   6,   67111919) /* PaletteBase */
-     , (6285,   7,  268435921) /* ClothingBase */
-     , (6285,   8,  100670565) /* Icon */
-     , (6285,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6285,   1, 0x02000776) /* Setup */
+     , (6285,   3, 0x20000014) /* SoundTable */
+     , (6285,   6, 0x04000BEF) /* PaletteBase */
+     , (6285,   7, 0x100001D1) /* ClothingBase */
+     , (6285,   8, 0x06001C65) /* Icon */
+     , (6285,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6285,  37,         10) /* ItemSkillLimit - Staff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6285,  1091,      2)  /* Fire Protection Self III */
-     , (6285,  1329,      2)  /* Strength Self III */
+VALUES (6285,  1602,      2)  /* Aura of Defender Self III */
      , (6285,  1589,      2)  /* Aura of Heart Seeker Self III */
-     , (6285,  1602,      2)  /* Aura of Defender Self III */
      , (6285,  1613,      2)  /* Aura of Blood Drinker Self III */
+     , (6285,  1091,      2)  /* Fire Protection Self III */
+     , (6285,  1329,      2)  /* Strength Self III */
      , (6285,  1624,      2)  /* Aura of Swift Killer Self III */;

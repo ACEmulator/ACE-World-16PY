@@ -47,21 +47,21 @@ VALUES (23939,   1, 'Luminescent Thaumaturgic Girth') /* Name */
      , (23939,  16, 'A richly enchanted and ornate girth once worn by the Sentinels of Perfect Light, an order dedicated to aiding Lord Asheron against the darkness. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23939,   1,   33554647) /* Setup */
-     , (23939,   3,  536870932) /* SoundTable */
-     , (23939,   6,   67108990) /* PaletteBase */
-     , (23939,   7,  268436557) /* ClothingBase */
-     , (23939,   8,  100674132) /* Icon */
-     , (23939,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23939,   1, 0x020000D7) /* Setup */
+     , (23939,   3, 0x20000014) /* SoundTable */
+     , (23939,   6, 0x0400007E) /* PaletteBase */
+     , (23939,   7, 0x1000044D) /* ClothingBase */
+     , (23939,   8, 0x06002A54) /* Icon */
+     , (23939,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23939,   273,      2)  /* Magic Resistance Other VI */
-     , (23939,  2350,      2)  /* Greater Decay Durance */
-     , (23939,  2351,      2)  /* Greater Consumption Durance */
-     , (23939,  2352,      2)  /* Greater Stasis Durance */
-     , (23939,  2353,      2)  /* Greater Stimulation Durance */
-     , (23939,  2381,      2)  /* Touch of Instrumentality */
+VALUES (23939,  2350,      2)  /* Greater Decay Durance */
      , (23939,  2948,      2)  /* Hieromancer's Great Ward */
+     , (23939,  2381,      2)  /* Touch of Instrumentality */
      , (23939,  2960,      2)  /* Greater Bludgeoning Durance */
+     , (23939,  2351,      2)  /* Greater Consumption Durance */
      , (23939,  2961,      2)  /* Greater Piercing Durance */
-     , (23939,  2962,      2)  /* Greater Slashing Durance */;
+     , (23939,   273,      2)  /* Magic Resistance Other VI */
+     , (23939,  2352,      2)  /* Greater Stasis Durance */
+     , (23939,  2962,      2)  /* Greater Slashing Durance */
+     , (23939,  2353,      2)  /* Greater Stimulation Durance */;

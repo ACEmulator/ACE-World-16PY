@@ -46,15 +46,15 @@ VALUES (9598,   1, 'Fist of the Quiddity') /* Name */
      , (9598,  16, 'A weapon made of a strange pulsating energy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9598,   1,   33557109) /* Setup */
-     , (9598,   3,  536870932) /* SoundTable */
-     , (9598,   8,  100671695) /* Icon */
-     , (9598,  22,  872415275) /* PhysicsEffectTable */
-     , (9598,  36,  234881044) /* MutateFilter */
+VALUES (9598,   1, 0x02000A75) /* Setup */
+     , (9598,   3, 0x20000014) /* SoundTable */
+     , (9598,   8, 0x060020CF) /* Icon */
+     , (9598,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (9598,  36, 0x0E000014) /* MutateFilter */
      , (9598,  37,         13) /* ItemSkillLimit - UnarmedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9598,  1591,      2)  /* Aura of Heart Seeker Self V */
-     , (9598,  1603,      2)  /* Aura of Defender Self IV */
+VALUES (9598,  1603,      2)  /* Aura of Defender Self IV */
      , (9598,  1614,      2)  /* Aura of Blood Drinker Self IV */
-     , (9598,  1625,      2)  /* Aura of Swift Killer Self IV */;
+     , (9598,  1625,      2)  /* Aura of Swift Killer Self IV */
+     , (9598,  1591,      2)  /* Aura of Heart Seeker Self V */;

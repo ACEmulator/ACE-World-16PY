@@ -13,7 +13,7 @@ VALUES (22360,   1,       2048) /* ItemType - Gem */
      , (22360,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22360, 114,          1) /* Attuned - Attuned */
      , (22360, 185,          1) /* TypeOfAlteration */
-     , (22360, 186,         20) /* SkillToBeAltered */;
+     , (22360, 186,         20) /* SkillToBeAltered - Deception */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22360,  22, True ) /* Inscribable */
@@ -25,8 +25,8 @@ VALUES (22360,   1, 'Deception Gem of Enlightenment') /* Name */
      , (22360,  33, 'SkillAlterationGemPickedUp') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22360,   1,   33558088) /* Setup */
-     , (22360,   6,   67111919) /* PaletteBase */
-     , (22360,   7,  268435723) /* ClothingBase */
-     , (22360,   8,  100673788) /* Icon */
-     , (22360,  50,  100673764) /* IconOverlay */;
+VALUES (22360,   1, 0x02000E48) /* Setup */
+     , (22360,   6, 0x04000BEF) /* PaletteBase */
+     , (22360,   7, 0x1000010B) /* ClothingBase */
+     , (22360,   8, 0x060028FC) /* Icon */
+     , (22360,  50, 0x060028E4) /* IconOverlay */;

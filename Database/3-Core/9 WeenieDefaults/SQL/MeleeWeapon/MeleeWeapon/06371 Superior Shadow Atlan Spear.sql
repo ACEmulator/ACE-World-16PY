@@ -44,18 +44,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6371,   1, 'Superior Shadow Atlan Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6371,   1,   33556330) /* Setup */
-     , (6371,   3,  536870932) /* SoundTable */
-     , (6371,   6,   67111919) /* PaletteBase */
-     , (6371,   7,  268435909) /* ClothingBase */
-     , (6371,   8,  100670553) /* Icon */
-     , (6371,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6371,   1, 0x0200076A) /* Setup */
+     , (6371,   3, 0x20000014) /* SoundTable */
+     , (6371,   6, 0x04000BEF) /* PaletteBase */
+     , (6371,   7, 0x100001C5) /* ClothingBase */
+     , (6371,   8, 0x06001C59) /* Icon */
+     , (6371,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6371,  37,          9) /* ItemSkillLimit - Spear */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6371,   265,      2)  /* Defenselessness Other IV */
-     , (6371,   957,      2)  /* Fealty Other VI */
-     , (6371,  1468,      2)  /* Feeblemind Other VI */
-     , (6371,  1590,      2)  /* Aura of Heart Seeker Self IV */
      , (6371,  1616,      2)  /* Aura of Blood Drinker Self VI */
-     , (6371,  1623,      2)  /* Aura of Swift Killer Self II */;
+     , (6371,  1623,      2)  /* Aura of Swift Killer Self II */
+     , (6371,  1590,      2)  /* Aura of Heart Seeker Self IV */
+     , (6371,  1468,      2)  /* Feeblemind Other VI */
+     , (6371,   957,      2)  /* Fealty Other VI */;

@@ -22,5 +22,5 @@ VALUES (924,   1, 'Holtburg: 1 mile') /* Name */
      , (924,  16, 'Town of Holtburg: 1 mile.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (924,   1,   33555984) /* Setup */
-     , (924,   8,  100668115) /* Icon */;
+VALUES (924,   1, 0x02000610) /* Setup */
+     , (924,   8, 0x060012D3) /* Icon */;

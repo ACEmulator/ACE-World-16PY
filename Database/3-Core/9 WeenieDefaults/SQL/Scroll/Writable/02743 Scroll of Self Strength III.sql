@@ -25,7 +25,7 @@ VALUES (2743,   1, 'Scroll of Self Strength III') /* Name */
      , (2743,  16, 'When learned, this spell increases the caster''s Strength by 30 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2743,   1,   33554826) /* Setup */
-     , (2743,   8,  100676474) /* Icon */
-     , (2743,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2743,   1, 0x0200018A) /* Setup */
+     , (2743,   8, 0x0600337A) /* Icon */
+     , (2743,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2743,  28,       1329) /* Spell - Strength Self III */;

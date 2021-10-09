@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19142,   1, 'Defiant Prey Cottages Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19142,   1,   33554867) /* Setup */
-     , (19142,   2,  150994947) /* MotionTable */
-     , (19142,   8,  100667499) /* Icon */;
+VALUES (19142,   1, 0x020001B3) /* Setup */
+     , (19142,   2, 0x09000003) /* MotionTable */
+     , (19142,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19142, 2, 2194079774, 83.037, 123.944, 97.743, 0.3503298, 0, 0, -0.9366264) /* Destination */
-/* @teleloc 0x82C7001E [83.037000 123.944000 97.743000] 0.350330 0.000000 0.000000 -0.936626 */;
+VALUES (19142, 2, 0x82C7001E, 83.037, 123.944, 97.743, 0.35033, 0, 0, -0.936626) /* Destination */
+/* @teleloc 0x82C7001E [83.037003 123.944000 97.742996] 0.350330 0.000000 0.000000 -0.936626 */;

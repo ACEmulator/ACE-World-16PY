@@ -34,7 +34,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31132,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (31132,   5,       0) /* ManaRate */
+VALUES (31132,   5,      -0) /* ManaRate */
      , (31132,  21,    0.95) /* WeaponLength */
      , (31132,  22,     0.5) /* DamageVariance */
      , (31132,  29,    1.12) /* WeaponDefense */
@@ -45,15 +45,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31132,   1, 'Frost Broad Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31132,   1,   33555788) /* Setup */
-     , (31132,   3,  536870932) /* SoundTable */
-     , (31132,   6,   67111919) /* PaletteBase */
-     , (31132,   7,  268435770) /* ClothingBase */
-     , (31132,   8,  100669015) /* Icon */
-     , (31132,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (31132,   1, 0x0200054C) /* Setup */
+     , (31132,   3, 0x20000014) /* SoundTable */
+     , (31132,   6, 0x04000BEF) /* PaletteBase */
+     , (31132,   7, 0x1000013A) /* ClothingBase */
+     , (31132,   8, 0x06001657) /* Icon */
+     , (31132,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31132,  2096,      2)  /* Aura of Infected Caress */
+VALUES (31132,  2116,      2)  /* Aura of Atlan's Alacrity */
+     , (31132,  2096,      2)  /* Aura of Infected Caress */
      , (31132,  2101,      2)  /* Aura of Cragstone's Will */
-     , (31132,  2106,      2)  /* Aura of Elysa's Sight */
-     , (31132,  2116,      2)  /* Aura of Atlan's Alacrity */;
+     , (31132,  2106,      2)  /* Aura of Elysa's Sight */;

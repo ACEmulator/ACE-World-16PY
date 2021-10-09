@@ -41,14 +41,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4912,   1, 'Overlord''s Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4912,   1,   33558185) /* Setup */
-     , (4912,   3,  536870932) /* SoundTable */
-     , (4912,   6,   67111092) /* PaletteBase */
-     , (4912,   8,  100667610) /* Icon */
-     , (4912,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4912,   1, 0x02000EA9) /* Setup */
+     , (4912,   3, 0x20000014) /* SoundTable */
+     , (4912,   6, 0x040008B4) /* PaletteBase */
+     , (4912,   8, 0x060010DA) /* Icon */
+     , (4912,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (4912,   417,      2)  /* Heavy Weapon Mastery Other VI */
+VALUES (4912,  1605,      2)  /* Aura of Defender Self VI */
      , (4912,  1592,      2)  /* Aura of Heart Seeker Self VI */
-     , (4912,  1605,      2)  /* Aura of Defender Self VI */
-     , (4912,  1616,      2)  /* Aura of Blood Drinker Self VI */;
+     , (4912,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (4912,   417,      2)  /* Heavy Weapon Mastery Other VI */;

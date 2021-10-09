@@ -27,9 +27,9 @@ VALUES (27305,   1, 'Forbidden Key') /* Name */
      , (27305,  16, 'A blood red key.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27305,   1,   33557005) /* Setup */
-     , (27305,   3,  536870932) /* SoundTable */
-     , (27305,   6,   67113173) /* PaletteBase */
-     , (27305,   7,  268436160) /* ClothingBase */
-     , (27305,   8,  100676389) /* Icon */
-     , (27305,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27305,   1, 0x02000A0D) /* Setup */
+     , (27305,   3, 0x20000014) /* SoundTable */
+     , (27305,   6, 0x040010D5) /* PaletteBase */
+     , (27305,   7, 0x100002C0) /* ClothingBase */
+     , (27305,   8, 0x06003325) /* Icon */
+     , (27305,  22, 0x3400002B) /* PhysicsEffectTable */;

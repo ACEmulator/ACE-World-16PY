@@ -68,14 +68,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7432,   1, 'Lich') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7432,   1,   33554839) /* Setup */
-     , (7432,   2,  150994967) /* MotionTable */
-     , (7432,   3,  536870934) /* SoundTable */
-     , (7432,   4,  805306368) /* CombatTable */
-     , (7432,   6,   67110722) /* PaletteBase */
-     , (7432,   7,  268435558) /* ClothingBase */
-     , (7432,   8,  100667942) /* Icon */
-     , (7432,  22,  872415272) /* PhysicsEffectTable */
+VALUES (7432,   1, 0x02000197) /* Setup */
+     , (7432,   2, 0x09000017) /* MotionTable */
+     , (7432,   3, 0x20000016) /* SoundTable */
+     , (7432,   4, 0x30000000) /* CombatTable */
+     , (7432,   6, 0x04000742) /* PaletteBase */
+     , (7432,   7, 0x10000066) /* ClothingBase */
+     , (7432,   8, 0x06001226) /* Icon */
+     , (7432,  22, 0x34000028) /* PhysicsEffectTable */
      , (7432,  32,        248) /* WieldedTreasureType - 
                                    Wield 6x Throwing Axe (304) | Probability: 10%
                                    Wield Nayin (334) | Probability: 10%
@@ -84,7 +84,7 @@ VALUES (7432,   1,   33554839) /* Setup */
                                    Wield 20x Arrow (300) | Probability: 100%
                                    Wield Yumi (363) | Probability: 10%
                                    Wield 14x Arrow (300) | Probability: 100%
-                                   Wield Heavy Crossbow (311) | Probability: 60%
+                                   Wield Heavy Crossbow (311) | Probability: 60.000004%
                                    Wield 15x Quarrel (305) | Probability: 100%
                                    Wield Battle Axe (301) | Probability: 14%
                                    Wield Broad Sword (350) | Probability: 7%
@@ -98,13 +98,13 @@ VALUES (7432,   1,   33554839) /* Setup */
                                    Wield Silifi (344) | Probability: 13%
                                    Wield Tachi (353) | Probability: 6%
                                    Wield Takuba (354) | Probability: 6%
-                                   Wield Large Kite Shield (92) | Probability: 30%
+                                   Wield Large Kite Shield (92) | Probability: 30.000002%
                                    Wield Kite Shield (91) | Probability: 20%
                                    Wield Large Round Shield (94) | Probability: 20% */
      , (7432,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7432,  16, 1997606914) /* ActivationTarget */;
+VALUES (7432,  16, 0x77111002) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7432,   1, 120, 0, 0) /* Strength */
@@ -120,23 +120,23 @@ VALUES (7432,   1,    50, 0, 0, 113) /* MaxHealth */
      , (7432,   5,   150, 0, 0, 270) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (7432,  1, 0, 3, 0,  90, 0, 530.956384243748) /* Axe                 Specialized */
-     , (7432,  2, 0, 3, 0, 100, 0, 530.956384243748) /* Bow                 Specialized */
-     , (7432,  3, 0, 3, 0, 100, 0, 530.956384243748) /* Crossbow            Specialized */
-     , (7432,  4, 0, 3, 0,  90, 0, 530.956384243748) /* Dagger              Specialized */
-     , (7432,  5, 0, 3, 0,  90, 0, 530.956384243748) /* Mace                Specialized */
-     , (7432,  6, 0, 3, 0,  86, 0, 530.956384243748) /* MeleeDefense        Specialized */
-     , (7432,  7, 0, 3, 0, 126, 0, 530.956384243748) /* MissileDefense      Specialized */
-     , (7432,  9, 0, 3, 0,  90, 0, 530.956384243748) /* Spear               Specialized */
-     , (7432, 10, 0, 3, 0,  90, 0, 530.956384243748) /* Staff               Specialized */
-     , (7432, 11, 0, 3, 0,  90, 0, 530.956384243748) /* Sword               Specialized */
-     , (7432, 13, 0, 3, 0,  90, 0, 530.956384243748) /* UnarmedCombat       Specialized */
-     , (7432, 14, 0, 2, 0, 150, 0, 530.956384243748) /* ArcaneLore          Trained */
-     , (7432, 15, 0, 3, 0,  76, 0, 530.956384243748) /* MagicDefense        Specialized */
-     , (7432, 20, 0, 2, 0,  50, 0, 530.956384243748) /* Deception           Trained */
-     , (7432, 31, 0, 3, 0,  24, 0, 530.956384243748) /* CreatureEnchantment Specialized */
-     , (7432, 33, 0, 3, 0,  24, 0, 530.956384243748) /* LifeMagic           Specialized */
-     , (7432, 34, 0, 3, 0,  24, 0, 530.956384243748) /* WarMagic            Specialized */;
+VALUES (7432,  1, 0, 3, 0,  90, 0, 530.9563842437483) /* Axe                 Specialized */
+     , (7432,  2, 0, 3, 0, 100, 0, 530.9563842437483) /* Bow                 Specialized */
+     , (7432,  3, 0, 3, 0, 100, 0, 530.9563842437483) /* Crossbow            Specialized */
+     , (7432,  4, 0, 3, 0,  90, 0, 530.9563842437483) /* Dagger              Specialized */
+     , (7432,  5, 0, 3, 0,  90, 0, 530.9563842437483) /* Mace                Specialized */
+     , (7432,  6, 0, 3, 0,  86, 0, 530.9563842437483) /* MeleeDefense        Specialized */
+     , (7432,  7, 0, 3, 0, 126, 0, 530.9563842437483) /* MissileDefense      Specialized */
+     , (7432,  9, 0, 3, 0,  90, 0, 530.9563842437483) /* Spear               Specialized */
+     , (7432, 10, 0, 3, 0,  90, 0, 530.9563842437483) /* Staff               Specialized */
+     , (7432, 11, 0, 3, 0,  90, 0, 530.9563842437483) /* Sword               Specialized */
+     , (7432, 13, 0, 3, 0,  90, 0, 530.9563842437483) /* UnarmedCombat       Specialized */
+     , (7432, 14, 0, 2, 0, 150, 0, 530.9563842437483) /* ArcaneLore          Trained */
+     , (7432, 15, 0, 3, 0,  76, 0, 530.9563842437483) /* MagicDefense        Specialized */
+     , (7432, 20, 0, 2, 0,  50, 0, 530.9563842437483) /* Deception           Trained */
+     , (7432, 31, 0, 3, 0,  24, 0, 530.9563842437483) /* CreatureEnchantment Specialized */
+     , (7432, 33, 0, 3, 0,  24, 0, 530.9563842437483) /* LifeMagic           Specialized */
+     , (7432, 34, 0, 3, 0,  24, 0, 530.9563842437483) /* WarMagic            Specialized */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (7432,  0,  4,  0,    0,   70,   56,   21,   39,   13,   35,   39,   47,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */
@@ -150,30 +150,30 @@ VALUES (7432,  0,  4,  0,    0,   70,   56,   21,   39,   13,   35,   39,   47, 
      , (7432,  8,  4,  3, 0.75,   90,   72,   27,   50,   16,   45,   50,   60,    0, 3,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22,    0,    0, 0.22) /* Foot */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7432,    60,  2.029)  /* Acid Stream III */
-     , (7432,    61,  2.011)  /* Acid Stream IV */
+VALUES (7432,  1262,   2.02)  /* Drain Mana Other III */
+     , (7432,    82,  2.029)  /* Flame Bolt III */
      , (7432,    66,  2.029)  /* Shock Wave III */
+     , (7432,    83,  2.011)  /* Flame Bolt IV */
      , (7432,    67,  2.011)  /* Shock Wave IV */
      , (7432,    71,  2.029)  /* Frost Bolt III */
      , (7432,    72,  2.011)  /* Frost Bolt IV */
-     , (7432,    77,  2.029)  /* Lightning Bolt III */
+     , (7432,  1369,  2.009)  /* Frailty Other III */
      , (7432,    78,  2.011)  /* Lightning Bolt IV */
-     , (7432,    82,  2.029)  /* Flame Bolt III */
-     , (7432,    83,  2.011)  /* Flame Bolt IV */
+     , (7432,  1417,  2.009)  /* Slowness Other III */
+     , (7432,    77,  2.029)  /* Lightning Bolt III */
+     , (7432,  1239,   2.02)  /* Drain Health Other III */
      , (7432,    88,  2.029)  /* Force Bolt III */
      , (7432,    89,  2.011)  /* Force Bolt IV */
      , (7432,    94,  2.029)  /* Whirling Blade III */
      , (7432,    95,  2.011)  /* Whirling Blade IV */
-     , (7432,   173,  2.009)  /* Fester Other III */
-     , (7432,  1239,   2.02)  /* Drain Health Other III */
-     , (7432,  1251,   2.02)  /* Drain Stamina Other III */
-     , (7432,  1262,   2.02)  /* Drain Mana Other III */
-     , (7432,  1340,  2.009)  /* Weakness Other III */
-     , (7432,  1369,  2.009)  /* Frailty Other III */
-     , (7432,  1393,  2.009)  /* Clumsiness Other III */
-     , (7432,  1417,  2.009)  /* Slowness Other III */
      , (7432,  1441,  2.009)  /* Bafflement Other III */
-     , (7432,  1466,  2.009)  /* Feeblemind Other IV */;
+     , (7432,  1251,   2.02)  /* Drain Stamina Other III */
+     , (7432,   173,  2.009)  /* Fester Other III */
+     , (7432,  1393,  2.009)  /* Clumsiness Other III */
+     , (7432,    61,  2.011)  /* Acid Stream IV */
+     , (7432,  1466,  2.009)  /* Feeblemind Other IV */
+     , (7432,  1340,  2.009)  /* Weakness Other III */
+     , (7432,    60,  2.029)  /* Acid Stream III */;
 
 INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
 VALUES (7432,  94) /* ATTACK_NOTIFICATION_EVENT */

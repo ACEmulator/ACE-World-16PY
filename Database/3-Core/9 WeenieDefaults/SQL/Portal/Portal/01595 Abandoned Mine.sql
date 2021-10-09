@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1595,   1, 'Abandoned Mine') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1595,   1,   33554867) /* Setup */
-     , (1595,   2,  150994947) /* MotionTable */
-     , (1595,   8,  100667499) /* Icon */;
+VALUES (1595,   1, 0x020001B3) /* Setup */
+     , (1595,   2, 0x09000003) /* MotionTable */
+     , (1595,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1595, 2, 29950509, 72.9, -30.2, 0, 0.1391731, 0, 0, -0.9902681) /* Destination */
-/* @teleloc 0x01C9022D [72.900000 -30.200000 0.000000] 0.139173 0.000000 0.000000 -0.990268 */;
+VALUES (1595, 2, 0x01C9022D, 72.9, -30.2, 0, 0.139173, 0, 0, -0.990268) /* Destination */
+/* @teleloc 0x01C9022D [72.900002 -30.200001 0.000000] 0.139173 0.000000 0.000000 -0.990268 */;

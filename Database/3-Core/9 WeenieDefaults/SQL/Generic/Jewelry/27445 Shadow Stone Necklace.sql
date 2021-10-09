@@ -28,7 +28,7 @@ VALUES (27445,  22, True ) /* Inscribable */
      , (27445,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27445,   5, -0.033333) /* ManaRate */;
+VALUES (27445,   5,  -0.033) /* ManaRate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27445,   1, 'Shadow Stone Necklace') /* Name */
@@ -36,12 +36,12 @@ VALUES (27445,   1, 'Shadow Stone Necklace') /* Name */
      , (27445,  33, 'PickedUpNecklaceShadowStone') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27445,   1,   33554680) /* Setup */
-     , (27445,   3,  536870932) /* SoundTable */
-     , (27445,   6,   67111919) /* PaletteBase */
-     , (27445,   7,  268436095) /* ClothingBase */
-     , (27445,   8,  100676419) /* Icon */
-     , (27445,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27445,   1, 0x020000F8) /* Setup */
+     , (27445,   3, 0x20000014) /* SoundTable */
+     , (27445,   6, 0x04000BEF) /* PaletteBase */
+     , (27445,   7, 0x1000027F) /* ClothingBase */
+     , (27445,   8, 0x06003343) /* Icon */
+     , (27445,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27445,  2182,      2)  /* Battlemage's Boon */

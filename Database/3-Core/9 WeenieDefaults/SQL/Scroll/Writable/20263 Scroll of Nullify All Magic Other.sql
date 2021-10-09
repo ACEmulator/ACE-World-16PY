@@ -24,7 +24,7 @@ VALUES (20263,   1, 'Scroll of Nullify All Magic Other') /* Name */
      , (20263,  15, 'When learned, this spell dispels all negative enchantments from the target.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20263,   1,   33554826) /* Setup */
-     , (20263,   8,  100669877) /* Icon */
-     , (20263,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20263,   1, 0x0200018A) /* Setup */
+     , (20263,   8, 0x060019B5) /* Icon */
+     , (20263,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20263,  28,       1879) /* Spell - Nullify All Magic Other */;

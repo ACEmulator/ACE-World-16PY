@@ -30,9 +30,9 @@ VALUES (8241,   1, 'Hearty Healing Pumpkin Soup') /* Name */
      , (8241,  20, 'Bowls of Hearty Healing Pumpkin Soup') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8241,   1,   33554668) /* Setup */
-     , (8241,   3,  536870932) /* SoundTable */
-     , (8241,   6,   67111928) /* PaletteBase */
-     , (8241,   7,  268436049) /* ClothingBase */
-     , (8241,   8,  100671016) /* Icon */
-     , (8241,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8241,   1, 0x020000EC) /* Setup */
+     , (8241,   3, 0x20000014) /* SoundTable */
+     , (8241,   6, 0x04000BF8) /* PaletteBase */
+     , (8241,   7, 0x10000251) /* ClothingBase */
+     , (8241,   8, 0x06001E28) /* Icon */
+     , (8241,  22, 0x3400002B) /* PhysicsEffectTable */;

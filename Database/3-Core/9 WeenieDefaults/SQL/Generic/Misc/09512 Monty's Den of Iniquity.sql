@@ -24,7 +24,7 @@ VALUES (9512,   1, 'Monty''s Den of Iniquity') /* Name */
      , (9512,  16, 'Welcome to Monty''s Den of Iniquity!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9512,   1,   33555088) /* Setup */
-     , (9512,   3,  536870932) /* SoundTable */
-     , (9512,   8,  100668115) /* Icon */
-     , (9512,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9512,   1, 0x02000290) /* Setup */
+     , (9512,   3, 0x20000014) /* SoundTable */
+     , (9512,   8, 0x060012D3) /* Icon */
+     , (9512,  22, 0x3400002B) /* PhysicsEffectTable */;

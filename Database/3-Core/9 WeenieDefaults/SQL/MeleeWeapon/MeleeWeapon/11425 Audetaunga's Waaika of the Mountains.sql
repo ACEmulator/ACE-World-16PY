@@ -38,7 +38,7 @@ VALUES (11425,  22, True ) /* Inscribable */
      , (11425,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11425,   5, -0.03333) /* ManaRate */
+VALUES (11425,   5,  -0.033) /* ManaRate */
      , (11425,  21,    0.62) /* WeaponLength */
      , (11425,  22,    0.52) /* DamageVariance */
      , (11425,  29,    1.08) /* WeaponDefense */
@@ -52,13 +52,13 @@ VALUES (11425,   1, 'Audetaunga''s Waaika of the Mountains') /* Name */
      , (11425,  16, 'A waaika fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11425,   1,   33557235) /* Setup */
-     , (11425,   3,  536870932) /* SoundTable */
-     , (11425,   6,   67113336) /* PaletteBase */
-     , (11425,   7,  268436248) /* ClothingBase */
-     , (11425,   8,  100672080) /* Icon */
-     , (11425,  22,  872415275) /* PhysicsEffectTable */
-     , (11425,  36,  234881044) /* MutateFilter */;
+VALUES (11425,   1, 0x02000AF3) /* Setup */
+     , (11425,   3, 0x20000014) /* SoundTable */
+     , (11425,   6, 0x04001178) /* PaletteBase */
+     , (11425,   7, 0x10000318) /* ClothingBase */
+     , (11425,   8, 0x06002250) /* Icon */
+     , (11425,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (11425,  36, 0x0E000014) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11425,  2437,      2)  /* Greater Rockslide */

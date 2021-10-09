@@ -31,7 +31,7 @@ VALUES (9075,   1, 'Strange Humming Crystal') /* Name */
      , (9075,  17, 'The crystal stands mutely...') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9075,   1,   33556962) /* Setup */
-     , (9075,   3,  536870932) /* SoundTable */
-     , (9075,   8,  100671341) /* Icon */
-     , (9075,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (9075,   1, 0x020009E2) /* Setup */
+     , (9075,   3, 0x20000014) /* SoundTable */
+     , (9075,   8, 0x06001F6D) /* Icon */
+     , (9075,  22, 0x3400002B) /* PhysicsEffectTable */;

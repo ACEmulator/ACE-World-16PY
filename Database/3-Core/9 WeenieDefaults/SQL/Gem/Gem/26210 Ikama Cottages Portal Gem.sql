@@ -36,11 +36,11 @@ VALUES (26210,   1, 'Ikama Cottages Portal Gem') /* Name */
      , (26210,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26210,   1,   33556769) /* Setup */
-     , (26210,   3,  536870932) /* SoundTable */
-     , (26210,   6,   67111919) /* PaletteBase */
-     , (26210,   7,  268435723) /* ClothingBase */
-     , (26210,   8,  100675760) /* Icon */
-     , (26210,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26210,   1, 0x02000921) /* Setup */
+     , (26210,   3, 0x20000014) /* SoundTable */
+     , (26210,   6, 0x04000BEF) /* PaletteBase */
+     , (26210,   7, 0x1000010B) /* ClothingBase */
+     , (26210,   8, 0x060030B0) /* Icon */
+     , (26210,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26210,  28,        157) /* Spell - Summon Primary Portal I */
      , (26210,  31,      14637) /* LinkedPortalOne - Ikama Cottages Portal */;

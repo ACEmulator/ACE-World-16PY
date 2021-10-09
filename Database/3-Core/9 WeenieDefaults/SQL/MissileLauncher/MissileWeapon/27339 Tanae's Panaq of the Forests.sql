@@ -17,7 +17,7 @@ VALUES (27339,   1,        256) /* ItemType - MissileWeapon */
      , (27339,  48,          2) /* WeaponSkill - Bow */
      , (27339,  49,         45) /* WeaponTime */
      , (27339,  50,          1) /* AmmoType - Arrow */
-     , (27339,  51,          2) /* CombatUse - Missle */
+     , (27339,  51,          2) /* CombatUse - Missile */
      , (27339,  52,          2) /* ParentLocation - LeftHand */
      , (27339,  53,          3) /* PlacementPosition - LeftHand */
      , (27339,  60,        175) /* WeaponRange */
@@ -40,7 +40,7 @@ VALUES (27339,  22, True ) /* Inscribable */
      , (27339,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27339,   5, -0.033333) /* ManaRate */
+VALUES (27339,   5,  -0.033) /* ManaRate */
      , (27339,  26,    27.3) /* MaximumVelocity */
      , (27339,  29,    1.08) /* WeaponDefense */
      , (27339,  62,    1.08) /* WeaponOffense */
@@ -53,12 +53,12 @@ VALUES (27339,   1, 'Tanae''s Panaq of the Forests') /* Name */
      , (27339,  16, 'A panaq fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27339,   1,   33558662) /* Setup */
-     , (27339,   3,  536870932) /* SoundTable */
-     , (27339,   6,   67113336) /* PaletteBase */
-     , (27339,   7,  268436251) /* ClothingBase */
-     , (27339,   8,  100676377) /* Icon */
-     , (27339,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (27339,   1, 0x02001086) /* Setup */
+     , (27339,   3, 0x20000014) /* SoundTable */
+     , (27339,   6, 0x04001178) /* PaletteBase */
+     , (27339,   7, 0x1000031B) /* ClothingBase */
+     , (27339,   8, 0x06003319) /* Icon */
+     , (27339,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27339,  2446,      2)  /* Greater Growth */

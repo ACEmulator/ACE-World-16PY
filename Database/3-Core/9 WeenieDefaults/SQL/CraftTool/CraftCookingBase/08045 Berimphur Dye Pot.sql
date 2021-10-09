@@ -32,9 +32,9 @@ VALUES (8045,   1, 'Berimphur Dye Pot') /* Name */
      , (8045,  20, 'Berimphur Dye Pots') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8045,   1,   33556753) /* Setup */
-     , (8045,   3,  536870932) /* SoundTable */
-     , (8045,   6,   67111919) /* PaletteBase */
-     , (8045,   7,  268436036) /* ClothingBase */
-     , (8045,   8,  100670264) /* Icon */
-     , (8045,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8045,   1, 0x02000911) /* Setup */
+     , (8045,   3, 0x20000014) /* SoundTable */
+     , (8045,   6, 0x04000BEF) /* PaletteBase */
+     , (8045,   7, 0x10000244) /* ClothingBase */
+     , (8045,   8, 0x06001B38) /* Icon */
+     , (8045,  22, 0x3400002B) /* PhysicsEffectTable */;

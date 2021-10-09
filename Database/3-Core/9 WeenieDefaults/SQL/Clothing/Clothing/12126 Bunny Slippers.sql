@@ -30,7 +30,7 @@ VALUES (12126,  22, True ) /* Inscribable */
      , (12126, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12126,   5, -0.03333) /* ManaRate */
+VALUES (12126,   5,  -0.033) /* ManaRate */
      , (12126,  12,     0.1) /* Shade */
      , (12126,  13,     0.3) /* ArmorModVsSlash */
      , (12126,  14,     0.3) /* ArmorModVsPierce */
@@ -47,11 +47,11 @@ VALUES (12126,   1, 'Bunny Slippers') /* Name */
      , (12126,  16, 'A pair of bunny slippers.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12126,   1,   33557435) /* Setup */
-     , (12126,   6,   67108990) /* PaletteBase */
-     , (12126,   7,  268436307) /* ClothingBase */
-     , (12126,   8,  100672378) /* Icon */
-     , (12126,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12126,   1, 0x02000BBB) /* Setup */
+     , (12126,   6, 0x0400007E) /* PaletteBase */
+     , (12126,   7, 0x10000353) /* ClothingBase */
+     , (12126,   8, 0x0600237A) /* Icon */
+     , (12126,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12126,   970,      2)  /* Jumping Mastery Self I */

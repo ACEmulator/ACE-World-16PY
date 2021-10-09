@@ -33,10 +33,10 @@ VALUES (5084,   1, 'Calling Stone') /* Name */
      , (5084,  16, 'This is a Calling Stone that all newcomers arrive with.  It is a plain, lightweight gem.  Training Masters collect these stones.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5084,   1,   33554809) /* Setup */
-     , (5084,   3,  536870932) /* SoundTable */
-     , (5084,   6,   67111919) /* PaletteBase */
-     , (5084,   7,  268435723) /* ClothingBase */
-     , (5084,   8,  100672482) /* Icon */
-     , (5084,  22,  872415275) /* PhysicsEffectTable */
-     , (5084,  36,  234881046) /* MutateFilter */;
+VALUES (5084,   1, 0x02000179) /* Setup */
+     , (5084,   3, 0x20000014) /* SoundTable */
+     , (5084,   6, 0x04000BEF) /* PaletteBase */
+     , (5084,   7, 0x1000010B) /* ClothingBase */
+     , (5084,   8, 0x060023E2) /* Icon */
+     , (5084,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (5084,  36, 0x0E000016) /* MutateFilter */;

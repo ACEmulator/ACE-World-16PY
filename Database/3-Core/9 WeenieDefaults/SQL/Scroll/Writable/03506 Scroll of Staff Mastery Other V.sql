@@ -25,7 +25,7 @@ VALUES (3506,   1, 'Scroll of Staff Mastery Other V') /* Name */
      , (3506,  16, 'When learned, this spell increases the target''s Staff skill by 100%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3506,   1,   33554826) /* Setup */
-     , (3506,   8,  100676473) /* Icon */
-     , (3506,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3506,   1, 0x0200018A) /* Setup */
+     , (3506,   8, 0x06003379) /* Icon */
+     , (3506,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3506,  28,        392) /* Spell - Light Weapon Mastery Other V */;

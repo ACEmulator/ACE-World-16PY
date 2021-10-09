@@ -45,16 +45,16 @@ VALUES (9596,   1, 'Axe of the Quiddity') /* Name */
      , (9596,  16, 'A weapon made of a strange pulsating energy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9596,   1,   33557104) /* Setup */
-     , (9596,   3,  536870932) /* SoundTable */
-     , (9596,   8,  100671693) /* Icon */
-     , (9596,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9596,   1, 0x02000A70) /* Setup */
+     , (9596,   3, 0x20000014) /* SoundTable */
+     , (9596,   8, 0x060020CD) /* Icon */
+     , (9596,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9596,  30,         88) /* PhysicsScript - Create */
-     , (9596,  36,  234881044) /* MutateFilter */
+     , (9596,  36, 0x0E000014) /* MutateFilter */
      , (9596,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9596,  1590,      2)  /* Aura of Heart Seeker Self IV */
-     , (9596,  1603,      2)  /* Aura of Defender Self IV */
+VALUES (9596,  1603,      2)  /* Aura of Defender Self IV */
      , (9596,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (9596,  1625,      2)  /* Aura of Swift Killer Self IV */;
+     , (9596,  1625,      2)  /* Aura of Swift Killer Self IV */
+     , (9596,  1590,      2)  /* Aura of Heart Seeker Self IV */;

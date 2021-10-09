@@ -16,7 +16,7 @@ VALUES (26592,   1,        256) /* ItemType - MissileWeapon */
      , (26592,  48,         12) /* WeaponSkill - ThrownWeapon */
      , (26592,  49,         40) /* WeaponTime */
      , (26592,  50,          4) /* AmmoType - Atlatl */
-     , (26592,  51,          2) /* CombatUse - Missle */
+     , (26592,  51,          2) /* CombatUse - Missile */
      , (26592,  60,        120) /* WeaponRange */
      , (26592,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (26592, 106,        375) /* ItemSpellcraft */
@@ -45,17 +45,17 @@ VALUES (26592,   1, 'Crimson Brace of Pain') /* Name */
      , (26592,  15, 'This brace looks much like an ornamental piece for the hand. However, it is able to give greater strength to thrown darts.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26592,   1,   33558595) /* Setup */
-     , (26592,   3,  536870932) /* SoundTable */
-     , (26592,   6,   67114956) /* PaletteBase */
-     , (26592,   7,  268436792) /* ClothingBase */
-     , (26592,   8,  100675775) /* Icon */
-     , (26592,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (26592,   1, 0x02001043) /* Setup */
+     , (26592,   3, 0x20000014) /* SoundTable */
+     , (26592,   6, 0x040017CC) /* PaletteBase */
+     , (26592,   7, 0x10000538) /* ClothingBase */
+     , (26592,   8, 0x060030BF) /* Icon */
+     , (26592,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26592,   244,      2)  /* Invulnerability Other VI */
-     , (26592,  1337,      2)  /* Strength Other VI */
-     , (26592,  1605,      2)  /* Aura of Defender Self VI */
-     , (26592,  1616,      2)  /* Aura of Blood Drinker Self VI */
+VALUES (26592,  1605,      2)  /* Aura of Defender Self VI */
      , (26592,  1627,      2)  /* Aura of Swift Killer Self VI */
-     , (26592,  2695,      2)  /* Moderate Missile Weapon Aptitude */;
+     , (26592,  2695,      2)  /* Moderate Missile Weapon Aptitude */
+     , (26592,  1337,      2)  /* Strength Other VI */
+     , (26592,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (26592,   244,      2)  /* Invulnerability Other VI */;

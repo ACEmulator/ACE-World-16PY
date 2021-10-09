@@ -47,17 +47,17 @@ VALUES (21377,   1, 'Dauloirae') /* Name */
      , (21377,  15, 'An obsidian shield enhanced to defend against the piercing attacks of olthoi.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21377,   1,   33557964) /* Setup */
-     , (21377,   3,  536870932) /* SoundTable */
-     , (21377,   8,  100673491) /* Icon */
-     , (21377,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (21377,   1, 0x02000DCC) /* Setup */
+     , (21377,   3, 0x20000014) /* SoundTable */
+     , (21377,   8, 0x060027D3) /* Icon */
+     , (21377,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21377,   243,      2)  /* Invulnerability Other V */
-     , (21377,   514,      2)  /* Acid Protection Other VI */
-     , (21377,  1119,      2)  /* Blade Protection Other V */
-     , (21377,  1144,      2)  /* Piercing Protection Other VI */
+VALUES (21377,   514,      2)  /* Acid Protection Other VI */
+     , (21377,  1572,      2)  /* Piercing Bane IV */
      , (21377,  1485,      2)  /* Impenetrability V */
-     , (21377,  1496,      2)  /* Acid Bane IV */
      , (21377,  1560,      2)  /* Blade Bane IV */
-     , (21377,  1572,      2)  /* Piercing Bane IV */;
+     , (21377,   243,      2)  /* Invulnerability Other V */
+     , (21377,  1119,      2)  /* Blade Protection Other V */
+     , (21377,  1496,      2)  /* Acid Bane IV */
+     , (21377,  1144,      2)  /* Piercing Protection Other VI */;

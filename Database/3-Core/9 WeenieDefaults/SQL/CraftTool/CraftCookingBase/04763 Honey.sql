@@ -24,7 +24,7 @@ VALUES (4763,   1, 'Honey') /* Name */
      , (4763,  20, 'Pots of Honey') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4763,   1,   33555977) /* Setup */
-     , (4763,   3,  536870932) /* SoundTable */
-     , (4763,   8,  100669961) /* Icon */
-     , (4763,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (4763,   1, 0x02000609) /* Setup */
+     , (4763,   3, 0x20000014) /* SoundTable */
+     , (4763,   8, 0x06001A09) /* Icon */
+     , (4763,  22, 0x3400002B) /* PhysicsEffectTable */;

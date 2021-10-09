@@ -60,15 +60,15 @@ VALUES (185,   1, 'Bandit') /* Name */
      , (185,   4, 'Aluvian') /* HeritageGroup */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (185,   1,   33554433) /* Setup */
-     , (185,   2,  150994945) /* MotionTable */
-     , (185,   3,  536870913) /* SoundTable */
-     , (185,   4,  805306368) /* CombatTable */
-     , (185,   8,  100667446) /* Icon */
-     , (185,  22,  872415236) /* PhysicsEffectTable */
+VALUES (185,   1, 0x02000001) /* Setup */
+     , (185,   2, 0x09000001) /* MotionTable */
+     , (185,   3, 0x20000001) /* SoundTable */
+     , (185,   4, 0x30000000) /* CombatTable */
+     , (185,   8, 0x06001036) /* Icon */
+     , (185,  22, 0x34000004) /* PhysicsEffectTable */
      , (185,  32,        364) /* WieldedTreasureType - 
                                    Wield Boots (2606) | Probability: 40%
-                                   Wield Leather Boots (115) | Probability: 30%
+                                   Wield Leather Boots (115) | Probability: 30.000002%
                                    Wield Studded Leather Boots (116) | Probability: 20%
                                    Wield Steel Toed Boots (7897) | Probability: 10%
                                    Wield Doublet (2596) | Palette: DeepGreen (7) | Shade: 0.5 | Probability: 0.641%
@@ -413,11 +413,11 @@ VALUES (185,   1,     0, 0, 0, 28) /* MaxHealth */
      , (185,   5,     0, 0, 0, 55) /* MaxMana */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (185,  2, 0, 2, 0,   8, 0, 269.323430129836) /* Bow                 Trained */
-     , (185,  6, 0, 2, 0,   3, 0, 269.323430129836) /* MeleeDefense        Trained */
-     , (185,  7, 0, 2, 0,   1, 0, 269.323430129836) /* MissileDefense      Trained */
-     , (185, 12, 0, 2, 0,   8, 0, 269.323430129836) /* ThrownWeapon        Trained */
-     , (185, 13, 0, 2, 0,   4, 0, 269.323430129836) /* UnarmedCombat       Trained */;
+VALUES (185,  2, 0, 2, 0,   8, 0, 269.32343012983586) /* Bow                 Trained */
+     , (185,  6, 0, 2, 0,   3, 0, 269.32343012983586) /* MeleeDefense        Trained */
+     , (185,  7, 0, 2, 0,   1, 0, 269.32343012983586) /* MissileDefense      Trained */
+     , (185, 12, 0, 2, 0,   8, 0, 269.32343012983586) /* ThrownWeapon        Trained */
+     , (185, 13, 0, 2, 0,   4, 0, 269.32343012983586) /* UnarmedCombat       Trained */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (185,  0,  4,  0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0, 1, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0, 0.33,    0,    0) /* Head */

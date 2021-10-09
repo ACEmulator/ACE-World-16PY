@@ -22,5 +22,5 @@ VALUES (467,   1, 'Cragstone: 4 miles') /* Name */
      , (467,  16, 'Town of Cragstone: 4 miles.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (467,   1,   33555984) /* Setup */
-     , (467,   8,  100668115) /* Icon */;
+VALUES (467,   1, 0x02000610) /* Setup */
+     , (467,   8, 0x060012D3) /* Icon */;

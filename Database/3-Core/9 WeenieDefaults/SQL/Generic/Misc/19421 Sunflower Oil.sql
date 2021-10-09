@@ -27,7 +27,7 @@ VALUES (19421,   1, 'Sunflower Oil') /* Name */
      , (19421,  16, 'A small jar of Sunflower Oil.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19421,   1,   33557007) /* Setup */
-     , (19421,   3,  536870932) /* SoundTable */
-     , (19421,   8,  100673042) /* Icon */
-     , (19421,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (19421,   1, 0x02000A0F) /* Setup */
+     , (19421,   3, 0x20000014) /* SoundTable */
+     , (19421,   8, 0x06002612) /* Icon */
+     , (19421,  22, 0x3400002B) /* PhysicsEffectTable */;

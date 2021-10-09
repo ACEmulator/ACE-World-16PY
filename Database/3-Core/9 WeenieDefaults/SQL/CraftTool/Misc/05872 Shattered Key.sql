@@ -32,7 +32,7 @@ VALUES (5872,   1, 'Shattered Key') /* Name */
      , (5872,  16, 'A plain iron key, broken in half. If repaired, it can be used somewhere in the Lost City of Frore.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5872,   1,   33554784) /* Setup */
-     , (5872,   3,  536870932) /* SoundTable */
-     , (5872,   8,  100667573) /* Icon */
-     , (5872,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (5872,   1, 0x02000160) /* Setup */
+     , (5872,   3, 0x20000014) /* SoundTable */
+     , (5872,   8, 0x060010B5) /* Icon */
+     , (5872,  22, 0x3400002B) /* PhysicsEffectTable */;

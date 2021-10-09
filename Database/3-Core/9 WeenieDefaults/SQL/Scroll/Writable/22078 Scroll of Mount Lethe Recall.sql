@@ -26,7 +26,7 @@ VALUES (22078,   1, 'Scroll of Mount Lethe Recall') /* Name */
      , (22078,  15, 'A scroll scribed in the crooked runes of Harlune the Misanthrope. Reading this scroll will allow you to recall to the base of Mount Lethe.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22078,   1,   33554826) /* Setup */
-     , (22078,   8,  100669876) /* Icon */
-     , (22078,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22078,   1, 0x0200018A) /* Setup */
+     , (22078,   8, 0x060019B4) /* Icon */
+     , (22078,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22078,  28,       2813) /* Spell - Mount Lethe Recall */;

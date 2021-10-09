@@ -28,9 +28,9 @@ VALUES (22247,   1, 'Great Pumpkin') /* Name */
      , (22247,  16, 'A huge bright orange, hefty round pumpkin, sturdy and thick-shelled.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22247,   1,   33556809) /* Setup */
-     , (22247,   3,  536870932) /* SoundTable */
-     , (22247,   6,   67112968) /* PaletteBase */
-     , (22247,   7,  268436043) /* ClothingBase */
-     , (22247,   8,  100671015) /* Icon */
-     , (22247,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (22247,   1, 0x02000949) /* Setup */
+     , (22247,   3, 0x20000014) /* SoundTable */
+     , (22247,   6, 0x04001008) /* PaletteBase */
+     , (22247,   7, 0x1000024B) /* ClothingBase */
+     , (22247,   8, 0x06001E27) /* Icon */
+     , (22247,  22, 0x3400002B) /* PhysicsEffectTable */;

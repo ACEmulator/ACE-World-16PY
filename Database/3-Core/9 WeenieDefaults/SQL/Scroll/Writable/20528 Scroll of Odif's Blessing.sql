@@ -24,7 +24,7 @@ VALUES (20528,   1, 'Scroll of Odif''s Blessing') /* Name */
      , (20528,  15, 'When learned, this spell increases the caster''s Loyalty skill by 40 points.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20528,   1,   33554826) /* Setup */
-     , (20528,   8,  100676446) /* Icon */
-     , (20528,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20528,   1, 0x0200018A) /* Setup */
+     , (20528,   8, 0x0600335E) /* Icon */
+     , (20528,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20528,  28,       2233) /* Spell - Odif's Blessing */;

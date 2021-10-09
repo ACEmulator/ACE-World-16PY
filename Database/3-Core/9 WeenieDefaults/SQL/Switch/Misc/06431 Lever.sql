@@ -25,15 +25,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6431,   1, 'Lever') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6431,   1,   33555637) /* Setup */
-     , (6431,   2,  150995053) /* MotionTable */
-     , (6431,   3,  536870979) /* SoundTable */
-     , (6431,   8,  100667624) /* Icon */
-     , (6431,  22,  872415275) /* PhysicsEffectTable */
-     , (6431,  24,  268435537) /* UseTargetAnimation - Twitch1 */;
+VALUES (6431,   1, 0x020004B5) /* Setup */
+     , (6431,   2, 0x0900006D) /* MotionTable */
+     , (6431,   3, 0x20000043) /* SoundTable */
+     , (6431,   8, 0x060010E8) /* Icon */
+     , (6431,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (6431,  24, 0x10000051) /* UseTargetAnimation - Twitch1 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6431,  16,          0) /* ActivationTarget */;
+VALUES (6431,  16, 0x00000000) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6431, -1, 3666, 800, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Place Holder Object (3666) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

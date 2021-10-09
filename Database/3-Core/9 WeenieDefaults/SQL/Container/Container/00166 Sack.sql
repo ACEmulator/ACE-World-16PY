@@ -24,9 +24,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (166,   1, 'Sack') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (166,   1,   33554817) /* Setup */
-     , (166,   3,  536870932) /* SoundTable */
-     , (166,   6,   67111919) /* PaletteBase */
-     , (166,   7,  268435833) /* ClothingBase */
-     , (166,   8,  100667436) /* Icon */
-     , (166,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (166,   1, 0x02000181) /* Setup */
+     , (166,   3, 0x20000014) /* SoundTable */
+     , (166,   6, 0x04000BEF) /* PaletteBase */
+     , (166,   7, 0x10000179) /* ClothingBase */
+     , (166,   8, 0x0600102C) /* Icon */
+     , (166,  22, 0x3400002B) /* PhysicsEffectTable */;

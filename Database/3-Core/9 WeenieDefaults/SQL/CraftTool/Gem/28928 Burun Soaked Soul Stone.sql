@@ -31,9 +31,9 @@ VALUES (28928,   1, 'Burun Soaked Soul Stone') /* Name */
      , (28928,  16, 'This stone has been coated in the blood of a Burun. The gem appears to have absorbed the blood into itself.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28928,   1,   33554809) /* Setup */
-     , (28928,   3,  536870932) /* SoundTable */
-     , (28928,   6,   67111919) /* PaletteBase */
-     , (28928,   7,  268435723) /* ClothingBase */
-     , (28928,   8,  100677064) /* Icon */
-     , (28928,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28928,   1, 0x02000179) /* Setup */
+     , (28928,   3, 0x20000014) /* SoundTable */
+     , (28928,   6, 0x04000BEF) /* PaletteBase */
+     , (28928,   7, 0x1000010B) /* ClothingBase */
+     , (28928,   8, 0x060035C8) /* Icon */
+     , (28928,  22, 0x3400002B) /* PhysicsEffectTable */;

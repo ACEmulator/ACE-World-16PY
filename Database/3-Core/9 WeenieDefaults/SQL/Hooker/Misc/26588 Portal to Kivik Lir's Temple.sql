@@ -13,7 +13,7 @@ VALUES (26588,   1,        128) /* ItemType - Misc */
      , (26588,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (26588, 150,        103) /* HookPlacement - Hook */
      , (26588, 151,          9) /* HookType - Floor, Yard */
-     , (26588, 197,          4) /* HookGroup */;
+     , (26588, 197,          4) /* HookGroup - PortalItems */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (26588,  13, True ) /* Ethereal */
@@ -28,8 +28,8 @@ VALUES (26588,   1, 'Portal to Kivik Lir''s Temple') /* Name */
      , (26588,  16, 'This device looks to be akin to a portal. It seems to be dormant at the moment. Perhaps if it were hooked in a mansion.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26588,   1,   33558645) /* Setup */
-     , (26588,   8,  100675779) /* Icon */;
+VALUES (26588,   1, 0x02001075) /* Setup */
+     , (26588,   8, 0x060030C3) /* Icon */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (26588,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

@@ -51,16 +51,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20939,   1, 'Good Shimmering Isparian Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20939,   1,   33556259) /* Setup */
-     , (20939,   3,  536870932) /* SoundTable */
-     , (20939,   6,   67111919) /* PaletteBase */
-     , (20939,   7,  268436423) /* ClothingBase */
-     , (20939,   8,  100673207) /* Icon */
-     , (20939,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20939,   1, 0x02000723) /* Setup */
+     , (20939,   3, 0x20000014) /* SoundTable */
+     , (20939,   6, 0x04000BEF) /* PaletteBase */
+     , (20939,   7, 0x100003C7) /* ClothingBase */
+     , (20939,   8, 0x060026B7) /* Icon */
+     , (20939,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20939,  37,          5) /* ItemSkillLimit - Mace */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20939,  1312,      2)  /* Armor Self VI */
-     , (20939,  1590,      2)  /* Aura of Heart Seeker Self IV */
+VALUES (20939,  1590,      2)  /* Aura of Heart Seeker Self IV */
      , (20939,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (20939,  1312,      2)  /* Armor Self VI */
      , (20939,  2679,      2)  /* Feeble Light Weapon Aptitude */;

@@ -30,7 +30,7 @@ VALUES (27807,   1, 'Ancient Diamond Idol') /* Name */
      , (27807,  33, 'GotDiamondIdol') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27807,   1,   33558780) /* Setup */
-     , (27807,   6,   67112808) /* PaletteBase */
-     , (27807,   7,  268436830) /* ClothingBase */
-     , (27807,   8,  100676570) /* Icon */;
+VALUES (27807,   1, 0x020010FC) /* Setup */
+     , (27807,   6, 0x04000F68) /* PaletteBase */
+     , (27807,   7, 0x1000055E) /* ClothingBase */
+     , (27807,   8, 0x060033DA) /* Icon */;

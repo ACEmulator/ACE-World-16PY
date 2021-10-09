@@ -16,7 +16,7 @@ VALUES (29925,   1,        256) /* ItemType - MissileWeapon */
      , (29925,  48,          2) /* WeaponSkill - Bow */
      , (29925,  49,         45) /* WeaponTime */
      , (29925,  50,          1) /* AmmoType - Arrow */
-     , (29925,  51,          2) /* CombatUse - Missle */
+     , (29925,  51,          2) /* CombatUse - Missile */
      , (29925,  52,          2) /* ParentLocation - LeftHand */
      , (29925,  53,          3) /* PlacementPosition - LeftHand */
      , (29925,  60,        175) /* WeaponRange */
@@ -36,7 +36,7 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29925,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29925,   5, -0.0333) /* ManaRate */
+VALUES (29925,   5,  -0.033) /* ManaRate */
      , (29925,  26,    27.3) /* MaximumVelocity */
      , (29925,  29,     1.1) /* WeaponDefense */
      , (29925,  62,       1) /* WeaponOffense */
@@ -49,14 +49,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29925,   1, 'Regal Longbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29925,   1,   33559058) /* Setup */
-     , (29925,   3,  536870932) /* SoundTable */
-     , (29925,   8,  100676976) /* Icon */
-     , (29925,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (29925,   1, 0x02001212) /* Setup */
+     , (29925,   3, 0x20000014) /* SoundTable */
+     , (29925,   8, 0x06003570) /* Icon */
+     , (29925,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29925,   243,      2)  /* Invulnerability Other V */
+VALUES (29925,  1604,      2)  /* Aura of Defender Self V */
      , (29925,  1359,      2)  /* Endurance Other V */
-     , (29925,  1604,      2)  /* Aura of Defender Self V */
      , (29925,  1616,      2)  /* Aura of Blood Drinker Self VI */
+     , (29925,   243,      2)  /* Invulnerability Other V */
      , (29925,  1625,      2)  /* Aura of Swift Killer Self IV */;

@@ -33,12 +33,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4801,   1, 'Practice Sceptre') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4801,   1,   33554704) /* Setup */
-     , (4801,   3,  536870932) /* SoundTable */
-     , (4801,   6,   67111919) /* PaletteBase */
-     , (4801,   7,  268435755) /* ClothingBase */
-     , (4801,   8,  100668792) /* Icon */
-     , (4801,  22,  872415275) /* PhysicsEffectTable */
-     , (4801,  27, 1073742049) /* UseUserAnimation - UseMagicWand */
+VALUES (4801,   1, 0x02000110) /* Setup */
+     , (4801,   3, 0x20000014) /* SoundTable */
+     , (4801,   6, 0x04000BEF) /* PaletteBase */
+     , (4801,   7, 0x1000012B) /* ClothingBase */
+     , (4801,   8, 0x06001578) /* Icon */
+     , (4801,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (4801,  27, 0x400000E1) /* UseUserAnimation - UseMagicWand */
      , (4801,  28,         28) /* Spell - Frost Bolt I */
-     , (4801,  36,  234881046) /* MutateFilter */;
+     , (4801,  36, 0x0E000016) /* MutateFilter */;

@@ -41,15 +41,15 @@ VALUES (19664,   1, 'Nuhmudira''s Endowment of Self and Lightning Defense') /* N
      , (19664,  16, 'A blue gorget, crafted from a strong metal, imbued with an elixir of perseverance and elixir of autumn. As you hold the gorget in your hand you feel a soft vibration.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19664,   1,   33554687) /* Setup */
-     , (19664,   3,  536870932) /* SoundTable */
-     , (19664,   6,   67111919) /* PaletteBase */
-     , (19664,   7,  268436388) /* ClothingBase */
-     , (19664,   8,  100668632) /* Icon */
-     , (19664,  22,  872415275) /* PhysicsEffectTable */
-     , (19664,  36,  234881046) /* MutateFilter */;
+VALUES (19664,   1, 0x020000FF) /* Setup */
+     , (19664,   3, 0x20000014) /* SoundTable */
+     , (19664,   6, 0x04000BEF) /* PaletteBase */
+     , (19664,   7, 0x100003A4) /* ClothingBase */
+     , (19664,   8, 0x060014D8) /* Icon */
+     , (19664,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (19664,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19664,  1075,      2)  /* Lightning Protection Other IV */
-     , (19664,  1454,      2)  /* Willpower Other IV */
-     , (19664,  2670,      2)  /* Nuhmudiras Endowment */;
+VALUES (19664,  1454,      2)  /* Willpower Other IV */
+     , (19664,  2670,      2)  /* Nuhmudiras Endowment */
+     , (19664,  1075,      2)  /* Lightning Protection Other IV */;

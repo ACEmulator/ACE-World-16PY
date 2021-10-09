@@ -38,10 +38,10 @@ VALUES (22021,   1, 'Undead Guise') /* Name */
      , (22021,  16, 'A finely crafted undead costume that is only missing the head. Thankfully the smell of the previous owner is masked by the scent of the various glues used in its crafting.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22021,   1,   33558013) /* Setup */
-     , (22021,   3,  536870932) /* SoundTable */
-     , (22021,   6,   67108990) /* PaletteBase */
-     , (22021,   7,  268436473) /* ClothingBase */
-     , (22021,   8,  100673719) /* Icon */
-     , (22021,  22,  872415275) /* PhysicsEffectTable */
-     , (22021,  36,  234881046) /* MutateFilter */;
+VALUES (22021,   1, 0x02000DFD) /* Setup */
+     , (22021,   3, 0x20000014) /* SoundTable */
+     , (22021,   6, 0x0400007E) /* PaletteBase */
+     , (22021,   7, 0x100003F9) /* ClothingBase */
+     , (22021,   8, 0x060028B7) /* Icon */
+     , (22021,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (22021,  36, 0x0E000016) /* MutateFilter */;

@@ -35,9 +35,9 @@ VALUES (11016,   1, 'Sheet of Curved Metal') /* Name */
      , (11016,  16, 'A sheet of curved, green-gold metal. The edges of it are jagged and sharp, indicating it has been broken.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11016,   1,   33555677) /* Setup */
-     , (11016,   3,  536870932) /* SoundTable */
-     , (11016,   6,   67111919) /* PaletteBase */
-     , (11016,   7,  268436111) /* ClothingBase */
-     , (11016,   8,  100671822) /* Icon */
-     , (11016,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (11016,   1, 0x020004DD) /* Setup */
+     , (11016,   3, 0x20000014) /* SoundTable */
+     , (11016,   6, 0x04000BEF) /* PaletteBase */
+     , (11016,   7, 0x1000028F) /* ClothingBase */
+     , (11016,   8, 0x0600214E) /* Icon */
+     , (11016,  22, 0x3400002B) /* PhysicsEffectTable */;

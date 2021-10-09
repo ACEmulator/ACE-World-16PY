@@ -30,10 +30,10 @@ VALUES (30238,   1, 'Anadil''s Crystal') /* Name */
      , (30238,  16, 'A lovely template for a rare magical gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30238,   1,   33554809) /* Setup */
-     , (30238,   3,  536870932) /* SoundTable */
-     , (30238,   6,   67111919) /* PaletteBase */
-     , (30238,   7,  268435723) /* ClothingBase */
-     , (30238,   8,  100674739) /* Icon */
-     , (30238,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30238,   1, 0x02000179) /* Setup */
+     , (30238,   3, 0x20000014) /* SoundTable */
+     , (30238,   6, 0x04000BEF) /* PaletteBase */
+     , (30238,   7, 0x1000010B) /* ClothingBase */
+     , (30238,   8, 0x06002CB3) /* Icon */
+     , (30238,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30238,  28,       3737) /* Spell - Prodigal Light Weapon Mastery */;

@@ -36,11 +36,11 @@ VALUES (26270,   1, 'Mistdweller Villas Portal Gem') /* Name */
      , (26270,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26270,   1,   33556769) /* Setup */
-     , (26270,   3,  536870932) /* SoundTable */
-     , (26270,   6,   67111919) /* PaletteBase */
-     , (26270,   7,  268435723) /* ClothingBase */
-     , (26270,   8,  100675760) /* Icon */
-     , (26270,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26270,   1, 0x02000921) /* Setup */
+     , (26270,   3, 0x20000014) /* SoundTable */
+     , (26270,   6, 0x04000BEF) /* PaletteBase */
+     , (26270,   7, 0x1000010B) /* ClothingBase */
+     , (26270,   8, 0x060030B0) /* Icon */
+     , (26270,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26270,  28,        157) /* Spell - Summon Primary Portal I */
      , (26270,  31,      14652) /* LinkedPortalOne - Mistdweller Villas Portal */;

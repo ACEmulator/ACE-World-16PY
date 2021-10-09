@@ -23,7 +23,7 @@ VALUES (28983,   1, 'Hand-Written Journal') /* Name */
      , (28983,  15, 'A hand-written journal written in a language that you cannot decipher.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28983,   1,   33558980) /* Setup */
-     , (28983,   3,  536870932) /* SoundTable */
-     , (28983,   8,  100677068) /* Icon */
-     , (28983,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (28983,   1, 0x020011C4) /* Setup */
+     , (28983,   3, 0x20000014) /* SoundTable */
+     , (28983,   8, 0x060035CC) /* Icon */
+     , (28983,  22, 0x3400002B) /* PhysicsEffectTable */;

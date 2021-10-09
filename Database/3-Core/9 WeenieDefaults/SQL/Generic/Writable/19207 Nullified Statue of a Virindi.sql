@@ -26,9 +26,9 @@ VALUES (19207,   1, 'Nullified Statue of a Virindi') /* Name */
      , (19207,  15, 'This nullified shell is all that remains of the living Statue of a Virindi that once threatened our peaceful town. Destroyed through the sole efforts of the citizens of Dereth, it remains as a testament to their valor. This land is yours now.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19207,   1,   33554497) /* Setup */
-     , (19207,   2,  150995173) /* MotionTable */
-     , (19207,   3,  536871052) /* SoundTable */
-     , (19207,   6,   67111346) /* PaletteBase */
-     , (19207,   7,  268435649) /* ClothingBase */
-     , (19207,   8,  100667943) /* Icon */;
+VALUES (19207,   1, 0x02000041) /* Setup */
+     , (19207,   2, 0x090000E5) /* MotionTable */
+     , (19207,   3, 0x2000008C) /* SoundTable */
+     , (19207,   6, 0x040009B2) /* PaletteBase */
+     , (19207,   7, 0x100000C1) /* ClothingBase */
+     , (19207,   8, 0x06001227) /* Icon */;

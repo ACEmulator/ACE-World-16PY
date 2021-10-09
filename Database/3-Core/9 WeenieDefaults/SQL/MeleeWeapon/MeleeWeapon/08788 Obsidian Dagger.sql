@@ -38,9 +38,9 @@ VALUES (8788,   1, 'Obsidian Dagger') /* Name */
      , (8788,  33, 'HopeslayerObsidianDagger') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8788,   1,   33554887) /* Setup */
-     , (8788,   3,  536870932) /* SoundTable */
-     , (8788,   6,   67111919) /* PaletteBase */
-     , (8788,   7,  268436097) /* ClothingBase */
-     , (8788,   8,  100671248) /* Icon */
-     , (8788,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8788,   1, 0x020001C7) /* Setup */
+     , (8788,   3, 0x20000014) /* SoundTable */
+     , (8788,   6, 0x04000BEF) /* PaletteBase */
+     , (8788,   7, 0x10000281) /* ClothingBase */
+     , (8788,   8, 0x06001F10) /* Icon */
+     , (8788,  22, 0x3400002B) /* PhysicsEffectTable */;

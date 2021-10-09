@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2339,   1, 'Forking Trail') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2339,   1,   33554867) /* Setup */
-     , (2339,   2,  150994947) /* MotionTable */
-     , (2339,   8,  100667499) /* Icon */;
+VALUES (2339,   1, 0x020001B3) /* Setup */
+     , (2339,   2, 0x09000003) /* MotionTable */
+     , (2339,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2339, 2, 27984183, 37.63, -29.99, 0, 0.6946584, 0, 0, -0.7193398) /* Destination */
-/* @teleloc 0x01AB0137 [37.630000 -29.990000 0.000000] 0.694658 0.000000 0.000000 -0.719340 */;
+VALUES (2339, 2, 0x01AB0137, 37.63, -29.99, 0, 0.694658, 0, 0, -0.71934) /* Destination */
+/* @teleloc 0x01AB0137 [37.630001 -29.990000 0.000000] 0.694658 0.000000 0.000000 -0.719340 */;

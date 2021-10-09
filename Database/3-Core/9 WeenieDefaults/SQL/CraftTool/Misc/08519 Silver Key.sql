@@ -36,7 +36,7 @@ VALUES (8519,   1, 'Silver Key') /* Name */
      , (8519,  16, 'A repaired silver key. Underneath the tarnish of years, you can see beautiful engravings which call to mind the trees of Ithaenc island. Now that the key is repaired, you can see that worked into the pattern is a manta-winged form with a radiant eye.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8519,   1,   33554784) /* Setup */
-     , (8519,   3,  536870932) /* SoundTable */
-     , (8519,   8,  100670622) /* Icon */
-     , (8519,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (8519,   1, 0x02000160) /* Setup */
+     , (8519,   3, 0x20000014) /* SoundTable */
+     , (8519,   8, 0x06001C9E) /* Icon */
+     , (8519,  22, 0x3400002B) /* PhysicsEffectTable */;

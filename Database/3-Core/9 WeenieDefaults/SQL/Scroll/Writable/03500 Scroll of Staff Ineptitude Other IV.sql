@@ -25,7 +25,7 @@ VALUES (3500,   1, 'Scroll of Staff Ineptitude Other IV') /* Name */
      , (3500,  16, 'When learned, this spell decreases the target''s Staff skill by 43%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3500,   1,   33554826) /* Setup */
-     , (3500,   8,  100676473) /* Icon */
-     , (3500,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3500,   1, 0x0200018A) /* Setup */
+     , (3500,   8, 0x06003379) /* Icon */
+     , (3500,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3500,  28,        403) /* Spell - Light Weapon Ineptitude Other IV */;

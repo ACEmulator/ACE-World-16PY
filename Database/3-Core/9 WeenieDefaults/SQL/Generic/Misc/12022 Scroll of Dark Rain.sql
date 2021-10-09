@@ -27,6 +27,6 @@ VALUES (12022,   1, 'Scroll of Dark Rain') /* Name */
      , (12022,  16, 'This scroll seems to be written in a very strange language.  It looks as if it is in Falatacot.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12022,   1,   33557333) /* Setup */
-     , (12022,   8,  100672101) /* Icon */
-     , (12022,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (12022,   1, 0x02000B55) /* Setup */
+     , (12022,   8, 0x06002265) /* Icon */
+     , (12022,  22, 0x3400002B) /* PhysicsEffectTable */;

@@ -36,9 +36,9 @@ VALUES (23197,   1, 'Singularity Keyring') /* Name */
      , (23197,  16, 'A crude keyring roughly carved out of a diamond golem heart. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23197,   1,   33554790) /* Setup */
-     , (23197,   3,  536870932) /* SoundTable */
-     , (23197,   6,   67111919) /* PaletteBase */
-     , (23197,   7,  268435782) /* ClothingBase */
-     , (23197,   8,  100674000) /* Icon */
-     , (23197,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (23197,   1, 0x02000166) /* Setup */
+     , (23197,   3, 0x20000014) /* SoundTable */
+     , (23197,   6, 0x04000BEF) /* PaletteBase */
+     , (23197,   7, 0x10000146) /* ClothingBase */
+     , (23197,   8, 0x060029D0) /* Icon */
+     , (23197,  22, 0x3400002B) /* PhysicsEffectTable */;

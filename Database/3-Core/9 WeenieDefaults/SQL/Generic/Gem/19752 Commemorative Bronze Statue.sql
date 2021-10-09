@@ -29,10 +29,10 @@ VALUES (19752,   1, 'Commemorative Bronze Statue') /* Name */
      , (19752,  15, 'A large commemorative statue of a Tumerok crafted by the Arcanum Tinker, in reward for destroying the statues threatening the cities of Stonehold and Arwic.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19752,   1,   33554496) /* Setup */
-     , (19752,   2,  150995212) /* MotionTable */
-     , (19752,   6,   67109314) /* PaletteBase */
-     , (19752,   7,  268436373) /* ClothingBase */
-     , (19752,   8,  100667452) /* Icon */
-     , (19752,  22,  872415349) /* PhysicsEffectTable */
-     , (19752,  36,  234881046) /* MutateFilter */;
+VALUES (19752,   1, 0x02000040) /* Setup */
+     , (19752,   2, 0x0900010C) /* MotionTable */
+     , (19752,   6, 0x040001C2) /* PaletteBase */
+     , (19752,   7, 0x10000395) /* ClothingBase */
+     , (19752,   8, 0x0600103C) /* Icon */
+     , (19752,  22, 0x34000075) /* PhysicsEffectTable */
+     , (19752,  36, 0x0E000016) /* MutateFilter */;

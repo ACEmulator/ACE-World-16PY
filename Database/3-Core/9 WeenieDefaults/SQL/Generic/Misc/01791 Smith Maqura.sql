@@ -23,7 +23,7 @@ VALUES (1791,   1, 'Smith Maqura') /* Name */
      , (1791,  16, 'Smith Maqura') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1791,   1,   33555909) /* Setup */
-     , (1791,   6,   67111860) /* PaletteBase */
-     , (1791,   7,  268435818) /* ClothingBase */
-     , (1791,   8,  100668115) /* Icon */;
+VALUES (1791,   1, 0x020005C5) /* Setup */
+     , (1791,   6, 0x04000BB4) /* PaletteBase */
+     , (1791,   7, 0x1000016A) /* ClothingBase */
+     , (1791,   8, 0x060012D3) /* Icon */;

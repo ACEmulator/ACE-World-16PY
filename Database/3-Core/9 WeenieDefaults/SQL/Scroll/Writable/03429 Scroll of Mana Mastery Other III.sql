@@ -25,7 +25,7 @@ VALUES (3429,   1, 'Scroll of Mana Mastery Other III') /* Name */
      , (3429,  16, 'When learned, this spell increases the target''s Mana Conversion skill by 50%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3429,   1,   33554826) /* Setup */
-     , (3429,   8,  100676466) /* Icon */
-     , (3429,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3429,   1, 0x0200018A) /* Setup */
+     , (3429,   8, 0x06003372) /* Icon */
+     , (3429,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3429,  28,        661) /* Spell - Mana Conversion Mastery Other III */;

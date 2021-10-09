@@ -29,16 +29,16 @@ VALUES (24349,   1, 'Olthoi Cistern') /* Name */
      , (24349,  17, 'Something slimy grips your hand and then quickly releases it.') /* ActivationTalk */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24349,   1,   33557286) /* Setup */
-     , (24349,   2,  150995240) /* MotionTable */
-     , (24349,   8,  100674304) /* Icon */
-     , (24349,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (24349,   1, 0x02000B26) /* Setup */
+     , (24349,   2, 0x09000128) /* MotionTable */
+     , (24349,   8, 0x06002B00) /* Icon */
+     , (24349,  22, 0x3400002B) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24349,  16,          0) /* ActivationTarget */;
+VALUES (24349,  16, 0x00000000) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24349, -1, 24270, 120, 1, 1, 1, 4, -1, 0, 0, 0, -3, 0, 0, 0.7071068, 0, 0, -0.7071068) /* Generate Olthoi Drone (24270) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (24349, -1, 10911, 120, 1, 1, 1, 4, -1, 0, 0, 0, 3, 0, 0, -0.7071068, 0, 0, -0.7071068) /* Generate Olthoi Worker (10911) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (24349, -1, 24271, 120, 1, 1, 1, 4, -1, 0, 0, 0, 0, -3, 0, 1, 0, 0, 0) /* Generate Olthoi Gardener (24271) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (24349, -1, 24272, 120, 1, 1, 1, 4, -1, 0, 0, 0, 0, 3, 0, -4.371139E-08, 0, 0, -1) /* Generate Olthoi Harvester (24272) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (24349, -1, 24270, 120, 1, 1, 1, 4, -1, 0, 0, 0, -3, 0, 0, 0.707107, 0, 0, -0.707107) /* Generate Olthoi Drone (24270) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (24349, -1, 10911, 120, 1, 1, 1, 4, -1, 0, 0, 0, 3, 0, 0, -0.707107, 0, -0, -0.707107) /* Generate Olthoi Worker (10911) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (24349, -1, 24271, 120, 1, 1, 1, 4, -1, 0, 0, 0, 0, -3, 0, 1, 0, 0, -0) /* Generate Olthoi Gardener (24271) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (24349, -1, 24272, 120, 1, 1, 1, 4, -1, 0, 0, 0, 0, 3, 0, -0, 0, -0, -1) /* Generate Olthoi Harvester (24272) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

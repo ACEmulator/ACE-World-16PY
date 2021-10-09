@@ -64,14 +64,14 @@ VALUES (27971,   1, 'Mosswart Enchantment Idol') /* Name */
      , (27971,  15, 'A statue of a mosswart set in soldified mana. Item mages feel inexorably drawn to this device though unable top tap the power within. This item seems to require a potent form of geomancy to power and a boon gifted by a Mosswart to access. This item can only be hooked on mansions.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27971,   1,   33558824) /* Setup */
-     , (27971,   2,  150995307) /* MotionTable */
-     , (27971,   3,  536871052) /* SoundTable */
-     , (27971,   4,  805306398) /* CombatTable */
-     , (27971,   6,   67113400) /* PaletteBase */
-     , (27971,   7,  268436845) /* ClothingBase */
-     , (27971,   8,  100676717) /* Icon */
-     , (27971,  22,  872415274) /* PhysicsEffectTable */;
+VALUES (27971,   1, 0x02001128) /* Setup */
+     , (27971,   2, 0x0900016B) /* MotionTable */
+     , (27971,   3, 0x2000008C) /* SoundTable */
+     , (27971,   4, 0x3000001E) /* CombatTable */
+     , (27971,   6, 0x040011B8) /* PaletteBase */
+     , (27971,   7, 0x1000056D) /* ClothingBase */
+     , (27971,   8, 0x0600346D) /* Icon */
+     , (27971,  22, 0x3400002A) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27971,   1, 380, 0, 0) /* Strength */
@@ -115,5 +115,5 @@ SET @parent_id = LAST_INSERT_ID();
 
 INSERT INTO `weenie_properties_emote_action` (`emote_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (@parent_id,  0,  22 /* StampQuest */, 0, 1, NULL, 'MosswartIdolItem', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-     , (@parent_id,  1,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 27933 /* A Carved Mosswart Statue */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (@parent_id,  1,   3 /* Give */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0 /* Undef */, 27933 /* A Carved Mosswart Statue */, 1, 0 /* Undef */, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
      , (@parent_id,  2,  18 /* DirectBroadcast */, 0, 1, NULL, 'You free the statue from the ground.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

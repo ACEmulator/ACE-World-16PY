@@ -24,7 +24,7 @@ VALUES (25468,   1, 'Royal Olthoi Jelly') /* Name */
      , (25468,  16, 'A jar of foul smelling goo.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25468,   1,   33554598) /* Setup */
-     , (25468,   3,  536870932) /* SoundTable */
-     , (25468,   8,  100674796) /* Icon */
-     , (25468,  22,  872415275) /* PhysicsEffectTable */;
+VALUES (25468,   1, 0x020000A6) /* Setup */
+     , (25468,   3, 0x20000014) /* SoundTable */
+     , (25468,   8, 0x06002CEC) /* Icon */
+     , (25468,  22, 0x3400002B) /* PhysicsEffectTable */;

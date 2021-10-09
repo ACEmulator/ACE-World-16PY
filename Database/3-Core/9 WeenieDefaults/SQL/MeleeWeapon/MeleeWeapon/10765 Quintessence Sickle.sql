@@ -46,18 +46,18 @@ VALUES (10765,   1, 'Quintessence Sickle') /* Name */
      , (10765,  33, 'VirindiAxe') /* Quest */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10765,   1,   33557067) /* Setup */
-     , (10765,   3,  536870932) /* SoundTable */
-     , (10765,   6,   67111919) /* PaletteBase */
-     , (10765,   7,  268436189) /* ClothingBase */
-     , (10765,   8,  100671670) /* Icon */
-     , (10765,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10765,   1, 0x02000A4B) /* Setup */
+     , (10765,   3, 0x20000014) /* SoundTable */
+     , (10765,   6, 0x04000BEF) /* PaletteBase */
+     , (10765,   7, 0x100002DD) /* ClothingBase */
+     , (10765,   8, 0x060020B6) /* Icon */
+     , (10765,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10765,  30,         88) /* PhysicsScript - Create */
-     , (10765,  36,  234881044) /* MutateFilter */
+     , (10765,  36, 0x0E000014) /* MutateFilter */
      , (10765,  37,          1) /* ItemSkillLimit - Axe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10765,   247,      2)  /* Invulnerability Self IV */
-     , (10765,  1590,      2)  /* Aura of Heart Seeker Self IV */
+VALUES (10765,  1590,      2)  /* Aura of Heart Seeker Self IV */
      , (10765,  1614,      2)  /* Aura of Blood Drinker Self IV */
-     , (10765,  1625,      2)  /* Aura of Swift Killer Self IV */;
+     , (10765,  1625,      2)  /* Aura of Swift Killer Self IV */
+     , (10765,   247,      2)  /* Invulnerability Self IV */;

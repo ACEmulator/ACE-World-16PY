@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19157,   1, 'Sanam Batal Villas Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19157,   1,   33554867) /* Setup */
-     , (19157,   2,  150994947) /* MotionTable */
-     , (19157,   8,  100667499) /* Icon */;
+VALUES (19157,   1, 0x020001B3) /* Setup */
+     , (19157,   2, 0x09000003) /* MotionTable */
+     , (19157,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19157, 2, 1889927204, 98.727, 77.525, 46.011, -0.9310813, 0, 0, -0.3648118) /* Destination */
-/* @teleloc 0x70A60024 [98.727000 77.525000 46.011000] -0.931081 0.000000 0.000000 -0.364812 */;
+VALUES (19157, 2, 0x70A60024, 98.727, 77.525, 46.011, -0.931081, 0, -0, -0.364812) /* Destination */
+/* @teleloc 0x70A60024 [98.726997 77.525002 46.011002] -0.931081 0.000000 -0.000000 -0.364812 */;

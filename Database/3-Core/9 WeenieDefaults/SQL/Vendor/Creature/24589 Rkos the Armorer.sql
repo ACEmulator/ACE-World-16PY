@@ -70,13 +70,13 @@ VALUES (24589,   1, 'Rkos the Armorer') /* Name */
      , (24589,  24, 'Candeth Keep') /* TownName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24589,   1,   33557003) /* Setup */
-     , (24589,   2,  150994950) /* MotionTable */
-     , (24589,   3,  536870922) /* SoundTable */
-     , (24589,   4,  805306371) /* CombatTable */
-     , (24589,   6,   67113158) /* PaletteBase */
-     , (24589,   7,  268436602) /* ClothingBase */
-     , (24589,   8,  100667447) /* Icon */;
+VALUES (24589,   1, 0x02000A0B) /* Setup */
+     , (24589,   2, 0x09000006) /* MotionTable */
+     , (24589,   3, 0x2000000A) /* SoundTable */
+     , (24589,   4, 0x30000003) /* CombatTable */
+     , (24589,   6, 0x040010C6) /* PaletteBase */
+     , (24589,   7, 0x1000047A) /* ClothingBase */
+     , (24589,   8, 0x06001037) /* Icon */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24589,   1, 225, 0, 0) /* Strength */

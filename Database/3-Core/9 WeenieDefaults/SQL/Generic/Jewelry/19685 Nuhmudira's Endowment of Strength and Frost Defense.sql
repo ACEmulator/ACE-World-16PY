@@ -41,13 +41,13 @@ VALUES (19685,   1, 'Nuhmudira''s Endowment of Strength and Frost Defense') /* N
      , (19685,  16, 'A blue gorget, crafted from a strong metal, imbued with an elixir of might and elixir of winter. As you hold the gorget in your hand you feel a soft vibration.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19685,   1,   33554687) /* Setup */
-     , (19685,   3,  536870932) /* SoundTable */
-     , (19685,   6,   67111919) /* PaletteBase */
-     , (19685,   7,  268436388) /* ClothingBase */
-     , (19685,   8,  100668632) /* Icon */
-     , (19685,  22,  872415275) /* PhysicsEffectTable */
-     , (19685,  36,  234881046) /* MutateFilter */;
+VALUES (19685,   1, 0x020000FF) /* Setup */
+     , (19685,   3, 0x20000014) /* SoundTable */
+     , (19685,   6, 0x04000BEF) /* PaletteBase */
+     , (19685,   7, 0x100003A4) /* ClothingBase */
+     , (19685,   8, 0x060014D8) /* Icon */
+     , (19685,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (19685,  36, 0x0E000016) /* MutateFilter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19685,  1039,      2)  /* Cold Protection Other IV */

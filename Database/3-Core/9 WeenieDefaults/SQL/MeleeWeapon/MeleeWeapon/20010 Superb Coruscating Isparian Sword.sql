@@ -51,17 +51,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20010,   1, 'Superb Coruscating Isparian Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20010,   1,   33556376) /* Setup */
-     , (20010,   3,  536870932) /* SoundTable */
-     , (20010,   6,   67111919) /* PaletteBase */
-     , (20010,   7,  268436385) /* ClothingBase */
-     , (20010,   8,  100672947) /* Icon */
-     , (20010,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20010,   1, 0x02000798) /* Setup */
+     , (20010,   3, 0x20000014) /* SoundTable */
+     , (20010,   6, 0x04000BEF) /* PaletteBase */
+     , (20010,   7, 0x100003A1) /* ClothingBase */
+     , (20010,   8, 0x060025B3) /* Icon */
+     , (20010,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20010,  37,         11) /* ItemSkillLimit - Sword */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20010,  1071,      2)  /* Lightning Protection Self VI */
-     , (20010,  1401,      2)  /* Quickness Self V */
+VALUES (20010,  2566,      2)  /* Minor Heavy Weapon Aptitude */
      , (20010,  1591,      2)  /* Aura of Heart Seeker Self V */
      , (20010,  1615,      2)  /* Aura of Blood Drinker Self V */
-     , (20010,  2566,      2)  /* Minor Heavy Weapon Aptitude */;
+     , (20010,  1071,      2)  /* Lightning Protection Self VI */
+     , (20010,  1401,      2)  /* Quickness Self V */;

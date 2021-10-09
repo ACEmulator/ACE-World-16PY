@@ -17,7 +17,7 @@ VALUES (23911,   1,        256) /* ItemType - MissileWeapon */
      , (23911,  48,          3) /* WeaponSkill - Crossbow */
      , (23911,  49,         60) /* WeaponTime */
      , (23911,  50,          2) /* AmmoType - Bolt */
-     , (23911,  51,          2) /* CombatUse - Missle */
+     , (23911,  51,          2) /* CombatUse - Missile */
      , (23911,  52,          2) /* ParentLocation - LeftHand */
      , (23911,  53,          3) /* PlacementPosition - LeftHand */
      , (23911,  60,        192) /* WeaponRange */
@@ -54,16 +54,16 @@ VALUES (23911,   1, 'Assault Crossbow') /* Name */
      , (23911,  16, 'A reward for defeating the leaders of the Reedshark Clan.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23911,   1,   33558210) /* Setup */
-     , (23911,   3,  536870932) /* SoundTable */
-     , (23911,   6,   67111919) /* PaletteBase */
-     , (23911,   7,  268436199) /* ClothingBase */
-     , (23911,   8,  100671750) /* Icon */
-     , (23911,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23911,   1, 0x02000EC2) /* Setup */
+     , (23911,   3, 0x20000014) /* SoundTable */
+     , (23911,   6, 0x04000BEF) /* PaletteBase */
+     , (23911,   7, 0x100002E7) /* ClothingBase */
+     , (23911,   8, 0x06002106) /* Icon */
+     , (23911,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23911,  30,         88) /* PhysicsScript - Create */
      , (23911,  37,          3) /* ItemSkillLimit - Crossbow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23911,  1377,      2)  /* Coordination Self V */
-     , (23911,  1614,      2)  /* Aura of Blood Drinker Self IV */
-     , (23911,  2004,      2)  /* Warrior's Vitality */;
+VALUES (23911,  1614,      2)  /* Aura of Blood Drinker Self IV */
+     , (23911,  2004,      2)  /* Warrior's Vitality */
+     , (23911,  1377,      2)  /* Coordination Self V */;

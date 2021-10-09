@@ -34,11 +34,11 @@ VALUES (3713,   1, 'Swamp Gem') /* Name */
      , (3713,  16, 'Swamp Gem of Quickness.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3713,   1,   33554809) /* Setup */
-     , (3713,   3,  536870932) /* SoundTable */
-     , (3713,   6,   67111919) /* PaletteBase */
-     , (3713,   7,  268435723) /* ClothingBase */
-     , (3713,   8,  100673968) /* Icon */
-     , (3713,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3713,   1, 0x02000179) /* Setup */
+     , (3713,   3, 0x20000014) /* SoundTable */
+     , (3713,   6, 0x04000BEF) /* PaletteBase */
+     , (3713,   7, 0x1000010B) /* ClothingBase */
+     , (3713,   8, 0x060029B0) /* Icon */
+     , (3713,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3713,  28,       1405) /* Spell - Quickness Other III */
-     , (3713,  36,  234881046) /* MutateFilter */;
+     , (3713,  36, 0x0E000016) /* MutateFilter */;
