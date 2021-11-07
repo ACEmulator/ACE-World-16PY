@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (24343, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (24343, 0, 4294967295, 'Missing Person Rumor', 'prewritten', False, '
+VALUES (24343, 0, 0xFFFFFFFF, 'Missing Person Rumor', 'prewritten', False, '
 I spoke recently with a traveler from Ayan Baqur, and he made it perfectly clear that Jaleh al-Thani has gone missing. Apparently Jaleh''s wife is inquiring about his whereabouts and is looking for any help that she can get.
 ');

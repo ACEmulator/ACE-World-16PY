@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (26641, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (26641, 0, 4294967295, '', 'prewritten', False, '
+VALUES (26641, 0, 0xFFFFFFFF, '', 'prewritten', False, '
 In the center of the Obsidian Plain lies a dungeon protected by Virindi and Shadow. I hear tell that it is the path to the Singularity Caul, an island of dangers untold. I will leave you to judge your own ability to follow this path. Though I will tell you what I have been told. If you fear your death in the Singularity Bore then the Caul will see you blood run should you dare to explore.
 ');

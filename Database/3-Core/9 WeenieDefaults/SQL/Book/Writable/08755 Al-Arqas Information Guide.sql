@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (8755, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (8755, 0, 4294967295, '', 'prewritten', False, 'Al-Arqas 31.3 S 13.6 E
+VALUES (8755, 0, 0xFFFFFFFF, '', 'prewritten', False, 'Al-Arqas 31.3 S 13.6 E
 Portal to Samsur 32.6 S 14.4 E
 Al-Arqas North Outpost 28.1 S 13.9 E
 Al-Arqas West Outpost 31.3 S 10.7 E

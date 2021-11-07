@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (2520, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (2520, 0, 4294967295, 'Lock Picking Instructions', 'prewritten', False, ' 
+VALUES (2520, 0, 0xFFFFFFFF, 'Lock Picking Instructions', 'prewritten', False, ' 
 If you have Lockpicking Skill, you should already have a set of lockpicks in your Inventory.  To use, double-click on the lockpick, then click on a locked door.  Lockpicks get used up, so use them wisely.  Tip: Drag your lockpick''s icon to the row of slots at the bottom of your screen to create a shortcut!
 ');

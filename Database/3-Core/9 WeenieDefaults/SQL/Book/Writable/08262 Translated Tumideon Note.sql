@@ -34,10 +34,10 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (8262, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (8262, 0, 4294967295, 'Unknown', 'prewritten', False, 'We have received your proposal for the construction of new servitors. We agree that it is preferable to create Our own soldiers rather than to rely on the inferior creatures of this realm. We share your frustration in the shortcomings of the golden apes and the alteration of the squealing bipeds. We feel that the idea to utilize the newly discovered ore is an inspired one, given the humans'' reliance on their crude but effective magic.
+VALUES (8262, 0, 0xFFFFFFFF, 'Unknown', 'prewritten', False, 'We have received your proposal for the construction of new servitors. We agree that it is preferable to create Our own soldiers rather than to rely on the inferior creatures of this realm. We share your frustration in the shortcomings of the golden apes and the alteration of the squealing bipeds. We feel that the idea to utilize the newly discovered ore is an inspired one, given the humans'' reliance on their crude but effective magic.
 
 ')
-     , (8262, 1, 4294967295, 'Unknown', 'prewritten', False, 'Hopefully your "hollow minion" soldiers will provide more reliable security than we have had in the past. Do make sure to construct them in the image of these "scarecrows" that have recently appeared on the island. Our agents report that the humans are familiar with the scarecrows, sharing a home world with them. In this disguise the hollow minions may infiltrate the eastern half of the island in much the same way that our agent has infiltrated the new human settlement on the western shore. We expect to hear of your success in the coming days.
+     , (8262, 1, 0xFFFFFFFF, 'Unknown', 'prewritten', False, 'Hopefully your "hollow minion" soldiers will provide more reliable security than we have had in the past. Do make sure to construct them in the image of these "scarecrows" that have recently appeared on the island. Our agents report that the humans are familiar with the scarecrows, sharing a home world with them. In this disguise the hollow minions may infiltrate the eastern half of the island in much the same way that our agent has infiltrated the new human settlement on the western shore. We expect to hear of your success in the coming days.
 
 --First Among Equals
 

@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (30763, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (30763, 0, 4294967295, '', 'prewritten', False, '
+VALUES (30763, 0, 0xFFFFFFFF, '', 'prewritten', False, '
 Lately travelers have been telling tales of strange voices echoing in the snowy mountains northeast of Holtburg. Some even speak of seeing a strange fat man with a black hat and a long orange nose wandering in the mountain passes asking for its missing eyes. If you''re brave enough you can go and see for yourself. The last person who heard the voices said he was at 46.7N 48.9E.
 ');

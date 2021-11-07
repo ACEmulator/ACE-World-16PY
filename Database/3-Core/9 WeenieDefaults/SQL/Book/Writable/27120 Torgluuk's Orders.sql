@@ -33,5 +33,5 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27120, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27120, 0, 4294967295, 'Translated by Aun Laokhe', 'prewritten', False, 'Brothers, as the rain of The Sleeping One fell we were greeted with a sign that our revelations are at hand. Go forth into the lands where the Fiazhat fled to be amongst their false gods. Find these false gods and bring full the circle of vengeance. Keep the tales of The Sleeping One close to your hearts and recall the suffering we have felt at the hand of the swamp stalkers. The time of revelation is at hand! The Ruuk shall prove their prowess over the Kukuur and Guruk!
+VALUES (27120, 0, 0xFFFFFFFF, 'Translated by Aun Laokhe', 'prewritten', False, 'Brothers, as the rain of The Sleeping One fell we were greeted with a sign that our revelations are at hand. Go forth into the lands where the Fiazhat fled to be amongst their false gods. Find these false gods and bring full the circle of vengeance. Keep the tales of The Sleeping One close to your hearts and recall the suffering we have felt at the hand of the swamp stalkers. The time of revelation is at hand! The Ruuk shall prove their prowess over the Kukuur and Guruk!
 ');

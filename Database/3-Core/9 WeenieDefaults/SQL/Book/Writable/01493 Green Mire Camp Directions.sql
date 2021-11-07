@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (1493, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (1493, 0, 4294967295, 'Green Mire Camp Directions', 'prewritten', False, '
+VALUES (1493, 0, 0xFFFFFFFF, 'Green Mire Camp Directions', 'prewritten', False, '
 Mosswarts are attracted to the swamps of this region.  Near the Green Mire Grave dungeon, which is quite a ways north (and a tiny bit west) all the way over the river, there is a mosswart camp.  One of them has a tachi that does ice damage.  As you know, ice is useless against undead, but good against some other monsters.  Don''t go if you''re new to the world, though.  There are enough other dangers for a newcomer!
 
 ');

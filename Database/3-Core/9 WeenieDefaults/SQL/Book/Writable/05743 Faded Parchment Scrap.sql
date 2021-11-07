@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5743, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5743, 0, 4294967295, '', 'prewritten', False, '
+VALUES (5743, 0, 0xFFFFFFFF, '', 'prewritten', False, '
      shall          knowing                     
 
 gave             shall                upon            Their forms          those             their might                     passing               shall          thoughts          but            only            and              man may       their                    their           still           come, for              

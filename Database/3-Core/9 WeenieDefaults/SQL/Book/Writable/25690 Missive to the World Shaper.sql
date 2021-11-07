@@ -35,7 +35,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (25690, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (25690, 0, 4294967295, 'Translated by Kuyiza bint Zayi', 'prewritten', False, 'World Shaper, 
+VALUES (25690, 0, 0xFFFFFFFF, 'Translated by Kuyiza bint Zayi', 'prewritten', False, 'World Shaper, 
 We call upon you to seal the deep places of this world. The dark spawn unleashed by the last child of the Yalain, fueled by hatred and memory as long as our own, have established a host of tunnels beneath the world. They have joined the dark spawn that remain upon Killiakta and will raze her if the outlanders fail to drive the brood mind away.The outlanders have been gifted with a means to weaken the dark spawn, it was His will. He begs that you leave your work and take up this charge.
 Amauxi
 ');

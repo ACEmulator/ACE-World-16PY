@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (2514, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (2514, 0, 4294967295, 'Instructions #1', 'prewritten', False, ' 
+VALUES (2514, 0, 0xFFFFFFFF, 'Instructions #1', 'prewritten', False, ' 
 First, prepare for battle. Open your Inventory Panel (remember that?).  Now, drag a weapon (if you have one) from your inventory to the WEAPON SLOT, marked with a double-bladed axe.  If it needs ammunition, drag the requisite items to the slot marked with an arrow.  You can also equip a shield via the SHIELD SLOT.  You can''t use a shield with bows or crossbows.
 ');

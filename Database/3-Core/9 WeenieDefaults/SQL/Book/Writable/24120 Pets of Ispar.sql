@@ -32,9 +32,9 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (24120, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (24120, 0, 4294967295, 'Lord Asheron', 'prewritten', False, 'On the most recent excursion to the homeworld of the Isparians, supervised by Delacim, two students remained behind and one returned with a handful of "pets"; small furred creatures with long tails and wiry whiskers, who are both timid and bold at the same instant. After a reprimand I allowed the student to keep two for his own and collected the other 3 for study.
+VALUES (24120, 0, 0xFFFFFFFF, 'Lord Asheron', 'prewritten', False, 'On the most recent excursion to the homeworld of the Isparians, supervised by Delacim, two students remained behind and one returned with a handful of "pets"; small furred creatures with long tails and wiry whiskers, who are both timid and bold at the same instant. After a reprimand I allowed the student to keep two for his own and collected the other 3 for study.
 
 Already the specimens have doubled in size and begun to exhibit a proclivity toward reproduction. Only the indigenous rabbits of Auberean seem to propagate more quickly than these rats.
 ')
-     , (24120, 1, 4294967295, 'Lord Asheron', 'prewritten', False, 'A keen eye must be kept upon these creatures lest they become a threat to indigenous creatures.
+     , (24120, 1, 0xFFFFFFFF, 'Lord Asheron', 'prewritten', False, 'A keen eye must be kept upon these creatures lest they become a threat to indigenous creatures.
 ');

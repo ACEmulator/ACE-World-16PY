@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5738, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5738, 0, 4294967295, '', 'prewritten', False, '
+VALUES (5738, 0, 0xFFFFFFFF, '', 'prewritten', False, '
      the                                of                no              we             We have       prideful,                        Earth''s                                this          be
 
     Earth       be             with great             in her            her             burn like                              will awaken,     the         fields                A            shall                                          the

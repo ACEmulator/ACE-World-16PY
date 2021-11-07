@@ -31,13 +31,13 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (506, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (506, 0, 4294967295, ' ', 'prewritten', False, 'Tutorial / Part 3 of 5 
+VALUES (506, 0, 0xFFFFFFFF, ' ', 'prewritten', False, 'Tutorial / Part 3 of 5 
 
 The swirling purple vortex is a PORTAL -- a mystical object that will transport you to other locations. Select a portal to find out about its destination.
 
 This portal heads to a dungeon: the Arwic Mines. (more)
 ')
-     , (506, 1, 4294967295, ' ', 'prewritten', False, 'To use a portal, either double-click on it, or walk into it. After a few moments, you will appear in a new location.
+     , (506, 1, 0xFFFFFFFF, ' ', 'prewritten', False, 'To use a portal, either double-click on it, or walk into it. After a few moments, you will appear in a new location.
 
 When you are prepared, enter this portal.
 

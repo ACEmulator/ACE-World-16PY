@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (2532, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (2532, 0, 4294967295, 'Welcome to the Tutorial!', 'prewritten', False, ' 
+VALUES (2532, 0, 0xFFFFFFFF, 'Welcome to the Tutorial!', 'prewritten', False, ' 
 Welcome to the tutorial dungeon!  We hope you enjoy the tour!  Pop Quiz: Do you know how to open your INVENTORY PANEL?  Answer: click on the backpack icon at the bottom-right of your screen.  Got that?  Now, go on ahead...
 ');

@@ -37,7 +37,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (24252, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (24252, 0, 4294967295, 'Scout Tar Sheltin', 'prewritten', False, '
+VALUES (24252, 0, 0xFFFFFFFF, 'Scout Tar Sheltin', 'prewritten', False, '
 The Olthoi seem to have accelerated digging.  I hear their claws tearing through the earth all around me. I have managed to find this portal link near where I have left this note. I must investigate where it leads. If you should get this note please bring it to the High Queen.
 
 ');

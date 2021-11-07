@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (1528, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (1528, 0, 4294967295, '', 'prewritten', False, 'A Rumor
+VALUES (1528, 0, 0xFFFFFFFF, '', 'prewritten', False, 'A Rumor
 
 My second attempt to get into the lost town of Colier proved more successful.  Many of us died in the attempt, but thankfully we succeeded in obtaining the key.  We think the mines have a deeper section than what we were able to find.  Alas, but we had to leave, for our casualties were too heavy.  Accursed banderlings!
 

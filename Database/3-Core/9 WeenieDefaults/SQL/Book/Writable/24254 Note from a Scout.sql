@@ -37,7 +37,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (24254, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (24254, 0, 4294967295, 'Scout Tel al-Arat', 'prewritten', False, '
+VALUES (24254, 0, 0xFFFFFFFF, 'Scout Tel al-Arat', 'prewritten', False, '
 Stealthiness is a primary trait of any good scout. I have had to bring all my skills to bear to get down to this level alive and relatively undetected. These new, deeper catacombs are an ill portent. If anyone finds this note please alert the Queen''s Royal Guards.
 
 ');

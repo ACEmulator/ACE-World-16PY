@@ -32,12 +32,12 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27563, 3, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27563, 0, 4294967295, '', 'prewritten', False, '
+VALUES (27563, 0, 0xFFFFFFFF, '', 'prewritten', False, '
 
 
 Doom To Those Who Read This Message.
 ')
-     , (27563, 1, 4294967295, '', 'prewritten', False, 'caverns carved into the rock,
+     , (27563, 1, 0xFFFFFFFF, '', 'prewritten', False, 'caverns carved into the rock,
 terrible champions of the land,
 are summoned to protect,
 great treasures and secrets.
@@ -46,7 +46,7 @@ evil secrets cannot be kept,
 eyes see and lips speak,
 enter here and never return again.
 ')
-     , (27563, 2, 4294967295, '', 'prewritten', False, 'the messenger has arrived;
+     , (27563, 2, 0xFFFFFFFF, '', 'prewritten', False, 'the messenger has arrived;
 and the gatekeeper now appears,
 ready to receive admission.
 

@@ -34,19 +34,19 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27792, 3, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27792, 0, 4294967295, 'Fanzen San', 'prewritten', False, '
+VALUES (27792, 0, 0xFFFFFFFF, 'Fanzen San', 'prewritten', False, '
 If you happen across this note, then the barkeeps that I contracted to supply it have done their job.
 
 As we live in this world, we continue to unearth the secrets and history of the Empyrean. From time to time, we have come across scrolls and writings of a culture that predates both the Yalain and the Dericost.
 
 The Falatacot have long been my area of focus although information is sparse and difficult to obtain. Recently, more and more information on them has surfaced.
 ')
-     , (27792, 1, 4294967295, 'Fanzen San', 'prewritten', False, '
+     , (27792, 1, 0xFFFFFFFF, 'Fanzen San', 'prewritten', False, '
 This appears to correlate with the ritus that Nuhmudira enacted to weaken the Olthoi Queen.
 
 In the time since, I have been searching for more information on the Falatacot and their experiments; but my time is limited and I have been mostly unsuccessful. I am nevertheless convinced that the Moarsmen of the Vesayen islands have some tie to the Falatacot.
 
 If you have the time, please search the places that the Moarsmen are known to habit and bring me anything you may
 ')
-     , (27792, 2, 4294967295, 'Fanzen San', 'prewritten', False, 'find. Also, come to speak with me and I can fill you in on any further details. Bring this note with you so that I will know what your business with me pertains to.
+     , (27792, 2, 0xFFFFFFFF, 'Fanzen San', 'prewritten', False, 'find. Also, come to speak with me and I can fill you in on any further details. Bring this note with you so that I will know what your business with me pertains to.
 ');

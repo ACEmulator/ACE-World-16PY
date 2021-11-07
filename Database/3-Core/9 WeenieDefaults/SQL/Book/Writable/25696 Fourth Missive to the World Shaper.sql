@@ -35,7 +35,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (25696, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (25696, 0, 4294967295, 'Translated by Kuyiza bint Zayi', 'prewritten', False, 'World Shaper, 
+VALUES (25696, 0, 0xFFFFFFFF, 'Translated by Kuyiza bint Zayi', 'prewritten', False, 'World Shaper, 
 The outlanders, and their singer, have performed their will. Our efforts now turn to expelling the dark spawn and sealing the tunnels as they continue their egress. Already we have dispatched risen to verify the flight of the brood mind. Our preliminary visions have revealed that the risen perform well against the fleeing dark spawn. We shall continue our assault and make the devices ready for your utilization.
 Amauxi
 ');

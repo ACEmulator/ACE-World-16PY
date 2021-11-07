@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5142, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5142, 0, 4294967295, 'IMPORTANT SIGN ', 'prewritten', False, ' 
+VALUES (5142, 0, 0xFFFFFFFF, 'IMPORTANT SIGN ', 'prewritten', False, ' 
 Welcome, traveler. Queen Elysa Strathelar''s Guard presents this Training Academy as an introduction to your new world.  The Greeter waits within for you.
 
 To enter the Training Academy, use the ARROW KEYS to the left of the numeric keypad, or the keys surrounding the [S] key, to move into the swirling PURPLE PORTAL.

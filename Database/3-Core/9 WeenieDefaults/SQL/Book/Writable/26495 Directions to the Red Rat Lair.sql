@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (26495, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (26495, 0, 4294967295, 'Jubal al-Baljad', 'prewritten', False, '
+VALUES (26495, 0, 0xFFFFFFFF, 'Jubal al-Baljad', 'prewritten', False, '
 An old timer recently came through town and told me what he remembered about the Guerin family''s plans to move down here from Rithwic. They dug the basement for a modest house, but then Old Guerin lost all his money in an ill-fated dice game. 
 
 They abandoned their plans and, well, lots of red rats have made their lair in that old basement of theirs now ... If you want to take a look, the entrance is at 21.1S 2.2W.

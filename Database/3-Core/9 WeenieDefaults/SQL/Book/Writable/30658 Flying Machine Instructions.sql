@@ -37,6 +37,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (30658, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (30658, 0, 4294967295, 'Weeping Eye Patuuki', 'prewritten', False, '
+VALUES (30658, 0, 0xFFFFFFFF, 'Weeping Eye Patuuki', 'prewritten', False, '
 First make fill ball hugantic. Must needs eat rot root then to be had much blowing to be full. Up go flap wing feathers. Make this way go, grab air pull harder that way. Down and up you go jump makes fly not up.
 ');

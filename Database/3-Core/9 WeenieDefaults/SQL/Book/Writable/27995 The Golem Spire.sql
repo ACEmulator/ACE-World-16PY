@@ -31,5 +31,5 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27995, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27995, 0, 4294967295, 'The Golem Spire', 'prewritten', False, 'Southwest of Lin, tucked away in the wild forest surrounding the town, a structure can be found that is not at all safe!  Many golems have made this spired building their home, guarding the entrance from any who would disturb the restless dead within.  Many brave souls venture out to the Spire and find the courage drained from their bodies upon arrival!
+VALUES (27995, 0, 0xFFFFFFFF, 'The Golem Spire', 'prewritten', False, 'Southwest of Lin, tucked away in the wild forest surrounding the town, a structure can be found that is not at all safe!  Many golems have made this spired building their home, guarding the entrance from any who would disturb the restless dead within.  Many brave souls venture out to the Spire and find the courage drained from their bodies upon arrival!
 ');

@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (2511, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (2511, 0, 4294967295, 'Experience', 'prewritten', False, ' 
+VALUES (2511, 0, 0xFFFFFFFF, 'Experience', 'prewritten', False, ' 
 You have control over your character''s growth and advancement!  Click on the green triangle-button with a flexing arm on it.  On these panels, you can increase your Attributes, Skills, health, stamina, and mana.  Spending your experience wisely makes all the difference!  By the way, practice does increase some Skills, but slowly.
 ');

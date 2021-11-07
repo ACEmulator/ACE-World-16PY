@@ -31,14 +31,14 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (24614, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (24614, 0, 4294967295, 'Instructions', 'prewritten', False, '
+VALUES (24614, 0, 0xFFFFFFFF, 'Instructions', 'prewritten', False, '
 First, the components of his binding must be gathered. 
 
 Journey to the Empyrean Cloister, located almost directly east of Yaraq along the boundary of warning stones set out for younger adventurers, and retrieve the Skull of Avoren Palacost. 
 
 Journey to the Shade Stronghold, located northwest of Crater Lake and directly east of the Essence of Strife, and retrieve the Heart of Shadow. 
 ')
-     , (24614, 1, 4294967295, 'Instructions', 'prewritten', False, '
+     , (24614, 1, 0xFFFFFFFF, 'Instructions', 'prewritten', False, '
 Journey to the Chakron Flux, on the northern rim of the Obsidian Plains, and retrieve the Fragment of the Singularity.
 
 Combine these powerful relics into a Dark Crucible, and return the Crucible to the Chosen of Asheron. The Chosen will provide you with a way into the Sepulcher. 

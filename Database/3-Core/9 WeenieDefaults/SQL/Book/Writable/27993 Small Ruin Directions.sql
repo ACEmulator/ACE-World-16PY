@@ -31,5 +31,5 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27993, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27993, 0, 4294967295, 'Small Ruin Directions', 'prewritten', False, 'West of Lin, there is an underground crypt known as the Small Ruin.  It was once the home of a Banderling Breeder and her ilk, but now it seems that the decaying complex has been overrun by more aggressive beasts.  It is rumored that some adventurers have raided the ruin, returning to town with fine treasures and exciting stories.
+VALUES (27993, 0, 0xFFFFFFFF, 'Small Ruin Directions', 'prewritten', False, 'West of Lin, there is an underground crypt known as the Small Ruin.  It was once the home of a Banderling Breeder and her ilk, but now it seems that the decaying complex has been overrun by more aggressive beasts.  It is rumored that some adventurers have raided the ruin, returning to town with fine treasures and exciting stories.
 ');

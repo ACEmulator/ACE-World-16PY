@@ -35,7 +35,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (25698, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (25698, 0, 4294967295, 'Translated by Kuyiza bint Zayi', 'prewritten', False, 'World Shaper, 
+VALUES (25698, 0, 0xFFFFFFFF, 'Translated by Kuyiza bint Zayi', 'prewritten', False, 'World Shaper, 
 The brood mind has left the scope of our vision. The dark spawn abandoned to their own are proving to be a negligible distraction. We continue to fashion the devices that you have asked we create and provide them to you now. As you have agreed, so it must be done. He thanks you for your sacrifice and asks that the process to close the deep places of this world commence.
 Amauxi
 ');

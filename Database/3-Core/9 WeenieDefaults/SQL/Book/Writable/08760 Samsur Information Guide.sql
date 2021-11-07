@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (8760, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (8760, 0, 4294967295, '', 'prewritten', False, 'Samsur 2.9 S 19.5 E
+VALUES (8760, 0, 0xFFFFFFFF, '', 'prewritten', False, 'Samsur 2.9 S 19.5 E
 East Samsur Outpost 3.2 S 22.2 E
 Northwest Samsur Outpost 0.1 N 16.3 E
 Portal to Holtburg 1.6 S 18.4 E

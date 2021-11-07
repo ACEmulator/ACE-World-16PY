@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (28106, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (28106, 0, 4294967295, 'Niarltah', 'prewritten', False, '
+VALUES (28106, 0, 0xFFFFFFFF, 'Niarltah', 'prewritten', False, '
 Torgluuk,
 Seven tenths of a compass point north and three tenths east is a small clearing. You will find the entrance there. It will be concealed so that the Isparian cannot see the entrance. If you send your workers there, they will be able to gain access into the network that we''ve built from our Stronghold in Linvak by using the device there.
 

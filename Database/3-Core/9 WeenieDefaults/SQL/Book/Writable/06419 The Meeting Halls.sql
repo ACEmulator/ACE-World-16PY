@@ -33,7 +33,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (6419, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (6419, 0, 4294967295, 'The Meeting Halls', 'prewritten', False, 'Here are compiled the locations of the Meeting Halls. These underground amphitheaters may be freely used by anyone to hold large meetings.
+VALUES (6419, 0, 0xFFFFFFFF, 'The Meeting Halls', 'prewritten', False, 'Here are compiled the locations of the Meeting Halls. These underground amphitheaters may be freely used by anyone to hold large meetings.
 
 Al-Arqas 31.9S, 14.3E
 Al-Jalima 7.5N, 5.7E
@@ -47,7 +47,7 @@ Holtburg - 41.5N, 35.2E
 Khayyaban - 47.6S, 26.4E
 
 ')
-     , (6419, 1, 4294967295, 'The Meeting Halls', 'prewritten', False, 'Lin - 54.5S, 71.9E
+     , (6419, 1, 0xFFFFFFFF, 'The Meeting Halls', 'prewritten', False, 'Lin - 54.5S, 71.9E
 Lytlethorpe - 1.1N, 49.1E
 Mayoi - 61.6S, 83.4E
 Nanto - 52.7S, 80.1E

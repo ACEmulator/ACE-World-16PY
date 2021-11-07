@@ -32,10 +32,10 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (29235, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (29235, 0, 4294967295, 'Berkholt the Burly Barkeep', 'prewritten', False, '
+VALUES (29235, 0, 0xFFFFFFFF, 'Berkholt the Burly Barkeep', 'prewritten', False, '
 A bit southeast of Ayan Baqur (around about 66S 86.6W), Ishaq the Natural Philosopher has taken up residence. Ishaq is a nice old coot - always ready to welcome strangers - and if you have any questions about the mating habits of shreth or how an ursuin teaches her young to hunt, he''s your man! That is, if he can find his notes. Ishaq has some problems with his memory. In fact, if you''re headed out that way you should stop in and see him. He almost always needs help with something or other.
 
 ')
-     , (29235, 1, 4294967295, 'Berkholt the Burly Barkeep', 'prewritten', False, '
+     , (29235, 1, 0xFFFFFFFF, 'Berkholt the Burly Barkeep', 'prewritten', False, '
 For some reason, though, Tanami Kei of Ayan Baqur has a grudge against old Ishaq. Tanami''s not a bad sort either, but he sure is angry with Ishaq. I wonder what''s happened between those two? Tanami can usually be found in my bar in Ayan Baqur - perhaps you could ask him. 
 ');

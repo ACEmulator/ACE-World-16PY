@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (1141, 100, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (1141, 0, 4294967295, 'Town of Shoushi', 'prewritten', False, ' 
+VALUES (1141, 0, 0xFFFFFFFF, 'Town of Shoushi', 'prewritten', False, ' 
 Welcome to the Shoushi Bulletin Board. Please leave messages for other players here.
 
 Note: Please do not use too many pages, as they are limited in Beta. Thank you.

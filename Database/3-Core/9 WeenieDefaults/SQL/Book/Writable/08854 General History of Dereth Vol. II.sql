@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (8854, 3, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (8854, 0, 4294967295, 'Jaiph Rainshadow', 'prewritten', False, '
+VALUES (8854, 0, 0xFFFFFFFF, 'Jaiph Rainshadow', 'prewritten', False, '
 
 
           General History of Dereth Vol. II
@@ -47,11 +47,11 @@ VALUES (8854, 0, 4294967295, 'Jaiph Rainshadow', 'prewritten', False, '
 
        Jaiph Rainshadow of Cragstone, ed.
 ')
-     , (8854, 1, 4294967295, 'Jaiph Rainshadow', 'prewritten', False, 'As the heat seeped back into the earth, snowlines receded. Patches of slush still dotted the landscape, but hints of green returned to most of the land. All was not well, however.
+     , (8854, 1, 0xFFFFFFFF, 'Jaiph Rainshadow', 'prewritten', False, 'As the heat seeped back into the earth, snowlines receded. Patches of slush still dotted the landscape, but hints of green returned to most of the land. All was not well, however.
 
 The enigmatic Shadow creatures began to walk the landscape openly, harassing adventurers and making travel through remote areas a dangerous proposition. In addition, floating Crystal Fragments appeared. While originally thought to be pieces of the Gelidites'' Great Work, the vast numbers of Fragments that soon swarmed across Dereth seemed to imply another origin.
 ')
-     , (8854, 2, 4294967295, 'Jaiph Rainshadow', 'prewritten', False, 'Fortunately, the most learned mages of the land had taken to heart the dire prognostications of the recovered Gelidite scriptures. The Archmages Celdiseth, Fadsahil al-Tashbi, Nuhmudira, and Shoyanen Kenchu offered for sale Master Mage Robes of fine quality, while they allowed their Apprentice Mage Robes to be sold by the local mages of various towns.
+     , (8854, 2, 0xFFFFFFFF, 'Jaiph Rainshadow', 'prewritten', False, 'Fortunately, the most learned mages of the land had taken to heart the dire prognostications of the recovered Gelidite scriptures. The Archmages Celdiseth, Fadsahil al-Tashbi, Nuhmudira, and Shoyanen Kenchu offered for sale Master Mage Robes of fine quality, while they allowed their Apprentice Mage Robes to be sold by the local mages of various towns.
 
 Non-mages were not left without fashionable attire, however, as the traditional warrior garb of Ispar began to appear in Dereth. Celdon, Amullian, and Koujia Armor became visible signs of a warrior''s prowess.
 ');

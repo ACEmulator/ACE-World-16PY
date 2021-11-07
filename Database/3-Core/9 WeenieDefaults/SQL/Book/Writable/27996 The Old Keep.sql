@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27996, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27996, 0, 4294967295, 'The Old Keep', 'prewritten', False, '
+VALUES (27996, 0, 0xFFFFFFFF, 'The Old Keep', 'prewritten', False, '
 East of Lin, perched upon a shelf jutting from the mountain side, lies an ancient keep. Many adventurers have tried to reach this keep. 
 
 Some have taken a daring leap from the mountain side, hoping to land safely at the doors to the keep. Others have searched the land for the elusive portal that is rumored to take one to the perch the keep was built on. 

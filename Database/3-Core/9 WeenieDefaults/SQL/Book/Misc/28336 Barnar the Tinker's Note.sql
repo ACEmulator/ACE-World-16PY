@@ -34,7 +34,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (28336, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (28336, 0, 4294967295, 'Barnar the Tinker', 'prewritten', False, '
+VALUES (28336, 0, 0xFFFFFFFF, 'Barnar the Tinker', 'prewritten', False, '
 To whom it may concern:
 
 I have had it with this podunk town! I am off to seek my fortune in the great city of Cragstone. Please tell my debtors that I am visiting my relatives in Redspire.

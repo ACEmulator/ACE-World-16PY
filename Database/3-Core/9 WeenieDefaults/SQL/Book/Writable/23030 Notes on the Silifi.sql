@@ -28,16 +28,16 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (23030, 3, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (23030, 0, 4294967295, 'Notes on the Silifi', 'prewritten', False, '
+VALUES (23030, 0, 0xFFFFFFFF, 'Notes on the Silifi', 'prewritten', False, '
 First, you''ll need to attach a blade. An armoredillo spine would work. Those from smaller ''dillos, like the Sandy or Bronze, would be swift but do little damage. Bigger spines, like those from Shore or Freshwater Armoredillos, would do more damage but be slower on the swing. For some reason, Sandy and Freshwater seem to make more offensive weapons, while Bronze and Shore lend themselves to defense. The largest spines -- from Island, Hoary, and Plate Armoredillos -- would make excellent blades but require the wielder to have a good familiarity with axes.
 ')
-     , (23030, 1, 4294967295, 'Notes on the Silifi', 'prewritten', False, '
+     , (23030, 1, 0xFFFFFFFF, 'Notes on the Silifi', 'prewritten', False, '
 Once you have a blade, you can think about attaching the Crimson Rubies. Unfortunately, the damage done to the Silifi means that you can only attach 3 of the 5 Rubies, so choose carefully. 
 
 
 Below is a list of the Rubies and the last place that they were seen by adventurers.
 ')
-     , (23030, 2, 4294967295, 'Notes on the Silifi', 'prewritten', False, '
+     , (23030, 2, 0xFFFFFFFF, 'Notes on the Silifi', 'prewritten', False, '
 The Ruby Al-Shajar: 
     Skeleton Tomb (18.4S, 21.3E)
     

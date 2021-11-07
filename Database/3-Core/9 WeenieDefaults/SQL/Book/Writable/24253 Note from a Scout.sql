@@ -37,7 +37,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (24253, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (24253, 0, 4294967295, 'Scout Luzumin Abigwei', 'prewritten', False, '
+VALUES (24253, 0, 0xFFFFFFFF, 'Scout Luzumin Abigwei', 'prewritten', False, '
 I discovered that new Olthoi now inhabit the old lair. These are of a more vicious variety, making this an ominous development. I will see what lies beyond the nearby portal. This note should be delivered to a member of the Queen''s Royal Guard.
 
 ');

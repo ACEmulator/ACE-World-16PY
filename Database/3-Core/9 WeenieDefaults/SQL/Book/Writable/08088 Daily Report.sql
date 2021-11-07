@@ -34,15 +34,15 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (8088, 4, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (8088, 0, 4294967295, 'Elleina of Berkesh', 'prewritten', False, '
+VALUES (8088, 0, 0xFFFFFFFF, 'Elleina of Berkesh', 'prewritten', False, '
 Anadil, I demand you send me additional forces! That fool Ghere never respected me, and left me with a bare garrison, a mix of forces from Chalicmere and Aerlinthe. I have no knowledge of what is going on in the world above - Ghere also never chose to share Asmolum''s reports with me. Is it true that the night sky has altered as it did during the Great War? Considering how Ghere and his portion of our force recently met their end, I have to assume that the forces of the Enemy are gathering against me even now! Speed is of the essence!
 ')
-     , (8088, 1, 4294967295, 'Elleina of Berkesh', 'prewritten', False, 'Since you so brusquely demanded a "report" from me, know that I have set the bulk of my forces to defend the various gates of the upper facility, and the peculiar obsidian obelisk at its bottom. The crystals below can defend themselves quite ably, although I have set a few guardians of my own to aid them should the Enemy reach there. I am loathe to waste my precious soldiers on those monotonously humming rocks, or let them too near. One of the weak-willed Letzimestal soldiers Ghere unlade on me ventured too close last week, and was found staring into its facets, mumbling about the end of light and so forth. I destroyed him at once.
+     , (8088, 1, 0xFFFFFFFF, 'Elleina of Berkesh', 'prewritten', False, 'Since you so brusquely demanded a "report" from me, know that I have set the bulk of my forces to defend the various gates of the upper facility, and the peculiar obsidian obelisk at its bottom. The crystals below can defend themselves quite ably, although I have set a few guardians of my own to aid them should the Enemy reach there. I am loathe to waste my precious soldiers on those monotonously humming rocks, or let them too near. One of the weak-willed Letzimestal soldiers Ghere unlade on me ventured too close last week, and was found staring into its facets, mumbling about the end of light and so forth. I destroyed him at once.
 ')
-     , (8088, 2, 4294967295, 'Elleina of Berkesh', 'prewritten', False, '
+     , (8088, 2, 0xFFFFFFFF, 'Elleina of Berkesh', 'prewritten', False, '
 Everything is quiet, at least until the Enemy arrives, and I am bored. I am reduced to carving images on the walls by torchlight. The dim illumination from those pre-Falatacot symbols is not enough to provide any real light, and I cannot even read what they say! I have no idea what use this facility may have been before the Yalain converted it, but it greatly vexes me. The constant rumbling from the central column makes it almost impossible to meditate properly.
 ')
-     , (8088, 3, 4294967295, 'Elleina of Berkesh', 'prewritten', False, '
+     , (8088, 3, 0xFFFFFFFF, 'Elleina of Berkesh', 'prewritten', False, '
 When you send my reinforcements, have them bring more chyle wine, for I am out, and grow irritable without this most basic amenity.
 
 Elleina of Berkesh

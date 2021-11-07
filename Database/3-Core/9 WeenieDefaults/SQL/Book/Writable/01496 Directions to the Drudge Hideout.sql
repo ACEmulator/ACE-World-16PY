@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (1496, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (1496, 0, 4294967295, 'Wilomine', 'prewritten', False, '
+VALUES (1496, 0, 0xFFFFFFFF, 'Wilomine', 'prewritten', False, '
 Just outside of Holtburg, on the road that goes south -- at just about 41.4N 33.3E -- is a small ruin where some runaway drudges are hiding out. We don''t bother them, and they don''t normally bother us. But I hear that lately a bigger, bolder drudge boss has moved in, and he''s has been leading the other drudges on raids against local farmsteads. No good can come of that.
 
 I also have heard there are some pretty tasty treasure chests in there.

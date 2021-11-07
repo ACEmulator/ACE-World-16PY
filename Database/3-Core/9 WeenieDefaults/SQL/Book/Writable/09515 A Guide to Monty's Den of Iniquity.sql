@@ -32,5 +32,5 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (9515, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (9515, 0, 4294967295, 'Monty the Munificent', 'prewritten', False, 'Welcome, traveler, to Monty''s Den of Iniquity! If you feel like trying your luck with our games, simply purchase a gambling token from Boddry, our friendly cashier and bartender.  Bring tokens to our Gamesmasters and see what you win!  If you feel very lucky and wish to gamble your Pack Monster, you can trade one of those in to Monty himself for the chance at an especially rich prize!
+VALUES (9515, 0, 0xFFFFFFFF, 'Monty the Munificent', 'prewritten', False, 'Welcome, traveler, to Monty''s Den of Iniquity! If you feel like trying your luck with our games, simply purchase a gambling token from Boddry, our friendly cashier and bartender.  Bring tokens to our Gamesmasters and see what you win!  If you feel very lucky and wish to gamble your Pack Monster, you can trade one of those in to Monty himself for the chance at an especially rich prize!
 ');

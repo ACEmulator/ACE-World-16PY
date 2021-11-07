@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (1401, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (1401, 0, 4294967295, 'Yanshi Tunnel Directions', 'prewritten', False, '
+VALUES (1401, 0, 0xFFFFFFFF, 'Yanshi Tunnel Directions', 'prewritten', False, '
 Northwest of the center of the old, ruined town of Yanshi, almost within sight, is a dungeon we call the Yanshi Tunnel. A group of people once sought to live in it years ago. Alas, the monsters seemed to want it more, and the people who didn''t flee are now long dead. These days you won''t find much there but nasty creatures, but perhaps you''re looking for that sort of thing.  Oh, and you might find a plain but mysterious key down there -- a woman named Iquba, visiting from Qalaba''r, claims to have found such a thing. It didn''t work on any of the doors in the dungeon, but surely it must have a use somewhere in this world!
 ');

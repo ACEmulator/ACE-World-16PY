@@ -37,6 +37,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (24256, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (24256, 0, 4294967295, 'Scout Tzin Chu', 'prewritten', False, '
+VALUES (24256, 0, 0xFFFFFFFF, 'Scout Tzin Chu', 'prewritten', False, '
 I am disheartened to report there is much activity on the part of the Olthoi who now dwell here.  These are deadlier breeds and seem to move with new purpose.  There are even deeper catacombs I must investigate. If retrieved, this note should be delivered to a member of the Queen''s Royal Guard.
 ');

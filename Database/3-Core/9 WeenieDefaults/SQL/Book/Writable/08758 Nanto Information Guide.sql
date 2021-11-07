@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (8758, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (8758, 0, 4294967295, '', 'prewritten', False, 'Nanto 52.6 S 81.9 E
+VALUES (8758, 0, 0xFFFFFFFF, '', 'prewritten', False, 'Nanto 52.6 S 81.9 E
 North Nanto Outpost 49 S 81.6 E
 East Nanto Outpost 52.4 S 85.3 E
 Portal to Yanshi 52.7 S 80.3 E

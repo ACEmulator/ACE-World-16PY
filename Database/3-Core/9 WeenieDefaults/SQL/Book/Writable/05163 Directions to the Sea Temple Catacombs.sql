@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5163, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5163, 0, 4294967295, 'Jubal al-Baljad', 'prewritten', False, '
+VALUES (5163, 0, 0xFFFFFFFF, 'Jubal al-Baljad', 'prewritten', False, '
 On the bluffs to the northwest of Yaraq - directly west of the North Outpost, at 20.2S 4.4W, in fact - can be found the ruin of a small temple facing the sea. The scholars of Zaikhal insist that it''s some temple dedicated to an Empyrean god of the Inner Sea. The catacombs beneath it have been infested by the Drudge band that lives on the mesas to the north. They''ve been the scourge of al-Luq''s orchards for some months.
 
 ');

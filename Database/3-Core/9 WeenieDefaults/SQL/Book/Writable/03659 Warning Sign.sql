@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (3659, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (3659, 0, 4294967295, '', 'prewritten', False, '
+VALUES (3659, 0, 0xFFFFFFFF, '', 'prewritten', False, '
 IMPORTANT: Proceed only if you intend to become an Advocate.  If you do not wish to become an Advocate, please exit this dungeon.
 
 ');

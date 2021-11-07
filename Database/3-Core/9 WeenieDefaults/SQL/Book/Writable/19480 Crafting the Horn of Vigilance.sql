@@ -35,9 +35,9 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (19480, 4, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (19480, 0, 4294967295, 'Telk the Addlepated', 'prewritten', False, 'Telk the Addlepated wishes to thank thee for purchasing this Book of Instruction on Crafting the Horn of Vigilance.  The Horn should provide years of care-free service in repelling a variety of creatures. A mere four items are required for the material with which to craft the Horn. The four items required are:
+VALUES (19480, 0, 0xFFFFFFFF, 'Telk the Addlepated', 'prewritten', False, 'Telk the Addlepated wishes to thank thee for purchasing this Book of Instruction on Crafting the Horn of Vigilance.  The Horn should provide years of care-free service in repelling a variety of creatures. A mere four items are required for the material with which to craft the Horn. The four items required are:
 ')
-     , (19480, 1, 4294967295, 'Telk the Addlepated', 'prewritten', False, 'A large Niffis Shell
+     , (19480, 1, 0xFFFFFFFF, 'Telk the Addlepated', 'prewritten', False, 'A large Niffis Shell
 
 The Femur Bone of a Lich Lord
 
@@ -45,9 +45,9 @@ A Tibia from a Virulent Grievver
 
 A Tusk from a Tusker Slave
 ')
-     , (19480, 2, 4294967295, 'Telk the Addlepated', 'prewritten', False, 'The large Niffis Shell must be carved to create the Base for the Horn.  Utilize a carving knife that may or may not have been provided to thee. The other three items must be carved to create three Upper Pipes.  Then mount each of the three Upper Pipes atop the Base Horn. Thus, the Horn is complete. It is just that effortless!
+     , (19480, 2, 0xFFFFFFFF, 'Telk the Addlepated', 'prewritten', False, 'The large Niffis Shell must be carved to create the Base for the Horn.  Utilize a carving knife that may or may not have been provided to thee. The other three items must be carved to create three Upper Pipes.  Then mount each of the three Upper Pipes atop the Base Horn. Thus, the Horn is complete. It is just that effortless!
 
 Telk the Addlepated must alert thee to the fact that thy results with this instrument may vary.  Telk the Addlepated cannot be held responsible for loss of life, personal items or treasure should
 ')
-     , (19480, 3, 4294967295, 'Telk the Addlepated', 'prewritten', False, 'the Horn be used in a manner not suited to the use for which it is claimed to theoretically be utilized for, nor if thy Horn is used on nights when the moons are visible, days when the sun appears in the sky and during seasons of the year that are wet or dry.  Care must be taken in obtaining the items necessary for the construction of the Horn for some creatures do not easily give up body parts required for this instrument. Always carry a weapon and stay alert in the presence of Olthoi and other vermin.
+     , (19480, 3, 0xFFFFFFFF, 'Telk the Addlepated', 'prewritten', False, 'the Horn be used in a manner not suited to the use for which it is claimed to theoretically be utilized for, nor if thy Horn is used on nights when the moons are visible, days when the sun appears in the sky and during seasons of the year that are wet or dry.  Care must be taken in obtaining the items necessary for the construction of the Horn for some creatures do not easily give up body parts required for this instrument. Always carry a weapon and stay alert in the presence of Olthoi and other vermin.
 ');

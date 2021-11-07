@@ -36,25 +36,25 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (28127, 5, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (28127, 0, 4294967295, 'Ikakhe', 'prewritten', False, 'We believe that we are nearing the end of the book. We will furnish our latest findings as we collect them.
+VALUES (28127, 0, 0xFFFFFFFF, 'Ikakhe', 'prewritten', False, 'We believe that we are nearing the end of the book. We will furnish our latest findings as we collect them.
 
 Ikakhe
 ')
-     , (28127, 1, 4294967295, 'Ikakhe', 'prewritten', False, 'Translation
+     , (28127, 1, 0xFFFFFFFF, 'Ikakhe', 'prewritten', False, 'Translation
 
 Fiazhat society peaks with the introduction of farming, building, writing, artistry and small advances in technology. (*There are references to channels of water being brought to fields from standing water, and advanced crafting of weapons.) Peace has reigned for nearly four thousand cycles and evolution has left the Fiazhat behind. They are still beings that use a powerful tail to propel themselves along the surface. 
 ')
-     , (28127, 2, 4294967295, 'Ikakhe', 'prewritten', False, 'They have four powerful arms and a thick hide that covers their body, and hoods. But nothing has changed beyond this.
+     , (28127, 2, 0xFFFFFFFF, 'Ikakhe', 'prewritten', False, 'They have four powerful arms and a thick hide that covers their body, and hoods. But nothing has changed beyond this.
 
 Many younger Fiazhat believe that the temples crafted to the six gods of their people are folklore. They doubt that the Burun ever existed and wish to strike out across the world.
 
 Some do and never return.
 ')
-     , (28127, 3, 4294967295, 'Ikakhe', 'prewritten', False, 'Burun in the surface mire are all nearly mad, enact the rites of calling the rains for a full cycle. 
+     , (28127, 3, 0xFFFFFFFF, 'Ikakhe', 'prewritten', False, 'Burun in the surface mire are all nearly mad, enact the rites of calling the rains for a full cycle. 
 
 The few sane Burun in the swamps continue to preach the teachings and way of The Sleeping One learned from the mucor. Change must occur not be forced.
 
 Subterranean Burun begin great rites to call the rains, several of the bloated Burun have lived for over three thousand years at this point growing so immense in size that they can only be moved if carried on litters.
 ')
-     , (28127, 4, 4294967295, 'Ikakhe', 'prewritten', False, 'Moar in the subterranean world develop quickly breeding with a small handful of the species returned by the Fiazhat''s gods. Burun beneath the surface are unaware of this or have chosen to no longer consider the moar a threat.
+     , (28127, 4, 0xFFFFFFFF, 'Ikakhe', 'prewritten', False, 'Moar in the subterranean world develop quickly breeding with a small handful of the species returned by the Fiazhat''s gods. Burun beneath the surface are unaware of this or have chosen to no longer consider the moar a threat.
 ');

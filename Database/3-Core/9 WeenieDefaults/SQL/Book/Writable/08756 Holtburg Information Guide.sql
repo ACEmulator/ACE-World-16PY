@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (8756, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (8756, 0, 4294967295, '', 'prewritten', False, 'Holtburg 42.3 N 33.6 E
+VALUES (8756, 0, 0xFFFFFFFF, '', 'prewritten', False, 'Holtburg 42.3 N 33.6 E
 Portal to Rithwic 42.8 N 34.7 E
 Portal to Shoushi 42.2 N 33.8 E
 Holtburg South Outpost 39.5 N 33.3 E

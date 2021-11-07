@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (28546, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (28546, 0, 4294967295, 'Unknown', 'prewritten', False, '
+VALUES (28546, 0, 0xFFFFFFFF, 'Unknown', 'prewritten', False, '
 Rumor has it that an ancient Gharu''ndim temple was uncovered near 12.2N 2.4E some time ago by a fellow named "Nadqab."   This temple is thought to be the Impious Temple, a place of burial for long-forgotten Gharun''dim War mages.
 
 Rumor also has it that he will not allow anyone inside to see what he has unearthed - unless of course they pay a handsome fee! If you wish to enter the temple, you will likely need an "L" trade note to bribe the "honorable" archeologist.

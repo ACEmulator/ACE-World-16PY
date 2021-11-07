@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (26659, 12, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (26659, 0, 4294967295, 'Translator, Aun Laokhe', 'prewritten', False, 'Slithering on their bellies
+VALUES (26659, 0, 0xFFFFFFFF, 'Translator, Aun Laokhe', 'prewritten', False, 'Slithering on their bellies
 through the mire, through the muck,
 here come they who worship,
 at the foot of Ixir Zi. 
@@ -47,7 +47,7 @@ within its fetid muck they lived,
 now forced to desert,
 their flesh scarred by sun most cruel.
 ')
-     , (26659, 1, 4294967295, 'Translator, Aun Laokhe', 'prewritten', False, 'Singers call them, act as saviors.
+     , (26659, 1, 0xFFFFFFFF, 'Translator, Aun Laokhe', 'prewritten', False, 'Singers call them, act as saviors.
 Temples grow as does her name.
 within these halls, this hallowed ground,
 the slithering masses teem.
@@ -63,7 +63,7 @@ the Willing wait for thee.
 On slabs of stone, with flesh and bone,
 only souls from you partake.
 ')
-     , (26659, 2, 4294967295, 'Translator, Aun Laokhe', 'prewritten', False, '--Song of Summoning
+     , (26659, 2, 0xFFFFFFFF, 'Translator, Aun Laokhe', 'prewritten', False, '--Song of Summoning
 Ibrexi Jikti Chief Consort to the Mother Ixir Zi
 
 Long have words been passed of my longevity.
@@ -74,7 +74,7 @@ then suffer the fate of all the -Willing-.
 Defame my name, I tempt all who would,
 but think not that I abuse my station.
 ')
-     , (26659, 3, 4294967295, 'Translator, Aun Laokhe', 'prewritten', False, 'I am as the next breeder; afeared in time
+     , (26659, 3, 0xFFFFFFFF, 'Translator, Aun Laokhe', 'prewritten', False, 'I am as the next breeder; afeared in time
 my worth will pass and I shall become the Willing.
 When time calls I shall walk with honor
 to that endless service, accept the hood with grace
@@ -84,7 +84,7 @@ of all I have known remain for my eternal service,
 in the prison of the hood, talon and fang.
 
 ')
-     , (26659, 4, 4294967295, 'Translator, Aun Laokhe', 'prewritten', False, 'War rages about us, winds turn cold and the Sclavus*
+     , (26659, 4, 0xFFFFFFFF, 'Translator, Aun Laokhe', 'prewritten', False, 'War rages about us, winds turn cold and the Sclavus*
 
 (* Apparently Sclavus became a commonly used word to describe the unfortunates who underwent a strange process that fused the lives and spirits of the male Falatacot and creatures called the Fiazhat.)
 
@@ -94,14 +94,14 @@ The moons draw across the sky less, and the last
 sleeper awake threatens to sleep forever.
 She has sent a call to all sisters now.
 ')
-     , (26659, 5, 4294967295, 'Translator, Aun Laokhe', 'prewritten', False, 'One final ritus, one final gift before we slumber
+     , (26659, 5, 0xFFFFFFFF, 'Translator, Aun Laokhe', 'prewritten', False, 'One final ritus, one final gift before we slumber
 as our lords beneath the world,
 in temples of obsidian and blood.
 Darkness has churned the war against the shadow, 
 the shadow has churned the war against the Darkness,
 and Light has fallen ''neath Darkness''s sway.
 ')
-     , (26659, 6, 4294967295, 'Translator, Aun Laokhe', 'prewritten', False, 'Now shall we fall dormant, knowing still that sisters
+     , (26659, 6, 0xFFFFFFFF, 'Translator, Aun Laokhe', 'prewritten', False, 'Now shall we fall dormant, knowing still that sisters
 across seas of gold and sapphire will one day
 crawl from turbulent dreams to awaken us.
 
@@ -112,7 +112,7 @@ with the blood of our sister-mothers and brothers
 will we wake again with strength, and vigor.
 
 ')
-     , (26659, 7, 4294967295, 'Translator, Aun Laokeh', 'prewritten', False, 'Peril lies still, while torpid, we have no guardians.
+     , (26659, 7, 0xFFFFFFFF, 'Translator, Aun Laokeh', 'prewritten', False, 'Peril lies still, while torpid, we have no guardians.
 
 Nay, a lie. Slaughtered are unbelievers,
 fettered to this world against their will,
@@ -122,7 +122,7 @@ atrocity upon the Mother and her trusted children.
 Guardians they shall be. Ever watchful of our crypt,
 only letting those who can wake our forms again
 ')
-     , (26659, 8, 4294967295, 'Translator, Aun Laokhe', 'prewritten', False, 'to gain access to these hallowed halls.
+     , (26659, 8, 0xFFFFFFFF, 'Translator, Aun Laokhe', 'prewritten', False, 'to gain access to these hallowed halls.
 
 Else disaster come from the world beyond 
 whereon the war of our sibling-kin grew.
@@ -134,7 +134,7 @@ Left to perish at the hands of enemies,
 made strong by supposition, by acts of hubris.
 Only the touch of our sibling-kin kept the threat at bay.
 ')
-     , (26659, 9, 4294967295, 'Translator, Aun Laokhe', 'prewritten', False, 'Woe be that day, when last the mired tunnel was opened.
+     , (26659, 9, 0xFFFFFFFF, 'Translator, Aun Laokhe', 'prewritten', False, 'Woe be that day, when last the mired tunnel was opened.
 Where we crossed with the twelve and the Mother,
 saw atrocity given a new face, felt the burn
 of acrid wind upon our flesh and saw the bloated
@@ -144,7 +144,7 @@ Seamless passage, hidden with arts, we fled.
 Now, we return and the air is frigid.
 Life threatens to cease in the War of Hate
 ')
-     , (26659, 10, 4294967295, 'Translator, Aun Laokhe', 'prewritten', False, 'and sisters flee our land. But the twelve and the Mother,
+     , (26659, 10, 0xFFFFFFFF, 'Translator, Aun Laokhe', 'prewritten', False, 'and sisters flee our land. But the twelve and the Mother,
 recalling our sister-kin who crept beneath the earth
 with the first sleepers, have dreamed a different ending.
 So we call, and wait; we wait and prepare,
@@ -153,6 +153,6 @@ but sleep eternal until blood and sacrifice.
 
 I am gifted eternal service, with my mind intact.
 ')
-     , (26659, 11, 4294967295, 'Translator, Aun Laokhe', 'prewritten', False, 'Only thirteen brother-kin are given this honor, 
+     , (26659, 11, 0xFFFFFFFF, 'Translator, Aun Laokhe', 'prewritten', False, 'Only thirteen brother-kin are given this honor, 
 I am one of the last. I am Ibrexi Jikti.
 ');

@@ -34,7 +34,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27700, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27700, 0, 4294967295, 'Muldaveus', 'prewritten', False, 'Brothers,
+VALUES (27700, 0, 0xFFFFFFFF, 'Muldaveus', 'prewritten', False, 'Brothers,
 On the reverse side of this parchment is a map that our scouts have drawn of the area we believe we can make contact with the Burun. See the chest bearing our gifts to the Burun delivered. Your efforts will earn you great accolades when this war is won!
 (A crude map marks X as the location of the Burun Holding where the Renegades delivered their goods.)
 ');

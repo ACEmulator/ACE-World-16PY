@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27610, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27610, 0, 4294967295, 'Kasin ibn Sayrak', 'prewritten', False, '
+VALUES (27610, 0, 0xFFFFFFFF, 'Kasin ibn Sayrak', 'prewritten', False, '
 Travelers beware: Tumerok factions are battling for possession of the island! Do not get caught in the crossfire! Adventure in groups! Ration your supplies! Watch your pyreals! 
 ');

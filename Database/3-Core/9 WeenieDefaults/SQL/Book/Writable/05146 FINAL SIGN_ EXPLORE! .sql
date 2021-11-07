@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5146, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5146, 0, 4294967295, 'FINAL SIGN: EXPLORE! ', 'prewritten', False, 'Congratulations! You have completed your training! Step through the portal ahead to return to the surface.
+VALUES (5146, 0, 0xFFFFFFFF, 'FINAL SIGN: EXPLORE! ', 'prewritten', False, 'Congratulations! You have completed your training! Step through the portal ahead to return to the surface.
 
 Don''t forget you should find some friends and begin adventuring in earnest!  Press [F1] or the Question Mark button for more help at any time. Good luck!
 ');

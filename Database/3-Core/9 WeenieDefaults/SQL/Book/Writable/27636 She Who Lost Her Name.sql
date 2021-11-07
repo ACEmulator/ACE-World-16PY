@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27636, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27636, 0, 4294967295, 'Aun Sareona', 'prewritten', False, '
+VALUES (27636, 0, 0xFFFFFFFF, 'Aun Sareona', 'prewritten', False, '
 This place is sad. Many moons have flown since the teachers fled, and the mother who lost her name was taken away. If you are wise, you will walk softly here, lest you too lose your name.
 ');

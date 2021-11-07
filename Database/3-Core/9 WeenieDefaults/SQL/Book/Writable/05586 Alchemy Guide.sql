@@ -31,12 +31,12 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5586, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5586, 0, 4294967295, 'Alchemy Guide', 'prewritten', False, 'The simplest talent an alchemist knows is grinding gemstones to make spell components. The tool for this is a mortar and pestle: use it on different gems to powder them.
+VALUES (5586, 0, 0xFFFFFFFF, 'Alchemy Guide', 'prewritten', False, 'The simplest talent an alchemist knows is grinding gemstones to make spell components. The tool for this is a mortar and pestle: use it on different gems to powder them.
 
 Next, the journeyman alchemist should master using the alembic. This is used on different alchemical substances (the same ones used for casting spells) to distill them into infusions.
 
 ')
-     , (5586, 1, 4294967295, 'Alchemy Guide', 'prewritten', False, 'Infusions, in turn, have two uses, involving two rare and wondrous substances: aqua incanta and the neutral balm.
+     , (5586, 1, 0xFFFFFFFF, 'Alchemy Guide', 'prewritten', False, 'Infusions, in turn, have two uses, involving two rare and wondrous substances: aqua incanta and the neutral balm.
 
 Aqua incanta is the basis for alchemical oils, which cooks and fletchers can use to give special powers to the food and arrows they make. Using an infusion on aqua incanta will yield an oil, if you have sufficient skill.
 

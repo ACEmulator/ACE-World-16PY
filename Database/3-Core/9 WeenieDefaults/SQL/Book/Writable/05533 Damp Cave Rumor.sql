@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5533, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5533, 0, 4294967295, 'Mi Chi', 'prewritten', False, '
+VALUES (5533, 0, 0xFFFFFFFF, 'Mi Chi', 'prewritten', False, '
 To the south of Tou-Tou lies the entrance to a network of tunnels. No one is sure why these passages, which are damp and encrusted with foul growths, exist. Some suggest they are related to the mechanisms of the Great Lighthouse. All that is certain is that no one objects to the Banderlings having it. To find it, travel south along the road, until you reach the Empyrean temple with the pool. Then, head directly east. The entrance portal overlooks the sea.
 ');

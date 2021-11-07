@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5028, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5028, 0, 4294967295, 'Wilomine', 'prewritten', False, '
+VALUES (5028, 0, 0xFFFFFFFF, 'Wilomine', 'prewritten', False, '
 Have you been out to see the old Holtburg Redoubt? It''s directly south of the Scriveners, on a hill. I believe the coordinates are 40.4N 34.5E. 
 
 Back in the year 6, the Tumeroks were still strong around here, and laid siege to the town. Most of the population holed up - and were slain - in the Redoubt, but the children escaped, thanks to the planar mage Celcynd.

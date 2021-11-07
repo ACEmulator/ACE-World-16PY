@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (23614, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (23614, 0, 4294967295, 'Unknown', 'prewritten', False, '
+VALUES (23614, 0, 0xFFFFFFFF, 'Unknown', 'prewritten', False, '
 The scholar Felscuda, who lives in a small house around 8.8S, 53.1E, is always looking for blank parchment for her studies. 
 ');

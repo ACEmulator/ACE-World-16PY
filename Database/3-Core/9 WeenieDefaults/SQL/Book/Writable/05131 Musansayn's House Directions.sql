@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5131, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5131, 0, 4294967295, 'Mishiya al-Abdi', 'prewritten', False, '
+VALUES (5131, 0, 0xFFFFFFFF, 'Mishiya al-Abdi', 'prewritten', False, '
 The house and crypt of the Great Musansayn, the first leader of the Gharu''n in Dereth and the founder of Samsur, is now in sad repair.  It is to the east-southeast of Samsur''s Northwest Outpost, and may be seen from the road which runs between the two.  Shortly after he died, the scribes of Zaikhal descended like Drudges upon his library, and made off with it all.  Samsur was left with nothing of his legacy.
 
 ');

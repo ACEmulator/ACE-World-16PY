@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (2512, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (2512, 0, 4294967295, 'Final Note', 'prewritten', False, '
+VALUES (2512, 0, 0xFFFFFFFF, 'Final Note', 'prewritten', False, '
 Remember to stay alert and cautious: many dungeons get a lot tougher and more dangerous the deeper you go into them.  The same applies in here, for beyond this sign are real monsters for you to practice on.  They can do nasty damage, so be careful.  You can also take the portal to your left to go back to the outside world.  We hope you enjoyed touring the Tutorial Dungeon!
 ');

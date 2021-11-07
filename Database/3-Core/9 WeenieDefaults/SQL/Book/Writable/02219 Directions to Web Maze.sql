@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (2219, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (2219, 0, 4294967295, 'Directions to Web Maze', 'prewritten', False, '
+VALUES (2219, 0, 0xFFFFFFFF, 'Directions to Web Maze', 'prewritten', False, '
 Long ago, as you know, the Olthoi had overrun this whole island.  Even now you can find remnants of their nests, like the Web Maze dungeon, way to the East of here at the base of a hill.  Nowadays it no longer has Olthoi (only a tribe of drudges), but you might get a feeling for how the earliest human arrivals felt when they had come to this land and were enslaved in those dark corridors.  Oh, and beware - once you enter, you will not be able to come out whence you came!  Some, however, find this convenient.
 
 ');

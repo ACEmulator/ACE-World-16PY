@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (26482, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (26482, 0, 4294967295, '', 'prewritten', False, '
+VALUES (26482, 0, 0xFFFFFFFF, '', 'prewritten', False, '
 If you travel directly north over the river, you''ll come across a peddlar who''s made his home out there in the empty plains. Perhaps he journeyed out there to find peace and quiet--but I''m sure he''s not getting much of that, what with the raucous goings on at the Mosswart Temple directly to the northwest!
 ');

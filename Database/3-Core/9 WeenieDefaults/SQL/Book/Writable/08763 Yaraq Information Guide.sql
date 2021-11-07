@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (8763, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (8763, 0, 4294967295, '', 'prewritten', False, 'Yaraq 21.5 S 1.6 W
+VALUES (8763, 0, 0xFFFFFFFF, '', 'prewritten', False, 'Yaraq 21.5 S 1.6 W
 North Yaraq Outpost 18.7 S 1.6 W
 East Yaraq Outpost 21.4 S 1.2 E
 Portal to Al-Arqas 21.9 S 1.5 W

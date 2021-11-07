@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27635, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27635, 0, 4294967295, 'Aun Sareona', 'prewritten', False, '
+VALUES (27635, 0, 0xFFFFFFFF, 'Aun Sareona', 'prewritten', False, '
 I will tell you this. There are spirits of this island older than our xutas, and older than the ones who came here, built their works, and left again. You may not hear them, but the shamans of the Aun xuta do. You and I have walked under only a handful of moons, but they have stood here since before the moons first rose, and before madness and clarity came.
 ');

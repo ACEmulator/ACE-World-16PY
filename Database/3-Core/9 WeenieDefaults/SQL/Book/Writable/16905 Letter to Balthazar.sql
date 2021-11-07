@@ -34,5 +34,5 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (16905, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (16905, 0, 4294967295, 'Arcanum', 'prewritten', False, 'Please allow this person to assist you in your task. They have demonstrated the kind of character that we are looking for in this endeavor.
+VALUES (16905, 0, 0xFFFFFFFF, 'Arcanum', 'prewritten', False, 'Please allow this person to assist you in your task. They have demonstrated the kind of character that we are looking for in this endeavor.
 ');

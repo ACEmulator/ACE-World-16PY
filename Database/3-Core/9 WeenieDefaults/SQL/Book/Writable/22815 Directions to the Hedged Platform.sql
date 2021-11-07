@@ -30,7 +30,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (22815, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (22815, 0, 4294967295, 'Directions to the Hedged Platform', 'prewritten', False, '
+VALUES (22815, 0, 0xFFFFFFFF, 'Directions to the Hedged Platform', 'prewritten', False, '
 The Hedged Platform is a very strange Empyrean artifact. It''s a platform with a .. err .. hedge around it. There''s really no better way to describe it. Go to 37.7N 29.0E and see for yourself. 
 
 ');

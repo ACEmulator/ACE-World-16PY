@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (2508, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (2508, 0, 4294967295, 'Combat', 'prewritten', False, ' 
+VALUES (2508, 0, 0xFFFFFFFF, 'Combat', 'prewritten', False, ' 
 Everyone in Dereth should know how to fight.  Enter the hallway to the left for both battle hints and practice!  But before you go, check out the three colored bars at the top of the screen.  They are Health (red), Stamina (yellow) and Mana (blue).  Click on them to see their numeric values.  Just so you know, if your Health runs out, you will die! (But that''s OK; you''ll be resurrected.)  Stamina affects your actions and movement, and Mana affects how much magic you can cast (if you have the right skills - more on magic later).
 ');

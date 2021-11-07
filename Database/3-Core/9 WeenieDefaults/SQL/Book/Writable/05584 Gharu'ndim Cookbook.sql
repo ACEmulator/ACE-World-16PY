@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5584, 6, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5584, 0, 4294967295, 'Breads & Cakes', 'prewritten', False, 'BREAD & CAKES
+VALUES (5584, 0, 0xFFFFFFFF, 'Breads & Cakes', 'prewritten', False, 'BREAD & CAKES
 
 To make dough, use flour on water.
 
@@ -43,7 +43,7 @@ Use a frying pan on dough to make flat bread.
 
 (cont''d)
 ')
-     , (5584, 1, 4294967295, 'Cheese', 'prewritten', False, 'BREAD & CAKES (cont''d)
+     , (5584, 1, 0xFFFFFFFF, 'Cheese', 'prewritten', False, 'BREAD & CAKES (cont''d)
 
 Using a baking pan on cake batter will make a cake. Using it on cookie dough will make three cookies.
 
@@ -54,26 +54,26 @@ CHEESE
 To make cheese, use rennet on milk to curdle it.
 
 ')
-     , (5584, 2, 4294967295, 'Meat & Fried Food', 'prewritten', False, 'MEAT & FRIED FOOD
+     , (5584, 2, 0xFFFFFFFF, 'Meat & Fried Food', 'prewritten', False, 'MEAT & FRIED FOOD
 
 To butcher a fish, side of beef, chicken or rabbit carcass, use a carving knife on it. This will give you three pieces of fish, steak, chicken, or rabbit meat.
 
 You can fry these pieces by using a frying pan on them. You can also fry mushrooms and eggs.
 
 ')
-     , (5584, 3, 4294967295, 'Pies & Kebabs', 'prewritten', False, 'PIES & KEBABS
+     , (5584, 3, 0xFFFFFFFF, 'Pies & Kebabs', 'prewritten', False, 'PIES & KEBABS
 
 To make rice dishes, use uncooked rice on any carved piece of meat, or on a mushroom. You can also use rice on grapes to make stuffed grape leaves, a Gharu''ndim delicacy.
 
 The Gharu''ndim also often eat meat as "qababs" (in Aluvian, "kebabs"), by skewering and roasting it. Use a skewer on any carved piece of meat, or on a mushroom, to make them.
 
 ')
-     , (5584, 4, 4294967295, 'Pickling', 'prewritten', False, 'PICKLING
+     , (5584, 4, 0xFFFFFFFF, 'Pickling', 'prewritten', False, 'PICKLING
 
 Use brine on eggs or fish filets to pickle them.
 
 ')
-     , (5584, 5, 4294967295, 'Oils', 'prewritten', False, 'OILS
+     , (5584, 5, 0xFFFFFFFF, 'Oils', 'prewritten', False, 'OILS
 
 Some foods are also receptive to oils that make them more potent. These oils, made by alchemists, can make food that heals or grants mana instead of renewing your stamina. An even more powerful oil, called Victual Oil, will increase the amount of health, mana or stamina food grants.
 

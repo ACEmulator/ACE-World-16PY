@@ -33,7 +33,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5840, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5840, 0, 4294967295, 'Jourgensson', 'prewritten', False, '
+VALUES (5840, 0, 0xFFFFFFFF, 'Jourgensson', 'prewritten', False, '
 Boss, 
 
 This one''s okay, if a bit of a git.  Good retriever at least, if you get the drift?

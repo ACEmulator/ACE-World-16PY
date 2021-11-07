@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5657, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5657, 0, 4294967295, 'Vuo Nin', 'prewritten', False, '
+VALUES (5657, 0, 0xFFFFFFFF, 'Vuo Nin', 'prewritten', False, '
 Nearby there lies a cave which was used by a band of thieves with more stealth than strength.  They had stolen a large quantity of art, and has stashed it there until they could sell it off.  Unfortunately, a  group of Banderlings wanted the cave for their own.  The paintings may still be found there.  Head southeast along the road, past the lifestone.  You will see a bend in the road with a tree. Walk outwards in the direction of the point of the road - a series of yellow flower bushes lead into the forest.  When you come to a clearing, you should see the portal.
 ');

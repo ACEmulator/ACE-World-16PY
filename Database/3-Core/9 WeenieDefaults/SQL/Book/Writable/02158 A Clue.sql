@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (2158, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (2158, 0, 4294967295, '', 'prewritten', False, 'A Clue
+VALUES (2158, 0, 0xFFFFFFFF, '', 'prewritten', False, 'A Clue
 
 I happened to greatly enjoy a certain adventure involving a certain number of keys.  Even as well-traveled and world-weary as I deem myself to be, I found myself enjoying the search for the keys and the resulting reward (alas, but I prefer axes to swords).  Thus, I wish to make it known that I, Alatar, have set up my own enjoyable little adventure for those of such inclination.  Surely some will say that I am only looking for ways to fritter away valuable time that could be used for the expansion of civilization (etc.), but they do not understand the explorer''s heart the way I, Alatar Locke, do.  So, seek ye the long-abandoned area of <X, Y>!"
 

@@ -35,7 +35,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (6029, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (6029, 0, 4294967295, 'Hamud ibn Rafik', 'prewritten', False, '
+VALUES (6029, 0, 0xFFFFFFFF, 'Hamud ibn Rafik', 'prewritten', False, '
 Respect those who are stronger.  Those who are weaker need guidance.
 Be wary of those you do not know, but remain polite.  They may be useful.
 Honor the land, the sky and sea, for they give you life.
@@ -45,7 +45,7 @@ Harming an innocent without proper cause is a waste of your time.
 Place the life of your superior above your own, as long as he is strong.  If he weakens, you must replace him.
 
 ')
-     , (6029, 1, 4294967295, '', 'prewritten', False, '
+     , (6029, 1, 0xFFFFFFFF, '', 'prewritten', False, '
 When you take vengeance, be swift and thorough.
 Speak with respect and discretion.  A loose tongue weakens your defenses.
 Think before you strike, but always be prepared to strike.

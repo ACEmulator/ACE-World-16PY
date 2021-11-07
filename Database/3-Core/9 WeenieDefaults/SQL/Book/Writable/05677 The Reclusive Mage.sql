@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5677, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5677, 0, 4294967295, 'Laqisha the Scribe', 'prewritten', False, '
+VALUES (5677, 0, 0xFFFFFFFF, 'Laqisha the Scribe', 'prewritten', False, '
 Years ago, the mage Harlune the Misanthrope lived in Arwic.  Harlune was an exceptionally powerful Life Mage.  Some say he had gained mastery over death itself.  Young mages came from all corners of Dereth seeking apprenticeship, yet he only took a single pupil; Celcynd of Rithwic, who later became the first of us to master the Empyrean portal spells.  Celcynd scribed these spells for Harlune, but the elder mage considered them more trouble than they were worth, and locked them away. Harlune later moved into a cave to the north, infested by mites, to avoid would-be apprentices.
 ');

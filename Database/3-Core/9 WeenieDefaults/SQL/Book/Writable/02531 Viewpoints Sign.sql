@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (2531, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (2531, 0, 4294967295, 'Viewpoints', 'prewritten', False, '
+VALUES (2531, 0, 0xFFFFFFFF, 'Viewpoints', 'prewritten', False, '
 There are various ways to control your camera view, all located on the KEYPAD.  Some useful keys to know are: [Keypad Enter] gives you a map view useful when you''re out in the open; [Keypad /] or [F2] lets you move the camera with the mouse; [Keypad 5] is top-down view; [Keypad .] is first-person view; and [Keypad 0] resets all other camera views.
 ');

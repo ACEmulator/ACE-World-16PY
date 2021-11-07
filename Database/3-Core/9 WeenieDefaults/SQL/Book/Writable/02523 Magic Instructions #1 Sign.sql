@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (2523, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (2523, 0, 4294967295, 'Magic Instructions #1', 'prewritten', False, ' 
+VALUES (2523, 0, 0xFFFFFFFF, 'Magic Instructions #1', 'prewritten', False, ' 
 Mana is used to power magic. Watch the blue bar at the top of the screen: if it gets too low, you won''t be able to cast spells. You also need magic components to cast spells. These are things like scarabs, herbs, powdered gems and talismans. You have some for your starting spells, but they''ll wear out eventually. You can buy new ones from an archmage shopkeeper in town.
 ');

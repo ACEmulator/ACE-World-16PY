@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (2527, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (2527, 0, 4294967295, 'Pressure Plates', 'prewritten', False, '
+VALUES (2527, 0, 0xFFFFFFFF, 'Pressure Plates', 'prewritten', False, '
 Some doors can only be opened by performing a certain action, such as stepping on a hidden pressure plate.  You may have to walk around a bit to find the pressure plate (watch for the door opening).  Doors that open by a pressure plate on one side often have a lever on the other side, instead of another pressure plate.  Unlike doors with normal locks, these doors cannot be picked.
 ');

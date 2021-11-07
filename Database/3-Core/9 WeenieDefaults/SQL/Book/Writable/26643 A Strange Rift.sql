@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (26643, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (26643, 0, 4294967295, '', 'prewritten', False, '
+VALUES (26643, 0, 0xFFFFFFFF, '', 'prewritten', False, '
 A ways to the west of Rithwic is a strange portal called a Stable Rift. Freakish energy creatures come and go through this rift, but I could not enter it myself. They must hold the secret.
 ');

@@ -32,13 +32,13 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (4994, 3, 2000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (4994, 0, 4294967295, 'Ion Lundgren', 'prewritten', False, '
+VALUES (4994, 0, 0xFFFFFFFF, 'Ion Lundgren', 'prewritten', False, '
 Entry 13
 
 It has been three days since we fled the forsaken gates of Frore - may it remain buried forever! - and I fear there is no end to these twisting tunnels.  I marvel that my hand still has feeling enough to pen these words, as my feet have long since gone numb.  It won''t be much longer before I succumb to the cold as the others did before me.  Yarick kept the journal before me - he clutches half of it still in his cold hands, the other half lost in our flight.
 
 ')
-     , (4994, 1, 4294967295, 'Ion Lundgren', 'prewritten', False, '
+     , (4994, 1, 0xFFFFFFFF, 'Ion Lundgren', 'prewritten', False, '
 I write this last page as I cease my search for the egress.  But I must keep moving if I am to stay warm ...
 
 Entry 14
@@ -46,7 +46,7 @@ Entry 14
 By some black miracle, I found our point of entry.  The rope we used to climb down from the tunnel above was coiled on the floor of the pit, its upper end showing the mark of a cruel knife. They will not let me leave - knowing the tunnels as well as they do, they must have cut it days ago.
 
 ')
-     , (4994, 2, 4294967295, 'Ion Lundgren', 'prewritten', False, 'It is a cruel, maddening fate to be trapped in these caves, endlessly fleeing the fearsome denizens within; a crueler fate still knowing that I when I breathe my last here, I shall not return to the sunny common of Arwic, the lifestone I visited weeks ago. None shall learn our tale without being plunged themselves into the nightmare. What I saw yestereve...
+     , (4994, 2, 0xFFFFFFFF, 'Ion Lundgren', 'prewritten', False, 'It is a cruel, maddening fate to be trapped in these caves, endlessly fleeing the fearsome denizens within; a crueler fate still knowing that I when I breathe my last here, I shall not return to the sunny common of Arwic, the lifestone I visited weeks ago. None shall learn our tale without being plunged themselves into the nightmare. What I saw yestereve...
 
 Do not venture to rouse those who were meant to lay in peace.
 

@@ -28,6 +28,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (6420, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (6420, 0, 4294967295, 'The Obsidian Span', 'prewritten', False, 'The Three Mothers preserve us! Have you seen the great span, carved from obsidian, which now connects the banks of the river between Holtburg and Cragstone? The scholars of Cragstone believe that it has been there all along, yet hidden from the eye by arcane spellcraft - perhaps to hold the Olthoi on the far bank. Have you ever heard the like? If such an enormous construction can be so cloaked to our eyes for so long, who knows what else may be?
+VALUES (6420, 0, 0xFFFFFFFF, 'The Obsidian Span', 'prewritten', False, 'The Three Mothers preserve us! Have you seen the great span, carved from obsidian, which now connects the banks of the river between Holtburg and Cragstone? The scholars of Cragstone believe that it has been there all along, yet hidden from the eye by arcane spellcraft - perhaps to hold the Olthoi on the far bank. Have you ever heard the like? If such an enormous construction can be so cloaked to our eyes for so long, who knows what else may be?
 
 ');

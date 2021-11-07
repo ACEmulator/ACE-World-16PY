@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (2528, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (2528, 0, 4294967295, 'The Different Paths', 'prewritten', False, ' 
+VALUES (2528, 0, 0xFFFFFFFF, 'The Different Paths', 'prewritten', False, ' 
 Please follow the black rock path and read the signs along the way.  In some places, red rocks indicate information that is only for people with certain skills.  If you have the appropriate skill, follow the red rocks; if not, don''t worry about it.
 ');

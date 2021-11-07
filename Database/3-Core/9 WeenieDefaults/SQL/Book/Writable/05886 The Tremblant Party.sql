@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5886, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5886, 0, 4294967295, 'Gharun''dim Rumor', 'prewritten', False, '
+VALUES (5886, 0, 0xFFFFFFFF, 'Gharun''dim Rumor', 'prewritten', False, '
 If you ask me, I think the Aluvian lord and his companions were captured for ransom by the rogue MacDugal. He''s not a trustworthy soul, that one, nor any in his band of brigands. I''ll wager 50 pyreal that when this odd weather resolves itself, he''ll try to ransom Sir Tremblant to the Lady of Neydisa Castle. If the stars could sing, they would spin music about the hatred between MacDugal and Tallial, and the affection between that Lady and the bold knight.
 ');

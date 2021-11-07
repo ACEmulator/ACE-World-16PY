@@ -36,7 +36,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (4798, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (4798, 0, 4294967295, 'Mindorla''s Letter to Celcynd', 'prewritten', False, '
+VALUES (4798, 0, 0xFFFFFFFF, 'Mindorla''s Letter to Celcynd', 'prewritten', False, '
 My dear Celcynd, maybe you''re right, and we should talk some more.  I am sending you this letter in the hopes that perhaps we can let go the follies of the past and start anew.  Of course, it will be hard for me to forgive you, but I am sure that something can be worked out.
 
 ');

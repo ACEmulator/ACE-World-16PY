@@ -37,7 +37,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5061, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5061, 0, 4294967295, 'Jhong Mi', 'prewritten', False, '
+VALUES (5061, 0, 0xFFFFFFFF, 'Jhong Mi', 'prewritten', False, '
 The hastily rushing to and fro to fight, pry, claim, and steal
 This land called Dereth, where so many perish in the daily strife...
 Why have we been brought, to such a place of discord

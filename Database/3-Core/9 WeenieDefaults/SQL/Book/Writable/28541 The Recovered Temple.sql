@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (28541, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (28541, 0, 4294967295, 'An Adventurer', 'prewritten', False, '
+VALUES (28541, 0, 0xFFFFFFFF, 'An Adventurer', 'prewritten', False, '
 When I first heard of the Recovered Temple, I expected to find a holy place or shrine - I could not have been more wrong.  The only shrine found within is befouled by evil.
 
 The "recovered" temple can be found a bit west of town, near 6.5N 1.7W.  Heed my warning:  If you enter unprepared, you might find yourself looking to "recover" your corpse!

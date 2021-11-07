@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5004, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5004, 0, 4294967295, 'Warehouse Directions', 'prewritten', False, '
+VALUES (5004, 0, 0xFFFFFFFF, 'Warehouse Directions', 'prewritten', False, '
 The Old Warehouse is a dungeon where some folks like Brentsella tried to live.  She and other old timers like Celcynd have long grown weary of battle from those days.  If you wish to find the Old Warehouse, it is to the south, on a tall hill.  You might find remnants of people''s attempts to dwell there.  I''m sure they won''t mind if you take what you find.
 ');

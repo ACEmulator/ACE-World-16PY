@@ -35,15 +35,15 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27483, 3, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27483, 0, 4294967295, 'Niarltah', 'prewritten', False, 'Greetings. Your arrival on this world is a  portent of greatness. You have come in the hour of this worlds greatest need. Lawlessness and vagrancy have gripped this world in the form of a hated enemy, the Isparians. They have blinded several members of our species'' and have begun a campaign to eradicate all who stand in their path.
+VALUES (27483, 0, 0xFFFFFFFF, 'Niarltah', 'prewritten', False, 'Greetings. Your arrival on this world is a  portent of greatness. You have come in the hour of this worlds greatest need. Lawlessness and vagrancy have gripped this world in the form of a hated enemy, the Isparians. They have blinded several members of our species'' and have begun a campaign to eradicate all who stand in their path.
 
 We, the Gotrok Lugians and Tumerok of Dereth, would like to extend an offer of alliance to your people.
 ')
-     , (27483, 1, 4294967295, 'Niarltah', 'prewritten', False, 'We can offer your people protection, defense and assistance in establishing communities and strongholds. We feel that, together, our species could create a harmony on this world that would usher in an age of growth and balance that would be beneficial to all members of our kind.
+     , (27483, 1, 0xFFFFFFFF, 'Niarltah', 'prewritten', False, 'We can offer your people protection, defense and assistance in establishing communities and strongholds. We feel that, together, our species could create a harmony on this world that would usher in an age of growth and balance that would be beneficial to all members of our kind.
 
 We have included copies of a fortress that we would like to assist you in building. This fortress would serve as the first great city of your people. There, we can meet and assist one another in the common goal of making this world a more peaceful place for all.
 ')
-     , (27483, 2, 4294967295, 'Niarltah', 'prewritten', False, 'We await your response and know that intelligent beings such as yourselves will make the correct decision and stand with a regime that sees only the bright future of this world and not its demise.
+     , (27483, 2, 0xFFFFFFFF, 'Niarltah', 'prewritten', False, 'We await your response and know that intelligent beings such as yourselves will make the correct decision and stand with a regime that sees only the bright future of this world and not its demise.
 
 Niarltah, Tumerok Chieftain
 Muldaveus, Gotrok Lugian Lord

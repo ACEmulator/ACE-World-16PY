@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5141, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5141, 0, 4294967295, 'Training Master', 'prewritten', False, '
+VALUES (5141, 0, 0xFFFFFFFF, 'Training Master', 'prewritten', False, '
 You can hold down the RIGHT MOUSE BUTTON and drag your mouse to change your view. 
 
 On your NUMERIC KEYPAD, the [Keypad 0] key resets your view, and [Keypad .] key shifts to a first-person view.

@@ -37,6 +37,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (24255, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (24255, 0, 4294967295, 'Scout Sala Thorn', 'prewritten', False, '
+VALUES (24255, 0, 0xFFFFFFFF, 'Scout Sala Thorn', 'prewritten', False, '
 I have had to slay a number of Olthoi on my journey down here and find that the ones inhabiting these lairs now are more dangerous than the Olthoi we understood to live here. The catacombs have been expanded.  The Queen must be made aware of this.  I leave this note in case I am unable to report.
 ');

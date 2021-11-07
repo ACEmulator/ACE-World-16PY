@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5676, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5676, 0, 4294967295, 'Wylreda the Scribe', 'prewritten', False, '
+VALUES (5676, 0, 0xFFFFFFFF, 'Wylreda the Scribe', 'prewritten', False, '
 Celcynd the Dour, mage of Rithwic. Ah, the poor soul.  A brilliant mage in his youth, and apprenticed to the famed Harlune of Arwic.  Celcynd was the first to master Empyrean planar magic.  It failed him at a critical point, however.  When Holtburg was under siege by Tumeroks, he cast a portal which allowed the children to escape.  It consumed so much mana, however, that he was unable to cast a second portal in time to rescue the adults.  He sank into his guilt, and even the love of Brentsella was not enough to bring him out of it for long.
 ');

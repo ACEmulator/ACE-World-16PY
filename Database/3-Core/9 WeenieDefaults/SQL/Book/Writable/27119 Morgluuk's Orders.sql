@@ -33,5 +33,5 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27119, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27119, 0, 4294967295, 'Translated by Aun Laokhe', 'prewritten', False, 'Our clutch finds itself in a unique situation. We are the first to know that the Gods of the Fiazhat have returned. Now, brothers, is our time to stand as prove our prowess as the true leaders of the Burun. Damned be the Kukuur! As one we shall pour through the tunnels of lightning and dark and scourge the world of the Fiazhat''s false Gods! Go forth, cut a swathe of death where you tread. May The Sleeping One watch over you.
+VALUES (27119, 0, 0xFFFFFFFF, 'Translated by Aun Laokhe', 'prewritten', False, 'Our clutch finds itself in a unique situation. We are the first to know that the Gods of the Fiazhat have returned. Now, brothers, is our time to stand as prove our prowess as the true leaders of the Burun. Damned be the Kukuur! As one we shall pour through the tunnels of lightning and dark and scourge the world of the Fiazhat''s false Gods! Go forth, cut a swathe of death where you tread. May The Sleeping One watch over you.
 ');

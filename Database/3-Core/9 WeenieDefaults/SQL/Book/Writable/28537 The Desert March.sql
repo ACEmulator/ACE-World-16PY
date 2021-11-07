@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (28537, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (28537, 0, 4294967295, 'Unknown', 'prewritten', False, '
+VALUES (28537, 0, 0xFFFFFFFF, 'Unknown', 'prewritten', False, '
 The Desert March, a subterranean complex more vast than most are aware of.  You can enter the March from two different locations:  One entrance west of Al-Jalima at 6.5N 3.6W, and one entrance just south of Danby''s Outpost at 22.9N 28.8W.
 
 Tumeroks guard the entrances, but more dangerous creatures dwell in the depths of the March.

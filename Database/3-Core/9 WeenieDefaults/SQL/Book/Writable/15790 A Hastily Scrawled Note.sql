@@ -34,7 +34,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (15790, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (15790, 0, 4294967295, 'Nuhmudira', 'prewritten', False, 'Haerodim you will have your soul stripped from you unless you confess your crimes in this oubliette. 
+VALUES (15790, 0, 0xFFFFFFFF, 'Nuhmudira', 'prewritten', False, 'Haerodim you will have your soul stripped from you unless you confess your crimes in this oubliette. 
 
 Your accusers will cast their vote. You will live should they choose to sacrifice of themselves for you. If they find you guilty of your crimes, then they shall choose that which already beckons them.
 

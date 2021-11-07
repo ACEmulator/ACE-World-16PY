@@ -32,5 +32,5 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (9517, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (9517, 0, 4294967295, 'Mi Gan-Zo', 'prewritten', False, 'Honored guest, I bid you welcome to Gan-Zo''s Den of Iniquity.  To participate in our games of chance, purchase a gambling token from Haya Su Ka, the cashier and bartender.  Bring your tokens to the Gamesmasters and see what you win!  The especially fortunate may find themselves in possession of an adorable Pack Monster.  These prizes can also be risked in a game of chance with Mi Gan-Zo, for more rewarding prizes.
+VALUES (9517, 0, 0xFFFFFFFF, 'Mi Gan-Zo', 'prewritten', False, 'Honored guest, I bid you welcome to Gan-Zo''s Den of Iniquity.  To participate in our games of chance, purchase a gambling token from Haya Su Ka, the cashier and bartender.  Bring your tokens to the Gamesmasters and see what you win!  The especially fortunate may find themselves in possession of an adorable Pack Monster.  These prizes can also be risked in a game of chance with Mi Gan-Zo, for more rewarding prizes.
 ');

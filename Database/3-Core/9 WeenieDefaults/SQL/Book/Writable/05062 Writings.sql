@@ -36,7 +36,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5062, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5062, 0, 4294967295, 'Jhong Mi', 'prewritten', False, '
+VALUES (5062, 0, 0xFFFFFFFF, 'Jhong Mi', 'prewritten', False, '
 The fools look upon the world and see only pleasure
 The lost look upon the world and see only pain
 The wise look upon the world and see their work cut out for them.

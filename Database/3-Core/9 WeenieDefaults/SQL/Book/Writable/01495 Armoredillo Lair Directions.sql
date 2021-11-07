@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (1495, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (1495, 0, 4294967295, 'Armoredillo Lair Directions', 'prewritten', False, '
+VALUES (1495, 0, 0xFFFFFFFF, 'Armoredillo Lair Directions', 'prewritten', False, '
 On the way southwest from Samsur, toward Yaraq, is a lair of armoredillos.  Dangerous, they are, but rumor has it there is good treasure to be had.  Look for the hidden canyon lair along the road as you travel.  And be careful!  Armoredillos are definitely not for the inexperienced, or for those who travel alone.
 
 ');

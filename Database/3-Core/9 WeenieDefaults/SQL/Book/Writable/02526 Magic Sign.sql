@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (2526, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (2526, 0, 4294967295, 'Magic', 'prewritten', False, '
+VALUES (2526, 0, 0xFFFFFFFF, 'Magic', 'prewritten', False, '
 If you have any of the schools of magic, you need to know how to cast spells.  Take the red stone path to the left for more information on how to use your magic skills.  If you don''t have magic skills, please continue along the black stone path.
 ');

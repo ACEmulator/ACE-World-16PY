@@ -13,7 +13,7 @@ INSERT INTO `recipe_requirements_d_i_d` (`recipe_Id`, `index`, `stat`, `value`, 
 VALUES (4428, 0,  37, 7, 5, 'The target item does not have a Missile Defense requirement!') /* Target.ItemSkillLimit NotEqualNotExist 7 */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
-VALUES (4428, True, 0, 0, 0, False, 939524149, 0, 0);
+VALUES (4428, True, 0, 0, 0, False, 0x38000035, 0, 0);
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (4428, True, 0, 0, 0, False, 0, 0, 0);

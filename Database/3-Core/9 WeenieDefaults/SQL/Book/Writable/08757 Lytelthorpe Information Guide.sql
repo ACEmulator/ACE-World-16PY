@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (8757, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (8757, 0, 4294967295, '', 'prewritten', False, 'Lytelthorpe 0.6 N 51.2 E
+VALUES (8757, 0, 0xFFFFFFFF, '', 'prewritten', False, 'Lytelthorpe 0.6 N 51.2 E
 Portal to Rithwic 2.3 N 52 E
 Portal to Holtburg 1.7 N 49.9 E
 East Lytelthorpe Outpost 1.1 N 54.2 E

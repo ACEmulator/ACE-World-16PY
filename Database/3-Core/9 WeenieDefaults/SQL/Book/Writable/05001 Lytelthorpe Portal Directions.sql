@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5001, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5001, 0, 4294967295, 'Lytelthorpe Portal Directions', 'prewritten', False, '
+VALUES (5001, 0, 0xFFFFFFFF, 'Lytelthorpe Portal Directions', 'prewritten', False, '
 To find the portal to Holtburg, follow the road leaving town to the west.  Just a dozen or so paces beyond the barn, turn north and leave the road.  You will find the portal on a hill within sight of the road.
 
 To find the portal to Rithwic, travel along the road headed east out of town, but go north once you are out of Lytelthorpe itself.  The portal is on a hill to the north and east of town.

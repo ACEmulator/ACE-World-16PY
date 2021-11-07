@@ -37,12 +37,12 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (8901, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (8901, 0, 4294967295, 'MacNiall the Unruled', 'prewritten', False, 'Greetings, cousin!
+VALUES (8901, 0, 0xFFFFFFFF, 'MacNiall the Unruled', 'prewritten', False, 'Greetings, cousin!
 
 I thought I''d never see you again after our groups got split up, that first night of freedom. But I hear that you and your people have prospered, and have a big castle in the north to call home. Not bad! For our part, Onda Nakoza and I found ourselves on a hot and humid island, south of the mainland. ''Tis not a bad place, except for the occasional Mosswart raid. I hope everyone there is doing right. Give Jourgenson a punch in the jaw for me, for old times'' sake.
 
 ')
-     , (8901, 1, 4294967295, 'MacNiall the Unruled', 'prewritten', False, 'Oh, and find a good reward for the courier of this letter, if you can. Maybe one of the blade hilts you were working on. Did you ever finish that up? It was a fine idea, to balance a blade for extra strikes.
+     , (8901, 1, 0xFFFFFFFF, 'MacNiall the Unruled', 'prewritten', False, 'Oh, and find a good reward for the courier of this letter, if you can. Maybe one of the blade hilts you were working on. Did you ever finish that up? It was a fine idea, to balance a blade for extra strikes.
 
 Your cousin,
 MacNiall

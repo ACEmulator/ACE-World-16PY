@@ -32,14 +32,14 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (23883, 3, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (23883, 0, 4294967295, 'Ulgrim', 'prewritten', False, '
+VALUES (23883, 0, 0xFFFFFFFF, 'Ulgrim', 'prewritten', False, '
 You''re on Ulgrim''s Island.
 No Virindi Allowed!
 No Soliciting!
 No Loitering
 No UCMs!
 ')
-     , (23883, 1, 4294967295, 'Ulgrim', 'prewritten', False, '
+     , (23883, 1, 0xFFFFFFFF, 'Ulgrim', 'prewritten', False, '
 What you want more rules then?
 No Drinking without Ulgrim
 No Funny Names
@@ -47,6 +47,6 @@ No Fishing
 No Nay saying
 No Signposts
 ')
-     , (23883, 2, 4294967295, 'Ulgrim', 'prewritten', False, '
+     , (23883, 2, 0xFFFFFFFF, 'Ulgrim', 'prewritten', False, '
 For those of you wondering where I got this Signstone, it was the original model for the larger version now in Shoushi. No one seemed to be using this old one so I borrowed it.
 ');

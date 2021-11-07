@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (26479, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (26479, 0, 4294967295, 'Nelvaine', 'prewritten', False, '
+VALUES (26479, 0, 0xFFFFFFFF, 'Nelvaine', 'prewritten', False, '
 A few days ago one of those blue tumeroks from the akiekie to the south of Celdiseth''s hermitage came by to sample my brews. They''ve been here for a while now, but he still hasn''t adjusted to the cold up here--the poor thing was sneezing and shivering up a storm. Good thing my beers are enough to put the hair on anyone''s chest, man or tumerok! They still haven''t accomplished their mission though. He asked me pass on the word that accomplished warriors would be welcome to warm their hands at their fire and hear their tales of legend.
 ');

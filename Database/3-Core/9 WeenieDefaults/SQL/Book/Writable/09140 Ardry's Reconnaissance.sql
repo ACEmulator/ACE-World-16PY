@@ -34,15 +34,15 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (9140, 4, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (9140, 0, 4294967295, 'Ardry the Dubious', 'prewritten', False, 'Fellow explorer,
+VALUES (9140, 0, 0xFFFFFFFF, 'Ardry the Dubious', 'prewritten', False, 'Fellow explorer,
 
 What mischief can the Tumeroks be planning?  Some days ago, whilst exploring the Direlands, I witnessed a strange conference: a Virindi and a Tumerok, staring at each other but exchanging no visible or audible signs.  They were surrounded by several other Tumeroks and servile Drudges. 
 ')
-     , (9140, 1, 4294967295, 'Ardry the Dubious', 'prewritten', False, 'After several moments of this strange communion, the Virindi actually handed the Tumerok a necklace and a purple morningstar.  As if that were not strange enough, the Virindi created a portal, and the Tumerok shepherded his companions through before stepping into it himself.  In a move that, in retrospect, seems rash, I ran through the portal as the Virindi turned away, and found myself here.
+     , (9140, 1, 0xFFFFFFFF, 'Ardry the Dubious', 'prewritten', False, 'After several moments of this strange communion, the Virindi actually handed the Tumerok a necklace and a purple morningstar.  As if that were not strange enough, the Virindi created a portal, and the Tumerok shepherded his companions through before stepping into it himself.  In a move that, in retrospect, seems rash, I ran through the portal as the Virindi turned away, and found myself here.
 ')
-     , (9140, 2, 4294967295, 'Ardry the Dubious', 'prewritten', False, 'Beware the denizens of this dungeon. The Drudge Slaves and Reedsharks fall easily enough, but the Tumeroks are as resilient as ever and enjoy attacking in groups.  Take special care to watch for the leader of the Tumeroks, the very same creature I saw communing with the Virindi.  His morningstar strikes with an uncommon speed and power!
+     , (9140, 2, 0xFFFFFFFF, 'Ardry the Dubious', 'prewritten', False, 'Beware the denizens of this dungeon. The Drudge Slaves and Reedsharks fall easily enough, but the Tumeroks are as resilient as ever and enjoy attacking in groups.  Take special care to watch for the leader of the Tumeroks, the very same creature I saw communing with the Virindi.  His morningstar strikes with an uncommon speed and power!
 ')
-     , (9140, 3, 4294967295, 'Ardry the Dubious', 'prewritten', False, 'After eavesdropping on some conversations between the Tumeroks, blessed with the very basic comprehension of their language taught to me by Uncle Aliester, I am convinced that the Tumeroks have established one other base in this desert, most likely somewhere in the south.  One wonders what they have planned!  Having learned as much as I think I can, I am heading south to search for their outpost.
+     , (9140, 3, 0xFFFFFFFF, 'Ardry the Dubious', 'prewritten', False, 'After eavesdropping on some conversations between the Tumeroks, blessed with the very basic comprehension of their language taught to me by Uncle Aliester, I am convinced that the Tumeroks have established one other base in this desert, most likely somewhere in the south.  One wonders what they have planned!  Having learned as much as I think I can, I am heading south to search for their outpost.
 
 Ardry the Dubious
 ');

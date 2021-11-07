@@ -36,6 +36,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27791, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27791, 0, 4294967295, 'Unknown', 'prewritten', False, '
+VALUES (27791, 0, 0xFFFFFFFF, 'Unknown', 'prewritten', False, '
 [You cannot read the text within this tome. It must be translated first in order for you to understand it.]
 ');

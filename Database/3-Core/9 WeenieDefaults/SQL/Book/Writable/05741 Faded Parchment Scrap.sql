@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5741, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5741, 0, 4294967295, '', 'prewritten', False, '
+VALUES (5741, 0, 0xFFFFFFFF, '', 'prewritten', False, '
 awaken,                 fields                                         amid            and      down upon                     This        Witness                to see          pent               and           shall      burning upon                              flame.
 
     the              Witness             as                    shall                   the          he    gave them                             upon the

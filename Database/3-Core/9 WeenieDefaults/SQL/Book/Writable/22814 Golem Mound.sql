@@ -30,7 +30,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (22814, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (22814, 0, 4294967295, 'Golem Mound', 'prewritten', False, '
+VALUES (22814, 0, 0xFFFFFFFF, 'Golem Mound', 'prewritten', False, '
 Be careful going southeast from Holtburg, along the river. Stick to the road, especially when the road jogs east to go around a hill. There''s a strange stone up on top of that hill, and for some reason golems like to gather around it. They seem to be protecting some sort of chest ... 
 
 ');

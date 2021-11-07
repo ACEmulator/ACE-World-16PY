@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27638, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27638, 0, 4294967295, 'Aun Sareona', 'prewritten', False, '
+VALUES (27638, 0, 0xFFFFFFFF, 'Aun Sareona', 'prewritten', False, '
 Our xuta holds the land to the east of the Volkawa river, and to the southeast of the closest ring of stones. We have hired members of the Ispar xuta to assist us in holding the Hea and the minions of Wharu at bay. They are a disreputable crowd, though. I would stay clear of them.
 ');

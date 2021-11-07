@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (24223, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (24223, 0, 4294967295, 'A Sparking Stone', 'prewritten', False, '
+VALUES (24223, 0, 0xFFFFFFFF, 'A Sparking Stone', 'prewritten', False, '
 I''ve heard tell of a strange purple stone in a cave south of Lin and west of Mayoi. It''s guarded by nasty zefirs. There''s also a book there, but no one I know has actually braved the zefirs to see what it''s all about. If you want to try your luck, head northeast from the West Mayoi Mountain Villas.
 ');

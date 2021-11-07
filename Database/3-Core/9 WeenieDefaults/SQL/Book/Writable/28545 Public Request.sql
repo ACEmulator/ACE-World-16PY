@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (28545, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (28545, 0, 4294967295, 'Public Request', 'prewritten', False, '
+VALUES (28545, 0, 0xFFFFFFFF, 'Public Request', 'prewritten', False, '
 Recently, many reports have been made by travelers coming to and from the southern Al-Jalima road.  It seems that a wisp of some kind has taken up residence at the Four Pillars monument near 6.6N 5E.  If you happen to pass along that way, we the residents of Al-Jalima will be very grateful if you could help keep the roadways safe!
 
 -Al-Jalima residents

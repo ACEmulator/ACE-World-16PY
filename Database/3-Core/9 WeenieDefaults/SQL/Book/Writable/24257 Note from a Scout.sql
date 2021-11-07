@@ -37,6 +37,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (24257, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (24257, 0, 4294967295, 'Scout Sei Lin Wei', 'prewritten', False, '
+VALUES (24257, 0, 0xFFFFFFFF, 'Scout Sei Lin Wei', 'prewritten', False, '
 Deadlier breeds of Olthoi have infiltrated these catacombs. There appear to be many more than previously sighted.  Something has aroused them. They appear to be digging deeper.  It is difficult to discern down here but they may also be digging in the direction of human settlements.
 ');

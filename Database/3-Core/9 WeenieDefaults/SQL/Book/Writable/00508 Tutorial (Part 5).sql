@@ -31,14 +31,14 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (508, 5, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (508, 0, 4294967295, ' ', 'prewritten', False, 'Tutorial / Part 5 of 5 
+VALUES (508, 0, 0xFFFFFFFF, ' ', 'prewritten', False, 'Tutorial / Part 5 of 5 
 
 To attack, click on the dove at the bottom of the screen. It will change into a weapon. This means you have entered COMBAT MODE.
 
 To select a target, click on it.
 (more)
 ')
-     , (508, 1, 4294967295, ' ', 'prewritten', False, 'To attack a target, click on it again.
+     , (508, 1, 0xFFFFFFFF, ' ', 'prewritten', False, 'To attack a target, click on it again.
 
 To attack with more power, hold down the mouse button.
 
@@ -46,17 +46,17 @@ To attack at different heights, drag the mouse up and down while holding down th
 
 (more)
 ')
-     , (508, 2, 4294967295, ' ', 'prewritten', False, 'To deselect the target press the ESC key, or select another target.
+     , (508, 2, 0xFFFFFFFF, ' ', 'prewritten', False, 'To deselect the target press the ESC key, or select another target.
 
 Press the Combat Mode icon again to exit combat mode. It will change from a weapon back into a dove.
 
 If you kill a creature, double-click on its corpse to see if it has any belongings of value.
 (more)
 ')
-     , (508, 3, 4294967295, ' ', 'prewritten', False, 'When you are successful in combat, press the green triangle-button with a flexing arm on it to see if your SKILLS have improved.
+     , (508, 3, 0xFFFFFFFF, ' ', 'prewritten', False, 'When you are successful in combat, press the green triangle-button with a flexing arm on it to see if your SKILLS have improved.
 (more)
 ')
-     , (508, 4, 4294967295, '', 'prewritten', False, 'This is the end of the tutorial. Feel free to explore this and other dungeons, roam the landscape, fight monsters, buy and sell items in Arwic''s shops, and chat with other players'' characters.
+     , (508, 4, 0xFFFFFFFF, '', 'prewritten', False, 'This is the end of the tutorial. Feel free to explore this and other dungeons, roam the landscape, fight monsters, buy and sell items in Arwic''s shops, and chat with other players'' characters.
 
 The first sign in this tutorial can be found behind the Twin Auroch Tavern, at the southwest edge of Arwic.
 ');

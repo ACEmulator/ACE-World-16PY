@@ -34,7 +34,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (30742, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (30742, 0, 4294967295, 'Weijin Shou', 'prewritten', False, 'Those damnable Banderlings have finally done it. They have me ashamed to live in this world! For if such horrors can be wrought upon those most graceful and magnificent Niffis here, then I wish to live here no longer!
+VALUES (30742, 0, 0xFFFFFFFF, 'Weijin Shou', 'prewritten', False, 'Those damnable Banderlings have finally done it. They have me ashamed to live in this world! For if such horrors can be wrought upon those most graceful and magnificent Niffis here, then I wish to live here no longer!
 
 The Banderlings responsible - and oh, how my heart aches to speak of this - for Reijiri''s disappearance can be found at 5.3S 91.8W. Interrogate them! Slay them! Infiltrate their foul dens of vice and horror! And please oh please, convince my love to return to me!
 ');

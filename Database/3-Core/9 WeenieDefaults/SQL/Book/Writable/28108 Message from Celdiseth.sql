@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (28108, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (28108, 0, 4294967295, 'Celdiseth', 'prewritten', False, '
+VALUES (28108, 0, 0xFFFFFFFF, 'Celdiseth', 'prewritten', False, '
 Kill or be killed. Those are the only words that you should live by on this forsaken world. Elysa asked me for my assistance and begrudgingly I obliged. I don''t need any thanks, just get out there and use this to its fullest.
 
 Celdiseth

@@ -34,7 +34,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (12762, 6, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (12762, 0, 4294967295, 'Training Master', 'prewritten', False, 'GUIDE TO HEALING
+VALUES (12762, 0, 0xFFFFFFFF, 'Training Master', 'prewritten', False, 'GUIDE TO HEALING
 
 The three bars at the top of the screen show your Health, Stamina, and Mana (magical energy).
 
@@ -44,7 +44,7 @@ All three will replenish themselves in time, but there are ways to make this pro
 
 (Click the green button to read more.)
 ')
-     , (12762, 1, 4294967295, 'Training Master', 'prewritten', False, 'Regaining Health
+     , (12762, 1, 0xFFFFFFFF, 'Training Master', 'prewritten', False, 'Regaining Health
 
 Those with the Healing Skill can use healing kits to regain health points. Double-click on the healing kit, then select the injured person.
 
@@ -54,7 +54,7 @@ Alternatively, you can use health potions to regain health. Double-click on thes
 
 (Click on the green button to read more.)
 ')
-     , (12762, 2, 4294967295, 'Training Master', 'prewritten', False, 'Regaining Stamina
+     , (12762, 2, 0xFFFFFFFF, 'Training Master', 'prewritten', False, 'Regaining Stamina
 
 There are many foods as well as stamina potions in Dereth that you may consume in order to regain stamina.  Double-click on them to use them.  If you run out of both, you can also lie down in a safe place--your stamina will return as you rest.
 
@@ -64,7 +64,7 @@ These are also some foods that will help you regain mana. The most easily availa
 
 (Click on the green button to read more.)
 ')
-     , (12762, 3, 4294967295, 'Training Master', 'prewritten', False, 'Death and Resurrection
+     , (12762, 3, 0xFFFFFFFF, 'Training Master', 'prewritten', False, 'Death and Resurrection
 
 Characters die when their Health points reach zero.
 
@@ -72,7 +72,7 @@ Your character will be resurrected immediately at the last lifestone you used or
 
 (Click on the green button to read more.)
 ')
-     , (12762, 4, 4294967295, 'Training Master', 'prewritten', False, 'Your corpse will remain where you died for a short time, making it possible for you or others to retrieve your lost items.
+     , (12762, 4, 0xFFFFFFFF, 'Training Master', 'prewritten', False, 'Your corpse will remain where you died for a short time, making it possible for you or others to retrieve your lost items.
 
 Vitae
 
@@ -80,7 +80,7 @@ When your character dies and is resurrected, your Vitae (lifeforce) is temporari
 
 (Click on the green button to read more.)
 ')
-     , (12762, 5, 4294967295, 'Training Master', 'prewritten', False, 'Corpse Recovery
+     , (12762, 5, 0xFFFFFFFF, 'Training Master', 'prewritten', False, 'Corpse Recovery
 
 To find your corpse, type "@corpse". Your corpse''s location will appear in the chat window.
 ');

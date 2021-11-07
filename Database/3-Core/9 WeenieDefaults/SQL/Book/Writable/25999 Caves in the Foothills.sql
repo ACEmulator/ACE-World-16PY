@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (25999, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (25999, 0, 4294967295, '', 'prewritten', False, '
+VALUES (25999, 0, 0xFFFFFFFF, '', 'prewritten', False, '
 The southwest road out of Shoushi eventually leads you to Baishi, but on the way it skirts the base of the odd mountains I call the Snowflake Range. If you keep on straight west after the road turns to the southwest, you''ll soon be in the foothills of that range. Careful -- there''s a nest of shreth on one of the first foothills you come to, and a cave full of golems on the flatlands just to the south.
 ');

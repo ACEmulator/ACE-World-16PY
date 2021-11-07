@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (2323, 100, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (2323, 0, 4294967295, 'Fort Tethana', 'prewritten', False, ' 
+VALUES (2323, 0, 0xFFFFFFFF, 'Fort Tethana', 'prewritten', False, ' 
 Welcome to the Fort Tethana Bulletin Board. Please leave messages for other players here.
 
 ');

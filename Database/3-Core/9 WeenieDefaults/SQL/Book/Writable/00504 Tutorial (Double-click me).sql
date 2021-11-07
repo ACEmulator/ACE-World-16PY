@@ -31,26 +31,26 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (504, 4, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (504, 0, 4294967295, ' ', 'prewritten', False, 'Tutorial / Part 1 of 5 
+VALUES (504, 0, 0xFFFFFFFF, ' ', 'prewritten', False, 'Tutorial / Part 1 of 5 
 
 Welcome to Asheron''s Call! This is the first of five signposts that describe the basics of how to play.
 
 Some signs have more than one page. Click the green arrow at the bottom of the page to go to the next page. On pages after the first, click the green arrow at the top of the page to go back.
 (more)
 ')
-     , (504, 1, 4294967295, ' ', 'prewritten', False, 'To MOVE, use the arrow keys, keypad, or keys surrounding the S key. Or right-click in the 3D view.
+     , (504, 1, 0xFFFFFFFF, ' ', 'prewritten', False, 'To MOVE, use the arrow keys, keypad, or keys surrounding the S key. Or right-click in the 3D view.
 
 To SELECT someone or something, click on it. Its name will appear in the lower-right corner of the screen.
 
 To USE something, double-click on it.
 (more)
 ')
-     , (504, 2, 4294967295, ' ', 'prewritten', False, 'The circle in the top-right corner of the screen is your RADAR, which shows characters and portals around you. The letter "N" on it indicates which way is North.
+     , (504, 2, 0xFFFFFFFF, ' ', 'prewritten', False, 'The circle in the top-right corner of the screen is your RADAR, which shows characters and portals around you. The letter "N" on it indicates which way is North.
 
 The three STATUS BARS at the top show your Health, Mana and Stamina.
 (more)
 ')
-     , (504, 3, 4294967295, ' ', 'prewritten', False, 'To CHAT with other characters, click on the chat box at the bottom of the screen, or press Enter. Then type in your message, and press Enter to send it.
+     , (504, 3, 0xFFFFFFFF, ' ', 'prewritten', False, 'To CHAT with other characters, click on the chat box at the bottom of the screen, or press Enter. Then type in your message, and press Enter to send it.
 
 Now head north, past the fenced-in area, to Miranda''s shop. Double-click on a door to open it, then go inside.
 ');

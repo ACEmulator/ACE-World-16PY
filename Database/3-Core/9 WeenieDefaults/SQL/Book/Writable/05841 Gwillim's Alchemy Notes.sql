@@ -35,7 +35,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5841, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5841, 0, 4294967295, 'Archmage Melia', 'prewritten', False, '
+VALUES (5841, 0, 0xFFFFFFFF, 'Archmage Melia', 'prewritten', False, '
 Gwillim, 
 
 Per MacDugal''s orders, we are to work on a process to create frost arrows for use in campaigns to the south and the west. I have done some of the research into the required ingredients, it remains only for you to fetch them.  Frost Infusion must be combined with Aqua Incanta to produce Frost Oil.  The oil can then be applied to arrowheads to alter their properties.  I believe Frost Infusion can be found in that old prison underneath the castle.  Make haste, MacDugal is quite impatient to get his plan underway.

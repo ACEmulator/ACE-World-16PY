@@ -33,7 +33,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (6812, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (6812, 0, 4294967295, 'Charred adventurer', 'prewritten', False, '
+VALUES (6812, 0, 0xFFFFFFFF, 'Charred adventurer', 'prewritten', False, '
 Beware the pits in this foul hole of a dungeon!  Once you land, keep running!
 
 --a very charred adventurer

@@ -34,13 +34,13 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27484, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27484, 0, 4294967295, 'Niarltah', 'prewritten', False, 'Kamenua,
+VALUES (27484, 0, 0xFFFFFFFF, 'Niarltah', 'prewritten', False, 'Kamenua,
 
 Muldaveus and I have become aware of a possible new ally that has found its way to Dereth. Little is known of this new ally aside from their tenacity and penchant for killing Mosswarts and their name, Burun. They have already found their way onto the world and have forced aside many of the Mosswarts who once made the Blackmire Swamp their home. 
 
 Their efficiency has given us cause to think that the Burun might fill the gap in our triumvirate of power and prove a foil
 ')
-     , (27484, 1, 4294967295, 'Niarltah', 'prewritten', False, 'to the alliance that stands in our way to domination.
+     , (27484, 1, 0xFFFFFFFF, 'Niarltah', 'prewritten', False, 'to the alliance that stands in our way to domination.
 
 We ask that you dispatch an emissary to the Burun. We have found that they have overrun a holding near compass location fifty-three east and twenty-eight south. Send the emissary with the documents that I have attached to this one and something that will identify your rank. Your insignia ring should suffice.
 

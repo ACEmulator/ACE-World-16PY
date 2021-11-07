@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27645, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27645, 0, 4294967295, 'Aun Sareona', 'prewritten', False, '
+VALUES (27645, 0, 0xFFFFFFFF, 'Aun Sareona', 'prewritten', False, '
 When the first of us were taken to this place, we found it overrun with Wharu''s children. Many died. This was under the moons that flew before the soulcatchers, water-colored stones that remember the world alive with light and song, came up from their hiding places within the flesh of Palenqual. But then the shamans discovered that the pounding of our drums echoed within the Wharu, and we could fight them on even ground.
 ');

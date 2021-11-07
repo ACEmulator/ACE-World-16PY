@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (1490, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (1490, 0, 4294967295, 'Glenden Dungeon Directions', 'prewritten', False, '
+VALUES (1490, 0, 0xFFFFFFFF, 'Glenden Dungeon Directions', 'prewritten', False, '
 To the northwest of town, underneath the hill, rests what looks like a vast prison complex.  Travelers have told of gruesome sights and even of a sacrificial pit, into which none have been brave enough to leap!  Tough monsters lurk everywhere, it''s said; it''s not a place for newcomers to explore.  I also did hear that many of the doors are locked, but that the keys may be found within the complex itself -- with considerable effort!
 
 ');

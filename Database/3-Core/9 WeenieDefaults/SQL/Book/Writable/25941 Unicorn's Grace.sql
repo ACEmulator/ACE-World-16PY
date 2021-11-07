@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (25941, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (25941, 0, 4294967295, 'Honshu Takeda', 'prewritten', False, 'My travels have lead me to the town of Sawato, a shining bastion in the dankness of the great swamp of Osteth.
+VALUES (25941, 0, 0xFFFFFFFF, 'Honshu Takeda', 'prewritten', False, 'My travels have lead me to the town of Sawato, a shining bastion in the dankness of the great swamp of Osteth.
 
 I have prayed at this shrine and been enlightened as to the location of a place where crystals beyond beauty are shaped by an underground swell of water. There I am certain to find what shall be representative of the Unicorn''s Grace.
 

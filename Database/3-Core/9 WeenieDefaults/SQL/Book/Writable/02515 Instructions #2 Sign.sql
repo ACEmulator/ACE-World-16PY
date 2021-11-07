@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (2515, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (2515, 0, 4294967295, 'Instructions #2', 'prewritten', False, '
+VALUES (2515, 0, 0xFFFFFFFF, 'Instructions #2', 'prewritten', False, '
 Click the dove icon to enter Combat Mode.  You will see the combat interface appear.  Adjust the slider to make your fighting style more powerful (melee) or accurate (missile), at the expense of speed.  Then, click on a monster or on its dot in the compass.  (If you pick the wrong target, hit ESC or select a different monster.)  Finally, click on the low, medium, or high buttons to execute your attack (keep holding down if you want to exceed the slider setting).
 ');

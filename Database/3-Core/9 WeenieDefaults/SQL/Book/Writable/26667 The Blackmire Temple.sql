@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (26667, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (26667, 0, 4294967295, 'The Blackmire Temple', 'prewritten', False, '
+VALUES (26667, 0, 0xFFFFFFFF, 'The Blackmire Temple', 'prewritten', False, '
 The home of a once powerful Falatacot priestess has been unearthed in the swamp between the ruins of Yanshi and Sawato. You will need to form a strong group in order to defeat the trials within the temple. Powerful traps and tests await you within the walls. Bring only those that you trust. The entrance is concealed behind a wall and can be found near the Mosswart Temple.
 ');

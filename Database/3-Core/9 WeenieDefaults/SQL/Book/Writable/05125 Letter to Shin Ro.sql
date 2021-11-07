@@ -34,7 +34,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5125, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5125, 0, 4294967295, 'Letter to Shin Ro', 'prewritten', False, '
+VALUES (5125, 0, 0xFFFFFFFF, 'Letter to Shin Ro', 'prewritten', False, '
 Greetings, Shin Ro.  I am still here at the outpost, after all this time.  How fares things with you in town?  And do you have any more of that marvelous water?  Nothing else tastes like it, except the rare Empyrean brews that find their way here sometimes.
 
 ');

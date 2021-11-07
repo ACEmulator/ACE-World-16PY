@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (24196, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (24196, 0, 4294967295, 'Oswald''s Translation, Author Unknown', 'prewritten', False, 'Beneath the blood moon 
+VALUES (24196, 0, 0xFFFFFFFF, 'Oswald''s Translation, Author Unknown', 'prewritten', False, 'Beneath the blood moon 
 I offer this spirit.
 Feed from the blood of this innocent.
 Feed from the blood of this heart.

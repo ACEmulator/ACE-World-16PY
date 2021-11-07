@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5675, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5675, 0, 4294967295, 'Sages'' Rumor', 'prewritten', False, '
+VALUES (5675, 0, 0xFFFFFFFF, 'Sages'' Rumor', 'prewritten', False, '
 It is said that at the bottom of a volcano called Lethe, a certain wondrous pool was discovered.  The water of this pool flamed, burning the hands and throat of those who would drink of it.  The effects, however, were marvelous - those who dared would lose all memory of earthly pains, be they physical or of the psyche.  It is said that a man whose wife and children were slain by Olthoi drank of the pool, and smiled once more.  It is also said, however, that he could no longer remember their names, nor any of the years they had shared.  Lord Cambarth of Cragstone mined Lethe, and allowed few in.
 ');

@@ -36,7 +36,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (23354, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (23354, 0, 4294967295, 'Tamian Wilmot', 'prewritten', False, '
+VALUES (23354, 0, 0xFFFFFFFF, 'Tamian Wilmot', 'prewritten', False, '
 I had discovered that the key to the door is held by Iron Golems nearby.  If I am successful in obtaining it I will enter the Archive. I will probably need to enlist the aid of a worthy Isparian, perhaps one who resides in one of the settlements I passed on my journey here. Yes Astara, one who is more worthy than me of the physical combat undoubtedly required to defeat one of those creatures.
 
 Tamian

@@ -30,7 +30,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (4211, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (4211, 0, 4294967295, 'Daiklos Legend', 'prewritten', False, '
+VALUES (4211, 0, 0xFFFFFFFF, 'Daiklos Legend', 'prewritten', False, '
 A man who was once a knight from old Aluvia cleared a nearby dungeon of its Olthoi tenants and named it Daiklos. There, with his followers, he began hoarding weapons for the return of High King Pwyll. But his followers died, one by one, and now all that remains are monster-infested corridors and rumors of weapons and armor. The dungeon lies along the road between Holtburg and Glendon Wood.
 
 ');

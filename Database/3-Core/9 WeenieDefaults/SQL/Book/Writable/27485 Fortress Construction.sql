@@ -34,13 +34,13 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27485, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27485, 0, 4294967295, 'Niarltah', 'prewritten', False, 'Kamenua,
+VALUES (27485, 0, 0xFFFFFFFF, 'Niarltah', 'prewritten', False, 'Kamenua,
 
 Your latest missive has made our endeavor into the valley worthwhile. We are sending a full contingent to you complete with a copy of the blueprints that the spy was able to acquire from Candeth Keep. Along with this contingent are enough materials to complete a fortress that will serve as our first true foothold on Dereth.
 
 Continue your efforts and find a location that will allow us to rise to prominence and serve as a seat of our power on Dereth.
 ')
-     , (27485, 1, 4294967295, '', 'prewritten', False, 'Our faith is strong in you, Kamenua.
+     , (27485, 1, 0xFFFFFFFF, '', 'prewritten', False, 'Our faith is strong in you, Kamenua.
 
 Niarltah
 ');

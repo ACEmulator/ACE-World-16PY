@@ -33,6 +33,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (7777, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (7777, 0, 4294967295, '', 'prewritten', False, '
+VALUES (7777, 0, 0xFFFFFFFF, '', 'prewritten', False, '
 In the days when Isparians were new to Dereth, one of the courageous heroes who defended our people against Dereth''s monsters was a jitte-wielder of great skill named Mi Krau-Li. He was obsessed with the creation of the "perfect" jitte. Mi Krau-Li disappeared into the hills southwest of Fort Witshire, around 17.3N 32.8E, shortly before the appearance of the first lifestones.
 ');

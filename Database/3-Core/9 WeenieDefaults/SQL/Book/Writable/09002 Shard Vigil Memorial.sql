@@ -33,11 +33,11 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (9002, 9, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (9002, 0, 4294967295, 'The Vigilant', 'prewritten', False, 'Upon this marker may be found the names of the known defenders of the Shard of the Herald, henceforth to be honorably known as The Vigilant. Throughout the month of Leafcull, Portal Year 11, these individuals defended the final Soul Crystal in defiance of the Shadows and their human servants. Regardless of the hour or other demands on their time, they kept their vigil; a flame to keep the night at bay.
+VALUES (9002, 0, 0xFFFFFFFF, 'The Vigilant', 'prewritten', False, 'Upon this marker may be found the names of the known defenders of the Shard of the Herald, henceforth to be honorably known as The Vigilant. Throughout the month of Leafcull, Portal Year 11, these individuals defended the final Soul Crystal in defiance of the Shadows and their human servants. Regardless of the hour or other demands on their time, they kept their vigil; a flame to keep the night at bay.
 
 There were others who assisted in this noble stand against the darkness; their names are unfortunately lost in the mist of time and memory. Bow your heads, and honor them.
 ')
-     , (9002, 1, 4294967295, 'The Vigilant', 'prewritten', False, '
+     , (9002, 1, 0xFFFFFFFF, 'The Vigilant', 'prewritten', False, '
                       ~ The Monarchs~
 
                                 Amid
@@ -51,7 +51,7 @@ There were others who assisted in this noble stand against the darkness; their n
                      Tim the Enchantor
                        Wren the Blurry
 ')
-     , (9002, 2, 4294967295, 'The Vigilant', 'prewritten', False, 'Acex
+     , (9002, 2, 0xFFFFFFFF, 'The Vigilant', 'prewritten', False, 'Acex
 Aelynn
 Alianna
 Alphalpha''s New Pal
@@ -68,7 +68,7 @@ Calissa
 Cecil the Wise
 Chaqella
 ')
-     , (9002, 3, 4294967295, 'The Vigilant', 'prewritten', False, 'Chaton Gato
+     , (9002, 3, 0xFFFFFFFF, 'The Vigilant', 'prewritten', False, 'Chaton Gato
 Child of the Dark
 Clan Arrem
 Corwin of Chaos
@@ -85,7 +85,7 @@ Druuna
 Eaglet the Mage
 Edlund
 ')
-     , (9002, 4, 4294967295, 'The Vigilant', 'prewritten', False, 'Fiyo
+     , (9002, 4, 0xFFFFFFFF, 'The Vigilant', 'prewritten', False, 'Fiyo
 Flick-Doh
 Funshine Bear
 Gazra
@@ -102,7 +102,7 @@ Kalen the Mighty
 Kaliel
 Kay''l
 ')
-     , (9002, 5, 4294967295, 'The Vigilant', 'prewritten', False, 'Keth al-Sheth
+     , (9002, 5, 0xFFFFFFFF, 'The Vigilant', 'prewritten', False, 'Keth al-Sheth
 Killerwolf
 Kiyomori
 Krimzon
@@ -119,7 +119,7 @@ Ney
 Orion Haspard
 Osian
 ')
-     , (9002, 6, 4294967295, 'The Vigilant', 'prewritten', False, 'Othinn
+     , (9002, 6, 0xFFFFFFFF, 'The Vigilant', 'prewritten', False, 'Othinn
 Portent
 Pos the Clumsy
 Rand of Rheny
@@ -136,7 +136,7 @@ Seal
 Shadow Death
 Shanra
 ')
-     , (9002, 7, 4294967295, 'The Vigilant', 'prewritten', False, 'Shisho
+     , (9002, 7, 0xFFFFFFFF, 'The Vigilant', 'prewritten', False, 'Shisho
 Shob Sr
 Slash the Warlock
 Solaran
@@ -153,7 +153,7 @@ Teck II
 Tripp
 Uber Caq
 ')
-     , (9002, 8, 4294967295, 'The Vigilant', 'prewritten', False, '
+     , (9002, 8, 0xFFFFFFFF, 'The Vigilant', 'prewritten', False, '
 Ultrazen
 Vervain
 Visioth Razorwind

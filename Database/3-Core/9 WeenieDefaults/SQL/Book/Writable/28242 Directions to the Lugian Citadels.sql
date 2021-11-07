@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (28242, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (28242, 0, 4294967295, 'Lugian Citadels Directions', 'prewritten', False, 'These are directions to the Lugian Citadels that were taken by the Lugian Renegades from our allies the Linvak Lugians.
+VALUES (28242, 0, 0xFFFFFFFF, 'Lugian Citadels Directions', 'prewritten', False, 'These are directions to the Lugian Citadels that were taken by the Lugian Renegades from our allies the Linvak Lugians.
 
 Hills Citadel Portal (20-40)
 Nearby Towns: Lin, Baishi
@@ -45,7 +45,7 @@ Wilderness Citadel Portal (40-60)
 Nearby Towns: Qalabar
 Location: 70.2S 24.2E
 ')
-     , (28242, 1, 4294967295, 'Lugian Citadels Directions', 'prewritten', False, '
+     , (28242, 1, 0xFFFFFFFF, 'Lugian Citadels Directions', 'prewritten', False, '
 Mountain Citadel Portal (60-80)
 Nearby Towns: Fort Tethana
 Location: 5.4N 71.7W

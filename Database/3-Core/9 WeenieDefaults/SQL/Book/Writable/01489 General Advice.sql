@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (1489, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (1489, 0, 4294967295, '', 'prewritten', False, 'General Advice
+VALUES (1489, 0, 0xFFFFFFFF, '', 'prewritten', False, 'General Advice
 
 I, a traveler, have distributed this advice especially for newcomers to this world:   There are many, many more dungeons, ruins, and stray monsters than of what barkeeps have written, so be prepared.  Travel with friends and explore.  Ask around about unfamiliar dungeons.  Buy good weapons and armor, but don''t overload yourself.  Practice how to quickly target and attack.  Finally, don''t forget to improve such things as your health, strength, and your skills, or else you will wonder why drudges seem to always win!  Just pick what to improve with wisdom.
 

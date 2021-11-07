@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (4170, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (4170, 0, 4294967295, 'Bloodshed Rumor', 'prewritten', False, '
+VALUES (4170, 0, 0xFFFFFFFF, 'Bloodshed Rumor', 'prewritten', False, '
 We have heard it whispered of at least two places where renegades can choose to be able to hurt and kill each other.  Scribes in some other towns know more of one of them.  For the other, you should seek a strange hermit living somewhere between Cragstone and Samsur, a ways further east than 30.0 E, and further north than 10.0 N.  There is also rumored to be a note with more precise directions.  Do not bother pursuing this trail if you are not interested in dueling with others, or if you are not ready for bloodshed.
 ');

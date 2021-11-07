@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (28113, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (28113, 0, 4294967295, 'Shoyanen Kenchu', 'prewritten', False, '
+VALUES (28113, 0, 0xFFFFFFFF, 'Shoyanen Kenchu', 'prewritten', False, '
 With all that we have been able to accomplish recently this is just another wonder, a fusion of mana and skill in a fashion that has hereto for been unseen. May it serve you well in all of your travels.
 
 Shoyanen

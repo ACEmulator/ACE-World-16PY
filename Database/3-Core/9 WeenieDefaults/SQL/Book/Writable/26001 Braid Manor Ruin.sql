@@ -32,6 +32,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (26001, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (26001, 0, 4294967295, 'Nin Hong', 'prewritten', False, '
+VALUES (26001, 0, 0xFFFFFFFF, 'Nin Hong', 'prewritten', False, '
 Straight out of Shoushi along the southwest road - at about 34.2S 72.0E - is a portal to a tiny old ruin. This used to be the modest manor house of the family Braid, some Aluvians from up Holtburg way, but these days its home only to some wasps and mosswarts. Seems like every time some hardy adventurer goes in there, they find a bunch of small shiny items that the mosswarts have thieved from town and hidden there. 
 ');

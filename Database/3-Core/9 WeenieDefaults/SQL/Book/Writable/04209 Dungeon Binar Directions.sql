@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (4209, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (4209, 0, 4294967295, 'Dungeon Binar Directions', 'prewritten', False, '
+VALUES (4209, 0, 0xFFFFFFFF, 'Dungeon Binar Directions', 'prewritten', False, '
 To the south of Samsur, past the row of statues, at the base of a hill, is Dungeon Binar.  Within its walls is rumored to be a fine collection of Gharu''ndim weaponry and armor, from the earliest days of our arrival in Dereth.  Of course, the treasure is guarded by all manner of creatures, both weak and frighteningly strong, so you must be careful.
 ');

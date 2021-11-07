@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (11951, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (11951, 0, 4294967295, 'Amaltah', 'prewritten', False, '
+VALUES (11951, 0, 0xFFFFFFFF, 'Amaltah', 'prewritten', False, '
 The time of our emancipation is at hand! Call the Tonk, young and old, to rally beneath your Shreth banner, and join your brothers as we throw off the yoke of oppression and forge a new homeland.
 
 Gather your forces near besieged Dryreach, for there we shall train a vast horde to march against our enemies. 

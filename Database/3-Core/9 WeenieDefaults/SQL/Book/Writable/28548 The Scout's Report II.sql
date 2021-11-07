@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (28548, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (28548, 0, 4294967295, 'Monouga Madness', 'prewritten', False, '
+VALUES (28548, 0, 0xFFFFFFFF, 'Monouga Madness', 'prewritten', False, '
 Our scout has been quite busy these past few weeks.  It seems that he has discovered yet another abandoned house taken over by crazed monougas.  The scout insists that he was attacked by a monouga he had never seen nor heard of before.
 
 If you are a brave adventurer, you could head up to the house and investigate.  The house is just northwest of Al-Jalima, near 9N 4.3E.

@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5005, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5005, 0, 4294967295, 'Empyrean Garrison Directions', 'prewritten', False, '
+VALUES (5005, 0, 0xFFFFFFFF, 'Empyrean Garrison Directions', 'prewritten', False, '
 If you travel down the road that goes south, the one near the east end of town, you will see a statue near the road.  Follow its gaze to the hill, upon which stands a ruin.  Within is what scholars guess is an old Empyrean Garrison, now rendered the crude dwellings of monsters and all that is vile.  If you are new to the world, you should proceed with caution.
 ');

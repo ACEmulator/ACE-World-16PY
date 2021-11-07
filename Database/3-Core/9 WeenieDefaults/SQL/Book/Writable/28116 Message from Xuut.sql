@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (28116, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (28116, 0, 4294967295, 'Xuut', 'prewritten', False, '
+VALUES (28116, 0, 0xFFFFFFFF, 'Xuut', 'prewritten', False, '
 I had wondered if I would be called upon again to craft an exquisite item for the populace. As I was, I have spent some time thinking about what the temperament of this next project should be. I took a trip to Aphus Lassel and this is the result of those efforts. I noticed that the sun often would beat down on my brow and so developed this hat to keep the sun from my eyes.
 
 Xuut

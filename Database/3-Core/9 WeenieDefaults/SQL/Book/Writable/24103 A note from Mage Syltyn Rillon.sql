@@ -32,6 +32,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (24103, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (24103, 0, 4294967295, ' Mage Syltyn Rillon', 'prewritten', False, '
+VALUES (24103, 0, 0xFFFFFFFF, ' Mage Syltyn Rillon', 'prewritten', False, '
 Only one deemed worthy to wield this cold blade may obtain it from the dais. Seek out Mage Syltyn Rillon who resides southwest of here and a trial shall be set upon you.
 ');

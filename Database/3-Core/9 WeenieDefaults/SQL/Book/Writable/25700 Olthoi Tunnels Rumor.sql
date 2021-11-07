@@ -28,6 +28,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (25700, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (25700, 0, 4294967295, 'Selflora the Barkeep', 'prewritten', False, 'Travelers stopping in for ale and cider have been talking about payments received from a Royal Guard named Xavier. From what I have overheard, the High Queen is offering compensation for information about what happened to the Ancient Queen. Xavier can be found west of Lytelthorpe, if the rumors are true.
+VALUES (25700, 0, 0xFFFFFFFF, 'Selflora the Barkeep', 'prewritten', False, 'Travelers stopping in for ale and cider have been talking about payments received from a Royal Guard named Xavier. From what I have overheard, the High Queen is offering compensation for information about what happened to the Ancient Queen. Xavier can be found west of Lytelthorpe, if the rumors are true.
 
 ');

@@ -35,13 +35,13 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (30739, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (30739, 0, 4294967295, 'High Queen Elysa Strathelar', 'prewritten', False, '1. Knit a scarf for Borelean.
+VALUES (30739, 0, 0xFFFFFFFF, 'High Queen Elysa Strathelar', 'prewritten', False, '1. Knit a scarf for Borelean.
 2. Consult with Bleeargh about the removal of Mosswarts from the Underground City.
 3. Schedule an Olthoi hunting trip with Antius.
 4. Learn to speak Mosswart.
 5. Lose these newfound lover''s handles.
 ')
-     , (30739, 1, 4294967295, 'High Queen Elysa Strathelar', 'prewritten', False, '6. Purchase a farm.
+     , (30739, 1, 0xFFFFFFFF, 'High Queen Elysa Strathelar', 'prewritten', False, '6. Purchase a farm.
 7. Teach Hendac to make pearblossom tea.
 8. Speak with the Wedding Planners about less socially restrictive wedding cake toppers.
 9. Bind myself to a more conveniently placed lifestone.

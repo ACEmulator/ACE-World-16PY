@@ -32,12 +32,12 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (1353, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (1353, 0, 4294967295, '', 'prewritten', False, 'Zalphoos Guidebook
+VALUES (1353, 0, 0xFFFFFFFF, '', 'prewritten', False, 'Zalphoos Guidebook
 
 The northernmost mountain is Zabool, and I myself live on the next one down, Mount Alphus. West of my Mount Alphus is the Alphus Valley, beyond which, on the low point of the ridge, is some kind of underground ruin which I named Alferd or Alpheth or something I''ve forgotten; I''ve got a special key for it.
   
 (more)
 ')
-     , (1353, 1, 4294967295, '', 'prewritten', False, '
+     , (1353, 1, 0xFFFFFFFF, '', 'prewritten', False, '
 To the south is Mount Bellig. There''s no travel portal directly linking Alphus to Bellig, but I do know there''s some way up to Bellig''s top. Now, to Bellig''s south is Mount Gemm; further south is Mount Dalt, and last is Mount Syliph. I even heard there''s some kind of nasty place out east of Mount Syliph, in the Syliph Plain.
 ');

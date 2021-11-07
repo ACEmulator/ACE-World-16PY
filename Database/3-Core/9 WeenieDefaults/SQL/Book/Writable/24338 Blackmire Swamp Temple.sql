@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (24338, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (24338, 0, 4294967295, 'Blackmire Swamp Temple', 'prewritten', False, '
+VALUES (24338, 0, 0xFFFFFFFF, 'Blackmire Swamp Temple', 'prewritten', False, '
 The swamps south of the Yanshi Ruin are a dangerous place. Here you will find congregations of gromnies, undead, and mosswarts in abundance. If you go far enough south, you will come across the mysterious Swamp Temple. From there, go east to a small cellar and then south past the liches (Walk softly here!) and you will find an ancient Empyrean pillar that acts as a magnet for water golems.
 
 Yes, the swamps are a fascinating place.

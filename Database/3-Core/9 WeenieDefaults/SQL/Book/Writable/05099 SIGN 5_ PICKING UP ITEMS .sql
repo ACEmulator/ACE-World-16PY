@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5099, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5099, 0, 4294967295, 'SIGN 5: PICKING UP ITEMS ', 'prewritten', False, '
+VALUES (5099, 0, 0xFFFFFFFF, 'SIGN 5: PICKING UP ITEMS ', 'prewritten', False, '
 To pick up an object, you can DRAG it onto your INVENTORY PANEL. You can also pick up most objects by DOUBLE-CLICKING on them.
 
 The door ahead is locked. Look for a key on the floor nearby, then pick it up.  (If the key is gone, a new one will appear soon.)

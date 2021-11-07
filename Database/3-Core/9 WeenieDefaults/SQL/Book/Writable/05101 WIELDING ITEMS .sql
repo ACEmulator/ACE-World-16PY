@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5101, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5101, 0, 4294967295, 'Training Master', 'prewritten', False, '
+VALUES (5101, 0, 0xFFFFFFFF, 'Training Master', 'prewritten', False, '
 Dereth can be a dangerous place - you must learn how to defend yourself! 
 
 First, prepare for battle. Click on the backpack button to open your Inventory Panel.  Drag a weapon (if you have one) from your inventory to the WEAPON SLOT, marked with a double-bladed axe.

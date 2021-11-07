@@ -33,7 +33,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5160, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5160, 0, 4294967295, 'Sarqah bint Ak', 'prewritten', False, '
+VALUES (5160, 0, 0xFFFFFFFF, 'Sarqah bint Ak', 'prewritten', False, '
 Hail,
 
 This adventurer recovered a Drudge Charm for me, and could probably help you find that drink you were looking for.

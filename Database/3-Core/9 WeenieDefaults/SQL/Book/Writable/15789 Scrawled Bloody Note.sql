@@ -34,7 +34,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (15789, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (15789, 0, 4294967295, 'Nuhmudira', 'prewritten', False, 'Am I dying?
+VALUES (15789, 0, 0xFFFFFFFF, 'Nuhmudira', 'prewritten', False, 'Am I dying?
 
 So weak, these things, driving new thoughts into me, someone else''s not mine.
 

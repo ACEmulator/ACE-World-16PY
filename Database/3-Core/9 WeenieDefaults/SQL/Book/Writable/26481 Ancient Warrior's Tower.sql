@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (26481, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (26481, 0, 4294967295, '', 'prewritten', False, '
+VALUES (26481, 0, 0xFFFFFFFF, '', 'prewritten', False, '
 Far to the southwest, along the highest peaks of the Snowflake Mountain Range, there exists an ancient temple complex. Some say the undead gathered there are the animated corpses of dishonored warriors, who once abandoned their master in his greatest hour of need. Others whisper tales of a wisp whose touch causes the dead to walk once more. Who knows which tales are truth and which are false?
 
 ');

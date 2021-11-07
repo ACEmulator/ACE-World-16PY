@@ -31,10 +31,10 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27851, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27851, 0, 4294967295, 'An Adventurer', 'prewritten', False, '
+VALUES (27851, 0, 0xFFFFFFFF, 'An Adventurer', 'prewritten', False, '
 I''ve heard rumors that certain of Martine''s thralls believe he still lives in Dereth. One of them, a Virindi Castaway, seems to think that he never left! Apparently, he''s still acting upon orders that he received from his master long ago. He took control of the Black Dominion dungeon and shifted the currents of portal space to move it to the Southern Landbridge. Preparing it for his master''s return, they say. May that day never come, I say! Nonetheless, he''ll bind the Singularity Weapons to those who wield them, so they''ll never lose them when they return to their lifestones. Well, he may be daft, 
 ')
-     , (27851, 1, 4294967295, 'An Adventurer', 'prewritten', False, '
+     , (27851, 1, 0xFFFFFFFF, 'An Adventurer', 'prewritten', False, '
 but at least he''s useful!
 
 That Castaway must have been in touch with the Executor Assistant in Martine''s Holding on Marae Lassel. I''ve heard that now the Assistant will enhance the Bound Singularity weapons into their ultimate form. Who would have imagined that Martine would still have all this influence, after all this time? The brand of loyalty he inspired in his minions is inspirational and terrifying, I tell you.

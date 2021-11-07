@@ -34,7 +34,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (10921, 6, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (10921, 0, 4294967295, 'Tekapuapuh', 'prewritten', False, 'Hey! Thanks for going on this adventure-journey-quest-thing for me! I really appreciate it! Hey!
+VALUES (10921, 0, 0xFFFFFFFF, 'Tekapuapuh', 'prewritten', False, 'Hey! Thanks for going on this adventure-journey-quest-thing for me! I really appreciate it! Hey!
 
 You need to go to my special secret portal, to the east of my mansion! You''ll need the special password! It''s "PutiPuti" just like my favorite grubby!
 
@@ -43,17 +43,17 @@ I came up with the password all by myself!
 When you get there, get my special onga! It''s the only thing that makes Putiputipuh happy! And I want Putiputipuh happy! I need my Putiputipuh to be happy! Happy! HAPPY!
 
 ')
-     , (10921, 1, 4294967295, 'Tekapuapuh', 'prewritten', False, 'I dropped a bunch of stuff while I was down there, but I''m sure you can find the Onga. It''s no problem!
+     , (10921, 1, 0xFFFFFFFF, 'Tekapuapuh', 'prewritten', False, 'I dropped a bunch of stuff while I was down there, but I''m sure you can find the Onga. It''s no problem!
 
 Did I ever tell you how I found Putiputipuh? Maybe, if you come back with the Onga, and you''re really, really, really, really, really, really, really, really, really, really, really, really, really, really, really, really, really nice, I''ll tell you! When you get back! Maybe I''ll let you pet Putiputipuh even. Doesn''t that make you want to come back?!
 
 I knew it would!
 ')
-     , (10921, 2, 4294967295, 'Tekapuapuh', 'prewritten', False, '
+     , (10921, 2, 0xFFFFFFFF, 'Tekapuapuh', 'prewritten', False, '
 ')
-     , (10921, 3, 4294967295, 'Tekapuapuh', 'prewritten', False, '
+     , (10921, 3, 0xFFFFFFFF, 'Tekapuapuh', 'prewritten', False, '
 ')
-     , (10921, 4, 4294967295, 'Tekapuapuh', 'prewritten', False, '
+     , (10921, 4, 0xFFFFFFFF, 'Tekapuapuh', 'prewritten', False, '
 ')
-     , (10921, 5, 4294967295, 'Tekapuapuh', 'prewritten', False, 'Why are you still reading this! Find my Putiputipuh''s Onga! Finditfinditfinditfinditfindit!!! 
+     , (10921, 5, 0xFFFFFFFF, 'Tekapuapuh', 'prewritten', False, 'Why are you still reading this! Find my Putiputipuh''s Onga! Finditfinditfinditfinditfindit!!! 
 ');

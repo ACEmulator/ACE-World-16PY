@@ -34,7 +34,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (30913, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (30913, 0, 4294967295, 'Carlo di Cenza', 'prewritten', False, 'We would gladly repay that debt with our lives.
+VALUES (30913, 0, 0xFFFFFFFF, 'Carlo di Cenza', 'prewritten', False, 'We would gladly repay that debt with our lives.
 
 We set upon the mission but one week later. What transpired within the walls of Varicci''s fortress, I have not the strength to tell. I will say that our mission was a success. The three of us escaped with our lives, though barely so. I, for one, had to be carried away on Eleonora''s back, and it has taken me several months to recover from the wounds I sustained on that daring incursion.
 ');

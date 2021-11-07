@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (1227, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (1227, 0, 4294967295, 'Yanshi Portal Directions', 'prewritten', False, '
+VALUES (1227, 0, 0xFFFFFFFF, 'Yanshi Portal Directions', 'prewritten', False, '
 To find the portal to Shoushi, follow the road southeast out of Yanshi, but
 keep going when the road turns sharply to the right. 
 
