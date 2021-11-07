@@ -32,6 +32,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (24104, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (24104, 0, 4294967295, ' Mage Syltyn Rillon', 'prewritten', False, '
+VALUES (24104, 0, 0xFFFFFFFF, ' Mage Syltyn Rillon', 'prewritten', False, '
 If you are here by instruction of Mage Syltyn Rillon of Glenden wood, you may find the Virindi Complex north of here.
 ');

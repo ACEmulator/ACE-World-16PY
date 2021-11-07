@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27646, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27646, 0, 4294967295, 'Aun Sareona', 'prewritten', False, '
+VALUES (27646, 0, 0xFFFFFFFF, 'Aun Sareona', 'prewritten', False, '
 Our shamans have piled their kindling within the six stone circles of this plateau. One of these lies close at hand, for we built Timaru itself around it. Should the circles be broken, or should our shamans cease their drumming, the shadow of Wharu''s children will overrun Palenqual, and eat the sun. But should that happen, the luan societies have already said that they should be pleased to fight in the shade.
 ');

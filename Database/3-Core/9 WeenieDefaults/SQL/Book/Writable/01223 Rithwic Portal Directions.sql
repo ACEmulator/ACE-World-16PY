@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (1223, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (1223, 0, 4294967295, 'Rithwic Portal Directions', 'prewritten', False, '
+VALUES (1223, 0, 0xFFFFFFFF, 'Rithwic Portal Directions', 'prewritten', False, '
 To find the portal to Holtburg, follow the southwest road out of Rithwic, but keep going when it bends to the west.
 
 To find the portal to Shoushi, cross the bridge to East Rithwic and turn left. The portal overlooks the river.

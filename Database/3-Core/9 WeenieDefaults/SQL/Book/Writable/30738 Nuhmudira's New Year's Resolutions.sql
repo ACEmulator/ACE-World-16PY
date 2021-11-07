@@ -35,13 +35,13 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (30738, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (30738, 0, 4294967295, 'Nuhmudira', 'prewritten', False, '1. Experiment with various potions to see which has the best cleansing properties. Use that potion to remove those old blood stains from my Mattekar rug.
+VALUES (30738, 0, 0xFFFFFFFF, 'Nuhmudira', 'prewritten', False, '1. Experiment with various potions to see which has the best cleansing properties. Use that potion to remove those old blood stains from my Mattekar rug.
 2. Kill Elysa.
 3. Research Falatacot bloodrites regarding skin care and facial line removal.
 4. Invite Antius into my lair. 
 5. Kill Antius.
 ')
-     , (30738, 1, 4294967295, 'Nuhmudira', 'prewritten', False, '6. Construct a fortress.
+     , (30738, 1, 0xFFFFFFFF, 'Nuhmudira', 'prewritten', False, '6. Construct a fortress.
 7. Write the second installment of the Dark Cow trilogy.
 8. Perfect my Blackened Mosswart Legs recipe.
 9. Defile Asheron''s Sanctum.

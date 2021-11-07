@@ -34,10 +34,10 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (12142, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (12142, 0, 4294967295, 'The Crafter', 'prewritten', False, 'Honored colleague,
+VALUES (12142, 0, 0xFFFFFFFF, 'The Crafter', 'prewritten', False, 'Honored colleague,
     I hope you enjoy the capabilities of the new form which I have constructed for you. I am gratified that you have decided to accept the wisdom of my research, and I must express my certainty that you will find nothing to regret in our current course. We are innovators among the innovators. The Speaker and the inner circle have rightly chosen to break away from the Quiddity and make a new Singularity in this realm, but they do not yet understand that a new Singularity also requires a new form!
 ')
-     , (12142, 1, 4294967295, 'The Crafter', 'prewritten', False, '
+     , (12142, 1, 0xFFFFFFFF, 'The Crafter', 'prewritten', False, '
     Please keep me informed of the progress you make with your preparations in the northern fortress. I have established a base of experimentations here in the ridges of the eastern desert edge and await your first missive.
 
 --The Crafter

@@ -34,7 +34,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (15792, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (15792, 0, 4294967295, 'Nuhmudira', 'prewritten', False, 'He means to befoul my soul.
+VALUES (15792, 0, 0xFFFFFFFF, 'Nuhmudira', 'prewritten', False, 'He means to befoul my soul.
 
 I am damned. As I have damned so many, is it so hard to have known that this was my fate.
 

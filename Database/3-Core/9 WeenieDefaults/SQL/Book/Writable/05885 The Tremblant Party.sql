@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5885, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5885, 0, 4294967295, 'Sho Rumor', 'prewritten', False, '
+VALUES (5885, 0, 0xFFFFFFFF, 'Sho Rumor', 'prewritten', False, '
 Folly. I am certain that is the only reason we have not seen Sir Tremblant''s party return. Mark my words, they''re holed up in a dungeon or hut somewhere, marking time until the snows melt. Such is the fate of adventurers who venture forth unprepared. I have heard of their party''s departure. They were so assured of their own quick success, they carried with them only two weeks'' provisions! What is that against this miserable cold? If they don''t appear at the Arwic lifestone, we will doubtless see them once the weather clears.
 ');

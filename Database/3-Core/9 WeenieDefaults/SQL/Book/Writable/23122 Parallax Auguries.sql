@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (23122, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (23122, 0, 4294967295, 'Aerbax', 'prewritten', False, 'Auditor.
+VALUES (23122, 0, 0xFFFFFFFF, 'Aerbax', 'prewritten', False, 'Auditor.
 
 Maintain consistent observation of locations signified within these Parallax Auguries. 
 
@@ -39,7 +39,7 @@ These spatial anomalies will allow you to witness the happenings in several area
 
 Failure or cessation of reports from you will alert me to inadequacy in performance. Do not fail me.
 ')
-     , (23122, 1, 4294967295, 'Aerbax', 'prewritten', False, 'Asylum
+     , (23122, 1, 0xFFFFFFFF, 'Aerbax', 'prewritten', False, 'Asylum
 Athenaeum
 Sanatorium
 Energy Source

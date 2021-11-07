@@ -31,23 +31,23 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (23112, 5, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (23112, 0, 4294967295, 'Aerbax', 'prewritten', False, 'Time has continued its incessant clamor toward the future while my attentions have been with my latest meat creations and has allowed for our greatest achievement to combust. I have often witnessed my creations spend time stripping away detritus in an effort to expunge the alterations made to their material but never in such a magnanimous fashion.
+VALUES (23112, 0, 0xFFFFFFFF, 'Aerbax', 'prewritten', False, 'Time has continued its incessant clamor toward the future while my attentions have been with my latest meat creations and has allowed for our greatest achievement to combust. I have often witnessed my creations spend time stripping away detritus in an effort to expunge the alterations made to their material but never in such a magnanimous fashion.
 
 Betrayed, ostracized and disparaged, forced to live in hovels excavated from the decayed fossils of epidermal fauna he dwelled with a collective he commanded as
 ')
-     , (23112, 1, 4294967295, 'Aerbax', 'prewritten', False, 'his own. He flourished and rose to an elite prominence that cast the achievements of any of our previous enhancements into a deep shadow, only to crumble because too much of his "soul" remained to cloud his awareness and enlightenment with feelings other than self-awareness. So near perfection yet still so repressed.
+     , (23112, 1, 0xFFFFFFFF, 'Aerbax', 'prewritten', False, 'his own. He flourished and rose to an elite prominence that cast the achievements of any of our previous enhancements into a deep shadow, only to crumble because too much of his "soul" remained to cloud his awareness and enlightenment with feelings other than self-awareness. So near perfection yet still so repressed.
 
 My ability to communicate with the entity that was once "Martine" has ended, correction, ceased.
 
 While this poses a new hypothesis of
 ')
-     , (23112, 2, 4294967295, 'Aerbax', 'prewritten', False, 'our ministrations and augmentations toward perfect thought within lesser "material" forms, it should serve as a warning as well.
+     , (23112, 2, 0xFFFFFFFF, 'Aerbax', 'prewritten', False, 'our ministrations and augmentations toward perfect thought within lesser "material" forms, it should serve as a warning as well.
 
 The destructive force that was held within that one entity bordered nearly to the energy source which resides at the center of this physical world. Without proper containment and instruction the energy released upon his moment of ceasing could have laid waste to the abundant resources that can be found here. Care must be taken to not alter the more headstrong and gifted of the meatlings.
 ')
-     , (23112, 3, 4294967295, 'Aerbax', 'prewritten', False, 'They have proven to be more than capable of rejecting our education  while retaining the beneficial aspects of our enrichment. This resulted in madness and contributed to delusions which became "real" to the subject.
+     , (23112, 3, 0xFFFFFFFF, 'Aerbax', 'prewritten', False, 'They have proven to be more than capable of rejecting our education  while retaining the beneficial aspects of our enrichment. This resulted in madness and contributed to delusions which became "real" to the subject.
 
 The cell "Martine" created for itself will prove a ripe area for research in the future. Plans are underway to supplant authority and assert our will over the lesser meatlings. Through this I hope to reverse this catastrophic failure by managing the outcasts and renegades left by their ceased manster.
 ')
-     , (23112, 4, 4294967295, 'Aerbax', 'prewritten', False, '
+     , (23112, 4, 0xFFFFFFFF, 'Aerbax', 'prewritten', False, '
 ');

@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27644, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27644, 0, 4294967295, 'Aun Sareona', 'prewritten', False, '
+VALUES (27644, 0, 0xFFFFFFFF, 'Aun Sareona', 'prewritten', False, '
 It was our drummers, the khe, who found that the bowels of Wharu''s children turned to water with the pounding of a heavy drum. They shriek and scurry from the deep musics that stir the Tonk''s heart and keh. It was our shamans, however, who found the stone circles. Through them, through the silent rivers that flow between them, energies echo and resound, gaining power. A single drummer in a circle can keep Wharu''s children cowering in the ground for as far as a single gust of Wind may bend the grass.
 ');

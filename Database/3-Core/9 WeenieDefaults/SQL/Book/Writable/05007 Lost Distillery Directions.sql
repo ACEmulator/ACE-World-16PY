@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5007, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5007, 0, 4294967295, 'Lost Distillery Directions', 'prewritten', False, '
+VALUES (5007, 0, 0xFFFFFFFF, 'Lost Distillery Directions', 'prewritten', False, '
 South of town is the old lost distillery.  The lord of Lytelthorpe Keep, Lord Aleval, has locked away part of it.  Now, it''s said that determined adventurers can get a friend to pick the lock.  It is also said that those who arrive at the outposts here near town have an understanding with Lord Aleval and do not need such suspicious means of entry, but I do not really understand what this means.
 
 ');

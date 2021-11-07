@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5115, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5115, 0, 4294967295, 'SIGN 14: QUESTS ', 'prewritten', False, '
+VALUES (5115, 0, 0xFFFFFFFF, 'SIGN 14: QUESTS ', 'prewritten', False, '
 The person ahead is waiting for you to complete a QUEST. Quests are specific tasks that, when completed, will give you special rewards. 
 
 Walk up to the Training Master, and then DOUBLE-CLICK him or her to find out what you need to do.

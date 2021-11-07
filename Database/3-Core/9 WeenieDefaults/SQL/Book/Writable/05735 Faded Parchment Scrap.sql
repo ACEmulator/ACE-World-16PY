@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5735, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5735, 0, 4294967295, '', 'prewritten', False, '
+VALUES (5735, 0, 0xFFFFFFFF, '', 'prewritten', False, '
    the       of            fever             dream.                     nights              even               wind              sickbed,                       before     As           I              befall     
 
       shall                flame             the         There          no              this                       that                We      

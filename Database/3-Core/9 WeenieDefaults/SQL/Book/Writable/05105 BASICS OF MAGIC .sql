@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5105, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5105, 0, 4294967295, 'Training Master ', 'prewritten', False, ' 
+VALUES (5105, 0, 0xFFFFFFFF, 'Training Master ', 'prewritten', False, ' 
 If you are trained in any form of magic, you need to know how to cast spells.
 
 To see what spells you have (if any), click the green triangle-button with a wand on it to open your spellbook.

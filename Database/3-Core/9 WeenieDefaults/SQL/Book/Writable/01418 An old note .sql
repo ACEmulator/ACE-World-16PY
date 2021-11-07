@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (1418, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (1418, 0, 4294967295, 'Iquba al-Julmud, Qalaba''r', 'prewritten', False, '
+VALUES (1418, 0, 0xFFFFFFFF, 'Iquba al-Julmud, Qalaba''r', 'prewritten', False, '
 Have you seen the beasts called Outcast Monougas? Well, if you see smaller monougas, you may wish to run in fear, for the smaller are more ferocious! I''ve seen them in the Carved Caves and the Pit. Did you get my note about where Stonehold is? Stonehold was a false path. Tibri knows the real way.
 ');

@@ -33,7 +33,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27811, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27811, 0, 4294967295, 'A hermit', 'prewritten', False, 'I recall the countless snaps of string on wood.
+VALUES (27811, 0, 0xFFFFFFFF, 'A hermit', 'prewritten', False, 'I recall the countless snaps of string on wood.
 And the rush of air -- the signal of death.
 The approach of death in flight.
 I was once a champion with a dangerous secret-

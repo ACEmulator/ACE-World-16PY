@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (1515, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (1515, 0, 4294967295, 'Rumor ', 'prewritten', False, '
+VALUES (1515, 0, 0xFFFFFFFF, 'Rumor ', 'prewritten', False, '
 Yes, I have seen many a dungeon. The most memorable was The Pit (as some call it).  The grandest, I believe, was the Underground City. The darkest was the Lightless Catacombs, and the most frustrating was the Halls of Lost Light. But oh, my favorites are the rare empty ones, where a person may think in peace and quiet!
 ');

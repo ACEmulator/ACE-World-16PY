@@ -33,19 +33,19 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (25978, 3, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (25978, 0, 4294967295, 'Jahail Ibn Haibel', 'prewritten', False, 'Our spies within the Order of the Raven Hand have noted an interest in a recently discovered tower north west of the city of Zaikhal. 
+VALUES (25978, 0, 0xFFFFFFFF, 'Jahail Ibn Haibel', 'prewritten', False, 'Our spies within the Order of the Raven Hand have noted an interest in a recently discovered tower north west of the city of Zaikhal. 
 
 Therefore, the Shagar Zharala requests that a team of our best scholars be dispatched to this tower to learn its secrets before the Raven Hand does. 
 
 Ufet in Zaikhal has offered to hold whatever belongings you may not need in the forests while on your expedition. After replenishing
 ')
-     , (25978, 1, 4294967295, 'Jahail Ibn Haibel', 'prewritten', False, 'your supplies, leave the city and travel north-by-northwest. 
+     , (25978, 1, 0xFFFFFFFF, 'Jahail Ibn Haibel', 'prewritten', False, 'your supplies, leave the city and travel north-by-northwest. 
 
 Aim to travel through the area where a small outpost once lay. It was destroyed by the Gotrok, but they are of little concern and not worth our time. 
 
 From there, proceed on to the hills and travel west. There is a bulwark nearby that may be able to provide lodging for a bit, and there is a portal back to Zaikhal there should you need it.
 ')
-     , (25978, 2, 4294967295, 'Jahail Ibn Haibel', 'prewritten', False, 'Continuing further west, past the banderling encampment, you should be able to see the tower atop an inaccessible hill. 
+     , (25978, 2, 0xFFFFFFFF, 'Jahail Ibn Haibel', 'prewritten', False, 'Continuing further west, past the banderling encampment, you should be able to see the tower atop an inaccessible hill. 
 
 You will need to employ some ingenuity to get access to the tower but you will no doubt have little trouble.
 

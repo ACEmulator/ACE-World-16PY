@@ -33,7 +33,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5049, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5049, 0, 4294967295, 'Beltslora''s recommendation letter', 'prewritten', False, '
+VALUES (5049, 0, 0xFFFFFFFF, 'Beltslora''s recommendation letter', 'prewritten', False, '
 Dear Lord Aleval,
 You remember the caves we lived in before Lytelthorpe was built? This adventurer braved them to bring me my best shirt back! I know you''re always looking for bright young people to protect Lytelthorpe, so I''m sending my recommendation of this one.
 

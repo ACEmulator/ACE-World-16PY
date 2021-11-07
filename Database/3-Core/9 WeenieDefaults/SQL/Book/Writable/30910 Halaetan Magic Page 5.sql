@@ -34,7 +34,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (30910, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (30910, 0, 4294967295, 'Carlo di Cenza', 'prewritten', False, 'he merely hung his head, studied the ground for a moment, and retired to his chambers.
+VALUES (30910, 0, 0xFFFFFFFF, 'Carlo di Cenza', 'prewritten', False, 'he merely hung his head, studied the ground for a moment, and retired to his chambers.
 
 Sir Bellas and I exchanged uneasy looks. Just what did this mean? We all knew that the war with Varicci had not progressed as hoped of late, but all of us believed that our recent setbacks were nothing we could not overcome. We still held out hope for victory, despite this recent development. But if our leader had lost hope, how long would it be until his despair found its way into our own hearts as well?
 ');

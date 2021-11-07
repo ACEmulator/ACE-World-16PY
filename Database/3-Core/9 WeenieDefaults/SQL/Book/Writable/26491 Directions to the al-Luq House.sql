@@ -32,6 +32,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (26491, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (26491, 0, 4294967295, 'Jubal al-Baljad', 'prewritten', False, '
+VALUES (26491, 0, 0xFFFFFFFF, 'Jubal al-Baljad', 'prewritten', False, '
 Lubliklan al-Luq lives with his daughter in a house at 22.4S 1.9W. He''s well known around here for his apple orchards ... and his trouble with drudges. If you pay him a visit, I''m sure he''ll tell you all about both of those things.
 ');

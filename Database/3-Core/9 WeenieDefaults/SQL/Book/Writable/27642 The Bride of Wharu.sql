@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27642, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27642, 0, 4294967295, 'Aun Sareona', 'prewritten', False, '
+VALUES (27642, 0, 0xFFFFFFFF, 'Aun Sareona', 'prewritten', False, '
 When Wharu had been driven from the back of Palenqual, our mightiest luan warriors girded themselves and descended into the hives, seeking their great mother. In the deepest hive, far underground, she was found and slain. One alone there was. As, I am told, there was one alone on the island now held by the Ispar xuta. The great mothers of the Wharu are fierce and territorial. They do not suffer each other easily.
 ');

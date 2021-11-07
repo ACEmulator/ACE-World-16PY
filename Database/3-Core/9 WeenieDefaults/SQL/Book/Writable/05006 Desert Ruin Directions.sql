@@ -31,5 +31,5 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5006, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5006, 0, 4294967295, 'Desert Ruin Directions', 'prewritten', False, 'If you travel southeastward out of town and then to the east, you will eventually cross a hill and see a second hill in the distance.  Upon the second hill is a ruin filled with unpleasant monsters.  Be cautious if you are a newcomer here!  If you get truly lost, go to 31.7S 15.0E and look eastward.
+VALUES (5006, 0, 0xFFFFFFFF, 'Desert Ruin Directions', 'prewritten', False, 'If you travel southeastward out of town and then to the east, you will eventually cross a hill and see a second hill in the distance.  Upon the second hill is a ruin filled with unpleasant monsters.  Be cautious if you are a newcomer here!  If you get truly lost, go to 31.7S 15.0E and look eastward.
 ');

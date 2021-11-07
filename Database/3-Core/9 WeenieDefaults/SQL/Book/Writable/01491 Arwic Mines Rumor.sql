@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (1491, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (1491, 0, 4294967295, 'Arwic Mines Rumor', 'prewritten', False, '
+VALUES (1491, 0, 0xFFFFFFFF, 'Arwic Mines Rumor', 'prewritten', False, '
 A traveler recently mentioned that he''d been exploring Arwic Mines, in Arwic.  Behind a locked door that he had to pick open, he found a secret group of banderlings.  He was lucky that he had a band of stalwart and experienced companions!  But one of the banderlings, he said, had some fiery weapons.  Might be worth looking into.  Newcomers had best look elsewhere before trying this.  Oh - and they say never, ever to go into the deepest, hidden areas!
 
 ');

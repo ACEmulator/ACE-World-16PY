@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5003, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5003, 0, 4294967295, 'Al-Arqas Portal Directions', 'prewritten', False, '
+VALUES (5003, 0, 0xFFFFFFFF, 'Al-Arqas Portal Directions', 'prewritten', False, '
 To find the portal to Samsur, leave Al-Arqas through the shallow path to the southeast of town.  Then follow the markers to the portal.  Do not wander, lest you become lost in the desert.
 
 ');

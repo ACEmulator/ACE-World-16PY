@@ -35,7 +35,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (30917, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (30917, 0, 4294967295, 'Carlo di Cenza', 'prewritten', False, 'Varicci has struck a deal with some vile devil. That is the only explanation. 
+VALUES (30917, 0, 0xFFFFFFFF, 'Carlo di Cenza', 'prewritten', False, 'Varicci has struck a deal with some vile devil. That is the only explanation. 
 
 It is true that we have all benefited from the magical energies that flow so freely in this new world. Many of us have taken up the mantle of the mage and discovered spells of frightening power. Eleonora''s ability with the magic of war is absolutely staggering. But the power of Varicci''s mages... There is no reasonable explanation for their awesome might. 
 

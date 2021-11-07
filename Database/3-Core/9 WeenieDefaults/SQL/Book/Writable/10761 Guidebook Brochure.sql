@@ -33,8 +33,8 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (10761, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (10761, 0, 4294967295, 'F.P.', 'prewritten', False, '        Coming soon to an Explorer agent near you: An extensively-researched guidebook all about the wonders of this strange island, Dereth!  Hang on to this brochure, folks, and turn it in when our intrepid explorer in the field has published his impressions, recommendations, and words for the wise!
+VALUES (10761, 0, 0xFFFFFFFF, 'F.P.', 'prewritten', False, '        Coming soon to an Explorer agent near you: An extensively-researched guidebook all about the wonders of this strange island, Dereth!  Hang on to this brochure, folks, and turn it in when our intrepid explorer in the field has published his impressions, recommendations, and words for the wise!
         In the meantime, just remember:  Don''t panic.  As far as I can tell, Dereth is mostly harmless.
 ')
-     , (10761, 1, 4294967295, 'F.P.', 'prewritten', False, '        This brochure good for one (1) copy of "A Portal-Jumper''s Guide to Dereth," by field agent F.P., soon to be published by the Explorer''s Society.  Publication date not yet known.
+     , (10761, 1, 0xFFFFFFFF, 'F.P.', 'prewritten', False, '        This brochure good for one (1) copy of "A Portal-Jumper''s Guide to Dereth," by field agent F.P., soon to be published by the Explorer''s Society.  Publication date not yet known.
 ');

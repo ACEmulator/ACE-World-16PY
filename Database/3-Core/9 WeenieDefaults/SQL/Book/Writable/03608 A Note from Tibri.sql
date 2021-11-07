@@ -31,9 +31,9 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (3608, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (3608, 0, 4294967295, 'Notes scribbled by Tibri', 'prewritten', False, '
+VALUES (3608, 0, 0xFFFFFFFF, 'Notes scribbled by Tibri', 'prewritten', False, '
 The Gharu are a people of the west, at least in Osteth. Their cities spread from north to south along the along the shores of the Inner Sea. If you seek the way to the terrible blighted Halls of Lost Light, you should start your journey at the intersection of the two northernmost Gharu cities in Osteth. An intersection of cities, you ask? Use your head! Seek south of the capitol and west of the home of my friend Janda Sulifiya. 
 ')
-     , (3608, 1, 4294967295, 'Notes scribbled by Tibri', 'prewritten', False, '
+     , (3608, 1, 0xFFFFFFFF, 'Notes scribbled by Tibri', 'prewritten', False, '
 There you will find the Carved Cave, a cave all together less inviting than mine. The upper levels are dangerous enough, but the depths of the cave house the lightless ones, the hideous and twisted shadowy figures that once were men, or at least much like them, but are no longer. They guard the passageway to the terrible Halls, wherein you may find the Sword -- or your death. But beware, beware -- even if you survive the journey through the Carved Cave to the Halls of Lost Light, you had best make some provision for your journey home, for you will not survive the walk back ...
 ');

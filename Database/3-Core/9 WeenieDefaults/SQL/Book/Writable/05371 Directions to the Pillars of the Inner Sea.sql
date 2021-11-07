@@ -32,6 +32,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5371, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5371, 0, 4294967295, 'Jubal al-Baljad', 'prewritten', False, '
+VALUES (5371, 0, 0xFFFFFFFF, 'Jubal al-Baljad', 'prewritten', False, '
 The greatest marvels found near Yaraq are the Pillars of the Inner Sea at the mouth of our Cove, blazing an unearthly, timeless blue. It is thought that they once guided Empyrean ships safely through the shallows. Simply follow the shore of the cove until you reach them; going south is quicker. Avoid the ruined seaport to their northeast - at 21.6S 4.1W there lies an enterance to crypts beneath the cove itself. And the appearance of the Mad Star over it can only be an ill omen!
 ');

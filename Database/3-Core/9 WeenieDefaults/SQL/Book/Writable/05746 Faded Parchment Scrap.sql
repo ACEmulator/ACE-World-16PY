@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5746, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5746, 0, 4294967295, '', 'prewritten', False, '
+VALUES (5746, 0, 0xFFFFFFFF, '', 'prewritten', False, '
 their                      will                                and 
 
      finally the                    fully        its             fall    more,          stones            down in                    dream,     laid                stones,                               them. Yet            be       to                    Witness            

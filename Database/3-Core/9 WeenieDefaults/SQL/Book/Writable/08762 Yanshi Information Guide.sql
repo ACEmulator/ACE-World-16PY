@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (8762, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (8762, 0, 4294967295, '', 'prewritten', False, 'Yanshi 12.7 S 46.4 E
+VALUES (8762, 0, 0xFFFFFFFF, '', 'prewritten', False, 'Yanshi 12.7 S 46.4 E
 North Yanshi Outpost 9.9 S 46.7 E
 South Yanshi Outpost 15.6 S 46.5 E
 Portal to Shoushi 14.7 S 46.6 E

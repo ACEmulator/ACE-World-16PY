@@ -33,23 +33,23 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (3653, 5, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (3653, 0, 4294967295, '', 'prewritten', False, 'The Advocates'' Tome
+VALUES (3653, 0, 0xFFFFFFFF, '', 'prewritten', False, 'The Advocates'' Tome
 
 The First Advocate was Queen Elysa Strathelar, who helped free humankind from the Olthoi.  Though she was never known to reveal the highest secrets of the Fanes and the Advocacy, legend says Asheron himself taught her many of her powers.  Although Queen Strathelar no longer walks among us, those committed to helping the lost, confused, and powerless have continued the tradition of the Advocacy. 
 
 (more)
 ')
-     , (3653, 1, 4294967295, '', 'prewritten', False, 'There are five levels of Advocate, each level obeying those of higher levels, and all Advocates should obey the will of the Sentinels, those sent by Asheron, and Admins.
+     , (3653, 1, 0xFFFFFFFF, '', 'prewritten', False, 'There are five levels of Advocate, each level obeying those of higher levels, and all Advocates should obey the will of the Sentinels, those sent by Asheron, and Admins.
 
 (more)
 ')
-     , (3653, 2, 4294967295, '', 'prewritten', False, 'Advocates are identified by the Aegis, a special shield whose color indicates rank.  You cannot drop, give away, or sell the Aegis.  While you are on duty as an Advocate, you must put on your Aegis in your Shield Slot.   This gives you Advocate powers and lets others know they can come to you for help.    An orange Aegis belongs to a first rank Advocate.  A second rank Advocate has a turquoise shield, and will have turquoise energy visible around him or her.  A third rank Advocate has a green shield and green energy; a fourth rank has a violet shield and violet energy; a fifth rank has a red and red energy.
+     , (3653, 2, 0xFFFFFFFF, '', 'prewritten', False, 'Advocates are identified by the Aegis, a special shield whose color indicates rank.  You cannot drop, give away, or sell the Aegis.  While you are on duty as an Advocate, you must put on your Aegis in your Shield Slot.   This gives you Advocate powers and lets others know they can come to you for help.    An orange Aegis belongs to a first rank Advocate.  A second rank Advocate has a turquoise shield, and will have turquoise energy visible around him or her.  A third rank Advocate has a green shield and green energy; a fourth rank has a violet shield and violet energy; a fifth rank has a red and red energy.
 (more)
 ')
-     , (3653, 3, 4294967295, '', 'prewritten', False, 'While on duty, your primary responsibility in this world is to help others, unless directed otherwise by a higher-ranked Advocate, Sentinel, or Admin.  Courtesy is expected of all Advocates.  Any Advocate who abuses his or her status, including but not limited to such things as helping people cheat or harassing people, should be reported to a higher level Advocate, Sentinel, or Admin.  Of course, those doing a great job should also be reported...for promotion.  Only higher level Advocates can promote other Advocates.
+     , (3653, 3, 0xFFFFFFFF, '', 'prewritten', False, 'While on duty, your primary responsibility in this world is to help others, unless directed otherwise by a higher-ranked Advocate, Sentinel, or Admin.  Courtesy is expected of all Advocates.  Any Advocate who abuses his or her status, including but not limited to such things as helping people cheat or harassing people, should be reported to a higher level Advocate, Sentinel, or Admin.  Of course, those doing a great job should also be reported...for promotion.  Only higher level Advocates can promote other Advocates.
 
 (more)
 ')
-     , (3653, 4, 4294967295, '', 'prewritten', False, 'By reading this book, you now know the basics of Advocacy.  If want to become an Advocate, you should now find a second-rank or higher Advocate and ask that he or she bestow upon you the status of Advocate first rank.
+     , (3653, 4, 0xFFFFFFFF, '', 'prewritten', False, 'By reading this book, you now know the basics of Advocacy.  If want to become an Advocate, you should now find a second-rank or higher Advocate and ask that he or she bestow upon you the status of Advocate first rank.
 
 ');

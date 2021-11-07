@@ -35,7 +35,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (15807, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (15807, 0, 4294967295, 'Brontynn Marshad', 'prewritten', False, '
+VALUES (15807, 0, 0xFFFFFFFF, 'Brontynn Marshad', 'prewritten', False, '
 Sir Cartoth,
 
 I left a letter I found for you in this chest. I am on the trail of another two letters, which I heard might be located north of Imuth Maer Doquin. I have heard reports of Tumeroks in that area. Though I am somewhat fearful, I am willing to take the risk and am headed there now.

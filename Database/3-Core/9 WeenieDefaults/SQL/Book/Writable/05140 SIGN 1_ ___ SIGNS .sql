@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5140, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5140, 0, 4294967295, 'SIGN 1: "?" SIGNS ', 'prewritten', False, ' 
+VALUES (5140, 0, 0xFFFFFFFF, 'SIGN 1: "?" SIGNS ', 'prewritten', False, ' 
 Signs with a LARGE QUESTION MARK "?" provide advice to new adventurers. Heed their wisdom.
 
 After reading each sign, follow the GLOWING ARROWS to the next sign, and DOUBLE-CLICK on it!

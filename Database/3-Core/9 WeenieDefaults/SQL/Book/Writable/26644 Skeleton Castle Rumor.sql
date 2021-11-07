@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (26644, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (26644, 0, 4294967295, '', 'prewritten', False, '
+VALUES (26644, 0, 0xFFFFFFFF, '', 'prewritten', False, '
 Warriors who partol these regions have reported a rise in skeleton activity. An abandoned castle lies near the ocean coast of the plains to the north. Rumor has it that a long dead baron has crawled from his crypt and is building himself an army of the dead there.
 ');

@@ -33,21 +33,21 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (7378, 4, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (7378, 0, 4294967295, 'Ejan Aralea', 'prewritten', False, '
+VALUES (7378, 0, 0xFFFFFFFF, 'Ejan Aralea', 'prewritten', False, '
 
 From: Ejan Aralea, Master Smith of Aerlinthe
 
 To: Shaura Lemaih, Master Smith of Ireth Lassel 
 ')
-     , (7378, 1, 4294967295, 'Ejan Aralea', 'prewritten', False, '
+     , (7378, 1, 0xFFFFFFFF, 'Ejan Aralea', 'prewritten', False, '
 Greetings, old friend. May this find you well.
 
 I have sent this messenger to you to inquire if you might have a certain spare part for the forging mechanisms in your possession. Tenkarrdun has been grumbley lately. You''ve probably heard, as I''ve heard that your Seral Ipharsis (Translator''s note: literally,"Great Crown Besnowed") remains quiescent. Lucky woman! The mountains here may be hotter and more efficient forges, but they move with unsettling ease.
 ')
-     , (7378, 2, 4294967295, 'Ejan Aralea', 'prewritten', False, '
+     , (7378, 2, 0xFFFFFFFF, 'Ejan Aralea', 'prewritten', False, '
 Yes, I fear we''ve had more pieces of the forges be crushed or melted by fresh flows in the last few days. Specifically, I need a new set of bellows for the upper forging mechanism, up here in the caldera of Tenkarrdun. If you think that''s bad, I also have to get a golem to replace the bars on one of the lower magma sluices. Hard to get at, those are - we''ll actually have to send it through our reservoir and into a thermal fumarole at its bottom! Fortunately, we have a couple of those bars stashed away in our storerooms here. We''ll have to fix that before we can get to work on the forge.
 ')
-     , (7378, 3, 4294967295, 'Ejan Aralea', 'prewritten', False, '
+     , (7378, 3, 0xFFFFFFFF, 'Ejan Aralea', 'prewritten', False, '
 I would normally send to Knorr for the bellows, but, well... Lord Asheron appears to have sealed the portals as his end. It''s anyone''s guess why. Some problem with his students, mayhaps. At any rate, I apologize for needing to plead poverty to you, Shaura. As soon as Knorr is open to travel once more, I will request replacement of your bellows.
 
 Walk with light upon your shoulders.

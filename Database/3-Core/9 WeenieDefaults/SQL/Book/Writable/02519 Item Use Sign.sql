@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (2519, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (2519, 0, 4294967295, 'Item Use', 'prewritten', False, ' 
+VALUES (2519, 0, 0xFFFFFFFF, 'Item Use', 'prewritten', False, ' 
 Double-clicking is the way to use most objects in Asheron''s Call.  For example, you can double click on doors, signs, chests, and Lifestones (large spinning blue stones in or near towns, which set where you will reappear whenever your character dies).  By the way, if you find anything in the chest and want to pick it up, just double-click it, or click and drag it to yourself or to your inventory panel.
 ');

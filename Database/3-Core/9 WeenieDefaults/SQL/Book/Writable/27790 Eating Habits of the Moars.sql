@@ -33,25 +33,25 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27790, 4, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27790, 0, 4294967295, 'Fanzen San', 'prewritten', False, '
+VALUES (27790, 0, 0xFFFFFFFF, 'Fanzen San', 'prewritten', False, '
 In the past I have been fortunate enough to translate relatively well-preserved tomes. Unfortunately, this tome is so old and damaged that translation is difficult. This scribing is as close to a summary as I can manage given the original condition of the book.
 
 ---
 
 It seems that, much like the Sclavus, the Moarsmen were originally from another world. The text describes the two shapes the Moarsmen took, both before and after their interaction with the Falatacot 
 ')
-     , (27790, 1, 4294967295, 'Fanzen San', 'prewritten', False, '
+     , (27790, 1, 0xFFFFFFFF, 'Fanzen San', 'prewritten', False, '
 with the Falatacot Priestess of ages past. This piece of literature looks to be an account of the eating habits of both the beings known as the Moar as well as what we know as Moarsmen.
 
 The first type of creature, the Moar, is described as a small yet voracious beast. The best I can relate the description to is the Carenzi found commonly on Marae Lassel. The text claims that these small creatures had no specific in their choice of food.The author mentions that their diet was varied, ranging from hunting small 
 frog-like creatures to forming packs to
 ')
-     , (27790, 2, 4294967295, 'Fanzen San', 'prewritten', False, '
+     , (27790, 2, 0xFFFFFFFF, 'Fanzen San', 'prewritten', False, '
 hunt much larger amphibians, as well as scavenging offal and rarely consuming plant material.
 
 The larger version, the one I assume we commonly know as the Moarsman, was an aggressive hunter. The notes state that the Falatacot would take the Moarsmen with them on outings, similar to the use of hunting hounds in the Aluvian Highlands. However, unlike the wild, smaller Moar, the Moarsman was easily tamable through its stomach. This led to it not being terribly particular about its meals. The note mentions that the
 ')
-     , (27790, 3, 4294967295, 'Fanzen San', 'prewritten', False, '
+     , (27790, 3, 0xFFFFFFFF, 'Fanzen San', 'prewritten', False, '
 Moarsman was more interested in the killing of competition as opposed to eating it.
 
 This fact could attribute to the lack of any significant predators on the Vesayen Islands.

@@ -30,7 +30,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (1492, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (1492, 0, 4294967295, 'Edelbar Directions', 'prewritten', False, '
+VALUES (1492, 0, 0xFFFFFFFF, 'Edelbar Directions', 'prewritten', False, '
 There''s an old abandoned settlement out to the west of Holtburg -- around 43N, 27E. I don''t know why the settlement failed, but there''s some interesting stuff in the area for brave adventurers. I''ve heard tell of a lich who lives in a shabby little hut, and a group of banderlings with some particularly nice fiery weapons.
 
 ');

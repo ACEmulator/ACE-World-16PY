@@ -35,7 +35,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (6424, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (6424, 0, 4294967295, 'Foster!', 'prewritten', False, '
+VALUES (6424, 0, 0xFFFFFFFF, 'Foster!', 'prewritten', False, '
 Instructions:
 
 You wield power and influence in this world. Perhaps you shall suit my needs in the days ahead.
@@ -49,7 +49,7 @@ Be you scared? Use the portal here to return to the world you know.
 Decide. NOW!
 
 ')
-     , (6424, 1, 4294967295, 'Foster!', 'prewritten', False, '
+     , (6424, 1, 0xFFFFFFFF, 'Foster!', 'prewritten', False, '
 Messages:
 
 (@world_emote. + name + message)

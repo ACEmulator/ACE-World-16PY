@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (1402, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (1402, 0, 4294967295, 'Rithwic Crypt Directions', 'prewritten', False, '
+VALUES (1402, 0, 0xFFFFFFFF, 'Rithwic Crypt Directions', 'prewritten', False, '
 Follow the line of menhir stones directly north from the Rithwic bridge, and you''ll come to a circle of standing stones -- and right there is one of those portals! This portal won''t take you to a safe town or anything. No, this one will take you to a nasty underground crypt full of monsters. Outsiders call it "Rithwic Crypt", but we just call it unpleasant. I''ve heard that deep inside that crypt you might find a mysterious key. There''s outlandish rumors about that key and just what it might be good for, but I can''t tell you anything more about it. No one who lives around here really knows what it''s for, but I''ve heard that Iquba, the barkeep in Qalaba''r, might know more.
 ');

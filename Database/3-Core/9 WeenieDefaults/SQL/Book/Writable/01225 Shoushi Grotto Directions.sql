@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (1225, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (1225, 0, 4294967295, 'Shoushi Grotto Directions', 'prewritten', False, '
+VALUES (1225, 0, 0xFFFFFFFF, 'Shoushi Grotto Directions', 'prewritten', False, '
 Not all dungeons in Dereth are hewn by mortal hands. On a hill due south of Shoushi is a portal that leads to caves, worn into the rock by the ages. Rumors say there are signs that the lost Empyrean race dwelled here once as well, for supposedly not all of the grotto is natural caves. And some claim to have found an unidentified key there in some sort of throne room. There''s a lot of useless keys in Dereth, but there''s a woman in Qalaba''r, name of Iquba, who knows the uses for a good many of them.
 ');

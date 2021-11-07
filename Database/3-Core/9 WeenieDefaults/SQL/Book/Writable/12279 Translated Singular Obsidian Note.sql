@@ -34,7 +34,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (12279, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (12279, 0, 4294967295, '', 'prewritten', False, 'Colleague,
+VALUES (12279, 0, 0xFFFFFFFF, '', 'prewritten', False, 'Colleague,
 
 A disaster has come to pass.  The fool Ecorto has broken from our unity, has defected to the humans and tells them of our plans and our installations around the island.  Be prepared for the humans to do their worst.  They are barbaric and crude and worthy only of destruction, but they are maddeningly persistent and clever.  Should our inferiors fail us, it remains to you to make sure that your own reserves of material remain inviolate.
 

@@ -35,6 +35,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (29075, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (29075, 0, 4294967295, 'Author Name', 'prewritten', False, '
+VALUES (29075, 0, 0xFFFFFFFF, 'Author Name', 'prewritten', False, '
 Words, words, words.
 ');

@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5100, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5100, 0, 4294967295, 'SIGN 6: ITEMS & TARGETS', 'prewritten', False, '
+VALUES (5100, 0, 0xFFFFFFFF, 'SIGN 6: ITEMS & TARGETS', 'prewritten', False, '
 When you use certain items, such as keys, you''ll need to select a TARGET for them. 
 
 To use the key to unlock the door, DOUBLE-CLICK on the key in your inventory, then CLICK on the door.  (The key will be used up.)

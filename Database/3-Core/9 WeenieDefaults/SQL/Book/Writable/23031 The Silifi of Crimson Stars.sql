@@ -28,6 +28,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (23031, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (23031, 0, 4294967295, 'The Silifi of Crimson Stars', 'prewritten', False, '
+VALUES (23031, 0, 0xFFFFFFFF, 'The Silifi of Crimson Stars', 'prewritten', False, '
 North-northeast of Uziz, around 10.2S, 31.3E, is an ancient crypt inhabited by the tormented soul Leikotha. It is rumored that Leikotha has knowledge of the fabled Silifi of the Crimson Stars. Kayna bint Iswas, a historian who lives in the desert (around 1.7S, 36.6E) has written a long volume about the Silifi, and is always looking for more information on the fate of this illustrious weapon.
 ');

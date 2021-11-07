@@ -36,7 +36,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (7905, 6, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (7905, 0, 4294967295, 'Unknown', 'prewritten', False, '
+VALUES (7905, 0, 0xFFFFFFFF, 'Unknown', 'prewritten', False, '
 We all one
 One voice
 One form
@@ -47,7 +47,7 @@ Nameless
 Eternal
 All
 ')
-     , (7905, 1, 4294967295, 'Unknown', 'prewritten', False, '
+     , (7905, 1, 0xFFFFFFFF, 'Unknown', 'prewritten', False, '
 Latecomer
 Thieves
 Bicker
@@ -63,7 +63,7 @@ Our body:
 Shares not
 These aims
 ')
-     , (7905, 2, 4294967295, 'Unknown', 'prewritten', False, '
+     , (7905, 2, 0xFFFFFFFF, 'Unknown', 'prewritten', False, '
 Our body:
 Carry tokens
 Spread vision
@@ -73,7 +73,7 @@ Not created
 Or swayed
 By latecomers
 ')
-     , (7905, 3, 4294967295, 'Unknown', 'prewritten', False, '
+     , (7905, 3, 0xFFFFFFFF, 'Unknown', 'prewritten', False, '
 Our body:
 Ready
 Possible need
@@ -83,7 +83,7 @@ Its circle
 Neglect
 One
 ')
-     , (7905, 4, 4294967295, 'Unknown', 'prewritten', False, '
+     , (7905, 4, 0xFFFFFFFF, 'Unknown', 'prewritten', False, '
 Our body:
 Loose Primes
 Not-us-servants
@@ -94,7 +94,7 @@ Of ways
 Break bindings
 Unravel web
 ')
-     , (7905, 5, 4294967295, 'Unknown', 'prewritten', False, '
+     , (7905, 5, 0xFFFFFFFF, 'Unknown', 'prewritten', False, '
 Our body:
 Sundering repaired
 One

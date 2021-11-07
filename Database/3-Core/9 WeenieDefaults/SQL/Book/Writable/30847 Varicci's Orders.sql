@@ -33,5 +33,5 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (30847, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (30847, 0, 4294967295, 'King Varicci of Sanamar', 'prewritten', False, 'You are tasked with a mission of which General Corcima himself is unaware. You are to find this Queen of theirs - this Aluvian wench. Find her, and bring me her head. I care not how you accomplish this feat. Kill whomever gets in your way, be they Bloodless or not. But do not return to my land without that woman''s head!
+VALUES (30847, 0, 0xFFFFFFFF, 'King Varicci of Sanamar', 'prewritten', False, 'You are tasked with a mission of which General Corcima himself is unaware. You are to find this Queen of theirs - this Aluvian wench. Find her, and bring me her head. I care not how you accomplish this feat. Kill whomever gets in your way, be they Bloodless or not. But do not return to my land without that woman''s head!
 ');

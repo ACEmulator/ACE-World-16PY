@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (1516, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (1516, 0, 4294967295, 'A. G.', 'prewritten', False, '
+VALUES (1516, 0, 0xFFFFFFFF, 'A. G.', 'prewritten', False, '
 ...found a shortcut to ... place mentioned by Y''l... freedom from Asheron''s safety ... but ... dangerous journey.  11....N 33.7E ... Empyrean ruins, with the hermit ... portal goes to a deadly ... Direlands ... run fast ... it is safer in the dungeon.  Tumeroks nearby ... worse than the ones near Dryreach.  I think ... near ... cattle ... don''t go looking; just do what you have to do to be free.
 ');

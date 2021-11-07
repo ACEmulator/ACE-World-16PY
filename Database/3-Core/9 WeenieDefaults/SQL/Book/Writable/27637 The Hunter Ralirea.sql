@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27637, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27637, 0, 4294967295, 'Aun Sareona', 'prewritten', False, '
+VALUES (27637, 0, 0xFFFFFFFF, 'Aun Sareona', 'prewritten', False, '
 Aun Ralirea spends all his time in the wilds of the plateau, among the nuuani. He hunts for our xuta, and they are a worthy food for ritual. You call them gromnies, I think. An undignified name for the race. Ah, but I can see you do not know them as we do.
 ');

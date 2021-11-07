@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27634, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27634, 0, 4294967295, 'Aun Sareona', 'prewritten', False, '
+VALUES (27634, 0, 0xFFFFFFFF, 'Aun Sareona', 'prewritten', False, '
 I have heard that tailless call us "Tumerok." An abominable name! Do you even know what it means? The true name of our kind is Tonk. Tonk was the First Sound; Drop falling into Still Waters. His echo resounds forever. If you lie still in a silent place, you can still hear him pounding in your ear.
 ');

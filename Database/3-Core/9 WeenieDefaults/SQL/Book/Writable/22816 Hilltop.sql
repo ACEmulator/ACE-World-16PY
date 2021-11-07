@@ -30,7 +30,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (22816, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (22816, 0, 4294967295, 'Hilltop', 'prewritten', False, '
+VALUES (22816, 0, 0xFFFFFFFF, 'Hilltop', 'prewritten', False, '
 Far, far away, near Fort Tethana, there''s a portal that drops you on a hilltop not far from here -- at about 33N 35E. That portal may be a convenience for travelers, but it''s caused us trouble enough. A bunch of Drudge Raveners came through and set up housekeeping in the tower on the hill, and now we can''t get rid of them!
 
 ');

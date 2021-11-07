@@ -32,13 +32,13 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (3665, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (3665, 0, 4294967295, '', 'prewritten', False, 'Book of Advocates
+VALUES (3665, 0, 0xFFFFFFFF, '', 'prewritten', False, 'Book of Advocates
 
 Advocates follow in the great footsteps of the First Advocate Elysa Strathelar, who guided her people as Queen after she helped free humankind from Olthoi rule.  Although Queen Elysa no longer walks among us, those committed to helping others have continued the tradition of the Advocacy.
 
 (more)
 ')
-     , (3665, 1, 4294967295, '', 'prewritten', False, 'Advocates are identified by the Aegis, a special shield that can only be held by an Advocate. An orange Aegis belongs to an Advocate in training. An Advocate has a turquoise shield, and will have turquoise energy visible around him or her.
+     , (3665, 1, 0xFFFFFFFF, '', 'prewritten', False, 'Advocates are identified by the Aegis, a special shield that can only be held by an Advocate. An orange Aegis belongs to an Advocate in training. An Advocate has a turquoise shield, and will have turquoise energy visible around him or her.
 
 On-duty Advocates also appear as pink dot on the Compass.
 ');

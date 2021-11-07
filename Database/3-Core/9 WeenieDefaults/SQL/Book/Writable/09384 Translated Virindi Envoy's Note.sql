@@ -34,11 +34,11 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (9384, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (9384, 0, 4294967295, 'Unknown', 'prewritten', False, '
+VALUES (9384, 0, 0xFFFFFFFF, 'Unknown', 'prewritten', False, '
 Your task is simple.  You shall be our contact point with the renegade rock walkers.  We have much in common with their faction.  Despite the humans'' persecution of their kind, the leaders of their race will attempt to make some overtures to their fellow flesh-puppets.  A group of renegades, who have control of deposits of the anti-magical mineral, are rebelling against their misguided leaders, just as we have done.
 
 ')
-     , (9384, 1, 4294967295, 'Unknown', 'prewritten', False, '
+     , (9384, 1, 0xFFFFFFFF, 'Unknown', 'prewritten', False, '
 It is the will of the New Directive that you establish a base of operations in the southern mountains, near the home of the renegades. We still find this emphasis on physicality to be novel and unsettling, but it is important to consider proximity.  Make contact with the renegades and negotiate with them.  Secure further deliveries of the anti-magic mineral, and offer them assistance in breaching the walls of their mountain fastness.
 
 --Speaker of the New Directive

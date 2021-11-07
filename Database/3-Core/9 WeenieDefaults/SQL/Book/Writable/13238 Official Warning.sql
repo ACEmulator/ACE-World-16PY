@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (13238, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (13238, 0, 4294967295, 'Strathelar Guard', 'prewritten', False, 'The Arcanum has discovered portal disturbances near the 18 arrival points. In response, our Queen has sent her Guards to fortify the Academy outposts of Holtburg, Shoushi, and Yaraq. Also, she has charged the Arcanum to graft the levitation magic found in the Empyrean storehouses in Xarabydun onto freshly-carved Obelisks.
+VALUES (13238, 0, 0xFFFFFFFF, 'Strathelar Guard', 'prewritten', False, 'The Arcanum has discovered portal disturbances near the 18 arrival points. In response, our Queen has sent her Guards to fortify the Academy outposts of Holtburg, Shoushi, and Yaraq. Also, she has charged the Arcanum to graft the levitation magic found in the Empyrean storehouses in Xarabydun onto freshly-carved Obelisks.
 
 It is hoped that the presence of these markers around the safest perimeters of these towns will stabilize the shifting portal space in these areas; however, new arrivals should take care to remain within these boundaries until they gain enough experience to brave the harsher wilds of Dereth.
 ');

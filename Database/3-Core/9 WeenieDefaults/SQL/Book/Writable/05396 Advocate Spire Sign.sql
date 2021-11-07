@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5396, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5396, 0, 4294967295, 'About Advocates', 'prewritten', False, 'An Advocate is a dedicated PLAYER who volunteers time to help new players and address player disputes. They can be identified by their PINK COMPASS DOT and bright, glowing Advocate shield.
+VALUES (5396, 0, 0xFFFFFFFF, 'About Advocates', 'prewritten', False, 'An Advocate is a dedicated PLAYER who volunteers time to help new players and address player disputes. They can be identified by their PINK COMPASS DOT and bright, glowing Advocate shield.
 
 To look for Advocates watching over your starting town, type "@list <town>". Example: to find the Advocates currently watching Nanto, type "@list Nanto".
 

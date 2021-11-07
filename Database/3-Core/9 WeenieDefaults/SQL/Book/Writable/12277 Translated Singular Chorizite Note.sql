@@ -34,7 +34,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (12277, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (12277, 0, 4294967295, '', 'prewritten', False, 'Honored ally,
+VALUES (12277, 0, 0xFFFFFFFF, '', 'prewritten', False, 'Honored ally,
 
 We are pleased to have your cooperation and assistance in this important phase of our joint plan.  Guard the mineral well.  One of our own has betrayed us and provides traitorous advice and guidance to the humans.  Expect human raids in your installation.  As soon as we have completed the construction of our New Singularity, we will assist you in your efforts to circumvent the defenses of your home fortress.
 

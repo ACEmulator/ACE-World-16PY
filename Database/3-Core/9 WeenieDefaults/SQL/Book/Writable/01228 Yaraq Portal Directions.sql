@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (1228, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (1228, 0, 4294967295, 'Yaraq Portal Directions', 'prewritten', False, '
+VALUES (1228, 0, 0xFFFFFFFF, 'Yaraq Portal Directions', 'prewritten', False, '
 To find the portal to Samsur, follow the road south out of Yaraq, but keep going when you reach the second bend.
 
 The portal to Al-Arqas is very close to the Samsur portal.  Look for the rock formations south of the road.

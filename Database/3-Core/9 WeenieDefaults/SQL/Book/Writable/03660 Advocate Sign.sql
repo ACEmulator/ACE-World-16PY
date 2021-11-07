@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (3660, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (3660, 0, 4294967295, '', 'prewritten', False, '
+VALUES (3660, 0, 0xFFFFFFFF, '', 'prewritten', False, '
 An Advocate is someone who is always willing to courteously help those in need.  Dedicated Advocates may rise up within the ranks, earning more duties and functions.  Advocates must heed the instructions of the Sentinels.  WARNING: Those who abuse their Advocate status will be dealt with harshly!  Leave now if you do not wish to become an Advocate.
 ');

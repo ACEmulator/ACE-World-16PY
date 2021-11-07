@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (2510, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (2510, 0, 4294967295, 'Exit Sign', 'prewritten', False, '
+VALUES (2510, 0, 0xFFFFFFFF, 'Exit Sign', 'prewritten', False, '
 This portal will take you back outside.  Once outside, we suggest you look around for the town, head toward it, and buy some clues from the barkeep.  (Some scribes, by the way, sell higher level rumors.)  Gather up your friends before you go adventuring!  And finally, don''t forget the useful Help information available when you click the question mark at the top right of the screen.
 ');

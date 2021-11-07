@@ -34,7 +34,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (30397, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (30397, 0, 4294967295, 'Suzuhara Sheshumi', 'prewritten', False, 'My dear brother,
+VALUES (30397, 0, 0xFFFFFFFF, 'Suzuhara Sheshumi', 'prewritten', False, 'My dear brother,
 
 You have once again proven that of the two of us, it is you who was blessed with the greatest heart. I thank you dearly for this package. The contents that you have so lovingly provided, coupled with the healing air of the sea, will surely cure these ailing lungs of mine.
 

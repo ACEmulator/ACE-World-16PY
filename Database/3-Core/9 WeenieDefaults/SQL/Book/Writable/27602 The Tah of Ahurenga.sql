@@ -31,9 +31,9 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27602, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27602, 0, 4294967295, 'Hea Dregona', 'prewritten', False, '
+VALUES (27602, 0, 0xFFFFFFFF, 'Hea Dregona', 'prewritten', False, '
 Many years ago, when Hea and Aun lived together in Timaru, the atual arutoa greeted our glorious tah. The Aun were cruel and cold to him, though they will tell you otherwise. An orphan, they cared for him not. Starving, they fed him not. To Hea Arantah alone, chosen of the atual arutoa, were offered powers of great wrath, with which he led the outcast and scorned children of Timaru into the wild.  Forty passages of the moons later, he led them back to take the Hea xuta for their own. Hea Huantah had his feet set upon the road, forevermore to be known as Tonk Huanpuh. Now the proud are cast
 ')
-     , (27602, 1, 4294967295, 'Hea Dregona', 'prewritten', False, '
+     , (27602, 1, 0xFFFFFFFF, 'Hea Dregona', 'prewritten', False, '
 cast down, and gnash their teeth at their own selfishness and cruelty. Hea Arantah is blessed among us. Blessed...
 ');

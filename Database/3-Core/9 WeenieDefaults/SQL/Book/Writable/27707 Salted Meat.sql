@@ -31,9 +31,9 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27707, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27707, 0, 4294967295, 'Utakhe', 'prewritten', False, 'It is a custom to offer gifts to those that are new to a place. We come to you with this offer of peace and ask that you join us. We send now a great gift from our people. This specially prepared meat has the ability to close wounds at an accelerated rate. We offer it now to you to show good faith between our peoples. I have spoken to the spirits of this world and they have told that your arrival is a bane to our enemies and this pleases us. 
+VALUES (27707, 0, 0xFFFFFFFF, 'Utakhe', 'prewritten', False, 'It is a custom to offer gifts to those that are new to a place. We come to you with this offer of peace and ask that you join us. We send now a great gift from our people. This specially prepared meat has the ability to close wounds at an accelerated rate. We offer it now to you to show good faith between our peoples. I have spoken to the spirits of this world and they have told that your arrival is a bane to our enemies and this pleases us. 
 ')
-     , (27707, 1, 4294967295, 'Utakhe', 'prewritten', False, 'We have also given over a necklace that is used to invoke the spirits and assist us in speaking with them. It is carved from the bones of fallen enemies. Use it well.
+     , (27707, 1, 0xFFFFFFFF, 'Utakhe', 'prewritten', False, 'We have also given over a necklace that is used to invoke the spirits and assist us in speaking with them. It is carved from the bones of fallen enemies. Use it well.
 
 We look at the future with hope in our hearts. We look forward to the future.
 

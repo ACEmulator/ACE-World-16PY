@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (6417, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (6417, 0, 4294967295, 'A Stinging Stone', 'prewritten', False, '
+VALUES (6417, 0, 0xFFFFFFFF, 'A Stinging Stone', 'prewritten', False, '
 A most unusual tale has been told to me several times this week. It seems that a lone swordsman, hunting mosswarts in the Blackmire west of Sawato, came across a huge ruined keep inhabited by Sclavus. Nearby, to the northeast, an unusual granite cave thrust up from the ground. In this cave he found a green stone of unusual quality. It is said that a  mage of some ability examined the stone, and determined it to have several enchantments upon it. What these were, and how to activate them, he could not discern.
 ');

@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5742, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5742, 0, 4294967295, '', 'prewritten', False, '
+VALUES (5742, 0, 0xFFFFFFFF, '', 'prewritten', False, '
            live,                       of he           them             spread              the earth.                 be          men,                       grow with             of       They       brook             of           shall know                no woman             enter             and     feel              And            will         many               and 
 
                                     fully

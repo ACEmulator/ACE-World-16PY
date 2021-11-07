@@ -33,7 +33,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5041, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5041, 0, 4294967295, 'Worcer', 'prewritten', False, '
+VALUES (5041, 0, 0xFFFFFFFF, 'Worcer', 'prewritten', False, '
 This adventurer was able to recover one of my mother''s antique platters for me from the Redoubt. Perhaps you should mention your problem, Miss Ryndmad.
  
 ');

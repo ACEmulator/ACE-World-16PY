@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27641, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27641, 0, 4294967295, 'Aun Sareona', 'prewritten', False, '
+VALUES (27641, 0, 0xFFFFFFFF, 'Aun Sareona', 'prewritten', False, '
 Many flights of the moons ago, tall towers of alabaster stood upon the back of great Palenqual. In many of these were hung great metal objects that would speak in mighty tongues at the rising and going down of the sun. So did the ones who came here greet the lights they once served. So have the spirits of this land told us.
 ');

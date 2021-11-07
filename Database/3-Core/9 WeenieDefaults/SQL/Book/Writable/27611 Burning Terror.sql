@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27611, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27611, 0, 4294967295, 'Kasin ibn Sayrak', 'prewritten', False, '
+VALUES (27611, 0, 0xFFFFFFFF, 'Kasin ibn Sayrak', 'prewritten', False, '
 Burn and electrocution victims have been limping back into town for weeks. We have not yet determined what out in the wilderness could cause this much agony.
 ');

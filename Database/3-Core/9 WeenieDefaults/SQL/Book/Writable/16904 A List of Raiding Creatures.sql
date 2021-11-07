@@ -34,7 +34,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (16904, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (16904, 0, 4294967295, 'Arcanum', 'prewritten', False, 'These are the creatures that were present at the raid on our stores:
+VALUES (16904, 0, 0xFFFFFFFF, 'Arcanum', 'prewritten', False, 'These are the creatures that were present at the raid on our stores:
 Banderling Berserkers
 Banderling Strikers
 Brutish Monougas

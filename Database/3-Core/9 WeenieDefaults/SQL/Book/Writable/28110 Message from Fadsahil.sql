@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (28110, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (28110, 0, 4294967295, 'Fadsahil al-Tashbi', 'prewritten', False, '
+VALUES (28110, 0, 0xFFFFFFFF, 'Fadsahil al-Tashbi', 'prewritten', False, '
 I offer this gift to you at the behest of High Queen Elysa. I also wish to thank those who have taken an interest in my former shop. You have done much to assure me that I am now safe, although I may have been in grave danger before. I offer you my thanks,
 
 Fadsahil al-Tashbi

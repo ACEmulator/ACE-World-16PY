@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (28117, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (28117, 0, 4294967295, 'Xuut', 'prewritten', False, '
+VALUES (28117, 0, 0xFFFFFFFF, 'Xuut', 'prewritten', False, '
 Continuing with my line of Aphus Lassel items I have worked another masterpiece. As I walked along the shore of the islands I was struck by a desire to get my feet wet, but not my leggings, so I dreamed up these pants. As an added reason to wear the pants they are gifted with a spell that will make fleeing from the Tuskers indigenous to the island much simpler.
 
 Xuut

@@ -31,10 +31,10 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27706, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27706, 0, 4294967295, 'Ollar', 'prewritten', False, 'My brothers in arms are wielders of powerful magic, like you and your kind. We are their smiths and we often find new ways to fuel their energy and tie to the mystical forces of this world. We have thus crafted a potent brew to assist them in regaining their mystical energy.
+VALUES (27706, 0, 0xFFFFFFFF, 'Ollar', 'prewritten', False, 'My brothers in arms are wielders of powerful magic, like you and your kind. We are their smiths and we often find new ways to fuel their energy and tie to the mystical forces of this world. We have thus crafted a potent brew to assist them in regaining their mystical energy.
 One draught of this liquid will replenish a great deal of mystical energy. We send this to you so that you see we are intent on assisting you in your endeavors here.
 ')
-     , (27706, 1, 4294967295, 'Ollar', 'prewritten', False, 'I have also included a special hide shirt that my Tumerok brothers have crafted. It''s beneficial to those who wear it by protecting them from the perils of all danger, and more importantly the pounding and bludgeoning weapons of our enemies.
+     , (27706, 1, 0xFFFFFFFF, 'Ollar', 'prewritten', False, 'I have also included a special hide shirt that my Tumerok brothers have crafted. It''s beneficial to those who wear it by protecting them from the perils of all danger, and more importantly the pounding and bludgeoning weapons of our enemies.
 
 Ollar, Captain of the Stonehold Garrison
 ');

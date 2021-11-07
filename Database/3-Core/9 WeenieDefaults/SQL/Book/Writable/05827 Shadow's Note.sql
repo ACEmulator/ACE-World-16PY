@@ -33,7 +33,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5827, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5827, 0, 4294967295, 'A Shadow', 'prewritten', False, '
+VALUES (5827, 0, 0xFFFFFFFF, 'A Shadow', 'prewritten', False, '
 It is time for the master to return. Cold darkness is seeping across the land and it''s filling our bodies with new power. I can feel him waiting and his power is growing even in his imprisonment. He wants to be free. As much as  I fear the Virindi, I fear the Hopeslayer more. I shall seek them out and if they do not destroy me on sight, I shall ask for aid help in returning Bael''Zharon to Dereth. You will be free soon, First Herald. Then we shall free the Great Master. Soon...
 
 ');

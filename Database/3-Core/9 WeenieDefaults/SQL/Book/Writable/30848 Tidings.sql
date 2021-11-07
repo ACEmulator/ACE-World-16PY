@@ -33,9 +33,9 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (30848, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (30848, 0, 4294967295, 'Duke Bellenesse', 'prewritten', False, 'You have done well. The maps you supplied to my soldiers have proven most useful. This is the most detailed intelligence we have yet uncovered of Varicci''s plans and capabilities.
+VALUES (30848, 0, 0xFFFFFFFF, 'Duke Bellenesse', 'prewritten', False, 'You have done well. The maps you supplied to my soldiers have proven most useful. This is the most detailed intelligence we have yet uncovered of Varicci''s plans and capabilities.
 
 I hope you will think on the matter which we discussed last month. You are vital to our cause. Of all our spies, none are as highly placed as you. You have Varicci''s ear! Soon, you will have his head!
 ')
-     , (30848, 1, 4294967295, 'Duke Bellenesse', 'prewritten', False, 'Do not give up hope. The time to strike grows near. That monster will pay for his crimes. You have my word.
+     , (30848, 1, 0xFFFFFFFF, 'Duke Bellenesse', 'prewritten', False, 'Do not give up hope. The time to strike grows near. That monster will pay for his crimes. You have my word.
 ');

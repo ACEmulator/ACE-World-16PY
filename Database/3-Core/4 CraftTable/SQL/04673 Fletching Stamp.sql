@@ -26,7 +26,7 @@ INSERT INTO `recipe_mods_float` (`recipe_Mod_Id`, `index`, `stat`, `value`, `enu
 VALUES (@parent_id, 1,  12, 0, 3, 1) /* On Source.SuccessSource CopyFromSourceToTarget Shade to Source */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `executes_On_Success`, `health`, `stamina`, `mana`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
-VALUES (4673, False, 0, 0, 0, True, 939524111, 1, 0);
+VALUES (4673, False, 0, 0, 0, True, 0x3800000F, 1, 0);
 
 SET @parent_id = LAST_INSERT_ID();
 

@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (23351, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (23351, 0, 4294967295, 'Saolor Lentain ', 'prewritten', False, 'For you, Aia, this Tower,
+VALUES (23351, 0, 0xFFFFFFFF, 'Saolor Lentain ', 'prewritten', False, 'For you, Aia, this Tower,
 Built, for I could do naught else right for you,
 This Tower to pierce the sky,
 As you have done to my soul,

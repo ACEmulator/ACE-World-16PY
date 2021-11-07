@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (26486, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (26486, 0, 4294967295, '', 'prewritten', False, '
+VALUES (26486, 0, 0xFFFFFFFF, '', 'prewritten', False, '
 Travelers to Eastham beware! The old Sho outpost to the western peaks of the Snowflake mountain range is abandoned no more. Some rather fierce Lugians have made it their home. No doubt the chest they are guarding contains fabulous treasure, but no one has returned to tell the tale. 
 ');

@@ -36,13 +36,13 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (14441, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (14441, 0, 4294967295, 'Sir Tenshin', 'prewritten', False, 'Dame Tsaya,
+VALUES (14441, 0, 0xFFFFFFFF, 'Sir Tenshin', 'prewritten', False, 'Dame Tsaya,
 
 It is with a great deal of stress and trepidation that I update you on the latest developments here in Shoushi. I have had reports that a farmer living on the outskirts of town had recently been acting extremely strangely--acting genially towards his customers one minute, then shouting and berating them in the next. What''s more, he claimed to have come into a large inheritance-which is odd, because everyone in town  knows his parents remained in Ispar.
 
 After interviewing the farmer, the bearer of this message found a trap door towards the 
 ')
-     , (14441, 1, 4294967295, 'Sir Tenshin', 'prewritten', False, 'rear of his house, leading down to a seeminly innocuous cellar. However, a large cache of weapons was found behind a hidden doorway as well as stacks of Guard uniforms.
+     , (14441, 1, 0xFFFFFFFF, 'Sir Tenshin', 'prewritten', False, 'rear of his house, leading down to a seeminly innocuous cellar. However, a large cache of weapons was found behind a hidden doorway as well as stacks of Guard uniforms.
 
 Now I ask you, Tsaya, how could this farmer store such a large arsenal and obtain these obviously stolen uniforms? There must be breach in our security-the Queen must be notified at once.
 

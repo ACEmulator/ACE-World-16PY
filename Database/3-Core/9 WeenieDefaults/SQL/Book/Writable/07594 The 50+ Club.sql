@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (7594, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (7594, 0, 4294967295, 'Mistress Domino', 'prewritten', False, 'Welcome to The Halls of Xanadu
+VALUES (7594, 0, 0xFFFFFFFF, 'Mistress Domino', 'prewritten', False, 'Welcome to The Halls of Xanadu
 
 If you have come so far, risen so high, that you may read these words than you justly deserve entrance to this hall.
 

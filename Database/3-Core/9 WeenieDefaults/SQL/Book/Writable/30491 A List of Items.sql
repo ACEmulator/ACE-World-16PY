@@ -34,7 +34,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (30491, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (30491, 0, 4294967295, 'Worcer', 'prewritten', False, '
+VALUES (30491, 0, 0xFFFFFFFF, 'Worcer', 'prewritten', False, '
 Please retrieve the following items from the Holtburg Redoubt, at 40.4N 34.5E, and return them to Worcer, in the bar in Holtburg:
 
 - Antique Platter 

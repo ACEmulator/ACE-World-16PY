@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5102, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5102, 0, 4294967295, 'Training Master', 'prewritten', False, '
+VALUES (5102, 0, 0xFFFFFFFF, 'Training Master', 'prewritten', False, '
 Click the button with a DOVE to enter Combat Mode, which displays the Combat Bar. 
 
 Select a target by CLICKING on it, or on its dot on the compass. 

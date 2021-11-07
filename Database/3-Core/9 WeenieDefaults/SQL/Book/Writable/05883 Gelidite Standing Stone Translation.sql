@@ -32,6 +32,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5883, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5883, 0, 4294967295, 'Translated by Kuyiza bint Zayi', 'prewritten', False, '
+VALUES (5883, 0, 0xFFFFFFFF, 'Translated by Kuyiza bint Zayi', 'prewritten', False, '
 86ce001469.00589.425251.710210.192
 ');

@@ -35,7 +35,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (25694, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (25694, 0, 4294967295, 'Translated by Kuyiza bint Zayi', 'prewritten', False, 'World Shaper, 
+VALUES (25694, 0, 0xFFFFFFFF, 'Translated by Kuyiza bint Zayi', 'prewritten', False, 'World Shaper, 
 All transpires as He has foretold. I am aware of your concerns over the outlanders, specifically the singer. I say this, listen not to the songs that are sung, for she calls without thought. She will not wake the sleepers and her limited understanding and capacity for the Art will restrict her.
 If the sleepers do wake, we shall dispose of them as we had in the past. Our attention must rest upon the dark spawn, and their brood mind at the present.
 Amauxi

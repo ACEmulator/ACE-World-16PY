@@ -32,6 +32,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (13237, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (13237, 0, 4294967295, '', 'prewritten', False, 'There have recently been strange portal disturbances near the nine Nexus Towns. Sages are still uncertain of their origin, for the magic bears a quality never encountere until now. We must do what we can to protect the most vulnerable among us, those who have just arrived and lack knowledge and protection in this world. I am tasking you to train these new arrivals. Give them the skills they need to survive here, for as long as the danger endures. Once stability returns to the Nexus Towns, I will recall you to rejoin your colleagues. 
+VALUES (13237, 0, 0xFFFFFFFF, '', 'prewritten', False, 'There have recently been strange portal disturbances near the nine Nexus Towns. Sages are still uncertain of their origin, for the magic bears a quality never encountere until now. We must do what we can to protect the most vulnerable among us, those who have just arrived and lack knowledge and protection in this world. I am tasking you to train these new arrivals. Give them the skills they need to survive here, for as long as the danger endures. Once stability returns to the Nexus Towns, I will recall you to rejoin your colleagues. 
 (Sealed with the Sigil of Elysa Strathelar, High Queen of Aluvia)
 ');

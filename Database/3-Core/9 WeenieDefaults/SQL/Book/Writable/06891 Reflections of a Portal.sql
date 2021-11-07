@@ -36,15 +36,15 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (6891, 3, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (6891, 0, 4294967295, 'Miyako of Nanto', 'prewritten', False, 'swirling purple mist
+VALUES (6891, 0, 0xFFFFFFFF, 'Miyako of Nanto', 'prewritten', False, 'swirling purple mist
 beckons me to roam afar
 and yet I remain
 ')
-     , (6891, 1, 4294967295, 'Miyako of Nanto', 'prewritten', False, 'watch the swan swimming
+     , (6891, 1, 0xFFFFFFFF, 'Miyako of Nanto', 'prewritten', False, 'watch the swan swimming
 splendid, tranquil floating bird
 yet all is fleeting
 ')
-     , (6891, 2, 4294967295, 'Miyako of Nanto', 'prewritten', False, 'swallow soars o''erhead
+     , (6891, 2, 0xFFFFFFFF, 'Miyako of Nanto', 'prewritten', False, 'swallow soars o''erhead
 my prayers ascend to Iiwah
 longing to follow
 ');

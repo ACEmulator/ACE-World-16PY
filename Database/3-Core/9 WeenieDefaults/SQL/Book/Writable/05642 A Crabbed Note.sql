@@ -34,6 +34,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5642, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5642, 0, 4294967295, 'Harlune', 'prewritten', False, '
+VALUES (5642, 0, 0xFFFFFFFF, 'Harlune', 'prewritten', False, '
 Celcynd, I loaned you one of my histories of Aluvia several years ago.  If you hadn''t turned into a drunken moron, perhaps you''d remember.  When I hear the people of Holtburg praising you for saving their children all those years ago, the thought of your current condition sickens me.  If I could trouble you to pull your head out of the wine, and possibly forgive yourself for what happened with the second portal, give my book to this adventurer, who''s pledged to bring it back to me.
 ');

@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5603, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5603, 0, 4294967295, 'Directions to Eastham Sewer', 'prewritten', False, 'An old sewer is located north of town from Farnum''s shop. It''s not far from here and within sight of the shore.
+VALUES (5603, 0, 0xFFFFFFFF, 'Directions to Eastham Sewer', 'prewritten', False, 'An old sewer is located north of town from Farnum''s shop. It''s not far from here and within sight of the shore.
 
 Bandits and vagabonds once used the sewer as a place of refuge. Recently, the sewer has become home to drudges and shreths. 
 

@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5674, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5674, 0, 4294967295, 'Gondibyr Langarl', 'prewritten', False, '
+VALUES (5674, 0, 0xFFFFFFFF, 'Gondibyr Langarl', 'prewritten', False, '
 I once worked for Lord Cambarth, of Cragstone.  He followed in the footsteps of Locke, and spent much time searching the Direlands for relics of value.  He was a mighty man, and reasoned that the timid would pay well for items from those lands.  He found crystalline growths in Mount Lethe, a volcano on the mid-western coast, which made those near them feel unaccountably weak.  Believing mages would pay well for them, he hired men to mine them out.  None of the crystal they recovered left the Direlands, but he did grow wealthy selling them to someone.
 ');

@@ -36,7 +36,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5171, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5171, 0, 4294967295, 'Nasun and Ahyara', 'prewritten', False, '
+VALUES (5171, 0, 0xFFFFFFFF, 'Nasun and Ahyara', 'prewritten', False, '
 Lovely Mara,
 
 We have had news of fortune''s munificence to you.  Accept our compliments in this happy time.

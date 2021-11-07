@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (1530, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (1530, 0, 4294967295, '', 'prewritten', False, 'A Rumor
+VALUES (1530, 0, 0xFFFFFFFF, '', 'prewritten', False, 'A Rumor
 
 <Far to the north and east of Holtburg?> there is a place where a bunch of hopeful youngsters once went to start a new town.  They found a mine or two and began working the mines, so they named the town Colier.  But alas, banderlings swept into town one day, and all but a handful of people were lost.  And this in the days when the resurrection wasn''t always working.  Still, there''s said to be gems of all sorts in that mine.
 

@@ -34,7 +34,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (6422, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (6422, 0, 4294967295, 'Unsigned', 'prewritten', False, '
+VALUES (6422, 0, 0xFFFFFFFF, 'Unsigned', 'prewritten', False, '
 Traveler, if you find these words, pity me. A voice flowing with menace  stole me from my wanderings, and offered a glittering prize if I would only find my way to yonder green mountain.
 
 But I know better than to trust a demon''s deal. The twisting canyons below seem like some madman''s labyrinth, and I fear I will not succeed in this task. I can only imagine what failure might bring,  and yet I am strangely compelled to accept the dark voice''s challenge...

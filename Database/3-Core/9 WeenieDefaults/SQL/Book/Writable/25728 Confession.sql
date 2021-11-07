@@ -35,7 +35,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (25728, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (25728, 0, 4294967295, 'Gentleman Jake Hawkins', 'prewritten', False, '
+VALUES (25728, 0, 0xFFFFFFFF, 'Gentleman Jake Hawkins', 'prewritten', False, '
 To whom it may concern,
 I heard rumors of a plot to remove an important woman in power. I became frightened and left the bandit stronghold where I was living and went on the run. I feel terrible about what happened to High Queen Elysa. I fear that the men who are in charge of the bandits may be behind the attempt on her life.
 Gentleman Jake Hawkins

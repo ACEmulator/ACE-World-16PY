@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (11950, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (11950, 0, 4294967295, 'Amaltah', 'prewritten', False, '
+VALUES (11950, 0, 0xFFFFFFFF, 'Amaltah', 'prewritten', False, '
 Hear me, Serpent Clan: Your efforts are not forgotten, and you are needed by those who call you brother. Atua ngamaru has abandoned us, and it is time we carve a homeland for ourselves and take what is ours. We shall need your knowledge, your cunning, and your bite. You shall be exalted among us as brothers and heroes.
 
 Gather with us near the Isparian settlement of Dryreach. We train there for our conquest.

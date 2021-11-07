@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (28536, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (28536, 0, 4294967295, 'Unknown', 'prewritten', False, '
+VALUES (28536, 0, 0xFFFFFFFF, 'Unknown', 'prewritten', False, '
 Just beyond the lifestone west of Al-Jalima lies a perilous path, leading to the mountain ridge.  If one heads almost due west from town and follows this mountain pass, the entrance to the Carved Caves will be found near 7.5N 0.6E.
 ');

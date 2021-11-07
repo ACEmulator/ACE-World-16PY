@@ -37,6 +37,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (24258, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (24258, 0, 4294967295, 'Scout Nytani Strongbow', 'prewritten', False, '
+VALUES (24258, 0, 0xFFFFFFFF, 'Scout Nytani Strongbow', 'prewritten', False, '
 I have managed to get down to this new level still alive. No previous scouting expeditions reported the existence of this tunnel which appears to be new, nor this portal.  I will go through it and see where it leads. If you should get this note please bring it to the High Queen so she is aware of the situation.
 ');

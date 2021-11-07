@@ -33,5 +33,5 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (6031, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (6031, 0, 4294967295, 'Unkown', 'prewritten', False, 'Recent arrivals from Ispar speak of the lost master of a guild of assassins, who fled to Dereth after a great disgrace. He is rumored to have taken up residence in the Direlands and may even be treating with the mysterious shadow creatures who lurk in the darkest lairs. He speaks to no one, however, without the recommendation of his daughter. His daughter is said to recruit followers through her contacts among the ivory crafters.
+VALUES (6031, 0, 0xFFFFFFFF, 'Unkown', 'prewritten', False, 'Recent arrivals from Ispar speak of the lost master of a guild of assassins, who fled to Dereth after a great disgrace. He is rumored to have taken up residence in the Direlands and may even be treating with the mysterious shadow creatures who lurk in the darkest lairs. He speaks to no one, however, without the recommendation of his daughter. His daughter is said to recruit followers through her contacts among the ivory crafters.
 ');

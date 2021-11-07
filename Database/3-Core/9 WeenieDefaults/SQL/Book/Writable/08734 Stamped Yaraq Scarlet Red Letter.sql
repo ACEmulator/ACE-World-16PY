@@ -36,9 +36,9 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (8734, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (8734, 0, 4294967295, '', 'prewritten', False, 'Once this Red Letter is stamped with a Town Stamp, it can be turned into an authorized Society Agent for a reward. Look in the Book of Quests for New Explorers to start on your way. Any of the Society Agents who are catering to new arrivals  in the nine Nexus towns maybe be contacted to obtain this guide.
+VALUES (8734, 0, 0xFFFFFFFF, '', 'prewritten', False, 'Once this Red Letter is stamped with a Town Stamp, it can be turned into an authorized Society Agent for a reward. Look in the Book of Quests for New Explorers to start on your way. Any of the Society Agents who are catering to new arrivals  in the nine Nexus towns maybe be contacted to obtain this guide.
 ')
-     , (8734, 1, 4294967295, '', 'prewritten', False, '"Why do I hate Armoredillos?  Once upon a time, I had waged a long and arduous campaign to win the heart of the inestimable Hajima.  Overcoming many miles of separation, slanderous rumors, and an inflexible husband, I was in sight of successfully wooing my heart''s desire.  The scene was perfect: a remote desert tent set in the gentle moonlit sands, fine wine, food full of spice and bite, a soft candlelit glow...until that loathsome little...bah, it infuriates me even now.  Needless to say, I possess many fine Armoredillo Spines."
+     , (8734, 1, 0xFFFFFFFF, '', 'prewritten', False, '"Why do I hate Armoredillos?  Once upon a time, I had waged a long and arduous campaign to win the heart of the inestimable Hajima.  Overcoming many miles of separation, slanderous rumors, and an inflexible husband, I was in sight of successfully wooing my heart''s desire.  The scene was perfect: a remote desert tent set in the gentle moonlit sands, fine wine, food full of spice and bite, a soft candlelit glow...until that loathsome little...bah, it infuriates me even now.  Needless to say, I possess many fine Armoredillo Spines."
 
 -- Sir Saladur ibn Andoun, Explorer of the Society
 ');

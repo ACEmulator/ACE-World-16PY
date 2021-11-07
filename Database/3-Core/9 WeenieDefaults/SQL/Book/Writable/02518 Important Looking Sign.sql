@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (2518, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (2518, 0, 4294967295, 'The Tutorial Dungeon', 'prewritten', False, ' 
+VALUES (2518, 0, 0xFFFFFFFF, 'The Tutorial Dungeon', 'prewritten', False, ' 
 Welcome, traveler!  The swirling portal will take you to a special tutorial dungeon, where you can learn the secrets of fighting, casting spells, opening locked doors, and so on.  Just walk into it to enter!
 ');

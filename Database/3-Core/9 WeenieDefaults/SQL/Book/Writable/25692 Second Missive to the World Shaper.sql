@@ -35,7 +35,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (25692, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (25692, 0, 4294967295, 'Translated by Kuyiza bint Zayi', 'prewritten', False, 'World Shaper, 
+VALUES (25692, 0, 0xFFFFFFFF, 'Translated by Kuyiza bint Zayi', 'prewritten', False, 'World Shaper, 
 As you have requested,  so it has been done. The outlanders remain predictable and pliable. They have furnished us with the materials you require.
 Amauxi
 ');

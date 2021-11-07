@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (1529, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (1529, 0, 4294967295, '', 'prewritten', False, 'A Rumor
+VALUES (1529, 0, 0xFFFFFFFF, '', 'prewritten', False, 'A Rumor
 
 I have heard that one of the miners of Colier was actually a fairly wealthy baron who grew so greedy he deigned to work within the mines himself.  (After all, this is in the early days, when manpower was lacking in Dereth.)  He is said to have fled into the mines when the banderlings came, and none have seen him since.
 

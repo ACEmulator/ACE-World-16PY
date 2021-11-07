@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (25998, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (25998, 0, 4294967295, '', 'prewritten', False, '
+VALUES (25998, 0, 0xFFFFFFFF, '', 'prewritten', False, '
 The northwest road will eventually lead you to Sawato. About halfway along that route, a peddler has built a house. I suppose she though the business would be good there, what with three well-known dungeons in the area. The Cursed Swamp is just a bit northeast, and Dungeon Muddy and the Green Mire Grave are just over the river. But really -- who but a peddler would want to live within smelling distance of the Cursed Swamp? Not me, that''s for sure!
 ');

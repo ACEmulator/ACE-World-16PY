@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (2513, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (2513, 0, 4294967295, 'Healing', 'prewritten', False, '
+VALUES (2513, 0, 0xFFFFFFFF, 'Healing', 'prewritten', False, '
 If you have the Healing Skill, you can use items called healing kits to regain health points (HP).  You should have one already in your Inventory if you have the skill.  To use it, double-click on the healing kit, then select the injured person.  Healing kits get used up, so use them wisely.  Tip: Drag your healing kit''s icon down to the row of slots at the bottom of your screen to create a shortcut!
 ');

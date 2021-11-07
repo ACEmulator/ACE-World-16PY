@@ -34,7 +34,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (3941, 8, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (3941, 0, 4294967295, '', 'prewritten', False, 'The Advocates'' Handbook
+VALUES (3941, 0, 0xFFFFFFFF, '', 'prewritten', False, 'The Advocates'' Handbook
 
 Advocates follow in the great footsteps of the First Advocate Elysa Strathelar, and play an important role in maintaining justice throughout Dereth, and giving help to those in need.  
 
@@ -42,7 +42,7 @@ Advocates who are on duty will have a pink Compass dot, and are also identified 
 
 (more)
 ')
-     , (3941, 1, 4294967295, '', 'prewritten', False, 'A third-rank Advocate has a green shield and green energy; a fourth-rank has a violet shield and violet energy; a fifth-rank has a red shield and red energy.
+     , (3941, 1, 0xFFFFFFFF, '', 'prewritten', False, 'A third-rank Advocate has a green shield and green energy; a fourth-rank has a violet shield and violet energy; a fifth-rank has a red shield and red energy.
 
 All Advocates must follow the chain of command regarding Advocacy:
 
@@ -50,7 +50,7 @@ Any Advocate higher than you, any Sentinel, or any Admin that asks for assistanc
 
 (more)
 ')
-     , (3941, 2, 4294967295, '', 'prewritten', False, 'The five different gradations of Advocates:
+     , (3941, 2, 0xFFFFFFFF, '', 'prewritten', False, 'The five different gradations of Advocates:
 
 First level:   Has an orange Aegis. Can use Advocate chat channels. Cannot be a Player Killer.
 
@@ -59,13 +59,13 @@ Second level:   Has a turquoise Aegis and energy. Can use the following commands
 Third level:   Has a green Aegis and energy. Can use the following commands: @bestow, @remove. Can use Advocate chat channels. Cannot be a Player Killer.
 (more)
 ')
-     , (3941, 3, 4294967295, '', 'prewritten', False, 'Fourth level:   Has a violet Aegis and energy. Can use the following commands: @bestow, @remove. Can use Advocate chat channels. Cannot be a Player Killer.
+     , (3941, 3, 0xFFFFFFFF, '', 'prewritten', False, 'Fourth level:   Has a violet Aegis and energy. Can use the following commands: @bestow, @remove. Can use Advocate chat channels. Cannot be a Player Killer.
 
 Fifth level:   Has a red Aegis and energy. Can use the following commands: @bestow, @remove, @tele, @attackable on, @attackable off. Can use Advocate chat channels. Cannot be a Player Killer.
 
 (more)
 ')
-     , (3941, 4, 4294967295, '', 'prewritten', False, 'Advocate commands are outlined below:
+     , (3941, 4, 0xFFFFFFFF, '', 'prewritten', False, 'Advocate commands are outlined below:
 
 @bestow <NAME> <LEVEL> -- sets a character''s Advocate Level. Advocates can bestow any level less than their own.
 
@@ -74,7 +74,7 @@ Fifth level:   Has a red Aegis and energy. Can use the following commands: @best
 
 (more)
 ')
-     , (3941, 5, 4294967295, '', 'prewritten', False, '@tele [<NAME>,] <LATITUDE> <LONGITUDE> -- teleports the player specified by name (or yourself, if no name is specified) to the given latitude and longitude (as shown on the Map Panel). 
+     , (3941, 5, 0xFFFFFFFF, '', 'prewritten', False, '@tele [<NAME>,] <LATITUDE> <LONGITUDE> -- teleports the player specified by name (or yourself, if no name is specified) to the given latitude and longitude (as shown on the Map Panel). 
 
 
 Example use of this command:
@@ -83,14 +83,14 @@ Example use of this command:
 
 (more)
 ')
-     , (3941, 6, 4294967295, '', 'prewritten', False, 'Fifth-level Advocates can also teleport themselves by clicking on the Map Panel.
+     , (3941, 6, 0xFFFFFFFF, '', 'prewritten', False, 'Fifth-level Advocates can also teleport themselves by clicking on the Map Panel.
 
 
 @attackable {on,off} -- when set to "off," the Advocate will not be attacked by monsters. This flag is forced on when the Advocate unwields the Aegis. If the Advocate attacks a monster that is ignoring him or her, the monster will attack back. 
 
 (more)
 ')
-     , (3941, 7, 4294967295, '', 'prewritten', False, 'All Advocates have access to the following chat channels:
+     , (3941, 7, 0xFFFFFFFF, '', 'prewritten', False, 'All Advocates have access to the following chat channels:
 
 
 

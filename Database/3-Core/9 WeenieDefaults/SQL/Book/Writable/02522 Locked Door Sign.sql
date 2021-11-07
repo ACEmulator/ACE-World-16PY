@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (2522, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (2522, 0, 4294967295, 'Locked Doors', 'prewritten', False, '
+VALUES (2522, 0, 0xFFFFFFFF, 'Locked Doors', 'prewritten', False, '
 Some (not all) locked doors have keys.  This door, for example, can be unlocked with a key sold by the shopkeeper.  If you haven''t bought the key, go ahead and buy it.  Now, to unlock the door, double-click the key in your Inventory, and then click on the door.  Locked doors are only locked in one direction, so that you won''t be locked into a room.  But be warned: keys usually have a limited number of uses!
 ');

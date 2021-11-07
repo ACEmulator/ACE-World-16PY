@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5130, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5130, 0, 4294967295, 'Mishiya al-Abdi', 'prewritten', False, '
+VALUES (5130, 0, 0xFFFFFFFF, 'Mishiya al-Abdi', 'prewritten', False, '
 Have you heard about the old Empyrean well to the southeast of Samsur?  Once it was fed by an underground river, and used as a caravan stop by the Empyrean.  Some time ago there was a great disturbance, and the river changed its course, leaving the well dry.  Musansayn the Great tried to dig new wells deep within the old caverns, but little water was found.  Some say the deepest caves are haunted by spirits of the Empyrean - strange lights have been seen there.
 
 ');

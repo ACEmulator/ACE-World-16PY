@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (1226, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (1226, 0, 4294967295, 'Shoushi Portal Directions', 'prewritten', False, '
+VALUES (1226, 0, 0xFFFFFFFF, 'Shoushi Portal Directions', 'prewritten', False, '
 To find the portal to Yanshi, follow the road southeast out of Shoushi. The portal can be found between the road and the river.
 
 To find the portal to the town of Nanto, follow the road leading northwest out of Shoushi.  You will soon see the portal, just off the path.  You can''t miss it.

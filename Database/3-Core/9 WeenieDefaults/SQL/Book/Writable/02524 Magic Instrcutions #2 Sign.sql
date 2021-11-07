@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (2524, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (2524, 0, 4294967295, 'Magic Instructions #2', 'prewritten', False, ' 
+VALUES (2524, 0, 0xFFFFFFFF, 'Magic Instructions #2', 'prewritten', False, ' 
 To cast a spell, first go to the Inventory panel, and place your wand in your WEAPON SLOT. Then click the dove icon to enter Spellcasting mode; this displays a SPELLCASTING BAR that lists your favorite spells, and shows the charge of the spell that''s currently ready. Select the spell you want from the spellcasting bar, then select a target (if needed), then click the Cast button.
 ');

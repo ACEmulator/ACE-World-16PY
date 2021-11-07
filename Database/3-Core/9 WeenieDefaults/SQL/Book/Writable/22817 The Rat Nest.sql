@@ -30,7 +30,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (22817, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (22817, 0, 4294967295, 'The Rat Nest', 'prewritten', False, '
+VALUES (22817, 0, 0xFFFFFFFF, 'The Rat Nest', 'prewritten', False, '
 On the road south of Holtburg, just past the spur to the South Outpost, is a small cave filled with rats. Rats, you say, not very exciting. But answer me this -- what kind of rats does it take to run off a pack of drudges. Eh?
 
 ');

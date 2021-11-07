@@ -31,5 +31,5 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27705, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27705, 0, 4294967295, 'Unknown; this cannot be translated.', 'prewritten', False, '(The words on the pages are indecipherable. Perhaps Aun Laokhe in Arwic can help.)
+VALUES (27705, 0, 0xFFFFFFFF, 'Unknown; this cannot be translated.', 'prewritten', False, '(The words on the pages are indecipherable. Perhaps Aun Laokhe in Arwic can help.)
 ');

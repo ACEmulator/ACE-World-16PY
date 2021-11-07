@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (2057, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (2057, 0, 4294967295, 'Directions to Swamp Ruin', 'prewritten', False, '
+VALUES (2057, 0, 0xFFFFFFFF, 'Directions to Swamp Ruin', 'prewritten', False, '
 You can''t get there from here!
 
 ');

@@ -34,7 +34,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (11373, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (11373, 0, 4294967295, 'Aun Bernawa', 'prewritten', False, '
+VALUES (11373, 0, 0xFFFFFFFF, 'Aun Bernawa', 'prewritten', False, '
 Toneawa:
 
 Pray do not contact my sister Mariona again. She will soon learn that this mesalliance of hers will not be tolerated. Go--leave our island. The Aun were well rid of you the day you betrayed our sacred mission.

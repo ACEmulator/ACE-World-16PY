@@ -34,10 +34,10 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (10727, 3, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (10727, 0, 4294967295, 'Unknown', 'prewritten', False, 'My colleague,
+VALUES (10727, 0, 0xFFFFFFFF, 'Unknown', 'prewritten', False, 'My colleague,
 Our original plan, I know, was to wait for your first shipment of additional subjects before I sent back word on my experimentation with the humans.  However, the sensations of delight and excitement I experience compel me to share news with you.
 ')
-     , (10727, 1, 4294967295, 'Unknown', 'prewritten', False, 'Despite our early setbacks, I find the new line of research and experimentation to be endlessly intriguing.  What mutable minds the humans possess!  I must express sentiments of gratitude, my colleague, for your cooperation and assistance in our research.  It inspires regret within me that our colleague Adirred was exiled back to the primary Quiddity before he saw the fruits of our labor.
+     , (10727, 1, 0xFFFFFFFF, 'Unknown', 'prewritten', False, 'Despite our early setbacks, I find the new line of research and experimentation to be endlessly intriguing.  What mutable minds the humans possess!  I must express sentiments of gratitude, my colleague, for your cooperation and assistance in our research.  It inspires regret within me that our colleague Adirred was exiled back to the primary Quiddity before he saw the fruits of our labor.
 ')
-     , (10727, 2, 4294967295, 'Unknown', 'prewritten', False, 'I anticipate, however, that as I continue my research with these most excellent human subjects, I shall soon have the information we need to break the last vestiges of our dependence on the outmoded Singularity.  Once we have taken all the lessons we can from the maddeningly chaotic humans, we will have the techniques and knowledge necessary to mount our own resistance against the Quiddity''s inquisitors!
+     , (10727, 2, 0xFFFFFFFF, 'Unknown', 'prewritten', False, 'I anticipate, however, that as I continue my research with these most excellent human subjects, I shall soon have the information we need to break the last vestiges of our dependence on the outmoded Singularity.  Once we have taken all the lessons we can from the maddeningly chaotic humans, we will have the techniques and knowledge necessary to mount our own resistance against the Quiddity''s inquisitors!
 ');

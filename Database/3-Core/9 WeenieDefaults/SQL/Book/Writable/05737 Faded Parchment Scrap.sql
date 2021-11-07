@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5737, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5737, 0, 4294967295, '', 'prewritten', False, '
+VALUES (5737, 0, 0xFFFFFFFF, '', 'prewritten', False, '
 unto                           no                  suffering,            that        escape.                         drawing            the               without          and for                  avenged.
 
           shall       turmoil,                   rent                       blood                 brimstone.              fire                                           blacken.           eye               the            look 

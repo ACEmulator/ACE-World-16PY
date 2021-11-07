@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (28542, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (28542, 0, 4294967295, 'Unknown', 'prewritten', False, '
+VALUES (28542, 0, 0xFFFFFFFF, 'Unknown', 'prewritten', False, '
 Looking for an adventure that will take you away from boring old Al-Jalima for a few days?  Take a trip north to the Crypt of Ashen Tears, where it is rumored a mysterious mechanism has been found by some, deep within the crypt...
 
 If you follow the northern road out of Al-Jalima, you will eventually reach the crypt, near 14.6N 3.5E.

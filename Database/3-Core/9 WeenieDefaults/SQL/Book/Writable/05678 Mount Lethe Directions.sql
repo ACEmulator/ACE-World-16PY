@@ -32,6 +32,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5678, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5678, 0, 4294967295, 'Celcynd', 'prewritten', False, '
+VALUES (5678, 0, 0xFFFFFFFF, 'Celcynd', 'prewritten', False, '
 Mount Lethe is a volcano in the west Direlands.  86W 34S.  Little volcano, with old magma tubes leading down into it.  There were strange crystals found deep in it, so some noble - forget his name - organized an expedition to mine them out, find a use for them.  Go to the very bottom, below the old mine.  There were funny rumors about the noble.  Miners claimed to see cloaked figures in the corner of their eye.  Many fled, but money was good and guards strong.  Then Lethe erupted, killed the workers and the noble.
 ');

@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (28105, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (28105, 0, 4294967295, 'Niarltah', 'prewritten', False, '
+VALUES (28105, 0, 0xFFFFFFFF, 'Niarltah', 'prewritten', False, '
 Torgluuk,
 Shipments of the materials necessary for construction of the fortress you wish to build have begun. We trust that you were able to easily dispatch the sclavus at the location you specified. We will begin making deliveries to the hold that you have described soon. A future missive will better detail the location of the way you can access this hold.
 

@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5884, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5884, 0, 4294967295, 'Aluvian Rumor', 'prewritten', False, '
+VALUES (5884, 0, 0xFFFFFFFF, 'Aluvian Rumor', 'prewritten', False, '
 Sir Joffre''s party fell afoul of dark forces, I''m sure of it.  The slopes of the northern mountains are just full of hostile beasts.  Don''t the Olthoi still live snug in their hives north of the Lost Wish Range? I''ve heard that other monstrosities lurk near the slopes of Mount Esper - the unquiet dead, and mattekar of unusual size! Lady Tallial is a brave soul to live in Neydisa Castle, amidst such horrors.
 ');

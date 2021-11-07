@@ -31,11 +31,11 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (492, 3, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (492, 0, 4294967295, ' ', 'prewritten', False, '     First, get yourself to Arwic. You''re on your own there - if you can''t do that much, might as well give up now.
+VALUES (492, 0, 0xFFFFFFFF, ' ', 'prewritten', False, '     First, get yourself to Arwic. You''re on your own there - if you can''t do that much, might as well give up now.
      Once you''re there, go north. Don''t stop till you reach the mountains.
 ')
-     , (492, 1, 4294967295, ' ', 'prewritten', False, '     You''ll find a valley after the first ridge. Follow it east. After Eotenstoth Peak, it will start curving north around the mountain. Don''t worry about that; you''re not lost. Not if you''ve been paying attention, anyway.
+     , (492, 1, 0xFFFFFFFF, ' ', 'prewritten', False, '     You''ll find a valley after the first ridge. Follow it east. After Eotenstoth Peak, it will start curving north around the mountain. Don''t worry about that; you''re not lost. Not if you''ve been paying attention, anyway.
      The valley will end in a box canyon, with Eotenstoth on your left. In the canyon, you''ll find a portal marked "Land of Bandits". This would be a fine place to turn back, if you''re having second thoughts. No one will hold it against you. They might laugh and call you gutless, but can you really blame them?
 ')
-     , (492, 2, 4294967295, ' ', 'prewritten', False, '     If you''ve got the spine to go on, you''ll find a road on the other side of the portal. It leads right to the castle. Don''t approach without announcing yourself, though - you never know when there''s going to be an archer or three waiting on the battlements to feather your skull.
+     , (492, 2, 0xFFFFFFFF, ' ', 'prewritten', False, '     If you''ve got the spine to go on, you''ll find a road on the other side of the portal. It leads right to the castle. Don''t approach without announcing yourself, though - you never know when there''s going to be an archer or three waiting on the battlements to feather your skull.
 ');

@@ -34,7 +34,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (15793, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (15793, 0, 4294967295, 'Nuhmudira', 'prewritten', False, 'Silence. You are judged unworthy of the gift of undeath and by order of the Gelid shall be disposed. Your tampering with the Blood of the World will...
+VALUES (15793, 0, 0xFFFFFFFF, 'Nuhmudira', 'prewritten', False, 'Silence. You are judged unworthy of the gift of undeath and by order of the Gelid shall be disposed. Your tampering with the Blood of the World will...
 
 Weakening...I cannot keep my own thoughts for long, what was it my snake of an apprentice said?
 

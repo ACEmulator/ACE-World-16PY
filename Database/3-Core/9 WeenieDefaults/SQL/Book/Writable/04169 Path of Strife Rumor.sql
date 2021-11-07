@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (4169, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (4169, 0, 4294967295, 'Path of Strife Rumor', 'prewritten', False, '
+VALUES (4169, 0, 0xFFFFFFFF, 'Path of Strife Rumor', 'prewritten', False, '
 There is said to be a drunken madman living in a tower to the south of Baishi who says something about the path of strife.  If you wish to meet him, take the ridge that rises up to the south of Baishi, and follow it as it curves to the right.  There stands the forsaken tower of evil.  It is said that only those who shun safety and peace between fellow human spirits should consider meeting this madman, but I don''t really know what that means.
 
 ');

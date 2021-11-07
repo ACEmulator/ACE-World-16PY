@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (2530, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (2530, 0, 4294967295, 'Using Food', 'prewritten', False, ' 
+VALUES (2530, 0, 0xFFFFFFFF, 'Using Food', 'prewritten', False, ' 
 To eat food, which restores Stamina, simply double-click on any food you are carrying in your inventory.   Notice that you can STACK food items.  You can recognize a stack by a number in the item''s name. You can split off a part of this stack by dragging the slider next to the item''s name, and then dragging the icon to a new location.  Tip: Drag a stack of food to the row of slots at the bottom of your screen to create a shortcut!
 ');

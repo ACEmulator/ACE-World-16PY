@@ -34,10 +34,10 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (8260, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (8260, 0, 4294967295, 'Unknown', 'prewritten', False, 'Your counterpart in the Tumideon Fortress recently brought to Our attention a clever strategy to deal with the humans'' increasing penchant for assaulting our installations. Given the ineffectiveness of the golden apes and the altered ones, We recognize the need for new war servants, and thus commission the construction of the "hollow minions" your counterpart proposed. These hollow minions are to be constructed of the new anti-magical ore, recently unearthed by the grey giants.
+VALUES (8260, 0, 0xFFFFFFFF, 'Unknown', 'prewritten', False, 'Your counterpart in the Tumideon Fortress recently brought to Our attention a clever strategy to deal with the humans'' increasing penchant for assaulting our installations. Given the ineffectiveness of the golden apes and the altered ones, We recognize the need for new war servants, and thus commission the construction of the "hollow minions" your counterpart proposed. These hollow minions are to be constructed of the new anti-magical ore, recently unearthed by the grey giants.
 
 ')
-     , (8260, 1, 4294967295, 'Unknown', 'prewritten', False, 'Thus the hollow minions will be resistant to the humans'' primitive sorceries and will be able to defeat their magical protections. You will construct them in the form of the "scarecrow" creatures which hail from the humans'' distant home. In this guise they will be able to infiltrate the eastern half of the island we share. We await your compliance and expect to hear soon of your success in the implementation of Our directive. 
+     , (8260, 1, 0xFFFFFFFF, 'Unknown', 'prewritten', False, 'Thus the hollow minions will be resistant to the humans'' primitive sorceries and will be able to defeat their magical protections. You will construct them in the form of the "scarecrow" creatures which hail from the humans'' distant home. In this guise they will be able to infiltrate the eastern half of the island we share. We await your compliance and expect to hear soon of your success in the implementation of Our directive. 
 
 
 --First Among Equals

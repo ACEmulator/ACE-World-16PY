@@ -33,10 +33,10 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (6116, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (6116, 0, 4294967295, 'Unknown', 'prewritten', False, '
+VALUES (6116, 0, 0xFFFFFFFF, 'Unknown', 'prewritten', False, '
 I have spent too much time and lost too much of my life-force seeking this "Old Man of the Mountain." Six times have those terrible creatures lurking in the darkness claimed my life, my weaponry, and a portion of my soul. If the Old Man seeks strong warriors to serve him, then he obviously seeks someone stronger than myself. 
 
 ')
-     , (6116, 1, 4294967295, '', 'prewritten', False, 'And what kind of malevolent being is he, that he associates with the shadow fiends and makes his home so near that sinister altar? Now I find it easier to believe those rumors of his dark alliance. I will leave this foul place now, never to return.
+     , (6116, 1, 0xFFFFFFFF, '', 'prewritten', False, 'And what kind of malevolent being is he, that he associates with the shadow fiends and makes his home so near that sinister altar? Now I find it easier to believe those rumors of his dark alliance. I will leave this foul place now, never to return.
 
 ');

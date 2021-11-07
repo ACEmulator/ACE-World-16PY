@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (26487, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (26487, 0, 4294967295, 'Nin Hong', 'prewritten', False, '
+VALUES (26487, 0, 0xFFFFFFFF, 'Nin Hong', 'prewritten', False, '
 I''ve never met anyone who claimed to know exactly what the Shreth Hive is - or rather, was. These days, of course, it''s filled with shreth ... and other things. Supposedly, the Stones of Jojii can be found inside. Myself, I''ve never been interested enough to check. 
 
 To get there, follow the road northwest out of town. When the road bends north, head directly west. The coordinates are 32.4S 71E.

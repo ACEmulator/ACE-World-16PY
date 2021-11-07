@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5098, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5098, 0, 4294967295, 'SIGN 4: BUTTONS & PANELS ', 'prewritten', False, '
+VALUES (5098, 0, 0xFFFFFFFF, 'SIGN 4: BUTTONS & PANELS ', 'prewritten', False, '
 You can CLICK the buttons in the bottom-right corner of your screen to open and close different game panels.
 
 Make sure the INVENTORY PANEL is open now, by clicking the button shaped like a BACKPACK. You''ll need it up ahead.

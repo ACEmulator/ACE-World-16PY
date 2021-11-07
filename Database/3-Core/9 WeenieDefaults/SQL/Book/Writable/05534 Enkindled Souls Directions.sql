@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5534, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5534, 0, 4294967295, 'Tashwi ibn Sayat', 'prewritten', False, '
+VALUES (5534, 0, 0xFFFFFFFF, 'Tashwi ibn Sayat', 'prewritten', False, '
 Southeast of this town lies lies the entrance to a large underground complex.  Beware... Adventurers have spoken of encountering scores of undead roaming these halls, protecting its treasure from anyone who braves its depths.  If your feel your courage is great enough, search for the entrance near 17E by 50S.
 
 ');

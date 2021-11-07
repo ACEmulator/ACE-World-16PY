@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (28549, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (28549, 0, 4294967295, 'Unknown', 'prewritten', False, '
+VALUES (28549, 0, 0xFFFFFFFF, 'Unknown', 'prewritten', False, '
 If you''re looking for action that''s really close to town, than look no further than the "Bones House," as we Al-Jalimians like to call it.  It seems no one has ever been able to make a decent home or shop out of the building, because the current "tenants" refuse to move out!
 
 Take the road south out of Al-Jalima, and when it turns east, start looking for the house along the left side of path.  You can''t miss it.

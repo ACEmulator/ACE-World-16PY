@@ -33,7 +33,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (30850, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (30850, 0, 4294967295, 'General Corcima', 'prewritten', False, 'The King has requested detailed intelligence on the lands of the Bloodless. You are to scout their cities and outposts. Test their defenses. Discover their weaknesses. And kill whom you may.
+VALUES (30850, 0, 0xFFFFFFFF, 'General Corcima', 'prewritten', False, 'The King has requested detailed intelligence on the lands of the Bloodless. You are to scout their cities and outposts. Test their defenses. Discover their weaknesses. And kill whom you may.
 
 But be warned - if you are captured, you will not be retrieved.
 

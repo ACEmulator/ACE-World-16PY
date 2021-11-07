@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27997, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27997, 0, 4294967295, 'The Abandoned Training Camp', 'prewritten', False, '
+VALUES (27997, 0, 0xFFFFFFFF, 'The Abandoned Training Camp', 'prewritten', False, '
 Do you remember the campsite north east of Lin? The one that once was used as a meeting place for the mosswarts and banderlings?
 
 Adventurers say that drudges, monouga, and golems have moved in, scaring away the weaker creatures that once trained there.

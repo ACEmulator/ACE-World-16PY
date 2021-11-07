@@ -31,13 +31,13 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (1220, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (1220, 0, 4294967295, 'Dungeon Manor Directions', 'prewritten', False, '
+VALUES (1220, 0, 0xFFFFFFFF, 'Dungeon Manor Directions', 'prewritten', False, '
 
 The subterranean remnants of an ancient Empyrean estate have been uncovered near Samsur. The unfortunate family that tried living there recently was chased out by drudges. They say they never managed to fully explore the deepest parts of the estate, and suspect there may be some treasure.
 
 (more)
 ')
-     , (1220, 1, 4294967295, 'Dungeon Manor Directions', 'prewritten', False, '
+     , (1220, 1, 0xFFFFFFFF, 'Dungeon Manor Directions', 'prewritten', False, '
 
 Someone else ventured down, however -- a woman from Qalaba''r named Iquba. She barely escaped with her life, but she did find a mysterious key that had no apparent purpose! Perhaps you can find it too, and solve its mystery. The portal to this dungeon manor can be found by traveling directly north from the pub in Samsur: it is on a promontory overlooking town.
 ');

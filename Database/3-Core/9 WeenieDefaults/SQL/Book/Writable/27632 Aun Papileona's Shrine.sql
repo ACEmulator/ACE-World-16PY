@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27632, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27632, 0, 4294967295, 'Aun Sareona', 'prewritten', False, '
+VALUES (27632, 0, 0xFFFFFFFF, 'Aun Sareona', 'prewritten', False, '
 Carenzi has invaded one of our sacred shrines. Papileona is requesting urgent help in its restoration.
 ');

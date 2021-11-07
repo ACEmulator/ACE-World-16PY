@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (1507, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (1507, 0, 4294967295, 'Legend of the Halls of Helm', 'prewritten', False, '
+VALUES (1507, 0, 0xFFFFFFFF, 'Legend of the Halls of Helm', 'prewritten', False, '
 There is a bizarre legend in these parts of an excellent helm and, if you can believe it, a blazing shield of fire!  I''ve heard a long-dead evil lich holds it somewhere in what''s called The Halls of Helm.  You''d better be well-prepared for this one!  To get there, follow the road out of Zaikhal but take the left fork, and look in the area to the north of the road, in the hills.  Watch out for monsters along the way.  Oh, and I heard an overly curious food merchant lost all his goods down in that dungeon.
 
 ');

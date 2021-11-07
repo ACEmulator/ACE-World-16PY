@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27643, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27643, 0, 4294967295, 'Aun Sareona', 'prewritten', False, '
+VALUES (27643, 0, 0xFFFFFFFF, 'Aun Sareona', 'prewritten', False, '
 The stones that keep our xuta and the Ispar xuta safe have been damaged, and are weaker than some others. Long did Wharu''s children bend their fury against them ere we came. Our warriors have ventured into the hives of the Wharu to recover many of the lost pieces, but some yet elude us. To strengthen the rings, and drive the Wharu away, find the last pieces and return them to our drummers. For this, the Aun xuta will reward you.
 ');

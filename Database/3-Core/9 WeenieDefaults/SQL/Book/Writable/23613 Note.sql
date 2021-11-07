@@ -32,11 +32,11 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (23613, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (23613, 0, 4294967295, 'Unknown', 'prewritten', False, '
+VALUES (23613, 0, 0xFFFFFFFF, 'Unknown', 'prewritten', False, '
 I''m not afraid to say it: Black Ferah is a fool. Assaulting a tomb to steal a relic? Even if this Anadil struck down one of the blessed Hopeslayer''s Thorns, the creature is dead. Despoiling its tomb does nothing to further our cause and right the ancient wrongs committed against us. And don''t you sense the meddling of those cloaked creatures? Why do we waste our time on this pointless raid?
  
 Worse yet, we only retrieved a portion of the creature''s staff and lost many our breathen in the process. If Black Ferah wants the piece, tell her to come get it, if she can tear herself away from her constant vigil by where the 
 ')
-     , (23613, 1, 4294967295, 'Unknown', 'prewritten', False, '
+     , (23613, 1, 0xFFFFFFFF, 'Unknown', 'prewritten', False, '
 Hopeslayer fell. We are keeping it at the temporary staging ground at 82.3S, 35.2W.
 ');

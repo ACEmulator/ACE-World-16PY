@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27619, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27619, 0, 4294967295, 'Micon Stuvis', 'prewritten', False, '
+VALUES (27619, 0, 0xFFFFFFFF, 'Micon Stuvis', 'prewritten', False, '
 We sent a few scouts up on the plateau recently. They reported a bunch of the old menhir rings standing up there. The funny Tumeroks even built their town around one. They seem awfully interested in them, if you ask me.
 ');

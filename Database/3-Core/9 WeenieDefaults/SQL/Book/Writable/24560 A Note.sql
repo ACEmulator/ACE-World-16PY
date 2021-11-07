@@ -36,6 +36,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (24560, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (24560, 0, 4294967295, 'Muldavus', 'prewritten', False, '
+VALUES (24560, 0, 0xFFFFFFFF, 'Muldavus', 'prewritten', False, '
 Our attempts to take Linvak Tukal were frustrated, though the Citadel should rightfully have been ours. With rage comes resolve. We shall return to that endeavor, but for now we turn our attention elswhere- the unsavory alliance of the humans, Aun Tumeroks and our brethren may be fought on many fronts. Fort Tethana is one such location. Capture the fort. They call us Renegade now, soon they will bow and call us "Master."
 ');

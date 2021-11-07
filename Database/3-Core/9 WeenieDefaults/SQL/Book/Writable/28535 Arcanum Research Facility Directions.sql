@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (28535, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (28535, 0, 4294967295, 'Ciandra', 'prewritten', False, '
+VALUES (28535, 0, 0xFFFFFFFF, 'Ciandra', 'prewritten', False, '
 The research facility is not far from Al-Jalima.  It can be found to the southeast of town, near 5.8N 6.3W.  Be warned! Martine''s minions still lurk there, preventing the Arcanum from using the facility.
 
 If you have any questions, do not hesitate to seek me out in Xarbydun.

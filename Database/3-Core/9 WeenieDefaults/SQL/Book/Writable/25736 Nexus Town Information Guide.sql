@@ -32,7 +32,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (25736, 9, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (25736, 0, 4294967295, '', 'prewritten', False, 'Al-Arqas Information Guide
+VALUES (25736, 0, 0xFFFFFFFF, '', 'prewritten', False, 'Al-Arqas Information Guide
 Town: 31.3S 13.6E
 North Outpost: 28.1S 13.9E 
 West Outpost: 31.3S 10.7E
@@ -47,7 +47,7 @@ from Holtburg: Leather Basinet
 from Lytlethorpe: Leather Girth
 from Rithwic: Leather Breastplate
 ')
-     , (25736, 1, 4294967295, '', 'prewritten', False, 'Samsur Information Guide
+     , (25736, 1, 0xFFFFFFFF, '', 'prewritten', False, 'Samsur Information Guide
 Town: 2.9S 19.5E
 East Outpost: 3.2S 22.2E
 Northwest Outpost: 0.1N 16.3E
@@ -63,7 +63,7 @@ from Holtburg: Buckler
 from Lytlethorpe: Leather Bracers
 from Rithwic: Leather Pauldrons
 ')
-     , (25736, 2, 4294967295, '', 'prewritten', False, 'Yaraq Information Guide
+     , (25736, 2, 0xFFFFFFFF, '', 'prewritten', False, 'Yaraq Information Guide
 Town: 21.5S 1.6W
 Holtburg Portal: 21.3S 1.8W
 Al-Arqas Portal: 21.3S 1.4W
@@ -78,7 +78,7 @@ from Holtburg: Leather Leggings
 from Lytlethorpe: Leather Boots
 from Rithwic: Leather Sleeves
 ')
-     , (25736, 3, 4294967295, '', 'prewritten', False, 'Nanto Information Guide
+     , (25736, 3, 0xFFFFFFFF, '', 'prewritten', False, 'Nanto Information Guide
 Town: 52.6S 81.9E
 North Outpost: 49S 81.6E
 East Outpost: 52.4S 85.3E
@@ -93,7 +93,7 @@ from Holtburg: Mace
 from Lytlethorpe: Spear
 from Rithwic: Katar
 ')
-     , (25736, 4, 4294967295, '', 'prewritten', False, 'Shoushi Information Guide
+     , (25736, 4, 0xFFFFFFFF, '', 'prewritten', False, 'Shoushi Information Guide
 Town: 33.5S 72.8E
 Yaraq Portal: 33.8S 72.8E
 Nanto Portal: 33.2S 72.8E
@@ -108,7 +108,7 @@ from Holtburg: Dagger
 from Lytlethorpe: Yumi or Atlatl
 from Rithwic: Crossbow
 ')
-     , (25736, 5, 4294967295, '', 'prewritten', False, 'Yanshi Information Guide
+     , (25736, 5, 0xFFFFFFFF, '', 'prewritten', False, 'Yanshi Information Guide
 Town: 12.7S 46.4E
 North Outpost: 9.9S 46.7E
 South Outpost: 15.6S 46.5E
@@ -124,7 +124,7 @@ from Holtburg: Ken
 from Lytlethorpe: Axe
 from Rithwic: Staff
 ')
-     , (25736, 6, 4294967295, '', 'prewritten', False, 'Holtburg Information Guide
+     , (25736, 6, 0xFFFFFFFF, '', 'prewritten', False, 'Holtburg Information Guide
 Town: 42.3 N 33.6E
 Shoushi Portal: 42.2N 33.8E
 Rithwic Portal: 42.4N 33.7E
@@ -138,7 +138,7 @@ from Nanto: Mace
 from Shoushi: Dagger
 from Yanshi: Ken
 ')
-     , (25736, 7, 4294967295, '', 'prewritten', False, 'Lytlethorpe Information Guide
+     , (25736, 7, 0xFFFFFFFF, '', 'prewritten', False, 'Lytlethorpe Information Guide
 Town: 0.6N 51.2E
 East Outpost 1.1N 54.2E
 West Outpost 1.1N 48.4E
@@ -154,7 +154,7 @@ from Nanto: Spear
 from Shoushi: Yumi or Atlatl
 from Yanshi: Axe
 ')
-     , (25736, 8, 4294967295, '', 'prewritten', False, 'Rithwic Information Guide
+     , (25736, 8, 0xFFFFFFFF, '', 'prewritten', False, 'Rithwic Information Guide
 East Outpost 10.3N 61.5E
 South Outpost 7.6N 58.4E
 Holtburg Portal: 10.1N 57.3E

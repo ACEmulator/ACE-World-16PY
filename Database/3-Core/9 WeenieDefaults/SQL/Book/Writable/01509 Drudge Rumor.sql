@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (1509, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (1509, 0, 4294967295, 'Drudge Rumor', 'prewritten', False, '
+VALUES (1509, 0, 0xFFFFFFFF, 'Drudge Rumor', 'prewritten', False, '
 There''s a rumor that an unusual drudge is meeting with a couple banderlings somewhere to the south of Shoushi, within a stone''s throw from the road.  Something about a circle of evergreens, too.  I''ve heard drudges are sometimes found with banderlings.  Guess it''s true.  But as bad as banderlings are, tumeroks are worse!
 
 ');

@@ -32,11 +32,11 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (24194, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (24194, 0, 4294967295, 'Aaminah', 'prewritten', False, 'Ro,
+VALUES (24194, 0, 0xFFFFFFFF, 'Aaminah', 'prewritten', False, 'Ro,
 
 I have been without tongue to speak on the slight that my husband paid you when he purchased the shirt from your master. When we arrived back home in Ayan Baqur he confided that this is the best quality of silk and craftsmanship that he has ever seen. With my husbands passing I feel that I must settle old slights so that his soul may find rest among his ancestors. 
 ')
-     , (24194, 1, 4294967295, 'Aaminah', 'prewritten', False, 'Please accept this apology.
+     , (24194, 1, 0xFFFFFFFF, 'Aaminah', 'prewritten', False, 'Please accept this apology.
 
 Sincerely, 
 

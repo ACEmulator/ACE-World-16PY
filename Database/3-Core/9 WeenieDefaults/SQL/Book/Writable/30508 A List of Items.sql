@@ -34,7 +34,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (30508, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (30508, 0, 4294967295, 'Lubziklan al-Luq', 'prewritten', False, '
+VALUES (30508, 0, 0xFFFFFFFF, 'Lubziklan al-Luq', 'prewritten', False, '
 Please retrieve the following items from the Sea Temple Catacombs at the mouth of the Yaraq harbor, around 20.2S 4.4W, and return them to Lubziklan al-Luq in his house south of Yaraq:
 
 - Perfect Cove Apple 

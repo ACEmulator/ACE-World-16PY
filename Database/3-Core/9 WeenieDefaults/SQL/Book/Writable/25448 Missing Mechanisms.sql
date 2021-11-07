@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (25448, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (25448, 0, 4294967295, 'Missing Mechanisms', 'prewritten', False, '
+VALUES (25448, 0, 0xFFFFFFFF, 'Missing Mechanisms', 'prewritten', False, '
 
 Alloy Device
 Alloy Apparatus
@@ -44,7 +44,7 @@ Alloy Mechanism
 Alloy Cogwheel
 Alloy Contrivance
 ')
-     , (25448, 1, 4294967295, 'Missing Mechanisms', 'prewritten', False, '
+     , (25448, 1, 0xFFFFFFFF, 'Missing Mechanisms', 'prewritten', False, '
 
 Alloy Sprocket
 Alloy Cylinder

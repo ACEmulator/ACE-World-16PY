@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27702, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27702, 0, 4294967295, 'Brikta', 'prewritten', False, 'We send gifts to you and your kind. The first  are the glittering keys that have been sent to you. The keys can be used to open many locked doors and chests. They will help you and others of your kind in obtaining wealth on this world. Use them with our blessings.
+VALUES (27702, 0, 0xFFFFFFFF, 'Brikta', 'prewritten', False, 'We send gifts to you and your kind. The first  are the glittering keys that have been sent to you. The keys can be used to open many locked doors and chests. They will help you and others of your kind in obtaining wealth on this world. Use them with our blessings.
 
 We have also included a ring of minor bearing. Its protective devices should assist you in defending against the harsh acid and piercing bite of our enemies.
 

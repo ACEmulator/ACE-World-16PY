@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27629, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27629, 0, 4294967295, 'Aun Sareona', 'prewritten', False, '
+VALUES (27629, 0, 0xFFFFFFFF, 'Aun Sareona', 'prewritten', False, '
 Aun Mareura has announced a bounty on the floating demons who corrupted our Hea brethren. Bring him Virindi jewels and receive your reward!
 ');

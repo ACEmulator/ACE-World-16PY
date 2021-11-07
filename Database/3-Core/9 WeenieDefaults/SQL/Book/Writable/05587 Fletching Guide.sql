@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5587, 3, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5587, 0, 4294967295, 'Fletching Guide', 'prewritten', False, 'Arrows and quarrels are made of two parts: arrowheads and shafts.
+VALUES (5587, 0, 0xFFFFFFFF, 'Fletching Guide', 'prewritten', False, 'Arrows and quarrels are made of two parts: arrowheads and shafts.
 
 Bowyers in Dereth make different sorts of arrowheads. These are bought in bundles, as are the shafts to make arrows and quarrels.
 
@@ -40,10 +40,10 @@ If you use arrowheads on arrow shafts, you''ll make arrows of the proper sort: a
 A bundle of arrowheads is enough to make ten arrows.
 
 ')
-     , (5587, 1, 4294967295, 'Fletching Guide', 'prewritten', False, 'Similarly, using arrowheads on quarrel shafts will make quarrels.
+     , (5587, 1, 0xFFFFFFFF, 'Fletching Guide', 'prewritten', False, 'Similarly, using arrowheads on quarrel shafts will make quarrels.
 
 Fletchers are not limited to making mundane arrows and quarrels. Special oils, created by alchemists, can be used on arrowheads to give them magical powers. Using Frost Oil on a bundle of arrowheads will make them into frost arrowheads, for instance. There is also a particularly potent oil, called Bloodseeker Oil: if you use it on a bundle of arrowheads, it will change them into greater arrowheads, which will do more damage.
 
 ')
-     , (5587, 2, 4294967295, 'Fletching Guide', 'prewritten', False, 'Be sure to use oils on arrowheads before you use the arrowheads on shafts (arrow or quarrel), however: once an arrow is made, oils will no longer affect it.
+     , (5587, 2, 0xFFFFFFFF, 'Fletching Guide', 'prewritten', False, 'Be sure to use oils on arrowheads before you use the arrowheads on shafts (arrow or quarrel), however: once an arrow is made, oils will no longer affect it.
 ');

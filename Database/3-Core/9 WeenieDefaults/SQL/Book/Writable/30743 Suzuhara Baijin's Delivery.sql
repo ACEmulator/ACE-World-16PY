@@ -34,7 +34,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (30743, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (30743, 0, 4294967295, 'Suzuhara Baijin', 'prewritten', False, 'I send this plea to all capable warriors of Dereth. My ailing brother requires a certain package from me, but I lost that package in the Pit. It seems the creatures there are much tougher than I remember.
+VALUES (30743, 0, 0xFFFFFFFF, 'Suzuhara Baijin', 'prewritten', False, 'I send this plea to all capable warriors of Dereth. My ailing brother requires a certain package from me, but I lost that package in the Pit. It seems the creatures there are much tougher than I remember.
 
 Please visit me in Stonehold and I will give you more details.
 ');

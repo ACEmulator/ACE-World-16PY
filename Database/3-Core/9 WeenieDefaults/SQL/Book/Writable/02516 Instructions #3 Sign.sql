@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (2516, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (2516, 0, 4294967295, 'Instructions #3', 'prewritten', False, '
+VALUES (2516, 0, 0xFFFFFFFF, 'Instructions #3', 'prewritten', False, '
 You can choose to auto-target an enemy and to auto-repeat your attacks, but you still must click on low, medium or high once for any new opponent.  More tips: To hit a rat, you must target LOW.  To hit a phyntos wasp, try HIGH.  A monster''s health is displayed below its name in the bottom-right corner of the screen. For more information, click on the magnifying glass icon while you have the monster selected.  Finally, don''t forget to double-click on the corpse to see if it contains any goodies!
 ');

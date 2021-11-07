@@ -34,7 +34,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (30914, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (30914, 0, 4294967295, 'Carlo di Cenza', 'prewritten', False, 'But more important than our survival was the theft of that glorious object, that ancient Empyrean tome. 
+VALUES (30914, 0, 0xFFFFFFFF, 'Carlo di Cenza', 'prewritten', False, 'But more important than our survival was the theft of that glorious object, that ancient Empyrean tome. 
 
 Empyrean. The word is so foreign to me, though we have lived in their world for so many years now. When I read this tome, my mind reels at the descriptions of their lives, their societies, and their power. Most of all, their power. The wonders, and horrors, these creatures wrought upon one another have inspired countless dreams as well as nightmares among all those who have been allowed to peruse the dusty pages of this aged book.
 ');

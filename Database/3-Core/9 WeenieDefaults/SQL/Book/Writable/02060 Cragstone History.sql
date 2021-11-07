@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (2060, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (2060, 0, 4294967295, 'Cragstone History', 'prewritten', False, '
+VALUES (2060, 0, 0xFFFFFFFF, 'Cragstone History', 'prewritten', False, '
 FIXME!
 
 ');

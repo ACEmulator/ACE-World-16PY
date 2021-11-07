@@ -36,7 +36,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (23517, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (23517, 0, 4294967295, 'Tamian Wilmot', 'prewritten', False, '
+VALUES (23517, 0, 0xFFFFFFFF, 'Tamian Wilmot', 'prewritten', False, '
 Oh glorious irony! This mighty tower, calling from the earth to the heavens. Calling for the love Saolor Lentain could never have! No matter the powerful Empyrean builder or the meek human- all fall to the intrigues of the heart.
 
 Astara, I will extend, nay, continue my journey to seek the building craft of the Empyrean.  I will go off to the wilds. I am stronger now. Someday I will be back. I will come for you, my love.

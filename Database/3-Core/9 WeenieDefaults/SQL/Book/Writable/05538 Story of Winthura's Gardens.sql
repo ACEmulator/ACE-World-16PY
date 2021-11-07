@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5538, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5538, 0, 4294967295, 'Tashwi ibn Sayat', 'prewritten', False, '
+VALUES (5538, 0, 0xFFFFFFFF, 'Tashwi ibn Sayat', 'prewritten', False, '
 Aluvian noble Lord Balthall was once Khayyaban''s richest inhabitant.  He built an underground estate to the north, called Winthura Garden. His wife, Lady Winthura, misliked living there, and planted trees in the caves to make her feel more at home.  They disappeared last year, and some whisper of a band of Tumeroks using the abandoned estate for shelter.  North of town, at 44.2S, 25.2E, lies a circle of columns, the centermost one a beacon-light. Travel northwest of this, and you will find the entrance.
 
 ');

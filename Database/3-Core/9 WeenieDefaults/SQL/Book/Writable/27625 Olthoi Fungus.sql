@@ -31,6 +31,6 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (27625, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27625, 0, 4294967295, 'Lark Grifana', 'prewritten', False, '
+VALUES (27625, 0, 0xFFFFFFFF, 'Lark Grifana', 'prewritten', False, '
 We don''t go up on the plateau much. It''s riddled with Olthoi hives, and the land is... queer. Everything is overgrown with patches of fungus, like you find in Olthoi tunnels. It''s almost as if it''s been changed to suit them. The bugs up there do seem smarter, but not enough to do something that big. Our sage likes to call it an "infection."
 ');

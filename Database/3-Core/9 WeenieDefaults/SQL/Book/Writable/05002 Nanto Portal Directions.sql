@@ -31,7 +31,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (5002, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5002, 0, 4294967295, 'Nanto Portal Directions', 'prewritten', False, '
+VALUES (5002, 0, 0xFFFFFFFF, 'Nanto Portal Directions', 'prewritten', False, '
 To find the portal to the town of Yanshi, follow the road southwest out of Nanto.  As it winds around the hill, you will see the portal right next to it.  Just be sure to take the correct road!
 
 ');
