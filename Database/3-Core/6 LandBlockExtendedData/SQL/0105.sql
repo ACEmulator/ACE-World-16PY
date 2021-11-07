@@ -330,8 +330,8 @@ VALUES (0x70105048,  1629, 0x01050219, 89.784, -269.99, -17.989, 0.978253, 0, 0,
 /* @teleloc 0x01050219 [89.783997 -269.989990 -17.989000] 0.978253 0.000000 0.000000 0.207415 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70105049,  1629, 0x01050221, 100, -187.532, -17.989, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Tusker Guard */
-/* @teleloc 0x01050221 [100.000000 -187.531998 -17.989000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x70105049,  1629, 0x01050221, 100, -187.532, -17.989, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Tusker Guard */
+/* @teleloc 0x01050221 [100.000000 -187.531998 -17.989000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7010504A,  1629, 0x01050221, 102.109, -189.791, -17.989, 0.998916, 0, 0, 0.046546,  True, '2005-02-09 10:00:00'); /* Tusker Guard */
@@ -454,12 +454,12 @@ VALUES (0x70105067,   237, 0x010502D6, 142.467, -182.299, -5.971, 0.993202, 0, 0
 /* @teleloc 0x010502D6 [142.466995 -182.298996 -5.971000] 0.993202 0.000000 0.000000 0.116402 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70105068,    23, 0x010502D6, 140, -182.666, -5.971, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Virindi Servant */
-/* @teleloc 0x010502D6 [140.000000 -182.666000 -5.971000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x70105068,    23, 0x010502D6, 140, -182.666, -5.971, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Virindi Servant */
+/* @teleloc 0x010502D6 [140.000000 -182.666000 -5.971000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70105069,  3985, 0x010502D6, 140, -184.5, -5.995, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Chest */
-/* @teleloc 0x010502D6 [140.000000 -184.500000 -5.995000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x70105069,  3985, 0x010502D6, 140, -184.5, -5.995, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Chest */
+/* @teleloc 0x010502D6 [140.000000 -184.500000 -5.995000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7010506A,  1628, 0x010502E1, 49.6498, -61.2202, 0.011, -0.185889, 0, 0, 0.982571,  True, '2005-02-09 10:00:00'); /* Tusker Slave */

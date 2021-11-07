@@ -25,8 +25,8 @@ VALUES (0x75646006, 20632, 0x56460108, 43.9669, -39.4912, -41.995, 0.791193, 0, 
 /* @teleloc 0x56460108 [43.966900 -39.491199 -41.994999] 0.791193 0.000000 0.000000 0.611567 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75646007, 20633, 0x5646010E, 70, -30, -41.9917, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Warlock of the Blood */
-/* @teleloc 0x5646010E [70.000000 -30.000000 -41.991699] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75646007, 20633, 0x5646010E, 70, -30, -41.9917, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Warlock of the Blood */
+/* @teleloc 0x5646010E [70.000000 -30.000000 -41.991699] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75646008, 20632, 0x5646010E, 69.6804, -32.3463, -41.995, 0.999295, 0, 0, -0.037551,  True, '2005-02-09 10:00:00'); /* Champion of the Blood */
@@ -57,12 +57,12 @@ VALUES (0x7564600E, 20632, 0x56460117, 96.8089, -12.9472, -41.995, 0.955337, 0, 
 /* @teleloc 0x56460117 [96.808899 -12.947200 -41.994999] 0.955337 0.000000 0.000000 0.295520 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7564600F, 20633, 0x5646011C, 100, -20, -41.9917, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Warlock of the Blood */
-/* @teleloc 0x5646011C [100.000000 -20.000000 -41.991699] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7564600F, 20633, 0x5646011C, 100, -20, -41.9917, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Warlock of the Blood */
+/* @teleloc 0x5646011C [100.000000 -20.000000 -41.991699] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75646010, 20633, 0x5646011C, 100, -22.8805, -41.9917, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Warlock of the Blood */
-/* @teleloc 0x5646011C [100.000000 -22.880501 -41.991699] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75646010, 20633, 0x5646011C, 100, -22.8805, -41.9917, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Warlock of the Blood */
+/* @teleloc 0x5646011C [100.000000 -22.880501 -41.991699] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75646011, 20632, 0x56460120, 108.869, -14.4746, -41.995, 0.902573, 0, 0, 0.430538,  True, '2005-02-09 10:00:00'); /* Champion of the Blood */
@@ -97,8 +97,8 @@ VALUES (0x75646018, 20632, 0x56460132, 170.003, -34.2468, -41.995, 0.408488, 0, 
 /* @teleloc 0x56460132 [170.003006 -34.246799 -41.994999] 0.408488 0.000000 0.000000 -0.912764 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75646019, 20633, 0x56460134, 170.435, -37.4176, -41.9917, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Warlock of the Blood */
-/* @teleloc 0x56460134 [170.434998 -37.417599 -41.991699] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75646019, 20633, 0x56460134, 170.435, -37.4176, -41.9917, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Warlock of the Blood */
+/* @teleloc 0x56460134 [170.434998 -37.417599 -41.991699] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7564601A, 20633, 0x56460137, 180, -10, -41.9917, 0.696707, 0, 0, 0.717356,  True, '2005-02-09 10:00:00'); /* Warlock of the Blood */

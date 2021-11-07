@@ -105,16 +105,16 @@ VALUES (0x7C6A901F,   412, 0xC6A90187, 104.392, 37.645, 42, -0.707107, 0, 0, 0.7
 /* @teleloc 0xC6A90187 [104.391998 37.645000 42.000000] -0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C6A9020,   412, 0xC6A90188, 114.583, 34.1594, 42, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0xC6A90188 [114.583000 34.159401 42.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7C6A9020,   412, 0xC6A90188, 114.583, 34.1594, 42, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0xC6A90188 [114.583000 34.159401 42.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C6A9021,   412, 0xC6A90189, 98.6748, 45.6678, 42, 0.939692, 0, 0, 0.342021, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0xC6A90189 [98.674797 45.667801 42.000000] 0.939692 0.000000 0.000000 0.342021 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C6A9022,   412, 0xC6A90196, 105.285, 29.0458, 42, -1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0xC6A90196 [105.285004 29.045799 42.000000] -1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7C6A9022,   412, 0xC6A90196, 105.285, 29.0458, 42, -1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0xC6A90196 [105.285004 29.045799 42.000000] -1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C6A9023,   412, 0xC6A9019A, 108.701, 30.3593, 37.195, 0.707107, 0, 0, -0.707106, False, '2005-02-09 10:00:00'); /* Door */

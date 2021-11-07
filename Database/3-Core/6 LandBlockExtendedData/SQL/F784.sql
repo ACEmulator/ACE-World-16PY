@@ -366,8 +366,8 @@ VALUES (0x7F784055,  5619, 0xF78401DA, 205.99, 466.963, -11.595, 0.078869, 0, 0,
 /* @teleloc 0xF78401DA [205.990005 466.963013 -11.595000] 0.078869 0.000000 0.000000 -0.996885 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F784056, 22520, 0xF78401DB, 206.273, 458.515, -11.5901, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Tusker Redeemer */
-/* @teleloc 0xF78401DB [206.272995 458.515015 -11.590100] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7F784056, 22520, 0xF78401DB, 206.273, 458.515, -11.5901, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Tusker Redeemer */
+/* @teleloc 0xF78401DB [206.272995 458.515015 -11.590100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F784057, 22594, 0xF78401F8, 405.503, 484.847, -11.545, 0.990625, 0, 0, -0.136608,  True, '2005-02-09 10:00:00'); /* Tusker Liberator */
@@ -1104,12 +1104,12 @@ VALUES (0x7F7840F8,  5399, 0xF7840107, 446.273, 478.515, -29.595, 1, 0, 0, 0, Fa
 /* @teleloc 0xF7840107 [446.273010 478.515015 -29.594999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F7840F9,  5399, 0xF7840108, 446.273, 468.515, -29.595, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Boiling Magma */
-/* @teleloc 0xF7840108 [446.273010 468.515015 -29.594999] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7F7840F9,  5399, 0xF7840108, 446.273, 468.515, -29.595, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Boiling Magma */
+/* @teleloc 0xF7840108 [446.273010 468.515015 -29.594999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F7840FA,  5399, 0xF7840109, 446.273, 458.515, -29.595, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Boiling Magma */
-/* @teleloc 0xF7840109 [446.273010 458.515015 -29.594999] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7F7840FA,  5399, 0xF7840109, 446.273, 458.515, -29.595, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Boiling Magma */
+/* @teleloc 0xF7840109 [446.273010 458.515015 -29.594999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F7840FB,  7923, 0xF784010A, 459.339, 466.735, -29.595, -0.315854, 0, 0, -0.948808, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */

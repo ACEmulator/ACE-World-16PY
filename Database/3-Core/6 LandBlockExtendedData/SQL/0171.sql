@@ -322,7 +322,7 @@ VALUES (0x7017104F, 27988, 0x01710255, 113.5, -41.5103, -17.995, -0.096133, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70171050, 27988, 0x0171025A, 109.857, -74.8217, -17.995, -0.010221, 0, 0, 0.999948,  True, '2005-02-09 10:00:00'); /* Guruk Miscreant */
-/* @teleloc 0x0171025A [109.857002 -74.821701 -17.995001] -0.010220 0.000000 0.000000 0.999948 */
+/* @teleloc 0x0171025A [109.857002 -74.821701 -17.995001] -0.010221 0.000000 0.000000 0.999948 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70171051, 26015, 0x0171025D, 112.374, -84.4178, -17.945, 0.858771, 0, 0, 0.51236,  True, '2005-02-09 10:00:00'); /* Burun Ruuk Lout */
@@ -421,8 +421,8 @@ VALUES (0x70171068, 26019, 0x017102AB, 85.8341, -81.1516, -5.96154, 0.124841, 0,
 /* @teleloc 0x017102AB [85.834099 -81.151604 -5.961540] 0.124841 0.000000 0.000000 0.992177 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70171069, 26553, 0x017102BF, 70, -104.85, 0.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Guardian */
-/* @teleloc 0x017102BF [70.000000 -104.849998 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x70171069, 26553, 0x017102BF, 70, -104.85, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Guardian */
+/* @teleloc 0x017102BF [70.000000 -104.849998 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7017106A,  7932, 0x017102C1, 67.8548, -120, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 4 Min.) */

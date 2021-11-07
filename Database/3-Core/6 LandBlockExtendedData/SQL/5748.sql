@@ -93,8 +93,8 @@ VALUES (0x75748016,   236, 0x57480138, 71.3134, -108.486, -17.989, 1, 0, 0, 0,  
 /* @teleloc 0x57480138 [71.313400 -108.486000 -17.989000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75748017,   236, 0x5748013B, 77.4416, -110.203, -17.989, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Female Tusker */
-/* @teleloc 0x5748013B [77.441597 -110.203003 -17.989000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75748017,   236, 0x5748013B, 77.4416, -110.203, -17.989, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Female Tusker */
+/* @teleloc 0x5748013B [77.441597 -110.203003 -17.989000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75748018,   236, 0x57480155, 161.465, -109.061, -17.989, 0.999687, 0, 0, -0.024998,  True, '2005-02-09 10:00:00'); /* Female Tusker */
@@ -149,8 +149,8 @@ VALUES (0x75748024,   236, 0x574801AE, 130.098, -65.2466, -11.782, 1, 0, 0, 0,  
 /* @teleloc 0x574801AE [130.098007 -65.246597 -11.782000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75748025,   236, 0x574801B4, 137.364, -66.766, -11.989, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Female Tusker */
-/* @teleloc 0x574801B4 [137.363998 -66.765999 -11.989000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75748025,   236, 0x574801B4, 137.364, -66.766, -11.989, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Female Tusker */
+/* @teleloc 0x574801B4 [137.363998 -66.765999 -11.989000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75748026,   236, 0x574801B7, 140, -90, -11.989, 0.748499, 0, 0, 0.663135,  True, '2005-02-09 10:00:00'); /* Female Tusker */

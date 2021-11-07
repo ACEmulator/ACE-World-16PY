@@ -65,8 +65,8 @@ VALUES (0x701AB00F,   171, 0x01AB0142, 39.2448, -98.0835, 0, 0.707107, 0, 0, -0.
 /* @teleloc 0x01AB0142 [39.244801 -98.083504 0.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701AB010,   884, 0x01AB0145, 40.2773, -116.426, 0, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Sandy Armoredillo Generator */
-/* @teleloc 0x01AB0145 [40.277302 -116.426003 0.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701AB010,   884, 0x01AB0145, 40.2773, -116.426, 0, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Sandy Armoredillo Generator */
+/* @teleloc 0x01AB0145 [40.277302 -116.426003 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701AB011,   884, 0x01AB0147, 44.5186, -121.234, 0, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Sandy Armoredillo Generator */
@@ -97,8 +97,8 @@ VALUES (0x701AB017,   387, 0x01AB0151, 50, -30, 0, -0.707107, 0, 0, -0.707107, F
 /* @teleloc 0x01AB0151 [50.000000 -30.000000 0.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701AB018, 24939, 0x01AB0154, 52.4425, -57.9086, 0.01, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Gotrok Amploth */
-/* @teleloc 0x01AB0154 [52.442501 -57.908600 0.010000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x701AB018, 24939, 0x01AB0154, 52.4425, -57.9086, 0.01, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Gotrok Amploth */
+/* @teleloc 0x01AB0154 [52.442501 -57.908600 0.010000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701AB019,   894, 0x01AB015D, 47.1795, -121.435, 0, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Lugian Lithos Generator */

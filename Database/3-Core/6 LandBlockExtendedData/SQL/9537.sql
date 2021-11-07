@@ -22,7 +22,7 @@ VALUES (0x79537004, 24939, 0x95370000, 161.015, 31.1967, 26.009, -0.138605, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79537005, 24939, 0x95370000, 146.92, 31.3127, 26.009, -0.995655, 0, 0, 0.093122,  True, '2005-02-09 10:00:00'); /* Gotrok Amploth */
-/* @teleloc 0x95370000 [146.919998 31.312700 26.009001] -0.995655 0.000000 0.000000 0.093121 */
+/* @teleloc 0x95370000 [146.919998 31.312700 26.009001] -0.995655 0.000000 0.000000 0.093122 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79537006,   387, 0x95370000, 135.275, 40.8521, 22.005, -0.076478, 0, 0, -0.997071, False, '2005-02-09 10:00:00'); /* Lugian Generator */

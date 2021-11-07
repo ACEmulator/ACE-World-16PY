@@ -1,8 +1,8 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x526A;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7526A000, 14584, 0x526A0100, 70.3223, -75.9365, -42, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Return to Dereth */
-/* @teleloc 0x526A0100 [70.322304 -75.936501 -42.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7526A000, 14584, 0x526A0100, 70.3223, -75.9365, -42, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Return to Dereth */
+/* @teleloc 0x526A0100 [70.322304 -75.936501 -42.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526A001, 14560, 0x526A0118, 70, -60, -30, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Quiddity Rift */
@@ -41,8 +41,8 @@ VALUES (0x7526A009, 14804, 0x526A01D7, 160.049, -81.544, -26.387, 1, 0, 0, 0, Fa
 /* @teleloc 0x526A01D7 [160.048996 -81.543999 -26.386999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7526A00A, 14818, 0x526A01DD, 170, -60, -29.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Portal Space */
-/* @teleloc 0x526A01DD [170.000000 -60.000000 -29.995001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7526A00A, 14818, 0x526A01DD, 170, -60, -29.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Portal Space */
+/* @teleloc 0x526A01DD [170.000000 -60.000000 -29.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526A00B, 14562, 0x526A01E0, 170, -70, -29.9925, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Quiddity Rift */
@@ -93,8 +93,8 @@ VALUES (0x7526A016, 14803, 0x526A023B, 70.071, -124.608, -23.527, 0, 0, 0, -1, F
 /* @teleloc 0x526A023B [70.070999 -124.608002 -23.527000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7526A017, 14819, 0x526A023E, 80, -30, -23.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Portal Space */
-/* @teleloc 0x526A023E [80.000000 -30.000000 -23.995001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7526A017, 14819, 0x526A023E, 80, -30, -23.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Portal Space */
+/* @teleloc 0x526A023E [80.000000 -30.000000 -23.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526A018, 14822, 0x526A025C, 110, -80, -23.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Portal Space */
@@ -120,8 +120,8 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x7526A01D, 0x7526A01C, '2005-02-09 10:00:00') /* Pressure Plate (7625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7526A01E, 14799, 0x526A027B, 160, -54.1285, -23.971, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Vibrant Virindi Energy Cluster */
-/* @teleloc 0x526A027B [160.000000 -54.128502 -23.971001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7526A01E, 14799, 0x526A027B, 160, -54.1285, -23.971, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Vibrant Virindi Energy Cluster */
+/* @teleloc 0x526A027B [160.000000 -54.128502 -23.971001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526A01F, 14799, 0x526A0281, 160.045, -105.654, -23.971, -0.030296, 0, 0, 0.999541,  True, '2005-02-09 10:00:00'); /* Vibrant Virindi Energy Cluster */
@@ -143,8 +143,8 @@ VALUES (0x7526A024, 14812, 0x526A028D, 210, -50, -23.995, -0.707107, 0, 0, -0.70
 /* @teleloc 0x526A028D [210.000000 -50.000000 -23.995001] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7526A025, 14811, 0x526A0290, 220, -40, -23.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Portal Space */
-/* @teleloc 0x526A0290 [220.000000 -40.000000 -23.995001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7526A025, 14811, 0x526A0290, 220, -40, -23.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Portal Space */
+/* @teleloc 0x526A0290 [220.000000 -40.000000 -23.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526A026, 14803, 0x526A0293, 220.105, -45.2019, -23.674, 0.999835, 0, 0, -0.01816, False, '2005-02-09 10:00:00'); /* Swirling Portal */

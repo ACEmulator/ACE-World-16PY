@@ -64,7 +64,7 @@ VALUES (0x77C6300B, 22257, 0x7C630000, 99.0161, 168.424, -0.445, -0.761826, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77C6300C, 22257, 0x7C630000, 82.1563, 163.496, -0.895, -0.999854, 0, 0, 0.017076,  True, '2005-02-09 10:00:00'); /* Fishing Hole */
-/* @teleloc 0x7C630000 [82.156303 163.496002 -0.895000] -0.999854 0.000000 0.000000 0.017075 */
+/* @teleloc 0x7C630000 [82.156303 163.496002 -0.895000] -0.999854 0.000000 0.000000 0.017076 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77C6300D, 23340, 0x7C630000, 134.307, 179.787, 0.005, 0.95157, 0, 0, -0.307433, False, '2005-02-09 10:00:00'); /* Fishing Sign */

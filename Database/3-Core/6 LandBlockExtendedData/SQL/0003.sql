@@ -38,8 +38,8 @@ VALUES (0x70003005, 30390, 0x00030104, 21.7711, -0.849313, -17.995, 0.18726, 0, 
 /* @teleloc 0x00030104 [21.771099 -0.849313 -17.995001] 0.187260 0.000000 0.000000 0.982310 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70003006,   278, 0x00030106, 20, -4.75, -18, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x00030106 [20.000000 -4.750000 -18.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x70003006,   278, 0x00030106, 20, -4.75, -18, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x00030106 [20.000000 -4.750000 -18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70003007, 30391, 0x0003010A, 21.4665, -21.1027, -17.995, -0.948318, 0, 0, -0.317323,  True, '2005-02-09 10:00:00'); /* Niffis Fighter */
@@ -62,8 +62,8 @@ VALUES (0x7000300B, 30390, 0x0003010D, 29.0263, 0.193816, -17.995, 0.031353, 0, 
 /* @teleloc 0x0003010D [29.026300 0.193816 -17.995001] 0.031353 0.000000 0.000000 -0.999508 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7000300C,   278, 0x0003010F, 30, -4.75, -18, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x0003010F [30.000000 -4.750000 -18.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7000300C,   278, 0x0003010F, 30, -4.75, -18, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x0003010F [30.000000 -4.750000 -18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7000300D, 30391, 0x00030113, 27.8605, -21.3264, -17.995, -0.99084, 0, 0, 0.135043,  True, '2005-02-09 10:00:00'); /* Niffis Fighter */
@@ -271,14 +271,14 @@ VALUES (0x70003033, 23479, 0x0003019B, 186.301, -71.3682, -5.99285, 0.964642, 0,
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70003034, 15759, 0x0003019F, 124.078, -7.1478, 0.005, 0.075871, 0, 0, 0.997118, False, '2005-02-09 10:00:00'); /* Linkable Item Generator */
-/* @teleloc 0x0003019F [124.078003 -7.147800 0.005000] 0.075870 0.000000 0.000000 0.997118 */
+/* @teleloc 0x0003019F [124.078003 -7.147800 0.005000] 0.075871 0.000000 0.000000 0.997118 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x70003034, 0x70003035, '2005-02-09 10:00:00') /* Heartfelt Plea (30396) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70003035, 30396, 0x0003019F, 121.939, -8.13735, 0.079, 0.075871, 0, 0, 0.997118,  True, '2005-02-09 10:00:00'); /* Heartfelt Plea */
-/* @teleloc 0x0003019F [121.939003 -8.137350 0.079000] 0.075870 0.000000 0.000000 0.997118 */
+/* @teleloc 0x0003019F [121.939003 -8.137350 0.079000] 0.075871 0.000000 0.000000 0.997118 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70003036, 23479, 0x000301A2, 132.546, -18.9877, 0.00715, 0.975514, 0, 0, 0.219936,  True, '2005-02-09 10:00:00'); /* Banderling Scalper */

@@ -1078,8 +1078,8 @@ VALUES (0x75F470D1, 0x75F47015, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) *
      , (0x75F470D1, 0x75F470E8, '2005-02-09 10:00:00') /* Ruby Gromnie (25598) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75F470D2, 25596, 0x5F47036A, 201.321, -106.178, -5.995, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Amethyst Gromnie */
-/* @teleloc 0x5F47036A [201.320999 -106.178001 -5.995000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75F470D2, 25596, 0x5F47036A, 201.321, -106.178, -5.995, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Amethyst Gromnie */
+/* @teleloc 0x5F47036A [201.320999 -106.178001 -5.995000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F470D3, 25596, 0x5F47036A, 198.779, -106.318, -5.995, 0.200459, 0, 0, -0.979702,  True, '2005-02-09 10:00:00'); /* Amethyst Gromnie */

@@ -205,8 +205,8 @@ VALUES (0x7594A032,  7184, 0x594A0145, 60.8429, -146.195, 0.055, -0.028849, 0, 0
 /* @teleloc 0x594A0145 [60.842899 -146.195007 0.055000] -0.028849 0.000000 0.000000 -0.999584 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7594A033,  7923, 0x594A0148, 60, -180, 0.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
-/* @teleloc 0x594A0148 [60.000000 -180.000000 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7594A033,  7923, 0x594A0148, 60, -180, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
+/* @teleloc 0x594A0148 [60.000000 -180.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7594A033, 0x7594A000, '2005-02-09 10:00:00') /* Tusker Worshipper (22515) */

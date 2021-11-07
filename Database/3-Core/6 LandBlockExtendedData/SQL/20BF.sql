@@ -41,8 +41,8 @@ VALUES (0x720BF004, 0x720BF002, '2005-02-09 10:00:00') /* Vapor Golem (7099) */
      , (0x720BF004, 0x720BF015, '2005-02-09 10:00:00') /* Olthoi Soldier (6640) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x720BF005, 11217, 0x20BF0125, 83.9602, 137.504, 74.205, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* North Fork Dam Hive Portal */
-/* @teleloc 0x20BF0125 [83.960197 137.503998 74.205002] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x720BF005, 11217, 0x20BF0125, 83.9602, 137.504, 74.205, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* North Fork Dam Hive Portal */
+/* @teleloc 0x20BF0125 [83.960197 137.503998 74.205002] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x720BF006, 11695, 0x20BF0125, 84.5988, 131.676, 81.0985, -0.521672, 0, 0, -0.853146,  True, '2005-02-09 10:00:00'); /* Olthoi Legionary */

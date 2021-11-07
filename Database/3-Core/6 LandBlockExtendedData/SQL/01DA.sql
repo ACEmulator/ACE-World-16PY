@@ -1,8 +1,8 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x01DA;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701DA000,   954, 0x01DA0100, 0.537709, -21.806, -6, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Drudge Sneaker Generator */
-/* @teleloc 0x01DA0100 [0.537709 -21.806000 -6.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701DA000,   954, 0x01DA0100, 0.537709, -21.806, -6, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Drudge Sneaker Generator */
+/* @teleloc 0x01DA0100 [0.537709 -21.806000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701DA001,   954, 0x01DA0105, 0, -40, -6, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Drudge Sneaker Generator */
@@ -25,8 +25,8 @@ VALUES (0x701DA005,  4012, 0x01DA0109, -0.387883, -52.7988, -6, 1, 0, 0, 0, Fals
 /* @teleloc 0x01DA0109 [-0.387883 -52.798801 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701DA006,  1344, 0x01DA0111, 20, -4, 0, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Surface */
-/* @teleloc 0x01DA0111 [20.000000 -4.000000 0.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701DA006,  1344, 0x01DA0111, 20, -4, 0, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Surface */
+/* @teleloc 0x01DA0111 [20.000000 -4.000000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701DA007,  1115, 0x01DA011A, 24.0149, -42.7742, 0, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Book Shelf */

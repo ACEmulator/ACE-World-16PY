@@ -37,8 +37,8 @@ VALUES (0x79E43008,  4698, 0x9E430122, 31.4793, 125.946, 56.005, 0.989278, 0, 0,
 /* @teleloc 0x9E430122 [31.479300 125.945999 56.005001] 0.989278 0.000000 0.000000 -0.146042 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79E43009,  4669, 0x9E430000, 27.7252, 86.3747, 53.1838, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Zayjay's Clothing */
-/* @teleloc 0x9E430000 [27.725201 86.374702 53.183800] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x79E43009,  4669, 0x9E430000, 27.7252, 86.3747, 53.1838, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Zayjay's Clothing */
+/* @teleloc 0x9E430000 [27.725201 86.374702 53.183800] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E4300A,  4666, 0x9E430000, 33.6211, 142.181, 59.614, 0.000334, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Desert's Respite */

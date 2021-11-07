@@ -46,7 +46,7 @@ VALUES (0x791D200A, 14616, 0x91D20000, 38.7502, 102.423, 332.215, 0.982668, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x791D200B, 14615, 0x91D20000, 50.1513, 32.9623, 326.754, -0.098716, 0, 0, 0.995116, False, '2005-02-09 10:00:00'); /* Bretslef Cottages Portal */
-/* @teleloc 0x91D20000 [50.151299 32.962299 326.753998] -0.098715 0.000000 0.000000 0.995116 */
+/* @teleloc 0x91D20000 [50.151299 32.962299 326.753998] -0.098716 0.000000 0.000000 0.995116 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x791D200C, 14636, 0x91D20000, 31.6006, 101.896, 327.913, -0.999985, 0, 0, 0.005422, False, '2005-02-09 10:00:00'); /* Ianna Portal */

@@ -38,11 +38,11 @@ VALUES (0x7CB52008,   899, 0xCB520100, 180.779, 23.2708, 34.805, -0.081452, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB52009,  1619, 0xCB520100, 180.204, 24.9221, 34.8055, -0.038478, 0, 0, 0.999259,  True, '2005-02-09 10:00:00'); /* Mosswart Shaman */
-/* @teleloc 0xCB520100 [180.203995 24.922100 34.805500] -0.038477 0.000000 0.000000 0.999259 */
+/* @teleloc 0xCB520100 [180.203995 24.922100 34.805500] -0.038478 0.000000 0.000000 0.999259 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB5200A,  1154, 0xCB520100, 180.144, 25.7003, 34.805, -0.038478, 0, 0, 0.999259, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator */
-/* @teleloc 0xCB520100 [180.143997 25.700300 34.805000] -0.038477 0.000000 0.000000 0.999259 */
+/* @teleloc 0xCB520100 [180.143997 25.700300 34.805000] -0.038478 0.000000 0.000000 0.999259 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7CB5200A, 0x7CB52009, '2005-02-09 10:00:00') /* Mosswart Shaman (1619) */;

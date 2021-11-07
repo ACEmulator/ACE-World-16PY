@@ -70,8 +70,8 @@ VALUES (0x7388100E,   233, 0x38810000, 85.4408, 165.119, 128.005, -0.568198, 0, 
 /* @teleloc 0x38810000 [85.440804 165.119003 128.005005] -0.568198 0.000000 0.000000 0.822892 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7388100F,  2493, 0x38810000, 108, 162.5, 128.005, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x38810000 [108.000000 162.500000 128.005005] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7388100F,  2493, 0x38810000, 108, 162.5, 128.005, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x38810000 [108.000000 162.500000 128.005005] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73881010,  1631, 0x38810000, 79.3338, 165.313, 128.005, 0.66924, 0, 0, 0.743046,  True, '2005-02-09 10:00:00'); /* Drudge Servant */

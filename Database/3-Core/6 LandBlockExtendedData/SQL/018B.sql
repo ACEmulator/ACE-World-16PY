@@ -41,20 +41,20 @@ VALUES (0x7018B00A,  1625, 0x018B0108, 66.7793, -101.251, -17.988, 0.995174, 0, 
 /* @teleloc 0x018B0108 [66.779297 -101.250999 -17.988001] 0.995174 0.000000 0.000000 -0.098125 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7018B00B,  1625, 0x018B0108, 67.7241, -102.868, -17.988, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Mountain Rat */
-/* @teleloc 0x018B0108 [67.724098 -102.867996 -17.988001] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7018B00B,  1625, 0x018B0108, 67.7241, -102.868, -17.988, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Mountain Rat */
+/* @teleloc 0x018B0108 [67.724098 -102.867996 -17.988001] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7018B00C,  3645, 0x018B0109, 67.6217, -109.169, -17.8339, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Tibri's Fire Spear */
-/* @teleloc 0x018B0109 [67.621696 -109.168999 -17.833900] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7018B00C,  3645, 0x018B0109, 67.6217, -109.169, -17.8339, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Tibri's Fire Spear */
+/* @teleloc 0x018B0109 [67.621696 -109.168999 -17.833900] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7018B00F,  1625, 0x018B0109, 66.8353, -106.377, -17.988, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Mountain Rat */
-/* @teleloc 0x018B0109 [66.835297 -106.376999 -17.988001] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7018B00F,  1625, 0x018B0109, 66.8353, -106.377, -17.988, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Mountain Rat */
+/* @teleloc 0x018B0109 [66.835297 -106.376999 -17.988001] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7018B010,  7087, 0x018B010E, 40.6269, -77.6866, -11.9929, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Banderling Ogre */
-/* @teleloc 0x018B010E [40.626900 -77.686600 -11.992900] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7018B010,  7087, 0x018B010E, 40.6269, -77.6866, -11.9929, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Banderling Ogre */
+/* @teleloc 0x018B010E [40.626900 -77.686600 -11.992900] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7018B011,  7087, 0x018B010E, 41.5433, -79.2699, -11.9929, -0.936977, 0, 0, -0.34939,  True, '2005-02-09 10:00:00'); /* Banderling Ogre */
@@ -157,8 +157,8 @@ VALUES (0x7018B029,  7332, 0x018B0146, 79.5242, -29.7084, -8.60951, -0.741611, 0
 /* @teleloc 0x018B0146 [79.524200 -29.708401 -8.609510] -0.741611 0.000000 0.000000 -0.670831 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7018B02A,  7332, 0x018B0166, 2.71798, -27.6353, 0.00715, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Banderling Blade */
-/* @teleloc 0x018B0166 [2.717980 -27.635300 0.007150] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7018B02A,  7332, 0x018B0166, 2.71798, -27.6353, 0.00715, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Banderling Blade */
+/* @teleloc 0x018B0166 [2.717980 -27.635300 0.007150] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7018B02B,  7332, 0x018B016E, 6.4034, -30.732, 0.00715, 0.824188, 0, 0, -0.566316,  True, '2005-02-09 10:00:00'); /* Banderling Blade */
@@ -177,8 +177,8 @@ VALUES (0x7018B02E,  7332, 0x018B017E, 30, -10, 0.00715, 1, 0, 0, 0,  True, '200
 /* @teleloc 0x018B017E [30.000000 -10.000000 0.007150] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7018B02F,  7332, 0x018B0185, 31.4866, -28.7398, 0.00715, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Banderling Blade */
-/* @teleloc 0x018B0185 [31.486601 -28.739799 0.007150] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7018B02F,  7332, 0x018B0185, 31.4866, -28.7398, 0.00715, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Banderling Blade */
+/* @teleloc 0x018B0185 [31.486601 -28.739799 0.007150] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7018B030,   938, 0x018B018C, 40.6648, -42.2469, 0.0077, -0.279726, 0, 0, -0.96008,  True, '2005-02-09 10:00:00'); /* Banderling Raider */
@@ -205,8 +205,8 @@ VALUES (0x7018B036,  3607, 0x018B01C7, 80.6764, -60.4128, 0.005, 0.89668, 0, 0, 
 /* @teleloc 0x018B01C7 [80.676399 -60.412800 0.005000] 0.896680 0.000000 0.000000 -0.442680 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7018B038,  5085, 0x018B0109, 68.6784, -108.938, -17.9878, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Linkable Item Gen - 25 seconds */
-/* @teleloc 0x018B0109 [68.678398 -108.938004 -17.987801] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7018B038,  5085, 0x018B0109, 68.6784, -108.938, -17.9878, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Linkable Item Gen - 25 seconds */
+/* @teleloc 0x018B0109 [68.678398 -108.938004 -17.987801] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7018B038, 0x7018B00C, '2005-02-09 10:00:00') /* Tibri's Fire Spear (3645) */;

@@ -126,72 +126,72 @@ VALUES (0x7F419018,  5408, 0xF4190000, 187.263, 61.4443, -0.095, -0.703265, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F419019,  8580, 0xF4190000, 180.795, 51.2031, -0.095, -0.012259, 0, 0, 0.999925, False, '2005-02-09 10:00:00'); /* Waterfall */
-/* @teleloc 0xF4190000 [180.794998 51.203098 -0.095000] -0.012258 0.000000 0.000000 0.999925 */
+/* @teleloc 0xF4190000 [180.794998 51.203098 -0.095000] -0.012259 0.000000 0.000000 0.999925 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F41901A,  8580, 0xF4190000, 173.731, 51.1771, -0.095, -0.012259, 0, 0, 0.999925, False, '2005-02-09 10:00:00'); /* Waterfall */
-/* @teleloc 0xF4190000 [173.731003 51.177101 -0.095000] -0.012258 0.000000 0.000000 0.999925 */
+/* @teleloc 0xF4190000 [173.731003 51.177101 -0.095000] -0.012259 0.000000 0.000000 0.999925 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F41901B,  8580, 0xF4190000, 173.81, 56.6911, -0.095, -0.012259, 0, 0, 0.999925, False, '2005-02-09 10:00:00'); /* Waterfall */
-/* @teleloc 0xF4190000 [173.809998 56.691101 -0.095000] -0.012258 0.000000 0.000000 0.999925 */
+/* @teleloc 0xF4190000 [173.809998 56.691101 -0.095000] -0.012259 0.000000 0.000000 0.999925 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F41901C,  8580, 0xF4190000, 180.849, 56.6363, -0.095, -0.012259, 0, 0, 0.999925, False, '2005-02-09 10:00:00'); /* Waterfall */
-/* @teleloc 0xF4190000 [180.848999 56.636299 -0.095000] -0.012258 0.000000 0.000000 0.999925 */
+/* @teleloc 0xF4190000 [180.848999 56.636299 -0.095000] -0.012259 0.000000 0.000000 0.999925 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F41901D,  8580, 0xF4190000, 165.02, 50.9704, -0.095, -0.012259, 0, 0, 0.999925, False, '2005-02-09 10:00:00'); /* Waterfall */
-/* @teleloc 0xF4190000 [165.020004 50.970402 -0.095000] -0.012258 0.000000 0.000000 0.999925 */
+/* @teleloc 0xF4190000 [165.020004 50.970402 -0.095000] -0.012259 0.000000 0.000000 0.999925 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F41901E,  8580, 0xF4190000, 156.743, 51.035, -0.095, -0.012259, 0, 0, 0.999925, False, '2005-02-09 10:00:00'); /* Waterfall */
-/* @teleloc 0xF4190000 [156.742996 51.035000 -0.095000] -0.012258 0.000000 0.000000 0.999925 */
+/* @teleloc 0xF4190000 [156.742996 51.035000 -0.095000] -0.012259 0.000000 0.000000 0.999925 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F41901F,  8580, 0xF4190000, 148.273, 51.2688, -0.095, -0.012259, 0, 0, 0.999925, False, '2005-02-09 10:00:00'); /* Waterfall */
-/* @teleloc 0xF4190000 [148.272995 51.268799 -0.095000] -0.012258 0.000000 0.000000 0.999925 */
+/* @teleloc 0xF4190000 [148.272995 51.268799 -0.095000] -0.012259 0.000000 0.000000 0.999925 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F419020,  8580, 0xF4190000, 139.925, 51.2513, -0.095, -0.012259, 0, 0, 0.999925, False, '2005-02-09 10:00:00'); /* Waterfall */
-/* @teleloc 0xF4190000 [139.925003 51.251301 -0.095000] -0.012258 0.000000 0.000000 0.999925 */
+/* @teleloc 0xF4190000 [139.925003 51.251301 -0.095000] -0.012259 0.000000 0.000000 0.999925 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F419021,  8580, 0xF4190000, 132.512, 51.2836, -0.095, -0.012259, 0, 0, 0.999925, False, '2005-02-09 10:00:00'); /* Waterfall */
-/* @teleloc 0xF4190000 [132.511993 51.283600 -0.095000] -0.012258 0.000000 0.000000 0.999925 */
+/* @teleloc 0xF4190000 [132.511993 51.283600 -0.095000] -0.012259 0.000000 0.000000 0.999925 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F419022,  8580, 0xF4190000, 124.551, 51.3426, -0.095, -0.012259, 0, 0, 0.999925, False, '2005-02-09 10:00:00'); /* Waterfall */
-/* @teleloc 0xF4190000 [124.551003 51.342602 -0.095000] -0.012258 0.000000 0.000000 0.999925 */
+/* @teleloc 0xF4190000 [124.551003 51.342602 -0.095000] -0.012259 0.000000 0.000000 0.999925 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F419023,  8580, 0xF4190000, 116.107, 51.3779, -0.095, -0.012259, 0, 0, 0.999925, False, '2005-02-09 10:00:00'); /* Waterfall */
-/* @teleloc 0xF4190000 [116.107002 51.377899 -0.095000] -0.012258 0.000000 0.000000 0.999925 */
+/* @teleloc 0xF4190000 [116.107002 51.377899 -0.095000] -0.012259 0.000000 0.000000 0.999925 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F419024,  8580, 0xF4190000, 164.963, 56.4412, -0.095, -0.012259, 0, 0, 0.999925, False, '2005-02-09 10:00:00'); /* Waterfall */
-/* @teleloc 0xF4190000 [164.962997 56.441200 -0.095000] -0.012258 0.000000 0.000000 0.999925 */
+/* @teleloc 0xF4190000 [164.962997 56.441200 -0.095000] -0.012259 0.000000 0.000000 0.999925 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F419025,  8580, 0xF4190000, 156.699, 56.5062, -0.095, -0.012259, 0, 0, 0.999925, False, '2005-02-09 10:00:00'); /* Waterfall */
-/* @teleloc 0xF4190000 [156.699005 56.506199 -0.095000] -0.012258 0.000000 0.000000 0.999925 */
+/* @teleloc 0xF4190000 [156.699005 56.506199 -0.095000] -0.012259 0.000000 0.000000 0.999925 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F419026,  8580, 0xF4190000, 148.271, 56.6475, -0.095, -0.012259, 0, 0, 0.999925, False, '2005-02-09 10:00:00'); /* Waterfall */
-/* @teleloc 0xF4190000 [148.270996 56.647499 -0.095000] -0.012258 0.000000 0.000000 0.999925 */
+/* @teleloc 0xF4190000 [148.270996 56.647499 -0.095000] -0.012259 0.000000 0.000000 0.999925 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F419027,  8580, 0xF4190000, 139.858, 56.5881, -0.095, -0.012259, 0, 0, 0.999925, False, '2005-02-09 10:00:00'); /* Waterfall */
-/* @teleloc 0xF4190000 [139.858002 56.588100 -0.095000] -0.012258 0.000000 0.000000 0.999925 */
+/* @teleloc 0xF4190000 [139.858002 56.588100 -0.095000] -0.012259 0.000000 0.000000 0.999925 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F419028,  8580, 0xF4190000, 132.548, 56.7704, -0.095, -0.012259, 0, 0, 0.999925, False, '2005-02-09 10:00:00'); /* Waterfall */
-/* @teleloc 0xF4190000 [132.548004 56.770401 -0.095000] -0.012258 0.000000 0.000000 0.999925 */
+/* @teleloc 0xF4190000 [132.548004 56.770401 -0.095000] -0.012259 0.000000 0.000000 0.999925 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F419029,  8580, 0xF4190000, 124.73, 56.9538, -0.095, -0.012259, 0, 0, 0.999925, False, '2005-02-09 10:00:00'); /* Waterfall */
-/* @teleloc 0xF4190000 [124.730003 56.953800 -0.095000] -0.012258 0.000000 0.000000 0.999925 */
+/* @teleloc 0xF4190000 [124.730003 56.953800 -0.095000] -0.012259 0.000000 0.000000 0.999925 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F41902A,  8580, 0xF4190000, 116.128, 56.9045, -0.095, -0.012259, 0, 0, 0.999925, False, '2005-02-09 10:00:00'); /* Waterfall */
-/* @teleloc 0xF4190000 [116.127998 56.904499 -0.095000] -0.012258 0.000000 0.000000 0.999925 */
+/* @teleloc 0xF4190000 [116.127998 56.904499 -0.095000] -0.012259 0.000000 0.000000 0.999925 */

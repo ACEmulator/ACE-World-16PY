@@ -168,8 +168,8 @@ VALUES (0x702A7022,  9029, 0x02A702D0, 164.495, -170, 0.005, 0.707107, 0, 0, -0.
 /* @teleloc 0x02A702D0 [164.494995 -170.000000 0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702A7023,  9030, 0x02A702DB, 180, -164.505, 0.005, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* The Second Threshold */
-/* @teleloc 0x02A702DB [180.000000 -164.505005 0.005000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x702A7023,  9030, 0x02A702DB, 180, -164.505, 0.005, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* The Second Threshold */
+/* @teleloc 0x02A702DB [180.000000 -164.505005 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702A7024,  9073, 0x02A702DD, 180, -183.643, 0, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Surface Portal */

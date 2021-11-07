@@ -37,8 +37,8 @@ VALUES (0x7010C008,     7, 0x010C0135, 51.9404, -114.936, -5.995, 1, 0, 0, 0,  T
 /* @teleloc 0x010C0135 [51.940399 -114.935997 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7010C009,     7, 0x010C0142, 50.326, -148.491, -5.995, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Drudge Skulker */
-/* @teleloc 0x010C0142 [50.326000 -148.490997 -5.995000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7010C009,     7, 0x010C0142, 50.326, -148.491, -5.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Drudge Skulker */
+/* @teleloc 0x010C0142 [50.326000 -148.490997 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7010C00A,  6892, 0x010C0142, 49.1739, -151.341, -5.995, 0.018434, 0, 0, -0.99983, False, '2005-02-09 10:00:00'); /* Chest */
@@ -73,8 +73,8 @@ VALUES (0x7010C011,  4108, 0x010C0189, 139.322, -90.0375, -5.989, -0.777352, 0, 
 /* @teleloc 0x010C0189 [139.322006 -90.037498 -5.989000] -0.777352 0.000000 0.000000 -0.629066 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7010C012,  5400, 0x010C018D, 140, -100, -6, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Boiling Magma */
-/* @teleloc 0x010C018D [140.000000 -100.000000 -6.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7010C012,  5400, 0x010C018D, 140, -100, -6, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Boiling Magma */
+/* @teleloc 0x010C018D [140.000000 -100.000000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7010C013,  5400, 0x010C0190, 150, -80, -6, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Boiling Magma */

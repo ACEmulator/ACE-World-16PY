@@ -5,8 +5,8 @@ VALUES (0x7DD50007,   722, 0xDD500000, 155, 122.95, 22, 1, 0, 0, 0, False, '2005
 /* @teleloc 0xDD500000 [155.000000 122.949997 22.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DD50008,   721, 0xDD500000, 157, 122.95, 22, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0xDD500000 [157.000000 122.949997 22.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7DD50008,   721, 0xDD500000, 157, 122.95, 22, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0xDD500000 [157.000000 122.949997 22.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD50009,  1403, 0xDD500105, 152.254, 127.395, 27.605, -0.834151, 0, 0, 0.551536, False, '2005-02-09 10:00:00'); /* LostLight Clue Generator */
@@ -14,7 +14,7 @@ VALUES (0x7DD50009,  1403, 0xDD500105, 152.254, 127.395, 27.605, -0.834151, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD5000F, 14418, 0xDD500102, 156.081, 136.535, 21.505, 0.999545, 0, 0, -0.030151,  True, '2005-02-09 10:00:00'); /* Trap Door */
-/* @teleloc 0xDD500102 [156.080994 136.535004 21.504999] 0.999545 0.000000 0.000000 -0.030150 */
+/* @teleloc 0xDD500102 [156.080994 136.535004 21.504999] 0.999545 0.000000 0.000000 -0.030151 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD50010, 14453, 0xDD500102, 157.066, 136.389, 21.505, 0.998846, 0, 0, -0.048036, False, '2005-02-09 10:00:00'); /* Trap Door */

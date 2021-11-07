@@ -14,7 +14,7 @@ VALUES (0x7B99C002,   385, 0xB99C0000, 36.4394, 130.333, 54.005, -0.891506, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B99C003,   385, 0xB99C0000, 15.9237, 149.917, 54.005, -0.998495, 0, 0, 0.054835, False, '2005-02-09 10:00:00'); /* Cow Generator */
-/* @teleloc 0xB99C0000 [15.923700 149.917007 54.005001] -0.998495 0.000000 0.000000 0.054834 */
+/* @teleloc 0xB99C0000 [15.923700 149.917007 54.005001] -0.998495 0.000000 0.000000 0.054835 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B99C004,   385, 0xB99C0000, 57.8691, 152.322, 54.005, -0.717815, 0, 0, -0.696234, False, '2005-02-09 10:00:00'); /* Cow Generator */

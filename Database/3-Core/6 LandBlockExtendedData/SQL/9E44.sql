@@ -69,8 +69,8 @@ VALUES (0x79E44010,  4664, 0x9E440000, 57.9308, 99.453, 73.1261, 0.7039, 0, 0, -
 /* @teleloc 0x9E440000 [57.930801 99.453003 73.126099] 0.703900 0.000000 0.000000 -0.710300 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79E44011,  4668, 0x9E440000, 163.212, 114.418, 42.4024, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Khayyaban */
-/* @teleloc 0x9E440000 [163.212006 114.417999 42.402401] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x79E44011,  4668, 0x9E440000, 163.212, 114.418, 42.4024, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Khayyaban */
+/* @teleloc 0x9E440000 [163.212006 114.417999 42.402401] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E44012,   153, 0x9E440130, 111.523, 80.5269, 78.005, 0.715169, 0, 0, -0.698951, False, '2005-02-09 10:00:00'); /* Fountain */

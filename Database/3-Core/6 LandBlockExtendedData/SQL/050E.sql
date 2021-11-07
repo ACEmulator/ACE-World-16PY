@@ -14,7 +14,7 @@ VALUES (0x7050E002,  8049, 0x050E0000, 130.135, 55.2162, 22.005, -0.977334, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7050E003,  8050, 0x050E0000, 137.907, 57.7303, 22.005, -0.995957, 0, 0, 0.089834, False, '2005-02-09 10:00:00'); /* Corpse */
-/* @teleloc 0x050E0000 [137.906998 57.730301 22.004999] -0.995957 0.000000 0.000000 0.089833 */
+/* @teleloc 0x050E0000 [137.906998 57.730301 22.004999] -0.995957 0.000000 0.000000 0.089834 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7050E004,  8050, 0x050E0000, 146.026, 57.8557, 22.005, -0.805045, 0, 0, -0.593214, False, '2005-02-09 10:00:00'); /* Corpse */

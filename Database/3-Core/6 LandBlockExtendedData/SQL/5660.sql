@@ -29,8 +29,8 @@ VALUES (0x75660007, 20996, 0x5660012D, -1.73047, -40.1155, 0.005, 0.075172, 0, 0
 /* @teleloc 0x5660012D [-1.730470 -40.115501 0.005000] 0.075172 0.000000 0.000000 0.997171 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75660008,   278, 0x5660012F, -0, -44.75, 0, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x5660012F [-0.000000 -44.750000 0.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75660008,   278, 0x5660012F, 0, -44.75, 0, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x5660012F [0.000000 -44.750000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75660009, 15759, 0x56600135, -1.84415, -99.2989, 0.005, 0.384749, 0, 0, 0.923021, False, '2005-02-09 10:00:00'); /* Linkable Item Generator */
@@ -66,8 +66,8 @@ VALUES (0x7566000F, 20924, 0x5660015A, 102.629, 2.596, 0.005, -0.382683, 0, 0, -
 /* @teleloc 0x5660015A [102.628998 2.596000 0.005000] -0.382683 0.000000 0.000000 -0.923880 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75660010, 20913, 0x56600165, 109.872, -26.8665, 0.005, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Josef */
-/* @teleloc 0x56600165 [109.872002 -26.866501 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75660010, 20913, 0x56600165, 109.872, -26.8665, 0.005, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Josef */
+/* @teleloc 0x56600165 [109.872002 -26.866501 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75660011,   143, 0x56600174, 126.465, -25.4203, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Chest */

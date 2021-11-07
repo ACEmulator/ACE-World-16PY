@@ -53,8 +53,8 @@ VALUES (0x7028400C, 11480, 0x02840131, 159.656, -129.502, -17.995, -0.739283, 0,
 /* @teleloc 0x02840131 [159.656006 -129.501999 -17.995001] -0.739283 0.000000 0.000000 -0.673395 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7028400D,  5627, 0x0284013C, 160.065, -155.4, -17.995, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x0284013C [160.065002 -155.399994 -17.995001] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7028400D,  5627, 0x0284013C, 160.065, -155.4, -17.995, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x0284013C [160.065002 -155.399994 -17.995001] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7028400E, 11480, 0x0284013C, 160.054, -157.072, -17.995, 0.999687, 0, 0, 0.024997,  True, '2005-02-09 10:00:00'); /* Olthoi Harvester */
@@ -209,8 +209,8 @@ VALUES (0x70284032,  5625, 0x0284020D, 4.74832, -20.0148, 0.005, -0.707107, 0, 0
 /* @teleloc 0x0284020D [4.748320 -20.014799 0.005000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70284033,  5625, 0x02840213, 19.9666, -4.66261, 0.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x02840213 [19.966600 -4.662610 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x70284033,  5625, 0x02840213, 19.9666, -4.66261, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x02840213 [19.966600 -4.662610 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70284034,  7924, 0x02840215, 19.6033, -18.6585, 0.005, -0.65779, 0, 0, -0.753201, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */

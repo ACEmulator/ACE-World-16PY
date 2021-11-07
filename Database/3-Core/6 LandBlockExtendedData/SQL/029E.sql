@@ -75,8 +75,8 @@ VALUES (0x7029E004, 0x7029E000, '2005-02-09 10:00:00') /* Innocent Doll (9242) *
      , (0x7029E004, 0x7029E037, '2005-02-09 10:00:00') /* Innocuous Doll (9243) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7029E005,  9202, 0x029E0122, 50, -690, -17.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Surface */
-/* @teleloc 0x029E0122 [50.000000 -690.000000 -17.995001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7029E005,  9202, 0x029E0122, 50, -690, -17.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Surface */
+/* @teleloc 0x029E0122 [50.000000 -690.000000 -17.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7029E006,  9242, 0x029E0125, 60, -580, -17.971, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Innocent Doll */
@@ -179,8 +179,8 @@ VALUES (0x7029E01E,  9243, 0x029E01D9, 55.545, -290.571, -5.971, -0.75002, 0, 0,
 /* @teleloc 0x029E01D9 [55.544998 -290.571014 -5.971000] -0.750020 0.000000 0.000000 -0.661415 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7029E01F,  9244, 0x029E01E9, 60, -440, -5.971, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Pristine Doll */
-/* @teleloc 0x029E01E9 [60.000000 -440.000000 -5.971000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7029E01F,  9244, 0x029E01E9, 60, -440, -5.971, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Pristine Doll */
+/* @teleloc 0x029E01E9 [60.000000 -440.000000 -5.971000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7029E020,  9249, 0x029E01F0, 66.1495, -149.174, -5.995, 0.688437, 0, 0, 0.725296,  True, '2005-02-09 10:00:00'); /* Marionette */
@@ -195,8 +195,8 @@ VALUES (0x7029E022,  9244, 0x029E01F7, 70, -420, -5.971, 0.696707, 0, 0, 0.71735
 /* @teleloc 0x029E01F7 [70.000000 -420.000000 -5.971000] 0.696707 0.000000 0.000000 0.717356 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7029E023,  9243, 0x029E01FE, 80, -170, -5.971, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Innocuous Doll */
-/* @teleloc 0x029E01FE [80.000000 -170.000000 -5.971000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7029E023,  9243, 0x029E01FE, 80, -170, -5.971, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Innocuous Doll */
+/* @teleloc 0x029E01FE [80.000000 -170.000000 -5.971000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7029E024,  9249, 0x029E0205, 83.8365, -200.205, -5.995, 0.877583, 0, 0, 0.479425,  True, '2005-02-09 10:00:00'); /* Marionette */

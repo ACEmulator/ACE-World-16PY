@@ -65,8 +65,8 @@ VALUES (0x702C400F, 27853, 0x02C40211, 58.5445, -226.169, 6.0117, -0.962582, 0, 
 /* @teleloc 0x02C40211 [58.544498 -226.169006 6.011700] -0.962582 0.000000 0.000000 0.270990 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702C4010,  2180, 0x02C40222, 70, -204.75, 6, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x02C40222 [70.000000 -204.750000 6.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x702C4010,  2180, 0x02C40222, 70, -204.75, 6, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x02C40222 [70.000000 -204.750000 6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x702C4010, 0x702C4011, '2005-02-09 10:00:00') /* Pressure Plate (2131) */
@@ -201,8 +201,8 @@ VALUES (0x702C401D,  4247, 0x02C40286, 120, -190, 6.009, 1, 0, 0, 0,  True, '200
 /* @teleloc 0x02C40286 [120.000000 -190.000000 6.009000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702C401E,  2180, 0x02C40288, 120, -204.75, 6.082, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x02C40288 [120.000000 -204.750000 6.082000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x702C401E,  2180, 0x02C40288, 120, -204.75, 6.082, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x02C40288 [120.000000 -204.750000 6.082000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x702C401E, 0x702C4019, '2005-02-09 10:00:00') /* Lever (2609) */
@@ -213,8 +213,8 @@ VALUES (0x702C401F,  2131, 0x02C40289, 120.026, -206.353, 7.10175, 0.999842, 0, 
 /* @teleloc 0x02C40289 [120.026001 -206.352997 7.101750] 0.999842 0.000000 0.000000 0.017787 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702C4020, 27853, 0x02C40294, 120, -250, 6.0117, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Disgusting Moarsman */
-/* @teleloc 0x02C40294 [120.000000 -250.000000 6.011700] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x702C4020, 27853, 0x02C40294, 120, -250, 6.0117, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Disgusting Moarsman */
+/* @teleloc 0x02C40294 [120.000000 -250.000000 6.011700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702C4021, 27862, 0x02C40295, 130.902, -131.674, 6.009, 0.798115, 0, 0, 0.602505,  True, '2005-02-09 10:00:00'); /* Viscous Moarsman */
@@ -301,8 +301,8 @@ VALUES (0x702C4034,  4247, 0x02C40330, 78.2863, -120.716, 12.009, -0.850873, 0, 
 /* @teleloc 0x02C40330 [78.286301 -120.716003 12.009000] -0.850873 0.000000 0.000000 -0.525372 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702C4035,  2609, 0x02C40334, 90.1115, -56.0367, 12.005, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Lever */
-/* @teleloc 0x02C40334 [90.111504 -56.036701 12.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x702C4035,  2609, 0x02C40334, 90.1115, -56.0367, 12.005, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Lever */
+/* @teleloc 0x02C40334 [90.111504 -56.036701 12.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702C4036, 27862, 0x02C40334, 88.152, -60.0216, 12.009, -0.215001, 0, 0, 0.976614,  True, '2005-02-09 10:00:00'); /* Viscous Moarsman */
@@ -313,8 +313,8 @@ VALUES (0x702C4037, 27853, 0x02C40334, 91.1498, -59.1845, 12.009, -0.041681, 0, 
 /* @teleloc 0x02C40334 [91.149803 -59.184502 12.009000] -0.041681 0.000000 0.000000 0.999131 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702C4038,   278, 0x02C40336, 90, -64.75, 12, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x02C40336 [90.000000 -64.750000 12.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x702C4038,   278, 0x02C40336, 90, -64.75, 12, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x02C40336 [90.000000 -64.750000 12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702C4039, 27853, 0x02C4033C, 88.4572, -101.032, 12.009, 0.851743, 0, 0, 0.523959,  True, '2005-02-09 10:00:00'); /* Disgusting Moarsman */
@@ -325,8 +325,8 @@ VALUES (0x702C403A,   278, 0x02C4033F, 85.25, -100, 12, -0.707107, 0, 0, -0.7071
 /* @teleloc 0x02C4033F [85.250000 -100.000000 12.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702C403B,  2609, 0x02C40346, 99.8786, -55.9856, 12.005, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Lever */
-/* @teleloc 0x02C40346 [99.878601 -55.985600 12.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x702C403B,  2609, 0x02C40346, 99.8786, -55.9856, 12.005, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Lever */
+/* @teleloc 0x02C40346 [99.878601 -55.985600 12.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702C403C, 27862, 0x02C40346, 97.8849, -60.4, 12.009, -0.037391, 0, 0, -0.999301,  True, '2005-02-09 10:00:00'); /* Viscous Moarsman */
@@ -337,8 +337,8 @@ VALUES (0x702C403D,  4247, 0x02C40346, 101.267, -60.6534, 12.009, -0.136968, 0, 
 /* @teleloc 0x02C40346 [101.266998 -60.653400 12.009000] -0.136968 0.000000 0.000000 -0.990575 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702C403E,   278, 0x02C40348, 100, -64.75, 12, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x02C40348 [100.000000 -64.750000 12.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x702C403E,   278, 0x02C40348, 100, -64.75, 12, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x02C40348 [100.000000 -64.750000 12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702C403F, 27853, 0x02C4034E, 98.3852, -101.89, 12.009, 0.939884, 0, 0, -0.341495,  True, '2005-02-09 10:00:00'); /* Disgusting Moarsman */
@@ -377,8 +377,8 @@ VALUES (0x702C4046, 0x702C403B, '2005-02-09 10:00:00') /* Lever (2609) */
      , (0x702C4046, 0x702C4045, '2005-02-09 10:00:00') /* Button (269) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702C4047,  4247, 0x02C4011A, 50, -240, 0.00544, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Foul Moarsman */
-/* @teleloc 0x02C4011A [50.000000 -240.000000 0.005440] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x702C4047,  4247, 0x02C4011A, 50, -240, 0.00544, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Foul Moarsman */
+/* @teleloc 0x02C4011A [50.000000 -240.000000 0.005440] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702C4048,  4247, 0x02C40122, 60, -220, 0.00544, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Foul Moarsman */
@@ -405,8 +405,8 @@ VALUES (0x702C404D, 27862, 0x02C40180, 110, -220, 0.0064, -0.153593, 0, 0, 0.988
 /* @teleloc 0x02C40180 [110.000000 -220.000000 0.006400] -0.153593 0.000000 0.000000 0.988134 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702C404E, 27862, 0x02C40189, 110, -240, 0.0064, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Viscous Moarsman */
-/* @teleloc 0x02C40189 [110.000000 -240.000000 0.006400] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x702C404E, 27862, 0x02C40189, 110, -240, 0.0064, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Viscous Moarsman */
+/* @teleloc 0x02C40189 [110.000000 -240.000000 0.006400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702C404F, 27853, 0x02C4018D, 110, -250, 0.0064, 0.714421, 0, 0, -0.699716,  True, '2005-02-09 10:00:00'); /* Disgusting Moarsman */

@@ -27,7 +27,7 @@ VALUES (21194,   1, 0x02000D77) /* Setup */
      , (21194,   8, 0x060026BC) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21194, -1, 14878, 230, 1, 1, 1, 4, -1, 0, 0, 0, -1, 1, 0, 1, 0, 0, -0) /* Generate Sirrocco (14878) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (21194, -1, 14878, 230, 1, 1, 1, 4, -1, 0, 0, 0, -2, 0, 0, -0.707107, 0, -0, -0.707107) /* Generate Sirrocco (14878) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+VALUES (21194, -1, 14878, 230, 1, 1, 1, 4, -1, 0, 0, 0, -1, 1, 0, 1, 0, 0, 0) /* Generate Sirrocco (14878) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (21194, -1, 14878, 230, 1, 1, 1, 4, -1, 0, 0, 0, -2, 0, 0, -0.707107, 0, 0, -0.707107) /* Generate Sirrocco (14878) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (21194, -1, 14875, 200, 1, 1, 1, 4, -1, 0, 0, 0, 2, 0, 0, 0.707107, 0, 0, -0.707107) /* Generate Hyem (14875) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (21194, -1, 21371, 180, 1, 1, 1, 4, -1, 0, 0, 0, 1, -1, 0, -0, 0, -0, -1) /* Generate Brumal (21371) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+     , (21194, -1, 21371, 180, 1, 1, 1, 4, -1, 0, 0, 0, 1, -1, 0, 0, 0, 0, -1) /* Generate Brumal (21371) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

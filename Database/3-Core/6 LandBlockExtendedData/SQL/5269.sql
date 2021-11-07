@@ -46,8 +46,8 @@ VALUES (0x75269011, 14929, 0x526901AB, 110, 0, 0.005, 0.04578, 0, 0, 0.998952, F
 /* @teleloc 0x526901AB [110.000000 0.000000 0.005000] 0.045780 0.000000 0.000000 0.998952 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75269012, 14908, 0x526901B5, 110, -50, 0.027, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Greed */
-/* @teleloc 0x526901B5 [110.000000 -50.000000 0.027000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75269012, 14908, 0x526901B5, 110, -50, 0.027, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Greed */
+/* @teleloc 0x526901B5 [110.000000 -50.000000 0.027000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75269013, 15278, 0x5269016C, 60, -80, 0.005, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wedding Pressure Plate */

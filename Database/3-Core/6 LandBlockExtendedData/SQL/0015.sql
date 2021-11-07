@@ -1,8 +1,8 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x0015;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70015000,  4942, 0x00150100, 10, -10, -30, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Surface */
-/* @teleloc 0x00150100 [10.000000 -10.000000 -30.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x70015000,  4942, 0x00150100, 10, -10, -30, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Surface */
+/* @teleloc 0x00150100 [10.000000 -10.000000 -30.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70015001, 30687, 0x00150102, 19.4494, -13.741, -29.989, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Withered Revered Tumerok Shaman */
@@ -59,16 +59,16 @@ VALUES (0x7001500C,   278, 0x00150119, 20, -45.25, -24, 1, 0, 0, 0, False, '2005
 /* @teleloc 0x00150119 [20.000000 -45.250000 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001500D, 30680, 0x0015011D, 28.7598, -21.3873, -23.9948, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Withered Drudge Seraph */
-/* @teleloc 0x0015011D [28.759800 -21.387300 -23.994801] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7001500D, 30680, 0x0015011D, 28.7598, -21.3873, -23.9948, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Withered Drudge Seraph */
+/* @teleloc 0x0015011D [28.759800 -21.387300 -23.994801] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001500E, 30680, 0x0015011D, 31.5103, -20.6302, -23.9948, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Withered Drudge Seraph */
-/* @teleloc 0x0015011D [31.510300 -20.630199 -23.994801] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7001500E, 30680, 0x0015011D, 31.5103, -20.6302, -23.9948, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Withered Drudge Seraph */
+/* @teleloc 0x0015011D [31.510300 -20.630199 -23.994801] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001500F, 30680, 0x0015011D, 30.8675, -22.62, -23.9948, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Withered Drudge Seraph */
-/* @teleloc 0x0015011D [30.867500 -22.620001 -23.994801] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7001500F, 30680, 0x0015011D, 30.8675, -22.62, -23.9948, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Withered Drudge Seraph */
+/* @teleloc 0x0015011D [30.867500 -22.620001 -23.994801] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70015010,  1948, 0x0015011D, 26.1267, -17.8241, -24, -0.999977, 0, 0, -0.006763, False, '2005-02-09 10:00:00'); /* Chest */
@@ -79,8 +79,8 @@ VALUES (0x70015011,  1917, 0x0015011D, 28.5182, -18.4159, -24, 0.999601, 0, 0, -
 /* @teleloc 0x0015011D [28.518200 -18.415899 -24.000000] 0.999601 0.000000 0.000000 -0.028248 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70015012,   278, 0x0015011F, 30, -24.755, -24, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x0015011F [30.000000 -24.754999 -24.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x70015012,   278, 0x0015011F, 30, -24.755, -24, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x0015011F [30.000000 -24.754999 -24.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70015013, 30687, 0x00150120, 29.0897, -26.1682, -23.989, -0.416874, 0, 0, -0.908964,  True, '2005-02-09 10:00:00'); /* Withered Revered Tumerok Shaman */

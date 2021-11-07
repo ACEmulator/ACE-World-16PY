@@ -5,8 +5,8 @@ VALUES (0x703A4000,   237, 0x03A40102, 70, -460, -17.971, 0.714421, 0, 0, -0.699
 /* @teleloc 0x03A40102 [70.000000 -460.000000 -17.971001] 0.714421 0.000000 0.000000 -0.699716 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x703A4001, 12149, 0x03A40109, 90, -410, -17.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Surface */
-/* @teleloc 0x03A40109 [90.000000 -410.000000 -17.995001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x703A4001, 12149, 0x03A40109, 90, -410, -17.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Surface */
+/* @teleloc 0x03A40109 [90.000000 -410.000000 -17.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x703A4002,   237, 0x03A40113, 90, -480, -17.971, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Virindi Master */

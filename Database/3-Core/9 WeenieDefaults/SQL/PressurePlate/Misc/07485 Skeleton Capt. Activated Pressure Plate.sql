@@ -37,5 +37,5 @@ VALUES (7485,  16, 0x00000000) /* ActivationTarget */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7485, -1, 7821, 480, 1, 1, 1, 4, -1, 0, 0, 0, -1, 0, 0, 0.707107, 0, 0, -0.707107) /* Generate Skeleton Captain (7821) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (7485, -1, 7821, 480, 1, 1, 1, 4, -1, 0, 0, 0, 1, 0, 0, -0, 0, -0, -1) /* Generate Skeleton Captain (7821) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (7485, -1, 7821, 480, 1, 1, 1, 4, -1, 0, 0, 0, 1, 0, 0, 0, 0, 0, -1) /* Generate Skeleton Captain (7821) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (7485, 0.5, 1761, 480, 1, 1, 1, 4, -1, 0, 0, 0, 0, -1, 0, 0.707107, 0, 0, -0.707107) /* Generate Skeleton Captain (1761) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

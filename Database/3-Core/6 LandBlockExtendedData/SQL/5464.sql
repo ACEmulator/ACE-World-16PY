@@ -89,8 +89,8 @@ VALUES (0x75464017,  5920, 0x54640182, 70, -20, -4.735, 1, 0, 0, 0, False, '2005
 /* @teleloc 0x54640182 [70.000000 -20.000000 -4.735000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75464018,  5920, 0x54640183, 70, -30, -4.735, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Wall of Fire */
-/* @teleloc 0x54640183 [70.000000 -30.000000 -4.735000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75464018,  5920, 0x54640183, 70, -30, -4.735, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Wall of Fire */
+/* @teleloc 0x54640183 [70.000000 -30.000000 -4.735000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75464019,  5920, 0x54640190, 68.7798, -111.95, -4.735, 0.999427, 0, 0, -0.03385, False, '2005-02-09 10:00:00'); /* Wall of Fire */
@@ -181,8 +181,8 @@ VALUES (0x7546402E,  8405, 0x54640182, 70, -20, -5.9935, 1, 0, 0, 0,  True, '200
 /* @teleloc 0x54640182 [70.000000 -20.000000 -5.993500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7546402F,  8405, 0x54640183, 70, -30, -5.9935, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Flamma */
-/* @teleloc 0x54640183 [70.000000 -30.000000 -5.993500] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7546402F,  8405, 0x54640183, 70, -30, -5.9935, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Flamma */
+/* @teleloc 0x54640183 [70.000000 -30.000000 -5.993500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75464030,  7924, 0x54640188, 71.5071, -69.8108, -5.995, 0.731688, 0, 0, 0.681639, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
@@ -211,5 +211,5 @@ VALUES (0x75464031,  8405, 0x54640190, 70, -110, -5.9935, 1, 0, 0, 0,  True, '20
 /* @teleloc 0x54640190 [70.000000 -110.000000 -5.993500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75464032,  8405, 0x54640191, 70, -120, -5.9935, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Flamma */
-/* @teleloc 0x54640191 [70.000000 -120.000000 -5.993500] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75464032,  8405, 0x54640191, 70, -120, -5.9935, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Flamma */
+/* @teleloc 0x54640191 [70.000000 -120.000000 -5.993500] 1.000000 0.000000 0.000000 0.000000 */

@@ -113,8 +113,8 @@ VALUES (0x70364023,  5105, 0x03640220, 50.168, -25.879, 0.005, 0.707107, 0, 0, -
 /* @teleloc 0x03640220 [50.167999 -25.879000 0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70364024, 12706, 0x0364023D, 50.0033, -95.2603, 0.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Academy Quartermaster's Workshop */
-/* @teleloc 0x0364023D [50.003300 -95.260300 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x70364024, 12706, 0x0364023D, 50.0033, -95.2603, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Academy Quartermaster's Workshop */
+/* @teleloc 0x0364023D [50.003300 -95.260300 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70364025, 12720, 0x0364023F, 51.4673, -111.41, 0.005, -0.97819, 0, 0, -0.20771, False, '2005-02-09 10:00:00'); /* Academy Quartermaster */

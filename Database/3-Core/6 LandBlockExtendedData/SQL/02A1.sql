@@ -13,8 +13,8 @@ VALUES (0x702A1002,    23, 0x02A1010F, 20.3056, -322.202, -41.971, -0.99847, 0, 
 /* @teleloc 0x02A1010F [20.305599 -322.201996 -41.971001] -0.998470 0.000000 0.000000 0.055288 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702A1003,  3969, 0x02A1010F, 20, -320, -41.995, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Chest */
-/* @teleloc 0x02A1010F [20.000000 -320.000000 -41.994999] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x702A1003,  3969, 0x02A1010F, 20, -320, -41.995, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Chest */
+/* @teleloc 0x02A1010F [20.000000 -320.000000 -41.994999] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702A1004,  1610, 0x02A1011A, 2.28247, -317.071, -35.995, -0.976987, 0, 0, 0.213297,  True, '2005-02-09 10:00:00'); /* Drudge Ravener */

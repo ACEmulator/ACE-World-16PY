@@ -17,8 +17,8 @@ VALUES (0x7D655003,   722, 0xD6550000, 156, 102.475, 44, 1, 0, 0, 0, False, '200
 /* @teleloc 0xD6550000 [156.000000 102.474998 44.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D655004,   722, 0xD6550000, 156, 113.525, 44, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0xD6550000 [156.000000 113.525002 44.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7D655004,   722, 0xD6550000, 156, 113.525, 44, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0xD6550000 [156.000000 113.525002 44.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D655005,  4488, 0xD6550000, 107.927, 74.467, 52.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Shoushi West Training Academy Portal */
@@ -26,7 +26,7 @@ VALUES (0x7D655005,  4488, 0xD6550000, 107.927, 74.467, 52.005, 1, 0, 0, 0, Fals
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D655006,  5079, 0xD6550000, 158.61, 100.624, 44.005, -0.999624, 0, 0, 0.027434, False, '2005-02-09 10:00:00'); /* West Shoushi Outpost */
-/* @teleloc 0xD6550000 [158.610001 100.624001 44.005001] -0.999624 0.000000 0.000000 0.027433 */
+/* @teleloc 0xD6550000 [158.610001 100.624001 44.005001] -0.999624 0.000000 0.000000 0.027434 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D655007,  4560, 0xD6550000, 153.892, 101.322, 44.005, 0.167213, 0, 0, 0.985921, False, '2005-02-09 10:00:00'); /* Nen Gou the Shopkeeper */
@@ -45,8 +45,8 @@ VALUES (0x7D65500A,   509, 0xD6550000, 151.276, 81.7088, 44.005, -0.125403, 0, 0
 /* @teleloc 0xD6550000 [151.276001 81.708801 44.005001] -0.125403 0.000000 0.000000 0.992106 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D65500B,  4525, 0xD6550000, 151.919, 91.883, 44.005, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Shoushi Outpost */
-/* @teleloc 0xD6550000 [151.919006 91.883003 44.005001] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7D65500B,  4525, 0xD6550000, 151.919, 91.883, 44.005, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Shoushi Outpost */
+/* @teleloc 0xD6550000 [151.919006 91.883003 44.005001] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D65500C,  5108, 0xD6550000, 148.003, 80.704, 44.005, 0.849094, 0, 0, -0.528242, False, '2005-02-09 10:00:00'); /* LIFESTONES SIGN */

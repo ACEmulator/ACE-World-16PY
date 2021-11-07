@@ -56,7 +56,7 @@ VALUES (0x7257301B,  7096, 0x25730114, 87.3204, 169.991, 138.81, 0.674673, 0, 0,
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7257301C, 14520, 0x25730114, 83.3451, 165.474, 138.81, 0.999805, 0, 0, -0.019724,  True, '2005-02-09 10:00:00'); /* Pyreal Golem */
-/* @teleloc 0x25730114 [83.345100 165.473999 138.809998] 0.999805 0.000000 0.000000 -0.019723 */
+/* @teleloc 0x25730114 [83.345100 165.473999 138.809998] 0.999805 0.000000 0.000000 -0.019724 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7257301D, 14520, 0x25730114, 86.498, 164.102, 138.81, 0.987969, 0, 0, 0.154652,  True, '2005-02-09 10:00:00'); /* Pyreal Golem */

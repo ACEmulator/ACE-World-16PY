@@ -41,8 +41,8 @@ VALUES (0x7667A009, 23481, 0x667A013F, 160, -260, -5.995, 0.714421, 0, 0, 0.6997
 /* @teleloc 0x667A013F [160.000000 -260.000000 -5.995000] 0.714421 0.000000 0.000000 0.699716 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7667A00A, 23481, 0x667A0151, 180, -230, -5.995, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Olthoi Mutilator */
-/* @teleloc 0x667A0151 [180.000000 -230.000000 -5.995000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7667A00A, 23481, 0x667A0151, 180, -230, -5.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Olthoi Mutilator */
+/* @teleloc 0x667A0151 [180.000000 -230.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7667A00B, 23481, 0x667A0155, 190, -230, -5.995, 0.659983, 0, 0, 0.75128,  True, '2005-02-09 10:00:00'); /* Olthoi Mutilator */
@@ -117,8 +117,8 @@ VALUES (0x7667A01C, 23481, 0x667A01A0, 33.5387, -6.70802, 0.005, 0.852525, 0, 0,
 /* @teleloc 0x667A01A0 [33.538700 -6.708020 0.005000] 0.852525 0.000000 0.000000 0.522687 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7667A01D, 23481, 0x667A01AF, 29.9628, -186.135, 0.085726, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Olthoi Mutilator */
-/* @teleloc 0x667A01AF [29.962799 -186.134995 0.085726] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7667A01D, 23481, 0x667A01AF, 29.9628, -186.135, 0.085726, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Olthoi Mutilator */
+/* @teleloc 0x667A01AF [29.962799 -186.134995 0.085726] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7667A01E, 23481, 0x667A01B0, 38.7283, -2.30243, 0.005, 0.852525, 0, 0, 0.522687,  True, '2005-02-09 10:00:00'); /* Olthoi Mutilator */

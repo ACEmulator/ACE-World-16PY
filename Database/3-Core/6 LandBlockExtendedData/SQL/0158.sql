@@ -1,12 +1,12 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x0158;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70158000,  1915, 0x01580106, 20, -50, 0, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Chest */
-/* @teleloc 0x01580106 [20.000000 -50.000000 0.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x70158000,  1915, 0x01580106, 20, -50, 0, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Chest */
+/* @teleloc 0x01580106 [20.000000 -50.000000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70158001,  5485, 0x01580106, 23.5893, -48.3461, 0, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Linkable Newbie Monster Generator */
-/* @teleloc 0x01580106 [23.589300 -48.346100 0.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x70158001,  5485, 0x01580106, 23.5893, -48.3461, 0, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Linkable Newbie Monster Generator */
+/* @teleloc 0x01580106 [23.589300 -48.346100 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x70158001, 0x70158004, '2005-02-09 10:00:00') /* Drudge Slinker (193) */
@@ -26,16 +26,16 @@ VALUES (0x70158001, 0x70158004, '2005-02-09 10:00:00') /* Drudge Slinker (193) *
      , (0x70158001, 0x70158014, '2005-02-09 10:00:00') /* Drudge Skulker (7) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70158002,  5123, 0x01580106, 19.0458, -47.7739, 0.06344, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Inuo-Kon Kou's Book */
-/* @teleloc 0x01580106 [19.045799 -47.773899 0.063440] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x70158002,  5123, 0x01580106, 19.0458, -47.7739, 0.06344, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Inuo-Kon Kou's Book */
+/* @teleloc 0x01580106 [19.045799 -47.773899 0.063440] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70158003,  5124, 0x01580106, 18.756, -47.0708, 0, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Broken Taper */
-/* @teleloc 0x01580106 [18.756001 -47.070801 0.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x70158003,  5124, 0x01580106, 18.756, -47.0708, 0, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Broken Taper */
+/* @teleloc 0x01580106 [18.756001 -47.070801 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70158004,   193, 0x01580106, 20.2882, -53.925, 0.003325, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Drudge Slinker */
-/* @teleloc 0x01580106 [20.288200 -53.924999 0.003325] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x70158004,   193, 0x01580106, 20.2882, -53.925, 0.003325, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Drudge Slinker */
+/* @teleloc 0x01580106 [20.288200 -53.924999 0.003325] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70158005,   193, 0x01580109, 22.3845, -57.0545, 0.003325, 0.400349, 0, 0, -0.916363,  True, '2005-02-09 10:00:00'); /* Drudge Slinker */

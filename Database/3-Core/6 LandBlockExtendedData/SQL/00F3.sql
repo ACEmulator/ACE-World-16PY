@@ -173,8 +173,8 @@ VALUES (0x700F3028, 27988, 0x00F302E9, 30, -160, 6.005, 0, 0, 0, -1,  True, '200
 /* @teleloc 0x00F302E9 [30.000000 -160.000000 6.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700F3029, 27981, 0x00F302F3, 30, -180, 6.005, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Guruk Boor */
-/* @teleloc 0x00F302F3 [30.000000 -180.000000 6.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x700F3029, 27981, 0x00F302F3, 30, -180, 6.005, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Guruk Boor */
+/* @teleloc 0x00F302F3 [30.000000 -180.000000 6.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700F302A, 26019, 0x00F30303, 29.0814, -210.202, 6.03846, -0.946315, 0, 0, -0.323245,  True, '2005-02-09 10:00:00'); /* Burun Ruuk Seer */
@@ -205,8 +205,8 @@ VALUES (0x700F3030, 26015, 0x00F30321, 41.4098, -159.567, 6.03846, 0.836633, 0, 
 /* @teleloc 0x00F30321 [41.409801 -159.567001 6.038460] 0.836633 0.000000 0.000000 0.547764 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700F3031, 26019, 0x00F30348, 50, -140, 6.03846, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Burun Ruuk Seer */
-/* @teleloc 0x00F30348 [50.000000 -140.000000 6.038460] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x700F3031, 26019, 0x00F30348, 50, -140, 6.03846, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Burun Ruuk Seer */
+/* @teleloc 0x00F30348 [50.000000 -140.000000 6.038460] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700F3032, 26015, 0x00F3034A, 47.1398, -151.625, 6.03846, -0.972884, 0, 0, 0.231294,  True, '2005-02-09 10:00:00'); /* Burun Ruuk Lout */

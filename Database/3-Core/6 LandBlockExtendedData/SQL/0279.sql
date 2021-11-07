@@ -630,20 +630,20 @@ VALUES (0x7027908E, 28484, 0x0279020F, 86.0599, -100, -35.995, 1, 0, 0, 0, False
 /* @teleloc 0x0279020F [86.059898 -100.000000 -35.994999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7027908F, 28484, 0x02790214, 90, -110, -35.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Corrosive Cloud */
-/* @teleloc 0x02790214 [90.000000 -110.000000 -35.994999] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7027908F, 28484, 0x02790214, 90, -110, -35.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Corrosive Cloud */
+/* @teleloc 0x02790214 [90.000000 -110.000000 -35.994999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70279090, 28484, 0x02790214, 92.7731, -110, -35.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Corrosive Cloud */
-/* @teleloc 0x02790214 [92.773102 -110.000000 -35.994999] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x70279090, 28484, 0x02790214, 92.7731, -110, -35.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Corrosive Cloud */
+/* @teleloc 0x02790214 [92.773102 -110.000000 -35.994999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70279091, 28484, 0x02790214, 86.7731, -110, -35.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Corrosive Cloud */
-/* @teleloc 0x02790214 [86.773102 -110.000000 -35.994999] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x70279091, 28484, 0x02790214, 86.7731, -110, -35.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Corrosive Cloud */
+/* @teleloc 0x02790214 [86.773102 -110.000000 -35.994999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70279092, 28484, 0x02790214, 90, -107.143, -35.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Corrosive Cloud */
-/* @teleloc 0x02790214 [90.000000 -107.142998 -35.994999] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x70279092, 28484, 0x02790214, 90, -107.143, -35.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Corrosive Cloud */
+/* @teleloc 0x02790214 [90.000000 -107.142998 -35.994999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70279093, 28484, 0x02790219, 101.722, -70.8115, -35.995, 0.870618, 0, 0, -0.49196, False, '2005-02-09 10:00:00'); /* Corrosive Cloud */
@@ -811,7 +811,7 @@ VALUES (0x702790BB, 28447, 0x02790262, 87.9481, -53.3334, -29.978, -0.968178, 0,
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702790BC, 26017, 0x02790262, 93.5716, -51.6241, -29.9551, -0.046316, 0, 0, -0.998927,  True, '2005-02-09 10:00:00'); /* Burun Ruuk Savage */
-/* @teleloc 0x02790262 [93.571602 -51.624100 -29.955099] -0.046315 0.000000 0.000000 -0.998927 */
+/* @teleloc 0x02790262 [93.571602 -51.624100 -29.955099] -0.046316 0.000000 0.000000 -0.998927 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702790BD, 27983, 0x02790262, 86.4267, -51.4644, -29.995, -0.043391, 0, 0, -0.999058,  True, '2005-02-09 10:00:00'); /* Guruk Colossus */
@@ -994,28 +994,28 @@ VALUES (0x702790DC, 28484, 0x027902D4, 26.2773, -10, -17.995, 1, 0, 0, 0, False,
 /* @teleloc 0x027902D4 [26.277300 -10.000000 -17.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702790DD, 28484, 0x027902DC, 50, -50, -17.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Corrosive Cloud */
-/* @teleloc 0x027902DC [50.000000 -50.000000 -17.995001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x702790DD, 28484, 0x027902DC, 50, -50, -17.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Corrosive Cloud */
+/* @teleloc 0x027902DC [50.000000 -50.000000 -17.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702790DE, 28484, 0x027902DC, 50, -47.2595, -17.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Corrosive Cloud */
-/* @teleloc 0x027902DC [50.000000 -47.259499 -17.995001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x702790DE, 28484, 0x027902DC, 50, -47.2595, -17.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Corrosive Cloud */
+/* @teleloc 0x027902DC [50.000000 -47.259499 -17.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702790DF, 28484, 0x027902DC, 50, -52.5391, -17.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Corrosive Cloud */
-/* @teleloc 0x027902DC [50.000000 -52.539101 -17.995001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x702790DF, 28484, 0x027902DC, 50, -52.5391, -17.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Corrosive Cloud */
+/* @teleloc 0x027902DC [50.000000 -52.539101 -17.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702790E0, 28484, 0x027902EB, 130, -50, -17.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Corrosive Cloud */
-/* @teleloc 0x027902EB [130.000000 -50.000000 -17.995001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x702790E0, 28484, 0x027902EB, 130, -50, -17.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Corrosive Cloud */
+/* @teleloc 0x027902EB [130.000000 -50.000000 -17.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702790E1, 28484, 0x027902EB, 130, -46.7928, -17.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Corrosive Cloud */
-/* @teleloc 0x027902EB [130.000000 -46.792801 -17.995001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x702790E1, 28484, 0x027902EB, 130, -46.7928, -17.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Corrosive Cloud */
+/* @teleloc 0x027902EB [130.000000 -46.792801 -17.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702790E2, 28484, 0x027902EB, 130, -52.4292, -17.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Corrosive Cloud */
-/* @teleloc 0x027902EB [130.000000 -52.429199 -17.995001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x702790E2, 28484, 0x027902EB, 130, -52.4292, -17.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Corrosive Cloud */
+/* @teleloc 0x027902EB [130.000000 -52.429199 -17.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702790E3, 28484, 0x027902F3, 150, -10, -17.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Corrosive Cloud */
@@ -1106,16 +1106,16 @@ VALUES (0x702790F8, 28484, 0x0279030D, 60, -22.3866, -11.995, 1, 0, 0, 0, False,
 /* @teleloc 0x0279030D [60.000000 -22.386600 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702790F9, 28484, 0x02790311, 60, -30, -11.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Corrosive Cloud */
-/* @teleloc 0x02790311 [60.000000 -30.000000 -11.995000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x702790F9, 28484, 0x02790311, 60, -30, -11.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Corrosive Cloud */
+/* @teleloc 0x02790311 [60.000000 -30.000000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702790FA, 28484, 0x02790311, 60, -26.6372, -11.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Corrosive Cloud */
-/* @teleloc 0x02790311 [60.000000 -26.637199 -11.995000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x702790FA, 28484, 0x02790311, 60, -26.6372, -11.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Corrosive Cloud */
+/* @teleloc 0x02790311 [60.000000 -26.637199 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702790FB, 28484, 0x02790311, 60, -32.2399, -11.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Corrosive Cloud */
-/* @teleloc 0x02790311 [60.000000 -32.239899 -11.995000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x702790FB, 28484, 0x02790311, 60, -32.2399, -11.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Corrosive Cloud */
+/* @teleloc 0x02790311 [60.000000 -32.239899 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702790FC, 28447, 0x02790316, 55.87, -50.3387, -11.978, -0.981287, 0, 0, 0.19255,  True, '2005-02-09 10:00:00'); /* Burun Egg */
@@ -1278,7 +1278,7 @@ VALUES (0x70279116, 27852, 0x0279032D, 117.965, -57.284, -11.995, 0.998724, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70279117, 27852, 0x0279032D, 123.719, -57.1158, -11.995, 0.99598, 0, 0, 0.089581,  True, '2005-02-09 10:00:00'); /* Guruk Hulk */
-/* @teleloc 0x0279032D [123.719002 -57.115799 -11.995000] 0.995980 0.000000 0.000000 0.089580 */
+/* @teleloc 0x0279032D [123.719002 -57.115799 -11.995000] 0.995980 0.000000 0.000000 0.089581 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70279118, 28484, 0x0279032E, 130, -20, -11.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Corrosive Cloud */

@@ -61,8 +61,8 @@ VALUES (0x7AE9E019, 14462, 0xAE9E0000, 118.009, 126.487, 90.005, 0.517797, 0, 0,
 /* @teleloc 0xAE9E0000 [118.009003 126.487000 90.004997] 0.517797 0.000000 0.000000 -0.855503 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AE9E01A,  2199, 0xAE9E011B, 128.727, 126.863, 90.082, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Witshire's Cottage Door */
-/* @teleloc 0xAE9E011B [128.727005 126.862999 90.082001] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7AE9E01A,  2199, 0xAE9E011B, 128.727, 126.863, 90.082, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Witshire's Cottage Door */
+/* @teleloc 0xAE9E011B [128.727005 126.862999 90.082001] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE9E01B,  2199, 0xAE9E011A, 135.06, 136.367, 90.095, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Witshire's Cottage Door */

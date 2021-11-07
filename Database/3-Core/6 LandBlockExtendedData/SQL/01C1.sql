@@ -69,20 +69,20 @@ VALUES (0x701C1011,   227, 0x01C1014A, 63.528, -59.517, 0.006, -0.707107, 0, 0, 
 /* @teleloc 0x01C1014A [63.528000 -59.516998 0.006000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701C1012,  7090, 0x01C1014A, 56.9179, -60.0121, 0.00455, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Augmented Drudge */
-/* @teleloc 0x01C1014A [56.917900 -60.012100 0.004550] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701C1012,  7090, 0x01C1014A, 56.9179, -60.0121, 0.00455, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Augmented Drudge */
+/* @teleloc 0x01C1014A [56.917900 -60.012100 0.004550] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701C1013,  7090, 0x01C1014A, 60.175, -62.77, 0.00455, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Augmented Drudge */
-/* @teleloc 0x01C1014A [60.174999 -62.770000 0.004550] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x701C1013,  7090, 0x01C1014A, 60.175, -62.77, 0.00455, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Augmented Drudge */
+/* @teleloc 0x01C1014A [60.174999 -62.770000 0.004550] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701C1014,   230, 0x01C10155, 61.0687, -87.5326, 0.055, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Tumerok Taskmaster */
-/* @teleloc 0x01C10155 [61.068699 -87.532600 0.055000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701C1014,   230, 0x01C10155, 61.0687, -87.5326, 0.055, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Tumerok Taskmaster */
+/* @teleloc 0x01C10155 [61.068699 -87.532600 0.055000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701C1015,   230, 0x01C10155, 60.4003, -86.0446, 0.0065, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Tumerok Taskmaster */
-/* @teleloc 0x01C10155 [60.400299 -86.044601 0.006500] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701C1015,   230, 0x01C10155, 60.4003, -86.0446, 0.0065, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Tumerok Taskmaster */
+/* @teleloc 0x01C10155 [60.400299 -86.044601 0.006500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701C1016,   227, 0x01C1016B, 66.566, -123.131, 0.006, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Tumerok Gladiator */
@@ -121,8 +121,8 @@ VALUES (0x701C101E,   230, 0x01C10176, 76.003, -67.732, 0.0065, 0, 0, 0, -1,  Tr
 /* @teleloc 0x01C10176 [76.002998 -67.732002 0.006500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701C101F,  7090, 0x01C10177, 77.6782, -90.4497, 0.00455, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Augmented Drudge */
-/* @teleloc 0x01C10177 [77.678200 -90.449699 0.004550] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701C101F,  7090, 0x01C10177, 77.6782, -90.4497, 0.00455, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Augmented Drudge */
+/* @teleloc 0x01C10177 [77.678200 -90.449699 0.004550] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701C1020,  7090, 0x01C1017A, 78.0677, -98.7524, 0.00455, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Augmented Drudge */
@@ -137,24 +137,24 @@ VALUES (0x701C1022,   227, 0x01C1017A, 78.764, -96.237, 0.006, -0.707107, 0, 0, 
 /* @teleloc 0x01C1017A [78.764000 -96.237000 0.006000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701C1023,  7090, 0x01C1017B, 76.5993, -109.077, 0.00455, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Augmented Drudge */
-/* @teleloc 0x01C1017B [76.599297 -109.077003 0.004550] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701C1023,  7090, 0x01C1017B, 76.5993, -109.077, 0.00455, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Augmented Drudge */
+/* @teleloc 0x01C1017B [76.599297 -109.077003 0.004550] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701C1024,  7090, 0x01C1017B, 83.219, -110.623, 0.00455, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Augmented Drudge */
-/* @teleloc 0x01C1017B [83.219002 -110.623001 0.004550] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701C1024,  7090, 0x01C1017B, 83.219, -110.623, 0.00455, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Augmented Drudge */
+/* @teleloc 0x01C1017B [83.219002 -110.623001 0.004550] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701C1025,   227, 0x01C10190, 90, -114.75, 0.05, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Tumerok Gladiator */
-/* @teleloc 0x01C10190 [90.000000 -114.750000 0.050000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701C1025,   227, 0x01C10190, 90, -114.75, 0.05, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Tumerok Gladiator */
+/* @teleloc 0x01C10190 [90.000000 -114.750000 0.050000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701C1026,   227, 0x01C10199, 102.721, -17.3595, 0.053028, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Tumerok Gladiator */
 /* @teleloc 0x01C10199 [102.721001 -17.359501 0.053028] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701C1027,  7090, 0x01C1019E, 99.2336, -88.0042, 0.00455, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Augmented Drudge */
-/* @teleloc 0x01C1019E [99.233597 -88.004204 0.004550] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701C1027,  7090, 0x01C1019E, 99.2336, -88.0042, 0.00455, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Augmented Drudge */
+/* @teleloc 0x01C1019E [99.233597 -88.004204 0.004550] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701C1028,  7090, 0x01C1019E, 102.363, -90.0287, 0.00455, -0.704711, 0, 0, -0.709494,  True, '2005-02-09 10:00:00'); /* Augmented Drudge */
@@ -213,12 +213,12 @@ VALUES (0x701C1035,   227, 0x01C101AE, 112.517, -47.4943, 0.006, 0.707107, 0, 0,
 /* @teleloc 0x01C101AE [112.516998 -47.494301 0.006000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701C1036,  1036, 0x01C101BB, 118.952, -19.002, 0.01222, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Item Dagger Generator */
-/* @teleloc 0x01C101BB [118.952003 -19.002001 0.012220] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701C1036,  1036, 0x01C101BB, 118.952, -19.002, 0.01222, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Item Dagger Generator */
+/* @teleloc 0x01C101BB [118.952003 -19.002001 0.012220] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701C1037,   227, 0x01C101BB, 116.456, -18.9143, 0.053, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Tumerok Gladiator */
-/* @teleloc 0x01C101BB [116.456001 -18.914301 0.053000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701C1037,   227, 0x01C101BB, 116.456, -18.9143, 0.053, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Tumerok Gladiator */
+/* @teleloc 0x01C101BB [116.456001 -18.914301 0.053000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701C1038,  3963, 0x01C101BE, 119.675, -96.145, 0, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Chest */
@@ -301,8 +301,8 @@ VALUES (0x701C104B,   230, 0x01C101DC, 143.748, -68.422, 0.0065, -0.707107, 0, 0
 /* @teleloc 0x01C101DC [143.748001 -68.421997 0.006500] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701C104C,   230, 0x01C101E7, 147.685, -40.7339, 0.0065, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Tumerok Taskmaster */
-/* @teleloc 0x01C101E7 [147.684998 -40.733898 0.006500] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701C104C,   230, 0x01C101E7, 147.685, -40.7339, 0.0065, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Tumerok Taskmaster */
+/* @teleloc 0x01C101E7 [147.684998 -40.733898 0.006500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701C104D,  3991, 0x01C101ED, 163.906, -9.35009, 0, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Chest */
@@ -422,12 +422,12 @@ VALUES (0x701C1068,   227, 0x01C10207, 23.2532, -85.1736, 6.05303, -0.063226, 0,
 /* @teleloc 0x01C10207 [23.253201 -85.173599 6.053030] -0.063226 0.000000 0.000000 -0.997999 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701C1069,   227, 0x01C1020B, 29.3551, -41.3658, 6.05, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Tumerok Gladiator */
-/* @teleloc 0x01C1020B [29.355101 -41.365799 6.050000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701C1069,   227, 0x01C1020B, 29.3551, -41.3658, 6.05, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Tumerok Gladiator */
+/* @teleloc 0x01C1020B [29.355101 -41.365799 6.050000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701C106A,   227, 0x01C1020C, 30.89, -42.8201, 6.006, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Tumerok Gladiator */
-/* @teleloc 0x01C1020C [30.889999 -42.820099 6.006000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701C106A,   227, 0x01C1020C, 30.89, -42.8201, 6.006, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Tumerok Gladiator */
+/* @teleloc 0x01C1020C [30.889999 -42.820099 6.006000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701C106B,   227, 0x01C10221, 41.8187, -100.593, 6.006, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Tumerok Gladiator */

@@ -56,8 +56,8 @@ VALUES (0x70290007,  9242, 0x0290010E, 80, -140, -41.971, 1, 0, 0, 0,  True, '20
 /* @teleloc 0x0290010E [80.000000 -140.000000 -41.971001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70290008,  9242, 0x02900111, 80, -170, -41.971, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Innocent Doll */
-/* @teleloc 0x02900111 [80.000000 -170.000000 -41.971001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x70290008,  9242, 0x02900111, 80, -170, -41.971, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Innocent Doll */
+/* @teleloc 0x02900111 [80.000000 -170.000000 -41.971001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70290009,  9244, 0x0290011B, 69.5907, -48.5258, -35.945, 0.748499, 0, 0, -0.663135,  True, '2005-02-09 10:00:00'); /* Pristine Doll */
@@ -248,8 +248,8 @@ VALUES (0x70290027, 10799, 0x029001B7, 70, -180, -23.9925, 1, 0, 0, 0,  True, '2
 /* @teleloc 0x029001B7 [70.000000 -180.000000 -23.992500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70290028, 10773, 0x029001BF, 80, -170, -23.971, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Broken Doll */
-/* @teleloc 0x029001BF [80.000000 -170.000000 -23.971001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x70290028, 10773, 0x029001BF, 80, -170, -23.971, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Broken Doll */
+/* @teleloc 0x029001BF [80.000000 -170.000000 -23.971001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70290029, 10767, 0x029001C2, 80, -210, -23.971, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Battered Doll */
@@ -388,12 +388,12 @@ VALUES (0x7029004E, 10773, 0x029002AE, 9.51251, -37.2598, 0.029, 0.2164, 0, 0, -
 /* @teleloc 0x029002AE [9.512510 -37.259800 0.029000] 0.216400 0.000000 0.000000 -0.976305 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7029004F, 10773, 0x029002AF, 10, -47.3563, 0.029, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Broken Doll */
-/* @teleloc 0x029002AF [10.000000 -47.356300 0.029000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7029004F, 10773, 0x029002AF, 10, -47.3563, 0.029, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Broken Doll */
+/* @teleloc 0x029002AF [10.000000 -47.356300 0.029000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70290050, 10773, 0x029002B1, 10, -72.2245, 0.029, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Broken Doll */
-/* @teleloc 0x029002B1 [10.000000 -72.224503 0.029000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x70290050, 10773, 0x029002B1, 10, -72.2245, 0.029, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Broken Doll */
+/* @teleloc 0x029002B1 [10.000000 -72.224503 0.029000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70290051, 10770, 0x029002B9, 30, -70, 0.029, -0.004204, 0, 0, -0.999991,  True, '2005-02-09 10:00:00'); /* Beaten Doll */

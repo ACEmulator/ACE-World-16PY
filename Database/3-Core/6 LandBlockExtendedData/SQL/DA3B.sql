@@ -73,8 +73,8 @@ VALUES (0x7DA3B010,  4546, 0xDA3B0129, 183.457, 42.8361, 0.005, 0.015746, 0, 0, 
 /* @teleloc 0xDA3B0129 [183.457001 42.836102 0.005000] 0.015746 0.000000 0.000000 0.999876 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DA3B011,  4499, 0xDA3B0000, 171.709, 30.1466, 2.41213, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Lin's Armor and Weapons */
-/* @teleloc 0xDA3B0000 [171.709000 30.146601 2.412130] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7DA3B011,  4499, 0xDA3B0000, 171.709, 30.1466, 2.41213, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Lin's Armor and Weapons */
+/* @teleloc 0xDA3B0000 [171.709000 30.146601 2.412130] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA3B012,  4544, 0xDA3B011C, 155.072, 76.0535, 1.605, 0.98763, 0, 0, -0.156801, False, '2005-02-09 10:00:00'); /* Lo Ma the Jeweler */

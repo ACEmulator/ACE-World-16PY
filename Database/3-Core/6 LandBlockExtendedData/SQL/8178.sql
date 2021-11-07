@@ -22,7 +22,7 @@ VALUES (0x78178004,  1760, 0x81780000, 64.2294, 118.078, 10.816, 0.182062, 0, 0,
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78178005,  1760, 0x81780000, 89.8988, 146.916, 10.2497, 0.070525, 0, 0, -0.99751,  True, '2005-02-09 10:00:00'); /* Skeleton Warrior */
-/* @teleloc 0x81780000 [89.898804 146.916000 10.249700] 0.070524 0.000000 0.000000 -0.997510 */
+/* @teleloc 0x81780000 [89.898804 146.916000 10.249700] 0.070525 0.000000 0.000000 -0.997510 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78178006,  3955, 0x81780000, 103.017, 186.946, 12.005, 0.069689, 0, 0, -0.997569, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen (15 min.) */

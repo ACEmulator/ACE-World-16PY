@@ -173,8 +173,8 @@ VALUES (0x7017802A,   278, 0x017801A0, 44.75, -70, 0, -0.707107, 0, 0, 0.707107,
 /* @teleloc 0x017801A0 [44.750000 -70.000000 0.000000] -0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7017802B,   278, 0x017801A1, 40, -74.75, 0, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x017801A1 [40.000000 -74.750000 0.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7017802B,   278, 0x017801A1, 40, -74.75, 0, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x017801A1 [40.000000 -74.750000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7017802C,  8429, 0x017801A4, 50.6392, -47.4957, 0.0066, 0.62161, 0, 0, 0.783327,  True, '2005-02-09 10:00:00'); /* Mosswart Zealot */
@@ -336,8 +336,8 @@ VALUES (0x70178043,   278, 0x0178021E, 104.75, -80, 0, -0.707107, 0, 0, 0.707107
 /* @teleloc 0x0178021E [104.750000 -80.000000 0.000000] -0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70178044,   278, 0x0178021F, 100, -84.75, 0, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x0178021F [100.000000 -84.750000 0.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x70178044,   278, 0x0178021F, 100, -84.75, 0, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x0178021F [100.000000 -84.750000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70178045,  8430, 0x01780223, 109.82, -47.6272, 0.0066, 0.604178, 0, 0, -0.796849,  True, '2005-02-09 10:00:00'); /* Mosswart Soul Trapper */
@@ -352,8 +352,8 @@ VALUES (0x70178047,   278, 0x01780225, 114.75, -50, 0, -0.707107, 0, 0, 0.707107
 /* @teleloc 0x01780225 [114.750000 -50.000000 0.000000] -0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70178048,   278, 0x01780226, 110, -54.75, 0, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x01780226 [110.000000 -54.750000 0.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x70178048,   278, 0x01780226, 110, -54.75, 0, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x01780226 [110.000000 -54.750000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70178049,  8430, 0x01780231, 120.672, -66.559, 0.0066, 0.621233, 0, 0, 0.783626,  True, '2005-02-09 10:00:00'); /* Mosswart Soul Trapper */
@@ -372,5 +372,5 @@ VALUES (0x7017804C,   278, 0x01780234, 115.25, -70, 0, -0.707107, 0, 0, -0.70710
 /* @teleloc 0x01780234 [115.250000 -70.000000 0.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7017804D, 28260, 0x01780246, 80, 0, 6.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Exit to Surface */
-/* @teleloc 0x01780246 [80.000000 0.000000 6.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7017804D, 28260, 0x01780246, 80, 0, 6.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Exit to Surface */
+/* @teleloc 0x01780246 [80.000000 0.000000 6.005000] 1.000000 0.000000 0.000000 0.000000 */

@@ -13,8 +13,8 @@ VALUES (0x701D9002,   568, 0x01D90107, 19.99, -55.15, 0, 1, 0, 0, 0, False, '200
 /* @teleloc 0x01D90107 [19.990000 -55.150002 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701D9005,   568, 0x01D90109, 30, -14.75, 0, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x01D90109 [30.000000 -14.750000 0.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701D9005,   568, 0x01D90109, 30, -14.75, 0, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x01D90109 [30.000000 -14.750000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701D900B,   568, 0x01D90113, 35.15, -40.01, 0, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
@@ -50,8 +50,8 @@ VALUES (0x701D9011,  1918, 0x01D90108, 30.052, -3.62819, 0.005, -0.999716, 0, 0,
 /* @teleloc 0x01D90108 [30.052000 -3.628190 0.005000] -0.999716 0.000000 0.000000 0.023839 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701D9012,   949, 0x01D90109, 29.6413, -7.36541, 0.0092, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Red Rat */
-/* @teleloc 0x01D90109 [29.641300 -7.365410 0.009200] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701D9012,   949, 0x01D90109, 29.6413, -7.36541, 0.0092, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Red Rat */
+/* @teleloc 0x01D90109 [29.641300 -7.365410 0.009200] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701D9013,   220, 0x01D90109, 30.2764, -9.52518, 0.0088, 0.105167, 0, 0, -0.994455,  True, '2005-02-09 10:00:00'); /* Brown Rat */

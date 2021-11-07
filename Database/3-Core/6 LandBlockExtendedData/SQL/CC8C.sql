@@ -1,16 +1,16 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xCC8C;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CC8C000,   412, 0xCC8C0000, 41.1279, 46.0345, 26.01, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0xCC8C0000 [41.127899 46.034500 26.010000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7CC8C000,   412, 0xCC8C0000, 41.1279, 46.0345, 26.01, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0xCC8C0000 [41.127899 46.034500 26.010000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC8C001,   412, 0xCC8C0000, 36.6329, 41.0795, 25.995, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
 /* @teleloc 0xCC8C0000 [36.632900 41.079498 25.995001] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CC8C002,   412, 0xCC8C0000, 38.0829, 39.7295, 28.995, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0xCC8C0000 [38.082901 39.729500 28.995001] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7CC8C002,   412, 0xCC8C0000, 38.0829, 39.7295, 28.995, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0xCC8C0000 [38.082901 39.729500 28.995001] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC8C003,   412, 0xCC8C0000, 39.1154, 43.4345, 29, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */

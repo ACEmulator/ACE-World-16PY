@@ -23,8 +23,8 @@ VALUES (0x79F29002, 25789, 0x9F290000, 64.3606, 124.824, 290.005, 0.287674, 0, 0
 /* @teleloc 0x9F290000 [64.360603 124.823997 290.005005] 0.287674 0.000000 0.000000 -0.957728 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79F29003, 25792, 0x9F290112, 36.4529, 109.191, 290.005, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* The Mayor */
-/* @teleloc 0x9F290112 [36.452900 109.191002 290.005005] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x79F29003, 25792, 0x9F290112, 36.4529, 109.191, 290.005, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* The Mayor */
+/* @teleloc 0x9F290112 [36.452900 109.191002 290.005005] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79F29004, 25793, 0x9F29010A, 57.0838, 154.378, 290.005, 0.393441, 0, 0, -0.91935,  True, '2005-02-09 10:00:00'); /* Elijah */

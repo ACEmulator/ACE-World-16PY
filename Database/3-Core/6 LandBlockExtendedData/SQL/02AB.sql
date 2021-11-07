@@ -9,8 +9,8 @@ VALUES (0x702AB001,  5489, 0x02AB0101, 70, -110, -23.995, 1, 0, 0, 0, False, '20
 /* @teleloc 0x02AB0101 [70.000000 -110.000000 -23.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702AB002,  5489, 0x02AB0102, 70, -120, -23.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* "Mag-Ma!" */
-/* @teleloc 0x02AB0102 [70.000000 -120.000000 -23.995001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x702AB002,  5489, 0x02AB0102, 70, -120, -23.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* "Mag-Ma!" */
+/* @teleloc 0x02AB0102 [70.000000 -120.000000 -23.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702AB003,  5489, 0x02AB0106, 100, -80, -17.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* "Mag-Ma!" */
@@ -288,8 +288,8 @@ VALUES (0x702AB041,  8967, 0x02AB01E3, 140.388, -178.692, 12.009, 0.997252, 0, 0
 /* @teleloc 0x02AB01E3 [140.388000 -178.692001 12.009000] 0.997252 0.000000 0.000000 -0.074084 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702AB042,  5624, 0x02AB01E7, 140, -194.75, 12, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x02AB01E7 [140.000000 -194.750000 12.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x702AB042,  5624, 0x02AB01E7, 140, -194.75, 12, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x02AB01E7 [140.000000 -194.750000 12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702AB043,  8967, 0x02AB01F4, 159.919, -127.194, 12.0751, 0.99994, 0, 0, 0.010927,  True, '2005-02-09 10:00:00'); /* Decaying Warrior */

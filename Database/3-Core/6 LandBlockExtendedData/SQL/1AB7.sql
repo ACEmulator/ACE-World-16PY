@@ -13,8 +13,8 @@ VALUES (0x71AB7002, 12096, 0x1AB70000, 53, 60, 96.005, 0.707107, 0, 0, -0.707107
 /* @teleloc 0x1AB70000 [53.000000 60.000000 96.004997] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71AB7003, 12096, 0x1AB70000, 60, 67, 96.005, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Southwest Menhir Stone 1 Gen */
-/* @teleloc 0x1AB70000 [60.000000 67.000000 96.004997] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x71AB7003, 12096, 0x1AB70000, 60, 67, 96.005, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Southwest Menhir Stone 1 Gen */
+/* @teleloc 0x1AB70000 [60.000000 67.000000 96.004997] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71AB7004, 12096, 0x1AB70000, 67, 60, 96.005, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Southwest Menhir Stone 1 Gen */
@@ -29,8 +29,8 @@ VALUES (0x71AB7006, 12091, 0x1AB70000, 53, 60, 96.005, 0.707107, 0, 0, -0.707107
 /* @teleloc 0x1AB70000 [53.000000 60.000000 96.004997] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71AB7007, 12091, 0x1AB70000, 60, 67, 96.005, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Southwest Menhir Broken Stone 1 Gen */
-/* @teleloc 0x1AB70000 [60.000000 67.000000 96.004997] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x71AB7007, 12091, 0x1AB70000, 60, 67, 96.005, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Southwest Menhir Broken Stone 1 Gen */
+/* @teleloc 0x1AB70000 [60.000000 67.000000 96.004997] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71AB7008, 12091, 0x1AB70000, 67, 60, 96.005, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Southwest Menhir Broken Stone 1 Gen */

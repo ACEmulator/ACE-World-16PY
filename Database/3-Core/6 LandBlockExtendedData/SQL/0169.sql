@@ -5,8 +5,8 @@ VALUES (0x70169000,  4015, 0x01690103, 0, -140, -12, 1, 0, 0, 0, False, '2005-02
 /* @teleloc 0x01690103 [0.000000 -140.000000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70169001,   196, 0x01690108, 0, -160, -11.989, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Ice Golem */
-/* @teleloc 0x01690108 [0.000000 -160.000000 -11.989000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x70169001,   196, 0x01690108, 0, -160, -11.989, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Ice Golem */
+/* @teleloc 0x01690108 [0.000000 -160.000000 -11.989000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70169002,  3974, 0x0169010E, 12.9994, -127.967, -12, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Chest */
@@ -65,12 +65,12 @@ VALUES (0x7016900D,  2582, 0x01690147, 2.51028, -96.4496, 0.061099, 0, 0, 0, -1,
 /* @teleloc 0x01690147 [2.510280 -96.449600 0.061099] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7016900E,  2582, 0x0169014C, 6.87568, -96.8678, 0.061099, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Great Mattekar */
-/* @teleloc 0x0169014C [6.875680 -96.867798 0.061099] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7016900E,  2582, 0x0169014C, 6.87568, -96.8678, 0.061099, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Great Mattekar */
+/* @teleloc 0x0169014C [6.875680 -96.867798 0.061099] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7016900F,  2582, 0x0169014C, 6.5378, -100.633, 0.061099, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Great Mattekar */
-/* @teleloc 0x0169014C [6.537800 -100.633003 0.061099] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7016900F,  2582, 0x0169014C, 6.5378, -100.633, 0.061099, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Great Mattekar */
+/* @teleloc 0x0169014C [6.537800 -100.633003 0.061099] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70169010,  2582, 0x01690151, 12.7327, -149.714, 0.061099, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Great Mattekar */
@@ -138,8 +138,8 @@ VALUES (0x7016901A, 0x70169019, '2005-02-09 10:00:00') /* Snowy Mattekar (2581) 
      , (0x7016901A, 0x70169025, '2005-02-09 10:00:00') /* Snowy Mattekar (2581) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7016901B,  2581, 0x01690178, 77.276, -98.795, 0.061, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Snowy Mattekar */
-/* @teleloc 0x01690178 [77.276001 -98.794998 0.061000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7016901B,  2581, 0x01690178, 77.276, -98.795, 0.061, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Snowy Mattekar */
+/* @teleloc 0x01690178 [77.276001 -98.794998 0.061000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7016901C,  4911, 0x0169017E, 104.487, -3.04113, 0.44525, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Surface Portal */

@@ -204,19 +204,19 @@ VALUES (0x7BDF1039,  7625, 0xBDF10000, 100.965, 7.36145, -0.003625, 0.999701, 0,
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF103A,  7625, 0xBDF10000, 89.7878, 18.2162, -0.001375, 0.999875, 0, 0, -0.015837,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
-/* @teleloc 0xBDF10000 [89.787804 18.216200 -0.001375] 0.999875 0.000000 0.000000 -0.015836 */
+/* @teleloc 0xBDF10000 [89.787804 18.216200 -0.001375] 0.999875 0.000000 0.000000 -0.015837 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF103B,  7625, 0xBDF10000, 82.5633, 4.0409, -0.04375, 0.999875, 0, 0, -0.015837,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
-/* @teleloc 0xBDF10000 [82.563301 4.040900 -0.043750] 0.999875 0.000000 0.000000 -0.015836 */
+/* @teleloc 0xBDF10000 [82.563301 4.040900 -0.043750] 0.999875 0.000000 0.000000 -0.015837 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF103C,  7625, 0xBDF10000, 76.0461, 16.5013, 0.025375, 0.999875, 0, 0, -0.015837,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
-/* @teleloc 0xBDF10000 [76.046097 16.501301 0.025375] 0.999875 0.000000 0.000000 -0.015836 */
+/* @teleloc 0xBDF10000 [76.046097 16.501301 0.025375] 0.999875 0.000000 0.000000 -0.015837 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF103D,  7625, 0xBDF10000, 65.0148, 6.53739, -0.0705, 0.999875, 0, 0, -0.015837,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
-/* @teleloc 0xBDF10000 [65.014801 6.537390 -0.070500] 0.999875 0.000000 0.000000 -0.015836 */
+/* @teleloc 0xBDF10000 [65.014801 6.537390 -0.070500] 0.999875 0.000000 0.000000 -0.015837 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF103E,  7625, 0xBDF10000, 54.387, 31.662, -0.084, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -440,12 +440,12 @@ VALUES (0x7BDF1067,  7625, 0xBDF10000, 149.197, 173.383, -0.028125, 0.712659, 0,
 /* @teleloc 0xBDF10000 [149.197006 173.382996 -0.028125] 0.712659 0.000000 0.000000 -0.701511 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BDF1068,  2131, 0xBDF10000, 142.716, 142.886, 30.005, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
-/* @teleloc 0xBDF10000 [142.716003 142.886002 30.004999] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7BDF1068,  2131, 0xBDF10000, 142.716, 142.886, 30.005, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
+/* @teleloc 0xBDF10000 [142.716003 142.886002 30.004999] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BDF1069,  2131, 0xBDF10000, 141.502, 140.438, 30.005, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
-/* @teleloc 0xBDF10000 [141.501999 140.438004 30.004999] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7BDF1069,  2131, 0xBDF10000, 141.502, 140.438, 30.005, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
+/* @teleloc 0xBDF10000 [141.501999 140.438004 30.004999] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF106A,  7389, 0xBDF10000, 142.119, 137.938, 57.9392, 0.399259, 0, 0, 0.916838, False, '2005-02-09 10:00:00'); /* Empyrean magical defense battery */

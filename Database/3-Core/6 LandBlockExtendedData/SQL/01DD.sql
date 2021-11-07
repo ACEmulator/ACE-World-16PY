@@ -21,8 +21,8 @@ VALUES (0x701DD00C,   278, 0x01DD0131, 34.75, -70, -6, 0.707107, 0, 0, -0.707107
 /* @teleloc 0x01DD0131 [34.750000 -70.000000 -6.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701DD00D,   278, 0x01DD0137, 40, -64.75, -6, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x01DD0137 [40.000000 -64.750000 -6.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701DD00D,   278, 0x01DD0137, 40, -64.75, -6, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x01DD0137 [40.000000 -64.750000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701DD014,   218, 0x01DD0100, 0.01534, -30, -5.92443, 0.219006, 0, 0, -0.975724,  True, '2005-02-09 10:00:00'); /* Black Rat */

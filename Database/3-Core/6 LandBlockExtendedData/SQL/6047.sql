@@ -37,8 +37,8 @@ VALUES (0x76047008, 22919, 0x60470122, 60, -70, -11.995, 1, 0, 0, 0, False, '200
 /* @teleloc 0x60470122 [60.000000 -70.000000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76047009, 22929, 0x60470149, 90, -30, -11.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Caul Sanatorium */
-/* @teleloc 0x60470149 [90.000000 -30.000000 -11.995000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x76047009, 22929, 0x60470149, 90, -30, -11.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Caul Sanatorium */
+/* @teleloc 0x60470149 [90.000000 -30.000000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7604700A, 22919, 0x6047014F, 90.7626, -53.7058, -11.995, 0.999692, 0, 0, -0.024825, False, '2005-02-09 10:00:00'); /* Virindi A Activated Pressure Plate */
@@ -89,20 +89,20 @@ VALUES (0x76047015, 22929, 0x6047018D, 30, -90, -5.995, 1, 0, 0, 0, False, '2005
 /* @teleloc 0x6047018D [30.000000 -90.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76047016, 22929, 0x60470190, 30, -110, -5.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Caul Sanatorium */
-/* @teleloc 0x60470190 [30.000000 -110.000000 -5.995000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x76047016, 22929, 0x60470190, 30, -110, -5.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Caul Sanatorium */
+/* @teleloc 0x60470190 [30.000000 -110.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76047017, 22921, 0x60470193, 30, -120, -5.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Virindi C Activated Pressure Plate */
 /* @teleloc 0x60470193 [30.000000 -120.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76047018, 22921, 0x604701A3, 40, -60, -5.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Virindi C Activated Pressure Plate */
-/* @teleloc 0x604701A3 [40.000000 -60.000000 -5.995000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x76047018, 22921, 0x604701A3, 40, -60, -5.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Virindi C Activated Pressure Plate */
+/* @teleloc 0x604701A3 [40.000000 -60.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76047019, 22919, 0x604701A5, 40, -70, -5.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Virindi A Activated Pressure Plate */
-/* @teleloc 0x604701A5 [40.000000 -70.000000 -5.995000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x76047019, 22919, 0x604701A5, 40, -70, -5.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Virindi A Activated Pressure Plate */
+/* @teleloc 0x604701A5 [40.000000 -70.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7604701A, 22920, 0x604701A8, 40, -80, -5.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Virindi B Activated Pressure Plate */
@@ -137,12 +137,12 @@ VALUES (0x76047021, 22920, 0x604701C8, 50, -120, -5.995, 1, 0, 0, 0, False, '200
 /* @teleloc 0x604701C8 [50.000000 -120.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76047022, 22929, 0x604701CD, 60, -80, -5.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Caul Sanatorium */
-/* @teleloc 0x604701CD [60.000000 -80.000000 -5.995000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x76047022, 22929, 0x604701CD, 60, -80, -5.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Caul Sanatorium */
+/* @teleloc 0x604701CD [60.000000 -80.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76047023, 22929, 0x604701EA, 70, -90, -5.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Caul Sanatorium */
-/* @teleloc 0x604701EA [70.000000 -90.000000 -5.995000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x76047023, 22929, 0x604701EA, 70, -90, -5.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Caul Sanatorium */
+/* @teleloc 0x604701EA [70.000000 -90.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76047024, 22929, 0x604701F2, 70, -110, -5.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Caul Sanatorium */
@@ -193,8 +193,8 @@ VALUES (0x7604702F, 22919, 0x60470250, 110, -120, -5.995, 1, 0, 0, 0, False, '20
 /* @teleloc 0x60470250 [110.000000 -120.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76047030, 22929, 0x60470252, 110, -130, -5.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Caul Sanatorium */
-/* @teleloc 0x60470252 [110.000000 -130.000000 -5.995000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x76047030, 22929, 0x60470252, 110, -130, -5.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Caul Sanatorium */
+/* @teleloc 0x60470252 [110.000000 -130.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76047031, 22921, 0x60470255, 110, -140, -5.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Virindi C Activated Pressure Plate */
@@ -209,8 +209,8 @@ VALUES (0x76047033, 22921, 0x60470260, 120, -90, -5.995, 1, 0, 0, 0, False, '200
 /* @teleloc 0x60470260 [120.000000 -90.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76047034, 22919, 0x60470272, 130, -50, -5.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Virindi A Activated Pressure Plate */
-/* @teleloc 0x60470272 [130.000000 -50.000000 -5.995000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x76047034, 22919, 0x60470272, 130, -50, -5.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Virindi A Activated Pressure Plate */
+/* @teleloc 0x60470272 [130.000000 -50.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76047035, 22920, 0x60470274, 130, -60, -5.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Virindi B Activated Pressure Plate */
@@ -261,8 +261,8 @@ VALUES (0x76047040, 22920, 0x604702CE, 20, -60, 0.005, 1, 0, 0, 0, False, '2005-
 /* @teleloc 0x604702CE [20.000000 -60.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76047041, 22929, 0x604702D3, 20, -80, 0.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Caul Sanatorium */
-/* @teleloc 0x604702D3 [20.000000 -80.000000 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x76047041, 22929, 0x604702D3, 20, -80, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Caul Sanatorium */
+/* @teleloc 0x604702D3 [20.000000 -80.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76047042, 22920, 0x604702DB, 30, -70, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Virindi B Activated Pressure Plate */
@@ -285,8 +285,8 @@ VALUES (0x76047046, 22921, 0x604702F3, 50, -50, 0.005, 1, 0, 0, 0, False, '2005-
 /* @teleloc 0x604702F3 [50.000000 -50.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76047047, 22919, 0x604702F8, 50, -80, 0.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Virindi A Activated Pressure Plate */
-/* @teleloc 0x604702F8 [50.000000 -80.000000 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x76047047, 22919, 0x604702F8, 50, -80, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Virindi A Activated Pressure Plate */
+/* @teleloc 0x604702F8 [50.000000 -80.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76047048, 22921, 0x60470333, 100, -80, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Virindi C Activated Pressure Plate */
@@ -301,8 +301,8 @@ VALUES (0x7604704A, 22929, 0x6047033B, 140, -50, 0.005, 0.707107, 0, 0, -0.70710
 /* @teleloc 0x6047033B [140.000000 -50.000000 0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7604704B, 22921, 0x6047035E, 150.225, -57.1749, 0.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Virindi C Activated Pressure Plate */
-/* @teleloc 0x6047035E [150.225006 -57.174900 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7604704B, 22921, 0x6047035E, 150.225, -57.1749, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Virindi C Activated Pressure Plate */
+/* @teleloc 0x6047035E [150.225006 -57.174900 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7604704C, 22920, 0x60470368, 150, -110, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Virindi B Activated Pressure Plate */

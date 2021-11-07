@@ -332,7 +332,7 @@ VALUES (0x7569C043, 0x7569C001, '2005-02-09 10:00:00') /* Ceiling Hook (11698) *
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7569C044, 10687, 0x569C0131, 84.9365, 88.457, 28.005, -0.999612, 0, 0, -0.027843, False, '2005-02-09 10:00:00'); /* Mansion */
-/* @teleloc 0x569C0131 [84.936501 88.457001 28.004999] -0.999612 0.000000 0.000000 -0.027842 */
+/* @teleloc 0x569C0131 [84.936501 88.457001 28.004999] -0.999612 0.000000 0.000000 -0.027843 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7569C044, 0x7569C01E, '2005-02-09 10:00:00') /* Floor Hook (11697) */

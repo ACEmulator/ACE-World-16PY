@@ -26,5 +26,5 @@ VALUES (8070,   1, 0x0200026B) /* Setup */
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8070, 0.5, 7993, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 3, -2, 0, 0.819152, 0, 0, -0.573577) /* Generate Linvak Ursuin (7993) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (8070, 0.95, 7993, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, 1.5, 0, -0.173648, 0, -0, -0.984808) /* Generate Linvak Ursuin (7993) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (8070, 1, 4380, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, 1.2, 0, -0.446198, 0, -0, -0.894934) /* Generate Bones (4380) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+     , (8070, 0.95, 7993, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, 1.5, 0, -0.173648, 0, 0, -0.984808) /* Generate Linvak Ursuin (7993) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (8070, 1, 4380, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, 1.2, 0, -0.446198, 0, 0, -0.894934) /* Generate Bones (4380) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

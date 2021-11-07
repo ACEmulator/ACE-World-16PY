@@ -1477,7 +1477,7 @@ VALUES (0x76FAF135, 0x76FAF13F, '2005-02-09 10:00:00') /* Portal Linkspot (10762
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76FAF136, 14132, 0x6FAF0143, 157.408, 82.2155, 78.005, 0.041383, 0, 0, 0.999143, False, '2005-02-09 10:00:00'); /* Villa */
-/* @teleloc 0x6FAF0143 [157.408005 82.215500 78.004997] 0.041382 0.000000 0.000000 0.999143 */
+/* @teleloc 0x6FAF0143 [157.408005 82.215500 78.004997] 0.041383 0.000000 0.000000 0.999143 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x76FAF136, 0x76FAF09B, '2005-02-09 10:00:00') /* Wall Hook (9686) */

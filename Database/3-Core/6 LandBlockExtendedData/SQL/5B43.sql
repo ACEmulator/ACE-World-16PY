@@ -825,9 +825,9 @@ VALUES (0x75B430A6,  4451, 0x5B4303B5, 165.338, -89.8696, -5.995, 0.705283, 0, 0
 /* @teleloc 0x5B4303B5 [165.337997 -89.869598 -5.995000] 0.705283 0.000000 0.000000 0.708926 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75B430A7, 22012, 0x5B430419, 80, -3.0237, 0.219, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Exit to the Surface */
-/* @teleloc 0x5B430419 [80.000000 -3.023700 0.219000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75B430A7, 22012, 0x5B430419, 80, -3.0237, 0.219, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Exit to the Surface */
+/* @teleloc 0x5B430419 [80.000000 -3.023700 0.219000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75B430A8, 22189, 0x5B43013A, 60, -346.78, -23.995, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Olthoi Arcade Central */
-/* @teleloc 0x5B43013A [60.000000 -346.779999 -23.995001] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75B430A8, 22189, 0x5B43013A, 60, -346.78, -23.995, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Olthoi Arcade Central */
+/* @teleloc 0x5B43013A [60.000000 -346.779999 -23.995001] 0.000000 0.000000 0.000000 -1.000000 */

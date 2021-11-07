@@ -205,8 +205,8 @@ VALUES (0x75B48032, 16916, 0x5B4801B1, 129.813, -73.2509, -11.9868, -0.999881, 0
 /* @teleloc 0x5B4801B1 [129.813004 -73.250900 -11.986800] -0.999881 0.000000 0.000000 -0.015444 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75B48033, 16916, 0x5B4801B3, 130, -91.5997, -11.9868, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Rampager */
-/* @teleloc 0x5B4801B3 [130.000000 -91.599701 -11.986800] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75B48033, 16916, 0x5B4801B3, 130, -91.5997, -11.9868, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Rampager */
+/* @teleloc 0x5B4801B3 [130.000000 -91.599701 -11.986800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75B48034, 16916, 0x5B4801B4, 127.16, -114.989, -11.9868, -0.213363, 0, 0, 0.976973,  True, '2005-02-09 10:00:00'); /* Rampager */
@@ -729,8 +729,8 @@ VALUES (0x75B480B5, 10810, 0x5B48035A, 268.287, -38.3415, 0.0132, -0.721669, 0, 
 /* @teleloc 0x5B48035A [268.286987 -38.341499 0.013200] -0.721669 0.000000 0.000000 0.692239 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75B480B6, 10810, 0x5B48035E, 270.306, -58.8984, 0.0132, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Rampager */
-/* @teleloc 0x5B48035E [270.306000 -58.898399 0.013200] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75B480B6, 10810, 0x5B48035E, 270.306, -58.8984, 0.0132, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Rampager */
+/* @teleloc 0x5B48035E [270.306000 -58.898399 0.013200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75B480B7, 10810, 0x5B480366, 275.626, -60.6001, 0.055, 0.686921, 0, 0, -0.726732,  True, '2005-02-09 10:00:00'); /* Rampager */

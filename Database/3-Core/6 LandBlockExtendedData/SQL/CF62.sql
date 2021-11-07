@@ -10,7 +10,7 @@ VALUES (0x7CF62001,  2583, 0xCF620103, 154.329, 81.934, 6.02939, -0.474885, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF62002,  1154, 0xCF620100, 155.602, 93.3779, -0.34, -0.999626, 0, 0, 0.027349, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator */
-/* @teleloc 0xCF620100 [155.602005 93.377899 -0.340000] -0.999626 0.000000 0.000000 0.027348 */
+/* @teleloc 0xCF620100 [155.602005 93.377899 -0.340000] -0.999626 0.000000 0.000000 0.027349 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7CF62002, 0x7CF62000, '2005-02-09 10:00:00') /* Se Sclavus (2583) */

@@ -189,8 +189,8 @@ VALUES (0x7029B02E,  9244, 0x029B026D, 319.919, -193.171, -5.971, -0.000354, 0, 
 /* @teleloc 0x029B026D [319.919006 -193.171005 -5.971000] -0.000354 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7029B02F,  9244, 0x029B027A, 320, -375.642, -5.971, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Pristine Doll */
-/* @teleloc 0x029B027A [320.000000 -375.641998 -5.971000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7029B02F,  9244, 0x029B027A, 320, -375.642, -5.971, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Pristine Doll */
+/* @teleloc 0x029B027A [320.000000 -375.641998 -5.971000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7029B030,  9244, 0x029B027F, 342.723, -250.059, -5.971, -0.725006, 0, 0, 0.688743,  True, '2005-02-09 10:00:00'); /* Pristine Doll */

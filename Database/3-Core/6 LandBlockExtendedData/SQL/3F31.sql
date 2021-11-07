@@ -46,8 +46,8 @@ VALUES (0x73F31012, 24221, 0x3F310000, 67.2259, 182.241, 1.18674, 0.178722, 0, 0
 /* @teleloc 0x3F310000 [67.225899 182.240997 1.186740] 0.178722 0.000000 0.000000 -0.983900 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73F31013,   720, 0x3F310000, 83.5733, 92.8925, -0, -0.623795, 0, 0, -0.781588, False, '2005-02-09 10:00:00'); /* Sliding Door */
-/* @teleloc 0x3F310000 [83.573303 92.892502 -0.000000] -0.623795 0.000000 0.000000 -0.781588 */
+VALUES (0x73F31013,   720, 0x3F310000, 83.5733, 92.8925, 0, -0.623795, 0, 0, -0.781588, False, '2005-02-09 10:00:00'); /* Sliding Door */
+/* @teleloc 0x3F310000 [83.573303 92.892502 0.000000] -0.623795 0.000000 0.000000 -0.781588 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F31014, 20220, 0x3F31010C, 78.9364, 82.5325, 0.005, -0.992348, 0, 0, -0.123476, False, '2005-02-09 10:00:00'); /* Grand Master Scrivener of Life Magic */

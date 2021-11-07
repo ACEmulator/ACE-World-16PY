@@ -18,7 +18,7 @@ VALUES (0x7E24C003,   394, 0xE24C0000, 32.0658, 158.05, 24.005, 0.405979, 0, 0, 
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E24C004,   394, 0xE24C0000, 37.9427, 157.127, 24.005, 0.055522, 0, 0, 0.998457, False, '2005-02-09 10:00:00'); /* Undead Generator */
-/* @teleloc 0xE24C0000 [37.942699 157.126999 24.004999] 0.055521 0.000000 0.000000 0.998457 */
+/* @teleloc 0xE24C0000 [37.942699 157.126999 24.004999] 0.055522 0.000000 0.000000 0.998457 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E24C005,   394, 0xE24C0000, 61.7247, 160.21, 24.005, -0.580587, 0, 0, 0.814198, False, '2005-02-09 10:00:00'); /* Undead Generator */

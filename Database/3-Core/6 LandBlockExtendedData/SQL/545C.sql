@@ -42,7 +42,7 @@ VALUES (0x7545C009,  7111, 0x545C0124, 20.5234, -70.4669, -29.995, 0.091035, 0, 
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7545C00A,  7112, 0x545C0128, 19.9643, -84.4591, -29.995, -0.036932, 0, 0, 0.999318,  True, '2005-02-09 10:00:00'); /* Chomu Sclavus */
-/* @teleloc 0x545C0128 [19.964300 -84.459099 -29.995001] -0.036931 0.000000 0.000000 0.999318 */
+/* @teleloc 0x545C0128 [19.964300 -84.459099 -29.995001] -0.036932 0.000000 0.000000 0.999318 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7545C00B,  7111, 0x545C0128, 20, -80, -29.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Faisi Sclavus */
@@ -57,8 +57,8 @@ VALUES (0x7545C00D, 19412, 0x545C0132, 18.0963, -97.7399, -29.9908, 0.939373, 0,
 /* @teleloc 0x545C0132 [18.096300 -97.739899 -29.990801] 0.939373 0.000000 0.000000 0.342898 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545C00E,  7111, 0x545C0141, 40, -50, -29.995, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Faisi Sclavus */
-/* @teleloc 0x545C0141 [40.000000 -50.000000 -29.995001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7545C00E,  7111, 0x545C0141, 40, -50, -29.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Faisi Sclavus */
+/* @teleloc 0x545C0141 [40.000000 -50.000000 -29.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7545C00F,  7111, 0x545C014D, 40, -110, -29.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Faisi Sclavus */
@@ -97,20 +97,20 @@ VALUES (0x7545C017,  7111, 0x545C018E, 20, -80, -23.995, 1, 0, 0, 0,  True, '200
 /* @teleloc 0x545C018E [20.000000 -80.000000 -23.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545C018,  7112, 0x545C0197, 30, -60, -23.995, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Chomu Sclavus */
-/* @teleloc 0x545C0197 [30.000000 -60.000000 -23.995001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7545C018,  7112, 0x545C0197, 30, -60, -23.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Chomu Sclavus */
+/* @teleloc 0x545C0197 [30.000000 -60.000000 -23.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7545C019, 19412, 0x545C0198, 31.0164, -63.9506, -23.9908, 0.04746, 0, 0, -0.998873,  True, '2005-02-09 10:00:00'); /* Unimbued Red Pyreal Gorget */
 /* @teleloc 0x545C0198 [31.016399 -63.950600 -23.990801] 0.047460 0.000000 0.000000 -0.998873 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545C01A,  7111, 0x545C01A1, 40, -50, -23.995, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Faisi Sclavus */
-/* @teleloc 0x545C01A1 [40.000000 -50.000000 -23.995001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7545C01A,  7111, 0x545C01A1, 40, -50, -23.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Faisi Sclavus */
+/* @teleloc 0x545C01A1 [40.000000 -50.000000 -23.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545C01B,  7112, 0x545C01A7, 40, -100, -23.995, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Chomu Sclavus */
-/* @teleloc 0x545C01A7 [40.000000 -100.000000 -23.995001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7545C01B,  7112, 0x545C01A7, 40, -100, -23.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Chomu Sclavus */
+/* @teleloc 0x545C01A7 [40.000000 -100.000000 -23.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7545C01C, 19412, 0x545C01A9, 38.1608, -108.539, -23.9908, 0.936483, 0, 0, 0.350714,  True, '2005-02-09 10:00:00'); /* Unimbued Red Pyreal Gorget */
@@ -121,8 +121,8 @@ VALUES (0x7545C01D,  7112, 0x545C01C0, 60, -50, -23.995, 1, 0, 0, 0,  True, '200
 /* @teleloc 0x545C01C0 [60.000000 -50.000000 -23.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545C01E,  7111, 0x545C01C8, 60, -100, -23.995, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Faisi Sclavus */
-/* @teleloc 0x545C01C8 [60.000000 -100.000000 -23.995001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7545C01E,  7111, 0x545C01C8, 60, -100, -23.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Faisi Sclavus */
+/* @teleloc 0x545C01C8 [60.000000 -100.000000 -23.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7545C01F,  7111, 0x545C01D2, 70, -80, -23.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Faisi Sclavus */
@@ -161,8 +161,8 @@ VALUES (0x7545C027,  2583, 0x545C0211, 210, -290, -23.995, 1, 0, 0, 0,  True, '2
 /* @teleloc 0x545C0211 [210.000000 -290.000000 -23.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545C028,  2583, 0x545C0215, 220, -229.875, -23.995, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Se Sclavus */
-/* @teleloc 0x545C0215 [220.000000 -229.875000 -23.995001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7545C028,  2583, 0x545C0215, 220, -229.875, -23.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Se Sclavus */
+/* @teleloc 0x545C0215 [220.000000 -229.875000 -23.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7545C029, 19411, 0x545C021E, 217.49, -256.992, -23.9908, 0.873556, 0, 0, 0.486723,  True, '2005-02-09 10:00:00'); /* Unimbued Green Pyreal Gorget */
@@ -233,8 +233,8 @@ VALUES (0x7545C039,  7111, 0x545C027F, 50, -60, -17.995, 1, 0, 0, 0,  True, '200
 /* @teleloc 0x545C027F [50.000000 -60.000000 -17.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545C03A,  7112, 0x545C0282, 50, -100, -17.995, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Chomu Sclavus */
-/* @teleloc 0x545C0282 [50.000000 -100.000000 -17.995001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7545C03A,  7112, 0x545C0282, 50, -100, -17.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Chomu Sclavus */
+/* @teleloc 0x545C0282 [50.000000 -100.000000 -17.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7545C03B, 19412, 0x545C0284, 52.3454, -107.485, -17.9908, 0.913958, 0, 0, -0.405808,  True, '2005-02-09 10:00:00'); /* Unimbued Red Pyreal Gorget */
@@ -373,8 +373,8 @@ VALUES (0x7545C05C,  2586, 0x545C0369, 30, -350, -11.995, 1, 0, 0, 0,  True, '20
 /* @teleloc 0x545C0369 [30.000000 -350.000000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545C05D,  7111, 0x545C036B, 40, -50, -11.995, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Faisi Sclavus */
-/* @teleloc 0x545C036B [40.000000 -50.000000 -11.995000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7545C05D,  7111, 0x545C036B, 40, -50, -11.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Faisi Sclavus */
+/* @teleloc 0x545C036B [40.000000 -50.000000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7545C05E,  7112, 0x545C0370, 40, -60, -11.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Chomu Sclavus */
@@ -538,8 +538,8 @@ VALUES (0x7545C07C,  2584, 0x545C0425, 230, -240, -11.995, 1, 0, 0, 0,  True, '2
 /* @teleloc 0x545C0425 [230.000000 -240.000000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545C07D,  2584, 0x545C0427, 230, -280, -11.995, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Aste Sclavus */
-/* @teleloc 0x545C0427 [230.000000 -280.000000 -11.995000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7545C07D,  2584, 0x545C0427, 230, -280, -11.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Aste Sclavus */
+/* @teleloc 0x545C0427 [230.000000 -280.000000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7545C07E,  2584, 0x545C0431, 240, -260, -11.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Aste Sclavus */
@@ -574,12 +574,12 @@ VALUES (0x7545C085,  7112, 0x545C0467, 20, -90, -5.995, 1, 0, 0, 0,  True, '2005
 /* @teleloc 0x545C0467 [20.000000 -90.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545C086,  2585, 0x545C0470, 20, -280, -5.995, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Essa Sclavus */
-/* @teleloc 0x545C0470 [20.000000 -280.000000 -5.995000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7545C086,  2585, 0x545C0470, 20, -280, -5.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Essa Sclavus */
+/* @teleloc 0x545C0470 [20.000000 -280.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545C087,  7111, 0x545C0485, 30, -50, -5.995, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Faisi Sclavus */
-/* @teleloc 0x545C0485 [30.000000 -50.000000 -5.995000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7545C087,  7111, 0x545C0485, 30, -50, -5.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Faisi Sclavus */
+/* @teleloc 0x545C0485 [30.000000 -50.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7545C088,  7112, 0x545C0489, 30, -60, -5.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Chomu Sclavus */
@@ -602,20 +602,20 @@ VALUES (0x7545C08C,  2586, 0x545C049B, 30, -300, -5.995, 0.810963, 0, 0, 0.58509
 /* @teleloc 0x545C049B [30.000000 -300.000000 -5.995000] 0.810963 0.000000 0.000000 0.585097 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545C08D,  2585, 0x545C049F, 30, -330, -5.995, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Essa Sclavus */
-/* @teleloc 0x545C049F [30.000000 -330.000000 -5.995000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7545C08D,  2585, 0x545C049F, 30, -330, -5.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Essa Sclavus */
+/* @teleloc 0x545C049F [30.000000 -330.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7545C08E,  2586, 0x545C04A1, 30.2965, -339.795, -5.995, -0.696813, 0, 0, 0.717252,  True, '2005-02-09 10:00:00'); /* Sata Sclavus */
 /* @teleloc 0x545C04A1 [30.296499 -339.795013 -5.995000] -0.696813 0.000000 0.000000 0.717252 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545C08F, 19412, 0x545C04A6, 40, -50, -5.99075, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Unimbued Red Pyreal Gorget */
-/* @teleloc 0x545C04A6 [40.000000 -50.000000 -5.990750] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7545C08F, 19412, 0x545C04A6, 40, -50, -5.99075, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Unimbued Red Pyreal Gorget */
+/* @teleloc 0x545C04A6 [40.000000 -50.000000 -5.990750] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545C090,  7112, 0x545C04C7, 50, -50, -5.995, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Chomu Sclavus */
-/* @teleloc 0x545C04C7 [50.000000 -50.000000 -5.995000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7545C090,  7112, 0x545C04C7, 50, -50, -5.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Chomu Sclavus */
+/* @teleloc 0x545C04C7 [50.000000 -50.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7545C091,  7111, 0x545C04D1, 50, -100, -5.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Faisi Sclavus */
@@ -706,8 +706,8 @@ VALUES (0x7545C0A6,  2583, 0x545C0552, 200, -270, -5.995, 1, 0, 0, 0,  True, '20
 /* @teleloc 0x545C0552 [200.000000 -270.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545C0A7,  2583, 0x545C0556, 210, -230, -5.995, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Se Sclavus */
-/* @teleloc 0x545C0556 [210.000000 -230.000000 -5.995000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7545C0A7,  2583, 0x545C0556, 210, -230, -5.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Se Sclavus */
+/* @teleloc 0x545C0556 [210.000000 -230.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7545C0A8,  2583, 0x545C055E, 208.893, -291.752, -5.995, 0.678859, 0, 0, -0.734269,  True, '2005-02-09 10:00:00'); /* Se Sclavus */
@@ -770,8 +770,8 @@ VALUES (0x7545C0B6,  7112, 0x545C05CC, 20, -100, 0.005, 1, 0, 0, 0,  True, '2005
 /* @teleloc 0x545C05CC [20.000000 -100.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545C0B7,  2586, 0x545C05D0, 20, -290, 0.005, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Sata Sclavus */
-/* @teleloc 0x545C05D0 [20.000000 -290.000000 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7545C0B7,  2586, 0x545C05D0, 20, -290, 0.005, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Sata Sclavus */
+/* @teleloc 0x545C05D0 [20.000000 -290.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7545C0B8,  2586, 0x545C05D4, 20, -310, 0.005, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Sata Sclavus */
@@ -798,8 +798,8 @@ VALUES (0x7545C0BD, 19413, 0x545C05FC, 41.5035, -277.802, 0.00925, 0.955337, 0, 
 /* @teleloc 0x545C05FC [41.503502 -277.802002 0.009250] 0.955337 0.000000 0.000000 -0.295520 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545C0BE,  7110, 0x545C05FC, 40, -280, 0.005, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Ulu Sclavus */
-/* @teleloc 0x545C05FC [40.000000 -280.000000 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7545C0BE,  7110, 0x545C05FC, 40, -280, 0.005, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Ulu Sclavus */
+/* @teleloc 0x545C05FC [40.000000 -280.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7545C0BF,  2586, 0x545C0601, 40, -290, 0.005, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Sata Sclavus */
@@ -814,8 +814,8 @@ VALUES (0x7545C0C1,  7110, 0x545C060A, 40, -340, 0.005, 1, 0, 0, 0,  True, '2005
 /* @teleloc 0x545C060A [40.000000 -340.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545C0C2,  7112, 0x545C060F, 50, -60, 0.005, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Chomu Sclavus */
-/* @teleloc 0x545C060F [50.000000 -60.000000 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7545C0C2,  7112, 0x545C060F, 50, -60, 0.005, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Chomu Sclavus */
+/* @teleloc 0x545C060F [50.000000 -60.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7545C0C3,  7111, 0x545C0618, 50, -90, 0.005, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Faisi Sclavus */
@@ -826,8 +826,8 @@ VALUES (0x7545C0C4, 19413, 0x545C0628, 48.2645, -318.137, 0.00925, 0.930508, 0, 
 /* @teleloc 0x545C0628 [48.264500 -318.136993 0.009250] 0.930508 0.000000 0.000000 0.366273 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7545C0C5,  2586, 0x545C0628, 50, -320, 0.005, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Sata Sclavus */
-/* @teleloc 0x545C0628 [50.000000 -320.000000 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7545C0C5,  2586, 0x545C0628, 50, -320, 0.005, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Sata Sclavus */
+/* @teleloc 0x545C0628 [50.000000 -320.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7545C0C6, 19413, 0x545C0640, 57.666, -277.775, 0.00925, 0.952682, 0, 0, 0.30397,  True, '2005-02-09 10:00:00'); /* Unimbued Blue Pyreal Gorget */

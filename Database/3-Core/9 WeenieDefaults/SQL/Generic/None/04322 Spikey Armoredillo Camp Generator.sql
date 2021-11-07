@@ -28,4 +28,4 @@ INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_C
 VALUES (4322, 0.4, 179, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 1, 1, 0, 0.819152, 0, 0, -0.573577) /* Generate Spikey Armoredillo (179) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (4322, 0.75, 179, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -3.4, 0.4, 0, 0.92388, 0, 0, -0.382684) /* Generate Spikey Armoredillo (179) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (4322, 0.95, 179, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -1.4, 1.4, 0, 0.906308, 0, 0, -0.422618) /* Generate Spikey Armoredillo (179) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (4322, 1, 4379, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, -0.2, 0, 1, 0, 0, -0) /* Generate Bones (4379) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+     , (4322, 1, 4379, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, -0.2, 0, 1, 0, 0, 0) /* Generate Bones (4379) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

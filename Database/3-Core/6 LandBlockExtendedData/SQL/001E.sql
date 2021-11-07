@@ -73,8 +73,8 @@ VALUES (0x7001E00A, 29471, 0x001E012B, 481.356, -49.3948, -17.995, 0.025651, 0, 
 /* @teleloc 0x001E012B [481.355988 -49.394798 -17.995001] 0.025651 0.000000 0.000000 0.999671 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001E00B,  2179, 0x001E012D, 480, -54.755, -18, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x001E012D [480.000000 -54.755001 -18.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7001E00B,  2179, 0x001E012D, 480, -54.755, -18, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x001E012D [480.000000 -54.755001 -18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7001E00B, 0x7001E035, '2005-02-09 10:00:00') /* Lever (2609) */;
@@ -438,8 +438,8 @@ VALUES (0x7001E058,   286, 0x001E02CF, 375.6, -250, 1.5, -0.707107, 0, 0, -0.707
 /* @teleloc 0x001E02CF [375.600006 -250.000000 1.500000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001E059,   278, 0x001E02D1, 380, -254.755, 0, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x001E02D1 [380.000000 -254.755005 0.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7001E059,   278, 0x001E02D1, 380, -254.755, 0, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x001E02D1 [380.000000 -254.755005 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001E05A, 30295, 0x001E02D3, 375.728, -259.906, 0.005, -0.681967, 0, 0, -0.731383,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */

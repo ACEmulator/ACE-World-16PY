@@ -151,8 +151,8 @@ VALUES (0x701EC023, 28244, 0x01EC0175, 33.876, -59.0145, 0.029, 0.940086, 0, 0, 
 /* @teleloc 0x01EC0175 [33.875999 -59.014500 0.029000] 0.940086 0.000000 0.000000 -0.340937 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701EC025, 30719, 0x01EC0181, 40, 0, 0.005, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Secured Vault Sewers */
-/* @teleloc 0x01EC0181 [40.000000 0.000000 0.005000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701EC025, 30719, 0x01EC0181, 40, 0, 0.005, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Secured Vault Sewers */
+/* @teleloc 0x01EC0181 [40.000000 0.000000 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701EC026, 28244, 0x01EC0184, 37.6825, -13.9651, 0.029, 0.999753, 0, 0, 0.022241,  True, '2005-02-09 10:00:00'); /* Phantom */

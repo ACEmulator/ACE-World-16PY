@@ -381,5 +381,5 @@ VALUES (0x702C604B, 0x702C6006, '2005-02-09 10:00:00') /* K'nath T'aed (2573) */
      , (0x702C604B, 0x702C604A, '2005-02-09 10:00:00') /* K'nath N'gell (2569) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702C604C,  8220, 0x02C60210, 30, -66, 0.004999, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Uninhabited Area Portal */
-/* @teleloc 0x02C60210 [30.000000 -66.000000 0.004999] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x702C604C,  8220, 0x02C60210, 30, -66, 0.004999, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Uninhabited Area Portal */
+/* @teleloc 0x02C60210 [30.000000 -66.000000 0.004999] 0.000000 0.000000 0.000000 -1.000000 */

@@ -17,8 +17,8 @@ VALUES (0x70D4A003, 26568, 0x0D4A010C, 164.815, 89, 18.205, -0.461749, 0, 0, -0.
 /* @teleloc 0x0D4A010C [164.815002 89.000000 18.205000] -0.461749 0.000000 0.000000 -0.887011 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70D4A004, 26543, 0x0D4A010C, 160, 90, 18.205, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
-/* @teleloc 0x0D4A010C [160.000000 90.000000 18.205000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x70D4A004, 26543, 0x0D4A010C, 160, 90, 18.205, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+/* @teleloc 0x0D4A010C [160.000000 90.000000 18.205000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70D4A005, 26543, 0x0D4A010C, 160, 80, 18.205, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
@@ -29,8 +29,8 @@ VALUES (0x70D4A006, 29716, 0x0D4A010E, 50.512, 84, 18.5, 0.707107, 0, 0, -0.7071
 /* @teleloc 0x0D4A010E [50.512001 84.000000 18.500000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70D4A007, 29717, 0x0D4A010F, 108, 141.488, 18.5, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Eye of the Watcher */
-/* @teleloc 0x0D4A010F [108.000000 141.488007 18.500000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x70D4A007, 29717, 0x0D4A010F, 108, 141.488, 18.5, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Eye of the Watcher */
+/* @teleloc 0x0D4A010F [108.000000 141.488007 18.500000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70D4A008,  7924, 0x0D4A011D, 107.372, 101.956, 18.205, -0.999997, 0, 0, -0.002528, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
@@ -104,8 +104,8 @@ VALUES (0x70D4A013, 26543, 0x0D4A010E, 56, 79, 18.205, 1, 0, 0, 0,  True, '2005-
 /* @teleloc 0x0D4A010E [56.000000 79.000000 18.205000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70D4A014, 26543, 0x0D4A010E, 56, 88, 18.205, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
-/* @teleloc 0x0D4A010E [56.000000 88.000000 18.205000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x70D4A014, 26543, 0x0D4A010E, 56, 88, 18.205, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Wailing Statue */
+/* @teleloc 0x0D4A010E [56.000000 88.000000 18.205000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70D4A015, 29718, 0x0D4A010D, 108, 26.504, 18.5, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Eye of the Watcher */

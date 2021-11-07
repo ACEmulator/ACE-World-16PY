@@ -5,8 +5,8 @@ VALUES (0x7526C000, 14563, 0x526C0100, 80, -130, -29.9925, 1, 0, 0, 0,  True, '2
 /* @teleloc 0x526C0100 [80.000000 -130.000000 -29.992500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7526C001, 14560, 0x526C0101, 90, -79.9535, -29.9925, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Quiddity Rift */
-/* @teleloc 0x526C0101 [90.000000 -79.953499 -29.992500] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7526C001, 14560, 0x526C0101, 90, -79.9535, -29.9925, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Quiddity Rift */
+/* @teleloc 0x526C0101 [90.000000 -79.953499 -29.992500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526C002, 14562, 0x526C0119, 130, -90, -29.9925, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Quiddity Rift */
@@ -83,8 +83,8 @@ VALUES (0x7526C012, 14560, 0x526C0165, 100, -50, -23.9925, 1, 0, 0, 0,  True, '2
 /* @teleloc 0x526C0165 [100.000000 -50.000000 -23.992500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7526C013, 14560, 0x526C0169, 100, -80, -23.9925, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Quiddity Rift */
-/* @teleloc 0x526C0169 [100.000000 -80.000000 -23.992500] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7526C013, 14560, 0x526C0169, 100, -80, -23.9925, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Quiddity Rift */
+/* @teleloc 0x526C0169 [100.000000 -80.000000 -23.992500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526C014, 14561, 0x526C017A, 120, -140, -23.9925, 0.62161, 0, 0, 0.783327,  True, '2005-02-09 10:00:00'); /* Quiddity Rift */
@@ -95,8 +95,8 @@ VALUES (0x7526C015, 14561, 0x526C0180, 120, -170, -23.9925, 1, 0, 0, 0,  True, '
 /* @teleloc 0x526C0180 [120.000000 -170.000000 -23.992500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7526C016, 14562, 0x526C0188, 140, -100, -23.9925, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Quiddity Rift */
-/* @teleloc 0x526C0188 [140.000000 -100.000000 -23.992500] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7526C016, 14562, 0x526C0188, 140, -100, -23.9925, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Quiddity Rift */
+/* @teleloc 0x526C0188 [140.000000 -100.000000 -23.992500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526C017, 14596, 0x526C0196, 149.998, -204.674, -23.5403, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Swirling Portal */
@@ -106,8 +106,8 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x7526C017, 0x7526C005, '2005-02-09 10:00:00') /* Lever (14565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7526C018, 14606, 0x526C0198, 150.161, -216.593, -23.995, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Portal Space */
-/* @teleloc 0x526C0198 [150.160995 -216.593002 -23.995001] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7526C018, 14606, 0x526C0198, 150.161, -216.593, -23.995, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Portal Space */
+/* @teleloc 0x526C0198 [150.160995 -216.593002 -23.995001] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526C019, 14547, 0x526C019F, 163.46, -190.101, -23.7459, 0.696707, 0, 0, -0.717356, False, '2005-02-09 10:00:00'); /* Zapper */
@@ -118,8 +118,8 @@ VALUES (0x7526C01A, 14565, 0x526C01A0, 155.957, -204.815, -23.995, -0.004204, 0,
 /* @teleloc 0x526C01A0 [155.957001 -204.815002 -23.995001] -0.004204 0.000000 0.000000 -0.999991 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7526C01B, 14562, 0x526C01A6, 170, -100, -23.9925, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Quiddity Rift */
-/* @teleloc 0x526C01A6 [170.000000 -100.000000 -23.992500] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7526C01B, 14562, 0x526C01A6, 170, -100, -23.9925, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Quiddity Rift */
+/* @teleloc 0x526C01A6 [170.000000 -100.000000 -23.992500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526C01C, 14547, 0x526C01A8, 170.166, -183.628, -23.8395, 0.015938, 0, 0, -0.999873, False, '2005-02-09 10:00:00'); /* Zapper */
@@ -221,12 +221,12 @@ VALUES (0x7526C033, 14799, 0x526C0228, 79.7834, -3.72387, -17.971, 0.001066, 0, 
 /* @teleloc 0x526C0228 [79.783401 -3.723870 -17.971001] 0.001066 0.000000 0.000000 0.999999 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7526C034, 14563, 0x526C0243, 90, -150, -17.9925, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Quiddity Rift */
-/* @teleloc 0x526C0243 [90.000000 -150.000000 -17.992500] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7526C034, 14563, 0x526C0243, 90, -150, -17.9925, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Quiddity Rift */
+/* @teleloc 0x526C0243 [90.000000 -150.000000 -17.992500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7526C035, 14563, 0x526C0247, 90, -179.072, -17.9925, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Quiddity Rift */
-/* @teleloc 0x526C0247 [90.000000 -179.072006 -17.992500] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7526C035, 14563, 0x526C0247, 90, -179.072, -17.9925, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Quiddity Rift */
+/* @teleloc 0x526C0247 [90.000000 -179.072006 -17.992500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526C036, 14562, 0x526C0261, 130, -40, -17.9925, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Quiddity Rift */
@@ -373,8 +373,8 @@ VALUES (0x7526C059, 14604, 0x526C03AE, 159.973, -110, -10.9384, 1, 0, 0, 0, Fals
 /* @teleloc 0x526C03AE [159.973007 -110.000000 -10.938400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7526C05A, 14561, 0x526C03BE, 160, -200, -8.03073, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Quiddity Rift */
-/* @teleloc 0x526C03BE [160.000000 -200.000000 -8.030730] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7526C05A, 14561, 0x526C03BE, 160, -200, -8.03073, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Quiddity Rift */
+/* @teleloc 0x526C03BE [160.000000 -200.000000 -8.030730] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526C05B, 14562, 0x526C03D9, 200, -60, -9.39035, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Quiddity Rift */
@@ -447,8 +447,8 @@ VALUES (0x7526C05D, 0x7526C000, '2005-02-09 10:00:00') /* Quiddity Rift (14563) 
      , (0x7526C05D, 0x7526C05B, '2005-02-09 10:00:00') /* Quiddity Rift (14562) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7526C05E, 14584, 0x526C0404, 99.905, -73.991, 0, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Return to Dereth */
-/* @teleloc 0x526C0404 [99.904999 -73.990997 0.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7526C05E, 14584, 0x526C0404, 99.905, -73.991, 0, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Return to Dereth */
+/* @teleloc 0x526C0404 [99.904999 -73.990997 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526C05F, 14600, 0x526C0406, 95.2583, -99.7719, 0.005, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Swirling Portal */

@@ -25,8 +25,8 @@ VALUES (0x75A48005, 22593, 0x5A480132, 90, -10, -11.989, 0.659983, 0, 0, 0.75128
 /* @teleloc 0x5A480132 [90.000000 -10.000000 -11.989000] 0.659983 0.000000 0.000000 0.751281 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75A48006, 22593, 0x5A480139, 90, -30, -11.989, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Tusker Guard */
-/* @teleloc 0x5A480139 [90.000000 -30.000000 -11.989000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75A48006, 22593, 0x5A480139, 90, -30, -11.989, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Tusker Guard */
+/* @teleloc 0x5A480139 [90.000000 -30.000000 -11.989000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75A48007,  1629, 0x5A48013B, 40, -60, -5.989, 0.714421, 0, 0, -0.699716,  True, '2005-02-09 10:00:00'); /* Tusker Guard */
@@ -117,8 +117,8 @@ VALUES (0x75A4801C,  1629, 0x5A48017D, 69.9539, -88.6095, -5.989, -0.004204, 0, 
 /* @teleloc 0x5A48017D [69.953903 -88.609497 -5.989000] -0.004204 0.000000 0.000000 0.999991 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75A4801D,  1629, 0x5A48017F, 69.9549, -98.7551, -5.989, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Tusker Guard */
-/* @teleloc 0x5A48017F [69.954903 -98.755096 -5.989000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75A4801D,  1629, 0x5A48017F, 69.9549, -98.7551, -5.989, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Tusker Guard */
+/* @teleloc 0x5A48017F [69.954903 -98.755096 -5.989000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75A4801E,  1629, 0x5A480182, 69.9467, -109.777, -5.989, -0.001326, 0, 0, -0.999999,  True, '2005-02-09 10:00:00'); /* Tusker Guard */

@@ -57,15 +57,15 @@ VALUES (0x702C000D,  7112, 0x02C0011B, 46.7857, -30.0758, 0.005, 0.68172, 0, 0, 
 /* @teleloc 0x02C0011B [46.785702 -30.075800 0.005000] 0.681720 0.000000 0.000000 0.731613 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702C000E,  7925, 0x02C0011D, 52.0524, -51.1907, 0, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 10 Min.) */
-/* @teleloc 0x02C0011D [52.052399 -51.190701 0.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x702C000E,  7925, 0x02C0011D, 52.0524, -51.1907, 0, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 10 Min.) */
+/* @teleloc 0x02C0011D [52.052399 -51.190701 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x702C000E, 0x702C0006, '2005-02-09 10:00:00') /* Sulthis Eye Stalk (8470) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702C000F,  7932, 0x02C0011D, 50.8075, -52.1129, 0, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 4 Min.) */
-/* @teleloc 0x02C0011D [50.807499 -52.112900 0.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x702C000F,  7932, 0x02C0011D, 50.8075, -52.1129, 0, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 4 Min.) */
+/* @teleloc 0x02C0011D [50.807499 -52.112900 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x702C000F, 0x702C0000, '2005-02-09 10:00:00') /* Dark Magus (7124) */

@@ -21,8 +21,8 @@ VALUES (0x7A3AD002, 0x7A3AD004, '2005-02-09 10:00:00') /* Essa Sclavus (2585) */
      , (0x7A3AD002, 0x7A3AD009, '2005-02-09 10:00:00') /* Sata Sclavus (2586) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A3AD003, 22805, 0xA3AD0000, 147.473, 59.3278, 44.005, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Runed Chest */
-/* @teleloc 0xA3AD0000 [147.473007 59.327801 44.005001] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7A3AD003, 22805, 0xA3AD0000, 147.473, 59.3278, 44.005, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Runed Chest */
+/* @teleloc 0xA3AD0000 [147.473007 59.327801 44.005001] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A3AD004,  2585, 0xA3AD0000, 145.386, 61.3783, 44.005, 0.051523, 0, 0, -0.998672,  True, '2005-02-09 10:00:00'); /* Essa Sclavus */

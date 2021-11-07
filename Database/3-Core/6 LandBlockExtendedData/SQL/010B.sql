@@ -1,8 +1,8 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x010B;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7010B003,  1919, 0x010B010E, 38.2525, -63.3111, -12, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Chest */
-/* @teleloc 0x010B010E [38.252499 -63.311100 -12.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7010B003,  1919, 0x010B010E, 38.2525, -63.3111, -12, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Chest */
+/* @teleloc 0x010B010E [38.252499 -63.311100 -12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7010B006,     6, 0x010B0147, 12.8753, -6.79121, -5.9923, -0.377043, 0, 0, -0.926196,  True, '2005-02-09 10:00:00'); /* Banderling Scout */
@@ -37,8 +37,8 @@ VALUES (0x7010B00F,     6, 0x010B0170, 60, 0, -5.9923, 0.707107, 0, 0, -0.707107
 /* @teleloc 0x010B0170 [60.000000 0.000000 -5.992300] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7010B010,   937, 0x010B0171, 60, -10, -5.9923, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Banderling Guard */
-/* @teleloc 0x010B0171 [60.000000 -10.000000 -5.992300] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7010B010,   937, 0x010B0171, 60, -10, -5.9923, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Banderling Guard */
+/* @teleloc 0x010B0171 [60.000000 -10.000000 -5.992300] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7010B011,  1925, 0x010B017D, 80.3339, -19.665, -6, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Chest */
@@ -73,8 +73,8 @@ VALUES (0x7010B01A,  5625, 0x010B0185, 80, -35.25, -6, 1, 0, 0, 0, False, '2005-
 /* @teleloc 0x010B0185 [80.000000 -35.250000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7010B01B,  3955, 0x010B0199, -1.72538, 0.1605, 0, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen (15 min.) */
-/* @teleloc 0x010B0199 [-1.725380 0.160500 0.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7010B01B,  3955, 0x010B0199, -1.72538, 0.1605, 0, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen (15 min.) */
+/* @teleloc 0x010B0199 [-1.725380 0.160500 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7010B01B, 0x7010B006, '2005-02-09 10:00:00') /* Banderling Scout (6) */
@@ -118,8 +118,8 @@ VALUES (0x7010B023,   937, 0x010B01CE, 50, -20, 6.0077, 1, 0, 0, 0,  True, '2005
 /* @teleloc 0x010B01CE [50.000000 -20.000000 6.007700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7010B024,   937, 0x010B01D7, 60, -30, 6.0077, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Banderling Guard */
-/* @teleloc 0x010B01D7 [60.000000 -30.000000 6.007700] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7010B024,   937, 0x010B01D7, 60, -30, 6.0077, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Banderling Guard */
+/* @teleloc 0x010B01D7 [60.000000 -30.000000 6.007700] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7010B025, 14427, 0x010B0100, 11.9488, -30.0243, -11.995, -0.749563, 0, 0, -0.661934,  True, '2005-02-09 10:00:00'); /* Hollow Minion */

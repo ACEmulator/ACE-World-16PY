@@ -61,8 +61,8 @@ VALUES (0x75A4500A, 19537, 0x5A450146, 39.6043, -79.95, 6.0085, -0.999997, 0, 0,
 /* @teleloc 0x5A450146 [39.604301 -79.949997 6.008500] -0.999997 0.000000 0.000000 0.002628 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75A4500B, 19537, 0x5A45019B, 10, -120, 12.0085, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Avalanche */
-/* @teleloc 0x5A45019B [10.000000 -120.000000 12.008500] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75A4500B, 19537, 0x5A45019B, 10, -120, 12.0085, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Avalanche */
+/* @teleloc 0x5A45019B [10.000000 -120.000000 12.008500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75A4500C, 19537, 0x5A4501B2, 10, -200, 12.0085, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Avalanche */

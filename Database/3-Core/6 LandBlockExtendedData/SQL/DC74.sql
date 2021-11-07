@@ -1,8 +1,8 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xDC74;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DC74015,  1919, 0xDC740000, 80.5072, 153.641, 48.1075, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Chest */
-/* @teleloc 0xDC740000 [80.507202 153.641006 48.107498] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7DC74015,  1919, 0xDC740000, 80.5072, 153.641, 48.1075, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Chest */
+/* @teleloc 0xDC740000 [80.507202 153.641006 48.107498] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC7401A,   231, 0xDC740000, 75.9369, 97.3206, 38.3493, -0.279875, 0, 0, -0.960036,  True, '2005-02-09 10:00:00'); /* Tumerok Priest */

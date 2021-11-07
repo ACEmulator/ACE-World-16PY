@@ -21,8 +21,8 @@ VALUES (0x7E822004,   720, 0xE822011B, 159.05, 103.175, 2.5, 0.707107, 0, 0, -0.
 /* @teleloc 0xE822011B [159.050003 103.175003 2.500000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E822005,   720, 0xE8220000, 156, 97.575, -0, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Sliding Door */
-/* @teleloc 0xE8220000 [156.000000 97.574997 -0.000000] 1.000000 0.000000 0.000000 0.000000 */
+VALUES (0x7E822005,   720, 0xE8220000, 156, 97.575, 0, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Sliding Door */
+/* @teleloc 0xE8220000 [156.000000 97.574997 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E822006,  8432, 0xE822010B, 82.0376, 67.0986, 24.505, -0.385242, 0, 0, 0.922816, False, '2005-02-09 10:00:00'); /* Vanten the Archmage */
@@ -45,8 +45,8 @@ VALUES (0x7E82200A,  8449, 0xE8220000, 157, 96.5, 2.9, -0.707107, 0, 0, -0.70710
 /* @teleloc 0xE8220000 [157.000000 96.500000 2.900000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E82200B,  8446, 0xE8220000, 95.5, 60.2, 25, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* The Magi's Refuge */
-/* @teleloc 0xE8220000 [95.500000 60.200001 25.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7E82200B,  8446, 0xE8220000, 95.5, 60.2, 25, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* The Magi's Refuge */
+/* @teleloc 0xE8220000 [95.500000 60.200001 25.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E82200C,  8452, 0xE8220000, 114.041, 145.466, 0.005, 0.909006, 0, 0, 0.416783, False, '2005-02-09 10:00:00'); /* Kryst */

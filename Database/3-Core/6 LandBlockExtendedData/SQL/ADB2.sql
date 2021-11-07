@@ -1,8 +1,8 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xADB2;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7ADB2000,   412, 0xADB20000, 12, 86.52, 30, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0xADB20000 [12.000000 86.519997 30.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7ADB2000,   412, 0xADB20000, 12, 86.52, 30, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0xADB20000 [12.000000 86.519997 30.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADB2001,  1390, 0xADB20102, 9.12858, 84.6581, 29.205, -0.99888, 0, 0, -0.047325, False, '2005-02-09 10:00:00'); /* Peddler */

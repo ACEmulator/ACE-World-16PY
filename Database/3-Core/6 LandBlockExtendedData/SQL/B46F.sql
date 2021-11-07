@@ -1,16 +1,16 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xB46F;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B46F000,  6077, 0xB46F0000, 124, 155, 22.005, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Oak Target Drudge */
-/* @teleloc 0xB46F0000 [124.000000 155.000000 22.004999] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7B46F000,  6077, 0xB46F0000, 124, 155, 22.005, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Oak Target Drudge */
+/* @teleloc 0xB46F0000 [124.000000 155.000000 22.004999] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B46F001,  6077, 0xB46F0000, 129, 155, 22.005, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Oak Target Drudge */
-/* @teleloc 0xB46F0000 [129.000000 155.000000 22.004999] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7B46F001,  6077, 0xB46F0000, 129, 155, 22.005, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Oak Target Drudge */
+/* @teleloc 0xB46F0000 [129.000000 155.000000 22.004999] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B46F002,  6077, 0xB46F0000, 134, 155, 22.005, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Oak Target Drudge */
-/* @teleloc 0xB46F0000 [134.000000 155.000000 22.004999] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7B46F002,  6077, 0xB46F0000, 134, 155, 22.005, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Oak Target Drudge */
+/* @teleloc 0xB46F0000 [134.000000 155.000000 22.004999] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B46F003,  7923, 0xB46F0000, 140.652, 129.139, 22.005, -0.741088, 0, 0, -0.671408, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */

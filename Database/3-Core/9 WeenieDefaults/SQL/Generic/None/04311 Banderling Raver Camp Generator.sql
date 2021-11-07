@@ -28,4 +28,4 @@ INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_C
 VALUES (4311, 0.5, 183, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 4, 0.5, 0, 0.707107, 0, 0, -0.707107) /* Generate Banderling Raver (183) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (4311, 0.8, 183, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -3, -1, 0, 0.766044, 0, 0, -0.642788) /* Generate Banderling Raver (183) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (4311, 0.9, 183, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 1, 0, 0.707107, 0, 0, -0.707107) /* Generate Banderling Raver (183) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (4311, 1, 183, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.2, -3.6, 0, -0, 0, -0, -1) /* Generate Banderling Raver (183) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+     , (4311, 1, 183, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.2, -3.6, 0, 0, 0, 0, -1) /* Generate Banderling Raver (183) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

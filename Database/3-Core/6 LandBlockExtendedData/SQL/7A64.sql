@@ -1,24 +1,24 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x7A64;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77A64002,  4454, 0x7A640106, 60.0215, 111.856, 0.03, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x7A640106 [60.021500 111.856003 0.030000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x77A64002,  4454, 0x7A640106, 60.0215, 111.856, 0.03, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x7A640106 [60.021500 111.856003 0.030000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x77A64002, 0x77A64003, '2005-02-09 10:00:00') /* Button (269) */
      , (0x77A64002, 0x77A64007, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77A64003,   269, 0x7A640000, 38.82, 152.101, 16.5, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Button */
-/* @teleloc 0x7A640000 [38.820000 152.100998 16.500000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x77A64003,   269, 0x7A640000, 38.82, 152.101, 16.5, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Button */
+/* @teleloc 0x7A640000 [38.820000 152.100998 16.500000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77A64004,    16, 0x7A640102, 59.9244, 92.123, -6.3375, -0.998651, 0, 0, -0.051932,  True, '2005-02-09 10:00:00'); /* Undead */
 /* @teleloc 0x7A640102 [59.924400 92.123001 -6.337500] -0.998651 0.000000 0.000000 -0.051932 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77A64005,  4846, 0x7A640102, 59.9562, 90.311, -6.345, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Sarcophagus */
-/* @teleloc 0x7A640102 [59.956200 90.310997 -6.345000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x77A64005,  4846, 0x7A640102, 59.9562, 90.311, -6.345, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Sarcophagus */
+/* @teleloc 0x7A640102 [59.956200 90.310997 -6.345000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77A64006,  3597, 0x7A640000, 83.818, 155.975, -0.895, 0.584563, 0, 0, -0.811348, False, '2005-02-09 10:00:00'); /* Linkable Item Scatter Generator */
@@ -31,8 +31,8 @@ VALUES (0x77A64006, 0x77A64010, '2005-02-09 10:00:00') /* Fish (263) */
      , (0x77A64006, 0x77A64013, '2005-02-09 10:00:00') /* Fish (263) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77A64007,  2131, 0x7A640102, 60.1113, 100.182, -6.34, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
-/* @teleloc 0x7A640102 [60.111301 100.181999 -6.340000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x77A64007,  2131, 0x7A640102, 60.1113, 100.182, -6.34, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
+/* @teleloc 0x7A640102 [60.111301 100.181999 -6.340000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77A64008,  4179, 0x7A640100, 37.6915, 156.016, 0.005, -0.822627, 0, 0, -0.568582, False, '2005-02-09 10:00:00'); /* Bonfire */

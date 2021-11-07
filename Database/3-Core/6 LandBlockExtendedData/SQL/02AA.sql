@@ -17,8 +17,8 @@ VALUES (0x702AA003,  1610, 0x02AA010F, 211.289, -111.415, 0.005, 0.731648, 0, 0,
 /* @teleloc 0x02AA010F [211.289001 -111.415001 0.005000] 0.731648 0.000000 0.000000 -0.681683 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702AA004,  8501, 0x02AA0119, 210, -160, 0.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Southern Mt. Esper */
-/* @teleloc 0x02AA0119 [210.000000 -160.000000 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x702AA004,  8501, 0x02AA0119, 210, -160, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Southern Mt. Esper */
+/* @teleloc 0x02AA0119 [210.000000 -160.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702AA005,  1102, 0x02AA011A, 220, -30, 0.005, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Bandit Castle Portal */
@@ -85,8 +85,8 @@ VALUES (0x702AA014,  1610, 0x02AA015D, 308.669, -112.01, 0.005, 0.674319, 0, 0, 
 /* @teleloc 0x02AA015D [308.669006 -112.010002 0.005000] 0.674319 0.000000 0.000000 0.738441 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702AA015,  2328, 0x02AA0167, 310, -160, 0.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Black Hill */
-/* @teleloc 0x02AA0167 [310.000000 -160.000000 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x702AA015,  2328, 0x02AA0167, 310, -160, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Black Hill */
+/* @teleloc 0x02AA0167 [310.000000 -160.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702AA016,  1610, 0x02AA0189, 252.262, -190.263, 12.005, -0.337751, 0, 0, 0.941235,  True, '2005-02-09 10:00:00'); /* Drudge Ravener */

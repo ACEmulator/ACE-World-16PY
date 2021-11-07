@@ -41,8 +41,8 @@ VALUES (0x7634900A,  7091, 0x6349015D, 38.7735, -48.4615, -5.995, -0.98995, 0, 0
 /* @teleloc 0x6349015D [38.773499 -48.461498 -5.995000] -0.989950 0.000000 0.000000 0.141415 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7634900B, 22518, 0x63490162, 40, -70, -5.9857, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Devastator */
-/* @teleloc 0x63490162 [40.000000 -70.000000 -5.985700] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7634900B, 22518, 0x63490162, 40, -70, -5.9857, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Devastator */
+/* @teleloc 0x63490162 [40.000000 -70.000000 -5.985700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7634900C, 23480, 0x6349016A, 49.9145, -13.953, -5.995, -0.021242, 0, 0, -0.999774,  True, '2005-02-09 10:00:00'); /* Drudge Bloodletter */
@@ -73,8 +73,8 @@ VALUES (0x76349012, 23480, 0x6349017C, 45.2976, -70.4262, -5.995, 0.999834, 0, 0
 /* @teleloc 0x6349017C [45.297600 -70.426201 -5.995000] 0.999834 0.000000 0.000000 -0.018229 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76349013, 22518, 0x6349017E, 50, -70, -5.9857, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Devastator */
-/* @teleloc 0x6349017E [50.000000 -70.000000 -5.985700] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x76349013, 22518, 0x6349017E, 50, -70, -5.9857, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Devastator */
+/* @teleloc 0x6349017E [50.000000 -70.000000 -5.985700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76349014, 23480, 0x63490183, 55.6371, -11.0762, -5.995, 0.332011, 0, 0, -0.943275,  True, '2005-02-09 10:00:00'); /* Drudge Bloodletter */
@@ -97,8 +97,8 @@ VALUES (0x76349018, 23480, 0x63490190, 55.0495, -70.782, -5.995, 0.999834, 0, 0,
 /* @teleloc 0x63490190 [55.049500 -70.781998 -5.995000] 0.999834 0.000000 0.000000 -0.018229 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76349019, 22518, 0x63490192, 60, -70, -5.9857, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Devastator */
-/* @teleloc 0x63490192 [60.000000 -70.000000 -5.985700] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x76349019, 22518, 0x63490192, 60, -70, -5.9857, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Devastator */
+/* @teleloc 0x63490192 [60.000000 -70.000000 -5.985700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7634901A,  7091, 0x63490194, 67.2126, -12.4001, -5.995, -0.933031, 0, 0, -0.359797,  True, '2005-02-09 10:00:00'); /* Ascendant Drudge */

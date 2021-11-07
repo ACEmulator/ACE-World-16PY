@@ -66,5 +66,5 @@ VALUES (0x7F41800E,  8532, 0xF4180000, 36.003, 79.267, 197, 1, 0, 0, 0, False, '
 /* @teleloc 0xF4180000 [36.002998 79.266998 197.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F41800F,  9003, 0xF4180000, 36, 108, 160.005, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Thistledown Monument Event Gen */
-/* @teleloc 0xF4180000 [36.000000 108.000000 160.005005] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7F41800F,  9003, 0xF4180000, 36, 108, 160.005, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Thistledown Monument Event Gen */
+/* @teleloc 0xF4180000 [36.000000 108.000000 160.005005] 0.000000 0.000000 0.000000 -1.000000 */

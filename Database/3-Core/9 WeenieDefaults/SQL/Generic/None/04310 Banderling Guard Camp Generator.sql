@@ -28,5 +28,5 @@ INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_C
 VALUES (4310, 0.35, 937, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 4, 2.5, 0, 0.707107, 0, 0, -0.707107) /* Generate Banderling Guard (937) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (4310, 0.65, 937, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -2, 0, 0.92388, 0, 0, -0.382684) /* Generate Banderling Guard (937) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (4310, 0.9, 6, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 5.4, 1, 0, 0.707107, 0, 0, -0.707107) /* Generate Banderling Scout (6) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (4310, 0.95, 937, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.2, -3.6, 0, -0, 0, -0, -1) /* Generate Banderling Guard (937) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (4310, 0.95, 937, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.2, -3.6, 0, 0, 0, 0, -1) /* Generate Banderling Guard (937) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (4310, 1, 4179, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0.1, 0.2, 0, 0.999048, 0, 0, -0.043619) /* Generate Bonfire (4179) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

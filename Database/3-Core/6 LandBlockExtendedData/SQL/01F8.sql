@@ -5,8 +5,8 @@ VALUES (0x701F8000, 24032, 0x01F80103, 110.896, -50.04, -5.992, 0, 0, 0, -1,  Tr
 /* @teleloc 0x01F80103 [110.896004 -50.040001 -5.992000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701F8001, 24032, 0x01F8011A, 130, -30, -5.992, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Royal Mite Squire */
-/* @teleloc 0x01F8011A [130.000000 -30.000000 -5.992000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701F8001, 24032, 0x01F8011A, 130, -30, -5.992, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Royal Mite Squire */
+/* @teleloc 0x01F8011A [130.000000 -30.000000 -5.992000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F8002, 24032, 0x01F80121, 127.365, -48.9969, -5.992, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Royal Mite Squire */
@@ -49,8 +49,8 @@ VALUES (0x701F800B, 24032, 0x01F80154, 158.554, -31.4136, -5.945, 1, 0, 0, 0,  T
 /* @teleloc 0x01F80154 [158.554001 -31.413601 -5.945000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701F800C, 22520, 0x01F80168, 178.141, -28.1007, -5.9879, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Tusker Redeemer */
-/* @teleloc 0x01F80168 [178.141006 -28.100700 -5.987900] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x701F800C, 22520, 0x01F80168, 178.141, -28.1007, -5.9879, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Tusker Redeemer */
+/* @teleloc 0x01F80168 [178.141006 -28.100700 -5.987900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F800D, 24032, 0x01F80173, 180, -70, -5.992, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Royal Mite Squire */
@@ -93,16 +93,16 @@ VALUES (0x701F8017, 24030, 0x01F801BA, 229.091, -121.092, -5.991, -0.707107, 0, 
 /* @teleloc 0x01F801BA [229.091003 -121.092003 -5.991000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701F8018, 24030, 0x01F801BA, 229.226, -118.472, -5.991, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Royal Mite Matron */
-/* @teleloc 0x01F801BA [229.225998 -118.472000 -5.991000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701F8018, 24030, 0x01F801BA, 229.226, -118.472, -5.991, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Royal Mite Matron */
+/* @teleloc 0x01F801BA [229.225998 -118.472000 -5.991000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F8019, 24029, 0x01F801BA, 230.04, -117.459, -5.99, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Mite Warrior Queen */
 /* @teleloc 0x01F801BA [230.039993 -117.459000 -5.990000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701F801A,  2031, 0x01F801BA, 231.274, -120.043, -5.969, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Branith's Staff */
-/* @teleloc 0x01F801BA [231.274002 -120.042999 -5.969000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701F801A,  2031, 0x01F801BA, 231.274, -120.043, -5.969, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Branith's Staff */
+/* @teleloc 0x01F801BA [231.274002 -120.042999 -5.969000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F801B,  1094, 0x01F801C0, 1.4461, -91.3579, 0.328929, 0.33843, 0, 0, -0.940992, False, '2005-02-09 10:00:00'); /* Surface */
@@ -201,8 +201,8 @@ VALUES (0x701F803A, 24032, 0x01F8028D, 82.3674, -69.1975, 0.008, 0.707107, 0, 0,
 /* @teleloc 0x01F8028D [82.367401 -69.197502 0.008000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701F803C, 24031, 0x01F80290, 80, -80, 0.007, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Royal Mite Sentry */
-/* @teleloc 0x01F80290 [80.000000 -80.000000 0.007000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701F803C, 24031, 0x01F80290, 80, -80, 0.007, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Royal Mite Sentry */
+/* @teleloc 0x01F80290 [80.000000 -80.000000 0.007000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F803D,   217, 0x01F80299, 80.575, -100.441, 0.012, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Gold Phyntos Wasp */
@@ -229,8 +229,8 @@ VALUES (0x701F8042, 24031, 0x01F802B1, 90, -40, 0.007, 1, 0, 0, 0,  True, '2005-
 /* @teleloc 0x01F802B1 [90.000000 -40.000000 0.007000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701F8043, 24032, 0x01F802E1, 100, -80, 0.008, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Royal Mite Squire */
-/* @teleloc 0x01F802E1 [100.000000 -80.000000 0.008000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701F8043, 24032, 0x01F802E1, 100, -80, 0.008, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Royal Mite Squire */
+/* @teleloc 0x01F802E1 [100.000000 -80.000000 0.008000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F8044,   217, 0x01F802E9, 97.619, -100.963, 0.012, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Gold Phyntos Wasp */
@@ -345,8 +345,8 @@ VALUES (0x701F805F, 24032, 0x01F803DD, 10, -100, 12.008, 0.707107, 0, 0, -0.7071
 /* @teleloc 0x01F803DD [10.000000 -100.000000 12.008000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701F8060, 24032, 0x01F803F1, 21.2091, -90.7192, 12.008, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Royal Mite Squire */
-/* @teleloc 0x01F803F1 [21.209101 -90.719200 12.008000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701F8060, 24032, 0x01F803F1, 21.2091, -90.7192, 12.008, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Royal Mite Squire */
+/* @teleloc 0x01F803F1 [21.209101 -90.719200 12.008000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F8061, 24032, 0x01F80416, 41.294, -51.017, 12.008, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Royal Mite Squire */
@@ -377,8 +377,8 @@ VALUES (0x701F8068,  4024, 0x01F80433, 50.7624, -62.0731, 12, 1, 0, 0, 0, False,
 /* @teleloc 0x01F80433 [50.762402 -62.073101 12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701F8069, 24031, 0x01F80445, 58.3549, -67.8333, 12.1429, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Royal Mite Sentry */
-/* @teleloc 0x01F80445 [58.354900 -67.833298 12.142900] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701F8069, 24031, 0x01F80445, 58.3549, -67.8333, 12.1429, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Royal Mite Sentry */
+/* @teleloc 0x01F80445 [58.354900 -67.833298 12.142900] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F806A, 24031, 0x01F80446, 56.5939, -77.5925, 12.2836, -0.992797, 0, 0, -0.119812,  True, '2005-02-09 10:00:00'); /* Royal Mite Sentry */

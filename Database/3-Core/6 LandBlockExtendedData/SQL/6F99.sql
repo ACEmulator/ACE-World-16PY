@@ -59,7 +59,7 @@ VALUES (0x76F99009, 23483, 0x6F990000, 110.756, 131.274, 240.005, -0.998734, 0, 
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76F9900A,  7112, 0x6F990000, 101.73, 130.795, 240.005, -0.999094, 0, 0, 0.042559,  True, '2005-02-09 10:00:00'); /* Chomu Sclavus */
-/* @teleloc 0x6F990000 [101.730003 130.794998 240.005005] -0.999094 0.000000 0.000000 0.042558 */
+/* @teleloc 0x6F990000 [101.730003 130.794998 240.005005] -0.999094 0.000000 0.000000 0.042559 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76F9900B,  7112, 0x6F990000, 121.588, 112.419, 237.845, -0.311198, 0, 0, 0.950345,  True, '2005-02-09 10:00:00'); /* Chomu Sclavus */

@@ -30,7 +30,7 @@ VALUES (0x7A460006, 13096, 0xA4600000, 134.062, 43.2115, 33.9421, 0.729073, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A460007, 14253, 0xA4600000, 91.1765, 79.8182, 26.9515, 0.999966, 0, 0, 0.008276, False, '2005-02-09 10:00:00'); /* Arrak Portal */
-/* @teleloc 0xA4600000 [91.176498 79.818199 26.951500] 0.999966 0.000000 0.000000 0.008275 */
+/* @teleloc 0xA4600000 [91.176498 79.818199 26.951500] 0.999966 0.000000 0.000000 0.008276 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A460008, 14663, 0xA4600000, 134.978, 51.9315, 34.1737, 0.701529, 0, 0, -0.712641, False, '2005-02-09 10:00:00'); /* Sand Kings Cottages Portal */

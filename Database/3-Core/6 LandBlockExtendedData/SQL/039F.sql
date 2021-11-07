@@ -1,8 +1,8 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x039F;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7039F000, 12295, 0x039F0102, 130, -20, -47.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Surface Portal */
-/* @teleloc 0x039F0102 [130.000000 -20.000000 -47.994999] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7039F000, 12295, 0x039F0102, 130, -20, -47.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Surface Portal */
+/* @teleloc 0x039F0102 [130.000000 -20.000000 -47.994999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7039F001, 10810, 0x039F011B, 148.352, -61.7624, -47.945, 0.050842, 0, 0, 0.998707,  True, '2005-02-09 10:00:00'); /* Rampager */
@@ -96,8 +96,8 @@ VALUES (0x7039F012,   237, 0x039F014A, 160.335, -68.8548, -41.971, 0.753975, 0, 
 /* @teleloc 0x039F014A [160.335007 -68.854797 -41.971001] 0.753975 0.000000 0.000000 0.656903 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7039F013, 12266, 0x039F014B, 160, -80, -41.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Singular Obsidian Pillar */
-/* @teleloc 0x039F014B [160.000000 -80.000000 -41.994999] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7039F013, 12266, 0x039F014B, 160, -80, -41.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Singular Obsidian Pillar */
+/* @teleloc 0x039F014B [160.000000 -80.000000 -41.994999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7039F014, 10810, 0x039F014B, 163.373, -83.5101, -41.9868, 0.947651, 0, 0, 0.319309,  True, '2005-02-09 10:00:00'); /* Rampager */
@@ -116,8 +116,8 @@ VALUES (0x7039F017,  5489, 0x039F028E, 210, -320, -5.995, 1, 0, 0, 0, False, '20
 /* @teleloc 0x039F028E [210.000000 -320.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7039F018,  5489, 0x039F0294, 210, -330, -5.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* "Mag-Ma!" */
-/* @teleloc 0x039F0294 [210.000000 -330.000000 -5.995000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7039F018,  5489, 0x039F0294, 210, -330, -5.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* "Mag-Ma!" */
+/* @teleloc 0x039F0294 [210.000000 -330.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7039F019,  5489, 0x039F0295, 220, -320, -5.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* "Mag-Ma!" */
@@ -288,8 +288,8 @@ VALUES (0x7039F042,   238, 0x039F02DC, 178.267, -350.436, 0.029, 0.766402, 0, 0,
 /* @teleloc 0x039F02DC [178.266998 -350.436005 0.029000] 0.766402 0.000000 0.000000 0.642361 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7039F043,  7924, 0x039F02E4, 220, -330, 0.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
-/* @teleloc 0x039F02E4 [220.000000 -330.000000 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7039F043,  7924, 0x039F02E4, 220, -330, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
+/* @teleloc 0x039F02E4 [220.000000 -330.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7039F043, 0x7039F01B, '2005-02-09 10:00:00') /* Virindi Master (237) */

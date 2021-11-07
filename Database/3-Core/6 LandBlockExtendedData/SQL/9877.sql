@@ -19,7 +19,7 @@ VALUES (0x79877002,  1759, 0x98770000, 109.414, 43.1828, 65.3103, 0.283296, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79877003,  1760, 0x98770000, 112.167, 35.9109, 66.7039, -0.998317, 0, 0, 0.057993,  True, '2005-02-09 10:00:00'); /* Skeleton Warrior */
-/* @teleloc 0x98770000 [112.167000 35.910900 66.703903] -0.998317 0.000000 0.000000 0.057992 */
+/* @teleloc 0x98770000 [112.167000 35.910900 66.703903] -0.998317 0.000000 0.000000 0.057993 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79877004,  4162, 0x98770000, 112.542, 125.408, 31.491, -0.958868, 0, 0, -0.283851, False, '2005-02-09 10:00:00'); /* Dungeon Binar Portal */

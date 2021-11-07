@@ -85,8 +85,8 @@ VALUES (0x70289014, 11695, 0x0289014A, 72.908, -120.083, -53.97, 0.707107, 0, 0,
 /* @teleloc 0x0289014A [72.907997 -120.083000 -53.970001] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70289015,   214, 0x02890162, 90.093, -137.059, -53.995, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Olthoi Soldier */
-/* @teleloc 0x02890162 [90.093002 -137.059006 -53.994999] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x70289015,   214, 0x02890162, 90.093, -137.059, -53.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Olthoi Soldier */
+/* @teleloc 0x02890162 [90.093002 -137.059006 -53.994999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70289016,   214, 0x02890163, 96.892, -80.1951, -53.995, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Olthoi Soldier */
@@ -101,8 +101,8 @@ VALUES (0x70289018,   214, 0x0289016F, 110.23, -122.904, -53.965, 0, 0, 0, -1,  
 /* @teleloc 0x0289016F [110.230003 -122.903999 -53.965000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70289019,  5627, 0x02890175, 110, -135.141, -53.995, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x02890175 [110.000000 -135.141006 -53.994999] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x70289019,  5627, 0x02890175, 110, -135.141, -53.995, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x02890175 [110.000000 -135.141006 -53.994999] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7028901A,   214, 0x02890175, 110.042, -137.1, -53.9584, -0.999955, 0, 0, 0.009507,  True, '2005-02-09 10:00:00'); /* Olthoi Soldier */
@@ -321,12 +321,12 @@ VALUES (0x7028904F,   214, 0x02890270, 103.202, -70, -35.995, -0.707107, 0, 0, 0
 /* @teleloc 0x02890270 [103.202003 -70.000000 -35.994999] -0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70289050,  5627, 0x02890278, 110, -55.141, -35.995, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x02890278 [110.000000 -55.140999 -35.994999] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x70289050,  5627, 0x02890278, 110, -55.141, -35.995, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x02890278 [110.000000 -55.140999 -35.994999] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70289051,   214, 0x02890278, 110.016, -56.9749, -35.995, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Olthoi Soldier */
-/* @teleloc 0x02890278 [110.015999 -56.974899 -35.994999] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x70289051,   214, 0x02890278, 110.016, -56.9749, -35.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Olthoi Soldier */
+/* @teleloc 0x02890278 [110.015999 -56.974899 -35.994999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70289052,   214, 0x02890287, 119.597, -82.7563, -35.995, 0.75187, 0, 0, -0.659311,  True, '2005-02-09 10:00:00'); /* Olthoi Soldier */
