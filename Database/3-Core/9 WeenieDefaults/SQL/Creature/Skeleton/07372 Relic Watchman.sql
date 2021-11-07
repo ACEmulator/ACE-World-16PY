@@ -84,7 +84,7 @@ VALUES (7372,   1, 0x02000409) /* Setup */
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7372, 12, 0xB8EB000C, 47, 95, 36, 0.92388, 0, 0, -0.382684) /* PortalSummonLoc */
-/* @teleloc 0xB8EB000C [47.000000 95.000000 36.000000] 0.923880 0.000000 0.000000 -0.382683 */;
+/* @teleloc 0xB8EB000C [47.000000 95.000000 36.000000] 0.923880 0.000000 0.000000 -0.382684 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7372,   1, 320, 0, 0) /* Strength */

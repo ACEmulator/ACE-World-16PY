@@ -309,8 +309,8 @@ VALUES (0x75A4A04C, 22602, 0x5A4A0200, 150.665, -132.049, -17.9868, -0.900034, 0
 /* @teleloc 0x5A4A0200 [150.664993 -132.048996 -17.986799] -0.900034 0.000000 0.000000 0.435819 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75A4A04D,  7184, 0x5A4A020E, 70, -130, -11.9868, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Silver Tusker */
-/* @teleloc 0x5A4A020E [70.000000 -130.000000 -11.986800] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75A4A04D,  7184, 0x5A4A020E, 70, -130, -11.9868, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Silver Tusker */
+/* @teleloc 0x5A4A020E [70.000000 -130.000000 -11.986800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75A4A04E,  7184, 0x5A4A0213, 70, -150, -11.9868, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Silver Tusker */
@@ -341,8 +341,8 @@ VALUES (0x75A4A054,  7184, 0x5A4A0219, 107.924, -132.883, -11.9868, -0.292466, 0
 /* @teleloc 0x5A4A0219 [107.924004 -132.882996 -11.986800] -0.292466 0.000000 0.000000 -0.956276 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75A4A055,  7184, 0x5A4A021A, 110, -150, -11.9868, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Silver Tusker */
-/* @teleloc 0x5A4A021A [110.000000 -150.000000 -11.986800] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75A4A055,  7184, 0x5A4A021A, 110, -150, -11.9868, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Silver Tusker */
+/* @teleloc 0x5A4A021A [110.000000 -150.000000 -11.986800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75A4A056,  7184, 0x5A4A021A, 112.362, -148.167, -11.9868, 0.886859, 0, 0, -0.46204,  True, '2005-02-09 10:00:00'); /* Silver Tusker */

@@ -9,8 +9,8 @@ VALUES (0x71DB6001, 10933, 0x1DB60000, 187.295, 82.6631, 127.753, 0.999805, 0, 0
 /* @teleloc 0x1DB60000 [187.294998 82.663101 127.752998] 0.999805 0.000000 0.000000 -0.019754 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71DB6002, 11110, 0x1DB60106, 174.332, 128.681, 120.005, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Tumerok Leader Local Gen */
-/* @teleloc 0x1DB60106 [174.332001 128.681000 120.004997] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x71DB6002, 11110, 0x1DB60106, 174.332, 128.681, 120.005, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Tumerok Leader Local Gen */
+/* @teleloc 0x1DB60106 [174.332001 128.681000 120.004997] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71DB6003, 11406, 0x1DB60000, 76.6208, 134.649, 90.006, -0.659517, 0, 0, -0.75169,  True, '2005-02-09 10:00:00'); /* Aun Firanauri the Gate Keeper */
@@ -97,8 +97,8 @@ VALUES (0x71DB6017, 11111, 0x1DB60106, 174.37, 131.272, 120, -0.707107, 0, 0, -0
 /* @teleloc 0x1DB60106 [174.369995 131.272003 120.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71DB6018, 11112, 0x1DB60106, 186.221, 129.216, 120, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Tumerok Leader War Gen */
-/* @teleloc 0x1DB60106 [186.220993 129.216003 120.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x71DB6018, 11112, 0x1DB60106, 186.221, 129.216, 120, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Tumerok Leader War Gen */
+/* @teleloc 0x1DB60106 [186.220993 129.216003 120.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71DB6019, 11940, 0x1DB60000, 110.587, 103.21, 120.006, -0.852747, 0, 0, -0.522325,  True, '2005-02-09 10:00:00'); /* Aun Town Crier */

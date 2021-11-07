@@ -198,8 +198,8 @@ VALUES (0x7001D026, 29344, 0x001D0257, 378.555, -317.559, 12.005, 0.892961, 0, 0
 /* @teleloc 0x001D0257 [378.554993 -317.558990 12.005000] 0.892961 0.000000 0.000000 0.450134 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001D027,  7923, 0x001D0268, 50, -570, 18.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
-/* @teleloc 0x001D0268 [50.000000 -570.000000 18.004999] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7001D027,  7923, 0x001D0268, 50, -570, 18.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
+/* @teleloc 0x001D0268 [50.000000 -570.000000 18.004999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7001D027, 0x7001D00B, '2005-02-09 10:00:00') /* Drudge Prowler (29341) */
@@ -257,9 +257,9 @@ VALUES (0x7001D032, 29344, 0x001D02CF, 140, -560.781, 18.005, 1, 0, 0, 0,  True,
 /* @teleloc 0x001D02CF [140.000000 -560.781006 18.004999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001D033, 29344, 0x001D02D5, 150.896, -539.165, 18.005, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
-/* @teleloc 0x001D02D5 [150.895996 -539.164978 18.004999] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7001D033, 29344, 0x001D02D5, 150.896, -539.165, 18.005, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
+/* @teleloc 0x001D02D5 [150.895996 -539.164978 18.004999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001D034, 29344, 0x001D02D9, 161.136, -530.78, 18.005, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
-/* @teleloc 0x001D02D9 [161.136002 -530.780029 18.004999] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7001D034, 29344, 0x001D02D9, 161.136, -530.78, 18.005, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
+/* @teleloc 0x001D02D9 [161.136002 -530.780029 18.004999] 1.000000 0.000000 0.000000 0.000000 */

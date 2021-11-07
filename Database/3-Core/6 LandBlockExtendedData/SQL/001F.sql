@@ -145,8 +145,8 @@ VALUES (0x7001F023, 28640, 0x001F0263, 335.803, -446.43, -17.995, 0.998619, 0, 0
 /* @teleloc 0x001F0263 [335.803009 -446.429993 -17.995001] 0.998619 0.000000 0.000000 0.052538 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7001F024, 29497, 0x001F0284, 110, -256, 0.143, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Corcima Castle Central Ward */
-/* @teleloc 0x001F0284 [110.000000 -256.000000 0.143000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7001F024, 29497, 0x001F0284, 110, -256, 0.143, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Corcima Castle Central Ward */
+/* @teleloc 0x001F0284 [110.000000 -256.000000 0.143000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001F025,  7923, 0x001F0286, 120, -253, 0.005, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */

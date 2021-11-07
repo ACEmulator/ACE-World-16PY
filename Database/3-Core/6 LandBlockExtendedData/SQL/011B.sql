@@ -98,12 +98,12 @@ VALUES (0x7011B00B, 0x7011B008, '2005-02-09 10:00:00') /* Flamma (8405) */
      , (0x7011B00B, 0x7011B053, '2005-02-09 10:00:00') /* Nalif Zefir (7129) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7011B00C,  6396, 0x011B0145, 80, -40, -65.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Surface Portal */
-/* @teleloc 0x011B0145 [80.000000 -40.000000 -65.995003] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7011B00C,  6396, 0x011B0145, 80, -40, -65.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Surface Portal */
+/* @teleloc 0x011B0145 [80.000000 -40.000000 -65.995003] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7011B00D,   278, 0x011B0147, 80, -44.75, -66, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x011B0147 [80.000000 -44.750000 -66.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7011B00D,   278, 0x011B0147, 80, -44.75, -66, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x011B0147 [80.000000 -44.750000 -66.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7011B00E,   278, 0x011B014D, 80, -55.25, -66, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
@@ -121,8 +121,8 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x7011B010, 0x7011B012, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7011B011,  1947, 0x011B015A, 53.9251, -54.1731, -60, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Chest */
-/* @teleloc 0x011B015A [53.925098 -54.173100 -60.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7011B011,  1947, 0x011B015A, 53.9251, -54.1731, -60, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Chest */
+/* @teleloc 0x011B015A [53.925098 -54.173100 -60.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7011B012,  2131, 0x011B015B, 52.9239, -52.775, -59.995, 0.350679, 0, 0, -0.936496,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
@@ -265,8 +265,8 @@ VALUES (0x7011B030,  7129, 0x011B01B7, 16.8862, -20.179, -29.985, -0.751638, 0, 
 /* @teleloc 0x011B01B7 [16.886200 -20.179001 -29.985001] -0.751638 0.000000 0.000000 0.659576 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7011B031,  6396, 0x011B01B8, 30, -10, -29.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Surface Portal */
-/* @teleloc 0x011B01B8 [30.000000 -10.000000 -29.995001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7011B031,  6396, 0x011B01B8, 30, -10, -29.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Surface Portal */
+/* @teleloc 0x011B01B8 [30.000000 -10.000000 -29.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7011B032,  7129, 0x011B01BD, 40.1564, -27.3318, -29.985, -0.013627, 0, 0, -0.999907,  True, '2005-02-09 10:00:00'); /* Nalif Zefir */

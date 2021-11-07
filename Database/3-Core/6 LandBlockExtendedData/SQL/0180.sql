@@ -97,12 +97,12 @@ VALUES (0x70180017, 24497, 0x0180013A, 57.9951, -71.9786, -11.99, 0.710211, 0, 0
 /* @teleloc 0x0180013A [57.995098 -71.978600 -11.990000] 0.710211 0.000000 0.000000 -0.703989 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70180018, 27562, 0x0180013A, 60, -75, -11.995, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x0180013A [60.000000 -75.000000 -11.995000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x70180018, 27562, 0x0180013A, 60, -75, -11.995, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x0180013A [60.000000 -75.000000 -11.995000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70180019, 27562, 0x0180013A, 60, -75, -11.995, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x0180013A [60.000000 -75.000000 -11.995000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x70180019, 27562, 0x0180013A, 60, -75, -11.995, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x0180013A [60.000000 -75.000000 -11.995000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7018001A, 27562, 0x0180013F, 75, -70, -11.995, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
@@ -318,8 +318,8 @@ VALUES (0x7018003C, 0x7018000F, '2005-02-09 10:00:00') /* Tiatus Raider (8137) *
      , (0x7018003C, 0x70180030, '2005-02-09 10:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7018003D, 28103, 0x0180019F, 39.933, -268.29, 0, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Underway */
-/* @teleloc 0x0180019F [39.932999 -268.290009 0.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7018003D, 28103, 0x0180019F, 39.933, -268.29, 0, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Underway */
+/* @teleloc 0x0180019F [39.932999 -268.290009 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7018003E, 24497, 0x018001A2, 51.6875, -149.759, 0.01, 0.070737, 0, 0, -0.997495,  True, '2005-02-09 10:00:00'); /* Gotrok Tiatus */

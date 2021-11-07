@@ -76,8 +76,8 @@ VALUES (22598,   1, 0x02000E79) /* Setup */
      , (22598,  35,        354) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22598, 12, 0x5E430103, 19.9864, -9.242, 0.005, -0, 0, -0, -1) /* PortalSummonLoc */
-/* @teleloc 0x5E430103 [19.986401 -9.242000 0.005000] -0.000000 0.000000 -0.000000 -1.000000 */;
+VALUES (22598, 12, 0x5E430103, 19.9864, -9.242, 0.005, 0, 0, 0, -1) /* PortalSummonLoc */
+/* @teleloc 0x5E430103 [19.986401 -9.242000 0.005000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22598,   1, 500, 0, 0) /* Strength */

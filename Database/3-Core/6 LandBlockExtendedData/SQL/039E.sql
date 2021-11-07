@@ -39,8 +39,8 @@ VALUES (0x7039E008,  5489, 0x039E0121, 40, -100, -77.995, 1, 0, 0, 0, False, '20
 /* @teleloc 0x039E0121 [40.000000 -100.000000 -77.995003] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7039E009, 12293, 0x039E0127, 70, -50, -77.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Return Portal */
-/* @teleloc 0x039E0127 [70.000000 -50.000000 -77.995003] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7039E009, 12293, 0x039E0127, 70, -50, -77.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Return Portal */
+/* @teleloc 0x039E0127 [70.000000 -50.000000 -77.995003] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7039E00A, 12293, 0x039E02FB, 118, -908, 0.005, -0.953717, 0, 0, -0.300706, False, '2005-02-09 10:00:00'); /* Return Portal */
@@ -59,8 +59,8 @@ VALUES (0x7039E028, 10810, 0x039E01D1, 38.2019, -370.308, -29.9868, -0.687406, 0
 /* @teleloc 0x039E01D1 [38.201900 -370.308014 -29.986799] -0.687406 0.000000 0.000000 -0.726274 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7039E029,  9264, 0x039E01D4, 10, -428.232, -23.971, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Virindi Executor */
-/* @teleloc 0x039E01D4 [10.000000 -428.231995 -23.971001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7039E029,  9264, 0x039E01D4, 10, -428.232, -23.971, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Virindi Executor */
+/* @teleloc 0x039E01D4 [10.000000 -428.231995 -23.971001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7039E02A, 10810, 0x039E01DF, 23.0575, -449.624, -23.9868, -0.379363, 0, 0, 0.925248,  True, '2005-02-09 10:00:00'); /* Rampager */

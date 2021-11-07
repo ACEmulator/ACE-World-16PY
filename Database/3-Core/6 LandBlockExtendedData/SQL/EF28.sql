@@ -10,7 +10,7 @@ VALUES (0x7EF28001,  4247, 0xEF280100, 162.252, 6.37654, 16.8054, 0.898288, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EF28002, 27862, 0xEF280100, 157.95, 3.01173, 16.8052, 0.998985, 0, 0, -0.045046,  True, '2005-02-09 10:00:00'); /* Viscous Moarsman */
-/* @teleloc 0xEF280100 [157.949997 3.011730 16.805201] 0.998985 0.000000 0.000000 -0.045045 */
+/* @teleloc 0xEF280100 [157.949997 3.011730 16.805201] 0.998985 0.000000 0.000000 -0.045046 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EF28003, 27853, 0xEF280100, 160.768, 3.39971, 16.8052, 0.967678, 0, 0, 0.252187,  True, '2005-02-09 10:00:00'); /* Disgusting Moarsman */

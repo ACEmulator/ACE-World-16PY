@@ -65,12 +65,12 @@ VALUES (0x75456012, 20018, 0x5456010B, 109.615, -90.2345, -35.9745, 1, 0, 0, 0, 
 /* @teleloc 0x5456010B [109.614998 -90.234497 -35.974499] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75456014, 20018, 0x5456010D, 110, -100, -35.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Scuttling Grievver Pit Hotspot */
-/* @teleloc 0x5456010D [110.000000 -100.000000 -35.994999] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75456014, 20018, 0x5456010D, 110, -100, -35.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Scuttling Grievver Pit Hotspot */
+/* @teleloc 0x5456010D [110.000000 -100.000000 -35.994999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75456015, 20018, 0x5456010E, 109.615, -109.765, -35.9745, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Scuttling Grievver Pit Hotspot */
-/* @teleloc 0x5456010E [109.614998 -109.764999 -35.974499] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75456015, 20018, 0x5456010E, 109.615, -109.765, -35.9745, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Scuttling Grievver Pit Hotspot */
+/* @teleloc 0x5456010E [109.614998 -109.764999 -35.974499] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75456016, 12701, 0x5456010F, 123.924, -99.8711, -41.2631, 0.698038, 0, 0, -0.716061,  True, '2005-02-09 10:00:00'); /* Tunnelling Grievver */

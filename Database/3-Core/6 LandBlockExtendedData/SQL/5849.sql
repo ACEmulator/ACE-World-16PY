@@ -765,7 +765,7 @@ VALUES (0x75849124, 27311, 0x584902A3, 179.86, -30.7696, -5.9868, -0.030079, 0, 
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75849125, 27311, 0x584902A3, 175.226, -28.6523, -5.945, -0.058976, 0, 0, 0.998259,  True, '2005-02-09 10:00:00'); /* Enraged Male Tusker */
-/* @teleloc 0x584902A3 [175.225998 -28.652300 -5.945000] -0.058975 0.000000 0.000000 0.998259 */
+/* @teleloc 0x584902A3 [175.225998 -28.652300 -5.945000] -0.058976 0.000000 0.000000 0.998259 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75849126, 27309, 0x584902B2, 179.496, -105.733, -5.995, 0.999989, 0, 0, -0.004588,  True, '2005-02-09 10:00:00'); /* Deranged Sycophant */
@@ -893,11 +893,11 @@ VALUES (0x75849144,   278, 0x5849010C, 100, -294.7, -95.995, 1, 0, 0, 0, False, 
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75849145, 27309, 0x58490115, 107.107, -333.353, -95.995, 0.99896, 0, 0, 0.045592,  True, '2005-02-09 10:00:00'); /* Deranged Sycophant */
-/* @teleloc 0x58490115 [107.107002 -333.352997 -95.995003] 0.998960 0.000000 0.000000 0.045591 */
+/* @teleloc 0x58490115 [107.107002 -333.352997 -95.995003] 0.998960 0.000000 0.000000 0.045592 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75849146, 27309, 0x58490115, 112.719, -333.713, -95.995, 0.99896, 0, 0, 0.045592,  True, '2005-02-09 10:00:00'); /* Deranged Sycophant */
-/* @teleloc 0x58490115 [112.719002 -333.713013 -95.995003] 0.998960 0.000000 0.000000 0.045591 */
+/* @teleloc 0x58490115 [112.719002 -333.713013 -95.995003] 0.998960 0.000000 0.000000 0.045592 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75849147, 27317, 0x58490116, 111.432, -344.005, -95.995, -0.999999, 0, 0, -0.001285,  True, '2005-02-09 10:00:00'); /* Jonas */

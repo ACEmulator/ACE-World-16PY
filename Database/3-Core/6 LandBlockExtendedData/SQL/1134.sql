@@ -95,8 +95,8 @@ VALUES (0x71134013,  6870, 0x11340000, 81.5, 145, 45.7, 0.707107, 0, 0, -0.70710
 /* @teleloc 0x11340000 [81.500000 145.000000 45.700001] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71134014,  6868, 0x11340000, 129.423, 90.6667, 45.2, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* The Secluded Sanctuary */
-/* @teleloc 0x11340000 [129.423004 90.666702 45.200001] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x71134014,  6868, 0x11340000, 129.423, 90.6667, 45.2, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* The Secluded Sanctuary */
+/* @teleloc 0x11340000 [129.423004 90.666702 45.200001] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71134015,  6871, 0x11340000, 93.5, 58.6667, 45.2, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* The Whispering Sword */
@@ -163,8 +163,8 @@ VALUES (0x71134031,  1148, 0x11340000, 34.01, 112.5, 42, 0.707107, 0, 0, 0.70710
 /* @teleloc 0x11340000 [34.009998 112.500000 42.000000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71134032,  1148, 0x11340000, 39.5, 109.51, 42, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x11340000 [39.500000 109.510002 42.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x71134032,  1148, 0x11340000, 39.5, 109.51, 42, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x11340000 [39.500000 109.510002 42.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71134033, 19207, 0x11340000, 89.5038, 87.375, 48.916, 0.997208, 0, 0, -0.074668, False, '2005-02-09 10:00:00'); /* Nullified Statue of a Virindi */
@@ -192,7 +192,7 @@ VALUES (0x71134038, 20220, 0x11340151, 29.0512, 114.19, 42.005, 0.403605, 0, 0, 
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71134040, 10722, 0x11340000, 77.8661, 146.642, 42.005, -0.0349, 0, 0, -0.999391, False, '2005-02-09 10:00:00'); /* Ulgrim's Green Sword Gen */
-/* @teleloc 0x11340000 [77.866096 146.641998 42.005001] -0.034899 0.000000 0.000000 -0.999391 */
+/* @teleloc 0x11340000 [77.866096 146.641998 42.005001] -0.034900 0.000000 0.000000 -0.999391 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71134042, 23631, 0x11340000, 86.9135, 108.323, 158.939, -0.999711, 0, 0, -0.024051, False, '2005-02-09 10:00:00'); /* April 2003 Raining Mad Cows Gen */
@@ -230,7 +230,7 @@ VALUES (0x71134048, 0x71134044, '2005-02-09 10:00:00') /* Half Empty Cider (2414
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71134049,  7924, 0x11340000, 77.866, 146.642, 42.005, -0.0349, 0, 0, -0.999391, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
-/* @teleloc 0x11340000 [77.865997 146.641998 42.005001] -0.034899 0.000000 0.000000 -0.999391 */
+/* @teleloc 0x11340000 [77.865997 146.641998 42.005001] -0.034900 0.000000 0.000000 -0.999391 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7113404A, 29678, 0x11340000, 60.6388, 61.8331, 42.005, 0.736409, 0, 0, -0.676536, False, '2005-02-09 10:00:00'); /* Qin Xikit Watcher Generator */

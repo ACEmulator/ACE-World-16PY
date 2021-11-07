@@ -10,7 +10,7 @@ VALUES (0x72612001, 27710, 0x26120000, 121.531, 42.8779, 13.0065, -0.797415, 0, 
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72612002, 27710, 0x26120000, 115.859, 44.6187, 12.3542, -0.99974, 0, 0, -0.022795,  True, '2005-02-09 10:00:00'); /* Brass Gromnie */
-/* @teleloc 0x26120000 [115.859001 44.618698 12.354200] -0.999740 0.000000 0.000000 -0.022794 */
+/* @teleloc 0x26120000 [115.859001 44.618698 12.354200] -0.999740 0.000000 0.000000 -0.022795 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72612003, 27710, 0x26120000, 123.832, 56.5725, 12.3284, -0.702342, 0, 0, -0.71184,  True, '2005-02-09 10:00:00'); /* Brass Gromnie */

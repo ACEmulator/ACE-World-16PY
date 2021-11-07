@@ -1,8 +1,8 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x3415;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73415000, 24952, 0x34150000, 156.571, 84, 84.005, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Desert Citadel Portal */
-/* @teleloc 0x34150000 [156.570999 84.000000 84.004997] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x73415000, 24952, 0x34150000, 156.571, 84, 84.005, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Desert Citadel Portal */
+/* @teleloc 0x34150000 [156.570999 84.000000 84.004997] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73415001, 24497, 0x34150000, 156.46, 73.5926, 84.01, -0.999979, 0, 0, 0.00653,  True, '2005-02-09 10:00:00'); /* Gotrok Tiatus */

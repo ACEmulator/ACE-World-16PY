@@ -292,7 +292,7 @@ VALUES (0x7DC2502C, 0x7DC25017, '2005-02-09 10:00:00') /* Wall Hook (9686) */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC2502D, 12461, 0xDC250000, 78.7277, 153.43, 148.005, 0.998973, 0, 0, -0.045319,  True, '2005-02-09 10:00:00'); /* Cottage */
-/* @teleloc 0xDC250000 [78.727699 153.429993 148.005005] 0.998973 0.000000 0.000000 -0.045318 */
+/* @teleloc 0xDC250000 [78.727699 153.429993 148.005005] 0.998973 0.000000 0.000000 -0.045319 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC2502E,  9686, 0xDC250102, 155.134, 88.4041, 137.625, 0.984713, 0, 0, -0.174185,  True, '2005-02-09 10:00:00'); /* Wall Hook */

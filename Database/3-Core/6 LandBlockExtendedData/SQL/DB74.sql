@@ -81,7 +81,7 @@ VALUES (0x7DB7400F,   232, 0xDB740000, 136.197, 39.0919, 16.005, -0.646586, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB74010,   232, 0xDB740000, 117.638, 71.7914, 17.9893, -0.998477, 0, 0, -0.055168,  True, '2005-02-09 10:00:00'); /* Tumerok Scout */
-/* @teleloc 0xDB740000 [117.638000 71.791397 17.989300] -0.998477 0.000000 0.000000 -0.055167 */
+/* @teleloc 0xDB740000 [117.638000 71.791397 17.989300] -0.998477 0.000000 0.000000 -0.055168 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB74011,   232, 0xDB740000, 72.7634, 65.2731, 17.4461, -0.607652, 0, 0, -0.794203,  True, '2005-02-09 10:00:00'); /* Tumerok Scout */

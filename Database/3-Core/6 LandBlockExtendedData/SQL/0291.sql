@@ -56,15 +56,15 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x70291009, 0x70291004, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7029100A,  7562, 0x02910108, 210, -210, -22.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Magic trap */
-/* @teleloc 0x02910108 [210.000000 -210.000000 -22.995001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7029100A,  7562, 0x02910108, 210, -210, -22.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Magic trap */
+/* @teleloc 0x02910108 [210.000000 -210.000000 -22.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7029100A, 0x7029100B, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7029100B,  2131, 0x02910108, 210, -210, -23.995, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
-/* @teleloc 0x02910108 [210.000000 -210.000000 -23.995001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7029100B,  2131, 0x02910108, 210, -210, -23.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Pressure Plate */
+/* @teleloc 0x02910108 [210.000000 -210.000000 -23.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7029100C, 23480, 0x02910115, 342.595, -348.97, -23.9868, 0.905806, 0, 0, -0.423693,  True, '2005-02-09 10:00:00'); /* Drudge Bloodletter */
@@ -187,8 +187,8 @@ VALUES (0x70291030, 23480, 0x02910229, 270.219, -181.395, -17.995, -0.549826, 0,
 /* @teleloc 0x02910229 [270.218994 -181.395004 -17.995001] -0.549826 0.000000 0.000000 -0.835279 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70291034, 23569, 0x02910252, 290, -281.208, -17.971, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Virindi Adjudicator */
-/* @teleloc 0x02910252 [290.000000 -281.208008 -17.971001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x70291034, 23569, 0x02910252, 290, -281.208, -17.971, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Virindi Adjudicator */
+/* @teleloc 0x02910252 [290.000000 -281.208008 -17.971001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70291035, 23480, 0x02910259, 300.549, -79.0743, -17.995, -0.840936, 0, 0, 0.541134,  True, '2005-02-09 10:00:00'); /* Drudge Bloodletter */
@@ -1085,7 +1085,7 @@ VALUES (0x702910E2, 23569, 0x02910259, 296.416, -79.9858, -17.995, 0.673589, 0, 
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702910E3, 22053, 0x0291025A, 300.382, -162.463, -17.945, 0.094482, 0, 0, 0.995527,  True, '2005-02-09 10:00:00'); /* Assailer */
-/* @teleloc 0x0291025A [300.381989 -162.462997 -17.945000] 0.094481 0.000000 0.000000 0.995527 */
+/* @teleloc 0x0291025A [300.381989 -162.462997 -17.945000] 0.094482 0.000000 0.000000 0.995527 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702910E4, 23489, 0x0291025D, 300.197, -170.233, -17.971, -0.473804, 0, 0, -0.88063,  True, '2005-02-09 10:00:00'); /* Virindi Consul */

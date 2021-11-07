@@ -1,8 +1,8 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x1156;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71156000, 25396, 0x11560100, 37.3063, 58.33, 0.005, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Ancient Temple */
-/* @teleloc 0x11560100 [37.306301 58.330002 0.005000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x71156000, 25396, 0x11560100, 37.3063, 58.33, 0.005, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Ancient Temple */
+/* @teleloc 0x11560100 [37.306301 58.330002 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71156001,  7924, 0x11560100, 34.3252, 59.9808, 0.005, 0.999474, 0, 0, 0.032418, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
@@ -28,4 +28,4 @@ VALUES (0x71156004, 25348, 0x11560000, 44.063, 69.5615, -0.89025, 0.982171, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71156005, 25347, 0x11560000, 36.1528, 66.7801, 3.60975, 0.999941, 0, 0, 0.010887,  True, '2005-02-09 10:00:00'); /* Falatacot Matriarch */
-/* @teleloc 0x11560000 [36.152802 66.780098 3.609750] 0.999941 0.000000 0.000000 0.010886 */
+/* @teleloc 0x11560000 [36.152802 66.780098 3.609750] 0.999941 0.000000 0.000000 0.010887 */

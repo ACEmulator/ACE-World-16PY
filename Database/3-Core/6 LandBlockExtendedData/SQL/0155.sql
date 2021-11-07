@@ -25,8 +25,8 @@ VALUES (0x70155005,     7, 0x0155011A, 36.9387, -91.4734, -5.989, 0.85756, 0, 0,
 /* @teleloc 0x0155011A [36.938702 -91.473396 -5.989000] 0.857560 0.000000 0.000000 -0.514384 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70155006,   193, 0x0155012B, 1.47563, -46.6381, 0.003325, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Drudge Slinker */
-/* @teleloc 0x0155012B [1.475630 -46.638100 0.003325] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x70155006,   193, 0x0155012B, 1.47563, -46.6381, 0.003325, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Drudge Slinker */
+/* @teleloc 0x0155012B [1.475630 -46.638100 0.003325] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70155007,   278, 0x0155013F, 14.75, -50, 0, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
@@ -60,8 +60,8 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x7015500D, 0x7015500C, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7015500E,     7, 0x0155014A, 20, -30, 0.003325, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Drudge Skulker */
-/* @teleloc 0x0155014A [20.000000 -30.000000 0.003325] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7015500E,     7, 0x0155014A, 20, -30, 0.003325, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Drudge Skulker */
+/* @teleloc 0x0155014A [20.000000 -30.000000 0.003325] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7015500F,   278, 0x01550151, 20, -55.25, 0, -1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Door */
@@ -104,12 +104,12 @@ VALUES (0x70155018,     7, 0x01550182, 11.3654, -32.3242, 6.535, -0.563526, 0, 0
 /* @teleloc 0x01550182 [11.365400 -32.324200 6.535000] -0.563526 0.000000 0.000000 -0.826099 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70155019,  5203, 0x01550195, 20, 0, 12, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Surface Portal */
-/* @teleloc 0x01550195 [20.000000 0.000000 12.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x70155019,  5203, 0x01550195, 20, 0, 12, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Surface Portal */
+/* @teleloc 0x01550195 [20.000000 0.000000 12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7015501A,  8739, 0x01550195, 19.998, -3.282, 12.006, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Samsur Town Stamp */
-/* @teleloc 0x01550195 [19.997999 -3.282000 12.006000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7015501A,  8739, 0x01550195, 19.998, -3.282, 12.006, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Samsur Town Stamp */
+/* @teleloc 0x01550195 [19.997999 -3.282000 12.006000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7015501B,  5485, 0x01550198, 22.3661, -10.167, 12, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Newbie Monster Generator */

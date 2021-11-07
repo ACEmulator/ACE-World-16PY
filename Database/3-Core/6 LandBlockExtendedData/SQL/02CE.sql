@@ -82,12 +82,12 @@ VALUES (0x702CE00E,  1535, 0x02CE0144, 6.52938, -29.0872, 0.000001, 1, 0, 0, 0, 
 /* @teleloc 0x02CE0144 [6.529380 -29.087200 0.000001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702CE00F,  8194, 0x02CE0146, 20, 2.14, 0, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* The Floating City */
-/* @teleloc 0x02CE0146 [20.000000 2.140000 0.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x702CE00F,  8194, 0x02CE0146, 20, 2.14, 0, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* The Floating City */
+/* @teleloc 0x02CE0146 [20.000000 2.140000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702CE010,  1535, 0x02CE0155, 30, -40, 0.000001, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Ethereal Wisp */
-/* @teleloc 0x02CE0155 [30.000000 -40.000000 0.000001] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x702CE010,  1535, 0x02CE0155, 30, -40, 0.000001, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Ethereal Wisp */
+/* @teleloc 0x02CE0155 [30.000000 -40.000000 0.000001] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702CE011,   950, 0x02CE0179, 80, -50, 0.0075, 0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Zombie */
@@ -118,8 +118,8 @@ VALUES (0x702CE017,  1535, 0x02CE0194, 28.5434, -60.1252, 6.005, 0.748499, 0, 0,
 /* @teleloc 0x02CE0194 [28.543400 -60.125198 6.005000] 0.748499 0.000000 0.000000 -0.663136 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702CE018,  8192, 0x02CE0195, 40, 0, 6.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* The Floating City */
-/* @teleloc 0x02CE0195 [40.000000 0.000000 6.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x702CE018,  8192, 0x02CE0195, 40, 0, 6.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* The Floating City */
+/* @teleloc 0x02CE0195 [40.000000 0.000000 6.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702CE019,  1987, 0x02CE01A4, 51.3338, -19.3002, 6.005, -0.628174, 0, 0, -0.778073,  True, '2005-02-09 10:00:00'); /* Ghost Wisp */

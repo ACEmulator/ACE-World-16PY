@@ -756,7 +756,7 @@ VALUES (0x7EE42072, 10707, 0xEE420000, 142.214, 15.477, 23.685, 0.202752, 0, 0, 
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EE42073, 11717, 0xEE420000, 55.4905, 25.4233, 30.005, 0.999915, 0, 0, 0.013072,  True, '2005-02-09 10:00:00'); /* Villa */
-/* @teleloc 0xEE420000 [55.490501 25.423300 30.004999] 0.999915 0.000000 0.000000 0.013071 */
+/* @teleloc 0xEE420000 [55.490501 25.423300 30.004999] 0.999915 0.000000 0.000000 0.013072 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EE42074, 11717, 0xEE420000, 47.409, 101.387, 40.005, 0.734134, 0, 0, 0.679004,  True, '2005-02-09 10:00:00'); /* Villa */
@@ -771,8 +771,8 @@ VALUES (0x7EE42076, 11717, 0xEE420000, 152.363, 121.426, 50.005, 0.999998, 0, 0,
 /* @teleloc 0xEE420000 [152.363007 121.426003 50.005001] 0.999998 0.000000 0.000000 -0.001839 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7EE42077, 11730, 0xEE420118, 154.301, 129.621, 45.205, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* House Portal */
-/* @teleloc 0xEE420118 [154.300995 129.621002 45.205002] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7EE42077, 11730, 0xEE420118, 154.301, 129.621, 45.205, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* House Portal */
+/* @teleloc 0xEE420118 [154.300995 129.621002 45.205002] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7EE42077, 0x7EE42142, '2005-02-09 10:00:00') /* Portal Linkspot (10762) */;
@@ -792,8 +792,8 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x7EE42079, 0x7EE42140, '2005-02-09 10:00:00') /* Portal Linkspot (10762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7EE4207A, 11730, 0xEE420153, 57.639, 34.061, 25.205, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* House Portal */
-/* @teleloc 0xEE420153 [57.639000 34.061001 25.205000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7EE4207A, 11730, 0xEE420153, 57.639, 34.061, 25.205, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* House Portal */
+/* @teleloc 0xEE420153 [57.639000 34.061001 25.205000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7EE4207A, 0x7EE42141, '2005-02-09 10:00:00') /* Portal Linkspot (10762) */;

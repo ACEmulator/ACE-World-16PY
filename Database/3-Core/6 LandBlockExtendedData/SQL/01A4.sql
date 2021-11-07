@@ -13,20 +13,20 @@ VALUES (0x701A4002,   897, 0x01A40100, 17.8972, -60.2026, -36, 0.707107, 0, 0, -
 /* @teleloc 0x01A40100 [17.897200 -60.202599 -36.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A4003,   960, 0x01A40103, 18.3844, -71.2571, -36, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Squire Generator */
-/* @teleloc 0x01A40103 [18.384399 -71.257103 -36.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A4003,   960, 0x01A40103, 18.3844, -71.2571, -36, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Squire Generator */
+/* @teleloc 0x01A40103 [18.384399 -71.257103 -36.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A4004,   960, 0x01A40103, 19.9795, -72.4342, -36, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Squire Generator */
-/* @teleloc 0x01A40103 [19.979500 -72.434196 -36.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A4004,   960, 0x01A40103, 19.9795, -72.4342, -36, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Squire Generator */
+/* @teleloc 0x01A40103 [19.979500 -72.434196 -36.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A4005,   960, 0x01A40103, 21.557, -70.9494, -36, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Squire Generator */
-/* @teleloc 0x01A40103 [21.556999 -70.949402 -36.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A4005,   960, 0x01A40103, 21.557, -70.9494, -36, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Squire Generator */
+/* @teleloc 0x01A40103 [21.556999 -70.949402 -36.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A4006,   959, 0x01A40103, 18.9446, -73.0274, -36, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
-/* @teleloc 0x01A40103 [18.944599 -73.027397 -36.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A4006,   959, 0x01A40103, 18.9446, -73.0274, -36, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
+/* @teleloc 0x01A40103 [18.944599 -73.027397 -36.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A4007,   959, 0x01A40108, 20.7758, -100.294, -36, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
@@ -69,40 +69,40 @@ VALUES (0x701A4010,   959, 0x01A40116, 34.3543, -109.052, -36, 0.707107, 0, 0, -
 /* @teleloc 0x01A40116 [34.354301 -109.052002 -36.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A4011,   959, 0x01A4011A, 25.25, -120, -36, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
-/* @teleloc 0x01A4011A [25.250000 -120.000000 -36.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A4011,   959, 0x01A4011A, 25.25, -120, -36, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
+/* @teleloc 0x01A4011A [25.250000 -120.000000 -36.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A4012,   959, 0x01A4011C, 40.0525, -62.2367, -36, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
-/* @teleloc 0x01A4011C [40.052502 -62.236698 -36.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A4012,   959, 0x01A4011C, 40.0525, -62.2367, -36, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
+/* @teleloc 0x01A4011C [40.052502 -62.236698 -36.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A4013,   958, 0x01A4011C, 41.739, -57.74, -36, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Mite Digger Generator */
-/* @teleloc 0x01A4011C [41.738998 -57.740002 -36.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x701A4013,   958, 0x01A4011C, 41.739, -57.74, -36, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Mite Digger Generator */
+/* @teleloc 0x01A4011C [41.738998 -57.740002 -36.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A4014,   958, 0x01A4011C, 38.4227, -57.6264, -36, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Mite Digger Generator */
-/* @teleloc 0x01A4011C [38.422699 -57.626400 -36.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x701A4014,   958, 0x01A4011C, 38.4227, -57.6264, -36, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Mite Digger Generator */
+/* @teleloc 0x01A4011C [38.422699 -57.626400 -36.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A4015,   958, 0x01A4011C, 36.7891, -59.8601, -36, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Mite Digger Generator */
-/* @teleloc 0x01A4011C [36.789101 -59.860100 -36.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x701A4015,   958, 0x01A4011C, 36.7891, -59.8601, -36, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Mite Digger Generator */
+/* @teleloc 0x01A4011C [36.789101 -59.860100 -36.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A4016,  2411, 0x01A4011C, 40.4582, -57.1987, -36, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Ruby */
-/* @teleloc 0x01A4011C [40.458199 -57.198700 -36.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A4016,  2411, 0x01A4011C, 40.4582, -57.1987, -36, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Ruby */
+/* @teleloc 0x01A4011C [40.458199 -57.198700 -36.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A4017,  2400, 0x01A4011C, 37.3904, -58.3897, -36, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Yellow Garnet */
-/* @teleloc 0x01A4011C [37.390400 -58.389702 -36.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A4017,  2400, 0x01A4011C, 37.3904, -58.3897, -36, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Yellow Garnet */
+/* @teleloc 0x01A4011C [37.390400 -58.389702 -36.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A4018,  2395, 0x01A4011C, 41.9377, -58.7944, -36, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Green Jade */
-/* @teleloc 0x01A4011C [41.937698 -58.794399 -36.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A4018,  2395, 0x01A4011C, 41.9377, -58.7944, -36, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Green Jade */
+/* @teleloc 0x01A4011C [41.937698 -58.794399 -36.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A4019,  1542, 0x01A4011C, 40, -60, -36, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Linkable Item Generator */
-/* @teleloc 0x01A4011C [40.000000 -60.000000 -36.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A4019,  1542, 0x01A4011C, 40, -60, -36, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Linkable Item Generator */
+/* @teleloc 0x01A4011C [40.000000 -60.000000 -36.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x701A4019, 0x701A4016, '2005-02-09 10:00:00') /* Ruby (2411) */
@@ -172,32 +172,32 @@ VALUES (0x701A4027, 0x701A4023, '2005-02-09 10:00:00') /* Cobalt (756) */
      , (0x701A4027, 0x701A4026, '2005-02-09 10:00:00') /* Powdered Quartz (791) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A4028,   960, 0x01A40131, 51.2792, -42.8332, -36, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Squire Generator */
-/* @teleloc 0x01A40131 [51.279202 -42.833199 -36.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A4028,   960, 0x01A40131, 51.2792, -42.8332, -36, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Squire Generator */
+/* @teleloc 0x01A40131 [51.279202 -42.833199 -36.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A4029,   960, 0x01A40131, 47.4268, -42.152, -36, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Squire Generator */
-/* @teleloc 0x01A40131 [47.426800 -42.152000 -36.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A4029,   960, 0x01A40131, 47.4268, -42.152, -36, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Squire Generator */
+/* @teleloc 0x01A40131 [47.426800 -42.152000 -36.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A402A,   960, 0x01A40131, 49.58, -43.447, -36, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Squire Generator */
-/* @teleloc 0x01A40131 [49.580002 -43.446999 -36.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A402A,   960, 0x01A40131, 49.58, -43.447, -36, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Squire Generator */
+/* @teleloc 0x01A40131 [49.580002 -43.446999 -36.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A402B,   896, 0x01A40131, 50.0993, -39.3489, -36, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Matron Generator */
-/* @teleloc 0x01A40131 [50.099300 -39.348900 -36.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A402B,   896, 0x01A40131, 50.0993, -39.3489, -36, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Matron Generator */
+/* @teleloc 0x01A40131 [50.099300 -39.348900 -36.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A402C,   957, 0x01A40131, 51.1933, -37.199, -36, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Scion Generator */
-/* @teleloc 0x01A40131 [51.193298 -37.199001 -36.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A402C,   957, 0x01A40131, 51.1933, -37.199, -36, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Scion Generator */
+/* @teleloc 0x01A40131 [51.193298 -37.199001 -36.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A402D,  1046, 0x01A40131, 52.7843, -39.0817, -36, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Item Scarab Generator */
-/* @teleloc 0x01A40131 [52.784302 -39.081699 -36.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A402D,  1046, 0x01A40131, 52.7843, -39.0817, -36, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Item Scarab Generator */
+/* @teleloc 0x01A40131 [52.784302 -39.081699 -36.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A402E,  1132, 0x01A40131, 47.2299, -39.5865, -36, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Item Powder Generator */
-/* @teleloc 0x01A40131 [47.229900 -39.586498 -36.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A402E,  1132, 0x01A40131, 47.2299, -39.5865, -36, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Item Powder Generator */
+/* @teleloc 0x01A40131 [47.229900 -39.586498 -36.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A402F,   897, 0x01A40134, 49.507, -51.839, -36, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Squib Generator */
@@ -220,8 +220,8 @@ VALUES (0x701A4033,   959, 0x01A4013D, 50, -90, -36, 1, 0, 0, 0, False, '2005-02
 /* @teleloc 0x01A4013D [50.000000 -90.000000 -36.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A4034,   959, 0x01A40140, 55.25, -60, -36, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
-/* @teleloc 0x01A40140 [55.250000 -60.000000 -36.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A4034,   959, 0x01A40140, 55.25, -60, -36, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
+/* @teleloc 0x01A40140 [55.250000 -60.000000 -36.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A4035,   959, 0x01A40143, 60, -74.75, -36, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
@@ -308,16 +308,16 @@ VALUES (0x701A4048,   389, 0x01A40159, 67.494, -99.588, -36, 0.707107, 0, 0, -0.
 /* @teleloc 0x01A40159 [67.494003 -99.587997 -36.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A4049,   959, 0x01A4015D, 79.4608, -62.318, -36, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
-/* @teleloc 0x01A4015D [79.460800 -62.318001 -36.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A4049,   959, 0x01A4015D, 79.4608, -62.318, -36, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
+/* @teleloc 0x01A4015D [79.460800 -62.318001 -36.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A404A,   897, 0x01A4015D, 81.5081, -60.8827, -36, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Squib Generator */
-/* @teleloc 0x01A4015D [81.508102 -60.882702 -36.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A404A,   897, 0x01A4015D, 81.5081, -60.8827, -36, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Squib Generator */
+/* @teleloc 0x01A4015D [81.508102 -60.882702 -36.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A404B,   897, 0x01A4015D, 78.1827, -59.9511, -36, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Squib Generator */
-/* @teleloc 0x01A4015D [78.182701 -59.951099 -36.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A404B,   897, 0x01A4015D, 78.1827, -59.9511, -36, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Squib Generator */
+/* @teleloc 0x01A4015D [78.182701 -59.951099 -36.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A404C,   897, 0x01A40164, 78.7669, -92.8194, -36, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Mite Squib Generator */
@@ -364,8 +364,8 @@ VALUES (0x701A4056,   958, 0x01A4016D, -0.687403, -121.222, -24, -0.707107, 0, 0
 /* @teleloc 0x01A4016D [-0.687403 -121.222000 -24.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A4057,   897, 0x01A40176, 7.88672, -99.3117, -24, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Squib Generator */
-/* @teleloc 0x01A40176 [7.886720 -99.311699 -24.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A4057,   897, 0x01A40176, 7.88672, -99.3117, -24, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Squib Generator */
+/* @teleloc 0x01A40176 [7.886720 -99.311699 -24.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A4058,   959, 0x01A4017A, 10, -120, -24, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
@@ -380,8 +380,8 @@ VALUES (0x701A405A,   958, 0x01A4017E, 11.1937, -127.642, -23.9602, 1, 0, 0, 0, 
 /* @teleloc 0x01A4017E [11.193700 -127.641998 -23.960199] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A405B,   958, 0x01A4017F, 9.03266, -138.34, -24, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Digger Generator */
-/* @teleloc 0x01A4017F [9.032660 -138.339996 -24.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A405B,   958, 0x01A4017F, 9.03266, -138.34, -24, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Digger Generator */
+/* @teleloc 0x01A4017F [9.032660 -138.339996 -24.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A405C,   958, 0x01A40186, 20, -110, -24, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Mite Digger Generator */
@@ -428,12 +428,12 @@ VALUES (0x701A4066,   959, 0x01A40192, 39.553, -108.341, -24, -0.707107, 0, 0, -
 /* @teleloc 0x01A40192 [39.553001 -108.341003 -24.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A4067,   958, 0x01A40195, 42.9158, -137.766, -24, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Digger Generator */
-/* @teleloc 0x01A40195 [42.915798 -137.766006 -24.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A4067,   958, 0x01A40195, 42.9158, -137.766, -24, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Digger Generator */
+/* @teleloc 0x01A40195 [42.915798 -137.766006 -24.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A4068,   958, 0x01A40195, 42.3153, -141.439, -24, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Digger Generator */
-/* @teleloc 0x01A40195 [42.315300 -141.438995 -24.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A4068,   958, 0x01A40195, 42.3153, -141.439, -24, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Digger Generator */
+/* @teleloc 0x01A40195 [42.315300 -141.438995 -24.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A4069,   958, 0x01A4019B, 20, -70, -18, -0.640697, 0, 0, -0.767794, False, '2005-02-09 10:00:00'); /* Mite Digger Generator */
@@ -464,8 +464,8 @@ VALUES (0x701A406F,   958, 0x01A401A4, 42.6205, -67.8784, -18, 0.916363, 0, 0, -
 /* @teleloc 0x01A401A4 [42.620499 -67.878403 -18.000000] 0.916363 0.000000 0.000000 -0.400349 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A4070,   959, 0x01A401A6, 40.468, -91.4045, -18, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
-/* @teleloc 0x01A401A6 [40.467999 -91.404503 -18.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A4070,   959, 0x01A401A6, 40.468, -91.4045, -18, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
+/* @teleloc 0x01A401A6 [40.467999 -91.404503 -18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A4071,   959, 0x01A401A6, 42.429, -88.8474, -18, 0.704712, 0, 0, -0.709494, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
@@ -592,8 +592,8 @@ VALUES (0x701A408F,   959, 0x01A401EB, 50.1594, -107.527, 0, 0.0666, 0, 0, -0.99
 /* @teleloc 0x01A401EB [50.159401 -107.527000 0.000000] 0.066600 0.000000 0.000000 -0.997780 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A4090,   959, 0x01A401F3, 52.4675, -91.9202, 6, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
-/* @teleloc 0x01A401F3 [52.467499 -91.920197 6.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A4090,   959, 0x01A401F3, 52.4675, -91.9202, 6, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
+/* @teleloc 0x01A401F3 [52.467499 -91.920197 6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A4091,   959, 0x01A401F9, 67.603, -92.843, 12, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
@@ -620,8 +620,8 @@ VALUES (0x701A4096,   959, 0x01A401FF, 90, -70, 12, -0.478117, 0, 0, -0.878296, 
 /* @teleloc 0x01A401FF [90.000000 -70.000000 12.000000] -0.478117 0.000000 0.000000 -0.878296 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A4097,   958, 0x01A40201, 89.9825, -98.0488, 12, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Digger Generator */
-/* @teleloc 0x01A40201 [89.982498 -98.048798 12.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A4097,   958, 0x01A40201, 89.9825, -98.0488, 12, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Digger Generator */
+/* @teleloc 0x01A40201 [89.982498 -98.048798 12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A4098,   958, 0x01A40201, 87.6394, -99.677, 12, 0.75263, 0, 0, -0.658443, False, '2005-02-09 10:00:00'); /* Mite Digger Generator */
@@ -632,12 +632,12 @@ VALUES (0x701A4099,   958, 0x01A40201, 90.5527, -101.858, 12, -0.999601, 0, 0, -
 /* @teleloc 0x01A40201 [90.552696 -101.858002 12.000000] -0.999601 0.000000 0.000000 -0.028249 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A409A,   958, 0x01A40201, 91.8293, -99.7204, 12, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Digger Generator */
-/* @teleloc 0x01A40201 [91.829300 -99.720398 12.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A409A,   958, 0x01A40201, 91.8293, -99.7204, 12, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Digger Generator */
+/* @teleloc 0x01A40201 [91.829300 -99.720398 12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A409B,   420, 0x01A40201, 87.1947, -96.9646, 12, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Item Food Generator */
-/* @teleloc 0x01A40201 [87.194702 -96.964600 12.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A409B,   420, 0x01A40201, 87.1947, -96.9646, 12, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Item Food Generator */
+/* @teleloc 0x01A40201 [87.194702 -96.964600 12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A409C,   959, 0x01A40202, 102.09, -72.2802, 12, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
@@ -708,44 +708,44 @@ VALUES (0x701A40AC,   960, 0x01A4021C, 109.726, -127.869, 12, 0.837182, 0, 0, -0
 /* @teleloc 0x01A4021C [109.725998 -127.869003 12.000000] 0.837182 0.000000 0.000000 -0.546924 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A40AD,   420, 0x01A4021C, 107.227, -131.663, 12, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Item Food Generator */
-/* @teleloc 0x01A4021C [107.226997 -131.662994 12.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A40AD,   420, 0x01A4021C, 107.227, -131.663, 12, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Item Food Generator */
+/* @teleloc 0x01A4021C [107.226997 -131.662994 12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A40AE,   420, 0x01A4021C, 108.402, -129.124, 12, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Item Food Generator */
-/* @teleloc 0x01A4021C [108.402000 -129.123993 12.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A40AE,   420, 0x01A4021C, 108.402, -129.124, 12, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Item Food Generator */
+/* @teleloc 0x01A4021C [108.402000 -129.123993 12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A40AF,   420, 0x01A4021C, 105.989, -127.565, 12, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Item Food Generator */
-/* @teleloc 0x01A4021C [105.988998 -127.565002 12.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A40AF,   420, 0x01A4021C, 105.989, -127.565, 12, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Item Food Generator */
+/* @teleloc 0x01A4021C [105.988998 -127.565002 12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A40B0,   171, 0x01A4021C, 113.14, -133.681, 12, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Vat */
-/* @teleloc 0x01A4021C [113.139999 -133.681000 12.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A40B0,   171, 0x01A4021C, 113.14, -133.681, 12, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Vat */
+/* @teleloc 0x01A4021C [113.139999 -133.681000 12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A40B1,  1131, 0x01A4021C, 109.816, -133.562, 12, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Item Herb Generator */
-/* @teleloc 0x01A4021C [109.816002 -133.561996 12.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A40B1,  1131, 0x01A4021C, 109.816, -133.562, 12, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Item Herb Generator */
+/* @teleloc 0x01A4021C [109.816002 -133.561996 12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A40B2,   959, 0x01A4021E, 120, -110, 12, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
-/* @teleloc 0x01A4021E [120.000000 -110.000000 12.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x701A40B2,   959, 0x01A4021E, 120, -110, 12, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
+/* @teleloc 0x01A4021E [120.000000 -110.000000 12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A40B3,   959, 0x01A40222, 118.862, -130.479, 12, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
-/* @teleloc 0x01A40222 [118.862000 -130.479004 12.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x701A40B3,   959, 0x01A40222, 118.862, -130.479, 12, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
+/* @teleloc 0x01A40222 [118.862000 -130.479004 12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A40B4,   959, 0x01A4022E, 129.342, -125.574, 12, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
 /* @teleloc 0x01A4022E [129.341995 -125.573997 12.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A40B5,   897, 0x01A40230, 20, -70, 18, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Squib Generator */
-/* @teleloc 0x01A40230 [20.000000 -70.000000 18.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A40B5,   897, 0x01A40230, 20, -70, 18, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Squib Generator */
+/* @teleloc 0x01A40230 [20.000000 -70.000000 18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A40B6,   897, 0x01A40230, 22.0628, -71.1746, 18, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Squib Generator */
-/* @teleloc 0x01A40230 [22.062799 -71.174599 18.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A40B6,   897, 0x01A40230, 22.0628, -71.1746, 18, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Squib Generator */
+/* @teleloc 0x01A40230 [22.062799 -71.174599 18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A40B7,   958, 0x01A40230, 17.5995, -67.9257, 18, -0.704712, 0, 0, -0.709494, False, '2005-02-09 10:00:00'); /* Mite Digger Generator */
@@ -756,8 +756,8 @@ VALUES (0x701A40B8,   958, 0x01A40230, 19.4694, -66.5163, 18, 0.959652, 0, 0, -0
 /* @teleloc 0x01A40230 [19.469400 -66.516296 18.000000] 0.959652 0.000000 0.000000 -0.281190 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A40B9,  1132, 0x01A40230, 17.9864, -66.3487, 18, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Item Powder Generator */
-/* @teleloc 0x01A40230 [17.986401 -66.348701 18.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A40B9,  1132, 0x01A40230, 17.9864, -66.3487, 18, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Item Powder Generator */
+/* @teleloc 0x01A40230 [17.986401 -66.348701 18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A40BA,   897, 0x01A40241, 30, -70, 18, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Mite Squib Generator */
@@ -768,16 +768,16 @@ VALUES (0x701A40BB,   959, 0x01A40244, 30, -80, 18, -0.707107, 0, 0, -0.707107, 
 /* @teleloc 0x01A40244 [30.000000 -80.000000 18.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A40BC,  1429, 0x01A4024A, 37.7696, -27.5912, 18, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Cabbage Generator */
-/* @teleloc 0x01A4024A [37.769600 -27.591200 18.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A40BC,  1429, 0x01A4024A, 37.7696, -27.5912, 18, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Cabbage Generator */
+/* @teleloc 0x01A4024A [37.769600 -27.591200 18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A40BD,  1429, 0x01A4024A, 39.2605, -26.8736, 18, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Cabbage Generator */
-/* @teleloc 0x01A4024A [39.260502 -26.873600 18.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A40BD,  1429, 0x01A4024A, 39.2605, -26.8736, 18, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Cabbage Generator */
+/* @teleloc 0x01A4024A [39.260502 -26.873600 18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A40BE,   897, 0x01A4024A, 39.9098, -31.4169, 18, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Squib Generator */
-/* @teleloc 0x01A4024A [39.909801 -31.416901 18.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A40BE,   897, 0x01A4024A, 39.9098, -31.4169, 18, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Squib Generator */
+/* @teleloc 0x01A4024A [39.909801 -31.416901 18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A40BF,   897, 0x01A4024A, 42.228, -29.314, 18, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Mite Squib Generator */
@@ -808,20 +808,20 @@ VALUES (0x701A40C5,   958, 0x01A4025B, 40, -85.25, 18, 0.707107, 0, 0, -0.707107
 /* @teleloc 0x01A4025B [40.000000 -85.250000 18.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A40C6,   905, 0x01A4025C, 48.2761, -20.5818, 18, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Black Rat Generator */
-/* @teleloc 0x01A4025C [48.276100 -20.581800 18.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A40C6,   905, 0x01A4025C, 48.2761, -20.5818, 18, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Black Rat Generator */
+/* @teleloc 0x01A4025C [48.276100 -20.581800 18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A40C7,   905, 0x01A4025C, 51.1596, -19.5875, 18, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Black Rat Generator */
-/* @teleloc 0x01A4025C [51.159599 -19.587500 18.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A40C7,   905, 0x01A4025C, 51.1596, -19.5875, 18, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Black Rat Generator */
+/* @teleloc 0x01A4025C [51.159599 -19.587500 18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A40C8,   905, 0x01A4025C, 52.1574, -21.5296, 18, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Black Rat Generator */
-/* @teleloc 0x01A4025C [52.157398 -21.529600 18.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A40C8,   905, 0x01A4025C, 52.1574, -21.5296, 18, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Black Rat Generator */
+/* @teleloc 0x01A4025C [52.157398 -21.529600 18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A40C9,   420, 0x01A4025C, 49.9738, -19.4492, 18, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Item Food Generator */
-/* @teleloc 0x01A4025C [49.973801 -19.449200 18.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A40C9,   420, 0x01A4025C, 49.9738, -19.4492, 18, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Item Food Generator */
+/* @teleloc 0x01A4025C [49.973801 -19.449200 18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A40CA,   959, 0x01A4025F, 47.7787, -30.5818, 18, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
@@ -836,20 +836,20 @@ VALUES (0x701A40CC,   959, 0x01A40267, 50, -50, 18, -0.707107, 0, 0, -0.707107, 
 /* @teleloc 0x01A40267 [50.000000 -50.000000 18.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A40CD,   958, 0x01A4026A, 50, -70, 18, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Digger Generator */
-/* @teleloc 0x01A4026A [50.000000 -70.000000 18.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A40CD,   958, 0x01A4026A, 50, -70, 18, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Digger Generator */
+/* @teleloc 0x01A4026A [50.000000 -70.000000 18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A40CE,   959, 0x01A40277, 50, -95.25, 18, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
 /* @teleloc 0x01A40277 [50.000000 -95.250000 18.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A40CF,   960, 0x01A4027B, 62.0487, -28.4419, 18, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Squire Generator */
-/* @teleloc 0x01A4027B [62.048698 -28.441900 18.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A40CF,   960, 0x01A4027B, 62.0487, -28.4419, 18, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Squire Generator */
+/* @teleloc 0x01A4027B [62.048698 -28.441900 18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A40D0,   960, 0x01A4027B, 60.5841, -32.8645, 18, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Squire Generator */
-/* @teleloc 0x01A4027B [60.584099 -32.864498 18.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A40D0,   960, 0x01A4027B, 60.5841, -32.8645, 18, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Squire Generator */
+/* @teleloc 0x01A4027B [60.584099 -32.864498 18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A40D1,   897, 0x01A4027B, 63.103, -30.507, 18, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Mite Squib Generator */
@@ -868,8 +868,8 @@ VALUES (0x701A40D4,   959, 0x01A40284, 55.25, -60, 18, 1, 0, 0, 0, False, '2005-
 /* @teleloc 0x01A40284 [55.250000 -60.000000 18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A40D5,   958, 0x01A40286, 55.25, -70, 18, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Digger Generator */
-/* @teleloc 0x01A40286 [55.250000 -70.000000 18.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A40D5,   958, 0x01A40286, 55.25, -70, 18, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Digger Generator */
+/* @teleloc 0x01A40286 [55.250000 -70.000000 18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A40D6,   960, 0x01A40289, 55.25, -80, 18, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Mite Squire Generator */
@@ -880,28 +880,28 @@ VALUES (0x701A40D7,   909, 0x01A4028E, 66.8964, -2.07714, 18, 0.707107, 0, 0, -0
 /* @teleloc 0x01A4028E [66.896400 -2.077140 18.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A40D8,   390, 0x01A4028F, 69.5881, -13.443, 18, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Tusker Generator */
-/* @teleloc 0x01A4028F [69.588097 -13.443000 18.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A40D8,   390, 0x01A4028F, 69.5881, -13.443, 18, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Tusker Generator */
+/* @teleloc 0x01A4028F [69.588097 -13.443000 18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A40D9,   794, 0x01A4028F, 72.5236, -11.6556, 18, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Apple Generator */
-/* @teleloc 0x01A4028F [72.523598 -11.655600 18.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A40D9,   794, 0x01A4028F, 72.5236, -11.6556, 18, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Apple Generator */
+/* @teleloc 0x01A4028F [72.523598 -11.655600 18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A40DA,  1429, 0x01A4028F, 71.9139, -10.3161, 18, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Cabbage Generator */
-/* @teleloc 0x01A4028F [71.913902 -10.316100 18.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A40DA,  1429, 0x01A4028F, 71.9139, -10.3161, 18, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Cabbage Generator */
+/* @teleloc 0x01A4028F [71.913902 -10.316100 18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A40DB,  1429, 0x01A4028F, 72.6097, -13.2228, 18, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Cabbage Generator */
-/* @teleloc 0x01A4028F [72.609703 -13.222800 18.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A40DB,  1429, 0x01A4028F, 72.6097, -13.2228, 18, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Cabbage Generator */
+/* @teleloc 0x01A4028F [72.609703 -13.222800 18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A40DC,   959, 0x01A40290, 68.8829, -21.5624, 18, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
-/* @teleloc 0x01A40290 [68.882896 -21.562401 18.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A40DC,   959, 0x01A40290, 68.8829, -21.5624, 18, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
+/* @teleloc 0x01A40290 [68.882896 -21.562401 18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701A40DD,   959, 0x01A40290, 71.794, -22.1101, 18, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
-/* @teleloc 0x01A40290 [71.793999 -22.110100 18.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701A40DD,   959, 0x01A40290, 71.794, -22.1101, 18, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Mite Sentry Generator */
+/* @teleloc 0x01A40290 [71.793999 -22.110100 18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A40DE,   960, 0x01A40291, 72.1324, -29.0184, 18, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Mite Squire Generator */

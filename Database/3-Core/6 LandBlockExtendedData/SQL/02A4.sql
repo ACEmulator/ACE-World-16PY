@@ -224,11 +224,11 @@ VALUES (0x702A4025,   227, 0x02A40184, 60, -470, -5.994, 1, 0, 0, 0,  True, '200
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702A4026,  4106, 0x02A40194, 59.8573, -530.888, -5.994, 0.996104, 0, 0, -0.088181,  True, '2005-02-09 10:00:00'); /* Tumerok High Priest */
-/* @teleloc 0x02A40194 [59.857300 -530.888000 -5.994000] 0.996104 0.000000 0.000000 -0.088180 */
+/* @teleloc 0x02A40194 [59.857300 -530.888000 -5.994000] 0.996104 0.000000 0.000000 -0.088181 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702A4027,  4106, 0x02A40194, 57.7, -530.503, -5.994, 0.996104, 0, 0, -0.088181,  True, '2005-02-09 10:00:00'); /* Tumerok High Priest */
-/* @teleloc 0x02A40194 [57.700001 -530.502991 -5.994000] 0.996104 0.000000 0.000000 -0.088180 */
+/* @teleloc 0x02A40194 [57.700001 -530.502991 -5.994000] 0.996104 0.000000 0.000000 -0.088181 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702A4028,  9146, 0x02A40199, 60.5528, -580.674, -5.994, 0.999729, 0, 0, 0.023279,  True, '2005-02-09 10:00:00'); /* Tumerok South Vanguard Leader */

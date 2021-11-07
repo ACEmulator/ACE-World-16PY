@@ -1,8 +1,8 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xBE80;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BE80001,   412, 0xBE800108, 128.861, 42.8621, 30, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0xBE800108 [128.860992 42.862099 30.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7BE80001,   412, 0xBE800108, 128.861, 42.8621, 30, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0xBE800108 [128.860992 42.862099 30.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE80002,  7923, 0xBE80010A, 136.316, 35.9708, 30.005, 0.275266, 0, 0, -0.961368, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */

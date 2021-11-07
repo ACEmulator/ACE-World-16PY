@@ -159,16 +159,16 @@ VALUES (0x7029F016, 0x7029F000, '2005-02-09 10:00:00') /* Dark Marionette (9250)
      , (0x7029F016, 0x7029F044, '2005-02-09 10:00:00') /* Aerbax's Apprentice (9198) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7029F017,  9204, 0x029F017F, 60, -617.55, 0.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Surface */
-/* @teleloc 0x029F017F [60.000000 -617.549988 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7029F017,  9204, 0x029F017F, 60, -617.55, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Surface */
+/* @teleloc 0x029F017F [60.000000 -617.549988 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7029F018,  9249, 0x029F0183, 70.3698, -380.656, 0.005, 0.679983, 0, 0, 0.733228,  True, '2005-02-09 10:00:00'); /* Marionette */
 /* @teleloc 0x029F0183 [70.369797 -380.656006 0.005000] 0.679983 0.000000 0.000000 0.733228 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7029F019,  9250, 0x029F0184, 70, -390, 0.005, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Dark Marionette */
-/* @teleloc 0x029F0184 [70.000000 -390.000000 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7029F019,  9250, 0x029F0184, 70, -390, 0.005, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Dark Marionette */
+/* @teleloc 0x029F0184 [70.000000 -390.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7029F01A,  9244, 0x029F018B, 70, -420, 0.029, 0.731689, 0, 0, 0.681639,  True, '2005-02-09 10:00:00'); /* Pristine Doll */

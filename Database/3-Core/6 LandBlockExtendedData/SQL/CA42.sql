@@ -5,8 +5,8 @@ VALUES (0x7CA42000,   722, 0xCA420000, 83, 122.95, 74, 1, 0, 0, 0, False, '2005-
 /* @teleloc 0xCA420000 [83.000000 122.949997 74.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CA42001,   721, 0xCA420000, 85, 122.95, 74, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0xCA420000 [85.000000 122.949997 74.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7CA42001,   721, 0xCA420000, 85, 122.95, 74, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0xCA420000 [85.000000 122.949997 74.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA42002,   956, 0xCA420000, 136.463, 33.4397, 57.4197, 0.120252, 0, 0, 0.992743, False, '2005-02-09 10:00:00'); /* Wood Golem Generator */

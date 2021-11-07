@@ -30,7 +30,7 @@ VALUES (0x7F559006,  4214, 0xF559010B, 152.843, 106.225, 20.005, -0.32099, 0, 0,
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F559007,  1154, 0xF559010B, 153.124, 104.432, 20.005, -0.999227, 0, 0, -0.039302, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator */
-/* @teleloc 0xF559010B [153.123993 104.431999 20.004999] -0.999227 0.000000 0.000000 -0.039301 */
+/* @teleloc 0xF559010B [153.123993 104.431999 20.004999] -0.999227 0.000000 0.000000 -0.039302 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7F559007, 0x7F559006, '2005-02-09 10:00:00') /* Leather Crafter (4214) */

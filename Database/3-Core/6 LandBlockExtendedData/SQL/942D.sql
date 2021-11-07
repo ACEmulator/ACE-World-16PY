@@ -38,7 +38,7 @@ VALUES (0x7942D008, 24942, 0x942D0000, 108.569, 105.279, 119.963, 0.810684, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7942D009, 24942, 0x942D0000, 99.5499, 108.005, 118.288, -0.053701, 0, 0, -0.998557,  True, '2005-02-09 10:00:00'); /* Gotrok Lithos */
-/* @teleloc 0x942D0000 [99.549896 108.004997 118.288002] -0.053700 0.000000 0.000000 -0.998557 */
+/* @teleloc 0x942D0000 [99.549896 108.004997 118.288002] -0.053701 0.000000 0.000000 -0.998557 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7942D00A, 24942, 0x942D0000, 110.335, 68.381, 122.014, 0.675563, 0, 0, -0.737302,  True, '2005-02-09 10:00:00'); /* Gotrok Lithos */

@@ -53,8 +53,8 @@ VALUES (0x7F75D00C,   722, 0xF75D0000, 108, 6.475, 46, 1, 0, 0, 0, False, '2005-
 /* @teleloc 0xF75D0000 [108.000000 6.475000 46.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F75D00D,   722, 0xF75D0000, 108, 17.525, 46, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0xF75D0000 [108.000000 17.525000 46.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7F75D00D,   722, 0xF75D0000, 108, 17.525, 46, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0xF75D0000 [108.000000 17.525000 46.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F75D00E, 20226, 0xF75D0105, 99.9067, 6.40467, 46.005, -0.974086, 0, 0, 0.226179, False, '2005-02-09 10:00:00'); /* Scrivener of War Magic */

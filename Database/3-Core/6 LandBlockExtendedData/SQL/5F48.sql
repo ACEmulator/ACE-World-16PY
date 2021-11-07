@@ -233,8 +233,8 @@ VALUES (0x75F4803A, 25563, 0x5F48015C, 120.961, -72.3004, -23.9948, 0.962283, 0,
 /* @teleloc 0x5F48015C [120.960999 -72.300400 -23.994801] 0.962283 0.000000 0.000000 0.272050 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75F4803B, 22899, 0x5F48015C, 116.498, -72.8831, -23.9948, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Drudge Seraph */
-/* @teleloc 0x5F48015C [116.498001 -72.883102 -23.994801] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75F4803B, 22899, 0x5F48015C, 116.498, -72.8831, -23.9948, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Drudge Seraph */
+/* @teleloc 0x5F48015C [116.498001 -72.883102 -23.994801] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4803C, 22899, 0x5F48015C, 124.17, -67.847, -23.9948, 0.7064, 0, 0, 0.707813,  True, '2005-02-09 10:00:00'); /* Drudge Seraph */
@@ -414,7 +414,7 @@ VALUES (0x75F48067, 22899, 0x5F4801B8, 7.70966, -9.0146, -17.9948, -0.020942, 0,
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F48068, 22899, 0x5F4801B8, 11.3515, -9.22647, -17.9948, 0.029052, 0, 0, 0.999578,  True, '2005-02-09 10:00:00'); /* Drudge Seraph */
-/* @teleloc 0x5F4801B8 [11.351500 -9.226470 -17.994801] 0.029051 0.000000 0.000000 0.999578 */
+/* @teleloc 0x5F4801B8 [11.351500 -9.226470 -17.994801] 0.029052 0.000000 0.000000 0.999578 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F48069, 22899, 0x5F4801BC, 13.5864, -50.3842, -17.9948, 0.998977, 0, 0, -0.04521,  True, '2005-02-09 10:00:00'); /* Drudge Seraph */

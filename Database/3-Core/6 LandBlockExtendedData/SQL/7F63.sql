@@ -14,7 +14,7 @@ VALUES (0x77F63002, 12565, 0x7F630000, 147.35, 77.2985, 49.1219, 0.635154, 0, 0,
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77F63003, 12471, 0x7F630000, 135.489, 66.8713, 49.2957, 0.088094, 0, 0, -0.996112, False, '2005-02-09 10:00:00'); /* Aqalah Portal */
-/* @teleloc 0x7F630000 [135.488998 66.871300 49.295700] 0.088093 0.000000 0.000000 -0.996112 */
+/* @teleloc 0x7F630000 [135.488998 66.871300 49.295700] 0.088094 0.000000 0.000000 -0.996112 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77F63004, 12774, 0x7F630000, 136.056, 83.7692, 48.7055, 0.726495, 0, 0, -0.687171, False, '2005-02-09 10:00:00'); /* Settlement Portals */

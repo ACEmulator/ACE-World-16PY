@@ -285,8 +285,8 @@ VALUES (0x702E6047,  1761, 0x02E60245, 49.6011, 0.23596, -5.995, 0.678557, 0, 0,
 /* @teleloc 0x02E60245 [49.601101 0.235960 -5.995000] 0.678557 0.000000 0.000000 -0.734547 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702E6048,  7615, 0x02E6025A, 70, -460, -5.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Surface Portal */
-/* @teleloc 0x02E6025A [70.000000 -460.000000 -5.995000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x702E6048,  7615, 0x02E6025A, 70, -460, -5.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Surface Portal */
+/* @teleloc 0x02E6025A [70.000000 -460.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E6049,  1761, 0x02E6025E, 88.2487, -0.168947, -5.995, -0.773889, 0, 0, -0.633322,  True, '2005-02-09 10:00:00'); /* Skeleton Captain */
@@ -341,8 +341,8 @@ VALUES (0x702E6055,  1761, 0x02E6029A, 56.4525, -60.1018, 0.005, -0.685008, 0, 0
 /* @teleloc 0x02E6029A [56.452499 -60.101799 0.005000] -0.685008 0.000000 0.000000 0.728536 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702E6058,  7615, 0x02E602B0, 70, -120, 0.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Surface Portal */
-/* @teleloc 0x02E602B0 [70.000000 -120.000000 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x702E6058,  7615, 0x02E602B0, 70, -120, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Surface Portal */
+/* @teleloc 0x02E602B0 [70.000000 -120.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E6059,  1761, 0x02E602B5, 83.3366, -19.8283, 0.005, 0.608024, 0, 0, 0.793918,  True, '2005-02-09 10:00:00'); /* Skeleton Captain */

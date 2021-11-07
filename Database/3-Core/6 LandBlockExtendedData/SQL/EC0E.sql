@@ -150,5 +150,5 @@ VALUES (0x7EC0E01D, 27853, 0xEC0E0000, 112.8, 179.694, 233.105, 0.473841, 0, 0, 
 /* @teleloc 0xEC0E0000 [112.800003 179.694000 233.104996] 0.473841 0.000000 0.000000 0.880611 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7EC0E01E, 28981, 0xEC0E0000, 155.764, 24.553, 30.977, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Xi Ru's Chapel */
-/* @teleloc 0xEC0E0000 [155.764008 24.552999 30.976999] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7EC0E01E, 28981, 0xEC0E0000, 155.764, 24.553, 30.977, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Xi Ru's Chapel */
+/* @teleloc 0xEC0E0000 [155.764008 24.552999 30.976999] 0.000000 0.000000 0.000000 -1.000000 */

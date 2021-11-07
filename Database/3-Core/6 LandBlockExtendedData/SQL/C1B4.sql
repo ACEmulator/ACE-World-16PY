@@ -2,7 +2,7 @@ DELETE FROM `landblock_instance` WHERE `landblock` = 0xC1B4;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C1B4000,   384, 0xC1B40000, 28.8499, 13.8252, 238.005, -0.082082, 0, 0, -0.996626, False, '2005-02-09 10:00:00'); /* Olthoi Generator */
-/* @teleloc 0xC1B40000 [28.849899 13.825200 238.005005] -0.082081 0.000000 0.000000 -0.996626 */
+/* @teleloc 0xC1B40000 [28.849899 13.825200 238.005005] -0.082082 0.000000 0.000000 -0.996626 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C1B4001,   384, 0xC1B40000, 36.5137, 8.83536, 238.005, 0.264636, 0, 0, -0.964348, False, '2005-02-09 10:00:00'); /* Olthoi Generator */

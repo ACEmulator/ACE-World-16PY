@@ -22,7 +22,7 @@ VALUES (0x70D09002, 0x70D09001, '2005-02-09 10:00:00') /* Stalking Margul (25864
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70D09003, 25864, 0x0D090000, 6.32793, 75.9066, 64.005, 0.999223, 0, 0, -0.03942,  True, '2005-02-09 10:00:00'); /* Stalking Margul */
-/* @teleloc 0x0D090000 [6.327930 75.906601 64.004997] 0.999223 0.000000 0.000000 -0.039419 */
+/* @teleloc 0x0D090000 [6.327930 75.906601 64.004997] 0.999223 0.000000 0.000000 -0.039420 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70D09004, 25864, 0x0D090000, 3.46099, 79.314, 64.005, 0.804151, 0, 0, -0.594426,  True, '2005-02-09 10:00:00'); /* Stalking Margul */

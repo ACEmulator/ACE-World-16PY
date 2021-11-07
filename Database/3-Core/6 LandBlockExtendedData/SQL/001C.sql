@@ -183,7 +183,7 @@ VALUES (0x7001C023, 29348, 0x001C02C0, 270.23, -500.053, 30.01, 0.998063, 0, 0, 
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001C024, 29349, 0x001C02C2, 269.553, -508.538, 30.01, 0.999935, 0, 0, 0.011363,  True, '2005-02-09 10:00:00'); /* Lithos Lugian */
-/* @teleloc 0x001C02C2 [269.553009 -508.537994 30.010000] 0.999935 0.000000 0.000000 0.011362 */
+/* @teleloc 0x001C02C2 [269.553009 -508.537994 30.010000] 0.999935 0.000000 0.000000 0.011363 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001C025, 29472, 0x001C02C3, 270.546, -521.278, 30.005, 0.502412, 0, 0, -0.864628, False, '2005-02-09 10:00:00'); /* Corpse */

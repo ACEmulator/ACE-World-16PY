@@ -1,5 +1,5 @@
 DELETE FROM `spell` WHERE `id` = 3151;
 
 INSERT INTO `spell` (`id`, `name`, `position_Obj_Cell_ID`, `position_Origin_X`, `position_Origin_Y`, `position_Origin_Z`, `position_Angles_W`, `position_Angles_X`, `position_Angles_Y`, `position_Angles_Z`, `last_Modified`)
-VALUES (3151, 'Liazk Itzi''s Offering Room', 0x62450889, 220, -210, 0, 1, 0, 0, -0, '2005-02-09 10:00:00');
-/* @teleloc 0x62450889 [220.000000 -210.000000 0.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (3151, 'Liazk Itzi''s Offering Room', 0x62450889, 220, -210, 0, 1, 0, 0, 0, '2005-02-09 10:00:00');
+/* @teleloc 0x62450889 [220.000000 -210.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */

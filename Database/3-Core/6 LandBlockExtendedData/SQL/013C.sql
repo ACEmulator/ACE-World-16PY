@@ -9,12 +9,12 @@ VALUES (0x7013C001,  1986, 0x013C0108, 40, -90, 0, 1, 0, 0, 0,  True, '2005-02-0
 /* @teleloc 0x013C0108 [40.000000 -90.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7013C002,  1986, 0x013C010B, 50, -20, 0, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Water Wisp */
-/* @teleloc 0x013C010B [50.000000 -20.000000 0.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7013C002,  1986, 0x013C010B, 50, -20, 0, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Water Wisp */
+/* @teleloc 0x013C010B [50.000000 -20.000000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7013C003,  3955, 0x013C0118, 49.5196, -47.6043, 0, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen (15 min.) */
-/* @teleloc 0x013C0118 [49.519600 -47.604301 0.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7013C003,  3955, 0x013C0118, 49.5196, -47.6043, 0, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Linkable Monster Gen (15 min.) */
+/* @teleloc 0x013C0118 [49.519600 -47.604301 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7013C003, 0x7013C000, '2005-02-09 10:00:00') /* Banderling Scout (6) */

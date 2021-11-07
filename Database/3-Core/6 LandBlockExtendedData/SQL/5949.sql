@@ -6,11 +6,11 @@ VALUES (0x75949000, 22687, 0x59490100, 3.74034, -109.845, -23.995, 0.731689, 0, 
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75949001, 22587, 0x59490103, 10.2684, -89.9007, -23.9857, 0.999887, 0, 0, 0.015035,  True, '2005-02-09 10:00:00'); /* Devastator */
-/* @teleloc 0x59490103 [10.268400 -89.900703 -23.985701] 0.999887 0.000000 0.000000 0.015034 */
+/* @teleloc 0x59490103 [10.268400 -89.900703 -23.985701] 0.999887 0.000000 0.000000 0.015035 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75949002, 22518, 0x59490103, 13.1824, -85.2039, -23.945, 0.999887, 0, 0, 0.015035,  True, '2005-02-09 10:00:00'); /* Devastator */
-/* @teleloc 0x59490103 [13.182400 -85.203903 -23.945000] 0.999887 0.000000 0.000000 0.015034 */
+/* @teleloc 0x59490103 [13.182400 -85.203903 -23.945000] 0.999887 0.000000 0.000000 0.015035 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75949003, 22518, 0x5949010B, 20.3139, -67.9582, -23.9857, 0.994333, 0, 0, -0.106313,  True, '2005-02-09 10:00:00'); /* Devastator */
@@ -98,7 +98,7 @@ VALUES (0x75949017, 22518, 0x59490150, 14.0536, -1.14253, -11.945, 0.614393, 0, 
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75949018, 22518, 0x59490151, 12.3296, -7.25014, -11.9857, 0.019214, 0, 0, 0.999815,  True, '2005-02-09 10:00:00'); /* Devastator */
-/* @teleloc 0x59490151 [12.329600 -7.250140 -11.985700] 0.019213 0.000000 0.000000 0.999815 */
+/* @teleloc 0x59490151 [12.329600 -7.250140 -11.985700] 0.019214 0.000000 0.000000 0.999815 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75949019, 22518, 0x59490152, 22.2449, -1.25611, -11.9857, 0.72166, 0, 0, 0.692247,  True, '2005-02-09 10:00:00'); /* Devastator */
@@ -385,8 +385,8 @@ VALUES (0x7594905F, 22518, 0x5949026A, 139.207, -51.4366, 6.0143, 0.851193, 0, 0
 /* @teleloc 0x5949026A [139.207001 -51.436600 6.014300] 0.851193 0.000000 0.000000 0.524852 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75949060, 22518, 0x5949026B, 140, -60, 6.0143, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Devastator */
-/* @teleloc 0x5949026B [140.000000 -60.000000 6.014300] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75949060, 22518, 0x5949026B, 140, -60, 6.0143, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Devastator */
+/* @teleloc 0x5949026B [140.000000 -60.000000 6.014300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75949061, 22518, 0x5949026C, 141.215, -112.469, 6.0143, -0.996655, 0, 0, -0.08173,  True, '2005-02-09 10:00:00'); /* Devastator */

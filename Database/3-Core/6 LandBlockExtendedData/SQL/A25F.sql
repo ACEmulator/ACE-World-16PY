@@ -9,8 +9,8 @@ VALUES (0x7A25F001,  1148, 0xA25F0000, 130.238, 64.5763, 20, 0.707107, 0, 0, 0.7
 /* @teleloc 0xA25F0000 [130.238007 64.576302 20.000000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A25F002,  1148, 0xA25F0000, 135.728, 61.5863, 20, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0xA25F0000 [135.727997 61.586300 20.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7A25F002,  1148, 0xA25F0000, 135.728, 61.5863, 20, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0xA25F0000 [135.727997 61.586300 20.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A25F003,   145, 0xA25F0126, 128.425, 124.625, 20, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Coffer */
@@ -81,8 +81,8 @@ VALUES (0x7A25F013,  1832, 0xA25F0142, 125.713, 12.0452, 20.005, 0.657146, 0, 0,
 /* @teleloc 0xA25F0142 [125.712997 12.045200 20.004999] 0.657146 0.000000 0.000000 -0.753764 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A25F014,  1804, 0xA25F0000, 151.074, 151.381, 22.9984, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Bows and Arrows */
-/* @teleloc 0xA25F0000 [151.074005 151.380997 22.998400] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7A25F014,  1804, 0xA25F0000, 151.074, 151.381, 22.9984, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Bows and Arrows */
+/* @teleloc 0xA25F0000 [151.074005 151.380997 22.998400] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A25F015,  1810, 0xA25F0000, 130.145, 132.921, 23.7908, -0.903941, 0, 0, -0.427657, False, '2005-02-09 10:00:00'); /* The Thirsty Blade */

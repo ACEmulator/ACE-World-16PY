@@ -28,4 +28,4 @@ INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_C
 VALUES (4312, 0.2, 6, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 5, 0, 0, 0.707107, 0, 0, -0.707107) /* Generate Banderling Scout (6) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (4312, 0.4, 6, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2, -1, 0, 0.766044, 0, 0, -0.642788) /* Generate Banderling Scout (6) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (4312, 0.6, 938, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0.4, 0, 0, 0.707107, 0, 0, -0.707107) /* Generate Banderling Raider (938) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (4312, 0.8, 937, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 5.2, -1, 0, -0, 0, -0, -1) /* Generate Banderling Guard (937) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+     , (4312, 0.8, 937, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 5.2, -1, 0, 0, 0, 0, -1) /* Generate Banderling Guard (937) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

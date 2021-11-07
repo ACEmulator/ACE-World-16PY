@@ -1,8 +1,8 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xF15A;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F15A006,  5520, 0xF15A0102, 110.624, 83.8996, 0.005, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Exit */
-/* @teleloc 0xF15A0102 [110.624001 83.899597 0.005000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7F15A006,  5520, 0xF15A0102, 110.624, 83.8996, 0.005, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Exit */
+/* @teleloc 0xF15A0102 [110.624001 83.899597 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F15A009,  5501, 0xF15A0000, 127.52, 103.189, 0.005, 0.92388, 0, 0, -0.382683, False, '2005-02-09 10:00:00'); /* Smugglers Hideaway */

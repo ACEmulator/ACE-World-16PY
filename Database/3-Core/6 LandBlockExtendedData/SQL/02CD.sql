@@ -65,12 +65,12 @@ VALUES (0x702CD00F,  1987, 0x02CD01FD, 65.5868, -49.9522, -5.97718, 0.731689, 0,
 /* @teleloc 0x02CD01FD [65.586800 -49.952202 -5.977180] 0.731689 0.000000 0.000000 -0.681638 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702CD010,  8198, 0x02CD0208, 19.9039, -17.6644, 0, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* The Floating City */
-/* @teleloc 0x02CD0208 [19.903900 -17.664400 0.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x702CD010,  8198, 0x02CD0208, 19.9039, -17.6644, 0, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* The Floating City */
+/* @teleloc 0x02CD0208 [19.903900 -17.664400 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702CD011,   568, 0x02CD0221, 50, -14.75, 0, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x02CD0221 [50.000000 -14.750000 0.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x702CD011,   568, 0x02CD0221, 50, -14.75, 0, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x02CD0221 [50.000000 -14.750000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702CD012,  4378, 0x02CD0225, 0, -20, 6.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Random Portal Generator */

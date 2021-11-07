@@ -220,8 +220,8 @@ VALUES (0x75648037, 22933, 0x564801DF, 150, -90, 0.01, 0.796084, 0, 0, 0.605186,
 /* @teleloc 0x564801DF [150.000000 -90.000000 0.010000] 0.796084 0.000000 0.000000 0.605186 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75648038, 22933, 0x564801E2, 150, -100, 0.01, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Mist Golem */
-/* @teleloc 0x564801E2 [150.000000 -100.000000 0.010000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75648038, 22933, 0x564801E2, 150, -100, 0.01, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Mist Golem */
+/* @teleloc 0x564801E2 [150.000000 -100.000000 0.010000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75648039, 22933, 0x564801E4, 160, -70, 0.01, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Mist Golem */

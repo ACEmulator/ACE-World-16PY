@@ -9,12 +9,12 @@ VALUES (0x75457001, 19267, 0x54570111, 140, -50, -5.995, 0.291502, 0, 0, -0.9565
 /* @teleloc 0x54570111 [140.000000 -50.000000 -5.995000] 0.291502 0.000000 0.000000 -0.956570 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75457002, 19270, 0x54570115, 150, -20, -5.9905, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Shadow */
-/* @teleloc 0x54570115 [150.000000 -20.000000 -5.990500] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75457002, 19270, 0x54570115, 150, -20, -5.9905, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Shadow */
+/* @teleloc 0x54570115 [150.000000 -20.000000 -5.990500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75457003, 19267, 0x5457011D, 150.197, -66.2079, -5.995, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Grievver */
-/* @teleloc 0x5457011D [150.197006 -66.207901 -5.995000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75457003, 19267, 0x5457011D, 150.197, -66.2079, -5.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Grievver */
+/* @teleloc 0x5457011D [150.197006 -66.207901 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75457004, 19267, 0x5457011B, 150.503, -46.15, -5.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Grievver */
@@ -183,8 +183,8 @@ VALUES (0x75457022, 19270, 0x545701DC, 15.3943, -120.143, 6.0095, 0.696707, 0, 0
 /* @teleloc 0x545701DC [15.394300 -120.142998 6.009500] 0.696707 0.000000 0.000000 -0.717356 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75457025, 19270, 0x545701E2, 19.8207, -146.232, 6.0095, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Shadow */
-/* @teleloc 0x545701E2 [19.820700 -146.231995 6.009500] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75457025, 19270, 0x545701E2, 19.8207, -146.232, 6.0095, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Shadow */
+/* @teleloc 0x545701E2 [19.820700 -146.231995 6.009500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75457026, 19270, 0x545701F4, 36.5474, -126.235, 6.0095, 0.921061, 0, 0, -0.389418,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Shadow */
@@ -235,8 +235,8 @@ VALUES (0x75457031, 19273, 0x545702B6, 40, -60, 18.058, 1, 0, 0, 0,  True, '2005
 /* @teleloc 0x545702B6 [40.000000 -60.000000 18.058001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75457032, 19273, 0x545702B9, 40, -80, 18.058, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Virindi */
-/* @teleloc 0x545702B9 [40.000000 -80.000000 18.058001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75457032, 19273, 0x545702B9, 40, -80, 18.058, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Virindi */
+/* @teleloc 0x545702B9 [40.000000 -80.000000 18.058001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75457033, 19273, 0x545702C3, 50, -50, 18.058, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Bronze Statue of a Virindi */

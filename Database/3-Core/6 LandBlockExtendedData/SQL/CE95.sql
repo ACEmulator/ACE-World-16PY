@@ -65,8 +65,8 @@ VALUES (0x7CE9500F,   412, 0xCE950000, 83.11, 113.135, 23.5, 0, 0, 0, -1, False,
 /* @teleloc 0xCE950000 [83.110001 113.135002 23.500000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CE95010,   143, 0xCE950136, 156.51, 60.105, 20.015, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Chest */
-/* @teleloc 0xCE950136 [156.509995 60.105000 20.014999] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7CE95010,   143, 0xCE950136, 156.51, 60.105, 20.015, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Chest */
+/* @teleloc 0xCE950136 [156.509995 60.105000 20.014999] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE95011,   143, 0xCE95013B, 153.955, 66.495, 26.01, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Chest */
@@ -85,8 +85,8 @@ VALUES (0x7CE95014,   412, 0xCE950000, 158.066, 62.17, 20, -0.707107, 0, 0, -0.7
 /* @teleloc 0xCE950000 [158.065994 62.169998 20.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CE95015,   412, 0xCE95013E, 156, 35.51, 20, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0xCE95013E [156.000000 35.509998 20.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7CE95015,   412, 0xCE95013E, 156, 35.51, 20, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0xCE95013E [156.000000 35.509998 20.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE95016,   145, 0xCE950143, 148.045, 31.08, 23.525, 0.709571, 0, 0, 0.704634, False, '2005-02-09 10:00:00'); /* Coffer */

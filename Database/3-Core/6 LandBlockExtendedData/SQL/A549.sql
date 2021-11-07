@@ -384,7 +384,7 @@ VALUES (0x7A549039, 0x7A549000, '2005-02-09 10:00:00') /* Floor Hook (11697) */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A54903A, 11730, 0xA5490118, 57.6602, 57.5542, 59.205, 0.032174, 0, 0, 0.999482,  True, '2005-02-09 10:00:00'); /* House Portal */
-/* @teleloc 0xA5490118 [57.660198 57.554199 59.205002] 0.032173 0.000000 0.000000 0.999482 */
+/* @teleloc 0xA5490118 [57.660198 57.554199 59.205002] 0.032174 0.000000 0.000000 0.999482 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7A54903A, 0x7A5490A1, '2005-02-09 10:00:00') /* Portal Linkspot (10762) */;

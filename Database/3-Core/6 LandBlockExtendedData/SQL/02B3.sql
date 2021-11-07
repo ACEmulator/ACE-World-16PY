@@ -53,8 +53,8 @@ VALUES (0x702B300D, 27856, 0x02B30198, 57.0245, -17.3361, 0.243134, 0.266766, 0,
 /* @teleloc 0x02B30198 [57.024502 -17.336100 0.243134] 0.266766 0.000000 0.000000 -0.963761 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702B300E,  8601, 0x02B301A0, 70, -20, 0, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Surface */
-/* @teleloc 0x02B301A0 [70.000000 -20.000000 0.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x702B300E,  8601, 0x02B301A0, 70, -20, 0, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Surface */
+/* @teleloc 0x02B301A0 [70.000000 -20.000000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B300F,  7923, 0x02B301A6, 70, -50, 0, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
@@ -112,8 +112,8 @@ VALUES (0x702B3014,  8601, 0x02B301F8, 103.135, -37.7776, 24.005, -0.778742, 0, 
 /* @teleloc 0x02B301F8 [103.135002 -37.777599 24.004999] -0.778742 0.000000 0.000000 0.627345 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702B3015, 27856, 0x02B30103, 10, -110, -17.994, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Miry Moarsman */
-/* @teleloc 0x02B30103 [10.000000 -110.000000 -17.993999] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x702B3015, 27856, 0x02B30103, 10, -110, -17.994, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Miry Moarsman */
+/* @teleloc 0x02B30103 [10.000000 -110.000000 -17.993999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B3016, 27857, 0x02B30107, 20, -100, -17.994, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Muck Glutton */

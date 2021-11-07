@@ -1,8 +1,8 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x0142;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70142014,  4950, 0x01420178, 39.9847, -46.8601, 6, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Surface Portal */
-/* @teleloc 0x01420178 [39.984699 -46.860100 6.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x70142014,  4950, 0x01420178, 39.9847, -46.8601, 6, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Surface Portal */
+/* @teleloc 0x01420178 [39.984699 -46.860100 6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70142016,   619, 0x01420101, 52.0884, -69.8269, -23.9425, 0.624053, 0, 0, -0.781382,  True, '2005-02-09 10:00:00'); /* Revenant */

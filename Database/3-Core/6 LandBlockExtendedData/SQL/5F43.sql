@@ -1,8 +1,8 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x5F43;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75F43000, 22684, 0x5F430100, 10, -88.4261, -41.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Throne of the Tusker King */
-/* @teleloc 0x5F430100 [10.000000 -88.426102 -41.994999] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75F43000, 22684, 0x5F430100, 10, -88.4261, -41.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Throne of the Tusker King */
+/* @teleloc 0x5F430100 [10.000000 -88.426102 -41.994999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F43001, 22518, 0x5F43010E, 20.1243, -86.2592, -41.945, 0.999687, 0, 0, -0.024997,  True, '2005-02-09 10:00:00'); /* Devastator */

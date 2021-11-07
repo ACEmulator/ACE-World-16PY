@@ -32,8 +32,8 @@ VALUES (28481,   1, 0x02001144) /* Setup */
      , (28481,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28481, 2, 0x02780369, 150, -100, 0.005, 1, 0, 0, -0) /* Destination */
-/* @teleloc 0x02780369 [150.000000 -100.000000 0.005000] 1.000000 0.000000 0.000000 -0.000000 */;
+VALUES (28481, 2, 0x02780369, 150, -100, 0.005, 1, 0, 0, 0) /* Destination */
+/* @teleloc 0x02780369 [150.000000 -100.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `category`, `probability`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (28481,  7 /* Use */,      1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);

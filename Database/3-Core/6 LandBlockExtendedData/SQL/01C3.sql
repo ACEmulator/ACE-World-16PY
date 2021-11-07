@@ -1,12 +1,12 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x01C3;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701C3000,  2342, 0x01C30106, 9.69263, -83.642, 0, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Surface */
-/* @teleloc 0x01C30106 [9.692630 -83.641998 0.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701C3000,  2342, 0x01C30106, 9.69263, -83.642, 0, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Surface */
+/* @teleloc 0x01C30106 [9.692630 -83.641998 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701C3001,   387, 0x01C3010D, 30, -20, 0, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Lugian Generator */
-/* @teleloc 0x01C3010D [30.000000 -20.000000 0.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701C3001,   387, 0x01C3010D, 30, -20, 0, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Lugian Generator */
+/* @teleloc 0x01C3010D [30.000000 -20.000000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701C3002,   387, 0x01C3010F, 29.4321, -42.307, 0, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Lugian Generator */
@@ -52,8 +52,8 @@ VALUES (0x701C300B,   387, 0x01C3012F, 79.7195, -47.3386, 0, -0.707107, 0, 0, -0
 /* @teleloc 0x01C3012F [79.719498 -47.338600 0.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701C300C,   387, 0x01C30131, 80, -70, 0, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Lugian Generator */
-/* @teleloc 0x01C30131 [80.000000 -70.000000 0.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701C300C,   387, 0x01C30131, 80, -70, 0, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Lugian Generator */
+/* @teleloc 0x01C30131 [80.000000 -70.000000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701C300D,   894, 0x01C30134, 91.1084, -37.4169, 0, 0.084982, 0, 0, -0.996382, False, '2005-02-09 10:00:00'); /* Lugian Lithos Generator */

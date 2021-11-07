@@ -201,16 +201,16 @@ VALUES (0x7027E060, 28039, 0x027E015B, 40, -210, 0.029, -0.785933, 0, 0, 0.61831
 /* @teleloc 0x027E015B [40.000000 -210.000000 0.029000] -0.785933 0.000000 0.000000 0.618311 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7027E061, 11541, 0x027E0162, 40, -238.854, 0.0132, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Plated Tusker */
-/* @teleloc 0x027E0162 [40.000000 -238.854004 0.013200] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7027E061, 11541, 0x027E0162, 40, -238.854, 0.0132, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Plated Tusker */
+/* @teleloc 0x027E0162 [40.000000 -238.854004 0.013200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7027E062, 11541, 0x027E0163, 39.0789, -246.61, 0.0132, 0.999906, 0, 0, -0.013677,  True, '2005-02-09 10:00:00'); /* Plated Tusker */
 /* @teleloc 0x027E0163 [39.078899 -246.610001 0.013200] 0.999906 0.000000 0.000000 -0.013677 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7027E063, 28039, 0x027E0164, 39.9893, -256.494, 0.029, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Martinate Virindi Inquisitor */
-/* @teleloc 0x027E0164 [39.989300 -256.493988 0.029000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7027E063, 28039, 0x027E0164, 39.9893, -256.494, 0.029, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Martinate Virindi Inquisitor */
+/* @teleloc 0x027E0164 [39.989300 -256.493988 0.029000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7027E064, 11541, 0x027E0165, 39.3501, -269.458, 0.0132, 0.986206, 0, 0, -0.165521,  True, '2005-02-09 10:00:00'); /* Plated Tusker */

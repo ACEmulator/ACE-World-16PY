@@ -84,7 +84,7 @@ VALUES (0x75772010,     3, 0x57720145, 37.9485, -110.173, -41.995, 0.823764, 0, 
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75772011,     3, 0x57720149, 44.5447, -157.9, -41.995, 0.998614, 0, 0, -0.052629,  True, '2005-02-09 10:00:00'); /* Olthoi Worker */
-/* @teleloc 0x57720149 [44.544701 -157.899994 -41.994999] 0.998614 0.000000 0.000000 -0.052628 */
+/* @teleloc 0x57720149 [44.544701 -157.899994 -41.994999] 0.998614 0.000000 0.000000 -0.052629 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75772012,  6640, 0x57720149, 41.6025, -162.565, -41.995, 0.801985, 0, 0, -0.597345,  True, '2005-02-09 10:00:00'); /* Olthoi Soldier */
@@ -210,12 +210,12 @@ VALUES (0x7577202D, 24304, 0x577201BF, 93.8079, -89.0343, -35.995, -0.770947, 0,
 /* @teleloc 0x577201BF [93.807899 -89.034302 -35.994999] -0.770947 0.000000 0.000000 0.636900 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7577202E,  5627, 0x577201C1, 100, -60, -35.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x577201C1 [100.000000 -60.000000 -35.994999] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7577202E,  5627, 0x577201C1, 100, -60, -35.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x577201C1 [100.000000 -60.000000 -35.994999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7577202F,  7924, 0x577201C1, 100, -58.1955, -35.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
-/* @teleloc 0x577201C1 [100.000000 -58.195499 -35.994999] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7577202F,  7924, 0x577201C1, 100, -58.1955, -35.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
+/* @teleloc 0x577201C1 [100.000000 -58.195499 -35.994999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7577202F, 0x75772005, '2005-02-09 10:00:00') /* Olthoi Swarm Nymph (24304) */
@@ -266,8 +266,8 @@ VALUES (0x75772030, 24304, 0x577201C5, 95.8407, -88.8862, -35.995, 0.354963, 0, 
 /* @teleloc 0x577201C5 [95.840698 -88.886200 -35.994999] 0.354963 0.000000 0.000000 -0.934880 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75772031,  6640, 0x577201C7, 0, -167.882, -29.995, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Olthoi Soldier */
-/* @teleloc 0x577201C7 [0.000000 -167.882004 -29.995001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75772031,  6640, 0x577201C7, 0, -167.882, -29.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Olthoi Soldier */
+/* @teleloc 0x577201C7 [0.000000 -167.882004 -29.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75772032,  6640, 0x577201CB, 9.93019, -163.202, -29.995, 0.025239, 0, 0, 0.999681,  True, '2005-02-09 10:00:00'); /* Olthoi Soldier */
@@ -330,8 +330,8 @@ VALUES (0x75772040, 22010, 0x57720213, 66.8432, -21.5193, -29.995, 0.380564, 0, 
 /* @teleloc 0x57720213 [66.843201 -21.519300 -29.995001] 0.380564 0.000000 0.000000 -0.924755 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75772041,  5627, 0x57720218, 70, -30, -29.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x57720218 [70.000000 -30.000000 -29.995001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75772041,  5627, 0x57720218, 70, -30, -29.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x57720218 [70.000000 -30.000000 -29.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75772042, 22010, 0x57720218, 69.2281, -25.9471, -29.995, 0.955712, 0, 0, 0.294302,  True, '2005-02-09 10:00:00'); /* Olthoi Servant */
@@ -954,8 +954,8 @@ VALUES (0x757720BB, 0x75772036, '2005-02-09 10:00:00') /* Olthoi Servant (22010)
      , (0x757720BB, 0x757720D1, '2005-02-09 10:00:00') /* Olthoi Nymph (213) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x757720BC, 24918, 0x57720436, 130, -120, 0.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Exit portal */
-/* @teleloc 0x57720436 [130.000000 -120.000000 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x757720BC, 24918, 0x57720436, 130, -120, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Exit portal */
+/* @teleloc 0x57720436 [130.000000 -120.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x757720BD, 22009, 0x57720440, 150.095, -123.953, 0.005, 0.068314, 0, 0, 0.997664,  True, '2005-02-09 10:00:00'); /* Olthoi Drone */

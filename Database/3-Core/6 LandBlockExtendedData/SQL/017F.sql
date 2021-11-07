@@ -131,8 +131,8 @@ VALUES (0x7017F003, 0x7017F012, '2005-02-09 10:00:00') /* Tumerok War Monger (23
      , (0x7017F003, 0x7017F08B, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7017F004,  7924, 0x017F0111, 10.997, -306.521, 0.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
-/* @teleloc 0x017F0111 [10.997000 -306.520996 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7017F004,  7924, 0x017F0111, 10.997, -306.521, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
+/* @teleloc 0x017F0111 [10.997000 -306.520996 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7017F004, 0x7017F008, '2005-02-09 10:00:00') /* Tumerok War Monger (23567) */

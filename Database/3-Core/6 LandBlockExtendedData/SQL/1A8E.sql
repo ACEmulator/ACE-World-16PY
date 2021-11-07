@@ -113,8 +113,8 @@ VALUES (0x71A8E016,  5920, 0x1A8E0158, -177.47, 135.532, 107.665, -0.908107, 0, 
 /* @teleloc 0x1A8E0158 [-177.470001 135.531998 107.665001] -0.908107 0.000000 0.000000 -0.418738 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71A8E017, 30764, 0x1A8E0158, -178, 135, 106.405, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* "Mag-Ma!" */
-/* @teleloc 0x1A8E0158 [-178.000000 135.000000 106.404999] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x71A8E017, 30764, 0x1A8E0158, -178, 135, 106.405, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* "Mag-Ma!" */
+/* @teleloc 0x1A8E0158 [-178.000000 135.000000 106.404999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A8E018, 30764, 0x1A8E0159, -168, 145, 106.405, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* "Mag-Ma!" */
@@ -365,8 +365,8 @@ VALUES (0x71A8E047, 0x71A8E045, '2005-02-09 10:00:00') /* Shadow Infiltrator (30
      , (0x71A8E047, 0x71A8E05C, '2005-02-09 10:00:00') /* Shadow Seeker (30836) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71A8E048, 30846, 0x1A8E028D, -147.97, 77.312, 178.405, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Inner Stronghold */
-/* @teleloc 0x1A8E028D [-147.970001 77.311996 178.404999] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x71A8E048, 30846, 0x1A8E028D, -147.97, 77.312, 178.405, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Inner Stronghold */
+/* @teleloc 0x1A8E028D [-147.970001 77.311996 178.404999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A8E049, 30837, 0x1A8E028E, -140.279, 95.484, 178.41, -0.73704, 0, 0, -0.675849,  True, '2005-02-09 10:00:00'); /* Shadow Infiltrator */

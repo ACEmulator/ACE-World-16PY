@@ -57,16 +57,16 @@ VALUES (0x7018700D,   958, 0x01870141, 78.722, -50.954, 0, -0.803857, 0, 0, -0.5
 /* @teleloc 0x01870141 [78.722000 -50.953999 0.000000] -0.803857 0.000000 0.000000 -0.594823 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7018700E,  4021, 0x01870149, 28.3391, -10.5745, 6, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Valuable Alu. Warrior Generator */
-/* @teleloc 0x01870149 [28.339100 -10.574500 6.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7018700E,  4021, 0x01870149, 28.3391, -10.5745, 6, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Valuable Alu. Warrior Generator */
+/* @teleloc 0x01870149 [28.339100 -10.574500 6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7018700F,  1760, 0x01870149, 32.4123, -6.83615, 6.0025, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Skeleton Warrior */
-/* @teleloc 0x01870149 [32.412300 -6.836150 6.002500] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7018700F,  1760, 0x01870149, 32.4123, -6.83615, 6.0025, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Skeleton Warrior */
+/* @teleloc 0x01870149 [32.412300 -6.836150 6.002500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70187010,  1154, 0x01870149, 29.0486, -8.53969, 6, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator */
-/* @teleloc 0x01870149 [29.048599 -8.539690 6.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x70187010,  1154, 0x01870149, 29.0486, -8.53969, 6, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator */
+/* @teleloc 0x01870149 [29.048599 -8.539690 6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x70187010, 0x7018700F, '2005-02-09 10:00:00') /* Skeleton Warrior (1760) */;

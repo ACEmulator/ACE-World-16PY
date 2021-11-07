@@ -77,8 +77,8 @@ VALUES (0x702CC00E,  8200, 0x02CC0128, 3, -20, 6, 1, 0, 0, 0, False, '2005-02-09
 /* @teleloc 0x02CC0128 [3.000000 -20.000000 6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702CC00F,  5624, 0x02CC012D, 10, -4.75, 6, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x02CC012D [10.000000 -4.750000 6.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x702CC00F,  5624, 0x02CC012D, 10, -4.75, 6, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x02CC012D [10.000000 -4.750000 6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702CC010,   204, 0x02CC0134, 10.5658, -18.4782, 6.0075, -0.998857, 0, 0, 0.047808,  True, '2005-02-09 10:00:00'); /* Lich */
@@ -109,24 +109,24 @@ VALUES (0x702CC016,   204, 0x02CC013E, 17.2123, -20.3522, 6.0075, -0.876538, 0, 
 /* @teleloc 0x02CC013E [17.212299 -20.352200 6.007500] -0.876538 0.000000 0.000000 -0.481332 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702CC017,   152, 0x02CC0145, 56.7287, 3.33588, 6, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Font */
-/* @teleloc 0x02CC0145 [56.728699 3.335880 6.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x702CC017,   152, 0x02CC0145, 56.7287, 3.33588, 6, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Font */
+/* @teleloc 0x02CC0145 [56.728699 3.335880 6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702CC018,   950, 0x02CC0145, 60.4891, 0.059011, 6.0075, 0.008445, 0, 0, -0.999964,  True, '2005-02-09 10:00:00'); /* Zombie */
 /* @teleloc 0x02CC0145 [60.489101 0.059011 6.007500] 0.008445 0.000000 0.000000 -0.999964 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702CC019,  5624, 0x02CC0147, 60, -4.755, 6, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x02CC0147 [60.000000 -4.755000 6.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x702CC019,  5624, 0x02CC0147, 60, -4.755, 6, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x02CC0147 [60.000000 -4.755000 6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702CC01A,   950, 0x02CC0149, 69.7128, -1.9606, 6.0075, -0.044976, 0, 0, 0.998988,  True, '2005-02-09 10:00:00'); /* Zombie */
 /* @teleloc 0x02CC0149 [69.712799 -1.960600 6.007500] -0.044976 0.000000 0.000000 0.998988 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702CC01B,  5624, 0x02CC014B, 70, -4.755, 6, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x02CC014B [70.000000 -4.755000 6.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x702CC01B,  5624, 0x02CC014B, 70, -4.755, 6, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x02CC014B [70.000000 -4.755000 6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702CC01C,  5624, 0x02CC014E, 65.25, -10, 6, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */

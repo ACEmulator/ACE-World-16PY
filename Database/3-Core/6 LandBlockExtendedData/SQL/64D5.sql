@@ -103,8 +103,8 @@ VALUES (0x764D5020, 0x764D501F, '2005-02-09 10:00:00') /* Agent of the Arcanum (
      , (0x764D5020, 0x764D5046, '2005-02-09 10:00:00') /* Cyphis Suldow (30627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x764D5021,   412, 0x64D50000, 61.6809, 41.6629, 78, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x64D50000 [61.680901 41.662899 78.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x764D5021,   412, 0x64D50000, 61.6809, 41.6629, 78, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x64D50000 [61.680901 41.662899 78.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x764D5022, 12304, 0x64D50000, 56.6276, 42.7309, 78.005, -0.01078, 0, 0, -0.999942, False, '2005-02-09 10:00:00'); /* Agent of the Arcanum  */
@@ -124,7 +124,7 @@ VALUES (0x764D502F, 19206, 0x64D50000, 83.8452, 83.3074, 84.82, 0.740886, 0, 0, 
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x764D5030, 19716, 0x64D50130, 84.9684, 96.0482, 72.805, 0.999685, 0, 0, -0.025101, False, '2005-02-09 10:00:00'); /* Mammet Foundry Portal */
-/* @teleloc 0x64D50130 [84.968399 96.048203 72.805000] 0.999685 0.000000 0.000000 -0.025100 */
+/* @teleloc 0x64D50130 [84.968399 96.048203 72.805000] 0.999685 0.000000 0.000000 -0.025101 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x764D5032, 23631, 0x64D50000, 74.7084, 76.0736, 125.226, 0.99994, 0, 0, -0.010957, False, '2005-02-09 10:00:00'); /* April 2003 Raining Mad Cows Gen */

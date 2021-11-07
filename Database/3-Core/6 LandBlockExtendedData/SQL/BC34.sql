@@ -18,7 +18,7 @@ VALUES (0x7BC34003,   720, 0xBC340000, 12, 145.475, 56, 1, 0, 0, 0, False, '2005
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC34004,   509, 0xBC340000, 13.189, 138.207, 56.4879, 0.999311, 0, 0, 0.037119, False, '2005-02-09 10:00:00'); /* Life Stone */
-/* @teleloc 0xBC340000 [13.189000 138.207001 56.487900] 0.999311 0.000000 0.000000 0.037118 */
+/* @teleloc 0xBC340000 [13.189000 138.207001 56.487900] 0.999311 0.000000 0.000000 0.037119 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC34005,  1392, 0xBC34010B, 18.0129, 160.043, 58.505, -0.445302, 0, 0, -0.895381, False, '2005-02-09 10:00:00'); /* Peddler */

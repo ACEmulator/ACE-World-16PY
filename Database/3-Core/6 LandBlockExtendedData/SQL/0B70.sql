@@ -160,8 +160,8 @@ VALUES (0x70B7001F, 27711, 0x0B700000, 76.0726, 75.6859, 90.005, -0.106273, 0, 0
 /* @teleloc 0x0B700000 [76.072601 75.685898 90.004997] -0.106273 0.000000 0.000000 0.994337 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70B70020, 30628, 0x0B700000, 64.8307, 99.3507, 95.6854, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Drudge Flying Machine */
-/* @teleloc 0x0B700000 [64.830704 99.350700 95.685402] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x70B70020, 30628, 0x0B700000, 64.8307, 99.3507, 95.6854, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Drudge Flying Machine */
+/* @teleloc 0x0B700000 [64.830704 99.350700 95.685402] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70B70021,  7923, 0x0B700118, 75.14, 99.9033, 95.965, -0.701288, 0, 0, 0.712878, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */

@@ -260,8 +260,8 @@ VALUES (0x702E503D,  7334, 0x02E50299, 84.4278, -348.928, 6.005, 0.719812, 0, 0,
 /* @teleloc 0x02E50299 [84.427803 -348.928009 6.005000] 0.719812 0.000000 0.000000 -0.694169 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702E503E,  7617, 0x02E5029B, 90, -300, 6.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Surface Portal */
-/* @teleloc 0x02E5029B [90.000000 -300.000000 6.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x702E503E,  7617, 0x02E5029B, 90, -300, 6.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Surface Portal */
+/* @teleloc 0x02E5029B [90.000000 -300.000000 6.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E503F, 22208, 0x02E502C0, 130, -334.498, 6.005, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Skeleton Wraith */
@@ -312,8 +312,8 @@ VALUES (0x702E504A, 22208, 0x02E50316, 200.577, -247.97, 6.005, 0.990145, 0, 0, 
 /* @teleloc 0x02E50316 [200.576996 -247.970001 6.005000] 0.990145 0.000000 0.000000 0.140046 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702E504B,  7334, 0x02E50319, 198.007, -277.873, 6.005, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Skeleton Bone Knight */
-/* @teleloc 0x02E50319 [198.007004 -277.872986 6.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x702E504B,  7334, 0x02E50319, 198.007, -277.873, 6.005, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Skeleton Bone Knight */
+/* @teleloc 0x02E50319 [198.007004 -277.872986 6.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E504C, 22208, 0x02E5032B, 221.299, -371.895, 6.005, 0.939153, 0, 0, 0.3435,  True, '2005-02-09 10:00:00'); /* Skeleton Wraith */

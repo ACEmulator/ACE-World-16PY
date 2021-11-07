@@ -5,8 +5,8 @@ VALUES (0x75F4D000, 28025, 0x5F4D0100, 78.1, -274.75, 2.2, 1, 0, 0, 0, False, '2
 /* @teleloc 0x5F4D0100 [78.099998 -274.750000 2.200000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75F4D001, 28025, 0x5F4D0101, 78.3047, -278.383, 2.2, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Virulent Air */
-/* @teleloc 0x5F4D0101 [78.304703 -278.382996 2.200000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75F4D001, 28025, 0x5F4D0101, 78.3047, -278.383, 2.2, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Virulent Air */
+/* @teleloc 0x5F4D0101 [78.304703 -278.382996 2.200000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4D002,  4219, 0x5F4D0104, 90, -280, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 7 Min.) */
@@ -116,16 +116,16 @@ VALUES (0x75F4D010, 28025, 0x5F4D0119, 70, -200, 6, 0.707107, 0, 0, -0.707107, F
 /* @teleloc 0x5F4D0119 [70.000000 -200.000000 6.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75F4D011, 28025, 0x5F4D011A, 70, -210, 6, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Virulent Air */
-/* @teleloc 0x5F4D011A [70.000000 -210.000000 6.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75F4D011, 28025, 0x5F4D011A, 70, -210, 6, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Virulent Air */
+/* @teleloc 0x5F4D011A [70.000000 -210.000000 6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75F4D012, 28025, 0x5F4D011B, 70, -220, 6, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Virulent Air */
-/* @teleloc 0x5F4D011B [70.000000 -220.000000 6.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75F4D012, 28025, 0x5F4D011B, 70, -220, 6, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Virulent Air */
+/* @teleloc 0x5F4D011B [70.000000 -220.000000 6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75F4D013, 28025, 0x5F4D011B, 70.968, -221.973, 6, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Virulent Air */
-/* @teleloc 0x5F4D011B [70.968002 -221.973007 6.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75F4D013, 28025, 0x5F4D011B, 70.968, -221.973, 6, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Virulent Air */
+/* @teleloc 0x5F4D011B [70.968002 -221.973007 6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4D014, 28025, 0x5F4D0121, 78.1, -234.75, 8.2, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Virulent Air */
@@ -200,12 +200,12 @@ VALUES (0x75F4D025, 28025, 0x5F4D013E, 120, -200, 6, 0.707107, 0, 0, -0.707107, 
 /* @teleloc 0x5F4D013E [120.000000 -200.000000 6.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75F4D026, 28025, 0x5F4D013F, 120, -210, 6, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Virulent Air */
-/* @teleloc 0x5F4D013F [120.000000 -210.000000 6.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75F4D026, 28025, 0x5F4D013F, 120, -210, 6, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Virulent Air */
+/* @teleloc 0x5F4D013F [120.000000 -210.000000 6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75F4D027, 28025, 0x5F4D0140, 120, -220, 6, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Virulent Air */
-/* @teleloc 0x5F4D0140 [120.000000 -220.000000 6.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75F4D027, 28025, 0x5F4D0140, 120, -220, 6, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Virulent Air */
+/* @teleloc 0x5F4D0140 [120.000000 -220.000000 6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4D028, 27989, 0x5F4D014F, 60, -170, 12.005, 0.659983, 0, 0, 0.75128,  True, '2005-02-09 10:00:00'); /* Guruk Smasher */
@@ -260,8 +260,8 @@ VALUES (0x75F4D034, 27989, 0x5F4D01D5, 70, -110, 18.005, -0.0292, 0, 0, 0.999574
 /* @teleloc 0x5F4D01D5 [70.000000 -110.000000 18.004999] -0.029200 0.000000 0.000000 0.999574 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75F4D035, 27989, 0x5F4D01FB, 90.1862, -135.625, 18.005, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Guruk Smasher */
-/* @teleloc 0x5F4D01FB [90.186203 -135.625000 18.004999] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75F4D035, 27989, 0x5F4D01FB, 90.1862, -135.625, 18.005, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Guruk Smasher */
+/* @teleloc 0x5F4D01FB [90.186203 -135.625000 18.004999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4D036, 27989, 0x5F4D020D, 110, -110, 18.005, -0.004204, 0, 0, 0.999991,  True, '2005-02-09 10:00:00'); /* Guruk Smasher */
@@ -372,8 +372,8 @@ VALUES (0x75F4D050, 28025, 0x5F4D0317, 81.1547, -109.333, 30, -0.707107, 0, 0, -
 /* @teleloc 0x5F4D0317 [81.154701 -109.333000 30.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75F4D051, 28025, 0x5F4D0319, 85.25, -81.9, 32.2, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Virulent Air */
-/* @teleloc 0x5F4D0319 [85.250000 -81.900002 32.200001] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75F4D051, 28025, 0x5F4D0319, 85.25, -81.9, 32.2, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Virulent Air */
+/* @teleloc 0x5F4D0319 [85.250000 -81.900002 32.200001] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4D052, 28025, 0x5F4D031C, 90, -90.1466, 30.2444, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Virulent Air */
@@ -404,16 +404,16 @@ VALUES (0x75F4D058, 27982, 0x5F4D0323, 97.6698, -99.5835, 30.005, 0.53046, 0, 0,
 /* @teleloc 0x5F4D0323 [97.669800 -99.583504 30.004999] 0.530460 0.000000 0.000000 0.847710 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75F4D059, 28025, 0x5F4D0323, 99.8534, -100, 30.2444, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Virulent Air */
-/* @teleloc 0x5F4D0323 [99.853401 -100.000000 30.244400] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75F4D059, 28025, 0x5F4D0323, 99.8534, -100, 30.2444, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Virulent Air */
+/* @teleloc 0x5F4D0323 [99.853401 -100.000000 30.244400] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4D05A, 27979, 0x5F4D0324, 97.5955, -106.721, 30.005, 0.89304, 0, 0, 0.449978,  True, '2005-02-09 10:00:00'); /* Guruk Beast */
 /* @teleloc 0x5F4D0324 [97.595497 -106.721001 30.004999] 0.893040 0.000000 0.000000 0.449978 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75F4D05B, 28025, 0x5F4D0324, 98.8453, -109.333, 30, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Virulent Air */
-/* @teleloc 0x5F4D0324 [98.845299 -109.333000 30.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75F4D05B, 28025, 0x5F4D0324, 98.8453, -109.333, 30, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Virulent Air */
+/* @teleloc 0x5F4D0324 [98.845299 -109.333000 30.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4D05C, 27985, 0x5F4D032A, 81.4938, -21.7036, 36.005, 0.400968, 0, 0, -0.916092,  True, '2005-02-09 10:00:00'); /* Guruk Destroyer */
@@ -503,8 +503,8 @@ VALUES (0x75F4D06C, 28025, 0x5F4D0336, 90, -50, 36, -0.707107, 0, 0, -0.707107, 
 /* @teleloc 0x5F4D0336 [90.000000 -50.000000 36.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75F4D06D, 28025, 0x5F4D0337, 88.1, -64.75, 38.2, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Virulent Air */
-/* @teleloc 0x5F4D0337 [88.099998 -64.750000 38.200001] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75F4D06D, 28025, 0x5F4D0337, 88.1, -64.75, 38.2, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Virulent Air */
+/* @teleloc 0x5F4D0337 [88.099998 -64.750000 38.200001] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4D06E, 28025, 0x5F4D0338, 90, -70, 36, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Virulent Air */
@@ -515,16 +515,16 @@ VALUES (0x75F4D06F, 27985, 0x5F4D033C, 98.4141, -21.1967, 36.005, -0.384026, 0, 
 /* @teleloc 0x5F4D033C [98.414101 -21.196699 36.005001] -0.384026 0.000000 0.000000 -0.923322 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75F4D070, 28025, 0x5F4D033D, 100, -30, 36, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Virulent Air */
-/* @teleloc 0x5F4D033D [100.000000 -30.000000 36.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75F4D070, 28025, 0x5F4D033D, 100, -30, 36, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Virulent Air */
+/* @teleloc 0x5F4D033D [100.000000 -30.000000 36.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4D071, 27982, 0x5F4D033E, 101.998, -39.8727, 36.005, 0.74532, 0, 0, 0.666707,  True, '2005-02-09 10:00:00'); /* Guruk Brute */
 /* @teleloc 0x5F4D033E [101.998001 -39.872700 36.005001] 0.745320 0.000000 0.000000 0.666707 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75F4D072, 28025, 0x5F4D033E, 100, -40, 36, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Virulent Air */
-/* @teleloc 0x5F4D033E [100.000000 -40.000000 36.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75F4D072, 28025, 0x5F4D033E, 100, -40, 36, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Virulent Air */
+/* @teleloc 0x5F4D033E [100.000000 -40.000000 36.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4D073, 28025, 0x5F4D011C, 71.9, -240.95, 8.2, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Virulent Air */
@@ -555,8 +555,8 @@ VALUES (0x75F4D079, 28025, 0x5F4D030F, 53.2455, -101.769, 32.2, 0, 0, 0, -1, Fal
 /* @teleloc 0x5F4D030F [53.245499 -101.768997 32.200001] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75F4D07A, 28025, 0x5F4D0310, 62.2955, -92.7193, 33.3, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Virulent Air */
-/* @teleloc 0x5F4D0310 [62.295502 -92.719299 33.299999] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75F4D07A, 28025, 0x5F4D0310, 62.2955, -92.7193, 33.3, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Virulent Air */
+/* @teleloc 0x5F4D0310 [62.295502 -92.719299 33.299999] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4D07B, 28025, 0x5F4D0322, 95.75, -87.2167, 32.2, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Virulent Air */

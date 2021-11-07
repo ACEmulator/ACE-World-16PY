@@ -2154,15 +2154,15 @@ VALUES (0x7DB631AB, 11697, 0xDB63013C, 158.783, 88.7136, 26.1, 0.999994, 0, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB631AC,  9686, 0xDB630000, 150.105, 80.3454, 33.5, 0.707634, -0.051345, 0.050998, -0.702864,  True, '2005-02-09 10:00:00'); /* Wall Hook */
-/* @teleloc 0xDB630000 [150.104996 80.345398 33.500000] 0.707634 -0.051344 0.050998 -0.702864 */
+/* @teleloc 0xDB630000 [150.104996 80.345398 33.500000] 0.707634 -0.051345 0.050998 -0.702864 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB631AD,  9686, 0xDB630000, 149.919, 78.1936, 31.45, 0.707634, -0.051345, 0.050998, -0.702864,  True, '2005-02-09 10:00:00'); /* Wall Hook */
-/* @teleloc 0xDB630000 [149.919006 78.193604 31.450001] 0.707634 -0.051344 0.050998 -0.702864 */
+/* @teleloc 0xDB630000 [149.919006 78.193604 31.450001] 0.707634 -0.051345 0.050998 -0.702864 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB631AE,  9686, 0xDB630000, 149.89, 82.4862, 31.45, 0.707634, -0.051345, 0.050998, -0.702864,  True, '2005-02-09 10:00:00'); /* Wall Hook */
-/* @teleloc 0xDB630000 [149.889999 82.486198 31.450001] 0.707634 -0.051344 0.050998 -0.702864 */
+/* @teleloc 0xDB630000 [149.889999 82.486198 31.450001] 0.707634 -0.051345 0.050998 -0.702864 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB631AF, 12679, 0xDB630000, 149.443, 84.428, 30.15, 0.376933, 0, 0, -0.926241,  True, '2005-02-09 10:00:00'); /* Yard Hook */

@@ -74,8 +74,8 @@ VALUES (10737,   1, 0x02000041) /* Setup */
      , (10737,  31,      10732) /* LinkedPortalOne - Director's Chambers Portal */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10737, 12, 0x0298010F, 200, -443, -18, -0, 0, -0, -1) /* PortalSummonLoc */
-/* @teleloc 0x0298010F [200.000000 -443.000000 -18.000000] -0.000000 0.000000 -0.000000 -1.000000 */;
+VALUES (10737, 12, 0x0298010F, 200, -443, -18, 0, 0, 0, -1) /* PortalSummonLoc */
+/* @teleloc 0x0298010F [200.000000 -443.000000 -18.000000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10737,   1,  30, 0, 0) /* Strength */

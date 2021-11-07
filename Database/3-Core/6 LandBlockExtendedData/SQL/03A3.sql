@@ -208,8 +208,8 @@ VALUES (0x703A3031,  4101, 0x03A301DA, 51.8, -519.861, 0.0055, -0.030656, 0, 0, 
 /* @teleloc 0x03A301DA [51.799999 -519.861023 0.005500] -0.030656 0.000000 0.000000 -0.999530 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x703A3032,  7924, 0x03A30201, 70, -590, 0.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
-/* @teleloc 0x03A30201 [70.000000 -590.000000 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x703A3032,  7924, 0x03A30201, 70, -590, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
+/* @teleloc 0x03A30201 [70.000000 -590.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x703A3032, 0x703A3001, '2005-02-09 10:00:00') /* Crafty Simulacrum (12130) */

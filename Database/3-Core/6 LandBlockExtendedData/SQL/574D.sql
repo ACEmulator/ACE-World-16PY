@@ -9,8 +9,8 @@ VALUES (0x7574D001,  5627, 0x574D0149, 109.996, -4.60257, 0.005, 1, 0, 0, 0, Fal
 /* @teleloc 0x574D0149 [109.996002 -4.602570 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7574D002,  5627, 0x574D0154, 110.004, -25.3974, 0.005, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x574D0154 [110.003998 -25.397400 0.005000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7574D002,  5627, 0x574D0154, 110.004, -25.3974, 0.005, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x574D0154 [110.003998 -25.397400 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7574D003, 23481, 0x574D0101, 10.2848, -24.4223, -5.87399, -0.535367, 0, 0, 0.84462,  True, '2005-02-09 10:00:00'); /* Olthoi Mutilator */
@@ -91,8 +91,8 @@ VALUES (0x7574D011, 0x7574D003, '2005-02-09 10:00:00') /* Olthoi Mutilator (2348
      , (0x7574D011, 0x7574D013, '2005-02-09 10:00:00') /* Olthoi Mutilator (23481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7574D012,  5627, 0x574D0165, 140.004, -25.3974, 0.005, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x574D0165 [140.003998 -25.397400 0.005000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7574D012,  5627, 0x574D0165, 140.004, -25.3974, 0.005, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x574D0165 [140.003998 -25.397400 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7574D013, 23481, 0x574D0165, 140.035, -27.0428, 0.005, 0.999928, 0, 0, 0.011971,  True, '2005-02-09 10:00:00'); /* Olthoi Mutilator */

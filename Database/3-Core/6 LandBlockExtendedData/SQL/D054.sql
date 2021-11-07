@@ -21,8 +21,8 @@ VALUES (0x7D054004,   722, 0xD0540000, 73.225, 87, 238, 0.707107, 0, 0, -0.70710
 /* @teleloc 0xD0540000 [73.224998 87.000000 238.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D054005,   720, 0xD0540130, 107.98, 67.3, 238, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Sliding Door */
-/* @teleloc 0xD0540130 [107.980003 67.300003 238.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7D054005,   720, 0xD0540130, 107.98, 67.3, 238, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Sliding Door */
+/* @teleloc 0xD0540130 [107.980003 67.300003 238.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D054006,   720, 0xD0540131, 108.045, 52.745, 238, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Sliding Door */
@@ -45,8 +45,8 @@ VALUES (0x7D05400A,   720, 0xD054013B, 100.75, 59.975, 243.6, 0.707107, 0, 0, -0
 /* @teleloc 0xD054013B [100.750000 59.974998 243.600006] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D05400B,   720, 0xD054013C, 107.975, 67.305, 243.6, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Sliding Door */
-/* @teleloc 0xD054013C [107.974998 67.305000 243.600006] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7D05400B,   720, 0xD054013C, 107.975, 67.305, 243.6, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Sliding Door */
+/* @teleloc 0xD054013C [107.974998 67.305000 243.600006] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D05400C,   720, 0xD054013D, 108.04, 52.745, 243.6, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Sliding Door */

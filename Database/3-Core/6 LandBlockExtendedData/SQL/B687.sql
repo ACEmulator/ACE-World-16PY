@@ -58,7 +58,7 @@ VALUES (0x7B68700D,   412, 0xB6870000, 69.4, 115.005, 84.8, 1, 0, 0, 0, False, '
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B68700E, 22118, 0xB6870000, 72.882, 100.994, 80.005, 0.999919, 0, 0, -0.012766, False, '2005-02-09 10:00:00'); /* Frest Greelving's Mansion */
-/* @teleloc 0xB6870000 [72.882004 100.994003 80.004997] 0.999919 0.000000 0.000000 -0.012765 */
+/* @teleloc 0xB6870000 [72.882004 100.994003 80.004997] 0.999919 0.000000 0.000000 -0.012766 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B68700F, 22083, 0xB6870175, 52.5394, 102.069, 80.005, -0.690248, 0, 0, -0.723573, False, '2005-02-09 10:00:00'); /* Frest Greelving's Chest */
@@ -85,8 +85,8 @@ VALUES (0x7B687014, 22089, 0xB6870152, 67.2903, 126.942, 56.005, -0.717532, 0, 0
 /* @teleloc 0xB6870152 [67.290298 126.942001 56.005001] -0.717532 0.000000 0.000000 0.696526 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B68701B, 22086, 0xB687014F, 54.1135, 136.078, 60.882, -1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0xB687014F [54.113499 136.078003 60.882000] -1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7B68701B, 22086, 0xB687014F, 54.1135, 136.078, 60.882, -1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0xB687014F [54.113499 136.078003 60.882000] -1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B68701C,  2179, 0xB6870159, 69.6022, 139.473, 60.805, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Door */

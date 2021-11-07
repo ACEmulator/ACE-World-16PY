@@ -80,7 +80,7 @@ VALUES (0x7307200F, 10807, 0x30720000, 60.9662, 190.894, 41.005, -0.947105, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73072010, 10807, 0x30720000, 60.7793, 166.763, 41.005, -0.044079, 0, 0, 0.999028,  True, '2005-02-09 10:00:00'); /* Augmented Tumerok */
-/* @teleloc 0x30720000 [60.779301 166.763000 41.005001] -0.044078 0.000000 0.000000 0.999028 */
+/* @teleloc 0x30720000 [60.779301 166.763000 41.005001] -0.044079 0.000000 0.000000 0.999028 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73072011,  7346, 0x30720000, 60.2046, 161.121, 44.8065, 0.548782, 0, 0, 0.835965,  True, '2005-02-09 10:00:00'); /* Banderling Enforcer */

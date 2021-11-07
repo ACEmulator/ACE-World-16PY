@@ -100,12 +100,12 @@ VALUES (0x70020017, 28647, 0x00200207, 382.718, -163.277, -23.995, 0.965578, 0, 
 /* @teleloc 0x00200207 [382.717987 -163.276993 -23.995001] 0.965578 0.000000 0.000000 0.260115 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70020018, 28650, 0x0020020D, 389, -176.987, -23.995, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
-/* @teleloc 0x0020020D [389.000000 -176.987000 -23.995001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x70020018, 28650, 0x0020020D, 389, -176.987, -23.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
+/* @teleloc 0x0020020D [389.000000 -176.987000 -23.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70020019, 28650, 0x0020020D, 387.758, -178.234, -23.995, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
-/* @teleloc 0x0020020D [387.757996 -178.233994 -23.995001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x70020019, 28650, 0x0020020D, 387.758, -178.234, -23.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
+/* @teleloc 0x0020020D [387.757996 -178.233994 -23.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7002001A, 28643, 0x00200211, 429.859, -182.361, -23.995, -0.674728, 0, 0, -0.738067,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
@@ -127,8 +127,8 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x7002001D, 0x7002001E, '2005-02-09 10:00:00') /* Lever (2609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7002001E,  2609, 0x00200244, 250, -107.5, -11.995, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Lever */
-/* @teleloc 0x00200244 [250.000000 -107.500000 -11.995000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7002001E,  2609, 0x00200244, 250, -107.5, -11.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Lever */
+/* @teleloc 0x00200244 [250.000000 -107.500000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7002001F, 28650, 0x00200249, 250.261, -141.537, -11.995, -0.07891, 0, 0, -0.996882,  True, '2005-02-09 10:00:00'); /* Drudge Prowler */
@@ -191,8 +191,8 @@ VALUES (0x7002002D, 28647, 0x002002D2, 47.6222, -100.683, 0.005, 0.968912, 0, 0,
 /* @teleloc 0x002002D2 [47.622200 -100.682999 0.005000] 0.968912 0.000000 0.000000 -0.247404 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7002002E, 29499, 0x002002D5, 60, 0, 0.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Corcima Castle Central Ward */
-/* @teleloc 0x002002D5 [60.000000 0.000000 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7002002E, 29499, 0x002002D5, 60, 0, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Corcima Castle Central Ward */
+/* @teleloc 0x002002D5 [60.000000 0.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7002002F,  7932, 0x002002E1, 60, -100, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 4 Min.) */

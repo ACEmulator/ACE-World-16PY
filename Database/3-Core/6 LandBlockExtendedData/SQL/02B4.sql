@@ -53,8 +53,8 @@ VALUES (0x702B400C,  1925, 0x02B40121, 96.0675, -75.5696, -35.995, 1, 0, 0, 0, F
 /* @teleloc 0x02B40121 [96.067497 -75.569603 -35.994999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702B400D,  1925, 0x02B40123, 98.1544, -104.42, -35.995, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Chest */
-/* @teleloc 0x02B40123 [98.154404 -104.419998 -35.994999] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x702B400D,  1925, 0x02B40123, 98.1544, -104.42, -35.995, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Chest */
+/* @teleloc 0x02B40123 [98.154404 -104.419998 -35.994999] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B400E,  1758, 0x02B40129, 110.317, -71.0443, -35.995, 0.068538, 0, 0, 0.997649,  True, '2005-02-09 10:00:00'); /* Shadow */
@@ -158,7 +158,7 @@ VALUES (0x702B4026,  8428, 0x02B40177, 6.56926, -176.791, -11.9934, -0.99932, 0,
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B4027,  8427, 0x02B4017F, 19.9626, -69.7857, -11.9934, 0.061004, 0, 0, -0.998138,  True, '2005-02-09 10:00:00'); /* Mosswart Fanatic */
-/* @teleloc 0x02B4017F [19.962601 -69.785698 -11.993400] 0.061003 0.000000 0.000000 -0.998138 */
+/* @teleloc 0x02B4017F [19.962601 -69.785698 -11.993400] 0.061004 0.000000 0.000000 -0.998138 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702B4028,  8428, 0x02B40187, 21.086, -132.677, -11.9934, 0.999987, 0, 0, -0.005194,  True, '2005-02-09 10:00:00'); /* Mosswart Idolator */

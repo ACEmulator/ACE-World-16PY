@@ -1,12 +1,12 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x193F;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7193F000,  2214, 0x193F0000, 36, 114.5, 80.005, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x193F0000 [36.000000 114.500000 80.004997] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7193F000,  2214, 0x193F0000, 36, 114.5, 80.005, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x193F0000 [36.000000 114.500000 80.004997] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7193F001,  2214, 0x193F0000, 12, 114.5, 80.005, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x193F0000 [12.000000 114.500000 80.004997] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7193F001,  2214, 0x193F0000, 12, 114.5, 80.005, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x193F0000 [12.000000 114.500000 80.004997] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7193F008,  2486, 0x193F0000, 33.2917, 177.855, 95.206, -0.413918, 0, 0, 0.910314,  True, '2005-02-09 10:00:00'); /* Tumerok High Priest */

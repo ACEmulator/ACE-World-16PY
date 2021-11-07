@@ -963,7 +963,7 @@ VALUES (0x7AE9108F, 11711, 0xAE910000, 83.8169, 40.4816, 28.005, -0.016053, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE91090, 11711, 0xAE910000, 39.1245, 35.0213, 26.005, -0.999821, 0, 0, 0.018912,  True, '2005-02-09 10:00:00'); /* Cottage */
-/* @teleloc 0xAE910000 [39.124500 35.021301 26.004999] -0.999821 0.000000 0.000000 0.018911 */
+/* @teleloc 0xAE910000 [39.124500 35.021301 26.004999] -0.999821 0.000000 0.000000 0.018912 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE91091, 11711, 0xAE910000, 39.6257, 82.6986, 36.005, -0.716564, 0, 0, -0.697521,  True, '2005-02-09 10:00:00'); /* Cottage */

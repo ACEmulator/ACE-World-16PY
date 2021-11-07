@@ -608,8 +608,8 @@ VALUES (0x7634B094, 27861, 0x634B0386, 32.612, -19.7636, -5.9936, -0.693405, 0, 
 /* @teleloc 0x634B0386 [32.612000 -19.763599 -5.993600] -0.693405 0.000000 0.000000 0.720548 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7634B095,  2179, 0x634B0387, 30, -24.8521, -5.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x634B0387 [30.000000 -24.852100 -5.995000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7634B095,  2179, 0x634B0387, 30, -24.8521, -5.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x634B0387 [30.000000 -24.852100 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7634B096,  7181, 0x634B0387, 29.8457, -23.6446, -5.9936, -0.992694, 0, 0, 0.120656,  True, '2005-02-09 10:00:00'); /* Desolation Moarsman */
@@ -656,8 +656,8 @@ VALUES (0x7634B0A0,  4247, 0x634B03D5, 61.4947, -90.4544, -5.99456, -0.728121, 0
 /* @teleloc 0x634B03D5 [61.494701 -90.454399 -5.994560] -0.728121 0.000000 0.000000 -0.685448 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7634B0A1,  2179, 0x634B03D7, 70, -24.7862, -5.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x634B03D7 [70.000000 -24.786200 -5.995000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7634B0A1,  2179, 0x634B03D7, 70, -24.7862, -5.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x634B03D7 [70.000000 -24.786200 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7634B0A2,  4248, 0x634B03D7, 70.0074, -22.9585, -5.99328, -0.999982, 0, 0, -0.005988,  True, '2005-02-09 10:00:00'); /* Putrid Moarsman */

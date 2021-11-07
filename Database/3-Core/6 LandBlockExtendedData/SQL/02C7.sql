@@ -250,8 +250,8 @@ VALUES (0x702C702A, 0x702C7000, '2005-02-09 10:00:00') /* Drudge Ravener (1610) 
      , (0x702C702A, 0x702C704D, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702C702B,  8393, 0x02C701BD, 100, -390, 0.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Surface Portal */
-/* @teleloc 0x02C701BD [100.000000 -390.000000 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x702C702B,  8393, 0x02C701BD, 100, -390, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Surface Portal */
+/* @teleloc 0x02C701BD [100.000000 -390.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702C702C,  1610, 0x02C701C5, 129.797, -302.862, 0.005, 0.511958, 0, 0, 0.85901,  True, '2005-02-09 10:00:00'); /* Drudge Ravener */

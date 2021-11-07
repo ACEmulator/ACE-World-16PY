@@ -1,8 +1,8 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x01DF;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701DF000,  1334, 0x01DF0107, 7.30568, -38.4194, 0, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Surface */
-/* @teleloc 0x01DF0107 [7.305680 -38.419399 0.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701DF000,  1334, 0x01DF0107, 7.30568, -38.4194, 0, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Surface */
+/* @teleloc 0x01DF0107 [7.305680 -38.419399 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701DF001,   383, 0x01DF0109, 15.9977, -5.86224, 0, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Mosswart Generator */
@@ -17,8 +17,8 @@ VALUES (0x701DF003,   383, 0x01DF010F, 28.2327, -19.1133, 0, -0.737056, 0, 0, -0
 /* @teleloc 0x01DF010F [28.232700 -19.113300 0.000000] -0.737056 0.000000 0.000000 -0.675831 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701DF004,   420, 0x01DF0116, 57.958, 1.85598, 0, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Item Food Generator */
-/* @teleloc 0x01DF0116 [57.958000 1.855980 0.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x701DF004,   420, 0x01DF0116, 57.958, 1.85598, 0, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Item Food Generator */
+/* @teleloc 0x01DF0116 [57.958000 1.855980 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701DF005,   383, 0x01DF0119, 57.5632, -7.61411, 0, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Mosswart Generator */

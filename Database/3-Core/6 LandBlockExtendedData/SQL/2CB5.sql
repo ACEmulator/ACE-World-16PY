@@ -17,8 +17,8 @@ VALUES (0x72CB5003,   720, 0x2CB50116, 13.0364, 41.3929, 2.5, -0.927248, 0, 0, -
 /* @teleloc 0x2CB50116 [13.036400 41.392899 2.500000] -0.927248 0.000000 0.000000 -0.374448 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72CB5004,   720, 0x2CB50000, 19.1839, 43.0869, -0, -0.390888, 0, 0, -0.920438, False, '2005-02-09 10:00:00'); /* Sliding Door */
-/* @teleloc 0x2CB50000 [19.183901 43.086899 -0.000000] -0.390888 0.000000 0.000000 -0.920438 */
+VALUES (0x72CB5004,   720, 0x2CB50000, 19.1839, 43.0869, 0, -0.390888, 0, 0, -0.920438, False, '2005-02-09 10:00:00'); /* Sliding Door */
+/* @teleloc 0x2CB50000 [19.183901 43.086899 0.000000] -0.390888 0.000000 0.000000 -0.920438 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72CB5005, 11390, 0x2CB50102, 32.0295, 76.5995, 1.605, 0.888487, 0, 0, -0.458902, False, '2005-02-09 10:00:00'); /* Kasin ibn Sayrak the Barkeep */

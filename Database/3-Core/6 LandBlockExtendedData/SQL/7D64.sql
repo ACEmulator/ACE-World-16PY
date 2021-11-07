@@ -81,16 +81,16 @@ VALUES (0x77D64013,  1034, 0x7D640141, 93.2, 55.56, 12.005, -0.735506, 0, 0, -0.
 /* @teleloc 0x7D640141 [93.199997 55.560001 12.005000] -0.735506 0.000000 0.000000 -0.677518 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77D64014,  1076, 0x7D640000, 75.5867, 59.3967, 15.5505, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* The Cerulean Cove */
-/* @teleloc 0x7D640000 [75.586700 59.396702 15.550500] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x77D64014,  1076, 0x7D640000, 75.5867, 59.3967, 15.5505, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* The Cerulean Cove */
+/* @teleloc 0x7D640000 [75.586700 59.396702 15.550500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77D64015,  1071, 0x7D640000, 86.3637, 111.273, 15.8309, 0.913012, 0, 0, -0.407932, False, '2005-02-09 10:00:00'); /* The Eagle's Blade */
 /* @teleloc 0x7D640000 [86.363701 111.273003 15.830900] 0.913012 0.000000 0.000000 -0.407932 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77D64016,  1073, 0x7D640000, 72.3694, 131.351, 15.3761, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Nuya's Necessities */
-/* @teleloc 0x7D640000 [72.369400 131.350998 15.376100] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x77D64016,  1073, 0x7D640000, 72.3694, 131.351, 15.3761, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Nuya's Necessities */
+/* @teleloc 0x7D640000 [72.369400 131.350998 15.376100] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77D64017,  2307, 0x7D64012E, 86.9758, 91.882, 15.205, 0.001857, 0, 0, -0.999998, False, '2005-02-09 10:00:00'); /* Archmage Inyamkaya bint Ruz */

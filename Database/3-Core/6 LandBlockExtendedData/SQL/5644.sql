@@ -5,8 +5,8 @@ VALUES (0x75644000, 23896, 0x56440100, -0.733032, -60.2037, -41.995, -0.703404, 
 /* @teleloc 0x56440100 [-0.733032 -60.203701 -41.994999] -0.703404 0.000000 0.000000 -0.710790 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75644001, 23896, 0x56440305, 80, -60, -5.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Surface */
-/* @teleloc 0x56440305 [80.000000 -60.000000 -5.995000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75644001, 23896, 0x56440305, 80, -60, -5.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Surface */
+/* @teleloc 0x56440305 [80.000000 -60.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75644002,  7923, 0x56440103, 3.48893, -70.267, -41.995, 0.72278, 0, 0, -0.691078, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
@@ -432,7 +432,7 @@ VALUES (0x75644044, 11896, 0x564402DA, 250.061, -129.321, -17.994, 0.685907, 0, 
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75644045, 11899, 0x564402DA, 247.538, -127.541, -17.994, 0.998753, 0, 0, -0.04993,  True, '2005-02-09 10:00:00'); /* Tumerok Major */
-/* @teleloc 0x564402DA [247.537994 -127.541000 -17.993999] 0.998753 0.000000 0.000000 -0.049929 */
+/* @teleloc 0x564402DA [247.537994 -127.541000 -17.993999] 0.998753 0.000000 0.000000 -0.049930 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75644046, 11896, 0x564402DA, 252.095, -126.953, -17.994, 0.988035, 0, 0, -0.154228,  True, '2005-02-09 10:00:00'); /* Tumerok Lieutenant */

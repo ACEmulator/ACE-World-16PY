@@ -105,8 +105,8 @@ VALUES (0x702E1019,  1764, 0x02E1024C, 271.509, -259.869, -11.9945, 0.980067, 0,
 /* @teleloc 0x02E1024C [271.509003 -259.868988 -11.994500] 0.980067 0.000000 0.000000 0.198669 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702E101A,  8201, 0x02E1028D, 310, -250, -11.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Random Portal Dires Exit Gen */
-/* @teleloc 0x02E1028D [310.000000 -250.000000 -11.995000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x702E101A,  8201, 0x02E1028D, 310, -250, -11.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Random Portal Dires Exit Gen */
+/* @teleloc 0x02E1028D [310.000000 -250.000000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E101B,  7932, 0x02E10290, 309.427, -257.739, -11.995, 0.640997, 0, 0, 0.767544, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 4 Min.) */
@@ -219,8 +219,8 @@ VALUES (0x702E1024,   197, 0x02E102DB, 45.25, -50.95, -5.945, 1, 0, 0, 0,  True,
 /* @teleloc 0x02E102DB [45.250000 -50.950001 -5.945000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702E1025,   197, 0x02E102EE, 49.6112, -187.679, -5.945, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Iron Golem */
-/* @teleloc 0x02E102EE [49.611198 -187.679001 -5.945000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x702E1025,   197, 0x02E102EE, 49.6112, -187.679, -5.945, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Iron Golem */
+/* @teleloc 0x02E102EE [49.611198 -187.679001 -5.945000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E1026,   197, 0x02E102F6, 60, -30, -5.99, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Iron Golem */
@@ -302,8 +302,8 @@ VALUES (0x702E1038,   197, 0x02E1039E, 61.0181, -10.136, 0.01, 0.696707, 0, 0, -
 /* @teleloc 0x02E1039E [61.018101 -10.136000 0.010000] 0.696707 0.000000 0.000000 -0.717356 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702E1039,   197, 0x02E103C3, 70, -170, 0.01, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Iron Golem */
-/* @teleloc 0x02E103C3 [70.000000 -170.000000 0.010000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x702E1039,   197, 0x02E103C3, 70, -170, 0.01, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Iron Golem */
+/* @teleloc 0x02E103C3 [70.000000 -170.000000 0.010000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E103A,   197, 0x02E103CE, 80, -60, 0.01, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Iron Golem */

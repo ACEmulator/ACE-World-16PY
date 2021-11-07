@@ -359,8 +359,8 @@ VALUES (0x7575104A, 11482, 0x575102CB, 90.377, -117.956, 0.005, 0.995202, 0, 0, 
 /* @teleloc 0x575102CB [90.376999 -117.956001 0.005000] 0.995202 0.000000 0.000000 -0.097838 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7575104B,  5627, 0x575102D1, 90.0044, -135.397, 0.005, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x575102D1 [90.004402 -135.397003 0.005000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7575104B,  5627, 0x575102D1, 90.0044, -135.397, 0.005, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x575102D1 [90.004402 -135.397003 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7575104C, 11482, 0x575102D1, 89.9887, -136.295, 0.005, 0.996262, 0, 0, 0.086377,  True, '2005-02-09 10:00:00'); /* Olthoi Noble */
@@ -431,8 +431,8 @@ VALUES (0x7575105C, 11482, 0x57510305, 127.557, -139.47, 0.005, 0.892585, 0, 0, 
 /* @teleloc 0x57510305 [127.556999 -139.470001 0.005000] 0.892585 0.000000 0.000000 0.450879 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7575105D,  5627, 0x57510315, 130.004, -175.397, 0.005, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x57510315 [130.003998 -175.397003 0.005000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7575105D,  5627, 0x57510315, 130.004, -175.397, 0.005, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x57510315 [130.003998 -175.397003 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7575105E, 23482, 0x57510315, 129.958, -176.836, 0.005, 0.993897, 0, 0, -0.110313,  True, '2005-02-09 10:00:00'); /* Olthoi Warrior */

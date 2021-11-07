@@ -1114,7 +1114,7 @@ VALUES (0x700100DD, 0x70010003, '2005-02-09 10:00:00') /* Drudge Toiler (30649) 
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700100DE,  7932, 0x00100356, 100.611, -185.254, 0.005, 0.99643, 0, 0, 0.084429, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 4 Min.) */
-/* @teleloc 0x00100356 [100.611000 -185.253998 0.005000] 0.996430 0.000000 0.000000 0.084428 */
+/* @teleloc 0x00100356 [100.611000 -185.253998 0.005000] 0.996430 0.000000 0.000000 0.084429 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x700100DE, 0x70010002, '2005-02-09 10:00:00') /* Drudge Toiler (30649) */

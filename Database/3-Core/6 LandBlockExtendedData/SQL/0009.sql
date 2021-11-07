@@ -155,8 +155,8 @@ VALUES (0x70009023, 28245, 0x0009017C, 29.5804, -81.0447, 0.029, 0.613351, 0, 0,
 /* @teleloc 0x0009017C [29.580400 -81.044701 0.029000] 0.613351 0.000000 0.000000 -0.789811 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70009024, 30721, 0x00090181, 40, 0, 0.005, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Reinforced Vault Sewers */
-/* @teleloc 0x00090181 [40.000000 0.000000 0.005000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x70009024, 30721, 0x00090181, 40, 0, 0.005, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Reinforced Vault Sewers */
+/* @teleloc 0x00090181 [40.000000 0.000000 0.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70009025, 28245, 0x00090184, 37.6825, -13.9651, 0.029, 0.999753, 0, 0, 0.022241,  True, '2005-02-09 10:00:00'); /* Poltergeist */

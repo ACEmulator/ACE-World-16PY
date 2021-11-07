@@ -36,8 +36,8 @@ VALUES (10792,   1, 0x020005D3) /* Setup */
      , (10792,   8, 0x0600106B) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10792, 2, 0x029002C9, 50, 0, 0, -0.5, 0, -0, -0.866025) /* Destination */
-/* @teleloc 0x029002C9 [50.000000 0.000000 0.000000] -0.500000 0.000000 -0.000000 -0.866025 */;
+VALUES (10792, 2, 0x029002C9, 50, 0, 0, -0.5, 0, 0, -0.866025) /* Destination */
+/* @teleloc 0x029002C9 [50.000000 0.000000 0.000000] -0.500000 0.000000 0.000000 -0.866025 */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (10792, 0.5, 10801, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Generate Shallow Rift (10801) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Scatter */

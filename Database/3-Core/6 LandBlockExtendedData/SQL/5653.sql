@@ -1,8 +1,8 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x5653;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75653000, 21485, 0x5653012C, 10.277, -5.6044, 12.005, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Bookshelf */
-/* @teleloc 0x5653012C [10.277000 -5.604400 12.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75653000, 21485, 0x5653012C, 10.277, -5.6044, 12.005, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Bookshelf */
+/* @teleloc 0x5653012C [10.277000 -5.604400 12.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75653001, 21486, 0x56530135, 15.6003, -33.1933, 12.005, -0.707107, 0, 0, -0.707107,  True, '2005-02-09 10:00:00'); /* Bookshelf */

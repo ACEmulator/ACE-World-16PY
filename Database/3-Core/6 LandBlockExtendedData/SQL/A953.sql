@@ -151,8 +151,8 @@ VALUES (0x7A95301D, 23516, 0xA9530000, 115.599, 100.575, 109.835, -0.605297, 0, 
 /* @teleloc 0xA9530000 [115.598999 100.574997 109.834999] -0.605297 0.000000 0.000000 0.796000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A95301E, 23351, 0xA9530000, 85.0747, 106.928, 149.441, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Stone Plaque */
-/* @teleloc 0xA9530000 [85.074699 106.928001 149.440994] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7A95301E, 23351, 0xA9530000, 85.0747, 106.928, 149.441, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Stone Plaque */
+/* @teleloc 0xA9530000 [85.074699 106.928001 149.440994] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A95301F, 23519, 0xA9530000, 39.2278, 111.655, 192.235, -0.006033, 0, 0, -0.999982, False, '2005-02-09 10:00:00'); /* Chest */
@@ -163,8 +163,8 @@ VALUES (0x7A953020, 23520, 0xA9530000, 129.131, 106.13, 192.279, 0.999975, 0, 0,
 /* @teleloc 0xA9530000 [129.130997 106.129997 192.279007] 0.999975 0.000000 0.000000 -0.007095 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A953021, 23517, 0xA9530000, 83.702, 107.111, 148.624, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* A Note from Tamian Wilmot */
-/* @teleloc 0xA9530000 [83.702003 107.111000 148.623993] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7A953021, 23517, 0xA9530000, 83.702, 107.111, 148.624, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* A Note from Tamian Wilmot */
+/* @teleloc 0xA9530000 [83.702003 107.111000 148.623993] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A953022, 15759, 0xA9530000, 83.7095, 109.934, 147.936, 0.025021, 0, 0, -0.999687, False, '2005-02-09 10:00:00'); /* Linkable Item Generator */

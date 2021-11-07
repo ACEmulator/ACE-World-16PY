@@ -93,12 +93,12 @@ VALUES (0x7017E016, 24494, 0x017E013A, 57.9951, -71.9786, -11.99, 0.710211, 0, 0
 /* @teleloc 0x017E013A [57.995098 -71.978600 -11.990000] 0.710211 0.000000 0.000000 -0.703989 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7017E017, 27562, 0x017E013A, 60, -75, -11.995, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x017E013A [60.000000 -75.000000 -11.995000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7017E017, 27562, 0x017E013A, 60, -75, -11.995, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x017E013A [60.000000 -75.000000 -11.995000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7017E018, 27562, 0x017E013A, 60, -75, -11.995, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x017E013A [60.000000 -75.000000 -11.995000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7017E018, 27562, 0x017E013A, 60, -75, -11.995, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x017E013A [60.000000 -75.000000 -11.995000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7017E019, 27562, 0x017E013F, 75, -70, -11.995, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
@@ -113,8 +113,8 @@ VALUES (0x7017E01B, 24494, 0x017E0140, 67.9204, -79.2159, -11.99, -0.933981, 0, 
 /* @teleloc 0x017E0140 [67.920403 -79.215897 -11.990000] -0.933981 0.000000 0.000000 0.357323 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7017E01C, 28121, 0x017E0140, 70, -80, -11.9366, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Report to Niarltah */
-/* @teleloc 0x017E0140 [70.000000 -80.000000 -11.936600] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7017E01C, 28121, 0x017E0140, 70, -80, -11.9366, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Report to Niarltah */
+/* @teleloc 0x017E0140 [70.000000 -80.000000 -11.936600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7017E01D, 24494, 0x017E0148, -2.52572, -108.694, -5.99, 0.105094, 0, 0, 0.994462,  True, '2005-02-09 10:00:00'); /* Gotrok Extas */
@@ -316,8 +316,8 @@ VALUES (0x7017E03C, 0x7017E00F, '2005-02-09 10:00:00') /* Extas Raider (8138) */
      , (0x7017E03C, 0x7017E030, '2005-02-09 10:00:00') /* Gotrok Extas (24494) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7017E03D, 28097, 0x017E019F, 39.933, -268.29, 0, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Burun Hold */
-/* @teleloc 0x017E019F [39.932999 -268.290009 0.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7017E03D, 28097, 0x017E019F, 39.933, -268.29, 0, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Burun Hold */
+/* @teleloc 0x017E019F [39.932999 -268.290009 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7017E03E, 24494, 0x017E01A2, 51.6875, -149.759, 0.01, 0.070737, 0, 0, -0.997495,  True, '2005-02-09 10:00:00'); /* Gotrok Extas */

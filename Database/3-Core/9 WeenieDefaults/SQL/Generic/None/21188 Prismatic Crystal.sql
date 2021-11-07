@@ -27,8 +27,8 @@ VALUES (21188,   1, 0x02000D77) /* Setup */
      , (21188,   8, 0x060026BC) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21188, -1, 14877, 230, 1, 1, 1, 4, -1, 0, 0, 0, -1, 1, 0, 1, 0, 0, -0) /* Generate Tsuric (14877) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (21188, -1, 14876, 230, 1, 1, 1, 4, -1, 0, 0, 0, -2, 0, 0, -0.707107, 0, -0, -0.707107) /* Generate Maelstrom (14876) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+VALUES (21188, -1, 14877, 230, 1, 1, 1, 4, -1, 0, 0, 0, -1, 1, 0, 1, 0, 0, 0) /* Generate Tsuric (14877) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (21188, -1, 14876, 230, 1, 1, 1, 4, -1, 0, 0, 0, -2, 0, 0, -0.707107, 0, 0, -0.707107) /* Generate Maelstrom (14876) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (21188, -1, 14514, 200, 1, 1, 1, 4, -1, 0, 0, 0, 2, 0, 0, 0.707107, 0, 0, -0.707107) /* Generate Miasma (14514) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (21188, -1, 20187, 180, 1, 1, 1, 4, -1, 0, 0, 0, -1, -1.5, 0, -0, 0, -0, -1) /* Generate Buillic (20187) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (21188, -1, 14516, 180, 1, 1, 1, 4, -1, 0, 0, 0, 1, -1, 0, -0, 0, -0, -1) /* Generate Caustic (14516) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+     , (21188, -1, 20187, 180, 1, 1, 1, 4, -1, 0, 0, 0, -1, -1.5, 0, 0, 0, 0, -1) /* Generate Buillic (20187) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (21188, -1, 14516, 180, 1, 1, 1, 4, -1, 0, 0, 0, 1, -1, 0, 0, 0, 0, -1) /* Generate Caustic (14516) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

@@ -53,8 +53,8 @@ VALUES (0x702A500C,   233, 0x02A50152, 74.0548, -28.6524, -23.945, -0.488015, 0,
 /* @teleloc 0x02A50152 [74.054802 -28.652399 -23.945000] -0.488015 0.000000 0.000000 0.872835 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702A500D,  9142, 0x02A5015B, 80, 0.365393, -23.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Surface */
-/* @teleloc 0x02A5015B [80.000000 0.365393 -23.995001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x702A500D,  9142, 0x02A5015B, 80, 0.365393, -23.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Surface */
+/* @teleloc 0x02A5015B [80.000000 0.365393 -23.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702A500E,  4106, 0x02A5016B, 79.1745, -198.45, -23.994, 0.1382, 0, 0, 0.990404,  True, '2005-02-09 10:00:00'); /* Tumerok High Priest */
@@ -309,8 +309,8 @@ VALUES (0x702A504C,  1632, 0x02A502A8, 77.5915, -659.646, 6.005, -0.649738, 0, 0
 /* @teleloc 0x02A502A8 [77.591499 -659.645996 6.005000] -0.649738 0.000000 0.000000 0.760158 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702A504D,  7924, 0x02A502AA, 80, -679.362, 6.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
-/* @teleloc 0x02A502AA [80.000000 -679.362000 6.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x702A504D,  7924, 0x02A502AA, 80, -679.362, 6.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 5 Min.) */
+/* @teleloc 0x02A502AA [80.000000 -679.362000 6.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x702A504D, 0x702A5000, '2005-02-09 10:00:00') /* Tumerok Warrior (4100) */

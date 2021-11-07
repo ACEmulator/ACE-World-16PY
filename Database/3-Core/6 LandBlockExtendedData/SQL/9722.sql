@@ -9,8 +9,8 @@ VALUES (0x79722001,  1148, 0x97220000, 109.04, 64.565, 102, 0.707107, 0, 0, 0.70
 /* @teleloc 0x97220000 [109.040001 64.565002 102.000000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79722002,  1148, 0x97220000, 114.53, 61.575, 102, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x97220000 [114.529999 61.575001 102.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x79722002,  1148, 0x97220000, 114.53, 61.575, 102, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x97220000 [114.529999 61.575001 102.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79722003,   145, 0x9722013A, 91.495, 80.185, 102, 0.707107, 0, 0, 0.707107, False, '2005-02-09 10:00:00'); /* Coffer */
@@ -49,8 +49,8 @@ VALUES (0x7972200B,  1148, 0x97220000, 59.1544, 112.533, 102, 0.707107, 0, 0, 0.
 /* @teleloc 0x97220000 [59.154400 112.532997 102.000000] 0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7972200C,  1148, 0x97220000, 64.6444, 109.543, 102, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x97220000 [64.644402 109.542999 102.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7972200C,  1148, 0x97220000, 64.6444, 109.543, 102, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x97220000 [64.644402 109.542999 102.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7972200D,  1050, 0x9722014F, 52.1609, 113.2, 102.005, 0.67816, 0, 0, -0.734915, False, '2005-02-09 10:00:00'); /* Iquba al-Julmud the Barkeeper */
@@ -93,8 +93,8 @@ VALUES (0x79722016,  1058, 0x97220100, 115.47, 55.985, 102.005, 0.966376, 0, 0, 
 /* @teleloc 0x97220100 [115.470001 55.985001 102.004997] 0.966376 0.000000 0.000000 0.257133 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79722017,  1048, 0x9722013B, 124.224, 89.1925, 102.005, -0, 0, 0, 1, False, '2005-02-09 10:00:00'); /* Jumzik al-Budim the Archmage */
-/* @teleloc 0x9722013B [124.223999 89.192497 102.004997] -0.000000 0.000000 0.000000 1.000000 */
+VALUES (0x79722017,  1048, 0x9722013B, 124.224, 89.1925, 102.005, 0, 0, 0, 1, False, '2005-02-09 10:00:00'); /* Jumzik al-Budim the Archmage */
+/* @teleloc 0x9722013B [124.223999 89.192497 102.004997] 0.000000 0.000000 0.000000 1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79722018,  1054, 0x97220141, 137.644, 79.4369, 102.005, 0.631353, 0, 0, 0.775496, False, '2005-02-09 10:00:00'); /* Healer Windotha Sofyld */

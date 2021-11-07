@@ -53,8 +53,8 @@ VALUES (0x752D9010, 11534, 0x52D90105, 57.8088, 128.75, 32.1368, -0.82278, 0, 0,
 /* @teleloc 0x52D90105 [57.808800 128.750000 32.136799] -0.822780 0.000000 0.000000 -0.568359 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x752D9011, 24476, 0x52D90000, 63.3179, 128.518, 41.205, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Sturdy Steel Chest */
-/* @teleloc 0x52D90000 [63.317902 128.518005 41.205002] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x752D9011, 24476, 0x52D90000, 63.3179, 128.518, 41.205, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Sturdy Steel Chest */
+/* @teleloc 0x52D90000 [63.317902 128.518005 41.205002] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x752D9012,  3613, 0x52D90100, 180, 124.556, 16.805, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Direlands Midland Portal */

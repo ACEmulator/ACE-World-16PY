@@ -29,7 +29,7 @@ VALUES (0x7848A009,  9251, 0x848A0119, 159.166, 131.832, 300.005, -0.678248, 0, 
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7848A00A,  9251, 0x848A0119, 155.8, 135.06, 300.005, -0.010586, 0, 0, -0.999944,  True, '2005-02-09 10:00:00'); /* Brutish Monouga */
-/* @teleloc 0x848A0119 [155.800003 135.059998 300.005005] -0.010585 0.000000 0.000000 -0.999944 */
+/* @teleloc 0x848A0119 [155.800003 135.059998 300.005005] -0.010586 0.000000 0.000000 -0.999944 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7848A00B,  9251, 0x848A0119, 153.079, 131.401, 300.005, 0.73967, 0, 0, -0.67297,  True, '2005-02-09 10:00:00'); /* Brutish Monouga */

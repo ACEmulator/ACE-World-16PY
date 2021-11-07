@@ -1970,7 +1970,7 @@ VALUES (0x75EB5189, 20852, 0x5EB50000, 43.2386, 144.552, 24.005, -0.999871, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75EB518A, 20852, 0x5EB50000, 32.4335, 73.4059, 32.005, -0.999594, 0, 0, 0.028478,  True, '2005-02-09 10:00:00'); /* Villa */
-/* @teleloc 0x5EB50000 [32.433498 73.405899 32.005001] -0.999594 0.000000 0.000000 0.028477 */
+/* @teleloc 0x5EB50000 [32.433498 73.405899 32.005001] -0.999594 0.000000 0.000000 0.028478 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75EB518B, 10707, 0x5EB50000, 182.437, 137.486, 27.2822, -0.774622, 0, 0, 0.632424,  True, '2005-02-09 10:00:00'); /* BootSpot */

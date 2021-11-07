@@ -76,8 +76,8 @@ VALUES (21388,   1, 0x02000D56) /* Setup */
      , (21388,  31,      21422) /* LinkedPortalOne - Gaerlan's Inner Sanctum */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21388, 12, 0x57450169, 50.501, -190.275, 6, -0.707107, 0, -0, -0.707107) /* PortalSummonLoc */
-/* @teleloc 0x57450169 [50.500999 -190.274994 6.000000] -0.707107 0.000000 -0.000000 -0.707107 */;
+VALUES (21388, 12, 0x57450169, 50.501, -190.275, 6, -0.707107, 0, 0, -0.707107) /* PortalSummonLoc */
+/* @teleloc 0x57450169 [50.500999 -190.274994 6.000000] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (21388,   1, 500, 0, 0) /* Strength */

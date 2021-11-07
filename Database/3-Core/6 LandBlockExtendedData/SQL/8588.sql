@@ -61,8 +61,8 @@ VALUES (0x7858800E,  4657, 0x85880000, 84.012, 172.951, 89.1272, 0.707107, 0, 0,
 /* @teleloc 0x85880000 [84.012001 172.951004 89.127197] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7858800F,  4655, 0x85880000, 126.115, 187.075, 89.054, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Al-Jalima Bows */
-/* @teleloc 0x85880000 [126.114998 187.074997 89.054001] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7858800F,  4655, 0x85880000, 126.115, 187.075, 89.054, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Al-Jalima Bows */
+/* @teleloc 0x85880000 [126.114998 187.074997 89.054001] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78588010,  4658, 0x85880000, 124.818, 101.968, 89.04, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Al-Jalima */

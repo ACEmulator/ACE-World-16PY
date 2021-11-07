@@ -1,8 +1,8 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x75B8;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x775B8000,   412, 0x75B80000, 84, 182.52, 128, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x75B80000 [84.000000 182.520004 128.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x775B8000,   412, 0x75B80000, 84, 182.52, 128, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x75B80000 [84.000000 182.520004 128.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x775B8001,   509, 0x75B80000, 92.1722, 172.784, 128.005, -0.701978, 0, 0, -0.712199, False, '2005-02-09 10:00:00'); /* Life Stone */

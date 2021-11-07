@@ -97,8 +97,8 @@ VALUES (0x78090017,  1007, 0x80900000, 61.126, 158.79, 127.817, 1, 0, 0, 0, Fals
 /* @teleloc 0x80900000 [61.125999 158.789993 127.817001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78090018,  1012, 0x80900000, 51.3776, 125.789, 127.443, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* The Open Book */
-/* @teleloc 0x80900000 [51.377602 125.789001 127.443001] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x78090018,  1012, 0x80900000, 51.3776, 125.789, 127.443, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* The Open Book */
+/* @teleloc 0x80900000 [51.377602 125.789001 127.443001] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78090019,  1011, 0x80900000, 56.8984, 105.375, 127.416, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Djusufa's Stones */
@@ -121,8 +121,8 @@ VALUES (0x7809001D,  6894, 0x80900000, 38.6383, 148.778, 127.456, 0.998644, 0, 0
 /* @teleloc 0x80900000 [38.638302 148.778000 127.456001] 0.998644 0.000000 0.000000 0.052058 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7809001E,  8377, 0x8090012B, 53.4989, 122.976, 123.7, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Beer Keg */
-/* @teleloc 0x8090012B [53.498901 122.975998 123.699997] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7809001E,  8377, 0x8090012B, 53.4989, 122.976, 123.7, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Beer Keg */
+/* @teleloc 0x8090012B [53.498901 122.975998 123.699997] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7809001F,   165, 0x80900000, 52.68, 99.24, 124.05, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Pool */
@@ -143,12 +143,12 @@ VALUES (0x78090022, 0x78090020, '2005-02-09 10:00:00') /* Ufet, Prophet of Blade
      , (0x78090022, 0x78090052, '2005-02-09 10:00:00') /* Coman ibn Rashid (28476) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78090029, 15837, 0x80900000, 31.852, 34.507, 124.005, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Sanctum Residential Halls Portal */
-/* @teleloc 0x80900000 [31.851999 34.507000 124.004997] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x78090029, 15837, 0x80900000, 31.852, 34.507, 124.005, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Sanctum Residential Halls Portal */
+/* @teleloc 0x80900000 [31.851999 34.507000 124.004997] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7809002A, 16898, 0x80900000, 31.838, 37.271, 124.005, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Sanctum Residential Halls */
-/* @teleloc 0x80900000 [31.837999 37.271000 124.004997] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7809002A, 16898, 0x80900000, 31.838, 37.271, 124.005, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Sanctum Residential Halls */
+/* @teleloc 0x80900000 [31.837999 37.271000 124.004997] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7809002D, 16919, 0x80900000, 28.3266, 110.189, 124, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Pedestal Weak Spot */

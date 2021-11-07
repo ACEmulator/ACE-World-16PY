@@ -38,7 +38,7 @@ VALUES (0x7D753008,   940, 0xD7530102, 83.2198, 175.252, 34.505, -0.959147, 0, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D753009,   940, 0xD753010B, 89.2059, 176.835, 34.505, -0.996233, 0, 0, 0.086715,  True, '2005-02-09 10:00:00'); /* Drudge Sneaker */
-/* @teleloc 0xD753010B [89.205902 176.835007 34.505001] -0.996233 0.000000 0.000000 0.086714 */
+/* @teleloc 0xD753010B [89.205902 176.835007 34.505001] -0.996233 0.000000 0.000000 0.086715 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D75300A,   940, 0xD753010B, 89.2358, 180.771, 34.505, -0.033966, 0, 0, 0.999423,  True, '2005-02-09 10:00:00'); /* Drudge Sneaker */

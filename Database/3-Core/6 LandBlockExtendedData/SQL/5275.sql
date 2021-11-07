@@ -45,12 +45,12 @@ VALUES (0x7527500A, 14423, 0x52750100, 42.551, -5.663, -5, 0.999411, 0, 0, -0.03
 /* @teleloc 0x52750100 [42.550999 -5.663000 -5.000000] 0.999411 0.000000 0.000000 -0.034315 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7527500B, 14435, 0x52750100, 39.2519, -6.40616, -5.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Storage Chest */
-/* @teleloc 0x52750100 [39.251900 -6.406160 -5.995000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7527500B, 14435, 0x52750100, 39.2519, -6.40616, -5.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Storage Chest */
+/* @teleloc 0x52750100 [39.251900 -6.406160 -5.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7527500C,   278, 0x52750102, 40, -14.75, -6, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x52750102 [40.000000 -14.750000 -6.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7527500C,   278, 0x52750102, 40, -14.75, -6, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x52750102 [40.000000 -14.750000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7527500D,  1624, 0x52750103, 40.4301, -22.4798, -5.988, 0.696706, 0, 0, 0.717357,  True, '2005-02-09 10:00:00'); /* Swamp Rat */
@@ -85,8 +85,8 @@ VALUES (0x75275013, 0x75275014, '2005-02-09 10:00:00') /* Candle (14468) */
      , (0x75275013, 0x75275018, '2005-02-09 10:00:00') /* Candle (14468) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75275014, 14468, 0x52750114, 11.9939, -14.8977, 2, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Candle */
-/* @teleloc 0x52750114 [11.993900 -14.897700 2.000000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75275014, 14468, 0x52750114, 11.9939, -14.8977, 2, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Candle */
+/* @teleloc 0x52750114 [11.993900 -14.897700 2.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75275016, 14423, 0x52750100, 35.6106, -12.1705, -5, -0.699719, 0, 0, -0.714418, False, '2005-02-09 10:00:00'); /* Folded Strathelar Guards Uniform */

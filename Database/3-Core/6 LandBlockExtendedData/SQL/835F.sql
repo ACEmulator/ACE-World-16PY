@@ -36,7 +36,7 @@ VALUES (0x7835F004, 11531, 0x835F0000, 134.175, 92.4747, 14.01, 0.176239, 0, 0, 
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7835F005,  8672, 0x835F0000, 119.156, 100.438, 14.0083, 0.997646, 0, 0, 0.068579,  True, '2005-02-09 10:00:00'); /* Risen Soldier */
-/* @teleloc 0x835F0000 [119.155998 100.438004 14.008300] 0.997646 0.000000 0.000000 0.068578 */
+/* @teleloc 0x835F0000 [119.155998 100.438004 14.008300] 0.997646 0.000000 0.000000 0.068579 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7835F006,  8672, 0x835F0000, 111.153, 119.239, 14.0083, 0.988677, 0, 0, 0.15006,  True, '2005-02-09 10:00:00'); /* Risen Soldier */

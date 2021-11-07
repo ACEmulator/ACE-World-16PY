@@ -27,5 +27,5 @@ VALUES (4335,   1, 0x0200026B) /* Setup */
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4335, 0.2, 200, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 4, 0, 0, 0.965926, 0, 0, -0.258819) /* Generate Mud Golem (200) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (4335, 0.4, 200, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 1, 0, 0.92388, 0, 0, -0.382684) /* Generate Mud Golem (200) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (4335, 0.7, 200, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2.4, 0, 0, -0, 0, -0, -1) /* Generate Mud Golem (200) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (4335, 0.7, 200, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2.4, 0, 0, 0, 0, 0, -1) /* Generate Mud Golem (200) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
      , (4335, 1, 200, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, -2, 0, 0.707107, 0, 0, -0.707107) /* Generate Mud Golem (200) (x1 up to max of 1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

@@ -25,6 +25,6 @@ VALUES (27142,   1, 0x0200026B) /* Setup */
      , (27142,   8, 0x06001066) /* Icon */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27142, 0.333, 27131, 10, 1, -1, 1, 4, -1, 0, 0, 0x62460102, 72.0752, -328.192, -23.995, -0.707107, 0, -0, -0.707107) /* Generate Burun Ruuk Adherent Overseer (27131) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (27142, 0.666, 27131, 10, 1, -1, 1, 4, -1, 0, 0, 0x62460138, 107.987, -389.001, -23.995, -0.707107, 0, -0, -0.707107) /* Generate Burun Ruuk Adherent Overseer (27131) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
-     , (27142, 0.999, 27131, 10, 1, -1, 1, 4, -1, 0, 0, 0x62460158, 232.184, -351.516, -23.995, -0.707107, 0, -0, -0.707107) /* Generate Burun Ruuk Adherent Overseer (27131) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;
+VALUES (27142, 0.333, 27131, 10, 1, -1, 1, 4, -1, 0, 0, 0x62460102, 72.0752, -328.192, -23.995, -0.707107, 0, 0, -0.707107) /* Generate Burun Ruuk Adherent Overseer (27131) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (27142, 0.666, 27131, 10, 1, -1, 1, 4, -1, 0, 0, 0x62460138, 107.987, -389.001, -23.995, -0.707107, 0, 0, -0.707107) /* Generate Burun Ruuk Adherent Overseer (27131) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */
+     , (27142, 0.999, 27131, 10, 1, -1, 1, 4, -1, 0, 0, 0x62460158, 232.184, -351.516, -23.995, -0.707107, 0, 0, -0.707107) /* Generate Burun Ruuk Adherent Overseer (27131) (x1 up to max of -1) - Regenerate upon Destruction - Location to (re)Generate: Specific */;

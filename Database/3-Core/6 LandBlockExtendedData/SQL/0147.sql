@@ -1,8 +1,8 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x0147;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70147000,  5525, 0x01470102, 70.1316, 2.87299, -42, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Surface */
-/* @teleloc 0x01470102 [70.131599 2.872990 -42.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x70147000,  5525, 0x01470102, 70.1316, 2.87299, -42, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Surface */
+/* @teleloc 0x01470102 [70.131599 2.872990 -42.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70147001,  7096, 0x01470105, 71.9771, -11.0064, -41.989, -0.003381, 0, 0, -0.999994,  True, '2005-02-09 10:00:00'); /* Gold Golem */
@@ -64,12 +64,12 @@ VALUES (0x7014700E,  7096, 0x01470142, 60, -50, -17.989, 1, 0, 0, 0,  True, '200
 /* @teleloc 0x01470142 [60.000000 -50.000000 -17.989000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7014700F,  7096, 0x01470147, 70, -30, -17.989, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Gold Golem */
-/* @teleloc 0x01470147 [70.000000 -30.000000 -17.989000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7014700F,  7096, 0x01470147, 70, -30, -17.989, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Gold Golem */
+/* @teleloc 0x01470147 [70.000000 -30.000000 -17.989000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70147010,  4139, 0x01470147, 70, -34.75, -18, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x01470147 [70.000000 -34.750000 -18.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x70147010,  4139, 0x01470147, 70, -34.75, -18, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x01470147 [70.000000 -34.750000 -18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x70147010, 0x70147008, '2005-02-09 10:00:00') /* Pressure Plate (2131) */;
@@ -151,8 +151,8 @@ VALUES (0x70147023,  5148, 0x014701DD, 10, -70, 0.3, 1, 0, 0, 0, False, '2005-02
 /* @teleloc 0x014701DD [10.000000 -70.000000 0.300000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70147024,  7096, 0x014701E2, 10, -80, 0.011, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Gold Golem */
-/* @teleloc 0x014701E2 [10.000000 -80.000000 0.011000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x70147024,  7096, 0x014701E2, 10, -80, 0.011, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Gold Golem */
+/* @teleloc 0x014701E2 [10.000000 -80.000000 0.011000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70147025,  7923, 0x014701EB, 10, -139.993, 0.012215, -0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */

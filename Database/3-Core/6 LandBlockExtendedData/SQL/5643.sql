@@ -435,7 +435,7 @@ VALUES (0x7564304A, 11886, 0x5643025F, 200.076, -66.5099, -17.9935, 0.97094, 0, 
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7564304B, 11886, 0x5643026A, 200.432, -106.985, -17.9935, -0.999367, 0, 0, -0.035568,  True, '2005-02-09 10:00:00'); /* Tumerok Controller */
-/* @teleloc 0x5643026A [200.432007 -106.985001 -17.993500] -0.999367 0.000000 0.000000 -0.035567 */
+/* @teleloc 0x5643026A [200.432007 -106.985001 -17.993500] -0.999367 0.000000 0.000000 -0.035568 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7564304C, 11886, 0x5643026A, 199.532, -106.746, -17.9935, 0.998918, 0, 0, 0.046509,  True, '2005-02-09 10:00:00'); /* Tumerok Controller */
@@ -498,8 +498,8 @@ VALUES (0x7564305A, 11896, 0x564302A3, 113.658, -119.44, -11.994, 0.912919, 0, 0
 /* @teleloc 0x564302A3 [113.657997 -119.440002 -11.994000] 0.912919 0.000000 0.000000 0.408140 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7564305B, 11896, 0x564302A9, 120, -70, -11.994, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Tumerok Lieutenant */
-/* @teleloc 0x564302A9 [120.000000 -70.000000 -11.994000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7564305B, 11896, 0x564302A9, 120, -70, -11.994, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Tumerok Lieutenant */
+/* @teleloc 0x564302A9 [120.000000 -70.000000 -11.994000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7564305C, 11896, 0x564302AD, 120, -90, -11.994, 0.968912, 0, 0, 0.247404,  True, '2005-02-09 10:00:00'); /* Tumerok Lieutenant */

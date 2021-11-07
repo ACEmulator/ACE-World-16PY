@@ -29,8 +29,8 @@ VALUES (0x7A260006,  1824, 0xA2600112, 182.987, 40.1413, 17.205, 0.643118, 0, 0,
 /* @teleloc 0xA2600112 [182.987000 40.141300 17.205000] 0.643118 0.000000 0.000000 0.765767 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A260007,  1803, 0xA2600000, 161.115, 37.6397, 22.6944, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Sammam the Wise */
-/* @teleloc 0xA2600000 [161.115005 37.639702 22.694401] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7A260007,  1803, 0xA2600000, 161.115, 37.6397, 22.6944, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Sammam the Wise */
+/* @teleloc 0xA2600000 [161.115005 37.639702 22.694401] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A260008,  4778, 0xA260010A, 187.569, 36.0679, 20.005, 0.971893, 0, 0, 0.235421, False, '2005-02-09 10:00:00'); /* Gharundim Ivory Collector Gen */

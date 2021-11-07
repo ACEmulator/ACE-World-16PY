@@ -100,8 +100,8 @@ VALUES (0x75F45035, 24146, 0x5F450131, 80, -230, 0.005, 1, 0, 0, 0, False, '2005
 /* @teleloc 0x5F450131 [80.000000 -230.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75F45036, 24148, 0x5F450134, 80, -260, 0.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Event - Oswald Portal Event Gen C */
-/* @teleloc 0x5F450134 [80.000000 -260.000000 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75F45036, 24148, 0x5F450134, 80, -260, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Event - Oswald Portal Event Gen C */
+/* @teleloc 0x5F450134 [80.000000 -260.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F45037, 24159, 0x5F450135, 90, -180, 0.005, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Puzzle Box */
@@ -112,8 +112,8 @@ VALUES (0x75F45038, 24147, 0x5F450136, 90, -240, 0.005, 1, 0, 0, 0, False, '2005
 /* @teleloc 0x5F450136 [90.000000 -240.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75F45039, 24150, 0x5F450137, 90, -250, 0.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Event - Oswald Portal Event Gen E */
-/* @teleloc 0x5F450137 [90.000000 -250.000000 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75F45039, 24150, 0x5F450137, 90, -250, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Event - Oswald Portal Event Gen E */
+/* @teleloc 0x5F450137 [90.000000 -250.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4503A, 24159, 0x5F450138, 120, -180, 0.005, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Puzzle Box */
@@ -172,7 +172,7 @@ VALUES (0x75F45046, 22467, 0x5F450146, 170, -86.2, 0.013, 0, 0, 0, -1,  True, '2
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F45047,  7923, 0x5F450146, 169.846, -90.1557, 0.005, -0.998567, 0, 0, 0.053515, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
-/* @teleloc 0x5F450146 [169.845993 -90.155701 0.005000] -0.998567 0.000000 0.000000 0.053514 */
+/* @teleloc 0x5F450146 [169.845993 -90.155701 0.005000] -0.998567 0.000000 0.000000 0.053515 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x75F45047, 0x75F45043, '2005-02-09 10:00:00') /* Mu Mu (22502) */
@@ -199,8 +199,8 @@ VALUES (0x75F4504B, 22504, 0x5F45014B, 182.5, -86.25, 0.013, 0, 0, 0, -1,  True,
 /* @teleloc 0x5F45014B [182.500000 -86.250000 0.013000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75F4504C, 22503, 0x5F45014C, 182.5, -103.5, 0.013, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Po Po */
-/* @teleloc 0x5F45014C [182.500000 -103.500000 0.013000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75F4504C, 22503, 0x5F45014C, 182.5, -103.5, 0.013, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Po Po */
+/* @teleloc 0x5F45014C [182.500000 -103.500000 0.013000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F4504F, 24139, 0x5F45014F, 54.0809, -19.5893, 6.005, 0.453596, 0, 0, -0.891207,  True, '2005-02-09 10:00:00'); /* Invisible Assailant */

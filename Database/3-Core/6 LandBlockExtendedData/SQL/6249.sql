@@ -513,8 +513,8 @@ VALUES (0x76249081, 24494, 0x624901DC, 350.998, -47.6298, -17.99, 0.722737, 0, 0
 /* @teleloc 0x624901DC [350.997986 -47.629799 -17.990000] 0.722737 0.000000 0.000000 -0.691123 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76249082, 27562, 0x624901DC, 350, -55, -18, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x624901DC [350.000000 -55.000000 -18.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x76249082, 27562, 0x624901DC, 350, -55, -18, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x624901DC [350.000000 -55.000000 -18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76249083, 24955, 0x624901E1, 360.407, -39.9397, -17.99, 0.70875, 0, 0, -0.70546,  True, '2005-02-09 10:00:00'); /* Gotrok Montok */
@@ -848,8 +848,8 @@ VALUES (0x762490B3,  7932, 0x62490220, 349.169, -93.4911, 0.005, 1, 0, 0, 0, Fal
 /* @teleloc 0x62490220 [349.169006 -93.491096 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x762490B4,  7932, 0x62490221, 349.06, -95.1361, 0.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 4 Min.) */
-/* @teleloc 0x62490221 [349.059998 -95.136101 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x762490B4,  7932, 0x62490221, 349.06, -95.1361, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 4 Min.) */
+/* @teleloc 0x62490221 [349.059998 -95.136101 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x762490B4, 0x76249026, '2005-02-09 10:00:00') /* Gotrok Titan (24951) */

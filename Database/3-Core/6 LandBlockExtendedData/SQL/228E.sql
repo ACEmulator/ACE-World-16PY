@@ -1,8 +1,8 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x228E;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7228E000,  2215, 0x228E0000, 180, 66.5, 260.005, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x228E0000 [180.000000 66.500000 260.005005] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7228E000,  2215, 0x228E0000, 180, 66.5, 260.005, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x228E0000 [180.000000 66.500000 260.005005] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7228E004,   171, 0x228E0000, 135.027, 125.269, 260.005, 0.936072, 0, 0, -0.35181, False, '2005-02-09 10:00:00'); /* Vat */

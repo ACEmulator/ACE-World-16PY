@@ -160,8 +160,8 @@ VALUES (0x7614A029,   214, 0x614A019D, 31.6373, -40.9009, -29.995, 0.928267, 0, 
 /* @teleloc 0x614A019D [31.637300 -40.900902 -29.995001] 0.928267 0.000000 0.000000 0.371915 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7614A02A,  5627, 0x614A01A2, 30.0044, -45.3974, -29.995, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x614A01A2 [30.004400 -45.397400 -29.995001] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7614A02A,  5627, 0x614A01A2, 30.0044, -45.3974, -29.995, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x614A01A2 [30.004400 -45.397400 -29.995001] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7614A02B, 24962, 0x614A01A2, 30.8334, -46.3795, -29.9945, -0.741685, 0, 0, -0.670749,  True, '2005-02-09 10:00:00'); /* Olthoi Noble Grub */
@@ -308,8 +308,8 @@ VALUES (0x7614A04E, 23990, 0x614A021A, 100.32, -83.1432, -29.995, 0.839342, 0, 0
 /* @teleloc 0x614A021A [100.320000 -83.143204 -29.995001] 0.839342 0.000000 0.000000 0.543604 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7614A04F,  5627, 0x614A021F, 100.004, -85.3974, -29.995, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x614A021F [100.003998 -85.397400 -29.995001] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7614A04F,  5627, 0x614A021F, 100.004, -85.3974, -29.995, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x614A021F [100.003998 -85.397400 -29.995001] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7614A050,  5627, 0x614A0220, 95.3974, -99.9956, -29.995, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
@@ -401,7 +401,7 @@ VALUES (0x7614A065, 24962, 0x614A0256, 94.3934, -33.5779, -21.7685, -0.614786, 0
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7614A066, 24962, 0x614A0256, 85.4879, -27.7784, -21.2996, 0.08525, 0, 0, -0.99636,  True, '2005-02-09 10:00:00'); /* Olthoi Noble Grub */
-/* @teleloc 0x614A0256 [85.487900 -27.778400 -21.299601] 0.085249 0.000000 0.000000 -0.996360 */
+/* @teleloc 0x614A0256 [85.487900 -27.778400 -21.299601] 0.085250 0.000000 0.000000 -0.996360 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7614A067,   212, 0x614A025D, 97.3543, -24.746, -23.995, 0.011516, 0, 0, -0.999934,  True, '2005-02-09 10:00:00'); /* Olthoi Noble */
@@ -1048,8 +1048,8 @@ VALUES (0x7614A0E2, 0x7614A03B, '2005-02-09 10:00:00') /* Olthoi Swarm Eviscerat
      , (0x7614A0E2, 0x7614A0DD, '2005-02-09 10:00:00') /* Olthoi Swarm Soldier (23989) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7614A0E3,  7923, 0x614A046B, 100, -120, 0.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
-/* @teleloc 0x614A046B [100.000000 -120.000000 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7614A0E3,  7923, 0x614A046B, 100, -120, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Linkable Monster Generator ( 3 Min.) */
+/* @teleloc 0x614A046B [100.000000 -120.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7614A0E3, 0x7614A039, '2005-02-09 10:00:00') /* Olthoi Eviscerator (11478) */

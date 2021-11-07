@@ -185,8 +185,8 @@ VALUES (0x7577702D, 11900, 0x577701D6, 59.6381, -43.6434, -17.995, 0.820993, 0, 
 /* @teleloc 0x577701D6 [59.638100 -43.643398 -17.995001] 0.820993 0.000000 0.000000 0.570939 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7577702E, 11897, 0x577701DB, 55.25, -50.95, -17.995, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Tumerok Lieutenant */
-/* @teleloc 0x577701DB [55.250000 -50.950001 -17.995001] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x7577702E, 11897, 0x577701DB, 55.25, -50.95, -17.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Tumerok Lieutenant */
+/* @teleloc 0x577701DB [55.250000 -50.950001 -17.995001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7577702F, 11900, 0x577701DB, 57.2831, -49.6935, -17.995, 0.982572, 0, 0, 0.185883,  True, '2005-02-09 10:00:00'); /* Tumerok Major */
@@ -755,8 +755,8 @@ VALUES (0x75777095, 11875, 0x57770410, 237.453, -29.4259, 0.005, 0.5436, 0, 0, 0
 /* @teleloc 0x57770410 [237.453003 -29.425900 0.005000] 0.543600 0.000000 0.000000 0.839345 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75777096, 11875, 0x57770418, 250, -50, 0.005, 1, 0, 0, -0,  True, '2005-02-09 10:00:00'); /* Tumerok Standard Bearer */
-/* @teleloc 0x57770418 [250.000000 -50.000000 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x75777096, 11875, 0x57770418, 250, -50, 0.005, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Tumerok Standard Bearer */
+/* @teleloc 0x57770418 [250.000000 -50.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75777097, 11875, 0x57770418, 250, -52.8805, 0.005, 0.997189, 0, 0, 0.07493,  True, '2005-02-09 10:00:00'); /* Tumerok Standard Bearer */

@@ -17,8 +17,8 @@ VALUES (0x74093003,   951, 0x40930108, 81.0011, 158.594, 222.405, 0.644812, 0, 0
 /* @teleloc 0x40930108 [81.001099 158.593994 222.404999] 0.644812 0.000000 0.000000 -0.764341 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74093004,  1941, 0x40930100, 81.2512, 81.1121, 220.005, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Chest */
-/* @teleloc 0x40930100 [81.251198 81.112099 220.005005] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x74093004,  1941, 0x40930100, 81.2512, 81.1121, 220.005, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Chest */
+/* @teleloc 0x40930100 [81.251198 81.112099 220.005005] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74093005,   951, 0x40930100, 82.6714, 83.8979, 220.005, -0.795444, 0, 0, -0.606027, False, '2005-02-09 10:00:00'); /* Banderling Guard Generator */

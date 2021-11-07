@@ -1,8 +1,8 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x02C9;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702C9000,  8382, 0x02C90103, 120, -680, -53.995, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Surface Portal */
-/* @teleloc 0x02C90103 [120.000000 -680.000000 -53.994999] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x702C9000,  8382, 0x02C90103, 120, -680, -53.995, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Surface Portal */
+/* @teleloc 0x02C90103 [120.000000 -680.000000 -53.994999] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702C9001,  8270, 0x02C90104, 102.436, -499.752, -47.971, 0.694909, 0, 0, -0.719098,  True, '2005-02-09 10:00:00'); /* Sotiris Hollow Minion */
@@ -322,8 +322,8 @@ VALUES (0x702C903B, 0x702C9001, '2005-02-09 10:00:00') /* Sotiris Hollow Minion 
      , (0x702C903B, 0x702C9051, '2005-02-09 10:00:00') /* Drudge Ravener (1610) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702C903C,  8382, 0x02C90282, 120, -270, 0.005, 1, 0, 0, -0, False, '2005-02-09 10:00:00'); /* Surface Portal */
-/* @teleloc 0x02C90282 [120.000000 -270.000000 0.005000] 1.000000 0.000000 0.000000 -0.000000 */
+VALUES (0x702C903C,  8382, 0x02C90282, 120, -270, 0.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* Surface Portal */
+/* @teleloc 0x02C90282 [120.000000 -270.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702C903D,  1609, 0x02C9028C, 159.442, -200.904, 0.005, 0.714421, 0, 0, 0.699716,  True, '2005-02-09 10:00:00'); /* Drudge Stalker */

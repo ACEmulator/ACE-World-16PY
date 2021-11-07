@@ -358,8 +358,8 @@ VALUES (0x7564505A,  7123, 0x564501CA, 89.9888, -18.1697, -23.9918, -0.004204, 0
 /* @teleloc 0x564501CA [89.988800 -18.169701 -23.991800] -0.004204 0.000000 0.000000 -0.999991 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7564505B,  2180, 0x564501CA, 90, -24.75, -24, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0x564501CA [90.000000 -24.750000 -24.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7564505B,  2180, 0x564501CA, 90, -24.75, -24, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0x564501CA [90.000000 -24.750000 -24.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7564505B, 0x75645062, '2005-02-09 10:00:00') /* Pressure Plate (298) */;
@@ -629,24 +629,24 @@ VALUES (0x75645081, 23368, 0x5645012E, 111.183, -60.7497, -41.995, 0.999985, 0, 
 /* @teleloc 0x5645012E [111.182999 -60.749699 -41.994999] 0.999985 0.000000 0.000000 -0.005436 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75645082, 23362, 0x56450106, 93.209, -109.858, -52, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Deteriorated Aegis */
-/* @teleloc 0x56450106 [93.209000 -109.858002 -52.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75645082, 23362, 0x56450106, 93.209, -109.858, -52, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Deteriorated Aegis */
+/* @teleloc 0x56450106 [93.209000 -109.858002 -52.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75645083, 23363, 0x56450106, 93.205, -113.162, -52, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Deteriorated Aegis */
-/* @teleloc 0x56450106 [93.205002 -113.162003 -52.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75645083, 23363, 0x56450106, 93.205, -113.162, -52, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Deteriorated Aegis */
+/* @teleloc 0x56450106 [93.205002 -113.162003 -52.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75645084, 23364, 0x56450106, 89.931, -113.218, -52, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Deteriorated Aegis */
-/* @teleloc 0x56450106 [89.931000 -113.218002 -52.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75645084, 23364, 0x56450106, 89.931, -113.218, -52, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Deteriorated Aegis */
+/* @teleloc 0x56450106 [89.931000 -113.218002 -52.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75645085, 23365, 0x56450106, 86.648, -113.197, -52, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Deteriorated Aegis */
-/* @teleloc 0x56450106 [86.648003 -113.196999 -52.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75645085, 23365, 0x56450106, 86.648, -113.197, -52, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Deteriorated Aegis */
+/* @teleloc 0x56450106 [86.648003 -113.196999 -52.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75645086, 23366, 0x56450106, 86.631, -109.821, -52, -0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Deteriorated Aegis */
-/* @teleloc 0x56450106 [86.630997 -109.820999 -52.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x75645086, 23366, 0x56450106, 86.631, -109.821, -52, 0, 0, 0, -1,  True, '2005-02-09 10:00:00'); /* Deteriorated Aegis */
+/* @teleloc 0x56450106 [86.630997 -109.820999 -52.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75645088,  2131, 0x56450123, 80, -40, -41.995, 1, 0, 0, 0,  True, '2005-02-09 10:00:00'); /* Pressure Plate */

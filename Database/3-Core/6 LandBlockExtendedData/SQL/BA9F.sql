@@ -1,8 +1,8 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xBA9F;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BA9F000,   412, 0xBA9F0000, 36.9592, 186.158, 56, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
-/* @teleloc 0xBA9F0000 [36.959202 186.158005 56.000000] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7BA9F000,   412, 0xBA9F0000, 36.9592, 186.158, 56, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* Door */
+/* @teleloc 0xBA9F0000 [36.959202 186.158005 56.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA9F001,   412, 0xBA9F0000, 40.6892, 174.198, 56, 0.707107, 0, 0, -0.707107, False, '2005-02-09 10:00:00'); /* Door */
@@ -17,8 +17,8 @@ VALUES (0x7BA9F003,  5690, 0xBA9F0100, 32.2226, 181.959, 56.005, 0.707107, 0, 0,
 /* @teleloc 0xBA9F0100 [32.222599 181.959000 56.005001] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BA9F004,  5692, 0xBA9F010C, 35, 183, 59.005, -0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* The Days of the Olthoi */
-/* @teleloc 0xBA9F010C [35.000000 183.000000 59.005001] -0.000000 0.000000 0.000000 -1.000000 */
+VALUES (0x7BA9F004,  5692, 0xBA9F010C, 35, 183, 59.005, 0, 0, 0, -1, False, '2005-02-09 10:00:00'); /* The Days of the Olthoi */
+/* @teleloc 0xBA9F010C [35.000000 183.000000 59.005001] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA9F005,  5691, 0xBA9F0100, 38.5726, 177.726, 56.005, 1, 0, 0, 0, False, '2005-02-09 10:00:00'); /* The Underground City */
