@@ -1,4 +1,4 @@
 DELETE FROM `event` WHERE `name` = 'EruptTenkarrdunGen';
 
 INSERT INTO `event` (`name`, `start_Time`, `end_Time`, `state`, `last_Modified`)
-VALUES ('EruptTenkarrdunGen', -1, -1, 3, '2005-02-09 10:00:00');
+VALUES ('EruptTenkarrdunGen', -1, -1, 3 /* GameEventState.Off */, '2005-02-09 10:00:00');
