@@ -8,8 +8,8 @@ VALUES (5707,  81,          6) /* MaxGeneratedObjects */
      , (5707,  82,          3) /* InitGeneratedObjects */
      , (5707,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (5707, 142,          1) /* GeneratorTimeType - RealTime */
-     , (5707, 143,  946670700) /* GeneratorStartTime - 01/01/2000 01:05:00 */
-     , (5707, 144,  946671000) /* GeneratorEndTime - 01/01/2000 01:10:00 */
+     , (5707, 143,  946670700) /* GeneratorStartTime - 12/31/1999 20:05:00 */
+     , (5707, 144,  946671000) /* GeneratorEndTime - 12/31/1999 20:10:00 */
      , (5707, 145,          3) /* GeneratorEndDestructionType - Kill */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

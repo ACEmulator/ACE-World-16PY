@@ -9,8 +9,8 @@ VALUES (12284,  66,          1) /* CheckpointStatus */
      , (12284,  82,          0) /* InitGeneratedObjects */
      , (12284,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12284, 142,          1) /* GeneratorTimeType - RealTime */
-     , (12284, 143, 1002992460) /* GeneratorStartTime - 10/13/2001 21:01:00 */
-     , (12284, 144, 1008262860) /* GeneratorEndTime - 12/13/2001 22:01:00 */
+     , (12284, 143, 1002992460) /* GeneratorStartTime - 10/13/2001 17:01:00 */
+     , (12284, 144, 1008262860) /* GeneratorEndTime - 12/13/2001 17:01:00 */
      , (12284, 145,          2) /* GeneratorEndDestructionType - Destroy */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
