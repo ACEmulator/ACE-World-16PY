@@ -6,7 +6,7 @@ VALUES (14345, 'drudgebishop', 61, '2005-02-09 10:00:00') /* GamePiece */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14345,   1,         16) /* ItemType - Creature */
      , (14345,   2,          3) /* CreatureType - Drudge */
-     , (14345,   3,         51) /* PaletteTemplate - MidgGey */
+     , (14345,   3,         51) /* PaletteTemplate - MidGrey */
      , (14345,   6,         -1) /* ItemsCapacity */
      , (14345,   7,         -1) /* ContainersCapacity */
      , (14345,  16,          1) /* ItemUseable - No */

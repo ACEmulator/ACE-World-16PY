@@ -6,7 +6,7 @@ VALUES (5933, 'skeletonimpiousse', 10, '2005-02-09 10:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5933,   1,         16) /* ItemType - Creature */
      , (5933,   2,         30) /* CreatureType - Skeleton */
-     , (5933,   3,         44) /* PaletteTemplate - Tanred */
+     , (5933,   3,         44) /* PaletteTemplate - TanRed */
      , (5933,   6,         -1) /* ItemsCapacity */
      , (5933,   7,         -1) /* ContainersCapacity */
      , (5933,  16,          1) /* ItemUseable - No */
