@@ -72,7 +72,9 @@ VALUES (7085,   1, 0x02000E08) /* Setup */
      , (7085,   8, 0x0600103D) /* Icon */
      , (7085,  22, 0x34000017) /* PhysicsEffectTable */
      , (7085,  32,        268) /* WieldedTreasureType - 
-                                   Wield Club (23651) | Probability: 50% */
+                                   # Set: 1
+                                   |  50.00% chance of Club (23651)
+                                   |  50.00% chance of nothing from this set */
      , (7085,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

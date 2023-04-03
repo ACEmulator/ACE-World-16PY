@@ -76,8 +76,9 @@ VALUES (30638,   1, 0x02000E08) /* Setup */
      , (30638,   8, 0x0600103D) /* Icon */
      , (30638,  22, 0x34000017) /* PhysicsEffectTable */
      , (30638,  32,        295) /* WieldedTreasureType - 
-                                   Wield 15x Frost Throwing Club (23663) | Probability: 50%
-                                   Wield Club (23648) | Probability: 50% */
+                                   # Set: 1
+                                   |  50.00% chance of 15x Frost Throwing Club (23663)
+                                   |  50.00% chance of Club (23648) */
      , (30638,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

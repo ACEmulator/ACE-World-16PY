@@ -76,8 +76,10 @@ VALUES (8563,   1, 0x02000197) /* Setup */
      , (8563,   8, 0x06001226) /* Icon */
      , (8563,  22, 0x34000028) /* PhysicsEffectTable */
      , (8563,  32,        336) /* WieldedTreasureType - 
-                                   Wield Dericostian Longbow (8560) | Probability: 100%
-                                   Wield 20x Arrow (300) | Probability: 100% */
+                                   # Set: 1
+                                   | 100.00% chance of Dericostian Longbow (8560)
+                                   |         with
+                                   |            100.00% chance of 18x to 20x Arrow (300) | StackSizeVariance: 0.1 */
      , (8563,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -72,8 +72,9 @@ VALUES (22516,   1, 0x02000001) /* Setup */
      , (22516,   8, 0x06001036) /* Icon */
      , (22516,  22, 0x34000004) /* PhysicsEffectTable */
      , (22516,  32,        416) /* WieldedTreasureType - 
-                                   Wield Clean, Dry Towel (10758) | Palette: Blue (2) | Probability: 50%
-                                   Wield Clean, Dry Towel (10758) | Palette: Green (8) | Probability: 50% */
+                                   # Set: 1
+                                   |  50.00% chance of Clean, Dry Towel (10758) | Palette: Blue (2)
+                                   |  50.00% chance of Clean, Dry Towel (10758) | Palette: Green (8) */
      , (22516,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

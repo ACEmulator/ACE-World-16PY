@@ -68,8 +68,9 @@ VALUES (11877,   1, 0x02000040) /* Setup */
      , (11877,   8, 0x0600103C) /* Icon */
      , (11877,  22, 0x34000026) /* PhysicsEffectTable */
      , (11877,  32,        368) /* WieldedTreasureType - 
-                                   Wield Hafted Mask Spear (11753) | Probability: 80%
-                                   Wield Reinforced Mask Spear (11779) | Probability: 20% */
+                                   # Set: 1
+                                   |  80.00% chance of Hafted Mask Spear (11753)
+                                   |  20.00% chance of Reinforced Mask Spear (11779) */
      , (11877,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

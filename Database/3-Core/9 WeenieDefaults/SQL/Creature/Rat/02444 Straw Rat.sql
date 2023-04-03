@@ -70,9 +70,11 @@ VALUES (2444,   1, 0x0200003D) /* Setup */
      , (2444,   8, 0x0600103B) /* Icon */
      , (2444,  22, 0x3400006D) /* PhysicsEffectTable */
      , (2444,  35,        160) /* DeathTreasureType - 
-                                    Drop Stale Bread (5088) | Probability: 16%
-                                    Drop Old Cheese (5089) | Probability: 16%
-                                    Drop Bruised Apple (5090) | Probability: 16% */;
+                                   # Set: 1
+                                   |  16.00% chance of Stale Bread (5088)
+                                   |  16.00% chance of Old Cheese (5089)
+                                   |  16.00% chance of Bruised Apple (5090)
+                                   |  52.00% chance of nothing from this set */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2444,   1,   1, 0, 0) /* Strength */
