@@ -99,8 +99,8 @@ VALUES (8053,   1, 0x02000001) /* Setup */
                                    |            100.00% chance of Kite Shield (23685)
                                    # Set: 2
                                    |  35.00% chance of Fire Yaoji (23719)
-                                   |          with
-                                   |             100.00% chance of Kite Shield (23685)
+                                   |         with
+                                   |            100.00% chance of Kite Shield (23685)
                                    |  65.00% chance of nothing from this set */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

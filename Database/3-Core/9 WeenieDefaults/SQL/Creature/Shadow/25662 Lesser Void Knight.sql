@@ -101,8 +101,8 @@ VALUES (25662,   1, 0x02000001) /* Setup */
                                    |            100.00% chance of Kite Shield (23684)
                                    # Set: 2
                                    |  35.00% chance of Fire Tachi (23707)
-                                   |          with
-                                   |             100.00% chance of Kite Shield (23684)
+                                   |         with
+                                   |            100.00% chance of Kite Shield (23684)
                                    |  65.00% chance of nothing from this set */
      , (25662,  35,        448) /* DeathTreasureType - Loot Tier: 4 */;
 

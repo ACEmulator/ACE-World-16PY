@@ -104,8 +104,8 @@ VALUES (6453,   1, 0x0200084E) /* Setup */
                                    |            100.00% chance of Kite Shield (23685)
                                    # Set: 2
                                    |  35.00% chance of Fire Yaoji (23719)
-                                   |          with
-                                   |             100.00% chance of Kite Shield (23685)
+                                   |         with
+                                   |            100.00% chance of Kite Shield (23685)
                                    |  65.00% chance of nothing from this set */
      , (6453,  35,        253) /* DeathTreasureType - Loot Tier: 3 */;
 

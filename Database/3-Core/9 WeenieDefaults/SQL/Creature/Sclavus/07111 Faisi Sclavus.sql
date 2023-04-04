@@ -87,18 +87,18 @@ VALUES (7111,   1, 0x02000498) /* Setup */
                                    |            100.00% chance of Kite Shield (23686)
                                    # Set: 2
                                    |  10.00% chance of Cestus (23639)
-                                   |          with
-                                   |             100.00% chance of Kite Shield (23686)
-                                   |              10.00% chance of Spear (23698)
-                                   |           with
-                                   |              100.00% chance of Kite Shield (23686)
-                                   |               10.00% chance of Tachi (23702)
-                                   |            with
-                                   |               100.00% chance of Kite Shield (23686)
-                                   |                50.00% chance of Yari (23732)
-                                   |             with
-                                   |                100.00% chance of Kite Shield (23686)
-                                   |  90.00% chance of nothing from this set */
+                                   |         with
+                                   |            100.00% chance of Kite Shield (23686)
+                                   |  10.00% chance of Spear (23698)
+                                   |         with
+                                   |            100.00% chance of Kite Shield (23686)
+                                   |  10.00% chance of Tachi (23702)
+                                   |         with
+                                   |            100.00% chance of Kite Shield (23686)
+                                   |  50.00% chance of Yari (23732)
+                                   |         with
+                                   |            100.00% chance of Kite Shield (23686)
+                                   |  20.00% chance of nothing from this set */
      , (7111,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

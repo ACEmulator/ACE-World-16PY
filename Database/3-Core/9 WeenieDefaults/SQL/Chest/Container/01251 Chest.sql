@@ -53,5 +53,5 @@ VALUES (1251, 1, 92, 30, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0) /* Gener
                                    | 100.00% chance of Yoroi Breastplate (43)
                                    |         with
                                    |            100.00% chance of Tachi (353)
-                                   |          with
-                                   |             100.00% chance of Green Mire Yari (2016) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;
+                                   # Set: 2
+                                   | 100.00% chance of Green Mire Yari (2016) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: ContainTreasure */;
