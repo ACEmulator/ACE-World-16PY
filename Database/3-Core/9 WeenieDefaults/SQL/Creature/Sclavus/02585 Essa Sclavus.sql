@@ -81,7 +81,7 @@ VALUES (2585,   1, 0x02000498) /* Setup */
                                    # Set: 2
                                    |  25.00% chance of Budiaq (308)
                                    |  50.00% chance of Spear (348)
-                                   |  50.00% chance of Yari (362)
+                                   |  25.00% chance of Yari (362) | Chance adjusted down from 50.00% due to overage for this set
                                    # Set: 3
                                    |  30.00% chance of Large Kite Shield (92)
                                    |  20.00% chance of Kite Shield (91)

@@ -96,7 +96,7 @@ VALUES (8267,   1, 0x02000001) /* Setup */
                                    |  10.00% chance of Cestus (23638)
                                    |         with
                                    |            100.00% chance of Kite Shield (23685)
-                                   |  35.00% chance of Tachi (23701)
+                                   |  30.00% chance of Tachi (23701) | Chance adjusted down from 35.00% due to overage for this set
                                    |         with
                                    |            100.00% chance of Kite Shield (23685)
                                    # Set: 2

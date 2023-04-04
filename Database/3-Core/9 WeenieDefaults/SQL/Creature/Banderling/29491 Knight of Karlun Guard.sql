@@ -83,7 +83,7 @@ VALUES (29491,   1, 0x02000E08) /* Setup */
                                    |  12.00% chance of Budiaq (308)
                                    |  13.00% chance of Spear (348)
                                    |  17.00% chance of Kasrullah (325)
-                                   |  38.00% chance of Club (309)
+                                   |  23.00% chance of Club (309) | Chance adjusted down from 38.00% due to overage for this set
                                    # Set: 2
                                    |   1.00% chance of 2x Javelin (320)
                                    |   1.00% chance of 3x Throwing Club (310)

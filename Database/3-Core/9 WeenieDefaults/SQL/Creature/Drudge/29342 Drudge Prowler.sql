@@ -85,7 +85,7 @@ VALUES (29342,   1, 0x020007DD) /* Setup */
                                    |  10.00% chance of Yaoji (361)
                                    |  15.00% chance of Drudge Board with Nail (7767)
                                    |   4.00% chance of 9x to 10x Shouken (343) | StackSizeVariance: 0.1
-                                   |   5.00% chance of 5x to 6x Throwing Dagger (315) | StackSizeVariance: 0.1
+                                   |   1.00% chance of 5x to 6x Throwing Dagger (315) | StackSizeVariance: 0.1 | Chance adjusted down from 5.00% due to overage for this set
                                    # Set: 2
                                    |   2.00% chance of 4x Javelin (320) | StackSizeVariance: 0.1
                                    |   1.00% chance of Djarid (317)

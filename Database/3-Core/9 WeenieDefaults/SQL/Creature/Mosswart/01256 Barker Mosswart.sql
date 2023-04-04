@@ -80,7 +80,7 @@ VALUES (1256,   1, 0x02000B4F) /* Setup */
                                    |   5.00% chance of 9x to 10x Shouken (343) | StackSizeVariance: 0.1
                                    |   5.00% chance of 5x to 6x Throwing Dagger (315) | StackSizeVariance: 0.1
                                    |   2.00% chance of 4x Javelin (320) | StackSizeVariance: 0.1
-                                   |  10.00% chance of Djarid (317) */
+                                   |   8.00% chance of Djarid (317) | Chance adjusted down from 10.00% due to overage for this set */
      , (1256,  35,        123) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
