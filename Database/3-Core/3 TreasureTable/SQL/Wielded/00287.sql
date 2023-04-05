@@ -5,3 +5,13 @@ VALUES (287, 23736,  0, 0,    0, 0, 0,     0.5, 0, 0, 0,  True,  True, False, 0,
      , (287,  5305,  0, 0,    0, 16, 0.1,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Greater Fire Arrow */
      , (287, 23686,  0, 0,    0, 0, 0,     0.5, 0, 0, 0,  True, False,  True, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Kite Shield */
      , (287, 23708,  0, 0,    0, 0, 0,     0.5, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Fire Tachi */;
+/* 
+    # Set: 1
+    |  50.00% chance of Yumi (23736)
+    |         with
+    |            100.00% chance of 14x to 16x Greater Fire Arrow (5305) | StackSizeVariance: 0.1
+    |  50.00% chance of Kite Shield (23686)
+    # Set: 2
+    |  50.00% chance of Fire Tachi (23708)
+    |  50.00% chance of nothing from this set
+*/

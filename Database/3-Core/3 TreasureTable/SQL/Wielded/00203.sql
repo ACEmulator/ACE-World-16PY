@@ -14,3 +14,26 @@ VALUES (203, 23734,  0, 0,    0, 0, 0,     0.2, 0, 0, 0,  True,  True, False, 0,
      , (203, 23710,  0, 0,    0, 0, 0,    0.12, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Yaoji */
      , (203, 23707,  0, 0,    0, 0, 0,    0.12, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Fire Tachi */
      , (203, 23684,  0, 0,    0, 0, 0,    0.75, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Kite Shield */;
+/* 
+    # Set: 1
+    |  20.00% chance of Yumi (23734)
+    |         with
+    |            100.00% chance of 18x to 20x Deadly Arrow (15429) | StackSizeVariance: 0.1
+    |  40.00% chance of Heavy Crossbow (23665)
+    |         with
+    |            100.00% chance of 18x to 20x Deadly Quarrel (15438) | StackSizeVariance: 0.1
+    |  40.00% chance of nothing from this set
+    # Set: 2
+    |  12.00% chance of Katar (23674)
+    |  12.00% chance of Cestus (23637)
+    |  12.00% chance of Nekode (23680)
+    |  12.00% chance of Tachi (23700)
+    |  12.00% chance of Spear (23696)
+    |  12.00% chance of Fire Yaoji (23718)
+    |  12.00% chance of Yaoji (23710)
+    |  12.00% chance of Fire Tachi (23707)
+    |   4.00% chance of nothing from this set
+    # Set: 3
+    |  75.00% chance of Kite Shield (23684)
+    |  25.00% chance of nothing from this set
+*/

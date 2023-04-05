@@ -11,3 +11,18 @@ VALUES (415, 10757,  2, 0,    0, 0, 0,     0.5, 0, 0, 0,  True, False, False, 0,
      , (415, 12076,  0, 0,    0, 0, 0,  0.0277, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Bandit Rapier */
      , (415, 12078,  0, 0,    0, 0, 0,   0.125, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Bandit Short Sword */
      , (415, 12083,  0, 0,    0, 0, 0,   0.125, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Bandit Yaoji */;
+/* 
+    # Set: 1
+    |  50.00% chance of Towel (10757) | Palette: Blue (2)
+    |  50.00% chance of Towel (10757) | Palette: Green (8)
+    # Set: 2
+    |  12.50% chance of Bandit Dagger (12052)
+    |  12.50% chance of Bandit Jambiya (12057)
+    |  12.50% chance of Bandit Khanjar (12062)
+    |  12.50% chance of Bandit Knife (12067)
+    |  12.50% chance of Bandit Simi (12072)
+    |   2.77% chance of Bandit Rapier (12076)
+    |  12.50% chance of Bandit Short Sword (12078)
+    |  12.50% chance of Bandit Yaoji (12083)
+    |   9.73% chance of nothing from this set
+*/

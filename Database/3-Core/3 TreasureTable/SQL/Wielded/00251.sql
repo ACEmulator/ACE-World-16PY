@@ -27,3 +27,34 @@ VALUES (251,   308,  0, 0,    0, 0, 0,    0.05, 0, 0, 0,  True, False, False, 0,
      , (251,   320,  0, 0,    0, 5, 0.1,    0.08, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Javelin */
      , (251,   317,  0, 0,    0, 5, 0.1,    0.08, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Djarid */
      , (251,   310,  0, 0,    0, 4, 0.1,    0.08, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Throwing Club */;
+/* 
+    # Set: 1
+    |   5.00% chance of Budiaq (308)
+    |   5.00% chance of Club (309)
+    |   5.00% chance of Dabus (313)
+    |   5.00% chance of Dagger (314)
+    |   5.00% chance of Hand Axe (303)
+    |   5.00% chance of Jambiya (319)
+    |   5.00% chance of Jitte (321)
+    |   5.00% chance of Kasrullah (325)
+    |   5.00% chance of Katar (326)
+    |   5.00% chance of Khanjar (328)
+    |   5.00% chance of Knife (329)
+    |   5.00% chance of Mace (331)
+    |   5.00% chance of Short Sword (352)
+    |   5.00% chance of Shou-ono (342)
+    |   5.00% chance of Simi (345)
+    |   5.00% chance of Spear (348)
+    |   5.00% chance of Tofun (356)
+    |   5.00% chance of Tungi (357)
+    |   5.00% chance of Yaoji (361)
+    |   5.00% chance of Yari (362)
+    # Set: 2
+    |   5.00% chance of 9x to 10x Throwing Dart (316) | StackSizeVariance: 0.1
+    |   5.00% chance of 9x to 10x Shouken (343) | StackSizeVariance: 0.1
+    |   8.00% chance of 9x to 10x Throwing Dagger (315) | StackSizeVariance: 0.1
+    |   8.00% chance of 5x Javelin (320) | StackSizeVariance: 0.1
+    |   8.00% chance of 5x Djarid (317) | StackSizeVariance: 0.1
+    |   8.00% chance of 4x Throwing Club (310) | StackSizeVariance: 0.1
+    |  58.00% chance of nothing from this set
+*/

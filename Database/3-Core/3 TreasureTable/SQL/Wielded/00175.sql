@@ -15,3 +15,29 @@ VALUES (175, 23735,  0, 0,    0, 0, 0,     0.2, 0, 0, 0,  True,  True, False, 0,
      , (175, 23685,  0, 0,    0, 0, 0,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Kite Shield */
      , (175, 23719,  0, 0,    0, 0, 0,    0.35, 0, 0, 0,  True,  True,  True, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Fire Yaoji */
      , (175, 23685,  0, 0,    0, 0, 0,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Kite Shield */;
+/* 
+    # Set: 1
+    |  20.00% chance of Yumi (23735)
+    |         with
+    |            100.00% chance of 13x to 14x Fire Arrow (1437) | StackSizeVariance: 0.1
+    |  20.00% chance of Yumi (23735)
+    |         with
+    |            100.00% chance of 13x to 14x Arrow (300) | StackSizeVariance: 0.1
+    |  10.00% chance of Katar (23675)
+    |         with
+    |            100.00% chance of Kite Shield (23685)
+    |  10.00% chance of Nekode (23681)
+    |         with
+    |            100.00% chance of Kite Shield (23685)
+    |  10.00% chance of Cestus (23638)
+    |         with
+    |            100.00% chance of Kite Shield (23685)
+    |  30.00% chance of Tachi (23701) | Chance adjusted down from 35.00% due to overage for this set
+    |         with
+    |            100.00% chance of Kite Shield (23685)
+    # Set: 2
+    |  35.00% chance of Fire Yaoji (23719)
+    |         with
+    |            100.00% chance of Kite Shield (23685)
+    |  65.00% chance of nothing from this set
+*/

@@ -11,3 +11,21 @@ VALUES (37,   273,  0, 0,    0, 200, 0,       1, 0, 0, 0,  True, False, False, 0
      , (37,   297,  0, 0,    0, 0, 0,     0.3, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Ring */
      , (37,   294,  0, 0,    0, 0, 0,     0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Amulet */
      , (37,  1442,  0, 0,    0, 0, 0,     0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Fine Gem */;
+/* 
+    # Set: 1
+    | 100.00% chance of 200x Pyreal (273)
+    # Set: 2
+    |  30.00% chance of Apple (258)
+    |         with
+    |             50.00% chance of Meat (265)
+    |             50.00% chance of 8x to 10x Bread (259) | StackSizeVariance: 0.2
+    |  30.00% chance of 2x Brimstone-cap Mushroom (547)
+    |         with
+    |            100.00% chance of Cabbage (260)
+    |  40.00% chance of Bowl of Stew (549)
+    # Set: 3
+    |  30.00% chance of Ring (297)
+    |  10.00% chance of Amulet (294)
+    |  10.00% chance of Fine Gem (1442)
+    |  50.00% chance of nothing from this set
+*/

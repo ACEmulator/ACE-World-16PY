@@ -16,3 +16,23 @@ VALUES (46,   322,  0, 0,    0, 0, 0,    0.03, 0, 0, 0,  True, False, False, 0, 
      , (46,   317,  0, 0,    0, 0, 0,    0.01, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Djarid */
      , (46,   320,  0, 0,    0, 2, 0,    0.01, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Javelin */
      , (46,   310,  0, 0,    0, 3, 0,    0.01, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Throwing Club */;
+/* 
+    # Set: 1
+    |   3.00% chance of Jo (322)
+    |   3.00% chance of Nabut (333)
+    |   4.00% chance of Quarter Staff (338)
+    |   8.00% chance of Shou-ono (342)
+    |   8.00% chance of Tungi (357)
+    |   9.00% chance of Hand Axe (303)
+    |  12.00% chance of Budiaq (308)
+    |  13.00% chance of Spear (348)
+    |  17.00% chance of Kasrullah (325)
+    |  23.00% chance of Club (309) | Chance adjusted down from 38.00% due to overage for this set
+    # Set: 2
+    |   1.00% chance of 2x Javelin (320)
+    |   1.00% chance of 3x Throwing Club (310)
+    |   1.00% chance of Djarid (317)
+    |   1.00% chance of 2x Javelin (320)
+    |   1.00% chance of 3x Throwing Club (310)
+    |  95.00% chance of nothing from this set
+*/

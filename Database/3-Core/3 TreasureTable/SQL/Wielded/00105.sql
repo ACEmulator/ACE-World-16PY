@@ -5,3 +5,13 @@ VALUES (105, 23747,  0, 0,    0, 1, 0,     0.9, 0, 0, 0,  True, False, False, 0,
      , (105, 23741,  0, 0,    0, 0, 0,     0.2, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Lugian Axe */
      , (105, 23741,  0, 0,    0, 0, 0,     0.4, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Lugian Axe */
      , (105, 23741,  0, 0,    0, 0, 0,     0.3, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Lugian Axe */;
+/* 
+    # Set: 1
+    |  90.00% chance of Rock (23747)
+    |  10.00% chance of nothing from this set
+    # Set: 2
+    |  20.00% chance of Lugian Axe (23741)
+    |  40.00% chance of Lugian Axe (23741)
+    |  30.00% chance of Lugian Axe (23741)
+    |  10.00% chance of nothing from this set
+*/

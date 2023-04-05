@@ -9,3 +9,15 @@ VALUES (299,  7308,  0, 0,    0, 10, 0,    0.25, 0, 0, 0,  True, False, False, 0
      , (299,  7970,  0, 0,    0, 0, 0,    0.25, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Acid Long Sword */
      , (299,  7967,  0, 0,    0, 0, 0,    0.25, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Club */
      , (299,  7966,  0, 0,    0, 0, 0,    0.25, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Frost Club */;
+/* 
+    # Set: 1
+    |  25.00% chance of 10x Lightning Throwing Axe (7308)
+    |  25.00% chance of 10x Frost Throwing Club (7309)
+    |  25.00% chance of 10x Flaming Javelin (7311)
+    |  25.00% chance of 10x Acid Shouken (7313)
+    # Set: 2
+    |  25.00% chance of Lightning Tachi (7972)
+    |  25.00% chance of Acid Long Sword (7970)
+    |  25.00% chance of Club (7967)
+    |  25.00% chance of Frost Club (7966)
+*/

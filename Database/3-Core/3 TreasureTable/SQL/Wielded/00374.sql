@@ -27,3 +27,44 @@ VALUES (374,   320,  0, 0,    0, 5, 0.1,     0.1, 0, 0, 0,  True, False, False, 
      , (374,   344,  0, 0,    0, 0, 0,    0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Silifi */
      , (374,   353,  0, 0,    0, 0, 0,    0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Tachi */
      , (374,   359,  0, 0,    0, 0, 0,    0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* War Hammer */;
+/* 
+    # Set: 1
+    |  10.00% chance of 5x Javelin (320) | StackSizeVariance: 0.1
+    |  10.00% chance of 5x Djarid (317) | StackSizeVariance: 0.1
+    |   5.00% chance of 4x Throwing Club (310) | StackSizeVariance: 0.1
+    |   5.00% chance of 5x to 6x Throwing Axe (304) | StackSizeVariance: 0.1
+    |  70.00% chance of nothing from this set
+    # Set: 2
+    |   3.00% chance of Shortbow (307)
+    |         with
+    |            100.00% chance of 23x to 25x Arrow (300) | StackSizeVariance: 0.1
+    |   3.00% chance of Shouyumi (341)
+    |         with
+    |            100.00% chance of 18x to 20x Arrow (300) | StackSizeVariance: 0.1
+    |  11.00% chance of Light Crossbow (312)
+    |         with
+    |            100.00% chance of 14x to 15x Quarrel (305) | StackSizeVariance: 0.1
+    |  26.00% chance of Balister of the Quiddity (11893)
+    |         with
+    |            100.00% chance of 18x to 20x Quarrel (305) | StackSizeVariance: 0.1
+    |   6.00% chance of Longbow (306)
+    |         with
+    |            100.00% chance of 20x to 22x Arrow (300) | StackSizeVariance: 0.1
+    |   4.00% chance of Yumi (363)
+    |         with
+    |            100.00% chance of 20x Arrow (300)
+    |  14.00% chance of Heavy Crossbow (311)
+    |         with
+    |            100.00% chance of 14x to 15x Quarrel (305) | StackSizeVariance: 0.1
+    |  33.00% chance of nothing from this set
+    # Set: 3
+    |  25.00% chance of Blade of the Quiddity (11917)
+    |  25.00% chance of Lance of the Quiddity (11914)
+    |  25.00% chance of Mace of the Quiddity (11908)
+    |   3.00% chance of Kaskara (324)
+    |   3.00% chance of Long Sword (351)
+    |   5.00% chance of Silifi (344)
+    |   5.00% chance of Tachi (353)
+    |   5.00% chance of War Hammer (359)
+    |   4.00% chance of nothing from this set
+*/

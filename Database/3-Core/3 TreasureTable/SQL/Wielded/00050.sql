@@ -9,3 +9,15 @@ VALUES (50,  1446,  0, 0,    0, 1, 0,    0.12, 0, 0, 0,  True, False, False, 0, 
      , (50,  1449,  0, 0,    0, 1, 0,    0.12, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Royal Cabbage */
      , (50,  1450,  0, 0,    0, 1, 0,    0.14, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Salmon */
      , (50,  1451,  0, 0,    0, 1, 0,    0.14, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Special Cheese */;
+/* 
+    # Set: 1
+    |  12.00% chance of Fire Auroch Meat (1446)
+    |  12.00% chance of Super Cheese (1452)
+    |  12.00% chance of Fresh Fish (1445)
+    |  12.00% chance of Wheat Bread (1448)
+    |  12.00% chance of Tart Apple (1447)
+    |  12.00% chance of Royal Cabbage (1449)
+    |  14.00% chance of Salmon (1450)
+    |  14.00% chance of Special Cheese (1451)
+    |   1.00% chance of nothing from this set
+*/

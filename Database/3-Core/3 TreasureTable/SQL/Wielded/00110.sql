@@ -5,3 +5,11 @@ VALUES (110, 23741,  0, 0,    0, 0, 0,     0.4, 0, 0, 0,  True, False, False, 0,
      , (110, 23759,  0, 0,    0, 0, 0,     0.2, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Lugian Mace */
      , (110, 23755,  0, 0,    0, 0, 0,    0.15, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Lugian Hammer */
      , (110, 23767,  0, 0,    0, 0, 0,     0.2, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Lugian Morning Star */;
+/* 
+    # Set: 1
+    |  40.00% chance of Lugian Axe (23741)
+    |  20.00% chance of Lugian Mace (23759)
+    |  15.00% chance of Lugian Hammer (23755)
+    |  20.00% chance of Lugian Morning Star (23767)
+    |   5.00% chance of nothing from this set
+*/

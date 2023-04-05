@@ -6,3 +6,13 @@ VALUES (250, 23675,  0, 0,    0, 0, 0,    0.25, 0, 0, 0,  True, False, False, 0,
      , (250, 23638,  0, 0,    0, 0, 0,    0.25, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Cestus */
      , (250, 23701,  0, 0,    0, 0, 0,    0.25, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Tachi */
      , (250, 23685,  0, 0,    0, 0, 0,    0.85, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Kite Shield */;
+/* 
+    # Set: 1
+    |  25.00% chance of Katar (23675)
+    |  25.00% chance of Nekode (23681)
+    |  25.00% chance of Cestus (23638)
+    |  25.00% chance of Tachi (23701)
+    # Set: 2
+    |  85.00% chance of Kite Shield (23685)
+    |  15.00% chance of nothing from this set
+*/

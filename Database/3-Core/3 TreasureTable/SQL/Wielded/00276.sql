@@ -7,3 +7,13 @@ VALUES (276, 23744,  0, 0,    0, 1, 0,       1, 0, 0, 0,  True, False, False, 0,
      , (276, 23750,  0, 0,    0, 0, 0,     0.2, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Lugian Club */
      , (276, 23758,  0, 0,    0, 0, 0,     0.2, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Lugian Mace */
      , (276, 23754,  0, 0,    0, 0, 0,     0.2, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Lugian Hammer */;
+/* 
+    # Set: 1
+    | 100.00% chance of Rock (23744)
+    # Set: 2
+    |  20.00% chance of Lugian Axe (23738)
+    |  20.00% chance of Lugian Morning Star (23762)
+    |  20.00% chance of Lugian Club (23750)
+    |  20.00% chance of Lugian Mace (23758)
+    |  20.00% chance of Lugian Hammer (23754)
+*/

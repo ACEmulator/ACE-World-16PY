@@ -5,3 +5,11 @@ VALUES (300, 23647,  0, 0,    0, 0, 0,     0.2, 0, 0, 0,  True, False, False, 0,
      , (300, 23662,  0, 0,    0, 15, 0,     0.2, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Frost Throwing Club */
      , (300, 23654,  0, 0,    0, 15, 0,     0.2, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Throwing Club */
      , (300, 23650,  0, 0,    0, 0, 0,     0.2, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Club */;
+/* 
+    # Set: 1
+    |  20.00% chance of Club (23647)
+    |  20.00% chance of 15x Frost Throwing Club (23662)
+    |  20.00% chance of 15x Throwing Club (23654)
+    |  20.00% chance of Club (23650)
+    |  20.00% chance of nothing from this set
+*/

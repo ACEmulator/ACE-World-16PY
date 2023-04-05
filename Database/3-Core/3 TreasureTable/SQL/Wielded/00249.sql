@@ -22,3 +22,38 @@ VALUES (249, 23654,  0, 0,    0, 4, 0.1,     0.1, 0, 0, 0,  True, False, False, 
      , (249, 23731,  0, 0,    0, 0, 0,    0.15, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Yari */
      , (249, 23685,  0, 0,    0, 0, 0,     0.5, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Kite Shield */
      , (249,    95,  0, 0,    0, 0, 0,    0.25, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Tower Shield */;
+/* 
+    # Set: 1
+    |  10.00% chance of 4x Throwing Club (23654) | StackSizeVariance: 0.1
+    |  10.00% chance of Yumi (23735)
+    |         with
+    |            100.00% chance of 16x to 18x Arrow (300) | StackSizeVariance: 0.1
+    |  10.00% chance of Yumi (23735)
+    |         with
+    |            100.00% chance of 18x to 20x Fire Arrow (1437) | StackSizeVariance: 0.1
+    |  10.00% chance of Yumi (23735)
+    |         with
+    |            100.00% chance of 9x to 10x Acid Arrow (4181) | StackSizeVariance: 0.1
+    |  10.00% chance of Heavy Crossbow (23666)
+    |         with
+    |            100.00% chance of 11x to 12x Quarrel (305) | StackSizeVariance: 0.1
+    |  10.00% chance of Heavy Crossbow (23666)
+    |         with
+    |            100.00% chance of 13x to 14x Fire Quarrel (4188) | StackSizeVariance: 0.1
+    |  10.00% chance of Heavy Crossbow (23666)
+    |         with
+    |            100.00% chance of 14x to 16x Acid Quarrel (4185) | StackSizeVariance: 0.1
+    |  30.00% chance of nothing from this set
+    # Set: 2
+    |  15.00% chance of Katar (23675)
+    |  15.00% chance of Cestus (23638)
+    |  15.00% chance of Nekode (23681)
+    |  15.00% chance of Spear (23697)
+    |  15.00% chance of Tachi (23701)
+    |  15.00% chance of Yari (23731)
+    |  10.00% chance of nothing from this set
+    # Set: 3
+    |  50.00% chance of Kite Shield (23685)
+    |  25.00% chance of Tower Shield (95)
+    |  25.00% chance of nothing from this set
+*/

@@ -9,3 +9,18 @@ VALUES (216,   334,  0, 0,    0, 0, 0,    0.25, 0, 0, 0,  True,  True, False, 0,
      , (216,   300,  0, 0,    0, 20, 0.1,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Arrow */
      , (216,   311,  0, 0,    0, 0, 0,    0.25, 0, 0, 0,  True,  True,  True, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Heavy Crossbow */
      , (216,   305,  0, 0,    0, 15, 0.1,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Quarrel */;
+/* 
+    # Set: 1
+    |  25.00% chance of Nayin (334)
+    |         with
+    |            100.00% chance of 18x to 20x Arrow (300) | StackSizeVariance: 0.1
+    |  25.00% chance of Longbow (306)
+    |         with
+    |            100.00% chance of 16x to 18x Arrow (300) | StackSizeVariance: 0.1
+    |  25.00% chance of Yumi (363)
+    |         with
+    |            100.00% chance of 18x to 20x Arrow (300) | StackSizeVariance: 0.1
+    |  25.00% chance of Heavy Crossbow (311)
+    |         with
+    |            100.00% chance of 14x to 15x Quarrel (305) | StackSizeVariance: 0.1
+*/

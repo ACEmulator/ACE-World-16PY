@@ -10,3 +10,18 @@ VALUES (291, 23663,  0, 0,    0, 5, 0.1,     0.4, 0, 0, 0,  True, False, False, 
      , (291, 23694,  0, 0,    0, 0, 0,    0.15, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Frost Spear */
      , (291, 23698,  0, 0,    0, 0, 0,    0.15, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Spear */
      , (291, 23702,  0, 0,    0, 0, 0,     0.2, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Tachi */;
+/* 
+    # Set: 1
+    |  40.00% chance of 5x Frost Throwing Club (23663) | StackSizeVariance: 0.1
+    |  30.00% chance of 5x Throwing Club (23655) | StackSizeVariance: 0.1
+    |  30.00% chance of Yumi (23736)
+    |         with
+    |            100.00% chance of 16x to 18x Greater Arrow (5304) | StackSizeVariance: 0.1
+    # Set: 2
+    |  25.00% chance of Frost Yari (23728)
+    |  25.00% chance of Yari (23732)
+    |  15.00% chance of Frost Spear (23694)
+    |  15.00% chance of Spear (23698)
+    |  20.00% chance of Tachi (23702)
+    |   1.00% chance of nothing from this set
+*/

@@ -8,3 +8,13 @@ VALUES (118,  3943,  0, 0,    0, 0, 0,     0.2, 0, 0, 0,  True, False, False, 0,
      , (118,  3948,  0, 0,    0, 0, 0,     0.2, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Morning Star */
      , (118,  3946,  0, 0,    0, 0, 0,     0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Tofun */
      , (118,   310,  0, 0,    0, 10, 0.1,     0.2, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Throwing Club */;
+/* 
+    # Set: 1
+    |  20.00% chance of Club (3943)
+    |  10.00% chance of Dabus (3944)
+    |  10.00% chance of Kasrullah (3945)
+    |  10.00% chance of Mace (3947)
+    |  20.00% chance of Morning Star (3948)
+    |  10.00% chance of Tofun (3946)
+    |  20.00% chance of 9x to 10x Throwing Club (310) | StackSizeVariance: 0.1
+*/

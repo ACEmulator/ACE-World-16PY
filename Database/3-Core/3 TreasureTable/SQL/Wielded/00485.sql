@@ -6,3 +6,11 @@ VALUES (485, 29999,  0, 0,    0, 0, 0,     0.2, 0, 0, 0,  True, False, False, 0,
      , (485, 29984,  0, 0,    0, 0, 0,     0.2, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Stone Hatchet */
      , (485, 29989,  0, 0,    0, 0, 0,     0.2, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Stone Spear */
      , (485, 29994,  0, 0,    0, 0, 0,     0.2, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Bone Sword */;
+/* 
+    # Set: 1
+    |  20.00% chance of Stone Mace (29999)
+    |  20.00% chance of Bone Dagger (30004)
+    |  20.00% chance of Stone Hatchet (29984)
+    |  20.00% chance of Stone Spear (29989)
+    |  20.00% chance of Bone Sword (29994)
+*/

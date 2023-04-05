@@ -4,3 +4,9 @@ INSERT INTO `treasure_wielded` (`treasure_Type`, `weenie_Class_Id`, `palette_Id`
 VALUES (71, 23731,  0, 0,    0, 0, 0,     0.5, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Yari */
      , (71, 23701,  0, 0,    0, 0, 0,    0.25, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Tachi */
      , (71, 23697,  0, 0,    0, 0, 0,    0.25, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Spear */;
+/* 
+    # Set: 1
+    |  50.00% chance of Yari (23731)
+    |  25.00% chance of Tachi (23701)
+    |  25.00% chance of Spear (23697)
+*/

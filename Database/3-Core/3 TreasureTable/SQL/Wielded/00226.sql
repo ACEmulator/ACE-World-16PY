@@ -39,3 +39,56 @@ VALUES (226,   320,  0, 0,    0, 5, 0.1,     0.1, 0, 0, 0,  True, False, False, 
      , (226,    92,  0, 0,    0, 0, 0,     0.3, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Large Kite Shield */
      , (226,    91,  0, 0,    0, 0, 0,     0.2, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Kite Shield */
      , (226,    94,  0, 0,    0, 0, 0,     0.2, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Large Round Shield */;
+/* 
+    # Set: 1
+    |  10.00% chance of 5x Javelin (320) | StackSizeVariance: 0.1
+    |  10.00% chance of 5x to 6x Djarid (317) | StackSizeVariance: 0.1
+    |   5.00% chance of 4x Throwing Club (310) | StackSizeVariance: 0.1
+    |   5.00% chance of 5x to 6x Throwing Axe (304) | StackSizeVariance: 0.1
+    |   5.00% chance of Yag (360)
+    |         with
+    |            100.00% chance of 21x to 23x Arrow (300) | StackSizeVariance: 0.1
+    |   5.00% chance of Shortbow (307)
+    |         with
+    |            100.00% chance of 23x to 25x Arrow (300) | StackSizeVariance: 0.1
+    |   5.00% chance of Shouyumi (341)
+    |         with
+    |            100.00% chance of 18x to 20x Arrow (300) | StackSizeVariance: 0.1
+    |  16.00% chance of Light Crossbow (312)
+    |         with
+    |            100.00% chance of 14x to 15x Quarrel (305) | StackSizeVariance: 0.1
+    |   6.00% chance of Nayin (334)
+    |         with
+    |            100.00% chance of 18x to 20x Arrow (300) | StackSizeVariance: 0.1
+    |  11.00% chance of Longbow (306)
+    |         with
+    |            100.00% chance of 20x to 22x Arrow (300) | StackSizeVariance: 0.1
+    |   6.00% chance of Yumi (363)
+    |         with
+    |            100.00% chance of 20x Arrow (300)
+    |  16.00% chance of Heavy Crossbow (311)
+    |         with
+    |            100.00% chance of 14x to 15x Quarrel (305) | StackSizeVariance: 0.1
+    # Set: 2
+    |   6.00% chance of Battle Axe (301)
+    |   6.00% chance of Budiaq (308)
+    |   6.00% chance of Dabus (313)
+    |   5.00% chance of Kaskara (324)
+    |   5.00% chance of Long Sword (351)
+    |   7.00% chance of Mace (331)
+    |   5.00% chance of Ono (336)
+    |  10.00% chance of Scimitar (339)
+    |   5.00% chance of Shamshir (340)
+    |   5.00% chance of Silifi (344)
+    |   7.00% chance of Spear (348)
+    |   5.00% chance of Tachi (353)
+    |   6.00% chance of Tofun (356)
+    |  10.00% chance of War Hammer (359)
+    |  10.00% chance of Yari (362)
+    |   2.00% chance of nothing from this set
+    # Set: 3
+    |  30.00% chance of Large Kite Shield (92)
+    |  20.00% chance of Kite Shield (91)
+    |  20.00% chance of Large Round Shield (94)
+    |  30.00% chance of nothing from this set
+*/
