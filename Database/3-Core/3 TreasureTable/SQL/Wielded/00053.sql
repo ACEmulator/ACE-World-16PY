@@ -5,3 +5,13 @@ VALUES (53,  1247,  0, 0,    0, 0, 0,       1, 0, 0, 0,  True, False, False, 0, 
      , (53,  1437,  0, 0,    0, 12, 0.1,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Fire Arrow */
      , (53,    72,  0, 0,    0, 0, 0,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Platemail Hauberk */
      , (53,  1446,  0, 0,    0, 3, 0,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Fire Auroch Meat */;
+/* 
+    # Set: 1
+    | 100.00% chance of Key (1247)
+    # Set: 2
+    | 100.00% chance of 11x to 12x Fire Arrow (1437) | StackSizeVariance: 0.1
+    # Set: 3
+    | 100.00% chance of Platemail Hauberk (72)
+    # Set: 4
+    | 100.00% chance of 3x Fire Auroch Meat (1446)
+*/

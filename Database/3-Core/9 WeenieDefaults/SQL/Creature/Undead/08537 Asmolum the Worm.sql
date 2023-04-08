@@ -76,8 +76,10 @@ VALUES (8537,   1, 0x02000197) /* Setup */
      , (8537,   8, 0x06001226) /* Icon */
      , (8537,  22, 0x34000028) /* PhysicsEffectTable */
      , (8537,  32,        337) /* WieldedTreasureType - 
-                                   Wield 2x Asmolum's Throwing Dagger (8525) | Probability: 100%
-                                   Wield Asmolum's Dagger (8524) | Probability: 100% */;
+                                   # Set: 1
+                                   | 100.00% chance of 2x Asmolum's Throwing Dagger (8525) | StackSizeVariance: 0.1
+                                   # Set: 2
+                                   | 100.00% chance of Asmolum's Dagger (8524) */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8537,   1, 230, 0, 0) /* Strength */

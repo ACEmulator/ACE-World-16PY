@@ -27,3 +27,40 @@ VALUES (215,   304,  0, 0,    0, 6, 0.1,     0.1, 0, 0, 0,  True, False, False, 
      , (215,    94,  0, 0,    0, 0, 0,     0.2, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Large Round Shield */
      , (215,    93,  0, 0,    0, 0, 0,     0.2, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Round Shield */
      , (215,    95,  0, 0,    0, 0, 0,    0.15, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Tower Shield */;
+/* 
+    # Set: 1
+    |  10.00% chance of 5x to 6x Throwing Axe (304) | StackSizeVariance: 0.1
+    |  10.00% chance of Nayin (334)
+    |         with
+    |            100.00% chance of 18x to 20x Arrow (300) | StackSizeVariance: 0.1
+    |  10.00% chance of Longbow (306)
+    |         with
+    |            100.00% chance of 18x to 20x Arrow (300) | StackSizeVariance: 0.1
+    |  10.00% chance of Yumi (363)
+    |         with
+    |            100.00% chance of Arrow (300) | StackSizeVariance: 0.1
+    |  60.00% chance of Heavy Crossbow (311)
+    |         with
+    |            100.00% chance of 15x Quarrel (305)
+    # Set: 2
+    |  14.00% chance of Battle Axe (301)
+    |   7.00% chance of Broad Sword (350)
+    |   6.00% chance of Kaskara (324)
+    |   6.00% chance of Ken (327)
+    |   6.00% chance of Long Sword (351)
+    |  10.00% chance of Morning Star (332)
+    |   6.00% chance of Scimitar (339)
+    |   6.00% chance of Shamshir (340)
+    |  13.00% chance of Ono (336)
+    |  13.00% chance of Silifi (344)
+    |   6.00% chance of Tachi (353)
+    |   6.00% chance of Takuba (354)
+    |   1.00% chance of nothing from this set
+    # Set: 3
+    |  10.00% chance of Large Kite Shield (92)
+    |  10.00% chance of Kite Shield (91)
+    |  20.00% chance of Large Round Shield (94)
+    |  20.00% chance of Round Shield (93)
+    |  15.00% chance of Tower Shield (95)
+    |  25.00% chance of nothing from this set
+*/

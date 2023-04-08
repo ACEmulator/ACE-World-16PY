@@ -4,3 +4,10 @@ INSERT INTO `treasure_wielded` (`treasure_Type`, `weenie_Class_Id`, `palette_Id`
 VALUES (304,  7578,  0, 0,    0, 1, 0,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Rock */
      , (304,  7577,  0, 0,    0, 0, 0,     0.5, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Lugian Axe */
      , (304, 23765,  0, 0,    0, 0, 0,     0.5, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Lugian Morning Star */;
+/* 
+    # Set: 1
+    | 100.00% chance of Rock (7578)
+    # Set: 2
+    |  50.00% chance of Lugian Axe (7577)
+    |  50.00% chance of Lugian Morning Star (23765)
+*/

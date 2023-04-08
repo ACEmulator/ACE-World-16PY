@@ -11,3 +11,17 @@ VALUES (381, 12111,  0, 0,    0, 0, 0,    0.17, 0, 0, 0,  True, False, False, 0,
      , (381,   344,  0, 0,    0, 0, 0,    0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Silifi */
      , (381,   353,  0, 0,    0, 0, 0,    0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Tachi */
      , (381,   359,  0, 0,    0, 0, 0,    0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* War Hammer */;
+/* 
+    # Set: 1
+    |  17.00% chance of Palenqual's Tewhate (12111)
+    |  17.00% chance of Palenqual's Okane (12114)
+    |  17.00% chance of Palenqual's Waaika (12117)
+    |  17.00% chance of Palenqual's Taiaha (12120)
+    |  17.00% chance of Palenqual's Hoeroa (12123)
+    |   3.00% chance of Kaskara (324)
+    |   3.00% chance of Long Sword (351)
+    |   3.00% chance of Silifi (344)
+    |   3.00% chance of Tachi (353)
+    |   3.00% chance of War Hammer (359)
+    |   1.00% chance of nothing from this set
+*/

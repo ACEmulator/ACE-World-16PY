@@ -6,7 +6,7 @@ VALUES (5933, 'skeletonimpiousse', 10, '2005-02-09 10:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5933,   1,         16) /* ItemType - Creature */
      , (5933,   2,         30) /* CreatureType - Skeleton */
-     , (5933,   3,         44) /* PaletteTemplate - Tanred */
+     , (5933,   3,         44) /* PaletteTemplate - TanRed */
      , (5933,   6,         -1) /* ItemsCapacity */
      , (5933,   7,         -1) /* ContainersCapacity */
      , (5933,  16,          1) /* ItemUseable - No */
@@ -74,10 +74,14 @@ VALUES (5933,   1, 0x02000059) /* Setup */
      , (5933,   8, 0x060016C4) /* Icon */
      , (5933,  22, 0x34000025) /* PhysicsEffectTable */
      , (5933,  32,        287) /* WieldedTreasureType - 
-                                   Wield Yumi (23736) | Probability: 50%
-                                   Wield 16x Greater Fire Arrow (5305) | Probability: 100%
-                                   Wield Kite Shield (23686) | Probability: 50%
-                                   Wield Fire Tachi (23708) | Probability: 50% */
+                                   # Set: 1
+                                   |  50.00% chance of Yumi (23736)
+                                   |         with
+                                   |            100.00% chance of 14x to 16x Greater Fire Arrow (5305) | StackSizeVariance: 0.1
+                                   |  50.00% chance of Kite Shield (23686)
+                                   # Set: 2
+                                   |  50.00% chance of Fire Tachi (23708)
+                                   |  50.00% chance of nothing from this set */
      , (5933,  35,        451) /* DeathTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

@@ -5,3 +5,13 @@ VALUES (477, 28614,  0, 0,    0, 0, 0,       1, 0, 0, 0,  True, False, False, 0,
      , (477, 28625,  0, 0,    0, 0, 0,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Diforsa Sollerets */
      , (477, 28632,  0, 0,    0, 0, 0,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Diforsa Gauntlets */
      , (477,  2366,  0, 0,    0, 0, 0,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Orb */;
+/* 
+    # Set: 1
+    | 100.00% chance of Hooded Vestiri Robe (28614)
+    # Set: 2
+    | 100.00% chance of Diforsa Sollerets (28625)
+    # Set: 3
+    | 100.00% chance of Diforsa Gauntlets (28632)
+    # Set: 4
+    | 100.00% chance of Orb (2366)
+*/

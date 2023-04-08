@@ -314,3 +314,338 @@ VALUES (433,  2596,  7, 0,  0.5, 0, 0, 0.00641, 0, 0, 0,  True, False, False, 0,
      , (433, 22780,  0, 0,    0, 0, 0,     0.1, 0, 0, 0, False, False,  True, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Jambiya */
      , (433, 22783,  0, 0,    0, 0, 0,     0.1, 0, 0, 0, False, False,  True, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Khanjar */
      , (433, 12155,  0, 0,    0, 0, 0,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Shield of the Simulacra */;
+/* 
+    # Set: 1
+    |    .64% chance of Doublet (2596) | Palette: DeepGreen (7) | Shade: 0.5
+    |    .64% chance of Doublet (2596) | Palette: DeepBrown (6) | Shade: 0.67
+    |    .64% chance of Doublet (2596) | Palette: Brown (4) | Shade: 0.6
+    |    .64% chance of Doublet (2596) | Palette: LightBlue (10) | Shade: 0.5
+    |    .64% chance of Doublet (2596) | Palette: BluePurple (3) | Shade: 0.67
+    |    .64% chance of Doublet (2596) | Palette: Grey (9) | Shade: 0.5
+    |    .64% chance of Doublet (2596) | Palette: Grey (9)
+    |    .64% chance of Doublet (2596) | Palette: Purple (13) | Shade: 0.5
+    |    .64% chance of Doublet (2596) | Palette: DarkBlue (5) | Shade: 0.5
+    |    .64% chance of Doublet (2596) | Palette: YellowBrown (18) | Shade: 0.5
+    |    .64% chance of Doublet (2596) | Palette: Blue (2) | Shade: 0.8
+    |    .64% chance of Doublet (2596) | Palette: Grey (9) | Shade: 0.8
+    |    .64% chance of Doublet (2596) | Palette: Maroon (11) | Shade: 0.5
+    |    .64% chance of Jerkin (124) | Palette: DeepGreen (7) | Shade: 0.5
+    |    .64% chance of Jerkin (124) | Palette: DeepBrown (6) | Shade: 0.67
+    |    .64% chance of Jerkin (124) | Palette: Brown (4) | Shade: 0.6
+    |    .64% chance of Jerkin (124) | Palette: LightBlue (10) | Shade: 0.5
+    |    .64% chance of Jerkin (124) | Palette: BluePurple (3) | Shade: 0.67
+    |    .64% chance of Jerkin (124) | Palette: Grey (9) | Shade: 0.5
+    |    .64% chance of Jerkin (124) | Palette: Grey (9)
+    |    .64% chance of Jerkin (124) | Palette: Purple (13) | Shade: 0.5
+    |    .64% chance of Jerkin (124) | Palette: DarkBlue (5) | Shade: 0.5
+    |    .64% chance of Jerkin (124) | Palette: YellowBrown (18) | Shade: 0.5
+    |    .64% chance of Jerkin (124) | Palette: Blue (2) | Shade: 0.8
+    |    .64% chance of Jerkin (124) | Palette: Grey (9) | Shade: 0.8
+    |    .64% chance of Jerkin (124) | Palette: Maroon (11) | Shade: 0.5
+    |    .64% chance of Shirt (130) | Palette: DeepGreen (7) | Shade: 0.5
+    |    .64% chance of Shirt (130) | Palette: DeepBrown (6) | Shade: 0.67
+    |    .64% chance of Shirt (130) | Palette: Brown (4) | Shade: 0.6
+    |    .64% chance of Shirt (130) | Palette: LightBlue (10) | Shade: 0.5
+    |    .64% chance of Shirt (130) | Palette: BluePurple (3) | Shade: 0.67
+    |    .64% chance of Shirt (130) | Palette: Grey (9) | Shade: 0.5
+    |    .64% chance of Shirt (130) | Palette: Grey (9)
+    |    .64% chance of Shirt (130) | Palette: Purple (13) | Shade: 0.5
+    |    .64% chance of Shirt (130) | Palette: DarkBlue (5) | Shade: 0.5
+    |    .64% chance of Shirt (130) | Palette: YellowBrown (18) | Shade: 0.5
+    |    .64% chance of Shirt (130) | Palette: Blue (2) | Shade: 0.8
+    |    .64% chance of Shirt (130) | Palette: Grey (9) | Shade: 0.8
+    |    .64% chance of Shirt (130) | Palette: Maroon (11) | Shade: 0.5
+    |    .64% chance of Shirt (2590) | Palette: DeepGreen (7) | Shade: 0.5
+    |    .64% chance of Shirt (2590) | Palette: DeepBrown (6) | Shade: 0.67
+    |    .64% chance of Shirt (2590) | Palette: Brown (4) | Shade: 0.6
+    |    .64% chance of Shirt (2590) | Palette: LightBlue (10) | Shade: 0.5
+    |    .64% chance of Shirt (2590) | Palette: BluePurple (3) | Shade: 0.67
+    |    .64% chance of Shirt (2590) | Palette: Grey (9) | Shade: 0.5
+    |    .64% chance of Shirt (2590) | Palette: Grey (9)
+    |    .64% chance of Shirt (2590) | Palette: Purple (13) | Shade: 0.5
+    |    .64% chance of Shirt (2590) | Palette: DarkBlue (5) | Shade: 0.5
+    |    .64% chance of Shirt (2590) | Palette: YellowBrown (18) | Shade: 0.5
+    |    .64% chance of Shirt (2590) | Palette: Blue (2) | Shade: 0.8
+    |    .64% chance of Shirt (2590) | Palette: Grey (9) | Shade: 0.8
+    |    .64% chance of Shirt (2590) | Palette: Maroon (11) | Shade: 0.5
+    |    .64% chance of Shirt (2588) | Palette: DeepGreen (7) | Shade: 0.5
+    |    .64% chance of Shirt (2588) | Palette: DeepBrown (6) | Shade: 0.67
+    |    .64% chance of Shirt (2588) | Palette: Brown (4) | Shade: 0.6
+    |    .64% chance of Shirt (2588) | Palette: LightBlue (10) | Shade: 0.5
+    |    .64% chance of Shirt (2588) | Palette: BluePurple (3) | Shade: 0.67
+    |    .64% chance of Shirt (2588) | Palette: Grey (9) | Shade: 0.5
+    |    .64% chance of Shirt (2588) | Palette: Grey (9)
+    |    .64% chance of Shirt (2588) | Palette: Purple (13) | Shade: 0.5
+    |    .64% chance of Shirt (2588) | Palette: DarkBlue (5) | Shade: 0.5
+    |    .64% chance of Shirt (2588) | Palette: YellowBrown (18) | Shade: 0.5
+    |    .64% chance of Shirt (2588) | Palette: Blue (2) | Shade: 0.8
+    |    .64% chance of Shirt (2588) | Palette: Grey (9) | Shade: 0.8
+    |    .64% chance of Shirt (2588) | Palette: Maroon (11) | Shade: 0.5
+    |    .64% chance of Shirt (2587) | Palette: DeepGreen (7) | Shade: 0.5
+    |    .64% chance of Shirt (2587) | Palette: DeepBrown (6) | Shade: 0.67
+    |    .64% chance of Shirt (2587) | Palette: Brown (4) | Shade: 0.6
+    |    .64% chance of Shirt (2587) | Palette: LightBlue (10) | Shade: 0.5
+    |    .64% chance of Shirt (2587) | Palette: BluePurple (3) | Shade: 0.67
+    |    .64% chance of Shirt (2587) | Palette: Grey (9) | Shade: 0.5
+    |    .64% chance of Shirt (2587) | Palette: Grey (9)
+    |    .64% chance of Shirt (2587) | Palette: Purple (13) | Shade: 0.5
+    |    .64% chance of Shirt (2587) | Palette: DarkBlue (5) | Shade: 0.5
+    |    .64% chance of Shirt (2587) | Palette: YellowBrown (18) | Shade: 0.5
+    |    .64% chance of Shirt (2587) | Palette: Blue (2) | Shade: 0.8
+    |    .64% chance of Shirt (2587) | Palette: Grey (9) | Shade: 0.8
+    |    .64% chance of Shirt (2587) | Palette: Maroon (11) | Shade: 0.5
+    |    .64% chance of Shirt (2591) | Palette: DeepGreen (7) | Shade: 0.5
+    |    .64% chance of Shirt (2591) | Palette: DeepBrown (6) | Shade: 0.67
+    |    .64% chance of Shirt (2591) | Palette: Brown (4) | Shade: 0.6
+    |    .64% chance of Shirt (2591) | Palette: LightBlue (10) | Shade: 0.5
+    |    .64% chance of Shirt (2591) | Palette: BluePurple (3) | Shade: 0.67
+    |    .64% chance of Shirt (2591) | Palette: Grey (9) | Shade: 0.5
+    |    .64% chance of Shirt (2591) | Palette: Grey (9)
+    |    .64% chance of Shirt (2591) | Palette: Purple (13) | Shade: 0.5
+    |    .64% chance of Shirt (2591) | Palette: DarkBlue (5) | Shade: 0.5
+    |    .64% chance of Shirt (2591) | Palette: YellowBrown (18) | Shade: 0.5
+    |    .64% chance of Shirt (2591) | Palette: Blue (2) | Shade: 0.8
+    |    .64% chance of Shirt (2591) | Palette: Grey (9) | Shade: 0.8
+    |    .64% chance of Shirt (2591) | Palette: Maroon (11) | Shade: 0.5
+    |    .64% chance of Tunic (134) | Palette: DeepGreen (7) | Shade: 0.5
+    |    .64% chance of Tunic (134) | Palette: DeepBrown (6) | Shade: 0.67
+    |    .64% chance of Tunic (134) | Palette: Brown (4) | Shade: 0.6
+    |    .64% chance of Tunic (134) | Palette: LightBlue (10) | Shade: 0.5
+    |    .64% chance of Tunic (134) | Palette: BluePurple (3) | Shade: 0.67
+    |    .64% chance of Tunic (134) | Palette: Grey (9) | Shade: 0.5
+    |    .64% chance of Tunic (134) | Palette: Grey (9)
+    |    .64% chance of Tunic (134) | Palette: Purple (13) | Shade: 0.5
+    |    .64% chance of Tunic (134) | Palette: DarkBlue (5) | Shade: 0.5
+    |    .64% chance of Tunic (134) | Palette: YellowBrown (18) | Shade: 0.5
+    |    .64% chance of Tunic (134) | Palette: Blue (2) | Shade: 0.8
+    |    .64% chance of Tunic (134) | Palette: Grey (9) | Shade: 0.8
+    |    .64% chance of Tunic (134) | Palette: Maroon (11) | Shade: 0.5
+    |    .64% chance of Tunic (2595) | Palette: DeepGreen (7) | Shade: 0.5
+    |    .64% chance of Tunic (2595) | Palette: DeepBrown (6) | Shade: 0.67
+    |    .64% chance of Tunic (2595) | Palette: Brown (4) | Shade: 0.6
+    |    .64% chance of Tunic (2595) | Palette: LightBlue (10) | Shade: 0.5
+    |    .64% chance of Tunic (2595) | Palette: BluePurple (3) | Shade: 0.67
+    |    .64% chance of Tunic (2595) | Palette: Grey (9) | Shade: 0.5
+    |    .64% chance of Tunic (2595) | Palette: Grey (9)
+    |    .64% chance of Tunic (2595) | Palette: Purple (13) | Shade: 0.5
+    |    .64% chance of Tunic (2595) | Palette: DarkBlue (5) | Shade: 0.5
+    |    .64% chance of Tunic (2595) | Palette: YellowBrown (18) | Shade: 0.5
+    |    .64% chance of Tunic (2595) | Palette: Blue (2) | Shade: 0.8
+    |    .64% chance of Tunic (2595) | Palette: Grey (9) | Shade: 0.8
+    |    .64% chance of Tunic (2595) | Palette: Maroon (11) | Shade: 0.5
+    |    .64% chance of Tunic (2594) | Palette: DeepGreen (7) | Shade: 0.5
+    |    .64% chance of Tunic (2594) | Palette: DeepBrown (6) | Shade: 0.67
+    |    .64% chance of Tunic (2594) | Palette: Brown (4) | Shade: 0.6
+    |    .64% chance of Tunic (2594) | Palette: LightBlue (10) | Shade: 0.5
+    |    .64% chance of Tunic (2594) | Palette: BluePurple (3) | Shade: 0.67
+    |    .64% chance of Tunic (2594) | Palette: Grey (9) | Shade: 0.5
+    |    .64% chance of Tunic (2594) | Palette: Grey (9)
+    |    .64% chance of Tunic (2594) | Palette: Purple (13) | Shade: 0.5
+    |    .64% chance of Tunic (2594) | Palette: DarkBlue (5) | Shade: 0.5
+    |    .64% chance of Tunic (2594) | Palette: YellowBrown (18) | Shade: 0.5
+    |    .64% chance of Tunic (2594) | Palette: Blue (2) | Shade: 0.8
+    |    .64% chance of Tunic (2594) | Palette: Grey (9) | Shade: 0.8
+    |    .64% chance of Tunic (2594) | Palette: Maroon (11) | Shade: 0.5
+    |    .64% chance of Tunic (2593) | Palette: DeepGreen (7) | Shade: 0.5
+    |    .64% chance of Tunic (2593) | Palette: DeepBrown (6) | Shade: 0.67
+    |    .64% chance of Tunic (2593) | Palette: Brown (4) | Shade: 0.6
+    |    .64% chance of Tunic (2593) | Palette: LightBlue (10) | Shade: 0.5
+    |    .64% chance of Tunic (2593) | Palette: BluePurple (3) | Shade: 0.67
+    |    .64% chance of Tunic (2593) | Palette: Grey (9) | Shade: 0.5
+    |    .64% chance of Tunic (2593) | Palette: Grey (9)
+    |    .64% chance of Tunic (2593) | Palette: Purple (13) | Shade: 0.5
+    |    .64% chance of Tunic (2593) | Palette: DarkBlue (5) | Shade: 0.5
+    |    .64% chance of Tunic (2593) | Palette: YellowBrown (18) | Shade: 0.5
+    |    .64% chance of Tunic (2593) | Palette: Blue (2) | Shade: 0.8
+    |    .64% chance of Tunic (2593) | Palette: Grey (9) | Shade: 0.8
+    |    .64% chance of Tunic (2593) | Palette: Maroon (11) | Shade: 0.5
+    |    .64% chance of Tunic (2592) | Palette: DeepGreen (7) | Shade: 0.5
+    |    .64% chance of Tunic (2592) | Palette: DeepBrown (6) | Shade: 0.67
+    |    .64% chance of Tunic (2592) | Palette: Brown (4) | Shade: 0.6
+    |    .64% chance of Tunic (2592) | Palette: LightBlue (10) | Shade: 0.5
+    |    .64% chance of Tunic (2592) | Palette: BluePurple (3) | Shade: 0.67
+    |    .64% chance of Tunic (2592) | Palette: Grey (9) | Shade: 0.5
+    |    .64% chance of Tunic (2592) | Palette: Grey (9)
+    |    .64% chance of Tunic (2592) | Palette: Purple (13) | Shade: 0.5
+    |    .64% chance of Tunic (2592) | Palette: DarkBlue (5) | Shade: 0.5
+    |    .64% chance of Tunic (2592) | Palette: YellowBrown (18) | Shade: 0.5
+    |    .64% chance of Tunic (2592) | Palette: Blue (2) | Shade: 0.8
+    |    .64% chance of Tunic (2592) | Palette: Grey (9) | Shade: 0.8
+    |    .64% chance of Tunic (2592) | Palette: Maroon (11) | Shade: 0.5
+    |   1.00% chance of nothing from this set
+    # Set: 2
+    |    .85% chance of Pantaloons (2600) | Palette: DeepGreen (7) | Shade: 0.5
+    |    .85% chance of Pantaloons (2600) | Palette: DeepBrown (6) | Shade: 0.67
+    |    .85% chance of Pantaloons (2600) | Palette: Brown (4) | Shade: 0.6
+    |    .85% chance of Pantaloons (2600) | Palette: LightBlue (10) | Shade: 0.5
+    |    .85% chance of Pantaloons (2600) | Palette: BluePurple (3) | Shade: 0.67
+    |    .85% chance of Pantaloons (2600) | Palette: Grey (9) | Shade: 0.5
+    |    .85% chance of Pantaloons (2600) | Palette: Grey (9)
+    |    .85% chance of Pantaloons (2600) | Palette: Purple (13) | Shade: 0.5
+    |    .85% chance of Pantaloons (2600) | Palette: DarkBlue (5) | Shade: 0.5
+    |    .85% chance of Pantaloons (2600) | Palette: YellowBrown (18) | Shade: 0.5
+    |    .85% chance of Pantaloons (2600) | Palette: Blue (2) | Shade: 0.8
+    |    .85% chance of Pantaloons (2600) | Palette: Grey (9) | Shade: 0.8
+    |    .85% chance of Pantaloons (2600) | Palette: Maroon (11) | Shade: 0.5
+    |    .85% chance of Pants (127) | Palette: DeepGreen (7) | Shade: 0.5
+    |    .85% chance of Pants (127) | Palette: DeepBrown (6) | Shade: 0.67
+    |    .85% chance of Pants (127) | Palette: Brown (4) | Shade: 0.6
+    |    .85% chance of Pants (127) | Palette: LightBlue (10) | Shade: 0.5
+    |    .85% chance of Pants (127) | Palette: BluePurple (3) | Shade: 0.67
+    |    .85% chance of Pants (127) | Palette: Grey (9) | Shade: 0.5
+    |    .85% chance of Pants (127) | Palette: Grey (9)
+    |    .85% chance of Pants (127) | Palette: Purple (13) | Shade: 0.5
+    |    .85% chance of Pants (127) | Palette: DarkBlue (5) | Shade: 0.5
+    |    .85% chance of Pants (127) | Palette: YellowBrown (18) | Shade: 0.5
+    |    .85% chance of Pants (127) | Palette: Blue (2) | Shade: 0.8
+    |    .85% chance of Pants (127) | Palette: Grey (9) | Shade: 0.8
+    |    .85% chance of Pants (127) | Palette: Maroon (11) | Shade: 0.5
+    |    .85% chance of Pants (2597) | Palette: DeepGreen (7) | Shade: 0.5
+    |    .85% chance of Pants (2597) | Palette: DeepBrown (6) | Shade: 0.67
+    |    .85% chance of Pants (2597) | Palette: Brown (4) | Shade: 0.6
+    |    .85% chance of Pants (2597) | Palette: LightBlue (10) | Shade: 0.5
+    |    .85% chance of Pants (2597) | Palette: BluePurple (3) | Shade: 0.67
+    |    .85% chance of Pants (2597) | Palette: Grey (9) | Shade: 0.5
+    |    .85% chance of Pants (2597) | Palette: Grey (9)
+    |    .85% chance of Pants (2597) | Palette: Purple (13) | Shade: 0.5
+    |    .85% chance of Pants (2597) | Palette: DarkBlue (5) | Shade: 0.5
+    |    .85% chance of Pants (2597) | Palette: YellowBrown (18) | Shade: 0.5
+    |    .85% chance of Pants (2597) | Palette: Blue (2) | Shade: 0.8
+    |    .85% chance of Pants (2597) | Palette: Grey (9) | Shade: 0.8
+    |    .85% chance of Pants (2597) | Palette: Maroon (11) | Shade: 0.5
+    |    .85% chance of Pants (2598) | Palette: DeepGreen (7) | Shade: 0.5
+    |    .85% chance of Pants (2598) | Palette: DeepBrown (6) | Shade: 0.67
+    |    .85% chance of Pants (2598) | Palette: Brown (4) | Shade: 0.6
+    |    .85% chance of Pants (2598) | Palette: LightBlue (10) | Shade: 0.5
+    |    .85% chance of Pants (2598) | Palette: BluePurple (3) | Shade: 0.67
+    |    .85% chance of Pants (2598) | Palette: Grey (9) | Shade: 0.5
+    |    .85% chance of Pants (2598) | Palette: Grey (9)
+    |    .85% chance of Pants (2598) | Palette: Purple (13) | Shade: 0.5
+    |    .85% chance of Pants (2598) | Palette: DarkBlue (5) | Shade: 0.5
+    |    .85% chance of Pants (2598) | Palette: YellowBrown (18) | Shade: 0.5
+    |    .85% chance of Pants (2598) | Palette: Blue (2) | Shade: 0.8
+    |    .85% chance of Pants (2598) | Palette: Grey (9) | Shade: 0.8
+    |    .85% chance of Pants (2598) | Palette: Maroon (11) | Shade: 0.5
+    |    .85% chance of Pants (2601) | Palette: DeepGreen (7) | Shade: 0.5
+    |    .85% chance of Pants (2601) | Palette: DeepBrown (6) | Shade: 0.67
+    |    .85% chance of Pants (2601) | Palette: Brown (4) | Shade: 0.6
+    |    .85% chance of Pants (2601) | Palette: LightBlue (10) | Shade: 0.5
+    |    .85% chance of Pants (2601) | Palette: BluePurple (3) | Shade: 0.67
+    |    .85% chance of Pants (2601) | Palette: Grey (9) | Shade: 0.5
+    |    .85% chance of Pants (2601) | Palette: Grey (9)
+    |    .85% chance of Pants (2601) | Palette: Purple (13) | Shade: 0.5
+    |    .85% chance of Pants (2601) | Palette: DarkBlue (5) | Shade: 0.5
+    |    .85% chance of Pants (2601) | Palette: YellowBrown (18) | Shade: 0.5
+    |    .85% chance of Pants (2601) | Palette: Blue (2) | Shade: 0.8
+    |    .85% chance of Pants (2601) | Palette: Grey (9) | Shade: 0.8
+    |    .85% chance of Pants (2601) | Palette: Maroon (11) | Shade: 0.5
+    |    .85% chance of Breeches (117) | Palette: DeepGreen (7) | Shade: 0.5
+    |    .85% chance of Breeches (117) | Palette: DeepBrown (6) | Shade: 0.67
+    |    .85% chance of Breeches (117) | Palette: Brown (4) | Shade: 0.6
+    |    .85% chance of Breeches (117) | Palette: LightBlue (10) | Shade: 0.5
+    |    .85% chance of Breeches (117) | Palette: BluePurple (3) | Shade: 0.67
+    |    .85% chance of Breeches (117) | Palette: Grey (9) | Shade: 0.5
+    |    .85% chance of Breeches (117) | Palette: Grey (9)
+    |    .85% chance of Breeches (117) | Palette: Purple (13) | Shade: 0.5
+    |    .85% chance of Breeches (117) | Palette: DarkBlue (5) | Shade: 0.5
+    |    .85% chance of Breeches (117) | Palette: YellowBrown (18) | Shade: 0.5
+    |    .85% chance of Breeches (117) | Palette: Blue (2) | Shade: 0.8
+    |    .85% chance of Breeches (117) | Palette: Grey (9) | Shade: 0.8
+    |    .85% chance of Breeches (117) | Palette: Maroon (11) | Shade: 0.5
+    |    .85% chance of Breeches (2603) | Palette: DeepGreen (7) | Shade: 0.5
+    |    .85% chance of Breeches (2603) | Palette: DeepBrown (6) | Shade: 0.67
+    |    .85% chance of Breeches (2603) | Palette: Brown (4) | Shade: 0.6
+    |    .85% chance of Breeches (2603) | Palette: LightBlue (10) | Shade: 0.5
+    |    .85% chance of Breeches (2603) | Palette: BluePurple (3) | Shade: 0.67
+    |    .85% chance of Breeches (2603) | Palette: Grey (9) | Shade: 0.5
+    |    .85% chance of Breeches (2603) | Palette: Grey (9)
+    |    .85% chance of Breeches (2603) | Palette: Purple (13) | Shade: 0.5
+    |    .85% chance of Breeches (2603) | Palette: DarkBlue (5) | Shade: 0.5
+    |    .85% chance of Breeches (2603) | Palette: YellowBrown (18) | Shade: 0.5
+    |    .85% chance of Breeches (2603) | Palette: Blue (2) | Shade: 0.8
+    |    .85% chance of Breeches (2603) | Palette: Grey (9) | Shade: 0.8
+    |    .85% chance of Breeches (2603) | Palette: Maroon (11) | Shade: 0.5
+    |    .85% chance of Breeches (2602) | Palette: DeepGreen (7) | Shade: 0.5
+    |    .85% chance of Breeches (2602) | Palette: DeepBrown (6) | Shade: 0.67
+    |    .85% chance of Breeches (2602) | Palette: Brown (4) | Shade: 0.6
+    |    .85% chance of Breeches (2602) | Palette: LightBlue (10) | Shade: 0.5
+    |    .85% chance of Breeches (2602) | Palette: BluePurple (3) | Shade: 0.67
+    |    .85% chance of Breeches (2602) | Palette: Grey (9) | Shade: 0.5
+    |    .85% chance of Breeches (2602) | Palette: Grey (9)
+    |    .85% chance of Breeches (2602) | Palette: Purple (13) | Shade: 0.5
+    |    .85% chance of Breeches (2602) | Palette: DarkBlue (5) | Shade: 0.5
+    |    .85% chance of Breeches (2602) | Palette: YellowBrown (18) | Shade: 0.5
+    |    .85% chance of Breeches (2602) | Palette: Blue (2) | Shade: 0.8
+    |    .85% chance of Breeches (2602) | Palette: Grey (9) | Shade: 0.8
+    |    .85% chance of Breeches (2602) | Palette: Maroon (11) | Shade: 0.5
+    |    .85% chance of Breeches (2604) | Palette: DeepGreen (7) | Shade: 0.5
+    |    .85% chance of Breeches (2604) | Palette: DeepBrown (6) | Shade: 0.67
+    |    .85% chance of Breeches (2604) | Palette: Brown (4) | Shade: 0.6
+    |    .85% chance of Breeches (2604) | Palette: LightBlue (10) | Shade: 0.5
+    |    .85% chance of Breeches (2604) | Palette: BluePurple (3) | Shade: 0.67
+    |    .85% chance of Breeches (2604) | Palette: Grey (9) | Shade: 0.5
+    |    .85% chance of Breeches (2604) | Palette: Grey (9)
+    |    .85% chance of Breeches (2604) | Palette: Purple (13) | Shade: 0.5
+    |    .85% chance of Breeches (2604) | Palette: DarkBlue (5) | Shade: 0.5
+    |    .85% chance of Breeches (2604) | Palette: YellowBrown (18) | Shade: 0.5
+    |    .85% chance of Breeches (2604) | Palette: Blue (2) | Shade: 0.8
+    |    .85% chance of Breeches (2604) | Palette: Grey (9) | Shade: 0.8
+    |    .85% chance of Breeches (2604) | Palette: Maroon (11) | Shade: 0.5
+    |    .08% chance of nothing from this set
+    # Set: 3
+    |  33.00% chance of Koujia Breastplate (6003) | Palette: Red (14)
+    |  34.00% chance of Koujia Breastplate (6003) | Palette: Green (8)
+    |  33.00% chance of Koujia Breastplate (6003) | Palette: Blue (2)
+    # Set: 4
+    |  33.00% chance of Koujia Sleeves (6005) | Palette: Red (14)
+    |  34.00% chance of Koujia Sleeves (6005) | Palette: Green (8)
+    |  33.00% chance of Koujia Sleeves (6005) | Palette: Blue (2)
+    # Set: 5
+    |  33.00% chance of Koujia Leggings (6004) | Palette: Red (14)
+    |  34.00% chance of Koujia Leggings (6004) | Palette: Green (8)
+    |  33.00% chance of Koujia Leggings (6004) | Palette: Blue (2)
+    # Set: 6
+    |  33.00% chance of Sollerets (107) | Palette: Red (14)
+    |  34.00% chance of Sollerets (107) | Palette: Green (8)
+    |  33.00% chance of Sollerets (107) | Palette: Blue (2)
+    # Set: 7
+    |  33.00% chance of Covenant Helm (21156) | Palette: Red (14)
+    |  34.00% chance of Covenant Helm (21156) | Palette: Green (8)
+    |  33.00% chance of Covenant Helm (21156) | Palette: Blue (2)
+    # Set: 8
+    |  33.00% chance of Covenant Gauntlets (21153) | Palette: Red (14)
+    |  34.00% chance of Covenant Gauntlets (21153) | Palette: Green (8)
+    |  33.00% chance of Covenant Gauntlets (21153) | Palette: Blue (2)
+    # Set: 9
+    |   5.00% chance of Yumi (23734)
+    |         with
+    |            100.00% chance of 50x Greater Lightning Arrow (5308)
+    |   5.00% chance of Yumi (23734)
+    |         with
+    |            100.00% chance of 50x Greater Acid Arrow (5306)
+    |   5.00% chance of Yumi (23734)
+    |         with
+    |            100.00% chance of 50x Greater Armor Piercing Arrow (5309)
+    |   5.00% chance of Yumi (23734)
+    |         with
+    |            100.00% chance of 50x Greater Frost Arrow (5307)
+    |   5.00% chance of Heavy Crossbow (23665)
+    |         with
+    |            100.00% chance of 50x Greater Lightning Quarrel (5316)
+    |   5.00% chance of Heavy Crossbow (23665)
+    |         with
+    |            100.00% chance of 50x Greater Acid Quarrel (5314)
+    |   5.00% chance of Heavy Crossbow (23665)
+    |         with
+    |            100.00% chance of 50x Greater Armor Piercing Quarrel (5318)
+    |   5.00% chance of Heavy Crossbow (23665)
+    |         with
+    |            100.00% chance of 50x Greater Frost Quarrel (5315)
+    |  15.00% chance of Yaoji (23710)
+    |  15.00% chance of Fire Tachi (23707)
+    |  10.00% chance of Dagger (23669)
+    |  10.00% chance of Jambiya (22780)
+    |  10.00% chance of Khanjar (22783)
+    # Set: 10
+    | 100.00% chance of Shield of the Simulacra (12155)
+*/

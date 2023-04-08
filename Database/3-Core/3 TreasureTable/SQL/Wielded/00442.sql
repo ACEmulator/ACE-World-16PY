@@ -6,3 +6,12 @@ VALUES (442, 23747,  0, 0,    0, 1, 0,       1, 0, 0, 0,  True, False, False, 0,
      , (442, 23760,  0, 0,    0, 0, 0,     0.2, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Lugian Mace */
      , (442, 23756,  0, 0,    0, 0, 0,     0.2, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Lugian Hammer */
      , (442, 23768,  0, 0,    0, 0, 0,     0.2, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Lugian Morning Star */;
+/* 
+    # Set: 1
+    | 100.00% chance of Rock (23747)
+    # Set: 2
+    |  40.00% chance of Lugian Axe (23742)
+    |  20.00% chance of Lugian Mace (23760)
+    |  20.00% chance of Lugian Hammer (23756)
+    |  20.00% chance of Lugian Morning Star (23768)
+*/

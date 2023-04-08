@@ -8,3 +8,16 @@ VALUES (335, 23722,  0, 0,    0, 0, 0,     0.2, 0, 0, 0,  True, False, False, 0,
      , (335, 23707,  0, 0,    0, 0, 0,     0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Fire Tachi */
      , (335, 23700,  0, 0,    0, 0, 0,     0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Tachi */
      , (335, 23684,  0, 0,    0, 0, 0,    0.55, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Kite Shield */;
+/* 
+    # Set: 1
+    |  20.00% chance of Acid Yari (23722)
+    |  25.00% chance of Yari (23730)
+    |  10.00% chance of Acid Spear (23688)
+    |  10.00% chance of Spear (23696)
+    |  10.00% chance of Fire Tachi (23707)
+    |  10.00% chance of Tachi (23700)
+    |  15.00% chance of nothing from this set
+    # Set: 2
+    |  55.00% chance of Kite Shield (23684)
+    |  45.00% chance of nothing from this set
+*/

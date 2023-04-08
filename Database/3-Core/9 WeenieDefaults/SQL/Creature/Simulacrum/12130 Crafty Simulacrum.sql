@@ -67,15 +67,22 @@ VALUES (12130,   1, 0x02000001) /* Setup */
      , (12130,   8, 0x06001036) /* Icon */
      , (12130,  22, 0x34000095) /* PhysicsEffectTable */
      , (12130,  32,        393) /* WieldedTreasureType - 
-                                   Wield Bow of the Quiddity (9597) | Probability: 100%
-                                   Wield 20x Arrow (300) | Probability: 100%
-                                   Wield Blade of the Quiddity (11916) | Probability: 34%
-                                   Wield Lance of the Quiddity (11913) | Probability: 33%
-                                   Wield Mace of the Quiddity (11907) | Probability: 33%
-                                   Wield Chainmail Leggings (80) | Palette: Blue (2) | Shade: 0.6 | Probability: 100%
-                                   Wield Chainmail Hauberk (71) | Palette: Blue (2) | Shade: 0.6 | Probability: 100%
-                                   Wield Pants (12254) | Palette: Purple (13) | Shade: 0.6 | Probability: 100%
-                                   Wield Steel Toed Boots (7897) | Palette: Brown (4) | Shade: 0.6 | Probability: 100% */
+                                   # Set: 1
+                                   | 100.00% chance of Bow of the Quiddity (9597)
+                                   |         with
+                                   |            100.00% chance of 20x Arrow (300)
+                                   # Set: 2
+                                   |  34.00% chance of Blade of the Quiddity (11916)
+                                   |  33.00% chance of Lance of the Quiddity (11913)
+                                   |  33.00% chance of Mace of the Quiddity (11907)
+                                   # Set: 3
+                                   | 100.00% chance of Chainmail Leggings (80) | Palette: Blue (2) | Shade: 0.6
+                                   # Set: 4
+                                   | 100.00% chance of Chainmail Hauberk (71) | Palette: Blue (2) | Shade: 0.6
+                                   # Set: 5
+                                   | 100.00% chance of Pants (12254) | Palette: Purple (13) | Shade: 0.6
+                                   # Set: 6
+                                   | 100.00% chance of Steel Toed Boots (7897) | Palette: Brown (4) | Shade: 0.6 */
      , (12130,  35,        453) /* DeathTreasureType - Loot Tier: 1 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

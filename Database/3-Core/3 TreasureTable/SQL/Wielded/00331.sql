@@ -9,3 +9,16 @@ VALUES (331,   308,  0, 0,    0, 0, 0,     0.1, 0, 0, 0,  True, False, False, 0,
      , (331,   362,  0, 0,    0, 0, 0,     0.4, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Yari */
      , (331,   320,  0, 0,    0, 4, 0.1,    0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Javelin */
      , (331,   317,  0, 0,    0, 0, 0,    0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Djarid */;
+/* 
+    # Set: 1
+    |  10.00% chance of Budiaq (308)
+    |  10.00% chance of Scimitar (339)
+    |  10.00% chance of Shamshir (340)
+    |  20.00% chance of Spear (348)
+    |  10.00% chance of Tachi (353)
+    |  40.00% chance of Yari (362)
+    # Set: 2
+    |   5.00% chance of 4x Javelin (320) | StackSizeVariance: 0.1
+    |   5.00% chance of Djarid (317)
+    |  90.00% chance of nothing from this set
+*/

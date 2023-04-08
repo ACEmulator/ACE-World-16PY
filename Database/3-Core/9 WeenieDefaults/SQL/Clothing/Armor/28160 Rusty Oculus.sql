@@ -5,7 +5,7 @@ VALUES (28160, 'oculusrust', 2, '2005-02-09 10:00:00') /* Clothing */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28160,   1,          2) /* ItemType - Armor */
-     , (28160,   3,         44) /* PaletteTemplate - Tanred */
+     , (28160,   3,         44) /* PaletteTemplate - TanRed */
      , (28160,   4,      16384) /* ClothingPriority - Head */
      , (28160,   5,        325) /* EncumbranceVal */
      , (28160,   8,        125) /* Mass */

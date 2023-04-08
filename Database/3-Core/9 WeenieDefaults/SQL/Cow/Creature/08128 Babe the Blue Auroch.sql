@@ -74,7 +74,8 @@ VALUES (8128,   1, 0x0200002E) /* Setup */
      , (8128,   8, 0x06001220) /* Icon */
      , (8128,  22, 0x34000016) /* PhysicsEffectTable */
      , (8128,  35,         38) /* DeathTreasureType - 
-                                    Drop 2x Side of Beef (4753) | Probability: 100% */;
+                                   # Set: 1
+                                   | 100.00% chance of 2x Side of Beef (4753) */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8128,   1, 1055, 0, 0) /* Strength */

@@ -74,17 +74,19 @@ VALUES (11966,   1, 0x02000040) /* Setup */
      , (11966,   8, 0x0600103C) /* Icon */
      , (11966,  22, 0x34000026) /* PhysicsEffectTable */
      , (11966,  32,         52) /* WieldedTreasureType - 
-                                   Wield Battle Axe (301) | Probability: 10%
-                                   Wield Club (309) | Probability: 8%
-                                   Wield Dabus (313) | Probability: 10%
-                                   Wield Kasrullah (325) | Probability: 7%
-                                   Wield Mace (331) | Probability: 10%
-                                   Wield Morning Star (332) | Probability: 20%
-                                   Wield Shou-ono (342) | Probability: 10%
-                                   Wield Silifi (344) | Probability: 10%
-                                   Wield Tofun (356) | Probability: 10%
-                                   Wield 4x Throwing Axe (304) | Probability: 1%
-                                   Wield 4x Throwing Club (310) | Probability: 1% */
+                                   # Set: 1
+                                   |  10.00% chance of Battle Axe (301)
+                                   |   8.00% chance of Club (309)
+                                   |  10.00% chance of Dabus (313)
+                                   |   7.00% chance of Kasrullah (325)
+                                   |  10.00% chance of Mace (331)
+                                   |  20.00% chance of Morning Star (332)
+                                   |  10.00% chance of Shou-ono (342)
+                                   |  10.00% chance of Silifi (344)
+                                   |  10.00% chance of Tofun (356)
+                                   |   1.00% chance of 4x Throwing Axe (304) | StackSizeVariance: 0.1
+                                   |   1.00% chance of 4x Throwing Club (310) | StackSizeVariance: 0.1
+                                   |   3.00% chance of nothing from this set */
      , (11966,  35,        221) /* DeathTreasureType - Loot Tier: 4 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

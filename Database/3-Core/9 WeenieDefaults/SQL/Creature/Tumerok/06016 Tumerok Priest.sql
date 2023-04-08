@@ -75,10 +75,13 @@ VALUES (6016,   1, 0x02000040) /* Setup */
      , (6016,   8, 0x0600103C) /* Icon */
      , (6016,  22, 0x34000026) /* PhysicsEffectTable */
      , (6016,  32,        222) /* WieldedTreasureType - 
-                                   Wield Yumi (23736) | Probability: 50%
-                                   Wield 20x Greater Arrow (5304) | Probability: 100%
-                                   Wield Heavy Crossbow (23667) | Probability: 50%
-                                   Wield 16x Greater Quarrel (5313) | Probability: 100% */
+                                   # Set: 1
+                                   |  50.00% chance of Yumi (23736)
+                                   |         with
+                                   |            100.00% chance of 18x to 20x Greater Arrow (5304) | StackSizeVariance: 0.1
+                                   |  50.00% chance of Heavy Crossbow (23667)
+                                   |         with
+                                   |            100.00% chance of 14x to 16x Greater Quarrel (5313) | StackSizeVariance: 0.1 */
      , (6016,  35,        450) /* DeathTreasureType - Loot Tier: 3 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)

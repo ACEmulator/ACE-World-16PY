@@ -5,3 +5,10 @@ VALUES (274, 23708,  0, 0,    0, 0, 0,    0.25, 0, 0, 0,  True, False, False, 0,
      , (274, 23702,  0, 0,    0, 0, 0,    0.25, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Tachi */
      , (274, 23720,  0, 0,    0, 0, 0,    0.25, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Fire Yaoji */
      , (274, 23712,  0, 0,    0, 0, 0,    0.25, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Yaoji */;
+/* 
+    # Set: 1
+    |  25.00% chance of Fire Tachi (23708)
+    |  25.00% chance of Tachi (23702)
+    |  25.00% chance of Fire Yaoji (23720)
+    |  25.00% chance of Yaoji (23712)
+*/

@@ -6,7 +6,7 @@ VALUES (10946, 'reedsharkhunter3-xp', 10, '2005-02-09 10:00:00') /* Creature */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10946,   1,         16) /* ItemType - Creature */
      , (10946,   2,         16) /* CreatureType - Reedshark */
-     , (10946,   3,         44) /* PaletteTemplate - Tanred */
+     , (10946,   3,         44) /* PaletteTemplate - TanRed */
      , (10946,   6,         -1) /* ItemsCapacity */
      , (10946,   7,         -1) /* ContainersCapacity */
      , (10946,  16,          1) /* ItemUseable - No */

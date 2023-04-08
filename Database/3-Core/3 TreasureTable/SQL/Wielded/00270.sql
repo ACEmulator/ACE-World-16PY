@@ -14,3 +14,20 @@ VALUES (270,   304,  0, 0,    0, 3, 0,    0.01, 0, 0, 0,  True, False, False, 0,
      , (270,   342,  0, 0,    0, 0, 0,     0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Shou-ono */
      , (270,   344,  0, 0,    0, 0, 0,     0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Silifi */
      , (270,   356,  0, 0,    0, 0, 0,     0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Tofun */;
+/* 
+    # Set: 1
+    |   1.00% chance of 3x Throwing Axe (304)
+    |   1.00% chance of 3x Throwing Club (310)
+    |  15.00% chance of Battle Axe (301)
+    |   5.00% chance of Club (309)
+    |  10.00% chance of Dabus (313)
+    |   3.00% chance of Jo (322)
+    |   5.00% chance of Kasrullah (325)
+    |  10.00% chance of Mace (331)
+    |  15.00% chance of Morning Star (332)
+    |   3.00% chance of Nabut (333)
+    |  10.00% chance of Shou-ono (342)
+    |  10.00% chance of Silifi (344)
+    |  10.00% chance of Tofun (356)
+    |   2.00% chance of nothing from this set
+*/

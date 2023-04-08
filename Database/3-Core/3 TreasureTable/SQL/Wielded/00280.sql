@@ -9,3 +9,16 @@ VALUES (280, 23659,  0, 0,    0, 5, 0.1,    0.25, 0, 0, 0,  True, False, False, 
      , (280, 23689,  0, 0,    0, 0, 0,    0.15, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Acid Spear */
      , (280, 23697,  0, 0,    0, 0, 0,    0.15, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Spear */
      , (280, 23719,  0, 0,    0, 0, 0,    0.15, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Fire Yaoji */;
+/* 
+    # Set: 1
+    |  25.00% chance of 5x Fire Throwing Club (23659) | StackSizeVariance: 0.1
+    |  25.00% chance of 4x Frost Throwing Club (23662) | StackSizeVariance: 0.1
+    |  50.00% chance of nothing from this set
+    # Set: 2
+    |  15.00% chance of Acid Yari (23723)
+    |  25.00% chance of Yari (23731)
+    |  15.00% chance of Tachi (23701)
+    |  15.00% chance of Acid Spear (23689)
+    |  15.00% chance of Spear (23697)
+    |  15.00% chance of Fire Yaoji (23719)
+*/

@@ -15,3 +15,29 @@ VALUES (165, 23734,  0, 0,    0, 0, 0,     0.8, 0, 0, 0,  True,  True, False, 0,
      , (165, 23684,  0, 0,    0, 0, 0,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Kite Shield */
      , (165, 23730,  0, 0,    0, 0, 0,     0.5, 0, 0, 0,  True,  True,  True, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Yari */
      , (165, 23684,  0, 0,    0, 0, 0,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Kite Shield */;
+/* 
+    # Set: 1
+    |  80.00% chance of Yumi (23734)
+    |         with
+    |            100.00% chance of 13x to 14x Deadly Arrow (15429) | StackSizeVariance: 0.1
+    |  10.00% chance of Katar (23674)
+    |         with
+    |            100.00% chance of Kite Shield (23684)
+    |  10.00% chance of Nekode (23680)
+    |         with
+    |            100.00% chance of Kite Shield (23684)
+    # Set: 2
+    |  10.00% chance of Cestus (23637)
+    |         with
+    |            100.00% chance of Kite Shield (23684)
+    |  10.00% chance of Spear (23696)
+    |         with
+    |            100.00% chance of Kite Shield (23684)
+    |  10.00% chance of Tachi (23700)
+    |         with
+    |            100.00% chance of Kite Shield (23684)
+    |  50.00% chance of Yari (23730)
+    |         with
+    |            100.00% chance of Kite Shield (23684)
+    |  20.00% chance of nothing from this set
+*/

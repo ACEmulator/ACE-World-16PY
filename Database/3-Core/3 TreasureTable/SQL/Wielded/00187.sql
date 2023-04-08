@@ -4,3 +4,9 @@ INSERT INTO `treasure_wielded` (`treasure_Type`, `weenie_Class_Id`, `palette_Id`
 VALUES (187,  4902,  0, 0,    0, 0, 0,     0.1, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Key */
      , (187,  4903,  0, 0,    0, 0, 0,    0.45, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Key */
      , (187,  4901,  0, 0,    0, 0, 0,    0.45, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Key */;
+/* 
+    # Set: 1
+    |  10.00% chance of Key (4902)
+    |  45.00% chance of Key (4903)
+    |  45.00% chance of Key (4901)
+*/

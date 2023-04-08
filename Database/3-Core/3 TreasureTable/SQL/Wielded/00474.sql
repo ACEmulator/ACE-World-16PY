@@ -5,3 +5,11 @@ VALUES (474, 27867,  0, 0,    0, 0, 0,    0.22, 0, 0, 0,  True, False, False, 0,
      , (474, 27875,  0, 0,    0, 10, 0,    0.22, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Muck Ball */
      , (474, 27871,  0, 0,    0, 0, 0,    0.22, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Tree Trunk */
      , (474, 27879,  0, 0,    0, 0, 0,    0.22, 0, 0, 0, False, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Bone Sword */;
+/* 
+    # Set: 1
+    |  22.00% chance of Stone Axe (27867)
+    |  22.00% chance of 10x Muck Ball (27875)
+    |  22.00% chance of Tree Trunk (27871)
+    |  22.00% chance of Bone Sword (27879)
+    |  12.00% chance of nothing from this set
+*/

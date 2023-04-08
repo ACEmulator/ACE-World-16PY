@@ -19,3 +19,32 @@ VALUES (225,   320,  0, 0,    0, 5, 0.1,    0.05, 0, 0, 0,  True, False, False, 
      , (225,   300,  0, 0,    0, 20, 0.1,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Arrow */
      , (225,   311,  0, 0,    0, 0, 0,    0.12, 0, 0, 0,  True,  True,  True, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Heavy Crossbow */
      , (225,  3605,  0, 0,    0, 12, 0.1,       1, 0, 0, 0,  True, False, False, 0, 0, 0, 0, '2005-02-09 10:00:00') /* Frog Crotch Quarrel */;
+/* 
+    # Set: 1
+    |   5.00% chance of 5x Javelin (320) | StackSizeVariance: 0.1
+    |   5.00% chance of 4x Djarid (317) | StackSizeVariance: 0.1
+    |  12.00% chance of Yag (360)
+    |         with
+    |            100.00% chance of 18x to 20x Arrow (300) | StackSizeVariance: 0.1
+    |  12.00% chance of Shortbow (307)
+    |         with
+    |            100.00% chance of 14x to 16x Armor Piercing Arrow (3598) | StackSizeVariance: 0.1
+    |  12.00% chance of Shouyumi (341)
+    |         with
+    |            100.00% chance of 18x to 20x Arrow (300) | StackSizeVariance: 0.1
+    |  12.00% chance of Light Crossbow (312)
+    |         with
+    |            100.00% chance of 9x to 10x Quarrel (305) | StackSizeVariance: 0.1
+    |  12.00% chance of Nayin (334)
+    |         with
+    |            100.00% chance of 16x to 18x Arrow (300) | StackSizeVariance: 0.1
+    |  12.00% chance of Longbow (306)
+    |         with
+    |            100.00% chance of 16x to 18x Arrow (300) | StackSizeVariance: 0.1
+    |  12.00% chance of Yumi (363)
+    |         with
+    |            100.00% chance of 18x to 20x Arrow (300) | StackSizeVariance: 0.1
+    |   6.00% chance of Heavy Crossbow (311) | Chance adjusted down from 12.00% due to overage for this set
+    |         with
+    |            100.00% chance of 11x to 12x Frog Crotch Quarrel (3605) | StackSizeVariance: 0.1
+*/
