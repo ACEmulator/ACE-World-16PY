@@ -105,7 +105,7 @@ VALUES (4126,   1, 0x02000059) /* Setup */
                                    |  10.00% chance of Kite Shield (91)
                                    |  10.00% chance of Round Shield (93)
                                    |  60.00% chance of nothing from this set */
-     , (4126,  33, 0x000000C1) /* InventoryTreasureType */;
+     , (4126,  33,        193) /* InventoryTreasureType - Loot Tier: 2 */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4126,   1,  60, 0, 0) /* Strength */
