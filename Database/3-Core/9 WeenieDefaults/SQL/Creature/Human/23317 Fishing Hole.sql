@@ -16,7 +16,7 @@ VALUES (23317,   1,         16) /* ItemType - Creature */
      , (23317,  82,          0) /* InitGeneratedObjects */
      , (23317,  83,      65536) /* ActivationResponse - Generate */
      , (23317,  93,    2098204) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
-     , (23317,  95,          1) /* RadarBlipColor - LifeStone */
+     , (23317,  95,          1) /* RadarBlipColor - Blue */
      , (23317, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (23317, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (23317, 146,         24) /* XpOverride */;

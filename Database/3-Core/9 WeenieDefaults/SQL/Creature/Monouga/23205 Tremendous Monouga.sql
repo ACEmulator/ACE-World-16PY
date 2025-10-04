@@ -17,7 +17,7 @@ VALUES (23205,   1,         16) /* ItemType - Creature */
      , (23205,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (23205, 101,        131) /* AiAllowedCombatStyle - Unarmed, OneHanded, ThrownWeapon */
      , (23205, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (23205, 134,         32) /* PlayerKillerStatus - Baelzharon */
+     , (23205, 134,         32) /* PlayerKillerStatus - Free */
      , (23205, 140,          1) /* AiOptions - CanOpenDoors */
      , (23205, 146,    8000000) /* XpOverride */;
 
