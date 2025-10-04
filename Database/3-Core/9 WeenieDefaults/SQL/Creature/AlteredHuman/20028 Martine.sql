@@ -17,7 +17,7 @@ VALUES (20028,   1,         16) /* ItemType - Creature */
      , (20028,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (20028, 101,        183) /* AiAllowedCombatStyle - Unarmed, OneHanded, OneHandedAndShield, Bow, Crossbow, ThrownWeapon */
      , (20028, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (20028, 134,         32) /* PlayerKillerStatus - Baelzharon */
+     , (20028, 134,         32) /* PlayerKillerStatus - Free */
      , (20028, 146,          0) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

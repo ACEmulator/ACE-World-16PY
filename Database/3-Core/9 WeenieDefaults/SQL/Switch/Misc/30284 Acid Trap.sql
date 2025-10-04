@@ -13,7 +13,7 @@ VALUES (30284,   1,        128) /* ItemType - Misc */
      , (30284,  93,         20) /* PhysicsState - Ethereal, IgnoreCollisions */
      , (30284, 106,        100) /* ItemSpellcraft */
      , (30284, 119,          1) /* Active */
-     , (30284, 134,          8) /* PlayerKillerStatus - Creature */;
+     , (30284, 134,          8) /* PlayerKillerStatus - Unprotected */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30284,   1, True ) /* Stuck */

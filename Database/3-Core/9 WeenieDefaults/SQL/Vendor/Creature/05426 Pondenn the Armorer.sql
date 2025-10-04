@@ -19,7 +19,7 @@ VALUES (5426,   1,         16) /* ItemType - Creature */
      , (5426, 126,        100) /* VendorHappyMean */
      , (5426, 127,        100) /* VendorHappyVariance */
      , (5426, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (5426, 134,          1) /* PlayerKillerStatus - NPC */
+     , (5426, 134,          1) /* PlayerKillerStatus - Protected */
      , (5426, 146,        231) /* XpOverride */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
